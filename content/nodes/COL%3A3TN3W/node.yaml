@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus caatingae
+  displayName: Leptodactylus caatingae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN3W
+  sourceIndexes:
+    - name:
+        en: Leptodactylus caatingae
+        zh: Leptodactylus caatingae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN3W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/374
+            queryName: Leptodactylus caatingae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ac873dcb62
+      - s-2002caab77
+      - s-416ffe9105
+      - s-6d9c439a91
+      - s-0a31f51548
+      - s-6aff708e80
+      - s-253f2ef671
+      - s-bad714bcec
+      - s-3180888ba7
+      - s-fae462a3ff
+      - s-bb28f5dbe7
+      - s-95fcec348d
+      - s-8c773a3319
+    zh:
+      - s-1f106d688a
+      - s-8ba3c74a24
+      - s-42b9928fd1
+      - s-0ec9aed524
+      - s-2c29c1af0e
+      - s-951fed7918
+      - s-76b98ccaf7
+      - s-300f3a274d
+      - s-55c21c3354
+      - s-9ca5a0c457
+      - s-240333de84
+      - s-3db211a07d
+      - s-c6f3777756

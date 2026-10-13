@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis punctatus
+  displayName: Guibemantis punctatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3HKMH
+  sourceIndexes:
+    - name:
+        en: Guibemantis punctatus
+        zh: Guibemantis punctatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3HKMH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/226
+            queryName: Guibemantis punctatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/200
+            queryName: Mantidactylus punctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 22
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d1c804f23
+      - s-b44605466c
+      - s-fcb882d40d
+      - s-7aba232673
+      - s-eed001ca16
+      - s-c9a09eb164
+      - s-fc614651a5
+      - s-50b1058ab8
+      - s-dab6f91031
+      - s-bf058b0121
+      - s-43dc7b6445
+    zh:
+      - s-b6294a5c2f
+      - s-280a23f5b1
+      - s-1bc52a5bb7
+      - s-aa4861a49b
+      - s-66fc2028be
+      - s-212fc58a12
+      - s-235e6de5e2
+      - s-8130368fba
+      - s-2ab68d6c2a
+      - s-3e3c904beb
+      - s-93532a9fc7

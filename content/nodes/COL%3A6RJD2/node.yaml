@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Micryletta steinegeri
+  displayName: Micryletta steinegeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6RJD2
+  sourceIndexes:
+    - name:
+        en: Micryletta steinegeri
+        zh: Micryletta steinegeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6RJD2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/80
+            queryName: Micryletta steinegeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/39
+            queryName: Microhyla steinegeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/40
+            queryName: Rana gracilipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a2b388201
+      - s-7b8f4e0736
+      - s-434b12b5ad
+      - s-fecbbd5b05
+      - s-ed44cfb620
+      - s-8c99e0665c
+      - s-0ee462cb3f
+      - s-6308e0abdd
+      - s-a898d24dd7
+      - s-bed28adaae
+    zh:
+      - s-383036c377
+      - s-430c40950f
+      - s-4c86a22e71
+      - s-a11fb7f1d2
+      - s-0143e7b8d1
+      - s-4f1f2317c2
+      - s-e9da78af7e
+      - s-e85e061bd3
+      - s-e4087c3e29
+      - s-53cd3b0507

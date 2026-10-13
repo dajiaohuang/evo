@@ -1,0 +1,15 @@
+## Read this historical record through food and foraging position {#s-cd69135f0a}
+COL26.8 accepts Sasia africana in Picidae. The same-name, same-family EltonTraits 1.0 entry provides source information for 2 ecological field groups. Its taxonomy follows earlier bird classification or MSW3 for mammals; the name match does not resolve modern splits or synonym disputes.
+
+## Relative weights of food categories {#s-980bf45637}
+Recorded positive food-category weights are invertebrates 100%. Diet source code A marks high compiler confidence in the source and diet information. The percentages standardize verbal descriptions rather than measure diet composition, and a zero does not show that an item is never eaten. Categories such as Nect, Seed and PlantO have broader source definitions than their everyday names; they do not imply feeding exclusively on nectar, seeds or plants.
+
+## Foraging strata differ from whole-day activity {#s-30b7ec932c}
+The archive marks these species-level foraging-stratum weights: understory, edges or shrubs below 2 m 80%; trees or high bushes from 2 m upward but below the canopy 20%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. The source defines surface-water, understory, mid/high, canopy and aerial categories separately. They are not elevation bands and cannot establish flight height or habitat area.
+
+## Trace each field group to its source labels {#s-b74524a43d}
+Source labels for the field groups used here are Ref_7. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. The source record keeps each original string with its file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+
+## Life-history evidence limits {#s-12e5058937}
+The EltonTraits 1.0 values here are historical foraging records matched by name and family; they do not make a complete species monograph. Matching names and classification do not show that historical species concepts are equivalent to COL26.8 concepts. Food and bird-foraging-stratum percentages are coarse relative weights that the authors standardized from literature descriptions; they are not direct measures of stomach contents, intake, energy or observation time. Avian A/B diet codes still carry source and proportional uncertainty. Mammalian ABC diet or activity codes may also refer to a congener the compilers judged ecologically similar; not every field is claimed as a direct observation of this species. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. The underlying books and papers are not individually summarized here. Other sources are needed for individual, seasonal and local variation, current range, population and conservation.
+

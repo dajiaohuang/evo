@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor pygmaeus
+  displayName: Craugastor pygmaeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC6L
+  sourceIndexes:
+    - name:
+        en: Craugastor pygmaeus
+        zh: Craugastor pygmaeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC6L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/165
+            queryName: Craugastor pygmaeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/171
+            queryName: Eleutherodactylus pygmaeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/265
+            queryName: Microbatrachylus albolabris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/266
+            queryName: Microbatrachylus pygmaeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/267
+            queryName: Microbatrachylus minimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/268
+            queryName: Microbatrachylus imitator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e43aeb3053
+      - s-2454d5630d
+      - s-42870427ba
+      - s-9386211e03
+      - s-6c10e4b9d7
+      - s-80f505cffa
+      - s-9680641871
+      - s-5ad0c59c03
+      - s-1d91c41fe5
+      - s-6c91845497
+      - s-52c4e98b71
+      - s-7eb77c834f
+      - s-82efb922ec
+      - s-171f34b4ba
+      - s-10de5e31cc
+    zh:
+      - s-6b8e4e1fae
+      - s-7e126b21ac
+      - s-96f0415cac
+      - s-fb0b54ee88
+      - s-61b5bf26de
+      - s-ba0e896dbd
+      - s-d8181613d2
+      - s-1b4aa2075f
+      - s-3ad9f93af3
+      - s-c3a8d663df
+      - s-0f7e8f2e33
+      - s-8a8e79cf4e
+      - s-e3791baa75
+      - s-73d8dc1598
+      - s-9cb1f21590

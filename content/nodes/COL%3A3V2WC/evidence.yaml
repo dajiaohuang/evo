@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-834862fbeb
+          part: title
+        zh:
+          page: zh
+          section: s-a4cf9de4bc
+          part: title
+      text:
+        en:
+          page: en
+          section: s-834862fbeb
+          part: body
+        zh:
+          page: zh
+          section: s-a4cf9de4bc
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-090bd4e8b9
+          part: title
+        zh:
+          page: zh
+          section: s-47d922d7a9
+          part: title
+      text:
+        en:
+          page: en
+          section: s-090bd4e8b9
+          part: body
+        zh:
+          page: zh
+          section: s-47d922d7a9
+          part: body
+  atlas-node:
+    name: Lingula anatina
+    commonName: Duck-bill lamp shell
+    commonNameZh: 鸭嘴海豆芽
+    rank: species
+    firstAppearance: 0
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    taxonId: txn:150949
+  claims:
+    - subjectId: taxon:lingula-anatina
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: The living Lingula anatina genome, staged transcriptomes and shell proteome document a sampled phosphate-shell biomineralization toolkit; they do not demonstrate morphological stasis or the lineage's origin time.
+      confidence: high
+      confidenceRationale: Genome, expression and proteome data directly support molecular inventories, while deep-time stasis and origin claims require independent fossils.
+      referenceLinks:
+        - referenceId: luo-et-al-2015-lingula-genome
+          relation: supports
+          pages: Article 8301
+          figure: Figures 1–5; Supplementary Notes and Tables
+          quoteLocator: Genome assembly; phylogenomics; shell transcriptome and proteome; biomineralization discussion
+    - subjectId: taxon:lingula-anatina
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Luo et al. document living gravid Lingula anatina adults collected in July and August at Kasari Bay with exact coordinates, so 0 Ma denotes that present-day collection only and does not date lineage origin, fossil duration or morphological stasis.
+      confidence: high
+      confidenceRationale: The biological-materials method and supplementary locality figure directly identify the living collection. High confidence applies only to sampled present-day status.
+      referenceLinks:
+        - relation: supports
+          referenceId: luo-et-al-2015-lingula-genome
+          pages: Article 8301
+          figure: Supplementary Figure 1
+          quoteLocator: "Methods: Biological materials; gravid adults collected in July and August at Kasari Bay with coordinates"
+  claim-rationales.zh:
+    - 基因组、表达与蛋白组数据直接支持分子清单，但深时停滞和起源主张需要独立化石证据。
+    - 生物材料方法与补充地点图直接标识了现生采集。高置信度只适用于已取样的当代状态。
+  claim-statements.zh:
+    - 现生鸭嘴海豆芽基因组、分期转录组和贝壳蛋白组记录了一个磷酸盐壳生物矿化工具箱样本；它们不证明形态停滞或谱系起源时间。
+    - Luo 等记录了 7 月和 8 月在笠利湾按精确坐标采集的现生怀卵鸭嘴海豆芽成体，因此 0 Ma 只表示该当代采集，不为谱系起源、化石延限或形态停滞定年。
+  ranges:
+    - entityId: lingula-anatina
+      rangeKind: global-composite
+      taxonomicConcept: Lingula anatina living multi-omics sample
+      geographicScope: Living gravid adults collected in Kasari Bay, Amami Island, Japan
+      olderMa: 0
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero age denotes the documented living collection; it is not a lineage-origin date, fossil range or claim of morphological stasis.
+      evidenceBasis: Luo et al. directly document the living collection, exact locality, genome, developmental transcriptomes and shell proteome.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:lingula-anatina:source-bounded-range-rc50
+      referenceLocators:
+        - referenceId: luo-et-al-2015-lingula-genome
+          locator: Article 8301; Methods, Biological materials; Supplementary Figure 1, gravid adults collected in July and August at Kasari Bay with coordinates

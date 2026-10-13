@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufotes boulengeri
+  displayName: Bufotes boulengeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X4CB
+  sourceIndexes:
+    - name:
+        en: Bufotes boulengeri
+        zh: Bufotes boulengeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X4CB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/24
+            queryName: Bufotes boulengeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/499
+            queryName: Pseudepidalea boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/7
+            queryName: Pseudepidalea sicula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/318
+            queryName: Bufotes siculus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/319
+            queryName: Bufo siculus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/343
+            queryName: Bufo hemprichi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/344
+            queryName: Bufo boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/185
+            queryName: Bufotes boulengeri siculus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/485
+            queryName: Bufo viridis maculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-04a9c3d247
+      - s-05edd9f456
+      - s-7709d2a68d
+      - s-4a99fb37d5
+      - s-3365b0a05b
+      - s-7a03848e3c
+      - s-029ada84f5
+      - s-5ac5807eac
+      - s-ce56313746
+    zh:
+      - s-2a6e8176b2
+      - s-d31b864568
+      - s-cc2b82c118
+      - s-fe8f8aaf87
+      - s-d077d8e1fa
+      - s-f541874259
+      - s-eff57cb85e
+      - s-16c421da6d
+      - s-68950440d5

@@ -48,7 +48,6 @@ const ontology = readJson('data/navigation/atlas-ontology.json')
 const treeEvidence = readJson('data/tree/evidence.json')
 const claims = readJson('data/evidence/claims.json')
 const claimRationalesZh = readJson('data/evidence/claim-rationales.zh.json')
-const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
 const entityIndex = readJson('data/indexes/entity-occurrence-index.json')
 const entityLinkageCoverage = readJson('data/indexes/entity-linkage-coverage.json')
 const canonicalRanges = readJson('data/ranges/range-evidence.json')
@@ -188,7 +187,6 @@ check(unique(places.map((place) => place.code)), 'place codes must be unique')
 check(unique(media.map((asset) => asset.id)), 'media IDs must be unique')
 check(unique(stories.map((story) => story.id)), 'story IDs must be unique')
 check(unique(claims.map((claim) => claim.id)), 'claim IDs must be unique')
-check(unique(editorialDecisions.map((decision) => decision.id)), 'editorial decision IDs must be unique')
 for (const reference of references) {
   if (reference.dateStatus) check(isRecordedUndatedLead(reference), `reference ${reference.id}: unresolved date status requires an automated imported lead with retained metadata and no recorded date`)
   if (reference.type === 'paper') {
@@ -351,7 +349,6 @@ for (const asset of media) {
 }
 
 for (const claim of claims) {
-  check(claim.claimKind === 'scientific', `claim ${claim.id}: editorial decisions belong in editorial-decisions.json`)
   check(claim.confidenceRationale !== 'Confidence reflects the cited source and the stated scope; locator precision is retained where available.', `claim ${claim.id}: confidence rationale must be claim-specific`)
   const [kind, ...subjectParts] = claim.subjectId.split(':')
   const subjectId = subjectParts.join(':')
@@ -378,18 +375,13 @@ for (const event of events) {
 check(unique(claims.map((claim) => claim.confidenceRationale)), 'claim confidence rationales must not be reused across claims')
 check(sameValues(Object.keys(claimRationalesZh).sort(), claims.map((claim) => claim.id).sort()), 'Chinese claim rationale IDs must exactly match evidence claim IDs')
 for (const [id, rationale] of Object.entries(claimRationalesZh)) check(typeof rationale === 'string' && rationale.length >= 20, `${id}: Chinese confidence rationale is required`)
-for (const decision of editorialDecisions) {
-  const [kind, ...subjectParts] = decision.subjectId.split(':')
-  const subjectId = subjectParts.join(':')
-  check(kind === 'event' ? eventIds.has(subjectId) : kind === 'taxon' && profileIds.has(subjectId), `editorial decision ${decision.id}: unknown subject ${decision.subjectId}`)
-  check(typeof decision.rationale === 'string' && decision.rationale.length >= 20, `editorial decision ${decision.id}: rationale is required`)
-  check(/^\d{4}-\d{2}-\d{2}$/.test(decision.decidedAt), `editorial decision ${decision.id}: decidedAt must be an ISO date`)
-}
 for (const eventId of eventIds) check(claims.some((claim) => claim.subjectId === `event:${eventId}`), `event ${eventId}: missing claim-level evidence`)
 for (const profile of profiles) {
   if (claims.some((claim) => claim.subjectId === `taxon:${profile.id}`)) continue
-  const sourceIds = new Set(profile.readerSources?.map((source) => source.id))
-  check(Boolean(profile.readerSections?.length) && profile.readerSections.every((section) => section.sourceIds.length > 0 && section.sourceIds.every((id) => sourceIds.has(id))), `taxon ${profile.id}: reader text must link to its sources when formal claims are absent`)
+  const sourceIds = new Set([...(profile.readerSources?.map((source) => source.id) ?? []), ...profile.referenceIds])
+  check(Boolean(profile.readerSections?.length) && profile.readerSections.every((section) => section.sourceIds === undefined
+    ? profile.referenceIds.length > 0
+    : section.sourceIds.length > 0 && section.sourceIds.every((id) => sourceIds.has(id))), `taxon ${profile.id}: reader text requires a recorded bibliography or passage-specific sources when formal claims are absent`)
 }
 
 for (const estimate of calibrations.estimates) {

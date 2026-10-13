@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Limnopithecus legetet
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Limnopithecus legetet
+      en: Limnopithecus legetet
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-34fa5d94fd
+            part: body
+          en:
+            page: en
+            section: s-5c377f82bb
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7ae57adb52
+            part: body
+          en:
+            page: en
+            section: s-5710266578
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0df590553d
+            part: body
+          en:
+            page: en
+            section: s-b0e33a6a05
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bda472e3da
+            part: body
+          en:
+            page: en
+            section: s-da206f03e5
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-93b9a67bd3
+            part: body
+          en:
+            page: en
+            section: s-6b0442f103
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Limnopithecus legetet
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=385228&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:385228; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:385228
+          selectedOccurrenceIds:
+            - occ:220282
+            - occ:226911
+            - occ:226944
+            - occ:227191
+            - occ:227200
+            - occ:1394777
+          selectedCollectionIds:
+            - col:21340
+            - col:22069
+            - col:22070
+            - col:22078
+            - col:22081
+            - col:192070
+          sourceReferenceIds:
+            - ref:4655
+            - ref:5302
+            - ref:5322
+            - ref:5310
+            - ref:5306
+            - ref:64938
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3ca3ffbdc1
+        part: body
+      en:
+        page: en
+        section: s-64a2c1188a
+        part: body

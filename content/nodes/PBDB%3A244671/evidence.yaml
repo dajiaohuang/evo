@@ -1,0 +1,151 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Xyophorus atlanticus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Xyophorus atlanticus
+      en: Xyophorus atlanticus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e6ef11284c
+            part: body
+          en:
+            page: en
+            section: s-b0e9cf4272
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-92f9c0352f
+            part: body
+          en:
+            page: en
+            section: s-e76a911f26
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d0c4b6ebca
+            part: body
+          en:
+            page: en
+            section: s-2f51fb550c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-381f5656d3
+            part: body
+          en:
+            page: en
+            section: s-e1a3fe9be7
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ff097d557b
+            part: body
+          en:
+            page: en
+            section: s-e06d97b158
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Xyophorus atlanticus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=244671&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:244671; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:244671
+          selectedOccurrenceIds:
+            - occ:1511278
+          selectedCollectionIds:
+            - col:210638
+          sourceReferenceIds:
+            - ref:72831
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b9add05016
+        part: body
+      en:
+        page: en
+        section: s-724ff9d48f
+        part: body

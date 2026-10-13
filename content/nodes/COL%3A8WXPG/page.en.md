@@ -1,0 +1,3 @@
+## What growth and reproductive traits are recorded for Manihot pulchrifolius? {#s-4fd09c5d87}
+A firm, irregular underground xylopodium—a woody storage structure—supports stems whose height is reported as either 1–2.9 m or over 3 m. The stems are described as smooth, upright, and hairless, with yellowish latex. Simple leaves have cylindrical stalks, lobed blades with oblong lobes, and narrow, thread-like stipules that fall early. Terminal panicles bear separate male and female flowers; female flowers are near the base. Their smooth, hairless capsule is round with raised ribs. The smooth, ellipsoid seeds have a prominent caruncle, a small seed attachment.
+

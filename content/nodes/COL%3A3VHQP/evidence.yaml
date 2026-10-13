@@ -1,0 +1,890 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lithobates pipiens (Schreber, 1782)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Lithobates pipiens
+      zh: Lithobates pipiens
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-651e307d4c
+            part: title
+          zh:
+            page: zh
+            section: s-272056993d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-651e307d4c
+            part: body
+          zh:
+            page: zh
+            section: s-272056993d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a83283767d
+            part: title
+          zh:
+            page: zh
+            section: s-20db6892db
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a83283767d
+            part: body
+          zh:
+            page: zh
+            section: s-20db6892db
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-e12086e4fe
+            part: title
+          zh:
+            page: zh
+            section: s-fd51649287
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-e12086e4fe
+            part: body
+          zh:
+            page: zh
+            section: s-fd51649287
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a0b19ec387
+            part: title
+          zh:
+            page: zh
+            section: s-615f0fcfb1
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-a0b19ec387
+            part: body
+          zh:
+            page: zh
+            section: s-615f0fcfb1
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cc3f3a40d7
+            part: title
+          zh:
+            page: zh
+            section: s-3b79de46e2
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-cc3f3a40d7
+            part: body
+          zh:
+            page: zh
+            section: s-3b79de46e2
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-01ec5f471f
+            part: title
+          zh:
+            page: zh
+            section: s-3fd928f8a8
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-01ec5f471f
+            part: body
+          zh:
+            page: zh
+            section: s-3fd928f8a8
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-66fc1deeca
+            part: title
+          zh:
+            page: zh
+            section: s-cc5e66e52e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Size_at_maturity_min_mm
+          - Size_at_maturity_max_mm
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-66fc1deeca
+            part: body
+          zh:
+            page: zh
+            section: s-cc5e66e52e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-465ec9911c
+            part: title
+          zh:
+            page: zh
+            section: s-e1e978c3d4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-465ec9911c
+            part: body
+          zh:
+            page: zh
+            section: s-e1e978c3d4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-136a6e857d
+            part: title
+          zh:
+            page: zh
+            section: s-79baeda185
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-136a6e857d
+            part: body
+          zh:
+            page: zh
+            section: s-79baeda185
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-ea946362f40e1643d2e4520a189b31c2
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-572a2466e865cc94eaafba0d
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-2405026eed768b1b5938b192
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-246dd7591ad5343f49e3802e
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-96ca00c499
+            part: title
+          zh:
+            page: zh
+            section: s-f1081f0bcc
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-96ca00c499
+            part: body
+          zh:
+            page: zh
+            section: s-f1081f0bcc
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-88db6d3063
+            part: title
+          zh:
+            page: zh
+            section: s-0037a08123
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-88db6d3063
+            part: body
+          zh:
+            page: zh
+            section: s-0037a08123
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2deb66b781
+            part: title
+          zh:
+            page: zh
+            section: s-991eba81b9
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2deb66b781
+            part: body
+          zh:
+            page: zh
+            section: s-991eba81b9
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-83141ad828
+            part: title
+          zh:
+            page: zh
+            section: s-cb90bf10ff
+            part: title
+        sourceIds:
+          - primary-pmc12822217-3vhqp
+        text:
+          en:
+            page: en
+            section: s-83141ad828
+            part: body
+          zh:
+            page: zh
+            section: s-cb90bf10ff
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-f5303d67d4
+            part: title
+          zh:
+            page: zh
+            section: s-36e6975930
+            part: title
+        sourceIds:
+          - primary-pmc12822217-3vhqp
+        text:
+          en:
+            page: en
+            section: s-f5303d67d4
+            part: body
+          zh:
+            page: zh
+            section: s-36e6975930
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-8066a6e41c
+            part: title
+          zh:
+            page: zh
+            section: s-01859c5c6f
+            part: title
+        sourceIds:
+          - primary-pmc12822217-3vhqp
+        text:
+          en:
+            page: en
+            section: s-8066a6e41c
+            part: body
+          zh:
+            page: zh
+            section: s-01859c5c6f
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-32a6199e91
+            part: title
+          zh:
+            page: zh
+            section: s-1230e1e08d
+            part: title
+        sourceIds:
+          - primary-pmc12822217-3vhqp
+        text:
+          en:
+            page: en
+            section: s-32a6199e91
+            part: body
+          zh:
+            page: zh
+            section: s-1230e1e08d
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-4643c99a8b
+            part: title
+          zh:
+            page: zh
+            section: s-49b33c9471
+            part: title
+        sourceIds:
+          - primary-pmc12822217-3vhqp
+        text:
+          en:
+            page: en
+            section: s-4643c99a8b
+            part: body
+          zh:
+            page: zh
+            section: s-49b33c9471
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8faa8bd1d5
+            part: title
+          zh:
+            page: zh
+            section: s-3a7b01b5d6
+            part: title
+        sourceIds:
+          - primary-pmc12822217-3vhqp
+          - primary-pmc12822217-3vhqp-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-8faa8bd1d5
+            part: body
+          zh:
+            page: zh
+            section: s-3a7b01b5d6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Lithobates pipiens
+          url: https://www.checklistbank.org/dataset/316115/taxon/3VHQP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 775108, row 523874; Distribution.tsv rows 196469; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4889; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4892 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 784, 785; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2868; Reference.csv rows 3851
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 343, 344, 345, 346, 347, 348, 349, 350, 351, 406, 407, 408, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 2607, 3138, 3139, 3140, 3141, 3142, 3143, 3407, 3408, 3409, 3410, 3411, 3412, 3413, 3414, 3415, 3416, 3417, 3418, 3893, 3904, 3905, 3906, 3907, 3908, 3909, 3910, 3911, 3912; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc12822217-3vhqp
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Lithobates pipiens: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12822217-3vhqp-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 usage78R8G accepted3VHQP
+          scope:
+            en: Exact nomenclatural link Rana pipiens to Lithobates pipiens; no genome or specimen identity certification
+            zh: Rana pipiens 至 Lithobates pipiens 的精确命名链接；无基因组或标本身份认证
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc12822217-3vhqp-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b2e48c05de
+        part: body
+      zh:
+        page: zh
+        section: s-7b5c392e08
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "775108"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=775108
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 523874
+        key: "775108"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "775108"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 196469
+            key: 775108|North America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-ea946362f40e1643d2e4520a189b31c2
+      sourceRowId: Anf4889
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4889
+        bibliographyRowId: Anf4892
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Lithobates onca
+        candidateBibliographyRowIds:
+          - Anf4892
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-572a2466e865cc94eaafba0d
+        scientificName: Lithobates pipiens
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-2405026eed768b1b5938b192
+        scientificName: Lithobates pipiens
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1186/s12864-025-12414-y
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        sourceKey: primary-pmc12822217-3vhqp
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/article.xml
+        sourceConcept: Table1source Rana pipiens listedassemblyGCA_040894005.1; conflictingS1quantitativeassignments withheld, no rawgenomeauthentication
+        evidenceRead: "Lithobates pipiens: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reference assembly in a comparative genome study
+              zh: 比较基因组研究中的参考组装
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-3vhqp
+            locator: PMC12822217 XML Tab1 tbody row54 sourceRana pipiens accessionGCA_040894005.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6464c43ef3
+                part: body
+              zh:
+                page: zh
+                section: s-88b8608aa0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Assembly metadata has limits
+              zh: 组装元数据有其限制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-3vhqp
+            locator: PMC12822217 XML Tab1 tbody row54 sourceRana pipiens accessionGCA_040894005.1;Tab1caption;Sec3assemblyfilter
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6a030a0764
+                part: body
+              zh:
+                page: zh
+                section: s-e9b8a67481
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Repeat annotations are computational observations
+              zh: 重复序列注释是计算观察
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-3vhqp
+            locator: PMC12822217 XML Sec3 repeatannotation
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4d8f2fbe69
+                part: body
+              zh:
+                page: zh
+                section: s-d573924814
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Across-species correlations do not prove this species mechanism
+              zh: 跨物种相关性不能证明本种机制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-3vhqp
+            locator: PMC12822217 XML Sec5–8/Sec11–15/Sec17–20
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f4acf5dd72
+                part: body
+              zh:
+                page: zh
+                section: s-11ab1e22ea
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Conflicting source identifiers prevent a repeat-data assignment
+              zh: 来源编号冲突阻止重复数据归属
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-3vhqp
+            locator: PMC12822217 XML Tab1 tbody row54 sourceRana pipiens accessionGCA_040894005.1; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/12864_2025_12414_MOESM1_ESM.xlsx Table S1 A8:B8; TableS2/S3headers
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9de41a93bc
+                part: body
+              zh:
+                page: zh
+                section: s-6ff23c3b2e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: taxonomy
+            heading:
+              en: Frozen nomenclature preserves the assembly source name
+              zh: 冻结命名对应保留组装来源名
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-3vhqp
+            locator: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/col26.8-name-bridges.json usage78R8G accepted3VHQP
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6fdfe8d4de
+                part: body
+              zh:
+                page: zh
+                section: s-c5ed2519ca
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

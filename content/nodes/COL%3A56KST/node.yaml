@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius hankeni
+  displayName: Thorius hankeni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KST
+  sourceIndexes:
+    - name:
+        en: Thorius hankeni
+        zh: Thorius hankeni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KST
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/40
+            queryName: Thorius hankeni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd8ff8ca9c
+      - s-8aa4ebf2a3
+      - s-7216b850db
+    zh:
+      - s-41effefb23
+      - s-8f6aaa9234
+      - s-75fbf2c1c1

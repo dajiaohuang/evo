@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Scaphiopus (Scaphiopus) wardorum
+    rank: species
+    sourceTaxonId: txn:110632
+    name:
+      en: Scaphiopus (Scaphiopus) wardorum
+      zh: Scaphiopus (Scaphiopus) wardorum
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-07bc4dd016
+            part: body
+          zh:
+            page: zh
+            section: s-d595f67cca
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 4 PBDB occurrence rows and collection fields
+          zh: 4 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-1483f34f99
+            part: body
+          zh:
+            page: zh
+            section: s-c7de85ec95
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Scaphiopus (Scaphiopus) wardorum
+          zh: Scaphiopus (Scaphiopus) wardorum 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-17d0d047ae
+            part: body
+          zh:
+            page: zh
+            section: s-98346fafb8
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110632; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Estes and J. A. Tihen. 1964. Lower vertebrates from the Valentine Formation of Nebraska. American Midland Naturalist 72(2):453-472
+    occurrenceEvidence:
+      - occurrenceId: occ:286989
+        collectionId: col:18284
+        acceptedTaxonId: txn:110632
+        identifiedTaxonId: var:110942
+        identifiedName: Scaphiopus wardorum n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:7565
+        bibliography: R. Estes and J. A. Tihen. 1964. Lower vertebrates from the Valentine Formation of Nebraska. American Midland Naturalist 72(2):453-472
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Brown
+        stratigraphy:
+          group: Ogallala
+          formation: Valentine
+          member: Cornell Dam
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:288113
+        collectionId: col:18359
+        acceptedTaxonId: txn:110632
+        identifiedTaxonId: var:110942
+        identifiedName: Scaphiopus wardorum
+        taxonomicDifference: recombined as
+        referenceId: ref:7579
+        bibliography: D. Parmley. 1992. Frogs in Hemphillian deposits of Nebraska, with the description of a new species of Bufo. Journal of Herpetology 26(3):274-281
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Knox
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 9.4
+        youngerAgeMa: 4.7
+      - occurrenceId: occ:289375
+        collectionId: col:18141
+        acceptedTaxonId: txn:110632
+        identifiedTaxonId: var:110942
+        identifiedName: Scaphiopus wardorum
+        taxonomicDifference: recombined as
+        referenceId: ref:687
+        bibliography: "J. A. Holman. 1987. Herpetofauna of the Egelhoff site (Miocene: Barstovian) of north-central Nebraska. Journal of Vertebrate Paleontology 7(2):109-120"
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Brown
+        stratigraphy:
+          group: Ogallala
+          formation: Valentine
+          member: Cornell Dam
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:1108127
+        collectionId: col:18208
+        acceptedTaxonId: txn:110632
+        identifiedTaxonId: var:110942
+        identifiedName: Scaphiopus wardorum
+        taxonomicDifference: recombined as
+        referenceId: ref:781
+        bibliography: "M. R. Voorhies, J. A. Holman, and X.-X. Xu . 1987. The Hottell Ranch rhino quarries (basal Ogallala: medial Barstovian), Banner County, Nebraska. Part I: Geologic setting, faunal lists, lower vertebrates. Contributions to Geology, University of Wyoming 25(1):55-69"
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Banner
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Scaphiopus (Scaphiopus) wardorum
+          zh: Scaphiopus (Scaphiopus) wardorum 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-17d0d047ae
+            part: body
+          zh:
+            page: zh
+            section: s-98346fafb8
+            part: body
+        sourceIds: []

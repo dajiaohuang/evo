@@ -1,0 +1,240 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Incilius epioticus (Cope, 1875)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Incilius epioticus
+      zh: Incilius epioticus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8ea31fc0f1
+            part: title
+          zh:
+            page: zh
+            section: s-ab2cd026fe
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8ea31fc0f1
+            part: body
+          zh:
+            page: zh
+            section: s-ab2cd026fe
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1b6d148b4f
+            part: title
+          zh:
+            page: zh
+            section: s-4c024780a3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1b6d148b4f
+            part: body
+          zh:
+            page: zh
+            section: s-4c024780a3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8ba9793e6d
+            part: title
+          zh:
+            page: zh
+            section: s-ee31501494
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-8ba9793e6d
+            part: body
+          zh:
+            page: zh
+            section: s-ee31501494
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-8a85b7bfd3c9111704e870cc
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-7f18b1c42af613f630538deebb6584ab
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-32bf12d959
+            part: title
+          zh:
+            page: zh
+            section: s-f48e37c59a
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-32bf12d959
+            part: body
+          zh:
+            page: zh
+            section: s-f48e37c59a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: limitations
+        title:
+          en: What the available record can support
+          zh: 现有记录能支持什么
+        text:
+          en:
+            page: en
+            section: s-b1989565c0
+            part: body
+          zh:
+            page: zh
+            section: s-2a1859d9b4
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Incilius epioticus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3PLCF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2338; Reference.csv rows 2642
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0560; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0560 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0720598afd
+        part: body
+      zh:
+        page: zh
+        section: s-f3b7e0d873
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-8a85b7bfd3c9111704e870cc
+        scientificName: Incilius epioticus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Griphomys alecer
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Griphomys alecer
+      en: Griphomys alecer
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5e66c55a91
+            part: body
+          en:
+            page: en
+            section: s-b594774645
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3fce8c4f70
+            part: body
+          en:
+            page: en
+            section: s-b8a39a707e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-65332ab7c0
+            part: body
+          en:
+            page: en
+            section: s-fe86116e37
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-574c7b4afb
+            part: body
+          en:
+            page: en
+            section: s-a1549c3cff
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bd4c768d3e
+            part: body
+          en:
+            page: en
+            section: s-bb3c91ddf8
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Griphomys alecer
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=46734&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:46734; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:46734
+          selectedOccurrenceIds:
+            - occ:175660
+            - occ:175863
+            - occ:176113
+            - occ:177175
+            - occ:177206
+            - occ:177209
+            - occ:177218
+            - occ:177230
+            - occ:177249
+            - occ:177269
+            - occ:177282
+            - occ:177285
+            - occ:177336
+            - occ:177339
+            - occ:177349
+            - occ:177390
+            - occ:1635401
+          selectedCollectionIds:
+            - col:16533
+            - col:16585
+            - col:16615
+            - col:16784
+            - col:16787
+            - col:16788
+            - col:16789
+            - col:16790
+            - col:16791
+            - col:16793
+            - col:16798
+            - col:16799
+            - col:16808
+            - col:16809
+            - col:16810
+            - col:16817
+            - col:167831
+          sourceReferenceIds:
+            - ref:1681
+            - ref:6294
+            - ref:3540
+            - ref:2074
+            - ref:2059
+            - ref:54866
+          originalIdentificationMappings:
+            - occurrenceId: occ:177230
+              originalIdentifiedName: Griphomys alecer n. sp.
+              acceptedName: Griphomys alecer
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-dba20993fe
+        part: body
+      en:
+        page: en
+        section: s-22a147170d
+        part: body

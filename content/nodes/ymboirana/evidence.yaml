@@ -1,0 +1,51 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Ymboirana acrux
+    commonName: Oligocene aquatic caecilian
+    commonNameZh: 渐新世水生蚓螈
+    rank: species
+    taxonId: ""
+    firstAppearance: 27.82
+    lastAppearance: 23.03
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:ymboirana
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Ymboirana acrux is documented by holotype DGM 1462-R from the Oligocene Tremembe Formation in Brazil's Taubate Basin. The partially preserved skeleton records this fossil occurrence, not the species's complete distribution, exact origin time or a global first appearance of aquatic caecilians.
+      confidence: medium
+      confidenceRationale: "Oligocene aquatic caecilian: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary."
+      referenceLinks:
+        - relation: supports
+          referenceId: santos-2024-ymboirana
+          pages: 3–20
+          figure: Figures 2–9 and 12–15
+          quoteLocator: Systematic palaeontology; Affinities; Discussion
+  claim-rationales.zh:
+    - 渐新世水生蚓螈：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+  claim-statements.zh:
+    - Ymboirana acrux 的正模 DGM 1462-R 来自巴西 Taubate 盆地渐新世 Tremembe 组。这具部分保存的骨架记录了该地点的化石产出，不代表物种完整分布、精确起源时间或水生蚓螈的全球首现。
+  ranges:
+    - entityId: ymboirana
+      rangeKind: global-composite
+      taxonomicConcept: Ymboirana acrux holotype occurrence
+      geographicScope: Tremembé Formation, Taubaté Basin, Brazil
+      olderMa: 27.82
+      youngerMa: 23.03
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Oligocene formation envelope; formal phylogenetic testing and unambiguous family synapomorphies remain unavailable.
+      evidenceBasis: Holotype DGM 1462-R is the single sampled aquatic caecilian specimen; Typhlonectidae assignment remains provisional.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:oligocene-ymboirana-crown-caecilian
+      referenceLocators:
+        - referenceId: santos-2024-ymboirana
+          locator: pp. 3–20; Figs. 2–9, 12–15; Affinities and Discussion

@@ -1,0 +1,510 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pongo abelii Lesson, 1827
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 苏门答腊猩猩
+      en: Sumatran orangutan
+    sections:
+      - topic: lifeHistory
+        text:
+          zh:
+            page: zh
+            section: s-7da3c313ca
+            part: body
+          en:
+            page: en
+            section: s-f20d2a5c30
+            part: body
+        sourceIds:
+          - hardus2012
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-833d17a035
+            part: body
+          en:
+            page: en
+            section: s-560f5f943c
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-c2d4dc5143
+            part: body
+          en:
+            page: en
+            section: s-6f6e87fbfa
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-da1bb8b856
+            part: body
+          en:
+            page: en
+            section: s-174eece519
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-a860f86f82
+            part: body
+          en:
+            page: en
+            section: s-f6ed95b1f2
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1e302512e5
+            part: body
+          en:
+            page: en
+            section: s-5a7beffea2
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-3277e1419d
+            part: body
+          en:
+            page: en
+            section: s-d6340a4c86
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-a1e7615c21
+            part: body
+          en:
+            page: en
+            section: s-efe2b10288
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8f90e376d5
+            part: body
+          en:
+            page: en
+            section: s-aea07109b0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e269621ca6
+            part: body
+          en:
+            page: en
+            section: s-7cc4e72e23
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-5d0d5a92fc
+            part: body
+          en:
+            page: en
+            section: s-d8e557a3d4
+            part: body
+    sources:
+      - id: hardus2012
+        referenceId: ref-612338ca-880b-890a-af14-70fb0c6e9ee5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 印度尼西亚苏门答腊 Gunung Leuser 国家公园 Ketambe 研究站；三次事件来自同一母女配对，时间为 2007 年 2 月、12 月和 2008 年 4 月。
+            en: Ketambe Research Station, Gunung Leuser National Park, Sumatra, Indonesia; three events from one mother–daughter pair in February and December 2007 and April 2008.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4LTSY
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12265; name Pongo abelii; reference table row 12265; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 5(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            female_maturity_d: mean of Ricklefs, 2010b & Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            litter_or_clutch_size_n: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 & Ernest et al., 2003 from median of 4(Garratt et al., 2014, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            gestation_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            weaning_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            birth_or_hatching_weight_g: Garratt et al., 2014 from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            maximum_longevity_y: Jones, K., Bielby, J., Cardillo, M. et al., 2009
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Ricklefs, 2010b
+            - Garratt et al., 2014
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 834; Scientific=Pongo abelii; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-de53c1cdd4
+        part: body
+      en:
+        page: en
+        section: s-a2a4cf9b2e
+        part: body
+  catalogue-dossier:
+    scientificName: Pongo abelii Lesson, 1827
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact accepted COL26.8 usage record queried at ChecklistBank dataset 316115; name, authorship, species rank, accepted status, source sector, and parent chain were checked from the taxon endpoint.
+      scope: COL26.8 usage 4LTSY only. Existing ecology and life-history observations concern one mother–dependent-offspring dyad at Ketambe. The conservation evidence added here is a model-based 2021–2023 range assessment for wild Sumatran orangutans and a separate matched-distribution comparison with 2011; it does not establish a current census or demographic result for every local population.
+      parentChain:
+        - id: 63NZX
+          name: Pongo
+          authorship: Lacépède, 1799
+          rank: genus
+          status: accepted
+        - id: K72
+          name: Ponginae
+          authorship: Elliot, 1913
+          rank: subfamily
+          status: accepted
+        - id: 6256T
+          name: Hominidae
+          authorship: Gray, 1825
+          rank: family
+          status: accepted
+        - id: 58L
+          name: Hominoidea
+          authorship: Gray, 1825
+          rank: superfamily
+          status: accepted
+        - id: 4PM
+          name: Simiiformes
+          authorship: Haeckel, 1866
+          rank: infraorder
+          status: accepted
+        - id: 4DT
+          name: Haplorrhini
+          authorship: Pocock, 1918
+          rank: suborder
+          status: accepted
+        - id: 3W7
+          name: Primates
+          authorship: Linnaeus, 1758
+          rank: order
+          status: accepted
+    lifeStatusScope:
+      wild: Ecology and life-history observations are from a free-ranging Sumatran orangutan mother–dependent-offspring dyad at Ketambe. The conservation estimate concerns wild Pongo abelii in northern Sumatra and is modeled from line-transect nest surveys; it is not a direct individual count. Tripa was not directly surveyed and its estimate is extrapolated. No captive or fossil observations are included.
+      domesticated: No domesticated or captive observations are included; domestication has not been assessed.
+      fossil: No fossil evidence is assessed in this record.
+    sources:
+      - id: col268
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 4
+        usage:
+          title: Catalogue of Life COL26.8, ChecklistBank release dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/4LTSY
+          version: COL26.8; release issued 2026-08-20; dataset DOI 10.48580/dgywk
+          locator: Taxon usage 4LTSY and its source endpoint; sourceDatasetKey 2144, sourceId ITIS TSN 944294, sectorKey 1508; name, authorship, rank, status, parentId, and ancestor records are recorded in identity.
+          scope: Accepted name Pongo abelii, authorship Lesson, 1827, species rank, accepted status, ITIS source dataset 2144, source sector 1508, and COL26.8 parent chain only; not biological evidence.
+      - id: hardus2012
+        referenceId: ref-9ae5763a-2ad8-81b9-aca0-e8296cf2475e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - publisherUrl
+          - licenseUrl
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Abstract; Methods, “Study site and subjects”; Results, “Meat-eating”; Table I and Figure 1.
+          scope: Three observations involving one adult female and her dependent offspring at Ketambe, Gunung Leuser National Park, Sumatra, in February and December 2007 and April 2008; prior cases are separately identified by the authors.
+      - id: hadi2026orangutanstatus
+        referenceId: ref-2b43f380-3aea-8ec8-ac87-970e0378c71d
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - rightsEvidenceLocator
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Published article. This record contains an independently worded summary of reported facts and attribution only; it reproduces no article prose, table layout, figure, image, or supplementary data. Do not redistribute adapted or translated article expression under this license.
+          stableId: doi:10.1016/j.gecco.2026.e04302
+          accessedAt: 2026-09-25
+          locator: Abstract; Methods §§2.1–2.3, survey design, distance sampling, and spatial prediction; Results §3.3 and Table 3, current-range population estimate; Discussion §4.1 and Table 5, matched-distribution 2011–2023 comparison.
+          licenseAssessment: item-level-verified
+          rightsEvidenceUrl: https://researchonline.ljmu.ac.uk/id/eprint/28898/7/Population%20status%20of%20Sumatran%20and%20Tapanuli%20orangutans_%20A%20comprehensive%20assessment%202021%E2%80%932023.pdf
+          attribution: "Hadi AN et al. (2026). Population status of Sumatran and Tapanuli orangutans: A comprehensive assessment 2021–2023. Global Ecology and Conservation 69:e04302. https://doi.org/10.1016/j.gecco.2026.e04302. Claim independently paraphrased; CC BY-NC-ND 4.0; no article prose, figures, tables, or supplementary data reproduced."
+          scope: A northern-Sumatra range assessment using 208 systematic line-transect nest surveys totaling 198 km during 2021–2023 across the Sumatran and Tapanuli orangutan ranges. The Sumatran orangutan estimate of 11,694 (95% CI 10,949–12,518) uses the IUCN 2023 range and eight meta-populations. The 19.5% decline is a separate model-based matched-distribution comparison with 2011, not the current-boundary total. Tripa was not directly surveyed because of permit restrictions and its estimate is model-derived; Jantho and Bukit Tigapuluh reintroduction sites were excluded.
+    facets:
+      morphology:
+        status: not-assessed
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: Hardus et al. report three slow-loris meat-eating events involving one adult female and her dependent female offspring at Ketambe. During the observed cases, the mother often rejected the offspring’s meat-sharing requests and the offspring initiated sharing; the observations describe one dyad, not a population-wide mother–offspring pattern.
+            textZh: Hardus 等人报告，在 Ketambe 观察到一只成年雌性及其依赖型雌性后代三次捕食懒猴的事件。观察期间，母亲经常拒绝后代分享肉食的请求，而后代会发起分享；这些记录仅描述一个母女配对，不能代表整个种群的母子互动模式。
+            sourceIds:
+              - hardus2012
+            locator: Abstract; Methods, “Study site and subjects”; Results, “Meat-eating and meat sharing”; Table I.
+            placeTimeScope: Ketambe Research Station, Gunung Leuser National Park, Sumatra, Indonesia; three events in February 2007, December 2007, and April 2008; one observed mother–dependent-offspring dyad.
+            lifeStatus: Free-ranging wild adult female and dependent female offspring; the offspring was 6–7 years old and not fully weaned.
+        gaps:
+          - Three observations from one dyad cannot establish typical reproductive, developmental, or parental behavior across Pongo abelii; broader life-history evidence has not been assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The authors report that slow-loris captures in their combined observations occurred only when ripe-fruit availability was low, and propose meat as a possible fallback food. The new cases came from one Ketambe dyad; the proposed seasonal relationship is an inference from a small case set.
+            textZh: 作者报告，其汇总的观察中懒猴捕食事件仅发生在成熟果实可得性较低时，并提出肉食可能是备用食物。新观察来自 Ketambe 的一个母女配对；季节关系是基于少量案例提出的推断。
+            sourceIds:
+              - hardus2012
+            locator: Abstract; Results, “Seasonality of slow loris meat-eating”; Figure 2.
+            placeTimeScope: Ketambe, Sumatra; new observations in 2007–2008 combined with earlier published cases from Ketambe and Suaq Balimbing; not a range-wide diet study.
+            lifeStatus: Wild orangutan observations; no captive feeding evidence is included.
+        gaps:
+          - The small, opportunistic event set does not establish prevalence, a causal fruit-availability effect, or the species’ overall diet and ecological interactions.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: partially-supported
+        claims:
+          - text: A 2021–2023 northern-Sumatra assessment using 208 systematic line-transect nest surveys totaling 198 km estimated 11,694 Sumatran orangutans (Pongo abelii; 95% CI 10,949–12,518) across eight meta-populations under the IUCN 2023 range boundary. A separate matched-distribution comparison estimated a 19.5% decline from 2011 to 2023 (about 1.8% per year). These are model-derived estimates, not direct counts; the current-boundary total and fixed-range trend use different spatial bases, and Tripa was not directly surveyed.
+            textZh: 一项于 2021—2023 年在苏门答腊北部开展的评估，使用 208 条系统巢址线样带、总调查长度 198 公里，按 IUCN 2023 年分布边界估计苏门答腊猩猩（*Pongo abelii*）数量为 11,694 只（95% 置信区间 10,949—12,518 只），分布于 8 个元种群。另一项采用匹配分布范围的比较估计其 2011—2023 年数量下降 19.5%（约每年 1.8%）。这些是基于模型的估计，并非直接普查；当前边界总量和固定范围趋势使用不同空间基准，且未直接调查 Tripa。
+            sourceIds:
+              - hadi2026orangutanstatus
+            locator: Abstract; Methods §§2.1–2.3; Results §3.3 and Table 3; Discussion §4.1 and Table 5.
+            placeTimeScope: Northern Sumatra, Indonesia; field nest transects from 2021–2023. The 2023-range estimate covers eight Sumatran orangutan meta-populations. The temporal comparison uses a matched spatial distribution for 2011 and 2023. The survey covered both Pongo abelii and P. tapanuliensis; claim values are specifically for P. abelii.
+            lifeStatus: Wild Sumatran orangutans; abundance was modeled from nest transects rather than direct individual counts. Tripa was not surveyed directly due to permit restrictions and was estimated by spatial extrapolation. Reintroduction sites Jantho and Bukit Tigapuluh were outside the survey scope; no captive or fossil population is included.
+            originalLanguage: en
+        gaps:
+          - The abundance and trend estimates depend on modeled nest-survey data, spatial boundaries, and coverage choices; local abundance in Tripa was extrapolated without direct survey access.
+          - This single 2021–2023 assessment does not constitute ongoing monitoring, a full threat-response evaluation of current conservation status.

@@ -1,0 +1,9 @@
+## The dataset entry {#s-fbed9ffa32}
+The pinned AmphiTherm curated snapshot records Pelodytes punctatus under Pelodytidae, Anura. It retains 8 thermal estimate rows across 3 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-65de8e268a}
+Source row 1283 (ID 1441; Duarte_2011) reports 37.3 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as larvae. The source population code is Pelodytes_punctatus_pop5. Recorded conditions include acclimation at 10 °C, medium_test_temp = water. The source reports 1.367479433 °C as its standard deviation. The source n_trait field is 21. The endpoint is OS. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-43c999cf5e}
+Source row 2094 (ID 2300; Gutierrez-Pesquera_et_al_2016) reports 0.3 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as larvae. The source population code is Pelodytes_punctatus_pop7. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.36 °C as its standard deviation. The source n_trait field is 16. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

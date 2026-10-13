@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus larutensis
+  displayName: Philautus larutensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5HD
+  sourceIndexes:
+    - name:
+        en: Philautus larutensis
+        zh: Philautus larutensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5HD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/57
+            queryName: Philautus larutensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/279
+            queryName: Philautus similis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/230
+            queryName: Ixalus larutensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/231
+            queryName: Ixalus castanomerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/232
+            queryName: Philautus castanomerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/233
+            queryName: Rhacophorus castanomerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/234
+            queryName: Rhacophorus larutensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/235
+            queryName: Rhacophorus similis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bed3aa9c83
+      - s-403d701f77
+      - s-9a14bcd053
+      - s-a53dbaae21
+      - s-dcf3515ff2
+    zh:
+      - s-c614b73567
+      - s-bee4c0425c
+      - s-5c43fbf13c
+      - s-278d1c0a08
+      - s-df8c8847bd

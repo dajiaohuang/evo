@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bryophryne nubilosus
+  displayName: Bryophryne nubilosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NJL2
+  sourceIndexes:
+    - name:
+        en: Bryophryne nubilosus
+        zh: Bryophryne nubilosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NJL2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/482
+            queryName: Bryophryne nubilosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e76480c80b
+      - s-b56d2731cf
+      - s-744d1998b0
+      - s-45fd1ea462
+      - s-5b7d253cab
+      - s-44346a623a
+      - s-678a7470a1
+    zh:
+      - s-581bf2a7ec
+      - s-f0a81bf500
+      - s-835827fa25
+      - s-1b0560a144
+      - s-e625c80162
+      - s-e49635fa1f
+      - s-5ebcf2bbb2

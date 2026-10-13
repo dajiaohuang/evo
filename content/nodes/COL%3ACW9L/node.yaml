@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops archotaphus
+  displayName: Amolops archotaphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CW9L
+  sourceIndexes:
+    - name:
+        en: Amolops archotaphus
+        zh: Amolops archotaphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CW9L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/342
+            queryName: Amolops archotaphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/59
+            queryName: Rana archotaphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/197
+            queryName: Huia archotaphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/198
+            queryName: Odorrana archotaphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba39464fa2
+      - s-28ca1e10a0
+      - s-b0f4b98788
+      - s-1466b8a097
+      - s-860d2b1499
+      - s-92471f9538
+      - s-db9ff15473
+      - s-6f175e2c25
+      - s-8cf7f9faba
+      - s-0110beb90b
+      - s-61c126e80a
+    zh:
+      - s-695fe04f20
+      - s-d9379cecf5
+      - s-50a75e2d00
+      - s-07fd1289b9
+      - s-c18fc7697a
+      - s-3957ab6b1c
+      - s-b44d8dbdbc
+      - s-c3da174fd0
+      - s-bc41dd8d86
+      - s-4cc5fef0d8
+      - s-e3dab9c5bd

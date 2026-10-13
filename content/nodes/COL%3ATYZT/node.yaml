@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis atlantica
+  displayName: Chiasmocleis atlantica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TYZT
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis atlantica
+        zh: Chiasmocleis atlantica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TYZT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/238
+            queryName: Chiasmocleis atlantica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aa66a5239d
+      - s-5782cb19f2
+      - s-64f81d8cfb
+      - s-7b0fd8ea6f
+      - s-637b6b31e7
+      - s-552a67e13b
+      - s-761d7d796c
+      - s-dd59aeb4ab
+      - s-162e3f2a81
+      - s-3a6f35af0e
+    zh:
+      - s-a1b0b88272
+      - s-3d0c70599e
+      - s-90bfc8dbc5
+      - s-01ca3f7d54
+      - s-9da853937f
+      - s-1b22ee6358
+      - s-dc70fcae96
+      - s-8c6b34619c
+      - s-35a93a92a2
+      - s-9b4d039704

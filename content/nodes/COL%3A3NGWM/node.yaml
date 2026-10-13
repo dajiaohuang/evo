@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus bocagei
+  displayName: Hyloxalus bocagei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGWM
+  sourceIndexes:
+    - name:
+        en: Hyloxalus bocagei
+        zh: Hyloxalus bocagei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGWM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/85
+            queryName: Hyloxalus bocagei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/62
+            queryName: Colostethus bocagei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f6678845ea
+      - s-a5fec4c064
+      - s-0cb542af83
+      - s-2baa414c9f
+      - s-70f7c78ea6
+      - s-182ba9fad9
+      - s-6ac95d54d2
+      - s-ab154c487f
+      - s-612a3f70a7
+      - s-2cf3fcaf47
+      - s-e685f963f7
+      - s-3c06ef5f92
+    zh:
+      - s-24bbcc52b4
+      - s-afcaae0492
+      - s-6c57424bd6
+      - s-8a5d1dbe17
+      - s-06c5b68245
+      - s-f820e4c1cc
+      - s-db82a9affe
+      - s-4ac77755da
+      - s-9decab9f3a
+      - s-90ad8b70c6
+      - s-1c485f0625
+      - s-888b5647f2

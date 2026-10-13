@@ -1,0 +1,14 @@
+## PBDB's recorded taxonomic concept {#s-63c34dfb2d}
+The PBDB snapshot checked 2026-10-02 records Acroplous at genus rank (source concept txn:36981), beneath the recorded parent Eobrachyopidae. This is the database parent chain stored under the Amphibia anchor; the path does not certify equivalence with a COL26.8 concept.
+
+## 0 PBDB occurrence rows and collection fields {#s-947ad4df5d}
+This PBDB snapshot excerpt returns no occurrence rows for the exact concept. It therefore supplies no collection, locality or age fields here; a zero-row result is not evidence that the taxon left no fossils.
+
+## Read the recorded PBDB descendants {#s-80e0278d63}
+Follow these pages through the separately retained fossil ancestry. Read each source scope before combining fossil and current-species evidence.
+
+- [Acroplous vorax](Acroplous_vorax/page.en.md)
+
+## Reference-index lookup for Acroplous {#s-9bf66f7029}
+The archived-synonym-or-higher-taxon lookup for `Acroplous` reports 4 reference records in the linked index. This is bibliography metadata, not a verified biological result. This placeholder assigns no biological claim and concept equivalence is not certified; the factual account on this page is limited to the PBDB fields above.
+

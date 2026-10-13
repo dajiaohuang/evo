@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops iriodes
+  displayName: Amolops iriodes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DY5
+  sourceIndexes:
+    - name:
+        en: Amolops iriodes
+        zh: Amolops iriodes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DY5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/371
+            queryName: Amolops iriodes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/134
+            queryName: Rana iriodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/135
+            queryName: Huia iriodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/136
+            queryName: Odorrana iriodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d46bda177a
+      - s-cf8a0df7f0
+      - s-12f993637e
+      - s-da4a2aab60
+      - s-4225d913e9
+      - s-82dea3bb55
+      - s-064c7ce24d
+      - s-b39baf8e7a
+      - s-b7269fbb6d
+      - s-1e7d084986
+      - s-2f7f03d97b
+    zh:
+      - s-9350502eb3
+      - s-6eb2ab6b7d
+      - s-c7a04fd56a
+      - s-aeb845dbed
+      - s-18d60307bd
+      - s-8590ba04aa
+      - s-c88fd63b6e
+      - s-1ada657a85
+      - s-09085fd75d
+      - s-5f1ee8c42e
+      - s-b0318481fa

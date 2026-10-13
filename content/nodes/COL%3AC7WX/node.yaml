@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes hugoi
+  displayName: Alsodes hugoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7WX
+  sourceIndexes:
+    - name:
+        en: Alsodes hugoi
+        zh: Alsodes hugoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7WX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/192
+            queryName: Alsodes hugoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-037673ca1d
+      - s-ac615f3b73
+      - s-a04b8dbc78
+      - s-5ca3deb9c7
+      - s-6aef21792e
+      - s-d55ed783dd
+      - s-d69980c01a
+      - s-4f203fc86a
+      - s-c151f79ee0
+      - s-c85937ade6
+      - s-4ad56831fa
+      - s-34faea6c89
+      - s-8da4436a4b
+      - s-859f5b9255
+      - s-1af5f3c385
+      - s-714f44eac5
+      - s-5603511032
+      - s-0eecf36671
+    zh:
+      - s-6cfe323a05
+      - s-45cdbff69d
+      - s-64137b3546
+      - s-f98e8d0a3d
+      - s-5f8fe25bac
+      - s-1a7056c8f2
+      - s-e8bc87b8b6
+      - s-b3a569b0b8
+      - s-cae7179c4b
+      - s-9bb3d86740
+      - s-f7ffe7e79a
+      - s-36d4d7ca68
+      - s-74ab6b46b3
+      - s-5c5b76d779
+      - s-067430d0b2
+      - s-7e7b020509
+      - s-b03b798c93
+      - s-195ca305bd

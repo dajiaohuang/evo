@@ -1,0 +1,393 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Amerana cascadae
+    name:
+      en: Amerana cascadae
+      zh: Amerana cascadae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-71dd0cb721
+            part: body
+          zh:
+            page: zh
+            section: s-38fe962b26
+            part: body
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0bb6bf089a
+            part: body
+          zh:
+            page: zh
+            section: s-5588ad584d
+            part: body
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-accfdf6182
+            part: body
+          zh:
+            page: zh
+            section: s-c40256890f
+            part: body
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-3db01a1c08
+            part: body
+          zh:
+            page: zh
+            section: s-511f258d26
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 47, 48; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Ranidae
+      genus: Amerana
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 47
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Black-and-white image
+          - Rana cascadae
+          - Ranidae
+          - Amerana
+          - Amerana cascadae
+          - 37
+          - 53
+          - 18.152
+          - 34.224
+          - 8.137
+          - 10.015
+          - 4.59
+          - 3.345
+          - 2.72
+          - null
+          - null
+          - null
+          - 0.3424956637736
+          - 0.6457358495664
+          - 0.15352831886792
+          - 0.18896226415943
+          - 0.8663773584957
+          - 0.63113275471698
+          - 0.51327547169811
+          - null
+          - null
+          - null
+          - Yanfang Song
+      - rowNumber: 48
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Color image
+          - Rana cascadae
+          - Ranidae
+          - Amerana
+          - Amerana cascadae
+          - 34
+          - 60
+          - 21.011
+          - 39.21
+          - 13.335
+          - 13.743
+          - 4.449
+          - 5.055
+          - 4.242
+          - null
+          - null
+          - null
+          - 0.35183333333333
+          - 0.6535
+          - 0.22225
+          - 0.2295
+          - 0.7415
+          - 0.8425
+          - 0.77
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 47
+        scientificName: Amerana cascadae
+        sourceField: TMH/TL
+        suppliedRatio: 0.8663773584957
+        originalNumerator: 4.59
+        originalTotalLength: 53
+        computedRatio: 0.08660377358490566
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 47
+        scientificName: Amerana cascadae
+        sourceField: DFH/TL
+        suppliedRatio: 0.63113275471698
+        originalNumerator: 3.345
+        originalTotalLength: 53
+        computedRatio: 0.06311320754716981
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 47
+        scientificName: Amerana cascadae
+        sourceField: VFH/TL
+        suppliedRatio: 0.51327547169811
+        originalNumerator: 2.72
+        originalTotalLength: 53
+        computedRatio: 0.05132075471698114
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 48
+        scientificName: Amerana cascadae
+        sourceField: BL/TL
+        suppliedRatio: 0.35183333333333
+        originalNumerator: 21.011
+        originalTotalLength: 60
+        computedRatio: 0.35018333333333335
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 48
+        scientificName: Amerana cascadae
+        sourceField: TMH/TL
+        suppliedRatio: 0.7415
+        originalNumerator: 4.449
+        originalTotalLength: 60
+        computedRatio: 0.07415
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 48
+        scientificName: Amerana cascadae
+        sourceField: DFH/TL
+        suppliedRatio: 0.8425
+        originalNumerator: 5.055
+        originalTotalLength: 60
+        computedRatio: 0.08424999999999999
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 48
+        scientificName: Amerana cascadae
+        sourceField: VFH/TL
+        suppliedRatio: 0.77
+        originalNumerator: 4.242
+        originalTotalLength: 60
+        computedRatio: 0.0707
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.3424956637736
+        row: 47
+        stage: 37
+        type: Measurement
+        imageType: Black-and-white image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.6457358495664
+        row: 47
+        stage: 37
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.15352831886792
+        row: 47
+        stage: 37
+        type: Measurement
+        imageType: Black-and-white image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.18896226415943
+        row: 47
+        stage: 37
+        type: Measurement
+        imageType: Black-and-white image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.6535
+        row: 48
+        stage: 34
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - V5KNQ
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

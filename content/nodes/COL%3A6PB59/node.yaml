@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lepidobatrachus laevis
+  displayName: Lepidobatrachus laevis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PB59
+  sourceIndexes:
+    - name:
+        en: Lepidobatrachus laevis
+        zh: Lepidobatrachus laevis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PB59
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/193
+            queryName: Lepidobatrachus laevis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 73
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/297
+            queryName: Ceratophrys laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0be20156fd
+      - s-6fc2d3f8ff
+      - s-69c180ebc9
+      - s-a057bbeea2
+      - s-a054868af1
+      - s-3dd8851b0d
+      - s-efce64be8a
+      - s-253a063acf
+      - s-060394e94d
+      - s-c336dccbb5
+      - s-f8ef7b1e9e
+    zh:
+      - s-1a1dd43f43
+      - s-4d98929b5a
+      - s-759ae44b42
+      - s-eac5aeca7e
+      - s-62e2c4cb98
+      - s-6f991c86b6
+      - s-90d8e17146
+      - s-dcd490eceb
+      - s-88885e94f8
+      - s-0df8f6f72e
+      - s-a1822176ec

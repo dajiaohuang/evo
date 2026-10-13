@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ceratophrys joazeirensis
+  displayName: Ceratophrys joazeirensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SNTL
+  sourceIndexes:
+    - name:
+        en: Ceratophrys joazeirensis
+        zh: Ceratophrys joazeirensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SNTL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/211
+            queryName: Ceratophrys joazeirensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bff202ca20
+      - s-3a305b8f82
+      - s-da54fcd3f9
+      - s-b891171c5f
+      - s-8a9367360b
+      - s-30186992ed
+      - s-1f6367ddba
+      - s-7279abeef4
+      - s-8e0c23603a
+      - s-f6781f3aee
+    zh:
+      - s-594bd01957
+      - s-43be240af8
+      - s-fc10558f49
+      - s-b01923fab7
+      - s-f65d1dbb9f
+      - s-ae412776e6
+      - s-dd4b2d6cae
+      - s-f9e01a15af
+      - s-1a0d700e79
+      - s-cdc056daf7

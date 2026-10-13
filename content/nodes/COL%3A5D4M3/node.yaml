@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Zhangixalus burmanus
+  displayName: Zhangixalus burmanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5D4M3
+  sourceIndexes:
+    - name:
+        en: Zhangixalus burmanus
+        zh: Zhangixalus burmanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5D4M3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/382
+            queryName: Zhangixalus burmanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/296
+            queryName: Polypedates gongshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/337
+            queryName: Rhacophorus taronensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/106
+            queryName: Rhacophorus gongshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/82
+            queryName: Rhacophorus burmanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/83
+            queryName: Polypedates dennysii burmana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-079fa7378b
+      - s-8c61c894e2
+      - s-279ab5cf03
+      - s-87d75ee3aa
+      - s-1d098c1dfe
+    zh:
+      - s-8155086be0
+      - s-88098420b9
+      - s-0fee0fc732
+      - s-10532c0354
+      - s-a7694fedc3

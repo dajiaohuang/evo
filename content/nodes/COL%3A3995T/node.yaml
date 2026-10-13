@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus chlorophenax
+  displayName: Eleutherodactylus chlorophenax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3995T
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus chlorophenax
+        zh: Eleutherodactylus chlorophenax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3995T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/176
+            queryName: Eleutherodactylus chlorophenax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/30
+            queryName: Pelorius chlorophenax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4703592cc8
+      - s-048f18b04a
+      - s-b3f96e3c56
+      - s-98299d36f2
+      - s-a4577da13e
+      - s-d83b699154
+      - s-32f3656896
+      - s-dbf21dbcea
+      - s-a223639418
+    zh:
+      - s-01ec954eb9
+      - s-ab0e8b5443
+      - s-3370ab0517
+      - s-87c6685b4d
+      - s-2d6ef0c4e8
+      - s-5bb17bca0c
+      - s-c762455d53
+      - s-c6227a18f3
+      - s-7336fc720d

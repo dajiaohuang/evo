@@ -1,0 +1,87 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-af503bdf60
+          part: title
+        zh:
+          page: zh
+          section: s-de00875a5e
+          part: title
+      text:
+        en:
+          page: en
+          section: s-af503bdf60
+          part: body
+        zh:
+          page: zh
+          section: s-de00875a5e
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-263dd5fbc4
+          part: title
+        zh:
+          page: zh
+          section: s-1c3dbbc065
+          part: title
+      text:
+        en:
+          page: en
+          section: s-263dd5fbc4
+          part: body
+        zh:
+          page: zh
+          section: s-1c3dbbc065
+          part: body
+  atlas-node:
+    name: Sarcopterygii
+    commonName: Lobe-finned Fish
+    commonNameZh: 肉鳍鱼类
+    rank: class
+    taxonId: ""
+    firstAppearance: 419
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:sarcopterygii
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Sarcopterygii navigation envelope uses the articulated Ludlow Guiyu oneiros specimen at approximately 419 Ma as its evidence-linked older anchor and living sarcopterygians at 0 Ma as its younger edge; the fossil is neither a direct ancestor nor proof of an exact global first appearance.
+      confidence: high
+      confidenceRationale: The primary study documents an articulated holotype, stratigraphic position and explicit sarcopterygian character analysis. High confidence applies to the presence of a sampled sarcopterygian by about 419 Ma, not to completeness of the global record or ancestry.
+      referenceLinks:
+        - referenceId: zhu-2009-guiyu
+          relation: supports
+          pages: 469–474
+          figure: Figures 1–5; Supplementary Figures 1–9
+          quoteLocator: Stratigraphic position; holotype description; phylogenetic analysis and Discussion
+  claim-rationales.zh:
+    - 一手研究记录关节相连的正模、地层位置和明确的肉鳍鱼性状分析；高置信度适用于约 4.19 亿年前已有所取样肉鳍鱼，不适用于全球记录完整性或祖先关系。
+  claim-statements.zh:
+    - 肉鳍鱼类导航范围以约 4.19 亿年前鲁德洛世关节相连的 Guiyu oneiros 标本作为有证据连接的老端锚点，以 0 Ma 的现生肉鳍鱼作为年轻端；该化石既不是直系祖先，也不能证明精确的全球首现。
+  ranges:
+    - entityId: sarcopterygii
+      rangeKind: global-composite
+      taxonomicConcept: Sarcopterygii
+      geographicScope: Global or represented navigation composite
+      olderMa: 419
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The approximately 419 Ma older edge follows the articulated Ludlow Guiyu sample; it is not an exact global first appearance.
+      evidenceBasis: Articulated Guiyu anatomy and its stratigraphic position provide a primary-study sarcopterygian anchor; 0 Ma reflects living members without asserting direct ancestry or record completeness.
+      confidence: high
+      claimIds:
+        - claim:taxon:sarcopterygii:fossil-range
+      referenceLocators:
+        - referenceId: zhu-2009-guiyu
+          locator: pp. 469–474; Figures 1–5; Supplementary Figures 1–9; stratigraphic position, holotype description and phylogenetic analysis
+      evidenceLevel: literature-synthesized

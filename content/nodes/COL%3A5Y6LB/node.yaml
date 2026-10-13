@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton priscus
+  displayName: Chiropterotriton priscus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6LB
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton priscus
+        zh: Chiropterotriton priscus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6LB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/307
+            queryName: Chiropterotriton priscus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/305
+            queryName: Chiropterotriton prisca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7beefe6a19
+      - s-570f6980be
+      - s-4c51d64da5
+      - s-bae2f2e5fd
+      - s-75184818ed
+      - s-6a750e492c
+      - s-a5ba3a4370
+      - s-63014e68ca
+      - s-4ad77208a2
+      - s-96a05eb4c1
+      - s-af510c2f64
+      - s-b697e8129b
+      - s-fc1094e047
+      - s-6d8bb679eb
+      - s-744114373f
+      - s-51b51ef853
+      - s-d204439499
+      - s-d6c48d7f39
+      - s-01715b4882
+      - s-215b978ab9
+      - s-b25bb90d44
+      - s-758dc409c5
+      - s-0ee16da18d
+    zh:
+      - s-6d7132ed88
+      - s-afb323b7fe
+      - s-8d0bbea601
+      - s-567f39bf22
+      - s-5a7df89227
+      - s-b69991f0de
+      - s-eb6e627e5e
+      - s-0c12aa343f
+      - s-fbac78a8b0
+      - s-94d77a63b4
+      - s-b136acd4bd
+      - s-d533af0be1
+      - s-991e2654be
+      - s-9a9442fb1a
+      - s-e93786c556
+      - s-326858e233
+      - s-b970a37aa0
+      - s-039f373ac2
+      - s-591be7742a
+      - s-0f8031e334
+      - s-16feb80c45
+      - s-cb419163cc
+      - s-f87be88ea6

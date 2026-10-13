@@ -1,0 +1,12 @@
+## Which source name is assigned to this tadpole record? {#s-aeaefce7ca}
+This record shows how TadpoleTraits files tadpoles under Leptodactylus natalensis. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Leptodactylus natalensis in Leptodactylus and Leptodactylidae. In the literature table, rows 2923, 2924, 2925, 2926 list Leptodactylus natalensis in both the source Species and ASTW assignment fields. In the image-measurement table, rows 654 list Leptodactylus natalensis in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-20e5789f8e}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 4 literature rows and 1 image-measurement row for this source record. Literature Stage values are 31 (row 2923); 36 (row 2924); 37 (row 2925); 38 (row 2926). Sample size is entered by row (row 2923: n=6; row 2924: n=7; row 2925: n=5; row 2926: n=7). Image-table Stage values are 36 (Judging based on the picture) (row 654); Type labels are Measurement and image types are Color image. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-67b859db3c}
+The image-derived records support these source proportions: body length / total length = 0.351423 (image row 654, stage 36 (Judging based on the picture), Color image); tail length / total length = 0.642968 (image row 654, stage 36 (Judging based on the picture), Color image); maximum body height / total length = 0.182433 (image row 654, stage 36 (Judging based on the picture), Color image); maximum body width / total length = 0.226384 (image row 654, stage 36 (Judging based on the picture), Color image). Each value describes only its cited image row; it is not a species-wide estimate.
+
+## Where do the supplied ratios disagree? {#s-c5b6663fe5}
+The source ratio cells in image row 654 contain 6 discrepancies from the quotient of the same-row numerator and total length, including fields MTH/TL, TMH/TL, DFH/TL, VFH/TL, TMW/TL, OD/TL. Their original values remain in the evidence record; no correction is substituted and these cells are not used as proportions.
+

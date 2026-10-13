@@ -1,0 +1,3 @@
+## *Baccharis punctulata*: three recorded flower-head forms {#s-a0adaae3ab}
+The Brazilian Flora 2020 regional field describes stalked leaves with three main veins, egg-shaped or elliptic blades, and serrated margins. Heads are arranged in branched panicles. The field lists three flower-head forms: heads with only tubular male florets, heads with only threadlike female florets, or heads with female threadlike florets around male tubular florets. These are recorded alternatives, not a claim that all forms occur in one head. Rock-associated and terrestrial substrate labels appear without collection localities.
+

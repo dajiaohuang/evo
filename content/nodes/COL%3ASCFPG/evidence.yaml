@@ -1,0 +1,351 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis maryanneae Reyes-Puig, Reyes-Puig, Franco-Mena, Jost & Yánez-Muñoz, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis maryanneae
+      zh: Pristimantis maryanneae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f0e4e14edf
+            part: title
+          zh:
+            page: zh
+            section: s-4a60ff60eb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f0e4e14edf
+            part: body
+          zh:
+            page: zh
+            section: s-4a60ff60eb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3e1fc56a0a
+            part: title
+          zh:
+            page: zh
+            section: s-7948d36116
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3e1fc56a0a
+            part: body
+          zh:
+            page: zh
+            section: s-7948d36116
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-a00b248446
+            part: title
+          zh:
+            page: zh
+            section: s-785533f1c0
+            part: title
+        sourceIds:
+          - primary-pmc8763828-scfpg
+        text:
+          en:
+            page: en
+            section: s-a00b248446
+            part: body
+          zh:
+            page: zh
+            section: s-785533f1c0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-db817ff7ff
+            part: title
+          zh:
+            page: zh
+            section: s-141af994cf
+            part: title
+        sourceIds:
+          - primary-pmc8763828-scfpg
+        text:
+          en:
+            page: en
+            section: s-db817ff7ff
+            part: body
+          zh:
+            page: zh
+            section: s-141af994cf
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-32302c46d5
+            part: title
+          zh:
+            page: zh
+            section: s-9a9c5c6b1a
+            part: title
+        sourceIds:
+          - primary-pmc8763828-scfpg
+        text:
+          en:
+            page: en
+            section: s-32302c46d5
+            part: body
+          zh:
+            page: zh
+            section: s-9a9c5c6b1a
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-09e95f8bd5
+            part: title
+          zh:
+            page: zh
+            section: s-d428b2ed88
+            part: title
+        sourceIds:
+          - primary-pmc8763828-scfpg
+        text:
+          en:
+            page: en
+            section: s-09e95f8bd5
+            part: body
+          zh:
+            page: zh
+            section: s-d428b2ed88
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7d699a1065
+            part: title
+          zh:
+            page: zh
+            section: s-14b11b5741
+            part: title
+        sourceIds:
+          - primary-pmc8763828-scfpg
+        text:
+          en:
+            page: en
+            section: s-7d699a1065
+            part: body
+          zh:
+            page: zh
+            section: s-14b11b5741
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-9b9c1ec1b4
+            part: body
+          zh:
+            page: zh
+            section: s-b7d95011cd
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis maryanneae
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCFPG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc8763828-scfpg
+        referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - authorMetadataEvidence
+          - authorsAsRecordedInXml
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis maryanneae: Retained distribution and natural-history account plus newly read Material examined, Diagnosis, holotype description and relevant comparisons; conflicting measurements and type labels recorded; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ecb9a9343a
+        part: body
+      zh:
+        page: zh
+        section: s-3ec9578cd2
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1081.71488
+        referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+        sourceKey: primary-pmc8763828-scfpg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8763828/article.xml
+        sourceConcept: Pristimantis maryanneae
+        evidenceRead: "Pristimantis maryanneae: Retained distribution and natural-history account plus newly read Material examined, Diagnosis, holotype description and relevant comparisons; conflicting measurements and type labels recorded; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: The Vizcaya type-locality sample
+              zh: Vizcaya 模式地点样本
+            referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+            sourceKey: primary-pmc8763828-scfpg
+            locator: "Pristimantis maryanneae: Retained distribution and natural-history account plus newly read Material examined, Diagnosis, holotype description and relevant comparisons; conflicting measurements and type labels recorded; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3dce557baa
+                part: body
+              zh:
+                page: zh
+                section: s-1a44666c39
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Five individuals in the lower forest layer
+              zh: 下层林中的五只个体
+            referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+            sourceKey: primary-pmc8763828-scfpg
+            locator: "Pristimantis maryanneae: Retained distribution and natural-history account plus newly read Material examined, Diagnosis, holotype description and relevant comparisons; conflicting measurements and type labels recorded; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e49cd9dc71
+                part: body
+              zh:
+                page: zh
+                section: s-bfb4f22eef
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Type-series labels and size endpoints with unresolved conflicts
+              zh: 模式系列标签及体型端点中的未解决冲突
+            referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+            sourceKey: primary-pmc8763828-scfpg
+            locator: Species accounts > Pristimantis maryanneae > Material examined, reading-sections index 25, paragraphs 0–1; Diagnosis, index 27, paragraph 0; Description of holotype, index 29, paragraph 0; Distribution and natural history, index 30, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2319182d8e
+                part: body
+              zh:
+                page: zh
+                section: s-3b7e5e47da
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: morphology
+            heading:
+              en: A skin-covered ear region is not a test of hearing
+              zh: 皮肤覆盖的耳区不是听觉测试
+            referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+            sourceKey: primary-pmc8763828-scfpg
+            locator: Species accounts > Pristimantis maryanneae > Diagnosis, reading-sections index 27, paragraph 0; Description of holotype, index 29, paragraphs 0 and 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-78bea9cd51
+                part: body
+              zh:
+                page: zh
+                section: s-c2a3778c11
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: morphology
+            heading:
+              en: Live browns and coppery eyes become a grey preserved pattern
+              zh: 活体棕色及铜色眼转为保存后的灰色纹理
+            referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+            sourceKey: primary-pmc8763828-scfpg
+            locator: Species accounts > Pristimantis maryanneae > Description of holotype; reading-sections index 29, paragraphs 3–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b1d166cb88
+                part: body
+              zh:
+                page: zh
+                section: s-8e47c1de70
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

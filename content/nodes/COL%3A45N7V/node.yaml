@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana taihangnica
+  displayName: Nanorana taihangnica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7V
+  sourceIndexes:
+    - name:
+        en: Nanorana taihangnica
+        zh: Nanorana taihangnica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/189
+            queryName: Nanorana taihangnica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/6
+            queryName: Paa taihangnicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/253
+            queryName: Paa taihangnica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/254
+            queryName: Chaparana taihangnica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/159
+            queryName: Feirana taihangnica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-300ffdef96
+      - s-3833e45887
+      - s-2908a81794
+      - s-d280b63a0b
+      - s-94168aae86
+      - s-2c60c49d8d
+      - s-2d1d9f9761
+      - s-e83437f8d9
+      - s-87c46dd8e4
+      - s-99f6a517ff
+      - s-fa480123d6
+      - s-7cfb01bb32
+      - s-bbea2fe531
+    zh:
+      - s-e105e5e23a
+      - s-6031f2a31a
+      - s-acf0fa9886
+      - s-43a0c5ee7c
+      - s-ac2c5b60f9
+      - s-ea0194d099
+      - s-a54bcbaf18
+      - s-425fca4228
+      - s-52b819e321
+      - s-45ef1fe1dc
+      - s-f310c6341c
+      - s-0d400baa33
+      - s-d9ca03a956

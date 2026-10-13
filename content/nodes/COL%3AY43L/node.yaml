@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus bewaniensis
+  displayName: Cophixalus bewaniensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43L
+  sourceIndexes:
+    - name:
+        en: Cophixalus bewaniensis
+        zh: Cophixalus bewaniensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/431
+            queryName: Cophixalus bewaniensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce53bae1d9
+      - s-1a70918320
+      - s-345e93a2a7
+      - s-d2494aeccc
+      - s-5cf2c77e1f
+      - s-110ec861ca
+      - s-806c8d30d6
+      - s-b2578577b9
+      - s-9bb01eddfd
+      - s-05e7be388d
+    zh:
+      - s-df9ebd4d07
+      - s-4898b3d125
+      - s-c919ae0643
+      - s-956792fb9b
+      - s-75a657ea62
+      - s-d6c11607b6
+      - s-6d55427c63
+      - s-d2dbb0ed29
+      - s-28523f83f8
+      - s-1aa8132378

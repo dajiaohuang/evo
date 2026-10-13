@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Liurana medogensis
+  displayName: Liurana medogensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VNXV
+  sourceIndexes:
+    - name:
+        en: Liurana medogensis
+        zh: Liurana medogensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VNXV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/231
+            queryName: Liurana medogensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/461
+            queryName: Ingerana medogensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/141
+            queryName: Limnonectes medogensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0dd873675d
+      - s-25a08278e0
+      - s-7974c917d3
+      - s-aecb48245c
+      - s-0b05dc505c
+    zh:
+      - s-71123bafd2
+      - s-878cd3a64d
+      - s-5d2ac986c2
+      - s-70e127850c
+      - s-c41d0f6c2f

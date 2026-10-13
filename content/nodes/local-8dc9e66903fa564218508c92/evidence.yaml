@@ -1,0 +1,251 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odorrana schmackeri
+    name:
+      en: Odorrana schmackeri
+      zh: Odorrana schmackeri
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Odorrana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-337ee1bebd
+            part: body
+          zh:
+            page: zh
+            section: s-6d15c75fd1
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8be0bb96dc
+            part: body
+          zh:
+            page: zh
+            section: s-48b176b93d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3795, 3796; Reference.csv rows 3929
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3795
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana schmackeri
+          - M
+          - "44.54548387"
+          - "17.07290323"
+          - "16.45258065"
+          - "6.403870968"
+          - "3.532258065"
+          - "1.201935484"
+          - "3.833548387"
+          - "4.593548387"
+          - "4.379354839"
+          - "3.738387097"
+          - "7.218387097"
+          - "3.218064516"
+          - "14.00354839"
+          - NA
+          - "20.32516129"
+          - "24.47870968"
+          - NA
+          - "25.53354839"
+          - NA
+          - "33.93741935"
+          - "81.03483871"
+          - "0.98483871"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3796
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana schmackeri
+          - F
+          - "80.14521739"
+          - "27.08782609"
+          - "28.00217391"
+          - "9.76"
+          - "4.449565217"
+          - "3.099565217"
+          - "6.163913043"
+          - "7.547391304"
+          - "6.830434783"
+          - "6.142173913"
+          - "12.05130435"
+          - "5.117826087"
+          - "23.21347826"
+          - NA
+          - "35.71217391"
+          - "43.45782609"
+          - NA
+          - "47.00782609"
+          - NA
+          - "60.47478261"
+          - "145.5230435"
+          - "1.896086957"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3929
+        values:
+          - Anura
+          - Odorrana_schmackeri
+          - "Shen, H., Zhu, Y., Li, Z., Chen, Z., & Chen, X. (2020). Reevaluation of the Holotype of Odorrana schmackeri Boettger, 1892 (Amphibia: Anura: Ranidae) and Characterization of One Cryptic Species in O. schmackeri sensu lato through Integrative Approaches. Asian Herpetological Research, 11(4), 297-311R. https://doi.org/10.16373/j.cnki.ahr.200097"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - TSL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48SGP
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana platanera
+  displayName: Boana platanera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M6D8Q
+  sourceIndexes:
+    - name:
+        en: Boana platanera
+        zh: Boana platanera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M6D8Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/16
+            queryName: Boana platanera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-28221969b7
+      - s-6031e5e8dc
+      - s-15da943f1b
+      - s-a7128ebf30
+      - s-7075467945
+      - s-582092ec6b
+      - s-649aeaf81e
+      - s-312b8dabfc
+      - s-0f0483af30
+      - s-6a40d9c327
+      - s-146dad8322
+      - s-4c95832e12
+      - s-31f6555c8e
+    zh:
+      - s-778e1a04a1
+      - s-1e43a2fa3b
+      - s-7fae15108d
+      - s-b909b09d36
+      - s-41ea69cbd4
+      - s-573f64d4c0
+      - s-08a1ea876c
+      - s-211a1f1208
+      - s-6a234ad055
+      - s-584c8eab70
+      - s-f34d2ef1b1
+      - s-fe117aac98
+      - s-9fddb3e8c0

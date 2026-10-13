@@ -1,0 +1,168 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Glyptops ornatus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Glyptops ornatus
+      en: Glyptops ornatus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e6f9e19172
+            part: body
+          en:
+            page: en
+            section: s-cd53230594
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cef6757a68
+            part: body
+          en:
+            page: en
+            section: s-396c486474
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1bb0d92710
+            part: body
+          en:
+            page: en
+            section: s-57dee3b9c0
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-63e575fc62
+            part: body
+          en:
+            page: en
+            section: s-c21a58152a
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-87ef8c1611
+            part: body
+          en:
+            page: en
+            section: s-7c969e3147
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Glyptops ornatus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=96495&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:96495; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:96495
+          selectedOccurrenceIds:
+            - occ:408768
+            - occ:496311
+            - occ:751977
+            - occ:1093613
+            - occ:1543877
+          selectedCollectionIds:
+            - col:12816
+            - col:21852
+            - col:49636
+          sourceReferenceIds:
+            - ref:23561
+            - ref:13461
+            - ref:69447
+            - ref:75375
+          originalIdentificationMappings:
+            - occurrenceId: occ:408768
+              originalIdentifiedName: Glyptops ornatus n. gen. n. sp.
+              acceptedName: Glyptops ornatus
+              difference: null
+            - occurrenceId: occ:496311
+              originalIdentifiedName: Glyptops utahensis n. sp.
+              acceptedName: Glyptops ornatus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e440d1ed99
+        part: body
+      en:
+        page: en
+        section: s-a78d393cf9
+        part: body

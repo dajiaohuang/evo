@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hemiphyllodactylus
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Hemiphyllodactylus
+      en: Hemiphyllodactylus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-88071e6f40
+            part: body
+          en:
+            page: en
+            section: s-ec7c10f698
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-92532eddd2
+            part: body
+          en:
+            page: en
+            section: s-56b69d52a6
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-3534208742
+            part: body
+          en:
+            page: en
+            section: s-38c706bff8
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-18ebb8ede1
+            part: body
+          en:
+            page: en
+            section: s-b0604e5a31
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-20ad8c262b
+            part: body
+          en:
+            page: en
+            section: s-a4de93d67b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hemiphyllodactylus
+          url: https://www.checklistbank.org/dataset/316115/taxon/636ZT
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 24 authored records grouped under Hemiphyllodactylus by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 14 authored records grouped under Hemiphyllodactylus by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 8GPV6
+              name: Hemiphyllodactylus arakuensis
+              canonicalPath: content/nodes/COL%3A8GPV6
+            - colId: C7B9T
+              name: Hemiphyllodactylus cattien
+              canonicalPath: content/nodes/COL%3AC7B9T
+            - colId: 88Z43
+              name: Hemiphyllodactylus dushanensis
+              canonicalPath: content/nodes/COL%3A88Z43
+            - colId: 8H6NR
+              name: Hemiphyllodactylus indosobrinus
+              canonicalPath: content/nodes/COL%3A8H6NR
+            - colId: 88Z44
+              name: Hemiphyllodactylus jinpingensis
+              canonicalPath: content/nodes/COL%3A88Z44
+          fieldCountDistribution:
+            "1": 8
+            "2": 5
+            "3": 1
+    limitations:
+      zh:
+        page: zh
+        section: s-fd91a609a0
+        part: body
+      en:
+        page: en
+        section: s-9086d6c1f6
+        part: body

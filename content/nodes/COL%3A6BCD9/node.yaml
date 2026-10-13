@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor chac
+  displayName: Craugastor chac
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCD9
+  sourceIndexes:
+    - name:
+        en: Craugastor chac
+        zh: Craugastor chac
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCD9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/101
+            queryName: Craugastor chac
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/302
+            queryName: Eleutherodactylus chac
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a62448db9f
+      - s-b8b18ab88c
+      - s-d46cc3411a
+      - s-2a47c3b011
+      - s-71b92e4f06
+      - s-803a1af251
+      - s-7f7adc8f76
+      - s-12c2d3bf23
+      - s-b167b259dc
+    zh:
+      - s-60aacf0276
+      - s-5ffd8bc37e
+      - s-c620e8eeae
+      - s-c9bb873843
+      - s-8fc3cdbbcb
+      - s-0bff2c8ef2
+      - s-fc356be1ed
+      - s-887cbd9ab8
+      - s-0a28588660

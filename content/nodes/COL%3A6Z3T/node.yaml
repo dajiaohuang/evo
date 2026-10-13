@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudhymenochirus
+  displayName: Pseudhymenochirus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Z3T
+  sourceIndexes:
+    - name:
+        en: Pseudhymenochirus
+        zh: Pseudhymenochirus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Z3T
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/195
+            queryName: Pseudhymenochirus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 56
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9ee7f37b67
+      - s-fcc488e473
+      - s-9dd03b67d4
+      - s-04338b78aa
+      - s-a355933acd
+      - s-d47ceab0c5
+    zh:
+      - s-298d2f2089
+      - s-855f4f6db8
+      - s-c45b9c858a
+      - s-086683e4cb
+      - s-fd6becb3a7
+      - s-427dde70c9

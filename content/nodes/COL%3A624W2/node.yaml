@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperoliidae
+  displayName: Hyperoliidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/624W2
+  sourceIndexes:
+    - name:
+        en: Hyperoliidae
+        zh: Hyperoliidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 624W2
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/91
+            queryName: Hyperoliidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 216
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd60fe40b6
+      - s-49eee3de7e
+      - s-5f4fc9a41c
+      - s-ab2df56c86
+      - s-ee0f022ded
+      - s-0203114b22
+      - s-41223cc394
+      - s-5d3250527d
+    zh:
+      - s-63eab82a92
+      - s-0d124d42b8
+      - s-b61ea2d18f
+      - s-090aa6ecac
+      - s-a3239e1af5
+      - s-936a9c66fe
+      - s-a520c99720
+      - s-3c69d44042

@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gasteria nitida (Salm-Dyck) Haw.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3FCBL, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3FCBL; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FCBL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3FCBL
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000769011-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3FCBL / WFO wfo-0000769011
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13855_0
+        referenceId: ref-42368a7a-7688-8be0-ac6a-bc957fde9735
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gasteria nitida (Salm-Dyck) Haw. account; SANBI/WFO archive rows 9063 (Morphology), 25666 (Habitat), source identifier 13855.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_8534_0
+        referenceId: ref-9c34d50f-86bc-8efc-aa18-38c262cdacd6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gasteria nitida (Salm-Dyck) Haw. account; SANBI/WFO archive rows 78223 (Diagnostic), source identifier 8534.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Acaulescent succulent to 1 m. Leaves in a spiral or distichous rosette, smooth, triangular, margins and keels smooth. Flowers in an inclined, simple or branched raceme, nodding, reddish, inflated below.
+            textZh: Gasteria nitida (Salm-Dyck) Haw. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13855_0
+            locator: "SANBI/WFO archive Morphology row 9063; source identifier 13855.0; cited publication: Manning, JC; Goldblatt, P. 2012. Asphodelaceae: Gasteria Duval. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 74 - 75. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Gasteria nitida is immediately recognized by its striking erect to erectly spreading bright reddish pink racemes. The perianth is yellowish at the throat, a distinct feature not found in any other species of this genus. It is further characterized by its acaulescent rosette of short triangular to triangular-lanceolate, distinctly keeled, erect to erectly spreading leaves. The plants may be solitary or proliferate to form small groups. The inflorescence may be simple or with ascending side branches. The vegetative parts have a chameleon nature (phenotypic plasticity), depending on the prevailing environmental conditions. When frequent veld fires occur, plants are smaller and tend to remain in the juvenile phase. The leaves are lorate, densely tuberculate and lie flat on the gound and the plants are very difficult to detect. Without annual fires the leaves grow into a rosette. This is, however, not always the case and a variation exists where the leaves remain distichous (see var. armstrongii). This variation is continuous, however, and it grades into the typical G. nitida. G. nitida is closely related to G. ellaphieae, G. carinata and G. vlokii but these differ by having simple racemose inflorescences, the perianth not being yellow at the apex, and the epidermal texture of the juvenile and adult leaves remaining the same. The leaf is asperulous in G. vlokii, tuberculate in G. ellaphieae and tuberculate or smooth in G. carinata. In floral and vegetative features G. nitida comes close to G. ellaphieae and G. vlokii. These three species flower during December and January and have similar bright red-pink inflorescences. (G. carinata flowers during spring.) The distribution of these four related species is clearly allopatric. G. nitida is also related to G. pulchra and G. excelsa, having similar juvenile leaves, but the last-named differs in having leaves with very sharp, serrulate leaf margins and large panicles with light pink flowers. G. excelsa occurs in shady, forested river valleys. The flowering times of G. pulchra and G. excelsa coincide and where they grow close together, natural hybrids have been recorded [Van Jaarsveld 8653). G. pulchra has linear-triangular leaves.
+            textZh: SANBI 条目提供了 Gasteria nitida (Salm-Dyck) Haw. 的鉴别特征。
+            sourceIds:
+              - sanbi_8534_0
+            locator: "SANBI/WFO archive Diagnostic row 78223; source identifier 8534.0; cited publication: Van Jaarsveld, EJ. 1994. Gasterias of South Africa: a new revision of a major succulent group. Fernwood Press, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassy fynbos and renosterveld, often on sandstone soils.
+            textZh: 该 SANBI 区域物种条目记录的生境：Grassy fynbos and renosterveld, often on sandstone soils.
+            sourceIds:
+              - sanbi_13855_0
+            locator: "SANBI/WFO archive Habitat row 25666; source identifier 13855.0; cited publication: Manning, JC; Goldblatt, P. 2012. Asphodelaceae: Gasteria Duval. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 74 - 75. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-820669a3b4
+        title:
+          en:
+            page: en
+            section: s-7cdbcd86be
+            part: title
+          zh:
+            page: zh
+            section: s-0c75c284e6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7cdbcd86be
+            part: body
+          zh:
+            page: zh
+            section: s-0c75c284e6
+            part: body
+        sourceIds:
+          - sanbi_13855_0
+          - sanbi_8534_0
+      - id: page-f1e796c94c
+        title:
+          en:
+            page: en
+            section: s-ca22f9aa7a
+            part: title
+          zh:
+            page: zh
+            section: s-60f911bdae
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ca22f9aa7a
+            part: body
+          zh:
+            page: zh
+            section: s-60f911bdae
+            part: body
+        sourceIds:
+          - sanbi_13855_0

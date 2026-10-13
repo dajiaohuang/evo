@@ -1,0 +1,48 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pulchridormientes
+  displayName: Pristimantis pulchridormientes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJM5
+  sourceIndexes:
+    - name:
+        en: Pristimantis pulchridormientes
+        zh: Pristimantis pulchridormientes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJM5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/23
+            queryName: Pristimantis pulchridormientes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca857e2a84
+      - s-03c222548a
+      - s-0dc0061295
+      - s-4fa2d068b4
+    zh:
+      - s-0432e6787c
+      - s-ceb66af304
+      - s-d15f814c69
+      - s-0c26870853

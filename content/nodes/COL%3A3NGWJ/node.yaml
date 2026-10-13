@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus azureiventris
+  displayName: Hyloxalus azureiventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGWJ
+  sourceIndexes:
+    - name:
+        en: Hyloxalus azureiventris
+        zh: Hyloxalus azureiventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGWJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/83
+            queryName: Hyloxalus azureiventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/166
+            queryName: Cryptophyllobates azureiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/104
+            queryName: Phyllobates azureiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/105
+            queryName: Dendrobates azureiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/106
+            queryName: Epipedobates azureiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/107
+            queryName: Ameerega azureiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1c12a5c156
+      - s-f0e4ce1f23
+      - s-e069db0612
+      - s-67988f2b36
+      - s-13475263ff
+      - s-bad0c00fdc
+      - s-7208a7b04c
+      - s-9a886ea8f6
+      - s-b4e690bef3
+      - s-10754357f7
+    zh:
+      - s-246d5d222c
+      - s-6c245bd71a
+      - s-922908d983
+      - s-2f0d651d03
+      - s-391e2d550f
+      - s-16022e60fd
+      - s-39c4bdf57f
+      - s-13079b77f5
+      - s-61dea7dcd8
+      - s-696cdd6295

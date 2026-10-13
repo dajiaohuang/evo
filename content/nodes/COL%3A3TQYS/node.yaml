@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptomantis penanorum
+  displayName: Leptomantis penanorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TQYS
+  sourceIndexes:
+    - name:
+        en: Leptomantis penanorum
+        zh: Leptomantis penanorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TQYS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/459
+            queryName: Leptomantis penanorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/497
+            queryName: Rhacophorus penanorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ebcb3ceec6
+      - s-0b90bb7562
+      - s-fb70fe55d0
+      - s-53978928da
+      - s-7db4a8fd41
+      - s-f19a80650d
+    zh:
+      - s-4b20482af2
+      - s-519ede9ca8
+      - s-4dbe792c41
+      - s-a40ede5b88
+      - s-af59e77fc4
+      - s-55eb3c7541

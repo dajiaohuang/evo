@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Boophis madagascariensis {#s-fcce0af970}
+TadpoleTraits version 4 places Boophis madagascariensis in Boophis (Mantellidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Boophis madagascariensis. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 3 literature rows and 0 image rows {#s-84c13a0cd6}
+TadpoleTraits version 4 links 3 literature rows and 0 image rows to Boophis madagascariensis. Source row numbers — literature: 3219, 3220, 3221; image: none recorded. Populated measurement fields — literature: TL, BL, BMH, BMW, TaL, MTH, TMH, TMW, IOD.a, E, SSD.a; image: none recorded. Literature row 3219: Stage 35; Literature row 3220: Stage 35; Literature row 3221: Stage 28-37. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

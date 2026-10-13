@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis paengi
+  displayName: Platymantis paengi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSR5
+  sourceIndexes:
+    - name:
+        en: Platymantis paengi
+        zh: Platymantis paengi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSR5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/392
+            queryName: Platymantis paengi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5f208ac57c
+      - s-e290931131
+      - s-09a8a16b8e
+      - s-eedfeac480
+      - s-bf65c535b7
+      - s-62da4f5b2e
+      - s-00c157d659
+      - s-0add6af2a4
+    zh:
+      - s-af12dede84
+      - s-8872252d39
+      - s-56115da488
+      - s-4ae6cc141d
+      - s-47accdc0d0
+      - s-19a9dd3b40
+      - s-b54809284c
+      - s-c2aa583dbe

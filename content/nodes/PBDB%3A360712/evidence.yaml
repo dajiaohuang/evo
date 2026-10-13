@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trionyx ninae
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Trionyx ninae
+      en: Trionyx ninae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0bd42dee7f
+            part: body
+          en:
+            page: en
+            section: s-50c84adffc
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e50f901364
+            part: body
+          en:
+            page: en
+            section: s-4ae9f43055
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-66299404ff
+            part: body
+          en:
+            page: en
+            section: s-27be0ea9c7
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-92fee0f915
+            part: body
+          en:
+            page: en
+            section: s-6fb2125d3c
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2a50648f98
+            part: body
+          en:
+            page: en
+            section: s-96d431c5d4
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Trionyx ninae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=360712&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:360712; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:360712
+          selectedOccurrenceIds:
+            - occ:1333468
+            - occ:1381017
+            - occ:1381018
+          selectedCollectionIds:
+            - col:179689
+            - col:177065
+            - col:71672
+          sourceReferenceIds:
+            - ref:59546
+          originalIdentificationMappings:
+            - occurrenceId: occ:1333468
+              originalIdentifiedName: Trionyx ninae n. sp.
+              acceptedName: Trionyx ninae
+              difference: null
+            - occurrenceId: occ:1381017
+              originalIdentifiedName: Trionyx zaisanensis n. sp.
+              acceptedName: Trionyx ninae
+              difference: null
+            - occurrenceId: occ:1381018
+              originalIdentifiedName: Trionyx turgaicus n. sp.
+              acceptedName: Trionyx ninae
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4bb6cea69f
+        part: body
+      en:
+        page: en
+        section: s-a2649e713b
+        part: body

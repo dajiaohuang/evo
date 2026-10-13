@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:409636
+    scientificName: Horneophyton
+    commonName: Horneophyton
+    commonNameZh: 角蕨属
+    rank: genus
+    parentName: Plantae
+    extinct: true
+    geography:
+      - Rhynie Chert, Aberdeenshire, Scotland
+    overview:
+      page: en
+      section: s-47b744fd87
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-82b50f7984
+        part: body
+      habitat:
+        page: en
+        section: s-f4a35739a6
+        part: body
+      locomotion:
+        page: en
+        section: s-ac0c777c66
+        part: body
+      bodySize:
+        page: en
+        section: s-d9a27ffd46
+        part: body
+      guild:
+        page: en
+        section: s-c042b14d51
+        part: body
+    traits:
+      - page: en
+        section: s-6ce5b5d021
+        part: body
+      - page: en
+        section: s-b66fffaf38
+        part: body
+      - page: en
+        section: s-1f3e27db3f
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-7448a875fc
+      part: body
+    readerSections:
+      - id: sampled-early-plant
+        title:
+          en:
+            page: en
+            section: s-a36bcab80c
+            part: title
+          zh:
+            page: zh
+            section: s-dca6312bc5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a36bcab80c
+            part: body
+          zh:
+            page: zh
+            section: s-dca6312bc5
+            part: body
+        sourceIds:
+          - kenrick-long-2026-horneophyton
+      - id: cell-wall-function
+        title:
+          en:
+            page: en
+            section: s-8c4ac0aa4b
+            part: title
+          zh:
+            page: zh
+            section: s-d1c2e016cd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8c4ac0aa4b
+            part: body
+          zh:
+            page: zh
+            section: s-d1c2e016cd
+            part: body
+        sourceIds:
+          - kenrick-long-2026-horneophyton
+          - parry-2011-rhynie-age
+    confidence: medium
+    referenceIds:
+      - kenrick-long-2026-horneophyton
+      - parry-2011-rhynie-age
+  claims:
+    - subjectId: taxon:horneophyton
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Kenrick and Long verified Horneophyton lignieri in a 24-section museum sample and selected three named NHMUK slides for detailed imaging; the profile does not turn the study's evolutionary interpretation into direct ancestry.
+      confidence: high
+      confidenceRationale: The primary study identifies the taxon, specimen pool, selected slides and verification method. High confidence applies to that sampled identity rather than every historical assignment or inferred ancestor state.
+      referenceLinks:
+        - referenceId: kenrick-long-2026-horneophyton
+          relation: supports
+          pages: 3149–3164
+          figure: Figure 1; Supporting Information Methods S1
+          quoteLocator: Materials and Methods; 24 sections, three selected slides and taxonomic verification
+    - subjectId: taxon:horneophyton
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profiled Horneophyton lignieri slides contain Rhynie-chert material from Aberdeenshire, Scotland; this museum sample does not establish a complete geographic distribution or origin centre.
+      confidence: high
+      confidenceRationale: The primary anatomical and geochronological studies independently identify the Rhynie Chert and Rhynie Outlier. High confidence is limited to the represented deposit and does not infer absence elsewhere.
+      referenceLinks:
+        - referenceId: kenrick-long-2026-horneophyton
+          relation: supports
+          pages: 3149–3164
+          figure: Figure 1
+          quoteLocator: Study site and museum material; NHMUK PI In 24697, NHMUK OC 1938 and NHMUK SC 3137
+        - referenceId: parry-2011-rhynie-age
+          relation: contextualizes
+          pages: 863–872
+          figure: Figure 1
+          quoteLocator: Rhynie Outlier geological setting
+    - subjectId: taxon:horneophyton
+      claimType: ecology
+      claimKind: scientific
+      statement: The study context associates Horneophyton lignieri with Rhynie sinter surfaces and reconstructs a sessile rhizoid-bearing plant, but the selected thin sections do not measure ecological breadth, carbon acquisition or a population-wide guild.
+      confidence: medium
+      confidenceRationale: The paper reports the deposit context and reconstructed plant form but focuses experimentally on conducting-cell anatomy. Medium confidence distinguishes those contextual observations from unmeasured physiological and population ecology.
+      referenceLinks:
+        - referenceId: kenrick-long-2026-horneophyton
+          relation: supports
+          pages: 3149–3164
+          figure: Figure 1
+          quoteLocator: Introduction and study setting; reconstruction; Materials and Methods
+    - subjectId: taxon:horneophyton
+      claimType: morphology
+      claimKind: scientific
+      statement: Confocal imaging of Horneophyton lignieri shows papillate or labyrinthine wall ingrowths in conducting cells and does not recover distinct xylem and phloem; resemblance to transfer cells and transport function remain interpretations.
+      confidence: high
+      confidenceRationale: Named slides, confocal optical sections, three-dimensional renderings and measured cell walls directly support the anatomical observations. High confidence does not extend to the inferred physiological role or a universal ancestral vascular system.
+      referenceLinks:
+        - referenceId: kenrick-long-2026-horneophyton
+          relation: supports
+          pages: 3149–3164
+          figure: Figures 2–8; Supporting Figures S1–S5
+          quoteLocator: Conducting-cell Results; transfer-cell comparison; xylem and phloem reassessment
+    - subjectId: taxon:horneophyton
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 412.8–410.2 Ma interval is the 411.5 ± 1.3 Ma U–Pb uncertainty window used for the represented Rhynie-chert Horneophyton material; it is not a global first appearance, last appearance or lineage duration.
+      confidence: medium
+      confidenceRationale: The geochronology study directly reports the zircon age and uncertainty, while the anatomical study ties the profiled slides to Rhynie. Confidence remains medium because the dated andesite constrains the deposit rather than directly dating each slide.
+      referenceLinks:
+        - referenceId: parry-2011-rhynie-age
+          relation: supports
+          pages: 863–872
+          figure: Figures 1–4
+          quoteLocator: Abstract; ID-TIMS methods and Results; 411.5 ± 1.3 Ma zircon age
+        - referenceId: kenrick-long-2026-horneophyton
+          relation: contextualizes
+          pages: 3149–3164
+          quoteLocator: Rhynie Chert material and named NHMUK slides
+  claim-rationales.zh:
+    - 一手研究记录分类核验、24 张切片总体和三张具名详查切片；高置信度限于样本身份，不扩展为所有历史归入或祖先状态。
+    - 解剖与年代研究独立识别莱尼燧石和莱尼露头；高置信度限于所代表产地，不把其他地区的缺失解释为真实不存在。
+    - 论文报告沉积背景与植物复原，但实验重点是导管细胞解剖；中等置信度区分这些背景观察与未测量的生理和种群生态。
+    - 具名切片、共聚焦光学切面、三维渲染和细胞壁测量直接支持解剖观察；高置信度不延伸到推断的生理功能或普适祖先维管系统。
+    - 年代学研究直接报告锆石年龄与误差，解剖研究把具名切片锚定到莱尼；由于被测安山岩约束产地而非每张切片，置信度保持中等。
+  claim-statements.zh:
+    - Kenrick 与 Long 在含 24 张切片的馆藏样本中核验 Horneophyton lignieri，并选择三张具名 NHMUK 切片进行详细成像；本档案不把研究的演化解释改写为直接祖先关系。
+    - 档案中的 Horneophyton lignieri 切片包含来自苏格兰阿伯丁郡莱尼燧石的材料；这一馆藏样本不能确立完整地理分布或起源中心。
+    - 研究背景把 Horneophyton lignieri 与莱尼硅华表面联系起来，并复原为具假根的固着植物；但所选切片没有测量生态范围、碳获取或种群级功能群。
+    - Horneophyton lignieri 的共聚焦成像显示导管细胞中乳突状或迷宫状壁内突，且未恢复出独立木质部与韧皮部；与转移细胞的相似性及运输功能仍属解释。
+    - 显示的 412.8–410.2 Ma 区间是用于所代表莱尼燧石 Horneophyton 材料的 411.5 ± 1.3 Ma U–Pb 不确定性窗口；它不是全球首现、末现或谱系延续时间。
+  ranges:
+    - entityId: horneophyton
+      rangeKind: global-composite
+      taxonomicConcept: Horneophyton lignieri represented Rhynie-chert material
+      geographicScope: Rhynie Chert, Rhynie Outlier, Aberdeenshire, Scotland
+      olderMa: 412.8
+      youngerMa: 410.2
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 411.5 ± 1.3 Ma U–Pb constraint is represented as a bounded locality-age window for the cited Rhynie material, not a global first or last appearance of Horneophyton.
+      evidenceBasis: The confocal study identifies Horneophyton lignieri in named Rhynie-chert slides, while the independent ID-TIMS study constrains the Rhynie Outlier with a 411.5 ± 1.3 Ma zircon age.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:horneophyton:fossil-range
+      referenceLocators:
+        - referenceId: kenrick-long-2026-horneophyton
+          locator: pp. 3149–3164; Materials and Methods; NHMUK PI In 24697, NHMUK OC 1938 and NHMUK SC 3137; Figures 1–8
+        - referenceId: parry-2011-rhynie-age
+          locator: pp. 863–872, especially Abstract and Results; 411.5 ± 1.3 Ma ID-TIMS U–Pb zircon age

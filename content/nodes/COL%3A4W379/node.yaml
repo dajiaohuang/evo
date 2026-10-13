@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger muliensis
+  displayName: Scutiger muliensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W379
+  sourceIndexes:
+    - name:
+        en: Scutiger muliensis
+        zh: Scutiger muliensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W379
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/157
+            queryName: Scutiger muliensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e78f05ab3a
+      - s-363ca735c2
+      - s-9f2fad9036
+      - s-064245dc96
+      - s-d327aae6e9
+      - s-9cf3126c5d
+      - s-2d0da3d8bd
+      - s-4f80f16ac0
+      - s-6826ab255f
+      - s-2734b6f9cf
+    zh:
+      - s-21d6b8a2e0
+      - s-33d3e2a01f
+      - s-e66138c584
+      - s-096a172e67
+      - s-1c6c317a23
+      - s-7d20749b3b
+      - s-f9bdc57ec4
+      - s-bf3887aed5
+      - s-7ef9c66313
+      - s-e939daf9c0

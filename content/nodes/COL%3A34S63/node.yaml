@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus melanargyreus
+  displayName: Dendropsophus melanargyreus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S63
+  sourceIndexes:
+    - name:
+        en: Dendropsophus melanargyreus
+        zh: Dendropsophus melanargyreus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S63
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/384
+            queryName: Dendropsophus melanargyreus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/391
+            queryName: Hyla melanargyrea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/386
+            queryName: Hyla marmorata melanargyrea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/387
+            queryName: Hyla senicula melanargyrea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/388
+            queryName: Hyla senicula attenuata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-88fefe443e
+      - s-40623befda
+      - s-4d9607a0b7
+      - s-fafe2952f7
+      - s-df28ddb128
+      - s-38a4b57913
+      - s-3c8deb83c3
+      - s-33a86deffd
+      - s-c273d351dd
+      - s-c898ffb9ce
+      - s-53c9c10729
+      - s-7978ed07e3
+      - s-8ff68547b2
+      - s-35879689f4
+      - s-479aae781d
+      - s-268d3d7377
+      - s-7c36be18a9
+      - s-32da7d0a53
+      - s-894fff7e1e
+      - s-6644a26778
+      - s-6c24e4812d
+      - s-b099143d27
+      - s-4e5f8b2850
+      - s-679ab75aa8
+      - s-b543e2e24c
+      - s-30d0aeb76e
+    zh:
+      - s-c7a6b3e590
+      - s-ccef64116d
+      - s-10d6e6742a
+      - s-13f9bd95f1
+      - s-249bbe8817
+      - s-4d23bee184
+      - s-0341e1dfe6
+      - s-095d30a9d9
+      - s-fe91332ea3
+      - s-1ad47274eb
+      - s-25cf1e066d
+      - s-a7126ec06c
+      - s-839c8779e9
+      - s-c4f19f9691
+      - s-a172201748
+      - s-1fe3ce1fb6
+      - s-77803de757
+      - s-4955b107d3
+      - s-58062df04f
+      - s-686694c540
+      - s-f37034401d
+      - s-2e498957aa
+      - s-3a11e4e5b0
+      - s-384aa56c97
+      - s-67571836e5
+      - s-1410f5edf4

@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adelphobates galactonotus
+  displayName: Adelphobates galactonotus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9YN4
+  sourceIndexes:
+    - name:
+        en: Adelphobates galactonotus
+        zh: Adelphobates galactonotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9YN4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/20
+            queryName: Adelphobates galactonotus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/181
+            queryName: Dendrobates galactonotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/229
+            queryName: Dendrobates paraensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9d7e54af6
+      - s-27d1346de4
+      - s-dc43aa7d0b
+      - s-6fe7f16df9
+      - s-e524fd2754
+      - s-d9ef5db455
+      - s-5054c0a346
+      - s-2e025ba41f
+      - s-809f943549
+      - s-600558bc4b
+      - s-84cd39d35c
+      - s-07ae4776cd
+      - s-47ead1470c
+      - s-c720d4a5a8
+      - s-4c8d9bb636
+      - s-d0fccc411d
+      - s-1b770a8bfd
+      - s-95e5a11848
+      - s-f7dc8c5b69
+      - s-fb8cc730e0
+      - s-dc177b5442
+      - s-d7674037cc
+      - s-2527cb95d4
+    zh:
+      - s-ff0c66018a
+      - s-fc9f30fd5c
+      - s-8d8907c24e
+      - s-8d5d3fc20c
+      - s-d5b4e34f4f
+      - s-8fccfa3da6
+      - s-206e27c2ce
+      - s-ec8411d953
+      - s-9f773df33d
+      - s-b6ddf6dfbf
+      - s-6f254df72c
+      - s-2b14dacec6
+      - s-8654ee50d1
+      - s-2ee7fd14a9
+      - s-901e6afd26
+      - s-878ee053e2
+      - s-b9d35b748a
+      - s-20c0ac714a
+      - s-79cd533875
+      - s-1bd12d8a50
+      - s-5c3fc3deec
+      - s-9ee3c520eb
+      - s-55ecd267bd

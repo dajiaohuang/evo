@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla chinensis
+  displayName: Hyla chinensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NCQ2
+  sourceIndexes:
+    - name:
+        en: Hyla chinensis
+        zh: Hyla chinensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NCQ2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/358
+            queryName: Hyla chinensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/373
+            queryName: Hyla arborea chinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/374
+            queryName: Hyla arborea sinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/375
+            queryName: Hyla chinensis chinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-97af17b8ba
+      - s-9bbbfbf5a4
+      - s-c1972e2b15
+      - s-26eb1ab722
+      - s-55b6af8045
+      - s-e99b49d5d8
+      - s-98b7a116fe
+      - s-c95677d88e
+      - s-d481f2e0ec
+      - s-870434ea03
+      - s-de26018a8b
+      - s-7fd0fac30d
+      - s-d175294343
+      - s-9dc7a0e693
+    zh:
+      - s-9ae869cf24
+      - s-cc10143196
+      - s-ca7c7afdc3
+      - s-83a267327f
+      - s-e970682c61
+      - s-41bca5513b
+      - s-a775475ded
+      - s-3a8e6517bc
+      - s-e544a2cc6a
+      - s-1d6cd1cbae
+      - s-554e2ce7da
+      - s-2cb9b1758b
+      - s-f03d53bd47
+      - s-70ee35f952

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctimystes bivocalis
+  displayName: Nyctimystes bivocalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485MR
+  sourceIndexes:
+    - name:
+        en: Nyctimystes bivocalis
+        zh: Nyctimystes bivocalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485MR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/379
+            queryName: Nyctimystes bivocalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/249
+            queryName: Litoria bivocalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1edba1851b
+      - s-0d61a925f9
+      - s-f5eb058965
+      - s-4b20aff566
+      - s-1026f9c545
+      - s-c9f435d925
+    zh:
+      - s-9c5d6cebe9
+      - s-d2a96da3fb
+      - s-5c217c18ef
+      - s-cb74816b96
+      - s-2c43aff289
+      - s-8a3d1df980

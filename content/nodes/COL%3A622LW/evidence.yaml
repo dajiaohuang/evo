@@ -1,0 +1,462 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Muroidea
+    rank: superfamily
+    sourceDatasetId: "2144"
+    name:
+      zh: Muroidea
+      en: Muroidea
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-b78178a983
+            part: body
+          en:
+            page: en
+            section: s-3d527e6046
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-340f78c2c8
+            part: body
+          en:
+            page: en
+            section: s-107f5cf3ec
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-bf7872d3da
+            part: body
+          en:
+            page: en
+            section: s-79282abb65
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e974cf35b8
+            part: body
+          en:
+            page: en
+            section: s-ba7de31db7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-0fa69507f7
+            part: body
+          en:
+            page: en
+            section: s-fb8a6b8d77
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-dd82f69c02
+            part: body
+          en:
+            page: en
+            section: s-8612d6fc36
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-02313609c1
+            part: body
+          en:
+            page: en
+            section: s-af436a5a0a
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-edcca06bb3
+            part: body
+          en:
+            page: en
+            section: s-9ced6f4ba4
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-aa8642795f
+            part: body
+          en:
+            page: en
+            section: s-6f83c72e25
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-469e75f055
+            part: body
+          en:
+            page: en
+            section: s-f2c9f3909c
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-6109817d4d
+            part: body
+          en:
+            page: en
+            section: s-d8786017f2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Muroidea
+          url: https://www.checklistbank.org/dataset/316115/taxon/622LW
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 197 authored entries grouped under Muroidea by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 454 authored same-name records placed under Muroidea by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 969 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 815
+            foraging: 969
+            activity: 829
+          readingTargets:
+            - name: Monticolomys koopmani
+              colId: 44B8D
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A44B8D
+            - name: Nesomys lambertoni
+              colId: 4784T
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4784T
+            - name: Nesomys rufus
+              colId: 6S96K
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6S96K
+            - name: Nesomys audeberti
+              colId: 4784S
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4784S
+            - name: Eliurus penicillatus
+              colId: 6F5NS
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NS
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 164 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 1
+            foraging: 163
+            activity: 0
+          readingTargets:
+            - name: Voalavo gymnocaudus
+              colId: 7FT8Q
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A7FT8Q
+            - name: Eliurus antsingy
+              colId: 6F5ML
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5ML
+            - name: Eliurus petteri
+              colId: 6F5NV
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NV
+            - name: Eliurus grandidieri
+              colId: 6F5NY
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NY
+            - name: Eliurus ellermani
+              colId: 6F5NZ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NZ
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 359 authored entries grouped under Muroidea by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: PYKY
+              name: Calomys boliviae
+              canonicalPath: content/nodes/COL%3APYKY
+            - colId: PYKZ
+              name: Calomys callidus
+              canonicalPath: content/nodes/COL%3APYKZ
+            - colId: PYL5
+              name: Calomys hummelincki
+              canonicalPath: content/nodes/COL%3APYL5
+            - colId: PYL9
+              name: Calomys sorellus
+              canonicalPath: content/nodes/COL%3APYL9
+            - colId: 68VFY
+              name: Calomys tener
+              canonicalPath: content/nodes/COL%3A68VFY
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 97 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 65CM3
+              name: Aethomys hindei
+              canonicalPath: content/nodes/COL%3A65CM3
+            - colId: 65CM4
+              name: Aethomys kaiseri
+              canonicalPath: content/nodes/COL%3A65CM4
+            - colId: FRHT
+              name: Apodemus argenteus
+              canonicalPath: content/nodes/COL%3AFRHT
+            - colId: FRHR
+              name: Apodemus agrarius
+              canonicalPath: content/nodes/COL%3AFRHR
+            - colId: KK82
+              name: Bandicota indica
+              canonicalPath: content/nodes/COL%3AKK82
+          fieldAccountCounts:
+            gestation(mo): 59
+            newborn(g): 35
+            weaning(mo): 51
+            wean mass(g): 23
+            AFR(mo): 51
+            max. life(mo): 19
+            litter size: 89
+            litters/year: 23
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-fcae22870e
+        part: body
+      en:
+        page: en
+        section: s-13500946aa
+        part: body

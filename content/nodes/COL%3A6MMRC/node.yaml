@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana darlingi
+  displayName: Hylarana darlingi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MMRC
+  sourceIndexes:
+    - name:
+        en: Hylarana darlingi
+        zh: Hylarana darlingi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MMRC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/400
+            queryName: Hylarana darlingi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/399
+            queryName: Amnirana darlingi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/375
+            queryName: Rana darlingi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1245
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/376
+            queryName: Hydrophylax darlingi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-932e8bae72
+      - s-29ac951f02
+      - s-a37fa9a44f
+      - s-9de5a6f921
+      - s-62f3bb0101
+      - s-d65d7add7c
+      - s-06638bd198
+      - s-13660bbeeb
+      - s-35dffece0c
+      - s-bafffc90f0
+    zh:
+      - s-4d82c17a0e
+      - s-81003a6aed
+      - s-2f36730e5f
+      - s-9992aaacff
+      - s-0536215c2f
+      - s-4923d6e1ca
+      - s-3d3366002f
+      - s-39b4526dbf
+      - s-69621fd68d
+      - s-645f583fb2

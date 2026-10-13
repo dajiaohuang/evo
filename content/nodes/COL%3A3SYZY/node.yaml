@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leiopelma hamiltoni
+  displayName: Leiopelma hamiltoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3SYZY
+  sourceIndexes:
+    - name:
+        en: Leiopelma hamiltoni
+        zh: Leiopelma hamiltoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3SYZY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/190
+            queryName: Leiopelma hamiltoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/228
+            queryName: Leiopelma pakeka
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/242
+            queryName: Liopelma hamiltoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/243
+            queryName: Leioaspetos hamiltoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-978b3e3c24
+      - s-f20bbfc14e
+      - s-e5058d598f
+      - s-58e67b5f28
+      - s-76b0c04340
+      - s-da055fb610
+      - s-40d78cff40
+      - s-0d9a731a6e
+      - s-48f2c8c67e
+      - s-6069550cba
+      - s-a2d456f119
+      - s-a85244c633
+    zh:
+      - s-a60a3f24ad
+      - s-52d3b0e04b
+      - s-fa21483ecd
+      - s-82bfa5c9a5
+      - s-abcb5c9160
+      - s-c5a3f9e116
+      - s-89d7620c5f
+      - s-29f7435118
+      - s-a88bc4f306
+      - s-160739f810
+      - s-a3b7a6ceda
+      - s-3e73b9498c

@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rana chaochiaoensis
+    name:
+      en: Rana chaochiaoensis
+      zh: Rana chaochiaoensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Rana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e9e8771f92
+            part: body
+          zh:
+            page: zh
+            section: s-ed0284a253
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7988b798ea
+            part: body
+          zh:
+            page: zh
+            section: s-efce1cd55f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5159; Reference.csv rows 3986
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5159
+        values:
+          - Ranidae
+          - Rana
+          - Rana chaochiaoensis
+          - NA
+          - "49.89"
+          - "15.84"
+          - "16.5"
+          - "5.11"
+          - "4.45"
+          - NA
+          - "6.67"
+          - "3.67"
+          - "3.73"
+          - NA
+          - "7.97"
+          - NA
+          - NA
+          - "22.66"
+          - NA
+          - "28.47"
+          - NA
+          - "31.39"
+          - "29.91"
+          - NA
+          - NA
+          - NA
+          - "2.67"
+          - NA
+          - "8.94"
+          - "16.24"
+          - "9.58"
+          - NA
+          - "5.29"
+          - "7.53"
+          - "5.38"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3986
+        values:
+          - Anura
+          - Rana_chaochiaoensis
+          - Yan, F., Jiang, K., Chen, H., Ping, F., Jieqiong, J., Yi, L., . . . Yaping, Z. (2011). Matrilineal history of the Rana longicrus species group (Rana, Ranidae, Anura) and the description of a new species from Hunan, southern China. Asian Herpetological Research, 2, 61-71. https://doi.org/10.3724/SP.J.1245.2011.00061
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Toe1L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4RDLH
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

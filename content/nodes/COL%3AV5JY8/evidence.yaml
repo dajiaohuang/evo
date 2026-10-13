@@ -1,0 +1,326 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys chishuiensis (Xu, Li, Liu, Wei & Wang, 2020)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys chishuiensis
+      zh: Boulenophrys chishuiensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9644d60496
+            part: title
+          zh:
+            page: zh
+            section: s-bfa5c38bac
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9644d60496
+            part: body
+          zh:
+            page: zh
+            section: s-bfa5c38bac
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9ad129bd4f
+            part: title
+          zh:
+            page: zh
+            section: s-da076ef9f5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9ad129bd4f
+            part: body
+          zh:
+            page: zh
+            section: s-da076ef9f5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-7bed95936e
+            part: title
+          zh:
+            page: zh
+            section: s-71e2ba1774
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5jy8
+        text:
+          en:
+            page: en
+            section: s-7bed95936e
+            part: body
+          zh:
+            page: zh
+            section: s-71e2ba1774
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8d33c0d930
+            part: title
+          zh:
+            page: zh
+            section: s-a1bcf7d8a0
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5jy8
+        text:
+          en:
+            page: en
+            section: s-8d33c0d930
+            part: body
+          zh:
+            page: zh
+            section: s-a1bcf7d8a0
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d201adbd52
+            part: title
+          zh:
+            page: zh
+            section: s-62dc52f7ec
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5jy8
+        text:
+          en:
+            page: en
+            section: s-d201adbd52
+            part: body
+          zh:
+            page: zh
+            section: s-62dc52f7ec
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7dc25a91c9
+            part: title
+          zh:
+            page: zh
+            section: s-8e60daea82
+            part: title
+        sourceIds:
+          - primary-pmc12466624-v5jy8
+        text:
+          en:
+            page: en
+            section: s-7dc25a91c9
+            part: body
+          zh:
+            page: zh
+            section: s-8e60daea82
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys chishuiensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5JY8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10083232-v5jy8
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys chishuiensis: Named species types, examined material, diagnosis, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-v5jy8
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys chishuiensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-74ebde0bcd
+        part: body
+      zh:
+        page: zh
+        section: s-41363a45ef
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v5jy8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys chishuiensis
+        evidenceRead: "Boulenophrys chishuiensis: Named species types, examined material, diagnosis, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Southern Sichuan Basin locality account
+              zh: 四川盆地南缘地点记录
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5jy8
+            locator: RESULTS > Boulenophrys chishuiensis; Holotype, Specimens examined and Distribution; reading-sections index 24, section s03.40
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5fdb7a6248
+                part: body
+              zh:
+                page: zh
+                section: s-21cf81572d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Twenty-three examined adults
+              zh: 二十三只检查成体
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5jy8
+            locator: RESULTS > Boulenophrys chishuiensis; Diagnosis characters 1, 4, 5, 9 and 11; reading-sections index 24, section s03.40
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e98d32044a
+                part: body
+              zh:
+                page: zh
+                section: s-2bbb046cd7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: Revision of the long-used Emeishan identification
+              zh: 修订长期沿用的峨眉山鉴定
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5jy8
+            locator: RESULTS > Boulenophrys chishuiensis; Remarks; reading-sections index 24, section s03.40
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-df8fe92ab1
+                part: body
+              zh:
+                page: zh
+                section: s-edfa9c478f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-v5jy8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys chishuiensis
+        evidenceRead: "Boulenophrys chishuiensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-v5jy8
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,35
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-48d85f4db3
+                part: body
+              zh:
+                page: zh
+                section: s-813ed656f7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudopaludicola ibisoroca
+  displayName: Pseudopaludicola ibisoroca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P5QC
+  sourceIndexes:
+    - name:
+        en: Pseudopaludicola ibisoroca
+        zh: Pseudopaludicola ibisoroca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P5QC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/339
+            queryName: Pseudopaludicola ibisoroca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8ba688325b
+      - s-15da1eef91
+      - s-a9f034f332
+      - s-a410e9eb6c
+      - s-2bf0e50037
+    zh:
+      - s-aea9bb3967
+      - s-c06524a270
+      - s-ce438f37ee
+      - s-f3c08b3486
+      - s-c8b7e7ba43

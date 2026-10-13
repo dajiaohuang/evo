@@ -1,0 +1,295 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hymenoptera
+    rank: order
+    sourceDatasetId: null
+    name:
+      zh: 膜翅目
+      en: Ants, bees, wasps and sawflies
+    sections:
+      - topic: form
+        text:
+          zh:
+            page: zh
+            section: s-008706a91a
+            part: body
+          en:
+            page: en
+            section: s-d7535eda1b
+            part: body
+        sourceIds:
+          - account
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-20ba59d2e3
+            part: body
+          en:
+            page: en
+            section: s-9643fb88f0
+            part: body
+        sourceIds:
+          - account
+    sources:
+      - id: account
+        referenceId: ref-3a580f72-bb5a-8b03-a4b9-0d8fc1cdebc4
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 翅钩、完全变态与不同食性；不采纳教材中将广腰类作为独立自然支系或社会性唯一性的旧表述。
+            en: Wing coupling, complete metamorphosis and feeding diversity; excludes older natural-group and exclusivity claims about sawflies and sociality.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · assembled hierarchy
+          url: https://www.checklistbank.org/dataset/316115/taxon/HYM
+          scope:
+            zh: 固定版本中的接受名、作者、等级及父链；保留亚属写法和未分配的来源 ID，不据名称推导生物学事实。
+            en: Pinned accepted name, authorship, rank and parent chain; subgenus notation and unassigned source IDs are retained. Names do not establish biological traits.
+    limitations:
+      zh:
+        page: zh
+        section: s-d0177a2433
+        part: body
+      en:
+        page: en
+        section: s-8b2eeb4ecf
+        part: body
+  atlas-node:
+    name: Hymenoptera
+    commonName: Ants, Bees & Wasps
+    commonNameZh: 蚂蚁、蜜蜂与胡蜂
+    rank: order
+    taxonId: txn:70707
+    firstAppearance: 200
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: txn:70707
+    scientificName: Hymenoptera
+    commonName: Ants, bees and wasps
+    commonNameZh: 蚂蚁、蜜蜂与胡蜂
+    rank: order
+    parentName: Insecta
+    extinct: false
+    geography:
+      - Triassic xyelid and other hymenopteran fossil localities compiled by Zhang et al.
+      - Peters et al. transcriptomic sample across major hymenopteran lineages
+    overview:
+      page: en
+      section: s-1440e537dc
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-53d185016e
+        part: body
+      habitat:
+        page: en
+        section: s-061ca8feaa
+        part: body
+      locomotion:
+        page: en
+        section: s-19379754cf
+        part: body
+      bodySize:
+        page: en
+        section: s-25b4e7e326
+        part: body
+      guild:
+        page: en
+        section: s-aee73c1bc9
+        part: body
+    traits:
+      - page: en
+        section: s-399dff072a
+        part: body
+      - page: en
+        section: s-610cd4447c
+        part: body
+      - page: en
+        section: s-7a604a892d
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-d1fb3bc607
+      part: body
+    readerSections:
+      - id: transcriptome-tree
+        sourceIds:
+          - peters-2017-hymenoptera-history
+        title:
+          en:
+            page: en
+            section: s-c60d52e1f6
+            part: title
+          zh:
+            page: zh
+            section: s-b3d8fa7820
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c60d52e1f6
+            part: body
+          zh:
+            page: zh
+            section: s-b3d8fa7820
+            part: body
+      - id: oldest-xyelids
+        sourceIds:
+          - zhang-2025-hymenoptera-divergence-dating
+        title:
+          en:
+            page: en
+            section: s-959cc25ed7
+            part: title
+          zh:
+            page: zh
+            section: s-c7890fa4da
+            part: title
+        text:
+          en:
+            page: en
+            section: s-959cc25ed7
+            part: body
+          zh:
+            page: zh
+            section: s-c7890fa4da
+            part: body
+    confidence: medium
+    referenceIds:
+      - peters-2017-hymenoptera-history
+      - zhang-2025-hymenoptera-divergence-dating
+    overviewZh:
+      page: zh
+      section: zh-333f5618bbca39
+      part: body
+  claims:
+    - subjectId: taxon:hymenoptera
+      claimKind: scientific
+      claimType: topology
+      statement: Transcriptomic sampling across hymenopteran lineages resolves many relationships and supplies fossil-calibrated divergence estimates. Those estimates depend on sampled taxa, loci, calibrations and clock models and do not equal a global Hymenoptera FAD.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond those estimates depend on sampled taxa, loci, calibrations and clock models and do not equal a global Hymenoptera FAD.
+      referenceLinks:
+        - relation: supports
+          referenceId: peters-2017-hymenoptera-history
+          pages: 1013–1018
+          figure: Figures 1–3; supplemental phylogenies
+          quoteLocator: Phylogenomic dataset; topology; fossil-calibrated dating
+    - subjectId: taxon:hymenoptera
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 242–0 Ma Hymenoptera display begins at the older edge of the 242–237 Ma oldest-undisputed xyelid fossil interval and is a fossil minimum, not an origin estimate.
+      confidence: medium
+      confidenceRationale: The systematic divergence-dating review explicitly distinguishes the oldest undisputed fossil calibration from inferred deeper order ages.
+      referenceLinks:
+        - referenceId: zhang-2025-hymenoptera-divergence-dating
+          relation: supports
+          pages: 1–31
+          figure: Figure 2; Tables S2–S3
+          quoteLocator: Brief History of Divergence Dating, oldest undisputed Xyelidae at approximately 242–237 Ma
+    - subjectId: taxon:hymenoptera
+      claimKind: scientific
+      claimType: biogeography
+      statement: Peters et al. sample transcriptomes across major hymenopteran lineages and Zhang et al. compile named fossil occurrences including Triassic xyelids; the combined evidence is a study-bounded sample, not a complete geographic map of Hymenoptera.
+      confidence: medium
+      confidenceRationale: The primary phylogenomic sampling and systematic fossil review state their included lineages and records, but neither source is a global presence–absence census.
+      referenceLinks:
+        - referenceId: peters-2017-hymenoptera-history
+          relation: supports
+          pages: 1013–1018
+          figure: Figures 1–3; supplemental phylogenies
+          quoteLocator: Transcriptomic taxon sampling across major hymenopteran lineages
+        - referenceId: zhang-2025-hymenoptera-divergence-dating
+          relation: supports
+          pages: 1–31
+          figure: Figure 2; Tables S2–S3
+          quoteLocator: Fossil calibrations and named hymenopteran occurrences
+    - subjectId: taxon:hymenoptera
+      claimKind: scientific
+      claimType: ecology
+      statement: The sampled Hymenoptera include parasitoid, predatory and pollinating life-history contexts discussed by Peters et al.; those guild examples document ecological diversity in the sample and are not traits assigned to every hymenopteran.
+      confidence: medium
+      confidenceRationale: The study discusses ecological roles in relation to sampled lineages, but the transcriptomic design does not measure behaviour, habitat use or the full order-wide guild distribution.
+      referenceLinks:
+        - referenceId: peters-2017-hymenoptera-history
+          relation: supports
+          pages: 1013–1018
+          figure: Figure 1 and supplementary taxon table
+          quoteLocator: "Introduction and taxon sampling: parasitoid, predator and pollinator lineages"
+    - subjectId: taxon:hymenoptera
+      claimKind: scientific
+      claimType: morphology
+      statement: Zhang et al. identify the oldest undisputed xyelid fossils using preserved hymenopteran body and wing characters; that Triassic fossil morphology is a bounded example and does not define one body plan shared by all Hymenoptera.
+      confidence: medium
+      confidenceRationale: The systematic review records the fossil evidence and its diagnostic context, while the sample is too narrow to support an order-wide anatomical generalization.
+      referenceLinks:
+        - referenceId: zhang-2025-hymenoptera-divergence-dating
+          relation: supports
+          pages: 1–31
+          figure: Figure 2; Tables S2–S3
+          quoteLocator: "Brief History of Divergence Dating: oldest undisputed xyelid fossil morphology and 242–237 Ma record"
+    - subjectId: taxon:hymenoptera
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Peters et al. infer relationships among sampled hymenopteran lineages from transcriptomes and fossil calibrations, while Zhang et al. review competing fossil and molecular interpretations; the atlas retains this as a sampled, revisable classification rather than a single definitive tree.
+      confidence: medium
+      confidenceRationale: The phylogenomic matrix and systematic review directly support the bounded classification statement, but backbone relationships and calibration choices remain sensitive to sampling and model assumptions.
+      referenceLinks:
+        - referenceId: peters-2017-hymenoptera-history
+          relation: supports
+          pages: 1013–1018
+          figure: Figures 1–3; supplemental phylogenies
+          quoteLocator: Transcriptomic matrix, inferred topology and fossil-calibrated relationships
+        - referenceId: zhang-2025-hymenoptera-divergence-dating
+          relation: supports
+          pages: 1–31
+          figure: Figure 2; Tables S2–S3
+          quoteLocator: Review of competing fossil and molecular interpretations in Hymenoptera systematics
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - 分化测年系统综述明确区分最早无争议化石校准与推断的更深目级年龄。
+    - 系统基因组取样和化石综述均说明了纳入的谱系与记录，但两者都不构成膜翅目的全球存在—缺失普查。
+    - 研究讨论了样本中的寄生、捕食和传粉生活史背景，但转录组设计不能测量整个目级的行为或生态分布。
+    - 综述记录了三叠纪木蜂类化石的保存形态和鉴别背景，但单一有界样本不能概括所有膜翅目的体制。
+    - 系统基因组矩阵与系统综述支持有界分类结论，但骨干关系和校准选择仍会随取样和模型假设改变。
+  claim-statements.zh:
+    - 膜翅目各谱系的转录组抽样解决了多项关系，并提供化石校准的分歧估计。这些估计依赖类群、位点、校准和时钟模型，不等同于膜翅目的全球首现。
+    - 242–0 Ma 的膜翅目显示以 242–237 Ma 最早无争议广腰类化石区间的老端为起点，是化石最低界而非起源估计。
+  ranges:
+    - entityId: hymenoptera
+      rangeKind: global-composite
+      taxonomicConcept: Hymenoptera oldest-undisputed-fossil-to-living navigation envelope
+      geographicScope: Reviewed fossil calibrations and living representatives
+      olderMa: 242
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 242 Ma edge is an oldest-undisputed fossil minimum, not an order-origin estimate.
+      evidenceBasis: A systematic review of hymenopteran divergence dating places the oldest undisputed xyelid fossils within approximately 242–237 Ma; living Hymenoptera extend the navigation envelope to the present.
+      confidence: medium
+      claimIds:
+        - claim:taxon:hymenoptera:fossil-range
+      referenceLocators:
+        - referenceId: zhang-2025-hymenoptera-divergence-dating
+          locator: pp. 1–31; Brief History of Divergence Dating; Figure 2; Tables S2–S3; oldest undisputed Xyelidae at approximately 242–237 Ma
+      evidenceLevel: literature-synthesized

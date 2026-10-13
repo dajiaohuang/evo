@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus worcesteri
+  displayName: Philautus worcesteri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76XYQ
+  sourceIndexes:
+    - name:
+        en: Philautus worcesteri
+        zh: Philautus worcesteri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76XYQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/83
+            queryName: Philautus worcesteri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/13
+            queryName: Cornufer worcesteri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/14
+            queryName: Rhacophorus emembranatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/15
+            queryName: Philautus emembranatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a8ec082a67
+      - s-899c2c5b21
+      - s-07fe9880a2
+      - s-ef42a57963
+      - s-666339ee25
+      - s-7d3a5f4fda
+      - s-8e088dd033
+      - s-9fcdea0eb9
+      - s-46aae84ffa
+      - s-cda2d6708b
+      - s-e0b0080a44
+      - s-c9106d6c68
+    zh:
+      - s-4a8d17093b
+      - s-20f49a59bc
+      - s-410318bbc9
+      - s-f4d55866d9
+      - s-0bba07aede
+      - s-dec6a41f1b
+      - s-eed308b956
+      - s-45aa3aea53
+      - s-81ce3c327b
+      - s-b74a938d6e
+      - s-29e4e057f1
+      - s-31b6fab766

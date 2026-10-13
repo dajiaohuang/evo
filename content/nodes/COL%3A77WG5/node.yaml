@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis memorans
+  displayName: Pristimantis memorans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77WG5
+  sourceIndexes:
+    - name:
+        en: Pristimantis memorans
+        zh: Pristimantis memorans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77WG5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/403
+            queryName: Pristimantis memorans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/434
+            queryName: Eleutherodactylus memorans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-764332c377
+      - s-874af8e444
+      - s-a32bb41ded
+      - s-826b999a5c
+      - s-a6c4c9db71
+      - s-d41b359814
+      - s-9e79b6fbc7
+      - s-281efa95ed
+    zh:
+      - s-54112c2204
+      - s-002daac008
+      - s-8071065c55
+      - s-0fb1db4cdc
+      - s-abc96916d1
+      - s-81ce9ff2fa
+      - s-4e24db5c1d
+      - s-e60baacadf

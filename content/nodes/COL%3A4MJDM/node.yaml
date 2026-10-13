@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis eriphus
+  displayName: Pristimantis eriphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJDM
+  sourceIndexes:
+    - name:
+        en: Pristimantis eriphus
+        zh: Pristimantis eriphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJDM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/256
+            queryName: Pristimantis eriphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/347
+            queryName: Eleutherodactylus eriphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8058b3defb
+      - s-4f77bb9dda
+      - s-316eeec20e
+      - s-6b8af99499
+      - s-3d2b453aef
+      - s-e5c36e7ca2
+      - s-b98960c6cd
+      - s-d4359ec3d8
+      - s-90fbd7fc9b
+      - s-11418bc4f5
+      - s-911fb24e10
+      - s-0d9ffca6f2
+      - s-d002910f3a
+      - s-5837545dc4
+      - s-0725a8d1a2
+      - s-f2f4e129fa
+      - s-9f686150bb
+      - s-b333135430
+      - s-92d2bfd6d2
+    zh:
+      - s-dd79f14300
+      - s-192f572823
+      - s-b04d8d6f67
+      - s-4fe8dcdc90
+      - s-2afd10d824
+      - s-ee286f4ddb
+      - s-eff8344965
+      - s-9022320435
+      - s-242d6eba24
+      - s-a14fe61146
+      - s-bce878b13a
+      - s-bfbd39afa9
+      - s-51c2b40578
+      - s-6809e989c0
+      - s-f796942e89
+      - s-bddaa58bfb
+      - s-236221499f
+      - s-8a4157e611
+      - s-3983923941

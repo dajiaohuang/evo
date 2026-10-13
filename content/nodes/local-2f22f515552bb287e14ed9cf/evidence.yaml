@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hylodes fredi
+    name:
+      en: Hylodes fredi
+      zh: Hylodes fredi
+    sourceClassification:
+      order: Anura
+      family: Hylodidae
+      genus: Hylodes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hylodes fredi in the version 3 classification
+          zh: Hylodes fredi 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-57db95b949
+            part: body
+          zh:
+            page: zh
+            section: s-ad9352276c
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 11 populated trait fields
+          zh: 1 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fbbd2ae1ba
+            part: body
+          zh:
+            page: zh
+            section: s-e88e941620
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2190; Reference.csv rows 524
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2190
+        values:
+          - Hylodidae
+          - Hylodes
+          - Hylodes fredi
+          - M
+          - "34.8"
+          - "12.2"
+          - "10.5"
+          - "4.4"
+          - "2.5"
+          - NA
+          - "3.3"
+          - "4.1"
+          - NA
+          - "2.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16.1"
+          - NA
+          - "17.8"
+          - "17"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 524
+        values:
+          - Anura
+          - Hylodes_fredi
+          - Canedo, C., & Pombal, J. P. (2007). Two new species of torrent frog of the genus Hylodes (Anura, Hylodidae) with nuptial thumb tubercles. Herpetologica, 63(2), 224-235. https://doi.org/10.1655/0018-0831(2007)63[224:Tnsotf]2.0.Co;2
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NG73
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

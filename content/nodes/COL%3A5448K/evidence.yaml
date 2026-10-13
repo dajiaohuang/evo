@@ -1,0 +1,218 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Syspira tigrina Simon, 1895
+    authorship: Simon, 1895
+    rank: species
+    sourceDatasetId: "56185"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: RT
+        scientificName: Arthropoda
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: KZWYC
+        scientificName: Chelicerata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: CCQKT
+        scientificName: Arachnida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: RN
+        scientificName: Araneae
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "56185"
+      - id: CV9PN
+        scientificName: Miturgidae Simon, 1886
+        authorship: Simon, 1886
+        rank: family
+        status: accepted
+        sourceDatasetId: "56185"
+      - id: CVQKT
+        scientificName: Syspira Simon, 1895
+        authorship: Simon, 1895
+        rank: genus
+        status: accepted
+        sourceDatasetId: "56185"
+      - id: 5448K
+        scientificName: Syspira tigrina Simon, 1895
+        authorship: Simon, 1895
+        rank: species
+        status: accepted
+        sourceDatasetId: "56185"
+    identity:
+      method: Matched the exact Plazi COL usage ID to one accepted COL26.8 species usage and checked its name, authorship, source dataset and pinned accepted parent chain; no fuzzy name match was used.
+      scope: Accepted COL26.8 identity 5448K; source article treatment 03B03901922AAE3088E7FC7E72BE2854; this routing does not establish full scientific-concept equivalence across all literature.
+      sourceIds:
+        - col
+        - plazi_syspira_archive
+        - valdez_jimenez_palacios_cardiel_2025
+    lifeStatusScope:
+      wild: The ecology claims concern wild habitat reports or pitfall-trap samples as described in the cited treatment; broader population coverage is not assessed.
+      domesticated: Captive, domesticated, and escaped occurrences were not assessed by this source slice.
+      fossil: Fossil occurrence and geological age were not assessed by this source slice.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 56185
+          url: https://www.checklistbank.org/dataset/316115/taxon/5448K
+          stableId: col:5448K@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 5448K; exact name, authorship, rank, status, sourceDatasetId, and complete accepted parent chain.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 5448K. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: plazi_syspira_archive
+        referenceId: ref-cadb04aa-d56b-80da-a5af-39addc82c540
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - licenseAssessment
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Extracted Plazi archive description records only; this does not apply to the cited journal article, PDF, or figures.
+          stableId: PlaziArchiveSha256:8b095aa0880e8b281b2e1de8d903e854553f6118e917b786e512ef099a1b9f54
+          accessedAt: 2026-09-27
+          locator: TreatmentBank description-extension rows for exact COL usages 5448F and 5448K; source ZIP is absent from this checkout, and its EML was not independently rechecked for this batch.
+          licenseAssessment: aggregate-declaration-only
+          attribution: Plazi TreatmentBank, selected Syspira treatment records; archive declaration and import hashes are retained in data/sources/plazi-descriptions-import-ledger.json.
+          scope: Article-scoped extracted treatment records; not a complete species dossier.
+      - id: valdez_jimenez_palacios_cardiel_2025
+        referenceId: ref-e5f7b4f3-4ca5-8e70-a88f-963a5aea5a6b
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Bibliographic citation only; no article PDF, article prose, or figures are redistributed.
+          stableId: doi:10.11646/zootaxa.5722.3.1
+          locator: "Bibliographic record for Zootaxa 5722 (3): 301-325; taxon-specific pages are recorded in each claim locator."
+          licenseAssessment: unknown
+          attribution: "Valdez-Mondragón, Alejandro, Jiménez, Maria Luisa, Palacios-Cardiel, Carlos (2025): On the sympatric spiders from the Baja California Peninsula: Descriptions of the males of Syspira longipes Simon and S. tigrina Simon (Araneae: Miturgidae), with new synonyms. Zootaxa 5722 (3): 301-325."
+          scope: Cited taxonomic article; item-level reuse rights remain unknown.
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-397f63277c
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-1ca4d0ecb6
+          part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The diagnosis describes a three-stripe dark carapace pattern and sand-colored living specimens of Syspira tigrina. This claim is restricted to those non-palpal characters; the diagnosis and description differ on embolus and cymbial-groove traits, which are not synthesized here.
+            originalLanguage: en
+            sourceIds:
+              - valdez_jimenez_palacios_cardiel_2025
+              - plazi_syspira_archive
+            locator: Plazi description-extension row 14 (diagnosis); treatment https://treatment.plazi.org/id/03B03901922AAE3088E7FC7E72BE2854; original article p. 311; figures 31–64 and 67–68, DOI 10.11646/zootaxa.5722.3.1; archive SHA-256 8b095aa0880e8b281b2e1de8d903e854553f6118e917b786e512ef099a1b9f54. Diagnosis/description conflict was checked against Plazi row 15 (description); conflicting embolus and cymbial-groove wording is excluded.
+            placeTimeScope: Species account on p. 311, with figures 31–64 and 67–68; diagnosis-level characters in the 2025 treatment only.
+            lifeStatus: Live coloration is attributed to living specimens; broader life-stage, population, and geographic variation were not assessed.
+        gaps:
+          - These are selected characters and descriptions from one taxonomic treatment, not a complete character matrix or assessment of variation across all populations. S. tigrina embolus and cymbial-groove statements conflict between diagnosis and description and are deliberately excluded from an unqualified claim.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No systematic reproductive, developmental, lifespan, or full behavioral life-history search was performed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The authors describe Syspira tigrina as mainly active at night and cite pitfall-trap collections at study locations where it represented up to 50% of the cursorial spiders collected. The percentage is a local, method-specific sample result, not a species-wide abundance estimate.
+            originalLanguage: en
+            sourceIds:
+              - valdez_jimenez_palacios_cardiel_2025
+              - plazi_syspira_archive
+            locator: Plazi description-extension row 17 (biology_ecology); treatment https://treatment.plazi.org/id/03B03901922AAE3088E7FC7E72BE2854; original article p. 311; figures 31–64 and 67–68, DOI 10.11646/zootaxa.5722.3.1; archive SHA-256 8b095aa0880e8b281b2e1de8d903e854553f6118e917b786e512ef099a1b9f54.
+            placeTimeScope: Natural-history account on p. 311; nocturnal activity and pitfall-trap result are limited to the locations and sampling context reported or cited by the treatment.
+            lifeStatus: Wild-origin pitfall-trap samples and author-reported activity; no captive or species-wide behavior inference is made.
+        gaps:
+          - Evidence is limited to the treatment's reported microhabitats, activity statement, and cited pitfall-trap samples; interactions, seasonal ecology, environmental tolerances, and sampling completeness remain unassessed.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No phylogenetic or population-genetic evidence is assessed in this source slice.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The cited account and local observations do not establish a current, complete range or trend.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil or paleontological search was performed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No conservation assessment, population trend, or threat evaluation is assessed in this source slice.

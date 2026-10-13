@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates pittieri
+  displayName: Allobates pittieri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65WZ4
+  sourceIndexes:
+    - name:
+        en: Allobates pittieri
+        zh: Allobates pittieri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65WZ4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/167
+            queryName: Allobates pittieri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/24
+            queryName: Colostethus pittieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dc39ff92d3
+      - s-b049251803
+      - s-bc116fcccd
+      - s-6f307f4513
+      - s-59f1862f42
+      - s-50f0c7107a
+      - s-5d157ec1c6
+      - s-61fd7471c2
+      - s-95498ee7ec
+      - s-94f7df74d1
+      - s-404e2f6350
+      - s-f321c2b52a
+      - s-6c9cfe122d
+      - s-859bb7f1b5
+      - s-c6cae157c7
+    zh:
+      - s-91f1864033
+      - s-335128b064
+      - s-454f090271
+      - s-8acb4bc645
+      - s-d51eb4c3af
+      - s-c784bba7e6
+      - s-dd051cf6c8
+      - s-f883c6028e
+      - s-b0b2f1aff0
+      - s-26244da11c
+      - s-289eb70569
+      - s-8244fff00c
+      - s-8963feca21
+      - s-c681f1ea4a
+      - s-b3cfc2bdb5

@@ -1,0 +1,180 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Thalassarche impavida
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Thalassarche impavida
+      en: Thalassarche impavida
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-dff1ce9696
+            part: body
+          en:
+            page: en
+            section: s-e4b5216688
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-18315d552e
+            part: body
+          en:
+            page: en
+            section: s-cc88eca97b
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-200a7e78c3
+            part: body
+          en:
+            page: en
+            section: s-21f45574d5
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-cfb765b061
+            part: body
+          en:
+            page: en
+            section: s-e71f480bc1
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-cf65efe847
+            part: body
+          en:
+            page: en
+            section: s-a62873f2aa
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Thalassarche impavida
+          url: https://www.checklistbank.org/dataset/316115/taxon/55ZCD
+          locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 8952; name Thalassarche impavida; reference table row 8952; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - incubation_d
+            - fledging_age_d
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Szekely, Lislevand, and Figuerola, 2007 from median of 13(Dunning, 1992, Dunning, 1992, Dyke and Kaiser, 2010, de Magalhaes and Costa, 2009, Dunning, 1992, Dunning, 1992, Wasser, D.E. and P.W. Sherman, 2010, Dobson, F. and P. Jouventin, 2010, Szekely, Lislevand, and Figuerola, 2007, Serrano-Meneses and Szekely, 2006, Werner and Griebeler, 2012, Bennett, 1986, Jouventin and Dobson, 2002)
+            female_maturity_d: mean of Saether, B-E., Bakke, O., 2000 & Jouventin and Dobson, 2002 from median of 4(Bennett, 1986, Saether, B-E., Bakke, O., 2000, Dobson, F. and P. Jouventin, 2010, Jouventin and Dobson, 2002)
+            litter_or_clutch_size_n: Werner and Griebeler, 2012 from median of 5(Szekely, Lislevand, and Figuerola, 2007, Serrano-Meneses and Szekely, 2006, Werner and Griebeler, 2012, Bennett, 1986, Jouventin and Dobson, 2002)
+            incubation_d: mean of Bennett, 1986 and Jouventin and Dobson, 2002
+            fledging_age_d: mean of Bennett, 1986 and Jouventin and Dobson, 2002
+            maximum_longevity_y: de Magalhaes and Costa, 2009
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - Szekely, Lislevand, and Figuerola, 2007
+            - de Magalhaes and Costa, 2009
+            - Bennett, 1986
+            - Dyke and Kaiser, 2010
+            - Jouventin and Dobson, 2002
+            - Serrano-Meneses and Szekely, 2006
+            - Werner and Griebeler, 2012
+            - Dobson, F. and P. Jouventin, 2010
+            - Wasser, D.E. and P.W. Sherman, 2010
+            - Saether, B-E., Bakke, O., 2000
+            - Lutmerding, J.A. and A.S. Love, 2013
+            - Carey, J.R. and D.S. Judge, 2002
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+    limitations:
+      zh:
+        page: zh
+        section: s-368e68c73c
+        part: body
+      en:
+        page: en
+        section: s-8c5cc75ec1
+        part: body

@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Megophrys liboensis
+    name:
+      en: Megophrys liboensis
+      zh: Megophrys liboensis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Megophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-19d86d1984
+            part: body
+          zh:
+            page: zh
+            section: s-517146670d
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ca52686bda
+            part: body
+          zh:
+            page: zh
+            section: s-d949b7c964
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3111, 3112; Reference.csv rows 782
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3111
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys liboensis
+          - M
+          - "57.474"
+          - "17.466"
+          - "18.954"
+          - "6.684"
+          - "3.954"
+          - NA
+          - "5.088"
+          - "6.058"
+          - "3.794"
+          - NA
+          - "6.44"
+          - NA
+          - "16.308"
+          - "13.902"
+          - "30.21"
+          - "25.25"
+          - NA
+          - "28.192"
+          - NA
+          - "14.718"
+          - "86.774"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3112
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys liboensis
+          - F
+          - "64.1725"
+          - "18.72625"
+          - "20.7525"
+          - "7.59375"
+          - "4.7475"
+          - NA
+          - "5.7825"
+          - "6.7675"
+          - "4.46375"
+          - NA
+          - "7.3575"
+          - NA
+          - "18.1"
+          - "15.26625"
+          - "33.36625"
+          - "28.71375"
+          - NA
+          - "30.17"
+          - NA
+          - "14.615"
+          - "95.68625"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 782
+        values:
+          - Anura
+          - Megophrys_liboensis
+          - "Zhang, Y. A., Li, G., Xiao, N., Li, J. Q., Pan, T., Wang, H., . . . Zhou, J. (2017). A new species of the genus Xenophrys (Amphibia: Anura: Megophryidae) from Libo County, Guizhou, China. Asian Herpetological Research, 8(2), 75-85. https://doi.org/10.16373/j.cnki.ahr.160041"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

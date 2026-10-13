@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rentapia everetti
+  displayName: Rentapia everetti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RSDK
+  sourceIndexes:
+    - name:
+        en: Rentapia everetti
+        zh: Rentapia everetti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RSDK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/213
+            queryName: Rentapia everetti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/441
+            queryName: Pedostibes everetti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/445
+            queryName: Pedostibes rugosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/68
+            queryName: Nectophryne everetti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/69
+            queryName: Rentapia rugosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/70
+            queryName: Rentapia everettii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-695ff801f2
+      - s-0e429e8967
+      - s-f0ce497e5a
+      - s-bae80a2107
+      - s-364acbbc66
+    zh:
+      - s-c8f396ad50
+      - s-0f330cf33a
+      - s-decd5efa3d
+      - s-fb592d8cbe
+      - s-b9dba2b28e

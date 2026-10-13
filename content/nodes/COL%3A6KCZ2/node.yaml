@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis plicifer
+  displayName: Gephyromantis plicifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KCZ2
+  sourceIndexes:
+    - name:
+        en: Gephyromantis plicifer
+        zh: Gephyromantis plicifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KCZ2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/146
+            queryName: Gephyromantis plicifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/197
+            queryName: Mantidactylus plicifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/206
+            queryName: Mantidactylus sculpturatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/335
+            queryName: Gephyromantis sculpturatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/23
+            queryName: Rana plicifera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/335
+            queryName: Mantidactylus pliciferus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f4556d426b
+      - s-2cc8d6dc6f
+      - s-3e4e51f9ec
+      - s-592002d6a3
+      - s-ce1283b48f
+      - s-649b2d77f8
+      - s-8c58971c61
+      - s-7e33eaf416
+      - s-fb22dd6502
+      - s-41e4b67618
+    zh:
+      - s-3eb3e75d49
+      - s-0a7a2ce4e1
+      - s-4899098d33
+      - s-083c7fd286
+      - s-450734d445
+      - s-d24c1a4214
+      - s-df9ed19fd6
+      - s-08e28013d1
+      - s-9ba426b627
+      - s-9caa08f067

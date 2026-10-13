@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis totoroi
+  displayName: Pristimantis totoroi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCC93
+  sourceIndexes:
+    - name:
+        en: Pristimantis totoroi
+        zh: Pristimantis totoroi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCC93
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/140
+            queryName: Pristimantis totoroi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c35395b255
+      - s-f0ee85df9c
+      - s-8447f23c59
+      - s-3ece8fd9a0
+      - s-394e472304
+      - s-996fa2629e
+      - s-e97cfcb03d
+      - s-562788f102
+      - s-4816fd483d
+      - s-995eba5e0f
+      - s-81bafa38db
+      - s-7327b8ef5d
+      - s-89fbbedbb9
+      - s-aaea160472
+    zh:
+      - s-c8dda079e5
+      - s-1dd15f5292
+      - s-f32605c891
+      - s-941997375d
+      - s-48bd97abce
+      - s-d340780911
+      - s-4d091a6f69
+      - s-4db31d4e88
+      - s-23a5ac52c8
+      - s-a04841f184
+      - s-88643e1087
+      - s-fa30dd1d11
+      - s-25dc085a6b
+      - s-92921d6047

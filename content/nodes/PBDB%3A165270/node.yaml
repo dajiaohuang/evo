@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Cosgriffius
+  displayName: Cosgriffius
+  rank: genus
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=165270
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Cosgriffius
+        zh: Cosgriffius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: null
+          rank: group
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/490
+            queryName: Cosgriffius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3b16754f93
+      - s-a16f660d66
+      - s-b7ed389732
+      - s-d819b1ee7b
+    zh:
+      - s-92680044f8
+      - s-895d4c0844
+      - s-5fc446258d
+      - s-949b1548f4

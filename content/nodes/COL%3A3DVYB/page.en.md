@@ -1,0 +1,3 @@
+## Yellow flowers above short, irregular leaves {#s-a9130cbc98}
+This account describes clumping plants with very short stems and erect, ovate-lanceolate leaves. The shiny green leaves may have a reddish sheen, reddish bases, crowded white dots and pale margins and keels. Their edges are irregular and may be wavy or bear a few blunt teeth. Yellow flowers have many narrow petals. The source says the plants are much smaller than F. felina, with shorter leaves and irregular margins. It records them in grassy fynbos with forest groups, sheltered in compact clumps in sandy cracks and hollows of flat sandstone plates.
+

@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Werneria bambutensis
+    name:
+      en: Werneria bambutensis
+      zh: Werneria bambutensis
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Werneria
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5754e1a38e
+            part: body
+          zh:
+            page: zh
+            section: s-7eee8eab88
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4e4732b47d
+            part: body
+          zh:
+            page: zh
+            section: s-a5bee25ce2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 6018, 6019; Reference.csv rows 2782
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 6018
+        values:
+          - Bufonidae
+          - Werneria
+          - Werneria bambutensis
+          - M
+          - "31.6"
+          - NA
+          - "9.3"
+          - "3"
+          - NA
+          - NA
+          - "3.35"
+          - NA
+          - NA
+          - "2.15"
+          - NA
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - "22.9"
+          - NA
+          - "14.15"
+          - "12.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 6019
+        values:
+          - Bufonidae
+          - Werneria
+          - Werneria bambutensis
+          - F
+          - "30.4"
+          - NA
+          - "9.8"
+          - "3.2"
+          - NA
+          - NA
+          - "3.4"
+          - NA
+          - NA
+          - "2.3"
+          - NA
+          - "1.9"
+          - NA
+          - NA
+          - NA
+          - "24.1"
+          - NA
+          - "14.4"
+          - "13.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2782
+        values:
+          - Anura
+          - Werneria_bambutensis
+          - "Rödel, M.-O., Schmitz, A., Pauwels, O., & Böhme, W. (2004). Revision of the genus Werneria Poche, 1903, including the descriptions of two new species from Cameroon and Gabon (Amphibia: Anura: Bufonidae). Zootaxa, 720, 1-28. https://doi.org/10.11646/zootaxa.720.1.1 "
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IOD
+      - EN
+      - NS
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7FW2Z
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

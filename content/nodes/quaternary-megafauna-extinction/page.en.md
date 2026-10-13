@@ -1,0 +1,3 @@
+## Late Quaternary megafaunal losses varied by region {#s-9323c47899}
+The cited global comparison links the severity of late-Quaternary megafaunal losses more strongly to human expansion than to climate, while finding weaker climate effects concentrated in some regions, especially Eurasia. The picture is assembled from dated last appearances, archaeological associations and palaeoenvironmental records, which do not have equal coverage everywhere. Last-appearance dates can precede true extinction when fossil sampling is sparse. The result is a comparative pattern, not a single cause or a globally synchronous event.
+

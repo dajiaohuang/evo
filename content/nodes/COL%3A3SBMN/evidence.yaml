@@ -1,0 +1,147 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Larryleachia picta (N.E.Br.) Plowes
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3SBMN, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3SBMN; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3SBMN
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3SBMN
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000362533-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3SBMN / WFO wfo-0000362533
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14722_0
+        referenceId: ref-e8495b45-15cf-83d6-ab33-35614e512817
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Larryleachia picta (N.E.Br.) Plowes account; archive rows 30916 (Morphology), 39958 (Habitat), source identifier 14722.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_10484_0
+        referenceId: ref-c77dcd98-d53c-8d7b-ac6c-4025db5215e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Larryleachia picta (N.E.Br.) Plowes account; archive rows 65927 (Diagnostic), source identifier 10484.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Like L. cactiformis but corolla spotted with red on yellow, tube distinctly pentagonal, inner corona lobes exceeding anthers and rising in a column in centre.
+            sourceIds:
+              - sanbi_14722_0
+            locator: "SANBI/WFO archive Morphology row 30916; source 14722.0; publication: Bruyns, PV. 2013. Apocynaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 248 - 264. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Flowers of L. picta are generally large for this genus. On the background colour there are numerous, nearly round, evenly distributed, purple-brown spots which often become somewhat transversely elongated in the tube. This patterning extends along the lobe for most of its length except near the apex, which is usually dark purple-brown. However, the apex of the lobe is mostly folded back once the flower is fully open, making this dark patch visible only as the flowers open. The corolla tube has a broad inward bulge at the sinuses of the lobes and this gives the tube a distinctly pentagonal shape that is rarely found in L. cactiformis. As is common in the genus, the inside of the corolla is covered with papillae but here they are broad and rounded, often with a dark, apical cell and only rarely with an apical bristle.The corona is particularly variable. Usually the horns of the outer lobes are divergent and spreading so as to lie close to (sometimes adpressed to or curling round) the long dorsal projection of the inner lobe. As a consequence the outer series has the appearance of being made up of five trifid lobes; occasionally they do not diverge at all and the 15 horns (10 outer coronal horns and five dorsal projections on the inner lobes) are more or less equally spaced. In L. picta the inner lobes are relatively long. They are initially incumbent on the anthers, then connivent and then erect, rising in a slender vertical column above the centre of the flower and exceeding the height of the outer lobes. In a few cases they have been found to form a cage above the anthers. In such flowers they are incumbent on the anthers only near their bases, after which they rise above them and meet in the centre to form a small vertical column.It has been found that in L. cactiformis and L. picta the seed and seedlings are markedly different, whereas their vegetative and floral parts are somewhat similar and the two species could be confused. Florally they are most readily separable by the long inner corona lobes of L. picta. There are other less reliable distinctions, and these are discussed under L. cactiformis.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_10484_0
+            locator: "SANBI/WFO archive Diagnostic row 65927; source 10484.0; publication: Bruyns, PV. 2005. Stapeliads of southern Africa and Madagascar, Vol. 1. Umdaus Press, Hatfield. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony slopes.
+            sourceIds:
+              - sanbi_14722_0
+            locator: "SANBI/WFO archive Habitat row 39958; source 14722.0; publication: Bruyns, PV. 2013. Apocynaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 248 - 264. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-3105a295df
+        title:
+          en:
+            page: en
+            section: s-84b3c8c0d1
+            part: title
+          zh:
+            page: zh
+            section: s-cb65e337b1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-84b3c8c0d1
+            part: body
+          zh:
+            page: zh
+            section: s-cb65e337b1
+            part: body
+        sourceIds:
+          - sanbi_14722_0
+          - sanbi_10484_0

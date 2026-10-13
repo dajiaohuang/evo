@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis cryptomelas
+  displayName: Pristimantis cryptomelas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJCN
+  sourceIndexes:
+    - name:
+        en: Pristimantis cryptomelas
+        zh: Pristimantis cryptomelas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJCN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/226
+            queryName: Pristimantis cryptomelas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/322
+            queryName: Eleutherodactylus cryptomelas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-765352d5d4
+      - s-ff95f7f5d2
+      - s-47a11dbe62
+      - s-dc5d2f170d
+      - s-2a7ec79026
+      - s-0108072788
+      - s-4f666f5da4
+      - s-13e5168e60
+      - s-99cfe40284
+      - s-d5371abbc1
+      - s-ffc9aa8b01
+      - s-29971f3c58
+      - s-6910041c90
+      - s-12ee83f0cd
+      - s-21c4723b52
+      - s-585f374f12
+      - s-8ca54d1d4b
+      - s-e1ee8e1c3a
+      - s-e11504b93a
+      - s-62e1fdf025
+      - s-844ca0ef13
+      - s-5d5ffd570d
+      - s-56171630c2
+      - s-380d5b4913
+      - s-5f9b83dc53
+      - s-d1ee9902eb
+      - s-8053d6b33f
+      - s-b46370db0c
+      - s-c3db1d790b
+    zh:
+      - s-e85ea8a232
+      - s-30395bde76
+      - s-f7faf20474
+      - s-1fb81253e4
+      - s-47ae642104
+      - s-c205de741d
+      - s-8ff051d9d3
+      - s-7dfa41dd47
+      - s-394ed45127
+      - s-b06de63e92
+      - s-42e03a2bc8
+      - s-b1635ac8f5
+      - s-effa879196
+      - s-e703a9d350
+      - s-1f878e8338
+      - s-49ebd97ba6
+      - s-43ef135b40
+      - s-86adc0b33f
+      - s-46f08052d7
+      - s-1edec49bb3
+      - s-fb5a42b761
+      - s-ab34f62f60
+      - s-fd35c77ea1
+      - s-e82ca65119
+      - s-b76fca49bc
+      - s-16ad9f06e0
+      - s-3761508c2a
+      - s-4c1fb313ea
+      - s-4cc741e2a9

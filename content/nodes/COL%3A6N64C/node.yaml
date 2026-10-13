@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis javanicus
+  displayName: Ichthyophis javanicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N64C
+  sourceIndexes:
+    - name:
+        en: Ichthyophis javanicus
+        zh: Ichthyophis javanicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N64C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/404
+            queryName: Ichthyophis javanicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cf22285def
+      - s-c829a3a432
+      - s-f4fe286426
+      - s-e52c12d5a1
+      - s-d8da23644b
+      - s-ebdee0c892
+      - s-3fea5a273e
+      - s-bfed0eb6df
+      - s-95d63aef4a
+      - s-a141a73198
+      - s-b118d5709a
+      - s-333f1cf2b0
+      - s-955aae6889
+    zh:
+      - s-8c87d36344
+      - s-108261c03d
+      - s-de390d3655
+      - s-bcb4891cc4
+      - s-7ca6983932
+      - s-62d4609228
+      - s-abf5c8729b
+      - s-966bc2c6d8
+      - s-5921f7c1f3
+      - s-64fd368cab
+      - s-3578940280
+      - s-11e847cd26
+      - s-80fdeff113

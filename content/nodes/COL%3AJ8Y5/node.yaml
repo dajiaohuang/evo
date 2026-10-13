@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus dimorphus
+  displayName: Atelopus dimorphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8Y5
+  sourceIndexes:
+    - name:
+        en: Atelopus dimorphus
+        zh: Atelopus dimorphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8Y5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/247
+            queryName: Atelopus dimorphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-44290c6586
+      - s-584d5c5540
+      - s-b4d2d13d79
+      - s-760e556ca3
+      - s-7b1d767796
+      - s-4a37dbd20e
+      - s-2d32c759c2
+      - s-fee5563c35
+      - s-579849e4c1
+      - s-b8116f6e5a
+      - s-62346db545
+    zh:
+      - s-10dc93d243
+      - s-366d0091da
+      - s-2f241806a1
+      - s-2f4b456dc8
+      - s-2e622b44ae
+      - s-32f6d2d9dc
+      - s-f4788bdf36
+      - s-82791caf0e
+      - s-82bc2d56a5
+      - s-f76756d9ac
+      - s-f94d1a223c

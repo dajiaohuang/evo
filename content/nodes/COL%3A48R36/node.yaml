@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odontophrynus monachus
+  displayName: Odontophrynus monachus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48R36
+  sourceIndexes:
+    - name:
+        en: Odontophrynus monachus
+        zh: Odontophrynus monachus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48R36
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/488
+            queryName: Odontophrynus monachus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-80ecdde5f6
+      - s-cb190ec0c2
+      - s-776cbe7caa
+      - s-0eb5d3d45a
+      - s-136b0940eb
+      - s-199c296198
+    zh:
+      - s-649bae2f13
+      - s-387576c6ab
+      - s-dfda63bcc2
+      - s-ffe3cc3b0e
+      - s-8c7295a6d4
+      - s-e02b325605

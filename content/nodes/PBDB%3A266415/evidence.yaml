@@ -1,0 +1,148 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Luzocephalus johanssoni
+    rank: species
+    sourceTaxonId: txn:266415
+    name:
+      en: Luzocephalus johanssoni
+      zh: Luzocephalus johanssoni
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-6e12c80bc5
+            part: body
+          zh:
+            page: zh
+            section: s-d964f05dec
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-54c2e066f0
+            part: body
+          zh:
+            page: zh
+            section: s-b7c79653b8
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-dcfdf2d054
+            part: body
+          zh:
+            page: zh
+            section: s-e259ff5deb
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:266415; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: G. Säve-Söderbergh. 1935. On the dermal bones of the head in labyrinthodont stegocephalians and primitive Reptilia, with special reference to Eotriassic stegocephalians from East Greenland. Meddelelser om Grønland 98(3):1-211
+    occurrenceEvidence:
+      - occurrenceId: occ:1131086
+        collectionId: col:143872
+        acceptedTaxonId: txn:266415
+        identifiedTaxonId: var:266415
+        identifiedName: Lyrocephalus johanssoni n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:46549
+        bibliography: G. Säve-Söderbergh. 1935. On the dermal bones of the head in labyrinthodont stegocephalians and primitive Reptilia, with special reference to Eotriassic stegocephalians from East Greenland. Meddelelser om Grønland 98(3):1-211
+        locality:
+          countryCode: GL
+          stateProvince: Northeast Greenland National Park
+          county: null
+        stratigraphy:
+          group: null
+          formation: Wordy Creek
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1131087
+        collectionId: col:143873
+        acceptedTaxonId: txn:266415
+        identifiedTaxonId: txn:266417
+        identifiedName: Lyrocephalus rapax n. sp.
+        taxonomicDifference: null
+        referenceId: ref:46549
+        bibliography: G. Säve-Söderbergh. 1935. On the dermal bones of the head in labyrinthodont stegocephalians and primitive Reptilia, with special reference to Eotriassic stegocephalians from East Greenland. Meddelelser om Grønland 98(3):1-211
+        locality:
+          countryCode: GL
+          stateProvince: Northeast Greenland National Park
+          county: null
+        stratigraphy:
+          group: null
+          formation: Wordy Creek
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-dcfdf2d054
+            part: body
+          zh:
+            page: zh
+            section: s-e259ff5deb
+            part: body
+        sourceIds: []

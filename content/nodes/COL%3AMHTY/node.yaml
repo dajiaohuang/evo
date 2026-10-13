@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis marojezensis
+  displayName: Boophis marojezensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHTY
+  sourceIndexes:
+    - name:
+        en: Boophis marojezensis
+        zh: Boophis marojezensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHTY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/270
+            queryName: Boophis marojezensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-27d20fcac4
+      - s-52c2172066
+      - s-79decbf5e7
+      - s-cf44ef292d
+      - s-b614daafbc
+      - s-7ebae7868b
+      - s-103df87eac
+      - s-b172677b57
+      - s-6462eb2790
+      - s-30ce9c8a86
+    zh:
+      - s-1f55af2247
+      - s-af4d50740f
+      - s-20822d8de2
+      - s-33af883a39
+      - s-a85a536942
+      - s-403d92211f
+      - s-406d2c98bc
+      - s-293c8e82df
+      - s-e0b929b85c
+      - s-63bd1b458c

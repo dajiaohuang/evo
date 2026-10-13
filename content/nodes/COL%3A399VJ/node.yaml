@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus zugi
+  displayName: Eleutherodactylus zugi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399VJ
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus zugi
+        zh: Eleutherodactylus zugi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399VJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/353
+            queryName: Eleutherodactylus zugi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/176
+            queryName: Euhyas zugi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5eb11aedf2
+      - s-be45bdcbea
+      - s-a26716d509
+      - s-1433a0b453
+      - s-710c1ded63
+      - s-b5bf40c050
+      - s-3938542c9d
+      - s-5bbfe82cf2
+      - s-b8ed8868b7
+      - s-46e3ade19d
+      - s-ce024bb63a
+      - s-115707dc73
+      - s-7bbf1bf9c0
+      - s-417d195758
+    zh:
+      - s-e2ec707626
+      - s-422cfd5d41
+      - s-25d17818f5
+      - s-36bf51117d
+      - s-a8abb268e3
+      - s-219df9091e
+      - s-2a54548441
+      - s-87219d5961
+      - s-d2f0ec48cd
+      - s-6a9193f61c
+      - s-a96cc642c8
+      - s-7d6bd596f3
+      - s-d7f2e35d24
+      - s-8d62e47411

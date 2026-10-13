@@ -1,0 +1,15 @@
+## Start with the six measured records {#s-c71ed575ca}
+COL26.8 places six selected AVONET1_BirdLife measured records under Colaptes: Colaptes atricollis, Colaptes auricularis, Colaptes chrysoides, Colaptes fernandinae, Colaptes pitius, and Colaptes punctigula. This is a route through the batch’s records, not a complete list of accepted descendants. The names follow the pinned catalogue hierarchy while measurements retain AVONET v7’s historical sampling and taxonomic scope.
+
+## Compare the values within this sample {#s-b539548d97}
+Among these six AVONET species records, compiled mean mass ranges from 61.96 g for Colaptes punctigula to 159 g for Colaptes pitius. These are endpoints across species-level means, not the lightest and heaviest individual birds. The sample includes the habitat categories Shrubland, Forest, and Woodland, and the trophic niches Invertivore and Omnivore. These differences help choose records to compare; they are not traits shared by every member of the genus.
+
+## Find the historical life-history entries {#s-d12f691c6b}
+Two same-name, same-family records from the historical life-history archive are routed here: Colaptes auratus and Colaptes chrysoides. Both include adult body mass, litter-or-clutch size, and a maximum-longevity record; the female-maturity field appears in one record and is defined by the source as age at first conception. These counts describe this batch’s coverage, not the full set of accepted species. Check each page’s event definition, units, and compilation sources before comparing values.
+
+## Find the EltonTraits diet and foraging records {#s-4992beb551}
+The EltonTraits 1.0 archive contributes 11 historical entries to this route. Useful starting pages are Colaptes rubiginosus, Colaptes rivolii, Colaptes atricollis, Colaptes punctigula, and Colaptes melanochloros. Diet-category weights and foraging strata are available for all 11 entries; mammalian activity-period data are absent. Treat the weights as source-derived estimates and read category or binary codes according to their field definitions. The counts describe this batch only and do not establish shared genus-wide ecology.
+
+## Keep the source boundaries in view {#s-a16dd60ab7}
+The three routes summarize different source sets, not every accepted Colaptes descendant. The AVONET section covers six selected measured records with matching catalogue names and families and one-to-one historical crosswalks; those links do not prove that historical species concepts equal COL26.8 concepts, and the mass endpoints compare species means rather than individual extremes. The life-history section covers two historical same-name, same-family entries; its medians, maximum-longevity records, and possible taxonomic inheritance retain the limits described on those pages. The EltonTraits section covers 11 historical ecological records; semiquantitative translation, historical taxonomy, and possible congeneric borrowing in ABC fields remain relevant. None of these group routes makes descendants’ values or ecological categories traits of the genus as a whole.
+

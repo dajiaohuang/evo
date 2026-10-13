@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium bompu
+  displayName: Leptobrachium bompu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKBG
+  sourceIndexes:
+    - name:
+        en: Leptobrachium bompu
+        zh: Leptobrachium bompu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKBG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/317
+            queryName: Leptobrachium bompu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b073a2fb4a
+      - s-08211dd706
+      - s-3f09abb1f0
+      - s-2ddf94e6a5
+      - s-8b0ea6387c
+      - s-8f28f4cd22
+      - s-e75bec99da
+      - s-bdf1844629
+      - s-1f940517c4
+      - s-b1a00f0c76
+      - s-0a091cbfb8
+      - s-fec7451d38
+      - s-130cd280bd
+      - s-b37ec1f3c9
+      - s-a457f7faae
+      - s-c85959e75e
+    zh:
+      - s-22db465961
+      - s-3d1ed95eb3
+      - s-bdc2bf76cd
+      - s-0470f44b3c
+      - s-f008dbf97c
+      - s-85696184b5
+      - s-03f6505469
+      - s-6e270bf1fb
+      - s-f97c4387e5
+      - s-3ad4eceac7
+      - s-6e16cf327b
+      - s-0acff1c406
+      - s-a213180f62
+      - s-5cbee2c828
+      - s-bc8628f22d
+      - s-1c0a968142

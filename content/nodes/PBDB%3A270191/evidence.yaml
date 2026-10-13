@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Parotosuchus komiensis
+    rank: species
+    sourceTaxonId: txn:270191
+    name:
+      en: Parotosuchus komiensis
+      zh: Parotosuchus komiensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-7c1f5aa732
+            part: body
+          zh:
+            page: zh
+            section: s-95440b0f87
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-dd02b51db4
+            part: body
+          zh:
+            page: zh
+            section: s-36f0bbdbca
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-1688766c74
+            part: body
+          zh:
+            page: zh
+            section: s-090712962c
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:270191; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "R. J. Damiani. 2001. A systematic revision and phylogenetic analysis of Triassic mastodonsauroids (Temnospondyli: Stereospondyli). Zoological Journal of the Linnean Society 133(4):379-482"
+    occurrenceEvidence:
+      - occurrenceId: occ:1419111
+        collectionId: col:85454
+        acceptedTaxonId: txn:270191
+        identifiedName: Parotosuchus komiensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30410
+        bibliography: "R. J. Damiani. 2001. A systematic revision and phylogenetic analysis of Triassic mastodonsauroids (Temnospondyli: Stereospondyli). Zoological Journal of the Linnean Society 133(4):379-482"
+        locality:
+          countryCode: RU
+          stateProvince: Komi
+          county: Ust-Vymskii
+        stratigraphy:
+          group: Gamskaya
+          formation: Yarenskian
+          member: null
+        olderAgeMa: 250.8
+        youngerAgeMa: 247
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1688766c74
+            part: body
+          zh:
+            page: zh
+            section: s-090712962c
+            part: body
+        sourceIds: []

@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus dorsalis
+  displayName: Afrixalus dorsalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G5T
+  sourceIndexes:
+    - name:
+        en: Afrixalus dorsalis
+        zh: Afrixalus dorsalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G5T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/63
+            queryName: Afrixalus dorsalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/288
+            queryName: Hyperolius dorsalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/289
+            queryName: Megalixalus dorsalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/211
+            queryName: Afrixalus dorsalis dorsalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/212
+            queryName: Afrixalus dorsalis regularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/213
+            queryName: Afrixalus dorsalis laciniosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-772c215259
+      - s-fcea3b3f6b
+      - s-8ad3802d17
+      - s-f1e5ced40d
+      - s-e4827cacf6
+      - s-c8030a5e62
+      - s-5fa43b8d3b
+      - s-43878de660
+      - s-67b2b67a70
+      - s-f7f1100bfe
+      - s-778855340c
+      - s-1b2bb7bbaa
+      - s-6802611f07
+      - s-f26b6d2b59
+      - s-b3dc2492e7
+      - s-d820141e55
+      - s-92d181d3d0
+      - s-799db77d91
+      - s-8bf3ccf260
+      - s-7727161935
+    zh:
+      - s-2d2faac33d
+      - s-7b73036e65
+      - s-9ae88fdbbc
+      - s-2096e36610
+      - s-fe97bfb920
+      - s-c4bf6a0510
+      - s-28a038147a
+      - s-7800979948
+      - s-379aec573a
+      - s-97ffe54bac
+      - s-2cbd35f117
+      - s-01fac803fb
+      - s-8cbfa84ecf
+      - s-8e39f6d3e7
+      - s-f2bcb9d1df
+      - s-1b1922bceb
+      - s-17905bf42c
+      - s-8ac0fbb2e9
+      - s-2f2f557394
+      - s-19c5346847

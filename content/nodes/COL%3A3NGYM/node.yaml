@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus vertebralis
+  displayName: Hyloxalus vertebralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGYM
+  sourceIndexes:
+    - name:
+        en: Hyloxalus vertebralis
+        zh: Hyloxalus vertebralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGYM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/140
+            queryName: Hyloxalus vertebralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/162
+            queryName: Colostethus vertebralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/494
+            queryName: Phyllodromus vertebralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/495
+            queryName: Prostherapis vertebralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/496
+            queryName: Phyllobates vertebralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-26b86e5b58
+      - s-4e0a40456c
+      - s-e413834073
+      - s-4ed9239221
+      - s-0d869f0de5
+      - s-d10faae674
+      - s-22a64541ef
+      - s-3744f51658
+      - s-cc8c42c622
+      - s-bcc77b5ef9
+    zh:
+      - s-57aa8633f4
+      - s-85496cad10
+      - s-9c7ab63cda
+      - s-691fd6d50f
+      - s-ef97fd9fa5
+      - s-7a6a9c18ae
+      - s-b99b13dcb7
+      - s-9abe675b8f
+      - s-f219b0b2d9
+      - s-9790ed770b

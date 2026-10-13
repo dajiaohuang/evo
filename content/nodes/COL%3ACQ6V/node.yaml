@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega ignipedis
+  displayName: Ameerega ignipedis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ6V
+  sourceIndexes:
+    - name:
+        en: Ameerega ignipedis
+        zh: Ameerega ignipedis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ6V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/264
+            queryName: Ameerega ignipedis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-68c6c02135
+      - s-6bae295c84
+      - s-1838b589e0
+      - s-84963e6198
+      - s-541ab7a1cc
+      - s-301f507197
+      - s-b952ce7752
+    zh:
+      - s-1a0e63b7ac
+      - s-1b396b7b91
+      - s-0fe3dbd306
+      - s-b5a6f6cde1
+      - s-970cd4aff2
+      - s-85f4baa624
+      - s-7194ddba72

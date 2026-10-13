@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Eodiscoglossus oxoniensis
+    rank: species
+    sourceTaxonId: txn:57535
+    name:
+      en: Eodiscoglossus oxoniensis
+      zh: Eodiscoglossus oxoniensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-d215eebe96
+            part: body
+          zh:
+            page: zh
+            section: s-41001da81f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-85dc91bf19
+            part: body
+          zh:
+            page: zh
+            section: s-6665684105
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Eodiscoglossus oxoniensis
+          zh: Eodiscoglossus oxoniensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-d52205ca71
+            part: body
+          zh:
+            page: zh
+            section: s-bed88a53ef
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:57535; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: S. E. Evans, A. R. Milner, and F. Mussett. 1990. A discoglossid frog from the Middle Jurassic of England. Palaeontology 33(1):299-311
+    occurrenceEvidence:
+      - occurrenceId: occ:405980
+        collectionId: col:39075
+        acceptedTaxonId: txn:57535
+        identifiedName: Eodiscoglossus oxoniensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:10560
+        bibliography: S. E. Evans, A. R. Milner, and F. Mussett. 1990. A discoglossid frog from the Middle Jurassic of England. Palaeontology 33(1):299-311
+        locality:
+          countryCode: UK
+          stateProvince: England
+          county: Oxfordshire
+        stratigraphy:
+          group: Great Oolite
+          formation: Forest Marble
+          member: null
+        olderAgeMa: 168.2
+        youngerAgeMa: 165.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Eodiscoglossus oxoniensis
+          zh: Eodiscoglossus oxoniensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-d52205ca71
+            part: body
+          zh:
+            page: zh
+            section: s-bed88a53ef
+            part: body
+        sourceIds: []

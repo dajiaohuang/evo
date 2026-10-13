@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana rosenbergi
+  displayName: Boana rosenbergi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M82M
+  sourceIndexes:
+    - name:
+        en: Boana rosenbergi
+        zh: Boana rosenbergi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M82M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/29
+            queryName: Boana rosenbergi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/453
+            queryName: Hyla rosenbergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/193
+            queryName: Hypsiboas rosenbergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73c294f657
+      - s-0d9d14e15d
+      - s-25838f3e4c
+      - s-198ba44fd2
+      - s-ec4110ea77
+      - s-184afaf333
+      - s-618b16e4f7
+      - s-47e58f56d6
+      - s-fa4af17165
+      - s-1378436c5f
+    zh:
+      - s-2ebcce4f8f
+      - s-046076f2b2
+      - s-62e47b5b22
+      - s-98ebfe8e19
+      - s-a8fe2688ad
+      - s-23d78a784b
+      - s-a25cac5fd4
+      - s-4de33f76c3
+      - s-0763c56dc9
+      - s-e39d208622

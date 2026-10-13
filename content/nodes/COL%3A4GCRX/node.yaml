@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philoria kundagungan
+  displayName: Philoria kundagungan
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GCRX
+  sourceIndexes:
+    - name:
+        en: Philoria kundagungan
+        zh: Philoria kundagungan
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GCRX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/86
+            queryName: Philoria kundagungan
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/176
+            queryName: Kyarranus kundagungan
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/177
+            queryName: Coplandia kundagungan
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f67f511680
+      - s-68755290c5
+      - s-e84ab0d343
+      - s-b2b928edb9
+      - s-8f6d0e8de0
+      - s-4362fcf488
+      - s-3cd72408a3
+      - s-c8ece673fb
+      - s-48d5a4f741
+      - s-302ed30258
+    zh:
+      - s-6be25f76ee
+      - s-f972924097
+      - s-686a59fe75
+      - s-e1648f2e79
+      - s-c31a7e8b0f
+      - s-b99f1be200
+      - s-9c1013ec75
+      - s-63ec26a04a
+      - s-a87cf0c6c9
+      - s-11a9c1147c

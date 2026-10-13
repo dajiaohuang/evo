@@ -1,0 +1,168 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bolitoglossa insularis
+    name:
+      en: Bolitoglossa insularis
+      zh: Bolitoglossa insularis
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Bolitoglossa
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1696469e4e
+            part: body
+          zh:
+            page: zh
+            section: s-def1671382
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-40e9fa40d6
+            part: body
+          zh:
+            page: zh
+            section: s-ea398f5ef6
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 62; Reference.csv rows 4277
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 62
+        values:
+          - Plethodontidae
+          - Bolitoglossa
+          - Bolitoglossa insularis
+          - F
+          - NA
+          - "64.7"
+          - NA
+          - "38.2"
+          - "14"
+          - "9.1"
+          - NA
+          - NA
+          - NA
+          - "2.2"
+          - "3.4"
+          - "3.6"
+          - "55.9"
+          - "5.8"
+          - NA
+          - "5.8"
+          - NA
+          - "12.7"
+          - "13.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.1"
+          - NA
+          - "4.1"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4277
+        values:
+          - Caudata
+          - Bolitoglossa_insularis
+          - "Sunyer, J., Lotzkat, S., Hertz, A., Wake, D. B., Alemán, B. M., Robleto, S. J., & Köhler, G. (2008). Two new species of salamanders (genus Bolitoglossa) from southern Nicaragua (Amphibia, Caudata, Plethodontidae). Dos especies nuevas de salamandras (género Bolitoglossa) del sur de Nicaragua (Amphibia, Caudata, Plethodontidae). Senckenbergiana Biologica, 88(2), 319-328. "
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TAH
+      - FLL
+      - HLL
+      - SF
+      - ELL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - MDQ2
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

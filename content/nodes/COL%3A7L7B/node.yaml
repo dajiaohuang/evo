@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spinomantis
+  displayName: Spinomantis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7L7B
+  sourceIndexes:
+    - name:
+        en: Spinomantis
+        zh: Spinomantis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7L7B
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/278
+            queryName: Spinomantis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 171
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-34f82f4ba6
+      - s-8f06e57af1
+      - s-452750f050
+      - s-b6669746f0
+      - s-2cfea16bdd
+      - s-b379916ee7
+      - s-be32b56ff7
+    zh:
+      - s-55497b3b3c
+      - s-203f28f414
+      - s-f24f1b26a0
+      - s-9127119aee
+      - s-41a8e7d872
+      - s-8975bc62e0
+      - s-5377379f38

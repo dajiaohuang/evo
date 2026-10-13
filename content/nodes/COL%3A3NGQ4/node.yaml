@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus jahni
+  displayName: Hyloscirtus jahni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGQ4
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus jahni
+        zh: Hyloscirtus jahni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGQ4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/52
+            queryName: Hyloscirtus jahni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/39
+            queryName: Hyalinobatrachium estevesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/358
+            queryName: Hyla jahni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/211
+            queryName: Hyloscirtus estevesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/212
+            queryName: Centrolenella estevesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/389
+            queryName: Boana jahni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-238b363dd3
+      - s-9ef0dcb166
+      - s-1db4f0bce9
+      - s-8f37e47ae6
+      - s-2ecbd255be
+      - s-ab96c83b66
+      - s-30d9251660
+      - s-b9605fd372
+      - s-2e69fa608a
+      - s-528465119c
+      - s-27f5853955
+    zh:
+      - s-f7bf41431e
+      - s-290e638cb8
+      - s-fc615219f6
+      - s-4b523a0632
+      - s-8e82e7c424
+      - s-9886bae2dc
+      - s-6c7c2dd6bc
+      - s-81c6b390bb
+      - s-bcaded8402
+      - s-aa23541348
+      - s-40aef81ed0

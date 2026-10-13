@@ -1,0 +1,6 @@
+## Paper-like leaves and a longer fruit category {#s-6285a6dd93}
+In the Brazilian Flora 2020 v393.147 entry, stem hairs are glandular or fine and short. The leaves have a visible petiole and papery blades whose bases may be acute, blunt, tapered or rounded; the tips are acuminate or acute, and the margins entire, sinuous or flat. The field lists three or five acrodromous veins and no domatia. The upright inflorescence has oblong or elliptic bracts, thread-like bracteoles, and a short stalk up to 10 cm or none. Flowers are five-parted, with a smooth or bell-shaped hypanthium and a hairless receptacle. The petals are stiff and smooth, ascending appendages are present on the stamens, and the ovary has five chambers. The fruit field uses a long category for hypanthium plus ovary length greater than 7 mm, contrasting with the short category recorded for M. excelsa. The source alternatives do not establish individual or population variation.
+
+## A terrestrial habitat label {#s-6b63d18208}
+The Brazilian Flora habitat field classifies the recorded setting as “terrícola,” or terrestrial. It supplies no locality, survey date or range coverage, and does not specify wild, cultivated, managed or fossil material. The label is narrower than a full ecological account.
+

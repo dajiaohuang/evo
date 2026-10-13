@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana hainanensis
+  displayName: Odorrana hainanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SFN
+  sourceIndexes:
+    - name:
+        en: Odorrana hainanensis
+        zh: Odorrana hainanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SFN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/14
+            queryName: Odorrana hainanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/113
+            queryName: Rana hainanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/74
+            queryName: Huia hainanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-439659735b
+      - s-088e74c644
+      - s-a44390e041
+      - s-272f578560
+      - s-560b3e3ab7
+      - s-8f7fc9e382
+      - s-12c39e2ee8
+      - s-d773fd6406
+      - s-3e49f87b10
+    zh:
+      - s-14ea0c5527
+      - s-9258b80dea
+      - s-2590051ebe
+      - s-5b7f03583e
+      - s-8698d196cb
+      - s-6d9060dbe3
+      - s-d7665d2e0c
+      - s-9f69d6dc78
+      - s-6b4974c40a

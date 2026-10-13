@@ -1,0 +1,3 @@
+## What can isolated ankle bones tell us about Purgatorius? {#s-b848540075}
+In the late Puercan Garbani Channel sample from Montana, UCMP 197509 (a left astragalus) and UCMP 197517 (a right calcaneus) are isolated ankle bones. They preserve joint features associated with mobility and an inverted foot, compared quantitatively with dentally associated euarchontans—primates and close relatives. The cited analyses attributed these bones to *Purgatorius* and inferred tree-dwelling locomotion, but they are not connected to teeth or one skeleton. They do not establish membership in the crown group of living primates.
+

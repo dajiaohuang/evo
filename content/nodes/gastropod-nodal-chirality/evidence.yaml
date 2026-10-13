@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-a2b8aff66d
+      part: title
+    titleZh:
+      page: zh
+      section: s-94fcd72dcf
+      part: title
+    category: innovation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Laboratory embryos of Lottia gigantea and Biomphalaria glabrata
+    clades:
+      - Gastropoda
+      - Lottia gigantea
+      - Biomphalaria glabrata
+    summary:
+      page: en
+      section: s-a2b8aff66d
+      part: body
+    summaryZh:
+      page: zh
+      section: s-94fcd72dcf
+      part: body
+    claimIds:
+      - claim:event:gastropod-nodal-chirality
+    evidenceItems:
+      - statement: nodal and Pitx are expressed on opposite embryonic sides in dextral Lottia and sinistral Biomphalaria, and inhibitor treatment disrupts Pitx and coiling.
+        relation: supports
+        claimIds:
+          - claim:event:gastropod-nodal-chirality
+        referenceLinks:
+          - referenceId: grande-patel-2009-snail-nodal
+            relation: supports
+            pages: 1007–1011
+            figure: Figures 1–4; Supplementary Figures 1–5
+            quoteLocator: Expression and pharmacological inhibition
+    uncertaintyItems:
+      - statement: The experiment tests chirality in two living gastropods; it does not directly reconstruct torsion, fossil shell coiling or every molluscan asymmetry mechanism.
+        relation: contextualizes
+        claimIds:
+          - claim:event:gastropod-nodal-chirality
+        referenceLinks:
+          - referenceId: grande-patel-2009-snail-nodal
+            relation: supports
+            pages: 1007–1011
+            figure: Figure 4
+            quoteLocator: Interpretive scope
+  claims:
+    - subjectId: event:gastropod-nodal-chirality
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: In Lottia gigantea and Biomphalaria glabrata embryos, nodal and Pitx expression occurs on opposite sides corresponding to adult chirality, and Nodal-pathway inhibition disrupts Pitx expression and shell coiling in the sampled system.
+      confidence: high
+      confidenceRationale: Expression localization, sequence accessions and perturbation phenotypes are directly reported; extrapolation to torsion, other gastropods or the molluscan ancestor is withheld.
+      referenceLinks:
+        - referenceId: grande-patel-2009-snail-nodal
+          relation: supports
+          pages: 1007–1011
+          figure: Figures 1–4; Supplementary Figures 1–5
+          quoteLocator: nodal and Pitx expression; pharmacological inhibition; sequence accessions
+  claim-rationales.zh:
+    - 表达位置、序列登录号和抑制表型均有直接记录；结论不外推到扭转、全部腹足类或软体动物祖先。
+  claim-statements.zh:
+    - 在巨帽贝 Lottia gigantea 和光滑双脐螺 Biomphalaria glabrata 的胚胎中，nodal 与 Pitx 在与成体手性相应的相反侧表达；抑制 Nodal 通路会扰乱该取样系统的 Pitx 表达和壳旋卷。

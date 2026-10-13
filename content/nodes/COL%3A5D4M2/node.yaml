@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Zhangixalus aurantiventris
+  displayName: Zhangixalus aurantiventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5D4M2
+  sourceIndexes:
+    - name:
+        en: Zhangixalus aurantiventris
+        zh: Zhangixalus aurantiventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5D4M2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/381
+            queryName: Zhangixalus aurantiventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/311
+            queryName: Rhacophorus aurantiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-319f35a188
+      - s-1d87996928
+      - s-60e3cedac0
+      - s-4a57ae3d93
+      - s-2b4c1e2622
+      - s-cc2e78557d
+    zh:
+      - s-ec424e0cc4
+      - s-50cdec5296
+      - s-e61ad8c0ed
+      - s-b672f7cd38
+      - s-8d1a9d9888
+      - s-3fd225f856

@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana albomarginata
+  displayName: Boana albomarginata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7WN
+  sourceIndexes:
+    - name:
+        en: Boana albomarginata
+        zh: Boana albomarginata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7WN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/444
+            queryName: Boana albomarginata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/245
+            queryName: Hyla albomarginata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/125
+            queryName: Hypsiboas albomarginatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/466
+            queryName: Phyllobius albomarginatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/467
+            queryName: Hyla massarti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/206
+            queryName: Hyla infulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/212
+            queryName: Hyla raddiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/333
+            queryName: Phyllobius exanthematicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b917bbd9b
+      - s-9c62c8bfa7
+      - s-8596d50190
+      - s-13c248e848
+      - s-f87cfa27eb
+      - s-4ec01598f8
+      - s-5fbd3f68a1
+      - s-98698c6f1d
+      - s-24b5192251
+      - s-5956d11dde
+      - s-976742aa4a
+      - s-930a93239f
+    zh:
+      - s-2a8104c9d0
+      - s-7f30e91bfb
+      - s-bf14106bc0
+      - s-5fdabe4fc6
+      - s-6a18cb0596
+      - s-f3a577f0e2
+      - s-2f1cedb322
+      - s-2a88493f14
+      - s-4cf3f28755
+      - s-ca984ad6a0
+      - s-33857a8468
+      - s-a535cbd87d

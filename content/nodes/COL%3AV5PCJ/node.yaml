@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis makira
+  displayName: Gephyromantis makira
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5PCJ
+  sourceIndexes:
+    - name:
+        en: Gephyromantis makira
+        zh: Gephyromantis makira
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5PCJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/138
+            queryName: Gephyromantis makira
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce7e9e3622
+      - s-e2ba519d03
+      - s-abde70d3c5
+    zh:
+      - s-223d270b73
+      - s-76a17f796d
+      - s-096331e12f

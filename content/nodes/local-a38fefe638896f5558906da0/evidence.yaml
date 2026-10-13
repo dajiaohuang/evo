@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pseudopaludicola motorzinho
+    name:
+      en: Pseudopaludicola motorzinho
+      zh: Pseudopaludicola motorzinho
+    sourceClassification:
+      order: Anura
+      family: Leptodactylidae
+      genus: Pseudopaludicola
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e1db895e33
+            part: body
+          zh:
+            page: zh
+            section: s-7762ce3158
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-823b607691
+            part: body
+          zh:
+            page: zh
+            section: s-2856a91e37
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4957, 4958; Reference.csv rows 2889
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4957
+        values:
+          - Leptodactylidae
+          - Pseudopaludicola
+          - Pseudopaludicola motorzinho
+          - M
+          - "11.7"
+          - "4.6"
+          - "4.2"
+          - "1.3"
+          - NA
+          - NA
+          - "1.2"
+          - "1.1"
+          - NA
+          - "1.1"
+          - NA
+          - NA
+          - "3.2"
+          - NA
+          - NA
+          - "7.2"
+          - NA
+          - "6.6"
+          - "5.3"
+          - "3.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4958
+        values:
+          - Leptodactylidae
+          - Pseudopaludicola
+          - Pseudopaludicola motorzinho
+          - F
+          - "13.7"
+          - "4.9"
+          - "4.6"
+          - "1.4"
+          - NA
+          - NA
+          - "1.3"
+          - "1.2"
+          - NA
+          - "1.3"
+          - NA
+          - NA
+          - "3.4"
+          - NA
+          - NA
+          - "7.6"
+          - NA
+          - "6.8"
+          - "6.1"
+          - "3.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2889
+        values:
+          - Anura
+          - Pseudopaludicola_motorzinho
+          - "Pansonato, A., Veiga?Menoncello, A., Mudrek, J., Jansen, M., Recco-Pimentel, S., Martins, I., & Strüssmann, C. (2016). Two New Species of Pseudopaludicola (Anura: Leptodactylidae: Leiuperinae) from Eastern Bolivia and Western Brazil. Herpetologica, 72, 235-255. https://doi.org/10.1655/Herpetologica-D-14-00047.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - EN
+      - HAL
+      - FL
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4P5QK
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

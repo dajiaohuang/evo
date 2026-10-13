@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropterotriton totonacus Parra-Olea, García-Castillo, Rovito, Maisano, Hanken & Wake, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiropterotriton totonacus
+      zh: Chiropterotriton totonacus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6828b6d1cf
+            part: title
+          zh:
+            page: zh
+            section: s-1c9d16ac91
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6828b6d1cf
+            part: body
+          zh:
+            page: zh
+            section: s-1c9d16ac91
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f5d39b798f
+            part: title
+          zh:
+            page: zh
+            section: s-3175105a10
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f5d39b798f
+            part: body
+          zh:
+            page: zh
+            section: s-3175105a10
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-137e5ef255
+            part: title
+          zh:
+            page: zh
+            section: s-6d87bab565
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq6z
+        text:
+          en:
+            page: en
+            section: s-137e5ef255
+            part: body
+          zh:
+            page: zh
+            section: s-6d87bab565
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6225af7597
+            part: title
+          zh:
+            page: zh
+            section: s-71c7665f1d
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq6z
+        text:
+          en:
+            page: en
+            section: s-6225af7597
+            part: body
+          zh:
+            page: zh
+            section: s-71c7665f1d
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a7f091610f
+            part: title
+          zh:
+            page: zh
+            section: s-b323c904ff
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq6z
+        text:
+          en:
+            page: en
+            section: s-a7f091610f
+            part: body
+          zh:
+            page: zh
+            section: s-b323c904ff
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3817c50b9b
+            part: title
+          zh:
+            page: zh
+            section: s-64dffe1e71
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq6z
+        text:
+          en:
+            page: en
+            section: s-3817c50b9b
+            part: body
+          zh:
+            page: zh
+            section: s-64dffe1e71
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiropterotriton totonacus
+          url: https://www.checklistbank.org/dataset/316115/taxon/MFQ6Z
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7258950-mfq6z
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiropterotriton totonacus: Named species holotype, paratypes, diagnosis, live/preserved colour and distribution/ecology paragraphs; no comparative tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e0c1a01a5f
+        part: body
+      zh:
+        page: zh
+        section: s-d076bf71c7
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.8800
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        sourceKey: primary-pmc7258950-mfq6z
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7258950/article.xml
+        sourceConcept: Chiropterotriton totonacus
+        evidenceRead: "Chiropterotriton totonacus: Named species holotype, paratypes, diagnosis, live/preserved colour and distribution/ecology paragraphs; no comparative tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Twenty types with a broad locality-error estimate
+              zh: 具有较大地点误差估计的二十件模式标本
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq6z
+            locator: Results > Chiropterotriton totonacus; reading-sections index 2, paragraphs 70–71 and 73
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-365b9be844
+                part: body
+              zh:
+                page: zh
+                section: s-bc023baeb1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Long tails, expanded tips and overlapping limbs
+              zh: 长尾、扩展端尖及重叠肢
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq6z
+            locator: Results > Chiropterotriton totonacus; reading-sections index 2, paragraphs 73
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5dc913a3b6
+                part: body
+              zh:
+                page: zh
+                section: s-472bba90e0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Three photographed live animals and separate preserved types
+              zh: 三只拍摄活体与单列保存模式标本
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq6z
+            locator: Results > Chiropterotriton totonacus; reading-sections index 2, paragraphs 84–85
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-40972ec86a
+                part: body
+              zh:
+                page: zh
+                section: s-e317ac8073
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Under logs in disturbed mossy pine forest
+              zh: 受扰多苔松林枯木下
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq6z
+            locator: Results > Chiropterotriton totonacus; reading-sections index 2, paragraphs 89
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-72dbf88a00
+                part: body
+              zh:
+                page: zh
+                section: s-f7f2e595a3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

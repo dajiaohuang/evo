@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys anlongensis
+  displayName: Boulenophrys anlongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V57J2
+  sourceIndexes:
+    - name:
+        en: Boulenophrys anlongensis
+        zh: Boulenophrys anlongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V57J2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/324
+            queryName: Boulenophrys anlongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/247
+            queryName: Megophrys anlongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7a47b4da19
+      - s-0c6f7cecf1
+      - s-e5577c9a91
+      - s-d8f5d84458
+      - s-c6d7b6896f
+    zh:
+      - s-936daa5943
+      - s-7700a14c43
+      - s-3197c84b1c
+      - s-53d84119f5
+      - s-41e55ae23d

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus radcliffei
+  displayName: Nyctibatrachus radcliffei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485GP
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus radcliffei
+        zh: Nyctibatrachus radcliffei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485GP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/360
+            queryName: Nyctibatrachus radcliffei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c47d4115d7
+      - s-6b77b603f1
+      - s-f9765bb324
+      - s-972c73ce62
+      - s-415f917f0e
+    zh:
+      - s-6959c7ddda
+      - s-3643a0bb3d
+      - s-d32a0ed67e
+      - s-ea369a32c2
+      - s-c67f2545b9

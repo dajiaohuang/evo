@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus marambaiae
+  displayName: Leptodactylus marambaiae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN63
+  sourceIndexes:
+    - name:
+        en: Leptodactylus marambaiae
+        zh: Leptodactylus marambaiae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN63
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/410
+            queryName: Leptodactylus marambaiae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e53fe264eb
+      - s-50b7e81ef7
+      - s-cfc2db3cae
+      - s-c898cea516
+      - s-01d7a862b1
+      - s-c86827ad97
+      - s-4c89cd5de2
+      - s-8b5826088e
+      - s-d5a6493204
+      - s-93024de5f3
+      - s-9657415e03
+      - s-f9fe64686c
+      - s-f9e2c8f1fb
+      - s-e97829e97a
+    zh:
+      - s-17ef1c1824
+      - s-8bed0529a2
+      - s-a0a419ba1d
+      - s-185db3ee30
+      - s-0c943e4e02
+      - s-9127c24205
+      - s-2f2aa9cc8b
+      - s-213bd4ee07
+      - s-634441db74
+      - s-b43c751f38
+      - s-32e0061388
+      - s-3215115c6b
+      - s-d00eeabd5d
+      - s-2ef5278107

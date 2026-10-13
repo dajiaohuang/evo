@@ -1,0 +1,122 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pyxicephalus adspersus
+  displayName: Pyxicephalus adspersus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4QYCF
+  sourceIndexes:
+    - name:
+        en: Pyxicephalus adspersus
+        zh: Pyxicephalus adspersus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4QYCF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/15
+            queryName: Pyxicephalus adspersus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 90
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/74
+            queryName: Bombinator adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/75
+            queryName: Tomopterna adspersa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/76
+            queryName: Rana adspersa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/77
+            queryName: Rana adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/256
+            queryName: Rana adspersa adspersa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/257
+            queryName: Pyxicephalus adspersus adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-05d5468632
+      - s-d0b8ee43a0
+      - s-b0372fedb4
+      - s-021ef9d242
+      - s-881f34e12a
+      - s-5609df29ad
+      - s-3adb53e407
+      - s-af69d56e2a
+      - s-3a44a4be92
+      - s-6ca027317e
+      - s-635b57ecbd
+      - s-f3a00456b7
+      - s-562848b4d4
+      - s-8a5420e823
+      - s-19be94065c
+      - s-ccdf6ca088
+      - s-904c6f1393
+      - s-b4c3778fbf
+      - s-9900a9d376
+      - s-5a3a630cd8
+      - s-ac0b0808bb
+      - s-418453fb1c
+      - s-f2f7d2df6b
+    zh:
+      - s-505f98d324
+      - s-815ff0f5d0
+      - s-5089e26b81
+      - s-6d440e8f1a
+      - s-fe19d05abd
+      - s-0afd66d9c3
+      - s-7cd8b504f9
+      - s-1daaa5c5ad
+      - s-718822ae60
+      - s-bafc606155
+      - s-8c94cdee2d
+      - s-a6cfa93497
+      - s-a0c52fd5d4
+      - s-becacf667a
+      - s-aab9027e9a
+      - s-dc65dc716a
+      - s-e8b4b1f26f
+      - s-c3be8400c6
+      - s-d39889b65c
+      - s-4757dc66c7
+      - s-8fd7f7bbc4
+      - s-2b86c0d0a3
+      - s-d927d7a028

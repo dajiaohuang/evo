@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor guerreroensis
+  displayName: Craugastor guerreroensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCFL
+  sourceIndexes:
+    - name:
+        en: Craugastor guerreroensis
+        zh: Craugastor guerreroensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCFL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/124
+            queryName: Craugastor guerreroensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/101
+            queryName: Eleutherodactylus guerreroensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-184a95c479
+      - s-a22f3db46d
+      - s-b9d9b5f0f2
+      - s-6ab7cee798
+      - s-73d2aa2d89
+      - s-fdcf75f18f
+      - s-79c2dcc15a
+    zh:
+      - s-59e2b6cb27
+      - s-77c0253689
+      - s-2c59b812c5
+      - s-05d5d2412b
+      - s-19078379ae
+      - s-2cdc99a9b3
+      - s-098f23c8ed

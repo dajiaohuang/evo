@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Taudactylus diurnus
+  displayName: Taudactylus diurnus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7BNM8
+  sourceIndexes:
+    - name:
+        en: Taudactylus diurnus
+        zh: Taudactylus diurnus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7BNM8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/420
+            queryName: Taudactylus diurnus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a240d47e82
+      - s-86a7ba7417
+      - s-29221549ac
+      - s-3faa08054b
+      - s-13b65c61d1
+      - s-7637a79fb3
+      - s-8ff65f79fe
+      - s-cb9bc3ff3b
+      - s-97b6230cdc
+      - s-b8442e184f
+      - s-02c2b2c07c
+    zh:
+      - s-e6e58dc56f
+      - s-8cf5c3d369
+      - s-71c765d969
+      - s-efc53793cc
+      - s-a04e6f86d3
+      - s-72f137de73
+      - s-ec913d6b62
+      - s-adbec8da03
+      - s-2ebde14276
+      - s-e8ffc46aa3
+      - s-df6ce12640

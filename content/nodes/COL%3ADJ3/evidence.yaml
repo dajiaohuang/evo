@@ -1,0 +1,202 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Odontophrynidae Lynch, 1969
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Odontophrynidae
+      zh: Odontophrynidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-53ebdebc8a
+            part: title
+          zh:
+            page: zh
+            section: s-86296c2ba9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-53ebdebc8a
+            part: body
+          zh:
+            page: zh
+            section: s-86296c2ba9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e6b12cffdf
+            part: title
+          zh:
+            page: zh
+            section: s-7dbb478b78
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e6b12cffdf
+            part: body
+          zh:
+            page: zh
+            section: s-7dbb478b78
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-2a6a8f1c7b
+            part: title
+          zh:
+            page: zh
+            section: s-3d4d230a0d
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5JDY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5JDY
+            label:
+              en: Macrogenioglottus
+              zh: Macrogenioglottus
+          - kind: catalogue
+            colId: 66YX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A66YX
+            label:
+              en: Odontophrynus
+              zh: Odontophrynus
+          - kind: catalogue
+            colId: 6W75
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6W75
+            label:
+              en: Proceratophrys
+              zh: Proceratophrys
+        text:
+          en:
+            page: en
+            section: s-2a6a8f1c7b
+            part: body
+          zh:
+            page: zh
+            section: s-3d4d230a0d
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-97d2a51a3a
+            part: title
+          zh:
+            page: zh
+            section: s-d9cdab62bc
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-97d2a51a3a
+            part: body
+          zh:
+            page: zh
+            section: s-d9cdab62bc
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Odontophrynidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/DJ3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Odontophrynidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c4e247e487
+        part: body
+      zh:
+        page: zh
+        section: s-f09eca2ba0
+        part: body
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Odontophrynus americanus
+          path: content/nodes/local-580edbede5101133fa2a455e
+        - scientificName: Proceratophrys schirchi
+          path: content/nodes/local-0bda45d80c6ff50e4b11578b
+        - scientificName: Odontophrynus occidentalis
+          path: content/nodes/local-8b7b6e94aa5c78524fd7df01
+        - scientificName: Odontophrynus barrioi
+          path: content/nodes/local-6fdd31b8684bc92ddcbd729d
+      metrics:
+        - metric: CTmax
+          rows: 12
+          sourceConcepts: 4
+        - metric: CTmin
+          rows: 6
+          sourceConcepts: 2
+        - metric: Tpref
+          rows: 7
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oophaga granulifera
+  displayName: Oophaga granulifera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49SSL
+  sourceIndexes:
+    - name:
+        en: Oophaga granulifera
+        zh: Oophaga granulifera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 49SSL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/169
+            queryName: Oophaga granulifera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/182
+            queryName: Dendrobates granuliferus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/94
+            queryName: Ranitomeya granuliferus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/95
+            queryName: Dendrobates granulifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bcbac81608
+      - s-7aedf10583
+      - s-f9c1ec2a96
+      - s-fc27416631
+      - s-ecfd75ee7e
+      - s-f9b4443f2c
+      - s-5f0c98d3c2
+      - s-599c910935
+      - s-472e0bb5bf
+      - s-d2490c69e1
+      - s-9a585937d9
+      - s-e191b98b4a
+    zh:
+      - s-b4d611833f
+      - s-0a82944ccd
+      - s-f27aa07f23
+      - s-106698e426
+      - s-263ed3cead
+      - s-a66cbebb50
+      - s-80da239185
+      - s-fbb3e6496a
+      - s-82d9a645e5
+      - s-b5fde69841
+      - s-5715051093
+      - s-db3942c0ac

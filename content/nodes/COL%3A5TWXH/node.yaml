@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates caeruleodactylus
+  displayName: Allobates caeruleodactylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5TWXH
+  sourceIndexes:
+    - name:
+        en: Allobates caeruleodactylus
+        zh: Allobates caeruleodactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5TWXH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/127
+            queryName: Allobates caeruleodactylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/68
+            queryName: Colostethus caeruleodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-487b131f88
+      - s-96bf7b73bc
+      - s-4588901ec9
+      - s-0227ba0cc4
+      - s-0bb13fc82b
+      - s-ce4dc068c9
+      - s-44212e68ef
+      - s-c07ed03864
+      - s-b0509f0eb4
+      - s-3e01c1ca4d
+      - s-dccded0608
+      - s-b48a9143cf
+      - s-2febdeabe9
+      - s-c53fbfc635
+      - s-38a439b48b
+      - s-040ba7b514
+      - s-0225cc73c4
+      - s-fc0698e06d
+      - s-4ab9b93068
+      - s-9328b69fd3
+      - s-0b3ca84d27
+      - s-b92dfc9e17
+      - s-8674e50636
+      - s-47cb99f4ec
+      - s-49eaa6658c
+    zh:
+      - s-7774f0e14a
+      - s-cb396cebb1
+      - s-e9e9e99cc0
+      - s-78e05fa1b2
+      - s-600adf4cea
+      - s-b232f4357a
+      - s-3afe4627f7
+      - s-f761ebc3eb
+      - s-344391aabc
+      - s-e3ad504a00
+      - s-69624ad067
+      - s-ecfbadb2b4
+      - s-92f403309f
+      - s-327f37199a
+      - s-5b34c2f38c
+      - s-e6866ab7ce
+      - s-389abcbf8a
+      - s-27baa84df6
+      - s-aff3e7d7bb
+      - s-30a1c04e5c
+      - s-b80d8ab14e
+      - s-125541ff18
+      - s-53a16a6078
+      - s-b221281a78
+      - s-afdbd45adb

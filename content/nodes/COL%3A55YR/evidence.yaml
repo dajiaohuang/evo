@@ -1,0 +1,316 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ixalotriton Wake & Johnson, 1989
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Ixalotriton
+      zh: Ixalotriton
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1fe3efa1c8
+            part: title
+          zh:
+            page: zh
+            section: s-75bf918888
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1fe3efa1c8
+            part: body
+          zh:
+            page: zh
+            section: s-75bf918888
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d597d712e8
+            part: title
+          zh:
+            page: zh
+            section: s-12bb1a5b5e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d597d712e8
+            part: body
+          zh:
+            page: zh
+            section: s-12bb1a5b5e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-57baa286b0
+            part: title
+          zh:
+            page: zh
+            section: s-e97b929509
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3QFB4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QFB4
+            label:
+              en: Ixalotriton niger
+              zh: Ixalotriton niger
+          - kind: catalogue
+            colId: 3QFB6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QFB6
+            label:
+              en: Ixalotriton parvus
+              zh: Ixalotriton parvus
+        text:
+          en:
+            page: en
+            section: s-57baa286b0
+            part: body
+          zh:
+            page: zh
+            section: s-e97b929509
+            part: body
+      - topic: occurrence
+        sourceIds:
+          - primary-direct-group-pmc12135470-55yr
+        title:
+          en:
+            page: en
+            section: s-4ab5a67e69
+            part: title
+          zh:
+            page: zh
+            section: s-0315faa60f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4ab5a67e69
+            part: body
+          zh:
+            page: zh
+            section: s-0315faa60f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc12135470-55yr
+        title:
+          en:
+            page: en
+            section: s-19fbf61cac
+            part: title
+          zh:
+            page: zh
+            section: s-6647bc1c48
+            part: title
+        text:
+          en:
+            page: en
+            section: s-19fbf61cac
+            part: body
+          zh:
+            page: zh
+            section: s-6647bc1c48
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc12135470-55yr
+        title:
+          en:
+            page: en
+            section: s-3f8c2c4a54
+            part: title
+          zh:
+            page: zh
+            section: s-63844c75d7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3f8c2c4a54
+            part: body
+          zh:
+            page: zh
+            section: s-63844c75d7
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc12135470-55yr
+        title:
+          en:
+            page: en
+            section: s-2544bb8100
+            part: title
+          zh:
+            page: zh
+            section: s-49fcb15be0
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3QFB4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QFB4
+            label:
+              en: Ixalotriton niger
+              zh: Ixalotriton niger
+        text:
+          en:
+            page: en
+            section: s-2544bb8100
+            part: body
+          zh:
+            page: zh
+            section: s-49fcb15be0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ixalotriton
+          url: https://www.checklistbank.org/dataset/316115/taxon/55YR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-direct-group-pmc12135470-55yr
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Aquiloeurycea galeanae: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 selected named study species; unnamed Aquiloeurycea sp. remains unassigned.
+            zh: 所选 1 个已命名研究种；未命名 Aquiloeurycea sp. 保持未分配。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3e439f23c3
+        part: body
+      zh:
+        page: zh
+        section: s-34f6e5f2ff
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1186/s42523-025-00423-x
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        sourceKey: primary-direct-group-pmc12135470-55yr
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12135470/article.xml
+        sourceConcept: Selected morphology-identified Mexican2017–2018 hosts; no complete-genus microbiome synthesis
+        evidenceRead: "Aquiloeurycea galeanae: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Follow named sampled hosts and dated localities
+              zh: 沿已命名取样宿主及有日期地点阅读
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-direct-group-pmc12135470-55yr
+            locator: PMC12135470 XML Sec3 sampling; Sec7 Results/Figure1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9c5cbd63c8
+                part: body
+              zh:
+                page: zh
+                section: s-bb93b04665
+                part: body
+            scope:
+              en: 1 selected named study species; unnamed Aquiloeurycea sp. remains unassigned.
+              zh: 所选 1 个已命名研究种；未命名 Aquiloeurycea sp. 保持未分配。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Detected Bd, bacterial diversity and protection are different evidence
+              zh: Bd 检出、细菌多样性及保护是不同证据
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-direct-group-pmc12135470-55yr
+            locator: PMC12135470 XML Sec4 reduceddataset; Sec6 Bd units; Sec8/Sec10 Results; Sec12/Sec14 Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8aac7d51b9
+                part: body
+              zh:
+                page: zh
+                section: s-4ccedd7778
+                part: body
+            scope:
+              en: 1 selected named study species; unnamed Aquiloeurycea sp. remains unassigned.
+              zh: 所选 1 个已命名研究种；未命名 Aquiloeurycea sp. 保持未分配。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Inferred function and network edges need experimental confirmation
+              zh: 推断功能及网络边仍需实验确认
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-direct-group-pmc12135470-55yr
+            locator: PMC12135470 XML Sec3–Sec5; Sec9 Results; Sec13 Discussion; Sec15 Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-17d85e2017
+                part: body
+              zh:
+                page: zh
+                section: s-8e248b6d14
+                part: body
+            scope:
+              en: 1 selected named study species; unnamed Aquiloeurycea sp. remains unassigned.
+              zh: 所选 1 个已命名研究种；未命名 Aquiloeurycea sp. 保持未分配。
+    primaryResearchGroupSynthesisComplete: false

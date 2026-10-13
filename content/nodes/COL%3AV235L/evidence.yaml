@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phyllobates bezosi Amézquita, Vargas-Salinas, Ramos, Palacios-Rodríguez, Salazar, Quiroz, Bolívar-García et al., 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phyllobates bezosi
+      zh: Phyllobates bezosi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7cda28b57d
+            part: title
+          zh:
+            page: zh
+            section: s-6a557a9f29
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7cda28b57d
+            part: body
+          zh:
+            page: zh
+            section: s-6a557a9f29
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-036c3946e8
+            part: title
+          zh:
+            page: zh
+            section: s-11d3a406de
+            part: title
+        text:
+          en:
+            page: en
+            section: s-036c3946e8
+            part: body
+          zh:
+            page: zh
+            section: s-11d3a406de
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-01d72fa4d4
+            part: title
+          zh:
+            page: zh
+            section: s-29e7bdbd50
+            part: title
+        sourceIds:
+          - primary-pmc11420536-v235l
+        text:
+          en:
+            page: en
+            section: s-01d72fa4d4
+            part: body
+          zh:
+            page: zh
+            section: s-29e7bdbd50
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-7b47a98c12
+            part: title
+          zh:
+            page: zh
+            section: s-0cfe423731
+            part: title
+        sourceIds:
+          - primary-pmc11420536-v235l
+        text:
+          en:
+            page: en
+            section: s-7b47a98c12
+            part: body
+          zh:
+            page: zh
+            section: s-0cfe423731
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phyllobates bezosi
+          url: https://www.checklistbank.org/dataset/316115/taxon/V235L
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11420536-v235l
+        referenceId: ref-f703a35f-ae8e-4d16-a4df-b9d034b9a68f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phyllobates bezosi: Species ecology and distribution/conservation accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2a20e954d5
+        part: body
+      zh:
+        page: zh
+        section: s-b66d226a02
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1212.126733
+        referenceId: ref-f703a35f-ae8e-4d16-a4df-b9d034b9a68f
+        sourceKey: primary-pmc11420536-v235l
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11420536/article.xml
+        sourceConcept: Phyllobates bezosi
+        evidenceRead: "Phyllobates bezosi: Species ecology and distribution/conservation accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: reproduction
+            heading:
+              en: One laboratory breeding event
+              zh: 一次实验室繁殖事件
+            referenceId: ref-f703a35f-ae8e-4d16-a4df-b9d034b9a68f
+            sourceKey: primary-pmc11420536-v235l
+            locator: "Phyllobates bezosi: Species ecology and distribution/conservation accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c1e3b32899
+                part: body
+              zh:
+                page: zh
+                section: s-d43a7ff274
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: distribution
+            heading:
+              en: The Garrapatas type locality
+              zh: Garrapatas 模式地点
+            referenceId: ref-f703a35f-ae8e-4d16-a4df-b9d034b9a68f
+            sourceKey: primary-pmc11420536-v235l
+            locator: "Phyllobates bezosi: Species ecology and distribution/conservation accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-393e3f2fa3
+                part: body
+              zh:
+                page: zh
+                section: s-ab17f7038b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

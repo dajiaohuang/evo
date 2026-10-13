@@ -1,0 +1,138 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophylax plancyi
+  displayName: Pelophylax plancyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CHN
+  sourceIndexes:
+    - name:
+        en: Pelophylax plancyi
+        zh: Pelophylax plancyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CHN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/480
+            queryName: Pelophylax plancyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/82
+            queryName: Rana chosenica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/122
+            queryName: Rana hubeiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/178
+            queryName: Rana plancyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 67
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/413
+            queryName: Pelophylax chosenicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 31
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/414
+            queryName: Pelophylax hubeiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/437
+            queryName: Rana nigromaculata chosenica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/199
+            queryName: Hylarana hubeiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/200
+            queryName: Palophylax hubeiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/216
+            queryName: Hylarana chosenica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/286
+            queryName: Hylarana plancyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/130
+            queryName: Rana nigromaculata coreana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/131
+            queryName: Rana plancyi chosenica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/157
+            queryName: Rana plancyi plancyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ee1213afdd
+      - s-d4023dadad
+      - s-7c163ee170
+      - s-d9ddd9bc03
+      - s-52de51bc07
+      - s-06aba08a64
+      - s-9080f53896
+      - s-b140bd34e1
+      - s-fb5ca2b7c6
+      - s-311fe799d9
+    zh:
+      - s-82338f5982
+      - s-3e7f3495c4
+      - s-34a22ac0eb
+      - s-54873c03f1
+      - s-9459886a21
+      - s-33529acdfe
+      - s-a010a78869
+      - s-3ccc653ce2
+      - s-134f837af8
+      - s-49fc304e25

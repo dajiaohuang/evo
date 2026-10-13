@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton ziegleri
+  displayName: Tylototriton ziegleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBK9
+  sourceIndexes:
+    - name:
+        en: Tylototriton ziegleri
+        zh: Tylototriton ziegleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBK9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/169
+            queryName: Tylototriton ziegleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/95
+            queryName: Yaotriton ziegleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7bade9e05b
+      - s-856917da16
+      - s-c30da4b06c
+      - s-ec0f18830b
+      - s-052d7541c0
+      - s-8021580174
+      - s-7316aebaa9
+      - s-299b9d3077
+      - s-d8d25c85f7
+      - s-28e60f580f
+      - s-476cd97295
+    zh:
+      - s-aedeed0b2d
+      - s-2915546eaf
+      - s-73efecd140
+      - s-0d37340db0
+      - s-50949c64af
+      - s-793090608f
+      - s-5a6fb0b521
+      - s-1693e01df3
+      - s-738df41c6f
+      - s-fe79d3cf30
+      - s-632aeb8f6a

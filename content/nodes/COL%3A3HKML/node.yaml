@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis tornieri
+  displayName: Guibemantis tornieri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3HKML
+  sourceIndexes:
+    - name:
+        en: Guibemantis tornieri
+        zh: Guibemantis tornieri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3HKML
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/233
+            queryName: Guibemantis tornieri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/212
+            queryName: Mantidactylus tornieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/157
+            queryName: Rhacophorus tornieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/158
+            queryName: Boophis tornieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8cd5d966e1
+      - s-66d163e102
+      - s-d0343573b2
+      - s-274922042b
+      - s-6fbf4eb496
+      - s-f78455567a
+      - s-187551ab49
+      - s-45ff4f9e68
+      - s-88980f0921
+      - s-c16abf977a
+    zh:
+      - s-6ffafcfbd7
+      - s-8d2c33844e
+      - s-87ed81f680
+      - s-5deea30a32
+      - s-acdbf41a9a
+      - s-2babd7804f
+      - s-7e8dd5f7b7
+      - s-916a3dd4f2
+      - s-13e9c79fdf
+      - s-4f517e0a7b

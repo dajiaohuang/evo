@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cophixalus cupricarenus
+    name:
+      en: Cophixalus cupricarenus
+      zh: Cophixalus cupricarenus
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Cophixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-58440a2243
+            part: body
+          zh:
+            page: zh
+            section: s-2e0e3679d8
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2676cb42b7
+            part: body
+          zh:
+            page: zh
+            section: s-2426e3b53d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1214, 1215; Reference.csv rows 298
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1214
+        values:
+          - Microhylidae
+          - Cophixalus
+          - Cophixalus cupricarenus
+          - F
+          - "29.4"
+          - "9.702"
+          - "10.29"
+          - "3.528"
+          - "1.47"
+          - NA
+          - NA
+          - "3.234"
+          - NA
+          - "2.6754"
+          - "4.41"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "15.288"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.7052"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.764"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1215
+        values:
+          - Microhylidae
+          - Cophixalus
+          - Cophixalus cupricarenus
+          - M
+          - "25.4"
+          - "8.382"
+          - "9.652"
+          - "3.302"
+          - "1.3208"
+          - NA
+          - NA
+          - "3.048"
+          - NA
+          - "2.3622"
+          - "3.81"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.208"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.4986"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.5748"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 298
+        values:
+          - Anura
+          - Cophixalus_cupricarenus
+          - "Kraus, F., & Allison, A. (2009). New species of Cophixalus (Anura: Microhylidae) from Papua New Guinea. Zootaxa(2128), 1-38.  https://doi.org/10.5281/zenodo.188300"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - SL
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - Y43X
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

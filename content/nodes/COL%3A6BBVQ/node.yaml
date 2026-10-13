@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor taurus
+  displayName: Craugastor taurus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BBVQ
+  sourceIndexes:
+    - name:
+        en: Craugastor taurus
+        zh: Craugastor taurus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BBVQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/190
+            queryName: Craugastor taurus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/203
+            queryName: Eleutherodactylus taurus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a336b2e4f2
+      - s-46b645a910
+      - s-2ca50cc5ca
+      - s-60ed56d4ae
+      - s-6625355dbf
+      - s-6ad5d852ee
+      - s-77fc4ca68d
+      - s-874376cc84
+      - s-42c14cc80d
+      - s-ddcd56586a
+      - s-b406122d19
+      - s-32264499c9
+      - s-892116ef8c
+      - s-71c710b39f
+    zh:
+      - s-82221cde38
+      - s-8c3da0c0b5
+      - s-fb87ea04d1
+      - s-38f2863404
+      - s-b3c8c2a199
+      - s-a1edc718da
+      - s-8a16f95940
+      - s-57262cc99e
+      - s-2917e97b6e
+      - s-62b3d2f30e
+      - s-320d756abe
+      - s-fc01fe3716
+      - s-dbc011b158
+      - s-b351f2894e

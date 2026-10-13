@@ -1,0 +1,306 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dicaeum trochileum
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Dicaeum trochileum
+      en: Dicaeum trochileum
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1d1c1a9bbc
+            part: body
+          en:
+            page: en
+            section: s-c5d5da95e8
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8d839727ac
+            part: body
+          en:
+            page: en
+            section: s-da5f282ddb
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-a9a0d7eeda
+            part: body
+          en:
+            page: en
+            section: s-158dd376d6
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-43a8efaa48
+            part: body
+          en:
+            page: en
+            section: s-1a3ee7eca7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-4b8e0e90da
+            part: body
+          en:
+            page: en
+            section: s-43dbd413f6
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-b1e5d0836b
+            part: body
+          en:
+            page: en
+            section: s-98f8d5f2e2
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-39b22ef9ba
+            part: body
+          en:
+            page: en
+            section: s-27a48c756a
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-e4f115a7e6
+            part: body
+          en:
+            page: en
+            section: s-3355e2d31d
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-542ad3cdd0
+            part: body
+          en:
+            page: en
+            section: s-754b41d36e
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-de162a8f73
+            part: body
+          en:
+            page: en
+            section: s-fdc865e3af
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dicaeum trochileum
+          url: https://www.checklistbank.org/dataset/316115/taxon/35HVP
+          locator: Pinned accepted name, class, family and ancestry; historical concept equivalence not established.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 8014; Scientific=Dicaeum trochileum; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_13
+                  verbatim: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              certainty: A
+            foraging:
+              fields:
+                - ForStrat-watbelowsurf
+                - ForStrat-wataroundsurf
+                - ForStrat-ground
+                - ForStrat-understory
+                - ForStrat-midhigh
+                - ForStrat-canopy
+                - ForStrat-aerial
+              references:
+                - id: Ref_28
+                  verbatim: "Cheke, R. A. and F. M. Clive. 2001. Sunbirds: a guide to the sunbirds, flowerpeckers, spiderhunters and sugarbirds of the world. A&C Black."
+              speciesLevel: "1"
+          withheldFieldGroups: []
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - sourceVersion
+          - sourceWorksheet
+          - sourceFileSha256
+          - sourceRecordName
+          - eBirdCrosswalk
+          - birdTreeCrosswalk
+          - interpretedEcologicalFields
+          - uninterpretedEcologicalFields
+          - withheldBiometricFields
+          - originalInference
+          - originalMassSource
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: Species1=Dicaeum trochileum; Metadata sheet ecological category and breeding/resident latitude definitions."
+          sourceVersion: Figshare AVONET version 7; file 34480856
+          sourceWorksheet: AVONET1_BirdLife
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceRecordName: Dicaeum trochileum
+          eBirdCrosswalk:
+            Species1: Dicaeum trochileum
+            Species2: Dicaeum trochileum
+            Match.type: 1BL to 1eBird
+            Match.notes: null
+            Avibase.ID1: AVIBASE-3C404F82
+            Avibase.ID2: AVIBASE-3C404F82
+            "null": null
+          birdTreeCrosswalk:
+            Species1: Dicaeum trochileum
+            Species3: Dicaeum trochileum
+            Match.type: 1BL to 1BT
+            Match.notes: null
+          interpretedEcologicalFields:
+            - Habitat
+            - Trophic.Niche
+            - Primary.Lifestyle
+            - Migration
+          uninterpretedEcologicalFields: []
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          originalInference: NO
+          originalMassSource: EltonTraits_GenAvg
+          accessedAt: 2026-10-03
+          licenseAssessment: CC-BY-4.0-archive-attributed-factual-summary
+          scope:
+            zh: 有限历史生态类别与地图摘要；不解读形态或体重，底层物种文献未逐条读取，名称不证明概念等同。
+            en: Limited historical ecology categories and map summaries; no morphology or mass interpretation, underlying species literature not individually read, matching names do not prove equivalent concepts.
+    limitations:
+      zh:
+        page: zh
+        section: s-118639b3ff
+        part: body
+      en:
+        page: en
+        section: s-814fca0963
+        part: body

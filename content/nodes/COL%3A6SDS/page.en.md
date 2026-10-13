@@ -1,0 +1,21 @@
+## Local data reading route {#s-55ad2ef20d}
+Pinned COL26.8 taxonomy places three measured AVONET v7 records on this Plegadis route: Plegadis chihi, Plegadis falcinellus and Plegadis ridgwayi. AVONET retains its historical names and sampling scope. This is a route through those records, not a census of every species now assigned to the genus.
+
+## Differences between records {#s-2210efdc83}
+Among the AVONET species averages in this batch, Plegadis ridgwayi is the lower endpoint at 579.41 g and Plegadis falcinellus the upper at 626.61 g. These are compiled species means, so they compare dataset records rather than individual birds’ minimum and maximum masses. The represented categories include the habitat label Wetland and trophic-niche label Aquatic predator. These labels occur in the selected records; they do not define a genus-wide trait.
+
+## Choose comparison pages by life-history fields {#s-ee4465a74d}
+The linked 2015 life-history compilation supplies three historical records, for Plegadis chihi, P. falcinellus and P. ridgwayi. All three have entries for adult body mass, offspring per litter or eggs per clutch, and the compilation’s longevity field; two have the female maturity field, which the source defines as age at first conception. These counts describe field coverage in this batch, not the denominator of currently accepted species. Read each value with its event, unit, source definition and historical taxonomic inheritance: the compilation reports medians for fields such as mass and clutch size, and a maximum recorded lifespan rather than an individual lifespan distribution.
+
+## Two records with food and foraging fields {#s-01e4ddf965}
+EltonTraits supplies two historical entries here: Plegadis falcinellus and P. chihi. Both carry food-category weights and a foraging-stratum field; neither carries a mammalian activity-period entry. The food weights are coarse, semiquantitative assignments and foraging strata are categories, not measured quantities or observations of genus-wide behavior. The zero for activity periods describes missing coverage in this extract, not an absence of daily activity in the birds.
+
+## One record with a foraging field {#s-3ef7e387eb}
+EltonTraits contributes one historical entry for Plegadis ridgwayi on this route. It has a foraging-stratum field, with no food-category-weight or mammalian activity-period entry. This single field can guide the next comparison, but it cannot support a complete account of the species’ diet or activity, much less shared ecology across Plegadis.
+
+## Evidence limits {#s-2c70aa50b2}
+The AVONET route covers only the three measured records with one-to-one historical crosswalks and matching catalogue name and family. COL26.8 supplies the navigation hierarchy; it does not make the historical AVONET species concepts identical to current catalogue concepts. The mass endpoints compare compiled species means across records, not individual minimum and maximum values. See the species pages for their taxonomic, sampling and other biological limits.
+The life-history route covers three historical same-name, same-family entries, not the full set of accepted descendants. Its medians, maximum-lifespan records and any inherited historical species or subspecies data keep the source’s limits; the original input studies were not individually reviewed here. A genus route does not imply that all descendants share a reproductive mode or life history, and it does not provide a current-status assessment or complete species monographs.
+The two-entry EltonTraits route is a path through historical records with at least two usable ecological field groups, not a complete descendant catalogue. Semiquantitative translation, categorical coding, historical taxonomy and possible borrowing from congeners in ABC fields remain relevant to each record. These fields do not establish diet or activity as traits shared across Plegadis.
+The one-entry route is limited to a historical record with exactly one usable ecological field group. It is not a complete descendant catalogue, and the one foraging field does not establish the species’ full ecology or a genus-wide pattern. Semiquantitative translation, historical taxonomy and possible borrowing from congeners in ABC fields remain relevant to that record.
+

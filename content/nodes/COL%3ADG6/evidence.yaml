@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nyctibatrachidae Blommers-Schlösser, 1993
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Nyctibatrachidae
+      zh: Nyctibatrachidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-79081a7919
+            part: title
+          zh:
+            page: zh
+            section: s-320d9d8936
+            part: title
+        text:
+          en:
+            page: en
+            section: s-79081a7919
+            part: body
+          zh:
+            page: zh
+            section: s-320d9d8936
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c5a8de0f45
+            part: title
+          zh:
+            page: zh
+            section: s-876946d05f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c5a8de0f45
+            part: body
+          zh:
+            page: zh
+            section: s-876946d05f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5361566f4b
+            part: title
+          zh:
+            page: zh
+            section: s-c4898eb8ee
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5361566f4b
+            part: body
+          zh:
+            page: zh
+            section: s-c4898eb8ee
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-a219db3c6f
+            part: title
+          zh:
+            page: zh
+            section: s-ed58111f92
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a219db3c6f
+            part: body
+          zh:
+            page: zh
+            section: s-ed58111f92
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-c24e403be9
+            part: title
+          zh:
+            page: zh
+            section: s-277503e587
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: J6V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJ6V
+            label:
+              en: Astrobatrachinae
+              zh: Astrobatrachinae
+          - kind: catalogue
+            colId: JSK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJSK
+            label:
+              en: Lankanectinae
+              zh: Lankanectinae
+          - kind: catalogue
+            colId: 628MJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A628MJ
+            label:
+              en: Nyctibatrachinae
+              zh: Nyctibatrachinae
+        text:
+          en:
+            page: en
+            section: s-c24e403be9
+            part: body
+          zh:
+            page: zh
+            section: s-277503e587
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nyctibatrachidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/DG6
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Nyctibatrachidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-198fa74818
+        part: body
+      zh:
+        page: zh
+        section: s-539c3333d7
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Nyctibatrachidae
+      sourceRowIds:
+        - Anf4428
+        - Anf4429
+        - Anf4430
+        - Anf4431
+        - Anf4432
+        - Anf4433
+        - Anf4434
+        - Anf4435
+        - Anf4436
+        - Anf4437
+        - Anf4438
+        - Anf4439
+        - Anf4440
+        - Anf4441
+        - Anf4442
+        - Anf4443
+        - Anf4444
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 11
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 14
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 10
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 15
+      currentConceptEquivalenceCertified: false

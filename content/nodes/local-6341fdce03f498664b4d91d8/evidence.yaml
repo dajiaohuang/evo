@@ -1,0 +1,251 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella nokrekensis
+    name:
+      en: Leptobrachella nokrekensis
+      zh: Leptobrachella nokrekensis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-367ad38f71
+            part: body
+          zh:
+            page: zh
+            section: s-d6051021a2
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f670ffad71
+            part: body
+          zh:
+            page: zh
+            section: s-4ebb7404b1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2604, 2605; Reference.csv rows 638
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2604
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella nokrekensis
+          - M
+          - "29.2"
+          - "9.4"
+          - "10"
+          - "4.54"
+          - "1.78"
+          - "0.78"
+          - "2.6"
+          - "1.86"
+          - NA
+          - "1.82"
+          - "4.2"
+          - "1.58"
+          - "6.7"
+          - "6.8"
+          - NA
+          - "12.4"
+          - NA
+          - "12.8"
+          - "12.4"
+          - "6.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.7"
+          - NA
+          - NA
+          - NA
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2605
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella nokrekensis
+          - F
+          - "34.5"
+          - "10"
+          - "11"
+          - "4.75"
+          - "1.75"
+          - "1"
+          - "2.5"
+          - "2.5"
+          - NA
+          - "2.25"
+          - "4.6"
+          - "1.6"
+          - "7"
+          - "7.75"
+          - NA
+          - "13.75"
+          - NA
+          - "14.25"
+          - "13.5"
+          - "7.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.5"
+          - NA
+          - NA
+          - NA
+          - "4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 638
+        values:
+          - Anura
+          - Leptobrachella_nokrekensis
+          - "Mathew, R., & Sen, N. (2009). Description of a new species of leptobrachium tschudi, 1838,(Amphibia: Anura: Megophryidae) from Meghalaya, India. Records of the Zoological Survey of India, 109(3), 91-108. https://doi.org/10.26515/rzsi/v109/i3/2009/158996"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Toe4L
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6PG3Z
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

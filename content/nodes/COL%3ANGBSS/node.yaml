@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus amphileucus
+  displayName: Desmognathus amphileucus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NGBSS
+  sourceIndexes:
+    - name:
+        en: Desmognathus amphileucus
+        zh: Desmognathus amphileucus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NGBSS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/458
+            queryName: Desmognathus amphileucus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/479
+            queryName: Desmognathus quadramaculatus amphileucus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b84762a7d
+      - s-5b876f7336
+      - s-969f8b99f4
+      - s-5852630e3f
+      - s-0e39469d9c
+      - s-012fcd1979
+      - s-244d0727f4
+      - s-1ac4aa8618
+      - s-9aa42e4293
+      - s-25a7438986
+      - s-cb584bd795
+      - s-54586338de
+      - s-5c96a63eb0
+      - s-748cc312cb
+      - s-934e2d64fa
+      - s-70046837b6
+      - s-4f85ceadcb
+      - s-553b4fe4b6
+      - s-eec8def208
+      - s-488c539d13
+      - s-3844e2f2d7
+      - s-b7d8f92026
+      - s-e074ae046a
+    zh:
+      - s-d438ed851c
+      - s-935871f186
+      - s-0b3289bc8a
+      - s-5c903341a1
+      - s-b56977b63e
+      - s-9db20981cd
+      - s-e176c71619
+      - s-0d6351325c
+      - s-49fccda2e9
+      - s-7efc92faec
+      - s-b5e7a5ee15
+      - s-1b88ff53b3
+      - s-003ba6ac32
+      - s-32d4d7ff33
+      - s-4f64598077
+      - s-30db0c662d
+      - s-4640e7422e
+      - s-a43e36a4d9
+      - s-dfcdd1b296
+      - s-cd6aeaa5a3
+      - s-e0cb17f606
+      - s-7703ab99a3
+      - s-e33a88c7c6

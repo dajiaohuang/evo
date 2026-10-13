@@ -1,0 +1,3 @@
+## *Baccharis cognata*: sessile leaves and small head clusters {#s-f40ef1af8a}
+The Brazilian Flora 2020 regional field records a xylopodium, a woody underground swelling, and leaves without stalks. The leaves have three main veins, inversely egg-shaped blades, and toothed margins. Small groups of flower heads are listed as the inflorescence form. The source also records heads as either all tubular male-flowered or all threadlike female-flowered; these are alternative field entries rather than a combined description. Substrate labels include both rock-associated and terrestrial categories, without collection localities.
+

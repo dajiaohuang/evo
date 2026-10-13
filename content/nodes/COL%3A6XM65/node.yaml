@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sarcohyla celata
+  displayName: Sarcohyla celata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XM65
+  sourceIndexes:
+    - name:
+        en: Sarcohyla celata
+        zh: Sarcohyla celata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XM65
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/468
+            queryName: Sarcohyla celata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/300
+            queryName: Hyla celata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/214
+            queryName: Plectrohyla celata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ef3ef493c
+      - s-b3c8e0413e
+      - s-9eb227611e
+      - s-af432c1b85
+      - s-cbe554fe32
+      - s-3ba858973b
+      - s-ceae515fc8
+      - s-c887e43125
+      - s-40d4f345e4
+      - s-adc3485ccf
+      - s-7154ca22eb
+      - s-0fb9d0a25e
+      - s-f65d2d6e5f
+      - s-73eb4e036a
+    zh:
+      - s-e02593f7d7
+      - s-2b798cfdd0
+      - s-cb0369f8d3
+      - s-06a33df4b4
+      - s-bbaefe8940
+      - s-8b260098bd
+      - s-d7e60e8948
+      - s-29c815d38c
+      - s-7cbb39c0f6
+      - s-fdfb3511dc
+      - s-5404fa51bc
+      - s-75ce394909
+      - s-224c97111c
+      - s-2b3b950e49

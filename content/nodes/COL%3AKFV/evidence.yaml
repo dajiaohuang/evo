@@ -1,0 +1,376 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Treroninae
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      zh: Treroninae
+      en: Treroninae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-38de288aee
+            part: body
+          en:
+            page: en
+            section: s-7672e11411
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-10bff71e87
+            part: body
+          en:
+            page: en
+            section: s-7bb8585724
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-ce02a10a97
+            part: body
+          en:
+            page: en
+            section: s-19e94e2b4e
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-5834c3c0e2
+            part: body
+          en:
+            page: en
+            section: s-43342e6fdc
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e35cfdf156
+            part: body
+          en:
+            page: en
+            section: s-cbed9b4450
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-8ad433850d
+            part: body
+          en:
+            page: en
+            section: s-b6e5ab1c05
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-81a97a24f9
+            part: body
+          en:
+            page: en
+            section: s-8133a1fd1a
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-0228235f13
+            part: body
+          en:
+            page: en
+            section: s-c716fa1c54
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Treroninae
+          url: https://www.checklistbank.org/dataset/316115/taxon/KFV
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 19 selected measured records placed under Treroninae in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 18 authored same-name records placed under Treroninae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 30 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 30
+            foraging: 30
+            activity: 0
+          readingTargets:
+            - name: Turtur abyssinicus
+              colId: 59R5S
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A59R5S
+            - name: Turtur chalcospilos
+              colId: 59R5V
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A59R5V
+            - name: Turtur afer
+              colId: 59R5T
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A59R5T
+            - name: Turtur tympanistria
+              colId: 59R5Y
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A59R5Y
+            - name: Turtur brehmeri
+              colId: 7CYKB
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A7CYKB
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 1 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 1
+            foraging: 0
+            activity: 0
+          readingTargets:
+            - name: Treron curvirostra
+              colId: 584CK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A584CK
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 7 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: 584CL
+              name: Treron floris
+              canonicalPath: content/nodes/COL%3A584CL
+            - colId: 584CQ
+              name: Treron griseicauda
+              canonicalPath: content/nodes/COL%3A584CQ
+            - colId: 7CPFV
+              name: Treron oxyurus
+              canonicalPath: content/nodes/COL%3A7CPFV
+            - colId: 584CV
+              name: Treron pembaensis
+              canonicalPath: content/nodes/COL%3A584CV
+            - colId: 584D2
+              name: Treron psittaceus
+              canonicalPath: content/nodes/COL%3A584D2
+          fieldAccountCounts:
+            Habitat: 7
+            Trophic.Niche: 7
+            Primary.Lifestyle: 7
+            Migration: 7
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+    limitations:
+      zh:
+        page: zh
+        section: s-f9adc7fb8d
+        part: body
+      en:
+        page: en
+        section: s-c20cb26250
+        part: body

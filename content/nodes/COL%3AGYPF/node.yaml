@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptella drewesii
+  displayName: Arthroleptella drewesii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYPF
+  sourceIndexes:
+    - name:
+        en: Arthroleptella drewesii
+        zh: Arthroleptella drewesii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYPF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/136
+            queryName: Arthroleptella drewesii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ea147a30e9
+      - s-52d5643c80
+      - s-04a7ee5409
+      - s-c5a50e4b85
+      - s-7ba3138f64
+      - s-dc6cedd14c
+      - s-a421809d25
+      - s-db49f99e9e
+      - s-2f752de34e
+      - s-bc6ba2760c
+      - s-2bb5ec7673
+      - s-668831de80
+    zh:
+      - s-51777b90c5
+      - s-6dcd67e4d1
+      - s-ca10d5a806
+      - s-d4428e5bfa
+      - s-afb77af6a0
+      - s-6afde09c2e
+      - s-cdb9e5c9c7
+      - s-8d9a2437e6
+      - s-ee30ac50eb
+      - s-b93032939d
+      - s-36f29d2d8c
+      - s-964a7a0b65

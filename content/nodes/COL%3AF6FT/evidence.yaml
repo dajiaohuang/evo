@@ -1,0 +1,209 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aotus nigriceps Dollman, 1909
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 黑头夜猴
+      en: Black-headed night monkey
+    sections:
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-4ff0f97e88
+            part: body
+          en:
+            page: en
+            section: s-825bb17a83
+            part: body
+        sourceIds:
+          - mourthe2022
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-60ead461d3
+            part: body
+          en:
+            page: en
+            section: s-defca82803
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e973b7c1e7
+            part: body
+          en:
+            page: en
+            section: s-9e10be52a3
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e1148a0de8
+            part: body
+          en:
+            page: en
+            section: s-3adaae103e
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-66ee6e90d8
+            part: body
+          en:
+            page: en
+            section: s-52e29dd961
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-00b583dd59
+            part: body
+          en:
+            page: en
+            section: s-9c7e32f426
+            part: body
+    sources:
+      - id: mourthe2022
+        referenceId: ref-5f64b6aa-f75e-8d8d-a879-cb95aedb6f6e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 研究使用 IUCN 分布图比较巴西亚马逊十个主要间河区的灵长类组合；补充表 S1 列出范围图与各间河区的相交矩阵。支持区域范围图叠置摘要，不是现场出现点记录、丰度估计或完整分布评估。
+            en: The study compares primate assemblages across ten major Brazilian Amazon interfluves using IUCN range maps; Supplementary Table S1 gives the range-map overlap matrix for each interfluve. It supports regional map-overlay summaries, not field occurrence points, abundance estimates or complete range assessments.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/F6FT
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 635; Scientific=Aotus nigriceps; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-5cbba77176
+        part: body
+      en:
+        page: en
+        section: s-0a3ec4cdd5
+        part: body

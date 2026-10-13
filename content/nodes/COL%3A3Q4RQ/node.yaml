@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema guentheri
+  displayName: Ischnocnema guentheri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4RQ
+  sourceIndexes:
+    - name:
+        en: Ischnocnema guentheri
+        zh: Ischnocnema guentheri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4RQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/19
+            queryName: Ischnocnema guentheri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/100
+            queryName: Eleutherodactylus guentheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/128
+            queryName: Euhyas gravenhorstii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/129
+            queryName: Hylodes guentheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/130
+            queryName: Elosia divisa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bfbd339385
+      - s-db1352e252
+      - s-1a72610570
+      - s-76ae29c540
+      - s-8bf3a5cfa9
+      - s-a59f996d4a
+      - s-e9c8b004bc
+      - s-9518c2b5aa
+      - s-f820e6b679
+      - s-9611cf834d
+      - s-7623257b11
+      - s-915115f829
+      - s-9d6ebae2ba
+      - s-4e3324ceb7
+      - s-f3a0bd230d
+      - s-050c731478
+      - s-c62753cb1d
+      - s-54361f168e
+      - s-4c247a7bfc
+      - s-8e34bac077
+      - s-15a905119d
+      - s-b1488d8db9
+      - s-dd9f868ff2
+    zh:
+      - s-2c4332a874
+      - s-2e8e322b09
+      - s-8d0ab3c0ce
+      - s-01a9540503
+      - s-a06dabad5d
+      - s-053004ab40
+      - s-d8de0a08c3
+      - s-116c360376
+      - s-9e08851b2d
+      - s-fde4e20509
+      - s-812db5f500
+      - s-4dd1ac7401
+      - s-0b9611707c
+      - s-9648e89280
+      - s-2969b8f80c
+      - s-d03854266c
+      - s-f4421c40d2
+      - s-3692dbc283
+      - s-10a74809b3
+      - s-2025cbd050
+      - s-872443d059
+      - s-c5d3d9a8d1
+      - s-72a6e11096

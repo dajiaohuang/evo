@@ -1,0 +1,111 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cebus cuscinus Thomas, 1901
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 库斯奇努斯卷尾猴
+      en: Cebus cuscinus
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-895a78eda5
+            part: body
+          en:
+            page: en
+            section: s-d5b2f4b843
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_albifrons
+      - topic: study
+        text:
+          zh:
+            page: zh
+            section: s-ad3905b022
+            part: body
+          en:
+            page: en
+            section: s-feac95cb9a
+            part: body
+        sourceIds:
+          - pottie2025
+          - rosin2013
+      - topic: interpretation
+        text:
+          zh:
+            page: zh
+            section: s-1c18afefff
+            part: body
+          en:
+            page: en
+            section: s-fc6c09370e
+            part: body
+        sourceIds:
+          - pottie2025
+          - rosin2013
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/RYZD
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_albifrons
+        referenceId: ref-3b8581a2-58b8-8805-aa72-5c36df067e9e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 用于说明 MDD v2.5 对白额卷尾猴及相关名称的分类处理；不替代固定 COL26.8 身份或野外研究证据。
+            en: Documents MDD v2.5 treatment of White-fronted Capuchin and associated names; it does not replace the pinned COL26.8 identity or field evidence.
+      - id: pottie2025
+        referenceId: ref-1ef3dca8-3ba9-8889-a5b4-a0ce549f6849
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持秘鲁 Los Amigos 站 2025 年约 101 km、五条样线的灵长类调查及物种遭遇率；相对遭遇率受探测率和群体规模影响。
+            en: Supports the 2025 Los Amigos, Peru survey of about 101 km across five transects and species encounter rates; relative encounter rates depend on detectability and group size.
+      - id: rosin2013
+        referenceId: ref-db57186a-04c0-8e89-ae96-ad37cb08265a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持西亚马孙秘鲁三处地点的狩猎压力与灵长类群落密度比较；用于 Los Amigos 2013 年相对遭遇率对照，不代表物种全域。
+            en: Supports a comparison of primate community density under different hunting pressure at three western Amazonian Peru sites; used as the 2013 Los Amigos encounter-rate comparison, not a species-wide estimate.
+    limitations:
+      zh:
+        page: zh
+        section: s-7ca672dc52
+        part: body
+      en:
+        page: en
+        section: s-f5404009ab
+        part: body

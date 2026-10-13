@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nannoscincus
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Nannoscincus
+      en: Nannoscincus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-87534a8cdf
+            part: body
+          en:
+            page: en
+            section: s-a76cc1cf8d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-e911d8eeea
+            part: body
+          en:
+            page: en
+            section: s-ce85c17d9e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-a0fb5f4b94
+            part: body
+          en:
+            page: en
+            section: s-a23c56aa40
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c0a97c7309
+            part: body
+          en:
+            page: en
+            section: s-ffe59bb5d0
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-ed0d19d836
+            part: body
+          en:
+            page: en
+            section: s-fa01821fa6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nannoscincus
+          url: https://www.checklistbank.org/dataset/316115/taxon/63CJ5
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 3 authored records grouped under Nannoscincus by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 9 authored records grouped under Nannoscincus by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 45MQK
+              name: Nannoscincus exos
+              canonicalPath: content/nodes/COL%3A45MQK
+            - colId: 45MQL
+              name: Nannoscincus fuscus
+              canonicalPath: content/nodes/COL%3A45MQL
+            - colId: 45MQQ
+              name: Nannoscincus greeri
+              canonicalPath: content/nodes/COL%3A45MQQ
+            - colId: 45MQR
+              name: Nannoscincus hanchisteus
+              canonicalPath: content/nodes/COL%3A45MQR
+            - colId: 45MQS
+              name: Nannoscincus humectus
+              canonicalPath: content/nodes/COL%3A45MQS
+          fieldCountDistribution:
+            "1": 1
+            "2": 2
+            "3": 6
+    limitations:
+      zh:
+        page: zh
+        section: s-171e764a7b
+        part: body
+      en:
+        page: en
+        section: s-860d439b0b
+        part: body

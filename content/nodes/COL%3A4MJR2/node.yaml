@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis variabilis
+  displayName: Pristimantis variabilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJR2
+  sourceIndexes:
+    - name:
+        en: Pristimantis variabilis
+        zh: Pristimantis variabilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJR2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/156
+            queryName: Pristimantis variabilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/211
+            queryName: Eleutherodactylus variabilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fb7d52ddc4
+      - s-19df5eef9e
+      - s-cb5a57c6b3
+      - s-747235bd58
+      - s-d2211f3dee
+      - s-e95a56d180
+      - s-ffb8b67327
+      - s-90a160102d
+      - s-6721ffcbf5
+      - s-7af1058c4c
+      - s-3146747e84
+      - s-a3057dbc4b
+      - s-18d5a1abfe
+      - s-3fe7938887
+      - s-92fe76da05
+      - s-23c3b8dea1
+      - s-47d1750ccc
+      - s-b89e0bf386
+    zh:
+      - s-b15d3c791a
+      - s-4aff0dbeea
+      - s-67e763505f
+      - s-fbdca1907d
+      - s-250c4935d1
+      - s-66685935a3
+      - s-9eb694a257
+      - s-6dbdef4a2b
+      - s-47fcd1583a
+      - s-d15bc1c449
+      - s-a4775a16c1
+      - s-f8639db991
+      - s-0eb747dc5d
+      - s-09d33dbc85
+      - s-9e856d9ba9
+      - s-68d78a5f6e
+      - s-251b5a0fe4
+      - s-5be8a9340d

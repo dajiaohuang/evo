@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantidactylus fergusoni Scherz, Crottini, Hutter, Hildenbrand, Andreone, Fulgence, Köhler, Ndriantsoa, Ohler et al., 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mantidactylus fergusoni
+      zh: Mantidactylus fergusoni
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7975f32946
+            part: title
+          zh:
+            page: zh
+            section: s-0ee558c7af
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7975f32946
+            part: body
+          zh:
+            page: zh
+            section: s-0ee558c7af
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3d528561b4
+            part: title
+          zh:
+            page: zh
+            section: s-19b18b29ef
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3d528561b4
+            part: body
+          zh:
+            page: zh
+            section: s-19b18b29ef
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1aaafa240e
+            part: body
+          zh:
+            page: zh
+            section: s-26b9548f30
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantidactylus fergusoni
+          url: https://www.checklistbank.org/dataset/316115/taxon/QMD9Y
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3486d47e06
+        part: body
+      zh:
+        page: zh
+        section: s-4f1c5db8b5
+        part: body

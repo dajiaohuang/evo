@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Atrax christenseni Dupérré & Smith, 2025
+    rank: species
+    sourceDatasetId: "56185"
+    name:
+      zh: 纽卡斯尔漏斗网蛛
+      en: Newcastle funnel-web spider
+    sections:
+      - topic: taxonomy_story
+        text:
+          en:
+            page: en
+            section: s-16303e060a
+            part: body
+          zh:
+            page: zh
+            section: s-b8bf644659
+            part: body
+        sourceIds:
+          - account
+          - study
+        title:
+          en:
+            page: en
+            section: s-16303e060a
+            part: title
+          zh:
+            page: zh
+            section: s-b8bf644659
+            part: title
+      - topic: distribution
+        text:
+          en:
+            page: en
+            section: s-a75d5dc01d
+            part: body
+          zh:
+            page: zh
+            section: s-b2589b9735
+            part: body
+        sourceIds:
+          - account
+        title:
+          en:
+            page: en
+            section: s-a75d5dc01d
+            part: title
+          zh:
+            page: zh
+            section: s-b2589b9735
+            part: title
+    sources:
+      - id: account
+        referenceId: ref-f8e614b6-fe85-820c-ae79-6ccef23a1ee7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持新种形态辨识、新南威尔士州纽卡斯尔周边记录和精确地点不公开的边界；不采用页面中的毒性或保育判断。
+            en: Supports new-species identification traits, records around Newcastle in New South Wales and the withheld-locality boundary; toxicity and conservation judgments on the page are not used.
+      - id: study
+        referenceId: ref-63da2930-14cc-8a7d-abdd-ed407dad92c5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 支持由形态与 DNA 对比识别该新种的研究背景；该新种的详细栖境信息未由本条推补。
+            en: Supports the study context for delimiting this species from morphological and DNA comparisons; detailed habitat information is not inferred here.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 56185
+          url: https://www.checklistbank.org/dataset/316115/taxon/CVXFM
+          scope:
+            zh: 固定版本中的接受名、作者、等级及父链；来源集标识用于名录查找，不替代 2025 年原始描述。
+            en: Pinned accepted name, authorship, rank and parent chain; checklist identity supports lookup and does not replace the 2025 species description.
+    limitations:
+      en:
+        page: en
+        section: s-347e237e6b
+        part: body
+      zh:
+        page: zh
+        section: s-b83a72f84d
+        part: body

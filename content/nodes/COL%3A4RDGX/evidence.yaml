@@ -1,0 +1,690 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rana amurensis Boulenger, 1886
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Rana amurensis
+      zh: Rana amurensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-bbeaa3919e
+            part: title
+          zh:
+            page: zh
+            section: s-db9413eddd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bbeaa3919e
+            part: body
+          zh:
+            page: zh
+            section: s-db9413eddd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-40a5730767
+            part: title
+          zh:
+            page: zh
+            section: s-ac11de036a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-40a5730767
+            part: body
+          zh:
+            page: zh
+            section: s-ac11de036a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-332f9ba555
+            part: title
+          zh:
+            page: zh
+            section: s-153875764a
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-332f9ba555
+            part: body
+          zh:
+            page: zh
+            section: s-153875764a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e00390dc7f
+            part: title
+          zh:
+            page: zh
+            section: s-9e00d68cbb
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-e00390dc7f
+            part: body
+          zh:
+            page: zh
+            section: s-9e00d68cbb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-944a74017e
+            part: title
+          zh:
+            page: zh
+            section: s-f0a7a3030f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-944a74017e
+            part: body
+          zh:
+            page: zh
+            section: s-f0a7a3030f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-f64c384b2f
+            part: title
+          zh:
+            page: zh
+            section: s-72df7bd90f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Size_at_maturity_min_mm
+          - Size_at_maturity_max_mm
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-f64c384b2f
+            part: body
+          zh:
+            page: zh
+            section: s-72df7bd90f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-facd7d94b8
+            part: title
+          zh:
+            page: zh
+            section: s-7187f1877d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-facd7d94b8
+            part: body
+          zh:
+            page: zh
+            section: s-7187f1877d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-24f10b821e
+            part: title
+          zh:
+            page: zh
+            section: s-09166b500e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-24f10b821e
+            part: body
+          zh:
+            page: zh
+            section: s-09166b500e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-054d1d7c01087257f647892acff2ba8a
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-ac4066cdacec52bd017f7172
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-1326905bae6e97843577b287
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e212931ecd
+            part: title
+          zh:
+            page: zh
+            section: s-3039f182e3
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-e212931ecd
+            part: body
+          zh:
+            page: zh
+            section: s-3039f182e3
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f4789e57f5
+            part: title
+          zh:
+            page: zh
+            section: s-047ea9ce35
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f4789e57f5
+            part: body
+          zh:
+            page: zh
+            section: s-047ea9ce35
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-efc6fde194
+            part: title
+          zh:
+            page: zh
+            section: s-efde497f98
+            part: title
+        sourceIds:
+          - primary-pmc10647746-4rdgx
+        text:
+          en:
+            page: en
+            section: s-efc6fde194
+            part: body
+          zh:
+            page: zh
+            section: s-efde497f98
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4d8cb78b1b
+            part: title
+          zh:
+            page: zh
+            section: s-83f425aceb
+            part: title
+        sourceIds:
+          - primary-pmc10647746-4rdgx
+        text:
+          en:
+            page: en
+            section: s-4d8cb78b1b
+            part: body
+          zh:
+            page: zh
+            section: s-83f425aceb
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fb7dacffcb
+            part: title
+          zh:
+            page: zh
+            section: s-37f9b81ac1
+            part: title
+        sourceIds:
+          - primary-pmc10647746-4rdgx
+        text:
+          en:
+            page: en
+            section: s-fb7dacffcb
+            part: body
+          zh:
+            page: zh
+            section: s-37f9b81ac1
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cef45e8c72
+            part: title
+          zh:
+            page: zh
+            section: s-75c520ac4a
+            part: title
+        sourceIds:
+          - primary-pmc10647746-4rdgx
+        text:
+          en:
+            page: en
+            section: s-cef45e8c72
+            part: body
+          zh:
+            page: zh
+            section: s-75c520ac4a
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-819253aa39
+            part: title
+          zh:
+            page: zh
+            section: s-9addf2bdc4
+            part: title
+        sourceIds:
+          - primary-pmc10647746-4rdgx
+        text:
+          en:
+            page: en
+            section: s-819253aa39
+            part: body
+          zh:
+            page: zh
+            section: s-9addf2bdc4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rana amurensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/4RDGX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4998; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5001 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4732; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5152, 5153; Reference.csv rows 3982
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10647746-4rdgx
+        referenceId: ref-aec259ed-2dc3-4cb1-a638-c1806426f314
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rana amurensis: XML Methods2.1–2.4, Results3.1–3.2, Discussion4.1–4.2, Conclusions and Figure1–7 captions read; original NMR spectra, supplementary concentrations and cited prior heart/liver dataset not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-245042ba80
+        part: body
+      zh:
+        page: zh
+        section: s-571b8872c8
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-054d1d7c01087257f647892acff2ba8a
+      sourceRowId: Anf4998
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4998
+        bibliographyRowId: Anf5001
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Pseudorana weiningensis
+        candidateBibliographyRowIds:
+          - Anf5001
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-ac4066cdacec52bd017f7172
+        scientificName: Rana amurensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-1326905bae6e97843577b287
+        scientificName: Rana amurensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani13213349
+        referenceId: ref-aec259ed-2dc3-4cb1-a638-c1806426f314
+        sourceKey: primary-pmc10647746-4rdgx
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10647746/article.xml
+        sourceConcept: 2022 Arkhara captive Rana amurensis cohort in 2023 hypoxia study
+        evidenceRead: "Rana amurensis: XML Methods2.1–2.4, Results3.1–3.2, Discussion4.1–4.2, Conclusions and Figure1–7 captions read; original NMR spectra, supplementary concentrations and cited prior heart/liver dataset not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A cold-acclimated captive cohort, not a wild tolerance limit
+              zh: 低温驯化圈养批次而非野外耐受极限
+            referenceId: ref-aec259ed-2dc3-4cb1-a638-c1806426f314
+            sourceKey: primary-pmc10647746-4rdgx
+            locator: PMC10647746 XML Methods2.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5bfe647059
+                part: body
+              zh:
+                page: zh
+                section: s-2070655b5a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Species experienced different containers and hypoxia endpoints
+              zh: 物种经历不同容器及低氧终点
+            referenceId: ref-aec259ed-2dc3-4cb1-a638-c1806426f314
+            sourceKey: primary-pmc10647746-4rdgx
+            locator: PMC10647746 XML Methods2.1; Discussion4.1 paragraph1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f85c9b014d
+                part: body
+              zh:
+                page: zh
+                section: s-fe6bd79e83
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Tissue concentrations are not metabolic flux measurements
+              zh: 组织浓度不是代谢流量测量
+            referenceId: ref-aec259ed-2dc3-4cb1-a638-c1806426f314
+            sourceKey: primary-pmc10647746-4rdgx
+            locator: PMC10647746 XML Methods2.2–2.4; Results3.2 paragraph1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f989b35bfb
+                part: body
+              zh:
+                page: zh
+                section: s-1d458df357
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Accumulation contrasts depend on tissue and exposure
+              zh: 积累差异依赖组织及暴露
+            referenceId: ref-aec259ed-2dc3-4cb1-a638-c1806426f314
+            sourceKey: primary-pmc10647746-4rdgx
+            locator: PMC10647746 XML Results3.1–3.2; Discussion4.1 paragraphs2–4/Figures4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-793eb96bdb
+                part: body
+              zh:
+                page: zh
+                section: s-991e0363e9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: ecology
+            heading:
+              en: The pathway diagram is a mechanistic proposal
+              zh: 途径图是机制提议
+            referenceId: ref-aec259ed-2dc3-4cb1-a638-c1806426f314
+            sourceKey: primary-pmc10647746-4rdgx
+            locator: PMC10647746 XML Discussion4.2/Figure7; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-91057f05bb
+                part: body
+              zh:
+                page: zh
+                section: s-180c8e0e18
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Allobates tinae
+    name:
+      en: Allobates tinae
+      zh: Allobates tinae
+    sourceClassification:
+      order: Anura
+      family: Dendrobatoidea
+      genus: Allobates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Allobates tinae in the version 3 classification
+          zh: Allobates tinae 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4eef8aa4ff
+            part: body
+          zh:
+            page: zh
+            section: s-b0748dabcf
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 15 populated trait fields
+          zh: 2 条测量行与 15 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c1fcce8af4
+            part: body
+          zh:
+            page: zh
+            section: s-97c2dfd9b5
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 126, 127; Reference.csv rows 3469
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 126
+        values:
+          - Dendrobatoidea
+          - Allobates
+          - Allobates tinae
+          - M
+          - "15.1"
+          - "4.4"
+          - "4.9"
+          - "2.1"
+          - "0.9"
+          - "2.5"
+          - "3.2"
+          - "2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - "6.7"
+          - NA
+          - "7.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.5"
+          - NA
+          - NA
+          - NA
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.5"
+          - NA
+          - "3.5"
+          - NA
+      - rowNumber: 127
+        values:
+          - Dendrobatoidea
+          - Allobates
+          - Allobates tinae
+          - F
+          - "15.9"
+          - "4.6"
+          - "4.9"
+          - "2.1"
+          - "0.9"
+          - "2.6"
+          - "3.3"
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.7"
+          - NA
+          - "6.7"
+          - NA
+          - "8.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.5"
+          - NA
+          - NA
+          - NA
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.5"
+          - NA
+          - "3.7"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3469
+        values:
+          - Anura
+          - Allobates_tinae
+          - "Melo-Sampaio, P., Oliveira, R., & Prates, I. (2018). A new Nurse Frog from Brazil (Aromobatidae: Allobates), with data on the distribution and phenotypic variation of western Amazonian species. South American Journal of Herpetology, 13, 131-149. https://doi.org/10.2994/SAJH-D-17-00098.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - FLL
+      - FL
+      - TL
+      - Fin3L
+      - Fin3DW
+      - Toe4DW
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

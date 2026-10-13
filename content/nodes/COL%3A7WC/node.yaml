@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ceratobatrachidae
+  displayName: Ceratobatrachidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7WC
+  sourceIndexes:
+    - name:
+        en: Ceratobatrachidae
+        zh: Ceratobatrachidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7WC
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/123
+            queryName: Ceratobatrachidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 48
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d8fba833c2
+      - s-2dfbe17e74
+      - s-95923b603c
+      - s-7f7a93f392
+      - s-f566af33ac
+      - s-3c54b0dc3b
+    zh:
+      - s-96f1f99a8a
+      - s-a8bec2b067
+      - s-b8d274cc8f
+      - s-28b4ad1e8e
+      - s-40aa092434
+      - s-14f4a9aa91

@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Diasporus sapo
+    name:
+      en: Diasporus sapo
+      zh: Diasporus sapo
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Diasporus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Diasporus sapo in the version 3 classification
+          zh: Diasporus sapo 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5a99f83742
+            part: body
+          zh:
+            page: zh
+            section: s-a071b5e817
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 5 populated trait fields
+          zh: 1 条测量行与 5 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9517f3d433
+            part: body
+          zh:
+            page: zh
+            section: s-f501edbc85
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1566; Reference.csv rows 1795
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1566
+        values:
+          - Brachycephaloidea
+          - Diasporus
+          - Diasporus sapo
+          - NA
+          - "22.6"
+          - "8.2"
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1795
+        values:
+          - Anura
+          - Diasporus_sapo
+          - "Batista, A., Kohler, G., Mebert, K., Hertz, A., & Vesely, M. (2016). An integrative approach to reveal speciation and species richness in the genus Diasporus (Amphibia: Anura: Eleutherodactylidae) in eastern Panama. Zoological Journal of the Linnean Society, 178(2), 267-311. https://doi.org/10.1111/zoj.12411"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - HAL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

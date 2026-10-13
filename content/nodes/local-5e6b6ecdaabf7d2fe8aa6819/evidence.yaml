@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Kalophrynus interlineatus
+    name:
+      en: Kalophrynus interlineatus
+      zh: Kalophrynus interlineatus
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Kalophrynus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-26b5875e7f
+            part: body
+          zh:
+            page: zh
+            section: s-df71c51078
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ea0acedf21
+            part: body
+          zh:
+            page: zh
+            section: s-215cb9f769
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2464, 2465; Reference.csv rows 557
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2464
+        values:
+          - Microhylidae
+          - Kalophrynus
+          - Kalophrynus interlineatus
+          - M
+          - "41.96666667"
+          - "11.3"
+          - "14.63333333"
+          - "4.066666667"
+          - "3"
+          - NA
+          - "7.733333333"
+          - "3.333333333"
+          - "3.3"
+          - "2.966666667"
+          - "4.4"
+          - "1.433333333"
+          - "9.066666667"
+          - "9.466666667"
+          - NA
+          - "13.76666667"
+          - NA
+          - NA
+          - "15.3"
+          - "7.733333333"
+          - "48.53333333"
+          - "1.366666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2465
+        values:
+          - Microhylidae
+          - Kalophrynus
+          - Kalophrynus interlineatus
+          - F
+          - "42.8"
+          - "12.75"
+          - "13.95"
+          - "4.4"
+          - "2.7"
+          - NA
+          - "7.45"
+          - "3.2"
+          - "3.1"
+          - "3.05"
+          - "4.55"
+          - "1.5"
+          - "10.05"
+          - "9.8"
+          - NA
+          - "14.7"
+          - NA
+          - NA
+          - "16.15"
+          - "7.9"
+          - "49.85"
+          - "1.35"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 557
+        values:
+          - Anura
+          - Kalophrynus_interlineatus
+          - "Vassilieva, A. B., Galoyan, E. A., Gogoleva, S. S., & Poyarkov, N. A., Jr. (2014). Two new species of Kalophrynus Tschudi, 1838 (Anura: Microhylidae) from the Annamite mountains in southern Vietnam. Zootaxa(3796), 401-434. https://doi.org/10.11646/zootaxa.3796.3.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6NK4V
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

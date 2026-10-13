@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-f5920a3cc1}
+The version 3 Amphibian database lists Cophixalus zweifeli in a source measurement table. Its classification fields read order = Anura, family = Microhylidae, genus = Cophixalus; the linked citation is in Reference.csv row 335. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-c62fab9019}
+Anura.csv rows 1268, 1269 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1268 (F) = 45, row 1269 (M) = 37.1; HL: row 1268 (F) = 10.35, row 1269 (M) = 8.162; HW: row 1268 (F) = 15.3, row 1269 (M) = 12.614; other populated codes are ED, TD, IND, EN, FLL, THL, Fin3DW, Toe4DW. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

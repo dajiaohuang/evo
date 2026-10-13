@@ -1,0 +1,439 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendropsophus pauiniensis (Heyer, 1977)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dendropsophus pauiniensis
+      zh: Dendropsophus pauiniensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9d5d38296d
+            part: title
+          zh:
+            page: zh
+            section: s-e3e299f6a4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9d5d38296d
+            part: body
+          zh:
+            page: zh
+            section: s-e3e299f6a4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e7307b5eb2
+            part: title
+          zh:
+            page: zh
+            section: s-cb77a8369e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e7307b5eb2
+            part: body
+          zh:
+            page: zh
+            section: s-cb77a8369e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-50304a05ec
+            part: title
+          zh:
+            page: zh
+            section: s-518f4189ba
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-50304a05ec
+            part: body
+          zh:
+            page: zh
+            section: s-518f4189ba
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-49e7966a86
+            part: title
+          zh:
+            page: zh
+            section: s-3390c041f6
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-49e7966a86
+            part: body
+          zh:
+            page: zh
+            section: s-3390c041f6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f7a0ae6de1
+            part: title
+          zh:
+            page: zh
+            section: s-cf0ec8f74b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-f7a0ae6de1
+            part: body
+          zh:
+            page: zh
+            section: s-cf0ec8f74b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-12dc002c27
+            part: title
+          zh:
+            page: zh
+            section: s-5d8c97d6db
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-12dc002c27
+            part: body
+          zh:
+            page: zh
+            section: s-5d8c97d6db
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-f75d4b4049
+            part: title
+          zh:
+            page: zh
+            section: s-3ef91669c2
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-f75d4b4049
+            part: body
+          zh:
+            page: zh
+            section: s-3ef91669c2
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b98313fcc1
+            part: title
+          zh:
+            page: zh
+            section: s-e2822d5e24
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b98313fcc1
+            part: body
+          zh:
+            page: zh
+            section: s-e2822d5e24
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-ee4bbc1877856458ab99ca35ba40b87d
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-58b685ae0f5ab6b77ce07ae2
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-dab3e2b074545cb7989a20ae
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-da9db4bfd2
+            part: title
+          zh:
+            page: zh
+            section: s-838ae12c6b
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-da9db4bfd2
+            part: body
+          zh:
+            page: zh
+            section: s-838ae12c6b
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b3c5d2b816
+            part: title
+          zh:
+            page: zh
+            section: s-4047750af4
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "4874"
+        text:
+          en:
+            page: en
+            section: s-b3c5d2b816
+            part: body
+          zh:
+            page: zh
+            section: s-4047750af4
+            part: body
+        sourceRowNumber: 4381
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendropsophus pauiniensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/34S6N
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2238; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2238 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1538; Reference.csv rows 3014
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 4381; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-36c9714b07
+        part: body
+      zh:
+        page: zh
+        section: s-80ef36ad9a
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-3b8e01d5609f69e214dca47bf11e02f6
+      sourceRowId: Anf2238
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf2238
+        bibliographyRowId: Anf2238
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Dendropsophus pauiniensis
+        candidateBibliographyRowIds:
+          - Anf2238
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-180b91840e6064aea31177c4
+        scientificName: Dendropsophus pauiniensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-13c2506b07b865efe0cdf8ff
+        scientificName: Dendropsophus pauiniensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

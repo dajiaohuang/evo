@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis perreti
+  displayName: Arthroleptis perreti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYRX
+  sourceIndexes:
+    - name:
+        en: Arthroleptis perreti
+        zh: Arthroleptis perreti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYRX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/173
+            queryName: Arthroleptis perreti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4bfe137ff1
+      - s-650b5bec40
+      - s-9e8573897d
+      - s-ff06fa2a37
+      - s-f390a94ac5
+      - s-501d7f4fb6
+      - s-9258a50c37
+      - s-9e3a2f3854
+      - s-0297ea381a
+      - s-4fac47b984
+      - s-a8671ebbc9
+      - s-d4b41c929b
+      - s-16442db812
+      - s-5962d788eb
+    zh:
+      - s-68950c4d2b
+      - s-dad6770b7f
+      - s-714f57a36c
+      - s-4c6a8ba860
+      - s-d25c172248
+      - s-2d1c33fbd8
+      - s-2622657df2
+      - s-c7b0564822
+      - s-5af8100af0
+      - s-28451d4122
+      - s-ee0511f6ab
+      - s-0271780991
+      - s-7c15efb41a
+      - s-efbbd997ba

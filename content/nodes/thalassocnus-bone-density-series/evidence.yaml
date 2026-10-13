@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-55ddb2c129
+      part: title
+    titleZh:
+      page: zh
+      section: s-26f3739d84
+      part: title
+    category: ecology
+    startAge: 8
+    endAge: 3
+    regions:
+      - Neogene Pisco Formation, Peru
+    clades:
+      - Thalassocnus
+      - Xenarthra
+      - Pilosa
+    summary:
+      page: en
+      section: s-55ddb2c129
+      part: body
+    summaryZh:
+      page: zh
+      section: s-26f3739d84
+      part: body
+    claimIds:
+      - claim:event:thalassocnus-bone-density-series
+    evidenceItems:
+      - statement: CT slices and thin sections show increasing compactness across ribs and limb bones, including named T. littoralis specimens MNHN.F.SAS 2 and MNHN.F.SAS 53.
+        relation: supports
+        claimIds:
+          - claim:event:thalassocnus-bone-density-series
+        referenceLinks:
+          - referenceId: amson-2014-thalassocnus-bone-density
+            relation: supports
+            pages: "20140192"
+            figure: Figures 1–4; Tables S3–S7
+            quoteLocator: Material and methods; Results; Discussion
+    uncertaintyItems:
+      - statement: Aquatic adaptation, hydrostatic control and marine grazing are functional interpretations; species succession is not a directly observed ancestor chain.
+        relation: contextualizes
+        claimIds:
+          - claim:event:thalassocnus-bone-density-series
+        referenceLinks:
+          - referenceId: amson-2014-thalassocnus-bone-density
+            relation: supports
+            pages: "20140192"
+            figure: Figures 1–4; Tables S3–S7
+            quoteLocator: Material and methods; Results; Discussion
+  claims:
+    - subjectId: event:thalassocnus-bone-density-series
+      claimKind: scientific
+      claimType: ecology
+      statement: CT slices and thin sections across five stratigraphically successive Thalassocnus species show increasing rib and limb-bone compactness over roughly four million years, supporting progressive aquatic adaptation; hydrostatic control and marine grazing remain functional interpretations rather than observed behaviour.
+      confidence: medium
+      confidenceRationale: Measured compactness and named specimens support the temporal pattern, but sample gaps, phylogenetic ordering and analogy with living aquatic tetrapods bound the ecological inference.
+      referenceLinks:
+        - referenceId: amson-2014-thalassocnus-bone-density
+          relation: supports
+          pages: "20140192"
+          figure: Figures 1–4; Figures S1–S2; Tables S3–S7
+          quoteLocator: Material and methods; Bone compactness results; Discussion
+  claim-rationales.zh:
+    - 实测致密度与具名标本支持时间趋势，但样本缺口、系统顺序以及与现生水生四足类的类比限制生态推断。
+  claim-statements.zh:
+    - 跨越五个地层上相继出现的 Thalassocnus 物种的 CT 切片与薄片显示，肋骨和肢骨致密度在约四百万年内增加，支持逐步水生适应；静水调节和海生植食仍是功能解释而非观察到的行为。

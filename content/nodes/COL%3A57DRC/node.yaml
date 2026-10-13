@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tomopterna delalandii
+  displayName: Tomopterna delalandii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57DRC
+  sourceIndexes:
+    - name:
+        en: Tomopterna delalandii
+        zh: Tomopterna delalandii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57DRC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/80
+            queryName: Tomopterna delalandii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/462
+            queryName: Pyxicephalus delalandii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/463
+            queryName: Bombinator delalandii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-524852a62d
+      - s-701b3aa3dd
+      - s-9e9abc5939
+      - s-5158960984
+      - s-8d7513e08d
+      - s-7ec8aefe24
+      - s-1d4cfe3620
+      - s-f771163964
+      - s-64121f6374
+      - s-60a65b9efe
+    zh:
+      - s-4880490451
+      - s-5499e13750
+      - s-e18237a1c6
+      - s-a5b13ed121
+      - s-6ee90709d2
+      - s-cf2cd009dc
+      - s-bd46c38f49
+      - s-9d281ff494
+      - s-d755748c8c
+      - s-407a81cfe7

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana glandulosa
+  displayName: Hylarana glandulosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MMT8
+  sourceIndexes:
+    - name:
+        en: Hylarana glandulosa
+        zh: Hylarana glandulosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MMT8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/415
+            queryName: Hylarana glandulosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/105
+            queryName: Rana glandulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/393
+            queryName: Pulchrana glandulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e637a3ac7
+      - s-83f0bb6e85
+      - s-627cfd7f43
+      - s-3cfcd59699
+      - s-16d5a7e7e5
+      - s-ce5fb3198a
+      - s-9c5e7bc2e5
+      - s-935ed33525
+      - s-140e2871a6
+      - s-0d6aa05ce0
+    zh:
+      - s-44408ea2db
+      - s-57d2e62ab4
+      - s-e73addd304
+      - s-0b8d49deb4
+      - s-f3b2cbb11f
+      - s-0d5388c384
+      - s-197e0767bc
+      - s-078810e24e
+      - s-74e52e6bd2
+      - s-75b88f1e4b

@@ -1,0 +1,12 @@
+## Melicoccus bijugatus {#s-e67fe6d7c0}
+The Flora of Panama describes *Melicoccus bijugatus* as a slow-growing, deciduous tree, with small white flowers and green-to-pale-yellow drupes whose translucent pulp is described as sweet and juicy. That same historical source states a northern South American native range and cultivation elsewhere in the tropics.
+
+## A fluted trunk and even-pinnate leaves {#s-fedeab3a14}
+The source calls the trees polygamous, deciduous, and slow-growing, 6–20 m tall. The trunk may reach 60 cm in diameter at breast height; it is slightly angled and fluted, with smooth gray bark and granular orange-brown inner bark. Stems are grayish and hairless. Leaves are even-pinnate and up to 26 cm long. Their 1.5–7 cm petioles are sometimes winged near the tip, while the leaf rachis may be winged or not. Each leaf has two to four nearly stalkless leaflets, elliptic to ovate-elliptic and 7–14 by 2.5–6 cm. The leaflet tip is acute to long-pointed, and the base is acute and unequal-sided.
+
+## Small flowers and translucent fruit pulp {#s-14849c8763}
+Terminal inflorescences have slender branches; their many-flowered racemes may be simple or arranged as a panicle. Slender flower stalks reach about 3.5 mm. The white flowers are 6–8 mm across. Their calyx is deeply divided into four or five lobes; the obovate petals reach 3 mm and have fine marginal hairs. The broadly spreading floral disc is hairless and weakly lobed, and flowers have eight to ten stamens. Staminate flowers have stamens up to 3.5 mm long and no pistil. In bisexual flowers, stamens are about 1.5 mm long; the ovate ovary is shorter than the petals and narrows abruptly below a head-shaped, two-lobed stigma. The green to pale-yellow drupes are globose and 2–3 cm across, with a smooth pericarp about 2 mm thick. The yellowish, translucent mesocarp is described as sweet and juicy; the globose seeds are 1.5–2 cm across.
+
+## The range and cultivation claim is source-specific {#s-f51718a9f1}
+The Flora of Panama states that the species is native to northern South America, from Colombia to the Guianas, and is introduced and widely cultivated elsewhere in the tropics. This is the historical flora's geographic summary, not a current global inventory or a list of particular introduced localities. COL26.8 usage 6QZ63 anchors the accepted name on this page; the historical WFO-linked source does not establish complete taxonomic-concept equivalence across releases.
+

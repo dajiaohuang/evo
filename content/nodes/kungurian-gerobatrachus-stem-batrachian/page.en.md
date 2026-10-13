@@ -1,0 +1,3 @@
+## One fossil, a mix of frog-like and salamander-like traits {#s-ef29da8267}
+The only known specimen of *Gerobatrachus hottoni*, holotype USNM 489135, combines frog-like and salamander-like characters. In the original character analysis, it fell on the batrachian stem: outside the crown group of frogs and salamanders, but closer to them than more distant branches. That placement rests on one specimen and a character matrix, so it is neither proof of a direct ancestor nor a global first appearance. The displayed Kungurian interval follows the current timescale; the paper reported an Early Permian Leonardian age, not a direct radiometric date on the fossil.
+

@@ -18,7 +18,7 @@ silently removed. Older EML dates are not a claim of current live data.
 Group Brazil Flora, REFLORA Program licenses the extracted data under CC BY 4.0.
 The import ledger pins the archive, candidate, decoded and compressed output
 SHA-256 hashes. Linked articles, figures and images are not included or licensed
-by inference. Original archives and reviewed candidates remain independently
+by inference. Original archives and import candidates remain independently
 retained outside the source repository.
 
 For an intentional offline import, run
@@ -46,12 +46,9 @@ habitat rows explicitly labelled `Desconhecido` were retained in source data
 and excluded as biological claims. Literal source punctuation and quotation
 marks remain unchanged. Claims retain physical row numbers and dataset-reported
 morphology citations; the archive's CC BY 4.0 declaration remains
-`aggregate-declaration-only` for dossier completeness, and cited publications
-were not assigned item-level rights without verification. All added dossiers
-remain incomplete and not externally reviewed.
+`aggregate-declaration-only` as the recorded rights scope, and cited publications
+were not assigned item-level rights without verification. These records retain the source observations and their limited scope; they do not supply full species accounts.
 
 The source and full evidence queue stay outside App and GitHub Pages preview
 payloads. App `native-core` and the Pages preview use the same curated
-`data/pages-preview.json` selection, including Primates. Rebuild with
-`npm run data:brazil-flora-dossiers:build`; verify reproducibility with
-`npm run data:brazil-flora-dossiers:check`.
+`data/pages-preview.json` selection, including Primates. The canonical dossier records now live in `content/nodes/<physical-key>/evidence.yaml`, with original source fields and references retained. `rtk npm run content:build` updates the generated dossier shards; the one-off direct shard writer has been retired.

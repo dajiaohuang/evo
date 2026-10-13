@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis lacrimae
+  displayName: Chiasmocleis lacrimae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5XR4D
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis lacrimae
+        zh: Chiasmocleis lacrimae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5XR4D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/252
+            queryName: Chiasmocleis lacrimae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dad3afee3d
+      - s-b5ed3db752
+      - s-ee192b7f8a
+      - s-e1acadf04e
+      - s-2c2922dd13
+      - s-10b2b3f7c9
+      - s-e568b734e7
+      - s-24269eaedd
+      - s-0846121907
+    zh:
+      - s-16f30924c7
+      - s-421014a643
+      - s-df794b91a6
+      - s-a9e54f9d03
+      - s-8fc156610e
+      - s-1fb44f697a
+      - s-a08fc1bfbc
+      - s-cedc7ca513
+      - s-10f0b3ed6e

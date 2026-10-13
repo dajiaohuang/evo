@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Duttaphrynus kiphirensis
+    name:
+      en: Duttaphrynus kiphirensis
+      zh: Duttaphrynus kiphirensis
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Duttaphrynus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-32490c6f9b
+            part: body
+          zh:
+            page: zh
+            section: s-2c77eba381
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-288b27bee7
+            part: body
+          zh:
+            page: zh
+            section: s-41141dc467
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1589; Reference.csv rows 2625
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1589
+        values:
+          - Bufonidae
+          - Duttaphrynus
+          - Duttaphrynus kiphirensis
+          - M
+          - "67.72"
+          - "20.57"
+          - "28.52"
+          - "8.72"
+          - "3.53"
+          - NA
+          - NA
+          - "4.84"
+          - NA
+          - "3.93"
+          - NA
+          - "2.71"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "29.87"
+          - NA
+          - NA
+          - NA
+          - "2.97"
+          - NA
+          - NA
+          - NA
+          - "26.51"
+          - NA
+          - "11.36"
+          - "11.8"
+          - "18.18"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2625
+        values:
+          - Anura
+          - Duttaphrynus_kiphirensis
+          - Das, A., Chetia, M., Dutta, S., & Sengupta, S. (2013). A new species of Duttaphrynus (Anura:Bufonidae) from Northeast India. Zootaxa, 3646, 336-348. https://doi.org/10.11646/zootaxa.3646.4.2
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - TL
+      - IMT
+      - Toe4L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6DPS6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

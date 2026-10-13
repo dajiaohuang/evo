@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bolitoglossa tatamae
+    name:
+      en: Bolitoglossa tatamae
+      zh: Bolitoglossa tatamae
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Bolitoglossa
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Bolitoglossa tatamae in the morphology deposit
+          zh: 形态数据中的 Bolitoglossa tatamae 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3b684483ec
+            part: body
+          zh:
+            page: zh
+            section: s-0a3ed749ef
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 91: measurement fields and sex codes"
+          zh: 第 91 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-aa9fc3f839
+            part: body
+          zh:
+            page: zh
+            section: s-06dd014bde
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 91; Reference.csv rows 4069
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 91
+        values:
+          - Plethodontidae
+          - Bolitoglossa
+          - Bolitoglossa tatamae
+          - F
+          - NA
+          - "71.9"
+          - NA
+          - NA
+          - "10.8"
+          - "11.4"
+          - NA
+          - "3.3"
+          - NA
+          - NA
+          - NA
+          - "4.4"
+          - "71.1"
+          - NA
+          - NA
+          - "6.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4069
+        values:
+          - Caudata
+          - Bolitoglossa_tatamae
+          - "Acosta, A. R., Hoyos, J. M., & Mendelson, J. (2006). A new species of Salamander (Caudata: Plethodontidae: Bolitoglossa) from the subandean forest western Cordillera of Colombia. Herpetologica, 62(3), 302-308. https://doi.org/10.1655/0018-0831(2006)62[302:Ansosc]2.0.Co;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - SL
+      - TL
+      - TAH
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - MDSK
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

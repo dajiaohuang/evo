@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis moa
+  displayName: Pristimantis moa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCFW4
+  sourceIndexes:
+    - name:
+        en: Pristimantis moa
+        zh: Pristimantis moa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCFW4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/415
+            queryName: Pristimantis moa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-286331a1e6
+      - s-5ef5cec866
+      - s-dd0854724f
+      - s-7eadac0056
+      - s-8cf4859c9b
+      - s-9603b63943
+      - s-c14d1e5801
+      - s-cd5d99f9e5
+      - s-4def3acd73
+      - s-392d4fed93
+      - s-b3a4dda490
+      - s-a0ac308bdc
+      - s-5051afef0d
+      - s-e57d14ed6d
+      - s-c2d47f30b6
+      - s-da8c266fa0
+      - s-0b5c94b6b9
+      - s-fb6273179e
+      - s-30f6b3a907
+      - s-57fdaeb198
+      - s-069dba30a4
+      - s-2365dc2956
+      - s-3b150998af
+      - s-1bd5a2dbc1
+      - s-18e7623a8b
+      - s-9b5d1c3c1c
+      - s-34cf83609e
+    zh:
+      - s-9ac369dd86
+      - s-939ef14b90
+      - s-cb3d3717ac
+      - s-26205c6f75
+      - s-4e05d5226f
+      - s-f31c5a648c
+      - s-3bc6cce291
+      - s-a45e01c262
+      - s-1888a3779c
+      - s-da8ad9085c
+      - s-e047fcdc51
+      - s-9be53f20d5
+      - s-c9e6374a76
+      - s-a0e884615f
+      - s-159a1f5800
+      - s-1bab8bf3cc
+      - s-6f17d4caa0
+      - s-6b7f479cfd
+      - s-e565a92f65
+      - s-9b1392fa86
+      - s-b192b31cdd
+      - s-e1965b8fdc
+      - s-607e3e9ac8
+      - s-75142add30
+      - s-b6a8bc77ae
+      - s-343eedc69c
+      - s-1b73f63b1c

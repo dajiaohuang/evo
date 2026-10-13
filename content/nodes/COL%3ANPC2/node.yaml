@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufo pageoti
+  displayName: Bufo pageoti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NPC2
+  sourceIndexes:
+    - name:
+        en: Bufo pageoti
+        zh: Bufo pageoti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NPC2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/7
+            queryName: Bufo pageoti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/300
+            queryName: Bufo burmanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/437
+            queryName: Phrynoidis burmanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/438
+            queryName: Torrentophryne burmanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/439
+            queryName: Torrentophryne pageoti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4db463230b
+      - s-23840dfcbe
+      - s-226ae8f462
+      - s-8cbc7fdd28
+      - s-d8a0d0052e
+      - s-554b5432de
+      - s-ef7f66b228
+      - s-970a14055e
+      - s-6f4f24a1a9
+    zh:
+      - s-4071e93f5f
+      - s-183f47c9a1
+      - s-63f1968171
+      - s-2e1e036430
+      - s-d53f8bc55b
+      - s-da21e2d3d8
+      - s-33ab17dd9b
+      - s-6448cf8e63
+      - s-b3fd1c909a

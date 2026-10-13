@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allophryne relicta
+  displayName: Allophryne relicta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BY87
+  sourceIndexes:
+    - name:
+        en: Allophryne relicta
+        zh: Allophryne relicta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BY87
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/184
+            queryName: Allophryne relicta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd658d84f6
+      - s-f89beabebf
+      - s-a41ee4b361
+      - s-e487d3b026
+      - s-d3cfbd649e
+      - s-225cece2f2
+    zh:
+      - s-2e93010b1d
+      - s-9d0b4f0647
+      - s-b4fbdb3465
+      - s-7a0b79fd76
+      - s-179f43d944
+      - s-e452055d03

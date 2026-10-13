@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella yunkaiensis
+  displayName: Leptobrachella yunkaiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKB8
+  sourceIndexes:
+    - name:
+        en: Leptobrachella yunkaiensis
+        zh: Leptobrachella yunkaiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKB8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/310
+            queryName: Leptobrachella yunkaiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4fb92a2f43
+      - s-d127941478
+      - s-dc18c76a08
+      - s-16b8435370
+      - s-d75543142d
+      - s-6b7be4626a
+      - s-b7c8cd54b1
+      - s-54b6f522a0
+      - s-a6066a4ba2
+    zh:
+      - s-763095842f
+      - s-0c607e6530
+      - s-998c7c4435
+      - s-259eda9ea0
+      - s-e594cb46fb
+      - s-1b3f5e229b
+      - s-6c6606ace0
+      - s-2a2e737c84
+      - s-d6636ad599

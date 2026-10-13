@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella cristinae
+  displayName: Rhinella cristinae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X5M4
+  sourceIndexes:
+    - name:
+        en: Rhinella cristinae
+        zh: Rhinella cristinae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X5M4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/313
+            queryName: Rhinella cristinae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/313
+            queryName: Bufo cristinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7fb77443e7
+      - s-5b34d5a840
+      - s-44feb74893
+      - s-229b82128e
+      - s-4f75f6dfb1
+      - s-aa8de72351
+      - s-0826132b37
+    zh:
+      - s-06e7bc40d5
+      - s-107ceca1cf
+      - s-aa2a25daf9
+      - s-4a164de96c
+      - s-889e00200f
+      - s-05f9e8a417
+      - s-66aa35829d

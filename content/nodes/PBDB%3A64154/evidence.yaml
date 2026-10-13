@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Latonia seyfriedi
+    rank: species
+    sourceTaxonId: txn:64154
+    name:
+      en: Latonia seyfriedi
+      zh: Latonia seyfriedi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-61c6967e9d
+            part: body
+          zh:
+            page: zh
+            section: s-9af5648f0a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-aebd6e3ade
+            part: body
+          zh:
+            page: zh
+            section: s-18a1caa9ee
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-4f2f160e5a
+            part: body
+          zh:
+            page: zh
+            section: s-433405ecec
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:64154; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: T. Mors, F. Hocht, and B. Wutzler. 2000. Die erst Wirbeltierfauna aus der miozanen Braunkohle der Niederrheinischen Bucht (Ville-Schichten, Tagebau Hambach) [The first vertebrate fauna from the Miocene Ville Series of the Lower Rhine Embayment (Hambach open cast mine, western Germany)]. Paläontologische Zeitschrift 74(1/2):145-170
+    occurrenceEvidence:
+      - occurrenceId: occ:419682
+        collectionId: col:40765
+        acceptedTaxonId: txn:64154
+        identifiedName: Latonia cf. seyfriedi
+        taxonomicDifference: null
+        referenceId: ref:11007
+        bibliography: B. Sanchiz. 1981. Nota sobre la herpetofauna Miocenica de los Valles de Fuentidueña (Segovia). Estudios Geologicos 1981:355-358
+        locality:
+          countryCode: ES
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.63
+        youngerAgeMa: 8.725
+      - occurrenceId: occ:419687
+        collectionId: col:40766
+        acceptedTaxonId: txn:64154
+        identifiedName: Latonia cf. seyfriedi
+        taxonomicDifference: null
+        referenceId: ref:11007
+        bibliography: B. Sanchiz. 1981. Nota sobre la herpetofauna Miocenica de los Valles de Fuentidueña (Segovia). Estudios Geologicos 1981:355-358
+        locality:
+          countryCode: ES
+          stateProvince: Segovia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.63
+        youngerAgeMa: 8.725
+      - occurrenceId: occ:419694
+        collectionId: col:40767
+        acceptedTaxonId: txn:64154
+        identifiedName: Latonia cf. seyfriedi
+        taxonomicDifference: null
+        referenceId: ref:11007
+        bibliography: B. Sanchiz. 1981. Nota sobre la herpetofauna Miocenica de los Valles de Fuentidueña (Segovia). Estudios Geologicos 1981:355-358
+        locality:
+          countryCode: ES
+          stateProvince: Segovia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.63
+        youngerAgeMa: 8.725
+      - occurrenceId: occ:472481
+        collectionId: col:46955
+        acceptedTaxonId: txn:64154
+        taxonomicDifference: null
+        referenceId: ref:12472
+        bibliography: T. Mors, F. Hocht, and B. Wutzler. 2000. Die erst Wirbeltierfauna aus der miozanen Braunkohle der Niederrheinischen Bucht (Ville-Schichten, Tagebau Hambach) [The first vertebrate fauna from the Miocene Ville Series of the Lower Rhine Embayment (Hambach open cast mine, western Germany)]. Paläontologische Zeitschrift 74(1/2):145-170
+        locality:
+          countryCode: DE
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Ville
+          member: Frimmersdorf
+        olderAgeMa: 15.98
+        youngerAgeMa: 13.82
+      - occurrenceId: occ:1468552
+        collectionId: col:42594
+        acceptedTaxonId: txn:64154
+        taxonomicDifference: null
+        referenceId: ref:70397
+        bibliography: M. Mlynarski. 1984. Notes on the amphibian and reptilian fauna of the Polish Miocene. Acta Zoologica Cracoviensia 27(8):127-148
+        locality:
+          countryCode: PL
+          stateProvince: Silesia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 15.98
+        youngerAgeMa: 11.63
+      - occurrenceId: occ:1468558
+        collectionId: col:42596
+        acceptedTaxonId: txn:64154
+        taxonomicDifference: null
+        referenceId: ref:70397
+        bibliography: M. Mlynarski. 1984. Notes on the amphibian and reptilian fauna of the Polish Miocene. Acta Zoologica Cracoviensia 27(8):127-148
+        locality:
+          countryCode: PL
+          stateProvince: Silesia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 15.98
+        youngerAgeMa: 11.63
+      - occurrenceId: occ:1612671
+        collectionId: col:228010
+        acceptedTaxonId: txn:64154
+        taxonomicDifference: null
+        referenceId: ref:83119
+        bibliography: "E. Syromyatnikova, S. Mayda, and A. Tesakov. 2022. Late Miocene amphibians and reptiles: new insight into the pre-Messinian herpetofaunas in Turkey. Historical Biology 34(10):1964-1971"
+        locality:
+          countryCode: TR
+          stateProvince: Anatolia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.63
+        youngerAgeMa: 8.725
+      - occurrenceId: occ:1627945
+        collectionId: col:48446
+        acceptedTaxonId: txn:64154
+        identifiedName: Latonia cf. seyfriedi
+        taxonomicDifference: null
+        referenceId: ref:85134
+        bibliography: V. A. Codrea, M. Bordeianu, and M. Venczel. 2022. Amphibians and squamate reptiles from the late Miocene of Fălciu (Eastern Romania). Palaeontologica Electronica 25(2):a19
+        locality:
+          countryCode: UA
+          stateProvince: Khmel'nitsk'yi
+          county: Shepetivka
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.63
+        youngerAgeMa: 8.725
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-4f2f160e5a
+            part: body
+          zh:
+            page: zh
+            section: s-433405ecec
+            part: body
+        sourceIds: []

@@ -1,0 +1,185 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trionyx capellinii
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Trionyx capellinii
+      en: Trionyx capellinii
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ef7d17edbc
+            part: body
+          en:
+            page: en
+            section: s-98a6e566dd
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-941c71d221
+            part: body
+          en:
+            page: en
+            section: s-3469a92964
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b314fda7ce
+            part: body
+          en:
+            page: en
+            section: s-859e8cfe34
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-90afc63f88
+            part: body
+          en:
+            page: en
+            section: s-d0bc015f3f
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b37458e344
+            part: body
+          en:
+            page: en
+            section: s-9574958b54
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Trionyx capellinii
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=360681&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:360681; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:360681
+          selectedOccurrenceIds:
+            - occ:1380102
+            - occ:1380109
+            - occ:1380116
+            - occ:1388823
+            - occ:1388824
+            - occ:1388825
+            - occ:1388826
+          selectedCollectionIds:
+            - col:144537
+            - col:84793
+          sourceReferenceIds:
+            - ref:62147
+            - ref:64252
+            - ref:64253
+            - ref:64254
+          originalIdentificationMappings:
+            - occurrenceId: occ:1380102
+              originalIdentifiedName: Trionyx capellinii n. sp.
+              acceptedName: Trionyx capellinii
+              difference: null
+            - occurrenceId: occ:1380109
+              originalIdentifiedName: Trionyx affinis n. sp.
+              acceptedName: Trionyx capellinii
+              difference: null
+            - occurrenceId: occ:1388823
+              originalIdentifiedName: Trionyx gemmellaroi n. sp.
+              acceptedName: Trionyx capellinii
+              difference: null
+            - occurrenceId: occ:1388824
+              originalIdentifiedName: Trionyx intermedius n. sp.
+              acceptedName: Trionyx capellinii
+              difference: null
+            - occurrenceId: occ:1388825
+              originalIdentifiedName: Trionyx insolitus n. sp.
+              acceptedName: Trionyx capellinii
+              difference: null
+            - occurrenceId: occ:1388826
+              originalIdentifiedName: Trionyx schaurothianus n. sp.
+              acceptedName: Trionyx capellinii
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ed0133e68c
+        part: body
+      en:
+        page: en
+        section: s-b4e5b77a33
+        part: body

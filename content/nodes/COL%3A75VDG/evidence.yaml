@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pauridia affinis (Schult. & Schult.f.) Snijman & Kocyan
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 75VDG, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 75VDG; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/75VDG
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 75VDG
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001336321-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 75VDG / WFO wfo-0001336321
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13877_0
+        referenceId: ref-57048583-5353-8f0b-a70d-aae9850c37fa
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pauridia affinis (Schult. & Schult.f.) Snijman & Kocyan account; SANBI/WFO archive rows 7539 (Morphology), 28969 (Habitat), source identifier 13877.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_15172_0
+        referenceId: ref-e97a6c82-af79-875a-a072-ef81915016f7
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pauridia affinis (Schult. & Schult.f.) Snijman & Kocyan account; SANBI/WFO archive rows 58378 (Diagnostic), source identifier 15172.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 6-9 cm, corm fibres rigid, dark brown. Leaves 2-7, suberect, firm, hemiterete to U-shaped in t/s, smooth or with a few recurved teeth. Flowers 1 or 2, stellate, deep yellow, with green or reddish reverse, bracts 1 or 2, leathery, spreading, with a recurved tip.
+            textZh: Pauridia affinis (Schult. & Schult.f.) Snijman & Kocyan 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13877_0
+            locator: "SANBI/WFO archive Morphology row 7539; source identifier 13877.0; cited publication: Snijman, DA. 2012. Hypoxidaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 115 - 119. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The most important distinguishing features of Pauridia affinis are the corm tunics which consist of rigid, unbranched, dark brown fibres that are firmly attached to a hard, smooth, slightly convex disc below. In addition, the membranous, almost truncate cataphylls contrast markedly with the firm, terete to hemiterete leaves, which when cut develop a thick, dark scar. The scape, pedicels and backs of the outer tepals are characteristically reddened and when ripe the walls of the capsule break away longitudinally. Like many other species in the genus the corm produces contractile roots, but P. affinis is somewhat unusual in also developing droppers that apparently optimize the position of the corms in the soil. Pauridia affinis has sometimes been confused with P. monticola, a species found on sandstone rock sheets and slopes along the mountain chain between the Bokkeveld Mountains near Nieuwoudtville in the north and near Worcester in the south. Subtle differences, however, separate the two species. Unlike the 1.5-2.0(-3.0) mm wide, terete to hemiterete leaves of P. affinis, those of P. monticola are often broader, 1.5-6.0(-13) mm wide, dorsiventrally flattened and somewhat canaliculate. Apart from occasional plants with two-flowered infloresences in areas near Mamre, Wellington and Theewaterskloof Dam, near Villiersdorp, P. affinis has a predominantly 1-flowered inflorescence and somewhat elongated capsule (10-12 mm long), unlike the consistently 2-flowered inflorescence and shorter capsules (5-10 mm long) in P. monticola. Confusion between the two species may sometimes arise with collections from the Bokkeveld Mountains, Matsikamma, Gifberg and Elandskloof Mountains near Citrusdal where plants of P. monticola often have inrolled leaves, which superficially appear to be terete like those of P. affinis, but these plants are, nevertheless, distinguishable by consistent differences in capsule size.
+            textZh: SANBI 条目提供了 Pauridia affinis (Schult. & Schult.f.) Snijman & Kocyan 的鉴别特征。
+            sourceIds:
+              - sanbi_15172_0
+            locator: "SANBI/WFO archive Diagnostic row 58378; source identifier 15172.0; cited publication: Snijman, DA. 2014. A taxonomic revision of the genus Pauridia (Hypoxidaceae) in southern Africa. Phytotaxa 182(1): 1 - 114. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Marshy flats.
+            textZh: 该 SANBI 区域物种条目记录的生境：Marshy flats.
+            sourceIds:
+              - sanbi_13877_0
+            locator: "SANBI/WFO archive Habitat row 28969; source identifier 13877.0; cited publication: Snijman, DA. 2012. Hypoxidaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 115 - 119. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

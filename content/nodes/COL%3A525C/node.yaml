@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus
+  displayName: Hyloscirtus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/525C
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus
+        zh: Hyloscirtus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 525C
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/446
+            queryName: Hyloscirtus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 63
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-79df82e616
+      - s-1f81aea75b
+      - s-8b66648a9a
+      - s-4c1e801cf7
+      - s-ca0965cfac
+      - s-202fc10000
+      - s-2ab7980232
+      - s-7d7f071c68
+      - s-ce085ba4a2
+      - s-56254e71be
+      - s-e3fb03983c
+      - s-3f9271e4df
+      - s-c70824c754
+      - s-cbaa153786
+      - s-33ee743148
+      - s-8b8f13733b
+      - s-f3d7f20aa8
+      - s-353eedb403
+      - s-a348418fab
+    zh:
+      - s-e30ecd0e54
+      - s-be09bf87bd
+      - s-98f3ad1cc4
+      - s-97113c9483
+      - s-927eb6ca2b
+      - s-d044053771
+      - s-844e846c46
+      - s-06f6cb52b9
+      - s-9a2e4bed3d
+      - s-cf7d63ae20
+      - s-5b3995b733
+      - s-655c141aeb
+      - s-8bd5240235
+      - s-bc319bdea3
+      - s-9762c9e73b
+      - s-e3457f0052
+      - s-b6c9cd1bd0
+      - s-c0bb29df46
+      - s-de6f11b801

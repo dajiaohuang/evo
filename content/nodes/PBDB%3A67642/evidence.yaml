@@ -1,0 +1,164 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dortoka vasconica
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Dortoka vasconica
+      en: Dortoka vasconica
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e11f42f705
+            part: body
+          en:
+            page: en
+            section: s-bf44b55088
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c49bd95287
+            part: body
+          en:
+            page: en
+            section: s-49ddb13984
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6b45c29741
+            part: body
+          en:
+            page: en
+            section: s-da8a4b5965
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d1bee6dc44
+            part: body
+          en:
+            page: en
+            section: s-24c8b9a1af
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1bd976f144
+            part: body
+          en:
+            page: en
+            section: s-3b01c0772d
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Dortoka vasconica
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=67642&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:67642; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:67642
+          selectedOccurrenceIds:
+            - occ:372865
+            - occ:388977
+            - occ:497835
+            - occ:1614777
+          selectedCollectionIds:
+            - col:28406
+            - col:28765
+            - col:48861
+            - col:48870
+          sourceReferenceIds:
+            - ref:62218
+            - ref:9559
+            - ref:65863
+            - ref:83297
+          originalIdentificationMappings:
+            - occurrenceId: occ:372865
+              originalIdentifiedName: Dortoka vasconica n. gen. n. sp.
+              acceptedName: Dortoka vasconica
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ca878392f8
+        part: body
+      en:
+        page: en
+        section: s-aecd5e601a
+        part: body

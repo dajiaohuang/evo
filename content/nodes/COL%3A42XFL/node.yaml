@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microkayla wettsteini
+  displayName: Microkayla wettsteini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42XFL
+  sourceIndexes:
+    - name:
+        en: Microkayla wettsteini
+        zh: Microkayla wettsteini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42XFL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/69
+            queryName: Microkayla wettsteini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/275
+            queryName: Syrrhophus laplacai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/343
+            queryName: Eupsophus wettsteini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/125
+            queryName: Phrynopus wettsteini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/134
+            queryName: Phrynopus laplacai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/39
+            queryName: Psychrophrynella wettsteini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/355
+            queryName: Niceforonia laplacai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/356
+            queryName: Niceforonia wettsteini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7fe4e972ac
+      - s-bb875fd302
+      - s-516db9635a
+      - s-9db6cb50b6
+      - s-9f9491ab4b
+    zh:
+      - s-13a504f861
+      - s-ae973ba9dc
+      - s-eb04a36cd1
+      - s-abd15b03d3
+      - s-a8b91b13f1

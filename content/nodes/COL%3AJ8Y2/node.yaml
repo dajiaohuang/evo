@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus coynei
+  displayName: Atelopus coynei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8Y2
+  sourceIndexes:
+    - name:
+        en: Atelopus coynei
+        zh: Atelopus coynei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8Y2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/245
+            queryName: Atelopus coynei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-268e3aa53a
+      - s-7a1452ac87
+      - s-7c4209fbd3
+      - s-186488846c
+      - s-51ee7efbd6
+      - s-268fcd6b6f
+      - s-00fa9b2bf2
+      - s-538f9ad0c1
+      - s-958fd5289a
+      - s-0fb9eabe2b
+    zh:
+      - s-f8f21147ae
+      - s-175e344bf0
+      - s-ea8f27c8fd
+      - s-ff44a8356f
+      - s-9ae0b1ce79
+      - s-263b041078
+      - s-dea83446e7
+      - s-b3c5dd5d02
+      - s-866c8cc49a
+      - s-e4be885352

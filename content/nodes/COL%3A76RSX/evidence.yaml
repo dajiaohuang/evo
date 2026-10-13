@@ -1,0 +1,150 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Percnostola arenarum
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Percnostola arenarum
+      en: Percnostola arenarum
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-d4ccdbccd7
+            part: body
+          en:
+            page: en
+            section: s-ee4a836eac
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-06908724a7
+            part: body
+          en:
+            page: en
+            section: s-118c590d1e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-d636ad8729
+            part: body
+          en:
+            page: en
+            section: s-33e0fd0b08
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-9388ac19f8
+            part: body
+          en:
+            page: en
+            section: s-65825f4033
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-8a418c6a05
+            part: body
+          en:
+            page: en
+            section: s-133b83bdc2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Percnostola arenarum
+          url: https://www.checklistbank.org/dataset/316115/taxon/76RSX
+          locator: Pinned accepted name, rank and ancestor closure; matching names do not establish concept equivalence.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceTaxonomy
+          - externalConceptId
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET Supplementary dataset 1.xlsx; AVONET1_BirdLife; Species1=Percnostola arenarum; Sequence=4802; Metadata field definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 34480856
+          sourceFileMd5: 1445afdcfb6df784010c2ca034544bc8
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceTaxonomy: HBW–BirdLife version 5.0 (December 2020)
+          externalConceptId: AVIBASE-83E8F82F
+          scope:
+            zh: 历史同名记录的数据导读；仅使用 Inference=NO 且至少一套完整形态测量的记录。保留体重来源和繁殖/留居地理范围限定，不推断当前分类概念等同。
+            en: Historical same-name data account, using Inference=NO records with at least one complete morphological set. Mass provenance and breeding/resident geography retained; no current taxonomic concept equivalence inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+    limitations:
+      zh:
+        page: zh
+        section: s-17c09ef005
+        part: body
+      en:
+        page: en
+        section: s-df73ab3b4b
+        part: body

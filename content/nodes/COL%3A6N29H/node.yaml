@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius kibarae
+  displayName: Hyperolius kibarae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N29H
+  sourceIndexes:
+    - name:
+        en: Hyperolius kibarae
+        zh: Hyperolius kibarae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N29H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/271
+            queryName: Hyperolius kibarae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a4b970f1d3
+      - s-5bb0c05349
+      - s-e6d8f48978
+      - s-bf0fe0dae3
+      - s-64b257dfd3
+      - s-0ca05a6ed1
+    zh:
+      - s-111bcd4a1d
+      - s-e9f5fddb5f
+      - s-6532787318
+      - s-d1f9793589
+      - s-41acf51385
+      - s-83bef72cc7

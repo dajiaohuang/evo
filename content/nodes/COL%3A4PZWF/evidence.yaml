@@ -1,0 +1,117 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pteronia glaucescens DC.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4PZWF, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4PZWF; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4PZWF
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4PZWF
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000120845-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4PZWF / WFO wfo-0000120845
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9858_0
+        referenceId: ref-663ca4c9-0829-8e42-ab58-79ecc1ed1f8a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Pteronia glaucescens DC. account; archive rows 45658 (Morphology), source identifier 9858.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_16098_0
+        referenceId: ref-8087ee2c-ef43-8777-a5f4-779c0c682807
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Pteronia glaucescens DC. account; archive rows 70043 (Habitat), source identifier 16098.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: A small shrub with rather straggly elongated branchlets; branchlets with light-coloured bark, slightly pubescent when young. Leaves tufted, or when scattered alternate, linear or subspathulate-linear, obtuse at the apex, narrowed to the base, 0.5-1.5 cm long, 1-2 mm broad, fleshy, glabrous, nerveless. Heads few, solitary, terminal, subcampanulate, about 1.4 cm long, 1 cm in diam. Involucral bracts 4-seriate; the outermost linear-lanceolate, acute or subobtuse, about 2 mm long; the innermost linear, subobtuse, about 8 mm long and 1.75 mm broad, scaly membranous, shortly ciliate, otherwise glabrous. Receptacle convex, 2-5 mm in diameter, reticulate. Corolla 6 mm long; tube gradually widened upwards, slightly angular, glabrous; lobes triangular, scarcely 1 mm long. Achenes narrow, 4 mm long, shortly villous. Pappus 5 mm long, yellowish white.
+            sourceIds:
+              - sanbi_9858_0
+            locator: "SANBI/WFO archive Morphology row 45658; source 9858.0; publication: Hutchinson, J; Phillips, EP. 1917. A revision of the genus Pteronia (Compositae). Ann. S. African Mus. 9(1): 277 - 329. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dwarf Karroid Shrubland. Brakveld, along rivers and edges of vleis.
+            sourceIds:
+              - sanbi_16098_0
+            locator: "SANBI/WFO archive Habitat row 70043; source 16098.0; publication: Herman, PPJ; Retief, E; Meyer, NL. 2017. Asteraceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 249 - 413. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

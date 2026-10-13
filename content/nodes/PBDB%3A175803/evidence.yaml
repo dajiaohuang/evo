@@ -1,0 +1,73 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Meganeura
+    commonName: Giant Dragonfly
+    commonNameZh: 巨脉蜻蜓
+    rank: genus
+    taxonId: txn:175803
+    firstAppearance: 305
+    lastAppearance: 299
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:meganeura
+      claimKind: scientific
+      claimType: taxonomy
+      statement: A revision of selected Eurasian Permo-Carboniferous griffenflies places Meganeura within a specimen-based comparative framework. The revision does not sample every Meganeura occurrence and cannot by itself set the genus's exact global first and last appearances.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded taxonomy statement at the supplied locator. The confidence does not extend beyond the revision does not sample every Meganeura occurrence and cannot by itself set the genus's exact global first and last appearances.
+      referenceLinks:
+        - relation: supports
+          referenceId: nel-2009-griffenfly-revision
+          pages: 89–121
+          figure: Figures 1–14
+          quoteLocator: Redescriptions; comparative diagnoses; revised Meganeuridae systematics
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的分类表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+  claim-statements.zh:
+    - 对欧亚二叠纪—石炭纪部分巨脉蜓类的修订，把 Meganeura 置于基于标本的比较框架中。该修订并未抽样 Meganeura 的全部记录，不能单独确定该属精确的全球首末出现。
+  ranges:
+    - entityId: meganeura
+      rangeKind: global-composite
+      taxonomicConcept: Meganeura numerical range withheld pending genus-wide stratigraphic synthesis
+      geographicScope: No defensible global numerical scope established
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The redescription treats selected Meganeura material but does not establish genus-wide numerical endpoints.
+      evidenceBasis: The former 305–299 Ma display is withheld because the systematic redescription does not directly audit those values as the complete temporal range of Meganeura.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: nel-2009-meganeuridae-revision
+          locator: pp. 89–121; Abstract and systematic redescription of Meganeura monyi and selected Eurasian taxa
+      evidenceLevel: withheld-no-range-evidence
+  catalogue-profile:
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2c9f3dc21b
+            part: title
+          zh:
+            page: zh
+            section: s-9f64298c7f
+            part: title
+        sourceIds:
+          - nel-2009-griffenfly-revision
+          - nel-2009-meganeuridae-revision
+        text:
+          en:
+            page: en
+            section: s-2c9f3dc21b
+            part: body
+          zh:
+            page: zh
+            section: s-9f64298c7f
+            part: body

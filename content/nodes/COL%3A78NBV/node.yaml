@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychohyla macrotympanum
+  displayName: Ptychohyla macrotympanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78NBV
+  sourceIndexes:
+    - name:
+        en: Ptychohyla macrotympanum
+        zh: Ptychohyla macrotympanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78NBV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/13
+            queryName: Ptychohyla macrotympanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/493
+            queryName: Hyla macrotympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/408
+            queryName: Ptychohyla euthysanota macrotympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9124b125ee
+      - s-e0d827d1eb
+      - s-d7dfe79fe0
+      - s-61ff7e4ad8
+      - s-745506d20d
+      - s-d1d713fd21
+      - s-c311bb054a
+      - s-5442a7eec0
+    zh:
+      - s-16214ec4a4
+      - s-751f32a179
+      - s-4362da7bc0
+      - s-80d5e7849c
+      - s-2c57ec376c
+      - s-d19f048d54
+      - s-c358d202a4
+      - s-d753b2c819

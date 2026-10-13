@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Salamandra lanzai
+  displayName: Salamandra lanzai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6WZLG
+  sourceIndexes:
+    - name:
+        en: Salamandra lanzai
+        zh: Salamandra lanzai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6WZLG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/435
+            queryName: Salamandra lanzai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d60899054b
+      - s-5f576da9fa
+      - s-767df77978
+      - s-c13d1ce9a4
+      - s-56affc2ecb
+      - s-e382cd9119
+      - s-654ac792c6
+      - s-5c6383340c
+      - s-36bb86fe50
+      - s-8d5382c9a7
+      - s-d4a54c71d6
+    zh:
+      - s-6144b54ccc
+      - s-67cdcc4c19
+      - s-cda5f049b5
+      - s-bc5ad810a0
+      - s-8d768d2fab
+      - s-110a4e8357
+      - s-ad6af38373
+      - s-69b89eed11
+      - s-20d992c4ca
+      - s-853933d8c4
+      - s-4f5362af03

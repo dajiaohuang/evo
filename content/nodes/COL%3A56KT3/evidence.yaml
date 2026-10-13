@@ -1,0 +1,580 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Thorius minutissimus Taylor, 1949
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Thorius minutissimus
+      zh: Thorius minutissimus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a5c3b81bf7
+            part: title
+          zh:
+            page: zh
+            section: s-6d6e0aef3b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a5c3b81bf7
+            part: body
+          zh:
+            page: zh
+            section: s-6d6e0aef3b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a087b06056
+            part: title
+          zh:
+            page: zh
+            section: s-6e941d2abb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a087b06056
+            part: body
+          zh:
+            page: zh
+            section: s-6e941d2abb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-3a5ea2813c
+            part: title
+          zh:
+            page: zh
+            section: s-95a7fb9f1c
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-3a5ea2813c
+            part: body
+          zh:
+            page: zh
+            section: s-95a7fb9f1c
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-445119281a
+            part: title
+          zh:
+            page: zh
+            section: s-571a195e71
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-445119281a
+            part: body
+          zh:
+            page: zh
+            section: s-571a195e71
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-dd888b4e7e
+            part: title
+          zh:
+            page: zh
+            section: s-98e0019fc1
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-dd888b4e7e
+            part: body
+          zh:
+            page: zh
+            section: s-98e0019fc1
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-c7637e6cf9
+            part: title
+          zh:
+            page: zh
+            section: s-ae7770d77c
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-c7637e6cf9
+            part: body
+          zh:
+            page: zh
+            section: s-ae7770d77c
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e8e0691da9
+            part: title
+          zh:
+            page: zh
+            section: s-d07d1cb4ab
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e8e0691da9
+            part: body
+          zh:
+            page: zh
+            section: s-d07d1cb4ab
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-e00a42bd72d5537bd508bdc191edd4e9
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-68ec24cfaa
+            part: title
+          zh:
+            page: zh
+            section: s-7f1f7316d7
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56kt3
+        text:
+          en:
+            page: en
+            section: s-68ec24cfaa
+            part: body
+          zh:
+            page: zh
+            section: s-7f1f7316d7
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-af476e1180
+            part: title
+          zh:
+            page: zh
+            section: s-23888e5853
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56kt3
+        text:
+          en:
+            page: en
+            section: s-af476e1180
+            part: body
+          zh:
+            page: zh
+            section: s-23888e5853
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d510e23a56
+            part: title
+          zh:
+            page: zh
+            section: s-cb0c1d5e75
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56kt3
+        text:
+          en:
+            page: en
+            section: s-d510e23a56
+            part: body
+          zh:
+            page: zh
+            section: s-cb0c1d5e75
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b6500fa1b2
+            part: title
+          zh:
+            page: zh
+            section: s-a8aedfb8a7
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56kt3
+        text:
+          en:
+            page: en
+            section: s-b6500fa1b2
+            part: body
+          zh:
+            page: zh
+            section: s-a8aedfb8a7
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-e5fe840f59
+            part: title
+          zh:
+            page: zh
+            section: s-c3a9ae32a9
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56kt3
+        text:
+          en:
+            page: en
+            section: s-e5fe840f59
+            part: body
+          zh:
+            page: zh
+            section: s-c3a9ae32a9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Thorius minutissimus
+          url: https://www.checklistbank.org/dataset/316115/taxon/56KT3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 208475, row 277477; Distribution.tsv rows 69604; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6340; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6335 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc5119241-56kt3
+        referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Thorius minutissimus: Named species redescription material, diagnosis and variation, colour, osteology, ecology, historical-name and conservation paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0cce62d9bd
+        part: body
+      zh:
+        page: zh
+        section: s-b453cffe18
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "208475"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=208475
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 277477
+        key: "208475"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "208475"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 69604
+            key: 208475|Middle America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-e00a42bd72d5537bd508bdc191edd4e9
+      sourceRowId: Anf6340
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6340
+        bibliographyRowId: Anf6335
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Thorius omiltemi
+        candidateBibliographyRowIds:
+          - Anf6335
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.2694
+        referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+        sourceKey: primary-pmc5119241-56kt3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5119241/article.xml
+        sourceConcept: Thorius minutissimus
+        evidenceRead: "Thorius minutissimus: Named species redescription material, diagnosis and variation, colour, osteology, ecology, historical-name and conservation paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A small female sample and posterior-vent standard length
+              zh: 小型雌性样本及后角标准长
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56kt3
+            locator: Redescriptions > Thorius minutissimus; reading-sections index 3, paragraphs 1–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fd27ea2e64
+                part: body
+              zh:
+                page: zh
+                section: s-1e7aeb1744
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Life and preservative colours from two named females
+              zh: 两只命名雌性的活体及保存颜色
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56kt3
+            locator: Redescriptions > Thorius minutissimus; reading-sections index 3, paragraphs 6–7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-667d2ea316
+                part: body
+              zh:
+                page: zh
+                section: s-e3d62544fb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Two skeleton preparations and specimen-level tooth differences
+              zh: 两种骨骼制备及标本层面齿差异
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56kt3
+            locator: Redescriptions > Thorius minutissimus; reading-sections index 3, paragraphs 8–12
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6044458dd5
+                part: body
+              zh:
+                page: zh
+                section: s-ea03f2b8ee
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Two evening road-bank captures near the type locality
+              zh: 模式地点附近两次傍晚路岸捕获
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56kt3
+            locator: Redescriptions > Thorius minutissimus; reading-sections index 3, paragraphs 2 and 13
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-72ff58d79b
+                part: body
+              zh:
+                page: zh
+                section: s-f3fa17bfe6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: A name historically applied to several other species
+              zh: 历史上曾用于其他数种的名称
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56kt3
+            locator: Redescriptions > Thorius minutissimus; reading-sections index 3, paragraphs 14–17
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-01b14d313d
+                part: body
+              zh:
+                page: zh
+                section: s-e31e42afae
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius torrentis
+  displayName: Hyperolius torrentis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQZZ
+  sourceIndexes:
+    - name:
+        en: Hyperolius torrentis
+        zh: Hyperolius torrentis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/347
+            queryName: Hyperolius torrentis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e2b7568e4
+      - s-4a1a23c61b
+      - s-c557bf4f4c
+      - s-66e309b0cb
+      - s-cee6cee3fb
+      - s-7179360b7c
+      - s-c126e0255c
+      - s-49135f59f7
+      - s-73544cf525
+      - s-8e823c4d7f
+    zh:
+      - s-b97c729eea
+      - s-a180b29d4a
+      - s-57a0c8fab6
+      - s-367ee3b472
+      - s-97a3d7dc73
+      - s-1756631dc8
+      - s-168f3b2c45
+      - s-48383e74e8
+      - s-e9c8a1744d
+      - s-275af01bd8

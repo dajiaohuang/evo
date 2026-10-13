@@ -1,0 +1,12 @@
+## Which source name is assigned to this tadpole record? {#s-10f87378f6}
+This record shows how TadpoleTraits files tadpoles under Spea intermontana. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Spea intermontana in Spea and Scaphiopodidae. In the literature table, rows 5197, 5198, 5199 list source Species Scaphiopus intermontanus → Species (ASTW) Spea intermontana. In the image-measurement table, rows 1762, 1763 list Spea intermontana in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-925f375c8e}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 3 literature rows and 2 image-measurement rows for this source record. Literature Stage values are 37 (row 5197); 37, 38 (row 5198); 38 (row 5199). Sample size is entered by row (row 5197: n=10; row 5198: n=15; row 5199: n=5). Image-table Stage values are 34 (row 1762); 35 (row 1763); Type labels are Measurement and image types are Black-and-white image, Color image. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-b5b558f486}
+The image-derived records support these source proportions: body length / total length = 0.372652 (image row 1762, stage 34, Black-and-white image); tail length / total length = 0.631717 (image row 1762, stage 34, Black-and-white image); maximum body height / total length = 0.186652 (image row 1762, stage 34, Black-and-white image); maximum tail height / total length = 0.189891 (image row 1762, stage 34, Black-and-white image); body length / total length = 0.391161 (image row 1763, stage 35, Color image). Each value describes only its cited image row; it is not a species-wide estimate.
+
+## Where do the supplied ratios disagree? {#s-3a4ded0e8e}
+The source ratio cells in image rows 1762, 1763 contain 8 discrepancies from the quotient of the same-row numerator and total length, including fields TMH/TL, DFH/TL, VFH/TL, BMH/TL, MTH/TL. Their original values remain in the evidence record; no correction is substituted and these cells are not used as proportions.
+

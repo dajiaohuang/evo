@@ -1,0 +1,1065 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Allobates insperatus (Morales, 2002)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Allobates insperatus
+      zh: Allobates insperatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-384495be6d
+            part: title
+          zh:
+            page: zh
+            section: s-7101aeb06a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-384495be6d
+            part: body
+          zh:
+            page: zh
+            section: s-7101aeb06a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9fe4a61dc6
+            part: title
+          zh:
+            page: zh
+            section: s-d1f8d17273
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9fe4a61dc6
+            part: body
+          zh:
+            page: zh
+            section: s-d1f8d17273
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3ddabbc258
+            part: title
+          zh:
+            page: zh
+            section: s-0a5a2537a3
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-3ddabbc258
+            part: body
+          zh:
+            page: zh
+            section: s-0a5a2537a3
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-8778d70c15
+            part: title
+          zh:
+            page: zh
+            section: s-c8d8579537
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-8778d70c15
+            part: body
+          zh:
+            page: zh
+            section: s-c8d8579537
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-fdd53df03a
+            part: title
+          zh:
+            page: zh
+            section: s-883b1cc2d1
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-fdd53df03a
+            part: body
+          zh:
+            page: zh
+            section: s-883b1cc2d1
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-15a4b4be61
+            part: title
+          zh:
+            page: zh
+            section: s-5e6a050ca0
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-15a4b4be61
+            part: body
+          zh:
+            page: zh
+            section: s-5e6a050ca0
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-74d69443e7e821b785992b97559589f4
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-edbf4d29f41a277d33fc509a
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-9e8bdce4e2
+            part: title
+          zh:
+            page: zh
+            section: s-62194cbc9c
+            part: title
+        sourceIds:
+          - primary-pmc13024529-65x9m
+        text:
+          en:
+            page: en
+            section: s-9e8bdce4e2
+            part: body
+          zh:
+            page: zh
+            section: s-62194cbc9c
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-40036d3e23
+            part: title
+          zh:
+            page: zh
+            section: s-e60af2946f
+            part: title
+        sourceIds:
+          - primary-pmc13024529-65x9m
+        text:
+          en:
+            page: en
+            section: s-40036d3e23
+            part: body
+          zh:
+            page: zh
+            section: s-e60af2946f
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b9bc24aa7c
+            part: title
+          zh:
+            page: zh
+            section: s-f666780294
+            part: title
+        sourceIds:
+          - primary-pmc13024529-65x9m
+        text:
+          en:
+            page: en
+            section: s-b9bc24aa7c
+            part: body
+          zh:
+            page: zh
+            section: s-f666780294
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7e359e2aa5
+            part: title
+          zh:
+            page: zh
+            section: s-a7e757a6fd
+            part: title
+        sourceIds:
+          - primary-pmc11677230-65x9m
+        text:
+          en:
+            page: en
+            section: s-7e359e2aa5
+            part: body
+          zh:
+            page: zh
+            section: s-a7e757a6fd
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-bfc0c337c5
+            part: title
+          zh:
+            page: zh
+            section: s-e9fdf146f6
+            part: title
+        sourceIds:
+          - primary-pmc11677230-65x9m
+        text:
+          en:
+            page: en
+            section: s-bfc0c337c5
+            part: body
+          zh:
+            page: zh
+            section: s-e9fdf146f6
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-a1683be1b1
+            part: title
+          zh:
+            page: zh
+            section: s-878f241e24
+            part: title
+        sourceIds:
+          - primary-pmc11677230-65x9m
+        text:
+          en:
+            page: en
+            section: s-a1683be1b1
+            part: body
+          zh:
+            page: zh
+            section: s-878f241e24
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-69510e604f
+            part: title
+          zh:
+            page: zh
+            section: s-1df11e23de
+            part: title
+        sourceIds:
+          - primary-pmc11677230-65x9m
+        text:
+          en:
+            page: en
+            section: s-69510e604f
+            part: body
+          zh:
+            page: zh
+            section: s-1df11e23de
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2139bbcfdc
+            part: title
+          zh:
+            page: zh
+            section: s-2abe9ca26b
+            part: title
+        sourceIds:
+          - primary-pmc8819055-65x9m
+        text:
+          en:
+            page: en
+            section: s-2139bbcfdc
+            part: body
+          zh:
+            page: zh
+            section: s-2abe9ca26b
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1416b20c4b
+            part: title
+          zh:
+            page: zh
+            section: s-126e16ee72
+            part: title
+        sourceIds:
+          - primary-pmc8819055-65x9m
+        text:
+          en:
+            page: en
+            section: s-1416b20c4b
+            part: body
+          zh:
+            page: zh
+            section: s-126e16ee72
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-eccd6128e2
+            part: title
+          zh:
+            page: zh
+            section: s-ab5fbe43ef
+            part: title
+        sourceIds:
+          - primary-pmc8819055-65x9m
+        text:
+          en:
+            page: en
+            section: s-eccd6128e2
+            part: body
+          zh:
+            page: zh
+            section: s-ab5fbe43ef
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-911501504b
+            part: title
+          zh:
+            page: zh
+            section: s-3e80342741
+            part: title
+        sourceIds:
+          - primary-pmc8819055-65x9m
+        text:
+          en:
+            page: en
+            section: s-911501504b
+            part: body
+          zh:
+            page: zh
+            section: s-3e80342741
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-7ff8d35b5f
+            part: title
+          zh:
+            page: zh
+            section: s-a74d2e15ff
+            part: title
+        sourceIds:
+          - primary-pmc7648453-65x9m
+        text:
+          en:
+            page: en
+            section: s-7ff8d35b5f
+            part: body
+          zh:
+            page: zh
+            section: s-a74d2e15ff
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0fffb1c7dc
+            part: title
+          zh:
+            page: zh
+            section: s-3f8f8a6d5a
+            part: title
+        sourceIds:
+          - primary-pmc7648453-65x9m
+        text:
+          en:
+            page: en
+            section: s-0fffb1c7dc
+            part: body
+          zh:
+            page: zh
+            section: s-3f8f8a6d5a
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-fffc635448
+            part: title
+          zh:
+            page: zh
+            section: s-f9a8ca2cd1
+            part: title
+        sourceIds:
+          - primary-pmc7648453-65x9m
+        text:
+          en:
+            page: en
+            section: s-fffc635448
+            part: body
+          zh:
+            page: zh
+            section: s-f9a8ca2cd1
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-0867935215
+            part: title
+          zh:
+            page: zh
+            section: s-1bef5c8810
+            part: title
+        sourceIds:
+          - primary-pmc7648453-65x9m
+        text:
+          en:
+            page: en
+            section: s-0867935215
+            part: body
+          zh:
+            page: zh
+            section: s-1bef5c8810
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Allobates insperatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/65X9M
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0033; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0033 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3552; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc13024529-65x9m
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Allobates insperatus: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc11677230-65x9m
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Allobates insperatus: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc8819055-65x9m
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Allobates insperatus: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc7648453-65x9m
+        referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Allobates insperatus: Recorded main sections/allfive main tables/captions andAppendixI read;all78 donor-sheet rows and13 type-series measurement rows read preserving celltypes/addresses;allfive depositedFASTAstrings inventoried, noalignment/orientation/distance recomputation;originalGenBank/audio/vouchers/figurepixels unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-364d58a190
+        part: body
+      zh:
+        page: zh
+        section: s-e550860061
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-74d69443e7e821b785992b97559589f4
+      sourceRowId: Anf0033
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0033
+        bibliographyRowId: Anf0033
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Allobates insperatus
+        candidateBibliographyRowIds:
+          - Anf0033
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.3390/biology15060451
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        sourceKey: primary-pmc13024529-65x9m
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13024529/article.xml
+        sourceConcept: 2013–2018 source-labelled Allobates insperatus nominal row in2026paper; Pristimantis identification contradiction retained where relevant, not certified vouchers/concepts
+        evidenceRead: "Allobates insperatus: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Historical local survey records are distinct from a current provincial census
+              zh: 历史地方调查记录区别于当前全省普查
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-65x9m
+            locator: PMC13024529 XML Table2 bodyrow5 Allobates insperatus; Methods2.1–2.3; Results opening
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8a8430af10
+                part: body
+              zh:
+                page: zh
+                section: s-575522e5e2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A source-assigned risk category retains its assessment limits
+              zh: 来源分配风险类别保留评估限制
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-65x9m
+            locator: PMC13024529 XML Table2 bodyrow5 LC/Total columns; Methods2.5; Results3.4; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d447c5140d
+                part: body
+              zh:
+                page: zh
+                section: s-f81530fe7d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Coverage and community turnover do not prove a species trend
+              zh: 覆盖及群落更替不证明物种趋势
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-65x9m
+            locator: PMC13024529 XML Methods2.2/2.4.1/2.4.3/2.4.5; Table1; Results3.1/3.3; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3a024d0079
+                part: body
+              zh:
+                page: zh
+                section: s-f0edc38737
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7554/eLife.100011
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        sourceKey: primary-pmc11677230-65x9m
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11677230/article.xml
+        sourceConcept: Exactfixed source name Allobates insperatus; 8 sampledanimals/GC-MS, no originalvoucher/currentconcept authentication
+        evidenceRead: "Allobates insperatus: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Original bilingual factual synthesis of sampled skin chemistry and explicitly labelled mechanistic hypotheses; no figures or raw datasets reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Skin alkaloid measurements retain individuals and assay scope
+              zh: 皮肤生物碱测量保留个体及检测范围
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-65x9m
+            locator: PMC11677230 XML table1 row3 exactAllobates insperatus; tablecaption/footnote; s1-1 definitions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8d5c91e396
+                part: body
+              zh:
+                page: zh
+                section: s-4bb3bb2a6f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Collection and chemical interpretation limits
+              zh: 取样与化学解读限制
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-65x9m
+            locator: PMC11677230 XML s3-1 collection; s3-2 assay; s3-4 analyses; s2-6 limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5b839812b1
+                part: body
+              zh:
+                page: zh
+                section: s-b58374e4f6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Passive accumulation remains a mechanistic hypothesis
+              zh: 被动积累仍是机制假说
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-65x9m
+            locator: PMC11677230 XML s1-3 passive-accumulation definition/model; s2-3-2 elimination prediction; s2-3-3 transport/storage prediction; s2-7 conclusion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4d0c18b470
+                part: body
+              zh:
+                page: zh
+                section: s-9ee205691b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Species-specific detections and their evidence limits
+              zh: 物种特定检出及证据限制
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-65x9m
+            locator: PMC11677230 XML s2-2-1 namedAllobates insperatus discussion; table1 row3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b3bdb3c196
+                part: body
+              zh:
+                page: zh
+                section: s-3c67463ea5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1111/joa.13569
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        sourceKey: primary-pmc8819055-65x9m
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8819055/article.xml
+        sourceConcept: Source Allobates insperatus; preserved-specimen observation; exact name or explicit nomenclatural link only
+        evidenceRead: "Allobates insperatus: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Original bilingual factual descriptions of specimen-based histology and explicitly identified literature-derived outgroups; no source prose, tables or figures reproduced or adapted.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Hand glands in the examined adult-male evidence
+              zh: 所检查成体雄性证据中的手部腺体
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-65x9m
+            locator: PMC8819055 XML Table2 joa13569-tbl-0002 tbody row1, literalAllobates insperatus; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b5f0301afa
+                part: body
+              zh:
+                page: zh
+                section: s-ab9731b161
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Gland types describe structure rather than chemical identity
+              zh: 腺体类型描述结构而非化学身份
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-65x9m
+            locator: PMC8819055 XML Table2 joa13569-tbl-0002 tbody row1, literalAllobates insperatus; Results sec0011–0015; XML Table3 andsec0012–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-db952d816d
+                part: body
+              zh:
+                page: zh
+                section: s-d32b869c25
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Preserved material, finger numbering and staining
+              zh: 保存材料、指序和染色方法
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-65x9m
+            locator: PMC8819055 XML sec0003–0006; PMC8819055 XML Table2 joa13569-tbl-0002 tbody row1, literalAllobates insperatus; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3a445f0a5f
+                part: body
+              zh:
+                page: zh
+                section: s-d9411bb281
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: A proposed reproductive role remains untested
+              zh: 提出的繁殖功能仍未验证
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-65x9m
+            locator: PMC8819055 XML sec0023
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5097e661f8
+                part: body
+              zh:
+                page: zh
+                section: s-f0a9cc06f8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.9979
+        referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+        sourceKey: primary-pmc7648453-65x9m
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7648453/article.xml
+        sourceConcept: Exact frozen accepted-name label in2020 comparison/table/Appendix; primary observations and reviewed comparisons explicitly distinguished; original specimens/sequence concepts not authenticated
+        evidenceRead: "Allobates insperatus: Recorded main sections/allfive main tables/captions andAppendixI read;all78 donor-sheet rows and13 type-series measurement rows read preserving celltypes/addresses;allfive depositedFASTAstrings inventoried, noalignment/orientation/distance recomputation;originalGenBank/audio/vouchers/figurepixels unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reported distance to velocicantus
+              zh: 所报与 velocicantus 的距离
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-65x9m
+            locator: PMC7648453 article.xml Table2 row17 leftname/p/K2P cells andfootnote;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aef952d35e
+                part: body
+              zh:
+                page: zh
+                section: s-47d31f2bd9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Duration and spacing in cited acoustic comparisons
+              zh: 引用声学比较中的时长与间距
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-65x9m
+            locator: PMC7648453 article.xml Taxonomy paragraph23;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aa95462518
+                part: body
+              zh:
+                page: zh
+                section: s-c31e8089b4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Reported donor codes and available loci
+              zh: 所报供体编号及可得位点
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-65x9m
+            locator: PMC7648453 peerj-08-9979-s001.xls sheet Table 1 rows29 columnsA:B/D:N;sha256:00c7e0125ff16560c661220cde9f0090003457040cbfa184e0a7c66d391c94d1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-71c81780a3
+                part: body
+              zh:
+                page: zh
+                section: s-15413f339c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: occurrence
+            heading:
+              en: Source locality strings remain donor-specific
+              zh: 来源地点字符串保持供体特定
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-65x9m
+            locator: PMC7648453 peerj-08-9979-s001.xls same rows columnsA:C;sha256:00c7e0125ff16560c661220cde9f0090003457040cbfa184e0a7c66d391c94d1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4489a539a6
+                part: body
+              zh:
+                page: zh
+                section: s-a4be80fb14
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

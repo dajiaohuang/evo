@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates onca
+  displayName: Lithobates onca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQL
+  sourceIndexes:
+    - name:
+        en: Lithobates onca
+        zh: Lithobates onca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/186
+            queryName: Lithobates onca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/220
+            queryName: Rana onca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/325
+            queryName: Rana draytoni onca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/326
+            queryName: Rana pipiens onca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/327
+            queryName: Rana onca onca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-56d061ef74
+      - s-15a0ba85d2
+      - s-3123204c03
+      - s-7616d5ae54
+      - s-56ea5dc624
+      - s-1fb5c5dffe
+      - s-5e7853a55a
+      - s-c2fc358da4
+      - s-669b3dc4ef
+      - s-eee255599d
+      - s-e39b15c111
+    zh:
+      - s-5857b0c2e3
+      - s-2902d34677
+      - s-26f29e7d22
+      - s-636bbbcc2d
+      - s-7d9b72123c
+      - s-f5a3ff8287
+      - s-7c3d119529
+      - s-ee253a7b31
+      - s-20e234eb8c
+      - s-5e7dbd3004
+      - s-a0aab95524

@@ -1,0 +1,172 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paragalago orinus (Lawrence & Washburn, 1936)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 山地矮伽拉戈
+      en: Mountain Dwarf Galago
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-dd73f11cbc
+            part: body
+          en:
+            page: en
+            section: s-f067dfbb75
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - rovero2009
+          - mufindi_survey
+          - uluguru2000
+          - miller2025
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-2e2cd94815
+            part: body
+          en:
+            page: en
+            section: s-6c0387ecc6
+            part: body
+        sourceIds:
+          - mufindi_survey
+      - topic: local field record
+        text:
+          zh:
+            page: zh
+            section: s-80a8e7209c
+            part: body
+          en:
+            page: en
+            section: s-ace3d97fb1
+            part: body
+        sourceIds:
+          - uluguru2000
+      - topic: taxonomy_and_evidence
+        text:
+          zh:
+            page: zh
+            section: s-fedc00ce29
+            part: body
+          en:
+            page: en
+            section: s-fe61de0407
+            part: body
+        sourceIds:
+          - rovero2009
+          - taita2023
+      - topic: habitat projections
+        text:
+          zh:
+            page: zh
+            section: s-3a5eecf637
+            part: body
+          en:
+            page: en
+            section: s-90c188acea
+            part: body
+        sourceIds:
+          - miller2025
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4CVG3
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-1bb7e515-893a-8185-a585-a4d26446dc6e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 用于参照 MDD v2.5 的英文普通名；不替代固定 COL 身份，也不支持生态结论。
+            en: Used to reference the English common name in MDD v2.5; it does not replace the pinned COL identity or support ecological claims.
+      - id: mufindi_survey
+        referenceId: ref-54373d5e-665e-8e14-a4a8-1e725c54d8f9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持调查 effort、叫声样本和 cf. orinus 的暂定鉴定；不确定性是原报告自身明示的。
+            en: Supports survey effort, call sample and provisional cf. orinus identification; the uncertainty is explicit in the report.
+      - id: rovero2009
+        referenceId: ref-6e126cb8-e5b9-85f1-ad9e-67b7649ae449
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 汇整 Udzungwa 的灵长类研究，指出当地 *G. orinus* 形式的叫声分类问题；不是新的一手调查。
+            en: Reviews primate work in the Udzungwa Mountains and notes vocal-taxonomic questions for the local G. orinus form; it is not a new field survey.
+      - id: taita2023
+        referenceId: ref-981d107a-f5b7-88f8-aa2e-767fd6dffe1e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 研究标题和正文保留 Paragalago sp.，支持本页不将 Taita 族群直接指派为 *P. orinus*。
+            en: The study retains the identification Paragalago sp. in its title and text, supporting this page’s decision not to assign the Taita population directly to P. orinus.
+      - id: uluguru2000
+        referenceId: ref-11ea71a8-7787-82ea-ac1f-e735b1500dbf
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 汇整 2000 年森林保护区调查；支持 Mkungwe 的低海拔同域记录，不是种群或完整分布调查。
+            en: Compiles 2000 forest-reserve surveys; supports the low-elevation Mkungwe locality record, not a population or complete-range survey.
+      - id: miller2025
+        referenceId: ref-e6fd1741-bee3-8064-ab00-179fdb426265
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持以多来源出现点建立的 Maxent 气候适生度及未来情景投影；不是未来实测或种群数量模型。
+            en: Supports a Maxent climate-suitability model and future scenario projections built from mixed occurrence sources; it is not an observation of future conditions or a population-size model.
+    limitations:
+      zh:
+        page: zh
+        section: s-421bf79412
+        part: body
+      en:
+        page: en
+        section: s-13cbc4f2e5
+        part: body

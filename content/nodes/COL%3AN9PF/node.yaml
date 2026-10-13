@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Breviceps namaquensis
+  displayName: Breviceps namaquensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N9PF
+  sourceIndexes:
+    - name:
+        en: Breviceps namaquensis
+        zh: Breviceps namaquensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N9PF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/465
+            queryName: Breviceps namaquensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9763df0c7
+      - s-8728f7cb36
+      - s-94b5a5d9df
+      - s-b4157f9d7c
+      - s-3ad546122b
+      - s-7fb936b746
+      - s-11fa0a5388
+      - s-41d99cd8fc
+      - s-6442ebe7ef
+      - s-9a3b8e406b
+      - s-93ccf8c318
+    zh:
+      - s-92ed522873
+      - s-f25f67bde5
+      - s-0504329e89
+      - s-363feee1ae
+      - s-b45e683df3
+      - s-af9be5c023
+      - s-cf93144ce4
+      - s-a5b1e24c57
+      - s-046ad220fc
+      - s-1f717a6b2d
+      - s-3e6f1fcec1

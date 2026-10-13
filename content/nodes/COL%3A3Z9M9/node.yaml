@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus tumifrons
+  displayName: Melanophryniscus tumifrons
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9M9
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus tumifrons
+        zh: Melanophryniscus tumifrons
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9M9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/409
+            queryName: Melanophryniscus tumifrons
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/152
+            queryName: Atelopus tumifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/153
+            queryName: Dendrophryniscus tumifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-21387b9425
+      - s-9d86112637
+      - s-4053f6e924
+      - s-0163b2194f
+      - s-46ef6cd9ed
+      - s-af6333d7e4
+      - s-e86b77cc08
+      - s-6ee2ce8a48
+      - s-34470a9f30
+      - s-13240b0b0d
+      - s-5519a76351
+      - s-a61ece82de
+      - s-2ec837a78d
+      - s-4953736ca9
+    zh:
+      - s-32140cc394
+      - s-84cf41816d
+      - s-45625838e1
+      - s-1dfc0736b3
+      - s-804775922d
+      - s-12553f0d0e
+      - s-a14970cc75
+      - s-0cd56be776
+      - s-dbfd43c7b0
+      - s-855c72eb08
+      - s-fffb262967
+      - s-75358435b2
+      - s-547ea29d15
+      - s-f770d631b5

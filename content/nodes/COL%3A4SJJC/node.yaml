@@ -1,0 +1,26 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhodospiza obsoleta (M. H. K. Lichtenstein, 1823)
+  displayName: Rhodospiza obsoleta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4SJJC
+  sourceIndexes:
+    - scientificName: Rhodospiza obsoleta
+      sourceIdentity: COL:4SJJC
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators:
+        - path: data/sources/amniota-collection-stage-2026-10-03-historical-candidates.json.gz
+          recordIndex: 970
+          matchStatus: historical-name-candidate-not-concept-equivalence
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

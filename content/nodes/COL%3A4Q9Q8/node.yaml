@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena cooperi
+  displayName: Ptychadena cooperi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9Q8
+  sourceIndexes:
+    - name:
+        en: Ptychadena cooperi
+        zh: Ptychadena cooperi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9Q8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/464
+            queryName: Ptychadena cooperi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/24
+            queryName: Rana cooperi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1af98dd8e1
+      - s-24d40d5f33
+      - s-89c5f53e76
+      - s-51a9aa2cde
+      - s-f46a0f76f3
+      - s-7107e36c00
+      - s-ebd4158ba6
+      - s-89a37841cd
+      - s-04280ec016
+      - s-394a216972
+      - s-725743344b
+      - s-a43d2e9d29
+      - s-41e04e8271
+      - s-b6a0efc8ad
+      - s-ba49ead724
+      - s-33d96e80e2
+      - s-7a537bf48c
+    zh:
+      - s-0602420e71
+      - s-1ee5fadace
+      - s-934208d877
+      - s-1286568508
+      - s-373fe63681
+      - s-38a596ca7e
+      - s-7ce8fbc93c
+      - s-53e3aac430
+      - s-a3ea53d867
+      - s-51917797a4
+      - s-3edf3f838b
+      - s-cc1b7c1470
+      - s-fb8c56fdf7
+      - s-a927770bc8
+      - s-835ebf2c09
+      - s-70eccbc1e3
+      - s-b6af55acfe

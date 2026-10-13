@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heterixalus tricolor
+  displayName: Heterixalus tricolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3L7NT
+  sourceIndexes:
+    - name:
+        en: Heterixalus tricolor
+        zh: Heterixalus tricolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3L7NT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/291
+            queryName: Heterixalus tricolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/390
+            queryName: Megalixalus tricolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-39e3614db3
+      - s-cffc6796d6
+      - s-8a549cf9dd
+      - s-c554ce6216
+      - s-2f0147fdc1
+      - s-27e5f61181
+      - s-a5adc03074
+      - s-4dff8a676b
+      - s-3a7c56653f
+      - s-a0cfed18bc
+      - s-d68bfdc5ba
+      - s-ebd7268360
+    zh:
+      - s-6f9c59cdd8
+      - s-d61a26f6fd
+      - s-df959b4725
+      - s-3c7d48c1c8
+      - s-67af42197b
+      - s-8bb4b13395
+      - s-1ac200bd49
+      - s-d22a367b8e
+      - s-88addaf372
+      - s-2e456055b1
+      - s-c178a623b3
+      - s-aa76adb121

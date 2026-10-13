@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-eadb453a6a}
+This record shows how TadpoleTraits files tadpoles under Staurois tuberilinguis. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Staurois tuberilinguis in Staurois and Ranidae. In the literature table, rows 4763, 4764, 4765, 4766, 4767, 4768, 4769 list Staurois tuberilinguis in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-fb376c3ebe}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 7 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 25 (row 4763); 26 (row 4764); 27 (row 4765); 28 (row 4766); 31 (row 4767); 34 (row 4768); 30 (row 4769). Sample size is entered by row (row 4763: n=4; row 4764: n=2; row 4765: n=1; row 4766: n=1; row 4767: n=3; row 4768: n=1; row 4769: n=1). These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

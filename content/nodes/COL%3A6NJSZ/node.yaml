@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus bunguranus
+  displayName: Kalophrynus bunguranus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6NJSZ
+  sourceIndexes:
+    - name:
+        en: Kalophrynus bunguranus
+        zh: Kalophrynus bunguranus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6NJSZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/94
+            queryName: Kalophrynus bunguranus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/145
+            queryName: Diplopelma bunguranum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/146
+            queryName: Microhyla bungurana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb3289ebde
+      - s-b8c962b71e
+      - s-c2c7f661fe
+      - s-2a6e931fc7
+      - s-02d348b4f3
+      - s-f596fbd2ca
+      - s-e82a919489
+      - s-0d3f3e34aa
+    zh:
+      - s-55c1d6d31d
+      - s-24b256cebb
+      - s-72c27d8203
+      - s-8648c6ff4f
+      - s-ab25283145
+      - s-ad27aa1060
+      - s-7b8e6b1387
+      - s-7fa4fbed8d

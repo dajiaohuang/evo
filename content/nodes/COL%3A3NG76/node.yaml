@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes glaber
+  displayName: Hylodes glaber
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG76
+  sourceIndexes:
+    - name:
+        en: Hylodes glaber
+        zh: Hylodes glaber
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG76
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/495
+            queryName: Hylodes glaber
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/324
+            queryName: Elosia glabra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/330
+            queryName: Elosia pulchra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/252
+            queryName: Hylodes pulcher
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/253
+            queryName: Hylodes glabrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-831ec1cb03
+      - s-aaaad92d0f
+      - s-bf58a6b54e
+      - s-a3631c7399
+      - s-1f5cfbc698
+      - s-0d866d0463
+      - s-1a1bed1713
+      - s-5c77b3be53
+      - s-07384ae1a8
+      - s-ecae7b5297
+      - s-b537cfa91e
+    zh:
+      - s-e37ec8ffd5
+      - s-855f378077
+      - s-3d0e9dec5e
+      - s-05a7ad1885
+      - s-1daa668706
+      - s-da364708af
+      - s-4b9a397b7b
+      - s-3345863c1b
+      - s-14a7f8742c
+      - s-d343730820
+      - s-d482f11d34

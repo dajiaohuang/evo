@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gyrinophilus palleucus
+  displayName: Gyrinophilus palleucus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3HYSV
+  sourceIndexes:
+    - name:
+        en: Gyrinophilus palleucus
+        zh: Gyrinophilus palleucus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3HYSV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/240
+            queryName: Gyrinophilus palleucus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/41
+            queryName: Gyrinophilus palleucus necturoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/42
+            queryName: Gyrinophilus palleucus palleucus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/184
+            queryName: Pseudotriton palleucus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/382
+            queryName: Gyrinophilus porphyriticus necturoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d861ffbee6
+      - s-8b82161b66
+      - s-a8b99524b5
+      - s-bcdd380b1e
+      - s-80a2aec452
+      - s-ab4197ad8c
+      - s-bc1116adb2
+      - s-d42b8a7fce
+      - s-6d25d3170b
+    zh:
+      - s-91bc359042
+      - s-4acec8cc2d
+      - s-cda5e89381
+      - s-9a8de08cd5
+      - s-e3dad545da
+      - s-4ce12b40a1
+      - s-6d72c3b461
+      - s-26b9e2db25
+      - s-709e6f55ce

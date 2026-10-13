@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelognathus patagonicus
+  displayName: Atelognathus patagonicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/67VL4
+  sourceIndexes:
+    - name:
+        en: Atelognathus patagonicus
+        zh: Atelognathus patagonicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 67VL4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/222
+            queryName: Atelognathus patagonicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/364
+            queryName: Telmatobius patagonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/122
+            queryName: Batrachophrynus patagonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-321b58e20d
+      - s-bf6e48907c
+      - s-85e8d87c99
+      - s-b54528e159
+      - s-d753c6fd84
+      - s-46312195e6
+      - s-2dac335171
+      - s-43eaabe7fc
+      - s-d4529ceb23
+      - s-0abff53c65
+      - s-9060d8f87b
+      - s-d8f1944550
+      - s-523f8d45d7
+    zh:
+      - s-535fcfba2e
+      - s-38b958ca60
+      - s-cd1b6c62ef
+      - s-d353650013
+      - s-a9e6bcef12
+      - s-55f1509792
+      - s-3538f25102
+      - s-7d736f078c
+      - s-828fd0f710
+      - s-0d61d90e11
+      - s-bdf7051216
+      - s-cc010fd556
+      - s-afa68cf4d6

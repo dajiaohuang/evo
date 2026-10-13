@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophylax perezi
+  displayName: Pelophylax perezi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CHM
+  sourceIndexes:
+    - name:
+        en: Pelophylax perezi
+        zh: Pelophylax perezi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CHM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/479
+            queryName: Pelophylax perezi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 135
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/107
+            queryName: Rana grafi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/175
+            queryName: Rana perezi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 151
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/277
+            queryName: Hylarana perezi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/154
+            queryName: Rana esculenta perezi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/155
+            queryName: Rana ridibunda perezi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-87c80fd833
+      - s-3d04162a49
+      - s-72f20d32b9
+      - s-ded25a20ae
+      - s-ab0c7189fc
+      - s-23e1227815
+      - s-8b346d4e6d
+      - s-57b4bb352f
+      - s-cf4f232ee0
+      - s-6ce9de000c
+      - s-ace43dc603
+      - s-af2783b088
+      - s-6316a0292a
+    zh:
+      - s-57bf7ea967
+      - s-5a352f4d6c
+      - s-2b8924493a
+      - s-77c59ec2ea
+      - s-9f1c3d1673
+      - s-ceec3735a2
+      - s-d3c08d37d0
+      - s-5855bf38dd
+      - s-b2061603b8
+      - s-083d7aa314
+      - s-41742c31d7
+      - s-2d8103f596
+      - s-04b09a58c2

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paramesotriton
+  displayName: Paramesotriton
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6FJG
+  sourceIndexes:
+    - name:
+        en: Paramesotriton
+        zh: Paramesotriton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6FJG
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/135
+            queryName: Paramesotriton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 125
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b36c1514bb
+      - s-4de2f19ef5
+      - s-67b2449536
+      - s-ed256f6fc3
+      - s-0d95f6290d
+      - s-6eca5805e9
+      - s-1b4876294c
+      - s-13ffe8e84c
+      - s-d806b652a8
+      - s-6870c127c2
+      - s-22f7c2207a
+      - s-f02907f384
+    zh:
+      - s-739195a389
+      - s-cac216e5e6
+      - s-30fbd9751a
+      - s-15ee97f623
+      - s-456c198c6f
+      - s-13d2dcc289
+      - s-7929dcfda8
+      - s-69618cb424
+      - s-b33941387b
+      - s-e093ed376d
+      - s-934cbd644b
+      - s-f70f254afc

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne occidentalis
+  displayName: Pseudophryne occidentalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P7GD
+  sourceIndexes:
+    - name:
+        en: Pseudophryne occidentalis
+        zh: Pseudophryne occidentalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P7GD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/441
+            queryName: Pseudophryne occidentalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/345
+            queryName: Kankanophryne occidentalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b93ce86787
+      - s-5009a83314
+      - s-158697d6e0
+      - s-369c289721
+      - s-5f94ae26f2
+      - s-0bda482ee7
+      - s-60d01d11c9
+      - s-abd65b0583
+      - s-fe29968ce1
+      - s-919e764e91
+      - s-f0cfe4ebcf
+      - s-1579c5ad06
+      - s-86a6381077
+    zh:
+      - s-d2ffb4315d
+      - s-4fc245341e
+      - s-0a31c98f12
+      - s-0a0a08136a
+      - s-9c1f45c4b3
+      - s-c638677350
+      - s-e97aa28e80
+      - s-a98d0e9918
+      - s-40d70c49d0
+      - s-30298875cd
+      - s-c3e17b9921
+      - s-6a2192ba88
+      - s-0a00a817bf

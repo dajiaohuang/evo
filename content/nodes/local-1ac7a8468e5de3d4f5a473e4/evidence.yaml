@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pulchrana moellendorffi
+    name:
+      en: Pulchrana moellendorffi
+      zh: Pulchrana moellendorffi
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Pulchrana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Pulchrana moellendorffi in the morphology deposit
+          zh: 形态数据中的 Pulchrana moellendorffi 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5871f996a6
+            part: body
+          zh:
+            page: zh
+            section: s-9fb30409a5
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5114 and 5115: measurement fields and sex codes"
+          zh: 第 5114、5115 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c59858a8ad
+            part: body
+          zh:
+            page: zh
+            section: s-cc0b07de52
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5114, 5115; Reference.csv rows 3975
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5114
+        values:
+          - Ranidae
+          - Pulchrana
+          - Pulchrana moellendorffi
+          - M
+          - "38.5"
+          - "15.2"
+          - "12.8"
+          - "5.7"
+          - "3.5"
+          - "1.5"
+          - "4.4"
+          - "4.3"
+          - NA
+          - NA
+          - "6.4"
+          - NA
+          - "19.5"
+          - "7.4"
+          - NA
+          - NA
+          - NA
+          - "20.3"
+          - NA
+          - NA
+          - NA
+          - "1.9"
+          - "4.6"
+          - NA
+          - NA
+          - "17.5"
+          - NA
+          - NA
+          - NA
+          - "7.7"
+          - NA
+          - NA
+          - NA
+          - "1.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.2"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5115
+        values:
+          - Ranidae
+          - Pulchrana
+          - Pulchrana moellendorffi
+          - F
+          - "52.7"
+          - "19.4"
+          - "17.3"
+          - "6.9"
+          - "4.2"
+          - "2.1"
+          - "5.4"
+          - "5.3"
+          - NA
+          - NA
+          - "8.3"
+          - NA
+          - "26.1"
+          - "9.7"
+          - NA
+          - NA
+          - NA
+          - "27.1"
+          - NA
+          - NA
+          - NA
+          - "2.5"
+          - "6.3"
+          - NA
+          - NA
+          - "23"
+          - NA
+          - NA
+          - NA
+          - "10.4"
+          - NA
+          - NA
+          - NA
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.5"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3975
+        values:
+          - Anura
+          - Pulchrana_moellendorffi
+          - "Brown, R., & Guttman, S. (2002). Phylogenetic systematics of the Rana signata complex of Philippine and Bornean stream frogs: Reconsideration of Huxley's modification of Wallace's Line at the Oriental-Australian faunal zone interface. Biological Journal of the Linnean Society, 76, 393-461. https://doi.org/10.1111/j.1095-8312.2002.tb01704.x"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - TL
+      - IMT
+      - Toe1L
+      - Toe4L
+      - Fin3L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

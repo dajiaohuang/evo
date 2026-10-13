@@ -1,0 +1,6 @@
+## What changed in a captive breeding trial? {#s-aab9fac17e}
+Four females were kept on each diet. The mixed-crustacean group produced 78.1 ± 6.5 egg clusters per kilogram of body weight, compared with 31.1 ± 13.3 in the mixed-fish group. These were wild sub-adults caught near Gallipoli in Italy's Ionian Sea and later held in a recirculating aquaculture system in Cesenatico. This small captive trial describes reproduction under those feeding conditions; it does not measure fecundity in wild populations.
+
+## Do samples show one population across the species? {#s-f136ad6513}
+Researchers studied 193 adult octopuses caught by local fishers at seven Mediterranean localities and one nearby Atlantic locality. They compared 13 microsatellite loci, short repeated DNA regions that can vary among individuals. Their analysis distinguished the Ria Formosa Atlantic sample and the Strait of Messina sample from the other sampled groups. Ria Formosa had 23 private alleles—variants detected only in that sample among the study's localities—compared with 2–7 in each Mediterranean sample. This describes population structure among these samples; it is not a species-wide phylogeny and does not resolve the debated *O. vulgaris* species complex.
+

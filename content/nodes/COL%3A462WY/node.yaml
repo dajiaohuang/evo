@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectophrynoides tornieri
+  displayName: Nectophrynoides tornieri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/462WY
+  sourceIndexes:
+    - name:
+        en: Nectophrynoides tornieri
+        zh: Nectophrynoides tornieri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 462WY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/221
+            queryName: Nectophrynoides tornieri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/421
+            queryName: Nectophryne tornieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73956c3a78
+      - s-7eaa4fcf68
+      - s-92dfc658bb
+      - s-98f05a2fba
+      - s-09241e7a03
+      - s-520448f21e
+      - s-2885e2b770
+      - s-82b24f88fd
+      - s-46cc79823e
+      - s-f38f333df1
+      - s-c6745cf135
+      - s-2f4477a019
+      - s-22a3f97818
+      - s-762c61c11b
+      - s-4894160d93
+    zh:
+      - s-775d7d9d32
+      - s-c994b21ae0
+      - s-e6b2d4e43c
+      - s-5e989b78c7
+      - s-8014913eb1
+      - s-4cc7d59fc4
+      - s-ec25bf5227
+      - s-e989ca7773
+      - s-ba9d4bc1f1
+      - s-c9b96fbfdc
+      - s-53af4164c6
+      - s-a104c6c72a
+      - s-de5887e350
+      - s-6c672926bb
+      - s-8b2ae43d2e

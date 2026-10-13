@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachium tagbanorum
+    name:
+      en: Leptobrachium tagbanorum
+      zh: Leptobrachium tagbanorum
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Leptobrachium tagbanorum in the version 3 classification
+          zh: Leptobrachium tagbanorum 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d8df8348c0
+            part: body
+          zh:
+            page: zh
+            section: s-92810ecbb3
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 17 populated trait fields
+          zh: 2 条测量行与 17 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1850b927f7
+            part: body
+          zh:
+            page: zh
+            section: s-945722f623
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2701, 2702; Reference.csv rows 693
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2701
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium tagbanorum
+          - M
+          - "48.8"
+          - "20.1"
+          - "20.7"
+          - "6.5"
+          - "3.3"
+          - NA
+          - "6.9"
+          - "4.3"
+          - NA
+          - NA
+          - "7.3"
+          - NA
+          - "10.4"
+          - "15"
+          - NA
+          - "15.1"
+          - NA
+          - "17.9"
+          - "20.6"
+          - "10.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.1"
+          - NA
+          - NA
+          - NA
+          - "7.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.4"
+          - NA
+      - rowNumber: 2702
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium tagbanorum
+          - F
+          - "72.6"
+          - "28.3"
+          - "30.3"
+          - "8.1"
+          - "5.2"
+          - NA
+          - "9.1"
+          - "6.1"
+          - NA
+          - NA
+          - "11.2"
+          - NA
+          - "14.8"
+          - "23.8"
+          - NA
+          - "23.2"
+          - NA
+          - "26.6"
+          - "30.5"
+          - "15.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.2"
+          - NA
+          - NA
+          - NA
+          - "11.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "17.4"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 693
+        values:
+          - Anura
+          - Leptobrachium_tagbanorum
+          - "Brown, R. N., Siler, C. D., Diesmos, A. C., & Alcala, A. C. (2009). Philippine frogs of the genus Leptobrachium (Anura: Megophryidae): phylogeny-based species delimitation, taxonomic review, and descriptions of three new species. Herpetological Monographs, 23, 1-44. https://doi.org/10.1655/09-037.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Toe4L
+      - Fin3L
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TKCY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

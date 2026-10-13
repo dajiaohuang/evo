@@ -1,0 +1,442 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyloxalus jacobuspetersi (Rivero, 1991)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyloxalus jacobuspetersi
+      zh: Hyloxalus jacobuspetersi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c45e020bb2
+            part: title
+          zh:
+            page: zh
+            section: s-a32793fa66
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c45e020bb2
+            part: body
+          zh:
+            page: zh
+            section: s-a32793fa66
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ddbabb0e2a
+            part: title
+          zh:
+            page: zh
+            section: s-f91d1bcd97
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ddbabb0e2a
+            part: body
+          zh:
+            page: zh
+            section: s-f91d1bcd97
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2b35604039
+            part: title
+          zh:
+            page: zh
+            section: s-65ea9b3013
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-2b35604039
+            part: body
+          zh:
+            page: zh
+            section: s-65ea9b3013
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-7ff54fca3455005d8f2ad632cc7b86c1
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-0b9b321ebae7fe26d15aa07e
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fc31a1d81b
+            part: title
+          zh:
+            page: zh
+            section: s-50fdcac318
+            part: title
+        sourceIds:
+          - primary-pmc8819055-3ngxg
+        text:
+          en:
+            page: en
+            section: s-fc31a1d81b
+            part: body
+          zh:
+            page: zh
+            section: s-50fdcac318
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cd16a94ca5
+            part: title
+          zh:
+            page: zh
+            section: s-58f03d283c
+            part: title
+        sourceIds:
+          - primary-pmc8819055-3ngxg
+        text:
+          en:
+            page: en
+            section: s-cd16a94ca5
+            part: body
+          zh:
+            page: zh
+            section: s-58f03d283c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-06414ff1e0
+            part: title
+          zh:
+            page: zh
+            section: s-d4c9a3137d
+            part: title
+        sourceIds:
+          - primary-pmc8819055-3ngxg
+        text:
+          en:
+            page: en
+            section: s-06414ff1e0
+            part: body
+          zh:
+            page: zh
+            section: s-d4c9a3137d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-59e6ee59ef
+            part: title
+          zh:
+            page: zh
+            section: s-fe6b840c7b
+            part: title
+        sourceIds:
+          - primary-pmc8819055-3ngxg
+        text:
+          en:
+            page: en
+            section: s-59e6ee59ef
+            part: body
+          zh:
+            page: zh
+            section: s-fe6b840c7b
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0d0716cdcd
+            part: title
+          zh:
+            page: zh
+            section: s-e4626dda75
+            part: title
+        sourceIds:
+          - primary-pmc8819055-3ngxg
+        text:
+          en:
+            page: en
+            section: s-0d0716cdcd
+            part: body
+          zh:
+            page: zh
+            section: s-e4626dda75
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyloxalus jacobuspetersi
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NGXG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1495; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1495 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3558; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc8819055-3ngxg
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hyloxalus jacobuspetersi: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-710aa5dae0
+        part: body
+      zh:
+        page: zh
+        section: s-d891d7ffea
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1111/joa.13569
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        sourceKey: primary-pmc8819055-3ngxg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8819055/article.xml
+        sourceConcept: Source Hyloxalus jacobuspetersi; preserved-specimen observation; exact name or explicit nomenclatural link only
+        evidenceRead: "Hyloxalus jacobuspetersi: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Original bilingual factual descriptions of specimen-based histology and explicitly identified literature-derived outgroups; no source prose, tables or figures reproduced or adapted.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Hand glands in the examined adult-male evidence
+              zh: 所检查成体雄性证据中的手部腺体
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-3ngxg
+            locator: PMC8819055 XML Table2 joa13569-tbl-0002 tbody row26, literalHyloxalus jacobuspetersi; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-afb034d91a
+                part: body
+              zh:
+                page: zh
+                section: s-7c931cd7d2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Gland types describe structure rather than chemical identity
+              zh: 腺体类型描述结构而非化学身份
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-3ngxg
+            locator: PMC8819055 XML Table2 joa13569-tbl-0002 tbody row26, literalHyloxalus jacobuspetersi; Results sec0011–0015; XML Table3 andsec0012–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8f0ea71622
+                part: body
+              zh:
+                page: zh
+                section: s-39e68bf57b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Preserved material, finger numbering and staining
+              zh: 保存材料、指序和染色方法
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-3ngxg
+            locator: PMC8819055 XML sec0003–0006; PMC8819055 XML Table2 joa13569-tbl-0002 tbody row26, literalHyloxalus jacobuspetersi; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f6806911fb
+                part: body
+              zh:
+                page: zh
+                section: s-3c481ce4fb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: A proposed reproductive role remains untested
+              zh: 提出的繁殖功能仍未验证
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-3ngxg
+            locator: PMC8819055 XML sec0023
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0779c7cad8
+                part: body
+              zh:
+                page: zh
+                section: s-182fac25d5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: morphology
+            heading:
+              en: Swelling extended across the remaining fingers
+              zh: 膨胀延伸至保留的各指
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-3ngxg
+            locator: PMC8819055 XML sec0009;sec0017 characters6–8;sec0018 characters10–12
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b49b7585ac
+                part: body
+              zh:
+                page: zh
+                section: s-22cc1f8c95
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

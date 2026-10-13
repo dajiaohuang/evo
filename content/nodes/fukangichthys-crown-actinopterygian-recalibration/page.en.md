@@ -1,0 +1,3 @@
+## Fukangichthys shifts a fish-tree calibration {#s-51b8c63b7d}
+CT scans of two *Fukangichthys* fossils, compared with a living ropefish, informed a 2017 analysis that placed Scanilepiformes—including *Fukangichthys*—on the stem leading to bichirs (Polypteridae). This moved the study's minimum fossil calibration for the actinopterygian crown about 45 million years younger. A minimum calibration is a lower age bound, not the group's origin time. The placement depends on sampled fossils and anatomical characters, and differs from a 2014 analysis that placed *Fukangichthys* within Neopterygii. The displayed 247.0–241.464 Ma interval is the current Anisian stage range used for navigation, not a direct date on these specimens.
+

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus gastoni
+  displayName: Phrynobatrachus gastoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW94
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus gastoni
+        zh: Phrynobatrachus gastoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW94
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/126
+            queryName: Phrynobatrachus gastoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6834360e23
+      - s-ce43ca8e1e
+      - s-9f58e15cc0
+      - s-0dfd93c19a
+      - s-f8a46aed63
+      - s-88e596ecaa
+    zh:
+      - s-0c2fdcbc5b
+      - s-0a5d31119c
+      - s-66b074cee0
+      - s-26d4e61d9e
+      - s-d6ef24600b
+      - s-5d8e46b150

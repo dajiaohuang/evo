@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryophytes avivoca
+  displayName: Dryophytes avivoca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37VNB
+  sourceIndexes:
+    - name:
+        en: Dryophytes avivoca
+        zh: Dryophytes avivoca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37VNB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/37
+            queryName: Dryophytes avivoca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/260
+            queryName: Hyla avivoca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/369
+            queryName: Hyla phaeocrypta ogechiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/370
+            queryName: Hyla avivoca avivoca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/371
+            queryName: Hyla avivoca ogechiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/403
+            queryName: Dryophytes avivocus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-510bd64695
+      - s-6a053b140c
+      - s-3e80331245
+      - s-f458bb0261
+      - s-29ea42dfe6
+      - s-8eb8b2c38a
+      - s-fc28a311fc
+      - s-ae3b23cd78
+      - s-38edcf30d1
+      - s-3589887b67
+      - s-21d3c5f6d6
+      - s-d53fbc734a
+      - s-c895c95d95
+    zh:
+      - s-7350682572
+      - s-872ed72396
+      - s-ea37f33d5b
+      - s-19ef02bab7
+      - s-e72bf42989
+      - s-bec0ea57e2
+      - s-d998fd1be8
+      - s-ae76eaac73
+      - s-939c41dadf
+      - s-6f93acd816
+      - s-d6547c077d
+      - s-1e062e8d8c
+      - s-36bb6df2bb

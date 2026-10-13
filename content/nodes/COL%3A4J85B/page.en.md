@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Piriqueta douradinha? {#s-0af21dbc4b}
+The branches have simple, spreading star-shaped and bristle-like glandular hairs. Petiolate leaves are elliptic, ovate or obovate, papery and different in color above and below; margins are scalloped or rolled under. Both surfaces bear star-shaped and glandular hairs, and nectaries are absent. The inflorescence is cymose with bracteoles. Inner calyx lobes have woolly hairs beside the midrib. The corolla and corona are yellow; styles are heterostylous. The fruit is warty. Seeds are straight or slightly curved, net-veined and papillose.
+

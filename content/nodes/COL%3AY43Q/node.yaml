@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus caverniphilus
+  displayName: Cophixalus caverniphilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43Q
+  sourceIndexes:
+    - name:
+        en: Cophixalus caverniphilus
+        zh: Cophixalus caverniphilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/436
+            queryName: Cophixalus caverniphilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dae6d55efa
+      - s-afc0b4ea3c
+      - s-b73d628752
+      - s-45c8100c46
+      - s-433a32aa8d
+      - s-35e9e870d2
+      - s-97aa2e7326
+      - s-2578625185
+      - s-26ce93198e
+      - s-f4ecfc1b7e
+    zh:
+      - s-0222e5e749
+      - s-2c78b028d8
+      - s-542e3d0360
+      - s-7c8f897293
+      - s-04fefa81bc
+      - s-4072fdbf9e
+      - s-98bbf95640
+      - s-2f55de1eb4
+      - s-427ee12b86
+      - s-ec12bf18ec

@@ -1,0 +1,13 @@
+## What one ecological field can tell us {#s-fd9428acd3}
+COL26.8 accepts *Selenidera reinwardtii* in Ramphastidae. EltonTraits 1.0 has an older record with the same name and family; this page uses one supported ecological field group for comparison. The source retains earlier bird or MSW3 mammal taxonomy, so the name match does not resolve later splits or synonym disputes.
+
+## Relative weights of food categories {#s-4641014e83}
+The nonzero food weights are fruit 60% and invertebrates 40%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not show that an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply a diet limited to nectar, seeds or plants.
+
+## Trace each field group to its source labels {#s-a1f031aa16}
+The selected group carries source label Ref_7. Diet, strata and activity can come from different materials; the same Ref number in bird and mammal reference tables does not identify the same source. The archive preserves complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, so source labels do not count as new independent observations.
+
+## Evidence limits {#s-4734844398}
+Only one ecological field group is supported here; it does not establish the remaining diet, activity or stratum fields. This guide covers historical same-name, same-family EltonTraits 1.0 data, not a complete species account. Matching names and classifications do not establish equivalence between historical concepts and COL26.8. Food and avian stratum percentages are coarse weights standardized from literature descriptions, not direct measures of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes may refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing review do not establish definite conclusions. The underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
+Foraging stratum (source code 1) is withheld because of interpolation, certainty or source-link limits. The archive retains the specific reasons and original values; they do not support a definite ecological conclusion here.
+

@@ -1,0 +1,521 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropterotriton lavae (Taylor, 1942)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiropterotriton lavae
+      zh: Chiropterotriton lavae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-014d62dcd6
+            part: title
+          zh:
+            page: zh
+            section: s-eaebb6e232
+            part: title
+        text:
+          en:
+            page: en
+            section: s-014d62dcd6
+            part: body
+          zh:
+            page: zh
+            section: s-eaebb6e232
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-662effd5ce
+            part: title
+          zh:
+            page: zh
+            section: s-acab7f1cf3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-662effd5ce
+            part: body
+          zh:
+            page: zh
+            section: s-acab7f1cf3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-0c3d1aec6a
+            part: title
+          zh:
+            page: zh
+            section: s-94b1218883
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-0c3d1aec6a
+            part: body
+          zh:
+            page: zh
+            section: s-94b1218883
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0aee6cffd1
+            part: title
+          zh:
+            page: zh
+            section: s-109e1d76cb
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-0aee6cffd1
+            part: body
+          zh:
+            page: zh
+            section: s-109e1d76cb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0d550825a9
+            part: title
+          zh:
+            page: zh
+            section: s-289944f1c0
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-0d550825a9
+            part: body
+          zh:
+            page: zh
+            section: s-289944f1c0
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-02798da4dd
+            part: title
+          zh:
+            page: zh
+            section: s-2e4e36e840
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-02798da4dd
+            part: body
+          zh:
+            page: zh
+            section: s-2e4e36e840
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-0c5a95769d
+            part: title
+          zh:
+            page: zh
+            section: s-b91a31c39b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-0c5a95769d
+            part: body
+          zh:
+            page: zh
+            section: s-b91a31c39b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1a1db92669
+            part: title
+          zh:
+            page: zh
+            section: s-917a7a4285
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1a1db92669
+            part: body
+          zh:
+            page: zh
+            section: s-917a7a4285
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-5bcc1e8b1e18129a553584b259b15168
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6e4359be1d
+            part: title
+          zh:
+            page: zh
+            section: s-a237e333b6
+            part: title
+        sourceIds:
+          - primary-pmc7258950-5y6m3
+        text:
+          en:
+            page: en
+            section: s-6e4359be1d
+            part: body
+          zh:
+            page: zh
+            section: s-a237e333b6
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-217567b1fc
+            part: title
+          zh:
+            page: zh
+            section: s-db7b203f9e
+            part: title
+        sourceIds:
+          - primary-pmc7258950-5y6m3
+        text:
+          en:
+            page: en
+            section: s-217567b1fc
+            part: body
+          zh:
+            page: zh
+            section: s-db7b203f9e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e11f733a83
+            part: title
+          zh:
+            page: zh
+            section: s-bf09153fcd
+            part: title
+        sourceIds:
+          - primary-pmc7258950-5y6m3
+        text:
+          en:
+            page: en
+            section: s-e11f733a83
+            part: body
+          zh:
+            page: zh
+            section: s-bf09153fcd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiropterotriton lavae
+          url: https://www.checklistbank.org/dataset/316115/taxon/5Y6M3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 208436, row 277441; Distribution.tsv rows 69580; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6212; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6207 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc7258950-5y6m3
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiropterotriton lavae: Named species neotype or historical holotype, diagnostic sample, live/preserved colour and distribution/ecology paragraphs; no images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-64d02f788d
+        part: body
+      zh:
+        page: zh
+        section: s-b9d374b309
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "208436"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=208436
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 277441
+        key: "208436"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "208436"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 69580
+            key: 208436|Middle America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-5bcc1e8b1e18129a553584b259b15168
+      sourceRowId: Anf6212
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6212
+        bibliographyRowId: Anf6207
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Chiropterotriton priscus
+        candidateBibliographyRowIds:
+          - Anf6207
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.8800
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        sourceKey: primary-pmc7258950-5y6m3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7258950/article.xml
+        sourceConcept: Chiropterotriton lavae
+        evidenceRead: "Chiropterotriton lavae: Named species neotype or historical holotype, diagnostic sample, live/preserved colour and distribution/ecology paragraphs; no images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A historical holotype and a separate nineteen-animal revision sample
+              zh: 历史正模及单列十九只修订样本
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-5y6m3
+            locator: Results > Chiropterotriton lavae; reading-sections index 2, paragraphs 214 and 217–218
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9ace3d2dbb
+                part: body
+              zh:
+                page: zh
+                section: s-4e10b8cd17
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Variable live bands and separate preserved colours
+              zh: 变化活体带纹及单列保存颜色
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-5y6m3
+            locator: Results > Chiropterotriton lavae; reading-sections index 2, paragraphs 229–230
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0ad13c3ce5
+                part: body
+              zh:
+                page: zh
+                section: s-193d84e84b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Cloud-forest bromeliads near La Joya
+              zh: La Joya 附近云雾林凤梨科植物
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-5y6m3
+            locator: Results > Chiropterotriton lavae; reading-sections index 2, paragraphs 234
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-78601a0316
+                part: body
+              zh:
+                page: zh
+                section: s-943aa1c42b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

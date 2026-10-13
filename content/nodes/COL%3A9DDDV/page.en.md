@@ -1,0 +1,3 @@
+## ## Pappus-like calyx and variable bract lengths {#s-e0839fa1c3}
+The Brazilian Flora 2020 entry records strigose stems with simple hairs whose orientation is unspecified. Setae, glandular hairs, prickles and short shoots are absent. The stipules persist; extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose, but floral bracts are listed as shorter or longer than the flowers before opening. The flowers have four perianth parts and a membranous calyx with pappus-like lobes. Strigose corolla lobes have one to three veins; the androecium is isostemonous, with pink filaments. The habitat field says “terrestrial,” but the listed alternatives are not quantified.
+

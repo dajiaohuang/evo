@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus caete
+  displayName: Physalaemus caete
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF92
+  sourceIndexes:
+    - name:
+        en: Physalaemus caete
+        zh: Physalaemus caete
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF92
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/309
+            queryName: Physalaemus caete
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-571b2e2c8f
+      - s-986115353f
+      - s-7d7dc0ec5f
+      - s-7facca5a82
+      - s-b929cf1f50
+      - s-b74314c618
+      - s-efa885468b
+      - s-fcb4ce119e
+      - s-80e12cb168
+      - s-61503323b1
+    zh:
+      - s-7773d1d524
+      - s-082df05e02
+      - s-f5c6fcb5da
+      - s-41e75acb8b
+      - s-b40cb3b0a9
+      - s-d946b85398
+      - s-ab236187c7
+      - s-9ea634fbe7
+      - s-6df6995bf9
+      - s-7e4658b9d9

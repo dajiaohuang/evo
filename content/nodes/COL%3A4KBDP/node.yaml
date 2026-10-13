@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pleurodema brachyops
+  displayName: Pleurodema brachyops
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4KBDP
+  sourceIndexes:
+    - name:
+        en: Pleurodema brachyops
+        zh: Pleurodema brachyops
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4KBDP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/22
+            queryName: Pleurodema brachyops
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/416
+            queryName: Lystris brachyops
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/417
+            queryName: Pleurodema sachsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/418
+            queryName: Paludicola brachyops
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/419
+            queryName: Paludicola sachsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/334
+            queryName: Physodes albiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c65acfc4b0
+      - s-55f3820858
+      - s-b00fbdbc83
+      - s-56fa00e9cf
+      - s-058a84802c
+    zh:
+      - s-f760c75d85
+      - s-1c0a4d3569
+      - s-3b4e907a69
+      - s-7bf7255c32
+      - s-15f989415f

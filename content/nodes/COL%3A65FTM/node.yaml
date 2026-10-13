@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus aureus
+  displayName: Afrixalus aureus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65FTM
+  sourceIndexes:
+    - name:
+        en: Afrixalus aureus
+        zh: Afrixalus aureus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65FTM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/58
+            queryName: Afrixalus aureus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/401
+            queryName: Afrixalus aureus aureus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3f07afdd17
+      - s-ede7d15423
+      - s-171f9e92b1
+      - s-6107da8d2d
+      - s-54b2abc81b
+      - s-8b425bb6e5
+      - s-696de3ae8c
+      - s-b76e0e9725
+      - s-d27b60138a
+      - s-d8a31d95a0
+      - s-a686e4d75f
+      - s-72ffdd8de4
+      - s-2404f58862
+      - s-5ad7721835
+      - s-f41d9bab63
+      - s-ba33efb3c7
+    zh:
+      - s-c8f432f877
+      - s-1eba25dc27
+      - s-90f0a21ef5
+      - s-80062920b6
+      - s-835dae8bee
+      - s-9916f1c6df
+      - s-f082f44a12
+      - s-a51a40881d
+      - s-3e1e696fad
+      - s-74f4afdf97
+      - s-da39eccc91
+      - s-10444f323a
+      - s-2d12a16c09
+      - s-dabad5b73c
+      - s-b6dab976c5
+      - s-8b407e1d44

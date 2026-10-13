@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Chaltenobatrachus grandisonae
+    name:
+      en: Chaltenobatrachus grandisonae
+      zh: Chaltenobatrachus grandisonae
+    sourceClassification:
+      order: Anura
+      family: Batrachylidae
+      genus: Chaltenobatrachus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f78eb10ad8
+            part: body
+          zh:
+            page: zh
+            section: s-2fbb2a77f6
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7105ec5573
+            part: body
+          zh:
+            page: zh
+            section: s-2fa549e5e7
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1071; Reference.csv rows 2452
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1071
+        values:
+          - Batrachylidae
+          - Chaltenobatrachus
+          - Chaltenobatrachus grandisonae
+          - NA
+          - "37.13"
+          - "11.27"
+          - "11.34"
+          - "3.51"
+          - NA
+          - NA
+          - "2.99"
+          - "2.47"
+          - "3"
+          - "2.53"
+          - "4.87"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "15.16"
+          - "16.09"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2452
+        values:
+          - Anura
+          - Chaltenobatrachus_grandisonae
+          - Basso, N. G., Ubeda, C. A., Bunge, M. M., & Martinazzo, L. B. (2011). A new genus of neobatrachian frog from southern Patagonian forests, Argentina and Chile. Zootaxa, 3002, 31-44.  <Go to ISI>://WOS:000294255800003
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - THKK
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

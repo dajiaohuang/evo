@@ -1,0 +1,48 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa zacapensis
+  displayName: Bolitoglossa zacapensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDT2
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa zacapensis
+        zh: Bolitoglossa zacapensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDT2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/216
+            queryName: Bolitoglossa zacapensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c27c135550
+      - s-05bc0002eb
+      - s-de966e7c47
+      - s-1b73206860
+    zh:
+      - s-e1d95fba4c
+      - s-1571f63310
+      - s-80068c3437
+      - s-6b2d4fbaef

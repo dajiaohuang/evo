@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophylax fukienensis
+  displayName: Pelophylax fukienensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CJC
+  sourceIndexes:
+    - name:
+        en: Pelophylax fukienensis
+        zh: Pelophylax fukienensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CJC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/475
+            queryName: Pelophylax fukienensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/102
+            queryName: Rana fukienensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/215
+            queryName: Rana czarevskyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/287
+            queryName: Rana lighti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/288
+            queryName: Hylarana fukienensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/158
+            queryName: Rana plancyi fukienensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/159
+            queryName: Pelophylax plancyi fukienensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-33df423cdf
+      - s-8882a1af0e
+      - s-59d5c99ad6
+      - s-0196c9e9d6
+      - s-7cf69748b5
+      - s-1b511ca87a
+      - s-a6a78e8209
+      - s-8917a258f2
+      - s-5bee4d8184
+      - s-02b9cfc8e5
+    zh:
+      - s-f43f6285a8
+      - s-47830cd1ee
+      - s-2f55a6567c
+      - s-8725956fcc
+      - s-c54decc08c
+      - s-424216cce6
+      - s-4ba4b7bae2
+      - s-4a6f36f521
+      - s-631c1fc35a
+      - s-34ce8c344d

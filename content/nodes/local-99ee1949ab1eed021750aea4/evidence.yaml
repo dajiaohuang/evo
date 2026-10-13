@@ -1,0 +1,206 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odorrana amamiensis
+    name:
+      en: Odorrana amamiensis
+      zh: Odorrana amamiensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Odorrana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-76d799d139
+            part: body
+          zh:
+            page: zh
+            section: s-8a40629b28
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-027307638c
+            part: body
+          zh:
+            page: zh
+            section: s-c4571880dc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3732; Reference.csv rows 3896
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3732
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana amamiensis
+          - NA
+          - "64.5"
+          - "24.4455"
+          - "20.898"
+          - "9.546"
+          - "4.3215"
+          - "1.935"
+          - "5.031"
+          - "6.837"
+          - "7.4175"
+          - "4.8375"
+          - "10.1265"
+          - "5.031"
+          - "17.7375"
+          - "43.1505"
+          - NA
+          - "36.3135"
+          - NA
+          - "39.6675"
+          - "36.5715"
+          - NA
+          - "122.7435"
+          - "3.225"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.965"
+          - NA
+          - NA
+          - NA
+          - "2.12205"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.08335"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3896
+        values:
+          - Anura
+          - Odorrana_amamiensis
+          - "Matsui, M. (2008). A taxonomic study of the Rana narina complex, with description of three new species (Amphibia: Ranidae). Zoological Journal of the Linnean Society, 111, 385-415. https://doi.org/10.1111/j.1096-3642.1994.tb01489.x"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - HLL
+      - IMT
+      - Fin3L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 74GY5
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

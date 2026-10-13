@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ensatina
+  displayName: Ensatina
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4BZX
+  sourceIndexes:
+    - name:
+        en: Ensatina
+        zh: Ensatina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4BZX
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/375
+            queryName: Ensatina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 134
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de4f3257f5
+      - s-065e9ddfdc
+      - s-ec53118f07
+      - s-053b6fb588
+      - s-27ac73c808
+      - s-1c6da63965
+      - s-9cf952b29c
+      - s-343db67f10
+      - s-fc640263d9
+      - s-7164dfe4ef
+      - s-d89bb195e2
+      - s-74633dd175
+    zh:
+      - s-7a57555eb3
+      - s-ab35c7177f
+      - s-9451a5c246
+      - s-2987ba94f2
+      - s-72201abb49
+      - s-e94c72401c
+      - s-6ee470fc52
+      - s-08708af913
+      - s-6eb8b24c63
+      - s-a822427134
+      - s-ddcb735218
+      - s-2009a2cc87

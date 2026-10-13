@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium munozorum
+  displayName: Hyalinobatrachium munozorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3MW25
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium munozorum
+        zh: Hyalinobatrachium munozorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3MW25
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/330
+            queryName: Hyalinobatrachium munozorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/49
+            queryName: Hyalinobatrachium ruedai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/8
+            queryName: Centrolenella munozorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-79bed481f5
+      - s-d6c381e01c
+      - s-6d15adb4b9
+      - s-fd8c65011e
+      - s-d918da0c36
+      - s-ccf0a68d2c
+      - s-71af6e3bf6
+      - s-a08ccb1950
+      - s-8f754e78a5
+      - s-23aa403c2a
+      - s-39edd9c3bd
+      - s-daff429e83
+    zh:
+      - s-7d6f463c35
+      - s-4b8df74ba8
+      - s-7a34985fa2
+      - s-46b37516c3
+      - s-360297213c
+      - s-0084e7c590
+      - s-a7f8ec90b6
+      - s-2fcf20cb3e
+      - s-ef1b35508d
+      - s-f1e2d64e31
+      - s-49f2ea026a
+      - s-e89c9cf8f1

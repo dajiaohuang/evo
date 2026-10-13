@@ -1,0 +1,435 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Crossodactylus timbuhy Pimenta, Cruz & Caramaschi, 2014
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Crossodactylus timbuhy
+      zh: Crossodactylus timbuhy
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f71aeec899
+            part: title
+          zh:
+            page: zh
+            section: s-6606a9a915
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f71aeec899
+            part: body
+          zh:
+            page: zh
+            section: s-6606a9a915
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9c4b549e31
+            part: title
+          zh:
+            page: zh
+            section: s-051c8dcbd5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9c4b549e31
+            part: body
+          zh:
+            page: zh
+            section: s-051c8dcbd5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-960506051d
+            part: title
+          zh:
+            page: zh
+            section: s-57e4023020
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-960506051d
+            part: body
+          zh:
+            page: zh
+            section: s-57e4023020
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-9a145f73ccf18e784be6cf9c
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ad35fd2dd21eb89d7bf4241e
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-34aca7658d
+            part: title
+          zh:
+            page: zh
+            section: s-548799b0ff
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-34aca7658d
+            part: body
+          zh:
+            page: zh
+            section: s-548799b0ff
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3dd80823be
+            part: title
+          zh:
+            page: zh
+            section: s-556aaeb38c
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3dd80823be
+            part: body
+          zh:
+            page: zh
+            section: s-556aaeb38c
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7397e57226
+            part: title
+          zh:
+            page: zh
+            section: s-63659791a6
+            part: title
+        sourceIds:
+          - primary-pmc11117230-zmc6
+        text:
+          en:
+            page: en
+            section: s-7397e57226
+            part: body
+          zh:
+            page: zh
+            section: s-63659791a6
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a55efd32d9
+            part: title
+          zh:
+            page: zh
+            section: s-0624b0f1dd
+            part: title
+        sourceIds:
+          - primary-pmc11117230-zmc6
+        text:
+          en:
+            page: en
+            section: s-a55efd32d9
+            part: body
+          zh:
+            page: zh
+            section: s-0624b0f1dd
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4818b1d100
+            part: title
+          zh:
+            page: zh
+            section: s-e2849de874
+            part: title
+        sourceIds:
+          - primary-pmc11117230-zmc6
+        text:
+          en:
+            page: en
+            section: s-4818b1d100
+            part: body
+          zh:
+            page: zh
+            section: s-e2849de874
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-ef61aca9ad
+            part: title
+          zh:
+            page: zh
+            section: s-dbca656c3e
+            part: title
+        sourceIds:
+          - primary-pmc11117230-zmc6
+        text:
+          en:
+            page: en
+            section: s-ef61aca9ad
+            part: body
+          zh:
+            page: zh
+            section: s-dbca656c3e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Crossodactylus timbuhy
+          url: https://www.checklistbank.org/dataset/316115/taxon/ZMC6
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2626, 2627, 2628, 2629, 2630, 2631; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1441, 1442; Reference.csv rows 402
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc11117230-zmc6
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Crossodactylus timbuhy: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5830220eed
+        part: body
+      zh:
+        page: zh
+        section: s-a2968da8a5
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-9a145f73ccf18e784be6cf9c
+        scientificName: Crossodactylus timbuhy
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-ad35fd2dd21eb89d7bf4241e
+        scientificName: Crossodactylus timbuhy
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani14101406
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        sourceKey: primary-pmc11117230-zmc6
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/article.xml
+        sourceConcept: 2024 TableS1 exact-name Crossodactylus timbuhy paired-stage image/literature compilation; vouchers and cross-revision biological identity not independently certified
+        evidenceRead: "Crossodactylus timbuhy: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A larval image record with explicit provenance
+              zh: 具有明确来源的幼体图像记录
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-zmc6
+            locator: PMC11117230 supplementary TableS1 PDF page1 row26 Crossodactylus timbuhy tadpoleSource/Voucher columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7ab2f41362
+                part: body
+              zh:
+                page: zh
+                section: s-1e43a4437c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Adult measurements preserve source type and sex limits
+              zh: 成体测量保留来源类型及性别限制
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-zmc6
+            locator: PMC11117230 supplementary TableS1 PDF page1 row26 adultSource/Voucher/Sex columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-174694cea8
+                part: body
+              zh:
+                page: zh
+                section: s-c9d0597349
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Larval guild and adult ecomorph are separate source categories
+              zh: 幼体功能群及成体生态型是分开来源类别
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-zmc6
+            locator: PMC11117230 supplementary TableS1 PDF page1 row26 Guild/Ecomorph; page1 caption; XML Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-961fe7e7eb
+                part: body
+              zh:
+                page: zh
+                section: s-78d813fa44
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Paired-stage comparisons do not establish complete developmental independence
+              zh: 配对阶段比较不确立完全发育独立
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-zmc6
+            locator: PMC11117230 XML Results3.2–3.3; Tables1–2; Discussion; supplementary TableS2/S3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7815e0c8a1
+                part: body
+              zh:
+                page: zh
+                section: s-5f612219fa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

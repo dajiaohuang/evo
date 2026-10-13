@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus orcutti
+  displayName: Eleutherodactylus orcutti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399JZ
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus orcutti
+        zh: Eleutherodactylus orcutti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399JZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/285
+            queryName: Eleutherodactylus orcutti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/109
+            queryName: Eleutherodactylus cunctator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/110
+            queryName: Euhyas orcutti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e71a90f7dd
+      - s-a7b6ba76b7
+      - s-06c4b67a2d
+      - s-13f884c107
+      - s-cae4b60571
+      - s-66a02871bf
+      - s-fd4086abda
+      - s-fae42aa12d
+    zh:
+      - s-f2e46ab0a5
+      - s-a48f99744b
+      - s-13161f7a18
+      - s-9cb834be02
+      - s-7bbf805d7b
+      - s-46152be07e
+      - s-ddf8baaf66
+      - s-9613019f95

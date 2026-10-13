@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ophryophryne synoria
+  displayName: Ophryophryne synoria
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SQZY
+  sourceIndexes:
+    - name:
+        en: Ophryophryne synoria
+        zh: Ophryophryne synoria
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SQZY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/184
+            queryName: Ophryophryne synoria
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/87
+            queryName: Megophrys synoria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-90e07ce827
+      - s-ba990b1e41
+      - s-b74d322e71
+      - s-90cedc36d6
+      - s-a919f7092a
+      - s-4779d5a37d
+      - s-7d8592b560
+      - s-46de2451de
+      - s-57c70164c5
+      - s-54d005cc79
+      - s-aaf396eae7
+      - s-d6d31040a5
+    zh:
+      - s-e7bb5b50b0
+      - s-921a0dc9a7
+      - s-2aa0f4080c
+      - s-4650accdd8
+      - s-c91379300c
+      - s-557c479180
+      - s-660071dd91
+      - s-d5b8977323
+      - s-f51e2a8950
+      - s-bc5cd5b683
+      - s-258afc5f98
+      - s-b6ba1480d0

@@ -1,0 +1,370 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ptychadena levenorum Smith, Noonan & Colston, 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ptychadena levenorum
+      zh: Ptychadena levenorum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5396c674cb
+            part: title
+          zh:
+            page: zh
+            section: s-afe0eed1e4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5396c674cb
+            part: body
+          zh:
+            page: zh
+            section: s-afe0eed1e4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-738cae54fd
+            part: title
+          zh:
+            page: zh
+            section: s-becdb58203
+            part: title
+        text:
+          en:
+            page: en
+            section: s-738cae54fd
+            part: body
+          zh:
+            page: zh
+            section: s-becdb58203
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-42d91f39fa
+            part: title
+          zh:
+            page: zh
+            section: s-5d286e9974
+            part: title
+        sourceIds:
+          - primary-pmc7892535-4q9qq
+        text:
+          en:
+            page: en
+            section: s-42d91f39fa
+            part: body
+          zh:
+            page: zh
+            section: s-5d286e9974
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-51508cf406
+            part: title
+          zh:
+            page: zh
+            section: s-130591dfca
+            part: title
+        sourceIds:
+          - primary-pmc7892535-4q9qq
+        text:
+          en:
+            page: en
+            section: s-51508cf406
+            part: body
+          zh:
+            page: zh
+            section: s-130591dfca
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-262e32eae9
+            part: title
+          zh:
+            page: zh
+            section: s-0ac600dfac
+            part: title
+        sourceIds:
+          - primary-pmc10434514-4q9qq
+        text:
+          en:
+            page: en
+            section: s-262e32eae9
+            part: body
+          zh:
+            page: zh
+            section: s-0ac600dfac
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-b1d7ed1fdb
+            part: title
+          zh:
+            page: zh
+            section: s-f4574baa24
+            part: title
+        sourceIds:
+          - primary-pmc10434514-4q9qq
+        text:
+          en:
+            page: en
+            section: s-b1d7ed1fdb
+            part: body
+          zh:
+            page: zh
+            section: s-f4574baa24
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-6ce7edf718
+            part: title
+          zh:
+            page: zh
+            section: s-183a9c9cf7
+            part: title
+        sourceIds:
+          - primary-pmc10434514-4q9qq
+        text:
+          en:
+            page: en
+            section: s-6ce7edf718
+            part: body
+          zh:
+            page: zh
+            section: s-183a9c9cf7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ptychadena levenorum
+          url: https://www.checklistbank.org/dataset/316115/taxon/4Q9QQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7892535-4q9qq
+        referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - authorMetadataEvidence
+          - authorsAsRecordedInXml
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ptychadena levenorum: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10434514-4q9qq
+        referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ptychadena levenorum: XML abstract, Methods 2.1–2.5, Results 3.1–3.3 including Table1 and figure captions, Discussion 4.1–4.3 read; supplementary tables, original sequence reads, deposited assemblies and analysis pipelines not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-cc04909f57
+        part: body
+      zh:
+        page: zh
+        section: s-b0919e9ab8
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1016.59699
+        referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+        sourceKey: primary-pmc7892535-4q9qq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7892535/article.xml
+        sourceConcept: Ptychadena levenorum
+        evidenceRead: "Ptychadena levenorum: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: High-elevation records with a lower type-locality exception
+              zh: 高海拔记录及较低模式地点例外
+            referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+            sourceKey: primary-pmc7892535-4q9qq
+            locator: "Ptychadena levenorum: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b054cdca33
+                part: body
+              zh:
+                page: zh
+                section: s-3a12c99af4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Calling and the reported hybridization context
+              zh: 鸣叫及报告的杂交背景
+            referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+            sourceKey: primary-pmc7892535-4q9qq
+            locator: "Ptychadena levenorum: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-83e22cf95f
+                part: body
+              zh:
+                page: zh
+                section: s-7ad2e078f7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3389/fgene.2023.1215715
+        referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+        sourceKey: primary-pmc10434514-4q9qq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10434514/article.xml
+        sourceConcept: 2023 Ethiopian Highlands Ptychadena levenorum sample and author-reported distributions
+        evidenceRead: "Ptychadena levenorum: XML abstract, Methods 2.1–2.5, Results 3.1–3.3 including Table1 and figure captions, Discussion 4.1–4.3 read; supplementary tables, original sequence reads, deposited assemblies and analysis pipelines not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A geographically sampled mitochondrial and nuclear dataset
+              zh: 有地理取样的线粒体与核数据集
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-4q9qq
+            locator: PMC10434514 XML Methods2.1–2.3; Table1; Results3.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ab11160746
+                part: body
+              zh:
+                page: zh
+                section: s-e936fd2454
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: distribution
+            heading:
+              en: A study-defined highland clade and regional distribution
+              zh: 研究界定的高地支系及区域分布
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-4q9qq
+            locator: PMC10434514 XML Results3.2–3.3; Discussion4.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c0a737cac9
+                part: body
+              zh:
+                page: zh
+                section: s-087fe1eb06
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: A dated reassessment argument, with remaining demographic gaps
+              zh: 有日期的重评论据与仍缺的人口统计证据
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-4q9qq
+            locator: PMC10434514 XML Discussion4.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5b86efade9
+                part: body
+              zh:
+                page: zh
+                section: s-dfecc52661
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

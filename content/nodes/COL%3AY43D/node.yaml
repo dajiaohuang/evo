@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus aenigma
+  displayName: Cophixalus aenigma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43D
+  sourceIndexes:
+    - name:
+        en: Cophixalus aenigma
+        zh: Cophixalus aenigma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/425
+            queryName: Cophixalus aenigma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-43c7c6c74e
+      - s-90b3ff6dfb
+      - s-9a51e4bd9f
+      - s-3180f23c27
+      - s-6de7a914bf
+      - s-d64cc7c0d0
+      - s-7133919f0b
+      - s-3a65d4733b
+      - s-b56d5a6c83
+      - s-f52b05d758
+      - s-9798088fca
+      - s-f9f0a92a49
+      - s-4874051451
+    zh:
+      - s-4750fe1589
+      - s-47f2155d0a
+      - s-0ed57e9641
+      - s-d65771a914
+      - s-64ef15ed8d
+      - s-cb63cf19fb
+      - s-1616d429b5
+      - s-b5905deaf3
+      - s-538d907b1a
+      - s-30f80cc88d
+      - s-77c8b15fb2
+      - s-98819f015f
+      - s-6a9e206825

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus cardamonus
+  displayName: Philautus cardamonus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5F2
+  sourceIndexes:
+    - name:
+        en: Philautus cardamonus
+        zh: Philautus cardamonus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5F2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/40
+            queryName: Philautus cardamonus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-14fabca7f6
+      - s-937ae426f5
+      - s-188e505c36
+      - s-bd94a38d1a
+      - s-20127dc9d4
+      - s-12e81db8e3
+      - s-724ed1dc57
+      - s-ac155b2944
+    zh:
+      - s-5d72705b4b
+      - s-96b31216ec
+      - s-da10065799
+      - s-18aaf6b893
+      - s-3ac04600a7
+      - s-8957e7ab47
+      - s-0834ef0168
+      - s-81239c0fa8

@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ctenium concinnum Nees
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 ID, accepted name, authorship, rank, status, and source dataset ID checked in the pinned node. WFO 2026-06 accepted crosswalk row maps the same COL ID to wfo-0000860837 by exact accepted name and authorship.
+      scope: Ctenium concinnum as represented by COL26.8 usage 3254C. SANBI's regional account and source publication concept are retained as their own scope; name agreement alone does not prove full circumscription equivalence.
+    lifeStatusScope:
+      wild: Claims come from regional flora accounts; the cited passages do not consistently distinguish native wild plants from naturalised populations.
+      domesticated: No cultivated or domesticated observations are included; the source does not establish a domestication history.
+      fossil: No fossil claim is made; fossil occurrence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 15
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3254C
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted taxon usage 3254C
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000860837-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3254C / WFO wfo-0000860837
+          scope: Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence.
+      - id: sanbi
+        referenceId: ref-afe9d9ef-dc26-8a26-a94d-a84b9205f316
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ctenium species account, Strelitzia 36: 182-183; source identifier 15446.0; archived Habitat row 80373 and Morphology row 80653"
+          scope: Regional southern African grass account. The cited habitat statement gives no dated observation sites or population frequency; measurements have no stated sample size in the archived excerpt.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Moeaha's species account describes C. concinnum as a tufted perennial 400-700 mm tall, with wiry culms and leaf blades 100-300 mm long by 2-5 mm wide; it also describes the inflorescence and spikelet characters.
+            textZh: Moeaha 的物种条目将 C. concinnum 描述为丛生多年生草本，高 400–700 mm，茎秆纤细，叶片长 100–300 mm、宽 2–5 mm；条目还描述了花序和小穗特征。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 36 (2015), Ctenium account, pp. 182-183; SANBI/WFO archive Morphology record row 80653, source identifier 15446.0
+            placeTimeScope: Southern African regional species account published in 2015; the excerpt does not state the measured sample size, life stage, or a collection locality for these measurements.
+            lifeStatus: Regional flora description; the cited passage does not distinguish wild native plants from naturalised populations.
+        gaps:
+          - Only one regional account has been reviewed; sample size, developmental variation, and independent diagnostic comparisons remain unassessed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The 2015 species account records open grassland and bushveld on sandy or sometimes moist soils as habitat for C. concinnum.
+            textZh: 2015 年的物种条目记载，C. concinnum 的生境包括沙质或有时较湿润土壤上的开阔草地和灌丛草原。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 36 (2015), Ctenium account, pp. 182-183; SANBI/WFO archive Habitat record row 80373, source identifier 15446.0
+            placeTimeScope: Southern African regional account published in 2015; no dated observation sites, sampling frame, or population frequency is stated in the excerpt.
+            lifeStatus: The account does not establish whether each habitat statement concerns native wild or naturalised populations.
+        gaps:
+          - No locality-level observations, seasonality, resource use, species interactions, or population-level evidence has been assessed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

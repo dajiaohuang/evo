@@ -1,0 +1,56 @@
+## 接受名称与分类位置 {#s-3f9f023f13}
+COL26.8 接受 Kurixalus eiffingeri (Boettger, 1895) 为种级记录，所记分类路径为 Anura（目） → Rhacophoridae（科） → Kurixalus（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+
+## 阅读路线 {#s-4fc920f15b}
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+
+## 觅食层位——AmphiBIO 来源 {#s-53c11f0ae2}
+历史来源概念：Kurixalus eiffingeri，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。来源将 水栖；树栖 标记为已记录的类别。这些是概括性的觅食类别；汇编没有详细区分季节变化或发育阶段变化。后续 TetrapodTraits 修订报告纠正了从早期汇编传播的部分两栖动物体重与微栖地记录。此处尚未取得受影响行的逐项比对；这些存档历史值或类别在再利用前需要核对。没有推断替代值，本说明也不把每条原记录判为错误。
+
+## 活动时段——AmphiBIO 来源 {#s-713e303cb9}
+历史来源概念：Kurixalus eiffingeri，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。来源将 夜间 标记为已记录的类别。这些是总体活动类别，不是连续的行为时间序列。
+
+## 汇编的成体尺寸——AmphiBIO 来源 {#s-732f99aadf}
+历史来源概念：Kurixalus eiffingeri，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。AmphiBIO 记载 最大成体体长：44 mm。体长在无尾目指吻肛长，在有尾目和蚓螈目指全长。这些是汇编的最大成体值，不是每一个体的测量值。
+
+## 汇编的生活史——AmphiBIO 来源 {#s-ab518d5dc1}
+历史来源概念：Kurixalus eiffingeri，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。AmphiBIO 记载 每窝后代或卵的最小数量：79 个/枚；每窝后代或卵的最大数量：79 个/枚；每年最多繁殖次数：1 次/年；后代或卵的最小尺寸：1.9 mm；后代或卵的最大尺寸：3 mm。数据集从文献汇编极值和计数；本行没有逐值区分性别、种群、测量日期或野生与圈养条件。后代尺寸字段可能指后代或卵。
+
+## 发育方式——AmphiBIO 来源 {#s-4c2c74b6c8}
+历史来源概念：Kurixalus eiffingeri，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。存档记录标记 具有幼体阶段。这些来源类别本身不足以说明亲代照料、繁殖地点或季节时序。
+
+## 相关来源记录与数据集 {#s-95c6eaf884}
+以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
+
+- [AmphiBIO v1: Kurixalus eiffingeri](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Rhacophoridae/Kurixalus/Kurixalus_eiffingeri/page.zh.md)
+- [TadpoleTraits v4: Kurixalus eiffingeri](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Rhacophoridae/Kurixalus/Kurixalus_eiffingeri/page.zh.md)
+- [Amphibian morphology v3: Kurixalus eiffingeri](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Rhacophoridae/Kurixalus/Kurixalus_eiffingeri/page.zh.md)
+- [AmphiTherm curated snapshot: Kurixalus eiffingeri](../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Rhacophoridae/Kurixalus/Kurixalus_eiffingeri/page.zh.md)
+
+## 发育阶段材料——TadpoleTraits 来源 {#s-8fe73489cb}
+存档来源概念：TadpoleTraits 中的 Kurixalus eiffingeri。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。汇编为该来源概念保留 3 条文献数据行和 0 条图像数据行，提供的阶段条目为 31-35；32, 35-38；NA。阶段值及其相伴不确定性按来源标签保留；由图像推断的阶段不视为直接记录的发育观察。数据行数不等于去重的动物数量，各研究的样本量字段也不跨研究相加。
+
+## 按性别保留的测量材料——Amphibian morphology 来源 {#s-c594a63a4a}
+存档来源概念：Amphibian morphology 中的 Kurixalus eiffingeri。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。汇编为这一来源概念保留 2 行，14 个性状列含有非空记录。性别代码为 M、F：F、M 分别为来源中的雌性、雄性类别，J 为幼体材料，NA 为未指定类别。汇编行数不是去重的标本数；不同性别、发育阶段和文献的值不能合并成一个鉴别尺寸。缺失单元格也不代表相应解剖结构不存在。
+
+## 选列的临界高温限估计——AmphiTherm 来源 {#s-3c220f9973}
+存档来源概念：AmphiTherm 中的 Kurixalus eiffingeri。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。来源第 922 行（ID 1029，Cheng_2017）为幼体记载 32.8 °C，指标 CTmax，平衡丧失。所记温度适应条件为 20 °C。所记升温或降温速率为 0.25 °C/分钟。来源 n_trait 字段为 15；重复批次的样本量不能直接相加。这是一个选列的汇编估计，不是全物种耐受边界、环境温度范围或饲养建议；底层研究尚未独立重新分析。所记测试温度介质为 water，性别类别 unknown，动物来源 wild。处理字段：化学物质 NA，激素 NA，感染 NA，病原体 NA。NA 表示未报告，不证明没有处理；原实验与性状备注附于来源记录，仍需研究层级核对。存档不确定性字段为 1.63 °C（标准差）；两种量不能互换。
+
+## 选列的温度偏好估计——AmphiTherm 来源 {#s-fa598dba20}
+存档来源概念：AmphiTherm 中的 Kurixalus eiffingeri。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。来源第 4233 行（ID 4706，Wu_2021）为幼体记载 24.91964286 °C，指标 Tpref，终点未指定。所记温度适应条件为 19 °C。来源 n_trait 字段为 10；重复批次的样本量不能直接相加。这是一个选列的汇编估计，不是全物种耐受边界、环境温度范围或饲养建议；底层研究尚未独立重新分析。所记测试温度介质为 water，性别类别 unknown，动物来源 wild。处理字段：化学物质 NA，激素 NA，感染 NA，病原体 NA。NA 表示未报告，不证明没有处理；原实验与性状备注附于来源记录，仍需研究层级核对。存档不确定性字段为 3.991071429 °C（标准差）；两种量不能互换。
+
+## 2023 年岛屿起源比较的标记覆盖 {#s-67055d4fae}
+论文表 2 为 Kurixalus eiffingeri 列出 16S, COI, TYR。全研究结合三个线粒体及三个核基因片段，但缺失项表示本种不一定六个基因齐全。若干行结合不同凭证或此前提交序列；这不是新采集完整基因组，也不是独立核实的种群调查。拼接分析将六位点分为五组，12S 与 16S 合并。该序列行不提供新的食性、繁殖行为或生理耐受证据。
+
+## 与重建岛屿谱系的关系 {#s-5a75746a40}
+本种与 eiffingeri、berylliniris、wangi 同属 II 支系。所选生物地理模型重建其祖先约五百万年前自亚洲大陆迁入台湾、约三百二十万年前开始分化。这是谱系层面近似模型日期，不是分别测得的本种入岛日期。I 支系、II 支系与 gracilloides 间关系仍未解决，论文要求改进定年。
+
+## catalogue-profile / limitations {#s-749a392ad5}
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-cc36f20a48}
+论文表 2 为 Kurixalus eiffingeri 列出 16S, COI, TYR。全研究结合三个线粒体及三个核基因片段，但缺失项表示本种不一定六个基因齐全。若干行结合不同凭证或此前提交序列；这不是新采集完整基因组，也不是独立核实的种群调查。拼接分析将六位点分为五组，12S 与 16S 合并。该序列行不提供新的食性、繁殖行为或生理耐受证据。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-d3495a7195}
+本种与 eiffingeri、berylliniris、wangi 同属 II 支系。所选生物地理模型重建其祖先约五百万年前自亚洲大陆迁入台湾、约三百二十万年前开始分化。这是谱系层面近似模型日期，不是分别测得的本种入岛日期。I 支系、II 支系与 gracilloides 间关系仍未解决，论文要求改进定年。
+

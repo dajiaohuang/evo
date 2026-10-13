@@ -1,0 +1,128 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega parvula
+  displayName: Ameerega parvula
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ74
+  sourceIndexes:
+    - name:
+        en: Ameerega parvula
+        zh: Ameerega parvula
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ74
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/270
+            queryName: Ameerega parvula
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/215
+            queryName: Epipedobates parvulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/16
+            queryName: Dendrobates parvulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/17
+            queryName: Prostherapis festae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/18
+            queryName: Phyllobates festae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/19
+            queryName: Colostethus festae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/20
+            queryName: Phyllobates parvulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ec41561183
+      - s-9e3496326c
+      - s-55d183aab1
+      - s-f2f21fff2f
+      - s-aeeb79e464
+      - s-fd6ea14c15
+      - s-0d95b4f0ad
+      - s-b41c5a1cf0
+      - s-d913c4d05d
+      - s-8181a81fa7
+      - s-f0a01353a7
+      - s-395ae7714e
+      - s-b68e2e8f7c
+      - s-3c280386b2
+      - s-47e7acf031
+      - s-89e780c032
+      - s-6d206f233f
+      - s-3263269cb0
+      - s-de3a720a11
+      - s-b67e4914bb
+      - s-d25d623947
+      - s-2bc80e7da3
+      - s-b270007030
+      - s-dc3fee1498
+      - s-0a9a881bad
+      - s-c43e879bb3
+    zh:
+      - s-c7a362af12
+      - s-011060623f
+      - s-4a5470a838
+      - s-91d3714403
+      - s-c423ba3b4e
+      - s-723af4f945
+      - s-d2524991bf
+      - s-3ff74be101
+      - s-ed71bb62f9
+      - s-c8573d3345
+      - s-26a6ed8f22
+      - s-686c93945b
+      - s-26d5c9640d
+      - s-fdc161fa9b
+      - s-72678ff1a0
+      - s-575fec20b9
+      - s-3ecc277d2f
+      - s-4c67b03acb
+      - s-c529b392c3
+      - s-e9a155153e
+      - s-b0e89278ce
+      - s-e8ffa7e210
+      - s-69202a274f
+      - s-3bb900faf5
+      - s-e14e451e25
+      - s-a4738b71f2

@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis chocoensis Reyes-Puig, Yánez-Muñoz, Ortega & Ron, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis chocoensis
+      zh: Pristimantis chocoensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-36776be831
+            part: title
+          zh:
+            page: zh
+            section: s-eb794a38ce
+            part: title
+        text:
+          en:
+            page: en
+            section: s-36776be831
+            part: body
+          zh:
+            page: zh
+            section: s-eb794a38ce
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-dd5da03573
+            part: title
+          zh:
+            page: zh
+            section: s-704e7565c3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dd5da03573
+            part: body
+          zh:
+            page: zh
+            section: s-704e7565c3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-5a9915efd4
+            part: title
+          zh:
+            page: zh
+            section: s-d9c2afec89
+            part: title
+        sourceIds:
+          - primary-pmc10719609-scd85
+        text:
+          en:
+            page: en
+            section: s-5a9915efd4
+            part: body
+          zh:
+            page: zh
+            section: s-d9c2afec89
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-c0b9557ec7
+            part: title
+          zh:
+            page: zh
+            section: s-fcf6a60bb3
+            part: title
+        sourceIds:
+          - primary-pmc10719609-scd85
+        text:
+          en:
+            page: en
+            section: s-c0b9557ec7
+            part: body
+          zh:
+            page: zh
+            section: s-fcf6a60bb3
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-c837f11849
+            part: title
+          zh:
+            page: zh
+            section: s-208fcc3128
+            part: title
+        sourceIds:
+          - primary-pmc10719609-scd85
+        text:
+          en:
+            page: en
+            section: s-c837f11849
+            part: body
+          zh:
+            page: zh
+            section: s-208fcc3128
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-a88ae89ed1
+            part: title
+          zh:
+            page: zh
+            section: s-fd77516edc
+            part: title
+        sourceIds:
+          - primary-pmc10719609-scd85
+        text:
+          en:
+            page: en
+            section: s-a88ae89ed1
+            part: body
+          zh:
+            page: zh
+            section: s-fd77516edc
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis chocoensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCD85
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10719609-scd85
+        referenceId: ref-6e2b5dee-ee43-47d4-af70-da6f9ad4271e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis chocoensis: One observed reproductive event in June 2022; direct observations, interpretations and absent follow-up outcomes distinguished; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-10262b349c
+        part: body
+      zh:
+        page: zh
+        section: s-048bdb9a84
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1002/ece3.10808
+        referenceId: ref-6e2b5dee-ee43-47d4-af70-da6f9ad4271e
+        sourceKey: primary-pmc10719609-scd85
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10719609/article.xml
+        sourceConcept: Pristimantis chocoensis
+        evidenceRead: "Pristimantis chocoensis: One observed reproductive event in June 2022; direct observations, interpretations and absent follow-up outcomes distinguished; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: reproduction
+            heading:
+              en: An amplectant pair inside an abandoned termite nest
+              zh: 废弃白蚁巢内的抱对
+            referenceId: ref-6e2b5dee-ee43-47d4-af70-da6f9ad4271e
+            sourceKey: primary-pmc10719609-scd85
+            locator: PMC10719609 reading-sections section 1, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-164428ac0b
+                part: body
+              zh:
+                page: zh
+                section: s-adf6e965c5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: behavior
+            heading:
+              en: Egg rotation followed by active covering with soil
+              zh: 转卵后主动覆土
+            referenceId: ref-6e2b5dee-ee43-47d4-af70-da6f9ad4271e
+            sourceKey: primary-pmc10719609-scd85
+            locator: PMC10719609 reading-sections section 1, paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-de6c7db4a0
+                part: body
+              zh:
+                page: zh
+                section: s-00c56540cd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Short female attendance and uncertain male guarding
+              zh: 短期雌留守及不确定雄护卵
+            referenceId: ref-6e2b5dee-ee43-47d4-af70-da6f9ad4271e
+            sourceKey: primary-pmc10719609-scd85
+            locator: PMC10719609 reading-sections section 1, paragraph 2; section 2, paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1bb71b1992
+                part: body
+              zh:
+                page: zh
+                section: s-37e2fb6357
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Proposed functions of burying remain hypotheses
+              zh: 埋卵所提功能仍为假说
+            referenceId: ref-6e2b5dee-ee43-47d4-af70-da6f9ad4271e
+            sourceKey: primary-pmc10719609-scd85
+            locator: PMC10719609 reading-sections section 2, paragraphs 2 and 4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ae1910ce45
+                part: body
+              zh:
+                page: zh
+                section: s-0719786b14
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

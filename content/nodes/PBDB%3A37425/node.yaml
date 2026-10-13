@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Vieraella
+  displayName: Vieraella
+  rank: genus
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=37425
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Vieraella
+        zh: Vieraella
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: null
+          rank: group
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/268
+            queryName: Vieraella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-104a4a02c9
+      - s-54eaad31c5
+      - s-7e7d00f47b
+      - s-cc4cc51d0f
+    zh:
+      - s-2e33c59183
+      - s-10e8ddd8a7
+      - s-dc21addfd8
+      - s-0403f082d8

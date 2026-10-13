@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates masniger
+  displayName: Allobates masniger
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV24
+  sourceIndexes:
+    - name:
+        en: Allobates masniger
+        zh: Allobates masniger
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV24
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/155
+            queryName: Allobates masniger
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/115
+            queryName: Colostethus masniger
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dc7254ef14
+      - s-73a99dba77
+      - s-cb37521a57
+      - s-aa31409840
+      - s-c7402edf1b
+      - s-ea7642f6b6
+      - s-2c47ec6ad9
+      - s-5d7986fe37
+      - s-2c02981460
+      - s-940342f9ce
+      - s-d78680bf0e
+      - s-bdb50cd13f
+      - s-0a783dace0
+      - s-e616c44462
+      - s-a3c8d1df7e
+      - s-912d99f14b
+      - s-6294da55ea
+      - s-e96cf9b9eb
+    zh:
+      - s-21bbb640ce
+      - s-e0ef61b603
+      - s-4050d67ec2
+      - s-0e9670cb6e
+      - s-8ebee4abac
+      - s-bc2bb36b00
+      - s-1e8b979d9c
+      - s-8d99db7411
+      - s-33916258c0
+      - s-fe75e3e62d
+      - s-48439d1912
+      - s-ab59b14d43
+      - s-0c9e822541
+      - s-7c4c236576
+      - s-1f1953fc33
+      - s-a3c0c74a3d
+      - s-249403ca4e
+      - s-59d60eced7

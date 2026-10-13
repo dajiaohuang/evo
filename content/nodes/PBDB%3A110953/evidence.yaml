@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Navajosuchus mooki
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Navajosuchus mooki
+      en: Navajosuchus mooki
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7f0a5131d4
+            part: body
+          en:
+            page: en
+            section: s-ba837feccf
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-01222a6ccf
+            part: body
+          en:
+            page: en
+            section: s-4c148264d3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9b27aef2a5
+            part: body
+          en:
+            page: en
+            section: s-c893069397
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5ae297d099
+            part: body
+          en:
+            page: en
+            section: s-cce4505736
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-996bb69260
+            part: body
+          en:
+            page: en
+            section: s-ed6661eddf
+            part: body
+    sources:
+      - id: pbdbCrocodylomorphTaxonomy20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Navajosuchus mooki
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=110953&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbCrocodylomorphOccurrences20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:110953; original response record indices retained in data/sources/crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: c4a662dc45be8020da61b782b38d37ab583c35a2e4bdf978ceca29e010472ca1
+          pbdbTaxonId: txn:110953
+          selectedOccurrenceIds:
+            - occ:691947
+            - occ:710098
+          selectedCollectionIds:
+            - col:74556
+            - col:14873
+          sourceReferenceIds:
+            - ref:727
+            - ref:23756
+          originalIdentificationMappings:
+            - occurrenceId: occ:691947
+              originalIdentifiedName: Allognathosuchus mooki n. sp.
+              acceptedName: Navajosuchus mooki
+              difference: recombined as
+            - occurrenceId: occ:710098
+              originalIdentifiedName: Navajosuchus novomexicanus n. gen. n. sp.
+              acceptedName: Navajosuchus mooki
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-a6ca831fcb
+        part: body
+      en:
+        page: en
+        section: s-bd993fac0d
+        part: body

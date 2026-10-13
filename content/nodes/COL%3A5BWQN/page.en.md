@@ -1,0 +1,3 @@
+## *Weinmannia pinnata* {#s-406298c4d5}
+The cited flora description records a shrub or small tree, oval-shaped leaves. These are the characters reported in that account; they do not amount to a survey of population variation.
+

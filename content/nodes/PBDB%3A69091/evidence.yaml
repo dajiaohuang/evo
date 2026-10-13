@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Neobatrachia
+    rank: unranked clade
+    sourceTaxonId: txn:69091
+    name:
+      en: Neobatrachia
+      zh: Neobatrachia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-bb9493dc73
+            part: body
+          zh:
+            page: zh
+            section: s-765874323e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-2d3ea22f88
+            part: body
+          zh:
+            page: zh
+            section: s-52572e9987
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-6a2ea645af
+            part: body
+          zh:
+            page: zh
+            section: s-ec37f5cba4
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-a0ef2c3266
+            part: body
+          zh:
+            page: zh
+            section: s-e21e3e29d3
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:69091; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "A. M. Baez, G. J. B. Moura, and R. O. Gómez. 2009. Anurans from the Lower Cretaceous Crato Formation of northeastern Brazil: implications for the early divergence of neobatrachians. Cretaceous Research 30(4):829-846"
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:484632
+        - txn:473097
+        - txn:118075
+        - txn:291373
+        - txn:291376
+        - txn:260476
+        - txn:135434
+        - txn:110833
+        - txn:110674
+        - txn:104846
+        - txn:246220
+        - txn:65653
+        - txn:135428
+        - txn:94065
+        - txn:333977
+        - txn:135439
+        - txn:508651
+        - txn:156436
+        - txn:356537
+        - txn:367181
+        - txn:518428
+        - txn:153544
+        - txn:156432
+        - txn:473086
+        - txn:156613
+        - txn:254122
+        - txn:346346
+        - txn:110635
+        - txn:517801
+        - txn:517802
+        - txn:517799
+        - txn:100116
+        - txn:290010
+        - txn:110634
+        - txn:110941
+        - txn:517794
+        - txn:517797
+        - txn:68705
+        - txn:291375
+        - txn:111004
+        - txn:517803
+        - txn:110940
+        - txn:517795
+        - txn:462730
+        - txn:207009
+        - txn:424276
+        - txn:424277
+        - txn:135438
+        - txn:424273
+        - txn:95402
+        - txn:462003
+        - txn:172509
+        - txn:172508
+        - txn:156317
+        - txn:479129
+        - txn:156434
+      exactOccurrenceCount: 111
+      datedOccurrenceCount: 111
+      collectionIntervalBoundsMa:
+        older: 119.57
+        younger: 0
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-a0ef2c3266
+            part: body
+          zh:
+            page: zh
+            section: s-e21e3e29d3
+            part: body
+        sourceIds: []

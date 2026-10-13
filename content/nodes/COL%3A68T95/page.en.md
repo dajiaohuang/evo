@@ -1,0 +1,3 @@
+## What did one genomic study find? {#s-80d5d594d5}
+The study assembled a draft genome and a transcriptome—a record of gene activity—from silk-gland tissue of *Caerostris darwini*. It reported at least 31 putative spidroin genes, or candidate silk-protein genes, and expansions in several spidroin classes compared with *Trichonephila clavipes*. It also found expression patterns that differed by sex and gland in the sampled tissues. The authors suggested these patterns might relate to the spider's exceptional dragline-silk toughness, but presented that link as a hypothesis rather than a demonstrated cause. This is one study-specific analysis: it does not assess population variation, independent population replication or broader phylogenomics.
+

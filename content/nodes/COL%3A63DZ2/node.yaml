@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectocaecilia
+  displayName: Nectocaecilia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63DZ2
+  sourceIndexes:
+    - name:
+        en: Nectocaecilia
+        zh: Nectocaecilia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63DZ2
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/77
+            queryName: Nectocaecilia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e4b8eb3db
+      - s-3b1179f4c8
+      - s-cd9dfae492
+      - s-d05576048a
+      - s-9adb812eb1
+      - s-339ab69ea3
+    zh:
+      - s-71c9aa3658
+      - s-d4fd9408af
+      - s-24406b3e69
+      - s-65b81e9457
+      - s-481b5cb06f
+      - s-7ef4d81354

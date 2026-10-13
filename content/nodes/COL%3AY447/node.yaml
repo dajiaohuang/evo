@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus hosmeri
+  displayName: Cophixalus hosmeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y447
+  sourceIndexes:
+    - name:
+        en: Cophixalus hosmeri
+        zh: Cophixalus hosmeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y447
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/450
+            queryName: Cophixalus hosmeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-728b52c868
+      - s-1b40fe8e7d
+      - s-6e4a02760b
+      - s-ff4ce0f9ec
+      - s-99e7443a71
+      - s-9c127217b2
+      - s-7bc7fdc572
+      - s-5656adf833
+      - s-8bc99a0847
+      - s-480950b4b0
+      - s-6f5b866259
+      - s-28eb4ec592
+      - s-5fa67906ef
+      - s-486b9903fb
+    zh:
+      - s-4547612798
+      - s-d3c8d1d528
+      - s-aa27e84576
+      - s-3b5aaad895
+      - s-ed1371461a
+      - s-44dee295b9
+      - s-041e2abe00
+      - s-e8fb685c11
+      - s-9c69893e24
+      - s-9af9702b6e
+      - s-3a74513fc3
+      - s-0d00e049f0
+      - s-4766121f69
+      - s-37681f152e

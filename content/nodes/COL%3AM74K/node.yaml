@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Blommersia domerguei
+  displayName: Blommersia domerguei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M74K
+  sourceIndexes:
+    - name:
+        en: Blommersia domerguei
+        zh: Blommersia domerguei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M74K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/432
+            queryName: Blommersia domerguei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/172
+            queryName: Mantidactylus domerguei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/175
+            queryName: Gephyromantis domerguei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ae59530db3
+      - s-883f5deef2
+      - s-ef8f5019d2
+      - s-5731f639d6
+      - s-a21ede7279
+      - s-f4d456a99e
+      - s-8fed5715fc
+      - s-5e4facc45a
+      - s-5551653d8a
+    zh:
+      - s-c53a79a976
+      - s-284297ffea
+      - s-a8261180e4
+      - s-c1726fb908
+      - s-bb7fff35ef
+      - s-b35fac8638
+      - s-1efc0074b0
+      - s-d99e7399f4
+      - s-0515456392

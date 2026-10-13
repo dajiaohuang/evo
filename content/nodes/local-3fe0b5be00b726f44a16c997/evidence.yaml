@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bryophryne phuyuhampatu
+    name:
+      en: Bryophryne phuyuhampatu
+      zh: Bryophryne phuyuhampatu
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Bryophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ef84b17ffd
+            part: body
+          zh:
+            page: zh
+            section: s-78ec76f7b0
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-05fa05831e
+            part: body
+          zh:
+            page: zh
+            section: s-479fb03b29
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 899, 900; Reference.csv rows 1821
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 899
+        values:
+          - Brachycephaloidea
+          - Bryophryne
+          - Bryophryne phuyuhampatu
+          - M
+          - "15.7"
+          - "5.1"
+          - "5"
+          - "1.7"
+          - NA
+          - NA
+          - "2.4"
+          - "1.5"
+          - "1.1"
+          - "1.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.3"
+          - NA
+          - "6.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 900
+        values:
+          - Brachycephaloidea
+          - Bryophryne
+          - Bryophryne phuyuhampatu
+          - F
+          - "22.4"
+          - "8.5"
+          - "7.3"
+          - "2.1"
+          - NA
+          - NA
+          - "3.65"
+          - "2.05"
+          - "1.5"
+          - "1.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.55"
+          - NA
+          - "8.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1821
+        values:
+          - Anura
+          - Bryophryne_phuyuhampatu
+          - "De la Riva, I. (2007). Bolivian frogs of the genus Phrynopus, with the description of twelve new species (Anura: Brachycephalidae). Herpetological Monographs, 21(1), 241-277. https://doi.org/10.1655/07-011.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

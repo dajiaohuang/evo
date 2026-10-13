@@ -14,7 +14,7 @@ it('renders source-linked introductions after editorial source scopes are remove
     colId: 'species', descriptionCollections: [],
     profile: {
       colId: 'species', scientificName: 'Example species', rank: 'species', sourceDatasetId: null,
-      name: { en: 'Example species', zh: '示例种' }, checkedAt: '2026-10-11',
+      name: { en: 'Example species', zh: '示例种' },
       sections: [{ topic: 'identity', text: { en: 'Source-linked text.', zh: '来源正文。' }, sourceIds: ['source'] }],
       sources: [{ id: 'source', title: 'Original source', url: 'https://example.org/source' }],
       limitations: { en: 'Names only.', zh: '仅名称。' },

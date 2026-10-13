@@ -1,0 +1,12 @@
+## TadpoleTraits classification for Boana cinerascens {#s-ca642c0b48}
+TadpoleTraits version 4 places Boana cinerascens in Boana (Hylidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names none recorded. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 0 literature rows and 1 image row {#s-6dc570b06f}
+TadpoleTraits version 4 links 0 literature rows and 1 image row to Boana cinerascens. Source row numbers — literature: none recorded; image: 177. Populated measurement fields — literature: none recorded; image: TL, BL, TaL, BMH, MTH, TMH, DFH, VFH, BMW, TMW, OD, BL/TL, TaL/TL, BMH/TL, MTH/TL, TMH/TL, DFH/TL, VFH/TL, BMW/TL, TMW/TL, OD/TL. Literature rows have no Stage value. Image row 177: Stage 37. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+
+## Image proportions from row 177 {#s-4e6f98bd5d}
+Selected image entries: BL/TL (body length / total length) = 0.328561 (source row 177; Stage 37; type Measurement; image type Hand-drawn picture); TaL/TL (tail length / total length) = 0.674562 (source row 177; Stage 37; type Measurement; image type Hand-drawn picture); BMW/TL (maximum body width / total length) = 0.184169 (source row 177; Stage 37; type Measurement; image type Hand-drawn picture). Each is a dimensionless ratio of the labelled feature to total length, displayed to six decimal places. Recorded image types: Hand-drawn picture. These values describe proportions in the listed source images, not variation across a wild population.
+
+## 7 image ratio fields flagged for review {#s-b604f01cbd}
+TadpoleTraits version 4 flags 7 image-ratio fields: each supplied ratio differs by more than 0.001 from the same row’s numerator divided by total length. Flagged fields: BMH/TL (row 177), MTH/TL (row 177), TMH/TL (row 177), DFH/TL (row 177), VFH/TL (row 177), TMW/TL (row 177), OD/TL (row 177). The source cells remain unchanged; these ratios are unresolved and are not used as reader measurements pending source review.
+

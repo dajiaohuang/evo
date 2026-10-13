@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus klinikowskii
+  displayName: Eleutherodactylus klinikowskii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399DN
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus klinikowskii
+        zh: Eleutherodactylus klinikowskii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399DN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/248
+            queryName: Eleutherodactylus klinikowskii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/21
+            queryName: Euhyas klinikowskii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aab8acb5cd
+      - s-0897dd4fd5
+      - s-9bb6f1bfcc
+      - s-7895985f85
+      - s-ac0a20d708
+      - s-159daa6497
+      - s-950468fa2b
+      - s-1b0163c07c
+      - s-e5379028ff
+      - s-eadd608800
+      - s-cacf6318c0
+      - s-471ef6182f
+      - s-5d40a81a58
+      - s-d5226810eb
+      - s-89c8f7aee6
+      - s-6cedf61983
+    zh:
+      - s-72ee10edf5
+      - s-29cfd6e773
+      - s-84abc3388d
+      - s-c4b630aba5
+      - s-7bae1ebfc8
+      - s-bc292bf20c
+      - s-6493e24a62
+      - s-1d631d1ee0
+      - s-f38d7b6008
+      - s-06faf37aa9
+      - s-8ad56ad9aa
+      - s-86d2bb0016
+      - s-0ee3cbe0f9
+      - s-3e001bf277
+      - s-05f757c695
+      - s-79035d7f9e

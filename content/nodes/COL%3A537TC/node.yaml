@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stumpffia tetradactyla
+  displayName: Stumpffia tetradactyla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/537TC
+  sourceIndexes:
+    - name:
+        en: Stumpffia tetradactyla
+        zh: Stumpffia tetradactyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 537TC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/385
+            queryName: Stumpffia tetradactyla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/433
+            queryName: Rhombophryne tetradactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-17d48a626e
+      - s-d2f956b044
+      - s-9704a8f6a7
+      - s-fbf4c41fc8
+      - s-658bb4a89b
+      - s-28993e6c34
+      - s-7429e1cdb1
+      - s-d41077a3fb
+      - s-240efe61c3
+      - s-8c1b4c8d7f
+    zh:
+      - s-383a97a6d3
+      - s-75883bdd37
+      - s-4df910a317
+      - s-c8a2d8daab
+      - s-816582fbf9
+      - s-f240b2d8c2
+      - s-8ccb3221f6
+      - s-0b819021e0
+      - s-4e47c744b2
+      - s-fd93360424

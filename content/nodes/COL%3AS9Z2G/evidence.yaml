@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhacophorus napoensis Li, Liu, Yu & Sun, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Rhacophorus napoensis
+      zh: Rhacophorus napoensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f944979f74
+            part: title
+          zh:
+            page: zh
+            section: s-dfaccbaffa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f944979f74
+            part: body
+          zh:
+            page: zh
+            section: s-dfaccbaffa
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a7dc424799
+            part: title
+          zh:
+            page: zh
+            section: s-da58c7ef88
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a7dc424799
+            part: body
+          zh:
+            page: zh
+            section: s-da58c7ef88
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4e947056ce
+            part: title
+          zh:
+            page: zh
+            section: s-a4659798e5
+            part: title
+        sourceIds:
+          - primary-pmc9848650-s9z2g
+        text:
+          en:
+            page: en
+            section: s-4e947056ce
+            part: body
+          zh:
+            page: zh
+            section: s-a4659798e5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhacophorus napoensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/S9Z2G
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9848650-s9z2g
+        referenceId: ref-d7fbb83f-adf8-40f3-a559-4e0a4ba78150
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rhacophorus napoensis: Species distribution and ecology account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3978cfd022
+        part: body
+      zh:
+        page: zh
+        section: s-77ffe54969
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1117.85787
+        referenceId: ref-d7fbb83f-adf8-40f3-a559-4e0a4ba78150
+        sourceKey: primary-pmc9848650-s9z2g
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9848650/article.xml
+        sourceConcept: Rhacophorus napoensis
+        evidenceRead: "Rhacophorus napoensis: Species distribution and ecology account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Bushes beside large rocks near Nongyao
+              zh: 弄尧附近大岩石旁的灌丛
+            referenceId: ref-d7fbb83f-adf8-40f3-a559-4e0a4ba78150
+            sourceKey: primary-pmc9848650-s9z2g
+            locator: "Rhacophorus napoensis: Species distribution and ecology account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-85b4d53ce9
+                part: body
+              zh:
+                page: zh
+                section: s-117ccfbdf2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

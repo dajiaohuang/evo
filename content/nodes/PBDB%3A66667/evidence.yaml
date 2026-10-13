@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Erlikosaurus andrewsi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Erlikosaurus andrewsi
+      en: Erlikosaurus andrewsi
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-60ad99f7ae
+            part: body
+          en:
+            page: en
+            section: s-306813fd3a
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1e381c43f9
+            part: body
+          en:
+            page: en
+            section: s-19b8dae405
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-51eba36393
+            part: body
+          en:
+            page: en
+            section: s-bfd7593f2a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2416fe415b
+            part: body
+          en:
+            page: en
+            section: s-f9dfee0f68
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f69da235ad
+            part: body
+          en:
+            page: en
+            section: s-1d265b9fc2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Erlikosaurus andrewsi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=66667&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:66667; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:66667
+          selectedOccurrenceIds:
+            - occ:632009
+          selectedCollectionIds:
+            - col:67974
+          sourceReferenceIds:
+            - ref:13909
+          originalIdentificationMappings:
+            - occurrenceId: occ:632009
+              originalIdentifiedName: Erlikosaurus andrewsi n. gen. n. sp.
+              acceptedName: Erlikosaurus andrewsi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-716f278821
+        part: body
+      en:
+        page: en
+        section: s-af3931ebb4
+        part: body

@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachytarsophrys wenshanensis
+  displayName: Brachytarsophrys wenshanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M2KF2
+  sourceIndexes:
+    - name:
+        en: Brachytarsophrys wenshanensis
+        zh: Brachytarsophrys wenshanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M2KF2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/449
+            queryName: Brachytarsophrys wenshanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4509554374
+      - s-9ff96a0c6c
+      - s-6256d38517
+    zh:
+      - s-efd6f903d5
+      - s-02cf355b7c
+      - s-d902e0f7e6

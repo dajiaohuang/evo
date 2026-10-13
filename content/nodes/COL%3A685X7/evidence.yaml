@@ -1,0 +1,115 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Askidiosperma delicatulum H.P.Linder
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 685X7, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 685X7; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/685X7
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 685X7
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000340767-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 685X7 / WFO wfo-0000340767
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_6144_0
+        referenceId: ref-62e16f01-64dd-83da-ac30-ff627cddb289
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Askidiosperma delicatulum H.P.Linder account; SANBI/WFO archive rows 80697 (Morphology), 80405 (Habitat), 79853 (Diagnostic), source identifier 6144.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-70cbeda7b8
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-662b5e1b17
+          part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants tufted, 0.3-0.6 m tall, plant bases compact, without rhizomes or stolons. Culms unbranched terete, without a central cavity, more or less rugose, olivaceous, 0.3-0.6 m long, 0.3-0.5 mm in diameter. Leaf-sheaths 4-7, bicoloured with the lower 2/3 green and striate, the upper 1/3 golden brown, 10-12 mm long, acute, the mucro penicellate, ca. 1 mm long, sheath-margins the same texture as the body; sheaths caducous at anthesis, leaving only a ring at the nodes. Male inflorescences terminal on the culms, racemose, cylindrical, 15-25 x 6-8 mm; spathes persistent, slightly shorter than spikelets, chartaceous, narrowly ovate, acute. Spikelets sessile, imbricate, 1-5, erect, oblong, apically rounded, 6-10 x 5 mm, with 20-30 flowers; bracts taller than flowers, 4-7 mm long, very narrowly ovate, acute with a short mucro, margins entire, hyaline-membranous with a brown midrib and basal part. Flowers 3-3.5 mm long, glabrous, very dark brown; outer whorl of tepals, ovate, acute, chartaceous, less than half as long as inner whorl, lateral tepals keeled; inner tepals oblong, acute, 3-3.5 mm long, cartilaginous and almost black. Anthers with a single cell, 1.5 mm long, dehiscing inside the flowers; pistillode minute. Female inflorescences 15-25 x 10-15 mm, with a single spikelet; spathes shorter than the spikelets, persistent, chartaceous, narrowly elliptical, acute, to 15 mm long, the apical third pale brown and soon decaying, the basal 2/3 olivaceous, striate, persistent; spikelets with ca. 30 flowers, obovate, apically rounded, 12-17 mm long; bracts taller than and obscuring the flowers, 12-14 mm long, linear-ovate, acute with a small apical mucro, hyaline except for a brown midrib and somewhat widened brown area near the base. Flowers 2.5-3 mm long, glabrous; outer tepals ovate, acute, 1.8-2 mm long, cartilaginous, outer lateral tepals keeled; inner tepals oblong, acute, rounded on the back, 2.4-3 mm long. Staminodes present ovary with three free styles and three dehiscent locules.
+            textZh: Askidiosperma delicatulum H.P.Linder 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_6144_0
+            locator: "SANBI/WFO archive Morphology row 80697; source identifier 6144.0; cited publication: Linder, HP. 2001. Askidiosperma delicatulum, sp. nov., from the arid margins of the Cold Bokkeveld. Nord. J. Bot. 21(2): 195 - 199. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: This new species has similar spikelets and bracts as A. capitatum, and the general flower structure is also similar. However, the only other species of Askidiosperma with bicoloured bracts is A. rugosum, from which if differs by the spikelet shape.
+            textZh: SANBI 条目提供了 Askidiosperma delicatulum H.P.Linder 的鉴别特征。
+            sourceIds:
+              - sanbi_6144_0
+            locator: "SANBI/WFO archive Diagnostic row 79853; source identifier 6144.0; cited publication: Linder, HP. 2001. Askidiosperma delicatulum, sp. nov., from the arid margins of the Cold Bokkeveld. Nord. J. Bot. 21(2): 195 - 199. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Found in deeper sands along valleys and in seeps, where it is found with Staberoha ornata and Thamnochortus acuminatus. This area receives little rain, as it is in the rainshadow of the Olifantsriver Mountains, and is also very cold in winter, thus making it a harsh environment. The plants are probably killed by fire, and have to be reestablished from seed.
+            textZh: 该 SANBI 区域物种条目记录的生境：Found in deeper sands along valleys and in seeps, where it is found with Staberoha ornata and Thamnochortus acuminatus. This area receives little rain, as it is in the rainshadow of the Olifantsriver Mountains, and is also very cold in winter, thus making it a harsh environment. The plants are probably killed by fire, and have to be reestablished from seed.
+            sourceIds:
+              - sanbi_6144_0
+            locator: "SANBI/WFO archive Habitat row 80405; source identifier 6144.0; cited publication: Linder, HP. 2001. Askidiosperma delicatulum, sp. nov., from the arid margins of the Cold Bokkeveld. Nord. J. Bot. 21(2): 195 - 199. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

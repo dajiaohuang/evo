@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus cunicularius
+  displayName: Leptodactylus cunicularius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN46
+  sourceIndexes:
+    - name:
+        en: Leptodactylus cunicularius
+        zh: Leptodactylus cunicularius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN46
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/377
+            queryName: Leptodactylus cunicularius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d44d8dc120
+      - s-dba2b83444
+      - s-46dc6f2178
+      - s-d3aac9e268
+      - s-1a510cf79b
+      - s-a58bd86fc5
+      - s-b2762c5436
+      - s-cd40f3e100
+      - s-f2e865efda
+      - s-c914e8815c
+      - s-dec56f69b2
+      - s-2bc14cb0f5
+      - s-5167d13c30
+      - s-4df2db1675
+      - s-75a01a7819
+      - s-34f87bf272
+    zh:
+      - s-00fb6159ce
+      - s-fe98485dbc
+      - s-3b001e3e93
+      - s-41c3533243
+      - s-be9d409902
+      - s-adc19e5dbb
+      - s-4b19268b8c
+      - s-18dcf94eed
+      - s-0715699564
+      - s-b03232adc8
+      - s-620d57645f
+      - s-878c0c7f74
+      - s-426b4adbb9
+      - s-6c34d9a369
+      - s-280225cc3c
+      - s-1a10b28ea8

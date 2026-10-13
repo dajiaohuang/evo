@@ -1,0 +1,267 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dermophis oaxacae (Mertens, 1930)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dermophis oaxacae
+      zh: Dermophis oaxacae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-44b179574c
+            part: title
+          zh:
+            page: zh
+            section: s-a329ed6c22
+            part: title
+        text:
+          en:
+            page: en
+            section: s-44b179574c
+            part: body
+          zh:
+            page: zh
+            section: s-a329ed6c22
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-eb9b91a91a
+            part: title
+          zh:
+            page: zh
+            section: s-3048aa7a44
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eb9b91a91a
+            part: body
+          zh:
+            page: zh
+            section: s-3048aa7a44
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-62393497d5
+            part: title
+          zh:
+            page: zh
+            section: s-8cb8712a3e
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-62393497d5
+            part: body
+          zh:
+            page: zh
+            section: s-8cb8712a3e
+            part: body
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-56cb4254d8
+            part: title
+          zh:
+            page: zh
+            section: s-7c322f8f01
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - caeciliantraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-56cb4254d8
+            part: body
+          zh:
+            page: zh
+            section: s-7c322f8f01
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-1136c1c6a348bab34fb6061ea4e22fe9
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-b1a5ed9b1dd2167bc326fc03
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dermophis oaxacae
+          url: https://www.checklistbank.org/dataset/316115/taxon/34XMJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 586254, row 357759; Distribution.tsv rows 96837; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6638; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6633 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 59; Individual level data rows 1090, 1091, 1092, 1093, 1094, 1095, 1096, 1097, 1098, 1099; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0362a8864e
+        part: body
+      zh:
+        page: zh
+        section: s-3ae553f688
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "586254"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=586254
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 357759
+        key: "586254"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "586254"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 96837
+            key: 586254|Middle America|text|NULL|NULL

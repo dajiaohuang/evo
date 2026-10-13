@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa gomezi
+  displayName: Bolitoglossa gomezi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDPM
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa gomezi
+        zh: Bolitoglossa gomezi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDPM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/123
+            queryName: Bolitoglossa gomezi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-609d0e4698
+      - s-60fea8fe06
+      - s-35253df2cd
+      - s-b956bc24cd
+      - s-2450d6a94d
+      - s-530009f0d1
+      - s-14b2ad671a
+      - s-a825bbcad5
+    zh:
+      - s-5fcf627b77
+      - s-c773017985
+      - s-0f20a61acc
+      - s-6d7348bd03
+      - s-edc300e9cf
+      - s-8b51bd0427
+      - s-a2e48b798f
+      - s-a68e6f444a

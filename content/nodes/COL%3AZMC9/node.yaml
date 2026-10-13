@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylus werneri
+  displayName: Crossodactylus werneri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMC9
+  sourceIndexes:
+    - name:
+        en: Crossodactylus werneri
+        zh: Crossodactylus werneri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMC9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/236
+            queryName: Crossodactylus werneri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f8eaf00142
+      - s-3359887bfd
+      - s-55eb2bb2fa
+      - s-25e02d157f
+      - s-850aaf4924
+      - s-585bdec0f6
+      - s-70ef431fa8
+      - s-1baed992c6
+      - s-3cd7f98580
+      - s-f367b23420
+      - s-2d937eb6da
+      - s-0b33fed4ec
+      - s-baa1cfdd5f
+      - s-35efaa3bf8
+      - s-be3773c6fc
+      - s-6e2975ffcf
+    zh:
+      - s-9ce9c8fb66
+      - s-b09576a0ec
+      - s-cd4bb91274
+      - s-83146f5988
+      - s-86d3ed422b
+      - s-d8b100ca75
+      - s-0c8ede1abe
+      - s-880a860254
+      - s-fae31d98f9
+      - s-f12ee35c64
+      - s-ce8547c809
+      - s-5ec5870a02
+      - s-5cf7300ee3
+      - s-8b6f50f0b7
+      - s-269e090dde
+      - s-ddc5c0a2d8

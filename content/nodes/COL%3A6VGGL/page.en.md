@@ -1,0 +1,39 @@
+## Accepted name and placement {#s-f0da78f7f0}
+COL26.8 accepts Physalaemus signifer (Girard, 1853) as a species. Its recorded classification places it along Anura (order) → Leptodactylidae (family) → Physalaemus (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-19901821f0}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-8671ed0b3f}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Physalaemus signifer](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Leiuperidae/Physalaemus/Physalaemus_signifer/page.en.md)
+- [AmphiTherm curated snapshot: Physalaemus signifer](../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Leptodactylidae/Physalaemus/Physalaemus_signifer/page.en.md)
+
+## Selected critical upper thermal limit estimate — AmphiTherm source {#s-2eeb6dcd07}
+Deposited source concept: Physalaemus signifer, in AmphiTherm. Matching names provide a reading lead; equivalence with this current species concept remains unverified. Source row 2896 (ID 3207, Madalozzo_2018) reports 41.8 °C for larvae, metric CTmax, no response to prodding. Recorded acclimation temperature: 20 °C. Recorded heating/cooling rate: 0.25 °C/min. The source n_trait field is 15; sample sizes must not be summed across repeated cohorts. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is water; sex category unknown; animal origin wild. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review.
+
+## Selected critical lower thermal limit estimate — AmphiTherm source {#s-e0114f3294}
+Deposited source concept: Physalaemus signifer, in AmphiTherm. Matching names provide a reading lead; equivalence with this current species concept remains unverified. Source row 2938 (ID 3249, Madalozzo_2018) reports 7.8 °C for larvae, metric CTmin, no response to prodding. Recorded acclimation temperature: 20 °C. Recorded heating/cooling rate: 0.25 °C/min. The source n_trait field is 15; sample sizes must not be summed across repeated cohorts. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is water; sex category unknown; animal origin wild. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review.
+
+## A source-coded development mode and oviposition environment {#s-c3f3148f6b}
+The Atlantic Forest trait compilation codes Physalaemus signifer as having larval development and its oviposition as aquatic. A larval-development code does not specify larval duration, all larval habitats or the degree of dependence on standing water; those require additional evidence. These are literature-compiled categories, not newly observed spawning or a developmental experiment for this species. Exact correspondence between the source taxonomy and the current accepted concept remains uncertified.
+
+## Juvenile habitat and egg-site categories have defined scope {#s-0a62927bbe}
+The same row codes juvenile habitat as aquatic and marks bubble nests on still water; foam nests among the seven oviposition-site categories. More than one positive site category is retained rather than forcing a single reproductive mode. A juvenile-habitat code is not automatically an adult habitat preference. The compiled record does not newly establish clutch size, egg dimensions, parental attendance, spawning season or offspring survival.
+
+## Compiled lengths retain inference and measurement limits {#s-8f6a687b30}
+The row explicitly marks head width and tibia length as inferred, not an observed measurement from a new specimen. The article fills missing traits with a phylogenetic maximum-likelihood procedure; across the full pool, 139 head widths and 146 tibia lengths were inferred. Body length, head width and tibia length are retained numerically in the row-level evidence snapshot. The Methods use means when available and otherwise maxima, while the workbook length headers do not explicitly state units and do not consistently identify sex or stage. These cells are therefore not presented as new diagnostic millimetre measurements, a sex-specific range or measured species-wide variation. Upstream reference entries are preserved, but their original measurements have not been independently checked.
+
+## catalogue-profile / limitations {#s-7af817d988}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-84f163e691}
+The Atlantic Forest trait compilation codes Physalaemus signifer as having larval development and its oviposition as aquatic. A larval-development code does not specify larval duration, all larval habitats or the degree of dependence on standing water; those require additional evidence. These are literature-compiled categories, not newly observed spawning or a developmental experiment for this species. Exact correspondence between the source taxonomy and the current accepted concept remains uncertified.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-75b18abb5f}
+The same row codes juvenile habitat as aquatic and marks bubble nests on still water; foam nests among the seven oviposition-site categories. More than one positive site category is retained rather than forcing a single reproductive mode. A juvenile-habitat code is not automatically an adult habitat preference. The compiled record does not newly establish clutch size, egg dimensions, parental attendance, spawning season or offspring survival.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-d4f8fa6e70}
+The row explicitly marks head width and tibia length as inferred, not an observed measurement from a new specimen. The article fills missing traits with a phylogenetic maximum-likelihood procedure; across the full pool, 139 head widths and 146 tibia lengths were inferred. Body length, head width and tibia length are retained numerically in the row-level evidence snapshot. The Methods use means when available and otherwise maxima, while the workbook length headers do not explicitly state units and do not consistently identify sex or stage. These cells are therefore not presented as new diagnostic millimetre measurements, a sex-specific range or measured species-wide variation. Upstream reference entries are preserved, but their original measurements have not been independently checked.
+

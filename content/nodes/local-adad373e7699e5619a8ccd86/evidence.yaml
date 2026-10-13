@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Arthroleptis nlonakoensis
+    name:
+      en: Arthroleptis nlonakoensis
+      zh: Arthroleptis nlonakoensis
+    sourceClassification:
+      order: Anura
+      family: Arthroleptidae
+      genus: Arthroleptis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f908d04f55
+            part: body
+          zh:
+            page: zh
+            section: s-75198b1350
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a536374def
+            part: body
+          zh:
+            page: zh
+            section: s-7d1b710795
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 477, 478; Reference.csv rows 2494
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 477
+        values:
+          - Arthroleptidae
+          - Arthroleptis
+          - Arthroleptis nlonakoensis
+          - F
+          - "16.53"
+          - "5.25"
+          - "2.03"
+          - "1.03"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.15"
+          - "2.3"
+          - "0.98"
+          - NA
+          - "3.6"
+          - NA
+          - NA
+          - NA
+          - "9.05"
+          - "7.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.9"
+          - NA
+      - rowNumber: 478
+        values:
+          - Arthroleptidae
+          - Arthroleptis
+          - Arthroleptis nlonakoensis
+          - M
+          - "18.87"
+          - "6.11"
+          - "2.4"
+          - "1.07"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.4"
+          - "2.59"
+          - "1.19"
+          - NA
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - "10.4"
+          - "8.56"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.16"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2494
+        values:
+          - Anura
+          - Arthroleptis_nlonakoensis
+          - "Plath, M., Herrmann, H.-W., & Böhme, W. (2006). New frog species of the genus Phrynobatrachus (anura: Phrynobatrachidae) from Mt. Nlonako, Cameroon. Journal of Herpetology, 40(4), 486-495. https://doi.org/10.1670/0022-1511(2006)40[486:Nfsotg]2.0.Co;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - EN
+      - SL
+      - NS
+      - FLL
+      - TL
+      - THL
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - GYRT
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

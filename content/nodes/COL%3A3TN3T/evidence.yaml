@@ -1,0 +1,136 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptodactylus brevipes Cope, 1887
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptodactylus brevipes
+      zh: Leptodactylus brevipes
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-13b7cdcae7
+            part: title
+          zh:
+            page: zh
+            section: s-767b64bad8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-13b7cdcae7
+            part: body
+          zh:
+            page: zh
+            section: s-767b64bad8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b35f89c14f
+            part: title
+          zh:
+            page: zh
+            section: s-58d4aa8653
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b35f89c14f
+            part: body
+          zh:
+            page: zh
+            section: s-58d4aa8653
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-4270cffcc2
+            part: title
+          zh:
+            page: zh
+            section: s-7b3507be7e
+            part: title
+        sourceIds:
+          - carrillo-2022
+        text:
+          en:
+            page: en
+            section: s-4270cffcc2
+            part: body
+          zh:
+            page: zh
+            section: s-7b3507be7e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptodactylus brevipes
+          url: https://www.checklistbank.org/dataset/316115/taxon/3TN3T
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: carrillo-2022
+        referenceId: ref-ddf547da-64dd-4958-95d1-89bcf87150f0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Author institution repository abstract; Brazilian Cerrado observation; Revista Latinoamericana de Herpetologia 5(3):64–68
+          scope:
+            en: Dated, study-scoped reproductive observation; no universal population behaviour, complete species dossier or contemporary conservation assessment is inferred.
+            zh: 有年代和研究范围限定的繁殖观察；不推断普遍种群行为、完整物种档案或当代保护评估。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-55839bb23c
+        part: body
+      zh:
+        page: zh
+        section: s-2bb06b92ac
+        part: body
+    primaryStudyScopes:
+      - doi: 10.22201/fc.25942158e.2022.3.466
+        locator: Author institution repository abstract; Brazilian Cerrado observation; Revista Latinoamericana de Herpetologia 5(3):64–68
+        identityStatus: study uses the recorded species name; observational scope preserved, contemporary concept boundaries not independently certified
+        evidenceRead: author-institution-repository-abstract
+        rightsBoundary: new short factual synthesis; no reproduced source text, translation of source text or figures

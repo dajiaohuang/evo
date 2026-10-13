@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys gladius
+  displayName: Proceratophrys gladius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77Y7Z
+  sourceIndexes:
+    - name:
+        en: Proceratophrys gladius
+        zh: Proceratophrys gladius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77Y7Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/218
+            queryName: Proceratophrys gladius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fae9a1ff39
+      - s-88fe1792d7
+      - s-f54890e77d
+      - s-c6dd6637b4
+      - s-367dd87e23
+      - s-1ceeb66ec3
+      - s-0aa459382e
+      - s-e9b812a2e1
+      - s-15690bd745
+      - s-8c9a7785da
+      - s-ff2b941d46
+    zh:
+      - s-a9691d9b65
+      - s-cfc8e2f17f
+      - s-1f57ecc0df
+      - s-cb026c97e9
+      - s-11b2d300d9
+      - s-7af33fe551
+      - s-4e096118a9
+      - s-eccbbac407
+      - s-e0b17e5c67
+      - s-ae2a9fddc9
+      - s-bcff7ba4d0

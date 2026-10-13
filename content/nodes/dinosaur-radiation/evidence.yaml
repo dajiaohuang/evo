@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-760adbfa24
+      part: title
+    titleZh:
+      page: zh
+      section: s-2d2975f4ee
+      part: title
+    category: origin
+    startAge: 233
+    endAge: 228
+    regions:
+      - 74-taxon, 457-character morphology matrix
+    clades:
+      - Dinosauria
+      - Ornithischia
+      - Saurischia
+      - Theropoda
+    summary:
+      page: en
+      section: s-760adbfa24
+      part: body
+    summaryZh:
+      page: zh
+      section: s-2d2975f4ee
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-f0bb559836
+            part: title
+          zh:
+            page: zh
+            section: s-08a62aee3b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f0bb559836
+            part: body
+          zh:
+            page: zh
+            section: s-08a62aee3b
+            part: body
+        id: observed-material
+        sourceIds:
+          - baron-2017-dinosaur-relationships
+          - langer-2017-dinosaur-tree-reanalysis
+      - title:
+          en:
+            page: en
+            section: s-80cc4a234b
+            part: title
+          zh:
+            page: zh
+            section: s-91ff86fc65
+            part: title
+        text:
+          en:
+            page: en
+            section: s-80cc4a234b
+            part: body
+          zh:
+            page: zh
+            section: s-91ff86fc65
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - baron-2017-dinosaur-relationships
+          - langer-2017-dinosaur-tree-reanalysis
+    claimIds:
+      - claim:event:dinosaur-radiation
+    evidenceItems:
+      - statement: The cited 457-character analysis recovers Theropoda plus Ornithischia as Ornithoscelida, whereas the published rescoring and taxon-addition test recovers the traditional topology; these are competing matrix results, not directly observed ancestry or a settled definition of Dinosauria.
+        relation: supports
+        claimIds:
+          - claim:event:dinosaur-radiation
+        referenceLinks:
+          - referenceId: baron-2017-dinosaur-relationships
+            relation: supports
+            pages: 501–506
+            figure: "Figures 1–4; Supplementary Information: character list and matrix"
+            quoteLocator: Results; Phylogenetic analysis; Methods
+          - referenceId: langer-2017-dinosaur-tree-reanalysis
+            relation: contradicts
+            pages: E1–E3
+            figure: Figures 1–2; Supplementary Data
+            quoteLocator: Rescoring and taxon-addition tests
+    uncertaintyItems:
+      - statement: The 233–228 Ma atlas interval is a display context for early dinosaur fossils, not an age inferred by either morphology matrix.
+        relation: contextualizes
+        claimIds:
+          - claim:event:dinosaur-radiation
+        referenceLinks:
+          - referenceId: baron-2017-dinosaur-relationships
+            relation: supports
+            pages: 501–506
+            figure: "Figures 1–4; Supplementary Information: character list and matrix"
+            quoteLocator: Results; Phylogenetic analysis; Methods
+          - referenceId: langer-2017-dinosaur-tree-reanalysis
+            relation: contradicts
+            pages: E1–E3
+            figure: Figures 1–2; Supplementary Data
+            quoteLocator: Rescoring and taxon-addition tests
+    readerSources:
+      - id: baron-2017-dinosaur-relationships
+        referenceId: baron-2017-dinosaur-relationships
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 501–506; figure: Figures 1–4; Supplementary Information: character list and matrix; Results; Phylogenetic analysis; Methods"
+      - id: langer-2017-dinosaur-tree-reanalysis
+        referenceId: langer-2017-dinosaur-tree-reanalysis
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: E1–E3; figure: Figures 1–2; Supplementary Data; Rescoring and taxon-addition tests"
+  claims:
+    - subjectId: event:dinosaur-radiation
+      claimKind: scientific
+      claimType: topology
+      statement: The cited 457-character analysis recovers Theropoda plus Ornithischia as Ornithoscelida, whereas the published rescoring and taxon-addition test recovers the traditional topology; these are competing matrix results, not directly observed ancestry or a settled definition of Dinosauria.
+      confidence: contested
+      confidenceRationale: Contested confidence records reproducible but topology-sensitive primary analyses; character coding, outgroups and taxon sampling change the recovered root relationships.
+      referenceLinks:
+        - referenceId: baron-2017-dinosaur-relationships
+          relation: supports
+          pages: 501–506
+          figure: "Figures 1–4; Supplementary Information: character list and matrix"
+          quoteLocator: Results; Phylogenetic analysis; Methods
+        - referenceId: langer-2017-dinosaur-tree-reanalysis
+          relation: contradicts
+          pages: E1–E3
+          figure: Figures 1–2; Supplementary Data
+          quoteLocator: Rescoring and taxon-addition tests
+  claim-rationales.zh:
+    - 争议置信度反映了可复现但对拓扑设定敏感的一手分析；性状编码、外群与类群取样会改变根部关系。
+  claim-statements.zh:
+    - 所引 457 性状分析恢复兽脚类与鸟臀类组成鸟跖类，而已发表的重编码与增补类群检验恢复传统拓扑；二者是竞争性的矩阵结果，并非直接观察到的祖先关系或已经定论的恐龙定义。

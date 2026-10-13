@@ -1,0 +1,486 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plethodon grobmani Allen & Neill, 1949
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Plethodon grobmani
+      zh: Plethodon grobmani
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1605609a79
+            part: title
+          zh:
+            page: zh
+            section: s-df36ba3f5d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1605609a79
+            part: body
+          zh:
+            page: zh
+            section: s-df36ba3f5d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-588a94ec2d
+            part: title
+          zh:
+            page: zh
+            section: s-b4a6f0527c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-588a94ec2d
+            part: body
+          zh:
+            page: zh
+            section: s-b4a6f0527c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-3def8ef147
+            part: title
+          zh:
+            page: zh
+            section: s-a511cc8cb1
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-3def8ef147
+            part: body
+          zh:
+            page: zh
+            section: s-a511cc8cb1
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a27837df88
+            part: title
+          zh:
+            page: zh
+            section: s-631cd99ad6
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-a27837df88
+            part: body
+          zh:
+            page: zh
+            section: s-631cd99ad6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d31a424225
+            part: title
+          zh:
+            page: zh
+            section: s-dfb913e935
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-d31a424225
+            part: body
+          zh:
+            page: zh
+            section: s-dfb913e935
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-430164e06e
+            part: title
+          zh:
+            page: zh
+            section: s-578a804898
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-430164e06e
+            part: body
+          zh:
+            page: zh
+            section: s-578a804898
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-5498e88a8a
+            part: title
+          zh:
+            page: zh
+            section: s-d04d249a30
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Size_at_maturity_min_mm
+          - Size_at_maturity_max_mm
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-5498e88a8a
+            part: body
+          zh:
+            page: zh
+            section: s-d04d249a30
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-cc00a79666
+            part: title
+          zh:
+            page: zh
+            section: s-559c80e532
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-cc00a79666
+            part: body
+          zh:
+            page: zh
+            section: s-559c80e532
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3529916b9e
+            part: title
+          zh:
+            page: zh
+            section: s-9a4e579d93
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3529916b9e
+            part: body
+          zh:
+            page: zh
+            section: s-9a4e579d93
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-b459d692f91183e98015deeadc1d158d
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-5f1c435ed10da4e2367f3d8b
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-02dd8ef125
+            part: title
+          zh:
+            page: zh
+            section: s-4ac1a5ff58
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1548"
+        text:
+          en:
+            page: en
+            section: s-02dd8ef125
+            part: body
+          zh:
+            page: zh
+            section: s-4ac1a5ff58
+            part: body
+        sourceRowNumber: 1390
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-035ada6cdf
+            part: title
+          zh:
+            page: zh
+            section: s-d5f5d41633
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1574"
+        text:
+          en:
+            page: en
+            section: s-035ada6cdf
+            part: body
+          zh:
+            page: zh
+            section: s-d5f5d41633
+            part: body
+        sourceRowNumber: 1416
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Plethodon grobmani
+          url: https://www.checklistbank.org/dataset/316115/taxon/77PVT
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 208285, row 277292; Distribution.tsv rows 69540; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6408; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6403 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 1390, 1391, 1416, 1417; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-09c1747ed9
+        part: body
+      zh:
+        page: zh
+        section: s-6d9676b1b0
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "208285"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=208285
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName and species rank; authorship representation normalization limited to NFC, whitespace and and/& conjunction.
+      originalSourceAuthorship: Allen and Neill, 1949
+      colAuthorship: Allen & Neill, 1949
+      exactAuthorship: false
+      equivalentAuthorshipRepresentation: true
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 277292
+        key: "208285"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "208285"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 69540
+            key: 208285|North America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-b459d692f91183e98015deeadc1d158d
+      sourceRowId: Anf6408
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6408
+        bibliographyRowId: Anf6403
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Plethodon kentucki
+        candidateBibliographyRowIds:
+          - Anf6403
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-5f1c435ed10da4e2367f3d8b
+        scientificName: Plethodon grobmani
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2

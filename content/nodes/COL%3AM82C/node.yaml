@@ -1,0 +1,126 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana pulchella
+  displayName: Boana pulchella
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M82C
+  sourceIndexes:
+    - name:
+        en: Boana pulchella
+        zh: Boana pulchella
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M82C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/22
+            queryName: Boana pulchella
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 59
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/250
+            queryName: Hyla albovittata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/442
+            queryName: Hyla pulchella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/186
+            queryName: Hypsiboas pulchellus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 38
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/411
+            queryName: Hyla leucomelas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/412
+            queryName: Hyla agrestis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/413
+            queryName: Hyla vautieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/414
+            queryName: Hyla bracteator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/415
+            queryName: Hyla mocquardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/55
+            queryName: Hyla vautierii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/56
+            queryName: Scinax vautierii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/422
+            queryName: Hyla pulchella pulchella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c3721552c
+      - s-9a14a543bc
+      - s-430fca6f18
+      - s-b51e23ce72
+      - s-bc816ad536
+      - s-116cd7762d
+      - s-dafcd77932
+      - s-046449ed39
+      - s-e15facbf0c
+      - s-0749d09d15
+    zh:
+      - s-24675e00e1
+      - s-e4556b6279
+      - s-bc14b315d3
+      - s-f8bfc8be69
+      - s-a80370e81d
+      - s-475c507ec3
+      - s-5cba175c6a
+      - s-6a662b2911
+      - s-88ea4eacc7
+      - s-995a50d9d1

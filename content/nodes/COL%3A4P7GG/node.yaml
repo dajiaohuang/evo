@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne robinsoni
+  displayName: Pseudophryne robinsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P7GG
+  sourceIndexes:
+    - name:
+        en: Pseudophryne robinsoni
+        zh: Pseudophryne robinsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P7GG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/444
+            queryName: Pseudophryne robinsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e4cdac3a45
+      - s-ea2aa3f70a
+      - s-fb9a6a0c79
+      - s-363d639754
+      - s-94d73374ad
+      - s-b99979f686
+    zh:
+      - s-abcbb37386
+      - s-7a6d58d11d
+      - s-b193ed17de
+      - s-54bb580b7b
+      - s-494baa63e0
+      - s-401d3a6b20

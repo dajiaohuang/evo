@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis centralis
+  displayName: Chiasmocleis centralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ22
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis centralis
+        zh: Chiasmocleis centralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ22
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/244
+            queryName: Chiasmocleis centralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ebf9c5090a
+      - s-49c385ded2
+      - s-c1327ec4ab
+      - s-adc38ace89
+      - s-ccc4273bb7
+      - s-5ed1b9a23d
+      - s-b1064ef908
+      - s-70d2a9e5fa
+      - s-6e1b76223e
+      - s-8f753aa9f0
+      - s-afa4f8c47a
+      - s-125129770e
+      - s-6fc5aa05c5
+      - s-7d6b5a35f4
+      - s-9342fa4182
+      - s-ba0bd4cc36
+      - s-f32a677852
+      - s-1dcae5294c
+      - s-9cad9ed45e
+      - s-67ee38e214
+      - s-81003f9853
+      - s-fd69fb1548
+    zh:
+      - s-983a04502b
+      - s-87b50ea671
+      - s-f89d7f618c
+      - s-1169c7e629
+      - s-0d7ea69063
+      - s-96f0604d0b
+      - s-6230c7a0f3
+      - s-acb79f0e67
+      - s-40dbeab248
+      - s-128b77f1b0
+      - s-51a550d11f
+      - s-22f4762aa8
+      - s-5669fd7192
+      - s-15320eb742
+      - s-82a7ec8a76
+      - s-2e93f8987c
+      - s-3d93d818bb
+      - s-d2414778bb
+      - s-cab758fceb
+      - s-050b596f04
+      - s-f896d16088
+      - s-26196aabd9

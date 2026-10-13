@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella bergi
+  displayName: Rhinella bergi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7MH
+  sourceIndexes:
+    - name:
+        en: Rhinella bergi
+        zh: Rhinella bergi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7MH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/304
+            queryName: Rhinella bergi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/293
+            queryName: Bufo bergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/108
+            queryName: Chaunus bergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d3c9f5b3eb
+      - s-a12624153b
+      - s-3edf4f06a6
+      - s-c06efc4463
+      - s-10bd496f5a
+      - s-0bc59cabd3
+      - s-b2efc13669
+      - s-5fbb4ef69d
+    zh:
+      - s-0dd085d7ab
+      - s-f6b4f36108
+      - s-3897011ab4
+      - s-5bab141494
+      - s-cad75af6f9
+      - s-91d5ef5aa1
+      - s-1ac83458d1
+      - s-a22d696cab

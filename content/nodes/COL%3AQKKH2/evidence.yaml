@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microhyla daklakensis Hoang, Nguyen, Ninh, Luong, Pham, Nguyen, Orlov, Chen, Wang, Ziegler & Jiang, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Microhyla daklakensis
+      zh: Microhyla daklakensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7bdba5ef3e
+            part: title
+          zh:
+            page: zh
+            section: s-19275a0d77
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7bdba5ef3e
+            part: body
+          zh:
+            page: zh
+            section: s-19275a0d77
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-22ee964e4c
+            part: title
+          zh:
+            page: zh
+            section: s-a0c2d1db65
+            part: title
+        text:
+          en:
+            page: en
+            section: s-22ee964e4c
+            part: body
+          zh:
+            page: zh
+            section: s-a0c2d1db65
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-23cb64f849
+            part: title
+          zh:
+            page: zh
+            section: s-2c563a1254
+            part: title
+        sourceIds:
+          - primary-pmc8116321-qkkh2
+        text:
+          en:
+            page: en
+            section: s-23cb64f849
+            part: body
+          zh:
+            page: zh
+            section: s-2c563a1254
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-14e519009c
+            part: title
+          zh:
+            page: zh
+            section: s-63127859e0
+            part: title
+        sourceIds:
+          - primary-pmc8116321-qkkh2
+        text:
+          en:
+            page: en
+            section: s-14e519009c
+            part: body
+          zh:
+            page: zh
+            section: s-63127859e0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Microhyla daklakensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/QKKH2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc8116321-qkkh2
+        referenceId: ref-9640a6ed-babf-4bcb-a42a-d392ba96748c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Microhyla daklakensis: Species natural-history and distribution accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c364eb60c5
+        part: body
+      zh:
+        page: zh
+        section: s-b58bc8f140
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1036.56919
+        referenceId: ref-9640a6ed-babf-4bcb-a42a-d392ba96748c
+        sourceKey: primary-pmc8116321-qkkh2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8116321/article.xml
+        sourceConcept: Microhyla daklakensis
+        evidenceRead: "Microhyla daklakensis: Species natural-history and distribution accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Nam Ka type-locality records
+              zh: Nam Ka 模式地点记录
+            referenceId: ref-9640a6ed-babf-4bcb-a42a-d392ba96748c
+            sourceKey: primary-pmc8116321-qkkh2
+            locator: "Microhyla daklakensis: Species natural-history and distribution accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3e431a9192
+                part: body
+              zh:
+                page: zh
+                section: s-5a97594ab4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Temporary-pond observations with unknown eggs
+              zh: 临时水池观察及未知的卵
+            referenceId: ref-9640a6ed-babf-4bcb-a42a-d392ba96748c
+            sourceKey: primary-pmc8116321-qkkh2
+            locator: "Microhyla daklakensis: Species natural-history and distribution accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a4f2baaee7
+                part: body
+              zh:
+                page: zh
+                section: s-4d6059800e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

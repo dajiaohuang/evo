@@ -1,0 +1,107 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lophocricetus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Lophocricetus
+      en: Lophocricetus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-edf50d0174
+            part: body
+          en:
+            page: en
+            section: s-9331ef20df
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ac01b33f7f
+            part: body
+          en:
+            page: en
+            section: s-8322eb167f
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Lophocricetus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=91468
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:91468
+          readingTargets:
+            - name: Lophocricetus pusillus
+              pbdbTaxonId: txn:109220
+              canonicalPath: content/nodes/PBDB%3A109220
+            - name: Lophocricetus grabaui
+              pbdbTaxonId: txn:109219
+              canonicalPath: content/nodes/PBDB%3A109219
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3564229199
+        part: body
+      en:
+        page: en
+        section: s-a9d793bfed
+        part: body

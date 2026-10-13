@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus andinus
+  displayName: Atelopus andinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8XC
+  sourceIndexes:
+    - name:
+        en: Atelopus andinus
+        zh: Atelopus andinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8XC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/226
+            queryName: Atelopus andinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/204
+            queryName: Atelopus spumarius andinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/205
+            queryName: Atelopus pulcher andinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ac7598412
+      - s-a5e0b7fe4b
+      - s-22a0025d8e
+      - s-5bb9a96931
+      - s-6a1421fa4d
+      - s-bf60e97718
+      - s-47a560afb3
+      - s-34f86fe4fd
+      - s-18d8110066
+      - s-e26018a5d0
+    zh:
+      - s-9a2fdc8920
+      - s-99332c346f
+      - s-e0c55a77d1
+      - s-afd9c09bfe
+      - s-f5cd61df6b
+      - s-8c9a236968
+      - s-590d63a156
+      - s-a736fc878a
+      - s-ac2731dbef
+      - s-ab6e88190b

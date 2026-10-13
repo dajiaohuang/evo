@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega yoshina
+  displayName: Ameerega yoshina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ7K
+  sourceIndexes:
+    - name:
+        en: Ameerega yoshina
+        zh: Ameerega yoshina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ7K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/282
+            queryName: Ameerega yoshina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f707a995a
+      - s-8dba6e0bb3
+      - s-53a496b643
+      - s-85aecbb943
+      - s-ce31377132
+      - s-9d734c1a6f
+      - s-42e6ba2b36
+    zh:
+      - s-477f3bc275
+      - s-e588c2e5be
+      - s-c692f726c8
+      - s-07be755c2f
+      - s-1ab91bf03a
+      - s-ce06c7cf9b
+      - s-d62fb9e177

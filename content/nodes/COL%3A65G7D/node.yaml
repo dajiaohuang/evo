@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus vibekensis
+  displayName: Afrixalus vibekensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G7D
+  sourceIndexes:
+    - name:
+        en: Afrixalus vibekensis
+        zh: Afrixalus vibekensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G7D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/90
+            queryName: Afrixalus vibekensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/154
+            queryName: Afrixalus vibekae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/143
+            queryName: Afrixalus laevis vibekensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1cc6525b69
+      - s-f77e9ece92
+      - s-9e4fb2d4ba
+      - s-27823db89a
+      - s-e81289fc80
+      - s-14488af759
+      - s-f11a50d75c
+      - s-d32b85530e
+      - s-48f402079d
+      - s-0a01a03d3f
+    zh:
+      - s-59ccc776f9
+      - s-eb479fea69
+      - s-4c1f3d4082
+      - s-0b83453408
+      - s-e3c572a6b6
+      - s-35dd2ec13a
+      - s-c48e95e73c
+      - s-83c6589f02
+      - s-27326cda00
+      - s-5bf536790e

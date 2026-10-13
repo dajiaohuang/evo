@@ -1,0 +1,581 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aenocyon dirus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Aenocyon dirus
+      en: Aenocyon dirus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0ed5a9ca35
+            part: body
+          en:
+            page: en
+            section: s-b868d77d40
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dba88dc886
+            part: body
+          en:
+            page: en
+            section: s-76603733c9
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ea6f6275b8
+            part: body
+          en:
+            page: en
+            section: s-4f38a1762a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7d4c79158f
+            part: body
+          en:
+            page: en
+            section: s-1ab87e1241
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-85acc72ec4
+            part: body
+          en:
+            page: en
+            section: s-c017f18368
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Aenocyon dirus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=44837&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:44837; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:44837
+          selectedOccurrenceIds:
+            - occ:196213
+            - occ:196732
+            - occ:196932
+            - occ:197353
+            - occ:197498
+            - occ:197731
+            - occ:197859
+            - occ:197978
+            - occ:198145
+            - occ:198607
+            - occ:198872
+            - occ:199205
+            - occ:199271
+            - occ:199309
+            - occ:199337
+            - occ:199428
+            - occ:199686
+            - occ:199837
+            - occ:199867
+            - occ:199935
+            - occ:610349
+            - occ:623887
+            - occ:654796
+            - occ:661593
+            - occ:662216
+            - occ:662240
+            - occ:689842
+            - occ:709222
+            - occ:709948
+            - occ:732488
+            - occ:740235
+            - occ:745056
+            - occ:745057
+            - occ:789151
+            - occ:839964
+            - occ:841247
+            - occ:841996
+            - occ:915704
+            - occ:915925
+            - occ:1028842
+            - occ:1186496
+            - occ:1196135
+            - occ:1196392
+            - occ:1196494
+            - occ:1196892
+            - occ:1196936
+            - occ:1197787
+            - occ:1201173
+            - occ:1220347
+            - occ:1220348
+            - occ:1425301
+            - occ:1487200
+            - occ:1487207
+            - occ:1515298
+            - occ:1515325
+            - occ:1595480
+            - occ:1595482
+            - occ:1606758
+            - occ:1607363
+            - occ:1629201
+            - occ:1630567
+            - occ:1630633
+            - occ:1631042
+            - occ:1667169
+            - occ:1667170
+            - occ:1697664
+          selectedCollectionIds:
+            - col:20166
+            - col:20283
+            - col:20295
+            - col:20327
+            - col:20347
+            - col:20376
+            - col:20387
+            - col:20398
+            - col:20419
+            - col:20491
+            - col:20520
+            - col:20569
+            - col:20572
+            - col:20573
+            - col:20580
+            - col:20594
+            - col:20619
+            - col:20636
+            - col:20638
+            - col:20642
+            - col:65405
+            - col:20495
+            - col:70673
+            - col:71277
+            - col:71345
+            - col:71346
+            - col:74141
+            - col:75995
+            - col:76059
+            - col:63515
+            - col:79581
+            - col:79918
+            - col:79757
+            - col:85314
+            - col:93181
+            - col:93257
+            - col:93379
+            - col:104758
+            - col:104797
+            - col:93332
+            - col:150336
+            - col:154722
+            - col:154771
+            - col:34269
+            - col:154804
+            - col:154805
+            - col:154910
+            - col:155393
+            - col:20501
+            - col:20138
+            - col:197959
+            - col:79923
+            - col:206993
+            - col:195112
+            - col:154921
+            - col:204068
+            - col:145376
+            - col:227227
+            - col:227368
+            - col:230753
+            - col:230983
+            - col:86271
+            - col:231075
+            - col:236672
+            - col:232472
+            - col:240612
+          sourceReferenceIds:
+            - ref:3081
+            - ref:2607
+            - ref:6294
+            - ref:52058
+            - ref:1916
+            - ref:2611
+            - ref:2193
+            - ref:3580
+            - ref:3567
+            - ref:1936
+            - ref:2673
+            - ref:1793
+            - ref:2018
+            - ref:18853
+            - ref:19165
+            - ref:19694
+            - ref:23923
+            - ref:24078
+            - ref:2195
+            - ref:24884
+            - ref:25717
+            - ref:25748
+            - ref:46993
+            - ref:26708
+            - ref:26822
+            - ref:28773
+            - ref:3553
+            - ref:31531
+            - ref:31599
+            - ref:34884
+            - ref:35005
+            - ref:40141
+            - ref:48793
+            - ref:50316
+            - ref:50335
+            - ref:50338
+            - ref:50371
+            - ref:2451
+            - ref:50427
+            - ref:50711
+            - ref:67486
+            - ref:71195
+            - ref:73089
+            - ref:82549
+            - ref:1562
+            - ref:82811
+            - ref:85310
+            - ref:85454
+            - ref:85457
+            - ref:85524
+            - ref:89631
+            - ref:89632
+            - ref:90651
+          originalIdentificationMappings:
+            - occurrenceId: occ:196213
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:196732
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:196932
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:197353
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:197498
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:197731
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:197859
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:197978
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:198145
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:198607
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:198872
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:199205
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:199271
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:199309
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:199337
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:199428
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:199686
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:199837
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:199867
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:199935
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:610349
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:623887
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:654796
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:661593
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:662216
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:662240
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:689842
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:709222
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:709948
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:732488
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:745056
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:745057
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:789151
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:839964
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:841247
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:841996
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:915704
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:915925
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1028842
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1186496
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1196135
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1196392
+              originalIdentifiedName: Canis ayersi
+              acceptedName: Aenocyon dirus
+              difference: null
+            - occurrenceId: occ:1196494
+              originalIdentifiedName: Canis ayersi n. sp.
+              acceptedName: Aenocyon dirus
+              difference: null
+            - occurrenceId: occ:1196892
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1196936
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1197787
+              originalIdentifiedName: Aenocyon ayersi
+              acceptedName: Aenocyon dirus
+              difference: null
+            - occurrenceId: occ:1201173
+              originalIdentifiedName: Canis indianensis
+              acceptedName: Aenocyon dirus
+              difference: null
+            - occurrenceId: occ:1220347
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1220348
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1425301
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1487200
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1487207
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1515298
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1515325
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1607363
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1629201
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1630567
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1630633
+              originalIdentifiedName: Cuon primaevus
+              acceptedName: Aenocyon dirus
+              difference: null
+            - occurrenceId: occ:1631042
+              originalIdentifiedName: Canis dirus n. sp.
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1667169
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1667170
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+            - occurrenceId: occ:1697664
+              originalIdentifiedName: Canis dirus
+              acceptedName: Aenocyon dirus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-23b9192069
+        part: body
+      en:
+        page: en
+        section: s-494f47b828
+        part: body

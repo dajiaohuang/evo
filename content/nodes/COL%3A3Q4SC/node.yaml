@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema pusilla
+  displayName: Ischnocnema pusilla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4SC
+  sourceIndexes:
+    - name:
+        en: Ischnocnema pusilla
+        zh: Ischnocnema pusilla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4SC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/38
+            queryName: Ischnocnema pusilla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/170
+            queryName: Eleutherodactylus pusillus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4f43971c98
+      - s-cc3f051dc9
+      - s-b8f42e2286
+      - s-7ab62e65ac
+      - s-e598479067
+      - s-c48c0694dc
+    zh:
+      - s-8415dca390
+      - s-d20efde0c3
+      - s-7d0a448b22
+      - s-833ff2e209
+      - s-945a979d7a
+      - s-5106086e33

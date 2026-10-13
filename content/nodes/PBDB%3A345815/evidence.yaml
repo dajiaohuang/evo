@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Apateon gracilis
+    rank: species
+    sourceTaxonId: txn:345815
+    name:
+      en: Apateon gracilis
+      zh: Apateon gracilis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-bbde779b1a
+            part: body
+          zh:
+            page: zh
+            section: s-a043ea94b8
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-af26f85134
+            part: body
+          zh:
+            page: zh
+            section: s-f6dd0bdc51
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-02b515efbf
+            part: body
+          zh:
+            page: zh
+            section: s-3a590b21ae
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:345815; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.
+    occurrenceEvidence:
+      - occurrenceId: occ:517730
+        collectionId: col:52522
+        acceptedTaxonId: txn:345815
+        identifiedTaxonId: var:345815
+        identifiedName: Branchiosaurus gracilis n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:14125
+        bibliography: "J. Boy. 1990. Über einige Vertreter der Eryopoidea (Amphibia: Temnospondyli) aus dem europäischen Rotliegend (?höchstes Karbon - Perm), 3. Onchiodon; (On some representatives of the Eryopoidea (Amphibia: Temnospondyli) from the European Rotliegend (?Uppermost Carboniferous - Permian), 3. Onchiodon). Paläontologische Zeitschrift 64(3/4):287-312"
+        locality:
+          countryCode: DE
+          stateProvince: Saxony
+          county: Weißeritzkreis
+        stratigraphy:
+          group: Rotliegend
+          formation: Niederhäslich-Schweinsdorf
+          member: Niederhäslich limestone
+        olderAgeMa: 293.52
+        youngerAgeMa: 290.1
+      - occurrenceId: occ:1338570
+        collectionId: col:34797
+        acceptedTaxonId: txn:345815
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: FR
+          stateProvince: null
+          county: Allier
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 290.1
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-02b515efbf
+            part: body
+          zh:
+            page: zh
+            section: s-3a590b21ae
+            part: body
+        sourceIds: []

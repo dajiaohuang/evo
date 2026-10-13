@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger maculatus
+  displayName: Scutiger maculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W375
+  sourceIndexes:
+    - name:
+        en: Scutiger maculatus
+        zh: Scutiger maculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W375
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/154
+            queryName: Scutiger maculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/276
+            queryName: Aelurophryne maculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-22ac70675a
+      - s-e411d8466d
+      - s-04cd6891b8
+      - s-10575b7f69
+      - s-5f5d7b8075
+      - s-a4c14f65db
+      - s-cf6e91042c
+      - s-13871e19ed
+    zh:
+      - s-a8150c77a6
+      - s-145ca53755
+      - s-a4baaab13f
+      - s-a8f02b0164
+      - s-ff2937df02
+      - s-0ae9f38427
+      - s-94f8a264d6
+      - s-63b28f6b79

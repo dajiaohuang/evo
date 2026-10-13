@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mixophyes fleayi
+  displayName: Mixophyes fleayi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/43S2H
+  sourceIndexes:
+    - name:
+        en: Mixophyes fleayi
+        zh: Mixophyes fleayi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 43S2H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/127
+            queryName: Mixophyes fleayi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-356ee27720
+      - s-1d368a7fe9
+      - s-e0ccf55ef2
+      - s-7ecadde440
+      - s-09a9335e42
+      - s-47b23e4c4b
+      - s-c080899599
+      - s-b39c419158
+      - s-f0ba38d479
+      - s-7a15fd0e8e
+      - s-52733f2b3a
+      - s-95dde82293
+      - s-eed1e2ee0e
+      - s-248398ed40
+      - s-d76a1428aa
+      - s-07e6a0021f
+      - s-a34532e23e
+      - s-0b4d19110e
+      - s-f55f651b41
+      - s-aea7b15d46
+      - s-5135ab238a
+    zh:
+      - s-b1b99c3fa3
+      - s-9143b6cd60
+      - s-3618bb55d1
+      - s-e1b18d4816
+      - s-4957026511
+      - s-21618489ee
+      - s-42a96fd487
+      - s-fd6c254a99
+      - s-3dba37d238
+      - s-73b1ad713c
+      - s-fba529d7fc
+      - s-4dc79d2a9f
+      - s-3eb82b86a6
+      - s-bdd53e9026
+      - s-0cbc533390
+      - s-66c4e8e125
+      - s-dd3a9d2320
+      - s-9dea36608b
+      - s-f9517dc7e5
+      - s-8cd9d2f450
+      - s-13dc54001b

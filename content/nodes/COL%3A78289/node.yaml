@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon ventralis
+  displayName: Plethodon ventralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78289
+  sourceIndexes:
+    - name:
+        en: Plethodon ventralis
+        zh: Plethodon ventralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "78289"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/499
+            queryName: Plethodon ventralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9f8afc4224
+      - s-2cccdf5201
+      - s-6102de68ef
+      - s-99960fe099
+      - s-a152af535c
+      - s-74c4ebcc2d
+      - s-90d33d99e3
+      - s-40d08217b1
+    zh:
+      - s-8fdbf6da8d
+      - s-4542d82786
+      - s-4d1c95b950
+      - s-944c86935a
+      - s-f3e91ffacd
+      - s-99974297ff
+      - s-d8dc2796ab
+      - s-a148f61d5d

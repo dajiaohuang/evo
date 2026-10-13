@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Telmatornis priscus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Telmatornis priscus
+      en: Telmatornis priscus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-679100cdd2
+            part: body
+          en:
+            page: en
+            section: s-292feb3749
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-da8c3b8587
+            part: body
+          en:
+            page: en
+            section: s-9eacc62d35
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b80ecf4e0c
+            part: body
+          en:
+            page: en
+            section: s-db9d03374f
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7cc9e18bd1
+            part: body
+          en:
+            page: en
+            section: s-3b3cfcd141
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f4cc4f1a6d
+            part: body
+          en:
+            page: en
+            section: s-209ebd2212
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Telmatornis priscus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=119225&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:119225; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:119225
+          selectedOccurrenceIds:
+            - occ:281688
+            - occ:805403
+            - occ:805404
+            - occ:805411
+            - occ:806036
+            - occ:806550
+            - occ:1260992
+          selectedCollectionIds:
+            - col:26819
+            - col:87903
+            - col:87904
+            - col:88034
+            - col:88096
+          sourceReferenceIds:
+            - ref:29473
+            - ref:29790
+            - ref:34551
+            - ref:54671
+          originalIdentificationMappings:
+            - occurrenceId: occ:805403
+              originalIdentifiedName: Telmatornis priscus n. gen. n. sp.
+              acceptedName: Telmatornis priscus
+              difference: null
+            - occurrenceId: occ:805404
+              originalIdentifiedName: Telmatornis affinis n. sp.
+              acceptedName: Telmatornis priscus
+              difference: null
+            - occurrenceId: occ:805411
+              originalIdentifiedName: Palaeotringa vetus n. sp.
+              acceptedName: Telmatornis priscus
+              difference: null
+            - occurrenceId: occ:806036
+              originalIdentifiedName: Graculavus pumilis n. sp.
+              acceptedName: Telmatornis priscus
+              difference: null
+            - occurrenceId: occ:1260992
+              originalIdentifiedName: Palaeotringa vetus
+              acceptedName: Telmatornis priscus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-bf93318f21
+        part: body
+      en:
+        page: en
+        section: s-6434df84ad
+        part: body

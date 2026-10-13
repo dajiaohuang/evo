@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Helicoceras rotundicorne
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Helicoceras rotundicorne
+      en: Helicoceras rotundicorne
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0fe7b59eb6
+            part: body
+          en:
+            page: en
+            section: s-ae765f8ae9
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b3bf370958
+            part: body
+          en:
+            page: en
+            section: s-446df98d09
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-853c595fb7
+            part: body
+          en:
+            page: en
+            section: s-0aec1dd8e5
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1483813f09
+            part: body
+          en:
+            page: en
+            section: s-4f5b152450
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7e88e20bca
+            part: body
+          en:
+            page: en
+            section: s-6aa9187810
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Helicoceras rotundicorne
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=394096&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:394096; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:394096
+          selectedOccurrenceIds:
+            - occ:1462774
+          selectedCollectionIds:
+            - col:182754
+          sourceReferenceIds:
+            - ref:69945
+          originalIdentificationMappings:
+            - occurrenceId: occ:1462774
+              originalIdentifiedName: Helicoceras rotundicorne n. gen. n. sp.
+              acceptedName: Helicoceras rotundicorne
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-50edc7c330
+        part: body
+      en:
+        page: en
+        section: s-9cc072654d
+        part: body

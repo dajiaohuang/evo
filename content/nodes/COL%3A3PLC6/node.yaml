@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Incilius canaliferus
+  displayName: Incilius canaliferus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PLC6
+  sourceIndexes:
+    - name:
+        en: Incilius canaliferus
+        zh: Incilius canaliferus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PLC6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/441
+            queryName: Incilius canaliferus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/369
+            queryName: Bufo canaliferus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/132
+            queryName: Cranopsis canalifera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/133
+            queryName: Ollotis canalifera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d76252cd4a
+      - s-ce5642a212
+      - s-36029e0209
+      - s-5cee290e29
+      - s-7d4991c5b8
+      - s-6bc2c58bf9
+      - s-0470cd90e9
+      - s-308be09820
+      - s-abb330c0f2
+    zh:
+      - s-5cd272fc1a
+      - s-d8cfd9db71
+      - s-4d9950dd81
+      - s-96c857d88f
+      - s-97686f5ae6
+      - s-5f2f639d76
+      - s-e0a5f1e284
+      - s-480cabcd3d
+      - s-2c66d73647

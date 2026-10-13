@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium
+  displayName: Hyalinobatrachium
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZDG
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium
+        zh: Hyalinobatrachium
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZDG
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/434
+            queryName: Hyalinobatrachium
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 118
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5087e9fbc8
+      - s-756a29ae9c
+      - s-ca78b5e7a3
+      - s-6aacc51842
+      - s-22f0c2b362
+      - s-00e6b4580a
+      - s-825a40530c
+      - s-73fff2ce06
+      - s-8adf67716d
+      - s-6141e0bdcb
+      - s-4f072df39f
+      - s-3cbdf4f87e
+      - s-55b45228f1
+      - s-f0cc4ccc18
+      - s-3fa13d950d
+      - s-26bdc08e68
+      - s-3310437ac2
+      - s-f81aba4723
+      - s-1f3ed57e4e
+      - s-7d0cc5b6e1
+      - s-9e5946dccc
+      - s-947d1ef67b
+      - s-7b5e23d62f
+    zh:
+      - s-8323ca5de3
+      - s-797448217c
+      - s-f4d7551cdf
+      - s-6dbc206c01
+      - s-54aeab040c
+      - s-869b280527
+      - s-c987dc4519
+      - s-7c9e5e8b56
+      - s-6eee16c1ac
+      - s-3ad67953b3
+      - s-30758e863d
+      - s-58ebea1035
+      - s-66f9656539
+      - s-923d6e3a7d
+      - s-8958531874
+      - s-8403b0a1e5
+      - s-2e886be3a8
+      - s-e423e0aa75
+      - s-29e610bb45
+      - s-68c280ef1a
+      - s-d24e3e1b43
+      - s-20f00ff328
+      - s-f80ae67b4f

@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dicynodon angielczyki
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Dicynodon angielczyki
+      en: Dicynodon angielczyki
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1d41f4018b
+            part: body
+          en:
+            page: en
+            section: s-606a732802
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-526c7beebf
+            part: body
+          en:
+            page: en
+            section: s-87bec14b1e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4d8a47332f
+            part: body
+          en:
+            page: en
+            section: s-a6773c542f
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-db2ec0c20e
+            part: body
+          en:
+            page: en
+            section: s-440faa83db
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-13564d1519
+            part: body
+          en:
+            page: en
+            section: s-dde1fdb46f
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Dicynodon angielczyki
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=412192&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:412192; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:412192
+          selectedOccurrenceIds:
+            - occ:1081101
+            - occ:1325670
+            - occ:1607103
+            - occ:1607105
+          selectedCollectionIds:
+            - col:135698
+            - col:178128
+            - col:227294
+            - col:227295
+          sourceReferenceIds:
+            - ref:71900
+            - ref:82772
+          originalIdentificationMappings:
+            - occurrenceId: occ:1081101
+              originalIdentifiedName: Dicynodon angielczyki n. sp.
+              acceptedName: Dicynodon angielczyki
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0edd322154
+        part: body
+      en:
+        page: en
+        section: s-c002ac4d09
+        part: body

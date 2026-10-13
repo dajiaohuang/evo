@@ -1,0 +1,3 @@
+## *Mikania rondonensis*: long-tipped leaves and spikelike branches {#s-46d9095bf3}
+The Brazilian Flora 2020 regional field records opposite, papery leaves that are elliptic or lance-shaped, with entire margins and long, tapered tips. Three main veins and two additional veins above the base are listed. The upper surface may be hairless or sparsely glandular; the lower may be hairless or become so. Twining or hairless branches carry panicles with spikelike branches and nearly stalkless heads. The funnel-shaped corolla has triangular, pointed, glandular lobes; the fruitlets are hairless or sparsely hairy.
+

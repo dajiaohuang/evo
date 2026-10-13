@@ -1,0 +1,124 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Quaqua pulchra (Bruyns) Plowes
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4QZWD, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4QZWD; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4QZWD
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4QZWD
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001251169-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4QZWD / WFO wfo-0001251169
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14722_0
+        referenceId: ref-e8495b45-15cf-83d6-ab33-35614e512817
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Quaqua pulchra (Bruyns) Plowes account; archive rows 34096 (Morphology), 39995 (Habitat), source identifier 14722.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_10485_0
+        referenceId: ref-2d424a9c-827c-8df3-afc5-320d2a3cfd07
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Quaqua pulchra (Bruyns) Plowes account; archive rows 65958 (Diagnostic), source identifier 10485.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Aroena Like Q. parviflora but pedicels 2-4 mm long, corolla 8-16 mm diam., inside yellow near tips of lobes, elsewhere cream, dotted and ringed with red, covered with fine hairs and marginal cilia, corona reddish.
+            sourceIds:
+              - sanbi_14722_0
+            locator: "SANBI/WFO archive Morphology row 34096; source 14722.0; publication: Bruyns, PV. 2013. Apocynaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 248 - 264. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Plants mostly have fairly thick stems with stout and often decurved tubercles arranged into four neat angles. In this respect they bear some resemblance to plants of Q. inversa. The flowers develop from tiny peduncular patches which sometimes etiolate to a small peduncle up to 3 mm long (as in Q. parviflora and Q. inversa) and they are held facing downwards on a short pedicel. Quaqua pulchra has remarkably beautiful flowers. They are more or less flat, with a very shallow tubelet around the gynostegium and with spreading lobes whose apices are somewhat thickened. On the inside the lobes are yellow or yellowish green, which merges gradually into a mottling of red to maroon around the base. The mouth of the tube is usually mottled or barred with this darker colour on a white background, with the white background usually forming at least one ring but sometimes as many as three. The patches of red to maroon may be rather pallid, however, and one plain yellow-flowered plant was also once found near Vredendal. Flattened and much crinkled hairs are found on the inside of the flower on the darker, lower part of the corolla lobes only. There are also plenty of long, very slender cilia along the margins of the lobes. These are somewhat longer than the hairs on the corolla and are fine (not clavate at all) and rather untidily spreading and intertwined. The corona is reddish. It consists of slender outer lobes which are bifid into strongly spreading, almost filiform lobules towards their apices and are lightly channelled towards their bases. The inner lobes are small and are without any trace of a dorsal projection.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_10485_0
+            locator: "SANBI/WFO archive Diagnostic row 65958; source 10485.0; publication: Bruyns, PV. 2005. Stapeliads of southern Africa and Madagascar, Vol. 2. Umdaus Press, Hatfield. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Firm red sand and loam.
+            sourceIds:
+              - sanbi_14722_0
+            locator: "SANBI/WFO archive Habitat row 39995; source 14722.0; publication: Bruyns, PV. 2013. Apocynaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 248 - 264. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ingerophrynus macrotis
+  displayName: Ingerophrynus macrotis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PQ5Y
+  sourceIndexes:
+    - name:
+        en: Ingerophrynus macrotis
+        zh: Ingerophrynus macrotis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PQ5Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/1
+            queryName: Ingerophrynus macrotis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/367
+            queryName: Bufo macrotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-473eeff12b
+      - s-adf1aef863
+      - s-cd56bb2e79
+      - s-e251f633dc
+      - s-5b2ac9f0ce
+      - s-f63b5811ec
+      - s-8e680ccb88
+      - s-794dcdea1c
+      - s-81a3ef175e
+      - s-9b6db6eb61
+      - s-cf1d2e7497
+      - s-44b07d9ac3
+      - s-5286b80bbd
+    zh:
+      - s-5b36c84e32
+      - s-4cff4923c1
+      - s-dd1d55b85d
+      - s-bf03a7c985
+      - s-a72768b0f1
+      - s-99e928968c
+      - s-c06290d63b
+      - s-588eea4343
+      - s-06a34ab78b
+      - s-ef2fbe4094
+      - s-c1d06dc771
+      - s-7c7b051761
+      - s-1ec1659b22

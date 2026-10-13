@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Salamandra atra
+    name:
+      en: Salamandra atra
+      zh: Salamandra atra
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Salamandra
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c3eec91242
+            part: body
+          zh:
+            page: zh
+            section: s-e57267c8ad
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2ea2b4ae1d
+            part: body
+          zh:
+            page: zh
+            section: s-9275f627cf
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 341, 342; Reference.csv rows 4244
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 341
+        values:
+          - Salamandridae
+          - Salamandra
+          - Salamandra atra
+          - M
+          - "107.7"
+          - "58.2"
+          - NA
+          - "30.1"
+          - "14.7"
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - NA
+          - "4.6"
+          - NA
+          - "49.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "20.2"
+          - "22.2"
+          - NA
+          - NA
+          - "9.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 342
+        values:
+          - Salamandridae
+          - Salamandra
+          - Salamandra atra
+          - F
+          - "107.9"
+          - "59.6"
+          - NA
+          - "31.8"
+          - "14.8"
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - NA
+          - "4.7"
+          - NA
+          - "48.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.2"
+          - "20.9"
+          - NA
+          - NA
+          - "9.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4244
+        values:
+          - Caudata
+          - Salamandra_atra
+          - Bonato, L., & Steinfartz, S. (2005). Evolution of the melanistic colour in the Alpine salamander Salamandra atra as revealed by a new subspecies from the Venetian Prealps. Italian Journal of Zoology, 72(3), 253-260. https://doi.org/10.1080/11250000509356680
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - ED
+      - IND
+      - TL
+      - FLL
+      - HLL
+      - T3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6WZN4
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

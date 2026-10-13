@@ -1,0 +1,48 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chlorohyla
+  displayName: Chlorohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5QWG
+  sourceIndexes:
+    - name:
+        en: Chlorohyla
+        zh: Chlorohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5QWG
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/300
+            queryName: Chlorohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-67433aef1d
+      - s-3a1642da9a
+      - s-6f617c3d21
+      - s-9983287f5f
+    zh:
+      - s-5e38142403
+      - s-22075806fb
+      - s-5c823c86a0
+      - s-31ad34bbaf

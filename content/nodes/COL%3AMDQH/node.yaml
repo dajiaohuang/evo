@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa magnifica
+  displayName: Bolitoglossa magnifica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDQH
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa magnifica
+        zh: Bolitoglossa magnifica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDQH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/148
+            queryName: Bolitoglossa magnifica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/427
+            queryName: A Solution to the Large Black Salamander Problem (Genus Bolitoglossa) in Costa Rica and Panamá
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e95a504ef6
+      - s-22f18222cf
+      - s-66c20b666a
+      - s-32dbc65269
+      - s-8e18f1ea09
+      - s-64e43903bf
+      - s-4cffe74642
+      - s-f20311b0ce
+      - s-e4de4a0c6d
+    zh:
+      - s-10a0d80b79
+      - s-e9fe58e36e
+      - s-2fcfc0170b
+      - s-3119a35092
+      - s-934e829b70
+      - s-652ec5cd8f
+      - s-b1124f2e80
+      - s-7030b12337
+      - s-cc1170fc5d

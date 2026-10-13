@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylototriton umphangensis Pomchote, Peerachidacho, Hernandez, Sapewisut, Khonsue, Thammachoti & Nishikawa, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Tylototriton umphangensis
+      zh: Tylototriton umphangensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1dfff41f5b
+            part: title
+          zh:
+            page: zh
+            section: s-cbd66e7170
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1dfff41f5b
+            part: body
+          zh:
+            page: zh
+            section: s-cbd66e7170
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4b5fffb1d5
+            part: title
+          zh:
+            page: zh
+            section: s-da7346755e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4b5fffb1d5
+            part: body
+          zh:
+            page: zh
+            section: s-da7346755e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c650e3081e
+            part: title
+          zh:
+            page: zh
+            section: s-bd956d4514
+            part: title
+        sourceIds:
+          - primary-pmc8626410-tnjf9
+        text:
+          en:
+            page: en
+            section: s-c650e3081e
+            part: body
+          zh:
+            page: zh
+            section: s-bd956d4514
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b299611662
+            part: title
+          zh:
+            page: zh
+            section: s-3039aede94
+            part: title
+        sourceIds:
+          - primary-pmc8626410-tnjf9
+        text:
+          en:
+            page: en
+            section: s-b299611662
+            part: body
+          zh:
+            page: zh
+            section: s-3039aede94
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylototriton umphangensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/TNJF9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc8626410-tnjf9
+        referenceId: ref-73f55530-307a-474f-ab3f-27c4ef6f510b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton umphangensis: Species natural-history paragraph; collection microhabitat and pond measurements; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8ac2240969
+        part: body
+      zh:
+        page: zh
+        section: s-b903d048a8
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1072.75320
+        referenceId: ref-73f55530-307a-474f-ab3f-27c4ef6f510b
+        sourceKey: primary-pmc8626410-tnjf9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8626410/article.xml
+        sourceConcept: Tylototriton umphangensis
+        evidenceRead: "Tylototriton umphangensis: Species natural-history paragraph; collection microhabitat and pond measurements; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Rainy-season specimens in one temporary pond
+              zh: 一个雨季临时水塘中的标本
+            referenceId: ref-73f55530-307a-474f-ab3f-27c4ef6f510b
+            sourceKey: primary-pmc8626410-tnjf9
+            locator: "Tylototriton umphangensis: Species natural-history paragraph; collection microhabitat and pond measurements; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aed7478399
+                part: body
+              zh:
+                page: zh
+                section: s-d9f9e900ad
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Water measurements at collection
+              zh: 采集时的水体测量
+            referenceId: ref-73f55530-307a-474f-ab3f-27c4ef6f510b
+            sourceKey: primary-pmc8626410-tnjf9
+            locator: "Tylototriton umphangensis: Species natural-history paragraph; collection microhabitat and pond measurements; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-18f22267d0
+                part: body
+              zh:
+                page: zh
+                section: s-8ea5b67a17
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

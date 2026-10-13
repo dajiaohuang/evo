@@ -1,0 +1,109 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paragalago cocos (Heller, 1912)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 肯尼亚海岸矮伽拉戈
+      en: Kenya Coast Dwarf Galago
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-98440d40ed
+            part: body
+          en:
+            page: en
+            section: s-f2672cd9e4
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - butynski2006
+      - topic: socialBehavior
+        text:
+          zh:
+            page: zh
+            section: s-b7c55accbb
+            part: body
+          en:
+            page: en
+            section: s-fe6961b91f
+            part: body
+        sourceIds:
+          - harcourt1986_social
+          - butynski2006
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-eeeeae2a11
+            part: body
+          en:
+            page: en
+            section: s-2995026c2e
+            part: body
+        sourceIds:
+          - butynski2006
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4CVFZ
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-7d6427ee-987d-825e-a5e3-2123acc86021
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 用于参照 MDD v2.5 的英文普通名；不替代固定 COL 身份，也不支持生态结论。
+            en: Used to reference the English common name in MDD v2.5; it does not replace the pinned COL identity or support ecological claims.
+      - id: harcourt1986_social
+        referenceId: ref-3311bd57-c7c0-826d-a05a-c6ffe8485af0
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 标记重捕及无线电追踪支持两处肯尼亚海岸林的局地社会组织描述；原文用旧分类名称，需与 2006 年名称回顾合读。
+            en: Mark–recapture and radio-tracking support a local account of social organization at two Kenyan coastal forests; the paper used an older taxonomic name and should be read with the 2006 name review.
+      - id: butynski2006
+        referenceId: ref-57d7080a-1818-860c-ab91-877230f4c921
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 回顾肯尼亚沿岸旧研究的名称归属、鸣声辨识与区域分布；非现代种群调查。
+            en: Reviews name assignment in older Kenyan coastal studies, vocal identification and regional distribution; it is not a modern population survey.
+    limitations:
+      zh:
+        page: zh
+        section: s-45b71ad9aa
+        part: body
+      en:
+        page: en
+        section: s-72f94dca96
+        part: body

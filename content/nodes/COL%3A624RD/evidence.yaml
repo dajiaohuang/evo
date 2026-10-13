@@ -1,0 +1,412 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hemiphractidae Peters, 1862
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Hemiphractidae
+      zh: Hemiphractidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-70fc7a8e64
+            part: title
+          zh:
+            page: zh
+            section: s-64a36c36cc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-70fc7a8e64
+            part: body
+          zh:
+            page: zh
+            section: s-64a36c36cc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1334dcec79
+            part: title
+          zh:
+            page: zh
+            section: s-8cca3437d8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1334dcec79
+            part: body
+          zh:
+            page: zh
+            section: s-8cca3437d8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5032f80544
+            part: title
+          zh:
+            page: zh
+            section: s-4baa38f4cf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5032f80544
+            part: body
+          zh:
+            page: zh
+            section: s-4baa38f4cf
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5e006f6680
+            part: title
+          zh:
+            page: zh
+            section: s-f4f3e766de
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5e006f6680
+            part: body
+          zh:
+            page: zh
+            section: s-f4f3e766de
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-c5f4e55fe6
+            part: title
+          zh:
+            page: zh
+            section: s-931987f38e
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62P5B
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62P5B
+            label:
+              en: Cryptobatrachus
+              zh: Cryptobatrachus
+          - kind: catalogue
+            colId: 4KF4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4KF4
+            label:
+              en: Flectonotus
+              zh: Flectonotus
+          - kind: catalogue
+            colId: 4L76
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4L76
+            label:
+              en: Fritziana
+              zh: Fritziana
+          - kind: catalogue
+            colId: 4MF8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4MF8
+            label:
+              en: Gastrotheca
+              zh: Gastrotheca
+          - kind: catalogue
+            colId: 637K9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A637K9
+            label:
+              en: Hemiphractus
+              zh: Hemiphractus
+          - kind: catalogue
+            colId: 7M4S
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7M4S
+            label:
+              en: Stefania
+              zh: Stefania
+        text:
+          en:
+            page: en
+            section: s-c5f4e55fe6
+            part: body
+          zh:
+            page: zh
+            section: s-931987f38e
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-95fd74bd8e
+            part: title
+          zh:
+            page: zh
+            section: s-96cf3cefcc
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-95fd74bd8e
+            part: body
+          zh:
+            page: zh
+            section: s-96cf3cefcc
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hemiphractidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/624RD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Hemiphractidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Hemiphractidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6cc03dce35
+        part: body
+      zh:
+        page: zh
+        section: s-b60586f151
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Hemiphractidae
+      sourceRowIds:
+        - Anf2009
+        - Anf2010
+        - Anf2011
+        - Anf2012
+        - Anf2013
+        - Anf2014
+        - Anf2015
+        - Anf2016
+        - Anf2017
+        - Anf2018
+        - Anf2019
+        - Anf2020
+        - Anf2021
+        - Anf2022
+        - Anf2023
+        - Anf2024
+        - Anf2025
+        - Anf2026
+        - Anf2027
+        - Anf2028
+        - Anf2029
+        - Anf2030
+        - Anf2031
+        - Anf2032
+        - Anf2033
+        - Anf2034
+        - Anf2035
+        - Anf2036
+        - Anf2037
+        - Anf2038
+        - Anf2039
+        - Anf2040
+        - Anf2041
+        - Anf2042
+        - Anf2043
+        - Anf2044
+        - Anf2045
+        - Anf2046
+        - Anf2047
+        - Anf2048
+        - Anf2049
+        - Anf2050
+        - Anf2051
+        - Anf2052
+        - Anf2053
+        - Anf2054
+        - Anf2055
+        - Anf2056
+        - Anf2057
+        - Anf2058
+        - Anf2059
+        - Anf2060
+        - Anf2061
+        - Anf2062
+        - Anf2063
+        - Anf2064
+        - Anf2065
+        - Anf2066
+        - Anf2067
+        - Anf2068
+        - Anf2069
+        - Anf2070
+        - Anf2071
+        - Anf2072
+        - Anf2073
+        - Anf2074
+        - Anf2075
+        - Anf2076
+        - Anf2077
+        - Anf2078
+        - Anf2079
+        - Anf2080
+        - Anf2081
+        - Anf2082
+        - Anf2083
+        - Anf2084
+        - Anf2085
+        - Anf2086
+        - Anf2087
+        - Anf2088
+        - Anf2089
+        - Anf2090
+        - Anf2091
+        - Anf2092
+        - Anf2093
+        - Anf2094
+        - Anf2095
+        - Anf2096
+        - Anf2097
+        - Anf2098
+        - Anf2099
+        - Anf2100
+        - Anf2101
+        - Anf2102
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 81
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 53
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 65
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 54
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 26
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Gastrotheca pseustes
+          path: content/nodes/local-d3e27a44aed26e3088191b2d
+        - scientificName: Gastrotheca lateonota
+          path: content/nodes/local-f3550ab2d3570ecc1226d385
+        - scientificName: Gastrotheca riobambae
+          path: content/nodes/local-db6ac610e652cb7bafb13694
+        - scientificName: Gastrotheca litonedis
+          path: content/nodes/local-a17db3cc735b100d65d97034
+        - scientificName: Gastrotheca lojana
+          path: content/nodes/local-9d8f289563268db8e6829451
+      metrics:
+        - metric: CTmax
+          rows: 35
+          sourceConcepts: 5
+        - metric: CTmin
+          rows: 32
+          sourceConcepts: 4
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

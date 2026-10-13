@@ -1,0 +1,3 @@
+## Leaf glands, vinaceous flowers and a coriaceous follicle {#s-214a62532b}
+The Brazilian Flora 2020 entry records one warty petiolar nectary and 2, 3 or 4 warty rachis nectaries. Leaves have 8, 9, 10 or 11 pairs of pinnae; hair tufts on the lower leaflet surfaces are absent. The inflorescence is a simple thyrse and is vinaceous. The calyx and corolla are campanulate and glabrous; the corolla is vinaceous or purple. Filaments are vinaceous, a dorsal fold on the anther is conspicuous, and the ovary is glabrous or sparsely puberulous. The fruit is a velutinous, coriaceous follicle. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

@@ -1,0 +1,25 @@
+## The material behind this genome {#s-0b8993cca1}
+Sackton and colleagues (2019) added a genome for Apteryx rowi. NCBI master record PTFB00000000 belongs to PRJNA433110 and records sex as male; voucher ROM:ORN:R43461; tissue blood; recorded locality New Zealand: Okarito, Westland. These fields identify assembly material, not species-wide or wild-population statistics. Missing tissue or locality fields are not inferred here. The main and companion phylogenetic papers use the same genome set, not two independent population samples.
+
+## Kiwi relationships and the difficulty of short branches {#s-702501ad41}
+This species enters the 2019 palaeognath genome comparison. Cloutier and colleagues’ MP-EST and ASTRAL species trees associate kiwi with emu/cassowary, with rheas sister to that combined clade; concatenation differs for some relationships. The authors interpret gene-tree disagreement across short internal branches through incomplete lineage sorting, comparing marker types and retroelements. The result does not mean every gene supports one tree or include unsampled kiwi species in this species’ sample.
+
+## The 2015 life-history entry and this name {#s-f055aaa764}
+Apteryx rowi is accepted in pinned COL26.8 within Apterygidae. This page compares the same-name historical life-history entry using 7 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+
+## Different stages in the mass fields {#s-9282551254}
+Historical summary values are adult body mass 2600 g; mass at birth or hatching 325 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+
+## Reproduction and developmental timing {#s-12d22ad4bd}
+Available compilation fields are female maturity field (defined by the source as age at first conception) 1461 d; offspring per litter or eggs per clutch 1 offspring/eggs; oviposition to hatching 79 d; age at flight capability (leaving the nest in some source material) 6 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+
+## A longest record differs from usual lifespan {#s-18f5136fa3}
+The archive’s maximum_longevity_y value is 40 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+
+## How to trace these values to sources {#s-bd6344d1be}
+Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Ricklefs, 2010b, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+
+## Life-history evidence limits {#s-b30df55712}
+This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+New genome text uses Sackton et al. (2019), published main text, four figure captions and figure 1 pixels; the read sampling, marker extraction, species-tree methods, selected results and discussion passages of Cloutier et al. (2019); and ten NCBI WGS master records. Companion papers share material rather than independent population replicates. Other figure pixels, supplements, raw sequences and analysis code were not independently examined or rerun; the companion paper was not reviewed paragraph by paragraph in full. Candidate regulatory acceleration, open chromatin and a single-region chicken reporter assay are distinct evidence levels, not functional validation across all species. Complete biology remain unfinished.
+

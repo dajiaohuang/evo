@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius narismagnus
+  displayName: Thorius narismagnus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KT6
+  sourceIndexes:
+    - name:
+        en: Thorius narismagnus
+        zh: Thorius narismagnus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KT6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/51
+            queryName: Thorius narismagnus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/425
+            queryName: Thorius pennatulus narismagnus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9d55fc1b38
+      - s-727f20a96d
+      - s-db0955a264
+      - s-f0f1dcf09f
+      - s-fe2972cb0c
+      - s-7c8c8a928d
+      - s-ba9946bd19
+      - s-85cdc5cfcd
+    zh:
+      - s-3b05533cf3
+      - s-5d560bb01c
+      - s-f18e3b4f05
+      - s-1757c98932
+      - s-5acb608730
+      - s-2d10869dcd
+      - s-6af8b27f9d
+      - s-bd62c2c892

@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Angusaurus
+  displayName: Angusaurus
+  rank: genus
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=58499
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Angusaurus
+        zh: Angusaurus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: null
+          rank: group
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/60
+            queryName: Angusaurus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a53ef1d18
+      - s-96d434749e
+      - s-c835eafdbd
+      - s-689117c8fb
+    zh:
+      - s-05a948ed51
+      - s-665c032d17
+      - s-76f87eaf64
+      - s-df6c642b12

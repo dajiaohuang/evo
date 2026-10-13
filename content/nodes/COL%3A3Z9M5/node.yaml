@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus setiba
+  displayName: Melanophryniscus setiba
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9M5
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus setiba
+        zh: Melanophryniscus setiba
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9M5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/405
+            queryName: Melanophryniscus setiba
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1708a09ce0
+      - s-26b96543f1
+      - s-750c12540e
+      - s-8aa936a1d5
+      - s-eb5561ac77
+    zh:
+      - s-12085b0dde
+      - s-32db38782a
+      - s-aa9d966944
+      - s-65c3e28132
+      - s-1ff6f93795

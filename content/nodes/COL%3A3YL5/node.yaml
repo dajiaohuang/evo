@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cynops
+  displayName: Cynops
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3YL5
+  sourceIndexes:
+    - name:
+        en: Cynops
+        zh: Cynops
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3YL5
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/341
+            queryName: Cynops
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1028
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2ae3403628
+      - s-0deefa971d
+      - s-5ba103b6f2
+      - s-c21bc0c1e4
+      - s-633ca67ee6
+      - s-e070f71bce
+      - s-ac0558b4ce
+    zh:
+      - s-25741c350f
+      - s-ce29cae848
+      - s-d7e7089711
+      - s-a70fc518d3
+      - s-a7c17324bc
+      - s-570c1a94fa
+      - s-4d124a921f

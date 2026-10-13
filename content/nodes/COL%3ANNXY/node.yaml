@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufo ailaoanus
+  displayName: Bufo ailaoanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NNXY
+  sourceIndexes:
+    - name:
+        en: Bufo ailaoanus
+        zh: Bufo ailaoanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NNXY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/494
+            queryName: Bufo ailaoanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/436
+            queryName: Torrentophryne ailaoanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d48fbe4aca
+      - s-fc2956b31a
+      - s-87dc071e25
+      - s-bfc36088f7
+      - s-5c1070b5ff
+      - s-b36bd6cf8b
+      - s-6bcab58dff
+    zh:
+      - s-28d86e881e
+      - s-f6846b1773
+      - s-7c8187a2e6
+      - s-4cc814cfbd
+      - s-79b7335fc2
+      - s-cf5bda7642
+      - s-2b81e3d7b6

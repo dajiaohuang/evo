@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla fodiens
+  displayName: Microhyla fodiens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73H3F
+  sourceIndexes:
+    - name:
+        en: Microhyla fodiens
+        zh: Microhyla fodiens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73H3F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/4
+            queryName: Microhyla fodiens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-be85c4df32
+      - s-82cb2687ec
+      - s-dd455cab6b
+      - s-19a3d5b3db
+      - s-93500a94b2
+      - s-d0da575c4b
+      - s-ace8558c46
+      - s-9394230f49
+      - s-566ef354c7
+      - s-18ed203365
+      - s-b43a334233
+      - s-e388579e2d
+      - s-ff3f225f5b
+      - s-b637d11d10
+      - s-1e9028085f
+      - s-4a6974788a
+    zh:
+      - s-d198b39d70
+      - s-898e03ad8d
+      - s-b1b88eeda4
+      - s-bc3875a396
+      - s-0f9e4d7858
+      - s-a31ba61d41
+      - s-3bd8a662a7
+      - s-49c139b59a
+      - s-9af3540c4a
+      - s-c1604e61ed
+      - s-5202e41bfe
+      - s-9224ef6417
+      - s-3c750de955
+      - s-41d949d995
+      - s-61ac3cc075
+      - s-c08f5aef6b

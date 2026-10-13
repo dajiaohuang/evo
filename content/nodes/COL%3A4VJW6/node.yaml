@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax danae
+  displayName: Scinax danae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJW6
+  sourceIndexes:
+    - name:
+        en: Scinax danae
+        zh: Scinax danae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJW6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/31
+            queryName: Scinax danae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/431
+            queryName: Ololygon danae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-865d35c234
+      - s-35783ba0bc
+      - s-7748291935
+      - s-1e47db63b3
+      - s-9edf0f3686
+      - s-42299f70d9
+      - s-d12db5f4d4
+      - s-21c0f92a54
+      - s-e64cc3ec00
+      - s-6ad6326968
+    zh:
+      - s-3553b4992c
+      - s-3ae8dcb2e3
+      - s-afa85fc865
+      - s-363bd7e71f
+      - s-571002879f
+      - s-f6deafbf5e
+      - s-e2e2bd0e49
+      - s-b45901d2e9
+      - s-2ab90c1566
+      - s-6a367bfc8d

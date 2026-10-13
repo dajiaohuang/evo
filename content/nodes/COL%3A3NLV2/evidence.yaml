@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobius unisacculus Min, Baek, Song, Chang & Poyarkov, 2016
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobius unisacculus
+      zh: Hynobius unisacculus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c35d2874b6
+            part: title
+          zh:
+            page: zh
+            section: s-51281acaaf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c35d2874b6
+            part: body
+          zh:
+            page: zh
+            section: s-51281acaaf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e35d8602f0
+            part: title
+          zh:
+            page: zh
+            section: s-9086ae73be
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e35d8602f0
+            part: body
+          zh:
+            page: zh
+            section: s-9086ae73be
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1d4773081e
+            part: title
+          zh:
+            page: zh
+            section: s-0e0408d1d9
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1d4773081e
+            part: body
+          zh:
+            page: zh
+            section: s-0e0408d1d9
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-7c6984345db7609f59b638f7
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c1cce39efd
+            part: title
+          zh:
+            page: zh
+            section: s-c2c3aa4d84
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c1cce39efd
+            part: body
+          zh:
+            page: zh
+            section: s-c2c3aa4d84
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f53bb53dcb
+            part: title
+          zh:
+            page: zh
+            section: s-06265c8c4e
+            part: title
+        sourceIds:
+          - primary-pmc7830202-3nlv2
+        text:
+          en:
+            page: en
+            section: s-f53bb53dcb
+            part: body
+          zh:
+            page: zh
+            section: s-06265c8c4e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobius unisacculus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NLV2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 191, 192; Reference.csv rows 4072
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc7830202-3nlv2
+        referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hynobius unisacculus: Named treatments, comparative results and conservation paragraphs; additional original XML adult methods and explicitly pooled three-species natural history; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2c67bc7027
+        part: body
+      zh:
+        page: zh
+        section: s-d2564a95a8
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-7c6984345db7609f59b638f7
+        scientificName: Hynobius unisacculus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani11010187
+        referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+        sourceKey: primary-pmc7830202-3nlv2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7830202/article.xml
+        sourceConcept: Hynobius unisacculus
+        evidenceRead: "Hynobius unisacculus: Named treatments, comparative results and conservation paragraphs; additional original XML adult methods and explicitly pooled three-species natural history; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Fragmentation and a dated Vulnerable proposal
+              zh: 破碎及有日期易危提议
+            referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+            sourceKey: primary-pmc7830202-3nlv2
+            locator: PMC7830202 reading-sections section 6, paragraphs 3 and 8
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-71b6cf1bab
+                part: body
+              zh:
+                page: zh
+                section: s-0228b9db03
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

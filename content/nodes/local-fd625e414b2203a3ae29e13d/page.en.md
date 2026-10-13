@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Spinomantis elegans {#s-048c7e73c7}
+TadpoleTraits version 4 places Spinomantis elegans in Spinomantis (Mantellidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Mantidactylus elegans. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 4 literature rows and 0 image rows {#s-4d129b2929}
+TadpoleTraits version 4 links 4 literature rows and 0 image rows to Spinomantis elegans. Source row numbers — literature: 3448, 3449, 3450, 3451; image: none recorded. Populated measurement fields — literature: TL, BL, BMH, BMW, TaL, MTH, TMH, TMW, IND.a, END.b, IOD.a, E, SSD.a, NS.a; image: none recorded. Literature row 3448: Stage 35; Literature row 3449: Stage 25; Literature row 3450: Stage 35; Literature row 3451: Stage 25. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

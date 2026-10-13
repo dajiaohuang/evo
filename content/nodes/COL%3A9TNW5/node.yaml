@@ -1,0 +1,26 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scleroptila gutturalis (Rüppell, 1835)
+  displayName: Scleroptila gutturalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9TNW5
+  sourceIndexes:
+    - scientificName: Scleroptila gutturalis
+      sourceIdentity: COL:9TNW5
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators:
+        - path: data/sources/amniota-collection-stage-2026-10-03-historical-candidates.json.gz
+          recordIndex: 3
+          matchStatus: historical-name-candidate-not-concept-equivalence
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

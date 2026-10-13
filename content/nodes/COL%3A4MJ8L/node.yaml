@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis acerus
+  displayName: Pristimantis acerus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ8L
+  sourceIndexes:
+    - name:
+        en: Pristimantis acerus
+        zh: Pristimantis acerus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ8L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/80
+            queryName: Pristimantis acerus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/243
+            queryName: Eleutherodactylus acerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ef1961a7c3
+      - s-bf9a46a475
+      - s-cfba2a9480
+      - s-30c4d14a46
+      - s-41ac84e006
+      - s-4e99066f56
+      - s-b7c61ce5b7
+      - s-7dd31fec29
+      - s-82c7b344ed
+      - s-43082689bc
+      - s-69833ae827
+      - s-646916df8d
+      - s-b31cf966dd
+    zh:
+      - s-b6fc5a08d2
+      - s-2cb839264d
+      - s-5a44fff7c7
+      - s-2a87fd1f02
+      - s-bc7a60ed68
+      - s-33485e8bf0
+      - s-d19f9f29d7
+      - s-a67b88df63
+      - s-70f7ee6b53
+      - s-dcc155143f
+      - s-97dfc74ce9
+      - s-c194c7cae5
+      - s-4d596f2abb

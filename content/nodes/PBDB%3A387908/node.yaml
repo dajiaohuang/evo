@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Patagopipa
+  displayName: Patagopipa
+  rank: genus
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=387908
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Patagopipa
+        zh: Patagopipa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: null
+          rank: group
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/247
+            queryName: Patagopipa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8210636861
+      - s-157bafe67f
+      - s-9c7f574a7f
+      - s-087e4c306f
+    zh:
+      - s-0c82e4474e
+      - s-b6599afd4e
+      - s-970a11b7da
+      - s-55cb892457

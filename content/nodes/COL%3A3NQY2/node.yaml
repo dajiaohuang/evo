@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius pusillus
+  displayName: Hyperolius pusillus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQY2
+  sourceIndexes:
+    - name:
+        en: Hyperolius pusillus
+        zh: Hyperolius pusillus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQY2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/322
+            queryName: Hyperolius pusillus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/262
+            queryName: Crumenifera pusilla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/263
+            queryName: Hyperolius heuglini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/264
+            queryName: Rappia pusilla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/265
+            queryName: Hyperolius translucens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/266
+            queryName: Hyperolius milnei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-59a5d8d41e
+      - s-070909be2d
+      - s-8f8024440c
+      - s-8c81c76101
+      - s-832952ab57
+      - s-bc1da8bac4
+      - s-714c7b9b26
+      - s-b79a94823f
+      - s-909eef7895
+      - s-dcd05de8ec
+      - s-7c29b2e8f0
+      - s-f9c5f0d75d
+      - s-3b61b9fefa
+      - s-bb3ef0ef12
+      - s-34e4c93dfb
+      - s-82d2308f43
+      - s-114989636f
+    zh:
+      - s-ad2f68cd15
+      - s-780166fa92
+      - s-ffde1d8d8a
+      - s-6182e0d98d
+      - s-8ae2c5e5cc
+      - s-8ed43cfdd5
+      - s-bd0b6f4de6
+      - s-b8b49ee8be
+      - s-0caaedd53c
+      - s-53fcc98f95
+      - s-fe2fd61970
+      - s-0ac8673918
+      - s-ad02839002
+      - s-a23ea2a44e
+      - s-c33152fb62
+      - s-ecf959d1df
+      - s-1d1d5336d1

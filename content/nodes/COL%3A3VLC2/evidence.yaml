@@ -1,0 +1,136 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Lithospermum diversifolium DC.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3VLC2, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3VLC2; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3VLC2
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3VLC2
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001215488-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3VLC2 / WFO wfo-0001215488
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_930_0
+        referenceId: ref-9a6199ff-61a8-8018-ab96-6440f68f2f87
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Lithospermum diversifolium DC. account; archive rows 62592 (Morphology), source identifier 930.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_18266_0
+        referenceId: ref-8a928d94-9d9c-8cdc-a9ab-fa11a81d126b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Lithospermum diversifolium DC. account; archive rows 88911 (Habitat), source identifier 18266.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Stem herbaceous, erect, branched, minutely and adpressedly scabrid; lowest leaves patently and minutely hispid, oval-oblong, obtuse, flat and long attenuate into a petiole, middle leaves lanceolate, uppermost linear, sessile, revolute at the margins, adpressedly scabrid; racemes terminal, leafy; pedicels short; corolla twice as long as the calyx; nutlets ovoid, scarcely subacuminate, smooth, shining.
+            sourceIds:
+              - sanbi_930_0
+            locator: "SANBI/WFO archive Morphology row 62592; source 930.0; publication: Wright, CH. 1904. Boragineae, Fl. Cap. (Harvey) 4: 2 - 45. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15241#page/10/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In shelter of rocks. Upper Karoo, Dry Highveld Grassland.
+            sourceIds:
+              - sanbi_18266_0
+            locator: "SANBI/WFO archive Habitat row 88911; source 18266.0; publication: Retief, E. 2019. Boraginaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(1): 688 - 698. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-3f1b66a38d
+            part: title
+          zh:
+            page: zh
+            section: s-60740ed369
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3f1b66a38d
+            part: body
+          zh:
+            page: zh
+            section: s-60740ed369
+            part: body

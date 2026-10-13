@@ -1,0 +1,240 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Eleutherodactylus fowleri
+    name:
+      en: Eleutherodactylus fowleri
+      zh: Eleutherodactylus fowleri
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Eleutherodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0c324a5e91
+            part: body
+          zh:
+            page: zh
+            section: s-7c9ac53728
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1432b3e914
+            part: body
+          zh:
+            page: zh
+            section: s-98f308ba97
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1683, 1684; Reference.csv rows 2032
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1683
+        values:
+          - Brachycephaloidea
+          - Eleutherodactylus
+          - Eleutherodactylus fowleri
+          - F
+          - "30.6"
+          - "11.4"
+          - "12.3"
+          - "4.25"
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.55"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16.35"
+          - "14.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1684
+        values:
+          - Brachycephaloidea
+          - Eleutherodactylus
+          - Eleutherodactylus fowleri
+          - M
+          - "29.8"
+          - "10.8"
+          - "11.6"
+          - "4"
+          - "2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.6"
+          - "12.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2032
+        values:
+          - Anura
+          - Eleutherodactylus_fowleri
+          - Schwartz, A. (1973). Six new species of Eleutherodactylus (Anura, Leptodactylidae) from Hispaniola. Journal of Herpetology, 7(3), 249-273. https://doi.org/10.2307/1563010
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - EN
+      - TL
+      - THL
+      - Toe4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

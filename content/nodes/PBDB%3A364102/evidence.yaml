@@ -1,0 +1,295 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Halszkaraptorinae
+    rank: subfamily
+    sourceDatasetId: null
+    name:
+      zh: Halszkaraptorinae
+      en: Halszkaraptorinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - lee2022Natovenator
+          - cauMadzia2018Hulsanpes
+          - turnerPolNorell2011Mahakala
+        text:
+          zh:
+            page: zh
+            section: s-5dea2069da
+            part: body
+          en:
+            page: en
+            section: s-3eaa9508c2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - lee2022Natovenator
+          - cau2020Halszkaraptor
+          - cauMadzia2018Hulsanpes
+          - turnerPolNorell2011Mahakala
+        text:
+          zh:
+            page: zh
+            section: s-eaee5a574c
+            part: body
+          en:
+            page: en
+            section: s-a9d1ae5587
+            part: body
+      - topic: phylogeny
+        sourceIds:
+          - turnerPolNorell2011Mahakala
+          - cauMadzia2018Hulsanpes
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-9208f4312e
+            part: body
+          en:
+            page: en
+            section: s-4694c068a0
+            part: body
+      - topic: palaeobiology
+        sourceIds:
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+          - brownstein2020HalszkaraptorCorrection
+          - lee2022Natovenator
+          - cauMadzia2018Hulsanpes
+          - turnerPolNorell2011Mahakala
+        text:
+          zh:
+            page: zh
+            section: s-96e42d45f3
+            part: body
+          en:
+            page: en
+            section: s-9a9107eec4
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - lee2022Natovenator
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+          - cauMadzia2018Hulsanpes
+          - turnerPolNorell2011Mahakala
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-05339e3085
+            part: body
+          en:
+            page: en
+            section: s-4aa75d4471
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8f7f8df913
+            part: body
+          en:
+            page: en
+            section: s-651aaf5b1b
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-24781e3f8b
+            part: body
+          en:
+            page: en
+            section: s-47e784f538
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Halszkaraptorinae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=364102
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:364102
+          readingTargets:
+            - name: Natovenator polydontus
+              pbdbTaxonId: txn:468708
+              canonicalPath: content/nodes/PBDB%3A468708
+            - name: Mahakala omnogovae
+              pbdbTaxonId: txn:133919
+              canonicalPath: content/nodes/PBDB%3A133919
+            - name: Halszkaraptor escuilliei
+              pbdbTaxonId: txn:364104
+              canonicalPath: content/nodes/PBDB%3A364104
+            - name: Hulsanpes perlei
+              pbdbTaxonId: txn:67680
+              canonicalPath: content/nodes/PBDB%3A67680
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: lee2022Natovenator
+        referenceId: ref-61b73848-c367-4856-8e89-8862c823759c
+        fields:
+          - id
+          - title
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Discussion: comparisons with Halszkaraptor; Description and Tables 1–2 for Natovenator rib evidence."
+          accessedAt: 2026-10-03
+          scope:
+            zh: Natovenator 是独立比较标本，不替代 Halszkaraptor 的标本或行为记录。
+            en: Natovenator is an independent comparison specimen, not a substitute Halszkaraptor specimen or behavioral record.
+      - id: brownstein2019Halszkaraptor
+        referenceId: ref-ec15c01b-6bf0-4cc4-a7f7-82f983ada2f1
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Halszkaraptor escuilliei and the evolution of the paravian bauplan
+          url: https://doi.org/10.1038/s41598-019-52867-2
+          locator: Introduction, Results, Discussion, Conclusions, Materials and Methods; associated figure captions.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 具名作者的形态与系统重评及生态解释；不作直接行为资料或后续共识。
+            en: Named author’s comparative and phylogenetic reassessment with ecological interpretations; not direct behavioral evidence or later consensus.
+      - id: cau2020Halszkaraptor
+        referenceId: ref-200f7bd8-dad9-4757-b24d-2bf880253cab
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: The body plan of Halszkaraptor escuilliei (Dinosauria, Theropoda) is not a transitional form along the evolution of dromaeosaurid hypercarnivory
+          url: https://doi.org/10.7717/peerj.8672
+          locator: Introduction, Results, Discussion, Conclusions, Materials and Methods; associated figure captions.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 具名作者的形态与系统重评及生态解释；不作直接行为资料或后续共识。
+            en: Named author’s comparative and phylogenetic reassessment with ecological interpretations; not direct behavioral evidence or later consensus.
+      - id: brownstein2020HalszkaraptorCorrection
+        referenceId: ref-ddefecec-a28e-4471-9701-13b6438391af
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: "Author Correction: Halszkaraptor escuilliei and the evolution of the paravian bauplan"
+          url: https://doi.org/10.1038/s41598-020-60007-4
+          locator: "Entire correction: Figures 2 and 6 legends."
+          accessedAt: 2026-10-03
+          scope:
+            zh: 图注缩写与面板编号勘误，不作生态结论撤回。
+            en: Caption abbreviation and panel-label correction, not withdrawal of an ecological conclusion.
+      - id: cauMadzia2018Hulsanpes
+        referenceId: ref-11b2b6cd-cda3-48a9-9a03-46ade327ce11
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          title: Redescription and affinities of Hulsanpes perlei (Dinosauria, Theropoda) from the Upper Cretaceous of Mongolia
+          url: https://peerj.com/articles/4868/
+          locator: "Discussion: Mahakala 52/82-mm measurement discrepancy and relationship hypothesis; full main text read in P5-78."
+          accessedAt: 2026-10-03
+      - id: turnerPolNorell2011Mahakala
+        referenceId: ref-07d38353-15a6-48d4-a167-1e44878ccb6b
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: "Anatomy of Mahakala omnogovae (Theropoda: Dromaeosauridae), Tögrögiin Shiree, Mongolia"
+          url: https://doi.org/10.1206/3722.2
+          locator: Printed pp. 1–7, 31–35, 47–63; Table 1; diagnosis, forelimb and pedal descriptions, Discussion, Phylogeny, Conclusions and Appendix 2. Selected sections, not complete anatomical monograph reading.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2011 年对 IGM 100/1033 的选段骨骼描述与作者解释；没有原标本复量或矩阵重算。
+            en: Selected 2011 anatomical descriptions and interpretations of IGM 100/1033; no specimen remeasurement or matrix reanalysis.
+    limitations:
+      zh:
+        page: zh
+        section: s-c7cbaa61ad
+        part: body
+      en:
+        page: en
+        section: s-f27cab6f7d
+        part: body

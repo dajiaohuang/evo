@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus syphax
+  displayName: Leptodactylus syphax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN84
+  sourceIndexes:
+    - name:
+        en: Leptodactylus syphax
+        zh: Leptodactylus syphax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN84
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/440
+            queryName: Leptodactylus syphax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e25d57287
+      - s-8f5d93ed55
+      - s-dc3a53560b
+      - s-4627e5d688
+      - s-eb6fa90ecd
+      - s-f47e64033d
+      - s-2c642e2dc7
+      - s-68e111679e
+      - s-e09c2923e3
+      - s-9d4a583aec
+      - s-1dd8ca68c1
+      - s-535e09e969
+      - s-acc379a3df
+      - s-c53decefbe
+      - s-2897e8a8cb
+      - s-dc9e9dc492
+      - s-2ae2ab1143
+      - s-035759a788
+      - s-8e387be699
+      - s-c4b18811ab
+      - s-6efe00b8d8
+      - s-eb196802e7
+      - s-f55385d3a5
+      - s-fcc807a477
+      - s-e022d80821
+      - s-606703d819
+      - s-c2a546a6b7
+      - s-8e0ad57c40
+    zh:
+      - s-ca38821a90
+      - s-47ff828ce4
+      - s-6bb942d0af
+      - s-888c7cfc13
+      - s-cf9fa18301
+      - s-ed1f4826a1
+      - s-3737cebd2a
+      - s-f03e42d344
+      - s-e966f2f46c
+      - s-96005eef11
+      - s-f3313d5141
+      - s-9f8dfbaa86
+      - s-b89c86b95d
+      - s-44df801250
+      - s-a27cc781bf
+      - s-988f452a48
+      - s-558be28966
+      - s-6c0f664ee0
+      - s-7edca4001b
+      - s-699a4cf303
+      - s-5aa9f11269
+      - s-1597e4d495
+      - s-f9db042dbd
+      - s-7f9bddd91c
+      - s-c2b62a313a
+      - s-fa0ee13595
+      - s-c81d204e99
+      - s-78a3df84d9

@@ -1,0 +1,147 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anourosoricini
+    rank: tribe
+    sourceDatasetId: "2144"
+    name:
+      zh: Anourosoricini
+      en: Anourosoricini
+    sections:
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-a9b34bc3df
+            part: body
+          en:
+            page: en
+            section: s-a7211cfc13
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-9b39dfc418
+            part: body
+          en:
+            page: en
+            section: s-08a16e7a25
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Anourosoricini
+          url: https://www.checklistbank.org/dataset/316115/taxon/628BG
+          locator: Pinned name, rank and recorded ancestry.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 1 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 1
+            foraging: 1
+            activity: 1
+          readingTargets:
+            - name: Anourosorex squamipes
+              colId: LK4PK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3ALK4PK
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 3 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 0
+            foraging: 3
+            activity: 0
+          readingTargets:
+            - name: Anourosorex yamashinai
+              colId: 679V4
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A679V4
+            - name: Anourosorex assamensis
+              colId: 66XV4
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A66XV4
+            - name: Anourosorex schmidi
+              colId: 66Y6S
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A66Y6S
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+    limitations:
+      zh:
+        page: zh
+        section: s-c81bf18011
+        part: body
+      en:
+        page: en
+        section: s-d8db9a4876
+        part: body

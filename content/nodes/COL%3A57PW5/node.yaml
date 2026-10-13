@@ -1,0 +1,146 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus quadrangulum
+  displayName: Trachycephalus quadrangulum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PW5
+  sourceIndexes:
+    - name:
+        en: Trachycephalus quadrangulum
+        zh: Trachycephalus quadrangulum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PW5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/107
+            queryName: Trachycephalus quadrangulum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/447
+            queryName: Hyla spilomma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/448
+            queryName: Hyla paenulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/449
+            queryName: Hyla nigropunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/452
+            queryName: Acrodytes inflata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/453
+            queryName: Acrodytes spilomma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/454
+            queryName: Acrodytes modesta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/456
+            queryName: Hyla modesta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/457
+            queryName: Phrynohyas inflata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/458
+            queryName: Phrynohyas latifasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/459
+            queryName: Phrynohyas modesta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/460
+            queryName: Phrynohyas spilomma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/461
+            queryName: Phrynohyas corasterias
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/318
+            queryName: Hyla quadrangulum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d3ba09819e
+      - s-7c48f344d2
+      - s-0ee6188b1b
+      - s-83855f1d06
+      - s-9b36287fca
+      - s-467586c00c
+      - s-48154ba114
+      - s-150e8f5dd4
+      - s-6a9416d81d
+      - s-4804a5c88d
+      - s-f9b49118cd
+      - s-3826b28a95
+      - s-f6f062cdeb
+      - s-07efcc1313
+    zh:
+      - s-16ebd9afb0
+      - s-f657b4f461
+      - s-d0f34b5eee
+      - s-867d8fb304
+      - s-b2e14e0fe8
+      - s-66e96b199b
+      - s-898fb8fbd2
+      - s-c6899f928e
+      - s-ae599b0a27
+      - s-e743b845a5
+      - s-d8d343aa3b
+      - s-0655a3312b
+      - s-eceb7cb841
+      - s-e9f283d8e1

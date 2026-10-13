@@ -1,0 +1,118 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax nasicus
+  displayName: Scinax nasicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJXY
+  sourceIndexes:
+    - name:
+        en: Scinax nasicus
+        zh: Scinax nasicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJXY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/57
+            queryName: Scinax nasicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/485
+            queryName: Hyla nasica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/486
+            queryName: Hylella anisitsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/487
+            queryName: Hyla anisitzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/488
+            queryName: Ololygon nasica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/489
+            queryName: Ololygon nasicum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/490
+            queryName: Scinax nasica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/324
+            queryName: Hyla x-signata nasica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e6c042308
+      - s-1a980f72e2
+      - s-5e169047a6
+      - s-b93e001931
+      - s-4fcd7840d7
+      - s-a68b812b96
+      - s-036ffb85a6
+      - s-d9a1c3881b
+      - s-be4e749cc0
+      - s-5049c6b92b
+      - s-98197e8f3d
+      - s-debd077ae5
+      - s-c0fea3b987
+      - s-dc92675f31
+      - s-a3dcfec756
+      - s-67acffdca0
+      - s-79d43756d4
+      - s-48bed3a378
+    zh:
+      - s-c8bc7d309b
+      - s-1fed010c49
+      - s-785c2cf2e3
+      - s-cec1a60921
+      - s-27d98a5eda
+      - s-c88f4a2703
+      - s-8830ca3b4e
+      - s-e962e0bb49
+      - s-15cd386c16
+      - s-bc2dbb515e
+      - s-f8e5590511
+      - s-9962d0e44c
+      - s-2d71f70b9e
+      - s-23b88d758d
+      - s-71268d1528
+      - s-d1586b54cd
+      - s-4797c0507e
+      - s-0c915a50b6

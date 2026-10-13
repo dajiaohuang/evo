@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Silverstoneia
+  displayName: Silverstoneia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7GXD
+  sourceIndexes:
+    - name:
+        en: Silverstoneia
+        zh: Silverstoneia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7GXD
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/265
+            queryName: Silverstoneia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 181
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0094aca3d5
+      - s-a7145850be
+      - s-0e28cf3647
+      - s-47bd6fd68e
+      - s-f800b086a7
+      - s-6174d6af2d
+      - s-c7747296ad
+      - s-7455c63f62
+      - s-fdcbfed86f
+      - s-df6914b942
+      - s-9027717fec
+      - s-621060d893
+      - s-af0fd2e250
+      - s-4e56c059cd
+      - s-54dffb6b1b
+      - s-ba99498270
+      - s-e92a52e20a
+      - s-8ee2e9d48d
+      - s-3c5daa42ab
+      - s-9a2fff48ea
+    zh:
+      - s-2bd95446d9
+      - s-7c3ce63283
+      - s-7878511b74
+      - s-2a4040fb7b
+      - s-a37a47c5c2
+      - s-e491cc5d33
+      - s-8dc5f2271e
+      - s-21b613e37e
+      - s-6e0ae28b81
+      - s-7cb84933f1
+      - s-36f95ce813
+      - s-793f7bde36
+      - s-027be618ab
+      - s-b54f711643
+      - s-d5c3913550
+      - s-982c285cf5
+      - s-cc60286748
+      - s-b22c806683
+      - s-5027419dd3
+      - s-ff4cacc4a0

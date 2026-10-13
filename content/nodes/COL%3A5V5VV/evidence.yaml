@@ -1,0 +1,293 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anodonthyla moramora Glaw & Vences, 2005
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Anodonthyla moramora
+      zh: Anodonthyla moramora
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5a274edc36
+            part: title
+          zh:
+            page: zh
+            section: s-aea4142c5b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5a274edc36
+            part: body
+          zh:
+            page: zh
+            section: s-aea4142c5b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bf745696bb
+            part: title
+          zh:
+            page: zh
+            section: s-2d45eb7354
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bf745696bb
+            part: body
+          zh:
+            page: zh
+            section: s-2d45eb7354
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c027b52299
+            part: title
+          zh:
+            page: zh
+            section: s-5902334c3a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-c027b52299
+            part: body
+          zh:
+            page: zh
+            section: s-5902334c3a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9ba16a7c29
+            part: title
+          zh:
+            page: zh
+            section: s-3855733dc3
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-9ba16a7c29
+            part: body
+          zh:
+            page: zh
+            section: s-3855733dc3
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-c37067d9b0
+            part: title
+          zh:
+            page: zh
+            section: s-f1a09767f7
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-c37067d9b0
+            part: body
+          zh:
+            page: zh
+            section: s-f1a09767f7
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3805d8fbb4
+            part: title
+          zh:
+            page: zh
+            section: s-cb25ac86e8
+            part: title
+        sourceIds:
+          - amphibio
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3805d8fbb4
+            part: body
+          zh:
+            page: zh
+            section: s-cb25ac86e8
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-50e66ffbf85006944b0eb8c0a892fd02
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-02e626ca01b2809126aebae2
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4be3481d6c
+            part: title
+          zh:
+            page: zh
+            section: s-70cbfa6a3e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4be3481d6c
+            part: body
+          zh:
+            page: zh
+            section: s-70cbfa6a3e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Anodonthyla moramora
+          url: https://www.checklistbank.org/dataset/316115/taxon/5V5VV
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4127; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4128 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 357, 358; Reference.csv rows 25
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a5239ecf4b
+        part: body
+      zh:
+        page: zh
+        section: s-05770bb736
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-50e66ffbf85006944b0eb8c0a892fd02
+      sourceRowId: Anf4127
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4127
+        bibliographyRowId: Anf4128
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Anodonthyla montana
+        candidateBibliographyRowIds:
+          - Anf4128
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-02e626ca01b2809126aebae2
+        scientificName: Anodonthyla moramora
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

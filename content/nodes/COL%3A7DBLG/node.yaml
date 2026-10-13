@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton himalayanus
+  displayName: Tylototriton himalayanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLG
+  sourceIndexes:
+    - name:
+        en: Tylototriton himalayanus
+        zh: Tylototriton himalayanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/135
+            queryName: Tylototriton himalayanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7964d47da
+      - s-ca4ee68ab3
+      - s-6d8c15542c
+      - s-07a74f86d2
+      - s-6823da5d4b
+      - s-39f1fffdd0
+      - s-a2d31cd770
+      - s-fe1b79a44c
+      - s-a9a77ca8d0
+    zh:
+      - s-e6cbf08652
+      - s-0b181fd5d7
+      - s-b71b94d6c7
+      - s-d58986a5ba
+      - s-a47d344ed1
+      - s-0d0ab2160b
+      - s-fabd60cd5f
+      - s-7c34697889
+      - s-bb3ddcea7f

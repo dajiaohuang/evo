@@ -1,0 +1,33 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Smilodon
+  displayName: Smilodon
+  rank: genus
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=41079
+    parentSourceIdentifier: txn:92244
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=41079
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f3f3598174
+      - s-ff217757ae
+      - s-ed78a4a3dc
+      - s-1a578e2e2e
+      - s-ea205c458a
+    zh:
+      - s-ada63867d9
+      - s-a24d346c57
+      - s-8a37368a4b
+      - s-fce7082997
+      - s-8ecb578656

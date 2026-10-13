@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus lutzorum
+  displayName: Aplastodiscus lutzorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNMW
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus lutzorum
+        zh: Aplastodiscus lutzorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNMW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/92
+            queryName: Aplastodiscus lutzorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b0efd9cbe9
+      - s-c56455f46f
+      - s-fc959738a4
+      - s-fd920899c5
+      - s-e60854b787
+    zh:
+      - s-a73666b69b
+      - s-ceef3e543d
+      - s-b906708ecd
+      - s-93d1e1462c
+      - s-03982b401b

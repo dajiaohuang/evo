@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea papenfussi
+  displayName: Pseudoeurycea papenfussi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWRT
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea papenfussi
+        zh: Pseudoeurycea papenfussi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWRT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/309
+            queryName: Pseudoeurycea papenfussi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 30
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01a456644e
+      - s-ac14d489d1
+      - s-10f7fbdabb
+      - s-5ec10525b2
+      - s-efa0caaef7
+      - s-9b478da799
+      - s-e93fc5f63a
+      - s-718f0d474f
+    zh:
+      - s-43500f5b8f
+      - s-7df2baf8cc
+      - s-81baa95b78
+      - s-53e49eb705
+      - s-d4676882eb
+      - s-271787b772
+      - s-373ab8a9bf
+      - s-1d30e788ac

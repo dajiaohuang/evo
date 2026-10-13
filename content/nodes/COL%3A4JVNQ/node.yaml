@@ -1,0 +1,158 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platyplectrum ornatum
+  displayName: Platyplectrum ornatum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JVNQ
+  sourceIndexes:
+    - name:
+        en: Platyplectrum ornatum
+        zh: Platyplectrum ornatum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JVNQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/423
+            queryName: Platyplectrum ornatum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/154
+            queryName: Limnodynastes ornatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/133
+            queryName: Discoglossus ornatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/134
+            queryName: Perialia ornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/135
+            queryName: Platyplectrum marmoratum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/136
+            queryName: Platyplectrum occidentale
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/137
+            queryName: Borborocoetes ornatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/138
+            queryName: Opisthodon frauenfeldi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/139
+            queryName: Platyplectron ornatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/140
+            queryName: Opisthodon marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/141
+            queryName: Opisthodon occidentalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/142
+            queryName: Opisthodon ornatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d13d17a1e4
+      - s-518536ef4d
+      - s-f9d352ccf7
+      - s-aaa10a4448
+      - s-07cea5baa9
+      - s-883f2b27a3
+      - s-45d8adfdd6
+      - s-8dbb1a8280
+      - s-ff6c7ff949
+      - s-1aead61175
+      - s-7ae8c688f5
+      - s-9523441bb1
+      - s-f1227a7d68
+      - s-4e0ffb9776
+      - s-927d39fec8
+      - s-70b344ad5c
+      - s-e97996f342
+      - s-a253736ea1
+      - s-7272f43669
+      - s-4b6488168a
+      - s-4824423cba
+      - s-9df0ed4449
+      - s-8a897ff9ff
+      - s-251a4bf141
+      - s-4ce61b2c49
+      - s-64ef505731
+    zh:
+      - s-769525d4ca
+      - s-a54c818534
+      - s-2f396d0dda
+      - s-aeb9ff2a88
+      - s-d9c923c481
+      - s-f193297232
+      - s-cd466908fc
+      - s-d35e8f1da2
+      - s-a54ee34fc7
+      - s-6294e400d7
+      - s-82bc9be0d1
+      - s-b54d747a1b
+      - s-6f91bd3f14
+      - s-f27d644541
+      - s-d66938859d
+      - s-1124fc7017
+      - s-9d93dabe55
+      - s-a5937e5cea
+      - s-9a0764e084
+      - s-f6c199ae77
+      - s-153b0bef2c
+      - s-9b63e9882f
+      - s-ce16bd6836
+      - s-c6ff0c1f32
+      - s-11f7c0a2f0
+      - s-4d0430baf0

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates nocturnus
+  displayName: Aromobates nocturnus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GTRT
+  sourceIndexes:
+    - name:
+        en: Aromobates nocturnus
+        zh: Aromobates nocturnus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GTRT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/125
+            queryName: Aromobates nocturnus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/171
+            queryName: Aromobates aquaticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f6c822d34b
+      - s-3ca70c7df3
+      - s-d9e82c46df
+      - s-44c6d9f159
+      - s-39cdc512c5
+      - s-9ee1264437
+      - s-8f075d0bbc
+      - s-fab27d7a4f
+      - s-24bcfb656f
+      - s-5693f998ea
+      - s-74380812b5
+      - s-0075e27b4c
+      - s-a175a34056
+      - s-6948b32df0
+    zh:
+      - s-387345ee5b
+      - s-520c21f328
+      - s-63a7280cb0
+      - s-9c9920fc78
+      - s-4c652fa0b7
+      - s-b9866e3f9f
+      - s-01c4ee5a1a
+      - s-bb8e88bdc3
+      - s-aaa5830a0c
+      - s-a3b03d3e13
+      - s-d28743dd60
+      - s-70999f60ec
+      - s-5576495722
+      - s-40a52b1481

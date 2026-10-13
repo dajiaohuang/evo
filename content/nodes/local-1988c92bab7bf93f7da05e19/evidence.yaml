@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Dendropsophus timbeba
+    name:
+      en: Dendropsophus timbeba
+      zh: Dendropsophus timbeba
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Dendropsophus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Dendropsophus timbeba in the version 3 classification
+          zh: Dendropsophus timbeba 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-78530b3ad8
+            part: body
+          zh:
+            page: zh
+            section: s-98c9adbf40
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 10 populated trait fields
+          zh: 1 条测量行与 10 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cbf94c64ea
+            part: body
+          zh:
+            page: zh
+            section: s-5ce92114fe
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1549; Reference.csv rows 3023
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1549
+        values:
+          - Hylidae
+          - Dendropsophus
+          - Dendropsophus timbeba
+          - F
+          - "26"
+          - "7"
+          - "7.8"
+          - "2.3"
+          - "1"
+          - NA
+          - "2.8"
+          - NA
+          - "2.1"
+          - "2.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.4"
+          - NA
+          - "11.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3023
+        values:
+          - Anura
+          - Dendropsophus_timbeba
+          - "Duellman, W. E., & Trueb, L. (1989). Two new treefrogs of the Hyla parviceps group from the Amazon Basin in southern Peru. Herpetologica, 45(1), 1-10. "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 34S7F
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus tapichalaca
+  displayName: Hyloscirtus tapichalaca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGQP
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus tapichalaca
+        zh: Hyloscirtus tapichalaca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGQP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/73
+            queryName: Hyloscirtus tapichalaca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/480
+            queryName: Hyla tapichalaca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/406
+            queryName: Boana tapichalaca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/407
+            queryName: Colomascirtus tapichalaca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd705f07a1
+      - s-4538c90368
+      - s-8c3a86b8d2
+      - s-b19451fb89
+      - s-a1037b1aea
+      - s-97124755ce
+      - s-f6bc4364d3
+      - s-395dcd144b
+      - s-7d35d14acc
+    zh:
+      - s-72c5e9eb73
+      - s-d859714604
+      - s-58e198e673
+      - s-f8a5dc34f6
+      - s-0f01f47d09
+      - s-a5805c1662
+      - s-2f9e8f8dcb
+      - s-f155eb890f
+      - s-3a409274f7

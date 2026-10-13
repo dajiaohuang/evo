@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantinae Ohler & Dubois, 2012
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantinae
+      zh: Pristimantinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-eb77615c7e
+            part: title
+          zh:
+            page: zh
+            section: s-5ad9930f86
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eb77615c7e
+            part: body
+          zh:
+            page: zh
+            section: s-5ad9930f86
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-65c1a2f4b7
+            part: title
+          zh:
+            page: zh
+            section: s-86984e30cf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-65c1a2f4b7
+            part: body
+          zh:
+            page: zh
+            section: s-86984e30cf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-4697be6f28
+            part: title
+          zh:
+            page: zh
+            section: s-39c7b9ef29
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5HQS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5HQS
+            label:
+              en: Lynchius
+              zh: Lynchius
+          - kind: catalogue
+            colId: 69JS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A69JS
+            label:
+              en: Oreobates
+              zh: Oreobates
+          - kind: catalogue
+            colId: 6PCW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6PCW
+            label:
+              en: Phrynopus
+              zh: Phrynopus
+          - kind: catalogue
+            colId: 6VX3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6VX3
+            label:
+              en: Pristimantis
+              zh: Pristimantis
+          - kind: catalogue
+            colId: SRC7C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASRC7C
+            label:
+              en: Serranobatrachus
+              zh: Serranobatrachus
+          - kind: catalogue
+            colId: 7RS9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7RS9
+            label:
+              en: Tachiramantis
+              zh: Tachiramantis
+          - kind: catalogue
+            colId: 6494M
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6494M
+            label:
+              en: Yunganastes
+              zh: Yunganastes
+        text:
+          en:
+            page: en
+            section: s-4697be6f28
+            part: body
+          zh:
+            page: zh
+            section: s-39c7b9ef29
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/V58QP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b8748ac99c
+        part: body
+      zh:
+        page: zh
+        section: s-66df3e7cd0
+        part: body

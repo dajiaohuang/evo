@@ -1,0 +1,11 @@
+## Anf2003 的来源分类概念 {#s-a84161d78e}
+AmphiBIO v1 将第 Anf2003 行记为 Heleophryne depressa，来源分类列出 Heleophryne 属、Heleophrynidae 科和 Anura 目。汇编沿用《Amphibian Species of the World》（Frost 2011）的物种概念；现有记录尚未确认它与当前 COL26.8 物种概念等同。
+
+## 觅食类别——陆栖、水栖 {#s-2b02d98ce6}
+Heleophryne depressa 的第 Anf2003 行同时列出陆栖和水栖类别。这些是概括性层位，并未逐季节或发育阶段描述其变化。
+
+后续 TetrapodTraits 修订报告纠正了从早期汇编传播的部分两栖动物体重与微栖地记录。此处没有该物种行的逐项比对，因此这些历史类别在再利用前仍需核对；本页不替换为推测值，也不把每条原记录都判为错误。
+
+## 汇编记录的最大成体体长 {#s-9cac3cd737}
+记录的最大成体体长为 44.5 mm。无尾目（Anura）这里的体长是吻肛长，即从吻端到泄殖腔的距离。这些是汇编的最大成体值，并非每一个体的测量结果。
+

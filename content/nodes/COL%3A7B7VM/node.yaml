@@ -1,0 +1,26 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Synallaxis cinerea M. Wied-Neuwied, 1831
+  displayName: Synallaxis cinerea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7B7VM
+  sourceIndexes:
+    - scientificName: Synallaxis cinerea
+      sourceIdentity: COL:7B7VM
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators:
+        - path: data/sources/amniota-collection-stage-2026-10-03-historical-candidates.json.gz
+          recordIndex: 149
+          matchStatus: historical-name-candidate-not-concept-equivalence
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

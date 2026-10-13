@@ -1,0 +1,180 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Metoposaurus krasiejowensis
+    rank: species
+    sourceTaxonId: txn:455122
+    name:
+      en: Metoposaurus krasiejowensis
+      zh: Metoposaurus krasiejowensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-e167a1a6f0
+            part: body
+          zh:
+            page: zh
+            section: s-548f19341c
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 4 PBDB occurrence rows and collection fields
+          zh: 4 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-bc59bdcfeb
+            part: body
+          zh:
+            page: zh
+            section: s-6414d3f99b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Metoposaurus krasiejowensis
+          zh: Metoposaurus krasiejowensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-8b06e4b7c1
+            part: body
+          zh:
+            page: zh
+            section: s-4927fc214e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:455122; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: S. L. Brusatte, R. J. Butler, and O. Mateus, J. S. Steyer. 2015. A new species of Metoposaurus from the Late Triassic of Portugal and comments on the systematics and biogeography of metoposaurid temnospondyls. Journal of Vertebrate Paleontology
+    occurrenceEvidence:
+      - occurrenceId: occ:584070
+        collectionId: col:61448
+        acceptedTaxonId: txn:455122
+        identifiedTaxonId: txn:130944
+        identifiedName: Metoposaurus diagnosticus krasiejowensis
+        taxonomicDifference: subspecies not entered
+        referenceId: ref:78054
+        bibliography: J. Dzik, T. Sulej, and A. Kaim, R. Niedzwiedzki. 2000. Póznotriasowe cmentarzysko kregowców ladowych w Krasiejowie na Slasku Opolskim [Post-Triassic graveyard of terrestrial vertebrates in Krasiejów in Opole, Silesia]. Przeglad Geologiczny 48(3):226-235
+        locality:
+          countryCode: PL
+          stateProvince: Opole
+          county: null
+        stratigraphy:
+          group: null
+          formation: Grabowa
+          member: null
+        olderAgeMa: 237
+        youngerAgeMa: 205.7
+      - occurrenceId: occ:773661
+        collectionId: col:61449
+        acceptedTaxonId: txn:455122
+        taxonomicDifference: null
+        referenceId: ref:54714
+        bibliography: S. L. Brusatte, R. J. Butler, and O. Mateus, J. S. Steyer. 2015. A new species of Metoposaurus from the Late Triassic of Portugal and comments on the systematics and biogeography of metoposaurid temnospondyls. Journal of Vertebrate Paleontology
+        locality:
+          countryCode: PL
+          stateProvince: Opole
+          county: null
+        stratigraphy:
+          group: null
+          formation: Drawno Beds
+          member: null
+        olderAgeMa: 233.6
+        youngerAgeMa: 227.3
+      - occurrenceId: occ:930393
+        collectionId: col:106461
+        acceptedTaxonId: txn:455122
+        taxonomicDifference: null
+        referenceId: ref:54714
+        bibliography: S. L. Brusatte, R. J. Butler, and O. Mateus, J. S. Steyer. 2015. A new species of Metoposaurus from the Late Triassic of Portugal and comments on the systematics and biogeography of metoposaurid temnospondyls. Journal of Vertebrate Paleontology
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Weser
+          member: Kieselsandstein
+        olderAgeMa: 237
+        youngerAgeMa: 227.3
+      - occurrenceId: occ:930821
+        collectionId: col:106509
+        acceptedTaxonId: txn:455122
+        identifiedTaxonId: txn:130944
+        identifiedName: Metoposaurus diagnosticus krasiejowensis
+        taxonomicDifference: subspecies not entered
+        referenceId: ref:35596
+        bibliography: A. R. Milner and R. R. Schoch. 2004. The latest metoposaurids from Europe. Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen 232(2):231-252
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: null
+        stratigraphy:
+          group: Keuper
+          formation: Löwenstein
+          member: Middle Stubensandstein
+        olderAgeMa: 227.3
+        youngerAgeMa: 205.7
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Metoposaurus krasiejowensis
+          zh: Metoposaurus krasiejowensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-8b06e4b7c1
+            part: body
+          zh:
+            page: zh
+            section: s-4927fc214e
+            part: body
+        sourceIds: []

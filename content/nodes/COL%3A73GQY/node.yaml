@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla malang
+  displayName: Microhyla malang
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73GQY
+  sourceIndexes:
+    - name:
+        en: Microhyla malang
+        zh: Microhyla malang
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73GQY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/14
+            queryName: Microhyla malang
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-194f16e790
+      - s-7498ea9eb9
+      - s-e1db8628f7
+      - s-7d8db3d3f1
+      - s-e2c058abe3
+      - s-b5d11bd779
+      - s-97520053bc
+    zh:
+      - s-7f975280ac
+      - s-e7a968bd97
+      - s-3ae2d4a372
+      - s-b9df288688
+      - s-17e461bef5
+      - s-c1611c3b15
+      - s-b162290bb9

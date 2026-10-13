@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis devillei
+  displayName: Pristimantis devillei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJCZ
+  sourceIndexes:
+    - name:
+        en: Pristimantis devillei
+        zh: Pristimantis devillei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJCZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/237
+            queryName: Pristimantis devillei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/74
+            queryName: Eleutherodactylus devillei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/218
+            queryName: Hylodes devillei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b422bbff2c
+      - s-81cadb20c5
+      - s-c150560268
+      - s-131501a774
+      - s-9798c18f22
+      - s-f7a3d57761
+      - s-d3bee0a041
+      - s-32f04737cb
+      - s-6b7c5e0136
+      - s-135a0516cf
+      - s-54ecff730c
+      - s-3c37a73f9d
+      - s-cae5f5f818
+      - s-8dc47244cb
+      - s-47fcbf0a90
+      - s-d8e0705ca9
+      - s-6e11898a09
+      - s-4ece6daad2
+    zh:
+      - s-3dc64b6eb7
+      - s-964d0baa73
+      - s-949f2ee972
+      - s-212810387f
+      - s-79f8b3eb9e
+      - s-dbd7480a5f
+      - s-1d15ce2e96
+      - s-abe7cb5e37
+      - s-52555056ac
+      - s-db9e54644b
+      - s-ce21b164ff
+      - s-9ae360ef10
+      - s-9ee44f5026
+      - s-e3557c7c44
+      - s-3c728a857c
+      - s-ba21bd26df
+      - s-153f30be07
+      - s-a945a0ec90

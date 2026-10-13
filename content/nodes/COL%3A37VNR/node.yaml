@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryophytes versicolor
+  displayName: Dryophytes versicolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37VNR
+  sourceIndexes:
+    - name:
+        en: Dryophytes versicolor
+        zh: Dryophytes versicolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37VNR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/52
+            queryName: Dryophytes versicolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/252
+            queryName: Hyla versicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 856
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/446
+            queryName: Hyla versicolor versicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/373
+            queryName: Hyla versicolor phaeocrypta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/489
+            queryName: Dendrohyas versicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/490
+            queryName: Hyla richardii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/72
+            queryName: Hyla verrucosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/473
+            queryName: Hyla phaeocrypta phaeocrypta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db27514211
+      - s-9f1099a366
+      - s-fc3c224050
+      - s-08e2165b76
+      - s-eedd0a7f40
+      - s-e26436228b
+      - s-91a282aca8
+      - s-4a39b8ea12
+      - s-064a869a2e
+    zh:
+      - s-9c7d2b3d4a
+      - s-2a78c82190
+      - s-4cc3c44c21
+      - s-38e7de92ae
+      - s-ee3ae70769
+      - s-1facb0ad00
+      - s-1d0c2f13a5
+      - s-1e5912fa25
+      - s-f47c98e63d

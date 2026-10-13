@@ -1,0 +1,3 @@
+## Basal nectaries and an umbel shaped inflorescence {#s-7e5523e009}
+The Brazilian Flora 2020 entry records pubescent stems and linear stipules. The petiole and rachis are each under 5 cm. Subsessile, linear or pear shaped extrafloral nectaries occur between the basal leaflet pairs. Leaves have three pairs of elliptic or obovate leaflets with obtuse tips. Lanceolate bracts accompany an umbel shaped inflorescence. Flowers are asymmetric, with an obovate central adaxial petal and seven fertile stamens. The legume is indehiscent, erect and linear with a smooth exterior; seeds are arranged in one series. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

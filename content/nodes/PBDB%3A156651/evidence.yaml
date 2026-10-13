@@ -1,0 +1,399 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ctenochasma roemeri
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Ctenochasma roemeri
+      en: Ctenochasma roemeri
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3d536a8c2a
+            part: body
+          en:
+            page: en
+            section: s-1343e86971
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7994d99b86
+            part: body
+          en:
+            page: en
+            section: s-2f70a7abfa
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0f08d3d099
+            part: body
+          en:
+            page: en
+            section: s-3130c4e2b7
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9ab4354457
+            part: body
+          en:
+            page: en
+            section: s-fd9812bcda
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6801ce9dd4
+            part: body
+          en:
+            page: en
+            section: s-26b3e3fbe5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Ctenochasma roemeri
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=156651&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:156651; original response record indices retained in data/sources/pterosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: bae4c11926f8cde7bd7b1b7418d63b8ba856066f5005a9181b8bdf8dcb047035
+          pbdbTaxonId: txn:156651
+          selectedOccurrenceIds:
+            - occ:845872
+          selectedCollectionIds:
+            - col:94085
+          sourceReferenceIds:
+            - ref:31956
+          originalIdentificationMappings:
+            - occurrenceId: occ:845872
+              originalIdentifiedName: Ctenochasma roemeri n. gen. n. sp.
+              acceptedName: Ctenochasma roemeri
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Recorded PBDB accepted identity and parent chain
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=156651&show=parent,app,attr
+          locator: P5-42 retained accepted hierarchy; oid txn:156651; ancestry below the documented Pterosauria anchor.
+          accessedAt: 2026-10-02
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    limitations:
+      zh:
+        page: zh
+        section: s-099e8cdf1c
+        part: body
+      en:
+        page: en
+        section: s-06af4fec2e
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:156651
+    scientificName: Ctenochasma roemeri
+    commonName: Ctenochasma roemeri
+    commonNameZh: Ctenochasma roemeri
+    rank: species
+    parentName: Ctenochasma
+    extinct: true
+    geography: []
+    overview:
+      page: en
+      section: s-1343e86971
+      part: body
+    ecology:
+      diet: Not assessed from occurrence counts or depositional setting.
+      habitat: Collection environments are not a species-wide habitat assessment.
+      locomotion: Not independently assessed.
+      bodySize: Not assessed from this occurrence batch.
+      guild: Not assessed.
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-06af4fec2e
+      part: body
+    confidence: low
+    referenceIds:
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+    readerSections:
+      - id: pbdb-occurrence-1
+        title:
+          en: Which fossil records this name represents
+          zh: 这个名称对应哪些化石记录
+        text:
+          zh:
+            page: zh
+            section: s-3d536a8c2a
+            part: body
+          en:
+            page: en
+            section: s-1343e86971
+            part: body
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-2
+        title:
+          en: Begin with named collections and strata
+          zh: 从具名采集地和地层开始
+        text:
+          zh:
+            page: zh
+            section: s-7994d99b86
+            part: body
+          en:
+            page: en
+            section: s-2f70a7abfa
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-3
+        title:
+          en: Age bounds of these records
+          zh: 这些记录的年代边界
+        text:
+          zh:
+            page: zh
+            section: s-0f08d3d099
+            part: body
+          en:
+            page: en
+            section: s-3130c4e2b7
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-4
+        title:
+          en: Read preservation setting separately from living habitat
+          zh: 保存环境与生活环境分开阅读
+        text:
+          zh:
+            page: zh
+            section: s-9ab4354457
+            part: body
+          en:
+            page: en
+            section: s-fd9812bcda
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-5
+        title:
+          en: Follow collection records back to references
+          zh: 沿采集记录追到文献
+        text:
+          zh:
+            page: zh
+            section: s-6801ce9dd4
+            part: body
+          en:
+            page: en
+            section: s-26b3e3fbe5
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+    readerSources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 443
+        usage:
+          scope:
+            zh: 仅来源所述材料和数据库记录范围。
+            en: Only material and database-record scope described by this source.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 443
+        usage:
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    readerLimitations:
+      zh:
+        page: zh
+        section: s-099e8cdf1c
+        part: body
+      en:
+        page: en
+        section: s-06af4fec2e
+        part: body
+    readerRelatedPages:
+      - targetId: txn:38485
+        label:
+          en: Ctenochasma
+          zh: Ctenochasma
+        context:
+          zh: 返回记录父级的阅读入口，保留各出现与采集记录的范围。
+          en: Return to the recorded parent reading route, retaining occurrence and collection scope.
+      - targetId: txn:156643
+        label:
+          en: Ctenochasma porocristata
+          zh: Ctenochasma porocristata
+        context:
+          zh: 对读该物种的具名采集地、地层区间与原引文；不是完整生态比较。
+          en: Compare this species’ named collections, stratigraphic brackets and original reference links; not a complete ecological comparison.
+      - targetId: txn:156652
+        label:
+          en: Ctenochasma taqueti
+          zh: Ctenochasma taqueti
+        context:
+          zh: 对读该物种的具名采集地、地层区间与原引文；不是完整生态比较。
+          en: Compare this species’ named collections, stratigraphic brackets and original reference links; not a complete ecological comparison.
+  atlas-node:
+    name: Ctenochasma roemeri
+    commonName: Ctenochasma roemeri
+    commonNameZh: Ctenochasma roemeri
+    rank: species
+    taxonId: txn:156651
+    firstAppearance: 143.1
+    lastAppearance: 137.05
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  ranges:
+    - entityId: txn:156651
+      rangeKind: global-composite
+      taxonomicConcept: Ctenochasma roemeri
+      geographicScope: PBDB database represented occurrences, not a complete geographic distribution
+      olderMa: 143.1
+      youngerMa: 137.05
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: PBDB first-occurrence bracket 143.1–137.05 Ma and last-occurrence bracket 143.1–137.05 Ma. Database summary uses all represented occurrences, while reader paragraphs explicitly use the eligible subset. Neither is a direct specimen date, origin or extinction estimate.
+      evidenceBasis: Dated accepted-taxonomy app fields retained in P5-42 source snapshots; database-derived appearance brackets.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+          locator: P5-42 accepted hierarchy oid txn:156651; fea/fla/lea/lla in retained taxa response.
+      evidenceLevel: database-derived

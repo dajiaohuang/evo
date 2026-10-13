@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea lucifuga
+  displayName: Eurycea lucifuga
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3H6
+  sourceIndexes:
+    - name:
+        en: Eurycea lucifuga
+        zh: Eurycea lucifuga
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3H6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/420
+            queryName: Eurycea lucifuga
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1599
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/213
+            queryName: Spelerpes lucifuga
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/214
+            queryName: Gyrinophilus maculicaudus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/215
+            queryName: Spelerpes maculicaudus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/216
+            queryName: Spelerpes maculicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/412
+            queryName: Eurycea longicauda lucifuga
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dc940c903d
+      - s-7f5d65eb41
+      - s-3d2609ac25
+      - s-9e7166f098
+      - s-c59a874eee
+      - s-9bfeab3fb8
+      - s-413219f553
+      - s-755fd775fa
+      - s-180b8aea3e
+      - s-8a7d702e8b
+      - s-3193b3db15
+      - s-ad20ccddad
+      - s-3e19d997a6
+      - s-8754444439
+      - s-f1be9e0745
+      - s-75d8c684f3
+      - s-029738a385
+      - s-0a3b629250
+      - s-ccb6587722
+      - s-5af3dd02e1
+      - s-cb752ced14
+      - s-dacd1aeff2
+      - s-c1e84ec663
+    zh:
+      - s-ffd6734653
+      - s-4542b47915
+      - s-9a26659096
+      - s-e33f9c21a8
+      - s-1d1bd01f26
+      - s-2d81ec1547
+      - s-dd35f6709b
+      - s-8bb19a8849
+      - s-6fb23b27d7
+      - s-ee8895280c
+      - s-77f3bade6a
+      - s-09a5352519
+      - s-1a1433afea
+      - s-14d46594ed
+      - s-9a7e323058
+      - s-47325bf737
+      - s-01cab3a4f2
+      - s-744a25fcc9
+      - s-841d55d50e
+      - s-207726d8f0
+      - s-33a3997ee8
+      - s-eb81bdb1a0
+      - s-a006211707

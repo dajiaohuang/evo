@@ -1,0 +1,523 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendrobatidae Cope, 1865
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Dendrobatidae
+      zh: Dendrobatidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-06c48e80af
+            part: title
+          zh:
+            page: zh
+            section: s-9f94c27975
+            part: title
+        text:
+          en:
+            page: en
+            section: s-06c48e80af
+            part: body
+          zh:
+            page: zh
+            section: s-9f94c27975
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f70b8d4bfc
+            part: title
+          zh:
+            page: zh
+            section: s-ddbf5b6955
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f70b8d4bfc
+            part: body
+          zh:
+            page: zh
+            section: s-ddbf5b6955
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-716b1d1f3b
+            part: title
+          zh:
+            page: zh
+            section: s-f966db3db9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-716b1d1f3b
+            part: body
+          zh:
+            page: zh
+            section: s-f966db3db9
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-fb6daecb40
+            part: title
+          zh:
+            page: zh
+            section: s-63273d833a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fb6daecb40
+            part: body
+          zh:
+            page: zh
+            section: s-63273d833a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-2962e0e299
+            part: title
+          zh:
+            page: zh
+            section: s-96f22ca366
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: JCY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJCY
+            label:
+              en: Colostethinae
+              zh: Colostethinae
+          - kind: catalogue
+            colId: JF6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJF6
+            label:
+              en: Dendrobatinae
+              zh: Dendrobatinae
+          - kind: catalogue
+            colId: JQQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJQQ
+            label:
+              en: Hyloxalinae
+              zh: Hyloxalinae
+        text:
+          en:
+            page: en
+            section: s-2962e0e299
+            part: body
+          zh:
+            page: zh
+            section: s-96f22ca366
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-e2268e9fd0
+            part: title
+          zh:
+            page: zh
+            section: s-0de223f0ce
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-e2268e9fd0
+            part: body
+          zh:
+            page: zh
+            section: s-0de223f0ce
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendrobatidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/93G
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Dendrobatidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Dendrobatidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4a086ad97a
+        part: body
+      zh:
+        page: zh
+        section: s-39ab56faaa
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Dendrobatidae
+      sourceRowIds:
+        - Anf1451
+        - Anf1452
+        - Anf1453
+        - Anf1454
+        - Anf1455
+        - Anf1456
+        - Anf1457
+        - Anf1458
+        - Anf1459
+        - Anf1460
+        - Anf1461
+        - Anf1462
+        - Anf1463
+        - Anf1464
+        - Anf1465
+        - Anf1466
+        - Anf1467
+        - Anf1468
+        - Anf1469
+        - Anf1470
+        - Anf1471
+        - Anf1472
+        - Anf1473
+        - Anf1474
+        - Anf1475
+        - Anf1476
+        - Anf1477
+        - Anf1478
+        - Anf1479
+        - Anf1480
+        - Anf1481
+        - Anf1482
+        - Anf1483
+        - Anf1484
+        - Anf1485
+        - Anf1486
+        - Anf1487
+        - Anf1488
+        - Anf1489
+        - Anf1490
+        - Anf1491
+        - Anf1492
+        - Anf1493
+        - Anf1494
+        - Anf1495
+        - Anf1496
+        - Anf1497
+        - Anf1498
+        - Anf1499
+        - Anf1500
+        - Anf1501
+        - Anf1502
+        - Anf1503
+        - Anf1504
+        - Anf1505
+        - Anf1506
+        - Anf1507
+        - Anf1508
+        - Anf1509
+        - Anf1510
+        - Anf1511
+        - Anf1512
+        - Anf1513
+        - Anf1514
+        - Anf1515
+        - Anf1516
+        - Anf1517
+        - Anf1518
+        - Anf1519
+        - Anf1520
+        - Anf1521
+        - Anf1522
+        - Anf1523
+        - Anf1524
+        - Anf1525
+        - Anf1526
+        - Anf1527
+        - Anf1528
+        - Anf1529
+        - Anf1530
+        - Anf1531
+        - Anf1532
+        - Anf1533
+        - Anf1534
+        - Anf1535
+        - Anf1536
+        - Anf1537
+        - Anf1538
+        - Anf1539
+        - Anf1540
+        - Anf1541
+        - Anf1542
+        - Anf1543
+        - Anf1544
+        - Anf1545
+        - Anf1546
+        - Anf1547
+        - Anf1548
+        - Anf1549
+        - Anf1550
+        - Anf1551
+        - Anf1552
+        - Anf1553
+        - Anf1554
+        - Anf1555
+        - Anf1556
+        - Anf1557
+        - Anf1558
+        - Anf1559
+        - Anf1560
+        - Anf1561
+        - Anf1562
+        - Anf1563
+        - Anf1564
+        - Anf1565
+        - Anf1566
+        - Anf1567
+        - Anf1568
+        - Anf1569
+        - Anf1570
+        - Anf1571
+        - Anf1572
+        - Anf1573
+        - Anf1574
+        - Anf1575
+        - Anf1576
+        - Anf1577
+        - Anf1578
+        - Anf1579
+        - Anf1580
+        - Anf1581
+        - Anf1582
+        - Anf1583
+        - Anf1584
+        - Anf1585
+        - Anf1586
+        - Anf1587
+        - Anf1588
+        - Anf1589
+        - Anf1590
+        - Anf1591
+        - Anf1592
+        - Anf1593
+        - Anf1594
+        - Anf1595
+        - Anf1596
+        - Anf1597
+        - Anf1598
+        - Anf1599
+        - Anf1600
+        - Anf1601
+        - Anf1602
+        - Anf1603
+        - Anf1604
+        - Anf1605
+        - Anf1606
+        - Anf1607
+        - Anf1608
+        - Anf1609
+        - Anf1610
+        - Anf1611
+        - Anf1612
+        - Anf1613
+        - Anf1614
+        - Anf1615
+        - Anf1616
+        - Anf1617
+        - Anf1618
+        - Anf1619
+        - Anf1620
+        - Anf1621
+        - Anf1622
+        - Anf1623
+        - Anf1624
+        - Anf1625
+        - Anf1626
+        - Anf1627
+        - Anf1628
+        - Anf1629
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 162
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 48
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 26
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 1
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 149
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Dendrobates auratus
+          path: content/nodes/local-e523f8a32dcb0266b86fe67f
+        - scientificName: Epipedobates boulengeri
+          path: content/nodes/local-669c7ada0a45b6baf4bfa333
+        - scientificName: Epipedobates darwinwallacei
+          path: content/nodes/local-3bb49c3fe9a7c0bd48eebfea
+        - scientificName: Epipedobates machalilla
+          path: content/nodes/local-6b88c0a9ade2f466185b1204
+        - scientificName: Epipedobates tricolor
+          path: content/nodes/local-d8f50aebca6760095ad1dda1
+        - scientificName: Hyloxalus bocagei
+          path: content/nodes/local-2280a7a3fd31ba94143d70bd
+        - scientificName: Oophaga pumilio
+          path: content/nodes/local-c17407a78230cde3ae757ffa
+        - scientificName: Dendrobates truncatus
+          path: content/nodes/local-2663b51dd6e95ceb00746efe
+        - scientificName: Epipedobates anthonyi
+          path: content/nodes/local-15b55650c4b61560ca7601c6
+        - scientificName: Allobates insperatus
+          path: content/nodes/local-edbf4d29f41a277d33fc509a
+        - scientificName: Allobates zaparo
+          path: content/nodes/local-2caa9de048419513f6fe6807
+        - scientificName: Colostethus jacobuspetersi
+          path: content/nodes/local-0b9b321ebae7fe26d15aa07e
+        - scientificName: Epipedobates espinosai
+          path: content/nodes/local-54b4e9a133f43c50c3afe74b
+        - scientificName: Hyloxalus elachyhistus
+          path: content/nodes/local-1b65d693c2d27f7aade2f7fa
+        - scientificName: Hyloxalus italoi
+          path: content/nodes/local-0da774c5baf5509f077dddbe
+        - scientificName: Hyloxalus maculosus
+          path: content/nodes/local-1cfebb4941d4276015e76955
+        - scientificName: Hyloxalus nexipus
+          path: content/nodes/local-181eac4d022fd93de08ac2fd
+        - scientificName: Hyloxalus pulchellus
+          path: content/nodes/local-1a4e8f18681ce8326eb5d07e
+        - scientificName: Hyloxalus toachi
+          path: content/nodes/local-db6b522bceee637824eafe56
+        - scientificName: Hyloxalus vertebralis
+          path: content/nodes/local-d9c6a533a2593a89b19029ee
+        - scientificName: Hyloxalus yasuni
+          path: content/nodes/local-57f114152ed91137123d1515
+        - scientificName: Allobates trilineatus
+          path: content/nodes/local-771782d416168e7d32b85296
+        - scientificName: Ameerega hahneli
+          path: content/nodes/local-bbad911f653bdad379dbd1f8
+        - scientificName: Ameerega trivittata
+          path: content/nodes/local-5040b3c8d5187708969384a9
+        - scientificName: Ranitomeya sirensis
+          path: content/nodes/local-6c91229a2bc9a9b90d40473e
+      metrics:
+        - metric: CTmax
+          rows: 52
+          sourceConcepts: 25
+        - metric: CTmin
+          rows: 13
+          sourceConcepts: 10
+        - metric: Tpref
+          rows: 2
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

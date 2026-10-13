@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odontophrynus cordobae
+  displayName: Odontophrynus cordobae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48R2Z
+  sourceIndexes:
+    - name:
+        en: Odontophrynus cordobae
+        zh: Odontophrynus cordobae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48R2Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/483
+            queryName: Odontophrynus cordobae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-71f8a23167
+      - s-d0274f6f3a
+      - s-557cac925d
+      - s-84f4acdfdc
+      - s-a1137dd3e8
+      - s-5eed37ba2f
+    zh:
+      - s-1eb25ccabd
+      - s-5750a9b9a5
+      - s-516837fd38
+      - s-87a35c2015
+      - s-7466243f41
+      - s-7f8ac072f1

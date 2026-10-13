@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus caribe
+  displayName: Eleutherodactylus caribe
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3994Y
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus caribe
+        zh: Eleutherodactylus caribe
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3994Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/172
+            queryName: Eleutherodactylus caribe
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/202
+            queryName: Euhyas caribe
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e85bf7cf3
+      - s-f606dc23b9
+      - s-700999f12b
+      - s-7d0477c710
+      - s-6342f0b328
+      - s-cdff8972fe
+      - s-b90ac968f5
+      - s-a3d358cccb
+      - s-88e3e9df7e
+      - s-d112ebe0be
+    zh:
+      - s-67ebd4f3b3
+      - s-c4c8b545b4
+      - s-477fce68c9
+      - s-aae00d00cf
+      - s-eef251e9b1
+      - s-4e795cb59a
+      - s-a14e5700c8
+      - s-a2a6662b86
+      - s-59c64c159a
+      - s-325c2b6eaf

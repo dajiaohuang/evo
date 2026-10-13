@@ -1,0 +1,171 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cyathocoma hexandra (Nees) Browning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 32QTK, scientific name, authorship, rank and source dataset 2232 checked against the pinned COL node; WFO 2026-06 crosswalk maps it to wfo-0000367214 by exact accepted name and authorship.
+      scope: Cyathocoma hexandra (Nees) Browning as represented by COL26.8 usage 32QTK; biological claims retain their cited regional and sampling limits.
+    lifeStatusScope:
+      wild: Claims concern wild populations or wild herbarium vouchers within each source's stated regional scope.
+      domesticated: Cultivation is not covered by the cited claims; no domestication claim is made.
+      fossil: No fossil claim is made; fossil occurrence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 20
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/32QTK
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted taxon usage 32QTK
+          scope: Accepted name, authorship, rank, status, and source-dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000367214-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Exact accepted COL 32QTK / WFO wfo-0000367214 crosswalk row
+          scope: Identity-link evidence only; not biological evidence.
+      - id: sanbi-archive
+        referenceId: ref-19cf245f-e6aa-8c84-ace3-37ad317720b0
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Exact COL/WFO-linked rows: morphology: 12241; habitat: 27184; morphology2019: 90468; habitat2019: 92031"
+          scope: South African flora description fields only; not a global account.
+      - id: strelitzia29
+        referenceId: ref-15314bce-0db1-88c4-a800-87972212f7d5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cyathocoma account, printed p. 86; species morphology, flowering period, habitat and range
+          scope: Regional Greater Cape flora account; not a current global range or conservation assessment.
+      - id: strelitzia41
+        referenceId: ref-1173c35d-79c1-8e92-a967-7c26a73b5d4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cyperaceae account; linked species morphology and habitat rows retained from e-Flora source 18492.0
+          scope: Eastern Cape regional flora evidence only.
+      - id: verboom2006
+        referenceId: ref-55265b3b-4af8-8e74-a57c-d67b1a414510
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Table 2 (p. 82), Figs. 1–2 (pp. 85–86), and discussion (pp. 86–87)
+          scope: Three plastid loci and sampled herbarium voucher Verboom 648; the study samples only C. hexandra from this three-species genus.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The regional flora describes a robust perennial 50–150 cm tall with dark red spikelets. Its 2019 Eastern Cape treatment further describes stout, shortly rhizomatous plants and a compact panicle.
+            textZh: 区域植物志对该接受种的形态记载：The regional flora describes a robust perennial 50–150 cm tall with dark red spikelets. Its 2019 Eastern Cape treatment further describes stout, shortly rhizomatous plants and a compact panicle.
+            sourceIds:
+              - sanbi-archive
+              - strelitzia29
+            locator: "Strelitzia 29 (2012), printed p. 86; SANBI e-Flora rows morphology: 12241; habitat: 27184; morphology2019: 90468; habitat2019: 92031"
+            placeTimeScope: Southern African regional flora evidence; descriptive scope is limited to the cited species account and archive fields.
+            lifeStatus: Wild flora description; cultivated material is not covered.
+        gaps:
+          - Regional descriptions are partial; no scope-complete review of morphology has been completed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The 2012 regional flora gives August–March; the 2019 Eastern Cape flora gives August–November. These source-specific intervals are retained without treating either as a complete global season.
+            textZh: 区域植物志记录：The 2012 regional flora gives August–March; the 2019 Eastern Cape flora gives August–November. These source-specific intervals are retained without treating either as a complete global season.
+            sourceIds:
+              - strelitzia29
+              - strelitzia41
+            locator: Strelitzia 29 (2012), printed p. 86; where noted, Strelitzia 41(3) (2019) Eastern Cape account
+            placeTimeScope: Published regional flora observation; not a complete current or global life-history study.
+            lifeStatus: Wild flora evidence; cultivation is not covered.
+        gaps:
+          - Flowering time alone does not establish a full life cycle, reproductive biology or scope-complete life-history account.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The regional flora records marshes and watercourses on mountain slopes below 800 m. The 2019 Eastern Cape treatment separately describes marshy places at low altitude in Eastern Fynbos–Renosterveld.
+            textZh: 区域植物志的生境记录：The regional flora records marshes and watercourses on mountain slopes below 800 m. The 2019 Eastern Cape treatment separately describes marshy places at low altitude in Eastern Fynbos–Renosterveld.
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora habitat rows 27184 and 92031
+            placeTimeScope: Regional South African habitat descriptions; not a global ecological niche assessment.
+            lifeStatus: Wild habitat evidence; cultivation is not covered.
+        gaps:
+          - Regional habitat statements are partial; ecological interactions and a scope-complete ecology review remain unassessed.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: Verboom's plastid-DNA study sampled C. hexandra (voucher Verboom 648, BOL; sequences for trnL–trnF, rbcL and rps16). In the study's phylogeny, sampled Cyathocoma and Capeobolus were sister taxa within the largely extra-African Oreobolus clade. This is a result for the sampled taxon and study tree, not a species-wide genomic history or a divergence-time estimate.
+            textZh: 一项叶绿体 DNA 系统发育研究仅采样了本属的 C. hexandra，记录其在该研究树中的位置；这不是全基因组或分歧时间研究。
+            sourceIds:
+              - verboom2006
+            locator: Verboom 2006, Table 2 p. 82; Figs. 1–2 pp. 85–86; discussion pp. 86–87
+            placeTimeScope: One 2006 plastid-DNA phylogenetic study, one sampled species and voucher; no divergence date is inferred.
+            lifeStatus: Wild voucher-based molecular evidence.
+        gaps:
+          - One sampled species and one plastid study do not establish a complete species-level evolutionary history or genome-wide relationships.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The regional flora gives Cape Peninsula to Humansdorp in southwestern, Agulhas Plain, Langeberg and southeastern Cape regions. This is not a global occurrence inventory.
+            textZh: 区域分布记录：The regional flora gives Cape Peninsula to Humansdorp in southwestern, Agulhas Plain, Langeberg and southeastern Cape regions. This is not a global occurrence inventory.
+            sourceIds:
+              - strelitzia29
+            locator: Strelitzia 29 (2012), printed p. 86; where specified, SANBI Red List distribution fields
+            placeTimeScope: Regional flora or national assessment scope as stated by the source; not a current global occurrence inventory.
+            lifeStatus: Wild native-range evidence; cultivation and introduced populations are not covered.
+        gaps:
+          - Regional distribution evidence is partial; a current, scope-complete global range review has not been completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

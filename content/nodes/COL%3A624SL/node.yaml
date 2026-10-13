@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemisotidae
+  displayName: Hemisotidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/624SL
+  sourceIndexes:
+    - name:
+        en: Hemisotidae
+        zh: Hemisotidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 624SL
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/423
+            queryName: Hemisotidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 40
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ccf431df6
+      - s-cfa71a4361
+      - s-ab74bf211d
+      - s-92eef0424e
+      - s-be6eda8800
+      - s-0e561109e2
+    zh:
+      - s-02f4eecd14
+      - s-898ac80740
+      - s-227679c52f
+      - s-57bd61579a
+      - s-51854ca508
+      - s-a54a83cf75

@@ -1,0 +1,170 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Metridiochoerus modestus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Metridiochoerus modestus
+      en: Metridiochoerus modestus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ac6d0fadec
+            part: body
+          en:
+            page: en
+            section: s-4a9dd273a0
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-62a8ea057c
+            part: body
+          en:
+            page: en
+            section: s-c89f954ae6
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3694c1416c
+            part: body
+          en:
+            page: en
+            section: s-9293b898de
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cf50362105
+            part: body
+          en:
+            page: en
+            section: s-db49262187
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Metridiochoerus modestus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=133597&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:133597; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:133597
+          selectedOccurrenceIds:
+            - occ:216762
+            - occ:216813
+            - occ:219231
+            - occ:221511
+            - occ:221524
+            - occ:221777
+            - occ:222465
+            - occ:222559
+            - occ:222689
+            - occ:223202
+            - occ:226297
+            - occ:226374
+            - occ:388532
+            - occ:395154
+          selectedCollectionIds:
+            - col:22041
+            - col:22064
+            - col:22497
+            - col:21291
+            - col:21292
+            - col:21347
+            - col:21449
+            - col:21457
+            - col:21464
+            - col:21515
+            - col:21970
+            - col:21986
+            - col:22494
+            - col:22491
+          sourceReferenceIds:
+            - ref:4478
+            - ref:9955
+            - ref:4454
+            - ref:5596
+            - ref:10217
+            - ref:5269
+            - ref:5281
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e2a8c4b968
+        part: body
+      en:
+        page: en
+        section: s-2f053a8803
+        part: body

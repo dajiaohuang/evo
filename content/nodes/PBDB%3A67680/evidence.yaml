@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hulsanpes perlei
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hulsanpes perlei
+      en: Hulsanpes perlei
+    sections:
+      - topic: morphology
+        sourceIds:
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-01565d5363
+            part: body
+          en:
+            page: en
+            section: s-141e53fbc2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-6e8c371b5c
+            part: body
+          en:
+            page: en
+            section: s-88f384352e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-4cb7e84813
+            part: body
+          en:
+            page: en
+            section: s-0affdf4c2d
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-bb20968d1b
+            part: body
+          en:
+            page: en
+            section: s-81aca61ada
+            part: body
+      - topic: phylogeny
+        sourceIds:
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-81583fcb97
+            part: body
+          en:
+            page: en
+            section: s-1672a019c8
+            part: body
+      - topic: palaeobiology
+        sourceIds:
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-fdaa55f922
+            part: body
+          en:
+            page: en
+            section: s-b8357ebb47
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-064312c0ea
+            part: body
+          en:
+            page: en
+            section: s-8ba1f01dcc
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0392ea2039
+            part: body
+          en:
+            page: en
+            section: s-b70d75c247
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-98890820ae
+            part: body
+          en:
+            page: en
+            section: s-e4388f2743
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f42dbaaeac
+            part: body
+          en:
+            page: en
+            section: s-02d9328e16
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-5cc1c1df1e
+            part: body
+          en:
+            page: en
+            section: s-aa7874e2d3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hulsanpes perlei
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=67680&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:67680; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:67680
+          selectedOccurrenceIds:
+            - occ:1341984
+          selectedCollectionIds:
+            - col:181415
+          sourceReferenceIds:
+            - ref:10138
+          originalIdentificationMappings:
+            - occurrenceId: occ:1341984
+              originalIdentifiedName: Hulsanpes perlei n. gen. n. sp.
+              acceptedName: Hulsanpes perlei
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: cauMadzia2018Hulsanpes
+        referenceId: ref-11b2b6cd-cda3-48a9-9a03-46ade327ce11
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Redescription and affinities of Hulsanpes perlei (Dinosauria, Theropoda) from the Upper Cretaceous of Mongolia
+          url: https://peerj.com/articles/4868/
+          locator: Material and Methods; Systematic Paleontology; Description; Results; Discussion; Conclusions; Table 1 and Figures 1–4 captions.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2018 年对 ZPAL MgD-I/173 的重描述与作者亲缘、幼体和足部功能解释；不是原标本复量、年龄测定或直接行为观察。
+            en: The 2018 redescription of ZPAL MgD-I/173 and the authors’ relationship, immaturity and foot-function interpretations; not remeasurement, age determination or direct behavioral observations.
+    limitations:
+      zh:
+        page: zh
+        section: s-b6d9283f49
+        part: body
+      en:
+        page: en
+        section: s-d7a98fae73
+        part: body

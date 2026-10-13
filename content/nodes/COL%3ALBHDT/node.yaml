@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops dafangensis
+  displayName: Amolops dafangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LBHDT
+  sourceIndexes:
+    - name:
+        en: Amolops dafangensis
+        zh: Amolops dafangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LBHDT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/357
+            queryName: Amolops dafangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ef5ece337f
+      - s-9fd9f8832c
+      - s-df7bf2acb8
+      - s-3ec6d5548f
+      - s-100ef62ab8
+      - s-635f248388
+      - s-8b12db3dde
+      - s-54454d4721
+      - s-5a7dcfda4e
+      - s-b085b4bb47
+      - s-b240cbb955
+      - s-a7cb2f0b19
+      - s-484d0df0be
+      - s-4e92be5f52
+      - s-6a90a79ffb
+      - s-e42607eb6f
+      - s-d7ebefa5e0
+      - s-3d6dec6b13
+      - s-c043bbf8c6
+    zh:
+      - s-29026f0272
+      - s-03fe3d7450
+      - s-566a3a6f33
+      - s-3b6b1d710e
+      - s-03de214755
+      - s-d7cd64d991
+      - s-90324b2520
+      - s-aec98613a3
+      - s-00cbbe4433
+      - s-335ffca477
+      - s-0a8f81cacd
+      - s-1c421183c4
+      - s-ca39fa7092
+      - s-42b6dc2098
+      - s-387a57d9e7
+      - s-8165c70c37
+      - s-4c7db7d7ad
+      - s-151cbc48c1
+      - s-a03663e4bd

@@ -1,0 +1,131 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Allochrocebus solatus (Harrison, 1988)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 日尾猴
+      en: Sun-tailed Monkey
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-53f526455b
+            part: body
+          en:
+            page: en
+            section: s-ac52c92c34
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_label
+      - topic: distributionSurvey
+        text:
+          zh:
+            page: zh
+            section: s-a05606d07e
+            part: body
+          en:
+            page: en
+            section: s-f29810f1f2
+            part: body
+        sourceIds:
+          - gautier1992
+      - topic: rangeRevision
+        text:
+          zh:
+            page: zh
+            section: s-77b4e890b8
+            part: body
+          en:
+            page: en
+            section: s-4ba8a6ec3d
+            part: body
+        sourceIds:
+          - coad2010
+      - topic: phylogeography
+        text:
+          zh:
+            page: zh
+            section: s-73e6b44cdc
+            part: body
+          en:
+            page: en
+            section: s-3b715cc630
+            part: body
+        sourceIds:
+          - tosi2008
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Allochrocebus solatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/BVHJ
+          scope:
+            zh: 支持固定接受名、作者、等级和父链；不支持生物学正文。
+            en: Supports the pinned accepted name, authorship, rank and parent link; not biological claims.
+      - id: mdd_label
+        referenceId: ref-945192b3-05cb-8c46-ac7f-fab89c75281d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅支持英文普通名；条目身份按 COL26.8，中文名为编辑译名。
+            en: Supports only the English common name; entry identity follows COL26.8 and the Chinese name is editorial.
+      - id: gautier1992
+        referenceId: ref-f241b519-ddd7-8198-adfd-cbc355767a86
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 1985—1989 年、38 周调查的资料来源与历史范围讨论；不代表现今完整分布。
+            en: Supports the evidence sources and historical range discussion from the 38-week 1985–1989 survey; not a complete present-day range.
+      - id: coad2010
+        referenceId: ref-06f9208c-b5f3-83e0-af83-c06b3246bbac
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持已知观察记录汇编及当时范围扩展结果；不更新为当前占域评估。
+            en: Supports the compilation of known observations and range extensions reported at the time; not a current occupancy assessment.
+      - id: tosi2008
+        referenceId: ref-9761c059-80e8-8cfe-a691-8b4298201c58
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。
+            en: Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships.
+    limitations:
+      zh:
+        page: zh
+        section: s-de97c6965f
+        part: body
+      en:
+        page: en
+        section: s-4d494dc1b1
+        part: body

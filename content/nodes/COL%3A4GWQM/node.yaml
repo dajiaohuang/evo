@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynopus kauneorum
+  displayName: Phrynopus kauneorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWQM
+  sourceIndexes:
+    - name:
+        en: Phrynopus kauneorum
+        zh: Phrynopus kauneorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWQM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/224
+            queryName: Phrynopus kauneorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-71406485bb
+      - s-c80bd12806
+      - s-3cab7a6295
+      - s-9669bd847a
+      - s-6f9e6aca51
+      - s-30bdf0a80f
+      - s-9cc80998da
+      - s-b59fccc044
+      - s-969623236d
+    zh:
+      - s-7f53dc7fc1
+      - s-0966ab8d18
+      - s-2202e9c369
+      - s-f87587e492
+      - s-989bd42e2a
+      - s-e5a2a65f58
+      - s-a8d38b9202
+      - s-ed46f29b3f
+      - s-64c5407a03

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon meridianus
+  displayName: Plethodon meridianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7827W
+  sourceIndexes:
+    - name:
+        en: Plethodon meridianus
+        zh: Plethodon meridianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7827W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/476
+            queryName: Plethodon meridianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01e8940330
+      - s-4dd503ac5c
+      - s-8b52b23c66
+      - s-1a19044384
+      - s-d2eb91e0c4
+      - s-0509b434a3
+      - s-c49c4ef180
+      - s-362f5cb517
+    zh:
+      - s-7d32834f66
+      - s-dbd35eae4a
+      - s-92c2479878
+      - s-e2e66e836f
+      - s-3c1de6482f
+      - s-a8b854946d
+      - s-15a9139945
+      - s-05fcb8a0d4

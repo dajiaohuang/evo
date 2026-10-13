@@ -1,0 +1,315 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Myodes shanseius
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Myodes shanseius
+      en: Myodes shanseius
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-58628de054
+            part: body
+          en:
+            page: en
+            section: s-5442c0aecc
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-6bc58987f3
+            part: body
+          en:
+            page: en
+            section: s-54f7ae8190
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-e5c54544cb
+            part: body
+          en:
+            page: en
+            section: s-6e2fe43cc5
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-ccefc6146f
+            part: body
+          en:
+            page: en
+            section: s-8420a3e7cc
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-13bca7267c
+            part: body
+          en:
+            page: en
+            section: s-c9f35c5fa7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e1a0cbbcb8
+            part: body
+          en:
+            page: en
+            section: s-c7741c94bd
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e2338c4315
+            part: body
+          en:
+            page: en
+            section: s-3d7b1f55c5
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-99e7e968b9
+            part: body
+          en:
+            page: en
+            section: s-41b0465ebb
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-b28ad2badb
+            part: body
+          en:
+            page: en
+            section: s-369a53a63a
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-c99e1fc5e7
+            part: body
+          en:
+            page: en
+            section: s-796ac0fd36
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Myodes shanseius
+          url: https://www.checklistbank.org/dataset/316115/taxon/454QF
+          locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12701; name Myodes shanseius; reference table row 12701; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: BC mammals - Savage et al., 2004 from median of 4(BC mammals - Savage et al., 2004, BC mammals - Savage et al., 2004, BC mammals - Savage et al., 2004, Ernest et al., 2003)
+            female_maturity_d: Ernest et al., 2003
+            litter_or_clutch_size_n: Ernest et al., 2003
+            maximum_longevity_y: Weigl, R., 2005
+          sameNameSourceLabels:
+            - Ernest et al., 2003
+            - BC mammals - Savage et al., 2004
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 1497; Scientific=Myodes shanseius; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-c84f100acd
+        part: body
+      en:
+        page: en
+        section: s-7b9f155108
+        part: body

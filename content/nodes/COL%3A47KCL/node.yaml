@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Noblella ritarasquinae
+  displayName: Noblella ritarasquinae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47KCL
+  sourceIndexes:
+    - name:
+        en: Noblella ritarasquinae
+        zh: Noblella ritarasquinae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47KCL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/296
+            queryName: Noblella ritarasquinae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/131
+            queryName: Phyllonastes ritarasquinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4bcd582709
+      - s-059bb544e5
+      - s-0f1115c336
+      - s-689f3d5f2a
+      - s-6207839f1b
+      - s-8a2acc3c2f
+      - s-cac47ea1a8
+    zh:
+      - s-e9355428da
+      - s-9950061290
+      - s-d72cb28cc1
+      - s-595c972cb0
+      - s-2645eb8710
+      - s-4458df0bbf
+      - s-16d4e9b3bb

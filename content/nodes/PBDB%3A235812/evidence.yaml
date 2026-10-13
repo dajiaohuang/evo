@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Undjulemys platensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Undjulemys platensis
+      en: Undjulemys platensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-07bca87063
+            part: body
+          en:
+            page: en
+            section: s-d134592b72
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-53defe395d
+            part: body
+          en:
+            page: en
+            section: s-5eba057508
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d3487e7f0b
+            part: body
+          en:
+            page: en
+            section: s-a78446bc85
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fd493e5279
+            part: body
+          en:
+            page: en
+            section: s-68dc567a97
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3ad81ec3fb
+            part: body
+          en:
+            page: en
+            section: s-c6a4ba2c57
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Undjulemys platensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=235812&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:235812; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:235812
+          selectedOccurrenceIds:
+            - occ:1093057
+          selectedCollectionIds:
+            - col:137599
+          sourceReferenceIds:
+            - ref:41695
+          originalIdentificationMappings:
+            - occurrenceId: occ:1093057
+              originalIdentifiedName: Undjulemys platensis n. gen. n. sp.
+              acceptedName: Undjulemys platensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-2e4d0ea256
+        part: body
+      en:
+        page: en
+        section: s-bb9bb5241e
+        part: body

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctixalus margaritifer
+  displayName: Nyctixalus margaritifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485V3
+  sourceIndexes:
+    - name:
+        en: Nyctixalus margaritifer
+        zh: Nyctixalus margaritifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485V3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/411
+            queryName: Nyctixalus margaritifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/268
+            queryName: Ixalus flavosignatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/269
+            queryName: Philautus flavosignatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/270
+            queryName: Nyctixalus flavosignatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/152
+            queryName: Philautus pictus margaritifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/153
+            queryName: Nyctixalus pictus margaritifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e418cd97e7
+      - s-7eddb4d263
+      - s-a56b5d79f0
+      - s-743a0d7953
+      - s-c9225b2379
+      - s-1c5f758575
+      - s-3a6b139fc9
+      - s-1ba01403c2
+    zh:
+      - s-6c90ca6592
+      - s-5f9eda4cc4
+      - s-4ef1218cb0
+      - s-0e5311fadc
+      - s-a6a5fc9755
+      - s-291bd7ced0
+      - s-623e77e91f
+      - s-36a2dc97c9

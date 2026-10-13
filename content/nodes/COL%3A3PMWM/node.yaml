@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Indirana yadera
+  displayName: Indirana yadera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PMWM
+  sourceIndexes:
+    - name:
+        en: Indirana yadera
+        zh: Indirana yadera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PMWM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/488
+            queryName: Indirana yadera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3aee94a4a0
+      - s-ea026063f2
+      - s-4b6ecbc8ca
+      - s-97498a6c7d
+      - s-c231229d1c
+      - s-92015ca77e
+    zh:
+      - s-8c42f7f20b
+      - s-9e91c11f0b
+      - s-7e0049ee86
+      - s-d70651a87a
+      - s-5d6d5ad8eb
+      - s-cdc7e9a1ff

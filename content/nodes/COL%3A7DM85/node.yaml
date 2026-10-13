@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia daviesae
+  displayName: Uperoleia daviesae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DM85
+  sourceIndexes:
+    - name:
+        en: Uperoleia daviesae
+        zh: Uperoleia daviesae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DM85
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/190
+            queryName: Uperoleia daviesae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 136
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-59f5640b94
+      - s-5a5d775b5b
+      - s-5a6d893412
+      - s-00784f1f6c
+      - s-47275183ed
+      - s-310f630a0e
+      - s-90d87274d9
+      - s-491b7bae78
+      - s-27645c186e
+      - s-309b6b7186
+    zh:
+      - s-56b4d33d4a
+      - s-a451466566
+      - s-6cda08a407
+      - s-42238ffb93
+      - s-ac57e1eec0
+      - s-ee8c0a6c91
+      - s-ce7c120d18
+      - s-ed92a2233a
+      - s-0ffb8f86df
+      - s-09631485d9

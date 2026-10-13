@@ -1,0 +1,143 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Uperodon assamensis (Das, Sengupta, Ahmed & Dutta, 2005)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Uperodon assamensis
+      zh: Uperodon assamensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a283d7f6dd
+            part: title
+          zh:
+            page: zh
+            section: s-3bc2ace13d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a283d7f6dd
+            part: body
+          zh:
+            page: zh
+            section: s-3bc2ace13d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4ea229ba00
+            part: title
+          zh:
+            page: zh
+            section: s-f1fab8531d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4ea229ba00
+            part: body
+          zh:
+            page: zh
+            section: s-f1fab8531d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-76fc5e47e9
+            part: title
+          zh:
+            page: zh
+            section: s-dcb8f4eff7
+            part: title
+        sourceIds:
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-76fc5e47e9
+            part: body
+          zh:
+            page: zh
+            section: s-dcb8f4eff7
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-1726cac9ae16f8b83b102f80d9ec1f13
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Uperodon assamensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/TSK2H
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4263; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4264 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e0957844ec
+        part: body
+      zh:
+        page: zh
+        section: s-4a38cb0977
+        part: body

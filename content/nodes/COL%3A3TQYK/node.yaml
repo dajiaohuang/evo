@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptomantis fasciatus
+  displayName: Leptomantis fasciatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TQYK
+  sourceIndexes:
+    - name:
+        en: Leptomantis fasciatus
+        zh: Leptomantis fasciatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TQYK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/454
+            queryName: Leptomantis fasciatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/321
+            queryName: Rhacophorus fasciatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/453
+            queryName: Rhacophorus shelfordi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e69dea0e6d
+      - s-a3bfb4d3a8
+      - s-27adc94526
+      - s-f7c9582539
+      - s-283b3745f8
+      - s-4559aab552
+    zh:
+      - s-c1f6474156
+      - s-ea8f35ee95
+      - s-4c39e1394a
+      - s-b3a7122d70
+      - s-052ce3303f
+      - s-b9cdf2028c

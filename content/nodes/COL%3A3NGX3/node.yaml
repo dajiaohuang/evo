@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus excisus
+  displayName: Hyloxalus excisus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGX3
+  sourceIndexes:
+    - name:
+        en: Hyloxalus excisus
+        zh: Hyloxalus excisus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGX3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/98
+            queryName: Hyloxalus excisus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/85
+            queryName: Colostethus excisus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-60f5fb6224
+      - s-dc0c797daa
+      - s-5dae428ef7
+      - s-23d712f4cd
+      - s-bef9cb3525
+      - s-76ac9ca78a
+      - s-a4a408a1fa
+    zh:
+      - s-2214ccab2d
+      - s-137d44b3eb
+      - s-10dd258cec
+      - s-3e63275b00
+      - s-13cc9525d4
+      - s-747bda2258
+      - s-c67d99fb99

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Callulops stictogaster
+  displayName: Callulops stictogaster
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PWB6
+  sourceIndexes:
+    - name:
+        en: Callulops stictogaster
+        zh: Callulops stictogaster
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PWB6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/135
+            queryName: Callulops stictogaster
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/49
+            queryName: Phrynomantis stictogaster
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f9262923b0
+      - s-e6cc8f5e64
+      - s-ca1c7dcf72
+      - s-c8d624fd5b
+      - s-15fe47c7fb
+      - s-cfa967ce30
+      - s-e95df2c390
+      - s-6db9910ea0
+      - s-43245e5b2d
+    zh:
+      - s-6868d901c1
+      - s-d0cd6b4b53
+      - s-c06c59e6a5
+      - s-f471304109
+      - s-27d737380c
+      - s-e167850461
+      - s-a552f83e1d
+      - s-3408627f9e
+      - s-3c0f24421e

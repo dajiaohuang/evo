@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina robusta
+  displayName: Austrochaperina robusta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JW2B
+  sourceIndexes:
+    - name:
+        en: Austrochaperina robusta
+        zh: Austrochaperina robusta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JW2B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/366
+            queryName: Austrochaperina robusta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/446
+            queryName: Sphenophryne robusta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 23
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bae9bd6ad8
+      - s-d2d84d3c2e
+      - s-9cf06bb234
+      - s-709c7eed09
+      - s-50813c4e5e
+      - s-05121e109f
+      - s-04626ef5a4
+      - s-bc0c4c2943
+      - s-e1261683b1
+      - s-1c2cd283b7
+      - s-9a9b65edfc
+      - s-29a19743f7
+    zh:
+      - s-1548b69781
+      - s-bd9302b849
+      - s-9dfb0a1410
+      - s-afd2c44ff9
+      - s-4ed9841596
+      - s-241dd6d2d3
+      - s-c45ef62147
+      - s-f79b1503bc
+      - s-0409d06409
+      - s-46743d7925
+      - s-6bbd587a22
+      - s-96a6d19ac8

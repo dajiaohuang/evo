@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis fotsitenda
+  displayName: Guibemantis fotsitenda
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NXLFK
+  sourceIndexes:
+    - name:
+        en: Guibemantis fotsitenda
+        zh: Guibemantis fotsitenda
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NXLFK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/219
+            queryName: Guibemantis fotsitenda
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-869707a8cb
+      - s-4fd563a289
+      - s-82e82797f6
+    zh:
+      - s-d89ad0e538
+      - s-d1ae379d79
+      - s-d6cbe65788

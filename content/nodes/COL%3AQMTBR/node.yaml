@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanohyla perparva
+  displayName: Nanohyla perparva
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QMTBR
+  sourceIndexes:
+    - name:
+        en: Nanohyla perparva
+        zh: Nanohyla perparva
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QMTBR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/160
+            queryName: Nanohyla perparva
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/348
+            queryName: Microhyla perparva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73439a20c0
+      - s-409db8747d
+      - s-bf49b889ef
+      - s-f5e13b5673
+      - s-c75805e931
+      - s-f920c4cf9a
+      - s-5f1b7affc8
+      - s-88738997f8
+    zh:
+      - s-9eef7cfd57
+      - s-9b169ffccf
+      - s-83a3dd7389
+      - s-9f913aadd8
+      - s-7629138203
+      - s-cf0f2b48b5
+      - s-f90b659c34
+      - s-b5198a7d38

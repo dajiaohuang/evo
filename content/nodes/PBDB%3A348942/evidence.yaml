@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eomys antiquus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Eomys antiquus
+      en: Eomys antiquus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-98c64cd4a9
+            part: body
+          en:
+            page: en
+            section: s-9031a83343
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e090ea4a5d
+            part: body
+          en:
+            page: en
+            section: s-c17ca53bfd
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0239fe765f
+            part: body
+          en:
+            page: en
+            section: s-0c849414b2
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0dd1e49400
+            part: body
+          en:
+            page: en
+            section: s-53d12b48e1
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-03e585e9bc
+            part: body
+          en:
+            page: en
+            section: s-74334d54e4
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Eomys antiquus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=348942&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:348942; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:348942
+          selectedOccurrenceIds:
+            - occ:385415
+            - occ:385427
+            - occ:385431
+            - occ:1354290
+            - occ:1354293
+            - occ:1354295
+            - occ:1354297
+            - occ:1354298
+            - occ:1354315
+          selectedCollectionIds:
+            - col:31767
+            - col:36711
+            - col:36709
+            - col:183517
+            - col:183518
+            - col:91491
+            - col:183675
+            - col:183676
+            - col:183680
+          sourceReferenceIds:
+            - ref:19145
+            - ref:9830
+            - ref:61364
+          originalIdentificationMappings:
+            - occurrenceId: occ:385415
+              originalIdentifiedName: Eomys antiquus n. sp.
+              acceptedName: Eomys antiquus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f207a361ee
+        part: body
+      en:
+        page: en
+        section: s-34742f62b9
+        part: body

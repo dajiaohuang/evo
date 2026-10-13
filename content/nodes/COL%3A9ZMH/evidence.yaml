@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Adenomera coca (Angulo & Reichle, 2008)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Adenomera coca
+      zh: Adenomera coca
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-19d1365d3a
+            part: title
+          zh:
+            page: zh
+            section: s-0adf2f391e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-19d1365d3a
+            part: body
+          zh:
+            page: zh
+            section: s-0adf2f391e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6025457f3b
+            part: title
+          zh:
+            page: zh
+            section: s-cdf50925cd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6025457f3b
+            part: body
+          zh:
+            page: zh
+            section: s-cdf50925cd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6f8f4f5ab0
+            part: title
+          zh:
+            page: zh
+            section: s-20467f3cae
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-6f8f4f5ab0
+            part: body
+          zh:
+            page: zh
+            section: s-20467f3cae
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-70bdf34888583031a28f6f30
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-c0074190f374be695dd805db69c287f8
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-12d2f9b233
+            part: title
+          zh:
+            page: zh
+            section: s-d21f026293
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-12d2f9b233
+            part: body
+          zh:
+            page: zh
+            section: s-d21f026293
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Adenomera coca
+          url: https://www.checklistbank.org/dataset/316115/taxon/9ZMH
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 34, 35; Reference.csv rows 2795
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3367; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3368 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-80c522efd6
+        part: body
+      zh:
+        page: zh
+        section: s-afbafbe337
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-70bdf34888583031a28f6f30
+        scientificName: Adenomera coca
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

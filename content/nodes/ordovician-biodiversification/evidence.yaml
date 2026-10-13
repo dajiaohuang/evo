@@ -1,0 +1,85 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-ad77558d98
+      part: title
+    titleZh:
+      page: zh
+      section: s-0d81bd0541
+      part: title
+    category: radiation
+    startAge: 486.85
+    endAge: 460
+    regions:
+      - Global oceans
+    clades:
+      - Brachiopoda
+      - Bryozoa
+      - Mollusca
+      - Echinodermata
+    summary:
+      page: en
+      section: s-ad77558d98
+      part: body
+    summaryZh:
+      page: zh
+      section: s-0d81bd0541
+      part: body
+    claimIds:
+      - claim:event:ordovician-biodiversification
+    evidenceItems:
+      - statement: Rising genus and family richness
+        relation: supports
+        claimIds:
+          - claim:event:ordovician-biodiversification
+        referenceLinks:
+          - relation: supports
+            referenceId: servais-2010-gobe
+      - statement: Expansion of reef and tiering structures
+        relation: supports
+        claimIds:
+          - claim:event:ordovician-biodiversification
+        referenceLinks:
+          - relation: supports
+            referenceId: servais-2010-gobe
+      - statement: Broad geographic recurrence
+        relation: supports
+        claimIds:
+          - claim:event:ordovician-biodiversification
+        referenceLinks:
+          - relation: supports
+            referenceId: servais-2010-gobe
+    uncertaintyItems:
+      - statement: Regional pulses are asynchronous
+        relation: contextualizes
+        claimIds:
+          - claim:event:ordovician-biodiversification
+        referenceLinks:
+          - relation: supports
+            referenceId: servais-2010-gobe
+      - statement: Observed richness is sensitive to rock and collection availability
+        relation: contextualizes
+        claimIds:
+          - claim:event:ordovician-biodiversification
+        referenceLinks:
+          - relation: supports
+            referenceId: servais-2010-gobe
+  claims:
+    - subjectId: event:ordovician-biodiversification
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Ordovician marine diversification involved taxonomic, ecological and biogeographic restructuring across multiple clades.
+      confidence: high
+      confidenceRationale: High confidence is appropriate for the broad, multi-clade diversification pattern reviewed across taxonomic, ecological and biogeographic records; the claim avoids a single-cause explanation or a precise global rate.
+      referenceLinks:
+        - relation: supports
+          referenceId: servais-2010-gobe
+          pages: 99–119
+          figure: Figures 1–8
+          quoteLocator: Palaeoecological dimensions and regional timing synthesis
+  claim-rationales.zh:
+    - 高置信度对应综述记录的多支系分类、生态和生物地理重组；声明不把事件归结为单一原因，也不主张精确的全球统一速率。
+  claim-statements.zh:
+    - 奥陶纪海洋多样化涉及多个支系在分类、生态和生物地理上的重组。

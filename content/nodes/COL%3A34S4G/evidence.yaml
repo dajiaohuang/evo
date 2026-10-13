@@ -1,0 +1,459 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendropsophus arndti Caminer, Milá, Jansen, Fouquet, Venegas, Chávez, Lougheed & Ron, 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dendropsophus arndti
+      zh: Dendropsophus arndti
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-44738f233c
+            part: title
+          zh:
+            page: zh
+            section: s-e9da37365c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-44738f233c
+            part: body
+          zh:
+            page: zh
+            section: s-e9da37365c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7d7c16aebb
+            part: title
+          zh:
+            page: zh
+            section: s-9d821b0a1a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7d7c16aebb
+            part: body
+          zh:
+            page: zh
+            section: s-9d821b0a1a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-71a3a4062b
+            part: title
+          zh:
+            page: zh
+            section: s-28dcdc0b63
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-71a3a4062b
+            part: body
+          zh:
+            page: zh
+            section: s-28dcdc0b63
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ff941daf3e5f68fb6b76af39
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-233f2477d2
+            part: title
+          zh:
+            page: zh
+            section: s-eab0f6a043
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-233f2477d2
+            part: body
+          zh:
+            page: zh
+            section: s-eab0f6a043
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d664fc24ca
+            part: title
+          zh:
+            page: zh
+            section: s-0fd50fe041
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s4g
+        text:
+          en:
+            page: en
+            section: s-d664fc24ca
+            part: body
+          zh:
+            page: zh
+            section: s-0fd50fe041
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-45a1b06ea8
+            part: title
+          zh:
+            page: zh
+            section: s-99e9b7f384
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s4g
+        text:
+          en:
+            page: en
+            section: s-45a1b06ea8
+            part: body
+          zh:
+            page: zh
+            section: s-99e9b7f384
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-4de596600b
+            part: title
+          zh:
+            page: zh
+            section: s-f136725d83
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s4g
+        text:
+          en:
+            page: en
+            section: s-4de596600b
+            part: body
+          zh:
+            page: zh
+            section: s-f136725d83
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e03066879e
+            part: title
+          zh:
+            page: zh
+            section: s-af15a5acaa
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s4g
+        text:
+          en:
+            page: en
+            section: s-e03066879e
+            part: body
+          zh:
+            page: zh
+            section: s-af15a5acaa
+            part: body
+      - topic: development
+        title:
+          en:
+            page: en
+            section: s-f7a48a680d
+            part: title
+          zh:
+            page: zh
+            section: s-014e73479f
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s4g
+        text:
+          en:
+            page: en
+            section: s-f7a48a680d
+            part: body
+          zh:
+            page: zh
+            section: s-014e73479f
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-302db1474c
+            part: title
+          zh:
+            page: zh
+            section: s-351cefc462
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s4g
+        text:
+          en:
+            page: en
+            section: s-302db1474c
+            part: body
+          zh:
+            page: zh
+            section: s-351cefc462
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendropsophus arndti
+          url: https://www.checklistbank.org/dataset/316115/taxon/34S4G
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1488; Reference.csv rows 2984
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc5332023-34s4g
+        referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dendropsophus arndti: Diagnostic versus holotype size discrepancy, live colour observations, advertisement versus aggressive repertoire, Bolivian locality/perch and attributed predation, older larval-description pointer and historical conservation polygon; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a40e6bd2cb
+        part: body
+      zh:
+        page: zh
+        section: s-49bfc95c46
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-ff941daf3e5f68fb6b76af39
+        scientificName: Dendropsophus arndti
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0171785
+        referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+        sourceKey: primary-pmc5332023-34s4g
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5332023/article.xml
+        sourceConcept: Dendropsophus arndti
+        evidenceRead: "Dendropsophus arndti: Diagnostic versus holotype size discrepancy, live colour observations, advertisement versus aggressive repertoire, Bolivian locality/perch and attributed predation, older larval-description pointer and historical conservation polygon; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: The diagnosis and holotype give different size bounds
+              zh: 鉴别范围与正模体长并不一致
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s4g
+            locator: PMC5332023 reading-sections section 13 paragraphs 8–9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c19f926426
+                part: body
+              zh:
+                page: zh
+                section: s-d40675fced
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Reticulated and spotted colour forms occur in the account
+              zh: 条目包含网纹型及斑点型
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s4g
+            locator: PMC5332023 reading-sections section 13 paragraph 13; section 1 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9c337975fb
+                part: body
+              zh:
+                page: zh
+                section: s-dd2aef7619
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Type II notes are absent from advertisement calls, not all calls
+              zh: 第二型音符不见于广告鸣声，但并非完全缺失
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s4g
+            locator: PMC5332023 reading-sections section 13 paragraphs 17–18; section 1 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-68c8ae5a5c
+                part: body
+              zh:
+                page: zh
+                section: s-6085a321ee
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Bolivian lowland observations and an attributed spider predation
+              zh: 玻利维亚低地观察与归属明确的蜘蛛捕食记载
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s4g
+            locator: PMC5332023 reading-sections section 13 paragraphs 20–21
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5c95a7cfde
+                part: body
+              zh:
+                page: zh
+                section: s-02ceba543d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: development
+            heading:
+              en: A larval description was cited under an older lineage label
+              zh: 幼体描述以较早谱系标签被引述
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s4g
+            locator: PMC5332023 reading-sections section 13 paragraph 19
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0680871318
+                part: body
+              zh:
+                page: zh
+                section: s-8b9af1d869
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: conservation
+            heading:
+              en: A historical range polygon is not occupied habitat
+              zh: 历史分布多边形不是全部已占据生境
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s4g
+            locator: PMC5332023 reading-sections section 13 paragraph 22; section 1 paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8ae5ae955c
+                part: body
+              zh:
+                page: zh
+                section: s-92528683bc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

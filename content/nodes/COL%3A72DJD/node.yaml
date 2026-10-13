@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes bannaensis
+  displayName: Limnonectes bannaensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DJD
+  sourceIndexes:
+    - name:
+        en: Limnonectes bannaensis
+        zh: Limnonectes bannaensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DJD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/53
+            queryName: Limnonectes bannaensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0de64885d8
+      - s-5ce604fb03
+      - s-fa25c8271c
+      - s-9689ae8c11
+      - s-a1f0a3ac57
+      - s-df054c82ca
+      - s-4ae975378b
+      - s-98eb906c52
+    zh:
+      - s-1499d054b7
+      - s-dc13f51e7b
+      - s-997ec4ac38
+      - s-cc06459f4b
+      - s-6e3a6f7f01
+      - s-ac4978d887
+      - s-0d108e07b2
+      - s-121ff32a05

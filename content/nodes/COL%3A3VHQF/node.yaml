@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates miadis
+  displayName: Lithobates miadis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQF
+  sourceIndexes:
+    - name:
+        en: Lithobates miadis
+        zh: Lithobates miadis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/182
+            queryName: Lithobates miadis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/157
+            queryName: Rana miadis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ccd709c976
+      - s-c8ef411274
+      - s-e6e1337d84
+      - s-f3bab8d905
+      - s-7ea8a6cf6f
+      - s-181df31dcf
+      - s-80f8643212
+      - s-53e015b8ce
+    zh:
+      - s-bb3a9155a4
+      - s-bbcb48203b
+      - s-1c663f4959
+      - s-9a6e487f7d
+      - s-88d6529f8a
+      - s-1e69a5e8bd
+      - s-e004f17c38
+      - s-77146762c0

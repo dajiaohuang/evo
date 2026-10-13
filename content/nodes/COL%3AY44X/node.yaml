@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus petrophilus
+  displayName: Cophixalus petrophilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44X
+  sourceIndexes:
+    - name:
+        en: Cophixalus petrophilus
+        zh: Cophixalus petrophilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/473
+            queryName: Cophixalus petrophilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cca834cb12
+      - s-32672e90dd
+      - s-2595bf0a85
+      - s-7fde8ccf7a
+      - s-f235749620
+    zh:
+      - s-705477b044
+      - s-45eadb0949
+      - s-dfc4a10d2e
+      - s-dd6cacb528
+      - s-1f70cf9d02

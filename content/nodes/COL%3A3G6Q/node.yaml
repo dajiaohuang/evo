@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Calyptocephalella
+  displayName: Calyptocephalella
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3G6Q
+  sourceIndexes:
+    - name:
+        en: Calyptocephalella
+        zh: Calyptocephalella
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3G6Q
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/273
+            queryName: Calyptocephalella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 55
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-88143b497a
+      - s-bb396c0175
+      - s-cc7e12fe30
+      - s-d7743c21e2
+      - s-c5868246e0
+      - s-a78171c420
+      - s-32426bb2ce
+      - s-a0c2d6883b
+      - s-f14109a4c1
+    zh:
+      - s-11a60047ba
+      - s-8b8ebe4f47
+      - s-6de1c664e9
+      - s-ff3c679caf
+      - s-b8a8cb0a0c
+      - s-501d0b9f0b
+      - s-486b2b6d33
+      - s-5480eec6f8
+      - s-b610ef3e13

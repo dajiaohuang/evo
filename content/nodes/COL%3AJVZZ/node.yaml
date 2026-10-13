@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina mehelyi
+  displayName: Austrochaperina mehelyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JVZZ
+  sourceIndexes:
+    - name:
+        en: Austrochaperina mehelyi
+        zh: Austrochaperina mehelyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JVZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/358
+            queryName: Austrochaperina mehelyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/73
+            queryName: Sphenophryne mehelyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/121
+            queryName: Asterophrys mehelyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-623b88de57
+      - s-01ee589866
+      - s-0f74fb857c
+      - s-8b9cce18b4
+      - s-b10efc631c
+      - s-1c15fb37df
+      - s-ea8c349f39
+      - s-4137ba31df
+      - s-de01013350
+    zh:
+      - s-8c45a41b5c
+      - s-f4265bf5c0
+      - s-920349c812
+      - s-d257237e9d
+      - s-7e4bc784a4
+      - s-7982a7c7fa
+      - s-ec6667e25d
+      - s-1c71654cb2
+      - s-fca6fce438

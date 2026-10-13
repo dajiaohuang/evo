@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Engystomops montubio
+  displayName: Engystomops montubio
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F99Y
+  sourceIndexes:
+    - name:
+        en: Engystomops montubio
+        zh: Engystomops montubio
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F99Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/357
+            queryName: Engystomops montubio
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/136
+            queryName: Physalaemus montubio
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d3e58bd96
+      - s-e37154fd6f
+      - s-ccf6f0b23a
+      - s-b4f67e80a6
+      - s-bd39431b64
+      - s-bbc4b034f9
+      - s-2c36b4cfaa
+      - s-b1b86c9eec
+      - s-5afe6b46a0
+      - s-6f7616cd2d
+      - s-258b5957a0
+      - s-92e1bbaa8d
+    zh:
+      - s-b4fd36e66f
+      - s-834c70c1d9
+      - s-44d9b7986c
+      - s-62b243c179
+      - s-074efd5257
+      - s-bd462f5949
+      - s-6163a2262f
+      - s-6c02669506
+      - s-1eed93d041
+      - s-ce1565c882
+      - s-f0779accae
+      - s-25410c19ef

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops hongkongensis
+  displayName: Amolops hongkongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DY8
+  sourceIndexes:
+    - name:
+        en: Amolops hongkongensis
+        zh: Amolops hongkongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DY8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/368
+            queryName: Amolops hongkongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/139
+            queryName: Staurois hongkongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a1f07eb884
+      - s-c1cf2e3db0
+      - s-4d6596126c
+      - s-c5c2f46a0e
+      - s-0ce890ae26
+      - s-f4acddf7aa
+      - s-ac011eec8d
+      - s-92d71bf744
+      - s-36c3535b71
+      - s-154282c1b7
+      - s-821f5234cf
+      - s-0eccb8f714
+      - s-742674686b
+    zh:
+      - s-7060f9bc0a
+      - s-af4f8e6eba
+      - s-1553b19ada
+      - s-891ab82757
+      - s-eea2e51746
+      - s-54a6ca7ed2
+      - s-c3c061384f
+      - s-f85edad67d
+      - s-2120171ce1
+      - s-909783bef1
+      - s-2eba5c864b
+      - s-ec54b2fe4b
+      - s-0ad7a62f63

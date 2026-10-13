@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus eulenbergeri
+  displayName: Mantidactylus eulenbergeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QMD9M
+  sourceIndexes:
+    - name:
+        en: Mantidactylus eulenbergeri
+        zh: Mantidactylus eulenbergeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QMD9M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/322
+            queryName: Mantidactylus eulenbergeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd15e542d4
+      - s-9c4b329a6e
+      - s-9d6b288b4e
+    zh:
+      - s-f5f6d13591
+      - s-8dac399d32
+      - s-5df5a8aa41

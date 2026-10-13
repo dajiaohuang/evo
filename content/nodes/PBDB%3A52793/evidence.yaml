@@ -1,0 +1,430 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Ankylosaurus magniventris
+    commonName: Ankylosaurus
+    commonNameZh: 甲龙
+    rank: species
+    taxonId: txn:52793
+    firstAppearance: 0
+    lastAppearance: 0
+    rangeEvidenceLevel: withheld-no-range-evidence
+    extinct: true
+    parentRelationshipKind: taxonomic-parent
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Ankylosaurus magniventris
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Ankylosaurus magniventris
+      en: Ankylosaurus magniventris
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-244dae1281
+            part: body
+          en:
+            page: en
+            section: s-115f5dac26
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e2fa8ecf0d
+            part: body
+          en:
+            page: en
+            section: s-e91aed5cf4
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ce8036c52f
+            part: body
+          en:
+            page: en
+            section: s-324e4b350b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e6271ab29b
+            part: body
+          en:
+            page: en
+            section: s-b13a3b8d83
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3ed8f92bad
+            part: body
+          en:
+            page: en
+            section: s-d6378b9517
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Ankylosaurus magniventris
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=52793&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:52793; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:52793
+          selectedOccurrenceIds:
+            - occ:139340
+            - occ:464436
+            - occ:464518
+            - occ:464519
+            - occ:464521
+            - occ:464522
+            - occ:488358
+            - occ:700664
+            - occ:700722
+            - occ:700759
+            - occ:702694
+            - occ:702718
+            - occ:1486478
+            - occ:1588501
+          selectedCollectionIds:
+            - col:11931
+            - col:14534
+            - col:45876
+            - col:45877
+            - col:45878
+            - col:45879
+            - col:14585
+            - col:14544
+            - col:14541
+            - col:75289
+            - col:75430
+            - col:75435
+            - col:206819
+            - col:224484
+          sourceReferenceIds:
+            - ref:4210
+            - ref:12202
+            - ref:63399
+            - ref:11822
+            - ref:71136
+            - ref:64040
+            - ref:80625
+          originalIdentificationMappings:
+            - occurrenceId: occ:139340
+              originalIdentifiedName: Ankylosaurus magniventris n. gen. n. sp.
+              acceptedName: Ankylosaurus magniventris
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f1003db27e
+        part: body
+      en:
+        page: en
+        section: s-14aaec36c0
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:52793
+    scientificName: Ankylosaurus magniventris
+    commonName: Ankylosaurus
+    commonNameZh: 甲龙
+    rank: species
+    parentName: Ankylosaurus
+    extinct: true
+    geography:
+      - Upper Cretaceous Western Interior material from Montana, Wyoming and Alberta
+    overview:
+      page: en
+      section: s-1b08b04cc4
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-2ac12f146a
+        part: body
+      habitat:
+        page: en
+        section: s-7a2ecbaaf7
+        part: body
+      locomotion:
+        page: en
+        section: s-53515a8910
+        part: body
+      bodySize:
+        page: en
+        section: s-46f5f141ee
+        part: body
+      guild:
+        page: en
+        section: s-92b1a3500e
+        part: body
+      dietZh:
+        page: zh
+        section: zh-fd9f6e29eabd51
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-26f098d0b4c624
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-5daf7a6a2fe5de
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-a5837378ea538a
+        part: body
+      guildZh:
+        page: zh
+        section: zh-549d94b9df2b02
+        part: body
+    traits:
+      - page: en
+        section: s-6fa3cc673e
+        part: body
+      - page: en
+        section: s-0c759c5b76
+        part: body
+      - page: en
+        section: s-d0538cc00f
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-6d6370d4bd
+      part: body
+    confidence: high
+    referenceIds:
+      - carpenter-2004-ankylosaurus-redescription
+    overviewZh:
+      page: zh
+      section: s-60d9058af9
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-14e1c1a202
+      part: body
+    readerSources:
+      - id: carpenter-2004-ankylosaurus-redescription
+        referenceId: carpenter-2004-ankylosaurus-redescription
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Carpenter (2004), pp. 961–986, Figures 1–19 and Tables 1–3: holotype and referred material, revised diagnosis, specimen anatomy, and Hell Creek, Lance and Scollard formation records."
+            zh: Carpenter（2004），第 961–986 页、图 1–19 与表 1–3：正模及归入材料、修订诊断、标本解剖，以及 Hell Creek、Lance 和 Scollard 组记录。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-1b08b04cc4
+            part: title
+          zh:
+            page: zh
+            section: s-60d9058af9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1b08b04cc4
+            part: body
+          zh:
+            page: zh
+            section: s-60d9058af9
+            part: body
+        sourceIds:
+          - carpenter-2004-ankylosaurus-redescription
+      - id: ankylosaurus-evidence
+        title:
+          en:
+            page: en
+            section: s-6d6370d4bd
+            part: title
+          zh:
+            page: zh
+            section: s-14e1c1a202
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6d6370d4bd
+            part: body
+          zh:
+            page: zh
+            section: s-14e1c1a202
+            part: body
+        sourceIds:
+          - carpenter-2004-ankylosaurus-redescription
+    traitsZh:
+      - page: zh
+        section: zh-8ee399ebb79adf
+        part: body
+      - page: zh
+        section: zh-fb1f722e603b03
+        part: body
+      - page: zh
+        section: zh-3d829572c6d8a5
+        part: body
+  claims:
+    - subjectId: taxon:ankylosaurus_magniventris
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Ankylosaurus is bounded here by Carpenter’s redescription of referred Upper Cretaceous western North American material; the revised diagnosis does not make every isolated ankylosaurid remain part of the genus or define exact global endpoints.
+      confidence: high
+      confidenceRationale: "The study directly compares the type and referred specimens and states a revised diagnosis and distribution. High confidence is restricted to accepted material. Ankylosaurus magniventris: For the species-level page, this assessment applies to the named species and its cited diagnosis; it does not imply a broader genus sample."
+      referenceLinks:
+        - referenceId: carpenter-2004-ankylosaurus-redescription
+          relation: supports
+          pages: 961–986
+          figure: Figures 1–19; Tables 1–3
+          quoteLocator: Holotype and referred material; revised diagnosis; stratigraphic and geographic occurrence
+    - subjectId: taxon:ankylosaurus_magniventris
+      claimType: biogeography
+      claimKind: scientific
+      statement: This profile is geographically limited to the type and referred Upper Cretaceous Western Interior material from the Hell Creek, Lance and Scollard formations in Montana, Wyoming and Alberta; it does not claim a complete genus range.
+      confidence: high
+      confidenceRationale: "The redescription lists the sampled material and formations directly; a complete geographic range cannot be inferred from that bounded sample. Ankylosaurus magniventris: For the species-level page, this assessment covers the cited occurrence or localities only and does not estimate a complete range."
+      referenceLinks:
+        - referenceId: carpenter-2004-ankylosaurus-redescription
+          relation: supports
+          pages: 961–986
+          figure: Figures 1–19; Tables 1–3
+          quoteLocator: Holotype and referred material; stratigraphic and geographic occurrence
+    - subjectId: taxon:ankylosaurus_magniventris
+      claimType: morphology
+      claimKind: scientific
+      statement: Carpenter's redescription documents a long, low skull with prominent cranial horns, a large cervical half-ring and a large, low tail club in the type and referred Ankylosaurus material; the claim is limited to those specimens.
+      confidence: high
+      confidenceRationale: "These are specimen-based anatomical observations illustrated and tabulated in the redescription, without extending them to every isolated ankylosaurid remain. Ankylosaurus magniventris: For the species-level page, this assessment covers the characters observed in the cited specimens; unsampled variation remains outside it."
+      referenceLinks:
+        - referenceId: carpenter-2004-ankylosaurus-redescription
+          relation: supports
+          pages: 961–986
+          figure: Figures 1–19; Tables 1–3
+          quoteLocator: Redescription and revised diagnosis; armor and tail-club description
+    - subjectId: taxon:ankylosaurus_magniventris
+      claimType: ecology
+      claimKind: scientific
+      statement: Carpenter's anatomical redescription does not directly establish diet, habitat preference, locomotion, body size or ecological guild for Ankylosaurus; those profile fields are explicitly withheld.
+      confidence: high
+      confidenceRationale: "The primary evidence is a taxonomic and anatomical redescription, not direct observation or testing of the listed ecological attributes. Ankylosaurus magniventris: For the species-level page, this assessment covers only ecological inferences tied to the cited specimens; unmeasured fields remain unassigned."
+      referenceLinks:
+        - referenceId: carpenter-2004-ankylosaurus-redescription
+          relation: supports
+          pages: 961–986
+          figure: Figures 1–19; Tables 1–3
+          quoteLocator: Scope of redescription, revised diagnosis and specimen inventory
+  claim-rationales.zh:
+    - 研究直接比较模式与归入标本，并给出修订诊断和分布。高置信度仅限被接受材料。 Ankylosaurus magniventris：本种级页面的判断仅适用于所引材料中的该种及其描述，不表示存在更广泛的属级样本。
+    - 重描述直接列出了采样材料和地层；完整地理范围不能由该受限样本推断。 Ankylosaurus magniventris：本种级页面的判断仅覆盖所引化石记录或地点，不据此估算完整分布。
+    - 这些是论文插图和表格所记录的标本解剖观察，不能外推至每一件孤立的甲龙类遗骸。 Ankylosaurus magniventris：本种级页面的判断仅覆盖所引标本中观察到的性状；未取样的种内变异不在此结论内。
+    - 一手证据是分类和解剖重描述，而不是对所列生态属性的直接观察或检验。 Ankylosaurus magniventris：本种级页面的判断仅覆盖与所引标本相关的生态推断；未测量字段继续保持未指定。
+  claim-statements.zh:
+    - Carpenter 的重新描述在 Ankylosaurus 模式及归入材料中记录了低长的头骨、突出的颅角、大型颈部半环甲和大型低矮尾锤；该陈述仅适用于这些标本。
+    - 本档案的地理范围仅限于蒙大拿州、怀俄明州和阿尔伯塔省 Hell Creek、Lance 及 Scollard 组的上白垩统北美西部内陆模式及归入材料，不代表该属完整的分布范围。
+    - Carpenter 的解剖学重新描述未直接确定 Ankylosaurus 的食性、生境偏好、运动方式、体型或生态功能类群；本档案明确暂不填写这些字段。
+    - 甲龙属在此由 Carpenter 对北美西部上白垩统归入材料的再描述限定；修订诊断不把每件孤立甲龙科遗骸都纳入该属，也不定义精确全球端点。
+  ranges:
+    - entityId: ankylosaurus_magniventris
+      rangeKind: global-composite
+      taxonomicConcept: PBDB accepted fossil species txn:52793 (Ankylosaurus magniventris); profile scope is the cited specimen record, not a global range synthesis
+      geographicScope: Named source locality only; no complete global geographic-temporal range is assigned
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; the cited specimen study does not establish a complete global first and last appearance range.
+      evidenceBasis: The frozen PBDB roster supports accepted name, rank, OID and immediate parent. The selected literature supports the described specimen evidence, not a complete global range for Ankylosaurus magniventris.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: carpenter-2004-ankylosaurus-redescription
+          locator: Cited named specimen and locality; no complete global range is claimed.
+  field-claim-overrides:
+    - firstAppearance:
+        status: not-assessed
+      lastAppearance:
+        status: not-assessed

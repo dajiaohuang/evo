@@ -1,0 +1,461 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phyllomedusa vaillantii Boulenger, 1882
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phyllomedusa vaillantii
+      zh: Phyllomedusa vaillantii
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e94eb94f9c
+            part: title
+          zh:
+            page: zh
+            section: s-de4cad970a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e94eb94f9c
+            part: body
+          zh:
+            page: zh
+            section: s-de4cad970a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8c57f77fdb
+            part: title
+          zh:
+            page: zh
+            section: s-c6097a01c1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8c57f77fdb
+            part: body
+          zh:
+            page: zh
+            section: s-c6097a01c1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-c5389c2b98
+            part: title
+          zh:
+            page: zh
+            section: s-1745424c58
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-c5389c2b98
+            part: body
+          zh:
+            page: zh
+            section: s-1745424c58
+            part: body
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a90ae69376
+            part: title
+          zh:
+            page: zh
+            section: s-b0fd80148e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-a90ae69376
+            part: body
+          zh:
+            page: zh
+            section: s-b0fd80148e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-0d4864fa5378b639af8ac723635fee5f
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-f41b5efe1a51b234f5900973
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-9e25822ce6adf7a15327ca16
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-89a6c7e2d6
+            part: title
+          zh:
+            page: zh
+            section: s-89c0a6ba2e
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4h7sn
+        text:
+          en:
+            page: en
+            section: s-89a6c7e2d6
+            part: body
+          zh:
+            page: zh
+            section: s-89c0a6ba2e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-913e43ab58
+            part: title
+          zh:
+            page: zh
+            section: s-9b48ebeeb7
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4h7sn
+        text:
+          en:
+            page: en
+            section: s-913e43ab58
+            part: body
+          zh:
+            page: zh
+            section: s-9b48ebeeb7
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-2d74d98cd0
+            part: title
+          zh:
+            page: zh
+            section: s-b1fe99ebb2
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4h7sn
+        text:
+          en:
+            page: en
+            section: s-2d74d98cd0
+            part: body
+          zh:
+            page: zh
+            section: s-b1fe99ebb2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phyllomedusa vaillantii
+          url: https://www.checklistbank.org/dataset/316115/taxon/4H7SN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 208167, row 277197; Distribution.tsv rows 69531; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3010; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3010 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2397; Picture measurement data rows 1269, 1270, 1271; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3603, 4360, 4394; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc12654886-4h7sn
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phyllomedusa vaillantii: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ef56460666
+        part: body
+      zh:
+        page: zh
+        section: s-2be297feb5
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "208167"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=208167
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 277197
+        key: "208167"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "208167"
+            area: South America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 69531
+            key: 208167|South America|text|NULL|NULL
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-4h7sn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Mixed historic/recent regional source-labelled Phyllomedusa vaillantii, exact-name frozenCOLcandidate notspecimen-certified concept
+        evidenceRead: "Phyllomedusa vaillantii: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4h7sn
+            locator: PMC12654886 S3_Table.pdf page3 speciesrow11 Phyllomedusa vaillantii fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8f8cf1a4fe
+                part: body
+              zh:
+                page: zh
+                section: s-b0e7b71c6b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4h7sn
+            locator: PMC12654886 S3_Table.pdf page3 speciesrow11 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ac47fd40e0
+                part: body
+              zh:
+                page: zh
+                section: s-21131f416a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4h7sn
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-76ffbf374b
+                part: body
+              zh:
+                page: zh
+                section: s-8ab65aab97
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

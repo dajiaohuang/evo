@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pachycarpus acidostelma M.Glen & Nicholas
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4BQ8Q, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4BQ8Q; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4BQ8Q
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4BQ8Q
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001333015-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4BQ8Q / WFO wfo-0001333015
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_7610_0
+        referenceId: ref-ae77e4da-7454-813e-a289-05cc0fdee127
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Pachycarpus acidostelma M.Glen & Nicholas account; archive rows 76469 (Morphology), 75855 (Habitat), 74992 (Diagnostic), source identifier 7610.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Habit erect, perennial geophytic herb with milky latex. Rootstock deep-seated, narrow, cylindrical caudex. Stems mostly solitary, 37-40 cm tall, slightly scabrid. Leaves oval, oblong and wide, 3.8-7.9 x 23.4 cm; apex obtuse or rounded with slight mucronate point; base shortly attenuate, rounded; margin thickened, callose and sparsely ciliate, occasionally almost revolute; vestiture glabrous, with the abaxial midrib hispid; venation prominent on the underside; petioles 3-6.5 mm. Inflorescences terminal and extra-axillary, 4 per stem, corymbose or subcorymbose; 4- to 6-flowered; peduncles free, 11-29 mm; pedicels pubescent, 15-21 mm. Flowers pale cream to pale yellow, sweetly scented, 13-17 x 23-25 mm; sepals reflexed, scabrid, 7.5-9 x 3.5-6.5 mm; corolla cream, spreading and catilliform when young, tips reflexed when mature; lobes ovate, ca. 9-12 x 9 mm; gynostegial column 3.9-4.8 mm tall; corona cream, tinged yellow at base; lobes spreading 1.4-3.2 x 1.7-2.4 mm, 2.5-2.7 mm tall, proximal end broad with two curved, erect, contiguous, dentate appendages, broadening distally into a sharp deltoid point (2-2.7 x 0.7-1.9 mm) with sharp apex, a shallow groove running along the upper surface and between the proximal appendages; androecium, with the anther appendages oblong with acute apex, ca. 2 x 1.7-2 mm; anther wings moderately prominent, 2.4-3.4 x 1-1.4 mm; pollinarium, with the corpusculum ca. 0.75-0.85 x 0.45 mm; translator arm narrowly winged, 0.9-1.4 mm; pollinium dorsoventrally flattened, oblong, 1.35-1.8 x 0.65-0.9 mm; gynoeciumwith style head 3.3-3.7 mm diam. Fruit a follicle, solitary, on bent pedicel, inflated, ovoid, ca. 90 x 34 mm, winged apically; apex angular; seeds not seen.
+            sourceIds:
+              - sanbi_7610_0
+            locator: "SANBI/WFO archive Morphology row 76469; source 7610.0; publication: Glen, M; Lamb, J; Nicholas, A; Shuttleworth, A. 2011. A new species of Pachycarpus (Apocynaceae: Asclepiadoideae) from KwaZulu-Natal, South Africa. Novon 21(4): 426 - 430. [https://doi.org/10.3417/2010081]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Differentiated from other closely related Pachycarpus E. Mey. species (P. scaber (Harv.) N. E. Br. and P. asperifolius Meisn.) by its small stature, the catilliform or saucer-shaped corolla, and a deltoid corona lobe that is sharp at the distal end, hence the specific epithet. It also differs from P. asperifolius in the inflorescence being terminal and subcorymbose.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_7610_0
+            locator: "SANBI/WFO archive Diagnostic row 74992; source 7610.0; publication: Glen, M; Lamb, J; Nicholas, A; Shuttleworth, A. 2011. A new species of Pachycarpus (Apocynaceae: Asclepiadoideae) from KwaZulu-Natal, South Africa. Novon 21(4): 426 - 430. [https://doi.org/10.3417/2010081]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: It grows in midland grasslands. In KwaZulu-Natal sandstone sourveld.
+            sourceIds:
+              - sanbi_7610_0
+            locator: "SANBI/WFO archive Habitat row 75855; source 7610.0; publication: Glen, M; Lamb, J; Nicholas, A; Shuttleworth, A. 2011. A new species of Pachycarpus (Apocynaceae: Asclepiadoideae) from KwaZulu-Natal, South Africa. Novon 21(4): 426 - 430. [https://doi.org/10.3417/2010081]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSummary:
+      page: en
+      section: s-ef092fc06a
+      part: body
+    readerSummaryZh:
+      page: zh
+      section: s-e8cbd78068
+      part: body

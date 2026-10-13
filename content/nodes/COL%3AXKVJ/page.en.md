@@ -1,0 +1,3 @@
+## Woolly leaves and segmented fruit {#s-01b92cddda}
+The Brazilian Flora 2020 morphology field records *Condylocarpon pubiflorum* with leaves in opposite pairs on the stems and a soft, woolly covering on the stems, leaves, and flower clusters. The leaves are elliptic (oval and widest near the middle) and papery, with tips that taper to a point or a tail-like end. Flowers are borne in loose clusters at shoot tips; the petal lobes, the separate segments at the edge of the flower's petal cup, have no projecting appendages. The source describes the fruit as cylindrical and jointed into segments, with as many as 16 segments. This is a regional database description and does not report sampling coverage or variation.
+

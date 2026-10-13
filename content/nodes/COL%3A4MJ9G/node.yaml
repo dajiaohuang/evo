@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis anotis
+  displayName: Pristimantis anotis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ9G
+  sourceIndexes:
+    - name:
+        en: Pristimantis anotis
+        zh: Pristimantis anotis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ9G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/113
+            queryName: Pristimantis anotis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/27
+            queryName: Eleutherodactylus anotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7bf8387b1c
+      - s-3e67f102c8
+      - s-3068f5950e
+      - s-7964d6766e
+      - s-e37ac9c603
+      - s-d5cb6ee9d6
+      - s-2819204598
+      - s-66a0c43ed7
+    zh:
+      - s-a02a86af5a
+      - s-5f89d8ad0f
+      - s-97bd5994a1
+      - s-52ba44a0b4
+      - s-0e86b4f49c
+      - s-8c8bd7cbab
+      - s-2ed3c5dd5e
+      - s-786634f764

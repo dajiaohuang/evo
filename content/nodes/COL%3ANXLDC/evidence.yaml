@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Guibemantis ambakoana Gabriel, Rothe, Köhler, Rakotomanga, Edmonds, Galán, Glaw, Lehtinen, Rakotoarison & Vences, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Guibemantis ambakoana
+      zh: Guibemantis ambakoana
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-76093ad298
+            part: title
+          zh:
+            page: zh
+            section: s-c2cdc3831a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-76093ad298
+            part: body
+          zh:
+            page: zh
+            section: s-c2cdc3831a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-48a6adb0f7
+            part: title
+          zh:
+            page: zh
+            section: s-ec3c55b535
+            part: title
+        text:
+          en:
+            page: en
+            section: s-48a6adb0f7
+            part: body
+          zh:
+            page: zh
+            section: s-ec3c55b535
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-c0e17592cc
+            part: title
+          zh:
+            page: zh
+            section: s-c4d50a3c4a
+            part: title
+        sourceIds:
+          - primary-pmc11802484-nxldc
+        text:
+          en:
+            page: en
+            section: s-c0e17592cc
+            part: body
+          zh:
+            page: zh
+            section: s-c4d50a3c4a
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b2476b9b71
+            part: title
+          zh:
+            page: zh
+            section: s-454e9a8a25
+            part: title
+        sourceIds:
+          - primary-pmc11802484-nxldc
+        text:
+          en:
+            page: en
+            section: s-b2476b9b71
+            part: body
+          zh:
+            page: zh
+            section: s-454e9a8a25
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Guibemantis ambakoana
+          url: https://www.checklistbank.org/dataset/316115/taxon/NXLDC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11802484-nxldc
+        referenceId: ref-7800eb63-e893-45db-aefc-d1e518eec1ba
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Guibemantis ambakoana: Named captive reproduction and care observations only; article online 2024 and print 2025, morphology-only founders, no figures or tables reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f74451a55f
+        part: body
+      zh:
+        page: zh
+        section: s-06b228472f
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1002/zoo.21876
+        referenceId: ref-7800eb63-e893-45db-aefc-d1e518eec1ba
+        sourceKey: primary-pmc11802484-nxldc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11802484/article.xml
+        sourceConcept: Guibemantis ambakoana
+        evidenceRead: "Guibemantis ambakoana: Named captive reproduction and care observations only; article online 2024 and print 2025, morphology-only founders, no figures or tables reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: reproduction
+            heading:
+              en: Mostly infertile captive egg masses and one fertile plastic-plant clutch
+              zh: 多数不育饲养卵窝及一塑料植物可育卵窝
+            referenceId: ref-7800eb63-e893-45db-aefc-d1e518eec1ba
+            sourceKey: primary-pmc11802484-nxldc
+            locator: PMC11802484 XML zoo21876-sec-0100 and zoo21876-sec-0120 paragraph 0 each; reading-sections section 2, paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cc10d53360
+                part: body
+              zh:
+                page: zh
+                section: s-3f9be64816
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Morphological similarity limits the breeding-label certainty
+              zh: 形态相似限制繁殖标签确定性
+            referenceId: ref-7800eb63-e893-45db-aefc-d1e518eec1ba
+            sourceKey: primary-pmc11802484-nxldc
+            locator: PMC11802484 reading-sections section 2, paragraphs 2–3; XML zoo21876-sec-0050 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2058051e8f
+                part: body
+              zh:
+                page: zh
+                section: s-e9c4ff4f2c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

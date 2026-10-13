@@ -1,0 +1,3 @@
+## *Baccharis dentata*: toothed leaves and racemes of heads {#s-60456aa541}
+The Brazilian Flora 2020 regional field records stalked leaves with pinnate veins and blades ranging from lance-shaped to egg-shaped or elliptic; their margins are toothed. Flower heads are arranged in racemes, elongated clusters with stalked heads along a central axis. The field describes heads as either all tubular male-flowered or all threadlike female-flowered. These are the source field’s recorded alternatives; it does not specify a combined flower form. Rock-associated and terrestrial substrate labels are both present, but no locality is supplied.
+

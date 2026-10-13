@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Speleomantes sarrabusensis
+  displayName: Speleomantes sarrabusensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YHFD
+  sourceIndexes:
+    - name:
+        en: Speleomantes sarrabusensis
+        zh: Speleomantes sarrabusensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YHFD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/225
+            queryName: Speleomantes sarrabusensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 37
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/463
+            queryName: Hydromantes sarrabusensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/292
+            queryName: Speleomantes imperialis sarrabusensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8489c5fb6d
+      - s-da0fd24640
+      - s-6ba2e525ab
+      - s-4e2618ab15
+      - s-987914aa2b
+      - s-154b915df5
+      - s-0ef10e75b9
+      - s-55e2488890
+      - s-de7cd899ff
+    zh:
+      - s-5c7d1da959
+      - s-badf951f25
+      - s-8f355661b7
+      - s-589a89e53d
+      - s-93288b18b6
+      - s-6db0654980
+      - s-ea5d5d2763
+      - s-d0b68a0a86
+      - s-ad91cef013

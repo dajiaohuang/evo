@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Osornophryne percrassa
+    name:
+      en: Osornophryne percrassa
+      zh: Osornophryne percrassa
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Osornophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-591ab8ec66
+            part: body
+          zh:
+            page: zh
+            section: s-e7f3e897c1
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-36e91f0706
+            part: body
+          zh:
+            page: zh
+            section: s-9a17dc90fd
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3950; Reference.csv rows 2690
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3950
+        values:
+          - Bufonidae
+          - Osornophryne
+          - Osornophryne percrassa
+          - NA
+          - "29.2"
+          - "8.57"
+          - "10.33"
+          - "1.53"
+          - NA
+          - NA
+          - "2.97"
+          - "2.2"
+          - "1.87"
+          - "1.27"
+          - NA
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - "6.5"
+          - NA
+          - "7.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2690
+        values:
+          - Anura
+          - Osornophryne_percrassa
+          - "Gluesenkamp, A. G. (1995). A new species of Osornophryne (Anura: Bufonidae) from Volcán Sumaco, Ecuador, with notes on other members of the genus. Herpetologica, 51(3), 268-279."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 75BTJ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

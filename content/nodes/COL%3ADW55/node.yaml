@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aneides aeneus
+  displayName: Aneides aeneus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DW55
+  sourceIndexes:
+    - name:
+        en: Aneides aeneus
+        zh: Aneides aeneus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DW55
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/474
+            queryName: Aneides aeneus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/24
+            queryName: Plethodon aeneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d02385c63b
+      - s-ded108b842
+      - s-7966ca40fa
+      - s-79e7cebde4
+      - s-f23c654175
+      - s-137ad7d46a
+      - s-f574a102e6
+      - s-8a7ac7ffb8
+      - s-507d26d37d
+      - s-5a7f107d7a
+      - s-e865d7204a
+      - s-0f916b7d06
+      - s-f2ae2c36e1
+    zh:
+      - s-c50e5a6721
+      - s-659668fd0d
+      - s-0cd8f86599
+      - s-da946ab119
+      - s-cd2485ee1e
+      - s-1828b64d08
+      - s-400688427c
+      - s-b104c23e24
+      - s-211809ea44
+      - s-409786a290
+      - s-d67605a7f9
+      - s-e5f5614ba7
+      - s-22e4c2d685

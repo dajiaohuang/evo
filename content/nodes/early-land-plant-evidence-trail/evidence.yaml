@@ -1,0 +1,170 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-834e8dabd7
+      part: title
+    titleZh: 早期陆生植物化石记录如何逐步成形
+    dek:
+      page: en
+      section: s-834e8dabd7
+      part: body
+    theme: green
+    durationMinutes: 9
+    featured: true
+    steps:
+      - id: modelled-crown
+        title:
+          page: en
+          section: s-6bd3d0c761
+          part: title
+        titleZh:
+          page: zh
+          section: s-48c33e1127
+          part: title
+        text:
+          page: en
+          section: s-6bd3d0c761
+          part: body
+        textZh:
+          page: zh
+          section: s-48c33e1127
+          part: body
+        age: 494
+        timeRange:
+          - 515
+          - 473
+        taxonIds:
+          - plantae
+        view: evidence
+        eventId: plants-on-land
+        annotation: The Plantae node is navigation context; the claim concerns crown Embryophyta.
+        claimLinks:
+          - claimId: claim:event:plants-on-land
+            relation: supports
+      - id: dispersed-cryptospores
+        title:
+          page: en
+          section: s-de77529366
+          part: title
+        titleZh:
+          page: zh
+          section: s-0817df707d
+          part: title
+        text:
+          page: en
+          section: s-de77529366
+          part: body
+        textZh:
+          page: zh
+          section: s-0817df707d
+          part: body
+        age: 472
+        timeRange:
+          - 473
+          - 471
+        taxonIds:
+          - plantae
+        view: map
+        eventId: dapingian-cryptospores
+        annotation: The source-reported numerical ages are retained; they are not silently replaced by the current ICS Dapingian boundaries.
+        claimLinks:
+          - claimId: claim:event:dapingian-cryptospores
+            relation: supports
+      - id: spore-bearing-fragments
+        title:
+          page: en
+          section: s-111f5e78d3
+          part: title
+        titleZh:
+          page: zh
+          section: s-7d8479606f
+          part: title
+        text:
+          page: en
+          section: s-111f5e78d3
+          part: body
+        textZh:
+          page: zh
+          section: s-7d8479606f
+          part: body
+        age: 451
+        timeRange:
+          - 458.2
+          - 445.2
+        taxonIds:
+          - plantae
+        view: evidence
+        eventId: ordovician-sporangia
+        annotation: The broad window translates a legacy Caradoc assignment for display; it is not a point date.
+        claimLinks:
+          - claimId: claim:event:ordovician-sporangia:caradoc-record
+            relation: supports
+          - claimId: claim:event:ordovician-sporangia:spore-masses
+            relation: supports
+      - id: asteroxylon-axes
+        title:
+          page: en
+          section: s-7f5c7c5463
+          part: title
+        titleZh:
+          page: zh
+          section: s-f95e54aa19
+          part: title
+        text:
+          page: en
+          section: s-7f5c7c5463
+          part: body
+        textZh:
+          page: zh
+          section: s-f95e54aa19
+          part: body
+        age: 407
+        timeRange:
+          - 407
+          - 407
+        taxonIds:
+          - lycophyta
+        view: tree
+        eventId: asteroxylon-rooting-system
+        annotation: A species-level exemplar cannot supply morphology for every lycophyte lineage.
+        claimLinks:
+          - claimId: claim:event:asteroxylon-rooting-system
+            relation: supports
+      - id: metzgeriothallus-bodies
+        title:
+          page: en
+          section: s-cb02f22ea8
+          part: title
+        titleZh:
+          page: zh
+          section: s-3a8a57ef5f
+          part: title
+        text:
+          page: en
+          section: s-cb02f22ea8
+          part: body
+        textZh:
+          page: zh
+          section: s-3a8a57ef5f
+          part: body
+        age: 385
+        timeRange:
+          - 387.95
+          - 382.31
+        taxonIds:
+          - marchantiophyta
+        view: evidence
+        eventId: metzgeriothallus-record
+        annotation: Occurrence, morphology and crown divergence remain separate evidence objects.
+        claimLinks:
+          - claimId: claim:event:metzgeriothallus:givetian-record
+            relation: supports
+          - claimId: claim:event:metzgeriothallus:body-plan
+            relation: supports
+    evidenceStatus: available-with-limitations
+    dekZh:
+      page: zh
+      section: zh-602920eb32cc99
+      part: body

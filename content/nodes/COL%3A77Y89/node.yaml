@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys carranca
+  displayName: Proceratophrys carranca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77Y89
+  sourceIndexes:
+    - name:
+        en: Proceratophrys carranca
+        zh: Proceratophrys carranca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77Y89
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/213
+            queryName: Proceratophrys carranca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e0152e1441
+      - s-a015dbffa8
+      - s-c008866d47
+      - s-dc05eca687
+      - s-32f44f5170
+      - s-67a8e86df8
+      - s-72489b67f7
+      - s-d89820f3e0
+    zh:
+      - s-518ccca48b
+      - s-ee4bc8401c
+      - s-06bc7e07d1
+      - s-1dc39ddb47
+      - s-39eb82861f
+      - s-78778d5baa
+      - s-1cd17f2a27
+      - s-8f4e5e9a48

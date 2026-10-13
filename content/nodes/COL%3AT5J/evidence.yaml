@@ -1,0 +1,326 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Alytes Wagler, 1830
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Alytes
+      zh: Alytes
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-caff6a64e8
+            part: title
+          zh:
+            page: zh
+            section: s-1c94f4912e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-caff6a64e8
+            part: body
+          zh:
+            page: zh
+            section: s-1c94f4912e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f060ca48c2
+            part: title
+          zh:
+            page: zh
+            section: s-bf58124e69
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f060ca48c2
+            part: body
+          zh:
+            page: zh
+            section: s-bf58124e69
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f050400c26
+            part: title
+          zh:
+            page: zh
+            section: s-ade2981d5e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f050400c26
+            part: body
+          zh:
+            page: zh
+            section: s-ade2981d5e
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c7a4884eed
+            part: title
+          zh:
+            page: zh
+            section: s-1d23987fc2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c7a4884eed
+            part: body
+          zh:
+            page: zh
+            section: s-1d23987fc2
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-9a83936d17
+            part: title
+          zh:
+            page: zh
+            section: s-94b188aec4
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: LLZG2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ALLZG2
+            label:
+              en: Alytes almogavarii
+              zh: Alytes almogavarii
+          - kind: catalogue
+            colId: 5TXLQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5TXLQ
+            label:
+              en: Alytes cisternasii
+              zh: Alytes cisternasii
+          - kind: catalogue
+            colId: CCWF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ACCWF
+            label:
+              en: Alytes dickhilleni
+              zh: Alytes dickhilleni
+          - kind: catalogue
+            colId: CCWH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ACCWH
+            label:
+              en: Alytes maurus
+              zh: Alytes maurus
+          - kind: catalogue
+            colId: CCWJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ACCWJ
+            label:
+              en: Alytes muletensis
+              zh: Alytes muletensis
+          - kind: catalogue
+            colId: CCWK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ACCWK
+            label:
+              en: Alytes obstetricans
+              zh: Alytes obstetricans
+        text:
+          en:
+            page: en
+            section: s-9a83936d17
+            part: body
+          zh:
+            page: zh
+            section: s-94b188aec4
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-9a759ebf3a
+            part: title
+          zh:
+            page: zh
+            section: s-4ff5c16268
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-9a759ebf3a
+            part: body
+          zh:
+            page: zh
+            section: s-4ff5c16268
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Alytes
+          url: https://www.checklistbank.org/dataset/316115/taxon/T5J
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Alytes; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Alytes; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-713961a089
+        part: body
+      zh:
+        page: zh
+        section: s-8f62984880
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Alytes
+      sourceRowIds:
+        - Anf0002
+        - Anf0003
+        - Anf0004
+        - Anf0005
+        - Anf0006
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 5
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 4
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 5
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 5
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Alytes cisternasii
+          path: content/nodes/local-1966cd58f18cdf040c73e3fc
+        - scientificName: Alytes dickhilleni
+          path: content/nodes/local-23ef89cc9c52f45009165f9e
+        - scientificName: Alytes maurus
+          path: content/nodes/local-6b3c0697e39b905e23e60c40
+        - scientificName: Alytes muletensis
+          path: content/nodes/local-3e03a92c0386ee73df8b31f4
+        - scientificName: Alytes obstetricans
+          path: content/nodes/local-2b2050617921837f59cc6901
+      metrics:
+        - metric: CTmax
+          rows: 19
+          sourceConcepts: 5
+        - metric: CTmin
+          rows: 3
+          sourceConcepts: 3
+        - metric: Tpref
+          rows: 9
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

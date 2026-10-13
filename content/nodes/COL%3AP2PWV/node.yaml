@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Firouzophrynus hololius
+  displayName: Firouzophrynus hololius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P2PWV
+  sourceIndexes:
+    - name:
+        en: Firouzophrynus hololius
+        zh: Firouzophrynus hololius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P2PWV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/489
+            queryName: Firouzophrynus hololius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/341
+            queryName: Bufo hololius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/434
+            queryName: Duttaphrynus hololius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b6fed1b5e7
+      - s-a61552b2cc
+      - s-409dea6079
+      - s-19ee4ec999
+      - s-0da9eac16e
+      - s-e31597b633
+      - s-64d8847f0c
+      - s-2e8d61dd96
+      - s-a75a8097a8
+      - s-d9c26f8bb7
+      - s-7d2a8cd5b1
+      - s-e89d86f546
+      - s-a5123cf248
+    zh:
+      - s-ee3ff8a06e
+      - s-14d8ac2a10
+      - s-8abc49c07d
+      - s-f1bfd8eb4a
+      - s-be0e7278ae
+      - s-5af1235238
+      - s-31fa255452
+      - s-9c1345700f
+      - s-8f27039c6b
+      - s-40e26764dc
+      - s-813382122e
+      - s-e9b4dfa6d6
+      - s-8eb7424bbf

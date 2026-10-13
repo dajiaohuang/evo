@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops viridimaculatus
+  displayName: Amolops viridimaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CWBQ
+  sourceIndexes:
+    - name:
+        en: Amolops viridimaculatus
+        zh: Amolops viridimaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CWBQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/416
+            queryName: Amolops viridimaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/371
+            queryName: Amolops caelumnoctis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/372
+            queryName: Amolops splendissimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/196
+            queryName: Staurois viridimaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2bcfeacb55
+      - s-7b6954d44a
+      - s-471c692618
+      - s-73c01b9d6d
+      - s-c02403e9b6
+      - s-40e6739294
+      - s-f8a3bc0ab8
+      - s-ae7ae9a7fd
+      - s-d2c18f58b6
+      - s-619d322c0f
+      - s-68f1bb5a9a
+      - s-6011d7206e
+      - s-56e68588cf
+      - s-330681d11f
+      - s-4d66c50b42
+      - s-a5951eb72b
+    zh:
+      - s-b75e7d29ee
+      - s-7fa9247f03
+      - s-55cf53eb7b
+      - s-d6f731e02e
+      - s-e0f700c62c
+      - s-003d57654e
+      - s-ea71232223
+      - s-87a12b093b
+      - s-6c63c948a6
+      - s-478044c6c1
+      - s-a3eeb1bb5c
+      - s-713d14d303
+      - s-18e4ebea12
+      - s-cedda865f6
+      - s-86d9530b90
+      - s-06e7d6b409

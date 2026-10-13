@@ -1,0 +1,3 @@
+## ## Compact spikes and contrasting petal colors {#s-e426479ddb}
+The historical Flora of Panama describes *Dalea cliffortiana* as a herb up to 0.7 m tall, usually branching above. Its alternate, odd-pinnate leaves usually have 11–15 narrow leaflets, with the source giving a range of 5–19. Compact terminal spikes bear flowers with five sepals and 9–10 stamens. The standard petal is white or rose-tinged, while the wing and keel petals are usually blue to pink, exceptionally white. The dry, one-seeded pod is 2–2.5 mm long. The same historical flora gives a range from Mexico to Panama; no sampling frame or observation date is specified, so this is not a current range inventory.
+

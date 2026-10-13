@@ -5,6 +5,8 @@ import { describe, expect, it } from 'vitest'
 const schema = JSON.parse(readFileSync('data/schemas/profile.schema.json', 'utf8'))
 const validate = new Ajv2020({ strict: true, allErrors: true }).compile(schema)
 const source = JSON.parse(readFileSync('data/registry/taxon-profiles.json', 'utf8')).find(record => record.id === 'dinosauria')
+const sourceWithoutRetiredStatus = { ...source }
+delete sourceWithoutRetiredStatus.readerLanguageStatus
 
 describe('explicitly unresolved atlas geography', () => {
   it('retains the explicit null identifier through source and registry projections', () => {
@@ -14,9 +16,10 @@ describe('explicitly unresolved atlas geography', () => {
     expect(source.pbdbTaxonId).toBe(null)
   })
   it('keeps geography availability independent of identity and range confidence', () => {
-    expect(validate({ ...source, pbdbTaxonId: null, geography: [], rangeProvisional: true })).toBe(true)
-    expect(validate({ ...source, pbdbTaxonId: 'txn:1', geography: [], rangeProvisional: true })).toBe(true)
-    expect(validate({ ...source, pbdbTaxonId: null, geography: [], rangeProvisional: false })).toBe(true)
-    expect(validate({ ...source, geography: [''] })).toBe(false)
+    expect(validate({ ...sourceWithoutRetiredStatus, pbdbTaxonId: null, geography: [], rangeProvisional: true })).toBe(true)
+    expect(validate({ ...sourceWithoutRetiredStatus, pbdbTaxonId: 'txn:1', geography: [], rangeProvisional: true })).toBe(true)
+    expect(validate({ ...sourceWithoutRetiredStatus, pbdbTaxonId: null, geography: [], rangeProvisional: false })).toBe(true)
+    expect(validate({ ...sourceWithoutRetiredStatus, geography: [''] })).toBe(false)
+    expect(validate({ ...sourceWithoutRetiredStatus, readerLanguageStatus: { en: 'draft-ready', zh: 'not-started' } })).toBe(false)
   })
 })

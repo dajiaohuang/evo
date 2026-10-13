@@ -1,0 +1,319 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylomyinae
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      zh: Tylomyinae
+      en: Tylomyinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-a772c25235
+            part: body
+          en:
+            page: en
+            section: s-411d9d5a54
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-3f2a262919
+            part: body
+          en:
+            page: en
+            section: s-f8eb5afd09
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-ce4034fbbb
+            part: body
+          en:
+            page: en
+            section: s-a62e0025a1
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-01b1336ad5
+            part: body
+          en:
+            page: en
+            section: s-bcf6737f56
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-84c3f342c7
+            part: body
+          en:
+            page: en
+            section: s-525ce23dc4
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-a3c87d67a1
+            part: body
+          en:
+            page: en
+            section: s-6c4703d78d
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-a787e34383
+            part: body
+          en:
+            page: en
+            section: s-84c998b6b7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylomyinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/KGN
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 3 authored entries grouped under Tylomyinae by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 4 authored same-name records placed under Tylomyinae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 10 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 9
+            foraging: 10
+            activity: 5
+          readingTargets:
+            - name: Nyctomys sumichrasti
+              colId: 485W5
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A485W5
+            - name: Otonyctomys hatti
+              colId: 4B7LW
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B7LW
+            - name: Ototylomys phyllotis
+              colId: 4B84N
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B84N
+            - name: Tylomys bullaris
+              colId: 7CZV7
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A7CZV7
+            - name: Tylomys fulviventer
+              colId: 59THF
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A59THF
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 5 authored entries grouped under Tylomyinae by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 4B7LW
+              name: Otonyctomys hatti
+              canonicalPath: content/nodes/COL%3A4B7LW
+            - colId: 7CZV7
+              name: Tylomys bullaris
+              canonicalPath: content/nodes/COL%3A7CZV7
+            - colId: 59THH
+              name: Tylomys mirae
+              canonicalPath: content/nodes/COL%3A59THH
+            - colId: 59THL
+              name: Tylomys tumbalensis
+              canonicalPath: content/nodes/COL%3A59THL
+            - colId: 59THM
+              name: Tylomys watsoni
+              canonicalPath: content/nodes/COL%3A59THM
+    limitations:
+      zh:
+        page: zh
+        section: s-46bc16cb33
+        part: body
+      en:
+        page: en
+        section: s-855bdc5e28
+        part: body

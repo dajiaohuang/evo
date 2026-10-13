@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Lehahichnus coquinaris
+    rank: species
+    sourceTaxonId: txn:133438
+    name:
+      en: Lehahichnus coquinaris
+      zh: Lehahichnus coquinaris
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-0270da646d
+            part: body
+          zh:
+            page: zh
+            section: s-fd22d1eeef
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-461c1b68b5
+            part: body
+          zh:
+            page: zh
+            section: s-7c3c6ec8fe
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-0d4e12505b
+            part: body
+          zh:
+            page: zh
+            section: s-dc63982842
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:133438; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "P. Ellenberger. 1970. Les niveaux paléontologiques de première apparition des mammifères primoridaux en Afrique du Sud et leur ichnologie.  Establissement de zones stratigraphiques detaillees dans le Stormberg du Lesotho (Afrique du Sud) (Trias Supérieur à Jurassique) [The paleontological levels of the first appearance of primordial mammals in southern Africa and their ichnology.  Establishment of detailed stratigraphic zones in the Stormberg of Lesotho (southern Africa) (Upper Triassic to Jurassic). In: S. H. Haughton (ed.), Second Symposium on Gondwana Stratigraphy and Paleontology, International Union of Geological Sciences.  Council for Scientific and Industrial Research, Pretoria"
+    occurrenceEvidence:
+      - occurrenceId: occ:780863
+        collectionId: col:84065
+        acceptedTaxonId: txn:133438
+        identifiedName: Lehahichnus coquinaris n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:28154
+        bibliography: "P. Ellenberger. 1970. Les niveaux paléontologiques de première apparition des mammifères primoridaux en Afrique du Sud et leur ichnologie.  Establissement de zones stratigraphiques detaillees dans le Stormberg du Lesotho (Afrique du Sud) (Trias Supérieur à Jurassique) [The paleontological levels of the first appearance of primordial mammals in southern Africa and their ichnology.  Establishment of detailed stratigraphic zones in the Stormberg of Lesotho (southern Africa) (Upper Triassic to Jurassic). In: S. H. Haughton (ed.), Second Symposium on Gondwana Stratigraphy and Paleontology, International Union of Geological Sciences.  Council for Scientific and Industrial Research, Pretoria"
+        locality:
+          countryCode: LS
+          stateProvince: Quthing
+          county: null
+        stratigraphy:
+          group: Stormberg
+          formation: Clarens
+          member: null
+        olderAgeMa: 192.9
+        youngerAgeMa: 184.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-0d4e12505b
+            part: body
+          zh:
+            page: zh
+            section: s-dc63982842
+            part: body
+        sourceIds: []

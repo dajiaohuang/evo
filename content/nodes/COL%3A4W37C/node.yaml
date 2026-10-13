@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger nyingchiensis
+  displayName: Scutiger nyingchiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W37C
+  sourceIndexes:
+    - name:
+        en: Scutiger nyingchiensis
+        zh: Scutiger nyingchiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W37C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/160
+            queryName: Scutiger nyingchiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-92045b87f3
+      - s-073de3d51f
+      - s-b685e3d753
+      - s-48ccc4055b
+      - s-21f4ef6cea
+      - s-cb1a8bf86a
+      - s-4d213256dd
+      - s-a143f33983
+      - s-737fae0757
+    zh:
+      - s-0c817d2d2e
+      - s-eea93e758a
+      - s-5627b7c692
+      - s-bbc650ee28
+      - s-51671abbaf
+      - s-9396ca3598
+      - s-07b79c778e
+      - s-f20bc6e9d5
+      - s-f26c3113dc

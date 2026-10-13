@@ -1,0 +1,3 @@
+## Domatia, leaflet surfaces and floral parts {#s-07ae7474fe}
+The Brazilian Flora 2020 entry records foliaceous stipules and no domatia. Leaves have up to 10 pairs of ovate or falcate leaflets; texture is listed as coriaceous or membranous, and the lower surface as glabrous or sericeous. Flowers are up to 10 mm long and radially symmetric, with deciduous bracteoles. The hypanthium is symmetric and cup shaped. Petals are under 1 mm wide and densely indumented; stamens are monomorphic, with 10 counted. The fruit is elliptic to oblong. No habitat field is included, so the entry does not establish habitat or range.
+

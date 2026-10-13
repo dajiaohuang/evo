@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Wakea madinika
+  displayName: Wakea madinika
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5BTLH
+  sourceIndexes:
+    - name:
+        en: Wakea madinika
+        zh: Wakea madinika
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5BTLH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/250
+            queryName: Wakea madinika
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/189
+            queryName: Mantidactylus madinika
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-65cf52a3b4
+      - s-c75741372a
+      - s-4285834656
+      - s-d0d6e2ee30
+      - s-dab1b50661
+      - s-54bd1ccadd
+      - s-d93b480937
+      - s-22b7296291
+      - s-55f8edcc0c
+      - s-f5e45d8f5c
+    zh:
+      - s-fad11ab38c
+      - s-e1d9035c04
+      - s-c2a0c06576
+      - s-1056965ef6
+      - s-1acd87b3d4
+      - s-2d9aa719bc
+      - s-0e74fac103
+      - s-7b72449b37
+      - s-8bd794764c
+      - s-f435fff854

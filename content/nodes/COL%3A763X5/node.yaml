@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paratelmatobius lutzii
+  displayName: Paratelmatobius lutzii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/763X5
+  sourceIndexes:
+    - name:
+        en: Paratelmatobius lutzii
+        zh: Paratelmatobius lutzii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 763X5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/426
+            queryName: Paratelmatobius lutzii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ed80c4d6d3
+      - s-2aff749574
+      - s-e75711836f
+      - s-92c5d04a25
+      - s-8be920f5fe
+      - s-88ec55ec22
+      - s-4a4b1d00a1
+      - s-3085a47666
+      - s-d5c87edd46
+      - s-dce10a0c57
+      - s-1178278a8d
+    zh:
+      - s-2d34bb5e24
+      - s-153dd2d50b
+      - s-ab72161f28
+      - s-e588544273
+      - s-bc49af9076
+      - s-2f57701670
+      - s-3adac56e8b
+      - s-1c1b2cd337
+      - s-c9c8daad39
+      - s-73dec8072d
+      - s-07ab48139d

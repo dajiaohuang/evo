@@ -1,0 +1,239 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Petropedetidae Noble, 1931
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Petropedetidae
+      zh: Petropedetidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-39c9578a8d
+            part: title
+          zh:
+            page: zh
+            section: s-b31aa36c57
+            part: title
+        text:
+          en:
+            page: en
+            section: s-39c9578a8d
+            part: body
+          zh:
+            page: zh
+            section: s-b31aa36c57
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-16f89affa7
+            part: title
+          zh:
+            page: zh
+            section: s-cc71644d28
+            part: title
+        text:
+          en:
+            page: en
+            section: s-16f89affa7
+            part: body
+          zh:
+            page: zh
+            section: s-cc71644d28
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-96eb6f77a4
+            part: title
+          zh:
+            page: zh
+            section: s-b5fac4b415
+            part: title
+        text:
+          en:
+            page: en
+            section: s-96eb6f77a4
+            part: body
+          zh:
+            page: zh
+            section: s-b5fac4b415
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-b040bbb7d1
+            part: title
+          zh:
+            page: zh
+            section: s-5a015a68c4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b040bbb7d1
+            part: body
+          zh:
+            page: zh
+            section: s-5a015a68c4
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-75c927cf62
+            part: title
+          zh:
+            page: zh
+            section: s-cea804e38a
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 33CR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A33CR
+            label:
+              en: Arthroleptides
+              zh: Arthroleptides
+          - kind: catalogue
+            colId: 6M5H
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6M5H
+            label:
+              en: Petropedetes
+              zh: Petropedetes
+        text:
+          en:
+            page: en
+            section: s-75c927cf62
+            part: body
+          zh:
+            page: zh
+            section: s-cea804e38a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Petropedetidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/6267X
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Petropedetidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-151e30a204
+        part: body
+      zh:
+        page: zh
+        section: s-448b0e0556
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Petropedetidae
+      sourceRowIds:
+        - Anf4452
+        - Anf4453
+        - Anf4454
+        - Anf4455
+        - Anf4456
+        - Anf4457
+        - Anf4458
+        - Anf4459
+        - Anf4460
+        - Anf4461
+        - Anf4462
+        - Anf4463
+        - Anf4464
+        - Anf4465
+        - Anf4466
+        - Anf4467
+        - Anf4468
+        - Anf4469
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 14
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 16
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 8
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 15
+      currentConceptEquivalenceCertified: false

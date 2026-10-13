@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana cubitalis
+  displayName: Hylarana cubitalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MN3G
+  sourceIndexes:
+    - name:
+        en: Hylarana cubitalis
+        zh: Hylarana cubitalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MN3G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/398
+            queryName: Hylarana cubitalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/85
+            queryName: Rana cubitalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/168
+            queryName: Rana nigrotympanica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/42
+            queryName: Hylarana nigrotympanica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/43
+            queryName: Sylvirana cubitalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/44
+            queryName: Sylvirana nigrotympanica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-58f45562a1
+      - s-3adb88795d
+      - s-cc4aab9597
+      - s-33494dbf67
+      - s-b514022ea0
+      - s-171751aee0
+      - s-fef6bc48d0
+      - s-c38a5e2c04
+      - s-0b2e5d0e29
+    zh:
+      - s-1719cc7e0d
+      - s-37b2f45813
+      - s-92c256a603
+      - s-4154ae00e9
+      - s-6b5a20783d
+      - s-399a7336c9
+      - s-7290465eef
+      - s-f2d36484fe
+      - s-6472d79ada

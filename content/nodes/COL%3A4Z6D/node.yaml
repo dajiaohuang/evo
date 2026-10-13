@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Huia
+  displayName: Huia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Z6D
+  sourceIndexes:
+    - name:
+        en: Huia
+        zh: Huia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Z6D
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/433
+            queryName: Huia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 342
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-15acbcc96f
+      - s-1e62972237
+      - s-ab446a6791
+      - s-eb2c682af0
+      - s-ad13bbdaa2
+      - s-dd965a2f36
+      - s-614d77af20
+      - s-31ae8e17e8
+      - s-2a0bdb95e5
+    zh:
+      - s-55e10fa879
+      - s-6c6711673c
+      - s-abfc0d26ef
+      - s-44c50c3d3a
+      - s-caba255bce
+      - s-fc21a29e0e
+      - s-44db9dcfd6
+      - s-af09a20ed9
+      - s-e3bbb494cc

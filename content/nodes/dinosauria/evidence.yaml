@@ -1,0 +1,285 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Dinosauria
+    commonName: Dinosaurs
+    commonNameZh: 恐龙
+    rank: superorder
+    taxonId: ""
+    firstAppearance: 233.2
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: null
+    scientificName: Dinosauria
+    commonName: Dinosaurs
+    commonNameZh: 恐龙
+    rank: superorder
+    parentName: Archosauria
+    extinct: false
+    firstAppearance: 233.2
+    lastAppearance: 0
+    rangeEvidenceLevel: literature-synthesized
+    rangeProvisional: true
+    geography: []
+    overview:
+      page: en
+      section: s-8826598d52
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-f58a22546a
+        part: body
+      habitat:
+        page: en
+        section: s-2d0bc09603
+        part: body
+      locomotion:
+        page: en
+        section: s-6ef40624e4
+        part: body
+      bodySize:
+        page: en
+        section: s-06929d3bba
+        part: body
+      guild:
+        page: en
+        section: s-9f529b9c85
+        part: body
+    traits:
+      - page: en
+        section: s-ecd4ca90e3
+        part: body
+      - page: en
+        section: s-0e6de3555b
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-f398e00b11
+      part: body
+    confidence: medium
+    referenceIds:
+      - cabreira-2016-buriolestes
+      - baron-2017-dinosaur-relationships
+      - langer-2017-dinosaur-tree-reanalysis
+      - xu-2012-yutyrannus
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-58ff2d6cf7
+            part: title
+          zh:
+            page: zh
+            section: s-f77a8eb86a
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-f77a8eb86a
+            part: body
+          en:
+            page: en
+            section: s-58ff2d6cf7
+            part: body
+        sourceIds:
+          - cabreira-2016-buriolestes
+          - xu-2012-yutyrannus
+          - baron-2017-dinosaur-relationships
+          - langer-2017-dinosaur-tree-reanalysis
+      - id: early-fossil-sample
+        title:
+          en:
+            page: en
+            section: s-1094661cd5
+            part: title
+          zh:
+            page: zh
+            section: s-bbadad9682
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1094661cd5
+            part: body
+          zh:
+            page: zh
+            section: s-bbadad9682
+            part: body
+        sourceIds:
+          - cabreira-2016-buriolestes
+      - id: early-relationships
+        title:
+          en:
+            page: en
+            section: s-88a47c6a21
+            part: title
+          zh:
+            page: zh
+            section: s-c9cc802051
+            part: title
+        text:
+          en:
+            page: en
+            section: s-88a47c6a21
+            part: body
+          zh:
+            page: zh
+            section: s-c9cc802051
+            part: body
+        sourceIds:
+          - baron-2017-dinosaur-relationships
+          - langer-2017-dinosaur-tree-reanalysis
+      - id: later-fossil-example
+        title:
+          en:
+            page: en
+            section: s-96acff462b
+            part: title
+          zh:
+            page: zh
+            section: s-79b2a84f37
+            part: title
+        text:
+          en:
+            page: en
+            section: s-96acff462b
+            part: body
+          zh:
+            page: zh
+            section: s-79b2a84f37
+            part: body
+        sourceIds:
+          - xu-2012-yutyrannus
+    readerSources:
+      - id: cabreira-2016-buriolestes
+        referenceId: cabreira-2016-buriolestes
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Primary description of the ULBRA-PVT280 holotype and Candelária Sequence assemblage; the local age context does not establish a global dinosaur first appearance.
+            zh: 对 ULBRA-PVT280 正模和 Candelária Sequence 生物组合的一手描述；局地年代背景不能确立全球恐龙首现。
+      - id: baron-2017-dinosaur-relationships
+        referenceId: baron-2017-dinosaur-relationships
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The 74-taxon, 457-character analysis recovered Ornithoscelida; this is a matrix topology rather than observed ancestry.
+            zh: 这项包含 74 个分类单元、457 项性状的分析恢复 Ornithoscelida；这是矩阵拓扑结果，而非观察到的祖先关系。
+      - id: langer-2017-dinosaur-tree-reanalysis
+        referenceId: langer-2017-dinosaur-tree-reanalysis
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Rescoring and adding taxa recovered the traditional ornithischian–saurischian split, illustrating sensitivity to matrix composition and coding.
+            zh: 重新编码并增加分类单元后，研究恢复传统的鸟臀类—蜥臀类分支，显示结果受矩阵组成与编码影响。
+      - id: xu-2012-yutyrannus
+        referenceId: xu-2012-yutyrannus
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Three nearly complete Yixian Formation skeletons preserve filamentous integument; function and full-body coverage are not direct observations.
+            zh: 三件义县组近乎完整骨架保存了丝状体表结构；其功能与全身覆盖并非直接观察所得。
+    readerLimitations:
+      en:
+        page: en
+        section: s-636a13a6d6
+        part: body
+      zh:
+        page: zh
+        section: s-f63877be37
+        part: body
+  field-claim-overrides:
+    geography:
+      status: not-assessed
+    overview:
+      status:
+        page: en
+        section: s-05083ce238
+        part: body
+    evidenceSummary:
+      status: not-assessed
+    confidence:
+      status: not-assessed
+    ecology.diet:
+      status: not-assessed
+    ecology.habitat:
+      status: not-assessed
+    ecology.locomotion:
+      status: not-assessed
+    ecology.bodySize:
+      status: not-assessed
+    ecology.guild:
+      status: not-assessed
+    traits[0]:
+      status: not-assessed
+    traits[1]:
+      status: not-assessed
+  claims:
+    - subjectId: taxon:dinosauria
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Buriolestes ULBRA-PVT280 from the approximately 233.2 Ma assemblage anchors the 233.2–0 Ma Dinosauria route, with living birds extending the navigation span; the specimen does not establish a global dinosaur FAD or direct ancestry.
+      confidence: medium
+      confidenceRationale: The named specimen, assemblage context and morphology matrix are primary evidence. Living continuation belongs to the atlas navigation closure, while the fossil endpoint remains local and sample-bounded.
+      referenceLinks:
+        - referenceId: cabreira-2016-buriolestes
+          relation: supports
+          pages: 3090–3095
+          figure: Figures 1–4; Supplemental Information
+          quoteLocator: Holotype and assemblage; radiometric context; phylogenetic analysis
+  claim-rationales.zh:
+    - 具名标本、组合背景及形态矩阵属于一手证据；现生延续来自图谱导航闭包，而化石端点仍局限于当地样本。
+  claim-statements.zh:
+    - 约 233.2 Ma 生物组合中的 Buriolestes 正模 ULBRA-PVT280 锚定 233.2–0 Ma 的恐龙路线，现生鸟类把导航跨度延续至今；该标本不确立恐龙全球首现或直系祖先。
+  ranges:
+    - entityId: dinosauria
+      rangeKind: global-composite
+      taxonomicConcept: Dinosauria fossil-sample and living-bird navigation span
+      geographicScope: Candelária Sequence, Paraná Basin, Brazil; living bird continuation
+      olderMa: 233.2
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: 233.2 Ma is the rounded assemblage and specimen context, not a global dinosaur FAD, crown-node date or uninterrupted record.
+      evidenceBasis: Buriolestes holotype ULBRA-PVT280 anchors a sampled Late Triassic dinosaur occurrence and living birds extend the route to the present.
+      confidence: medium
+      claimIds:
+        - claim:taxon:dinosauria:root-range
+      referenceLocators:
+        - referenceId: cabreira-2016-buriolestes
+          locator: pp. 3090–3095; Figures 1–4; Supplemental Information
+      evidenceLevel: literature-synthesized
+  classification-support:
+    - support: moderate
+      groupingBasis: Major dinosaur groups are represented as a compact navigation hierarchy.
+      conflicts: Alternative hypotheses for early dinosaur relationships are not resolved by this display.
+      references:
+        - open-tree
+        - pbdb-api-2016

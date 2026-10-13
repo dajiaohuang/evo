@@ -1,0 +1,3 @@
+## What does the record describe for Manihot lourdesiae? {#s-c900927b81}
+Its roots are non-tuberous with a rigid, shapeless xylopodium. The gray, smooth, erect, hairless stems reach 1.5 m and have yellow latex. Simple, petiolate leaves may be one- or three-lobed, with oval, oblong, or overlapping lobes; stipules are deciduous. Terminal or axillary bisexual racemes bear basal female flowers on stalks over 5 mm. The involucral bracts are hairless, elliptic or oblong, persistent, and fringed at the edge. Male and female buds are ovoid and hairless. The broadly ovate capsule is hairless and ribbed. Seeds are oblong, spotted, and have a caruncle.
+

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega ingeri
+  displayName: Ameerega ingeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ6W
+  sourceIndexes:
+    - name:
+        en: Ameerega ingeri
+        zh: Ameerega ingeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ6W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/266
+            queryName: Ameerega ingeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/212
+            queryName: Epipedobates ingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/29
+            queryName: Dendrobates ingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/30
+            queryName: Phyllobates ingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-268c3358af
+      - s-22edd0f51a
+      - s-cb8d3f5371
+      - s-2b887e45c0
+      - s-dda068fcd5
+      - s-e57381daf3
+      - s-9c44c81aa3
+      - s-40997a8b34
+    zh:
+      - s-960f89d231
+      - s-9f70253e6a
+      - s-2d52df8701
+      - s-ab49190ec4
+      - s-ff3fd55053
+      - s-7764632aca
+      - s-2298d54c7a
+      - s-f1b14e3017

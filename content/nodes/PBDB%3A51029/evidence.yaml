@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Calippus placidus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Calippus placidus
+      en: Calippus placidus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b868a20d20
+            part: body
+          en:
+            page: en
+            section: s-893b2bbfc8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f5b189bab2
+            part: body
+          en:
+            page: en
+            section: s-5363335cbb
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cc3e57f861
+            part: body
+          en:
+            page: en
+            section: s-4be5cb55f8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-adbd0b10be
+            part: body
+          en:
+            page: en
+            section: s-40714ed543
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a9667c0e2a
+            part: body
+          en:
+            page: en
+            section: s-9aec0cdfe2
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Calippus placidus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=51029&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:51029; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:51029
+          selectedOccurrenceIds:
+            - occ:184120
+            - occ:184208
+            - occ:184659
+            - occ:184777
+            - occ:184980
+            - occ:185196
+            - occ:185253
+            - occ:185294
+            - occ:185379
+            - occ:185452
+            - occ:185520
+            - occ:185605
+            - occ:185842
+            - occ:185961
+            - occ:186153
+            - occ:186227
+            - occ:186785
+            - occ:186939
+            - occ:188276
+            - occ:188286
+            - occ:188387
+            - occ:188487
+          selectedCollectionIds:
+            - col:18031
+            - col:18042
+            - col:18095
+            - col:18108
+            - col:18134
+            - col:18164
+            - col:18171
+            - col:18179
+            - col:18192
+            - col:18200
+            - col:18206
+            - col:18209
+            - col:18233
+            - col:18244
+            - col:18268
+            - col:18275
+            - col:18347
+            - col:18371
+            - col:18610
+            - col:18611
+            - col:18623
+            - col:18640
+          sourceReferenceIds:
+            - ref:3510
+            - ref:1952
+            - ref:3564
+            - ref:6207
+            - ref:1949
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-52f2d9df53
+        part: body
+      en:
+        page: en
+        section: s-2e3a19f684
+        part: body

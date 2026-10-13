@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kassina cochranae
+  displayName: Kassina cochranae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3R3JJ
+  sourceIndexes:
+    - name:
+        en: Kassina cochranae
+        zh: Kassina cochranae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3R3JJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/143
+            queryName: Kassina cochranae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/176
+            queryName: Hylambates cochranae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/477
+            queryName: Kassina cochranae cochranae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3d3b364bb8
+      - s-d997f179fa
+      - s-21ba5259a8
+      - s-e21dd568e1
+      - s-906b549b07
+      - s-fd70d21e3b
+      - s-eebda21ee9
+      - s-122cc14b01
+      - s-c29dda5d9c
+      - s-0e98b1dfc9
+      - s-8d9fc3bc10
+      - s-13de43c521
+      - s-c7d6b6883a
+    zh:
+      - s-3e559b5e1b
+      - s-2c3a2d73a0
+      - s-b76d470785
+      - s-4b39a66625
+      - s-4e23ce23e3
+      - s-d335c69c90
+      - s-cdcd6722c6
+      - s-6e827f8dbe
+      - s-324b3e5153
+      - s-d76125a41b
+      - s-6a63511648
+      - s-c88a1573f9
+      - s-6ff7e958f8

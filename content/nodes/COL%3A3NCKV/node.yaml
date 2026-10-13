@@ -1,0 +1,150 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla arborea (Linnaeus, 1758)
+  displayName: Hyla arborea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NCKV
+  sourceIndexes:
+    - name:
+        en: Hyla arborea
+        zh: Hyla arborea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NCKV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/356
+            queryName: Hyla arborea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 346
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/391
+            queryName: Rana arborea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 260
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/392
+            queryName: Rana viridis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/393
+            queryName: Hyla viridis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/394
+            queryName: Hyla vulgaris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/395
+            queryName: Calamita arboreus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/396
+            queryName: Calamita viridis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/397
+            queryName: Hylaria viridis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/398
+            queryName: Hyas arborea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/399
+            queryName: Dendrohyas arborea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/400
+            queryName: Dendrohyas arboreus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/369
+            queryName: Dendrohyas arborea daudinii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/370
+            queryName: Hyla arborea arborea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/371
+            queryName: Hyla arborea kretensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/372
+            queryName: Hyla arborea cretensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-13a6f7a0ce
+      - s-2981bdc764
+      - s-4fed176f9a
+      - s-a8a654b5e0
+      - s-91a26c4ab9
+      - s-18f04bf707
+      - s-dc2719225e
+      - s-483f61f932
+      - s-cf59359a13
+      - s-4ec4f11cc4
+      - s-39620c79d2
+      - s-97ac1463d3
+      - s-0935c4d663
+    zh:
+      - s-2711cfe84f
+      - s-a44687a12c
+      - s-578197b903
+      - s-4881e4e417
+      - s-11e09074a2
+      - s-95591c65a0
+      - s-54510d6532
+      - s-3828425a6d
+      - s-a927ff84fd
+      - s-cda5e7ffa8
+      - s-aa4bcbb1ed
+      - s-f52d0199bc
+      - s-4ea3b10bde

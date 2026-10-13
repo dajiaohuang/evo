@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes flaviocularis
+  displayName: Raorchestes flaviocularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78SRQ
+  sourceIndexes:
+    - name:
+        en: Raorchestes flaviocularis
+        zh: Raorchestes flaviocularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78SRQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/143
+            queryName: Raorchestes flaviocularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5675c4e711
+      - s-0f7fd1dd75
+      - s-262b2aad7e
+      - s-cdea758275
+      - s-1f589a4b20
+      - s-387148896c
+      - s-1665e05417
+      - s-65ccf561b5
+      - s-345ec577d3
+      - s-c8497ec9e4
+      - s-4c06e06c6a
+    zh:
+      - s-25c1928f4c
+      - s-0c49bcfba8
+      - s-8514de451d
+      - s-53e48bf009
+      - s-96393caeed
+      - s-b672abbb7d
+      - s-27ea8f09c2
+      - s-67795ef1e3
+      - s-becd0ab458
+      - s-19e4f1d8f4
+      - s-bcb7e44a0c

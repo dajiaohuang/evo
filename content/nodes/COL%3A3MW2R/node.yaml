@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium valerioi
+  displayName: Hyalinobatrachium valerioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3MW2R
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium valerioi
+        zh: Hyalinobatrachium valerioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3MW2R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/340
+            queryName: Hyalinobatrachium valerioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/457
+            queryName: Centrolene valerioi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/458
+            queryName: Cochranella valerioi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/459
+            queryName: Cochranella reticulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-86f173043d
+      - s-ab207f6d95
+      - s-ec5ac74d12
+      - s-2edfa86530
+      - s-934412d6f1
+      - s-defb10aaae
+      - s-06876107f9
+      - s-6c2e76cc5f
+      - s-7d755d2840
+    zh:
+      - s-cd6d698e06
+      - s-ae8458c80b
+      - s-5796b497f4
+      - s-fdfe32b1bd
+      - s-00007574b7
+      - s-2e01b6a536
+      - s-12c3d7100e
+      - s-fdcaffb791
+      - s-aa83856b01

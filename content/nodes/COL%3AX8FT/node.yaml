@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Colostethus panamansis
+  displayName: Colostethus panamansis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/X8FT
+  sourceIndexes:
+    - name:
+        en: Colostethus panamansis
+        zh: Colostethus panamansis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: X8FT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/412
+            queryName: Colostethus panamansis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/127
+            queryName: Colostethus panamensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/499
+            queryName: Hyloxalus panamansis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/0
+            queryName: Hyloxalus panamanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/1
+            queryName: Prostherapis panamansis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/477
+            queryName: Prostherapis inguinalis panamensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a8675f0fd
+      - s-d5e526e7bb
+      - s-eec337902b
+      - s-3265d101fd
+      - s-3eba47553d
+      - s-faa93d564b
+      - s-a60e77d30b
+      - s-72cf55055e
+      - s-53913f623d
+      - s-a31e12d5b9
+      - s-e4f88bd4f6
+      - s-73c9581f68
+      - s-de5f22fe90
+      - s-b147995408
+      - s-cbf6773ecd
+      - s-73c978582b
+      - s-f08336faf1
+    zh:
+      - s-5cee5f113d
+      - s-94865f765d
+      - s-82abfe061f
+      - s-2f7279b52d
+      - s-51659899ff
+      - s-47c6771c5e
+      - s-0915e32c5d
+      - s-3762fdf045
+      - s-976dc19e45
+      - s-9369df5781
+      - s-a283769f75
+      - s-063d438c37
+      - s-ca8672fcfe
+      - s-17c370f981
+      - s-e4508cc0d6
+      - s-e97df0e780
+      - s-643900bc90

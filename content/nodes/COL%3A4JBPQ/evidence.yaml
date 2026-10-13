@@ -1,0 +1,609 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pithecopus rusticus (Bruschi, Lucas, Garcia & Recco-Pimentel, 2014)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pithecopus rusticus
+      zh: Pithecopus rusticus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d7712e173d
+            part: title
+          zh:
+            page: zh
+            section: s-52cd267f48
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d7712e173d
+            part: body
+          zh:
+            page: zh
+            section: s-52cd267f48
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ecfb6e9a0a
+            part: title
+          zh:
+            page: zh
+            section: s-5eadc98fdc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ecfb6e9a0a
+            part: body
+          zh:
+            page: zh
+            section: s-5eadc98fdc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bb49a271c2
+            part: title
+          zh:
+            page: zh
+            section: s-ff6171699a
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-bb49a271c2
+            part: body
+          zh:
+            page: zh
+            section: s-ff6171699a
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-3b478e10163df1fcf90ebb7a
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-e0e202583dd27a5342fed015
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-252ff27227
+            part: title
+          zh:
+            page: zh
+            section: s-4216614b30
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-252ff27227
+            part: body
+          zh:
+            page: zh
+            section: s-4216614b30
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-92a9ee0ebb
+            part: title
+          zh:
+            page: zh
+            section: s-f5385d8a05
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4jbpq
+        text:
+          en:
+            page: en
+            section: s-92a9ee0ebb
+            part: body
+          zh:
+            page: zh
+            section: s-f5385d8a05
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-02100d6bce
+            part: title
+          zh:
+            page: zh
+            section: s-8ae551e15f
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4jbpq
+        text:
+          en:
+            page: en
+            section: s-02100d6bce
+            part: body
+          zh:
+            page: zh
+            section: s-8ae551e15f
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-43af54ed52
+            part: title
+          zh:
+            page: zh
+            section: s-a03954908a
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4jbpq
+        text:
+          en:
+            page: en
+            section: s-43af54ed52
+            part: body
+          zh:
+            page: zh
+            section: s-a03954908a
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-302cb93716
+            part: title
+          zh:
+            page: zh
+            section: s-1103693b72
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4jbpq
+        text:
+          en:
+            page: en
+            section: s-302cb93716
+            part: body
+          zh:
+            page: zh
+            section: s-1103693b72
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b1a4230f9e
+            part: title
+          zh:
+            page: zh
+            section: s-85fb7e8519
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4jbpq
+        text:
+          en:
+            page: en
+            section: s-b1a4230f9e
+            part: body
+          zh:
+            page: zh
+            section: s-85fb7e8519
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-f102e8f13c
+            part: title
+          zh:
+            page: zh
+            section: s-a5a1468e1c
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4jbpq
+        text:
+          en:
+            page: en
+            section: s-f102e8f13c
+            part: body
+          zh:
+            page: zh
+            section: s-a5a1468e1c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-619c353f3a
+            part: title
+          zh:
+            page: zh
+            section: s-d6cc39d559
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4jbpq
+        text:
+          en:
+            page: en
+            section: s-619c353f3a
+            part: body
+          zh:
+            page: zh
+            section: s-d6cc39d559
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-f870aff695
+            part: title
+          zh:
+            page: zh
+            section: s-cc5634a46d
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4jbpq
+        text:
+          en:
+            page: en
+            section: s-f870aff695
+            part: body
+          zh:
+            page: zh
+            section: s-cc5634a46d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pithecopus rusticus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4JBPQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4359; Reference.csv rows 2921
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2427, 2428, 2429, 2430, 2431; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: primary-pmc10688756-4jbpq
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pithecopus rusticus: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc6746222-4jbpq
+        referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pithecopus rusticus: Complete sec2Methods including Table1; complete sec3 twenty namedResults accounts andfigurecaptions, sec4Discussion subsections sec5–17 inspected. Sourceconflicts retained; no figurepixels/rawaudio/supplementalTableS1/originalvouchers independentreview or acousticanalysis.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-912b2b73b8
+        part: body
+      zh:
+        page: zh
+        section: s-8eaa3a9cc5
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-e0e202583dd27a5342fed015
+        scientificName: Pithecopus rusticus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-4jbpq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Pithecopus_rusticus, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Pithecopus rusticus: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4jbpq
+            locator: PMC10688756 S3 File Traits row 333 Pithecopus_rusticus; XML Functional diversity; upstream reference numbers 1, 2, 3, 99
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1fb9f92415
+                part: body
+              zh:
+                page: zh
+                section: s-f82311edce
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4jbpq
+            locator: PMC10688756 S3 File Traits row 333 Pithecopus_rusticus habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ae7816a6af
+                part: body
+              zh:
+                page: zh
+                section: s-b50ee8ea4d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4jbpq
+            locator: PMC10688756 S3 File Traits row 333 Pithecopus_rusticus length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-66d325fdb3
+                part: body
+              zh:
+                page: zh
+                section: s-b978cc3c3c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.7612
+        referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+        sourceKey: primary-pmc6746222-4jbpq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6746222/article.xml
+        sourceConcept: Source Pithecopus rusticus historic archive recordings; exact writtenname or explicit frozenusage link only
+        evidenceRead: "Pithecopus rusticus: Complete sec2Methods including Table1; complete sec3 twenty namedResults accounts andfigurecaptions, sec4Discussion subsections sec5–17 inspected. Sourceconflicts retained; no figurepixels/rawaudio/supplementalTableS1/originalvouchers independentreview or acousticanalysis.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Organization of the recorded vocalization
+              zh: 录音中的鸣声组织
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4jbpq
+            locator: PMC6746222 XML sec3 direct-child rows60–61; Table1 tbody row26
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e16640577a
+                part: body
+              zh:
+                page: zh
+                section: s-38b8f0f531
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Temporal and spectral measurements retain their samples
+              zh: 时间与频谱测量保留样本范围
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4jbpq
+            locator: PMC6746222 XML sec3 direct-child rows60–61; Table1 tbody row26
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-baeb85bbb8
+                part: body
+              zh:
+                page: zh
+                section: s-743ad5a694
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Archive recordings preserve locality and identification scope
+              zh: 档案录音保留地点和鉴定范围
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4jbpq
+            locator: PMC6746222 XML Table1 tbody row26;sec2 identification
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-32eb4efc12
+                part: body
+              zh:
+                page: zh
+                section: s-8252bf303e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Filtering and energy-defined frequencies
+              zh: 滤波与按能量定义的频率
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4jbpq
+            locator: PMC6746222 XML sec2 audioanalysis methods; Table1 row26; figurecaption rows62
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-55f43ee074
+                part: body
+              zh:
+                page: zh
+                section: s-5bf34ea52f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Environmental and historical limits
+              zh: 环境与历史限制
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4jbpq
+            locator: PMC6746222 XML sec2/Table1/sec3 namedaccount;sec3 opening inventory;sec4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-15c12ff8d3
+                part: body
+              zh:
+                page: zh
+                section: s-ea75b1a0b4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

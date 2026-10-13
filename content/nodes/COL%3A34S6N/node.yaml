@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus pauiniensis
+  displayName: Dendropsophus pauiniensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S6N
+  sourceIndexes:
+    - name:
+        en: Dendropsophus pauiniensis
+        zh: Dendropsophus pauiniensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S6N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/403
+            queryName: Dendropsophus pauiniensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/365
+            queryName: Hyla koechlini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/419
+            queryName: Hyla pauiniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/115
+            queryName: Dendropsophus koechlini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9d5d38296d
+      - s-e7307b5eb2
+      - s-50304a05ec
+      - s-49e7966a86
+      - s-f7a0ae6de1
+      - s-12dc002c27
+      - s-f75d4b4049
+      - s-b98313fcc1
+      - s-da9db4bfd2
+      - s-b3c5d2b816
+      - s-36c9714b07
+    zh:
+      - s-e3e299f6a4
+      - s-cb77a8369e
+      - s-518f4189ba
+      - s-3390c041f6
+      - s-cf0ec8f74b
+      - s-5d8c97d6db
+      - s-3ef91669c2
+      - s-e2822d5e24
+      - s-838ae12c6b
+      - s-4047750af4
+      - s-80ef36ad9a

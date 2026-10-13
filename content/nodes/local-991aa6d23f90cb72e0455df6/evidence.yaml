@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis ornatus
+    name:
+      en: Pristimantis ornatus
+      zh: Pristimantis ornatus
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Pristimantis ornatus in the morphology deposit
+          zh: 形态数据中的 Pristimantis ornatus 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a93ec45c4a
+            part: body
+          zh:
+            page: zh
+            section: s-609d95895a
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4703 and 4704: measurement fields and sex codes"
+          zh: 第 4703、4704 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8bb4eb4791
+            part: body
+          zh:
+            page: zh
+            section: s-3276cf451d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4703, 4704; Reference.csv rows 1948
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4703
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis ornatus
+          - M
+          - "19.4"
+          - "7.5"
+          - "7.6"
+          - "2"
+          - "0.8"
+          - NA
+          - "2.2"
+          - "2.4"
+          - "1.4"
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.8"
+          - NA
+          - "11.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4704
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis ornatus
+          - F
+          - "24.4"
+          - "9.3"
+          - "9.3"
+          - "2.5"
+          - "1"
+          - NA
+          - "3.1"
+          - "2.8"
+          - "1.6"
+          - "2.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.6"
+          - NA
+          - "14.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1948
+        values:
+          - Anura
+          - Pristimantis_ornatus
+          - "Lehr, E., Lundberg, M., Aguilar, C., & von May, R. (2006). New species of Eleutherodactylus (Anura: Leptodactylidae) from the eastern Andes of central Peru with comments on central Peruvian Eleutherodactylus. Herpetological Monographs, 20(1). https://doi.org/10.1655/0733-1347(2007)20[105:Nsoeal]2.0.Co;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

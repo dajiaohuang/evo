@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Babiana secunda (Thunb.) Ker Gawl.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage K6G5, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage K6G5; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/K6G5
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage K6G5
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000788167-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL K6G5 / WFO wfo-0000788167
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-375142dc-c61a-8d8c-ac7c-81b393e51f3e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana secunda (Thunb.) Ker Gawl. account; SANBI/WFO archive rows 6717 (Morphology), 29024 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana secunda (Thunb.) Ker Gawl. account; SANBI/WFO archive rows 94956 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 15-35 cm. Leaves lanceolate, hairy. Flowers zygomorphic, many on an inclined spike, inverted and facing spike apex, blue with yellow or white markings, outer bracts mostly brown and lacerate, inner bracts divided to base, ovary smooth.
+            textZh: Babiana secunda (Thunb.) Ker Gawl. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Morphology row 6717; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Babiana secunda is one of a handful of species of Babiana with inverted flowers, that is, with the spike inclined and the flowers facing upward, with the dorsal tepal and the unilateral stamens facing the spike apex. It can be distinguished by the smooth, dry, often torn floral bracts, the outer tricuspidate with a long central awn and hairless ovary, the latter unusual for sect. Babiana. Babiana secunda blooms unusually late in the season, usually in October or November. In the other species with inverted flowers, B. angustifolia, B. inclinata, and B. rubrocyanea, the ovary is densely hairy, the bracts remain partly green at flowering, are usually velvety and lack a pronounced awn although they do tend to be tricuspidate. The anthers and pollen are pale to deep blue or violet (or sometimes white) in B. angustifolia and B. inclinata, whereas the anthers and pollen of B. secunda are yellow.
+            textZh: SANBI 条目提供了 Babiana secunda (Thunb.) Ker Gawl. 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94956; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Clay flats and lower slopes in renosterveld.
+            textZh: 该 SANBI 区域物种条目记录的生境：Clay flats and lower slopes in renosterveld.
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Habitat row 29024; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

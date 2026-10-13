@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus pustulatus
+  displayName: Leptodactylus pustulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PGNC
+  sourceIndexes:
+    - name:
+        en: Leptodactylus pustulatus
+        zh: Leptodactylus pustulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PGNC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/429
+            queryName: Leptodactylus pustulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/448
+            queryName: Entomoglossus pustulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b11fa4b2a0
+      - s-d7c23499eb
+      - s-11b27c62ce
+      - s-171fd4e509
+      - s-384088d49d
+      - s-da31633591
+      - s-c847f1c8d7
+      - s-3666fc515e
+      - s-b363d7af4e
+      - s-957b951e57
+      - s-2ab1933a44
+      - s-9111aec708
+      - s-3d19076219
+      - s-45a9ed2e5a
+      - s-6931b6b9df
+      - s-7a0e55a6f6
+      - s-6d103dfe49
+      - s-3be735b067
+      - s-99a006fb10
+      - s-bd2c0ee9de
+      - s-88821ac38d
+      - s-79202a5a24
+      - s-ebc7b8f43e
+      - s-737fa18e3d
+      - s-014e04dfee
+      - s-8d6263845e
+      - s-0bd9f6d912
+      - s-533e62e960
+      - s-e0ca3be618
+      - s-d32979a963
+      - s-cf1122aa9e
+      - s-9de1e10db3
+    zh:
+      - s-918d693bba
+      - s-aa9d5a0c5c
+      - s-93d646c487
+      - s-34d46f22f8
+      - s-157c13d6e7
+      - s-9f7eff7f10
+      - s-3bed0ede7a
+      - s-a8e5cab1f3
+      - s-ccb5cc9f8f
+      - s-5e17298006
+      - s-ed59de9c14
+      - s-469142c931
+      - s-9cc5e10e41
+      - s-35404335a8
+      - s-cf9d43c699
+      - s-a70355d983
+      - s-865d669f20
+      - s-bc56c9959b
+      - s-9e5573a700
+      - s-703ff524b1
+      - s-acb03a4466
+      - s-483fa6060a
+      - s-13c176e3e5
+      - s-cfa18817c2
+      - s-618953181a
+      - s-db7a10d066
+      - s-940c36c2ab
+      - s-17a913187b
+      - s-bf4b72e436
+      - s-d9598e1adb
+      - s-22009f14c4
+      - s-731e26e24f

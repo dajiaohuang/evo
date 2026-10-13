@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa macrinii
+  displayName: Bolitoglossa macrinii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDQF
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa macrinii
+        zh: Bolitoglossa macrinii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDQF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/146
+            queryName: Bolitoglossa macrinii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/301
+            queryName: Oedipus macrinii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/302
+            queryName: Magnadigita macrinii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a10d41e97
+      - s-a82b1d6881
+      - s-cbb4a31732
+      - s-9306d146e6
+      - s-ca2e4e3ede
+      - s-b73fdb6373
+      - s-ab9041310a
+      - s-f1652071c9
+      - s-66ea4f4898
+      - s-5e63381d2c
+      - s-854d945bc8
+      - s-3945509d63
+      - s-1a1003508e
+      - s-465ee161f4
+      - s-c1e486b646
+    zh:
+      - s-fef99c928c
+      - s-87be46ffa9
+      - s-38ca13bfab
+      - s-bb7f91a1ca
+      - s-757e8cc8bc
+      - s-b0fddac8f0
+      - s-d1410c1671
+      - s-9e461dbedb
+      - s-30e1a99bac
+      - s-98b5594bed
+      - s-4c3d18bc83
+      - s-af6f05e17d
+      - s-13fe4217a0
+      - s-68222655f8
+      - s-4fbc6112bc

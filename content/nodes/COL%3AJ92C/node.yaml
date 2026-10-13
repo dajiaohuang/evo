@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus podocarpus
+  displayName: Atelopus podocarpus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J92C
+  sourceIndexes:
+    - name:
+        en: Atelopus podocarpus
+        zh: Atelopus podocarpus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J92C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/308
+            queryName: Atelopus podocarpus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b13a158064
+      - s-ec0b806c41
+      - s-f18dd82c54
+      - s-502c3740af
+      - s-d52d904066
+      - s-bf4c71eca9
+      - s-55eee8df18
+      - s-7252c55c4c
+      - s-7c796cb20b
+      - s-b0ebad17bb
+      - s-c68e5188cb
+      - s-a1ce120343
+      - s-cd7b0b8025
+      - s-4b74e99397
+      - s-8c817cea38
+      - s-49392c01ea
+      - s-373e4c9711
+    zh:
+      - s-19657cf3ca
+      - s-31adde6487
+      - s-bf75af7e5a
+      - s-747982fa86
+      - s-852535b370
+      - s-ddb5d0c323
+      - s-f632e95cc1
+      - s-cce3a42980
+      - s-45497c289e
+      - s-0c1a3f0d0d
+      - s-a5e6a14329
+      - s-d3b7cc9e73
+      - s-848f5d9511
+      - s-471640bd6d
+      - s-899067c93d
+      - s-1addbc854e
+      - s-c53e15d389

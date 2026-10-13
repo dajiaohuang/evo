@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne wapoga
+  displayName: Oreophryne wapoga
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7569W
+  sourceIndexes:
+    - name:
+        en: Oreophryne wapoga
+        zh: Oreophryne wapoga
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7569W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/304
+            queryName: Oreophryne wapoga
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01a35b40c9
+      - s-75c14d0cba
+      - s-7b6363632a
+      - s-6f7d69a964
+      - s-4b54808c72
+      - s-d8370536ba
+      - s-d4a11f9440
+      - s-6575a61de6
+      - s-0ea53e9a64
+    zh:
+      - s-fa7fcd58f8
+      - s-4fcdc08e59
+      - s-05022b7afc
+      - s-5cbdabe9bb
+      - s-afacf0aa47
+      - s-516bfc7aa3
+      - s-fe6c729303
+      - s-66673d7dd6
+      - s-0ea1fa083a

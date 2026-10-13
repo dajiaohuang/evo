@@ -1,0 +1,271 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Machaeroprosopus buceros
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Machaeroprosopus buceros
+      en: Machaeroprosopus buceros
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherArchosauriaTaxonomy20261002
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-36ccf3dea9
+            part: body
+          en:
+            page: en
+            section: s-a829285716
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0deb5855e2
+            part: body
+          en:
+            page: en
+            section: s-ed443c57b3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1badeb58ae
+            part: body
+          en:
+            page: en
+            section: s-3894e274d8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-19e50c3485
+            part: body
+          en:
+            page: en
+            section: s-3d31b6fe06
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-270b16d50c
+            part: body
+          en:
+            page: en
+            section: s-a9f0f2991b
+            part: body
+    sources:
+      - id: pbdbArchosauriaTaxonomy20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Machaeroprosopus buceros
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=69065&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherArchosauriaOccurrences20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:69065; original response record indices retained in data/sources/other-archosauria-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 95c66a034ee801effe8e70dd0e2d80f080cfb92730dab8e60a52bf5d4a379a25
+          pbdbTaxonId: txn:69065
+          selectedOccurrenceIds:
+            - occ:475078
+            - occ:590150
+            - occ:755824
+            - occ:780615
+            - occ:780616
+            - occ:780624
+            - occ:780625
+            - occ:780630
+            - occ:780634
+            - occ:780635
+            - occ:780639
+            - occ:780640
+            - occ:780643
+            - occ:780644
+            - occ:780651
+            - occ:780652
+            - occ:780658
+            - occ:780659
+            - occ:780675
+            - occ:780676
+            - occ:843132
+          selectedCollectionIds:
+            - col:47126
+            - col:62311
+            - col:80926
+            - col:48423
+            - col:84009
+            - col:84010
+            - col:84012
+            - col:84013
+            - col:84014
+            - col:84015
+            - col:84016
+            - col:84017
+            - col:93620
+          sourceReferenceIds:
+            - ref:14122
+            - ref:31988
+            - ref:80962
+            - ref:31658
+            - ref:17700
+          originalIdentificationMappings:
+            - occurrenceId: occ:475078
+              originalIdentifiedName: Arribasuchus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:590150
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:755824
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780615
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780616
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780624
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780625
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780630
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780634
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780635
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780639
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780640
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780643
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780644
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780651
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780652
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780658
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780659
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780675
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:780676
+              originalIdentifiedName: Pseudopalatus buceros
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+            - occurrenceId: occ:843132
+              originalIdentifiedName: Belodon buceros n. sp.
+              acceptedName: Machaeroprosopus buceros
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-17e3ebc2d8
+        part: body
+      en:
+        page: en
+        section: s-65aeadc418
+        part: body

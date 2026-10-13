@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachoseps wrighti
+  displayName: Batrachoseps wrighti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZR2
+  sourceIndexes:
+    - name:
+        en: Batrachoseps wrighti
+        zh: Batrachoseps wrighti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZR2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/410
+            queryName: Batrachoseps wrighti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/39
+            queryName: Plethopsis wrighti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/147
+            queryName: Batrachoseps wrightorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/423
+            queryName: Checklist of Vertebrates of the United States, the U.S. Territories, and Canada
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0a89dd6350
+      - s-4bda3aa166
+      - s-41cec66a6d
+      - s-7ab0532ebc
+      - s-50e5b4dcf5
+      - s-283d55a8d8
+      - s-315f5614d1
+      - s-2c2e0d051c
+      - s-1f78d826bb
+    zh:
+      - s-dbdd5d55e4
+      - s-a874e038f5
+      - s-d4006aa943
+      - s-6c9b84ccae
+      - s-1cedcea1b6
+      - s-8cd2ce9103
+      - s-f67df34c9e
+      - s-6eeac6d85f
+      - s-14d144f0e4

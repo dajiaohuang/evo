@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plecturocebus pallescens (Thomas, 1907)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 淡色绢毛猴
+      en: Pale Titi
+    sections:
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-9fde5f0beb
+            part: body
+          en:
+            page: en
+            section: s-35fe87c4d1
+            part: body
+        sourceIds:
+          - paraguay_review
+          - taxonomy
+      - topic: evidence_scope
+        text:
+          zh:
+            page: zh
+            section: s-716f508caf
+            part: body
+          en:
+            page: en
+            section: s-0dc67797f9
+            part: body
+        sourceIds:
+          - paraguay_review
+    sources:
+      - id: paraguay_review
+        referenceId: ref-001d0979-13f2-8500-a9a9-c26abe8136b9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持该种在巴拉圭的标本与可靠记录分级、部门级出现概述及作者提出的湿地/水道关联；不等于跨国范围普查或当前丰度。
+            en: Supports the authors' evidence-graded Paraguayan specimens and records, department-level occurrence summary and wetland/watercourse association; not a transnational range survey or current abundance estimate.
+      - id: mdd_name
+        referenceId: ref-97c482c6-f639-8285-a3e3-c080d133b16f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅支持英文普通名及名录入口；中文名为编辑翻译，生物学内容采用专门研究。
+            en: Supports the English common name and catalogue entry only; the Chinese name is editorial, and biological content uses specialist sources.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4K5YF
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-bce36609ef
+        part: body
+      en:
+        page: en
+        section: s-93497aeda5
+        part: body

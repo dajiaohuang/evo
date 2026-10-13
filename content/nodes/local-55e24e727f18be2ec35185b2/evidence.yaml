@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Andinobates daleswansoni
+    name:
+      en: Andinobates daleswansoni
+      zh: Andinobates daleswansoni
+    sourceClassification:
+      order: Anura
+      family: Dendrobatoidea
+      genus: Andinobates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Andinobates daleswansoni in the version 3 classification
+          zh: Andinobates daleswansoni 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-260518ebb0
+            part: body
+          zh:
+            page: zh
+            section: s-035692eda8
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 14 populated trait fields
+          zh: 2 条测量行与 14 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9e431a612b
+            part: body
+          zh:
+            page: zh
+            section: s-2e70dd572c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 336, 337; Reference.csv rows 3490
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 336
+        values:
+          - Dendrobatoidea
+          - Andinobates
+          - Andinobates daleswansoni
+          - M
+          - "18.12333333"
+          - "4.166666667"
+          - "5.846666667"
+          - "2.39"
+          - "0.653333333"
+          - NA
+          - "2.263333333"
+          - "2.766666667"
+          - NA
+          - "1.44"
+          - NA
+          - "0.616666667"
+          - "4.866666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.093333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.83"
+          - NA
+          - NA
+          - NA
+          - "0.56"
+          - "0.6"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 337
+        values:
+          - Dendrobatoidea
+          - Andinobates
+          - Andinobates daleswansoni
+          - F
+          - "19.47666667"
+          - "4.823333333"
+          - "6.036666667"
+          - "2.303333333"
+          - "0.8"
+          - NA
+          - "2.24"
+          - "2.97"
+          - NA
+          - "1.463333333"
+          - NA
+          - "0.586666667"
+          - "4.926666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.03"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.68"
+          - NA
+          - NA
+          - NA
+          - "0.546666667"
+          - "0.586666667"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3490
+        values:
+          - Anura
+          - Andinobates_daleswansoni
+          - "Rueda-Almonacid, J., Rada, M., Sánchez-Pacheco, S., Velásquez-Álvarez, Á., & Quevedo, A. (2006). Two new and exceptional poison dart frogs of the genus Dendrobates (Anura: Dendrobatidae) from the Northeastern Flank of the cordillera Central of Colombia. Zootaxa, 1259, 39-54. "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - TL
+      - Fin3DW
+      - Toe3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

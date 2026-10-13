@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis ockendeni
+  displayName: Pristimantis ockendeni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJY
+  sourceIndexes:
+    - name:
+        en: Pristimantis ockendeni
+        zh: Pristimantis ockendeni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/449
+            queryName: Pristimantis ockendeni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/132
+            queryName: Eleutherodactylus melini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/146
+            queryName: Eleutherodactylus ockendeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/269
+            queryName: Syrrhophus calcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/141
+            queryName: Hylodes ockendeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/142
+            queryName: Eleutherodactylus anderssoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/340
+            queryName: Hylodes hylaeformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/341
+            queryName: Syrrhopus calcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d2df1a9f60
+      - s-82646c7161
+      - s-8a08ae0b29
+      - s-550c62b154
+      - s-fc808f77a8
+      - s-f7a44f7192
+      - s-cee1832d88
+      - s-29b34177dd
+      - s-552a448b71
+      - s-fce87d994a
+      - s-e40c321bbb
+      - s-cab44fd6ac
+      - s-204c9ddfd0
+      - s-f7667cabe3
+    zh:
+      - s-f1ee9c388f
+      - s-42d8224682
+      - s-babf7f4d39
+      - s-c8c3fd3a00
+      - s-821dddd0d0
+      - s-0cd615868b
+      - s-8c06a8fa66
+      - s-8b069161f1
+      - s-7228a8b028
+      - s-0bc22128cd
+      - s-9acbcd670f
+      - s-e7f526c8dc
+      - s-d05a90b45b
+      - s-518e1e39fb

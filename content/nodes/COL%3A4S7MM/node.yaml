@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella castaneotica
+  displayName: Rhinella castaneotica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7MM
+  sourceIndexes:
+    - name:
+        en: Rhinella castaneotica
+        zh: Rhinella castaneotica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7MM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/307
+            queryName: Rhinella castaneotica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/305
+            queryName: Bufo castaneoticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73a27c67b0
+      - s-d0821aaf6f
+      - s-6d261fa7ba
+      - s-d766392b50
+      - s-bd0496c501
+      - s-f9b110c587
+      - s-8e34c1e04f
+      - s-d381a1c66b
+      - s-7dcb96e246
+      - s-14d18afddc
+      - s-b8f38fb0d4
+      - s-7a793746e5
+      - s-bd843e2d97
+      - s-5564cded32
+      - s-9a5232523e
+      - s-68b55cd825
+      - s-d5281437b9
+      - s-04731976e1
+      - s-7272d71766
+      - s-a3f200a640
+      - s-1ce07ad14e
+    zh:
+      - s-a0b7995cc7
+      - s-d23d624da5
+      - s-29a20e45bf
+      - s-d15b240a0d
+      - s-8566491f1b
+      - s-08b6aa7ccd
+      - s-14f0ac9c25
+      - s-7b105c447a
+      - s-4456bb0dd9
+      - s-2115721934
+      - s-5c392b2e08
+      - s-bbb9943b89
+      - s-2646ca0a9a
+      - s-ad641de57b
+      - s-0a14b573f9
+      - s-06b79afa18
+      - s-21861ac4c2
+      - s-aa4637a902
+      - s-d5b4aa8c99
+      - s-141cc9f649
+      - s-f32183c34e

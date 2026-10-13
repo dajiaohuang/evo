@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis juanchoi
+  displayName: Pristimantis juanchoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/788G2
+  sourceIndexes:
+    - name:
+        en: Pristimantis juanchoi
+        zh: Pristimantis juanchoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 788G2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/333
+            queryName: Pristimantis juanchoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/394
+            queryName: Eleutherodactylus juanchoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91c0596d8e
+      - s-4b32357fd2
+      - s-291ad3ea81
+      - s-3e3ee82060
+      - s-095376dd3f
+      - s-fd96061449
+      - s-7f38cda812
+      - s-d739c07622
+      - s-5d13da2bf3
+    zh:
+      - s-c18469abc6
+      - s-db4f4e45a4
+      - s-ab708a7a31
+      - s-aabf91f454
+      - s-44b823b5fe
+      - s-78e46cd2ff
+      - s-a41de33b86
+      - s-1975fedd12
+      - s-74a8dcffdd

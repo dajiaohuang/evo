@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Episyrphus (Episyrphus) balteatus (De Geer, 1776)
+    rank: species
+    sourceDatasetId: "1101"
+    name:
+      zh: 黑带食蚜蝇
+      en: Marmalade hoverfly
+    sections:
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-6056bbe6d6
+            part: body
+          en:
+            page: en
+            section: s-de9320a6c0
+            part: body
+        sourceIds:
+          - account
+      - topic: range
+        text:
+          zh:
+            page: zh
+            section: s-44f26e37ae
+            part: body
+          en:
+            page: en
+            section: s-446352a5de
+            part: body
+        sourceIds:
+          - account
+    sources:
+      - id: account
+        referenceId: ref-1d14aef6-c8eb-8c56-aa9c-13ee330726f3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 物种幼虫食物、成虫访花与英国记录解释；区域记录频数不是全球种群估计。
+            en: Larval diet, adult flower visiting and interpretation of British records; regional record frequency is not a global population estimate.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 1101
+          url: https://www.checklistbank.org/dataset/316115/taxon/6FY28
+          scope:
+            zh: 固定版本中的接受名、作者、等级及父链；保留亚属写法和未分配的来源 ID，不据名称推导生物学事实。
+            en: Pinned accepted name, authorship, rank and parent chain; subgenus notation and unassigned source IDs are retained. Names do not establish biological traits.
+    limitations:
+      zh:
+        page: zh
+        section: s-d17afa32ea
+        part: body
+      en:
+        page: en
+        section: s-83f331c7a0
+        part: body

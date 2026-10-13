@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax cretatus
+  displayName: Scinax cretatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/79XY8
+  sourceIndexes:
+    - name:
+        en: Scinax cretatus
+        zh: Scinax cretatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 79XY8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/26
+            queryName: Scinax cretatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-19b00a0705
+      - s-022f5fd5b1
+      - s-ca9f07d710
+      - s-d4a6ad2340
+      - s-1502f94180
+      - s-f7a81a16d6
+      - s-a9a142bebd
+      - s-edd2c6a5f5
+      - s-ba74a61559
+      - s-5068915686
+      - s-8a76a506e0
+    zh:
+      - s-07d8fd6a29
+      - s-1427af9970
+      - s-3af4290006
+      - s-e343dc3cad
+      - s-87b8fc62c0
+      - s-1b90c2f2da
+      - s-95df28346e
+      - s-e76a8c5957
+      - s-122c20bdce
+      - s-9966e85fe1
+      - s-6ef226440a

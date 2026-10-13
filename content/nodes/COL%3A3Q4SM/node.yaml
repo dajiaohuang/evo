@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema spanios
+  displayName: Ischnocnema spanios
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4SM
+  sourceIndexes:
+    - name:
+        en: Ischnocnema spanios
+        zh: Ischnocnema spanios
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4SM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/41
+            queryName: Ischnocnema spanios
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/63
+            queryName: Eleutherodactylus spanios
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5be6885772
+      - s-b2a90e9c44
+      - s-22fb9a5f13
+      - s-e86e716c7c
+      - s-4457623e03
+      - s-491de95f2a
+      - s-7592b57de8
+      - s-1bfbc6d1ce
+      - s-8aa462efd4
+      - s-cc39a8c81e
+      - s-edd01724e2
+      - s-d5b75d19de
+      - s-a2f4bd6ec4
+      - s-f62649b48f
+    zh:
+      - s-d89f2b5944
+      - s-2f376ba3cd
+      - s-82144e9c66
+      - s-e2e4b32817
+      - s-4e03f0d65c
+      - s-9162928906
+      - s-85490623d6
+      - s-b6a4835757
+      - s-316adbe3bd
+      - s-5c52532a0a
+      - s-5f3e64c098
+      - s-d483c90911
+      - s-491e5f8095
+      - s-094a62345b

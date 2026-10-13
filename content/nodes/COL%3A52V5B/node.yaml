@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Strabomantis anomalus
+  displayName: Strabomantis anomalus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/52V5B
+  sourceIndexes:
+    - name:
+        en: Strabomantis anomalus
+        zh: Strabomantis anomalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 52V5B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/322
+            queryName: Strabomantis anomalus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/25
+            queryName: Eleutherodactylus anomalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/139
+            queryName: Hylodes anomalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/140
+            queryName: Craugastor anomalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/141
+            queryName: Limnophys anomalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dad0002e99
+      - s-cbe246445f
+      - s-ce72469bcd
+      - s-f3d2879312
+      - s-d5d87fb7aa
+      - s-f915bc49b0
+      - s-4973eac5c5
+      - s-913e1dc1d9
+      - s-75b0d28167
+      - s-fcc4c55d14
+    zh:
+      - s-69ddcff22b
+      - s-a8cfa5582d
+      - s-6cbd9cf309
+      - s-34a8a14ac0
+      - s-d60918d2e1
+      - s-410aa0223e
+      - s-3aca5886e9
+      - s-28e20b4e3a
+      - s-7f52d8e6a0
+      - s-2c2861294f

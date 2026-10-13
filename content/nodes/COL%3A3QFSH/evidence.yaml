@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ixia stricta (Eckl. ex Klatt) G.J.Lewis
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3QFSH, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3QFSH; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3QFSH
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3QFSH
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784417-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3QFSH / WFO wfo-0000784417
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-375142dc-c61a-8d8c-ac7c-81b393e51f3e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ixia stricta (Eckl. ex Klatt) G.J.Lewis account; SANBI/WFO archive rows 7133 (Morphology), 29322 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_15933_0
+        referenceId: ref-2fd9e278-de4a-8514-aa3d-fe2b963bd71e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ixia stricta (Eckl. ex Klatt) G.J.Lewis account; SANBI/WFO archive rows 84452 (Diagnostic), source identifier 15933.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ixia stricta (Eckl. ex Klatt) G.J.Lewis account; SANBI/WFO archive rows 95101 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 35-55 cm. Leaves sword-shaped, often dry at flowering. Flowers pale to deep pink, tube filiform, anthers oblong.
+            textZh: Ixia stricta (Eckl. ex Klatt) G.J.Lewis 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Morphology row 7133; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: While not particularly distinctive in its radially symmetric flowers with short, erect stamens, Ixia stricta is identified in ser. Dichone by a combination of the rotate flowers and a basal fan of (3)4 or 5 sword-shaped leaves, the blades with a prominent main vein and thickened margins. The sweetly scented flowers have a filiform tube about half as long as the tepals and a particularly short style ± 1 mm long. Blooming late in the season, in November and December, the leaves are often dry or partly so, a feature unusual in the genus. Raimondo et al. (2009) suggest a conservation status of (LC), least concern, but (NT), near threatened, is suggested to be more appropriate.
+            textZh: SANBI 条目提供了 Ixia stricta (Eckl. ex Klatt) G.J.Lewis 的鉴别特征。
+            sourceIds:
+              - sanbi_15933_0
+            locator: "SANBI/WFO archive Diagnostic row 84452; source identifier 15933.0; cited publication: Goldblatt, P; Manning, JC. 2012. Systematics of the southern African genus Ixia (Iridaceae): 4. Revision of sect. Dichone. Bothalia 42(2): 87 - 110. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Typically flowering late in the year, in November and December, the foliage of Ixia stricta is often more-or-less dry at flowering. Not particularly distinctive, the pink flowers are radially symmetric and have short, erect stamens. It is identified in ser. Dichone by a combination of the rotate flowers and a basal fan of (3)4 or 5 sword-shaped leaves with a prominent main vein and thickened margins. The sweetly scented flowers have a filiform tube about half as long as the tepals and particularly short style branches ± 1.5 mm long.
+            textZh: SANBI 条目提供了 Ixia stricta (Eckl. ex Klatt) G.J.Lewis 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 95101; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Lower sandy loam slopes in renosterveld.
+            textZh: 该 SANBI 区域物种条目记录的生境：Lower sandy loam slopes in renosterveld.
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Habitat row 29322; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

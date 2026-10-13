@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon angrensis
+  displayName: Ololygon angrensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/498ZQ
+  sourceIndexes:
+    - name:
+        en: Ololygon angrensis
+        zh: Ololygon angrensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 498ZQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/101
+            queryName: Ololygon angrensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/26
+            queryName: Scinax angrensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/457
+            queryName: Hyla angrensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/314
+            queryName: Hyla catharinae angrensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-118962c1e9
+      - s-cd55e2b27a
+      - s-6dd0eceacb
+      - s-b365f1858f
+      - s-756cc09539
+      - s-f46d708fef
+      - s-8c620bd610
+      - s-492e838aac
+      - s-1ca1aeffc9
+      - s-a8291e72c3
+      - s-38034e95fb
+      - s-e100321baf
+      - s-f45d9aad2f
+      - s-d5a4240998
+    zh:
+      - s-00b93b7489
+      - s-43d31694d3
+      - s-f1abf5880f
+      - s-c9c9b69353
+      - s-5022cbc892
+      - s-b9e57b8ca9
+      - s-0ef8518b74
+      - s-b2f37337be
+      - s-56ff925cbb
+      - s-84a4afa807
+      - s-17e1c8d17b
+      - s-80366d45bb
+      - s-7f104492b0
+      - s-3b2b61aefa

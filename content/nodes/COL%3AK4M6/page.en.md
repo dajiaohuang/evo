@@ -1,0 +1,3 @@
+## *Ayapana lanceolata*: opposite leaves and white flower clusters {#s-b3fda20640}
+The Brazilian Flora 2020 regional field records opposite leaves without stalks; their blades may be egg-shaped or lance-shaped, entire or toothed, and hairless to softly hairy. The heads form dense or more open branched clusters within bell-shaped cups of overlapping bracts. The flowers are white, with funnel-shaped corollas. The fruitlets are described as inverted-pyramid-shaped, with a distinct attachment base and a rough-bristled pappus. As a regional dataset field, these listed alternatives are not a complete species-wide account.
+

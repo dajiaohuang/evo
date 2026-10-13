@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gladiolus symonsii F.Bolus
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3G52V, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3G52V; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3G52V
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3G52V
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000790406-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3G52V / WFO wfo-0000790406
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gladiolus symonsii F.Bolus account; SANBI/WFO archive rows 98228 (Morphology), 97102 (Habitat), 94612 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 250-450 mm high. Corm globose, ± 10 mm diam.; tunics of fine to wiry fibres. Stem erect, unbranched, usually flexed outward just above sheathing part of second leaf. Leaves 3, lowermost markedly longest, sheathing lower 1/3 of stem, reaching to ± upper 1/3 of stem, 60-120 mm long, X-shaped in section with main vein raised and margins thickened, thus with 4 broad longitudinal grooves or furrows, remaining leaves without blades, second leaf sheathing stem for 80-150 mm, third leaf inserted near stem apex. Spike inclined, 2- to 4-flowered; bracts soft-textured, dull green, 20-30 mm long, inner shorter. Flowers subactinomorphic, with unilateral stamens and style, bright pink to pale rose, whitish in throat, lower 3 tepals feathered or streaked with fine red lines or spots at base, apparently unscented; perianth tube obliquely funnel-shaped, 8-12 mm long; tepals subequal, lanceolate, dorsal slightly larger, 20-25 x 10-13 mm, inclined over stamens, upper laterals suberect, slightly shorter than dorsal, lower 3 tepals 19-23 x 10 mm. Filaments ± 7 mm long, included or exserted up to 1 mm from tube; anthers 8-10 mm long, yellow; pollen yellow. Style arching over stamens, dividing opposite upper 1/4 of anthers, branches ± 3.5 mm long. Capsules and seeds unknown.
+            textZh: Gladiolus symonsii F.Bolus 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Morphology row 98228; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Diagnosed by the ± X-shaped lower leaf with heavily thickened and raised margins and midrib, and the pink, funnel-shaped flowers with subactinomorphic perianth with a very short tube, 8-12 mm long and short filaments ± 7 mm long scarcely exserted from the tube.
+            textZh: SANBI 条目提供了 Gladiolus symonsii F.Bolus 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94612; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Short grassland or on sandstone or basalt pavement.
+            textZh: 该 SANBI 区域物种条目记录的生境：Short grassland or on sandstone or basalt pavement.
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Habitat row 97102; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

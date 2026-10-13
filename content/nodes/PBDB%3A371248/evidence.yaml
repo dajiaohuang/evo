@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Genibatrachus baoshanensis
+    rank: species
+    sourceTaxonId: txn:371248
+    name:
+      en: Genibatrachus baoshanensis
+      zh: Genibatrachus baoshanensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-ced3962a64
+            part: body
+          zh:
+            page: zh
+            section: s-14f5aa1768
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-ea12f135e5
+            part: body
+          zh:
+            page: zh
+            section: s-59fc61b7f1
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-1bfbcb0501
+            part: body
+          zh:
+            page: zh
+            section: s-57fe094d9e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:371248; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "K.-Q. Gao and J. Chen. 2017. A New Crown-Group Frog (Amphibia: Anura) from the Early Cretaceous of Northeastern Inner Mongolia, China. American Museum Novitates 3876:1-39"
+    occurrenceEvidence:
+      - occurrenceId: occ:1404568
+        collectionId: col:193940
+        acceptedTaxonId: txn:371248
+        identifiedName: Genibatrachus baoshanensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:65858
+        bibliography: "K.-Q. Gao and J. Chen. 2017. A New Crown-Group Frog (Amphibia: Anura) from the Early Cretaceous of Northeastern Inner Mongolia, China. American Museum Novitates 3876:1-39"
+        locality:
+          countryCode: CN
+          stateProvince: Inner Mongolia
+          county: null
+        stratigraphy:
+          group: null
+          formation: Longjiang
+          member: null
+        olderAgeMa: 121.4
+        youngerAgeMa: 119.57
+      - occurrenceId: occ:1586124
+        collectionId: col:224092
+        acceptedTaxonId: txn:371248
+        taxonomicDifference: null
+        referenceId: ref:79071
+        bibliography: Z. Yu, L. Dong, and M. H. Huyskens, Q.- Z. Yin, Y. Wang, C. Deng, H. He. 2022. The exceptionally preserved Early Cretaceous “Moqi Fauna” from eastern Inner Mongolia, China, and its age relationship with the Jehol Biota. Palaeogeography, Palaeoclimatology, Palaeoecology 589:110824
+        locality:
+          countryCode: CN
+          stateProvince: Inner Mongolia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 121.4
+        youngerAgeMa: 113.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1bfbcb0501
+            part: body
+          zh:
+            page: zh
+            section: s-57fe094d9e
+            part: body
+        sourceIds: []

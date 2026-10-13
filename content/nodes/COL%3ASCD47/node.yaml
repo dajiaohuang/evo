@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis campinarana
+  displayName: Pristimantis campinarana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCD47
+  sourceIndexes:
+    - name:
+        en: Pristimantis campinarana
+        zh: Pristimantis campinarana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCD47
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/176
+            queryName: Pristimantis campinarana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-967b4d3cae
+      - s-a31e4b3b72
+      - s-3334e7be41
+      - s-6b0eb135b1
+      - s-1a7093e00f
+      - s-222c507d9f
+      - s-74d42f4bf2
+      - s-2d9403bae9
+      - s-59ab7f0bdf
+      - s-7218df657e
+      - s-ac6728135b
+      - s-3441bc33e8
+      - s-003020dca6
+      - s-c586b27868
+      - s-05df03b995
+      - s-ab7a988aa6
+      - s-b3431ec4c2
+    zh:
+      - s-f75ac3f10a
+      - s-524bbbdf42
+      - s-77da428289
+      - s-59b26649c8
+      - s-f4ff0d59ac
+      - s-335d165ce0
+      - s-4591a4e6f0
+      - s-cbdaac8a51
+      - s-f5ebc47e49
+      - s-d4aace6c6c
+      - s-02f7fcd2af
+      - s-8428f29afb
+      - s-b13a52c20a
+      - s-c9c343c500
+      - s-5b345cd636
+      - s-a256c75053
+      - s-4ab4db1b4d

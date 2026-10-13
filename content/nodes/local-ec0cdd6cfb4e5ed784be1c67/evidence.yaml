@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Boophis haingana
+    name:
+      en: Boophis haingana
+      zh: Boophis haingana
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Boophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b04875ec5f
+            part: body
+          zh:
+            page: zh
+            section: s-a7ff43401e
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b116e29123
+            part: body
+          zh:
+            page: zh
+            section: s-fd968d6e15
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 763, 764; Reference.csv rows 103
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 763
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis haingana
+          - F
+          - "36.65"
+          - "12.85"
+          - "13"
+          - "4.1"
+          - "1.85"
+          - NA
+          - NA
+          - "4.2"
+          - NA
+          - "2.7"
+          - NA
+          - "3.25"
+          - "11.3"
+          - NA
+          - "23.8"
+          - "16.45"
+          - NA
+          - "18.6"
+          - NA
+          - NA
+          - "60.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 764
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis haingana
+          - M
+          - "26.925"
+          - "9.65"
+          - "9.7"
+          - "3.375"
+          - "1.45"
+          - NA
+          - NA
+          - "3.275"
+          - NA
+          - "2.175"
+          - NA
+          - "2.45"
+          - "8.425"
+          - NA
+          - "17.2"
+          - "11.775"
+          - NA
+          - "14.025"
+          - NA
+          - NA
+          - "44.725"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 103
+        values:
+          - Anura
+          - Boophis_haingana
+          - "Glaw, F., KÖHler, J., De La Riva, I., Vieites, D. R., & Vences, M. (2010). Integrative taxonomy of Malagasy treefrogs: combination of molecular genetics, bioacoustics and comparative morphology reveals twelve additional species of Boophis. Zootaxa, 2383(1). https://doi.org/10.11646/zootaxa.2383.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - MHTG
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

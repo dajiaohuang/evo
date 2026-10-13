@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega rubriventris
+  displayName: Ameerega rubriventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ7C
+  sourceIndexes:
+    - name:
+        en: Ameerega rubriventris
+        zh: Ameerega rubriventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ7C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/277
+            queryName: Ameerega rubriventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/221
+            queryName: Epipedobates rubriventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/112
+            queryName: Epipedobates hahneli rubriventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-906e16c759
+      - s-7752644ee3
+      - s-e03b2d4170
+      - s-ef34b02cdf
+      - s-a3879b8320
+      - s-8897c22845
+      - s-719bc85375
+      - s-000011898c
+      - s-b1c53b2028
+      - s-9c2ea1eafb
+    zh:
+      - s-66d7fe1736
+      - s-547571490e
+      - s-01762ca9ac
+      - s-0f68c363cb
+      - s-ebcd512f47
+      - s-aba9c93882
+      - s-ed68724764
+      - s-ca37e6b771
+      - s-901a9ff713
+      - s-cc0865f044

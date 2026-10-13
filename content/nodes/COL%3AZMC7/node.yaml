@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylus trachystomus
+  displayName: Crossodactylus trachystomus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMC7
+  sourceIndexes:
+    - name:
+        en: Crossodactylus trachystomus
+        zh: Crossodactylus trachystomus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMC7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/235
+            queryName: Crossodactylus trachystomus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/233
+            queryName: Crossodactylus bokermanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/133
+            queryName: Tarsopterus trachystomus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/134
+            queryName: Crossodactylus bresslaui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/135
+            queryName: Crossodactylus trachystoma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f7b118daba
+      - s-be20d94fbe
+      - s-a555fdd30f
+      - s-b7624e0e27
+      - s-9db06a49f6
+      - s-222628c8ad
+      - s-d0e975486d
+      - s-adaeb32394
+      - s-94f1ccade2
+      - s-cde665eac1
+      - s-f68e1de845
+      - s-859d0ec2d5
+      - s-b4c235c5c0
+      - s-04dc3172fd
+      - s-4acaca7e04
+      - s-88f40e1c91
+      - s-e3f0445265
+      - s-32dae2cbfa
+      - s-2250f6995d
+      - s-0452164ba4
+      - s-3e091163da
+      - s-ec41a1d63c
+      - s-883c559757
+      - s-d11aa5539d
+      - s-29dba19ff0
+    zh:
+      - s-6510ceb0b0
+      - s-1fb1d9e3c4
+      - s-140f0b12e1
+      - s-ae443b5d9d
+      - s-10a816da72
+      - s-19758a302e
+      - s-7451c2d19a
+      - s-f5537ab100
+      - s-2e72be84d6
+      - s-b1bbb3e3ef
+      - s-5f671f9bf8
+      - s-c7863a3bd0
+      - s-cc6cf884e3
+      - s-ec8d5341b9
+      - s-bf8ec88779
+      - s-98d52f0bf5
+      - s-a8793a5510
+      - s-4796ca1c94
+      - s-a74af3859d
+      - s-39c4f1d8b5
+      - s-92098328ff
+      - s-fce4df2e60
+      - s-79957b0f25
+      - s-e2a8e790be
+      - s-ac7d1fa0c8

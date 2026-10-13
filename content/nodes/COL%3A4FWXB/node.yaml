@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phasmahyla cochranae
+  displayName: Phasmahyla cochranae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4FWXB
+  sourceIndexes:
+    - name:
+        en: Phasmahyla cochranae
+        zh: Phasmahyla cochranae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4FWXB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/24
+            queryName: Phasmahyla cochranae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/396
+            queryName: Phyllomedusa cochranae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 36
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b0ba8cd303
+      - s-c44bc101ef
+      - s-6c06a91f35
+      - s-e02019de11
+      - s-299b6c66cd
+      - s-2cd929c834
+      - s-67f679dc42
+      - s-d9e1483909
+      - s-72fad3bd55
+      - s-f69291434d
+      - s-4614f0a6c5
+      - s-82a82ed972
+      - s-41bd8ab0d1
+      - s-d9b063b9c2
+      - s-ff97b9053a
+      - s-82f788eeee
+      - s-ffe5fbd17f
+      - s-242f09a201
+      - s-488640c46b
+      - s-0e339a231e
+      - s-2704e6a1d6
+    zh:
+      - s-c8beb4ecae
+      - s-e490df6880
+      - s-4fd248ae30
+      - s-818f471207
+      - s-ded12207da
+      - s-f5e6438615
+      - s-b50e5ece92
+      - s-8802488ff1
+      - s-4a8ffb25b8
+      - s-8dba86a956
+      - s-1823faaff2
+      - s-5de0f7b002
+      - s-a2e038e4d9
+      - s-51f5945a60
+      - s-e0ef92b717
+      - s-052c7946d6
+      - s-1941e0a87d
+      - s-dca8a489d7
+      - s-4d324caefa
+      - s-4caa381025
+      - s-f18e2558c1

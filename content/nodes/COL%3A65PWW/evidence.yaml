@@ -1,0 +1,282 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Agelasticus xanthophthalmus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Agelasticus xanthophthalmus
+      en: Agelasticus xanthophthalmus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-a2b21fa4a2
+            part: body
+          en:
+            page: en
+            section: s-e056e6a3a8
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-09f5fcd411
+            part: body
+          en:
+            page: en
+            section: s-b928fe37d9
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-e2d6b2c465
+            part: body
+          en:
+            page: en
+            section: s-78e3f42eed
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-373f745853
+            part: body
+          en:
+            page: en
+            section: s-2d30dc9e90
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-4f66729b44
+            part: body
+          en:
+            page: en
+            section: s-bbfacfd72d
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-01915cd979
+            part: body
+          en:
+            page: en
+            section: s-90e54360df
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1e3b8863cd
+            part: body
+          en:
+            page: en
+            section: s-9fe555df66
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-b532b52379
+            part: body
+          en:
+            page: en
+            section: s-3d703f2b69
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d307e485a6
+            part: body
+          en:
+            page: en
+            section: s-ff8fbf316c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Agelasticus xanthophthalmus
+          url: https://www.checklistbank.org/dataset/316115/taxon/65PWW
+          locator: Pinned accepted name, rank and ancestor closure; matching names do not establish concept equivalence.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceTaxonomy
+          - externalConceptId
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET Supplementary dataset 1.xlsx; AVONET1_BirdLife; Species1=Agelasticus xanthophthalmus; Sequence=10556; Metadata field definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 34480856
+          sourceFileMd5: 1445afdcfb6df784010c2ca034544bc8
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceTaxonomy: HBW–BirdLife version 5.0 (December 2020)
+          externalConceptId: AVIBASE-9A0C6612
+          scope:
+            zh: 历史同名记录的数据导读；仅使用 Inference=NO 且至少一套完整形态测量的记录。保留体重来源和繁殖/留居地理范围限定，不推断当前分类概念等同。
+            en: Historical same-name data account, using Inference=NO records with at least one complete morphological set. Mass provenance and breeding/resident geography retained; no current taxonomic concept equivalence inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 9470; Scientific=Agelasticus xanthophthalmus; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_23
+                  verbatim: New World Blackbirds. 1999. Alvaro Jaramillo and Peter Burke. Princeton University Press
+              certainty: A
+            foraging:
+              fields:
+                - ForStrat-watbelowsurf
+                - ForStrat-wataroundsurf
+                - ForStrat-ground
+                - ForStrat-understory
+                - ForStrat-midhigh
+                - ForStrat-canopy
+                - ForStrat-aerial
+              references:
+                - id: Ref_35
+                  verbatim: "Jaramillo, A. and P. Burke. 1999. New World blackbirds: the icterids. Princeton University Press Princeton, New Jersey."
+              speciesLevel: "1"
+          withheldFieldGroups: []
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-f767817d7e
+        part: body
+      en:
+        page: en
+        section: s-d55342746f
+        part: body

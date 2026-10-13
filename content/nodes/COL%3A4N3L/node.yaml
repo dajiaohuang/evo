@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Geotrypetes
+  displayName: Geotrypetes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4N3L
+  sourceIndexes:
+    - name:
+        en: Geotrypetes
+        zh: Geotrypetes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4N3L
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/405
+            queryName: Geotrypetes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 97
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-22163479bb
+      - s-18d7d06bba
+      - s-e21068ce0e
+      - s-5d3e134138
+      - s-cfb2dc0129
+      - s-11be837802
+      - s-651cacf62a
+      - s-4710144303
+      - s-ad55497400
+      - s-21143aa159
+      - s-091247c70b
+      - s-c0b38a744c
+      - s-36bd5e2546
+    zh:
+      - s-921f86fe87
+      - s-6abb5b685c
+      - s-ae55201f86
+      - s-cc4f379057
+      - s-feb601324e
+      - s-4473545244
+      - s-4b5480cf11
+      - s-20db4bdbcf
+      - s-61fe5385d8
+      - s-74f6a8497d
+      - s-be06e4b67d
+      - s-a2cac74874
+      - s-45bbf6be15

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ecnomiohyla minera
+  displayName: Ecnomiohyla minera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6DWMQ
+  sourceIndexes:
+    - name:
+        en: Ecnomiohyla minera
+        zh: Ecnomiohyla minera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6DWMQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/108
+            queryName: Ecnomiohyla minera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/398
+            queryName: Hyla minera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c8ef2ad4fe
+      - s-5e3a09ec85
+      - s-8eba30bb58
+      - s-69636dfc85
+      - s-723ab06f08
+      - s-01bdeac1b2
+      - s-a8904ae404
+      - s-9e61a0b3b1
+      - s-c5f30e43e3
+    zh:
+      - s-67c5d27e00
+      - s-d80e55b4c8
+      - s-9134b604a4
+      - s-2c450daaf8
+      - s-274ae1c232
+      - s-df217c660b
+      - s-6dc6c3ed50
+      - s-5ca36aaa2c
+      - s-c1f69d272e

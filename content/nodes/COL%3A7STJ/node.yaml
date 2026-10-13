@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Taricha
+  displayName: Taricha
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7STJ
+  sourceIndexes:
+    - name:
+        en: Taricha
+        zh: Taricha
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7STJ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/295
+            queryName: Taricha
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 683
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-47bae0863d
+      - s-c0f47ebac9
+      - s-adc978c5b0
+      - s-82602f22c3
+      - s-3f517a0541
+      - s-f63e461723
+      - s-87e2d01259
+      - s-f16395a6ee
+      - s-c4f558ac67
+      - s-8aaa46b92b
+      - s-fa52cf0d2b
+      - s-ac4f7d637d
+    zh:
+      - s-c079a712ae
+      - s-eb7dac4fbb
+      - s-2419665d5d
+      - s-9404341691
+      - s-680eb49d30
+      - s-ac45d6276a
+      - s-b6860d0109
+      - s-67451f97d3
+      - s-8dc862b2db
+      - s-49aa37ef23
+      - s-4a1dae0eb2
+      - s-b597c120d4

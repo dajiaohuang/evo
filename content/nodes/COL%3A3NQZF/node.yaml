@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius steindachneri
+  displayName: Hyperolius steindachneri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQZF
+  sourceIndexes:
+    - name:
+        en: Hyperolius steindachneri
+        zh: Hyperolius steindachneri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQZF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/338
+            queryName: Hyperolius steindachneri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/268
+            queryName: Rappia steindachneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/269
+            queryName: Hyperolius machadoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/31
+            queryName: Hyperolius steindachneri steindachneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ef23fb2f97
+      - s-677e9945a3
+      - s-6d2bee2df4
+      - s-27b3bd1260
+      - s-d029fc7d8d
+      - s-3c7a88f0e1
+      - s-9095fd0c19
+      - s-60e658c190
+      - s-9b9956e7cc
+    zh:
+      - s-dea669f436
+      - s-9bda2efcea
+      - s-f0baa5226d
+      - s-1a4fc2e6a3
+      - s-f06a5c6414
+      - s-b274a92ba8
+      - s-9eef8adbd2
+      - s-bc0ecd12f5
+      - s-de8ff48ad0

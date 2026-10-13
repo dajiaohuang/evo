@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-730b1619ec
+      part: title
+    titleZh:
+      page: zh
+      section: s-a197ae514f
+      part: title
+    category: fossil
+    startAge: 536
+    endAge: 533
+    regions:
+      - Soltanieh Formation, northern Iran
+    clades:
+      - Hexactinellida
+      - Porifera
+    summary:
+      page: en
+      section: s-730b1619ec
+      part: body
+    summaryZh:
+      page: zh
+      section: s-a197ae514f
+      part: body
+    claimIds:
+      - claim:event:soltanieh-basal-cambrian-spicules
+    evidenceItems:
+      - statement: The study describes siliceous spicules in the Protohertzina anabarica Zone of the Soltanieh Formation and compares twenty proposed Precambrian sponge candidates.
+        relation: supports
+        claimIds:
+          - claim:event:soltanieh-basal-cambrian-spicules
+        referenceLinks:
+          - referenceId: antcliffe-2014-sponge-record
+            relation: supports
+            pages: 972–1004
+            figure: Figures 1–13; Tables 1–2
+            quoteLocator: Diagnostic criteria, Iranian material and candidate reassessment
+    uncertaintyItems:
+      - statement: “Oldest reliable” is conditional on the paper’s diagnostic criteria and then-known record; it is neither a permanent global FAD nor proof of a crown hexactinellid.
+        relation: contextualizes
+        claimIds:
+          - claim:event:soltanieh-basal-cambrian-spicules
+        referenceLinks:
+          - referenceId: antcliffe-2014-sponge-record
+            relation: supports
+            pages: 972–1004
+            figure: Figures 1–13; Tables 1–2
+            quoteLocator: Diagnostic criteria, Iranian material and candidate reassessment
+  claims:
+    - subjectId: event:soltanieh-basal-cambrian-spicules
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Siliceous spicules from the basal-Cambrian Soltanieh Formation are the oldest reliable sponge remains under the cited candidate-by-candidate diagnostic reassessment.
+      confidence: medium
+      confidenceRationale: The material is directly re-described with stratigraphic context, but isolated spicules do not identify all crown relationships or exclude future older finds.
+      referenceLinks:
+        - referenceId: antcliffe-2014-sponge-record
+          relation: supports
+          pages: 972–1004
+          figure: Figures 1–13; Tables 1–2
+          quoteLocator: Diagnostic criteria, Iranian material and candidate reassessment
+  claim-rationales.zh:
+    - 材料得到直接再描述并具地层背景，但孤立骨针不能确定所有冠群关系，也不能排除未来发现更老材料。
+  claim-statements.zh:
+    - 依据所引研究对各候选材料逐一进行的诊断性复核，寒武纪基底 Soltanieh 组的硅质骨针是最古老的可靠海绵遗存。

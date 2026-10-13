@@ -1,0 +1,732 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lithobates yavapaiensis (Platz & Frost, 1984)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Lithobates yavapaiensis
+      zh: Lithobates yavapaiensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2363b4078c
+            part: title
+          zh:
+            page: zh
+            section: s-95a9bd719b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2363b4078c
+            part: body
+          zh:
+            page: zh
+            section: s-95a9bd719b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d5735fe059
+            part: title
+          zh:
+            page: zh
+            section: s-f9b5722512
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d5735fe059
+            part: body
+          zh:
+            page: zh
+            section: s-f9b5722512
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-817102262f
+            part: title
+          zh:
+            page: zh
+            section: s-235e403c00
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-817102262f
+            part: body
+          zh:
+            page: zh
+            section: s-235e403c00
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cda1c6926f
+            part: title
+          zh:
+            page: zh
+            section: s-c53b8c67fc
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-cda1c6926f
+            part: body
+          zh:
+            page: zh
+            section: s-c53b8c67fc
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-eb442817ff
+            part: title
+          zh:
+            page: zh
+            section: s-034c917739
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-eb442817ff
+            part: body
+          zh:
+            page: zh
+            section: s-034c917739
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-e54e40ceb1
+            part: title
+          zh:
+            page: zh
+            section: s-ac636a119b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-e54e40ceb1
+            part: body
+          zh:
+            page: zh
+            section: s-ac636a119b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-3bd9326dca
+            part: title
+          zh:
+            page: zh
+            section: s-99c4bf1994
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-3bd9326dca
+            part: body
+          zh:
+            page: zh
+            section: s-99c4bf1994
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-07ce225c2b
+            part: title
+          zh:
+            page: zh
+            section: s-4253a053d5
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-07ce225c2b
+            part: body
+          zh:
+            page: zh
+            section: s-4253a053d5
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-8da8def38760298d0003af92e8ead2f6
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-d7413c6b4e409f24a1bb2764
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-3752344fb94b7524340fe2bc
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7861889cc5
+            part: title
+          zh:
+            page: zh
+            section: s-6bc8619c0c
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-7861889cc5
+            part: body
+          zh:
+            page: zh
+            section: s-6bc8619c0c
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-dd63d1b4a1
+            part: title
+          zh:
+            page: zh
+            section: s-8ea71728e6
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-dd63d1b4a1
+            part: body
+          zh:
+            page: zh
+            section: s-8ea71728e6
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b7e45232a3
+            part: title
+          zh:
+            page: zh
+            section: s-d0c89b3aa6
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b7e45232a3
+            part: body
+          zh:
+            page: zh
+            section: s-d0c89b3aa6
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-3a991af57c
+            part: title
+          zh:
+            page: zh
+            section: s-0e53b3e951
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhr9
+        text:
+          en:
+            page: en
+            section: s-3a991af57c
+            part: body
+          zh:
+            page: zh
+            section: s-0e53b3e951
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-e579f59e76
+            part: title
+          zh:
+            page: zh
+            section: s-063135579e
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhr9
+        text:
+          en:
+            page: en
+            section: s-e579f59e76
+            part: body
+          zh:
+            page: zh
+            section: s-063135579e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1b02244fb6
+            part: title
+          zh:
+            page: zh
+            section: s-4ae4c1f635
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhr9
+        text:
+          en:
+            page: en
+            section: s-1b02244fb6
+            part: body
+          zh:
+            page: zh
+            section: s-4ae4c1f635
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-92fbb61ba6
+            part: title
+          zh:
+            page: zh
+            section: s-0665dac77a
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhr9
+          - primary-pmc12070909-3vhr9-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-92fbb61ba6
+            part: body
+          zh:
+            page: zh
+            section: s-0665dac77a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Lithobates yavapaiensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/3VHR9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 775125, row 523891; Distribution.tsv rows 196473; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4906; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4909 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 794; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2883, 2884; Reference.csv rows 3865
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12070909-3vhr9
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Lithobates yavapaiensis: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12070909-3vhr9-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 dataset316115 usage6WQVG exact sourceName Rana yavapaiensis accepted3VHR9; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json
+          scope:
+            en: Recorded catalogue accepted-link only; source specimen identity and biological concept equivalence remain uncertified.
+            zh: 仅所记目录接受名链接；来源标本身份及生物学概念等同性仍未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc12070909-3vhr9-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e4a05da939
+        part: body
+      zh:
+        page: zh
+        section: s-ad61f85a15
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "775125"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=775125
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName and species rank; authorship representation normalization limited to NFC, whitespace and and/& conjunction.
+      originalSourceAuthorship: (Platz and Frost, 1984)
+      colAuthorship: (Platz & Frost, 1984)
+      exactAuthorship: false
+      equivalentAuthorshipRepresentation: true
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 523891
+        key: "775125"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "775125"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 196473
+            key: 775125|North America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-8da8def38760298d0003af92e8ead2f6
+      sourceRowId: Anf4906
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4906
+        bibliographyRowId: Anf4909
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Lithobates vibicarius
+        candidateBibliographyRowIds:
+          - Anf4909
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-d7413c6b4e409f24a1bb2764
+        scientificName: Lithobates yavapaiensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-3752344fb94b7524340fe2bc
+        scientificName: Lithobates yavapaiensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-pmc12070909-3vhr9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 source-labelled Rana yavapaiensis Platz & Frost, 1984; explicit COL26.8 nomenclatural bridge, not independently certified biological equivalence
+        evidenceRead: "Lithobates yavapaiensis: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A source-listed native regional occurrence
+              zh: 来源名册列出的区域原生出现
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhr9
+            locator: PMC12070909 XML Table1 body row 60 Rana yavapaiensis Platz & Frost, 1984; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ddcd0d6ba1
+                part: body
+              zh:
+                page: zh
+                section: s-44e2d97328
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: Distribution categories are dated checklist assignments
+              zh: 分布类别是有日期的名册分配
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhr9
+            locator: PMC12070909 XML Table1 row 60 Global/Total columns and caption; Methods2.1; Results3.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9166e97818
+                part: body
+              zh:
+                page: zh
+                section: s-7e3d04795c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Three conservation systems retain distinct dates and meanings
+              zh: 三套保育体系保留不同日期与含义
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhr9
+            locator: PMC12070909 XML Table1 row 60 IUCN/EVS/Mx columns and caption; Methods2.2; Results3.4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3e22104df7
+                part: body
+              zh:
+                page: zh
+                section: s-cffcf9796a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: The source combination has an explicit pinned catalogue link
+              zh: 来源组合具有明确固定目录链接
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhr9
+            locator: PMC12070909 XML Table1 row 60; COL26.8 dataset316115 usage6WQVG accepted3VHR9; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json sourceName Rana yavapaiensis
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-707889332e
+                part: body
+              zh:
+                page: zh
+                section: s-1c9bfa2550
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

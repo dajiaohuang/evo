@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus exiguus
+  displayName: Cophixalus exiguus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y443
+  sourceIndexes:
+    - name:
+        en: Cophixalus exiguus
+        zh: Cophixalus exiguus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y443
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/445
+            queryName: Cophixalus exiguus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-63eb5b9cea
+      - s-a7410d7236
+      - s-5403abb7a6
+      - s-9f0b1db0e9
+      - s-ae3305a8e9
+      - s-4ab54876cc
+      - s-fe7348500b
+      - s-430ec181b5
+      - s-d60686045b
+      - s-e8de145f52
+      - s-174540af92
+      - s-53f0e35f56
+      - s-3927ac6d97
+      - s-e7491c1688
+    zh:
+      - s-376e0f0982
+      - s-73c5f681e7
+      - s-d01cd48d58
+      - s-f3393053de
+      - s-8c3107d810
+      - s-61bd6c59ca
+      - s-6a00d0d058
+      - s-da25fda42f
+      - s-1001b8c450
+      - s-4f5e8139f0
+      - s-a53fa23519
+      - s-9249f11d0a
+      - s-600556280d
+      - s-635db7283a

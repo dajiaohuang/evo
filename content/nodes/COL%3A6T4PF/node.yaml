@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreobates ibischi
+  displayName: Oreobates ibischi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T4PF
+  sourceIndexes:
+    - name:
+        en: Oreobates ibischi
+        zh: Oreobates ibischi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T4PF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/199
+            queryName: Oreobates ibischi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/379
+            queryName: Eleutherodactylus ibischi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3c83481151
+      - s-402951b44a
+      - s-8497a05fb2
+      - s-a5753cb408
+      - s-b32144fcb0
+      - s-a36eee05ab
+      - s-bb144b3abc
+      - s-7952c6a419
+    zh:
+      - s-a722a0539d
+      - s-540b032cf4
+      - s-4a57dd6cdc
+      - s-af3ea47fdf
+      - s-9453612f13
+      - s-c528ecb7e3
+      - s-4de99726aa
+      - s-a406cf662f

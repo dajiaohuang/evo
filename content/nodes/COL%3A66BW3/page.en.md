@@ -1,0 +1,43 @@
+## Accepted name and placement {#s-daf0eb5cbe}
+COL26.8 accepts Amietia delalandii (Duméril & Bibron, 1841) as a species. Its recorded classification places it along Anura (order) → Pyxicephalidae (family) → Amietia (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-b2b02b854b}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-03a7d66458}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [TadpoleTraits v4: Amietia delalandii](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Pyxicephalidae/Amietia/Amietia_delalandii/page.en.md)
+- [Amphibian morphology v3: Amietia delalandii](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Pyxicephalidae/Amietia/Amietia_delalandii/page.en.md)
+- [AmphiBIO v1: Amietia dracomontana](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Pyxicephalidae/Amietia/Amietia_dracomontana/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-ee6a111bd4}
+Deposited source concept: Amietia delalandii, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 0 literature-derived rows and 1 image-derived rows for this source concept. Supplied stage entries are 30 (Judging based on the picture). Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Selected image-derived proportions — TadpoleTraits source {#s-cc28c25a46}
+Deposited source concept: Amietia delalandii, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The image-data source reports body length / total length = 0.350624 (source row 61, stage 30 (Judging based on the picture)); tail length / total length = 0.648827 (source row 61, stage 30 (Judging based on the picture)); maximum body height / total length = 0.156143 (source row 61, stage 30 (Judging based on the picture)); maximum tail height / total length = 0.151604 (source row 61, stage 30 (Judging based on the picture)); tail muscle height / total length = 0.0804317 (source row 61, stage 30 (Judging based on the picture)). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+
+## Sex-specific measurement material — Amphibian morphology source {#s-1b53341e11}
+Deposited source concept: Amietia delalandii, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 2 rows and 16 populated trait columns for this source concept. Recorded sex codes are F, M: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
+
+## A published isiZulu name and its provenance {#s-059a2cbe04}
+Table1 pairs Amietia delalandii with the isiZulu name “Isele lasemfuleni elijwayelekile”. Within this study's compilation, it is modified from names in Tarrant (2016), with assistance from field guide Bongani Mkhize. This is a published vernacular naming proposal or revision. It is not evidence that workshop participants already used this exact species-specific phrase, nor a scientific synonym governed by zoological nomenclature. Spelling is retained from the table, with its superscript provenance marker kept separate from the name.
+
+## Workshop vocabulary and later species naming {#s-3ffca0bbb7}
+The underlying workshop used an opportunity sample of 13 volunteer native isiZulu speakers, aged18–55, from five Zululand areas: ten participants on28November and three on1December2016 at Tembe Elephant Park. Participants viewed frog photographs and discussed names collectively, resolving disagreements by discussion. The six broad names elicited during the workshop did not individually distinguish all58 species. Species-level names were assigned afterwards with Bongani Mkhize, combining this vocabulary with earlier published names and naming guidelines. These group discussions do not supply independent per-person frequencies, dialect-wide agreement, or a test of recognition accuracy for Amietia delalandii.
+
+## What a local naming category can establish {#s-b1c4db1c7f}
+The study distinguishes broad folk categories from the scientific species labels used in the compilation. Several folk categories span multiple scientific genera or families; their correspondence was assessed within this regional set, not across all African amphibians. Names referring to habitat, appearance, locality or calls are linguistic choices in this naming exercise. Their wording alone is not a new measurement of habitat preference, coloration, acoustic behavior or geographic restriction for Amietia delalandii. The2019 table is also not a current occupancy survey or an exhaustive present-day Zululand checklist. No independent linguistic validation or current community-usage survey is claimed here.
+
+## catalogue-profile / limitations {#s-e8cd58e493}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-2288ca44c9}
+Table1 pairs Amietia delalandii with the isiZulu name “Isele lasemfuleni elijwayelekile”. Within this study's compilation, it is modified from names in Tarrant (2016), with assistance from field guide Bongani Mkhize. This is a published vernacular naming proposal or revision. It is not evidence that workshop participants already used this exact species-specific phrase, nor a scientific synonym governed by zoological nomenclature. Spelling is retained from the table, with its superscript provenance marker kept separate from the name.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-6174f66e8d}
+The underlying workshop used an opportunity sample of 13 volunteer native isiZulu speakers, aged18–55, from five Zululand areas: ten participants on28November and three on1December2016 at Tembe Elephant Park. Participants viewed frog photographs and discussed names collectively, resolving disagreements by discussion. The six broad names elicited during the workshop did not individually distinguish all58 species. Species-level names were assigned afterwards with Bongani Mkhize, combining this vocabulary with earlier published names and naming guidelines. These group discussions do not supply independent per-person frequencies, dialect-wide agreement, or a test of recognition accuracy for Amietia delalandii.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-0a9c19263e}
+The study distinguishes broad folk categories from the scientific species labels used in the compilation. Several folk categories span multiple scientific genera or families; their correspondence was assessed within this regional set, not across all African amphibians. Names referring to habitat, appearance, locality or calls are linguistic choices in this naming exercise. Their wording alone is not a new measurement of habitat preference, coloration, acoustic behavior or geographic restriction for Amietia delalandii. The2019 table is also not a current occupancy survey or an exhaustive present-day Zululand checklist. No independent linguistic validation or current community-usage survey is claimed here.
+

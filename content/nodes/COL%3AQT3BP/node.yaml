@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nidirana chongqingensis
+  displayName: Nidirana chongqingensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QT3BP
+  sourceIndexes:
+    - name:
+        en: Nidirana chongqingensis
+        zh: Nidirana chongqingensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QT3BP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/267
+            queryName: Nidirana chongqingensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f607d89f77
+      - s-8790ed713c
+      - s-451272358e
+      - s-ad41b87bec
+      - s-44a8b6f8b2
+      - s-54731afa7f
+      - s-6cf2965951
+      - s-2a6bc1f4d0
+      - s-882900fea3
+      - s-4623ba07da
+      - s-3865d0072e
+      - s-2b5a938d17
+      - s-82f0acada8
+      - s-0a1a6bf02b
+      - s-ce7d06b52e
+      - s-2d05b970ce
+      - s-e203021adf
+      - s-5b94611eb9
+      - s-7241d101d7
+      - s-0ab427c9e7
+      - s-0c261d47ce
+      - s-349dde37db
+      - s-1c0b462fbc
+    zh:
+      - s-915d809048
+      - s-5d59e10a64
+      - s-e6275cceaf
+      - s-6f3b32da3a
+      - s-0a8cbec76a
+      - s-192a3f653d
+      - s-ce303e8140
+      - s-cd0be16af8
+      - s-b20efaac94
+      - s-ec5f853b3c
+      - s-94e3c85f07
+      - s-160cdf86ad
+      - s-896a8705a4
+      - s-a03c0226db
+      - s-7800f9a63a
+      - s-eb5a8e3599
+      - s-8726dc3ace
+      - s-7437055d37
+      - s-1a2b5623f0
+      - s-4ed09333ac
+      - s-53a1ddda31
+      - s-28913e95e3
+      - s-32034ef03d

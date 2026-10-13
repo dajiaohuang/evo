@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne rookmaakeri
+  displayName: Oreophryne rookmaakeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T5Y8
+  sourceIndexes:
+    - name:
+        en: Oreophryne rookmaakeri
+        zh: Oreophryne rookmaakeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T5Y8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/297
+            queryName: Oreophryne rookmaakeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5ae8585b58
+      - s-c5b3e4337e
+      - s-9d9196af98
+      - s-356cbc5b03
+      - s-fc44e42930
+      - s-6778bb5852
+      - s-f29ef3ee6d
+      - s-56856fded7
+    zh:
+      - s-e41f0d1c7d
+      - s-bd1d708e61
+      - s-f7be4eed9b
+      - s-4ceca31778
+      - s-1066810f04
+      - s-456dab0ed0
+      - s-dbb7e3da08
+      - s-62b189baaf

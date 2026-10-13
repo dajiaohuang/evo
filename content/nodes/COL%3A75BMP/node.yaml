@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osteocephalus castaneicola
+  displayName: Osteocephalus castaneicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75BMP
+  sourceIndexes:
+    - name:
+        en: Osteocephalus castaneicola
+        zh: Osteocephalus castaneicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75BMP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/341
+            queryName: Osteocephalus castaneicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3c71cda644
+      - s-4211034cc0
+      - s-2560dc7dbf
+      - s-b4c33b3900
+      - s-f626c8eb7a
+      - s-6ed4f57173
+      - s-a465efb5a8
+    zh:
+      - s-7c2a046f99
+      - s-d6fe4f0c96
+      - s-803970653e
+      - s-1261c6069b
+      - s-ddf49fbce5
+      - s-caef541c90
+      - s-61788a6e15

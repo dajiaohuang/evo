@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-8a90342fce
+      part: title
+    titleZh:
+      page: zh
+      section: s-db5b990626
+      part: title
+    category: topology
+    startAge: 508.1
+    endAge: 505
+    regions:
+      - Burgess Shale, British Columbia, Canada
+    clades:
+      - Mollisonia symmetrica
+      - Chelicerata
+    summary:
+      page: en
+      section: s-8a90342fce
+      part: body
+    summaryZh:
+      page: zh
+      section: s-db5b990626
+      part: body
+    claimIds:
+      - claim:event:mollisonia-neuroanatomy-mosaic
+    evidenceItems:
+      - statement: MCZ 1811 and USNM 305093 preserve optic nerves, a possible compact cephalic synganglion and a segmental ventral nerve cord.
+        relation: supports
+        claimIds:
+          - claim:event:mollisonia-neuroanatomy-mosaic
+        referenceLinks:
+          - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
+            relation: supports
+            pages: "410"
+            figure: Figures 1–5; Supplementary Figures
+            quoteLocator: MCZ 1811 and USNM 305093; Elemental mapping; Alternative topologies
+    uncertaintyItems:
+      - statement: Incomplete anterior preservation and conflict between nervous-system and appendage characters permit competing placements and mosaic-evolution scenarios.
+        relation: contextualizes
+        claimIds:
+          - claim:event:mollisonia-neuroanatomy-mosaic
+        referenceLinks:
+          - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
+            relation: supports
+            pages: "410"
+            figure: Figures 1–5; Supplementary Figures
+            quoteLocator: MCZ 1811 and USNM 305093; Elemental mapping; Alternative topologies
+  claims:
+    - subjectId: event:mollisonia-neuroanatomy-mosaic
+      claimKind: scientific
+      claimType: topology
+      statement: Carbonaceous films in Mollisonia symmetrica specimens MCZ 1811 and USNM 305093 preserve optic nerves, a possible compact cephalic synganglion and a segmental ventral nerve cord; incomplete preservation and conflicting appendicular signal make ancestral organization and stem placement contested.
+      confidence: contested
+      confidenceRationale: Repeated elemental and positional observations support nervous-tissue interpretation, but anterior anatomy is incomplete and character systems conflict.
+      referenceLinks:
+        - referenceId: ortega-hernandez-2022-mollisonia-neuroanatomy
+          relation: supports
+          pages: "410"
+          figure: Figures 1–5; Supplementary Figures
+          quoteLocator: MCZ 1811 and USNM 305093; Elemental mapping; Alternative topologies
+  claim-rationales.zh:
+    - 重复的元素与位置观察支持神经组织解释，但前部解剖不完整且不同性状系统发生冲突。
+  claim-statements.zh:
+    - Mollisonia symmetrica 标本 MCZ 1811 与 USNM 305093 的碳质薄膜保存视神经、可能紧凑的头部融合神经节和分节腹神经索；保存不完整且附肢信号冲突，使祖先神经组织和干群位置仍有争议。

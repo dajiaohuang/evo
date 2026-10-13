@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Megophryinae Bonaparte, 1850
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Megophryinae
+      zh: Megophryinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-98e5a02aee
+            part: title
+          zh:
+            page: zh
+            section: s-4726a5de5b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-98e5a02aee
+            part: body
+          zh:
+            page: zh
+            section: s-4726a5de5b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-95f0c19975
+            part: title
+          zh:
+            page: zh
+            section: s-5b6f8662d7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-95f0c19975
+            part: body
+          zh:
+            page: zh
+            section: s-5b6f8662d7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-9cbc76574f
+            part: title
+          zh:
+            page: zh
+            section: s-40c5a65e60
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 35HG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A35HG
+            label:
+              en: Atympanophrys
+              zh: Atympanophrys
+          - kind: catalogue
+            colId: 3C2T
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3C2T
+            label:
+              en: Boulenophrys
+              zh: Boulenophrys
+          - kind: catalogue
+            colId: 3CLX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3CLX
+            label:
+              en: Brachytarsophrys
+              zh: Brachytarsophrys
+          - kind: catalogue
+            colId: PLTWP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3APLTWP
+            label:
+              en: Grillitschia
+              zh: Grillitschia
+          - kind: catalogue
+            colId: V5CWK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5CWK
+            label:
+              en: Jingophrys
+              zh: Jingophrys
+          - kind: catalogue
+            colId: 5N6Z
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5N6Z
+            label:
+              en: Megophrys
+              zh: Megophrys
+          - kind: catalogue
+            colId: "6927"
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6927
+            label:
+              en: Ophryophryne
+              zh: Ophryophryne
+          - kind: catalogue
+            colId: 6KBV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6KBV
+            label:
+              en: Pelobatrachus
+              zh: Pelobatrachus
+          - kind: catalogue
+            colId: V56J9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV56J9
+            label:
+              en: Sarawakiphrys
+              zh: Sarawakiphrys
+          - kind: catalogue
+            colId: 63XJT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63XJT
+            label:
+              en: Xenophrys
+              zh: Xenophrys
+        text:
+          en:
+            page: en
+            section: s-9cbc76574f
+            part: body
+          zh:
+            page: zh
+            section: s-40c5a65e60
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Megophryinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5H7G
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a574865de8
+        part: body
+      zh:
+        page: zh
+        section: s-37ed56ce48
+        part: body

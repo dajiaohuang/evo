@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinoderma
+  displayName: Rhinoderma
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78PP
+  sourceIndexes:
+    - name:
+        en: Rhinoderma
+        zh: Rhinoderma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78PP
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/227
+            queryName: Rhinoderma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 75
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d631b1f235
+      - s-34524f6a6f
+      - s-152596a423
+      - s-9b2692bf36
+      - s-84f085895a
+      - s-2a32852042
+      - s-e76672b026
+      - s-369b6bcb06
+      - s-2ceae5d422
+    zh:
+      - s-c965c073d8
+      - s-cb8c43471a
+      - s-7e623fb8a0
+      - s-21b37ba2ff
+      - s-2b93018d2f
+      - s-f1885cea05
+      - s-32b488d59f
+      - s-f9bf0c1202
+      - s-18871a9e09

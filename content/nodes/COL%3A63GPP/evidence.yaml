@@ -1,0 +1,287 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Osornophryne Ruiz-Carranza & Hernández-Camacho, 1976
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Osornophryne
+      zh: Osornophryne
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2dae11ade6
+            part: title
+          zh:
+            page: zh
+            section: s-6814ce5cde
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2dae11ade6
+            part: body
+          zh:
+            page: zh
+            section: s-6814ce5cde
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c48ebeb823
+            part: title
+          zh:
+            page: zh
+            section: s-88f1de78e7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c48ebeb823
+            part: body
+          zh:
+            page: zh
+            section: s-88f1de78e7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-165e10b5e9
+            part: title
+          zh:
+            page: zh
+            section: s-aca3802e97
+            part: title
+        text:
+          en:
+            page: en
+            section: s-165e10b5e9
+            part: body
+          zh:
+            page: zh
+            section: s-aca3802e97
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-262493f931
+            part: title
+          zh:
+            page: zh
+            section: s-958f8a03ad
+            part: title
+        text:
+          en:
+            page: en
+            section: s-262493f931
+            part: body
+          zh:
+            page: zh
+            section: s-958f8a03ad
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-f286cf2dca
+            part: title
+          zh:
+            page: zh
+            section: s-3792a749f2
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6TC5H
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6TC5H
+            label:
+              en: Osornophryne antisana
+              zh: Osornophryne antisana
+          - kind: catalogue
+            colId: V5GBM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5GBM
+            label:
+              en: Osornophryne backshalli
+              zh: Osornophryne backshalli
+          - kind: catalogue
+            colId: 75BTH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A75BTH
+            label:
+              en: Osornophryne bufoniformis
+              zh: Osornophryne bufoniformis
+          - kind: catalogue
+            colId: 75C5H
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A75C5H
+            label:
+              en: Osornophryne cofanorum
+              zh: Osornophryne cofanorum
+          - kind: catalogue
+            colId: 6TBTJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6TBTJ
+            label:
+              en: Osornophryne guacamayo
+              zh: Osornophryne guacamayo
+          - kind: catalogue
+            colId: 6TC5J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6TC5J
+            label:
+              en: Osornophryne occidentalis
+              zh: Osornophryne occidentalis
+          - kind: catalogue
+            colId: 75BTJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A75BTJ
+            label:
+              en: Osornophryne percrassa
+              zh: Osornophryne percrassa
+          - kind: catalogue
+            colId: 75C5J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A75C5J
+            label:
+              en: Osornophryne puruanta
+              zh: Osornophryne puruanta
+          - kind: catalogue
+            colId: 6TBTK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6TBTK
+            label:
+              en: Osornophryne simpsoni
+              zh: Osornophryne simpsoni
+          - kind: catalogue
+            colId: 6TC5K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6TC5K
+            label:
+              en: Osornophryne sumacoensis
+              zh: Osornophryne sumacoensis
+          - kind: catalogue
+            colId: 75BTK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A75BTK
+            label:
+              en: Osornophryne talipes
+              zh: Osornophryne talipes
+        text:
+          en:
+            page: en
+            section: s-f286cf2dca
+            part: body
+          zh:
+            page: zh
+            section: s-3792a749f2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Osornophryne
+          url: https://www.checklistbank.org/dataset/316115/taxon/63GPP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Osornophryne; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b3eccc1154
+        part: body
+      zh:
+        page: zh
+        section: s-c570cd8705
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Osornophryne
+      sourceRowIds:
+        - Anf0726
+        - Anf0727
+        - Anf0728
+        - Anf0729
+        - Anf0730
+        - Anf0731
+        - Anf0732
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 6
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 6
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 6
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 6
+      currentConceptEquivalenceCertified: false

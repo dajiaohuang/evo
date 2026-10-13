@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes tinniens
+  displayName: Raorchestes tinniens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RJB9
+  sourceIndexes:
+    - name:
+        en: Raorchestes tinniens
+        zh: Raorchestes tinniens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RJB9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/196
+            queryName: Raorchestes tinniens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/285
+            queryName: Philautus tinniens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/67
+            queryName: Ixalus tinniens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/68
+            queryName: Ixalus punctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/69
+            queryName: Ixalus montanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/70
+            queryName: Philautus punctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/71
+            queryName: Philautus melanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/72
+            queryName: Pseudophilautus tinniens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/454
+            queryName: Phyllomedusa tinniens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc6bf9ea67
+      - s-cfa48c231c
+      - s-6b7f27248e
+      - s-9330e48800
+      - s-f978ecbb11
+      - s-bbe2c59cea
+    zh:
+      - s-8c0bdd972e
+      - s-9544c47fd0
+      - s-cc7a41ae11
+      - s-32a1066cc3
+      - s-660abbc6d4
+      - s-871746184c

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca albolineata
+  displayName: Gastrotheca albolineata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JY79
+  sourceIndexes:
+    - name:
+        en: Gastrotheca albolineata
+        zh: Gastrotheca albolineata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JY79
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/12
+            queryName: Gastrotheca albolineata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/239
+            queryName: Hyla albolineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f0518bc6c0
+      - s-e663e2c6cc
+      - s-97b6b6d4df
+      - s-83d466efa1
+      - s-f46290f0cb
+      - s-4dfe7b2d00
+      - s-a5f4b4b381
+      - s-fda443af95
+      - s-cf5fcf4ba5
+      - s-3f13ad02b9
+      - s-b6893dadc5
+      - s-5d66097a6b
+      - s-b2ee099288
+      - s-324237df2a
+      - s-abb3525573
+    zh:
+      - s-fa246d09e7
+      - s-447ea2dcea
+      - s-b27735aeba
+      - s-c0b6305aa7
+      - s-0f3788f4dd
+      - s-47c9bc3682
+      - s-9a9c18e6fa
+      - s-776624c4e3
+      - s-8e8938621c
+      - s-07633428dd
+      - s-46d4736439
+      - s-f8448c7a4f
+      - s-24c532f17c
+      - s-c854d77f28
+      - s-1893b3139a

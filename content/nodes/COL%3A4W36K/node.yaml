@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger chintingensis
+  displayName: Scutiger chintingensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W36K
+  sourceIndexes:
+    - name:
+        en: Scutiger chintingensis
+        zh: Scutiger chintingensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W36K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/144
+            queryName: Scutiger chintingensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d301c72f41
+      - s-117552f193
+      - s-a9bf584a5d
+      - s-3ec8e11b06
+      - s-01cc217013
+      - s-95321238ac
+      - s-b1a03b3acb
+      - s-8719cca925
+      - s-99e6b5efcf
+      - s-93ec62c7dc
+    zh:
+      - s-73826f942f
+      - s-f3df3bbe74
+      - s-c1c4222f66
+      - s-1d9bf4af66
+      - s-0a04dec8fd
+      - s-178923f210
+      - s-b8d77d3403
+      - s-5508563d74
+      - s-05b0aa2f97
+      - s-57f6a066ca

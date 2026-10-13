@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis pseudodorsalis
+  displayName: Platymantis pseudodorsalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSRG
+  sourceIndexes:
+    - name:
+        en: Platymantis pseudodorsalis
+        zh: Platymantis pseudodorsalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSRG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/395
+            queryName: Platymantis pseudodorsalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-27f51a145c
+      - s-a5c8bf8fe6
+      - s-8d44a4dc0e
+      - s-05f3c54c27
+      - s-b811af4448
+      - s-957f2be8f1
+      - s-5c73045374
+      - s-e9efe8c1ab
+      - s-902008d190
+    zh:
+      - s-3ae2f607f7
+      - s-c60636522c
+      - s-61f06c2010
+      - s-0575cc336b
+      - s-49b609f0bb
+      - s-576d0c63f5
+      - s-cc427a07cd
+      - s-5fda4e1ff2
+      - s-63c862af76

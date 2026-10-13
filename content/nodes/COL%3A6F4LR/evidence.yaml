@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eleutherodactylus campi (Stejneger, 1915)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Eleutherodactylus campi
+      zh: Eleutherodactylus campi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-443120cc9b
+            part: title
+          zh:
+            page: zh
+            section: s-e34ff1d089
+            part: title
+        text:
+          en:
+            page: en
+            section: s-443120cc9b
+            part: body
+          zh:
+            page: zh
+            section: s-e34ff1d089
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ef519e6ed5
+            part: title
+          zh:
+            page: zh
+            section: s-f38464d14d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ef519e6ed5
+            part: body
+          zh:
+            page: zh
+            section: s-f38464d14d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-80978f2da9
+            part: title
+          zh:
+            page: zh
+            section: s-8c7491d58f
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-80978f2da9
+            part: body
+          zh:
+            page: zh
+            section: s-8c7491d58f
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-6cecfad554
+            part: body
+          zh:
+            page: zh
+            section: s-0eb0f8b996
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Eleutherodactylus campi
+          url: https://www.checklistbank.org/dataset/316115/taxon/6F4LR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 776240, row 525005; Distribution.tsv rows 196480, 196481; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2aa035483a
+        part: body
+      zh:
+        page: zh
+        section: s-cb6c1764d0
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "776240"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=776240
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 525005
+        key: "776240"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "776240"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 196480
+            key: 776240|Middle America|text|NULL|NULL
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "776240"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 196481
+            key: 776240|North America|text|NULL|NULL

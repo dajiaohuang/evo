@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus uluguruensis
+  displayName: Afrixalus uluguruensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G7F
+  sourceIndexes:
+    - name:
+        en: Afrixalus uluguruensis
+        zh: Afrixalus uluguruensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G7F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/88
+            queryName: Afrixalus uluguruensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/285
+            queryName: Megalixalus uluguruensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ec9d633aa4
+      - s-7cf63da692
+      - s-e394764f02
+      - s-f4ba11ed33
+      - s-2c0fb06ac5
+      - s-4a6196be02
+      - s-b450907bbd
+      - s-10da0f35b1
+      - s-e067358cc0
+      - s-93792b0d2d
+      - s-d13cbdda8c
+      - s-d5df1dea05
+      - s-ff2477cf76
+    zh:
+      - s-3ae8537503
+      - s-b855e045bb
+      - s-e823cac2cb
+      - s-05ce135037
+      - s-16fe040aea
+      - s-22ea6973ad
+      - s-42a109c97f
+      - s-741edf829b
+      - s-78812a2ab3
+      - s-5b4692b694
+      - s-b713c39703
+      - s-11a9e2d6b0
+      - s-e6d6440f76

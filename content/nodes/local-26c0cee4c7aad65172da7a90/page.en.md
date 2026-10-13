@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-b98d41c1fc}
+The version 3 Amphibian database lists Amolops nyingchiensis in a source measurement table. Its classification fields read order = Anura, family = Ranidae, genus = Amolops; the linked citation is in Reference.csv row 3768. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-069175c33e}
+Anura.csv rows 289, 290 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 289 (F) = 66.1, row 290 (M) = 55.8; HL: row 289 (F) = 23.3, row 290 (M) = 19.3; HW: row 289 (F) = 22.6, row 290 (M) = 18.5; other populated codes are ED, TD, IOD, IND, UEW, SL, HAL, FLL, FL, TFL, TL, THL, … (13 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

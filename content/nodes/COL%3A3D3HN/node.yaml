@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea sosorum
+  displayName: Eurycea sosorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3HN
+  sourceIndexes:
+    - name:
+        en: Eurycea sosorum
+        zh: Eurycea sosorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3HN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/432
+            queryName: Eurycea sosorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ea3de1067
+      - s-7bdd45e11c
+      - s-3849bad3a2
+      - s-467696585a
+      - s-747d17151f
+      - s-b3e4d9d24f
+      - s-23b6d87593
+      - s-2185b156c5
+      - s-e3498e501d
+      - s-a1136a3e12
+    zh:
+      - s-0c5ff985ea
+      - s-a5cd13d614
+      - s-e12fa1397d
+      - s-5d4fd45b86
+      - s-27b9f2d0de
+      - s-2a8162bc9d
+      - s-696872933f
+      - s-96917ca418
+      - s-b0b84d7e82
+      - s-4eabbd0b6f

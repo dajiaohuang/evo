@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus rungwensis
+  displayName: Phrynobatrachus rungwensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VDNW
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus rungwensis
+        zh: Phrynobatrachus rungwensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VDNW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/169
+            queryName: Phrynobatrachus rungwensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/360
+            queryName: Arthroleptis rungwensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c817b70bdb
+      - s-1ca06fa86d
+      - s-8adf6850f6
+      - s-96a8c23479
+      - s-27f2f9a539
+      - s-8379f91c9a
+      - s-64edcee758
+      - s-ed7645f0f7
+    zh:
+      - s-e8eeced5d0
+      - s-93a3e5efb5
+      - s-13ca7379ff
+      - s-bf68769003
+      - s-db164cb7a7
+      - s-003090e963
+      - s-5bf654f4b5
+      - s-e10a9cd24c

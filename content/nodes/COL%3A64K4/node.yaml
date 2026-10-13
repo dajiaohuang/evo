@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Noblella
+  displayName: Noblella
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/64K4
+  sourceIndexes:
+    - name:
+        en: Noblella
+        zh: Noblella
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 64K4
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/89
+            queryName: Noblella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 35
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ab0992d112
+      - s-adc7cbde30
+      - s-525c2ceb8c
+      - s-d87f3b7725
+      - s-50bf5afa9b
+      - s-f626818252
+      - s-efb4874456
+      - s-9a8dd35da2
+      - s-dcfe502c37
+      - s-91b9c86a80
+      - s-789d08cd94
+      - s-797c61286d
+    zh:
+      - s-810fd48cec
+      - s-ca5ff25c7b
+      - s-7a9e1bd524
+      - s-d12bd6d350
+      - s-1a2001f7e1
+      - s-bf60d5b48f
+      - s-e5544ee854
+      - s-ca21bd30e8
+      - s-26de1308b9
+      - s-93ffca85a7
+      - s-49855e3b1d
+      - s-32ae037fff

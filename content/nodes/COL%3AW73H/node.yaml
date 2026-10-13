@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Clinotarsus alticola
+  displayName: Clinotarsus alticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/W73H
+  sourceIndexes:
+    - name:
+        en: Clinotarsus alticola
+        zh: Clinotarsus alticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: W73H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/373
+            queryName: Clinotarsus alticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/55
+            queryName: Rana alticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/166
+            queryName: Hylorana pipiens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/167
+            queryName: Hylarana pipiens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/168
+            queryName: Hylorana alticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/169
+            queryName: Hylarana alticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/170
+            queryName: Nasirana alticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de8d0abcc3
+      - s-b4428452c6
+      - s-4157856742
+      - s-b62c507ac3
+      - s-d073553b20
+      - s-242fa84cbf
+      - s-b00ddb65e4
+      - s-d8e3508232
+      - s-fe22b2bd61
+      - s-1c30fb9ad4
+      - s-eb1d96db66
+    zh:
+      - s-17f3dc1465
+      - s-d8a68b9ffc
+      - s-54af1addac
+      - s-6eedf42557
+      - s-18b0d77e7e
+      - s-6cbf7a6ccf
+      - s-b8be819332
+      - s-8ed76a2e7f
+      - s-42196a41c0
+      - s-ef1044ec03
+      - s-61eb5a438a

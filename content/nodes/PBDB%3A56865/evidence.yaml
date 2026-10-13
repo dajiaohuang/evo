@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dicynodontoides recurvidens
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Dicynodontoides recurvidens
+      en: Dicynodontoides recurvidens
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-029d5ccb77
+            part: body
+          en:
+            page: en
+            section: s-35f31df829
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1e94e9ec3e
+            part: body
+          en:
+            page: en
+            section: s-3542162c92
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-19772f5a73
+            part: body
+          en:
+            page: en
+            section: s-b0a991b310
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cf93373c67
+            part: body
+          en:
+            page: en
+            section: s-fb8b58d7ec
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8633fd726d
+            part: body
+          en:
+            page: en
+            section: s-12b0dc0228
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Dicynodontoides recurvidens
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=56865&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:56865; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:56865
+          selectedOccurrenceIds:
+            - occ:1285179
+            - occ:1305525
+            - occ:1314182
+            - occ:1317157
+            - occ:1317306
+            - occ:1317416
+            - occ:1418589
+          selectedCollectionIds:
+            - col:171146
+            - col:174747
+            - col:176336
+            - col:176830
+            - col:176916
+            - col:176919
+            - col:117183
+          sourceReferenceIds:
+            - ref:57014
+            - ref:29040
+            - ref:27202
+            - ref:37476
+            - ref:58370
+            - ref:66836
+          originalIdentificationMappings:
+            - occurrenceId: occ:1285179
+              originalIdentifiedName: Dicynodon duvenhagei n. sp.
+              acceptedName: Dicynodontoides recurvidens
+              difference: null
+            - occurrenceId: occ:1305525
+              originalIdentifiedName: Dicynodon recurvidens n. sp.
+              acceptedName: Dicynodontoides recurvidens
+              difference: recombined as
+            - occurrenceId: occ:1314182
+              originalIdentifiedName: Dicynodontoides parringtoni n. sp.
+              acceptedName: Dicynodontoides recurvidens
+              difference: null
+            - occurrenceId: occ:1317157
+              originalIdentifiedName: Udenodon gracilis n. sp.
+              acceptedName: Dicynodontoides recurvidens
+              difference: null
+            - occurrenceId: occ:1317306
+              originalIdentifiedName: Dicynodon clarencei n. sp.
+              acceptedName: Dicynodontoides recurvidens
+              difference: null
+            - occurrenceId: occ:1317416
+              originalIdentifiedName: Dicynodon howardi n. sp.
+              acceptedName: Dicynodontoides recurvidens
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e19443914a
+        part: body
+      en:
+        page: en
+        section: s-d8fa01bee2
+        part: body

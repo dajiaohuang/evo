@@ -1,0 +1,176 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leiosauridae
+    rank: family
+    sourceDatasetId: "1008"
+    name:
+      zh: Leiosauridae
+      en: Leiosauridae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-94c3571d7d
+            part: body
+          en:
+            page: en
+            section: s-ba0c87f559
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-3143bf238c
+            part: body
+          en:
+            page: en
+            section: s-efb500f695
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-fe0c1c8abf
+            part: body
+          en:
+            page: en
+            section: s-3d355401f8
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-4b2f18fe31
+            part: body
+          en:
+            page: en
+            section: s-d8c157f38a
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-11e9f55201
+            part: body
+          en:
+            page: en
+            section: s-66baf99a97
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leiosauridae
+          url: https://www.checklistbank.org/dataset/316115/taxon/624XS
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 32 authored records grouped under Leiosauridae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 3 authored records grouped under Leiosauridae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 8GPPQ
+              name: Enyalius capetinga
+              canonicalPath: content/nodes/COL%3A8GPPQ
+            - colId: C8MCK
+              name: Urostrophus chungarae
+              canonicalPath: content/nodes/COL%3AC8MCK
+            - colId: C8MCQ
+              name: Urostrophus undulatus
+              canonicalPath: content/nodes/COL%3AC8MCQ
+          fieldCountDistribution:
+            "2": 3
+    limitations:
+      zh:
+        page: zh
+        section: s-e0aa189067
+        part: body
+      en:
+        page: en
+        section: s-f37caed6f8
+        part: body

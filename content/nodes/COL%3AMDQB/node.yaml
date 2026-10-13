@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa lignicolor
+  displayName: Bolitoglossa lignicolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDQB
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa lignicolor
+        zh: Bolitoglossa lignicolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDQB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/142
+            queryName: Bolitoglossa lignicolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/225
+            queryName: Spelerpes lignicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/226
+            queryName: Spelerpes punctatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/227
+            queryName: Spelerpes punctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/228
+            queryName: Oedipus lignicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/229
+            queryName: Oedipus ahli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/230
+            queryName: Bolitoglossa ahli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/231
+            queryName: Bolitoglossa palustris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb3ccc9cfd
+      - s-177f024438
+      - s-6853fc9b17
+      - s-6b70058f44
+      - s-2adab4cd5a
+      - s-8e5b996622
+      - s-fab8c14803
+      - s-b931d24a7e
+    zh:
+      - s-2c19906f80
+      - s-6e56fcc6a0
+      - s-ae8ef21381
+      - s-da3bcf4e3f
+      - s-ae8ecbf677
+      - s-1e1a1e6042
+      - s-e02e8d8d2e
+      - s-f46b94f7b7

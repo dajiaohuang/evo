@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nymphargus mixomaculatus
+    name:
+      en: Nymphargus mixomaculatus
+      zh: Nymphargus mixomaculatus
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Nymphargus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2c974fe1ff
+            part: body
+          zh:
+            page: zh
+            section: s-d538f27913
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6fbab3c41d
+            part: body
+          zh:
+            page: zh
+            section: s-7b936f2e6d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3684, 3685; Reference.csv rows 942
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3684
+        values:
+          - Centrolenidae
+          - Nymphargus
+          - Nymphargus mixomaculatus
+          - F
+          - "26.3"
+          - "7.6"
+          - "8.8"
+          - "3.3"
+          - "0.7"
+          - "1.6"
+          - "3.1"
+          - "2.1"
+          - "2.1"
+          - "1.9"
+          - "3.1"
+          - NA
+          - "8.2"
+          - "6.1"
+          - NA
+          - "12.6"
+          - NA
+          - "14.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3685
+        values:
+          - Centrolenidae
+          - Nymphargus
+          - Nymphargus mixomaculatus
+          - M
+          - "23.68"
+          - "7.32"
+          - "8.3"
+          - "2.78"
+          - "0.78"
+          - "1.36"
+          - "2.9"
+          - "1.98"
+          - "1.84"
+          - "1.8"
+          - "3.06"
+          - NA
+          - "7.92"
+          - "5.64"
+          - NA
+          - "11.48"
+          - NA
+          - "13.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.72"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 942
+        values:
+          - Anura
+          - Nymphargus_mixomaculatus
+          - "Guayasamin, J. M., Lehr, E., Rodríguez, D., & Aguilar, C. (2006). A new species of glass frog (Centrolenidae: Cochranella Ocellata Group) from Central Peru. Herpetologica, 62(2), 163-172. https://doi.org/10.1655/05-21.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - Fin1L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 486JV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

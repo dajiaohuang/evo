@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus riparius
+  displayName: Eleutherodactylus riparius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399PD
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus riparius
+        zh: Eleutherodactylus riparius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399PD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/312
+            queryName: Eleutherodactylus riparius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/60
+            queryName: Euhyas riparia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-14a33490f7
+      - s-878cfd2440
+      - s-d5b9b95332
+      - s-27164ab053
+      - s-8d9148db76
+      - s-97e1aa9801
+      - s-d1b0fa53f4
+      - s-7a0a4d770f
+      - s-d9145d7868
+    zh:
+      - s-ca890b3ab9
+      - s-68bb444a6b
+      - s-9558074705
+      - s-0e2074a97b
+      - s-8147063147
+      - s-7623a953fa
+      - s-740df6c850
+      - s-cc4d8bbbcc
+      - s-efd1a57b7c

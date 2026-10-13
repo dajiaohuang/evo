@@ -1,0 +1,663 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caecilia gracilis Shaw, 1802
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Caecilia gracilis
+      zh: Caecilia gracilis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-be40360b0c
+            part: title
+          zh:
+            page: zh
+            section: s-8dc9396bbf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-be40360b0c
+            part: body
+          zh:
+            page: zh
+            section: s-8dc9396bbf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e6921600ea
+            part: title
+          zh:
+            page: zh
+            section: s-37e3f219b5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e6921600ea
+            part: body
+          zh:
+            page: zh
+            section: s-37e3f219b5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1b9c238c6d
+            part: title
+          zh:
+            page: zh
+            section: s-ed041909df
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-1b9c238c6d
+            part: body
+          zh:
+            page: zh
+            section: s-ed041909df
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9e0adbc8a5
+            part: title
+          zh:
+            page: zh
+            section: s-9cf40aeeec
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-9e0adbc8a5
+            part: body
+          zh:
+            page: zh
+            section: s-9cf40aeeec
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d0877ef5a7
+            part: title
+          zh:
+            page: zh
+            section: s-cf37204332
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-d0877ef5a7
+            part: body
+          zh:
+            page: zh
+            section: s-cf37204332
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-51f1a3648a
+            part: title
+          zh:
+            page: zh
+            section: s-be44a6ff92
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-51f1a3648a
+            part: body
+          zh:
+            page: zh
+            section: s-be44a6ff92
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d7ddc0eee7
+            part: title
+          zh:
+            page: zh
+            section: s-b476294a93
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - caeciliantraits
+          - amphibian-morphology
+          - huang-2023-methods
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-d7ddc0eee7
+            part: body
+          zh:
+            page: zh
+            section: s-b476294a93
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-e00ee813fce796f316896cf3644fd447
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-37e03567c7f48a2f9eb642c1
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-83b606d8775bcc68b0044b38
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1144f0d61a
+            part: title
+          zh:
+            page: zh
+            section: s-f17011ec22
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-1144f0d61a
+            part: body
+          zh:
+            page: zh
+            section: s-f17011ec22
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-61fba3fbbd
+            part: title
+          zh:
+            page: zh
+            section: s-d8c411293a
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-61fba3fbbd
+            part: body
+          zh:
+            page: zh
+            section: s-d8c411293a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8790bfee6e
+            part: title
+          zh:
+            page: zh
+            section: s-933580c9cb
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-8790bfee6e
+            part: body
+          zh:
+            page: zh
+            section: s-933580c9cb
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c1ffb7de48
+            part: title
+          zh:
+            page: zh
+            section: s-9296a347d4
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c1ffb7de48
+            part: body
+          zh:
+            page: zh
+            section: s-9296a347d4
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        sourceReaderKind: additional-deposited-traits
+        title:
+          en:
+            page: en
+            section: s-c136e96557
+            part: title
+          zh:
+            page: zh
+            section: s-5a090b1b53
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-c136e96557
+            part: body
+          zh:
+            page: zh
+            section: s-5a090b1b53
+            part: body
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-96fc36be2a
+            part: title
+          zh:
+            page: zh
+            section: s-dddc9326ff
+            part: title
+        sourceIds:
+          - primary-pmc12654886-p7sm
+        text:
+          en:
+            page: en
+            section: s-96fc36be2a
+            part: body
+          zh:
+            page: zh
+            section: s-dddc9326ff
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-80e49c8041
+            part: title
+          zh:
+            page: zh
+            section: s-01407d623e
+            part: title
+        sourceIds:
+          - primary-pmc12654886-p7sm
+        text:
+          en:
+            page: en
+            section: s-80e49c8041
+            part: body
+          zh:
+            page: zh
+            section: s-01407d623e
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-484cd147e5
+            part: title
+          zh:
+            page: zh
+            section: s-b4d91af5e6
+            part: title
+        sourceIds:
+          - primary-pmc12654886-p7sm
+        text:
+          en:
+            page: en
+            section: s-484cd147e5
+            part: body
+          zh:
+            page: zh
+            section: s-b4d91af5e6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Caecilia gracilis
+          url: https://www.checklistbank.org/dataset/316115/taxon/P7SM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6613; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6608 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 19; Individual level data rows 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1387, 1388, 1389, 1390, 1391, 1392, 1393, 1394; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 20; Reference.csv rows 4324
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+      - id: primary-pmc12654886-p7sm
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Caecilia gracilis: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d37404a19e
+        part: body
+      zh:
+        page: zh
+        section: s-05ab5122f0
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-e00ee813fce796f316896cf3644fd447
+      sourceRowId: Anf6613
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6613
+        bibliographyRowId: Anf6608
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Caecilia marcusi
+        candidateBibliographyRowIds:
+          - Anf6608
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: caecilian-traits-reader
+        path: content/nodes/local-37e03567c7f48a2f9eb642c1
+        scientificName: Caecilia gracilis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 3
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-83b606d8775bcc68b0044b38
+        scientificName: Caecilia gracilis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-p7sm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Mixed historic/recent regional source-labelled Caecilia gracilis, exact-name frozenCOLcandidate notspecimen-certified concept
+        evidenceRead: "Caecilia gracilis: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-p7sm
+            locator: PMC12654886 S3_Table.pdf page3 speciesrow21 Caecilia gracilis fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fa03231f72
+                part: body
+              zh:
+                page: zh
+                section: s-736e803b82
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-p7sm
+            locator: PMC12654886 S3_Table.pdf page3 speciesrow21 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-715cbf1279
+                part: body
+              zh:
+                page: zh
+                section: s-03d3d64c53
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-p7sm
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e73c247a28
+                part: body
+              zh:
+                page: zh
+                section: s-aee8b083c5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

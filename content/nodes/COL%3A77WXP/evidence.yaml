@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Presbytis canicrus Miller, 1934
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 米勒叶猴
+      en: Miller's Langur
+    sections:
+      - topic: distribution_habitat
+        text:
+          zh:
+            page: zh
+            section: s-dcd73bfcc5
+            part: body
+          en:
+            page: en
+            section: s-db852fc74e
+            part: body
+        sourceIds:
+          - taxonomy
+          - lhota2012
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-681e237cc4
+            part: body
+          en:
+            page: en
+            section: s-8cd4e048d2
+            part: body
+        sourceIds:
+          - lhota2012
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Presbytis canicrus Miller, 1934
+          url: https://www.checklistbank.org/dataset/316115/taxon/77WXP
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-46410ed6-e7ac-8697-af38-916aa158cd5c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页采用的英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine the COL26.8 accepted classification.
+      - id: lhota2012
+        referenceId: ref-bd17d687-5743-8915-ae36-83bf20c0f655
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 2011 年 Wehea 两处矿物泉点的直接观察和相机记录；论文使用旧组合 P. hosei canicrus，研究不是丰度普查。
+            en: Supports direct observations and camera records at two Wehea mineral springs in 2011; the paper used the older combination P. hosei canicrus and was not an abundance survey.
+    limitations:
+      zh:
+        page: zh
+        section: s-3edd5d366a
+        part: body
+      en:
+        page: en
+        section: s-288631d431
+        part: body

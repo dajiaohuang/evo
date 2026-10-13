@@ -1,0 +1,148 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithodytes lineatus
+  displayName: Lithodytes lineatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VKMP
+  sourceIndexes:
+    - name:
+        en: Lithodytes lineatus
+        zh: Lithodytes lineatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VKMP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/205
+            queryName: Lithodytes lineatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/244
+            queryName: Leptodactylus hemidactyloides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/329
+            queryName: Leptodactylus lineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/5
+            queryName: Rana lineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/6
+            queryName: Rana castanea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/7
+            queryName: Bufo albonotatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/388
+            queryName: Rana schneideri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/389
+            queryName: Bufo albonatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-57037ece57
+      - s-75bd21a58b
+      - s-49c4450a87
+      - s-9624d6c29a
+      - s-a673d6ca5f
+      - s-80c925dedc
+      - s-e4e761505b
+      - s-34c1babc0a
+      - s-c510228420
+      - s-0267989492
+      - s-45c3cc4cf2
+      - s-d2fc59b653
+      - s-6137dd003f
+      - s-cc3169e5d4
+      - s-6d5db85f07
+      - s-a1408fb957
+      - s-3e217aab11
+      - s-5733768859
+      - s-03d5c4f723
+      - s-99f4c16987
+      - s-ec5d1e01d4
+      - s-cf29735887
+      - s-12663eec91
+      - s-603d268d05
+      - s-e29964811b
+      - s-3f13fa9124
+      - s-f8e98de764
+      - s-c0bcaebef3
+      - s-cab4ceeba3
+      - s-57428f06aa
+    zh:
+      - s-f77285f946
+      - s-32e76b0c4d
+      - s-21bb2e7195
+      - s-9d0727b46e
+      - s-b8df428d34
+      - s-0393bb778b
+      - s-6399485ee2
+      - s-9b4969dc6a
+      - s-0bd05cfa59
+      - s-221e751db2
+      - s-3a60680869
+      - s-116eb683e5
+      - s-efd30012e4
+      - s-2866a918df
+      - s-0a974609bc
+      - s-6eebea0f11
+      - s-c3162a1ba4
+      - s-af084f2719
+      - s-0fc7456f6a
+      - s-ce7c32031c
+      - s-31d2091b1c
+      - s-c381ba25c1
+      - s-26e34bac48
+      - s-53c9a8274b
+      - s-77aca5057c
+      - s-5ceed31711
+      - s-037c4beb4a
+      - s-2bdbeda4b2
+      - s-b0faeefc95
+      - s-3ee8e43463

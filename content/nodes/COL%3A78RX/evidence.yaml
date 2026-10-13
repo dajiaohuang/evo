@@ -1,0 +1,394 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinophrynus Duméril & Bibron, 1841
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Rhinophrynus
+      zh: Rhinophrynus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-efdac75f7b
+            part: title
+          zh:
+            page: zh
+            section: s-516a5558ff
+            part: title
+        text:
+          en:
+            page: en
+            section: s-efdac75f7b
+            part: body
+          zh:
+            page: zh
+            section: s-516a5558ff
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a7cbb740e3
+            part: title
+          zh:
+            page: zh
+            section: s-6ad60b26f2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a7cbb740e3
+            part: body
+          zh:
+            page: zh
+            section: s-6ad60b26f2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c1419e1ad3
+            part: title
+          zh:
+            page: zh
+            section: s-3065f25b87
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c1419e1ad3
+            part: body
+          zh:
+            page: zh
+            section: s-3065f25b87
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-8a0a9267d8
+            part: title
+          zh:
+            page: zh
+            section: s-dee0efc806
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8a0a9267d8
+            part: body
+          zh:
+            page: zh
+            section: s-dee0efc806
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-5e47f778bd
+            part: title
+          zh:
+            page: zh
+            section: s-0ba929fcd6
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4S9LS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4S9LS
+            label:
+              en: Rhinophrynus dorsalis
+              zh: Rhinophrynus dorsalis
+        text:
+          en:
+            page: en
+            section: s-5e47f778bd
+            part: body
+          zh:
+            page: zh
+            section: s-0ba929fcd6
+            part: body
+      - topic: evolution
+        sourceIds:
+          - primary-direct-group-pmc12822217-78rx
+        title:
+          en:
+            page: en
+            section: s-c156ebdf8a
+            part: title
+          zh:
+            page: zh
+            section: s-031974b87b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c156ebdf8a
+            part: body
+          zh:
+            page: zh
+            section: s-031974b87b
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc12822217-78rx
+        title:
+          en:
+            page: en
+            section: s-1011b71cd9
+            part: title
+          zh:
+            page: zh
+            section: s-2960c985fe
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1011b71cd9
+            part: body
+          zh:
+            page: zh
+            section: s-2960c985fe
+            part: body
+      - topic: evolution
+        sourceIds:
+          - primary-direct-group-pmc12822217-78rx
+        title:
+          en:
+            page: en
+            section: s-b585a91c11
+            part: title
+          zh:
+            page: zh
+            section: s-8d2f1a9927
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b585a91c11
+            part: body
+          zh:
+            page: zh
+            section: s-8d2f1a9927
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc12822217-78rx
+        title:
+          en:
+            page: en
+            section: s-9d008d1653
+            part: title
+          zh:
+            page: zh
+            section: s-8d594631ae
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4S9LS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4S9LS
+            label:
+              en: Rhinophrynus dorsalis
+              zh: Rhinophrynus dorsalis
+        text:
+          en:
+            page: en
+            section: s-9d008d1653
+            part: body
+          zh:
+            page: zh
+            section: s-8d594631ae
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhinophrynus
+          url: https://www.checklistbank.org/dataset/316115/taxon/78RX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Rhinophrynus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc12822217-78rx
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rhinophrynus dorsalis: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected Rhinophrynus assemblies and genome-study limits; no uniform genus genome phenotype or verified current TE activity
+            zh: 选定 Rhinophrynus 组装及基因组研究限制；无统一全属基因组表型或已验证当前 TE 活动
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0466db1fb6
+        part: body
+      zh:
+        page: zh
+        section: s-f6f2e04b28
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Rhinophrynus
+      sourceRowIds:
+        - Anf5383
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1186/s12864-025-12414-y
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        sourceKey: primary-direct-group-pmc12822217-78rx
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/article.xml
+        sourceConcept: Selected Rhinophrynus Table1 assembly summaries; supplementary identityconflicts prevent quantitative trait assignment
+        evidenceRead: "Rhinophrynus dorsalis: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Selected reference assemblies and their scope
+              zh: 选定参考组装及其范围
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-direct-group-pmc12822217-78rx
+            locator: PMC12822217 XML Tab1 tbody rows58
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-be1b121f5d
+                part: body
+              zh:
+                page: zh
+                section: s-9dc70c456d
+                part: body
+            scope:
+              en: Selected Rhinophrynus assemblies and genome-study limits; no uniform genus genome phenotype or verified current TE activity
+              zh: 选定 Rhinophrynus 组装及基因组研究限制；无统一全属基因组表型或已验证当前 TE 活动
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Repeat-data identifiers require reconciliation
+              zh: 重复数据编号需要澄清
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-direct-group-pmc12822217-78rx
+            locator: PMC12822217 Tab1; workbookTableS1allrows/S2/S3headers; species-specific conflict ledger
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ecf24ddb89
+                part: body
+              zh:
+                page: zh
+                section: s-671539ca3f
+                part: body
+            scope:
+              en: Selected Rhinophrynus assemblies and genome-study limits; no uniform genus genome phenotype or verified current TE activity
+              zh: 选定 Rhinophrynus 组装及基因组研究限制；无统一全属基因组表型或已验证当前 TE 活动
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Comparative models and proposed mechanisms
+              zh: 比较模型及提出的机制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-direct-group-pmc12822217-78rx
+            locator: PMC12822217 XMLSec5–8/Sec11–15/Sec17–20;Tables2–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1f573e37a0
+                part: body
+              zh:
+                page: zh
+                section: s-ac203b2d82
+                part: body
+            scope:
+              en: Selected Rhinophrynus assemblies and genome-study limits; no uniform genus genome phenotype or verified current TE activity
+              zh: 选定 Rhinophrynus 组装及基因组研究限制；无统一全属基因组表型或已验证当前 TE 活动
+    primaryResearchGroupSynthesisComplete: false

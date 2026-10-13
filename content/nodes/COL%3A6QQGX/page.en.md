@@ -1,0 +1,3 @@
+## ## Spiny stipules and smooth samaras {#s-01d2bef192}
+The Brazilian Flora 2020 entry describes cylindrical branches with spines and spine-tipped stipules. Its oblong leaflets have brochidodromous veins, blunt or notched tips, and bases recorded as rounded, wedge-shaped, oblique or blunt. The leaflet surfaces may be becoming hairless or retain hairs. Panicles occur in leaf axils or at shoot tips and bear leaf-like bracts. The flowers have a bell-shaped calyx, white petals and a hairy standard; the stamens are recorded as united in one bundle. The fruit is a samara with a smooth seed-bearing region. This is a regional flora description, and its listed alternatives do not quantify variation across the species.
+

@@ -1,0 +1,222 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oreobates gemcare Padial, Chaparro, Castroviejo-Fisher, Guayasamin, Lehr, Delgado, Vaira, Teixeira et al., 2012
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Oreobates gemcare
+      zh: Oreobates gemcare
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-10debc642a
+            part: title
+          zh:
+            page: zh
+            section: s-6ea4bd8510
+            part: title
+        text:
+          en:
+            page: en
+            section: s-10debc642a
+            part: body
+          zh:
+            page: zh
+            section: s-6ea4bd8510
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-75fd50448c
+            part: title
+          zh:
+            page: zh
+            section: s-e5f8fbfad5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-75fd50448c
+            part: body
+          zh:
+            page: zh
+            section: s-e5f8fbfad5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4ee8dccb2c
+            part: title
+          zh:
+            page: zh
+            section: s-08b7001291
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-4ee8dccb2c
+            part: body
+          zh:
+            page: zh
+            section: s-08b7001291
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-7e0af4b06c7c8b0788d70756
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-eb5c44f08f4e6dbe9fb95d65
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2d487c7d35
+            part: title
+          zh:
+            page: zh
+            section: s-d99ecfccd6
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "850"
+        text:
+          en:
+            page: en
+            section: s-2d487c7d35
+            part: body
+          zh:
+            page: zh
+            section: s-d99ecfccd6
+            part: body
+        sourceRowNumber: 753
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f0754cf6b7
+            part: body
+          zh:
+            page: zh
+            section: s-ec0b0eecff
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Oreobates gemcare
+          url: https://www.checklistbank.org/dataset/316115/taxon/74SPG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3827, 3828; Reference.csv rows 1769
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 753, 4308; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-54c46920e8
+        part: body
+      zh:
+        page: zh
+        section: s-15a739a943
+        part: body
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-eb5c44f08f4e6dbe9fb95d65
+        scientificName: Oreobates gemcare
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

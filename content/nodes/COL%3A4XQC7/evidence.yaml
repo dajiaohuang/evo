@@ -1,0 +1,503 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Siphonops annulatus (Mikan, 1822)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Siphonops annulatus
+      zh: Siphonops annulatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d5f9d1cedb
+            part: title
+          zh:
+            page: zh
+            section: s-56e812e7d8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d5f9d1cedb
+            part: body
+          zh:
+            page: zh
+            section: s-56e812e7d8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b34d3715ad
+            part: title
+          zh:
+            page: zh
+            section: s-ba413b0906
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b34d3715ad
+            part: body
+          zh:
+            page: zh
+            section: s-ba413b0906
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cd4772a186
+            part: title
+          zh:
+            page: zh
+            section: s-c5a1f12002
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - caeciliantraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-cd4772a186
+            part: body
+          zh:
+            page: zh
+            section: s-c5a1f12002
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-80c1ad34e60ddc50f2b779ff903019fc
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-9262a073430393a99430a58b
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bde46bd424
+            part: title
+          zh:
+            page: zh
+            section: s-77e1673f7a
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-bde46bd424
+            part: body
+          zh:
+            page: zh
+            section: s-77e1673f7a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7aa6758405
+            part: title
+          zh:
+            page: zh
+            section: s-49db5c19ce
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-7aa6758405
+            part: body
+          zh:
+            page: zh
+            section: s-49db5c19ce
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-4b716f0f1d
+            part: title
+          zh:
+            page: zh
+            section: s-92b64269d2
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-4b716f0f1d
+            part: body
+          zh:
+            page: zh
+            section: s-92b64269d2
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3e144241e7
+            part: title
+          zh:
+            page: zh
+            section: s-510e16f393
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-3e144241e7
+            part: body
+          zh:
+            page: zh
+            section: s-510e16f393
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en:
+            page: en
+            section: s-7ed2102a65
+            part: title
+          zh:
+            page: zh
+            section: s-6448eb686e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7ed2102a65
+            part: body
+          zh:
+            page: zh
+            section: s-6448eb686e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        sourceField: clutch-counts
+        sourceIds:
+          - caeciliantraits
+        title:
+          en:
+            page: en
+            section: s-82a1b9c1ac
+            part: title
+          zh:
+            page: zh
+            section: s-b20c2ed732
+            part: title
+        text:
+          en:
+            page: en
+            section: s-82a1b9c1ac
+            part: body
+          zh:
+            page: zh
+            section: s-b20c2ed732
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-e54d38ff51
+            part: title
+          zh:
+            page: zh
+            section: s-a849a1ed28
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4xqc7
+        text:
+          en:
+            page: en
+            section: s-e54d38ff51
+            part: body
+          zh:
+            page: zh
+            section: s-a849a1ed28
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0e56b21fb5
+            part: title
+          zh:
+            page: zh
+            section: s-c99649572f
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4xqc7
+        text:
+          en:
+            page: en
+            section: s-0e56b21fb5
+            part: body
+          zh:
+            page: zh
+            section: s-c99649572f
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-d8eabd872e
+            part: title
+          zh:
+            page: zh
+            section: s-979bf89e20
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4xqc7
+        text:
+          en:
+            page: en
+            section: s-d8eabd872e
+            part: body
+          zh:
+            page: zh
+            section: s-979bf89e20
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Siphonops annulatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4XQC7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 206; Individual level data rows 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6691; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6686 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12654886-4xqc7
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Siphonops annulatus: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-70d74233aa
+        part: body
+      zh:
+        page: zh
+        section: s-739c251210
+        part: body
+    additionalTraitSources:
+      - kind: caecilian-traits-reader
+        path: content/nodes/local-9262a073430393a99430a58b
+        scientificName: Siphonops annulatus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 6
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-4xqc7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Mixed historic/recent regional source-labelled Siphonops annulatus, exact-name frozenCOLcandidate notspecimen-certified concept
+        evidenceRead: "Siphonops annulatus: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4xqc7
+            locator: PMC12654886 S3_Table.pdf page3 speciesrow24 Siphonops annulatus fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9d4ad7c2e3
+                part: body
+              zh:
+                page: zh
+                section: s-806fb9511b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4xqc7
+            locator: PMC12654886 S3_Table.pdf page3 speciesrow24 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e99af0320b
+                part: body
+              zh:
+                page: zh
+                section: s-8c2a5b1a84
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4xqc7
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-57fc442c75
+                part: body
+              zh:
+                page: zh
+                section: s-491a16c7ab
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

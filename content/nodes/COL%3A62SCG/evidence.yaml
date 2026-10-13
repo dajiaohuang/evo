@@ -1,0 +1,314 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eliurus
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Eliurus
+      en: Eliurus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-ffd94a3f2a
+            part: body
+          en:
+            page: en
+            section: s-ee0c7a8217
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-18b244971e
+            part: body
+          en:
+            page: en
+            section: s-21552981a1
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bed6064437
+            part: body
+          en:
+            page: en
+            section: s-6dbe1547db
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-473c1f05b2
+            part: body
+          en:
+            page: en
+            section: s-fce72c4e71
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-2515c1e959
+            part: body
+          en:
+            page: en
+            section: s-d2ef885dcc
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-1826785a8c
+            part: body
+          en:
+            page: en
+            section: s-5af7692a3e
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-893ea21e5e
+            part: body
+          en:
+            page: en
+            section: s-16975e4579
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Eliurus
+          url: https://www.checklistbank.org/dataset/316115/taxon/62SCG
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Eliurus by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 6 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 6
+            foraging: 6
+            activity: 6
+          readingTargets:
+            - name: Eliurus penicillatus
+              colId: 6F5NS
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NS
+            - name: Eliurus myoxinus
+              colId: 6F5NT
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NT
+            - name: Eliurus minor
+              colId: 6F5NQ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NQ
+            - name: Eliurus webbi
+              colId: 6F5NW
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NW
+            - name: Eliurus majori
+              colId: 6F5NR
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NR
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 4 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 0
+            foraging: 4
+            activity: 0
+          readingTargets:
+            - name: Eliurus antsingy
+              colId: 6F5ML
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5ML
+            - name: Eliurus petteri
+              colId: 6F5NV
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NV
+            - name: Eliurus grandidieri
+              colId: 6F5NY
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NY
+            - name: Eliurus ellermani
+              colId: 6F5NZ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NZ
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 5 authored entries grouped under Eliurus by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 6F5NR
+              name: Eliurus majori
+              canonicalPath: content/nodes/COL%3A6F5NR
+            - colId: 6F5NQ
+              name: Eliurus minor
+              canonicalPath: content/nodes/COL%3A6F5NQ
+            - colId: 6F5NS
+              name: Eliurus penicillatus
+              canonicalPath: content/nodes/COL%3A6F5NS
+            - colId: 6F5NX
+              name: Eliurus tanala
+              canonicalPath: content/nodes/COL%3A6F5NX
+            - colId: 6F5NW
+              name: Eliurus webbi
+              canonicalPath: content/nodes/COL%3A6F5NW
+    limitations:
+      zh:
+        page: zh
+        section: s-388507ea2c
+        part: body
+      en:
+        page: en
+        section: s-d40f392369
+        part: body

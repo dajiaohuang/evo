@@ -1,0 +1,88 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-da0206a0d4
+          part: title
+        zh:
+          page: zh
+          section: s-b6731f8334
+          part: title
+      text:
+        en:
+          page: en
+          section: s-da0206a0d4
+          part: body
+        zh:
+          page: zh
+          section: s-b6731f8334
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-2de3860b05
+          part: title
+        zh:
+          page: zh
+          section: s-25f3e1a560
+          part: title
+      text:
+        en:
+          page: en
+          section: s-2de3860b05
+          part: body
+        zh:
+          page: zh
+          section: s-25f3e1a560
+          part: body
+  atlas-node:
+    name: Paskov Archaeorthoptera wing
+    commonName: Lower Carboniferous wing fragment
+    commonNameZh: 早石炭世昆虫翅碎片
+    rank: specimen
+    taxonId: ""
+    firstAppearance: 325
+    lastAppearance: 323
+    extinct: true
+    entityKind: navigation-group
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:paskov-wing
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Paskov Archaeorthoptera wing is bounded here by a forewing part and counterpart from the Leonard IV horizon in the Paskov Mine drill core, Upper Silesian Basin, Czech Republic; this single fragment is not a global Pterygota range or flight-origin date.
+      confidence: medium
+      confidenceRationale: "Lower Carboniferous wing fragment: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary."
+      referenceLinks:
+        - referenceId: prokop-2005-paskov-wing
+          relation: supports
+          pages: 383–387
+          figure: Figures 1–2
+          quoteLocator: Paskov Mine drill core Leonard IV horizon
+  claim-rationales.zh:
+    - 早石炭世昆虫翅碎片：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+  claim-statements.zh:
+    - Paskov Archaeorthoptera 翅在此由来自捷克上西里西亚盆地 Paskov 矿钻芯 Leonard IV 层位的前翅残片及对应片约束；这一单个碎片不是翼群的全球延限或飞行起源年代。
+  ranges:
+    - entityId: paskov-wing
+      rangeKind: global-composite
+      taxonomicConcept: Paskov Archaeorthoptera wing part and counterpart
+      geographicScope: Paskov Mine drill core, Upper Silesian Basin, Czech Republic
+      olderMa: 325
+      youngerMa: 323
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Rounded lowermost Namurian envelope for one fragment, not a Pterygota global range.
+      evidenceBasis: Forewing venation is preserved in part and counterpart from the Leonard IV horizon.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:paskov-carboniferous-wing
+      referenceLocators:
+        - referenceId: prokop-2005-paskov-wing
+          locator: 383–387; Figures 1–2

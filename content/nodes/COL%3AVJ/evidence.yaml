@@ -1,0 +1,392 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caprimulgiformes
+    rank: order
+    sourceDatasetId: "2144"
+    name:
+      zh: Caprimulgiformes
+      en: Caprimulgiformes
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-b2258c5e26
+            part: body
+          en:
+            page: en
+            section: s-7c19e99253
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-89563c100e
+            part: body
+          en:
+            page: en
+            section: s-b4cf72f49d
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-7f4615a6f5
+            part: body
+          en:
+            page: en
+            section: s-c4ec8ee9b0
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-9b5501b9ae
+            part: body
+          en:
+            page: en
+            section: s-497a98d9fa
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-fdc7054d4a
+            part: body
+          en:
+            page: en
+            section: s-062338fda7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-9c3bbc3f41
+            part: body
+          en:
+            page: en
+            section: s-185075760a
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-71f1589d47
+            part: body
+          en:
+            page: en
+            section: s-4736f4e035
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-46af22a39d
+            part: body
+          en:
+            page: en
+            section: s-55476ec2cd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Caprimulgiformes
+          url: https://www.checklistbank.org/dataset/316115/taxon/VJ
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 53 selected measured records placed under Caprimulgiformes in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 16 authored same-name records placed under Caprimulgiformes by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 58 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 58
+            foraging: 58
+            activity: 0
+          readingTargets:
+            - name: Podargus strigoides
+              colId: 4KPK7
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4KPK7
+            - name: Podargus papuensis
+              colId: 4KPK4
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4KPK4
+            - name: Podargus ocellatus
+              colId: 4KPK3
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4KPK3
+            - name: Batrachostomus auritus
+              colId: KZR7
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AKZR7
+            - name: Batrachostomus stellatus
+              colId: KZRK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AKZRK
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 14 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 0
+            foraging: 14
+            activity: 0
+          readingTargets:
+            - name: Batrachostomus harterti
+              colId: 68G5X
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A68G5X
+            - name: Batrachostomus septimus
+              colId: KZRJ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AKZRJ
+            - name: Batrachostomus cornutus
+              colId: KZR9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AKZR9
+            - name: Nyctiphrynus yucatanicus
+              colId: 6SD24
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6SD24
+            - name: Caprimulgus centralasicus
+              colId: QSN3
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AQSN3
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 13 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: QSN2
+              name: Caprimulgus celebensis
+              canonicalPath: content/nodes/COL%3AQSN2
+            - colId: QSN7
+              name: Caprimulgus concretus
+              canonicalPath: content/nodes/COL%3AQSN7
+            - colId: QSPW
+              name: Caprimulgus prigoginei
+              canonicalPath: content/nodes/COL%3AQSPW
+            - colId: QSPX
+              name: Caprimulgus pulchellus
+              canonicalPath: content/nodes/COL%3AQSPX
+            - colId: QSQC
+              name: Caprimulgus solala
+              canonicalPath: content/nodes/COL%3AQSQC
+          fieldAccountCounts:
+            Habitat: 12
+            Trophic.Niche: 13
+            Primary.Lifestyle: 13
+            Migration: 12
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+    limitations:
+      zh:
+        page: zh
+        section: s-48f8e9f508
+        part: body
+      en:
+        page: en
+        section: s-50f94874bb
+        part: body

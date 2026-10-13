@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylidae
+  displayName: Eleutherodactylidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9M5
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylidae
+        zh: Eleutherodactylidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9M5
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/100
+            queryName: Eleutherodactylidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 160
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7ed0a32869
+      - s-03fab1ae13
+      - s-c37b95f22e
+      - s-ce8c0e26d1
+      - s-82c19cd783
+      - s-6dd495835f
+      - s-cde4c07780
+    zh:
+      - s-1c26736f43
+      - s-bc0761d2c4
+      - s-173af03c46
+      - s-64a984df33
+      - s-b6f254476d
+      - s-57df0179f4
+      - s-f8ad17ce58

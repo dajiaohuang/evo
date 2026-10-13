@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Melanopelta antiqua
+    rank: species
+    sourceTaxonId: txn:362814
+    name:
+      en: Melanopelta antiqua
+      zh: Melanopelta antiqua
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-e5c8e08cc9
+            part: body
+          zh:
+            page: zh
+            section: s-a5660a34f1
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-30340ecb1c
+            part: body
+          zh:
+            page: zh
+            section: s-b00735ddc0
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-6513989d76
+            part: body
+          zh:
+            page: zh
+            section: s-9527d353a9
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:362814; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.
+    occurrenceEvidence:
+      - occurrenceId: occ:840370
+        collectionId: col:93205
+        acceptedTaxonId: txn:362814
+        taxonomicDifference: null
+        referenceId: ref:28844
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and M. V. Surkov, M. J. Benton. 2003. Tetrapod localities from the Triassic of the SE of European Russia. Earth-Science Reviews 60(1-2):1-66
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Belyaevka
+        stratigraphy:
+          group: null
+          formation: Petropavlovka
+          member: null
+        olderAgeMa: 250.8
+        youngerAgeMa: 247
+      - occurrenceId: occ:1383187
+        collectionId: col:189566
+        acceptedTaxonId: txn:362814
+        identifiedName: Melanopelta antiqua n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: RU
+          stateProvince: Arkhangel'sk
+          county: null
+        stratigraphy:
+          group: null
+          formation: Yarenskian
+          member: null
+        olderAgeMa: 250.8
+        youngerAgeMa: 247
+      - occurrenceId: occ:1383188
+        collectionId: col:93104
+        acceptedTaxonId: txn:362814
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: RU
+          stateProvince: Kirov
+          county: Nagorsk
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 250.8
+        youngerAgeMa: 247
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-6513989d76
+            part: body
+          zh:
+            page: zh
+            section: s-9527d353a9
+            part: body
+        sourceIds: []

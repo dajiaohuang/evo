@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leucostethus fugax
+  displayName: Leucostethus fugax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Q65W
+  sourceIndexes:
+    - name:
+        en: Leucostethus fugax
+        zh: Leucostethus fugax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Q65W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/28
+            queryName: Leucostethus fugax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/92
+            queryName: Colostethus fugax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-02b36d72b0
+      - s-9a0d6948b6
+      - s-918ad53497
+      - s-a9301957ff
+      - s-918461cfb7
+      - s-7fd76fe0ae
+      - s-cc3f523014
+      - s-060d5e985b
+      - s-5011493836
+      - s-b837ef42be
+      - s-1e765eff37
+      - s-002bcfb723
+    zh:
+      - s-393b2728b0
+      - s-6398db2a17
+      - s-3de5a3f764
+      - s-b9fa9987d0
+      - s-14864e3673
+      - s-08d8556dfc
+      - s-d68f305172
+      - s-dbc53beb60
+      - s-7ddc4d31ed
+      - s-e23904e47a
+      - s-d0632cd938
+      - s-a30838360f

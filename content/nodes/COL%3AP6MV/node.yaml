@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum namaquense
+  displayName: Cacosternum namaquense
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6MV
+  sourceIndexes:
+    - name:
+        en: Cacosternum namaquense
+        zh: Cacosternum namaquense
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6MV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/43
+            queryName: Cacosternum namaquense
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce003adb6b
+      - s-487f35a9ae
+      - s-df2fe94aaa
+      - s-80ac2136d6
+      - s-ca7cd63895
+      - s-dcd868a243
+      - s-d0ebd934e9
+      - s-31ef74534b
+      - s-f4dabc720c
+      - s-310a739789
+      - s-1f9d2fdb28
+      - s-ecc79ac95d
+      - s-b8eb65a6f3
+    zh:
+      - s-3fbd158443
+      - s-e0d63402d8
+      - s-b2605c295d
+      - s-7db2101841
+      - s-79ea7c4dd4
+      - s-5e09225df8
+      - s-4a1f0c461e
+      - s-43922009f8
+      - s-426ce72b3a
+      - s-e504c76344
+      - s-5c5ef00c5f
+      - s-c51bff46cd
+      - s-baf7e7198c

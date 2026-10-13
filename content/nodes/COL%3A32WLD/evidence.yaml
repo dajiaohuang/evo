@@ -1,0 +1,611 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cycloramphus valae Heyer, 1983
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Cycloramphus valae
+      zh: Cycloramphus valae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-30c470b507
+            part: title
+          zh:
+            page: zh
+            section: s-32a8ad737f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-30c470b507
+            part: body
+          zh:
+            page: zh
+            section: s-32a8ad737f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-36f68791fc
+            part: title
+          zh:
+            page: zh
+            section: s-f8ac7d176c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-36f68791fc
+            part: body
+          zh:
+            page: zh
+            section: s-f8ac7d176c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-abd8786dbc
+            part: title
+          zh:
+            page: zh
+            section: s-6f12887442
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-abd8786dbc
+            part: body
+          zh:
+            page: zh
+            section: s-6f12887442
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a8b11ce979
+            part: title
+          zh:
+            page: zh
+            section: s-31c1f425a2
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-a8b11ce979
+            part: body
+          zh:
+            page: zh
+            section: s-31c1f425a2
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-14ef268440
+            part: title
+          zh:
+            page: zh
+            section: s-b780a2ec9d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-14ef268440
+            part: body
+          zh:
+            page: zh
+            section: s-b780a2ec9d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-46223d122b
+            part: title
+          zh:
+            page: zh
+            section: s-5a3e1daec9
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-46223d122b
+            part: body
+          zh:
+            page: zh
+            section: s-5a3e1daec9
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-bd756c299eddabafe29054d0a95fe3cc
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-ac524e0424b5a26e379491f8
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-25327148e26b098e26caf779
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-88460ad3ce
+            part: title
+          zh:
+            page: zh
+            section: s-7ad8f01005
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-88460ad3ce
+            part: body
+          zh:
+            page: zh
+            section: s-7ad8f01005
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-dbcb1cf7d2
+            part: title
+          zh:
+            page: zh
+            section: s-6ca83d394e
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-dbcb1cf7d2
+            part: body
+          zh:
+            page: zh
+            section: s-6ca83d394e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d0b792e69d
+            part: title
+          zh:
+            page: zh
+            section: s-ab160d9935
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d0b792e69d
+            part: body
+          zh:
+            page: zh
+            section: s-ab160d9935
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8c315c4e39
+            part: title
+          zh:
+            page: zh
+            section: s-a0e15ec51e
+            part: title
+        sourceIds:
+          - primary-pmc11117230-32wld
+        text:
+          en:
+            page: en
+            section: s-8c315c4e39
+            part: body
+          zh:
+            page: zh
+            section: s-a0e15ec51e
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9784033b28
+            part: title
+          zh:
+            page: zh
+            section: s-5c86bce241
+            part: title
+        sourceIds:
+          - primary-pmc11117230-32wld
+        text:
+          en:
+            page: en
+            section: s-9784033b28
+            part: body
+          zh:
+            page: zh
+            section: s-5c86bce241
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6da8df039d
+            part: title
+          zh:
+            page: zh
+            section: s-bcbae6d428
+            part: title
+        sourceIds:
+          - primary-pmc11117230-32wld
+        text:
+          en:
+            page: en
+            section: s-6da8df039d
+            part: body
+          zh:
+            page: zh
+            section: s-bcbae6d428
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-24ad5a9e26
+            part: title
+          zh:
+            page: zh
+            section: s-3a3ba422c7
+            part: title
+        sourceIds:
+          - primary-pmc11117230-32wld
+        text:
+          en:
+            page: en
+            section: s-24ad5a9e26
+            part: body
+          zh:
+            page: zh
+            section: s-3a3ba422c7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cycloramphus valae
+          url: https://www.checklistbank.org/dataset/316115/taxon/32WLD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1446; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1446 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 980, 981, 982, 983, 984, 985; Picture measurement data rows 355; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1477; Reference.csv rows 3638
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc11117230-32wld
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Cycloramphus valae: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8e46bf6ab7
+        part: body
+      zh:
+        page: zh
+        section: s-ab5b8812f1
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-bd756c299eddabafe29054d0a95fe3cc
+      sourceRowId: Anf1446
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf1446
+        bibliographyRowId: Anf1446
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Cycloramphus valae
+        candidateBibliographyRowIds:
+          - Anf1446
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-ac524e0424b5a26e379491f8
+        scientificName: Cycloramphus valae
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-25327148e26b098e26caf779
+        scientificName: Cycloramphus valae
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani14101406
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        sourceKey: primary-pmc11117230-32wld
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/article.xml
+        sourceConcept: 2024 TableS1 exact-name Cycloramphus valae paired-stage image/literature compilation; vouchers and cross-revision biological identity not independently certified
+        evidenceRead: "Cycloramphus valae: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A larval image record with explicit provenance
+              zh: 具有明确来源的幼体图像记录
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-32wld
+            locator: PMC11117230 supplementary TableS1 PDF page2 row15 Cycloramphus valae tadpoleSource/Voucher columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eee518ba90
+                part: body
+              zh:
+                page: zh
+                section: s-c3ee9edd83
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Adult measurements preserve source type and sex limits
+              zh: 成体测量保留来源类型及性别限制
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-32wld
+            locator: PMC11117230 supplementary TableS1 PDF page2 row15 adultSource/Voucher/Sex columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d9e0c303f9
+                part: body
+              zh:
+                page: zh
+                section: s-618c685b6a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Larval guild and adult ecomorph are separate source categories
+              zh: 幼体功能群及成体生态型是分开来源类别
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-32wld
+            locator: PMC11117230 supplementary TableS1 PDF page2 row15 Guild/Ecomorph; page1 caption; XML Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7e82811cd5
+                part: body
+              zh:
+                page: zh
+                section: s-f191005f85
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Paired-stage comparisons do not establish complete developmental independence
+              zh: 配对阶段比较不确立完全发育独立
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-32wld
+            locator: PMC11117230 XML Results3.2–3.3; Tables1–2; Discussion; supplementary TableS2/S3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2179da1b9e
+                part: body
+              zh:
+                page: zh
+                section: s-22bd1286f2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

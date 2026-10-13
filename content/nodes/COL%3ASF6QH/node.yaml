@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella kumanday
+  displayName: Rhinella kumanday
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SF6QH
+  sourceIndexes:
+    - name:
+        en: Rhinella kumanday
+        zh: Rhinella kumanday
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SF6QH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/334
+            queryName: Rhinella kumanday
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1812e98b97
+      - s-fe14222c42
+      - s-3fdf271c52
+      - s-84ed2e3d6c
+      - s-1f6aa2c173
+      - s-069950d5b4
+      - s-2b14657f4b
+      - s-f22dfb3269
+      - s-9e8dc9f03d
+    zh:
+      - s-a0ddabbd2b
+      - s-c3d01f8575
+      - s-74d9e6bfb1
+      - s-7139c0bfd5
+      - s-939d3f28a3
+      - s-685ff9328c
+      - s-ee2884a0e6
+      - s-f3babac70b
+      - s-fea4951cad

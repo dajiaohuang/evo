@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton panhai
+  displayName: Tylototriton panhai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLT
+  sourceIndexes:
+    - name:
+        en: Tylototriton panhai
+        zh: Tylototriton panhai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/147
+            queryName: Tylototriton panhai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e0b470ecf
+      - s-f9258b652f
+      - s-c71cd757e7
+      - s-b7e34b89f9
+      - s-1a8b248278
+      - s-dd7423a416
+      - s-7c43843418
+      - s-04fc6a53b8
+      - s-69c695fb01
+    zh:
+      - s-bad138ed31
+      - s-69d339d17b
+      - s-5fe830205b
+      - s-2c158b1718
+      - s-c1aa1201cd
+      - s-e5d8823aee
+      - s-14b474b45d
+      - s-bb14e74991
+      - s-b6ba60912c

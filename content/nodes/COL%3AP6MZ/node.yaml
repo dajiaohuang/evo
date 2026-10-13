@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum platys
+  displayName: Cacosternum platys
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6MZ
+  sourceIndexes:
+    - name:
+        en: Cacosternum platys
+        zh: Cacosternum platys
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6MZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/47
+            queryName: Cacosternum platys
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-419c398a6f
+      - s-7a342dcf60
+      - s-5d06b5444c
+      - s-c1e5e31841
+      - s-4d3c9d65c6
+      - s-51a5c71694
+      - s-57da253bdc
+      - s-aef6243523
+      - s-afbc5ebd71
+      - s-1470663609
+      - s-48a42acb26
+    zh:
+      - s-e2e9da4296
+      - s-648c21ddab
+      - s-f2d7dee8e4
+      - s-b93ca65f28
+      - s-68ebb9c573
+      - s-b35a071932
+      - s-fca3ab0fef
+      - s-61667e4d27
+      - s-84bc13eb6c
+      - s-c0c9a41f64
+      - s-8705125ac5

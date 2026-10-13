@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adelophryne adiastola
+  displayName: Adelophryne adiastola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9XYY
+  sourceIndexes:
+    - name:
+        en: Adelophryne adiastola
+        zh: Adelophryne adiastola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9XYY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/6
+            queryName: Adelophryne adiastola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3edc6ee9ff
+      - s-cdf0f41752
+      - s-017c8bd078
+      - s-d3a3ba3553
+      - s-1b7a46631c
+      - s-491a8aa3d7
+      - s-3bbc9a580c
+      - s-1c00afe4ee
+      - s-b74ab369bc
+      - s-755cc82f23
+      - s-75ebe68757
+    zh:
+      - s-65c1e48fb6
+      - s-b415e1f99e
+      - s-d4aedc9ba9
+      - s-45599e6e9b
+      - s-d1fbdc7705
+      - s-55f23b13c6
+      - s-d0a06e4a1c
+      - s-b215baacd9
+      - s-8e1920fe9d
+      - s-88b349dc9d
+      - s-a974ec7596

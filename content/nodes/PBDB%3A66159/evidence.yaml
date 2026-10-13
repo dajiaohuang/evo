@@ -1,0 +1,168 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boremys pulchra
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Boremys pulchra
+      en: Boremys pulchra
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-be8ea0953b
+            part: body
+          en:
+            page: en
+            section: s-49a4175d66
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4ab895523b
+            part: body
+          en:
+            page: en
+            section: s-20d9f81196
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-85c3dddba5
+            part: body
+          en:
+            page: en
+            section: s-c8a95f60d9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d4258f6e82
+            part: body
+          en:
+            page: en
+            section: s-aaedfd5445
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ebe31027b2
+            part: body
+          en:
+            page: en
+            section: s-4d98cd081b
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Boremys pulchra
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=66159&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:66159; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:66159
+          selectedOccurrenceIds:
+            - occ:483668
+            - occ:1045406
+            - occ:1045407
+            - occ:1318306
+          selectedCollectionIds:
+            - col:14452
+            - col:128459
+            - col:128460
+            - col:177142
+          sourceReferenceIds:
+            - ref:13103
+            - ref:704
+            - ref:13464
+            - ref:14110
+          originalIdentificationMappings:
+            - occurrenceId: occ:1045406
+              originalIdentifiedName: Boremys pulchra n. sp.
+              acceptedName: Boremys pulchra
+              difference: null
+            - occurrenceId: occ:1045407
+              originalIdentifiedName: Boremys albertensis n. sp.
+              acceptedName: Boremys pulchra
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-9d54cbca34
+        part: body
+      en:
+        page: en
+        section: s-db8ebd22e8
+        part: body

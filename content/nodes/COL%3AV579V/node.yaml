@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Colleeneremia dentata
+  displayName: Colleeneremia dentata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V579V
+  sourceIndexes:
+    - name:
+        en: Colleeneremia dentata
+        zh: Colleeneremia dentata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V579V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/394
+            queryName: Colleeneremia dentata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/101
+            queryName: Litoria dentata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/158
+            queryName: Hyla dentata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/159
+            queryName: Rawlinsonia dentata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 20
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f266be3b63
+      - s-45d6107cf5
+      - s-400329ec48
+      - s-e18493ac0b
+    zh:
+      - s-6e29fbd6bf
+      - s-af27134e4e
+      - s-eec4e28f35
+      - s-45f62e8578

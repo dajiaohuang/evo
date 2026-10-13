@@ -1,0 +1,9 @@
+## Which source name is assigned to this tadpole record? {#s-82249c5404}
+This record shows how TadpoleTraits files tadpoles under Hylarana raniceps. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Hylarana raniceps in Hylarana and Ranidae. No literature rows are present. In the image-measurement table, rows 547 list source Species Chalcorana raniceps → Species (ASTW) Hylarana raniceps. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-165633af2e}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 0 literature rows and 1 image-measurement row for this source record. No literature rows are present; the image rows are the only measurements in this entry. Image-table Stage values are 37 (Judging based on the picture) (row 547); Type labels are Ratio and image types are Color image. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-05ca35837c}
+The image-derived records support these source proportions: body length / total length = 0.331023 (image row 547, stage 37 (Judging based on the picture), Color image); tail length / total length = 0.670979 (image row 547, stage 37 (Judging based on the picture), Color image); maximum body height / total length = 0.151265 (image row 547, stage 37 (Judging based on the picture), Color image); maximum tail height / total length = 0.156451 (image row 547, stage 37 (Judging based on the picture), Color image); tail muscle height / total length = 0.080400 (image row 547, stage 37 (Judging based on the picture), Color image). Each value describes only its cited image row; it is not a species-wide estimate.
+

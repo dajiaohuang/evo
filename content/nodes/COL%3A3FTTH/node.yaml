@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis cornutus
+  displayName: Gephyromantis cornutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FTTH
+  sourceIndexes:
+    - name:
+        en: Gephyromantis cornutus
+        zh: Gephyromantis cornutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FTTH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/117
+            queryName: Gephyromantis cornutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/168
+            queryName: Mantidactylus cornutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5b355ac2aa
+      - s-186b9594b2
+      - s-9eb8aad7df
+      - s-e081cc019f
+      - s-c59b496fe4
+      - s-b9a07cae8d
+      - s-f286e657a8
+    zh:
+      - s-c885dd54c9
+      - s-1c0d1d6eef
+      - s-b0fbfc8c33
+      - s-73d5f6604a
+      - s-6306e8a251
+      - s-13ccf12869
+      - s-17616aa04e

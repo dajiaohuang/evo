@@ -1,0 +1,369 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Araneae
+    rank: order
+    sourceDatasetId: "56185"
+    name:
+      zh: 蜘蛛目
+      en: Spiders
+    sections:
+      - topic: form
+        text:
+          zh:
+            page: zh
+            section: s-edfb728686
+            part: body
+          en:
+            page: en
+            section: s-148d5cea9a
+            part: body
+        sourceIds:
+          - account
+      - topic: life_history
+        text:
+          zh:
+            page: zh
+            section: s-a28855addd
+            part: body
+          en:
+            page: en
+            section: s-0b7d273406
+            part: body
+        sourceIds:
+          - account
+    sources:
+      - id: account
+        referenceId: ref-2a2f71c7-27e1-8797-ada2-4f5dc9f8881b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持蜘蛛与昆虫的区别、身体分区、丝的多种功能和幼蛛扩散方式；页面中的澳大利亚物种数量、危险性概括和保育表述未导入。
+            en: Supports the distinction from insects, body regions, multiple silk functions and spiderling dispersal; Australian species counts, danger summaries and conservation statements on the page are not imported.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 56185
+          url: https://www.checklistbank.org/dataset/316115/taxon/RN
+          scope:
+            zh: 固定版本中的目名与父链；不代表完整蜘蛛分类综述。
+            en: Pinned order name and parent link; not a complete review of spider systematics.
+    limitations:
+      zh:
+        page: zh
+        section: s-9a04ad4aad
+        part: body
+      en:
+        page: en
+        section: s-3179e87402
+        part: body
+  atlas-node:
+    name: Araneae
+    commonName: Spiders
+    commonNameZh: 蜘蛛类
+    rank: order
+    taxonId: txn:57473
+    firstAppearance: 315
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:57473
+    scientificName: Araneae
+    commonName: Spiders
+    commonNameZh: 蜘蛛目
+    rank: order
+    parentName: Arachnida
+    extinct: false
+    geography:
+      - Carboniferous and younger spider fossil localities reviewed by Selden and Penney
+      - Broad living-spider target-gene sampling in Wheeler et al.
+    overview:
+      page: en
+      section: s-8ee50091f9
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-296bcfc2e7
+        part: body
+      habitat:
+        page: en
+        section: s-e949f7ccb5
+        part: body
+      locomotion:
+        page: en
+        section: s-33102e020a
+        part: body
+      bodySize:
+        page: en
+        section: s-4b5feecdef
+        part: body
+      guild:
+        page: en
+        section: s-1c7ca0e181
+        part: body
+    traits:
+      - page: en
+        section: s-df881d2649
+        part: body
+      - page: en
+        section: s-4145a90617
+        part: body
+      - page: en
+        section: s-68d262a6ed
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-5a71f6db73
+      part: body
+    confidence: medium
+    referenceIds:
+      - wheeler-2017-spider-tree
+      - garwood-2016-idmonarachne
+      - selden-penney-2010-spider-fossil-record
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-8ee50091f9
+            part: title
+          zh:
+            page: zh
+            section: s-1cfb0f2486
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8ee50091f9
+            part: body
+          zh:
+            page: zh
+            section: s-1cfb0f2486
+            part: body
+        sourceIds:
+          - wheeler-2017-spider-tree
+          - garwood-2016-idmonarachne
+          - selden-penney-2010-spider-fossil-record
+      - id: body-observations
+        title:
+          en:
+            page: en
+            section: s-dc0dd3567e
+            part: title
+          zh:
+            page: zh
+            section: s-43814c795d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dc0dd3567e
+            part: body
+          zh:
+            page: zh
+            section: s-43814c795d
+            part: body
+        sourceIds:
+          - wheeler-2017-spider-tree
+          - garwood-2016-idmonarachne
+          - selden-penney-2010-spider-fossil-record
+      - id: interpretation-boundary
+        title:
+          en:
+            page: en
+            section: s-5a71f6db73
+            part: title
+          zh:
+            page: zh
+            section: s-f6093ecf4d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5a71f6db73
+            part: body
+          zh:
+            page: zh
+            section: s-f6093ecf4d
+            part: body
+        sourceIds:
+          - wheeler-2017-spider-tree
+          - garwood-2016-idmonarachne
+          - selden-penney-2010-spider-fossil-record
+    readerSources:
+      - id: wheeler-2017-spider-tree
+        referenceId: wheeler-2017-spider-tree
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The study infers relationships among living spiders in its target-gene sample; it does not establish fossil ages or direct ancestry.
+            zh: 该研究依据目标基因样本推断现生蜘蛛之间的关系；不能由此确定化石年代或直接祖先关系。
+      - id: garwood-2016-idmonarachne
+        referenceId: garwood-2016-idmonarachne
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The paper distinguishes the 305 Ma stem-like Idmonarachne from true spiders and discusses an approximately 315 Ma origin for Araneae.
+            zh: 研究将约 3.05 亿年前的干群蛛形动物 Idmonarachne 与真蜘蛛区分，并讨论蜘蛛目约 3.15 亿年前的起源。
+      - id: selden-penney-2010-spider-fossil-record
+        referenceId: selden-penney-2010-spider-fossil-record
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The review supports a Carboniferous spider fossil record while retaining taxonomic and sampling limits.
+            zh: 化石记录综述支持石炭纪蜘蛛记录，同时保留分类鉴定与取样方面的限制。
+  claims:
+    - subjectId: taxon:araneae
+      claimKind: scientific
+      claimType: morphology
+      statement: Spider spinnerets are abdominal appendages that control silk deployment. Garwood et al. distinguish true spiders from the Carboniferous Idmonarachne fossil, whose preserved underside lacks spinnerets; its spider-like appearance alone does not make it a member of Araneae.
+      confidence: high
+      confidenceRationale: The study defines spinnerets and documents their absence using the preserved ventral surface and tomography. This claim retains the authors' anatomical distinction without treating inferred silk production in the fossil as an observation.
+      referenceLinks:
+        - referenceId: garwood-2016-idmonarachne
+          relation: supports
+          pages: "20160125"
+          quoteLocator: "Introduction: spinneret definition; Discussion: preserved underside, tomography and exclusion from Araneae"
+    - subjectId: taxon:araneae
+      claimKind: scientific
+      claimType: topology
+      statement: Extensive target-gene and taxon sampling provides a reproducible topology and revised classification for sampled spiders. It does not establish the fossil first appearance, exact crown age or a direct ancestor of Araneae.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond it does not establish the fossil first appearance, exact crown age or a direct ancestor of Araneae.
+      referenceLinks:
+        - relation: supports
+          referenceId: wheeler-2017-spider-tree
+          pages: 574–616
+          figure: Figures 1–5; appendices and matrices
+          quoteLocator: Taxon sampling; analytical methods; classification and topology
+    - subjectId: taxon:araneae
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 315–0 Ma Araneae display is an oldest-known-fossil-to-living navigation envelope and does not date spider origination or crown divergence.
+      confidence: medium
+      confidenceRationale: A systematic fossil review and a separately imaged Carboniferous arachnid study converge on the approximately 315 Ma true-spider record while distinguishing stem-like material.
+      referenceLinks:
+        - referenceId: selden-penney-2010-spider-fossil-record
+          relation: supports
+          pages: 171–206
+          figure: Table S1
+          quoteLocator: Systematic fossil-record review of Carboniferous spiders
+        - referenceId: garwood-2016-idmonarachne
+          relation: supports
+          pages: Article 20160125
+          figure: Main-text figures
+          quoteLocator: Introduction traces Araneae to approximately 315 Ma and distinguishes Idmonarachne from true spiders
+    - subjectId: taxon:araneae
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Wheeler et al. use extensive target-gene sampling to revise relationships among living spiders, while Garwood et al. distinguish the Carboniferous Idmonarachne from true spiders by its preserved appendages; the combined classification remains a sampled and revisable hypothesis.
+      confidence: medium
+      confidenceRationale: The primary phylogeny and fossil study directly report sampled characters and their interpretations, but taxon sampling and preservation limit a final order-wide classification.
+      referenceLinks:
+        - referenceId: wheeler-2017-spider-tree
+          relation: supports
+          pages: 574–616
+          figure: Figures 1–5; appendices and matrices
+          quoteLocator: Taxon sampling, classification and topology
+        - referenceId: garwood-2016-idmonarachne
+          relation: supports
+          pages: "20160125"
+          figure: Main-text figures
+          quoteLocator: Preserved appendages and exclusion of Idmonarachne from true Araneae
+    - subjectId: taxon:araneae
+      claimKind: scientific
+      claimType: biogeography
+      statement: The spider fossil review records Carboniferous and younger occurrences, and Wheeler et al. sample living lineages broadly for target-gene phylogeny; these fossil localities and sampled species do not form a complete geographic distribution of Araneae.
+      confidence: medium
+      confidenceRationale: Both studies identify their included fossil records or living taxa, but neither is a global presence–absence survey of spiders.
+      referenceLinks:
+        - referenceId: selden-penney-2010-spider-fossil-record
+          relation: supports
+          pages: 171–206
+          figure: Table S1
+          quoteLocator: Fossil spider localities and temporal occurrence review
+        - referenceId: wheeler-2017-spider-tree
+          relation: supports
+          pages: 574–616
+          figure: Figures 1–5; appendices and matrices
+          quoteLocator: Extensive living-spider taxon sampling
+    - subjectId: taxon:araneae
+      claimKind: scientific
+      claimType: ecology
+      statement: The cited spider phylogeny and fossil-origin studies test relationships and preserved anatomy rather than diet, habitat use, locomotor performance, body size or ecological guild; those fields remain unassigned for Araneae here.
+      confidence: high
+      confidenceRationale: The source designs are explicitly phylogenetic and anatomical, so withholding ecological fields avoids converting sampled relationships or fossil preservation into observed behaviour.
+      referenceLinks:
+        - referenceId: wheeler-2017-spider-tree
+          relation: supports
+          pages: 574–616
+          figure: Figures 1–5; appendices and matrices
+          quoteLocator: Phylogenetic sampling and study scope
+        - referenceId: garwood-2016-idmonarachne
+          relation: supports
+          pages: "20160125"
+          figure: Main-text figures
+          quoteLocator: Preserved anatomy and spider-origin comparison, without direct behaviour observations
+  claim-rationales.zh:
+    - 研究定义了纺器，并通过保存的腹面和断层成像记录其缺失。本主张保留作者的解剖区分，不将推断的化石产丝能力当作直接观察。
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - 系统化石综述与独立成像研究均支持约 315 Ma 的真蜘蛛记录，同时区分干群样材料。
+    - 系统发育和化石研究直接报告了取样性状及其解释，但类群取样和保存状况限制了最终的目级分类。
+    - 两项研究分别列出化石记录和现生类群样本，但都不是蜘蛛目全球存在与缺失的普查。
+    - 所引研究聚焦系统发育和保存解剖，并没有饮食、栖息地、运动性能或生态功能群数据，因此保留未赋值。
+  claim-statements.zh:
+    - 蜘蛛的纺器是控制蛛丝释放与运用的腹部附肢。Garwood 等将真蜘蛛与石炭纪 Idmonarachne 化石区分开：后者保存的腹面缺少纺器，仅凭蜘蛛样外形不能将其归入蜘蛛目。
+    - 大规模目标基因与类群抽样，为所抽样蜘蛛提供了可复现的拓扑和修订分类。它不能确定蜘蛛目的化石首现、精确冠群年龄或直接祖先。
+    - 315–0 Ma 的蜘蛛目显示是已知最早化石至现生的导航包络，不用于测定蜘蛛起源或冠群分化。
+  ranges:
+    - entityId: araneae
+      rangeKind: global-composite
+      taxonomicConcept: Araneae reviewed oldest-known-fossil-to-living navigation envelope
+      geographicScope: Global fossil and living record
+      olderMa: 315
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The older edge is a reviewed oldest-known fossil record, not an origination or crown-divergence date.
+      evidenceBasis: The fossil-record review and a Carboniferous arachnid study trace true spiders to approximately 315 Ma; living Araneae extend this sampled-record navigation envelope to the present.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:araneae:fossil-range
+      referenceLocators:
+        - referenceId: selden-penney-2010-spider-fossil-record
+          locator: pp. 171–206; fossil-record review and Table S1
+        - referenceId: garwood-2016-idmonarachne
+          locator: Article 20160125; Introduction and main-text figures; Araneae traced to approximately 315 Ma and Idmonarachne distinguished from true spiders

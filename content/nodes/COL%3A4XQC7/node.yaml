@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Siphonops annulatus
+  displayName: Siphonops annulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4XQC7
+  sourceIndexes:
+    - name:
+        en: Siphonops annulatus
+        zh: Siphonops annulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4XQC7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/195
+            queryName: Siphonops annulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 56
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/96
+            queryName: Caecilia annulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/97
+            queryName: Coecilia annulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/98
+            queryName: Caecilia interrupta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/99
+            queryName: Siphonops annulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/100
+            queryName: Siphonops interruptus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/101
+            queryName: Dermophis crassus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/71
+            queryName: Siphonops annulatus marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d5f9d1cedb
+      - s-b34d3715ad
+      - s-cd4772a186
+      - s-bde46bd424
+      - s-7aa6758405
+      - s-4b716f0f1d
+      - s-3e144241e7
+      - s-7ed2102a65
+      - s-82a1b9c1ac
+      - s-e54d38ff51
+      - s-0e56b21fb5
+      - s-d8eabd872e
+      - s-70d74233aa
+      - s-9d4ad7c2e3
+      - s-e99af0320b
+      - s-57fc442c75
+    zh:
+      - s-56e812e7d8
+      - s-ba413b0906
+      - s-c5a1f12002
+      - s-77e1673f7a
+      - s-49db5c19ce
+      - s-92b64269d2
+      - s-510e16f393
+      - s-6448eb686e
+      - s-b20c2ed732
+      - s-a849a1ed28
+      - s-c99649572f
+      - s-979bf89e20
+      - s-739c251210
+      - s-806fb9511b
+      - s-8c2a5b1a84
+      - s-491a16c7ab

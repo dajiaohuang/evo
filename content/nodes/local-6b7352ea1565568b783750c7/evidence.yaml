@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Aquiloeurycea cafetalera
+    name:
+      en: Aquiloeurycea cafetalera
+      zh: Aquiloeurycea cafetalera
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-d165784562
+            part: body
+          zh:
+            page: zh
+            section: s-8f8701954a
+            part: body
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "3628"
+        text:
+          en:
+            page: en
+            section: s-6a2a16dc6d
+            part: body
+          zh:
+            page: zh
+            section: s-6f2cf4b60c
+            part: body
+        sourceRowNumber: 3310
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3310; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 3310
+        values:
+          - "3628"
+          - PPollo
+          - Meza-Parral_et al. 2020
+          - Standardized ethograms and a device for assessing amphibian thermal responses in a warming world
+          - "2020"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/j.jtherbio.2020.102565
+          - English
+          - Aquiloeurycea_cafetalera_pop1
+          - Aquiloeurycea_cafetalera_pop1_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Aquiloeurycea cafetalera
+          - NA
+          - VU
+          - wild
+          - NA
+          - "19.40916667"
+          - "-96.90791667"
+          - "950"
+          - NA
+          - NA
+          - "2017"
+          - June_2017
+          - November_2017
+          - Animals were sampled from 19°15'02"N to 19°34'04"N (latitude) and 96°59'44"W to 96°49'13"W (longitude). The midpoint of these coordinates was taken here.
+          - "19"
+          - "15.4"
+          - NA
+          - NA
+          - Ambient and microhabitat (substrate) temperature were presented in Table S4.
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - "51.3"
+          - "2.5"
+          - NA
+          - unknown
+          - CTmax
+          - other
+          - ambient
+          - "20.5"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - The endpoint was the complete immobility and rigidity of the body of the animals. The starting temperature was different for each inidividual depending on the temperature from where they were collected (reported here the averages). SVL was taken as the mean of the range presented in the main text.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "33.54841629"
+          - "1.077373333"
+          - "13"
+          - sd
+          - Individual data points were digitised from figure 6 by PP.
+    originalStudyCitations:
+      - ref: Meza-Parral_et al. 2020
+        title: Standardized ethograms and a device for assessing amphibian thermal responses in a warming world
+        doi: https://doi.org/10.1016/j.jtherbio.2020.102565
+        year: "2020"
+    selectedEstimateRowNumbers:
+      - 3310
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - FZWQ
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

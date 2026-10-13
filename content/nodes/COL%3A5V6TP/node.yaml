@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus stepheni
+  displayName: Anomaloglossus stepheni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5V6TP
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus stepheni
+        zh: Anomaloglossus stepheni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5V6TP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/24
+            queryName: Anomaloglossus stepheni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/149
+            queryName: Colostethus stepheni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d26ea171b9
+      - s-d197fe197e
+      - s-331b7a2707
+      - s-47c7565822
+      - s-984cca0785
+      - s-ce6672a870
+      - s-59260cae8a
+      - s-b8e3675bc0
+      - s-20f307084a
+      - s-7296df4110
+      - s-eb8584387e
+      - s-60bd7a094f
+      - s-dc3e14c110
+      - s-7f110d8be9
+      - s-f5226d0efd
+      - s-a687a62816
+      - s-27ea306507
+      - s-17c19a42bb
+      - s-5224e949a8
+      - s-220d9b484e
+      - s-335b386d22
+      - s-847018899e
+      - s-cd67f58cab
+      - s-67497dbe47
+      - s-54998ae6b8
+    zh:
+      - s-e7d9252db2
+      - s-08f7fd4d64
+      - s-e913bbd303
+      - s-ce7d6855ad
+      - s-788d0fb1af
+      - s-44ccb4d90e
+      - s-2d8392e6ee
+      - s-9520f62cbc
+      - s-d38e8369c7
+      - s-d92d33d487
+      - s-d4cd800f16
+      - s-16a09d5067
+      - s-9a6d38fa21
+      - s-2667dfffa1
+      - s-479df7d659
+      - s-3e9ada10b0
+      - s-b1d615cbb5
+      - s-3bd95f78db
+      - s-b516b596d5
+      - s-690bd74cd4
+      - s-e0bbc9a842
+      - s-420e2536f5
+      - s-feaf876218
+      - s-2eedbd43ee
+      - s-992fe5fa0e

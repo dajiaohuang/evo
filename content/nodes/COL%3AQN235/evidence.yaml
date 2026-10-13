@@ -1,0 +1,472 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nanorana laojunshanensis Tang, Liu & Yu, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nanorana laojunshanensis
+      zh: Nanorana laojunshanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c336891fa7
+            part: title
+          zh:
+            page: zh
+            section: s-fda90f04ea
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c336891fa7
+            part: body
+          zh:
+            page: zh
+            section: s-fda90f04ea
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ed5dd11641
+            part: title
+          zh:
+            page: zh
+            section: s-ecab03e3d4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ed5dd11641
+            part: body
+          zh:
+            page: zh
+            section: s-ecab03e3d4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-580a3037f1
+            part: title
+          zh:
+            page: zh
+            section: s-b71e7771a3
+            part: title
+        sourceIds:
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-580a3037f1
+            part: body
+          zh:
+            page: zh
+            section: s-b71e7771a3
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-879f064c616585ee8246d148
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-80c6a7d726
+            part: title
+          zh:
+            page: zh
+            section: s-c666c43d97
+            part: title
+        sourceIds:
+          - primary-pmc10649098-qn235
+        text:
+          en:
+            page: en
+            section: s-80c6a7d726
+            part: body
+          zh:
+            page: zh
+            section: s-c666c43d97
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ac283e7e54
+            part: title
+          zh:
+            page: zh
+            section: s-a19673e337
+            part: title
+        sourceIds:
+          - primary-pmc10649098-qn235
+        text:
+          en:
+            page: en
+            section: s-ac283e7e54
+            part: body
+          zh:
+            page: zh
+            section: s-a19673e337
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-a451bcb81b
+            part: title
+          zh:
+            page: zh
+            section: s-7feb263c30
+            part: title
+        sourceIds:
+          - primary-pmc10649098-qn235
+        text:
+          en:
+            page: en
+            section: s-a451bcb81b
+            part: body
+          zh:
+            page: zh
+            section: s-7feb263c30
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-7517864e47
+            part: title
+          zh:
+            page: zh
+            section: s-f92b8f0402
+            part: title
+        sourceIds:
+          - primary-pmc10649098-qn235
+        text:
+          en:
+            page: en
+            section: s-7517864e47
+            part: body
+          zh:
+            page: zh
+            section: s-f92b8f0402
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-36d4f50239
+            part: title
+          zh:
+            page: zh
+            section: s-4da9ff7567
+            part: title
+        sourceIds:
+          - primary-pmc10649098-qn235
+        text:
+          en:
+            page: en
+            section: s-36d4f50239
+            part: body
+          zh:
+            page: zh
+            section: s-4da9ff7567
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-d6b0938e81
+            part: title
+          zh:
+            page: zh
+            section: s-0f491a7e55
+            part: title
+        sourceIds:
+          - primary-pmc10649098-qn235
+        text:
+          en:
+            page: en
+            section: s-d6b0938e81
+            part: body
+          zh:
+            page: zh
+            section: s-0f491a7e55
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f5deb262c8
+            part: title
+          zh:
+            page: zh
+            section: s-d153053145
+            part: title
+        sourceIds:
+          - primary-pmc10649098-qn235
+        text:
+          en:
+            page: en
+            section: s-f5deb262c8
+            part: body
+          zh:
+            page: zh
+            section: s-d153053145
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nanorana laojunshanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/QN235
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 5446, 5447, 5448; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: primary-pmc10649098-qn235
+        referenceId: ref-a704f103-009e-42b1-aff3-f6c0e8120691
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nanorana laojunshanensis: Extracted phylogenetic methods/results/discussion/conclusions and raw sampling/morphology/PCA/taxonomic account, Tables 4–7 and selected Table 1 rows read; new type observations versus cited comparisons distinguished; no independent original sequences/specimens/supplementary measurement reanalysis; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6984416b52
+        part: body
+      zh:
+        page: zh
+        section: s-4ef7bf6a21
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani13213427
+        referenceId: ref-a704f103-009e-42b1-aff3-f6c0e8120691
+        sourceKey: primary-pmc10649098-qn235
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10649098/article.xml
+        sourceConcept: Nanorana laojunshanensis
+        evidenceRead: "Nanorana laojunshanensis: Extracted phylogenetic methods/results/discussion/conclusions and raw sampling/morphology/PCA/taxonomic account, Tables 4–7 and selected Table 1 rows read; new type observations versus cited comparisons distinguished; no independent original sequences/specimens/supplementary measurement reanalysis; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Six July 2019 types delimit the measured size sample
+              zh: 2019 年七月六个模式标本限定体长样本
+            referenceId: ref-a704f103-009e-42b1-aff3-f6c0e8120691
+            sourceKey: primary-pmc10649098-qn235
+            locator: PMC10649098 XML sec3dot3-animals-13-03427 paragraphs 2–3; animals-13-03427-t005
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eb50f96afd
+                part: body
+              zh:
+                page: zh
+                section: s-ed5c0bce50
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: External diagnosis uses a combination of characters
+              zh: 外部诊断使用性状组合
+            referenceId: ref-a704f103-009e-42b1-aff3-f6c0e8120691
+            sourceKey: primary-pmc10649098-qn235
+            locator: PMC10649098 XML sec3dot3-animals-13-03427 paragraphs 5–9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a2f5c88537
+                part: body
+              zh:
+                page: zh
+                section: s-10d296dd6b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: appearance
+            heading:
+              en: Brown live pattern and yellow limb venter change in preservation
+              zh: 活体褐纹与黄肢腹色在保存后改变
+            referenceId: ref-a704f103-009e-42b1-aff3-f6c0e8120691
+            sourceKey: primary-pmc10649098-qn235
+            locator: PMC10649098 XML sec3dot3-animals-13-03427 paragraphs 10–11,13
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1d481471c3
+                part: body
+              zh:
+                page: zh
+                section: s-196e0d2f07
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: reproduction
+            heading:
+              en: Male spines suggest a season without documenting spawning
+              zh: 雄性棘提示季节但没有记录产卵
+            referenceId: ref-a704f103-009e-42b1-aff3-f6c0e8120691
+            sourceKey: primary-pmc10649098-qn235
+            locator: PMC10649098 XML sec3dot3-animals-13-03427 paragraphs 12,14
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-64cc13745b
+                part: body
+              zh:
+                page: zh
+                section: s-a9ec1cfd51
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: distribution
+            heading:
+              en: Known marsh and pond occurrence is restricted to the type site
+              zh: 已知沼泽与池塘记录限定模式地点
+            referenceId: ref-a704f103-009e-42b1-aff3-f6c0e8120691
+            sourceKey: primary-pmc10649098-qn235
+            locator: PMC10649098 XML sec3dot3-animals-13-03427 paragraphs 2,14; sec4-animals-13-03427 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6ae9f8ccc6
+                part: body
+              zh:
+                page: zh
+                section: s-c5b93fcb4c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: evolution
+            heading:
+              en: Three mitochondrial loci and one nuclear locus support a lineage
+              zh: 三线粒体及一核位点支持支系
+            referenceId: ref-a704f103-009e-42b1-aff3-f6c0e8120691
+            sourceKey: primary-pmc10649098-qn235
+            locator: PMC10649098 XML sec2dot3-animals-13-03427 paragraphs 0–1; sec3dot1-animals-13-03427 paragraph 0; animals-13-03427-t004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d6f3374e2a
+                part: body
+              zh:
+                page: zh
+                section: s-0dbee31204
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 6
+            topic: morphology
+            heading:
+              en: Size-adjusted comparisons distinguish sampled close relatives
+              zh: 体型校正比较区分所采近缘种
+            referenceId: ref-a704f103-009e-42b1-aff3-f6c0e8120691
+            sourceKey: primary-pmc10649098-qn235
+            locator: PMC10649098 XML sec2dot2-animals-13-03427 paragraphs 0–1; sec3dot2-animals-13-03427 paragraph 0; animals-13-03427-t006
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-017c4866bc
+                part: body
+              zh:
+                page: zh
+                section: s-bffc415e9c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

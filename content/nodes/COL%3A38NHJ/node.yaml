@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ecnomiohyla valancifer
+  displayName: Ecnomiohyla valancifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38NHJ
+  sourceIndexes:
+    - name:
+        en: Ecnomiohyla valancifer
+        zh: Ecnomiohyla valancifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38NHJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/114
+            queryName: Ecnomiohyla valancifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/210
+            queryName: Hyla valancifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-999530764c
+      - s-1d1cc0db91
+      - s-da571c495a
+      - s-79d8548724
+      - s-f3583d00b6
+      - s-ca5de09e2a
+      - s-485050c04b
+      - s-8a34a63aea
+      - s-3ec5f9257e
+    zh:
+      - s-1cfbc54303
+      - s-68dc1fae42
+      - s-9c98ffa15e
+      - s-d12e19a8f4
+      - s-59d9f32e72
+      - s-135680d7df
+      - s-0c3ae872fb
+      - s-10acca02cc
+      - s-f900e0eaf7

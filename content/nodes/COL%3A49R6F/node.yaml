@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Onychodactylus koreanus
+  displayName: Onychodactylus koreanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49R6F
+  sourceIndexes:
+    - name:
+        en: Onychodactylus koreanus
+        zh: Onychodactylus koreanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 49R6F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/159
+            queryName: Onychodactylus koreanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2076c963b2
+      - s-3e5acd21a5
+      - s-03f8562535
+      - s-fda41487db
+      - s-84878c3377
+      - s-0fa9e1d7f4
+      - s-5753c96126
+      - s-449dc03e20
+      - s-3de59d256b
+      - s-b8e7e984eb
+      - s-0afb604591
+      - s-ef37991f22
+      - s-67805b07ba
+      - s-0f743bd3e1
+      - s-800542cc63
+    zh:
+      - s-5c3e997588
+      - s-b82ccf6e16
+      - s-a5c89f70c1
+      - s-a6dbbd0a77
+      - s-0b1b2ee9b5
+      - s-e6a0f23536
+      - s-6486223098
+      - s-eae5dcdafa
+      - s-146945243d
+      - s-c3b062d52c
+      - s-3cd6541fe0
+      - s-f9cc80c25b
+      - s-1b350f5bd9
+      - s-486b27e86c
+      - s-6e1b03a375

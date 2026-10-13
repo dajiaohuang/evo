@@ -1,0 +1,179 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Fusarium graminearum Schwabe
+    rank: species
+    sourceDatasetId: "2073"
+    identity:
+      method: Exact COL26.8 accepted usage, verbatim scientific name including authorship, rank, status, sourceDatasetId, and Fungi classification were checked in the pinned registry release.
+      scope: Nominal accepted usage 6JSTK. Biological claims describe the 60 North American cereal-crop isolates and analyses in Kelly and Ward (2018), not all isolates or the complete species concept.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The source isolates were collected from cereal crops; their source category does not establish unmanaged wild populations.
+      domesticated: The study samples a pathogen associated with agricultural crop systems but does not assess domestication of the fungus.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 28
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; underlying fungal source dataset 2073
+          url: https://www.checklistbank.org/dataset/316115/taxon/6JSTK
+          stableId: col:6JSTK@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage 6JSTK; name and authorship; rank species; sourceDatasetId 2073; Fungi classification
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, status, sourceDatasetId, and classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6JSTK. https://doi.org/10.48580/dgywk
+      - id: kellyWard2018
+        referenceId: ref-572e5132-4ab3-8cb1-a2c2-49ea27782b50
+        fields:
+          - id
+          - title
+          - url
+          - rightsEvidenceUrl
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article and its text under CC0 1.0; separately credited material may carry separate terms. No figures are reproduced.
+          stableId: doi:10.1371/journal.pone.0194616
+          rightsEvidenceUrl: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194616
+          accessedAt: 2026-09-24
+          locator: Abstract; Results, Population genomic structure; Figure 1; Materials and Methods, Genome sequencing
+          licenseAssessment: item-level-verified
+          scope: Original whole-genome population study of three North American F. graminearum cereal-crop isolate groups; dossier statements are limited to the sampled isolates.
+          attribution: Kelly AC, Ward TJ (2018). PLOS ONE 13(3):e0194616. https://doi.org/10.1371/journal.pone.0194616. Claims paraphrased.
+    readerSources:
+      - id: kellyWard2018
+        referenceId: ref-1f4c0d57-cfc9-8dd5-a5fc-e8101c2a8c33
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Original whole-genome population study of three North American F. graminearum cereal-crop isolate groups; dossier statements are limited to the sampled isolates.
+            zh: 北美三个 F. graminearum 谷物作物分离株群的全基因组种群研究；本节结论限于已取样分离株。
+    readerSections:
+      - id: cereal-isolate-panel
+        title:
+          en:
+            page: en
+            section: s-0066ad6bb3
+            part: title
+          zh:
+            page: zh
+            section: s-2634547913
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0066ad6bb3
+            part: body
+          zh:
+            page: zh
+            section: s-2634547913
+            part: body
+        sourceIds:
+          - kellyWard2018
+      - id: north-american-population-structure
+        title:
+          en:
+            page: en
+            section: s-b63ba26a9a
+            part: title
+          zh:
+            page: zh
+            section: s-c4852a08c8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b63ba26a9a
+            part: body
+          zh:
+            page: zh
+            section: s-c4852a08c8
+            part: body
+        sourceIds:
+          - kellyWard2018
+    facets:
+      morphology:
+        status: not-assessed
+        gaps:
+          - The cited genomic study does not provide a species-level morphological assessment.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - The cited study does not directly assess the complete reproductive or developmental life history.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: "The study's population-genomic panel comprised 60 F. graminearum isolates collected from cereal crops in the northern United States and southern Canada: 20 NA1/15ADON, 20 NA2/3ADON, and 20 NX-2 isolates. This describes the source and structure of that sample, not their prevalence across the species' range or all host plants."
+            originalLanguage: en
+            sourceIds:
+              - kellyWard2018
+            locator: Abstract; Materials and Methods, Genome sequencing; Figure 1
+            placeTimeScope: North American cereal-crop isolates selected for the 2018 population-genomic analysis; exact dates and exhaustive site coverage are not claimed here.
+            lifeStatus: Crop-associated field isolates; the study does not resolve wild-host populations or fungal domestication.
+        gaps:
+          - This selected population-genomic panel is not a comprehensive host, habitat, or geographic survey; the broader ecological niches and field prevalence remain unassessed.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: Bayesian clustering and phylogenomic analyses of the 60 sampled isolates supported three North American populations (NA1, NA2, and NA3); eight NX-2 isolates had admixed ancestry across the groups. This is population structure in the study panel, not a species-wide phylogeny or global evolutionary history.
+            originalLanguage: en
+            sourceIds:
+              - kellyWard2018
+            locator: Abstract; Results, Population genomic structure; Figure 1 and its legend
+            placeTimeScope: Whole-genome data from 60 cereal-crop isolates sampled across North America; group assignments follow the authors' 2018 analyses.
+            lifeStatus: Molecular evidence from archived crop-associated isolates; no current population status is inferred.
+        gaps:
+          - The study is geographically limited and does not establish a global species phylogeny, divergence dates, or the present distribution of each population.
+      distribution:
+        status: not-assessed
+        gaps:
+          - The study samples selected North American isolates and does not establish a complete native, introduced, or global range.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil or paleontological search was performed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No formal conservation assessment or population-trend review was performed.

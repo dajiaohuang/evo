@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uraeotyphlus menoni
+  displayName: Uraeotyphlus menoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DNBF
+  sourceIndexes:
+    - name:
+        en: Uraeotyphlus menoni
+        zh: Uraeotyphlus menoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DNBF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/217
+            queryName: Uraeotyphlus menoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b90b499056
+      - s-a0afd2244c
+      - s-c5ede5a1bf
+      - s-c96985b493
+      - s-3a31b913d4
+      - s-0b68f50e8f
+      - s-23d1f75c96
+      - s-a8d2c50283
+      - s-29530bd8e4
+      - s-96a1022408
+      - s-160c29c3c9
+      - s-e96234168e
+      - s-3a69664e2d
+      - s-b8f91f8e65
+    zh:
+      - s-db50885b04
+      - s-4d9ac11b22
+      - s-12870974c7
+      - s-f7da1da08f
+      - s-5299773df6
+      - s-fe2b258fef
+      - s-e7302d1141
+      - s-ca01c917b9
+      - s-2e2c1c7d8d
+      - s-c9999cb5f8
+      - s-187024833b
+      - s-cf187e9897
+      - s-24d8e5d37d
+      - s-05d3ec5b75

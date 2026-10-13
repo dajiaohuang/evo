@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Papurana novaeguineae
+    name:
+      en: Papurana novaeguineae
+      zh: Papurana novaeguineae
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Papurana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Papurana novaeguineae in the morphology deposit
+          zh: 形态数据中的 Papurana novaeguineae 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-dbce47d2f7
+            part: body
+          zh:
+            page: zh
+            section: s-ac46eec7c3
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4051, 4052: measurement fields and sex codes"
+          zh: 第 4051, 4052 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fbae4664c9
+            part: body
+          zh:
+            page: zh
+            section: s-90e81ecd0e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4051, 4052; Reference.csv rows 3947
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4051
+        values:
+          - Ranidae
+          - Papurana
+          - Papurana novaeguineae
+          - F
+          - "34.6"
+          - "14"
+          - "10.9"
+          - "4.98"
+          - "3.42"
+          - NA
+          - "3.24"
+          - "3.67"
+          - NA
+          - "3.02"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "17.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.1"
+          - "17"
+          - NA
+          - NA
+          - NA
+          - "9.19"
+          - NA
+          - NA
+          - NA
+          - "1.07"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.1"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4052
+        values:
+          - Ranidae
+          - Papurana
+          - Papurana novaeguineae
+          - M
+          - "41.8"
+          - "16.2"
+          - "13.6"
+          - "5.43"
+          - "3.53"
+          - NA
+          - "2.94"
+          - "4.4"
+          - NA
+          - "3.77"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "20.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.8"
+          - "20"
+          - NA
+          - NA
+          - NA
+          - "10.9"
+          - NA
+          - NA
+          - NA
+          - "1.04"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.28"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3947
+        values:
+          - Anura
+          - Papurana_novaeguineae
+          - Menzies, J. (1987). A taxonomic revision of Papuan Rana (Amphibia, Ranidae). Australian Journal of Zoology, 35, 373. https://doi.org/10.1071/zo9870373
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - TL
+      - Toe3L
+      - Toe4L
+      - Fin3L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

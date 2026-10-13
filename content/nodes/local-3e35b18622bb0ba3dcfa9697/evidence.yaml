@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Proceratophrys itamari
+    name:
+      en: Proceratophrys itamari
+      zh: Proceratophrys itamari
+    sourceClassification:
+      order: Anura
+      family: Odontophrynidae
+      genus: Proceratophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-05f1b99c21
+            part: body
+          zh:
+            page: zh
+            section: s-aeb9a2d697
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5e85ae42b2
+            part: body
+          zh:
+            page: zh
+            section: s-f1fcdba35d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4901, 4902; Reference.csv rows 1158
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4901
+        values:
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys itamari
+          - F
+          - "47"
+          - "17.4"
+          - "24.6"
+          - "3.9"
+          - NA
+          - NA
+          - "4.7"
+          - "2.7"
+          - "10.8"
+          - "4.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24.3"
+          - NA
+          - NA
+          - "18.7"
+          - "20"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4902
+        values:
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys itamari
+          - M
+          - "36.7"
+          - "9.6"
+          - "18.3"
+          - "3.1"
+          - NA
+          - NA
+          - "3.7"
+          - "1.9"
+          - "8.5"
+          - "3.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.5"
+          - NA
+          - NA
+          - "14.2"
+          - "15.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1158
+        values:
+          - Anura
+          - Proceratophrys_itamari
+          - Mângia, S., Santana, D. J., Cruz, C. A. G., & Feio, R. N. (2014). Taxonomic review of Proceratophrys melanopogon (Miranda-Ribeiro, 1926) with description of four new species (Amphibia, Anura, Odontophrynidae).
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - LAL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6VY6D
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

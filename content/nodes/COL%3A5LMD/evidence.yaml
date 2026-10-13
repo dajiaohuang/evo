@@ -1,0 +1,371 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Martes
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Martes
+      en: Martes
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-716c47cc1f
+            part: body
+          en:
+            page: en
+            section: s-281af3673e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-fbb62535e9
+            part: body
+          en:
+            page: en
+            section: s-233804d585
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-86f2031b70
+            part: body
+          en:
+            page: en
+            section: s-94730f5815
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-2b54ce44f0
+            part: body
+          en:
+            page: en
+            section: s-3a55556420
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-3a25c5f5bd
+            part: body
+          en:
+            page: en
+            section: s-ff0bd5057c
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-200b35bf54
+            part: body
+          en:
+            page: en
+            section: s-a5eca2784f
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-3a2f51115d
+            part: body
+          en:
+            page: en
+            section: s-b307b4159c
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-bd5b2fa7fa
+            part: body
+          en:
+            page: en
+            section: s-744fabfd4f
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-ba2a31450b
+            part: body
+          en:
+            page: en
+            section: s-d395e340df
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Martes
+          url: https://www.checklistbank.org/dataset/316115/taxon/5LMD
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 4 authored entries grouped under Martes by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 5 authored same-name records placed under Martes by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 7 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 7
+            foraging: 7
+            activity: 7
+          readingTargets:
+            - name: Martes flavigula
+              colId: 3Y9VV
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3Y9VV
+            - name: Martes foina
+              colId: 3Y9VW
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3Y9VW
+            - name: Martes gwatkinsii
+              colId: 3Y9VX
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3Y9VX
+            - name: Martes martes
+              colId: 3Y9W2
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3Y9W2
+            - name: Martes melampus
+              colId: 3Y9W3
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3Y9W3
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Martes by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 3Y9W3
+              name: Martes melampus
+              canonicalPath: content/nodes/COL%3A3Y9W3
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 3 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 3Y9W9
+              name: Martes zibellina
+              canonicalPath: content/nodes/COL%3A3Y9W9
+            - colId: 3Y9VW
+              name: Martes foina
+              canonicalPath: content/nodes/COL%3A3Y9VW
+            - colId: 3Y9VR
+              name: Martes americana
+              canonicalPath: content/nodes/COL%3A3Y9VR
+          fieldAccountCounts:
+            gestation(mo): 3
+            newborn(g): 2
+            weaning(mo): 3
+            wean mass(g): 2
+            AFR(mo): 3
+            max. life(mo): 3
+            litter size: 3
+            litters/year: 1
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-1c5bbbef37
+        part: body
+      en:
+        page: en
+        section: s-baee705aa6
+        part: body

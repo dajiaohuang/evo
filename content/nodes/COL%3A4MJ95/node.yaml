@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis altae
+  displayName: Pristimantis altae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ95
+  sourceIndexes:
+    - name:
+        en: Pristimantis altae
+        zh: Pristimantis altae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ95
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/99
+            queryName: Pristimantis altae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/23
+            queryName: Eleutherodactylus altae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4ece2e9119
+      - s-a7f0c1534c
+      - s-8cc7bd259a
+      - s-0749524ed8
+      - s-3db8604395
+      - s-5d41148f9f
+      - s-d192bc79c6
+      - s-c878b54c48
+      - s-ca245ebf9a
+    zh:
+      - s-54a56bb8fa
+      - s-5b17aa0c98
+      - s-31af706eaf
+      - s-3704b972d2
+      - s-8b52a0ad4d
+      - s-ffb6b33609
+      - s-62c9209f6c
+      - s-ae554e5fd7
+      - s-5c781f335c

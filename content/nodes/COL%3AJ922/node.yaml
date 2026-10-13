@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus patazensis
+  displayName: Atelopus patazensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J922
+  sourceIndexes:
+    - name:
+        en: Atelopus patazensis
+        zh: Atelopus patazensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J922
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/300
+            queryName: Atelopus patazensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4580b1d48d
+      - s-021046f5a2
+      - s-23f285c301
+      - s-7324359583
+      - s-cacad11a96
+      - s-b94f88edc6
+      - s-6e0f68549b
+      - s-56fdcef332
+      - s-f076dcb4c9
+    zh:
+      - s-09b65bf588
+      - s-0ac16c95db
+      - s-cd17816047
+      - s-9c504e6889
+      - s-d04c3ea127
+      - s-76c3f3b39e
+      - s-6ee6115f26
+      - s-1709dc641d
+      - s-54e23b1eb5

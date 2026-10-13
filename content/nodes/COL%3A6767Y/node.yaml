@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anodonthyla jeanbai
+  displayName: Anodonthyla jeanbai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6767Y
+  sourceIndexes:
+    - name:
+        en: Anodonthyla jeanbai
+        zh: Anodonthyla jeanbai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6767Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/493
+            queryName: Anodonthyla jeanbai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b12bd450aa
+      - s-27f29899d0
+      - s-a8361fef38
+      - s-85dce33a8a
+      - s-3b245d620d
+      - s-95eeb9df35
+      - s-df15791203
+      - s-d98307bc58
+      - s-a0e0d2a5bf
+    zh:
+      - s-3677e1923f
+      - s-340207fd80
+      - s-0ba71e7859
+      - s-d19c1f4fd1
+      - s-67e71a7be5
+      - s-b040ee1b1b
+      - s-6a0fa1422a
+      - s-e6bcbdb1ce
+      - s-335bccc56b

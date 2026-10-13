@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus pallidus
+  displayName: Eleutherodactylus pallidus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399KG
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus pallidus
+        zh: Eleutherodactylus pallidus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399KG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/288
+            queryName: Eleutherodactylus pallidus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/481
+            queryName: Syrrhophus pallidus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/469
+            queryName: Syrrhophus modestus pallidus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-875ae1b864
+      - s-41720a6ba5
+      - s-b32cd1e317
+      - s-6ed8d39566
+      - s-63701f8b57
+      - s-0ae0677f0b
+      - s-9d7f9ca1fe
+      - s-f798e0e2e6
+      - s-51540998de
+      - s-b9b9bf9b23
+      - s-5d4e9137b6
+      - s-953accb6fc
+      - s-e24d2b9a9b
+      - s-bb960b4ab5
+      - s-6c4c9cc336
+    zh:
+      - s-3b0fe015da
+      - s-6ce6527be3
+      - s-2f0d39c461
+      - s-733c2f1460
+      - s-501d49cb6a
+      - s-a32ba2827f
+      - s-79e9c7b4d1
+      - s-e8ef56a237
+      - s-0e1c714426
+      - s-99a10ef046
+      - s-aef94127b1
+      - s-9c790a4fcc
+      - s-2767ba75e4
+      - s-f607521997
+      - s-16c404d6d5

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium abbotti
+  displayName: Leptobrachium abbotti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKBB
+  sourceIndexes:
+    - name:
+        en: Leptobrachium abbotti
+        zh: Leptobrachium abbotti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKBB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/313
+            queryName: Leptobrachium abbotti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/462
+            queryName: Megophrys abbotti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2fd633ad80
+      - s-0677cce699
+      - s-549188b34a
+      - s-2147171e35
+      - s-e112653386
+      - s-28c6901943
+      - s-c4e436d96b
+      - s-7712c40438
+      - s-5f62c0b523
+      - s-510ac79fd5
+      - s-8a0219cd9c
+      - s-6a8ca70e46
+    zh:
+      - s-cb16ade439
+      - s-7c71aa2b60
+      - s-8301db3760
+      - s-d61f3c5c4d
+      - s-b6d5cdface
+      - s-0b7e5308b7
+      - s-faf24a9541
+      - s-ffcefa6034
+      - s-9f9d4465ec
+      - s-059f5f71c3
+      - s-9e4e7daaeb
+      - s-7718ef74b8

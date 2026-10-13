@@ -1,0 +1,3 @@
+## *Homalolepis suaveolens* {#s-99ad46dd84}
+The field records a developed, branched above-ground stem and a leaf rachis about 13 cm long. Leaflets are opposite or nearly opposite, oblong-elliptic to obovate, leathery, with inconspicuous apical glands, rolled-under margins, and a softly to densely hairy lower surface. The inflorescence is thyrsoid. Sepals are hairy; petals range from narrowly oblong to elliptic or lance-shaped and are densely hairy. The staminal appendages taper to a point; the gynophore is silky-haired and the ovary densely hairy to silky-haired. The fruit surface is smooth. These are recorded characters.
+

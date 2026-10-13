@@ -1,0 +1,202 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Albertogaudrya unica
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Albertogaudrya unica
+      en: Albertogaudrya unica
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b3931dce6a
+            part: body
+          en:
+            page: en
+            section: s-a1301b30d6
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8d168e5931
+            part: body
+          en:
+            page: en
+            section: s-1352d0b07e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b369b5dd53
+            part: body
+          en:
+            page: en
+            section: s-9d5265d12a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a037fe0e5d
+            part: body
+          en:
+            page: en
+            section: s-d4e6263d3b
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-76e4748ca3
+            part: body
+          en:
+            page: en
+            section: s-d2a0ffb9e9
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Albertogaudrya unica
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=58789&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:58789; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:58789
+          selectedOccurrenceIds:
+            - occ:493749
+            - occ:1312662
+            - occ:1312664
+            - occ:1312698
+            - occ:1312812
+            - occ:1312838
+            - occ:1313684
+            - occ:1313685
+            - occ:1313686
+            - occ:1313687
+            - occ:1313688
+            - occ:1313712
+            - occ:1314445
+          selectedCollectionIds:
+            - col:49902
+            - col:176163
+            - col:175744
+            - col:176167
+            - col:13779
+            - col:176190
+            - col:176285
+          sourceReferenceIds:
+            - ref:13081
+            - ref:57836
+            - ref:10312
+            - ref:54855
+            - ref:54480
+            - ref:54301
+          originalIdentificationMappings:
+            - occurrenceId: occ:1313684
+              originalIdentifiedName: Albertogaudrya oxygona n. sp.
+              acceptedName: Albertogaudrya unica
+              difference: null
+            - occurrenceId: occ:1313685
+              originalIdentifiedName: Albertogaudrya separata n. sp.
+              acceptedName: Albertogaudrya unica
+              difference: null
+            - occurrenceId: occ:1313686
+              originalIdentifiedName: Albertogaudrya tersa n. sp.
+              acceptedName: Albertogaudrya unica
+              difference: null
+            - occurrenceId: occ:1313687
+              originalIdentifiedName: Scabellia cyclogona n. sp.
+              acceptedName: Albertogaudrya unica
+              difference: null
+            - occurrenceId: occ:1313688
+              originalIdentifiedName: Scabellia laticincta n. sp.
+              acceptedName: Albertogaudrya unica
+              difference: null
+            - occurrenceId: occ:1313712
+              originalIdentifiedName: Albertogaudrya regia n. sp.
+              acceptedName: Albertogaudrya unica
+              difference: null
+            - occurrenceId: occ:1314445
+              originalIdentifiedName: Albertogaudrya unica n. gen. n. sp.
+              acceptedName: Albertogaudrya unica
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-a97b8084a3
+        part: body
+      en:
+        page: en
+        section: s-64431812dc
+        part: body

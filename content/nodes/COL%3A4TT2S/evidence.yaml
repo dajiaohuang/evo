@@ -1,0 +1,123 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ruta graveolens L.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4TT2S, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4TT2S; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4TT2S
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4TT2S
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000463744-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4TT2S / WFO wfo-0000463744
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_18439_0
+        referenceId: ref-ed6672f5-81c9-8ec9-a175-59cdf68dea3e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Ruta graveolens L. account; archive rows 102135 (Morphology), 100051 (Habitat), source identifier 18439.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Shrub, dwarf shrub or herb, up to 1 m high. Leaves alternate, pinnate to subbipinnate, up to 100 x 60 mm; rachis stout, glandular, leaflets thick-textured, elliptical or obovate, up to 25 x 10 mm, margins entire, sometimes revolute, glabrous, densely pellucid-glandular. Flowers in terminal and axillary cymes on stout peduncles up to 90 mm long; petals 5, up to 8 mm long, yellow, clawed, limb concave with lacerate margins. Flowering time Sept.-Mar. Fruit a 4-lobed capsule, ± 5 mm long, dehiscing at apex, densely pellucid glandular, each lobe several seeded. Seeds blackish, wedge-shaped, 2 mm long, rounded at back, minutely tuberculate.
+            sourceIds:
+              - sanbi_18439_0
+            locator: "SANBI/WFO archive Morphology row 102135; source 18439.0; publication: Victor, JE; Bester, SP. 2019. Rutaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(2): 1429 - 1444. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Weed on waste and cultivated land; Albany Thicket, Eastern Fynbos-Renosterveld.
+            sourceIds:
+              - sanbi_18439_0
+            locator: "SANBI/WFO archive Habitat row 100051; source 18439.0; publication: Victor, JE; Bester, SP. 2019. Rutaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(2): 1429 - 1444. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-20cf45d13e
+        title:
+          en:
+            page: en
+            section: s-a0b7f23f20
+            part: title
+          zh:
+            page: zh
+            section: s-907f25f742
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a0b7f23f20
+            part: body
+          zh:
+            page: zh
+            section: s-907f25f742
+            part: body
+        sourceIds:
+          - sanbi_18439_0

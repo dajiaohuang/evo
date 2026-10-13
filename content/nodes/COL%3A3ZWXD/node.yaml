@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mertensophryne nyikae
+  displayName: Mertensophryne nyikae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3ZWXD
+  sourceIndexes:
+    - name:
+        en: Mertensophryne nyikae
+        zh: Mertensophryne nyikae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3ZWXD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/439
+            queryName: Mertensophryne nyikae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/380
+            queryName: Bufo nyikae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/291
+            queryName: Bufo taitanus nyikae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7bb2e90c3c
+      - s-36ac2a0825
+      - s-416cf33eda
+      - s-9f5419f8c9
+      - s-ac453a8cf1
+      - s-393cc63645
+      - s-f1a66f20eb
+      - s-a8b959b4c0
+    zh:
+      - s-a0c3958495
+      - s-ede17f31f2
+      - s-ad3645b8d4
+      - s-87fc4347fe
+      - s-89f7b00157
+      - s-127ff5278e
+      - s-da3618d81d
+      - s-ee2dbf2a70

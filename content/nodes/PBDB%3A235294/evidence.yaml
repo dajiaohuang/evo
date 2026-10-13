@@ -1,0 +1,229 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Stylemys nebrascensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Stylemys nebrascensis
+      en: Stylemys nebrascensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1b5df24228
+            part: body
+          en:
+            page: en
+            section: s-631fd4679e
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2e28372423
+            part: body
+          en:
+            page: en
+            section: s-ff7510850d
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4d035cc9d4
+            part: body
+          en:
+            page: en
+            section: s-0b09dfea32
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9a4410840d
+            part: body
+          en:
+            page: en
+            section: s-5b3324aa04
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bb47001bfe
+            part: body
+          en:
+            page: en
+            section: s-9db4847979
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Stylemys nebrascensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=235294&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:235294; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:235294
+          selectedOccurrenceIds:
+            - occ:897399
+            - occ:897401
+            - occ:897403
+            - occ:897405
+            - occ:897407
+            - occ:897409
+            - occ:897411
+            - occ:897414
+            - occ:898265
+            - occ:1280887
+            - occ:1386586
+            - occ:1386610
+            - occ:1386611
+            - occ:1386612
+            - occ:1386613
+            - occ:1389220
+            - occ:1389221
+            - occ:1393521
+            - occ:1414068
+          selectedCollectionIds:
+            - col:99590
+            - col:99591
+            - col:99592
+            - col:99593
+            - col:99594
+            - col:99595
+            - col:17133
+            - col:17527
+            - col:99836
+            - col:101961
+            - col:190539
+            - col:16977
+            - col:17745
+            - col:17152
+          sourceReferenceIds:
+            - ref:34254
+            - ref:3170
+            - ref:697
+            - ref:34333
+            - ref:55503
+            - ref:64068
+            - ref:64069
+            - ref:12192
+            - ref:13001
+            - ref:64377
+            - ref:14442
+            - ref:64803
+          originalIdentificationMappings:
+            - occurrenceId: occ:897414
+              originalIdentifiedName: Gopherus neglectus n. sp.
+              acceptedName: Stylemys nebrascensis
+              difference: null
+            - occurrenceId: occ:1386586
+              originalIdentifiedName: Stylemys nebrascensis n. gen. n. sp.
+              acceptedName: Stylemys nebrascensis
+              difference: null
+            - occurrenceId: occ:1386610
+              originalIdentifiedName: Testudo lata n. sp.
+              acceptedName: Stylemys nebrascensis
+              difference: null
+            - occurrenceId: occ:1386611
+              originalIdentifiedName: Emys hemispherica n. sp.
+              acceptedName: Stylemys nebrascensis
+              difference: null
+            - occurrenceId: occ:1386612
+              originalIdentifiedName: Emys oweni n. sp.
+              acceptedName: Stylemys nebrascensis
+              difference: null
+            - occurrenceId: occ:1386613
+              originalIdentifiedName: Emys culbertsonii n. sp.
+              acceptedName: Stylemys nebrascensis
+              difference: null
+            - occurrenceId: occ:1389220
+              originalIdentifiedName: Testudo amphithorax n. sp.
+              acceptedName: Stylemys nebrascensis
+              difference: null
+            - occurrenceId: occ:1389221
+              originalIdentifiedName: Testudo ligonius n. sp.
+              acceptedName: Stylemys nebrascensis
+              difference: null
+            - occurrenceId: occ:1393521
+              originalIdentifiedName: Testudo emiliae n. sp.
+              acceptedName: Stylemys nebrascensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-84ea27a1e8
+        part: body
+      en:
+        page: en
+        section: s-2846cbb05c
+        part: body

@@ -1,0 +1,17 @@
+## 接受名称与分类位置 {#s-66046678ac}
+COL26.8 接受 Pristimantis imthurni Kok, 2013 为种级记录，所记分类路径为 Anura（目） → Strabomantidae（科） → Pristimantis（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+
+## 阅读路线 {#s-f3f12518d0}
+目录在接受层级中记录 Pristimantis imthurni。链接来源仍是独立记录，本页未据此确立本种生物学性状。
+
+## 相关来源记录与数据集 {#s-529928cd39}
+以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
+
+- [Amphibian morphology v3: Pristimantis imthurni](../../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Brachycephaloidea/Pristimantis/Pristimantis_imthurni/page.zh.md)
+
+## catalogue-profile / limitations {#s-0640afabc2}
+本条提供目录名称与分类位置。来源链接仅供进一步比较，本页未确立本种特定的生物学发现。
+
+## 材料与适用范围 {#s-a24b96fb16}
+COL26.8 在接受目录层级中记录 Pristimantis imthurni。链接材料仍是独立来源记录，因此本页不对本种性状或分布作出主张。
+

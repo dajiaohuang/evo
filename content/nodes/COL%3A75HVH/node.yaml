@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pachyhynobius shangchengensis
+  displayName: Pachyhynobius shangchengensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75HVH
+  sourceIndexes:
+    - name:
+        en: Pachyhynobius shangchengensis
+        zh: Pachyhynobius shangchengensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75HVH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/374
+            queryName: Pachyhynobius shangchengensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 35
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/359
+            queryName: Hynobius yunanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/171
+            queryName: Xenobius melanonychus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/172
+            queryName: Sinobius melanonychus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-339414a9cf
+      - s-f0cc505c32
+      - s-d3259c1bec
+      - s-208dc79572
+      - s-74e12ce7dd
+      - s-40bf1d96e2
+      - s-478ac09492
+      - s-8b464ffe67
+      - s-0c70ce2773
+      - s-5d2e72cb0c
+      - s-a56ba4fb05
+    zh:
+      - s-27a77574e8
+      - s-8f0cd9b9e3
+      - s-99a2ad7f71
+      - s-28a220bde2
+      - s-19be4ef44c
+      - s-eb9bd52bbf
+      - s-ad900062aa
+      - s-a5182b7b28
+      - s-1a837aad4b
+      - s-e7ad5c5666
+      - s-b3bfb1ede0

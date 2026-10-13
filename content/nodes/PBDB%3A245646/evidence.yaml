@@ -1,0 +1,168 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pelagosaurus typus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Pelagosaurus typus
+      en: Pelagosaurus typus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2293831c02
+            part: body
+          en:
+            page: en
+            section: s-d9d303dbb1
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4822b1eabc
+            part: body
+          en:
+            page: en
+            section: s-cddc47bb98
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2b57ac1d5d
+            part: body
+          en:
+            page: en
+            section: s-2d5472bdd9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ac9df5ada5
+            part: body
+          en:
+            page: en
+            section: s-01647e63c6
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5bd218f6dc
+            part: body
+          en:
+            page: en
+            section: s-3761b3e0f7
+            part: body
+    sources:
+      - id: pbdbCrocodylomorphTaxonomy20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Pelagosaurus typus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=245646&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbCrocodylomorphOccurrences20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:245646; original response record indices retained in data/sources/crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: c4a662dc45be8020da61b782b38d37ab583c35a2e4bdf978ceca29e010472ca1
+          pbdbTaxonId: txn:245646
+          selectedOccurrenceIds:
+            - occ:821657
+            - occ:1070321
+            - occ:1070815
+            - occ:1070982
+            - occ:1071684
+            - occ:1071687
+          selectedCollectionIds:
+            - col:90459
+            - col:132646
+            - col:132801
+            - col:132865
+            - col:132802
+            - col:122732
+          sourceReferenceIds:
+            - ref:30422
+            - ref:42722
+            - ref:42759
+            - ref:42779
+          originalIdentificationMappings:
+            - occurrenceId: occ:1070815
+              originalIdentifiedName: Pelagosaurus typus n. gen. n. sp.
+              acceptedName: Pelagosaurus typus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b6b44dcfe8
+        part: body
+      en:
+        page: en
+        section: s-9f7b1f7673
+        part: body

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor talamancae
+  displayName: Craugastor talamancae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC7R
+  sourceIndexes:
+    - name:
+        en: Craugastor talamancae
+        zh: Craugastor talamancae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC7R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/188
+            queryName: Craugastor talamancae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/201
+            queryName: Eleutherodactylus talamancae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-174b79797f
+      - s-9ea1a22e36
+      - s-de952cef2d
+      - s-d34f91aecf
+      - s-ba61fe0651
+      - s-00b4fe9219
+      - s-86c0f4513e
+      - s-dd5b898ba2
+      - s-78321d3d51
+    zh:
+      - s-094bcd17f3
+      - s-1698e8078e
+      - s-090ee4396a
+      - s-b55712c71b
+      - s-414a40a478
+      - s-4876f8deb2
+      - s-473b1e70bd
+      - s-712f0eec0a
+      - s-9747b0b896

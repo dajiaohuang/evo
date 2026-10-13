@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus dorsimaculatus
+  displayName: Afrixalus dorsimaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G65
+  sourceIndexes:
+    - name:
+        en: Afrixalus dorsimaculatus
+        zh: Afrixalus dorsimaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G65
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/64
+            queryName: Afrixalus dorsimaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/488
+            queryName: Megalixalus dorsimaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-920c518671
+      - s-64fbd5e150
+      - s-b83e15e815
+      - s-31a9d3c5f5
+      - s-cf2696c72b
+      - s-2543b54272
+      - s-f8564c8d23
+    zh:
+      - s-31e25a0473
+      - s-bbf4a14727
+      - s-94044ec35e
+      - s-5a83dce2e4
+      - s-6c3c56f612
+      - s-b30cf64289
+      - s-94e5870d10

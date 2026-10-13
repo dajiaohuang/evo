@@ -1,0 +1,3 @@
+## Deeply revolute leaves and a rough fruit {#s-8cb1b12069}
+The regional Brazilian Flora 2020 field describes grooved stems and cylindrical branches with unthickened bark. Leaves bear white latex and are loosely spaced; their arrangement is recorded as alternate or subopposite, and the base as deeply revolute. The inflorescences are terminal, corymb-like cymes. The ovary is tomentose, while the corolla lobes are shorter than the tube. The fruit has a stalk and inconspicuous lenticels, with a muricate surface; rib prominence is listed as either evident or not evident. The field does not explain these alternatives or represent the full variation of the species.
+

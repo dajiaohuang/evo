@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rana wuyiensis
+    name:
+      en: Rana wuyiensis
+      zh: Rana wuyiensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Rana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-96079174d8
+            part: body
+          zh:
+            page: zh
+            section: s-b2a7cc2607
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1403fce8cc
+            part: body
+          zh:
+            page: zh
+            section: s-44f7b89269
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5210; Reference.csv rows 4015
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5210
+        values:
+          - Ranidae
+          - Rana
+          - Rana wuyiensis
+          - M
+          - "42.9"
+          - "12.7"
+          - "13.5"
+          - "5.3"
+          - "3.9"
+          - NA
+          - "3.8"
+          - "4.6"
+          - "2.6"
+          - NA
+          - "6.4"
+          - "2.8"
+          - "11.5"
+          - "14.8"
+          - NA
+          - "25.4"
+          - "36.7"
+          - "27.8"
+          - "24.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5"
+          - "4.2"
+          - "7.1"
+          - "4.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4015
+        values:
+          - Anura
+          - Rana_wuyiensis
+          - Wu, Y., Shi, S., Zhang, H., Chen, W., Cai, B., Hoang, C., . . . Wang, B. (2021). A new species of the genus Rana sensu lato Linnaeus, 1758 (Anura, Ranidae) from Wuyi Mountain, Fujian Province, China. Zookeys, 1065, 101-124. https://doi.org/10.3897/zookeys.1065.67005
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - SKJQB
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pithecopus megacephalus
+  displayName: Pithecopus megacephalus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JBPJ
+  sourceIndexes:
+    - name:
+        en: Pithecopus megacephalus
+        zh: Pithecopus megacephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JBPJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/365
+            queryName: Pithecopus megacephalus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/192
+            queryName: Phyllomedusa megacephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/36
+            queryName: Bradymedusa megacephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-86d658fa3e
+      - s-3a4d02985a
+      - s-9ca73b1593
+      - s-30b3621d33
+      - s-77ef3c672d
+      - s-fc51b9ce9b
+      - s-9c25cb8f66
+      - s-433896d736
+      - s-b0c15eb9a0
+      - s-74d6d0d268
+    zh:
+      - s-5cee9ca392
+      - s-fbad89b9da
+      - s-25c1015fc0
+      - s-cde46e498b
+      - s-b330ae15c8
+      - s-4c9cdd7381
+      - s-a0e52a4214
+      - s-24db2dd6c0
+      - s-ff9f86d62e
+      - s-694dd5ea65

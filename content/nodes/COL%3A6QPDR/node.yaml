@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lyciasalamandra antalyana
+  displayName: Lyciasalamandra antalyana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QPDR
+  sourceIndexes:
+    - name:
+        en: Lyciasalamandra antalyana
+        zh: Lyciasalamandra antalyana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QPDR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/239
+            queryName: Lyciasalamandra antalyana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/25
+            queryName: Mertensiella luschani antalyana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/26
+            queryName: Lyciasalamandra antalyana antalyana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/27
+            queryName: Lyciasalamandra antalyana gocmeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ac92915df7
+      - s-1340d669b1
+      - s-bb528de3d0
+      - s-ec1d29a83c
+      - s-60cf748a88
+      - s-e474172627
+      - s-29dd676c78
+      - s-b573dfee32
+      - s-d5336919ef
+    zh:
+      - s-10fa8d752c
+      - s-0b9dba7dc1
+      - s-aa7f3220f1
+      - s-756d41df67
+      - s-2420cf387c
+      - s-7e3daa0d2a
+      - s-4ec8540bb4
+      - s-0352e35925
+      - s-e4a53a1a0a

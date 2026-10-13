@@ -1,0 +1,74 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-8461fd037e
+      part: title
+    titleZh:
+      page: zh
+      section: s-f5375d4d35
+      part: title
+    category: origin
+    startAge: 393.47
+    endAge: 387.95
+    regions:
+      - Zachełmie Quarry, Holy Cross Mountains, Poland
+    clades:
+      - Unidentified digit-bearing tetrapod trackmaker
+    summary:
+      page: en
+      section: s-8461fd037e
+      part: body
+    summaryZh:
+      page: zh
+      section: s-f5375d4d35
+      part: body
+    claimIds:
+      - claim:event:zachelmie-digit-trackways
+    evidenceItems:
+      - statement: Quadrupedal trackways, isolated footprints and digit impressions occur on securely dated early Middle Devonian bedding surfaces
+        relation: supports
+        claimIds:
+          - claim:event:zachelmie-digit-trackways
+        referenceLinks:
+          - relation: supports
+            referenceId: niedzwiedzki-2010-zachelmie-trackways
+            pages: 43–48
+            figure: Figures 1–5; Supplementary Figures 1–25
+    uncertaintyItems:
+      - statement: A footprint records a trace-making appendage and gait, not the trackmaker's body taxonomy, complete anatomy or ancestor–descendant identity
+        relation: contextualizes
+        claimIds:
+          - claim:event:zachelmie-digit-trackways
+        referenceLinks:
+          - relation: supports
+            referenceId: niedzwiedzki-2010-zachelmie-trackways
+            pages: 43–48
+            quoteLocator: Abstract; trackway description; phylogenetic implications
+      - statement: The displayed 393.47–387.95 Ma interval is the atlas's current Eifelian stage window, not an analytical error bar on one footprint
+        relation: contextualizes
+        claimIds:
+          - claim:event:zachelmie-digit-trackways
+        referenceLinks:
+          - relation: supports
+            referenceId: niedzwiedzki-2010-zachelmie-trackways
+            pages: 43–48
+            quoteLocator: Geological setting and age
+  claims:
+    - subjectId: event:zachelmie-digit-trackways
+      claimKind: scientific
+      claimType: morphology
+      statement: Eifelian bedding surfaces at Zachełmie preserve quadrupedal trackways and isolated footprints with digit impressions attributed to an unidentified limbed tetrapod trackmaker; the traces do not identify a named body taxon or direct ancestor.
+      confidence: medium
+      confidenceRationale: The prints, trackway geometry, digit impressions and stratigraphic context are directly documented, but trace-maker identity must be inferred from traces and the environmental interpretation has been debated. Medium confidence preserves the distinction between a digit-bearing trackmaker and a complete body-fossil or ancestor assignment.
+      referenceLinks:
+        - relation: supports
+          referenceId: niedzwiedzki-2010-zachelmie-trackways
+          pages: 43–48
+          figure: Figures 1–5; Supplementary Figures 1–25
+          quoteLocator: Abstract; trackway and footprint descriptions; phylogenetic implications
+  claim-rationales.zh:
+    - 足印、行迹几何、趾印与地层背景均有直接记录，但造迹者身份必须由遗迹推断，古环境解释也曾存争议。中置信度保留了“具趾造迹者”与“完整身体化石或直系祖先”之间的边界。
+  claim-statements.zh:
+    - Zachełmie 的艾菲尔期层面保存了四足行迹和带趾印的孤立足印，归因于一种身份未明的具肢四足动物造迹者；这些遗迹不能识别命名的身体分类单元或直系祖先。

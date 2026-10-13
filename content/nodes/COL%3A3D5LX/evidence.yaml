@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Euryops acraeus M.D.Hend.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3D5LX, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3D5LX; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3D5LX
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3D5LX
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000051060-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3D5LX / WFO wfo-0000051060
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_4983_0
+        referenceId: ref-9c04a0e0-5fc4-8c7b-aa6b-c0abfc4391fb
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Euryops acraeus M.D.Hend. account; archive rows 45508 (Morphology), 45011 (Habitat), 46682 (Diagnostic), source identifier 4983.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: An erect, much-branched, dense and rounded shrub, up to 1 m high, glabrous in all external parts. Stems repeatedly 2-3-forked. Branchlets closely leafy at the tips, lower down nude and marked with leaf-scars, blackish. Leaves suberect-erecto-patent, becoming reflexed before withering, linear, 1-3 cm long, 2-4 mm wide, flattened, coriaceous; adaxial side flat or canaliculate with involute margins, glaucous and whitish-striate (somewhat sulcate when dry); abaxial side convex, green or slightly glaucous, with 1-3 conspicuous, often dark veins; apex bluntly 3-toothed, teeth c. 1-2 mm long and 1 mm wide or smaller; leaf-base dilated, half-clasping. Peduncles lateral in the uppermost leaf-axils, solitary or 2-3 together on the same branchlet, 1-4 cm long, c. 0.5-0.8 mm thick, terete, ± striate, with 2 lateral, subulate-filiform, 2-3 mm long, reduced leaves in the axil. Involucre widely campanulate or hemispherical, 11-16 mm in diam. Involucral bracts 8-11, uniseriate or subuniseriate, connate to 1/3 or almost to the middle, 5-9 mm long; the free lobes broadly-narrowly ovate(-oblong), 2.5-6 mm long, 2-4.5 mm wide, obtuse-acute, distinctly 3-9-nerved, puberulous-tipped. Receptacle convex-hemispherical, distinctly alveolate. Ray-florets 8-13, yellow. Tube 1-1.3 mm long, cylindrical. Lamina elliptic or oblong-narrowly elliptic-oblong, 8-10 mm long, 3-4 mm wide, 4-veined. Style terete with swollen base; style branches flattened, 0.5-0.8 mm long, obtuse. Disc-florets c. 30-60. Corolla 3.5-4.0 mm long. Tube 1.2-1.5 mm long, cylindrical. Limb campanulate, 2-2.5 mm long; lobes ovate-narrowly triangular, 0.6-0.9 mm long. Anthers 1.2-1.4 mm long inch the narrowly ovate subacute appendage. Style ± flattened with swollen base; stylophore short but distinct; style branches 0.5-0.7 mm long. Pappus bristles numerous-copious, 1-2 mm long, densely barbellate, white, ± erect. Achenes oblanceolate, 4-4.5 mm long, 1-1.5 mm wide, shortly white-villous with appressed-erecto-patent hairs (mucilaginous when soaked), with 5-10 low but distinct longitudinal ribs, light or greenish brown below the indumentum.
+            sourceIds:
+              - sanbi_4983_0
+            locator: "SANBI/WFO archive Morphology row 45508; source 4983.0; publication: Nordenstam, RB. 1968. The genus Euryops I. Opera Bot. 20: 7 - 409. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: E. acraeus is a very characteristic species, easily recognized, i.a., on the apically toothed leaves and the involute leaf-margins. The possibly closest relative is E. brownei from East Tropical Africa, which differs in having entire leaves with serrulate margins and pubescent peduncles. Even before it was described the species was successfully grown in England (under the name of E. evansii) and proved perfectly hardy in the open.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_4983_0
+            locator: "SANBI/WFO archive Diagnostic row 46682; source 4983.0; publication: Nordenstam, RB. 1968. The genus Euryops I. Opera Bot. 20: 7 - 409. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: I found it growing in stony and rocky places with some shelter. On more exposed and flat ground it is replaced by E. montanus and E. decumbens.
+            sourceIds:
+              - sanbi_4983_0
+            locator: "SANBI/WFO archive Habitat row 45011; source 4983.0; publication: Nordenstam, RB. 1968. The genus Euryops I. Opera Bot. 20: 7 - 409. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

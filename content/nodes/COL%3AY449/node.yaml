@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus infacetus
+  displayName: Cophixalus infacetus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y449
+  sourceIndexes:
+    - name:
+        en: Cophixalus infacetus
+        zh: Cophixalus infacetus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y449
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/452
+            queryName: Cophixalus infacetus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2652772136
+      - s-a74e436167
+      - s-23e4281c11
+      - s-fb5bea638b
+      - s-fd3c5bf627
+      - s-5b93a189b5
+      - s-b930adadac
+      - s-fbc540594c
+      - s-c968b1e66e
+      - s-78310c22ea
+      - s-d14fc64b00
+      - s-a763d68c92
+      - s-e4c84df928
+      - s-28d2d412f2
+    zh:
+      - s-4a088443e6
+      - s-ffbea28fc4
+      - s-1b229436e3
+      - s-9358f2d0e5
+      - s-bbe521d241
+      - s-7357e7f347
+      - s-12e58b293c
+      - s-8be96958a1
+      - s-b8044a582f
+      - s-184599ef11
+      - s-9ec0a07612
+      - s-864e8db911
+      - s-079d521464
+      - s-2b59e8aabf

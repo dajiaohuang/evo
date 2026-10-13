@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperodon anamalaiensis
+  displayName: Uperodon anamalaiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DM7N
+  sourceIndexes:
+    - name:
+        en: Uperodon anamalaiensis
+        zh: Uperodon anamalaiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DM7N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/172
+            queryName: Uperodon anamalaiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/352
+            queryName: Ramanella anamalaiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/353
+            queryName: Ramanella minor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-173ea5ef41
+      - s-daed5478cd
+      - s-0eb756295c
+      - s-6e81b6bc26
+      - s-8bacfee1a0
+      - s-c2b66da1b8
+      - s-73f09da9ff
+    zh:
+      - s-57de4726aa
+      - s-f3e87e0f41
+      - s-3bfcf9fc20
+      - s-f5cf315af8
+      - s-1c165333ea
+      - s-27d25c6fce
+      - s-60965209b3

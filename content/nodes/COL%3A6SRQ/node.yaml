@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pleurodema
+  displayName: Pleurodema
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SRQ
+  sourceIndexes:
+    - name:
+        en: Pleurodema
+        zh: Pleurodema
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SRQ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/184
+            queryName: Pleurodema
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 188
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8356fc55b2
+      - s-4aa1fe7104
+      - s-e35905ace7
+      - s-ede6094baf
+      - s-056702dffc
+      - s-56537a973e
+      - s-23421552c7
+      - s-f93f208cae
+      - s-cdad3fb945
+      - s-b0717626dc
+      - s-f55a97a70e
+      - s-d977b8c3fa
+      - s-c35d72d37a
+      - s-db720d6ceb
+      - s-ecc9c90c0f
+    zh:
+      - s-59a6fb935d
+      - s-833c043678
+      - s-1a536b428d
+      - s-4dbd27da83
+      - s-8fae63e9c6
+      - s-dfe34bb754
+      - s-eef6a3b20e
+      - s-e0ed3afa98
+      - s-8b46467b99
+      - s-589008e399
+      - s-e92048f77e
+      - s-475bf1dde6
+      - s-062d95b55d
+      - s-c6e5d46cd0
+      - s-2da70c87f4

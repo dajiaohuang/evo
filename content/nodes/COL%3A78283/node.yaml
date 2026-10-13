@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon dorsalis
+  displayName: Plethodon dorsalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78283
+  sourceIndexes:
+    - name:
+        en: Plethodon dorsalis
+        zh: Plethodon dorsalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "78283"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/460
+            queryName: Plethodon dorsalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/485
+            queryName: Plethodon cinereus dorsalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/487
+            queryName: Plethodon dorsalis dorsalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/25
+            queryName: Plethodon erythronotus dorsalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0a1d3753e1
+      - s-272d48d8ce
+      - s-db61114cbb
+      - s-658532aed9
+      - s-f8b52b27e0
+      - s-02c43f8b3d
+      - s-95ebc28861
+      - s-e88d28c825
+      - s-e759a1bfcb
+      - s-e9e61e9358
+      - s-988c4d4f51
+      - s-2f9561050d
+    zh:
+      - s-d36e3da6fb
+      - s-c1bde99b75
+      - s-a246e8cbb6
+      - s-6ff364fc44
+      - s-deab06f385
+      - s-c6d448c30d
+      - s-f1c764043f
+      - s-7293a69a74
+      - s-527f10d550
+      - s-d965446a2b
+      - s-68c96d4e69
+      - s-cb06d8e5e6

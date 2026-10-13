@@ -1,0 +1,46 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Sirenidae
+  displayName: Sirenidae
+  rank: family
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=37412
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Sirenidae
+        zh: Sirenidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: null
+          rank: group
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/197
+            queryName: Sirenidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 78
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-28f4d1ba17
+      - s-e8b1845712
+      - s-853d143ac1
+      - s-33e0fbd48a
+    zh:
+      - s-07357b568e
+      - s-4a49ba8ec0
+      - s-66fa4d51ae
+      - s-7ea890df20

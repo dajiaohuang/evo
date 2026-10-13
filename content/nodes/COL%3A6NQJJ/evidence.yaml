@@ -1,0 +1,420 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kurixalus appendiculatus (Günther, 1858)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Kurixalus appendiculatus
+      zh: Kurixalus appendiculatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7471f1e9dc
+            part: title
+          zh:
+            page: zh
+            section: s-8d9daee9d8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7471f1e9dc
+            part: body
+          zh:
+            page: zh
+            section: s-8d9daee9d8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-343ba2ee07
+            part: title
+          zh:
+            page: zh
+            section: s-93259fa82b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-343ba2ee07
+            part: body
+          zh:
+            page: zh
+            section: s-93259fa82b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a2e8317223
+            part: title
+          zh:
+            page: zh
+            section: s-6adfc7ae19
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-a2e8317223
+            part: body
+          zh:
+            page: zh
+            section: s-6adfc7ae19
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-e76dae68c28701538527594c
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-1b152b5e03c965ccc156ab921377d8a7
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ce030842fd
+            part: title
+          zh:
+            page: zh
+            section: s-4cffb1c969
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-ce030842fd
+            part: body
+          zh:
+            page: zh
+            section: s-4cffb1c969
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-3434d85c6d
+            part: title
+          zh:
+            page: zh
+            section: s-86f5f9e7ae
+            part: title
+        sourceIds:
+          - primary-pmc5096358-6nqjj
+        text:
+          en:
+            page: en
+            section: s-3434d85c6d
+            part: body
+          zh:
+            page: zh
+            section: s-86f5f9e7ae
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7b4a72fd6c
+            part: title
+          zh:
+            page: zh
+            section: s-2540c9db5b
+            part: title
+        sourceIds:
+          - primary-pmc5096358-6nqjj
+        text:
+          en:
+            page: en
+            section: s-7b4a72fd6c
+            part: body
+          zh:
+            page: zh
+            section: s-2540c9db5b
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-e39387b952
+            part: title
+          zh:
+            page: zh
+            section: s-8b9ebebb20
+            part: title
+        sourceIds:
+          - primary-pmc10486437-6nqjj
+        text:
+          en:
+            page: en
+            section: s-e39387b952
+            part: body
+          zh:
+            page: zh
+            section: s-8b9ebebb20
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kurixalus appendiculatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6NQJJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 5273, 5274, 5275, 5276; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5289; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5292 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc5096358-6nqjj
+        referenceId: ref-495d5181-5d3b-4411-a699-740f61924ac9
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kurixalus appendiculatus: Named species regional account only; historical concepts, inferred reproduction and cited conservation categories retain dated limitations; no figures reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10486437-6nqjj
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kurixalus appendiculatus: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c37ea56498
+        part: body
+      zh:
+        page: zh
+        section: s-5fb2ab960c
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-e76dae68c28701538527594c
+        scientificName: Kurixalus appendiculatus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.624.9814
+        referenceId: ref-495d5181-5d3b-4411-a699-740f61924ac9
+        sourceKey: primary-pmc5096358-6nqjj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5096358/article.xml
+        sourceConcept: Kurixalus appendiculatus
+        evidenceRead: "Kurixalus appendiculatus: Named species regional account only; historical concepts, inferred reproduction and cited conservation categories retain dated limitations; no figures reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: reproduction
+            heading:
+              en: Small stagnant waters with an inferred egg substrate
+              zh: 带推断产卵基质的小型静水
+            referenceId: ref-495d5181-5d3b-4411-a699-740f61924ac9
+            sourceKey: primary-pmc5096358-6nqjj
+            locator: Species accounts > Kurixalus appendiculatus; reading-sections index 29, paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-55bdabc4bd
+                part: body
+              zh:
+                page: zh
+                section: s-bc6ebbb0b8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Three historical Philippine lineages remained unresolved
+              zh: 三个历史菲律宾谱系仍未解决
+            referenceId: ref-495d5181-5d3b-4411-a699-740f61924ac9
+            sourceKey: primary-pmc5096358-6nqjj
+            locator: Species accounts > Kurixalus appendiculatus; reading-sections index 29, paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ab600e8bf2
+                part: body
+              zh:
+                page: zh
+                section: s-0022f54b2d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani13172754
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        sourceKey: primary-pmc10486437-6nqjj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10486437/article.xml
+        sourceConcept: 2023 Table2 Kurixalus appendiculatus sequence row
+        evidenceRead: "Kurixalus appendiculatus: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Marker availability in the 2023 island-origin comparison
+              zh: 2023 年岛屿起源比较的标记覆盖
+            referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+            sourceKey: primary-pmc10486437-6nqjj
+            locator: PMC10486437 XML Methods2.1/Table2; Results3.1/Table3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f01d61e31e
+                part: body
+              zh:
+                page: zh
+                section: s-acc43465ea
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

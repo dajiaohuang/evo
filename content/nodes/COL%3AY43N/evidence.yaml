@@ -1,0 +1,517 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cophixalus bombiens Zweifel, 1985
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Cophixalus bombiens
+      zh: Cophixalus bombiens
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d0013629b5
+            part: title
+          zh:
+            page: zh
+            section: s-5906e30589
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d0013629b5
+            part: body
+          zh:
+            page: zh
+            section: s-5906e30589
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-84593abe27
+            part: title
+          zh:
+            page: zh
+            section: s-1078514060
+            part: title
+        text:
+          en:
+            page: en
+            section: s-84593abe27
+            part: body
+          zh:
+            page: zh
+            section: s-1078514060
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f8c2cf9693
+            part: title
+          zh:
+            page: zh
+            section: s-5db72050de
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-f8c2cf9693
+            part: body
+          zh:
+            page: zh
+            section: s-5db72050de
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b2339ce471
+            part: title
+          zh:
+            page: zh
+            section: s-c50ea43427
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-b2339ce471
+            part: body
+          zh:
+            page: zh
+            section: s-c50ea43427
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a18e63937f
+            part: title
+          zh:
+            page: zh
+            section: s-ec4f6d2c60
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-a18e63937f
+            part: body
+          zh:
+            page: zh
+            section: s-ec4f6d2c60
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3b9d0faf88
+            part: title
+          zh:
+            page: zh
+            section: s-7a0b094433
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-3b9d0faf88
+            part: body
+          zh:
+            page: zh
+            section: s-7a0b094433
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-b48352696b
+            part: title
+          zh:
+            page: zh
+            section: s-4721a14fdd
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Size_at_maturity_min_mm
+          - Size_at_maturity_max_mm
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-b48352696b
+            part: body
+          zh:
+            page: zh
+            section: s-4721a14fdd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-971996760d
+            part: title
+          zh:
+            page: zh
+            section: s-a3984aebbc
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-971996760d
+            part: body
+          zh:
+            page: zh
+            section: s-a3984aebbc
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-df553f36c8
+            part: title
+          zh:
+            page: zh
+            section: s-1d7327ad35
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-df553f36c8
+            part: body
+          zh:
+            page: zh
+            section: s-1d7327ad35
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-61896659b4added3101254bf85eea666
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-eabd267fb1eb29a34aa2a4c2
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-6f723768dffbfc994c688485
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ed56604600
+            part: title
+          zh:
+            page: zh
+            section: s-79e389492d
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ed56604600
+            part: body
+          zh:
+            page: zh
+            section: s-79e389492d
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ae1e5c098e
+            part: title
+          zh:
+            page: zh
+            section: s-9a53fccd58
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3591"
+        text:
+          en:
+            page: en
+            section: s-ae1e5c098e
+            part: body
+          zh:
+            page: zh
+            section: s-9a53fccd58
+            part: body
+        sourceRowNumber: 3274
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-336fe2c556
+            part: title
+          zh:
+            page: zh
+            section: s-0cf3fcfe1f
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3602"
+        text:
+          en:
+            page: en
+            section: s-336fe2c556
+            part: body
+          zh:
+            page: zh
+            section: s-0cf3fcfe1f
+            part: body
+        sourceRowNumber: 3285
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-15733a0661
+            part: title
+          zh:
+            page: zh
+            section: s-6b4875d34f
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3613"
+        text:
+          en:
+            page: en
+            section: s-15733a0661
+            part: body
+          zh:
+            page: zh
+            section: s-6b4875d34f
+            part: body
+        sourceRowNumber: 3295
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cophixalus bombiens
+          url: https://www.checklistbank.org/dataset/316115/taxon/Y43N
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3957; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3958 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1207; Reference.csv rows 293
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3274, 3285, 3295; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1520bb9f5a
+        part: body
+      zh:
+        page: zh
+        section: s-5618adad9b
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-61896659b4added3101254bf85eea666
+      sourceRowId: Anf3957
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf3957
+        bibliographyRowId: Anf3958
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Cophixalus biroi
+        candidateBibliographyRowIds:
+          - Anf3958
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-eabd267fb1eb29a34aa2a4c2
+        scientificName: Cophixalus bombiens
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-6f723768dffbfc994c688485
+        scientificName: Cophixalus bombiens
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 3

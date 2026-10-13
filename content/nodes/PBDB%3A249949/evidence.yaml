@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Lycopodiophyta
+    commonName: Club Mosses
+    commonNameZh: 石松类
+    rank: phylum
+    taxonId: txn:249949
+    firstAppearance: 425
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: full-profile
+  atlas-profile:
+    pbdbTaxonId: txn:249949
+    scientificName: Lycopodiophyta
+    commonName: Lycophytes
+    commonNameZh: 石松类
+    rank: phylum
+    parentName: Tracheophyta
+    extinct: false
+    geography:
+      - Global living and fossil record
+    overview:
+      page: en
+      section: s-df7246e628
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-b2139895a9
+        part: body
+      habitat:
+        page: en
+        section: s-818567dfff
+        part: body
+      locomotion:
+        page: en
+        section: s-aeb96376b4
+        part: body
+      bodySize:
+        page: en
+        section: s-2fec52a8ae
+        part: body
+      guild:
+        page: en
+        section: s-6d53ecbfdb
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-04687ed094309d
+        part: body
+    traits:
+      - page: en
+        section: s-23e16f5d76
+        part: body
+      - page: en
+        section: s-d91d03a576
+        part: body
+      - page: en
+        section: s-da15401249
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-82c8e795eb
+      part: body
+    readerSections:
+      - id: asteroxylon-architecture
+        title:
+          en:
+            page: en
+            section: s-de4c27464e
+            part: title
+          zh:
+            page: zh
+            section: s-6e566586ac
+            part: title
+        text:
+          en:
+            page: en
+            section: s-de4c27464e
+            part: body
+          zh:
+            page: zh
+            section: s-6e566586ac
+            part: body
+        sourceIds:
+          - hetherington-2021-asteroxylon
+        confidence: medium
+    confidence: medium
+    referenceIds:
+      - hetherington-2021-asteroxylon
+    readerSources:
+      - id: hetherington-2021-asteroxylon
+        referenceId: ref-e0cdcca3-bf5a-82ac-aa6c-80a3f4b04935
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Recorded reader-passage locators: supports; pages: e69447, 1–14; Figures 1–6; Videos 1–2"
+            zh: "读者段落的原始定位：supports; pages: e69447, 1–14; Figures 1–6; Videos 1–2"
+  claims:
+    - subjectId: taxon:lycophyta
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Lycopodiophyta is profiled at clade level, while Asteroxylon mackiei is used only as a species-level anatomical exemplar and not as a direct ancestor.
+      confidence: medium
+      confidenceRationale: The taxonomy field is bounded to Lycopodiophyta, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: hetherington-2021-asteroxylon
+          relation: supports
+          pages: e69447, 1–14; Figures 1–6; Videos 1–2
+    - subjectId: taxon:lycophyta
+      claimKind: scientific
+      claimType: biogeography
+      statement: The Rhynie-chert exemplar comes from Scotland; it does not define the global distribution or origin centre of Lycopodiophyta.
+      confidence: medium
+      confidenceRationale: The biogeography field is bounded to Lycopodiophyta, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: hetherington-2021-asteroxylon
+          relation: supports
+          pages: e69447, 1–14; Figures 1–6; Videos 1–2
+    - subjectId: taxon:lycophyta
+      claimKind: scientific
+      claimType: ecology
+      statement: Asteroxylon’s rooting architecture supports terrestrial anchorage and uptake in that plant, but habitat and growth form vary widely across living and fossil lycophytes.
+      confidence: medium
+      confidenceRationale: The ecology field is bounded to Lycopodiophyta, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: hetherington-2021-asteroxylon
+          relation: supports
+          pages: e69447, 1–14; Figures 1–6; Videos 1–2
+    - subjectId: taxon:lycophyta
+      claimKind: scientific
+      claimType: morphology
+      statement: Three-dimensional reconstruction distinguishes leafy shoot, root-bearing and rooting axes in Asteroxylon, with rooting axes arising at anisotomous branch points.
+      confidence: medium
+      confidenceRationale: The morphology field is bounded to Lycopodiophyta, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: hetherington-2021-asteroxylon
+          relation: supports
+          pages: e69447, 1–14; Figures 1–6; Videos 1–2
+    - subjectId: taxon:lycophyta
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 425–0 Ma atlas envelope remains a rounded clade navigation range; the cited 407 Ma Asteroxylon anatomy does not by itself establish a global lycophyte FAD.
+      confidence: medium
+      confidenceRationale: The fossil-range field is bounded to Lycopodiophyta, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: hetherington-2021-asteroxylon
+          relation: supports
+          pages: e69447, 1–14; Figures 1–6; Videos 1–2
+  claim-rationales.zh:
+    - 石松类的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。
+    - 石松类的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。
+    - 石松类的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。
+    - 石松类的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。
+    - 石松类的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - 本档案在演化支层级介绍石松类；Asteroxylon mackiei 仅作为物种层级的解剖实例，而非直系祖先。
+    - 所举莱尼燧石标本来自苏格兰；它不能确定石松类的全球分布或起源中心。
+    - Asteroxylon 的生根结构支持该植物具有陆地固着与吸收功能，但现生及化石石松类的生境和生长型差异很大。
+    - 三维重建区分了 Asteroxylon 的带叶枝轴、承根轴和生根轴；生根轴出现在不等二叉分枝点。
+    - 425–0 Ma 图集包络仍是取整后的演化支导航范围；所引 407 Ma 的 Asteroxylon 解剖证据本身不能确立石松类的全球首现。
+  ranges:
+    - entityId: lycophyta
+      rangeKind: global-composite
+      taxonomicConcept: Lycopodiophyta
+      geographicScope: Global or represented navigation composite
+      olderMa: 425
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 425–0 Ma atlas envelope remains a rounded clade navigation range; the cited 407 Ma Asteroxylon anatomy does not by itself establish a global lycophyte FAD.
+      evidenceBasis: First and last appearances are rounded display ranges assembled for the atlas and remain sensitive to sampling and taxonomy.
+      confidence: medium
+      claimIds:
+        - claim:taxon:lycophyta:fossil-range
+      referenceLocators:
+        - referenceId: hetherington-2021-asteroxylon
+          locator: e69447, 1–14; Figures 1–6; Videos 1–2
+        - referenceId: open-tree
+          locator: https://opentreeoflife.github.io/use
+        - referenceId: pbdb-api-2016
+          locator: doi:10.1017/pab.2015.39
+      evidenceLevel: literature-synthesized

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Choerophryne exclamitans
+  displayName: Choerophryne exclamitans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69YS6
+  sourceIndexes:
+    - name:
+        en: Choerophryne exclamitans
+        zh: Choerophryne exclamitans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69YS6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/336
+            queryName: Choerophryne exclamitans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/424
+            queryName: Albericus exclamitans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ec732dfaa
+      - s-edf4338df2
+      - s-346262c0aa
+      - s-f02f6ab529
+      - s-849238f19d
+      - s-04aff05697
+    zh:
+      - s-ba19a958cd
+      - s-d97c1f6aad
+      - s-9f72afbc28
+      - s-ca4344fdb8
+      - s-afb5f7bd45
+      - s-21795ba156

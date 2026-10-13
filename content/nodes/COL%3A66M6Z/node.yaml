@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus fowleri
+  displayName: Anaxyrus fowleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66M6Z
+  sourceIndexes:
+    - name:
+        en: Anaxyrus fowleri
+        zh: Anaxyrus fowleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66M6Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/437
+            queryName: Anaxyrus fowleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 77
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/231
+            queryName: Bufo woodhousii fowleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/232
+            queryName: Bufo fowleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 44
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/223
+            queryName: Bufo hobarti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/384
+            queryName: Bufo lentiginosus fowleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/385
+            queryName: Bufo compactilis fowleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a23ef6e20d
+      - s-271b9b69d9
+      - s-61f257675b
+      - s-42bcfa9672
+      - s-3676dd4008
+      - s-51091b3dfe
+      - s-842e7dd704
+      - s-0b32a0a578
+      - s-b9bfc95b3f
+      - s-88504e0517
+      - s-9b95068f8a
+      - s-6a29d69358
+      - s-d0c365c739
+      - s-27a76e9908
+      - s-8b27009d64
+      - s-848ad9ab9a
+      - s-04f3e2f4fe
+      - s-24b6e82884
+      - s-7690fd9361
+      - s-22458cc597
+    zh:
+      - s-e9c219adf0
+      - s-5bfeb8fd9c
+      - s-5c85dcd344
+      - s-71e980e7b7
+      - s-6f6fc6302b
+      - s-dc72fdfb6f
+      - s-3f4615cd76
+      - s-70da660622
+      - s-1c92814b9c
+      - s-12f4f058a5
+      - s-cfaeabcd88
+      - s-2a94f59084
+      - s-8850b1d5d7
+      - s-fad6372ef0
+      - s-fca93931a6
+      - s-d0498f3e8c
+      - s-e34ffb2f2a
+      - s-92a61b2960
+      - s-76115e62c6
+      - s-69a8319d17

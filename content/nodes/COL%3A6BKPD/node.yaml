@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cryptobatrachus pedroruizi
+  displayName: Cryptobatrachus pedroruizi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BKPD
+  sourceIndexes:
+    - name:
+        en: Cryptobatrachus pedroruizi
+        zh: Cryptobatrachus pedroruizi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BKPD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/246
+            queryName: Cryptobatrachus pedroruizi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/90
+            queryName: Cryptobatrachus remotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a4ca73b802
+      - s-0a1d22a3a4
+      - s-48cbc170d3
+      - s-4b5ea2d6be
+      - s-2c4ec784f0
+      - s-d90015a46b
+      - s-a14e03c955
+    zh:
+      - s-fb0603007e
+      - s-958ab3e156
+      - s-41ccc52efe
+      - s-490e1eaf26
+      - s-b00636a9dd
+      - s-c844cbecb3
+      - s-d9af58c026

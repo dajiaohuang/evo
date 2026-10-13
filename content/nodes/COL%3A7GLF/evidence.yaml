@@ -1,0 +1,183 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sicalis
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Sicalis
+      en: Sicalis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-9a747bff58
+            part: body
+          en:
+            page: en
+            section: s-df244d6615
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-2eb7f874cb
+            part: body
+          en:
+            page: en
+            section: s-afb41be141
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-b7b9664cfc
+            part: body
+          en:
+            page: en
+            section: s-97c0515157
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-aa099305ee
+            part: body
+          en:
+            page: en
+            section: s-ec0a5c725e
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-322e97cc27
+            part: body
+          en:
+            page: en
+            section: s-865a628df5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Sicalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/7GLF
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 8 selected measured records placed under Sicalis in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 2 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: 6YLFY
+              name: Sicalis luteocephala
+              canonicalPath: content/nodes/COL%3A6YLFY
+            - colId: 4X6V4
+              name: Sicalis taczanowskii
+              canonicalPath: content/nodes/COL%3A4X6V4
+          fieldAccountCounts:
+            Habitat: 2
+            Trophic.Niche: 2
+            Primary.Lifestyle: 2
+            Migration: 2
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+    limitations:
+      zh:
+        page: zh
+        section: s-958dd3516a
+        part: body
+      en:
+        page: en
+        section: s-b46a5b6f85
+        part: body

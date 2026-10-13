@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis abakapa
+    name:
+      en: Pristimantis abakapa
+      zh: Pristimantis abakapa
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-92688c619f
+            part: body
+          zh:
+            page: zh
+            section: s-488179b1b8
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5259813333
+            part: body
+          zh:
+            page: zh
+            section: s-28b3e5cbcf
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4417; Reference.csv rows 2082
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4417
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis abakapa
+          - M
+          - "21.1"
+          - "8.3"
+          - "7.5"
+          - "2.6"
+          - "0.7"
+          - "3.7"
+          - "2.5"
+          - "2"
+          - "1.9"
+          - "2.5"
+          - NA
+          - NA
+          - "5.7"
+          - NA
+          - NA
+          - "8.9"
+          - NA
+          - "10.9"
+          - "10.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.3"
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2082
+        values:
+          - Anura
+          - Pristimantis_abakapa
+          - "Rojas-Runjaic, F. J., Salerno, P. E., Senaris, J. C., & Pauly, G. B. (2013). Terraranans of the lost world: a new species of Pristimantis (Amphibia, Craugastoridae) from Abakapa-tepui in the Chimanta massif, Venezuelan Guayana, and additions to the knowledge of P. muchimuk. Zootaxa, 3686, 335-355. https://doi.org/10.11646/zootaxa.3686.3.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - HAL
+      - FL
+      - TL
+      - THL
+      - Fin1L
+      - Fin2L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

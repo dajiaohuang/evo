@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cacosternum kinangopensis
+    name:
+      en: Cacosternum kinangopensis
+      zh: Cacosternum kinangopensis
+    sourceClassification:
+      order: Anura
+      family: Pyxicephalidae
+      genus: Cacosternum
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Cacosternum kinangopensis in the version 3 classification
+          zh: Cacosternum kinangopensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-50f6cebba0
+            part: body
+          zh:
+            page: zh
+            section: s-8eb7f25ab1
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 9 populated trait fields
+          zh: 1 条测量行与 9 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9ca368b360
+            part: body
+          zh:
+            page: zh
+            section: s-51571eeb12
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 963; Reference.csv rows 3417
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 963
+        values:
+          - Pyxicephalidae
+          - Cacosternum
+          - Cacosternum kinangopensis
+          - NA
+          - NA
+          - NA
+          - "6.58"
+          - "2.256"
+          - NA
+          - NA
+          - NA
+          - "4.5408"
+          - NA
+          - "1.6544"
+          - "3.52"
+          - NA
+          - "6.162"
+          - NA
+          - NA
+          - "9.588"
+          - NA
+          - "7.896"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.8"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3417
+        values:
+          - Anura
+          - Cacosternum_kinangopensis
+          - "Channing, A., Schmitz, A., Burger, M., & Kielgast, J. (2013). A molecular phylogeny of African Dainty Frogs, with the description of four new species (Anura: Pyxicephalidae: Cacosternum). Zootaxa, 3701, 518-550. https://doi.org/10.11646/zootaxa.3701.5.2"
+    availableTraitCodes:
+      - HW
+      - ED
+      - IND
+      - EN
+      - SL
+      - HAL
+      - FL
+      - TL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - P6MS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

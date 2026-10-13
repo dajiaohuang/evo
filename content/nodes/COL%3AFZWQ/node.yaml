@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aquiloeurycea cafetalera
+  displayName: Aquiloeurycea cafetalera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FZWQ
+  sourceIndexes:
+    - name:
+        en: Aquiloeurycea cafetalera
+        zh: Aquiloeurycea cafetalera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FZWQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/104
+            queryName: Aquiloeurycea cafetalera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/219
+            queryName: Pseudoeurycea cafetalera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eff98d936f
+      - s-0ef6c25e2c
+      - s-5aa20ce50a
+      - s-a8e0e41df2
+      - s-b8183d1cbf
+      - s-78f6ce14a2
+      - s-d842732d9d
+      - s-070fbd3e1e
+      - s-fc6e994f65
+      - s-287b0c5a64
+      - s-68660cc899
+      - s-9caabd664d
+      - s-6d96e87d4e
+    zh:
+      - s-f126f5816b
+      - s-137a905553
+      - s-7bac4ddd1e
+      - s-4e79bf11a4
+      - s-ed5b890f15
+      - s-86547ad796
+      - s-a869e214dc
+      - s-b3096e7942
+      - s-28abbcee38
+      - s-a2c8750b3c
+      - s-2dbf1e38b0
+      - s-29bfbc2daa
+      - s-c5c588b93f

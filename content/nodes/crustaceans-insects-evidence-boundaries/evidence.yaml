@@ -1,0 +1,419 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-3db7c9fd30
+      part: title
+    titleZh:
+      page: zh
+      section: s-5fcf3eb94f
+      part: title
+    dek:
+      page: en
+      section: s-3db7c9fd30
+      part: body
+    theme: teal
+    durationMinutes: 22
+    featured: true
+    steps:
+      - id: tokummia-mandibles
+        title:
+          page: en
+          section: s-aad05382b7
+          part: title
+        titleZh:
+          page: zh
+          section: s-588a0949c4
+          part: title
+        text:
+          page: en
+          section: s-aad05382b7
+          part: body
+        textZh:
+          page: zh
+          section: s-588a0949c4
+          part: body
+        age: 508
+        timeRange:
+          - 508
+          - 508
+        taxonIds:
+          - mandibulate-evidence-route
+          - tokummia
+        view: evidence
+        eventId: tokummia-mandibulate-anatomy
+        annotation: Stem-mandibulate placement is a matrix result; Tokummia is neither a demonstrated direct ancestor nor a crown crustacean, insect or myriapod.
+        claimLinks:
+          - claimId: claim:event:tokummia-mandibulate-anatomy
+            relation: supports
+      - id: waptia-series
+        title:
+          page: en
+          section: s-bac979de0a
+          part: title
+        titleZh:
+          page: zh
+          section: s-593cfa003c
+          part: title
+        text:
+          page: en
+          section: s-bac979de0a
+          part: body
+        textZh:
+          page: zh
+          section: s-593cfa003c
+          part: body
+        age: 508
+        timeRange:
+          - 508
+          - 508
+        taxonIds:
+          - mandibulate-evidence-route
+          - waptia
+        view: evidence
+        eventId: waptia-mandibulate-series
+        annotation: Pancrustacean placement and active swimming predation are topology and functional interpretations, not stomach contents, observed behaviour or a direct ancestor claim.
+        claimLinks:
+          - claimId: claim:event:waptia-mandibulate-series
+            relation: supports
+      - id: yicaris-growth-series
+        title:
+          page: en
+          section: s-9d55545961
+          part: title
+        titleZh:
+          page: zh
+          section: s-3c40e1e585
+          part: title
+        text:
+          page: en
+          section: s-9d55545961
+          part: body
+        textZh:
+          page: zh
+          section: s-3c40e1e585
+          part: body
+        age: 518
+        timeRange:
+          - 521
+          - 514
+        taxonIds:
+          - pancrustacea-evidence-route
+          - yicaris
+        view: evidence
+        eventId: yicaris-developmental-series
+        annotation: Eucrustacean crown placement and epipodite homology depend on character interpretation and must not be converted into an exact crown-origin date.
+        claimLinks:
+          - claimId: claim:event:yicaris-developmental-series
+            relation: supports
+      - id: ostracod-transcriptomes
+        title:
+          page: en
+          section: s-172073a875
+          part: title
+        titleZh:
+          page: zh
+          section: s-0142cfc510
+          part: title
+        text:
+          page: en
+          section: s-172073a875
+          part: body
+        textZh:
+          page: zh
+          section: s-0142cfc510
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - ostracoda
+          - ostracod-phylogenomics
+        view: tree
+        eventId: ostracod-phylotranscriptome-topology
+        annotation: Ostracod monophyly and several deep nodes change when fast genes, distant outgroups or data partitions change; no displayed branch is a fossil observation.
+        claimLinks:
+          - claimId: claim:event:ostracod-phylotranscriptome-topology
+            relation: supports
+      - id: remipede-hexapod-topology
+        title:
+          page: en
+          section: s-35f367e9ef
+          part: title
+        titleZh:
+          page: zh
+          section: s-aa79524863
+          part: title
+        text:
+          page: en
+          section: s-35f367e9ef
+          part: body
+        textZh:
+          page: zh
+          section: s-aa79524863
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - pancrustacea-evidence-route
+          - insecta
+          - crustacea
+        view: tree
+        eventId: pancrustacea-remipede-phylogenomics
+        annotation: Copepod, cephalocarid and other deep positions remain method- and sampling-sensitive, so the tree is a tested hypothesis rather than a fixed ancestor ladder.
+        claimLinks:
+          - claimId: claim:event:pancrustacea-remipede-phylogenomics
+            relation: supports
+      - id: sampling-sensitivity
+        title:
+          page: en
+          section: s-d8f16dbf50
+          part: title
+        titleZh:
+          page: zh
+          section: s-530b7e5bd7
+          part: title
+        text:
+          page: en
+          section: s-d8f16dbf50
+          part: body
+        textZh:
+          page: zh
+          section: s-530b7e5bd7
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - pancrustacea-evidence-route
+          - malacostraca
+        view: tree
+        eventId: pancrustacea-taxon-sampling-sensitivity
+        annotation: Rejected and recovered clades differ among sampled matrices and models; divergence estimates use thirteen vetted calibrations but remain clock outputs.
+        claimLinks:
+          - claimId: claim:event:pancrustacea-taxon-sampling-sensitivity
+            relation: supports
+      - id: rhyniella-furcula
+        title:
+          page: en
+          section: s-ef4130cc24
+          part: title
+        titleZh:
+          page: zh
+          section: s-46529c32e9
+          part: title
+        text:
+          page: en
+          section: s-ef4130cc24
+          part: body
+        textZh:
+          page: zh
+          section: s-46529c32e9
+          part: body
+        age: 409
+        timeRange:
+          - 411
+          - 407
+        taxonIds:
+          - early-hexapod-evidence-route
+          - rhyniella
+        view: evidence
+        eventId: rhyniella-springtail-material
+        annotation: This sampled occurrence supports collembolan affinity but does not by itself date hexapod terrestrialization, global origin or ecological dominance.
+        claimLinks:
+          - claimId: claim:event:rhyniella-springtail-material
+            relation: supports
+      - id: rhyniognatha-dispute
+        title:
+          page: en
+          section: s-279bed9ac6
+          part: title
+        titleZh:
+          page: zh
+          section: s-314eb17e0f
+          part: title
+        text:
+          page: en
+          section: s-279bed9ac6
+          part: body
+        textZh:
+          page: zh
+          section: s-314eb17e0f
+          part: body
+        age: 409
+        timeRange:
+          - 411
+          - 407
+        taxonIds:
+          - early-hexapod-evidence-route
+          - rhyniognatha
+          - myriapoda
+        view: evidence
+        eventId: rhyniognatha-contested-affinity
+        annotation: Three-dimensional reanalysis in 2017 found the structures more compatible with a myriapod, possibly a scutigeromorph centipede; insect and flight calibrations are therefore contested.
+        claimLinks:
+          - claimId: claim:event:rhyniognatha-contested-affinity
+            relation: supports
+      - id: terrestrialization-clock
+        title:
+          page: en
+          section: s-54c96e367f
+          part: title
+        titleZh:
+          page: zh
+          section: s-43bcd86be2
+          part: title
+        text:
+          page: en
+          section: s-54c96e367f
+          part: body
+        textZh:
+          page: zh
+          section: s-43bcd86be2
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - early-hexapod-evidence-route
+          - myriapoda
+        view: map
+        eventId: arthropod-terrestrialization-clock
+        annotation: A favoured marine route and inferred dates are model outputs conditioned on topology, calibrations and ancestral-state coding, not observed migrations.
+        claimLinks:
+          - claimId: claim:event:arthropod-terrestrialization-clock
+            relation: supports
+      - id: paskov-wing-fragment
+        title:
+          page: en
+          section: s-cb35051ffb
+          part: title
+        titleZh:
+          page: zh
+          section: s-6b356e93e8
+          part: title
+        text:
+          page: en
+          section: s-cb35051ffb
+          part: body
+        textZh:
+          page: zh
+          section: s-6b356e93e8
+          part: body
+        age: 324
+        timeRange:
+          - 325
+          - 323
+        taxonIds:
+          - insect-flight-evidence-route
+          - paskov-wing
+        view: evidence
+        eventId: paskov-carboniferous-wing
+        annotation: Archaeorthopteran affinity follows incomplete venation, and one fragment cannot date the acquisition of powered flight or the global Pterygota first appearance.
+        claimLinks:
+          - claimId: claim:event:paskov-carboniferous-wing
+            relation: supports
+      - id: parhyale-knockouts
+        title:
+          page: en
+          section: s-d868a8807b
+          part: title
+        titleZh:
+          page: zh
+          section: s-9cdcbb8c37
+          part: title
+        text:
+          page: en
+          section: s-d868a8807b
+          part: body
+        textZh:
+          page: zh
+          section: s-9cdcbb8c37
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - insect-flight-evidence-route
+          - parhyale-wing-experiment
+        view: evidence
+        eventId: parhyale-wing-homology-knockout
+        annotation: Developmental correspondence supports a homology model but does not preserve the first wing, its ecology or one uniquely identified fossil precursor.
+        claimLinks:
+          - claimId: claim:event:parhyale-wing-homology-knockout
+            relation: supports
+      - id: insect-1kite
+        title:
+          page: en
+          section: s-1349c7048e
+          part: title
+        titleZh:
+          page: zh
+          section: s-046344f69a
+          part: title
+        text:
+          page: en
+          section: s-1349c7048e
+          part: body
+        textZh:
+          page: zh
+          section: s-046344f69a
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - insect-radiation-evidence-route
+          - insect-1kite-dataset
+          - insecta
+        view: tree
+        eventId: insect-1kite-topology-clock
+        annotation: Topology and node ages depend on sampling, orthology, sequence models, fossil assignments and clock priors; they are not observed fossil first appearances.
+        claimLinks:
+          - claimId: claim:event:insect-1kite-topology-clock
+            relation: supports
+      - id: pennsylvanian-eumetabola
+        title:
+          page: en
+          section: s-1dec9014b1
+          part: title
+        titleZh:
+          page: zh
+          section: s-ae5f440d4a
+          part: title
+        text:
+          page: en
+          section: s-1dec9014b1
+          part: body
+        textZh:
+          page: zh
+          section: s-ae5f440d4a
+          part: body
+        age: 307
+        timeRange:
+          - 315
+          - 299
+        taxonIds:
+          - insect-radiation-evidence-route
+          - pennsylvanian-eumetabola
+          - coleoptera
+          - hymenoptera
+        view: evidence
+        eventId: pennsylvanian-eumetabola-sample
+        annotation: The specimens do not demonstrate synchronous origins, exact crown-order first appearances or a single climatic cause for later diversification. COL26.8 routes 1,049,133 accepted living species names through crustaceans-insects; this is nomenclatural coverage, not 1,049,133 evidence dossiers or a phylogenomic consensus.
+        claimLinks:
+          - claimId: claim:event:pennsylvanian-eumetabola-sample
+            relation: supports
+    evidenceStatus: available-with-limitations
+    dekZh:
+      page: zh
+      section: s-5fcf3eb94f
+      part: body

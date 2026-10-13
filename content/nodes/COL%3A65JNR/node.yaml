@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Agalychnis callidryas
+  displayName: Agalychnis callidryas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65JNR
+  sourceIndexes:
+    - name:
+        en: Agalychnis callidryas
+        zh: Agalychnis callidryas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65JNR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/96
+            queryName: Agalychnis callidryas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 227
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/112
+            queryName: Hyla callidryas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/113
+            queryName: Agalychnis helenae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/114
+            queryName: Phyllomedusa helenae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/115
+            queryName: Phyllomedusa callidryas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/133
+            queryName: Agalychnis callidryas callidryas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a27e7e917c
+      - s-d44d470e94
+      - s-89e782c458
+      - s-32ed78cda9
+      - s-52ebf3988a
+      - s-1260648e8b
+      - s-093355b4a7
+      - s-10055c5a42
+      - s-e5519ac636
+      - s-9b9287aead
+      - s-85ead453c0
+      - s-f62f648f57
+      - s-058de3e981
+      - s-eea61927ef
+      - s-3609a18dc6
+    zh:
+      - s-99bc074311
+      - s-d3a176e051
+      - s-176578a78e
+      - s-c4f14022f9
+      - s-2a21260b6a
+      - s-f2944e7454
+      - s-e79ad97b31
+      - s-40a8fb1cbf
+      - s-3fb0c68827
+      - s-6264780401
+      - s-6f813ef28b
+      - s-c339bed4c0
+      - s-cacad22130
+      - s-3726b974cd
+      - s-2d359dbb21

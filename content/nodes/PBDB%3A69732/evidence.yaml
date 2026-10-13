@@ -1,0 +1,211 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eurhinodelphis longirostris
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Eurhinodelphis longirostris
+      en: Eurhinodelphis longirostris
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-af79dc592e
+            part: body
+          en:
+            page: en
+            section: s-19d4dd66e9
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5d8b52d45e
+            part: body
+          en:
+            page: en
+            section: s-f56f57bd06
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b162567a16
+            part: body
+          en:
+            page: en
+            section: s-2feb900d39
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b624f73531
+            part: body
+          en:
+            page: en
+            section: s-adfe7a1595
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c641cd6dd0
+            part: body
+          en:
+            page: en
+            section: s-42cf75f98a
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Eurhinodelphis longirostris
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=69732&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:69732; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:69732
+          selectedOccurrenceIds:
+            - occ:478754
+            - occ:478755
+            - occ:494408
+            - occ:622596
+            - occ:622623
+            - occ:666797
+            - occ:666813
+            - occ:666815
+            - occ:700399
+            - occ:700400
+            - occ:810426
+            - occ:848395
+            - occ:848397
+          selectedCollectionIds:
+            - col:47465
+            - col:47125
+            - col:52049
+            - col:67026
+            - col:55517
+            - col:71798
+            - col:71615
+            - col:75152
+            - col:75264
+            - col:37599
+            - col:51680
+          sourceReferenceIds:
+            - ref:12768
+            - ref:13419
+            - ref:19106
+            - ref:24251
+            - ref:29779
+            - ref:25229
+            - ref:29775
+          originalIdentificationMappings:
+            - occurrenceId: occ:478754
+              originalIdentifiedName: Eurhinodelphis longirostris n. sp.
+              acceptedName: Eurhinodelphis longirostris
+              difference: null
+            - occurrenceId: occ:478755
+              originalIdentifiedName: Eurhinodelphis ambiguus n. sp.
+              acceptedName: Eurhinodelphis longirostris
+              difference: null
+            - occurrenceId: occ:494408
+              originalIdentifiedName: Schizodelphis longirostris
+              acceptedName: Eurhinodelphis longirostris
+              difference: recombined as
+            - occurrenceId: occ:666797
+              originalIdentifiedName: Rhabdosteus longirostris
+              acceptedName: Eurhinodelphis longirostris
+              difference: recombined as
+            - occurrenceId: occ:666813
+              originalIdentifiedName: Rhabdosteus longirostris
+              acceptedName: Eurhinodelphis longirostris
+              difference: recombined as
+            - occurrenceId: occ:666815
+              originalIdentifiedName: Rhabdosteus longirostris
+              acceptedName: Eurhinodelphis longirostris
+              difference: recombined as
+            - occurrenceId: occ:848395
+              originalIdentifiedName: Priscodelphinus elegans n. sp.
+              acceptedName: Eurhinodelphis longirostris
+              difference: null
+            - occurrenceId: occ:848397
+              originalIdentifiedName: Priscodelphinus pulvinatus n. sp.
+              acceptedName: Eurhinodelphis longirostris
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-1b7f597bcf
+        part: body
+      en:
+        page: en
+        section: s-dc41021b21
+        part: body

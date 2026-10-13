@@ -1,0 +1,422 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis multicolor Páez & Ron, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis multicolor
+      zh: Pristimantis multicolor
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-59f913f21e
+            part: title
+          zh:
+            page: zh
+            section: s-dfeabd1c81
+            part: title
+        text:
+          en:
+            page: en
+            section: s-59f913f21e
+            part: body
+          zh:
+            page: zh
+            section: s-dfeabd1c81
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b8d5097028
+            part: title
+          zh:
+            page: zh
+            section: s-2d0503fd8f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b8d5097028
+            part: body
+          zh:
+            page: zh
+            section: s-2d0503fd8f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4789c75cdb
+            part: title
+          zh:
+            page: zh
+            section: s-948e3e8982
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-4789c75cdb
+            part: body
+          zh:
+            page: zh
+            section: s-948e3e8982
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-3742d62aab20e01014266dc5
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d4bcee04c9
+            part: title
+          zh:
+            page: zh
+            section: s-7f8cc86db3
+            part: title
+        sourceIds:
+          - primary-pmc6687670-scc8b
+        text:
+          en:
+            page: en
+            section: s-d4bcee04c9
+            part: body
+          zh:
+            page: zh
+            section: s-7f8cc86db3
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-fc556e9d4c
+            part: title
+          zh:
+            page: zh
+            section: s-88acd4a894
+            part: title
+        sourceIds:
+          - primary-pmc6687670-scc8b
+        text:
+          en:
+            page: en
+            section: s-fc556e9d4c
+            part: body
+          zh:
+            page: zh
+            section: s-88acd4a894
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e121d82d00
+            part: title
+          zh:
+            page: zh
+            section: s-488c2f3728
+            part: title
+        sourceIds:
+          - primary-pmc7482940-scc8b
+        text:
+          en:
+            page: en
+            section: s-e121d82d00
+            part: body
+          zh:
+            page: zh
+            section: s-488c2f3728
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-bf3674f928
+            part: title
+          zh:
+            page: zh
+            section: s-178b7d98c9
+            part: title
+        sourceIds:
+          - primary-pmc7482940-scc8b
+        text:
+          en:
+            page: en
+            section: s-bf3674f928
+            part: body
+          zh:
+            page: zh
+            section: s-178b7d98c9
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-df6058012d
+            part: title
+          zh:
+            page: zh
+            section: s-277d27420e
+            part: title
+        sourceIds:
+          - primary-pmc7482940-scc8b
+        text:
+          en:
+            page: en
+            section: s-df6058012d
+            part: body
+          zh:
+            page: zh
+            section: s-277d27420e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis multicolor
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCC8B
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4674, 4675; Reference.csv rows 2055
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc6687670-scc8b
+        referenceId: ref-8a6fae5b-9eb7-4a4c-a71f-6ec388ce7bd0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis multicolor: Species distribution and natural-history paragraph; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc7482940-scc8b
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis multicolor: Complete S2 donor table123rows including allspecimen/locus/locality cells;S1primers andAppendixspecimen paragraphs read;S4acoustic/S5inventory cells read plus main Methods/focaltreatments/Discussion/Tables1–3;S3distance matrix scientifically unreviewed beyond headers;GenBankoriginals/audio/vouchers/alignments/figurepixels unauthenticated; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0abec65cd7
+        part: body
+      zh:
+        page: zh
+        section: s-d65f29a080
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.868.26766
+        referenceId: ref-8a6fae5b-9eb7-4a4c-a71f-6ec388ce7bd0
+        sourceKey: primary-pmc6687670-scc8b
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6687670/article.xml
+        sourceConcept: Pristimantis multicolor
+        evidenceRead: "Pristimantis multicolor: Species distribution and natural-history paragraph; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Multiple substrates in Yacuri records
+              zh: Yacuri 记录中的多种基质
+            referenceId: ref-8a6fae5b-9eb7-4a4c-a71f-6ec388ce7bd0
+            sourceKey: primary-pmc6687670-scc8b
+            locator: "Pristimantis multicolor: Species distribution and natural-history paragraph; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-04ed3b4b4e
+                part: body
+              zh:
+                page: zh
+                section: s-c94de54490
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Three months of reproductive observations
+              zh: 三个月份的繁殖观察
+            referenceId: ref-8a6fae5b-9eb7-4a4c-a71f-6ec388ce7bd0
+            sourceKey: primary-pmc6687670-scc8b
+            locator: "Pristimantis multicolor: Species distribution and natural-history paragraph; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a64d839c43
+                part: body
+              zh:
+                page: zh
+                section: s-6526917dbf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0238306
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        sourceKey: primary-pmc7482940-scc8b
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/article.xml
+        sourceConcept: Source Pristimantis multicolor donor labels in2020 comparative phylogeny; frozen exact-name link only, no voucher/concept certification
+        evidenceRead: "Pristimantis multicolor: Complete S2 donor table123rows including allspecimen/locus/locality cells;S1primers andAppendixspecimen paragraphs read;S4acoustic/S5inventory cells read plus main Methods/focaltreatments/Discussion/Tables1–3;S3distance matrix scientifically unreviewed beyond headers;GenBankoriginals/audio/vouchers/alignments/figurepixels unauthenticated; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Reported sequence donors and their catalogue linkage
+              zh: 报告序列供体与目录链接
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-scc8b
+            locator: PMC7482940 supplementaryS2 pone.0238306.s003.docx table1 rows61,62 species/voucher;sha256:044b1c360d22c2e7b01e3f8afcbfd544d9f525cc35326f73800331b54dd4717b
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f19f1fdc68
+                part: body
+              zh:
+                page: zh
+                section: s-1973814adf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: The three-locus matrix does not give every donor three genes
+              zh: 三基因矩阵不使每供体均有三基因
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-scc8b
+            locator: PMC7482940 supplementaryS2 table1 rows61,62 locus/accession columns3–5;Methodssec006–007;S1primer table
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a337e6a251
+                part: body
+              zh:
+                page: zh
+                section: s-335dca4ca3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Collection labels are sequence provenance, not a new range census
+              zh: 采集标签是序列来源而非新分布普查
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-scc8b
+            locator: PMC7482940 supplementaryS2 table1 rows61,62 localitycolumn6;S5localinventory comparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b280ad04ee
+                part: body
+              zh:
+                page: zh
+                section: s-8b35bccc0d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

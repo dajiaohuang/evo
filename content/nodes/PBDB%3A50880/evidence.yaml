@@ -1,0 +1,172 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Proscalops secundus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Proscalops secundus
+      en: Proscalops secundus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cfeb014bf7
+            part: body
+          en:
+            page: en
+            section: s-76f6e8d896
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-22f100ee59
+            part: body
+          en:
+            page: en
+            section: s-2cbac9636a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f8344d366d
+            part: body
+          en:
+            page: en
+            section: s-187322793a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e55b6d5c09
+            part: body
+          en:
+            page: en
+            section: s-879dfd35d1
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f0f5f9bbaf
+            part: body
+          en:
+            page: en
+            section: s-fc72c74629
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Proscalops secundus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=50880&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:50880; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:50880
+          selectedOccurrenceIds:
+            - occ:181556
+            - occ:181823
+            - occ:181846
+            - occ:182877
+            - occ:182959
+            - occ:647070
+            - occ:647085
+            - occ:648285
+            - occ:648711
+            - occ:648728
+          selectedCollectionIds:
+            - col:17526
+            - col:17561
+            - col:17564
+            - col:17802
+            - col:17816
+            - col:67637
+            - col:67638
+            - col:17843
+            - col:69806
+            - col:69807
+          sourceReferenceIds:
+            - ref:7360
+            - ref:2362
+            - ref:2115
+            - ref:19303
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-06f686e69b
+        part: body
+      en:
+        page: en
+        section: s-3689f1ac68
+        part: body

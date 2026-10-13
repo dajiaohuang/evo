@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella pyrrhops
+    name:
+      en: Leptobrachella pyrrhops
+      zh: Leptobrachella pyrrhops
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Leptobrachella pyrrhops in the version 3 classification
+          zh: Leptobrachella pyrrhops 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-de187ee377
+            part: body
+          zh:
+            page: zh
+            section: s-cb2b899ea3
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 11 populated trait fields
+          zh: 2 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-57823e6a14
+            part: body
+          zh:
+            page: zh
+            section: s-79e7c5835e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2621, 2622; Reference.csv rows 649
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2621
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella pyrrhops
+          - M
+          - "33.2"
+          - "14.1"
+          - "12"
+          - "5.1"
+          - "2.2"
+          - "1.7"
+          - "4.1"
+          - NA
+          - NA
+          - NA
+          - "5"
+          - NA
+          - "8.4"
+          - NA
+          - NA
+          - "15.8"
+          - NA
+          - "16.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2622
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella pyrrhops
+          - F
+          - "32.1"
+          - "13.1"
+          - "11.1"
+          - "4.65"
+          - "1.95"
+          - "1.4"
+          - "3.9"
+          - NA
+          - NA
+          - NA
+          - "5"
+          - NA
+          - "8.4"
+          - NA
+          - NA
+          - "15.05"
+          - NA
+          - "15.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 649
+        values:
+          - Anura
+          - Leptobrachella_pyrrhops
+          - "Poyarkov, N. A., Rowley, J. J. L., Gogoleva, S. I., Vassilieva, A. B., Galoyan, E. A., & Orlov, N. L. (2015). A new species of Leptolalax (Anura: Megophryidae) from the western Langbian Plateau, southern Vietnam. Zootaxa, 3931(2), 221-252. https://doi.org/10.11646/zootaxa.3931.2.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - SL
+      - HAL
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6PG48
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

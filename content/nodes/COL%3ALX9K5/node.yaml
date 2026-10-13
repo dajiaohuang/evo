@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys hungtai
+  displayName: Boulenophrys hungtai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9K5
+  sourceIndexes:
+    - name:
+        en: Boulenophrys hungtai
+        zh: Boulenophrys hungtai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9K5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/352
+            queryName: Boulenophrys hungtai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-97e3f586b3
+      - s-c2ade6bc24
+      - s-76a41e4122
+      - s-0c8b1f5575
+      - s-a5c61cd278
+      - s-a88b629ec0
+      - s-fe5ad034fb
+      - s-148805db29
+      - s-b3a79ebc9f
+    zh:
+      - s-a508a9f492
+      - s-222bdafe33
+      - s-5b32f7804b
+      - s-0ece28dcbe
+      - s-eeba3d2861
+      - s-ffdb6b7661
+      - s-29713ce495
+      - s-3dabae026b
+      - s-57b10393c4

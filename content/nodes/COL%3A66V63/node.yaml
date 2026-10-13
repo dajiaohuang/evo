@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus praderioi
+  displayName: Anomaloglossus praderioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66V63
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus praderioi
+        zh: Anomaloglossus praderioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66V63
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/19
+            queryName: Anomaloglossus praderioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/134
+            queryName: Colostethus praderioi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9175aafc7e
+      - s-00fc20e1e0
+      - s-323016f4e8
+      - s-62fb689f69
+      - s-be7d969037
+      - s-f04b31b049
+      - s-abefca8a5a
+      - s-0827e80c29
+      - s-9bd0af3bce
+    zh:
+      - s-dd1b018661
+      - s-00aae7b879
+      - s-041ae81eca
+      - s-5b1cbdefd7
+      - s-dec5aa987f
+      - s-55429774b6
+      - s-b41d84b050
+      - s-30e785de79
+      - s-d72c98bb54

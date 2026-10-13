@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus pluvialis
+  displayName: Nymphargus pluvialis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486K2
+  sourceIndexes:
+    - name:
+        en: Nymphargus pluvialis
+        zh: Nymphargus pluvialis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486K2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/446
+            queryName: Nymphargus pluvialis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/15
+            queryName: Cochranella pluvialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/395
+            queryName: Centrolenella pluvialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf685d1d59
+      - s-b465c067c0
+      - s-8d4d9804fa
+      - s-4a5b85c63d
+      - s-d0d10d7704
+      - s-d12ed61e3b
+      - s-6750588378
+      - s-a94ae2c752
+      - s-fd6f9ffe29
+      - s-699ab15f4d
+      - s-a238083dfc
+      - s-83a40723f6
+      - s-722447960f
+      - s-60788bfa03
+      - s-8cfb745d20
+      - s-97b93489fb
+      - s-8c673e41c1
+      - s-e2236c79c2
+    zh:
+      - s-594da781d9
+      - s-9b3936fc03
+      - s-d227847b9f
+      - s-d88ad05082
+      - s-d823bc1637
+      - s-33e244d587
+      - s-ba9070aff8
+      - s-7184ff7b31
+      - s-1238c48f60
+      - s-0e95c1fffd
+      - s-8970519da8
+      - s-8fb6c3f50f
+      - s-0263a5294b
+      - s-1b57820a54
+      - s-73dd87a1b5
+      - s-134a04baa4
+      - s-bf2dabd603
+      - s-8a142ca81c

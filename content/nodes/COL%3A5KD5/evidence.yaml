@@ -1,0 +1,306 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Malaconotus
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Malaconotus
+      en: Malaconotus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-409bbb3937
+            part: body
+          en:
+            page: en
+            section: s-864b925d59
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-58c703cfa1
+            part: body
+          en:
+            page: en
+            section: s-49dead7dff
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-34804cb4bd
+            part: body
+          en:
+            page: en
+            section: s-bc5bb1ccd2
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-3815be678a
+            part: body
+          en:
+            page: en
+            section: s-8b4685806e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-e4f7d85bc9
+            part: body
+          en:
+            page: en
+            section: s-ebfedd719e
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-2d8ca10d04
+            part: body
+          en:
+            page: en
+            section: s-fcabf671de
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-718c7ddbca
+            part: body
+          en:
+            page: en
+            section: s-0fd16d6b78
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Malaconotus
+          url: https://www.checklistbank.org/dataset/316115/taxon/5KD5
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 4 selected measured records placed under Malaconotus in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 4 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 4
+            foraging: 4
+            activity: 0
+          readingTargets:
+            - name: Malaconotus cruentus
+              colId: 3XKQN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3XKQN
+            - name: Malaconotus lagdeni
+              colId: 3XKQQ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3XKQQ
+            - name: Malaconotus gladiator
+              colId: 3XKQP
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3XKQP
+            - name: Malaconotus blanchoti
+              colId: 3XKQM
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3XKQM
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 2 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 0
+            foraging: 2
+            activity: 0
+          readingTargets:
+            - name: Malaconotus monteiri
+              colId: 3XKQR
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3XKQR
+            - name: Malaconotus alius
+              colId: 3XKQL
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3XKQL
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 2 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: 3XKQL
+              name: Malaconotus alius
+              canonicalPath: content/nodes/COL%3A3XKQL
+            - colId: 3XKQR
+              name: Malaconotus monteiri
+              canonicalPath: content/nodes/COL%3A3XKQR
+          fieldAccountCounts:
+            Habitat: 2
+            Trophic.Niche: 2
+            Primary.Lifestyle: 2
+            Migration: 2
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+    limitations:
+      zh:
+        page: zh
+        section: s-b0e0ad5da4
+        part: body
+      en:
+        page: en
+        section: s-f05234af13
+        part: body

@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ardenna gravis
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Ardenna gravis
+      en: Ardenna gravis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-330c97a8c4
+            part: body
+          en:
+            page: en
+            section: s-6bbbb85c22
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-fed0bffd0d
+            part: body
+          en:
+            page: en
+            section: s-7e14c23a64
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-9d79591ee8
+            part: body
+          en:
+            page: en
+            section: s-ae1fadf709
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-2a9a9d4410
+            part: body
+          en:
+            page: en
+            section: s-94f8058657
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-c4f6e57cbe
+            part: body
+          en:
+            page: en
+            section: s-c47425b463
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ardenna gravis
+          url: https://www.checklistbank.org/dataset/316115/taxon/D5KCG
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetArdennaHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Ardenna historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 10083–10089; each eBird and BirdTree crosswalk, ar/pu COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Puffinus 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Puffinus combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-fef059f4a2
+        part: body
+      en:
+        page: en
+        section: s-1e5764c0df
+        part: body

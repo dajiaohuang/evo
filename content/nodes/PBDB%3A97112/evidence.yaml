@@ -1,0 +1,311 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Anura
+    rank: suborder
+    sourceTaxonId: txn:97112
+    name:
+      en: Anura
+      zh: Anura
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-ece15a98c8
+            part: body
+          zh:
+            page: zh
+            section: s-2ed39b2594
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-6a81d003ff
+            part: body
+          zh:
+            page: zh
+            section: s-4892f77335
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-ae9766772c
+            part: body
+          zh:
+            page: zh
+            section: s-b7703df6d2
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-ea45a95a03
+            part: body
+          zh:
+            page: zh
+            section: s-812dcf5d86
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:97112; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: G. Fischer von Waldheim. 1813. Zoognosia Tabulis Synopticis. Edition Tertia, Classium, Ordinum, Generum Illustratione Perpetua Aucta. Volumen Primum, Tabulas Synopticas Generales et Comparativas, nec non Characterum Quorundam Explicationem Iconographicam Continens. Nicolai Sergeidis Vsevolozsky, Moscow
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:326747
+        - txn:197675
+        - txn:381512
+        - txn:202235
+        - txn:202829
+        - txn:202824
+        - txn:57290
+        - txn:202238
+        - txn:202827
+        - txn:202826
+        - txn:202822
+        - txn:156388
+        - txn:202825
+        - txn:202821
+        - txn:202823
+        - txn:202820
+        - txn:134552
+        - txn:352718
+        - txn:371744
+        - txn:287444
+        - txn:409506
+        - txn:287443
+        - txn:409510
+        - txn:409509
+        - txn:135485
+        - txn:383352
+        - txn:199258
+        - txn:68502
+        - txn:156614
+        - txn:484245
+        - txn:113803
+        - txn:409725
+        - txn:108550
+        - txn:409724
+        - txn:357760
+        - txn:134503
+        - txn:135379
+        - txn:135376
+        - txn:474216
+        - txn:135386
+        - txn:144427
+        - txn:135486
+        - txn:57627
+        - txn:409526
+        - txn:251825
+        - txn:409533
+        - txn:387438
+        - txn:409528
+        - txn:409721
+        - txn:409722
+        - txn:92265
+        - txn:409723
+        - txn:254049
+        - txn:81823
+        - txn:108608
+        - txn:108649
+        - txn:67627
+        - txn:156615
+        - txn:387909
+        - txn:135373
+        - txn:135372
+        - txn:201399
+        - txn:371248
+        - txn:92266
+        - txn:92264
+        - txn:346345
+        - txn:289675
+        - txn:361645
+        - txn:254047
+        - txn:401816
+        - txn:326451
+        - txn:156370
+        - txn:334354
+        - txn:348801
+        - txn:156322
+        - txn:409733
+        - txn:156321
+        - txn:409731
+        - txn:99654
+        - txn:99655
+        - txn:409728
+        - txn:99653
+        - txn:242716
+        - txn:110632
+        - txn:84028
+        - txn:99656
+        - txn:99662
+        - txn:99661
+        - txn:99664
+        - txn:409726
+        - txn:252941
+        - txn:156518
+        - txn:63611
+        - txn:356535
+        - txn:197673
+        - txn:499660
+        - txn:202008
+        - txn:156581
+        - txn:197697
+        - txn:156584
+        - txn:274968
+        - txn:484632
+        - txn:473097
+        - txn:118075
+        - txn:291373
+        - txn:291376
+        - txn:260476
+        - txn:135434
+        - txn:110833
+        - txn:110674
+        - txn:104846
+        - txn:246220
+        - txn:65653
+        - txn:135428
+        - txn:94065
+        - txn:333977
+        - txn:135439
+        - txn:508651
+        - txn:156436
+        - txn:356537
+        - txn:367181
+        - txn:518428
+        - txn:153544
+        - txn:156432
+        - txn:473086
+        - txn:156613
+        - txn:254122
+        - txn:346346
+        - txn:110635
+        - txn:517801
+        - txn:517802
+        - txn:517799
+        - txn:100116
+        - txn:290010
+        - txn:110634
+        - txn:110941
+        - txn:517794
+        - txn:517797
+        - txn:68705
+        - txn:291375
+        - txn:111004
+        - txn:517803
+        - txn:110940
+        - txn:517795
+        - txn:462730
+        - txn:207009
+        - txn:424276
+        - txn:424277
+        - txn:135438
+        - txn:424273
+        - txn:95402
+        - txn:462003
+        - txn:172509
+        - txn:172508
+        - txn:156317
+        - txn:479129
+        - txn:156434
+        - txn:156323
+        - txn:64154
+        - txn:331571
+        - txn:249806
+        - txn:202831
+        - txn:53192
+        - txn:202237
+        - txn:387921
+        - txn:156325
+        - txn:364692
+        - txn:409512
+        - txn:202833
+        - txn:202837
+        - txn:214884
+        - txn:57535
+        - txn:57536
+        - txn:202835
+      exactOccurrenceCount: 371
+      datedOccurrenceCount: 371
+      collectionIntervalBoundsMa:
+        older: 184.2
+        younger: 0
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ea45a95a03
+            part: body
+          zh:
+            page: zh
+            section: s-812dcf5d86
+            part: body
+        sourceIds: []

@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea multiplicata
+  displayName: Eurycea multiplicata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6HF6L
+  sourceIndexes:
+    - name:
+        en: Eurycea multiplicata
+        zh: Eurycea multiplicata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6HF6L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/422
+            queryName: Eurycea multiplicata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/12
+            queryName: Spelerpes multiplicatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/15
+            queryName: Eurycea multiplicata multiplicata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/237
+            queryName: Geotriton multiplicatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9b0f70a11
+      - s-eaa76168f1
+      - s-89c4e1a9ed
+      - s-c4736b8a69
+      - s-24e6f52c0a
+      - s-1f09a3239a
+      - s-def668f846
+      - s-28885e24ac
+      - s-8b358b614f
+      - s-5f7e4d1693
+      - s-b63dafd5e4
+      - s-b90c70e643
+      - s-139b64152b
+      - s-e9f41c3a1a
+      - s-bbce153959
+      - s-5a68928d28
+      - s-fd762d133c
+      - s-aab439f1ac
+    zh:
+      - s-27afae9f67
+      - s-701d71c812
+      - s-f99706b03e
+      - s-9e58ba5fe1
+      - s-ebe88b7941
+      - s-aed6397a17
+      - s-f12739812e
+      - s-d329e99bb5
+      - s-8a4d932bf4
+      - s-f92c7aa636
+      - s-dc2a072d0d
+      - s-2c06004ef7
+      - s-72b8bca84b
+      - s-fd3d567539
+      - s-02c0199bd4
+      - s-6e47b761f2
+      - s-ab75445a41
+      - s-49b84a7617

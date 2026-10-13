@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Atelopus peruensis
+    name:
+      en: Atelopus peruensis
+      zh: Atelopus peruensis
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Atelopus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Atelopus peruensis in the version 3 classification
+          zh: Atelopus peruensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3e5d64169a
+            part: body
+          zh:
+            page: zh
+            section: s-e3b2e52b01
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 11 populated trait fields
+          zh: 2 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-808d197025
+            part: body
+          zh:
+            page: zh
+            section: s-86a312a981
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 555, 556; Reference.csv rows 2578
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 555
+        values:
+          - Bufonidae
+          - Atelopus
+          - Atelopus peruensis
+          - M
+          - "35.63"
+          - "11.1"
+          - "9.89"
+          - "2.51"
+          - NA
+          - NA
+          - "3.59"
+          - "3.01"
+          - NA
+          - "2.84"
+          - NA
+          - NA
+          - "9.02"
+          - "10.55"
+          - NA
+          - "14.15"
+          - NA
+          - "11.96"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 556
+        values:
+          - Bufonidae
+          - Atelopus
+          - Atelopus peruensis
+          - F
+          - "43.52"
+          - "11.94"
+          - "10.85"
+          - "2.67"
+          - NA
+          - NA
+          - "3.71"
+          - "3.36"
+          - NA
+          - "3.06"
+          - NA
+          - NA
+          - "10.58"
+          - "11.73"
+          - NA
+          - "16.03"
+          - NA
+          - "13.15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2578
+        values:
+          - Anura
+          - Atelopus_peruensis
+          - Gray, P., & Cannatella, D. C. (1985). A New Species of Atelopus (Anura, Bufonidae) from the Andes of Northern Perú. Copeia, 1985(4), 910-917. https://doi.org/10.2307/1445241
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - J925
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

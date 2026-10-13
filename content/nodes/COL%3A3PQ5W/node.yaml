@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ingerophrynus kumquat
+  displayName: Ingerophrynus kumquat
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PQ5W
+  sourceIndexes:
+    - name:
+        en: Ingerophrynus kumquat
+        zh: Ingerophrynus kumquat
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PQ5W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/499
+            queryName: Ingerophrynus kumquat
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/356
+            queryName: Bufo kumquat
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f8d2c0059
+      - s-36b5e46d13
+      - s-68ad259896
+      - s-29e0a5bc7e
+      - s-5440a16a7a
+      - s-79a11cdc37
+      - s-f8cb813680
+      - s-0080c64fed
+      - s-0c52e6fca0
+      - s-a14cacb08f
+      - s-48a00adcdc
+    zh:
+      - s-9cd55c51b3
+      - s-9fcbfb78f4
+      - s-8a8d28b7e5
+      - s-d438fd76ce
+      - s-f86ce2b89f
+      - s-03e178be4a
+      - s-75ec1d6569
+      - s-f6cf93c5e9
+      - s-f596e89da7
+      - s-70be4e09f5
+      - s-e2fa8edfca

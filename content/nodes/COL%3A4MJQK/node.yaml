@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis torrenticola
+  displayName: Pristimantis torrenticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQK
+  sourceIndexes:
+    - name:
+        en: Pristimantis torrenticola
+        zh: Pristimantis torrenticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/138
+            queryName: Pristimantis torrenticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/82
+            queryName: Eleutherodactylus torrenticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7383b7968
+      - s-0e00180052
+      - s-16eba4ff39
+      - s-b41af8ef80
+      - s-d34891e3a4
+      - s-b4a7604314
+      - s-07d41bd67f
+    zh:
+      - s-357d4dd616
+      - s-7bad062653
+      - s-055080160e
+      - s-9890d61262
+      - s-448d0152f6
+      - s-722d8cc80a
+      - s-4245c8cee9

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis frater
+  displayName: Pristimantis frater
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W8HM
+  sourceIndexes:
+    - name:
+        en: Pristimantis frater
+        zh: Pristimantis frater
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W8HM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/279
+            queryName: Pristimantis frater
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/90
+            queryName: Eleutherodactylus frater
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/358
+            queryName: Hylodes frater
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c77adfeb6d
+      - s-278b048082
+      - s-d65b812e8f
+      - s-2508170caf
+      - s-e740af6fac
+      - s-4420ad4cc4
+      - s-682c97c501
+      - s-5d23371c86
+      - s-7316f7fd91
+      - s-19bc7559a2
+    zh:
+      - s-6db81ce981
+      - s-02a4497a6d
+      - s-a782a57d92
+      - s-a895b36636
+      - s-bcee20b054
+      - s-eebf1cd799
+      - s-3a65d52e89
+      - s-dca92d1a7f
+      - s-ef7e98f76e
+      - s-ae5744725f

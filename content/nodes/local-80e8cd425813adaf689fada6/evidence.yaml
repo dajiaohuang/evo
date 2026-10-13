@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Choerophryne longirostris
+    name:
+      en: Choerophryne longirostris
+      zh: Choerophryne longirostris
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Choerophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-85fcc63a70
+            part: body
+          zh:
+            page: zh
+            section: s-b1f84bcf76
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0e0e7a9a30
+            part: body
+          zh:
+            page: zh
+            section: s-87f9fa11e2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1156; Reference.csv rows 261
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1156
+        values:
+          - Microhylidae
+          - Choerophryne
+          - Choerophryne longirostris
+          - NA
+          - "22.6"
+          - NA
+          - "7.684"
+          - "2.0114"
+          - "1.1526"
+          - NA
+          - "2.938"
+          - "1.4012"
+          - "1.1526"
+          - "4.068"
+          - "5.198"
+          - NA
+          - "4.294"
+          - "5.198"
+          - NA
+          - "6.328"
+          - NA
+          - "9.04"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9718"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9944"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 261
+        values:
+          - Anura
+          - Choerophryne_longirostris
+          - Kraus, F., & Allison, A. (2001). A review of the endemic new guinea microhylid frog genus Choerophryne. Herpetologica, 57(2), 214-232.
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 69YS7
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

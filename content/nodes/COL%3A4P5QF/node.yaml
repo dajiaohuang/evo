@@ -1,0 +1,48 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudopaludicola llanera
+  displayName: Pseudopaludicola llanera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P5QF
+  sourceIndexes:
+    - name:
+        en: Pseudopaludicola llanera
+        zh: Pseudopaludicola llanera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P5QF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/343
+            queryName: Pseudopaludicola llanera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-604b77c770
+      - s-5c26f31ed8
+      - s-a80304e861
+      - s-578314b77f
+    zh:
+      - s-713b824605
+      - s-21c37362ff
+      - s-838ddf22bf
+      - s-4fe303903c

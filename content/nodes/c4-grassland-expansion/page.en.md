@@ -1,0 +1,3 @@
+## Tooth enamel tracks a regional C4 expansion {#s-459c27dac7}
+Carbon-isotope ratios in fossil tooth enamel from Asia, Africa, North America and South America record a widespread rise in C4-plant biomass between about 8 and 6 Ma, with earlier increases at lower latitudes. C4 plants use a distinct carbon-fixation pathway; enamel values act as a proxy for the diets of sampled animals and their local habitats. The signal is not a direct map of vegetation cover: it does not identify which C4 plants supplied the biomass or by itself demonstrate open grassland, dental adaptation or faunal turnover.
+

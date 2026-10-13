@@ -1,0 +1,3 @@
+## *Garuleum latifolium*: aromatic leaves and blue or white rays {#s-b4ce53b706}
+The regional account describes a soft-wooded subshrub up to 1.2 m tall; its stems and leaves have fine gland-tipped hairs and an aroma. Alternate leaves are thin and may be coarsely toothed or divided nearly to the central vein. Several radiate heads form loose clusters at branch tips. Their female ray florets are blue or white, while the central florets function as male and are yellow. The bract cup has three overlapping rows, with the outer bracts much shorter than the inner ones. The account records sandy-loam soil and outcrops, including margins of bush clumps on Natal Group Sandstone.
+

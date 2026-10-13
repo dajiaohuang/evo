@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera ajurauna
+  displayName: Adenomera ajurauna
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZMD
+  sourceIndexes:
+    - name:
+        en: Adenomera ajurauna
+        zh: Adenomera ajurauna
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZMD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/22
+            queryName: Adenomera ajurauna
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/322
+            queryName: Leptodactylus ajurauna
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f5c9e0358f
+      - s-fc0e9ee67d
+      - s-74d12d053e
+      - s-ae4c7fdca3
+      - s-3fce4e3f69
+      - s-727d494bd0
+      - s-9f5bb8ac3b
+      - s-d1d784610f
+      - s-081acdd495
+      - s-53b5fa692b
+      - s-f55ad7235d
+    zh:
+      - s-3043e7a2ed
+      - s-2fe8521652
+      - s-6c5e19a490
+      - s-7c995000ff
+      - s-7f12ac5a21
+      - s-a628615e2b
+      - s-f12e573048
+      - s-586c16d8b2
+      - s-38632e3fc1
+      - s-3284378c53
+      - s-e90efcf5b2

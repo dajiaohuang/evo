@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Micrixalus kodayari
+  displayName: Micrixalus kodayari
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42RGS
+  sourceIndexes:
+    - name:
+        en: Micrixalus kodayari
+        zh: Micrixalus kodayari
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42RGS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/456
+            queryName: Micrixalus kodayari
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-27639cd34f
+      - s-a4c6b82d5c
+      - s-f0c97b0e98
+      - s-bc72cc0825
+      - s-04d07b4177
+    zh:
+      - s-2f32d7b68b
+      - s-fc09f9d757
+      - s-45ab039e84
+      - s-0c2ecf5d93
+      - s-984a86ad12

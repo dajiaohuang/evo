@@ -1,0 +1,124 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Manulea ovatifolia Hilliard
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3XX76, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3XX76; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3XX76
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3XX76
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000451188-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3XX76 / WFO wfo-0000451188
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14436_0
+        referenceId: ref-8db1d3f8-82f6-8879-a354-11f3ff9d25f8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Manulea ovatifolia Hilliard account; archive rows 6053 (Morphology), 29960 (Habitat), source identifier 14436.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_15191_0
+        referenceId: ref-da754693-87e1-8838-a70f-bd26393580b9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Manulea ovatifolia Hilliard account; archive rows 58425 (Diagnostic), source identifier 15191.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Slender, hairy shrublet to 75 cm. Leaves toothed. Flowers in laxly arranged cymules, tube inflated above, yellowish brown.
+            sourceIds:
+              - sanbi_14436_0
+            locator: "SANBI/WFO archive Morphology row 6053; source 14436.0; publication: Manning, JC; Goldblatt, P. 2012. Scrophulariaceae: Manulea L. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 745 - 747. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: "It is closely allied to M. turritis, but may be distinguished by its differently shaped leaves (usually ovate or occasionally oblong, not elliptic), this reflected in the ratio of leaf length to breadth: blade c. 12-23 x 7-20 mm in M. ovatifolia, c. 18-60 x 7-20 mm in M. turritis. The flowers of M. ovatifolia are somewhat larger than those of M. turritis: calyx lobes c. 2.5-3 mm long (versus 1.5-2.3 mm), corolla limb c. 7-9.5 mm across the lateral lobes (versus 6-7 mm), posticous lobes c. 3.5-4.8 x 1.5 mm (versus 2.25-3.5 x 0.75-1.5 mm). Manulea ovatifolia is also usually hairier on the inflorescence axes and calyx than M. turritis, and it is possibly shrubbier in habit."
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_15191_0
+            locator: "SANBI/WFO archive Diagnostic row 58425; source 15191.0; publication: Vollesen, KB. 2013. 126. Acanthaceae (Part 1), Fl. Zambes. 8(5): 1 - 184. Royal Botanic Gardens, Kew, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky sites.
+            sourceIds:
+              - sanbi_14436_0
+            locator: "SANBI/WFO archive Habitat row 29960; source 14436.0; publication: Manning, JC; Goldblatt, P. 2012. Scrophulariaceae: Manulea L. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 745 - 747. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia subinsignifera
+  displayName: Crinia subinsignifera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BH3B
+  sourceIndexes:
+    - name:
+        en: Crinia subinsignifera
+        zh: Crinia subinsignifera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BH3B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/214
+            queryName: Crinia subinsignifera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/426
+            queryName: Ranidella subinsignifera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-796b0fdc40
+      - s-6d2081e7cd
+      - s-f5ec87d945
+      - s-ed6c0272c3
+      - s-e2a37f549c
+      - s-d74401d704
+      - s-1f491ef75b
+      - s-8315a01ffd
+      - s-228f95265f
+      - s-6388031638
+    zh:
+      - s-5953004054
+      - s-f22527baad
+      - s-6fed5ef395
+      - s-c2098a7083
+      - s-2c641ed51c
+      - s-c4a198a355
+      - s-450efeffde
+      - s-74590090a0
+      - s-d9aa8ffaa2
+      - s-0c15a68347

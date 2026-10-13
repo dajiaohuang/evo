@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia inca
+  displayName: Caecilia inca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SQ
+  sourceIndexes:
+    - name:
+        en: Caecilia inca
+        zh: Caecilia inca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/71
+            queryName: Caecilia inca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ee00bdfc69
+      - s-6ebc6315a4
+      - s-c1894ea76e
+      - s-8e42d53789
+      - s-9b04a83745
+      - s-2e267c16c4
+      - s-c5d722cd0c
+      - s-0105914c81
+      - s-32d554e645
+      - s-8dc99d22a0
+      - s-1c4ff7042f
+    zh:
+      - s-c1b2847ab0
+      - s-4890ff6001
+      - s-39b846c040
+      - s-7df9363263
+      - s-666bed1f23
+      - s-0529b79e1d
+      - s-a087e14ff9
+      - s-5ea8b377d1
+      - s-33fcb24e4d
+      - s-ecfde08a5c
+      - s-cf66be8e33

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemisus microscaphus
+  displayName: Hemisus microscaphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KT42
+  sourceIndexes:
+    - name:
+        en: Hemisus microscaphus
+        zh: Hemisus microscaphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KT42
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/276
+            queryName: Hemisus microscaphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1c767d6327
+      - s-a5ca13f196
+      - s-4f91ba195e
+      - s-3e51a79236
+      - s-e2f1c75215
+      - s-2810531c91
+      - s-769ad5f4c6
+      - s-f662a7a812
+      - s-76eda52062
+      - s-e3bd69b592
+      - s-427e453a93
+      - s-39b442c7ca
+    zh:
+      - s-27b4f82dec
+      - s-4942835c7b
+      - s-c2559d1b75
+      - s-6446f38cff
+      - s-fe5eb7a843
+      - s-709eeb5b1d
+      - s-7461486689
+      - s-3b4599dbff
+      - s-3573fd2f14
+      - s-da443099e1
+      - s-68c44e48ed
+      - s-5135f50439

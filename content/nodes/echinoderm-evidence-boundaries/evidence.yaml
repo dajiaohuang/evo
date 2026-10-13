@@ -1,0 +1,169 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-4ca5ef6bdb
+      part: title
+    titleZh:
+      page: zh
+      section: s-0283a3e32b
+      part: title
+    dek:
+      page: en
+      section: s-4ca5ef6bdb
+      part: body
+    dekZh:
+      page: zh
+      section: s-0283a3e32b
+      part: body
+    theme: ocean
+    durationMinutes: 7
+    featured: false
+    steps:
+      - id: isolated-stereom
+        title:
+          page: en
+          section: s-ebb383df41
+          part: title
+        text:
+          page: en
+          section: s-ebb383df41
+          part: body
+        titleZh:
+          page: zh
+          section: s-d8b64a98f3
+          part: title
+        textZh:
+          page: zh
+          section: s-d8b64a98f3
+          part: body
+        age: 522
+        timeRange:
+          - 525
+          - 520
+        taxonIds:
+          - echinodermata
+        view: evidence
+        annotation: The source-reported numerical calibration is approximate and older than the atlas's current chart.
+        claimLinks:
+          - claimId: claim:taxon:echinodermata:earliest-stereom-ossicles
+            relation: supports
+      - id: contested-yanjiahella
+        title:
+          page: en
+          section: s-37c7f5628b
+          part: title
+        text:
+          page: en
+          section: s-37c7f5628b
+          part: body
+        titleZh:
+          page: zh
+          section: s-eb954c4458
+          part: title
+        textZh:
+          page: zh
+          section: s-eb954c4458
+          part: body
+        age: 536
+        timeRange:
+          - 539
+          - 529
+        taxonIds:
+          - echinodermata
+        view: tree
+        annotation: Competing matrices are evidence of disagreement, not permission to select a convenient endpoint.
+        claimLinks:
+          - claimId: claim:taxon:echinodermata:yanjiahella-affinity
+            relation: supports
+      - id: articulated-faunas
+        title:
+          page: en
+          section: s-597bab1b7c
+          part: title
+        text:
+          page: en
+          section: s-597bab1b7c
+          part: body
+        titleZh:
+          page: zh
+          section: s-0331ccf767
+          part: title
+        textZh:
+          page: zh
+          section: s-0331ccf767
+          part: body
+        age: 510
+        timeRange:
+          - 515
+          - 508
+        taxonIds:
+          - echinodermata
+        view: diversity
+        annotation: A robust sampled fauna is still not the first evolutionary instant of Echinodermata.
+        claimLinks:
+          - claimId: claim:taxon:echinodermata:articulated-faunas-510ma
+            relation: supports
+      - id: class-records
+        title:
+          page: en
+          section: s-16722e4c85
+          part: title
+        text:
+          page: en
+          section: s-16722e4c85
+          part: body
+        titleZh:
+          page: zh
+          section: s-d3057bd127
+          part: title
+        textZh:
+          page: zh
+          section: s-d3057bd127
+          part: body
+        age: 475
+        timeRange:
+          - 480
+          - 465
+        taxonIds:
+          - crinoidea
+          - holothuroidea
+        view: map
+        annotation: Different preservation histories prevent one class record from standing in for every echinoderm class.
+        claimLinks:
+          - claimId: claim:taxon:crinoidea:tremadocian-record
+            relation: supports
+          - claimId: claim:taxon:holothuroidea:darriwilian-articulated-record
+            relation: supports
+      - id: stem-versus-crown
+        title:
+          page: en
+          section: s-3dbf53acf7
+          part: title
+        text:
+          page: en
+          section: s-3dbf53acf7
+          part: body
+        titleZh:
+          page: zh
+          section: s-cedbc3df89
+          part: title
+        textZh:
+          page: zh
+          section: s-cedbc3df89
+          part: body
+        age: 465
+        timeRange:
+          - 470
+          - 290
+        taxonIds:
+          - echinoidea
+        view: tree
+        annotation: A fossil occurrence and a modelled divergence answer different questions and remain separate in the atlas.
+        claimLinks:
+          - claimId: claim:taxon:echinoidea:ordovician-stem-record
+            relation: supports
+          - claimId: claim:taxon:echinoidea:crown-origin
+            relation: contextualizes
+    evidenceStatus: available-with-limitations

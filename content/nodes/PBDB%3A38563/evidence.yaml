@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hulsanpes
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Hulsanpes
+      en: Hulsanpes
+    sections:
+      - topic: readingPath
+        sourceIds:
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-679309f082
+            part: body
+          en:
+            page: en
+            section: s-8bd76ea427
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-5a6e532d88
+            part: body
+          en:
+            page: en
+            section: s-674b1900ed
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d9b47de8c7
+            part: body
+          en:
+            page: en
+            section: s-8c53619ff2
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-38bc83f7ae
+            part: body
+          en:
+            page: en
+            section: s-ff4b2b06d6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Hulsanpes
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38563
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38563
+          readingTargets:
+            - name: Hulsanpes perlei
+              pbdbTaxonId: txn:67680
+              canonicalPath: content/nodes/PBDB%3A67680
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: cauMadzia2018Hulsanpes
+        referenceId: ref-11b2b6cd-cda3-48a9-9a03-46ade327ce11
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Redescription and affinities of Hulsanpes perlei (Dinosauria, Theropoda) from the Upper Cretaceous of Mongolia
+          url: https://peerj.com/articles/4868/
+          locator: Material and Methods; Systematic Paleontology; Description; Results; Discussion; Conclusions; Table 1 and Figures 1–4 captions.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2018 年对 ZPAL MgD-I/173 的重描述与作者亲缘、幼体和足部功能解释；不是原标本复量、年龄测定或直接行为观察。
+            en: The 2018 redescription of ZPAL MgD-I/173 and the authors’ relationship, immaturity and foot-function interpretations; not remeasurement, age determination or direct behavioral observations.
+    limitations:
+      zh:
+        page: zh
+        section: s-dcf1d334e9
+        part: body
+      en:
+        page: en
+        section: s-50eb36a1d6
+        part: body

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus tomaiodactylus
+  displayName: Cophixalus tomaiodactylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y45G
+  sourceIndexes:
+    - name:
+        en: Cophixalus tomaiodactylus
+        zh: Cophixalus tomaiodactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y45G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/489
+            queryName: Cophixalus tomaiodactylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ad38acddda
+      - s-5ec833df6d
+      - s-94fad09737
+      - s-8ac9a35018
+      - s-1ede2d6123
+      - s-b00a13c405
+    zh:
+      - s-852637c2c1
+      - s-aa1f8a5ff6
+      - s-4b654ad1e5
+      - s-d1f76d0cb2
+      - s-575a2cf92c
+      - s-4caac2b4e0

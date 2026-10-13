@@ -1,0 +1,136 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Metalasia densa (Lam.) P.O.Karis
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted node 73CXS checked for name, authorship, rank, status and source dataset ID; pinned WFO 2026-06 crosswalk maps it to wfo-0000037543 by exact accepted name and authorship.
+      scope: Metalasia densa (Lam.) P.O.Karis as represented by COL26.8 usage 73CXS; the Greater Cape flora account is regional evidence, not a global species synthesis.
+    lifeStatusScope:
+      wild: The flora account does not distinguish native wild from naturalised populations at claim level.
+      domesticated: No cultivated or domesticated claim is made; this source does not assess domestication.
+      fossil: No fossil claim is made; fossil occurrence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 15
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/73CXS
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted taxon usage 73CXS
+          scope: Accepted name, authorship, rank, status and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000037543-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 73CXS / WFO wfo-0000037543
+          scope: Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence.
+      - id: sanbi
+        referenceId: ref-a3ad50e2-00d8-8957-a67a-ec1c51e38864
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Metalasia densa (Lam.) P.O.Karis account, p. 396; source ID 14179.0; Morphology row 10300 and Habitat row 26236
+          scope: Greater Cape Floristic Region flora account, not a global range assessment.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: An erect, white-woolly shrub to 2.5 m, sometimes 4 m, with often reflexed, lanceolate to ovate twisted leaves 2–15 mm long and axillary tufts; discoid heads are in terminal clusters, three- to five-flowered, with erect or rarely spreading bracts, outer ones brown below and inner petaloid bracts white, sometimes brown.
+            textZh: 植株直立、具白色绵毛，为高至 2.5 m、有时达 4 m 的灌木；叶常反折，披针形至卵形、扭曲，长 2–15 mm，叶腋具簇毛；盘状头状花序排列于顶生簇中，每头三至五花，苞片直立、少数开展，外层下部棕色，内层花瓣状苞片为白色、有时棕色。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012), Metalasia densa (Lam.) P.O.Karis account, p. 396; archive Morphology row 10300
+            placeTimeScope: Greater Cape regional flora account published 2012; no sample size or measurement protocol given.
+            lifeStatus: Regional flora account; wild native and naturalised populations are not distinguished at claim level.
+        gaps:
+          - Population variation, developmental stages and independent specimen-based diagnosis remain unassessed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The account reports flowering Mainly June–October.
+            textZh: 该条目记载花期为 Mainly June–October。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012), Metalasia densa (Lam.) P.O.Karis account, p. 396, flowering-time entry
+            placeTimeScope: Regional account published 2012; not a global phenology analysis.
+            lifeStatus: Regional flora account; wild native and naturalised populations are not distinguished at claim level.
+        gaps:
+          - Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The account records sandy or stony flats and slopes as habitat.
+            textZh: 该条目记载生境为沙质或石质平原与坡地。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012), Metalasia densa (Lam.) P.O.Karis account, p. 396; archive Habitat row 26236
+            placeTimeScope: Regional habitat and elevation summary; no dated observation sites, frequency or sampling frame are given.
+            lifeStatus: Regional flora account; wild native and naturalised populations are not distinguished at claim level.
+        gaps:
+          - Species interactions, resource use and population-level ecology have not been assessed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The account lists the regional distribution as NW, SW, AP, KM, LB, SE (Namaqualand to Limpopo).
+            textZh: 该条目列出的区域分布为 NW、SW、AP、KM、LB、SE（Namaqualand 至 Limpopo）。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012), Metalasia densa (Lam.) P.O.Karis account, p. 396, distribution entry
+            placeTimeScope: Greater Cape Floristic Region summary published 2012; not a current global range polygon.
+            lifeStatus: Regional flora account; wild native and naturalised populations are not distinguished at claim level.
+        gaps:
+          - Current occurrence records, status and unsampled areas have not been reconciled.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-14a9c80e30
+            part: title
+          zh:
+            page: zh
+            section: s-111e1bcda4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-14a9c80e30
+            part: body
+          zh:
+            page: zh
+            section: s-111e1bcda4
+            part: body

@@ -1,0 +1,435 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyperolius jackie Dehling, 2012
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyperolius jackie
+      zh: Hyperolius jackie
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-be44d3be6b
+            part: title
+          zh:
+            page: zh
+            section: s-d7df7fc0e4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-be44d3be6b
+            part: body
+          zh:
+            page: zh
+            section: s-d7df7fc0e4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-84ae06490b
+            part: title
+          zh:
+            page: zh
+            section: s-b8c357393d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-84ae06490b
+            part: body
+          zh:
+            page: zh
+            section: s-b8c357393d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3924a55bd8
+            part: title
+          zh:
+            page: zh
+            section: s-2e95738b7b
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3924a55bd8
+            part: body
+          zh:
+            page: zh
+            section: s-2e95738b7b
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-65cf500a0ab2185c6f0fe63a
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ded5a2bf6be04b4cf3e24681
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f39443bbda
+            part: title
+          zh:
+            page: zh
+            section: s-3ac93ff7d6
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f39443bbda
+            part: body
+          zh:
+            page: zh
+            section: s-3ac93ff7d6
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-913a79db1a
+            part: title
+          zh:
+            page: zh
+            section: s-3ced96ab13
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-913a79db1a
+            part: body
+          zh:
+            page: zh
+            section: s-3ced96ab13
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-4546817785
+            part: title
+          zh:
+            page: zh
+            section: s-443e205691
+            part: title
+        sourceIds:
+          - primary-pmc13072372-6mpxm
+        text:
+          en:
+            page: en
+            section: s-4546817785
+            part: body
+          zh:
+            page: zh
+            section: s-443e205691
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b327735c0c
+            part: title
+          zh:
+            page: zh
+            section: s-7f8661188e
+            part: title
+        sourceIds:
+          - primary-pmc13072372-6mpxm
+        text:
+          en:
+            page: en
+            section: s-b327735c0c
+            part: body
+          zh:
+            page: zh
+            section: s-7f8661188e
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-5488405ad9
+            part: title
+          zh:
+            page: zh
+            section: s-56e663e3d6
+            part: title
+        sourceIds:
+          - primary-pmc13072372-6mpxm
+        text:
+          en:
+            page: en
+            section: s-5488405ad9
+            part: body
+          zh:
+            page: zh
+            section: s-56e663e3d6
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-6f87508626
+            part: title
+          zh:
+            page: zh
+            section: s-e2cdd3c147
+            part: title
+        sourceIds:
+          - primary-pmc13072372-6mpxm
+        text:
+          en:
+            page: en
+            section: s-6f87508626
+            part: body
+          zh:
+            page: zh
+            section: s-e2cdd3c147
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyperolius jackie
+          url: https://www.checklistbank.org/dataset/316115/taxon/6MPXM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2767, 2768, 2769, 2770, 2771, 2772, 2773, 2774, 2775, 2776, 2777, 2778, 2779, 2780, 2781, 2782, 2783, 2784, 2785, 2786; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2301; Reference.csv rows 2302
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc13072372-6mpxm
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hyperolius jackie: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0424f8fd08
+        part: body
+      zh:
+        page: zh
+        section: s-269df7c5e8
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-65cf500a0ab2185c6f0fe63a
+        scientificName: Hyperolius jackie
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-ded5a2bf6be04b4cf3e24681
+        scientificName: Hyperolius jackie
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani16071104
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        sourceKey: primary-pmc13072372-6mpxm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13072372/article.xml
+        sourceConcept: Source Hyperolius jackie compiled2010–2023Rwanda detections andindexcategories; exactwrittenname only, no originalvoucher/currentconceptcertification
+        evidenceRead: "Hyperolius jackie: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Occurrence counts in the assembled Rwanda sample
+              zh: 卢旺达汇总样本中的出现计数
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-6mpxm
+            locator: PMC13072372 XML TablesA2/A3 namedrow Hyperolius jackie;sec2dot3;sec3dot1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-536adb8ea8
+                part: body
+              zh:
+                page: zh
+                section: s-c8da55a6e7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A species score for a specified conservation framework
+              zh: 特定保护框架中的物种评分
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-6mpxm
+            locator: PMC13072372 XML TableA4 row22;Table1;sec2dot4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9437e99b48
+                part: body
+              zh:
+                page: zh
+                section: s-136c60dfda
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Species Index and site index have different meanings
+              zh: 物种指数与站点指数含义不同
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-6mpxm
+            locator: PMC13072372 XML sec2dot4;sec3dot3;sec4dot2;TableA4 row22
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8dd502c70e
+                part: body
+              zh:
+                page: zh
+                section: s-3472b8898d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Sampling and transfer limits
+              zh: 采样与迁移应用限制
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-6mpxm
+            locator: PMC13072372 XML sec2dot3/5;sec3dot1/4;sec4dot1–3;TablesA1/4/7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2fca3f7d8b
+                part: body
+              zh:
+                page: zh
+                section: s-6daabc372d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

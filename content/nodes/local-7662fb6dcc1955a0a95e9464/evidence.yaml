@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Zhangixalus smaragdinus
+    name:
+      en: Zhangixalus smaragdinus
+      zh: Zhangixalus smaragdinus
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Zhangixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8c98d1dec4
+            part: body
+          zh:
+            page: zh
+            section: s-33d56489fe
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ea37c1a83f
+            part: body
+          zh:
+            page: zh
+            section: s-db709e78e9
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 6139, 6140; Reference.csv rows 1542
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 6139
+        values:
+          - Rhacophoridae
+          - Zhangixalus
+          - Zhangixalus smaragdinus
+          - M
+          - "74.1"
+          - "25.3"
+          - "25.9"
+          - "8.3"
+          - "4.8"
+          - NA
+          - "9.1"
+          - "6.9"
+          - "6.6"
+          - NA
+          - "11.8"
+          - NA
+          - NA
+          - NA
+          - "36.7"
+          - NA
+          - NA
+          - "35"
+          - NA
+          - NA
+          - "114.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.3"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 6140
+        values:
+          - Rhacophoridae
+          - Zhangixalus
+          - Zhangixalus smaragdinus
+          - F
+          - "69.7"
+          - "24.5"
+          - "26"
+          - "9"
+          - "4.6"
+          - NA
+          - "9.8"
+          - "7.2"
+          - "6"
+          - NA
+          - "11.7"
+          - NA
+          - NA
+          - NA
+          - "38"
+          - NA
+          - NA
+          - "35.9"
+          - NA
+          - NA
+          - "105"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.1"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1542
+        values:
+          - Anura
+          - Zhangixalus_smaragdinus
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006) Fauna of China, Class Amphibia (Middle Volume) Anura. Science Press, Beijing.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - LAL
+      - TL
+      - HLL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5D4MT
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

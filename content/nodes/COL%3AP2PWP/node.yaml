@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Firouzophrynus dhufarensis
+  displayName: Firouzophrynus dhufarensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P2PWP
+  sourceIndexes:
+    - name:
+        en: Firouzophrynus dhufarensis
+        zh: Firouzophrynus dhufarensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P2PWP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/488
+            queryName: Firouzophrynus dhufarensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/318
+            queryName: Bufo dhufarensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/483
+            queryName: Duttaphrynus dhufarensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aab6d8a305
+      - s-a75e5f4ee6
+      - s-82dafa1407
+      - s-d461861f08
+      - s-c0a0eb0e71
+      - s-3330f5a917
+      - s-83d89c44a8
+      - s-79e980d70b
+      - s-925c0e8c61
+      - s-5d7f536eff
+      - s-2c69f641a7
+      - s-f4938a3d3f
+    zh:
+      - s-cd5923c8b4
+      - s-e9e1e54ee7
+      - s-7619cc413c
+      - s-dfc4e19229
+      - s-6e22c7a147
+      - s-7f999337a0
+      - s-e385f0a126
+      - s-948838852f
+      - s-e2f6b9cc5f
+      - s-d35f321228
+      - s-76bffe4099
+      - s-2bb834575a

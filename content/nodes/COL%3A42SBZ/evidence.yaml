@@ -1,0 +1,415 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microcebus ravelobensis Zimmerman, Ehresmann, Zeitemann, Radespiel, Randrianambinina & Rakotoarison, 1997
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 金棕鼠狐猴
+      en: Golden-brown mouse lemur
+    sections:
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-db75878d27
+            part: body
+          en:
+            page: en
+            section: s-347aa9ca91
+            part: body
+        sourceIds:
+          - andriatsitohaina2020
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-0abdf4615a
+            part: body
+          en:
+            page: en
+            section: s-dcc65cd637
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-ab37ada99e
+            part: body
+          en:
+            page: en
+            section: s-cef9f43e87
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-cba9571223
+            part: body
+          en:
+            page: en
+            section: s-56d5827785
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-abecee7e5e
+            part: body
+          en:
+            page: en
+            section: s-ef5069b49b
+            part: body
+    sources:
+      - id: andriatsitohaina2020
+        referenceId: ref-855e78f4-612b-8b3c-a0d2-0f264fdf0402
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 马达加斯加西北部 Mariarano 分类森林；2017 年 6—7 月与 2018 年 5—8 月共采样四条 1 千米样线。
+            en: Mariarano Classified Forest in northwestern Madagascar; four 1-km transects sampled in June–July 2017 and May–August 2018.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42SBZ
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 482; Scientific=Microcebus ravelobensis; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups:
+            - group: diet
+              certainty: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          readerFieldCautions:
+            - fieldGroup: diet
+              sourceCode: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-3aa959642d
+        part: body
+      en:
+        page: en
+        section: s-18dd00f04f
+        part: body
+  catalogue-dossier:
+    scientificName: Microcebus ravelobensis Zimmerman, Ehresmann, Zeitemann, Radespiel, Randrianambinina & Rakotoarison, 1997
+    authorship: Zimmerman, Ehresmann, Zeitemann, Radespiel, Randrianambinina & Rakotoarison, 1997
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact pinned COL26.8 accepted usage 42SBZ verified for verbatim name, authorship, species rank, accepted status, and sourceDatasetId 2144; each accepted parent node was followed by ID through pinned hierarchy shards to the root.
+      scope: The target is the exact accepted COL26.8 usage 42SBZ. The paper studies individuals identified as Microcebus ravelobensis at one northwestern Madagascar forest site; it does not define or compare subspecies, so none is inferred.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4FM
+        scientificName: Strepsirrhini É. Geoffroy Saint-Hilaire, 1812
+        authorship: É. Geoffroy Saint-Hilaire, 1812
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4LN
+        scientificName: Lemuriformes Gray, 1821
+        authorship: Gray, 1821
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4XL
+        scientificName: Cheirogaleoidea Gray, 1873
+        authorship: Gray, 1873
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: "834"
+        scientificName: Cheirogaleidae Gray, 1873
+        authorship: Gray, 1873
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 63B2M
+        scientificName: Microcebus É. Geoffroy Saint-Hilaire, 1834
+        authorship: É. Geoffroy Saint-Hilaire, 1834
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 42SBZ
+        scientificName: Microcebus ravelobensis Zimmerman, Ehresmann, Zeitemann, Radespiel, Randrianambinina & Rakotoarison, 1997
+        authorship: Zimmerman, Ehresmann, Zeitemann, Radespiel, Randrianambinina & Rakotoarison, 1997
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    lifeStatusScope:
+      wild: The cited biological data are from wild mouse lemurs captured at Mariarano Classified Forest on four 1-km transects in 2017-2018. Animals were briefly handled, weighed, and released at dusk at their capture sites. No captive, domesticated, or fossil evidence is included.
+      domesticated: Domesticated populations were not assessed.
+      captive: No captive population was included in the cited field study.
+      fossil: No fossil population or paleontological evidence was assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 10
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42SBZ
+          stableId: col:42SBZ@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: Accepted species usage 42SBZ; exact name, authorship, species rank, accepted status, sourceDatasetId 2144, and complete accepted parent chain resolved to root.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 42SBZ. https://doi.org/10.48580/dgywk
+      - id: andriatsitohaina2020
+        referenceId: ref-5d1ec918-067d-8dd9-a1e8-9b80ceeab375
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - scope
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text used for paraphrased research findings. No figures, photographs, or separately credited third-party material are reused; the publisher notes that some third-party material may have separate credit-line terms.
+          stableId: doi:10.1186/s12898-020-00337-z
+          accessedAt: 2026-09-28
+          locator: Abstract; Methods §§Study site and period, Data collection, and Data analyses; Results §§Effects of edge habitats on M. ravelobensis abundance and body mass, Relationship between edge effects in vegetation and M. ravelobensis abundance and body mass; Discussion; article license statement.
+          licenseAssessment: item-level-verified
+          scope: Primary field research on wild, free-ranging Microcebus ravelobensis sampled along four forest-edge transects in Mariarano Classified Forest, northwestern Madagascar, during 2017-2018. The measured responses are local capture-based abundance and body mass, not a species-wide range, population estimate, or diagnostic description.
+          attribution: Andriatsitohaina B, Romero-Mujalli D, Ramsay MS, Kiene F, Rasoloharijaona S, Rakotondravony R, Lehman SM, Radespiel U (2020). BMC Ecology 20, 69. https://doi.org/10.1186/s12898-020-00337-z. Claims paraphrased; no figures reused.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: In the same wild Mariarano sample, captured M. ravelobensis were weighed and age-classified; adults were defined using body mass of at least 41 g together with other morphometric parameters. A logistic model estimated a 390-m depth of edge influence for local body-mass variation, but the overall edge-versus-interior body-mass difference was not significant; the female-only contrast was a statistical trend (p=0.052), with no corresponding male trend. This local response does not establish a species-wide body-mass range, diagnostic morphology, or sexual dimorphism.
+            sourceIds:
+              - andriatsitohaina2020
+            locator: Methods §Data collection (individual weighing and adult classification); Results §Effects of edge habitats on M. ravelobensis abundance and body mass (DEI 390 m and nonsignificant overall comparison); Fig. 5b and Table S3 (female-only p=0.052 trend); Discussion §Edge effects on M. ravelobensis.
+            placeTimeScope: Wild captured animals at Mariarano Classified Forest, northwestern Madagascar, sampled on four 1-km forest-edge transects in June-July 2017 and mid-May-mid-August 2018. The paper reports a local modeled response and does not estimate a range-wide body-mass distribution.
+            lifeStatus: Wild, free-ranging field captures. The study did not measure captive, domesticated, or fossil animals.
+            originalLanguage: en
+        gaps:
+          - Only body mass and an adult-classification threshold are reported for a local wild sample. The study does not establish a species-wide body-mass range, diagnostic morphology, ontogenetic pattern, or sexual dimorphism; overall edge-interior body-mass differences were nonsignificant.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No life-history search was performed; reproduction, development, survival, and behavior remain unassessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: At Mariarano Classified Forest, four 1-km transects perpendicular to forest edges were sampled in 2017-2018 with 2,424 trap-nights, yielding 226 captured M. ravelobensis. A logistic model estimated a 340-m depth of edge influence for capture-based local abundance, but the overall edge-versus-interior abundance difference was not significant; the male-only difference was a statistical trend (p=0.082), and the female comparison was not significant (p=0.843). Within these transects, abundance was negatively associated with measured densities of large trees, small trees, and saplings. These results describe one local sample and do not establish a causal edge effect, total population size, or a species-wide pattern.
+            sourceIds:
+              - andriatsitohaina2020
+            locator: Abstract; Methods §§Study site and period and Data collection (four transects, 2,424 trap-nights, and abundance as unique captures per 100 m); Results §Effects of edge habitats on M. ravelobensis abundance and body mass (DEI 340 m and nonsignificant overall comparison); Results §Relationship between edge effects in vegetation and M. ravelobensis abundance and body mass (Fig. 6a-c and Table S4); Discussion §Edge effects on M. ravelobensis.
+            placeTimeScope: Mariarano Classified Forest, near Mariarano village, about 80 km northeast of Mahajanga, northwestern Madagascar (15°24′S, 46°44′E; 20-90 m elevation). Transect C1 was sampled in June-July 2017; C2-C4 were sampled from mid-May to mid-August 2018. Four 1-km transects bordered different road, savannah, and agricultural matrices.
+            lifeStatus: Wild, free-ranging field captures. Captured animals were handled briefly and released at dusk at their capture locations; no captive, domesticated, or fossil population is represented.
+            originalLanguage: en
+        gaps:
+          - The evidence is limited to one forest and four transects with different matrix types. Overall edge-interior abundance differences were nonsignificant, and the authors discuss the small transect sample and moderate, spatially variable responses.
+          - Trap captures per 100 m are a local abundance index, not an estimate of population density or total population size. Vegetation associations are observational and do not establish causal effects or a general species-wide response.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No phylogenetic or comparative evolutionary search was performed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study locality is not treated as a species range; no distribution search was performed.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil or paleontological search was performed; no fossil presence or absence is claimed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The article title uses “vulnerable,” but no current formal conservation assessment was verified; no current threat category is asserted.

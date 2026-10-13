@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius nebulosus
+  displayName: Hynobius nebulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MQKZ
+  sourceIndexes:
+    - name:
+        en: Hynobius nebulosus
+        zh: Hynobius nebulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MQKZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/181
+            queryName: Hynobius nebulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 51
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/53
+            queryName: Salamandra nebulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 64
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/54
+            queryName: Ellipsoglossa nebulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/55
+            queryName: Hynobius peropus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/56
+            queryName: Hynobius ikishimae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/347
+            queryName: Hynobius nebulosus nebulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-49d8d04c08
+      - s-c1368297d1
+      - s-d8eb1570f0
+      - s-e2db22892c
+      - s-6c71bd621a
+      - s-c5c5368c0f
+      - s-7b5fd4bb07
+      - s-fdf0ab5ceb
+      - s-2d0b2e30b1
+    zh:
+      - s-8da5f5cc09
+      - s-304e7d2e8e
+      - s-926fa7fb9c
+      - s-7c7990104a
+      - s-fa47545a8d
+      - s-6d0a7ca4f6
+      - s-aa9508ddab
+      - s-7170c15021
+      - s-036196c35d

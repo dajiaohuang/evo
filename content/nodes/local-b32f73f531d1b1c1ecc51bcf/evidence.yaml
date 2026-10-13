@@ -1,0 +1,156 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Lissotriton schmidtleri
+    name:
+      en: Lissotriton schmidtleri
+      zh: Lissotriton schmidtleri
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Lissotriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-529828d820
+            part: body
+          zh:
+            page: zh
+            section: s-25c04179b8
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0b36d10deb
+            part: body
+          zh:
+            page: zh
+            section: s-ccfbb73e42
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 202; Reference.csv rows 4041
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 202
+        values:
+          - Salamandridae
+          - Lissotriton
+          - Lissotriton schmidtleri
+          - M
+          - "49.5"
+          - "26.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4041
+        values:
+          - Caudata
+          - Lissotriton_schmidtleri
+          - Raxworthy, C. J. (1988). A description and study of a new dwarf sub-species of smooth newt, Triturus-Vulgaris, from western Anatolia, Turkey. Journal of Zoology, 215, 753-763. https://doi.org/10.1111/j.1469-7998.1988.tb02409.x
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

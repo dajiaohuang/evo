@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis sagittulus
+  displayName: Pristimantis sagittulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJNF
+  sourceIndexes:
+    - name:
+        en: Pristimantis sagittulus
+        zh: Pristimantis sagittulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJNF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/70
+            queryName: Pristimantis sagittulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/39
+            queryName: Eleutherodactylus sagittulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6c4bdeb473
+      - s-1163db797d
+      - s-e9e6c52dc9
+      - s-5e3de9fc03
+      - s-672d4cf961
+      - s-a9b4bd7b57
+      - s-0bbd1724a4
+    zh:
+      - s-e1477ca5fe
+      - s-633a1045d3
+      - s-a75033f81e
+      - s-8d5a666834
+      - s-be2941ff45
+      - s-34d2a418ef
+      - s-37991911a0

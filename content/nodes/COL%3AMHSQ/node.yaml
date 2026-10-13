@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis blommersae
+  displayName: Boophis blommersae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHSQ
+  sourceIndexes:
+    - name:
+        en: Boophis blommersae
+        zh: Boophis blommersae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHSQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/238
+            queryName: Boophis blommersae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c6bc7f3c37
+      - s-43f6191d54
+      - s-843e30f556
+      - s-9735eb8bc0
+      - s-fcb0e624c5
+      - s-0d1bb87a46
+      - s-f0dc2fa45f
+      - s-880fd28672
+      - s-f14daab533
+      - s-4985d958ba
+    zh:
+      - s-2bad82ee57
+      - s-38836a6b92
+      - s-92a4a3156e
+      - s-3ca809b6b8
+      - s-a1e4a804e2
+      - s-c0e8bf6526
+      - s-4fb2e44fec
+      - s-1b88a9a58c
+      - s-41229a0d5d
+      - s-e25b77c06f

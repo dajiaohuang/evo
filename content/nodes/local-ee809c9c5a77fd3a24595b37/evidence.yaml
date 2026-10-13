@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Megophrys feii
+    name:
+      en: Megophrys feii
+      zh: Megophrys feii
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Megophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5679793c31
+            part: body
+          zh:
+            page: zh
+            section: s-d730b09110
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8710e3ad59
+            part: body
+          zh:
+            page: zh
+            section: s-704a799118
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3081, 3082; Reference.csv rows 766
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3081
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys feii
+          - F
+          - "28.6"
+          - "10.7"
+          - "10.9"
+          - "4"
+          - "2.2"
+          - "1.6"
+          - "3.3"
+          - "3.4"
+          - "3.4"
+          - "1.9"
+          - "4"
+          - NA
+          - "8.2"
+          - NA
+          - "15.4"
+          - "12.8"
+          - NA
+          - "15.7"
+          - "14.2"
+          - "7.8"
+          - "50"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3082
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys feii
+          - M
+          - "24.7"
+          - "9.3"
+          - "9.5"
+          - "3.3"
+          - "1.8"
+          - "1.2"
+          - "2.9"
+          - "3.1"
+          - "2.9"
+          - "1.7"
+          - "3.6"
+          - NA
+          - "7.3"
+          - NA
+          - "13.3"
+          - "10.7"
+          - NA
+          - "12.5"
+          - "12.1"
+          - "6"
+          - "40.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 766
+        values:
+          - Anura
+          - Megophrys_feii
+          - "Yang, J. H., Wang, J., & Wang, Y. Y. (2018). A new species of the genus Megophrys (Anura: Megophryidae) from Yunnan Province, China. Zootaxa, 4413(2), 325-338. https://doi.org/10.11646/zootaxa.4413.2.5"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

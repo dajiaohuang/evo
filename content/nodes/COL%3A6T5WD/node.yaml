@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne ezra
+  displayName: Oreophryne ezra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T5WD
+  sourceIndexes:
+    - name:
+        en: Oreophryne ezra
+        zh: Oreophryne ezra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T5WD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/259
+            queryName: Oreophryne ezra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f83941e094
+      - s-54e1469715
+      - s-db035fe3e4
+      - s-a44ce6c59f
+      - s-4810f39050
+      - s-aa925e541d
+      - s-7729802e6f
+      - s-1c086c7dd9
+      - s-3c20689b11
+      - s-80fb130b30
+    zh:
+      - s-23196e9294
+      - s-a244c8f6e5
+      - s-90b92da20d
+      - s-76c32a2a0a
+      - s-5750364828
+      - s-ed8e00f589
+      - s-f5fba8a480
+      - s-971019a9ba
+      - s-0b3d28da1b
+      - s-93493280fa

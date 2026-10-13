@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aglyptodactylus inguinalis
+  displayName: Aglyptodactylus inguinalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/663B7
+  sourceIndexes:
+    - name:
+        en: Aglyptodactylus inguinalis
+        zh: Aglyptodactylus inguinalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 663B7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/110
+            queryName: Aglyptodactylus inguinalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/451
+            queryName: Rana inguinalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fb09fc9d66
+      - s-b593d189f9
+      - s-4d34b904c5
+      - s-0238851d02
+      - s-d5a1d5e748
+    zh:
+      - s-e5e65513be
+      - s-4f82300a61
+      - s-5a63a8cdd4
+      - s-eb76588498
+      - s-1939e49f58

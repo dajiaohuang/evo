@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oedipina maritima
+  displayName: Oedipina maritima
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74JLG
+  sourceIndexes:
+    - name:
+        en: Oedipina maritima
+        zh: Oedipina maritima
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74JLG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/78
+            queryName: Oedipina maritima
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36256d2e99
+      - s-436d2d5366
+      - s-bdb8f3fa71
+      - s-683c885f51
+      - s-365552bc2b
+      - s-16ea959781
+      - s-3bfdbb20c7
+    zh:
+      - s-af934d598e
+      - s-1ae8d036ab
+      - s-4e9e6d966e
+      - s-318d74557d
+      - s-32db4d7fcb
+      - s-89d2f17415
+      - s-69b7d64ba3

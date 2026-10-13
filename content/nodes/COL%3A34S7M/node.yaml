@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus walfordi
+  displayName: Dendropsophus walfordi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S7M
+  sourceIndexes:
+    - name:
+        en: Dendropsophus walfordi
+        zh: Dendropsophus walfordi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S7M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/435
+            queryName: Dendropsophus walfordi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/494
+            queryName: Hyla walfordi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d45cb80d0a
+      - s-ae6c87e993
+      - s-fa82a715a7
+      - s-91a8197afc
+      - s-b1ccc86c58
+      - s-d3e80af229
+      - s-9a838ee0dd
+      - s-f201d3960b
+      - s-0dc3ddc997
+      - s-a80f4e6865
+    zh:
+      - s-df3ba3f1e6
+      - s-0ec1eed76d
+      - s-15d0dd7ba6
+      - s-9840823ed2
+      - s-46707ec3aa
+      - s-9f003beb1a
+      - s-1d94e8a518
+      - s-410bf3a25a
+      - s-2dbc691f7c
+      - s-49bddd8772

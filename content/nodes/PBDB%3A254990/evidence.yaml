@@ -1,0 +1,258 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Albanerpeton pannonicum
+    rank: species
+    sourceTaxonId: txn:254990
+    name:
+      en: Albanerpeton pannonicum
+      zh: Albanerpeton pannonicum
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-ff7a179651
+            part: body
+          zh:
+            page: zh
+            section: s-e3f256cfef
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 9 PBDB occurrence rows and collection fields
+          zh: 9 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-6a5ef68600
+            part: body
+          zh:
+            page: zh
+            section: s-4385994d3a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Albanerpeton pannonicum
+          zh: Albanerpeton pannonicum 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-015d795dc7
+            part: body
+          zh:
+            page: zh
+            section: s-63677d8a26
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:254990; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. Venczel and J. D. Gardner. 2005. The geologically youngest albanerpetontid amphibian, from the Lower Pliocene of Hungary. Palaeontology 48(6):1273-1300
+    occurrenceEvidence:
+      - occurrenceId: occ:646881
+        collectionId: col:35354
+        acceptedTaxonId: txn:254990
+        identifiedTaxonId: var:254990
+        identifiedName: Albanerpeton pannonicus n. sp.
+        taxonomicDifference: corrected to
+        referenceId: ref:44192
+        bibliography: M. Venczel and J. D. Gardner. 2005. The geologically youngest albanerpetontid amphibian, from the Lower Pliocene of Hungary. Palaeontology 48(6):1273-1300
+        locality:
+          countryCode: HU
+          stateProvince: Barany
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 5.09
+        youngerAgeMa: 1.8
+      - occurrenceId: occ:1432646
+        collectionId: col:199860
+        acceptedTaxonId: txn:254990
+        taxonomicDifference: null
+        referenceId: ref:77386
+        bibliography: "J. D. Gardner, A. Villa, and S. Colombero, M. Venczel, M. Delfino. 2021. A Messinian (latest Miocene) occurrence for Albanerpeton Estes & Hoffstetter, 1976 (Lissamphibia: Albanerpetontidae) at Moncucco Torinese, Piedmont Basin, northwestern Italy, and a review of the European Cenozoic record for albanerpetontids. Geodiversitas 43(14):391-404"
+        locality:
+          countryCode: IT
+          stateProvince: Piedmont
+          county: null
+        stratigraphy:
+          group: null
+          formation: facies à Congeria
+          member: null
+        olderAgeMa: 7.246
+        youngerAgeMa: 5.333
+      - occurrenceId: occ:1432771
+        collectionId: col:172912
+        acceptedTaxonId: txn:254990
+        taxonomicDifference: null
+        referenceId: ref:77386
+        bibliography: "J. D. Gardner, A. Villa, and S. Colombero, M. Venczel, M. Delfino. 2021. A Messinian (latest Miocene) occurrence for Albanerpeton Estes & Hoffstetter, 1976 (Lissamphibia: Albanerpetontidae) at Moncucco Torinese, Piedmont Basin, northwestern Italy, and a review of the European Cenozoic record for albanerpetontids. Geodiversitas 43(14):391-404"
+        locality:
+          countryCode: IT
+          stateProvince: Piedmont
+          county: null
+        stratigraphy:
+          group: null
+          formation: facies à Congeria
+          member: null
+        olderAgeMa: 7.246
+        youngerAgeMa: 5.333
+      - occurrenceId: occ:1433044
+        collectionId: col:172914
+        acceptedTaxonId: txn:254990
+        taxonomicDifference: null
+        referenceId: ref:77386
+        bibliography: "J. D. Gardner, A. Villa, and S. Colombero, M. Venczel, M. Delfino. 2021. A Messinian (latest Miocene) occurrence for Albanerpeton Estes & Hoffstetter, 1976 (Lissamphibia: Albanerpetontidae) at Moncucco Torinese, Piedmont Basin, northwestern Italy, and a review of the European Cenozoic record for albanerpetontids. Geodiversitas 43(14):391-404"
+        locality:
+          countryCode: IT
+          stateProvince: Piedmont
+          county: null
+        stratigraphy:
+          group: null
+          formation: facies à Congeria
+          member: null
+        olderAgeMa: 7.246
+        youngerAgeMa: 5.333
+      - occurrenceId: occ:1433162
+        collectionId: col:172915
+        acceptedTaxonId: txn:254990
+        taxonomicDifference: null
+        referenceId: ref:77386
+        bibliography: "J. D. Gardner, A. Villa, and S. Colombero, M. Venczel, M. Delfino. 2021. A Messinian (latest Miocene) occurrence for Albanerpeton Estes & Hoffstetter, 1976 (Lissamphibia: Albanerpetontidae) at Moncucco Torinese, Piedmont Basin, northwestern Italy, and a review of the European Cenozoic record for albanerpetontids. Geodiversitas 43(14):391-404"
+        locality:
+          countryCode: IT
+          stateProvince: Piedmont
+          county: null
+        stratigraphy:
+          group: null
+          formation: facies à Congeria
+          member: null
+        olderAgeMa: 7.246
+        youngerAgeMa: 5.333
+      - occurrenceId: occ:1433218
+        collectionId: col:172916
+        acceptedTaxonId: txn:254990
+        taxonomicDifference: null
+        referenceId: ref:77386
+        bibliography: "J. D. Gardner, A. Villa, and S. Colombero, M. Venczel, M. Delfino. 2021. A Messinian (latest Miocene) occurrence for Albanerpeton Estes & Hoffstetter, 1976 (Lissamphibia: Albanerpetontidae) at Moncucco Torinese, Piedmont Basin, northwestern Italy, and a review of the European Cenozoic record for albanerpetontids. Geodiversitas 43(14):391-404"
+        locality:
+          countryCode: IT
+          stateProvince: Piedmont
+          county: null
+        stratigraphy:
+          group: null
+          formation: facies à Congeria
+          member: null
+        olderAgeMa: 7.246
+        youngerAgeMa: 5.333
+      - occurrenceId: occ:1485999
+        collectionId: col:206747
+        acceptedTaxonId: txn:254990
+        taxonomicDifference: null
+        referenceId: ref:77386
+        bibliography: "J. D. Gardner, A. Villa, and S. Colombero, M. Venczel, M. Delfino. 2021. A Messinian (latest Miocene) occurrence for Albanerpeton Estes & Hoffstetter, 1976 (Lissamphibia: Albanerpetontidae) at Moncucco Torinese, Piedmont Basin, northwestern Italy, and a review of the European Cenozoic record for albanerpetontids. Geodiversitas 43(14):391-404"
+        locality:
+          countryCode: IT
+          stateProvince: Verona
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 3.55
+        youngerAgeMa: 1.8
+      - occurrenceId: occ:1566194
+        collectionId: col:172917
+        acceptedTaxonId: txn:254990
+        taxonomicDifference: null
+        referenceId: ref:77386
+        bibliography: "J. D. Gardner, A. Villa, and S. Colombero, M. Venczel, M. Delfino. 2021. A Messinian (latest Miocene) occurrence for Albanerpeton Estes & Hoffstetter, 1976 (Lissamphibia: Albanerpetontidae) at Moncucco Torinese, Piedmont Basin, northwestern Italy, and a review of the European Cenozoic record for albanerpetontids. Geodiversitas 43(14):391-404"
+        locality:
+          countryCode: IT
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: facies à Congeria
+          member: null
+        olderAgeMa: 7.246
+        youngerAgeMa: 5.333
+      - occurrenceId: occ:1566195
+        collectionId: col:220503
+        acceptedTaxonId: txn:254990
+        taxonomicDifference: null
+        referenceId: ref:77386
+        bibliography: "J. D. Gardner, A. Villa, and S. Colombero, M. Venczel, M. Delfino. 2021. A Messinian (latest Miocene) occurrence for Albanerpeton Estes & Hoffstetter, 1976 (Lissamphibia: Albanerpetontidae) at Moncucco Torinese, Piedmont Basin, northwestern Italy, and a review of the European Cenozoic record for albanerpetontids. Geodiversitas 43(14):391-404"
+        locality:
+          countryCode: IT
+          stateProvince: Piedmont
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 7.246
+        youngerAgeMa: 5.333
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Albanerpeton pannonicum
+          zh: Albanerpeton pannonicum 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-015d795dc7
+            part: body
+          zh:
+            page: zh
+            section: s-63677d8a26
+            part: body
+        sourceIds: []

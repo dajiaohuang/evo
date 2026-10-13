@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Geissorhiza bolusii Baker
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3FGWS, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3FGWS; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FGWS
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3FGWS
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000788918-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3FGWS / WFO wfo-0000788918
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-375142dc-c61a-8d8c-ac7c-81b393e51f3e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Geissorhiza bolusii Baker account; SANBI/WFO archive rows 6757 (Morphology), 29082 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Geissorhiza bolusii Baker account; SANBI/WFO archive rows 94667 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 3-10 cm, tunics woody, concentric. Leaves lanceolate to ovate, often prostrate. Flowers small, white, tepals spreading, buds often aborted and replaced by cormlets, never producing capsules.
+            textZh: Geissorhiza bolusii Baker 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Morphology row 6757; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Diminutive, white-flowered Geissorhiza bolusii is unusual in the genus mainly in the several plane, more-or-less sword-shaped leaves usually prostrate or arching toward the ground, the several, small cauline, sheathing leaves, and the presence of two kinds of stems. Some produce no flowers but develop a cormlet in the axil of each flower bract, while others bear small white flowers but no capsules, and a cormlet later develops in place of each aborted bloom. Most populations comprise plants of both kinds, and it never reproduces by seed. Reproduction is exclusively by the small axillary cormlets. Geissorhiza bolusii is probably most closely related to G. ovalifolia, which grows in similar habitats and also has small, white flowers but usually has none or only one cauline leaf or bract and produces one or few cormlets in its leaf axils. Fruit development is evidently fairly rapid and immature capsules can be seen in some collections in which fading blooms are present at the tips of spikes.
+            textZh: SANBI 条目提供了 Geissorhiza bolusii Baker 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94667; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Damp, shady, sandstone slopes in moss, 400-1500 m.
+            textZh: 该 SANBI 区域物种条目记录的生境：Damp, shady, sandstone slopes in moss, 400-1500 m.
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Habitat row 29082; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-195c14cf36
+        title:
+          en:
+            page: en
+            section: s-8d061cebdb
+            part: title
+          zh:
+            page: zh
+            section: s-1972edfdc9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8d061cebdb
+            part: body
+          zh:
+            page: zh
+            section: s-1972edfdc9
+            part: body
+        sourceIds:
+          - sanbi_13878_0
+      - id: page-537be2046a
+        title:
+          en:
+            page: en
+            section: s-3a71a92695
+            part: title
+          zh:
+            page: zh
+            section: s-d67cc83713
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3a71a92695
+            part: body
+          zh:
+            page: zh
+            section: s-d67cc83713
+            part: body
+        sourceIds:
+          - sanbi_18638_0
+      - id: page-27b2c2cf31
+        title:
+          en:
+            page: en
+            section: s-2616f38b23
+            part: title
+          zh:
+            page: zh
+            section: s-37e66f0027
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2616f38b23
+            part: body
+          zh:
+            page: zh
+            section: s-37e66f0027
+            part: body
+        sourceIds:
+          - sanbi_13878_0

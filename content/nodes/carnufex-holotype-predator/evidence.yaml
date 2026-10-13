@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-01a25931ab
+      part: title
+    titleZh:
+      page: zh
+      section: s-8cd662f71e
+      part: title
+    category: ecological
+    startAge: 231
+    endAge: 231
+    regions:
+      - Pekin Formation, Deep River Basin, North Carolina, USA
+    clades:
+      - Carnufex carolinensis
+      - Crocodylomorpha
+    summary:
+      page: en
+      section: s-01a25931ab
+      part: body
+    summaryZh:
+      page: zh
+      section: s-8cd662f71e
+      part: body
+    claimIds:
+      - claim:event:carnufex-holotype-predator
+    evidenceItems:
+      - statement: NCSM 21558 includes cranial, vertebral and forelimb material; estimated skull and femur dimensions place the immature individual among large-bodied members of its assemblage.
+        relation: supports
+        claimIds:
+          - claim:event:carnufex-holotype-predator
+        referenceLinks:
+          - referenceId: zanno-2015-carnufex
+            relation: supports
+            pages: "9276"
+            figure: Figures 1–2; Table S2
+            quoteLocator: Systematic palaeontology—Holotype; Results; Discussion
+    uncertaintyItems:
+      - statement: Body size and trophic tier are proxy-based, the individual is incomplete and immature, and the topology does not establish Carnufex as a direct ancestor or universal earliest crocodylomorph.
+        relation: contextualizes
+        claimIds:
+          - claim:event:carnufex-holotype-predator
+        referenceLinks:
+          - referenceId: zanno-2015-carnufex
+            relation: supports
+            pages: "9276"
+            figure: Figures 1–2; Table S2
+            quoteLocator: Systematic palaeontology—Holotype; Results; Discussion
+  claims:
+    - subjectId: event:carnufex-holotype-predator
+      claimKind: scientific
+      claimType: ecology
+      statement: Partial, skeletally immature holotype NCSM 21558 documents a large-bodied Carnian crocodylomorph; skull and femur scaling plus assemblage context support a top-tier-predator interpretation, not observed feeding, a global first occurrence or direct ancestry.
+      confidence: medium
+      confidenceRationale: Specimen identity, preserved elements and locality are explicit. Body size, trophic tier and phylogenetic position rely on proxies, missing anatomy and a character matrix, so confidence remains medium.
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: "9276"
+          figure: Figures 1–2; Table S2
+          quoteLocator: Systematic palaeontology—Holotype; Results; Discussion
+  claim-rationales.zh:
+    - 标本身份、保存骨骼和地点均明确；体型、营养级和系统位置依赖代理量、缺失解剖与性状矩阵，故保持中等置信度。
+  claim-statements.zh:
+    - 部分且骨骼未成熟的正模 NCSM 21558 记录了大型卡尼期鳄形类；头骨和股骨尺度及动物群背景支持顶级捕食者解释，但不是直接观察到的取食、全球首现或直系祖先。

@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-7878e0ca39
+      part: title
+    titleZh:
+      page: zh
+      section: s-eafbde91ac
+      part: title
+    category: radiation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Nine new ostracod transcriptomes and combined pancrustacean matrices
+    clades:
+      - Ostracoda
+      - Oligostraca
+      - Pancrustacea
+    summary:
+      page: en
+      section: s-7878e0ca39
+      part: body
+    summaryZh:
+      page: zh
+      section: s-eafbde91ac
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-68e81321a7
+            part: title
+          zh:
+            page: zh
+            section: s-a949c643a0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-68e81321a7
+            part: body
+          zh:
+            page: zh
+            section: s-a949c643a0
+            part: body
+        id: observed-material
+        sourceIds:
+          - oakley-2013-ostracod-phylotranscriptomics
+      - title:
+          en:
+            page: en
+            section: s-b962ca52e6
+            part: title
+          zh:
+            page: zh
+            section: s-fc3c32c001
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b962ca52e6
+            part: body
+          zh:
+            page: zh
+            section: s-fc3c32c001
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - oakley-2013-ostracod-phylotranscriptomics
+    claimIds:
+      - claim:event:ostracod-phylotranscriptome-topology
+    evidenceItems:
+      - statement: Nine new 454 transcriptomes were combined with morphology, fossils, ESTs, genomes, mitochondrial proteins and ribosomal data.
+        relation: supports
+        claimIds:
+          - claim:event:ostracod-phylotranscriptome-topology
+        referenceLinks:
+          - referenceId: oakley-2013-ostracod-phylotranscriptomics
+            relation: supports
+            pages: 215–233
+            figure: Figures 1–5; Tables 1–5
+            quoteLocator: Data acquisition and combined analyses
+    uncertaintyItems:
+      - statement: Ostracod monophyly and several deep nodes change when fast genes, distant outgroups or data partitions change; no displayed branch is a fossil observation.
+        relation: contextualizes
+        claimIds:
+          - claim:event:ostracod-phylotranscriptome-topology
+        referenceLinks:
+          - referenceId: oakley-2013-ostracod-phylotranscriptomics
+            relation: supports
+            pages: 215–233
+            figure: Figures 1–3
+            quoteLocator: Conditional data combination and sensitivity results
+    readerSources:
+      - id: oakley-2013-ostracod-phylotranscriptomics
+        referenceId: oakley-2013-ostracod-phylotranscriptomics
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 215–233; figure: Figures 1–5; Tables 1–5; Data acquisition and combined analyses; figure: Figures 1–3; Conditional data combination and sensitivity results"
+  claims:
+    - subjectId: event:ostracod-phylotranscriptome-topology
+      claimKind: scientific
+      claimType: topology
+      statement: Nine new ostracod transcriptomes combined with morphology, fossils and existing sequence partitions support major pancrustacean groupings in selected analyses, but ostracod monophyly and several deep nodes change with gene-rate filters, outgroups and data combination.
+      confidence: high
+      confidenceRationale: The datasets and sensitivity analyses are explicit; the claim reports conditional support rather than promoting one tree to uncontested fact.
+      referenceLinks:
+        - referenceId: oakley-2013-ostracod-phylotranscriptomics
+          relation: supports
+          pages: 215–233
+          figure: Figures 1–5; Tables 1–5
+          quoteLocator: Transcriptome sequencing; Data subsets; Fossil placement; Discussion
+  claim-rationales.zh:
+    - 转录组、形态矩阵和敏感性分析均明确公开；结论保留基因速率筛选、外群和数据组合造成的拓扑差异。
+  claim-statements.zh:
+    - 九个新介形类转录组与形态、化石及既有序列分区结合后，在部分分析中支持主要泛甲壳类分组；但介形类单系性和若干深层节点会随基因速率过滤、外群和数据组合而改变。

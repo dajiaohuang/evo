@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca splendens
+  displayName: Gastrotheca splendens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JY84
+  sourceIndexes:
+    - name:
+        en: Gastrotheca splendens
+        zh: Gastrotheca splendens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JY84
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/76
+            queryName: Gastrotheca splendens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/238
+            queryName: Gastrotheca monticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/261
+            queryName: Hyla splendens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/399
+            queryName: Gastrotheca marsupiata monticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3d8322e347
+      - s-f8122dea94
+      - s-24e7f767e8
+      - s-b58292ee3b
+      - s-5bac002e5b
+      - s-c2bce622f9
+      - s-69754a6c42
+      - s-93c00be380
+      - s-2966bc9937
+    zh:
+      - s-20aa173854
+      - s-afa5618393
+      - s-77b1f06865
+      - s-8b003c99b8
+      - s-3dd04f6d4a
+      - s-8d2c2f8812
+      - s-01c17fdd68
+      - s-de8dfde71f
+      - s-38b139d001

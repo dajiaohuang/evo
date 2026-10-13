@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus xanthostomus
+  displayName: Melanophryniscus xanthostomus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9MB
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus xanthostomus
+        zh: Melanophryniscus xanthostomus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9MB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/411
+            queryName: Melanophryniscus xanthostomus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4e7183c39f
+      - s-ac6a7fddbf
+      - s-9c89b6a29e
+      - s-5e74152cd4
+      - s-7f75f0a732
+      - s-9f3eb9176e
+    zh:
+      - s-a1d94b5d01
+      - s-50fa8e5e3f
+      - s-93670fe4c1
+      - s-0279bbe8ce
+      - s-6d6793e437
+      - s-3a9cded05e

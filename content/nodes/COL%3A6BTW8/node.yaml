@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus granulosus
+  displayName: Cycloramphus granulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BTW8
+  sourceIndexes:
+    - name:
+        en: Cycloramphus granulosus
+        zh: Cycloramphus granulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BTW8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/279
+            queryName: Cycloramphus granulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/274
+            queryName: Iliodiscus granulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1cdbd1bf8a
+      - s-4a83803748
+      - s-32e2d731f2
+      - s-f15b13a935
+      - s-099e83e001
+      - s-cdf06ada5d
+      - s-12aba2b199
+      - s-4492311262
+      - s-dafdd138b4
+      - s-cc86c2f85b
+      - s-435b2c59e9
+      - s-a61ff3217d
+      - s-b791873754
+      - s-9b36070e5a
+      - s-974e7e5cb6
+      - s-dee6127eb7
+      - s-cfd2ee2620
+      - s-478c67d213
+    zh:
+      - s-1b297c595e
+      - s-87cfda604b
+      - s-a47ec2291e
+      - s-2816d8fcc1
+      - s-2e71868eb9
+      - s-7d1916762d
+      - s-4800dd1451
+      - s-578d783441
+      - s-ef9f15ee1c
+      - s-8f38cf4ed4
+      - s-487356b6ed
+      - s-49af34ab18
+      - s-a9424fd4f4
+      - s-4e8c199042
+      - s-3a811f5601
+      - s-51879cba0a
+      - s-f377c379aa
+      - s-99da03dc61

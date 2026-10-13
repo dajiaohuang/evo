@@ -1,0 +1,19 @@
+## Which fossil records this name represents {#s-490e18e2e1}
+Lophocetus calvertensis is accepted in the fixed PBDB mammalia working roster, with database parent Lophocetus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+
+## Begin with named collections and strata {#s-e2b13a073b}
+Collection Cove Point (Maryland), region code US, stratum name St Marys; database age bracket 11.63–7.246 Ma, early interval Tortonian. Collection Chesapeake Ranch Estates (Maryland), region code US, stratum name St. Marys; database age bracket 11.63–7.246 Ma, early interval Tortonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+
+## Age bounds of these records {#s-0b26574c6c}
+Selected occurrences have an outer age envelope of 11.63–7.246 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+One record supplying the older envelope bound is Cove Point, occurrence occ:796246 (11.63–7.246 Ma); one supplying the younger bound is Cove Point, occurrence occ:796246 (11.63–7.246 Ma). These are collection-age bounds, not endpoints of species survival.
+
+## Read preservation setting separately from living habitat {#s-b69aca870f}
+Cove Point has collection-environment label marine indet.; collection preservation-mode label body. Chesapeake Ranch Estates has collection-environment label shallow subtidal indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+
+## Follow collection records back to references {#s-3d5921b3b0}
+Cove Point carries database reference attribution Harlan (1842), identifier ref:12835. Chesapeake Ranch Estates carries database reference attribution Godfrey and Lambert (2023), identifier ref:85660. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+
+## Evidence limits {#s-f281773988}
+This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+

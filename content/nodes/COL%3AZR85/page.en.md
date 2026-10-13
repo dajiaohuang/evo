@@ -1,0 +1,3 @@
+## What is known about Croton sublepidotus, and what remains unknown? {#s-7af7adfb0b}
+Young branches have appressed star-shaped hairs. The short-stalked oval-lanceolate or lance-shaped leaves bear sparse or scale-like hairs above and appressed star-shaped hairs beneath; margins are toothed and nectar glands are absent. Leaf venation and stipules at young branch tips are unknown. Terminal thyrses have unisexual flower clusters near the base. Male and female flowers are shortly stalked; male flowers are shallowly bell-shaped. Female sepals are separate, the style is two-lobed, and calyx lobes are alike. Female petal details and the bud arrangement are unknown. The fruit columella has weakly distinct apical lobes.
+

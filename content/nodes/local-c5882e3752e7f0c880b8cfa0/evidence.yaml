@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bufo spinosus
+    name:
+      en: Bufo spinosus
+      zh: Bufo spinosus
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Bufo
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ff44a25a5e
+            part: body
+          zh:
+            page: zh
+            section: s-3d88dc9cb5
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b9e58577be
+            part: body
+          zh:
+            page: zh
+            section: s-a6198af93b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 935, 936; Reference.csv rows 2600
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 935
+        values:
+          - Bufonidae
+          - Bufo
+          - Bufo spinosus
+          - M
+          - "94.8"
+          - "21"
+          - "34.4"
+          - NA
+          - NA
+          - NA
+          - "12.2"
+          - "4.6"
+          - "7.2"
+          - "5.6"
+          - "11.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "37.2"
+          - "40.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 936
+        values:
+          - Bufonidae
+          - Bufo
+          - Bufo spinosus
+          - F
+          - "79.2"
+          - "21.3"
+          - "29.8"
+          - NA
+          - NA
+          - NA
+          - "10.7"
+          - "3.6"
+          - "5.4"
+          - "5"
+          - "9.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "29.7"
+          - "31.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2600
+        values:
+          - Anura
+          - Bufo_spinosus
+          - "Litvinchuk, S., Borkin, L., Skorinov, D., & Rozanov, Y. (2008). A new species of common toads from the Talysh Mountains, south-eastern Caucasus: Genome size, allozyme, and morphological evidences. Russian Journal of Herpetology, 15, 19-43. "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - NPF3
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,214 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Miniochoerus starkensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Miniochoerus starkensis
+      en: Miniochoerus starkensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4c9095f943
+            part: body
+          en:
+            page: en
+            section: s-7a64a9c315
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-eb8e5d1649
+            part: body
+          en:
+            page: en
+            section: s-c0c7a9f677
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5978d4b7db
+            part: body
+          en:
+            page: en
+            section: s-56f649dd0f
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-300a79b816
+            part: body
+          en:
+            page: en
+            section: s-e64f36461f
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-03d2a1323f
+            part: body
+          en:
+            page: en
+            section: s-131404ce9b
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Miniochoerus starkensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=48660&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:48660; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:48660
+          selectedOccurrenceIds:
+            - occ:179876
+            - occ:180050
+            - occ:180136
+            - occ:180249
+            - occ:180356
+            - occ:180541
+            - occ:180569
+            - occ:180581
+            - occ:180762
+            - occ:180849
+            - occ:181027
+            - occ:181107
+            - occ:181109
+            - occ:181117
+            - occ:181126
+            - occ:181133
+            - occ:181170
+            - occ:1366364
+            - occ:1366366
+            - occ:1366367
+          selectedCollectionIds:
+            - col:17129
+            - col:17164
+            - col:17179
+            - col:17192
+            - col:17222
+            - col:17288
+            - col:17296
+            - col:17299
+            - col:17336
+            - col:17343
+            - col:17380
+            - col:17409
+            - col:17410
+            - col:17414
+            - col:17418
+            - col:17420
+            - col:17434
+            - col:17435
+            - col:17188
+          sourceReferenceIds:
+            - ref:3068
+            - ref:6294
+            - ref:3707
+          originalIdentificationMappings:
+            - occurrenceId: occ:179876
+              originalIdentifiedName: Miniochoerus starkensis n. sp.
+              acceptedName: Miniochoerus starkensis
+              difference: null
+            - occurrenceId: occ:181027
+              originalIdentifiedName: Miniochoerus cheyennensis n. sp.
+              acceptedName: Miniochoerus starkensis
+              difference: null
+            - occurrenceId: occ:181126
+              originalIdentifiedName: Miniochoerus nicholsae
+              acceptedName: Miniochoerus starkensis
+              difference: null
+            - occurrenceId: occ:1366364
+              originalIdentifiedName: Miniochoerus (Paraminiochoerus) helprini n. sp.
+              acceptedName: Miniochoerus starkensis
+              difference: null
+            - occurrenceId: occ:1366366
+              originalIdentifiedName: Stenopsochoerus joderensis n. sp.
+              acceptedName: Miniochoerus starkensis
+              difference: null
+            - occurrenceId: occ:1366367
+              originalIdentifiedName: Stenopsochoerus berardae n. sp.
+              acceptedName: Miniochoerus starkensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-a9b0b2ee68
+        part: body
+      en:
+        page: en
+        section: s-3b32594195
+        part: body

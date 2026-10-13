@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tataromys plicidens
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Tataromys plicidens
+      en: Tataromys plicidens
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-82ed936557
+            part: body
+          en:
+            page: en
+            section: s-c684b6db37
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-613b048457
+            part: body
+          en:
+            page: en
+            section: s-f1d0ccf58a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cb124110fe
+            part: body
+          en:
+            page: en
+            section: s-b52ddf231f
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8689a166e3
+            part: body
+          en:
+            page: en
+            section: s-a4fcb04401
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-93c01ff108
+            part: body
+          en:
+            page: en
+            section: s-f1731d6422
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Tataromys plicidens
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=333042&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:333042; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:333042
+          selectedOccurrenceIds:
+            - occ:1307275
+            - occ:1308027
+            - occ:1308049
+            - occ:1309996
+            - occ:1310005
+            - occ:1310012
+            - occ:1310016
+            - occ:1310169
+            - occ:1314927
+            - occ:1314935
+            - occ:1339983
+            - occ:1349677
+            - occ:1381991
+            - occ:1441409
+            - occ:1441652
+          selectedCollectionIds:
+            - col:53979
+            - col:175386
+            - col:175387
+            - col:175406
+            - col:175408
+            - col:175409
+            - col:175411
+            - col:174759
+            - col:176451
+            - col:176453
+            - col:75599
+            - col:182895
+            - col:182899
+            - col:182075
+            - col:182077
+          sourceReferenceIds:
+            - ref:57222
+            - ref:57348
+            - ref:57587
+            - ref:57618
+            - ref:58067
+            - ref:60091
+            - ref:61008
+            - ref:63590
+            - ref:68908
+          originalIdentificationMappings:
+            - occurrenceId: occ:1307275
+              originalIdentifiedName: Tataromys plicidens n. gen. n. sp.
+              acceptedName: Tataromys plicidens
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-6cf73da6fe
+        part: body
+      en:
+        page: en
+        section: s-7321cd716c
+        part: body

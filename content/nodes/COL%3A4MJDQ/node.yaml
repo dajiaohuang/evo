@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis erythropleura
+  displayName: Pristimantis erythropleura
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJDQ
+  sourceIndexes:
+    - name:
+        en: Pristimantis erythropleura
+        zh: Pristimantis erythropleura
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJDQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/259
+            queryName: Pristimantis erythropleura
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/82
+            queryName: Eleutherodactylus erythropleura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/147
+            queryName: Hylodes erythropleura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/148
+            queryName: Eleutherodactylus erythropleurus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-12ec54b00c
+      - s-39febbfe32
+      - s-951a3fdd24
+      - s-bae06e6109
+      - s-6233f234e9
+      - s-10afdf839f
+      - s-cbb37f5dea
+      - s-1cdec42ab1
+      - s-db2720ef8d
+    zh:
+      - s-da47e00af2
+      - s-1f8e5f52d5
+      - s-204c784449
+      - s-f62b770c80
+      - s-451f5a3d7a
+      - s-db0c740f56
+      - s-7842414e7b
+      - s-84d2688d83
+      - s-1737b9d801

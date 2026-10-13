@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus staurometopon
+  displayName: Eleutherodactylus staurometopon
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399RT
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus staurometopon
+        zh: Eleutherodactylus staurometopon
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399RT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/330
+            queryName: Eleutherodactylus staurometopon
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/11
+            queryName: Eleutherodactylus varians staurometopon
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-868e1f8cb9
+      - s-cc82f141c5
+      - s-f48a0d55fd
+      - s-d5e4d2c3f1
+      - s-177c52d5a6
+      - s-9b7ca716f1
+    zh:
+      - s-9e9dc4a69e
+      - s-8db711d60d
+      - s-69faa72b18
+      - s-6708270047
+      - s-92dd7567e6
+      - s-95283964b2

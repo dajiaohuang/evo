@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cinnyris loveridgei
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Cinnyris loveridgei
+      en: Cinnyris loveridgei
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetCinnyrisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-1ba89198d0
+            part: body
+          en:
+            page: en
+            section: s-d5a7c64359
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetCinnyrisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-36a4bd7ab2
+            part: body
+          en:
+            page: en
+            section: s-ef9b01834e
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetCinnyrisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-276d849f48
+            part: body
+          en:
+            page: en
+            section: s-8c3bb1a3cb
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetCinnyrisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-5cc7dedcb8
+            part: body
+          en:
+            page: en
+            section: s-6d415c3e9a
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetCinnyrisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-4d152e2fd0
+            part: body
+          en:
+            page: en
+            section: s-eb9278c89b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cinnyris loveridgei
+          url: https://www.checklistbank.org/dataset/316115/taxon/5Z6TD
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetCinnyrisHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Cinnyris historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 28 selected AVONET1_BirdLife rows within 5944–5996; individual BirdLife–eBird/BirdTree rows and relevant Metadata definitions recorded in receipt.
+          scope:
+            zh: 仅二十八条历史行；旧 Nectarinia 名称、样本鸟数、独立文献体重与类别分别保留。
+            en: Only these twenty-eight historical rows; retain older Nectarinia names, sample birds, separately compiled mass and categories.
+    limitations:
+      zh:
+        page: zh
+        section: s-4a5b4df14f
+        part: body
+      en:
+        page: en
+        section: s-619ffa5f13
+        part: body

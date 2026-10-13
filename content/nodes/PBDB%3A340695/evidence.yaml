@@ -1,0 +1,168 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mauremys sarmatica
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Mauremys sarmatica
+      en: Mauremys sarmatica
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-30bb6d4af3
+            part: body
+          en:
+            page: en
+            section: s-f6e500991f
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b1e320be6d
+            part: body
+          en:
+            page: en
+            section: s-6d5a81b6f8
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3bef827a3e
+            part: body
+          en:
+            page: en
+            section: s-6db4581a57
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-943a74da8f
+            part: body
+          en:
+            page: en
+            section: s-5bc2a05759
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-739fdaf63a
+            part: body
+          en:
+            page: en
+            section: s-35c816184d
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Mauremys sarmatica
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=340695&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:340695; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:340695
+          selectedOccurrenceIds:
+            - occ:1328157
+            - occ:1328159
+            - occ:1328162
+            - occ:1328163
+            - occ:1482023
+          selectedCollectionIds:
+            - col:178665
+            - col:178667
+            - col:69098
+            - col:70359
+            - col:206345
+          sourceReferenceIds:
+            - ref:58591
+            - ref:70899
+          originalIdentificationMappings:
+            - occurrenceId: occ:1328157
+              originalIdentifiedName: Clemmys sarmatica n. sp.
+              acceptedName: Mauremys sarmatica
+              difference: recombined as
+            - occurrenceId: occ:1328159
+              originalIdentifiedName: Clemmys sarmatica
+              acceptedName: Mauremys sarmatica
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-bd245006cc
+        part: body
+      en:
+        page: en
+        section: s-3700b1c6b1
+        part: body

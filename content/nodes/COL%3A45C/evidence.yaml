@@ -1,0 +1,515 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Squamata
+    rank: order
+    sourceDatasetId: null
+    name:
+      zh: Squamata
+      en: Squamata
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-99390dce46
+            part: body
+          en:
+            page: en
+            section: s-bc2a857da2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-da5be27ed5
+            part: body
+          en:
+            page: en
+            section: s-47ae23b37c
+            part: body
+        sourceIds:
+          - vertebralLaminae2016
+          - podarcisNameCorrespondence
+          - agamaNameCorrespondence
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-bd1fd622df
+            part: body
+          en:
+            page: en
+            section: s-b1281c3787
+            part: body
+        sourceIds:
+          - vertebralLaminae2016
+      - topic: morphology
+        sourceIds:
+          - cranialMechanics2015
+        text:
+          zh:
+            page: zh
+            section: s-66f689d62f
+            part: body
+          en:
+            page: en
+            section: s-132ed4fefd
+            part: body
+      - topic: morphology
+        sourceIds:
+          - cranialMechanics2015
+        text:
+          zh:
+            page: zh
+            section: s-4afdf7388d
+            part: body
+          en:
+            page: en
+            section: s-7d8ec22612
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-7575423b75
+            part: body
+          en:
+            page: en
+            section: s-079d37c693
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-58841d7e6a
+            part: body
+          en:
+            page: en
+            section: s-061bca3786
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-be65142fa9
+            part: body
+          en:
+            page: en
+            section: s-c57e56ee16
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-893dccf7f6
+            part: body
+          en:
+            page: en
+            section: s-6a72f2deb6
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-887b05be8f
+            part: body
+          en:
+            page: en
+            section: s-4824f2b22d
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-68e723db07
+            part: body
+          en:
+            page: en
+            section: s-c52e37551c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-60b51c3a5d
+            part: body
+          en:
+            page: en
+            section: s-73a166e99d
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-bedde19a9f
+            part: body
+          en:
+            page: en
+            section: s-3a183590f2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-8b54f67b5f
+            part: body
+          en:
+            page: en
+            section: s-3bc8365884
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-24c92735b5
+            part: body
+          en:
+            page: en
+            section: s-75b1b7c9b9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Squamata
+          url: https://www.checklistbank.org/dataset/316115/taxon/45C
+          locator: Accepted name, rank and parent in dataset 316115; no living-status inference.
+      - id: vertebralLaminae2016
+        referenceId: ref-21f9fcaf-7549-4654-a320-79673b011217
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Material & Methods; Terminology; Ontogenetic Changes and Taxonomic Utility
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            en: The named sampled species routes and anatomical terminology; not complete descendant coverage.
+            zh: 仅支持列出的样本物种阅读路径与解剖术语，不代表完整后代覆盖。
+      - id: podarcisNameCorrespondence
+        referenceId: ref-02a1e28e-d857-40e3-bee4-cb74574671f6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Synonym list: Podarcis wagleriana under Podarcis waglerianus"
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            en: Bibliographic name correspondence only.
+            zh: 仅支持文献用名对应。
+      - id: agamaNameCorrespondence
+        referenceId: ref-31a374c1-9b7e-41e0-b7ea-2fc7d0c057f6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Synonym list: Agama impalearis under Agama bibronii"
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            en: Bibliographic name correspondence only.
+            zh: 仅支持文献用名对应。
+      - id: cranialMechanics2015
+        referenceId: ref-9377c3dd-62b3-45ad-9066-3da2a556920b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Introduction; Methods; Table 1; Results; Discussion
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅支持列出的头骨研究阅读路径与模型定义，不代表后代完整覆盖。
+            en: Named skull-study routes and model definitions only; not complete descendant coverage.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 7138 authored records grouped under Squamata by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 119
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 895 authored same-name records placed under Squamata by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Squamata
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36379
+          locator: Recorded PBDB parent closure beneath the already documented Squamata COL-compatible storage anchor.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36379
+          readingTargets:
+            - name: Eichstaettisaurus schroederi
+              pbdbTaxonId: txn:197335
+              canonicalPath: content/nodes/PBDB%3A197335
+            - name: Eichstaettisaurus gouldi
+              pbdbTaxonId: txn:197336
+              canonicalPath: content/nodes/PBDB%3A197336
+            - name: Hoyalacerta sanzi
+              pbdbTaxonId: txn:201212
+              canonicalPath: content/nodes/PBDB%3A201212
+            - name: Moqisaurus pulchrum
+              pbdbTaxonId: txn:474728
+              canonicalPath: content/nodes/PBDB%3A474728
+            - name: Norellius nyctisaurops
+              pbdbTaxonId: txn:327598
+              canonicalPath: content/nodes/PBDB%3A327598
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 3538 authored records grouped under Squamata by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 8L4Y
+              name: Ablepharus darvazi
+              canonicalPath: content/nodes/COL%3A8L4Y
+            - colId: C67JS
+              name: Ablepharus eremchenkoi
+              canonicalPath: content/nodes/COL%3AC67JS
+            - colId: C67K5
+              name: Ablepharus mahabharatus
+              canonicalPath: content/nodes/COL%3AC67K5
+            - colId: C67KC
+              name: Ablepharus tragbulensis
+              canonicalPath: content/nodes/COL%3AC67KC
+            - colId: 87LK2
+              name: Abronia cuchumatanus
+              canonicalPath: content/nodes/COL%3A87LK2
+          fieldCountDistribution:
+            "1": 733
+            "2": 884
+            "3": 1869
+            "4": 42
+            "5": 10
+    limitations:
+      zh:
+        page: zh
+        section: s-af297107f7
+        part: body
+      en:
+        page: en
+        section: s-4402bbb464
+        part: body

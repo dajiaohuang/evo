@@ -1,0 +1,3 @@
+## Rufous indument and seed coat characters {#s-4959abbb03}
+The Brazilian Flora 2020 entry records sericeous, rufous stem indument and persistent stipules. Leaves are pinnate with more than three linear leaflets, whose indument is also rufous. The inflorescence is terminal. The campanulate calyx tube is longer than its lobes, which are laciniate; petals are vinaceous. The style is glabrous and the stigma pilose. The legume has rufous, sericeous indument, and the calyx is absent from the fruit. Seeds lack an aril; the testa is marbled and smooth, and seed shape is listed as rectangular or reniform. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

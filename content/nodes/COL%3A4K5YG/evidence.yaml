@@ -1,0 +1,213 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plecturocebus stephennashi (M. van Roosmalen, T. van Roosmalen & Mittermeier, 2002)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 纳什绢毛猴
+      en: Stephen Nash's Titi
+    sections:
+      - topic: material
+        sourceIds:
+          - roosmalen2002StephennashiTypes
+        text:
+          zh:
+            page: zh
+            section: s-10d6b98f5e
+            part: body
+          en:
+            page: en
+            section: s-e548be95d4
+            part: body
+      - topic: bodySize
+        sourceIds:
+          - roosmalen2002StephennashiTypes
+        text:
+          zh:
+            page: zh
+            section: s-4db3a2c3ee
+            part: body
+          en:
+            page: en
+            section: s-f254b86a4d
+            part: body
+      - topic: distribution
+        sourceIds:
+          - roosmalen2002StephennashiTypes
+        text:
+          zh:
+            page: zh
+            section: s-7268832412
+            part: body
+          en:
+            page: en
+            section: s-9bbcb634fc
+            part: body
+      - topic: morphology
+        sourceIds:
+          - roosmalen2002StephennashiTypes
+        text:
+          zh:
+            page: zh
+            section: s-54962c3d5d
+            part: body
+          en:
+            page: en
+            section: s-5cae5fc66e
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - roosmalen2002StephennashiTypes
+        text:
+          zh:
+            page: zh
+            section: s-2a7d71b3ba
+            part: body
+          en:
+            page: en
+            section: s-1a1a243526
+            part: body
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-29cccd3bf3
+            part: body
+          en:
+            page: en
+            section: s-f5e9477db6
+            part: body
+        sourceIds:
+          - taxonomy
+          - roosmalen2002
+          - vermeer2025
+          - mdd_v24
+          - mdd_v25
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-229575745c
+            part: body
+          en:
+            page: en
+            section: s-4651cd95ae
+            part: body
+        sourceIds:
+          - roosmalen2002
+      - topic: interpretation
+        text:
+          zh:
+            page: zh
+            section: s-9cd12a38cd
+            part: body
+          en:
+            page: en
+            section: s-2d1a3f4c88
+            part: body
+        sourceIds:
+          - vermeer2025
+          - mdd_v24
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Plecturocebus stephennashi
+          url: https://www.checklistbank.org/dataset/316115/taxon/4K5YG
+          scope:
+            zh: 支持固定名录中的接受名、作者、等级和分类父链；不裁决不同名录采用的种界。
+            en: Supports the accepted name, authorship, rank and parent chain in the pinned catalogue; it does not adjudicate species limits used by other lists.
+      - id: roosmalen2002
+        referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持原始命名、模式材料、作者所述产地来源及形态诊断；不代表后续分类共识或长期野外生态。
+            en: Supports the original name, type material, reported provenance and morphological diagnosis; it does not establish later taxonomic consensus or long-term field ecology.
+      - id: vermeer2025
+        referenceId: ref-3d645239-a7b4-8013-a535-002fd5e05deb
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持作者基于文献、实地调查和馆藏标本提出的 P. caligatus 与 stephennashi 表型比较和合并处理。
+            en: Supports the authors’ comparison of P. caligatus and stephennashi phenotypes and their lumped treatment, based on literature, field inventories and museum specimens.
+      - id: mdd_v24
+        referenceId: ref-bce38b3d-09ae-8993-a3e8-e76e310c1dc1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 MDD v2.4 将 P. stephennashi 并入 P. caligatus 的版本记录；仅用于显示分类处理差异。
+            en: Supports the MDD v2.4 release record lumping P. stephennashi into P. caligatus; used only to document differing taxonomic treatments.
+      - id: mdd25_caligatus
+        referenceId: ref-94d84b02-8400-802b-afc8-eb4a31975528
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持现行 MDD P. caligatus 记录将 stephennashi 列作异名；该记录不能替代 COL26.8 的固定身份。
+            en: Supports the current MDD P. caligatus record listing stephennashi as a synonym; this record does not replace the pinned COL26.8 identity.
+      - id: mdd_v25
+        referenceId: ref-6a2b0b65-a878-4ad8-8a6e-4b3e2be7841a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持核对 MDD v2.5（2026-07-28）相对 v2.4 的分类变更表；该表未列出 stephennashi 并入 P. caligatus 后的后续替换处理。
+            en: Supports checking MDD v2.5 (2026-07-28) taxonomy changes since v2.4; that list contains no later replacement of the stephennashi lump into P. caligatus.
+      - id: roosmalen2002StephennashiTypes
+        referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+        fields:
+          - id
+          - title
+          - url
+          - accessedAt
+          - scope
+          - locator
+        metadataVariant: 0
+        usage:
+          title: A taxonomic review of the titi monkeys, genus Callicebus Thomas, 1903, with the description of two new species, Callicebus bernhardi and Callicebus stephennashi, from Brazilian Amazonia
+          url: https://doi.org/10.62015/np.2002.v10.503
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2002 年种账户印刷页 15–18，表 2 中 stephennashi 五行，以及图 14–15 图像与图注；未知产地与推测分布保留。
+            en: 2002 species account on printed pp. 15–18, the five stephennashi rows of Table 2 and Figures 14–15 with captions; unknown locality and inferred distribution retained.
+          locator: "Journal archive PDF: complete stephennashi account on pp. 15–18 (excluding neighboring species accounts); Table 2 header and five stephennashi rows visually read; full Figures 14–15 on pp. 16–17 visually inspected. Source front and official journal archive metadata read. Not the entire 52-page review, all maps/figures, original specimens, later 2025 revision or a wild-field survey."
+    limitations:
+      zh:
+        page: zh
+        section: s-ace125c915
+        part: body
+      en:
+        page: en
+        section: s-fdaeab09aa
+        part: body

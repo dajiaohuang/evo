@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana waliesa
+  displayName: Hylarana waliesa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MN79
+  sourceIndexes:
+    - name:
+        en: Hylarana waliesa
+        zh: Hylarana waliesa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MN79
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/486
+            queryName: Hylarana waliesa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/387
+            queryName: Papurana waliesa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/388
+            queryName: Rana waliesa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b972454c5e
+      - s-c0c134c080
+      - s-f61b09a04d
+      - s-e3879fa524
+      - s-e849b433ad
+      - s-9d3cf1df54
+      - s-a355b5837e
+      - s-46a10f1664
+      - s-9d56138a0a
+      - s-4fb767267d
+    zh:
+      - s-2f0b6e63bd
+      - s-324fc2cbd6
+      - s-6b30415e3f
+      - s-d80b612291
+      - s-d0b032d8bd
+      - s-8109bc17d0
+      - s-43a0445be0
+      - s-120081ebda
+      - s-d1024f1f45
+      - s-82eb9e02a4

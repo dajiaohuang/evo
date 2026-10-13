@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus limbensis
+  displayName: Eleutherodactylus limbensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4DS
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus limbensis
+        zh: Eleutherodactylus limbensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4DS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/256
+            queryName: Eleutherodactylus limbensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/324
+            queryName: Eleutherodactylus schmidti limbensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4723fe3c82
+      - s-a4b46b8bdc
+      - s-2e1089ff95
+      - s-ef74db51ef
+      - s-19f35caa34
+      - s-ca6f3122a8
+      - s-f7934310e6
+      - s-1bb56c0509
+    zh:
+      - s-3a9f8cdce6
+      - s-1ba0c5bd5c
+      - s-099e845074
+      - s-1e8af33d21
+      - s-6854285f1e
+      - s-c754bd2fef
+      - s-d5068612e9
+      - s-af71a85b7a

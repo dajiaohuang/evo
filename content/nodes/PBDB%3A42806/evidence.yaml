@@ -1,0 +1,110 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oioceros
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Oioceros
+      en: Oioceros
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-57ffd89de4
+            part: body
+          en:
+            page: en
+            section: s-b59212225b
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d32ce75140
+            part: body
+          en:
+            page: en
+            section: s-1ad8684a60
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Oioceros
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=42806
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:42806
+          readingTargets:
+            - name: Oioceros lishanensis
+              pbdbTaxonId: txn:295383
+              canonicalPath: content/nodes/PBDB%3A295383
+            - name: Oioceros xiejiaensis
+              pbdbTaxonId: txn:54386
+              canonicalPath: content/nodes/PBDB%3A54386
+            - name: Oioceros noverca
+              pbdbTaxonId: txn:54376
+              canonicalPath: content/nodes/PBDB%3A54376
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-46c4dded70
+        part: body
+      en:
+        page: en
+        section: s-da92e7c6e4
+        part: body

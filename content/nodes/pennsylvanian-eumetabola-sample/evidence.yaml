@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-74cb4960bf
+      part: title
+    titleZh:
+      page: zh
+      section: s-b6a012a3f0
+      part: title
+    category: radiation
+    startAge: 315
+    endAge: 299
+    regions:
+      - Moscovian and Gzhelian fossil localities in France and Russia
+    clades:
+      - Eumetabola
+      - Holometabola
+      - Hemiptera
+      - Psocodea
+    summary:
+      page: en
+      section: s-74cb4960bf
+      part: body
+    summaryZh:
+      page: zh
+      section: s-b6a012a3f0
+      part: body
+    claimIds:
+      - claim:event:pennsylvanian-eumetabola-sample
+    evidenceItems:
+      - statement: The described sample includes a stem coleopterid, a holometabolous larva, a stem hymenopterid, an early hemipteran and an early psocodean.
+        relation: supports
+        claimIds:
+          - claim:event:pennsylvanian-eumetabola-sample
+        referenceLinks:
+          - referenceId: nel-2013-eumetabola-fossils
+            relation: supports
+            pages: 257–261
+            figure: Figures 1–4
+            quoteLocator: Fossil descriptions and phylogeny
+    uncertaintyItems:
+      - statement: The specimens do not demonstrate synchronous origins, exact crown-order first appearances or a single climatic cause for later diversification.
+        relation: contextualizes
+        claimIds:
+          - claim:event:pennsylvanian-eumetabola-sample
+        referenceLinks:
+          - referenceId: nel-2013-eumetabola-fossils
+            relation: supports
+            pages: 257–261
+            figure: Figures 3–4
+            quoteLocator: Phylogenetic and palaeoecological discussion
+  claims:
+    - subjectId: event:pennsylvanian-eumetabola-sample
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Five Moscovian-to-Gzhelian insect fossils document a stem coleopterid, a holometabolous larva, a stem hymenopterid, early Hemiptera and Psocodea, expanding sampled Pennsylvanian Eumetabola without proving synchronous origins or later crown-order first appearances.
+      confidence: medium
+      confidenceRationale: The fossils and diagnostic characters are directly described, while exact crown placements and diversification causes remain phylogenetic or palaeoecological interpretations.
+      referenceLinks:
+        - referenceId: nel-2013-eumetabola-fossils
+          relation: supports
+          pages: 257–261
+          figure: Figures 1–4; Supplementary Information
+          quoteLocator: Fossil descriptions; phylogeny; age and palaeoenvironment discussion
+  claim-rationales.zh:
+    - 五件化石及诊断性状由一手研究描述；冠群位置、同步起源与多样化成因仍属于拓扑或古生态解释。
+  claim-statements.zh:
+    - 五件莫斯科阶至格舍尔阶昆虫化石分别记录一件鞘翅类干群、一个全变态幼虫、一件膜翅类干群、早期半翅目和啮虫目，从而扩充了宾夕法尼亚亚纪真变态类取样；但不能证明它们同步起源，也不能确定后来各冠群目的首次出现。

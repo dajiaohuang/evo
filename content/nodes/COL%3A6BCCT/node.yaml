@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor crassidigitus
+  displayName: Craugastor crassidigitus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCCT
+  sourceIndexes:
+    - name:
+        en: Craugastor crassidigitus
+        zh: Craugastor crassidigitus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCCT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/106
+            queryName: Craugastor crassidigitus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/65
+            queryName: Eleutherodactylus crassidigitus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-240b1b7733
+      - s-ef0e02fb07
+      - s-e27b89f89a
+      - s-b580faebb3
+      - s-f9bec19352
+      - s-6b38227ee8
+      - s-f7dd5b0b10
+      - s-61ec358bf3
+      - s-f50640a9f6
+      - s-8a95144c9e
+      - s-4e8065c1d0
+    zh:
+      - s-f6f19ec198
+      - s-b99616533e
+      - s-f1e8c7e7c8
+      - s-fcd71646d2
+      - s-c6dc6755bf
+      - s-c6117fab92
+      - s-362275a6e4
+      - s-addb75b058
+      - s-708ec1092c
+      - s-eafc7a92dc
+      - s-71029e2072

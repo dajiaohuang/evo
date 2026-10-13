@@ -1,0 +1,442 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Poicephalus crassus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Poicephalus crassus
+      en: Poicephalus crassus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f07ee15af1
+            part: body
+          en:
+            page: en
+            section: s-a0a0bf2586
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-9712fd3f9e
+            part: body
+          en:
+            page: en
+            section: s-33aa731b08
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-fb3e6f27ec
+            part: body
+          en:
+            page: en
+            section: s-fb7e0063a7
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-dee8f1287b
+            part: body
+          en:
+            page: en
+            section: s-69150b922e
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-8e3cf71c60
+            part: body
+          en:
+            page: en
+            section: s-fa0df088ec
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-84e7ff6e5b
+            part: body
+          en:
+            page: en
+            section: s-2319167853
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-87d4afbcf3
+            part: body
+          en:
+            page: en
+            section: s-96f15ec617
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8f7adf0bac
+            part: body
+          en:
+            page: en
+            section: s-d49e51c9c0
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8c478b59f3
+            part: body
+          en:
+            page: en
+            section: s-1262742eb7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-4694bc365c
+            part: body
+          en:
+            page: en
+            section: s-06bb77323b
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-da325d2991
+            part: body
+          en:
+            page: en
+            section: s-bb57a4e627
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-9d25ee47dd
+            part: body
+          en:
+            page: en
+            section: s-eb603b8462
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-ca9ec7d4c4
+            part: body
+          en:
+            page: en
+            section: s-22ffa3603f
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-412edb1be0
+            part: body
+          en:
+            page: en
+            section: s-40659dc447
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-ea063950a9
+            part: body
+          en:
+            page: en
+            section: s-071f72665a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Poicephalus crassus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4KWLV
+          locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 9287; name Poicephalus crassus; reference table row 9287; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - litter_or_clutch_size_n
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: mean of Szekely, Lislevand, and Figuerola, 2007 & de Magalhaes and Costa, 2009 from median of 6(Dunning, 1992, Wasser, D.E. and P.W. Sherman, 2010, Dunning, 1992, de Magalhaes and Costa, 2009, Szekely, Lislevand, and Figuerola, 2007, Bennett, 1986)
+            litter_or_clutch_size_n: mean of Szekely, Lislevand, and Figuerola, 2007 & Bennett, 1986 from median of 4(Jetz, Sekercioglu, and Bohning-Gaese, 2008, Szekely, Lislevand, and Figuerola, 2007, Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009, Bennett, 1986)
+            maximum_longevity_y: Wasser, D.E. and P.W. Sherman, 2010
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - Szekely, Lislevand, and Figuerola, 2007
+            - de Magalhaes and Costa, 2009
+            - Bennett, 1986
+            - Wasser, D.E. and P.W. Sherman, 2010
+            - Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009
+            - Jetz, Sekercioglu, and Bohning-Gaese, 2008
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 1441; Scientific=Poicephalus crassus; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_4
+                  verbatim: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              certainty: A
+            foraging:
+              fields:
+                - ForStrat-watbelowsurf
+                - ForStrat-wataroundsurf
+                - ForStrat-ground
+                - ForStrat-understory
+                - ForStrat-midhigh
+                - ForStrat-canopy
+                - ForStrat-aerial
+              references:
+                - id: Ref_4
+                  verbatim: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              speciesLevel: "1"
+          withheldFieldGroups: []
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - sourceVersion
+          - sourceWorksheet
+          - sourceFileSha256
+          - sourceRecordName
+          - eBirdCrosswalk
+          - birdTreeCrosswalk
+          - interpretedEcologicalFields
+          - uninterpretedEcologicalFields
+          - withheldBiometricFields
+          - originalInference
+          - originalMassSource
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: Species1=Poicephalus crassus; Metadata sheet ecological category and breeding/resident latitude definitions."
+          sourceVersion: Figshare AVONET version 7; file 34480856
+          sourceWorksheet: AVONET1_BirdLife
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceRecordName: Poicephalus crassus
+          eBirdCrosswalk:
+            Species1: Poicephalus crassus
+            Species2: Poicephalus crassus
+            Match.type: 1BL to 1eBird
+            Match.notes: null
+            Avibase.ID1: AVIBASE-6C96E81B
+            Avibase.ID2: AVIBASE-6C96E81B
+            "null": null
+          birdTreeCrosswalk:
+            Species1: Poicephalus crassus
+            Species3: Poicephalus crassus
+            Match.type: 1BL to 1BT
+            Match.notes: null
+          interpretedEcologicalFields:
+            - Habitat
+            - Trophic.Niche
+            - Primary.Lifestyle
+            - Migration
+          uninterpretedEcologicalFields: []
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          originalInference: YES
+          originalMassSource: Inferred
+          accessedAt: 2026-10-03
+          licenseAssessment: CC-BY-4.0-archive-attributed-factual-summary
+          scope:
+            zh: 有限历史生态类别与地图摘要；不解读形态或体重，底层物种文献未逐条读取，名称不证明概念等同。
+            en: Limited historical ecology categories and map summaries; no morphology or mass interpretation, underlying species literature not individually read, matching names do not prove equivalent concepts.
+    limitations:
+      zh:
+        page: zh
+        section: s-e970e1a8a1
+        part: body
+      en:
+        page: en
+        section: s-f385a5c5fa
+        part: body

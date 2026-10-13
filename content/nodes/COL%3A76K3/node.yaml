@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Quilticohyla
+  displayName: Quilticohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76K3
+  sourceIndexes:
+    - name:
+        en: Quilticohyla
+        zh: Quilticohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76K3
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/212
+            queryName: Quilticohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f00a42005c
+      - s-24f0bdf45a
+      - s-4c47264c91
+      - s-266b430d9d
+      - s-8cdf0f91c7
+      - s-753c651365
+      - s-e87640d6a0
+      - s-5920532c4f
+      - s-a2f625fc34
+      - s-fd38840ce7
+      - s-d3d2d250a9
+    zh:
+      - s-8054d8ff0e
+      - s-5cf8166aba
+      - s-1af5986c20
+      - s-46085f568c
+      - s-e70d4beb93
+      - s-8fab6fa003
+      - s-4082765d71
+      - s-03345cf63d
+      - s-02514948b1
+      - s-014b55e225
+      - s-5dd15f703e

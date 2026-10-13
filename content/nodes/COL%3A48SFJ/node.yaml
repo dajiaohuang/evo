@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana geminata
+  displayName: Odorrana geminata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SFJ
+  sourceIndexes:
+    - name:
+        en: Odorrana geminata
+        zh: Odorrana geminata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SFJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/10
+            queryName: Odorrana geminata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a400e47448
+      - s-00f6436a59
+      - s-8762eb95cd
+      - s-8fe5b9bc4c
+      - s-fd76c695d3
+      - s-ab31f97da3
+      - s-5a145655d1
+      - s-112c31b1ea
+    zh:
+      - s-8432153799
+      - s-013735613b
+      - s-2d52fee49a
+      - s-31fbba41a2
+      - s-f3175e32c6
+      - s-225e9f9892
+      - s-3fe44c02d4
+      - s-e95789285d

@@ -1,0 +1,3 @@
+## Leaflets, flowers and pod structure in the entry {#s-837bde3a7b}
+The Brazilian Flora 2020 entry records a striate, pubescent stem and lanceolate stipules. Leaves have opposite leaflets, described as oblong or oblanceolate with rounded bases; the inflorescence is a raceme. Floral buds are obovate. The calyx is broadly campanulate with triangular lobes, and the petals are orange. The standard is broadly ovate with a single dorsal colour; the wings are obovate and the keel falcate. The ovary has no stipe. The fruit is dehiscent and moniliform, with a narrow mesocarp and square shaped valves. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

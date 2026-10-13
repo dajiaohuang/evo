@@ -1,0 +1,18 @@
+## Start with sourced trait records {#s-c89f4e3190}
+This batch’s ReptTraits route for Ramphotyphlops includes 3 same-name, same-family entries with trait-specific citations. Start with Ramphotyphlops becki, Ramphotyphlops bipartitus, Ramphotyphlops willeyi. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+
+## Read the definition before comparing {#s-57aee73d98}
+Among size records in this batch, Ramphotyphlops bipartitus has a reported maximum snout–vent length (SVL) of 143.4 mm and Ramphotyphlops becki 234 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
+
+## Evidence limits {#s-ad0d929c45}
+This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
+
+## Start with sourced trait records {#s-070f4bc2e5}
+This batch’s ReptTraits route for Ramphotyphlops includes 18 same-name, same-family entries with trait-specific citations. Start with [Ramphotyphlops adocetus](Ramphotyphlops_adocetus/page.en.md), [Ramphotyphlops angusticeps](Ramphotyphlops_angusticeps/page.en.md), [Ramphotyphlops conradi](Ramphotyphlops_conradi/page.en.md), [Ramphotyphlops cumingii](Ramphotyphlops_cumingii/page.en.md), [Ramphotyphlops depressus](Ramphotyphlops_depressus/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+
+## Choose comparisons by available fields {#s-0b325f3d74}
+These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
+
+## Limits of these trait data {#s-f55f104383}
+This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
+

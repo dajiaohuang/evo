@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops vitreus
+  displayName: Amolops vitreus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CWBR
+  sourceIndexes:
+    - name:
+        en: Amolops vitreus
+        zh: Amolops vitreus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CWBR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/417
+            queryName: Amolops vitreus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/236
+            queryName: Rana vitrea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/237
+            queryName: Odorrana vitrea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-762fdb89ea
+      - s-1ddd5085a6
+      - s-1479db417d
+      - s-05643b2da4
+      - s-5c88ba75c0
+      - s-742233228b
+      - s-f964d9f400
+      - s-de5d7f981f
+      - s-9acd254819
+      - s-ccf3a06933
+    zh:
+      - s-7cadff5fb5
+      - s-c177f696b7
+      - s-2347e589d5
+      - s-8216164527
+      - s-4fe4407cc7
+      - s-938af72ebd
+      - s-5e129ec1af
+      - s-0964c2457e
+      - s-cb6bd21f9d
+      - s-6321960714

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis pyrrhus
+  displayName: Boophis pyrrhus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPM7
+  sourceIndexes:
+    - name:
+        en: Boophis pyrrhus
+        zh: Boophis pyrrhus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPM7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/288
+            queryName: Boophis pyrrhus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8f8af39b35
+      - s-8196c776e0
+      - s-c7c08345b2
+      - s-5013ccd63d
+      - s-ef1e0aabf1
+      - s-0b88393166
+      - s-c8735101ff
+      - s-959c4b3884
+      - s-fdda03a97c
+      - s-1c464bfcce
+      - s-7c4791fa08
+      - s-45daf56527
+      - s-4efa289a99
+      - s-1369c94c33
+      - s-11f087e8f3
+      - s-53094adce5
+    zh:
+      - s-3fc1a55578
+      - s-7ad5b60cf1
+      - s-2317f2fad8
+      - s-6b240ee902
+      - s-5f9f08cfd8
+      - s-6c2a214e10
+      - s-ca1bb7de10
+      - s-9bdfe9eb10
+      - s-fcf2983c91
+      - s-5a2ff5470e
+      - s-123340b331
+      - s-f118951123
+      - s-7c80933d54
+      - s-51563b9e4b
+      - s-7f71278c02
+      - s-8b5b6f0a19

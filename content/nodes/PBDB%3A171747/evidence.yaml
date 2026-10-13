@@ -1,0 +1,164 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plesiosaurus macrocephalus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Plesiosaurus macrocephalus
+      en: Plesiosaurus macrocephalus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f417628c74
+            part: body
+          en:
+            page: en
+            section: s-83785a3991
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ea7f589350
+            part: body
+          en:
+            page: en
+            section: s-048d944e01
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-051bbf0d54
+            part: body
+          en:
+            page: en
+            section: s-79b589b39e
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-069adc999c
+            part: body
+          en:
+            page: en
+            section: s-a25b50b208
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ea04012703
+            part: body
+          en:
+            page: en
+            section: s-588e01458d
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Plesiosaurus macrocephalus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=171747&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:171747; original response record indices retained in data/sources/sauropterygia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 262ff66f07b86b04952b63768d1a1ff40af059166c0f8e11f63f9ed76019c860
+          pbdbTaxonId: txn:171747
+          selectedOccurrenceIds:
+            - occ:989452
+            - occ:1110865
+            - occ:1384095
+          selectedCollectionIds:
+            - col:119084
+            - col:118938
+            - col:139854
+          sourceReferenceIds:
+            - ref:34651
+            - ref:31216
+          originalIdentificationMappings:
+            - occurrenceId: occ:989452
+              originalIdentifiedName: Plesiosaurus brachycephalus n. sp.
+              acceptedName: Plesiosaurus macrocephalus
+              difference: null
+            - occurrenceId: occ:1384095
+              originalIdentifiedName: Plesiosaurus macrocephalus n. sp.
+              acceptedName: Plesiosaurus macrocephalus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d035dd9eb8
+        part: body
+      en:
+        page: en
+        section: s-f377f68101
+        part: body

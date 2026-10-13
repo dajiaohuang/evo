@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella sabahmontana
+    name:
+      en: Leptobrachella sabahmontana
+      zh: Leptobrachella sabahmontana
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c5f53d6ae1
+            part: body
+          zh:
+            page: zh
+            section: s-85a117fdba
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-72505cab15
+            part: body
+          zh:
+            page: zh
+            section: s-0c33d065bc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2625, 2626; Reference.csv rows 651
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2625
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella sabahmontana
+          - F
+          - "35"
+          - "12.705"
+          - "11.095"
+          - "4.795"
+          - "2.485"
+          - "1.015"
+          - "3.185"
+          - "2.8"
+          - "3.605"
+          - NA
+          - "4.585"
+          - NA
+          - NA
+          - NA
+          - "17.71"
+          - "14.805"
+          - NA
+          - "17.01"
+          - NA
+          - NA
+          - "56.21"
+          - "2.1"
+          - "2.485"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2626
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella sabahmontana
+          - M
+          - "26.2"
+          - "10.3752"
+          - "8.9604"
+          - "4.1134"
+          - "2.0698"
+          - "0.786"
+          - "2.9868"
+          - "2.4628"
+          - "3.1702"
+          - "2.1222"
+          - "3.9824"
+          - NA
+          - NA
+          - NA
+          - "14.4624"
+          - "12.183"
+          - NA
+          - "14.148"
+          - NA
+          - NA
+          - "44.6186"
+          - "1.3362"
+          - "2.1484"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 651
+        values:
+          - Anura
+          - Leptobrachella_sabahmontana
+          - Matsui, M., Nishikawa, K., & Yambun, P. (2014). A new Leptolalax from the mountains of Sabah, Borneo (Amphibia, Anura, Megophryidae). Zootaxa, 3753(5), 440-452. https://doi.org/ 10.11646/zootaxa.3753.5.3
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - LAL
+      - FL
+      - TL
+      - HLL
+      - IMT
+      - Toe1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6PFS5
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

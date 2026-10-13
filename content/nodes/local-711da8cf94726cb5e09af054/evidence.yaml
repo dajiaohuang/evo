@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachium ailaonicum
+    name:
+      en: Leptobrachium ailaonicum
+      zh: Leptobrachium ailaonicum
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ee97fa7cd8
+            part: body
+          zh:
+            page: zh
+            section: s-c72e659c14
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d35424f351
+            part: body
+          zh:
+            page: zh
+            section: s-7d4b684d28
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2650, 2651; Reference.csv rows 666
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2650
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium ailaonicum
+          - M
+          - "78.4"
+          - "27.8"
+          - "31.7"
+          - "9"
+          - NA
+          - NA
+          - "9.3"
+          - "7"
+          - "7.3"
+          - NA
+          - "11.4"
+          - NA
+          - "20.6"
+          - NA
+          - "45.1"
+          - "35.1"
+          - "50.8"
+          - "32.9"
+          - NA
+          - NA
+          - "100.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2651
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium ailaonicum
+          - F
+          - "72.9"
+          - "27.7"
+          - "29"
+          - "9.8"
+          - NA
+          - NA
+          - "8"
+          - "7.1"
+          - "8"
+          - NA
+          - "10.6"
+          - NA
+          - "20.3"
+          - NA
+          - "40.1"
+          - "30.6"
+          - "44"
+          - "28.3"
+          - NA
+          - NA
+          - "94.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 666
+        values:
+          - Anura
+          - Leptobrachium_ailaonicum
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006) Fauna of China, Class Amphibia (Middle Volume) Anura. Science Press, Beijing.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TKBC
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

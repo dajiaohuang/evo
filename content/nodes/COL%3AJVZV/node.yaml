@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina hooglandi
+  displayName: Austrochaperina hooglandi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JVZV
+  sourceIndexes:
+    - name:
+        en: Austrochaperina hooglandi
+        zh: Austrochaperina hooglandi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JVZV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/354
+            queryName: Austrochaperina hooglandi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/117
+            queryName: Sphenophryne hooglandi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e335ff95de
+      - s-863a557eb5
+      - s-4da78882bf
+      - s-80abe03294
+      - s-b10345e02f
+      - s-44095d6a60
+      - s-70feab432d
+      - s-e543436c29
+      - s-45b7cd6a68
+      - s-c583bb1e46
+      - s-8988dabd07
+    zh:
+      - s-2a876213d7
+      - s-abc626bd34
+      - s-ea32b7654f
+      - s-efd93283ea
+      - s-97951b5755
+      - s-6b181dcba2
+      - s-947292b19a
+      - s-6ac3ed3893
+      - s-bc4e7a771b
+      - s-ee7eaae5fc
+      - s-44208035fc

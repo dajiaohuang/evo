@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Jacarea
+    rank: unranked clade
+    sourceDatasetId: null
+    name:
+      zh: Jacarea
+      en: Jacarea
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e2211d24a9
+            part: body
+          en:
+            page: en
+            section: s-b6b7abca74
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c037e8f6e7
+            part: body
+          en:
+            page: en
+            section: s-079233fb37
+            part: body
+    sources:
+      - id: pbdbCrocodylomorphTaxonomy20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Jacarea
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=253862
+          locator: Recorded PBDB parent closure beneath the already documented Crocodylomorpha COL-compatible storage anchor.
+      - id: pbdbCrocodylomorphOccurrences20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:253862
+          readingTargets:
+            - name: Tsoabichi greenriverensis
+              pbdbTaxonId: txn:265609
+              canonicalPath: content/nodes/PBDB%3A265609
+            - name: Bottosaurus fustidens
+              pbdbTaxonId: txn:414478
+              canonicalPath: content/nodes/PBDB%3A414478
+            - name: Bottosaurus harlani
+              pbdbTaxonId: txn:247713
+              canonicalPath: content/nodes/PBDB%3A247713
+            - name: Protocaiman peligrensis
+              pbdbTaxonId: txn:375297
+              canonicalPath: content/nodes/PBDB%3A375297
+            - name: Purussaurus brasiliensis
+              pbdbTaxonId: txn:265904
+              canonicalPath: content/nodes/PBDB%3A265904
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0fd6fc7ab8
+        part: body
+      en:
+        page: en
+        section: s-e75c882b9c
+        part: body

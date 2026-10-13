@@ -1,0 +1,423 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantellidae Laurent, 1946
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Mantellidae
+      zh: Mantellidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0c980f4bef
+            part: title
+          zh:
+            page: zh
+            section: s-1d457d90fb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0c980f4bef
+            part: body
+          zh:
+            page: zh
+            section: s-1d457d90fb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2464edeab3
+            part: title
+          zh:
+            page: zh
+            section: s-a06c57c476
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2464edeab3
+            part: body
+          zh:
+            page: zh
+            section: s-a06c57c476
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-de7c2abad9
+            part: title
+          zh:
+            page: zh
+            section: s-6337f93de0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-de7c2abad9
+            part: body
+          zh:
+            page: zh
+            section: s-6337f93de0
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-3bf5f83197
+            part: title
+          zh:
+            page: zh
+            section: s-6b28a7fe2c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3bf5f83197
+            part: body
+          zh:
+            page: zh
+            section: s-6b28a7fe2c
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-f127124ed1
+            part: title
+          zh:
+            page: zh
+            section: s-77d70b8123
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: J8C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJ8C
+            label:
+              en: Boophinae
+              zh: Boophinae
+          - kind: catalogue
+            colId: JSB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJSB
+            label:
+              en: Laliostominae
+              zh: Laliostominae
+          - kind: catalogue
+            colId: JVC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJVC
+            label:
+              en: Mantellinae
+              zh: Mantellinae
+        text:
+          en:
+            page: en
+            section: s-f127124ed1
+            part: body
+          zh:
+            page: zh
+            section: s-77d70b8123
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantellidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/CDS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Mantellidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ee2bf0c6e7
+        part: body
+      zh:
+        page: zh
+        section: s-9d57eda86d
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Mantellidae
+      sourceRowIds:
+        - Anf3497
+        - Anf3498
+        - Anf3499
+        - Anf3500
+        - Anf3501
+        - Anf3502
+        - Anf3503
+        - Anf3504
+        - Anf3505
+        - Anf3506
+        - Anf3507
+        - Anf3508
+        - Anf3509
+        - Anf3510
+        - Anf3511
+        - Anf3512
+        - Anf3513
+        - Anf3514
+        - Anf3515
+        - Anf3516
+        - Anf3517
+        - Anf3518
+        - Anf3519
+        - Anf3520
+        - Anf3521
+        - Anf3522
+        - Anf3523
+        - Anf3524
+        - Anf3525
+        - Anf3526
+        - Anf3527
+        - Anf3528
+        - Anf3529
+        - Anf3530
+        - Anf3531
+        - Anf3532
+        - Anf3533
+        - Anf3534
+        - Anf3535
+        - Anf3536
+        - Anf3537
+        - Anf3538
+        - Anf3539
+        - Anf3540
+        - Anf3541
+        - Anf3542
+        - Anf3543
+        - Anf3544
+        - Anf3545
+        - Anf3546
+        - Anf3547
+        - Anf3548
+        - Anf3549
+        - Anf3550
+        - Anf3551
+        - Anf3552
+        - Anf3553
+        - Anf3554
+        - Anf3555
+        - Anf3556
+        - Anf3557
+        - Anf3558
+        - Anf3559
+        - Anf3560
+        - Anf3561
+        - Anf3562
+        - Anf3563
+        - Anf3564
+        - Anf3565
+        - Anf3566
+        - Anf3567
+        - Anf3568
+        - Anf3569
+        - Anf3570
+        - Anf3571
+        - Anf3572
+        - Anf3573
+        - Anf3574
+        - Anf3575
+        - Anf3576
+        - Anf3577
+        - Anf3578
+        - Anf3579
+        - Anf3580
+        - Anf3581
+        - Anf3582
+        - Anf3583
+        - Anf3584
+        - Anf3585
+        - Anf3586
+        - Anf3587
+        - Anf3588
+        - Anf3589
+        - Anf3590
+        - Anf3591
+        - Anf3592
+        - Anf3593
+        - Anf3594
+        - Anf3595
+        - Anf3596
+        - Anf3597
+        - Anf3598
+        - Anf3599
+        - Anf3600
+        - Anf3601
+        - Anf3602
+        - Anf3603
+        - Anf3604
+        - Anf3605
+        - Anf3606
+        - Anf3607
+        - Anf3608
+        - Anf3609
+        - Anf3610
+        - Anf3611
+        - Anf3612
+        - Anf3613
+        - Anf3614
+        - Anf3615
+        - Anf3616
+        - Anf3617
+        - Anf3618
+        - Anf3619
+        - Anf3620
+        - Anf3621
+        - Anf3622
+        - Anf3623
+        - Anf3624
+        - Anf3625
+        - Anf3626
+        - Anf3627
+        - Anf3628
+        - Anf3629
+        - Anf3630
+        - Anf3631
+        - Anf3632
+        - Anf3633
+        - Anf3634
+        - Anf3635
+        - Anf3636
+        - Anf3637
+        - Anf3638
+        - Anf3639
+        - Anf3640
+        - Anf3641
+        - Anf3642
+        - Anf3643
+        - Anf3644
+        - Anf3645
+        - Anf3646
+        - Anf3647
+        - Anf3648
+        - Anf3649
+        - Anf3650
+        - Anf3651
+        - Anf3652
+        - Anf3653
+        - Anf3654
+        - Anf3655
+        - Anf3656
+        - Anf3657
+        - Anf3658
+        - Anf3659
+        - Anf3660
+        - Anf3661
+        - Anf3662
+        - Anf3663
+        - Anf3664
+        - Anf3665
+        - Anf3666
+        - Anf3667
+        - Anf3668
+        - Anf3669
+        - Anf3670
+        - Anf3671
+        - Anf3672
+        - Anf3673
+        - Anf3674
+        - Anf3675
+        - Anf3676
+        - Anf3677
+        - Anf3678
+        - Anf3679
+        - Anf3680
+        - Anf3681
+        - Anf3682
+        - Anf3683
+        - Anf3684
+        - Anf3685
+        - Anf3686
+        - Anf3687
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 3
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 95
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 48
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 128
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 21
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 132
+      currentConceptEquivalenceCertified: false

@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rebbachisaurinae
+    rank: unranked clade
+    sourceDatasetId: null
+    name:
+      zh: Rebbachisaurinae
+      en: Rebbachisaurinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-78f18ff1eb
+            part: body
+          en:
+            page: en
+            section: s-4a8a2146b8
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-08498833d2
+            part: body
+          en:
+            page: en
+            section: s-aa957bca7b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Rebbachisaurinae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=322714
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:322714
+          readingTargets:
+            - name: Nigersaurus taqueti
+              pbdbTaxonId: txn:57367
+              canonicalPath: content/nodes/PBDB%3A57367
+            - name: Itapeuasaurus cajapioensis
+              pbdbTaxonId: txn:390655
+              canonicalPath: content/nodes/PBDB%3A390655
+            - name: Tataouinea hannibalis
+              pbdbTaxonId: txn:273397
+              canonicalPath: content/nodes/PBDB%3A273397
+            - name: Demandasaurus darwini
+              pbdbTaxonId: txn:202270
+              canonicalPath: content/nodes/PBDB%3A202270
+            - name: Rebbachisaurus garasbae
+              pbdbTaxonId: txn:65368
+              canonicalPath: content/nodes/PBDB%3A65368
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-6f0b2e6a3b
+        part: body
+      en:
+        page: en
+        section: s-3840014b61
+        part: body

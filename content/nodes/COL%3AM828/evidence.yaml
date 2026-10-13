@@ -1,0 +1,325 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boana prasina (Burmeister, 1856)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boana prasina
+      zh: Boana prasina
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e360d4dce8
+            part: title
+          zh:
+            page: zh
+            section: s-602dfa77d4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e360d4dce8
+            part: body
+          zh:
+            page: zh
+            section: s-602dfa77d4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b6156a0279
+            part: title
+          zh:
+            page: zh
+            section: s-4ea6da55b8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b6156a0279
+            part: body
+          zh:
+            page: zh
+            section: s-4ea6da55b8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e588ec594b
+            part: title
+          zh:
+            page: zh
+            section: s-7beab03b7e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e588ec594b
+            part: body
+          zh:
+            page: zh
+            section: s-7beab03b7e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-06813f1a175ed15cde899a3d8b5d0bda
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9c3240d42b
+            part: title
+          zh:
+            page: zh
+            section: s-36a1b46d55
+            part: title
+        sourceIds:
+          - primary-pmc10688756-m828
+        text:
+          en:
+            page: en
+            section: s-9c3240d42b
+            part: body
+          zh:
+            page: zh
+            section: s-36a1b46d55
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-64e651a7be
+            part: title
+          zh:
+            page: zh
+            section: s-57e14381e5
+            part: title
+        sourceIds:
+          - primary-pmc10688756-m828
+        text:
+          en:
+            page: en
+            section: s-64e651a7be
+            part: body
+          zh:
+            page: zh
+            section: s-57e14381e5
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-41790fab82
+            part: title
+          zh:
+            page: zh
+            section: s-36e82172fc
+            part: title
+        sourceIds:
+          - primary-pmc10688756-m828
+        text:
+          en:
+            page: en
+            section: s-41790fab82
+            part: body
+          zh:
+            page: zh
+            section: s-36e82172fc
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boana prasina
+          url: https://www.checklistbank.org/dataset/316115/taxon/M828
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2430; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2430 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10688756-m828
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boana prasina: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-45cf536bf2
+        part: body
+      zh:
+        page: zh
+        section: s-4dba03c4ab
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-m828
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Boana_prasina, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Boana prasina: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-m828
+            locator: PMC10688756 S3 File Traits row 61 Boana_prasina; XML Functional diversity; upstream reference numbers 1, 2, 3, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-48e26e46f9
+                part: body
+              zh:
+                page: zh
+                section: s-cdc8a0da7b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-m828
+            locator: PMC10688756 S3 File Traits row 61 Boana_prasina habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ddf3073c39
+                part: body
+              zh:
+                page: zh
+                section: s-69b5d716b6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-m828
+            locator: PMC10688756 S3 File Traits row 61 Boana_prasina length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-05b525ceb3
+                part: body
+              zh:
+                page: zh
+                section: s-8fd66d62db
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

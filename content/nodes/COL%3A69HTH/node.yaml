@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene hybrida
+  displayName: Centrolene hybrida
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69HTH
+  sourceIndexes:
+    - name:
+        en: Centrolene hybrida
+        zh: Centrolene hybrida
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69HTH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/187
+            queryName: Centrolene hybrida
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6a15383b8b
+      - s-ae09151b34
+      - s-48ff14ca7c
+      - s-45bb0f3f3f
+      - s-71da16d734
+      - s-c8308f2179
+      - s-71df3b9580
+      - s-49cd117c1b
+    zh:
+      - s-08136f51b8
+      - s-09247e7eaf
+      - s-7425c7447a
+      - s-f452c294aa
+      - s-229f48e9ee
+      - s-250d3efe9e
+      - s-97a9656a1f
+      - s-2e7421ba3b

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis banahao
+  displayName: Platymantis banahao
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSP8
+  sourceIndexes:
+    - name:
+        en: Platymantis banahao
+        zh: Platymantis banahao
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSP8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/371
+            queryName: Platymantis banahao
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc3231318a
+      - s-e3ac379373
+      - s-a14914a1ba
+      - s-08bef37364
+      - s-9c8d6a39fd
+      - s-426ec965a2
+      - s-f7a45d4530
+      - s-b83da8432e
+    zh:
+      - s-aa2646b46b
+      - s-7b14f03236
+      - s-f411da0bd5
+      - s-8381a25337
+      - s-f266bf7dbd
+      - s-310ab7c723
+      - s-6bf17f9139
+      - s-9a2f7299ef

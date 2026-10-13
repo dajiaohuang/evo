@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne douglasi
+  displayName: Pseudophryne douglasi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P7G7
+  sourceIndexes:
+    - name:
+        en: Pseudophryne douglasi
+        zh: Pseudophryne douglasi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P7G7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/438
+            queryName: Pseudophryne douglasi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-179b01967c
+      - s-668d8935eb
+      - s-0c236cd2a4
+      - s-bd1a5a6f2f
+      - s-9bb939ed37
+      - s-38d5bcf27b
+      - s-19536c4af9
+      - s-cce13f1272
+      - s-b8063b8cea
+    zh:
+      - s-940cf56052
+      - s-b8b8c0060b
+      - s-ace8f4f407
+      - s-40d73614fb
+      - s-2fbe8d2a11
+      - s-900139f4cd
+      - s-5c73585f6c
+      - s-7bb3de4013
+      - s-608d9d0a5c

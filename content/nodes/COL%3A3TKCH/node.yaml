@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium montanum
+  displayName: Leptobrachium montanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKCH
+  sourceIndexes:
+    - name:
+        en: Leptobrachium montanum
+        zh: Leptobrachium montanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKCH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/337
+            queryName: Leptobrachium montanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e9e3e6509d
+      - s-72932c674c
+      - s-d274168ccb
+      - s-b4008eac12
+      - s-bca20f859b
+      - s-c946f0b43e
+      - s-369e0ecb45
+      - s-4fb99fe5b4
+      - s-c080b6a933
+      - s-925bd7027d
+      - s-cb94ae7585
+      - s-9f3a3df5aa
+    zh:
+      - s-47ffce43e3
+      - s-a030d5dc78
+      - s-dd9029c045
+      - s-646f94b146
+      - s-8d1d23b8f9
+      - s-7208ecc4f7
+      - s-438694b113
+      - s-740a40dc31
+      - s-445c119501
+      - s-283244623f
+      - s-0a9e0db2df
+      - s-315696979d

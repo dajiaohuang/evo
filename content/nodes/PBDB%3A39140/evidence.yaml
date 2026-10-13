@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ictidosuchidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Ictidosuchidae
+      en: Ictidosuchidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5e18dcd66
+            part: body
+          en:
+            page: en
+            section: s-7bb51b922c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9af015e6f6
+            part: body
+          en:
+            page: en
+            section: s-eb3f56cdb9
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Ictidosuchidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=39140
+          locator: Recorded PBDB parent closure beneath the already documented Synapsida COL-compatible storage anchor.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:39140
+          readingTargets:
+            - name: Scalopodontes kotelnichi
+              pbdbTaxonId: txn:362035
+              canonicalPath: content/nodes/PBDB%3A362035
+            - name: Nanictidops kitchingi
+              pbdbTaxonId: txn:343198
+              canonicalPath: content/nodes/PBDB%3A343198
+            - name: Ictidosuchops baurioides
+              pbdbTaxonId: txn:343195
+              canonicalPath: content/nodes/PBDB%3A343195
+            - name: Ictidosuchoides intermedius
+              pbdbTaxonId: txn:376351
+              canonicalPath: content/nodes/PBDB%3A376351
+            - name: Ictidosuchoides longiceps
+              pbdbTaxonId: txn:376352
+              canonicalPath: content/nodes/PBDB%3A376352
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5f78ace273
+        part: body
+      en:
+        page: en
+        section: s-241ca5cb79
+        part: body

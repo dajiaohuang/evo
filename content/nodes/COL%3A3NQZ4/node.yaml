@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius semidiscus
+  displayName: Hyperolius semidiscus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQZ4
+  sourceIndexes:
+    - name:
+        en: Hyperolius semidiscus
+        zh: Hyperolius semidiscus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQZ4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/334
+            queryName: Hyperolius semidiscus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/75
+            queryName: Hyperolius horstockii semidiscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3b6221edc
+      - s-51e49109eb
+      - s-ddb45d575a
+      - s-ae0c8b9ce1
+      - s-c2b1b287dd
+      - s-cffad51df7
+      - s-1411e60a04
+      - s-e4ca602aa6
+      - s-bb48c07ea9
+      - s-d1b7a1dd69
+      - s-783f295ac4
+      - s-7ba8441c38
+      - s-2689260318
+      - s-178974945a
+      - s-b928c25fde
+      - s-0fb92e9f4c
+      - s-59e1186c64
+    zh:
+      - s-91ee4d17b9
+      - s-2b041c94d1
+      - s-5a2363e201
+      - s-07765c5585
+      - s-7122f26a93
+      - s-f2daff1b6f
+      - s-4bd447c128
+      - s-b349206515
+      - s-b77388f88f
+      - s-ea9256ea53
+      - s-88adbace41
+      - s-411e24b26e
+      - s-cb6aa06d88
+      - s-2aa5545ee2
+      - s-1f84342163
+      - s-0b090aa474
+      - s-a594875f0e

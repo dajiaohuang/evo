@@ -1,0 +1,390 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gazella
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Gazella
+      en: Gazella
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-56bc38a7a6
+            part: body
+          en:
+            page: en
+            section: s-9f0ed75293
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-304aaf43b1
+            part: body
+          en:
+            page: en
+            section: s-e8c28a2f47
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-dccd4d9b84
+            part: body
+          en:
+            page: en
+            section: s-aa636ec304
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-fdc2f66a38
+            part: body
+          en:
+            page: en
+            section: s-89c1503d77
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-bccae3d24c
+            part: body
+          en:
+            page: en
+            section: s-3ccd492639
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-aaf76df3d0
+            part: body
+          en:
+            page: en
+            section: s-bc8f2224b9
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-6921157a43
+            part: body
+          en:
+            page: en
+            section: s-b23965ffd0
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-adeb3b4a9e
+            part: body
+          en:
+            page: en
+            section: s-fdcb519de4
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-32828cce61
+            part: body
+          en:
+            page: en
+            section: s-e5ef546e65
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-73d1753380
+            part: body
+          en:
+            page: en
+            section: s-98eddf1ec4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gazella
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MJB
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 3 authored entries grouped under Gazella by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 9 authored same-name records placed under Gazella by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 10 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 7
+            foraging: 10
+            activity: 10
+          readingTargets:
+            - name: Gazella subgutturosa
+              colId: 3FG3N
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3FG3N
+            - name: Gazella spekei
+              colId: 3FG3M
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3FG3M
+            - name: Gazella erlangeri
+              colId: 3FG3D
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3FG3D
+            - name: Gazella gazella
+              colId: 6JYV5
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6JYV5
+            - name: Gazella dorcas
+              colId: 3FG3C
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3FG3C
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 2 authored entries grouped under Gazella by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 3FG38
+              name: Gazella bennettii
+              canonicalPath: content/nodes/COL%3A3FG38
+            - colId: 3FG3K
+              name: Gazella saudiya
+              canonicalPath: content/nodes/COL%3A3FG3K
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 4 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 3FG3M
+              name: Gazella spekei
+              canonicalPath: content/nodes/COL%3A3FG3M
+            - colId: 6JZ76
+              name: Gazella cuvieri
+              canonicalPath: content/nodes/COL%3A6JZ76
+            - colId: 3FG3N
+              name: Gazella subgutturosa
+              canonicalPath: content/nodes/COL%3A3FG3N
+            - colId: 6JYV5
+              name: Gazella gazella
+              canonicalPath: content/nodes/COL%3A6JYV5
+          fieldAccountCounts:
+            gestation(mo): 4
+            newborn(g): 2
+            weaning(mo): 2
+            wean mass(g): 1
+            AFR(mo): 4
+            max. life(mo): 2
+            litter size: 4
+            litters/year: 2
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-5fb2697cba
+        part: body
+      en:
+        page: en
+        section: s-83a924548e
+        part: body

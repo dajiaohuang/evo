@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Arthroleptis perreti
+    name:
+      en: Arthroleptis perreti
+      zh: Arthroleptis perreti
+    sourceClassification:
+      order: Anura
+      family: Arthroleptidae
+      genus: Arthroleptis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d4d81db5c2
+            part: body
+          zh:
+            page: zh
+            section: s-24e3d2e82b
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8d31398212
+            part: body
+          zh:
+            page: zh
+            section: s-db5a6a24a2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 481, 482; Reference.csv rows 2471
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 481
+        values:
+          - Arthroleptidae
+          - Arthroleptis
+          - Arthroleptis perreti
+          - F
+          - "36.51428571"
+          - NA
+          - "14.48571429"
+          - "5.014285714"
+          - "2.242857143"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.4"
+          - NA
+          - NA
+          - "8.942857143"
+          - NA
+          - NA
+          - NA
+          - "20.97142857"
+          - "19.87142857"
+          - NA
+          - NA
+          - "2.028571429"
+          - "2.942857143"
+          - "4.457142857"
+          - "7.357142857"
+          - "11.58571429"
+          - "6.542857143"
+          - "3.514285714"
+          - "3.871428571"
+          - "6.057142857"
+          - "4.428571429"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 482
+        values:
+          - Arthroleptidae
+          - Arthroleptis
+          - Arthroleptis perreti
+          - M
+          - "29"
+          - NA
+          - "10.85"
+          - "4.4"
+          - "1.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.9"
+          - NA
+          - NA
+          - "7.5"
+          - NA
+          - NA
+          - NA
+          - "15.05"
+          - "14.95"
+          - NA
+          - NA
+          - "1.6"
+          - "2.3"
+          - "3.3"
+          - "5.45"
+          - "9.15"
+          - "4.65"
+          - "2.9"
+          - "3.35"
+          - "6.3"
+          - "3.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2471
+        values:
+          - Anura
+          - Arthroleptis_perreti
+          - "Blackburn, D., Gonwouo, L., Ernst, R., & Rödel, M.-O. (2009). A new squeaker frog (Arthroleptidae: Arthroleptis) from the Cameroon Volcanic Line with redescriptions of Arthroleptis adolfifriederici Nieden, 1911 “1910” and A. variabilis Matschie, 1893. Breviora, 515, 1-22. https://doi.org/10.3099/0006-9698-515.1.1"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - TD
+      - SL
+      - FLL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - GYRX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

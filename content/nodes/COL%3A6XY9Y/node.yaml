@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax acuminatus
+  displayName: Scinax acuminatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XY9Y
+  sourceIndexes:
+    - name:
+        en: Scinax acuminatus
+        zh: Scinax acuminatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XY9Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/10
+            queryName: Scinax acuminatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/12
+            queryName: Hyla acuminata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/13
+            queryName: Scytopis acuminatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/14
+            queryName: Hyla phrynoderma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/15
+            queryName: Hyla fiebrigi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/16
+            queryName: Ololygon acuminata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/17
+            queryName: Scinax acuminata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b4ae92cb11
+      - s-7d0c1eca28
+      - s-b07c2ec183
+      - s-72de32dddb
+      - s-34bada6823
+      - s-4e660a5de8
+      - s-d04a66a103
+      - s-ec1668c3e9
+      - s-c7319b669e
+      - s-5a63dc2ec3
+      - s-bd04390ba9
+    zh:
+      - s-149bd5031b
+      - s-f80ab46d39
+      - s-933a673fb1
+      - s-1cfd6f3562
+      - s-b00db1dce4
+      - s-a333a6cb7e
+      - s-80e7f1d84c
+      - s-cbd74f69ef
+      - s-8254af9618
+      - s-16a4d5bc2e
+      - s-c82fa063a4

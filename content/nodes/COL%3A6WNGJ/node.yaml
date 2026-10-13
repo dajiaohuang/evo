@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena erlangeri
+  displayName: Ptychadena erlangeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6WNGJ
+  sourceIndexes:
+    - name:
+        en: Ptychadena erlangeri
+        zh: Ptychadena erlangeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6WNGJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/467
+            queryName: Ptychadena erlangeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/147
+            queryName: Rana erlangeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/161
+            queryName: Ptychadena largeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a2aa006094
+      - s-d91d316309
+      - s-8b6f562c94
+      - s-90a0d5d2fd
+      - s-e31f2b9af0
+      - s-e448a34384
+      - s-2eeff16b8d
+      - s-ef6afdd514
+      - s-9b8e81682b
+      - s-bef74f77ab
+      - s-d862cb6c4e
+      - s-1a8f719cca
+      - s-161f4f4e35
+      - s-ff6e1187d2
+      - s-592062bdd9
+      - s-40ba9f7c85
+      - s-644cffa9c1
+      - s-0e37de2462
+      - s-a54c16e6fc
+      - s-534eea8a7d
+    zh:
+      - s-04e95480e6
+      - s-64996086c0
+      - s-1789bbf430
+      - s-85b367b678
+      - s-62f8c76ae8
+      - s-650922845f
+      - s-dab40f8aa6
+      - s-8d843b1991
+      - s-d86cb63a9b
+      - s-a293ae97ae
+      - s-e85e72b112
+      - s-0977446ba5
+      - s-cd550dba6f
+      - s-f9e090e481
+      - s-d77dd1aad4
+      - s-715c726488
+      - s-292f4f859a
+      - s-aed9d5b6d2
+      - s-e131b5775b
+      - s-00cc0e3613

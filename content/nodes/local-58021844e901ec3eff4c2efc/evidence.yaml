@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gephyromantis atsingy
+    name:
+      en: Gephyromantis atsingy
+      zh: Gephyromantis atsingy
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Gephyromantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ce77a5f96d
+            part: body
+          zh:
+            page: zh
+            section: s-a5e05c3a94
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-31cb0a97bd
+            part: body
+          zh:
+            page: zh
+            section: s-a4faddc0f0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1956, 1957; Reference.csv rows 429
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1956
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis atsingy
+          - M
+          - "34.23333333"
+          - "15.53333333"
+          - "12.56666667"
+          - "5.066666667"
+          - "3.166666667"
+          - NA
+          - NA
+          - "3.2"
+          - NA
+          - "3.766666667"
+          - NA
+          - "2.133333333"
+          - "11.23333333"
+          - NA
+          - "17.06666667"
+          - "16.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "44.23333333"
+          - "1.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1957
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis atsingy
+          - F
+          - "37.61"
+          - "16.95"
+          - "12.77"
+          - "4.61"
+          - "3.06"
+          - NA
+          - NA
+          - "2.99"
+          - NA
+          - "3.87"
+          - NA
+          - "1.74"
+          - "11.67"
+          - NA
+          - "17.69"
+          - "17.88"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "58.51"
+          - "1.36"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 429
+        values:
+          - Anura
+          - Gephyromantis_atsingy
+          - Crottini, A., Glaw, F., Casiraghi, M., Jenkins, R. K., Mercurio, V., Randrianantoandro, C., . . . Andreone, F. (2011). A new Gephyromantis (Phylacomantis) frog species from the pinnacle karst of Bemaraha, western Madagascar. Zookeys(81), 51-71. https://doi.org/10.3897/zookeys.81.1111
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3FTT9
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

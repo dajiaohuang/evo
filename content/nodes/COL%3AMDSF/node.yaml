@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa suchitanensis
+  displayName: Bolitoglossa suchitanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDSF
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa suchitanensis
+        zh: Bolitoglossa suchitanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDSF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/201
+            queryName: Bolitoglossa suchitanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e531726c5
+      - s-eda2aec994
+      - s-852dd363e5
+      - s-9f4d03408b
+      - s-9965d9922e
+      - s-881cd29b28
+      - s-0e7a22c9bd
+    zh:
+      - s-cb02083bd8
+      - s-f14d21487f
+      - s-586ea75a67
+      - s-964cf4221a
+      - s-8583aa7ed5
+      - s-376a8217c6
+      - s-4bc228cee8

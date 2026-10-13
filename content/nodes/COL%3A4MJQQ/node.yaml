@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis tungurahua
+  displayName: Pristimantis tungurahua
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQQ
+  sourceIndexes:
+    - name:
+        en: Pristimantis tungurahua
+        zh: Pristimantis tungurahua
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/145
+            queryName: Pristimantis tungurahua
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-12d99d8687
+      - s-3ad7f5ff4c
+      - s-d581d62aca
+      - s-25482a5717
+      - s-053fd2d865
+      - s-a09627a771
+      - s-517296345b
+      - s-c2c3c56cf7
+      - s-ab3a79714d
+      - s-51607f1805
+      - s-3459c37e49
+      - s-b6cf2fd231
+    zh:
+      - s-567626b051
+      - s-5db81a878c
+      - s-be0ee9cb05
+      - s-825f1339e2
+      - s-120b2e8f57
+      - s-e3e879cc67
+      - s-15c1a33bcb
+      - s-1e3b7c6a12
+      - s-d78d979e75
+      - s-b7eea49389
+      - s-804917ab76
+      - s-1b6cc4d02c

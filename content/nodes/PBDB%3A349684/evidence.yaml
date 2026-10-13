@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-2d397c5539
+          part: title
+        zh:
+          page: zh
+          section: s-e1399026ff
+          part: title
+      text:
+        en:
+          page: en
+          section: s-2d397c5539
+          part: body
+        zh:
+          page: zh
+          section: s-e1399026ff
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-0cdb3e7324
+          part: title
+        zh:
+          page: zh
+          section: s-fc0d64e4c6
+          part: title
+      text:
+        en:
+          page: en
+          section: s-0cdb3e7324
+          part: body
+        zh:
+          page: zh
+          section: s-fc0d64e4c6
+          part: body
+  atlas-node:
+    name: Medusozoa
+    commonName: Medusozoans
+    commonNameZh: 水母亚门
+    rank: subphylum
+    taxonId: txn:349684
+    firstAppearance: 562
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:medusozoa
+      claimKind: scientific
+      claimType: topology
+      statement: Phylogenomic analyses recover a sampled Medusozoa branch and test relationships among its major lineages; the topology and reconstructed trait origins are model results, not observed ancestors.
+      confidence: medium
+      confidenceRationale: Large molecular matrices provide explicit support, while alternative models and uneven sampling limit universal ancestral-state claims.
+      referenceLinks:
+        - referenceId: kayal-2018-cnidarian-phylogenomics
+          relation: supports
+          pages: Article 68
+          quoteLocator: Figures 1–5; phylogenomic topology and trait reconstructions
+    - subjectId: taxon:medusozoa
+      claimKind: scientific
+      claimType: fossil-range
+      statement: "Medusozoa is displayed at 562–0 Ma only as a stem-fossil-to-living navigation anthology: Auroralumina provides a matrix-dependent Ediacaran stem-medusozoan anchor, not a crown-Medusozoa FAD, direct ancestor or continuous global range."
+      confidence: medium
+      confidenceRationale: Dunn et al. (2022) directly documents the Charnwood specimen and tests its stem-medusozoan placement. Medium confidence is restricted to that interpreted fossil anchor plus living continuation, not to a crown origin.
+      referenceLinks:
+        - relation: supports
+          referenceId: dunn-2022-auroralumina
+          pages: 6:1095–1104
+          figure: Figures 1–4; Extended Data Figures 1–8
+          quoteLocator: Charnwood age, morphology and stem-medusozoan placement
+  claim-rationales.zh:
+    - 大型分子矩阵提供明确支持，但替代模型与不均匀取样限制了普遍祖先状态主张。
+    - Dunn 等（2022）直接记录查恩伍德标本并检验其干群水母亚门位置。中等置信度仅限于该解释性化石锚点与现生延续，不涉及冠群起源。
+  claim-statements.zh:
+    - 系统基因组分析恢复了取样的水母亚门分支并检验其主要支系关系；拓扑和性状起源重建属于模型结果，不是已观察祖先。
+    - Medusozoa 的 562–0 Ma 仅作为“干群化石—现生类群”导航汇编：Auroralumina 提供依赖矩阵的埃迪卡拉纪干群水母亚门锚点，并非冠群首现、直接祖先或连续全球范围。
+  ranges:
+    - entityId: medusozoa
+      rangeKind: global-composite
+      taxonomicConcept: Medusozoa stem-fossil-to-living navigation anthology
+      geographicScope: Charnwood Forest Auroralumina stem-medusozoan interpretation plus living Medusozoa
+      olderMa: 562
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Auroralumina is used as a stem-medusozoan navigation anchor, not a crown-Medusozoa FAD or exact divergence date.
+      evidenceBasis: Dunn et al. describe and matrix-test Auroralumina as an Ediacaran crown cnidarian on the medusozoan stem; 0 Ma denotes living medusozoans.
+      confidence: medium
+      claimIds:
+        - claim:taxon:medusozoa:range-boundary-rc50
+      referenceLocators:
+        - referenceId: dunn-2022-auroralumina
+          locator: 1095–1104; Figures 1–4; Extended Data Figures 1–8; Charnwood age, morphology and stem-medusozoan placement
+      evidenceLevel: literature-synthesized

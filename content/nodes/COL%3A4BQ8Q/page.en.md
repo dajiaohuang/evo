@@ -1,0 +1,3 @@
+## Pachycarpus acidostelma {#s-ef092fc06a}
+COL26.8 (released 2026-08-20) lists *Pachycarpus acidostelma* as an accepted species. A regional account describes an erect perennial herb with a deep, narrow cylindrical stem base and pale-cream to pale-yellow, sweetly scented flowers. It distinguishes the species by its small stature, a saucer-shaped corolla when young whose tips reflex at maturity, and sharp triangular lobes on the flower’s corona (a crown-like central structure). The account records midland grassland, including KwaZulu-Natal sandstone sourveld, and notes that seeds were not seen.
+

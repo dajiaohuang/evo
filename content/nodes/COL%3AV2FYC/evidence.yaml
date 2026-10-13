@@ -1,0 +1,410 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Epipedobates currulao Betancourth-Cundar, Ríos-Orjuela, Cannatella & Tarvin, 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Epipedobates currulao
+      zh: Epipedobates currulao
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e6e58f016a
+            part: title
+          zh:
+            page: zh
+            section: s-252e4396e6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e6e58f016a
+            part: body
+          zh:
+            page: zh
+            section: s-252e4396e6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1d94b4a844
+            part: title
+          zh:
+            page: zh
+            section: s-1910bcfa5b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1d94b4a844
+            part: body
+          zh:
+            page: zh
+            section: s-1910bcfa5b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-a0f8101f87
+            part: title
+          zh:
+            page: zh
+            section: s-21d4b16979
+            part: title
+        sourceIds:
+          - primary-pmc11826230-v2fyc
+        text:
+          en:
+            page: en
+            section: s-a0f8101f87
+            part: body
+          zh:
+            page: zh
+            section: s-21d4b16979
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-bc2f60f5a7
+            part: title
+          zh:
+            page: zh
+            section: s-e71ec22f03
+            part: title
+        sourceIds:
+          - primary-pmc11826230-v2fyc
+        text:
+          en:
+            page: en
+            section: s-bc2f60f5a7
+            part: body
+          zh:
+            page: zh
+            section: s-e71ec22f03
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-76ae43d5b0
+            part: title
+          zh:
+            page: zh
+            section: s-5b90de6696
+            part: title
+        sourceIds:
+          - primary-pmc11677230-v2fyc
+        text:
+          en:
+            page: en
+            section: s-76ae43d5b0
+            part: body
+          zh:
+            page: zh
+            section: s-5b90de6696
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-ebb5b55902
+            part: title
+          zh:
+            page: zh
+            section: s-0941e43284
+            part: title
+        sourceIds:
+          - primary-pmc11677230-v2fyc
+        text:
+          en:
+            page: en
+            section: s-ebb5b55902
+            part: body
+          zh:
+            page: zh
+            section: s-0941e43284
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-706e98e180
+            part: title
+          zh:
+            page: zh
+            section: s-85daa4f883
+            part: title
+        sourceIds:
+          - primary-pmc11677230-v2fyc
+        text:
+          en:
+            page: en
+            section: s-706e98e180
+            part: body
+          zh:
+            page: zh
+            section: s-85daa4f883
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ff566c3bda
+            part: title
+          zh:
+            page: zh
+            section: s-58f75b869f
+            part: title
+        sourceIds:
+          - primary-pmc11677230-v2fyc
+        text:
+          en:
+            page: en
+            section: s-ff566c3bda
+            part: body
+          zh:
+            page: zh
+            section: s-58f75b869f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Epipedobates currulao
+          url: https://www.checklistbank.org/dataset/316115/taxon/V2FYC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11826230-v2fyc
+        referenceId: ref-05c16577-52f9-42cd-a961-a338ee1fceea
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Epipedobates currulao: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc11677230-v2fyc
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Epipedobates currulao: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3e1f2b6dc0
+        part: body
+      zh:
+        page: zh
+        section: s-3acf5b08d4
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1226.123803
+        referenceId: ref-05c16577-52f9-42cd-a961-a338ee1fceea
+        sourceKey: primary-pmc11826230-v2fyc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11826230/article.xml
+        sourceConcept: Epipedobates currulao
+        evidenceRead: "Epipedobates currulao: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Observed Colombian lowland localities
+              zh: 哥伦比亚低地的观察地点
+            referenceId: ref-05c16577-52f9-42cd-a961-a338ee1fceea
+            sourceKey: primary-pmc11826230-v2fyc
+            locator: "Epipedobates currulao: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-838952fa0b
+                part: body
+              zh:
+                page: zh
+                section: s-27c013b917
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Daytime activity near slow water
+              zh: 缓流水体附近的白天活动
+            referenceId: ref-05c16577-52f9-42cd-a961-a338ee1fceea
+            sourceKey: primary-pmc11826230-v2fyc
+            locator: "Epipedobates currulao: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1152109250
+                part: body
+              zh:
+                page: zh
+                section: s-5610557b2a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7554/eLife.100011
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        sourceKey: primary-pmc11677230-v2fyc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11677230/article.xml
+        sourceConcept: Exactfixed source name Epipedobates currulao; 2 sampledanimals/GC-MS, no originalvoucher/currentconcept authentication
+        evidenceRead: "Epipedobates currulao: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Original bilingual factual synthesis of sampled skin chemistry and explicitly labelled mechanistic hypotheses; no figures or raw datasets reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Skin alkaloid measurements retain individuals and assay scope
+              zh: 皮肤生物碱测量保留个体及检测范围
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-v2fyc
+            locator: PMC11677230 XML table1 row17 exactEpipedobates currulao; tablecaption/footnote; s1-1 definitions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-94fdd93f00
+                part: body
+              zh:
+                page: zh
+                section: s-3058c42268
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Collection and chemical interpretation limits
+              zh: 取样与化学解读限制
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-v2fyc
+            locator: PMC11677230 XML s3-1 collection; s3-2 assay; s3-4 analyses; s2-6 limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b5a26a7eed
+                part: body
+              zh:
+                page: zh
+                section: s-7b63ef51da
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Passive accumulation remains a mechanistic hypothesis
+              zh: 被动积累仍是机制假说
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-v2fyc
+            locator: PMC11677230 XML s1-3 passive-accumulation definition/model; s2-3-2 elimination prediction; s2-3-3 transport/storage prediction; s2-7 conclusion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3179e71093
+                part: body
+              zh:
+                page: zh
+                section: s-52ea7d18c5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Species-specific detections and their evidence limits
+              zh: 物种特定检出及证据限制
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-v2fyc
+            locator: PMC11677230 XML s2-2 namedEpipedobates currulao discussion; table1 row17
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5a3bb56988
+                part: body
+              zh:
+                page: zh
+                section: s-b4c7ede99f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

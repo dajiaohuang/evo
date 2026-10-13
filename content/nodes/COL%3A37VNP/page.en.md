@@ -1,0 +1,43 @@
+## Accepted name and placement {#s-17264ba172}
+COL26.8 accepts Dryophytes squirellus (Daudin, 1800) as a species. Its recorded classification places it along Anura (order) → Hylidae (family) → Dryophytes (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-c0f547a3ea}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Recorded geographic labels {#s-fbf54ad015}
+The pinned ITIS source lists North America for Dryophytes squirellus. The connection uses the exact ITIS TSN 1098561 supplied by COL26.8, with the scientific name and authorship checked against the archived source Name row. These are textual geographic labels rather than precise range boundaries, local observation dates or population measurements. The distribution-status field is unspecified, so native versus introduced status cannot be assigned from these rows.
+
+## Related source records and datasets {#s-1b156890e0}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [TadpoleTraits v4: Dryophytes squirellus](../../../../../../../../../../../../../topics/research/TadpoleTraits/Hylidae/Dryophytes/Dryophytes_squirellus/page.en.md)
+- [AmphiBIO v1: Hyla squirella](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Hylidae/Hyla/Hyla_squirella/page.en.md)
+- [AmphiTherm curated snapshot: Hyla squirella](../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Hylidae/Hyla/Hyla_squirella/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-0e01c5d0c1}
+Deposited source concept: Dryophytes squirellus, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 0 literature-derived rows and 2 image-derived rows for this source concept. Supplied stage entries are 36; 37. Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Selected image-derived proportions — TadpoleTraits source {#s-171607f279}
+Deposited source concept: Dryophytes squirellus, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The image-data source reports body length / total length = 0.299259 (source row 416, stage 36); tail length / total length = 0.696645 (source row 416, stage 36); maximum body height / total length = 0.175259 (source row 416, stage 36); body length / total length = 0.314536 (source row 417, stage 37); tail length / total length = 0.674857 (source row 417, stage 37). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+
+## Adult tapeworm associations in a historical North American checklist {#s-55fcf10370}
+The 2023 review includes Dryophytes squirellus among amphibian hosts with records of adult intestinal cestodes. Its named parasite associations are Cylindrotaenia americana. These describe compiled host–parasite records, not parasites measured in every member of the species. The scope is adult worms in wild continental North American herpetofauna; larval cestode records are excluded. An intestinal association alone does not establish disease severity, host mortality, zoonotic transmission or the species’ role in completing every parasite life cycle. Prevalence, intensity, examined-host denominators and experimental susceptibility are not supplied by this host checklist.
+
+## Reported parasite localities retain their historical scope {#s-7c90fb407d}
+The parasite-oriented entries associate the source label Dryophytes squirellus with these reported places: Cylindrotaenia americana: Texas. Place labels are retained at the article’s stated resolution; an unspecified locality is not converted into a state or precise site. The underlying reports span different publication dates and collection settings. This review is not a new survey demonstrating present occupancy, a complete host range or absence of infection outside those places. Host names and parasite identifications are the review’s interpretation of historical reports; original vouchers, collection dates and sequences have not been independently reassessed for current species concepts.
+
+## How to interpret the compiled parasite evidence {#s-6d4285575f}
+The authors assembled literature records into both parasite-first and host-first lists and supplied an identification key using earlier taxonomic works. The host-first list intentionally omits worms identified only to genus; a shorter list there is not evidence that genus-level records do not exist. The article reports 88 named amphibian hosts overall, alongside unresolved and hybrid labels in its host list; that source total is not the number of pinned COL26.8 pages linked here. This page uses only an exact source-name match to the frozen accepted name, without certifying every historical specimen’s identity. The source does not document a dated, reproducible database-query protocol sufficient to treat a missing association as a systematic negative finding.
+
+## catalogue-profile / limitations {#s-77a772c07d}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-e47d6c3f81}
+The 2023 review includes Dryophytes squirellus among amphibian hosts with records of adult intestinal cestodes. Its named parasite associations are Cylindrotaenia americana. These describe compiled host–parasite records, not parasites measured in every member of the species. The scope is adult worms in wild continental North American herpetofauna; larval cestode records are excluded. An intestinal association alone does not establish disease severity, host mortality, zoonotic transmission or the species’ role in completing every parasite life cycle. Prevalence, intensity, examined-host denominators and experimental susceptibility are not supplied by this host checklist.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-d3463ce24d}
+The parasite-oriented entries associate the source label Dryophytes squirellus with these reported places: Cylindrotaenia americana: Texas. Place labels are retained at the article’s stated resolution; an unspecified locality is not converted into a state or precise site. The underlying reports span different publication dates and collection settings. This review is not a new survey demonstrating present occupancy, a complete host range or absence of infection outside those places. Host names and parasite identifications are the review’s interpretation of historical reports; original vouchers, collection dates and sequences have not been independently reassessed for current species concepts.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-a41a166381}
+The authors assembled literature records into both parasite-first and host-first lists and supplied an identification key using earlier taxonomic works. The host-first list intentionally omits worms identified only to genus; a shorter list there is not evidence that genus-level records do not exist. The article reports 88 named amphibian hosts overall, alongside unresolved and hybrid labels in its host list; that source total is not the number of pinned COL26.8 pages linked here. This page uses only an exact source-name match to the frozen accepted name, without certifying every historical specimen’s identity. The source does not document a dated, reproducible database-query protocol sufficient to treat a missing association as a systematic negative finding.
+

@@ -18,7 +18,7 @@ export function readingGroup(topic = '', text = '') {
 export function orderReadingSections(sections) {
   return sections.map((section, index) => ({ section, index, group: section.group ?? readingGroup(section.topic ?? `${section.id} ${section.title?.en ?? ''}`, section.text.en ?? section.text.zh ?? '') }))
     .sort((a, b) => readingGroupOrder.indexOf(a.group) - readingGroupOrder.indexOf(b.group) || a.index - b.index)
-    .map(({ section, group }) => ({ ...section, group }))
+    .map(({ section, group }) => ({ ...section, group, sourceIds: section.sourceIds ?? [] }))
 }
 
 export function paragraphParts(text) {
@@ -49,14 +49,19 @@ export function readingSectionTitle(section, language) {
 }
 
 export function catalogueReadingSections(profile, dossier) {
-  const sections = (profile?.sections ?? []).map((section, index) => ({
-    ...section, id: `account-${index}`, sourceIds: section.sourceIds.map(id => `account:${id}`),
+  const accountSections = [...(profile?.readingIntroduction ? [profile.readingIntroduction] : []), ...(profile?.sections ?? [])]
+  const sections = accountSections.map((section, index) => ({
+    ...section, id: `account-${index}`, sourceIds: (section.sourceIds ?? []).map(id => `account:${id}`),
   }))
-  for (const [topic, facet] of Object.entries(dossier?.facets ?? {})) {
+  if (dossier?.readerSections?.length) {
+    for (const section of dossier.readerSections) sections.push({
+      ...section, sourceIds: (section.sourceIds ?? []).map(id => `study:${id}`),
+    })
+  } else for (const [topic, facet] of Object.entries(dossier?.facets ?? {})) {
     for (const [index, claim] of (facet.claims ?? []).entries()) {
       sections.push({
         id: `study-${topic}-${index}`, topic,
-        text: { en: claim.text, ...(claim.translationStatus !== 'untranslated' && claim.textZh ? { zh: claim.textZh } : {}) },
+        text: { ...(claim.text ? { en: claim.text } : {}), ...(claim.textZh ? { zh: claim.textZh } : {}) },
         sourceIds: claim.sourceIds.map(id => `study:${id}`), locator: claim.locator,
         context: [claim.placeTimeScope, claim.lifeStatus].filter(Boolean), limitations: facet.gaps ?? [],
         originalLanguage: claim.originalLanguage ?? 'en',

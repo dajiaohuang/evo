@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-e86138893b
+      part: title
+    titleZh:
+      page: zh
+      section: s-66a7275b8b
+      part: title
+    category: morphology
+    startAge: 265.1
+    endAge: 259.5
+    regions:
+      - Beaufort Group, Karoo Basin, South Africa
+    clades:
+      - Pan-Testudines
+      - Eunotosaurus africanus
+    summary:
+      page: en
+      section: s-e86138893b
+      part: body
+    summaryZh:
+      page: zh
+      section: s-66a7275b8b
+      part: body
+    claimIds:
+      - claim:event:eunotosaurus-rib-histology-shell-model
+    evidenceItems:
+      - statement: NHM PV R 4949 preserves a sectioned dorsal rib with successive bone deposition extending from the primordial rib, and SAM K 1133 preserves a complete articulated shoulder girdle with the scapula positioned rostral to the dorsal ribs.
+        relation: supports
+        claimIds:
+          - claim:event:eunotosaurus-rib-histology-shell-model
+        referenceLinks:
+          - referenceId: lyson-2013-eunotosaurus-shell
+            relation: supports
+            pages: 1113–1119
+            figure: Figures 1–4; Supplementary Figures S1–S4
+            quoteLocator: Results; Rib histology; Discussion
+    uncertaintyItems:
+      - statement: The paper's recovery of Eunotosaurus on the turtle stem and its expanded sequence of shell-character acquisition are phylogenetic and homology models, not proof that sampled individuals were direct ancestors or that the same developmental process occurred unchanged in later turtles.
+        relation: contextualizes
+        claimIds:
+          - claim:event:eunotosaurus-rib-histology-shell-model
+        referenceLinks:
+          - referenceId: lyson-2013-eunotosaurus-shell
+            relation: supports
+            pages: 1113–1119
+            figure: Figure 4
+            quoteLocator: Summary; Discussion; Supplemental Experimental Procedures
+  claims:
+    - subjectId: event:eunotosaurus-rib-histology-shell-model
+      claimKind: scientific
+      claimType: morphology
+      statement: Eunotosaurus specimens including sectioned rib NHM PV R 4949 document broadened ribs formed by successive bone deposition, but turtle-stem placement, shell homology and functional consequences are analytical rather than direct ancestral observations.
+      confidence: medium
+      confidenceRationale: Named specimens, gross anatomy and histological sections are directly documented. Medium confidence separates preserved structures from character homology, matrix placement and reconstructed respiration or shell assembly.
+      referenceLinks:
+        - referenceId: lyson-2013-eunotosaurus-shell
+          relation: supports
+          pages: 1113–1119
+          figure: Figures 1–4; Supplementary Figures S1–S4
+          quoteLocator: pp. 1113–1119, Figs. 1–4 and Supplementary Figs. S1–S4; Results, Rib histology and Discussion
+  claim-rationales.zh:
+    - 具名标本、宏观解剖和组织切片均有直接记录；中等置信度把保存结构与性状同源性、矩阵位置及呼吸或甲壳组装重建分开。
+  claim-statements.zh:
+    - 包括切片肋骨 NHM PV R 4949 在内的 Eunotosaurus 标本记录了由连续骨沉积形成的加宽肋骨；但其龟类干群位置、甲壳同源性和功能后果属于分析解释，而不是对直系祖先的直接观察。

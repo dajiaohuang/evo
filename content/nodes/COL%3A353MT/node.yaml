@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus ocoee
+  displayName: Desmognathus ocoee
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/353MT
+  sourceIndexes:
+    - name:
+        en: Desmognathus ocoee
+        zh: Desmognathus ocoee
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 353MT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/482
+            queryName: Desmognathus ocoee
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 40
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f2d6df91f5
+      - s-6296597924
+      - s-725d1ad632
+      - s-94d7333ef7
+      - s-a48a526f96
+      - s-2785a8e61f
+      - s-af519ad09a
+      - s-d77a281697
+      - s-b76e9a48cd
+      - s-903829905f
+      - s-b8bb1ed277
+    zh:
+      - s-9b1bc6ef35
+      - s-9fd418ab24
+      - s-c67f3f851b
+      - s-a194d99dde
+      - s-16aa689fd6
+      - s-8389483f3c
+      - s-8a1b028711
+      - s-c05dffd3e8
+      - s-bd1c484a49
+      - s-08c98fbab8
+      - s-7e791e10e7

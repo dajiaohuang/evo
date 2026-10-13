@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus obtectus
+  displayName: Physalaemus obtectus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VGGD
+  sourceIndexes:
+    - name:
+        en: Physalaemus obtectus
+        zh: Physalaemus obtectus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VGGD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/340
+            queryName: Physalaemus obtectus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eceae15564
+      - s-39e437af4b
+      - s-2ca00d1185
+      - s-1d4fe8a153
+      - s-722fa58bb5
+      - s-2c045127d5
+      - s-12eecfe7b7
+      - s-25b19a837c
+      - s-0c932c5fa6
+      - s-dcf1939ddd
+      - s-31b846b5bf
+    zh:
+      - s-ee9e4b8eaa
+      - s-0157f0194b
+      - s-b107096511
+      - s-8a5557a284
+      - s-3984b8d669
+      - s-c3af04fe91
+      - s-579eda389a
+      - s-0541abec99
+      - s-bd1d85ffe8
+      - s-8fb9edfcc2
+      - s-0888fa5f83

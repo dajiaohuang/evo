@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrophrynoides immaculatus
+  displayName: Gastrophrynoides immaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FDW9
+  sourceIndexes:
+    - name:
+        en: Gastrophrynoides immaculatus
+        zh: Gastrophrynoides immaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FDW9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/9
+            queryName: Gastrophrynoides immaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-02b30080ec
+      - s-9db8b9d2d4
+      - s-8dde01561d
+      - s-7941787fae
+      - s-36419ec5fe
+      - s-e4741b54f4
+      - s-4f993356e0
+      - s-13de78da49
+    zh:
+      - s-7dc43e7be1
+      - s-770525db4f
+      - s-0d15dab446
+      - s-1b539b1bae
+      - s-55a5b6a93a
+      - s-f9cacc0c0a
+      - s-282f7bb02f
+      - s-35b7f3d182

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heleioporus psammophilus
+  displayName: Heleioporus psammophilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3K4FM
+  sourceIndexes:
+    - name:
+        en: Heleioporus psammophilus
+        zh: Heleioporus psammophilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3K4FM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/254
+            queryName: Heleioporus psammophilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/200
+            queryName: Perialia psammophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-efbba985d2
+      - s-4f36b7a651
+      - s-c40a37df5b
+      - s-b8e56e296c
+      - s-0cf82a1a57
+      - s-bc08d13b05
+      - s-bd5167399e
+      - s-d6627cfab6
+      - s-005c7c359e
+      - s-47d756c7eb
+    zh:
+      - s-13b2aff1cf
+      - s-e6512330a9
+      - s-38b0cfcca1
+      - s-4272de3591
+      - s-ec449ad565
+      - s-22f721dd96
+      - s-05ee151b99
+      - s-9dcb265171
+      - s-d49794931a
+      - s-7b83be3a50

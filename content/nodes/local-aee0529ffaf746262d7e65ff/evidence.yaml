@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Eleutherodactylus notidodes
+    name:
+      en: Eleutherodactylus notidodes
+      zh: Eleutherodactylus notidodes
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Eleutherodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Eleutherodactylus notidodes in the version 3 classification
+          zh: Eleutherodactylus notidodes 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9b78818103
+            part: body
+          zh:
+            page: zh
+            section: s-3dd8c6b44f
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 18 populated trait fields
+          zh: 1 条测量行与 18 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-77cedd4d54
+            part: body
+          zh:
+            page: zh
+            section: s-ae76ea407e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1751; Reference.csv rows 1590
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1751
+        values:
+          - Brachycephaloidea
+          - Eleutherodactylus
+          - Eleutherodactylus notidodes
+          - M
+          - "21.3"
+          - "7.8"
+          - "8"
+          - "2.7"
+          - "1.1"
+          - "0.7"
+          - "3"
+          - "1.8"
+          - "1.6"
+          - "2.3"
+          - "3.5"
+          - NA
+          - "5.6"
+          - NA
+          - NA
+          - "9.3"
+          - NA
+          - "9.7"
+          - "8.9"
+          - "6.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.8"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1590
+        values:
+          - Anura
+          - Eleutherodactylus_notidodes
+          - "Diaz, L., Incháustegui, S., Marte, C., Köhler, G., Cadiz, A., & Rodriguez Bobadilla, M. (2018). A new frog of the Eleutherodactylus abbotti species group (Anura: Eleutherodactylidae) from Hispaniola, with bioacoustic and taxonomic comments on other species. Novitates Caribaea, 12, 25-42. https://doi.org/10.33800"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

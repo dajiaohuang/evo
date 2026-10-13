@@ -1,0 +1,196 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Panophrys dongguanensis
+    name:
+      en: Panophrys dongguanensis
+      zh: Panophrys dongguanensis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Panophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-176bb0cf1d
+            part: body
+          zh:
+            page: zh
+            section: s-daa1cb5143
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a6522126b8
+            part: body
+          zh:
+            page: zh
+            section: s-93dd466456
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4004; Reference.csv rows 1043
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4004
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys dongguanensis
+          - M
+          - "36.3"
+          - "12"
+          - "12.8"
+          - "4.9"
+          - "2.5"
+          - "2.1"
+          - "3.5"
+          - "3.6"
+          - NA
+          - NA
+          - "4.2"
+          - NA
+          - "9.2"
+          - "9.2"
+          - NA
+          - NA
+          - "15.5"
+          - "22.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1043
+        values:
+          - Anura
+          - Panophrys_dongguanensis
+          - Wang, J., Lyu, Z. T., Liu, Z. Y., Liao, C. K., Zeng, Z. C., Zhao, J., . . . Wang, Y. Y. (2019). Description of six new species of the subgenus Panophrys within the genus Megophrys (Anura, Megophryidae) from southeastern China based on molecular and morphological data. Zookeys(851), 113-164. https://doi.org/10.3897/zookeys.851.29107
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - TFL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

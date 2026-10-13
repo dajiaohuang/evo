@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chapattimyidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Chapattimyidae
+      en: Chapattimyidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-191e4ef340
+            part: body
+          en:
+            page: en
+            section: s-1cead7a279
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-68440fe097
+            part: body
+          en:
+            page: en
+            section: s-d27733a0ee
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Chapattimyidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=41960
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:41960
+          readingTargets:
+            - name: Birbalomys ibrahimshahi
+              pbdbTaxonId: txn:66524
+              canonicalPath: content/nodes/PBDB%3A66524
+            - name: Birbalomys sondaari
+              pbdbTaxonId: txn:66482
+              canonicalPath: content/nodes/PBDB%3A66482
+            - name: Birbalomys woodi
+              pbdbTaxonId: txn:66480
+              canonicalPath: content/nodes/PBDB%3A66480
+            - name: Gumbatomys asifi
+              pbdbTaxonId: txn:67025
+              canonicalPath: content/nodes/PBDB%3A67025
+            - name: Subathumys globulus
+              pbdbTaxonId: txn:345395
+              canonicalPath: content/nodes/PBDB%3A345395
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3cf9bc992a
+        part: body
+      en:
+        page: en
+        section: s-ccc926620a
+        part: body

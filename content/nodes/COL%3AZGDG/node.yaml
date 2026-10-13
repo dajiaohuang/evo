@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia tinnula
+  displayName: Crinia tinnula
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZGDG
+  sourceIndexes:
+    - name:
+        en: Crinia tinnula
+        zh: Crinia tinnula
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZGDG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/216
+            queryName: Crinia tinnula
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/445
+            queryName: Ranidella tinnula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a94f1f7157
+      - s-678f807b31
+      - s-5eecd5824a
+      - s-4ec92d498c
+      - s-99113dae5e
+      - s-7b86c6ea96
+      - s-e815772367
+      - s-7bf5a961cc
+      - s-66527601d0
+      - s-b272827422
+      - s-eb6a202c68
+    zh:
+      - s-df65ab3ba7
+      - s-7256fd9f2a
+      - s-e09c84d11d
+      - s-69e4a57737
+      - s-1d6a24acb5
+      - s-4ce3c917cd
+      - s-742fd3747a
+      - s-30498a13d3
+      - s-0cb6021972
+      - s-72aef8c624
+      - s-1ed3bf66b2

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Choerophryne proboscidea
+  displayName: Choerophryne proboscidea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69YRW
+  sourceIndexes:
+    - name:
+        en: Choerophryne proboscidea
+        zh: Choerophryne proboscidea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69YRW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/352
+            queryName: Choerophryne proboscidea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-33e81903aa
+      - s-ed32099f3c
+      - s-1b8a236b3b
+      - s-e2e8d1a720
+      - s-da94213c3b
+      - s-b43c1dd1bc
+      - s-e5a3979a7d
+      - s-f1c664655f
+      - s-7c8c8bf9cc
+      - s-8c4b86fbbe
+      - s-7977c81b89
+    zh:
+      - s-7a29206b6c
+      - s-0bd062634e
+      - s-1a70247402
+      - s-c6acac561b
+      - s-8ac0ac15af
+      - s-830ef94419
+      - s-8df191c2fd
+      - s-674ef26d11
+      - s-9099edd723
+      - s-31342d8ce9
+      - s-070504839f

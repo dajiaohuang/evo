@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus alytolylax
+  displayName: Hyloscirtus alytolylax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGPK
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus alytolylax
+        zh: Hyloscirtus alytolylax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGPK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/34
+            queryName: Hyloscirtus alytolylax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/254
+            queryName: Hyla alytolylax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/405
+            queryName: Boana alytolylax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e53083fc12
+      - s-3edcacc528
+      - s-b0ee7aeb61
+      - s-5c361dd47c
+      - s-28f15b1a86
+      - s-5af829137e
+      - s-2b91bab08b
+      - s-83db52ed69
+      - s-4325f31e4c
+      - s-d81e9f987c
+      - s-c0834c8d36
+      - s-a83552e3b3
+      - s-2b2bdc5730
+      - s-52c6fe00ef
+      - s-45c1bc8e25
+      - s-ec154e9b0f
+    zh:
+      - s-6b0df4323b
+      - s-3f16c265ed
+      - s-4976368889
+      - s-c9e459b767
+      - s-c0f67a6640
+      - s-3fa9e1e472
+      - s-20b044a57d
+      - s-e4739b31e8
+      - s-d8e4b00a96
+      - s-6a8723d113
+      - s-a5e5ad6c07
+      - s-dd542ea16f
+      - s-be7508c293
+      - s-3a6998647d
+      - s-b39c858824
+      - s-de0f729f1b

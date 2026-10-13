@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anodonthyla theoi
+  displayName: Anodonthyla theoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66TW7
+  sourceIndexes:
+    - name:
+        en: Anodonthyla theoi
+        zh: Anodonthyla theoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66TW7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/499
+            queryName: Anodonthyla theoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5887ab3de9
+      - s-33d6b6fb47
+      - s-298241690e
+      - s-89851c19d7
+      - s-0965f1b6bb
+      - s-35c6b48089
+      - s-052f5d1a4b
+      - s-628b787861
+      - s-434d02c7ce
+    zh:
+      - s-459a8f3610
+      - s-476386d846
+      - s-508043854a
+      - s-37d1c33226
+      - s-40f8135759
+      - s-212db9c653
+      - s-c21f1aaad7
+      - s-ff3c19162f
+      - s-5fced7f8de

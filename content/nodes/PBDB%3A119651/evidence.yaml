@@ -1,0 +1,178 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Balochisaurus malkani
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Balochisaurus malkani
+      en: Balochisaurus malkani
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-18eabab053
+            part: body
+          en:
+            page: en
+            section: s-8d2daf399b
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a20e5bae93
+            part: body
+          en:
+            page: en
+            section: s-757d2417fe
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-214e6aa51b
+            part: body
+          en:
+            page: en
+            section: s-946d8f1235
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-992fa02fa1
+            part: body
+          en:
+            page: en
+            section: s-dd32164701
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0b6c6cfa3c
+            part: body
+          en:
+            page: en
+            section: s-3cc77670dd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Balochisaurus malkani
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=119651&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:119651; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:119651
+          selectedOccurrenceIds:
+            - occ:739992
+            - occ:740920
+            - occ:740933
+            - occ:740953
+            - occ:1559854
+            - occ:1559860
+            - occ:1559861
+            - occ:1559862
+            - occ:1559893
+            - occ:1559898
+            - occ:1559901
+            - occ:1559912
+          selectedCollectionIds:
+            - col:79427
+            - col:79428
+            - col:79665
+            - col:79669
+            - col:79664
+            - col:220140
+            - col:220141
+            - col:220142
+            - col:220153
+            - col:220155
+            - col:220158
+            - col:220163
+          sourceReferenceIds:
+            - ref:76825
+            - ref:26765
+          originalIdentificationMappings:
+            - occurrenceId: occ:740933
+              originalIdentifiedName: Balochisaurus malkani n. gen. n. sp.
+              acceptedName: Balochisaurus malkani
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-eaf957081b
+        part: body
+      en:
+        page: en
+        section: s-43f498f5ae
+        part: body

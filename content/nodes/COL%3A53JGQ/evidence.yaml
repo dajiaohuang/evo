@@ -1,0 +1,693 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Swartzia simplex (Sw.) Spreng.
+    authorship: (Sw.) Spreng.
+    rank: species
+    sourceDatasetId: "2304"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: "383"
+        scientificName: Fabales Bromhead
+        authorship: Bromhead
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 623QT
+        scientificName: Fabaceae
+        authorship: null
+        rank: family
+        status: accepted
+        sourceDatasetId: "2304"
+      - id: 9CM5R
+        scientificName: Swartzia Schreb.
+        authorship: Schreb.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2304"
+      - id: 53JGQ
+        scientificName: Swartzia simplex (Sw.) Spreng.
+        authorship: (Sw.) Spreng.
+        rank: species
+        status: accepted
+        sourceDatasetId: "2304"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 53JGQ; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/53JGQ
+          stableId: col:53JGQ@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 53JGQ; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 53JGQ. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_53jgq_distribution_5639
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Swartzia simplex (Sw.) Spreng., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Endemic to Panama.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 5639
+          archiveSourceId: 19E38F3D-C788-4BCC-9834-FD6AE51171AE
+          archiveSourceIds:
+            - 19E38F3D-C788-4BCC-9834-FD6AE51171AE
+          referenceRowNumbers:
+            - 6482
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-7c826cb3-c022-87dd-a850-8c0274271aae
+                metadataVariant: 0
+                usage:
+                  identifier: 19E38F3D-C788-4BCC-9834-FD6AE51171AE
+                  referenceRowNumber: 6482
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 5639 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 5639; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:53JGQ:row:5639
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 5639; field distribution; reference rows 6482.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 5639; CC BY 4.0. Citation metadata: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_53jgq_general_5650
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Swartzia simplex (Sw.) Spreng., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Trees 15 In. tall, upper branches glabrous, prominently lenticellate-dotted. Leaves glabrous, 1- to 5-foliolate; stipules linear, 1-5 mm. long; petiole narrowly obsagittate-winged, 0.5-3 cm. long, gross and terete near the axil, wing expanded and auriculate at insertion of petiolule(s) ; rachis, if present, similarly alate and more prominently so, wing at juncture of terminal leaflet 1.5-3 mm. wide, auricled; leaflets elliptic, abruptly acute or bluntly acuminate apically, cuneate to subobtuse basally, membranaceous or submembranaceous, prominently reticulate-veined; lateral leaflets (if present) usually about 4-8 cm. long and 2-5 cm. broad; terminal leaflet 6-20 cm. long and 3-7 cm. broad; petiolules 2 mm. or less long, terete. In- florescence 3- to 8-flowered, bracteate, axillary or (less often) terminal on upper branchlets; bracts bidentate, dentae linear-lanceolate, about 1 mm. long; peduncles 1-6 cm. long, subterete, lightly pubescent; pedicels glabrous, 0.5-1.5 cm. long; buds globose, up to 8 mm. in diameter. Flowers 1-petalate, petal yellow, cordate- suborbicular, about 23 mm. wide; calyx splitting into 3-4 irregularly ovate sec- tions up to 1 cm. long, scurfy within, glabrous without; stamens many; anthers bilocular, basally versatile, larger ones about 2 mm. long, with conspicuous dark connective; filaments glabrous, about 10 of them grosser and longer than the others, up to 2 cm. long; ovary stipitate, stipe 4-7 mm. long, up to 13-ovulate;
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 5650
+          archiveSourceId: E3955DED-92BB-4866-8CC8-37D8DD8924A6
+          archiveSourceIds:
+            - E3955DED-92BB-4866-8CC8-37D8DD8924A6
+          referenceRowNumbers:
+            - 6493
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-7c826cb3-c022-87dd-a850-8c0274271aae
+                metadataVariant: 0
+                usage:
+                  identifier: E3955DED-92BB-4866-8CC8-37D8DD8924A6
+                  referenceRowNumber: 6493
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 5650 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 5650; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:53JGQ:row:5650
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 5650; field general; reference rows 6493.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 5650; CC BY 4.0. Citation metadata: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_53jgq_habit_5651
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Swartzia simplex (Sw.) Spreng., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Trees
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 5651
+          archiveSourceId: B345DECA-CD4D-4D26-B5A5-54730D4FB142
+          archiveSourceIds:
+            - B345DECA-CD4D-4D26-B5A5-54730D4FB142
+          referenceRowNumbers:
+            - 6494
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-7c826cb3-c022-87dd-a850-8c0274271aae
+                metadataVariant: 0
+                usage:
+                  identifier: B345DECA-CD4D-4D26-B5A5-54730D4FB142
+                  referenceRowNumber: 6494
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 5651 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 5651; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:53JGQ:row:5651
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 5651; field habit; reference rows 6494.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 5651; CC BY 4.0. Citation metadata: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_53jgq_general_5652
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Swartzia simplex (Sw.) Spreng., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: style glabrous, about 6 mm. long; stigma obscurely bilobate. Legume glabrous, obliquely ovoid, caudate-beaked, apparently 2-valved, about 3.2 cm. long, 1.6-1.8 cm. broad and 1.2-1.6 cm. thick; seed 1, reniform, conspicuously arillate, about 2.5 cm. long.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 5652
+          archiveSourceId: C5F25C63-0E02-4659-A78B-4A9E2D7582E1
+          archiveSourceIds:
+            - C5F25C63-0E02-4659-A78B-4A9E2D7582E1
+          referenceRowNumbers:
+            - 6495
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-7c826cb3-c022-87dd-a850-8c0274271aae
+                metadataVariant: 0
+                usage:
+                  identifier: C5F25C63-0E02-4659-A78B-4A9E2D7582E1
+                  referenceRowNumber: 6495
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 5652 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 5652; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:53JGQ:row:5652
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 5652; field general; reference rows 6495.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 5652; CC BY 4.0. Citation metadata: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_53jgq_general_5653
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Swartzia simplex (Sw.) Spreng., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Small tree to 10 m. tall, branchlets glabrous. Leaves 1-foliolate, stipulate, glabrous; petiole 2-20 mm. long, terete (especially basally) to narrowly alate- auriculate (especially apically); leaflet usually subcoriaceous, elliptic to ovate- lanceolate, bluntly acute to acuminate apically, rounded to cuneate basally, 4-20 cm. long, 2-8 cm. broad, with chief lateral nerves subparallel but confluent mar- ginally; petiolule about 1 mm. or less long, terete. Inflorescence 2- to 6-flowered, axillary or terminal, up to 10 cm. long, with axis lightly pubescent to glabrous; pedicels 5-20 mm. long, bearing globose buds about 8 mm. in diameter. Flower yellow, 1-petalate; petal irregularly orbicular, usually about 3 cm. tall and at least as broad, claw about 5 mm. long; stamens of 2 types, 8-12 larger longer ones at least 2 cm. long, and many shorter smaller ones less than 1.5 cm. long; anthers oblong, truncate, basally versatile, larger ones about 2 mm. long, smaller ones about 1 mm. long; ovary arcuate, long-stipitate, glabrous. Legume sigmoid-ovoid to asymmetrically oblongoid, subterete, up to 6 cm. long, attenuate-beaked, usually 1-seeded; seed prominently arillate, oblong-ovoid.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 5653
+          archiveSourceId: 58F58635-622B-46DA-B659-1B0C2C2DBA14
+          archiveSourceIds:
+            - 58F58635-622B-46DA-B659-1B0C2C2DBA14
+          referenceRowNumbers:
+            - 6496
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-7c826cb3-c022-87dd-a850-8c0274271aae
+                metadataVariant: 0
+                usage:
+                  identifier: 58F58635-622B-46DA-B659-1B0C2C2DBA14
+                  referenceRowNumber: 6496
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 5653 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 5653; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:53JGQ:row:5653
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 5653; field general; reference rows 6496.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 5653; CC BY 4.0. Citation metadata: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_53jgq_distribution_5654
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Swartzia simplex (Sw.) Spreng., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Central America and West Indies.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 5654
+          archiveSourceId: 3C438AF9-BBDE-432E-B366-3A6E2B737D1F
+          archiveSourceIds:
+            - 3C438AF9-BBDE-432E-B366-3A6E2B737D1F
+          referenceRowNumbers:
+            - 6497
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-7c826cb3-c022-87dd-a850-8c0274271aae
+                metadataVariant: 0
+                usage:
+                  identifier: 3C438AF9-BBDE-432E-B366-3A6E2B737D1F
+                  referenceRowNumber: 6497
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 5654 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 5654; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:53JGQ:row:5654
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 5654; field distribution; reference rows 6497.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 5654; CC BY 4.0. Citation metadata: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Trees 15 In. tall, upper branches glabrous, prominently lenticellate-dotted. Leaves glabrous, 1- to 5-foliolate; stipules linear, 1-5 mm. long; petiole narrowly obsagittate-winged, 0.5-3 cm. long, gross and terete near the axil, wing expanded and auriculate at insertion of petiolule(s) ; rachis, if present, similarly alate and more prominently so, wing at juncture of terminal leaflet 1.5-3 mm. wide, auricled; leaflets elliptic, abruptly acute or bluntly acuminate apically, cuneate to subobtuse basally, membranaceous or submembranaceous, prominently reticulate-veined; lateral leaflets (if present) usually about 4-8 cm. long and 2-5 cm. broad; terminal leaflet 6-20 cm. long and 3-7 cm. broad; petiolules 2 mm. or less long, terete. In- florescence 3- to 8-flowered, bracteate, axillary or (less often) terminal on upper branchlets; bracts bidentate, dentae linear-lanceolate, about 1 mm. long; peduncles 1-6 cm. long, subterete, lightly pubescent; pedicels glabrous, 0.5-1.5 cm. long; buds globose, up to 8 mm. in diameter. Flowers 1-petalate, petal yellow, cordate- suborbicular, about 23 mm. wide; calyx splitting into 3-4 irregularly ovate sec- tions up to 1 cm. long, scurfy within, glabrous without; stamens many; anthers bilocular, basally versatile, larger ones about 2 mm. long, with conspicuous dark connective; filaments glabrous, about 10 of them grosser and longer than the others, up to 2 cm. long; ovary stipitate, stipe 4-7 mm. long, up to 13-ovulate;
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_53jgq_general_5650
+            locator: "Flora of Panama general field; imported row 5650; sourceIds E3955DED-92BB-4866-8CC8-37D8DD8924A6; reference rows 6493; citations: E3955DED-92BB-4866-8CC8-37D8DD8924A6: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 6493)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+          - text: style glabrous, about 6 mm. long; stigma obscurely bilobate. Legume glabrous, obliquely ovoid, caudate-beaked, apparently 2-valved, about 3.2 cm. long, 1.6-1.8 cm. broad and 1.2-1.6 cm. thick; seed 1, reniform, conspicuously arillate, about 2.5 cm. long.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_53jgq_general_5652
+            locator: "Flora of Panama general field; imported row 5652; sourceIds C5F25C63-0E02-4659-A78B-4A9E2D7582E1; reference rows 6495; citations: C5F25C63-0E02-4659-A78B-4A9E2D7582E1: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 6495)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+          - text: Small tree to 10 m. tall, branchlets glabrous. Leaves 1-foliolate, stipulate, glabrous; petiole 2-20 mm. long, terete (especially basally) to narrowly alate- auriculate (especially apically); leaflet usually subcoriaceous, elliptic to ovate- lanceolate, bluntly acute to acuminate apically, rounded to cuneate basally, 4-20 cm. long, 2-8 cm. broad, with chief lateral nerves subparallel but confluent mar- ginally; petiolule about 1 mm. or less long, terete. Inflorescence 2- to 6-flowered, axillary or terminal, up to 10 cm. long, with axis lightly pubescent to glabrous; pedicels 5-20 mm. long, bearing globose buds about 8 mm. in diameter. Flower yellow, 1-petalate; petal irregularly orbicular, usually about 3 cm. tall and at least as broad, claw about 5 mm. long; stamens of 2 types, 8-12 larger longer ones at least 2 cm. long, and many shorter smaller ones less than 1.5 cm. long; anthers oblong, truncate, basally versatile, larger ones about 2 mm. long, smaller ones about 1 mm. long; ovary arcuate, long-stipitate, glabrous. Legume sigmoid-ovoid to asymmetrically oblongoid, subterete, up to 6 cm. long, attenuate-beaked, usually 1-seeded; seed prominently arillate, oblong-ovoid.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_53jgq_general_5653
+            locator: "Flora of Panama general field; imported row 5653; sourceIds 58F58635-622B-46DA-B659-1B0C2C2DBA14; reference rows 6496; citations: 58F58635-622B-46DA-B659-1B0C2C2DBA14: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 6496)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: Endemic to Panama.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_53jgq_distribution_5639
+            locator: "Flora of Panama distribution field; imported row 5639; sourceIds 19E38F3D-C788-4BCC-9834-FD6AE51171AE; reference rows 6482; citations: 19E38F3D-C788-4BCC-9834-FD6AE51171AE: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 6482)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+          - text: Central America and West Indies.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_53jgq_distribution_5654
+            locator: "Flora of Panama distribution field; imported row 5654; sourceIds 3C438AF9-BBDE-432E-B366-3A6E2B737D1F; reference rows 6497; citations: 3C438AF9-BBDE-432E-B366-3A6E2B737D1F: Swartzia simplex Spreng., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 6497)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+    readerSections:
+      - id: page-42f271dc8a
+        title:
+          en:
+            page: en
+            section: s-9b71e0ccf1
+            part: title
+          zh:
+            page: zh
+            section: s-861fcc0b54
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9b71e0ccf1
+            part: body
+          zh:
+            page: zh
+            section: s-861fcc0b54
+            part: body
+        sourceIds:
+          - flora_panama_53jgq_general_5650
+          - flora_panama_53jgq_general_5653

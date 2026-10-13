@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes nitidus
+  displayName: Limnonectes nitidus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QCZW
+  sourceIndexes:
+    - name:
+        en: Limnonectes nitidus
+        zh: Limnonectes nitidus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QCZW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/117
+            queryName: Limnonectes nitidus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/491
+            queryName: Rana nitida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ed0d98bf3e
+      - s-5e66c4389d
+      - s-30f5a03a18
+      - s-98875504f5
+      - s-be2ca40c0c
+      - s-1510a739c7
+      - s-26d631aea1
+      - s-41b2ab2b84
+    zh:
+      - s-ffd15da584
+      - s-b676fa69c4
+      - s-80800a0c8f
+      - s-ce6505f05d
+      - s-60133c20cf
+      - s-82d2461137
+      - s-ca588d9d45
+      - s-2f346a6625

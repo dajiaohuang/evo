@@ -1,0 +1,210 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chelus fimbriata
+    rank: species
+    sourceDatasetId: "1008"
+    name:
+      zh: Chelus fimbriata
+      en: Chelus fimbriata
+    sections:
+      - text:
+          zh:
+            page: zh
+            section: s-9be4a70071
+            part: body
+          en:
+            page: en
+            section: s-47de488d0d
+            part: body
+        sourceIds:
+          - taxonomy
+        topic: overview
+      - text:
+          zh:
+            page: zh
+            section: s-6e6b10d90d
+            part: body
+          en:
+            page: en
+            section: s-b287fb01a5
+            part: body
+        sourceIds:
+          - chelusNeuroanatomy
+        topic: morphology
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-800f76ff01
+            part: body
+          en:
+            page: en
+            section: s-b3e96b0c4e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-a0da4d1fdd
+            part: body
+          en:
+            page: en
+            section: s-67e9e13e58
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-d5c555ee84
+            part: body
+          en:
+            page: en
+            section: s-6c57c985f3
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-527fe6f33c
+            part: body
+          en:
+            page: en
+            section: s-b125dd83dd
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-30058cde81
+            part: body
+          en:
+            page: en
+            section: s-66d036b7bd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chelus fimbriata
+          url: https://www.checklistbank.org/dataset/316115/taxon/87WF9
+          locator: Accepted COL26.8 species usage and parent classification.
+          scope:
+            zh: 固定 COL26.8 接受名称、阶元与父级分类；不推断现生状态或后代覆盖完整性。
+            en: Pinned COL26.8 accepted name, rank and parent classification; no inference about living status or complete descendant coverage.
+      - id: chelusNeuroanatomy
+        referenceId: ref-12a1495c-e3a3-4bd2-b122-6f1a95a588f6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - publishedAt
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - licenseAssessment
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods and section 3.2.2; specimen MNHN.ZA.AC A9940 and comparative cranial neuroanatomical description.
+          licenseAssessment: paraphrase-only
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅支持单一头骨标本的 CT 重建和比较解剖描述，不推断物种内变异。
+            en: Supports CT reconstruction and comparative anatomical description of one skull specimen only; no inference about intraspecific variation.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceClassification
+          - sourceCitationByField
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits dataset v1-2.xlsx; Data row 2521; Species=Chelus fimbriata; Sources of individual trait val for the same species; Trait definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 45408133
+          sourceFileMd5: a00be695740e752db2654537bbb0814c
+          sourceFileSha256: 74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a
+          sourceClassification: Reptile Database 2023 as recorded in workbook
+          sourceCitationByField:
+            Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm): Bartlett 2007
+            Microhabitat: Stark et al. 2018
+            Diet: Cogger and Zweifel 1992
+            Active time: Stark et al. 2018
+            Foraging mode: Cogger and Zweifel 1992
+            Reproductive mode: Zimin et al. 2022
+            Sex-determining mechanism (GSD or TSD): Nemesházi & Bókony 2023
+            Mean number of offspring per litter or number of eggs per clutch: Bartlett 2007
+            Smallest clutch size: Bartlett 2007
+            Largest clutch size: Bartlett 2007
+          scope:
+            zh: 尺寸、活动、取食与繁殖的已引性状资料；不外推体重、幼体长度、毒性、保护或当前分布。
+            en: Cited size, activity, feeding and reproductive traits; no mass, juvenile-length, venom, conservation or current-range inference.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+    limitations:
+      zh:
+        page: zh
+        section: s-389f60d968
+        part: body
+      en:
+        page: en
+        section: s-0eb443dda7
+        part: body

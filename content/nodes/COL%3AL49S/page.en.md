@@ -1,0 +1,6 @@
+## Leaves and growth form in the first excerpt {#s-f475cae562}
+The Flora of Panama profile labels the plant introduced and ornamental, and describes it as an unarmed shrub. Young branchlets range from hairless to lightly hairy. Leaves are broadly round, with a base ranging from heart-shaped to flat-cut and usually nine prominent veins. The lower surface is hairless to lightly hairy. Blades reach 13 cm long and 16 cm wide, are shallowly cleft at the tip, and have blunt, rounded lobes. The angled petiole is thickened at both ends and reaches 4 cm. Inflorescences are terminal or near the branch tip. This excerpt ends during its inflorescence description.
+
+## Flowers and fruit in a second excerpt {#s-18942dcd97}
+A second Flora of Panama excerpt describes inflorescences as bearing several to many flowers. Flowers are 3–4 cm long. The calyx is only weakly spathe-like; its tube reaches 1 cm and its expanded limb 2.5 cm. Petals have a narrow stalk and a spoon-shaped, inverted-egg outline, about 3.5 cm long. Three fertile stamens are hairless; the linear-oblong anthers pivot at their attachment and measure 7 mm in bud. The ovary is densely hairy and borne on a long stalk, with a flat-ended stigma. The smooth, linear legume reaches about 30 cm. These details retain the limits of the historical regional source.
+

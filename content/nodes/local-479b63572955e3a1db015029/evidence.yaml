@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Anodonthyla hutchisoni
+    name:
+      en: Anodonthyla hutchisoni
+      zh: Anodonthyla hutchisoni
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Anodonthyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ced934053b
+            part: body
+          zh:
+            page: zh
+            section: s-4bf3835677
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-dc01b5a259
+            part: body
+          zh:
+            page: zh
+            section: s-a13c68b63b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 352, 353; Reference.csv rows 22
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 352
+        values:
+          - Microhylidae
+          - Anodonthyla
+          - Anodonthyla hutchisoni
+          - F
+          - "21.64"
+          - "7.46"
+          - "7.58"
+          - "2.74"
+          - "1.66"
+          - NA
+          - "2.48"
+          - "2.18"
+          - NA
+          - "1.92"
+          - NA
+          - "1.54"
+          - "5.8"
+          - "10.5"
+          - NA
+          - "9.22"
+          - NA
+          - "11.04"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 353
+        values:
+          - Microhylidae
+          - Anodonthyla
+          - Anodonthyla hutchisoni
+          - M
+          - "21.625"
+          - "6.9"
+          - "7.3625"
+          - "2.7125"
+          - "1.3375"
+          - NA
+          - "2.375"
+          - "2.225"
+          - NA
+          - "1.7625"
+          - NA
+          - "1.3875"
+          - "5.6375"
+          - "10.1375"
+          - NA
+          - "9.0125"
+          - NA
+          - "10.575"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 22
+        values:
+          - Anura
+          - Anodonthyla_hutchisoni
+          - "Fenolio, D. B., Walvoord, M. E., Stout, J. F., Randrianirina, J. E., & Andreone, F. (2007). A new tree hole breeding Anodonthyla (Chordata: Anura: Microhylidae: Cophylinae) from low-altitude rainforests of the Masoala Peninsula, northeastern Madagascar. Proceedings of the Biological Society of Washington, 120(1), 86-98. https://doi.org/ 10.2988/0006-324x(2007)120[86:anthba]2.0.co;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 675VY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

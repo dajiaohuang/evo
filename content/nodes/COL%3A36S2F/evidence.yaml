@@ -1,0 +1,111 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Disa oreophila Bolus
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 36S2F, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 36S2F; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/36S2F
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 36S2F
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000944491-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 36S2F / WFO wfo-0000944491
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_10448_0
+        referenceId: ref-9bbd0d67-04f8-8899-afad-f3d85c5fc840
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Disa oreophila Bolus account; SANBI/WFO archive rows 42160 (Morphology), source identifier 10448.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18510_0
+        referenceId: ref-69740521-4a63-8b50-a9f5-826fb197b81d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Disa oreophila Bolus account; SANBI/WFO archive rows 92468 (Habitat), source identifier 18510.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 100-350 mm tall; basal sheaths several, hyaline; leaves erect or falcate, conduplicate, usually reaching to above the inflorescence base, up to 200 x 1-3 mm, grading into the floral bracts. Inflorescences lax, 40-150 mm long; bracts from half as long to longer than the ovaries. Flowers white or pink with purple spots on the sepals. Median sepal erect, galea obtuse, 5-6 (-10) x 4 x c. 2 mm deep, margins not incurved; spur terete, acute, horizontal or at length gradually decurved, 5-10 (-25) mm long; lateral sepals patent, oblong, obtuse to rounded, shallowly navicular, 4-7 (-10) mm long, apiculi well-developed. Petals erect next to the stigma, narrowly oblong, oblique, trunculate to obtuse, 2.5-4 mm tall, apex curved in obscuring the spur entrance, with a large basal anticous lobe partially obscuring the stigma. Lip oblanceolate, 4-6 (-8) mm long. Anther semi-pendent to horizontal; stigma on a c. 1 mm long pedicel, margins incurved over receptive surface; lateral rostellum lobes square, central lobe much smaller.
+            textZh: Disa oreophila Bolus 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_10448_0
+            locator: "SANBI/WFO archive Morphology row 42160; source identifier 10448.0; cited publication: Kurzweil, H; Linder, HP. 1999. Orchids of Southern Africa. A.A. Balkema, Rotterdam. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Steep rocky slopes and rock ledges on sandstone or basalt. Drakensberg Grassland, Sub-Escarpment Grassland.
+            textZh: 该 SANBI 区域物种条目记录的生境：Steep rocky slopes and rock ledges on sandstone or basalt. Drakensberg Grassland, Sub-Escarpment Grassland.
+            sourceIds:
+              - sanbi_18510_0
+            locator: "SANBI/WFO archive Habitat row 92468; source identifier 18510.0; cited publication: Bredenkamp, CL; Bredenkamp, GJ; Archer, C; Meyer, NL. 2019. Orchidaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1890 - 1958. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

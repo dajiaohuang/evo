@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sigalegalephrynus Smart, Sarker, Arifin, Harvey, Sidik, Hamidy, Kurniawan & Smith, 2017
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Sigalegalephrynus
+      zh: Sigalegalephrynus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e80dae9acb
+            part: title
+          zh:
+            page: zh
+            section: s-d14d451741
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e80dae9acb
+            part: body
+          zh:
+            page: zh
+            section: s-d14d451741
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ad36fd0209
+            part: title
+          zh:
+            page: zh
+            section: s-3fad961f79
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ad36fd0209
+            part: body
+          zh:
+            page: zh
+            section: s-3fad961f79
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-42ddf3e575
+            part: title
+          zh:
+            page: zh
+            section: s-4bd4ad9895
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: SVPB7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASVPB7
+            label:
+              en: Sigalegalephrynus burnitelongensis
+              zh: Sigalegalephrynus burnitelongensis
+          - kind: catalogue
+            colId: SVPBJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASVPBJ
+            label:
+              en: Sigalegalephrynus gayoluesensis
+              zh: Sigalegalephrynus gayoluesensis
+          - kind: catalogue
+            colId: SVPBS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASVPBS
+            label:
+              en: Sigalegalephrynus harveyi
+              zh: Sigalegalephrynus harveyi
+          - kind: catalogue
+            colId: 6YMPZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6YMPZ
+            label:
+              en: Sigalegalephrynus mandailinguensis
+              zh: Sigalegalephrynus mandailinguensis
+          - kind: catalogue
+            colId: 4X9ZV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4X9ZV
+            label:
+              en: Sigalegalephrynus minangkabauensis
+              zh: Sigalegalephrynus minangkabauensis
+        text:
+          en:
+            page: en
+            section: s-42ddf3e575
+            part: body
+          zh:
+            page: zh
+            section: s-4bd4ad9895
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Sigalegalephrynus
+          url: https://www.checklistbank.org/dataset/316115/taxon/7GQW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b9c88cd882
+        part: body
+      zh:
+        page: zh
+        section: s-dd0b6e16e4
+        part: body

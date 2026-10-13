@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus cheesmanae
+  displayName: Cophixalus cheesmanae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43R
+  sourceIndexes:
+    - name:
+        en: Cophixalus cheesmanae
+        zh: Cophixalus cheesmanae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/437
+            queryName: Cophixalus cheesmanae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ae558eda04
+      - s-63de0cb152
+      - s-4561fef6d6
+      - s-02480192de
+      - s-f18b14fdf8
+      - s-b0643481fa
+      - s-2c82b16d82
+      - s-f0bfc1643d
+      - s-d3b4ed9136
+      - s-175f961a7a
+    zh:
+      - s-b273714fde
+      - s-cc73409343
+      - s-ab93ec2135
+      - s-8788dbfb5f
+      - s-347cb34f27
+      - s-0cea125756
+      - s-a319bc8a0b
+      - s-791b1ed0ec
+      - s-29d887e11d
+      - s-f2723da854

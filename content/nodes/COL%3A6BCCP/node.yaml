@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor bransfordii
+  displayName: Craugastor bransfordii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCCP
+  sourceIndexes:
+    - name:
+        en: Craugastor bransfordii
+        zh: Craugastor bransfordii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCCP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/95
+            queryName: Craugastor bransfordii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/41
+            queryName: Eleutherodactylus bransfordii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/63
+            queryName: Eleutherodactylus costaricensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/166
+            queryName: Eleutherodactylus polyptychus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/66
+            queryName: Craugastor polyptychus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/241
+            queryName: Lithodytes bransfordii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/242
+            queryName: Hylodes bransfordii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/243
+            queryName: Microbatrachylus bransfordii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/245
+            queryName: Microbatrachylus costaricensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/221
+            queryName: Hylodes polyptychus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/222
+            queryName: Microbatrachylus polyptychus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ae1f0306b9
+      - s-fafd56419d
+      - s-fa008dcaa3
+      - s-ec6a97019b
+      - s-0ac750955b
+      - s-6e9d8c087f
+      - s-9045e49ecd
+      - s-cdbec8377f
+      - s-ff68336a39
+      - s-3787f99c53
+    zh:
+      - s-f8fce89b1f
+      - s-6b7d3c0f0d
+      - s-0dc7673b14
+      - s-6cff579e2e
+      - s-b53752525e
+      - s-1499da0bfb
+      - s-5e3cba206c
+      - s-8d1b042be7
+      - s-d87f58aa7b
+      - s-b656a10429

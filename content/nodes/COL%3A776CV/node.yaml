@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Petropedetes cameronensis
+  displayName: Petropedetes cameronensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/776CV
+  sourceIndexes:
+    - name:
+        en: Petropedetes cameronensis
+        zh: Petropedetes cameronensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 776CV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/6
+            queryName: Petropedetes cameronensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/339
+            queryName: Platymantis cameronensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/340
+            queryName: Hylambates cameronensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/341
+            queryName: Petropedetes obscurus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a8a78c4d73
+      - s-ac19582c17
+      - s-ae18757ad2
+      - s-d7edb0f10a
+      - s-8bb491ab10
+      - s-43c3318265
+      - s-81f2cfd3ee
+      - s-1fbdf0e7a1
+      - s-622f66e24b
+      - s-c4a352e651
+      - s-583b6109be
+      - s-f74cbef93d
+    zh:
+      - s-1e2ccd9db1
+      - s-af0c45eb35
+      - s-bfbda25e47
+      - s-75191674e4
+      - s-2da00c832d
+      - s-b08c7d332c
+      - s-47a085c41c
+      - s-4352469356
+      - s-7453b5a90d
+      - s-09f84f28f8
+      - s-1b31dc2cb2
+      - s-189b0502a3

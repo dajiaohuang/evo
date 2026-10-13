@@ -1,0 +1,570 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trachycephalus dibernardoi Kwet & Solé, 2008
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Trachycephalus dibernardoi
+      zh: Trachycephalus dibernardoi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1a55d98ebd
+            part: title
+          zh:
+            page: zh
+            section: s-5acc889c1b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1a55d98ebd
+            part: body
+          zh:
+            page: zh
+            section: s-5acc889c1b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4a8063c7c8
+            part: title
+          zh:
+            page: zh
+            section: s-c55e475b3e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4a8063c7c8
+            part: body
+          zh:
+            page: zh
+            section: s-c55e475b3e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a5dbf3617e
+            part: title
+          zh:
+            page: zh
+            section: s-0416e4b72f
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-a5dbf3617e
+            part: body
+          zh:
+            page: zh
+            section: s-0416e4b72f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-353e4b211a
+            part: title
+          zh:
+            page: zh
+            section: s-838ecc016d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-353e4b211a
+            part: body
+          zh:
+            page: zh
+            section: s-838ecc016d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fa9ff7f1ce
+            part: title
+          zh:
+            page: zh
+            section: s-84017e9e6d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-fa9ff7f1ce
+            part: body
+          zh:
+            page: zh
+            section: s-84017e9e6d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fc5c0e57cf
+            part: title
+          zh:
+            page: zh
+            section: s-aac2a54797
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-fc5c0e57cf
+            part: body
+          zh:
+            page: zh
+            section: s-aac2a54797
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4012096866
+            part: title
+          zh:
+            page: zh
+            section: s-671bc00559
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-4012096866
+            part: body
+          zh:
+            page: zh
+            section: s-671bc00559
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-bbcd580ff26b78d6b1a76f7d882b8350
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-198c6cae7855f4ee05b612f6
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-0d20abb597678faa4a599704
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-873620ccca
+            part: title
+          zh:
+            page: zh
+            section: s-6261ec6f79
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-873620ccca
+            part: body
+          zh:
+            page: zh
+            section: s-6261ec6f79
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-34b98cf4f5
+            part: title
+          zh:
+            page: zh
+            section: s-a562adb433
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-34b98cf4f5
+            part: body
+          zh:
+            page: zh
+            section: s-a562adb433
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-986993f9c8
+            part: title
+          zh:
+            page: zh
+            section: s-165725b32b
+            part: title
+        sourceIds:
+          - primary-pmc10688756-57pvk
+        text:
+          en:
+            page: en
+            section: s-986993f9c8
+            part: body
+          zh:
+            page: zh
+            section: s-165725b32b
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-16a84e4401
+            part: title
+          zh:
+            page: zh
+            section: s-8ebf995ddc
+            part: title
+        sourceIds:
+          - primary-pmc10688756-57pvk
+        text:
+          en:
+            page: en
+            section: s-16a84e4401
+            part: body
+          zh:
+            page: zh
+            section: s-8ebf995ddc
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9a06960484
+            part: title
+          zh:
+            page: zh
+            section: s-4b2be60134
+            part: title
+        sourceIds:
+          - primary-pmc10688756-57pvk
+        text:
+          en:
+            page: en
+            section: s-9a06960484
+            part: body
+          zh:
+            page: zh
+            section: s-4b2be60134
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Trachycephalus dibernardoi
+          url: https://www.checklistbank.org/dataset/316115/taxon/57PVK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2745; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2745 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2579, 2580, 2581, 2582; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5941, 5942; Reference.csv rows 3202
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10688756-57pvk
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Trachycephalus dibernardoi: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1432b1e083
+        part: body
+      zh:
+        page: zh
+        section: s-719d12522b
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-bbcd580ff26b78d6b1a76f7d882b8350
+      sourceRowId: Anf2745
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf2745
+        bibliographyRowId: Anf2745
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Trachycephalus dibernardoi
+        candidateBibliographyRowIds:
+          - Anf2745
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-198c6cae7855f4ee05b612f6
+        scientificName: Trachycephalus dibernardoi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-0d20abb597678faa4a599704
+        scientificName: Trachycephalus dibernardoi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-57pvk
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Trachycephalus_dibernardoi, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Trachycephalus dibernardoi: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-57pvk
+            locator: PMC10688756 S3 File Traits row 457 Trachycephalus_dibernardoi; XML Functional diversity; upstream reference numbers 1, 2, 3, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f25ce73dc0
+                part: body
+              zh:
+                page: zh
+                section: s-c8a76c0dfd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-57pvk
+            locator: PMC10688756 S3 File Traits row 457 Trachycephalus_dibernardoi habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a8beabb384
+                part: body
+              zh:
+                page: zh
+                section: s-e268e6e058
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-57pvk
+            locator: PMC10688756 S3 File Traits row 457 Trachycephalus_dibernardoi length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-67125aa0aa
+                part: body
+              zh:
+                page: zh
+                section: s-fd09590732
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,26 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Meliarchus sclateri (G. R. Gray, 1870)
+  displayName: Meliarchus sclateri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QWXZ
+  sourceIndexes:
+    - scientificName: Meliarchus sclateri
+      sourceIdentity: COL:6QWXZ
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators:
+        - path: data/sources/amniota-collection-stage-2026-10-03-historical-candidates.json.gz
+          recordIndex: 562
+          matchStatus: historical-name-candidate-not-concept-equivalence
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gegeneophis primus Kotharambath, Gower, Oommen & Wilkinson, 2012
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Gegeneophis primus
+      zh: Gegeneophis primus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0b5909b89c
+            part: title
+          zh:
+            page: zh
+            section: s-24c45789c5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0b5909b89c
+            part: body
+          zh:
+            page: zh
+            section: s-24c45789c5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6d15332f76
+            part: title
+          zh:
+            page: zh
+            section: s-2f80ffe11f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6d15332f76
+            part: body
+          zh:
+            page: zh
+            section: s-2f80ffe11f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e92b63321a
+            part: title
+          zh:
+            page: zh
+            section: s-314bc6404d
+            part: title
+        sourceIds:
+          - caeciliantraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e92b63321a
+            part: body
+          zh:
+            page: zh
+            section: s-314bc6404d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-de31dbaae96da44e106d7b2f
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3db7b68cf2
+            part: title
+          zh:
+            page: zh
+            section: s-6461be351b
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-3db7b68cf2
+            part: body
+          zh:
+            page: zh
+            section: s-6461be351b
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d448f50a97
+            part: title
+          zh:
+            page: zh
+            section: s-87d00d68ff
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-d448f50a97
+            part: body
+          zh:
+            page: zh
+            section: s-87d00d68ff
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d6d76eab73
+            part: title
+          zh:
+            page: zh
+            section: s-cd9d02c1fe
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-d6d76eab73
+            part: body
+          zh:
+            page: zh
+            section: s-cd9d02c1fe
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en:
+            page: en
+            section: s-0994de0290
+            part: title
+          zh:
+            page: zh
+            section: s-86191935d1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0994de0290
+            part: body
+          zh:
+            page: zh
+            section: s-86191935d1
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gegeneophis primus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FGJS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 78; Individual level data rows 841, 842, 843, 844, 845, 846, 847, 848; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4e90e3f6fc
+        part: body
+      zh:
+        page: zh
+        section: s-588d7f84a4
+        part: body
+    additionalTraitSources:
+      - kind: caecilian-traits-reader
+        path: content/nodes/local-de31dbaae96da44e106d7b2f
+        scientificName: Gegeneophis primus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 4

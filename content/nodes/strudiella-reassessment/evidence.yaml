@@ -1,0 +1,73 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-440e9d690c
+      part: title
+    titleZh:
+      page: zh
+      section: s-5db7db8a4a
+      part: title
+    category: classification
+    startAge: 365
+    endAge: 365
+    regions:
+      - Strud locality, Belgium
+    clades:
+      - Strudiella devonica
+      - Arthropoda
+    summary:
+      page: en
+      section: s-440e9d690c
+      part: body
+    summaryZh:
+      page: zh
+      section: s-5db7db8a4a
+      part: body
+    claimIds:
+      - claim:event:strudiella-reassessment
+    evidenceItems:
+      - statement: Garrouste et al. named and interpreted the nearly complete Strud specimen as Strudiella devonica, a terrestrial Late Devonian insect.
+        relation: supports
+        claimIds:
+          - claim:event:strudiella-reassessment
+        referenceLinks:
+          - referenceId: garrouste-2012-strudiella
+            relation: supports
+            pages: 82–85
+            figure: Figures 1–4
+            quoteLocator: Original diagnosis and terrestrial interpretation
+    uncertaintyItems:
+      - statement: Hörnschemeyer et al. rejected the insect identification after re-investigation; the atlas preserves this disagreement rather than using Strudiella as a secure insect calibration.
+        relation: contextualizes
+        claimIds:
+          - claim:event:strudiella-reassessment
+        referenceLinks:
+          - referenceId: hornschemeyer-2013-strudiella
+            relation: supports
+            pages: E3–E4
+            figure: Figure 1
+            quoteLocator: Re-investigation and conclusion that Strudiella is not an insect
+  claims:
+    - subjectId: event:strudiella-reassessment
+      claimType: taxonomy
+      claimKind: scientific
+      statement: The Strudiella case records a published insect diagnosis followed by a primary re-investigation that rejects the insect interpretation, making the specimen a useful example of contested Devonian arthropod evidence.
+      confidence: high
+      confidenceRationale: Both papers explicitly state their opposing interpretations of the same named specimen; the event describes the literature sequence and does not adjudicate an unobserved definitive placement.
+      referenceLinks:
+        - referenceId: garrouste-2012-strudiella
+          relation: supports
+          pages: 82–85
+          figure: Figure 4
+          quoteLocator: Original insect diagnosis and phylogenetic interpretation
+        - referenceId: hornschemeyer-2013-strudiella
+          relation: supports
+          pages: E3–E4
+          figure: Figure 1
+          quoteLocator: Re-investigation rejecting insect identification
+  claim-rationales.zh:
+    - 两篇论文明确记录同一标本的相反分类解释；事件只描述文献序列，不把未解决的归属裁定为确定事实。
+  claim-statements.zh:
+    - Strudiella 案例记录了已发表的昆虫诊断及随后否定该解释的一手再研究，使该标本成为有争议泥盆世节肢动物证据的示例。

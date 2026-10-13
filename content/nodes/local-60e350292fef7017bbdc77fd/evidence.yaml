@@ -1,0 +1,196 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cophixalus tenuidactylus
+    name:
+      en: Cophixalus tenuidactylus
+      zh: Cophixalus tenuidactylus
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Cophixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Cophixalus tenuidactylus in the version 3 classification
+          zh: Cophixalus tenuidactylus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-93313e109f
+            part: body
+          zh:
+            page: zh
+            section: s-2d9bd72a50
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 12 populated trait fields
+          zh: 1 条测量行与 12 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b49eac65ac
+            part: body
+          zh:
+            page: zh
+            section: s-479ae85c40
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1258; Reference.csv rows 328
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1258
+        values:
+          - Microhylidae
+          - Cophixalus
+          - Cophixalus tenuidactylus
+          - NA
+          - "19.3125"
+          - "6"
+          - "7.6125"
+          - "2.18125"
+          - "0.9375"
+          - NA
+          - NA
+          - "1.89375"
+          - NA
+          - "1.43125"
+          - "2.2875"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.571428571"
+          - NA
+          - "4.5875"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.44375"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.49375"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 328
+        values:
+          - Anura
+          - Cophixalus_tenuidactylus
+          - Gunther, R., & Richards, S. J. (2011). Five new microhylid frog species from Enga Province, Papua New Guinea, and remarks on Albericus alpestris (Anura, Microhylidae). Vertebrate Zoology, 61(3), 343-372.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - SL
+      - TL
+      - TSL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - Y45D
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

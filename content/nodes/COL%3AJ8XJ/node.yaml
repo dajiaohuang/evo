@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus balios
+  displayName: Atelopus balios
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8XJ
+  sourceIndexes:
+    - name:
+        en: Atelopus balios
+        zh: Atelopus balios
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8XJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/231
+            queryName: Atelopus balios
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1c279a8ac4
+      - s-47ee4f0103
+      - s-638277b760
+      - s-61924fff19
+      - s-c4f5f6c1c4
+      - s-05f3a0310a
+      - s-ce7f80b167
+      - s-5de25b2b22
+      - s-041a9f6641
+      - s-7864fb3a3b
+      - s-7ea769efde
+      - s-c717b519ff
+    zh:
+      - s-359d26871e
+      - s-501b81e270
+      - s-a58e16cfa7
+      - s-83cd8bf7ad
+      - s-25984ff723
+      - s-315e8cacdd
+      - s-d65c98d830
+      - s-06469f44d6
+      - s-fd7ea6416f
+      - s-57a9e7627e
+      - s-a50c54d0ab
+      - s-1dd7537325

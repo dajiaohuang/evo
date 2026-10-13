@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-4205bcbc16
+      part: title
+    titleZh:
+      page: zh
+      section: s-6f92d0936e
+      part: title
+    category: innovation
+    startAge: 508
+    endAge: 508
+    regions:
+      - Burgess Shale, British Columbia, Canada
+    clades:
+      - Pancrustacea
+      - Waptia fieldensis
+    summary:
+      page: en
+      section: s-4205bcbc16
+      part: body
+    summaryZh:
+      page: zh
+      section: s-6f92d0936e
+      part: body
+    claimIds:
+      - claim:event:waptia-mandibulate-series
+    evidenceItems:
+      - statement: ROMIP 56432 figures mandibles and maxillules, while ROMIP 64294 exposes disarticulated opposing mandibles within the larger specimen series.
+        relation: supports
+        claimIds:
+          - claim:event:waptia-mandibulate-series
+        referenceLinks:
+          - referenceId: vannier-2018-waptia
+            relation: supports
+            pages: 1–34
+            figure: Figures 8–10
+            quoteLocator: Mandibles and maxillules
+    uncertaintyItems:
+      - statement: Pancrustacean placement and active swimming predation are topology and functional interpretations, not stomach contents, observed behaviour or a direct ancestor claim.
+        relation: contextualizes
+        claimIds:
+          - claim:event:waptia-mandibulate-series
+        referenceLinks:
+          - referenceId: vannier-2018-waptia
+            relation: supports
+            pages: 1–34
+            figure: Figures 23–24
+            quoteLocator: Phylogenetic position; Palaeoecology
+  claims:
+    - subjectId: event:waptia-mandibulate-series
+      claimKind: scientific
+      claimType: morphology
+      statement: A series of more than 1,800 Waptia fieldensis specimens, including mandible-bearing ROMIP 56432 and disarticulated ROMIP 64294, documents a bivalved mandibulate body plan; pancrustacean placement and swimming-predator ecology remain topology and functional interpretations.
+      confidence: high
+      confidenceRationale: The specimen series and figured mouthparts are direct observations, while placement and ecology are explicitly labelled as interpretations.
+      referenceLinks:
+        - referenceId: vannier-2018-waptia
+          relation: supports
+          pages: 1–34
+          figure: Figures 2, 8–10, 23–24
+          quoteLocator: Material; Mandibles; Phylogenetic position; Palaeoecology
+  claim-rationales.zh:
+    - 超过 1,800 件标本及具名口器材料可直接复核；泛甲壳动物位置和捕食游泳生态仍是拓扑与功能解释。
+  claim-statements.zh:
+    - 超过 1,800 件 Waptia fieldensis 标本（包括具大颚的 ROMIP 56432 和离散标本 ROMIP 64294）记录了双瓣壳有颚类体制；其泛甲壳类位置和游泳捕食者生态仍是拓扑与功能解释。

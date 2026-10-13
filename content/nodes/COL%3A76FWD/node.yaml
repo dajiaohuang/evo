@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Peltophryne dunni
+  displayName: Peltophryne dunni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76FWD
+  sourceIndexes:
+    - name:
+        en: Peltophryne dunni
+        zh: Peltophryne dunni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76FWD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/487
+            queryName: Peltophryne dunni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/289
+            queryName: Bufo dunni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/59
+            queryName: Bufo longinasus dunni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b4b950a98b
+      - s-82512cb28c
+      - s-dae4f4d74f
+      - s-8442dabdf6
+      - s-80eb12d918
+      - s-9b95b03312
+      - s-49f7ad24d4
+      - s-e1f2350293
+      - s-c6b51b0e2e
+    zh:
+      - s-84405b3791
+      - s-593f03bed8
+      - s-1b8b800320
+      - s-5fab95a9d9
+      - s-82a3db08f7
+      - s-9262a67461
+      - s-71141d0689
+      - s-cd9e1f6a63
+      - s-664f44ba5e

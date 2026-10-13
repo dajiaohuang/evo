@@ -1,0 +1,20 @@
+schemaVersion: 1
+identity:
+  kind: topic
+  scientificName: Otus guidlayi
+  displayName: Otus guidlayi
+  sourceIdentity:
+    authority: PBDB
+    oid: txn:230365
+    snapshot: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+  placementStatus: unresolved-navigation-topic
+  sourceIndexes:
+    - scientificName: Otus guidlayi
+      sourceIdentity: PBDB:txn:230365
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators: []
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

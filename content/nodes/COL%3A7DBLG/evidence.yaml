@@ -1,0 +1,325 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylototriton himalayanus Khatiwada, Wang, Ghimire, Vasudevan, Paudel & Jiang, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Tylototriton himalayanus
+      zh: Tylototriton himalayanus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e7964d47da
+            part: title
+          zh:
+            page: zh
+            section: s-e6cbf08652
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e7964d47da
+            part: body
+          zh:
+            page: zh
+            section: s-e6cbf08652
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ca4ee68ab3
+            part: title
+          zh:
+            page: zh
+            section: s-0b181fd5d7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ca4ee68ab3
+            part: body
+          zh:
+            page: zh
+            section: s-0b181fd5d7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6d8c15542c
+            part: title
+          zh:
+            page: zh
+            section: s-b71b94d6c7
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-6d8c15542c
+            part: body
+          zh:
+            page: zh
+            section: s-b71b94d6c7
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-2b65a363b5e50dee962b9d6d
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-07a74f86d2
+            part: title
+          zh:
+            page: zh
+            section: s-d58986a5ba
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-07a74f86d2
+            part: body
+          zh:
+            page: zh
+            section: s-d58986a5ba
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6823da5d4b
+            part: title
+          zh:
+            page: zh
+            section: s-a47d344ed1
+            part: title
+        sourceIds:
+          - primary-pmc6591163-7dblg
+        text:
+          en:
+            page: en
+            section: s-6823da5d4b
+            part: body
+          zh:
+            page: zh
+            section: s-a47d344ed1
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-39f1fffdd0
+            part: title
+          zh:
+            page: zh
+            section: s-0d0ab2160b
+            part: title
+        sourceIds:
+          - primary-pmc13084263-7dblg
+        text:
+          en:
+            page: en
+            section: s-39f1fffdd0
+            part: body
+          zh:
+            page: zh
+            section: s-0d0ab2160b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylototriton himalayanus
+          url: https://www.checklistbank.org/dataset/316115/taxon/7DBLG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 377, 378; Reference.csv rows 4085
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc6591163-7dblg
+        referenceId: ref-7f571444-c19b-4d82-a773-2fb7e5bb044d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton himalayanus: Named kachinorum taxonomy and explicitly assigned comparative paragraphs, with unresolved unit and marker conflicts; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc13084263-7dblg
+        referenceId: ref-26262c1e-b191-4163-a6f6-cafa613089f5
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton himalayanus: Explicitly assigned comparator characters and morphological-results limitations, read from indexed sections and original XML; no figures or tables reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a2d31cd770
+        part: body
+      zh:
+        page: zh
+        section: s-fabd60cd5f
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-2b65a363b5e50dee962b9d6d
+        scientificName: Tylototriton himalayanus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2019.043
+        referenceId: ref-7f571444-c19b-4d82-a773-2fb7e5bb044d
+        sourceKey: primary-pmc6591163-7dblg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6591163/article.xml
+        sourceConcept: Tylototriton himalayanus
+        evidenceRead: "Tylototriton himalayanus: Named kachinorum taxonomy and explicitly assigned comparative paragraphs, with unresolved unit and marker conflicts; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 3.0
+          licenseUrl: https://creativecommons.org/licenses/by/3.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A Nepalese comparison with prominent nodules and tail grooves
+              zh: 尼泊尔比较的显著结节及尾沟
+            referenceId: ref-7f571444-c19b-4d82-a773-2fb7e5bb044d
+            sourceKey: primary-pmc6591163-7dblg
+            locator: RESULTS > Taxonomy; reading-sections index 0, paragraphs 32
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fe1b79a44c
+                part: body
+              zh:
+                page: zh
+                section: s-7c34697889
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1276.173848
+        referenceId: ref-26262c1e-b191-4163-a6f6-cafa613089f5
+        sourceKey: primary-pmc13084263-7dblg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13084263/article.xml
+        sourceConcept: Tylototriton himalayanus
+        evidenceRead: "Tylototriton himalayanus: Explicitly assigned comparator characters and morphological-results limitations, read from indexed sections and original XML; no figures or tables reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Relative nodule size compared with a different species
+              zh: 与另一物种比较的相对结节尺寸
+            referenceId: ref-26262c1e-b191-4163-a6f6-cafa613089f5
+            sourceKey: primary-pmc13084263-7dblg
+            locator: PMC13084263 article.xml Results > Taxonomic account > Morphological comparisons, section id sec22, paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a9a77ca8d0
+                part: body
+              zh:
+                page: zh
+                section: s-bb3ddcea7f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

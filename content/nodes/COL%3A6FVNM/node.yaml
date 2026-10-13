@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epipedobates tricolor
+  displayName: Epipedobates tricolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6FVNM
+  sourceIndexes:
+    - name:
+        en: Epipedobates tricolor
+        zh: Epipedobates tricolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6FVNM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/379
+            queryName: Epipedobates tricolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 93
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/243
+            queryName: Prostherapis tricolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 68
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/244
+            queryName: Phyllobates tricolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/245
+            queryName: Dendrobates tricolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/246
+            queryName: Colostethus paradoxus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/247
+            queryName: Epipedobates bicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/248
+            queryName: Ameerega tricolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a88bbcef1e
+      - s-e1d212954a
+      - s-6a66b0fe5e
+      - s-c91309f1bc
+      - s-3f358ea1fd
+      - s-e1588af688
+      - s-e213d6b1a7
+      - s-0337824c8a
+      - s-13dd5d0920
+      - s-2eb6e4ad99
+      - s-af7e3160ca
+      - s-fa42ec2cbc
+      - s-6fe06d8a66
+      - s-7e6ce5b893
+      - s-d640d66792
+      - s-30984497d9
+    zh:
+      - s-531623b13f
+      - s-b9a5259a70
+      - s-9e8e4ef44c
+      - s-1c49c27e1b
+      - s-f92040102f
+      - s-cd137f3bc7
+      - s-36c030ef6e
+      - s-1561bcaf56
+      - s-932bf9af56
+      - s-8f6cf82f3e
+      - s-f955ba352d
+      - s-e9cab9c678
+      - s-5a605a7c30
+      - s-f5ac86e77a
+      - s-19c3c122f9
+      - s-b1d17818dc

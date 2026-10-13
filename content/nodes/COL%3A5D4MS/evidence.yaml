@@ -1,0 +1,409 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Zhangixalus schlegelii (Günther, 1858)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Zhangixalus schlegelii
+      zh: Zhangixalus schlegelii
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7f491c9dc4
+            part: title
+          zh:
+            page: zh
+            section: s-3cfd519b89
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7f491c9dc4
+            part: body
+          zh:
+            page: zh
+            section: s-3cfd519b89
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6917edb129
+            part: title
+          zh:
+            page: zh
+            section: s-10227fa222
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6917edb129
+            part: body
+          zh:
+            page: zh
+            section: s-10227fa222
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-94ec1bfbe1
+            part: title
+          zh:
+            page: zh
+            section: s-75a8e2cd50
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-94ec1bfbe1
+            part: body
+          zh:
+            page: zh
+            section: s-75a8e2cd50
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-e4f39535b305c4d09120751dc7f00480
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-7808eb33d6
+            part: title
+          zh:
+            page: zh
+            section: s-dff1d116ca
+            part: title
+        sourceIds:
+          - primary-pmc12789193-5d4ms
+        text:
+          en:
+            page: en
+            section: s-7808eb33d6
+            part: body
+          zh:
+            page: zh
+            section: s-dff1d116ca
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6daa0c88bd
+            part: title
+          zh:
+            page: zh
+            section: s-d177a99065
+            part: title
+        sourceIds:
+          - primary-pmc12789193-5d4ms
+        text:
+          en:
+            page: en
+            section: s-6daa0c88bd
+            part: body
+          zh:
+            page: zh
+            section: s-d177a99065
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9ab8984193
+            part: title
+          zh:
+            page: zh
+            section: s-213833510d
+            part: title
+        sourceIds:
+          - primary-pmc12789193-5d4ms
+        text:
+          en:
+            page: en
+            section: s-9ab8984193
+            part: body
+          zh:
+            page: zh
+            section: s-213833510d
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-13757aed61
+            part: title
+          zh:
+            page: zh
+            section: s-c3b22d8ca5
+            part: title
+        sourceIds:
+          - primary-pmc12789193-5d4ms
+        text:
+          en:
+            page: en
+            section: s-13757aed61
+            part: body
+          zh:
+            page: zh
+            section: s-c3b22d8ca5
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-46f04e2800
+            part: title
+          zh:
+            page: zh
+            section: s-84561b69c8
+            part: title
+        sourceIds:
+          - primary-pmc12789193-5d4ms
+        text:
+          en:
+            page: en
+            section: s-46f04e2800
+            part: body
+          zh:
+            page: zh
+            section: s-84561b69c8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Zhangixalus schlegelii
+          url: https://www.checklistbank.org/dataset/316115/taxon/5D4MS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5353; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5356 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12789193-5d4ms
+        referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Zhangixalus schlegelii: Selected raw XML urban paddy-call survey methods, results and discussion in Machida, Yokohama and Kawasaki; source names Dryophytes japonica and Rhacophorus schlegelii retained in evidence, mapped to pinned catalogue reader names without independent molecular concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-850023a787
+        part: body
+      zh:
+        page: zh
+        section: s-29145746ab
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1002/ece3.72845
+        referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+        sourceKey: primary-pmc12789193-5d4ms
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12789193/article.xml
+        sourceConcept: Zhangixalus schlegelii
+        evidenceRead: "Zhangixalus schlegelii: Selected raw XML urban paddy-call survey methods, results and discussion in Machida, Yokohama and Kawasaki; source names Dryophytes japonica and Rhacophorus schlegelii retained in evidence, mapped to pinned catalogue reader names without independent molecular concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: behavior
+            heading:
+              en: The source’s Rhacophorus name and detected sites retain context
+              zh: 来源 Rhacophorus 名称及检出地点保留背景
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-5d4ms
+            locator: PMC12789193 XML ece372845-sec-0003 paragraph 0; ece372845-sec-0005 paragraphs 0–2; ece372845-sec-0008 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bd1cb777a2
+                part: body
+              zh:
+                page: zh
+                section: s-f2791e5eaa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A hundred-metre forest buffer is an analysis scale
+              zh: 一百米森林缓冲区是分析尺度
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-5d4ms
+            locator: PMC12789193 XML ece372845-sec-0006 paragraph 0; ece372845-sec-0007 paragraphs 0–1; ece372845-sec-0008 paragraph 1; ece372845-sec-0009 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9d2b4a2e42
+                part: body
+              zh:
+                page: zh
+                section: s-0393a12674
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Soil channels and water are correlated habitat features
+              zh: 土沟及水属于相关生境特征
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-5d4ms
+            locator: PMC12789193 XML ece372845-sec-0007 paragraph 2; ece372845-sec-0008 paragraphs 2–3; ece372845-sec-0009 paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b265f0223a
+                part: body
+              zh:
+                page: zh
+                section: s-4b414e7737
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: reproduction
+            heading:
+              en: Soil egg placement is an attributed earlier account
+              zh: 土中产卵属于明确引述的早期条目
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-5d4ms
+            locator: PMC12789193 XML ece372845-sec-0004 paragraph 0; ece372845-sec-0009 paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-88a6b33af8
+                part: body
+              zh:
+                page: zh
+                section: s-d188650d46
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: conservation
+            heading:
+              en: Urban vulnerability is interpreted, not experimentally isolated
+              zh: 城市脆弱性属于解释，未通过实验隔离
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-5d4ms
+            locator: PMC12789193 XML ece372845-sec-0005 paragraphs 0–2; ece372845-sec-0009 paragraphs 0–1, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-46e6c85dab
+                part: body
+              zh:
+                page: zh
+                section: s-4fe62b79ce
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

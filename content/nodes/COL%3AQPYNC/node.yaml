@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctimantis brunoi
+  displayName: Nyctimantis brunoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QPYNC
+  sourceIndexes:
+    - name:
+        en: Nyctimantis brunoi
+        zh: Nyctimantis brunoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QPYNC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/372
+            queryName: Nyctimantis brunoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/486
+            queryName: Aparasphenodon brunoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/433
+            queryName: Corythomantis apicalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/434
+            queryName: Corythomantis adspersa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/435
+            queryName: Aparasphenodon apicalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/436
+            queryName: Corythomantis brunoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/437
+            queryName: Corthomantis brunoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/438
+            queryName: Aparasphenodon adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-63d3d6a5a1
+      - s-22c25e807d
+      - s-9a433cacd7
+      - s-97f17b4047
+      - s-57a8ebd001
+      - s-e58a5d5c86
+      - s-686692d4ed
+      - s-6ab4572750
+      - s-3a694f5343
+      - s-a4a2e23593
+      - s-a3f58ef71b
+    zh:
+      - s-6ec937aec2
+      - s-b7728608a7
+      - s-12a217bd98
+      - s-ede848b101
+      - s-6df8caa21f
+      - s-6606b3903c
+      - s-1f80c5a409
+      - s-72b4e10af4
+      - s-21729059ac
+      - s-291eb7bddb
+      - s-44e7cd92e7

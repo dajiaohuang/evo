@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus
+  displayName: Kurixalus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/59F9
+  sourceIndexes:
+    - name:
+        en: Kurixalus
+        zh: Kurixalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 59F9
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/485
+            queryName: Kurixalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 118
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-efae2b8f21
+      - s-9f4cf7991a
+      - s-093833e57b
+      - s-b4c4e22c5c
+      - s-840ebc0aed
+      - s-d281ea767c
+      - s-2890c381f6
+      - s-0ea58b15fd
+      - s-c30caccef5
+      - s-c815d7c7f3
+      - s-88596ae2fb
+      - s-81f9e0fd5e
+      - s-ebbfb7a3ec
+      - s-c23199153e
+    zh:
+      - s-3e5dbe03a6
+      - s-1444660408
+      - s-ad89ab6676
+      - s-d80a0996c2
+      - s-acd42e4262
+      - s-2e0042ac18
+      - s-72e3abfc2f
+      - s-8c19ff176d
+      - s-cf01287be1
+      - s-8cfd569714
+      - s-39ee5e8bac
+      - s-f30cf37126
+      - s-b8fb461c61
+      - s-0d6cbbff22

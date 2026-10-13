@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys ombrophila
+  displayName: Boulenophrys ombrophila
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9M5
+  sourceIndexes:
+    - name:
+        en: Boulenophrys ombrophila
+        zh: Boulenophrys ombrophila
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9M5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/371
+            queryName: Boulenophrys ombrophila
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/186
+            queryName: Megophrys ombrophila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/308
+            queryName: Panophrys ombrophila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-183e7092c1
+      - s-f77c77eca1
+      - s-ac201c233d
+      - s-e89bc16a22
+      - s-5e12e090c4
+      - s-73c8a8384e
+      - s-d04bee3b31
+      - s-eb8b8e779d
+      - s-a0d6bc04a8
+      - s-a4db0c6130
+      - s-5515d5d258
+      - s-660de8ba4a
+      - s-0dabaab2c5
+      - s-d835ae9a4c
+      - s-cc9d7f804d
+    zh:
+      - s-295774a95a
+      - s-6ffb1428c9
+      - s-a76539a44b
+      - s-852d573a85
+      - s-ef3ef6bb53
+      - s-b682f94a79
+      - s-253a02b5e3
+      - s-0ae91b92b4
+      - s-007e0c91e9
+      - s-1fe274c041
+      - s-4443485f8d
+      - s-f2686b9fcf
+      - s-ba49aa1ee3
+      - s-dc3042c3d3
+      - s-8b2bb6a1d7

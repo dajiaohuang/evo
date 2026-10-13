@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus dennisi
+  displayName: Eleutherodactylus dennisi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3997R
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus dennisi
+        zh: Eleutherodactylus dennisi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3997R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/189
+            queryName: Eleutherodactylus dennisi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/116
+            queryName: Syrrhophus dennisi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a12b6e7d4
+      - s-3d2c4f1463
+      - s-51c817ae87
+      - s-75b6ff7c8f
+      - s-7e6d86980e
+      - s-9ad418b09f
+      - s-c46c850508
+      - s-6eab570dc0
+      - s-59ce673230
+    zh:
+      - s-c502742b8e
+      - s-2f3542f1b5
+      - s-626155664e
+      - s-24b766e836
+      - s-8c4636d00d
+      - s-d6032f0347
+      - s-61ef6b7c3d
+      - s-bca39b71e8
+      - s-4f6c603c96

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon ranki
+  displayName: Ololygon ranki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49945
+  sourceIndexes:
+    - name:
+        en: Ololygon ranki
+        zh: Ololygon ranki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "49945"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/141
+            queryName: Ololygon ranki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/57
+            queryName: Scinax ranki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/44
+            queryName: Hyla ranki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce8fdee228
+      - s-95b2d521d5
+      - s-5eb6c05ff1
+      - s-2ff7d30f12
+      - s-e2b5acf56f
+      - s-e218ccce8b
+      - s-390abef206
+      - s-997e66ffe2
+      - s-ad32aab173
+      - s-319fe6a216
+      - s-198b5ecd63
+      - s-48b6e3ed79
+      - s-faec123cff
+      - s-542645ad0b
+    zh:
+      - s-b779936a10
+      - s-a117b2e9ce
+      - s-a2afbe2fbd
+      - s-8320441e19
+      - s-39caa94bbd
+      - s-7fa70908fb
+      - s-9aec020904
+      - s-8ecf9fd5bc
+      - s-dd139941ab
+      - s-a6e1ed5ca8
+      - s-ff924c0513
+      - s-24dde58fe9
+      - s-8deb3663bb
+      - s-189d1c9e37

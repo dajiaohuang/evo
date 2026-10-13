@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Chelotriton
+  displayName: Chelotriton
+  rank: genus
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=37396
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Chelotriton
+        zh: Chelotriton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: null
+          rank: group
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/333
+            queryName: Chelotriton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-043cc089a5
+      - s-33b7a1e096
+      - s-34f22e8324
+      - s-7c7da4bc9a
+      - s-481c3bc528
+      - s-2442f6e6ac
+      - s-0f27575bdc
+      - s-074cbfc2c6
+      - s-46bbbff390
+      - s-4df0e75dc5
+      - s-a5aba951ec
+      - s-bc6f31137c
+      - s-26b29a54ec
+    zh:
+      - s-489c806512
+      - s-6c24e71e56
+      - s-b29031df0e
+      - s-fe5a0e3c97
+      - s-adbff31be0
+      - s-df09e0fa48
+      - s-8e20e69c27
+      - s-b3a90bf670
+      - s-ef07d73aa7
+      - s-f00e0ee775
+      - s-2d2e700d06
+      - s-f7dfee00b1
+      - s-c56fb942c3

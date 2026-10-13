@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiromantis rufescens
+  displayName: Chiromantis rufescens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5XT6Z
+  sourceIndexes:
+    - name:
+        en: Chiromantis rufescens
+        zh: Chiromantis rufescens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5XT6Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/285
+            queryName: Chiromantis rufescens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/370
+            queryName: Polypedates rufescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/371
+            queryName: Chiromantis guineensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/372
+            queryName: Rhacophorus guineensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7a2f2633b4
+      - s-e092c21d67
+      - s-ed926493d0
+      - s-06bbe9e551
+      - s-462058ffc7
+      - s-1c78d86fd3
+      - s-61806bd0a9
+      - s-ff9a4863a9
+      - s-07ea5dbdc1
+      - s-a049056d2b
+      - s-854479100b
+      - s-7c75e990b2
+      - s-392c5f4b40
+      - s-6ccc2aba2f
+      - s-d99756e6be
+      - s-867769ecf9
+      - s-3a1d785bd1
+      - s-db45e9fd3d
+      - s-958e0e3e9f
+    zh:
+      - s-e4b3b5c943
+      - s-86a8f7b34c
+      - s-7afa8e7a06
+      - s-d82f440dec
+      - s-09f9b3b8df
+      - s-a107281833
+      - s-9ab0bb39f9
+      - s-3d5bfdd176
+      - s-e71aa137f0
+      - s-4fb99fd936
+      - s-c680ebd65f
+      - s-66311c8dc7
+      - s-ecf86df330
+      - s-c37c8cf891
+      - s-2c383732dc
+      - s-53ebe53fc0
+      - s-d3277171ba
+      - s-9e8aafec8b
+      - s-dd0493ced3

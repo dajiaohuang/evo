@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mannophryne speeri
+  displayName: Mannophryne speeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/736J5
+  sourceIndexes:
+    - name:
+        en: Mannophryne speeri
+        zh: Mannophryne speeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 736J5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/277
+            queryName: Mannophryne speeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-899c389157
+      - s-50e2a1c9af
+      - s-9945489ac8
+      - s-cc1abd76e7
+      - s-ddda2f4f8d
+      - s-1899a504be
+    zh:
+      - s-07204f71dc
+      - s-106c621828
+      - s-64f1aed509
+      - s-e906e6c728
+      - s-d4a118b0e4
+      - s-3315cc86bf

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus catarinensis
+  displayName: Cycloramphus catarinensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WKK
+  sourceIndexes:
+    - name:
+        en: Cycloramphus catarinensis
+        zh: Cycloramphus catarinensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WKK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/271
+            queryName: Cycloramphus catarinensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-87e88f76c1
+      - s-fe4a17313a
+      - s-1427d3cf53
+      - s-684066fa3f
+      - s-dd2fae818a
+      - s-0ed0af0b81
+      - s-90bc2ef7eb
+      - s-3431e3959b
+      - s-343575cf02
+    zh:
+      - s-1b30789824
+      - s-b2486998a9
+      - s-b77746507d
+      - s-cd14812233
+      - s-f4b68f5cfa
+      - s-48d221228d
+      - s-e9b7416d6f
+      - s-36943c20e7
+      - s-266b5bfbc4

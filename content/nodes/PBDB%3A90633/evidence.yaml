@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Squalodon bellunensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Squalodon bellunensis
+      en: Squalodon bellunensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-225948426a
+            part: body
+          en:
+            page: en
+            section: s-1cdbb41176
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8428d659f3
+            part: body
+          en:
+            page: en
+            section: s-e34c3b900a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e219f6c765
+            part: body
+          en:
+            page: en
+            section: s-dad36a1c85
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9db7bc95eb
+            part: body
+          en:
+            page: en
+            section: s-a80d1e8681
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5b9852efd
+            part: body
+          en:
+            page: en
+            section: s-63453023d7
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Squalodon bellunensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=90633&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:90633; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:90633
+          selectedOccurrenceIds:
+            - occ:481550
+            - occ:486179
+            - occ:707026
+            - occ:1126104
+            - occ:1390646
+          selectedCollectionIds:
+            - col:47623
+            - col:48656
+            - col:47187
+            - col:59850
+          sourceReferenceIds:
+            - ref:12220
+            - ref:12984
+            - ref:12900
+            - ref:64529
+          originalIdentificationMappings:
+            - occurrenceId: occ:481550
+              originalIdentifiedName: Squalodon bariensis bellunensis n. ssp.
+              acceptedName: Squalodon bellunensis
+              difference: recombined as, subspecies not entered
+            - occurrenceId: occ:707026
+              originalIdentifiedName: Squalodon bellunense
+              acceptedName: Squalodon bellunensis
+              difference: recombined as
+            - occurrenceId: occ:1126104
+              originalIdentifiedName: Squalodon bellunensis n. sp.
+              acceptedName: Squalodon bellunensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ffcad89379
+        part: body
+      en:
+        page: en
+        section: s-df32b0034f
+        part: body

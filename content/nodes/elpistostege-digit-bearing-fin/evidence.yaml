@@ -1,0 +1,135 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-4e88f60907
+      part: title
+    titleZh:
+      page: zh
+      section: s-5baed020a0
+      part: title
+    category: transition
+    startAge: 382.31
+    endAge: 372.15
+    regions:
+      - Escuminac Formation, Miguasha, Quebec, Canada
+    clades:
+      - Elpistostege watsoni
+      - Elpistostegalia
+    summary:
+      page: en
+      section: s-4e88f60907
+      part: body
+    summaryZh:
+      page: zh
+      section: s-5baed020a0
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-e1bd212c57
+            part: title
+          zh:
+            page: zh
+            section: s-50490799fb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e1bd212c57
+            part: body
+          zh:
+            page: zh
+            section: s-50490799fb
+            part: body
+        id: observed-material
+        sourceIds:
+          - cloutier-2020-elpistostege-hand
+      - title:
+          en:
+            page: en
+            section: s-52c8feacd9
+            part: title
+          zh:
+            page: zh
+            section: s-9201d104e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-52c8feacd9
+            part: body
+          zh:
+            page: zh
+            section: s-9201d104e3
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - cloutier-2020-elpistostege-hand
+    claimIds:
+      - claim:event:elpistostege-digit-bearing-fin
+    evidenceItems:
+      - statement: Specimen MHNM 06-2067 preserves a 1.57-metre articulated body and a CT-resolved pectoral-fin skeleton with branched carpals and distal digit-like rows
+        relation: supports
+        claimIds:
+          - claim:event:elpistostege-digit-bearing-fin
+        referenceLinks:
+          - relation: supports
+            referenceId: cloutier-2020-elpistostege-hand
+            pages: 549–554
+            figure: Figures 1–5; Extended Data Figures 1–2
+    uncertaintyItems:
+      - statement: Digit homology and the potential sister position to other tetrapods are analytical interpretations, and the appendage remains a fin with lepidotrichia
+        relation: contextualizes
+        claimIds:
+          - claim:event:elpistostege-digit-bearing-fin
+        referenceLinks:
+          - relation: supports
+            referenceId: cloutier-2020-elpistostege-hand
+            pages: 549–554
+            figure: Figures 3–5
+            quoteLocator: Abstract; comparative anatomy and phylogenetic analyses
+      - statement: The displayed 382.31–372.15 Ma interval is the current Frasnian stage window for the formation context, not a direct radiometric date on MHNM 06-2067
+        relation: contextualizes
+        claimIds:
+          - claim:event:elpistostege-digit-bearing-fin
+        referenceLinks:
+          - relation: supports
+            referenceId: cloutier-2020-elpistostege-hand
+            pages: 549–554
+            quoteLocator: Specimen and geological context
+    readerSources:
+      - id: cloutier-2020-elpistostege-hand
+        referenceId: cloutier-2020-elpistostege-hand
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 549–554; figure: Figures 1–5; Extended Data Figures 1–2; figure: Figures 3–5; Abstract; comparative anatomy and phylogenetic analyses; Specimen and geological context"
+  claims:
+    - subjectId: event:elpistostege-digit-bearing-fin
+      claimKind: scientific
+      claimType: morphology
+      statement: Computed tomography of articulated Elpistostege specimen MHNM 06-2067 reveals four proximodistal radial rows, branched carpals and two distal rows interpreted as digits or putative digits, while lepidotrichia show that the appendage remained a fin.
+      confidence: medium
+      confidenceRationale: A single exceptionally complete specimen and CT reconstruction directly document the internal skeleton and retained fin rays. Medium confidence preserves the interpretive status of digit homology and the analysis-dependent potential sister position of Elpistostege rather than treating either as permanent consensus.
+      referenceLinks:
+        - relation: supports
+          referenceId: cloutier-2020-elpistostege-hand
+          pages: 549–554
+          figure: Figures 1–5; Extended Data Figures 1–2
+          quoteLocator: Abstract; pectoral-fin description; comparative anatomy and phylogenetic analyses
+  claim-rationales.zh:
+    - 一件异常完整的标本和 CT 重建直接记录了鳍内骨骼及保留的鳍条。中置信度保留指同源性的解释属性，以及 Elpistostege 潜在姐妹群位置对分析方法的依赖，不把二者当成永久共识。
+  claim-statements.zh:
+    - 对关节保存的 Elpistostege 标本 MHNM 06-2067 进行 CT 扫描，显示四列近—远端辐骨、分支腕骨和两列被解释为指或候选指的远端骨列；而鳍条说明该附肢仍是鳍。

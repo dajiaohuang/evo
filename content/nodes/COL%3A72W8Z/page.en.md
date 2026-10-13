@@ -1,0 +1,13 @@
+## A historical record under Megascops ingens {#s-1579341c71}
+COL26.8 accepts Megascops ingens in Strigidae. EltonTraits 1.0 contains a historical record under the same name and family, with one usable ecology field group. That match links the records for comparison; it does not prove that the historical and current taxon concepts are identical.
+
+## Two feeding positions, each estimated at 50% {#s-1fe8e9c5ca}
+The archive marks these foraging-stratum values as species-level: 50% for feeding in trees or tall bushes from 2 m upward but below the canopy, and 50% in or just above the canopy. The percentages estimate relative use of feeding positions from literature descriptions; they are not nest locations, daily time budgets or amounts of habitat. Surface-water, understory, mid/high, canopy and aerial categories follow separate source definitions. They are not elevation ranges and cannot show flight height or habitat area.
+
+## The citation label is not another observation {#s-190fdcbdb5}
+The selected foraging group carries label Ref_5, which the bird-source table identifies as Handbook of the Birds of the World, volume 5 (1992–2011). EltonTraits keeps diet, foraging and activity citations distinct; the same Ref number in the bird and mammal tables need not identify the same source. The archived file, row, field group and reference-table labels remain available, but the cited volume was not read here. A citation label is not an additional observation.
+
+## Evidence limits {#s-bb23395739}
+This page uses only the avian foraging group flagged as species-level; it does not fill the diet or activity fields. Diet code C is withheld because of uncertainty or interpolation, unresolved source labels, or unusable category values. Missing fields are not zero values. The 50% weights are standardized estimates from literature descriptions, not measurements of stomach contents, intake, energy or observation time. The historical same-name, same-family match does not establish equivalence with the COL26.8 concept, and the underlying books and papers were not individually read here. EltonTraits notes that mammal ABC diet or activity codes can borrow from an ecologically similar congener; this is not a direct observation of this owl. Genus- or family-level values, non-species-level strata and unresolved split records do not fill species-level conclusions. Individual, seasonal and local variation, current range, population and conservation status require other sources.
+The source archive retains the original diet code C and its specific reasons; this page does not use that withheld field to infer diet.
+

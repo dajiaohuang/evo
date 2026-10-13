@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus pitanga
+  displayName: Brachycephalus pitanga
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPYJ
+  sourceIndexes:
+    - name:
+        en: Brachycephalus pitanga
+        zh: Brachycephalus pitanga
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPYJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/428
+            queryName: Brachycephalus pitanga
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7495a307a0
+      - s-2503fbf8cf
+      - s-cfa841cb2a
+      - s-f2e2f9d9f6
+      - s-f8abad68a0
+      - s-1e33c3e078
+      - s-78aca07587
+      - s-cd92522530
+      - s-d177e46beb
+      - s-09223fbb04
+      - s-497f1d7ffb
+      - s-462e323406
+      - s-59e85314cb
+      - s-cb42ba1494
+      - s-5e2a6f224c
+      - s-91e275c6b3
+      - s-baaf87cd84
+      - s-b0f1196329
+    zh:
+      - s-6fc43f783c
+      - s-71ac0e1266
+      - s-691efe3d23
+      - s-1286d246d5
+      - s-aa4ea07ce3
+      - s-01b31cef55
+      - s-542c37cd36
+      - s-580ff4ef95
+      - s-0c3df38feb
+      - s-c134aade6a
+      - s-61916fecf9
+      - s-55c1c339ea
+      - s-82b4e0f4f4
+      - s-5e26f6131d
+      - s-1952d05da8
+      - s-8cf9cf5dd0
+      - s-dc0990dcbc
+      - s-aa9287eb93

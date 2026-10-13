@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachium mangyanorum
+    name:
+      en: Leptobrachium mangyanorum
+      zh: Leptobrachium mangyanorum
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Leptobrachium mangyanorum in the version 3 classification
+          zh: Leptobrachium mangyanorum 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-885b3e4a2a
+            part: body
+          zh:
+            page: zh
+            section: s-5857bfee40
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 17 populated trait fields
+          zh: 2 条测量行与 17 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ab3c5181c8
+            part: body
+          zh:
+            page: zh
+            section: s-dd7ddfd95e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2686, 2687; Reference.csv rows 685
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2686
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium mangyanorum
+          - M
+          - "44"
+          - "18.9"
+          - "9"
+          - "6.2"
+          - "2.9"
+          - NA
+          - "6.3"
+          - "3.9"
+          - NA
+          - NA
+          - "6.1"
+          - NA
+          - "10.6"
+          - "13.9"
+          - NA
+          - "16.7"
+          - NA
+          - "17.7"
+          - "19.2"
+          - "10.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.5"
+          - NA
+          - NA
+          - NA
+          - "8.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.9"
+          - NA
+      - rowNumber: 2687
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium mangyanorum
+          - F
+          - "51.6"
+          - "20.3"
+          - "21.6"
+          - "6.6"
+          - "3"
+          - NA
+          - "7.1"
+          - "4.5"
+          - NA
+          - NA
+          - "7.3"
+          - NA
+          - "10.4"
+          - "15.1"
+          - NA
+          - "15.1"
+          - NA
+          - "20.16"
+          - "20"
+          - "10.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.1"
+          - NA
+          - NA
+          - NA
+          - "7.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.2"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 685
+        values:
+          - Anura
+          - Leptobrachium_mangyanorum
+          - "Brown, R. N., Siler, C. D., Diesmos, A. C., & Alcala, A. C. (2009). Philippine frogs of the genus Leptobrachium (Anura: Megophryidae): phylogeny-based species delimitation, taxonomic review, and descriptions of three new species. Herpetological Monographs, 23, 1-44. https://doi.org/10.1655/09-037.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Toe4L
+      - Fin3L
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TKCD
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

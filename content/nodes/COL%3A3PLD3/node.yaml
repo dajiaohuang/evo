@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Incilius periglenes
+  displayName: Incilius periglenes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PLD3
+  sourceIndexes:
+    - name:
+        en: Incilius periglenes
+        zh: Incilius periglenes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PLD3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/465
+            queryName: Incilius periglenes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/304
+            queryName: Bufo periglenes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/422
+            queryName: Cranopsis periglenes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/423
+            queryName: Ollotis periglenes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c18cf1512
+      - s-03d08c6aea
+      - s-97a30321da
+      - s-0d04fc7089
+      - s-3b6f7a9a68
+      - s-984f557d77
+      - s-44e1c4ead5
+      - s-1ffca546e9
+      - s-82705aac30
+      - s-875dd55763
+      - s-0e60b13a96
+    zh:
+      - s-27d067bbee
+      - s-2199d8d8db
+      - s-5a0f554fc1
+      - s-96f5d4472e
+      - s-6482dbcbe4
+      - s-ee5655690b
+      - s-746adb1a27
+      - s-21f8f8c677
+      - s-72d31b360d
+      - s-fc077e3f34
+      - s-98445e8873

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla dasypus
+  displayName: Plectrohyla dasypus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5C7
+  sourceIndexes:
+    - name:
+        en: Plectrohyla dasypus
+        zh: Plectrohyla dasypus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5C7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/431
+            queryName: Plectrohyla dasypus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/384
+            queryName: Hyla dasypus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9234c36df0
+      - s-beaef90332
+      - s-7726992255
+      - s-1c9425228d
+      - s-e5602f0c83
+      - s-59b9067bdc
+      - s-aa20ea4e51
+      - s-22547c1107
+      - s-7914d8061c
+      - s-3e608729a0
+    zh:
+      - s-6cb55f8e66
+      - s-7a87a20efc
+      - s-10ac04d770
+      - s-aef862f347
+      - s-71d7ce7fe1
+      - s-ad097b6e04
+      - s-1611b8fb6f
+      - s-81fe8ee399
+      - s-2a7ada0e39
+      - s-29b11b4021

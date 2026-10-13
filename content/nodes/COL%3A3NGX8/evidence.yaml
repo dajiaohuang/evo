@@ -1,0 +1,227 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyloxalus felixcoperari Acosta-Galvis & Vargas Ramírez, 2018
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyloxalus felixcoperari
+      zh: Hyloxalus felixcoperari
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e829b430bd
+            part: title
+          zh:
+            page: zh
+            section: s-c14d4fb067
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e829b430bd
+            part: body
+          zh:
+            page: zh
+            section: s-c14d4fb067
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8a184952d7
+            part: title
+          zh:
+            page: zh
+            section: s-91342ad008
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8a184952d7
+            part: body
+          zh:
+            page: zh
+            section: s-91342ad008
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0df9931876
+            part: title
+          zh:
+            page: zh
+            section: s-c32bd935e1
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-0df9931876
+            part: body
+          zh:
+            page: zh
+            section: s-c32bd935e1
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-712c72d909213642e44a57b8
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ba8157dc60a3c4c7c33be5c4
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f2a347f7eb
+            part: title
+          zh:
+            page: zh
+            section: s-eb3a77aea4
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f2a347f7eb
+            part: body
+          zh:
+            page: zh
+            section: s-eb3a77aea4
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ba8753cf99
+            part: title
+          zh:
+            page: zh
+            section: s-6655150a37
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-ba8753cf99
+            part: body
+          zh:
+            page: zh
+            section: s-6655150a37
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyloxalus felixcoperari
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NGX8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1182; Picture measurement data rows 553; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2243, 2244; Reference.csv rows 3559
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3de9228d93
+        part: body
+      zh:
+        page: zh
+        section: s-c7c4133d1a
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-712c72d909213642e44a57b8
+        scientificName: Hyloxalus felixcoperari
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2

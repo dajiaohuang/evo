@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pardalis
+  displayName: Pristimantis pardalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJKM
+  sourceIndexes:
+    - name:
+        en: Pristimantis pardalis
+        zh: Pristimantis pardalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJKM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/472
+            queryName: Pristimantis pardalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/154
+            queryName: Eleutherodactylus pardalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/304
+            queryName: Syrrhopus pardalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 62
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c716e8619
+      - s-f93b8eb3bc
+      - s-b94538b3e9
+      - s-84918f5386
+      - s-856f92219a
+      - s-c929999946
+      - s-2ad55baeb7
+      - s-9e0a909c75
+      - s-71cc837b53
+    zh:
+      - s-a388491738
+      - s-9a9fe64ee8
+      - s-7ea4218419
+      - s-8981b13dfa
+      - s-6b4781d032
+      - s-578d95354a
+      - s-c84d95e02d
+      - s-dbea317d01
+      - s-bd351f6bf4

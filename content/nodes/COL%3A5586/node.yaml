@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema
+  displayName: Ischnocnema
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5586
+  sourceIndexes:
+    - name:
+        en: Ischnocnema
+        zh: Ischnocnema
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "5586"
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/469
+            queryName: Ischnocnema
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 135
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ff812d27be
+      - s-93fdbee1d5
+      - s-748c84a766
+      - s-e3db33b35c
+      - s-993ee7d961
+      - s-73654508b4
+      - s-e10ac35091
+      - s-f60f54dd21
+      - s-1a29f3fc9a
+      - s-88c1bcde60
+      - s-6548a9c93e
+      - s-93daf9832d
+      - s-4552790d7c
+      - s-7ffe6e14a4
+      - s-da83aad0f2
+      - s-24bdc0463c
+      - s-cbaca67260
+      - s-6f58474c1b
+      - s-6aeb306cef
+      - s-a1362b3ab8
+      - s-fbf52ff39d
+      - s-90a5df8aac
+      - s-3d9093a126
+      - s-145803d878
+      - s-5db9ea8efb
+    zh:
+      - s-015f1c8668
+      - s-dc87bda456
+      - s-750776009d
+      - s-5677b8c83c
+      - s-95b38fee45
+      - s-253b5703c8
+      - s-942b710da7
+      - s-b477a597fb
+      - s-30d29ca8af
+      - s-94598c4c1e
+      - s-7a0c160772
+      - s-0fc8e7b617
+      - s-6ca32dc7d4
+      - s-78f4875ada
+      - s-6f31a15481
+      - s-7bf4123791
+      - s-d5e41d4e1f
+      - s-b9fe235b82
+      - s-400f6a33c6
+      - s-0573fa7e59
+      - s-a84eff62c3
+      - s-1cf1e0d7e8
+      - s-688156373b
+      - s-85b3c29080
+      - s-d83069e0b6

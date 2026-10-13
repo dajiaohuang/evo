@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla sanchiangensis
+  displayName: Hyla sanchiangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MM7P
+  sourceIndexes:
+    - name:
+        en: Hyla sanchiangensis
+        zh: Hyla sanchiangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MM7P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/368
+            queryName: Hyla sanchiangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/368
+            queryName: Hyla chinensis sanchiangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-83b7fd8b78
+      - s-74d6254bd8
+      - s-98fa7ce0e9
+      - s-4947bc1e7a
+      - s-34c9325c0b
+      - s-95df9ce8f8
+      - s-adeb17716c
+      - s-a29fff0ed9
+      - s-92e1f52de8
+      - s-ef5d8b17d5
+      - s-3910a7b107
+      - s-36de529d80
+      - s-8d8df1e592
+      - s-937682d50f
+      - s-4c0b895ae2
+      - s-58e5883b96
+      - s-a019507c3d
+      - s-5df75021e6
+      - s-a76bcae17f
+      - s-a7a20bf795
+    zh:
+      - s-82261d5aa4
+      - s-293bb7a8d3
+      - s-39d3d59fe5
+      - s-5bb1f1b9e4
+      - s-aaa5c6985b
+      - s-bfd4be87f5
+      - s-41d60d4e7d
+      - s-1a81cd0d71
+      - s-1c232e67f3
+      - s-9fde5f1db8
+      - s-d5f3213dff
+      - s-34661f394d
+      - s-24b35309ba
+      - s-21e4db9370
+      - s-79757f3e22
+      - s-02bece6cb8
+      - s-8d332ef252
+      - s-66347222ef
+      - s-6722537063
+      - s-b648e9611a

@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Breviceps macrops
+    name:
+      en: Breviceps macrops
+      zh: Breviceps macrops
+    sourceClassification:
+      order: Anura
+      family: Brevicipitidae
+      genus: Breviceps
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Breviceps macrops in the version 3 classification
+          zh: Breviceps macrops 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b8eb560b1d
+            part: body
+          zh:
+            page: zh
+            section: s-ee3b564a20
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 9 populated trait fields
+          zh: 1 条测量行与 9 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c8539f25e4
+            part: body
+          zh:
+            page: zh
+            section: s-1b342fd5ed
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 879; Reference.csv rows 154
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 879
+        values:
+          - Brevicipitidae
+          - Breviceps
+          - Breviceps macrops
+          - NA
+          - "48"
+          - "13"
+          - "17"
+          - "6"
+          - NA
+          - NA
+          - "2.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10"
+          - NA
+          - NA
+          - "13"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "30"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "26.1"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 154
+        values:
+          - Anura
+          - Breviceps_macrops
+          - Boulenger, G. (1907). VI.—Description of a new engystomatid frog of the genus Breviceps from Namaqualand. Journal of Natural History, 20(115), 46-47. https://doi.org/10.1080/00222930709487295
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - HAL
+      - FL
+      - HLL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5X3GX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus longicrus
+  displayName: Philautus longicrus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5HK
+  sourceIndexes:
+    - name:
+        en: Philautus longicrus
+        zh: Philautus longicrus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5HK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/59
+            queryName: Philautus longicrus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/66
+            queryName: Ixalus longicrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/67
+            queryName: Rhacophorus longicrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-289db7b83b
+      - s-4c82c412ac
+      - s-00b0ec2b90
+      - s-fe1ec83e97
+      - s-900e206664
+      - s-4a02f75d4c
+      - s-294b827e46
+      - s-e846bf80ec
+    zh:
+      - s-eb23e315b8
+      - s-3ac62cf49e
+      - s-38607ca474
+      - s-923c3090b2
+      - s-a62f07043b
+      - s-2122fc217b
+      - s-7f51ffee94
+      - s-bbf3babc30

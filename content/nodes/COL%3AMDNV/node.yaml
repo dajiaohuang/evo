@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa conanti
+  displayName: Bolitoglossa conanti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDNV
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa conanti
+        zh: Bolitoglossa conanti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDNV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/104
+            queryName: Bolitoglossa conanti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a7f2ca716c
+      - s-3cb805b222
+      - s-cfe1bba2af
+      - s-e9c668311d
+      - s-63e0c9dcbf
+      - s-3dfdeb9461
+      - s-f9702a9be5
+      - s-ae2191b09f
+    zh:
+      - s-a23064d095
+      - s-aec5630592
+      - s-d05d90460a
+      - s-767e7f9295
+      - s-d63cfce008
+      - s-d5c0113bbd
+      - s-7c05e50de2
+      - s-aa4d73231d

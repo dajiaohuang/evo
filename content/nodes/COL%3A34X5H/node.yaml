@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dermatonotus muelleri
+  displayName: Dermatonotus muelleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34X5H
+  sourceIndexes:
+    - name:
+        en: Dermatonotus muelleri
+        zh: Dermatonotus muelleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34X5H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/447
+            queryName: Dermatonotus muelleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 31
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/348
+            queryName: Engystoma muelleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/349
+            queryName: Hypopachus muelleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/350
+            queryName: Gastrophryne muelleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-acc55cab16
+      - s-877084c592
+      - s-34ecef9efa
+      - s-c23ba2da72
+      - s-3968098843
+      - s-3f51a55425
+      - s-59fc46f4df
+      - s-bfb7d3f03f
+      - s-ce9953c3c0
+      - s-b4d13f6594
+      - s-7fe75da8c0
+      - s-886a9c5d14
+      - s-14397cd048
+      - s-6dfd1ee03c
+      - s-dcfdad6418
+      - s-97b36cabd5
+      - s-aed34469ef
+      - s-8ca7c9135f
+      - s-16ce28a1f3
+      - s-bf5bd24e00
+      - s-e01a65b745
+    zh:
+      - s-6680f92bc9
+      - s-aa560a3862
+      - s-70b43cfb7f
+      - s-d41400c884
+      - s-e1eb188f1a
+      - s-0c0514e20e
+      - s-c2c3e8b9f4
+      - s-4ed983befe
+      - s-d63e861f9b
+      - s-946777da7d
+      - s-4d24e8e6d1
+      - s-d5cf8b7204
+      - s-0335ce417a
+      - s-11212655d8
+      - s-7265d14ef3
+      - s-c3c8bc3124
+      - s-179f93a858
+      - s-d5bcbc3b9b
+      - s-9b6b1e5470
+      - s-27e12aeac7
+      - s-1658d84598

@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops lifanensis
+  displayName: Amolops lifanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DZG
+  sourceIndexes:
+    - name:
+        en: Amolops lifanensis
+        zh: Amolops lifanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DZG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/379
+            queryName: Amolops lifanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/192
+            queryName: Staurois lifanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dd12a8de56
+      - s-920603b2e1
+      - s-54e33ea33c
+      - s-5c70663773
+      - s-a16a65a42d
+      - s-8b4de6b491
+      - s-f5e6021acf
+      - s-31cdb80db8
+      - s-273d128fca
+      - s-710010d5e2
+      - s-199364229f
+      - s-4ca8f7f0c8
+      - s-542b20e3ef
+      - s-87fa39796d
+      - s-4eefb8607b
+      - s-64bb5f7d11
+      - s-dd4320a80c
+      - s-c9b664e94b
+      - s-69e911a1fe
+      - s-f76bcff944
+      - s-9c08a7a924
+      - s-269984a1ae
+      - s-2515d106dd
+      - s-8ded3ee204
+      - s-7b501f301f
+      - s-716ce7673f
+      - s-7238c9d7b6
+    zh:
+      - s-c4aa52b631
+      - s-6b853b4dcb
+      - s-f8938da4f1
+      - s-8b4fad1e23
+      - s-d93d6fe293
+      - s-5ab7274b72
+      - s-8c78d24c79
+      - s-2e8f9e82ab
+      - s-73e1ba0846
+      - s-bdd6f0cc16
+      - s-530f3c34bd
+      - s-f25275d349
+      - s-3ac80dc5c6
+      - s-bd3d404a26
+      - s-0faf0be636
+      - s-a124218db8
+      - s-c80f3d3679
+      - s-806f47b790
+      - s-7f3e1a4900
+      - s-cf76288626
+      - s-4165c7c569
+      - s-629d1b470e
+      - s-1b5b25e536
+      - s-25127182a8
+      - s-cc79cbc84a
+      - s-1f2c199efa
+      - s-5a636fdc64

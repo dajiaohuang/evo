@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Parhoplophryne
+  displayName: Parhoplophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6HT7
+  sourceIndexes:
+    - name:
+        en: Parhoplophryne
+        zh: Parhoplophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6HT7
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/138
+            queryName: Parhoplophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5ec897f3e0
+      - s-46801d9435
+      - s-0c0bc93167
+      - s-82251bb6df
+      - s-a418d705a4
+      - s-74f870d9b1
+    zh:
+      - s-c18da27c04
+      - s-eb5e3bdcae
+      - s-2e2df31080
+      - s-e4dc005b44
+      - s-9c71d0dd4e
+      - s-dacf09f7b4

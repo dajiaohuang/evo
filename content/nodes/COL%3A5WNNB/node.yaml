@@ -1,0 +1,172 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bombina bombina
+  displayName: Bombina bombina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WNNB
+  sourceIndexes:
+    - name:
+        en: Bombina bombina
+        zh: Bombina bombina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WNNB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/218
+            queryName: Bombina bombina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 396
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/192
+            queryName: Rana bombina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 328
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/193
+            queryName: Bufo igneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/194
+            queryName: Buffo ignicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/195
+            queryName: Bufo bombinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/196
+            queryName: Rana ignea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/197
+            queryName: Bufo pluvialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/198
+            queryName: Rana cruenta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/199
+            queryName: Bombinator igneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/200
+            queryName: Bombina ignea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/201
+            queryName: Bufo bombina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/202
+            queryName: Bombitator bombinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/203
+            queryName: Bufo cruentus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/204
+            queryName: Bombinator bombina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/374
+            queryName: Bombinator variegatus bombina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/375
+            queryName: Bombina bombina danubialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/376
+            queryName: Bombina bombina viridis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/377
+            queryName: Bombina bombina arifiyensi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ac9545fa57
+      - s-6bcb2998da
+      - s-b6f79f1237
+      - s-8aa427d904
+      - s-440609803c
+      - s-7f28d35d75
+      - s-96f5c803b5
+      - s-01a565bbe1
+      - s-ae112f8cec
+      - s-adb86419b8
+      - s-458a555862
+      - s-fd4ecbc464
+      - s-e952c21402
+      - s-47e9a81fc3
+      - s-1bacd79803
+    zh:
+      - s-6835dc698c
+      - s-fa59c26b58
+      - s-ea0ef43af7
+      - s-dddc62c24f
+      - s-17240c55f3
+      - s-13a53d314a
+      - s-ae702659af
+      - s-f2795b50ba
+      - s-5898160dcd
+      - s-6cacc78778
+      - s-1a56d0dd01
+      - s-c2d19f5f61
+      - s-6ce0e166d2
+      - s-2a49bf7569
+      - s-f84fe4f447

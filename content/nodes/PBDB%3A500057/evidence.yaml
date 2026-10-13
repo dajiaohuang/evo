@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Shenacanthus vermiformis
+    commonName: Armoured total-group chondrichthyan
+    commonNameZh: 披甲软骨鱼总群
+    rank: species
+    taxonId: txn:500057
+    firstAppearance: 436
+    lastAppearance: 436
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:500057
+    scientificName: Shenacanthus vermiformis
+    commonName: Armoured total-group chondrichthyan
+    commonNameZh: 披甲软骨鱼总群
+    rank: species
+    parentName: Stem-chondrichthyan evidence route
+    extinct: true
+    geography:
+      - Xiushan
+      - Chongqing
+      - China
+    overview:
+      page: en
+      section: s-e2dc0826e2
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-d66219d52b
+        part: body
+      habitat:
+        page: en
+        section: s-6d8d063686
+        part: body
+      locomotion:
+        page: en
+        section: s-75a8fd89c6
+        part: body
+      bodySize:
+        page: en
+        section: s-fa7324f0c2
+        part: body
+      guild:
+        page: en
+        section: s-62a518e152
+        part: body
+    traits:
+      - page: en
+        section: s-93ffea1c79
+        part: body
+      - page: en
+        section: s-034aa7c160
+        part: body
+      - page: en
+        section: s-00df247fb4
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-d05e7edc19
+      part: body
+    confidence: medium
+    referenceIds:
+      - zhu-2022-chongqing-gnathostomes
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-e2dc0826e2
+            part: title
+          zh:
+            page: zh
+            section: s-cf650ea31c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e2dc0826e2
+            part: body
+          zh:
+            page: zh
+            section: s-cf650ea31c
+            part: body
+        sourceIds:
+          - zhu-2022-chongqing-gnathostomes
+      - id: body-observations
+        title:
+          en:
+            page: en
+            section: s-2404aeb203
+            part: title
+          zh:
+            page: zh
+            section: s-92dfad59ed
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2404aeb203
+            part: body
+          zh:
+            page: zh
+            section: s-92dfad59ed
+            part: body
+        sourceIds:
+          - zhu-2022-chongqing-gnathostomes
+      - id: ecology-context
+        title:
+          en:
+            page: en
+            section: s-da4b7c6210
+            part: title
+          zh:
+            page: zh
+            section: s-1af12b8527
+            part: title
+        text:
+          en:
+            page: en
+            section: s-da4b7c6210
+            part: body
+          zh:
+            page: zh
+            section: s-1af12b8527
+            part: body
+        sourceIds:
+          - zhu-2022-chongqing-gnathostomes
+      - id: interpretation-boundary
+        title:
+          en:
+            page: en
+            section: s-d05e7edc19
+            part: title
+          zh:
+            page: zh
+            section: s-0d56e5235e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d05e7edc19
+            part: body
+          zh:
+            page: zh
+            section: s-0d56e5235e
+            part: body
+        sourceIds:
+          - zhu-2022-chongqing-gnathostomes
+    readerSources:
+      - id: zhu-2022-chongqing-gnathostomes
+        referenceId: zhu-2022-chongqing-gnathostomes
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The study describes articulated early jawed-vertebrate material; Shenacanthus is represented by one holotype.
+            zh: 研究描述重庆地区关节相连的早期有颌脊椎动物材料；Shenacanthus 仅有一件正模。
+  claims:
+    - subjectId: taxon:shenacanthus
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Shenacanthus vermiformis is known from the sole near-complete holotype IVPP V300000 and was placed within total-group Chondrichthyes, with exact stem position analysis-sensitive.
+      confidence: medium
+      confidenceRationale: "Shenacanthus vermiformis: Named material and a published systematic or phylogenetic treatment support this bounded identification. Confidence remains medium because the profile does not turn a sampled placement into direct ancestry or universal consensus."
+      referenceLinks:
+        - referenceId: zhu-2022-chongqing-gnathostomes
+          relation: supports
+          pages: 954–958, especially 956–958
+          figure: Figures 1a and 3; Extended Data Figure 8
+          quoteLocator: Systematic palaeontology and description of Shenacanthus; phylogenetic analyses
+    - subjectId: taxon:shenacanthus
+      claimType: biogeography
+      claimKind: scientific
+      statement: IVPP V300000 comes from the Telychian Huixingshao Formation at Yongdong, Xiushan, Chongqing, China; no wider distribution is inferred.
+      confidence: medium
+      confidenceRationale: "Shenacanthus vermiformis: The primary study reports the named locality and horizon directly. Confidence is medium because one study sample cannot establish absence, endemism or a global geographic range."
+      referenceLinks:
+        - referenceId: zhu-2022-chongqing-gnathostomes
+          relation: supports
+          pages: 954–958, especially 956–958
+          figure: Figures 1a and 3; Extended Data Figure 8
+          quoteLocator: Systematic palaeontology and description of Shenacanthus; phylogenetic analyses
+    - subjectId: taxon:shenacanthus
+      claimType: ecology
+      claimKind: scientific
+      statement: The body is aquatic in form, but the sole fossil does not directly establish diet, habitat preference, swimming performance or feeding guild.
+      confidence: medium
+      confidenceRationale: "Shenacanthus vermiformis: The evidence boundary is explicit: depositional or anatomical context is retained while unsupported behaviour and niche claims are withheld. Medium confidence applies to that bounded negative statement, not to a reconstructed ecology."
+      referenceLinks:
+        - referenceId: zhu-2022-chongqing-gnathostomes
+          relation: supports
+          pages: 954–958, especially 956–958
+          figure: Figures 1a and 3; Extended Data Figure 8
+          quoteLocator: Systematic palaeontology and description of Shenacanthus; phylogenetic analyses
+    - subjectId: taxon:shenacanthus
+      claimType: morphology
+      claimKind: scientific
+      statement: IVPP V300000 combines minute scales and a chondrichthyan-like posterior branchial region with unexpectedly large thoracic armour plates.
+      confidence: medium
+      confidenceRationale: "Shenacanthus vermiformis: The cited figures and descriptions directly document the named anatomical observations. Confidence is medium rather than universal because preservation and specimen sampling limit character completeness and variation."
+      referenceLinks:
+        - referenceId: zhu-2022-chongqing-gnathostomes
+          relation: supports
+          pages: 954–958, especially 956–958
+          figure: Figures 1a and 3; Extended Data Figure 8
+          quoteLocator: Systematic palaeontology and description of Shenacanthus; phylogenetic analyses
+    - subjectId: taxon:shenacanthus
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed approximately 436 Ma point represents the Huixingshao Formation holotype and is not a global total-group or crown-chondrichthyan FAD.
+      confidence: medium
+      confidenceRationale: "Shenacanthus vermiformis: The primary source and concrete locator support the displayed sample interval. Confidence is medium because the envelope is explicitly specimen- or locality-scoped and not a global first or last appearance."
+      referenceLinks:
+        - referenceId: zhu-2022-chongqing-gnathostomes
+          relation: supports
+          pages: 954–958, especially 956–958
+          figure: Figures 1a and 3; Extended Data Figure 8
+          quoteLocator: Systematic palaeontology and description of Shenacanthus; phylogenetic analyses
+  claim-rationales.zh:
+    - Shenacanthus vermiformis：具名材料和已发表的系统或系统发育处理支持这一有限鉴定。置信度保持中等，因为画像不会把取样位置转化为直接祖先或普遍共识。
+    - Shenacanthus vermiformis：一手研究直接报告了具名地点与层位。置信度为中等，因为单一研究样本不能确定缺失、特有性或全球地理范围。
+    - Shenacanthus vermiformis：证据边界是明确的：保留沉积或解剖背景，同时不填补无依据的行为与生态位。中等置信度针对这一有限的否定性陈述，而非重建生态。
+    - Shenacanthus vermiformis：所引图件与描述直接记录了具名解剖观察。由于保存与标本取样限制了性状完整性和变异，置信度为中等而非普遍结论。
+    - Shenacanthus vermiformis：一手来源与具体定位符支持显示的样本区间。置信度为中等，因为该包络明确限定于标本或地点，而非全球首现或末现。
+  claim-statements.zh:
+    - Shenacanthus vermiformis 仅由近完整正模 IVPP V300000 所知，在分析中归入软骨鱼总群，具体干群位置受分析影响。
+    - IVPP V300000 来自中国重庆秀山永东特列奇期 Huixingshao 组；不据此推断更广分布。
+    - 躯体呈水生形态，但单件化石不能直接确定食性、栖息地偏好、游泳性能或取食行会。
+    - IVPP V300000 将微小鳞片和软骨鱼式后鳃区与异常大型胸甲板组合在同一躯体中。
+    - 显示的约 436 Ma 时间点代表 Huixingshao 组正模，并非软骨鱼总群或冠群的全球首现。
+  ranges:
+    - entityId: shenacanthus
+      rangeKind: global-composite
+      taxonomicConcept: Shenacanthus vermiformis represented study sample
+      geographicScope: Huixingshao Formation, Yongdong, Xiushan, Chongqing, China
+      olderMa: 436
+      youngerMa: 436
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Approximate Telychian horizon; one holotype cannot establish species duration, variation or a global first appearance.
+      evidenceBasis: The sole near-complete holotype IVPP V300000 occurs in the approximately 436 Ma Huixingshao Formation; the point is specimen-scoped.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:shenacanthus:fossil-range
+      referenceLocators:
+        - referenceId: zhu-2022-chongqing-gnathostomes
+          locator: 954–958, especially 956–958; Figures 1a and 3; Extended Data Figure 8; Systematic palaeontology and description of Shenacanthus; phylogenetic analyses

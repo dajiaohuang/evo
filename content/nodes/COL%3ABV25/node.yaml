@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates mcdiarmidi
+  displayName: Allobates mcdiarmidi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV25
+  sourceIndexes:
+    - name:
+        en: Allobates mcdiarmidi
+        zh: Allobates mcdiarmidi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV25
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/156
+            queryName: Allobates mcdiarmidi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/116
+            queryName: Colostethus mcdiarmidi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7f01cf6cb3
+      - s-ca8a2dd052
+      - s-786f0c24bf
+      - s-ed84cdf04d
+      - s-cc6230995e
+      - s-7a281c817a
+      - s-d7ba82740a
+      - s-49e00c4bd9
+      - s-7783b78bf6
+      - s-90db7acd96
+    zh:
+      - s-149ceb615d
+      - s-756193594f
+      - s-2ef63618a4
+      - s-1ebc2b8fd3
+      - s-34f759ec2e
+      - s-c57d3dbaf5
+      - s-812645f50d
+      - s-a3cf449b92
+      - s-a46569fb46
+      - s-282c7b5262

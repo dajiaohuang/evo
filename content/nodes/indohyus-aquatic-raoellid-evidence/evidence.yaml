@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-566948d7a7
+      part: title
+    titleZh:
+      page: zh
+      section: s-08157bf35f
+      part: title
+    category: ecological
+    startAge: 48
+    endAge: 47
+    regions:
+      - Sindkhatudi bone bed, Upper Subathu Group, Kalakot, Jammu and Kashmir, India
+    clades:
+      - Indohyus
+      - Raoellidae
+      - Cetaceamorpha
+    summary:
+      page: en
+      section: s-566948d7a7
+      part: body
+    summaryZh:
+      page: zh
+      section: s-08157bf35f
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-0f6e1041bc
+            part: title
+          zh:
+            page: zh
+            section: s-fee86b1ece
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0f6e1041bc
+            part: body
+          zh:
+            page: zh
+            section: s-fee86b1ece
+            part: body
+        id: observed-material
+        sourceIds:
+          - thewissen-2007-indohyus
+      - title:
+          en:
+            page: en
+            section: s-f101e2e446
+            part: title
+          zh:
+            page: zh
+            section: s-b677497b27
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f101e2e446
+            part: body
+          zh:
+            page: zh
+            section: s-b677497b27
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - thewissen-2007-indohyus
+    claimIds:
+      - claim:event:indohyus-aquatic-raoellid-evidence
+    evidenceItems:
+      - statement: Skulls RR 207 and RR 208 preserve the cetacean-like involucrum; RR 157 and RR 42 provide dense long-bone sections, and a multi-tooth stable-isotope sample differs from terrestrial artiodactyl comparators.
+        relation: supports
+        claimIds:
+          - claim:event:indohyus-aquatic-raoellid-evidence
+        referenceLinks:
+          - referenceId: thewissen-2007-indohyus
+            relation: supports
+            pages: 1190–1194
+            figure: Figures 1–5; Supplementary Information
+            quoteLocator: Osteology; Bone histology; Stable-isotope analysis; Phylogeny
+    uncertaintyItems:
+      - statement: The material is a disarticulated bone-bed sample, not one associated skeleton; aquatic wading and sister-group position are inferences, and Indohyus is neither crown Cetacea nor demonstrated to be a direct ancestor.
+        relation: contextualizes
+        claimIds:
+          - claim:event:indohyus-aquatic-raoellid-evidence
+        referenceLinks:
+          - referenceId: thewissen-2007-indohyus
+            relation: supports
+            pages: 1191–1194
+            figure: Figures 1–5
+            quoteLocator: Specimen descriptions; Phylogenetic and ecological discussion
+    readerSources:
+      - id: thewissen-2007-indohyus
+        referenceId: thewissen-2007-indohyus
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 1190–1194; figure: Figures 1–5; Supplementary Information; Osteology; Bone histology; Stable-isotope analysis; Phylogeny; pages: 1191–1194; figure: Figures 1–5; Specimen descriptions; Phylogenetic and ecological discussion"
+  claims:
+    - subjectId: event:indohyus-aquatic-raoellid-evidence
+      claimKind: scientific
+      claimType: ecology
+      statement: Indohyus skulls RR 207 and RR 208, separate dense limb bones and a tooth-isotope sample support aquatic wading and a raoellid sister placement to Cetacea in the cited analysis, but not crown-cetacean membership or direct ancestry.
+      confidence: medium
+      confidenceRationale: Multiple anatomical, histological and isotope observations converge, but they come from a disarticulated bone-bed assemblage and the behavioural and topological conclusions remain interpretations of that sampled material and matrix.
+      referenceLinks:
+        - referenceId: thewissen-2007-indohyus
+          relation: supports
+          pages: 1190–1194
+          figure: Figures 1–5; Supplementary Information
+          quoteLocator: Osteology; Isotopes; Phylogenetic analysis
+  claim-rationales.zh:
+    - 多项解剖、组织学和同位素观察彼此收敛，但材料来自解体的骨床组合，行为与拓扑结论仍是对取样材料和矩阵的解释。
+  claim-statements.zh:
+    - 印多霍斯兽头骨 RR 207 与 RR 208、分离的致密肢骨及牙齿同位素样本支持水中涉行，并在所引分析中支持劳氏兽科为鲸类姊妹群，但不支持其属于鲸类冠群或为直系祖先。

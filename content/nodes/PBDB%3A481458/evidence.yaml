@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Barschichthys ruedersdorfensis
+    commonName: Anisian stem teleosteomorph
+    commonNameZh: 安尼期真骨鱼总群干群鱼
+    rank: species
+    taxonId: txn:481458
+    firstAppearance: 244
+    lastAppearance: 244
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:481458
+    scientificName: Barschichthys ruedersdorfensis
+    commonName: Anisian stem teleosteomorph
+    commonNameZh: 安尼期真骨鱼总群干群鱼
+    rank: species
+    parentName: Early actinopterygian evidence route
+    extinct: true
+    geography:
+      - Rüdersdorf quarry
+      - Brandenburg
+      - Germany
+    overview:
+      page: en
+      section: s-03a197272a
+      part: body
+    overviewZh:
+      page: zh
+      section: s-1f64787f28
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-29f812a845
+        part: body
+      habitat:
+        page: en
+        section: s-06a603463a
+        part: body
+      locomotion:
+        page: en
+        section: s-e3e7739f4e
+        part: body
+      bodySize:
+        page: en
+        section: s-2d68f1d6da
+        part: body
+      guild:
+        page: en
+        section: s-2ebdd76efe
+        part: body
+      dietZh:
+        page: zh
+        section: zh-636738c308ff5e
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-458531ada595fb
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-6abfcff29ec559
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-cae4d6c225bca0
+        part: body
+      guildZh:
+        page: zh
+        section: zh-8133373215297b
+        part: body
+    traits:
+      - page: en
+        section: s-07a1f95ea0
+        part: body
+      - page: en
+        section: s-5818291dd6
+        part: body
+      - page: en
+        section: s-fda922ffdd
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-3c17c8ce26
+      part: body
+    readerLimitations:
+      en:
+        page: en
+        section: s-6b39f1a945
+        part: body
+      zh:
+        page: zh
+        section: s-24c9c10e04
+        part: body
+    confidence: medium
+    referenceIds:
+      - arratia-schultze-2024-triassic-teleosteomorphs
+    evidenceSummaryZh:
+      page: zh
+      section: zh-990be9a8ec3b73
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-51f2ce6bdc5751
+        part: body
+      - page: zh
+        section: zh-b2da524db2f92f
+        part: body
+      - page: zh
+        section: zh-001c6d0be31479
+        part: body
+  claims:
+    - subjectId: taxon:barschichthys-ruedersdorfensis
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Barschichthys ruedersdorfensis is a named stem teleosteomorph and type species of Barschichthys, based on holotype MB.f.19907 and paratypes MB.f.19908–19909 from Rüdersdorf.
+      confidence: medium
+      confidenceRationale: The primary description supplies a genus and species diagnosis, type material and explicit placement among stem teleosts. Confidence remains medium because the partial referred specimen and stem placement retain the source's sampling limits.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 37–44
+          figure: Figures 7–10; Table 1
+          quoteLocator: Systematic palaeontology; family and species diagnosis; type material; taxonomic comparisons
+    - subjectId: taxon:barschichthys-ruedersdorfensis
+      claimType: biogeography
+      claimKind: scientific
+      statement: The Barschichthys ruedersdorfensis type and referred specimens come from the Rüdersdorf opencast mine in the Central European (Germanic) Basin, Germany; no global distribution is inferred.
+      confidence: medium
+      confidenceRationale: The primary study reports the named mine and basin directly for the type material. Confidence is medium because the one locality and small collection cannot establish absence, endemism or a global geographic range.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 29–30, 39
+          figure: Scheme 1; Figures 7–10
+          quoteLocator: Geological site; stratigraphy; provenience
+    - subjectId: taxon:barschichthys-ruedersdorfensis
+      claimType: ecology
+      claimKind: scientific
+      statement: Barschichthys ruedersdorfensis is recorded from the study's marine restricted-basin setting, but its species-specific diet, locomotor performance and trophic guild remain unresolved.
+      confidence: medium
+      confidenceRationale: The paper records the environmental context and discusses feeding across Triassic stem teleosteomorphs without assigning this species a measured diet or performance. Medium confidence marks the evidence boundary rather than a reconstructed ecology.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 39–44, 47–49
+          figure: Figures 8–10; Table 1
+          quoteLocator: Description; size and body shape; buccal morphology and feeding; marine versus freshwater environments
+    - subjectId: taxon:barschichthys-ruedersdorfensis
+      claimType: morphology
+      claimKind: scientific
+      statement: Barschichthys ruedersdorfensis has a broad lobated skull-roof margin lacking the triangular nasal region, a fused ornamented cranial plate, ganoid scales and a long lower jaw with small conical teeth.
+      confidence: medium
+      confidenceRationale: The family and species diagnosis plus Figures 7–10 directly document the skull roof, jaw, scale and ornamentation characters. Confidence is medium because preservation is incomplete and the referred trunk specimen is limited.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 37–44
+          figure: Figures 7–10; Table 1
+          quoteLocator: Family and species diagnosis; skull roof bones; upper and lower jaw; scales
+    - subjectId: taxon:barschichthys-ruedersdorfensis
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed approximately 244 Ma point bounds the lower Anisian Rüdersdorf sample of Barschichthys ruedersdorfensis and is not a global teleost first appearance.
+      confidence: medium
+      confidenceRationale: The primary paper places the type and referred material in the lower Middle Triassic, lower Anisian middle Muschelkalk at about 244 Ma. Confidence is medium because the point represents one sampled locality, not a global range endpoint.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 30, 39, 50–51
+          figure: Scheme 1; Figures 7–10
+          quoteLocator: Stratigraphy; type material and age; age and oldest teleosteomorphs
+  claim-rationales.zh:
+    - Barschichthys ruedersdorfensis：一手描述提供属种诊断、模式材料并明确其为真骨鱼总群干群成员。置信度为中等，保留部分归入标本及干群位置的取样限制。
+    - Barschichthys ruedersdorfensis：研究直接报告模式材料所在的 Rüdersdorf 露天矿与盆地背景。该单一地点和小型收藏不能确立缺失、特有性或全球范围。
+    - Barschichthys ruedersdorfensis：论文记录海相受限盆地背景并讨论三叠纪干群真骨鱼的摄食，但没有为本种提供实测食性或运动性能；营养级群保持未解析。
+    - Barschichthys ruedersdorfensis：家族与种的诊断及图 7–10 直接记录头盖、颌部、鳞片和饰纹性状。由于保存不完整且归入躯干标本有限，置信度为中等。
+    - Barschichthys ruedersdorfensis：一手论文把模式及归入材料置于约 244 Ma 的 Rüdersdorf 下安尼期中部 Muschelkalk。置信度为中等，因为该点仅代表一个取样地点。
+  claim-statements.zh:
+    - Barschichthys ruedersdorfensis 是具名的真骨鱼总群干群成员及 Barschichthys 的模式种，依据 Rüdersdorf 的正模 MB.f.19907 和副模 MB.f.19908–19909。
+    - Barschichthys ruedersdorfensis 的模式与归入标本来自德国中欧（Germanic）盆地的 Rüdersdorf 露天矿；不据此推断全球分布。
+    - Barschichthys ruedersdorfensis 被记录于该研究的受限海相盆地环境，但其物种特异性食性、运动性能和营养级群仍未解析。
+    - Barschichthys ruedersdorfensis 具有缺少三角鼻区的宽大叶状头盖前缘、融合且具饰纹的颅板、硬鳞以及带小型圆锥齿的长下颌。
+    - 显示的约 244 Ma 点界定了 Barschichthys ruedersdorfensis 在 Rüdersdorf 下安尼期的取样，不是全球真骨鱼首现。
+  ranges:
+    - entityId: barschichthys-ruedersdorfensis
+      rangeKind: global-composite
+      taxonomicConcept: Barschichthys ruedersdorfensis represented study sample
+      geographicScope: Rüdersdorf quarry, lower middle Muschelkalk, Central European (Germanic) Basin, Germany
+      olderMa: 244
+      youngerMa: 244
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Approximately 244 Ma lower Anisian locality point; this is a represented study sample, not a global lineage range.
+      evidenceBasis: The holotype and paratypes were collected from the lower middle Muschelkalk Fischmergel at Rüdersdorf, dated in the paper to the middle Anisian at about 244 Ma; the point is not a global teleosteomorph first appearance.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:barschichthys-ruedersdorfensis:fossil-range
+      referenceLocators:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          locator: pp. 30, 39; Scheme 1; Figures 7–10; Stratigraphy; type material and age

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Feihyla
+  displayName: Feihyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JPB
+  sourceIndexes:
+    - name:
+        en: Feihyla
+        zh: Feihyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JPB
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/392
+            queryName: Feihyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 27
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41bca9750b
+      - s-4a46d0cae6
+      - s-8344e6db3b
+      - s-041932bf7f
+      - s-26ff06e371
+      - s-cf3062b809
+    zh:
+      - s-eae1798a91
+      - s-7d76402d28
+      - s-ac09bc86cf
+      - s-20c7aa8832
+      - s-6e6d841f0a
+      - s-a7628a91fd

@@ -1,0 +1,274 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Callulina Nieden, 1911
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Callulina
+      zh: Callulina
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2ae575387e
+            part: title
+          zh:
+            page: zh
+            section: s-ed7ca92541
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2ae575387e
+            part: body
+          zh:
+            page: zh
+            section: s-ed7ca92541
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f02736729d
+            part: title
+          zh:
+            page: zh
+            section: s-e9fdb816f8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f02736729d
+            part: body
+          zh:
+            page: zh
+            section: s-e9fdb816f8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-59af0bf6b8
+            part: title
+          zh:
+            page: zh
+            section: s-bd757b1f3a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-59af0bf6b8
+            part: body
+          zh:
+            page: zh
+            section: s-bd757b1f3a
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-8c1c01a410
+            part: title
+          zh:
+            page: zh
+            section: s-5b3757758e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8c1c01a410
+            part: body
+          zh:
+            page: zh
+            section: s-5b3757758e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-c88e1e6cff
+            part: title
+          zh:
+            page: zh
+            section: s-7f0f17148f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5X7CB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5X7CB
+            label:
+              en: Callulina dawida
+              zh: Callulina dawida
+          - kind: catalogue
+            colId: 68VCB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A68VCB
+            label:
+              en: Callulina hanseni
+              zh: Callulina hanseni
+          - kind: catalogue
+            colId: 697CB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A697CB
+            label:
+              en: Callulina kanga
+              zh: Callulina kanga
+          - kind: catalogue
+            colId: 5WVCF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5WVCF
+            label:
+              en: Callulina kisiwamsitu
+              zh: Callulina kisiwamsitu
+          - kind: catalogue
+            colId: 5X7CF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5X7CF
+            label:
+              en: Callulina kreffti
+              zh: Callulina kreffti
+          - kind: catalogue
+            colId: 68VCF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A68VCF
+            label:
+              en: Callulina laphami
+              zh: Callulina laphami
+          - kind: catalogue
+            colId: 697CF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A697CF
+            label:
+              en: Callulina meteora
+              zh: Callulina meteora
+          - kind: catalogue
+            colId: 5WVCD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5WVCD
+            label:
+              en: Callulina shengena
+              zh: Callulina shengena
+          - kind: catalogue
+            colId: 5X7CD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5X7CD
+            label:
+              en: Callulina stanleyi
+              zh: Callulina stanleyi
+        text:
+          en:
+            page: en
+            section: s-c88e1e6cff
+            part: body
+          zh:
+            page: zh
+            section: s-7f0f17148f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Callulina
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FQY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Callulina; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8eaf3ec381
+        part: body
+      zh:
+        page: zh
+        section: s-b74f0c8a85
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Callulina
+      sourceRowIds:
+        - Anf0333
+        - Anf0334
+        - Anf0335
+        - Anf0336
+        - Anf0337
+        - Anf0338
+        - Anf0339
+        - Anf0340
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 4
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 2
+      currentConceptEquivalenceCertified: false

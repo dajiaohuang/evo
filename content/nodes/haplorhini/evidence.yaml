@@ -1,0 +1,78 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-190acb73f7
+            part: title
+          zh:
+            page: zh
+            section: s-7fd2c14707
+            part: title
+        text:
+          en:
+            page: en
+            section: s-190acb73f7
+            part: body
+          zh:
+            page: zh
+            section: s-7fd2c14707
+            part: body
+        claimIds:
+          - claim:taxon:haplorhini:sampled-topology
+    scientificName: Haplorhini
+    name:
+      en: Haplorhini
+      zh: Haplorhini
+    rank: suborder
+  atlas-node:
+    name: Haplorhini
+    commonName: Haplorhines
+    commonNameZh: 简鼻猴类
+    rank: suborder
+    taxonId: ""
+    firstAppearance: 66
+    lastAppearance: 0
+    extinct: false
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:haplorhini
+      claimKind: scientific
+      claimType: topology
+      statement: The same living-primate supermatrix recovers Haplorhini with strong support in its sampled topology; that result is molecular evidence for sampled relationships, not a complete fossil membership list or a direct observation of the clade’s origin.
+      confidence: medium
+      confidenceRationale: The study’s broad living sample supports the node, while extinct taxa and unsampled histories remain outside its matrix.
+      referenceLinks:
+        - relation: supports
+          referenceId: springer-2012-primate-supermatrix
+          pages: Article e49521
+          figure: Figures 1–2
+          quoteLocator: Molecular phylogeny and node-support results
+  claim-rationales.zh:
+    - 研究的广泛现生取样支持该节点，而灭绝类群与未取样历史不在其矩阵范围内。
+  claim-statements.zh:
+    - 同一现生灵长类超级矩阵在取样拓扑中以强支持恢复简鼻亚目；该结果是取样关系的分子证据，不是完整化石成员清单或对该支系起源的直接观测。
+  ranges:
+    - entityId: haplorhini
+      rangeKind: global-composite
+      taxonomicConcept: haplorhini — source-bounded sample window — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former navigation numbers are withdrawn because the living-primate supermatrix does not supply a range-fit fossil start. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: springer-2012-primate-supermatrix
+          locator: Article e49521; Molecular phylogeny and node-support results
+      evidenceLevel: withheld-no-range-evidence

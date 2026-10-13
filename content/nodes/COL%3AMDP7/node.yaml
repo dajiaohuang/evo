@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa dofleini
+  displayName: Bolitoglossa dofleini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDP7
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa dofleini
+        zh: Bolitoglossa dofleini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDP7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/114
+            queryName: Bolitoglossa dofleini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/68
+            queryName: Bolitoglossa schmidti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/173
+            queryName: Oedipus schmidti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/235
+            queryName: Spelerpes dofleini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/236
+            queryName: Oedipus dofleini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-870a475312
+      - s-af314f1ca6
+      - s-3c72d31491
+      - s-2e39b3ee32
+      - s-9912faef27
+      - s-721f1d49fb
+      - s-1d26643e30
+      - s-ae127c0076
+      - s-5a75abb040
+    zh:
+      - s-800232bedf
+      - s-d9317e7b8b
+      - s-ace5b112e8
+      - s-d6cc795e7e
+      - s-787be61b34
+      - s-7d8b31201b
+      - s-0bb94ca0ba
+      - s-e05b6cb7cc
+      - s-7bb275371c

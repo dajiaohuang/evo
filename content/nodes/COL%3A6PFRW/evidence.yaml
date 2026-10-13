@@ -1,0 +1,264 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella puhoatensis (Rowley, Dau & Cao, 2017)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella puhoatensis
+      zh: Leptobrachella puhoatensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ce56c0bc59
+            part: title
+          zh:
+            page: zh
+            section: s-fe4b9be261
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ce56c0bc59
+            part: body
+          zh:
+            page: zh
+            section: s-fe4b9be261
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7b831501be
+            part: title
+          zh:
+            page: zh
+            section: s-20af396a61
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7b831501be
+            part: body
+          zh:
+            page: zh
+            section: s-20af396a61
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8ee3884efc
+            part: title
+          zh:
+            page: zh
+            section: s-b888e1a193
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-8ee3884efc
+            part: body
+          zh:
+            page: zh
+            section: s-b888e1a193
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-4f501fbbbf6c85151df4214d
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-771e67e9ba
+            part: title
+          zh:
+            page: zh
+            section: s-17d843e8ee
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-771e67e9ba
+            part: body
+          zh:
+            page: zh
+            section: s-17d843e8ee
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-5c48e9bc57
+            part: title
+          zh:
+            page: zh
+            section: s-b36b837b93
+            part: title
+        sourceIds:
+          - primary-pmc12627998-6pfrw
+        text:
+          en:
+            page: en
+            section: s-5c48e9bc57
+            part: body
+          zh:
+            page: zh
+            section: s-b36b837b93
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-9eaae8fd25
+            part: body
+          zh:
+            page: zh
+            section: s-4d2d3f85bf
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella puhoatensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/6PFRW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2616, 2617; Reference.csv rows 646
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12627998-6pfrw
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella puhoatensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-009bbf4562
+        part: body
+      zh:
+        page: zh
+        section: s-374e822f14
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-4f501fbbbf6c85151df4214d
+        scientificName: Leptobrachella puhoatensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-6pfrw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella puhoatensis
+        evidenceRead: "Leptobrachella puhoatensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A selected trait in the kungfu comparison
+              zh: kungfu 比较中的所选性状
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-6pfrw
+            locator: PMC12627998 XML sec17 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-049fbdf7c8
+                part: body
+              zh:
+                page: zh
+                section: s-9506e80688
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

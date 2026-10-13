@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis sikkimensis
+  displayName: Ichthyophis sikkimensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5S9
+  sourceIndexes:
+    - name:
+        en: Ichthyophis sikkimensis
+        zh: Ichthyophis sikkimensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5S9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/425
+            queryName: Ichthyophis sikkimensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-17ff6a3f67
+      - s-f85cc2fb24
+      - s-1fb1beef10
+      - s-0da9f4aa2a
+      - s-0ba0ba25bd
+      - s-2e1bcf4743
+      - s-df855313ac
+      - s-d9f5cfbe36
+      - s-25f52b2b5b
+      - s-48e65d9ea8
+      - s-0792163bdf
+      - s-bdede71283
+      - s-3c6865ffb2
+    zh:
+      - s-c01b53306d
+      - s-55b32c6369
+      - s-3d7828347a
+      - s-b6ce9d44d4
+      - s-f4a6e0f619
+      - s-22a15d4385
+      - s-295a0ef759
+      - s-f795a89e80
+      - s-8f2735e491
+      - s-bdab61218d
+      - s-08761a0433
+      - s-1b4affcf68
+      - s-f5ea90e63a

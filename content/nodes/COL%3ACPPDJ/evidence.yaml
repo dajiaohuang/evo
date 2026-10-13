@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Zapornia fusca
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Zapornia fusca
+      en: Zapornia fusca
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-bdc9f7468f
+            part: body
+          en:
+            page: en
+            section: s-93d3a62c99
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-85c28601d6
+            part: body
+          en:
+            page: en
+            section: s-9409887ede
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-37e9f5db70
+            part: body
+          en:
+            page: en
+            section: s-0deff58a0c
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-c41dab5524
+            part: body
+          en:
+            page: en
+            section: s-4d3c098a58
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-e4d74d926e
+            part: body
+          en:
+            page: en
+            section: s-86ec535e78
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Zapornia fusca
+          url: https://www.checklistbank.org/dataset/316115/taxon/CPPDJ
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetZaporniaHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Zapornia historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 2731–2740; each eBird and BirdTree crosswalk, za/po/am COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：旧 Porzana／Amaurornis 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Eight historical rows: retain older Porzana or Amaurornis combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-5a5ccfd256
+        part: body
+      en:
+        page: en
+        section: s-f06f796899
+        part: body

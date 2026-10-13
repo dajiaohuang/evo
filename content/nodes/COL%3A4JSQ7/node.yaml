@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis insulatus
+  displayName: Platymantis insulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSQ7
+  sourceIndexes:
+    - name:
+        en: Platymantis insulatus
+        zh: Platymantis insulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSQ7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/382
+            queryName: Platymantis insulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/25
+            queryName: Platymantis insulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c0b2c2478
+      - s-dff691b560
+      - s-957ebdedc6
+      - s-94e71e7a62
+      - s-e53089e8a7
+      - s-dcc9afd1fe
+      - s-20d7c5083d
+      - s-c260debe10
+    zh:
+      - s-6417546f0f
+      - s-e8ed573287
+      - s-1dc0faed6b
+      - s-cf98b92f0c
+      - s-60abf61ae4
+      - s-45ef19cb73
+      - s-30455bbaf8
+      - s-74051b9cb7

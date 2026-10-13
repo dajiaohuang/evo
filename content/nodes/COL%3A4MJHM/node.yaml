@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis martiae
+  displayName: Pristimantis martiae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJHM
+  sourceIndexes:
+    - name:
+        en: Pristimantis martiae
+        zh: Pristimantis martiae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJHM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/395
+            queryName: Pristimantis martiae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/429
+            queryName: Eleutherodactylus martiae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bdee59a7d2
+      - s-2a4ffc41a2
+      - s-4e24888a52
+      - s-efeaf000c9
+      - s-3bf517bcf6
+      - s-a33d00650c
+      - s-edbb45f219
+      - s-379c5e15a0
+      - s-61e3a81d05
+      - s-dcce78e246
+      - s-8e76ca12e7
+      - s-e41819d747
+      - s-79d16df7b0
+      - s-6a2457f7c3
+      - s-cecf90d3cc
+      - s-080498a4e7
+      - s-d6ddc41fc7
+      - s-7355623f0f
+      - s-f3aefc42d2
+    zh:
+      - s-285ac38092
+      - s-52cd9047cb
+      - s-3985f41d4c
+      - s-b7214dc8af
+      - s-ebe6b3d102
+      - s-f87fae67b8
+      - s-26ff30fc24
+      - s-93978037a6
+      - s-4f764fb990
+      - s-5043fd10e3
+      - s-08df9c87f8
+      - s-506caecd68
+      - s-2fe52691ec
+      - s-45ab505124
+      - s-beda52d77a
+      - s-c94a0c9aff
+      - s-8c330f37df
+      - s-f32817b7cb
+      - s-85f8e2222a

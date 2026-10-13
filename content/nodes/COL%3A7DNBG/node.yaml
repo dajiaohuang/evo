@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uraeotyphlus malabaricus
+  displayName: Uraeotyphlus malabaricus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DNBG
+  sourceIndexes:
+    - name:
+        en: Uraeotyphlus malabaricus
+        zh: Uraeotyphlus malabaricus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DNBG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/216
+            queryName: Uraeotyphlus malabaricus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/30
+            queryName: Cecilia malabarica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-55ab08c146
+      - s-84c76c276b
+      - s-33cc7e3175
+      - s-974ff3f8ab
+      - s-5e3fd173c3
+      - s-adccdc8d5b
+      - s-40b3d5678d
+      - s-af687e7d8d
+      - s-5915eb50f7
+      - s-e2478985bc
+      - s-14c2f2cee5
+      - s-97b5656253
+      - s-5ae62c7ad4
+    zh:
+      - s-e5f437ed7c
+      - s-f5d773b23f
+      - s-61d6f2e2a5
+      - s-572688caa9
+      - s-b27e57d090
+      - s-083ea4d097
+      - s-5043599283
+      - s-032f15d8d5
+      - s-44318d6cf2
+      - s-1dfe170f39
+      - s-2defa8853a
+      - s-14ea344b90
+      - s-72df9420a6

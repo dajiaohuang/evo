@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Neurergus strauchii
+    name:
+      en: Neurergus strauchii
+      zh: Neurergus strauchii
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Neurergus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a95cb41aa4
+            part: body
+          zh:
+            page: zh
+            section: s-70c0b4d197
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5f60e8e92e
+            part: body
+          zh:
+            page: zh
+            section: s-f2ac22c521
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 220; Reference.csv rows 4095
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 220
+        values:
+          - Salamandridae
+          - Neurergus
+          - Neurergus strauchii
+          - NA
+          - "155.8"
+          - "78.6"
+          - NA
+          - "39.2"
+          - "17.5"
+          - "13.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "81.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "23.7"
+          - "26.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4095
+        values:
+          - Caudata
+          - Neurergus_strauchii
+          - "Olgun, K., Avci, A., Bozkurt, E., Uzum, N., Olgun, H., & Ilgaz, C. (2016). A new subspecies of anatolia newt, Neurergus strauchii (steindachner, 1887) (urodela: salamandridae), from Tunceli, Eastern Turkey. Russian Journal of Herpetology, 23(4), 271-277. https://doi.org/10.30906/1026-2296"
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6RYPW
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

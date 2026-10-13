@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis paulodutrai
+  displayName: Pristimantis paulodutrai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W8G4
+  sourceIndexes:
+    - name:
+        en: Pristimantis paulodutrai
+        zh: Pristimantis paulodutrai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W8G4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/478
+            queryName: Pristimantis paulodutrai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/477
+            queryName: Eleutherodactylus paulodutrai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/447
+            queryName: Ischnocnema paulodutrai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-437cae393b
+      - s-3d00139c21
+      - s-2270852425
+      - s-f382d9f6b7
+      - s-02e31cac96
+      - s-06bab3bc18
+      - s-cfb99619ce
+      - s-74a7a74efc
+      - s-3db7557ba2
+      - s-b00319c864
+    zh:
+      - s-a3d215a217
+      - s-8dac037729
+      - s-9daefa4d9e
+      - s-2062976eb2
+      - s-0744d478cb
+      - s-6dceb79d2d
+      - s-1a645ea910
+      - s-1a748a04ff
+      - s-ccb727d808
+      - s-fa823a3b4a

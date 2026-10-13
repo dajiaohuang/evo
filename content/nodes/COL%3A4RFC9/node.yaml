@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ranodon sibiricus
+  displayName: Ranodon sibiricus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RFC9
+  sourceIndexes:
+    - name:
+        en: Ranodon sibiricus
+        zh: Ranodon sibiricus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RFC9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/114
+            queryName: Ranodon sibiricus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 41
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/278
+            queryName: Triton sibiricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/279
+            queryName: Ranodon kessleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/280
+            queryName: Ranidens sibiricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/281
+            queryName: Ranodon kozhevnikovi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd4167a55a
+      - s-87e6b7c48c
+      - s-fef65f140b
+      - s-6b2506ef93
+      - s-c0eb57600f
+      - s-6704968b3b
+      - s-b532173153
+      - s-63fb3cf16c
+      - s-01705c0d79
+    zh:
+      - s-5dc923d8ed
+      - s-5554d2d1ad
+      - s-5819d33e4d
+      - s-0ef6f7e7f7
+      - s-a5fd6966fb
+      - s-ea389c70cf
+      - s-e544ddd6f7
+      - s-c2cbdf071c
+      - s-231eef68f2

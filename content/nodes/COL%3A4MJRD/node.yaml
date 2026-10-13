@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis viejas
+  displayName: Pristimantis viejas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJRD
+  sourceIndexes:
+    - name:
+        en: Pristimantis viejas
+        zh: Pristimantis viejas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJRD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/169
+            queryName: Pristimantis viejas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/96
+            queryName: Eleutherodactylus viejas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f244e9e714
+      - s-46c7dc951a
+      - s-4e3c630728
+      - s-870cdcaa9d
+      - s-dc0b1cda79
+      - s-cacef008c3
+      - s-f60ee3350e
+      - s-cc50230341
+    zh:
+      - s-73340b475e
+      - s-a980cd935b
+      - s-0b48457925
+      - s-9831d203cd
+      - s-aee62609f3
+      - s-cc898e0eb2
+      - s-969a646728
+      - s-fd7e3d0a15

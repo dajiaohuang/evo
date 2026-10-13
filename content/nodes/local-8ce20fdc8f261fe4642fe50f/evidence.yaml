@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gephyromantis schilfi
+    name:
+      en: Gephyromantis schilfi
+      zh: Gephyromantis schilfi
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Gephyromantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0e5d4ad8b6
+            part: body
+          zh:
+            page: zh
+            section: s-b01be893f5
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d94d43662e
+            part: body
+          zh:
+            page: zh
+            section: s-453a528e5b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1991; Reference.csv rows 450
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1991
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis schilfi
+          - M
+          - "29.8"
+          - "11.6"
+          - "9.5"
+          - "4.6"
+          - "1.9"
+          - NA
+          - NA
+          - "2.6"
+          - NA
+          - "2.9"
+          - NA
+          - "2.5"
+          - "9.3"
+          - NA
+          - NA
+          - "16.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 450
+        values:
+          - Anura
+          - Gephyromantis_schilfi
+          - Scherz, M. D., Rakotoarison, A., Ratsoavina, F. M., Hawlitschek, O., Vences, M., & Glaw, F. (2018). Two new Madagascan frog species of the Gephyromantis (Duboimantis) tandroka complex from northern Madagascar. Alytes, 36(1-4), 130-158.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6KCZZ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

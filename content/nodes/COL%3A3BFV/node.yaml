@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis
+  displayName: Boophis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3BFV
+  sourceIndexes:
+    - name:
+        en: Boophis
+        zh: Boophis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3BFV
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/241
+            queryName: Boophis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 82
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-19e08f0be2
+      - s-0aebc02ca1
+      - s-fa2c7e8b35
+      - s-64c8ff7d28
+      - s-743627251c
+      - s-e897b72cfd
+    zh:
+      - s-f8e6cb232c
+      - s-2cdef069a4
+      - s-1e8e425217
+      - s-01950ff76d
+      - s-28e22cb3ab
+      - s-44da65f81a

@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cyrtanthus erubescens Killick
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6BWC3, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6BWC3; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6BWC3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6BWC3
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000764913-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6BWC3 / WFO wfo-0000764913
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_11504_0
+        referenceId: ref-2236a417-021e-8cef-aedd-e13f00c513ec
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cyrtanthus erubescens Killick account; SANBI/WFO archive rows 83075 (Morphology), 82575 (Habitat), 71408 (Diagnostic), source identifier 11504.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Bulbs up to 10 cm tall and 4-6 cm diam., more or less gradually tapered from near base to neck, with membranous tunic. Leaves 2-4, developing at same time or slightly later than the inflorescence, strap-shaped, 20-60 cm long, 2-6 cm wide, central midrib prominent on under surface, margin red in lower third of blade. Scape 20-50 cm tall, 1-1.5 cm diam., hollow. Spathe-valves 2, subtending umbel, 4-7 cm long, 1.5-2 cm wide, the outer appreciably larger than the inner. Umbel 9-15-flowered; pedicels varying in length, but rarely more than 5 cm long (elongating to 7 cm in fruit), erect or suberect. Perianth pink, 3-4 cm long, with one of the uppermost inner perianth segments very slightly less spreading than all the others and with the style arching somewhat under it. Tube 8-10 mm long, campanulate; lobes curved, spreading, 2-3 cm long, oblong-lanceolate; outer lobes 6.5 mm broad with small tuft of hairs within apex; inner lobes 6 mm broad with few hairs at apex. Stamens 6, 3 attached to the throat of the perianth opposite the outer segments and 3 on the inner segments just below their base; anthers versatile. Ovary 6 mm long, 4-5 mm diam. Loculi many-ovuled, in 2 ranks. Stigma trifid, the lobes recurved with the margins slightly revolute. Capsule 2.5 cm long, 1.7 cm broad; seeds compressed, shiny, black.
+            textZh: Cyrtanthus erubescens Killick 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_11504_0
+            locator: "SANBI/WFO archive Morphology row 83075; source identifier 11504.0; cited publication: Reid, C; Dyer, RA. 1984. A review of the southern African species of Cyrtanthus. American Plant Life Society, La Jolla Stanford. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The author of C. erubescens was faced with the problem of where to place the species-in Cyrtanthus or Anoiganthus. The characters used by authors to distinguish the two genera, namely relative length of the perianth tube to the segments (Phillips, 1951), and position of insertion of the anthers (Baker, Handb. Amaryllid. ix. 1888), did not hold, and consequently he placed the species in Cyrtanthus, sensu lato. In addition, Gouws (1949) and Wilsenach (1963), found that the ideograms of the two genera were more or less identical. Anoiganthus was eventually sunk by Gordon-Gray and Wright (1969).
+            textZh: SANBI 条目提供了 Cyrtanthus erubescens Killick 的鉴别特征。
+            sourceIds:
+              - sanbi_11504_0
+            locator: "SANBI/WFO archive Diagnostic row 71408; source identifier 11504.0; cited publication: Reid, C; Dyer, RA. 1984. A review of the southern African species of Cyrtanthus. American Plant Life Society, La Jolla Stanford. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mountainous Natal Drakensberg.
+            textZh: 该 SANBI 区域物种条目记录的生境：Mountainous Natal Drakensberg.
+            sourceIds:
+              - sanbi_11504_0
+            locator: "SANBI/WFO archive Habitat row 82575; source identifier 11504.0; cited publication: Reid, C; Dyer, RA. 1984. A review of the southern African species of Cyrtanthus. American Plant Life Society, La Jolla Stanford. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

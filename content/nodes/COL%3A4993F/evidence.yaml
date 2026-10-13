@@ -1,0 +1,449 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ololygon longilinea (Lutz, 1968)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ololygon longilinea
+      zh: Ololygon longilinea
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-307a77f23a
+            part: title
+          zh:
+            page: zh
+            section: s-1dc2a1d3e2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-307a77f23a
+            part: body
+          zh:
+            page: zh
+            section: s-1dc2a1d3e2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ca4e642910
+            part: title
+          zh:
+            page: zh
+            section: s-9d77f2f42e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ca4e642910
+            part: body
+          zh:
+            page: zh
+            section: s-9d77f2f42e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0fa8438f84
+            part: title
+          zh:
+            page: zh
+            section: s-5b69cadc99
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-0fa8438f84
+            part: body
+          zh:
+            page: zh
+            section: s-5b69cadc99
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-dc44be1ff5f59f6709a11127
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-75f921b56829a45499c5fb7ed916a1ba
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9b51e71913
+            part: title
+          zh:
+            page: zh
+            section: s-b10dbd5250
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-9b51e71913
+            part: body
+          zh:
+            page: zh
+            section: s-b10dbd5250
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f58a33102b
+            part: title
+          zh:
+            page: zh
+            section: s-7d34e3046c
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4993f
+        text:
+          en:
+            page: en
+            section: s-f58a33102b
+            part: body
+          zh:
+            page: zh
+            section: s-7d34e3046c
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a6153d9116
+            part: title
+          zh:
+            page: zh
+            section: s-14697f0bcc
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4993f
+        text:
+          en:
+            page: en
+            section: s-a6153d9116
+            part: body
+          zh:
+            page: zh
+            section: s-14697f0bcc
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-db3114793d
+            part: title
+          zh:
+            page: zh
+            section: s-5daec35b3b
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4993f
+        text:
+          en:
+            page: en
+            section: s-db3114793d
+            part: body
+          zh:
+            page: zh
+            section: s-5daec35b3b
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-557c7b0212
+            part: title
+          zh:
+            page: zh
+            section: s-bb7d25123f
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4993f
+          - primary-pmc10688756-4993f-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-557c7b0212
+            part: body
+          zh:
+            page: zh
+            section: s-bb7d25123f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ololygon longilinea
+          url: https://www.checklistbank.org/dataset/316115/taxon/4993F
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2153, 2154; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2669; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2669 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10688756-4993f
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ololygon longilinea: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10688756-4993f-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: "COL26.8 dataset316115; Scinax longilineus: usage4VJXK accepted4993F; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json"
+          scope:
+            en: Explicit nomenclatural accepted-links only; biological-concept equivalence and original specimen identity uncertified.
+            zh: 仅明确命名接受名链接；生物学概念等同性及原标本身份未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc10688756-4993f-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-44fdf39c8c
+        part: body
+      zh:
+        page: zh
+        section: s-75eeaabaf0
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-dc44be1ff5f59f6709a11127
+        scientificName: Ololygon longilinea
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-4993f
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 source workbook names Scinax longilineus linked through explicit frozen COL26.8 nomenclatural records; original row concepts retained, not certified specimen identity
+        evidenceRead: "Ololygon longilinea: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax longilineus: development and oviposition coding"
+              zh: 工作簿记录 Scinax longilineus：发育及产卵编码
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4993f
+            locator: PMC10688756 S3 Traits row423 Scinax_longilineus; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a4cd43d445
+                part: body
+              zh:
+                page: zh
+                section: s-5edfd5587f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax longilineus: juvenile habitat and egg sites"
+              zh: 工作簿记录 Scinax longilineus：幼体生境及卵位点
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4993f
+            locator: PMC10688756 S3 Traits row423 Scinax_longilineus; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read habitat/S1–S7 columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a5853f1ac4
+                part: body
+              zh:
+                page: zh
+                section: s-cc7f778ea1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: "Workbook record Scinax longilineus: inference and length limits"
+              zh: 工作簿记录 Scinax longilineus：推断及长度限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4993f
+            locator: PMC10688756 S3 Traits row423 Scinax_longilineus; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read length/Observation columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-08cfaffbf9
+                part: body
+              zh:
+                page: zh
+                section: s-d20a6c7619
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: "Workbook record Scinax longilineus: an explicit frozen catalogue accepted-link"
+              zh: 工作簿记录 Scinax longilineus：明确冻结目录接受名链接
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4993f
+            locator: PMC10688756 S3 Traits row423 Scinax_longilineus; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read; COL26.8 usage4VJXK accepted4993F; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json Scinax longilineus
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e3ec879fda
+                part: body
+              zh:
+                page: zh
+                section: s-46d2c044c3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

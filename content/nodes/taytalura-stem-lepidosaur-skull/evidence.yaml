@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-f82ef362aa
+      part: title
+    titleZh:
+      page: zh
+      section: s-49794046ba
+      part: title
+    category: morphology
+    startAge: 231.4
+    endAge: 225.9
+    regions:
+      - Ischigualasto Formation, San Juan Province, Argentina
+    clades:
+      - Lepidosauromorpha
+      - Taytalura alcoberi
+    summary:
+      page: en
+      section: s-f82ef362aa
+      part: body
+    summaryZh:
+      page: zh
+      section: s-49794046ba
+      part: body
+    claimIds:
+      - claim:event:taytalura-stem-lepidosaur-skull
+    evidenceItems:
+      - statement: PVSJ 698 is a three-dimensionally preserved skull documented by micro-CT; the paper reports a mixture of early diapsid and lepidosaur-like cranial character states and tests it under multiple data partitions and optimality criteria.
+        relation: supports
+        claimIds:
+          - claim:event:taytalura-stem-lepidosaur-skull
+        referenceLinks:
+          - referenceId: martinez-2021-taytalura
+            relation: supports
+            pages: 235–238
+            figure: Figures 1–2; Extended Data Figures 1–10
+            quoteLocator: Description; Phylogenetic analyses; Methods
+    uncertaintyItems:
+      - statement: The earliest-evolving sampled lepidosauromorph placement and inferred ancestral skull architecture are topology-dependent reconstructions; a single skull is not a direct ancestor, a whole-body record or a global biogeographic range.
+        relation: contextualizes
+        claimIds:
+          - claim:event:taytalura-stem-lepidosaur-skull
+        referenceLinks:
+          - referenceId: martinez-2021-taytalura
+            relation: supports
+            pages: 235–238
+            figure: Figure 2
+            quoteLocator: Phylogenetic results; Discussion
+  claims:
+    - subjectId: event:taytalura-stem-lepidosaur-skull
+      claimKind: scientific
+      claimType: topology
+      statement: Three-dimensional holotype PVSJ 698 supplies CT-resolved cranial characters recovered as an early-diverging stem lepidosauromorph across the cited analyses; that placement does not make the individual a direct ancestor or establish whole-body anatomy.
+      confidence: medium
+      confidenceRationale: Preservation and CT observations are strong, and placement was tested under several analytical settings. The claim remains medium because only a skull is known and topology and ancestral-state reconstruction remain model dependent.
+      referenceLinks:
+        - referenceId: martinez-2021-taytalura
+          relation: supports
+          pages: 235–238
+          figure: Figures 1–2; Extended Data Figures 1–10
+          quoteLocator: pp. 235–238, Figs. 1–2 and Extended Data Figs. 1–10; Description, Phylogenetic analyses and Methods
+  claim-rationales.zh:
+    - 三维保存和 CT 观察较强，且位置在多种分析设置中受检验；仅有头骨且拓扑和祖先状态重建仍依赖模型，因此采用中等置信度。
+  claim-statements.zh:
+    - 三维保存的正模 PVSJ 698 提供了 CT 解析的头骨性状，并在所引分析中被恢复为早分化的鳞龙形类干群成员；这一位置不使该个体成为直系祖先，也不能建立其全身解剖。

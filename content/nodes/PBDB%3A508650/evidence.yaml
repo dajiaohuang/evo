@@ -1,0 +1,138 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Pelodryadidae
+    rank: family
+    sourceTaxonId: txn:508650
+    name:
+      en: Pelodryadidae
+      zh: Pelodryadidae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-f9af77b1c6
+            part: body
+          zh:
+            page: zh
+            section: s-7a0fa7001f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-25cb0d5a90
+            part: body
+          zh:
+            page: zh
+            section: s-9b8971428d
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-e6e69233ca
+            part: body
+          zh:
+            page: zh
+            section: s-d055953900
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-2903f480e5
+            part: body
+          zh:
+            page: zh
+            section: s-588846dd49
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:508650; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. M. Farman, M. Archer, and S. J. Hand. 2025. Early Eocene pelodryadid from the Tingamarra Local Fauna, Murgon, southeastern Queensland, Australia, and a new fossil calibration for molecular phylogenies of frogs. Journal of Vertebrate Paleontology
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:508651
+      exactOccurrenceCount: 1
+      datedOccurrenceCount: 1
+      collectionIntervalBoundsMa:
+        older: 56
+        younger: 48.07
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-2903f480e5
+            part: body
+          zh:
+            page: zh
+            section: s-588846dd49
+            part: body
+        sourceIds: []

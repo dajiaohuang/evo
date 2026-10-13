@@ -1,0 +1,71 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis sylvaticus
+  displayName: Arthroleptis sylvaticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYSP
+  sourceIndexes:
+    - name:
+        en: Arthroleptis sylvaticus
+        zh: Arthroleptis sylvaticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYSP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/182
+            queryName: Arthroleptis sylvaticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/257
+            queryName: Schoutedenella sylvatica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-182573df8b
+      - s-f61619626a
+      - s-3e25ee1086
+      - s-9af3e5dfa8
+      - s-b7c91c3a37
+      - s-ecd64b9f9c
+      - s-38622526c6
+      - s-3f4a4aa47b
+      - s-ec37c5fb41
+      - s-2dcd71e810
+      - s-dc256e020c
+      - s-e4105ca918
+    zh:
+      - s-67cf2322eb
+      - s-c809eb24ce
+      - s-9d637834e1
+      - s-22e3cd8e54
+      - s-d10a993139
+      - s-9895deef68
+      - s-5981d48a93
+      - s-fa030e2552
+      - s-402d33245f
+      - s-9d6cdf00d1
+      - s-489a49c2b2
+      - s-98b532aebb
+      - s-48fa803248

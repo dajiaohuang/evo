@@ -1,0 +1,536 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Anaxyrus exsul
+    name:
+      en: Anaxyrus exsul
+      zh: Anaxyrus exsul
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Anaxyrus exsul in the pinned AmphiTherm file
+          zh: 固定版 AmphiTherm 中的 Anaxyrus exsul
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-0cc01f2322
+            part: body
+          zh:
+            page: zh
+            section: s-ec539f3407
+            part: body
+      - topic: ecology
+        title:
+          en: "Row 298 (ID 374): critical upper thermal-limit estimate"
+          zh: 第 298 行（ID 374）：临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "374"
+        text:
+          en:
+            page: en
+            section: s-a0d8a40e8c
+            part: body
+          zh:
+            page: zh
+            section: s-04a5ba5f84
+            part: body
+        sourceRowNumber: 298
+      - topic: ecology
+        title:
+          en: "Row 383 (ID 459): critical lower thermal-limit estimate"
+          zh: 第 383 行（ID 459）：临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "459"
+        text:
+          en:
+            page: en
+            section: s-9475d82475
+            part: body
+          zh:
+            page: zh
+            section: s-6d3e6c45f7
+            part: body
+        sourceRowNumber: 383
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 298, 299, 300, 383; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 298
+        values:
+          - "374"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Anaxyrus_exsul_pop1
+          - Anaxyrus_exsul_pop1_UTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Anaxyrus exsul
+          - NA
+          - VU
+          - wild
+          - NA
+          - "38"
+          - "-117.985"
+          - "1524"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "35.1"
+          - NA
+          - "10"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 299
+        values:
+          - "375"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Anaxyrus_exsul_pop1
+          - Anaxyrus_exsul_pop1_UTL_co2
+          - NA
+          - Anura
+          - Bufonidae
+          - Anaxyrus exsul
+          - NA
+          - VU
+          - wild
+          - NA
+          - "38"
+          - "-117.985"
+          - "1524"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "36.2"
+          - NA
+          - "10"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 300
+        values:
+          - "376"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Anaxyrus_exsul_pop1
+          - Anaxyrus_exsul_pop1_UTL_co3
+          - NA
+          - Anura
+          - Bufonidae
+          - Anaxyrus exsul
+          - NA
+          - VU
+          - wild
+          - NA
+          - "38"
+          - "-117.985"
+          - "1524"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "30"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "55"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "37.1"
+          - NA
+          - "10"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 383
+        values:
+          - "459"
+          - Ana Longo
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Anaxyrus_exsul_pop1
+          - Anaxyrus_exsul_pop1_LTL_co1
+          - NA
+          - Anura
+          - Bufonidae
+          - Anaxyrus exsul
+          - NA
+          - VU
+          - wild
+          - NA
+          - "38"
+          - "-117.985"
+          - "1524"
+          - NA
+          - NA
+          - NA
+          - "1964"
+          - "1965"
+          - California,DeepSprings
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - "1"
+          - "17.5"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - The endpoint and ramping rates were assumed to be the same as for the CTmax experiment
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "-4"
+          - NA
+          - "5"
+          - NA
+          - Sample size was taken as 5 because it is stated that, "in most cases the number of animals used per point was 5-10"
+    originalStudyCitations:
+      - ref: Brattstrom_1968
+        title: Thermal acclimation in anuran amphibians as a function of latitude and altitude
+        doi: https://doi.org/10.1016/0010-406X(68)90961-4
+        year: "1968"
+    selectedEstimateRowNumbers:
+      - 298
+      - 383
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 66M6Y
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

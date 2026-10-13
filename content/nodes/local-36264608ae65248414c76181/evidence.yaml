@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hyperolius discodactylus
+    name:
+      en: Hyperolius discodactylus
+      zh: Hyperolius discodactylus
+    sourceClassification:
+      order: Anura
+      family: Hyperoliidae
+      genus: Hyperolius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hyperolius discodactylus in the version 3 classification
+          zh: Hyperolius discodactylus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5683114fed
+            part: body
+          zh:
+            page: zh
+            section: s-745f175e33
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 15 populated trait fields
+          zh: 2 条测量行与 15 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1a979f2a17
+            part: body
+          zh:
+            page: zh
+            section: s-3bc08ca796
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2291, 2292; Reference.csv rows 2318
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2291
+        values:
+          - Hyperoliidae
+          - Hyperolius
+          - Hyperolius discodactylus
+          - F
+          - "31.87"
+          - NA
+          - "11.78"
+          - "3.22"
+          - NA
+          - NA
+          - "4.45"
+          - "3"
+          - "2.45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16.32"
+          - "15.77"
+          - "9.2"
+          - NA
+          - NA
+          - "5.43"
+          - "8.28"
+          - "12.08"
+          - "15.57"
+          - "12.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "31.5"
+      - rowNumber: 2292
+        values:
+          - Hyperoliidae
+          - Hyperolius
+          - Hyperolius discodactylus
+          - M
+          - "28.67"
+          - NA
+          - "10.19"
+          - "2.7"
+          - NA
+          - NA
+          - "3.94"
+          - "2.6"
+          - "2.17"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.41"
+          - "14.15"
+          - "7.97"
+          - NA
+          - NA
+          - "5"
+          - "7.28"
+          - "10.82"
+          - "13.58"
+          - "11.45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "28.63"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2318
+        values:
+          - Anura
+          - Hyperolius_discodactylus
+          - "Liedtke, H. C., Hugli, D., Dehling, J. M., Pupin, F., Menegon, M., Plumptre, A. J., . . . Loader, S. P. (2014). One or two species? On the case of Hyperolius discodactylus Ahl, 1931 and H. alticola Ahl, 1931 (Anura: Hyperoliidae). Zootaxa, 3768, 253-290. https://doi.org/10.11646/zootaxa.3768.3.2"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - TL
+      - THL
+      - TSL
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NQST
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

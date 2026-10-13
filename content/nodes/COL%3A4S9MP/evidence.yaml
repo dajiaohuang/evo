@@ -1,0 +1,120 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinopithecus strykeri Geissmann, Ngwe Lwin, Saw Soe Aung, Thet Naing Aung, Zin Myo Aung, Tony Htin Hla et al., 2010
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 缅甸仰鼻猴
+      en: Stryker's Snub-nosed Monkey
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-3bce483a8f
+            part: body
+          en:
+            page: en
+            section: s-7d979e1ff1
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - description2010
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-5fe0043a7c
+            part: body
+          en:
+            page: en
+            section: s-278025d339
+            part: body
+        sourceIds:
+          - description2010
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-35fcf5d664
+            part: body
+          en:
+            page: en
+            section: s-d3153400d9
+            part: body
+        sourceIds:
+          - border2022
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-51c9ea5da4
+            part: body
+          en:
+            page: en
+            section: s-b22466221a
+            part: body
+        sourceIds:
+          - border2022
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Rhinopithecus strykeri
+          url: https://www.checklistbank.org/dataset/316115/taxon/4S9MP
+          scope:
+            zh: 固定名录中的接受名、作者、2010 年份、等级和分类父链。
+            en: Pinned checklist name, authorship year 2010, rank and parent links.
+      - id: mdd_name
+        referenceId: ref-3a47a6ab-b739-8e2f-a1b8-e4c6ab084a99
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持精确联接的英文普通名和该数据库记录的 2011 作者年份；分类身份仍按固定 COL26.8 ID。
+            en: Supports the exact-matched English common name and the database record’s 2011 authorship year; taxonomic identity follows the pinned COL26.8 ID.
+      - id: description2010
+        referenceId: ref-094630af-c62f-804e-a5a1-9676bb1d7bb6
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持原始物种描述、四份猎人取得的标本及在线发表和卷期年份信息；不是野外数量普查。
+            en: Supports the original species description, four hunter-obtained specimens and online/issue publication dates; not a wild-population census.
+      - id: border2022
+        referenceId: ref-7e74c1e1-b01e-81d1-a39b-a95b5be5362d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 2019–2021 年丙马地区调查、一次群体清点与一个跨境群体的范围估计。
+            en: Supports the 2019–2021 Pianma survey, one group census and local transboundary-group range estimate.
+    limitations:
+      zh:
+        page: zh
+        section: s-5866941663
+        part: body
+      en:
+        page: en
+        section: s-8d44143250
+        part: body

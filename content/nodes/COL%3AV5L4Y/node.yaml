@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys spinata
+  displayName: Boulenophrys spinata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5L4Y
+  sourceIndexes:
+    - name:
+        en: Boulenophrys spinata
+        zh: Boulenophrys spinata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5L4Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/383
+            queryName: Boulenophrys spinata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/266
+            queryName: Xenophrys spinata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/120
+            queryName: Megophrys spinata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/121
+            queryName: Megophrys spinatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/314
+            queryName: Panophrys spinata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d106213c28
+      - s-6b11b26ec0
+      - s-fc3fb0b3ed
+      - s-2a04e7c951
+      - s-c495606e02
+      - s-3f33aa4f52
+      - s-0e90fec713
+      - s-78ed3cc4a0
+      - s-7fc29801ef
+      - s-07e7ae6557
+      - s-9e117d429a
+      - s-e3a28db14c
+      - s-fb2ea50618
+    zh:
+      - s-bb1cf8a43d
+      - s-c5e5a5929c
+      - s-994a16aa86
+      - s-71102c29f7
+      - s-fd84050df2
+      - s-333d7f27e8
+      - s-8ebf459b25
+      - s-298479a066
+      - s-1d2b9477d4
+      - s-68110abedd
+      - s-b665779e69
+      - s-25951b38e9
+      - s-c782c96e96

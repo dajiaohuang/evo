@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus
+  displayName: Trachycephalus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/647ZW
+  sourceIndexes:
+    - name:
+        en: Trachycephalus
+        zh: Trachycephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 647ZW
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/309
+            queryName: Trachycephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 389
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aeb9d6428c
+      - s-07384bfbdc
+      - s-3efddc12cd
+      - s-a3fdfa92db
+      - s-e9bcb0be78
+      - s-64c4fff7f9
+      - s-d9097c4707
+      - s-0ed4d81492
+      - s-0ac88fa625
+      - s-acb8fa3134
+      - s-44310ceb76
+      - s-0504fd7f13
+      - s-db401457b6
+      - s-9ae6716b18
+      - s-f8b4a6b22a
+      - s-cc3bb65516
+      - s-9710471548
+      - s-afadf6d617
+      - s-506fd33cca
+      - s-a78a2df457
+      - s-7eedc942b9
+      - s-a485cc674b
+      - s-4187ce455c
+      - s-c810cec67b
+      - s-aadd82fefa
+      - s-1a35ca151e
+      - s-9f6d4f1a5b
+      - s-42644502c0
+      - s-e06ce0357f
+      - s-a9c9542f7b
+      - s-d9e528365a
+      - s-2ac4129f98
+      - s-696bbdb873
+      - s-f0d7bdc886
+      - s-a0c6906c7a
+      - s-4603576967
+      - s-2ca4acda35
+    zh:
+      - s-8b7bc2e3d3
+      - s-9eaeb14192
+      - s-4ab9bae8a6
+      - s-ac4b8ddd2c
+      - s-78407fe797
+      - s-e034544aa2
+      - s-80a643c523
+      - s-33b764fe8c
+      - s-a869b9e451
+      - s-4130e3ae0f
+      - s-f6b8b26284
+      - s-138283e235
+      - s-5ce0a7915e
+      - s-9024bdc8a5
+      - s-66ab86cf74
+      - s-4a8a217f44
+      - s-60eca2b783
+      - s-c997957836
+      - s-b909333a3f
+      - s-bff75c01bd
+      - s-0ab735ade6
+      - s-8abc2faab4
+      - s-e93910922d
+      - s-85e96fa607
+      - s-adb7b64785
+      - s-d04c5601d8
+      - s-a20d7cb69c
+      - s-2ac1ac6d91
+      - s-2836ca07ef
+      - s-0d994c71c7
+      - s-4c88fac58e
+      - s-947c6b6559
+      - s-733b51ac08
+      - s-6fd3e418c8
+      - s-20d699cf24
+      - s-bf8b53b537
+      - s-1e822295ca

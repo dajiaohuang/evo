@@ -1,0 +1,190 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Aneides flavipunctatus
+    name:
+      en: Aneides flavipunctatus
+      zh: Aneides flavipunctatus
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Aneides
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Aneides flavipunctatus in the morphology deposit
+          zh: 形态数据中的 Aneides flavipunctatus 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0946822131
+            part: body
+          zh:
+            page: zh
+            section: s-3b504f1abd
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 16 and 17: measurement fields and sex codes"
+          zh: 第 16、17 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-88aa6c7c0c
+            part: body
+          zh:
+            page: zh
+            section: s-228c87680f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 16, 17; Reference.csv rows 4221
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 16
+        values:
+          - Plethodontidae
+          - Aneides
+          - Aneides flavipunctatus
+          - F
+          - NA
+          - "71.2"
+          - NA
+          - NA
+          - NA
+          - "10.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "61.944"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 17
+        values:
+          - Plethodontidae
+          - Aneides
+          - Aneides flavipunctatus
+          - M
+          - NA
+          - "72.8"
+          - NA
+          - NA
+          - NA
+          - "11.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "68.432"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4221
+        values:
+          - Caudata
+          - Aneides_flavipunctatus
+          - "Reilly, S. B., & Wake, D. B. (2019). Taxonomic revision of black salamanders of the Aneides flavipunctatus complex (Caudata: Plethodontidae). PeerJ, 7, e7370. https://doi.org/10.7717/peerj.7370"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - DW57
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aspideretoides superstes
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Aspideretoides superstes
+      en: Aspideretoides superstes
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-95a8fa78ea
+            part: body
+          en:
+            page: en
+            section: s-edb186d745
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-14f7080768
+            part: body
+          en:
+            page: en
+            section: s-8ae96288dd
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-81ecc42984
+            part: body
+          en:
+            page: en
+            section: s-dc1ed88fd9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-423a32076f
+            part: body
+          en:
+            page: en
+            section: s-e83c0b1f20
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-aafe6299c6
+            part: body
+          en:
+            page: en
+            section: s-fcfdbc211d
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Aspideretoides superstes
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=340422&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:340422; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:340422
+          selectedOccurrenceIds:
+            - occ:1266709
+            - occ:1266714
+            - occ:1266715
+            - occ:1315276
+            - occ:1327728
+            - occ:1554592
+          selectedCollectionIds:
+            - col:168334
+            - col:168337
+            - col:168336
+            - col:176515
+            - col:178484
+            - col:48235
+          sourceReferenceIds:
+            - ref:55096
+            - ref:58112
+            - ref:59054
+            - ref:70995
+          originalIdentificationMappings:
+            - occurrenceId: occ:1266709
+              originalIdentifiedName: Atoposemys entopteros
+              acceptedName: Aspideretoides superstes
+              difference: null
+            - occurrenceId: occ:1266714
+              originalIdentifiedName: Atoposemys entopteros n. gen. n. sp.
+              acceptedName: Aspideretoides superstes
+              difference: null
+            - occurrenceId: occ:1266715
+              originalIdentifiedName: Atoposemys entopteros
+              acceptedName: Aspideretoides superstes
+              difference: null
+            - occurrenceId: occ:1315276
+              originalIdentifiedName: '"Aspideretes" superstes'
+              acceptedName: Aspideretoides superstes
+              difference: recombined as
+            - occurrenceId: occ:1327728
+              originalIdentifiedName: Aspideretes superstes n. sp.
+              acceptedName: Aspideretoides superstes
+              difference: recombined as
+            - occurrenceId: occ:1554592
+              originalIdentifiedName: Atoposemys superstes
+              acceptedName: Aspideretoides superstes
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7cf2da280b
+        part: body
+      en:
+        page: en
+        section: s-1163c101de
+        part: body

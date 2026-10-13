@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eupsophus insularis
+  displayName: Eupsophus insularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CYHJ
+  sourceIndexes:
+    - name:
+        en: Eupsophus insularis
+        zh: Eupsophus insularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CYHJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/402
+            queryName: Eupsophus insularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/58
+            queryName: Borborocoetes insularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/299
+            queryName: Eupsophus grayii insularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/459
+            queryName: Cystignathus insularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce96945323
+      - s-0cdd822ef3
+      - s-81b5d35c8b
+      - s-0fd5f070ae
+      - s-11f6e76bc5
+      - s-de66cb9ff4
+      - s-9941f274f6
+      - s-5f92eed12e
+      - s-25207fdf1d
+    zh:
+      - s-5a1aed2278
+      - s-13bc46ff51
+      - s-9fe3bd95ab
+      - s-53021e01f0
+      - s-79fc2ba201
+      - s-a43057f9ec
+      - s-16930a76d4
+      - s-8ee7b0f1ac
+      - s-8eb59bb343

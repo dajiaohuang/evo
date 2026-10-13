@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Meristogenys maryatiae
+  displayName: Meristogenys maryatiae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6RBD8
+  sourceIndexes:
+    - name:
+        en: Meristogenys maryatiae
+        zh: Meristogenys maryatiae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6RBD8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/419
+            queryName: Meristogenys maryatiae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c43fe05fe3
+      - s-8f3552ad27
+      - s-99b6fed7c3
+      - s-88bf94423c
+      - s-905ff718b9
+      - s-e75bde094d
+      - s-d24a38ec2b
+      - s-670e52ca50
+      - s-fa49370248
+      - s-d33dc49ece
+      - s-b300d6f9be
+    zh:
+      - s-2e08f4f0c2
+      - s-15feeef17c
+      - s-70cb9181dc
+      - s-32234c9179
+      - s-104f7172be
+      - s-fe0387b34a
+      - s-66cc1d6258
+      - s-4b5676cb52
+      - s-9339f27580
+      - s-57dff6011c
+      - s-c5a602834f

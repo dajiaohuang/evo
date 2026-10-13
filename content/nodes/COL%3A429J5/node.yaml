@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Metacrinia nichollsi
+  displayName: Metacrinia nichollsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/429J5
+  sourceIndexes:
+    - name:
+        en: Metacrinia nichollsi
+        zh: Metacrinia nichollsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 429J5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/445
+            queryName: Metacrinia nichollsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/405
+            queryName: Pseudophryne nichollsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7ae5949718
+      - s-4fae6f1005
+      - s-9c75788e86
+      - s-37c9ad790c
+      - s-7394fff421
+      - s-6b9a8d05e1
+      - s-0ca93730d8
+      - s-ce648d9cac
+    zh:
+      - s-b50a26a499
+      - s-21d5f148af
+      - s-5b82011c0f
+      - s-1c52cb9cd5
+      - s-dc14fb2ffc
+      - s-0f354f2329
+      - s-8f29e8f3d9
+      - s-c5a60309fa

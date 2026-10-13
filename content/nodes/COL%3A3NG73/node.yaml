@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes fredi
+  displayName: Hylodes fredi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG73
+  sourceIndexes:
+    - name:
+        en: Hylodes fredi
+        zh: Hylodes fredi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG73
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/494
+            queryName: Hylodes fredi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-950d53f9d5
+      - s-af592254d9
+      - s-fd39a38d97
+      - s-c9a0b26cc4
+      - s-c7b7509ff8
+      - s-48233a77d5
+      - s-be2aabee32
+      - s-2f02f22fc3
+      - s-813f66e35c
+      - s-7efaa98f00
+      - s-986337b171
+      - s-0104d08574
+      - s-c0ac61fa11
+      - s-98e14e51e2
+      - s-edc889b77e
+      - s-155877e005
+      - s-c71f3f9acd
+      - s-5bf2f06053
+      - s-909481cea0
+      - s-ecc59682db
+      - s-164ed594d4
+      - s-9e974d9f0a
+      - s-9a00667e4b
+      - s-80e389ca0c
+      - s-fd6e0f850a
+    zh:
+      - s-b7af6c7963
+      - s-8f2629305c
+      - s-af92ac309a
+      - s-5c78ff0934
+      - s-464ced590a
+      - s-ce28be0a34
+      - s-318a399123
+      - s-65876843f6
+      - s-b1621ed572
+      - s-e58ff196cb
+      - s-46980b2e23
+      - s-065d1a6db6
+      - s-9711ea090c
+      - s-c2472a88ae
+      - s-3b50d754c2
+      - s-1972910323
+      - s-8f6d9d32a3
+      - s-4ad81d99ee
+      - s-3ae021c97f
+      - s-436fdd41b1
+      - s-4b38468883
+      - s-43aa4aad7c
+      - s-a5901d0c43
+      - s-d3f2009602
+      - s-967aa0229a

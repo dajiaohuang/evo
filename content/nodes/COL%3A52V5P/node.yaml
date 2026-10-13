@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Strabomantis necopinus
+  displayName: Strabomantis necopinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/52V5P
+  sourceIndexes:
+    - name:
+        en: Strabomantis necopinus
+        zh: Strabomantis necopinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 52V5P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/333
+            queryName: Strabomantis necopinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/451
+            queryName: Eleutherodactylus necopinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/133
+            queryName: Limnophys necopinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ad8b7ed909
+      - s-b7d53573c4
+      - s-3d11a531ec
+      - s-ef36bb4512
+      - s-48671c49ff
+      - s-581ab4a8f8
+      - s-018166c731
+      - s-5fa8576f08
+    zh:
+      - s-96193847a3
+      - s-372f01bb0c
+      - s-6ce2a75a49
+      - s-7b58ff688f
+      - s-6e583145f5
+      - s-ff284de6db
+      - s-32d3c8bb4f
+      - s-9a897e9428

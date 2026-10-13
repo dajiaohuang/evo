@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oscaecilia koepckeorum
+  displayName: Oscaecilia koepckeorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SYRL
+  sourceIndexes:
+    - name:
+        en: Oscaecilia koepckeorum
+        zh: Oscaecilia koepckeorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SYRL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/319
+            queryName: Oscaecilia koepckeorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9d33533d36
+      - s-4ff8723a84
+      - s-6af3a68b0d
+      - s-d30ae955ef
+      - s-09334cd102
+      - s-a4e3440893
+      - s-8b567de29c
+      - s-16be8f5e9f
+      - s-2abb0781d7
+      - s-4584b0f6fd
+    zh:
+      - s-b289fdd6d9
+      - s-22f5e20514
+      - s-82fcd41ab2
+      - s-2d2046f235
+      - s-a585391701
+      - s-e53cb2522d
+      - s-5f71795a7f
+      - s-5148eb5c1d
+      - s-a427701140
+      - s-a7e27a53b9

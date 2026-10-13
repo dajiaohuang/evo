@@ -1,0 +1,386 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Holoaden Miranda-Ribeiro, 1920
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Holoaden
+      zh: Holoaden
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3363421d58
+            part: title
+          zh:
+            page: zh
+            section: s-b4d85cd2c9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3363421d58
+            part: body
+          zh:
+            page: zh
+            section: s-b4d85cd2c9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2343db744e
+            part: title
+          zh:
+            page: zh
+            section: s-35b26d900c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2343db744e
+            part: body
+          zh:
+            page: zh
+            section: s-35b26d900c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-3f7a0dcf17
+            part: title
+          zh:
+            page: zh
+            section: s-efd033f18e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3f7a0dcf17
+            part: body
+          zh:
+            page: zh
+            section: s-efd033f18e
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ade030152e
+            part: title
+          zh:
+            page: zh
+            section: s-37f92298a6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ade030152e
+            part: body
+          zh:
+            page: zh
+            section: s-37f92298a6
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-82e8b0baf9
+            part: title
+          zh:
+            page: zh
+            section: s-3df76e8ab0
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6M9VV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6M9VV
+            label:
+              en: Holoaden bradei
+              zh: Holoaden bradei
+          - kind: catalogue
+            colId: 6M9W7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6M9W7
+            label:
+              en: Holoaden luederwaldti
+              zh: Holoaden luederwaldti
+          - kind: catalogue
+            colId: 6LXVW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6LXVW
+            label:
+              en: Holoaden pholeter
+              zh: Holoaden pholeter
+          - kind: catalogue
+            colId: 6LXW8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6LXW8
+            label:
+              en: Holoaden suarezi
+              zh: Holoaden suarezi
+        text:
+          en:
+            page: en
+            section: s-82e8b0baf9
+            part: body
+          zh:
+            page: zh
+            section: s-3df76e8ab0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10688756-4xx6
+        title:
+          en:
+            page: en
+            section: s-cd6ec1a58c
+            part: title
+          zh:
+            page: zh
+            section: s-e663cd479e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cd6ec1a58c
+            part: body
+          zh:
+            page: zh
+            section: s-e663cd479e
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10688756-4xx6
+        title:
+          en:
+            page: en
+            section: s-43e72ff28d
+            part: title
+          zh:
+            page: zh
+            section: s-5c2fb3a020
+            part: title
+        text:
+          en:
+            page: en
+            section: s-43e72ff28d
+            part: body
+          zh:
+            page: zh
+            section: s-5c2fb3a020
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10688756-4xx6
+        title:
+          en:
+            page: en
+            section: s-3acf383ec1
+            part: title
+          zh:
+            page: zh
+            section: s-bccef59a76
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6M9W7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6M9W7
+            label:
+              en: Holoaden luederwaldti
+              zh: Holoaden luederwaldti
+          - kind: catalogue
+            colId: 6LXVW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6LXVW
+            label:
+              en: Holoaden pholeter
+              zh: Holoaden pholeter
+        text:
+          en:
+            page: en
+            section: s-3acf383ec1
+            part: body
+          zh:
+            page: zh
+            section: s-bccef59a76
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Holoaden
+          url: https://www.checklistbank.org/dataset/316115/taxon/4XX6
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Holoaden; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10688756-4xx6
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: 2 source workbook rows linked to 2 distinct accepted species pages; row traits and limits, not complete genus biology.
+            zh: 2 个来源工作簿行链接 2 个不同接受种页面；行性状及限制，不是全属生物学。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4fcaef6a73
+        part: body
+      zh:
+        page: zh
+        section: s-0acd456b9e
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Holoaden
+      sourceRowIds:
+        - Anf5409
+        - Anf5410
+        - Anf5411
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 3
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 2
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-direct-group-pmc10688756-4xx6
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: Source-labelled Atlantic Forest workbook rows grouped through fixed exact names or explicit catalogue accepted-links; duplicate destinations retained, not biological identity certification
+        evidenceRead: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Reproduction and juvenile habitats retain source-row denominators
+              zh: 繁殖及幼体生境保留来源行分母
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-4xx6
+            locator: PMC10688756 S3 Traits rows 176, 177; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-06cf18a3ea
+                part: body
+              zh:
+                page: zh
+                section: s-2de3c1867f
+                part: body
+            scope:
+              en: 2 source workbook rows linked to 2 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 2 个来源工作簿行链接 2 个不同接受种页面；行性状及限制，不是全属生物学。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Inference flags and community associations have limited scope
+              zh: 推断标记及群落关联具有有限范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-4xx6
+            locator: PMC10688756 S3 Traits rows 176, 177; XML Functional diversity length/Observation columns; Results/Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-df3e813bf5
+                part: body
+              zh:
+                page: zh
+                section: s-c213519d0d
+                part: body
+            scope:
+              en: 2 source workbook rows linked to 2 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 2 个来源工作簿行链接 2 个不同接受种页面；行性状及限制，不是全属生物学。
+    primaryResearchGroupSynthesisComplete: false

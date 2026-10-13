@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema oea
+  displayName: Ischnocnema oea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4S6
+  sourceIndexes:
+    - name:
+        en: Ischnocnema oea
+        zh: Ischnocnema oea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4S6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/33
+            queryName: Ischnocnema oea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/461
+            queryName: Eleutherodactylus oeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-46e34d97bc
+      - s-658b8e2d7f
+      - s-b2c5675c91
+      - s-a0dc6b7747
+      - s-3d96925182
+      - s-02bb2653c5
+      - s-c840e45ff3
+      - s-1e57fb2f59
+      - s-7784cb1862
+      - s-bfa52a045c
+      - s-8b3364c2eb
+      - s-4e6c4452a1
+      - s-95701019f4
+      - s-8999ee71aa
+    zh:
+      - s-cb24b0b1ca
+      - s-ab20667051
+      - s-7162572192
+      - s-0ea2ab7072
+      - s-551fdb33f6
+      - s-9f2de18e31
+      - s-b2d6dd7edd
+      - s-befacf5a5c
+      - s-6cb3215b8f
+      - s-a78ae4b1d1
+      - s-78e99329e9
+      - s-4e20e41112
+      - s-6a33d09eda
+      - s-fabfce9e40

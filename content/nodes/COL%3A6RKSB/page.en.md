@@ -1,0 +1,3 @@
+## *Mikania banisteriae*: woolly vines and pinkish flower heads {#s-a3efce8379}
+The Flora of Panama account, retrieved on 8 September 2026, describes a coarse vine with few branches and dense yellowish woolly hairs on the stems and leaves. Broad, opposite leaves reach about 18 × 10 cm and are heart-shaped at the base. Pyramidal panicles bear small heads with whitish or pinkish corollas. The five-ribbed fruitlets are about 3–4 mm long and carry a pappus of roughly 35–50 slender bristles. The account’s historical distribution statement extends from Costa Rica to Brazil’s Amazon Basin and south to Bolivia; this is not a current range inventory.
+

@@ -1,0 +1,132 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nasutixalus Jiang, Yan, Wang & Che, 2016
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Nasutixalus
+      zh: Nasutixalus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2e725b2b18
+            part: title
+          zh:
+            page: zh
+            section: s-e274fa25dd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2e725b2b18
+            part: body
+          zh:
+            page: zh
+            section: s-e274fa25dd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-69a8287c45
+            part: title
+          zh:
+            page: zh
+            section: s-5be5032abd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-69a8287c45
+            part: body
+          zh:
+            page: zh
+            section: s-5be5032abd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b3e4a917d1
+            part: title
+          zh:
+            page: zh
+            section: s-f4daf0ce40
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 45T5G
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45T5G
+            label:
+              en: Nasutixalus jerdonii
+              zh: Nasutixalus jerdonii
+          - kind: catalogue
+            colId: 45T5H
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45T5H
+            label:
+              en: Nasutixalus medogensis
+              zh: Nasutixalus medogensis
+          - kind: catalogue
+            colId: 45T5J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45T5J
+            label:
+              en: Nasutixalus yingjiangensis
+              zh: Nasutixalus yingjiangensis
+        text:
+          en:
+            page: en
+            section: s-b3e4a917d1
+            part: body
+          zh:
+            page: zh
+            section: s-f4daf0ce40
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nasutixalus
+          url: https://www.checklistbank.org/dataset/316115/taxon/5XSG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f701353a5f
+        part: body
+      zh:
+        page: zh
+        section: s-3edcddf253
+        part: body

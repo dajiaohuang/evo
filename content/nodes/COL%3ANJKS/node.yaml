@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bryophryne abramalagae
+  displayName: Bryophryne abramalagae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NJKS
+  sourceIndexes:
+    - name:
+        en: Bryophryne abramalagae
+        zh: Bryophryne abramalagae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NJKS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/477
+            queryName: Bryophryne abramalagae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3a7672f5b6
+      - s-980dce606a
+      - s-f6acf57e4b
+      - s-b1aca4c241
+      - s-04dac4e66d
+      - s-eecc546ff1
+    zh:
+      - s-3446e42e9f
+      - s-8c6ad2bb77
+      - s-e23786faa9
+      - s-a9d2555d13
+      - s-2847078e1d
+      - s-b4ab0755d1

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophilautus puranappu
+  displayName: Pseudophilautus puranappu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78GZL
+  sourceIndexes:
+    - name:
+        en: Pseudophilautus puranappu
+        zh: Pseudophilautus puranappu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78GZL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/404
+            queryName: Pseudophilautus puranappu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41692ea61c
+      - s-36a552d13d
+      - s-ad59d4e9a9
+      - s-bf2ac8ca2c
+      - s-237c0b23ba
+    zh:
+      - s-0cf6daa052
+      - s-51d730802d
+      - s-e8d13f717d
+      - s-4234a1c26c
+      - s-c5a8886c8e

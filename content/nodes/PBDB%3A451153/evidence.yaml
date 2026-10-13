@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Omegachelys sahnii
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Omegachelys sahnii
+      en: Omegachelys sahnii
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4863e4a864
+            part: body
+          en:
+            page: en
+            section: s-2f4e519247
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-41deeeb5eb
+            part: body
+          en:
+            page: en
+            section: s-7801bf58bd
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4659f6806e
+            part: body
+          en:
+            page: en
+            section: s-643e45e05b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f90e6574be
+            part: body
+          en:
+            page: en
+            section: s-29a7e206f3
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-88c0f12008
+            part: body
+          en:
+            page: en
+            section: s-f24e546b41
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Omegachelys sahnii
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=451153&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:451153; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:451153
+          selectedOccurrenceIds:
+            - occ:1587292
+            - occ:1587293
+            - occ:1587294
+            - occ:1587295
+            - occ:1587296
+            - occ:1587297
+            - occ:1587298
+          selectedCollectionIds:
+            - col:224296
+            - col:224298
+            - col:70522
+            - col:224299
+            - col:222975
+            - col:92070
+            - col:92072
+          sourceReferenceIds:
+            - ref:79680
+          originalIdentificationMappings:
+            - occurrenceId: occ:1587292
+              originalIdentifiedName: Omegachelys sahnii n. sp.
+              acceptedName: Omegachelys sahnii
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-eb7f7fdae3
+        part: body
+      en:
+        page: en
+        section: s-bb652c47ba
+        part: body

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vietnamophryne
+  displayName: Vietnamophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/86QP
+  sourceIndexes:
+    - name:
+        en: Vietnamophryne
+        zh: Vietnamophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 86QP
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/322
+            queryName: Vietnamophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3a7985ec5f
+      - s-3fc9389ae7
+      - s-09aa1c5b41
+      - s-4e0ec72ab7
+      - s-9e24fdceb9
+      - s-78fa9a4dac
+      - s-42113e9a49
+      - s-31387beb7c
+      - s-6e1e0aed77
+    zh:
+      - s-baf3a47766
+      - s-5cfe96984d
+      - s-49844953a5
+      - s-a1c06e54cf
+      - s-7060067651
+      - s-b46e8c999a
+      - s-0260bfd4e5
+      - s-14aa0d7b76
+      - s-1daea87f09

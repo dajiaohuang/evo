@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platypelis milloti
+  displayName: Platypelis milloti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JVGH
+  sourceIndexes:
+    - name:
+        en: Platypelis milloti
+        zh: Platypelis milloti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JVGH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/411
+            queryName: Platypelis milloti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/167
+            queryName: Cophyla milloti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f3fbbce278
+      - s-014ce7716c
+      - s-e6d300207c
+      - s-e71e34dcb1
+      - s-31c2793155
+      - s-76bf9bf84a
+      - s-9c5a846bbb
+      - s-7259dfca8d
+      - s-7f936c44bc
+      - s-aea351e8fb
+    zh:
+      - s-948f4da568
+      - s-b243768ff8
+      - s-26a36b5d7e
+      - s-0950501a2b
+      - s-5cb18ef025
+      - s-c0aac07b72
+      - s-3358904627
+      - s-7e9146386d
+      - s-a4715c16b5
+      - s-d7ebbb55c2

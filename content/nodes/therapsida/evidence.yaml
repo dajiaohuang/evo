@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2de57612aa
+            part: title
+          zh:
+            page: zh
+            section: s-49cf725d28
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2de57612aa
+            part: body
+          zh:
+            page: zh
+            section: s-49cf725d28
+            part: body
+        claimIds:
+          - claim:taxon:therapsida:sampled-record
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-ab46242a30
+            part: title
+          zh:
+            page: zh
+            section: s-118718c942
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ab46242a30
+            part: body
+          zh:
+            page: zh
+            section: s-118718c942
+            part: body
+        claimIds:
+          - claim:taxon:therapsida:source-bounded-range-rc49
+    scientificName: Therapsida
+    name:
+      en: Therapsida
+      zh: Therapsida
+    rank: order
+  atlas-node:
+    name: Therapsida
+    commonName: Therapsids
+    commonNameZh: 兽孔类
+    rank: order
+    taxonId: ""
+    firstAppearance: 275
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:therapsida
+      claimKind: scientific
+      claimType: taxonomy
+      statement: A family-level occurrence analysis distinguishes Therapsida from the historical pelycosaurian grade and finds therapsids diversifying while several early-synapsid families decline; this sampled pattern does not date the clade’s origin or imply direct descent from any sampled genus.
+      confidence: medium
+      confidenceRationale: The source supports the analytical distinction and diversity result. It is not used as a total-group range, crown date or ancestor claim.
+      referenceLinks:
+        - relation: supports
+          referenceId: brocklehurst-2013-early-synapsids
+          pages: 470–490
+          quoteLocator: "Abstract; Results and Discussion: therapsid diversity through the Kungurian–Capitanian"
+    - subjectId: taxon:therapsida
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Therapsida is displayed at 283.3–259.5 Ma only as the sampled diversification interval in that analysis, not the origin, survival or full duration of Therapsida. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Therapsida uses Brocklehurst, N.; Kammerer, C.F.; Fröbisch, J. (2013) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Kungurian–Capitanian family-level record analysed by Brocklehurst et al.; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: brocklehurst-2013-early-synapsids
+          pages: 470–490
+          quoteLocator: "Abstract; Results and Discussion: therapsid diversity through the Kungurian–Capitanian"
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 来源支持分析中的类群区分与多样性结果；它未被用作总群范围、冠群日期或祖先主张。
+    - Therapsida 采用 Brocklehurst, N.; Kammerer, C.F.; Fröbisch, J.（2013）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Kungurian–Capitanian family-level record analysed by Brocklehurst et al.；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 科级出现记录分析将兽孔目与历史性的盘龙类等级区分开，并发现若干早期合弓类科衰退时兽孔类仍在多样化；这一取样格局不测定该支系起源，也不表示它直接源自任何取样属。
+    - Therapsida 仅以 283.3–259.5 Ma 展示为该分析采样的辐射区间，而非兽孔类起源、延续或完整存续期。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: therapsida
+      rangeKind: global-composite
+      taxonomicConcept: Therapsida — source-bounded sample window
+      geographicScope: Kungurian–Capitanian family-level record analysed by Brocklehurst et al.
+      olderMa: 283.3
+      youngerMa: 259.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the sampled diversification interval in that analysis, not the origin, survival or full duration of Therapsida; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: The early evolution of synapsids, and the influence of sampling on their fossil record directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:therapsida:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: brocklehurst-2013-early-synapsids
+          locator: "470–490; Abstract; Results and Discussion: therapsid diversity through the Kungurian–Capitanian"
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized

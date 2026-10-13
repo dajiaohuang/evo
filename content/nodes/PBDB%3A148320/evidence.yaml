@@ -1,0 +1,153 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Archegosauroidea
+    rank: superfamily
+    sourceTaxonId: txn:148320
+    name:
+      en: Archegosauroidea
+      zh: Archegosauroidea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB’s recorded fossil classification
+          zh: PBDB 所记化石分类
+        text:
+          en:
+            page: en
+            section: s-674275bed3
+            part: body
+          zh:
+            page: zh
+            section: s-ec96dff703
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: What the captured fossil records show
+          zh: 捕获的化石记录显示什么
+        text:
+          en:
+            page: en
+            section: s-2dcc6309e4
+            part: body
+          zh:
+            page: zh
+            section: s-a6747472c0
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Follow PBDB’s fossil classification
+          zh: 沿 PBDB 化石分类继续阅读
+        text:
+          en:
+            page: en
+            section: s-72247a8243
+            part: body
+          zh:
+            page: zh
+            section: s-d80a0e28d2
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-d07efa281b
+            part: body
+          zh:
+            page: zh
+            section: s-9ef6d2d499
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:148320; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: Y. M. Gubin. 1997. Skull morphology of Archegosaurus decheni Goldfuss (Amphibia, Temnospondyli) from the Early Permian of Germany. Alcheringa 21(2):103-121
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:357484
+        - txn:356115
+        - txn:357491
+        - txn:357487
+        - txn:357486
+        - txn:357485
+        - txn:357489
+        - txn:345879
+        - txn:142450
+        - txn:142448
+        - txn:142449
+        - txn:56482
+        - txn:357497
+        - txn:357500
+        - txn:357483
+        - txn:345884
+      exactOccurrenceCount: 23
+      datedOccurrenceCount: 23
+      collectionIntervalBoundsMa:
+        older: 298.9
+        younger: 259.857
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-d07efa281b
+            part: body
+          zh:
+            page: zh
+            section: s-9ef6d2d499
+            part: body
+        sourceIds: []

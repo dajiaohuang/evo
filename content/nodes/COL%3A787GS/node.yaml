@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Poyntonophrynus fenoulheti
+  displayName: Poyntonophrynus fenoulheti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/787GS
+  sourceIndexes:
+    - name:
+        en: Poyntonophrynus fenoulheti
+        zh: Poyntonophrynus fenoulheti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 787GS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/64
+            queryName: Poyntonophrynus fenoulheti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/324
+            queryName: Bufo fenoulheti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/41
+            queryName: Bufo fenoulheti obtusum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/42
+            queryName: Bufo vertebralis albiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/43
+            queryName: Bufo fenoulheti rhodesianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/45
+            queryName: Bufo vertebralis fenoulheti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/46
+            queryName: Bufo dombensis fenoulheti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/47
+            queryName: Bufo fenoulheti fenoulheti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f31fb9deaf
+      - s-aa28f2ff44
+      - s-09820c058b
+      - s-c0cc58dc59
+      - s-e9c860a59b
+      - s-ce16c6ffaa
+      - s-e53e36ec81
+      - s-eec9485fbd
+      - s-ff5c4e5bb5
+      - s-dded759a03
+      - s-d6b4e4645e
+      - s-8dad734699
+      - s-7af489cf44
+      - s-e90241ff46
+      - s-56410f54e6
+    zh:
+      - s-c72d8d0354
+      - s-b5b29cdb8d
+      - s-e161a54f58
+      - s-d6ffb2606b
+      - s-20ad709e7f
+      - s-fc2972bcf3
+      - s-ad9ec4c6c7
+      - s-b96af0a342
+      - s-3fda4a3a9a
+      - s-fb23e3dcc7
+      - s-49c69ed12a
+      - s-266663091b
+      - s-f3776eff9c
+      - s-bfc88fa6a3
+      - s-df355662ac

@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:465171
+    scientificName: Auroralumina attenboroughii
+    commonName: Charnwood bifurcating polyp fossil
+    commonNameZh: 查恩伍德分叉水螅体化石
+    rank: genus
+    parentName: Cnidaria evidence route
+    extinct: true
+    geography:
+      - Charnwood Forest
+      - Bradgate Formation
+      - Leicestershire, United Kingdom
+    overview:
+      page: en
+      section: s-9a7483a3a4
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-6f201aab57
+        part: body
+      habitat:
+        page: en
+        section: s-e90cecfd93
+        part: body
+      locomotion:
+        page: en
+        section: s-5a3d971450
+        part: body
+      bodySize:
+        page: en
+        section: s-2ec9702fdf
+        part: body
+      guild:
+        page: en
+        section: s-d17965726c
+        part: body
+      dietZh:
+        page: zh
+        section: zh-9939a5391f3478
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-b108e5e32b148c
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-15f5029807dc6e
+        part: body
+    traits:
+      - page: en
+        section: s-6aa4ab89e9
+        part: body
+      - page: en
+        section: s-ac7409b54d
+        part: body
+      - page: en
+        section: s-c7d823f84f
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-3b5bf39e33
+      part: body
+    readerSections:
+      - id: specimen-anatomy
+        title:
+          en:
+            page: en
+            section: s-7d540e2dd7
+            part: title
+          zh:
+            page: zh
+            section: s-f06035edd0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7d540e2dd7
+            part: body
+          zh:
+            page: zh
+            section: s-f06035edd0
+            part: body
+        sourceIds:
+          - auroralumina-2022
+      - id: placement-and-limits
+        title:
+          en:
+            page: en
+            section: s-2ba3ba34c1
+            part: title
+          zh:
+            page: zh
+            section: s-5179a3e7c5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2ba3ba34c1
+            part: body
+          zh:
+            page: zh
+            section: s-5179a3e7c5
+            part: body
+        sourceIds:
+          - auroralumina-2022
+    readerSources:
+      - id: auroralumina-2022
+        referenceId: dunn-2022-auroralumina
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Specimen BGS GSM 105875, its Bradgate Formation setting, Figures 1–4 and Extended Data Figures 1–8. The study describes the branching tubes and tentacle impressions, then tests a crown-cnidarian placement in a morphology matrix; ecology and direct ancestry are not observations from the specimen.
+            zh: 标本 BGS GSM 105875、Bradgate 组地层背景、图 1–4 及扩展数据图 1–8。研究描述了分叉管和触手印痕，并在形态矩阵中检验冠群刺胞动物位置；生态和直系祖先关系不是标本的直接观察。
+    confidence: medium
+    referenceIds:
+      - dunn-2022-auroralumina
+  claims:
+    - subjectId: taxon:auroralumina
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Auroralumina was placed within crown Cnidaria in one morphology analysis; the profile retains that as a hypothesis rather than an ancestor claim.
+      confidence: medium
+      confidenceRationale: The taxonomy field is bounded to Auroralumina attenboroughii, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: dunn-2022-auroralumina
+          relation: supports
+          pages: 1095–1104; Figures 1–4; Extended Data Figures 1–8
+    - subjectId: taxon:auroralumina
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profile represents one Charnwood Forest fossil surface and does not infer a global Ediacaran cnidarian distribution.
+      confidence: medium
+      confidenceRationale: The biogeography field is bounded to Auroralumina attenboroughii, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: dunn-2022-auroralumina
+          relation: supports
+          pages: 1095–1104; Figures 1–4; Extended Data Figures 1–8
+    - subjectId: taxon:auroralumina
+      claimKind: scientific
+      claimType: ecology
+      statement: Tentaculate polyps support a sessile feeding interpretation, while prey, colony physiology and habitat preference remain unobserved.
+      confidence: medium
+      confidenceRationale: The ecology field is bounded to Auroralumina attenboroughii, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: dunn-2022-auroralumina
+          relation: supports
+          pages: 1095–1104; Figures 1–4; Extended Data Figures 1–8
+    - subjectId: taxon:auroralumina
+      claimKind: scientific
+      claimType: morphology
+      statement: BGS GSM 105875 preserves two bifurcating polyp-like tubes, a rigid organic skeleton and tentacle impressions around the apertures.
+      confidence: medium
+      confidenceRationale: The morphology field is bounded to Auroralumina attenboroughii, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: dunn-2022-auroralumina
+          relation: supports
+          pages: 1095–1104; Figures 1–4; Extended Data Figures 1–8
+    - subjectId: taxon:auroralumina
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 562–557 Ma interval is the bounded Bradgate Formation context of one specimen, not a cnidarian crown age or global taxon range.
+      confidence: medium
+      confidenceRationale: The fossil-range field is bounded to Auroralumina attenboroughii, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: dunn-2022-auroralumina
+          relation: supports
+          pages: 1095–1104; Figures 1–4; Extended Data Figures 1–8
+  claim-rationales.zh:
+    - 查恩伍德分叉水螅体化石的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。
+    - 查恩伍德分叉水螅体化石的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。
+    - 查恩伍德分叉水螅体化石的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。
+    - 查恩伍德分叉水螅体化石的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。
+    - 查恩伍德分叉水螅体化石的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - 一项形态分析将 Auroralumina 置于冠群刺胞动物内部；本档案保留其假说性质，不据此提出祖先关系。
+    - 本档案代表查恩伍德森林的一处含化石表面，不据此推断埃迪卡拉纪刺胞动物的全球分布。
+    - 具触手的水螅体支持固着摄食的解释，但猎物、群体生理及生境偏好仍未被直接观察。
+    - BGS GSM 105875 保存了两个呈分叉结构的水螅体样管、刚性有机骨骼，以及开口周围的触手印痕。
+    - 562–557 Ma 区间是一件标本受限的 Bradgate 组地层背景，并非刺胞动物冠群年代或该类群的全球延限。
+  ranges:
+    - entityId: auroralumina
+      rangeKind: global-composite
+      taxonomicConcept: Auroralumina Charnwood polyps evidence boundary
+      geographicScope: Charnwood Forest, Leicestershire, United Kingdom
+      olderMa: 562
+      youngerMa: 557
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 562–557 Ma interval is the bounded Bradgate Formation context of one specimen, not a cnidarian crown age or global taxon range.
+      evidenceBasis: Named specimen, explicitly bounded geochemical or genomic dataset, or stated model interval in the cited primary studies.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:auroralumina-charnwood-polyps
+        - claim:taxon:auroralumina:fossil-range
+      referenceLocators:
+        - referenceId: dunn-2022-auroralumina
+          locator: 1095–1104; Figures 1–4; Extended Data Figures 1–8; Specimen BGS GSM 105875, stratigraphy and morphology matrix

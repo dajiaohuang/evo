@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne geminus
+  displayName: Oreophryne geminus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T68C
+  sourceIndexes:
+    - name:
+        en: Oreophryne geminus
+        zh: Oreophryne geminus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T68C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/266
+            queryName: Oreophryne geminus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e057015573
+      - s-034ec904dd
+      - s-f5b59c78a4
+      - s-af51a80563
+      - s-d4876f7c74
+      - s-fd4f9277ac
+      - s-9be15dbf18
+      - s-c15740b1b7
+      - s-2315980a40
+    zh:
+      - s-a9161a9640
+      - s-aa81ff380c
+      - s-03e30023e1
+      - s-fd93199380
+      - s-8b5e18ce14
+      - s-94cb1d6998
+      - s-a663b65e0f
+      - s-11ce76ab6e
+      - s-ee6e8cf5a2

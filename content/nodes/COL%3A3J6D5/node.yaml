@@ -1,0 +1,152 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Haddadus binotatus
+  displayName: Haddadus binotatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3J6D5
+  sourceIndexes:
+    - name:
+        en: Haddadus binotatus
+        zh: Haddadus binotatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3J6D5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/244
+            queryName: Haddadus binotatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 28
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/35
+            queryName: Eleutherodactylus binotatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/327
+            queryName: Rana binotata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 29
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/328
+            queryName: Hyla abbreviata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/329
+            queryName: Enydrobius abbreviatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/330
+            queryName: Ololygon abbreviatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/331
+            queryName: Hylodes abbreviatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/332
+            queryName: Hylodes rugulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/333
+            queryName: Hylodes binotatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/334
+            queryName: Platymantes abbreviata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/335
+            queryName: Eleutherodactylus cinotatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/336
+            queryName: Eleutherodactylus abbreviatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ffc2c662dc
+      - s-52eed0fa29
+      - s-e59d3b6c9c
+      - s-85efa8ef52
+      - s-2590d47cc0
+      - s-b9e9db7289
+      - s-61375f65c6
+      - s-dbd4ac8f0b
+      - s-8df08f47e1
+      - s-73fbbe6857
+      - s-4bdf550e26
+      - s-207f53e3f7
+      - s-a65e3a59bb
+      - s-cf360b28e2
+      - s-f94b9af4f0
+      - s-e7f42f0928
+      - s-37ccdd8531
+      - s-42635c7e3a
+      - s-fcaf204b76
+      - s-2558a1a26c
+      - s-98127f16bb
+      - s-3d3b734c8a
+      - s-1f12579c89
+    zh:
+      - s-218f62bbd1
+      - s-f5e67e8227
+      - s-721bf000d2
+      - s-43afd7a2d3
+      - s-fa23846d28
+      - s-d74d86706d
+      - s-c61a8b2758
+      - s-b080cb5e45
+      - s-3e878322cb
+      - s-396caf0d09
+      - s-cc2618be3d
+      - s-4915cfa61d
+      - s-1ccecb96d0
+      - s-c43c5f026f
+      - s-88ef2f2d82
+      - s-f83623d84a
+      - s-f502a702ae
+      - s-44e467da61
+      - s-a3d85d31af
+      - s-73ff661d2d
+      - s-52d7438ea6
+      - s-e7f5fb83d7
+      - s-12310fe426

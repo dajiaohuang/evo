@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella crocea
+  displayName: Mantella crocea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7F
+  sourceIndexes:
+    - name:
+        en: Mantella crocea
+        zh: Mantella crocea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/289
+            queryName: Mantella crocea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc77613437
+      - s-e194c2f915
+      - s-0b881e0504
+      - s-d85f446380
+      - s-e4aa00c067
+      - s-5d1e5c9211
+      - s-492cb6cbfc
+      - s-30b16e5bcd
+      - s-c791ed0a0c
+      - s-bc7df364e5
+      - s-6816ab23a8
+    zh:
+      - s-90cfac8284
+      - s-7a6d81e1b5
+      - s-d788ee0900
+      - s-8c8050a5bc
+      - s-986e55edfb
+      - s-2c23be8766
+      - s-fdec1886d4
+      - s-c1d416b480
+      - s-60bff73b43
+      - s-9018372637
+      - s-916e112f6e

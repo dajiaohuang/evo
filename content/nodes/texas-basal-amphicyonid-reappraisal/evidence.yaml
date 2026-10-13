@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-e9e159481c
+      part: title
+    titleZh:
+      page: zh
+      section: s-02775e5701
+      part: title
+    category: transition
+    startAge: 42
+    endAge: 36.6
+    regions:
+      - Chambers Tuff, Trans-Pecos Texas, USA
+    clades:
+      - Amphicyonidae
+      - Gustafsonia
+      - Angelarctocyon
+    summary:
+      page: en
+      section: s-e9e159481c
+      part: body
+    summaryZh:
+      page: zh
+      section: s-02775e5701
+      part: body
+    claimIds:
+      - claim:event:texas-basal-amphicyonid-reappraisal
+    evidenceItems:
+      - statement: The holotype cranium of Gustafsonia cognita, TMM 40209-200, was CT-reconstructed; Angelarctocyon australis is represented by TMM 41850-1 and referred jaw material.
+        relation: supports
+        claimIds:
+          - claim:event:texas-basal-amphicyonid-reappraisal
+        referenceLinks:
+          - referenceId: tomiya-tseng-2016-beardogs
+            relation: supports
+            pages: "160518"
+            figure: Figures 1–7; Tables 1–2; Electronic supplementary material
+            quoteLocator: Revised systematics; Digital reconstruction; Phylogenetic analysis
+    uncertaintyItems:
+      - statement: The new genera and basal-amphicyonid positions follow revised scoring and sampled trees; they do not locate an exact geographic origin for beardogs or establish direct ancestry.
+        relation: contextualizes
+        claimIds:
+          - claim:event:texas-basal-amphicyonid-reappraisal
+        referenceLinks:
+          - referenceId: tomiya-tseng-2016-beardogs
+            relation: supports
+            pages: "160518"
+            figure: Figures 1–7; Tables 1–2; Electronic supplementary material
+            quoteLocator: Revised systematics; Digital reconstruction; Phylogenetic analysis
+  claims:
+    - subjectId: event:texas-basal-amphicyonid-reappraisal
+      claimKind: scientific
+      claimType: topology
+      statement: CT and renewed scoring of TMM 40209-200 and the Angelarctocyon jaw sample support reassignment of two Texas “Miacis” species to distinct genera recovered as basal amphicyonids, but geographic origin and exact branching order remain model-dependent.
+      confidence: medium
+      confidenceRationale: Texas “Miacis” beardog reappraisal uses explicit named specimens or disclosed datasets, but placement, function or ecology depends on a sampled matrix or comparative model and is kept separate from observation.
+      referenceLinks:
+        - referenceId: tomiya-tseng-2016-beardogs
+          relation: supports
+          pages: "160518"
+          figure: Figures 1–7; Tables 1–2; Electronic supplementary material
+          quoteLocator: Revised systematics; Digital reconstruction; Phylogenetic analysis
+  claim-rationales.zh:
+    - “得州“细齿兽”犬熊类重评”的具名标本或已公开数据集是明确的，但位置、功能或生态依赖采样矩阵或比较模型，且已与直接观察分开。
+  claim-statements.zh:
+    - 对 TMM 40209-200 和 Angelarctocyon 颌骨样本的 CT 与重新编码，支持把两个得克萨斯“Miacis”物种改归为两个不同属，并恢复为熊犬科基部成员；但地理起源和确切分支次序仍依赖模型。

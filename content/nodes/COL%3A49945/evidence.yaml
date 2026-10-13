@@ -1,0 +1,472 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ololygon ranki (Andrade & Cardoso, 1987)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ololygon ranki
+      zh: Ololygon ranki
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ce8fdee228
+            part: title
+          zh:
+            page: zh
+            section: s-b779936a10
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ce8fdee228
+            part: body
+          zh:
+            page: zh
+            section: s-b779936a10
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-95b2d521d5
+            part: title
+          zh:
+            page: zh
+            section: s-a117b2e9ce
+            part: title
+        text:
+          en:
+            page: en
+            section: s-95b2d521d5
+            part: body
+          zh:
+            page: zh
+            section: s-a117b2e9ce
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5eb6c05ff1
+            part: title
+          zh:
+            page: zh
+            section: s-a2afbe2fbd
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-5eb6c05ff1
+            part: body
+          zh:
+            page: zh
+            section: s-a2afbe2fbd
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-694a6d5f5e431ded5adc0e2b
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-2030378392f802f42e372772c10d03a0
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2ff7d30f12
+            part: title
+          zh:
+            page: zh
+            section: s-8320441e19
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-2ff7d30f12
+            part: body
+          zh:
+            page: zh
+            section: s-8320441e19
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e2b5acf56f
+            part: title
+          zh:
+            page: zh
+            section: s-39caa94bbd
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-e2b5acf56f
+            part: body
+          zh:
+            page: zh
+            section: s-39caa94bbd
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e218ccce8b
+            part: title
+          zh:
+            page: zh
+            section: s-7fa70908fb
+            part: title
+        sourceIds:
+          - primary-pmc10688756-49945
+        text:
+          en:
+            page: en
+            section: s-e218ccce8b
+            part: body
+          zh:
+            page: zh
+            section: s-7fa70908fb
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-390abef206
+            part: title
+          zh:
+            page: zh
+            section: s-9aec020904
+            part: title
+        sourceIds:
+          - primary-pmc10688756-49945
+        text:
+          en:
+            page: en
+            section: s-390abef206
+            part: body
+          zh:
+            page: zh
+            section: s-9aec020904
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-997e66ffe2
+            part: title
+          zh:
+            page: zh
+            section: s-8ecf9fd5bc
+            part: title
+        sourceIds:
+          - primary-pmc10688756-49945
+        text:
+          en:
+            page: en
+            section: s-997e66ffe2
+            part: body
+          zh:
+            page: zh
+            section: s-8ecf9fd5bc
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ad32aab173
+            part: title
+          zh:
+            page: zh
+            section: s-dd139941ab
+            part: title
+        sourceIds:
+          - primary-pmc10688756-49945
+          - primary-pmc10688756-49945-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-ad32aab173
+            part: body
+          zh:
+            page: zh
+            section: s-dd139941ab
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ololygon ranki
+          url: https://www.checklistbank.org/dataset/316115/taxon/49945
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2194; Picture measurement data rows 1185; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2689; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2689 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10688756-49945
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ololygon ranki: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10688756-49945-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: "COL26.8 dataset316115; Scinax ranki: usage4VJYR accepted49945; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json"
+          scope:
+            en: Explicit nomenclatural accepted-links only; biological-concept equivalence and original specimen identity uncertified.
+            zh: 仅明确命名接受名链接；生物学概念等同性及原标本身份未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc10688756-49945-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-319fe6a216
+        part: body
+      zh:
+        page: zh
+        section: s-a6e1ed5ca8
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-694a6d5f5e431ded5adc0e2b
+        scientificName: Ololygon ranki
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-49945
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 source workbook names Scinax ranki linked through explicit frozen COL26.8 nomenclatural records; original row concepts retained, not certified specimen identity
+        evidenceRead: "Ololygon ranki: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax ranki: development and oviposition coding"
+              zh: 工作簿记录 Scinax ranki：发育及产卵编码
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-49945
+            locator: PMC10688756 S3 Traits row432 Scinax_ranki; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-198b5ecd63
+                part: body
+              zh:
+                page: zh
+                section: s-ff924c0513
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax ranki: juvenile habitat and egg sites"
+              zh: 工作簿记录 Scinax ranki：幼体生境及卵位点
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-49945
+            locator: PMC10688756 S3 Traits row432 Scinax_ranki; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read habitat/S1–S7 columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-48b6e3ed79
+                part: body
+              zh:
+                page: zh
+                section: s-24dde58fe9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: "Workbook record Scinax ranki: inference and length limits"
+              zh: 工作簿记录 Scinax ranki：推断及长度限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-49945
+            locator: PMC10688756 S3 Traits row432 Scinax_ranki; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read length/Observation columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-faec123cff
+                part: body
+              zh:
+                page: zh
+                section: s-8deb3663bb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: "Workbook record Scinax ranki: an explicit frozen catalogue accepted-link"
+              zh: 工作簿记录 Scinax ranki：明确冻结目录接受名链接
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-49945
+            locator: PMC10688756 S3 Traits row432 Scinax_ranki; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read; COL26.8 usage4VJYR accepted49945; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json Scinax ranki
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-542645ad0b
+                part: body
+              zh:
+                page: zh
+                section: s-189d1c9e37
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

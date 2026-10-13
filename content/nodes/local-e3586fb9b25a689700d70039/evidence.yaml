@@ -1,0 +1,239 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Psychrophrynella usurpator
+    name:
+      en: Psychrophrynella usurpator
+      zh: Psychrophrynella usurpator
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Psychrophrynella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b7f302c49e
+            part: body
+          zh:
+            page: zh
+            section: s-8cee779763
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d88635216a
+            part: body
+          zh:
+            page: zh
+            section: s-f80cf18f74
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5095, 5096; Reference.csv rows 1755
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5095
+        values:
+          - Brachycephaloidea
+          - Psychrophrynella
+          - Psychrophrynella usurpator
+          - F
+          - "23.4"
+          - "8"
+          - "7.7"
+          - "3.1"
+          - NA
+          - NA
+          - NA
+          - "2.7"
+          - NA
+          - "2.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.3"
+          - NA
+          - "9.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5096
+        values:
+          - Brachycephaloidea
+          - Psychrophrynella
+          - Psychrophrynella usurpator
+          - M
+          - "20"
+          - "7.5"
+          - "7.2"
+          - "3"
+          - NA
+          - NA
+          - NA
+          - "2"
+          - NA
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.3"
+          - NA
+          - "8.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1755
+        values:
+          - Anura
+          - Psychrophrynella_usurpator
+          - "De La Riva, I., Chaparro, J. C., & Padial, J. M. (2008). A new, long-standing misidentified species of Psychrophrynella Hedges, Duellman & Heinicke from Departamento Cusco, Peru (Anura : Strabomantidae). Zootaxa(1823), 42-50. https://doi.org/10.11646/zootaxa.1823.1.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IND
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

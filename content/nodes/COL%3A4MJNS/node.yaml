@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis savagei
+  displayName: Pristimantis savagei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJNS
+  sourceIndexes:
+    - name:
+        en: Pristimantis savagei
+        zh: Pristimantis savagei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJNS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/81
+            queryName: Pristimantis savagei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/47
+            queryName: Eleutherodactylus savagei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6db9c8dbb
+      - s-d10d5d1c18
+      - s-6d8c8a41e9
+      - s-35c918ba2b
+      - s-0b6eae5d5a
+      - s-f20f10c79d
+      - s-5bcc764f5d
+      - s-cb252ad21c
+    zh:
+      - s-d6d98ed170
+      - s-69b380f71d
+      - s-e1ed913d2b
+      - s-9bacd4fcb3
+      - s-1f07ac4fd9
+      - s-aeb602be27
+      - s-08887270b1
+      - s-d3a08f8fcb

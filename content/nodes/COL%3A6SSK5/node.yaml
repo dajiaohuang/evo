@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax omeimontis
+  displayName: Oreolalax omeimontis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SSK5
+  sourceIndexes:
+    - name:
+        en: Oreolalax omeimontis
+        zh: Oreolalax omeimontis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SSK5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/222
+            queryName: Oreolalax omeimontis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/96
+            queryName: Scutiger omeimontis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bb1e607d9f
+      - s-77fd175447
+      - s-9eef179940
+      - s-7afa0eccf3
+      - s-b27a3a14f5
+      - s-8907bea83d
+      - s-ff13aa5753
+      - s-0483018bef
+      - s-faa2500f99
+      - s-0138c6cbb0
+    zh:
+      - s-0a287ccb30
+      - s-494b63d9f6
+      - s-82f5c2ef32
+      - s-2d4e2a8396
+      - s-12b3a5fd78
+      - s-ed53503c86
+      - s-cfa84ff67a
+      - s-560ee3ba54
+      - s-e749d1511c
+      - s-0f02ef1b15

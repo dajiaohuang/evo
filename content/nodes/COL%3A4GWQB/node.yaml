@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynopus horstpauli
+  displayName: Phrynopus horstpauli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWQB
+  sourceIndexes:
+    - name:
+        en: Phrynopus horstpauli
+        zh: Phrynopus horstpauli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWQB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/220
+            queryName: Phrynopus horstpauli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-872e16c4e0
+      - s-5099f72e23
+      - s-da94e36205
+      - s-4bbe0e1d50
+      - s-6b7f475e25
+      - s-c6b608412d
+      - s-1a4a6ecc4b
+    zh:
+      - s-a9a7572f73
+      - s-358536602b
+      - s-2dfc3dc901
+      - s-9dc4f9f125
+      - s-e148f75bd9
+      - s-2f2054f4f2
+      - s-a0879b13a5

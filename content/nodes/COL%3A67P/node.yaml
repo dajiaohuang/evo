@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allophrynidae
+  displayName: Allophrynidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/67P
+  sourceIndexes:
+    - name:
+        en: Allophrynidae
+        zh: Allophrynidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 67P
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/129
+            queryName: Allophrynidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 22
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5005c959f3
+      - s-7e7e3e5d38
+      - s-1d2ded7f9d
+      - s-45ac126d7b
+      - s-b0c408a003
+      - s-99148b5e3c
+    zh:
+      - s-f8bf7e16e8
+      - s-14728ae336
+      - s-2581053943
+      - s-e71ab12c8e
+      - s-bafafc0649
+      - s-f402183aa7

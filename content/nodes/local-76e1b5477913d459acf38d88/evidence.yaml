@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella botsfordi
+    name:
+      en: Leptobrachella botsfordi
+      zh: Leptobrachella botsfordi
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c61b96fb9a
+            part: body
+          zh:
+            page: zh
+            section: s-c965032d4a
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-46f376d042
+            part: body
+          zh:
+            page: zh
+            section: s-fce5effb71
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2538, 2539; Reference.csv rows 598
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2538
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella botsfordi
+          - F
+          - "30.9"
+          - "10.6"
+          - "10.4"
+          - "3.2"
+          - "1.75"
+          - "1.35"
+          - "3.2"
+          - "3"
+          - NA
+          - "2.1"
+          - "4.5"
+          - "2.15"
+          - "7.95"
+          - NA
+          - NA
+          - "14.75"
+          - NA
+          - "14.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2539
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella botsfordi
+          - M
+          - "29.94285714"
+          - "10.41428571"
+          - "10.55714286"
+          - "3.071428571"
+          - "1.714285714"
+          - "1.483333333"
+          - "3.25"
+          - "2.9"
+          - NA
+          - "2.114285714"
+          - "4.1"
+          - "1.985714286"
+          - "7.528571429"
+          - NA
+          - NA
+          - "14.32857143"
+          - NA
+          - "14.07142857"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 598
+        values:
+          - Anura
+          - Leptobrachella_botsfordi
+          - "Rowley, J. J., Dau, V. Q., & Nguyen, T. T. (2013). A new species of Leptolalax (Anura: Megophryidae) from the highest mountain in Indochina. Zootaxa, 3737(4), 415-428. https://doi.org/10.11646/zootaxa.3737.4.5"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TK99
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

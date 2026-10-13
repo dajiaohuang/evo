@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates haydeeae
+  displayName: Aromobates haydeeae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GTRN
+  sourceIndexes:
+    - name:
+        en: Aromobates haydeeae
+        zh: Aromobates haydeeae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GTRN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/120
+            queryName: Aromobates haydeeae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/229
+            queryName: Nephelobates haydeeae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/140
+            queryName: Colostethus haydeeae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9f8d27df93
+      - s-4de0a6fa0d
+      - s-fb238edcee
+      - s-641b0e9e48
+      - s-4e00451ba3
+      - s-a13bd8ff39
+      - s-3e42a8efa0
+      - s-a00caeb2ea
+      - s-cfb2a50bc9
+      - s-7ec892c227
+      - s-987714fe0f
+      - s-b51f6241df
+      - s-ab3d5b45d8
+      - s-81b4fe50f7
+      - s-e69bd98dcc
+      - s-7c6cfb176f
+    zh:
+      - s-ad5b42c3f0
+      - s-abdb27991d
+      - s-a56db4816f
+      - s-bab4d551d1
+      - s-daef385b15
+      - s-c3967070f3
+      - s-2f1a64fca5
+      - s-65099348db
+      - s-e17373bfd0
+      - s-0d69074e71
+      - s-6957c7e25d
+      - s-d7ad6333c3
+      - s-06d79a89f5
+      - s-cf6cec6261
+      - s-afc5574aa0
+      - s-9dfc9b40e5

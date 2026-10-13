@@ -1,0 +1,223 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis donnelsoni Reyes-Puig, Urgilés-Merchán, Reyes-Puig, Franco-Mena, Batallas & Guayasamin, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis donnelsoni
+      zh: Pristimantis donnelsoni
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ec08a54ae8
+            part: title
+          zh:
+            page: zh
+            section: s-3b4a16cdd2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ec08a54ae8
+            part: body
+          zh:
+            page: zh
+            section: s-3b4a16cdd2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7f953e3a3f
+            part: title
+          zh:
+            page: zh
+            section: s-4798d5e30c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7f953e3a3f
+            part: body
+          zh:
+            page: zh
+            section: s-4798d5e30c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-c2594d123f
+            part: title
+          zh:
+            page: zh
+            section: s-46c877e4cd
+            part: title
+        sourceIds:
+          - primary-pmc10838188-scdhg
+        text:
+          en:
+            page: en
+            section: s-c2594d123f
+            part: body
+          zh:
+            page: zh
+            section: s-46c877e4cd
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5e357895e9
+            part: title
+          zh:
+            page: zh
+            section: s-301569248b
+            part: title
+        sourceIds:
+          - primary-pmc10838188-scdhg
+        text:
+          en:
+            page: en
+            section: s-5e357895e9
+            part: body
+          zh:
+            page: zh
+            section: s-301569248b
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-d5c9dfc776
+            part: body
+          zh:
+            page: zh
+            section: s-986fd44476
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis donnelsoni
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCDHG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10838188-scdhg
+        referenceId: ref-4707c655-2cdc-4259-a03e-d5dbf6aebcb3
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis donnelsoni: Species distribution and natural-history observations; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-85b180f2ec
+        part: body
+      zh:
+        page: zh
+        section: s-d145f2bb0f
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1180.107333
+        referenceId: ref-4707c655-2cdc-4259-a03e-d5dbf6aebcb3
+        sourceKey: primary-pmc10838188-scdhg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10838188/article.xml
+        sourceConcept: Pristimantis donnelsoni
+        evidenceRead: "Pristimantis donnelsoni: Species distribution and natural-history observations; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Seven southern Pastaza-drainage records
+              zh: Pastaza 流域南部七个记录
+            referenceId: ref-4707c655-2cdc-4259-a03e-d5dbf6aebcb3
+            sourceKey: primary-pmc10838188-scdhg
+            locator: "Pristimantis donnelsoni: Species distribution and natural-history observations; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2adb427c6c
+                part: body
+              zh:
+                page: zh
+                section: s-fe3a8b2740
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Near-ground perches and daytime calling
+              zh: 近地栖息与白天鸣叫
+            referenceId: ref-4707c655-2cdc-4259-a03e-d5dbf6aebcb3
+            sourceKey: primary-pmc10838188-scdhg
+            locator: "Pristimantis donnelsoni: Species distribution and natural-history observations; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-667536bb56
+                part: body
+              zh:
+                page: zh
+                section: s-ed7bb55a7f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

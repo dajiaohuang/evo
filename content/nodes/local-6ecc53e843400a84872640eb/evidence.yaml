@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Batrachuperus tibetanus
+    name:
+      en: Batrachuperus tibetanus
+      zh: Batrachuperus tibetanus
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Batrachuperus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a7e216d7d5
+            part: body
+          zh:
+            page: zh
+            section: s-71cdca9db7
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-576ab2540b
+            part: body
+          zh:
+            page: zh
+            section: s-ee01e9b4a0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 29, 30; Reference.csv rows 4121
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 29
+        values:
+          - Hynobiidae
+          - Batrachuperus
+          - Batrachuperus tibetanus
+          - F
+          - "181.4"
+          - "92.8"
+          - NA
+          - "45.1"
+          - "19.5"
+          - "19.3"
+          - "4.1"
+          - "4.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "88.6"
+          - "10.9"
+          - "10.7"
+          - NA
+          - NA
+          - "21.6"
+          - "26"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 30
+        values:
+          - Hynobiidae
+          - Batrachuperus
+          - Batrachuperus tibetanus
+          - M
+          - "193"
+          - "94.5"
+          - NA
+          - "43.2"
+          - "21.1"
+          - "20.7"
+          - "4.6"
+          - "4.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "99"
+          - "11.9"
+          - "10.5"
+          - NA
+          - NA
+          - "23.9"
+          - "27.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4121
+        values:
+          - Caudata
+          - Batrachuperus_tibetanus
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006). Fauna Sinica, Amphibia, Urodela. Science Press, Beijing.
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - TL
+      - TW
+      - TH
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 68G7D
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

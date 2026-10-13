@@ -1,0 +1,48 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger meiliensis
+  displayName: Scutiger meiliensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5LC8
+  sourceIndexes:
+    - name:
+        en: Scutiger meiliensis
+        zh: Scutiger meiliensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5LC8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/156
+            queryName: Scutiger meiliensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-74e0f15780
+      - s-7d63b80b4c
+      - s-4665bd75da
+      - s-3a17e54da4
+    zh:
+      - s-30165fa9e0
+      - s-7aebfb2aef
+      - s-65ff617139
+      - s-ef3195cdcc

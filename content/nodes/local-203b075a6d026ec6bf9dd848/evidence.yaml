@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptopelis karissimbensis
+    name:
+      en: Leptopelis karissimbensis
+      zh: Leptopelis karissimbensis
+    sourceClassification:
+      order: Anura
+      family: Arthroleptidae
+      genus: Leptopelis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b346e71ac6
+            part: body
+          zh:
+            page: zh
+            section: s-41b8417508
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5fa00dfcf2
+            part: body
+          zh:
+            page: zh
+            section: s-67d2d11ab5
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2770, 2771; Reference.csv rows 2477
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2770
+        values:
+          - Arthroleptidae
+          - Leptopelis
+          - Leptopelis karissimbensis
+          - F
+          - "44.8"
+          - "18.1"
+          - "20"
+          - "5.4"
+          - "2.6"
+          - NA
+          - "9.7"
+          - "4.6"
+          - NA
+          - "3.9"
+          - NA
+          - NA
+          - "15.7"
+          - NA
+          - NA
+          - "22.7"
+          - NA
+          - "23.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2771
+        values:
+          - Arthroleptidae
+          - Leptopelis
+          - Leptopelis karissimbensis
+          - M
+          - "36.9"
+          - "13.7"
+          - "14.3"
+          - "4.1"
+          - "1.9"
+          - NA
+          - "7.4"
+          - "3.7"
+          - NA
+          - "2.9"
+          - NA
+          - NA
+          - "12.4"
+          - NA
+          - NA
+          - "17.7"
+          - NA
+          - "18.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2477
+        values:
+          - Anura
+          - Leptopelis_karissimbensis
+          - "Portillo, F., & Greenbaum, E. (2014). At the edge of a species boundary: A new and relatively young species of Leptopelis (Anura: Arthroleptidae) from the Itombwe Plateau, Democratic Republic of the Congo. Herpetologica, 70(1), 100-119. https://doi.org/Doi 10.1655/Herpetologica-D-12-00087"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - HAL
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TSMQ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

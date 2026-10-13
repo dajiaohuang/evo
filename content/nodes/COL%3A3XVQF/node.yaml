@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mannophryne venezuelensis
+  displayName: Mannophryne venezuelensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XVQF
+  sourceIndexes:
+    - name:
+        en: Mannophryne venezuelensis
+        zh: Mannophryne venezuelensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XVQF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/281
+            queryName: Mannophryne venezuelensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8e86911f92
+      - s-0c352637ad
+      - s-8f2ad9f764
+      - s-e1a9cb85fb
+      - s-46a5fd5957
+      - s-83b2a1c381
+      - s-ccc9c7adcd
+      - s-43c8c5a2b7
+      - s-264ac7a90a
+      - s-e46e2786ba
+      - s-b147be9829
+    zh:
+      - s-cc3726503e
+      - s-f0a25b7c63
+      - s-dbe12d26a6
+      - s-8364710dce
+      - s-0884d91481
+      - s-a517c79800
+      - s-1fa616ae6b
+      - s-74ac3755ae
+      - s-70823b19d1
+      - s-96fc6bd9a6
+      - s-cbb4d6fa76

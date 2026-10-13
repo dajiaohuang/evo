@@ -1,0 +1,418 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis campinarana Mônico, Ferrão, Moravec, Fouquet & Lima, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis campinarana
+      zh: Pristimantis campinarana
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-967b4d3cae
+            part: title
+          zh:
+            page: zh
+            section: s-f75ac3f10a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-967b4d3cae
+            part: body
+          zh:
+            page: zh
+            section: s-f75ac3f10a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a31e4b3b72
+            part: title
+          zh:
+            page: zh
+            section: s-524bbbdf42
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a31e4b3b72
+            part: body
+          zh:
+            page: zh
+            section: s-524bbbdf42
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3334e7be41
+            part: title
+          zh:
+            page: zh
+            section: s-77da428289
+            part: title
+        sourceIds:
+          - primary-pmc10252896-scd47
+        text:
+          en:
+            page: en
+            section: s-3334e7be41
+            part: body
+          zh:
+            page: zh
+            section: s-77da428289
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-6b0eb135b1
+            part: title
+          zh:
+            page: zh
+            section: s-59b26649c8
+            part: title
+        sourceIds:
+          - primary-pmc10252896-scd47
+        text:
+          en:
+            page: en
+            section: s-6b0eb135b1
+            part: body
+          zh:
+            page: zh
+            section: s-59b26649c8
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-1a7093e00f
+            part: title
+          zh:
+            page: zh
+            section: s-f4ff0d59ac
+            part: title
+        sourceIds:
+          - primary-pmc10252896-scd47
+        text:
+          en:
+            page: en
+            section: s-1a7093e00f
+            part: body
+          zh:
+            page: zh
+            section: s-f4ff0d59ac
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-222c507d9f
+            part: title
+          zh:
+            page: zh
+            section: s-335d165ce0
+            part: title
+        sourceIds:
+          - primary-pmc10252896-scd47
+        text:
+          en:
+            page: en
+            section: s-222c507d9f
+            part: body
+          zh:
+            page: zh
+            section: s-335d165ce0
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-74d42f4bf2
+            part: title
+          zh:
+            page: zh
+            section: s-4591a4e6f0
+            part: title
+        sourceIds:
+          - primary-pmc10252896-scd47
+        text:
+          en:
+            page: en
+            section: s-74d42f4bf2
+            part: body
+          zh:
+            page: zh
+            section: s-4591a4e6f0
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-2d9403bae9
+            part: title
+          zh:
+            page: zh
+            section: s-cbdaac8a51
+            part: title
+        sourceIds:
+          - primary-pmc10252896-scd47
+        text:
+          en:
+            page: en
+            section: s-2d9403bae9
+            part: body
+          zh:
+            page: zh
+            section: s-cbdaac8a51
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-59ab7f0bdf
+            part: title
+          zh:
+            page: zh
+            section: s-f5ebc47e49
+            part: title
+        sourceIds:
+          - primary-pmc10252896-scd47
+        text:
+          en:
+            page: en
+            section: s-59ab7f0bdf
+            part: body
+          zh:
+            page: zh
+            section: s-f5ebc47e49
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis campinarana
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCD47
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10252896-scd47
+        referenceId: ref-e03f3603-0d26-4a43-a9a7-f7c25661aa3c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis campinarana: Type-series diagnosis and variation, advertisement calls, observed habitat and reproduction, phylogenetic results and explicitly tentative conservation/dispersal interpretation; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7218df657e
+        part: body
+      zh:
+        page: zh
+        section: s-d4aace6c6c
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.15399
+        referenceId: ref-e03f3603-0d26-4a43-a9a7-f7c25661aa3c
+        sourceKey: primary-pmc10252896-scd47
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10252896/article.xml
+        sourceConcept: Pristimantis campinarana
+        evidenceRead: "Pristimantis campinarana: Type-series diagnosis and variation, advertisement calls, observed habitat and reproduction, phylogenetic results and explicitly tentative conservation/dispersal interpretation; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A small frog diagnosed from several characters together
+              zh: 结合多项特征鉴别的小型蛙
+            referenceId: ref-e03f3603-0d26-4a43-a9a7-f7c25661aa3c
+            sourceKey: primary-pmc10252896-scd47
+            locator: PMC10252896 XML sec5 paragraph 0; sec15 paragraph 0; reading-sections section 4 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ac6728135b
+                part: body
+              zh:
+                page: zh
+                section: s-02f7fcd2af
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Live colour and preserved patterns are different observations
+              zh: 活体体色与保存标本花纹须分别理解
+            referenceId: ref-e03f3603-0d26-4a43-a9a7-f7c25661aa3c
+            sourceKey: primary-pmc10252896-scd47
+            locator: PMC10252896 reading-sections section 4 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3441bc33e8
+                part: body
+              zh:
+                page: zh
+                section: s-8428f29afb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: distribution
+            heading:
+              en: Records from two white-sand forest localities
+              zh: 两个白沙林地点的分布记录
+            referenceId: ref-e03f3603-0d26-4a43-a9a7-f7c25661aa3c
+            sourceKey: primary-pmc10252896-scd47
+            locator: PMC10252896 reading-sections section 6 paragraph 0; section 7 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-003020dca6
+                part: body
+              zh:
+                page: zh
+                section: s-b13a52c20a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: reproduction
+            heading:
+              en: Rainy-season calling and amplexus, with eggs still unobserved
+              zh: 雨季鸣叫与抱对已有观察，野外卵团仍未发现
+            referenceId: ref-e03f3603-0d26-4a43-a9a7-f7c25661aa3c
+            sourceKey: primary-pmc10252896-scd47
+            locator: PMC10252896 reading-sections section 6 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c586b27868
+                part: body
+              zh:
+                page: zh
+                section: s-c9c343c500
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: behavior
+            heading:
+              en: Advertisement calls sampled from nine males
+              zh: 来自九只雄蛙的广告鸣声样本
+            referenceId: ref-e03f3603-0d26-4a43-a9a7-f7c25661aa3c
+            sourceKey: primary-pmc10252896-scd47
+            locator: PMC10252896 reading-sections section 5 paragraph 0; XML sec6 paragraph 0; table 2 footnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-05df03b995
+                part: body
+              zh:
+                page: zh
+                section: s-5b345cd636
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: evolution
+            heading:
+              en: Sequence relationships and a tentative west-to-east history
+              zh: 序列亲缘关系与尚待检验的由西向东扩散历史
+            referenceId: ref-e03f3603-0d26-4a43-a9a7-f7c25661aa3c
+            sourceKey: primary-pmc10252896-scd47
+            locator: PMC10252896 reading-sections section 0 paragraphs 0–2; section 1 paragraph 0; section 7 paragraph 1; section 8 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ab7a988aa6
+                part: body
+              zh:
+                page: zh
+                section: s-a256c75053
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 6
+            topic: conservation
+            heading:
+              en: Data Deficient was a proposal based on incomplete knowledge
+              zh: 资料缺乏是基于知识不足提出的评估建议
+            referenceId: ref-e03f3603-0d26-4a43-a9a7-f7c25661aa3c
+            sourceKey: primary-pmc10252896-scd47
+            locator: PMC10252896 reading-sections section 6 paragraphs 0–1; section 7 paragraph 0; section 8 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b3431ec4c2
+                part: body
+              zh:
+                page: zh
+                section: s-4ab4db1b4d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

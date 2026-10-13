@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ascaphus
+  displayName: Ascaphus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62CKD
+  sourceIndexes:
+    - name:
+        en: Ascaphus
+        zh: Ascaphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62CKD
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/190
+            queryName: Ascaphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 233
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ec2a51116f
+      - s-74861ddf0b
+      - s-01062c6d37
+      - s-d648b953e2
+      - s-5c5224e342
+      - s-3e8f277b9e
+      - s-c860a6446d
+      - s-4686fee194
+      - s-9f9fbccb60
+      - s-53c7333131
+      - s-6c9800fa28
+      - s-d7d6427ec0
+      - s-02e944a70c
+      - s-bc494b3822
+    zh:
+      - s-234ec81b69
+      - s-54f3851edd
+      - s-afe4cc3312
+      - s-856950a91b
+      - s-b0324cac7a
+      - s-f5a68e7f2a
+      - s-2c27526ec9
+      - s-cc47b120f3
+      - s-d76eeca135
+      - s-0c9d59f2e2
+      - s-9922771bb9
+      - s-05020f5798
+      - s-81352852c6
+      - s-51030432e9

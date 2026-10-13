@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Branchierpeton saalense
+    rank: species
+    sourceTaxonId: txn:336840
+    name:
+      en: Branchierpeton saalense
+      zh: Branchierpeton saalense
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-e37ae42a9e
+            part: body
+          zh:
+            page: zh
+            section: s-e301650f6f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-a3fc5598ef
+            part: body
+          zh:
+            page: zh
+            section: s-c78518bec1
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-fdc6c252db
+            part: body
+          zh:
+            page: zh
+            section: s-aac8f8bff7
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:336840; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Werneburg. 1990. Dissorophoiden (Amphibia) aus dem Grenzbereich Karbon/Perm der Saale-Senke und des Ilfelder Beckens (DDR). Zeitschrift fur geologische Wissenschaften Berlin 18:665-677
+    occurrenceEvidence:
+      - occurrenceId: occ:1315480
+        collectionId: col:176536
+        acceptedTaxonId: txn:336840
+        identifiedName: Branchierpeton saalense n. sp.
+        taxonomicDifference: null
+        referenceId: ref:58149
+        bibliography: R. Werneburg. 1990. Dissorophoiden (Amphibia) aus dem Grenzbereich Karbon/Perm der Saale-Senke und des Ilfelder Beckens (DDR). Zeitschrift fur geologische Wissenschaften Berlin 18:665-677
+        locality:
+          countryCode: DE
+          stateProvince: Sachsen-Anhalt
+          county: null
+        stratigraphy:
+          group: null
+          formation: Wettin
+          member: null
+        olderAgeMa: 307.4
+        youngerAgeMa: 300.3
+      - occurrenceId: occ:1315481
+        collectionId: col:176537
+        acceptedTaxonId: txn:336840
+        taxonomicDifference: null
+        referenceId: ref:58149
+        bibliography: R. Werneburg. 1990. Dissorophoiden (Amphibia) aus dem Grenzbereich Karbon/Perm der Saale-Senke und des Ilfelder Beckens (DDR). Zeitschrift fur geologische Wissenschaften Berlin 18:665-677
+        locality:
+          countryCode: DE
+          stateProvince: Saxony-Anhalt
+          county: null
+        stratigraphy:
+          group: null
+          formation: Wettin
+          member: null
+        olderAgeMa: 307.4
+        youngerAgeMa: 283.3
+      - occurrenceId: occ:1315482
+        collectionId: col:176538
+        acceptedTaxonId: txn:336840
+        taxonomicDifference: null
+        referenceId: ref:58149
+        bibliography: R. Werneburg. 1990. Dissorophoiden (Amphibia) aus dem Grenzbereich Karbon/Perm der Saale-Senke und des Ilfelder Beckens (DDR). Zeitschrift fur geologische Wissenschaften Berlin 18:665-677
+        locality:
+          countryCode: DE
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Mohrenbach
+          member: null
+        olderAgeMa: 307.4
+        youngerAgeMa: 300.3
+      - occurrenceId: occ:1315483
+        collectionId: col:176539
+        acceptedTaxonId: txn:336840
+        taxonomicDifference: null
+        referenceId: ref:58151
+        bibliography: "J. A. Zajic, A. R. Milner, and J. Klembara. 1990. The first partially articulated amphibian (Temnospondlyi: Dissorophoidea) from the Line Formation (Stephanian C, central Bohemia). Vestnik Ustredniho Ustavu Geologickeho 65:329-337"
+        locality:
+          countryCode: CZ
+          stateProvince: Bohemian Region
+          county: null
+        stratigraphy:
+          group: null
+          formation: Line
+          member: null
+        olderAgeMa: 300.9
+        youngerAgeMa: 300.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-fdc6c252db
+            part: body
+          zh:
+            page: zh
+            section: s-aac8f8bff7
+            part: body
+        sourceIds: []

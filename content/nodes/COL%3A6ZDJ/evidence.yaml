@@ -1,0 +1,360 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudobufo Tschudi, 1838
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Pseudobufo
+      zh: Pseudobufo
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7dafc176ec
+            part: title
+          zh:
+            page: zh
+            section: s-b75661d453
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7dafc176ec
+            part: body
+          zh:
+            page: zh
+            section: s-b75661d453
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9c09327d8e
+            part: title
+          zh:
+            page: zh
+            section: s-0fbcbb5119
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9c09327d8e
+            part: body
+          zh:
+            page: zh
+            section: s-0fbcbb5119
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-4f75f649b0
+            part: title
+          zh:
+            page: zh
+            section: s-a599b592a0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4f75f649b0
+            part: body
+          zh:
+            page: zh
+            section: s-a599b592a0
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-84c5bc5129
+            part: title
+          zh:
+            page: zh
+            section: s-f992025968
+            part: title
+        text:
+          en:
+            page: en
+            section: s-84c5bc5129
+            part: body
+          zh:
+            page: zh
+            section: s-f992025968
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-e13e50859a
+            part: title
+          zh:
+            page: zh
+            section: s-aa6af81420
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4NQBC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4NQBC
+            label:
+              en: Pseudobufo subasper
+              zh: Pseudobufo subasper
+        text:
+          en:
+            page: en
+            section: s-e13e50859a
+            part: body
+          zh:
+            page: zh
+            section: s-aa6af81420
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc4740822-6zdj
+        title:
+          en:
+            page: en
+            section: s-46fd1ed549
+            part: title
+          zh:
+            page: zh
+            section: s-71a0ac44c8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-46fd1ed549
+            part: body
+          zh:
+            page: zh
+            section: s-71a0ac44c8
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc4740822-6zdj
+        title:
+          en:
+            page: en
+            section: s-e4171903c1
+            part: title
+          zh:
+            page: zh
+            section: s-5ffc06e09c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e4171903c1
+            part: body
+          zh:
+            page: zh
+            section: s-5ffc06e09c
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc4740822-6zdj
+        title:
+          en:
+            page: en
+            section: s-cf218ac188
+            part: title
+          zh:
+            page: zh
+            section: s-13258b8cb2
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4NQBC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4NQBC
+            label:
+              en: Pseudobufo subasper
+              zh: Pseudobufo subasper
+        text:
+          en:
+            page: en
+            section: s-cf218ac188
+            part: body
+          zh:
+            page: zh
+            section: s-13258b8cb2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pseudobufo
+          url: https://www.checklistbank.org/dataset/316115/taxon/6ZDJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Pseudobufo; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc4740822-6zdj
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pseudobufo subasper: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected Pseudobufo comparison records, methods and source limits from the Andaman toad description
+            zh: 安达曼蟾蜍描述中的选定 Pseudobufo 比较记录、方法及来源限制
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8daf3eee79
+        part: body
+      zh:
+        page: zh
+        section: s-3e6eb3999c
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Pseudobufo
+      sourceRowIds:
+        - Anf0790
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-direct-group-pmc4740822-6zdj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Selected Pseudobufo comparisonlabels retainvoucher/sequence/focal roles; notfullgenusdiagnosis/currentconceptcertification
+        evidenceRead: "Pseudobufo subasper: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Selected comparison records retain their roles
+              zh: 选定比较记录保留各自角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-6zdj
+            locator: PMC4740822 XMLTable3idT6/App1 sourceentries;sec26;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d617080b81
+                part: body
+              zh:
+                page: zh
+                section: s-93e6dcd86d
+                part: body
+            scope:
+              en: Selected Pseudobufo comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Pseudobufo 比较记录、方法及来源限制
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Mitochondrial and specimen scope
+              zh: 线粒体与标本范围
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-6zdj
+            locator: PMC4740822 XMLsec4/27;Table3idT6;Table6idT5;App1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9ef06a7de0
+                part: body
+              zh:
+                page: zh
+                section: s-eb96d6d2fd
+                part: body
+            scope:
+              en: Selected Pseudobufo comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Pseudobufo 比较记录、方法及来源限制
+    primaryResearchGroupSynthesisComplete: false

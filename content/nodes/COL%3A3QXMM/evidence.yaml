@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Juttadinteria deserticola (Marloth) Schwantes
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3QXMM, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3QXMM; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3QXMM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3QXMM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001293245-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3QXMM / WFO wfo-0001293245
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14682_0
+        referenceId: ref-79ffd185-dd2a-8c54-a8f2-a75501408cc2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Juttadinteria deserticola (Marloth) Schwantes account; archive rows 33814 (Morphology), 39696 (Habitat), source identifier 14682.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Decumbent, rarely ascending or erect, dwarf, succulent shrub, up to 250 mm tall, internodes enclosed by leaf bases or very short. Leaves boat-shaped to pointed, < 30 x 20 mm, with a hard apical mucro and few very fine teeth along margins. Flowers 20-35 mm diam., petals white. Fruit 7-9-locular.
+            sourceIds:
+              - sanbi_14682_0
+            locator: "SANBI/WFO archive Morphology row 33814; source 14682.0; publication: Klak, C. 2013. Aizoaceae: Juttadinteria. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 203 - 204. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Flat patches of gravelly sand near the coast, occasionally on rocky dolomite or granitic-gneiss slopes in sandy and stony soil.
+            sourceIds:
+              - sanbi_14682_0
+            locator: "SANBI/WFO archive Habitat row 39696; source 14682.0; publication: Klak, C. 2013. Aizoaceae: Juttadinteria. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 203 - 204. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

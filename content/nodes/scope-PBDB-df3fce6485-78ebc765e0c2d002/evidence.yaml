@@ -1,0 +1,49 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Pinnipedimorpha
+    commonName: Pinniped-line carnivorans
+    commonNameZh: 鳍足形类
+    rank: clade
+    firstAppearance: 29
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    taxonId: txn:71879
+  claims:
+    - subjectId: taxon:pinnipedimorpha
+      claimKind: scientific
+      claimType: topology
+      statement: Pinnipedimorpha is used as the atlas route joining fossil pinniped-line evidence to the living seal, sea-lion and walrus branches represented in the carnivoran supertree; the extant tree does not itself resolve all stem pinnipeds or their first appearance.
+      confidence: medium
+      confidenceRationale: The source supports the living family branches, while the statement labels the broader atlas route and fossil exclusion explicitly.
+      referenceLinks:
+        - relation: supports
+          referenceId: nyakatura-2012-carnivora-supertree
+          pages: Article 12
+          figure: Figure 2
+          quoteLocator: Caniformia family topology including extant pinniped families
+  claim-rationales.zh:
+    - 来源支持现生科分支；表述明确标示更广的图谱路线和化石排除项。
+  claim-statements.zh:
+    - 图谱以 Pinnipedimorpha 路线连接化石鳍足型类证据与食肉类超级树中的现生海豹、海狮和海象分支；现生树本身不解析所有干群鳍足类或其首现。
+  ranges:
+    - entityId: pinnipedimorpha
+      rangeKind: global-composite
+      taxonomicConcept: Pinnipedimorpha navigation display — source-bounded sample window — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former navigation numbers are withdrawn because the extant-carnivoran supertree does not directly sample stem pinnipeds or furnish a fossil range. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: "A source audit of Updating the evolutionary history of Carnivora (Mammalia): a new species-level supertree complete with divergence time estimates found relationship or taxonomic evidence but no range-fit support for the former numerical display."
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: nyakatura-2012-carnivora-supertree
+          locator: Article 12; Caniformia family topology including extant pinniped families

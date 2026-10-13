@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Tylototriton hainanensis
+    name:
+      en: Tylototriton hainanensis
+      zh: Tylototriton hainanensis
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Tylototriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e1576f4c60
+            part: body
+          zh:
+            page: zh
+            section: s-4df3f2405b
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-026711cf95
+            part: body
+          zh:
+            page: zh
+            section: s-dff9c3b866
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 375, 376; Reference.csv rows 4150
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 375
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton hainanensis
+          - F
+          - "133.9"
+          - "76.3"
+          - NA
+          - "37.2"
+          - "19.4"
+          - "19.4"
+          - NA
+          - "4.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "57.6"
+          - "6.4"
+          - "8.4"
+          - NA
+          - NA
+          - "21.6"
+          - "21.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 376
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton hainanensis
+          - M
+          - "140"
+          - "75"
+          - NA
+          - "34.6"
+          - "16.9"
+          - "19.4"
+          - NA
+          - "4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "65.4"
+          - "11"
+          - "10.2"
+          - NA
+          - NA
+          - "20"
+          - "21.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4150
+        values:
+          - Caudata
+          - Tylototriton_hainanensis
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006). Fauna Sinica, Amphibia, Urodela. Science Press, Beijing.
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - ED
+      - TL
+      - TW
+      - TH
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7DBLJ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

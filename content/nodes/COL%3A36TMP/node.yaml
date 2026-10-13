@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Discoglossus scovazzi
+  displayName: Discoglossus scovazzi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/36TMP
+  sourceIndexes:
+    - name:
+        en: Discoglossus scovazzi
+        zh: Discoglossus scovazzi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 36TMP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/22
+            queryName: Discoglossus scovazzi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/295
+            queryName: Discoglossus pictus scovazzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-99b8e1cd0c
+      - s-263d342213
+      - s-e479aed72e
+      - s-809d60ba25
+      - s-0538e0b5fa
+      - s-36e06e33c6
+      - s-318b96c3d2
+      - s-79fd07f40d
+      - s-57bbe79101
+      - s-4c1063df86
+      - s-4cdbbb7ecb
+      - s-6e6a755f64
+      - s-29f7367316
+      - s-a73c359d92
+      - s-4039002063
+    zh:
+      - s-bd603e7348
+      - s-0a091399be
+      - s-563a4105a4
+      - s-0cf329455d
+      - s-d9b76bc821
+      - s-6d7a26e93b
+      - s-5d9ffeaa57
+      - s-888a481732
+      - s-e89a4a2a45
+      - s-59e19c4c10
+      - s-27bb5ff428
+      - s-57b64245bf
+      - s-10a5c49069
+      - s-ea48c86b1d
+      - s-4a29325378

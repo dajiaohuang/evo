@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella horribilis
+  displayName: Rhinella horribilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7NB
+  sourceIndexes:
+    - name:
+        en: Rhinella horribilis
+        zh: Rhinella horribilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7NB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/326
+            queryName: Rhinella horribilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 70
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/172
+            queryName: Bufo horribilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/174
+            queryName: Bufo angustipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/401
+            queryName: Bufo marinus horribilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9592ffb2a2
+      - s-3dc7ece367
+      - s-61af037baa
+      - s-6afe885e49
+      - s-fb17420027
+      - s-c452bfd5e2
+      - s-520f7d2ca9
+      - s-19d020b89a
+      - s-437837fb5d
+      - s-c3b424649b
+      - s-c9e9293556
+      - s-b8e7d1d421
+      - s-f86829bc60
+      - s-7b53fb7e58
+      - s-452dd861ae
+      - s-d2acd97e3e
+      - s-bf2a1576fb
+      - s-f18158cfc7
+      - s-85def79796
+      - s-587dc8e57b
+      - s-ce7d664915
+      - s-3fb1b7bee3
+      - s-841a20e39e
+    zh:
+      - s-09edd197d6
+      - s-0a85cbd907
+      - s-c8abd32d82
+      - s-2ad219b0ee
+      - s-59f84ddb79
+      - s-dbc0efc442
+      - s-1d9ecc8a3a
+      - s-bfca67bf33
+      - s-f9486f94be
+      - s-36aa78e1e5
+      - s-d679b6c293
+      - s-8ef0a10315
+      - s-1c8c169eb8
+      - s-58d16cc7d4
+      - s-a1a3a507eb
+      - s-6346148ff0
+      - s-3053f5beb1
+      - s-0b7546a08d
+      - s-f24fb77fb2
+      - s-37a813f3a7
+      - s-ce065aebdd
+      - s-11b865e604
+      - s-ee3c853377

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemiphractus kaylockae
+  displayName: Hemiphractus kaylockae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KRS3
+  sourceIndexes:
+    - name:
+        en: Hemiphractus kaylockae
+        zh: Hemiphractus kaylockae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KRS3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/267
+            queryName: Hemiphractus kaylockae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa6eb4486e
+      - s-bbf58df809
+      - s-7bb73b0a87
+      - s-bae7725ba1
+      - s-b3d4ff2fa2
+    zh:
+      - s-37d0d959ff
+      - s-7a5410b2c5
+      - s-91f9126fde
+      - s-9c975298ec
+      - s-b985f15a60

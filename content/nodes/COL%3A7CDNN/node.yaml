@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tlalocohyla smithii
+  displayName: Tlalocohyla smithii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7CDNN
+  sourceIndexes:
+    - name:
+        en: Tlalocohyla smithii
+        zh: Tlalocohyla smithii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7CDNN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/74
+            queryName: Tlalocohyla smithii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/205
+            queryName: Hyla smithii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b646a18661
+      - s-68cf08011f
+      - s-417749d909
+      - s-a157f8ab04
+      - s-98890b5a01
+      - s-5b6bdd05ca
+      - s-e97bb5f720
+      - s-632107bbde
+      - s-5d40d518aa
+      - s-b1a9766c25
+      - s-35ea4a5710
+      - s-5abe3bbb4e
+      - s-ae8dc564dc
+      - s-8f4d8cc675
+      - s-071cbc7bc3
+      - s-5348e1668d
+      - s-482a04245c
+      - s-07de0beb87
+      - s-f50da8b4a7
+    zh:
+      - s-293910ef94
+      - s-ea74ee6952
+      - s-ac724c8716
+      - s-d49fe428e6
+      - s-d2f213e72f
+      - s-564bf2dd53
+      - s-afcdd5192c
+      - s-7b81b8ac76
+      - s-ccce35d905
+      - s-3aa3e1d2ba
+      - s-804430cf30
+      - s-4d520917c6
+      - s-3cfdb65929
+      - s-7ccae83696
+      - s-ff9912b463
+      - s-e9d41e4e0a
+      - s-4538f564c0
+      - s-9e7f7a90dd
+      - s-b171363ce2

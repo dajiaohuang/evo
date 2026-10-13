@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Eleutherodactylus leberi
+    name:
+      en: Eleutherodactylus leberi
+      zh: Eleutherodactylus leberi
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Eleutherodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Eleutherodactylus leberi in the version 3 classification
+          zh: Eleutherodactylus leberi 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d4dd8f7058
+            part: body
+          zh:
+            page: zh
+            section: s-3594d14053
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 9 populated trait fields
+          zh: 1 条测量行与 9 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-55ba8489bb
+            part: body
+          zh:
+            page: zh
+            section: s-d1c6164f9b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1721; Reference.csv rows 1572
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1721
+        values:
+          - Brachycephaloidea
+          - Eleutherodactylus
+          - Eleutherodactylus leberi
+          - M
+          - "30"
+          - "11.8"
+          - "12.9"
+          - "4.4"
+          - "2.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "15.1"
+          - "13.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1572
+        values:
+          - Anura
+          - Eleutherodactylus_leberi
+          - Schwartz, A. (1965b). A new Cuban Eleutherodactylus of the auriculatus group. Herpetologica, 21(1), 27-31. https://www.jstor.org/stable/3890703
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - EN
+      - TL
+      - THL
+      - Toe4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dromomeryx borealis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Dromomeryx borealis
+      en: Dromomeryx borealis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7d728a9d3e
+            part: body
+          en:
+            page: en
+            section: s-0ae44bdd27
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f49cf653fe
+            part: body
+          en:
+            page: en
+            section: s-11bbfefd32
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-08448b1f8e
+            part: body
+          en:
+            page: en
+            section: s-a441076338
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5b42c4afaf
+            part: body
+          en:
+            page: en
+            section: s-4486fbabfc
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d5960a0d66
+            part: body
+          en:
+            page: en
+            section: s-f0723ea646
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Dromomeryx borealis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=44550&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:44550; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:44550
+          selectedOccurrenceIds:
+            - occ:183397
+            - occ:183419
+            - occ:183467
+            - occ:183550
+            - occ:183827
+            - occ:183884
+            - occ:183888
+            - occ:185481
+            - occ:189279
+            - occ:189672
+            - occ:189915
+            - occ:189999
+            - occ:190128
+            - occ:190130
+            - occ:190206
+            - occ:190289
+            - occ:190329
+            - occ:190462
+            - occ:190775
+            - occ:190918
+            - occ:190999
+            - occ:1207863
+            - occ:1207864
+            - occ:1303406
+          selectedCollectionIds:
+            - col:17904
+            - col:17905
+            - col:17911
+            - col:17916
+            - col:17976
+            - col:17995
+            - col:17996
+            - col:18203
+            - col:18809
+            - col:18894
+            - col:18953
+            - col:18969
+            - col:18994
+            - col:18995
+            - col:19011
+            - col:19017
+            - col:19028
+            - col:19056
+            - col:19092
+            - col:19120
+            - col:19145
+            - col:19547
+            - col:19088
+            - col:17983
+          sourceReferenceIds:
+            - ref:6222
+            - ref:3175
+            - ref:3536
+            - ref:1080
+            - ref:1393
+            - ref:6198
+            - ref:3117
+            - ref:1591
+            - ref:3023
+            - ref:51379
+            - ref:56894
+          originalIdentificationMappings:
+            - occurrenceId: occ:183397
+              originalIdentifiedName: Dromomeryx whitfordi
+              acceptedName: Dromomeryx borealis
+              difference: null
+            - occurrenceId: occ:183419
+              originalIdentifiedName: Dromomeryx whitfordi
+              acceptedName: Dromomeryx borealis
+              difference: null
+            - occurrenceId: occ:183467
+              originalIdentifiedName: Dromomeryx whitfordi
+              acceptedName: Dromomeryx borealis
+              difference: null
+            - occurrenceId: occ:183550
+              originalIdentifiedName: Dromomeryx whitfordi
+              acceptedName: Dromomeryx borealis
+              difference: null
+            - occurrenceId: occ:183827
+              originalIdentifiedName: Dromomeryx whitfordi
+              acceptedName: Dromomeryx borealis
+              difference: null
+            - occurrenceId: occ:183884
+              originalIdentifiedName: Dromomeryx whitfordi
+              acceptedName: Dromomeryx borealis
+              difference: null
+            - occurrenceId: occ:183888
+              originalIdentifiedName: Dromomeryx whitfordi
+              acceptedName: Dromomeryx borealis
+              difference: null
+            - occurrenceId: occ:185481
+              originalIdentifiedName: Dromomeryx pawniensis n. sp.
+              acceptedName: Dromomeryx borealis
+              difference: null
+            - occurrenceId: occ:1303406
+              originalIdentifiedName: Dromomeryx whitfordi n. sp.
+              acceptedName: Dromomeryx borealis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-eb0623168d
+        part: body
+      en:
+        page: en
+        section: s-aa63c8e9bc
+        part: body

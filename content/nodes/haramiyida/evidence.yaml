@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-7e4c5a2900
+          part: title
+        zh:
+          page: zh
+          section: s-6ddc38771a
+          part: title
+      text:
+        en:
+          page: en
+          section: s-7e4c5a2900
+          part: body
+        zh:
+          page: zh
+          section: s-6ddc38771a
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-bf0a61b247
+          part: title
+        zh:
+          page: zh
+          section: s-279994f1f6
+          part: title
+      text:
+        en:
+          page: en
+          section: s-bf0a61b247
+          part: body
+        zh:
+          page: zh
+          section: s-279994f1f6
+          part: body
+  atlas-node:
+    name: Haramiyida
+    commonName: Haramiyidans
+    commonNameZh: 贼兽类
+    rank: order
+    taxonId: ""
+    firstAppearance: 205.7
+    lastAppearance: 145
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:haramiyida
+      claimKind: scientific
+      claimType: topology
+      statement: Three Jurassic euharamiyidan skeletons add cranial and postcranial characters to a mammaliaform matrix and support a haramiyidan–multituberculate grouping in that analysis; competing matrices and older tooth-only taxa keep broader Haramiyida placement model-dependent.
+      confidence: medium
+      confidenceRationale: The fossils and scored characters are direct evidence, while the higher placement and inferred split are analytical results with known alternatives.
+      referenceLinks:
+        - relation: supports
+          referenceId: bi-2014-euharamiyidans
+          pages: 579–584
+          figure: Figures 1–4
+          quoteLocator: "Phylogenetic analyses; Supplementary Information: character matrix"
+    - subjectId: taxon:haramiyida
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Haramiyida is displayed at 205.7–157.3 Ma only as the source's contested haramiyidan sample envelope, not a stable clade FAD/LAD. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Haramiyida uses Bi, S.; Wang, Y.; Guan, J.; Sheng, X.; Meng, J. (2014) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Late Triassic tooth record through Jurassic euharamiyidan skeletons discussed by Bi et al.; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: bi-2014-euharamiyidans
+          pages: 579–584
+          figure: Figures 1–4
+          quoteLocator: "Phylogenetic analyses; Supplementary Information: character matrix"
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 化石与已编码性状属于直接证据，而高阶位置和推断分化属于存在替代方案的分析结果。
+    - Haramiyida 采用 Bi, S.; Wang, Y.; Guan, J.; Sheng, X.; Meng, J.（2014）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Late Triassic tooth record through Jurassic euharamiyidan skeletons discussed by Bi et al.；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 三件侏罗纪真哈拉米亚类骨架向哺乳形类矩阵补充了头骨和头后性状，并在该分析中支持哈拉米亚类—多瘤齿兽类组合；相互竞争的矩阵及更早的仅牙齿类群使广义 Haramiyida 的位置仍依赖模型。
+    - Haramiyida 仅以 205.7–157.3 Ma 展示为来源中存在系统位置争议的哈拉米亚类样本包络，而非稳定类群首末现。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: haramiyida
+      rangeKind: global-composite
+      taxonomicConcept: Haramiyida — source-bounded sample window
+      geographicScope: Late Triassic tooth record through Jurassic euharamiyidan skeletons discussed by Bi et al.
+      olderMa: 205.7
+      youngerMa: 157.3
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the source's contested haramiyidan sample envelope, not a stable clade FAD/LAD; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: Three new Jurassic euharamiyidan species reinforce early divergence of mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:haramiyida:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: bi-2014-euharamiyidans
+          locator: "579–584; Phylogenetic analyses; Supplementary Information: character matrix"
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries

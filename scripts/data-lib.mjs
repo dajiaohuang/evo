@@ -64,7 +64,6 @@ export function collectDataSummary() {
   const ontology = readJson('data/navigation/atlas-ontology.json')
   const treeEvidence = readJson('data/tree/evidence.json')
   const claims = readJson('data/evidence/claims.json')
-  const editorialDecisions = readJson('data/evidence/editorial-decisions.json')
   const entityRegistry = readJson('data/registry/entities/entities.json')
   const packageRegistry = readJson('data/registry/package-registry.json')
   const speciesEvidenceQueue = readJson('data/knowledge/species-evidence-queue/manifest.json')
@@ -103,7 +102,6 @@ export function collectDataSummary() {
       divergenceEstimates: perissodactylCalibrations.estimates.length,
       treeEvidenceOverrides: Object.keys(treeEvidence.nodes).length,
       evidenceClaims: claims.length,
-      editorialDecisions: editorialDecisions.length,
       registryEntities: entityRegistry.length,
       dataPackages: packageRegistry.packages.length,
       bilingualRegistryEntities: entityRegistry.filter((entity) => entity.names.en && entity.names.zh).length,
@@ -113,7 +111,6 @@ export function collectDataSummary() {
       speciesSourceOriginalAssociated: speciesEvidenceQueue.counts.sourceOriginalAssociatedSpecies,
       speciesWithIntroductorySummary: speciesEvidenceQueue.counts.introductorySummarySpecies,
       speciesWithDossier: speciesEvidenceQueue.counts.dossierSpecies,
-      speciesWithCompleteDossier: speciesEvidenceQueue.counts.completeDossierSpecies,
       speciesWithAnyEvidenceStage: speciesEvidenceQueue.counts.speciesWithAnyEvidenceStage,
       speciesWithoutAnyEvidenceStage: speciesEvidenceQueue.counts.speciesWithoutAnyEvidenceStage,
       speciesWithoutDossier: speciesEvidenceQueue.counts.speciesWithoutDossier,

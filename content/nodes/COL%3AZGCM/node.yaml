@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia deserticola
+  displayName: Crinia deserticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZGCM
+  sourceIndexes:
+    - name:
+        en: Crinia deserticola
+        zh: Crinia deserticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZGCM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/201
+            queryName: Crinia deserticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/375
+            queryName: Ranidella deserticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4669ee9681
+      - s-b4462ecf63
+      - s-b91160d496
+      - s-f8ad53877a
+      - s-27c0b314bb
+      - s-e740be5856
+      - s-21f823973e
+      - s-38bdc9ed1b
+      - s-6d427f0b24
+      - s-d857bebcf3
+    zh:
+      - s-a634a20fa5
+      - s-988c542dab
+      - s-b753c96c41
+      - s-517572bb1b
+      - s-d28d5e5189
+      - s-37da8de88e
+      - s-891e94284f
+      - s-ce0188ee86
+      - s-bec9167781
+      - s-fffaa69e82

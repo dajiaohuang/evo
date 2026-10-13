@@ -1,0 +1,12 @@
+## Overview {#s-d5b2f4b843}
+COL26.8 accepts Cebus cuscinus Thomas, 1901; MDD v2.5 lists this name and an earlier combination among synonyms of C. albifrons. The field papers below report local observations under C. cuscinus, so this page preserves their names and keeps the claims within the survey sites.
+
+## Research observations {#s-feac95cb9a}
+From April to August 2025, Pottie et al. walked about 101 km across five transects at Los Amigos Biological Station in southeastern Peru, recording 260 individuals from nine diurnal primate species. The encounter rate for C. cuscinus was 2.1 individuals per 10 km, compared with 2.8 in the station's 2013 line-transect study. Encounter rate is a relative index, not absolute density.
+
+## Interpreting the evidence {#s-fc6c09370e}
+The 2025 study found lower encounter rates for medium and small primates alongside recovery of larger species, and discussed competitive release or density compensation as possible explanations. The surveys were about twelve years apart, and group size and detectability also affect encounter rates. The comparison describes community change at Los Amigos; it does not establish a range-wide trend or a single cause for C. cuscinus.
+
+## Evidence limits {#s-f5404009ab}
+A local transect-study guide. The two relative encounter-rate estimates come from one site in Peru; differences in detectability, group size and taxonomic usage limit trend interpretation. They are not a complete natural-history or current range account.
+

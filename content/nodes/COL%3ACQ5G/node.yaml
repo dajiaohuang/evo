@@ -1,0 +1,136 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma texanum
+  displayName: Ambystoma texanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ5G
+  sourceIndexes:
+    - name:
+        en: Ambystoma texanum
+        zh: Ambystoma texanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ5G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/251
+            queryName: Ambystoma texanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 47
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/277
+            queryName: Ambystoma nothagenes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/437
+            queryName: Salamandra texana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/189
+            queryName: Amblystoma texanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/190
+            queryName: Amblystoma microstomum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/191
+            queryName: Chondrotus microstomus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/192
+            queryName: Chondrotus texanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/193
+            queryName: Ambystoma microstomum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/194
+            queryName: Ambystoma schmidti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/195
+            queryName: Linguaelapsus schmidti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/196
+            queryName: Linguaelapsus texanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b1d33103d8
+      - s-83cf05ec15
+      - s-cf02ac3c7e
+      - s-84a24f5a9d
+      - s-7e37513688
+      - s-f7ca5b94fc
+      - s-b209d9cf8a
+      - s-4ca1695c5d
+      - s-1fddf9dc6a
+      - s-cd5b592333
+      - s-d4ade59a9e
+      - s-7372b622f7
+      - s-1606a3f8ae
+      - s-046d5f4c48
+      - s-3d2e58e35c
+      - s-a8a48de055
+      - s-79cebebed3
+      - s-b3b5254a91
+    zh:
+      - s-1438c61c6a
+      - s-209d8828b4
+      - s-15cfd1bfee
+      - s-9d4bf92893
+      - s-8b0182a270
+      - s-fc287e75b1
+      - s-bfe6487882
+      - s-d38cade747
+      - s-f22413a51b
+      - s-691c24f06a
+      - s-3a72b98b6b
+      - s-379fcfbcd8
+      - s-1b1b11160d
+      - s-292069d30c
+      - s-fe47d88590
+      - s-7e1017b95f
+      - s-a9eae82dc3
+      - s-a054800663

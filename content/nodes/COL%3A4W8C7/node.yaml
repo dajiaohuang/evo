@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sechellophryne pipilodryas
+  displayName: Sechellophryne pipilodryas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W8C7
+  sourceIndexes:
+    - name:
+        en: Sechellophryne pipilodryas
+        zh: Sechellophryne pipilodryas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W8C7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/172
+            queryName: Sechellophryne pipilodryas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/346
+            queryName: Sooglossus pipilodryas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/44
+            queryName: Leptosooglossus pipilodryas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7ebe1eed49
+      - s-49bb6576a6
+      - s-911bf1a60f
+      - s-632996574e
+      - s-1ebdb67c56
+      - s-3568b5e5cc
+      - s-e6647d0983
+      - s-3168ac88b9
+      - s-661323a3cf
+    zh:
+      - s-d42e943f86
+      - s-104c4aa3a3
+      - s-421aacb5e2
+      - s-1aef9f662f
+      - s-218d50667d
+      - s-1c115b02cd
+      - s-45f0a173b2
+      - s-75dd6c510e
+      - s-a486632438

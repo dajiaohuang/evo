@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa walkeri
+  displayName: Bolitoglossa walkeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDSV
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa walkeri
+        zh: Bolitoglossa walkeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDSV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/212
+            queryName: Bolitoglossa walkeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 46
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c06e27c14
+      - s-334476df69
+      - s-b0a1c286ba
+      - s-2db8d99214
+      - s-40ef531183
+      - s-6ed1ad871a
+      - s-9dba962e18
+      - s-ac976b419a
+    zh:
+      - s-6be4ebe620
+      - s-e792a6c822
+      - s-abe5b518a7
+      - s-9b10d0567f
+      - s-5a7e82c968
+      - s-d2d742a5bc
+      - s-35eae24c38
+      - s-8419e76e42

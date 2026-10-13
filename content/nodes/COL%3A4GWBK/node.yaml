@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus werneri
+  displayName: Phrynobatrachus werneri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWBK
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus werneri
+        zh: Phrynobatrachus werneri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWBK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/187
+            queryName: Phrynobatrachus werneri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/353
+            queryName: Arthroleptis werneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/354
+            queryName: Pseudarthroleptis werneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/198
+            queryName: Phrynobatrachus werneri werneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c98d57178f
+      - s-5b05e90c9b
+      - s-f265d163b3
+      - s-99bc0316a6
+      - s-ad6353f744
+      - s-eb6a110177
+      - s-e8a827fe67
+      - s-a80eeb1c4e
+    zh:
+      - s-77ad1e132d
+      - s-beb72098da
+      - s-dd9938c633
+      - s-d4c0dec3ab
+      - s-e183cbc9d4
+      - s-af1743e53f
+      - s-781b99be74
+      - s-98fb1d20b5

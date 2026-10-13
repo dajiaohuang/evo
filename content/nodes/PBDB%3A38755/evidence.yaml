@@ -1,0 +1,185 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Hadrosauridae
+    commonName: Duck-billed Dinosaurs
+    commonNameZh: 鸭嘴龙类
+    rank: family
+    taxonId: txn:38755
+    firstAppearance: 100
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:hadrosauridae
+      claimKind: scientific
+      claimType: biogeography
+      statement: Hadrosauridae is represented by the taxa and areas sampled in Prieto-Márquez’s event-based historical-biogeographic analysis; inferred dispersal routes are model results, not observed migrations or a complete global range.
+      confidence: medium
+      confidenceRationale: The analysis explicitly combines a sampled phylogeny with geographic areas and time slices. Medium confidence preserves dependence on topology, coding and fossil sampling.
+      referenceLinks:
+        - referenceId: prieto-marquez-2010-hadrosaurid-biogeography
+          relation: supports
+          pages: 503–525
+          figure: Figures 1–5; Tables 1–2
+          quoteLocator: Methods; area coding; event-based results; Discussion
+    - subjectId: taxon:hadrosauridae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Hadrosauridae is displayed at 100.5–66 Ma only as the source's global historical-biogeography sample, not an exhaustive family record or exact endpoints. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Hadrosauridae uses Prieto-Márquez, A. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Hadrosaurid fossil areas and intervals sampled by Prieto-Márquez; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: prieto-marquez-2010-hadrosaurid-biogeography
+          pages: 503–525
+          figure: Figures 1–5; Tables 1–2
+          quoteLocator: Methods; area coding; event-based results; Discussion
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 分析明确联合取样系统树、地理区域与时间片；中等置信度保留对拓扑、编码和化石取样的依赖。
+    - Hadrosauridae 采用 Prieto-Márquez, A.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Hadrosaurid fossil areas and intervals sampled by Prieto-Márquez；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 鸭嘴龙科表示 Prieto-Márquez 事件型历史生物地理分析中取样的类群和区域；推断扩散路线是模型结果，不是被观察到的迁徙或完整全球范围。
+    - Hadrosauridae 仅以 100.5–66 Ma 展示为论文历史生物地理分析所采样的全球记录，而非穷尽的科级记录或精确端点。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: hadrosauridae
+      rangeKind: global-composite
+      taxonomicConcept: Hadrosauridae — source-bounded sample window
+      geographicScope: Hadrosaurid fossil areas and intervals sampled by Prieto-Márquez
+      olderMa: 100.5
+      youngerMa: 66
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the source's global historical-biogeography sample, not an exhaustive family record or exact endpoints; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: Global historical biogeography of hadrosaurid dinosaurs directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:hadrosauridae:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: prieto-marquez-2010-hadrosaurid-biogeography
+          locator: 503–525; Methods; area coding; event-based results; Discussion
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    scientificName: Hadrosauridae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Hadrosauridae
+      en: Hadrosauridae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-27e16e46e7
+            part: body
+          en:
+            page: en
+            section: s-cead948adb
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8085651c48
+            part: body
+          en:
+            page: en
+            section: s-91ee90d65f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Hadrosauridae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38755
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38755
+          readingTargets:
+            - name: Brachylophosaurus canadensis
+              pbdbTaxonId: txn:65213
+              canonicalPath: content/nodes/PBDB%3A65213
+            - name: Hadrosaurus foulkii
+              pbdbTaxonId: txn:52812
+              canonicalPath: content/nodes/PBDB%3A52812
+            - name: Ornatops incantatus
+              pbdbTaxonId: txn:435345
+              canonicalPath: content/nodes/PBDB%3A435345
+            - name: Acristavus gagslarsoni
+              pbdbTaxonId: txn:205435
+              canonicalPath: content/nodes/PBDB%3A205435
+            - name: Maiasaura peeblesorum
+              pbdbTaxonId: txn:55574
+              canonicalPath: content/nodes/PBDB%3A55574
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4cb3af7520
+        part: body
+      en:
+        page: en
+        section: s-3390d9c27d
+        part: body

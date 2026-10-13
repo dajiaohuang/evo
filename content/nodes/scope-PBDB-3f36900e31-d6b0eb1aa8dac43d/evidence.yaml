@@ -1,0 +1,141 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Gymnophionomorpha
+    rank: unranked clade
+    sourceTaxonId: txn:471965
+    name:
+      en: Gymnophionomorpha
+      zh: Gymnophionomorpha
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-c835f9396d
+            part: body
+          zh:
+            page: zh
+            section: s-a0e3213637
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Material in the captured fossil roster
+          zh: 捕获化石名录中的材料
+        text:
+          en:
+            page: en
+            section: s-cafdaa8816
+            part: body
+          zh:
+            page: zh
+            section: s-2757b455b4
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-b934ea1d6e
+            part: body
+          zh:
+            page: zh
+            section: s-fbaf263b98
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-13477584a2
+            part: body
+          zh:
+            page: zh
+            section: s-4eca02bac1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:471965; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: B. T. Kligman, B. M. Gee, and A. D. Marsh, S. J. Nesbitt, M. E. Smith, W. G. Parker, M. R. Stocker. 2023. Triassic stem caecilian supports dissorophoid origin of living amphibians. Nature 614:102-107
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:471966
+        - txn:202816
+        - txn:156823
+        - txn:156677
+      exactOccurrenceCount: 4
+      datedOccurrenceCount: 4
+      collectionIntervalBoundsMa:
+        older: 227.3
+        younger: 48.07
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-13477584a2
+            part: body
+          zh:
+            page: zh
+            section: s-4eca02bac1
+            part: body
+        sourceIds: []

@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana multifasciata
+  displayName: Boana multifasciata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7ZL
+  sourceIndexes:
+    - name:
+        en: Boana multifasciata
+        zh: Boana multifasciata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7ZL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/7
+            queryName: Boana multifasciata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/403
+            queryName: Hyla multifasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/174
+            queryName: Hypsiboas multifasciatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/362
+            queryName: Hyla albopunctata multifasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-772cfb3cef
+      - s-2a5ed1737b
+      - s-0dbe806beb
+      - s-25c155f693
+      - s-4dedf1b4fb
+      - s-bc8caaa7c8
+      - s-0619b62f2d
+      - s-8024044849
+      - s-3a0fb4f368
+      - s-52b05586f0
+      - s-0483750677
+      - s-23962bf35a
+      - s-c9f2fac15b
+      - s-d450d63840
+      - s-39fed02aee
+      - s-95f38860d4
+      - s-74575abd30
+      - s-fbb50e37a0
+      - s-edcedb96a4
+      - s-dd9b22263a
+    zh:
+      - s-dedfa58faf
+      - s-ed95978120
+      - s-a8a491953c
+      - s-bde0e59388
+      - s-51346f0b9f
+      - s-aea16fd3cd
+      - s-c26698035a
+      - s-ebc4c0cea8
+      - s-2e74fdaba0
+      - s-2a047acefe
+      - s-11ad00610d
+      - s-cafe70d601
+      - s-66ca745a3a
+      - s-4008d7c53b
+      - s-72bb1fc51c
+      - s-d3ff8ddb33
+      - s-fc9b0cfd3b
+      - s-1d6579c532
+      - s-32128beabd
+      - s-c80391ceca

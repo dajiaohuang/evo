@@ -1,0 +1,307 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis pluvian Oliveira, Alves da Silva, Guimarães, Penhacek, Martínez, Rodrigues, Santana & Hernández-Ruz, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis pluvian
+      zh: Pristimantis pluvian
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-19bd4ff437
+            part: title
+          zh:
+            page: zh
+            section: s-d2744c8a83
+            part: title
+        text:
+          en:
+            page: en
+            section: s-19bd4ff437
+            part: body
+          zh:
+            page: zh
+            section: s-d2744c8a83
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e4529787c8
+            part: title
+          zh:
+            page: zh
+            section: s-ede93fcaee
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e4529787c8
+            part: body
+          zh:
+            page: zh
+            section: s-ede93fcaee
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-05a7f8bffa
+            part: title
+          zh:
+            page: zh
+            section: s-62b02ce1b4
+            part: title
+        sourceIds:
+          - primary-pmc7080247-scgjj
+        text:
+          en:
+            page: en
+            section: s-05a7f8bffa
+            part: body
+          zh:
+            page: zh
+            section: s-62b02ce1b4
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8abcd1c84c
+            part: title
+          zh:
+            page: zh
+            section: s-22993f49ef
+            part: title
+        sourceIds:
+          - primary-pmc7080247-scgjj
+        text:
+          en:
+            page: en
+            section: s-8abcd1c84c
+            part: body
+          zh:
+            page: zh
+            section: s-22993f49ef
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-eab4d3ec0f
+            part: title
+          zh:
+            page: zh
+            section: s-7de261ca17
+            part: title
+        sourceIds:
+          - primary-pmc7080247-scgjj
+        text:
+          en:
+            page: en
+            section: s-eab4d3ec0f
+            part: body
+          zh:
+            page: zh
+            section: s-7de261ca17
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-0feb6d9983
+            part: title
+          zh:
+            page: zh
+            section: s-d3c2d84c5d
+            part: title
+        sourceIds:
+          - primary-pmc7080247-scgjj
+        text:
+          en:
+            page: en
+            section: s-0feb6d9983
+            part: body
+          zh:
+            page: zh
+            section: s-d3c2d84c5d
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f542ff62da
+            part: body
+          zh:
+            page: zh
+            section: s-e1db5ceba7
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis pluvian
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCGJJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7080247-scgjj
+        referenceId: ref-8cdbea68-c376-457f-ad72-8f5f6c3ef6e6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis pluvian: Named diagnoses, explicit specimen variation, acoustic methods and locality paragraphs; figure correction PMC7688163 inspected, no figures used; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2ac837b50f
+        part: body
+      zh:
+        page: zh
+        section: s-3f58b75fbd
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0229971
+        referenceId: ref-8cdbea68-c376-457f-ad72-8f5f6c3ef6e6
+        sourceKey: primary-pmc7080247-scgjj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7080247/article.xml
+        sourceConcept: Pristimantis pluvian
+        evidenceRead: "Pristimantis pluvian: Named diagnoses, explicit specimen variation, acoustic methods and locality paragraphs; figure correction PMC7688163 inspected, no figures used; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A diagnosis with explicit fold and fringe exceptions
+              zh: 明确褶及缘例外的诊断
+            referenceId: ref-8cdbea68-c376-457f-ad72-8f5f6c3ef6e6
+            sourceKey: primary-pmc7080247-scgjj
+            locator: PMC7080247 XML sec041 and sec047 paragraph 0 each
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-29c891df01
+                part: body
+              zh:
+                page: zh
+                section: s-2c0fd9e8d2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Rain-period calling vegetation and dry-period ground use
+              zh: 繁殖期鸣叫植被及旱期地面使用
+            referenceId: ref-8cdbea68-c376-457f-ad72-8f5f6c3ef6e6
+            sourceKey: primary-pmc7080247-scgjj
+            locator: PMC7080247 reading-sections section 12, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-81b0bee660
+                part: body
+              zh:
+                page: zh
+                section: s-7e6ef43e7d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Two-note advertisement calls from a small male sample
+              zh: 小雄样本的双音符广告鸣声
+            referenceId: ref-8cdbea68-c376-457f-ad72-8f5f6c3ef6e6
+            sourceKey: primary-pmc7080247-scgjj
+            locator: PMC7080247 reading-sections section 1, paragraphs 0–1; section 10, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-10e20b038b
+                part: body
+              zh:
+                page: zh
+                section: s-ebd576574e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Unresolved mitochondrial relationships are not a settled radiation
+              zh: 未解决线粒体关系不是已确定辐射
+            referenceId: ref-8cdbea68-c376-457f-ad72-8f5f6c3ef6e6
+            sourceKey: primary-pmc7080247-scgjj
+            locator: PMC7080247 reading-sections section 16, paragraph 2; section 2, paragraphs 0 and 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2f3ae744b0
+                part: body
+              zh:
+                page: zh
+                section: s-b694f98afa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

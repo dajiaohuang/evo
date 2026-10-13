@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spinomantis phantasticus
+  displayName: Spinomantis phantasticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Z5S6
+  sourceIndexes:
+    - name:
+        en: Spinomantis phantasticus
+        zh: Spinomantis phantasticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Z5S6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/285
+            queryName: Spinomantis phantasticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/196
+            queryName: Mantidactylus phantasticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fd58ee4e50
+      - s-5ffcc8c96c
+      - s-6e891ea572
+      - s-f856df90b5
+      - s-0da2699e93
+      - s-2780c59362
+      - s-6d329cde09
+      - s-6f270afd66
+      - s-a2db50f061
+      - s-8e14b96383
+    zh:
+      - s-58c25b7f26
+      - s-fa8e9665b3
+      - s-8ff7439222
+      - s-db2b2771bb
+      - s-d46f00da58
+      - s-252495f9d2
+      - s-0386a2f2ee
+      - s-1d9014e4c4
+      - s-46a156e922
+      - s-576d2dddef

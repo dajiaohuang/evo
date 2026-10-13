@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Turnera sancta? {#s-e5952b963a}
+The branches have simple hairs. Petiolate leaves bear stipules and extrafloral nectaries; narrow ovate or elliptic blades have finely toothed or scalloped edges and sparse hairs on both surfaces. The inflorescence is a raceme, with a peduncle and bracteoles but no pedicels. The yellow corolla lacks a corona. Filaments attach to the petal claws along their margins up to the throat. Styles are heterostylous. The fruit exocarp is warty; seeds have striate net-like surfaces, papillose outer layers and a prominent chalaza.
+

@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Kitiakia firma
+    rank: species
+    sourceTaxonId: txn:453765
+    name:
+      en: Kitiakia firma
+      zh: Kitiakia firma
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-2f41fe7510
+            part: body
+          zh:
+            page: zh
+            section: s-d4bd019367
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-a289e220e3
+            part: body
+          zh:
+            page: zh
+            section: s-eabc991125
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-ee266414b8
+            part: body
+          zh:
+            page: zh
+            section: s-530aae6849
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:453765; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "V. V. Bulanov and V. K. Golubev. 2019. New data on enosuchid anthracosauromorphs (Amphibia) of the middle–late Permian of European Russia: Part 2. New taxa of Enosuchidae. Paleontological Journal 52:1623-1632"
+    occurrenceEvidence:
+      - occurrenceId: occ:1589231
+        collectionId: col:189415
+        acceptedTaxonId: txn:453765
+        identifiedName: Kitiakia firma n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:80948
+        bibliography: "V. V. Bulanov and V. K. Golubev. 2019. New data on enosuchid anthracosauromorphs (Amphibia) of the middle–late Permian of European Russia: Part 2. New taxa of Enosuchidae. Paleontological Journal 52:1623-1632"
+        locality:
+          countryCode: RU
+          stateProvince: Kirov
+          county: Malmyzh
+        stratigraphy:
+          group: null
+          formation: Belebei
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ee266414b8
+            part: body
+          zh:
+            page: zh
+            section: s-530aae6849
+            part: body
+        sourceIds: []

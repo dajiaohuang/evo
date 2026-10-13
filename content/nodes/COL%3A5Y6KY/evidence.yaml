@@ -1,0 +1,670 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropterotriton multidentatus (Taylor, 1939)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiropterotriton multidentatus
+      zh: Chiropterotriton multidentatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ff6134fa2e
+            part: title
+          zh:
+            page: zh
+            section: s-a4a3fbc82e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ff6134fa2e
+            part: body
+          zh:
+            page: zh
+            section: s-a4a3fbc82e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3c1266325f
+            part: title
+          zh:
+            page: zh
+            section: s-d2cf07eb55
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3c1266325f
+            part: body
+          zh:
+            page: zh
+            section: s-d2cf07eb55
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-9074fa705f
+            part: title
+          zh:
+            page: zh
+            section: s-3f5af50c39
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-9074fa705f
+            part: body
+          zh:
+            page: zh
+            section: s-3f5af50c39
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a230d048b4
+            part: title
+          zh:
+            page: zh
+            section: s-688a0f6134
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-a230d048b4
+            part: body
+          zh:
+            page: zh
+            section: s-688a0f6134
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cd1240ebf4
+            part: title
+          zh:
+            page: zh
+            section: s-97061645a8
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-cd1240ebf4
+            part: body
+          zh:
+            page: zh
+            section: s-97061645a8
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-8fb8954b4c
+            part: title
+          zh:
+            page: zh
+            section: s-301dd83e1b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-8fb8954b4c
+            part: body
+          zh:
+            page: zh
+            section: s-301dd83e1b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-ba02b1ba09
+            part: title
+          zh:
+            page: zh
+            section: s-22829d0381
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-ba02b1ba09
+            part: body
+          zh:
+            page: zh
+            section: s-22829d0381
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-903251e2d7
+            part: title
+          zh:
+            page: zh
+            section: s-9f7d910f5e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-903251e2d7
+            part: body
+          zh:
+            page: zh
+            section: s-9f7d910f5e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-b6d35c9f31f4a09f02218849e0a43b15
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-366bfaee7a59bec1eeeea8d5
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f9937cc666
+            part: title
+          zh:
+            page: zh
+            section: s-5f5888086a
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "776"
+        text:
+          en:
+            page: en
+            section: s-f9937cc666
+            part: body
+          zh:
+            page: zh
+            section: s-5f5888086a
+            part: body
+        sourceRowNumber: 684
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-316b59ea1c
+            part: title
+          zh:
+            page: zh
+            section: s-b1a477f1db
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6ky
+        text:
+          en:
+            page: en
+            section: s-316b59ea1c
+            part: body
+          zh:
+            page: zh
+            section: s-b1a477f1db
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-26458e9fc7
+            part: title
+          zh:
+            page: zh
+            section: s-3042c6db05
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6ky
+        text:
+          en:
+            page: en
+            section: s-26458e9fc7
+            part: body
+          zh:
+            page: zh
+            section: s-3042c6db05
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8e99d72403
+            part: title
+          zh:
+            page: zh
+            section: s-43d5e833dc
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6ky
+        text:
+          en:
+            page: en
+            section: s-8e99d72403
+            part: body
+          zh:
+            page: zh
+            section: s-43d5e833dc
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5e97abb3b9
+            part: title
+          zh:
+            page: zh
+            section: s-96de3c7a18
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6ky
+        text:
+          en:
+            page: en
+            section: s-5e97abb3b9
+            part: body
+          zh:
+            page: zh
+            section: s-96de3c7a18
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1e9d06930d
+            part: title
+          zh:
+            page: zh
+            section: s-72b4c72fab
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6ky
+        text:
+          en:
+            page: en
+            section: s-1e9d06930d
+            part: body
+          zh:
+            page: zh
+            section: s-72b4c72fab
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiropterotriton multidentatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/5Y6KY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 208440, row 277445; Distribution.tsv rows 69583; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6215; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6210 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc12135470-5y6ky
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiropterotriton multidentatus: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d0e7f93271
+        part: body
+      zh:
+        page: zh
+        section: s-f6852589d0
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "208440"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=208440
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 277445
+        key: "208440"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "208440"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 69583
+            key: 208440|Middle America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-b6d35c9f31f4a09f02218849e0a43b15
+      sourceRowId: Anf6215
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6215
+        bibliographyRowId: Anf6210
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Cryptotriton alvarezdeltoroi
+        candidateBibliographyRowIds:
+          - Anf6210
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-366bfaee7a59bec1eeeea8d5
+        scientificName: Chiropterotriton multidentatus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1186/s42523-025-00423-x
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        sourceKey: primary-pmc12135470-5y6ky
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12135470/article.xml
+        sourceConcept: 2017–2018 morphology-identified Chiropterotriton multidentatus Mexican field sample, exact frozen-name candidate not voucher/concept certification
+        evidenceRead: "Chiropterotriton multidentatus: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Selected Mexican survey localities, 2017–2018
+              zh: 2017–2018 年墨西哥所选调查地点
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6ky
+            locator: PMC12135470 XML Sec3 Methods sampling; Sec7 Results Figure1 caption
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1cd04df79c
+                part: body
+              zh:
+                page: zh
+                section: s-2e000a959d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Skin swabs describe a filtered bacterial community
+              zh: 皮肤拭子描述经过筛选的细菌群落
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6ky
+            locator: PMC12135470 XML Sec3–Sec4 sampling and16S processing; Sec7 controls
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-325d682800
+                part: body
+              zh:
+                page: zh
+                section: s-159240ace2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Bd detection is not a test of resistance or disease survival
+              zh: Bd 检出不是抗性或患病存活试验
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6ky
+            locator: PMC12135470 XML Sec6 Bd assay; Sec10 Bd Results; Sec14 Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eaf4eece82
+                part: body
+              zh:
+                page: zh
+                section: s-eb42a9c485
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Antifungal capacity is inferred rather than demonstrated in this host
+              zh: 本宿主抗真菌能力为推断而非实证
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6ky
+            locator: PMC12135470 XML Sec4–Sec5 database/PICRUSt2/network methods; Sec8–Sec9 Results; Sec13 Discussion; Sec15 Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-edb3f72c6c
+                part: body
+              zh:
+                page: zh
+                section: s-a5e0d18cd9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: ecology
+            heading:
+              en: Within-species cave–forest comparisons retain their sample sizes
+              zh: 种内洞穴—森林比较保留样本量
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6ky
+            locator: PMC12135470 XML Sec4 reduceddataset counts; Sec8 within-species comparisons
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-37ec23edef
+                part: body
+              zh:
+                page: zh
+                section: s-3816dd138f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

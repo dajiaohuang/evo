@@ -1,0 +1,9 @@
+## AmphiBIO species record {#s-03fdfdd949}
+What does AmphiBIO v1 record for Rhacophorus hui? Row Anf5321 places it in genus Rhacophorus, family Rhacophoridae and order Anura. The compilation follows Amphibian Species of the World (Frost 2011) for its species concepts. The trait values below belong to this historical source record; its equivalence to a current COL26.8 species concept has not been established.
+
+## Life-history values in the compilation {#s-d6b5513fd6}
+For this source concept, the literature compilation records these life-history values: maximum reproductive events per year: 1 events/year. These are literature-reported minima, maxima and counts; the row does not tie each value to a sex, population, date or wild/captive setting. The source notes that offspring-size values may refer to offspring or eggs.
+
+## Developmental category in the record {#s-315244296f}
+The AmphiBIO record assigns this source concept the developmental category “a larval stage”. This field does not describe parental care, breeding location or seasonal timing.
+

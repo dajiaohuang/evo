@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lissotriton italicus
+  displayName: Lissotriton italicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VGGZ
+  sourceIndexes:
+    - name:
+        en: Lissotriton italicus
+        zh: Lissotriton italicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VGGZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/153
+            queryName: Lissotriton italicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/385
+            queryName: Triturus italicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 40
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/189
+            queryName: Molge italica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/190
+            queryName: Triton italicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/191
+            queryName: Lophinus italicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/469
+            queryName: Triturus vulgaris italicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-269a13a231
+      - s-5c266af23f
+      - s-4bf7986098
+      - s-c01cf4c50d
+      - s-8f527b354e
+      - s-f06849dedf
+      - s-3b33a6f614
+      - s-5e87a942ad
+      - s-d520e7afd5
+      - s-bad37a44d4
+    zh:
+      - s-72f7d4f127
+      - s-2e80b46feb
+      - s-f29f8f92bb
+      - s-815ee48caa
+      - s-60a895940a
+      - s-b67dda4456
+      - s-63f3f46770
+      - s-a548545254
+      - s-a110a0a8dc
+      - s-9c21ed4c13

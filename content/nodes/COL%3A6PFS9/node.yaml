@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella oshanensis
+  displayName: Leptobrachella oshanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PFS9
+  sourceIndexes:
+    - name:
+        en: Leptobrachella oshanensis
+        zh: Leptobrachella oshanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PFS9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/270
+            queryName: Leptobrachella oshanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/232
+            queryName: Leptolalax oshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/407
+            queryName: Megophrys oshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/408
+            queryName: Leptobrachium oshanense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/409
+            queryName: Paramegophrys oshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/118
+            queryName: Leptolalax pelodytoides oshanesis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/170
+            queryName: Carpophrys oshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-634dc88393
+      - s-4fe69e0b84
+      - s-ec649b72fd
+      - s-95b40f5803
+      - s-39a5c4502d
+      - s-cb4534a5b3
+      - s-ccb69bb74c
+      - s-98b7ab55fd
+      - s-b720b32d75
+    zh:
+      - s-7edac35683
+      - s-fc9d914c8f
+      - s-a52c3af925
+      - s-3fe0d3a490
+      - s-f7238404e7
+      - s-26dff81701
+      - s-cbc2a8c77e
+      - s-dd8f6f8f50
+      - s-2a0a216917

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gracixalus guangdongensis
+  displayName: Gracixalus guangdongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KS62
+  sourceIndexes:
+    - name:
+        en: Gracixalus guangdongensis
+        zh: Gracixalus guangdongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KS62
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/190
+            queryName: Gracixalus guangdongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d85f29240a
+      - s-2345933f20
+      - s-b9ba636890
+      - s-6fabd65fe0
+      - s-a9b791703e
+    zh:
+      - s-7ade5aa3a2
+      - s-08f1b3b477
+      - s-bc28d9f359
+      - s-8a6430cf6e
+      - s-4d4fb6e1c2

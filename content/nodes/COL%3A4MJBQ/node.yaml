@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis ceuthospilus
+  displayName: Pristimantis ceuthospilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJBQ
+  sourceIndexes:
+    - name:
+        en: Pristimantis ceuthospilus
+        zh: Pristimantis ceuthospilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJBQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/190
+            queryName: Pristimantis ceuthospilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/301
+            queryName: Eleutherodactylus ceuthospilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c5d47b9b3
+      - s-e0c05afd01
+      - s-a6a3ca0d62
+      - s-9496e5ed10
+      - s-607be50916
+      - s-842547ea57
+      - s-e6c967402d
+      - s-1f7bad6a07
+      - s-b85a9e2200
+    zh:
+      - s-5d0e67699a
+      - s-06e5aa56d4
+      - s-41763b01c8
+      - s-78caff539e
+      - s-1e9942febf
+      - s-bfe94eeb33
+      - s-4bdb10a323
+      - s-432a5ca80f
+      - s-10bd1cd219

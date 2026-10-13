@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius quinquevittatus
+  displayName: Hyperolius quinquevittatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQY7
+  sourceIndexes:
+    - name:
+        en: Hyperolius quinquevittatus
+        zh: Hyperolius quinquevittatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQY7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/325
+            queryName: Hyperolius quinquevittatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/324
+            queryName: Hyperolius mertensi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/69
+            queryName: Hyperolius quinquevittatus quinquevittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/70
+            queryName: Hyperolius quiquevittatus mertensi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fc8afbcde9
+      - s-32f8a541ef
+      - s-359cbbfa88
+      - s-db86b291c3
+      - s-94a156478e
+      - s-6132a36f59
+      - s-05cccad6e9
+      - s-ee1f17b158
+    zh:
+      - s-a3581688b8
+      - s-1da145af76
+      - s-efe0bcfa0b
+      - s-f6f6575800
+      - s-663c366424
+      - s-100738b5a8
+      - s-ae6948f76b
+      - s-3d9e8c0c60

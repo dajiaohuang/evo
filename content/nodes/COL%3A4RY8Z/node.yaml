@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhaebo glaberrimus
+  displayName: Rhaebo glaberrimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RY8Z
+  sourceIndexes:
+    - name:
+        en: Rhaebo glaberrimus
+        zh: Rhaebo glaberrimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RY8Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/270
+            queryName: Rhaebo glaberrimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 45
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/386
+            queryName: Bufo glaberrimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/16
+            queryName: Bufo guttatus glaberrimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-31d2a7a996
+      - s-6d9507a11f
+      - s-793d4e8701
+      - s-8b4203c801
+      - s-51924a56e9
+      - s-0cb8cdd484
+      - s-4510f59d94
+      - s-5a0b02555d
+      - s-1c32407689
+      - s-ab4404a917
+      - s-2ec7cbdf82
+      - s-c128c75742
+      - s-0a6fddc48e
+      - s-fcb696c464
+      - s-027e1ef3ec
+      - s-05ab5ecb68
+      - s-a2d4d2ecfb
+    zh:
+      - s-029fcd3518
+      - s-6933811149
+      - s-7ccb483391
+      - s-424af68df5
+      - s-764016690c
+      - s-80822b493b
+      - s-6705f4a19e
+      - s-7416c74453
+      - s-6185ae3039
+      - s-c412edd970
+      - s-bc74a665b8
+      - s-611da6b3ef
+      - s-77fa176e2b
+      - s-ed671cc362
+      - s-2e8c7dd914
+      - s-ddbc7662b1
+      - s-5d0d2c2d31

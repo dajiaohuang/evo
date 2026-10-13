@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bulbinella graminifolia P.L.Perry
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NQ55, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NQ55; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NQ55
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NQ55
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000762475-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NQ55 / WFO wfo-0000762475
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13854_0
+        referenceId: ref-c4edd11b-e868-8f5b-a92f-de5d46c2e386
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbinella graminifolia P.L.Perry account; SANBI/WFO archive rows 8985 (Morphology), 25652 (Habitat), source identifier 13854.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_5933_0
+        referenceId: ref-80cd3d19-ab02-80a6-adef-c0b68ec32ca5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbinella graminifolia P.L.Perry account; SANBI/WFO archive rows 84525 (Diagnostic), source identifier 5933.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Rhizomatous geophyte to 65 cm. Leaves linear, channelled, margins finely toothed. Flowers in a narrowly cylindrical raceme, white.
+            textZh: Bulbinella graminifolia P.L.Perry 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13854_0
+            locator: "SANBI/WFO archive Morphology row 8985; source identifier 13854.0; cited publication: Manning, JC; Goldblatt, P. 2012. Asphodelaceae: Bulbinella Kunth. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 73 - 74. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Bulbinella graminifolia is closely related to B. caudafelis, but separated from that species by its considerably finer, reticulate, fibrous sheath, and its smaller more narrowly cylindrical inflorescence with flowers purer white and faintly salmon-coloured in bud, but tepals not pink-veined. The fruit and the seeds of B. graminifolia are barely half the size of those of B. caudafelis.
+            textZh: SANBI 条目提供了 Bulbinella graminifolia P.L.Perry 的鉴别特征。
+            sourceIds:
+              - sanbi_5933_0
+            locator: "SANBI/WFO archive Diagnostic row 84525; source identifier 5933.0; cited publication: Perry, PL. 1999. Bulbinella in South Africa. Strelitzia 8: 1 - 78. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Clay in renosterveld.
+            textZh: 该 SANBI 区域物种条目记录的生境：Clay in renosterveld.
+            sourceIds:
+              - sanbi_13854_0
+            locator: "SANBI/WFO archive Habitat row 25652; source identifier 13854.0; cited publication: Manning, JC; Goldblatt, P. 2012. Asphodelaceae: Bulbinella Kunth. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 73 - 74. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulengerula niedeni
+  displayName: Boulengerula niedeni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MR6Y
+  sourceIndexes:
+    - name:
+        en: Boulengerula niedeni
+        zh: Boulengerula niedeni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MR6Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/318
+            queryName: Boulengerula niedeni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-835179ef03
+      - s-718e953b63
+      - s-9593e65e2f
+      - s-32f9d454e0
+      - s-5485c767cf
+      - s-df2e94392d
+      - s-350ccff4c7
+      - s-7b1e487c96
+      - s-85b45a8cba
+      - s-37c7b0b032
+      - s-5829b3aad6
+      - s-f98f35a4ff
+    zh:
+      - s-115be7baf4
+      - s-e7fec552a4
+      - s-5be2047c15
+      - s-4ed1c665e5
+      - s-5d3d10ba57
+      - s-c22b3ea948
+      - s-2ec31df2a4
+      - s-e1ce9945b4
+      - s-0c94666448
+      - s-d28b1c018f
+      - s-cb5eced985
+      - s-f36c78830d

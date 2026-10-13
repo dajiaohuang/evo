@@ -1,0 +1,138 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Rotaryus
+    rank: genus
+    sourceTaxonId: txn:221858
+    name:
+      en: Rotaryus
+      zh: Rotaryus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB’s recorded fossil classification
+          zh: PBDB 所记化石分类
+        text:
+          en:
+            page: en
+            section: s-4e2322e5e7
+            part: body
+          zh:
+            page: zh
+            section: s-497e4cdf3e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: What the captured fossil records show
+          zh: 捕获的化石记录显示什么
+        text:
+          en:
+            page: en
+            section: s-1740508103
+            part: body
+          zh:
+            page: zh
+            section: s-fd96410fb7
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Follow PBDB’s fossil classification
+          zh: 沿 PBDB 化石分类继续阅读
+        text:
+          en:
+            page: en
+            section: s-3887e5aa3b
+            part: body
+          zh:
+            page: zh
+            section: s-2cd16d53e8
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-be822e0745
+            part: body
+          zh:
+            page: zh
+            section: s-b792804c14
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:221858; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "D. S. Berman, A. C. Henrici, and T. Martens, S. S. Sumida, J. S. Anderson. 2011. Rotaryus gothae, a New Trematopid (Temnospondyli: Dissorophoidea) from the Lower Permian of Central Germany. Annals of Carnegie Museum 80(1):49-65"
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:221859
+      exactOccurrenceCount: 1
+      datedOccurrenceCount: 1
+      collectionIntervalBoundsMa:
+        older: 298.9
+        younger: 293.52
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-be822e0745
+            part: body
+          zh:
+            page: zh
+            section: s-b792804c14
+            part: body
+        sourceIds: []

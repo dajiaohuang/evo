@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella dayaoshanensis
+  displayName: Leptobrachella dayaoshanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZPTT
+  sourceIndexes:
+    - name:
+        en: Leptobrachella dayaoshanensis
+        zh: Leptobrachella dayaoshanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZPTT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/220
+            queryName: Leptobrachella dayaoshanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8d3a916fc6
+      - s-b02db76ee6
+      - s-f9ca6cf0a2
+      - s-50f2dd17e0
+      - s-8c8946405a
+      - s-73dd0f9580
+      - s-7e24398a88
+      - s-cbc747b6e1
+      - s-f2cba46194
+    zh:
+      - s-969dd24844
+      - s-35f94d8cb3
+      - s-c734996dcb
+      - s-d2d44858e3
+      - s-96ef276dc3
+      - s-d3cf2ee4b2
+      - s-d114a4dd1e
+      - s-92eaacc4d8
+      - s-4c1267de8a

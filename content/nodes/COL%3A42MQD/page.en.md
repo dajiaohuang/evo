@@ -1,0 +1,6 @@
+## Leaf edges and a single-pored anther {#s-3ac5cd062a}
+A Brazilian Flora 2020 v393.147 field records star-shaped or tree-like hairs on young stems. Leaves may be elliptic or obovate (egg-shaped with the wider end toward the tip), with acuminate or tail-like tips and wedge-shaped or blunt bases. The margin is described as scalloped, wavy or finely toothed, without cilia. Three or five main veins are listed, with two faint veins just inside the edge; the lower surface is hairless or sparsely covered by sessile star-shaped hairs, attached directly to the blade. Flowers form a dichasial cyme, a cluster with paired branches. The hypanthium is urn-shaped and the calyx persists with distinct lobes. Each flower has five petals; the anther connective is not prolonged and has no appendage. Lilac anthers have one small pore, and the ovary bears hairs. The habitat field separately records “terrícola,” or terrestrial. The alternatives are source descriptors, not a measure of population variation.
+
+## A terrestrial habitat label {#s-c22ba8b9b9}
+The habitat field labels the recorded setting “terrícola,” meaning terrestrial. It provides no collection locality, survey date or range coverage, and does not specify wild, cultivated, managed or fossil material. This is one source category rather than a complete ecological account.
+

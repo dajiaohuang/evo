@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus ungujae
+  displayName: Phrynobatrachus ungujae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWBD
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus ungujae
+        zh: Phrynobatrachus ungujae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWBD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/183
+            queryName: Phrynobatrachus ungujae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41a6b06de2
+      - s-209dd572cd
+      - s-70997e1b42
+      - s-1c22b346cc
+      - s-a5b8d2c503
+      - s-ae8875801b
+      - s-e78018f70a
+    zh:
+      - s-7d47b66136
+      - s-7820ba1e74
+      - s-2e0467baf0
+      - s-6789445f81
+      - s-d3663d9905
+      - s-aaa3b9b513
+      - s-bd859363d8

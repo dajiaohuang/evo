@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis batrachites
+  displayName: Pristimantis batrachites
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VWHB
+  sourceIndexes:
+    - name:
+        en: Pristimantis batrachites
+        zh: Pristimantis batrachites
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VWHB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/140
+            queryName: Pristimantis batrachites
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/277
+            queryName: Eleutherodactylus batrachites
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01c00eb268
+      - s-ab5d36e26e
+      - s-7da15d4c4f
+      - s-9e048c9da8
+      - s-ea8543e802
+      - s-baab29ed1f
+      - s-835aea6284
+    zh:
+      - s-d8ea97b095
+      - s-d3556ac4df
+      - s-34d3f761b4
+      - s-b087c4c285
+      - s-43eab3546a
+      - s-6418fe2b21
+      - s-e48e318282

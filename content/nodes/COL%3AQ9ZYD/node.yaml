@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium sylheticum
+  displayName: Leptobrachium sylheticum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q9ZYD
+  sourceIndexes:
+    - name:
+        en: Leptobrachium sylheticum
+        zh: Leptobrachium sylheticum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q9ZYD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/345
+            queryName: Leptobrachium sylheticum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd3cca56f5
+      - s-99c10019d1
+      - s-da7a060c4d
+      - s-b39dff2e5f
+      - s-11b7d943a6
+      - s-81a776498c
+      - s-2daf52e2d4
+      - s-c2824c7a4f
+      - s-99651c1850
+      - s-525c6e5481
+      - s-55ace087f1
+      - s-7113d3de86
+      - s-ed786c6a1c
+      - s-023f80f767
+    zh:
+      - s-1036acb988
+      - s-f23660793b
+      - s-d84b0fcb4e
+      - s-ea4e536b11
+      - s-6e00f73e82
+      - s-fd09cd29ec
+      - s-b68f9a1cff
+      - s-0a24723ed8
+      - s-5c56262923
+      - s-064629aaad
+      - s-9984479727
+      - s-e942699217
+      - s-60c8546cac
+      - s-0e00f176ce

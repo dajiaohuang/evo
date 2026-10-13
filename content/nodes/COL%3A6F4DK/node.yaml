@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus maurus
+  displayName: Eleutherodactylus maurus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4DK
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus maurus
+        zh: Eleutherodactylus maurus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4DK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/267
+            queryName: Eleutherodactylus maurus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/371
+            queryName: Tomodactylus fuscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/375
+            queryName: Syrrhophus fuscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0311b486f8
+      - s-76fc740c4c
+      - s-0488f35f10
+      - s-65b8dfe0da
+      - s-6183f98281
+      - s-ae9a6788da
+      - s-e4259d32aa
+      - s-fd6640ed6c
+      - s-d568a970f7
+      - s-f6e5e9c1e2
+    zh:
+      - s-d821606ec3
+      - s-b90d1625f3
+      - s-bbf8e23bb6
+      - s-d2411f1fc0
+      - s-4df3c20e5a
+      - s-7811af5760
+      - s-0977d20cd5
+      - s-93b8a858c4
+      - s-1a1b531c4c
+      - s-a069cccf20

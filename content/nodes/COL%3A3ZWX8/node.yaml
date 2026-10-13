@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mertensophryne loveridgei
+  displayName: Mertensophryne loveridgei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3ZWX8
+  sourceIndexes:
+    - name:
+        en: Mertensophryne loveridgei
+        zh: Mertensophryne loveridgei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3ZWX8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/433
+            queryName: Mertensophryne loveridgei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/458
+            queryName: Stephopaedes loveridgei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e5f8822ad
+      - s-eb3300016f
+      - s-1601c8c5f0
+      - s-8d3dd5a650
+      - s-04f343f59c
+      - s-976ad4833e
+      - s-b3da3519af
+      - s-2b62d6ee8c
+      - s-89a1593805
+    zh:
+      - s-d232fd9bde
+      - s-f226515901
+      - s-2cb3a7eb24
+      - s-57ab33365a
+      - s-207dc0b577
+      - s-d2055aac9b
+      - s-9cd839ac6b
+      - s-2ad2a18234
+      - s-6a69926d75

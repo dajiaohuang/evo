@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cornufer nakanaiorum
+    name:
+      en: Cornufer nakanaiorum
+      zh: Cornufer nakanaiorum
+    sourceClassification:
+      order: Anura
+      family: Ceratobatrachidae
+      genus: Cornufer
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Cornufer nakanaiorum in the version 3 classification
+          zh: Cornufer nakanaiorum 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-75ae5ff08a
+            part: body
+          zh:
+            page: zh
+            section: s-e8ddb3fe55
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 20 populated trait fields
+          zh: 1 条测量行与 20 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7e0396a48c
+            part: body
+          zh:
+            page: zh
+            section: s-aab24a0d6d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1334; Reference.csv rows 384
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1334
+        values:
+          - Ceratobatrachidae
+          - Cornufer
+          - Cornufer nakanaiorum
+          - M
+          - "35.3"
+          - "13.8"
+          - "14.3"
+          - "4.3"
+          - "2.6"
+          - "1.6"
+          - "4.2"
+          - "3.6"
+          - NA
+          - "4.1"
+          - "6.1"
+          - NA
+          - "11.6"
+          - "9.3"
+          - NA
+          - "17.6"
+          - NA
+          - "17"
+          - "16.2"
+          - "10.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.2"
+          - NA
+          - "3.9"
+          - NA
+          - "8.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.9"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 384
+        values:
+          - Anura
+          - Cornufer_nakanaiorum
+          - "Brown, R. M., Foufopoulos, J., & Richards, S. J. (2006). New species of Platymantis (Amphibia : Anura : Ranidae) from New Britain and redescription of the poorly known Platymantis nexipus. Copeia(4), 674-695. https://doi.org/10.1643/0045-8511(2006)6[674:Nsoprf]2.0.Co;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Toe4L
+      - Fin1L
+      - Fin3L
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - YGC7
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

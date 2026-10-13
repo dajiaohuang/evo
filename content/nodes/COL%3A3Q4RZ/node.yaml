@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema melanopygia
+  displayName: Ischnocnema melanopygia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4RZ
+  sourceIndexes:
+    - name:
+        en: Ischnocnema melanopygia
+        zh: Ischnocnema melanopygia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4RZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/28
+            queryName: Ischnocnema melanopygia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a91e415b4
+      - s-255b5deec1
+      - s-e9a3e43118
+      - s-10835a5059
+      - s-535829ee7c
+      - s-9af6734c99
+      - s-9660e4d5de
+      - s-480bedde9d
+      - s-8bea57ce1e
+      - s-38720668f7
+      - s-aac3bd29a0
+      - s-55d4a83196
+      - s-47d7c30020
+      - s-cd163f8afc
+      - s-c050994254
+      - s-f11b330652
+      - s-aadc856e02
+      - s-d9f377356d
+      - s-2597d1043c
+      - s-58750de4a2
+      - s-0f79da75a6
+      - s-d01be8ab94
+      - s-73f75a1aea
+      - s-b858890829
+    zh:
+      - s-62f4f4c4d1
+      - s-34b10229c4
+      - s-441f100950
+      - s-a84d7dacfa
+      - s-537ba2777d
+      - s-50d24bac60
+      - s-a76cb211c1
+      - s-1637498ee9
+      - s-0370bd8564
+      - s-c3d70f1846
+      - s-6f1dc80396
+      - s-96db059211
+      - s-5ed53cd878
+      - s-8fbbf46c89
+      - s-931e0a31db
+      - s-c153865dc0
+      - s-71a05aff95
+      - s-f9fd8c6dcd
+      - s-950610b368
+      - s-5a8ec31e26
+      - s-0d19706376
+      - s-857f5d42f3
+      - s-e0da5488fb
+      - s-ebc5eb0684

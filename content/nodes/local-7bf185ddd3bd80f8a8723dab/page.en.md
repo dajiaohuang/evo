@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-888877d955}
+The version 3 Amphibian database lists Amazophrynella bokermanni in a source measurement table. Its classification fields read order = Anura, family = Bufonidae, genus = Amazophrynella; the linked citation is in Reference.csv row 2509. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-49aa748ca1}
+Anura.csv rows 151, 152 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 151 (M) = 16.3, row 152 (F) = 23.4; HL: row 151 (M) = 5.7, row 152 (F) = 7.9; HW: row 151 (M) = 4.8, row 152 (F) = 6.4; other populated codes are ED, IND, SL, HAL, FL, TL, THL, TSL, UAL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

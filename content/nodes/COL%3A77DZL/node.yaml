@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus alleni
+  displayName: Phrynobatrachus alleni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77DZL
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus alleni
+        zh: Phrynobatrachus alleni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77DZL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/97
+            queryName: Phrynobatrachus alleni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-381b6bfa8a
+      - s-0eecf4a6bf
+      - s-5242326979
+      - s-3b77b1bc38
+      - s-8ac569e230
+      - s-bf98b96273
+      - s-18fddc1c34
+      - s-c9d206ab58
+    zh:
+      - s-617e9dc091
+      - s-61c5af5cf8
+      - s-2813778402
+      - s-b5155d6a47
+      - s-19bb820be6
+      - s-4c4611c3da
+      - s-9b60a6bb79
+      - s-3a19a21502

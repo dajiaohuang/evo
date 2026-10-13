@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis similaris
+  displayName: Pristimantis similaris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCH3M
+  sourceIndexes:
+    - name:
+        en: Pristimantis similaris
+        zh: Pristimantis similaris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCH3M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/92
+            queryName: Pristimantis similaris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd17b2bdf8
+      - s-de86e2aea4
+      - s-5e040755bf
+      - s-3a73611a91
+      - s-b49d99ed12
+      - s-8b21752bed
+      - s-8550860b21
+    zh:
+      - s-0f615e795d
+      - s-e5a4cf2a1e
+      - s-a76d703cce
+      - s-4ed244c8f6
+      - s-1e5b01fd7e
+      - s-4651548328
+      - s-36a0d86d80

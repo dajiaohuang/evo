@@ -1,0 +1,6 @@
+## A raised lower midrib and a five-chambered ovary {#s-d8e1801ff6}
+A Brazilian Flora 2020 v393.147 field describes oval-elliptic or oval-oblong leaves with short tapering tips and heart-shaped bases. The upper midrib may be grooved or flat; below, it is raised and winged. The remaining venation is described as inconspicuous or conspicuous. Flower clusters are axillary or on branches, with one to three branches per cluster, two internodes per axis and one to three flowers per axis. Bracts and bracteoles remain through flower opening. Flower stalks are listed at 1.1–2 mm or 2.1–3 mm. Flowers are five-part, with sepals free in bud and pointed at the tip; petals are white. Glands behind and opposite the anther sacs are up to 0.6 mm long. The tail-shaped stamens are 0.6–1.0 mm, and the ovary has five chambers. The habitat field separately says “terrícola,” or terrestrial.
+
+## A terrestrial category separate from the leaf record {#s-ec0ac15ad5}
+The habitat field labels this record “terrícola,” meaning terrestrial. It includes no collection locality, survey date or range coverage, and does not specify wild, cultivated, managed or fossil material. It remains a category alongside, not an extension of, the leaf and flower description.
+

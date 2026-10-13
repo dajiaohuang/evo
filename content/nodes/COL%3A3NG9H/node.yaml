@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes pipilans
+  displayName: Hylodes pipilans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG9H
+  sourceIndexes:
+    - name:
+        en: Hylodes pipilans
+        zh: Hylodes pipilans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG9H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/8
+            queryName: Hylodes pipilans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7431fd490d
+      - s-fff0d1e17f
+      - s-f4d8c374e5
+      - s-f4b0dca245
+      - s-454e4d3328
+      - s-b931e00e64
+      - s-9b0955148a
+      - s-e3e836ac11
+      - s-7faaab8720
+      - s-143d7abac0
+      - s-69f0669550
+      - s-31e186d2c7
+      - s-af1ef0b4cb
+      - s-f936b0b5cb
+      - s-2479c401aa
+      - s-c56893c322
+      - s-a15b0e68c1
+      - s-609cf42437
+      - s-fe9136444b
+      - s-ebc6c0f82c
+      - s-145e6d852e
+      - s-ed7a04bec7
+      - s-1fb92447bd
+      - s-712e277038
+    zh:
+      - s-1c7e17539b
+      - s-d90cf88223
+      - s-d36ff33f60
+      - s-2c19490bd5
+      - s-cc7c91285b
+      - s-58fc89d91e
+      - s-dd3fff9a37
+      - s-d67b3a888d
+      - s-c52563c093
+      - s-60bdf98d2b
+      - s-75b3ba118a
+      - s-ed60bcaf6e
+      - s-67f20cff2d
+      - s-266f56d6c1
+      - s-8a5d79c40f
+      - s-c8a759ad1a
+      - s-97d0b826f3
+      - s-bfe9416a97
+      - s-d8e7ee47cb
+      - s-5457b4bc3d
+      - s-79f8a898c1
+      - s-08fc7e09f2
+      - s-6e75c8b42e
+      - s-0bc467fdcb

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Elachistocleis piauiensis
+  displayName: Elachistocleis piauiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38X3J
+  sourceIndexes:
+    - name:
+        en: Elachistocleis piauiensis
+        zh: Elachistocleis piauiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38X3J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/138
+            queryName: Elachistocleis piauiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8dcdbb15b0
+      - s-63a01a892a
+      - s-4c146932d1
+      - s-0ba7cb0cc2
+      - s-0754c271d9
+      - s-7569130c8c
+      - s-c7c601af1c
+      - s-02a69f7dd2
+      - s-5914f8235d
+      - s-b4b6c76d4d
+      - s-d8e757d42c
+      - s-cc1d1c7626
+      - s-300f848e68
+      - s-d68766b874
+      - s-b0d2b0f412
+      - s-9b2682f6da
+      - s-dd842ae39f
+      - s-5285762838
+      - s-eed83ac605
+    zh:
+      - s-4c928b61f1
+      - s-9461b54880
+      - s-990bd6911d
+      - s-5125117412
+      - s-934d458c74
+      - s-a173663dc7
+      - s-a7156d9f1d
+      - s-b51adf1a71
+      - s-bbe88045ae
+      - s-70194c6101
+      - s-c64fe030c9
+      - s-9a43ff1975
+      - s-9b486f2e6d
+      - s-18a7cc631c
+      - s-d9749f97c4
+      - s-39b17b8aef
+      - s-6e610b34f1
+      - s-40283f90c6
+      - s-a2360afee5

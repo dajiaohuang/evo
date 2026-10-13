@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus saltuarius
+  displayName: Hyloxalus saltuarius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGY9
+  sourceIndexes:
+    - name:
+        en: Hyloxalus saltuarius
+        zh: Hyloxalus saltuarius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGY9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/129
+            queryName: Hyloxalus saltuarius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/143
+            queryName: Colostethus saltuarius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e73af6be72
+      - s-888bf7e5f0
+      - s-b556161f47
+      - s-221a936f3c
+      - s-e6104313e1
+      - s-3ebcebbb3d
+      - s-b4e3f99b8d
+      - s-e91e3afbc3
+    zh:
+      - s-ccc75a8117
+      - s-768ce2d1f5
+      - s-0de0628e27
+      - s-62031045e6
+      - s-064d12c7c3
+      - s-09b4f6457f
+      - s-532dfab526
+      - s-6ab2628ca6

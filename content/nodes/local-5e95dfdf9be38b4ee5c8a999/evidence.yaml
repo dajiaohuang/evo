@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Adenomera juikitam
+    name:
+      en: Adenomera juikitam
+      zh: Adenomera juikitam
+    sourceClassification:
+      order: Anura
+      family: Leptodactylidae
+      genus: Adenomera
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Adenomera juikitam in the version 3 classification
+          zh: Adenomera juikitam 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d58f9a72cc
+            part: body
+          zh:
+            page: zh
+            section: s-05972f5a39
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 13 populated trait fields
+          zh: 1 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-314caadcbf
+            part: body
+          zh:
+            page: zh
+            section: s-df2e3136e4
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 40; Reference.csv rows 2799
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 40
+        values:
+          - Leptodactylidae
+          - Adenomera
+          - Adenomera juikitam
+          - M
+          - "19.3"
+          - "8.2"
+          - "7.4"
+          - "2.1"
+          - "1.2"
+          - NA
+          - NA
+          - "1.8"
+          - NA
+          - "1.6"
+          - NA
+          - NA
+          - "4.8"
+          - "4.7"
+          - NA
+          - "9.3"
+          - NA
+          - "8.7"
+          - "8.1"
+          - "5.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2799
+        values:
+          - Anura
+          - Adenomera_juikitam
+          - "De Carvalho, T., & Giaretta, A. (2013). Bioacoustics reveals two new syntopic species of Adenomera Steindachner (Anura: Leptodactylidae: Leptodactylinae) in the Cerrado of central Brazil. Zootaxa, 3731, 533-551. https://doi.org/10.11646/zootaxa.3731.4.6"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 9ZMQ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

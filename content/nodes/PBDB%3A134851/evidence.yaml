@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Jeholotriton paradoxus
+    rank: species
+    sourceTaxonId: txn:134851
+    name:
+      en: Jeholotriton paradoxus
+      zh: Jeholotriton paradoxus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-4fda557c88
+            part: body
+          zh:
+            page: zh
+            section: s-c6a84ed316
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-a628525002
+            part: body
+          zh:
+            page: zh
+            section: s-b8d0199a4d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-a5b0ad7bf5
+            part: body
+          zh:
+            page: zh
+            section: s-be09fce6d4
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:134851; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "Y. Wang. 2000. A new salamander (Amphibia: Caudata) from the Early Cretaceous Jehol Biota. Vertebrata PalAsiatica 38:100-103"
+    occurrenceEvidence:
+      - occurrenceId: occ:292851
+        collectionId: col:27891
+        acceptedTaxonId: txn:134851
+        identifiedName: Jeholotriton paradoxus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:28354
+        bibliography: "Y. Wang and C. S. Rose. 2005. Jeholotriton paradoxus (Amphibia: Caudata) from the Lower Cretaceous of southeastern Inner Mongolia, China. Journal of Vertebrate Paleontology 25(3):523-532"
+        locality:
+          countryCode: CN
+          stateProvince: Nei Mongol
+          county: null
+        stratigraphy:
+          group: null
+          formation: Tiaojishan
+          member: null
+        olderAgeMa: 165.3
+        youngerAgeMa: 161.5
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-a5b0ad7bf5
+            part: body
+          zh:
+            page: zh
+            section: s-be09fce6d4
+            part: body
+        sourceIds: []

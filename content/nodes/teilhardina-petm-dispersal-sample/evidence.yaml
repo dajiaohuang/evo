@@ -1,0 +1,130 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-6b555853ca
+      part: title
+    titleZh:
+      page: zh
+      section: s-97c1d0c8a7
+      part: title
+    category: dispersal
+    startAge: 56
+    endAge: 55.8
+    regions:
+      - Hengyang Basin, China
+      - Dormaal, Belgium
+      - Bighorn Basin, Wyoming, USA
+    clades:
+      - Teilhardina
+      - Primates
+      - Haplorhini
+    summary:
+      page: en
+      section: s-6b555853ca
+      part: body
+    summaryZh:
+      page: zh
+      section: s-97c1d0c8a7
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-57313c2fab
+            part: title
+          zh:
+            page: zh
+            section: s-6dfd95e556
+            part: title
+        text:
+          en:
+            page: en
+            section: s-57313c2fab
+            part: body
+          zh:
+            page: zh
+            section: s-6dfd95e556
+            part: body
+        id: observed-material
+        sourceIds:
+          - smith-2006-teilhardina
+      - title:
+          en:
+            page: en
+            section: s-b6835eeedd
+            part: title
+          zh:
+            page: zh
+            section: s-d6e3247fa0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b6835eeedd
+            part: body
+          zh:
+            page: zh
+            section: s-d6e3247fa0
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - smith-2006-teilhardina
+    claimIds:
+      - claim:event:teilhardina-petm-dispersal-sample
+    evidenceItems:
+      - statement: Figure 2 compares T. asiatica IVPP V12357, T. belgica IRSNB M64 and North American T. brandti material including USNM 493913 and USNM 493914 across correlated PETM sections.
+        relation: supports
+        claimIds:
+          - claim:event:teilhardina-petm-dispersal-sample
+        referenceLinks:
+          - referenceId: smith-2006-teilhardina
+            relation: supports
+            pages: 11223–11227
+            figure: Figures 1–3; Supporting Tables
+            quoteLocator: "Results: relative chronology and morphological sequence across PETM carbon-isotope records"
+    uncertaintyItems:
+      - statement: The sequence depends on dental taxonomy and carbon-isotope correlation; it is not one migrating population, a direct ancestor series or the origination date of crown Primates.
+        relation: contextualizes
+        claimIds:
+          - claim:event:teilhardina-petm-dispersal-sample
+        referenceLinks:
+          - referenceId: smith-2006-teilhardina
+            relation: supports
+            pages: 11223–11227
+            figure: Figures 1–3; Supporting Tables
+            quoteLocator: "Results: relative chronology and morphological sequence across PETM carbon-isotope records"
+    readerSources:
+      - id: smith-2006-teilhardina
+        referenceId: smith-2006-teilhardina
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 11223–11227; figure: Figures 1–3; Supporting Tables; Results: relative chronology and morphological sequence across PETM carbon-isotope records"
+  claims:
+    - subjectId: event:teilhardina-petm-dispersal-sample
+      claimKind: scientific
+      claimType: biogeography
+      statement: Correlated PETM sections and separately catalogued Teilhardina dental samples support an Asia-to-Europe-to-North-America appearance sequence within a short earliest-Eocene interval.
+      confidence: medium
+      confidenceRationale: Medium confidence reflects multiple stratigraphic and morphological comparisons while retaining sensitivity to species assignments, temporal correlation and unsampled localities.
+      referenceLinks:
+        - referenceId: smith-2006-teilhardina
+          relation: supports
+          pages: 11223–11227
+          figure: Figures 1–3; Supporting Tables
+          quoteLocator: "Results: relative chronology and morphological sequence across PETM carbon-isotope records"
+  claim-rationales.zh:
+    - 中等置信度来自多套地层和形态比较，同时保留物种归属、时间对比及未采样地点带来的敏感性。
+  claim-statements.zh:
+    - 对比校准的古新世—始新世界线极热事件剖面与分别编目的 Teilhardina 牙齿样本，支持其在一个很短的始新世最早期区间内依次出现于亚洲、欧洲和北美洲。

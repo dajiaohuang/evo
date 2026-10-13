@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla juiju
+  displayName: Bokermannohyla juiju
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68MY2
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla juiju
+        zh: Bokermannohyla juiju
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68MY2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/61
+            queryName: Bokermannohyla juiju
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca068eeafa
+      - s-130b5655da
+      - s-1ee2472824
+      - s-583777b9f7
+      - s-ec4b7925ba
+      - s-b3e869cf4e
+      - s-e8588c1004
+    zh:
+      - s-25a3efb66a
+      - s-4f437dc7dd
+      - s-29fb8441ef
+      - s-0535ba9c29
+      - s-177d8f94e6
+      - s-04a1b62595
+      - s-7110e9b979

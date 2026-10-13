@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis thectopternus
+  displayName: Pristimantis thectopternus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQ9
+  sourceIndexes:
+    - name:
+        en: Pristimantis thectopternus
+        zh: Pristimantis thectopternus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQ9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/130
+            queryName: Pristimantis thectopternus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/76
+            queryName: Eleutherodactylus thectopternus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d928d6f17
+      - s-0e64fe2dac
+      - s-e8082d337d
+      - s-4e54f72792
+      - s-402e2769fc
+      - s-c2ddaf32a5
+      - s-d7238c439f
+    zh:
+      - s-90b4c0829b
+      - s-90a387b610
+      - s-f42328a42a
+      - s-99b5d26212
+      - s-fd92b7e332
+      - s-0156041ec3
+      - s-ffbbced1eb

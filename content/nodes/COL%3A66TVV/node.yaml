@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anodonthyla rouxae
+  displayName: Anodonthyla rouxae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66TVV
+  sourceIndexes:
+    - name:
+        en: Anodonthyla rouxae
+        zh: Anodonthyla rouxae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66TVV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/498
+            queryName: Anodonthyla rouxae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-77b57c1605
+      - s-90e17cb13d
+      - s-726664c5c8
+      - s-fac6496ce6
+      - s-92e62bdab2
+      - s-7611484a26
+      - s-a5fb841568
+      - s-46092ceed1
+      - s-4805911292
+      - s-2495920c7a
+    zh:
+      - s-dee47cf331
+      - s-e1ce941008
+      - s-9f508b3862
+      - s-ea78800b62
+      - s-dcf7602b1e
+      - s-beb11d1cae
+      - s-9b53d73d64
+      - s-d0e0fab296
+      - s-6d6f8ea28d
+      - s-12bab9fedd

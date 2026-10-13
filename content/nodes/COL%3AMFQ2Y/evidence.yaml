@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropterotriton casasi Parra-Olea, García-Castillo, Rovito, Maisano, Hanken & Wake, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiropterotriton casasi
+      zh: Chiropterotriton casasi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d6278aa475
+            part: title
+          zh:
+            page: zh
+            section: s-2640a14597
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d6278aa475
+            part: body
+          zh:
+            page: zh
+            section: s-2640a14597
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a125f5dcee
+            part: title
+          zh:
+            page: zh
+            section: s-5d99ca9dd1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a125f5dcee
+            part: body
+          zh:
+            page: zh
+            section: s-5d99ca9dd1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a2c36e923e
+            part: title
+          zh:
+            page: zh
+            section: s-de93a5408e
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq2y
+        text:
+          en:
+            page: en
+            section: s-a2c36e923e
+            part: body
+          zh:
+            page: zh
+            section: s-de93a5408e
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e2b30a67c8
+            part: title
+          zh:
+            page: zh
+            section: s-cad8ab0768
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq2y
+        text:
+          en:
+            page: en
+            section: s-e2b30a67c8
+            part: body
+          zh:
+            page: zh
+            section: s-cad8ab0768
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-420acc6cc9
+            part: title
+          zh:
+            page: zh
+            section: s-de67eb52cc
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq2y
+        text:
+          en:
+            page: en
+            section: s-420acc6cc9
+            part: body
+          zh:
+            page: zh
+            section: s-de67eb52cc
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3985131023
+            part: title
+          zh:
+            page: zh
+            section: s-59d3164236
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq2y
+        text:
+          en:
+            page: en
+            section: s-3985131023
+            part: body
+          zh:
+            page: zh
+            section: s-59d3164236
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-21025e5098
+            part: title
+          zh:
+            page: zh
+            section: s-3f13794686
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq2y
+        text:
+          en:
+            page: en
+            section: s-21025e5098
+            part: body
+          zh:
+            page: zh
+            section: s-3f13794686
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiropterotriton casasi
+          url: https://www.checklistbank.org/dataset/316115/taxon/MFQ2Y
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7258950-mfq2y
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiropterotriton casasi: Named species type material, diagnosis, comparison conflicts, live/preserved colour, osteology and distribution/ecology paragraphs; no images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3705c7f8fc
+        part: body
+      zh:
+        page: zh
+        section: s-4b87f0ed43
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.8800
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        sourceKey: primary-pmc7258950-mfq2y
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7258950/article.xml
+        sourceConcept: Chiropterotriton casasi
+        evidenceRead: "Chiropterotriton casasi: Named species type material, diagnosis, comparison conflicts, live/preserved colour, osteology and distribution/ecology paragraphs; no images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A 1969 holotype and one measured female
+              zh: 1969 年正模及一只测量雌性
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq2y
+            locator: Results > Chiropterotriton casasi; reading-sections index 2, paragraphs 125–127 and 137
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ccc87ce1c7
+                part: body
+              zh:
+                page: zh
+                section: s-4f7548d792
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Tooth counts, webbing and unresolved tail ratios
+              zh: 齿数、蹼及未解决尾比例
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq2y
+            locator: Results > Chiropterotriton casasi; reading-sections index 2, paragraphs 127 and 130–134
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2af4b74cdd
+                part: body
+              zh:
+                page: zh
+                section: s-2b33839ac9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Preserved mottling with no recorded live colour
+              zh: 保存斑驳及未记录活体颜色
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq2y
+            locator: Results > Chiropterotriton casasi; reading-sections index 2, paragraphs 138–139
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8b505e5029
+                part: body
+              zh:
+                page: zh
+                section: s-d79c1c12ae
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: morphology
+            heading:
+              en: A robust scanned skull and different tooth observations
+              zh: 健壮扫描头骨及不同齿观察
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq2y
+            locator: Results > Chiropterotriton casasi; reading-sections index 2, paragraphs 137 and 140–142
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-84943abc76
+                part: body
+              zh:
+                page: zh
+                section: s-1543dcae69
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: ecology
+            heading:
+              en: A single known locality and a proposed former forest
+              zh: 一个已知地点及推测昔日森林
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq2y
+            locator: Results > Chiropterotriton casasi; reading-sections index 2, paragraphs 143
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-15d64d790d
+                part: body
+              zh:
+                page: zh
+                section: s-6482799b0f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

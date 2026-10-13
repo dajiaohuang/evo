@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-3fd468f230}
+This record shows how TadpoleTraits files tadpoles under Heterixalus carbonei. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Heterixalus carbonei in Heterixalus and Hyperoliidae. In the literature table, rows 2703, 2704, 2705, 2706, 2707, 2708 list Heterixalus carbonei in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-e4283e4906}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 6 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 29 (row 2703); 31 (rows 2704, 2705, 2708); 27 (row 2706); 28 (row 2707). The Sample size cells are blank in all 6 literature rows; blank is not read as zero. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

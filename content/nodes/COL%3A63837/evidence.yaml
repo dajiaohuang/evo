@@ -1,0 +1,133 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lagothrix É. Geoffroy Saint-Hilaire in Humboldt, 1812
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Lagothrix genus guide
+      zh: 绒毛猴属导读
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-ed3a2703ac
+            part: body
+          zh:
+            page: zh
+            section: s-4e94292d62
+            part: body
+        sourceIds:
+          - taxonomy
+          - lagothrichaTaxonomy
+          - flavicaudaTaxonomy
+      - topic: readingPath
+        text:
+          en:
+            page: en
+            section: s-8858f2ab60
+            part: body
+          zh:
+            page: zh
+            section: s-dabd2a9c9d
+            part: body
+        sourceIds:
+          - costaAraujo2024
+          - shanee2015
+          - aquino2015
+          - aquino2016
+    sources:
+      - id: taxonomy
+        referenceId: ref-5d8d11e0-14dd-8bc3-ad99-060045a4cc9a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins the accepted genus identity and parent classification.
+            zh: 固定接受属身份与分类父链。
+      - id: lagothrichaTaxonomy
+        referenceId: ref-cc11f7d1-6f31-864c-a57f-5f37c6b7d6db
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Identifies the separate Lagothrix lagothricha reader page.
+            zh: 固定独立的 Lagothrix lagothricha 阅读页身份。
+      - id: flavicaudaTaxonomy
+        referenceId: ref-611ce713-8b40-88f0-a49b-e636d646bc76
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Identifies the separate Lagothrix flavicauda reader page.
+            zh: 固定独立的 Lagothrix flavicauda 阅读页身份。
+      - id: costaAraujo2024
+        referenceId: ref-0c80a445-fbed-8293-a4d8-d4ecb697f65c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: A separate source-backed page covering occurrence records in Brazil; not a shared genus distribution estimate.
+            zh: 另一物种页面所引的巴西分布记录来源；不是属级共同分布估计。
+      - id: shanee2015
+        referenceId: ref-207c72bc-ce20-8b9d-a67a-e52f88b95bb0
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Repeat comparison of one approximately 700-ha site in 2008/09 and 2012/13; not a range-wide population trend.
+            zh: 比较 2008/09 与 2012/13 年约 700 公顷的同一地点；不代表全分布区种群趋势。
+      - id: aquino2015
+        referenceId: ref-2aaf6c6c-f248-8b78-a449-6263aaf81097
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Transect survey across selected Huánuco microbasins in 2014; detections and density are local.
+            zh: 2014 年在 Huánuco 选定微流域开展的样线调查；记录和密度限于当地。
+      - id: aquino2016
+        referenceId: ref-934f9d7a-e989-8bb8-ae25-7eda2d65037f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Five local groups recorded in a 2016 survey; a distribution record rather than a total population estimate.
+            zh: 2016 年调查记录的五个局地群体；这是分布记录，不是总种群估计。
+    limitations:
+      en:
+        page: en
+        section: s-5ef401e89e
+        part: body
+      zh:
+        page: zh
+        section: s-04f5d7beb8
+        part: body

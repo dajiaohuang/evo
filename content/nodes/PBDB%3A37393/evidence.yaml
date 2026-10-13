@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Salamandridae
+    rank: family
+    sourceTaxonId: txn:37393
+    name:
+      en: Salamandridae
+      zh: Salamandridae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-bdad05798b
+            part: body
+          zh:
+            page: zh
+            section: s-b1fcfd9636
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-82760e7ad3
+            part: body
+          zh:
+            page: zh
+            section: s-0c21d14b2c
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-26c58c2eca
+            part: body
+          zh:
+            page: zh
+            section: s-b3d7f52b4e
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-cd3c9a51d2
+            part: body
+          zh:
+            page: zh
+            section: s-a3bf6713e8
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:37393; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:393934
+        - txn:393942
+        - txn:393933
+        - txn:64187
+        - txn:393932
+        - txn:346347
+        - txn:346348
+        - txn:110709
+        - txn:279397
+        - txn:260475
+        - txn:393924
+        - txn:393931
+        - txn:393960
+        - txn:393959
+        - txn:393953
+        - txn:269999
+        - txn:393955
+        - txn:393956
+        - txn:393957
+        - txn:393958
+        - txn:135433
+        - txn:393937
+        - txn:361722
+        - txn:393938
+        - txn:393950
+        - txn:110714
+        - txn:393951
+        - txn:110712
+        - txn:156421
+        - txn:393947
+      exactOccurrenceCount: 33
+      datedOccurrenceCount: 33
+      collectionIntervalBoundsMa:
+        older: 48.07
+        younger: 5.333
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-cd3c9a51d2
+            part: body
+          zh:
+            page: zh
+            section: s-a3bf6713e8
+            part: body
+        sourceIds: []

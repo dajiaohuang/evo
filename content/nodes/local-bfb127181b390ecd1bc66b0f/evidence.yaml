@@ -1,0 +1,287 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Indotyphlus maharashtraensis
+    name:
+      en: Indotyphlus maharashtraensis
+      zh: Indotyphlus maharashtraensis
+    sourceClassification:
+      order: Gymnophiona
+      family: Grandisoniidae
+      genus: Indotyphlus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Indotyphlus maharashtraensis in the morphology deposit
+          zh: 形态数据中的 Indotyphlus maharashtraensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7caa8dd6be
+            part: body
+          zh:
+            page: zh
+            section: s-f6a9d6f8d8
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 105 and 106: measurement fields and sex codes"
+          zh: 第 105、106 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-71bfbade96
+            part: body
+          zh:
+            page: zh
+            section: s-9f9b479ac6
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Deposited annulus counts
+          zh: 存档的环褶计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-9c1d31c494
+            part: body
+          zh:
+            page: zh
+            section: s-546cc29d27
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 105, 106; Reference.csv rows 4336
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 105
+        values:
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - F
+          - "143.375"
+          - "1.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "130.125"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.675"
+          - "2.7"
+          - "2.9625"
+          - NA
+          - "3.325"
+          - "2.2125"
+          - "1.125"
+          - NA
+          - "1.657142857"
+          - "1.8"
+          - NA
+          - "1.95"
+          - "0.485714286"
+          - "1.1625"
+          - "1.925"
+          - "1.7375"
+          - NA
+          - NA
+          - "3.0625"
+          - "3.7125"
+          - NA
+          - "1.375"
+          - "1.775"
+          - NA
+          - NA
+      - rowNumber: 106
+        values:
+          - Grandisoniidae
+          - Indotyphlus
+          - Indotyphlus maharashtraensis
+          - M
+          - "133.5"
+          - "1.525"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "126"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.975"
+          - "2.675"
+          - "2.8"
+          - NA
+          - "2.85"
+          - "2.4"
+          - "1.075"
+          - NA
+          - "1.725"
+          - "1.85"
+          - NA
+          - "1.925"
+          - "0.425"
+          - "1.3"
+          - "1.975"
+          - "1.8"
+          - NA
+          - NA
+          - "3.225"
+          - "3.9"
+          - NA
+          - "1.3"
+          - "1.7"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4336
+        values:
+          - Gymnophiona
+          - Indotyphlus_maharashtraensis
+          - "Giri, V., Gower, D. J., & Wilkinson, M. (2004). A new species of Indotyphlus Taylor (Amphibia : Gymnophiona : Caeciliidae) from the Western Ghats, India. Zootaxa, 739, 1-19. "
+    availableTraitCodes:
+      - TOL
+      - TL
+      - TA1
+      - HL
+      - HW1
+      - HW2
+      - BW2
+      - BW3
+      - IND
+      - EN
+      - IOD
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - NJ
+      - SJ
+      - C1
+      - C2
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3PNWX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

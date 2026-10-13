@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-4d0c1a850f
+      part: title
+    titleZh:
+      page: zh
+      section: s-50fea0b602
+      part: title
+    category: morphology
+    startAge: 242
+    endAge: 237
+    regions:
+      - Erfurt Formation, Vellberg, Baden-Württemberg, Germany
+    clades:
+      - Pan-Testudines
+      - Pappochelys rosinae
+    summary:
+      page: en
+      section: s-4d0c1a850f
+      part: body
+    summaryZh:
+      page: zh
+      section: s-50fea0b602
+      part: body
+    claimIds:
+      - claim:event:pappochelys-gastralia-shell-mosaic
+    evidenceItems:
+      - statement: SMNS 91356 preserves cranial and postcranial elements, and SMNS 91360 preserves paired robust gastralia with trunk-rib fragments; the sample lacks a fused plastron and complete carapace.
+        relation: supports
+        claimIds:
+          - claim:event:pappochelys-gastralia-shell-mosaic
+        referenceLinks:
+          - referenceId: schoch-sues-2015-pappochelys
+            relation: supports
+            pages: 584–587
+            figure: Figures 1–5; Extended Data Figures 1–4
+            quoteLocator: Description; Discussion; Supplementary specimen data
+    uncertaintyItems:
+      - statement: Serial fusion of gastralia into part of the plastron and the position of Pappochelys between sampled stem turtles are homology and matrix results; the specimens do not form a literal ancestor–descendant stage between Eunotosaurus and Odontochelys.
+        relation: contextualizes
+        claimIds:
+          - claim:event:pappochelys-gastralia-shell-mosaic
+        referenceLinks:
+          - referenceId: schoch-sues-2015-pappochelys
+            relation: supports
+            pages: 584–587
+            figure: Figures 4–5; Extended Data Figures 5–6
+            quoteLocator: Phylogenetic analysis; Early evolution of the turtle body plan
+  claims:
+    - subjectId: event:pappochelys-gastralia-shell-mosaic
+      claimKind: scientific
+      claimType: morphology
+      statement: The Pappochelys sample preserves broadened ribs and robust paired gastralia without a fused plastron or complete carapace; proposed gastral fusion and its position among sampled stem turtles are homology and topology hypotheses, not a linear ancestral stage.
+      confidence: medium
+      confidenceRationale: Several named Vellberg specimens preserve complementary anatomy, but the taxon is reconstructed from multiple individuals and evolutionary sequencing depends on character interpretation and sampled matrices.
+      referenceLinks:
+        - referenceId: schoch-sues-2015-pappochelys
+          relation: supports
+          pages: 584–587
+          figure: Figures 1–5; Extended Data Figures 1–6
+          quoteLocator: pp. 584–587, Figs. 1–5 and Extended Data Figs. 1–6; Description, Phylogenetic analysis and Discussion
+  claim-rationales.zh:
+    - 多件费尔贝格标本保存互补解剖，但该类群由多个个体重建，演化顺序仍依赖性状解释与取样矩阵。
+  claim-statements.zh:
+    - Pappochelys 样本保存加宽肋骨和粗壮的成对腹膜肋，但没有愈合的腹甲或完整背甲；所提出的腹膜肋愈合过程及其在已取样龟类干群中的位置属于同源性和拓扑假说，不是线性的祖先阶段。

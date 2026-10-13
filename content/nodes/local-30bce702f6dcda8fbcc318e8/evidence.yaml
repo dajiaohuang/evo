@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis nelsongalloi
+    name:
+      en: Pristimantis nelsongalloi
+      zh: Pristimantis nelsongalloi
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4ede9d9e4a
+            part: body
+          zh:
+            page: zh
+            section: s-f8a16023d5
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b60aa18723
+            part: body
+          zh:
+            page: zh
+            section: s-e7a76229af
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4685, 4686; Reference.csv rows 1714
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4685
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis nelsongalloi
+          - F
+          - "20.1"
+          - "7.55"
+          - "7.9"
+          - "2.65"
+          - "1.9"
+          - NA
+          - "2.6"
+          - "2.2"
+          - "1.95"
+          - "2.3"
+          - NA
+          - NA
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.15"
+          - "8.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4686
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis nelsongalloi
+          - M
+          - "14.8"
+          - "5.5"
+          - "5.7"
+          - "2"
+          - "1.5"
+          - NA
+          - "1.9"
+          - "1.6"
+          - "0.2"
+          - "1.5"
+          - NA
+          - NA
+          - "3.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - "6.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1714
+        values:
+          - Anura
+          - Pristimantis_nelsongalloi
+          - "Valencia, J. H., Valladares-Suntasig, F., Tipantiza-Tuguminago, L., & Duenas, M. R. (2019). A new species of terrestrial-breeding frog of the genus Pristimantis (Anura: Terrarana: Craugastoridae) from the eastern Andean slopes of the southern Ecuador. Zootaxa, 4658(3), zootaxa 4658 4653 4654. https://doi.org/10.11646/zootaxa.4658.3.4"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - HAL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

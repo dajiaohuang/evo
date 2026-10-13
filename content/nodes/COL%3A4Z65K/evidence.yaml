@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Spinus atriceps
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Spinus atriceps
+      en: Spinus atriceps
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-552137cc42
+            part: body
+          en:
+            page: en
+            section: s-a8e8c7972e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-eb662aac4d
+            part: body
+          en:
+            page: en
+            section: s-b7c0b97b74
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-d360bf497d
+            part: body
+          en:
+            page: en
+            section: s-24bb368e4d
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-d64fc94727
+            part: body
+          en:
+            page: en
+            section: s-150ffd87ea
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-66b2bb9b35
+            part: body
+          en:
+            page: en
+            section: s-6cdad53ba1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Spinus atriceps
+          url: https://www.checklistbank.org/dataset/316115/taxon/4Z65K
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetSpinusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Spinus historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 10 selected AVONET1_BirdLife rows within 4150–4168; corresponding eBird and BirdTree rows, sp/car/se catalogue shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 十条历史资料；九个 Carduelis 与一个 Serinus 组合，形态、独立文献体重与类别分别阅读。
+            en: Ten historical records; nine Carduelis and one Serinus combinations, with morphology, separately compiled mass and categories read distinctly.
+    limitations:
+      zh:
+        page: zh
+        section: s-3b2e9c9daa
+        part: body
+      en:
+        page: en
+        section: s-b48c207b6f
+        part: body

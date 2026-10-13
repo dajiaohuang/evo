@@ -1,0 +1,279 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Simias concolor Miller, 1903
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pig-tailed Langur
+      zh: 豚尾叶猴
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-1699860d65
+            part: body
+          zh:
+            page: zh
+            section: s-28c76c1953
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd
+          - hadi2012
+      - topic: socialOrganization
+        text:
+          en:
+            page: en
+            section: s-e098706d1b
+            part: body
+          zh:
+            page: zh
+            section: s-e304fba2b3
+            part: body
+        sourceIds:
+          - hadi2009
+      - topic: habitatComparison
+        text:
+          en:
+            page: en
+            section: s-b3696199ed
+            part: body
+          zh:
+            page: zh
+            section: s-7088018809
+            part: body
+        sourceIds:
+          - hadi2012
+      - topic: breeding
+        text:
+          en:
+            page: en
+            section: s-09edeadf3a
+            part: body
+          zh:
+            page: zh
+            section: s-c320629721
+            part: body
+        sourceIds:
+          - erb2012
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-20ca7319cc
+            part: body
+          en:
+            page: en
+            section: s-5ac4610211
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-46c9283293
+            part: body
+          en:
+            page: en
+            section: s-03a2f34425
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-73f19bde0a
+            part: body
+          en:
+            page: en
+            section: s-8a842d70e9
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-b77795cb30
+            part: body
+          en:
+            page: en
+            section: s-71e1b4edce
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1953fbc711
+            part: body
+          en:
+            page: en
+            section: s-9b8959fd83
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-ef33b03a-1b91-8f8a-a28a-8e8808dc0f08
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins accepted species ID 4XF7W, its authorship and COL26.8 parent genus.
+            zh: 固定接受种 ID 4XF7W、作者信息及 COL26.8 属级父链。
+      - id: mdd
+        referenceId: ref-a75891b4-a752-8191-a285-31ed21b01079
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the preferred English common name and mammal taxonomic context; not the ecological findings below.
+            zh: 支持英文显示名及哺乳动物分类背景；不支持下列生态研究结果。
+      - id: hadi2009
+        referenceId: ref-06055582-b4a0-840f-ae1b-326db202ee9c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Three free-ranging groups on Siberut; group-size and adult sex-ratio observations are sample-specific.
+            zh: Siberut 的三个自由活动群体；群体规模与成年性比仅适用于该样本。
+      - id: hadi2012
+        referenceId: ref-b87daaaa-3382-8960-a92f-4b72ac25d2e2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: GPS and scan/focal observations of three Simias groups and two Presbytis groups in mixed primary forest in northern Siberut.
+            zh: 在 Siberut 北部混合原生林中，对三个 Simias 群体和两个 Presbytis 群体进行 GPS 与扫描/焦点观察。
+      - id: erb2012
+        referenceId: ref-f7f7ed0f-9208-803d-ad2d-4180d00adafc
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Eleven births in eight groups followed for two years at Pungut, Siberut; authors note the small sample.
+            zh: 在 Siberut 的 Pungut 对八个群体观察两年、记录十一例出生；作者指出样本量很小。
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 797; Scientific=Simias concolor; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-664bc1b7ea
+        part: body
+      zh:
+        page: zh
+        section: s-1d806014ef
+        part: body

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa cuchumatana
+  displayName: Bolitoglossa cuchumatana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDNX
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa cuchumatana
+        zh: Bolitoglossa cuchumatana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDNX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/107
+            queryName: Bolitoglossa cuchumatana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/241
+            queryName: Oedipus cuchumatanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 50
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/242
+            queryName: Magnadigita cuchumatana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f21fa3ca8c
+      - s-73aa40273f
+      - s-43b5d3a737
+      - s-12f58d7be8
+      - s-87f3b6b295
+      - s-3bc635712b
+      - s-051dfe9152
+    zh:
+      - s-d0d13d1019
+      - s-51184e535c
+      - s-1124f2ba23
+      - s-d32c57193c
+      - s-77fd43d0de
+      - s-5e83ae1ba7
+      - s-fd57d8eac5

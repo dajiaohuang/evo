@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax quinquefasciatus
+  displayName: Scinax quinquefasciatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJYQ
+  sourceIndexes:
+    - name:
+        en: Scinax quinquefasciatus
+        zh: Scinax quinquefasciatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJYQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/66
+            queryName: Scinax quinquefasciatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/38
+            queryName: Hyla quinquefasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/39
+            queryName: Ololygon quinquefasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/40
+            queryName: Scinax quinquefasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2750757f94
+      - s-d5e3a5952f
+      - s-202c6b1392
+      - s-e51c9564c5
+      - s-c9c61ebdf8
+      - s-fa87163fea
+      - s-379e0cd30d
+      - s-8106099c83
+      - s-90e543093f
+      - s-bee07b122a
+      - s-07ba886f0f
+      - s-8b9791f48c
+      - s-a50ce21f2e
+      - s-239dc95af4
+      - s-83cc095318
+      - s-6431ed9a88
+      - s-279cd7da76
+      - s-d585cdaf51
+      - s-a1aeda7e0c
+      - s-174ef9bda0
+      - s-f11e1c8e4f
+    zh:
+      - s-5584af85b6
+      - s-6ad7b45afc
+      - s-e394bedda9
+      - s-0873bde504
+      - s-4b31b86278
+      - s-6c19fdd764
+      - s-9f62f3c01e
+      - s-208bda95d5
+      - s-0e14cef071
+      - s-6c5b921fb3
+      - s-6755d75f31
+      - s-8a0f549a14
+      - s-0c4e892080
+      - s-89ee0aba6d
+      - s-bed2e21656
+      - s-637c60007d
+      - s-9395eb8b91
+      - s-c11f4d1ad9
+      - s-c56673c3a9
+      - s-1937ae1873
+      - s-280cb4e0f8

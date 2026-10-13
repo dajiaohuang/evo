@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Alcalus Brown, Siler, Richards, Diesmos & Cannatella, 2015
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Alcalus
+      zh: Alcalus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4fa3cc59dd
+            part: title
+          zh:
+            page: zh
+            section: s-a71b18ed09
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4fa3cc59dd
+            part: body
+          zh:
+            page: zh
+            section: s-a71b18ed09
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9506c88b74
+            part: title
+          zh:
+            page: zh
+            section: s-d4fe69017e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9506c88b74
+            part: body
+          zh:
+            page: zh
+            section: s-d4fe69017e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-d1c8637b31
+            part: title
+          zh:
+            page: zh
+            section: s-8bfc7e65ab
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: BH3B
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ABH3B
+            label:
+              en: Alcalus baluensis
+              zh: Alcalus baluensis
+          - kind: catalogue
+            colId: L7WH9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AL7WH9
+            label:
+              en: Alcalus fontinalis
+              zh: Alcalus fontinalis
+          - kind: catalogue
+            colId: BH3C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ABH3C
+            label:
+              en: Alcalus mariae
+              zh: Alcalus mariae
+          - kind: catalogue
+            colId: V594K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV594K
+            label:
+              en: Alcalus pullus
+              zh: Alcalus pullus
+          - kind: catalogue
+            colId: BH3D
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ABH3D
+            label:
+              en: Alcalus rajae
+              zh: Alcalus rajae
+          - kind: catalogue
+            colId: 65W74
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A65W74
+            label:
+              en: Alcalus sariba
+              zh: Alcalus sariba
+          - kind: catalogue
+            colId: V5J5L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5J5L
+            label:
+              en: Alcalus tongbiguanensis
+              zh: Alcalus tongbiguanensis
+        text:
+          en:
+            page: en
+            section: s-d1c8637b31
+            part: body
+          zh:
+            page: zh
+            section: s-8bfc7e65ab
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Alcalus
+          url: https://www.checklistbank.org/dataset/316115/taxon/RKB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-faad221b57
+        part: body
+      zh:
+        page: zh
+        section: s-89627ca7da
+        part: body

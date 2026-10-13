@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Papio kindae Lönnberg, 1919
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 金达狒狒
+      en: Kinda baboon
+    sections:
+      - topic: socialBehavior
+        text:
+          zh:
+            page: zh
+            section: s-2d3c10bc5a
+            part: body
+          en:
+            page: en
+            section: s-c64edba727
+            part: body
+        sourceIds:
+          - weyher2025kindae
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Papio kindae Lönnberg, 1919
+            zh: 生命名录 COL26.8 — Papio kindae Lönnberg，1919
+          url: https://www.checklistbank.org/dataset/316115/taxon/4CKZ8
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent link; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和父链；不作为生物学证据。
+      - id: mdd_name
+        referenceId: ref-31a34b55-d752-89a5-a251-81e5c9720fe5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common-name crosswalk only; not occurrence, ecology or a complete range.
+            zh: 仅支持英文普通名交叉表；不提供出现记录、生态或完整分布证据。
+      - id: weyher2025kindae
+        referenceId: ref-24ef4741-b29b-8478-a9aa-f481f5e35649
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Nine years of data from a population in Kasanka National Park, Zambia; female–male affiliation, grooming, proximity, aggression and persistence across years.
+            zh: 赞比亚 Kasanka 国家公园一个种群的九年资料；研究雌雄关联、梳理、接近、冲突及跨年持续性。
+    limitations:
+      zh:
+        page: zh
+        section: s-551a8392fa
+        part: body
+      en:
+        page: en
+        section: s-3b90f26ef6
+        part: body

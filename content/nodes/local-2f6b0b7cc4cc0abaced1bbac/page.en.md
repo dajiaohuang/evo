@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-0ed1e81eca}
+The version 3 Amphibian database lists Crossodactylodes itambe Barata in a source measurement table. Its classification fields read order = Anura, family = Leptodactylidae, genus = Crossodactylodes; the linked citation is in Reference.csv row 2806. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-88bd0556c0}
+Anura.csv rows 1424, 1425 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1424 (F) = 16.2, row 1425 (M) = 16.2; HL: row 1424 (F) = 6, row 1425 (M) = 6.2; HW: row 1424 (F) = 6.4, row 1425 (M) = 6.7; other populated codes are ED, IND, UEW, EN, NS, HAL, FLL, FL, TL, THL, TSL, Fin3DW, … (13 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

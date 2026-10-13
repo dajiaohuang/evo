@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis waoranii
+  displayName: Pristimantis waoranii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJRP
+  sourceIndexes:
+    - name:
+        en: Pristimantis waoranii
+        zh: Pristimantis waoranii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJRP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/179
+            queryName: Pristimantis waoranii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/389
+            queryName: Eleutherodactylus waoranii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c96bb656dc
+      - s-75a2cbc999
+      - s-d1b10f91a5
+      - s-f9fb5b8d6a
+      - s-afbb420263
+      - s-e650437dbd
+      - s-c0c6cf836e
+    zh:
+      - s-a656301d97
+      - s-f447a90449
+      - s-d9c08270c0
+      - s-678afafa68
+      - s-292c8c85cc
+      - s-1a9ade34b0
+      - s-5e9fb59e90

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax curicica
+  displayName: Scinax curicica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJVZ
+  sourceIndexes:
+    - name:
+        en: Scinax curicica
+        zh: Scinax curicica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJVZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/29
+            queryName: Scinax curicica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93eaaf68e0
+      - s-b7a3b5f622
+      - s-ffdbae8114
+      - s-98e2e0b13c
+      - s-628a9a74cb
+      - s-2a4305d0b4
+      - s-2172c0ea36
+      - s-9486afc55c
+      - s-e1fec81123
+      - s-ad37c7749d
+      - s-c2c00d7e80
+      - s-105daed471
+      - s-2f9b0da0c2
+      - s-c59b0f772a
+      - s-c62095de3f
+    zh:
+      - s-52ac919ca0
+      - s-921d610335
+      - s-ae963bcd5b
+      - s-1a75a2c947
+      - s-ee48c646c1
+      - s-bb54e9fbdb
+      - s-dcca652a84
+      - s-23e5bf07f5
+      - s-fa8db8f532
+      - s-2bdd3f2c94
+      - s-352ce0ccab
+      - s-1be5cc40be
+      - s-1105fdc522
+      - s-37d4f661ff
+      - s-073fc3acf6

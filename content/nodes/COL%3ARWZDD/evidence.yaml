@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phantasmarana tamuia de Sá, Condez, Lyra, Haddad & Malagoli, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phantasmarana tamuia
+      zh: Phantasmarana tamuia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e95acba860
+            part: title
+          zh:
+            page: zh
+            section: s-0591048add
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e95acba860
+            part: body
+          zh:
+            page: zh
+            section: s-0591048add
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3ac3130914
+            part: title
+          zh:
+            page: zh
+            section: s-0cde48aacf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3ac3130914
+            part: body
+          zh:
+            page: zh
+            section: s-0cde48aacf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6293750f47
+            part: title
+          zh:
+            page: zh
+            section: s-97c3b563ef
+            part: title
+        sourceIds:
+          - primary-pmc11117230-rwzdd
+        text:
+          en:
+            page: en
+            section: s-6293750f47
+            part: body
+          zh:
+            page: zh
+            section: s-97c3b563ef
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b377483d6f
+            part: title
+          zh:
+            page: zh
+            section: s-a63988d5ad
+            part: title
+        sourceIds:
+          - primary-pmc11117230-rwzdd
+        text:
+          en:
+            page: en
+            section: s-b377483d6f
+            part: body
+          zh:
+            page: zh
+            section: s-a63988d5ad
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ddab7ba5ee
+            part: title
+          zh:
+            page: zh
+            section: s-5fcc92c29c
+            part: title
+        sourceIds:
+          - primary-pmc11117230-rwzdd
+        text:
+          en:
+            page: en
+            section: s-ddab7ba5ee
+            part: body
+          zh:
+            page: zh
+            section: s-5fcc92c29c
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-e0af3de5c4
+            part: title
+          zh:
+            page: zh
+            section: s-8093370837
+            part: title
+        sourceIds:
+          - primary-pmc11117230-rwzdd
+        text:
+          en:
+            page: en
+            section: s-e0af3de5c4
+            part: body
+          zh:
+            page: zh
+            section: s-8093370837
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phantasmarana tamuia
+          url: https://www.checklistbank.org/dataset/316115/taxon/RWZDD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11117230-rwzdd
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phantasmarana tamuia: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5bfb50f1cc
+        part: body
+      zh:
+        page: zh
+        section: s-035e173c66
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani14101406
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        sourceKey: primary-pmc11117230-rwzdd
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/article.xml
+        sourceConcept: 2024 TableS1 exact-name Phantasmarana tamuia paired-stage image/literature compilation; vouchers and cross-revision biological identity not independently certified
+        evidenceRead: "Phantasmarana tamuia: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A larval image record with explicit provenance
+              zh: 具有明确来源的幼体图像记录
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-rwzdd
+            locator: PMC11117230 supplementary TableS1 PDF page3 row16 Phantasmarana tamuia tadpoleSource/Voucher columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-722ad6b2d4
+                part: body
+              zh:
+                page: zh
+                section: s-08e2c3b09e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Adult measurements preserve source type and sex limits
+              zh: 成体测量保留来源类型及性别限制
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-rwzdd
+            locator: PMC11117230 supplementary TableS1 PDF page3 row16 adultSource/Voucher/Sex columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b5361582f1
+                part: body
+              zh:
+                page: zh
+                section: s-58ae788a25
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Larval guild and adult ecomorph are separate source categories
+              zh: 幼体功能群及成体生态型是分开来源类别
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-rwzdd
+            locator: PMC11117230 supplementary TableS1 PDF page3 row16 Guild/Ecomorph; page1 caption; XML Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1208279295
+                part: body
+              zh:
+                page: zh
+                section: s-2b6ef1aa15
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Paired-stage comparisons do not establish complete developmental independence
+              zh: 配对阶段比较不确立完全发育独立
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-rwzdd
+            locator: PMC11117230 XML Results3.2–3.3; Tables1–2; Discussion; supplementary TableS2/S3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-04d6c90f20
+                part: body
+              zh:
+                page: zh
+                section: s-936ceb6ea5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

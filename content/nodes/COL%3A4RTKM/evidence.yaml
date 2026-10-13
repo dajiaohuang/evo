@@ -1,0 +1,207 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Restio pumilus Esterh.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted usage 4RTKM, name, authorship, rank, status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000512735.
+      scope: Restio as represented by COL26.8 usage 4RTKM; SANBI's regional source account and its own taxonomic scope are retained and not assumed globally equivalent solely from name matching.
+    lifeStatusScope:
+      wild: Regional flora statements retain the source scope; cultivated, naturalised, and wild observations are distinguished only where stated.
+      domesticated: Domestication and cultivation history have not been assessed in this batch.
+      fossil: Fossil occurrence and geological age have not been assessed; extant source statements do not imply fossil evidence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/4RTKM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4RTKM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000512735-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4RTKM / WFO wfo-0000512735
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_9619_0
+        referenceId: ref-e4d1a335-3260-8454-acf7-a82d8b01c1bc
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Restio species account; SANBI/WFO archive rows 80690 (Morphology), 80401 (Habitat), 79851 (Diagnostic), source identifier 9619.0
+          scope: The source is a South African regional flora treatment and does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants caespitose, 15-25 cm tall, culm bases aggregated. Culms solid, terete, branching, to 0.7 mm in diam., densely and irregularly tuberculate. Sheaths closely convoluted, 10-15 mm long, body brown, coriaceous, obtuse, about 2/3 of the total sheath length, with a very slender awn to 6 mm long, but soon decaying and two acute, membranous shoulders about 4 mm tall. Older sheaths decayed, only the coriaceous brown part persistent. Male inflorescence of 2-7 very lax, 2-3-flowered, 3-4 mm long spikelets. Spathe 4-5 mm long, chartaceous, the apical half membranous, acute, decaying. Bracts all fertile, 1.5-2 mm long, acute, chartaceous, membranous margins decaying, about half as tall as the perianth. Flowers very shortly stipitate, perianth 2-2.5 mm long. Sepals cartilaginous, subacute to rounded, 2-2.5 mm long; lateral sepals deeply concave, carinate, glabrous; odd sepal shallowly concave. Petals membranous, rounded, marginally smaller than the odd sepal. Anthers exserted at anthesis. Pistillode minute. Female inflorescence like the male, spikelets 1-2-flowered. Bracts about four, with the lower bracts sterile, about 1.5 mm long, obtuse. Flowers pedicellate, perianth 2.5-3 mm long. Sepals cartilaginous, subacute to rounded, 2.3-3 mm long; lateral sepals deeply concave, glabrous, carinate; odd sepal shallowly concave. Petals chartaceous, obtuse to rounded, 2 mm long. Staminodes about 1 mm long. Ovary with 1-2 fertile locules. Styles three, free to the base, about 2 mm long, densely villous. Fruit a capsule, seed 1.2 mm long, rather obscurely colliculate.
+            textZh: Restio pumilus Esterh. 的 SANBI 物种条目记录了植株、叶和花序的形态。
+            sourceIds:
+              - sanbi_9619_0
+            locator: SANBI cited species account; archive Morphology row 80690, source 9619.0
+            placeTimeScope: Regional species account; publication year and page locator are preserved in its source citation and archive row. No dated sampling frame or population frequency is provided in this excerpt.
+            lifeStatus: Regional flora account; native, naturalised, and cultivated status are not inferred beyond explicit statements in the cited passage.
+          - text: This species is very similar to R. zwartbergensis, with which it is sympatric. The most striking difference is in the tufted habit of the plants. It is possible that the several florets in the male spikelet will also appear as a significant character, but more collections are required of both species to show that these characters are correlated.
+            textZh: 该 SANBI 条目提供了 Restio pumilus Esterh. 的鉴别描述。
+            sourceIds:
+              - sanbi_9619_0
+            locator: SANBI cited species account; archive Diagnostic row 79851, source 9619.0
+            placeTimeScope: Regional species account; publication year and page locator are preserved in its source citation and archive row. No dated sampling frame or population frequency is provided in this excerpt.
+            lifeStatus: Regional flora account; native, naturalised, and cultivated status are not inferred beyond explicit statements in the cited passage.
+        gaps:
+          - Only the cited regional morphology and diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Well-drained slopes.
+            textZh: 区域植物志记载 Restio pumilus Esterh. 的生境为：Well-drained slopes.
+            sourceIds:
+              - sanbi_9619_0
+            locator: SANBI cited species account; archive Habitat row 80401, source 9619.0
+            placeTimeScope: Regional species account; publication year and page locator are preserved in its source citation and archive row. No dated sampling frame or population frequency is provided in this excerpt.
+            lifeStatus: Regional flora account; native, naturalised, and cultivated status are not inferred beyond explicit statements in the cited passage.
+        gaps:
+          - Habitat excerpts do not establish seasonality, localities, interactions, or ecology across each full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Restio pumilus Esterh.
+    rank: species
+    sourceDatasetId: "2232"
+    name:
+      en: Restio pumilus Esterh.
+      zh: Restio pumilus Esterh.
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1dae52f973
+            part: title
+          zh:
+            page: zh
+            section: s-287a3e1ce8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1dae52f973
+            part: body
+          zh:
+            page: zh
+            section: s-287a3e1ce8
+            part: body
+        sourceIds:
+          - sanbi_9619_0
+        locator: SANBI cited species account; archive Morphology row 80690, source 9619.0
+        evidenceAssessment: partially-supported
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fe0b811555
+            part: title
+          zh:
+            page: zh
+            section: s-7c3cb970db
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fe0b811555
+            part: body
+          zh:
+            page: zh
+            section: s-7c3cb970db
+            part: body
+        sourceIds:
+          - sanbi_9619_0
+        locator: SANBI cited species account; archive Habitat row 80401, source 9619.0
+        evidenceAssessment: partially-supported
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/4RTKM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4RTKM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000512735-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4RTKM / WFO wfo-0000512735
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_9619_0
+        referenceId: ref-e4d1a335-3260-8454-acf7-a82d8b01c1bc
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Restio species account; SANBI/WFO archive rows 80690 (Morphology), 80401 (Habitat), 79851 (Diagnostic), source identifier 9619.0
+          scope: The source is a South African regional flora treatment and does not establish global representativeness or population frequencies.

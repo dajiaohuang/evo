@@ -1,0 +1,9 @@
+## The dataset entry {#s-5a676073e3}
+The pinned AmphiTherm curated snapshot records Pristimantis pycnodermis under Strabomantidae, Anura. It retains 2 thermal estimate rows across 1 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-9acb5df6d8}
+Source row 3624 (ID 3957; Pintanel_et_al_2019) reports 34.18 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Pristimantis_pycnodermis_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = body. The source reports 0.1 °C as its standard error. The source n_trait field is 3. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-a3b456d3de}
+Source row 3640 (ID 3980; Pintanel_et_al_2019) reports -2.05 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as adults. The source population code is Pristimantis_pycnodermis_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = body. The source reports 0.05 °C as its standard error. The source n_trait field is 2. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

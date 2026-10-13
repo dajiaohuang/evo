@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lankanectes
+  displayName: Lankanectes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/639M4
+  sourceIndexes:
+    - name:
+        en: Lankanectes
+        zh: Lankanectes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 639M4
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/488
+            queryName: Lankanectes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2e218790b3
+      - s-4ad6e24124
+      - s-50adfbe6ab
+      - s-ade43438e0
+      - s-d91600e2ad
+      - s-cea48bafc2
+    zh:
+      - s-3abaecd42f
+      - s-0d3f3c1aae
+      - s-96fd2991bd
+      - s-ba81bdc1dd
+      - s-6b4b35da01
+      - s-8721e5bac5

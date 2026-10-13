@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana qui
+  displayName: Rana qui
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5KXT
+  sourceIndexes:
+    - name:
+        en: Rana qui
+        zh: Rana qui
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5KXT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/81
+            queryName: Rana qui
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-24d3d6af0a
+      - s-a18e8f0fd4
+      - s-eacb087b44
+      - s-e6f771183a
+      - s-93664ab574
+      - s-c0ff1b7266
+      - s-ad7034b251
+    zh:
+      - s-2ab401b5bf
+      - s-ac2260e789
+      - s-c009c384cf
+      - s-2abc9683c8
+      - s-1f3c86f4a9
+      - s-9612a6cab4
+      - s-c63031bf30

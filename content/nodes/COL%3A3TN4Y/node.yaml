@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus gracilis
+  displayName: Leptodactylus gracilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN4Y
+  sourceIndexes:
+    - name:
+        en: Leptodactylus gracilis
+        zh: Leptodactylus gracilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN4Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/389
+            queryName: Leptodactylus gracilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 590
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/463
+            queryName: Cystignathus gracilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/100
+            queryName: Leptodactylus gracilis delattini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0c8aa020e8
+      - s-51f34beead
+      - s-b49538d936
+      - s-f43d7a99cf
+      - s-e70e88a3b2
+      - s-0613cf1680
+      - s-dde6bb6a41
+      - s-4fb5945bd7
+      - s-2c7798cabe
+      - s-fb50022534
+      - s-cbbf13c5dd
+      - s-7fafbb1b1f
+      - s-078ff24b30
+      - s-aa8040de3b
+      - s-716c3ffddf
+      - s-f0bdbfaff3
+      - s-8669239181
+      - s-ee58e92657
+      - s-960d91d893
+      - s-78b49fc6c0
+    zh:
+      - s-ed845041cd
+      - s-74014a5b3f
+      - s-d10ceeffdf
+      - s-64345661d4
+      - s-758ed91f93
+      - s-efd5d41cea
+      - s-a94f0c9365
+      - s-7eaa6391e3
+      - s-927288dd52
+      - s-430f62b9fc
+      - s-65e1ce49f5
+      - s-26b4acda34
+      - s-6f4e35f30e
+      - s-3c8193f696
+      - s-2f968e983e
+      - s-bb415cb650
+      - s-577708ca94
+      - s-df0a34e2da
+      - s-9ff2508f59
+      - s-70d59dac9b

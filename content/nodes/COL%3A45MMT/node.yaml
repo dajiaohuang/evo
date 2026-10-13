@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nannophrys ceylonensis
+  displayName: Nannophrys ceylonensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45MMT
+  sourceIndexes:
+    - name:
+        en: Nannophrys ceylonensis
+        zh: Nannophrys ceylonensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45MMT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/149
+            queryName: Nannophrys ceylonensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/121
+            queryName: Trachucephalus ceylanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/432
+            queryName: Trachycephalus ceylanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b6713eb43
+      - s-f25fef9efd
+      - s-d34e4195fc
+      - s-59c070b662
+      - s-ae576e5d83
+      - s-0cd8d092ba
+      - s-a15d7ea5c9
+      - s-8515004fbb
+      - s-ce58883998
+      - s-f8e49b1087
+      - s-02fa178038
+    zh:
+      - s-1b868ad25e
+      - s-3237ffe5ca
+      - s-7fcb1cc6e9
+      - s-4dbd7e676f
+      - s-f04a15d163
+      - s-c66b4812ea
+      - s-2e0d38f58c
+      - s-136b29b566
+      - s-8a491b3ca3
+      - s-786f0d4d15
+      - s-aae65b9c9b

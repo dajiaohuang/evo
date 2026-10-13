@@ -1,0 +1,122 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophylax saharicus
+  displayName: Pelophylax saharicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CHS
+  sourceIndexes:
+    - name:
+        en: Pelophylax saharicus
+        zh: Pelophylax saharicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CHS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/483
+            queryName: Pelophylax saharicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/185
+            queryName: Rana saharica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/97
+            queryName: Rana zavattarii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/98
+            queryName: Hylarana saharica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/439
+            queryName: Rana ridibunda saharica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/440
+            queryName: Rana ridibunda riodeoroi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/441
+            queryName: Rana saharica riodeori
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/442
+            queryName: Rana saharica saharica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/133
+            queryName: Rana esculenta latastei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/134
+            queryName: Rana esculenta saharica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-feb836db72
+      - s-aa7346d5e0
+      - s-b0059c01bd
+      - s-ba81fd9855
+      - s-7cf5c1d2f4
+      - s-b7f7191c76
+      - s-4f448a417b
+      - s-fe74595681
+      - s-f18c317e38
+      - s-4fa2501ecb
+      - s-e029a6a5b8
+      - s-854d25c872
+      - s-55dbaed8bd
+      - s-a707208e94
+    zh:
+      - s-7e3c128cba
+      - s-1f9aa0991b
+      - s-d871bf35ab
+      - s-74ef3a0e69
+      - s-26e715fc54
+      - s-5d1a38095d
+      - s-d455ea6901
+      - s-8917700d13
+      - s-0f7637fe82
+      - s-1aaa502b6a
+      - s-f1971b1262
+      - s-607160a50c
+      - s-a4f5df4acb
+      - s-fb5e9e975e

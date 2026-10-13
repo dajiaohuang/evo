@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cryptotriton
+  displayName: Cryptotriton
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62Q9Y
+  sourceIndexes:
+    - name:
+        en: Cryptotriton
+        zh: Cryptotriton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62Q9Y
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/336
+            queryName: Cryptotriton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6c009d8f4
+      - s-ed4e23a105
+      - s-15d7a836d2
+      - s-5140837dd0
+      - s-c465583a70
+      - s-463bb8f450
+    zh:
+      - s-cfbb0d6f64
+      - s-47901b47f9
+      - s-ca1ee1dff8
+      - s-55784560b6
+      - s-e2c791d18c
+      - s-299df2e8f4

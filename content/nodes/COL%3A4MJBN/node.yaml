@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis celator
+  displayName: Pristimantis celator
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJBN
+  sourceIndexes:
+    - name:
+        en: Pristimantis celator
+        zh: Pristimantis celator
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJBN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/188
+            queryName: Pristimantis celator
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/299
+            queryName: Eleutherodactylus celator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-132dc61e4a
+      - s-65311ead75
+      - s-9e12d07b11
+      - s-9cdef573fc
+      - s-87f727e57d
+      - s-e3a5316d45
+      - s-becc0ec6e4
+      - s-1eae3a8e11
+      - s-61b7ea11f6
+      - s-61967f356f
+      - s-607e84c3b8
+      - s-4a04c18de5
+      - s-0a446bbcb5
+      - s-3491e69239
+      - s-405abc6678
+      - s-a0b8a74402
+      - s-8a7f321b08
+      - s-cb11bb8cee
+      - s-674ae4fdb7
+      - s-dd72d9ffae
+      - s-69f47b6bbf
+      - s-88b14150fb
+      - s-5706f5b616
+      - s-7c38f36ac4
+    zh:
+      - s-7cead156b2
+      - s-59f634cd9b
+      - s-f0869fe615
+      - s-4f6951d96a
+      - s-9a8ff26e5a
+      - s-30dbeb67f7
+      - s-9a566b2c9f
+      - s-853eb733b3
+      - s-8e605f08f0
+      - s-2158176024
+      - s-3d6c239c9c
+      - s-d6e3596596
+      - s-f634c45ea4
+      - s-8ffce6fe68
+      - s-c9c517e662
+      - s-2abc816189
+      - s-2a3559b263
+      - s-6a125c0e90
+      - s-e97c941ad9
+      - s-c3ad7db872
+      - s-b7a9b6bea8
+      - s-1d1eb180a5
+      - s-9e809a64b5
+      - s-7b2c939fc4

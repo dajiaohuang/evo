@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes leytensis
+  displayName: Limnonectes leytensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DKL
+  sourceIndexes:
+    - name:
+        en: Limnonectes leytensis
+        zh: Limnonectes leytensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DKL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/97
+            queryName: Limnonectes leytensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/32
+            queryName: Rana leytensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/492
+            queryName: Rana microdisca leytensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/216
+            queryName: Hylarana mindanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-29f1d1f812
+      - s-d16af9455b
+      - s-357cdd752b
+      - s-c225096095
+      - s-da6a67339c
+      - s-a102ba46f6
+      - s-203398f2be
+      - s-fc60790af7
+      - s-2468886c40
+      - s-51e2a4e1e1
+      - s-4d3f715d7c
+      - s-f24d21c8b5
+      - s-6af6e14d2e
+    zh:
+      - s-7a280d1de3
+      - s-56c19b7a2c
+      - s-d4da59d9f1
+      - s-919db6b3fe
+      - s-40acf39da2
+      - s-6ee3a4e2d5
+      - s-c690d1ddb8
+      - s-a8035386b6
+      - s-5ec04077f8
+      - s-99458a142c
+      - s-c68ca5a1c9
+      - s-902465e15d
+      - s-7bbd3cb0ee

@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Horezmia gracile
+    rank: species
+    sourceTaxonId: txn:364689
+    name:
+      en: Horezmia gracile
+      zh: Horezmia gracile
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-1487e92a52
+            part: body
+          zh:
+            page: zh
+            section: s-3298181dc3
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-e102b821dc
+            part: body
+          zh:
+            page: zh
+            section: s-2f7afa57b6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-17415fffc5
+            part: body
+          zh:
+            page: zh
+            section: s-7fdefa1a22
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:364689; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: L. A. Nessov. 1981. Amfibii i reptilii v ekosistemakh Mela sredney Azii [Amphibia and reptiles in Cretaceous ecosystems of central Asia]. The Problems of Herpetology. Fifth Herpetological Conference. Abstracts
+    occurrenceEvidence:
+      - occurrenceId: occ:984091
+        collectionId: col:58208
+        acceptedTaxonId: txn:364689
+        identifiedName: Horezmia gracile n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:64195
+        bibliography: L. A. Nessov. 1981. Amfibii i reptilii v ekosistemakh Mela sredney Azii [Amphibia and reptiles in Cretaceous ecosystems of central Asia].  In I. V. Darevsky (ed.), The Problems of Herpetology. Fifth Herpetological Conference. Abstracts
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Khodzhakul
+          member: null
+        olderAgeMa: 100.5
+        youngerAgeMa: 93.9
+      - occurrenceId: occ:984092
+        collectionId: col:68823
+        acceptedTaxonId: txn:364689
+        taxonomicDifference: null
+        referenceId: ref:64195
+        bibliography: L. A. Nessov. 1981. Amfibii i reptilii v ekosistemakh Mela sredney Azii [Amphibia and reptiles in Cretaceous ecosystems of central Asia].  In I. V. Darevsky (ed.), The Problems of Herpetology. Fifth Herpetological Conference. Abstracts
+        locality:
+          countryCode: UZ
+          stateProvince: Karakalpakstan
+          county: null
+        stratigraphy:
+          group: null
+          formation: Khodzhakul
+          member: null
+        olderAgeMa: 100.5
+        youngerAgeMa: 93.9
+      - occurrenceId: occ:1437986
+        collectionId: col:64685
+        acceptedTaxonId: txn:364689
+        taxonomicDifference: null
+        referenceId: ref:64195
+        bibliography: L. A. Nessov. 1981. Amfibii i reptilii v ekosistemakh Mela sredney Azii [Amphibia and reptiles in Cretaceous ecosystems of central Asia].  In I. V. Darevsky (ed.), The Problems of Herpetology. Fifth Herpetological Conference. Abstracts
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Khodzhakul
+          member: null
+        olderAgeMa: 100.5
+        youngerAgeMa: 93.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-17415fffc5
+            part: body
+          zh:
+            page: zh
+            section: s-7fdefa1a22
+            part: body
+        sourceIds: []

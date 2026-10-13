@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scarthyla vigilans
+  displayName: Scarthyla vigilans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4V3F3
+  sourceIndexes:
+    - name:
+        en: Scarthyla vigilans
+        zh: Scarthyla vigilans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4V3F3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/4
+            queryName: Scarthyla vigilans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/492
+            queryName: Hyla vigilans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f69f22c7ff
+      - s-1949e4e324
+      - s-7f7180525f
+      - s-7f5f59d759
+      - s-ef659b7dda
+      - s-471b40e714
+      - s-5f36343ebe
+      - s-4bda793c10
+      - s-190c2233c5
+      - s-1e98e3471c
+      - s-4b86e23239
+      - s-a9272a31a7
+      - s-7123a9bd1b
+      - s-706d3fd123
+    zh:
+      - s-2e9c5bd7eb
+      - s-234be9054c
+      - s-2ac8114af9
+      - s-b7b187dbef
+      - s-be50a64aeb
+      - s-bbfab98cad
+      - s-d5ca9f5301
+      - s-c024213a0d
+      - s-e8b175875b
+      - s-1dc1b787e5
+      - s-6c2002ccfc
+      - s-51cbd8e24f
+      - s-677cd1d364
+      - s-a34c945502

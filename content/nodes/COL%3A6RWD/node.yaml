@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis
+  displayName: Platymantis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6RWD
+  sourceIndexes:
+    - name:
+        en: Platymantis
+        zh: Platymantis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6RWD
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/177
+            queryName: Platymantis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 120
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-249b93fafe
+      - s-af91801841
+      - s-68f01ebef1
+      - s-ec28299c95
+      - s-4dbab31254
+      - s-cdff08cadd
+      - s-a969db9b26
+    zh:
+      - s-f614b0a232
+      - s-4b3cc201ec
+      - s-4433dacf0e
+      - s-496c5f4626
+      - s-01c234a709
+      - s-ab2e1885a1
+      - s-16a85748d3

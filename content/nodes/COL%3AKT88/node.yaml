@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Barycholos pulcher
+  displayName: Barycholos pulcher
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KT88
+  sourceIndexes:
+    - name:
+        en: Barycholos pulcher
+        zh: Barycholos pulcher
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KT88
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/377
+            queryName: Barycholos pulcher
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/301
+            queryName: Leptodactylus pulcher
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3ea907c282
+      - s-62cc9221ae
+      - s-59cfee300c
+      - s-abbef58f13
+      - s-8c36425e3e
+      - s-65b07ded77
+      - s-5898ad4bfb
+      - s-8be0582497
+      - s-18df51605e
+      - s-ee6287bac3
+      - s-d100978970
+      - s-d4dbed8c91
+      - s-c41e1f2423
+      - s-9c3d88eb07
+      - s-855d903d78
+      - s-dc128c87a1
+    zh:
+      - s-a506df4626
+      - s-b9cd3f88f0
+      - s-aaced6d08d
+      - s-0793a7da1d
+      - s-628eb80ea5
+      - s-e3e03db8a0
+      - s-1556c8a77e
+      - s-6b0d1ed633
+      - s-eb180ad021
+      - s-8dd3425e83
+      - s-34262559ca
+      - s-dcf54e781d
+      - s-1bd7e8a1c8
+      - s-ecc0624895
+      - s-b58753b8bb
+      - s-9a027bab19

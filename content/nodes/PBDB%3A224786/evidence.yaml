@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gallardosaurus iturraldei
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Gallardosaurus iturraldei
+      en: Gallardosaurus iturraldei
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ff42b82a16
+            part: body
+          en:
+            page: en
+            section: s-ea876ed8d1
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e77a32c771
+            part: body
+          en:
+            page: en
+            section: s-f6033f2f15
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7af86b8f97
+            part: body
+          en:
+            page: en
+            section: s-008134d3a4
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e3949d2fa1
+            part: body
+          en:
+            page: en
+            section: s-da202db5d5
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-036009c794
+            part: body
+          en:
+            page: en
+            section: s-cd79d30094
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Gallardosaurus iturraldei
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=224786&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:224786; original response record indices retained in data/sources/sauropterygia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 262ff66f07b86b04952b63768d1a1ff40af059166c0f8e11f63f9ed76019c860
+          pbdbTaxonId: txn:224786
+          selectedOccurrenceIds:
+            - occ:821513
+          selectedCollectionIds:
+            - col:90435
+          sourceReferenceIds:
+            - ref:30393
+          originalIdentificationMappings:
+            - occurrenceId: occ:821513
+              originalIdentifiedName: Gallardosaurus iturraldei n. gen. n. sp.
+              acceptedName: Gallardosaurus iturraldei
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-98d43c5f55
+        part: body
+      en:
+        page: en
+        section: s-46852123c7
+        part: body

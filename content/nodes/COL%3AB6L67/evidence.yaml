@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lepidoptera Linnaeus, 1758
+    rank: order
+    sourceDatasetId: "55434"
+    name:
+      zh: 鳞翅目
+      en: Moths and butterflies
+    sections:
+      - topic: body structure and feeding
+        text:
+          zh:
+            page: zh
+            section: s-43d17203f5
+            part: body
+          en:
+            page: en
+            section: s-2457fbc942
+            part: body
+        sourceIds:
+          - account
+      - topic: development
+        text:
+          zh:
+            page: zh
+            section: s-556b83ff9e
+            part: body
+          en:
+            page: en
+            section: s-27a1941f24
+            part: body
+        sourceIds:
+          - account
+    sources:
+      - id: account
+        referenceId: ref-009ca8bd-7773-8466-a1dd-5a1dde629fb8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 鳞片、口器差异与完全变态；排除旧分歧年代、数量排名和保育结论。
+            en: Scales, mouthpart variation and complete metamorphosis; excludes older divergence dates, numerical rankings and conservation conclusions.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 55434
+          url: https://www.checklistbank.org/dataset/316115/taxon/B6L67
+          scope:
+            zh: 固定版本中的接受名、作者、等级及父链；保留亚属写法和未分配的来源 ID，不据名称推导生物学事实。
+            en: Pinned accepted name, authorship, rank and parent chain; subgenus notation and unassigned source IDs are retained. Names do not establish biological traits.
+    limitations:
+      zh:
+        page: zh
+        section: s-685575330a
+        part: body
+      en:
+        page: en
+        section: s-6b7bd650bd
+        part: body

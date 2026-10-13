@@ -1,0 +1,3 @@
+## ## Upright leaflets and resupinate flowers {#s-454167a4ca}
+Brazilian Flora 2020 records more than 15 leaflets per leaf, each under 3 cm long, on petioles up to 1.5 cm. The leaflets stand upright like small boats, and shield-shaped glands are present. Racemes are shorter than the leaf below them; gray hairs cover parts of the inflorescence, bracts and calyx. The flowers are asymmetrical and resupinate, meaning turned over, with red to orange petals and two forms of anther. The laterally flattened legume has transverse partitions around the seeds and may contain up to ten seeds. The dataset classifies the plant as terrestrial.
+

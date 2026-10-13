@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Anoualerpeton unicus
+    rank: species
+    sourceTaxonId: txn:156363
+    name:
+      en: Anoualerpeton unicus
+      zh: Anoualerpeton unicus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-10bddf0baa
+            part: body
+          zh:
+            page: zh
+            section: s-266c5c6ee6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-77cc13c846
+            part: body
+          zh:
+            page: zh
+            section: s-b91af20db9
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-8b55fe1bdf
+            part: body
+          zh:
+            page: zh
+            section: s-4dba879275
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:156363; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. D. Gardner, S. E. Evans, and D. Sigogneau-Russell. 2003. New albanerpetontid amphibians from the Early Cretaceous of Morocco and Middle Jurassic of England. Acta Palaeontologica Polonica 48(2):301-319
+    occurrenceEvidence:
+      - occurrenceId: occ:463336
+        collectionId: col:45726
+        acceptedTaxonId: txn:156363
+        identifiedName: Anoualerpeton unicus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30986
+        bibliography: J. D. Gardner, S. E. Evans, and D. Sigogneau-Russell. 2003. New albanerpetontid amphibians from the Early Cretaceous of Morocco and Middle Jurassic of England. Acta Palaeontologica Polonica 48(2):301-319
+        locality:
+          countryCode: MA
+          stateProvince: Oriental
+          county: Figuig
+        stratigraphy:
+          group: null
+          formation: Ksar Metlili
+          member: null
+        olderAgeMa: 145.06
+        youngerAgeMa: 141
+      - occurrenceId: occ:1467143
+        collectionId: col:204918
+        acceptedTaxonId: txn:156363
+        taxonomicDifference: null
+        referenceId: ref:70302
+        bibliography: M. Lasseron, R. Allain, and E. Gheerbrant, H. Haddoumi, N.-E. Jalil, G. Métais, J.-C. Rage, R. Vullo, S. Zouhri. 2019. New data on the microvertebrate fauna from the Upper Jurassic or lowest Cretaceous of Ksar Metlili (Anoual Syncline, eastern Morocco). Geological Magazine
+        locality:
+          countryCode: MA
+          stateProvince: Figuig
+          county: null
+        stratigraphy:
+          group: null
+          formation: Ksar Metlili
+          member: null
+        olderAgeMa: 145.06
+        youngerAgeMa: 141
+      - occurrenceId: occ:1467215
+        collectionId: col:204924
+        acceptedTaxonId: txn:156363
+        taxonomicDifference: null
+        referenceId: ref:70302
+        bibliography: M. Lasseron, R. Allain, and E. Gheerbrant, H. Haddoumi, N.-E. Jalil, G. Métais, J.-C. Rage, R. Vullo, S. Zouhri. 2019. New data on the microvertebrate fauna from the Upper Jurassic or lowest Cretaceous of Ksar Metlili (Anoual Syncline, eastern Morocco). Geological Magazine
+        locality:
+          countryCode: MA
+          stateProvince: Figuig
+          county: null
+        stratigraphy:
+          group: null
+          formation: Ksar Metlili
+          member: null
+        olderAgeMa: 145.06
+        youngerAgeMa: 141
+      - occurrenceId: occ:1467263
+        collectionId: col:204936
+        acceptedTaxonId: txn:156363
+        taxonomicDifference: null
+        referenceId: ref:70302
+        bibliography: M. Lasseron, R. Allain, and E. Gheerbrant, H. Haddoumi, N.-E. Jalil, G. Métais, J.-C. Rage, R. Vullo, S. Zouhri. 2019. New data on the microvertebrate fauna from the Upper Jurassic or lowest Cretaceous of Ksar Metlili (Anoual Syncline, eastern Morocco). Geological Magazine
+        locality:
+          countryCode: MA
+          stateProvince: Figuig
+          county: null
+        stratigraphy:
+          group: null
+          formation: Ksar Metlili
+          member: null
+        olderAgeMa: 145.06
+        youngerAgeMa: 141
+      - occurrenceId: occ:1467808
+        collectionId: col:204990
+        acceptedTaxonId: txn:156363
+        taxonomicDifference: null
+        referenceId: ref:70302
+        bibliography: M. Lasseron, R. Allain, and E. Gheerbrant, H. Haddoumi, N.-E. Jalil, G. Métais, J.-C. Rage, R. Vullo, S. Zouhri. 2019. New data on the microvertebrate fauna from the Upper Jurassic or lowest Cretaceous of Ksar Metlili (Anoual Syncline, eastern Morocco). Geological Magazine
+        locality:
+          countryCode: MA
+          stateProvince: Figuig
+          county: null
+        stratigraphy:
+          group: null
+          formation: Ksar Metlili
+          member: null
+        olderAgeMa: 145.06
+        youngerAgeMa: 141
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-8b55fe1bdf
+            part: body
+          zh:
+            page: zh
+            section: s-4dba879275
+            part: body
+        sourceIds: []

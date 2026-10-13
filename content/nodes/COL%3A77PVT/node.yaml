@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon grobmani
+  displayName: Plethodon grobmani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77PVT
+  sourceIndexes:
+    - name:
+        en: Plethodon grobmani
+        zh: Plethodon grobmani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77PVT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/466
+            queryName: Plethodon grobmani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/494
+            queryName: Plethodon glutinosus grobmani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1605609a79
+      - s-588a94ec2d
+      - s-3def8ef147
+      - s-a27837df88
+      - s-d31a424225
+      - s-430164e06e
+      - s-5498e88a8a
+      - s-cc00a79666
+      - s-3529916b9e
+      - s-02dd8ef125
+      - s-035ada6cdf
+      - s-09c1747ed9
+    zh:
+      - s-df36ba3f5d
+      - s-b4a6f0527c
+      - s-a511cc8cb1
+      - s-631cd99ad6
+      - s-dfb913e935
+      - s-578a804898
+      - s-d04d249a30
+      - s-559c80e532
+      - s-9a4e579d93
+      - s-4ac1a5ff58
+      - s-d5f5d41633
+      - s-6d9676b1b0

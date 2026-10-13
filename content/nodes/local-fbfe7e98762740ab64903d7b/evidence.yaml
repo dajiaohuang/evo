@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Eleutherodactylus tychathrous
+    name:
+      en: Eleutherodactylus tychathrous
+      zh: Eleutherodactylus tychathrous
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Eleutherodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6e88b485ff
+            part: body
+          zh:
+            page: zh
+            section: s-e364fc4547
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-421ce313b7
+            part: body
+          zh:
+            page: zh
+            section: s-9bc39496dc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1799; Reference.csv rows 2248
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1799
+        values:
+          - Brachycephaloidea
+          - Eleutherodactylus
+          - Eleutherodactylus tychathrous
+          - M
+          - "57.8"
+          - "20.9"
+          - "20.2"
+          - "6.5"
+          - "4.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "26.8"
+          - "24.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2248
+        values:
+          - Anura
+          - Eleutherodactylus_tychathrous
+          - Schwartz, A. (1965). Variation and natural history of Eleutherodactylus ruthae on Hispaniola. Bulletin of the Museum of Comparative Zoology at Harvard College, 132, 479-508.  https://www.biodiversitylibrary.org/part/36558
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - EN
+      - TL
+      - THL
+      - Toe4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

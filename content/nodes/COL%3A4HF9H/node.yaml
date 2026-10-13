@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus evangelistai
+  displayName: Physalaemus evangelistai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF9H
+  sourceIndexes:
+    - name:
+        en: Physalaemus evangelistai
+        zh: Physalaemus evangelistai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF9H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/322
+            queryName: Physalaemus evangelistai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7fa0e274a
+      - s-12a3391b6d
+      - s-11ea375d94
+      - s-2b577e4976
+      - s-d1e9c0fd4d
+      - s-e15361829c
+      - s-62ddf8187c
+      - s-8efd8101cd
+      - s-aac03f31ab
+      - s-5a838e212a
+      - s-69d6b860f5
+    zh:
+      - s-f4c7736dab
+      - s-fe6b699df1
+      - s-8da86a3000
+      - s-2ffec2a2b4
+      - s-5b6936cbbd
+      - s-a63490b4bf
+      - s-6cd48ed41f
+      - s-a446ed5ca9
+      - s-3d987f1e7f
+      - s-dd8fd54321
+      - s-ce5a03e8f0

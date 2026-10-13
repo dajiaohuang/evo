@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus rhodopeplus
+  displayName: Dendropsophus rhodopeplus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S6W
+  sourceIndexes:
+    - name:
+        en: Dendropsophus rhodopeplus
+        zh: Dendropsophus rhodopeplus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S6W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/410
+            queryName: Dendropsophus rhodopeplus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/447
+            queryName: Hyla rhodopepla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/351
+            queryName: Hyla aluminiata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/352
+            queryName: Hyla rufopunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/353
+            queryName: Hyla albida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b186d5210
+      - s-693b7871a3
+      - s-f9dd3f3980
+      - s-5e983412cd
+      - s-aa85aa10cc
+      - s-9a95abd04a
+      - s-c58e5a1b59
+      - s-862b13db95
+      - s-842bc9fe9a
+      - s-8b76ff4e6b
+      - s-519fe40044
+      - s-dffccea304
+      - s-87cecff2fa
+      - s-6e4d50dd70
+      - s-82c7356b09
+      - s-a172bed988
+      - s-7b6b284f37
+    zh:
+      - s-26c3d557a5
+      - s-8586fb82c8
+      - s-bf4d52309c
+      - s-3e76fb0103
+      - s-0834c01218
+      - s-10a67832d8
+      - s-6983b97ffb
+      - s-e56e198327
+      - s-3d90e39a2c
+      - s-d91bf56953
+      - s-25872899a3
+      - s-a981198ede
+      - s-3c72b16f96
+      - s-a2e9b59fbb
+      - s-441c5dc5e1
+      - s-1eecb22b5e
+      - s-181f80cd31

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Isthmohyla debilis
+  displayName: Isthmohyla debilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QD7S
+  sourceIndexes:
+    - name:
+        en: Isthmohyla debilis
+        zh: Isthmohyla debilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QD7S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/53
+            queryName: Isthmohyla debilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/316
+            queryName: Hyla debilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e9ed46afe4
+      - s-8300c40eaa
+      - s-bcaf1ad1e3
+      - s-9c8d129269
+      - s-0636d11697
+      - s-588685f578
+      - s-f31edb4ee2
+      - s-2a226506c6
+      - s-a06b52394e
+    zh:
+      - s-4a684c1039
+      - s-40816624a7
+      - s-df6ac4ef3d
+      - s-053f0ee9b7
+      - s-152fb1afb9
+      - s-597acf32dc
+      - s-fb3b791fa2
+      - s-200e96d4f4
+      - s-ffa3b0be14

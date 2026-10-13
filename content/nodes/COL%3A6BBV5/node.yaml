@@ -1,0 +1,130 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor mexicanus
+  displayName: Craugastor mexicanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BBV5
+  sourceIndexes:
+    - name:
+        en: Craugastor mexicanus
+        zh: Craugastor mexicanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BBV5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/140
+            queryName: Craugastor mexicanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/116
+            queryName: Eleutherodactylus lineatissimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/133
+            queryName: Eleutherodactylus mexicanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/144
+            queryName: Eleutherodactylus oaxacae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/255
+            queryName: Leiuperus mexicanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/256
+            queryName: Pleurodema mexicana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/257
+            queryName: Microbatrachylus oaxacae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/258
+            queryName: Microbatrachylus lineatissimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/259
+            queryName: Microbatrachylus fuscatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/343
+            queryName: Eleutherodactylus mexicanus fuscatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/287
+            queryName: Paludicola mexicana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7c5ec75c5a
+      - s-4501d1d99d
+      - s-0f9cf24a24
+      - s-14eca0837c
+      - s-20aebc6039
+      - s-e144150e5a
+      - s-4bb6a061c2
+      - s-85b130aa20
+      - s-239334535b
+      - s-dd2122a299
+      - s-8830cfd799
+      - s-9fccfa14ad
+      - s-87d0f81870
+      - s-9a9dca9663
+      - s-52edafeb8c
+    zh:
+      - s-f3eac61bd4
+      - s-e140780dd6
+      - s-e5c39b9eb3
+      - s-5239b27470
+      - s-6b4e1f4801
+      - s-2cc619a5a6
+      - s-35850a426f
+      - s-de6ab24ff6
+      - s-f1b41fb90c
+      - s-e439b7c664
+      - s-60c6b83ad5
+      - s-baa0d2f20d
+      - s-894a64eb6d
+      - s-6dcbdfacbb
+      - s-b29be85792

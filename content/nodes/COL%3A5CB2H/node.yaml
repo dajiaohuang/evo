@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenophrys major
+  displayName: Xenophrys major
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CB2H
+  sourceIndexes:
+    - name:
+        en: Xenophrys major
+        zh: Xenophrys major
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CB2H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/282
+            queryName: Xenophrys major
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/29
+            queryName: Megophrys major
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/30
+            queryName: Xenophrys gigas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/31
+            queryName: Megalophrys major
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/32
+            queryName: Liuophrys major
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f0118bb96c
+      - s-8f8c912bb0
+      - s-0605c6835c
+      - s-297b6b6651
+      - s-54f16a389f
+      - s-2293ed1677
+      - s-322b8c6318
+      - s-d1360acb9c
+      - s-8af39b0b4f
+    zh:
+      - s-908ecfaf00
+      - s-dcb7765444
+      - s-a0376d0d22
+      - s-a5fe521788
+      - s-a0cd958edd
+      - s-47e63a9094
+      - s-90a3a53c8a
+      - s-bc82ac14ad
+      - s-490d51c1ba

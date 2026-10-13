@@ -1,0 +1,435 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Marmotini
+    rank: tribe
+    sourceDatasetId: "2144"
+    name:
+      zh: Marmotini
+      en: Marmotini
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-e7a93a6365
+            part: body
+          en:
+            page: en
+            section: s-3ddbb51c65
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-1a6cf3be59
+            part: body
+          en:
+            page: en
+            section: s-fe8cd55b33
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-76456be3e6
+            part: body
+          en:
+            page: en
+            section: s-c1ca160a1c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-75ffe46a45
+            part: body
+          en:
+            page: en
+            section: s-7b7d734a5a
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-063bbc4d56
+            part: body
+          en:
+            page: en
+            section: s-0a437e4661
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-5f30c5e95b
+            part: body
+          en:
+            page: en
+            section: s-034a8353b4
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-452839b901
+            part: body
+          en:
+            page: en
+            section: s-a694ca479a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-7d47bd0205
+            part: body
+          en:
+            page: en
+            section: s-208d887602
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-04a2619d68
+            part: body
+          en:
+            page: en
+            section: s-2499ca1f5f
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-031cbee30e
+            part: body
+          en:
+            page: en
+            section: s-82b9a1b5e8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Marmotini
+          url: https://www.checklistbank.org/dataset/316115/taxon/KYW
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 7 authored entries grouped under Marmotini by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 17 authored same-name records placed under Marmotini by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 16 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 16
+            foraging: 16
+            activity: 16
+          readingTargets:
+            - name: Spermophilus pygmaeus
+              colId: 4YKB3
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4YKB3
+            - name: Spermophilus citellus
+              colId: 6YX8Y
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6YX8Y
+            - name: Spermophilus dauricus
+              colId: 6YWWZ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6YWWZ
+            - name: Spermophilus musicus
+              colId: 6YX99
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6YX99
+            - name: Spermophilus relictus
+              colId: 4YKB5
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4YKB5
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 3 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 0
+            foraging: 3
+            activity: 0
+          readingTargets:
+            - name: Spermophilus pallidicauda
+              colId: 6Z98X
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6Z98X
+            - name: Spermophilus ralli
+              colId: 4YKB4
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4YKB4
+            - name: Spermophilus brevicauda
+              colId: 6Z8X5
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6Z8X5
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 3 authored entries grouped under Marmotini by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 6YWWZ
+              name: Spermophilus dauricus
+              canonicalPath: content/nodes/COL%3A6YWWZ
+            - colId: 4YKBM
+              name: Spermophilus xanthoprymnus
+              canonicalPath: content/nodes/COL%3A4YKBM
+            - colId: CVGM
+              name: Ammospermophilus insularis
+              canonicalPath: content/nodes/COL%3ACVGM
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 8 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: CVGL
+              name: Ammospermophilus harrisii
+              canonicalPath: content/nodes/COL%3ACVGL
+            - colId: CVGQ
+              name: Ammospermophilus nelsoni
+              canonicalPath: content/nodes/COL%3ACVGQ
+            - colId: CVGN
+              name: Ammospermophilus interpres
+              canonicalPath: content/nodes/COL%3ACVGN
+            - colId: CVGP
+              name: Ammospermophilus leucurus
+              canonicalPath: content/nodes/COL%3ACVGP
+            - colId: 6YWWZ
+              name: Spermophilus dauricus
+              canonicalPath: content/nodes/COL%3A6YWWZ
+          fieldAccountCounts:
+            gestation(mo): 6
+            newborn(g): 3
+            weaning(mo): 4
+            wean mass(g): 4
+            AFR(mo): 4
+            max. life(mo): 2
+            litter size: 7
+            litters/year: 8
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-b3e06c89e6
+        part: body
+      en:
+        page: en
+        section: s-f372f5ff05
+        part: body

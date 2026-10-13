@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachytarsophrys qiannanensis Li, Liu, Yang, Wei & Su, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Brachytarsophrys qiannanensis
+      zh: Brachytarsophrys qiannanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-51bf988297
+            part: title
+          zh:
+            page: zh
+            section: s-dc83dde607
+            part: title
+        text:
+          en:
+            page: en
+            section: s-51bf988297
+            part: body
+          zh:
+            page: zh
+            section: s-dc83dde607
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9b0ac5eec1
+            part: title
+          zh:
+            page: zh
+            section: s-471c8776a9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9b0ac5eec1
+            part: body
+          zh:
+            page: zh
+            section: s-471c8776a9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-81c883d304
+            part: title
+          zh:
+            page: zh
+            section: s-f272907af0
+            part: title
+        sourceIds:
+          - primary-pmc8881434-v5mwr
+        text:
+          en:
+            page: en
+            section: s-81c883d304
+            part: body
+          zh:
+            page: zh
+            section: s-f272907af0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f335c5659d
+            part: title
+          zh:
+            page: zh
+            section: s-218984187f
+            part: title
+        sourceIds:
+          - primary-pmc8881434-v5mwr
+        text:
+          en:
+            page: en
+            section: s-f335c5659d
+            part: body
+          zh:
+            page: zh
+            section: s-218984187f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachytarsophrys qiannanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5MWR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc8881434-v5mwr
+        referenceId: ref-4b4c1e3b-dabc-4d37-a3dd-e648da5b4160
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Brachytarsophrys qiannanensis distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c5d8bbcf70
+        part: body
+      zh:
+        page: zh
+        section: s-d1c4a46120
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.10.e79984
+        referenceId: ref-4b4c1e3b-dabc-4d37-a3dd-e648da5b4160
+        sourceKey: primary-pmc8881434-v5mwr
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8881434/article.xml
+        sourceConcept: Brachytarsophrys qiannanensis
+        evidenceRead: Brachytarsophrys qiannanensis distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: The Libo type-locality sample
+              zh: 荔波模式地点的样本
+            referenceId: ref-4b4c1e3b-dabc-4d37-a3dd-e648da5b4160
+            sourceKey: primary-pmc8881434-v5mwr
+            locator: Brachytarsophrys qiannanensis distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d4eb78044e
+                part: body
+              zh:
+                page: zh
+                section: s-df9a9a6e1a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Calling beneath stream rocks
+              zh: 溪流岩石下的鸣叫
+            referenceId: ref-4b4c1e3b-dabc-4d37-a3dd-e648da5b4160
+            sourceKey: primary-pmc8881434-v5mwr
+            locator: Brachytarsophrys qiannanensis distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ebbf5f0496
+                part: body
+              zh:
+                page: zh
+                section: s-0d9d2ba2f0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

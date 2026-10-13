@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Siphonopidae Bonaparte, 1850
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Siphonopidae
+      zh: Siphonopidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fb8913d7f1
+            part: title
+          zh:
+            page: zh
+            section: s-1625f45d63
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fb8913d7f1
+            part: body
+          zh:
+            page: zh
+            section: s-1625f45d63
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3115944432
+            part: title
+          zh:
+            page: zh
+            section: s-7485774ca6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3115944432
+            part: body
+          zh:
+            page: zh
+            section: s-7485774ca6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-dd5af5220f
+            part: title
+          zh:
+            page: zh
+            section: s-a07e4fcb25
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3CVZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3CVZ
+            label:
+              en: Brasilotyphlus
+              zh: Brasilotyphlus
+          - kind: catalogue
+            colId: 5H7P
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5H7P
+            label:
+              en: Luetkenotyphlus
+              zh: Luetkenotyphlus
+          - kind: catalogue
+            colId: 5RJ9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5RJ9
+            label:
+              en: Microcaecilia
+              zh: Microcaecilia
+          - kind: catalogue
+            colId: 5T7Z
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5T7Z
+            label:
+              en: Mimosiphonops
+              zh: Mimosiphonops
+          - kind: catalogue
+            colId: 7HPY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7HPY
+            label:
+              en: Siphonops
+              zh: Siphonops
+        text:
+          en:
+            page: en
+            section: s-dd5af5220f
+            part: body
+          zh:
+            page: zh
+            section: s-a07e4fcb25
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Siphonopidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/GBW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8ac259378c
+        part: body
+      zh:
+        page: zh
+        section: s-484317fcd8
+        part: body

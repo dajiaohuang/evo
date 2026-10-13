@@ -1,0 +1,421 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dermatonotus Méhely, 1904
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Dermatonotus
+      zh: Dermatonotus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4fa649c4d2
+            part: title
+          zh:
+            page: zh
+            section: s-ba62987ee6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4fa649c4d2
+            part: body
+          zh:
+            page: zh
+            section: s-ba62987ee6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0b7bd240a0
+            part: title
+          zh:
+            page: zh
+            section: s-7bb3f63dee
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0b7bd240a0
+            part: body
+          zh:
+            page: zh
+            section: s-7bb3f63dee
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-fa0fc7bfc6
+            part: title
+          zh:
+            page: zh
+            section: s-71e9400052
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fa0fc7bfc6
+            part: body
+          zh:
+            page: zh
+            section: s-71e9400052
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-87d09ac48a
+            part: title
+          zh:
+            page: zh
+            section: s-36f9de0202
+            part: title
+        text:
+          en:
+            page: en
+            section: s-87d09ac48a
+            part: body
+          zh:
+            page: zh
+            section: s-36f9de0202
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-df2f78b8da
+            part: title
+          zh:
+            page: zh
+            section: s-5952ded1cc
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 34X5H
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A34X5H
+            label:
+              en: Dermatonotus muelleri
+              zh: Dermatonotus muelleri
+        text:
+          en:
+            page: en
+            section: s-df2f78b8da
+            part: body
+          zh:
+            page: zh
+            section: s-5952ded1cc
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-bff186ab8a
+            part: title
+          zh:
+            page: zh
+            section: s-d24ede5058
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-bff186ab8a
+            part: body
+          zh:
+            page: zh
+            section: s-d24ede5058
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10688756-43fd
+        title:
+          en:
+            page: en
+            section: s-e9cc4a2660
+            part: title
+          zh:
+            page: zh
+            section: s-35ef641759
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e9cc4a2660
+            part: body
+          zh:
+            page: zh
+            section: s-35ef641759
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10688756-43fd
+        title:
+          en:
+            page: en
+            section: s-66899acdc6
+            part: title
+          zh:
+            page: zh
+            section: s-e76ea63a20
+            part: title
+        text:
+          en:
+            page: en
+            section: s-66899acdc6
+            part: body
+          zh:
+            page: zh
+            section: s-e76ea63a20
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10688756-43fd
+        title:
+          en:
+            page: en
+            section: s-ce925580a9
+            part: title
+          zh:
+            page: zh
+            section: s-aa4d13af4d
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 34X5H
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A34X5H
+            label:
+              en: Dermatonotus muelleri
+              zh: Dermatonotus muelleri
+        text:
+          en:
+            page: en
+            section: s-ce925580a9
+            part: body
+          zh:
+            page: zh
+            section: s-aa4d13af4d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dermatonotus
+          url: https://www.checklistbank.org/dataset/316115/taxon/43FD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Dermatonotus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Dermatonotus; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-direct-group-pmc10688756-43fd
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+            zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9acd52a976
+        part: body
+      zh:
+        page: zh
+        section: s-321ca32ca2
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Dermatonotus
+      sourceRowIds:
+        - Anf4210
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Dermatonotus muelleri
+          path: content/nodes/local-7eaf71d5a5700d66333daa1e
+      metrics:
+        - metric: CTmax
+          rows: 2
+          sourceConcepts: 1
+        - metric: CTmin
+          rows: 1
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-direct-group-pmc10688756-43fd
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: Source-labelled Atlantic Forest workbook rows grouped through fixed exact names or explicit catalogue accepted-links; duplicate destinations retained, not biological identity certification
+        evidenceRead: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Reproduction and juvenile habitats retain source-row denominators
+              zh: 繁殖及幼体生境保留来源行分母
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-43fd
+            locator: PMC10688756 S3 Traits rows 156; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6cf67d2163
+                part: body
+              zh:
+                page: zh
+                section: s-bc081f29cd
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Inference flags and community associations have limited scope
+              zh: 推断标记及群落关联具有有限范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-43fd
+            locator: PMC10688756 S3 Traits rows 156; XML Functional diversity length/Observation columns; Results/Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-82e9aba1f2
+                part: body
+              zh:
+                page: zh
+                section: s-6555701691
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+    primaryResearchGroupSynthesisComplete: false

@@ -1,0 +1,297 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Radomaniola mislinensis Grego & Jaszczyńska, 2025
+    rank: species
+    sourceDatasetId: "1130"
+    identity:
+      method: Exact COL26.8 taxon ID V7... was joined to the WoRMS/MolluscaBase archive by COL ID, then verified against archive Aphia ID, accepted status, full accepted name and authorship; no name-only or fuzzy match used.
+      scope: Nominal species usage in COL26.8 and archived MolluscaBase accepted taxon concept. This nomenclatural crosswalk does not by itself establish full biological concept equivalence.
+      sourceIds:
+        - col
+        - worms
+    lifeStatusScope:
+      wild: All biological observations and localities in the cited treatment concern wild freshwater snails; claims remain bounded to the paper’s 2001–2022 collection program and each account’s stated localities.
+      domesticated: No domesticated or captive observations are included or inferred.
+      fossil: This dossier makes no claim about fossil occurrence. Fossil evidence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 25
+        usage:
+          licenseAppliesTo: COL26.8 release record
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          version: COL26.8; ChecklistBank dataset 316115, pinned 2026-08-20
+          attribution: Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, DOI 10.48580/dgywk
+          licenseAssessment: identity-only
+          scope: Accepted COL26.8 name, authorship, rank, status, source dataset and COL identifier only; no biological claims.
+          url: https://www.checklistbank.org/dataset/316115/taxon/V7F82
+          stableId: V7F82
+          locator: COL26.8 accepted species usage V7F82
+      - id: worms
+        referenceId: ref-bc1ffa7c-9b4d-8905-a7d4-ff7084283d83
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: WoRMS/MolluscaBase nomenclatural archive crosswalk only
+          stableId: urn:lsid:marinespecies.org:taxname:1844778
+          attribution: WoRMS Editorial Board (2026), MolluscaBase archive; DOI 10.48580/d4fd.v148
+          licenseAssessment: identity-only
+          scope: Exact COL taxon ID to archived accepted Aphia taxon ID and accepted-name usage; nomenclatural identity evidence only, not biological evidence or proof of complete species-concept equivalence.
+          locator: Archived accepted usage AphiaID 1844778; crosswalk taxon.txt row verified by exact COL ID, accepted status, accepted name and authorship
+      - id: paper
+        referenceId: ref-b05f24e7-b546-89d1-a27b-dd5afe0e29c6
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          stableId: 10.11646/zootaxa.5716.2.2
+          accessedAt: 2026-09-24
+          locator: Species account pages listed per claim; publisher identifies PDF as subscription or fee access
+          licenseAssessment: unknown
+          scope: Original taxonomic paper describing five species; biological claims are paraphrased from the corresponding species account only.
+      - id: treatment
+        referenceId: ref-9f6c1a03-9e1c-8cf5-a22f-357e75481d7b
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          stableId: AB08878A2A3CFFBEFF4126AA41299963
+          accessedAt: 2026-09-24
+          locator: Treatment AB08878A2A3CFFBEFF4126AA41299963; original paper pages 220–222; Zenodo DOI 10.5281/zenodo.18233405
+          licenseAssessment: unknown
+          scope: Species-level account and underlying type/locality, anatomy, sequence, and author assessment data as cited in its original article pages.
+    readerSources:
+      - id: treatment
+        referenceId: ref-8726595d-661d-8783-ad63-80636c8dd6e3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Species-level account and underlying type/locality, anatomy, sequence, and author assessment data as cited in its original article pages.
+            zh: 原论文第 220–222 页中的种级条目及其模式材料、地点、解剖、序列和作者评估资料。
+      - id: paper
+        referenceId: ref-3838ccc8-f062-8afc-a022-f0472090831d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Original taxonomic paper describing five species; biological claims are paraphrased from the corresponding species account only.
+            zh: 描述五个新种的原始分类学论文；本节仅转述相应种级条目中的生物学陈述。
+    readerSections:
+      - id: morphology-description
+        title:
+          en:
+            page: en
+            section: s-892a2faf81
+            part: title
+          zh:
+            page: zh
+            section: s-19dbe91fd8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-892a2faf81
+            part: body
+          zh:
+            page: zh
+            section: s-19dbe91fd8
+            part: body
+        sourceIds:
+          - treatment
+      - id: reported-springs
+        title:
+          en:
+            page: en
+            section: s-7c02ffb5a2
+            part: title
+          zh:
+            page: zh
+            section: s-2aba835396
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7c02ffb5a2
+            part: body
+          zh:
+            page: zh
+            section: s-2aba835396
+            part: body
+        sourceIds:
+          - treatment
+      - id: mitochondrial-evidence
+        title:
+          en:
+            page: en
+            section: s-356f35cd1f
+            part: title
+          zh:
+            page: zh
+            section: s-cc515b29ce
+            part: title
+        text:
+          en:
+            page: en
+            section: s-356f35cd1f
+            part: body
+          zh:
+            page: zh
+            section: s-cc515b29ce
+            part: body
+        sourceIds:
+          - treatment
+          - paper
+      - id: author-risk-assessment
+        title:
+          en:
+            page: en
+            section: s-81d6cad484
+            part: title
+          zh:
+            page: zh
+            section: s-cc15abd462
+            part: title
+        text:
+          en:
+            page: en
+            section: s-81d6cad484
+            part: body
+          zh:
+            page: zh
+            section: s-cc15abd462
+            part: body
+        sourceIds:
+          - treatment
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The corresponding taxon account provides a species-level shell and soft-part/anatomical description and diagnostic treatment; the current dossier records the existence and scope of that account without extracting a full character matrix.
+            originalLanguage: en
+            sourceIds:
+              - treatment
+            locator: Species account, pp. 220–222; description/diagnosis and associated figures
+            placeTimeScope: Account published 2025; taxon-specific specimens examined in the original treatment.
+            lifeStatus: Wild species; treatment specimens only.
+        gaps:
+          - Measurements, sex/stage coverage, within-species variation, diagnostic character comparison, and specimen-by-specimen sampling have not been independently abstracted.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The paper’s species-description study was not a systematic life-history or reproductive-behavior search; no life-history claim is made.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: "The account reports the following type locality and the treatment’s stated habitat/locality observations: Mislina spring, Neretva River Delta near Metković, Croatia (42°58′56″N, 17°36′24″E; 4 m); holotype NHMW-MO-113906, collected 2020-08-04. Besides the type locality, the treatment reports spring Studena (locality 13); it describes the known area as a very small area around the spring supplying Mislina lake."
+            originalLanguage: en
+            sourceIds:
+              - treatment
+            locator: Species account, pp. 220–222; type material, habitat and distribution paragraphs
+            placeTimeScope: Only the account’s named collection localities; collection dates are account-specific and no unsampled sites are inferred.
+            lifeStatus: Wild freshwater snails; localities and specimens reported by the authors.
+        gaps:
+          - No complete interaction network, host/resource use, population ecology, seasonal ecology, or habitat-wide survey has been assembled.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: The study assigns this taxon to mitochondrial operational unit mOTU B and reports COI sequence accession(s) PX113142–PX113146; the paper cautions that COI data do not resolve deeper phylogenetic relationships. The mOTU label is not treated as a species-tree placement.
+            originalLanguage: en
+            sourceIds:
+              - treatment
+              - paper
+            locator: Species account, pp. 220–222; molecular/mOTU assignment and cited GenBank accession(s); article discussion on limits of COI evidence
+            placeTimeScope: Study-specific sequence sample and analysis published 2025; accession identifiers as reported in the taxon account.
+            lifeStatus: Wild study specimens; molecular evidence from the reported samples only.
+        gaps:
+          - A species-level phylogenetic placement with broader loci, sampling, competing topologies and uncertainty has not been established here.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: Besides the type locality, the treatment reports spring Studena (locality 13); it describes the known area as a very small area around the spring supplying Mislina lake.
+            originalLanguage: en
+            sourceIds:
+              - treatment
+            locator: Species account, pp. 220–222; type locality and distribution section
+            placeTimeScope: Reported collection sites and dates in the cited study; geographic extent is limited to the named localities and study period.
+            lifeStatus: Wild populations; no introduced/native range designation beyond treatment localities.
+        gaps:
+          - No current global checklist of localities, georeferenced range boundary, native/introduced assessment, or sampling-completeness study has been completed.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil database or paleontological literature search was performed; no absence-of-fossils conclusion is drawn.
+      conservation:
+        status: partially-supported
+        claims:
+          - text: The authors assess the species as Endangered (EN) in the treatment; the record here is only the authors’ assessment, not a verified current IUCN or national listing.
+            originalLanguage: en
+            sourceIds:
+              - treatment
+            locator: Species account, pp. 220–222; authors’ ecological/conservation status paragraph
+            placeTimeScope: Author-assigned status in the 2025 taxonomic treatment; its assessment scope is limited to the account’s reported locality data.
+            lifeStatus: Wild taxon; author assessment only, not an independently verified current formal assessment.
+        gaps:
+          - Assessment criteria, evaluator authority, assessment date/validity, population trend and current IUCN or national registry record have not been independently verified.

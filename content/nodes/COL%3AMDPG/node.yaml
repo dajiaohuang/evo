@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa franklini
+  displayName: Bolitoglossa franklini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDPG
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa franklini
+        zh: Bolitoglossa franklini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDPG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/122
+            queryName: Bolitoglossa franklini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/65
+            queryName: Bolitoglossa brevipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/66
+            queryName: Bolitoglossa nigroflavescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/309
+            queryName: Oedipus franklini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/310
+            queryName: Magnadigita nigroflavescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/311
+            queryName: Magnadigita franklini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/312
+            queryName: Magnadigita brevipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/391
+            queryName: Bolitoglossa franklini franklini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/392
+            queryName: Bolitoglossa franklini nigroflavescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ff5caaebdb
+      - s-a67a956db7
+      - s-60991b43cc
+      - s-ca693629dc
+      - s-c0f7b359f7
+      - s-a27ed97730
+      - s-5ce5ab627f
+      - s-ce0700ffbf
+      - s-b8e465b594
+      - s-b5996edbf0
+      - s-e217677ae3
+    zh:
+      - s-5e8c17cc1b
+      - s-b2db46f3e8
+      - s-18db3601c4
+      - s-0232123201
+      - s-611e40ae05
+      - s-94787e7bb4
+      - s-d45b774d81
+      - s-3d389603f4
+      - s-c87386e810
+      - s-4ed01ae703
+      - s-fbd9794dc1

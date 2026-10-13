@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus cerradensis
+  displayName: Dendropsophus cerradensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S4V
+  sourceIndexes:
+    - name:
+        en: Dendropsophus cerradensis
+        zh: Dendropsophus cerradensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S4V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/352
+            queryName: Dendropsophus cerradensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/301
+            queryName: Hyla cerradensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/360
+            queryName: Hyla jimi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/446
+            queryName: Hyla rhea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/114
+            queryName: Dendropsophus jimi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/118
+            queryName: Dendropsophus rhea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc28998b21
+      - s-4d6f403d04
+      - s-52d89de109
+      - s-5a4d7d689b
+      - s-4df82377a9
+      - s-5e051342f5
+      - s-aeb615c3a3
+      - s-3c4fa16651
+      - s-99dac6e54b
+      - s-82147d2106
+      - s-764e88b905
+      - s-63f513d7e6
+      - s-aeaa64f80d
+      - s-eb5d90abc1
+      - s-a7e1b32c9f
+      - s-c1fb7760df
+      - s-eb13063402
+      - s-38b5c9d048
+      - s-b34509afe0
+      - s-32a3fe16f1
+      - s-38636d3ccb
+    zh:
+      - s-36f9ff0e23
+      - s-62a9b7ed27
+      - s-a11d7c76bf
+      - s-9054f28304
+      - s-9c4eaba130
+      - s-6d670ca4df
+      - s-399f807312
+      - s-56760a7a14
+      - s-a0d487cfc7
+      - s-08e4e8b5cd
+      - s-04c510f0f7
+      - s-ffb4776883
+      - s-1a99ac800a
+      - s-d05e3857c2
+      - s-821bfac3fc
+      - s-508b407f3d
+      - s-892df52823
+      - s-271f966cfb
+      - s-3d88eacb6a
+      - s-d8a377814c
+      - s-e121e4ea96

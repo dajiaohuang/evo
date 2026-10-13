@@ -1,0 +1,362 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lepilemur ankaranensis Rumpler & Albignac, 1975
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 安卡拉那运动狐猴
+      en: Ankarana Sportive Lemur
+    sections:
+      - topic: species delimitation
+        text:
+          zh:
+            page: zh
+            section: s-9a66635ae7
+            part: body
+          en:
+            page: en
+            section: s-94fd618b50
+            part: body
+        sourceIds:
+          - lepilemur2006
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-a9395480d2
+            part: body
+          en:
+            page: en
+            section: s-9019997af5
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-7114affa71
+            part: body
+          en:
+            page: en
+            section: s-4b9dc886cb
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-6f0c249b03
+            part: body
+          en:
+            page: en
+            section: s-0776932245
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-20090c0232
+            part: body
+          en:
+            page: en
+            section: s-f695546a9b
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-5a2256dec2
+            part: body
+          en:
+            page: en
+            section: s-67dd2b5d1a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bf868c0d5d
+            part: body
+          en:
+            page: en
+            section: s-ec4b550211
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d4ef4d1763
+            part: body
+          en:
+            page: en
+            section: s-137afaedec
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-61bbeba55b
+            part: body
+          en:
+            page: en
+            section: s-de3cc737df
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bb54d54b56
+            part: body
+          en:
+            page: en
+            section: s-d7965ebc35
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1c8ad144c9
+            part: body
+          en:
+            page: en
+            section: s-0efeddd0da
+            part: body
+    sources:
+      - id: lepilemur2006
+        referenceId: ref-edf23e0d-ab31-8fbc-a584-baff4afdeeb3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 以 68 个个体的线粒体细胞色素 b 序列和 99 个个体的细胞遗传资料研究当时承认的八种运动狐猴；支持论文中的谱系与种级区分，不是现今分类目录或生态普查。
+            en: Uses mitochondrial cytochrome-b sequences from 68 individuals and cytogenetic data from 99 to study the eight sportive lemur species recognized at the time; supports the paper's phylogenetic and species-level findings, not a current checklist or ecological census.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/6PBSJ
+          scope:
+            zh: 固定版本接受名、作者、等级与分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-3584c0d6-f098-8bc4-a5ef-33707dc2b8fc
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅用于英文普通名标签；分类身份采用 COL26.8，中文标签为编辑翻译。
+            en: Used only for the English common-name label; taxonomy follows COL26.8 and the Chinese label is an editorial translation.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12310; name Lepilemur ankaranensis; reference table row 12310; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Ernest et al., 2003 from median of 3(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            female_maturity_d: Ernest et al., 2003 from median of 3(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            litter_or_clutch_size_n: Ernest et al., 2003 from median of 3(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            gestation_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 3(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            weaning_d: Ernest et al., 2003 from median of 3(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            birth_or_hatching_weight_g: mean of Ernest et al., 2003 and Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            maximum_longevity_y: Carey, J.R. and D.S. Judge, 2002
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - Ernest et al., 2003
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 513; Scientific=Lepilemur ankaranensis; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_11
+                  verbatim: Andrainarivo, C., Andriaholinirina, V.N., Feistner, A., Felix, T., Ganzhorn, J., Garbutt, N., Golden, C., Konstant, B., Louis Jr., E., Meyers, D., Mittermeier, R.A., Perieras, A., Princee, F., Rabarivola, J.C., Rakotosamimanana, B., Rasamimanana, H., Rats
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-7eec6634da
+        part: body
+      en:
+        page: en
+        section: s-6d3ecf05c9
+        part: body

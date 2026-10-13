@@ -1,0 +1,521 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Neomirandea croatii R.M.King & H.Rob.
+    authorship: R.M.King & H.Rob.
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: ST
+        scientificName: Asterales Link
+        authorship: Link
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 622TP
+        scientificName: Asteraceae Dumort.
+        authorship: Dumort.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: J6T
+        scientificName: Asteroideae (Cass.) Lindl.
+        authorship: (Cass.) Lindl.
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV97G
+        scientificName: Eupatorieae Cass.
+        authorship: Cass.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KVM2V
+        scientificName: Neomirandeinae R.M.King & H.Rob.
+        authorship: R.M.King & H.Rob.
+        rank: subtribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 5ZZJ
+        scientificName: Neomirandea R.M.King & H.Rob.
+        authorship: R.M.King & H.Rob.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 46MTB
+        scientificName: Neomirandea croatii R.M.King & H.Rob.
+        authorship: R.M.King & H.Rob.
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 46MTB; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/46MTB
+          stableId: col:46MTB@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 46MTB; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 46MTB. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_46mtb_distribution_1930
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Neomirandea croatii R.M.King & H.Rob., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: known only from the type collection
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 1930
+          archiveSourceId: DE2AAAEA-2493-4DFF-8541-63AE24859684
+          archiveSourceIds:
+            - DE2AAAEA-2493-4DFF-8541-63AE24859684
+          referenceRowNumbers:
+            - 3542
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-c03dd96a-9b39-837f-a85b-5aad97921051
+                metadataVariant: 0
+                usage:
+                  identifier: DE2AAAEA-2493-4DFF-8541-63AE24859684
+                  referenceRowNumber: 3542
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1930 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1930; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:46MTB:row:1930
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1930; field distribution; reference rows 3542.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1930; CC BY 4.0. Citation metadata: Neomirandea croatii R.M. King & H. Rob., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_46mtb_general_1935
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Neomirandea croatii R.M.King & H.Rob., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Epiphytic slightly fleshy shrubs to 1 m high; stems terete, densely hirsute. Leaves opposite; blades slightly fleshy to coriaceous, broadly elliptical to slightly obovate, mostly 5.5-9.5 cm long and 3.0-6.5 cm wide, the base cuneate, the margins entire, the apex slightly short-acuminate, the upper surface sparsely hispidulous, the lower surface sparsely pilose, more densely pilose on primary vein, the secondary veins pinnate, prominent; petioles narrow, mostly 5-10 mm long. Inflorescence a broadly corymbose panicle, to 15 cm wide and 12 cm high, the branches puberulous, the ultimate branches 2-9 mm long. Heads ca. 9 mm high and 1.5-2.0 mm wide, mostly with 5 florets; involucral bracts 8-9, sub- imbricate, in ca. 3 series, linear-lanceolate with narrowly obtuse tips, 3-6 mm long and 0.8-1.0 mm wide, the outer surface minutely puberulous and very sparsely glanduliferous; receptacle flat, minutely puberulous; corolla lavender or purplish, ca. 7 mm long, narrowly funnelform, the inner surface glabrous, the tube and lower limb mostly glabrous on outer surface, the lobes ovate-oblong, ca. 0.8 mm long and 0.5-0.6 mm wide, with outer surface sparsely glanduliferous and minutely puberulous; style base not enlarged. Achenes prismatic, 2.5-3.0 mm
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 1935
+          archiveSourceId: 95DDD6B9-4D45-41E4-ADA6-4E419883AD33
+          archiveSourceIds:
+            - 95DDD6B9-4D45-41E4-ADA6-4E419883AD33
+          referenceRowNumbers:
+            - 3547
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-c03dd96a-9b39-837f-a85b-5aad97921051
+                metadataVariant: 0
+                usage:
+                  identifier: 95DDD6B9-4D45-41E4-ADA6-4E419883AD33
+                  referenceRowNumber: 3547
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1935 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1935; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:46MTB:row:1935
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1935; field general; reference rows 3547.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1935; CC BY 4.0. Citation metadata: Neomirandea croatii R.M. King & H. Rob., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_46mtb_habit_1936
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Neomirandea croatii R.M.King & H.Rob., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: shrubs
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 1936
+          archiveSourceId: 0D768012-5638-4F01-BE56-691220F74106
+          archiveSourceIds:
+            - 0D768012-5638-4F01-BE56-691220F74106
+          referenceRowNumbers:
+            - 3548
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-c03dd96a-9b39-837f-a85b-5aad97921051
+                metadataVariant: 0
+                usage:
+                  identifier: 0D768012-5638-4F01-BE56-691220F74106
+                  referenceRowNumber: 3548
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1936 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1936; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:46MTB:row:1936
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1936; field habit; reference rows 3548.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1936; CC BY 4.0. Citation metadata: Neomirandea croatii R.M. King & H. Rob., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_46mtb_general_1937
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Neomirandea croatii R.M.King & H.Rob., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: long, mostly glabrous, puberulous with short bristles near upper and lower ends; carpopodium a distinct rim; pappus of ca. 50 slightly scabrous bristles, with slightly enlarged tips, the apical cells acute.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 1937
+          archiveSourceId: F1D1D2B7-84C7-4A5C-8163-E27496863006
+          archiveSourceIds:
+            - F1D1D2B7-84C7-4A5C-8163-E27496863006
+          referenceRowNumbers:
+            - 3549
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-c03dd96a-9b39-837f-a85b-5aad97921051
+                metadataVariant: 0
+                usage:
+                  identifier: F1D1D2B7-84C7-4A5C-8163-E27496863006
+                  referenceRowNumber: 3549
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1937 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1937; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:46MTB:row:1937
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1937; field general; reference rows 3549.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1937; CC BY 4.0. Citation metadata: Neomirandea croatii R.M. King & H. Rob., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Epiphytic slightly fleshy shrubs to 1 m high; stems terete, densely hirsute. Leaves opposite; blades slightly fleshy to coriaceous, broadly elliptical to slightly obovate, mostly 5.5-9.5 cm long and 3.0-6.5 cm wide, the base cuneate, the margins entire, the apex slightly short-acuminate, the upper surface sparsely hispidulous, the lower surface sparsely pilose, more densely pilose on primary vein, the secondary veins pinnate, prominent; petioles narrow, mostly 5-10 mm long. Inflorescence a broadly corymbose panicle, to 15 cm wide and 12 cm high, the branches puberulous, the ultimate branches 2-9 mm long. Heads ca. 9 mm high and 1.5-2.0 mm wide, mostly with 5 florets; involucral bracts 8-9, sub- imbricate, in ca. 3 series, linear-lanceolate with narrowly obtuse tips, 3-6 mm long and 0.8-1.0 mm wide, the outer surface minutely puberulous and very sparsely glanduliferous; receptacle flat, minutely puberulous; corolla lavender or purplish, ca. 7 mm long, narrowly funnelform, the inner surface glabrous, the tube and lower limb mostly glabrous on outer surface, the lobes ovate-oblong, ca. 0.8 mm long and 0.5-0.6 mm wide, with outer surface sparsely glanduliferous and minutely puberulous; style base not enlarged. Achenes prismatic, 2.5-3.0 mm
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_46mtb_general_1935
+            locator: "Flora of Panama general field; imported row 1935; sourceIds 95DDD6B9-4D45-41E4-ADA6-4E419883AD33; reference rows 3547; citations: 95DDD6B9-4D45-41E4-ADA6-4E419883AD33: Neomirandea croatii R.M. King & H. Rob., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 3547)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+          - text: long, mostly glabrous, puberulous with short bristles near upper and lower ends; carpopodium a distinct rim; pappus of ca. 50 slightly scabrous bristles, with slightly enlarged tips, the apical cells acute.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_46mtb_general_1937
+            locator: "Flora of Panama general field; imported row 1937; sourceIds F1D1D2B7-84C7-4A5C-8163-E27496863006; reference rows 3549; citations: F1D1D2B7-84C7-4A5C-8163-E27496863006: Neomirandea croatii R.M. King & H. Rob., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 3549)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: known only from the type collection
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_46mtb_distribution_1930
+            locator: "Flora of Panama distribution field; imported row 1930; sourceIds DE2AAAEA-2493-4DFF-8541-63AE24859684; reference rows 3542; citations: DE2AAAEA-2493-4DFF-8541-63AE24859684: Neomirandea croatii R.M. King & H. Rob., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 3542)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+    reader:
+      zh:
+        overview:
+          page: zh
+          section: s-dd0ba442b6
+          part: body
+      en:
+        overview:
+          page: en
+          section: s-b8f91d201f
+          part: body

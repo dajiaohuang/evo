@@ -1,0 +1,392 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: null
+    scientificName: Macaca radiata
+    commonName: Bonnet Macaque
+    commonNameZh: 冠猕猴
+    rank: species
+    parentName: Macaca
+    extinct: false
+    geography:
+      - Mysore-connected roadside transects, Karnataka, India (comparative counts, 2003 and 2015; study site)
+      - Parambikulam landscape, Kerala, India (one forest occupancy survey)
+      - Southern Indian temple/tourist locations (historical site-status comparison)
+      - Southern India (82 fecal-derived host mtDNA D-loop sequences from 16 sampled locations; collected 2014–15; study sampling frame, not a range boundary)
+    overview:
+      page: en
+      section: s-e11ca442a5
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-03f83e66c1
+        part: body
+      habitat:
+        page: en
+        section: s-107f61b152
+        part: body
+      locomotion:
+        page: en
+        section: s-7793790be3
+        part: body
+      bodySize:
+        page: en
+        section: s-8d92fcb12b
+        part: body
+      guild:
+        page: en
+        section: s-3f84b0e24b
+        part: body
+    traits: []
+    evidenceSummary:
+      page: en
+      section: s-b5cbf03e74
+      part: body
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-6bd7f5ea74
+            part: title
+          zh:
+            page: zh
+            section: s-fdcbc655c5
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-fdcbc655c5
+            part: body
+          en:
+            page: en
+            section: s-6bd7f5ea74
+            part: body
+        sourceIds:
+          - grunstra2018
+          - erinjery2017
+      - id: study-scope
+        title:
+          en:
+            page: en
+            section: s-fd985b8b54
+            part: title
+          zh:
+            page: zh
+            section: s-1c9453379a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fd985b8b54
+            part: body
+          zh:
+            page: zh
+            section: s-1c9453379a
+            part: body
+        sourceIds:
+          - col
+          - erinjery2017
+          - grunstra2018
+      - id: forest-occupancy
+        title:
+          en:
+            page: en
+            section: s-b9900b8ee7
+            part: title
+          zh:
+            page: zh
+            section: s-fe72241923
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b9900b8ee7
+            part: body
+          zh:
+            page: zh
+            section: s-fe72241923
+            part: body
+        sourceIds:
+          - erinjery2017
+      - id: road-counts
+        title:
+          en:
+            page: en
+            section: s-0c2ca75c22
+            part: title
+          zh:
+            page: zh
+            section: s-f127fc6c12
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0c2ca75c22
+            part: body
+          zh:
+            page: zh
+            section: s-f127fc6c12
+            part: body
+        sourceIds:
+          - erinjery2017
+      - id: human-use-sites
+        title:
+          en:
+            page: en
+            section: s-445b1cafba
+            part: title
+          zh:
+            page: zh
+            section: s-80f6737e57
+            part: title
+        text:
+          en:
+            page: en
+            section: s-445b1cafba
+            part: body
+          zh:
+            page: zh
+            section: s-80f6737e57
+            part: body
+        sourceIds:
+          - erinjery2017
+      - id: craniodental-comparison
+        title:
+          en:
+            page: en
+            section: s-04679b1f6d
+            part: title
+          zh:
+            page: zh
+            section: s-8de0f065bd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-04679b1f6d
+            part: body
+          zh:
+            page: zh
+            section: s-8de0f065bd
+            part: body
+        sourceIds:
+          - grunstra2018
+      - id: remaining-questions
+        title:
+          en:
+            page: en
+            section: s-833aaec7ce
+            part: title
+          zh:
+            page: zh
+            section: s-5028d84fee
+            part: title
+        text:
+          en:
+            page: en
+            section: s-833aaec7ce
+            part: body
+          zh:
+            page: zh
+            section: s-5028d84fee
+            part: body
+        sourceIds:
+          - erinjery2017
+    readerSources:
+      - id: col
+        referenceId: ref-ab4fe3e2-5f4e-8db8-a130-e3c2a8c5023a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            en: Pinned accepted-name record only; not evidence for current distribution or status.
+            zh: 仅为固定版本接受名记录，不作为当前分布或保育状态的证据。
+      - id: erinjery2017
+        referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Bounded local surveys and historical site comparisons; not a species-wide current census.
+            zh: 范围有限的地方调查与历史地点比较，不是全物种当前普查。
+      - id: grunstra2018
+        referenceId: ref-50af144b-dba6-8939-ac97-7a548e4fcc55
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Interspecific comparison of 711 museum specimens across 12 species; 79 were M. radiata.
+            zh: 12 种猕猴 711 件博物馆标本的种间比较；其中 79 件为 M. radiata。
+    readerRelatedPages:
+      - targetId: macaca_mulatta
+        label:
+          en: Rhesus macaque
+          zh: 恒河猴
+        context:
+          en: Compare another Macaca species page.
+          zh: 对照另一篇猕猴属物种页。
+      - targetId: macaca_silenus
+        label:
+          en: Lion-tailed macaque
+          zh: 狮尾猕猴
+        context:
+          en: Compare another Macaca species page.
+          zh: 对照另一篇猕猴属物种页。
+    readerLimitations:
+      en:
+        page: en
+        section: s-e6b40c65b1
+        part: body
+      zh:
+        page: zh
+        section: s-46a07c0cd0
+        part: body
+    confidence: medium
+    referenceIds:
+      - col-2026-checklistbank-316115
+      - erinjery-kumar-kumara-2017-bonnet-macaque-roadside
+      - dixit-zachariah-2018-bonnet-macaque-phylogeography
+    traitsAssessmentStatus: not-assessed
+  claims:
+    - subjectId: taxon:macaca_radiata
+      claimKind: scientific
+      claimType: ecology
+      statement: Along the surveyed roadsides connecting Mysore, India, reported total counts fell from 889 bonnet macaques in 2003 to 407 in 2015 (46% of the earlier count). The January–February 2015 resurvey covered 464 km, and roadside strips were defined within 15 m from the road centre on each side. These local roadside counts are not a species-wide abundance estimate or a causal test.
+      confidence: medium
+      confidenceRationale: The primary paper reports the roadside counts, survey interval and route distance directly. The sample is local and habitat-specific, so it does not estimate the full species population or independently establish why counts changed.
+      referenceLinks:
+        - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
+          relation: supports
+          quoteLocator: Methods §2.6 Roadside survey; Results §3.5.1 Population dynamics.
+    - subjectId: taxon:macaca_radiata
+      claimKind: scientific
+      claimType: ecology
+      statement: In the Parambikulam landscape of Kerala, the study detected 54 bonnet macaque groups in 33 of 64 sampled grid cells. A single-season occupancy model estimated mean cell occupancy at 0.51 ± 0.08 (SE) and detection probability at 0.25 ± 0.05 (SE). These are modelled results for one forest survey, not species-wide forest occupancy or abundance.
+      confidence: medium
+      confidenceRationale: The paper directly reports detections, the sampled grid count and model estimates. The estimate is limited to one forest landscape and its sampling/model frame.
+      referenceLinks:
+        - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
+          relation: supports
+          quoteLocator: Methods §§2.3–2.4; Results §3.2 Occupancy modelling of bonnet macaques in forest areas.
+    - subjectId: taxon:macaca_radiata
+      claimKind: scientific
+      claimType: ecology
+      statement: In its 2009–2015 temple/tourist-site comparison and historical site records, the study reported bonnet macaques at about 31% of assessed locations, reappearance after translocation in about 20% of cases, and elimination or disappearance at more than 48%. This is a historical site-status summary, not current range-wide occupancy or abundance.
+      confidence: medium
+      confidenceRationale: The article reports these proportions from its temple/tourist-site comparison, but the evidence is a historical site-status and encounter-rate sample rather than a current population survey across the species range.
+      referenceLinks:
+        - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
+          relation: supports
+          quoteLocator: Methods §2.5 Survey of temple sites/tourist spots; Results §3.4.
+    - subjectId: taxon:macaca_radiata
+      claimKind: scientific
+      claimType: ecology
+      statement: For the surveyed southern Indian landscapes, the authors proposed selected vegetated hillocks and temple/tourist locations as possible conservation reserves, based partly on local roadside persistence at Chamundi Hill and declines on other monitored roads. This is a 2017 study recommendation, not a statutory designation, current threat category or range-wide recovery plan.
+      confidence: medium
+      confidenceRationale: The paper explicitly makes this recommendation from monitored Mysore roadside sites. Its local evidence and 2017 date do not establish current formal status, legal designation or a range-wide conservation plan.
+      referenceLinks:
+        - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
+          relation: supports
+          quoteLocator: Results §3.5.1; Discussion, conservation recommendation for hillocks and selected temple/tourist locations.
+    - subjectId: taxon:macaca_radiata
+      claimKind: scientific
+      claimType: taxonomy
+      statement: COL26.8 ChecklistBank dataset 316115 accepts Macaca radiata (É. Geoffroy Saint-Hilaire, 1812) as species usage 3WWP2 (source dataset 2144), with accepted parent Macaca usage 5HYC. This identifies the pinned checklist usage; it does not independently review biological circumscription.
+      confidence: medium
+      confidenceRationale: Pinned COL26.8 dataset records this accepted species usage, source checklist and accepted parent directly. The claim is limited to that checklist classification.
+      referenceLinks:
+        - referenceId: col-2026-checklistbank-316115
+          relation: supports
+          quoteLocator: Accepted species usage 3WWP2; accepted status, sourceDatasetId 2144 and parentId 5HYC.
+    - subjectId: taxon:macaca_radiata
+      claimKind: scientific
+      claimType: biogeography
+      statement: The selected 2017 study sampled roads connected to Mysore, Karnataka, forest grid cells in the Parambikulam landscape of Kerala, and temple/tourist locations in southern India. These are locations from bounded sampling contexts, not a full current species-range boundary.
+      confidence: medium
+      confidenceRationale: The article names these local sampling contexts. It does not inventory the present or historical full species range.
+      referenceLinks:
+        - referenceId: erinjery-kumar-kumara-2017-bonnet-macaque-roadside
+          relation: supports
+          quoteLocator: Methods §§2.3, 2.5–2.6; Results §§3.2, 3.4–3.5.
+    - subjectId: taxon:macaca_radiata
+      claimKind: scientific
+      claimType: evolution
+      statement: In a 2018 phylogeographic analysis of 82 fecal-derived Macaca radiata mitochondrial D-loop sequences sampled across 16 southern Indian locations, sampled wet-zone and dry-zone individuals did not form separate mtDNA clades, haplotypes showed no geographic clustering, and isolation by distance was weak and not significant (r = 0.298, p = 0.09). This single mitochondrial-marker result does not represent nuclear or genome-wide variation; the authors' proposed human-mediated translocation explanation is a hypothesis, not a demonstrated cause.
+      confidence: medium
+      confidenceRationale: "The peer-reviewed paper reports the host D-loop sampling frame and these population-structure results. Confidence is bounded to that mitochondrial marker and sample: it does not establish nuclear or genome-wide structure, a full range-wide pattern, or the authors' proposed human-mediated cause."
+      referenceLinks:
+        - referenceId: dixit-zachariah-2018-bonnet-macaque-phylogeography
+          relation: supports
+          quoteLocator: Methods—Host molecular data using fecal samples; Results—Phylogenetic analysis of host and Host haplotype network and IBD model; Discussion—Phylogeography of M. radiata.
+  claim-rationales.zh:
+    - 论文直接报告了特定道路路段的局地计数与复查距离；该范围受地点和栖息环境限制，不能作为全物种种群估计或单独的因果检验。
+    - 论文直接报告单一森林景观中的网格检测与占域模型结果；该估计受局地采样及模型范围限制，不代表全物种森林占域或丰度。
+    - 论文报告的是历史寺庙/旅游点地点状态比例，不是当前调查或全分布区占域与丰度估计。
+    - 这是 2017 年研究基于迈索尔监测路段提出的局地建议，不等于现行正式保护等级、法定保护地或全分布区恢复计划。
+    - 固定版 COL26.8 ChecklistBank 数据集 316115 将 Macaca radiata（É. Geoffroy Saint-Hilaire，1812）接受为物种用名 3WWP2（来源清单 2144），其已接受父级为 Macaca 用名 5HYC。该声明标识固定清单中的分类用名，不独立评估生物学 circumscription。
+    - 所选 2017 年研究在印度卡纳塔克邦迈索尔相连道路、喀拉拉邦 Parambikulam 景观的森林网格，以及南印度寺庙/旅游点取样。这些是有界调查样区，不是当前物种完整分布边界。
+    - 同行评审论文报告了宿主 D-loop 的取样范围及相应种群结构结果。结论仅限于该线粒体标记和样本，不能证明核基因组或全基因组结构、全分布区格局，也不能证明作者提出的人为转移因果解释。
+  claim-statements.zh:
+    - 在印度迈索尔相连道路的调查路段，路旁总计数从 2003 年的 889 只降至 2015 年的 407 只（为早期计数的 46%）。2015 年 1 月至 2 月的复查覆盖 464 公里；路旁调查带按道路中心线两侧各 15 米界定。这些局地计数不是全物种丰度估计，也不能单独检验下降原因。
+    - 在喀拉拉邦 Parambikulam 景观，研究者在 64 个抽样网格中的 33 个网格检测到 54 个冠猕猴群体。单季占域模型估计网格平均占域率为 0.51 ± 0.08（标准误），检测概率为 0.25 ± 0.05（标准误）。这些是一个森林调查的模型结果，不代表全物种森林占域或丰度。
+    - 在其 2009–2015 年寺庙/旅游点比较及历史地点记录中，研究报告约 31% 的调查地点发现冠猕猴；转移后约 20% 的地点重新出现，超过 48% 的地点则被清除或消失。这是历史地点状态汇总，不是当前全分布区占域或丰度。
+    - 针对所调查的南印度景观，作者建议将部分植被良好的小山丘和寺庙/旅游点作为潜在保护地；建议部分依据是 Chamundi Hill 局地路边种群持续存在、其他受监测道路出现下降。这是 2017 年研究建议，不是法定保护地、现行威胁等级或全分布区恢复计划。
+    - 固定版 COL26.8 ChecklistBank 数据集 316115 将 Macaca radiata（É. Geoffroy Saint-Hilaire，1812）接受为物种用名 3WWP2（来源清单 2144），其已接受父级为 Macaca 用名 5HYC。该声明标识固定清单中的分类用名，不独立评估物种的生物学界定。
+    - 所选 2017 年研究在印度卡纳塔克邦迈索尔相连道路、喀拉拉邦 Parambikulam 景观的森林网格，以及南印度寺庙/旅游点取样。这些是有界调查样区，不是当前物种完整分布边界。
+    - 在一项 2018 年的系统地理研究中，研究者分析了来自印度南部 16 个地点的 82 份冠猕猴粪便样本衍生线粒体 D-loop 序列；样本中的湿区和旱区个体没有形成分开的 mtDNA 支系，单倍型未见地理聚集，隔离随距离关系较弱且不显著（r = 0.298，p = 0.09）。这项单一线粒体标记研究不能代表核基因组或全基因组变异；作者提出的人为转移解释仍是假说，研究并未证明其因果。
+  ranges:
+    - entityId: macaca_radiata
+      rangeKind: global-composite
+      taxonomicConcept: Macaca radiata accepted usage 3WWP2; numerical temporal range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; no audited fossil-range endpoint is asserted for this selected living-taxon route.
+      evidenceBasis: The pinned COL26.8 checklist supports accepted identity and classification only; the selected local roadside study does not establish a fossil range or a wild-distribution inventory.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: col-2026-checklistbank-316115
+          locator: COL26.8 dataset 316115; accepted usage 3WWP2 and parent classification (identity/classification only)
+  field-claim-overrides:
+    - firstAppearance:
+        status: not-assessed
+      lastAppearance:
+        status: not-assessed
+      geography:
+        claimId: claim:taxon:macaca_radiata:biogeography-study-sites-2017
+      overview:
+        claimId: claim:taxon:macaca_radiata:biogeography-study-sites-2017
+      evidenceSummary:
+        claimId: claim:taxon:macaca_radiata:biogeography-study-sites-2017
+      confidence:
+        claimId: claim:taxon:macaca_radiata:biogeography-study-sites-2017
+      ecology.diet:
+        status: not-assessed
+      ecology.habitat:
+        claimId: claim:taxon:macaca_radiata:ecology-parambikulam-occupancy-2017
+      ecology.locomotion:
+        status: not-assessed
+      ecology.bodySize:
+        status: not-assessed
+      ecology.guild:
+        status: not-assessed

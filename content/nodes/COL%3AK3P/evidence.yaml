@@ -1,0 +1,374 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paradoxurinae
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      zh: Paradoxurinae
+      en: Paradoxurinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-a4684356a3
+            part: body
+          en:
+            page: en
+            section: s-a39d27381d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-057e6bb1dc
+            part: body
+          en:
+            page: en
+            section: s-c85e6bc497
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-0a9bf24df9
+            part: body
+          en:
+            page: en
+            section: s-632be529c6
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-b4e838d7bc
+            part: body
+          en:
+            page: en
+            section: s-ee7021e333
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-26eaee5c53
+            part: body
+          en:
+            page: en
+            section: s-a9a86e7121
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-2ee487990a
+            part: body
+          en:
+            page: en
+            section: s-06f2666858
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-701398985e
+            part: body
+          en:
+            page: en
+            section: s-c4c0fe6527
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-c905d723fa
+            part: body
+          en:
+            page: en
+            section: s-2628d4fd55
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-a69608aa51
+            part: body
+          en:
+            page: en
+            section: s-ff70a30389
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Paradoxurinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/K3P
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 5 authored entries grouped under Paradoxurinae by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 6 authored same-name records placed under Paradoxurinae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 7 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 7
+            foraging: 7
+            activity: 7
+          readingTargets:
+            - name: Arctictis binturong
+              colId: 5VRMH
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5VRMH
+            - name: Arctogalidia trivirgata
+              colId: GB34
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AGB34
+            - name: Macrogalidia musschenbroekii
+              colId: 3X52R
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3X52R
+            - name: Paguma larvata
+              colId: 75KD7
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A75KD7
+            - name: Paradoxurus zeylonensis
+              colId: 75P5J
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A75P5J
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Paradoxurinae by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 3X52R
+              name: Macrogalidia musschenbroekii
+              canonicalPath: content/nodes/COL%3A3X52R
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 4 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 5VRMH
+              name: Arctictis binturong
+              canonicalPath: content/nodes/COL%3A5VRMH
+            - colId: GB34
+              name: Arctogalidia trivirgata
+              canonicalPath: content/nodes/COL%3AGB34
+            - colId: 75KD7
+              name: Paguma larvata
+              canonicalPath: content/nodes/COL%3A75KD7
+            - colId: 75P5J
+              name: Paradoxurus zeylonensis
+              canonicalPath: content/nodes/COL%3A75P5J
+          fieldAccountCounts:
+            gestation(mo): 2
+            newborn(g): 1
+            weaning(mo): 2
+            wean mass(g): 1
+            AFR(mo): 2
+            max. life(mo): 3
+            litter size: 4
+            litters/year: 3
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-ae28ee1149
+        part: body
+      en:
+        page: en
+        section: s-31b04c19d5
+        part: body

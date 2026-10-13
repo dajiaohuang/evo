@@ -1,0 +1,118 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnodynastes peronii
+  displayName: Limnodynastes peronii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDGZ
+  sourceIndexes:
+    - name:
+        en: Limnodynastes peronii
+        zh: Limnodynastes peronii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDGZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/41
+            queryName: Limnodynastes peronii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 135
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/242
+            queryName: Cystignathus peronii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/243
+            queryName: Wagleria peronii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/244
+            queryName: Limnodynastes kreffti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/245
+            queryName: Borborocoetes peronii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/246
+            queryName: Limnodynastes krefti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/247
+            queryName: Limnodynastes lineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/181
+            queryName: Limnodynastes peronii krefftii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/182
+            queryName: Limnodynastes peronii peronii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/183
+            queryName: Limnodynastes peronii lineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db435a2fbc
+      - s-200f6f97b2
+      - s-089420b4d8
+      - s-4f37a492bf
+      - s-a6c469ef6f
+      - s-750c85296a
+      - s-e9978cd120
+      - s-b30e4da51f
+      - s-9d90072145
+      - s-1325d6e80a
+      - s-52d669d891
+      - s-67b5d7f372
+    zh:
+      - s-9dc882ffaf
+      - s-884b51eefe
+      - s-352caff628
+      - s-dba0775444
+      - s-6624c2473a
+      - s-09a55c9159
+      - s-eb84efc7e6
+      - s-ad1d687f95
+      - s-6fe97b8164
+      - s-1bd75a9dc0
+      - s-dd15cd2e44
+      - s-7a9e813586

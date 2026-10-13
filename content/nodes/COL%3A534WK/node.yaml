@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Strongylopus fasciatus
+  displayName: Strongylopus fasciatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/534WK
+  sourceIndexes:
+    - name:
+        en: Strongylopus fasciatus
+        zh: Strongylopus fasciatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 534WK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/339
+            queryName: Strongylopus fasciatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/472
+            queryName: Rana fasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/473
+            queryName: Stronglylopus fasciatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/230
+            queryName: Rana fasciata fasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/231
+            queryName: Strongylopus fasciatus fasciatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2210728475
+      - s-5c308a79af
+      - s-2f973602e6
+      - s-bee4e8f10d
+      - s-0c3185df44
+      - s-a305c6c5b2
+      - s-d5f3b8866e
+      - s-8c90f6d486
+      - s-32cda02ab5
+      - s-c75c93623f
+      - s-f691162b82
+      - s-1084e82794
+      - s-a4c589fbdd
+      - s-42b6f8bc0b
+      - s-6e6007d663
+      - s-a9fbd2aff6
+    zh:
+      - s-65e4c978bc
+      - s-6cae43f0c6
+      - s-736a6e495a
+      - s-dd29df59a9
+      - s-b484f573ab
+      - s-5d0364e0e6
+      - s-5acbca325e
+      - s-6c4ddcc07e
+      - s-ff1e50de55
+      - s-4fd12cf31d
+      - s-9e36743a82
+      - s-82aee819c7
+      - s-fc475e5bb0
+      - s-c1ad8553f0
+      - s-9d372898a6
+      - s-160683577c

@@ -1,0 +1,225 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boverisuchus vorax
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Boverisuchus vorax
+      en: Boverisuchus vorax
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-28c6bb17e9
+            part: body
+          en:
+            page: en
+            section: s-1602ea40bd
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-92047a533c
+            part: body
+          en:
+            page: en
+            section: s-5e72c88563
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-524228b70a
+            part: body
+          en:
+            page: en
+            section: s-9ad8bc7d5a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-da83c1a1d2
+            part: body
+          en:
+            page: en
+            section: s-4881daa1f6
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3f1fd23f28
+            part: body
+          en:
+            page: en
+            section: s-b52f8f3605
+            part: body
+    sources:
+      - id: pbdbCrocodylomorphTaxonomy20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Boverisuchus vorax
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=110999&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbCrocodylomorphOccurrences20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:110999; original response record indices retained in data/sources/crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: c4a662dc45be8020da61b782b38d37ab583c35a2e4bdf978ceca29e010472ca1
+          pbdbTaxonId: txn:110999
+          selectedOccurrenceIds:
+            - occ:286255
+            - occ:286296
+            - occ:519761
+            - occ:650098
+            - occ:650099
+            - occ:1132848
+            - occ:1132849
+            - occ:1132850
+            - occ:1132851
+            - occ:1132852
+            - occ:1132853
+            - occ:1353412
+          selectedCollectionIds:
+            - col:27268
+            - col:15837
+            - col:16396
+            - col:16270
+            - col:16273
+            - col:15718
+            - col:16228
+            - col:16236
+            - col:16279
+            - col:144195
+            - col:144196
+            - col:16000
+          sourceReferenceIds:
+            - ref:7542
+            - ref:1741
+            - ref:3806
+            - ref:46624
+            - ref:3438
+          originalIdentificationMappings:
+            - occurrenceId: occ:286255
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:286296
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:519761
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:650098
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:650099
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:1132848
+              originalIdentifiedName: Crocodylus vorax n. sp.
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:1132849
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:1132850
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:1132851
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:1132852
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:1132853
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+            - occurrenceId: occ:1353412
+              originalIdentifiedName: Pristichampsus vorax
+              acceptedName: Boverisuchus vorax
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0a6e8b2523
+        part: body
+      en:
+        page: en
+        section: s-2cc15cf462
+        part: body

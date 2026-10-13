@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spinomantis guibei
+  displayName: Spinomantis guibei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Z5RY
+  sourceIndexes:
+    - name:
+        en: Spinomantis guibei
+        zh: Spinomantis guibei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Z5RY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/279
+            queryName: Spinomantis guibei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/180
+            queryName: Mantidactylus guibei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/56
+            queryName: Gephyromantis elegans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-09d9433234
+      - s-abc008cf8d
+      - s-159b45c5cf
+      - s-62d19e3bc3
+      - s-8f0fc183ae
+      - s-2b34c587f0
+      - s-5239f67f48
+      - s-9bd0a668c8
+    zh:
+      - s-abc72f58d9
+      - s-ccc2d9fd3e
+      - s-c8af9a7a04
+      - s-96ecaf31c0
+      - s-ce9e0ce388
+      - s-1abdd8d302
+      - s-f3bfe2f83f
+      - s-eea31fc533

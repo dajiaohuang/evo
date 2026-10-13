@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis nokrekensis
+  displayName: Ichthyophis nokrekensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5S7
+  sourceIndexes:
+    - name:
+        en: Ichthyophis nokrekensis
+        zh: Ichthyophis nokrekensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5S7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/418
+            queryName: Ichthyophis nokrekensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7ea3605995
+      - s-500659b9ae
+      - s-076cf0b1e0
+      - s-92f84ba9ce
+      - s-460a459cb8
+      - s-6f68d36f2f
+      - s-a6000bf3c7
+      - s-b53d4c6172
+    zh:
+      - s-0b77a2aaa3
+      - s-c6b26fa157
+      - s-03dfb9e5ce
+      - s-35975c2d87
+      - s-b4b9a6f3d7
+      - s-02167d7451
+      - s-71d8a011f8
+      - s-656ce5f1de

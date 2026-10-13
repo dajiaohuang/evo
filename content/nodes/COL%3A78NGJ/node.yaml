@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena gansi
+  displayName: Ptychadena gansi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78NGJ
+  sourceIndexes:
+    - name:
+        en: Ptychadena gansi
+        zh: Ptychadena gansi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78NGJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/468
+            queryName: Ptychadena gansi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/25
+            queryName: Rana gansi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1aaebd62fc
+      - s-1eddd26a8f
+      - s-78073c9ed2
+      - s-9695d7307d
+      - s-75a7d136cf
+      - s-33f14b5937
+      - s-8b5033e966
+    zh:
+      - s-f25d587c36
+      - s-aa72741d6c
+      - s-dec53c5475
+      - s-f4116a112a
+      - s-856eac6e4b
+      - s-31c67202a0
+      - s-9bf71dd789

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis kareliae
+  displayName: Pristimantis kareliae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJFW
+  sourceIndexes:
+    - name:
+        en: Pristimantis kareliae
+        zh: Pristimantis kareliae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJFW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/336
+            queryName: Pristimantis kareliae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/362
+            queryName: Eleutherodactylus kareliae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9f600c52ce
+      - s-5eb93c2833
+      - s-4d6920ed8a
+      - s-a54c42d867
+      - s-6fc9daa253
+      - s-c501ae1fec
+      - s-b36d30f7ee
+    zh:
+      - s-2272acd388
+      - s-5b0e525523
+      - s-cddea5e935
+      - s-70d27dc3be
+      - s-72ba771269
+      - s-5c4cae46a4
+      - s-34cea09e18

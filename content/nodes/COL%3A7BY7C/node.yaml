@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thoropa lutzi
+  displayName: Thoropa lutzi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7BY7C
+  sourceIndexes:
+    - name:
+        en: Thoropa lutzi
+        zh: Thoropa lutzi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7BY7C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/64
+            queryName: Thoropa lutzi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/455
+            queryName: Eupsophus lutzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a006a844d8
+      - s-a98891cb3d
+      - s-5de9eb4b65
+      - s-6f00d9796b
+      - s-84a95d1986
+      - s-8f9d4e8fa0
+      - s-3469ffc5d7
+      - s-166971b1c8
+      - s-c02681614b
+      - s-e488c1f6a0
+      - s-6cdf18d074
+      - s-34c80c877b
+      - s-1b29f7087a
+      - s-99cb248f19
+      - s-0691b7ae2f
+      - s-a7eeabf509
+      - s-44994e83cf
+    zh:
+      - s-340cad7aa5
+      - s-cd659a4bd2
+      - s-305aae944c
+      - s-ededfc1033
+      - s-7ec6dab622
+      - s-e9c1dfae7d
+      - s-5aa88e3cee
+      - s-14d96f185c
+      - s-4067587524
+      - s-bad539519a
+      - s-f1ee599aad
+      - s-b1c2a8ca3e
+      - s-7aac41e38f
+      - s-f52053c8a0
+      - s-dc792c6c90
+      - s-9df4875ccc
+      - s-aa0c32047a

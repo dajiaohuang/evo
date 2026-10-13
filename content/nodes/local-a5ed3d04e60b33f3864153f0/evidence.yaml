@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Phrynomedusa marginata
+    name:
+      en: Phrynomedusa marginata
+      zh: Phrynomedusa marginata
+    sourceClassification:
+      order: Anura
+      family: Phyllomedusidae
+      genus: Phrynomedusa
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Phrynomedusa marginata in the morphology deposit
+          zh: 形态数据中的 Phrynomedusa marginata 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c577a23476
+            part: body
+          zh:
+            page: zh
+            section: s-dc9a079e4a
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4261: measurement fields and sex codes"
+          zh: 第 4261 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5746d40afd
+            part: body
+          zh:
+            page: zh
+            section: s-5b95ab3cdc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4261; Reference.csv rows 2909
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4261
+        values:
+          - Phyllomedusidae
+          - Phrynomedusa
+          - Phrynomedusa marginata
+          - M
+          - "28"
+          - "9"
+          - "11"
+          - "4"
+          - "1.5"
+          - NA
+          - "4.5"
+          - NA
+          - NA
+          - "3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2909
+        values:
+          - Anura
+          - Phrynomedusa_marginata
+          - "Baêta, D., Giasson, L., Pombal, J., & Haddad, C. (2016). Review of the Rare Genus Phrynomedusa Miranda-Ribeiro, 1923 (Anura: Phyllomedusidae) With Description of a New Species. Herpetological Monographs, 30, 49-78. https://doi.org/10.1655/HERPMONOGRAPHS-D-15-00009.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - EN
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4GWLV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

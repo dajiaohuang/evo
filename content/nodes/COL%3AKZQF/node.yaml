@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachoseps diabolicus
+  displayName: Batrachoseps diabolicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZQF
+  sourceIndexes:
+    - name:
+        en: Batrachoseps diabolicus
+        zh: Batrachoseps diabolicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZQF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/393
+            queryName: Batrachoseps diabolicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c6fb96c59a
+      - s-15c41ef57d
+      - s-7fe2f74f9b
+      - s-57a89cc598
+      - s-1d233a44ad
+      - s-593fd0a654
+      - s-f9abce70f5
+      - s-682cd0b189
+      - s-aeb25ccc78
+    zh:
+      - s-8498e05c2f
+      - s-472841d65f
+      - s-047bda6f94
+      - s-112becd954
+      - s-5e64d5bd67
+      - s-57c8053c70
+      - s-d656af9968
+      - s-3c22dcac1f
+      - s-2988fd385d

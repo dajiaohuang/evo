@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Turnera lanceolata? {#s-7c2c7413b1}
+The branches have simple hairs. Narrowly ovate, linear or lance-shaped leaves bear stipules, petioles and extrafloral nectaries. Their edges may be finely toothed or entire, and both surfaces are hairy. Inflorescences may be racemes or single flowers borne on leaves; peduncles and bracteoles are present, but pedicels are absent. The yellow corolla lacks a corona, and filaments join the floral tube at the base. Styles are heterostylous. The fruit exocarp is smooth; seeds are net-veined and papillose, with a blunt or slightly raised chalaza.
+

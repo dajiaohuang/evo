@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus pedimarmoratus
+  displayName: Atelopus pedimarmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J923
+  sourceIndexes:
+    - name:
+        en: Atelopus pedimarmoratus
+        zh: Atelopus pedimarmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J923
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/301
+            queryName: Atelopus pedimarmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7f8424590d
+      - s-0cd71f8fcd
+      - s-459eb00964
+      - s-0f533ee154
+      - s-c463d8351e
+      - s-4716530632
+      - s-ffb7a308ef
+      - s-a09d685133
+      - s-4bd9b797a5
+      - s-c8e6d0a9f2
+    zh:
+      - s-323d226580
+      - s-10af132af3
+      - s-649194a024
+      - s-ae520d7fde
+      - s-37b52408bd
+      - s-636ab236f7
+      - s-ac10190113
+      - s-3f8abfcaea
+      - s-8274cf2e8f
+      - s-41c0608524

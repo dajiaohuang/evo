@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrobatidae Cope, 1865
+  displayName: Dendrobatidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/93G
+  sourceIndexes:
+    - name:
+        en: Dendrobatidae
+        zh: Dendrobatidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 93G
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/107
+            queryName: Dendrobatidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 581
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-06c48e80af
+      - s-f70b8d4bfc
+      - s-716b1d1f3b
+      - s-fb6daecb40
+      - s-2962e0e299
+      - s-e2268e9fd0
+      - s-4a086ad97a
+    zh:
+      - s-9f94c27975
+      - s-ddbf5b6955
+      - s-f966db3db9
+      - s-63273d833a
+      - s-96f22ca366
+      - s-0de223f0ce
+      - s-39ab56faaa

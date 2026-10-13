@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Exerodonta melanomma
+  displayName: Exerodonta melanomma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DKP4
+  sourceIndexes:
+    - name:
+        en: Exerodonta melanomma
+        zh: Exerodonta melanomma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DKP4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/449
+            queryName: Exerodonta melanomma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/186
+            queryName: Hyla melanomma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 164
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/312
+            queryName: Exerodonta melanoma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/415
+            queryName: Hyla melanomma melanomma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2fa9b7c7f3
+      - s-12714edf73
+      - s-50ff10fc2c
+      - s-638fb2cfdf
+      - s-4013103eda
+      - s-16331acef8
+      - s-e7c6b94863
+      - s-548cd056eb
+      - s-8549354cb4
+      - s-e4f0d12f13
+      - s-6359b5a1cc
+    zh:
+      - s-581dfe23dd
+      - s-7ab8a23913
+      - s-9ff421ae66
+      - s-54cc50ff11
+      - s-35fffb2fee
+      - s-16d7781b0c
+      - s-1c26bb9d00
+      - s-7168e4af98
+      - s-6b7f16e06b
+      - s-7764864f2c
+      - s-6079bc2aa2

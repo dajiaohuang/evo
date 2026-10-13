@@ -1,0 +1,85 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plecturocebus toppini (Thomas, 1914)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 托平绢毛猴
+      en: Toppin's Titi
+    sections:
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-74a5d4eb4a
+            part: body
+          en:
+            page: en
+            section: s-d1b2380bbe
+            part: body
+        sourceIds:
+          - vermeer2015
+          - taxonomy
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-1265905d59
+            part: body
+          en:
+            page: en
+            section: s-9c0eafc573
+            part: body
+        sourceIds:
+          - vermeer2015
+          - mdd_name
+          - taxonomy
+    sources:
+      - id: vermeer2015
+        referenceId: ref-5728f378-3b91-84d0-a3d6-fcceca9ec771
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持作者 2013 年局地调查、样本比较、恢复 toppini 分类及其工作性分布假说；不是全分布区普查。
+            en: Supports the authors' 2013 local survey, specimen comparisons, reinstatement of toppini and working distribution hypothesis; not a full-range census.
+      - id: mdd_name
+        referenceId: ref-a86eb42d-f997-8b35-af0c-26c8a5c3720c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅支持英文普通名及名录入口；中文名为编辑翻译，生物学内容采用专门物种研究。
+            en: Supports the English common name and catalogue entry only; the Chinese name is an editorial translation, and biological content uses the species study.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4K5YH
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-6da66ecebe
+        part: body
+      en:
+        page: en
+        section: s-8efb04f998
+        part: body

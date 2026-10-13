@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes ravii Zachariah, Dinesh, Kunhikrishnan, Das, Raju, Radhakrishnan, Palot & Kalesh, 2011
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes ravii
+      zh: Raorchestes ravii
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-60837fd7e6
+            part: title
+          zh:
+            page: zh
+            section: s-de130744ae
+            part: title
+        text:
+          en:
+            page: en
+            section: s-60837fd7e6
+            part: body
+          zh:
+            page: zh
+            section: s-de130744ae
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d812ab7ec2
+            part: title
+          zh:
+            page: zh
+            section: s-67f1a96277
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d812ab7ec2
+            part: body
+          zh:
+            page: zh
+            section: s-67f1a96277
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-80325c4d2a
+            part: title
+          zh:
+            page: zh
+            section: s-e02a46db50
+            part: title
+        sourceIds:
+          - primary-pmc7936570-794s4
+        text:
+          en:
+            page: en
+            section: s-80325c4d2a
+            part: body
+          zh:
+            page: zh
+            section: s-e02a46db50
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e02de214ff
+            part: title
+          zh:
+            page: zh
+            section: s-41ec6cdfbe
+            part: title
+        sourceIds:
+          - primary-pmc7936570-794s4
+        text:
+          en:
+            page: en
+            section: s-e02de214ff
+            part: body
+          zh:
+            page: zh
+            section: s-41ec6cdfbe
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-7ec287f2a5
+            part: title
+          zh:
+            page: zh
+            section: s-993c869ceb
+            part: title
+        sourceIds:
+          - primary-pmc7936570-794s4
+        text:
+          en:
+            page: en
+            section: s-7ec287f2a5
+            part: body
+          zh:
+            page: zh
+            section: s-993c869ceb
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-548480069d
+            part: title
+          zh:
+            page: zh
+            section: s-d9a270002f
+            part: title
+        sourceIds:
+          - primary-pmc7936570-794s4
+        text:
+          en:
+            page: en
+            section: s-548480069d
+            part: body
+          zh:
+            page: zh
+            section: s-d9a270002f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes ravii
+          url: https://www.checklistbank.org/dataset/316115/taxon/794S4
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7936570-794s4
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes ravii: Previous taxonomic remarks retained; additional directly read table-2 ravii row distinguishes quantitative summaries from the qualitative historical call analogy; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fb482103d9
+        part: body
+      zh:
+        page: zh
+        section: s-35247976ce
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-794s4
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes ravii
+        evidenceRead: "Raorchestes ravii: Previous taxonomic remarks retained; additional directly read table-2 ravii row distinguishes quantitative summaries from the qualitative historical call analogy; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Topotypic specimens clarify an uncertain historical label
+              zh: 模式产地标本有助于厘清历史标签
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-794s4
+            locator: PMC7936570 XML sec12 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9753a66bc5
+                part: body
+              zh:
+                page: zh
+                section: s-c349008b65
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Re-examination found structures absent from the original account
+              zh: 重新检查发现原描述未记载为存在的结构
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-794s4
+            locator: PMC7936570 XML sec12 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dad4d99831
+                part: body
+              zh:
+                page: zh
+                section: s-41162bbb00
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: A qualitative call account is not a measured spectrum
+              zh: 定性鸣声描述不等于实测频谱
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-794s4
+            locator: PMC7936570 XML sec12 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5cd99d96a6
+                part: body
+              zh:
+                page: zh
+                section: s-39d4272b2e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: behavior
+            heading:
+              en: A separate table provides temporal measurements
+              zh: 独立表格另提供了时间结构测量
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-794s4
+            locator: PMC7936570 XML table-2 species row 47; sec7 paragraphs 1–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-455b23d398
+                part: body
+              zh:
+                page: zh
+                section: s-19c17406a8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

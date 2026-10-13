@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Theloderma gordoni
+  displayName: Theloderma gordoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/568HL
+  sourceIndexes:
+    - name:
+        en: Theloderma gordoni
+        zh: Theloderma gordoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 568HL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/11
+            queryName: Theloderma gordoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c153d432c7
+      - s-b97d1705f3
+      - s-e9e6231925
+      - s-5827fb3091
+      - s-eb019a2c4f
+      - s-6a1114e3a3
+      - s-f8fd770a53
+      - s-fffd6c5677
+      - s-3c48d7b53e
+    zh:
+      - s-c6225796ca
+      - s-b4b9ec9d21
+      - s-f889442bbe
+      - s-f76d0a37ce
+      - s-d3cef7bc30
+      - s-97014305d4
+      - s-16a35cec8b
+      - s-0575801376
+      - s-596e347ec1

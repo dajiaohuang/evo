@@ -1,0 +1,3 @@
+## ## Nectar glands and long, woody pods {#s-e7a6fdc4ad}
+Brazilian Flora 2020 records no xylopodium and alternate leaves with 4–9 pairs of ovate to ovate-elliptic leaflets, 1.5–7.5 cm long and 0.8–2.8 cm wide. Extrafloral nectar glands occur on the petiole, rachis and inflorescence. The yellow flowers have ten stamens and petals of one form. At maturity, the valves of the oblong to obovate pod twist; the pod is 11.5–17 cm long and 1.2–1.5 cm wide, with woody valves and prominent veins. Its glossy seeds are depressed-obovoid and brown to very dark brown. The dataset classifies the plant as terrestrial.
+

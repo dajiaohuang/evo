@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paramesotriton longliensis
+  displayName: Paramesotriton longliensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4D377
+  sourceIndexes:
+    - name:
+        en: Paramesotriton longliensis
+        zh: Paramesotriton longliensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4D377
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/416
+            queryName: Paramesotriton longliensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-00fa0d0953
+      - s-0b5d255cd3
+      - s-b52dc4f0ff
+      - s-fa23268ed4
+      - s-cd4f4ef5d3
+      - s-f12acf2432
+      - s-69c1e05638
+      - s-adc15a1984
+      - s-902987acab
+    zh:
+      - s-e7b3e916c5
+      - s-bab585eac7
+      - s-ee2f5f1994
+      - s-900deb04a6
+      - s-b06f1bebf7
+      - s-801e15a90f
+      - s-25d85c9626
+      - s-ae0b7d6076
+      - s-335b2aaaac

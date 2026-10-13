@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudopaludicola florencei
+  displayName: Pseudopaludicola florencei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P5Q9
+  sourceIndexes:
+    - name:
+        en: Pseudopaludicola florencei
+        zh: Pseudopaludicola florencei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P5Q9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/336
+            queryName: Pseudopaludicola florencei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1047786814
+      - s-b8ead39a17
+      - s-d45ba1fc1e
+      - s-ec676534d3
+      - s-a65145c596
+    zh:
+      - s-8e1d19fe6c
+      - s-eef7d0e4d4
+      - s-0622ad68e6
+      - s-7219e62c7b
+      - s-8a23fea5c3

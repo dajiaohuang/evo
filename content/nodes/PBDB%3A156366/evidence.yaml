@@ -1,0 +1,385 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Albanerpeton gracilis
+    rank: species
+    sourceTaxonId: txn:156366
+    name:
+      en: Albanerpeton gracilis
+      zh: Albanerpeton gracilis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-7ed1e80b53
+            part: body
+          zh:
+            page: zh
+            section: s-a082f292ea
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-0a8d8e6232
+            part: body
+          zh:
+            page: zh
+            section: s-3bf3616791
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-2ec19e6443
+            part: body
+          zh:
+            page: zh
+            section: s-97df1b8eed
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:156366; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+    occurrenceEvidence:
+      - occurrenceId: occ:461898
+        collectionId: col:45566
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Lower
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:461932
+        collectionId: col:45567
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Lower
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:464660
+        collectionId: col:45893
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Upper
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:464812
+        collectionId: col:45899
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Upper
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1069417
+        collectionId: col:67872
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1069418
+        collectionId: col:67878
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1069419
+        collectionId: col:67873
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1069420
+        collectionId: col:14466
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Kane
+        stratigraphy:
+          group: null
+          formation: Kaiparowits
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1069421
+        collectionId: col:14489
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Brewster
+        stratigraphy:
+          group: null
+          formation: Aguja
+          member: Alto Shale
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1147022
+        collectionId: col:146193
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Lower
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1147023
+        collectionId: col:146194
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Lower
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1147024
+        collectionId: col:146195
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1147025
+        collectionId: col:146191
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1147026
+        collectionId: col:146196
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1147027
+        collectionId: col:146197
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1147028
+        collectionId: col:146198
+        acceptedTaxonId: txn:156366
+        identifiedName: Albanerpeton gracilis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1390586
+        collectionId: col:47794
+        acceptedTaxonId: txn:156366
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-2ec19e6443
+            part: body
+          zh:
+            page: zh
+            section: s-97df1b8eed
+            part: body
+        sourceIds: []

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis crucifer
+  displayName: Pristimantis crucifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJCJ
+  sourceIndexes:
+    - name:
+        en: Pristimantis crucifer
+        zh: Pristimantis crucifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJCJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/222
+            queryName: Pristimantis crucifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/68
+            queryName: Eleutherodactylus crucifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/357
+            queryName: Hylodes crucifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-870c74d9c6
+      - s-110068e91b
+      - s-c40bd0928f
+      - s-1bf8a9c746
+      - s-9d17473d7a
+      - s-6de6e514e7
+      - s-ece58b38c7
+      - s-096f7dd03f
+      - s-7380bc0d43
+    zh:
+      - s-cdcf544419
+      - s-01715ef832
+      - s-617cb5d4f8
+      - s-e02831df5a
+      - s-07f16be3d6
+      - s-a25c61875d
+      - s-ab8bbb9799
+      - s-f56725fa1c
+      - s-7ea0efd0b0

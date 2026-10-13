@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus kempholeyensis
+  displayName: Nyctibatrachus kempholeyensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74D2G
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus kempholeyensis
+        zh: Nyctibatrachus kempholeyensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74D2G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/350
+            queryName: Nyctibatrachus kempholeyensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/97
+            queryName: Nannobatrachus kempholeyensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dd080ef701
+      - s-7be187c6a8
+      - s-262b71b3cc
+      - s-9d10156191
+      - s-01c9a47045
+      - s-4efdea6dc5
+      - s-c5041825ae
+      - s-f1c4dc1b5f
+      - s-490faf5c01
+      - s-dc1a2037a3
+      - s-04ba547094
+    zh:
+      - s-4ba063c736
+      - s-a67aea321e
+      - s-c5c92a2295
+      - s-e389ae2279
+      - s-35206712d7
+      - s-a38dd8d71e
+      - s-d637ab6058
+      - s-d5292f7405
+      - s-b110a72703
+      - s-4ff5e4e1f7
+      - s-450138786d

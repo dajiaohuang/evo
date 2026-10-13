@@ -1,0 +1,20 @@
+schemaVersion: 1
+identity:
+  kind: topic
+  scientificName: Anancus sinensis
+  displayName: Anancus sinensis
+  sourceIdentity:
+    authority: PBDB
+    oid: txn:161975
+    snapshot: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+  placementStatus: unresolved-navigation-topic
+  sourceIndexes:
+    - scientificName: Anancus sinensis
+      sourceIdentity: PBDB:txn:161975
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators: []
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus wileyi
+  displayName: Nymphargus wileyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486KD
+  sourceIndexes:
+    - name:
+        en: Nymphargus wileyi
+        zh: Nymphargus wileyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486KD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/457
+            queryName: Nymphargus wileyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/60
+            queryName: Cochranella wileyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-813cb94bc0
+      - s-d632187e96
+      - s-d6fc948280
+      - s-7457fd75c1
+      - s-3f04dfbc5e
+      - s-ca9bd08e47
+      - s-f0a861d214
+      - s-5f0e52a217
+      - s-4888211b48
+      - s-af77ef04e6
+      - s-f43c0ddde3
+      - s-4c73b86fc3
+      - s-93eb8d8acd
+      - s-01ad0549df
+      - s-2a660f0360
+      - s-058eb75f27
+      - s-ca0c94b734
+      - s-07c644bd44
+      - s-62c9c43ba6
+    zh:
+      - s-e45ed2572d
+      - s-819cfb65d9
+      - s-e0b39730bc
+      - s-3df561ea00
+      - s-9913cf71b7
+      - s-4d7645d50b
+      - s-74a5a42228
+      - s-deda11fee7
+      - s-baf3d12f43
+      - s-9bf2473c01
+      - s-a559c794ed
+      - s-702642a3f8
+      - s-07e5443b71
+      - s-d7cbb02e0d
+      - s-55f0e7af01
+      - s-c1bfaf8193
+      - s-c010dd6dcc
+      - s-58907a0ae9
+      - s-900e75e9ec

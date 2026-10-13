@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus mesophaeus
+  displayName: Trachycephalus mesophaeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PVZ
+  sourceIndexes:
+    - name:
+        en: Trachycephalus mesophaeus
+        zh: Trachycephalus mesophaeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PVZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/105
+            queryName: Trachycephalus mesophaeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/16
+            queryName: Phrynohyas mesophaea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/163
+            queryName: Hyla mesophaea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6ad4bc882
+      - s-4ae8c35064
+      - s-025bef70cd
+      - s-8a721b80f3
+      - s-059cc1ef52
+      - s-5eef42b392
+      - s-fa0811d7a6
+      - s-ae800360a1
+      - s-9436b23216
+      - s-ce9a186809
+      - s-2bb9349629
+      - s-a22d3bcc78
+      - s-20a3fd1579
+      - s-61004ecae2
+      - s-a21169df37
+      - s-5f8b37c764
+      - s-fdc8aa9a46
+      - s-c7009acd7f
+      - s-b74582230c
+      - s-de303f7e79
+      - s-b127bff23a
+      - s-68c0bd8475
+      - s-9e0d9bc6b2
+      - s-0a415e72a7
+      - s-c23ea7a07b
+      - s-b13393a89b
+    zh:
+      - s-fae2c784b5
+      - s-ca7ff334ed
+      - s-af492d1efe
+      - s-530aada1b3
+      - s-3ca745679c
+      - s-14a89a16a3
+      - s-823fe08142
+      - s-17383495f1
+      - s-23683ac0db
+      - s-a4e9db0f51
+      - s-24abb7ee4f
+      - s-1e204ad777
+      - s-10ca65fa51
+      - s-74797cfeb5
+      - s-900d0f88b0
+      - s-d2b670f619
+      - s-f0378dd2f7
+      - s-78f00f23b5
+      - s-7633383fc4
+      - s-257c7b8519
+      - s-d22d269ff4
+      - s-4645028a99
+      - s-c5d44dee2c
+      - s-cd93500ebb
+      - s-c3c9cbeca1
+      - s-e68d870ac2

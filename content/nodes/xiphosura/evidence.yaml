@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-4f951fc87a
+            part: title
+          zh:
+            page: zh
+            section: s-e5a531ab88
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4f951fc87a
+            part: body
+          zh:
+            page: zh
+            section: s-e5a531ab88
+            part: body
+        claimIds:
+          - claim:taxon:xiphosura
+    scientificName: Xiphosura
+    name:
+      en: Xiphosura
+      zh: Xiphosura
+    rank: order
+  atlas-node:
+    name: Xiphosura
+    commonName: Horseshoe Crabs and Fossil Kin
+    commonNameZh: 鲎类及化石近亲
+    rank: order
+    taxonId: ""
+    firstAppearance: 480
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:xiphosura
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Lamsdell's 2020 revision compares fossil and living horseshoe crabs and discusses an Ordovician record separated from the next Upper Devonian occurrences by a fossil-record gap. This study-linked navigation span is not continuous occupancy, an exact origin date or a complete global range.
+      confidence: medium
+      confidenceRationale: "Horseshoe Crabs and Fossil Kin: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary."
+      referenceLinks:
+        - referenceId: lamsdell-2020-xiphosura
+          relation: supports
+          pages: e10431
+          figure: Figures 1–13; Supplemental matrices
+          quoteLocator: Character matrix; Phylogenetic results; Revised systematics
+  claim-rationales.zh:
+    - 鲎类及化石近亲：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+  claim-statements.zh:
+    - Lamsdell 的 2020 年修订比较化石与现生鲎类，并讨论奥陶纪记录与其后上泥盆统产出之间的化石记录空缺。这一关联研究的导航跨度不表示连续分布、精确起源年代或完整全球延限。
+  ranges:
+    - entityId: xiphosura
+      rangeKind: global-composite
+      taxonomicConcept: Xiphosuran total-group navigation and matrix span
+      geographicScope: Global fossil and living sample
+      olderMa: 480
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Rounded model/navigation envelope; internal topology is contested and this is not uninterrupted occupancy.
+      evidenceBasis: The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:xiphosura-total-group-topology
+      referenceLocators:
+        - referenceId: lamsdell-2020-xiphosura
+          locator: e10431; Figures 1–13; Supplemental matrices; Character matrix; Phylogenetic results; Revised systematics

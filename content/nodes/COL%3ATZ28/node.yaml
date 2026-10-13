@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis hudsoni
+  displayName: Chiasmocleis hudsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ28
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis hudsoni
+        zh: Chiasmocleis hudsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ28
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/250
+            queryName: Chiasmocleis hudsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/337
+            queryName: Chiasmocleis jimi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/221
+            queryName: Syncope hudsoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/205
+            queryName: Syncope jimi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc1c0a8f29
+      - s-1cfcdadfa2
+      - s-0be821908f
+      - s-1689ab90f6
+      - s-b2ffe6e4c7
+      - s-72aec127a3
+      - s-de7de49de2
+      - s-45ec7c2088
+      - s-a7847b0a72
+      - s-5466c266f6
+      - s-159151f2ad
+      - s-1bd34b1052
+      - s-0b649a7a9e
+      - s-17b8c50865
+    zh:
+      - s-23b4fab0e7
+      - s-2d5b887965
+      - s-f9e0d97853
+      - s-7910eb04c8
+      - s-a493bb9e12
+      - s-e300c911cf
+      - s-f5aa34f00b
+      - s-3be836fe4b
+      - s-09022b3a80
+      - s-0979dbe5dd
+      - s-013259fa7e
+      - s-634bb8c0a0
+      - s-43bd4470c0
+      - s-9d080d2d6a

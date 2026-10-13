@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-da3c6e1485}
+The version 3 Amphibian database lists Nyctibatrachus acanthodermis in a source measurement table. Its classification fields read order = Anura, family = Nyctibatrachidae, genus = Nyctibatrachus; the linked citation is in Reference.csv row 891. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-f7408005d1}
+Anura.csv rows 3556, 3557 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 3556 (M) = 60.3, row 3557 (F) = 58.1; HL: row 3556 (M) = 24.4, row 3557 (F) = 23.2; HW: row 3556 (M) = 27.2, row 3557 (F) = 26.4; other populated codes are ED, SL, HAL, FLL, FL, TL, THL, Fin3DW, Toe4DW. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

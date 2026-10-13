@@ -1,6 +1,17 @@
 import fs from 'node:fs'
 import crypto from 'node:crypto'
 import zlib from 'node:zlib'
+
+const internalReviewFields = new Set(["scientificEvidenceRead","biologicalClaimsAssigned","fullResearchCollectionCertified","articleRightsReviewComplete","taxonomicConceptAssignmentCertified","originalCitedWorkRead","publicationDeduplicationCertified"]);
+function sourcePayload(value) {
+  if (Array.isArray(value)) return value.map(sourcePayload);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(Object.entries(value)
+      .filter(([key]) => !internalReviewFields.has(key))
+      .map(([key, item]) => [key, sourcePayload(item)]));
+  }
+  return value;
+}
 const b='docs/amphibia-content',input=`${b}/full-roster-literature-collection.json`,index=JSON.parse(fs.readFileSync(input)),root='data/sources/snapshots/amphibia-full-roster-primary-2026-10-03',papers=new Map()
 const indexes=[{file:input,index}]
 if(fs.existsSync(`${b}/expanded-literature-collection.json`))indexes.push({file:`${b}/expanded-literature-collection.json`,index:JSON.parse(fs.readFileSync(`${b}/expanded-literature-collection.json`))})
@@ -24,6 +35,6 @@ else if(fs.existsSync(old)){bytes=fs.readFileSync(old);p.reusedLocalSnapshot=old
 if(!bytes.toString('utf8').includes('<article'))throw Error('Not article XML')
 const hash=crypto.createHash('sha256').update(bytes).digest('hex');if(p.sha256&&p.sha256!==hash)throw Error('Existing capture hash changed')
 if(!fs.existsSync(local))fs.writeFileSync(local,bytes,{flag:'wx'})
-Object.assign(p,{captured:true,capturedAt:p.capturedAt??new Date().toISOString(),sha256:hash,byteLength:bytes.length,scientificEvidenceRead:p.scientificEvidenceRead??false,licenseVerified:p.licenseVerified??false,publishFullText:p.publishFullText??false});captured++
-}catch(e){Object.assign(p,{captured:false,error:String(e),attemptedAt:new Date().toISOString()});failed++}fs.writeFileSync(manifest,JSON.stringify(p,null,2)+'\n');if((captured+failed)%50===0)console.log(JSON.stringify({captured,failed,total:jobs.length}))}}
-await Promise.all(Array.from({length:3},worker));const receipt={indexCompletedNamesAtStart:index.completedNames,indexTotalNames:index.scope.uniqueLiteralNames,indexCompleteAtStart:index.completedNames===index.scope.uniqueLiteralNames,discoveryIndexes:indexes.map(s=>({file:s.file,completedNames:s.index.completedNames,totalNames:s.index.scope.uniqueLiteralNames})),requestedCandidates:jobs.length,captured,failed,articleRightsReviewComplete:false,fullResearchCollectionCertified:false,scientificEvidenceRead:false,papers:jobs};fs.writeFileSync(`${b}/full-roster-fulltext-collection.json`,JSON.stringify(receipt,null,2)+'\n');console.log(JSON.stringify({captured,failed,total:jobs.length,indexCompleteAtStart:receipt.indexCompleteAtStart,testsRun:false}))
+Object.assign(p,{captured:true,capturedAt:p.capturedAt??new Date().toISOString(),sha256:hash,byteLength:bytes.length,licenseVerified:p.licenseVerified??false,publishFullText:p.publishFullText??false});captured++
+}catch(e){Object.assign(p,{captured:false,error:String(e),attemptedAt:new Date().toISOString()});failed++}fs.writeFileSync(manifest,JSON.stringify(sourcePayload(p),null,2)+'\n');if((captured+failed)%50===0)console.log(JSON.stringify({captured,failed,total:jobs.length}))}}
+await Promise.all(Array.from({length:3},worker));const receipt={indexCompletedNamesAtStart:index.completedNames,indexTotalNames:index.scope.uniqueLiteralNames,indexCompleteAtStart:index.completedNames===index.scope.uniqueLiteralNames,discoveryIndexes:indexes.map(s=>({file:s.file,completedNames:s.index.completedNames,totalNames:s.index.scope.uniqueLiteralNames})),requestedCandidates:jobs.length,captured,failed,papers:jobs};fs.writeFileSync(`${b}/full-roster-fulltext-collection.json`,JSON.stringify(sourcePayload(receipt),null,2)+'\n');console.log(JSON.stringify({captured,failed,total:jobs.length,indexCompleteAtStart:receipt.indexCompleteAtStart,testsRun:false}))

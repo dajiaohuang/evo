@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Brachiosauridae
+    commonName: Brachiosaurs
+    commonNameZh: 腕龙类
+    rank: family
+    taxonId: txn:38673
+    firstAppearance: 165
+    lastAppearance: 145
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:brachiosauridae
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Brachiosauridae is represented by Taylor’s character-by-character separation of Brachiosaurus altithorax from Giraffatitan brancai; that genus-level revision does not define the complete family range or every brachiosaurid member.
+      confidence: high
+      confidenceRationale: The type and referred material are compared in detail and diagnoses are explicit. High confidence is restricted to the revised genera and characters.
+      referenceLinks:
+        - referenceId: taylor-2009-brachiosaurus-giraffatitan
+          relation: supports
+          pages: 787–806
+          figure: Figures 1–16; Tables 1–3
+          quoteLocator: Type-material review; comparative diagnosis; generic separation
+    - subjectId: taxon:brachiosauridae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Brachiosauridae is displayed at 154.8–145 Ma only as the Late Jurassic type-material comparison for Brachiosaurus and Giraffatitan, not the complete family range. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Brachiosauridae uses Taylor, M.P. (2009) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Morrison and Tendaguru type-material comparison in Taylor; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: taylor-2009-brachiosaurus-giraffatitan
+          pages: 787–806
+          figure: Figures 1–16; Tables 1–3
+          quoteLocator: Type-material review; comparative diagnosis; generic separation
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 模式与归入材料得到详细比较，诊断明确。高置信度仅限修订后的属和字符。
+    - Brachiosauridae 采用 Taylor, M.P.（2009）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Morrison and Tendaguru type-material comparison in Taylor；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 腕龙科由 Taylor 对高胸腕龙与布氏长颈巨龙逐字符分离的研究表示；该属级修订不定义完整科级范围或每个腕龙科成员。
+    - Brachiosauridae 仅以 154.8–145 Ma 展示为Brachiosaurus 与 Giraffatitan 晚侏罗世模式材料的比较区间，而非完整科级范围。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: brachiosauridae
+      rangeKind: global-composite
+      taxonomicConcept: Brachiosauridae — source-bounded sample window
+      geographicScope: Morrison and Tendaguru type-material comparison in Taylor
+      olderMa: 154.8
+      youngerMa: 145
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the Late Jurassic type-material comparison for Brachiosaurus and Giraffatitan, not the complete family range; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: A re-evaluation of Brachiosaurus altithorax Riggs 1903 (Dinosauria, Sauropoda) and its generic separation from Giraffatitan brancai (Janensch 1914) directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:brachiosauridae:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: taylor-2009-brachiosaurus-giraffatitan
+          locator: 787–806; Type-material review; comparative diagnosis; generic separation
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    scientificName: Brachiosauridae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Brachiosauridae
+      en: Brachiosauridae
+    sections:
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-de7762a501
+            part: title
+          zh:
+            page: zh
+            section: s-4f3d7b0461
+            part: title
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4f3d7b0461
+            part: body
+          en:
+            page: en
+            section: s-de7762a501
+            part: body
+      - topic: readingPath
+        title:
+          en:
+            page: en
+            section: s-cc54068225
+            part: title
+          zh:
+            page: zh
+            section: s-e27aa0e656
+            part: title
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e27aa0e656
+            part: body
+          en:
+            page: en
+            section: s-cc54068225
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Brachiosauridae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38673
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38673
+          readingTargets:
+            - name: Vouivria damparisensis
+              pbdbTaxonId: txn:352538
+              canonicalPath: content/nodes/PBDB%3A352538
+            - name: Giraffatitan brancai
+              pbdbTaxonId: txn:64501
+              canonicalPath: content/nodes/PBDB%3A64501
+            - name: Galvesaurus herreroi
+              pbdbTaxonId: txn:81694
+              canonicalPath: content/nodes/PBDB%3A81694
+            - name: Cedarosaurus weiskopfae
+              pbdbTaxonId: txn:64906
+              canonicalPath: content/nodes/PBDB%3A64906
+            - name: Brachiosaurus altithorax
+              pbdbTaxonId: txn:54864
+              canonicalPath: content/nodes/PBDB%3A54864
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-2bf14aa607
+        part: body
+      en:
+        page: en
+        section: s-b78324a925
+        part: body

@@ -1,0 +1,350 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caeciliidae Rafinesque, 1814
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Caeciliidae
+      zh: Caeciliidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0e60ba59f5
+            part: title
+          zh:
+            page: zh
+            section: s-a515c00317
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0e60ba59f5
+            part: body
+          zh:
+            page: zh
+            section: s-a515c00317
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cdad9349c4
+            part: title
+          zh:
+            page: zh
+            section: s-39b625b9ae
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cdad9349c4
+            part: body
+          zh:
+            page: zh
+            section: s-39b625b9ae
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-18b032e56a
+            part: title
+          zh:
+            page: zh
+            section: s-98f9beabc6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-18b032e56a
+            part: body
+          zh:
+            page: zh
+            section: s-98f9beabc6
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5fb0ad4643
+            part: title
+          zh:
+            page: zh
+            section: s-8fb4623ec9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5fb0ad4643
+            part: body
+          zh:
+            page: zh
+            section: s-8fb4623ec9
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-d3aaf36a47
+            part: title
+          zh:
+            page: zh
+            section: s-8d9e855fb8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62JCW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62JCW
+            label:
+              en: Caecilia
+              zh: Caecilia
+          - kind: catalogue
+            colId: 63GLK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63GLK
+            label:
+              en: Oscaecilia
+              zh: Oscaecilia
+        text:
+          en:
+            page: en
+            section: s-d3aaf36a47
+            part: body
+          zh:
+            page: zh
+            section: s-8d9e855fb8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Caeciliidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/7HY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Caeciliidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-dd19455a32
+        part: body
+      zh:
+        page: zh
+        section: s-e821210636
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Caeciliidae
+      sourceRowIds:
+        - Anf6591
+        - Anf6592
+        - Anf6593
+        - Anf6594
+        - Anf6595
+        - Anf6596
+        - Anf6597
+        - Anf6598
+        - Anf6599
+        - Anf6600
+        - Anf6601
+        - Anf6602
+        - Anf6603
+        - Anf6604
+        - Anf6605
+        - Anf6606
+        - Anf6607
+        - Anf6608
+        - Anf6609
+        - Anf6610
+        - Anf6611
+        - Anf6612
+        - Anf6613
+        - Anf6614
+        - Anf6615
+        - Anf6616
+        - Anf6617
+        - Anf6618
+        - Anf6619
+        - Anf6620
+        - Anf6621
+        - Anf6622
+        - Anf6623
+        - Anf6624
+        - Anf6625
+        - Anf6626
+        - Anf6627
+        - Anf6628
+        - Anf6629
+        - Anf6630
+        - Anf6631
+        - Anf6632
+        - Anf6633
+        - Anf6634
+        - Anf6635
+        - Anf6636
+        - Anf6637
+        - Anf6638
+        - Anf6639
+        - Anf6640
+        - Anf6641
+        - Anf6642
+        - Anf6643
+        - Anf6644
+        - Anf6645
+        - Anf6646
+        - Anf6647
+        - Anf6648
+        - Anf6649
+        - Anf6650
+        - Anf6651
+        - Anf6652
+        - Anf6653
+        - Anf6654
+        - Anf6655
+        - Anf6656
+        - Anf6657
+        - Anf6658
+        - Anf6659
+        - Anf6660
+        - Anf6661
+        - Anf6662
+        - Anf6663
+        - Anf6664
+        - Anf6665
+        - Anf6666
+        - Anf6667
+        - Anf6668
+        - Anf6669
+        - Anf6670
+        - Anf6671
+        - Anf6672
+        - Anf6673
+        - Anf6674
+        - Anf6675
+        - Anf6676
+        - Anf6677
+        - Anf6678
+        - Anf6679
+        - Anf6680
+        - Anf6681
+        - Anf6682
+        - Anf6683
+        - Anf6684
+        - Anf6685
+        - Anf6686
+        - Anf6687
+        - Anf6688
+        - Anf6689
+        - Anf6690
+        - Anf6691
+        - Anf6692
+        - Anf6693
+        - Anf6694
+        - Anf6695
+        - Anf6696
+        - Anf6697
+        - Anf6698
+        - Anf6699
+        - Anf6700
+        - Anf6701
+        - Anf6702
+        - Anf6703
+        - Anf6704
+        - Anf6705
+        - Anf6706
+        - Anf6707
+        - Anf6708
+        - Anf6709
+        - Anf6710
+        - Anf6711
+        - Anf6712
+        - Anf6713
+        - Anf6714
+        - Anf6715
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 120
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 119
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 118
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 26
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+        - key: Viv
+          en: viviparity
+          zh: 胎生
+          count: 24
+      currentConceptEquivalenceCertified: false

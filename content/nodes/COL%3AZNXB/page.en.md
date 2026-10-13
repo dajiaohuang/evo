@@ -1,0 +1,3 @@
+## ## A winged stem and black inflated pods {#s-a7c193da4f}
+The historical Flora of Panama describes *Crotalaria pilosa* as an herb under 1 m tall. Its single leaflets range from elliptic to linear, and decurrent, arrow-shaped stipules extend along the stem to form continuous wings. Terminal or leaf-opposed racemes bear 8–20 yellow flowers. The inflated pod is 2.2–3.4 cm long, glabrous and black at maturity; each pod contains about 20 tan, brown or reddish-brown, obliquely heart-shaped seeds. The same historical flora lists Jamaica, Cuba, Central America and South America within its New World range, but gives no sampling frame or observation date; this is not a current range inventory.
+

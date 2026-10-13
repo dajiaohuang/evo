@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus mariae
+  displayName: Nymphargus mariae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JT
+  sourceIndexes:
+    - name:
+        en: Nymphargus mariae
+        zh: Nymphargus mariae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/437
+            queryName: Nymphargus mariae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/476
+            queryName: Centrolene mariae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/481
+            queryName: Centrolene puyoense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/34
+            queryName: Cochranella mariae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/39
+            queryName: Cochranella puyoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/38
+            queryName: Centrolenella mariae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/39
+            queryName: Centrolenella puyoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/40
+            queryName: Nymphargus puyoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4bd740ec01
+      - s-389e15b362
+      - s-7403b5f6db
+      - s-920aed8675
+      - s-164c50f1e4
+      - s-54fa957ce8
+      - s-9c1d5d0804
+      - s-831611513a
+      - s-5a9c30441e
+      - s-544743d7e7
+      - s-72d62b959a
+      - s-38f4be2efe
+      - s-f5e94f471f
+      - s-00a4413175
+      - s-6cc950ad18
+      - s-100584c325
+      - s-78d3250881
+    zh:
+      - s-a50a335f5a
+      - s-7eade6a081
+      - s-a19602c8f4
+      - s-833d92ded8
+      - s-203cefb53d
+      - s-e9bbe39c79
+      - s-51998667e6
+      - s-49b263fbde
+      - s-fe9316c28e
+      - s-be45f27730
+      - s-23f1433846
+      - s-2bf46b8b2e
+      - s-e416303a93
+      - s-055577ecc2
+      - s-cc5134390c
+      - s-a19fb5ae22
+      - s-b1d2a67e63

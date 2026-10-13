@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius sonani
+  displayName: Hynobius sonani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MQL8
+  sourceIndexes:
+    - name:
+        en: Hynobius sonani
+        zh: Hynobius sonani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MQL8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/198
+            queryName: Hynobius sonani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/57
+            queryName: Salamandrella sonani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/58
+            queryName: Pseudosalamandra sonani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9fec3ef001
+      - s-a7df1904c5
+      - s-9c8913a7f4
+      - s-2c74760519
+      - s-a3a8b49fee
+      - s-829ed07b9c
+      - s-4616b50ad1
+      - s-a52e00fad0
+      - s-a00ac66525
+    zh:
+      - s-bd5a88b986
+      - s-26f6c8cb60
+      - s-7ce5c25d87
+      - s-5c0aad1b93
+      - s-04970e64e5
+      - s-fdba606277
+      - s-234bd43cc8
+      - s-30267c7058
+      - s-369f005085

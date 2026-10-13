@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Anodonthyla boulengerii
+    name:
+      en: Anodonthyla boulengerii
+      zh: Anodonthyla boulengerii
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Anodonthyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d90ad6bd21
+            part: body
+          zh:
+            page: zh
+            section: s-b725e015b4
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8b1bc05247
+            part: body
+          zh:
+            page: zh
+            section: s-999402839e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 348, 349; Reference.csv rows 19
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 348
+        values:
+          - Microhylidae
+          - Anodonthyla
+          - Anodonthyla boulengerii
+          - F
+          - "20.7"
+          - "6.4"
+          - "6.7"
+          - "2.366666667"
+          - "1.266666667"
+          - NA
+          - NA
+          - "1.9"
+          - NA
+          - "1.433333333"
+          - NA
+          - "1.166666667"
+          - "5.3"
+          - "12.53333333"
+          - NA
+          - "7.466666667"
+          - NA
+          - "9.133333333"
+          - NA
+          - "4.466666667"
+          - "27.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 349
+        values:
+          - Microhylidae
+          - Anodonthyla
+          - Anodonthyla boulengerii
+          - M
+          - "18.48461538"
+          - "5.776923077"
+          - "5.892307692"
+          - "2.092307692"
+          - "1.191666667"
+          - NA
+          - NA
+          - "1.907692308"
+          - NA
+          - "1.353846154"
+          - NA
+          - "1.038461538"
+          - "5.384615385"
+          - "11.59230769"
+          - NA
+          - "7.384615385"
+          - NA
+          - "8.276923077"
+          - NA
+          - "4.3"
+          - "25.76923077"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 19
+        values:
+          - Anura
+          - Anodonthyla_boulengerii
+          - Vences, M., Glaw, F., Kohler, J., & Wollenberg, K. C. (2010). Molecular phylogeny, morphology and bioacoustics reveal five additional species of arboreal microhylid frogs of the genus Anodonthyla from Madagascar. Contributions to Zoology, 79(1), 1-32. https://doi.org/10.1163/18759866-07901001
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5V5VY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

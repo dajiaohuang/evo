@@ -1,0 +1,265 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ischnocnema izecksohni (Caramaschi & Kisteumacher, 1989)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ischnocnema izecksohni
+      zh: Ischnocnema izecksohni
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fac8fc633c
+            part: title
+          zh:
+            page: zh
+            section: s-fcc3382e52
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fac8fc633c
+            part: body
+          zh:
+            page: zh
+            section: s-fcc3382e52
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bd117e657f
+            part: title
+          zh:
+            page: zh
+            section: s-4eb4b64054
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bd117e657f
+            part: body
+          zh:
+            page: zh
+            section: s-4eb4b64054
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ad04956c81
+            part: title
+          zh:
+            page: zh
+            section: s-d7757929fe
+            part: title
+        sourceIds:
+          - primary-pmc10688756-6n9t3
+        text:
+          en:
+            page: en
+            section: s-ad04956c81
+            part: body
+          zh:
+            page: zh
+            section: s-d7757929fe
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7219187417
+            part: title
+          zh:
+            page: zh
+            section: s-55f04d940e
+            part: title
+        sourceIds:
+          - primary-pmc10688756-6n9t3
+        text:
+          en:
+            page: en
+            section: s-7219187417
+            part: body
+          zh:
+            page: zh
+            section: s-55f04d940e
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1438e4e390
+            part: title
+          zh:
+            page: zh
+            section: s-5c7001f356
+            part: title
+        sourceIds:
+          - primary-pmc10688756-6n9t3
+        text:
+          en:
+            page: en
+            section: s-1438e4e390
+            part: body
+          zh:
+            page: zh
+            section: s-5c7001f356
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-b8e22b8208
+            part: body
+          zh:
+            page: zh
+            section: s-267d3ee03b
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ischnocnema izecksohni
+          url: https://www.checklistbank.org/dataset/316115/taxon/6N9T3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10688756-6n9t3
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ischnocnema izecksohni: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7b7ddb2e44
+        part: body
+      zh:
+        page: zh
+        section: s-685b0e02e8
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-6n9t3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Ischnocnema_izecksohni, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Ischnocnema izecksohni: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-6n9t3
+            locator: PMC10688756 S3 File Traits row 202 Ischnocnema_izecksohni; XML Functional diversity; upstream reference numbers 1, 2, 3, 69
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5d202b3004
+                part: body
+              zh:
+                page: zh
+                section: s-540b635650
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-6n9t3
+            locator: PMC10688756 S3 File Traits row 202 Ischnocnema_izecksohni habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7b61d31b52
+                part: body
+              zh:
+                page: zh
+                section: s-a03de6c2fe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-6n9t3
+            locator: PMC10688756 S3 File Traits row 202 Ischnocnema_izecksohni length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7d7e99bab5
+                part: body
+              zh:
+                page: zh
+                section: s-1553eda331
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mannophryne leonardoi
+  displayName: Mannophryne leonardoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XVQ3
+  sourceIndexes:
+    - name:
+        en: Mannophryne leonardoi
+        zh: Mannophryne leonardoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XVQ3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/269
+            queryName: Mannophryne leonardoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-79c7aab4b3
+      - s-c85d1f0467
+      - s-1e6533c8c4
+      - s-ed085e8cfc
+      - s-41ffcca231
+      - s-0474b9db4a
+      - s-b4aa5e4cdf
+      - s-e8a6b09ead
+    zh:
+      - s-be8f38c701
+      - s-dff268ae20
+      - s-7e2cdf8fd2
+      - s-0e27fa22c3
+      - s-4ae8a155fd
+      - s-36b1c64f45
+      - s-ce9f2d0154
+      - s-b75f56a2ee

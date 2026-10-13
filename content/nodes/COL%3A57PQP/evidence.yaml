@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Trachyandra zebrina (Schltr. ex Poelln.) Oberm.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 57PQP, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 57PQP; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/57PQP
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 57PQP
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000747960-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 57PQP / WFO wfo-0000747960
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14541_0
+        referenceId: ref-fe06099e-73f3-85f2-a4cd-a66f4d3caef6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Trachyandra zebrina (Schltr. ex Poelln.) Oberm. account; SANBI/WFO archive rows 32951 (Morphology), 38896 (Habitat), source identifier 14541.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_3805_0
+        referenceId: ref-c884a6e3-3f23-8538-af97-1f1e13e5557b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Trachyandra zebrina (Schltr. ex Poelln.) Oberm. account; SANBI/WFO archive rows 84504 (Diagnostic), source identifier 3805.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_7289_0
+        referenceId: ref-55998662-435b-8869-aa8c-14231c6f0a8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Trachyandra zebrina (Schltr. ex Poelln.) Oberm. account; SANBI/WFO archive rows 84514 (Diagnostic), source identifier 7289.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Rhizomatous perennial, up to 200 mm tall, roots many, bulbous, spreading. Leaves ± 2-8, linear, straight or wavy, smooth or softly hairy, surrounded at base by 1 or more prominent, usually transversely striped sheaths. Flowers white or pinkish mauve, spotted basally, in a compact, shortly-branched panicle. Capsules globose, ± 4 mm diam., covered with a few rough hairs, held erect.
+            textZh: Trachyandra zebrina (Schltr. ex Poelln.) Oberm. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14541_0
+            locator: "SANBI/WFO archive Morphology row 32951; source identifier 14541.0; cited publication: Snijman, DA. 2013. Asphodelaceae: Trachyandra. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 55 - 57. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Typical of this species are the usually striped squamae and the hispid raceme and capsule.
+            textZh: SANBI 条目提供了 Trachyandra zebrina (Schltr. ex Poelln.) Oberm. 的鉴别特征。
+            sourceIds:
+              - sanbi_3805_0
+            locator: "SANBI/WFO archive Diagnostic row 84504; source identifier 3805.0; cited publication: Obermeyer, AA. 1962. A revision of the South African species of Anthericum, Chlorophytum and Trachyandra. Bothalia 7(4): 669 - 767. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Trachyandra zebrina is similar to T. tortilis in the spirally coiled leaves and upcurved styles, but differs in its striped cataphylls, upright fruiting pedicels and hispid capsules.
+            textZh: SANBI 条目提供了 Trachyandra zebrina (Schltr. ex Poelln.) Oberm. 的鉴别特征。
+            sourceIds:
+              - sanbi_7289_0
+            locator: "SANBI/WFO archive Diagnostic row 84514; source identifier 7289.0; cited publication: Boatwright, JS; Manning, JC. 2010. Notes on the genus Trachyandra (Asphodelaceae: Asphodeloideae) 1: A review of the T. thyrsoidea group (section Trachyandra), including three new species from the Northern Cape. S. African J. Bot. 76: 499 - 510. [Copyright held by the South African Association of Botanists (2010); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In granitic loam and hard sandveld.
+            textZh: 该 SANBI 区域物种条目记录的生境：In granitic loam and hard sandveld.
+            sourceIds:
+              - sanbi_14541_0
+            locator: "SANBI/WFO archive Habitat row 38896; source identifier 14541.0; cited publication: Snijman, DA. 2013. Asphodelaceae: Trachyandra. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 55 - 57. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

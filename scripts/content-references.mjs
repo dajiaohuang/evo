@@ -1,10 +1,35 @@
-import { digest } from './tree-path-content.mjs'
+import { digest } from './projection-io.mjs'
+
+// Preserve curated usage annotations independently of the imported row shape.
+export function restoreSourceUsage(restored, usage) {
+  for (const [field, value] of Object.entries(usage)) restored[field] = structuredClone(value)
+  return restored
+}
+
+export function isPbdbOccurrencePath(parts) {
+  const path = parts[0] === 'records' ? parts.slice(1) : parts
+  return path.length === 3 && path[0] === 'pbdb-fossil-reader'
+    && path[1] === 'occurrenceEvidence' && /^\d+$/.test(String(path[2]))
+}
+
+export function assertPbdbOccurrenceReference(occurrence) {
+  if (!/^occ:\d+$/.test(occurrence.occurrenceId ?? '') || !/^ref:\d+$/.test(occurrence.referenceId ?? '')) {
+    throw new Error('PBDB occurrence evidence requires recorded occurrence and reference identifiers')
+  }
+  const bibliography = occurrence.bibliography
+  if (!(typeof bibliography === 'string' && bibliography.trim())
+    && !(bibliography && typeof bibliography === 'object'
+      && ((bibliography.page && bibliography.section && bibliography.part === 'body')
+        || (bibliography.markdown && bibliography.field)))) {
+    throw new Error(`PBDB occurrence reference lacks its recorded bibliography: ${occurrence.occurrenceId}`)
+  }
+}
 
 const usageKeys = new Set([
   'scope', 'locator', 'accessedAt', 'licenseAssessment', 'rightsEvidenceUrl', 'attribution', 'stableId',
   'originalSourceText', 'originalLanguage', 'sourceField', 'sourceRowNumber', 'archiveSourceId', 'archiveSourceIds',
   'referenceRowNumbers', 'sourceCitations', 'licenseEvidenceLocator', 'licenseAppliesTo', 'sourcePackLicenseAssessment',
-  'citedWorkLicenseAssessment',
+  'citedWorkLicenseAssessment', 'readerFieldCautions', 'readerForagingComment', 'readingTargets',
 ])
 const citationUsageKeys = new Set(['identifier', 'referenceRowNumber', 'license', 'licenseAssessment', 'rightsHolder'])
 const orderedJson = value => JSON.stringify(value && typeof value === 'object' && !Array.isArray(value)
@@ -35,7 +60,18 @@ function referenceUuid(key) {
 
 export class ContentReferenceCatalogue {
   constructor(references) {
-    this.records = references.map(reference => ({ ...reference, ...orderedAuthors(reference.authors) }))
+    if (!Array.isArray(references)) throw new Error('Canonical global references must be an array')
+    const ids = new Set()
+    for (const reference of references) {
+      if (!reference || typeof reference !== 'object' || Array.isArray(reference)) throw new Error('Canonical global reference must be an object')
+      if (typeof reference.id !== 'string' || !reference.id || ids.has(reference.id)) throw new Error('Canonical global reference requires a unique recorded id')
+      ids.add(reference.id)
+      if (Object.hasOwn(reference, 'importedSourceMetadata')) throw new Error('Legacy importedSourceMetadata is unsupported in the canonical global reference table: ' + (reference.id ?? '(unknown id)'))
+      if (Object.hasOwn(reference, 'metadataVariants') && (!Array.isArray(reference.metadataVariants) || reference.metadataVariants.some(variant => !variant || typeof variant !== 'object' || Array.isArray(variant)))) {
+        throw new Error('Invalid metadataVariants for reference ' + reference.id)
+      }
+    }
+    this.records = references.map(reference => structuredClone(reference))
     this.byId = new Map(this.records.map(reference => [reference.id, reference]))
     this.byKey = new Map()
     this.variants = new Map()
@@ -46,7 +82,7 @@ export class ContentReferenceCatalogue {
         const key = orderedJson({ identifier, version: reference.version ?? null, publishedAt: reference.url === 'https://www.checklistbank.org/dataset/316115' ? '2026-08-20' : reference.publishedAt ?? null })
         if (!this.byKey.has(key)) this.byKey.set(key, reference)
       }
-      this.variants.set(reference.id, new Map((reference.importedSourceMetadata ?? []).map((variant, index) => [orderedJson(variant), index])))
+      this.variants.set(reference.id, new Map((reference.metadataVariants ?? []).map((variant, index) => [orderedJson(variant), index])))
     }
   }
 
@@ -99,9 +135,9 @@ export class ContentReferenceCatalogue {
     const variants = this.variants.get(reference.id)
     let variant = variants.get(variantKey)
     if (variant === undefined) {
-      reference.importedSourceMetadata ??= []
-      variant = reference.importedSourceMetadata.length
-      reference.importedSourceMetadata.push(metadata)
+      reference.metadataVariants ??= []
+      variant = reference.metadataVariants.length
+      reference.metadataVariants.push(metadata)
       variants.set(variantKey, variant)
     }
     if (!reference.publishedYear && !reference.publishedAt && !reference.accessedAt && !reference.version && reference.metadataStatus === 'imported-without-bibliographic-enrichment' && reference.sourceRole === 'unclassified' && reference.fitnessFor.length === 0 && ['publication', 'web-resource'].includes(reference.type)) reference.dateStatus = 'unresolved-in-source-metadata'
@@ -151,6 +187,24 @@ export class ContentReferenceCatalogue {
 export function attachContentReferences(value, referencesById) {
   if (Array.isArray(value)) return value.map(item => attachContentReferences(item, referencesById))
   if (!value || typeof value !== 'object') return value
+  if (Array.isArray(value.referenceUsages) && Object.keys(value).length === 1) {
+    return value.referenceUsages.map(usage => {
+      const reference = referencesById.get(usage.referenceId)
+      if (!reference) throw new Error(`Unknown reader reference: ${usage.referenceId}`)
+      const url = reference.url ?? (reference.doi ? `https://doi.org/${reference.doi}` : undefined)
+      if (!usage.sourceKey || !reference.title || !url) throw new Error(`Reader reference lacks recorded metadata: ${usage.referenceId}`)
+      return {
+        id: usage.sourceKey,
+        referenceId: reference.id,
+        title: typeof reference.title === 'string'
+          ? { en: reference.title, zh: reference.titleTranslations?.zh ?? reference.title }
+          : reference.title,
+        url,
+        ...Object.fromEntries(['doi', 'version', 'license', 'rights', 'attribution'].filter(key => reference[key] !== undefined).map(key => [key, reference[key]])),
+        ...attachContentReferences(Object.fromEntries(Object.entries(usage).filter(([key]) => !['sourceKey', 'referenceId'].includes(key))), referencesById),
+      }
+    })
+  }
   if (Array.isArray(value.citationBindings) && Object.keys(value).length === 1) {
     return value.citationBindings.map(binding => {
       const metadata = referencesById.get(binding.referenceId)?.importedCitationMetadata?.[binding.metadataVariant]
@@ -162,13 +216,14 @@ export function attachContentReferences(value, referencesById) {
   if (Array.isArray(value.referenceBindings) && Object.keys(value).length === 1) {
     return value.referenceBindings.map(binding => {
       const reference = referencesById.get(binding.referenceId)
-      const metadata = reference?.importedSourceMetadata?.[binding.metadataVariant]
+      const metadata = reference?.metadataVariants?.[binding.metadataVariant]
       if (!metadata) throw new Error(`Missing imported reference metadata: ${binding.referenceId}/${binding.metadataVariant}`)
       const source = attachContentReferences({ id: binding.sourceKey, referenceId: binding.referenceId, sourceKey: binding.sourceKey, metadataVariant: binding.metadataVariant, ...structuredClone(metadata), ...binding.usage }, referencesById)
       const restored = Object.fromEntries(binding.originalFields.map(key => {
         if (!(key in source)) throw new Error(`Missing reference field ${binding.referenceId}/${key}`)
         return [key, source[key]]
       }))
+      restoreSourceUsage(restored, Object.fromEntries(Object.keys(binding.usage).map(key => [key, source[key]])))
       if (binding.originalFields.includes('sourceKey') && !binding.originalFields.includes('id')) {
         const title = source.title ?? reference.titleTranslations ?? reference.title
         const url = source.url ?? reference.url ?? (reference.doi ? `https://doi.org/${reference.doi}` : undefined)

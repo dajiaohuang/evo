@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cardioglossa oreas
+    name:
+      en: Cardioglossa oreas
+      zh: Cardioglossa oreas
+    sourceClassification:
+      order: Anura
+      family: Arthroleptidae
+      genus: Cardioglossa
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Cardioglossa oreas in the version 3 classification
+          zh: Cardioglossa oreas 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a53ce778d1
+            part: body
+          zh:
+            page: zh
+            section: s-27aadf7f81
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 18 populated trait fields
+          zh: 2 条测量行与 18 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a7b0790b10
+            part: body
+          zh:
+            page: zh
+            section: s-7fe0685c50
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1024, 1025; Reference.csv rows 2465
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1024
+        values:
+          - Arthroleptidae
+          - Cardioglossa
+          - Cardioglossa oreas
+          - M
+          - "23.96666667"
+          - NA
+          - "8.133333333"
+          - "3.266666667"
+          - "1.233333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.366666667"
+          - NA
+          - NA
+          - "6.2"
+          - NA
+          - NA
+          - NA
+          - "11.63333333"
+          - "10.86666667"
+          - NA
+          - NA
+          - "1.066666667"
+          - "1.766666667"
+          - "2.733333333"
+          - "4.4"
+          - "6.866666667"
+          - "3.7"
+          - "2.2"
+          - "2.233333333"
+          - "4"
+          - "2.666666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1025
+        values:
+          - Arthroleptidae
+          - Cardioglossa
+          - Cardioglossa oreas
+          - F
+          - "31.2"
+          - NA
+          - "9.7"
+          - "3.6"
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.9"
+          - NA
+          - NA
+          - "7.5"
+          - NA
+          - NA
+          - NA
+          - "15.3"
+          - "14.1"
+          - NA
+          - NA
+          - "1.2"
+          - "2"
+          - "3.3"
+          - "5.3"
+          - "8.2"
+          - "4"
+          - "2.9"
+          - "3.3"
+          - "5.5"
+          - "3.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2465
+        values:
+          - Anura
+          - Cardioglossa_oreas
+          - "Blackburn, D. C. (2008). A new species of Cardioglossa (Amphibia: Anura: Arthroleptidae) endemic to Mount Manengouba in the Republic of Cameroon, with an analysis of morphological diversity in the genus. Zoological Journal of the Linnean Society, 154(3), 611-630. https://doi.org/10.1111/j.1096-3642.2008.00397.x"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - TD
+      - SL
+      - FLL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - R5GM
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa dunni
+  displayName: Bolitoglossa dunni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDP8
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa dunni
+        zh: Bolitoglossa dunni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDP8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/115
+            queryName: Bolitoglossa dunni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/260
+            queryName: Oedipus dunni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/261
+            queryName: Magnadigita dunni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2ae878ca62
+      - s-905eeb59dd
+      - s-0dc64dd954
+      - s-5136dbf42b
+      - s-49e36dfce5
+      - s-c4506f846d
+      - s-c39a259e42
+      - s-651fcd524d
+      - s-2d61d2fb9a
+    zh:
+      - s-a9fb52a06b
+      - s-0c503be27c
+      - s-b459f0dfdd
+      - s-4c72641d71
+      - s-7a76e55c2a
+      - s-e485e7df51
+      - s-980f328d30
+      - s-42e58676fb
+      - s-48a5fcda52

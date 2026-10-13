@@ -1,0 +1,179 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Meniscotherium tapiacitum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Meniscotherium tapiacitum
+      en: Meniscotherium tapiacitum
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-55e10e0ff0
+            part: body
+          en:
+            page: en
+            section: s-9374e582fa
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4e69f80f18
+            part: body
+          en:
+            page: en
+            section: s-d0f89dcd51
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c1691b19c4
+            part: body
+          en:
+            page: en
+            section: s-9423faef88
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b106bf29aa
+            part: body
+          en:
+            page: en
+            section: s-2e0de45fbf
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1344cc6c0d
+            part: body
+          en:
+            page: en
+            section: s-8426366eea
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Meniscotherium tapiacitum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=185065&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:185065; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:185065
+          selectedOccurrenceIds:
+            - occ:168090
+            - occ:168268
+            - occ:168281
+            - occ:168295
+            - occ:168302
+            - occ:168305
+            - occ:168314
+            - occ:168326
+            - occ:168344
+            - occ:170952
+            - occ:171011
+            - occ:171027
+            - occ:172403
+          selectedCollectionIds:
+            - col:15314
+            - col:15365
+            - col:15368
+            - col:15371
+            - col:15372
+            - col:15373
+            - col:15374
+            - col:15376
+            - col:15379
+            - col:15663
+            - col:15673
+            - col:15677
+            - col:15891
+          sourceReferenceIds:
+            - ref:2078
+            - ref:2311
+            - ref:3647
+            - ref:6294
+            - ref:1618
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-06a0641be8
+        part: body
+      en:
+        page: en
+        section: s-6d99fab048
+        part: body

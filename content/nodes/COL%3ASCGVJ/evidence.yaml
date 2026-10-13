@@ -1,0 +1,223 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis romeroae Ron, Carrión, Caminer, Sagredo, Navarrete, Ortega, Varela-Jaramillo, Vidal-Maldonado & Terán, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis romeroae
+      zh: Pristimantis romeroae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8b6d2d2dd1
+            part: title
+          zh:
+            page: zh
+            section: s-ec030b94e0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8b6d2d2dd1
+            part: body
+          zh:
+            page: zh
+            section: s-ec030b94e0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-802ad95d95
+            part: title
+          zh:
+            page: zh
+            section: s-a8363dfdf7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-802ad95d95
+            part: body
+          zh:
+            page: zh
+            section: s-a8363dfdf7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-509272d25d
+            part: title
+          zh:
+            page: zh
+            section: s-af44a54091
+            part: title
+        sourceIds:
+          - primary-pmc7683497-scgvj
+        text:
+          en:
+            page: en
+            section: s-509272d25d
+            part: body
+          zh:
+            page: zh
+            section: s-af44a54091
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f5581c098e
+            part: title
+          zh:
+            page: zh
+            section: s-c79d82fc0d
+            part: title
+        sourceIds:
+          - primary-pmc7683497-scgvj
+        text:
+          en:
+            page: en
+            section: s-f5581c098e
+            part: body
+          zh:
+            page: zh
+            section: s-c79d82fc0d
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-a9a9beafcd
+            part: body
+          zh:
+            page: zh
+            section: s-bd43ce74b4
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis romeroae
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCGVJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7683497-scgvj
+        referenceId: ref-a0fa4731-acfb-4729-ad89-1dfc084dfcae
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis romeroae: Species distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c980daf29d
+        part: body
+      zh:
+        page: zh
+        section: s-3802ad98ee
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.993.53559
+        referenceId: ref-a0fa4731-acfb-4729-ad89-1dfc084dfcae
+        sourceKey: primary-pmc7683497-scgvj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7683497/article.xml
+        sourceConcept: Pristimantis romeroae
+        evidenceRead: "Pristimantis romeroae: Species distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: The Sumaco type-locality record
+              zh: Sumaco 模式地点记录
+            referenceId: ref-a0fa4731-acfb-4729-ad89-1dfc084dfcae
+            sourceKey: primary-pmc7683497-scgvj
+            locator: "Pristimantis romeroae: Species distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-444b698e3f
+                part: body
+              zh:
+                page: zh
+                section: s-8cd42fe359
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Daytime bromeliad encounters
+              zh: 白天凤梨科植物中的遇见
+            referenceId: ref-a0fa4731-acfb-4729-ad89-1dfc084dfcae
+            sourceKey: primary-pmc7683497-scgvj
+            locator: "Pristimantis romeroae: Species distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2407f02769
+                part: body
+              zh:
+                page: zh
+                section: s-b91e9a5648
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Staurois Cope, 1865
+  displayName: Staurois
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7M2T
+  sourceIndexes:
+    - name:
+        en: Staurois
+        zh: Staurois
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7M2T
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/279
+            queryName: Staurois
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 216
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3911e7248d
+      - s-e0bd15ae3d
+      - s-18601ed92e
+      - s-e655b68eec
+      - s-64a42dfc7b
+      - s-a1685c38a5
+      - s-e031d54025
+      - s-37950b31dd
+      - s-51f00dbebf
+      - s-fcc6456013
+      - s-f7033ae640
+      - s-cc28cc2aae
+      - s-ad70896e3b
+      - s-52c75ddede
+    zh:
+      - s-dd14bfb70f
+      - s-70922e3be8
+      - s-98fe012e3a
+      - s-852829788c
+      - s-e44c32a3cb
+      - s-f272cfa8a3
+      - s-0c19a42240
+      - s-66da789ca5
+      - s-30411fa4c6
+      - s-4f9247c1fd
+      - s-0acd511361
+      - s-2961d83ba5
+      - s-8eda08a905
+      - s-44043084aa

@@ -1,0 +1,1071 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudacris regilla (Baird & Girard, 1852)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pseudacris regilla
+      zh: Pseudacris regilla
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-73bf680a0f
+            part: title
+          zh:
+            page: zh
+            section: s-f1e86d421c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-73bf680a0f
+            part: body
+          zh:
+            page: zh
+            section: s-f1e86d421c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9ac0bf8c22
+            part: title
+          zh:
+            page: zh
+            section: s-a290af6a15
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9ac0bf8c22
+            part: body
+          zh:
+            page: zh
+            section: s-a290af6a15
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-44d581f738
+            part: title
+          zh:
+            page: zh
+            section: s-15a979dbc8
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-44d581f738
+            part: body
+          zh:
+            page: zh
+            section: s-15a979dbc8
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-25c8c180a9
+            part: title
+          zh:
+            page: zh
+            section: s-c03e143a2a
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-25c8c180a9
+            part: body
+          zh:
+            page: zh
+            section: s-c03e143a2a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b08252746a
+            part: title
+          zh:
+            page: zh
+            section: s-e5fdeb690c
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-b08252746a
+            part: body
+          zh:
+            page: zh
+            section: s-e5fdeb690c
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9e8e4974ea
+            part: title
+          zh:
+            page: zh
+            section: s-946829d691
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-9e8e4974ea
+            part: body
+          zh:
+            page: zh
+            section: s-946829d691
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3634636f97
+            part: title
+          zh:
+            page: zh
+            section: s-1d8fa6cea5
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_cold
+        text:
+          en:
+            page: en
+            section: s-3634636f97
+            part: body
+          zh:
+            page: zh
+            section: s-1d8fa6cea5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-18b38fcc6a
+            part: title
+          zh:
+            page: zh
+            section: s-84fcd8703f
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-18b38fcc6a
+            part: body
+          zh:
+            page: zh
+            section: s-84fcd8703f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-8d56e11fdf
+            part: title
+          zh:
+            page: zh
+            section: s-2ca837d2b9
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-8d56e11fdf
+            part: body
+          zh:
+            page: zh
+            section: s-2ca837d2b9
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-8c718ed8dc
+            part: title
+          zh:
+            page: zh
+            section: s-d101978e6f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-8c718ed8dc
+            part: body
+          zh:
+            page: zh
+            section: s-d101978e6f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-30f670edcd
+            part: title
+          zh:
+            page: zh
+            section: s-c7451e4616
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-30f670edcd
+            part: body
+          zh:
+            page: zh
+            section: s-c7451e4616
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-209f6077809bc721dca1e9e1c93bb2b7
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-f371b81622593e0e28f4f6cb
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-79170a850b42ed2735165bea
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-82d94ca932
+            part: title
+          zh:
+            page: zh
+            section: s-e2f16521bc
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-82d94ca932
+            part: body
+          zh:
+            page: zh
+            section: s-e2f16521bc
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fe16af0937
+            part: title
+          zh:
+            page: zh
+            section: s-dcf9ea3b0a
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-fe16af0937
+            part: body
+          zh:
+            page: zh
+            section: s-dcf9ea3b0a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-568d72436c
+            part: title
+          zh:
+            page: zh
+            section: s-0318287f2d
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "401"
+        text:
+          en:
+            page: en
+            section: s-568d72436c
+            part: body
+          zh:
+            page: zh
+            section: s-0318287f2d
+            part: body
+        sourceRowNumber: 325
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2bad4cfd63
+            part: title
+          zh:
+            page: zh
+            section: s-5de65486d9
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "482"
+        text:
+          en:
+            page: en
+            section: s-2bad4cfd63
+            part: body
+          zh:
+            page: zh
+            section: s-5de65486d9
+            part: body
+        sourceRowNumber: 403
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f3bb10a679
+            part: title
+          zh:
+            page: zh
+            section: s-2e4a244d8c
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "797"
+        text:
+          en:
+            page: en
+            section: s-f3bb10a679
+            part: body
+          zh:
+            page: zh
+            section: s-2e4a244d8c
+            part: body
+        sourceRowNumber: 705
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-36ef770722
+            part: title
+          zh:
+            page: zh
+            section: s-8d49445930
+            part: title
+        sourceIds:
+          - primary-pmc10658874-4nh9v
+        text:
+          en:
+            page: en
+            section: s-36ef770722
+            part: body
+          zh:
+            page: zh
+            section: s-8d49445930
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-38eff58b30
+            part: title
+          zh:
+            page: zh
+            section: s-83b6da611b
+            part: title
+        sourceIds:
+          - primary-pmc10658874-4nh9v
+        text:
+          en:
+            page: en
+            section: s-38eff58b30
+            part: body
+          zh:
+            page: zh
+            section: s-83b6da611b
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-879c3bfcda
+            part: title
+          zh:
+            page: zh
+            section: s-1e52fd4e6e
+            part: title
+        sourceIds:
+          - primary-pmc10658874-4nh9v
+        text:
+          en:
+            page: en
+            section: s-879c3bfcda
+            part: body
+          zh:
+            page: zh
+            section: s-1e52fd4e6e
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-4b2ab995ab
+            part: title
+          zh:
+            page: zh
+            section: s-62713ce6b2
+            part: title
+        sourceIds:
+          - primary-pmc12822217-4nh9v
+        text:
+          en:
+            page: en
+            section: s-4b2ab995ab
+            part: body
+          zh:
+            page: zh
+            section: s-62713ce6b2
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-9f037f2090
+            part: title
+          zh:
+            page: zh
+            section: s-ffe0ffc631
+            part: title
+        sourceIds:
+          - primary-pmc12822217-4nh9v
+        text:
+          en:
+            page: en
+            section: s-9f037f2090
+            part: body
+          zh:
+            page: zh
+            section: s-ffe0ffc631
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-d1effd10de
+            part: title
+          zh:
+            page: zh
+            section: s-7215045ae6
+            part: title
+        sourceIds:
+          - primary-pmc12822217-4nh9v
+        text:
+          en:
+            page: en
+            section: s-d1effd10de
+            part: body
+          zh:
+            page: zh
+            section: s-7215045ae6
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-50014de14f
+            part: title
+          zh:
+            page: zh
+            section: s-b23297a03d
+            part: title
+        sourceIds:
+          - primary-pmc12822217-4nh9v
+        text:
+          en:
+            page: en
+            section: s-50014de14f
+            part: body
+          zh:
+            page: zh
+            section: s-b23297a03d
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b4d3d13f56
+            part: title
+          zh:
+            page: zh
+            section: s-276cba25b8
+            part: title
+        sourceIds:
+          - primary-pmc12822217-4nh9v
+        text:
+          en:
+            page: en
+            section: s-b4d3d13f56
+            part: body
+          zh:
+            page: zh
+            section: s-276cba25b8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pseudacris regilla
+          url: https://www.checklistbank.org/dataset/316115/taxon/4NH9V
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 207313, row 276489; Distribution.tsv rows 69501, 69502; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2579; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2579 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1344, 1345, 1346; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 325, 326, 327, 328, 403, 705, 706, 707, 954, 955, 956, 2558; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc10658874-4nh9v
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pseudacris regilla: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12822217-4nh9v
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pseudacris regilla: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c4a734edf9
+        part: body
+      zh:
+        page: zh
+        section: s-91300ebfc8
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "207313"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=207313
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName and species rank; authorship representation normalization limited to NFC, whitespace and and/& conjunction.
+      originalSourceAuthorship: (Baird and Girard, 1852)
+      colAuthorship: (Baird & Girard, 1852)
+      exactAuthorship: false
+      equivalentAuthorshipRepresentation: true
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 276489
+        key: "207313"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "207313"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 69501
+            key: 207313|Middle America|text|NULL|NULL
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "207313"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 69502
+            key: 207313|North America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-5dfefbecc699b65f647d896c6eaa353c
+      sourceRowId: Anf2579
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf2579
+        bibliographyRowId: Anf2579
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Pseudacris regilla
+        candidateBibliographyRowIds:
+          - Anf2579
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-f371b81622593e0e28f4f6cb
+        scientificName: Pseudacris regilla
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-fdb17e2129c26a672516057e
+        scientificName: Pseudacris regilla
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 3
+    primaryStudyScopes:
+      - doi: 10.1645/23-6
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        sourceKey: primary-pmc10658874-4nh9v
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10658874/article.xml
+        sourceConcept: Historical compiled hostlabel Pseudacris regilla; exact pinned-name link only, not originalvoucher/currentconcept authentication
+        evidenceRead: "Pseudacris regilla: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Original bilingual factual summaries of a compiled literature checklist; no source prose, tables, identification key or illustrations reproduced, adapted or translated.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Adult tapeworm associations in a historical North American checklist
+              zh: 北美历史清单中的成体绦虫关联
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-4nh9v
+            locator: PMC10658874 XML s3j direct-child rows60,61; s3d direct-child row5 namedPseudacris regilla
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-60012428c5
+                part: body
+              zh:
+                page: zh
+                section: s-1b69b06ef8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Reported parasite localities retain their historical scope
+              zh: 寄生记录地点保留历史范围
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-4nh9v
+            locator: PMC10658874 XML s3j direct-child rows60,61; s3d direct-child row5 namedPseudacris regilla
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fb03f69f67
+                part: body
+              zh:
+                page: zh
+                section: s-db0db05789
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: How to interpret the compiled parasite evidence
+              zh: 如何理解汇编的寄生证据
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-4nh9v
+            locator: PMC10658874 XML s2 methods; s3a introduction; s3j introduction/Amphibia hostlabels; s5 source totals
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ff23701233
+                part: body
+              zh:
+                page: zh
+                section: s-3b642522ff
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1186/s12864-025-12414-y
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        sourceKey: primary-pmc12822217-4nh9v
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/article.xml
+        sourceConcept: Table1source Pseudacris regilla listedassemblyGCA_041430395.1; conflictingS1quantitativeassignments withheld, no rawgenomeauthentication
+        evidenceRead: "Pseudacris regilla: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reference assembly in a comparative genome study
+              zh: 比较基因组研究中的参考组装
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-4nh9v
+            locator: PMC12822217 XML Tab1 tbody row20 sourcePseudacris regilla accessionGCA_041430395.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f7b133e907
+                part: body
+              zh:
+                page: zh
+                section: s-6bbd20ec3b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Assembly metadata has limits
+              zh: 组装元数据有其限制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-4nh9v
+            locator: PMC12822217 XML Tab1 tbody row20 sourcePseudacris regilla accessionGCA_041430395.1;Tab1caption;Sec3assemblyfilter
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e9b35356ff
+                part: body
+              zh:
+                page: zh
+                section: s-f24c2da543
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Repeat annotations are computational observations
+              zh: 重复序列注释是计算观察
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-4nh9v
+            locator: PMC12822217 XML Sec3 repeatannotation
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a84d293664
+                part: body
+              zh:
+                page: zh
+                section: s-d42670f3e4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Across-species correlations do not prove this species mechanism
+              zh: 跨物种相关性不能证明本种机制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-4nh9v
+            locator: PMC12822217 XML Sec5–8/Sec11–15/Sec17–20
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1d633daccd
+                part: body
+              zh:
+                page: zh
+                section: s-8fc876b62a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Conflicting source identifiers prevent a repeat-data assignment
+              zh: 来源编号冲突阻止重复数据归属
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-4nh9v
+            locator: PMC12822217 XML Tab1 tbody row20 sourcePseudacris regilla accessionGCA_041430395.1; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/12864_2025_12414_MOESM1_ESM.xlsx Table S1 A29:B29; TableS2/S3headers
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c702e548cc
+                part: body
+              zh:
+                page: zh
+                section: s-b1c74a54aa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

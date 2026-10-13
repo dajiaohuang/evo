@@ -1,0 +1,165 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Compsognathus longipes
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Compsognathus longipes
+      en: Compsognathus longipes
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1712d3f8c9
+            part: body
+          en:
+            page: en
+            section: s-75746c7522
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f7be7a3426
+            part: body
+          en:
+            page: en
+            section: s-c2acf30c34
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-325a82ee4e
+            part: body
+          en:
+            page: en
+            section: s-c3d439e063
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5d3436e7fe
+            part: body
+          en:
+            page: en
+            section: s-327283adc6
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-33e0079595
+            part: body
+          en:
+            page: en
+            section: s-487d2e6f4c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Compsognathus longipes
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=53007&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:53007; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:53007
+          selectedOccurrenceIds:
+            - occ:372429
+            - occ:557162
+            - occ:1433447
+          selectedCollectionIds:
+            - col:35262
+            - col:57682
+            - col:92110
+          sourceReferenceIds:
+            - ref:9478
+            - ref:26303
+            - ref:68005
+          originalIdentificationMappings:
+            - occurrenceId: occ:372429
+              originalIdentifiedName: Compsognathus corallestris n. sp.
+              acceptedName: Compsognathus longipes
+              difference: null
+            - occurrenceId: occ:557162
+              originalIdentifiedName: Compsognathus longipes n. gen. n. sp.
+              acceptedName: Compsognathus longipes
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-c6d0985eea
+        part: body
+      en:
+        page: en
+        section: s-f5c0235bac
+        part: body

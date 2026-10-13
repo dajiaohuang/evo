@@ -1,0 +1,95 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-b6d6595e1e
+      part: title
+    titleZh:
+      page: zh
+      section: s-35b13e142e
+      part: title
+    category: innovation
+    startAge: 439
+    endAge: 439
+    regions:
+      - Rongxi Formation, Leijiatun, Guizhou, China
+    clades:
+      - Fanjingshania renovata
+      - stem Chondrichthyes
+    summary:
+      page: en
+      section: s-b6d6595e1e
+      part: body
+    summaryZh:
+      page: zh
+      section: s-35b13e142e
+      part: body
+    claimIds:
+      - claim:event:rongxi-fanjingshania-dermoskeleton
+    evidenceItems:
+      - statement: Holotype IVPP V27433.1 is a pinnal shoulder plate portion fused to a pectoral fin-spine fragment, with more than one thousand isolated referred elements
+        relation: supports
+        claimIds:
+          - claim:event:rongxi-fanjingshania-dermoskeleton
+        referenceLinks:
+          - relation: supports
+            referenceId: andreev-2022-fanjingshania
+            pages: 970–972
+            figure: Figures 1g and 2a–c; Extended Data Figure 4c
+            quoteLocator: "Systematic palaeontology: Holotype, referred material, locality and horizon"
+      - statement: Specimens IVPP V27433.8–12 and V27434.2 reveal five growth centres and cyclical resorption and remodelling of bone and dentine in the spine–plate complex
+        relation: supports
+        claimIds:
+          - claim:event:rongxi-fanjingshania-dermoskeleton
+        referenceLinks:
+          - relation: supports
+            referenceId: andreev-2025-fanjingshania-shoulder
+            pages: 2–6
+            figure: Figures 1–3, especially Figure 2
+            quoteLocator: "Results: structure and development; Discussion: dermal skeletal remodelling"
+    uncertaintyItems:
+      - statement: The material is disarticulated and no assignable dentition is known, so the full-body reconstruction remains comparative rather than specimen-complete
+        relation: contextualizes
+        claimIds:
+          - claim:event:rongxi-fanjingshania-dermoskeleton
+        referenceLinks:
+          - relation: supports
+            referenceId: andreev-2022-fanjingshania
+            pages: 969–974
+            figure: Figures 1–3
+            quoteLocator: Systematic palaeontology; Discussion
+      - statement: Fanjingshania is treated as a stem chondrichthyan and cannot be synonymized with Qianodus or presented as a crown shark from co-occurrence alone
+        relation: contextualizes
+        claimIds:
+          - claim:event:rongxi-fanjingshania-dermoskeleton
+        referenceLinks:
+          - relation: supports
+            referenceId: andreev-2022-fanjingshania
+            figure: Figure 3; Extended Data phylogenies
+            quoteLocator: Phylogenetic results and taxonomic discussion
+          - relation: contextualizes
+            referenceId: andreev-2022-qianodus
+            quoteLocator: Discussion of co-occurring skeletal material
+  claims:
+    - subjectId: event:rongxi-fanjingshania-dermoskeleton
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Fanjingshania renovata from the late Aeronian Rongxi Formation at approximately 439 Ma is represented by holotype IVPP V27433.1 and more than one thousand isolated dermal elements; tomography of IVPP V27433.8–12 and V27434.2 shows a stem-chondrichthyan shoulder spine–plate complex formed through multiple growth centres and cyclical bone-and-dentine resorption, without an articulated body or associated dentition.
+      confidence: medium
+      confidenceRationale: The original description fixes the material and horizon, and the later open-access tomography study directly images cement lines, resorption and tissue replacement across several referred elements. Medium confidence retains the disarticulated association, analogical full-body reconstruction and the prohibition on synonymizing co-occurring Qianodus teeth.
+      referenceLinks:
+        - relation: supports
+          referenceId: andreev-2022-fanjingshania
+          pages: 969–974, especially pp. 970–972
+          figure: Figures 1g, 2a–c and 3; Extended Data Figures 1 and 4c
+          quoteLocator: "Systematic palaeontology: holotype, referred material, locality and horizon; Discussion"
+        - relation: supports
+          referenceId: andreev-2025-fanjingshania-shoulder
+          pages: 2–6
+          figure: Figures 1–3, especially Figure 2
+          quoteLocator: "Results: structure and development; Discussion: dermal skeletal remodelling"
+  claim-rationales.zh:
+    - 原始描述固定了标本材料与层位，后续开放获取的断层成像研究在多件归入标本中直接显示了胶结线、吸收和组织替换。中等置信度保留离散材料关联、整身复原的类比性质，并禁止把共存黔齿鱼牙旋直接并入该类群。
+  claim-statements.zh:
+    - 约 439 Ma 晚埃隆期融溪组的 Fanjingshania renovata 由正模 IVPP V27433.1 和一千余件孤立皮骨骼元件代表；IVPP V27433.8–12 与 V27434.2 的断层成像显示，其软骨鱼干群肩部棘—板复合体由多个生长中心以及骨和牙本质的周期性吸收形成，但尚无关节相连躯体或伴生齿列。

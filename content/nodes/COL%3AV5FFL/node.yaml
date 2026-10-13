@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys jinggangensis
+  displayName: Boulenophrys jinggangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5FFL
+  sourceIndexes:
+    - name:
+        en: Boulenophrys jinggangensis
+        zh: Boulenophrys jinggangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5FFL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/356
+            queryName: Boulenophrys jinggangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/419
+            queryName: Megophrys jinggangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/420
+            queryName: Xenophrys jinggangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70403d1c4c
+      - s-5f55aa5d92
+      - s-e2ae2d933b
+      - s-ceb31c0984
+      - s-e1a592d35e
+      - s-8d0438a36d
+      - s-622f8c30f6
+      - s-1ee8cf53db
+      - s-e3afcc65d9
+      - s-6aff834a16
+      - s-2f4fa08fba
+      - s-ce89258e54
+    zh:
+      - s-0ee7bc4c8f
+      - s-53003eb810
+      - s-b56d116b8a
+      - s-b6e69b50ec
+      - s-31ed603a7f
+      - s-817e9d7aaf
+      - s-7a0cd4cd48
+      - s-319c0bb47e
+      - s-5188169740
+      - s-c81d637235
+      - s-63b7849afa
+      - s-ff303a6758

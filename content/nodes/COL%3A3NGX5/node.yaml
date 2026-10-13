@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus fallax
+  displayName: Hyloxalus fallax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGX5
+  sourceIndexes:
+    - name:
+        en: Hyloxalus fallax
+        zh: Hyloxalus fallax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGX5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/100
+            queryName: Hyloxalus fallax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/88
+            queryName: Colostethus fallax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2937dd7378
+      - s-2b897bdf24
+      - s-3a43a143f1
+      - s-95a47cd2db
+      - s-a1a74299f7
+      - s-e3ea2a5dc4
+      - s-b4061a55a7
+    zh:
+      - s-96f85f5989
+      - s-c99b1a4559
+      - s-353090c9c4
+      - s-a35bbeb137
+      - s-4f415cc625
+      - s-0e2ff278bb
+      - s-ad5c44fde7

@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Metoposaurus azerouali
+    rank: species
+    sourceTaxonId: txn:391808
+    name:
+      en: Metoposaurus azerouali
+      zh: Metoposaurus azerouali
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-75923d0c09
+            part: body
+          zh:
+            page: zh
+            section: s-2ec613e90e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-8fb925feed
+            part: body
+          zh:
+            page: zh
+            section: s-ea8cffa586
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-13773ec380
+            part: body
+          zh:
+            page: zh
+            section: s-ae91b00b92
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:391808; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: V. Buffa, N.-E. Jalil, and J.-S. Steyer. 2019. Redescription of Arganasaurus (Metoposaurus) azerouali (Dutuit) comb. nov. from the Upper Triassic of the Argana Basin (Morocco), and the first phylogenetic analysis of the Metoposauridae (Amphibia, Temnospondyli). Papers in Palaeontology
+    occurrenceEvidence:
+      - occurrenceId: occ:1576258
+        collectionId: col:222689
+        acceptedTaxonId: txn:391808
+        taxonomicDifference: null
+        referenceId: ref:78371
+        bibliography: "N.-E. Jalil. 1996. Les Vertébrés permiens et triasiques de la Formation d’Argana (Haut Atlas occidental): liste faunique préliminaire et implications stratigraphiques [The Permian and Triassic vertebrates of the Argana Formation (western High Atlas): preliminary faunal list and stratigraphic implications].  In F. Medina (ed.), Le Permien et le Trias du Maroc: État des Connaissances. Marrakech: Editions Pumag."
+        locality:
+          countryCode: MA
+          stateProvince: Marrakech-Safi
+          county: null
+        stratigraphy:
+          group: Argana
+          formation: Timezgadiouine
+          member: Irohalene
+        olderAgeMa: 237
+        youngerAgeMa: 227.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-13773ec380
+            part: body
+          zh:
+            page: zh
+            section: s-ae91b00b92
+            part: body
+        sourceIds: []

@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cuscuta kilimanjari Oliv.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 32LTL, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 32LTL; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/32LTL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 32LTL
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001297569-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 32LTL / WFO wfo-0001297569
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_5962_0
+        referenceId: ref-da0a92de-f690-832d-a077-218de1a6724b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Cuscuta kilimanjari Oliv. account; archive rows 48396 (Morphology), 54512 (Habitat), source identifier 5962.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Stems of medium thickness to rather stout, yellowish to orange. Flowers 4-6 mm long, wide, pale cream-coloured, in few-flowered cymes on pedicels shorter than flowers, somewhat coriaceous when dried. Calyx cupulate; lobes ovate-orbicular, obtuse, overlapping at base, rather thick and often ± carinate. Corolla campanulate-cylindric; tube longer than ovate-orbicular, obtuse to rounded and often somewhat revolute lobes. Stamens shorter than corolla lobes; filaments ± as long as anthers. Scales triangular or oblong, apex often truncate, edge irregularly and unevenly fringed to almost entire, usually reaching bases of stamens, but sometimes smaller or reduced. Ovary globose; stigmas shorter than ovary, often flattened with convolute edges. Capsule globose, intrastylar aperture large, irregularly circumscissile near base. Seeds 2-4, ovoid, 1.5-3.0 mm long, somewhat attenuate at base, pale yellow-brown or blackish when dry; hilum oblong.
+            sourceIds:
+              - sanbi_5962_0
+            locator: "SANBI/WFO archive Morphology row 48396; source 5962.0; publication: Meeuse, ADJ; Welman, WG. 2000. Convolvulaceae, Fl. S. Africa 28(1): 1 - 138. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209568#page/1/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Parasitic on various hosts, often shrubby, but predominantly on herbaceous Acanthaceae on the floor and edges of lowland and upland rain forests, bamboo and riverine forests.
+            sourceIds:
+              - sanbi_5962_0
+            locator: "SANBI/WFO archive Habitat row 54512; source 5962.0; publication: Meeuse, ADJ; Welman, WG. 2000. Convolvulaceae, Fl. S. Africa 28(1): 1 - 138. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209568#page/1/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

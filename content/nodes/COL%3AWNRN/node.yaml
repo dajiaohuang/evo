@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cochranella euknemos
+  displayName: Cochranella euknemos
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/WNRN
+  sourceIndexes:
+    - name:
+        en: Cochranella euknemos
+        zh: Cochranella euknemos
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: WNRN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/379
+            queryName: Cochranella euknemos
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/412
+            queryName: Centrolenella euknemos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8298839c18
+      - s-3308541bba
+      - s-60f2e668fa
+      - s-089fb274bb
+      - s-24e1be0ff0
+      - s-114f51f066
+      - s-fc2a2c32a4
+      - s-ec8bfab13d
+      - s-5a2378444f
+      - s-515362d123
+    zh:
+      - s-7d87828dcf
+      - s-8653ced9c4
+      - s-a9553ecf0b
+      - s-5a54d0768b
+      - s-f3fe6e4f6a
+      - s-c017e3d5d8
+      - s-8a9fde644f
+      - s-2748bedc4a
+      - s-771bd84d4b
+      - s-819768eb85

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys pepe
+  displayName: Boulenophrys pepe
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ6PF
+  sourceIndexes:
+    - name:
+        en: Boulenophrys pepe
+        zh: Boulenophrys pepe
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ6PF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/374
+            queryName: Boulenophrys pepe
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41ec8cdd56
+      - s-66db1ffc36
+      - s-57353f1bb9
+      - s-bed7e40f86
+      - s-e1b7272fa5
+    zh:
+      - s-af9b17fb78
+      - s-d2d92e4ce3
+      - s-2bd59ee03f
+      - s-2cde83b29d
+      - s-768f0e8fb8

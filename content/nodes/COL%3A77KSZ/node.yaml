@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pipa parva
+  displayName: Pipa parva
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77KSZ
+  sourceIndexes:
+    - name:
+        en: Pipa parva
+        zh: Pipa parva
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77KSZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/356
+            queryName: Pipa parva
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/102
+            queryName: Protopipa parva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7c6bc6da28
+      - s-fffd903ab7
+      - s-3022e7b466
+      - s-6c626a0acb
+      - s-4625daa8a3
+      - s-f4b726e118
+      - s-337855da63
+      - s-efc488aaf4
+      - s-6682e16072
+      - s-b55a1bd7f5
+      - s-5effc292ed
+      - s-ea148effac
+      - s-71284c8266
+      - s-aec55ade2e
+      - s-6385c53d01
+      - s-66c599325a
+      - s-817624b4ab
+      - s-6919809049
+      - s-8d3896c56e
+    zh:
+      - s-b97759ccc7
+      - s-b196f543fb
+      - s-4c53324a1c
+      - s-48df23c72c
+      - s-937d6c1f7a
+      - s-4bff591895
+      - s-646d23be90
+      - s-b231ed9494
+      - s-d61db32f10
+      - s-5a9a6ceedd
+      - s-8fc190ab52
+      - s-99b95a06b4
+      - s-915b9fb059
+      - s-f97f5bf192
+      - s-ca0410fce0
+      - s-3f6aed1b33
+      - s-42f70db575
+      - s-bd08883fe8
+      - s-4941f7cd9d

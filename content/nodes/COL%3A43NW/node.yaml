@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus
+  displayName: Desmognathus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/43NW
+  sourceIndexes:
+    - name:
+        en: Desmognathus
+        zh: Desmognathus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 43NW
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/350
+            queryName: Desmognathus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 433
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f65ea0f97
+      - s-afe10179bb
+      - s-5c74b442ba
+      - s-1087be447c
+      - s-b68f2c39c4
+      - s-d334beac63
+      - s-2f35946e78
+      - s-2d1841545b
+      - s-a2c88c4d23
+      - s-d4e86aef09
+      - s-7d57491a82
+      - s-fbe328a7d2
+      - s-abd4593668
+      - s-90e6c303a4
+      - s-7f742f5ef8
+      - s-fe13b7564b
+      - s-c65ed462f8
+      - s-643c2d8aa4
+      - s-7fb0620229
+    zh:
+      - s-c86fa570ac
+      - s-9302fa6f52
+      - s-cd4cbe4437
+      - s-13e0762c4b
+      - s-78731dabac
+      - s-57153cdce1
+      - s-aebad1ad54
+      - s-934984e996
+      - s-5e03b5afc7
+      - s-078ecf2069
+      - s-c67daaf26e
+      - s-f28e041000
+      - s-e24b2e9fab
+      - s-c9c18d1919
+      - s-7164f8e3a7
+      - s-73c9a29347
+      - s-7a00e12cb3
+      - s-60180da9f6
+      - s-d274fe318f

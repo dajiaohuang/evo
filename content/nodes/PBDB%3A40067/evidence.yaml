@@ -1,0 +1,113 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amphidolops
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Amphidolops
+      en: Amphidolops
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0c6a09368e
+            part: body
+          en:
+            page: en
+            section: s-9903840fe9
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2ad49aa155
+            part: body
+          en:
+            page: en
+            section: s-ec6b6a75ee
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Amphidolops
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=40067
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:40067
+          readingTargets:
+            - name: Amphidolops yapa
+              pbdbTaxonId: txn:99579
+              canonicalPath: content/nodes/PBDB%3A99579
+            - name: Amphidolops minimus
+              pbdbTaxonId: txn:430851
+              canonicalPath: content/nodes/PBDB%3A430851
+            - name: Amphidolops serrula
+              pbdbTaxonId: txn:315846
+              canonicalPath: content/nodes/PBDB%3A315846
+            - name: Amphidolops intermedius
+              pbdbTaxonId: txn:430852
+              canonicalPath: content/nodes/PBDB%3A430852
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-9017053eee
+        part: body
+      en:
+        page: en
+        section: s-78ccdf645e
+        part: body

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gegeneophis madhavai
+  displayName: Gegeneophis madhavai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FGJL
+  sourceIndexes:
+    - name:
+        en: Gegeneophis madhavai
+        zh: Gegeneophis madhavai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FGJL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/91
+            queryName: Gegeneophis madhavai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-607ddc02be
+      - s-d5eda8f3fc
+      - s-54f8313e1f
+      - s-64d3cc92d5
+      - s-339ea3159e
+      - s-89cba65831
+      - s-7e39c645c9
+      - s-8c969ef669
+      - s-484e626c92
+      - s-6e3a9d8d25
+      - s-ce4c9ab4d7
+    zh:
+      - s-e6c54eff0e
+      - s-87468052dc
+      - s-ed6fb12fa7
+      - s-3ce7fd4dcc
+      - s-d314007aac
+      - s-3eb3102df5
+      - s-411765b50b
+      - s-8a3a3c4eab
+      - s-f2cbb1130e
+      - s-4f5dabf65e
+      - s-9f062c3be9

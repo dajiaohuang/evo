@@ -1,0 +1,168 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Oedipina ecuatoriana
+    name:
+      en: Oedipina ecuatoriana
+      zh: Oedipina ecuatoriana
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Oedipina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-23af5dc04b
+            part: body
+          zh:
+            page: zh
+            section: s-e482a3c266
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-685e4a2a83
+            part: body
+          zh:
+            page: zh
+            section: s-f7c95d1677
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 238; Reference.csv rows 4258
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 238
+        values:
+          - Plethodontidae
+          - Oedipina
+          - Oedipina ecuatoriana
+          - M
+          - NA
+          - "45.6"
+          - NA
+          - "29.3"
+          - "7.5"
+          - "4.9"
+          - "2.3"
+          - "0.8"
+          - NA
+          - "0.7"
+          - NA
+          - "2.4"
+          - "79.2"
+          - "3.7"
+          - NA
+          - "3.9"
+          - NA
+          - "5"
+          - "8.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.5"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4258
+        values:
+          - Caudata
+          - Oedipina_ecuatoriana
+          - Reyes-Puig, C., Wake, D., Kotharambath, R., Streicher, J., Koch, C., Cisneros-Heredia, D., . . . Ron, S. (2020). Two extremely rare new species of fossorial salamanders of the genus Oedipina (Plethodontidae) from northwestern Ecuador. PeerJ, 8(2), e9934. https://doi.org/10.7717/peerj.9934
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - UEW
+      - SL
+      - TL
+      - TW
+      - TAH
+      - FLL
+      - HLL
+      - ELL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - R4PWH
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

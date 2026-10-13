@@ -1,0 +1,209 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Koolasuchus cleelandi
+    rank: species
+    sourceTaxonId: txn:251484
+    name:
+      en: Koolasuchus cleelandi
+      zh: Koolasuchus cleelandi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-e4cad7c10f
+            part: body
+          zh:
+            page: zh
+            section: s-d5b9d02fdd
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-b64d846149
+            part: body
+          zh:
+            page: zh
+            section: s-c290f34d33
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-7e15c035ee
+            part: body
+          zh:
+            page: zh
+            section: s-b55fad379b
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:251484; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. Warren, T. M. Rich, and P. Vickers-Rich. 1997. The last last labyrinthodont?. Palaeontographica Abteilung A 247:1-24
+    occurrenceEvidence:
+      - occurrenceId: occ:401724
+        collectionId: col:38541
+        acceptedTaxonId: txn:251484
+        taxonomicDifference: null
+        referenceId: ref:43863
+        bibliography: A. Warren, T. M. Rich, and P. Vickers-Rich. 1997. The last last labyrinthodont?. Palaeontographica Abteilung A 247:1-24
+        locality:
+          countryCode: AU
+          stateProvince: Victoria
+          county: null
+        stratigraphy:
+          group: Strzelecki
+          formation: '"Wonthaggi"'
+          member: null
+        olderAgeMa: 121.4
+        youngerAgeMa: 119.57
+      - occurrenceId: occ:1091320
+        collectionId: col:137194
+        acceptedTaxonId: txn:251484
+        identifiedName: Koolasuchus cleelandi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:43863
+        bibliography: A. Warren, T. M. Rich, and P. Vickers-Rich. 1997. The last last labyrinthodont?. Palaeontographica Abteilung A 247:1-24
+        locality:
+          countryCode: AU
+          stateProvince: Victoria
+          county: null
+        stratigraphy:
+          group: Strzelecki
+          formation: '"Wonthaggi"'
+          member: null
+        olderAgeMa: 121.4
+        youngerAgeMa: 119.57
+      - occurrenceId: occ:1091321
+        collectionId: col:127567
+        acceptedTaxonId: txn:251484
+        taxonomicDifference: null
+        referenceId: ref:43863
+        bibliography: A. Warren, T. M. Rich, and P. Vickers-Rich. 1997. The last last labyrinthodont?. Palaeontographica Abteilung A 247:1-24
+        locality:
+          countryCode: AU
+          stateProvince: Victoria
+          county: null
+        stratigraphy:
+          group: Strzelecki
+          formation: '"Wonthaggi"'
+          member: null
+        olderAgeMa: 121.4
+        youngerAgeMa: 119.57
+      - occurrenceId: occ:1091322
+        collectionId: col:137195
+        acceptedTaxonId: txn:251484
+        taxonomicDifference: null
+        referenceId: ref:43863
+        bibliography: A. Warren, T. M. Rich, and P. Vickers-Rich. 1997. The last last labyrinthodont?. Palaeontographica Abteilung A 247:1-24
+        locality:
+          countryCode: AU
+          stateProvince: Victoria
+          county: null
+        stratigraphy:
+          group: Strzelecki
+          formation: '"Wonthaggi"'
+          member: null
+        olderAgeMa: 121.4
+        youngerAgeMa: 119.57
+      - occurrenceId: occ:1091323
+        collectionId: col:137196
+        acceptedTaxonId: txn:251484
+        taxonomicDifference: null
+        referenceId: ref:43863
+        bibliography: A. Warren, T. M. Rich, and P. Vickers-Rich. 1997. The last last labyrinthodont?. Palaeontographica Abteilung A 247:1-24
+        locality:
+          countryCode: AU
+          stateProvince: Victoria
+          county: null
+        stratigraphy:
+          group: Strzelecki
+          formation: '"Wonthaggi"'
+          member: null
+        olderAgeMa: 121.4
+        youngerAgeMa: 119.57
+      - occurrenceId: occ:1618212
+        collectionId: col:228965
+        acceptedTaxonId: txn:251484
+        taxonomicDifference: null
+        referenceId: ref:83736
+        bibliography: "T. H. Rich and P. Vickers-Rich. 2020. Dinosaurs of Darkness (second edition). Bloomington: Indiana University Press."
+        locality:
+          countryCode: AU
+          stateProvince: Victoria
+          county: null
+        stratigraphy:
+          group: Strzelecki
+          formation: '"Wonthaggi"'
+          member: null
+        olderAgeMa: 113.2
+        youngerAgeMa: 110.1
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-7e15c035ee
+            part: body
+          zh:
+            page: zh
+            section: s-b55fad379b
+            part: body
+        sourceIds: []

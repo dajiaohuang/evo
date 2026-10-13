@@ -1,0 +1,452 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leucostethus siapida Grant & Bolívar-García, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leucostethus siapida
+      zh: Leucostethus siapida
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8cff584a4a
+            part: title
+          zh:
+            page: zh
+            section: s-721d87b64f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8cff584a4a
+            part: body
+          zh:
+            page: zh
+            section: s-721d87b64f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d73611b4ab
+            part: title
+          zh:
+            page: zh
+            section: s-570b0adb45
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d73611b4ab
+            part: body
+          zh:
+            page: zh
+            section: s-570b0adb45
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9458c11465
+            part: title
+          zh:
+            page: zh
+            section: s-741992345d
+            part: title
+        sourceIds:
+          - primary-pmc8417023-pygfc
+        text:
+          en:
+            page: en
+            section: s-9458c11465
+            part: body
+          zh:
+            page: zh
+            section: s-741992345d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-acee8fd04e
+            part: title
+          zh:
+            page: zh
+            section: s-1df78746ce
+            part: title
+        sourceIds:
+          - primary-pmc8417023-pygfc
+        text:
+          en:
+            page: en
+            section: s-acee8fd04e
+            part: body
+          zh:
+            page: zh
+            section: s-1df78746ce
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-5fb5683c7f
+            part: title
+          zh:
+            page: zh
+            section: s-c0e34e28a6
+            part: title
+        sourceIds:
+          - primary-pmc8819055-pygfc
+        text:
+          en:
+            page: en
+            section: s-5fb5683c7f
+            part: body
+          zh:
+            page: zh
+            section: s-c0e34e28a6
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ee2879fabf
+            part: title
+          zh:
+            page: zh
+            section: s-86220e381d
+            part: title
+        sourceIds:
+          - primary-pmc8819055-pygfc
+        text:
+          en:
+            page: en
+            section: s-ee2879fabf
+            part: body
+          zh:
+            page: zh
+            section: s-86220e381d
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-0c1cb61a6a
+            part: title
+          zh:
+            page: zh
+            section: s-43e23f8ef4
+            part: title
+        sourceIds:
+          - primary-pmc8819055-pygfc
+        text:
+          en:
+            page: en
+            section: s-0c1cb61a6a
+            part: body
+          zh:
+            page: zh
+            section: s-43e23f8ef4
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-44047d786a
+            part: title
+          zh:
+            page: zh
+            section: s-e9ba70e76f
+            part: title
+        sourceIds:
+          - primary-pmc8819055-pygfc
+        text:
+          en:
+            page: en
+            section: s-44047d786a
+            part: body
+          zh:
+            page: zh
+            section: s-e9ba70e76f
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2d1086521c
+            part: title
+          zh:
+            page: zh
+            section: s-88cd48fe36
+            part: title
+        sourceIds:
+          - primary-pmc8819055-pygfc
+        text:
+          en:
+            page: en
+            section: s-2d1086521c
+            part: body
+          zh:
+            page: zh
+            section: s-88cd48fe36
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leucostethus siapida
+          url: https://www.checklistbank.org/dataset/316115/taxon/PYGFC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc8417023-pygfc
+        referenceId: ref-1d797848-978c-4003-a48e-cd18ea4bba2c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leucostethus siapida: Distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc8819055-pygfc
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leucostethus siapida: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-bef293b6f4
+        part: body
+      zh:
+        page: zh
+        section: s-1ea7d32291
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1057.67621
+        referenceId: ref-1d797848-978c-4003-a48e-cd18ea4bba2c
+        sourceKey: primary-pmc8417023-pygfc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8417023/article.xml
+        sourceConcept: Leucostethus siapida
+        evidenceRead: "Leucostethus siapida: Distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Daytime activity following heavy rain
+              zh: 大雨后的白天活动
+            referenceId: ref-1d797848-978c-4003-a48e-cd18ea4bba2c
+            sourceKey: primary-pmc8417023-pygfc
+            locator: "Leucostethus siapida: Distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8f4ef83e07
+                part: body
+              zh:
+                page: zh
+                section: s-8b7fa904b1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: One male’s playback response
+              zh: 一只雄性的回放反应
+            referenceId: ref-1d797848-978c-4003-a48e-cd18ea4bba2c
+            sourceKey: primary-pmc8417023-pygfc
+            locator: "Leucostethus siapida: Distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-09618342f3
+                part: body
+              zh:
+                page: zh
+                section: s-6beb963324
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1111/joa.13569
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        sourceKey: primary-pmc8819055-pygfc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8819055/article.xml
+        sourceConcept: Source Leucostethus siapida; preserved-specimen observation; exact name or explicit nomenclatural link only
+        evidenceRead: "Leucostethus siapida: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Original bilingual factual descriptions of specimen-based histology and explicitly identified literature-derived outgroups; no source prose, tables or figures reproduced or adapted.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Hand glands in the examined adult-male evidence
+              zh: 所检查成体雄性证据中的手部腺体
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-pygfc
+            locator: PMC8819055 XML Table2 joa13569-tbl-0002 tbody row32, literalLeucostethus siapida; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b934832990
+                part: body
+              zh:
+                page: zh
+                section: s-09e2acaaf2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Gland types describe structure rather than chemical identity
+              zh: 腺体类型描述结构而非化学身份
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-pygfc
+            locator: PMC8819055 XML Table2 joa13569-tbl-0002 tbody row32, literalLeucostethus siapida; Results sec0011–0015; XML Table3 andsec0012–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-858d0692d3
+                part: body
+              zh:
+                page: zh
+                section: s-606f897a2c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Preserved material, finger numbering and staining
+              zh: 保存材料、指序和染色方法
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-pygfc
+            locator: PMC8819055 XML sec0003–0006; PMC8819055 XML Table2 joa13569-tbl-0002 tbody row32, literalLeucostethus siapida; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b609c356ac
+                part: body
+              zh:
+                page: zh
+                section: s-8a64d1d5a2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: A proposed reproductive role remains untested
+              zh: 提出的繁殖功能仍未验证
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-pygfc
+            locator: PMC8819055 XML sec0023
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-021a5c1769
+                part: body
+              zh:
+                page: zh
+                section: s-c4886825f7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: morphology
+            heading:
+              en: Swelling detected despite earlier absence reports
+              zh: 尽管先前报告缺失，仍检出膨胀
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-pygfc
+            locator: PMC8819055 XML sec0009 lastparagraph
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c1ffc4bdd7
+                part: body
+              zh:
+                page: zh
+                section: s-d865c8d045
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

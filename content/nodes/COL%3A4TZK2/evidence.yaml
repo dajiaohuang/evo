@@ -1,0 +1,576 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Saimiri sciureus (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 普通松鼠猴
+      en: Common squirrel monkey
+    sections:
+      - topic: evolution
+        text:
+          zh:
+            page: zh
+            section: s-38336d9843
+            part: body
+          en:
+            page: en
+            section: s-e6b8e0bbd3
+            part: body
+        sourceIds:
+          - baker2018
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-be5dea0e52
+            part: body
+          en:
+            page: en
+            section: s-bb610bf4b2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-23d3758775
+            part: body
+          en:
+            page: en
+            section: s-f731093a73
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-569cabb410
+            part: body
+          en:
+            page: en
+            section: s-accffa7415
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-15a8f61cb7
+            part: body
+          en:
+            page: en
+            section: s-d87ef2096b
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-bd290d41e3
+            part: body
+          en:
+            page: en
+            section: s-73095e8191
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-c0e13ee3d4
+            part: body
+          en:
+            page: en
+            section: s-4d8da1e94e
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-7658b138ce
+            part: body
+          en:
+            page: en
+            section: s-00e896b316
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-51f6653ddd
+            part: body
+          en:
+            page: en
+            section: s-3901a8c202
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d9255e565c
+            part: body
+          en:
+            page: en
+            section: s-5e9b4ccf9c
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-38235a24c9
+            part: body
+          en:
+            page: en
+            section: s-0d3b798425
+            part: body
+    sources:
+      - id: baker2018
+        referenceId: ref-9bfcf032-739c-8641-a2a8-f7c52578bd1e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 32 个体、不同来源的实验室 DNA 面板；结论限于研究标记和作者的物种标注，并保留两份分类可疑样本的说明。
+            en: A 32-individual laboratory DNA panel of mixed provenance; conclusions are limited to the study markers and assignments, including the caveat about two uncertain specimens.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4TZK2
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12088; name Saimiri sciureus; reference table row 12088; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: BC mammals - Savage et al., 2004 from median of 7(BC mammals - Savage et al., 2004, BC mammals - Savage et al., 2004, BC mammals - Savage et al., 2004, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            female_maturity_d: mean of Ricklefs, 2010b & Ernest et al., 2003 from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            litter_or_clutch_size_n: mean of Ernest et al., 2003 & de Magalhaes and Costa, 2009 from median of 4(Garratt et al., 2014, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            gestation_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            weaning_d: Ricklefs, 2010b from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            birth_or_hatching_weight_g: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            maximum_longevity_y: Ricklefs, 2010b
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Ricklefs, 2010b
+            - BC mammals - Savage et al., 2004
+            - Garratt et al., 2014
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 608; Scientific=Saimiri sciureus; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-840f794fc7
+        part: body
+      en:
+        page: en
+        section: s-3cea5cc716
+        part: body
+  catalogue-dossier:
+    scientificName: Saimiri sciureus (Linnaeus, 1758)
+    authorship: (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact accepted COL26.8 usage 4TZK2 was verified in the release-pinned search registry for name, authorship, species rank, accepted status, and sourceDatasetId 2144; its accepted parent chain was followed by stable ID through the pinned hierarchy registry.
+      scope: The dossier is keyed to accepted COL26.8 usage 4TZK2. The cited article compares author-labelled Saimiri sciureus and S. boliviensis sample groups and notes older or incomplete specimen labels; it does not independently establish the accepted species concept or override COL taxonomy.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The cited sections do not establish field collection for the full DNA panel; no wild-population inference is made.
+      domesticated: Domestication was not assessed.
+      captive: The authors report some S. boliviensis samples from a captive breeding colony; individual-level captive status is not fully mapped here.
+      fossil: No fossil material or geological time was studied.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4TZK2
+          stableId: col:4TZK2@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: "Accepted species usage 4TZK2: verbatim name, authorship, rank, accepted status, sourceDatasetId 2144, and full accepted parent chain."
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4TZK2. https://doi.org/10.48580/dgywk
+      - id: baker2018
+        referenceId: ref-f4856774-3d8e-8dfa-aa03-6d5c899a7a6f
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAssessment
+          - licenseAppliesTo
+          - rightsEvidenceUrl
+          - scope
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: The article text under its item-level CC BY 4.0 notice. No separately credited figures, images, or supplementary worksheets are reused.
+          stableId: doi:10.1186/s13100-018-0114-7
+          accessedAt: 2026-09-28
+          locator: Abstract > Results; Methods > DNA samples; Results > Species informative Alu polymorphisms, paragraph preceding Table 4; Table 4.
+          licenseAssessment: item-level-verified
+          rightsEvidenceUrl: https://link.springer.com/article/10.1186/s13100-018-0114-7
+          scope: One laboratory Alu insertion marker study on a mixed-provenance 32-individual squirrel-monkey DNA panel; its author-defined species groups and specimen-identification caveats are retained.
+          attribution: Baker JN, Walker JA, Denham MW, et al. (2018). Recently integrated Alu insertions in the squirrel monkey (Saimiri) lineage and application for population analyses. Mobile DNA 9:9. https://doi.org/10.1186/s13100-018-0114-7. Claims paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected marker study does not assess diagnostic anatomy, measurements, or morphological variation.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected marker study does not assess development, reproduction, survival, or lifespan.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected marker study does not assess habitat, behavior, food, predators, parasites, or ecological interactions.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: Within the authors’ 32-individual squirrel-monkey DNA panel, 110 of 382 tested Alu insertion loci were polymorphic for insertion presence or absence; among these, 51 showed the study’s species-informative allele-frequency distributions between its S. sciureus and S. boliviensis groups. The authors note that two specimens labelled S. sciureus clustered more closely with S. boliviensis, so this result is limited to that marker panel and those study assignments and does not independently resolve species boundaries.
+            sourceIds:
+              - baker2018
+            locator: Abstract > Results; Methods > DNA samples; Results > Species informative Alu polymorphisms, paragraph preceding Table 4; Table 4; identity caveat in Results > Population structure.
+            placeTimeScope: Laboratory analyses of a 32-individual mixed-provenance DNA panel; the article does not state collection dates in the cited sections. The result is limited to study-labelled S. sciureus and S. boliviensis groups, with the authors’ specimen-identification caveat retained.
+            lifeStatus: Tissue and DNA obtained from museums and research centres, with some captive-colony material reported; individual wild/captive status is not resolved for the full panel. No live field observations are used.
+            originalLanguage: en
+        gaps:
+          - This single marker panel supports a narrow result about recent insertion polymorphisms and sample-group allele-frequency patterns; it does not supply a full species phylogeny, divergence-time estimate, or independently resolved species boundary.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study’s sample sources are not a range-wide distribution inventory; no native-range or change-through-time claim is made.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil evidence review or bounded fossil-record search was performed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The paper mentions potential relevance to conservation biology but does not provide a formal status, trend, or population-risk assessment.
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4DT
+        scientificName: Haplorrhini Pocock, 1918
+        authorship: Pocock, 1918
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4PM
+        scientificName: Simiiformes Haeckel, 1866
+        authorship: Haeckel, 1866
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 7TZ
+        scientificName: Cebidae Bonaparte, 1831
+        authorship: Bonaparte, 1831
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 628NK
+        scientificName: Saimiriinae Miller, 1812
+        authorship: Miller, 1812
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 7BQ9
+        scientificName: Saimiri Voigt in G. Cuvier, 1831
+        authorship: Voigt in G. Cuvier, 1831
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4TZK2
+        scientificName: Saimiri sciureus (Linnaeus, 1758)
+        authorship: (Linnaeus, 1758)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"

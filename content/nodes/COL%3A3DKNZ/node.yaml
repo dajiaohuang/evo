@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Exerodonta chimalapa
+  displayName: Exerodonta chimalapa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DKNZ
+  sourceIndexes:
+    - name:
+        en: Exerodonta chimalapa
+        zh: Exerodonta chimalapa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DKNZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/448
+            queryName: Exerodonta chimalapa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/303
+            queryName: Hyla chimalapa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-34a90eb347
+      - s-5d034ba45e
+      - s-11a6ccbe8a
+      - s-f35245a25c
+      - s-52605bd67a
+      - s-ad73fae23d
+      - s-9f27186c29
+      - s-28de20d893
+    zh:
+      - s-090717bd88
+      - s-a610756e91
+      - s-7bfd415a83
+      - s-9fce29f17c
+      - s-32845f23e6
+      - s-a94f734069
+      - s-23db5733b5
+      - s-9aceee34fc

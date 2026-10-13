@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla matudai
+  displayName: Plectrohyla matudai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5CH
+  sourceIndexes:
+    - name:
+        en: Plectrohyla matudai
+        zh: Plectrohyla matudai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5CH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/439
+            queryName: Plectrohyla matudai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/19
+            queryName: Plectrohyla brachycephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/20
+            queryName: Hyla matudai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/330
+            queryName: Plectrohyla matudai brachycephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/331
+            queryName: Plectrohyla matudai matudai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5239afa02
+      - s-402bd2a058
+      - s-c4352a3d13
+      - s-8a9336dc7f
+      - s-1759948d73
+      - s-14ac06dd43
+      - s-7b9ed77847
+      - s-5ef8294ef7
+      - s-5d6e843c76
+      - s-4b95579259
+    zh:
+      - s-55d6b92202
+      - s-be5586d797
+      - s-1bf24ffc24
+      - s-d16937081f
+      - s-1473834770
+      - s-88852b9366
+      - s-515ce24099
+      - s-983411c1c2
+      - s-eef88b6644
+      - s-9e62ce38db

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella martyi
+  displayName: Rhinella martyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7NZ
+  sourceIndexes:
+    - name:
+        en: Rhinella martyi
+        zh: Rhinella martyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7NZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/346
+            queryName: Rhinella martyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c191f2c64d
+      - s-c000388db3
+      - s-dbb5d8832e
+      - s-ff132436e9
+      - s-3c47ee1ecb
+      - s-5c0640bfd4
+      - s-800b344658
+      - s-411fd59061
+      - s-0993a8b880
+      - s-6f18e708eb
+    zh:
+      - s-ed658e4ee7
+      - s-8f05c2235b
+      - s-5491a2040c
+      - s-fb3b7884e9
+      - s-269afc567e
+      - s-daf548dc41
+      - s-f9db44f2ce
+      - s-32517db30c
+      - s-4de8542595
+      - s-a9f0ee341a

@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Phrynobatrachus liberiensis
+    name:
+      en: Phrynobatrachus liberiensis
+      zh: Phrynobatrachus liberiensis
+    sourceClassification:
+      order: Anura
+      family: Phrynobatrachidae
+      genus: Phrynobatrachus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d9c5d087e0
+            part: body
+          zh:
+            page: zh
+            section: s-d940c5ba48
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8caaefb29b
+            part: body
+          zh:
+            page: zh
+            section: s-3c5970a658
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4233, 4234; Reference.csv rows 2258
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4233
+        values:
+          - Phrynobatrachidae
+          - Phrynobatrachus
+          - Phrynobatrachus liberiensis
+          - M
+          - NA
+          - NA
+          - "8.05"
+          - "3.25"
+          - "1.81"
+          - NA
+          - "2.27"
+          - NA
+          - NA
+          - "2.01"
+          - "3.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.54"
+          - "12.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "23.7"
+      - rowNumber: 4234
+        values:
+          - Phrynobatrachidae
+          - Phrynobatrachus
+          - Phrynobatrachus liberiensis
+          - F
+          - NA
+          - NA
+          - "10.14"
+          - "3.94"
+          - "2.54"
+          - NA
+          - "3.11"
+          - NA
+          - NA
+          - "2.5"
+          - "4.38"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "17.48"
+          - "15.86"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "31.45"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2258
+        values:
+          - Anura
+          - Phrynobatrachus_liberiensis
+          - "RÖDel, M.-O., Boateng, C. O., Penner, J., & Hillers, A. (2009). A new cryptic Phrynobatrachus species (Amphibia: Anura: Phrynobatrachidae) from Ghana, West Africa. Zootaxa, 1970(1), 52-63. https://doi.org/10.11646/zootaxa.1970.1.2"
+    availableTraitCodes:
+      - HW
+      - ED
+      - TD
+      - IOD
+      - EN
+      - SL
+      - TL
+      - THL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4GW9T
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

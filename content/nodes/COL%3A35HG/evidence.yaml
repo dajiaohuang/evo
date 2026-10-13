@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Atympanophrys Tian & Hu, 1983
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Atympanophrys
+      zh: Atympanophrys
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-95d6502ebb
+            part: title
+          zh:
+            page: zh
+            section: s-99646690da
+            part: title
+        text:
+          en:
+            page: en
+            section: s-95d6502ebb
+            part: body
+          zh:
+            page: zh
+            section: s-99646690da
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1031e1dd95
+            part: title
+          zh:
+            page: zh
+            section: s-a953a72086
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1031e1dd95
+            part: body
+          zh:
+            page: zh
+            section: s-a953a72086
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b8e217b2fc
+            part: title
+          zh:
+            page: zh
+            section: s-16c631cf9f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 67XQH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A67XQH
+            label:
+              en: Atympanophrys gigantica
+              zh: Atympanophrys gigantica
+          - kind: catalogue
+            colId: JNTV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJNTV
+            label:
+              en: Atympanophrys nankiangensis
+              zh: Atympanophrys nankiangensis
+          - kind: catalogue
+            colId: JNTX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJNTX
+            label:
+              en: Atympanophrys shapingensis
+              zh: Atympanophrys shapingensis
+          - kind: catalogue
+            colId: JNTY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJNTY
+            label:
+              en: Atympanophrys wawuensis
+              zh: Atympanophrys wawuensis
+        text:
+          en:
+            page: en
+            section: s-b8e217b2fc
+            part: body
+          zh:
+            page: zh
+            section: s-16c631cf9f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Atympanophrys
+          url: https://www.checklistbank.org/dataset/316115/taxon/35HG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a80c53f601
+        part: body
+      zh:
+        page: zh
+        section: s-3859f1d5a1
+        part: body

@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Myrmelastes leucostigma
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Myrmelastes leucostigma
+      en: Myrmelastes leucostigma
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-744f119859
+            part: body
+          en:
+            page: en
+            section: s-a0504cea5e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-079decb046
+            part: body
+          en:
+            page: en
+            section: s-669798c1f8
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-4389709bfc
+            part: body
+          en:
+            page: en
+            section: s-2b68d67952
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-bb6854010f
+            part: body
+          en:
+            page: en
+            section: s-2ad59a991d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-37c7f3f1eb
+            part: body
+          en:
+            page: en
+            section: s-c5645ebb95
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Myrmelastes leucostigma
+          url: https://www.checklistbank.org/dataset/316115/taxon/R8G27
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetMyrmelastesHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Myrmelastes historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 7789–7795; each eBird and BirdTree crosswalk, my/sc COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Schistocichla／Myrmeciza 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Schistocichla／Myrmeciza combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-6d57d9b31d
+        part: body
+      en:
+        page: en
+        section: s-123572155f
+        part: body

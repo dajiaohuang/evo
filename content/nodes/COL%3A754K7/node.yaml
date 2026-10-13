@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax jingdongensis
+  displayName: Oreolalax jingdongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/754K7
+  sourceIndexes:
+    - name:
+        en: Oreolalax jingdongensis
+        zh: Oreolalax jingdongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 754K7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/215
+            queryName: Oreolalax jingdongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/77
+            queryName: Scutiger jingdongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fc4f86c1b8
+      - s-5991fafbec
+      - s-69baf4e999
+      - s-74e8eb4eb5
+      - s-a602a48f84
+      - s-707d3da698
+      - s-e8972b99d4
+      - s-cadc6e1a35
+      - s-75e0f2b87e
+      - s-15e31953e4
+    zh:
+      - s-61906d3d1e
+      - s-d5100ae312
+      - s-bab6d19d19
+      - s-d2181ebb30
+      - s-1e9d88154c
+      - s-72dee9a765
+      - s-3224368ab6
+      - s-f4e12a1d58
+      - s-21f22ec035
+      - s-990447672c

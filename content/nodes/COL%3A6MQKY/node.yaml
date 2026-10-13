@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius okiensis
+  displayName: Hynobius okiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MQKY
+  sourceIndexes:
+    - name:
+        en: Hynobius okiensis
+        zh: Hynobius okiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MQKY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/185
+            queryName: Hynobius okiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-52b81af3ec
+      - s-25957cd247
+      - s-e04ed5f70a
+      - s-44d4c95fe1
+      - s-4c297d527c
+      - s-5ffefec3d0
+      - s-ca61587fa6
+      - s-3ce4d34543
+    zh:
+      - s-821b055095
+      - s-23e4d610dd
+      - s-8303d53ff5
+      - s-282e5466e1
+      - s-7f55aac256
+      - s-bb5e990efe
+      - s-b27405a3f4
+      - s-7a4256461d

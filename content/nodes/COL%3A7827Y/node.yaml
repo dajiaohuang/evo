@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon sequoyah
+  displayName: Plethodon sequoyah
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7827Y
+  sourceIndexes:
+    - name:
+        en: Plethodon sequoyah
+        zh: Plethodon sequoyah
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7827Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/489
+            queryName: Plethodon sequoyah
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/426
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, with Comments Regarding Confidence in Our Understanding
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b45bf42996
+      - s-5265c74071
+      - s-f0ac1e8d95
+      - s-5495b3ac1c
+      - s-778a879b07
+      - s-a521d51b8f
+      - s-4647f99ddd
+      - s-f823ca6565
+      - s-277270388b
+      - s-024b049a27
+      - s-0196fa326e
+      - s-84a09dd1ed
+      - s-164aa6d2c6
+      - s-059f6d5930
+      - s-1d2ac1aeb5
+    zh:
+      - s-51f685bac2
+      - s-db5d4576d2
+      - s-0286124897
+      - s-3e2ba3f25e
+      - s-0731a57491
+      - s-ff1c9889a6
+      - s-e44e1581ed
+      - s-7f344bc79e
+      - s-aea9a13c3a
+      - s-035c7984b9
+      - s-744ee487dd
+      - s-0338492f14
+      - s-cbf2f34950
+      - s-ed563e6905
+      - s-7d5a992f5a

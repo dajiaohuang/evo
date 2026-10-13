@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates
+  displayName: Lithobates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62XYT
+  sourceIndexes:
+    - name:
+        en: Lithobates
+        zh: Lithobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62XYT
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/12
+            queryName: Lithobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2138
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1b23e238bc
+      - s-25cf6ba55f
+      - s-a4a592a088
+      - s-d217835a81
+      - s-6a094ae271
+      - s-e518cd326b
+      - s-c84c0b0814
+      - s-3d6bb060f4
+      - s-941d3b8d4b
+      - s-c3a8c1a754
+      - s-981a09e1d7
+      - s-90f59995c5
+      - s-d75e2fe868
+      - s-00329ff91f
+      - s-ecc48a30fb
+      - s-7e742dfd29
+      - s-26864e2c6a
+      - s-3a986586e1
+      - s-9ba3541f83
+      - s-fea11292d0
+      - s-85ee657bbb
+      - s-c36b2f90f3
+      - s-ea2a632983
+      - s-0ed8885771
+      - s-2267ca9c89
+      - s-e3c530356a
+      - s-18ef9af877
+      - s-9c744c939d
+      - s-bbb5663189
+      - s-649f389520
+      - s-0576e923b7
+      - s-e2bf51ef4d
+    zh:
+      - s-846e631e7f
+      - s-a68e0ac8ae
+      - s-d2fde411a7
+      - s-eb55bc7f1a
+      - s-22b3b01402
+      - s-fca73a1882
+      - s-adc75ad956
+      - s-f835dbecd5
+      - s-75001c86a9
+      - s-9dcc560c6a
+      - s-c3cea35d0c
+      - s-9f3e9e3035
+      - s-8b2d6730b2
+      - s-c273b058ec
+      - s-2e85cfa942
+      - s-501fa6d097
+      - s-be7618d899
+      - s-e62e2fdc1c
+      - s-3b7d20a505
+      - s-a55532e834
+      - s-6d4c4f0185
+      - s-cf0247ab47
+      - s-ca24312bb4
+      - s-e6ac610b75
+      - s-d081f6437a
+      - s-119052c498
+      - s-137c0855d1
+      - s-3635b1b25c
+      - s-89f7ba3479
+      - s-32c1a0051f
+      - s-bfdc637161
+      - s-d66f248c95

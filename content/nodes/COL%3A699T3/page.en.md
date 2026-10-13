@@ -1,0 +1,3 @@
+## A fungal strain changed bacterial counts in a mouse model {#s-607875ee6b}
+In an eight-day chemotherapy experiment, tongue samples from 6–9-week-old female C57BL/6 mice given 5-fluorouracil plus daily doses of the laboratory strain *Candida albicans* SC5314 had higher bacterial loads than samples from mice given 5-fluorouracil alone. Culture counts (CFU, or colony-forming units) and 16S rRNA gene-copy assays both showed the difference on day 8 (p = 0.008; 4–10 mice per group across 1–2 experiments). This finding is specific to one fungal strain and a chemotherapy-perturbed mouse model; it does not establish natural fungal ecology or a human clinical outcome.
+

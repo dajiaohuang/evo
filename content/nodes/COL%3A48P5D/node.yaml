@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odontobatrachus arndti
+  displayName: Odontobatrachus arndti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48P5D
+  sourceIndexes:
+    - name:
+        en: Odontobatrachus arndti
+        zh: Odontobatrachus arndti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48P5D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/475
+            queryName: Odontobatrachus arndti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4db3ea65a0
+      - s-bce523cfb9
+      - s-49d8c96b80
+      - s-758a8ce2d3
+      - s-c456e118dc
+      - s-039e323a0f
+    zh:
+      - s-909bf68860
+      - s-e9ac95713e
+      - s-9cde85fee1
+      - s-d7b64ca1fd
+      - s-3cef9153ff
+      - s-3a6fe0a5c9

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus marmoratus
+  displayName: Physalaemus marmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VGHW
+  sourceIndexes:
+    - name:
+        en: Physalaemus marmoratus
+        zh: Physalaemus marmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VGHW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/335
+            queryName: Physalaemus marmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/351
+            queryName: Gomphobates marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c50d3242a
+      - s-71cdc09b14
+      - s-43549be07d
+      - s-33443cb5f7
+      - s-be8486546e
+      - s-e80883a48a
+      - s-dc12a8d1a9
+      - s-a50ea59393
+      - s-c465f29595
+      - s-650d1e7161
+      - s-2540357760
+      - s-2471cbbf2c
+      - s-72f78b3b26
+    zh:
+      - s-17d6a5f9a1
+      - s-9f34d1f2fc
+      - s-c0f86e9dbe
+      - s-2b2c767130
+      - s-e5d89ac003
+      - s-dc351bba03
+      - s-5f8235e641
+      - s-7ee271602a
+      - s-06497bfbfd
+      - s-fd3107d22f
+      - s-1cb8a4dce3
+      - s-8c711aca38
+      - s-cecc1f5d24

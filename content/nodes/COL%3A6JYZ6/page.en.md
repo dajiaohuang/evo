@@ -1,0 +1,3 @@
+## Urn-shaped flowers in the flora description {#s-252505b07f}
+The Brazilian Flora 2020 description records white latex; branches are listed as hairless, with short stiff hairs pressed against the surface, or coarsely hairy. Leaves are arranged alternately along the branches, one at a time on alternating sides, and are hairless on both faces. Flower clusters arise in the leaf axils, the angles between leaves and stems. The flowers are radially symmetrical, meaning their parts repeat around a central axis, and white, with an urn-shaped fused-petal tube and pointed lobes. The entry notes that a pollinarium, a compact packet of pollen, is absent. The fruit is recorded as a berry. This regional morphology field does not report sampling coverage or variation.
+

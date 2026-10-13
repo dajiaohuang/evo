@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius glacialis
+  displayName: Hynobius glacialis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NLTK
+  sourceIndexes:
+    - name:
+        en: Hynobius glacialis
+        zh: Hynobius glacialis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NLTK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/163
+            queryName: Hynobius glacialis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-163bdfe549
+      - s-2b9253e492
+      - s-65ac63aea0
+      - s-4491c4a7f8
+      - s-4bc7c673e0
+      - s-b99375fcd7
+      - s-c42ff11ba2
+    zh:
+      - s-95b632c304
+      - s-ab3efb29ee
+      - s-07744857ad
+      - s-ad00a7caa3
+      - s-bd828cf84f
+      - s-222f24e5ec
+      - s-d062707f39

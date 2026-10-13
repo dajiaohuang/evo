@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenophrys auralensis
+  displayName: Xenophrys auralensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FVX5
+  sourceIndexes:
+    - name:
+        en: Xenophrys auralensis
+        zh: Xenophrys auralensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FVX5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/272
+            queryName: Xenophrys auralensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/480
+            queryName: Megophrys auralensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-114f8beefe
+      - s-969f933b85
+      - s-5a9cb01111
+      - s-5d8e997062
+      - s-2db9f7cc5c
+      - s-39a251c66c
+      - s-87e326b116
+    zh:
+      - s-bc0d65aa6d
+      - s-a38476c511
+      - s-5ade46967a
+      - s-1e4abb8e73
+      - s-edd97b8911
+      - s-c082a1da26
+      - s-79366c149f

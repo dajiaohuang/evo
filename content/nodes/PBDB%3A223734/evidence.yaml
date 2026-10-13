@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Bolterpeton carrolli
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Bolterpeton carrolli
+      en: Bolterpeton carrolli
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbResidualAmniotaTaxonomy20261002
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7c285ed8a6
+            part: body
+          en:
+            page: en
+            section: s-b3dc8cfa65
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fd19046138
+            part: body
+          en:
+            page: en
+            section: s-31a456d716
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a558f1e7d9
+            part: body
+          en:
+            page: en
+            section: s-ef9c110818
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8c6dd0d885
+            part: body
+          en:
+            page: en
+            section: s-459ca45777
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2cbd9be84c
+            part: body
+          en:
+            page: en
+            section: s-ed6c634019
+            part: body
+    sources:
+      - id: pbdbResidualAmniotaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Bolterpeton carrolli
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=223734&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbResidualAmniotaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:223734; original response record indices retained in data/sources/amniota-residual-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:223734
+          selectedOccurrenceIds:
+            - occ:1019911
+          selectedCollectionIds:
+            - col:67862
+          sourceReferenceIds:
+            - ref:40439
+          originalIdentificationMappings:
+            - occurrenceId: occ:1019911
+              originalIdentifiedName: Bolterpeton carrolli n. gen. n. sp.
+              acceptedName: Bolterpeton carrolli
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-de43bde0db
+        part: body
+      en:
+        page: en
+        section: s-65e6cf5f40
+        part: body

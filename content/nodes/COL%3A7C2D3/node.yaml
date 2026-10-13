@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tepuihyla rodriguezi
+  displayName: Tepuihyla rodriguezi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7C2D3
+  sourceIndexes:
+    - name:
+        en: Tepuihyla rodriguezi
+        zh: Tepuihyla rodriguezi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7C2D3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/494
+            queryName: Tepuihyla rodriguezi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/65
+            queryName: Tepuihyla galani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/66
+            queryName: Tepuihyla rimarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/67
+            queryName: Tepuihyla talbergae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/86
+            queryName: Hyla rodriguezi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/87
+            queryName: Osteocephalus rodriguezi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/88
+            queryName: Osteocephalus galani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/89
+            queryName: Osteocephalus rimarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-507acead46
+      - s-9b7ca0da7c
+      - s-6a229b4c7b
+      - s-ac74da63b5
+      - s-134c418260
+      - s-5c16c6b4e6
+      - s-c1316e14c6
+      - s-15273587ad
+      - s-ce8295c6c9
+      - s-f7981d9c60
+    zh:
+      - s-333498a1c2
+      - s-456e063a9b
+      - s-bd4b2532c6
+      - s-fdcad73382
+      - s-40e8ddbc3d
+      - s-9734118fb8
+      - s-1ce11f4d73
+      - s-8c411fcbb0
+      - s-23e7058953
+      - s-3b4f1724f9

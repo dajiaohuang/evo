@@ -1,0 +1,113 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nyctiphruretidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Nyctiphruretidae
+      en: Nyctiphruretidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-87c4d8e59a
+            part: body
+          en:
+            page: en
+            section: s-47f13ed20f
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bcc483b56e
+            part: body
+          en:
+            page: en
+            section: s-ab12a94a23
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Nyctiphruretidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=37518
+          locator: Recorded PBDB parent closure beneath the already documented Reptilia COL-compatible storage anchor.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:37518
+          readingTargets:
+            - name: Abyssomedon williamsi
+              pbdbTaxonId: txn:324161
+              canonicalPath: content/nodes/PBDB%3A324161
+            - name: Nyctiboetus kassini
+              pbdbTaxonId: txn:120851
+              canonicalPath: content/nodes/PBDB%3A120851
+            - name: Nyctiphruretus optabilis
+              pbdbTaxonId: txn:362428
+              canonicalPath: content/nodes/PBDB%3A362428
+            - name: Nyctiphruretus acudens
+              pbdbTaxonId: txn:139947
+              canonicalPath: content/nodes/PBDB%3A139947
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7443c95e5e
+        part: body
+      en:
+        page: en
+        section: s-370e93b524
+        part: body

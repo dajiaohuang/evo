@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptomantis belalongensis
+    name:
+      en: Leptomantis belalongensis
+      zh: Leptomantis belalongensis
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Leptomantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-92fa5d2808
+            part: body
+          zh:
+            page: zh
+            section: s-50e161d0b7
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-048aa12ae9
+            part: body
+          zh:
+            page: zh
+            section: s-9f84681b94
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2752; Reference.csv rows 699
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2752
+        values:
+          - Rhacophoridae
+          - Leptomantis
+          - Leptomantis belalongensis
+          - M
+          - "33.93333333"
+          - "10.23333333"
+          - "12.53333333"
+          - "4.833333333"
+          - "1.6"
+          - NA
+          - "4.4"
+          - "4"
+          - "3.333333333"
+          - "2.833333333"
+          - NA
+          - "2.9"
+          - "11.03333333"
+          - NA
+          - NA
+          - "14.26666667"
+          - "17.46666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 699
+        values:
+          - Anura
+          - Leptomantis_belalongensis
+          - "Dehling, J. M. (2008). A new treefrog (Anura: Rhacophoridae: Rhacophorus) from Gunung Mulu, Borneo. Salamandra, 44(4), 193-205."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - HAL
+      - FL
+      - TFL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TQYF
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus subocularis
+  displayName: Dendropsophus subocularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6CL96
+  sourceIndexes:
+    - name:
+        en: Dendropsophus subocularis
+        zh: Dendropsophus subocularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6CL96
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/427
+            queryName: Dendropsophus subocularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/478
+            queryName: Hyla subocularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fbdd65f4ad
+      - s-4ebe386b84
+      - s-6c85915e84
+      - s-f50d62fa69
+      - s-77e99f95c2
+      - s-1caa43228d
+      - s-5ee70a86f1
+      - s-c2a11d7b00
+    zh:
+      - s-c5b489acd4
+      - s-313c43712d
+      - s-be27cd1081
+      - s-20cd9ce333
+      - s-8d7de5f858
+      - s-c2bdb5ad9c
+      - s-6d2665c8be
+      - s-75a38a82f7

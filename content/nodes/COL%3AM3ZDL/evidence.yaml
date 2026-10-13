@@ -1,0 +1,378 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Blaira rubigina (Pillai & Pattabiraman, 1981)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Blaira rubigina
+      zh: Blaira rubigina
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-066d23ac79
+            part: title
+          zh:
+            page: zh
+            section: s-bd9ea705ab
+            part: title
+        text:
+          en:
+            page: en
+            section: s-066d23ac79
+            part: body
+          zh:
+            page: zh
+            section: s-bd9ea705ab
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-46c724d897
+            part: title
+          zh:
+            page: zh
+            section: s-718c11f2fd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-46c724d897
+            part: body
+          zh:
+            page: zh
+            section: s-718c11f2fd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4d32f9bdbb
+            part: title
+          zh:
+            page: zh
+            section: s-cfdd461271
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-4d32f9bdbb
+            part: body
+          zh:
+            page: zh
+            section: s-cfdd461271
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-ff4f3a259870639b656aaf3848cb12c5
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-328ceb687378f242b027c2d5
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-672d83b035
+            part: title
+          zh:
+            page: zh
+            section: s-fa897737f5
+            part: title
+        sourceIds:
+          - primary-pmc4740822-m3zdl
+        text:
+          en:
+            page: en
+            section: s-672d83b035
+            part: body
+          zh:
+            page: zh
+            section: s-fa897737f5
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-85d255e9a8
+            part: title
+          zh:
+            page: zh
+            section: s-6bf107c8d4
+            part: title
+        sourceIds:
+          - primary-pmc4740822-m3zdl
+        text:
+          en:
+            page: en
+            section: s-85d255e9a8
+            part: body
+          zh:
+            page: zh
+            section: s-6bf107c8d4
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f3b6ced3fb
+            part: title
+          zh:
+            page: zh
+            section: s-18a0df616e
+            part: title
+        sourceIds:
+          - primary-pmc4740822-m3zdl
+          - primary-pmc4740822-m3zdl-catalogue-alias-3fyhz
+        text:
+          en:
+            page: en
+            section: s-f3b6ced3fb
+            part: body
+          zh:
+            page: zh
+            section: s-18a0df616e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Blaira rubigina
+          url: https://www.checklistbank.org/dataset/316115/taxon/M3ZDL
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0607; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0607 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2012; Reference.csv rows 2636
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc4740822-m3zdl
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Blaira rubigina: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc4740822-m3zdl-catalogue-alias-3fyhz
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 usage3FYHZ acceptedM3ZDL
+          scope:
+            en: Exact nomenclatural link Ghatophryne rubigina to Blaira rubigina; no voucher/sequence authentication
+            zh: Ghatophryne rubigina 至 Blaira rubigina 的精确命名链接；未认证凭证/序列
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc4740822-m3zdl-catalogue-alias-3fyhz
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b6d422b843
+        part: body
+      zh:
+        page: zh
+        section: s-4322065a0f
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-pmc4740822-m3zdl
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Source labelsGhatophryne rubigina; comparisonvoucher/sequence/focal roles retainedseparately; no originalidentitycertification
+        evidenceRead: "Blaira rubigina: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Evidence roles in the Andaman toad description
+              zh: 安达曼蟾蜍描述中的证据角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-m3zdl
+            locator: PMC4740822 XML Table3 idT6 rows;App1 entries16
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d145d09d5e
+                part: body
+              zh:
+                page: zh
+                section: s-18e6d806df
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Comparative material does not supply every trait
+              zh: 比较材料并不提供全部性状
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-m3zdl
+            locator: PMC4740822 XMLsec4;sec26;App1;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-05a55d84b0
+                part: body
+              zh:
+                page: zh
+                section: s-0448711747
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: Frozen nomenclatural correspondence retains the source label
+              zh: 冻结命名对应保留来源标签
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-m3zdl
+            locator: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/col26.8-name-bridges.json usage3FYHZ
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-583480b1ee
+                part: body
+              zh:
+                page: zh
+                section: s-b449efec98
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

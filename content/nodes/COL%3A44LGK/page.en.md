@@ -1,0 +1,9 @@
+## Detailed leaf, sepal and capsule characters {#s-7c2c0f5ed2}
+The source description records an undershrub 15–20 cm high, branching chiefly near the base. Young stems are hispid or setose. Leaves are fascicled, crowded or somewhat distant, with setae along the thickened margin and lower midrib and glabrous surfaces elsewhere. The hardened terminal spine is uncinate. Primary leaves are 7.0–10.0 mm long and lanceolate or ovate lanceolate; secondary leaves are as long as or slightly shorter than the primary leaves, linear lanceolate and much narrowed at the base.
+
+Bracts are 0.8–0.9 mm long, oblong, obtuse, toothed at the apex and scarcely concave. Flowers are 4.5–5.0 mm long, pink and almost sessile. Sepals are glabrous and ciliate, acute and mucronate; the mucro is usually slightly reflexed. The outer sepals are ovate and somewhat concave, with the anterior sepal shortest. The inner sepal is narrowly elliptic, as long as the posterior outer sepal and about two fifths as long as the side petals.
+
+Side petals are shorter than the keel, linear and obtuse, widest slightly above the middle. The keel claw is about as long as its blade. The crest attachment is vertical and reaches almost to the top of the keel; the crest is much narrower than the keel is long, and its upper and lower lobes are somewhat similar.
+
+The ovary is hirsute above, with its horns almost hidden by long hairs. The anterior style branch is small; the posterior branch is well developed and at right angles to the style. Capsules are hispid and rather broad; usually only one chamber is fertile, and the slender, tapering horns are usually shorter than the capsule. Seeds are almost globose and hispidulous, with a caruncle bearing two small oblique membranous lobes. The ecology field gives high altitudes. These source fields do not define a complete range.
+

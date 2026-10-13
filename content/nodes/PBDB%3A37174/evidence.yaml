@@ -1,0 +1,138 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Plagiosaurus
+    rank: genus
+    sourceTaxonId: txn:37174
+    name:
+      en: Plagiosaurus
+      zh: Plagiosaurus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-6c1865cf7d
+            part: body
+          zh:
+            page: zh
+            section: s-35df8cd5e6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-4bf22d04b9
+            part: body
+          zh:
+            page: zh
+            section: s-7fb52cecae
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-ef37db72ba
+            part: body
+          zh:
+            page: zh
+            section: s-20bcf3f2db
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-ce61607171
+            part: body
+          zh:
+            page: zh
+            section: s-b07b55821a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:37174; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: O. Jaekel. 1914. Über die Wirbeltierfunde in der oberen Trias von Halberstadt [On the vertebrate remains in the Upper Triassic of Halberstadt]. Paläontologische Zeitschrift 1(1):155-215
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:174316
+      exactOccurrenceCount: 1
+      datedOccurrenceCount: 1
+      collectionIntervalBoundsMa:
+        older: 205.7
+        younger: 201.4
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ce61607171
+            part: body
+          zh:
+            page: zh
+            section: s-b07b55821a
+            part: body
+        sourceIds: []

@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Avahi betsileo Andriantompohavana, Lei, Zaonarivelo, Engberg, Nalanirina, McGuire, Shore et al., 2007
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 贝齐莱奥毛狐猴
+      en: Betsileo Woolly Lemur
+    sections:
+      - topic: taxonomy
+        text:
+          en:
+            page: en
+            section: s-fa8a822714
+            part: body
+          zh:
+            page: zh
+            section: s-4c675c95a6
+            part: body
+        sourceIds:
+          - avahi2007
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Avahi betsileo
+          url: https://www.checklistbank.org/dataset/316115/taxon/K29N
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-77ff87ee-c56a-8a05-a39c-29c018951380
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页所用英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine COL26.8 accepted classification.
+      - id: avahi2007
+        referenceId: ref-e4121bb2-4807-85e7-a7c3-6d7daebb3bbe
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持约 3,000 bp 线粒体片段、形态与表型比较，以及该文对属内分类的解释；作者指出完整关系仍需更多样本。
+            en: Supports the authors’ interpretation of roughly 3,000 bp of mitochondrial sequence together with morphological and phenotypic comparisons; the paper also calls for broader sampling.
+    limitations:
+      en:
+        page: en
+        section: s-e681197efb
+        part: body
+      zh:
+        page: zh
+        section: s-f70d7aedec
+        part: body

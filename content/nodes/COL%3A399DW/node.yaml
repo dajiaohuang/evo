@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus lamprotes
+  displayName: Eleutherodactylus lamprotes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399DW
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus lamprotes
+        zh: Eleutherodactylus lamprotes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399DW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/249
+            queryName: Eleutherodactylus lamprotes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ac6247c600
+      - s-ee84500611
+      - s-95dd97dfa0
+      - s-70fc9828a5
+      - s-b0f5e5102f
+      - s-e92f41b829
+      - s-b31cb3e78c
+      - s-3bd8f8f8d8
+    zh:
+      - s-71369b0b1e
+      - s-ffcb9f67f6
+      - s-1f7ae4e590
+      - s-69d320793c
+      - s-5cc920194c
+      - s-0d9657caeb
+      - s-735dd63e01
+      - s-7ba651d074

@@ -1,0 +1,329 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinoderma Duméril & Bibron, 1841
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Rhinoderma
+      zh: Rhinoderma
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d631b1f235
+            part: title
+          zh:
+            page: zh
+            section: s-c965c073d8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d631b1f235
+            part: body
+          zh:
+            page: zh
+            section: s-c965c073d8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-34524f6a6f
+            part: title
+          zh:
+            page: zh
+            section: s-cb8c43471a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-34524f6a6f
+            part: body
+          zh:
+            page: zh
+            section: s-cb8c43471a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-152596a423
+            part: title
+          zh:
+            page: zh
+            section: s-7e623fb8a0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-152596a423
+            part: body
+          zh:
+            page: zh
+            section: s-7e623fb8a0
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-9b2692bf36
+            part: title
+          zh:
+            page: zh
+            section: s-21b37ba2ff
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9b2692bf36
+            part: body
+          zh:
+            page: zh
+            section: s-21b37ba2ff
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-84f085895a
+            part: title
+          zh:
+            page: zh
+            section: s-2b93018d2f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 78TQQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A78TQQ
+            label:
+              en: Rhinoderma darwinii
+              zh: Rhinoderma darwinii
+          - kind: catalogue
+            colId: 78TR2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A78TR2
+            label:
+              en: Rhinoderma rufum
+              zh: Rhinoderma rufum
+        text:
+          en:
+            page: en
+            section: s-84f085895a
+            part: body
+          zh:
+            page: zh
+            section: s-2b93018d2f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10968267-78pp
+        title:
+          en:
+            page: en
+            section: s-2a32852042
+            part: title
+          zh:
+            page: zh
+            section: s-f1885cea05
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2a32852042
+            part: body
+          zh:
+            page: zh
+            section: s-f1885cea05
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10968267-78pp
+        title:
+          en:
+            page: en
+            section: s-e76672b026
+            part: title
+          zh:
+            page: zh
+            section: s-32b488d59f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 78TR2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A78TR2
+            label:
+              en: Rhinoderma rufum
+              zh: Rhinoderma rufum
+          - kind: catalogue
+            colId: 78TQQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A78TQQ
+            label:
+              en: Rhinoderma darwinii
+              zh: Rhinoderma darwinii
+        text:
+          en:
+            page: en
+            section: s-e76672b026
+            part: body
+          zh:
+            page: zh
+            section: s-32b488d59f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhinoderma
+          url: https://www.checklistbank.org/dataset/316115/taxon/78PP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Rhinoderma; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10968267-78pp
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Telmatobius fronteriensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: 2 selected Chilean priority entries; source management model and cited context, not a complete genus synthesis.
+            zh: 2 个所选智利优先条目；来源管理模型及被引背景，不是全属综述。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-369b6bcb06
+        part: body
+      zh:
+        page: zh
+        section: s-f9bf0c1202
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Rhinoderma
+      sourceRowIds:
+        - Anf1447
+        - Anf1448
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 1
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.3390/biology13030169
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        sourceKey: primary-direct-group-pmc10968267-78pp
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10968267/article.xml
+        sourceConcept: 2024 Chilean Rhinoderma priority rows and cited conservation context
+        evidenceRead: "Telmatobius fronteriensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Two species have different printed priorities without a new population census
+              zh: 两种印刷优先级不同但未有新种群普查
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-direct-group-pmc10968267-78pp
+            locator: PMC10968267 XML Methods2.1–2.3; Tables2–4; Results; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2ceae5d422
+                part: body
+              zh:
+                page: zh
+                section: s-18871a9e09
+                part: body
+            scope:
+              en: 2 selected Chilean priority entries; source management model and cited context, not a complete genus synthesis.
+              zh: 2 个所选智利优先条目；来源管理模型及被引背景，不是全属综述。
+    primaryResearchGroupSynthesisComplete: false

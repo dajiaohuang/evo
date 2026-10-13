@@ -1,0 +1,102 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-d521da7e6a
+          part: title
+        zh:
+          page: zh
+          section: s-15569cfd16
+          part: title
+      text:
+        en:
+          page: en
+          section: s-d521da7e6a
+          part: body
+        zh:
+          page: zh
+          section: s-15569cfd16
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-2c006cd933
+          part: title
+        zh:
+          page: zh
+          section: s-9c30a57b88
+          part: title
+      text:
+        en:
+          page: en
+          section: s-2c006cd933
+          part: body
+        zh:
+          page: zh
+          section: s-9c30a57b88
+          part: body
+  atlas-node:
+    taxonId: txn:174977
+    extinct: true
+    name: Meganisoptera
+    commonName: Griffinflies
+    commonNameZh: 巨脉蜻蜓目
+    rank: order
+    firstAppearance: 325
+    lastAppearance: 250
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:meganisoptera
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Namurian meganeurid material from Hagen-Vorhalle and an explicit character analysis document a sampled meganisopteran classification. The named material and historical matrix do not define every meganisopteran lineage or its exact global endpoints.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded taxonomy statement at the supplied locator. The confidence does not extend beyond the named material and historical matrix do not define every meganisopteran lineage or its exact global endpoints.
+      referenceLinks:
+        - relation: supports
+          referenceId: brauckmann-zessin-1989-meganisoptera
+          pages: 177–215
+          figure: Specimen plates and phylogenetic diagrams
+          quoteLocator: New Meganeuridae; character comparison; Meganisoptera phylogeny
+    - subjectId: taxon:meganisoptera
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 318–259 Ma Meganisoptera display is a sampled fossil-record envelope from Namurian B through at least the end of the Middle Permian, not an exact extinction interval.
+      confidence: medium
+      confidenceRationale: The study directly summarizes the first record and minimum persistence, while its wording leaves the actual Late Permian extinction time unresolved.
+      referenceLinks:
+        - referenceId: ellers-2024-meganisoptera-flight
+          relation: supports
+          pages: 598–610
+          figure: Introduction fossil-history synthesis
+          quoteLocator: First Namurian B record at approximately 318–315 Ma and persistence at least to the end of the Middle Permian
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的分类表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - 研究直接综述首条记录与最低延续界，但其措辞仍将实际晚二叠世灭绝时间保留为未知。
+  claim-statements.zh:
+    - Hagen-Vorhalle 纳穆尔期巨脉蜓科材料及明确的性状分析，记录了一套巨脉蜓目抽样分类。具名材料和历史矩阵不能覆盖全部巨脉蜓谱系，也不能确定其精确全球端点。
+    - 318–259 Ma 的巨脉蜻蜓类显示是从 Namurian B 至至少中二叠世末的化石记录包络，而非精确灭绝区间。
+  ranges:
+    - entityId: meganisoptera
+      rangeKind: global-composite
+      taxonomicConcept: Meganisoptera reviewed sampled fossil-record envelope
+      geographicScope: Reviewed fossil occurrences
+      olderMa: 318
+      youngerMa: 259
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The younger edge is rounded to the end of the Middle Permian and is not an exact last appearance.
+      evidenceBasis: The review records Meganisoptera first in Namurian B at approximately 318–315 Ma and at least through the end of the Middle Permian; it does not support the former exact 250 Ma endpoint.
+      confidence: medium
+      claimIds:
+        - claim:taxon:meganisoptera:fossil-range
+      referenceLocators:
+        - referenceId: ellers-2024-meganisoptera-flight
+          locator: pp. 598–610; Introduction; first Namurian B record at approximately 318–315 Ma and persistence at least to the end of the Middle Permian
+      evidenceLevel: literature-synthesized

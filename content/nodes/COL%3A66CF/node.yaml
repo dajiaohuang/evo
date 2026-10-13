@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Occidozyga
+  displayName: Occidozyga
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66CF
+  sourceIndexes:
+    - name:
+        en: Occidozyga
+        zh: Occidozyga
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66CF
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/102
+            queryName: Occidozyga
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 77
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f2ffe80f03
+      - s-25c10af4df
+      - s-367b8ddcc5
+      - s-7b4f6b3856
+      - s-a537505028
+      - s-cf7c71bba9
+      - s-dc7417402f
+      - s-fbe2fedba6
+      - s-a558b971ca
+      - s-ab58b5164c
+      - s-1f8797b324
+      - s-f14703016e
+      - s-a0b9c8754d
+      - s-7815dfcb7d
+      - s-316d9cad24
+      - s-b5334de173
+      - s-211354fb14
+      - s-ed3cce0ad4
+      - s-808aa34751
+    zh:
+      - s-da8640a9d9
+      - s-e4904eaf95
+      - s-787df50e5c
+      - s-fd75f98893
+      - s-fefc35f598
+      - s-31ec0cc3ea
+      - s-3aa0a59883
+      - s-24baf87df6
+      - s-a2f23545e8
+      - s-95752b31c9
+      - s-6c278ea110
+      - s-ddf7242398
+      - s-a81582c9ef
+      - s-11488d1a6d
+      - s-6adbe099ae
+      - s-e55eb131f5
+      - s-1c7ec7f3c3
+      - s-a3b89a6f74
+      - s-66d483f2d3

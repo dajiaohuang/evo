@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus halihelos
+  displayName: Atelopus halihelos
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8YT
+  sourceIndexes:
+    - name:
+        en: Atelopus halihelos
+        zh: Atelopus halihelos
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8YT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/266
+            queryName: Atelopus halihelos
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b1ee52bbb2
+      - s-842cf7e13e
+      - s-ddcb69c49e
+      - s-e6ec0eb726
+      - s-53ddbd804c
+      - s-a779b52603
+      - s-15732308f0
+      - s-4e9a90969b
+      - s-f3593482e0
+      - s-2bd50f6c96
+    zh:
+      - s-495509e662
+      - s-ac79cfca34
+      - s-26331ce290
+      - s-5185300614
+      - s-d55a755ec0
+      - s-38f88d9b61
+      - s-cb15851c47
+      - s-8758aa8e7f
+      - s-129d6bf2c0
+      - s-82f1c5fd2b

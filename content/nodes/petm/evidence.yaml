@@ -1,0 +1,89 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-5ecd29d5b6
+      part: title
+    titleZh:
+      page: zh
+      section: s-dfc57950a7
+      part: title
+    category: climate
+    startAge: 56
+    endAge: 55.8
+    regions:
+      - Global
+    clades:
+      - Mammalia
+      - marine plankton
+      - benthic foraminifera
+    summary:
+      page: en
+      section: s-5ecd29d5b6
+      part: body
+    summaryZh:
+      page: zh
+      section: s-dfc57950a7
+      part: body
+    claimIds:
+      - claim:event:petm
+    evidenceItems:
+      - statement: Negative carbon-isotope excursion
+        relation: supports
+        claimIds:
+          - claim:event:petm
+        referenceLinks:
+          - relation: supports
+            referenceId: mcinerney-2011-petm
+            pages: 489–516
+      - statement: Deep-sea benthic extinction
+        relation: supports
+        claimIds:
+          - claim:event:petm
+        referenceLinks:
+          - relation: supports
+            referenceId: mcinerney-2011-petm
+            pages: 489–516
+      - statement: Poleward biogeographic shifts
+        relation: supports
+        claimIds:
+          - claim:event:petm
+        referenceLinks:
+          - relation: supports
+            referenceId: mcinerney-2011-petm
+            pages: 489–516
+    uncertaintyItems:
+      - statement: Carbon sources and release pacing remain debated
+        relation: contextualizes
+        claimIds:
+          - claim:event:petm
+        referenceLinks:
+          - relation: supports
+            referenceId: mcinerney-2011-petm
+            pages: 489–516
+      - statement: Onset and recovery durations depend on archive resolution
+        relation: contextualizes
+        claimIds:
+          - claim:event:petm
+        referenceLinks:
+          - relation: supports
+            referenceId: mcinerney-2011-petm
+            pages: 489–516
+  claims:
+    - subjectId: event:petm
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: A rapid negative carbon-isotope excursion and warming coincided with major marine and terrestrial biotic responses during the PETM.
+      confidence: high
+      confidenceRationale: High confidence reflects a review that integrates marine and terrestrial isotope, temperature and biotic records; coincidence is asserted, while the carbon source and the causal chain among individual responses remain outside the claim.
+      referenceLinks:
+        - relation: supports
+          referenceId: mcinerney-2011-petm
+          pages: 489–516
+          figure: Figures 1–8
+          quoteLocator: Carbon isotope excursion, warming and biotic response synthesis
+  claim-rationales.zh:
+    - 高置信度来自综述对海陆同位素、温度与生物记录的整合；声明只主张这些现象同时发生，不裁定碳源及每项响应之间的完整因果链。
+  claim-statements.zh:
+    - 古新世—始新世极热事件期间，一次快速的碳同位素负偏和增温与海洋及陆地生物群的重大响应同时发生。

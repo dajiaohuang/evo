@@ -1,0 +1,178 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hylaeochelys belli
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hylaeochelys belli
+      en: Hylaeochelys belli
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1366a27653
+            part: body
+          en:
+            page: en
+            section: s-57c3ded5d8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-17dac372fb
+            part: body
+          en:
+            page: en
+            section: s-b09c961b57
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d2dd1ec95a
+            part: body
+          en:
+            page: en
+            section: s-1df7c7f1c4
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-075c1a4e99
+            part: body
+          en:
+            page: en
+            section: s-e9a61dde72
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5aab4594a7
+            part: body
+          en:
+            page: en
+            section: s-1aed868f42
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hylaeochelys belli
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=234792&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:234792; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:234792
+          selectedOccurrenceIds:
+            - occ:1041074
+            - occ:1041075
+            - occ:1391617
+            - occ:1391618
+            - occ:1391619
+            - occ:1391620
+            - occ:1391622
+          selectedCollectionIds:
+            - col:127535
+            - col:127529
+            - col:52258
+          sourceReferenceIds:
+            - ref:41565
+            - ref:41531
+            - ref:41527
+            - ref:41498
+          originalIdentificationMappings:
+            - occurrenceId: occ:1391617
+              originalIdentifiedName: Archaeochelys valdensis n. gen. n. sp.
+              acceptedName: Hylaeochelys belli
+              difference: null
+            - occurrenceId: occ:1391619
+              originalIdentifiedName: Platemys mantelli n. sp.
+              acceptedName: Hylaeochelys belli
+              difference: null
+            - occurrenceId: occ:1391620
+              originalIdentifiedName: Platemys dixoni n. sp.
+              acceptedName: Hylaeochelys belli
+              difference: null
+            - occurrenceId: occ:1391622
+              originalIdentifiedName: Chelone belli n. sp.
+              acceptedName: Hylaeochelys belli
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3e82649f9c
+        part: body
+      en:
+        page: en
+        section: s-67f92dab15
+        part: body

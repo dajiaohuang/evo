@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus femoralis
+  displayName: Mantidactylus femoralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWDP
+  sourceIndexes:
+    - name:
+        en: Mantidactylus femoralis
+        zh: Mantidactylus femoralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWDP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/323
+            queryName: Mantidactylus femoralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/206
+            queryName: Rana femoralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/207
+            queryName: Rana flavicrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/208
+            queryName: Mantidactylus flavicrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3323a928f2
+      - s-6a45cc70e7
+      - s-5456e160c1
+      - s-5b9b0f383a
+      - s-000d9135cd
+      - s-3bd9c53664
+      - s-ae7b1aa82d
+      - s-7a87b0fdd8
+      - s-05f5ead5f3
+      - s-2d5eafbcf3
+      - s-40e6f77699
+      - s-b5f4832c37
+      - s-d8a1b0fc04
+      - s-644f6b2e78
+      - s-7d057699da
+      - s-e939c93e0c
+      - s-9a22e2943c
+      - s-0dafc99b34
+      - s-4a15c02114
+      - s-7f084e62e2
+    zh:
+      - s-6260ebbd33
+      - s-b5db2a37d3
+      - s-38618a139b
+      - s-486df71cc5
+      - s-9f4a251dc2
+      - s-4bb945e326
+      - s-e2bf4b032f
+      - s-809ef56e77
+      - s-b0aa711fc6
+      - s-22a519885d
+      - s-da3d27235b
+      - s-9546921d73
+      - s-b96e48c2b3
+      - s-1954d798e1
+      - s-6d3d1e2b53
+      - s-a341fa1a2e
+      - s-61d7666447
+      - s-2043c81228
+      - s-b9cdf8078d
+      - s-8532d96e5c

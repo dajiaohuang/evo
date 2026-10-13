@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arenophryne rotunda
+  displayName: Arenophryne rotunda
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GFPP
+  sourceIndexes:
+    - name:
+        en: Arenophryne rotunda
+        zh: Arenophryne rotunda
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GFPP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/112
+            queryName: Arenophryne rotunda
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/403
+            queryName: Arenophryne robusta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b2c99e2e8e
+      - s-050621f092
+      - s-c9cafe8b3f
+      - s-8e425873cc
+      - s-3cb11b182b
+      - s-1f37d1f0f4
+      - s-6ccb2be26a
+      - s-6c9f9b1f6a
+      - s-4b963ec6a6
+      - s-4c46db05cb
+    zh:
+      - s-83411becbf
+      - s-af3deb9608
+      - s-916684bf7d
+      - s-fef64ed099
+      - s-55b18854a0
+      - s-33844dd693
+      - s-c7c2d33b9c
+      - s-a6aec6d691
+      - s-0f870e373e
+      - s-2be1408f30

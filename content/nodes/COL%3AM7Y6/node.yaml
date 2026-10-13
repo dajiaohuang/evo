@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana exastis
+  displayName: Boana exastis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7Y6
+  sourceIndexes:
+    - name:
+        en: Boana exastis
+        zh: Boana exastis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7Y6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/478
+            queryName: Boana exastis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/150
+            queryName: Hypsiboas exastis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/358
+            queryName: Hyla exastis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e97968b8e
+      - s-e38d022b6f
+      - s-7cdd6f9af0
+      - s-9d48ae56fe
+      - s-d068b200e0
+      - s-5fa5b77b90
+      - s-3a0b5134e8
+      - s-41ba94cb3e
+      - s-ad06a14202
+      - s-0431bf1d87
+      - s-4c016d5740
+      - s-528faa3334
+    zh:
+      - s-db3b9d9270
+      - s-71d6adbab0
+      - s-dd0e5757c8
+      - s-6ab9a65e75
+      - s-b331b5812e
+      - s-28ded02e90
+      - s-352b9f092c
+      - s-4d30fdbec9
+      - s-3eba454d9e
+      - s-62d3b77589
+      - s-da1f2ed9ab
+      - s-28e0434afc

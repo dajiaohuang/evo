@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius minutissimus
+  displayName: Thorius minutissimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KT3
+  sourceIndexes:
+    - name:
+        en: Thorius minutissimus
+        zh: Thorius minutissimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KT3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/48
+            queryName: Thorius minutissimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a5c3b81bf7
+      - s-a087b06056
+      - s-3a5ea2813c
+      - s-445119281a
+      - s-dd888b4e7e
+      - s-c7637e6cf9
+      - s-e8e0691da9
+      - s-68ec24cfaa
+      - s-af476e1180
+      - s-d510e23a56
+      - s-b6500fa1b2
+      - s-e5fe840f59
+      - s-0cce62d9bd
+      - s-fd27ea2e64
+      - s-667d2ea316
+      - s-6044458dd5
+      - s-72ff58d79b
+      - s-01b14d313d
+    zh:
+      - s-6d6e0aef3b
+      - s-6e941d2abb
+      - s-95a7fb9f1c
+      - s-571a195e71
+      - s-98e0019fc1
+      - s-ae7770d77c
+      - s-d07d1cb4ab
+      - s-7f1f7316d7
+      - s-23888e5853
+      - s-cb0c1d5e75
+      - s-a8aedfb8a7
+      - s-c3a9ae32a9
+      - s-b453cffe18
+      - s-1e7aeb1744
+      - s-e3d62544fb
+      - s-ea03f2b8ee
+      - s-f3fa17bfe6
+      - s-e31e42afae

@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Triglochin buchenaui
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Triglochin buchenaui
+      en: Triglochin buchenaui
+    sections:
+      - topic: morphology
+        sourceIds:
+          - sanbi_13880_0
+        locator: SANBI/WFO archive Morphology row 12168; source identifier 13880.0; Manning & Goldblatt (2012), Juncaginaceae
+        text:
+          zh:
+            page: zh
+            section: s-2fd903150e
+            part: body
+          en:
+            page: en
+            section: s-3550a353bf
+            part: body
+      - topic: ecology
+        sourceIds:
+          - sanbi_13880_0
+        locator: SANBI/WFO archive Habitat row 29633; source identifier 13880.0; Manning & Goldblatt (2012), Juncaginaceae
+        text:
+          zh:
+            page: zh
+            section: s-4ed44db3d3
+            part: body
+          en:
+            page: en
+            section: s-a1f3c313f4
+            part: body
+    sources:
+      - id: sanbi_13880_0
+        referenceId: ref-5e8aa829-80b2-8008-a7af-8cb9e77373ef
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Triglochin buchenaui Köcke, Mering & Kadereit account; SANBI/WFO archive rows 12168 (Morphology), 29633 (Habitat), source identifier 13880.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    limitations:
+      zh:
+        page: zh
+        section: s-b451c5487a
+        part: body
+      en:
+        page: en
+        section: s-0112a576f9
+        part: body
+  catalogue-dossier:
+    scientificName: Triglochin buchenaui Köcke, Mering & Kadereit
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 58QKT, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 58QKT; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/58QKT
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 58QKT
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000916135-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 58QKT / WFO wfo-0000916135
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13880_0
+        referenceId: ref-5e8aa829-80b2-8008-a7af-8cb9e77373ef
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Triglochin buchenaui Köcke, Mering & Kadereit account; SANBI/WFO archive rows 12168 (Morphology), 29633 (Habitat), source identifier 13880.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Tufted, rhizomatous perennial, 9-30 cm, with few, very long, pale fibres. Leaves terete, 1-2 mm diam. Flowers 3-17 in lax racemes, green. Fruits narrowly ovoid, 4-8 mm long.
+            textZh: Triglochin buchenaui Köcke, Mering & Kadereit 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13880_0
+            locator: "SANBI/WFO archive Morphology row 12168; source identifier 13880.0; cited publication: Manning, JC; Goldblatt, P. 2012. Juncaginaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 177 - 177. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Estuarine salt marshes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Estuarine salt marshes.
+            sourceIds:
+              - sanbi_13880_0
+            locator: "SANBI/WFO archive Habitat row 29633; source identifier 13880.0; cited publication: Manning, JC; Goldblatt, P. 2012. Juncaginaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 177 - 177. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,3 @@
+## ## Beaded fruit and compact inflorescences {#s-3f9f818a58}
+The Brazilian Flora 2020 entry records plants 2–10 m tall, with young branches that may be hairless or hairy. Leaves bear three, five or seven oval to elliptic leaflets. The inflorescences are shorter than the leaves and congested; their pedicel bracteoles have secretory cavities, are shed and bear hairs. The pedicellate flowers have at least three developed calyx lobes and a punctate corolla with lilac, purple or pink petals; a callus is present on the standard. The androecium is pseudomonadelphous and the anthers are hairy. The fruit is a hairless, subwoody to woody, bead-like legume; the seeds are globose. A habitat field says “terrestrial” but supplies no locality.
+

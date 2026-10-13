@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor mimus
+  displayName: Craugastor mimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC75
+  sourceIndexes:
+    - name:
+        en: Craugastor mimus
+        zh: Craugastor mimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC75
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/142
+            queryName: Craugastor mimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/135
+            queryName: Eleutherodactylus mimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8df640ef29
+      - s-ea4e2c35d0
+      - s-3db3997266
+      - s-6333c1286d
+      - s-861ed6e1bf
+      - s-381cbe3411
+      - s-2abe8f148f
+      - s-c252c1d152
+      - s-da0b18f83a
+    zh:
+      - s-9af7a01da6
+      - s-66fe2c61d3
+      - s-18793959fa
+      - s-96faad9679
+      - s-d69af3ca33
+      - s-116e1256fe
+      - s-fe6e328350
+      - s-41afd0d5e8
+      - s-10ab6b558f

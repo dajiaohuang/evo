@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus latinasus
+  displayName: Leptodactylus latinasus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN5M
+  sourceIndexes:
+    - name:
+        en: Leptodactylus latinasus
+        zh: Leptodactylus latinasus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN5M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/401
+            queryName: Leptodactylus latinasus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/235
+            queryName: Leptodactylus anceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/4
+            queryName: Leptodactylus prognathus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/407
+            queryName: Leptodactylus latinasus latinasus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/408
+            queryName: Leptodactylus latinasus anceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7d9acd550
+      - s-481c6ed15a
+      - s-fa2bbc6b36
+      - s-6bc298460c
+      - s-34101881ec
+      - s-3fe33ba54a
+      - s-aabf0cd012
+      - s-f5e9959c7e
+      - s-676472a502
+      - s-007c6cd600
+      - s-895c3c2ec8
+      - s-a886f65827
+      - s-b7a57c7f05
+      - s-31d02182d0
+      - s-f0a9ee552e
+      - s-0029327f58
+      - s-bd4b6fb3cd
+      - s-a7417a28f0
+      - s-421fdf8647
+    zh:
+      - s-7d8b3ad69b
+      - s-d3b24d5903
+      - s-53fd38e01c
+      - s-f818714b89
+      - s-ffa6eb185d
+      - s-938f3cb13c
+      - s-cfc39ec4ef
+      - s-ea89d32257
+      - s-0bcbcc1428
+      - s-7abbc64a60
+      - s-969444638b
+      - s-77731a926b
+      - s-e7f339c0f5
+      - s-93e6e8c2f8
+      - s-06a3b8db41
+      - s-ff970710c1
+      - s-72968aab6d
+      - s-020c3b9c94
+      - s-7ceb86ef70

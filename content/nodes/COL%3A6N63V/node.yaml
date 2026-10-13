@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis orthoplicatus
+  displayName: Ichthyophis orthoplicatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N63V
+  sourceIndexes:
+    - name:
+        en: Ichthyophis orthoplicatus
+        zh: Ichthyophis orthoplicatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N63V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/419
+            queryName: Ichthyophis orthoplicatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/167
+            queryName: Ichthyophis taprobanicensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6bbd587ef9
+      - s-48e16f8c2a
+      - s-ffec57aa42
+      - s-d010331f02
+      - s-c3e5d0eb27
+      - s-d863221b10
+      - s-7f18a0c178
+      - s-7e0f26fddd
+      - s-f489c6c766
+      - s-3219485bd9
+      - s-59be58c72b
+      - s-8062181879
+      - s-de618c3933
+    zh:
+      - s-1d12fb63c1
+      - s-4093f77c40
+      - s-9d725da1f0
+      - s-dac9731fef
+      - s-064de02e2d
+      - s-50f4dcf025
+      - s-a585d84371
+      - s-edd1db33c0
+      - s-b470afb9c2
+      - s-2616e8c910
+      - s-9b303622d8
+      - s-e5a85a8567
+      - s-05c2475d0a

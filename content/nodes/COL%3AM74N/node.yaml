@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Blommersia kely
+  displayName: Blommersia kely
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M74N
+  sourceIndexes:
+    - name:
+        en: Blommersia kely
+        zh: Blommersia kely
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M74N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/436
+            queryName: Blommersia kely
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/183
+            queryName: Mantidactylus kely
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c8a03e6f42
+      - s-aac289ac2c
+      - s-1b1ed5d241
+      - s-ee3d87b45e
+      - s-cf49467c52
+      - s-69f878bf17
+      - s-d3e545c326
+      - s-fec14c00ae
+      - s-c352447436
+    zh:
+      - s-c26d701b90
+      - s-7a47dc5668
+      - s-90f43db8c3
+      - s-8addbc16e1
+      - s-c75e9d9e19
+      - s-cf3d6a30b4
+      - s-e04ad57f10
+      - s-3c7d37133b
+      - s-73dec8f384

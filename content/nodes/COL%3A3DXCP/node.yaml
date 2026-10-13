@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Feihyla fuhua
+  displayName: Feihyla fuhua
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DXCP
+  sourceIndexes:
+    - name:
+        en: Feihyla fuhua
+        zh: Feihyla fuhua
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DXCP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/459
+            queryName: Feihyla fuhua
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7cde92fd22
+      - s-3d253fc53e
+      - s-c0e7b746f3
+      - s-9e6c69cddc
+      - s-049d19d804
+      - s-5fc97edd2e
+    zh:
+      - s-ca31903275
+      - s-9de0f7cae6
+      - s-29262b1d25
+      - s-9ee8add9d6
+      - s-1e2fb2298e
+      - s-5cf8907c36

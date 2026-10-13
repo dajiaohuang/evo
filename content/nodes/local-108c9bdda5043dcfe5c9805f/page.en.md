@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-e1d5cdbbc5}
+The version 3 Amphibian database lists Arthroleptella subvoce in a source measurement table. Its classification fields read order = Anura, family = Pyxicephalidae, genus = Arthroleptella; the linked citation is in Reference.csv row 3410. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-bafa507869}
+Anura.csv rows 461, 462 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 461 (M) = 12.2125, row 462 (F) = 13.7; HW: row 461 (M) = 4.6625, row 462 (F) = 4.8; ED: row 461 (M) = 1.375, row 462 (F) = 1.4; other populated codes are IOD, IND, UEW, SL, FL, TL, THL, TSL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

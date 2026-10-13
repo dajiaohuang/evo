@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis muscosus
+  displayName: Pristimantis muscosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJG
+  sourceIndexes:
+    - name:
+        en: Pristimantis muscosus
+        zh: Pristimantis muscosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/426
+            queryName: Pristimantis muscosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/446
+            queryName: Eleutherodactylus muscosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e294fdbad
+      - s-f156155444
+      - s-0b9b667406
+      - s-1da11dae8f
+      - s-70ba95905a
+      - s-a925ab10a2
+      - s-3616401bb8
+      - s-8634673e1a
+      - s-eb3cbd945c
+      - s-95ba934f35
+      - s-5bc6d63149
+      - s-9772e29099
+      - s-48f72c2a2e
+      - s-615ab68592
+    zh:
+      - s-5f381da1fa
+      - s-f87416b3e4
+      - s-ab09be00dc
+      - s-50a1d7af26
+      - s-15b2f03d41
+      - s-5959b59e21
+      - s-f9d417b3b1
+      - s-dc2f7d1be6
+      - s-86aa739a98
+      - s-61b2ae5056
+      - s-1b1ad03854
+      - s-2c7ec72d58
+      - s-f78948ca88
+      - s-169c1cd301

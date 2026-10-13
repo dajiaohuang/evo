@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Clinotarsus penelope
+    name:
+      en: Clinotarsus penelope
+      zh: Clinotarsus penelope
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Clinotarsus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ae016c22b0
+            part: body
+          zh:
+            page: zh
+            section: s-136c928a52
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-90d811f4d7
+            part: body
+          zh:
+            page: zh
+            section: s-f0730ef07c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1177, 1178; Reference.csv rows 3798
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1177
+        values:
+          - Ranidae
+          - Clinotarsus
+          - Clinotarsus penelope
+          - F
+          - "45.3"
+          - "18.5277"
+          - "13.7259"
+          - "4.4847"
+          - "2.3103"
+          - "1.5855"
+          - NA
+          - NA
+          - "3.3522"
+          - "4.3488"
+          - NA
+          - NA
+          - "13.1823"
+          - "10.9626"
+          - NA
+          - "21.6534"
+          - NA
+          - "24.6432"
+          - NA
+          - NA
+          - NA
+          - "1.8573"
+          - NA
+          - NA
+          - NA
+          - "12.1404"
+          - NA
+          - NA
+          - NA
+          - "8.3352"
+          - NA
+          - NA
+          - NA
+          - "1.2684"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.359"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1178
+        values:
+          - Ranidae
+          - Clinotarsus
+          - Clinotarsus penelope
+          - M
+          - "38.5"
+          - "16.093"
+          - "12.5125"
+          - "4.6585"
+          - "3.388"
+          - "1.001"
+          - NA
+          - NA
+          - "3.234"
+          - "4.1195"
+          - NA
+          - NA
+          - "11.088"
+          - "9.2015"
+          - NA
+          - "18.2875"
+          - NA
+          - "21.2135"
+          - NA
+          - NA
+          - NA
+          - "1.54"
+          - NA
+          - NA
+          - NA
+          - "10.626"
+          - NA
+          - NA
+          - NA
+          - "6.9685"
+          - NA
+          - NA
+          - NA
+          - "1.078"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.078"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3798
+        values:
+          - Anura
+          - Clinotarsus_penelope
+          - "Grosjean, S., Bordoloi, S., Chuaynkern, Y., Chakravarty, P., & Ohler, A. (2015). When young are more conspicuous than adults: A new ranid species (Anura: Ranidae) revealed by its tadpole. Zootaxa, 4058, 471-498. https://doi.org/10.11646/zootaxa.4058.4.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - UEW
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - IMT
+      - Toe4L
+      - Fin3L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - W73K
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

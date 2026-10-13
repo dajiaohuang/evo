@@ -1,0 +1,73 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-250cce9353
+      part: title
+    titleZh:
+      page: zh
+      section: s-f8c671c38f
+      part: title
+    category: origin
+    startAge: 152.99
+    endAge: 151.46
+    regions:
+      - Global fossil and molecular sample
+    clades:
+      - Crown Angiospermae
+    summary:
+      page: en
+      section: s-250cce9353
+      part: body
+    summaryZh:
+      page: zh
+      section: s-f8c671c38f
+      part: body
+    claimIds:
+      - claim:event:crown-angiosperm-calibration-sensitivity
+    evidenceItems:
+      - statement: 25,685 fossil occurrences informed 110 calibrations on a 644-species, 83-gene phylogeny
+        relation: supports
+        claimIds:
+          - claim:event:crown-angiosperm-calibration-sensitivity
+        referenceLinks:
+          - relation: supports
+            referenceId: wu-2026-angiosperm-timescale
+            pages: 1242–1251
+            figure: Figures 1–5
+    uncertaintyItems:
+      - statement: The displayed 152.99–151.46 Ma interval is the authors' preferred hard-bound strategy; soft-bound and skew-T strategies yielded 172.53–158.45 Ma and 261.26–212.30 Ma
+        relation: contextualizes
+        claimIds:
+          - claim:event:crown-angiosperm-calibration-sensitivity
+        referenceLinks:
+          - relation: supports
+            referenceId: wu-2026-angiosperm-timescale
+            figure: Figures 2–3
+            quoteLocator: Molecular clock analyses; Discussion
+      - statement: The result is a calibration-dependent crown model, not a directly observed Jurassic flower or fossil first appearance
+        relation: contextualizes
+        claimIds:
+          - claim:event:crown-angiosperm-calibration-sensitivity
+        referenceLinks:
+          - relation: supports
+            referenceId: wu-2026-angiosperm-timescale
+            quoteLocator: Main; Results; Conclusion
+  claims:
+    - subjectId: event:crown-angiosperm-calibration-sensitivity
+      claimKind: scientific
+      claimType: divergence-time
+      statement: A 2026 analysis used 25,685 non-pollen fossil occurrences to construct 110 calibration densities for a 644-species molecular tree; its preferred hard-bound strategy estimated crown Angiospermae at 152.99–151.46 Ma, while less constrained strategies yielded far older intervals, so the result is a calibration-dependent model rather than a fossil first appearance.
+      confidence: medium
+      confidenceRationale: The fossil dataset, molecular matrix and alternative calibration strategies are explicitly documented, and the preferred result is narrow. Medium confidence preserves the very large sensitivity to calibration-density treatment and prevents the preferred posterior from becoming an observed Jurassic body fossil or a universal crown age.
+      referenceLinks:
+        - relation: supports
+          referenceId: wu-2026-angiosperm-timescale
+          pages: 1242–1251
+          figure: Figures 1–5
+          quoteLocator: "Results: Age estimation and Molecular clock analyses; Discussion; Conclusion"
+  claim-rationales.zh:
+    - 化石数据集、分子矩阵和三种替代校准方案均有明确记录，偏好方案的区间很窄。中等置信度保留了结果对校准密度处理的巨大敏感性，防止把偏好后验误写成已观察到的侏罗纪植物体化石或普适冠群年龄。
+  claim-statements.zh:
+    - 2026 年一项分析使用 25,685 条非花粉化石出现记录，为含 644 个物种的分子树构建 110 个校准密度；其偏好的硬边界方案将被子植物冠群估计为 152.99–151.46 Ma，而约束较弱的方案给出远老得多的区间，因此该结果是依赖校准的模型，不是化石首现。

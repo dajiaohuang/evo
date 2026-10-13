@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brasilotyphlus guarantanus
+  displayName: Brasilotyphlus guarantanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/693CT
+  sourceIndexes:
+    - name:
+        en: Brasilotyphlus guarantanus
+        zh: Brasilotyphlus guarantanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 693CT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/453
+            queryName: Brasilotyphlus guarantanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-47c06e797f
+      - s-c2c7c8d866
+      - s-54921565d1
+      - s-ff3b28a0d7
+      - s-1329750348
+      - s-119c059091
+      - s-1a11b12fdc
+      - s-07f67a682c
+      - s-ea4c9b3cc9
+      - s-09c23b2cbd
+      - s-38346b17d8
+      - s-90fe6d46ae
+      - s-cce865f58d
+      - s-6fdd3de570
+      - s-c82b3989bb
+      - s-211afa2b98
+    zh:
+      - s-9178b1d50d
+      - s-4656c698e3
+      - s-a9426a20db
+      - s-59ffca186d
+      - s-7dfea53681
+      - s-c1367f278c
+      - s-c4ac78a0ce
+      - s-db9413d60d
+      - s-2e86e26869
+      - s-4111b0693f
+      - s-2f6fc77423
+      - s-67598a5087
+      - s-3921805fe8
+      - s-e1a65dbd31
+      - s-d950d5d3ef
+      - s-3530569bd5

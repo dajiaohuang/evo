@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes visayanus
+  displayName: Limnonectes visayanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDBV
+  sourceIndexes:
+    - name:
+        en: Limnonectes visayanus
+        zh: Limnonectes visayanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDBV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/148
+            queryName: Limnonectes visayanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/434
+            queryName: Rana macrodon visayanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/435
+            queryName: Rana magna visayanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e912e538e
+      - s-5de36381fb
+      - s-3c73efd3e2
+      - s-db03e48324
+      - s-831973fc67
+      - s-ba48121733
+      - s-ac5574060f
+      - s-f2e0691e92
+      - s-1f608b002a
+    zh:
+      - s-8ee1d988db
+      - s-3d677245db
+      - s-2aafaa791e
+      - s-a40f7219d6
+      - s-550e0ed2fb
+      - s-19c746a117
+      - s-ef77c07ad0
+      - s-bc0a4442a4
+      - s-013eb63a73

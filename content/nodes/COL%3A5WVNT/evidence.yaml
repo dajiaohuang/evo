@@ -1,0 +1,172 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Callithrix flaviceps (Thomas, 1903)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Buffy-headed Marmoset
+      zh: 淡头绒猴
+    sections:
+      - topic: population
+        sourceIds:
+          - pinto1993flaviceps
+        text:
+          zh:
+            page: zh
+            section: s-a6eb2e61ed
+            part: body
+          en:
+            page: en
+            section: s-3f9abed7f2
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-0f189c2237
+            part: body
+          en:
+            page: en
+            section: s-bdc7024e89
+            part: body
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-be8a24b487
+            part: body
+          en:
+            page: en
+            section: s-465f364166
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-7335d804c0
+            part: body
+          en:
+            page: en
+            section: s-fccf6c9b30
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-99ae1db901
+            part: body
+          en:
+            page: en
+            section: s-34072baf31
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Callithrix flaviceps (Thomas, 1903)
+            zh: 生命名录 COL26.8 — Callithrix flaviceps (Thomas, 1903)
+          url: https://www.checklistbank.org/dataset/316115/taxon/5WVNT
+          scope:
+            en: Pinned accepted name, rank and genus link; not biological evidence.
+            zh: 固定接受名、等级和属级父链；不作为生物学证据。
+      - id: mdd_name
+        referenceId: ref-04f7025c-929f-8e5d-ab8a-226d0c5ddf73
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the selected English common name only; not occurrence, ecology or a complete range.
+            zh: 仅支持所选英文普通名；不支持出现记录、生态或完整分布。
+      - id: pinto1993flaviceps
+        referenceId: ref-ee5581a1-78a4-8b63-a289-842a681b414f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Repeated-transect estimates for five primate species, including C. flaviceps, in montane rainforest in eastern Brazil; density comparisons are local to the surveyed reserve.
+            zh: 支持巴西东部山地雨林对五种灵长类（包括 C. flaviceps）的重复样线估计；密度比较限于所调查保护区。
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - sourceVersion
+          - sourceFileSha256
+          - sourceRecordName
+          - originalReferenceNumbers
+          - availableFocalFields
+          - uninterpretedFocalFields
+          - withheldFields
+          - historicalCrosswalk
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Mammal_lifehistories_v2.txt: Callithrix flaviceps; original refs=24; metadata Class II B data collection and variable definitions; Class IV units and reference list."
+          sourceVersion: Ecological Archives E084-093-D1; 2003 v2
+          sourceFileSha256: 9b7a4ef7082c7b37ab76b922cfd5c86fd3e49444fa2db180439cfbe051fef6b9
+          sourceRecordName: Callithrix flaviceps
+          originalReferenceNumbers:
+            - "24"
+          availableFocalFields:
+            - litter size
+          uninterpretedFocalFields:
+            - gestation(mo)
+            - newborn(g)
+            - weaning(mo)
+            - wean mass(g)
+            - AFR(mo)
+            - max. life(mo)
+            - litters/year
+          withheldFields:
+            - mass(g)
+          historicalCrosswalk:
+            MSW93Binomial: Callithrix flaviceps
+            MSW05Binomial: Callithrix flaviceps
+            mapping: one-to-one same-name MSW93/MSW05 in separate PanTHERIA supplied SppSynonymID1.0 table; not equivalence to COL
+            sourceConceptEquivalenceToCOL: not established
+          accessedAt: 2026-10-03
+          licenseAssessment: archived-no-restrictions-attributed-factual-summary
+          scope:
+            zh: 历史生活史汇总：一般等权平均，最高寿命取记录最大值；成年体重不在本批解读，底层物种文献未逐条读取。
+            en: "Historical life-history summaries: generally equally weighted averages, maximum lifespan as a record maximum; adult mass not interpreted in this batch, underlying species literature not individually read."
+    limitations:
+      en:
+        page: en
+        section: s-17ef30b0ce
+        part: body
+      zh:
+        page: zh
+        section: s-bbb5301179
+        part: body

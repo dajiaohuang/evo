@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plastomenini
+    rank: unranked clade
+    sourceDatasetId: null
+    name:
+      zh: Plastomenini
+      en: Plastomenini
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a343c470e0
+            part: body
+          en:
+            page: en
+            section: s-8981088bc0
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-04bae7f2c0
+            part: body
+          en:
+            page: en
+            section: s-459eaa9274
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Plastomenini
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=453924
+          locator: Recorded PBDB parent closure beneath the already documented Pantestudines COL-compatible storage anchor.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:453924
+          readingTargets:
+            - name: Helopanoplia beecheri
+              pbdbTaxonId: txn:69094
+              canonicalPath: content/nodes/PBDB%3A69094
+            - name: Hutchemys walkerorum
+              pbdbTaxonId: txn:453925
+              canonicalPath: content/nodes/PBDB%3A453925
+            - name: Hutchemys arctochelys
+              pbdbTaxonId: txn:253840
+              canonicalPath: content/nodes/PBDB%3A253840
+            - name: Hutchemys acupictus
+              pbdbTaxonId: txn:105405
+              canonicalPath: content/nodes/PBDB%3A105405
+            - name: Hutchemys rememdium
+              pbdbTaxonId: txn:253839
+              canonicalPath: content/nodes/PBDB%3A253839
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-541c5d5cf3
+        part: body
+      en:
+        page: en
+        section: s-ba7ea961c0
+        part: body

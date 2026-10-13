@@ -1,0 +1,19 @@
+## Aloidendron tongaense: a branching tree aloe {#s-6b12918be6}
+A South African regional account describes dichotomously branched succulent trees with rounded crowns, 4–8 m tall and about as wide. The stout, firm main trunk is 0.6–0.8 m across at the base; leaf-bearing branches are about 30 mm across. The bark is grey. Mature plants have fleshy roots about 33 mm across, dark brown to grey.
+
+About 20 firm, leathery, sword-shaped leaves form apical rosettes. Pressed flat, leaves measure 40–59 × 4.5 cm. They are dull green, channelled above and convex below, with toothed margins; the teeth are 2 mm long and 5–10 mm apart. Tips are acute and mucronate. Older leaves fall from the base. The erect, candelabra-shaped inflorescence is 35 cm tall and bears up to 6 racemes. The peduncle is 100 mm long and 19 mm across, biconvex and slightly flattened at the base, becoming cylindrical above. The scape measures 100–120 × 9 mm. Head-shaped racemes are 4–6 cm long and bear up to 50–60 flowers; the yellow buds are loosely arranged. Thin, papery, triangular, taper-pointed bracts measure 12–14 × 3–4 mm; yellow pedicels are 10–14 × 2 mm.
+
+The curved, cylindrical perianth hangs when mature and measures 47–50 × 8–9 mm; it is yellowish orange with a slight basal swelling. The outer segments are fused for the lower 30 mm and free for 10 mm, with slightly pointed tips. The inner segments are free to the base, linear-oblanceolate and channelled, with blunt to slightly pointed tips; they are yellow with a brownish midline. Yellowish filaments are about 50 mm long and become exposed for 3–5 mm at maturity; the yellow anthers are 3 mm long. The greenish-yellow, grooved, ovoid ovary is 7 × 4 mm. The yellow style is 35–45 mm long and becomes exposed for up to 7 mm at maturity. Capsule and seed were not seen. Flowering is reported mainly in April and May.
+
+These characters, measurements and flowering months come from a regional South African flora account cited to a 2010 publication. The excerpt gives no dated sampling frame or population frequency and does not establish variation across the full range. It does not independently classify the material as native, naturalised, cultivated or domesticated.
+
+The diagnostic account distinguishes *A. tongaense* from *A. eminens* by its smaller inflorescence, up to 6-branched and 35 cm tall, its short 4–6 cm head-shaped racemes with moderately dense flowers, and its curved, yellowish-orange perianth, 47–50 mm long. The outer perianth segments are fused for more than half their length, and the stamens project only 3–5 mm. In *A. eminens*, the inflorescence is described as 50–60 cm high, with outer segments fused only in the lower third. Flowers of both species hang when open.
+
+The same account calls *Aloe barberae* the tallest African aloe, reaching 18 m. It is vegetatively similar to *A. tongaense* but otherwise differs. *A. barberae* is reported from forested kloofs and river valleys in southeastern and eastern southern Africa; it has densely flowered racemes and a short, three-angled cylindrical perianth 33–37 mm long that is presented horizontally when open. Its outer perianth segments are free almost to the base. In other members of section *Dracoaloe*, the perianth segments are fused at least through the lower third.
+
+These comparisons come from a regional South African account cited to a 2010 publication. The excerpt gives no dated sampling frame or population frequency and does not establish variation across the full range.
+
+The account places the plants at Kosi Bay in Northern Coastal Forest, scattered in sandy soil at 5–30 m elevation under warm, humid subtropical conditions. Reported rainfall is 1,250–1,500 mm per year, mainly in summer.
+
+This habitat statement comes from a regional South African account cited to a 2010 publication. It gives no dated sampling frame or population frequency and does not establish habitat use across the full range.
+

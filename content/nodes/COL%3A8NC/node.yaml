@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastoridae
+  displayName: Craugastoridae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/8NC
+  sourceIndexes:
+    - name:
+        en: Craugastoridae
+        zh: Craugastoridae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 8NC
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/322
+            queryName: Craugastoridae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 214
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bb84f02232
+      - s-a8fd3c16eb
+      - s-b38ca67421
+      - s-03a079aae9
+      - s-d74d41407a
+      - s-f26f52221a
+      - s-ac074e70b3
+      - s-1cbf763731
+    zh:
+      - s-d4918d8169
+      - s-a5525dba39
+      - s-73899c5022
+      - s-c41b5f8a79
+      - s-43ded1c803
+      - s-164ca3fc56
+      - s-98be3727f7
+      - s-fba2cd021a

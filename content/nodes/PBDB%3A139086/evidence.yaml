@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Konzhukovia vetusta
+    rank: species
+    sourceTaxonId: txn:139086
+    name:
+      en: Konzhukovia vetusta
+      zh: Konzhukovia vetusta
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-7103092291
+            part: body
+          zh:
+            page: zh
+            section: s-4f86a3dfe6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 3 PBDB occurrence rows and collection fields
+          zh: 3 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-53fb1a179e
+            part: body
+          zh:
+            page: zh
+            section: s-c109fa704f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Konzhukovia vetusta
+          zh: Konzhukovia vetusta 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-0d256034f8
+            part: body
+          zh:
+            page: zh
+            section: s-c977f7d360
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:139086; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. A. Shishkin, I. V. Novikov, and Y. M. Gubin. 2000. Permian and Triassic temnospondyls from Russia. The Age of Dinosaurs in Russia and Mongolia. Cambridge University Press, Cambridge
+    occurrenceEvidence:
+      - occurrenceId: occ:790215
+        collectionId: col:85487
+        acceptedTaxonId: txn:139086
+        taxonomicDifference: null
+        referenceId: ref:14547
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and A. V. Minikh, M. V. Surkov, M. J. Benton. 2005. Upper Permian vertebrates and their sedimentological context in the South Urals, Russia. Earth-Science Reviews 69:27-77
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bolshekinelskaya
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+      - occurrenceId: occ:1333328
+        collectionId: col:179656
+        acceptedTaxonId: txn:139086
+        taxonomicDifference: null
+        referenceId: ref:59524
+        bibliography: M. F. Ivakhnenko. 2012. Permian Cynodontia (Theromorpha) of Eastern Europe. Paleontological Journal 46(2):199-207
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+      - occurrenceId: occ:1371067
+        collectionId: col:187191
+        acceptedTaxonId: txn:139086
+        identifiedTaxonId: var:139086
+        identifiedName: Melosaurus vetustus n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:28828
+        bibliography: R. Schoch and A. R. Milner. 2000. Stereospondyli. Handbuch der Paläoherpetologie - Encyclopedia of Paleoherpetology 3B:1-203
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Krasnogvardeiskii
+        stratigraphy:
+          group: null
+          formation: Amanakskaya
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 259.857
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Konzhukovia vetusta
+          zh: Konzhukovia vetusta 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-0d256034f8
+            part: body
+          zh:
+            page: zh
+            section: s-c977f7d360
+            part: body
+        sourceIds: []

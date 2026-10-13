@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus appendiculatus
+  displayName: Kurixalus appendiculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6NQJJ
+  sourceIndexes:
+    - name:
+        en: Kurixalus appendiculatus
+        zh: Kurixalus appendiculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6NQJJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/159
+            queryName: Kurixalus appendiculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/308
+            queryName: Rhacophorus appendiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/278
+            queryName: Polypedates appendiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/279
+            queryName: Rhacophorus phyllopygus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/280
+            queryName: Leptomantis appendiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/156
+            queryName: Rhacophorus appendiculatus appendiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7471f1e9dc
+      - s-343ba2ee07
+      - s-a2e8317223
+      - s-ce030842fd
+      - s-3434d85c6d
+      - s-7b4a72fd6c
+      - s-e39387b952
+      - s-c37ea56498
+      - s-55bdabc4bd
+      - s-ab600e8bf2
+      - s-f01d61e31e
+    zh:
+      - s-8d9daee9d8
+      - s-93259fa82b
+      - s-6adfc7ae19
+      - s-4cffb1c969
+      - s-86f5f9e7ae
+      - s-2540c9db5b
+      - s-8b9ebebb20
+      - s-5fb2ab960c
+      - s-bc6ebbb0b8
+      - s-0022f54b2d
+      - s-acc43465ea

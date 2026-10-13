@@ -1,0 +1,304 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobius hirosei Lantz, 1931
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobius hirosei
+      zh: Hynobius hirosei
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-154bd4b5bc
+            part: title
+          zh:
+            page: zh
+            section: s-44a8757234
+            part: title
+        text:
+          en:
+            page: en
+            section: s-154bd4b5bc
+            part: body
+          zh:
+            page: zh
+            section: s-44a8757234
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d24ab55c1e
+            part: title
+          zh:
+            page: zh
+            section: s-432e5e3c06
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d24ab55c1e
+            part: body
+          zh:
+            page: zh
+            section: s-432e5e3c06
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-69018a587c
+            part: title
+          zh:
+            page: zh
+            section: s-9f44a24eac
+            part: title
+        sourceIds:
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-69018a587c
+            part: body
+          zh:
+            page: zh
+            section: s-9f44a24eac
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-421497d032fa9ba301a4e0893d508673
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-7f7c1c1593
+            part: title
+          zh:
+            page: zh
+            section: s-a8fce5f0fe
+            part: title
+        sourceIds:
+          - primary-pmc9422979-3nltn
+        text:
+          en:
+            page: en
+            section: s-7f7c1c1593
+            part: body
+          zh:
+            page: zh
+            section: s-a8fce5f0fe
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-a10e34113f
+            part: title
+          zh:
+            page: zh
+            section: s-c69a82e3cc
+            part: title
+        sourceIds:
+          - primary-pmc9422979-3nltn
+        text:
+          en:
+            page: en
+            section: s-a10e34113f
+            part: body
+          zh:
+            page: zh
+            section: s-c69a82e3cc
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c7933c348e
+            part: title
+          zh:
+            page: zh
+            section: s-08c852439c
+            part: title
+        sourceIds:
+          - primary-pmc9422979-3nltn
+        text:
+          en:
+            page: en
+            section: s-c7933c348e
+            part: body
+          zh:
+            page: zh
+            section: s-08c852439c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobius hirosei
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NLTN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6032; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6027 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: primary-pmc9422979-3nltn
+        referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hynobius hirosei: Named species systematics and discussion, with additionally read original XML SNP results and morphological methods paragraphs; no figures or tables reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fa43a816e0
+        part: body
+      zh:
+        page: zh
+        section: s-66cd749c2b
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.13891
+        referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+        sourceKey: primary-pmc9422979-3nltn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9422979/article.xml
+        sourceConcept: Hynobius hirosei
+        evidenceRead: "Hynobius hirosei: Named species systematics and discussion, with additionally read original XML SNP results and morphological methods paragraphs; no figures or tables reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A narrowed name after removal of the Nanyo lineage
+              zh: 移除 Nanyo 谱系后的较窄名称
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-3nltn
+            locator: PMC9422979 reading-sections section 2, paragraph 0; section 3, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c011830c11
+                part: body
+              zh:
+                page: zh
+                section: s-c0c20fd020
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Previously published clutch samples from two mountain areas
+              zh: 两个山地此前发表的窝卵样本
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-3nltn
+            locator: PMC9422979 reading-sections section 2, paragraph 16
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e052d4703a
+                part: body
+              zh:
+                page: zh
+                section: s-64b7294dae
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Syntopic species and a requested conservation reassessment
+              zh: 同地物种及所要求的保护重评
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-3nltn
+            locator: PMC9422979 reading-sections section 3, paragraphs 4–5; section 2, paragraph 21
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ed40558485
+                part: body
+              zh:
+                page: zh
+                section: s-90a96b794f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

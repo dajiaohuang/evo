@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana splendida
+  displayName: Odorrana splendida
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SGR
+  sourceIndexes:
+    - name:
+        en: Odorrana splendida
+        zh: Odorrana splendida
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SGR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/47
+            queryName: Odorrana splendida
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a50ef2cdb5
+      - s-3e45406fad
+      - s-edb6790d52
+      - s-e89c844e6f
+      - s-4aad99aa52
+      - s-5d119dd5b4
+      - s-118162b71d
+      - s-ecd7f441ad
+      - s-b98514f1e4
+      - s-3248981005
+      - s-e4d0dc6127
+    zh:
+      - s-65ebefa7cc
+      - s-0ec9e6fc02
+      - s-5cebf8ca9f
+      - s-69f685589b
+      - s-d29206c0da
+      - s-6903b4451d
+      - s-a4f67a20c7
+      - s-5365be5733
+      - s-9d57f7583a
+      - s-27fce37dd8
+      - s-8dda3e612a

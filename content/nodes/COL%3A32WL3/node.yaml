@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus migueli
+  displayName: Cycloramphus migueli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WL3
+  sourceIndexes:
+    - name:
+        en: Cycloramphus migueli
+        zh: Cycloramphus migueli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WL3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/285
+            queryName: Cycloramphus migueli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d00a019fde
+      - s-9780825000
+      - s-effc7603e6
+      - s-1d3ad23541
+      - s-b6ab2cd581
+      - s-106e2c93da
+      - s-4d3a5cd420
+      - s-0a591f79e2
+      - s-192551a8b6
+      - s-481ebee35a
+      - s-cde9959a73
+      - s-f6773b0a13
+      - s-5e234b4983
+      - s-43cc6c8b9f
+    zh:
+      - s-593372de4b
+      - s-4271ad35ec
+      - s-de7da250d6
+      - s-1d46ad161f
+      - s-4a14660fa4
+      - s-79a0d86e8a
+      - s-95bc37ea17
+      - s-d4956c7ace
+      - s-bd3f640212
+      - s-8e8fdc56b0
+      - s-5ea2733aad
+      - s-67569f8a78
+      - s-722b802b87
+      - s-030e477cc7

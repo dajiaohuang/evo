@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cardioglossa cyaneospila
+  displayName: Cardioglossa cyaneospila
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/R5G8
+  sourceIndexes:
+    - name:
+        en: Cardioglossa cyaneospila
+        zh: Cardioglossa cyaneospila
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: R5G8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/152
+            queryName: Cardioglossa cyaneospila
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/7
+            queryName: Cardioglossa nigromaculata cyaneospila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f483dc04d6
+      - s-b99f9a2067
+      - s-cd08fc2346
+      - s-63e8732ec9
+      - s-eba11243c2
+      - s-57ea0acacc
+      - s-9b61a66d64
+      - s-8d97c79dd7
+      - s-d1989a26b8
+      - s-984817a3de
+      - s-1807484693
+      - s-b07ce29538
+      - s-a124af330e
+    zh:
+      - s-71c12e06af
+      - s-affd909ae0
+      - s-2bbc460bef
+      - s-f3682d6451
+      - s-c451aa396f
+      - s-132e42daf5
+      - s-200fc07f1f
+      - s-d6e89f56f3
+      - s-c02d961bc2
+      - s-8f483d23a7
+      - s-584e7495fa
+      - s-f813203d91
+      - s-382b35c6e4

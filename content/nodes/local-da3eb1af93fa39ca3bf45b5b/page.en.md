@@ -1,0 +1,9 @@
+## The dataset entry {#s-109cce594c}
+The pinned AmphiTherm curated snapshot records Triturus dobrogicus under Salamandridae, Caudata. It retains 15 thermal estimate rows across 4 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## thermal preference estimate {#s-ed12b9ccfa}
+Source row 2115 (ID 2321; Gvozdik_2003) reports 18.9 °C for the thermal preference estimate (metric code Tpref). The tested stage is recorded as adults. The source population code is Triturus_dobrogicus_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = water, rate_measurement = 6. The source reports 1.4 °C as its standard error. The source n_trait field is 9. The source row does not state an endpoint. Sex is recorded as mixed. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical upper thermal limit estimate {#s-70ffaab2aa}
+Source row 2141 (ID 2348; Gvozdik_et_al_2007) reports 36.8 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Triturus_dobrogicus_pop1. Recorded conditions include acclimation at 15 °C, medium_test_temp = water. The source reports 0.2 °C as its standard error. The source n_trait field is 8. The endpoint is OS. Sex is recorded as mixed. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

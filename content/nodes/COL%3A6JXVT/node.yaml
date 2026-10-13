@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca pseustes
+  displayName: Gastrotheca pseustes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JXVT
+  sourceIndexes:
+    - name:
+        en: Gastrotheca pseustes
+        zh: Gastrotheca pseustes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JXVT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/68
+            queryName: Gastrotheca pseustes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e198f86aac
+      - s-b6f9f84d1e
+      - s-08db1a44e4
+      - s-00e69c3078
+      - s-f65d77f82d
+      - s-88b006e2d8
+      - s-ceacc50052
+      - s-d217ce1943
+      - s-74e0f9e69e
+      - s-095f3136f4
+      - s-2802559e80
+      - s-91b3dd9007
+    zh:
+      - s-dd85c3f528
+      - s-fd77b20f69
+      - s-26d7f52673
+      - s-3fe986975f
+      - s-69963a5f38
+      - s-a2073fa1a3
+      - s-617d58d15b
+      - s-640108285e
+      - s-29c5e36cd8
+      - s-7088bac55a
+      - s-3312c08f97
+      - s-e1ff8d1053

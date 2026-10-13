@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis sambirano
+  displayName: Boophis sambirano
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPLC
+  sourceIndexes:
+    - name:
+        en: Boophis sambirano
+        zh: Boophis sambirano
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPLC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/295
+            queryName: Boophis sambirano
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-81ab6d8e54
+      - s-a23c35187b
+      - s-e26278c937
+      - s-0963ac31a8
+      - s-8386a4560e
+      - s-a760b0c62f
+      - s-eea7a95747
+      - s-7630a50f23
+      - s-eec4a580c3
+      - s-0f2bb49084
+    zh:
+      - s-1ab5f0c39f
+      - s-9d371fe099
+      - s-c7c306ac2c
+      - s-21e3010f47
+      - s-18b4f3092a
+      - s-f9ef7c102b
+      - s-b40b3dfe10
+      - s-843a94ff3e
+      - s-f441867cc8
+      - s-77feefbf3f

@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Antrostomus
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Antrostomus
+      en: Antrostomus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetAntrostomusHistoricalV7
+          - amnioteLifeHistory2015
+        text:
+          zh:
+            page: zh
+            section: s-4275be2980
+            part: body
+          en:
+            page: en
+            section: s-b236837875
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetAntrostomusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-dd45e23053
+            part: body
+          en:
+            page: en
+            section: s-a7254a8e6f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetAntrostomusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-a6587621c9
+            part: body
+          en:
+            page: en
+            section: s-07a242022c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - avonetAntrostomusHistoricalV7
+          - amnioteLifeHistory2015
+        text:
+          zh:
+            page: zh
+            section: s-321c754b6b
+            part: body
+          en:
+            page: en
+            section: s-63646a14ff
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-0fae1f77fa
+            part: body
+          en:
+            page: en
+            section: s-4659c2943d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Antrostomus
+          url: https://www.checklistbank.org/dataset/316115/taxon/XV3
+          locator: Pinned name, rank and ancestor closure.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 4 authored same-name records placed under Antrostomus by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: avonetAntrostomusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Antrostomus historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 6 selected AVONET1_BirdLife rows 603, 608–612; full eBird and BirdTree crosswalks, twelve related COL ant/cap name records and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 六条历史行：Caprimulgus旧名、未定性别、完整分母、独立体重、活动方式与栖地密度分开。
+            en: "Six historical rows: separate Caprimulgus names, unsexed sampling, complete sets, independent mass, lifestyles and habitat density."
+    limitations:
+      zh:
+        page: zh
+        section: s-9c2ad7397e
+        part: body
+      en:
+        page: en
+        section: s-591427515b
+        part: body

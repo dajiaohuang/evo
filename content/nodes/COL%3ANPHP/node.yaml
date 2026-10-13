@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufoides meghalayanus
+  displayName: Bufoides meghalayanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NPHP
+  sourceIndexes:
+    - name:
+        en: Bufoides meghalayanus
+        zh: Bufoides meghalayanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NPHP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/22
+            queryName: Bufoides meghalayanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/326
+            queryName: Ansonia meghalayana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d0caa7960a
+      - s-456e2d8c1a
+      - s-a09403d42d
+      - s-704defb080
+      - s-2dce933636
+      - s-80182e5069
+      - s-8b760d82a0
+      - s-f66c8a7d47
+      - s-15166c7aaa
+      - s-9feab58573
+      - s-0ebd2e442e
+      - s-d6ce18baad
+      - s-9c05a74368
+    zh:
+      - s-0684084174
+      - s-1b90c76971
+      - s-49bbf8ac7e
+      - s-7a610147b0
+      - s-27c0334037
+      - s-31d554d8e9
+      - s-02d0e135e0
+      - s-08f7a3138a
+      - s-ae20a7320e
+      - s-3d8d3255b5
+      - s-8b64ef7acf
+      - s-dbd4e63c45
+      - s-8534015831

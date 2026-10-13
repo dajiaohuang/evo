@@ -1,0 +1,227 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mammuthus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Mammuthus
+      en: Mammuthus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0a39404de1
+            part: body
+          en:
+            page: en
+            section: s-61df2e51eb
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-21b8607818
+            part: body
+          en:
+            page: en
+            section: s-c7013b6a5a
+            part: body
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-4a70be76f2
+            part: title
+          zh:
+            page: zh
+            section: s-411180aabf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4a70be76f2
+            part: body
+          zh:
+            page: zh
+            section: s-411180aabf
+            part: body
+        claimIds:
+          - claim:taxon:mammuthus:genomic-topology
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-156e034794
+            part: title
+          zh:
+            page: zh
+            section: s-bc02b7a17d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-156e034794
+            part: body
+          zh:
+            page: zh
+            section: s-bc02b7a17d
+            part: body
+        claimIds:
+          - claim:taxon:mammuthus:source-bounded-range-rc49
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Mammuthus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=43266
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:43266
+          readingTargets:
+            - name: Mammuthus lamarmorae
+              pbdbTaxonId: txn:159784
+              canonicalPath: content/nodes/PBDB%3A159784
+            - name: Mammuthus subplanifrons
+              pbdbTaxonId: txn:513186
+              canonicalPath: content/nodes/PBDB%3A513186
+            - name: Mammuthus africanavus
+              pbdbTaxonId: txn:512131
+              canonicalPath: content/nodes/PBDB%3A512131
+            - name: Mammuthus creticus
+              pbdbTaxonId: txn:159787
+              canonicalPath: content/nodes/PBDB%3A159787
+            - name: Mammuthus trogontherii
+              pbdbTaxonId: txn:159796
+              canonicalPath: content/nodes/PBDB%3A159796
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-48bbb8459c
+        part: body
+      en:
+        page: en
+        section: s-d41ae6cc3b
+        part: body
+  atlas-node:
+    name: Mammuthus
+    commonName: Mammoths
+    commonNameZh: 猛犸象
+    rank: genus
+    taxonId: txn:43266
+    firstAppearance: 5
+    lastAppearance: 0.004
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:mammuthus
+      claimKind: scientific
+      claimType: topology
+      statement: Genome-scale comparisons of sampled mammoths, living elephants and mastodon place Mammuthus within a reticulate elephantid history with introgression and incomplete lineage sorting; the sampled genomes do not establish the genus’s full fossil duration or one bifurcating ancestor tree.
+      confidence: medium
+      confidenceRationale: The primary study provides genome-scale data and explicitly models admixture. The claim avoids extending those individuals to a global range.
+      referenceLinks:
+        - relation: supports
+          referenceId: palkopoulou-2018-elephant-genomes
+          pages: E2566–E2574
+          figure: Figures 1–4
+          quoteLocator: Genome sampling; phylogeny; admixture graph analyses
+    - subjectId: taxon:mammuthus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Mammuthus is displayed at 0.14–0.004 Ma only as the dated genomic specimen envelope, not the full fossil duration of Mammuthus. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Mammuthus uses Palkopoulou, E. et al. (2018) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Late Pleistocene mammoth genomes sampled by Palkopoulou et al.; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: palkopoulou-2018-elephant-genomes
+          pages: E2566–E2574
+          figure: Figures 1–4
+          quoteLocator: Genome sampling; phylogeny; admixture graph analyses
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 一手研究提供基因组尺度数据并明确建模混合；主张不把这些个体外推为全球范围。
+    - Mammuthus 采用 Palkopoulou, E. et al.（2018）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Late Pleistocene mammoth genomes sampled by Palkopoulou et al.；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 对取样猛犸、现生象和乳齿象的基因组尺度比较把 Mammuthus 置于包含基因渗入与不完全谱系排序的网状象科历史中；这些取样基因组不建立该属完整化石延续或单一二叉祖先树。
+    - Mammuthus 仅以 0.14–0.004 Ma 展示为有测年约束的基因组标本包络，而非 Mammuthus 完整化石存续期。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: mammuthus
+      rangeKind: global-composite
+      taxonomicConcept: Mammuthus — source-bounded sample window
+      geographicScope: Late Pleistocene mammoth genomes sampled by Palkopoulou et al.
+      olderMa: 0.14
+      youngerMa: 0.004
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the dated genomic specimen envelope, not the full fossil duration of Mammuthus; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: A comprehensive genomic history of extinct and living elephants directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:mammuthus:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: palkopoulou-2018-elephant-genomes
+          locator: E2566–E2574; Genome sampling; phylogeny; admixture graph analyses
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized

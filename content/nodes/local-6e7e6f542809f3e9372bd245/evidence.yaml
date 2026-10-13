@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Panophrys jiulianensis
+    name:
+      en: Panophrys jiulianensis
+      zh: Panophrys jiulianensis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Panophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b3db9c2dbc
+            part: body
+          zh:
+            page: zh
+            section: s-0ba85fa219
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ef9cd28420
+            part: body
+          zh:
+            page: zh
+            section: s-78eba42b3f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4008, 4009; Reference.csv rows 1046
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4008
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys jiulianensis
+          - M
+          - "32.2"
+          - "11.2"
+          - "11.4"
+          - "4.2"
+          - "2.3"
+          - "1.7"
+          - "3.3"
+          - "3.5"
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - "8"
+          - "8.1"
+          - NA
+          - NA
+          - "14.7"
+          - "20.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4009
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys jiulianensis
+          - F
+          - "35.8"
+          - "12.2"
+          - "12.85"
+          - "4.35"
+          - "2.3"
+          - "2.3"
+          - "3.6"
+          - "3.65"
+          - NA
+          - NA
+          - "4"
+          - NA
+          - "8.9"
+          - "9.05"
+          - NA
+          - NA
+          - "16.9"
+          - "23.55"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1046
+        values:
+          - Anura
+          - Panophrys_jiulianensis
+          - Wang, J., Lyu, Z. T., Liu, Z. Y., Liao, C. K., Zeng, Z. C., Zhao, J., . . . Wang, Y. Y. (2019). Description of six new species of the subgenus Panophrys within the genus Megophrys (Anura, Megophryidae) from southeastern China based on molecular and morphological data. Zookeys(851), 113-164. https://doi.org/10.3897/zookeys.851.29107
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - TFL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,3 @@
+## Recorded vegetative and reproductive characters {#s-1bb2e311bf}
+The Brazilian Flora 2020 morphology field records angular, striated stems with puberulent (finely hairy) surfaces. Leaves are clustered at shoot tips or scattered along internodes, stalked, obovate, smooth, olive to greenish, and pilose; domatia are listed as absent. Erect lateral inflorescences are crowded along the stems and described as dichasial, with triangular to short-triangular bracts. The calyx is cup-shaped; flowers are nearly sessile, with blunt corolla lobes and an ellipsoid or obconic ovary. Fruits are globose and glabrous. These characters and alternatives are listed in one regional description field.
+

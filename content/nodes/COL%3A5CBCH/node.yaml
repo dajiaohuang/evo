@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus petersii
+  displayName: Xenopus petersii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBCH
+  sourceIndexes:
+    - name:
+        en: Xenopus petersii
+        zh: Xenopus petersii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBCH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/323
+            queryName: Xenopus petersii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/225
+            queryName: Xenopus laevis petersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9e9ef60f81
+      - s-c727b31fc3
+      - s-6ed48d14b0
+      - s-fa304a8226
+      - s-e5f4a57081
+      - s-d4a0ae7db6
+      - s-7332ad80a9
+      - s-37c927fa6e
+      - s-e84d1f3815
+      - s-6ad29c8caf
+      - s-c84a5c8821
+      - s-9250b6b499
+      - s-5bb641d424
+      - s-86830504d4
+      - s-89fdcf8e3d
+      - s-7a8a90068a
+      - s-47d08d040d
+      - s-e57be61aff
+    zh:
+      - s-a55359a6b0
+      - s-928a790105
+      - s-f745e730fc
+      - s-15085031e6
+      - s-73bea4f899
+      - s-756c27dced
+      - s-5b944b3327
+      - s-f173fb8516
+      - s-014c87cebd
+      - s-9af597767c
+      - s-e488ab8a1e
+      - s-3d774cfe15
+      - s-463118c817
+      - s-bcb13f8fee
+      - s-7c6de3b584
+      - s-4d440d497d
+      - s-d70be7a197
+      - s-4b7634576f

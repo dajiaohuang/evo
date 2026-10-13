@@ -1,0 +1,46 @@
+## 接受名称与分类位置 {#s-498cac00f5}
+COL26.8 接受 Pristimantis quantus (Lynch, 1998) 为种级记录，所记分类路径为 Anura（目） → Strabomantidae（科） → Pristimantis（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+
+## 阅读路线 {#s-1c125e499b}
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+
+## 觅食层位——AmphiBIO 来源 {#s-2fea83fb03}
+历史来源概念：Pristimantis quantus，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。来源将 陆栖 标记为已记录的类别。这些是概括性的觅食类别；汇编没有详细区分季节变化或发育阶段变化。后续 TetrapodTraits 修订报告纠正了从早期汇编传播的部分两栖动物体重与微栖地记录。此处尚未取得受影响行的逐项比对；这些存档历史值或类别在再利用前需要核对。没有推断替代值，本说明也不把每条原记录判为错误。
+
+## 汇编的生活史——AmphiBIO 来源 {#s-ec153f0883}
+历史来源概念：Pristimantis quantus，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。AmphiBIO 记载 每年最多繁殖次数：1 次/年。数据集从文献汇编极值和计数；本行没有逐值区分性别、种群、测量日期或野生与圈养条件。后代尺寸字段可能指后代或卵。
+
+## 发育方式——AmphiBIO 来源 {#s-66d39c9834}
+历史来源概念：Pristimantis quantus，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。存档记录标记 直接发育。这些来源类别本身不足以说明亲代照料、繁殖地点或季节时序。
+
+## 相关来源记录与数据集 {#s-aa495537bf}
+以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
+
+- [AmphiBIO v1: Pristimantis quantus](../../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Strabomantidae/Pristimantis/Pristimantis_quantus/page.zh.md)
+- [Amphibian morphology v3: Pristimantis quantus](../../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Brachycephaloidea/Pristimantis/Pristimantis_quantus/page.zh.md)
+- [AmphiTherm curated snapshot: Pristimantis quantus](../../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Strabomantidae/Pristimantis/Pristimantis_quantus/page.zh.md)
+
+## 选列的临界高温限估计——AmphiTherm 来源 {#s-6cc25db424}
+存档来源概念：AmphiTherm 中的 Pristimantis quantus。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。来源第 1735 行（ID 1919，Gonzalez-del_Pliego_et_al_2020）为成体记载 20.415 °C，指标 CTmax，翻正反应丧失。温度适应条件未指定。所记升温或降温速率为 0.45 °C/分钟。来源 n_trait 字段为 40；重复批次的样本量不能直接相加。这是一个选列的汇编估计，不是全物种耐受边界、环境温度范围或饲养建议；底层研究尚未独立重新分析。所记测试温度介质为 body，性别类别 unknown，动物来源 wild。处理字段：化学物质 NA，激素 NA，感染 NA，病原体 NA。NA 表示未报告，不证明没有处理；原实验与性状备注附于来源记录，仍需研究层级核对。存档不确定性字段为 0.202849888 °C（标准误）；两种量不能互换。
+
+## 供体表具有有限生物学范围 {#s-d098f647fc}
+此研究提供名称下报告的标本/序列/地点行，不是新的物种特定形态、幼体生物学、生理、繁殖测量或种群轨迹。来源群组/分支列为研究标签，不是独立协调的当前分类。名称或登录号匹配不能导出全种概念或新生殖隔离测试。原GenBank记录和博物馆身份未认证。
+
+## 报告供体编号与序列来源 {#s-f95a00ee99}
+独立核读附录给row218: UVC 15905, accession=JN104684.1, group/clade=P. boulengeri, source=Genbank。“Our study”和“Genbank”保持不同所印来源类别。横杠是该字段无登录号，不是生物基因不存在或已证明缺失种群。登录号字符串及来源群标签保留，不把限定/sp.候选数据复制给此接受名。
+
+## 地点与坐标字符串保持逐行相连 {#s-bf3f3f3a92}
+同一附录行报告row218 UVC 15905: Colombia: Cauca;latitude=─;longitude=─;elevation=─。这些为来源字符串，不是新调查当前坐标或完整物种分布。保留十进制逗号、半球记号、排印异常、空白/横杠及历史地点标签，不推断替代地理点。需标本及序列认证协调有冲突身份或地点。无坐标行不依国家/省标签地理定位。
+
+## catalogue-profile / limitations {#s-378a356201}
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-bb2f129b34}
+此研究提供名称下报告的标本/序列/地点行，不是新的物种特定形态、幼体生物学、生理、繁殖测量或种群轨迹。来源群组/分支列为研究标签，不是独立协调的当前分类。名称或登录号匹配不能导出全种概念或新生殖隔离测试。原GenBank记录和博物馆身份未认证。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-bee73667f5}
+独立核读附录给row218: UVC 15905, accession=JN104684.1, group/clade=P. boulengeri, source=Genbank。“Our study”和“Genbank”保持不同所印来源类别。横杠是该字段无登录号，不是生物基因不存在或已证明缺失种群。登录号字符串及来源群标签保留，不把限定/sp.候选数据复制给此接受名。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-46f6fe038a}
+同一附录行报告row218 UVC 15905: Colombia: Cauca;latitude=─;longitude=─;elevation=─。这些为来源字符串，不是新调查当前坐标或完整物种分布。保留十进制逗号、半球记号、排印异常、空白/横杠及历史地点标签，不推断替代地理点。需标本及序列认证协调有冲突身份或地点。无坐标行不依国家/省标签地理定位。
+

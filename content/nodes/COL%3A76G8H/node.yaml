@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Peltophryne gundlachi
+  displayName: Peltophryne gundlachi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76G8H
+  sourceIndexes:
+    - name:
+        en: Peltophryne gundlachi
+        zh: Peltophryne gundlachi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76G8H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/493
+            queryName: Peltophryne gundlachi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/389
+            queryName: Bufo gundlachi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0e06d542c0
+      - s-41823e1b82
+      - s-22cc6a1ec1
+      - s-e862444227
+      - s-ee51031360
+      - s-65867cd452
+      - s-f724740f6a
+      - s-7a157e91e8
+      - s-188b3f458c
+      - s-6dfa664029
+      - s-4340c29cbe
+      - s-edcb9a2c38
+      - s-8914ebe038
+    zh:
+      - s-a0b9a08c00
+      - s-0c085eba30
+      - s-7a2e4a5319
+      - s-82e290420d
+      - s-ff19dc476b
+      - s-9a9d62da15
+      - s-67640f8bbc
+      - s-06141b5473
+      - s-a993470ff1
+      - s-9021428a1f
+      - s-e6f7666ebf
+      - s-5417cef3c3
+      - s-6adcfeb919

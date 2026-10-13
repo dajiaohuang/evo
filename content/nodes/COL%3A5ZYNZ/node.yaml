@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus tetzlaffi
+  displayName: Cophixalus tetzlaffi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5ZYNZ
+  sourceIndexes:
+    - name:
+        en: Cophixalus tetzlaffi
+        zh: Cophixalus tetzlaffi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5ZYNZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/487
+            queryName: Cophixalus tetzlaffi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e5c22dc677
+      - s-9c9a5aef74
+      - s-be2f06ddd6
+      - s-9a7e0d5832
+      - s-1cbce3759c
+      - s-83e1618679
+      - s-af6a189247
+      - s-a72ef440b5
+      - s-f64365f578
+      - s-0912f940aa
+      - s-dd4ce0fed9
+    zh:
+      - s-4f2527854f
+      - s-d72638b88b
+      - s-4d950e90ea
+      - s-442f6b04a0
+      - s-f62edcdfc3
+      - s-4148da2ba5
+      - s-25ce688e9c
+      - s-5a2ebf80c7
+      - s-e2e8f3eee7
+      - s-a083d3a906
+      - s-d1e0c035cc

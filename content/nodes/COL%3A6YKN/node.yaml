@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris
+  displayName: Pseudacris
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6YKN
+  sourceIndexes:
+    - name:
+        en: Pseudacris
+        zh: Pseudacris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6YKN
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/194
+            queryName: Pseudacris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 819
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8cee36fae4
+      - s-d84c5427de
+      - s-098bca14ed
+      - s-84a7155759
+      - s-de9d5a56cd
+      - s-1d17f64e87
+      - s-d3eba8f4c6
+      - s-ebcbee6fd6
+      - s-69d08c705e
+      - s-cfa1491a1e
+      - s-37285f521f
+      - s-ef689b13d9
+      - s-c10a99f3d2
+      - s-31c5ea95a1
+      - s-c6d4cd7cbd
+      - s-1dfbfbde0b
+      - s-ef670dd10c
+      - s-9ec6cf7769
+      - s-4a057a69ac
+    zh:
+      - s-70f6bdc4ab
+      - s-b99e0a1442
+      - s-987010b828
+      - s-5cbec2138b
+      - s-d912605fef
+      - s-5b9ed4365b
+      - s-92a9170d65
+      - s-0b7ba2c4ba
+      - s-91ebc854b1
+      - s-781da7506a
+      - s-7ffe88722b
+      - s-ab8cb9adaa
+      - s-8a582770ac
+      - s-b566154d1a
+      - s-890a2dc0de
+      - s-3d20d3f565
+      - s-6470e36f45
+      - s-00997878fe
+      - s-580ccbd23c

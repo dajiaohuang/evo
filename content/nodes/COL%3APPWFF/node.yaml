@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hypselotriton huanggangensis
+  displayName: Hypselotriton huanggangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PPWFF
+  sourceIndexes:
+    - name:
+        en: Hypselotriton huanggangensis
+        zh: Hypselotriton huanggangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PPWFF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/375
+            queryName: Hypselotriton huanggangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8cc303f85f
+      - s-b01072fd43
+      - s-5374090277
+      - s-54575e8799
+      - s-c529383398
+      - s-5921ed5300
+      - s-f1dfd60813
+    zh:
+      - s-52d54e613f
+      - s-a616df975e
+      - s-9a5be28185
+      - s-ed5f734806
+      - s-633c36f3ab
+      - s-8fd94817a6
+      - s-4c56fe8863

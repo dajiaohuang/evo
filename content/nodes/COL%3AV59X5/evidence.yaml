@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella damingshanensis Chen, Yu, Cheng, Meng, Wei, Zhou & Lu, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella damingshanensis
+      zh: Leptobrachella damingshanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c0a0e6b1cc
+            part: title
+          zh:
+            page: zh
+            section: s-7237c59c7f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c0a0e6b1cc
+            part: body
+          zh:
+            page: zh
+            section: s-7237c59c7f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ea8cc45ea0
+            part: title
+          zh:
+            page: zh
+            section: s-3e2ee6d107
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ea8cc45ea0
+            part: body
+          zh:
+            page: zh
+            section: s-3e2ee6d107
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d8c02771e2
+            part: title
+          zh:
+            page: zh
+            section: s-b707f808d5
+            part: title
+        sourceIds:
+          - primary-pmc12627998-v59x5
+        text:
+          en:
+            page: en
+            section: s-d8c02771e2
+            part: body
+          zh:
+            page: zh
+            section: s-b707f808d5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella damingshanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/V59X5
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12627998-v59x5
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella damingshanensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b4abc19e64
+        part: body
+      zh:
+        page: zh
+        section: s-e660b32635
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-v59x5
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella damingshanensis
+        evidenceRead: "Leptobrachella damingshanensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A selected trait in the kungfu comparison
+              zh: kungfu 比较中的所选性状
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-v59x5
+            locator: PMC12627998 XML sec17 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-29bfafd126
+                part: body
+              zh:
+                page: zh
+                section: s-045b85b2f7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

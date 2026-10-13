@@ -1,0 +1,330 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Salamandra salamandra
+  displayName: Salamandra salamandra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XB2G
+  sourceIndexes:
+    - name:
+        en: Salamandra salamandra
+        zh: Salamandra salamandra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XB2G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/436
+            queryName: Salamandra salamandra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1210
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/401
+            queryName: Proteus tritonius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/407
+            queryName: Ichthyosaura tritonius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/139
+            queryName: Lacerta salamandra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/140
+            queryName: Salamandra candida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/141
+            queryName: Salamandra maculosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 74
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/142
+            queryName: Salamandra terrestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 76
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/143
+            queryName: Gecko salamandra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/144
+            queryName: Triton corthyphorus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/145
+            queryName: Salamandra almanzoris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/179
+            queryName: Salamandra longirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/84
+            queryName: Salamandra maculosa nera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/85
+            queryName: Salamandra maculosa pezzata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/86
+            queryName: Salamandra maculosa europaea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/87
+            queryName: Salamandra maculosa gallaica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/88
+            queryName: Salamandra maculosa molleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/89
+            queryName: Salamandra maculosa nigriventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/90
+            queryName: Salamandra maculosa typica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/91
+            queryName: Salamandra maculosa taeniata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/92
+            queryName: Salamandra maculosa quadrivirgata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/93
+            queryName: Salamandra maculosa coccinea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/94
+            queryName: Salamandra maculosa speciosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/95
+            queryName: Salamandra salamandra gallaica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/96
+            queryName: Salamandra salamandra molleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/97
+            queryName: Salamandra salamandra taeniata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/98
+            queryName: Salamandra salamandra carpathica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/99
+            queryName: Salamandra maculosa bejarae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/100
+            queryName: Salamandra salamandra almanzoris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/101
+            queryName: Salamandra salamandra albanica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/102
+            queryName: Salamandra salamandra thuringica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/103
+            queryName: Salamandra salamandra bejarae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/104
+            queryName: Salamandra salamandra hispanica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/105
+            queryName: Salamandra salamandra gigliolii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/106
+            queryName: Salamandra salamandra fastuosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 129
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/107
+            queryName: Salamandra salamandra bernardezi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/108
+            queryName: Salamandra salamandra beschkovi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/109
+            queryName: Salamandra salamandra morenica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/110
+            queryName: Salamandra salamandra alfredschmidti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/112
+            queryName: Salamandra salamandra longirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/62
+            queryName: Salamandra maculosa bezarae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-879f02ea36
+      - s-0caebc9d81
+      - s-2e055e8c56
+      - s-f1c9ef17c1
+      - s-973c8c6353
+      - s-309e3c926c
+      - s-1958aede2e
+      - s-34107791c9
+      - s-0b21df5fe2
+      - s-7a9913ec83
+      - s-3ded23951c
+      - s-fd2dde772c
+      - s-80f4599043
+      - s-d2b013d624
+      - s-bae49b2875
+      - s-6592cfa5f5
+      - s-a9ca0406b7
+      - s-c2408d7b2f
+      - s-6f85a20436
+      - s-31e2476e72
+      - s-83dd88f33a
+      - s-b7cd2222ad
+      - s-1a7262a0ef
+      - s-17e2b86d91
+      - s-c90ec2583c
+      - s-268c64968b
+      - s-06d0b407d9
+      - s-c71e34661b
+    zh:
+      - s-80636b1b69
+      - s-64ecfcbbb7
+      - s-54bf5c6d75
+      - s-df7c95042a
+      - s-4a2d1d938e
+      - s-2867815246
+      - s-8de13b38ad
+      - s-4db03f25e4
+      - s-4703ea3a32
+      - s-9f77785c74
+      - s-db19f1283d
+      - s-741731a959
+      - s-0246a9266c
+      - s-9bf3e66f9d
+      - s-bb6fb5aa47
+      - s-dc8e85c182
+      - s-419d912af3
+      - s-b1b6c05b37
+      - s-64777f4f36
+      - s-ee4da57914
+      - s-48fec633d0
+      - s-f22fc821b7
+      - s-4e7b3cd336
+      - s-d13445129d
+      - s-9e48c738d6
+      - s-828ed9fa52
+      - s-fbd748db09
+      - s-96095b31ce

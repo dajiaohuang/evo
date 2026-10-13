@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-01207f19a9
+      part: title
+    titleZh:
+      page: zh
+      section: s-3b49f8550f
+      part: title
+    category: morphology
+    startAge: 150
+    endAge: 148
+    regions:
+      - Solnhofen Archipelago, Bavaria, Germany
+    clades:
+      - Archaeopteryx
+      - Avialae
+    summary:
+      page: en
+      section: s-01207f19a9
+      part: body
+    summaryZh:
+      page: zh
+      section: s-3b49f8550f
+      part: body
+    claimIds:
+      - claim:event:archaeopteryx-thermopolis-skeleton
+    evidenceItems:
+      - statement: The specimen preserves a hyperextendible second pedal digit, tetraradiate palatine and foot anatomy inconsistent with a fully reversed hallux.
+        relation: supports
+        claimIds:
+          - claim:event:archaeopteryx-thermopolis-skeleton
+        referenceLinks:
+          - referenceId: mayr-2005-thermopolis-archaeopteryx
+            relation: supports
+            pages: 1483–1486
+            figure: Figures 1–4
+            quoteLocator: Specimen description; Phylogenetic analysis; Discussion
+    uncertaintyItems:
+      - statement: Joint posture, perching capacity and phylogenetic placement are interpretations; one Archaeopteryx specimen is not a direct ancestor or an exclusive global first bird.
+        relation: contextualizes
+        claimIds:
+          - claim:event:archaeopteryx-thermopolis-skeleton
+        referenceLinks:
+          - referenceId: mayr-2005-thermopolis-archaeopteryx
+            relation: supports
+            pages: 1483–1486
+            figure: Figures 1–4
+            quoteLocator: Specimen description; Phylogenetic analysis; Discussion
+  claims:
+    - subjectId: event:archaeopteryx-thermopolis-skeleton
+      claimKind: scientific
+      claimType: morphology
+      statement: The nearly complete Thermopolis Archaeopteryx specimen, later catalogued WDC CSG 100, preserves a hyperextendible second toe, a tetraradiate palatine and a hallux unlike a fully reversed perching toe; this anatomical mosaic supports theropod affinity without proving direct ancestry or a unique first bird.
+      confidence: medium
+      confidenceRationale: Articulated anatomy is directly documented and the specimen resolves features hidden in other skeletons. Medium confidence preserves uncertainty in posture, function and character-based topology.
+      referenceLinks:
+        - referenceId: mayr-2005-thermopolis-archaeopteryx
+          relation: supports
+          pages: 1483–1486
+          figure: Figures 1–4
+          quoteLocator: Specimen description; Phylogenetic analysis; Discussion
+  claim-rationales.zh:
+    - 关节连接的解剖被直接记录，并解析其他骨架中隐藏的特征；中等置信度保留姿势、功能和性状拓扑的不确定性。
+  claim-statements.zh:
+    - 近完整的瑟莫波利斯始祖鸟标本（后编号 WDC CSG 100）保存可过伸第二趾、四射型腭骨以及不同于完全反转栖枝趾的拇趾；这种解剖镶嵌支持兽脚类亲缘，却不证明直系祖先或唯一“第一只鸟”。

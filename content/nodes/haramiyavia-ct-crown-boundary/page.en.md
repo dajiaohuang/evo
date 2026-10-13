@@ -1,0 +1,3 @@
+## Haramiyavia and a matrix-defined mammal boundary {#s-3c98f2d573}
+What places Haramiyavia on one side or the other of the mammal crown? CT scans of mandibles MCZ7/95A–B and maxilla MCZ10/G95, together with a three-dimensional reconstruction of tooth wear, informed the revised MorphoBank Project 2292 character matrix. In that analysis, Late Triassic haramiyids fell outside crown Mammalia. A postdentary trough supports an interpretation involving the jaw and middle ear, but the auditory bones are not preserved in articulation; both the placement and the ear inference remain tied to anatomy and scoring.
+

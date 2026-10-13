@@ -1,0 +1,3 @@
+## *Bidens graveolens*: hairless leaves and two-awned fruits {#s-b3da8e9e15}
+The Brazilian Flora 2020 regional field records a woody underground swelling (xylopodium) and hairless stems. Its stalkless leaves are also hairless, papery, and shallowly toothed; the listed blade outlines range from inversely lance-shaped to elliptic or broadly elliptic. The flower heads are discoid, arranged in paired-branching clusters, and have no ray florets. Their outer bracts are shorter than the inner ones; the flowers are listed as yellow or reddish. The oblong, hairless fruitlets each carry two upright awns. The field lists alternatives and gives the broad substrate category “terrestrial.”
+

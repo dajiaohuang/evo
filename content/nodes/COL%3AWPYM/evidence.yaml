@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Codonorhiza falcata (L.f.) Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage WPYM, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0001343991.
+      scope: Codonorhiza falcata (L.f.) Goldblatt & J.C.Manning as represented by COL26.8 usage WPYM; SANBI sources retain their southern African/South African regional scope.
+    lifeStatusScope:
+      wild: Claims concern wild populations described by the cited flora or national assessment.
+      domesticated: Cultivation is not covered by cited claims; no domestication claim is made.
+      fossil: No fossil occurrence claim is made; fossil evidence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 20
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/WPYM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage WPYM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001343991-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Exact accepted COL WPYM / WFO wfo-0001343991 crosswalk row
+          scope: Identity-link evidence only; not biological evidence.
+      - id: sanbi2020
+        referenceId: ref-a2c82bbf-bb8f-8117-a1e3-5aefbf03dc12
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 2
+        usage:
+          locator: Codonorhiza species account, printed p. 162; relevant flowering-time/distribution entries
+          scope: Regional flora treatment of southern African Iridaceae; geographic statements retain their regional and temporal limits.
+      - id: sanbi-archive
+        referenceId: ref-17240331-6ad4-8e0c-aac4-8fde5401507e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Source 18638.0; morphology row 98032; habitat row 96943
+          scope: South African flora morphology and habitat description fields only.
+      - id: redlist
+        referenceId: ref-f7922ae1-eadc-8708-ae0e-0044e4fe7d4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: National status, assessment date, and scope; distribution fields when used
+          scope: South African national assessment only; not a global conservation assessment.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The archived description reports plants seldom exceeding 100 mm, with usually two falcate leaves and a spike-like inflorescence; pale-pink to nearly white flowers have dark pink, mauve, or red marks on the lower tepals.
+            textZh: SANBI 档案记载：株高通常不超过 100 mm，通常有两枚镰形叶，花序呈穗状；浅粉至近白色花的下方花被片带深粉、淡紫或红色斑纹。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, morphology row 98032
+            placeTimeScope: SANBI e-Flora South Africa description archive, source 18638.0; South African source scope, not a global assessment.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of morphology has not been completed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The flora reports flowering mainly September and October at lower elevations, but as late as mid-December at high elevations. It does not provide a full life-cycle study.
+            textZh: 植物志记载花期为低海拔主要在 9–10 月开花，高海拔可延至 12 月中旬；该账户不构成完整生活史研究。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), printed p. 162, flowering-time entry
+            placeTimeScope: Species account in Goldblatt & Manning, Strelitzia 42 (2020), printed p. 162; regional flora evidence is not a current global synthesis.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of lifeHistory has not been completed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandstone substrates and often in crevices in rock outcrops or in seeps on sandstone pavement, mostly at middle elevations.
+            textZh: 砂岩基质，多见于岩石露头裂隙或砂岩岩面渗水处，主要在中海拔。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, habitat row 96943
+            placeTimeScope: SANBI e-Flora South Africa description archive, source 18638.0; South African source scope, not a global assessment.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of ecology has not been completed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The 2020 flora restricts it to interior Western Cape mountains from Matroosberg and Lakenvlei east of Ceres, across the Agterwitsenberg Vlakte and Cold Bokkeveld to Elandskloof south of Citrusdal; it reports 800–1,200 m elevations and up to 2,200 m on Matroosberg.
+            textZh: 2020 年植物志将其分布限于西开普内陆山地，从 Ceres 以东 Matroosberg、Lakenvlei，经 Agterwitsenberg Vlakte 和 Cold Bokkeveld 至 Citrusdal 以南 Elandskloof；记载海拔多为 800–1,200 m，Matroosberg 可至 2,200 m。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), printed p. 162, distribution and ecology paragraph
+            placeTimeScope: Species account in Goldblatt & Manning, Strelitzia 42 (2020), printed p. 162; regional flora evidence is not a current global synthesis.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of distribution has not been completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: partially-supported
+        claims:
+          - text: The page shows an automated Least Concern (LC) national status dated 2005-06-30 and says the taxon was not selected for detailed assessment. This is not a current systematic assessment or a global status.
+            textZh: 页面显示 2005-06-30 的自动南非无危（LC）状态，并说明该分类单元未被选入详细评估；这不是当前系统评估，也不是全球等级。
+            sourceIds:
+              - redlist
+            locator: National category, criteria/assessment date, and scope; automated-status caveat retained where applicable.
+            placeTimeScope: SANBI South African assessment dated 2005-06-30; not a global status.
+            lifeStatus: Wild South African populations within the national assessment scope.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of conservation has not been completed.

@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Romerus shiwandashan
+    name:
+      en: Romerus shiwandashan
+      zh: Romerus shiwandashan
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Romerus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2735022fb9
+            part: body
+          zh:
+            page: zh
+            section: s-ceaf7f83e8
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d8dc4a3aa7
+            part: body
+          zh:
+            page: zh
+            section: s-02a756cb16
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5495, 5496; Reference.csv rows 1344
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5495
+        values:
+          - Rhacophoridae
+          - Romerus
+          - Romerus shiwandashan
+          - F
+          - "17.10333333"
+          - "6.506666667"
+          - "6.053333333"
+          - "2.536666667"
+          - "0.96"
+          - "0.59"
+          - "2.976666667"
+          - "2.336666667"
+          - "1.233333333"
+          - "1.353333333"
+          - "2.993333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.21"
+          - NA
+          - "1.726666667"
+          - NA
+          - NA
+          - NA
+          - "0.556666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5496
+        values:
+          - Rhacophoridae
+          - Romerus
+          - Romerus shiwandashan
+          - M
+          - "17.76"
+          - "7.132307692"
+          - "5.936153846"
+          - "2.19"
+          - "1.245384615"
+          - "0.477692308"
+          - "3.802307692"
+          - "2.030769231"
+          - "1.246153846"
+          - "1.358461538"
+          - "2.893076923"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.283846154"
+          - NA
+          - "2.856923077"
+          - NA
+          - NA
+          - NA
+          - "0.581538462"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1344
+        values:
+          - Anura
+          - Romerus_shiwandashan
+          - "Qin, S., Mo, Y., Jiang, K., Cai, B., Xie, F., Jiang, J., . . . Wang, Y. (2015). Two new species of Liuixalus (Rhacophoridae, Anura): evidence from morphological and molecular analyses. PLoS One, 10(8), e0136134. https://doi.org/10.1371/journal.pone.0136134"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - Fin1L
+      - Fin3L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

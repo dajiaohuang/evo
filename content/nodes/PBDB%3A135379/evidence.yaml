@@ -1,0 +1,130 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Pachycentrata taqueti
+    rank: species
+    sourceTaxonId: txn:135379
+    name:
+      en: Pachycentrata taqueti
+      zh: Pachycentrata taqueti
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-661935a99f
+            part: body
+          zh:
+            page: zh
+            section: s-1964fb9fd4
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-e388a39907
+            part: body
+          zh:
+            page: zh
+            section: s-1a123b64fd
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-094d6213f7
+            part: body
+          zh:
+            page: zh
+            section: s-85cd312b08
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:135379; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. M. Báez and J.-C. Rage. 1998. Pipid frogs from the Upper Cretaceous of In Beceten, Niger. Palaeontology 41(4):669-691
+    occurrenceEvidence:
+      - occurrenceId: occ:487238
+        collectionId: col:48867
+        acceptedTaxonId: txn:135379
+        identifiedTaxonId: var:135379
+        identifiedName: Pachybatrachus taqueti n. gen. n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:31023
+        bibliography: A. M. Báez and J.-C. Rage. 1998. Pipid frogs from the Upper Cretaceous of In Beceten, Niger. Palaeontology 41(4):669-691
+        locality:
+          countryCode: NE
+          stateProvince: Tahoua
+          county: null
+        stratigraphy:
+          group: Damergou
+          formation: Inbeceten
+          member: null
+        olderAgeMa: 89.8
+        youngerAgeMa: 83.6
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-094d6213f7
+            part: body
+          zh:
+            page: zh
+            section: s-85cd312b08
+            part: body
+        sourceIds: []

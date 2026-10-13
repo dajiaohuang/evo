@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates marchesianus
+  displayName: Allobates marchesianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV23
+  sourceIndexes:
+    - name:
+        en: Allobates marchesianus
+        zh: Allobates marchesianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV23
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/154
+            queryName: Allobates marchesianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/113
+            queryName: Colostethus marchesianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/43
+            queryName: Phyllobates marchesianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-317900485e
+      - s-b4df1d9a3f
+      - s-e6f0a92504
+      - s-353ebb1b55
+      - s-1e389eec69
+      - s-d07830d293
+      - s-f754b05e00
+      - s-6df40e4776
+      - s-7bd1ff3f7e
+      - s-22a3991716
+      - s-5e2fca0cab
+      - s-a6917d40db
+    zh:
+      - s-e2ed67070c
+      - s-79e7dd7333
+      - s-b4f0c390fd
+      - s-a5bda4f472
+      - s-7a6e4864ec
+      - s-bf8ec35fbc
+      - s-ac4cf7b7f3
+      - s-cf567237ab
+      - s-33984d46d6
+      - s-0401529132
+      - s-88c1c2db7b
+      - s-30b8a1bb90

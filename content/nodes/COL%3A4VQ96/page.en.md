@@ -1,0 +1,42 @@
+## Accepted name and placement {#s-ae2b169ae3}
+COL26.8 accepts Sclerophrys steindachneri (Pfeffer, 1893) as a species. Its recorded classification places it along Anura (order) → Bufonidae (family) → Sclerophrys (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-f9022b5aea}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-08e76f581e}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [Amphibian morphology v3: Sclerophrys steindachneri](../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Bufonidae/Sclerophrys/Sclerophrys_steindachneri/page.en.md)
+- [AmphiBIO v1: Amietophrynus steindachneri](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Bufonidae/Amietophrynus/Amietophrynus_steindachneri/page.en.md)
+
+## Sex-specific measurement material — Amphibian morphology source {#s-13e4037556}
+Deposited source concept: Sclerophrys steindachneri, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 2 rows and 5 populated trait columns for this source concept. Recorded sex codes are M, F: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
+
+## Evidence roles in the Andaman toad description {#s-088222d0ab}
+The2016 paper uses the source label(s) Amietophrynus steindachneri. Table3 lists sequence entries: Amietophrynus steindachneri: DQ158488; range/collection-location field Kenya; reference Pramuk et al. 2008; tree7a/7b/7c membership +/blank/blank.  These roles are retained separately. A GenBank comparison is not a newly collected Andaman animal, and a listed museum specimen is not automatically the donor of a listed sequence. The combined range/collection-location field is not sufficient to establish a precise collecting event or the complete native range. No historical voucher or accession identity has been independently authenticated here.
+
+## Comparative material does not supply every trait {#s-c475ea9e33}
+The study combines focal-toad field observations, preserved adults and larvae, osteology of selected specimens, earlier literature and mitochondrial sequence comparisons. Only material explicitly annotated as cleared-and-stained or radiographed carries that particular examination label; an unannotated voucher is not inferred to have undergone it. Generic contrasts in the paper cannot automatically become species-specific measurements for every Sclerophrys steindachneri specimen. Historical genus size, distribution and trait summaries belong to the2016 literature context. No present-day population survey, full species diagnosis or new conservation assessment of Sclerophrys steindachneri is established by its inclusion in this comparison.
+
+## Mitochondrial sampling and phylogenetic limits {#s-46d9832799}
+The molecular comparison concatenates partial12S and16S mitochondrial regions and uses model-based maximum-likelihood and Bayesian inference. The focal sequences are reported as417bp and551bp, respectively; alignment lengths and raw data were not independently verified. The paper reports43 species across21 genera in Table3, with a36-species broad analysis and selected Asian subtrees. Its closest-to-focal Bufoides placement in the broad tree had relatively low support and changes in restricted sampling must retain their context. Two mitochondrial regions are not independent nuclear evidence of ancestry or reproductive isolation. The paper calls distances “uncorrected k2p”; that wording is retained as a source ambiguity, not silently interpreted as an uncorrected p-distance or a universal genus-delimitation threshold.
+
+## Frozen nomenclatural correspondence retains the source label {#s-38e5e4ee2e}
+Frozen COL26.8 dataset316115 usageCSCC links source Amietophrynus steindachneri to accepted Sclerophrys steindachneri (4VQ96). This supports navigation under a nomenclatural correspondence, not independent re-identification of the2016 comparison's specimens or sequence donors. Where several source labels link to one accepted species, their distinct sequence rows and provenance remain separate rather than being counted as independent accepted species.
+
+## catalogue-profile / limitations {#s-cb8e12e926}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-ab80aa78fb}
+The2016 paper uses the source label(s) Amietophrynus steindachneri. Table3 lists sequence entries: Amietophrynus steindachneri: DQ158488; range/collection-location field Kenya; reference Pramuk et al. 2008; tree7a/7b/7c membership +/blank/blank.  These roles are retained separately. A GenBank comparison is not a newly collected Andaman animal, and a listed museum specimen is not automatically the donor of a listed sequence. The combined range/collection-location field is not sufficient to establish a precise collecting event or the complete native range. No historical voucher or accession identity has been independently authenticated here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-1735b34a4a}
+The study combines focal-toad field observations, preserved adults and larvae, osteology of selected specimens, earlier literature and mitochondrial sequence comparisons. Only material explicitly annotated as cleared-and-stained or radiographed carries that particular examination label; an unannotated voucher is not inferred to have undergone it. Generic contrasts in the paper cannot automatically become species-specific measurements for every Sclerophrys steindachneri specimen. Historical genus size, distribution and trait summaries belong to the2016 literature context. No present-day population survey, full species diagnosis or new conservation assessment of Sclerophrys steindachneri is established by its inclusion in this comparison.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-f7e61a96ec}
+The molecular comparison concatenates partial12S and16S mitochondrial regions and uses model-based maximum-likelihood and Bayesian inference. The focal sequences are reported as417bp and551bp, respectively; alignment lengths and raw data were not independently verified. The paper reports43 species across21 genera in Table3, with a36-species broad analysis and selected Asian subtrees. Its closest-to-focal Bufoides placement in the broad tree had relatively low support and changes in restricted sampling must retain their context. Two mitochondrial regions are not independent nuclear evidence of ancestry or reproductive isolation. The paper calls distances “uncorrected k2p”; that wording is retained as a source ambiguity, not silently interpreted as an uncorrected p-distance or a universal genus-delimitation threshold.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-29ab16b77b}
+Frozen COL26.8 dataset316115 usageCSCC links source Amietophrynus steindachneri to accepted Sclerophrys steindachneri (4VQ96). This supports navigation under a nomenclatural correspondence, not independent re-identification of the2016 comparison's specimens or sequence donors. Where several source labels link to one accepted species, their distinct sequence rows and provenance remain separate rather than being counted as independent accepted species.
+

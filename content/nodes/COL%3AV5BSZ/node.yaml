@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops ailao
+  displayName: Amolops ailao
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5BSZ
+  sourceIndexes:
+    - name:
+        en: Amolops ailao
+        zh: Amolops ailao
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5BSZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/338
+            queryName: Amolops ailao
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c1a633fcc1
+      - s-aaf043aa30
+      - s-5193f086a0
+      - s-d832d389ae
+      - s-948b9bb693
+      - s-b5044bc4aa
+      - s-55ea0a6d25
+      - s-fe4ce3ca48
+      - s-718e0f220c
+      - s-ed4f29ccda
+      - s-5457baf98c
+      - s-9ce4d61e9a
+      - s-5552148c4a
+      - s-439ca1180f
+      - s-9aea061953
+      - s-97dd11188e
+      - s-445a672714
+      - s-cf9d5fd3f7
+      - s-e06996c0b1
+      - s-6e4b29b146
+      - s-c2b063702b
+      - s-fdad701744
+      - s-9c457032d9
+    zh:
+      - s-e6a6349ddc
+      - s-9998c8ef1d
+      - s-2e1dfaab9b
+      - s-30877607d4
+      - s-eedff42f2e
+      - s-bda95f10b0
+      - s-a3414f8f2a
+      - s-c10f6861f5
+      - s-0266e9c80f
+      - s-4e2bc52670
+      - s-a49b696102
+      - s-0cf265a7a9
+      - s-80ae2ffe39
+      - s-c180f18a08
+      - s-bfdde90169
+      - s-ec38871274
+      - s-aa8d737413
+      - s-b52f86b3e6
+      - s-ca376aa7a5
+      - s-36984a49fd
+      - s-b0f0ab0f08
+      - s-2d7b34a01b
+      - s-ee337832ed

@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-e2e922561f}
+The version 3 Amphibian database lists Nanorana unculuanus in a source measurement table. Its classification fields read order = Anura, family = Dicroglossidae, genus = Nanorana; the linked citation is in Reference.csv row 3308. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-c4df3d8b85}
+Anura.csv rows 3455, 3456 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 3455 (F) = 78.6, row 3456 (M) = 76.1; HL: row 3455 (F) = 26.8, row 3456 (M) = 25.8; HW: row 3455 (F) = 30.1, row 3456 (M) = 27.8; other populated codes are ED, IOD, IND, UEW, SL, LAL, FL, TL, HLL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

@@ -1,0 +1,103 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Zentrygon
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Zentrygon
+      en: Zentrygon
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetZentrygonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-6597c7bf5a
+            part: body
+          en:
+            page: en
+            section: s-ec40325dbf
+            part: body
+      - topic: sampleComparison
+        sourceIds:
+          - avonetZentrygonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-ffe05d0b4d
+            part: body
+          en:
+            page: en
+            section: s-27e85ce03d
+            part: body
+      - topic: ecologicalComparison
+        sourceIds:
+          - avonetZentrygonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-112ec0b78d
+            part: body
+          en:
+            page: en
+            section: s-492ec721c2
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - avonetZentrygonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-a907e25c6c
+            part: body
+          en:
+            page: en
+            section: s-3ac5cdfcf1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Zentrygon
+          url: https://www.checklistbank.org/dataset/316115/taxon/63WYC
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetZentrygonHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Zentrygon historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 1849–1856; each eBird and BirdTree crosswalk, ze/ge COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：旧 Geotrygon 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Eight historical rows: retain older Geotrygon combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-b27df99bee
+        part: body
+      en:
+        page: en
+        section: s-80cd1dffc4
+        part: body

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius thomensis
+  displayName: Hyperolius thomensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQZV
+  sourceIndexes:
+    - name:
+        en: Hyperolius thomensis
+        zh: Hyperolius thomensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQZV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/344
+            queryName: Hyperolius thomensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/220
+            queryName: Nesionixalus thomensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/178
+            queryName: Rappia thomensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dc7dbbcbd2
+      - s-7ade8697c5
+      - s-b2fdea5cb6
+      - s-05ba2622d1
+      - s-df3aed5df3
+      - s-cc22ebd428
+      - s-19b5462213
+      - s-170499eea0
+      - s-2c212d8e20
+    zh:
+      - s-ffec47180f
+      - s-60030fe6d6
+      - s-78913b70c2
+      - s-5fd3e11c11
+      - s-548b7f9eeb
+      - s-ded6f3ea27
+      - s-56937ea722
+      - s-18860547ab
+      - s-bd3344f502

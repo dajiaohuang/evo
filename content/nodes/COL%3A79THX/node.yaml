@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiophryne marmorata
+  displayName: Scaphiophryne marmorata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/79THX
+  sourceIndexes:
+    - name:
+        en: Scaphiophryne marmorata
+        zh: Scaphiophryne marmorata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 79THX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/495
+            queryName: Scaphiophryne marmorata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3501d2d7f
+      - s-ce69a06948
+      - s-0910cebeed
+      - s-7d2cea9856
+      - s-eac42ea443
+      - s-942ad9d767
+      - s-9525a33a88
+      - s-21c95569cb
+      - s-1eda0f6d4e
+      - s-2a08866bef
+      - s-9539c4989b
+      - s-5657496ed5
+    zh:
+      - s-6bf5da9a0a
+      - s-c27ae662e8
+      - s-0171cf8ef4
+      - s-d010faf7af
+      - s-087b413ff5
+      - s-28335cadad
+      - s-c421626f58
+      - s-085bc3fa46
+      - s-2dc3b0d759
+      - s-b0f4b0f917
+      - s-a7924ca6c3
+      - s-4b06d676eb

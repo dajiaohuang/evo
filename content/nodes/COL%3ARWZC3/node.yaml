@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phantasmarana boticariana
+  displayName: Phantasmarana boticariana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/RWZC3
+  sourceIndexes:
+    - name:
+        en: Phantasmarana boticariana
+        zh: Phantasmarana boticariana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: RWZC3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/18
+            queryName: Phantasmarana boticariana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/237
+            queryName: Megaelosia boticariana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b10230b1b9
+      - s-4f799b9d49
+      - s-9415418492
+      - s-e79f65421b
+      - s-7473935110
+      - s-6e700384a4
+      - s-68dbf05db9
+      - s-bb87e0a3cf
+      - s-3390fbf0c3
+      - s-472ba7614d
+      - s-c701cbef10
+      - s-4c022c658a
+      - s-adaa45fc6e
+      - s-5c1ea99d56
+      - s-fca9a62a06
+      - s-a7c3f608ff
+      - s-25730ca106
+      - s-7a957f1a94
+      - s-04b33dc523
+      - s-278fe01a1a
+    zh:
+      - s-55857211ba
+      - s-22508f16c2
+      - s-a6d1a1e4ca
+      - s-2375282608
+      - s-8359ae3cd3
+      - s-f4a76ceef9
+      - s-562edcd709
+      - s-ec5a9750a2
+      - s-4374c50006
+      - s-7be895f400
+      - s-dffca4d3f0
+      - s-9a75f26037
+      - s-7477823ab6
+      - s-334088b57a
+      - s-d1daaa0735
+      - s-dc808ae7aa
+      - s-6494de55b9
+      - s-2fd28bf866
+      - s-191508eba3
+      - s-5e844e5343

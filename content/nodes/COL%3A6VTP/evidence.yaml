@@ -1,0 +1,180 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Prionops
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Prionops
+      en: Prionops
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-8f8e1c393f
+            part: body
+          en:
+            page: en
+            section: s-f47f19362f
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-277ca7f05d
+            part: body
+          en:
+            page: en
+            section: s-251b58e9b7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-b3849406e3
+            part: body
+          en:
+            page: en
+            section: s-4f141fcef4
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-cff5d7e8ea
+            part: body
+          en:
+            page: en
+            section: s-315ff99517
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-28b8595954
+            part: body
+          en:
+            page: en
+            section: s-f1dbe0ac5c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Prionops
+          url: https://www.checklistbank.org/dataset/316115/taxon/6VTP
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 7 selected measured records placed under Prionops in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 1 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: 6VWCT
+              name: Prionops gabela
+              canonicalPath: content/nodes/COL%3A6VWCT
+          fieldAccountCounts:
+            Habitat: 1
+            Trophic.Niche: 1
+            Primary.Lifestyle: 1
+            Migration: 1
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+    limitations:
+      zh:
+        page: zh
+        section: s-89c5dcbe40
+        part: body
+      en:
+        page: en
+        section: s-c5faf7433c
+        part: body

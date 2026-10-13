@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-da70eb7682}
+The version 3 Amphibian database lists Anodonthyla jeanbai in a source measurement table. Its classification fields read order = Anura, family = Microhylidae, genus = Anodonthyla; the linked citation is in Reference.csv row 23. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-9fbe87df91}
+Anura.csv rows 354, 355 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 354 (F) = 18.9, row 355 (M) = 17.34285714; HL: row 354 (F) = 5.9, row 355 (M) = 5.557142857; HW: row 354 (F) = 5.733333333, row 355 (M) = 5.185714286; other populated codes are ED, TD, IND, EN, NS, HAL, FLL, FL, TL, TSL, HLL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

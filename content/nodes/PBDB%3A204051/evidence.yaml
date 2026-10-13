@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Cochleosaurus bohemicus
+    rank: species
+    sourceTaxonId: txn:204051
+    name:
+      en: Cochleosaurus bohemicus
+      zh: Cochleosaurus bohemicus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-32f2843659
+            part: body
+          zh:
+            page: zh
+            section: s-cefdb2d6d4
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-eac8246357
+            part: body
+          zh:
+            page: zh
+            section: s-4f64bf5404
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-23fbe8b796
+            part: body
+          zh:
+            page: zh
+            section: s-29baf92279
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:204051; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. Fritsch. 1885. Fauna der Gaskohle under der Kalksteine der Permformatons Bohmens. 2(1)
+    occurrenceEvidence:
+      - occurrenceId: occ:1314652
+        collectionId: col:125662
+        acceptedTaxonId: txn:204051
+        taxonomicDifference: null
+        referenceId: ref:58036
+        bibliography: J. Augusta. 1947. Prispevek k poznani stegocephalu z Tremosenskeho svrchniho Karbonu (Cochleosaurus bohemicus Fr.) [in Czech]. Priroda Brno 39:145-149
+        locality:
+          countryCode: CZ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kladno
+          member: Nyrany
+        olderAgeMa: 315.2
+        youngerAgeMa: 307
+      - occurrenceId: occ:1317699
+        collectionId: col:84835
+        acceptedTaxonId: txn:204051
+        identifiedName: Cochleosaurus bohemicus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:58035
+        bibliography: "A. Fritsch. 1885. Fauna der Gaskohle under der Kalksteine der Permformatons Bohmens.. Prague: Published by the author. 2(1)"
+        locality:
+          countryCode: CZ
+          stateProvince: Pilsen
+          county: Pilsen-North
+        stratigraphy:
+          group: null
+          formation: Kladno
+          member: Nýřany
+        olderAgeMa: 309.8
+        youngerAgeMa: 307.4
+      - occurrenceId: occ:1425271
+        collectionId: col:84835
+        acceptedTaxonId: txn:204051
+        identifiedTaxonId: txn:204059
+        identifiedName: Nyrania trachystoma n. sp.
+        taxonomicDifference: null
+        referenceId: ref:58385
+        bibliography: M. C. Steen. 1938. On the fossil Amphibia from the Gas Coal of Nyrany and other deposits of Czechoslovakia. Proceedings of the Zoological Society of London 108:205-283
+        locality:
+          countryCode: CZ
+          stateProvince: Pilsen
+          county: Pilsen-North
+        stratigraphy:
+          group: null
+          formation: Kladno
+          member: Nýřany
+        olderAgeMa: 309.8
+        youngerAgeMa: 307.4
+      - occurrenceId: occ:1425281
+        collectionId: col:84835
+        acceptedTaxonId: txn:204051
+        identifiedTaxonId: txn:204056
+        identifiedName: Gaudrya latistoma n. sp.
+        taxonomicDifference: null
+        referenceId: ref:58385
+        bibliography: M. C. Steen. 1938. On the fossil Amphibia from the Gas Coal of Nyrany and other deposits of Czechoslovakia. Proceedings of the Zoological Society of London 108:205-283
+        locality:
+          countryCode: CZ
+          stateProvince: Pilsen
+          county: Pilsen-North
+        stratigraphy:
+          group: null
+          formation: Kladno
+          member: Nýřany
+        olderAgeMa: 309.8
+        youngerAgeMa: 307.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-23fbe8b796
+            part: body
+          zh:
+            page: zh
+            section: s-29baf92279
+            part: body
+        sourceIds: []

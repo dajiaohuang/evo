@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Panophrys lushuiensis
+    name:
+      en: Panophrys lushuiensis
+      zh: Panophrys lushuiensis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Panophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Panophrys lushuiensis in the morphology deposit
+          zh: 形态数据中的 Panophrys lushuiensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1aba6fe23a
+            part: body
+          zh:
+            page: zh
+            section: s-dcc40fc9c2
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4012: measurement fields and sex codes"
+          zh: 第 4012 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b9341f7873
+            part: body
+          zh:
+            page: zh
+            section: s-6d0e340f30
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4012; Reference.csv rows 1048
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4012
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys lushuiensis
+          - M
+          - "32.9"
+          - "12.6"
+          - "12.2"
+          - "3.85"
+          - "2.05"
+          - "1.7"
+          - "3.1"
+          - "4"
+          - "2.9"
+          - "1.95"
+          - "4.2"
+          - "2.3"
+          - "8.5"
+          - "7"
+          - NA
+          - "15.55"
+          - "24.35"
+          - "17.25"
+          - "16.4"
+          - NA
+          - "54.8"
+          - "1.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1048
+        values:
+          - Anura
+          - Panophrys_lushuiensis
+          - "Shi, S. C., Li, D. H., Zhu, W. B., Jiang, W., Jiang, J. P., & Wang, B. (2021). Description of a new toad of Megophrys Kuhl & Van Hasselt, 1822 (Amphibia: Anura: Megophryidae) from western Yunnan Province, China. Zootaxa, 4942(3), 351-381. https://doi.org/10.11646/zootaxa.4942.3.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius formosanus
+  displayName: Hynobius formosanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N2LH
+  sourceIndexes:
+    - name:
+        en: Hynobius formosanus
+        zh: Hynobius formosanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N2LH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/158
+            queryName: Hynobius formosanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ea89134fb7
+      - s-a801f77703
+      - s-d56cf99d6a
+      - s-990e327f7c
+      - s-9a00f3a76c
+      - s-1c4149170e
+      - s-ff7f8c3c03
+      - s-726017abf5
+      - s-68786f94f6
+      - s-7ef8883ce3
+      - s-852650f96d
+    zh:
+      - s-3790b91e10
+      - s-1fb09a2200
+      - s-8c6bbe4e6f
+      - s-f146520a3b
+      - s-943e34cb2d
+      - s-0189a27a83
+      - s-9d4fba1756
+      - s-58da440a01
+      - s-18958a092e
+      - s-b8f11f81c4
+      - s-a36a713324

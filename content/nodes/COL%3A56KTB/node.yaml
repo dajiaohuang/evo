@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius pinicola
+  displayName: Thorius pinicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KTB
+  sourceIndexes:
+    - name:
+        en: Thorius pinicola
+        zh: Thorius pinicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KTB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/56
+            queryName: Thorius pinicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-49dbadd472
+      - s-78a5f268be
+      - s-23f368141a
+      - s-b273a98d5f
+      - s-ae26ead948
+      - s-18ccdb1eab
+      - s-8a7a919e92
+      - s-a6c6a07978
+      - s-aafe292adb
+      - s-51a0b09d0b
+      - s-0584fd6f21
+    zh:
+      - s-32bc160a41
+      - s-27ad37b4d1
+      - s-60bcdc769e
+      - s-22e4f2458b
+      - s-5f9ab91b3b
+      - s-e00cb3fd2c
+      - s-801c207c57
+      - s-8b6a4a6423
+      - s-62346fb071
+      - s-e13412a93a
+      - s-7c23a1c9c0

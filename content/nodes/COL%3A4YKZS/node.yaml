@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaenorhynchus caramaschii
+  displayName: Sphaenorhynchus caramaschii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YKZS
+  sourceIndexes:
+    - name:
+        en: Sphaenorhynchus caramaschii
+        zh: Sphaenorhynchus caramaschii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YKZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/232
+            queryName: Sphaenorhynchus caramaschii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c8f70c9d3
+      - s-ba03e83581
+      - s-0f9df14953
+      - s-3b97cefacb
+      - s-451f4971da
+      - s-4e5ce11a0f
+      - s-790c5ebf82
+      - s-e40bc7321b
+      - s-7dc1d4316f
+      - s-301c4cd8da
+      - s-363920d614
+      - s-92219e2a35
+      - s-53a3f1fcbc
+      - s-9f92e562d9
+      - s-76c7ce9ef6
+      - s-cd731f48c6
+      - s-66c87d3469
+      - s-82195a68c7
+    zh:
+      - s-72d6dd20cc
+      - s-966188d7bb
+      - s-78ca3d395c
+      - s-28b1c06ead
+      - s-6b2d595bf9
+      - s-106fe73c31
+      - s-0e7d66afcc
+      - s-314c204ff7
+      - s-7806a080e4
+      - s-4e74b09de0
+      - s-5403796ea3
+      - s-0c3c25f830
+      - s-ae568c075e
+      - s-fab61ec278
+      - s-6a732e36f9
+      - s-86f1452916
+      - s-3f1bb0043b
+      - s-bf63b7deb3

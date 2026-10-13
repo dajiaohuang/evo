@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Liuixalus shiwandashan Li, Mo, Jiang, Xie & Jiang, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Liuixalus shiwandashan
+      zh: Liuixalus shiwandashan
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e1325fcb3f
+            part: title
+          zh:
+            page: zh
+            section: s-f52da0ee12
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e1325fcb3f
+            part: body
+          zh:
+            page: zh
+            section: s-f52da0ee12
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7a11fb960b
+            part: title
+          zh:
+            page: zh
+            section: s-8bdab2b2f9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7a11fb960b
+            part: body
+          zh:
+            page: zh
+            section: s-8bdab2b2f9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-0aead46310
+            part: title
+          zh:
+            page: zh
+            section: s-0721dd253d
+            part: title
+        sourceIds:
+          - primary-pmc4548945-3vnxd
+        text:
+          en:
+            page: en
+            section: s-0aead46310
+            part: body
+          zh:
+            page: zh
+            section: s-0721dd253d
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2119ef560c
+            part: title
+          zh:
+            page: zh
+            section: s-87861a4263
+            part: title
+        sourceIds:
+          - primary-pmc4548945-3vnxd
+        text:
+          en:
+            page: en
+            section: s-2119ef560c
+            part: body
+          zh:
+            page: zh
+            section: s-87861a4263
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Liuixalus shiwandashan
+          url: https://www.checklistbank.org/dataset/316115/taxon/3VNXD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc4548945-3vnxd
+        referenceId: ref-f443d789-3f13-4684-abc8-c0d6dd8ad3a5
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Liuixalus shiwandashan: Holotype, diagnosis and distribution account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3007d17a61
+        part: body
+      zh:
+        page: zh
+        section: s-b0d5daa97c
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0136134
+        referenceId: ref-f443d789-3f13-4684-abc8-c0d6dd8ad3a5
+        sourceKey: primary-pmc4548945-3vnxd
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4548945/article.xml
+        sourceConcept: Liuixalus shiwandashan
+        evidenceRead: "Liuixalus shiwandashan: Holotype, diagnosis and distribution account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: The original type-locality record
+              zh: 原始模式地点记录
+            referenceId: ref-f443d789-3f13-4684-abc8-c0d6dd8ad3a5
+            sourceKey: primary-pmc4548945-3vnxd
+            locator: "Liuixalus shiwandashan: Holotype, diagnosis and distribution account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cd4bb886ab
+                part: body
+              zh:
+                page: zh
+                section: s-d0f80613fc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Features in the diagnostic material
+              zh: 鉴别材料中的特征
+            referenceId: ref-f443d789-3f13-4684-abc8-c0d6dd8ad3a5
+            sourceKey: primary-pmc4548945-3vnxd
+            locator: "Liuixalus shiwandashan: Holotype, diagnosis and distribution account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-606bb2463b
+                part: body
+              zh:
+                page: zh
+                section: s-d60880eeb7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

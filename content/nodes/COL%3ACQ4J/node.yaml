@@ -1,0 +1,162 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma maculatum
+  displayName: Ambystoma maculatum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ4J
+  sourceIndexes:
+    - name:
+        en: Ambystoma maculatum
+        zh: Ambystoma maculatum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ4J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/243
+            queryName: Ambystoma maculatum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 413
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/414
+            queryName: Lacerta subviolacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/414
+            queryName: Lacerta maculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 314
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/107
+            queryName: Salamandra venenosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/108
+            queryName: Salamandra maculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/109
+            queryName: Salamandra subviolacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/110
+            queryName: Ambystoma subviolaceum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/111
+            queryName: Salamandroidis subviolacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/112
+            queryName: Siredon maculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/113
+            queryName: Ambystoma carolinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/114
+            queryName: Salamandra argus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/115
+            queryName: Ambystome argus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/116
+            queryName: Salamandra margaritifera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/117
+            queryName: Camarataxis maculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/118
+            queryName: Ambystoma carolina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/102
+            queryName: Amblystoma maculatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/234
+            queryName: Lacerta punctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8d32697f5e
+      - s-0cafc67979
+      - s-ebad6f34d8
+      - s-d01346dde5
+      - s-229b0dd2c8
+      - s-6d5f66642b
+      - s-f271af1b86
+      - s-173147e209
+      - s-9c10debedd
+      - s-71d10ce3c4
+      - s-ce46c9b950
+      - s-bce9255407
+      - s-001108e258
+    zh:
+      - s-5945d5bbff
+      - s-dad80fa154
+      - s-f777f8e9f2
+      - s-14e65279c3
+      - s-f1d38e26f1
+      - s-b434c812ff
+      - s-71c1f151b8
+      - s-5de247cfc0
+      - s-30b9695802
+      - s-634cde148d
+      - s-e9eeb6b6df
+      - s-0c9b78eb2b
+      - s-03a67b12ef

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus tricinctus
+  displayName: Mantidactylus tricinctus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWFQ
+  sourceIndexes:
+    - name:
+        en: Mantidactylus tricinctus
+        zh: Mantidactylus tricinctus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWFQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/359
+            queryName: Mantidactylus tricinctus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/212
+            queryName: Gephyromantis tricinctus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a2bc7de19b
+      - s-31ae81b4ff
+      - s-c0318137b0
+      - s-05de6d345c
+      - s-b1ae44a474
+      - s-ad787bdae7
+      - s-f6ef8ac440
+    zh:
+      - s-b6dd817c7f
+      - s-c56e4463e6
+      - s-57e3d997c7
+      - s-adf96df63e
+      - s-6a6a1b97ef
+      - s-05ffd3be08
+      - s-d04f58dbe4

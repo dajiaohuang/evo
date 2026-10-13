@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-e0d8b0443e}
+The version 3 Amphibian database lists Andinobates cassidyhornae in a source measurement table. Its classification fields read order = Anura, family = Dendrobatoidea, genus = Andinobates; the linked citation is in Reference.csv row 3489. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-748eec4296}
+Anura.csv rows 334, 335 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 334 (M) = 18.93333333, row 335 (F) = 19.105; HL: row 334 (M) = 5.333333333, row 335 (F) = 5.1275; HW: row 334 (M) = 5.956666667, row 335 (F) = 5.895; other populated codes are ED, TD, IOD, IND, EN, HAL, TL, Fin3DW, Toe3DW, Toe4DW. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

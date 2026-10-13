@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax pachycrus
+  displayName: Scinax pachycrus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XXYB
+  sourceIndexes:
+    - name:
+        en: Scinax pachycrus
+        zh: Scinax pachycrus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XXYB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/61
+            queryName: Scinax pachycrus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/492
+            queryName: Hyla pachycrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/493
+            queryName: Hyla pickeli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/494
+            queryName: Hyla pachychrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/495
+            queryName: Ololygon pachychrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5773b2b177
+      - s-ffbef9a1ed
+      - s-be7d88185b
+      - s-5fb636823e
+      - s-fd76ec3e0b
+      - s-08f2e86a74
+      - s-a636fd1aa2
+      - s-c98a764179
+      - s-0dc3abf487
+      - s-179d6a0748
+      - s-1c2c394c4c
+      - s-b7e2c87902
+      - s-fee7088ecb
+      - s-c5b0fd208e
+      - s-9bf4526956
+      - s-1e982d5802
+      - s-f7d557e3b4
+      - s-cc8ce9c836
+    zh:
+      - s-79559c8199
+      - s-b8f3edca37
+      - s-52cf0a4546
+      - s-aeebab9dc8
+      - s-2931ceb0e2
+      - s-0f79f4b726
+      - s-42bbf290bc
+      - s-b994711eb2
+      - s-b4d7e1a6da
+      - s-5d101fce36
+      - s-f682e11643
+      - s-029fd522a9
+      - s-794469c41c
+      - s-99a238f197
+      - s-7880495f1c
+      - s-dfca7af7b3
+      - s-0b8add31b1
+      - s-4c2a083291

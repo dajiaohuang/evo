@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia nigricans
+  displayName: Caecilia nigricans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7T3
+  sourceIndexes:
+    - name:
+        en: Caecilia nigricans
+        zh: Caecilia nigricans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7T3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/78
+            queryName: Caecilia nigricans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/341
+            queryName: Caecilia palmeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf49e17b92
+      - s-455a353f72
+      - s-1e1363b560
+      - s-0d559cfd6f
+      - s-622977871d
+      - s-43c00ac948
+      - s-a0e1a80387
+      - s-b5788a8f88
+      - s-2976a3c3be
+      - s-088f4de95e
+      - s-c1f30f4b2a
+      - s-3b835bd277
+    zh:
+      - s-d2fa525b0e
+      - s-2875810ee8
+      - s-3e20a7d235
+      - s-f96790171b
+      - s-d84fb71750
+      - s-fbb1333bc6
+      - s-180af6eba5
+      - s-b6e54d65c4
+      - s-5e4ad1be39
+      - s-ceee1ca203
+      - s-7a52a6d437
+      - s-8e97127a89

@@ -1,0 +1,3 @@
+## ## Large leaflets and flowers with an elongated petal {#s-f78a37ece2}
+Brazilian Flora 2020 records a xylopodium and two or three pairs of leaflets, occasionally four. The elliptic, oblanceolate or obovate leaflets are 1.5–6 cm long and 0.8–3.4 cm wide, with mucronulate tips; one side of the base is heart-shaped and the other rounded or wedge-shaped. Terminal racemes bear ten-stamen flowers with five unequal petals: four are obovate, while the innermost is longer and sickle-shaped. Petal color ranges from yellow to orange or reddish. The oblong, sometimes curved pods are 3–5 cm long and 0.7–0.9 cm wide; seeds are trapezoidal. The dataset classifies the plant as terrestrial.
+

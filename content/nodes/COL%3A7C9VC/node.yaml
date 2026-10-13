@@ -1,0 +1,128 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thoropa petropolitana
+  displayName: Thoropa petropolitana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7C9VC
+  sourceIndexes:
+    - name:
+        en: Thoropa petropolitana
+        zh: Thoropa petropolitana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7C9VC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/67
+            queryName: Thoropa petropolitana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/258
+            queryName: Eupsophus fuliginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/261
+            queryName: Cystignathus fuliginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/275
+            queryName: Hylodes petropolitanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/276
+            queryName: Elosia petropolitanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/277
+            queryName: Eleutherodactylus petropolitanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/278
+            queryName: Borborocoetes petropolitanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/279
+            queryName: Eupsophus petropolitanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/108
+            queryName: Ololigon abbreviatus petropolitana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-92a38dd650
+      - s-1371c85ecc
+      - s-c23639c82d
+      - s-93b16541e3
+      - s-d5019f5bff
+      - s-591f1e5811
+      - s-941e38345b
+      - s-9c2dd3b23d
+      - s-f7d4fd1763
+      - s-4cb84586b7
+      - s-8bbcdf9b93
+      - s-5b5c00ffbb
+      - s-e34f7bb361
+      - s-50c90328a1
+      - s-8682033daa
+      - s-60bb05cc36
+      - s-312d44854f
+    zh:
+      - s-7c2fd6891c
+      - s-1389866705
+      - s-ed6d47b789
+      - s-33502a9c33
+      - s-98daca3846
+      - s-ef35fd2284
+      - s-9c23692514
+      - s-6e7dee455e
+      - s-d6d4bb4ee0
+      - s-e54b41817e
+      - s-c16abb9fb7
+      - s-b0199b20a2
+      - s-b0af619694
+      - s-2e08cd479c
+      - s-f261013241
+      - s-bdcb0f92c3
+      - s-7bcbcfc496

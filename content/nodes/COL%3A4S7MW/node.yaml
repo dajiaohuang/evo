@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella dapsilis
+  displayName: Rhinella dapsilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7MW
+  sourceIndexes:
+    - name:
+        en: Rhinella dapsilis
+        zh: Rhinella dapsilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7MW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/315
+            queryName: Rhinella dapsilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/379
+            queryName: Bufo dapsilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/496
+            queryName: Rhinella gildae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-53664c6cae
+      - s-9ca964f474
+      - s-026caaef97
+      - s-3797a650b3
+      - s-9b62ebd7c7
+      - s-c36590cff7
+      - s-47c476f49a
+      - s-8b53df5c6a
+      - s-fbc3db87d1
+      - s-73f25b9040
+      - s-180305e54c
+      - s-64180c7026
+      - s-dbe3e7d168
+      - s-5c132b4323
+      - s-b27a28ccf1
+      - s-023528b24b
+      - s-c3774dc592
+      - s-618d1b54b5
+      - s-9654adde06
+      - s-fe77f12eb0
+      - s-7db22bcdd9
+      - s-8e9364fd4d
+      - s-e0070a3d32
+      - s-c7bdff205f
+      - s-0128d38f5e
+      - s-d224ba2165
+      - s-cc0cffafa0
+    zh:
+      - s-a3a1454a91
+      - s-033a8bdd67
+      - s-657e22dc73
+      - s-2830fbdbb4
+      - s-7c9a131f24
+      - s-36b3fcfc97
+      - s-198d9c1ef1
+      - s-af646f832e
+      - s-5dd8f8b80b
+      - s-9bc7240671
+      - s-4af3cbe9ab
+      - s-a427aec6fc
+      - s-96a5b06e96
+      - s-b6f7611458
+      - s-f11dbc87af
+      - s-348970c1de
+      - s-822a364898
+      - s-3fbd622681
+      - s-d9ad3053f1
+      - s-16673b722a
+      - s-06c5dfed15
+      - s-f1a9c0056f
+      - s-fb4ec0941c
+      - s-bc6ff118b1
+      - s-ac9807f60c
+      - s-2b89971b89
+      - s-f398e4705f

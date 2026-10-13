@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius ferrugineus
+  displayName: Hyperolius ferrugineus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQT6
+  sourceIndexes:
+    - name:
+        en: Hyperolius ferrugineus
+        zh: Hyperolius ferrugineus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQT6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/248
+            queryName: Hyperolius ferrugineus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4a41aec6af
+      - s-8e83fc4a4d
+      - s-de578a9f90
+      - s-cd62fadd92
+      - s-aaa375c7e2
+      - s-95d49c9ee5
+      - s-8325ea3317
+    zh:
+      - s-4a77b895ad
+      - s-339c0d0b39
+      - s-edeb36f246
+      - s-da8ddff61c
+      - s-2495f26eba
+      - s-a46ec1614c
+      - s-bc78245c3c

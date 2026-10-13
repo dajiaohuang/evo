@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius bicolor
+  displayName: Hyperolius bicolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQRG
+  sourceIndexes:
+    - name:
+        en: Hyperolius bicolor
+        zh: Hyperolius bicolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQRG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/224
+            queryName: Hyperolius bicolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-234fdd6ebc
+      - s-ab9f4d7290
+      - s-1ba01d11fa
+      - s-f08300ee42
+      - s-cdee2abcef
+      - s-e1f7a0fd0f
+    zh:
+      - s-412a53e627
+      - s-95dda41b4c
+      - s-b391e6c441
+      - s-d3c5f4df8a
+      - s-72aae48260
+      - s-b9a1977665

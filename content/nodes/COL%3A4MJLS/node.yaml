@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis polychrus
+  displayName: Pristimantis polychrus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJLS
+  sourceIndexes:
+    - name:
+        en: Pristimantis polychrus
+        zh: Pristimantis polychrus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJLS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/11
+            queryName: Pristimantis polychrus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/1
+            queryName: Eleutherodactylus polychrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b28fdc07ac
+      - s-c329f4d06a
+      - s-5c6a78527c
+      - s-083137f03c
+      - s-9b9b35016e
+      - s-8d279a26e5
+      - s-477723a2e3
+    zh:
+      - s-ec9fb927f5
+      - s-ab119a05fc
+      - s-0cb6eea660
+      - s-8f187763ae
+      - s-e04b71e1bb
+      - s-a0c8cc2b85
+      - s-744bfd53d9

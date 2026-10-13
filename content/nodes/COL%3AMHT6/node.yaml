@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis englaenderi
+  displayName: Boophis englaenderi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHT6
+  sourceIndexes:
+    - name:
+        en: Boophis englaenderi
+        zh: Boophis englaenderi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHT6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/248
+            queryName: Boophis englaenderi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01debb3e42
+      - s-08802d7d2c
+      - s-4d73036166
+      - s-f326eee415
+      - s-bb671c2bd4
+      - s-47fbfa9a4b
+      - s-8ba88b2fbe
+      - s-292cd7c554
+      - s-26032c9880
+      - s-c6a67d966c
+    zh:
+      - s-86ce4340fc
+      - s-24e9c8048b
+      - s-254675a014
+      - s-c66f704239
+      - s-1f2b518322
+      - s-6f86c3eaa8
+      - s-86283f45ff
+      - s-25fd876c17
+      - s-31fd77b680
+      - s-15a6f32829

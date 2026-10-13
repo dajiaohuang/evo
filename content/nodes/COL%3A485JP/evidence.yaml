@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nycticebus javanicus É. Geoffroy Saint-Hilaire, 1812
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 爪哇蜂猴
+      en: Javan Slow Loris
+    sections:
+      - topic: distribution_habitat
+        text:
+          zh:
+            page: zh
+            section: s-eb88d8ff98
+            part: body
+          en:
+            page: en
+            section: s-d37a91835e
+            part: body
+        sourceIds:
+          - mdd_name
+          - arismayanti2020
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-0248d9c36b
+            part: body
+          en:
+            page: en
+            section: s-71c06f742e
+            part: body
+        sourceIds:
+          - arismayanti2020
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Nycticebus javanicus É. Geoffroy Saint-Hilaire, 1812
+          url: https://www.checklistbank.org/dataset/316115/taxon/485JP
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-32a57376-52ef-8032-ab93-182d18503d6d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 MDD 当前页面所列英文普通名、模式资料与分类注记；固定物种身份仍按 COL26.8。
+            en: Supports the English common name, type data and taxonomic notes on the current MDD page; pinned species identity remains COL26.8.
+      - id: arismayanti2020
+        referenceId: ref-be952e2a-6035-874d-a7fe-5e14920816be
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Mount Halimun-Salak 国家公园两只成年雌性爪哇蜂猴的家域与空间使用观察；不代表全种。
+            en: Supports home-range and space-use observations of two adult female Javan slow lorises in Mount Halimun-Salak National Park; not a species-wide estimate.
+    limitations:
+      zh:
+        page: zh
+        section: s-9a94c21fa6
+        part: body
+      en:
+        page: en
+        section: s-c878acb8fd
+        part: body

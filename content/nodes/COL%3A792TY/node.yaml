@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana omeimontis
+  displayName: Rana omeimontis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/792TY
+  sourceIndexes:
+    - name:
+        en: Rana omeimontis
+        zh: Rana omeimontis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 792TY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/74
+            queryName: Rana omeimontis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 37
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ab31dec32f
+      - s-5822389b79
+      - s-88afa0d4c1
+      - s-c1ef5eb1e4
+      - s-02f6f6cee1
+      - s-1c977eb74f
+      - s-31f9e42d4b
+      - s-83131a6566
+      - s-42d73fc1a5
+      - s-992c89ca36
+      - s-4fb2955d45
+      - s-9dba95f398
+      - s-17123d7473
+      - s-2804de0c71
+      - s-964589a060
+      - s-602c9c65ea
+    zh:
+      - s-86af65b8bb
+      - s-99f28091fc
+      - s-5a1ea81544
+      - s-e591b01ddc
+      - s-2a8b929e0a
+      - s-d313f22118
+      - s-4128234572
+      - s-babf1c8116
+      - s-db8cab09df
+      - s-300d57cfbc
+      - s-3090caa357
+      - s-f72fe9025a
+      - s-35f70591f1
+      - s-6971360d5d
+      - s-15937af265
+      - s-ff226f1d1f

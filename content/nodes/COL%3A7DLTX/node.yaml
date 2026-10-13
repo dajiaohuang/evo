@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia russelli
+  displayName: Uperoleia russelli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DLTX
+  sourceIndexes:
+    - name:
+        en: Uperoleia russelli
+        zh: Uperoleia russelli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DLTX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/207
+            queryName: Uperoleia russelli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/363
+            queryName: Glauertia russelli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b9b9672fc
+      - s-2da81ecf74
+      - s-d1f008ccab
+      - s-1e5a32562e
+      - s-8c341acbee
+      - s-d3d1f56edc
+      - s-6c10d60db2
+      - s-6257fb9abc
+      - s-094222896c
+    zh:
+      - s-1e4a928ff9
+      - s-1d4c7207d8
+      - s-5976b350e7
+      - s-7c069cffac
+      - s-2411385852
+      - s-f64fe234e6
+      - s-2f33693097
+      - s-7e45a84d74
+      - s-f4d63ea808

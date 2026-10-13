@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hesperocyoninae
+    rank: subfamily
+    sourceDatasetId: null
+    name:
+      zh: Hesperocyoninae
+      en: Hesperocyoninae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5720f4e4fd
+            part: body
+          en:
+            page: en
+            section: s-a7a908ce6a
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ac468ac0d6
+            part: body
+          en:
+            page: en
+            section: s-87fca2ca61
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Hesperocyoninae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=104841
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:104841
+          readingTargets:
+            - name: Cynodesmus martini
+              pbdbTaxonId: txn:45461
+              canonicalPath: content/nodes/PBDB%3A45461
+            - name: Cynodesmus thooides
+              pbdbTaxonId: txn:45466
+              canonicalPath: content/nodes/PBDB%3A45466
+            - name: Hesperocyon coloradensis
+              pbdbTaxonId: txn:46910
+              canonicalPath: content/nodes/PBDB%3A46910
+            - name: Hesperocyon gregarius
+              pbdbTaxonId: txn:44845
+              canonicalPath: content/nodes/PBDB%3A44845
+            - name: Osbornodon scitulus
+              pbdbTaxonId: txn:52181
+              canonicalPath: content/nodes/PBDB%3A52181
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-099d0c38e3
+        part: body
+      en:
+        page: en
+        section: s-65f3af991a
+        part: body

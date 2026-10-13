@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osornophryne talipes
+  displayName: Osornophryne talipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75BTK
+  sourceIndexes:
+    - name:
+        en: Osornophryne talipes
+        zh: Osornophryne talipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75BTK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/334
+            queryName: Osornophryne talipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0bcc091549
+      - s-5e0f2bbb2c
+      - s-0126299e97
+      - s-99498915cb
+      - s-aaa059c2ff
+      - s-ab461ab6ef
+      - s-a5199b045b
+      - s-06d629d6cd
+      - s-1fc982c0c2
+    zh:
+      - s-5eb838029a
+      - s-565e0af06c
+      - s-11f7fa4c93
+      - s-4a2ac34805
+      - s-cf1c3b306a
+      - s-9c5e39acd6
+      - s-f785cf1850
+      - s-91a7c8a8b6
+      - s-c4317beb34

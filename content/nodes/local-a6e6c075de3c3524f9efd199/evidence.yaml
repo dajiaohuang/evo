@@ -1,0 +1,190 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pelophryne rhopophilia
+    name:
+      en: Pelophryne rhopophilia
+      zh: Pelophryne rhopophilia
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Pelophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Pelophryne rhopophilia in the morphology deposit
+          zh: 形态数据中的 Pelophryne rhopophilia 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-00f22dfd31
+            part: body
+          zh:
+            page: zh
+            section: s-e9e7cc7795
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4106: measurement fields and sex codes"
+          zh: 第 4106 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-27a665b7b7
+            part: body
+          zh:
+            page: zh
+            section: s-09c313e811
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4106; Reference.csv rows 2700
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4106
+        values:
+          - Bufonidae
+          - Pelophryne
+          - Pelophryne rhopophilia
+          - M
+          - "23.3"
+          - NA
+          - "6.2"
+          - "2.8"
+          - "1.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2700
+        values:
+          - Anura
+          - Pelophryne_rhopophilia
+          - Inger, R., & Stuebing, R. (1996). Two new species of frogs from southeastern Sarawak. Raffles Bulletin of Zoology, 44(2), 543-549.
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - TD
+      - TL
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 76CG8
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

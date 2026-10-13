@@ -1,0 +1,3 @@
+## ## Plumose setae and cylindrical heads {#s-3d1afd7419}
+The Brazilian Flora 2020 entry records hispid stems with simple hairs appressed forward or backward, unbranched thread-like setae and plumose branched setae; glandular hairs, prickles and short shoots are absent. The stipules persist, extrafloral nectaries are absent, and projections occur between pinna pairs. The inflorescences are cylindrical, with floral bracts longer than the flowers before opening. The flowers have four perianth parts and a membranous calyx without lobes. Pubescent corolla lobes have one to three veins; the androecium is isostemonous, with pink filaments. This regional entry does not quantify species-wide variation.
+

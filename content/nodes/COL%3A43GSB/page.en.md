@@ -1,0 +1,3 @@
+## ## Cylindrical heads and varied corolla hairs {#s-cca95e2db0}
+The Brazilian Flora 2020 entry lists pubescent, tomentose or velvety stems with spreading simple hairs and capitate glandular hairs; setae, prickles and short shoots are absent. The stipules persist, and extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are cylindrical, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a membranous calyx with triangular lobes. Corolla lobes have one to three veins and may be hairless or silky; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial,” without identifying a locality or finer habitat.
+

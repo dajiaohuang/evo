@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Polypedates pseudotilophus
+  displayName: Polypedates pseudotilophus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4LD5X
+  sourceIndexes:
+    - name:
+        en: Polypedates pseudotilophus
+        zh: Polypedates pseudotilophus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4LD5X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/53
+            queryName: Polypedates pseudotilophus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3f90881bb1
+      - s-586f019737
+      - s-5b6644e87a
+      - s-6b4ab16048
+      - s-a6438cacf8
+    zh:
+      - s-382c10ab79
+      - s-9b6d41fbd3
+      - s-05f1ea0ccd
+      - s-7bed7ef2f7
+      - s-47fa636d74

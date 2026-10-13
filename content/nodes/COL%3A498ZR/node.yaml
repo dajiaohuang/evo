@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon arduoa
+  displayName: Ololygon arduoa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/498ZR
+  sourceIndexes:
+    - name:
+        en: Ololygon arduoa
+        zh: Ololygon arduoa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 498ZR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/102
+            queryName: Ololygon arduoa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/27
+            queryName: Scinax arduous
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/423
+            queryName: Ololygon arduous
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-406e7c7168
+      - s-6c60e3e72d
+      - s-128bbfed0d
+      - s-220b1e632f
+      - s-effe61f712
+      - s-b6a862ca23
+      - s-64cc139795
+      - s-9532e44e30
+      - s-2eca560d28
+      - s-ca16ef7ab2
+      - s-e53dcde290
+      - s-9bb92feacb
+      - s-e84d40c0b0
+      - s-a35101ee8c
+    zh:
+      - s-a0891b6a6c
+      - s-a97c34d56d
+      - s-30333cf047
+      - s-3c289005d6
+      - s-f6e6d05293
+      - s-9fd3b5e6f5
+      - s-98fdeafe68
+      - s-cfe11972e0
+      - s-4456e6beb9
+      - s-8f11d2aaa0
+      - s-40115a8a0e
+      - s-b4681cf32c
+      - s-c7cf1f5b48
+      - s-2346af13e9

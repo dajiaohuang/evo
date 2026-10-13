@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium liui
+  displayName: Leptobrachium liui
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKCB
+  sourceIndexes:
+    - name:
+        en: Leptobrachium liui
+        zh: Leptobrachium liui
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKCB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/332
+            queryName: Leptobrachium liui
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/248
+            queryName: Vibrissaphora liui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 69
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/415
+            queryName: Vibrissaphora yaoshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/416
+            queryName: Vibrissaphora jiulongshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/417
+            queryName: Leptobrachium yaoshanense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/119
+            queryName: Vibrissaphora liui yaoshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/120
+            queryName: Vibrissaphora liui liui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 52
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/121
+            queryName: Leptobrachium liui yaoshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-30824270fb
+      - s-62b5fa3d66
+      - s-70fd6c801b
+      - s-131a1c562c
+      - s-e4902f7a39
+      - s-3edc89998d
+      - s-fa6fb773d9
+      - s-5644b48113
+      - s-b9bd546d64
+      - s-2c4e062eab
+    zh:
+      - s-934b61239b
+      - s-5133bdff64
+      - s-a7d1f25217
+      - s-0cdcd3dec5
+      - s-a1e99ce077
+      - s-afca99af5e
+      - s-193ed10e73
+      - s-4225b9377e
+      - s-8272003204
+      - s-d7e46e65e5

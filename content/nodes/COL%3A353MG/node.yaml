@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus conanti
+  displayName: Desmognathus conanti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/353MG
+  sourceIndexes:
+    - name:
+        en: Desmognathus conanti
+        zh: Desmognathus conanti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 353MG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/470
+            queryName: Desmognathus conanti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/470
+            queryName: Desmognathus fuscus conanti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1b092d7abc
+      - s-e84d90d1a0
+      - s-cf0b59ff41
+      - s-df4ed2427b
+      - s-d529b1a841
+      - s-c5a498d8a0
+    zh:
+      - s-a79fa6c894
+      - s-9128bef1cc
+      - s-f8a2cbd048
+      - s-e923217f5d
+      - s-b892fd0366
+      - s-f8e2de9dee

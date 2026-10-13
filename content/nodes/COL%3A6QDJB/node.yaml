@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes blythii
+  displayName: Limnonectes blythii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDJB
+  sourceIndexes:
+    - name:
+        en: Limnonectes blythii
+        zh: Limnonectes blythii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDJB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/57
+            queryName: Limnonectes blythii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/147
+            queryName: Rana blythii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/470
+            queryName: Rana macrodon blythii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d165f40cba
+      - s-73c5f31278
+      - s-8063d90ba6
+      - s-80503177b9
+      - s-1d274c4f27
+      - s-0027a408a8
+      - s-6293193591
+      - s-802a02c33a
+      - s-0f3cef9386
+      - s-df7e2926e3
+      - s-f2eaea56ab
+      - s-66ddeb3ea2
+      - s-f3968dc3a6
+      - s-6692e8c4db
+      - s-e7d34ce659
+      - s-778b361a41
+      - s-91dff000e4
+      - s-3f4d869fa7
+      - s-668d18df19
+    zh:
+      - s-b0b48bcf20
+      - s-1e12dce5a7
+      - s-c0a091cbdc
+      - s-5eaf824bfe
+      - s-aafb096d64
+      - s-3099878159
+      - s-a4000ea62b
+      - s-937a86cad1
+      - s-1993b78fea
+      - s-d3127cc6c7
+      - s-82fb8a0e9b
+      - s-c415a9b026
+      - s-3846370237
+      - s-beaf20bd5e
+      - s-4b4f6d65e3
+      - s-f4901481f7
+      - s-fc05c14e09
+      - s-d6877eb37e
+      - s-54ef7e377a

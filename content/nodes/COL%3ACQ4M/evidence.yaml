@@ -1,0 +1,846 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ambystoma mexicanum (Shaw & Nodder, 1798)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact COL26.8 accepted species usage, verbatim scientific name, rank, status, source dataset and Amphibia classification verified against the pinned registry search record.
+      scope: COL26.8 usage CQ4M only. The evolutionary evidence is a single laboratory genome and its associated experiments; the ecology evidence is a short VHF post-release study of 18 captive-bred axolotls at two aquatic sites in southern Mexico City. These observations do not constitute a species-wide or range-wide synthesis.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The ecology study released captive-bred animals and followed them for short periods at an artificial wetland and a restored chinampa in southern Mexico City. Those post-release observations are not treated as wild-born population traits or evidence of long-term establishment. The genomic source used laboratory material.
+      domesticated: Laboratory breeding is not treated as domestication; domestication history has not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 8
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/CQ4M
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:CQ4M@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage CQ4M; sourceDatasetId 2144; Amphibia classification
+          licenseAssessment: identity-only
+          scope: "Identity only: accepted name, authorship, rank, status, sourceDatasetId and classification in the pinned COL26.8 registry."
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage CQ4M. https://doi.org/10.48580/dgywk
+      - id: nowoshilow2018
+        referenceId: ref-62ad50f3-355b-884e-a9ab-2a108a62cbd4
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article content except third-party material identified as excluded in individual credit lines; claims paraphrase the article text, not figures or excluded media.
+          stableId: doi:10.1038/nature25458
+          accessedAt: 2026-09-24
+          locator: "Abstract; Methods: genomic DNA preparation; Results: Reduced Pax-family complement"
+          licenseAssessment: item-level-verified
+          scope: Whole-genome assembly and comparative/evolutionary analysis from a three-year-old d/d adult male axolotl, with follow-up Pax7 gene-editing results; not a survey of population variation.
+          attribution: "Nowoshilow S, Schloissnig S, Fei JF, et al. (2018). The axolotl genome and the evolution of key tissue formation regulators. Nature 554: 50–55. https://doi.org/10.1038/nature25458. Claims here are paraphrased."
+      - id: ramos2025axolotlmovement
+        referenceId: ref-bb06778b-4d70-8271-a63a-4a34eb321f1f
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - rightsEvidenceLocator
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article content covered by its license; any third-party exclusions remain governed by individual credit lines. This record paraphrases article text and reproduces no figures or tables.
+          stableId: doi:10.1371/journal.pone.0314257
+          accessedAt: 2026-09-26
+          locator: Abstract for site-level mean home-range comparison; Methods §§Study areas, Ethics statement, Study species and transmitters, and Data collection for locations, captive origin, sample sizes and telemetry dates; Results §Home range size for method and estimates.
+          licenseAssessment: item-level-verified
+          rightsEvidenceUrl: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314257
+          attribution: "Ramos AG, Mena H, Schneider D, Zambrano L (2025). Movement ecology of captive-bred axolotls in restored and artificial wetlands: Conservation insights for amphibian reintroductions and translocations. PLoS ONE 20(4):e0314257. https://doi.org/10.1371/journal.pone.0314257. Claim paraphrased; no figures or tables reproduced."
+          scope: VHF telemetry study of 18 laboratory-born and captive-raised axolotls released to two aquatic sites in southern Mexico City. The claim is limited to post-release home-range estimates at these sites and study windows; it is not a range-wide ecology estimate or evidence of a self-sustaining wild population.
+    facets:
+      morphology:
+        status: not-assessed
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: After release of 18 captive-bred axolotls into two aquatic sites in southern Mexico City, VHF telemetry produced total MCP home-range estimates averaging 2,747 m² for the eight tracked at the artificial La Cantera Oriente wetland and 382 m² for the ten tracked at a restored chinampa in Lake Xochimilco; the difference was statistically significant (p < 0.001).
+            textZh: 18 只圈养繁殖的美西螈被放归到墨西哥城南部两处水域后，VHF 遥测所得总 MCP 家域估计值中，拉坎特拉东方人工湿地 8 只个体的平均值为 2,747 m²，索奇米尔科湖一处修复 chinampa（水上农田湿地）10 只个体的平均值为 382 m²；差异具有统计学显著性（p < 0.001）。
+            sourceIds:
+              - ramos2025axolotlmovement
+            locator: Abstract; Methods, Study areas and Data collection; Results, Home range size.
+            placeTimeScope: Two aquatic sites in southern Mexico City. Eight animals at La Cantera Oriente were tracked from 2017-10-27 to 2017-12-07; ten animals at a restored Lake Xochimilco chinampa were released on 2018-03-12 and monitored through 2018-04-20. VHF telemetry; sites and seasons differed.
+            lifeStatus: All 18 study animals were born and raised in captivity before release into the study wetlands. The short post-release monitoring does not establish wild-born ecology, long-term establishment, or a self-sustaining population.
+            originalLanguage: en
+        gaps:
+          - This short, small-sample post-release study does not establish range-wide habitat use, seasonal or geographic variation, a wild-born baseline, long-term survival and reproduction, or whether site differences caused the home-range contrast.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: The authors reported that the assembled axolotl genome lacks Pax3, and that mutation of its Pax7 paralogue produced a phenotype similar to Pax3- or Pax7-mutant mice; the genomic sample came from one three-year-old d/d adult male.
+            sourceIds:
+              - nowoshilow2018
+            locator: Abstract; Methods, genomic DNA preparation; Results, Reduced Pax-family complement
+            placeTimeScope: A single laboratory-bred d/d male supplied genomic DNA; the 2018 article presents comparative genomic and gene-editing results, not a population survey.
+            lifeStatus: The source concerns laboratory material and experimental mutants; it does not establish the frequency of these genomic traits across wild populations.
+            originalLanguage: en
+            textZh: 2018 年研究报告，所组装的美西螈基因组缺少 Pax3；其旁系同源基因 Pax7 发生突变后，表型与 Pax3 或 Pax7 突变小鼠相似。基因组 DNA 来自一只三岁的实验室繁殖 d/d 成年雄性。这一单个基因组和编辑实验不能说明野生种群中相关性状的频率，也不能确定变化发生的演化时间。
+        gaps:
+          - One genome assembly and associated experiments do not resolve genomic variation across the species, the evolutionary timing of the reported changes, or broader evolutionary history.
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Ambystoma mexicanum (Shaw & Nodder, 1798)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ambystoma mexicanum
+      zh: Ambystoma mexicanum
+    sections:
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4805d2f53b
+            part: title
+          zh:
+            page: zh
+            section: s-960d0c1281
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4805d2f53b
+            part: body
+          zh:
+            page: zh
+            section: s-960d0c1281
+            part: body
+        sourceIds:
+          - ramos2025axolotlmovement
+        locator: Abstract; Methods, Study areas and Data collection; Results, Home range size.
+        evidenceAssessment: partially-supported
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-37f1b8df39
+            part: title
+          zh:
+            page: zh
+            section: s-3442aab19f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-37f1b8df39
+            part: body
+          zh:
+            page: zh
+            section: s-3442aab19f
+            part: body
+        sourceIds:
+          - nowoshilow2018
+        locator: Abstract; Methods, genomic DNA preparation; Results, Reduced Pax-family complement
+        evidenceAssessment: partially-supported
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-c8c60ecb6e
+            part: title
+          zh:
+            page: zh
+            section: s-ae0b7759ed
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-c8c60ecb6e
+            part: body
+          zh:
+            page: zh
+            section: s-ae0b7759ed
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d753385408
+            part: title
+          zh:
+            page: zh
+            section: s-91b0e5c35f
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-d753385408
+            part: body
+          zh:
+            page: zh
+            section: s-91b0e5c35f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a92e2e196c
+            part: title
+          zh:
+            page: zh
+            section: s-02e991c80e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-a92e2e196c
+            part: body
+          zh:
+            page: zh
+            section: s-02e991c80e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-25a9fc8160
+            part: title
+          zh:
+            page: zh
+            section: s-a1631054a6
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Longevity_max_y
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-25a9fc8160
+            part: body
+          zh:
+            page: zh
+            section: s-a1631054a6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-243bdd2d70
+            part: title
+          zh:
+            page: zh
+            section: s-11c22c572a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-243bdd2d70
+            part: body
+          zh:
+            page: zh
+            section: s-11c22c572a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fb35ebc3c9
+            part: title
+          zh:
+            page: zh
+            section: s-1612a83238
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-fb35ebc3c9
+            part: body
+          zh:
+            page: zh
+            section: s-1612a83238
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-44d6853b3622055aeb9f33b75766a5c5
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ac910a521d1aa4616c435e2f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-d998bb2516b9a5e9f7b0ab97
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-93956c8d29
+            part: title
+          zh:
+            page: zh
+            section: s-a26c8dc71a
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-93956c8d29
+            part: body
+          zh:
+            page: zh
+            section: s-a26c8dc71a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f75c3beda1
+            part: title
+          zh:
+            page: zh
+            section: s-4c021bc94b
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3783"
+        text:
+          en:
+            page: en
+            section: s-f75c3beda1
+            part: body
+          zh:
+            page: zh
+            section: s-4c021bc94b
+            part: body
+        sourceRowNumber: 3458
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7fe77f1c90
+            part: title
+          zh:
+            page: zh
+            section: s-93c65c8326
+            part: title
+        sourceIds:
+          - primary-pmc10571319-cq4m
+        text:
+          en:
+            page: en
+            section: s-7fe77f1c90
+            part: body
+          zh:
+            page: zh
+            section: s-93c65c8326
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cc16afc368
+            part: title
+          zh:
+            page: zh
+            section: s-9882d967cd
+            part: title
+        sourceIds:
+          - primary-pmc10571319-cq4m
+        text:
+          en:
+            page: en
+            section: s-cc16afc368
+            part: body
+          zh:
+            page: zh
+            section: s-9882d967cd
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1de5b295cb
+            part: body
+          zh:
+            page: zh
+            section: s-41cf9753f6
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 8
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/CQ4M
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:CQ4M@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage CQ4M; sourceDatasetId 2144; Amphibia classification
+          licenseAssessment: identity-only
+          scope: "Identity only: accepted name, authorship, rank, status, sourceDatasetId and classification in the pinned COL26.8 registry."
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage CQ4M. https://doi.org/10.48580/dgywk
+      - id: nowoshilow2018
+        referenceId: ref-62ad50f3-355b-884e-a9ab-2a108a62cbd4
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article content except third-party material identified as excluded in individual credit lines; claims paraphrase the article text, not figures or excluded media.
+          stableId: doi:10.1038/nature25458
+          accessedAt: 2026-09-24
+          locator: "Abstract; Methods: genomic DNA preparation; Results: Reduced Pax-family complement"
+          licenseAssessment: item-level-verified
+          scope: Whole-genome assembly and comparative/evolutionary analysis from a three-year-old d/d adult male axolotl, with follow-up Pax7 gene-editing results; not a survey of population variation.
+          attribution: "Nowoshilow S, Schloissnig S, Fei JF, et al. (2018). The axolotl genome and the evolution of key tissue formation regulators. Nature 554: 50–55. https://doi.org/10.1038/nature25458. Claims here are paraphrased."
+      - id: ramos2025axolotlmovement
+        referenceId: ref-bb06778b-4d70-8271-a63a-4a34eb321f1f
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - rightsEvidenceLocator
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article content covered by its license; any third-party exclusions remain governed by individual credit lines. This record paraphrases article text and reproduces no figures or tables.
+          stableId: doi:10.1371/journal.pone.0314257
+          accessedAt: 2026-09-26
+          locator: Abstract for site-level mean home-range comparison; Methods §§Study areas, Ethics statement, Study species and transmitters, and Data collection for locations, captive origin, sample sizes and telemetry dates; Results §Home range size for method and estimates.
+          licenseAssessment: item-level-verified
+          rightsEvidenceUrl: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314257
+          attribution: "Ramos AG, Mena H, Schneider D, Zambrano L (2025). Movement ecology of captive-bred axolotls in restored and artificial wetlands: Conservation insights for amphibian reintroductions and translocations. PLoS ONE 20(4):e0314257. https://doi.org/10.1371/journal.pone.0314257. Claim paraphrased; no figures or tables reproduced."
+          scope: VHF telemetry study of 18 laboratory-born and captive-raised axolotls released to two aquatic sites in southern Mexico City. The claim is limited to post-release home-range estimates at these sites and study windows; it is not a range-wide ecology estimate or evidence of a self-sustaining wild population.
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 586244, row 357749; Distribution.tsv rows 96830; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5993; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5988 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 9, 10; Reference.csv rows 4169
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3458, 3459; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc10571319-cq4m
+        referenceId: ref-e350cd85-2c89-4e37-a20d-d60210d83084
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ambystoma mexicanum: Named host sample provenance and comparative microbiome methods only; pooled statistics remain pooled, no supplementary sample allocations inferred; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-17b5a6d474
+        part: body
+      zh:
+        page: zh
+        section: s-9dbe71575d
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "586244"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=586244
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName and species rank; authorship representation normalization limited to NFC, whitespace and and/& conjunction.
+      originalSourceAuthorship: (Shaw and Nodder, 1798)
+      colAuthorship: (Shaw & Nodder, 1798)
+      exactAuthorship: false
+      equivalentAuthorshipRepresentation: true
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 357749
+        key: "586244"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "586244"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 96830
+            key: 586244|Middle America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-44d6853b3622055aeb9f33b75766a5c5
+      sourceRowId: Anf5993
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5993
+        bibliographyRowId: Anf5988
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Ambystoma silvense
+        candidateBibliographyRowIds:
+          - Anf5988
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-ac910a521d1aa4616c435e2f
+        scientificName: Ambystoma mexicanum
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-d998bb2516b9a5e9f7b0ab97
+        scientificName: Ambystoma mexicanum
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1186/s42523-023-00271-7
+        referenceId: ref-e350cd85-2c89-4e37-a20d-d60210d83084
+        sourceKey: primary-pmc10571319-cq4m
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10571319/article.xml
+        sourceConcept: Ambystoma mexicanum
+        evidenceRead: "Ambystoma mexicanum: Named host sample provenance and comparative microbiome methods only; pooled statistics remain pooled, no supplementary sample allocations inferred; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Outdoor mesocosms supplied the axolotl microbiome samples
+              zh: 室外中宇宙提供美西螈微生物样本
+            referenceId: ref-e350cd85-2c89-4e37-a20d-d60210d83084
+            sourceKey: primary-pmc10571319-cq4m
+            locator: PMC10571319 reading-sections section 1 (Sec8), paragraphs 1–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ca62340036
+                part: body
+              zh:
+                page: zh
+                section: s-b680d6f324
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Sampling environment and climatic grids have different scopes
+              zh: 采样环境与气候栅格的范围不同
+            referenceId: ref-e350cd85-2c89-4e37-a20d-d60210d83084
+            sourceKey: primary-pmc10571319-cq4m
+            locator: PMC10571319 reading-sections section 1 (Sec8), paragraphs 0 and 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-acea24ab83
+                part: body
+              zh:
+                page: zh
+                section: s-f8770736c7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

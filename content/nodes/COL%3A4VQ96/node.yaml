@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sclerophrys steindachneri
+  displayName: Sclerophrys steindachneri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VQ96
+  sourceIndexes:
+    - name:
+        en: Sclerophrys steindachneri
+        zh: Sclerophrys steindachneri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VQ96
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/123
+            queryName: Sclerophrys steindachneri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/415
+            queryName: Bufo steindachneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/478
+            queryName: Amietophrynus steindachneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/331
+            queryName: Bufo incertus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ae2b169ae3
+      - s-f9022b5aea
+      - s-08e76f581e
+      - s-13e4037556
+      - s-088222d0ab
+      - s-c475ea9e33
+      - s-46d9832799
+      - s-38e5e4ee2e
+      - s-cb8e12e926
+      - s-ab80aa78fb
+      - s-1735b34a4a
+      - s-f7e61a96ec
+      - s-29ab16b77b
+    zh:
+      - s-69f2db1339
+      - s-3be102ab25
+      - s-adf787967a
+      - s-5dfdaa2996
+      - s-8a374664e8
+      - s-91c6dceca3
+      - s-add665bd7d
+      - s-59d1eb8915
+      - s-d5475ccc91
+      - s-b318f8ce88
+      - s-c85f7270a4
+      - s-54ff026c15
+      - s-713ca4efe4

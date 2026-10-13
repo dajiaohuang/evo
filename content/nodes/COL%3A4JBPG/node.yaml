@@ -1,0 +1,122 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pithecopus hypochondrialis
+  displayName: Pithecopus hypochondrialis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JBPG
+  sourceIndexes:
+    - name:
+        en: Pithecopus hypochondrialis
+        zh: Pithecopus hypochondrialis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JBPG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/364
+            queryName: Pithecopus hypochondrialis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 84
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/401
+            queryName: Phyllomedusa hypocondrialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/237
+            queryName: Phyllomedusa hypochondrialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 90
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/26
+            queryName: Hyla hypochondrialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/27
+            queryName: Hyla hypocondrialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/28
+            queryName: Calamita hypochondrialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/29
+            queryName: Phrynomedusa hypochondrialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/30
+            queryName: Bradymedusa hypochondrialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/116
+            queryName: Pithecopus hypochondrialis hypochondrialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-77dd62aaa3
+      - s-16f5dd05aa
+      - s-cb900a8e1d
+      - s-17181cb359
+      - s-4db7165cff
+      - s-c571cec36a
+      - s-e81fbb9975
+      - s-e0d1904f88
+      - s-b5b0c0e495
+      - s-138acd01e0
+      - s-05d377a2b0
+      - s-50da7d00cb
+      - s-e0fc70f5c7
+      - s-ce7d8565e4
+      - s-5cce5cca0f
+      - s-52cbfd39bc
+      - s-39621d2289
+    zh:
+      - s-5b1ee73c50
+      - s-fda3979f23
+      - s-b07f4e3070
+      - s-3dac72d7fd
+      - s-96c2901ed2
+      - s-6bc4aea465
+      - s-85696baf51
+      - s-094073692b
+      - s-0b1a7db62e
+      - s-f5a9fe1b5f
+      - s-7da802cc64
+      - s-c6a6668e8a
+      - s-99f07d692d
+      - s-6c62e5a336
+      - s-ee5612e870
+      - s-7f9c0ace25
+      - s-35d0898fa4

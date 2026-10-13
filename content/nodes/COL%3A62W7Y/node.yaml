@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus
+  displayName: Kalophrynus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62W7Y
+  sourceIndexes:
+    - name:
+        en: Kalophrynus
+        zh: Kalophrynus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62W7Y
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/479
+            queryName: Kalophrynus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 46
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-11fa8e9b79
+      - s-bf5a3d1e90
+      - s-6831f32edf
+      - s-fd1e7cb4c3
+      - s-cdbdb14ef5
+      - s-5497e423f5
+      - s-4bc580fd3c
+      - s-2f8ce9cc35
+      - s-b18f6d5d35
+      - s-6cfcfaa178
+    zh:
+      - s-d46b317dce
+      - s-c8da77df8d
+      - s-52a129bbdf
+      - s-02d9cc26e2
+      - s-ab33da564f
+      - s-8c95353810
+      - s-a6053c3783
+      - s-b3219596b6
+      - s-78ab60b290
+      - s-7d789124f9

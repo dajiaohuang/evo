@@ -1,0 +1,147 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Huernia humilis (Masson) Haw.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3MSSZ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3MSSZ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3MSSZ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3MSSZ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001102116-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3MSSZ / WFO wfo-0001102116
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14722_0
+        referenceId: ref-e8495b45-15cf-83d6-ab33-35614e512817
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Huernia humilis (Masson) Haw. account; archive rows 30909 (Morphology), 39951 (Habitat), source identifier 14722.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_10484_0
+        referenceId: ref-c77dcd98-d53c-8d7b-ac6c-4025db5215e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Huernia humilis (Masson) Haw. account; archive rows 65915 (Diagnostic), source identifier 10484.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_18101_0
+        referenceId: ref-01c7117c-4cd6-894d-a098-340281f6009b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Huernia humilis (Masson) Haw. account; archive rows 90131 (Diagnostic), source identifier 18101.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Like H. guttata but annular area dull, inside cream, with small, maroon spots, tube 4-5 mm long, inner corona lobes nearly equalling anthers, tapering to bristly acute apex.
+            sourceIds:
+              - sanbi_14722_0
+            locator: "SANBI/WFO archive Morphology row 30909; source 14722.0; publication: Bruyns, PV. 2013. Apocynaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 248 - 264. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: The plant in H. humilis forms a very dense clump of 4-angled stems, which are usually short and squat and often broader than tall. The flowers in this species are very pretty. On the inside the lobes are finely spotted with red on a cream background with the spots increasing in size and coalescing on the annulus to become plain red towards the mouth of the tube. The annulus is never as shiny and the colours are generally not as bold as in H. zebrina. As mentioned above, the inside of the lobes is covered with fine papillae whose apical cell is swollen into a shortly acute, top-like structure which is usually maroon. These papillae are mainly concentrated on the cream parts of the lobes, with the red blotches mostly free of them. They usually disappear towards the bases of the lobes. As in H. zebrina, the corolla in H. humilis is strongly reflexed just below the bases of the lobes. This often accentuates the annulus so that it stands out well above the lobes as a thick, inflated ring. If the flower is dissected, it is found that the corolla reaches a maximum of about twice as thick in this annulus as it is below it and so the main cause of the prominence of the annulus is the manner in which the corolla is reflexed around the mouth of the tube. This annulus is very variable in its prominence and in some flowers it is almost absent. In such cases the flower begins to resemble that of some forms of H. thuretii. This is especially similar to what is found in plants that were described as H. scabra var. ecornuta from Biesiespoort near Victoria West. In these plants there is a fairly prominent annulus around the mouth of the tube and the flower is fairly boldly spotted with red. More similar to H. thuretii is the presence in these flowers of papillae with tiny apical bristles around the mouth of the tube. There is, therefore, some evidence to suggest that H. humilis and H. thuretii intergrade and this deserves further investigation.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_10484_0
+            locator: "SANBI/WFO archive Diagnostic row 65915; source 10484.0; publication: Bruyns, PV. 2005. Stapeliads of southern Africa and Madagascar, Vol. 1. Umdaus Press, Hatfield. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Expanded to include H. thudichumii L.C.Leach in Bruyns (2005a.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_18101_0
+            locator: "SANBI/WFO archive Diagnostic row 90131; source 18101.0; publication: Nicholas, A; Glen, M; Shuttleworth, A; Bester, SP. 2019. Apocynaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(1): 321 - 417. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony slopes under bushes.
+            sourceIds:
+              - sanbi_14722_0
+            locator: "SANBI/WFO archive Habitat row 39951; source 14722.0; publication: Bruyns, PV. 2013. Apocynaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 248 - 264. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

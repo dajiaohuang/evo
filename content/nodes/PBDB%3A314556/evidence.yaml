@@ -1,0 +1,257 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Henricosbornia lophodonta
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Henricosbornia lophodonta
+      en: Henricosbornia lophodonta
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-839f8e7583
+            part: body
+          en:
+            page: en
+            section: s-db162536a7
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5743431f96
+            part: body
+          en:
+            page: en
+            section: s-3bada99a98
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7f38ea3df8
+            part: body
+          en:
+            page: en
+            section: s-2624e33a39
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-57ec764113
+            part: body
+          en:
+            page: en
+            section: s-8a4d11bdcf
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a7f9c10f3e
+            part: body
+          en:
+            page: en
+            section: s-184966e4d6
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Henricosbornia lophodonta
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=314556&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:314556; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:314556
+          selectedOccurrenceIds:
+            - occ:161404
+            - occ:161405
+            - occ:1309604
+            - occ:1309605
+            - occ:1311405
+            - occ:1311438
+            - occ:1312681
+            - occ:1312714
+            - occ:1312742
+            - occ:1312743
+            - occ:1312744
+            - occ:1313724
+            - occ:1313725
+            - occ:1313727
+            - occ:1313729
+            - occ:1313731
+            - occ:1313735
+            - occ:1313736
+            - occ:1313897
+            - occ:1313898
+            - occ:1313899
+            - occ:1313900
+            - occ:1313901
+            - occ:1313902
+            - occ:1313903
+            - occ:1313904
+            - occ:1313905
+            - occ:1525089
+          selectedCollectionIds:
+            - col:14205
+            - col:13781
+            - col:176059
+            - col:133039
+            - col:176165
+            - col:44956
+            - col:176170
+            - col:176172
+            - col:176173
+            - col:176164
+            - col:176285
+            - col:176167
+          sourceReferenceIds:
+            - ref:73732
+            - ref:57758
+            - ref:57836
+            - ref:10369
+            - ref:10809
+          originalIdentificationMappings:
+            - occurrenceId: occ:1313724
+              originalIdentifiedName: Henricosbornia alouatina n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313725
+              originalIdentifiedName: Henricosbornia subconica n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313727
+              originalIdentifiedName: Pantostylops incompletus n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313729
+              originalIdentifiedName: Pantostylops typus n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313731
+              originalIdentifiedName: Polystylops progrediens n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313735
+              originalIdentifiedName: Selenoconus centralis n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313736
+              originalIdentifiedName: Selenoconus senex n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313897
+              originalIdentifiedName: Henricosbornia lophodonta n. gen. n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313898
+              originalIdentifiedName: Microstylops clarus n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313899
+              originalIdentifiedName: Prohyracotherium patagonicum n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313900
+              originalIdentifiedName: Prohyracotherium matutinum n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313901
+              originalIdentifiedName: Selenoconus spiculatus n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313902
+              originalIdentifiedName: Pantostylops completus n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313903
+              originalIdentifiedName: Hemistylops paucicuspidatus n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313904
+              originalIdentifiedName: Hemistylops trigonostyloides n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+            - occurrenceId: occ:1313905
+              originalIdentifiedName: Microstylops monoconus n. sp.
+              acceptedName: Henricosbornia lophodonta
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d4a450b77f
+        part: body
+      en:
+        page: en
+        section: s-2108b56d2b
+        part: body

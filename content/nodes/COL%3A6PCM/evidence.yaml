@@ -1,0 +1,403 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phrynomantis Peters, 1867
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Phrynomantis
+      zh: Phrynomantis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-afef9e0117
+            part: title
+          zh:
+            page: zh
+            section: s-669caf18e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-afef9e0117
+            part: body
+          zh:
+            page: zh
+            section: s-669caf18e3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e482ab8199
+            part: title
+          zh:
+            page: zh
+            section: s-c13f841cc5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e482ab8199
+            part: body
+          zh:
+            page: zh
+            section: s-c13f841cc5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-08387fee3b
+            part: title
+          zh:
+            page: zh
+            section: s-f70cfab0c1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-08387fee3b
+            part: body
+          zh:
+            page: zh
+            section: s-f70cfab0c1
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-8504871b91
+            part: title
+          zh:
+            page: zh
+            section: s-d68c55444d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8504871b91
+            part: body
+          zh:
+            page: zh
+            section: s-d68c55444d
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-239416584a
+            part: title
+          zh:
+            page: zh
+            section: s-eaee0a4c11
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4GWKP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4GWKP
+            label:
+              en: Phrynomantis affinis
+              zh: Phrynomantis affinis
+          - kind: catalogue
+            colId: 4GWKQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4GWKQ
+            label:
+              en: Phrynomantis annectens
+              zh: Phrynomantis annectens
+          - kind: catalogue
+            colId: 4GWKS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4GWKS
+            label:
+              en: Phrynomantis bifasciatus
+              zh: Phrynomantis bifasciatus
+          - kind: catalogue
+            colId: 4GWL8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4GWL8
+            label:
+              en: Phrynomantis microps
+              zh: Phrynomantis microps
+          - kind: catalogue
+            colId: RQFPM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ARQFPM
+            label:
+              en: Phrynomantis newtoni
+              zh: Phrynomantis newtoni
+          - kind: catalogue
+            colId: 4GWLL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4GWLL
+            label:
+              en: Phrynomantis somalicus
+              zh: Phrynomantis somalicus
+        text:
+          en:
+            page: en
+            section: s-239416584a
+            part: body
+          zh:
+            page: zh
+            section: s-eaee0a4c11
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc6434812-6pcm
+        title:
+          en:
+            page: en
+            section: s-0e2f0e8319
+            part: title
+          zh:
+            page: zh
+            section: s-4d1366a39c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0e2f0e8319
+            part: body
+          zh:
+            page: zh
+            section: s-4d1366a39c
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc6434812-6pcm
+        title:
+          en:
+            page: en
+            section: s-47ad5d9dc1
+            part: title
+          zh:
+            page: zh
+            section: s-5b8651caf5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-47ad5d9dc1
+            part: body
+          zh:
+            page: zh
+            section: s-5b8651caf5
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc6434812-6pcm
+        title:
+          en:
+            page: en
+            section: s-5e1b5f8ece
+            part: title
+          zh:
+            page: zh
+            section: s-ff6a935b07
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4GWKS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4GWKS
+            label:
+              en: Phrynomantis bifasciatus
+              zh: Phrynomantis bifasciatus
+        text:
+          en:
+            page: en
+            section: s-5e1b5f8ece
+            part: body
+          zh:
+            page: zh
+            section: s-ff6a935b07
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phrynomantis
+          url: https://www.checklistbank.org/dataset/316115/taxon/6PCM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Phrynomantis; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc6434812-6pcm
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phrynomantis bifasciatus: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected published isiZulu naming proposals, provenance and workshop limits for Phrynomantis; not biological trait synthesis
+            zh: 选定 Phrynomantis 已发表 isiZulu 赋名、来源及工作坊限制；非生物学性状综合
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f6d246fc29
+        part: body
+      zh:
+        page: zh
+        section: s-c8534e7733
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Phrynomantis
+      sourceRowIds:
+        - Anf4327
+        - Anf4328
+        - Anf4329
+        - Anf4330
+        - Anf4331
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 2
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 5
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 5
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 5
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1186/s13002-019-0294-3
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        sourceKey: primary-direct-group-pmc6434812-6pcm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6434812/article.xml
+        sourceConcept: Selected Phrynomantis nomenclatural/ethnotaxonomic labels inregional2019table; no genus-wide biologicaltraitassignment
+        evidenceRead: "Phrynomantis bifasciatus: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Selected isiZulu names in the regional compilation
+              zh: 地区汇编中的选定 isiZulu 名称
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-direct-group-pmc6434812-6pcm
+            locator: PMC6434812 XML Tab1 tbody rows33; Sec6 andfootnotes
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-95815aa4ef
+                part: body
+              zh:
+                page: zh
+                section: s-87a4afa4c7
+                part: body
+            scope:
+              en: Selected published isiZulu naming proposals, provenance and workshop limits for Phrynomantis; not biological trait synthesis
+              zh: 选定 Phrynomantis 已发表 isiZulu 赋名、来源及工作坊限制；非生物学性状综合
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Collective elicitation and scope of correspondence
+              zh: 集体词汇采集与对应范围
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-direct-group-pmc6434812-6pcm
+            locator: PMC6434812 XML Sec2Methods; Sec4–7; Sec9–10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-988c5053a4
+                part: body
+              zh:
+                page: zh
+                section: s-4fe8787e6f
+                part: body
+            scope:
+              en: Selected published isiZulu naming proposals, provenance and workshop limits for Phrynomantis; not biological trait synthesis
+              zh: 选定 Phrynomantis 已发表 isiZulu 赋名、来源及工作坊限制；非生物学性状综合
+    primaryResearchGroupSynthesisComplete: false

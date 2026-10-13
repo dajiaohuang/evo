@@ -1,0 +1,9 @@
+## The dataset entry {#s-632d6d5df0}
+The pinned AmphiTherm curated snapshot records Plethodon serratus under Plethodontidae, Caudata. It retains 2 thermal estimate rows across 1 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-2d4871f1f0}
+Source row 4048 (ID 4475; Spotila_1972) reports 34.00961538 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Plethodon_serratus_pop1. Recorded conditions include acclimation at 15 °C, medium_test_temp = water. The source reports 1.105769231 °C as its standard deviation. The source n_trait field is 14. The endpoint is OS. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## thermal preference estimate {#s-7896f3a274}
+Source row 4082 (ID 4509; Spotila_1972) reports 16.18918919 °C for the thermal preference estimate (metric code Tpref). The tested stage is recorded as adults. The source population code is Plethodon_serratus_pop2. Recorded conditions include acclimation at 15 °C, medium_test_temp = substrate, rate_measurement = 0.5. The source reports 5.405405405 °C as its standard deviation. The source n_trait field is 25. The source row does not state an endpoint. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

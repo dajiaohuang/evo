@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis diaphonus
+  displayName: Pristimantis diaphonus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJD4
+  sourceIndexes:
+    - name:
+        en: Pristimantis diaphonus
+        zh: Pristimantis diaphonus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJD4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/240
+            queryName: Pristimantis diaphonus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/331
+            queryName: Eleutherodactylus diaphonus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c6f792729d
+      - s-425feebaf4
+      - s-1daa0c0239
+      - s-6fbff465da
+      - s-ae9e469b9a
+      - s-afbe8965a1
+      - s-6126eab617
+    zh:
+      - s-a30566f233
+      - s-307ea087a7
+      - s-75b843f090
+      - s-19a04c6b1f
+      - s-eba7afc760
+      - s-6a8c8565aa
+      - s-17c7d5d8b9

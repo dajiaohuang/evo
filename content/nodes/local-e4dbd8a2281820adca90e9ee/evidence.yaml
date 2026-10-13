@@ -1,0 +1,536 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Plethodon ocmulgee
+    name:
+      en: Plethodon ocmulgee
+      zh: Plethodon ocmulgee
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Plethodon ocmulgee in the pinned AmphiTherm file
+          zh: 固定版 AmphiTherm 中的 Plethodon ocmulgee
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-b865c0e3cf
+            part: body
+          zh:
+            page: zh
+            section: s-c3411f55d1
+            part: body
+      - topic: ecology
+        title:
+          en: "Row 1392 (ID 1550): critical upper thermal-limit estimate"
+          zh: 第 1392 行（ID 1550）：临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1550"
+        text:
+          en:
+            page: en
+            section: s-4e65238c94
+            part: body
+          zh:
+            page: zh
+            section: s-21b4d7960a
+            part: body
+        sourceRowNumber: 1392
+      - topic: ecology
+        title:
+          en: "Row 1418 (ID 1576): preferred-temperature estimate"
+          zh: 第 1418 行（ID 1576）：温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1576"
+        text:
+          en:
+            page: en
+            section: s-bc721bd708
+            part: body
+          zh:
+            page: zh
+            section: s-47bfa20ad1
+            part: body
+        sourceRowNumber: 1418
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 1392, 1393, 1418, 1419; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 1392
+        values:
+          - "1550"
+          - Jose O. Valdebenito
+          - Elwood_2003
+          - Variation in hsp70 levels and thermotolerance among terrestrial salamanders of the Plethodon glutinosus complex
+          - "2003"
+          - "2"
+          - Geographic Variation of Preferred Temperature and Critical Thermal Maximum within the Plethodon glutinosus Complex
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_ocmulgee_pop1
+          - Plethodon_ocmulgee_pop1_UTL_co1
+          - C6 population
+          - Caudata
+          - Plethodontidae
+          - Plethodon ocmulgee
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.1"
+          - "-82.9"
+          - "55"
+          - NA
+          - March
+          - "1998"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.1"
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "0.5"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "48.98"
+          - "3.73"
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "32.9"
+          - "0.19"
+          - "12"
+          - se
+          - NA
+      - rowNumber: 1393
+        values:
+          - "1551"
+          - Jose O. Valdebenito
+          - Elwood_2003
+          - Variation in hsp70 levels and thermotolerance among terrestrial salamanders of the Plethodon glutinosus complex
+          - "2003"
+          - "2"
+          - Geographic Variation of Preferred Temperature and Critical Thermal Maximum within the Plethodon glutinosus Complex
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_ocmulgee_pop1
+          - Plethodon_ocmulgee_pop1_UTL_co2
+          - C6 population
+          - Caudata
+          - Plethodontidae
+          - Plethodon ocmulgee
+          - NA
+          - LC
+          - wild
+          - NA
+          - "32.1"
+          - "-82.9"
+          - "55"
+          - NA
+          - March
+          - "1998"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.1"
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "0.5"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "48.98"
+          - "3.73"
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "25"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "34.8"
+          - "0.19"
+          - "12"
+          - se
+          - NA
+      - rowNumber: 1418
+        values:
+          - "1576"
+          - Natalie_Claunch
+          - Elwood_2003
+          - Variation in hsp70 levels and thermotolerance among terrestrial salamanders of the Plethodon glutinosus complex
+          - "2003"
+          - "2"
+          - Geographic Variation of Preferred Temperature and Critical Thermal Maximum within the Plethodon glutinosus Complex
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_ocmulgee_pop2
+          - Plethodon_ocmulgee_pop2_PBT_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon ocmulgee
+          - NA
+          - LC
+          - wild
+          - NA
+          - "33.34362277"
+          - "-83.59321498"
+          - "169"
+          - NA
+          - March
+          - "1998"
+          - NA
+          - NA
+          - Population C6. Coordinates estimated from Google Maps based on Figure 4.
+          - NA
+          - "12.1"
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - "48.98"
+          - "3.73"
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - "1"
+          - linear
+          - "6"
+          - "36"
+          - The gradient_low and gradient_high temperatures were not explicitly reported, but they were taken as 6 (lowest reported temperature for an individual in the gradient) and 36 (which is claimed in discussion as "the hottest temperatures in gradient (>36C)")
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "18.5"
+          - "1.27"
+          - "12"
+          - se
+          - NA
+      - rowNumber: 1419
+        values:
+          - "1577"
+          - Natalie_Claunch
+          - Elwood_2003
+          - Variation in hsp70 levels and thermotolerance among terrestrial salamanders of the Plethodon glutinosus complex
+          - "2003"
+          - "2"
+          - Geographic Variation of Preferred Temperature and Critical Thermal Maximum within the Plethodon glutinosus Complex
+          - not_peer-reviewed
+          - NA
+          - English
+          - Plethodon_ocmulgee_pop2
+          - Plethodon_ocmulgee_pop2_PBT_co2
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon ocmulgee
+          - NA
+          - LC
+          - wild
+          - NA
+          - "33.34362277"
+          - "-83.59321498"
+          - "169"
+          - NA
+          - March
+          - "1998"
+          - NA
+          - NA
+          - Population C6. Coordinates estimated from Google Maps based on Figure 4.
+          - NA
+          - "12.1"
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "28"
+          - NA
+          - adults
+          - NA
+          - "48.98"
+          - "3.73"
+          - NA
+          - mixed
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - "1"
+          - linear
+          - "6"
+          - "36"
+          - The gradient_low and gradient_high temperatures were not explicitly reported, but they were taken as 6 (lowest reported temperature for an individual in the gradient) and 36 (which is claimed in discussion as "the hottest temperatures in gradient (>36C)")
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "19.7"
+          - "2.15"
+          - "12"
+          - se
+          - NA
+    originalStudyCitations:
+      - ref: Elwood_2003
+        title: Variation in hsp70 levels and thermotolerance among terrestrial salamanders of the Plethodon glutinosus complex
+        doi: NA
+        year: "2003"
+    selectedEstimateRowNumbers:
+      - 1392
+      - 1418
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6W287
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

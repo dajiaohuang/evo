@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreobates zongoensis
+  displayName: Oreobates zongoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/754PB
+  sourceIndexes:
+    - name:
+        en: Oreobates zongoensis
+        zh: Oreobates zongoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 754PB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/211
+            queryName: Oreobates zongoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/108
+            queryName: Eleutherodactylus zongoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5041b0b8b
+      - s-76bc759d37
+      - s-a9d01bf159
+      - s-d8c210eb1d
+      - s-7fd78882d5
+      - s-ac38bf1121
+      - s-0c83888a58
+      - s-fdd8e9e631
+      - s-db05738ade
+    zh:
+      - s-d5f35c019b
+      - s-df53cad485
+      - s-b0d181839e
+      - s-d484ef0c95
+      - s-963312edbe
+      - s-330ac6be84
+      - s-dc5621bedf
+      - s-8a8ef9a325
+      - s-77842f2376

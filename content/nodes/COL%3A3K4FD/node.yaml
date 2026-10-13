@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heleioporus barycragus
+  displayName: Heleioporus barycragus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3K4FD
+  sourceIndexes:
+    - name:
+        en: Heleioporus barycragus
+        zh: Heleioporus barycragus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3K4FD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/251
+            queryName: Heleioporus barycragus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/215
+            queryName: Philocryphus barycragus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-12ad1aadab
+      - s-e9b368568b
+      - s-a9f0de2e83
+      - s-c39d1e2eaf
+      - s-a4c8de17d0
+      - s-5b1603ba82
+      - s-884a003e44
+      - s-a4da8a8021
+      - s-e88b83ce95
+      - s-58e282d7ff
+    zh:
+      - s-6d5b62d801
+      - s-ff2eef7ab1
+      - s-c001e65ebc
+      - s-786d974cab
+      - s-910ce37197
+      - s-ae0ca23582
+      - s-f47e25d1b3
+      - s-5b3476898b
+      - s-e721c3d6ab
+      - s-1ea52c0c7a

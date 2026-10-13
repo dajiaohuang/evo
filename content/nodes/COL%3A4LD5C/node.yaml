@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Polypedates megacephalus
+  displayName: Polypedates megacephalus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4LD5C
+  sourceIndexes:
+    - name:
+        en: Polypedates megacephalus
+        zh: Polypedates megacephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4LD5C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/48
+            queryName: Polypedates megacephalus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 113
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/188
+            queryName: Rana scutigera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/394
+            queryName: Hylarana scutigera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/385
+            queryName: Chalcorana scutigera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/386
+            queryName: Sylvirana scutigera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/225
+            queryName: Polypedates maculatus unicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/226
+            queryName: Rhacophorus leucomystax megacephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-907f168a1a
+      - s-8677019ce5
+      - s-f20acb9d03
+      - s-f499715a47
+      - s-04df11eaef
+      - s-ff3a57fd00
+      - s-d969222d1a
+      - s-aac34a345a
+      - s-366f10c5c8
+      - s-84c0525717
+      - s-8975000287
+      - s-0adef7ee25
+      - s-de649edc59
+    zh:
+      - s-929ef3ffb1
+      - s-810a914440
+      - s-b97190fb3c
+      - s-83337a1646
+      - s-04e82c048d
+      - s-c1b46ae352
+      - s-dd9a6aad15
+      - s-1e41a7cec0
+      - s-9977b5c553
+      - s-17c3f74409
+      - s-f8c3ade89e
+      - s-516c09ef76
+      - s-908d31868b

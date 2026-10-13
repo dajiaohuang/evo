@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Buergeria
+  displayName: Buergeria
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62H63
+  sourceIndexes:
+    - name:
+        en: Buergeria
+        zh: Buergeria
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62H63
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/256
+            queryName: Buergeria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 122
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-520888897d
+      - s-62d176e16d
+      - s-7f09ec4a72
+      - s-ccd43c7b04
+      - s-5d2aeb84bd
+      - s-6bfff71f92
+      - s-218bc8bd8f
+      - s-d04b9cef78
+    zh:
+      - s-63e5446061
+      - s-fb3cfaa8e3
+      - s-78ca6918fc
+      - s-ad1496e579
+      - s-54b9c0eac2
+      - s-7268a97925
+      - s-47a7a6e6d7
+      - s-fda9e05ee9

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys
+  displayName: Boulenophrys
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3C2T
+  sourceIndexes:
+    - name:
+        en: Boulenophrys
+        zh: Boulenophrys
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3C2T
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/245
+            queryName: Boulenophrys
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 36
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b93dd504b5
+      - s-a9f1efd35e
+      - s-b37b0e18ab
+      - s-b7aff847eb
+      - s-9483b823ee
+      - s-0ad73edf6e
+      - s-8d33ce0c8f
+      - s-d74d62b4c3
+      - s-cdece3e40e
+      - s-7b8ef3d5c1
+      - s-c24bb996b3
+      - s-e90a8ad54e
+      - s-8b77225992
+      - s-c3d7eb34e7
+      - s-4973ae6939
+      - s-9a8dafd712
+      - s-cde1d80a21
+      - s-b78bc55968
+      - s-cee72988c7
+      - s-6795a75863
+    zh:
+      - s-7e6f6050fe
+      - s-60784b7e23
+      - s-38c0a74453
+      - s-c5cb568395
+      - s-c59383bd10
+      - s-a9a18ae6e6
+      - s-0fdd07fe6f
+      - s-397557f150
+      - s-15ab711dd5
+      - s-1c073c9d3c
+      - s-c5f8892833
+      - s-f67a833bd8
+      - s-aa8e63921b
+      - s-290d9fd0bb
+      - s-a5e791691d
+      - s-47da960074
+      - s-273a308169
+      - s-bb1328d52e
+      - s-25c57b46ce
+      - s-c28872416d

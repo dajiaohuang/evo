@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllobates bezosi
+  displayName: Phyllobates bezosi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V235L
+  sourceIndexes:
+    - name:
+        en: Phyllobates bezosi
+        zh: Phyllobates bezosi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V235L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/245
+            queryName: Phyllobates bezosi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7cda28b57d
+      - s-036c3946e8
+      - s-01d72fa4d4
+      - s-7b47a98c12
+      - s-2a20e954d5
+      - s-c1e3b32899
+      - s-393e3f2fa3
+    zh:
+      - s-6a557a9f29
+      - s-11d3a406de
+      - s-29e7bdbd50
+      - s-0cfe423731
+      - s-b66d226a02
+      - s-d43a7ff274
+      - s-ab17f7038b

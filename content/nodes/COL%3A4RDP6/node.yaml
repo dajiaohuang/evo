@@ -1,0 +1,134 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana dybowskii
+  displayName: Rana dybowskii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDP6
+  sourceIndexes:
+    - name:
+        en: Rana dybowskii
+        zh: Rana dybowskii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDP6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/52
+            queryName: Rana dybowskii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 218
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/497
+            queryName: Rana semiplicata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/498
+            queryName: Rana zografi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/499
+            queryName: Rana zographi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/216
+            queryName: Rana japonica zografi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/217
+            queryName: Rana tsuschimensis semiplicata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/218
+            queryName: Rana temporaria dybowskii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/219
+            queryName: Rana chensinensis dybowskii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/220
+            queryName: Rana chensinensis changbaishanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/221
+            queryName: Rana chensinensis semiplicata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a96e9d77d
+      - s-a003cea14d
+      - s-cf9438d5d1
+      - s-5e1135b38e
+      - s-14e75ee6aa
+      - s-a265b2d5f0
+      - s-c456264542
+      - s-dcfb1e28cd
+      - s-8c56da3e71
+      - s-c7ec14b535
+      - s-6f74ea5d1d
+      - s-dac174bae6
+      - s-4dc824299d
+      - s-453b15c613
+      - s-e760ddc01f
+      - s-39aaf3c4b8
+      - s-6a764c7256
+      - s-17b10f340b
+      - s-e76d35753b
+      - s-35f144c07b
+    zh:
+      - s-4ac8e3d9e6
+      - s-cc3d8e9da7
+      - s-af8a5b23cf
+      - s-f419e07534
+      - s-7c785de2e1
+      - s-7b1b0444b0
+      - s-43eb905286
+      - s-1aedade7f9
+      - s-ca6b767108
+      - s-88465b4501
+      - s-728c46c4c2
+      - s-ae076f6c21
+      - s-9ee54b5425
+      - s-886725293e
+      - s-932de748a0
+      - s-7b7b38a84e
+      - s-ee9cc293cf
+      - s-2313d71a82
+      - s-f31fa04932
+      - s-067735ba96

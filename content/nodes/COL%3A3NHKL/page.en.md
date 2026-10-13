@@ -1,0 +1,3 @@
+## ## Gold-toned buds and pubescent sepals {#s-d90f10df29}
+Brazilian Flora 2020 records scaly bark and ovate leaflets that are papery to membranous, dull and glabrous or nearly hairless. Their veins are prominent on the underside. Flower clusters are described as dichasial cymes or corymb-like groups, with flowers arranged in a roughly flat top. The flower buds are golden; the sepals do not bend backward and have pubescence on their upper surfaces. The white petals and ovary are glabrous. The dark-brown fruit has a smooth, glossy outer wall and contains 3–7 dark-brown seeds. The dataset classifies the plant as terrestrial.
+

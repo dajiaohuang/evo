@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis leucosticta
+  displayName: Chiasmocleis leucosticta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ2B
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis leucosticta
+        zh: Chiasmocleis leucosticta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ2B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/253
+            queryName: Chiasmocleis leucosticta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/294
+            queryName: Engystoma leucosticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/295
+            queryName: Gastrophryne leucosticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/296
+            queryName: Nectodactylus spinulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/297
+            queryName: Chiasmocleis spinulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/298
+            queryName: Chiasmocleis urbanae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a2c2ded6cc
+      - s-b8178df112
+      - s-9e472fb51d
+      - s-4524a24b7d
+      - s-d0cd041439
+      - s-2484f6cfce
+      - s-09207a4411
+      - s-cf605de6aa
+      - s-f91bfc79a6
+      - s-75b34a6710
+      - s-40e9aa30c0
+      - s-e40b2cd2b5
+      - s-97c86b7fc0
+      - s-f5f4db7ae5
+      - s-7c85f0abcb
+      - s-75778150af
+      - s-ea49201182
+    zh:
+      - s-53224473fa
+      - s-e42748c53d
+      - s-7faa77753c
+      - s-cc463d77e5
+      - s-6dc61e28c9
+      - s-3ede61e4d0
+      - s-c9a2818edb
+      - s-527c660f48
+      - s-a45eddd955
+      - s-aef91847ac
+      - s-15577ada71
+      - s-e6ce8682b8
+      - s-915fb69578
+      - s-6b8d122858
+      - s-2b2cce70ca
+      - s-4b075463d3
+      - s-326048246b

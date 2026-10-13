@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sclerophrys tuberosa
+  displayName: Sclerophrys tuberosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VQ9B
+  sourceIndexes:
+    - name:
+        en: Sclerophrys tuberosa
+        zh: Sclerophrys tuberosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VQ9B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/128
+            queryName: Sclerophrys tuberosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/424
+            queryName: Bufo tuberosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/482
+            queryName: Amietophrynus tuberosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/282
+            queryName: Bufo polycerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/283
+            queryName: Bufo polycercus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ada3049c9
+      - s-4d4e20515c
+      - s-2fa5e011db
+      - s-d6eb12c43a
+      - s-655e075555
+      - s-eaa2756662
+      - s-55185f85a2
+      - s-b3979e4e76
+      - s-c75c71fae5
+      - s-5b7e7e4ef2
+      - s-b30ce36f98
+      - s-18faf3e739
+      - s-e3c1a79778
+      - s-fcac755764
+    zh:
+      - s-e6e0df740c
+      - s-23e93bccaa
+      - s-34f4633a45
+      - s-32cf80d508
+      - s-130dbfc0d9
+      - s-3bb843b6a6
+      - s-d9154926d4
+      - s-2959fa14ab
+      - s-92177efdba
+      - s-c3a08f574b
+      - s-3c3a285b87
+      - s-570e912449
+      - s-540d1905e6
+      - s-25b465b689

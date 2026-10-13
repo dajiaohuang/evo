@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odontophrynus monachus
+    name:
+      en: Odontophrynus monachus
+      zh: Odontophrynus monachus
+    sourceClassification:
+      order: Anura
+      family: Odontophrynidae
+      genus: Odontophrynus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Odontophrynus monachus in the version 3 classification
+          zh: Odontophrynus monachus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-317956c00e
+            part: body
+          zh:
+            page: zh
+            section: s-c05cd315a6
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 11 populated trait fields
+          zh: 2 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a26101131d
+            part: body
+          zh:
+            page: zh
+            section: s-f0175a744f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3728, 3729; Reference.csv rows 964
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3728
+        values:
+          - Odontophrynidae
+          - Odontophrynus
+          - Odontophrynus monachus
+          - F
+          - "55.5"
+          - "16.3"
+          - "24"
+          - "6.1"
+          - NA
+          - NA
+          - "6.4"
+          - "5.2"
+          - "5.3"
+          - "4.9"
+          - NA
+          - NA
+          - "14.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "20"
+          - "20.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3729
+        values:
+          - Odontophrynidae
+          - Odontophrynus
+          - Odontophrynus monachus
+          - M
+          - "47.83333333"
+          - "15.5"
+          - "20.73333333"
+          - "6.033333333"
+          - NA
+          - NA
+          - "4.366666667"
+          - "4.366666667"
+          - "5.366666667"
+          - "4.633333333"
+          - NA
+          - NA
+          - "13.56666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "17.53333333"
+          - "19.43333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 964
+        values:
+          - Anura
+          - Odontophrynus_monachus
+          - Caramaschi, U., & Napoli, M. F. (2012). Taxonomic revision of the Odontophrynus cultripes species group, with description of a new related species (Anura, Cycloramphidae). Zootaxa(3155), 1-20. https://doi.org/10.11646/zootaxa.3155.1.1
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - HAL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48R36
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

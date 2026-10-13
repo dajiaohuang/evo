@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Rhinella hoogmoedi
+    name:
+      en: Rhinella hoogmoedi
+      zh: Rhinella hoogmoedi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Which source name is assigned to this tadpole record?
+          zh: 这条蝌蚪记录采用什么来源名称？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-ae44e123f9
+            part: body
+          zh:
+            page: zh
+            section: s-dace9d1be4
+            part: body
+      - topic: morphology
+        title:
+          en: What do the rows actually report?
+          zh: 数据行实际记录了什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-16c4de3dc8
+            part: body
+          zh:
+            page: zh
+            section: s-77a142ae84
+            part: body
+      - topic: morphology
+        title:
+          en: What can the image measurements show?
+          zh: 图像测量能说明什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-4a29572317
+            part: body
+          zh:
+            page: zh
+            section: s-27c4e0b0a2
+            part: body
+      - topic: overview
+        title:
+          en: Where do the supplied ratios disagree?
+          zh: 哪些来源比例存在差异？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-b045fc356c
+            part: body
+          zh:
+            page: zh
+            section: s-3f160308e9
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1694; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Bufonidae
+      genus: Rhinella
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1694
+        values:
+          - "Dubeux, M. J. M., Nascimento, F. A. C. D., Lima, L. R., Magalhães, F. D. M., Silva, I. R. S. D., Gonçalves, U., Almeida, J. P. F., Correia, L. L., Garda, A. A., Mesquita, D. O., Rossa-Feres, D. D. C. & Mott, T. (2020). Morphological characterization and taxonomic key of tadpoles (Amphibia: Anura) from the northern region of the Atlantic Forest. Biota Neotropica, 20(2), e20180718."
+          - Measurement
+          - Color image
+          - Rhinella hoogmoedi
+          - Bufonidae
+          - Rhinella
+          - Rhinella hoogmoedi
+          - 36 (Judging based on the picture)
+          - 20.434
+          - 8.757
+          - 11.845
+          - 4.865
+          - 3.973
+          - 1.378
+          - 1.543
+          - 1.381
+          - 5.514
+          - 1.705
+          - 3.166
+          - 0.42855455123813
+          - 0.579671136341392
+          - 0.23883586179896
+          - 0.1944385543212
+          - 0.674366252324557
+          - 0.75511425643535
+          - 0.675834393657629
+          - 0.26984437718694
+          - 0.834393657629441
+          - 0.154937848683567
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1694
+        scientificName: Rhinella hoogmoedi
+        sourceField: TMH/TL
+        suppliedRatio: 0.674366252324557
+        originalNumerator: 1.378
+        originalTotalLength: 20.434
+        computedRatio: 0.06743662523245571
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1694
+        scientificName: Rhinella hoogmoedi
+        sourceField: DFH/TL
+        suppliedRatio: 0.75511425643535
+        originalNumerator: 1.543
+        originalTotalLength: 20.434
+        computedRatio: 0.07551140256435353
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1694
+        scientificName: Rhinella hoogmoedi
+        sourceField: VFH/TL
+        suppliedRatio: 0.675834393657629
+        originalNumerator: 1.381
+        originalTotalLength: 20.434
+        computedRatio: 0.06758343936576294
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1694
+        scientificName: Rhinella hoogmoedi
+        sourceField: TMW/TL
+        suppliedRatio: 0.834393657629441
+        originalNumerator: 1.705
+        originalTotalLength: 20.434
+        computedRatio: 0.08343936576294411
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.42855455123813
+        row: 1694
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.579671136341392
+        row: 1694
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.23883586179896
+        row: 1694
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.1944385543212
+        row: 1694
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.26984437718694
+        row: 1694
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 78TLS
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

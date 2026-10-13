@@ -1,0 +1,271 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sphaerotheca Günther, 1859
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Sphaerotheca
+      zh: Sphaerotheca
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7040a1ead4
+            part: title
+          zh:
+            page: zh
+            section: s-012b28aac3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7040a1ead4
+            part: body
+          zh:
+            page: zh
+            section: s-012b28aac3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3ada55ba84
+            part: title
+          zh:
+            page: zh
+            section: s-253bab495b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3ada55ba84
+            part: body
+          zh:
+            page: zh
+            section: s-253bab495b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-9f2724dc8b
+            part: title
+          zh:
+            page: zh
+            section: s-372bd4748b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9f2724dc8b
+            part: body
+          zh:
+            page: zh
+            section: s-372bd4748b
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-33c1216c10
+            part: title
+          zh:
+            page: zh
+            section: s-8936394fce
+            part: title
+        text:
+          en:
+            page: en
+            section: s-33c1216c10
+            part: body
+          zh:
+            page: zh
+            section: s-8936394fce
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-0b84b4037d
+            part: title
+          zh:
+            page: zh
+            section: s-50d1b4316a
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: SYL4K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASYL4K
+            label:
+              en: Sphaerotheca bengaluru
+              zh: Sphaerotheca bengaluru
+          - kind: catalogue
+            colId: 6YXV2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6YXV2
+            label:
+              en: Sphaerotheca breviceps
+              zh: Sphaerotheca breviceps
+          - kind: catalogue
+            colId: 6YY72
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6YY72
+            label:
+              en: Sphaerotheca dobsonii
+              zh: Sphaerotheca dobsonii
+          - kind: catalogue
+            colId: 4YSM7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4YSM7
+            label:
+              en: Sphaerotheca leucorhynchus
+              zh: Sphaerotheca leucorhynchus
+          - kind: catalogue
+            colId: 4YSMD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4YSMD
+            label:
+              en: Sphaerotheca maskeyi
+              zh: Sphaerotheca maskeyi
+          - kind: catalogue
+            colId: 4YSMT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4YSMT
+            label:
+              en: Sphaerotheca pluvialis
+              zh: Sphaerotheca pluvialis
+          - kind: catalogue
+            colId: 4YSMX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4YSMX
+            label:
+              en: Sphaerotheca rolandae
+              zh: Sphaerotheca rolandae
+          - kind: catalogue
+            colId: 4YSN9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4YSN9
+            label:
+              en: Sphaerotheca strachani
+              zh: Sphaerotheca strachani
+          - kind: catalogue
+            colId: SYLY2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASYLY2
+            label:
+              en: Sphaerotheca varshaabhu
+              zh: Sphaerotheca varshaabhu
+        text:
+          en:
+            page: en
+            section: s-0b84b4037d
+            part: body
+          zh:
+            page: zh
+            section: s-50d1b4316a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Sphaerotheca
+          url: https://www.checklistbank.org/dataset/316115/taxon/7KMB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Sphaerotheca; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d68ea3d43d
+        part: body
+      zh:
+        page: zh
+        section: s-03320793c8
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Sphaerotheca
+      sourceRowIds:
+        - Anf1774
+        - Anf1775
+        - Anf1776
+        - Anf1777
+        - Anf1778
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 3
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 4
+      currentConceptEquivalenceCertified: false

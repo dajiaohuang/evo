@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus xapuriensis
+  displayName: Dendropsophus xapuriensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S7P
+  sourceIndexes:
+    - name:
+        en: Dendropsophus xapuriensis
+        zh: Dendropsophus xapuriensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S7P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/437
+            queryName: Dendropsophus xapuriensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/0
+            queryName: Hyla xapuriensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-582d9b04c7
+      - s-9c10ae30ab
+      - s-63328be775
+      - s-dd3a9ca1cc
+      - s-1f33abdded
+      - s-23d4a8133f
+      - s-1863201f40
+      - s-1b9b80de52
+    zh:
+      - s-fe85023975
+      - s-c0325e9a65
+      - s-c0430d4c19
+      - s-c1cc11424e
+      - s-f93a58015f
+      - s-7b80623d42
+      - s-00a684b245
+      - s-7e3d3cdaf8

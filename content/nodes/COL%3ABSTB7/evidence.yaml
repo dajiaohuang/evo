@@ -1,0 +1,109 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Xanthonycticebus Nekaris & Nijman, 2022
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: 倭蜂猴属
+      en: Pygmy Lorises
+    sections:
+      - topic: readingPath
+        text:
+          zh:
+            page: zh
+            section: s-8b5318c35a
+            part: body
+          en:
+            page: en
+            section: s-42c9cc059c
+            part: body
+        sourceIds:
+          - taxonomy
+          - genusDescription2022
+          - intermediusTaxonomy
+          - pygmaeusTaxonomy
+          - survey2026
+          - pygmaeusCaptive2021
+    sources:
+      - id: taxonomy
+        referenceId: ref-c9229b47-26ca-8188-a2c1-c5f26428e374
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 固定接受属 ID BSTB7、接受名、作者及分类层级；不提供生物学正文。
+            en: Pins accepted genus ID BSTB7, name, authorship, and rank; it is not biological evidence.
+      - id: genusDescription2022
+        referenceId: ref-aaccce0d-c550-8e3f-a4ce-2ef23c9df3c9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 提出属级分类处理并综合形态、行为、核型和遗传比较；不是本属所有物种的完整野外综述。
+            en: Proposes the generic treatment and synthesizes morphological, behavioral, karyotypic, and genetic comparisons; it is not a complete field review of every species in the genus.
+      - id: intermediusTaxonomy
+        referenceId: ref-36e765bd-004c-8c86-a605-45557c54a951
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 将接受种 BV3HZ 接入属级阅读路径。
+            en: Connects accepted species ID BV3HZ to the genus route.
+      - id: pygmaeusTaxonomy
+        referenceId: ref-c25e5b68-3bac-81be-abf0-424c6fef6fae
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 将接受种 BTCRT 接入属级阅读路径。
+            en: Connects accepted species ID BTCRT to the genus route.
+      - id: survey2026
+        referenceId: ref-6bf95f2e-bcce-8fb4-a36a-aa414cb6698a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 广西四县局地夜间灯照调查；不支持外推到整个属或全分布区。
+            en: A local nighttime spotlight survey in four Guangxi counties; it does not support extrapolation to the genus or the full range.
+      - id: pygmaeusCaptive2021
+        referenceId: ref-21c3f0fb-2a30-8765-af17-46b1bcbe6974
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 圈养雌性福利研究；不支持野外社会结构或生态结论。
+            en: A captive female-welfare study; it does not support conclusions about wild social organization or ecology.
+    limitations:
+      zh:
+        page: zh
+        section: s-693550282f
+        part: body
+      en:
+        page: en
+        section: s-ea2d1e9061
+        part: body

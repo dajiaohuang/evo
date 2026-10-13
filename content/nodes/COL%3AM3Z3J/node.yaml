@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia atelolepis
+  displayName: Caecilia atelolepis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M3Z3J
+  sourceIndexes:
+    - name:
+        en: Caecilia atelolepis
+        zh: Caecilia atelolepis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M3Z3J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/57
+            queryName: Caecilia atelolepis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3aa30bacfe
+      - s-d24d4c2782
+      - s-89bb73f9d3
+      - s-457c33d7e9
+      - s-dd7e48546b
+      - s-7657e29eba
+      - s-fb2ae39bdb
+    zh:
+      - s-e4a3a91e6f
+      - s-c268568254
+      - s-b6c83d4fa3
+      - s-227102760e
+      - s-9590024063
+      - s-04a733b31c
+      - s-a2b044a988

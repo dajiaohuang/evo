@@ -1,0 +1,3 @@
+## *Baccharis bifrons*: three-veined leaves and clustered heads {#s-60b0dab421}
+The Brazilian Flora 2020 regional field describes leaves with three main veins and blades ranging from lance-shaped to egg-shaped or elliptic, with entire margins. Their stalks are recorded as nearly absent or developed. Flower heads may be arranged in a panicle, tight clusters, or a flatter-topped cluster; the field records heads as either all tubular male-flowered or all threadlike female-flowered. These are the alternatives listed by the source field, not a claim that every form occurs together. It gives only the broad substrate category “terrestrial,” with no locality.
+

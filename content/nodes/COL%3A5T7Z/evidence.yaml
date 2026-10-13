@@ -1,0 +1,219 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mimosiphonops Taylor, 1968
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Mimosiphonops
+      zh: Mimosiphonops
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cabf4ea410
+            part: title
+          zh:
+            page: zh
+            section: s-7ace31a9f8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cabf4ea410
+            part: body
+          zh:
+            page: zh
+            section: s-7ace31a9f8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-28e028de7c
+            part: title
+          zh:
+            page: zh
+            section: s-47a134ad99
+            part: title
+        text:
+          en:
+            page: en
+            section: s-28e028de7c
+            part: body
+          zh:
+            page: zh
+            section: s-47a134ad99
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-3646fe6bab
+            part: title
+          zh:
+            page: zh
+            section: s-0bf707692c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3646fe6bab
+            part: body
+          zh:
+            page: zh
+            section: s-0bf707692c
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-54b7e90732
+            part: title
+          zh:
+            page: zh
+            section: s-5edb15085a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-54b7e90732
+            part: body
+          zh:
+            page: zh
+            section: s-5edb15085a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-386a817f60
+            part: title
+          zh:
+            page: zh
+            section: s-34affd372c
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 43GZ9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A43GZ9
+            label:
+              en: Mimosiphonops reinhardti
+              zh: Mimosiphonops reinhardti
+          - kind: catalogue
+            colId: 73M59
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A73M59
+            label:
+              en: Mimosiphonops vermiculatus
+              zh: Mimosiphonops vermiculatus
+        text:
+          en:
+            page: en
+            section: s-386a817f60
+            part: body
+          zh:
+            page: zh
+            section: s-34affd372c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mimosiphonops
+          url: https://www.checklistbank.org/dataset/316115/taxon/5T7Z
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Mimosiphonops; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5e8ca4f092
+        part: body
+      zh:
+        page: zh
+        section: s-f2e146f1ed
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Mimosiphonops
+      sourceRowIds:
+        - Anf6675
+        - Anf6676
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 2
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 2
+      currentConceptEquivalenceCertified: false

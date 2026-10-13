@@ -1,0 +1,411 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Pseudacris nigrita
+    name:
+      en: Pseudacris nigrita
+      zh: Pseudacris nigrita
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The name and scope of this tadpole record
+          zh: 这份蝌蚪记录的名称与范围
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-9a9a67219a
+            part: body
+          zh:
+            page: zh
+            section: s-8a5dd87c55
+            part: body
+      - topic: morphology
+        title:
+          en: Stage labels and the fields attached to them
+          zh: 阶段标签及对应字段
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-8caa9784e1
+            part: body
+          zh:
+            page: zh
+            section: s-d37a9c08b9
+            part: body
+      - topic: morphology
+        title:
+          en: Dimensionless proportions in image records
+          zh: 图像记录中的无量纲比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f1eab6be17
+            part: body
+          zh:
+            page: zh
+            section: s-bad52d2e46
+            part: body
+      - topic: overview
+        title:
+          en: A ratio that conflicts with its source row
+          zh: 与来源行不一致的比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0c0d8b2186
+            part: body
+          zh:
+            page: zh
+            section: s-1963a8bf61
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1336, 1337; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Hylidae
+      genus: Pseudacris
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1336
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Black-and-white image
+          - Pseudacris nigrita
+          - Hylidae
+          - Pseudacris
+          - Pseudacris nigrita
+          - 33
+          - 30
+          - 9.163
+          - 20.497
+          - 5.267
+          - 4.466
+          - 2.405
+          - 1.947
+          - 0.573
+          - null
+          - null
+          - null
+          - 0.35433333333333
+          - 0.683233333333333
+          - 0.175566666666667
+          - 0.148866666666667
+          - 0.81666666666667
+          - 0.649
+          - 0.191
+          - null
+          - null
+          - null
+          - Yanfang Song
+      - rowNumber: 1337
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Color image
+          - Pseudacris nigrita
+          - Hylidae
+          - Pseudacris
+          - Pseudacris nigrita
+          - 34
+          - 30
+          - 9.39
+          - 20.718
+          - 6.327
+          - 6.531
+          - 1.837
+          - 2.247
+          - 2.757
+          - null
+          - null
+          - null
+          - 0.313
+          - 0.696
+          - 0.219
+          - 0.2177
+          - 0.612333333333333
+          - 0.749
+          - 0.919
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1336
+        scientificName: Pseudacris nigrita
+        sourceField: BL/TL
+        suppliedRatio: 0.35433333333333
+        originalNumerator: 9.163
+        originalTotalLength: 30
+        computedRatio: 0.30543333333333333
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1336
+        scientificName: Pseudacris nigrita
+        sourceField: TMH/TL
+        suppliedRatio: 0.81666666666667
+        originalNumerator: 2.405
+        originalTotalLength: 30
+        computedRatio: 0.08016666666666666
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1336
+        scientificName: Pseudacris nigrita
+        sourceField: DFH/TL
+        suppliedRatio: 0.649
+        originalNumerator: 1.947
+        originalTotalLength: 30
+        computedRatio: 0.0649
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1336
+        scientificName: Pseudacris nigrita
+        sourceField: VFH/TL
+        suppliedRatio: 0.191
+        originalNumerator: 0.573
+        originalTotalLength: 30
+        computedRatio: 0.0191
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1337
+        scientificName: Pseudacris nigrita
+        sourceField: TaL/TL
+        suppliedRatio: 0.696
+        originalNumerator: 20.718
+        originalTotalLength: 30
+        computedRatio: 0.6906
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1337
+        scientificName: Pseudacris nigrita
+        sourceField: BMH/TL
+        suppliedRatio: 0.219
+        originalNumerator: 6.327
+        originalTotalLength: 30
+        computedRatio: 0.2109
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1337
+        scientificName: Pseudacris nigrita
+        sourceField: TMH/TL
+        suppliedRatio: 0.612333333333333
+        originalNumerator: 1.837
+        originalTotalLength: 30
+        computedRatio: 0.061233333333333334
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1337
+        scientificName: Pseudacris nigrita
+        sourceField: DFH/TL
+        suppliedRatio: 0.749
+        originalNumerator: 2.247
+        originalTotalLength: 30
+        computedRatio: 0.0749
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1337
+        scientificName: Pseudacris nigrita
+        sourceField: VFH/TL
+        suppliedRatio: 0.919
+        originalNumerator: 2.757
+        originalTotalLength: 30
+        computedRatio: 0.09190000000000001
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.683233333333333
+        row: 1336
+        stage: 33
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.175566666666667
+        row: 1336
+        stage: 33
+        type: Measurement
+        imageType: Black-and-white image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.148866666666667
+        row: 1336
+        stage: 33
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.313
+        row: 1337
+        stage: 34
+        type: Measurement
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.2177
+        row: 1337
+        stage: 34
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4NH9P
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

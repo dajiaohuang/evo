@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odontophrynus lavillai
+  displayName: Odontophrynus lavillai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48R34
+  sourceIndexes:
+    - name:
+        en: Odontophrynus lavillai
+        zh: Odontophrynus lavillai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48R34
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/486
+            queryName: Odontophrynus lavillai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-13a2d824cf
+      - s-c905f43edf
+      - s-35b4cb137f
+      - s-e1bc02aeab
+      - s-dbf9767980
+      - s-fce4b69c82
+    zh:
+      - s-4c97b975c2
+      - s-b089a22333
+      - s-6a4abac78a
+      - s-9a441d12e1
+      - s-2da0a85860
+      - s-7f20d813d3

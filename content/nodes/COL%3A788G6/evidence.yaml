@@ -1,0 +1,589 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis vertebralis (Boulenger, 1886)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis vertebralis
+      zh: Pristimantis vertebralis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1add1b65e3
+            part: title
+          zh:
+            page: zh
+            section: s-deee950069
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1add1b65e3
+            part: body
+          zh:
+            page: zh
+            section: s-deee950069
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cbf87c9b17
+            part: title
+          zh:
+            page: zh
+            section: s-adfe5b8f2a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cbf87c9b17
+            part: body
+          zh:
+            page: zh
+            section: s-adfe5b8f2a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4d2123cb63
+            part: title
+          zh:
+            page: zh
+            section: s-d3d044a226
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-4d2123cb63
+            part: body
+          zh:
+            page: zh
+            section: s-d3d044a226
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e726a01374
+            part: title
+          zh:
+            page: zh
+            section: s-9e519c8e88
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-e726a01374
+            part: body
+          zh:
+            page: zh
+            section: s-9e519c8e88
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f904540cf2
+            part: title
+          zh:
+            page: zh
+            section: s-2c17a56fd5
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_cold
+        text:
+          en:
+            page: en
+            section: s-f904540cf2
+            part: body
+          zh:
+            page: zh
+            section: s-2c17a56fd5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d96179de1c
+            part: title
+          zh:
+            page: zh
+            section: s-26b785da9b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-d96179de1c
+            part: body
+          zh:
+            page: zh
+            section: s-26b785da9b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-53b5e15f6e
+            part: title
+          zh:
+            page: zh
+            section: s-46a828565a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-53b5e15f6e
+            part: body
+          zh:
+            page: zh
+            section: s-46a828565a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-fc3e5e2d2c
+            part: title
+          zh:
+            page: zh
+            section: s-df85c56cc5
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-fc3e5e2d2c
+            part: body
+          zh:
+            page: zh
+            section: s-df85c56cc5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e0a31865d8
+            part: title
+          zh:
+            page: zh
+            section: s-303d7f2633
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e0a31865d8
+            part: body
+          zh:
+            page: zh
+            section: s-303d7f2633
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-5fa125fb1340d6b9d0e3c267da6398e5
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-4c56a88e8960f3d1269ef17a
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4e1a9a6ed4
+            part: title
+          zh:
+            page: zh
+            section: s-d3144a888d
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3963"
+        text:
+          en:
+            page: en
+            section: s-4e1a9a6ed4
+            part: body
+          zh:
+            page: zh
+            section: s-d3144a888d
+            part: body
+        sourceRowNumber: 3629
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8eb93c8f3a
+            part: title
+          zh:
+            page: zh
+            section: s-ed070bb7dd
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3985"
+        text:
+          en:
+            page: en
+            section: s-8eb93c8f3a
+            part: body
+          zh:
+            page: zh
+            section: s-ed070bb7dd
+            part: body
+        sourceRowNumber: 3645
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b1bc4ad093
+            part: title
+          zh:
+            page: zh
+            section: s-2974742d8d
+            part: title
+        sourceIds:
+          - primary-pmc9985417-788g6
+        text:
+          en:
+            page: en
+            section: s-b1bc4ad093
+            part: body
+          zh:
+            page: zh
+            section: s-2974742d8d
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-bc3927cd14
+            part: title
+          zh:
+            page: zh
+            section: s-b1afc40d7f
+            part: title
+        sourceIds:
+          - primary-pmc9985417-788g6
+        text:
+          en:
+            page: en
+            section: s-bc3927cd14
+            part: body
+          zh:
+            page: zh
+            section: s-b1afc40d7f
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-6a85bcec70
+            part: title
+          zh:
+            page: zh
+            section: s-cf1f65b68d
+            part: title
+        sourceIds:
+          - primary-pmc9985417-788g6
+        text:
+          en:
+            page: en
+            section: s-6a85bcec70
+            part: body
+          zh:
+            page: zh
+            section: s-cf1f65b68d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis vertebralis
+          url: https://www.checklistbank.org/dataset/316115/taxon/788G6
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5918; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5921 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3629, 3645; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc9985417-788g6
+        referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis vertebralis: Main recorded XML scope and all231 Appendix DOCX donor-row cells read; allnine distance-table terminal labels and67 selected uncorrected16S percent cells read with exact row/column receipts; other matrix cells/rawalignments/GenBankrecords/museumvouchers/figurepixels unreviewed; no fullarticle or whole-species concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-12eca27341
+        part: body
+      zh:
+        page: zh
+        section: s-c90ba369e0
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-5fa125fb1340d6b9d0e3c267da6398e5
+      sourceRowId: Anf5918
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5918
+        bibliographyRowId: Anf5921
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Pristimantis ventrimarmoratus
+        candidateBibliographyRowIds:
+          - Anf5921
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-4c56a88e8960f3d1269ef17a
+        scientificName: Pristimantis vertebralis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.14715
+        referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+        sourceKey: primary-pmc9985417-788g6
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9985417/article.xml
+        sourceConcept: Exact frozen accepted-name match after expanding explicit Pristimantis abbreviation in source Appendix; specimens/coordinates not independently authenticated
+        evidenceRead: "Pristimantis vertebralis: Main recorded XML scope and all231 Appendix DOCX donor-row cells read; allnine distance-table terminal labels and67 selected uncorrected16S percent cells read with exact row/column receipts; other matrix cells/rawalignments/GenBankrecords/museumvouchers/figurepixels unreviewed; no fullarticle or whole-species concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: methods
+            heading:
+              en: A donor table has a limited biological scope
+              zh: 供体表具有有限生物学范围
+            referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+            sourceKey: primary-pmc9985417-788g6
+            locator: PMC9985417 peerj-11-14715-s001.docx table1 namedrows;XMLsec8–14 study scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1897c4c520
+                part: body
+              zh:
+                page: zh
+                section: s-712f70ce23
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: Reported donor codes and sequence sources
+              zh: 报告供体编号与序列来源
+            referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+            sourceKey: primary-pmc9985417-788g6
+            locator: PMC9985417 peerj-11-14715-s001.docx table1rows212 GenBank/Voucher/Group/Referencescolumns;sha256:b1fccc6f0390ed2960027610346c0f58a0b1078db7ecbe81735ef7919b9e2711
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d01aa2125d
+                part: body
+              zh:
+                page: zh
+                section: s-90cfbc981f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: occurrence
+            heading:
+              en: Locality and coordinate strings stay attached to rows
+              zh: 地点与坐标字符串保持逐行相连
+            referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+            sourceKey: primary-pmc9985417-788g6
+            locator: PMC9985417 peerj-11-14715-s001.docx same rows Locality/Latitude/Longitude/Elevationcolumns;sha256:b1fccc6f0390ed2960027610346c0f58a0b1078db7ecbe81735ef7919b9e2711
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ea055d1866
+                part: body
+              zh:
+                page: zh
+                section: s-fe33364f55
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

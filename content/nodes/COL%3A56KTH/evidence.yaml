@@ -1,0 +1,452 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Thorius tlaxiacus Parra-Olea, Rovito, García-París, Maisano, Wake & Hanken, 2016
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Thorius tlaxiacus
+      zh: Thorius tlaxiacus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-20a163c15e
+            part: title
+          zh:
+            page: zh
+            section: s-4e54c092e0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-20a163c15e
+            part: body
+          zh:
+            page: zh
+            section: s-4e54c092e0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3798b6f136
+            part: title
+          zh:
+            page: zh
+            section: s-5d28fa4d66
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3798b6f136
+            part: body
+          zh:
+            page: zh
+            section: s-5d28fa4d66
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-da56cbdfe1
+            part: title
+          zh:
+            page: zh
+            section: s-b896f4816e
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56kth
+        text:
+          en:
+            page: en
+            section: s-da56cbdfe1
+            part: body
+          zh:
+            page: zh
+            section: s-b896f4816e
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7de47c152e
+            part: title
+          zh:
+            page: zh
+            section: s-98361abd5f
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56kth
+        text:
+          en:
+            page: en
+            section: s-7de47c152e
+            part: body
+          zh:
+            page: zh
+            section: s-98361abd5f
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e0c5d502cb
+            part: title
+          zh:
+            page: zh
+            section: s-fea6301bbe
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56kth
+        text:
+          en:
+            page: en
+            section: s-e0c5d502cb
+            part: body
+          zh:
+            page: zh
+            section: s-fea6301bbe
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-88a346a43b
+            part: title
+          zh:
+            page: zh
+            section: s-189f785506
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56kth
+        text:
+          en:
+            page: en
+            section: s-88a346a43b
+            part: body
+          zh:
+            page: zh
+            section: s-189f785506
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-7a48f3d73c
+            part: title
+          zh:
+            page: zh
+            section: s-daf02bec59
+            part: title
+        sourceIds:
+          - primary-pmc11562844-56kth
+        text:
+          en:
+            page: en
+            section: s-7a48f3d73c
+            part: body
+          zh:
+            page: zh
+            section: s-daf02bec59
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-67eaa66f05
+            part: title
+          zh:
+            page: zh
+            section: s-0858db10e2
+            part: title
+        sourceIds:
+          - primary-pmc11562844-56kth
+        text:
+          en:
+            page: en
+            section: s-67eaa66f05
+            part: body
+          zh:
+            page: zh
+            section: s-0858db10e2
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-75592c4bbe
+            part: title
+          zh:
+            page: zh
+            section: s-18a6d2a1ea
+            part: title
+        sourceIds:
+          - primary-pmc11562844-56kth
+        text:
+          en:
+            page: en
+            section: s-75592c4bbe
+            part: body
+          zh:
+            page: zh
+            section: s-18a6d2a1ea
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Thorius tlaxiacus
+          url: https://www.checklistbank.org/dataset/316115/taxon/56KTH
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc5119241-56kth
+        referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Thorius tlaxiacus: Named species type material, diagnosis and variation, live/preserved colour, distribution/ecology and conservation recommendation paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc11562844-56kth
+        referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Thorius tlaxiacus: Results and Tables 1–3, genome-size and sequencing methods, four-species assembly/library construction, repeat masking/diversity methods, abundance/size/activity results, genome-size and repeat-history discussion read; no original reads/assemblies or supplementary voucher/landscape matrices independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0ad8bed504
+        part: body
+      zh:
+        page: zh
+        section: s-1027b8a3f6
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.2694
+        referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+        sourceKey: primary-pmc5119241-56kth
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5119241/article.xml
+        sourceConcept: Thorius tlaxiacus
+        evidenceRead: "Thorius tlaxiacus: Named species type material, diagnosis and variation, live/preserved colour, distribution/ecology and conservation recommendation paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Prolate nostrils and a holotype with a missing tail tip
+              zh: 长椭球形鼻孔及尾尖缺失正模
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56kth
+            locator: Results > Thorius tlaxiacus; reading-sections index 2, paragraphs 46–53
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-69b26c0d73
+                part: body
+              zh:
+                page: zh
+                section: s-d54e587516
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Voucher-specific live notes and damaged preserved material
+              zh: 凭证特定活体笔记及受损保存材料
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56kth
+            locator: Results > Thorius tlaxiacus; reading-sections index 2, paragraphs 54–55
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-80ad9bdfe0
+                part: body
+              zh:
+                page: zh
+                section: s-8359d3ac79
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Two forest areas, sympatry and provisional assignments
+              zh: 两个森林地区、同域及暂定鉴定
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56kth
+            locator: Results > Thorius tlaxiacus; reading-sections index 2, paragraphs 59–60 and 62
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4f48185ae1
+                part: body
+              zh:
+                page: zh
+                section: s-acbc6c2c9d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: A dated decline estimate and explicitly unknown extent
+              zh: 有日期下降估计及明确未知分布面积
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56kth
+            locator: Results > Thorius tlaxiacus; reading-sections index 2, paragraphs 63
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a255dcee1d
+                part: body
+              zh:
+                page: zh
+                section: s-a459189fad
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1093/molbev/msae225
+        referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+        sourceKey: primary-pmc11562844-56kth
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11562844/article.xml
+        sourceConcept: Thorius tlaxiacus
+        evidenceRead: "Thorius tlaxiacus: Results and Tables 1–3, genome-size and sequencing methods, four-species assembly/library construction, repeat masking/diversity methods, abundance/size/activity results, genome-size and repeat-history discussion read; no original reads/assemblies or supplementary voucher/landscape matrices independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: One sequenced individual and a separate DNA-content estimate
+              zh: 一个测序个体与另行估计的 DNA 含量
+            referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+            sourceKey: primary-pmc11562844-56kth
+            locator: PMC11562844 XML msae225-T1 named species row; msae225-s5.1 paragraph 0; msae225-s5.2 paragraph 0; msae225-s5.4 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d95dc4a27c
+                part: body
+              zh:
+                page: zh
+                section: s-998bae68d7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: Detected repeat abundance is a method-dependent lower estimate
+              zh: 可检出重复丰度是依赖方法的偏低估计
+            referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+            sourceKey: primary-pmc11562844-56kth
+            locator: PMC11562844 XML msae225-T1, T2, T3 named species rows; msae225-s2 paragraph 2; msae225-s3.1 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-432a4070e4
+                part: body
+              zh:
+                page: zh
+                section: s-dd50a85483
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Repeat divergence suggests relative expansion histories
+              zh: 重复分化提示相对扩张历史
+            referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+            sourceKey: primary-pmc11562844-56kth
+            locator: PMC11562844 XML msae225-s2.4 paragraphs 0–1; msae225-s3.2 paragraphs 0–1; msae225-s5.4 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f95d64b8a8
+                part: body
+              zh:
+                page: zh
+                section: s-ade126a3e0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

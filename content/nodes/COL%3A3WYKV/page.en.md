@@ -1,0 +1,3 @@
+## ## Spiny stipules and smooth samaras {#s-5e673c1fd0}
+The Brazilian Flora 2020 entry describes unarmed, cylindrical branches and spine-tipped stipules. The oblong leaflets have brochidodromous venation and blunt tips; their bases are rounded or wedge-shaped. The upper faces are hairless or becoming hairless, while the lower faces bear hairs. Racemes or panicles occur in leaf axils or at shoot tips and have leaf-like bracts. The flowers have a bell-shaped calyx, white or pink petals and a hairy standard; the stamens form two bundles. The fruit is a samara with a smooth seed-bearing region. The same regional dataset lists the habitat as “terrestrial” but provides no locality or finer habitat description.
+

@@ -1,0 +1,3 @@
+## ## Small red-and-black seeds and dense stem hairs {#s-619b717bb3}
+The Brazilian Flora 2020 entry records one to three opposite to subopposite leaflets, each with 9–20 pairs of straight, parallel secondary veins and an inconspicuous reticulate tertiary network; the leaflets are hairless. Papilionaceous flowers are up to 13 mm long, with wine-red petals and a lateral, bilobed stigma. The dehiscent fruit is flattened and generally 1–2 cm wide, with densely tomentose, woody valves 2–5 mm thick. Seeds are red and black, up to three per fruit, compressed or ellipsoid, up to 8 mm long and 9 mm wide; the hilum is up to 2 mm long. The habitat field says “terrestrial,” but the regional entry does not establish the species’ full variation or range.
+

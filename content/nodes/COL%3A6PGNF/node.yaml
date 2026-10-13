@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus paraensis
+  displayName: Leptodactylus paraensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PGNF
+  sourceIndexes:
+    - name:
+        en: Leptodactylus paraensis
+        zh: Leptodactylus paraensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PGNF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/419
+            queryName: Leptodactylus paraensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d57700f28
+      - s-fb1302cd37
+      - s-bf1bf8fadd
+      - s-61af44f378
+      - s-079da6fa86
+      - s-a36786c3fc
+      - s-dc6d41a1e3
+      - s-25a694f0d3
+      - s-3d58fc284e
+      - s-58d17f0ad8
+      - s-37ce04816a
+      - s-f6d9cd619a
+      - s-0a280ef4a1
+      - s-95dd36ccfc
+      - s-2dde568ffb
+      - s-7a46a75a88
+      - s-8684f5dac9
+      - s-5a272bb23f
+      - s-113fcedccc
+      - s-6b871c5c01
+    zh:
+      - s-a81baf8bef
+      - s-1d434beaa0
+      - s-d2469d075d
+      - s-dc2e6e1832
+      - s-4fab87faba
+      - s-7b883cdba3
+      - s-829a439a3f
+      - s-2dcbdb82e5
+      - s-dfae1cb6c0
+      - s-af27dd0835
+      - s-66c48f0b33
+      - s-715f6a72a5
+      - s-ab753f3424
+      - s-51619f34bc
+      - s-99a9cfe12c
+      - s-bac6b1567e
+      - s-424f1be071
+      - s-cb2a1238a1
+      - s-9c26054a0c
+      - s-364a837b71

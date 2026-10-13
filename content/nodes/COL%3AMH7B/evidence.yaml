@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bonatea saundersioides (Kraenzl. & Schltr.) Cortesi
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage MH7B, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage MH7B; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/MH7B
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage MH7B
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000349972-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL MH7B / WFO wfo-0000349972
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          locator: Bonatea saundersioides (Kraenzl. & Schltr.) Cortesi account; SANBI/WFO archive rows 538 (Morphology), 12967 (Habitat), source identifier 11118.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_6866_0
+        referenceId: ref-e60d1981-ead2-80ef-a85e-27877776447d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bonatea saundersioides (Kraenzl. & Schltr.) Cortesi account; SANBI/WFO archive rows 76903 (Diagnostic), source identifier 6866.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Slender, terrestrial herb, up to 340 mm tall. Leaves narrowly elliptic, acute, up to 140 x 25 mm. Dorsal sepal 9-13 mm long. Side lobes of lip linear, 30 mm long. Flowers white and green.
+            textZh: Bonatea saundersioides (Kraenzl. & Schltr.) Cortesi 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Morphology row 538; source identifier 11118.0; cited publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: B. saundersioides is found in shady habitats within riverine forest and savannah of the northeasterly parts of South Africa. It is closely allied to B. cassidea, both species sharing intermediately basal lower leaves, desiccated floral bracts at flowering, narrowly-cucullate median rostellum lobes, and curved spurs where the clavate apex comprises 1/2-2/3 of the total spur length. B. saundersioides has longer and narrower lower petal lobes ((13-) 16-24 x 0.5-2.0(-3.0) mm) than B. cassidea (8-15 (-19) x (1.5-)3.0-8.0 mm). This species also has narrower lip lateral lobes (0.5-2.0 mm vs (1.5)2.0-6.5 mm). Colour variation occurs in the perianth of B. saundersioides with either green or white lip lateral lobes.
+            textZh: SANBI 条目提供了 Bonatea saundersioides (Kraenzl. & Schltr.) Cortesi 的鉴别特征。
+            sourceIds:
+              - sanbi_6866_0
+            locator: "SANBI/WFO archive Diagnostic row 76903; source identifier 6866.0; cited publication: Ponsie, ME; Edwards, TJ; Johnson, SD. 2007. A taxonomic revision of Bonatea Willd. (Orchidaceae: Orchidoideae: Habenariinae). S. African J. Bot. 73: 1 - 21. [Copyright held by the South African Association of Botanists (2007); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In shade in wooded ravines and savanna.
+            textZh: 该 SANBI 区域物种条目记录的生境：In shade in wooded ravines and savanna.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Habitat row 12967; source identifier 11118.0; cited publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

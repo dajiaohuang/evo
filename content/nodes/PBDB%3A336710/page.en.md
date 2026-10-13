@@ -1,0 +1,9 @@
+## PBDB's recorded taxonomic concept {#s-58f990021f}
+The PBDB snapshot checked 2026-10-02 records Erpetosaurus radiatus at species rank (source concept txn:336710), beneath the recorded parent Erpetosaurus. This is the database parent chain stored under the Amphibia anchor; the path does not certify equivalence with a COL26.8 concept.
+
+## 3 PBDB occurrence rows and collection fields {#s-87e8a4da6b}
+The exact concept has 3 occurrence records and 1 distinct collection ID: occ:963874 (collection col:85292; identified name `Diceratosaurus laevis n. sp.`; locality labels US / Ohio / Jefferson; stratigraphy fields group=Allegheny, member=Upper Freeport Coal; `olderAgeMa`=309.8 Ma, `youngerAgeMa`=307.4 Ma). occ:963875 (collection col:85292; identified name `Diceratosaurus robustus n. sp.`; locality labels US / Ohio / Jefferson; stratigraphy fields group=Allegheny, member=Upper Freeport Coal; `olderAgeMa`=309.8 Ma, `youngerAgeMa`=307.4 Ma). occ:1319240 (collection col:85292; identified name `Tuditanus radiatus n. sp.` (taxonomicDifference: `recombined as`); locality labels US / Ohio / Jefferson; stratigraphy fields group=Allegheny, member=Upper Freeport Coal; `olderAgeMa`=309.8 Ma, `youngerAgeMa`=307.4 Ma). Age values are collection-record fields in Ma (million years ago), not measured origin or extinction dates; this snapshot does not establish a complete global distribution. The excerpt supplies occurrence and collection IDs but no specimen identifier or specimen-level description.
+
+## Reference-index lookup for Erpetosaurus radiatus {#s-7b6461053a}
+The accepted-name lookup for `Erpetosaurus radiatus` reports 1 reference record in the linked index. This is bibliography metadata, not a verified biological result. This placeholder assigns no biological claim and concept equivalence is not certified; the factual account on this page is limited to the PBDB fields above.
+

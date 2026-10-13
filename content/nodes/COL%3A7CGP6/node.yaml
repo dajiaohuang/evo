@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tomopterna cryptotis
+  displayName: Tomopterna cryptotis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7CGP6
+  sourceIndexes:
+    - name:
+        en: Tomopterna cryptotis
+        zh: Tomopterna cryptotis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7CGP6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/79
+            queryName: Tomopterna cryptotis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/464
+            queryName: Rana cryptotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/226
+            queryName: Rana delalandii cryptotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/227
+            queryName: Pyxicephalus delalandii cryptotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/228
+            queryName: Pyxicephalus delalandei cryptotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/229
+            queryName: Tomopterna delalandei cryptotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5bb482b5da
+      - s-96ca75ac8d
+      - s-5a905ed3bb
+      - s-cda1a0ea68
+      - s-d8c512ab46
+      - s-93351cd46c
+      - s-c2aca3755a
+      - s-77a5db3d6a
+      - s-89875fdb26
+      - s-115c129d80
+      - s-770e1866d3
+      - s-c2714b3d01
+      - s-bf1f661ae1
+      - s-2cc13695e5
+      - s-346a98d882
+      - s-e8feaca6f7
+      - s-1fd5cbf819
+      - s-679e04d20b
+      - s-0bf67cb8fb
+    zh:
+      - s-813d986ba4
+      - s-dc5fcd2f54
+      - s-dc3f6ebee4
+      - s-336742c8d9
+      - s-71f076c6a8
+      - s-f604806605
+      - s-c72c37a561
+      - s-898210d62e
+      - s-b0c98d33c7
+      - s-f8d5749a9d
+      - s-a5a0ddcace
+      - s-30e03ba87d
+      - s-be7d18ddf7
+      - s-65cf9ea0f9
+      - s-205295744d
+      - s-2f9bd755f4
+      - s-6339a3ddc8
+      - s-47c9c13dad
+      - s-41f01be498

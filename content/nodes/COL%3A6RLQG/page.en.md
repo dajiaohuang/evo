@@ -1,0 +1,3 @@
+## ## Branched setae on a cylindrical inflorescence {#s-31e3a81740}
+The Brazilian Flora 2020 entry records hirsute to tomentose stems with spreading simple hairs, branched medusiform setae and capitate glandular hairs; unbranched setae, prickles and short shoots are absent. The stipules are shed, extrafloral nectaries are absent, and projections occur between pinna pairs. The inflorescences are cylindrical, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a membranous calyx with triangular lobes. Corolla lobes are pubescent and have one to three veins; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial” but gives no locality.
+

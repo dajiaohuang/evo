@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus sucre
+  displayName: Nymphargus sucre
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SD2L
+  sourceIndexes:
+    - name:
+        en: Nymphargus sucre
+        zh: Nymphargus sucre
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SD2L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/453
+            queryName: Nymphargus sucre
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3b12a6a3fb
+      - s-83591b673d
+      - s-b6025fe935
+      - s-a7a35dbecc
+      - s-f1efeb22cc
+      - s-74caf850a5
+      - s-88806069c9
+      - s-8381bcbac9
+      - s-c77d9f1b17
+      - s-f4b54c9984
+      - s-07997b48a6
+      - s-f3eddfb2b6
+      - s-75fff359e9
+      - s-80514cc546
+      - s-7c5bf68795
+      - s-c20550e26e
+      - s-e7f7ff583d
+      - s-807c1ec43b
+      - s-cac680e710
+      - s-4016c7a568
+    zh:
+      - s-c103e61909
+      - s-d465458e60
+      - s-8de4784ae4
+      - s-159ba9f9e7
+      - s-f09887ca1b
+      - s-4954d399b2
+      - s-265047d48d
+      - s-6e10ae7d60
+      - s-c9db5bdd11
+      - s-14968ebc4c
+      - s-11f4fdebf7
+      - s-030597e092
+      - s-06cfaf80a1
+      - s-e9c77c767f
+      - s-3b4841789f
+      - s-58f510e478
+      - s-55b981f75c
+      - s-90447cbb4d
+      - s-1db0a61289
+      - s-e16f01c318

@@ -1,0 +1,231 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cheracebus Byrne, Rylands, Carneiro, Lynch Alfaro et al., 2016
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Cheracebus
+      zh: 跳猴属
+    sections:
+      - topic: readingPath
+        text:
+          en:
+            page: en
+            section: s-ea490c812e
+            part: body
+          zh:
+            page: zh
+            section: s-3248a80428
+            part: body
+        sourceIds:
+          - taxonomy
+          - speciesMedemi
+          - speciesAquinoi
+          - speciesLucifer
+          - speciesLugens
+          - speciesRegulus
+          - speciesTorquatus
+          - palaciosperes2005
+          - rengifo2022
+          - aquino2021
+      - topic: readingPath
+        sourceIds:
+          - colombiaNational2025
+        text:
+          zh:
+            page: zh
+            section: s-4a74785320
+            part: body
+          en:
+            page: en
+            section: s-e4278ad355
+            part: body
+      - topic: overview
+        sourceIds:
+          - byrne2020MedemiMorphology
+        text:
+          zh:
+            page: zh
+            section: s-ee04607c32
+            part: body
+          en:
+            page: en
+            section: s-91f97b86d8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-492d4cab-4b5c-8b15-afc5-26349d2baaf8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins the accepted genus name, authorship and rank under COL26.8 ID 3MSD.
+            zh: 固定 COL26.8 下接受属名、作者和等级（ID 3MSD）。
+      - id: speciesMedemi
+        referenceId: ref-e54b4486-482f-826d-a6da-e1419dc434f7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Connects accepted species ID TXQM to genus ID 3MSD.
+            zh: 将接受种 ID TXQM 接入属级 ID 3MSD。
+      - id: speciesAquinoi
+        referenceId: ref-dfe72ec6-82e2-89a6-a081-3ce1d76f4e7d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Connects accepted species ID VQ6J6 to genus ID 3MSD.
+            zh: 将接受种 ID VQ6J6 接入属级 ID 3MSD。
+      - id: speciesLucifer
+        referenceId: ref-61cf1ed4-f53b-8cdc-a2bf-91caf88ee5ca
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Connects accepted species ID TXQK to genus ID 3MSD.
+            zh: 将接受种 ID TXQK 接入属级 ID 3MSD。
+      - id: speciesLugens
+        referenceId: ref-5576004b-824f-848c-a20c-463a29f91253
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Connects accepted species ID TXQL to genus ID 3MSD.
+            zh: 将接受种 ID TXQL 接入属级 ID 3MSD。
+      - id: speciesRegulus
+        referenceId: ref-63fc49f4-ffcf-8ff8-a7bb-2632c19bd811
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Connects accepted species ID TXQP to genus ID 3MSD.
+            zh: 将接受种 ID TXQP 接入属级 ID 3MSD。
+      - id: speciesTorquatus
+        referenceId: ref-2a2c2538-1f1c-8566-aaca-14c2b2198748
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Connects accepted species ID TXQQ to genus ID 3MSD.
+            zh: 将接受种 ID TXQQ 接入属级 ID 3MSD。
+      - id: palaciosperes2005
+        referenceId: ref-3ef35676-a66d-893a-a7f9-0b3fada70008
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Three site-level transect estimates reported under the older Callicebus torquatus classification.
+            zh: 三处地点的样线估计采用旧分类名 Callicebus torquatus。
+      - id: rengifo2022
+        referenceId: ref-67808dc6-c267-827d-af25-e402b3fc7683
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Species diagnosis and Loreto locality material for C. aquinoi; not a genus-wide ecological study.
+            zh: C. aquinoi 的种级诊断和洛雷托地点资料；不是属级生态研究。
+      - id: aquino2021
+        referenceId: ref-6c995311-90ab-891f-a39c-8578d0b6505c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Regional diurnal surveys across three basins; observations remain identified as Cheracebus sp. and are not assigned to C. aquinoi.
+            zh: 三个流域的区域日间调查；记录仍为 Cheracebus sp.，不归入 C. aquinoi。
+      - id: colombiaNational2025
+        referenceId: ref-e7435841-2e9e-4566-9d80-ef27f2c68184
+        fields:
+          - id
+          - title
+          - url
+          - date
+          - locator
+          - accessedAt
+          - scope
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: Categoria; Justificación; Author; Published; Citation; CC BY 4.0 footer
+          accessedAt: 2026-10-02
+          scope:
+            zh: 有明确日期的哥伦比亚国家评估及其不确定性；不确立实测种群趋势或全球状态。
+            en: Dated Colombian national assessment and its uncertainty; does not establish measured population trends or global status.
+          readerBoundaries:
+            - National assessment, not a new global assessment.
+            - Suspected reduction is not a measured time series.
+            - No assignment of older Callicebus torquatus survey numbers.
+            - GBIF points, photo caption and BioModelo label not used as verified occurrences.
+      - id: byrne2020MedemiMorphology
+        referenceId: ref-1a602e13-7772-4a2a-a5c2-98c248a0b0d1
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - version
+          - locator
+          - accessedAt
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: Printed p14 (methods), p46 (Distinction between medemi and lucifer); PDF pages 2 and 34.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2020 年馆藏比较及单一颜色诊断的限制；不提供本种野外丰度或正式并种结论。
+            en: Museum comparisons and limits of a colour diagnosis; no medemi abundance estimate or formal synonymy.
+          readingTargets:
+            - colId: TXQM
+              name: Cheracebus medemi
+              canonicalPath: content/nodes/COL%3ATXQM
+    limitations:
+      en:
+        page: en
+        section: s-fb5007e624
+        part: body
+      zh:
+        page: zh
+        section: s-a5b0935ddf
+        part: body

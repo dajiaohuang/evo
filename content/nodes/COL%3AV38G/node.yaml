@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chthonerpeton braestrupi
+  displayName: Chthonerpeton braestrupi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V38G
+  sourceIndexes:
+    - name:
+        en: Chthonerpeton braestrupi
+        zh: Chthonerpeton braestrupi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V38G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/364
+            queryName: Chthonerpeton braestrupi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c015c07695
+      - s-96ea5ba6cb
+      - s-683f3ab689
+      - s-59ef78710c
+      - s-ec73c2fb9a
+      - s-eebe0967e5
+      - s-f54d808377
+      - s-c0baac42a2
+      - s-29f07a9ea9
+      - s-df8437f545
+    zh:
+      - s-772207a3cc
+      - s-964e9fc5ba
+      - s-18598b6683
+      - s-7da30a66ec
+      - s-8a43c51721
+      - s-d4308dff87
+      - s-61b6d700b8
+      - s-d74fced4fe
+      - s-4a0aa6d968
+      - s-2a906ccde9

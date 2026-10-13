@@ -1,0 +1,89 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Allobates sieggreenae Gagliardi-Urrutia, Castroviejo-Fisher, Rojas-Runjaic, Jaramillo-Martinez, Solís & Simões, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Allobates sieggreenae
+      zh: Allobates sieggreenae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d9d898c7b7
+            part: title
+          zh:
+            page: zh
+            section: s-e4dc52cc27
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d9d898c7b7
+            part: body
+          zh:
+            page: zh
+            section: s-e4dc52cc27
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-76aa7e6cac
+            part: title
+          zh:
+            page: zh
+            section: s-b6bffbe82c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-76aa7e6cac
+            part: body
+          zh:
+            page: zh
+            section: s-b6bffbe82c
+            part: body
+        sourceIds:
+          - taxonomy
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Allobates sieggreenae
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5LT7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ed2ce22f3a
+        part: body
+      zh:
+        page: zh
+        section: s-3a99202567
+        part: body

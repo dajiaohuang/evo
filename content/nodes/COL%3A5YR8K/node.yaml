@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chrysopaa sternosignata
+  displayName: Chrysopaa sternosignata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5YR8K
+  sourceIndexes:
+    - name:
+        en: Chrysopaa sternosignata
+        zh: Chrysopaa sternosignata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5YR8K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/362
+            queryName: Chrysopaa sternosignata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/5
+            queryName: Paa sternosignata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/297
+            queryName: Rana sternosignata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/298
+            queryName: Nanorana sternosignata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-efd8c70568
+      - s-8d1280785f
+      - s-4719a77be5
+      - s-95a04d0b21
+      - s-0c941f3263
+      - s-0cdbfde131
+      - s-f718f5e808
+      - s-b60a38c176
+      - s-914c2aef62
+      - s-0e0ae80400
+    zh:
+      - s-f09bc55d87
+      - s-117a9ab3bb
+      - s-463d957998
+      - s-2826e6da17
+      - s-b5a2e67c45
+      - s-bc59094f8a
+      - s-a813a50501
+      - s-bcdea146dc
+      - s-86ea17dc7a
+      - s-8eef134532

@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eulemur rufifrons (Bennett, 1833)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 红额狐猴
+      en: Red-fronted Brown Lemur
+    sections:
+      - topic: movement
+        sourceIds:
+          - pyritz2011rufifrons
+        text:
+          zh:
+            page: zh
+            section: s-ae020d3fe5
+            part: body
+          en:
+            page: en
+            section: s-c7b14edd8f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Eulemur rufifrons (Bennett, 1833)
+            zh: 生命名录 COL26.8 — Eulemur rufifrons (Bennett, 1833)
+          url: https://www.checklistbank.org/dataset/316115/taxon/6H9NZ
+          scope:
+            en: Pinned accepted name, rank and genus link; not biological evidence.
+            zh: 固定接受名、等级和属级父链；不作为生物学证据。
+      - id: mdd_name
+        referenceId: ref-8a74fc2f-fff1-81ed-abd8-acb8f387e8f8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the selected English common name only; not occurrence, ecology or a complete range.
+            zh: 仅支持所选英文普通名；不支持出现记录、生态或完整分布。
+      - id: pyritz2011rufifrons
+        referenceId: ref-1ef3870b-edec-8bfe-a473-cda65dbb5f41
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Four groups at Kirindy observed from 2008 to 2010; cohesion, daily travel and leadership results describe this population and observation period.
+            zh: 支持 2008—2010 年 Kirindy 四个群体的观察；群体凝聚、日行程和带领移动的结果仅描述该种群与观察时期。
+    limitations:
+      en:
+        page: en
+        section: s-b10d5f2e43
+        part: body
+      zh:
+        page: zh
+        section: s-9e22c17865
+        part: body

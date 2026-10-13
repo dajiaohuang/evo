@@ -1,0 +1,446 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Limnonectes arathooni (Smith, 1927)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Limnonectes arathooni
+      zh: Limnonectes arathooni
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2b32ff275c
+            part: title
+          zh:
+            page: zh
+            section: s-21ace1fc37
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2b32ff275c
+            part: body
+          zh:
+            page: zh
+            section: s-21ace1fc37
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-28c00fcfe0
+            part: title
+          zh:
+            page: zh
+            section: s-bc761e401c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-28c00fcfe0
+            part: body
+          zh:
+            page: zh
+            section: s-bc761e401c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6d7c1e9a23
+            part: title
+          zh:
+            page: zh
+            section: s-d749351172
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-6d7c1e9a23
+            part: body
+          zh:
+            page: zh
+            section: s-d749351172
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-37df77bf51
+            part: title
+          zh:
+            page: zh
+            section: s-360ff43a6f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-37df77bf51
+            part: body
+          zh:
+            page: zh
+            section: s-360ff43a6f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7e8d94c58a
+            part: title
+          zh:
+            page: zh
+            section: s-6fb164f3dc
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-7e8d94c58a
+            part: body
+          zh:
+            page: zh
+            section: s-6fb164f3dc
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-500c6ab39d
+            part: title
+          zh:
+            page: zh
+            section: s-0bb11d05b9
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-500c6ab39d
+            part: body
+          zh:
+            page: zh
+            section: s-0bb11d05b9
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-74679f5cf8
+            part: title
+          zh:
+            page: zh
+            section: s-11fe30175e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-74679f5cf8
+            part: body
+          zh:
+            page: zh
+            section: s-11fe30175e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b83f0b69e1
+            part: title
+          zh:
+            page: zh
+            section: s-45463888df
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b83f0b69e1
+            part: body
+          zh:
+            page: zh
+            section: s-45463888df
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-12b72f9a964f7d029413eec841f16ad3
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-01a18775e7
+            part: title
+          zh:
+            page: zh
+            section: s-0f4d56e0ad
+            part: title
+        sourceIds:
+          - primary-pmc10732399-6qdjc
+        text:
+          en:
+            page: en
+            section: s-01a18775e7
+            part: body
+          zh:
+            page: zh
+            section: s-0f4d56e0ad
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-9fe0eec155
+            part: title
+          zh:
+            page: zh
+            section: s-baaab6929b
+            part: title
+        sourceIds:
+          - primary-pmc10732399-6qdjc
+        text:
+          en:
+            page: en
+            section: s-9fe0eec155
+            part: body
+          zh:
+            page: zh
+            section: s-baaab6929b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Limnonectes arathooni
+          url: https://www.checklistbank.org/dataset/316115/taxon/6QDJC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1675; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1675 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10732399-6qdjc
+        referenceId: ref-45300bff-858b-4918-a0e0-134bf158a173
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Limnonectes arathooni: Named phyllofolia account and explicit arathooni/microtympanum comparisons; nests, repeated calls and hypotheses distinguished; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ecad51cfa0
+        part: body
+      zh:
+        page: zh
+        section: s-7eb8b470de
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-12b72f9a964f7d029413eec841f16ad3
+      sourceRowId: Anf1675
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf1675
+        bibliographyRowId: Anf1675
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Limnonectes arathooni
+        candidateBibliographyRowIds:
+          - Anf1675
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0292598
+        referenceId: ref-45300bff-858b-4918-a0e0-134bf158a173
+        sourceKey: primary-pmc10732399-6qdjc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10732399/article.xml
+        sourceConcept: Limnonectes arathooni
+        evidenceRead: "Limnonectes arathooni: Named phyllofolia account and explicit arathooni/microtympanum comparisons; nests, repeated calls and hypotheses distinguished; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Overlapping body sizes in a syntopic comparison
+              zh: 同地比较中重叠的体长
+            referenceId: ref-45300bff-858b-4918-a0e0-134bf158a173
+            sourceKey: primary-pmc10732399-6qdjc
+            locator: PMC10732399 reading-sections section 2, paragraphs 0–1; XML sec020 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d596a04eb9
+                part: body
+              zh:
+                page: zh
+                section: s-d4cbe8dca5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: behavior
+            heading:
+              en: Ten chirping calls from five males
+              zh: 五雄十个啁啾鸣声
+            referenceId: ref-45300bff-858b-4918-a0e0-134bf158a173
+            sourceKey: primary-pmc10732399-6qdjc
+            locator: PMC10732399 XML sec005 paragraph 0 and sec021 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-60bb21bcbe
+                part: body
+              zh:
+                page: zh
+                section: s-24d07b923b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

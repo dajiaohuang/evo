@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Meristogenys stenocephalus
+    name:
+      en: Meristogenys stenocephalus
+      zh: Meristogenys stenocephalus
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Meristogenys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-99f33b3b87
+            part: body
+          zh:
+            page: zh
+            section: s-7f5af72836
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-dffc18f871
+            part: body
+          zh:
+            page: zh
+            section: s-ca9d6a0fc6
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3209, 3210; Reference.csv rows 3877
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3209
+        values:
+          - Ranidae
+          - Meristogenys
+          - Meristogenys stenocephalus
+          - F
+          - "76.5"
+          - "29.835"
+          - "25.6275"
+          - "11.322"
+          - "4.437"
+          - "2.2185"
+          - "5.814"
+          - "8.0325"
+          - "7.5735"
+          - "6.579"
+          - "12.3165"
+          - "4.59"
+          - "21.573"
+          - "48.4245"
+          - NA
+          - "40.9275"
+          - NA
+          - "53.1675"
+          - "46.971"
+          - NA
+          - "159.579"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3210
+        values:
+          - Ranidae
+          - Meristogenys
+          - Meristogenys stenocephalus
+          - M
+          - "52.8"
+          - "21.384"
+          - "17.3712"
+          - "8.3424"
+          - "4.224"
+          - "1.3728"
+          - "4.3824"
+          - "5.9136"
+          - "5.4912"
+          - "4.5408"
+          - "9.1344"
+          - "3.696"
+          - "15.4176"
+          - "35.6928"
+          - NA
+          - "29.3568"
+          - NA
+          - "36.96"
+          - "32.7888"
+          - NA
+          - "109.9824"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3877
+        values:
+          - Anura
+          - Meristogenys_stenocephalus
+          - "Shimada, T., Matsui, M., Yambun, P., & Sudin, A. (2011b). A taxonomic study of Whitehead's torrent frog, Meristogenys whiteheadi, with descriptions of two new species (Amphibia: Ranidae). Zoological Journal of the Linnean Society, 161, 157-183. https://doi.org/10.1111/j.1096-3642.2010.00641.x"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 73BD7
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

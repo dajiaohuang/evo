@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Longipinnati
+    rank: suborder
+    sourceDatasetId: null
+    name:
+      zh: Longipinnati
+      en: Longipinnati
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbIchthyosauriformesTaxonomy20261002
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c8d5373137
+            part: body
+          en:
+            page: en
+            section: s-83f6c6f7c1
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8a3a18af74
+            part: body
+          en:
+            page: en
+            section: s-fe8baf1668
+            part: body
+    sources:
+      - id: pbdbIchthyosauriformesTaxonomy20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Longipinnati
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=163950
+          locator: Recorded PBDB parent closure beneath the already documented Ichthyosauriformes COL-compatible storage anchor.
+      - id: pbdbIchthyosauriformesOccurrences20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:163950
+          readingTargets:
+            - name: Qianichthyosaurus zhoui
+              pbdbTaxonId: txn:170706
+              canonicalPath: content/nodes/PBDB%3A170706
+            - name: Qianichthyosaurus xingyiensis
+              pbdbTaxonId: txn:376616
+              canonicalPath: content/nodes/PBDB%3A376616
+            - name: Toretocnemus zitteli
+              pbdbTaxonId: txn:170860
+              canonicalPath: content/nodes/PBDB%3A170860
+            - name: Toretocnemus californicus
+              pbdbTaxonId: txn:170859
+              canonicalPath: content/nodes/PBDB%3A170859
+            - name: Phantomosaurus neubigi
+              pbdbTaxonId: txn:163953
+              canonicalPath: content/nodes/PBDB%3A163953
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d5218e54f4
+        part: body
+      en:
+        page: en
+        section: s-0111efc403
+        part: body

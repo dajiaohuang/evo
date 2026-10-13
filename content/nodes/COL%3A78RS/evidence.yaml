@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinophis
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Rhinophis
+      en: Rhinophis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-d4ab03a7ba
+            part: body
+          en:
+            page: en
+            section: s-009246f94e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-e5b1a1c220
+            part: body
+          en:
+            page: en
+            section: s-aa2b499419
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-14f03bb9d4
+            part: body
+          en:
+            page: en
+            section: s-5cbb387b11
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-5ecb00d9eb
+            part: body
+          en:
+            page: en
+            section: s-0c66df761f
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-a2ed8d63f9
+            part: body
+          en:
+            page: en
+            section: s-ceb3cda380
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhinophis
+          url: https://www.checklistbank.org/dataset/316115/taxon/78RS
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 1 authored records grouped under Rhinophis by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 20 authored records grouped under Rhinophis by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 795PL
+              name: Rhinophis blythii
+              canonicalPath: content/nodes/COL%3A795PL
+            - colId: 4S9KD
+              name: Rhinophis dorsimaculatus
+              canonicalPath: content/nodes/COL%3A4S9KD
+            - colId: 6WTPK
+              name: Rhinophis drummondhayi
+              canonicalPath: content/nodes/COL%3A6WTPK
+            - colId: 4S9KG
+              name: Rhinophis erangaviraji
+              canonicalPath: content/nodes/COL%3A4S9KG
+            - colId: 4S9KH
+              name: Rhinophis fergusonianus
+              canonicalPath: content/nodes/COL%3A4S9KH
+          fieldCountDistribution:
+            "1": 1
+            "2": 10
+            "3": 9
+    limitations:
+      zh:
+        page: zh
+        section: s-50c183c80d
+        part: body
+      en:
+        page: en
+        section: s-b2e8f1e9f3
+        part: body

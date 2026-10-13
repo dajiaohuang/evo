@@ -1,0 +1,272 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phaner Gray, 1870
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: 叉纹鼠狐猴属
+      en: Fork-marked lemurs
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-faed6c5c9e
+            part: body
+          en:
+            page: en
+            section: s-5451f22f01
+            part: body
+        sourceIds:
+          - groves1991
+          - hending2020
+          - schussler2023
+          - markolf2022
+          - forbanka2020
+          - forbanka2018
+          - webber2020
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-d9bd84b412
+            part: body
+          en:
+            page: en
+            section: s-5c7712131d
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-2ef25e99e2
+            part: body
+          en:
+            page: en
+            section: s-a82ddb98a1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Phaner Gray, 1870
+          url: https://www.checklistbank.org/dataset/316115/taxon/63MT9
+          scope:
+            zh: 固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。
+            en: Pinned checklist identity, authorship, rank and parent links; not biological evidence.
+      - id: groves1991
+        referenceId: ref-74085b0d-8881-8730-a9f3-591ca9c423c8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持叉纹鼠狐猴地理变异、样本比较与物种命名处理；是分类史来源，不是现今完整分布调查。
+            en: Supports geographic variation, sample comparisons and nomenclatural treatment in fork-marked lemurs; a taxonomic-history source, not a current full-range survey.
+      - id: hending2020
+        referenceId: ref-3fb3ea2b-abf8-88d0-abab-922a835e87fe
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持北部 66 个森林样点的声学出现记录及模型比较；不是全属分布调查。
+            en: Supports acoustic occurrence records and model comparisons from 66 northern forest sites; not a genus-wide distribution survey.
+      - id: schussler2023
+        referenceId: ref-5a30e5d6-1475-816e-a528-a158a2ae312d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持东北部样线和访谈调查的范围、时期与未检出结果；不证明区域或全岛缺失。
+            en: Supports the scope, period and non-detections of northeastern transect and interview surveys; does not prove regional or island-wide absence.
+      - id: markolf2022
+        referenceId: ref-10de05eb-b78c-86a9-ac97-41f4a78f241d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持苍白叉纹鼠狐猴在 Kirindy 单条样线、单夜的声学探测区模型。
+            en: Supports the local acoustic detection-area model for pale fork-marked lemurs on one Kirindy transect and night.
+      - id: forbanka2020
+        referenceId: ref-92999278-36d0-84ba-af8d-76cd13571172
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Kirindy 叫声播放实验及其情境有限的接近反应。
+            en: Supports the Kirindy call-playback experiment and its context-limited approach responses.
+      - id: forbanka2018
+        referenceId: ref-383be337-68c1-8b25-a89a-cd65daa95fbf
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持多地样线的局地遇见率；不可当作校正密度。
+            en: Supports local encounter rates across transects; not corrected density estimates.
+      - id: webber2020
+        referenceId: ref-f546169e-adf0-8076-ae30-90741eaf2a73
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持安巴尼亚附近种植园中的局地物种记录；不是全属栖地综合研究。
+            en: Supports local species records in plantations near Ambanja; not a genus-wide habitat synthesis.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 4 authored same-name records placed under Phaner by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 4 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 4
+            foraging: 4
+            activity: 4
+          readingTargets:
+            - name: Phaner electromontis
+              colId: 4FSQ6
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4FSQ6
+            - name: Phaner furcifer
+              colId: 4FSQ7
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4FSQ7
+            - name: Phaner pallescens
+              colId: 4FSQ8
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4FSQ8
+            - name: Phaner parienti
+              colId: 4FSQ9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4FSQ9
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-7730c7a8a0
+        part: body
+      en:
+        page: en
+        section: s-54f54e2b48
+        part: body

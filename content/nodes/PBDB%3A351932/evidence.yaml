@@ -1,0 +1,152 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gustafsonia
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Gustafsonia
+      en: Gustafsonia
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-174e91da04
+            part: body
+          en:
+            page: en
+            section: s-71a8f180fd
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-83a1b6ab15
+            part: body
+          en:
+            page: en
+            section: s-f7ac3e20cd
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Gustafsonia
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=351932
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:351932
+          readingTargets:
+            - name: Gustafsonia cognita
+              pbdbTaxonId: txn:48481
+              canonicalPath: content/nodes/PBDB%3A48481
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-05c74ca7a4
+        part: body
+      en:
+        page: en
+        section: s-a4cbf628a2
+        part: body
+  atlas-node:
+    name: Gustafsonia
+    commonName: Gustafsonia
+    commonNameZh: 古斯塔夫森兽
+    rank: genus
+    firstAppearance: 38
+    lastAppearance: 36.6
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    taxonId: txn:351932
+  claims:
+    - subjectId: taxon:gustafsonia
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Gustafsonia cognita is bounded by CT-reconstructed holotype cranium TMM 40209-200 from the Chambers Tuff within an approximately 38–36.6 Ma sample envelope; the interval is not a global family first appearance or direct ancestry date.
+      confidence: medium
+      confidenceRationale: The holotype and geological setting are direct. Basal amphicyonid placement and geographic origin remain analysis-dependent.
+      referenceLinks:
+        - relation: supports
+          referenceId: tomiya-tseng-2016-beardogs
+          pages: Article 160518
+          figure: Figures 1–7
+          quoteLocator: Revised systematics; digital reconstruction; phylogenetic analysis
+  claim-rationales.zh:
+    - 正模与地质背景属于直接证据；基干 Amphicyonidae 位置和地理起源仍依赖分析。
+  claim-statements.zh:
+    - Gustafsonia cognita 由 Chambers Tuff 的 CT 重建正模头骨 TMM 40209-200 约束，处于约 3800 万—3660 万年前的样本区间；该区间不是全球科级首现或直接祖先日期。
+  ranges:
+    - entityId: gustafsonia
+      rangeKind: global-composite
+      taxonomicConcept: Gustafsonia cognita sampled occurrence
+      geographicScope: Chambers Tuff, Texas, USA
+      olderMa: 38
+      youngerMa: 36.6
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance.
+      evidenceBasis: The holotype cranium of Gustafsonia cognita, TMM 40209-200, was CT-reconstructed; Angelarctocyon australis is represented by TMM 41850-1 and referred jaw material.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:texas-basal-amphicyonid-reappraisal
+      referenceLocators:
+        - referenceId: tomiya-tseng-2016-beardogs
+          locator: 160518; Figures 1–7; Tables 1–2; Electronic supplementary material; Revised systematics; Digital reconstruction; Phylogenetic analysis

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus clarkei
+  displayName: Afrixalus clarkei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G5N
+  sourceIndexes:
+    - name:
+        en: Afrixalus clarkei
+        zh: Afrixalus clarkei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G5N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/60
+            queryName: Afrixalus clarkei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/197
+            queryName: Afrixalus clarkeorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-563fedeea9
+      - s-f2869be84d
+      - s-6e9d0db6c9
+      - s-317582b70c
+      - s-83b483fc5d
+      - s-97cc1df54a
+      - s-13d0fdbef7
+      - s-09fd5e3917
+      - s-7417483d05
+    zh:
+      - s-a9e4c6924c
+      - s-57f17e81db
+      - s-55e3ba8ea4
+      - s-75cddafa5d
+      - s-a1fd68fbbd
+      - s-9a3ad299ec
+      - s-d9a4e65503
+      - s-40079c6471
+      - s-142347bc83

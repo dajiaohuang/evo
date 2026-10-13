@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus lynchi
+  displayName: Atelopus lynchi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8Z9
+  sourceIndexes:
+    - name:
+        en: Atelopus lynchi
+        zh: Atelopus lynchi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8Z9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/277
+            queryName: Atelopus lynchi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7281e93d67
+      - s-f5717ec766
+      - s-1b45725a7a
+      - s-5023705167
+      - s-bcfede6a74
+      - s-30dec4cb1f
+      - s-6552645624
+      - s-2950779d2c
+      - s-b2d805b9ff
+      - s-b8fe988ad2
+    zh:
+      - s-58bcdb027f
+      - s-176ef6f066
+      - s-bea06fb8c8
+      - s-a7ed1f9198
+      - s-ebed0e7fd4
+      - s-fd786396ed
+      - s-1fc23a40e5
+      - s-1fbf346072
+      - s-2b8d7b12a7
+      - s-5c5466e664

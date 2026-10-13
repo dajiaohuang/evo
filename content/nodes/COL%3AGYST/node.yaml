@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis troglodytes
+  displayName: Arthroleptis troglodytes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYST
+  sourceIndexes:
+    - name:
+        en: Arthroleptis troglodytes
+        zh: Arthroleptis troglodytes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYST
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/185
+            queryName: Arthroleptis troglodytes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/258
+            queryName: Schoutedenella troglodytes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-21745d40aa
+      - s-fea9ae7ba3
+      - s-6fad747bfa
+      - s-f988748cc3
+      - s-e53e57cd9f
+      - s-6c1cfe8205
+    zh:
+      - s-39b1d7bff6
+      - s-34224f2915
+      - s-299afb0a92
+      - s-0f69165817
+      - s-be786ea185
+      - s-5cf58627cb

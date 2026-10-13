@@ -1,0 +1,205 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Megalagus brachyodon
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Megalagus brachyodon
+      en: Megalagus brachyodon
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1507c429dc
+            part: body
+          en:
+            page: en
+            section: s-e24214cbf8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-df84270b48
+            part: body
+          en:
+            page: en
+            section: s-532a6fcfce
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2f2acccc06
+            part: body
+          en:
+            page: en
+            section: s-12b64b9004
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e54e83b597
+            part: body
+          en:
+            page: en
+            section: s-3c448cce61
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6baa9e87ad
+            part: body
+          en:
+            page: en
+            section: s-121b8523e1
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Megalagus brachyodon
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=49654&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:49654; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:49654
+          selectedOccurrenceIds:
+            - occ:178074
+            - occ:178084
+            - occ:178116
+            - occ:178189
+            - occ:178242
+            - occ:178284
+            - occ:178310
+            - occ:178340
+            - occ:178426
+            - occ:178544
+            - occ:178594
+            - occ:178634
+            - occ:178661
+            - occ:178771
+            - occ:178825
+            - occ:179026
+            - occ:179094
+            - occ:179230
+            - occ:179299
+            - occ:286135
+            - occ:1209720
+          selectedCollectionIds:
+            - col:16919
+            - col:16920
+            - col:16924
+            - col:16930
+            - col:16935
+            - col:16940
+            - col:16941
+            - col:16942
+            - col:16959
+            - col:16962
+            - col:16963
+            - col:16964
+            - col:16965
+            - col:16979
+            - col:16988
+            - col:17010
+            - col:17014
+            - col:17031
+            - col:17041
+            - col:17027
+            - col:156988
+          sourceReferenceIds:
+            - ref:3318
+            - ref:3479
+            - ref:3637
+            - ref:2716
+            - ref:1585
+            - ref:1470
+            - ref:3359
+            - ref:1442
+            - ref:2813
+            - ref:4220
+            - ref:51442
+          originalIdentificationMappings:
+            - occurrenceId: occ:179026
+              originalIdentifiedName: Megalagus brachyodon n. sp.
+              acceptedName: Megalagus brachyodon
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-71aa388642
+        part: body
+      en:
+        page: en
+        section: s-9e5e31961a
+        part: body

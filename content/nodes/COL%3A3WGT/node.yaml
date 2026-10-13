@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cryptobranchus
+  displayName: Cryptobranchus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3WGT
+  sourceIndexes:
+    - name:
+        en: Cryptobranchus
+        zh: Cryptobranchus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3WGT
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/334
+            queryName: Cryptobranchus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 384
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-521065b764
+      - s-2503cb2394
+      - s-de627041ed
+      - s-2257dfbbac
+      - s-ccb3e1b1ac
+      - s-5f92bc441e
+      - s-edb21caad4
+      - s-2fa41bb4f4
+      - s-c930277607
+      - s-a3f64ebacf
+      - s-51a57514f4
+      - s-53f433211e
+    zh:
+      - s-f1a05cf662
+      - s-a581b9e00f
+      - s-ef43a4e56f
+      - s-70cba6eb1a
+      - s-7ca9ed755a
+      - s-cf43e25ff6
+      - s-d0c68501fb
+      - s-3354a49ba7
+      - s-6a6cc23331
+      - s-e8ef6b024a
+      - s-4ab5729e9a
+      - s-82ed6d73e0

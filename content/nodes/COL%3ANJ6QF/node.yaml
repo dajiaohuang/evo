@@ -1,0 +1,130 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus parvulus
+  displayName: Cycloramphus parvulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NJ6QF
+  sourceIndexes:
+    - name:
+        en: Cycloramphus parvulus
+        zh: Cycloramphus parvulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NJ6QF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/289
+            queryName: Cycloramphus parvulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/378
+            queryName: Zachaenus parvulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 35
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/492
+            queryName: Cystignathus parvulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/493
+            queryName: Oocormus microps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/494
+            queryName: Ceratophrys fusciventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/495
+            queryName: Leptodactylus parvulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1af24b13c7
+      - s-e0fa5f0f38
+      - s-888b2d5f4c
+      - s-bef46a359d
+      - s-365f878268
+      - s-c662275d69
+      - s-3954ab2b2e
+      - s-09633a4f4a
+      - s-c4307d12d1
+      - s-e1218012b4
+      - s-3bea7f9260
+      - s-a39aa2ed9a
+      - s-920e12a591
+      - s-220a8dfcc1
+      - s-31ae2f9786
+      - s-43e414b600
+      - s-70a0a235fc
+      - s-b8b93d7b18
+      - s-9737d3111a
+      - s-c60cf02ce7
+      - s-b824b65763
+      - s-1e45a7f43d
+      - s-46756e4c72
+      - s-9572bc6abd
+      - s-efc57f3186
+      - s-5f7b0290e8
+      - s-671aaea092
+      - s-4d6c14240a
+      - s-27fbcb5981
+      - s-2e50bce833
+    zh:
+      - s-c5824a85c2
+      - s-67670611a8
+      - s-814f27e69a
+      - s-6fbdfc21d0
+      - s-537b03e40e
+      - s-f87ab19ad5
+      - s-d790965821
+      - s-bfbbe10af1
+      - s-8f8b70efc8
+      - s-150bd3a595
+      - s-979675646d
+      - s-5f39853c05
+      - s-9d8c09a970
+      - s-11a93a67f5
+      - s-88657fd4cd
+      - s-ede2db93da
+      - s-7f4c7477f8
+      - s-8f32de94b0
+      - s-ebb2a57fd2
+      - s-f8df8524b4
+      - s-5e89ead343
+      - s-7819690fed
+      - s-796790c600
+      - s-1da08ad712
+      - s-269b25550a
+      - s-555e742888
+      - s-6115848e23
+      - s-4a9e81e929
+      - s-09209d0c4e
+      - s-f33374f4fb

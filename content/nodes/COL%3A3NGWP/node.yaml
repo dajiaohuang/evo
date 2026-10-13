@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus breviquartus
+  displayName: Hyloxalus breviquartus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGWP
+  sourceIndexes:
+    - name:
+        en: Hyloxalus breviquartus
+        zh: Hyloxalus breviquartus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGWP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/87
+            queryName: Hyloxalus breviquartus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/65
+            queryName: Colostethus breviquartus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e2ecfd81ca
+      - s-f7a2ace842
+      - s-c990947473
+      - s-64db923ada
+      - s-b488fb600b
+      - s-fbbdf358e1
+      - s-c584260468
+    zh:
+      - s-d935ec74e6
+      - s-f63111129e
+      - s-614fb0001b
+      - s-08a12a6963
+      - s-ddcb571e28
+      - s-9b4ed0065a
+      - s-681f462080

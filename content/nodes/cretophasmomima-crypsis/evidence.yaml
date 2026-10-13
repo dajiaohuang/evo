@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-739e2165cf
+      part: title
+    titleZh:
+      page: zh
+      section: s-8a39b4dbbe
+      part: title
+    category: ecology
+    startAge: 130
+    endAge: 122
+    regions:
+      - Yixian Formation, Jehol biota, Inner Mongolia, China
+    clades:
+      - Cretophasmomima melanogramma
+      - Phasmatodea
+    summary:
+      page: en
+      section: s-739e2165cf
+      part: body
+    summaryZh:
+      page: zh
+      section: s-8a39b4dbbe
+      part: body
+    claimIds:
+      - claim:event:cretophasmomima-crypsis
+    evidenceItems:
+      - statement: The primary description documents the wing pattern and its comparison with Membranifolia admirabilis in the Jehol setting.
+        relation: supports
+        claimIds:
+          - claim:event:cretophasmomima-crypsis
+        referenceLinks:
+          - referenceId: wang-2014-cretophasmomima
+            relation: supports
+            pages: e91290
+            figure: Figures 6–7
+            quoteLocator: Wing coloration, plant comparison and proposed crypsis
+    uncertaintyItems:
+      - statement: The fossil preserves a pattern and a proposed model, not observed predator avoidance, feeding behaviour or measured crypsis performance.
+        relation: contextualizes
+        claimIds:
+          - claim:event:cretophasmomima-crypsis
+        referenceLinks:
+          - referenceId: wang-2014-cretophasmomima
+            relation: supports
+            pages: e91290
+            figure: Figures 6–7
+            quoteLocator: Cautious functional interpretation of the wing pattern
+  claims:
+    - subjectId: event:cretophasmomima-crypsis
+      claimType: event-mechanism
+      claimKind: scientific
+      statement: Cretophasmomima melanogramma preserves a wing-colour pattern that the describing study interpreted as possible leaf mimicry in the Early Cretaceous Jehol setting; the proposed mechanism remains an anatomical inference.
+      confidence: medium
+      confidenceRationale: The primary paper directly documents the colour pattern and plant comparison, but a fossil cannot directly observe crypsis performance, predator response or feeding behaviour.
+      referenceLinks:
+        - referenceId: wang-2014-cretophasmomima
+          relation: supports
+          pages: e91290
+          figure: Figures 6–7
+          quoteLocator: Membranifolia comparison and proposed crypsis mechanism
+  claim-rationales.zh:
+    - 一手研究直接记录翅色图案及植物比较，但隐蔽效果、捕食者反应和摄食行为无法从化石直接观测。
+  claim-statements.zh:
+    - Cretophasmomima melanogramma 保存翅色图案，描述研究将其解释为早白垩世热河环境中的可能拟叶；这一机制仍是解剖学推断。

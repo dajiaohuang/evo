@@ -1,0 +1,396 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dryophytes femoralis (Daudin, 1800)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dryophytes femoralis
+      zh: Dryophytes femoralis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b5d00018aa
+            part: title
+          zh:
+            page: zh
+            section: s-6dacaaeab0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b5d00018aa
+            part: body
+          zh:
+            page: zh
+            section: s-6dacaaeab0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5f8f05ef5c
+            part: title
+          zh:
+            page: zh
+            section: s-435d437d4a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5f8f05ef5c
+            part: body
+          zh:
+            page: zh
+            section: s-435d437d4a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-a306115a1d
+            part: title
+          zh:
+            page: zh
+            section: s-a43b76ed42
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-a306115a1d
+            part: body
+          zh:
+            page: zh
+            section: s-a43b76ed42
+            part: body
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0b069aae14
+            part: title
+          zh:
+            page: zh
+            section: s-cc5958598d
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-0b069aae14
+            part: body
+          zh:
+            page: zh
+            section: s-cc5958598d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-5afc8582d4b77ec426e6ba35
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-b1ae0888e3626c03a95db00b02e5bdec
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-417885dddd
+            part: title
+          zh:
+            page: zh
+            section: s-db1acec1b6
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-417885dddd
+            part: body
+          zh:
+            page: zh
+            section: s-db1acec1b6
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-dc1fea04e4
+            part: title
+          zh:
+            page: zh
+            section: s-55e93cc754
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-dc1fea04e4
+            part: body
+          zh:
+            page: zh
+            section: s-55e93cc754
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-d28afe260b
+            part: title
+          zh:
+            page: zh
+            section: s-a3a4db0a1d
+            part: title
+        sourceIds:
+          - primary-pmc10215353-37vnj
+        text:
+          en:
+            page: en
+            section: s-d28afe260b
+            part: body
+          zh:
+            page: zh
+            section: s-a3a4db0a1d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dryophytes femoralis
+          url: https://www.checklistbank.org/dataset/316115/taxon/37VNJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 1095454, row 812842; Distribution.tsv rows 344589; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 411, 412; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2315; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2315 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10215353-37vnj
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dryophytes femoralis: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-224d76040d
+        part: body
+      zh:
+        page: zh
+        section: s-7fb313ddaa
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "1095454"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1095454
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 812842
+        key: "1095454"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "1095454"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 344589
+            key: 1095454|North America|text|NULL|NULL
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-5afc8582d4b77ec426e6ba35
+        scientificName: Dryophytes femoralis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.3390/ani13101593
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        sourceKey: primary-pmc10215353-37vnj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10215353/article.xml
+        sourceConcept: Dryophytes femoralis reference as listed in Table1
+        evidenceRead: "Dryophytes femoralis: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: An accession-bounded reference in the 2023 study
+              zh: 2023年研究中受序列号限定的参考
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-37vnj
+            locator: PMC10215353 XML Table1 named/accession rows; sec2dot5 paragraph1; sec3dot6 paragraph1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e4fa4658c9
+                part: body
+              zh:
+                page: zh
+                section: s-7c4d9f6641
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

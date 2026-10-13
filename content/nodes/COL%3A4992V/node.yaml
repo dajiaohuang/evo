@@ -1,0 +1,122 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon flavoguttatus
+  displayName: Ololygon flavoguttatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4992V
+  sourceIndexes:
+    - name:
+        en: Ololygon flavoguttatus
+        zh: Ololygon flavoguttatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4992V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/119
+            queryName: Ololygon flavoguttatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/40
+            queryName: Scinax flavoguttatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/411
+            queryName: Ololygon flavoguttata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/412
+            queryName: Hyla flavoguttata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/413
+            queryName: Scinax flavoguttata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/310
+            queryName: Hyla strigilata flavoguttata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7cf9888e49
+      - s-e3afecb844
+      - s-100371f9b1
+      - s-ddd5045242
+      - s-c57fbfa549
+      - s-b50d5e8b53
+      - s-19b9461e95
+      - s-b32507e72d
+      - s-ecfd3e132b
+      - s-a7eb4a2ac2
+      - s-3d68e51959
+      - s-fa2e2048d0
+      - s-20c7cc5e71
+      - s-9aaf3eeccd
+      - s-ae199bdb52
+      - s-3ef1b4fca8
+      - s-8a28bd6430
+      - s-9834073a76
+      - s-299de2b68b
+      - s-edb1869e83
+      - s-9510b0f3a2
+      - s-9289e1d3e1
+      - s-5407523d3d
+      - s-6feba8fe01
+      - s-f5e4123504
+      - s-cc94a89373
+    zh:
+      - s-6e317539d5
+      - s-8141f0364e
+      - s-9cf49f45bd
+      - s-cfa29c779a
+      - s-8c04a967ff
+      - s-e4a668dd5c
+      - s-5662d58528
+      - s-6515103389
+      - s-38b0d27e1e
+      - s-8450690e96
+      - s-20daef873d
+      - s-e13c66df18
+      - s-893aa7cab5
+      - s-8092ebb5bb
+      - s-7dbb3ac43e
+      - s-970eab3fba
+      - s-8ef5f66d19
+      - s-060a374156
+      - s-e2f04de519
+      - s-f67fc63a41
+      - s-d70e39f27b
+      - s-a311c2cd81
+      - s-5eb97a1e3c
+      - s-47db82c2c9
+      - s-4e3d1a9dfe
+      - s-d7b1b8a50c

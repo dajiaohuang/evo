@@ -1,0 +1,128 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelodytes punctatus
+  displayName: Pelodytes punctatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76D3R
+  sourceIndexes:
+    - name:
+        en: Pelodytes punctatus
+        zh: Pelodytes punctatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76D3R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/458
+            queryName: Pelodytes punctatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 49
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/178
+            queryName: Rana punctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/179
+            queryName: Rana plicata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/180
+            queryName: Rana daudini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/181
+            queryName: Bombinator plicatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/182
+            queryName: Ostetricans punctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/183
+            queryName: Alytes punctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/184
+            queryName: Cystignathus punctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/185
+            queryName: Pelodytes plicatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/186
+            queryName: Pelodytes daudini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/335
+            queryName: Pelodytes hespericus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9820fec78d
+      - s-7fc5a1f392
+      - s-437afb013b
+      - s-7a89d7bab4
+      - s-b6c702105e
+      - s-e6e1a54969
+      - s-c9fa899680
+      - s-1842c8de75
+      - s-c39507aebb
+      - s-3661f8d280
+      - s-c8efa0c15e
+      - s-afc109dd04
+      - s-abf6b24adc
+      - s-ef56580f85
+    zh:
+      - s-00897f9a36
+      - s-6e6718b6c1
+      - s-78b4e2e757
+      - s-e0568e0010
+      - s-9f8dd5e137
+      - s-39d45a39de
+      - s-a609a9af37
+      - s-b725f16d53
+      - s-3e91d4efcc
+      - s-01c84c34ef
+      - s-d5b3099992
+      - s-3c80973ae0
+      - s-af52e2238b
+      - s-87acf3f846

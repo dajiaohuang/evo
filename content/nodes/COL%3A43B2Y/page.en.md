@@ -1,0 +1,3 @@
+## *Mikania amblyolepis*: red-glanded vines and small white heads {#s-013c58428b}
+The Flora of Panama account, retrieved on 8 September 2026, describes a slender, sparsely branched vine covered with red glandular dots. Its opposite, broad egg-shaped leaves reach about 6 × 4.5 cm, have heart-shaped bases and blunt teeth, and show three strong veins from the base. Small white flower heads, often grouped in threes, form branching clusters. The ribbed fruitlets are about 1.5 mm long and gland-dotted, with a single row of roughly 30 fine bristles at the tip. The account’s historical distribution statement places it in Panama and northern Colombia; this is not a current range inventory.
+

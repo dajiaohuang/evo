@@ -1,0 +1,3 @@
+## ## Velvety stems and longer floral bracts {#s-6c736f88b5}
+The Brazilian Flora 2020 entry records velvety stems with incurved simple hairs and unbranched, thread-like setae; branched setae, glandular hairs, prickles and short shoots are absent. The stipules persist, extrafloral nectaries are absent, and projections occur between pinna pairs. The inflorescences are globose, with floral bracts longer than the flowers before opening. The flowers have four perianth parts and a membranous calyx without lobes. Corolla lobes are tomentose and have one to three veins; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial” but does not give a locality or finer habitat detail.
+

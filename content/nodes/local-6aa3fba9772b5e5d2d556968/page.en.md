@@ -1,0 +1,9 @@
+## Which source name is assigned to this tadpole record? {#s-480c394c68}
+This record shows how TadpoleTraits files tadpoles under Leptobrachium abbotti. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Leptobrachium abbotti in Leptobrachium and Megophryidae. No literature rows are present. In the image-measurement table, rows 627 list Leptobrachium abbotti in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-748ddc915d}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 0 literature rows and 1 image-measurement row for this source record. No literature rows are present; the image rows are the only measurements in this entry. Image-table Stage values are uncertainty (row 627); Type labels are Ratio and image types are Color image. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-bd5e91b1b7}
+The image-derived records support these source proportions: body length / total length = 0.304330 (image row 627, stage uncertainty, Color image); tail length / total length = 0.693107 (image row 627, stage uncertainty, Color image); maximum body height / total length = 0.119924 (image row 627, stage uncertainty, Color image); maximum tail height / total length = 0.152570 (image row 627, stage uncertainty, Color image); tail muscle height / total length = 0.104951 (image row 627, stage uncertainty, Color image). Each value describes only its cited image row; it is not a species-wide estimate.
+

@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Ramonellus longispinus
+    rank: species
+    sourceTaxonId: txn:134852
+    name:
+      en: Ramonellus longispinus
+      zh: Ramonellus longispinus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-2b47a4f2c6
+            part: body
+          zh:
+            page: zh
+            section: s-1ac7976895
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-8b511e710f
+            part: body
+          zh:
+            page: zh
+            section: s-6b097b322d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-023de4bdb9
+            part: body
+          zh:
+            page: zh
+            section: s-983d938244
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:134852; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: E. Nevo and R. Estes. 1969. Ramonellus longispinus, an Early Cretaceous salamander from Israel. Copeia 1969(3):540-547
+    occurrenceEvidence:
+      - occurrenceId: occ:138865
+        collectionId: col:22634
+        acceptedTaxonId: txn:134852
+        identifiedName: Ramonellus longispinus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:28355
+        bibliography: E. Nevo and R. Estes. 1969. Ramonellus longispinus, an Early Cretaceous salamander from Israel. Copeia 1969(3):540-547
+        locality:
+          countryCode: IL
+          stateProvince: Negev
+          county: null
+        stratigraphy:
+          group: null
+          formation: Hatira
+          member: null
+        olderAgeMa: 143.1
+        youngerAgeMa: 113.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-023de4bdb9
+            part: body
+          zh:
+            page: zh
+            section: s-983d938244
+            part: body
+        sourceIds: []

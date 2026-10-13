@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax ictericus
+  displayName: Scinax ictericus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJX4
+  sourceIndexes:
+    - name:
+        en: Scinax ictericus
+        zh: Scinax ictericus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJX4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/44
+            queryName: Scinax ictericus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/36
+            queryName: Scinax icterica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8fcadf533a
+      - s-7c6571123a
+      - s-a96ffdedcf
+      - s-e5379bfdbe
+      - s-5a6a3e318d
+      - s-0bd6bad8e6
+      - s-5bf03e7df6
+      - s-5c587a175d
+      - s-66b856057d
+      - s-2d5005c948
+    zh:
+      - s-180e02d586
+      - s-635eecd3ab
+      - s-d731817446
+      - s-36e34d8a68
+      - s-4f31277a82
+      - s-fa0daf809e
+      - s-ead80d753c
+      - s-e9bcac3fa6
+      - s-7182d9f905
+      - s-d48bcd180b

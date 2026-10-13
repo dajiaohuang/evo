@@ -1,0 +1,294 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachydectes newberryi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Brachydectes newberryi
+      en: Brachydectes newberryi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbResidualAmniotaTaxonomy20261002
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f4a58062e8
+            part: body
+          en:
+            page: en
+            section: s-4061d770d9
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-014ce0c336
+            part: body
+          en:
+            page: en
+            section: s-9d67f60f14
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9ddb31f510
+            part: body
+          en:
+            page: en
+            section: s-d99e2f7720
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-55d0ee7daa
+            part: body
+          en:
+            page: en
+            section: s-ec31e21775
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fcc3bb780d
+            part: body
+          en:
+            page: en
+            section: s-3d3628ac87
+            part: body
+    sources:
+      - id: pbdbResidualAmniotaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Brachydectes newberryi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=229312&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbResidualAmniotaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:229312; original response record indices retained in data/sources/amniota-residual-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:229312
+          selectedOccurrenceIds:
+            - occ:739843
+            - occ:787462
+            - occ:790364
+            - occ:1317928
+            - occ:1317935
+            - occ:1317973
+            - occ:1317979
+            - occ:1318094
+            - occ:1318096
+            - occ:1318128
+            - occ:1318131
+            - occ:1318145
+            - occ:1318147
+            - occ:1318148
+            - occ:1318150
+            - occ:1318298
+            - occ:1328158
+            - occ:1328160
+            - occ:1328176
+            - occ:1328465
+            - occ:1332981
+            - occ:1332990
+            - occ:1332991
+            - occ:1546008
+            - occ:1546009
+          selectedCollectionIds:
+            - col:79531
+            - col:79402
+            - col:12976
+            - col:85550
+            - col:177006
+            - col:177015
+            - col:177017
+            - col:85292
+            - col:79598
+            - col:177058
+            - col:177062
+            - col:28267
+            - col:85342
+            - col:28256
+            - col:80714
+            - col:178666
+            - col:28275
+            - col:178669
+            - col:67735
+            - col:179619
+            - col:179620
+          sourceReferenceIds:
+            - ref:26635
+            - ref:28557
+            - ref:28928
+            - ref:58444
+            - ref:28747
+            - ref:28717
+            - ref:55379
+            - ref:58492
+            - ref:58512
+            - ref:59144
+            - ref:59496
+            - ref:75589
+          originalIdentificationMappings:
+            - occurrenceId: occ:739843
+              originalIdentifiedName: Lysorophus tricarinatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:787462
+              originalIdentifiedName: Lysorophus tricarinatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:790364
+              originalIdentifiedName: Lysorophus tricarinatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1317928
+              originalIdentifiedName: Lysorophus tricarinatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1317935
+              originalIdentifiedName: Lysorophus tricarinatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1317973
+              originalIdentifiedName: Lysorophus tricarinatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1317979
+              originalIdentifiedName: Lysorophus tricarinatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1318094
+              originalIdentifiedName: Pleuroptyx clavatus n. gen. n. sp.
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1318096
+              originalIdentifiedName: Brachydectes newberryi n. gen. n. sp.
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1318145
+              originalIdentifiedName: Brachydectes elongatus n. sp.
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1318147
+              originalIdentifiedName: Brachydectes elongatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1318148
+              originalIdentifiedName: Brachydectes elongatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1318150
+              originalIdentifiedName: Brachydectes elongatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1318298
+              originalIdentifiedName: Lysorophus tricarinatus n. gen. n. sp.
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1328158
+              originalIdentifiedName: Brachydectes elongatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1328160
+              originalIdentifiedName: Brachydectes elongatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1328176
+              originalIdentifiedName: Brachydectes elongatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1328465
+              originalIdentifiedName: Lysorophus tricarinatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1332981
+              originalIdentifiedName: Brachydectes elongatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1332990
+              originalIdentifiedName: Brachydectes elongatus
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1546008
+              originalIdentifiedName: Molgophis wheatleyi
+              acceptedName: Brachydectes newberryi
+              difference: null
+            - occurrenceId: occ:1546009
+              originalIdentifiedName: Cocytinus gyrinoides
+              acceptedName: Brachydectes newberryi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-a45dacc0eb
+        part: body
+      en:
+        page: en
+        section: s-39efa9c65a
+        part: body

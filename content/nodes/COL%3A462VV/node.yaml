@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectophryne batesii
+  displayName: Nectophryne batesii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/462VV
+  sourceIndexes:
+    - name:
+        en: Nectophryne batesii
+        zh: Nectophryne batesii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 462VV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/211
+            queryName: Nectophryne batesii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-39b7089e70
+      - s-7540450c33
+      - s-c738ef8031
+      - s-88b01b759c
+      - s-a2f4f0d1c5
+      - s-202bcd162c
+      - s-dd070cd48a
+    zh:
+      - s-a1db7aac5e
+      - s-1daee7101d
+      - s-05efd247a4
+      - s-cf0ebee1eb
+      - s-baffd2760f
+      - s-b0577fcc4e
+      - s-fe34fe056a

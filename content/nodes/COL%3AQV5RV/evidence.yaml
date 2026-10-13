@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Melaniparus fasciiventer
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Melaniparus fasciiventer
+      en: Melaniparus fasciiventer
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetMelaniparusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-76fdbb1c66
+            part: body
+          en:
+            page: en
+            section: s-3a79648ec2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetMelaniparusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-012aac3243
+            part: body
+          en:
+            page: en
+            section: s-cd9130062d
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetMelaniparusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-a4e94c9360
+            part: body
+          en:
+            page: en
+            section: s-3f8746e6ab
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetMelaniparusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-3b8072d10d
+            part: body
+          en:
+            page: en
+            section: s-bbf6561af0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetMelaniparusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-4eb585a33c
+            part: body
+          en:
+            page: en
+            section: s-98b6f15f1b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Melaniparus fasciiventer
+          url: https://www.checklistbank.org/dataset/316115/taxon/QV5RV
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetMelaniparusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Melaniparus historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 10 selected AVONET1_BirdLife rows within 6199–6213; each eBird and BirdTree crosswalk, mel/par COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 十条历史行：旧 Parus 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Ten historical rows: retain older Parus combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-89a50a2111
+        part: body
+      en:
+        page: en
+        section: s-546362837d
+        part: body

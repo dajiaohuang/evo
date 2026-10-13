@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylus timbuhy
+  displayName: Crossodactylus timbuhy
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMC6
+  sourceIndexes:
+    - name:
+        en: Crossodactylus timbuhy
+        zh: Crossodactylus timbuhy
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMC6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/234
+            queryName: Crossodactylus timbuhy
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f71aeec899
+      - s-9c4b549e31
+      - s-960506051d
+      - s-34aca7658d
+      - s-3dd80823be
+      - s-7397e57226
+      - s-a55efd32d9
+      - s-4818b1d100
+      - s-ef61aca9ad
+      - s-5830220eed
+      - s-7ab2f41362
+      - s-174694cea8
+      - s-961fe7e7eb
+      - s-7815e0c8a1
+    zh:
+      - s-6606a9a915
+      - s-051c8dcbd5
+      - s-57e4023020
+      - s-548799b0ff
+      - s-556aaeb38c
+      - s-63659791a6
+      - s-0624b0f1dd
+      - s-e2849de874
+      - s-dbca656c3e
+      - s-a2968da8a5
+      - s-1e43a4437c
+      - s-c9d0597349
+      - s-78d813fa44
+      - s-5f612219fa

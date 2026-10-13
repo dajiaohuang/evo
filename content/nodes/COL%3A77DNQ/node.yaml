@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus perpalmatus
+  displayName: Phrynobatrachus perpalmatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77DNQ
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus perpalmatus
+        zh: Phrynobatrachus perpalmatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77DNQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/160
+            queryName: Phrynobatrachus perpalmatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/52
+            queryName: Phrynobatrachus perpalmatus perpalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/53
+            queryName: Phrynobatrachus perpalmatus werneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f028130ce2
+      - s-fffa2dcc0f
+      - s-d1a98e15ea
+      - s-bb4c827229
+      - s-06de10f01a
+      - s-9ed34dd267
+      - s-44650da4b5
+      - s-888fbc3c20
+    zh:
+      - s-2f94d8ef7a
+      - s-c5459fe4c6
+      - s-9d737c32fc
+      - s-260608243e
+      - s-c82c6726ad
+      - s-6b3e39023a
+      - s-40234c6219
+      - s-364f90cabe

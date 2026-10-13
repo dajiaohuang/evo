@@ -1,0 +1,26 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anser canagicus (Sevastianov, 1802)
+  displayName: Anser canagicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66XX4
+  sourceIndexes:
+    - scientificName: Anser canagicus
+      sourceIdentity: COL:66XX4
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators:
+        - path: data/sources/amniota-collection-stage-2026-10-03-historical-candidates.json.gz
+          recordIndex: 509
+          matchStatus: historical-name-candidate-not-concept-equivalence
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

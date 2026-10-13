@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Baurubatrachus santosdoroi
+    rank: species
+    sourceTaxonId: txn:462003
+    name:
+      en: Baurubatrachus santosdoroi
+      zh: Baurubatrachus santosdoroi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-dec7c58a8a
+            part: body
+          zh:
+            page: zh
+            section: s-86ae285e10
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-88097a0d7b
+            part: body
+          zh:
+            page: zh
+            section: s-cdcad39bb5
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Baurubatrachus santosdoroi
+          zh: Baurubatrachus santosdoroi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-9cedcf21a2
+            part: body
+          zh:
+            page: zh
+            section: s-4cea137979
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:462003; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: P. Muzzopappa, F. V. Iori, and F. Pereira Muniz, A. G. Martinelli. 2022. A new species of Baurubatrachus (Anura, Neobatrachia) from the Late Cretaceous Adamantina Formation of Brazil furnishes evidence on the diversity of this bizarre genus. Ameghiniana 59(5):297-316
+    occurrenceEvidence:
+      - occurrenceId: occ:1606464
+        collectionId: col:147698
+        acceptedTaxonId: txn:462003
+        identifiedName: Baurubatrachus santosdoroi n. sp.
+        taxonomicDifference: null
+        referenceId: ref:82614
+        bibliography: P. Muzzopappa, F. V. Iori, and F. Pereira Muniz, A. G. Martinelli. 2022. A new species of Baurubatrachus (Anura, Neobatrachia) from the Late Cretaceous Adamantina Formation of Brazil furnishes evidence on the diversity of this bizarre genus. Ameghiniana 59(5):297-316
+        locality:
+          countryCode: BR
+          stateProvince: São Paulo
+          county: null
+        stratigraphy:
+          group: Bauru
+          formation: Adamantina
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 66
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Baurubatrachus santosdoroi
+          zh: Baurubatrachus santosdoroi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-9cedcf21a2
+            part: body
+          zh:
+            page: zh
+            section: s-4cea137979
+            part: body
+        sourceIds: []

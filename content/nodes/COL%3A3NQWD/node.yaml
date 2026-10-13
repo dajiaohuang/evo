@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius nienokouensis
+  displayName: Hyperolius nienokouensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQWD
+  sourceIndexes:
+    - name:
+        en: Hyperolius nienokouensis
+        zh: Hyperolius nienokouensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQWD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/298
+            queryName: Hyperolius nienokouensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-82300f8b91
+      - s-c75a5bbccc
+      - s-2ffe749c24
+      - s-431cb2aae2
+      - s-71e3293b1f
+      - s-138616bfd3
+      - s-b2cfc16da8
+      - s-209aadc6ed
+      - s-1deb6eefb4
+    zh:
+      - s-1fc29b2733
+      - s-d816dec7f7
+      - s-8b22b61731
+      - s-dc827bf44e
+      - s-56d19d4ef6
+      - s-c02a502579
+      - s-3c2db66ae2
+      - s-8365082ec2
+      - s-922b24f9e8

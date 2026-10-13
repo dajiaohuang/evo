@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius guttulatus
+  displayName: Hyperolius guttulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQTY
+  sourceIndexes:
+    - name:
+        en: Hyperolius guttulatus
+        zh: Hyperolius guttulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQTY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/258
+            queryName: Hyperolius guttulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/317
+            queryName: Hyperolius reticulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/318
+            queryName: Rappia lagoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/319
+            queryName: Hyperolius lagoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/320
+            queryName: Rappia reticulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/321
+            queryName: Rappia guttulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/322
+            queryName: Hyperolius buchholzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/323
+            queryName: Hyperolius liberiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-79cae127ec
+      - s-42de5f96cd
+      - s-f9c24bd4f0
+      - s-9e318f6872
+      - s-a5f8f01344
+      - s-2aabb52cda
+      - s-5d9f1b021a
+      - s-212bbd1465
+      - s-6af3fc0ae4
+      - s-3d039ca84d
+      - s-28da71af5a
+      - s-c4a2e486bb
+    zh:
+      - s-50c0d8fcf5
+      - s-393a02b2ee
+      - s-a204d7f317
+      - s-c912a17fa0
+      - s-66737c309a
+      - s-81932d168d
+      - s-57375d393a
+      - s-ad79386c50
+      - s-c0f011c95a
+      - s-07b5676442
+      - s-5df0084993
+      - s-cbcd123aa1

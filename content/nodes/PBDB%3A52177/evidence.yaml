@@ -1,0 +1,218 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paracynarctus kelloggi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Paracynarctus kelloggi
+      en: Paracynarctus kelloggi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-efd9f4653f
+            part: body
+          en:
+            page: en
+            section: s-3a98deec9c
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-23c145a2bb
+            part: body
+          en:
+            page: en
+            section: s-c50c97835b
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c62798c3cf
+            part: body
+          en:
+            page: en
+            section: s-282b61e0f0
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-26359efcb3
+            part: body
+          en:
+            page: en
+            section: s-a59f2a5b3e
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e419c2aa93
+            part: body
+          en:
+            page: en
+            section: s-9e35caf943
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Paracynarctus kelloggi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=52177&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:52177; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:52177
+          selectedOccurrenceIds:
+            - occ:183236
+            - occ:188095
+            - occ:189787
+            - occ:189933
+            - occ:189957
+            - occ:190173
+            - occ:190523
+            - occ:190559
+            - occ:190591
+            - occ:190677
+            - occ:190813
+            - occ:190838
+            - occ:191331
+            - occ:191886
+            - occ:192145
+            - occ:192548
+            - occ:192646
+            - occ:1700378
+          selectedCollectionIds:
+            - col:17873
+            - col:18579
+            - col:18924
+            - col:18961
+            - col:18962
+            - col:19008
+            - col:19073
+            - col:19074
+            - col:19075
+            - col:19081
+            - col:19097
+            - col:19103
+            - col:19275
+            - col:19410
+            - col:19478
+            - col:19547
+            - col:19557
+            - col:240929
+          sourceReferenceIds:
+            - ref:3558
+            - ref:2608
+            - ref:6294
+            - ref:2634
+            - ref:3234
+            - ref:92219
+          originalIdentificationMappings:
+            - occurrenceId: occ:189933
+              originalIdentifiedName: Tomarctus kelloggi
+              acceptedName: Paracynarctus kelloggi
+              difference: recombined as
+            - occurrenceId: occ:189957
+              originalIdentifiedName: Tomarctus kelloggi
+              acceptedName: Paracynarctus kelloggi
+              difference: recombined as
+            - occurrenceId: occ:190523
+              originalIdentifiedName: Tomarctus kelloggi
+              acceptedName: Paracynarctus kelloggi
+              difference: recombined as
+            - occurrenceId: occ:190559
+              originalIdentifiedName: Tomarctus kelloggi
+              acceptedName: Paracynarctus kelloggi
+              difference: recombined as
+            - occurrenceId: occ:190591
+              originalIdentifiedName: Tomarctus kelloggi
+              acceptedName: Paracynarctus kelloggi
+              difference: recombined as
+            - occurrenceId: occ:190677
+              originalIdentifiedName: Tomarctus kelloggi
+              acceptedName: Paracynarctus kelloggi
+              difference: recombined as
+            - occurrenceId: occ:190838
+              originalIdentifiedName: Cynodesmus kelloggi n. sp.
+              acceptedName: Paracynarctus kelloggi
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-158343d3a2
+        part: body
+      en:
+        page: en
+        section: s-269decad73
+        part: body

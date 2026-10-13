@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus krauczuki
+  displayName: Melanophryniscus krauczuki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9LR
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus krauczuki
+        zh: Melanophryniscus krauczuki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9LR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/393
+            queryName: Melanophryniscus krauczuki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb18c85ca4
+      - s-e84a4407d5
+      - s-d64e3699a8
+      - s-6968f64167
+      - s-a7dfea9466
+      - s-f028fdf45c
+      - s-1035922cdc
+      - s-512636d016
+      - s-12da0ace05
+    zh:
+      - s-e4fafeaeb3
+      - s-e10ed6280a
+      - s-dc0d520784
+      - s-88998e719e
+      - s-b795148963
+      - s-4789c3bb9a
+      - s-efac78f155
+      - s-5d97bb4949
+      - s-bb1b20114a

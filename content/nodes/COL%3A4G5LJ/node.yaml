@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus surdus
+  displayName: Philautus surdus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5LJ
+  sourceIndexes:
+    - name:
+        en: Philautus surdus
+        zh: Philautus surdus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5LJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/75
+            queryName: Philautus surdus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/55
+            queryName: Polypedates surdus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/56
+            queryName: Rhacophorus surdus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/57
+            queryName: Philautus williamsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/58
+            queryName: Rhacophorus lissobrachius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/59
+            queryName: Philautus lissobrachius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aa5a040418
+      - s-6d943dd8b5
+      - s-59173ad040
+      - s-f4583e02bd
+      - s-0b12cfd2b5
+      - s-234160f6ef
+      - s-7895b0c4ba
+      - s-56e0e06616
+      - s-997b16491b
+      - s-a61d0e2f2a
+      - s-55ec77ca81
+      - s-b92aa8e634
+      - s-18c519b19a
+    zh:
+      - s-44d81856e1
+      - s-a403b3370c
+      - s-cbcc80e6c9
+      - s-985f1ebfd0
+      - s-17c8f8dcb7
+      - s-c95b7ee3b6
+      - s-a0a089391b
+      - s-3d5af10515
+      - s-4ba9ffbd88
+      - s-f1e9b6d1d2
+      - s-47bf0a1726
+      - s-d04ef0f814
+      - s-2896c9f1d2

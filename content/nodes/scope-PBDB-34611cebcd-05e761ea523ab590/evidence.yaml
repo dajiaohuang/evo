@@ -1,0 +1,93 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Neoceti
+    commonName: Crown Whales
+    commonNameZh: 新鲸类（鲸类冠群）
+    rank: clade
+    taxonId: txn:63145
+    firstAppearance: 36
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:neoceti
+      claimKind: scientific
+      claimType: topology
+      statement: Neoceti is used for the sampled crown-whale branch joining Mysticeti and Odontoceti in the synthesis; the Eocene–Oligocene timing discussed there combines fossil and model evidence and is not a direct observation of the crown split.
+      confidence: medium
+      confidenceRationale: The review supports the named crown grouping and separately discusses its temporal evidence. The statement keeps topology and timing distinct.
+      referenceLinks:
+        - relation: supports
+          referenceId: uhen-2010-whale-origins
+          pages: 212–217
+          quoteLocator: Origin of modern whales; Mysticeti and Odontoceti discussion
+    - subjectId: taxon:neoceti
+      claimKind: scientific
+      claimType: fossil-range
+      statement: neoceti is displayed at 36–0 Ma only as a synthesis-bounded crown-whale navigation envelope, not a directly observed crown split. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: neoceti uses Uhen, M.D. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Eocene–Oligocene fossil evidence through living Neoceti synthesized by Uhen; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: uhen-2010-whale-origins
+          pages: 212–217
+          quoteLocator: Origin of modern whales; Mysticeti and Odontoceti discussion
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 综述支持具名冠群组合，并单独讨论其时间证据；表述将拓扑与时间区分开。
+    - neoceti 采用 Uhen, M.D.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Eocene–Oligocene fossil evidence through living Neoceti synthesized by Uhen；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 综述以 Neoceti 指连接须鲸类与齿鲸类的取样冠群鲸分支；其中讨论的始新世—渐新世时间综合化石与模型证据，并非对冠群分裂的直接观测。
+    - neoceti 仅以 36–0 Ma 展示为综述限定的冠群鲸类导航包络，而非直接观测的冠群分化。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: neoceti
+      rangeKind: global-composite
+      taxonomicConcept: neoceti — source-bounded sample window
+      geographicScope: Eocene–Oligocene fossil evidence through living Neoceti synthesized by Uhen
+      olderMa: 36
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: 0
+        note: This display is limited to a synthesis-bounded crown-whale navigation envelope, not a directly observed crown split; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:neoceti:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: uhen-2010-whale-origins
+          locator: 212–217; Origin of modern whales; Mysticeti and Odontoceti discussion
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    sections:
+      - topic: timing
+        title:
+          en:
+            page: en
+            section: s-5974058555
+            part: title
+          zh:
+            page: zh
+            section: s-1ea0d5ab3b
+            part: title
+        sourceIds:
+          - uhen-2010-whale-origins
+          - ics-2026-06
+        text:
+          en:
+            page: en
+            section: s-5974058555
+            part: body
+          zh:
+            page: zh
+            section: s-1ea0d5ab3b
+            part: body

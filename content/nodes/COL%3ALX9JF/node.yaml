@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys fengshunensis
+  displayName: Boulenophrys fengshunensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9JF
+  sourceIndexes:
+    - name:
+        en: Boulenophrys fengshunensis
+        zh: Boulenophrys fengshunensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9JF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/346
+            queryName: Boulenophrys fengshunensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-006335a37e
+      - s-21715c4aa9
+      - s-a42b7afc15
+      - s-e371a59936
+      - s-ba52b89533
+      - s-a76cc0ea47
+      - s-3289dc9be2
+      - s-3cce2218c8
+      - s-eb00be7f20
+    zh:
+      - s-3109af4d5d
+      - s-78a5cd2efb
+      - s-9bdb47b1d9
+      - s-76cdbd8d9d
+      - s-0d7b8668c1
+      - s-552c2e011a
+      - s-8b74ff3d75
+      - s-98715d5921
+      - s-2ff467b21a

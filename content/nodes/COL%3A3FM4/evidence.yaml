@@ -1,0 +1,235 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Callithrix Erxleben, 1777
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Callithrix reading path
+      zh: Callithrix 属阅读路径
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - sotodacosta2026kuhlii
+          - rylands1989kuhlii
+          - pinto1993flaviceps
+          - passamani2000geoffroyi
+          - demiranda2001penicillata
+        text:
+          en:
+            page: en
+            section: s-dadaacd1ee
+            part: body
+          zh:
+            page: zh
+            section: s-f28e007840
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-e4533401f7
+            part: body
+          en:
+            page: en
+            section: s-3c7eea76e2
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-3235985845
+            part: body
+          en:
+            page: en
+            section: s-cd7a263cf9
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-1839f1fcf4
+            part: body
+          en:
+            page: en
+            section: s-b09f56cd9f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Callithrix Erxleben, 1777
+            zh: 生命名录 COL26.8 — Callithrix（Erxleben，1777）
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FM4
+          scope:
+            en: Pinned COL26.8 genus name and rank; the guide connects its six fixed-roster species IDs.
+            zh: 固定 COL26.8 属名和等级；本导读连接固定名录中的六个种级 ID。
+      - id: sotodacosta2026kuhlii
+        referenceId: ref-6c8a4826-1425-800b-a23b-6d2d50291af3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Hair isotope samples from 107 individuals in 30 groups across 14 municipalities in southern Bahia during 2023–2024; mixing models used six sites with dietary-resource baselines.
+            zh: 支持 2023—2024 年巴伊亚南部 14 个市镇、30 个群体中 107 只个体的毛发同位素样本；食物混合模型使用其中六处地点的资源基线。
+      - id: rylands1989kuhlii
+        referenceId: ref-3cf57751-f01d-8d3f-a2dc-a4d4874245a4
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Three months of observations on each of two groups in a coastal Atlantic Forest remnant during 1980; the article uses the spelling C. kuhli.
+            zh: 支持 1980 年在一片大西洋沿岸森林残片对两个群体各进行三个月的观察；文章使用拼法 C. kuhli。
+      - id: pinto1993flaviceps
+        referenceId: ref-ee5581a1-78a4-8b63-a289-842a681b414f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Repeated-transect estimates for five primate species, including C. flaviceps, in montane rainforest in eastern Brazil; density comparisons are local to the surveyed reserve.
+            zh: 支持巴西东部山地雨林对五种灵长类（包括 C. flaviceps）的重复样线估计；密度比较限于所调查保护区。
+      - id: passamani2000geoffroyi
+        referenceId: ref-fb3a931d-8ca5-8b29-a669-6a599cd91320
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: One group observed in a southeastern Brazilian Atlantic Forest fragment from February 1993 to January 1994; diet proportions and seasonal observations refer to that group and period.
+            zh: 支持 1993 年 2 月至 1994 年 1 月在巴西东南部大西洋森林残片观察的一个群体；食谱比例和季节观察仅适用于该群体和时段。
+      - id: demiranda2001penicillata
+        referenceId: ref-344fd230-7665-8762-a640-efe873680a69
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Three free-ranging groups observed weekly from March to December 1996 in one cerradão patch and two dense-cerrado patches in Brazil’s Federal District; observed group sizes ranged from 4 to 11.
+            zh: 支持 1996 年 3—12 月在巴西联邦区一片林状稀树草原和两片密生稀树草原每周观察的三个野生群体；记录群体大小为 4—11 只。
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 2 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 5WVNT
+              name: Callithrix flaviceps
+              canonicalPath: content/nodes/COL%3A5WVNT
+            - colId: 697NS
+              name: Callithrix jacchus
+              canonicalPath: content/nodes/scope-COL-c30fca9d97-8dcbd86c1219c565
+          fieldAccountCounts:
+            gestation(mo): 1
+            newborn(g): 1
+            weaning(mo): 1
+            wean mass(g): 1
+            AFR(mo): 1
+            max. life(mo): 1
+            litter size: 2
+            litters/year: 1
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      en:
+        page: en
+        section: s-f853f70788
+        part: body
+      zh:
+        page: zh
+        section: s-829985375d
+        part: body
+  atlas-node:
+    name: Callithrix
+    commonName: Marmosets
+    commonNameZh: 狨属
+    rank: genus
+    taxonId: ""
+    colUsageId: 3FM4
+    colDatasetId: "2144"
+    firstAppearance: 0
+    lastAppearance: 0
+    extinct: false
+    parentRelationshipKind: taxonomic-parent
+    entityKind: taxon
+    contentLevel: registry-only
+  claims:
+    - subjectId: taxon:callithrix
+      claimKind: scientific
+      claimType: taxonomy
+      statement: In the COL26.8 accepted parent chain for Callithrix jacchus usage 697NS, Callithrix (usage 3FM4) is the genus immediately above the accepted species usage; this records checklist placement, not a phylogenetic result.
+      confidence: medium
+      confidenceRationale: The pinned COL26.8 record gives the accepted usage and complete parent path needed to locate Callithrix in this specific common-marmoset lineage. This claim does not resolve the full circumscription of Callithrix or phylogeny beyond that checklist path.
+      referenceLinks:
+        - referenceId: col-2026-checklistbank-316115
+          relation: supports
+          quoteLocator: Accepted parent chain for species usage 697NS Callithrix jacchus; genus usage 3FM4 Callithrix is its immediate parent.
+  claim-rationales.zh:
+    - 固定版本的 COL26.8 记录了普通狨这一特定分类路径中的接受用名及完整父级链。本主张不扩展到狨属的完整界定，也不超出清单路径声称系统发育关系。
+  claim-statements.zh:
+    - 在 COL26.8 对 Callithrix jacchus 接受种用名 697NS 的分类路径中，狨属（Callithrix，用名 3FM4）是该接受种的直接上级属；这记录的是清单分类位置，不是系统发育结果。
+  ranges:
+    - entityId: callithrix
+      rangeKind: global-composite
+      taxonomicConcept: Callithrix accepted route; numerical temporal range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; no fossil-range search or numerical endpoint is asserted for this registry-only route.
+      evidenceBasis: The pinned COL26.8 checklist supports accepted identity and classification only; a separate fossil-range audit has not been completed for Callithrix.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: col-2026-checklistbank-316115
+          locator: COL26.8 release dataset 316115; accepted ancestor path recorded for usage 697NS (identity/classification only)

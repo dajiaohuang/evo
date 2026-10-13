@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene elisae
+  displayName: Centrolene elisae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ML5L3
+  sourceIndexes:
+    - name:
+        en: Centrolene elisae
+        zh: Centrolene elisae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ML5L3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/181
+            queryName: Centrolene elisae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f70b3a2bcb
+      - s-7a8cb48331
+      - s-5c6a0040c1
+      - s-168ee53e5c
+      - s-31b594e3d3
+      - s-758dc81943
+      - s-0f17b539d5
+      - s-8752217540
+      - s-2e2da1b439
+      - s-4da669c16a
+      - s-680d7a5b71
+      - s-8ab3d3c42c
+      - s-7f2c7cb12c
+      - s-9a3048d6f0
+      - s-4ed7ac298e
+      - s-8113130334
+      - s-7b947cd9d3
+    zh:
+      - s-801368ea4e
+      - s-b5b4adb7d6
+      - s-3b5b8de417
+      - s-448ee6cfff
+      - s-ce738ce395
+      - s-5671713013
+      - s-97c2a854a9
+      - s-0be686520c
+      - s-1655212843
+      - s-bb06ac3152
+      - s-6a95c6bcf5
+      - s-c22717ce43
+      - s-19b9a77a75
+      - s-fbb36e02d8
+      - s-595a79299c
+      - s-58844a0fb1
+      - s-8eb63a0663

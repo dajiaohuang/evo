@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates duranti
+  displayName: Aromobates duranti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GTRL
+  sourceIndexes:
+    - name:
+        en: Aromobates duranti
+        zh: Aromobates duranti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GTRL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/118
+            queryName: Aromobates duranti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/228
+            queryName: Nephelobates duranti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/141
+            queryName: Colostethus duranti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b803990c01
+      - s-e68eac07b8
+      - s-3a1baab7fc
+      - s-50da6e9cce
+      - s-d37bae4384
+      - s-5a9c31463c
+      - s-1e837bb4de
+      - s-304222b596
+      - s-2ef5557078
+      - s-c590cc9c76
+      - s-00ba5dbd30
+    zh:
+      - s-7f61f96b12
+      - s-c6b37a757a
+      - s-f55b10ac4f
+      - s-ac5a3d422d
+      - s-00bca962a1
+      - s-6d92555775
+      - s-14bcb40c8a
+      - s-167f15ae7b
+      - s-c9da6790b4
+      - s-7e46641dae
+      - s-ad6be5304e

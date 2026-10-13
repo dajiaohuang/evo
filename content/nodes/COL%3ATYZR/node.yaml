@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis anatipes
+  displayName: Chiasmocleis anatipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TYZR
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis anatipes
+        zh: Chiasmocleis anatipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TYZR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/236
+            queryName: Chiasmocleis anatipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8668a5424a
+      - s-1e054cb0a5
+      - s-c465aa217e
+      - s-83f0a5f8a7
+      - s-0b79e83c78
+      - s-e44c76e46e
+      - s-874848cd5d
+      - s-6be07542aa
+      - s-912ca5637b
+      - s-e33a05ed4f
+      - s-5f8b87cf00
+      - s-105f9a4ee5
+    zh:
+      - s-16c70ae8c2
+      - s-d71d581172
+      - s-46efe0796c
+      - s-4f66f40db9
+      - s-53b5df2fbb
+      - s-0d5954970e
+      - s-5e041825d8
+      - s-3d5e076389
+      - s-059e813eb1
+      - s-f9cacbb7a0
+      - s-1340983446
+      - s-29a1cdc86e

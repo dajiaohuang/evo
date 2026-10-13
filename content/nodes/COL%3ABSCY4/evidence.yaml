@@ -1,0 +1,71 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tamarinus labiatus (É. Geoffroy Saint-Hilaire, 1812)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 红腹狨
+      en: Red-bellied Tamarin
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-2071b20791
+            part: body
+          en:
+            page: en
+            section: s-b1ac1cec50
+            part: body
+        sourceIds:
+          - taxonomy
+          - buchanan1990
+      - topic: socialBehavior
+        text:
+          zh:
+            page: zh
+            section: s-dbd24fc258
+            part: body
+          en:
+            page: en
+            section: s-c9ab449414
+            part: body
+        sourceIds:
+          - buchanan1990
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tamarinus Trouessart, 1904
+          url: https://www.checklistbank.org/dataset/316115/taxon/7S9R
+          scope:
+            zh: 固定版本中的名称、作者、等级和父子关系；不提供生物学证据。
+            en: Pinned names, authorship, ranks and parent links; not biological evidence.
+      - id: buchanan1990
+        referenceId: ref-d4aa478a-2798-83a8-a201-fb1112e0f373
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: Pando 五个月野外研究，包含观察、无线电定位、混群和觅食方式；不外推到全种。
+            en: Five-month field study in Pando using observation and radio-location, including mixed-species groups and foraging; not extrapolated to the whole species.
+    limitations:
+      zh:
+        page: zh
+        section: s-c5375bff2b
+        part: body
+      en:
+        page: en
+        section: s-e2b0b4f2cb
+        part: body

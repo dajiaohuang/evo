@@ -1,0 +1,138 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Doleserpeton
+    rank: genus
+    sourceTaxonId: txn:37046
+    name:
+      en: Doleserpeton
+      zh: Doleserpeton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB’s recorded fossil classification
+          zh: PBDB 所记化石分类
+        text:
+          en:
+            page: en
+            section: s-0bd7511b21
+            part: body
+          zh:
+            page: zh
+            section: s-761aaaaa67
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: What the captured fossil records show
+          zh: 捕获的化石记录显示什么
+        text:
+          en:
+            page: en
+            section: s-9b158f3323
+            part: body
+          zh:
+            page: zh
+            section: s-c16890df98
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Follow PBDB’s fossil classification
+          zh: 沿 PBDB 化石分类继续阅读
+        text:
+          en:
+            page: en
+            section: s-106eea1063
+            part: body
+          zh:
+            page: zh
+            section: s-f5791f5317
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-9009212046
+            part: body
+          zh:
+            page: zh
+            section: s-3fd774b78a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:37046; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "J. R. Bolt. 1969. Lissamphibian Origins: Possible Protolissamphibian from the Lower Permian of Oklahoma. Science 166:888-891"
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:140536
+      exactOccurrenceCount: 1
+      datedOccurrenceCount: 1
+      collectionIntervalBoundsMa:
+        older: 290.1
+        younger: 283.3
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-9009212046
+            part: body
+          zh:
+            page: zh
+            section: s-3fd774b78a
+            part: body
+        sourceIds: []

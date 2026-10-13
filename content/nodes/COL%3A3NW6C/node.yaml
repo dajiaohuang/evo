@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hypogeophis montanus
+  displayName: Hypogeophis montanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NW6C
+  sourceIndexes:
+    - name:
+        en: Hypogeophis montanus
+        zh: Hypogeophis montanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NW6C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/363
+            queryName: Hypogeophis montanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-69100b73c9
+      - s-506f17607d
+      - s-66927ac746
+      - s-ea9b31cb7d
+      - s-3b6aec3eba
+      - s-125242d19c
+      - s-f764771694
+      - s-b468384e01
+      - s-e4106165ed
+    zh:
+      - s-cbe2310ba3
+      - s-c9d40d5c4b
+      - s-8bd4dda950
+      - s-103ec45f34
+      - s-da0df1425d
+      - s-0b6b542644
+      - s-57134b7f43
+      - s-04e4435f93
+      - s-0f7ee1e442

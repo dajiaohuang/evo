@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Haworthia decipiens Poelln.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3JWQL, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3JWQL; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3JWQL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3JWQL
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000650225-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3JWQL / WFO wfo-0000650225
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_16000_0
+        referenceId: ref-23047eef-56e4-8769-a87f-43d5326986d4
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Haworthia decipiens Poelln. account; SANBI/WFO archive rows 67844 (Morphology), 66126 (Diagnostic), source identifier 16000.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18489_0
+        referenceId: ref-bf339ada-286a-87a2-a335-1df89ad4f547
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Haworthia decipiens Poelln. account; SANBI/WFO archive rows 91919 (Habitat), source identifier 18489.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plant stemless, simple, about 7 cm diam., with numerous leaves, glaucous green in color. Leaves oblong-lanceolate, acuminate, 3-4 cm long, 10-15 mm broad towards base, terminating in a simple about 10 mm long pellucid bristle, younger leaves more or less erect-incurving, the older more or less spreading; face of leaf in the upper part somewhat convex becoming somewhat concave towards base; back of leaf convex, the keel never ciliate or toothed, glaucous green; both sides of leaf from the base to midleaf with many deep green reticulated lines, the upper pellucid part on both sides with many green more or less long lines, the middle one of which may reach the apex; the upper margins irregularly fimbriated with pellucid, remote slender teeth, 1.5-2.5 mm long. Occasionally 1 or 2 solitary teeth may be found on the keels of a few leaves.
+            textZh: Haworthia decipiens Poelln. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_16000_0
+            locator: "SANBI/WFO archive Morphology row 67844; source identifier 16000.0; cited publication: Brown, JR. 1965. Notes on Haworthias. Cact. Succ. J. (Los Angeles) 37(5): 127 - 128. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Differs from Haw. arachnoidea by the shorter leaves, the smooth keels and the slender remote teeth of the margins.
+            textZh: SANBI 条目提供了 Haworthia decipiens Poelln. 的鉴别特征。
+            sourceIds:
+              - sanbi_16000_0
+            locator: "SANBI/WFO archive Diagnostic row 66126; source identifier 16000.0; cited publication: Brown, JR. 1965. Notes on Haworthias. Cact. Succ. J. (Los Angeles) 37(5): 127 - 128. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Local populations in karroid shrubland or marginal thicket, skeletal soils. Lower Karoo, Albany Thicket, Rainshadow Valley Karoo, Eastern Fynbos-Renosterveld.
+            textZh: 该 SANBI 区域物种条目记录的生境：Local populations in karroid shrubland or marginal thicket, skeletal soils. Lower Karoo, Albany Thicket, Rainshadow Valley Karoo, Eastern Fynbos-Renosterveld.
+            sourceIds:
+              - sanbi_18489_0
+            locator: "SANBI/WFO archive Habitat row 91919; source identifier 18489.0; cited publication: Klopper, RR; Smith, GF; Bayer, MB; Bredenkamp, CL. 2019. Asphodelaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1647 - 1680. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-5241cb0bf5
+        title:
+          en:
+            page: en
+            section: s-698186f6a3
+            part: title
+          zh:
+            page: zh
+            section: s-3e2730a572
+            part: title
+        text:
+          en:
+            page: en
+            section: s-698186f6a3
+            part: body
+          zh:
+            page: zh
+            section: s-3e2730a572
+            part: body
+        sourceIds:
+          - sanbi_16000_0
+      - id: page-19d5a6808a
+        title:
+          en:
+            page: en
+            section: s-1b4af8b5d6
+            part: title
+          zh:
+            page: zh
+            section: s-55bdfda63c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1b4af8b5d6
+            part: body
+          zh:
+            page: zh
+            section: s-55bdfda63c
+            part: body
+        sourceIds:
+          - sanbi_16000_0
+      - id: page-361c2b64e7
+        title:
+          en:
+            page: en
+            section: s-e078c64a3c
+            part: title
+          zh:
+            page: zh
+            section: s-30872be298
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e078c64a3c
+            part: body
+          zh:
+            page: zh
+            section: s-30872be298
+            part: body
+        sourceIds:
+          - sanbi_18489_0

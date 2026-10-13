@@ -1,0 +1,220 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Coniferophyta
+    commonName: Conifers
+    commonNameZh: 松柏类
+    rank: phylum
+    taxonId: txn:56176
+    firstAppearance: 310
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: txn:56176
+    scientificName: Coniferophyta
+    commonName: Conifers
+    commonNameZh: 松柏类
+    rank: phylum
+    parentName: Gymnospermae navigation aggregate
+    extinct: false
+    geography:
+      - Living conifer sample across both hemispheres
+      - Fossil calibrations used in the dated analysis
+    overview:
+      page: en
+      section: s-4bce0461a9
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-36f7ce8f10
+        part: body
+      habitat:
+        page: en
+        section: s-2464dd00de
+        part: body
+      locomotion:
+        page: en
+        section: s-62d9ee11ee
+        part: body
+      bodySize:
+        page: en
+        section: s-91328ec11e
+        part: body
+      guild:
+        page: en
+        section: s-5b7bec2355
+        part: body
+    traits:
+      - page: en
+        section: s-3b486a8928
+        part: body
+      - page: en
+        section: s-863bd56e03
+        part: body
+      - page: en
+        section: s-10091ab254
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-7227e0a257
+      part: body
+    readerSections:
+      - id: reading-0
+        title:
+          en:
+            page: en
+            section: s-d550146dae
+            part: title
+          zh:
+            page: zh
+            section: s-cab5689b20
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d550146dae
+            part: body
+          zh:
+            page: zh
+            section: s-cab5689b20
+            part: body
+      - id: reading-1
+        title:
+          en:
+            page: en
+            section: s-1eb3c5e239
+            part: title
+          zh:
+            page: zh
+            section: s-f19586ae59
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1eb3c5e239
+            part: body
+          zh:
+            page: zh
+            section: s-f19586ae59
+            part: body
+    confidence: medium
+    referenceIds:
+      - leslie-2012-conifer-hemispheres
+      - leslie-2018-conifer-evolution
+    overviewZh:
+      page: zh
+      section: zh-d6887b330d6486
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-614182a8d3c41d
+      part: body
+  claims:
+    - subjectId: taxon:coniferophyta
+      claimKind: scientific
+      claimType: topology
+      statement: A fossil-informed synthesis relates extant conifer phylogeny to a much richer extinct record; it supports a sampled evolutionary framework but not a precise origin or uninterrupted global range for Coniferophyta.
+      confidence: medium
+      confidenceRationale: The review integrates living and fossil evidence explicitly, while acknowledging major extinction and sampling gaps that prevent exact endpoints.
+      referenceLinks:
+        - referenceId: leslie-2018-conifer-evolution
+          relation: supports
+          pages: 1531–1544
+          quoteLocator: Figures 1–3; fossil-record synthesis; conclusions
+    - subjectId: taxon:coniferophyta
+      claimKind: scientific
+      claimType: fossil-range
+      statement: "Coniferophyta is displayed at 300–0 Ma only as a conservative review-bounded fossil-to-living navigation range: the source says the conifer record spans more than 300 million years, not that 300 Ma is an exact origin or specimen-level FAD."
+      confidence: medium
+      confidenceRationale: Leslie et al. (2018) explicitly states an extensive fossil record spanning more than 300 million years and discusses extinction-driven sampling limits. Medium confidence uses 300 Ma only as a conservative evidence floor.
+      referenceLinks:
+        - relation: supports
+          referenceId: leslie-2018-conifer-evolution
+          pages: 105:1531–1544
+          figure: Figures 1–3
+          quoteLocator: Abstract; fossil-record synthesis and conclusions
+    - subjectId: taxon:coniferophyta
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Leslie et al. assembled an age-calibrated phylogeny sampling about 80% of living conifer species to compare sampled hemispheric clades; this molecular tree is not a complete total-group taxonomy, direct ancestor sequence or fossil occurrence ledger.
+      confidence: medium
+      confidenceRationale: The taxon sample, sequence analysis and fossil-calibration procedure are explicit, while extinct diversity and unsampled living species limit extension beyond the analyzed tree.
+      referenceLinks:
+        - referenceId: leslie-2012-conifer-hemispheres
+          relation: supports
+          pages: 16217–16221
+          figure: Figure 1; SI Appendix Figures S1–S2 and Table S1
+          quoteLocator: "Methods: phylogeny construction, dating and sampling; Results: dated extant-conifer tree"
+    - subjectId: taxon:coniferophyta
+      claimType: biogeography
+      claimKind: scientific
+      statement: The sampled living conifer tree contains broadly Northern- and Southern-Hemisphere lineages and supports a modelled contrast in their evolutionary dynamics; the result does not establish complete present or past distributions for Coniferophyta.
+      confidence: medium
+      confidenceRationale: The hemispheric coding and comparative results are direct parts of the primary analysis, but the sample is living-species focused and cannot supply a complete fossil or geographic record.
+      referenceLinks:
+        - referenceId: leslie-2012-conifer-hemispheres
+          relation: supports
+          pages: 16217–16221
+          figure: Figures 1–2; SI Appendix Table S1
+          quoteLocator: "Results: divergence-time patterns and diversification-model comparisons; Discussion: hemispheric and regional scope"
+    - subjectId: taxon:coniferophyta
+      claimType: morphology
+      claimKind: scientific
+      statement: The cited conifer analysis uses molecular sequences and fossil calibrations rather than a clade-wide morphological matrix; this profile therefore withholds universal leaf, cone and body-form traits instead of converting calibration fossils into body-character observations.
+      confidence: high
+      confidenceRationale: The methods disclose the molecular dataset and calibration role directly. High confidence applies to the study-scope limitation, not to any claim that conifers lack shared morphology.
+      referenceLinks:
+        - referenceId: leslie-2012-conifer-hemispheres
+          relation: supports
+          pages: 16217–16221
+          figure: "Figure 1; SI Appendix: Fossil calibrations"
+          quoteLocator: "Methods: molecular phylogeny and node-calibration scope"
+    - subjectId: taxon:coniferophyta
+      claimType: ecology
+      claimKind: scientific
+      statement: Leslie et al. discuss broad climatic and habitat contrasts around sampled living lineages but do not measure one diet, habitat, growth form, body-size distribution or ecological guild for all Coniferophyta; those profile fields remain explicitly ungeneralized.
+      confidence: high
+      confidenceRationale: The primary study tests diversification and hemispheric patterns rather than a universal conifer ecological phenotype; the explicit withholding follows that study boundary.
+      referenceLinks:
+        - referenceId: leslie-2012-conifer-hemispheres
+          relation: supports
+          pages: 16217–16221
+          figure: Figures 1–2
+          quoteLocator: "Discussion: regional climatic and habitat examples; limitations of a single causal explanation"
+  claim-rationales.zh:
+    - 该综述明确整合现生与化石证据，同时承认重大灭绝与取样空缺，因此不能给出精确端点。
+    - Leslie 等（2018）明确指出松柏类拥有超过 3 亿年的广泛化石记录，并讨论灭绝造成的采样限制。中等置信度仅把 300 Ma 用作保守证据下界。
+    - 类群取样、序列分析和化石校准流程均有明确说明；灭绝多样性与未取样现生物种限制了对分析树之外的外推。
+    - 半球编码和比较结果属于一手分析的直接组成，但研究以现生物种为主，不能提供完整化石或地理记录。
+    - 方法直接公开了分子数据集与校准的用途；高置信度仅指研究范围限制，并不主张松柏类缺少共享形态。
+    - 一手研究检验的是多样化与半球格局，而非普遍的松柏类生态表型；明确保留空缺符合其研究边界。
+  claim-statements.zh:
+    - 一项化石综合把现生松柏类系统关系与更丰富的灭绝记录联系起来；它支持取样演化框架，但不提供松柏类精确起源或连续全球范围。
+    - Coniferophyta 的 300–0 Ma 仅作为保守的综述限定化石—现生导航范围：来源表述松柏类记录超过 3 亿年，并不表示 300 Ma 是精确起源或标本级首现。
+    - Leslie 等构建了一个经年代校准、取样约 80% 现生松柏类物种的系统树，用于比较所采样的南北半球支系；这棵分子树不是完整总群分类、直系祖先序列或化石出现清单。
+    - 所采样的现生松柏类树包含大体分属北半球和南半球的支系，并支持其演化动态的模型化差异；该结果不能确立松柏门完整的现今或历史分布。
+    - 所引松柏类分析使用分子序列与化石校准，而不是覆盖全支系的形态矩阵；因此本档案不概括普遍的叶、球果或整体形态性状，也不把校准化石改写为身体性状观察。
+    - Leslie 等讨论了所采样现生支系所处的宽泛气候和生境差异，但没有为全部松柏门测定统一的食性、生境、生长型、体型分布或生态功能群；这些档案字段明确不作全门概括。
+  ranges:
+    - entityId: coniferophyta
+      rangeKind: global-composite
+      taxonomicConcept: Coniferophyta review-bounded fossil-to-living navigation range
+      geographicScope: Review statement of a fossil record exceeding 300 Myr plus living conifers
+      olderMa: 300
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 300 Ma edge is a conservative display floor for “more than 300 million years,” not a precise conifer origin or oldest-specimen date.
+      evidenceBasis: Leslie et al. review an extensive conifer fossil record spanning more than 300 Myr and explicitly caution that extant molecular samples omit extinct diversity.
+      confidence: medium
+      claimIds:
+        - claim:taxon:coniferophyta:range-boundary-rc50
+      referenceLocators:
+        - referenceId: leslie-2018-conifer-evolution
+          locator: 1531–1544; Abstract; Figures 1–3; fossil-record synthesis and conclusions
+      evidenceLevel: literature-synthesized

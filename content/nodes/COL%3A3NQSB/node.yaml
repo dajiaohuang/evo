@@ -1,0 +1,118 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius cinnamomeoventris
+  displayName: Hyperolius cinnamomeoventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQSB
+  sourceIndexes:
+    - name:
+        en: Hyperolius cinnamomeoventris
+        zh: Hyperolius cinnamomeoventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQSB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/237
+            queryName: Hyperolius cinnamomeoventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/175
+            queryName: Hyperolius tristis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/177
+            queryName: Rappia tristis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/179
+            queryName: Rappia cinnamomeiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/180
+            queryName: Hyperolius ituriensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/181
+            queryName: Hyperolius wittei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/155
+            queryName: Hyperolius cinnamomeoventris cinnamomeoventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/156
+            queryName: Hyperolius cinnamomeoventris wittei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ad2f88d8d
+      - s-9881536069
+      - s-0b40c99ebf
+      - s-1e85d3c8bb
+      - s-a1f7b8a0b3
+      - s-7752ab9daa
+      - s-1f04690c38
+      - s-2b96dcfbdc
+      - s-3025379faf
+      - s-0b1e7fe1ae
+      - s-07f89c827c
+      - s-a28f746c69
+      - s-537d4a9e3f
+      - s-326a9281f6
+      - s-7364bcc587
+      - s-645a023de0
+      - s-5007209a5d
+      - s-57524628e9
+    zh:
+      - s-d39dfe675a
+      - s-0517a4ec4b
+      - s-b77d902c7b
+      - s-f36d141b03
+      - s-bb88fe804b
+      - s-43d8ebb7bf
+      - s-9825d63bd6
+      - s-74773917ec
+      - s-ecac1201e2
+      - s-ac5d586bd1
+      - s-013878adc9
+      - s-29b1a92073
+      - s-48ac72a13f
+      - s-cb0ac9df22
+      - s-a0479205e5
+      - s-8b52aa41ae
+      - s-961055e623
+      - s-f00ac448cc

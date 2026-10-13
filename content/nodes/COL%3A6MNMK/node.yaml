@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes magalhaesi
+  displayName: Hylodes magalhaesi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNMK
+  sourceIndexes:
+    - name:
+        en: Hylodes magalhaesi
+        zh: Hylodes magalhaesi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNMK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/499
+            queryName: Hylodes magalhaesi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/477
+            queryName: Elosia magalhaesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d88a4038c
+      - s-734556d314
+      - s-ef13b7c2e8
+      - s-b1e99f1e4d
+      - s-06255fde02
+      - s-0f5618f87a
+      - s-0a21c56979
+      - s-8c93cfcd76
+      - s-79ab99761e
+      - s-b4ce8a8969
+      - s-d82584a3b6
+      - s-371ff36033
+      - s-e373d7f84a
+      - s-3bf8dd9004
+      - s-d8a6db93f8
+      - s-42cb463016
+      - s-a2ccf4f140
+    zh:
+      - s-3042ab6dfd
+      - s-f4e0b399b9
+      - s-229cc02a41
+      - s-fc99105650
+      - s-65064c3d75
+      - s-e15e96472f
+      - s-f73bbafd39
+      - s-61f97026bc
+      - s-ca3af99cd1
+      - s-f2af61aaae
+      - s-81cc9503eb
+      - s-f10fddb0ce
+      - s-afbe539f14
+      - s-a8bc1da2f1
+      - s-319e10a2ce
+      - s-f87e9d52b2
+      - s-968f31ee99

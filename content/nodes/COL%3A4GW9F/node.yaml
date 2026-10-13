@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus intermedius
+  displayName: Phrynobatrachus intermedius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW9F
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus intermedius
+        zh: Phrynobatrachus intermedius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW9F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/136
+            queryName: Phrynobatrachus intermedius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-449af9a9ad
+      - s-fec1fef45b
+      - s-47af47cab6
+      - s-f591b93325
+      - s-bb4a4ad637
+      - s-3f83a01028
+      - s-4feb83777e
+    zh:
+      - s-daa70bc374
+      - s-a6b5e33971
+      - s-cbdc95f5cd
+      - s-f3460fd202
+      - s-5d7731701e
+      - s-ec13fe84fc
+      - s-e49927389f

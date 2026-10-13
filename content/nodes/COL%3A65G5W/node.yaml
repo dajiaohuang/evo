@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus leucostictus
+  displayName: Afrixalus leucostictus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G5W
+  sourceIndexes:
+    - name:
+        en: Afrixalus leucostictus
+        zh: Afrixalus leucostictus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G5W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/73
+            queryName: Afrixalus leucostictus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d18c2e329b
+      - s-e337ad8feb
+      - s-5fc546df9c
+      - s-13f83b972d
+      - s-69301000f8
+      - s-c3067faf16
+      - s-c0d3697d96
+      - s-da4329d0b2
+    zh:
+      - s-761ae6868d
+      - s-5693051162
+      - s-1945afdbe4
+      - s-46ae597bee
+      - s-455b554c6e
+      - s-a87bdeb8eb
+      - s-e9d1c9217e
+      - s-13cb91461d

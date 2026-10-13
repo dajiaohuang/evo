@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phaeognathus
+  displayName: Phaeognathus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MGQ
+  sourceIndexes:
+    - name:
+        en: Phaeognathus
+        zh: Phaeognathus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MGQ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/153
+            queryName: Phaeognathus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 24
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-edbda3a530
+      - s-c06a1ea6a8
+      - s-df85e5018a
+      - s-957071ba4c
+      - s-1dff5b8c0e
+      - s-4310765726
+    zh:
+      - s-aadf06c3f0
+      - s-8d995b48dd
+      - s-95d4a55eec
+      - s-033221f8bd
+      - s-91ea952554
+      - s-a83ab7ae3d

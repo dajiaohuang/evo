@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus griphus
+  displayName: Eleutherodactylus griphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399B6
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus griphus
+        zh: Eleutherodactylus griphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399B6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/221
+            queryName: Eleutherodactylus griphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/3
+            queryName: Euhyas griphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d03d239ba7
+      - s-0d509b5824
+      - s-e2645abf66
+      - s-340984b487
+      - s-8e596efa65
+      - s-27d889f322
+      - s-33c19ca38a
+      - s-9614570c03
+      - s-568f70dcda
+      - s-b320ebc5d5
+    zh:
+      - s-27c866658b
+      - s-6832ff1e0b
+      - s-9856f45e4c
+      - s-ead6dada9b
+      - s-f9c4aba76a
+      - s-efb4f12192
+      - s-f5f042fa2c
+      - s-30ecf8faf1
+      - s-5c7b89d2f2
+      - s-1b71da2fc2

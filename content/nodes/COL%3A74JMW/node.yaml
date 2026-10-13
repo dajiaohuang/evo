@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oedipina tomasi
+  displayName: Oedipina tomasi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74JMW
+  sourceIndexes:
+    - name:
+        en: Oedipina tomasi
+        zh: Oedipina tomasi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74JMW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/94
+            queryName: Oedipina tomasi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7931aebfc6
+      - s-06462b3aa9
+      - s-6675a311ef
+      - s-9e70b02d5a
+      - s-132af53b33
+      - s-6443fdba6b
+      - s-8de5de8291
+      - s-4c58338b9b
+    zh:
+      - s-63d53a362d
+      - s-e39c9e1e77
+      - s-c918db811b
+      - s-1898721fb0
+      - s-5c602897b4
+      - s-8a9bc8aeb1
+      - s-53ea3e4191
+      - s-cbb45ad66b

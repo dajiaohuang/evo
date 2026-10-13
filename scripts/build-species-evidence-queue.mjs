@@ -23,7 +23,7 @@ const OUTPUT_ROOT = 'data/knowledge/species-evidence-queue'
 const OUTPUT_MANIFEST_PATH = `${OUTPUT_ROOT}/manifest.json`
 const OUTPUT_PREFIXES = [...'0123456789abcdef']
 const FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
-const FACET_STATUSES = ['supported', 'partially-supported', 'searched-no-evidence', 'conflicted', 'not-assessed']
+const FACET_STATUSES = ['supported', 'partially-supported', 'conflicted', 'not-assessed']
 const SOURCE_LEDGERS = [
   ['brazilFloraDescriptions', 'brazil-flora-descriptions-import-ledger.json'],
   ['fdacDescriptions', 'fdac-descriptions-import-ledger.json'],
@@ -121,13 +121,12 @@ function buildRow(node, sourceEntry, profile, dossier) {
       sourceIds: profileSourceIds,
     },
     dossier: {
-      status: dossier?.completeness?.status ?? 'missing',
+      present: Boolean(dossier),
       identityStatus: !dossier ? 'not-assessed' : identitySourceIds.length ? 'source-linked' : 'method-and-scope-recorded',
       identitySourceIds,
       sourceIds: dossierSourceIds,
       claimCount: dossier ? countClaims(dossier) : 0,
       rightsStatus: dossier ? dossierRightsStatus(dossier) : 'not-assessed',
-      systematicSearchRecorded: Boolean(dossier?.systematicSearch),
       facetStatuses,
     },
   }
@@ -139,13 +138,11 @@ function emptyCounts() {
     sourceOriginalAssociatedSpecies: 0,
     introductorySummarySpecies: 0,
     dossierSpecies: 0,
-    completeDossierSpecies: 0,
     speciesWithAnyEvidenceStage: 0,
     speciesWithoutAnyEvidenceStage: 0,
     speciesWithoutDossier: 0,
     sourceOriginalCollectionSpecies: Object.fromEntries(SOURCE_LEDGERS.map(([collection]) => [collection, 0])),
     profileRanks: {},
-    dossierStatuses: { missing: 0, incomplete: 0, complete: 0 },
     claimSourceRightsStatuses: {
       'not-assessed': 0,
       'no-biological-claim-sources': 0,
@@ -297,6 +294,7 @@ const profiles = JSON.parse(profileBytes.toString('utf8'))
 assert.equal(profiles.releaseAlias, RELEASE_ALIAS)
 const profileMap = new Map()
 for (const profile of profiles.records) {
+  assert.ok(!Object.hasOwn(profile, 'checkedAt'), `Retired profile checkedAt field: ${profile.colId}`)
   assert.ok(!profileMap.has(profile.colId), `Duplicate source-linked introductory summary: ${profile.colId}`)
   profileMap.set(profile.colId, profile)
 }
@@ -359,7 +357,7 @@ ensureOutputDirectory()
 const oldIndex = checkMode ? JSON.parse(readFileSync(join(queueRoot, 'manifest.json'), 'utf8')) : null
 if (checkMode) {
   assert.equal(oldIndex.generatedBy, 'scripts/build-species-evidence-queue.mjs')
-  assert.equal(oldIndex.schemaVersion, 1)
+  assert.equal(oldIndex.schemaVersion, 2)
 }
 
 const indexedShardByPrefix = new Map((oldIndex?.shards ?? []).map(shard => [shard.prefix, shard]))
@@ -440,9 +438,7 @@ for (const file of nodeFiles) {
     else counts.speciesWithoutDossier++
     if (hasSourceOriginal || hasSummary || hasDossier) counts.speciesWithAnyEvidenceStage++
     else counts.speciesWithoutAnyEvidenceStage++
-    counts.dossierStatuses[row.dossier.status]++
     counts.claimSourceRightsStatuses[row.dossier.rightsStatus]++
-    if (dossier?.completeness.status === 'complete') counts.completeDossierSpecies++
     for (const facet of FACETS) counts.facetStatuses[facet][row.dossier.facetStatuses[facet]]++
   }
 }
@@ -454,8 +450,7 @@ assert.equal(dossierMap.size, 0, `Dossier IDs absent from pinned COL hierarchy: 
 assert.equal(profileMap.size, 0, `Summary IDs absent from pinned COL hierarchy: ${[...profileMap.keys()].slice(0, 20).join(', ')}`)
 assert.equal(sourceOriginalIds.size, 0, `Source-original IDs absent from accepted COL26.8 species: ${[...sourceOriginalIds].slice(0, 20).join(', ')}`)
 assert.equal(counts.dossierSpecies, dossierIndex.recordCount, 'Dossier queue count differs from the validated sparse dossier index')
-assert.equal(counts.dossierStatuses.missing, acceptedSpeciesExpected - counts.dossierSpecies)
-assert.equal(counts.dossierStatuses.missing, counts.speciesWithoutDossier)
+assert.equal(counts.speciesWithoutDossier, acceptedSpeciesExpected - counts.dossierSpecies)
 for (const facet of FACETS) assert.equal(Object.values(counts.facetStatuses[facet]).reduce((sum, value) => sum + value, 0), acceptedSpeciesExpected, `Facet rows do not cover every accepted species: ${facet}`)
 counts.sourceOriginalCollectionSpecies = Object.fromEntries(Object.entries(counts.sourceOriginalCollectionSpecies).sort(([a], [b]) => a.localeCompare(b)))
 counts.profileRanks = Object.fromEntries([...profilesByRank.entries()].sort(([a], [b]) => a.localeCompare(b)))
@@ -465,7 +460,7 @@ for (const prefix of OUTPUT_PREFIXES) shards.push(await writers.get(prefix).fini
 const sourceDescriptionRows = sourceOriginalInputDigests.reduce((sum, item) => sum + item.textRecordCount, 0)
 const sourceOriginalDistinctSpecies = counts.sourceOriginalAssociatedSpecies
 const currentManifest = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   generatedBy: 'scripts/build-species-evidence-queue.mjs',
   releaseAlias: RELEASE_ALIAS,
   identityBoundary: 'Accepted species are exactly rank=species and status=accepted in the pinned COL26.8 hierarchy; every queue row is keyed by the verbatim COL usage ID.',

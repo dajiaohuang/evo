@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis reticulatus
+  displayName: Boophis reticulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPLZ
+  sourceIndexes:
+    - name:
+        en: Boophis reticulatus
+        zh: Boophis reticulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPLZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/291
+            queryName: Boophis reticulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c45dfb5efb
+      - s-78425c82d7
+      - s-660ddc6133
+      - s-9c7010cd21
+      - s-a398cbd5bf
+      - s-b35b1f8162
+      - s-b59598dcc8
+      - s-89c9660039
+      - s-b05b12e29d
+    zh:
+      - s-661ea79986
+      - s-ddfbf2d384
+      - s-dd249be594
+      - s-49a79e0d19
+      - s-0e70c4eb18
+      - s-294e1d050e
+      - s-795543c1b0
+      - s-f4655091c6
+      - s-efb4d6a760

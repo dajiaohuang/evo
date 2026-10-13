@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus atkinsi
+  displayName: Eleutherodactylus atkinsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3992C
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus atkinsi
+        zh: Eleutherodactylus atkinsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3992C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/158
+            queryName: Eleutherodactylus atkinsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/444
+            queryName: Eleutherodactylus estradai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/445
+            queryName: Euhyas atkinsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/458
+            queryName: Eleutherodactylus atkinsi orientalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/459
+            queryName: Eleutherodactylus atkinsi atkinsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/460
+            queryName: Eleutherodactylus atkinsi estradai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce690b013c
+      - s-21c899c924
+      - s-86b01da46f
+      - s-97052ee759
+      - s-aa2e17dbad
+      - s-7f4a6a26ad
+      - s-595b8af994
+      - s-fc290a7f95
+      - s-2aef0de7ca
+      - s-fb64c5c315
+      - s-0ba83388c7
+      - s-e5f16ab149
+      - s-6856646343
+      - s-f98a4a0778
+      - s-3d7756a2f3
+    zh:
+      - s-067e75c08e
+      - s-c85fa9c02d
+      - s-bd2a59b473
+      - s-cfc5386547
+      - s-a29e292677
+      - s-df48892e33
+      - s-e746db64f9
+      - s-5e79c121e6
+      - s-89a5c949e6
+      - s-2d1cd74ef5
+      - s-5c0d31b50a
+      - s-5b31bc4e2b
+      - s-0cb244e568
+      - s-7182822412
+      - s-d6dc302018

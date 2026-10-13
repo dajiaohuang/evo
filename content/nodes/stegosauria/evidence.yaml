@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-891359cdc7
+          part: title
+        zh:
+          page: zh
+          section: s-dd8b6f1405
+          part: title
+      text:
+        en:
+          page: en
+          section: s-891359cdc7
+          part: body
+        zh:
+          page: zh
+          section: s-dd8b6f1405
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-0767935b8a
+          part: title
+        zh:
+          page: zh
+          section: s-6ee3231483
+          part: title
+      text:
+        en:
+          page: en
+          section: s-0767935b8a
+          part: body
+        zh:
+          page: zh
+          section: s-6ee3231483
+          part: body
+  atlas-node:
+    name: Stegosauria
+    commonName: Stegosaurs
+    commonNameZh: 剑龙类
+    rank: suborder
+    taxonId: ""
+    firstAppearance: 170
+    lastAppearance: 140
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:stegosauria
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The reviewed stegosaur body-fossil record runs from the Middle Jurassic into the Early Cretaceous, with no definitive younger record in that synthesis; these literature bounds are not exact global origination or extinction instants.
+      confidence: medium
+      confidenceRationale: The review directly inventories named records and an updated sampled phylogeny, while explicitly noting fragmentary material and uncertain basal resolution.
+      referenceLinks:
+        - referenceId: maidment-2010-stegosauria-review
+          relation: supports
+          pages: 199–210
+          figure: Figures 1–5; supplementary matrix
+          quoteLocator: Abstract and pp. 199–201 fossil-record scope; pp. 205–209 phylogeny and limitations
+    - subjectId: taxon:stegosauria
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Stegosauria is displayed at 174.7–100.5 Ma only as the review's stage-level body-fossil coverage, not exact origination or extinction instants. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Stegosauria uses Maidment, S.C.R. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Middle Jurassic through Early Cretaceous body-fossil record reviewed by Maidment; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: maidment-2010-stegosauria-review
+          pages: 199–210
+          figure: Figures 1–5; supplementary matrix
+          quoteLocator: Abstract and pp. 199–201 fossil-record scope; pp. 205–209 phylogeny and limitations
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 综述直接盘点具名记录并更新取样系统发育，同时明确指出材料破碎和基部解析不确定。
+    - Stegosauria 采用 Maidment, S.C.R.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Middle Jurassic through Early Cretaceous body-fossil record reviewed by Maidment；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 所综述的剑龙类身体化石记录从中侏罗世延续到早白垩世，该综述未确认更年轻记录；这些文献边界不是精确的全球起源或灭绝时刻。
+    - Stegosauria 仅以 174.7–100.5 Ma 展示为综述覆盖的中侏罗世至早白垩世实体化石记录，而非精确起源或灭绝时刻。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: stegosauria
+      rangeKind: global-composite
+      taxonomicConcept: Stegosauria — source-bounded sample window
+      geographicScope: Middle Jurassic through Early Cretaceous body-fossil record reviewed by Maidment
+      olderMa: 174.7
+      youngerMa: 100.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the review's stage-level body-fossil coverage, not exact origination or extinction instants; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: "Stegosauria: a historical review of the body fossil record and phylogenetic relationships directly anchors the sampled window; the display does not extrapolate it into a global taxon duration."
+      confidence: medium
+      claimIds:
+        - claim:taxon:stegosauria:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: maidment-2010-stegosauria-review
+          locator: 199–210; Abstract and pp. 199–201 fossil-record scope; pp. 205–209 phylogeny and limitations
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized

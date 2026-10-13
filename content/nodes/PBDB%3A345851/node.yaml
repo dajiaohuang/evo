@@ -1,0 +1,44 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Sclerocephalus bavaricus
+  displayName: Sclerocephalus bavaricus
+  rank: species
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=345851
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Sclerocephalus bavaricus
+        zh: Sclerocephalus bavaricus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: txn:345851
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00018.json.gz
+            field: /records/318
+            queryName: Sclerocephalus bavaricus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2c019b6a98
+      - s-9d34f9dcac
+      - s-64c6c65bf4
+    zh:
+      - s-f9e34bec40
+      - s-fe9f2894e7
+      - s-642320b11b

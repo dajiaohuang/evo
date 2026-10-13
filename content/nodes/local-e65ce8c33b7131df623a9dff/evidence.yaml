@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius abuensis
+    name:
+      en: Hynobius abuensis
+      zh: Hynobius abuensis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2446fd8d5a
+            part: body
+          zh:
+            page: zh
+            section: s-b48072c3ee
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5babf398ee
+            part: body
+          zh:
+            page: zh
+            section: s-9308c9bfc1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 132; Reference.csv rows 4209
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 132
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius abuensis
+          - NA
+          - NA
+          - "57.3"
+          - "43.6"
+          - "27.3"
+          - "13.7"
+          - "11"
+          - "3.5"
+          - "3.4"
+          - NA
+          - "2"
+          - "3.3"
+          - NA
+          - "49.6"
+          - "6.9"
+          - "7.1"
+          - NA
+          - "2.5"
+          - "17.4"
+          - "19.8"
+          - "3.5"
+          - "2.9"
+          - "4.9"
+          - "1.7"
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4209
+        values:
+          - Caudata
+          - Hynobius_abuensis
+          - "Matsui, M., Okawa, H., Nishikawa, K., Aoki, G., Eto, K., Yoshikawa, N., . . . Tominaga, A. (2019). Systematics of the widely distributed Japanese clouded salamander, Hynobius nebulosus (Amphibia: Caudata: Hynobiidae), and its closest relatives. Current Herpetology, 38(1), 32-90. https://doi.org/10.5358/hsj.38.32"
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - UEW
+      - IND
+      - TL
+      - TW
+      - TH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NLSX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

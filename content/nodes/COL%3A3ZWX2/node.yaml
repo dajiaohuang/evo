@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mertensiella caucasica
+  displayName: Mertensiella caucasica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3ZWX2
+  sourceIndexes:
+    - name:
+        en: Mertensiella caucasica
+        zh: Mertensiella caucasica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3ZWX2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/427
+            queryName: Mertensiella caucasica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/2
+            queryName: Exaeretus caucasicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/3
+            queryName: Salamandra caucasica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/4
+            queryName: Salamandra caucasia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/2
+            queryName: Mertensiella caucasica caucasica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-62c9ffb851
+      - s-74e8ca0b25
+      - s-be00895b82
+      - s-d9851735ac
+      - s-93c95fa319
+      - s-37e56c4fd7
+      - s-bf8d5713e5
+      - s-048555d8db
+    zh:
+      - s-9f9c2734f9
+      - s-2d35b5f4ed
+      - s-b49315348a
+      - s-d66c351d1d
+      - s-cb327fd963
+      - s-cc9cf403bc
+      - s-328d9bea58
+      - s-f5500ab562

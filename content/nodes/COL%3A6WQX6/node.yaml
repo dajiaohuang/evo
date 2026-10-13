@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana tagoi
+  displayName: Rana tagoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6WQX6
+  sourceIndexes:
+    - name:
+        en: Rana tagoi
+        zh: Rana tagoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6WQX6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/85
+            queryName: Rana tagoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 68
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/245
+            queryName: Rana tagoi tagoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0cb6efd90e
+      - s-944bfde051
+      - s-f2f182cf99
+      - s-70beb26e9c
+      - s-3cfbdf8475
+      - s-013da998b4
+      - s-005189f187
+      - s-ca0dfe2084
+      - s-2d4ecb9399
+    zh:
+      - s-fbaf624dd0
+      - s-6be86a6f51
+      - s-2bf9d21b6d
+      - s-37d11c0c2e
+      - s-026ce63c92
+      - s-5a94e816e1
+      - s-06893f22f7
+      - s-7d6f69bf2f
+      - s-ea392fa17b

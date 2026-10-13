@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus yaracuyanus
+  displayName: Dendropsophus yaracuyanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S7Q
+  sourceIndexes:
+    - name:
+        en: Dendropsophus yaracuyanus
+        zh: Dendropsophus yaracuyanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S7Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/438
+            queryName: Dendropsophus yaracuyanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/2
+            queryName: Hyla yaracuyana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a115f244c0
+      - s-69f2379609
+      - s-99d20ce50d
+      - s-5ac47d8d73
+      - s-2b17c47882
+      - s-ad915dcbae
+      - s-3bd2af212d
+      - s-a8ec20917d
+      - s-668624afbd
+    zh:
+      - s-3706e065fa
+      - s-71b0ffd20a
+      - s-3bcac44310
+      - s-a9910277b7
+      - s-29b3c34821
+      - s-45a729bac4
+      - s-1b36e1301a
+      - s-205b7e7ddc
+      - s-8fea873723

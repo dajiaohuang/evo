@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uraeotyphlus bombayensis
+  displayName: Uraeotyphlus bombayensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TSPMK
+  sourceIndexes:
+    - name:
+        en: Uraeotyphlus bombayensis
+        zh: Uraeotyphlus bombayensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TSPMK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/213
+            queryName: Uraeotyphlus bombayensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/406
+            queryName: Ichthyophis bombayensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/408
+            queryName: Ichthyophis malabarensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/409
+            queryName: Ichthyophis peninsularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/410
+            queryName: Ichthyophis subterrestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4379ae5b6c
+      - s-1e5235f546
+      - s-8dc7c5d159
+      - s-05714a1c3d
+      - s-b058f53aaa
+      - s-c0d08185ad
+      - s-4ca88b8894
+      - s-204fae060e
+      - s-b02a4846df
+      - s-f46a2766a3
+      - s-488e339e93
+      - s-417b98e688
+    zh:
+      - s-17ef27dd68
+      - s-ccc64ac47a
+      - s-92354dfced
+      - s-c29234b2d4
+      - s-31ef0629ee
+      - s-48ebc5ebf1
+      - s-1fde661fea
+      - s-d65cfddf6d
+      - s-35762c4957
+      - s-1a2d434857
+      - s-b7a377d6b3
+      - s-a40cdd9420

@@ -1,0 +1,339 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Alytidae Fitzinger, 1843
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Alytidae
+      zh: Alytidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-138c01c38c
+            part: title
+          zh:
+            page: zh
+            section: s-639c678c59
+            part: title
+        text:
+          en:
+            page: en
+            section: s-138c01c38c
+            part: body
+          zh:
+            page: zh
+            section: s-639c678c59
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fa73990f99
+            part: title
+          zh:
+            page: zh
+            section: s-aa5a84e071
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fa73990f99
+            part: body
+          zh:
+            page: zh
+            section: s-aa5a84e071
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-22215bf6e8
+            part: title
+          zh:
+            page: zh
+            section: s-a3e9947b97
+            part: title
+        text:
+          en:
+            page: en
+            section: s-22215bf6e8
+            part: body
+          zh:
+            page: zh
+            section: s-a3e9947b97
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-b71f59f0a8
+            part: title
+          zh:
+            page: zh
+            section: s-9c96661e55
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b71f59f0a8
+            part: body
+          zh:
+            page: zh
+            section: s-9c96661e55
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b0d166d9dc
+            part: title
+          zh:
+            page: zh
+            section: s-e437e40b40
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: T5J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AT5J
+            label:
+              en: Alytes
+              zh: Alytes
+          - kind: catalogue
+            colId: 46Q9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46Q9
+            label:
+              en: Discoglossus
+              zh: Discoglossus
+          - kind: catalogue
+            colId: 639FW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A639FW
+            label:
+              en: Latonia
+              zh: Latonia
+        text:
+          en:
+            page: en
+            section: s-b0d166d9dc
+            part: body
+          zh:
+            page: zh
+            section: s-e437e40b40
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-68688ece4d
+            part: title
+          zh:
+            page: zh
+            section: s-56663e8225
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-68688ece4d
+            part: body
+          zh:
+            page: zh
+            section: s-56663e8225
+            part: body
+      - topic: limitations
+        title:
+          en:
+            page: en
+            section: s-b7edd5b2ba
+            part: title
+          zh:
+            page: zh
+            section: s-022ce522b6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b7edd5b2ba
+            part: body
+          zh:
+            page: zh
+            section: s-022ce522b6
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Alytidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/68T
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Alytidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Alytidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e6925534e8
+        part: body
+      zh:
+        page: zh
+        section: s-5b7852c6a9
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Alytidae
+      sourceRowIds:
+        - Anf0002
+        - Anf0003
+        - Anf0004
+        - Anf0005
+        - Anf0006
+        - Anf0007
+        - Anf0008
+        - Anf0009
+        - Anf0010
+        - Anf0011
+        - Anf0012
+        - Anf0013
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 8
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 12
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 11
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 5
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 12
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Alytes cisternasii
+          path: content/nodes/local-1966cd58f18cdf040c73e3fc
+        - scientificName: Alytes dickhilleni
+          path: content/nodes/local-23ef89cc9c52f45009165f9e
+        - scientificName: Alytes maurus
+          path: content/nodes/local-6b3c0697e39b905e23e60c40
+        - scientificName: Alytes muletensis
+          path: content/nodes/local-3e03a92c0386ee73df8b31f4
+        - scientificName: Alytes obstetricans
+          path: content/nodes/local-2b2050617921837f59cc6901
+        - scientificName: Discoglossus galganoi
+          path: content/nodes/local-5e489b796a42f9dd36aef5d3
+        - scientificName: Discoglossus scovazzi
+          path: content/nodes/local-67a319b4dbcfa83107d2c376
+        - scientificName: Discoglossus pictus
+          path: content/nodes/local-b3e580eb93383e8558862344
+      metrics:
+        - metric: CTmax
+          rows: 25
+          sourceConcepts: 8
+        - metric: CTmin
+          rows: 6
+          sourceConcepts: 6
+        - metric: Tpref
+          rows: 9
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

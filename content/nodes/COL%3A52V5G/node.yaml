@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Strabomantis cerastes
+  displayName: Strabomantis cerastes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/52V5G
+  sourceIndexes:
+    - name:
+        en: Strabomantis cerastes
+        zh: Strabomantis cerastes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 52V5G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/326
+            queryName: Strabomantis cerastes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/300
+            queryName: Eleutherodactylus cerastes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/195
+            queryName: Eleutherodactylus sernai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/196
+            queryName: Limnophys cerastes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fdcce8e689
+      - s-9c82f218b9
+      - s-04ef4edb6f
+      - s-df5c56f405
+      - s-755b2702c7
+      - s-1cb4af5c0d
+      - s-d7e28b67f1
+      - s-1593c90d2c
+      - s-faaf30c72a
+    zh:
+      - s-b25cb96d87
+      - s-3354408bdb
+      - s-c67fe2100f
+      - s-2bfe3de763
+      - s-a5e1539cef
+      - s-fe76ec6b02
+      - s-beca60b078
+      - s-c9d15a6672
+      - s-b9d841cbd9

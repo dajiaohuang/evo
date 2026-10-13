@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophryne signata
+  displayName: Pelophryne signata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CGB
+  sourceIndexes:
+    - name:
+        en: Pelophryne signata
+        zh: Pelophryne signata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CGB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/471
+            queryName: Pelophryne signata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/33
+            queryName: Nectophryne signata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/34
+            queryName: Nectophryne exigua
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-98a4abf4d8
+      - s-644a91da3c
+      - s-8cf542390e
+      - s-3bfbb0e694
+      - s-7dfba63791
+      - s-26832c958a
+      - s-d63fbff3fe
+      - s-9e92de36b1
+      - s-e7bf6d829d
+      - s-b01fc324c0
+      - s-aceddc7be3
+      - s-f0c8f5b095
+      - s-49117bc6fd
+      - s-87be0e67c2
+      - s-db5be3a3f5
+      - s-be00f8fc99
+    zh:
+      - s-b7603964b0
+      - s-2d516376fd
+      - s-9888a9714d
+      - s-b5ba13620d
+      - s-7163f56e10
+      - s-6d69d8ab27
+      - s-a537c2a94d
+      - s-77b0fa6cc6
+      - s-50287bc5ea
+      - s-c01eea1fc5
+      - s-418a08a9e5
+      - s-a596660615
+      - s-e30fe54149
+      - s-c4481d12ab
+      - s-f9824cc78c
+      - s-0272f49d63

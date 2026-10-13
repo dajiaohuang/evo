@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor olanchano
+  displayName: Craugastor olanchano
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC72
+  sourceIndexes:
+    - name:
+        en: Craugastor olanchano
+        zh: Craugastor olanchano
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC72
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/149
+            queryName: Craugastor olanchano
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/462
+            queryName: Eleutherodactylus olanchano
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bfb88cbf5a
+      - s-16a17e3b70
+      - s-1553e5e30e
+      - s-250ff8e3fa
+      - s-1d10f2ea21
+      - s-aa5689287c
+      - s-3288ce738d
+      - s-7798a08360
+      - s-3c4b9d770a
+    zh:
+      - s-535fb091b6
+      - s-90e9722a3f
+      - s-3641419d2f
+      - s-bbf0bfc64f
+      - s-777163dd6c
+      - s-c9eed427ae
+      - s-5f7259ab9a
+      - s-d54440b329
+      - s-032e4f667d

@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus marmoratus
+  displayName: Desmognathus marmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/353MN
+  sourceIndexes:
+    - name:
+        en: Desmognathus marmoratus
+        zh: Desmognathus marmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 353MN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/478
+            queryName: Desmognathus marmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/293
+            queryName: Leurognathus marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/50
+            queryName: Leurognathus marmoratus marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/0
+            queryName: Leurognathus marmorata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 32
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/305
+            queryName: Leurognathus marmorata marmorata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/307
+            queryName: Leurognathus marmoratus intermedius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d19805d7e5
+      - s-93b4d26390
+      - s-7d82b42823
+      - s-9c52fad1a0
+      - s-9aae5611e4
+      - s-a794d772ec
+      - s-4f03a379cd
+      - s-bed8ee3bac
+      - s-c3e3019082
+      - s-a54ee072e3
+      - s-6ced1761fc
+      - s-cf6ef0a3ec
+      - s-dbf5deb87b
+      - s-280dc0d42c
+      - s-ab4bd982c9
+      - s-49fe9a8d80
+      - s-13019ab6de
+      - s-f191fd0220
+      - s-45c017bd6e
+      - s-4cb693eced
+      - s-8e92f15147
+      - s-aaa77b353d
+      - s-ea80d5f57f
+    zh:
+      - s-bba13ba974
+      - s-3be7a69c03
+      - s-339f92d8ad
+      - s-82fbed6192
+      - s-1a4b8b8728
+      - s-63212ba4cc
+      - s-28bae1e5c0
+      - s-b60f5a8af6
+      - s-f42214cf13
+      - s-3aff29531b
+      - s-80e8823d2f
+      - s-5c1e59810c
+      - s-867041017e
+      - s-89abebd751
+      - s-6127c536db
+      - s-8964f0ca13
+      - s-1a8a891ad8
+      - s-585ba8042d
+      - s-b6faddffd7
+      - s-cc06b9b258
+      - s-59e9800222
+      - s-849e3c13a3
+      - s-8a9972bdaf

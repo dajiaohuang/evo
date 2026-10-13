@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes travancoricus
+  displayName: Raorchestes travancoricus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X4S3
+  sourceIndexes:
+    - name:
+        en: Raorchestes travancoricus
+        zh: Raorchestes travancoricus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X4S3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/197
+            queryName: Raorchestes travancoricus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/286
+            queryName: Philautus travancoricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/438
+            queryName: Ixalus travancoricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/439
+            queryName: Rhacophorus travancoricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/440
+            queryName: Pseudophilautus travancoricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ec98e00cdd
+      - s-d21de6200b
+      - s-53fde6fd1f
+      - s-12f416a55e
+      - s-71b94157f6
+      - s-a052871832
+      - s-8e894325da
+      - s-24e6bf5dfe
+      - s-b24ffe8c95
+      - s-ec0d4c17c3
+    zh:
+      - s-bbfbe64011
+      - s-8ad00529cc
+      - s-8338dd667e
+      - s-147c61c4b0
+      - s-52432a4679
+      - s-cec28d6a51
+      - s-f20bc79701
+      - s-20abb18c12
+      - s-a88970dfb2
+      - s-f17b21016a

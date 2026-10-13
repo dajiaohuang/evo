@@ -1,0 +1,315 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-a0b23c1397
+      part: title
+    titleZh: 三次爬行动物辐射与十个证据档案
+    dek:
+      page: en
+      section: s-a0b23c1397
+      part: body
+    theme: teal
+    durationMinutes: 16
+    featured: true
+    steps:
+      - id: cartorhynchus-holotype
+        title:
+          page: en
+          section: s-e8a643e66d
+          part: title
+        titleZh:
+          page: zh
+          section: s-650839e8f3
+          part: title
+        text:
+          page: en
+          section: s-e8a643e66d
+          part: body
+        textZh:
+          page: zh
+          section: s-650839e8f3
+          part: body
+        age: 248
+        timeRange:
+          - 248
+          - 248
+        taxonIds:
+          - ichthyosauria
+          - cartorhynchus
+        view: evidence
+        eventId: cartorhynchus-holotype-body-plan
+        annotation: The corrigendum is part of the evidence record; it changed character descriptions and tree statistics while retaining the reported topology.
+        claimLinks:
+          - claimId: claim:event:cartorhynchus-holotype-body-plan
+            relation: supports
+      - id: chaohusaurus-pregnancy
+        title:
+          page: en
+          section: s-a73b398803
+          part: title
+        titleZh:
+          page: zh
+          section: s-e9158af32f
+          part: title
+        text:
+          page: en
+          section: s-a73b398803
+          part: body
+        textZh:
+          page: zh
+          section: s-e9158af32f
+          part: body
+        age: 248
+        timeRange:
+          - 248
+          - 248
+        taxonIds:
+          - ichthyosauria
+          - chaohusaurus
+        view: evidence
+        eventId: chaohusaurus-maternal-specimen
+        annotation: A specimen-level reproductive record does not define the ancestral state of all marine reptiles.
+        claimLinks:
+          - claimId: claim:event:chaohusaurus-maternal-specimen
+            relation: supports
+      - id: stenopterygius-soft-tissue
+        title:
+          page: en
+          section: s-3a4ce9ce44
+          part: title
+        titleZh:
+          page: zh
+          section: s-42dc250ec6
+          part: title
+        text:
+          page: en
+          section: s-3a4ce9ce44
+          part: body
+        textZh:
+          page: zh
+          section: s-42dc250ec6
+          part: body
+        age: 180
+        timeRange:
+          - 182.7
+          - 174.1
+        taxonIds:
+          - ichthyosauria
+          - stenopterygius
+        view: evidence
+        eventId: stenopterygius-soft-tissues
+        annotation: One exceptional specimen does not establish a universal tissue condition for Ichthyosauria.
+        claimLinks:
+          - claimId: claim:event:stenopterygius-soft-tissues
+            relation: supports
+      - id: bobosaurus-candidate
+        title:
+          page: en
+          section: s-802ddc3ada
+          part: title
+        titleZh:
+          page: zh
+          section: s-2c667768d4
+          part: title
+        text:
+          page: en
+          section: s-802ddc3ada
+          part: body
+        textZh:
+          page: zh
+          section: s-2c667768d4
+          part: body
+        age: 232.15
+        timeRange:
+          - 237
+          - 227.3
+        taxonIds:
+          - plesiosauria
+        view: evidence
+        eventId: bobosaurus-plesiosaurian-affinity
+        annotation: Compare this uncertain candidate with the separately documented Rhaetian Rhaeticosaurus skeleton.
+        claimLinks:
+          - claimId: claim:event:bobosaurus-plesiosaurian-affinity
+            relation: supports
+      - id: rhaeticosaurus-skeleton
+        title:
+          page: en
+          section: s-95e5bfdc61
+          part: title
+        titleZh:
+          page: zh
+          section: s-7435c2df84
+          part: title
+        text:
+          page: en
+          section: s-95e5bfdc61
+          part: body
+        textZh:
+          page: zh
+          section: s-7435c2df84
+          part: body
+        age: 203.55
+        timeRange:
+          - 205.7
+          - 201.4
+        taxonIds:
+          - plesiosauria
+          - rhaeticosaurus
+        view: evidence
+        eventId: rhaeticosaurus-holotype-histology
+        annotation: A named Triassic skeleton is not automatically the global first occurrence or a direct ancestor of later plesiosaurs.
+        claimLinks:
+          - claimId: claim:event:rhaeticosaurus-holotype-histology
+            relation: supports
+      - id: polycotylus-fetus
+        title:
+          page: en
+          section: s-ab63a89814
+          part: title
+        titleZh:
+          page: zh
+          section: s-9cf0aa9837
+          part: title
+        text:
+          page: en
+          section: s-ab63a89814
+          part: body
+        textZh:
+          page: zh
+          section: s-9cf0aa9837
+          part: body
+        age: 78
+        timeRange:
+          - 83.6
+          - 72.1
+        taxonIds:
+          - plesiosauria
+          - polycotylus
+        view: evidence
+        eventId: polycotylus-gravid-specimen
+        annotation: Preserved reproductive anatomy and inferred life-history strategy have different evidentiary strength.
+        claimLinks:
+          - claimId: claim:event:polycotylus-gravid-specimen
+            relation: supports
+      - id: plesiosaur-flipper-experiment
+        title:
+          page: en
+          section: s-ec9d85e943
+          part: title
+        titleZh:
+          page: zh
+          section: s-1907dc6175
+          part: title
+        text:
+          page: en
+          section: s-ec9d85e943
+          part: body
+        textZh:
+          page: zh
+          section: s-1907dc6175
+          part: body
+        age: 100
+        timeRange:
+          - 201.4
+          - 66
+        taxonIds:
+          - plesiosauria
+        view: evidence
+        eventId: plesiosaur-four-flipper-model
+        annotation: Model inputs, measured outputs and palaeobiological extrapolation remain separate.
+        claimLinks:
+          - claimId: claim:event:plesiosaur-four-flipper-model
+            relation: supports
+      - id: tupandactylus-filaments
+        title:
+          page: en
+          section: s-7a63a0b01c
+          part: title
+        titleZh:
+          page: zh
+          section: s-eb4c57faf5
+          part: title
+        text:
+          page: en
+          section: s-7a63a0b01c
+          part: body
+        textZh:
+          page: zh
+          section: s-eb4c57faf5
+          part: body
+        age: 113
+        timeRange:
+          - 115
+          - 110
+        taxonIds:
+          - pterosauria
+          - tupandactylus
+        view: evidence
+        eventId: tupandactylus-feather-melanosomes
+        annotation: Preserved structures, colour-function hypotheses and reconstructed ancestral states are different claim types.
+        claimLinks:
+          - claimId: claim:event:tupandactylus-feather-melanosomes
+            relation: supports
+      - id: hamipterus-eggs
+        title:
+          page: en
+          section: s-4b7dd341cc
+          part: title
+        titleZh:
+          page: zh
+          section: s-bcb3ec837a
+          part: title
+        text:
+          page: en
+          section: s-4b7dd341cc
+          part: body
+        textZh:
+          page: zh
+          section: s-bcb3ec837a
+          part: body
+        age: 112.5
+        timeRange:
+          - 115
+          - 110
+        taxonIds:
+          - pterosauria
+          - hamipterus
+        view: evidence
+        eventId: hamipterus-egg-assemblage
+        annotation: Egg and embryo counts do not by themselves demonstrate parental care or post-hatching flight capacity.
+        claimLinks:
+          - claimId: claim:event:hamipterus-egg-assemblage
+            relation: supports
+      - id: pterosaur-launch-model
+        title:
+          page: en
+          section: s-f87f70f3e4
+          part: title
+        titleZh:
+          page: zh
+          section: s-8ea883fc06
+          part: title
+        text:
+          page: en
+          section: s-f87f70f3e4
+          part: body
+        textZh:
+          page: zh
+          section: s-8ea883fc06
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - pterosauria
+          - pteranodontidae
+        view: evidence
+        eventId: giant-pterosaur-launch-model
+        annotation: COL26.8 contributes zero accepted species through these fossil-root routes; naming coverage does not establish species-specific evidence, and the three radiations remain separate.
+        claimLinks:
+          - claimId: claim:event:giant-pterosaur-launch-model
+            relation: supports
+    evidenceStatus: available-with-limitations

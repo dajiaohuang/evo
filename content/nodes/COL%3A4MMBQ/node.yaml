@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Probreviceps rungwensis
+  displayName: Probreviceps rungwensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMBQ
+  sourceIndexes:
+    - name:
+        en: Probreviceps rungwensis
+        zh: Probreviceps rungwensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMBQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/202
+            queryName: Probreviceps rungwensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/215
+            queryName: Probreviceps macrodactylus rungwensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c72dab2154
+      - s-4452304cdf
+      - s-15b4f12d7d
+      - s-7bf61aca14
+      - s-5f666f076e
+      - s-326378e900
+      - s-0e3c84a515
+      - s-80e46b4e8b
+      - s-6e8937a0ae
+    zh:
+      - s-f8bddcf276
+      - s-78da82b78f
+      - s-efa82d8233
+      - s-06f8fed4a8
+      - s-0ddf6b2e8c
+      - s-63a87a0e3c
+      - s-27b94fbf31
+      - s-c2f47f6600
+      - s-f3f6b7e2a3

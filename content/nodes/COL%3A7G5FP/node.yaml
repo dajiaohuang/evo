@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vitreorana castroviejoi
+  displayName: Vitreorana castroviejoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7G5FP
+  sourceIndexes:
+    - name:
+        en: Vitreorana castroviejoi
+        zh: Vitreorana castroviejoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7G5FP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/243
+            queryName: Vitreorana castroviejoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/492
+            queryName: Cochranella castroviejoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e118e79629
+      - s-75b8aec5a7
+      - s-5a271f04e8
+      - s-ab71453150
+      - s-35b3f0d1d2
+      - s-bc986a13b4
+      - s-9353ace475
+    zh:
+      - s-785a7a6337
+      - s-c120ccba52
+      - s-c71138a3c5
+      - s-643144c499
+      - s-3d8e268348
+      - s-658de4e97d
+      - s-a612815ac4

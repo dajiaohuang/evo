@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyloscirtus tolkieni Sánchez-Nivicela, Falcón-Reibán & Cisneros-Heredia, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyloscirtus tolkieni
+      zh: Hyloscirtus tolkieni
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3242167f31
+            part: title
+          zh:
+            page: zh
+            section: s-44d1c8afa6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3242167f31
+            part: body
+          zh:
+            page: zh
+            section: s-44d1c8afa6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8b35f5d2ed
+            part: title
+          zh:
+            page: zh
+            section: s-e65381714d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8b35f5d2ed
+            part: body
+          zh:
+            page: zh
+            section: s-e65381714d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-84cefe6645
+            part: title
+          zh:
+            page: zh
+            section: s-b01e4a8d94
+            part: title
+        sourceIds:
+          - primary-pmc10208809-pyzyf
+        text:
+          en:
+            page: en
+            section: s-84cefe6645
+            part: body
+          zh:
+            page: zh
+            section: s-b01e4a8d94
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3e588e96c5
+            part: title
+          zh:
+            page: zh
+            section: s-b7c59dc0e3
+            part: title
+        sourceIds:
+          - primary-pmc10208809-pyzyf
+        text:
+          en:
+            page: en
+            section: s-3e588e96c5
+            part: body
+          zh:
+            page: zh
+            section: s-b7c59dc0e3
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-d44ed9156d
+            part: title
+          zh:
+            page: zh
+            section: s-f0a2442d3f
+            part: title
+        sourceIds:
+          - primary-pmc10208809-pyzyf
+        text:
+          en:
+            page: en
+            section: s-d44ed9156d
+            part: body
+          zh:
+            page: zh
+            section: s-f0a2442d3f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyloscirtus tolkieni
+          url: https://www.checklistbank.org/dataset/316115/taxon/PYZYF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10208809-pyzyf
+        referenceId: ref-c19230f4-af5f-433c-a7af-b3d30bc8d8ac
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hyloscirtus tolkieni: Diagnosis and distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d18d6acfda
+        part: body
+      zh:
+        page: zh
+        section: s-0cc4417066
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1141.90290
+        referenceId: ref-c19230f4-af5f-433c-a7af-b3d30bc8d8ac
+        sourceKey: primary-pmc10208809-pyzyf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10208809/article.xml
+        sourceConcept: Hyloscirtus tolkieni
+        evidenceRead: "Hyloscirtus tolkieni: Diagnosis and distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A diagnosis from one adult female
+              zh: 一只成年雌性的鉴别描述
+            referenceId: ref-c19230f4-af5f-433c-a7af-b3d30bc8d8ac
+            sourceKey: primary-pmc10208809-pyzyf
+            locator: "Hyloscirtus tolkieni: Diagnosis and distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2493a79a20
+                part: body
+              zh:
+                page: zh
+                section: s-3f043af6dd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: One high-montane night observation
+              zh: 一次高山夜间观察
+            referenceId: ref-c19230f4-af5f-433c-a7af-b3d30bc8d8ac
+            sourceKey: primary-pmc10208809-pyzyf
+            locator: "Hyloscirtus tolkieni: Diagnosis and distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e04dcedfa0
+                part: body
+              zh:
+                page: zh
+                section: s-e87bceca71
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: The authors’ dated assessment proposal
+              zh: 作者有年代限定的评估建议
+            referenceId: ref-c19230f4-af5f-433c-a7af-b3d30bc8d8ac
+            sourceKey: primary-pmc10208809-pyzyf
+            locator: "Hyloscirtus tolkieni: Diagnosis and distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0a68525fd6
+                part: body
+              zh:
+                page: zh
+                section: s-5ad43b9457
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

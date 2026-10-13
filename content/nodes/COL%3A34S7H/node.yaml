@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus triangulum
+  displayName: Dendropsophus triangulum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S7H
+  sourceIndexes:
+    - name:
+        en: Dendropsophus triangulum
+        zh: Dendropsophus triangulum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S7H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/431
+            queryName: Dendropsophus triangulum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/486
+            queryName: Hyla triangulum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/350
+            queryName: Hyla favosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/428
+            queryName: Hyla leucophyllata triangulum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-61a923c783
+      - s-8923baf673
+      - s-567f0b4e08
+      - s-37afba5458
+      - s-8fbfbb1b04
+      - s-1180bb1db8
+      - s-fcb994f746
+      - s-27c7c2a6d8
+      - s-174e4be433
+      - s-4c7c7651bf
+      - s-f9543352d3
+      - s-0444fd2e92
+      - s-13cbb72c0d
+      - s-a7a97d8815
+      - s-1027da9602
+      - s-c76ea0ab6f
+      - s-b7d265cf9b
+      - s-4f88fa83e6
+      - s-1fdc2a8407
+      - s-f17b4fe25d
+      - s-88f99e4906
+      - s-b01332908e
+      - s-13075cc297
+    zh:
+      - s-c3de4351d9
+      - s-2a88bb5ad7
+      - s-1793f234b5
+      - s-e7b94709ed
+      - s-75e15b2dc9
+      - s-e99a0c9b80
+      - s-cdcba6aefd
+      - s-1c659b5500
+      - s-11d122433c
+      - s-4518023e33
+      - s-22c4ce7c9a
+      - s-bca8143864
+      - s-3e4d75f7f1
+      - s-16b75577c4
+      - s-442518261c
+      - s-56d99b1474
+      - s-379f14f77f
+      - s-13559832fe
+      - s-4a0a0962a0
+      - s-0ecf0e4439
+      - s-103cd281ef
+      - s-9b5dd92817
+      - s-148e2422bc

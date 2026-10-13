@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Emoia loyaltiensis
+    rank: species
+    sourceDatasetId: "1008"
+    name:
+      zh: Emoia loyaltiensis
+      en: Emoia loyaltiensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-43ad4c9922
+            part: body
+          en:
+            page: en
+            section: s-85b1943669
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c9ca7a99f7
+            part: body
+          en:
+            page: en
+            section: s-74d45b93d0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-b1d009c6eb
+            part: body
+          en:
+            page: en
+            section: s-1f5102848f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-dd6d03ba88
+            part: body
+          en:
+            page: en
+            section: s-fb0666f643
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Emoia loyaltiensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/39HCD
+          locator: Pinned accepted name, family and recorded ancestry; historical concept equivalence not assumed.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceClassification
+          - sourceCitationByField
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits dataset v1-2.xlsx; Data row 4530; Species=Emoia loyaltiensis; Sources of individual trait val for the same species; Trait definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 45408133
+          sourceFileMd5: a00be695740e752db2654537bbb0814c
+          sourceFileSha256: 74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a
+          sourceClassification: Reptile Database 2023 as recorded in workbook
+          sourceCitationByField:
+            Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm): Meiri 2018
+            Maximum female length ("SVL", mm)/straight carapace length for turtles ("SCL", mm): Meiri 2018
+            Microhabitat: Meiri 2018
+            Active time: Meiri 2018
+            Reproductive mode: Zimin et al. 2022
+            Mean number of offspring per litter or number of eggs per clutch: Meiri et al. 2020
+            Smallest clutch size: Meiri 2018
+            Largest clutch size: Meiri 2018
+          scope:
+            zh: 尺寸、活动、取食与繁殖的已引性状资料；不外推体重、幼体长度、毒性、保护或当前分布。
+            en: Cited size, activity, feeding and reproductive traits; no mass, juvenile-length, venom, conservation or current-range inference.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+    limitations:
+      zh:
+        page: zh
+        section: s-792f4b6f8f
+        part: body
+      en:
+        page: en
+        section: s-c34b9b3f94
+        part: body

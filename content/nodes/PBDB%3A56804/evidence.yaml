@@ -1,0 +1,165 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Glanosuchus macrops
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Glanosuchus macrops
+      en: Glanosuchus macrops
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2a97bd9279
+            part: body
+          en:
+            page: en
+            section: s-994f83e385
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-763217e284
+            part: body
+          en:
+            page: en
+            section: s-d888cfc134
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3499f14354
+            part: body
+          en:
+            page: en
+            section: s-ffd7e2ba8b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dd1fa9ca87
+            part: body
+          en:
+            page: en
+            section: s-17f85b5c84
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ba2d88c0ca
+            part: body
+          en:
+            page: en
+            section: s-9430c9c486
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Glanosuchus macrops
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=56804&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:56804; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:56804
+          selectedOccurrenceIds:
+            - occ:851071
+            - occ:851243
+            - occ:1328811
+            - occ:1340488
+            - occ:1340602
+          selectedCollectionIds:
+            - col:94617
+            - col:94649
+            - col:176250
+            - col:176247
+            - col:176355
+          sourceReferenceIds:
+            - ref:32226
+            - ref:32224
+            - ref:27216
+          originalIdentificationMappings:
+            - occurrenceId: occ:851071
+              originalIdentifiedName: Glanosuchus macrops n. gen. n. sp.
+              acceptedName: Glanosuchus macrops
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5f7fe4fbf0
+        part: body
+      en:
+        page: en
+        section: s-17b0deeb49
+        part: body

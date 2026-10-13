@@ -1,0 +1,253 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Tujiaaspis
+    commonName: Silurian galeaspid
+    commonNameZh: 志留纪土家鱼
+    rank: genus
+    taxonId: txn:503608
+    firstAppearance: 438.6
+    lastAppearance: 432.9
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: historical-grade-membership
+  atlas-profile:
+    pbdbTaxonId: txn:503608
+    scientificName: Tujiaaspis
+    commonName: Silurian galeaspid
+    commonNameZh: 志留纪土家鱼
+    rank: genus
+    parentName: Ostracodermi historical navigation grade
+    extinct: true
+    geography:
+      - Huixingshao Formation
+      - Lianghe village, Yongdong town, Xiushan County, Chongqing Municipality
+      - Kapeng Reservoir, Baojing County, Xiangxi, Hunan
+      - South China
+    overview:
+      page: en
+      section: s-b047312eb6
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-ff62c03850
+        part: body
+      habitat:
+        page: en
+        section: s-ea2f2b5f28
+        part: body
+      locomotion:
+        page: en
+        section: s-a5ad410199
+        part: body
+      bodySize:
+        page: en
+        section: s-0b2b16c396
+        part: body
+      guild:
+        page: en
+        section: s-823d16eb14
+        part: body
+      dietZh:
+        page: zh
+        section: zh-2b0f52b67c6121
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-e1a931bf9e66ca
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-d3282e1f68e30d
+        part: body
+      guildZh:
+        page: zh
+        section: zh-26f7e166501964
+        part: body
+    traits:
+      - page: en
+        section: s-da57a51ea5
+        part: body
+      - page: en
+        section: s-da525353a3
+        part: body
+      - page: en
+        section: s-2931520108
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-8bbedd83e8
+      part: body
+    confidence: medium
+    referenceIds:
+      - gai-2022-tujiaaspis
+    overviewZh:
+      page: zh
+      section: s-650a915d96
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-a2a920e7f6
+      part: body
+    readerSources:
+      - id: gai-2022-tujiaaspis
+        referenceId: gai-2022-tujiaaspis
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Gai et al. (2022), pp. 959–963, Figures 1–4 and Extended Data Figures 1–6: articulated specimens, fin anatomy, sampled localities and a computed passive-lift model; no swimming performance was measured."
+            zh: Gai 等（2022），第 959–963 页、图 1–4 与扩展数据图 1–6：关节相连标本、鳍的解剖、取样地点及被动升力计算模型；研究未测量游泳表现。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-b047312eb6
+            part: title
+          zh:
+            page: zh
+            section: s-650a915d96
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b047312eb6
+            part: body
+          zh:
+            page: zh
+            section: s-650a915d96
+            part: body
+        sourceIds:
+          - gai-2022-tujiaaspis
+      - id: tujiaaspis-evidence
+        title:
+          en:
+            page: en
+            section: s-8bbedd83e8
+            part: title
+          zh:
+            page: zh
+            section: s-a2a920e7f6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8bbedd83e8
+            part: body
+          zh:
+            page: zh
+            section: s-a2a920e7f6
+            part: body
+        sourceIds:
+          - gai-2022-tujiaaspis
+    traitsZh:
+      - page: zh
+        section: zh-d44d82a2e2d20b
+        part: body
+      - page: zh
+        section: zh-0ad3fc44ef4cc2
+        part: body
+      - page: zh
+        section: zh-b25e214e6c4626
+        part: body
+  claims:
+    - subjectId: taxon:tujiaaspis
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Tujiaaspis vividus is a galeaspid represented by articulated Huixingshao Formation material; its placement is a published phylogenetic interpretation and is not presented as direct ancestry to jawed vertebrates.
+      confidence: medium
+      confidenceRationale: "Tujiaaspis vividus: articulated specimens and a published phylogenetic analysis support this limited identification. Confidence remains medium because the placement is model-dependent and the historical Ostracodermi navigation grade is not a natural clade."
+      referenceLinks:
+        - referenceId: gai-2022-tujiaaspis
+          relation: supports
+          pages: 959–963
+          figure: Figures 1–4; Extended Data Figures 1–6
+          quoteLocator: Abstract; phylogenetic analysis and ancestral-state estimation
+    - subjectId: taxon:tujiaaspis
+      claimType: biogeography
+      claimKind: scientific
+      statement: The figured Tujiaaspis material comes from the Huixingshao Formation at Lianghe village, Yongdong town, Xiushan County, Chongqing Municipality, and Kapeng Reservoir in Baojing County, Xiangxi, Hunan, South China; these are sampled localities, not a global distribution.
+      confidence: medium
+      confidenceRationale: "Tujiaaspis vividus: the primary study maps the localities and identifies the fish-bearing horizon. A single formation sample cannot establish absence, endemism or global geographic extent."
+      referenceLinks:
+        - referenceId: gai-2022-tujiaaspis
+          relation: supports
+          pages: 959–963
+          figure: Extended Data Fig. 1
+          quoteLocator: Locality and horizon; Methods, Specimens and provenance; Extended Data Figure 1
+    - subjectId: taxon:tujiaaspis
+      claimType: ecology
+      claimKind: scientific
+      statement: The study reconstructs continuous ventrolateral fins and models their passive lift, but diet, life habitat, trophic guild and measured swimming performance remain unresolved.
+      confidence: medium
+      confidenceRationale: "Tujiaaspis vividus: the model result is explicitly bounded to reconstructed morphology and CFD assumptions. Medium confidence applies to that boundary, not to a full ecological reconstruction."
+      referenceLinks:
+        - referenceId: gai-2022-tujiaaspis
+          relation: supports
+          pages: 959–963
+          figure: Figure 3; Extended Data Fig. 6
+          quoteLocator: Computed fluid dynamics analysis
+    - subjectId: taxon:tujiaaspis
+      claimType: morphology
+      claimKind: scientific
+      statement: Holotype IVPP V26668 and paratypes IVPP V27410–V27411 preserve three unpaired dorsal fins, an approximately symmetrical hypochordal tail and continuous branchial-to-caudal ventrolateral fins.
+      confidence: medium
+      confidenceRationale: "Tujiaaspis vividus: the named specimens and figures directly support the recorded postcranial characters. Confidence is medium because preservation and reconstruction limit character completeness and variation."
+      referenceLinks:
+        - referenceId: gai-2022-tujiaaspis
+          relation: supports
+          pages: 959–963
+          figure: Figures 1–2; Extended Data Figures 2–5
+          quoteLocator: Holotype and postcranial anatomy
+    - subjectId: taxon:tujiaaspis
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 438.6–432.9 Ma interval is the Telychian time-scale envelope for the Huixingshao Formation Tujiaaspis sample and is not a global genus range, FAD, LAD or divergence date.
+      confidence: medium
+      confidenceRationale: "Tujiaaspis vividus: the primary source and concrete geological locator support the source horizon. Confidence is medium because the numeric envelope is locality- and stage-scoped rather than a global first or last appearance."
+      referenceLinks:
+        - referenceId: gai-2022-tujiaaspis
+          relation: supports
+          pages: 959–963
+          figure: Extended Data Fig. 1
+          quoteLocator: Geological setting and fish-bearing Huixingshao Formation horizon
+  claim-rationales.zh:
+    - Tujiaaspis vividus：关节相连标本与已发表的系统发育分析支持这一有限鉴定。置信度保持中等，因为其位置依赖模型，且 Ostracodermi 在本导航中是非单系的历史等级。
+    - Tujiaaspis vividus：一手研究绘制了地点并确定含鱼层位。单一地层样本不能确定缺失、特有性或全球地理范围，故置信度为中等。
+    - Tujiaaspis vividus：模型结论明确受重建形态与 CFD 假设限制。中等置信度仅适用于这一边界，而不是完整生态重建。
+    - Tujiaaspis vividus：具名标本与图件直接支持所记录的躯干性状。保存与重建限制性状完整性和变异，因此置信度为中等。
+    - Tujiaaspis vividus：一手来源及明确的地质定位符支持该层位。数值包络限定于地点和阶，非全球首现或末现，故置信度为中等。
+  claim-statements.zh:
+    - Tujiaaspis vividus 是由回星哨组关节相连材料代表的盔甲鱼类；其系统位置来自已发表的系统发育解释，不被表述为有颌脊椎动物的直接祖先。
+    - 图示 Tujiaaspis 材料来自华南回星哨组的重庆市秀山县涌洞镇凉河村，以及湖南湘西保靖县卡棚水库；这些是取样地点，不代表全球分布。
+    - 研究复原了连续的腹外侧鳍，并模拟其被动升力；但食性、生活栖息地、营养功能群和实测游泳性能仍未解决。
+    - 正模 IVPP V26668 与副模 IVPP V27410–V27411 保存三枚不成对背鳍、近对称的下脊索尾，以及从鳃区连续延伸至尾部的腹外侧鳍。
+    - 显示的 438.6–432.9 Ma 区间是回星哨组 Tujiaaspis 样本的特列奇期时间标尺包络，不是该属的全球延限、首现、末现或分化时间。
+  ranges:
+    - entityId: tujiaaspis
+      rangeKind: global-composite
+      taxonomicConcept: Tujiaaspis vividus represented Huixingshao Formation sample
+      geographicScope: Huixingshao Formation, Lianghe village, Yongdong town, Xiushan County, Chongqing Municipality, and Kapeng Reservoir, Baojing County, Xiangxi, Hunan, South China
+      olderMa: 438.6
+      youngerMa: 432.9
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Telychian stage envelope for the source horizon, not a global Tujiaaspis range, fossil FAD, LAD or divergence date.
+      evidenceBasis: Holotype IVPP V26668 and figured paratypes IVPP V27410–V27411 are articulated Huixingshao Formation specimens. The numeric window only converts the published Telychian horizon to the atlas time scale.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:tujiaaspis:fossil-range
+      referenceLocators:
+        - referenceId: gai-2022-tujiaaspis
+          locator: pp. 959–963, especially Extended Data Fig. 1 and Extended Data Fig. 2; holotype IVPP V26668 and paratypes IVPP V27410–V27411; geological setting and postcranial anatomy

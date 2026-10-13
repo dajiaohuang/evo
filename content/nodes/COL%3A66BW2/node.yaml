@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amietia poyntoni
+  displayName: Amietia poyntoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66BW2
+  sourceIndexes:
+    - name:
+        en: Amietia poyntoni
+        zh: Amietia poyntoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66BW2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/301
+            queryName: Amietia poyntoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-57559c1361
+      - s-51c103c2ff
+      - s-f2dd36d592
+      - s-224286750d
+      - s-331209f101
+      - s-bb2455db32
+    zh:
+      - s-892af8f892
+      - s-4181ba8a89
+      - s-32bfa4e4c0
+      - s-77706e7c05
+      - s-195825f9ba
+      - s-914e23b2a3

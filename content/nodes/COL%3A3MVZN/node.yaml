@@ -1,0 +1,122 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium fleischmanni
+  displayName: Hyalinobatrachium fleischmanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3MVZN
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium fleischmanni
+        zh: Hyalinobatrachium fleischmanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3MVZN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/320
+            queryName: Hyalinobatrachium fleischmanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 31
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/163
+            queryName: Centrolenella fleischmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/495
+            queryName: Hylella fleischmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/496
+            queryName: Hylella chrysops
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/497
+            queryName: Hyla fleischmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/499
+            queryName: Cochranella chrysops
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/0
+            queryName: Cochranella fleischmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/1
+            queryName: Cochranella viridissima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/2
+            queryName: Cochranella decorata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/3
+            queryName: Cochranella millepunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1d36eb9406
+      - s-37545a4d8f
+      - s-3c5816e41c
+      - s-56e0428ab6
+      - s-0d0f1476a1
+      - s-5dcc6749c6
+      - s-a1a9d8d81c
+      - s-cf7c1ab24d
+      - s-810f5ebbfe
+      - s-4d2d121f4d
+      - s-59d6bb09ea
+      - s-8128c77781
+      - s-2a5732a007
+      - s-f1c082cc05
+    zh:
+      - s-3727371da0
+      - s-84b1e4925c
+      - s-3acfcf4aa8
+      - s-3596ab2461
+      - s-caa32a39dc
+      - s-51e22b9561
+      - s-d4e8ba0fbc
+      - s-e070a0f68c
+      - s-c7abfb5159
+      - s-ee0e53a1d3
+      - s-257e5d77c0
+      - s-0d19b7ef83
+      - s-635716525d
+      - s-ea92563b12

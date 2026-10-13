@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium dianae
+  displayName: Hyalinobatrachium dianae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3MVZG
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium dianae
+        zh: Hyalinobatrachium dianae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3MVZG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/317
+            queryName: Hyalinobatrachium dianae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-20de746e19
+      - s-cb1284f29a
+      - s-779b63b97c
+      - s-914ae873ea
+      - s-a7a691d74d
+      - s-aeef4144af
+    zh:
+      - s-b0d4ca70e0
+      - s-402a2f07d7
+      - s-77faa31495
+      - s-58f1086827
+      - s-3adfd475b9
+      - s-ec7e6938d5

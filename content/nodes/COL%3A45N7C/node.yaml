@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana maculosa
+  displayName: Nanorana maculosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7C
+  sourceIndexes:
+    - name:
+        en: Nanorana maculosa
+        zh: Nanorana maculosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/177
+            queryName: Nanorana maculosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/495
+            queryName: Paa maculosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/316
+            queryName: Rana maculosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/242
+            queryName: Chaparana maculosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/410
+            queryName: Maculopaa maculosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7f3ad9193d
+      - s-a714971e5f
+      - s-b8e107c0d7
+      - s-c6385e6918
+      - s-2e7db38fe7
+      - s-de45d01c40
+      - s-37424ecd26
+      - s-98e7a0de49
+      - s-70bf4f36cb
+      - s-bc2ddb0cbc
+      - s-551778103a
+      - s-595b638452
+    zh:
+      - s-4b0f3150ec
+      - s-1092a9d789
+      - s-e69a0e6830
+      - s-5cb5d01d96
+      - s-ace07dce33
+      - s-2430b22b70
+      - s-f4df2e6a03
+      - s-c58c2640d6
+      - s-faecca94c4
+      - s-9bbfaa5a5e
+      - s-dbc50c9501
+      - s-0f2fe4c172

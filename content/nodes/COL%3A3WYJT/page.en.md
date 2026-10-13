@@ -1,0 +1,3 @@
+## ## Terminal panicles and urn-shaped calyces {#s-aa41f72bb4}
+The Brazilian Flora 2020 entry describes unarmed, cylindrical branches and leaves with leaf-like stipules. The elliptic or obovate leaflets have cuspidate tips, rounded or blunt bases, hairless upper faces and hairy lower faces; their veins are craspedodromous, ending at the margin. Terminal panicles are recorded, but bract form is unknown. The flowers have an urn-shaped calyx and pink or purple petals; the standard is hairy and the stamens form one bundle. The fruit is a samara with a warty seed-bearing region. The same dataset labels the habitat “terrestrial” without giving a locality or more specific habitat account.
+

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiopodidae
+  displayName: Scaphiopodidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FZR
+  sourceIndexes:
+    - name:
+        en: Scaphiopodidae
+        zh: Scaphiopodidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FZR
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/248
+            queryName: Scaphiopodidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 79
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b8a15e52e0
+      - s-ddf37c7260
+      - s-7d7f6a609a
+      - s-b32d3f4680
+      - s-92f35ea33b
+      - s-78800972f6
+      - s-bf4f7b3f96
+    zh:
+      - s-423a1b881b
+      - s-5ab37dbfa3
+      - s-67ea975ade
+      - s-7b9afc625c
+      - s-8d17c307c6
+      - s-8378499356
+      - s-5e6b60fa30

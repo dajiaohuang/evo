@@ -1,0 +1,409 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Licaria excelsa Kosterm.
+    authorship: Kosterm.
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 3F8
+        scientificName: Laurales Juss. ex Bercht. & J.Presl
+        authorship: Juss. ex Bercht. & J.Presl
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: BTB
+        scientificName: Lauraceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV6CJ
+        scientificName: Cinnamomeae Nees
+        authorship: Nees
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 4LS
+        scientificName: Licaria Aubl.
+        authorship: Aubl.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 6Q8CW
+        scientificName: Licaria excelsa Kosterm.
+        authorship: Kosterm.
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 6Q8CW; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/6Q8CW
+          stableId: col:6Q8CW@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 6Q8CW; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6Q8CW. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_6q8cw_habit_6715
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Licaria excelsa Kosterm., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: tree
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 6715
+          archiveSourceId: 2473F031-88D9-4849-BCB0-1449D17D0177
+          archiveSourceIds:
+            - 2473F031-88D9-4849-BCB0-1449D17D0177
+          referenceRowNumbers:
+            - 7575
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-b385c221-481a-8b8a-a389-330a7ec5e05b
+                metadataVariant: 0
+                usage:
+                  identifier: 2473F031-88D9-4849-BCB0-1449D17D0177
+                  referenceRowNumber: 7575
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 6715 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 6715; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6Q8CW:row:6715
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 6715; field habit; reference rows 7575.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 6715; CC BY 4.0. Citation metadata: Licaria excelsa Kosterm., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_6q8cw_distribution_6716
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Licaria excelsa Kosterm., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Panama and adjacent Costa Rica, in rain-forest.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 6716
+          archiveSourceId: FDD9DA5B-7FBB-44BF-A644-6992F407AA4C
+          archiveSourceIds:
+            - FDD9DA5B-7FBB-44BF-A644-6992F407AA4C
+          referenceRowNumbers:
+            - 7576
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-b385c221-481a-8b8a-a389-330a7ec5e05b
+                metadataVariant: 0
+                usage:
+                  identifier: FDD9DA5B-7FBB-44BF-A644-6992F407AA4C
+                  referenceRowNumber: 7576
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 6716 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 6716; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6Q8CW:row:6716
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 6716; field distribution; reference rows 7576.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 6716; CC BY 4.0. Citation metadata: Licaria excelsa Kosterm., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_6q8cw_general_6742
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Licaria excelsa Kosterm., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Large tree to 60 m. high, the trunk erect; branches gray, glabrous; branchlets thick, glabrous, with lenticels rather numerous, often somewhat shining, sulcate. Leaves alternate; petioles stout, glabrous, up to 23 mm. long; blades glabrous, rigidly coriaceous, almost shining, elliptic or subovate-elliptic, 20 (-24) cm. long and 5 (-~8) cm. broad, the base shortly acute, the apex acuminate, the costa broad above, flattened beneath, prominulous and broadly flattened towards the base, the lateral nerves at least 10 pairs, filiform, prominulous above and beneath, erect- spreading, arcuate, the reticulation prominulous, very densely and minutely areo- late. Inflorescence axillary and subterminal, paniculate, before anthesis densely ferruginous-sericeous-tomentellous, becoming glabrous. Infructescence stout, to 15 cm. long. Fruit ellipsoid-ovoid, glabrous, 2.5 X 2 cm., the subtending cupule almost hemispheric-cylindrical, conspicuously verruculose, 20 mm. long, 25 mm. in diameter, and 16 mm. deep, the margin obscurely double, the outer entire and thickened, the inner extending less than 2 mm. above the outer, thinner, exhibiting a tendency to split at intervals towards the base, the pedicel enlarged to 15 mm. long and 10 mm. in diameter at the apex.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 6742
+          archiveSourceId: D054347C-363A-4C91-96C7-9C4C9EA47CC4
+          archiveSourceIds:
+            - D054347C-363A-4C91-96C7-9C4C9EA47CC4
+          referenceRowNumbers:
+            - 7602
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-b385c221-481a-8b8a-a389-330a7ec5e05b
+                metadataVariant: 0
+                usage:
+                  identifier: D054347C-363A-4C91-96C7-9C4C9EA47CC4
+                  referenceRowNumber: 7602
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 6742 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 6742; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6Q8CW:row:6742
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 6742; field general; reference rows 7602.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 6742; CC BY 4.0. Citation metadata: Licaria excelsa Kosterm., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Large tree to 60 m. high, the trunk erect; branches gray, glabrous; branchlets thick, glabrous, with lenticels rather numerous, often somewhat shining, sulcate. Leaves alternate; petioles stout, glabrous, up to 23 mm. long; blades glabrous, rigidly coriaceous, almost shining, elliptic or subovate-elliptic, 20 (-24) cm. long and 5 (-~8) cm. broad, the base shortly acute, the apex acuminate, the costa broad above, flattened beneath, prominulous and broadly flattened towards the base, the lateral nerves at least 10 pairs, filiform, prominulous above and beneath, erect- spreading, arcuate, the reticulation prominulous, very densely and minutely areo- late. Inflorescence axillary and subterminal, paniculate, before anthesis densely ferruginous-sericeous-tomentellous, becoming glabrous. Infructescence stout, to 15 cm. long. Fruit ellipsoid-ovoid, glabrous, 2.5 X 2 cm., the subtending cupule almost hemispheric-cylindrical, conspicuously verruculose, 20 mm. long, 25 mm. in diameter, and 16 mm. deep, the margin obscurely double, the outer entire and thickened, the inner extending less than 2 mm. above the outer, thinner, exhibiting a tendency to split at intervals towards the base, the pedicel enlarged to 15 mm. long and 10 mm. in diameter at the apex.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_6q8cw_general_6742
+            locator: "Flora of Panama general field; imported row 6742; sourceIds D054347C-363A-4C91-96C7-9C4C9EA47CC4; reference rows 7602; citations: D054347C-363A-4C91-96C7-9C4C9EA47CC4: Licaria excelsa Kosterm., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 7602)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: Panama and adjacent Costa Rica, in rain-forest.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_6q8cw_distribution_6716
+            locator: "Flora of Panama distribution field; imported row 6716; sourceIds FDD9DA5B-7FBB-44BF-A644-6992F407AA4C; reference rows 7576; citations: FDD9DA5B-7FBB-44BF-A644-6992F407AA4C: Licaria excelsa Kosterm., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 7576)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.

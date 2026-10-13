@@ -1,0 +1,413 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phasianidae
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      zh: Phasianidae
+      en: Phasianidae
+    sections:
+      - topic: sampleComparison
+        sourceIds:
+          - avonetPternistisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-18863e62b7
+            part: body
+          en:
+            page: en
+            section: s-3366f3793f
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - avonetPternistisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-381b2706e8
+            part: body
+          en:
+            page: en
+            section: s-53887ac8de
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-74661e92bd
+            part: body
+          en:
+            page: en
+            section: s-7303b10d1d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-5b68f25696
+            part: body
+          en:
+            page: en
+            section: s-e80944a345
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-2959041d92
+            part: body
+          en:
+            page: en
+            section: s-b696ac2ef6
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-83ee674bbf
+            part: body
+          en:
+            page: en
+            section: s-3aaa93a3a7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-b98bf1af09
+            part: body
+          en:
+            page: en
+            section: s-0a03428c07
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-e2d34968b7
+            part: body
+          en:
+            page: en
+            section: s-6a5532f6dd
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-7d221ccfce
+            part: body
+          en:
+            page: en
+            section: s-8678d9e6f0
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-e22c3efde0
+            part: body
+          en:
+            page: en
+            section: s-7199babe27
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phasianidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/625WG
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 113 selected measured records placed under Phasianidae in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 60 authored same-name records placed under Phasianidae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 99 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 99
+            foraging: 99
+            activity: 0
+          readingTargets:
+            - name: Lerwa lerwa
+              colId: 6PRBV
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6PRBV
+            - name: Ammoperdix griseogularis
+              colId: 66CNY
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A66CNY
+            - name: Ammoperdix heyi
+              colId: 66CNZ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A66CNZ
+            - name: Tetraogallus caucasicus
+              colId: 55QX2
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A55QX2
+            - name: Tetraogallus caspius
+              colId: 55QWZ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A55QWZ
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 1 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 1
+            foraging: 0
+            activity: 0
+          readingTargets:
+            - name: Perdicula asiatica
+              colId: 773S9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A773S9
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 2 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: 77TH8
+              name: Polyplectron schleiermacheri
+              canonicalPath: content/nodes/COL%3A77TH8
+            - colId: 7FW68
+              name: Xenoperdix udzungwensis
+              canonicalPath: content/nodes/COL%3A7FW68
+          fieldAccountCounts:
+            Habitat: 2
+            Trophic.Niche: 2
+            Primary.Lifestyle: 2
+            Migration: 2
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+      - id: avonetPternistisHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET dataset v7 — Pternistis historical rows
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: AVONET1_BirdLife rows 2504–2527; BirdLife–eBird rows 8730–8753; BirdLife–BirdTree rows 8685–8708; relevant Metadata definitions.
+          scope:
+            zh: 24 条历史行：21 条非推算／一对一筛选记录、castaneicollis 多对一历史概念、atrifrons 推算及拆分体重、harwoodi 推算尾长分别保留。
+            en: "24 historical rows: 21 selected non-inferred/one-to-one records, castaneicollis many-to-one concept, atrifrons inferred traits/split mass and harwoodi inferred tail kept distinct."
+    limitations:
+      zh:
+        page: zh
+        section: s-d5bba2a2a2
+        part: body
+      en:
+        page: en
+        section: s-141eab90f1
+        part: body

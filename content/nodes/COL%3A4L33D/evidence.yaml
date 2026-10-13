@@ -1,0 +1,269 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Polycarena gracilis Hilliard
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4L33D, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4L33D; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4L33D
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4L33D
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001276747-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4L33D / WFO wfo-0001276747
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14442_0
+        referenceId: ref-7735045d-e05a-84d5-adcd-92501fff77bd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Polycarena gracilis Hilliard account; archive rows 5895 (Morphology), 32469 (Habitat), source identifier 14442.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_8611_0
+        referenceId: ref-1daee5fa-9774-8ee7-a58e-588b95f4353b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Polycarena gracilis Hilliard account; archive rows 57347 (Diagnostic), source identifier 8611.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Glandular-hairy annual to 23 cm. Leaves narrow and coarsely toothed. Flowers in lax racemes, white to cream-coloured with orange patch at base of upper lobes, salver-shaped, tube glabrous, 8-25 mm long.
+            sourceIds:
+              - sanbi_14442_0
+            locator: "SANBI/WFO archive Morphology row 5895; source 14442.0; publication: Manning, JC; Goldblatt, P. 2012. Scrophulariaceae: Polycarena Benth. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 752 - 752. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: It can be confused with P. gilioides sens, strict., from which it may be distinguished by its glabrous (not pubescent) corolla tube, which is 8-12(-25) mm long (versus 7.5-10 mm) with limb 7-13.5 mm across (versus 5-8 mm), and both tube and limb often flushed purple outside (not so in P. gilioides). There is some difference too in the arrangement of the flowers, the raceme being very lax in P. gracilis, congested in P. gilioides and elongating only slightly in fruit. P. gracilis and P. gilioides may interact where their areas overlap, but the lax inflorescence and particularly the glabrous corolla tube of P. gracilis are good distinguishing characters.The relationship of P. gracilis possibly lies with P. aemulans, which has lax racemes and corolla tube and limb flushed purple outside, but P. gracilis may be distinguished by its relatively narrower upper leaves (6-30 x 0.25-1.5(-2) mm, linear or narrowly oblanceolate, versus 6-15 x 1-3 mm, spathulate), calyx 4-6 mm long (versus 2.5-4 mm), corolla tube glabrous (not pubescent), limb 7-13.5 mm across (versus 3-9 mm), stamens always 4 (not often reduced to 2 or 3).
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_8611_0
+            locator: "SANBI/WFO archive Diagnostic row 57347; source 8611.0; publication: Hilliard, OM. 1994. Manuleae, The: a tribe of Scrophulariaceae. Edinburgh University Press, Edinburgh. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandstone slopes.
+            sourceIds:
+              - sanbi_14442_0
+            locator: "SANBI/WFO archive Habitat row 32469; source 14442.0; publication: Manning, JC; Goldblatt, P. 2012. Scrophulariaceae: Polycarena Benth. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 752 - 752. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Polycarena gracilis Hilliard
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Polycarena gracilis
+      zh: Polycarena gracilis
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4L33D
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4L33D
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001276747-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4L33D / WFO wfo-0001276747
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14442_0
+        referenceId: ref-7735045d-e05a-84d5-adcd-92501fff77bd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Polycarena gracilis Hilliard account; archive rows 5895 (Morphology), 32469 (Habitat), source identifier 14442.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_8611_0
+        referenceId: ref-1daee5fa-9774-8ee7-a58e-588b95f4353b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Polycarena gracilis Hilliard account; archive rows 57347 (Diagnostic), source identifier 8611.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c7c5d38c2a
+            part: title
+          zh:
+            page: zh
+            section: s-2737dafe34
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c7c5d38c2a
+            part: body
+          zh:
+            page: zh
+            section: s-2737dafe34
+            part: body
+        sourceIds:
+          - sanbi_14442_0
+        locator: "SANBI/WFO archive Morphology row 5895; source 14442.0; publication: Manning, JC; Goldblatt, P. 2012. Scrophulariaceae: Polycarena Benth. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 752 - 752. South African National Biodiversity Institute, Pretoria. [CC BY]"
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6feb5de526
+            part: title
+          zh:
+            page: zh
+            section: s-4628fa9435
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6feb5de526
+            part: body
+          zh:
+            page: zh
+            section: s-4628fa9435
+            part: body
+        sourceIds:
+          - sanbi_8611_0
+        locator: "SANBI/WFO archive Diagnostic row 57347; source 8611.0; publication: Hilliard, OM. 1994. Manuleae, The: a tribe of Scrophulariaceae. Edinburgh University Press, Edinburgh. [All rights reserved]"
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0447aa3b42
+            part: title
+          zh:
+            page: zh
+            section: s-a245259588
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0447aa3b42
+            part: body
+          zh:
+            page: zh
+            section: s-a245259588
+            part: body
+        sourceIds:
+          - sanbi_14442_0
+        locator: "SANBI/WFO archive Habitat row 32469; source 14442.0; publication: Manning, JC; Goldblatt, P. 2012. Scrophulariaceae: Polycarena Benth. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 752 - 752. South African National Biodiversity Institute, Pretoria. [CC BY]"

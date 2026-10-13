@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oreophryne furu Günther, Richards, Tjaturadi & Iskandar, 2009
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Oreophryne furu
+      zh: Oreophryne furu
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7e2131bf65
+            part: title
+          zh:
+            page: zh
+            section: s-7a9bac47dd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7e2131bf65
+            part: body
+          zh:
+            page: zh
+            section: s-7a9bac47dd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4011bafaa2
+            part: title
+          zh:
+            page: zh
+            section: s-60619d72a7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4011bafaa2
+            part: body
+          zh:
+            page: zh
+            section: s-60619d72a7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-188434364a
+            part: title
+          zh:
+            page: zh
+            section: s-c833c7e7cb
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-188434364a
+            part: body
+          zh:
+            page: zh
+            section: s-c833c7e7cb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4098afaa85
+            part: title
+          zh:
+            page: zh
+            section: s-0097ed95a5
+            part: title
+        sourceIds:
+          - amphibio
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-4098afaa85
+            part: body
+          zh:
+            page: zh
+            section: s-0097ed95a5
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-57b4e45ca6b3645b6150c9d51b2d6e90
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ab7d6920be37a4b131693828
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-619c005112
+            part: title
+          zh:
+            page: zh
+            section: s-48b69abd36
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-619c005112
+            part: body
+          zh:
+            page: zh
+            section: s-48b69abd36
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Oreophryne furu
+          url: https://www.checklistbank.org/dataset/316115/taxon/7568D
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4053; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4054 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3908, 3909; Reference.csv rows 1004
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3e4f7c4304
+        part: body
+      zh:
+        page: zh
+        section: s-ac0e4cfb18
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-57b4e45ca6b3645b6150c9d51b2d6e90
+      sourceRowId: Anf4053
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4053
+        bibliographyRowId: Anf4054
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Oreophryne frontifasciata
+        candidateBibliographyRowIds:
+          - Anf4054
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-ab7d6920be37a4b131693828
+        scientificName: Oreophryne furu
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

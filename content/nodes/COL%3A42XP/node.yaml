@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrobates
+  displayName: Dendrobates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42XP
+  sourceIndexes:
+    - name:
+        en: Dendrobates
+        zh: Dendrobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42XP
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/343
+            queryName: Dendrobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 479
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b7d7f2ed3
+      - s-28a05b838b
+      - s-48489643ec
+      - s-a5705e5471
+      - s-8dc1ae674c
+      - s-73cbc36afb
+      - s-6249257bdf
+      - s-e92aec8999
+      - s-183a8ee2c8
+      - s-35698ff5ba
+      - s-fe9062192d
+      - s-96086525d9
+      - s-6c2670f968
+      - s-665c63b4b2
+      - s-cb16b545d3
+      - s-18c61fff47
+      - s-68b56a1983
+      - s-8f61654098
+      - s-a1659a6787
+      - s-ce0da388ab
+      - s-135899080e
+    zh:
+      - s-ea26d22c4c
+      - s-e549e29f17
+      - s-d53033c502
+      - s-109518e027
+      - s-34b05688be
+      - s-30a592c307
+      - s-e13b69eace
+      - s-da6066063f
+      - s-7e4861c45b
+      - s-52a8f158e7
+      - s-ba2be19a4a
+      - s-eb7e288d46
+      - s-e80eaee180
+      - s-6a8f44a974
+      - s-82fb207b21
+      - s-55a782a2ce
+      - s-58fbbf2820
+      - s-b1dbd8b646
+      - s-31dc92ece8
+      - s-1dee7e908a
+      - s-bcc5b4aff2

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa diminuta
+  displayName: Bolitoglossa diminuta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDP6
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa diminuta
+        zh: Bolitoglossa diminuta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDP6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/113
+            queryName: Bolitoglossa diminuta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/240
+            queryName: Nototriton diminuta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c443b04f33
+      - s-84eecf34b8
+      - s-5c27ccef12
+      - s-e30f532d46
+      - s-090785d6cc
+      - s-323b756efc
+      - s-8483c644de
+      - s-2ee9c4d8cb
+    zh:
+      - s-0c616a11e6
+      - s-db88d2dd81
+      - s-5dec6f2a8b
+      - s-d084e13e2b
+      - s-4f42f7559a
+      - s-de17d94055
+      - s-ab32f770d4
+      - s-92ea19dfa1

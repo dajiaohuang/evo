@@ -1,0 +1,106 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-cf70ae2acf
+      part: title
+    titleZh:
+      page: zh
+      section: s-2f82acf359
+      part: title
+    dek:
+      page: en
+      section: s-cf70ae2acf
+      part: body
+    dekZh:
+      page: zh
+      section: s-2f82acf359
+      part: body
+    theme: gold
+    durationMinutes: 7
+    featured: true
+    steps:
+      - id: early
+        title:
+          page: en
+          section: s-dd281a4eda
+          part: title
+        titleZh:
+          page: zh
+          section: s-6dec36ab93
+          part: title
+        text:
+          page: en
+          section: s-dd281a4eda
+          part: body
+        textZh:
+          page: zh
+          section: s-6dec36ab93
+          part: body
+        age: 50
+        timeRange:
+          - 56
+          - 40
+        taxonIds:
+          - perissodactyla
+        view: tree
+        claimLinks:
+          - claimId: claim:taxon:perissodactyla:morphology
+            relation: contextualizes
+      - id: anchitheres
+        title:
+          page: en
+          section: s-d6f326c13b
+          part: title
+        titleZh:
+          page: zh
+          section: s-b1ae3fc0d1
+          part: title
+        text:
+          page: en
+          section: s-d6f326c13b
+          part: body
+        textZh:
+          page: zh
+          section: s-b1ae3fc0d1
+          part: body
+        age: 17
+        timeRange:
+          - 20
+          - 9
+        taxonIds:
+          - anchitherium
+        view: evidence
+        claimLinks:
+          - claimId: claim:taxon:anchitherium
+            relation: supports
+      - id: hipparionines
+        title:
+          page: en
+          section: s-554fb56856
+          part: title
+        titleZh:
+          page: zh
+          section: s-b481a221c9
+          part: title
+        text:
+          page: en
+          section: s-554fb56856
+          part: body
+        textZh:
+          page: zh
+          section: s-b481a221c9
+          part: body
+        age: 9
+        timeRange:
+          - 13
+          - 3
+        taxonIds:
+          - hipparionini
+        view: map
+        eventId: c4-grassland-expansion
+        claimLinks:
+          - claimId: claim:taxon:hipparionini:ecology
+            relation: supports
+    evidenceStatus: available-with-limitations

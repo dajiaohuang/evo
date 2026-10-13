@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhylidae
+  displayName: Microhylidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/624MT
+  sourceIndexes:
+    - name:
+        en: Microhylidae
+        zh: Microhylidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 624MT
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/96
+            queryName: Microhylidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 480
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5eca946e2e
+      - s-a4fb16ca4a
+      - s-a5d2ddf50c
+      - s-7b4213ed9e
+      - s-0e8412af5b
+      - s-d8617ca7f4
+      - s-659988d792
+    zh:
+      - s-d19845a51f
+      - s-cfbee4f535
+      - s-e7abd9b706
+      - s-b91411b3d8
+      - s-4374d4122e
+      - s-3fadc11996
+      - s-6605cf8844

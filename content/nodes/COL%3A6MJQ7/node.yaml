@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hydrolaetare caparu
+  displayName: Hydrolaetare caparu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MJQ7
+  sourceIndexes:
+    - name:
+        en: Hydrolaetare caparu
+        zh: Hydrolaetare caparu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MJQ7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/347
+            queryName: Hydrolaetare caparu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ac8eec3e8e
+      - s-1a57ca9ef8
+      - s-0a99d7e524
+      - s-cd64ee071b
+      - s-db66de8f94
+      - s-67ebeb1509
+      - s-0aef23dc38
+      - s-ecd509f9e4
+      - s-3b5dc532b7
+      - s-024c881fc6
+      - s-67f27167f6
+    zh:
+      - s-da34b3c94a
+      - s-c70b5ab1dd
+      - s-b5d9604fe0
+      - s-935269b4fd
+      - s-12340dd9f8
+      - s-e1266e37c7
+      - s-88bbf888ff
+      - s-a656a308c8
+      - s-9df0b11d6c
+      - s-e91d0dc59e
+      - s-672705958c

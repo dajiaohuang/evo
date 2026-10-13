@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Carettochelyidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Carettochelyidae
+      en: Carettochelyidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b45205bc2a
+            part: body
+          en:
+            page: en
+            section: s-e42733ae43
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f9590569a5
+            part: body
+          en:
+            page: en
+            section: s-8790cb8793
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Carettochelyidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=37667
+          locator: Recorded PBDB parent closure beneath the already documented Pantestudines COL-compatible storage anchor.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:37667
+          readingTargets:
+            - name: Kizylkumemys schultzi
+              pbdbTaxonId: txn:236085
+              canonicalPath: content/nodes/PBDB%3A236085
+            - name: Kizylkumemys khoratensis
+              pbdbTaxonId: txn:360514
+              canonicalPath: content/nodes/PBDB%3A360514
+            - name: Carettochelys niahensis
+              pbdbTaxonId: txn:476895
+              canonicalPath: content/nodes/PBDB%3A476895
+            - name: Anosteira shuvalovi
+              pbdbTaxonId: txn:238112
+              canonicalPath: content/nodes/PBDB%3A238112
+            - name: Anosteira crowcreekensis
+              pbdbTaxonId: txn:501829
+              canonicalPath: content/nodes/PBDB%3A501829
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-923342aa5a
+        part: body
+      en:
+        page: en
+        section: s-521d9b6476
+        part: body

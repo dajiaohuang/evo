@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus poissoni
+  displayName: Mantidactylus poissoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWF4
+  sourceIndexes:
+    - name:
+        en: Mantidactylus poissoni
+        zh: Mantidactylus poissoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWF4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/352
+            queryName: Mantidactylus poissoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-705c8ef546
+      - s-ca8651b316
+      - s-3ba422c87f
+      - s-14a590fcc3
+      - s-63f23fbfdd
+      - s-7518687f8a
+      - s-1ad67198f6
+      - s-027c7b327e
+      - s-88fb1a9905
+      - s-8960d4de4f
+      - s-4283df7ff8
+    zh:
+      - s-0d1640860b
+      - s-790845a46c
+      - s-3621080383
+      - s-23b5f0cbdb
+      - s-44f711e3af
+      - s-69c4c5bc66
+      - s-928a220314
+      - s-cca5912866
+      - s-371aa3d707
+      - s-ea79c8c6c0
+      - s-ba4adb4bb9

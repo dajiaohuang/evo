@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Eocyclotosaurus lehmani
+    rank: species
+    sourceTaxonId: txn:269994
+    name:
+      en: Eocyclotosaurus lehmani
+      zh: Eocyclotosaurus lehmani
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-2a5f20b8c4
+            part: body
+          zh:
+            page: zh
+            section: s-0a4db17d93
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 2 PBDB occurrence rows and collection fields
+          zh: 2 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-2f630ef5ab
+            part: body
+          zh:
+            page: zh
+            section: s-cbcec5e113
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Eocyclotosaurus lehmani
+          zh: Eocyclotosaurus lehmani 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-15a3bcbbd8
+            part: body
+          zh:
+            page: zh
+            section: s-66e94f2bcd
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:269994; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "R. J. Damiani. 2001. A systematic revision and phylogenetic analysis of Triassic mastodonsauroids (Temnospondyli: Stereospondyli). Zoological Journal of the Linnean Society 133(4):379-482"
+    occurrenceEvidence:
+      - occurrenceId: occ:1423616
+        collectionId: col:197698
+        acceptedTaxonId: txn:269994
+        identifiedName: Eocyclotosaurus lehmani n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30410
+        bibliography: "R. J. Damiani. 2001. A systematic revision and phylogenetic analysis of Triassic mastodonsauroids (Temnospondyli: Stereospondyli). Zoological Journal of the Linnean Society 133(4):379-482"
+        locality:
+          countryCode: FR
+          stateProvince: Vosges
+          county: null
+        stratigraphy:
+          group: Buntsandstein
+          formation: Grès à Voltzia
+          member: Grès à meules
+        olderAgeMa: 247
+        youngerAgeMa: 241.464
+      - occurrenceId: occ:1423617
+        collectionId: col:197699
+        acceptedTaxonId: txn:269994
+        taxonomicDifference: null
+        referenceId: ref:30410
+        bibliography: "R. J. Damiani. 2001. A systematic revision and phylogenetic analysis of Triassic mastodonsauroids (Temnospondyli: Stereospondyli). Zoological Journal of the Linnean Society 133(4):379-482"
+        locality:
+          countryCode: FR
+          stateProvince: Bas-Rhin
+          county: null
+        stratigraphy:
+          group: Buntsandstein
+          formation: Grès à Voltzia
+          member: Grès à meules
+        olderAgeMa: 247
+        youngerAgeMa: 241.464
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Eocyclotosaurus lehmani
+          zh: Eocyclotosaurus lehmani 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-15a3bcbbd8
+            part: body
+          zh:
+            page: zh
+            section: s-66e94f2bcd
+            part: body
+        sourceIds: []

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton chico
+  displayName: Chiropterotriton chico
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6LL
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton chico
+        zh: Chiropterotriton chico
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6LL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/291
+            queryName: Chiropterotriton chico
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c22f4925a9
+      - s-fdb7e9b342
+      - s-f56c63e649
+      - s-e718c86c43
+      - s-251dd19ef9
+    zh:
+      - s-c59ea422e3
+      - s-4490593e27
+      - s-1a3520a413
+      - s-e776aba2f7
+      - s-a0e9f39f93

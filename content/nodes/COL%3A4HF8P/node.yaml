@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus albifrons
+  displayName: Physalaemus albifrons
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF8P
+  sourceIndexes:
+    - name:
+        en: Physalaemus albifrons
+        zh: Physalaemus albifrons
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF8P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/300
+            queryName: Physalaemus albifrons
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/345
+            queryName: Bufo albifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/346
+            queryName: Bombinator albifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/347
+            queryName: Paludicola albifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-24537569c4
+      - s-06cf03fe66
+      - s-4a16287685
+      - s-a6709a2816
+      - s-d718130168
+      - s-0417b26545
+      - s-364215169e
+      - s-b525d6a623
+      - s-7c3eb1e357
+      - s-4930cb4c0a
+      - s-6936b9069f
+      - s-20662e8b33
+      - s-e68f94c5cc
+    zh:
+      - s-b383444065
+      - s-26069b739b
+      - s-ea5eb46f8e
+      - s-1ba166b08a
+      - s-2c41456ae7
+      - s-7697f29baf
+      - s-17b98bc204
+      - s-4529edb70f
+      - s-67c1fb30f9
+      - s-c4adb158ac
+      - s-df39b250fd
+      - s-4f133c68da
+      - s-38fb69c938

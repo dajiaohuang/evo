@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus naso
+  displayName: Kurixalus naso
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3RG4N
+  sourceIndexes:
+    - name:
+        en: Kurixalus naso
+        zh: Kurixalus naso
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3RG4N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/172
+            queryName: Kurixalus naso
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/299
+            queryName: Polypedates naso
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/244
+            queryName: Rhacophorus naso
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/245
+            queryName: Aquixalus naso
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0f74f93a7a
+      - s-363ffed585
+      - s-26aeb5d309
+      - s-c9b47d45a2
+      - s-2dac2ae0ae
+      - s-57ef004d70
+      - s-d0aae2fde9
+      - s-b1aa2afad3
+      - s-d6f97d51a1
+      - s-2b1e27cadc
+    zh:
+      - s-0ac0e1b6ca
+      - s-2ecfbe2331
+      - s-865a9a594c
+      - s-3293518eb5
+      - s-1bc7bcd782
+      - s-3b390e5c8a
+      - s-0140ffa5c3
+      - s-a299542fba
+      - s-36b59fa477
+      - s-f46d9d6785

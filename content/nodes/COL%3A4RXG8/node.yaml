@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus lateralis
+  displayName: Rhacophorus lateralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXG8
+  sourceIndexes:
+    - name:
+        en: Rhacophorus lateralis
+        zh: Rhacophorus lateralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXG8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/237
+            queryName: Rhacophorus lateralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-542072c226
+      - s-c59c2b9470
+      - s-4c59ac386a
+      - s-2094173303
+      - s-d24630d50a
+      - s-4bc5c8acfc
+      - s-214fb0ea94
+      - s-a66b50596f
+      - s-64ddbaf67c
+    zh:
+      - s-69cfb07f1c
+      - s-8d38fb811e
+      - s-b8133c7c62
+      - s-d7604ca1dd
+      - s-e9cb70a99e
+      - s-ead6b34df1
+      - s-7bc86f2214
+      - s-fb253c4fd4
+      - s-c006be01ac

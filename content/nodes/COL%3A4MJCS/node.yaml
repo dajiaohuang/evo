@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis curtipes
+  displayName: Pristimantis curtipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJCS
+  sourceIndexes:
+    - name:
+        en: Pristimantis curtipes
+        zh: Pristimantis curtipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJCS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/230
+            queryName: Pristimantis curtipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/71
+            queryName: Eleutherodactylus curtipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/223
+            queryName: Eleutherodactylus whymperi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/128
+            queryName: Hylodes curtipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/129
+            queryName: Hylodes whymperi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/130
+            queryName: Hyla chimboe
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/131
+            queryName: Eleutherodactylus anae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8664e3969c
+      - s-6fd97e7264
+      - s-2cf737a7a4
+      - s-aef34dd3f2
+      - s-85e8ac6e30
+      - s-cacecd75f7
+      - s-2e76d4b76f
+      - s-cd7109c790
+      - s-94a571386a
+      - s-525f773a57
+      - s-c934537eda
+      - s-dcc128b121
+      - s-b781784cbf
+      - s-2362af9a54
+      - s-ff47e052f1
+      - s-83bf79c4e1
+    zh:
+      - s-23f845c6d0
+      - s-c8d47ab3f6
+      - s-96e25d7c31
+      - s-e8ab01b6e1
+      - s-d2e2fb5e18
+      - s-bbdd9804b6
+      - s-521d979137
+      - s-4f1c2de116
+      - s-b07ea199d2
+      - s-d34830380e
+      - s-22d962cd14
+      - s-3ba04e1b67
+      - s-338d73758f
+      - s-ed5bd37441
+      - s-71cc435df5
+      - s-217087e11f

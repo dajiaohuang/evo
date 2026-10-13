@@ -1,0 +1,157 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Monocnemodon syphakos
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Monocnemodon syphakos
+      en: Monocnemodon syphakos
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-183ce69218
+            part: body
+          en:
+            page: en
+            section: s-882282b88c
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-25af35c9e4
+            part: body
+          en:
+            page: en
+            section: s-bf9b2ea373
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3b964e6f71
+            part: body
+          en:
+            page: en
+            section: s-38633884cc
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-65040e9c0e
+            part: body
+          en:
+            page: en
+            section: s-247a125da4
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8583e24f87
+            part: body
+          en:
+            page: en
+            section: s-a4638dc07f
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Monocnemodon syphakos
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=346521&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:346521; original response record indices retained in data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 514f112902c399f610603231aa01670f6a662448389d5f94c43cb3b70ec452d6
+          pbdbTaxonId: txn:346521
+          selectedOccurrenceIds:
+            - occ:1341850
+            - occ:1341851
+          selectedCollectionIds:
+            - col:181388
+            - col:181389
+          sourceReferenceIds:
+            - ref:60263
+          originalIdentificationMappings:
+            - occurrenceId: occ:1341850
+              originalIdentifiedName: Monocnemodon syphakos n. gen. n. sp.
+              acceptedName: Monocnemodon syphakos
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3ed8f1cb75
+        part: body
+      en:
+        page: en
+        section: s-48e4238eef
+        part: body

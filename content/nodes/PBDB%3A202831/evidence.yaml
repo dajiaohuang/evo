@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Aralobatrachus robustus
+    rank: species
+    sourceTaxonId: txn:202831
+    name:
+      en: Aralobatrachus robustus
+      zh: Aralobatrachus robustus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-621bbc6a17
+            part: body
+          zh:
+            page: zh
+            section: s-05cdf93df0
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-051eaf3839
+            part: body
+          zh:
+            page: zh
+            section: s-91c4fcf58e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-d1710fdf06
+            part: body
+          zh:
+            page: zh
+            section: s-4cd8f27865
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:202831; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: L. A. Nessov. 1981. Amfibii i reptilii v ekosistemakh Mela sredney Azii [Amphibia and reptiles in Cretaceous ecosystems of central Asia]. The Problems of Herpetology. Fifth Herpetological Conference. Abstracts
+    occurrenceEvidence:
+      - occurrenceId: occ:985888
+        collectionId: col:46959
+        acceptedTaxonId: txn:202831
+        identifiedName: Aralobatrachus robustus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:64195
+        bibliography: L. A. Nessov. 1981. Amfibii i reptilii v ekosistemakh Mela sredney Azii [Amphibia and reptiles in Cretaceous ecosystems of central Asia].  In I. V. Darevsky (ed.), The Problems of Herpetology. Fifth Herpetological Conference. Abstracts
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+      - occurrenceId: occ:985889
+        collectionId: col:58168
+        acceptedTaxonId: txn:202831
+        taxonomicDifference: null
+        referenceId: ref:18862
+        bibliography: Z. Ročec and L. A. Nessov. 1993. Cretaceous anurans from Central Asia. Palaeontographica Abteilung A 226:1-54
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+      - occurrenceId: occ:985890
+        collectionId: col:58174
+        acceptedTaxonId: txn:202831
+        taxonomicDifference: null
+        referenceId: ref:64195
+        bibliography: L. A. Nessov. 1981. Amfibii i reptilii v ekosistemakh Mela sredney Azii [Amphibia and reptiles in Cretaceous ecosystems of central Asia].  In I. V. Darevsky (ed.), The Problems of Herpetology. Fifth Herpetological Conference. Abstracts
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+      - occurrenceId: occ:985891
+        collectionId: col:118246
+        acceptedTaxonId: txn:202831
+        taxonomicDifference: null
+        referenceId: ref:18862
+        bibliography: Z. Ročec and L. A. Nessov. 1993. Cretaceous anurans from Central Asia. Palaeontographica Abteilung A 226:1-54
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+      - occurrenceId: occ:1437961
+        collectionId: col:58164
+        acceptedTaxonId: txn:202831
+        taxonomicDifference: null
+        referenceId: ref:38127
+        bibliography: L. A. Nessov. 1982. Drevneishie mlekopitaiushchie SSSR [Ancient mammals of the USSR]. Palyentologicheskogo Obshchyestva 25:228-243
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-d1710fdf06
+            part: body
+          zh:
+            page: zh
+            section: s-4cd8f27865
+            part: body
+        sourceIds: []

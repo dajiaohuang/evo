@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Paramesotriton guangxiensis
+    name:
+      en: Paramesotriton guangxiensis
+      zh: Paramesotriton guangxiensis
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Paramesotriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ad3cd75b94
+            part: body
+          zh:
+            page: zh
+            section: s-236e2eea03
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-85ab2e33b8
+            part: body
+          zh:
+            page: zh
+            section: s-ca9cb98fee
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 283, 284; Reference.csv rows 4141
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 283
+        values:
+          - Salamandridae
+          - Paramesotriton
+          - Paramesotriton guangxiensis
+          - F
+          - "134.2"
+          - "71"
+          - NA
+          - "29.5"
+          - "21.2"
+          - "16.1"
+          - "4.2"
+          - "4.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "36.2"
+          - "9.1"
+          - "12.5"
+          - NA
+          - NA
+          - "21"
+          - "19.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 284
+        values:
+          - Salamandridae
+          - Paramesotriton
+          - Paramesotriton guangxiensis
+          - M
+          - "131.1"
+          - "71.8"
+          - NA
+          - "29.4"
+          - "21.9"
+          - "17.1"
+          - "4.7"
+          - "4.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "59.2"
+          - "8.4"
+          - "13.9"
+          - NA
+          - NA
+          - "21.6"
+          - "21.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4141
+        values:
+          - Caudata
+          - Paramesotriton_guangxiensis
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006). Fauna Sinica, Amphibia, Urodela. Science Press, Beijing.
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - TL
+      - TW
+      - TH
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4D372
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

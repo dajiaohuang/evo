@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis lirellus
+  displayName: Pristimantis lirellus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJGV
+  sourceIndexes:
+    - name:
+        en: Pristimantis lirellus
+        zh: Pristimantis lirellus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJGV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/368
+            queryName: Pristimantis lirellus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/416
+            queryName: Eleutherodactylus lirellus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-58cb8846de
+      - s-e6a7aa0081
+      - s-1fe47f621c
+      - s-bd0d807aec
+      - s-b9b3d93adb
+      - s-eddd3b6623
+      - s-d8515f0731
+      - s-dbd5028c68
+    zh:
+      - s-23e0798cba
+      - s-04fc889b0c
+      - s-9ebdfb1e67
+      - s-e4f781b855
+      - s-d7132d980c
+      - s-5d355815da
+      - s-534419e699
+      - s-148a8ff82b

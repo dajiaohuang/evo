@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius zonatus
+  displayName: Hyperolius zonatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NR2Y
+  sourceIndexes:
+    - name:
+        en: Hyperolius zonatus
+        zh: Hyperolius zonatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NR2Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/359
+            queryName: Hyperolius zonatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cae5a88880
+      - s-31c59d5f44
+      - s-0a4224d30b
+      - s-2c6ea345fe
+      - s-462896135b
+      - s-4c7f6a8f58
+      - s-7e9f02aea0
+      - s-fc855bd2ad
+      - s-a7e6a0038a
+      - s-e05c3b5990
+    zh:
+      - s-01b7e0405e
+      - s-b349be55d2
+      - s-2db51c4c00
+      - s-2417309b09
+      - s-1cd221b556
+      - s-a07b9825c9
+      - s-ce7f9aa40d
+      - s-04bf902ee5
+      - s-37b02a73ac
+      - s-e96ff14f9e

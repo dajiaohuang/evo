@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sarothrura elegans
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Sarothrura elegans
+      en: Sarothrura elegans
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetSarothruraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-45fa3e114d
+            part: body
+          en:
+            page: en
+            section: s-15de8bb567
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetSarothruraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-c495aca53a
+            part: body
+          en:
+            page: en
+            section: s-f7554873b4
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetSarothruraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-17bc4d1b5d
+            part: body
+          en:
+            page: en
+            section: s-f02c4e0add
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetSarothruraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-5bfc416c6a
+            part: body
+          en:
+            page: en
+            section: s-71e9f0af04
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetSarothruraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-795ea99aa7
+            part: body
+          en:
+            page: en
+            section: s-583bb2e05d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Sarothrura elegans
+          url: https://www.checklistbank.org/dataset/316115/taxon/6XPJV
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetSarothruraHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Sarothrura historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 2720–2728; full eBird and BirdTree crosswalks, COL sa name shard and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：同名关联、Rallidae 原科名、形态鸟数、独立文献体重和各生态字段分开。
+            en: "Eight historical rows: separate same-name links, source Rallidae spelling, morphology birds, compiled mass and ecological fields."
+    limitations:
+      zh:
+        page: zh
+        section: s-baac788933
+        part: body
+      en:
+        page: en
+        section: s-79c545bb84
+        part: body

@@ -1,0 +1,44 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Platyoposaurus rickardi
+  displayName: Platyoposaurus rickardi
+  rank: species
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=142448
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Platyoposaurus rickardi
+        zh: Platyoposaurus rickardi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: txn:142448
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00018.json.gz
+            field: /records/344
+            queryName: Platyoposaurus rickardi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41e9715b57
+      - s-b0414f0fb3
+      - s-c45bced84d
+    zh:
+      - s-c8304f4427
+      - s-79c2a3bf3b
+      - s-2c07ab00e9

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops cucae
+  displayName: Amolops cucae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CW9Z
+  sourceIndexes:
+    - name:
+        en: Amolops cucae
+        zh: Amolops cucae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CW9Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/356
+            queryName: Amolops cucae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/137
+            queryName: Rana cucae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/138
+            queryName: Odorrana cucae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-24e21b008e
+      - s-f268fe2dfe
+      - s-2a84f90b3c
+      - s-4b634794d7
+      - s-891d4423e5
+      - s-46cc0ee0d5
+      - s-34968b4c79
+      - s-b32863fbc6
+      - s-7da011475b
+      - s-f95cc37325
+    zh:
+      - s-e2569fb709
+      - s-24972a4702
+      - s-21f4ea1251
+      - s-03a75a2ee1
+      - s-cec20d9e39
+      - s-92daa10bf0
+      - s-bb867252f1
+      - s-d40cd25509
+      - s-3ef0438b88
+      - s-06f4e00f45

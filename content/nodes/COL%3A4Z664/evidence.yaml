@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Spinus xanthogastrus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Spinus xanthogastrus
+      en: Spinus xanthogastrus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-b65ce5c053
+            part: body
+          en:
+            page: en
+            section: s-de96adfe4e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-6cc0055ad1
+            part: body
+          en:
+            page: en
+            section: s-2937ba06c9
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-47999f258e
+            part: body
+          en:
+            page: en
+            section: s-05ed824ca2
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-9b111b8dc8
+            part: body
+          en:
+            page: en
+            section: s-30829f4e17
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetSpinusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-89ae32a769
+            part: body
+          en:
+            page: en
+            section: s-2d66f6ee29
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Spinus xanthogastrus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4Z664
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetSpinusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Spinus historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 10 selected AVONET1_BirdLife rows within 4150–4168; corresponding eBird and BirdTree rows, sp/car/se catalogue shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 十条历史资料；九个 Carduelis 与一个 Serinus 组合，形态、独立文献体重与类别分别阅读。
+            en: Ten historical records; nine Carduelis and one Serinus combinations, with morphology, separately compiled mass and categories read distinctly.
+    limitations:
+      zh:
+        page: zh
+        section: s-911e31cf19
+        part: body
+      en:
+        page: en
+        section: s-053d599ba2
+        part: body

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynomantis affinis
+  displayName: Phrynomantis affinis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWKP
+  sourceIndexes:
+    - name:
+        en: Phrynomantis affinis
+        zh: Phrynomantis affinis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWKP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/195
+            queryName: Phrynomantis affinis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/265
+            queryName: Phrynomerus hoeschi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/266
+            queryName: Phrynomerus affinis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-518a2ccd0b
+      - s-ed7ec4c96c
+      - s-1cfcf944e1
+      - s-b0d9933b5e
+      - s-67793a3dec
+      - s-698a686eb6
+      - s-6527ac661f
+      - s-f301e21432
+      - s-9c48769d3e
+    zh:
+      - s-49fc6f2ba2
+      - s-9ec878ef58
+      - s-af158e6876
+      - s-9ac6dafdd5
+      - s-137cbf6cb8
+      - s-ce0eb3e8c4
+      - s-d07405bc18
+      - s-92b58c9669
+      - s-240715b75b

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paratelmatobius yepiranga
+  displayName: Paratelmatobius yepiranga
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6TS96
+  sourceIndexes:
+    - name:
+        en: Paratelmatobius yepiranga
+        zh: Paratelmatobius yepiranga
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6TS96
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/430
+            queryName: Paratelmatobius yepiranga
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd86a22a08
+      - s-9a35d5fcf4
+      - s-b5d6b672d1
+      - s-c92629c75c
+      - s-0415f5757d
+      - s-e5c4c132e5
+      - s-c20e11a3b8
+      - s-1555f57b8e
+      - s-fb39f4c2d9
+      - s-d28e5bd89c
+      - s-0e9b36f92a
+    zh:
+      - s-bd5c8ddb21
+      - s-5786dd15aa
+      - s-884bc3d02d
+      - s-0f892cb81d
+      - s-453080a74e
+      - s-43985db23c
+      - s-6a5d0dbc78
+      - s-8a26a6cb78
+      - s-8061218153
+      - s-1253eae9dd
+      - s-edf3ce3db4

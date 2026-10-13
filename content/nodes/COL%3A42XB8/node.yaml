@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla okinavensis
+  displayName: Microhyla okinavensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42XB8
+  sourceIndexes:
+    - name:
+        en: Microhyla okinavensis
+        zh: Microhyla okinavensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42XB8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/27
+            queryName: Microhyla okinavensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/223
+            queryName: Microhyla undulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de6b3becdd
+      - s-f8f8a70ba5
+      - s-a33c1223fa
+      - s-5517d26f01
+      - s-453a2af399
+      - s-94f76ccd9b
+      - s-e6d4769d6d
+      - s-c76f93915f
+      - s-f714650729
+      - s-27422d1e50
+    zh:
+      - s-2d4a2b5813
+      - s-d67a6e7e31
+      - s-ac9f953519
+      - s-887d4dfc5c
+      - s-160883b164
+      - s-1c25083975
+      - s-341b494f3b
+      - s-431f1461db
+      - s-c8b39ba2a2
+      - s-328eaebc14

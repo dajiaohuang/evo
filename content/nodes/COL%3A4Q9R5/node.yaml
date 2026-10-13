@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena nilotica
+  displayName: Ptychadena nilotica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9R5
+  sourceIndexes:
+    - name:
+        en: Ptychadena nilotica
+        zh: Ptychadena nilotica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9R5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/485
+            queryName: Ptychadena nilotica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/52
+            queryName: Ptychadena filwoha
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/153
+            queryName: Rana nilotica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/391
+            queryName: Rana venusta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/43
+            queryName: Rana mascareniensis venusta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d83b1023d7
+      - s-035b211f45
+      - s-ffa42109b8
+      - s-25fc5a26f4
+      - s-f91e8fa9a2
+      - s-ea3e1b6110
+      - s-01e307bb80
+      - s-1b00b0b31e
+      - s-a99373e912
+      - s-1960a178e0
+      - s-1a07cf34e6
+      - s-94c7680fca
+      - s-26e48936dc
+      - s-07b7f7eee6
+      - s-89b372da43
+      - s-4a4dea9a3d
+      - s-47e24001a6
+      - s-f415c79781
+      - s-367d410323
+      - s-6db21d01d9
+      - s-9b66ad8538
+      - s-5858b2d7c3
+      - s-1888095495
+    zh:
+      - s-e62c9be9c3
+      - s-c42fcf8e95
+      - s-2e3fb07260
+      - s-b62b3fa74c
+      - s-664c96f691
+      - s-a53f60ae1c
+      - s-f524efae1e
+      - s-9b4363c517
+      - s-505d61480d
+      - s-d8cf1866e0
+      - s-3f6cae8d5e
+      - s-c146b8c374
+      - s-0a2ab43210
+      - s-d6de87954c
+      - s-20bd9176b4
+      - s-d2b13b033a
+      - s-86e24229d7
+      - s-e85dbb1bd4
+      - s-8cb484d381
+      - s-03e2aef3a6
+      - s-44844541c8
+      - s-cd07380a59
+      - s-c82c5b5c9c

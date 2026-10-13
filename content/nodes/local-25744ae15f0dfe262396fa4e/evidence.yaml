@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hyalinobatrachium iaspidiense
+    name:
+      en: Hyalinobatrachium iaspidiense
+      zh: Hyalinobatrachium iaspidiense
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Hyalinobatrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hyalinobatrachium iaspidiense in the version 3 classification
+          zh: Hyalinobatrachium iaspidiense 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-93d5e3b70f
+            part: body
+          zh:
+            page: zh
+            section: s-71dc38b6b6
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 11 populated trait fields
+          zh: 1 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f58e10d729
+            part: body
+          zh:
+            page: zh
+            section: s-3ad9e44af3
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2132; Reference.csv rows 507
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2132
+        values:
+          - Centrolenidae
+          - Hyalinobatrachium
+          - Hyalinobatrachium iaspidiense
+          - M
+          - "20.1"
+          - "6.7"
+          - "7.6"
+          - "3.1"
+          - NA
+          - NA
+          - "2.4"
+          - NA
+          - "1.7"
+          - NA
+          - "2.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.5"
+          - NA
+          - "11.6"
+          - "11.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 507
+        values:
+          - Anura
+          - Hyalinobatrachium_iaspidiense
+          - "Castroviejo-Fisher, S., VilÀ, C., AyarzagÜEna, J., Blanc, M., & Ernst, R. (2011). Species diversity of Hyalinobatrachium glassfrogs (Amphibia: Centrolenidae) from the Guiana Shield, with the description of two new species. Zootaxa, 3132(1). https://doi.org/10.11646/zootaxa.3132.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - UEW
+      - SL
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6MGTL
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

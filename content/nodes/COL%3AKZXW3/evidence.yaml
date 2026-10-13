@@ -1,0 +1,58 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Coccinellidae Latreille, 1807
+    rank: family
+    sourceDatasetId: "290628"
+    name:
+      zh: 瓢虫科
+      en: Lady beetles
+    sections:
+      - topic: Predators and plant-feeding members
+        text:
+          zh:
+            page: zh
+            section: s-d4a40717e0
+            part: body
+          en:
+            page: en
+            section: s-0299f782f7
+            part: body
+        sourceIds:
+          - account
+    sources:
+      - id: account
+        referenceId: ref-ea806bb7-f105-8ccc-a132-8a642e69e25c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 仅采用瓢虫科段落中的捕食性与植食性差异；不将生防用途推广到所有种。
+            en: Only the Coccinellidae account’s distinction between predatory and plant-feeding members; biological control is not assigned to every species.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 290628
+          url: https://www.checklistbank.org/dataset/316115/taxon/KZXW3
+          scope:
+            zh: 固定版本中的接受名、作者、等级及父链；保留亚属写法和未分配的来源 ID，不据名称推导生物学事实。
+            en: Pinned accepted name, authorship, rank and parent chain; subgenus notation and unassigned source IDs are retained. Names do not establish biological traits.
+    limitations:
+      zh:
+        page: zh
+        section: s-7f87563e03
+        part: body
+      en:
+        page: en
+        section: s-234e49769e
+        part: body

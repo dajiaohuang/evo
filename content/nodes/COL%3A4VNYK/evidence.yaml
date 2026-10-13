@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Scleria poiformis Retz.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 4VNYK, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4VNYK; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/4VNYK
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4VNYK
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000552239-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4VNYK / WFO wfo-0000552239
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_9620_0
+        referenceId: ref-e1ebedba-0a66-86d4-a0e6-41cb5e1ace44
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Scleria poiformis Retz. account; SANBI/WFO archive rows 79710 (Morphology), 79190 (Habitat), 78258 (Diagnostic), source identifier 9620.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Perennial. Rhizome elongate, 5-17 mm thick; scales brown. Culms 1.3-1.8(-2) m tall, glabrous. Leaves mostly crowded towards base of culm, 20-40 mm broad, bases sometimes corky, up to 5 mm thick, glabrous; sheaths usually split almost to the base from concave mouths. Inflorescence a single terminal panicle without (very rarely with) foliaceous bract, 100-200 x 50-120 mm. Male spikelets sessile, 3.5-4.5 mm long; glumes reddish-brown, glabrous or hispidulous. Female glumes similar, 3.5-5 mm long. Achene broadly ovoid to subglobose, 1-3.5 x 2.5-2.8 mm, glabrous, smooth, grey-brown; hypogynium small, trilobed, lobes short, broadly triangular, white or finely red-brown striate.
+            textZh: Scleria poiformis Retz. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_9620_0
+            locator: "SANBI/WFO archive Morphology row 79710; source identifier 9620.0; cited publication: Hennessy, EF. 1985. The genus Scleria in southern Africa. Bothalia 15(3 & 4): 505 - 530. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Perennial, stout, aquatic, with evergreen aerial parts. This species is unlikely to be confused with any other. It is very robust, forms dense, almost pure stands in shallow coastal pans, has leaves which are broader and thicker than those of any other local species and is the only southern African species other than S. lacustris with a very small hypogynium with three obtusely triangular lobes. The two species are allopatric and differ in habit.
+            textZh: SANBI 条目提供了 Scleria poiformis Retz. 的鉴别特征。
+            sourceIds:
+              - sanbi_9620_0
+            locator: "SANBI/WFO archive Diagnostic row 78258; source identifier 9620.0; cited publication: Hennessy, EF. 1985. The genus Scleria in southern Africa. Bothalia 15(3 & 4): 505 - 530. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Occurring in open shallow lakes in coastal pans.
+            textZh: 该 SANBI 区域物种条目记录的生境：Occurring in open shallow lakes in coastal pans.
+            sourceIds:
+              - sanbi_9620_0
+            locator: "SANBI/WFO archive Habitat row 79190; source identifier 9620.0; cited publication: Hennessy, EF. 1985. The genus Scleria in southern Africa. Bothalia 15(3 & 4): 505 - 530. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,343 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis tungurahua Reyes-Puig, Yánez-Muñoz, Cisneros-Heredia & Ramírez, 2011
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis tungurahua
+      zh: Pristimantis tungurahua
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-12d99d8687
+            part: title
+          zh:
+            page: zh
+            section: s-567626b051
+            part: title
+        text:
+          en:
+            page: en
+            section: s-12d99d8687
+            part: body
+          zh:
+            page: zh
+            section: s-567626b051
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3ad7f5ff4c
+            part: title
+          zh:
+            page: zh
+            section: s-5db81a878c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3ad7f5ff4c
+            part: body
+          zh:
+            page: zh
+            section: s-5db81a878c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d581d62aca
+            part: title
+          zh:
+            page: zh
+            section: s-be0ee9cb05
+            part: title
+        sourceIds:
+          - primary-pmc8763828-4mjqq
+        text:
+          en:
+            page: en
+            section: s-d581d62aca
+            part: body
+          zh:
+            page: zh
+            section: s-be0ee9cb05
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-25482a5717
+            part: title
+          zh:
+            page: zh
+            section: s-825f1339e2
+            part: title
+        sourceIds:
+          - primary-pmc8763828-4mjqq
+        text:
+          en:
+            page: en
+            section: s-25482a5717
+            part: body
+          zh:
+            page: zh
+            section: s-825f1339e2
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-053fd2d865
+            part: title
+          zh:
+            page: zh
+            section: s-120b2e8f57
+            part: title
+        sourceIds:
+          - primary-pmc12717849-4mjqq
+        text:
+          en:
+            page: en
+            section: s-053fd2d865
+            part: body
+          zh:
+            page: zh
+            section: s-120b2e8f57
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a09627a771
+            part: title
+          zh:
+            page: zh
+            section: s-e3e879cc67
+            part: title
+        sourceIds:
+          - primary-pmc12717849-4mjqq
+        text:
+          en:
+            page: en
+            section: s-a09627a771
+            part: body
+          zh:
+            page: zh
+            section: s-e3e879cc67
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-b6cf2fd231
+            part: body
+          zh:
+            page: zh
+            section: s-1b6cc4d02c
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis tungurahua
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MJQQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc8763828-4mjqq
+        referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - authorMetadataEvidence
+          - authorsAsRecordedInXml
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis tungurahua: Named species Remarks; female-count conflict retained; aff. tungurahua account excluded; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12717849-4mjqq
+        referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis tungurahua: XML taxon sampling; molecular assay paragraphs 1–5; candidate-species definition; phylogenetic relationships; systematic account; both species-group accounts; all 21 New species paragraphs; Cryptomantis discussion and cryptic-diversity discussion; no supplementary, original sequences or specimens independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-517296345b
+        part: body
+      zh:
+        page: zh
+        section: s-15c1a33bcb
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1081.71488
+        referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+        sourceKey: primary-pmc8763828-4mjqq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8763828/article.xml
+        sourceConcept: Pristimantis tungurahua
+        evidenceRead: "Pristimantis tungurahua: Named species Remarks; female-count conflict retained; aff. tungurahua account excluded; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A female count that disagrees with the voucher list
+              zh: 与凭证清单不一致的雌性数量
+            referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+            sourceKey: primary-pmc8763828-4mjqq
+            locator: Species accounts > Pristimantis tungurahua > Remarks; reading-sections index 14, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c2c3c56cf7
+                part: body
+              zh:
+                page: zh
+                section: s-1e3b7c6a12
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Low vegetation, ground sticks and an excluded candidate
+              zh: 低植被、地面枯枝与排除的候选记录
+            referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+            sourceKey: primary-pmc8763828-4mjqq
+            locator: Species accounts > Pristimantis tungurahua > Remarks; reading-sections index 14, paragraph 0; aff. tungurahua > Remarks, index 21, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ab3a79714d
+                part: body
+              zh:
+                page: zh
+                section: s-d78d979e75
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.20512
+        referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+        sourceKey: primary-pmc12717849-4mjqq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12717849/article.xml
+        sourceConcept: Pristimantis tungurahua
+        evidenceRead: "Pristimantis tungurahua: XML taxon sampling; molecular assay paragraphs 1–5; candidate-species definition; phylogenetic relationships; systematic account; both species-group accounts; all 21 New species paragraphs; Cryptomantis discussion and cryptic-diversity discussion; no supplementary, original sequences or specimens independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Placement in the proposed Cryptomantis framework
+              zh: 拟议 Cryptomantis 框架中的位置
+            referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+            sourceKey: primary-pmc12717849-4mjqq
+            locator: PMC12717849 XML Phylogenetic relationships paragraph 1; Systematic account paragraphs 4–8; Pristimantis (Cryptomantis) bicantus species group new taxon paragraphs 1–4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-51607f1805
+                part: body
+              zh:
+                page: zh
+                section: s-b7eea49389
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Characters in the paganus comparison
+              zh: paganus 比较中的性状
+            referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+            sourceKey: primary-pmc12717849-4mjqq
+            locator: PMC12717849 XML New species paragraphs 9–11; Systematic account paragraph 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3459c37e49
+                part: body
+              zh:
+                page: zh
+                section: s-804917ab76
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

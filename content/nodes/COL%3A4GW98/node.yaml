@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus guineensis
+  displayName: Phrynobatrachus guineensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW98
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus guineensis
+        zh: Phrynobatrachus guineensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW98
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/130
+            queryName: Phrynobatrachus guineensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-86521ca8fa
+      - s-a7c7557296
+      - s-2c6d2cec6c
+      - s-3ad12aa877
+      - s-a3481ec03a
+      - s-f557e0a4b3
+      - s-3351f99ca3
+      - s-c4814fa929
+      - s-a61d93aef5
+      - s-d070476951
+      - s-bd4230760c
+    zh:
+      - s-adf76f66ee
+      - s-a2eb04e434
+      - s-17c7f80a12
+      - s-7b419ffa10
+      - s-17c8b628e0
+      - s-05f97e6dc2
+      - s-c16815a966
+      - s-701ebce744
+      - s-f9b436c5d2
+      - s-dd9c86ce5f
+      - s-c24a389649

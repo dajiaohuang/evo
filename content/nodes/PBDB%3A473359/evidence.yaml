@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tapirulidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Tapirulidae
+      en: Tapirulidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3edc04f313
+            part: body
+          en:
+            page: en
+            section: s-7ad47d0d44
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b32297a91f
+            part: body
+          en:
+            page: en
+            section: s-1a9a3d69f2
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Tapirulidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=473359
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:473359
+          readingTargets:
+            - name: Tapirulus hyracinus
+              pbdbTaxonId: txn:347714
+              canonicalPath: content/nodes/PBDB%3A347714
+            - name: Tapirulus perrierensis
+              pbdbTaxonId: txn:347717
+              canonicalPath: content/nodes/PBDB%3A347717
+            - name: Tapirulus schlosseri
+              pbdbTaxonId: txn:67473
+              canonicalPath: content/nodes/PBDB%3A67473
+            - name: Tapirulus depereti
+              pbdbTaxonId: txn:347716
+              canonicalPath: content/nodes/PBDB%3A347716
+            - name: Tapirulus majori
+              pbdbTaxonId: txn:347715
+              canonicalPath: content/nodes/PBDB%3A347715
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b9b4fd57e2
+        part: body
+      en:
+        page: en
+        section: s-9cce0ddacd
+        part: body

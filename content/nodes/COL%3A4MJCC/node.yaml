@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis cosnipatae
+  displayName: Pristimantis cosnipatae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJCC
+  sourceIndexes:
+    - name:
+        en: Pristimantis cosnipatae
+        zh: Pristimantis cosnipatae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJCC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/217
+            queryName: Pristimantis cosnipatae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/316
+            queryName: Eleutherodactylus cosnipatae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9dab7c1641
+      - s-ce93a88026
+      - s-878de801ba
+      - s-9167c4328f
+      - s-4167af7abb
+      - s-d670db74d0
+      - s-f634ec7e65
+      - s-5816a6fe49
+    zh:
+      - s-98522b9e8f
+      - s-5963244a56
+      - s-5bfbae4536
+      - s-bcae911000
+      - s-cfe16d122d
+      - s-ba31efc4ac
+      - s-0cec48f242
+      - s-52de7e74a9

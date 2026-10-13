@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon asupak
+  displayName: Plethodon asupak
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7827S
+  sourceIndexes:
+    - name:
+        en: Plethodon asupak
+        zh: Plethodon asupak
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7827S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/451
+            queryName: Plethodon asupak
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9ac47f9c44
+      - s-97b916d4f9
+      - s-13b55e37af
+      - s-532ccb0d57
+      - s-65e663613b
+      - s-9847ab595a
+      - s-e9e3d411a4
+      - s-bbae62bff2
+      - s-6903e13ee5
+    zh:
+      - s-93e46bb9ee
+      - s-fcaad2a441
+      - s-ad083e4112
+      - s-97bfd76abb
+      - s-18c5515ba6
+      - s-9178078044
+      - s-1de75b62fc
+      - s-6a2e6b1002
+      - s-db58efd5fd

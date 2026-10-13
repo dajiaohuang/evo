@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oedipina altura
+  displayName: Oedipina altura
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48W9M
+  sourceIndexes:
+    - name:
+        en: Oedipina altura
+        zh: Oedipina altura
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48W9M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/60
+            queryName: Oedipina altura
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6b93ad4df
+      - s-77ac330be7
+      - s-86cfcdd6a8
+      - s-5d58ef403f
+      - s-60bb09ef54
+      - s-0961e9047a
+      - s-3dd8eff89c
+      - s-6033fac473
+    zh:
+      - s-96cac49117
+      - s-06fc986f6b
+      - s-1026769534
+      - s-4d839358c0
+      - s-b4234d0421
+      - s-6285614537
+      - s-37103999a0
+      - s-7caa8d8eee

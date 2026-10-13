@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anura
+  displayName: Anura
+  rank: order
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PW
+  sourceIndexes:
+    - name:
+        en: Anura
+        zh: Anura
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PW
+          rank: order
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/90
+            queryName: Anura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 32689
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-81268d516f
+      - s-ee0659992b
+      - s-f1670aa8c6
+      - s-0446cb4eef
+      - s-39312a66cf
+      - s-4007888803
+      - s-d33f0c85bb
+      - s-252e57c933
+    zh:
+      - s-cd5cabe205
+      - s-4300d6b21a
+      - s-d1ee4e4e7d
+      - s-6bdaec6f3a
+      - s-629b472857
+      - s-e5fc4661be
+      - s-e370f21f0f
+      - s-f75c99cdbb

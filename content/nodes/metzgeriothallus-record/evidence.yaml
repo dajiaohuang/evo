@@ -1,0 +1,147 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-c0dbccb7d1
+      part: title
+    titleZh:
+      page: zh
+      section: s-f810b30571
+      part: title
+    category: transition
+    startAge: 387.95
+    endAge: 382.31
+    regions:
+      - Catskill Delta succession, eastern New York
+    clades:
+      - Metzgeriothallus sharonae; liverwort body-fossil exemplar
+    summary:
+      page: en
+      section: s-c0dbccb7d1
+      part: body
+    summaryZh:
+      page: zh
+      section: s-f810b30571
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-3315ddf2ee
+            part: title
+          zh:
+            page: zh
+            section: s-2541acdf10
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3315ddf2ee
+            part: body
+          zh:
+            page: zh
+            section: s-2541acdf10
+            part: body
+        id: observed-material
+        sourceIds:
+          - hernick-2008-metzgeriothallus
+      - title:
+          en:
+            page: en
+            section: s-882928d717
+            part: title
+          zh:
+            page: zh
+            section: s-ad038d7a5c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-882928d717
+            part: body
+          zh:
+            page: zh
+            section: s-ad038d7a5c
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - hernick-2008-metzgeriothallus
+    claimIds:
+      - claim:event:metzgeriothallus:givetian-record
+      - claim:event:metzgeriothallus:body-plan
+    evidenceItems:
+      - statement: Polarized-light study reveals bifurcating thalli with a medial costa and an associated sporophyte capsule
+        relation: supports
+        claimIds:
+          - claim:event:metzgeriothallus:givetian-record
+          - claim:event:metzgeriothallus:body-plan
+        referenceLinks:
+          - relation: supports
+            referenceId: hernick-2008-metzgeriothallus
+            pages: 154–162
+            figure: Plate I, figures 1–4; Plate II
+    uncertaintyItems:
+      - statement: A Givetian occurrence cannot date crown Marchantiophyta or prove absence from older rocks
+        relation: contextualizes
+        claimIds:
+          - claim:event:metzgeriothallus:givetian-record
+        referenceLinks:
+          - relation: supports
+            referenceId: hernick-2008-metzgeriothallus
+            pages: 154–162
+      - statement: The fossil morphology is not generalized to all living or extinct liverwort lineages
+        relation: contextualizes
+        claimIds:
+          - claim:event:metzgeriothallus:body-plan
+        referenceLinks:
+          - relation: supports
+            referenceId: hernick-2008-metzgeriothallus
+            pages: 154–162
+    readerSources:
+      - id: hernick-2008-metzgeriothallus
+        referenceId: hernick-2008-metzgeriothallus
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 154–162; figure: Plate I, figures 1–4; Plate II"
+  claims:
+    - subjectId: event:metzgeriothallus-record
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Metzgeriothallus sharonae specimens from Givetian strata of eastern New York provide a Middle Devonian liverwort body-fossil record; this occurrence is not a crown-Marchantiophyta divergence date or a phylum-wide first appearance.
+      confidence: medium
+      confidenceRationale: The specimens, type localities and Givetian strata are described directly, and the study assigns the material to a liverwort. Medium confidence preserves the distinction between a well-supported fossil occurrence, its finer systematic placement and the unknown completeness of the earlier liverwort record.
+      referenceLinks:
+        - relation: supports
+          referenceId: hernick-2008-metzgeriothallus
+          pages: 154–162
+          figure: Plates I–II
+          quoteLocator: Abstract; Geologic setting; Localities; Systematics; Conclusions
+    - subjectId: event:metzgeriothallus-record
+      claimKind: scientific
+      claimType: morphology
+      statement: Metzgeriothallus sharonae is represented by well-preserved thalloid gametophytes with a medial costa and bifurcation, plus an associated sporophyte capsule; these observations diagnose the fossil material but do not describe all Marchantiophyta.
+      confidence: medium
+      confidenceRationale: The thalli and associated capsule are illustrated and described in the primary study, but association is not the same as an anatomically connected whole plant and similar simple thalloid morphologies occur in more than one liverwort lineage.
+      referenceLinks:
+        - relation: supports
+          referenceId: hernick-2008-metzgeriothallus
+          pages: 154–162
+          figure: Plate I, figures 1–4; Plate II
+          quoteLocator: Abstract; Localities; Systematics; Taphonomy; Conclusions
+  claim-rationales.zh:
+    - 研究直接描述了标本、模式地点和吉维特期地层，并把材料鉴定为地钱类。中等置信度保留了可靠出现记录、较细系统位置以及更早地钱化石记录不完整性之间的区别。
+    - 一手研究图示并描述了叶状体和伴生蒴，但伴生不等于解剖连接的完整植株，而且相似的简单叶状形态存在于不止一个地钱支系中。
+  claim-statements.zh:
+    - 纽约州东部吉维特期地层中的 Metzgeriothallus sharonae 标本提供了中泥盆世地钱植物体化石记录；这一出现记录既不是地钱门冠群分化时间，也不是整个门的首现。
+    - Metzgeriothallus sharonae 保存为具有中肋和分叉的叶状配子体，并伴生一个孢子体蒴；这些观察用于刻画该化石材料，并不描述全部地钱门。

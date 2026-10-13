@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella fissipes
+  displayName: Rhinella fissipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7N3
+  sourceIndexes:
+    - name:
+        en: Rhinella fissipes
+        zh: Rhinella fissipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7N3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/320
+            queryName: Rhinella fissipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/383
+            queryName: Bufo fissipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/79
+            queryName: Chaunus fissipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70b8be8a10
+      - s-0d9084b809
+      - s-ec15c65e67
+      - s-ba3171372b
+      - s-15560392c8
+      - s-2bf6719114
+      - s-cf3209cc9c
+      - s-aeccdd7cd8
+    zh:
+      - s-d9485e0a4b
+      - s-0999a34243
+      - s-2a7716a640
+      - s-0f69fe3b41
+      - s-63c32a88b2
+      - s-74bc58aff3
+      - s-9976493c0a
+      - s-0d512430f6

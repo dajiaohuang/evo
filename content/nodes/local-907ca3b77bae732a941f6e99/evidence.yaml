@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Indosylvirana flavescens
+    name:
+      en: Indosylvirana flavescens
+      zh: Indosylvirana flavescens
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Indosylvirana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2a3ea981d3
+            part: body
+          zh:
+            page: zh
+            section: s-c33852204f
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ed304821e5
+            part: body
+          zh:
+            page: zh
+            section: s-b57cf723f0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2387, 2388; Reference.csv rows 3821
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2387
+        values:
+          - Ranidae
+          - Indosylvirana
+          - Indosylvirana flavescens
+          - M
+          - "50.2"
+          - "19.2"
+          - "16.1"
+          - "5.7"
+          - "4"
+          - NA
+          - NA
+          - NA
+          - "3.7"
+          - "4.7"
+          - "8.5"
+          - "3.5"
+          - "14.1"
+          - "10"
+          - NA
+          - "26.3"
+          - NA
+          - "27.1"
+          - "24.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2388
+        values:
+          - Ranidae
+          - Indosylvirana
+          - Indosylvirana flavescens
+          - F
+          - "75.5"
+          - "29.5"
+          - "24.5"
+          - "7"
+          - "5.9"
+          - NA
+          - NA
+          - NA
+          - "5"
+          - "6.8"
+          - "12.5"
+          - "3.9"
+          - "20.7"
+          - "14.8"
+          - NA
+          - "39.7"
+          - NA
+          - "41.5"
+          - "37.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3821
+        values:
+          - Anura
+          - Indosylvirana_flavescens
+          - S D, B., Garg, S., Mahony, S., Wijayathilaka, N., Senevirathne, G., & Meegaskumbura, M. (2014). DNA barcoding, phylogeny and systematics of Golden-backed frogs (Hylarana, Ranidae) of the Western Ghats-Sri Lanka biodiversity hotspot, with the description of seven new species. Contributions to zoology Bijdragen tot de dierkunde, 83, 269-335. https://doi.org/10.1163/18759866-08304004
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

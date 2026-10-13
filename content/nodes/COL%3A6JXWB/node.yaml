@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca phalarosa
+  displayName: Gastrotheca phalarosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JXWB
+  sourceIndexes:
+    - name:
+        en: Gastrotheca phalarosa
+        zh: Gastrotheca phalarosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JXWB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/64
+            queryName: Gastrotheca phalarosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-17b24719dc
+      - s-adb9f21d4d
+      - s-50b1b2527c
+      - s-99617fdd4a
+      - s-41c1f055d6
+      - s-3f8a386c91
+      - s-360545b243
+      - s-aaf76ea595
+      - s-76ebcf15fc
+    zh:
+      - s-541463a616
+      - s-016f43cf4d
+      - s-0b9bf596b4
+      - s-26f7aba92e
+      - s-aac64abf0b
+      - s-2e7816cbdc
+      - s-f62b51e4ff
+      - s-5e8c5cc86e
+      - s-93846b90fe

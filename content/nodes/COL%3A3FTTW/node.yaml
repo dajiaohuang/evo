@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis leucomaculatus
+  displayName: Gephyromantis leucomaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FTTW
+  sourceIndexes:
+    - name:
+        en: Gephyromantis leucomaculatus
+        zh: Gephyromantis leucomaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FTTW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/133
+            queryName: Gephyromantis leucomaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/186
+            queryName: Mantidactylus leucomaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/336
+            queryName: Rhacophorus leucomaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/337
+            queryName: Boophis leucomaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8d594b28cb
+      - s-d375426e7a
+      - s-b55ada759f
+      - s-80968e2702
+      - s-0232629227
+      - s-1397fff9c4
+      - s-923621347e
+      - s-79a3860b04
+      - s-208768318c
+      - s-62498d8ea1
+    zh:
+      - s-afbf3d5823
+      - s-0edad09044
+      - s-ffb92c1b56
+      - s-2504eb40f6
+      - s-d44111536e
+      - s-f4a3966b07
+      - s-765a663509
+      - s-6e2dc2167a
+      - s-b25de7dc04
+      - s-c4b7a8507f

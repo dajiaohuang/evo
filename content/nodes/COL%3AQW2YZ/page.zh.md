@@ -1,0 +1,12 @@
+## 接受名称与分类位置 {#s-ea7ed84ffe}
+COL26.8 于 2026 年 8 月 20 日发布的版本接受 Neblinaphryne mayeri Fouquet, Kok, Recoder, Prates, Camacho, Marques-Souza, Ghellere, McDiarmid & Rodrigues, 2023 为种级记录，所记分类路径为 Anura（目） → Neblinaphrynidae（科） → Neblinaphryne（属）。这条记录确定目录中的名称与位置，本身不提供该物种的生物学描述。
+
+## 目录记录所说明的内容 {#s-9d4f4ae72f}
+已绑定的目录来源只确定接受名称与分类位置；本页没有该物种解剖、栖地、生活史、分布、演化或保护方面的具体证据。
+
+## 证据范围 {#s-0fae16fe38}
+目录记录的是分类身份，不是物种生物学。
+
+## 如何使用关联文献索引 {#s-a67cd077a3}
+关联的文献索引用于查找资料，并不提供生物学发现。有关该物种的证据须回到具体研究。
+

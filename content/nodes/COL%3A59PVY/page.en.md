@@ -1,0 +1,3 @@
+## What leaf and flower traits are recorded for Turnera harleyi? {#s-810674f6e6}
+The branches have simple hairs. Petiolate leaves have small stipules, sometimes reduced to glands; extrafloral nectaries may be present or absent. Blades range from linear or lance-shaped to oblanceolate, with finely toothed edges. Both surfaces are bristly-haired, especially below. Inflorescences may be racemes or solitary flowers; floral stalks and bracteoles are present, but pedicels are absent. The yellow corolla lacks a corona, and the filaments join the floral tube at the base. Styles are heterostylous. The fruit exocarp is smooth; seeds are net-veined with a smooth outer layer and blunt chalaza.
+

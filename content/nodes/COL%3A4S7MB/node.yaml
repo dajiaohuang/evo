@@ -1,0 +1,146 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella arenarum
+  displayName: Rhinella arenarum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7MB
+  sourceIndexes:
+    - name:
+        en: Rhinella arenarum
+        zh: Rhinella arenarum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7MB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/298
+            queryName: Rhinella arenarum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 686
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/366
+            queryName: Bufo arenarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 839
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/473
+            queryName: Bufo mendocinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/474
+            queryName: Phryniscus connectens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/475
+            queryName: Bufo arenarius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/476
+            queryName: Chaunus arenarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/85
+            queryName: Bufo marinus platensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/86
+            queryName: Bufo arenarum mendocinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/87
+            queryName: Bufo arenarum platensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/88
+            queryName: Bufo arenarum chaguar
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e013145958
+      - s-fbd53f7acb
+      - s-5e7184aa94
+      - s-66e8f193e5
+      - s-dad791d940
+      - s-3d86389431
+      - s-43d7444320
+      - s-6fa88dfda8
+      - s-bbf27b7f77
+      - s-cc31916d2b
+      - s-f63ccb9f99
+      - s-2b51309412
+      - s-5c17e87b18
+      - s-dbd1cf659d
+      - s-8e513d5dfe
+      - s-569a3b1301
+      - s-97aaf64ed8
+      - s-e26b2b1bfb
+      - s-146a912919
+      - s-6a0dd6b865
+      - s-2006c059ac
+      - s-3f4461f919
+      - s-a34893ef38
+      - s-6218c9c4e1
+      - s-c42573031c
+      - s-9adccbf63e
+    zh:
+      - s-4dd589f347
+      - s-a40c02ed4c
+      - s-98d5f27657
+      - s-f7e9c90437
+      - s-d195ce57c6
+      - s-97257ffe52
+      - s-7dfdc817ac
+      - s-ee56193338
+      - s-b376a6406e
+      - s-a6e17d69eb
+      - s-5c7b923ce5
+      - s-963606a35c
+      - s-3130ab4025
+      - s-28141eb49a
+      - s-45dfa2e5d6
+      - s-dd95d42633
+      - s-104009b311
+      - s-0d8acac07a
+      - s-bb8600a7e7
+      - s-10fa6cb60d
+      - s-a462b4ebf4
+      - s-73a759ba8f
+      - s-b5670c5340
+      - s-dc75b66a55
+      - s-57e6717fd6
+      - s-2b1a9cfc38

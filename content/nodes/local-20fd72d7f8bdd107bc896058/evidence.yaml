@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Limnonectes sisikdagu
+    name:
+      en: Limnonectes sisikdagu
+      zh: Limnonectes sisikdagu
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Limnonectes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4a0a2b2f25
+            part: body
+          zh:
+            page: zh
+            section: s-c477ca547b
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-255de557e9
+            part: body
+          zh:
+            page: zh
+            section: s-4e0af60d52
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2839, 2840; Reference.csv rows 3261
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2839
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes sisikdagu
+          - F
+          - "49.1"
+          - "20.11"
+          - "18.29"
+          - "5.02"
+          - NA
+          - NA
+          - "2.77"
+          - "3.67"
+          - "3.56"
+          - "4.22"
+          - "7.24"
+          - NA
+          - "11.78"
+          - NA
+          - "9.15"
+          - "33.82"
+          - NA
+          - "23.46"
+          - "23.89"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2840
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes sisikdagu
+          - M
+          - "45.36"
+          - "20.53"
+          - "18.79"
+          - "4.78"
+          - NA
+          - NA
+          - "2.93"
+          - "3.71"
+          - "3.55"
+          - "3.96"
+          - "6.97"
+          - NA
+          - "11.22"
+          - NA
+          - "8.62"
+          - "31.53"
+          - NA
+          - "22.18"
+          - "22.28"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3261
+        values:
+          - Anura
+          - Limnonectes_sisikdagu
+          - 'McLeod, D., Horner, S., Husted, C., Barley, A., & Iskandar, D. T. (2011). "Same-same, but different": An unusual new species of the Limnonectes kuhlii Complex from West Sumatra (Anura: Dicroglossidae). Zootaxa, 2883, 52-64. https://doi.org/10.11646/zootaxa.2883.1.4'
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6QDBW
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

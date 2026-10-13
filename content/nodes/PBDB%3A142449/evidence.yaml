@@ -1,0 +1,164 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Platyoposaurus stuckenbergi
+    rank: species
+    sourceTaxonId: txn:142449
+    name:
+      en: Platyoposaurus stuckenbergi
+      zh: Platyoposaurus stuckenbergi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-903c402189
+            part: body
+          zh:
+            page: zh
+            section: s-5ca9e45781
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 3 PBDB occurrence rows and collection fields
+          zh: 3 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-38dca9a8c4
+            part: body
+          zh:
+            page: zh
+            section: s-75c196445f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Platyoposaurus stuckenbergi
+          zh: Platyoposaurus stuckenbergi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-46b816c7fa
+            part: body
+          zh:
+            page: zh
+            section: s-25392842c5
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:142449; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. S. Romer. 1947. Review of the Labyrinthodontia. Bulletin of the Museum of Comparative Zoology 99(1):1-368
+    occurrenceEvidence:
+      - occurrenceId: occ:219959
+        collectionId: col:22644
+        acceptedTaxonId: txn:142449
+        identifiedTaxonId: var:142449
+        identifiedName: Platyops stuckenbergi
+        taxonomicDifference: recombined as
+        referenceId: ref:4769
+        bibliography: "J. de Heinzelin. 1983. The Omo Group: Archives of the International Omo Research Expedition. Musee Royal de l'Afrique Centrale, Annales Series 8, Tervuren, Belgique 85"
+        locality:
+          countryCode: RU
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+      - occurrenceId: occ:799682
+        collectionId: col:87040
+        acceptedTaxonId: txn:142449
+        identifiedTaxonId: var:142449
+        identifiedName: Platyops stuckenbergi n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:5921
+        bibliography: E. C. Olson. 1957. Catalogue of Localities of Permian and Triassic Terrestrial Vertebrates of the Territiories of the USSR. Journal of Geology 65(2):196-226
+        locality:
+          countryCode: RU
+          stateProvince: Kirov
+          county: Malmysh
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+      - occurrenceId: occ:1381598
+        collectionId: col:27341
+        acceptedTaxonId: txn:142449
+        taxonomicDifference: null
+        referenceId: ref:29218
+        bibliography: "M. F. Ivakhnenko. 2008. Podklass Ophiacomorpha.  In M. F. Ivakhnenko and E. N. Kurochkin (eds.), Iskopaemye pozvonotchnye Rossii i sopredel'nykh stran: Iskopaemye reptilii i ptitsy, Tchast' 1 [Fossil vertebrates of Russia and adjacent countries: Fossil reptiles and birds, Part 1], GEOS, Moscow"
+        locality:
+          countryCode: RU
+          stateProvince: Bashkortostan
+          county: Belebei
+        stratigraphy:
+          group: null
+          formation: Belebei
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Platyoposaurus stuckenbergi
+          zh: Platyoposaurus stuckenbergi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-46b816c7fa
+            part: body
+          zh:
+            page: zh
+            section: s-25392842c5
+            part: body
+        sourceIds: []

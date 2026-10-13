@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Vladlenosaurus alexeyevi
+    rank: species
+    sourceTaxonId: txn:367543
+    name:
+      en: Vladlenosaurus alexeyevi
+      zh: Vladlenosaurus alexeyevi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-2dfdcb9508
+            part: body
+          zh:
+            page: zh
+            section: s-5d137d81f0
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-ae41682d8d
+            part: body
+          zh:
+            page: zh
+            section: s-53ef5fc0bf
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Vladlenosaurus alexeyevi
+          zh: Vladlenosaurus alexeyevi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-a0e70e1d1d
+            part: body
+          zh:
+            page: zh
+            section: s-3e14f4c893
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:367543; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. Fortuny, A. Galobart, and C. De Santisteban. 2011. A new capitosaur from the Middle Triassic of Spain and the relationships within the Capitosauria. Acta Palaeontologica Polonica 56:553-566
+    occurrenceEvidence:
+      - occurrenceId: occ:1423663
+        collectionId: col:187383
+        acceptedTaxonId: txn:367543
+        identifiedName: Vladlenosaurus alexeyevi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:34744
+        bibliography: J. Fortuny, A. Galobart, and C. De Santisteban. 2011. A new capitosaur from the Middle Triassic of Spain and the relationships within the Capitosauria. Acta Palaeontologica Polonica 56:553-566
+        locality:
+          countryCode: RU
+          stateProvince: Kirov
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Vladlenosaurus alexeyevi
+          zh: Vladlenosaurus alexeyevi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-a0e70e1d1d
+            part: body
+          zh:
+            page: zh
+            section: s-3e14f4c893
+            part: body
+        sourceIds: []

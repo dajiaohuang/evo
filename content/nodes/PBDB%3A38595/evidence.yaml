@@ -1,0 +1,185 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Spinosauridae
+    commonName: Spinosaurids
+    commonNameZh: 棘龙类
+    rank: family
+    taxonId: txn:38595
+    firstAppearance: 139
+    lastAppearance: 93
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:spinosauridae
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Spinosauridae is represented by Hone and Holtz’s revision of named and fragmentary material; subfamily assignments and ecological signals are evidence-weighted hypotheses, not a complete family range or uniform semiaquatic ecology.
+      confidence: medium
+      confidenceRationale: The review explicitly separates diagnostic material from weak referrals and discusses competing ecological evidence. Medium confidence follows those limits.
+      referenceLinks:
+        - referenceId: hone-holtz-2017-spinosauridae-review
+          relation: supports
+          pages: 1120–1132
+          figure: Figures 1–4; Tables 1–2
+          quoteLocator: Systematic revision; material quality; ecological evidence; Conclusions
+    - subjectId: taxon:spinosauridae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Spinosauridae is displayed at 145–93.9 Ma only as the review's taxonomically qualified fossil coverage, not exact family FAD/LAD. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Spinosauridae uses Hone, D.W.E.; Holtz, T.R. (2017) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Named and fragmentary spinosaurid material reviewed by Hone and Holtz; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: hone-holtz-2017-spinosauridae-review
+          pages: 1120–1132
+          figure: Figures 1–4; Tables 1–2
+          quoteLocator: Systematic revision; material quality; ecological evidence; Conclusions
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 综述明确区分诊断性材料与薄弱归入，并讨论相互竞争的生态证据；中等置信度遵循这些限制。
+    - Spinosauridae 采用 Hone, D.W.E.; Holtz, T.R.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Named and fragmentary spinosaurid material reviewed by Hone and Holtz；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 棘龙科由 Hone 与 Holtz 对具名和破碎材料的修订表示；亚科归属与生态信号是按证据权重建立的假说，不是完整科级范围或统一半水生生态。
+    - Spinosauridae 仅以 145–93.9 Ma 展示为综述经分类学限定的化石覆盖，而非精确科级首现或末现。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: spinosauridae
+      rangeKind: global-composite
+      taxonomicConcept: Spinosauridae — source-bounded sample window
+      geographicScope: Named and fragmentary spinosaurid material reviewed by Hone and Holtz
+      olderMa: 145
+      youngerMa: 93.9
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the review's taxonomically qualified fossil coverage, not exact family FAD/LAD; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: A Century of Spinosaurs — A Review and Revision of the Spinosauridae with Comments on Their Ecology directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:spinosauridae:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: hone-holtz-2017-spinosauridae-review
+          locator: 1120–1132; Systematic revision; material quality; ecological evidence; Conclusions
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    scientificName: Spinosauridae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Spinosauridae
+      en: Spinosauridae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8b121ae966
+            part: body
+          en:
+            page: en
+            section: s-844b343439
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-11d829f4ad
+            part: body
+          en:
+            page: en
+            section: s-5ced9a551c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Spinosauridae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38595
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38595
+          readingTargets:
+            - name: Irritator challengeri
+              pbdbTaxonId: txn:64273
+              canonicalPath: content/nodes/PBDB%3A64273
+            - name: Spinosaurus aegyptiacus
+              pbdbTaxonId: txn:53372
+              canonicalPath: content/nodes/PBDB%3A53372
+            - name: Spinosaurus mirabilis
+              pbdbTaxonId: txn:519548
+              canonicalPath: content/nodes/PBDB%3A519548
+            - name: Angaturama limai
+              pbdbTaxonId: txn:64276
+              canonicalPath: content/nodes/PBDB%3A64276
+            - name: Camarillasaurus cirugedae
+              pbdbTaxonId: txn:249476
+              canonicalPath: content/nodes/PBDB%3A249476
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-a633f179ee
+        part: body
+      en:
+        page: en
+        section: s-2381a61c2f
+        part: body

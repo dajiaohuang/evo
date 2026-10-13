@@ -1,0 +1,3 @@
+## What a stem pinniped skeleton can say about swimming {#s-e83da33187}
+The Enaliarctos specimen LACM 4321 preserves a skull and much of the skeleton behind it, allowing researchers to measure limb proportions and joint shapes. They compared those features with living pinnipeds and land-dwelling carnivorans to model how this early pinniped relative might have moved in water and on land. The bones are observations; swimming strokes and terrestrial performance are functional interpretations, not recorded behaviour. The specimen also does not establish direct ancestry or a global first appearance.
+

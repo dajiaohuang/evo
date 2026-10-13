@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana italica
+  displayName: Rana italica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X364
+  sourceIndexes:
+    - name:
+        en: Rana italica
+        zh: Rana italica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X364
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/57
+            queryName: Rana italica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/250
+            queryName: Rana graeca italica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-988421d38b
+      - s-8274ae1d60
+      - s-5004f32850
+      - s-13dd7331c9
+      - s-bbdeef0aed
+      - s-3557a77ef7
+      - s-25071bcf00
+      - s-49066b8265
+      - s-92783df460
+      - s-a6d7b4e338
+    zh:
+      - s-dc6bb99a7e
+      - s-e62c597e42
+      - s-10c44747fb
+      - s-d3c4ea1cbc
+      - s-2ca47485cf
+      - s-b8db699ad6
+      - s-4552af309d
+      - s-5259f9e9bf
+      - s-b598c6a445
+      - s-77993e599b

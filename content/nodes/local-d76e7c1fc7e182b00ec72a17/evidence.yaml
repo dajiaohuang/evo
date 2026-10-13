@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hyalinobatrachium carlesvilai
+    name:
+      en: Hyalinobatrachium carlesvilai
+      zh: Hyalinobatrachium carlesvilai
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Hyalinobatrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hyalinobatrachium carlesvilai in the version 3 classification
+          zh: Hyalinobatrachium carlesvilai 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0d3e3bef9a
+            part: body
+          zh:
+            page: zh
+            section: s-70e9999369
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 11 populated trait fields
+          zh: 2 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-681c578887
+            part: body
+          zh:
+            page: zh
+            section: s-68e03f34c1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2126, 2127; Reference.csv rows 503
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2126
+        values:
+          - Centrolenidae
+          - Hyalinobatrachium
+          - Hyalinobatrachium carlesvilai
+          - M
+          - "22.84666667"
+          - "6.833333333"
+          - "8.377777778"
+          - "3.022222222"
+          - NA
+          - NA
+          - "2.477777778"
+          - NA
+          - "2.022222222"
+          - NA
+          - "2.188888889"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.44444444"
+          - NA
+          - "12.36666667"
+          - "11.84444444"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.355555556"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2127
+        values:
+          - Centrolenidae
+          - Hyalinobatrachium
+          - Hyalinobatrachium carlesvilai
+          - F
+          - "23.2"
+          - "6.6"
+          - "8.5"
+          - "3.5"
+          - NA
+          - NA
+          - "2.7"
+          - NA
+          - "1.8"
+          - NA
+          - "2.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.3"
+          - NA
+          - "12.7"
+          - "12.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 503
+        values:
+          - Anura
+          - Hyalinobatrachium_carlesvilai
+          - "Castroviejo-Fisher, S., Padial, J. M., Chaparro, J. C., Aguayo, R., & De La Riva, I. (2009). A new species of Hyalinobatrachium (Anura: Centrolenidae) from the Amazonian slopes of the central Andes with comments on the diversity of the genus in the area. Zootaxa(2143), 24-44."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - UEW
+      - SL
+      - FL
+      - TL
+      - THL
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3MVZB
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,273 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:92597
+    scientificName: Eosimias (Shanghuang and Yuanqu tarsal sample)
+    commonName: Middle Eocene isolated tarsal sample
+    commonNameZh: 中始新世曙猿孤立跗骨样本
+    rank: genus
+    parentName: Anthropoidea
+    extinct: true
+    geography:
+      - Shanghuang fissure fillings
+      - Yuanqu Basin
+      - China
+    overview:
+      page: en
+      section: s-857a0c19a3
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-08486de4a6
+        part: body
+      habitat:
+        page: en
+        section: s-3d45871913
+        part: body
+      locomotion:
+        page: en
+        section: s-ec5f83edf0
+        part: body
+      bodySize:
+        page: en
+        section: s-56d43d3c64
+        part: body
+      guild:
+        page: en
+        section: s-5b3c50df98
+        part: body
+      dietZh:
+        page: zh
+        section: zh-07f37cb62452a5
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-2533b89bcfeebd
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-a903b6e30c9566
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-8ccca66043eebb
+        part: body
+      guildZh:
+        page: zh
+        section: zh-c9c392a6e70e26
+        part: body
+    traits:
+      - page: en
+        section: s-b7bede27db
+        part: body
+      - page: en
+        section: s-87ef52cf43
+        part: body
+      - page: en
+        section: s-d80b790cce
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-67695c46a0
+      part: body
+    confidence: medium
+    referenceIds:
+      - gebo-2000-eosimias
+    readerSections:
+      - id: isolated-tarsal-samples
+        title:
+          en:
+            page: en
+            section: s-ddfc0088b0
+            part: title
+          zh:
+            page: zh
+            section: s-7f7042d27e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ddfc0088b0
+            part: body
+          zh:
+            page: zh
+            section: s-7f7042d27e
+            part: body
+        sourceIds:
+          - gebo-2000-eosimias
+      - id: anthropoid-affinity-test
+        title:
+          en:
+            page: en
+            section: s-a5bbb9e378
+            part: title
+          zh:
+            page: zh
+            section: s-7a0211ccfc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a5bbb9e378
+            part: body
+          zh:
+            page: zh
+            section: s-7a0211ccfc
+            part: body
+        sourceIds:
+          - gebo-2000-eosimias
+      - id: association-limit
+        title:
+          en:
+            page: en
+            section: s-abc9b16901
+            part: title
+          zh:
+            page: zh
+            section: s-7dc22cdade
+            part: title
+        text:
+          en:
+            page: en
+            section: s-abc9b16901
+            part: body
+          zh:
+            page: zh
+            section: s-7dc22cdade
+            part: body
+        sourceIds:
+          - gebo-2000-eosimias
+    readerSources:
+      - id: gebo-2000-eosimias
+        referenceId: gebo-2000-eosimias
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Isolated Shanghuang and Yuanqu tarsals and their comparative character-matrix test; not a dentally associated skeleton.
+            zh: Shanghuang 与垣曲孤立跗骨及其比较特征矩阵检验；没有与牙齿相连的骨架。
+    readerLimitations:
+      en:
+        page: en
+        section: s-28a38899d8
+        part: body
+      zh:
+        page: zh
+        section: s-7087fc1a08
+        part: body
+    overviewZh:
+      page: zh
+      section: zh-6dab3d9096af49
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-0a61353ccef711
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-f4ddf417fd4ba3
+        part: body
+      - page: zh
+        section: zh-898f8ff127443a
+        part: body
+      - page: zh
+        section: zh-344fcb793be282
+        part: body
+  claims:
+    - subjectId: taxon:eosimias
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Eosimias is bounded by isolated tarsals and dental comparisons from Chinese middle Eocene fissure fills and basins, approximately 45–40.5 Ma; the tarsals are not dentally associated, so the interval is not a secure global genus range or crown membership.
+      confidence: medium
+      confidenceRationale: The specimens and broad locality ages are direct, while anatomical association and anthropoid placement are inferential.
+      referenceLinks:
+        - relation: supports
+          referenceId: gebo-2000-eosimias
+          pages: 276–278
+          figure: Figures 1–4
+          quoteLocator: Specimen provenance; tarsal comparisons; phylogenetic analysis
+    - subjectId: taxon:eosimias
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Gebo and colleagues attribute isolated Shanghuang and Yuanqu calcanei and tali to Eosimias and recover anthropoid affinity in their sampled character analysis; the bones are not dentally associated skeletons or demonstrated direct ancestors.
+      confidence: medium
+      confidenceRationale: The attribution and matrix result are published, but specimen association and higher-level placement remain comparative inferences rather than direct observations.
+      referenceLinks:
+        - referenceId: gebo-2000-eosimias
+          relation: supports
+          pages: 276–278
+          figure: Figure 1; Supplementary Tables 1–2
+          quoteLocator: Isolated tarsal attribution and sampled anthropoid-affinity character analysis
+    - subjectId: taxon:eosimias
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profiled Eosimias tarsals come from the Shanghuang fissure fillings and Yuanqu Basin in China; these sampled localities do not establish a complete distribution for the genus.
+      confidence: high
+      confidenceRationale: The primary report names both locality samples, while its anatomical comparison is not a geographic presence-or-absence survey.
+      referenceLinks:
+        - referenceId: gebo-2000-eosimias
+          relation: supports
+          pages: 276–278
+          figure: Figure 1
+          quoteLocator: Shanghuang and Yuanqu provenance of the described isolated tarsals
+    - subjectId: taxon:eosimias
+      claimKind: scientific
+      claimType: ecology
+      statement: The isolated Eosimias tarsals support anatomical comparison but do not directly record diet, habitual habitat, observed locomotion, population body size or ecological guild; these fields remain bounded or unresolved here.
+      confidence: high
+      confidenceRationale: The study reports ankle-bone anatomy and character comparisons, not behavioural or ecological observations, so the profile does not promote functional possibilities into direct evidence.
+      referenceLinks:
+        - referenceId: gebo-2000-eosimias
+          relation: supports
+          pages: 276–278
+          figure: Figure 1; Supplementary Tables 1–2
+          quoteLocator: Anatomical description and character comparison; no direct diet, habitat or behaviour dataset
+    - subjectId: taxon:eosimias
+      claimKind: scientific
+      claimType: morphology
+      statement: The Shanghuang and Yuanqu sample consists of isolated calcanei and tali with a mosaic of characters used in an anthropoid-affinity test; the study does not document a complete associated foot or dental-postcranial association.
+      confidence: medium
+      confidenceRationale: The named bones and scored characters are direct evidence, while whole-foot reconstruction and taxonomic association beyond the isolated material remain inferential.
+      referenceLinks:
+        - referenceId: gebo-2000-eosimias
+          relation: supports
+          pages: 276–278
+          figure: Figure 1; Supplementary Tables 1–2
+          quoteLocator: Calcaneal and talar anatomy; character mosaic; absence of dental association
+  claim-rationales.zh:
+    - 标本和宽泛地点年龄属于直接证据，而解剖关联与类人猿位置属于推断。
+    - 归属和矩阵结果已经发表，但标本关联和高阶位置仍是比较推断，而非直接观察。
+    - 一手报道列出两个地点样本，但其解剖比较不是地理存在—缺失调查。
+    - 研究报告踝骨解剖和性状比较，并非行为或生态观察，因此档案不把功能可能性提升为直接证据。
+    - 具名骨骼及评分性状属于直接证据；完整足部复原和超出孤立材料的分类关联仍属推断。
+  claim-statements.zh:
+    - Eosimias 由中国中始新世裂隙充填与盆地中的孤立跗骨和牙齿比较约束，约为 4500 万—4050 万年前；跗骨未与牙齿关联，因此该区间不是可靠的全球属级范围或冠群成员证据。
+    - Gebo 等人将上黄和垣曲的孤立跟骨与距骨归入曙猿属，并在其采样性状分析中恢复出类人猿亲缘；这些骨骼并非与牙齿关联的骨架，也不是经证实的直接祖先。
+    - 本档案中的曙猿跗骨来自中国上黄裂隙充填物和垣曲盆地；这些采样地点不能确立该属的完整分布。
+    - 孤立的曙猿跗骨支持解剖比较，但并未直接记录食性、惯常栖息地、已观察运动、种群体型或生态类群；这些字段在此保持有限或未定。
+    - 上黄和垣曲样本由孤立的跟骨与距骨组成，其镶嵌性状被用于类人猿亲缘检验；研究没有记录完整关联足部或牙齿—颅后骨关联。
+  ranges:
+    - entityId: eosimias
+      rangeKind: global-composite
+      taxonomicConcept: Eosimias isolated-tarsal anthropoid test occurrence
+      geographicScope: Shanghuang fissure fillings, Jiangsu, China; Yuanqu Basin, Shanxi, China
+      olderMa: 45
+      youngerMa: 40.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The tarsals are not dentally associated with Eosimias, the fissure-fill age is broad, and anthropoid status is a character-matrix inference rather than crown membership or a global FAD.
+      evidenceBasis: Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:eosimias-isolated-tarsal-anthropoid-test
+      referenceLocators:
+        - referenceId: gebo-2000-eosimias
+          locator: 276–278; Figures 1–4; Supplementary Tables 1–2

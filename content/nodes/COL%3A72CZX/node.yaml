@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes namiyei
+  displayName: Limnonectes namiyei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72CZX
+  sourceIndexes:
+    - name:
+        en: Limnonectes namiyei
+        zh: Limnonectes namiyei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72CZX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/114
+            queryName: Limnonectes namiyei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/147
+            queryName: Rana namiyei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01b07d7833
+      - s-2838553875
+      - s-4b30fbb5f8
+      - s-a38d6d3be4
+      - s-5c9c5d069e
+      - s-01c921d35f
+      - s-f3354e1ae1
+      - s-34e212a240
+      - s-29df73a652
+      - s-8e046cdca2
+    zh:
+      - s-60df1e7e14
+      - s-a4bd91f92b
+      - s-388593257f
+      - s-f49222cdc6
+      - s-9801fea8bd
+      - s-c329955a91
+      - s-7d8b50967d
+      - s-d00fba1d25
+      - s-a1a9ef4e7c
+      - s-d5a8b0d832

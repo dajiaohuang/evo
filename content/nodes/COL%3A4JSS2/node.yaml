@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis taylori
+  displayName: Platymantis taylori
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSS2
+  sourceIndexes:
+    - name:
+        en: Platymantis taylori
+        zh: Platymantis taylori
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSS2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/402
+            queryName: Platymantis taylori
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ef312937c
+      - s-30236ccccc
+      - s-e6d37d7d15
+      - s-833fa2f748
+      - s-22399c4f1c
+      - s-2682b9fbb9
+      - s-946b1b4d96
+      - s-fea2bca9e7
+      - s-9657bf7787
+    zh:
+      - s-55777299db
+      - s-bf1ef96e37
+      - s-97e16458de
+      - s-b656eb7719
+      - s-aea152c027
+      - s-e40c080e89
+      - s-86dae1f9b8
+      - s-d5cb18a9e6
+      - s-fba11b6d1d

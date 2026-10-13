@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon littorea
+  displayName: Ololygon littorea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SKHF
+  sourceIndexes:
+    - name:
+        en: Ololygon littorea
+        zh: Ololygon littorea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SKHF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/129
+            queryName: Ololygon littorea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/48
+            queryName: Scinax littoreus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/432
+            queryName: Ololygon littoreus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/433
+            queryName: Scinax littorea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a7dc289aa2
+      - s-0ab51ee144
+      - s-4c1deff4b5
+      - s-45e3cdd6bb
+      - s-bda762ddea
+      - s-53936f85a8
+      - s-89783f1dae
+      - s-5af720fabf
+      - s-c2695fdf27
+      - s-08416487be
+      - s-a36698e69a
+      - s-c69d67e987
+    zh:
+      - s-188a6af4f7
+      - s-ace8c8dc16
+      - s-aacf209a20
+      - s-e242c48480
+      - s-b46e9f3736
+      - s-a8099fd85c
+      - s-7f73003e07
+      - s-081effdacb
+      - s-aa67115a37
+      - s-3c2375f50a
+      - s-fb70f5f545
+      - s-9ee6ad15db

@@ -1,0 +1,777 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Xericeps curvirostris
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Xericeps curvirostris
+      en: Xericeps curvirostris
+    sections:
+      - topic: referredMaterialRevision
+        sourceIds:
+          - smith2023KemKemJawRevision
+        text:
+          zh:
+            page: zh
+            section: s-6835ce82e9
+            part: body
+          en:
+            page: en
+            section: s-0feeb45ef4
+            part: body
+      - topic: stratigraphicInterpretation
+        sourceIds:
+          - smith2023KemKemJawRevision
+        text:
+          zh:
+            page: zh
+            section: s-75fc33a827
+            part: body
+          en:
+            page: en
+            section: s-2e57cefdb5
+            part: body
+      - topic: classificationDiscussion
+        sourceIds:
+          - smith2023KemKemJawRevision
+        text:
+          zh:
+            page: zh
+            section: s-da0c15385d
+            part: body
+          en:
+            page: en
+            section: s-77fc07fb66
+            part: body
+      - topic: typeMaterial
+        sourceIds:
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+        text:
+          zh:
+            page: zh
+            section: s-75f8a363fe
+            part: body
+          en:
+            page: en
+            section: s-8a7a49c73c
+            part: body
+      - topic: preservation
+        sourceIds:
+          - martill2018XericepsJawDescription
+        text:
+          zh:
+            page: zh
+            section: s-1bee686ecb
+            part: body
+          en:
+            page: en
+            section: s-8da30ccffa
+            part: body
+      - topic: morphology
+        sourceIds:
+          - martill2018XericepsJawDescription
+        text:
+          zh:
+            page: zh
+            section: s-61147b304f
+            part: body
+          en:
+            page: en
+            section: s-e95d19c6c5
+            part: body
+      - topic: maturity
+        sourceIds:
+          - martill2018XericepsJawDescription
+        text:
+          zh:
+            page: zh
+            section: s-76565286c3
+            part: body
+          en:
+            page: en
+            section: s-2d36a74cfd
+            part: body
+      - topic: sizeEstimates
+        sourceIds:
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+        text:
+          zh:
+            page: zh
+            section: s-b10e8c4ba4
+            part: body
+          en:
+            page: en
+            section: s-45d7bb0dbc
+            part: body
+      - topic: taxonomicInterpretation
+        sourceIds:
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+        text:
+          zh:
+            page: zh
+            section: s-cff9700bab
+            part: body
+          en:
+            page: en
+            section: s-39ccc16698
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+        text:
+          zh:
+            page: zh
+            section: s-9888236e94
+            part: body
+          en:
+            page: en
+            section: s-1a00f2a62b
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b78a760543
+            part: body
+          en:
+            page: en
+            section: s-d0bd059865
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6288a0cb7c
+            part: body
+          en:
+            page: en
+            section: s-ef882ffbab
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-770dcd2b01
+            part: body
+          en:
+            page: en
+            section: s-4da0842b5e
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e3b8a9ee4a
+            part: body
+          en:
+            page: en
+            section: s-39efa70018
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+        text:
+          zh:
+            page: zh
+            section: s-20a3fb5298
+            part: body
+          en:
+            page: en
+            section: s-adf8718314
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Xericeps curvirostris
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=363920&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:363920; original response record indices retained in data/sources/pterosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: bae4c11926f8cde7bd7b1b7418d63b8ba856066f5005a9181b8bdf8dcb047035
+          pbdbTaxonId: txn:363920
+          selectedOccurrenceIds:
+            - occ:1385606
+          selectedCollectionIds:
+            - col:96223
+          sourceReferenceIds:
+            - ref:64004
+          originalIdentificationMappings:
+            - occurrenceId: occ:1385606
+              originalIdentifiedName: Xericeps curvirostris n. gen. n. sp.
+              acceptedName: Xericeps curvirostris
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Recorded PBDB accepted identity and parent chain
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=363920&show=parent,app,attr
+          locator: P5-42 retained accepted hierarchy; oid txn:363920; ancestry below the documented Pterosauria anchor.
+          accessedAt: 2026-10-02
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+      - id: martill2018XericepsJawDescription
+        referenceId: ref-382287e7-a809-4c3b-89dc-2645cfc23105
+        fields:
+          - id
+          - doi
+          - title
+          - authors
+          - publishedOnline
+          - publishedAt
+          - volume
+          - pages
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: A new edentulous pterosaur from the Cretaceous Kem Kem beds of south eastern Morocco
+          url: https://doi.org/10.1016/j.cretres.2017.09.006
+          accessedAt: 2026-10-03
+          locator: University of Portsmouth accepted author manuscript PDF, manuscript pp. 1, 3–8 and 13–18; journal version 84:1–12. Other comparisons, references, tables and figure pixels not fully inspected.
+          scope:
+            zh: 接受稿中正模颌部、保存、尺寸、分类与生态解释的选段导读。
+            en: Selected accepted-manuscript passages on type jaw anatomy, preservation, dimensions, classification and ecological interpretation.
+      - id: ibrahim2020XericepsComparison
+        referenceId: ref-b9c479a9-9eec-4b54-ba38-2be663f696b1
+        fields:
+          - id
+          - doi
+          - title
+          - authors
+          - publishedOnline
+          - journal
+          - volume
+          - pages
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Geology and paleontology of the Upper Cretaceous Kem Kem Group of eastern Morocco
+          url: https://doi.org/10.3897/zookeys.928.47517
+          accessedAt: 2026-10-03
+          locator: "Official XML PMC7188693: complete two-paragraph Xericeps account (body paragraph indices 364–365), with Alanqa reinterpretation context read in P5-118. No specimen or phylogenetic rerun."
+          scope:
+            zh: 2020 年 Xericeps 两段介绍及与 Alanqa 的未决异名比较。
+            en: The two 2020 Xericeps account paragraphs and unresolved comparison with Alanqa.
+      - id: smith2023KemKemJawRevision
+        referenceId: ref-c993aed1-b20c-4888-8062-b4c51ccd80fc
+        fields:
+          - id
+          - title
+          - doi
+          - authors
+          - publishedOnline
+          - volume
+          - pages
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: The pterosaurs of the Cretaceous Kem Kem Group of Morocco
+          url: https://doi.org/10.1007/s12542-022-00642-6
+          accessedAt: 2026-10-03
+          locator: Published PDF, printed pp. 531–533, 540, selected jaw-comparison passages on p. 558 and classification discussion on p. 559; front matter and licence on p. 563. Not the whole article, figure pixels, supplements, specimens or a phylogenetic rerun.
+          scope:
+            zh: 2023 年 Alanqa 与 Xericeps 的颌部归属、材料修订及分类讨论选段。
+            en: Selected 2023 passages on Alanqa and Xericeps jaw identity, referred material and classification.
+    limitations:
+      zh:
+        page: zh
+        section: s-0bb47e5d83
+        part: body
+      en:
+        page: en
+        section: s-4309cd1965
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:363920
+    scientificName: Xericeps curvirostris
+    commonName: Xericeps curvirostris
+    commonNameZh: Xericeps curvirostris
+    rank: species
+    parentName: Xericeps
+    extinct: true
+    geography: []
+    overview:
+      page: en
+      section: s-d0bd059865
+      part: body
+    ecology:
+      diet: Not assessed from occurrence counts or depositional setting.
+      habitat: Collection environments are not a species-wide habitat assessment.
+      locomotion: Not independently assessed.
+      bodySize: Not assessed from this occurrence batch.
+      guild: Not assessed.
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-4309cd1965
+      part: body
+    confidence: low
+    referenceIds:
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+    readerSections:
+      - id: kemkem-revision-reader-0
+        title:
+          zh: 2023 年新增归入的一段下颌
+          en: An additional lower jaw referred in 2023
+        text:
+          zh:
+            page: zh
+            section: s-6835ce82e9
+            part: body
+          en:
+            page: en
+            section: s-0feeb45ef4
+            part: body
+        sourceIds:
+          - smith2023KemKemJawRevision
+      - id: kemkem-revision-reader-1
+        title:
+          zh: 同一正模的产层记录存在来源分歧
+          en: Sources differ on the horizon of the same type
+        text:
+          zh:
+            page: zh
+            section: s-75fc33a827
+            part: body
+          en:
+            page: en
+            section: s-2e57cefdb5
+            part: body
+        sourceIds:
+          - smith2023KemKemJawRevision
+      - id: kemkem-revision-reader-2
+        title:
+          zh: 细分亲缘和未知上颌仍待解决
+          en: Finer relationships and an unknown upper jaw remain open
+        text:
+          zh:
+            page: zh
+            section: s-da0c15385d
+            part: body
+          en:
+            page: en
+            section: s-77fc07fb66
+            part: body
+        sourceIds:
+          - smith2023KemKemJawRevision
+      - id: xericeps-material-reader-0
+        title:
+          zh: 正模是一段下颌，不是完整头骨
+          en: The type is part of a lower jaw
+        text:
+          zh:
+            page: zh
+            section: s-75f8a363fe
+            part: body
+          en:
+            page: en
+            section: s-8a7a49c73c
+            part: body
+        sourceIds:
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+      - id: xericeps-material-reader-1
+        title:
+          zh: 173 毫米保存长度与约 200 毫米复原
+          en: Preserved and reconstructed jaw lengths
+        text:
+          zh:
+            page: zh
+            section: s-1bee686ecb
+            part: body
+          en:
+            page: en
+            section: s-8da30ccffa
+            part: body
+        sourceIds:
+          - martill2018XericepsJawDescription
+      - id: xericeps-material-reader-2
+        title:
+          zh: 上弯颌缘与连续腹侧沟
+          en: An upcurved jaw and continuous ventral groove
+        text:
+          zh:
+            page: zh
+            section: s-61147b304f
+            part: body
+          en:
+            page: en
+            section: s-e95d19c6c5
+            part: body
+        sourceIds:
+          - martill2018XericepsJawDescription
+      - id: xericeps-material-reader-3
+        title:
+          zh: 骨表面只支持有限的成熟判断
+          en: Bone surface supports a limited maturity inference
+        text:
+          zh:
+            page: zh
+            section: s-76565286c3
+            part: body
+          en:
+            page: en
+            section: s-2d36a74cfd
+            part: body
+        sourceIds:
+          - martill2018XericepsJawDescription
+      - id: xericeps-material-reader-4
+        title:
+          zh: 尺寸类别与翼展估计分别阅读
+          en: Separate size categories from wingspan estimates
+        text:
+          zh:
+            page: zh
+            section: s-b10e8c4ba4
+            part: body
+          en:
+            page: en
+            section: s-45d7bb0dbc
+            part: body
+        sourceIds:
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+      - id: xericeps-material-reader-5
+        title:
+          zh: 与 Alanqa 的关系仍是待解问题
+          en: The relationship to Alanqa remains unresolved
+        text:
+          zh:
+            page: zh
+            section: s-cff9700bab
+            part: body
+          en:
+            page: en
+            section: s-39ccc16698
+            part: body
+        sourceIds:
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+      - id: xericeps-material-reader-6
+        title:
+          zh: 对读颌部形态，不把沉积环境当作食谱
+          en: Compare jaws without turning depositional setting into diet
+        text:
+          zh:
+            page: zh
+            section: s-9888236e94
+            part: body
+          en:
+            page: en
+            section: s-1a00f2a62b
+            part: body
+        sourceIds:
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+      - id: pbdb-occurrence-1
+        title:
+          en: Which fossil records this name represents
+          zh: 这个名称对应哪些化石记录
+        text:
+          zh:
+            page: zh
+            section: s-b78a760543
+            part: body
+          en:
+            page: en
+            section: s-d0bd059865
+            part: body
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-2
+        title:
+          en: Begin with named collections and strata
+          zh: 从具名采集地和地层开始
+        text:
+          zh:
+            page: zh
+            section: s-6288a0cb7c
+            part: body
+          en:
+            page: en
+            section: s-ef882ffbab
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-3
+        title:
+          en: Age bounds of these records
+          zh: 这些记录的年代边界
+        text:
+          zh:
+            page: zh
+            section: s-770dcd2b01
+            part: body
+          en:
+            page: en
+            section: s-4da0842b5e
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-4
+        title:
+          en: Read preservation setting separately from living habitat
+          zh: 保存环境与生活环境分开阅读
+        text:
+          zh:
+            page: zh
+            section: s-e3b8a9ee4a
+            part: body
+          en:
+            page: en
+            section: s-39efa70018
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-5
+        title:
+          en: Follow collection records back to references
+          zh: 沿采集记录追到文献
+        text:
+          zh:
+            page: zh
+            section: s-20a3fb5298
+            part: body
+          en:
+            page: en
+            section: s-adf8718314
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - martill2018XericepsJawDescription
+          - ibrahim2020XericepsComparison
+    readerSources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 406
+        usage:
+          scope:
+            zh: 仅来源所述材料和数据库记录范围。
+            en: Only material and database-record scope described by this source.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 406
+        usage:
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+      - id: martill2018XericepsJawDescription
+        referenceId: ref-382287e7-a809-4c3b-89dc-2645cfc23105
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 接受稿中正模颌部、保存、尺寸、分类与生态解释的选段导读。
+            en: Selected accepted-manuscript passages on type jaw anatomy, preservation, dimensions, classification and ecological interpretation.
+      - id: ibrahim2020XericepsComparison
+        referenceId: ref-b9c479a9-9eec-4b54-ba38-2be663f696b1
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 2020 年 Xericeps 两段介绍及与 Alanqa 的未决异名比较。
+            en: The two 2020 Xericeps account paragraphs and unresolved comparison with Alanqa.
+      - id: smith2023KemKemJawRevision
+        referenceId: ref-c993aed1-b20c-4888-8062-b4c51ccd80fc
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 2023 年 Alanqa 与 Xericeps 的颌部归属、材料修订及分类讨论选段。
+            en: Selected 2023 passages on Alanqa and Xericeps jaw identity, referred material and classification.
+    readerLimitations:
+      zh:
+        page: zh
+        section: s-0bb47e5d83
+        part: body
+      en:
+        page: en
+        section: s-4309cd1965
+        part: body
+    readerRelatedPages:
+      - targetId: txn:363919
+        label:
+          en: Xericeps
+          zh: Xericeps
+        context:
+          zh: 返回记录父级的阅读入口，保留各出现与采集记录的范围。
+          en: Return to the recorded parent reading route, retaining occurrence and collection scope.
+  atlas-node:
+    name: Xericeps curvirostris
+    commonName: Xericeps curvirostris
+    commonNameZh: Xericeps curvirostris
+    rank: species
+    taxonId: txn:363920
+    firstAppearance: 100.5
+    lastAppearance: 93.9
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  ranges:
+    - entityId: txn:363920
+      rangeKind: global-composite
+      taxonomicConcept: Xericeps curvirostris
+      geographicScope: PBDB database represented occurrences, not a complete geographic distribution
+      olderMa: 100.5
+      youngerMa: 93.9
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: PBDB first-occurrence bracket 100.5–93.9 Ma and last-occurrence bracket 100.5–93.9 Ma. Database summary uses all represented occurrences, while reader paragraphs explicitly use the eligible subset. Neither is a direct specimen date, origin or extinction estimate.
+      evidenceBasis: Dated accepted-taxonomy app fields retained in P5-42 source snapshots; database-derived appearance brackets.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+          locator: P5-42 accepted hierarchy oid txn:363920; fea/fla/lea/lla in retained taxa response.
+      evidenceLevel: database-derived

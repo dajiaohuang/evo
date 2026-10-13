@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus charlotteae
+  displayName: Mantidactylus charlotteae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6R6KR
+  sourceIndexes:
+    - name:
+        en: Mantidactylus charlotteae
+        zh: Mantidactylus charlotteae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6R6KR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/317
+            queryName: Mantidactylus charlotteae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3eccd797be
+      - s-e0923b561e
+      - s-cf5f68a0f3
+      - s-1c1519061a
+      - s-6d1654e9dc
+      - s-bd6dca4082
+      - s-b74b17e0d0
+      - s-60c795f86e
+      - s-5ae1f36835
+      - s-232cdaa946
+    zh:
+      - s-b344b31afb
+      - s-104f4886d6
+      - s-910ec84e67
+      - s-1dcfe527ef
+      - s-260d8e6c8a
+      - s-7d64819246
+      - s-164684fb09
+      - s-97bbce4d3e
+      - s-c1fe9e4082
+      - s-6818d2c2d0

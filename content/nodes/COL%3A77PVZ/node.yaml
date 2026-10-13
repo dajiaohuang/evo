@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon welleri
+  displayName: Plethodon welleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77PVZ
+  sourceIndexes:
+    - name:
+        en: Plethodon welleri
+        zh: Plethodon welleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77PVZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/3
+            queryName: Plethodon welleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/455
+            queryName: Plethodon welleri welleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/456
+            queryName: Plethodon welleri ventromaculatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/457
+            queryName: Plethodon welleri ventromaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c27998e4f
+      - s-4732f3ec18
+      - s-8b8e8c5ff6
+      - s-128bf822ba
+      - s-5bb2ec001c
+      - s-a4717f4a48
+      - s-3a166d325a
+      - s-9b91a0f09b
+      - s-adf12cb860
+    zh:
+      - s-346a1256b4
+      - s-a5190d9807
+      - s-5cbb4d8362
+      - s-dd6911d8ff
+      - s-5a23c10d2b
+      - s-7883617e72
+      - s-7a4bb3b314
+      - s-e741c2096b
+      - s-998f9eabfa

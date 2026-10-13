@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lumkuia fuzzi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Lumkuia fuzzi
+      en: Lumkuia fuzzi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-aa8efe3397
+            part: body
+          en:
+            page: en
+            section: s-e71b3afb05
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-14ed237e90
+            part: body
+          en:
+            page: en
+            section: s-19b7cccfb4
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c86cd92452
+            part: body
+          en:
+            page: en
+            section: s-e610c22671
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dc9b90b6ee
+            part: body
+          en:
+            page: en
+            section: s-ec074ec1b6
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a669fcc240
+            part: body
+          en:
+            page: en
+            section: s-49a5c47665
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Lumkuia fuzzi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=95414&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:95414; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:95414
+          selectedOccurrenceIds:
+            - occ:645111
+          selectedCollectionIds:
+            - col:69697
+          sourceReferenceIds:
+            - ref:23378
+          originalIdentificationMappings:
+            - occurrenceId: occ:645111
+              originalIdentifiedName: Lumkuia fuzzi n. gen. n. sp.
+              acceptedName: Lumkuia fuzzi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-bb42223e13
+        part: body
+      en:
+        page: en
+        section: s-db150fbf33
+        part: body

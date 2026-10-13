@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Indosylvirana indica
+    name:
+      en: Indosylvirana indica
+      zh: Indosylvirana indica
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Indosylvirana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Indosylvirana indica in the version 3 classification
+          zh: Indosylvirana indica 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9d122dd850
+            part: body
+          zh:
+            page: zh
+            section: s-5d2f2d054e
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 14 populated trait fields
+          zh: 2 条测量行与 14 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8837df9d6e
+            part: body
+          zh:
+            page: zh
+            section: s-5f373b391f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2389, 2390; Reference.csv rows 3822
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2389
+        values:
+          - Ranidae
+          - Indosylvirana
+          - Indosylvirana indica
+          - M
+          - "51.3"
+          - "21.4"
+          - "16.8"
+          - "5.3"
+          - "5.3"
+          - NA
+          - NA
+          - NA
+          - "4"
+          - "4.9"
+          - "9"
+          - "3.1"
+          - "14.3"
+          - "10"
+          - NA
+          - "26.7"
+          - NA
+          - "29.6"
+          - "26.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2390
+        values:
+          - Ranidae
+          - Indosylvirana
+          - Indosylvirana indica
+          - F
+          - "71.3"
+          - "27.9"
+          - "23.7"
+          - "6.1"
+          - "6"
+          - NA
+          - NA
+          - NA
+          - "5.2"
+          - "6.7"
+          - "11.8"
+          - "3.7"
+          - "19.5"
+          - "13.9"
+          - NA
+          - "38.2"
+          - NA
+          - "41.8"
+          - "38.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3822
+        values:
+          - Anura
+          - Indosylvirana_indica
+          - S D, B., Garg, S., Mahony, S., Wijayathilaka, N., Senevirathne, G., & Meegaskumbura, M. (2014). DNA barcoding, phylogeny and systematics of Golden-backed frogs (Hylarana, Ranidae) of the Western Ghats-Sri Lanka biodiversity hotspot, with the description of seven new species. Contributions to zoology Bijdragen tot de dierkunde, 83, 269-335. https://doi.org/10.1163/18759866-08304004
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

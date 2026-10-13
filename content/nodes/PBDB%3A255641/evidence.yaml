@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Purbicella ragei
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Purbicella ragei
+      en: Purbicella ragei
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ca77261a74
+            part: body
+          en:
+            page: en
+            section: s-bfc382f516
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-43bb58b157
+            part: body
+          en:
+            page: en
+            section: s-019c19ac40
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2d736c7e31
+            part: body
+          en:
+            page: en
+            section: s-a17bb00b0b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-11fa45ffdd
+            part: body
+          en:
+            page: en
+            section: s-ac79f719c3
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7b6af6715c
+            part: body
+          en:
+            page: en
+            section: s-405b452baa
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Purbicella ragei
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=255641&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:255641; original response record indices retained in data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 514f112902c399f610603231aa01670f6a662448389d5f94c43cb3b70ec452d6
+          pbdbTaxonId: txn:255641
+          selectedOccurrenceIds:
+            - occ:1096551
+          selectedCollectionIds:
+            - col:138440
+          sourceReferenceIds:
+            - ref:44338
+          originalIdentificationMappings:
+            - occurrenceId: occ:1096551
+              originalIdentifiedName: Purbicella ragei n. gen. n. sp.
+              acceptedName: Purbicella ragei
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f39b781598
+        part: body
+      en:
+        page: en
+        section: s-0434c80495
+        part: body

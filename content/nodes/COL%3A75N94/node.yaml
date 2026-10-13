@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paradoxophyla tiarano
+  displayName: Paradoxophyla tiarano
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75N94
+  sourceIndexes:
+    - name:
+        en: Paradoxophyla tiarano
+        zh: Paradoxophyla tiarano
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75N94
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/407
+            queryName: Paradoxophyla tiarano
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b8c6f07290
+      - s-f4b8921979
+      - s-765905b4dd
+      - s-f35d69eb24
+      - s-91d4f90670
+      - s-11fe1c0ead
+      - s-8503544320
+      - s-43474fa702
+      - s-90ad45a042
+      - s-fab184ef13
+      - s-55cd886b06
+    zh:
+      - s-9ac1c6c852
+      - s-6c3d3f327e
+      - s-1cd4d5c4cc
+      - s-457a178098
+      - s-79a8f46b81
+      - s-42084fab38
+      - s-92f7f70968
+      - s-2da592fd6c
+      - s-8942798405
+      - s-06c133cfb9
+      - s-da82b54ff0

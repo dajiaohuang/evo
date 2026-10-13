@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Clidastes
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Clidastes
+      en: Clidastes
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4bd95a4658
+            part: body
+          en:
+            page: en
+            section: s-6b5d024d2c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-da8ac8c1cb
+            part: body
+          en:
+            page: en
+            section: s-f295c9b8f4
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Clidastes
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36390
+          locator: Recorded PBDB parent closure beneath the already documented Squamata COL-compatible storage anchor.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36390
+          readingTargets:
+            - name: Clidastes liodontus
+              pbdbTaxonId: txn:185932
+              canonicalPath: content/nodes/PBDB%3A185932
+            - name: Clidastes cineriarum
+              pbdbTaxonId: txn:308319
+              canonicalPath: content/nodes/PBDB%3A308319
+            - name: Clidastes propython
+              pbdbTaxonId: txn:128703
+              canonicalPath: content/nodes/PBDB%3A128703
+            - name: Clidastes intermedius
+              pbdbTaxonId: txn:128895
+              canonicalPath: content/nodes/PBDB%3A128895
+            - name: Clidastes moorevillensis
+              pbdbTaxonId: txn:255078
+              canonicalPath: content/nodes/PBDB%3A255078
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-1421a0d4b6
+        part: body
+      en:
+        page: en
+        section: s-a0d6c89f4e
+        part: body

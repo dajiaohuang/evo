@@ -1,0 +1,425 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Uperoleia mjobergii
+    name:
+      en: Uperoleia mjobergii
+      zh: Uperoleia mjobergii
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The name and scope of this tadpole record
+          zh: 这份蝌蚪记录的名称与范围
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-7d85701a49
+            part: body
+          zh:
+            page: zh
+            section: s-4b76e04bb8
+            part: body
+      - topic: morphology
+        title:
+          en: Stage labels and the fields attached to them
+          zh: 阶段标签及对应字段
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-06da4d1868
+            part: body
+          zh:
+            page: zh
+            section: s-b074aa8d47
+            part: body
+      - topic: morphology
+        title:
+          en: Dimensionless proportions in image records
+          zh: 图像记录中的无量纲比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-9f7398511e
+            part: body
+          zh:
+            page: zh
+            section: s-e9eecfa885
+            part: body
+      - topic: overview
+        title:
+          en: A ratio that conflicts with its source row
+          zh: 与来源行不一致的比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-19a5744125
+            part: body
+          zh:
+            page: zh
+            section: s-929e7ec23b
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1884, 1885, 1886; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Myobatrachidae
+      genus: Uperoleia
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1884
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Hand-drawn picture
+          - Uperoleia mjobergi
+          - Myobatrachidae
+          - Uperoleia
+          - Uperoleia mjobergii
+          - 38
+          - 23.395
+          - 9.07
+          - 14.301
+          - 4.704
+          - 4.674
+          - 1.906
+          - 1.962
+          - 1.051
+          - null
+          - null
+          - null
+          - 0.38768967728147
+          - 0.611284462491986
+          - 0.2168644265
+          - 0.19978627911947
+          - 0.8147399658466
+          - 0.83864735199829
+          - 0.44924129874118
+          - null
+          - null
+          - null
+          - Yongle Wang
+      - rowNumber: 1885
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Uperoleia mjobergi
+          - Myobatrachidae
+          - Uperoleia
+          - Uperoleia mjobergii
+          - 39
+          - 25.591
+          - 10.633
+          - 15.507
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.062
+          - 1.625
+          - null
+          - 0.415497635887617
+          - 0.6595521863155
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.27595639918682
+          - 0.634988863272244
+          - null
+          - Yongle Wang
+      - rowNumber: 1886
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Uperoleia mjobergi
+          - Myobatrachidae
+          - Uperoleia
+          - Uperoleia mjobergii
+          - 37
+          - 25.707
+          - 10.256
+          - 16.253
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.316
+          - 1.626
+          - null
+          - 0.39895748239779
+          - 0.63224245847435
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.284591745438985
+          - 0.632512545221146
+          - null
+          - Yongle Wang
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1884
+        scientificName: Uperoleia mjobergii
+        sourceField: BMH/TL
+        suppliedRatio: 0.2168644265
+        originalNumerator: 4.704
+        originalTotalLength: 23.395
+        computedRatio: 0.20106860440265012
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1884
+        scientificName: Uperoleia mjobergii
+        sourceField: TMH/TL
+        suppliedRatio: 0.8147399658466
+        originalNumerator: 1.906
+        originalTotalLength: 23.395
+        computedRatio: 0.08147039965804659
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1884
+        scientificName: Uperoleia mjobergii
+        sourceField: DFH/TL
+        suppliedRatio: 0.83864735199829
+        originalNumerator: 1.962
+        originalTotalLength: 23.395
+        computedRatio: 0.0838640735199829
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1884
+        scientificName: Uperoleia mjobergii
+        sourceField: VFH/TL
+        suppliedRatio: 0.44924129874118
+        originalNumerator: 1.051
+        originalTotalLength: 23.395
+        computedRatio: 0.044924129087411835
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1885
+        scientificName: Uperoleia mjobergii
+        sourceField: TaL/TL
+        suppliedRatio: 0.6595521863155
+        originalNumerator: 15.507
+        originalTotalLength: 25.591
+        computedRatio: 0.6059552186315501
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1885
+        scientificName: Uperoleia mjobergii
+        sourceField: TMW/TL
+        suppliedRatio: 0.634988863272244
+        originalNumerator: 1.625
+        originalTotalLength: 25.591
+        computedRatio: 0.06349888632722442
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1886
+        scientificName: Uperoleia mjobergii
+        sourceField: TMW/TL
+        suppliedRatio: 0.632512545221146
+        originalNumerator: 1.626
+        originalTotalLength: 25.707
+        computedRatio: 0.0632512545221146
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.38768967728147
+        row: 1884
+        stage: 38
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.611284462491986
+        row: 1884
+        stage: 38
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.19978627911947
+        row: 1884
+        stage: 38
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.415497635887617
+        row: 1885
+        stage: 39
+        type: Measurement
+        imageType: Color image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.27595639918682
+        row: 1885
+        stage: 39
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7DLTZ
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

@@ -1,0 +1,6 @@
+## TadpoleTraits 对 Hylarana humeralis 的分类 {#s-068a10c8bc}
+TadpoleTraits 第 4 版依据 Amphibian Species of the World 6.2 (2024)（据数据集作者记录），将 Hylarana humeralis 归入 Hylarana（Ranidae）。文献行保留来源名称 Hylarana humeralis。与当前 COL26.8 物种概念的对应仍未解决；本页呈现汇编标签，不表示已确认当前目录中的分类身份。
+
+## 24 条文献行与 0 条图像行 {#s-7daee9bcbb}
+TadpoleTraits 第 4 版将 24 条文献行和 0 条图像行关联到 Hylarana humeralis。来源行号——文献：4544、4545、4546、4547、4548、4549、4550、4551、4552、4553、4554、4555、4556、4557、4558、4559、4560、4561、4562、4563、4564、4565、4566、4567；图像：无。有数值的测量字段——文献：TL、TL.sd、BL、BL.sd、BMH、BMH.sd、BMW、BMW.sd、TaL、TaL.sd、MTH、MTH.sd、TMH、TMH.sd、DFH、DFH.sd、VFH、VFH.sd、IND.a、IND.a.sd、END.a、END.a.sd、IOD.a、IOD.a.sd、SSD.a、NS.a、NS.a.sd、ES.a.sd、ES.b、OD；图像：无。文献行 4544：Stage 38；文献行 4545：Stage 21；文献行 4546：Stage 22；文献行 4547：Stage 23；文献行 4548：Stage 24；文献行 4549：Stage 25；文献行 4550：Stage 26；文献行 4551：Stage 27；文献行 4552：Stage 28；文献行 4553：Stage 32；文献行 4554：Stage 33；文献行 4555：Stage 34；文献行 4556：Stage 35；文献行 4557：Stage 36；文献行 4558：Stage 37；文献行 4559：Stage 38；文献行 4560：Stage 39；文献行 4561：Stage 40；文献行 4562：Stage 41；文献行 4563：Stage 42；文献行 4564：Stage 43；文献行 4565：Stage 44；文献行 4566：Stage 45；文献行 4567：Stage 46；未提供 Stage 值。Stage 是来源中的发育阶段标签。行数是汇编条目数，不是去重蝌蚪数；来源的 Sample size 字段保留，不同研究的样本量不相加。绝对测量单位和原始研究细节尚未核实；本记录不能说明成体形态或全分布区诊断。
+

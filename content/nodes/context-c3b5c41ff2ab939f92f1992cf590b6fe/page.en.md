@@ -1,0 +1,9 @@
+## One source row, not a full species account {#s-3a628ea262}
+AmphiBIO v1 is a literature-based trait compilation. For Cryptobatrachus conditus, row Anf2010 uses that source name and places the record in Anura, family Hemiphractidae, genus Cryptobatrachus. Its source classification follows Amphibian Species of the World (Frost 2011); this record has not been mapped here to a current COL26.8 species concept. Read the entries below as categories and compiled measurements reported for this row, not a complete species account. A field not reported by the row remains unknown in this record; it does not show that the trait is absent.
+
+## Seasonal categories: dry and warm {#s-21bb5b1a9e}
+The row groups activity under these climate-relative conditions: Dry_warm=1 (dry and warm). They are compared with the local annual climate, not fixed calendar months. Other seasonal categories are unreported, not ruled out.
+
+## Maximum adult body length {#s-0213ec9174}
+AmphiBIO lists maximum adult body length: 48.6 mm. For anurans, body length is snout–vent length, measured from snout tip to vent. These values are literature-compiled maxima, not measurements of every individual.
+

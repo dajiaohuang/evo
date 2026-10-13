@@ -1,0 +1,219 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Silphium albiflorum A.Gray
+    authorship: A.Gray
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: ST
+        scientificName: Asterales Link
+        authorship: Link
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 622TP
+        scientificName: Asteraceae Dumort.
+        authorship: Dumort.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: J6T
+        scientificName: Asteroideae (Cass.) Lindl.
+        authorship: (Cass.) Lindl.
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KVBCQ
+        scientificName: Heliantheae Cass.
+        authorship: Cass.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV7KZ
+        scientificName: Engelmanniinae Stuessy
+        authorship: Stuessy
+        rank: subtribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 7GWF
+        scientificName: Silphium L.
+        authorship: L.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 6YQMY
+        scientificName: Silphium albiflorum A.Gray
+        authorship: A.Gray
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Matched the retained COL ID and WFO-linked FNA source row to exactly one accepted species usage in the pinned COL26.8 search registry; followed each parent through the pinned hierarchy registry and retained the complete accepted parent chain. The source join also preserves the exact FNA row number, source identifier, and taxon-specific citation.
+      scope: COL26.8 accepted identity 6YQMY linked through WFO wfo-0000132596 to one Flora of North America species account. This link does not assert full concept equivalence across checklist versions.
+      sourceIds:
+        - col
+        - fna_63764ecf_04b6_4000_b32f_f89f7281d6d7
+    lifeStatusScope:
+      wild: The account does not identify the provenance of the described material; population-level wild status has not been assessed.
+      domesticated: Cultivation, domestication, and horticultural history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/6YQMY
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:6YQMY@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 6YQMY; exact name, authorship, rank, status, sourceDatasetId, and complete accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6YQMY. https://doi.org/10.48580/dgywk.
+      - id: fna_63764ecf_04b6_4000_b32f_f89f7281d6d7
+        referenceId: ref-2083c916-66ad-8434-a5a6-d5a0f337bdaa
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - sourceCitation
+          - itemDeclaredLicenseUrl
+          - license
+          - rightsHolder
+          - rights
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Archive resource metadata declares CC BY 4.0; the imported source item independently retains its CC BY 4.0 license URL and rights-holder field.
+          licenseAppliesTo: The taxon-specific FNA description text in row 8735; no third-party figure, image, or table is reused.
+          stableId: FNA-sourceId:63764ECF-04B6-4000-B32F-F89F7281D6D7
+          accessedAt: 2026-09-27
+          locator: FNA imported general-description row 8735; source identifier 63764ECF-04B6-4000-B32F-F89F7281D6D7; exact taxon-specific citation retained.
+          attribution: Silphium albiflorum A. Gray in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018. Flora of North America Association; one short excerpt retained with its source locator.
+          licenseAssessment: item-level-verified
+          scope: Regional North American taxonomic description; morphology excerpt only, not a population-sampled estimate, current/global range statement, or proof of cross-release concept equivalence.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "The FNA account describes these morphology characters: “Stems terete, glabrous, hirsute, hispid, or scabrous.”"
+            originalLanguage: en
+            sourceIds:
+              - fna_63764ecf_04b6_4000_b32f_f89f7281d6d7
+            locator: "FNA description row 8735, source identifier 63764ECF-04B6-4000-B32F-F89F7281D6D7; citation: Silphium albiflorum A. Gray in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2006. Web. Accessed February 2018."
+            placeTimeScope: Regional Flora of North America taxonomic account; the excerpt does not provide a population-sampling frame, named observation locality, or temporal estimate.
+            lifeStatus: The source describes taxonomic structures but does not identify whether the described material was wild or cultivated; neither status is inferred.
+        gaps:
+          - One reviewed excerpt supports selected morphology characters only; completeness, variation, methods, and coverage of the full COL26.8 concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Seed maturation, release, germination, recruitment, growth, survival, and the full reproductive cycle have not been assessed.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Habitat, environmental tolerances, and ecological interactions have not been assessed.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No species-specific phylogenetic, population-genetic, or evolutionary analysis was assessed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This regional flora excerpt is not a current range map or global distribution assessment.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil occurrences or bounded species-level fossil search were assessed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current conservation assessment, population trend, or threat analysis was reviewed.
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-e06d7604ea
+            part: title
+          zh:
+            page: zh
+            section: s-7aa919039d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e06d7604ea
+            part: body
+          zh:
+            page: zh
+            section: s-7aa919039d
+            part: body

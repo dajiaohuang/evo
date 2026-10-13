@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus savagei
+  displayName: Leptodactylus savagei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN7Q
+  sourceIndexes:
+    - name:
+        en: Leptodactylus savagei
+        zh: Leptodactylus savagei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN7Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/436
+            queryName: Leptodactylus savagei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a6d59616f
+      - s-1ad67e4e8f
+      - s-f1a393391d
+      - s-f73854904e
+      - s-42d3102f92
+      - s-f5fdcefc19
+      - s-fe2e682083
+      - s-ca18c292fa
+      - s-032b0b738e
+      - s-4b532d3b72
+      - s-4598a51b81
+    zh:
+      - s-a23ae5c5d9
+      - s-fdc1d12ffc
+      - s-8f99d99f3e
+      - s-32a03a4ede
+      - s-08788e43c5
+      - s-dfa362d326
+      - s-a469dca597
+      - s-b42a9672c2
+      - s-07d7b5a12d
+      - s-d8d98001c5
+      - s-965d22ec3d

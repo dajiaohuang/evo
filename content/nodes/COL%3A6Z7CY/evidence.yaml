@@ -1,0 +1,305 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Sparisoma aurofrenatum (Valenciennes, 1840)
+    authorship: (Valenciennes, 1840)
+    rank: species
+    sourceDatasetId: "1010"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VR36
+        scientificName: Actinopterygii
+        authorship: null
+        rank: gigaclass
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KTWM8
+        scientificName: Actinopteri
+        authorship: null
+        rank: superclass
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: 8V4VD
+        scientificName: Teleostei
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KVFTB
+        scientificName: Labridae Cuvier, 1816
+        authorship: Cuvier, 1816
+        rank: family
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KVT2W
+        scientificName: Scarinae Rafinesque, 1810
+        authorship: Rafinesque, 1810
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: V7K9S
+        scientificName: Sparisomatini Gill, 1893
+        authorship: Gill, 1893
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KVNGB
+        scientificName: Sparisoma Swainson, 1839
+        authorship: Swainson, 1839
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: 6Z7CY
+        scientificName: Sparisoma aurofrenatum (Valenciennes, 1840)
+        authorship: (Valenciennes, 1840)
+        rank: species
+        status: accepted
+        sourceDatasetId: "1010"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 species usage 6Z7CY. The evidence concerns one caged, first-year algal-succession experiment at Conch Reef, Florida Keys, not free-ranging population-level grazing or a species-wide ecological effect.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: Wild fish were enclosed in experimental reef cages at Conch Reef.
+      domesticated: Domesticated populations were not studied.
+      captive: The experiment used in situ field enclosures, not aquarium-cultured fish.
+      fossil: Fossil occurrence and geological age were not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1010
+          url: https://www.checklistbank.org/dataset/316115/taxon/6Z7CY
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:6Z7CY@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 6Z7CY; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6Z7CY. https://doi.org/10.48580/dgywk.
+      - id: burkepile2010redband
+        referenceId: ref-b367ba45-3079-84d8-a204-c557894036cf
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article copyright notice below the abstract says the article is distributed under the Creative Commons Attribution License; no version is stated in that item-level notice.
+          licenseAppliesTo: Article text identified by the item-level copyright notice. Claim paraphrased; no figure or table reused.
+          stableId: doi:10.1371/journal.pone.0008963
+          locator: Results, Year 1 treatment effects on algal abundance; Methods, Experimental Setup and Maintenance; article copyright notice.
+          attribution: Burkepile D.E., Hay M.E. (2010). PLOS ONE 5(1):e8963. https://doi.org/10.1371/journal.pone.0008963. Creative Commons Attribution License (version not specified in item-level notice). Claim paraphrased; no figures or tables reused.
+          licenseAssessment: item-level-verified
+          scope: First-year caged comparison of redband parrotfish-only treatments and herbivore exclosures on new substrates at Conch Reef.
+          accessedAt: 2026-09-25
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This reef experiment does not assess species morphology or diagnostic variation.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The algal-succession experiment does not establish demographic rates, reproduction, or a complete life-history account.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In the first-year caged experiment on new cinderblock substrates at Conch Reef in the Florida Keys (November 2003–August 2004), redband parrotfish-only treatments had algal cover and biomass similar to herbivore-exclosure controls and showed no significant effect on measured algal groups except Dictyota spp. This is a single-site, caged-treatment result for algal succession on new substrates; it is not a range-wide estimate of grazing by free-ranging fish.
+            textZh: 在佛罗里达礁岛群康奇礁的新混凝土砌块基质第一年围笼实验中（2003 年 11 月至 2004 年 8 月），仅放入红带鹦嘴鱼的处理组，其藻类覆盖度和生物量与草食动物排除对照相近；除 Dictyota 属外，对测量的藻类类群未显示显著影响。这是单一地点、围笼处理下针对新基质藻类演替的结果，不能作为自由活动鱼类摄食影响的全分布区估计。
+            originalLanguage: en
+            sourceIds:
+              - burkepile2010redband
+            locator: Results, Year 1 treatment effects on algal abundance; Methods, Experimental Setup and Maintenance; article copyright notice.
+            placeTimeScope: Conch Reef in the Florida Keys, USA; the first-year experiment used new cinderblock substrates and ran from November 2003 through August 2004.
+            lifeStatus: Wild redband parrotfish enclosed in field cages at a reef; the claim concerns an experimental treatment rather than an uncaged population estimate.
+        gaps:
+          - A single-site, one-year caged experiment on new substrates does not establish free-ranging grazing rates, effects on established algal communities, geographic variation, or species-wide ecological relationships.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study does not analyze phylogeny or evolutionary history.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Conch Reef is one field site and does not provide a complete geographic range assessment.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The article does not assess fossil occurrences or geological age.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The experiment does not establish current population trends, threats, or conservation status.
+  catalogue-profile:
+    scientificName: Sparisoma aurofrenatum (Valenciennes, 1840)
+    rank: species
+    sourceDatasetId: "1010"
+    name:
+      en: Sparisoma aurofrenatum
+      zh: Sparisoma aurofrenatum
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1010
+          url: https://www.checklistbank.org/dataset/316115/taxon/6Z7CY
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:6Z7CY@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 6Z7CY; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6Z7CY. https://doi.org/10.48580/dgywk.
+      - id: burkepile2010redband
+        referenceId: ref-b367ba45-3079-84d8-a204-c557894036cf
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article copyright notice below the abstract says the article is distributed under the Creative Commons Attribution License; no version is stated in that item-level notice.
+          licenseAppliesTo: Article text identified by the item-level copyright notice. Claim paraphrased; no figure or table reused.
+          stableId: doi:10.1371/journal.pone.0008963
+          locator: Results, Year 1 treatment effects on algal abundance; Methods, Experimental Setup and Maintenance; article copyright notice.
+          attribution: Burkepile D.E., Hay M.E. (2010). PLOS ONE 5(1):e8963. https://doi.org/10.1371/journal.pone.0008963. Creative Commons Attribution License (version not specified in item-level notice). Claim paraphrased; no figures or tables reused.
+          licenseAssessment: item-level-verified
+          scope: First-year caged comparison of redband parrotfish-only treatments and herbivore exclosures on new substrates at Conch Reef.
+          accessedAt: 2026-09-25
+    sections:
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6d1682ffd8
+            part: title
+          zh:
+            page: zh
+            section: s-d9e8b80218
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6d1682ffd8
+            part: body
+          zh:
+            page: zh
+            section: s-d9e8b80218
+            part: body
+        sourceIds:
+          - burkepile2010redband
+        locator: Results, Year 1 treatment effects on algal abundance; Methods, Experimental Setup and Maintenance; article copyright notice.
+        evidenceAssessment: partially-supported

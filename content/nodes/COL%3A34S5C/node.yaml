@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus gaucheri
+  displayName: Dendropsophus gaucheri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S5C
+  sourceIndexes:
+    - name:
+        en: Dendropsophus gaucheri
+        zh: Dendropsophus gaucheri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S5C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/365
+            queryName: Dendropsophus gaucheri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/333
+            queryName: Hyla gaucheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6b7094bb05
+      - s-4ed596fb4c
+      - s-aaa1790a63
+      - s-b259f3eecf
+      - s-b80b39de97
+      - s-90a0147938
+      - s-ace89ec2ef
+      - s-47e2e6a3f2
+      - s-e46a652bfc
+      - s-78d3fd7dbb
+    zh:
+      - s-a648de6d08
+      - s-146e753dc0
+      - s-dbbf19b1aa
+      - s-dc6f0a932c
+      - s-37113d3d27
+      - s-75d3963b17
+      - s-3a323d6c4a
+      - s-006ebd0048
+      - s-1f8940f63c
+      - s-1520ffd83e

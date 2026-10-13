@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene condor
+  displayName: Centrolene condor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S9XX
+  sourceIndexes:
+    - name:
+        en: Centrolene condor
+        zh: Centrolene condor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S9XX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/179
+            queryName: Centrolene condor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 110
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6eec4ab49f
+      - s-99f2609b52
+      - s-b1cab4763e
+      - s-d7f2a9ed3b
+      - s-6a51cd10f1
+      - s-f7a328ce45
+      - s-657b7df9d9
+      - s-3ce199613d
+      - s-36365be66c
+      - s-35301f5f5a
+      - s-3840817577
+      - s-83c9138d16
+      - s-09cb344293
+    zh:
+      - s-9feeb48f94
+      - s-5c2b94eaa3
+      - s-20e8b66da3
+      - s-abacc839e6
+      - s-7e438e8e94
+      - s-fc70dce900
+      - s-aeca91b387
+      - s-95f1cd1fe5
+      - s-8e41cffb92
+      - s-2adee1179c
+      - s-1495dfc0ba
+      - s-add0427f49
+      - s-9d45245491

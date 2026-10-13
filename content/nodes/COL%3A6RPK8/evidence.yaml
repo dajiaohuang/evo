@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea rivulicola Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6RPK8, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000785154.
+      scope: Moraea as represented by COL26.8 usage 6RPK8. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6RPK8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6RPK8
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000785154-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6RPK8 / WFO wfo-0000785154
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14562_0
+        referenceId: ref-81700c88-f1f5-8e39-a6f3-7f3b7c855177
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 33341 (Morphology), 39194 (Habitat), source identifier 14562.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 94241 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 300-600 mm tall. Leaf 1, linear, channelled, trailing above. Flowers enclosed in green spathes, cream to greenish, outer tepal limbs spreading, inner tepals 3-lobed with a long central cusp, filaments united below, style branches narrow, crests short.
+            textZh: Moraea rivulicola Goldblatt & J.C.Manning 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_14562_0
+            locator: Strelitzia 30; archive Morphology row 33341, source 14562.0
+            placeTimeScope: Regional species account published 2013; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: Resembling Moraea unguiculata, M. rivulicola has larger, pale, creamy green, yellow-green or beige flowers, the outer tepals up to 28 mm long with limbs typically held at 60° below horizontal and smooth claws. The inner tepals are also distinctive in having the central lobe of the typically 3-lobed limb drawn into a slender, obliquely coiled cusp, while the lateral lobes are rounded and very short. The ovary is oblong-cylindric and 11-14 mm long, and gives rise to large cylindric capsules 25-32 mm long. Moraea unguiculata has smaller flowers with the outer tepals seldom exceeding 16 mm and with densely pubescent or bearded claws. The inner tepals, 7-10 mm long, are also 3-lobed but the long central cusp is coiled inward symmetrically. Flower colour in M. unguiculata ranges from white to creamy white, brownish, and even blue, and the outer tepal limbs may be half reflexed or, in some populations outside Namaqualand, may be completely reflexed. A population from the rocky hills west of Bitterfontein and south of Kotzesrus stands out in the particularly large flowers with the inner tepals ± 19 mm long, and with an ovate-attenuate limb. Other organs are also larger, with the filaments united in a column up to 10 mm long and free for an additional 2.5 mm and the anthers are 5.5-6.0 mm long. This population represents a significant variant and distinctive race, perhaps deserving of infraspecific recognition.
+            textZh: SANBI 条目提供了 Moraea rivulicola Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94241, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky granitic slopes near streams.
+            textZh: SANBI 区域植物志将 Moraea rivulicola Goldblatt & J.C.Manning 的生境记为：Rocky granitic slopes near streams.
+            sourceIds:
+              - sanbi_14562_0
+            locator: Strelitzia 30; archive Habitat row 39194, source 14562.0
+            placeTimeScope: Regional species account published 2013; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3279cca159
+            part: title
+          zh:
+            page: zh
+            section: s-9637c98270
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3279cca159
+            part: body
+          zh:
+            page: zh
+            section: s-9637c98270
+            part: body
+        sourceIds:
+          - sanbi_14562_0
+          - sanbi_18638_0
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-49b594e873
+            part: title
+          zh:
+            page: zh
+            section: s-d488fcea88
+            part: title
+        text:
+          en:
+            page: en
+            section: s-49b594e873
+            part: body
+          zh:
+            page: zh
+            section: s-d488fcea88
+            part: body
+        sourceIds:
+          - sanbi_14562_0

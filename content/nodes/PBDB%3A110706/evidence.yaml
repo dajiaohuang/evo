@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Necturus krausei
+    rank: species
+    sourceTaxonId: txn:110706
+    name:
+      en: Necturus krausei
+      zh: Necturus krausei
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-1b4c60bddd
+            part: body
+          zh:
+            page: zh
+            section: s-5df314e39b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-758c4f8eda
+            part: body
+          zh:
+            page: zh
+            section: s-462a0bb1a9
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Necturus krausei
+          zh: Necturus krausei 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-00a466df53
+            part: body
+          zh:
+            page: zh
+            section: s-4e3312c32d
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110706; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: B. G. Naylor. 1978. The earliest known Necturus (Amphibia, Urodela), from the Paleocene Ravenscrag Formation of Saskatchewan. Journal of Herpetology 12(4):565-569
+    occurrenceEvidence:
+      - occurrenceId: occ:707483
+        collectionId: col:14978
+        acceptedTaxonId: txn:110706
+        identifiedName: Necturus krausei n. sp.
+        taxonomicDifference: null
+        referenceId: ref:25669
+        bibliography: B. G. Naylor. 1978. The earliest known Necturus (Amphibia, Urodela), from the Paleocene Ravenscrag Formation of Saskatchewan. Journal of Herpetology 12(4):565-569
+        locality:
+          countryCode: CA
+          stateProvince: Saskatchewan
+          county: null
+        stratigraphy:
+          group: null
+          formation: Ravenscrag
+          member: null
+        olderAgeMa: 60.9
+        youngerAgeMa: 57.5
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Necturus krausei
+          zh: Necturus krausei 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-00a466df53
+            part: body
+          zh:
+            page: zh
+            section: s-4e3312c32d
+            part: body
+        sourceIds: []

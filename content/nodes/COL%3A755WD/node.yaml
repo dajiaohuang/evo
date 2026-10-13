@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne frontifasciata
+  displayName: Oreophryne frontifasciata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/755WD
+  sourceIndexes:
+    - name:
+        en: Oreophryne frontifasciata
+        zh: Oreophryne frontifasciata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 755WD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/262
+            queryName: Oreophryne frontifasciata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/405
+            queryName: Callula frontifasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a60350539b
+      - s-daa888189c
+      - s-014666729e
+      - s-7e919050bd
+      - s-dc8ab92757
+      - s-e094b6dd7d
+      - s-be4f13a9d0
+      - s-c514ddfdd5
+    zh:
+      - s-79e7b9e636
+      - s-a0c461151b
+      - s-e93183bd85
+      - s-16849bf7b5
+      - s-c4c6a9bc5b
+      - s-dc7eae0a77
+      - s-7509a8efdb
+      - s-a238ccae38

@@ -38,7 +38,6 @@ test('the Perissodactyla pilot covers the real pinned order, every family, genus
     describedSpecies: 0,
     profiledSpecies: 19,
     dossierSpecies: 0,
-    completeDossierSpecies: 0,
     sourceFacetEvidenceSpecies: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, 0])),
     dossierFacets: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { 'not-assessed': 19 }])),
   })

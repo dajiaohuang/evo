@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis galdi
+  displayName: Pristimantis galdi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77WHP
+  sourceIndexes:
+    - name:
+        en: Pristimantis galdi
+        zh: Pristimantis galdi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77WHP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/283
+            queryName: Pristimantis galdi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/84
+            queryName: Eleutherodactylus festae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/92
+            queryName: Eleutherodactylus galdi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/135
+            queryName: Hylodes galdi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/360
+            queryName: Hylodes festae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/219
+            queryName: Hylodes margaritifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d5daf6d064
+      - s-4fed1ad2f5
+      - s-be696541f4
+      - s-c950fabc72
+      - s-f7e53b9b6f
+      - s-8c7798f71b
+      - s-dd3992b452
+      - s-f8afa2528f
+      - s-646e2c9160
+      - s-12f9259e52
+      - s-8e465836ea
+      - s-4519ee8a45
+      - s-e5208d3291
+      - s-10bfa8c030
+      - s-0beb8e6829
+      - s-583cc588f3
+      - s-27e1d21a1e
+      - s-f873d00f23
+      - s-e5a437fa89
+    zh:
+      - s-5c0bc91bef
+      - s-0b9380772d
+      - s-e79667c67f
+      - s-976d7d2214
+      - s-40110d3a50
+      - s-f94db06fef
+      - s-f3195e6204
+      - s-6265af418e
+      - s-4ef805f880
+      - s-150e536ea6
+      - s-f58f6c556d
+      - s-6eb2c61309
+      - s-b67909c354
+      - s-c942bcacf1
+      - s-416bfd333e
+      - s-a6b368570a
+      - s-b4d7b035f5
+      - s-b4b8b2331d
+      - s-28e5b56790

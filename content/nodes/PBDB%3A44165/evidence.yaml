@@ -1,0 +1,224 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Teleoceras fossiger
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Teleoceras fossiger
+      en: Teleoceras fossiger
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-40cbeb34ef
+            part: body
+          en:
+            page: en
+            section: s-c8ea20851a
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1351502f11
+            part: body
+          en:
+            page: en
+            section: s-5306ba1344
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0db78df075
+            part: body
+          en:
+            page: en
+            section: s-72f07ab952
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ba0bedfb45
+            part: body
+          en:
+            page: en
+            section: s-92bee61e48
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-689597a3f2
+            part: body
+          en:
+            page: en
+            section: s-8617fcc0b0
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Teleoceras fossiger
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=44165&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:44165; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:44165
+          selectedOccurrenceIds:
+            - occ:184164
+            - occ:184406
+            - occ:184941
+            - occ:185126
+            - occ:185434
+            - occ:185891
+            - occ:186122
+            - occ:187120
+            - occ:187196
+            - occ:187421
+            - occ:188735
+            - occ:189527
+            - occ:190798
+            - occ:191600
+            - occ:1273687
+            - occ:1273688
+            - occ:1273696
+            - occ:1273697
+            - occ:1273698
+            - occ:1273699
+            - occ:1384224
+            - occ:1384255
+            - occ:1519344
+            - occ:1519357
+            - occ:1519467
+            - occ:1519471
+            - occ:1542070
+            - occ:1639988
+          selectedCollectionIds:
+            - col:18034
+            - col:18072
+            - col:18126
+            - col:18158
+            - col:18198
+            - col:18237
+            - col:18263
+            - col:18415
+            - col:18441
+            - col:18462
+            - col:18718
+            - col:18858
+            - col:19095
+            - col:19337
+            - col:110829
+            - col:75859
+            - col:18841
+            - col:19089
+            - col:19582
+            - col:18497
+            - col:189788
+            - col:189790
+            - col:212307
+            - col:20079
+            - col:212338
+            - col:212339
+            - col:216990
+            - col:232513
+          sourceReferenceIds:
+            - ref:6328
+            - ref:2546
+            - ref:3510
+            - ref:51726
+            - ref:1561
+            - ref:3405
+            - ref:1852
+            - ref:51759
+            - ref:6197
+            - ref:63794
+            - ref:63487
+            - ref:86700
+          originalIdentificationMappings:
+            - occurrenceId: occ:185891
+              originalIdentifiedName: Teleoceras fossiger n. sp.
+              acceptedName: Teleoceras fossiger
+              difference: null
+            - occurrenceId: occ:1542070
+              originalIdentifiedName: Aphelops fossiger
+              acceptedName: Teleoceras fossiger
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0e35c2bf29
+        part: body
+      en:
+        page: en
+        section: s-239431edcf
+        part: body

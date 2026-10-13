@@ -1,0 +1,102 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pternistis jacksoni
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Pternistis jacksoni
+      en: Pternistis jacksoni
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetPternistisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-151006a629
+            part: body
+          en:
+            page: en
+            section: s-33b965f5ee
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetPternistisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-0f0ccf3511
+            part: body
+          en:
+            page: en
+            section: s-62fac2b5b6
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetPternistisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-f620d2164d
+            part: body
+          en:
+            page: en
+            section: s-e59f1d1c9e
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetPternistisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-53f7671097
+            part: body
+          en:
+            page: en
+            section: s-db84a9bb01
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pternistis jacksoni
+          url: https://www.checklistbank.org/dataset/316115/taxon/4PV6V
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetPternistisHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET dataset v7 — Pternistis historical rows
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: AVONET1_BirdLife rows 2504–2527; BirdLife–eBird rows 8730–8753; BirdLife–BirdTree rows 8685–8708; relevant Metadata definitions.
+          scope:
+            zh: 24 条历史行：21 条非推算／一对一筛选记录、castaneicollis 多对一历史概念、atrifrons 推算及拆分体重、harwoodi 推算尾长分别保留。
+            en: "24 historical rows: 21 selected non-inferred/one-to-one records, castaneicollis many-to-one concept, atrifrons inferred traits/split mass and harwoodi inferred tail kept distinct."
+    limitations:
+      zh:
+        page: zh
+        section: s-83e4949df1
+        part: body
+      en:
+        page: en
+        section: s-737a5da79d
+        part: body

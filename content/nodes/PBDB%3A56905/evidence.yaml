@@ -1,0 +1,330 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Dvinosaurus primus
+    rank: species
+    sourceTaxonId: txn:56905
+    name:
+      en: Dvinosaurus primus
+      zh: Dvinosaurus primus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-5f0e6d7e90
+            part: body
+          zh:
+            page: zh
+            section: s-b2b047d8b9
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 13 PBDB occurrence rows and collection fields
+          zh: 13 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-849bcc39b1
+            part: body
+          zh:
+            page: zh
+            section: s-9ac4954ac5
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Dvinosaurus primus
+          zh: Dvinosaurus primus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-fefda9aaeb
+            part: body
+          zh:
+            page: zh
+            section: s-c2a62f7998
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:56905; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: P. P. Sushkin. 1936. Notes on the pre-Jurassic tetrapods from USSR. III. Dvinosaurus amalitzki, a perennibranchiate stegocephalian from the Upper Permian of North Dvina. Akademiya Nauk SSSR, Trudy Paleozoologicheskogo Instituta 5:43-91
+    occurrenceEvidence:
+      - occurrenceId: occ:388988
+        collectionId: col:37202
+        acceptedTaxonId: txn:56905
+        taxonomicDifference: null
+        referenceId: ref:9972
+        bibliography: P. P. Sushkin. 1936. Notes on the pre-Jurassic tetrapods from USSR. III. Dvinosaurus amalitzki, a perennibranchiate stegocephalian from the Upper Permian of North Dvina. Akademiya Nauk SSSR, Trudy Paleozoologicheskogo Instituta 5:43-91
+        locality:
+          countryCode: RU
+          stateProvince: Archangel'sk
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 259.857
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:388989
+        collectionId: col:37202
+        acceptedTaxonId: txn:56905
+        identifiedTaxonId: txn:56904
+        identifiedName: Dvinosaurus secundus
+        taxonomicDifference: null
+        referenceId: ref:9972
+        bibliography: P. P. Sushkin. 1936. Notes on the pre-Jurassic tetrapods from USSR. III. Dvinosaurus amalitzki, a perennibranchiate stegocephalian from the Upper Permian of North Dvina. Akademiya Nauk SSSR, Trudy Paleozoologicheskogo Instituta 5:43-91
+        locality:
+          countryCode: RU
+          stateProvince: Archangel'sk
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 259.857
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:388990
+        collectionId: col:37202
+        acceptedTaxonId: txn:56905
+        identifiedTaxonId: txn:56906
+        identifiedName: Dvinosaurus tertius
+        taxonomicDifference: null
+        referenceId: ref:9972
+        bibliography: P. P. Sushkin. 1936. Notes on the pre-Jurassic tetrapods from USSR. III. Dvinosaurus amalitzki, a perennibranchiate stegocephalian from the Upper Permian of North Dvina. Akademiya Nauk SSSR, Trudy Paleozoologicheskogo Instituta 5:43-91
+        locality:
+          countryCode: RU
+          stateProvince: Archangel'sk
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 259.857
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:1163741
+        collectionId: col:80712
+        acceptedTaxonId: txn:56905
+        taxonomicDifference: null
+        referenceId: ref:47937
+        bibliography: A. G. Sennikov. 1997. [An enigmatic reptile from the Upper Permian of the Volga River Basin]. Paleontologicheskii Zhurnal 1997(1):95-103
+        locality:
+          countryCode: RU
+          stateProvince: Tatarstan
+          county: Tetyushi
+        stratigraphy:
+          group: null
+          formation: Ilyinskoe
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 259.857
+      - occurrenceId: occ:1382082
+        collectionId: col:93030
+        acceptedTaxonId: txn:56905
+        taxonomicDifference: null
+        referenceId: ref:46409
+        bibliography: M. F. Ivakhnenko. 2011. Permian and Triassic therocephals (Eutherapsida) of Eastern Europe. Paleontological Journal 45(9):981-1144
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Sorochinsk
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:1382089
+        collectionId: col:187939
+        acceptedTaxonId: txn:56905
+        taxonomicDifference: null
+        referenceId: ref:46409
+        bibliography: M. F. Ivakhnenko. 2011. Permian and Triassic therocephals (Eutherapsida) of Eastern Europe. Paleontological Journal 45(9):981-1144
+        locality:
+          countryCode: RU
+          stateProvince: Vologda
+          county: Velikoustyugskii
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:1382095
+        collectionId: col:93025
+        acceptedTaxonId: txn:56905
+        taxonomicDifference: null
+        referenceId: ref:46409
+        bibliography: M. F. Ivakhnenko. 2011. Permian and Triassic therocephals (Eutherapsida) of Eastern Europe. Paleontological Journal 45(9):981-1144
+        locality:
+          countryCode: RU
+          stateProvince: Vologda
+          county: Velikii Ustyug
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:1383090
+        collectionId: col:28065
+        acceptedTaxonId: txn:56905
+        identifiedName: Dvinosaurus primus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: RU
+          stateProvince: Arkhangelsk
+          county: Kotlas
+        stratigraphy:
+          group: null
+          formation: Salarevo
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:1383091
+        collectionId: col:28065
+        acceptedTaxonId: txn:56905
+        identifiedTaxonId: txn:56904
+        identifiedName: Dvinosaurus secundus n. sp.
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: RU
+          stateProvince: Arkhangelsk
+          county: Kotlas
+        stratigraphy:
+          group: null
+          formation: Salarevo
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:1383092
+        collectionId: col:28065
+        acceptedTaxonId: txn:56905
+        identifiedTaxonId: txn:56906
+        identifiedName: Dvinosaurus tertius n. sp.
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: RU
+          stateProvince: Arkhangelsk
+          county: Kotlas
+        stratigraphy:
+          group: null
+          formation: Salarevo
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:1383093
+        collectionId: col:27952
+        acceptedTaxonId: txn:56905
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: RU
+          stateProvince: Arkhangelsk
+          county: Kotlas
+        stratigraphy:
+          group: null
+          formation: Salarevo
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 256.8
+      - occurrenceId: occ:1417386
+        collectionId: col:189501
+        acceptedTaxonId: txn:56905
+        taxonomicDifference: null
+        referenceId: ref:14547
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and A. V. Minikh, M. V. Surkov, M. J. Benton. 2005. Upper Permian vertebrates and their sedimentological context in the South Urals, Russia. Earth-Science Reviews 69:27-77
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Grachevskii
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 259.857
+      - occurrenceId: occ:1646274
+        collectionId: col:104754
+        acceptedTaxonId: txn:56905
+        identifiedName: Dvinosaurus aff. primus
+        taxonomicDifference: null
+        referenceId: ref:87479
+        bibliography: "M.P. Arefiev, V.K. Golubev, and YP Balabanov, EV Karasev, AV Minikh, MG Minikh, II Molostovskaya, OP Yaroshenko, MA Zhokina-Naumcheva. 2015. Type and reference sections of the Permian–Triassic continental sequences of the East European Platform: main isotope, magnetic, and biotic events. XVIII International Congress on the Carboniferous and Permian Sukhona and Severnaya Dvina Rivers field trip"
+        locality:
+          countryCode: RU
+          stateProvince: Vologda
+          county: null
+        stratigraphy:
+          group: null
+          formation: Poldarsa
+          member: Kichuga
+        olderAgeMa: 259.857
+        youngerAgeMa: 254.14
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Dvinosaurus primus
+          zh: Dvinosaurus primus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-fefda9aaeb
+            part: body
+          zh:
+            page: zh
+            section: s-c2a62f7998
+            part: body
+        sourceIds: []

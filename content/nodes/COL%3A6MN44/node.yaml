@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana banjarana
+  displayName: Hylarana banjarana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MN44
+  sourceIndexes:
+    - name:
+        en: Hylarana banjarana
+        zh: Hylarana banjarana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MN44
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/389
+            queryName: Hylarana banjarana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/66
+            queryName: Rana banjarana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/41
+            queryName: Pulchrana banjarana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa74a9dcab
+      - s-26fc04dfdc
+      - s-69302d8fbc
+      - s-b44ed65288
+      - s-5994c67f19
+      - s-7535607a2d
+      - s-4eeabe1e49
+      - s-7469bbbca8
+      - s-591258677b
+      - s-f1b358130d
+    zh:
+      - s-75ecfa4627
+      - s-d63125875b
+      - s-44ba9e06d0
+      - s-2a394e7033
+      - s-34f331bbf3
+      - s-53c2992b3f
+      - s-74433341f7
+      - s-a741fe4215
+      - s-96871a8daf
+      - s-66bf29e4ad

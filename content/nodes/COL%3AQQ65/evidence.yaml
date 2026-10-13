@@ -1,0 +1,415 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Caperonia neglecta G.L.Webster
+    authorship: G.L.Webster
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: MLP
+        scientificName: Malpighiales Juss. ex Bercht. & J.Presl
+        authorship: Juss. ex Bercht. & J.Presl
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 9Y7
+        scientificName: Euphorbiaceae A.Juss.
+        authorship: A.Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: V5BJG
+        scientificName: Acalyphoideae Beilschm.
+        authorship: Beilschm.
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: V5HCJ
+        scientificName: Caperonieae (Müll.Arg.) J.Külkamp & Riina
+        authorship: (Müll.Arg.) J.Külkamp & Riina
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 8VVYK
+        scientificName: Caperonia A.St.-Hil.
+        authorship: A.St.-Hil.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: QQ65
+        scientificName: Caperonia neglecta G.L.Webster
+        authorship: G.L.Webster
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage QQ65; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/QQ65
+          stableId: col:QQ65@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage QQ65; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage QQ65. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_qq65_distribution_4469
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Caperonia neglecta G.L.Webster, Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Known only from a few weedy localities in Panama.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 4469
+          archiveSourceId: BBBF2819-B76D-400B-9923-40A30FB23DC8
+          archiveSourceIds:
+            - BBBF2819-B76D-400B-9923-40A30FB23DC8
+          referenceRowNumbers:
+            - 5295
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-02e10369-6777-8161-a16f-65ee24dea6ff
+                metadataVariant: 0
+                usage:
+                  identifier: BBBF2819-B76D-400B-9923-40A30FB23DC8
+                  referenceRowNumber: 5295
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 4469 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 4469; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:QQ65:row:4469
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 4469; field distribution; reference rows 5295.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 4469; CC BY 4.0. Citation metadata: Caperonia neglecta G.L. Webster, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_qq65_general_4487
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Caperonia neglecta G.L.Webster, Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Annual herb with distinct taproot, ca 2-5 dm high; stems moderately to copiously branched, angled, striate, densely shaggy-hirsute with gland-tipped hairs and hispidulous-strigose with appressed sharp-pointed hairs. Leaves mem- branous; petioles pubescent ca 1.5-5.5 mm long; stipules lanceolate, ciliate with sharp-pointed hairs, ca 1.5-4.5 mm long, 0.4-0.9 mm broad; blades mostly elliptic, mostly 3-7 cm long and 1-3 cm broad, pubescent on both sides with both gland- ular and pointed hairs, the veins and midrib raised on both sides, the secondary veins parallel and at right angles to primary ones (venation thus + scalariform), the base obtuse or rounded, the margins shallowly serrate with mostly 15-30 teeth, the apex evenly narrowed or tapering to an acute point. Racemes 1.5-3 cm long, with 1-3 basal 9 and several distal d flowers; rachis pubescent as the stem; bracts with sharp hairs at the apex and on the margins. Staminate flowers with short hispidulous pedicels; calyx-lobes unequal (3 of them smaller and less deeply cut), sparingly hispidulous, 1-veined, acute or apiculate; petals obovate, distinctly unequal, the 3 larger ones ca 1.5-1.8 mm long and 0.6-0.8 mm broad, the two smaller ones ca 1.1-1.3 mm long and 0.5-0.6 mm broad; upper stamens with filaments about as long as or longer than the anthers, the lower stamens with filaments shorter than anthers, the anthers 0.3-0.4 mm long; pistillode entire, rounded, ca 0.25-0.3 mm long. Pistillate flowers with hispidulous pedicels be- coming 2.4-2.7 mm long in fruit; calyx-lobes 5, subequal, convexly rounded on the back, tipped with a sharp seta, margins with gland-tipped and with sharp hairs, in fruit ca 1.5-2.2 mm long and distinctly longitudinally ribbed; petals subequal, narrowly elliptic, 1.2-1.6 mm long, 0.3-0.5 mm broad, exserted beyond the calyx-lobes; ovary densely hispidulous proximally, muricate distally, the styles ca 1 mm long, deeply 3-lobed, the lobes rather slender. Capsules 4.5-5.5 mm broad, greenish with reddish verrucae, the columella ca 1.5 mm long; seeds spheroidal, fuscous-brown, 2.3-2.7 mm in diam.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 4487
+          archiveSourceId: C66538F5-1BAE-45DE-BDAC-4EDB2662072E
+          archiveSourceIds:
+            - C66538F5-1BAE-45DE-BDAC-4EDB2662072E
+          referenceRowNumbers:
+            - 5315
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-02e10369-6777-8161-a16f-65ee24dea6ff
+                metadataVariant: 0
+                usage:
+                  identifier: C66538F5-1BAE-45DE-BDAC-4EDB2662072E
+                  referenceRowNumber: 5315
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 4487 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 4487; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:QQ65:row:4487
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 4487; field general; reference rows 5315.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 4487; CC BY 4.0. Citation metadata: Caperonia neglecta G.L. Webster, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_qq65_habit_4488
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Caperonia neglecta G.L.Webster, Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: herb
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 4488
+          archiveSourceId: C471C4FE-37D2-4C4F-8606-7FA100B11459
+          archiveSourceIds:
+            - C471C4FE-37D2-4C4F-8606-7FA100B11459
+          referenceRowNumbers:
+            - 5316
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-02e10369-6777-8161-a16f-65ee24dea6ff
+                metadataVariant: 0
+                usage:
+                  identifier: C471C4FE-37D2-4C4F-8606-7FA100B11459
+                  referenceRowNumber: 5316
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 4488 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 4488; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:QQ65:row:4488
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 4488; field habit; reference rows 5316.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 4488; CC BY 4.0. Citation metadata: Caperonia neglecta G.L. Webster, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Annual herb with distinct taproot, ca 2-5 dm high; stems moderately to copiously branched, angled, striate, densely shaggy-hirsute with gland-tipped hairs and hispidulous-strigose with appressed sharp-pointed hairs. Leaves mem- branous; petioles pubescent ca 1.5-5.5 mm long; stipules lanceolate, ciliate with sharp-pointed hairs, ca 1.5-4.5 mm long, 0.4-0.9 mm broad; blades mostly elliptic, mostly 3-7 cm long and 1-3 cm broad, pubescent on both sides with both gland- ular and pointed hairs, the veins and midrib raised on both sides, the secondary veins parallel and at right angles to primary ones (venation thus + scalariform), the base obtuse or rounded, the margins shallowly serrate with mostly 15-30 teeth, the apex evenly narrowed or tapering to an acute point. Racemes 1.5-3 cm long, with 1-3 basal 9 and several distal d flowers; rachis pubescent as the stem; bracts with sharp hairs at the apex and on the margins. Staminate flowers with short hispidulous pedicels; calyx-lobes unequal (3 of them smaller and less deeply cut), sparingly hispidulous, 1-veined, acute or apiculate; petals obovate, distinctly unequal, the 3 larger ones ca 1.5-1.8 mm long and 0.6-0.8 mm broad, the two smaller ones ca 1.1-1.3 mm long and 0.5-0.6 mm broad; upper stamens with filaments about as long as or longer than the anthers, the lower stamens with filaments shorter than anthers, the anthers 0.3-0.4 mm long; pistillode entire, rounded, ca 0.25-0.3 mm long. Pistillate flowers with hispidulous pedicels be- coming 2.4-2.7 mm long in fruit; calyx-lobes 5, subequal, convexly rounded on the back, tipped with a sharp seta, margins with gland-tipped and with sharp hairs, in fruit ca 1.5-2.2 mm long and distinctly longitudinally ribbed; petals subequal, narrowly elliptic, 1.2-1.6 mm long, 0.3-0.5 mm broad, exserted beyond the calyx-lobes; ovary densely hispidulous proximally, muricate distally, the styles ca 1 mm long, deeply 3-lobed, the lobes rather slender. Capsules 4.5-5.5 mm broad, greenish with reddish verrucae, the columella ca 1.5 mm long; seeds spheroidal, fuscous-brown, 2.3-2.7 mm in diam.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_qq65_general_4487
+            locator: "Flora of Panama general field; imported row 4487; sourceIds C66538F5-1BAE-45DE-BDAC-4EDB2662072E; reference rows 5315; citations: C66538F5-1BAE-45DE-BDAC-4EDB2662072E: Caperonia neglecta G.L. Webster, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 5315)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: Known only from a few weedy localities in Panama.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_qq65_distribution_4469
+            locator: "Flora of Panama distribution field; imported row 4469; sourceIds BBBF2819-B76D-400B-9923-40A30FB23DC8; reference rows 5295; citations: BBBF2819-B76D-400B-9923-40A30FB23DC8: Caperonia neglecta G.L. Webster, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 5295)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.

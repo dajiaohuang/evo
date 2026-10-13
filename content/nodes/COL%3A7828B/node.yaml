@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodontohyla fonetana
+  displayName: Plethodontohyla fonetana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7828B
+  sourceIndexes:
+    - name:
+        en: Plethodontohyla fonetana
+        zh: Plethodontohyla fonetana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7828B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/8
+            queryName: Plethodontohyla fonetana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9bbb12c8d6
+      - s-07713b0ddf
+      - s-b6b64acccd
+      - s-5618dfab98
+      - s-cfd052df23
+      - s-403d8947c7
+      - s-14d5d39105
+      - s-5246c43212
+      - s-ed19ae2745
+      - s-826ec35147
+    zh:
+      - s-1c4ffa399f
+      - s-c0d649aa88
+      - s-f2dcbcad47
+      - s-f9dce6e002
+      - s-d9194cd9c0
+      - s-bd7ac248ba
+      - s-baba7c769e
+      - s-b77d4f8679
+      - s-5ec1afb0c2
+      - s-a404793063

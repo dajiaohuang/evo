@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Nemesia cynanchifolia Benth.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 467QJ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 467QJ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/467QJ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 467QJ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001137399-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 467QJ / WFO wfo-0001137399
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_16229_0
+        referenceId: ref-1021e9ff-7098-841b-a45c-522bfba8a6ec
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Nemesia cynanchifolia Benth. account; archive rows 72200 (Morphology), 69771 (Habitat), source identifier 16229.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Annual herb, up to 0.15-0.60 m high. Stems decumbent to ascending, much branched, shortly pilose to glabrous, leafy. Leaves with blade ovate or ovate-lanceolate, 12-32 x 2.5-17.0 mm apex obtuse, base rounded, denticulate; petioles 10-13 mm long. Flowers: few to many in corymbose, oblong, or semi-umbellate racemes, 50-155 mm long, shortly pilose; pedicels up to 30 mm long; spur cylindrical, straight or curved forward, 6-8 mm long; corolla unequally 4-lobed, upper lobes 6-10 mm long, oblong, apex rounded, lower lip 6.0-8.5 mm long, rounded, emarginated, palate papillate or with small hairs, lilac-blue, purple or white; Jul., Aug. Fruit an oblong capsule, up to 10 x 8 mm, hardly narrowed near apex."
+            sourceIds:
+              - sanbi_16229_0
+            locator: "SANBI/WFO archive Morphology row 72200; source 16229.0; publication: Bester, SP; Retief, E; Meyer, NL. 2017. Scrophulariaceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 755 - 793. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dwarf Karroid Shrubland. Open plains, rocky slopes or mountain valleys.
+            sourceIds:
+              - sanbi_16229_0
+            locator: "SANBI/WFO archive Habitat row 69771; source 16229.0; publication: Bester, SP; Retief, E; Meyer, NL. 2017. Scrophulariaceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 755 - 793. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

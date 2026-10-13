@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca nebulanastes
+  displayName: Gastrotheca nebulanastes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6K9WJ
+  sourceIndexes:
+    - name:
+        en: Gastrotheca nebulanastes
+        zh: Gastrotheca nebulanastes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6K9WJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/54
+            queryName: Gastrotheca nebulanastes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b96fcaf3c7
+      - s-edb087ae3b
+      - s-e7cd4f53e9
+      - s-99aef65de4
+      - s-f65fe81838
+    zh:
+      - s-d7a9727fa1
+      - s-19af5e3c39
+      - s-a489832ac4
+      - s-de15a743b9
+      - s-2473ce8272

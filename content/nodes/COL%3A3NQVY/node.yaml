@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius molleri
+  displayName: Hyperolius molleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQVY
+  sourceIndexes:
+    - name:
+        en: Hyperolius molleri
+        zh: Hyperolius molleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQVY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/293
+            queryName: Hyperolius molleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/219
+            queryName: Nesionixalus molleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/172
+            queryName: Rappia molleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6fa48a388a
+      - s-00a6dab998
+      - s-d427094dda
+      - s-09128b8d90
+      - s-bac5108a3c
+      - s-9372c3eb9b
+      - s-1a937a3b87
+      - s-3dff82b1db
+      - s-c267e924ff
+    zh:
+      - s-9b566e5e44
+      - s-8f48419ddc
+      - s-c3e93a6961
+      - s-febb099f07
+      - s-c6a53e79e7
+      - s-c250dff135
+      - s-e8dbbe70b5
+      - s-3a2ada9d5c
+      - s-f1c0602952

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis adelphus
+  displayName: Arthroleptis adelphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/67SBS
+  sourceIndexes:
+    - name:
+        en: Arthroleptis adelphus
+        zh: Arthroleptis adelphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 67SBS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/146
+            queryName: Arthroleptis adelphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-38c046bbb2
+      - s-75ea180d5b
+      - s-fb8da86af7
+      - s-a7b821efdf
+      - s-0bafd6b9b4
+      - s-ae733d93b5
+      - s-a1cc7313e0
+      - s-4baec7f504
+      - s-be43262c89
+      - s-24a3072c13
+      - s-34eb2e7c63
+      - s-d5ddefdbe5
+      - s-2420cbcb7a
+      - s-10322982aa
+    zh:
+      - s-8097ebda1e
+      - s-394fb0a069
+      - s-c2cc76eb79
+      - s-41e0ffd5ce
+      - s-c8a043fd4c
+      - s-a95dec7c60
+      - s-d4a83392fe
+      - s-56376edf10
+      - s-939859a609
+      - s-7cfd84d929
+      - s-1cbd926f8b
+      - s-a04a99961c
+      - s-a33e0e8ddf
+      - s-6f7c271e13

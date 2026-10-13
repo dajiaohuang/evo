@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Espadarana callistomma
+  displayName: Espadarana callistomma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3BHZL
+  sourceIndexes:
+    - name:
+        en: Espadarana callistomma
+        zh: Espadarana callistomma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3BHZL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/384
+            queryName: Espadarana callistomma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/26
+            queryName: Centrolene callistommum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91767d85e8
+      - s-570c2e5310
+      - s-dbac3a3dda
+      - s-f3631b6cfb
+      - s-030955ec6c
+      - s-7dac2a21b0
+      - s-67556f6864
+      - s-2b93a7a738
+    zh:
+      - s-a057d22d68
+      - s-c458d12b42
+      - s-c18a0c70ba
+      - s-07bfdbf280
+      - s-0d09b3fb04
+      - s-644a97e17d
+      - s-f6030f0c06
+      - s-88102fd855

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Peltophryne florentinoi
+  displayName: Peltophryne florentinoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76FWF
+  sourceIndexes:
+    - name:
+        en: Peltophryne florentinoi
+        zh: Peltophryne florentinoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76FWF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/489
+            queryName: Peltophryne florentinoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/432
+            queryName: Bufo florentinoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93c13b39a8
+      - s-d59109360c
+      - s-66233d7bc6
+      - s-1c4b5d4c8f
+      - s-9ecde9eb23
+      - s-eac6cb968c
+      - s-d5d22c6d90
+    zh:
+      - s-ecdf709ceb
+      - s-cb8a6adb6b
+      - s-6eb8bf11fe
+      - s-93c0d9a910
+      - s-53f45f8d21
+      - s-dfe535e66a
+      - s-48b27c7489

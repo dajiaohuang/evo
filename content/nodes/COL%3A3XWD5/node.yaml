@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus brevipalmatus
+  displayName: Mantidactylus brevipalmatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWD5
+  sourceIndexes:
+    - name:
+        en: Mantidactylus brevipalmatus
+        zh: Mantidactylus brevipalmatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWD5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/314
+            queryName: Mantidactylus brevipalmatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a2416b3ae7
+      - s-f0cb019edf
+      - s-9b01ae9b28
+      - s-879016de51
+      - s-ca390ed0e3
+      - s-528a9fdfb5
+      - s-ad317c6e45
+      - s-c3d3edb5a0
+      - s-c6c113d181
+      - s-b03dc4a085
+      - s-89fcd226be
+    zh:
+      - s-e189690241
+      - s-edb13adebc
+      - s-80d79834e3
+      - s-b2c2b5bb31
+      - s-15dbb61f66
+      - s-91fdc1ad43
+      - s-a01b44218a
+      - s-315faca4a6
+      - s-916f546be2
+      - s-f43a7f2d51
+      - s-0e9fe40e01

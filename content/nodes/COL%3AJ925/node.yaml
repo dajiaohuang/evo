@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus peruensis
+  displayName: Atelopus peruensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J925
+  sourceIndexes:
+    - name:
+        en: Atelopus peruensis
+        zh: Atelopus peruensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J925
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/302
+            queryName: Atelopus peruensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5bff9423b1
+      - s-8db9dde220
+      - s-9409ea9d2b
+      - s-50451e2246
+      - s-3818040064
+      - s-c236c1fe0b
+      - s-7c156391f4
+      - s-5a67b1dc0f
+      - s-3d146ec132
+      - s-d44e913b14
+    zh:
+      - s-c8da0d6dbd
+      - s-b3c3036cfe
+      - s-f97a18a5c6
+      - s-1d4230d6fa
+      - s-a5131d4686
+      - s-8228a2a68d
+      - s-dd83d255ae
+      - s-f30cee7aa7
+      - s-864dab394b
+      - s-f241922591

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis leopardus
+  displayName: Pristimantis leopardus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJGM
+  sourceIndexes:
+    - name:
+        en: Pristimantis leopardus
+        zh: Pristimantis leopardus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJGM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/360
+            queryName: Pristimantis leopardus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f9ec7f4040
+      - s-ae3e205971
+      - s-3f36287ab1
+      - s-b5fb9577fd
+      - s-3447327dd5
+      - s-b40977efe7
+      - s-9da3a11ac0
+      - s-e837dcd959
+      - s-ac0b95110b
+      - s-59798ed99c
+    zh:
+      - s-e283cbdd26
+      - s-cbe195651d
+      - s-3639b5a154
+      - s-634c519e30
+      - s-11edc37dd0
+      - s-15e141035b
+      - s-aa90b9d69e
+      - s-bab0dd6bb8
+      - s-9258f20ef3
+      - s-6604668be1

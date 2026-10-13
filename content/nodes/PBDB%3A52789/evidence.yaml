@@ -1,0 +1,270 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sauropelta edwardsorum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Sauropelta edwardsorum
+      en: Sauropelta edwardsorum
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c74cdfa2b0
+            part: body
+          en:
+            page: en
+            section: s-872273fe44
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-41f2007262
+            part: body
+          en:
+            page: en
+            section: s-f03a950827
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c53dc13093
+            part: body
+          en:
+            page: en
+            section: s-b1ea143ad3
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-89743c65f9
+            part: body
+          en:
+            page: en
+            section: s-fd369fe5d4
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-de6baafdba
+            part: body
+          en:
+            page: en
+            section: s-df0cd34919
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Sauropelta edwardsorum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=52789&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:52789; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:52789
+          selectedOccurrenceIds:
+            - occ:498255
+            - occ:498260
+            - occ:498869
+            - occ:498870
+            - occ:498874
+            - occ:498885
+            - occ:498896
+            - occ:498914
+            - occ:498916
+            - occ:498924
+            - occ:498930
+            - occ:498935
+            - occ:498936
+            - occ:499157
+            - occ:499159
+            - occ:499162
+            - occ:499640
+            - occ:513857
+            - occ:1092927
+            - occ:1092992
+          selectedCollectionIds:
+            - col:50349
+            - col:50353
+            - col:50471
+            - col:50472
+            - col:50476
+            - col:50481
+            - col:50488
+            - col:50496
+            - col:50497
+            - col:50498
+            - col:50499
+            - col:50501
+            - col:50502
+            - col:50528
+            - col:50530
+            - col:50532
+            - col:50693
+            - col:25076
+            - col:137567
+            - col:137577
+          sourceReferenceIds:
+            - ref:13525
+            - ref:44000
+          originalIdentificationMappings:
+            - occurrenceId: occ:498255
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498260
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498869
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498870
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498874
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498885
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498896
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498914
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498916
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498924
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498930
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498935
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:498936
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:499157
+              originalIdentifiedName: Sauropelta edwardsi n. gen. n. sp.
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:499159
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:499162
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:499640
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:513857
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:1092927
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+            - occurrenceId: occ:1092992
+              originalIdentifiedName: Sauropelta edwardsi
+              acceptedName: Sauropelta edwardsorum
+              difference: corrected to
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-fbb0355048
+        part: body
+      en:
+        page: en
+        section: s-4068a5a0fd
+        part: body

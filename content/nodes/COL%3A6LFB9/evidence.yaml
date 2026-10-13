@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Haworthiopsis reinwardtii (Salm-Dyck) G.D.Rowley
+    rank: species
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-ebcc6962a9
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-7a9d14e9fd
+          part: body
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6LFB9, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6LFB9; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6LFB9
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6LFB9
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001338841-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6LFB9 / WFO wfo-0001338841
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_11888_0
+        referenceId: ref-3f9aab3d-9cb0-8429-a98f-912631781334
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Haworthiopsis reinwardtii (Salm-Dyck) G.D.Rowley account; SANBI/WFO archive rows 67866 (Morphology), 67144 (Habitat), source identifier 11888.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Stem leafy, proliferous from the base and forming small clusters or large mats 50 to 140 mm high, 20 to 63 mm diam., erect or prostrate. Leaves 15 to 50 mm long, 7 to 16 mm broad at the base, ascending, with tips incurved, ovate to lanceolate-acute or cuspidate, 3.25 to 6.6 mm thick; margins smooth, or sometimes roughened by tubercles, rounded or acute; upper surface flat, convex, or concave, often with a raised line which runs the full length of the leaf, smooth or tubercled with small subprominent, white tubercles, irregularly scattered or arranged in longitudinal rows; back surface rounded, obtusely keeled with 5 to 15 regular or irregular transverse or longitudinal rows of rounded and/or numerous, oblong, truncated white tubercles 0.75 to 1.25 mm diam. Inflorescence about 37 cm tall; peduncle simple, terete, 1.25 to 2 mm diam., about 23 to 39 cm long, bracteate; sterile bracts 2 to 3, membranous, ovate, abruptly elongated, about 8 mm long, erect, keeled; raceme 9 to 17 cm long, lax, with 16 to 26 spirally arranged flowers and buds, 1 to 4 open at a time; floral bracts membranous, 2 to 3 mm long, deltoid, acute, keeled with reddish-brown or green veins, clasping the pedicels, (shorter than the pedicels); pedicels 2 to 4.5 mm long, 1.0 mm diam., light grey, erect; perianth pinkish-white, with greenish-brown keels to the segments, 15 to 20 mm long, compressed at base, funnel-shaped; tube more or less 5 mm across, constricted to 3.5 mm above, straight; segments free to the base, limb 2 lipped, posterior segments erect, pinkish-white with reddish-brown veins not spreading, exterior part little recurved, little spreading, pinkish-white with reddish-brown veins; stamens 6 of two lengths 4.5 and up to 6.5 mm long, inserted within the perianth tube, limb 2 lipped; ovary 3 to 3.35 mm long, 1.25 to 2 mm diam., pale green; style 1.0 to 1.25 mm long, curved or straight, capitate.
+            textZh: Haworthiopsis reinwardtii (Salm-Dyck) G.D.Rowley 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_11888_0
+            locator: "SANBI/WFO archive Morphology row 67866; source identifier 11888.0; cited publication: Scott, CL. 1985. The genus Haworthia (Liliaceae): a taxonomic revision. Aloe Books, Johannesburg. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Summer rainfall area at altitudes varying between 70 and 100 m. This area is predominantly hilly, with much of the ground covered with sparse low scrub, or often sealed off by impassable thickets of Euphorbia, Aloe and other indigenous trees. The soil is black or brown and somewhat acid, while the summer rainfall varies between 500 and 700 mm per annum. H. reinwardtii grows well raised above the ground in exposed positions at the foot of Acacia trees, or in the shade of indigenous bush, or on rolling grass-covered hills, or on stony slopes where it grows as single clusters or as large mats. H. reinwardtii prefers a firm hard soil with pH 6.5.
+            textZh: 该 SANBI 区域物种条目记录的生境：Summer rainfall area at altitudes varying between 70 and 100 m. This area is predominantly hilly, with much of the ground covered with sparse low scrub, or often sealed off by impassable thickets of Euphorbia, Aloe and other indigenous trees. The soil is black or brown and somewhat acid, while the summer rainfall varies between 500 and 700 mm per annum. H. reinwardtii grows well raised above the ground in exposed positions at the foot of Acacia trees, or in the shade of indigenous bush, or on rolling grass-covered hills, or on stony slopes where it grows as single clusters or as large mats. H. reinwardtii prefers a firm hard soil with pH 6.5.
+            sourceIds:
+              - sanbi_11888_0
+            locator: "SANBI/WFO archive Habitat row 67144; source identifier 11888.0; cited publication: Scott, CL. 1985. The genus Haworthia (Liliaceae): a taxonomic revision. Aloe Books, Johannesburg. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

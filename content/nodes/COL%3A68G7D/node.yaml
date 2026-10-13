@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachuperus tibetanus
+  displayName: Batrachuperus tibetanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68G7D
+  sourceIndexes:
+    - name:
+        en: Batrachuperus tibetanus
+        zh: Batrachuperus tibetanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68G7D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/416
+            queryName: Batrachuperus tibetanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 28
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/5
+            queryName: Batrachuperus thibetina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-171cbb0bef
+      - s-fb5a64faf2
+      - s-4f8da14019
+      - s-ff75b7e4a2
+      - s-2749eba0ee
+      - s-385226c2ac
+      - s-48ece2c6b9
+      - s-334ad8d1cc
+      - s-844aeb4c5c
+      - s-2636b0ff2a
+      - s-6ea1d1efc9
+      - s-a14b2359e2
+      - s-36dbc2f74b
+      - s-4351c0a03e
+      - s-a8d7187e46
+      - s-95fe7d8f42
+      - s-9dd9e26272
+      - s-f0589a5fbb
+    zh:
+      - s-8582a02c73
+      - s-0135f31bd2
+      - s-7034953334
+      - s-4abe6cb7ef
+      - s-47761a3258
+      - s-21f2008ae5
+      - s-39248b63eb
+      - s-98338905f5
+      - s-84d8dfcdf2
+      - s-885784f594
+      - s-47993bf2d7
+      - s-2e96542449
+      - s-36440feffe
+      - s-a98fa0a0fe
+      - s-d5c086f4c8
+      - s-ba47c65224
+      - s-f287a31c65
+      - s-170b43f4fa

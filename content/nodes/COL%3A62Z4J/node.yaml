@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanobatrachus
+  displayName: Melanobatrachus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62Z4J
+  sourceIndexes:
+    - name:
+        en: Melanobatrachus
+        zh: Melanobatrachus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62Z4J
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/37
+            queryName: Melanobatrachus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4ec61bd729
+      - s-075c552405
+      - s-9508f79842
+      - s-44ead7cc91
+      - s-c9a1ea5c3c
+      - s-6f6ad55ff8
+    zh:
+      - s-420a3bb3ca
+      - s-d5e2440d56
+      - s-6e679318cf
+      - s-65563434f0
+      - s-b3bbfe8547
+      - s-4f01e0466c

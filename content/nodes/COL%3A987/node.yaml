@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dicroglossidae
+  displayName: Dicroglossidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/987
+  sourceIndexes:
+    - name:
+        en: Dicroglossidae
+        zh: Dicroglossidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "987"
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/303
+            queryName: Dicroglossidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 375
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dd40563712
+      - s-f96a976867
+      - s-5ac3921987
+      - s-a64ef173d4
+      - s-b5cb34ce00
+      - s-9eee10e5a3
+      - s-86a2be19e3
+    zh:
+      - s-b4737d2a80
+      - s-a11b56b0b1
+      - s-04bde01acd
+      - s-ad418d5e86
+      - s-be6fc76903
+      - s-38a2aa8d48
+      - s-4a54f0b4a8

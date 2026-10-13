@@ -1,0 +1,127 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Polycarpon prostratum (Forssk.) Asch. & Schweinf.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4L3FY, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4L3FY; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4L3FY
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4L3FY
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000395697-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4L3FY / WFO wfo-0000395697
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9173_0
+        referenceId: ref-7fc1b641-cc32-85c4-a5bd-605458cfbf2c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Polycarpon prostratum (Forssk.) Asch. & Schweinf. account; archive rows 76056 (Morphology), 75594 (Habitat), 74747 (Diagnostic), source identifier 9173.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Tufted annual herb with ascending, spreading branches up to c. 15 cm long; branches pubescent and sometimes densely so in the lower internodes, the upper with a line of hairs or all the internodes glabrescent or glabrous. Leaves 0.3-3 x 0.1-0.7 cm, opposite or subverticillate, often in unequal pairs, subsessile, oblanceolate, narrowly obovate, rarely elliptic or linear, obtuse or subacute at the apex, cuneate at the base, margins entire, pubescent with white hairs or glabrous; stipules whitish, 1-2 mm long, membranous, ovate to lanceolate. Inflorescences of terminal or axillary, many-flowered cymes; peduncles up to c. 0.5 cm long, with a line of hairs like the internodes or glabrous; bracts whitish, 1-2 mm long, membranous, lanceolate or ovate, acute; central flower sessile, laterals on pedicels up to 6 mm long. Sepals 5, 3-4 x 1.5 mm, lanceolate with a broad, green, somewhat keeled median zone and whitish, hyaline margins, apex blunt and hooked. Petals 5, sometimes 2-3 or rarely absent, c. 1.5 x 0.75 mm, membranous and transparent, elliptic, acute. Stamens 3-5, alternating with the petals; filaments whitish, c. 1 mm long, flattened, tapering upwards; anthers 0.2 mm in diam., orbicular. Ovary ellipsoid, multiovulate; style 0.25 mm long with 3 spreading stigmatic arms c. 0.2 mm long. Capsule ellipsoid, slightly shorter than the persistent sepals, with 3 membranous semi-transparent valves. Seeds many, 0.4-0.5 x 0.3 mm, subcylindric and slightly arcuate with a minute lateral hilum nearer one end than the other; testa smooth, brown.
+            sourceIds:
+              - sanbi_9173_0
+            locator: "SANBI/WFO archive Morphology row 76056; source 9173.0; publication: Wild, H. 1961. 21. Caryophyllaceae, Fl. Zambes. 1(2): 337 - 358. Crown Agents for Oversea Governments & Administrations, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: The very involved synonymy and nomenclature of this species can be found more completely as set out by Milne-Redhead.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_9173_0
+            locator: "SANBI/WFO archive Diagnostic row 74747; source 9173.0; publication: Wild, H. 1961. 21. Caryophyllaceae, Fl. Zambes. 1(2): 337 - 358. Crown Agents for Oversea Governments & Administrations, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In damp sandy places; common, although rather inconspicuous.
+            sourceIds:
+              - sanbi_9173_0
+            locator: "SANBI/WFO archive Habitat row 75594; source 9173.0; publication: Wild, H. 1961. 21. Caryophyllaceae, Fl. Zambes. 1(2): 337 - 358. Crown Agents for Oversea Governments & Administrations, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-12059b76e0
+            part: title
+          zh:
+            page: zh
+            section: s-4f7a26a7a6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-12059b76e0
+            part: body
+          zh:
+            page: zh
+            section: s-4f7a26a7a6
+            part: body

@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Eleutherodactylus varleyi
+    name:
+      en: Eleutherodactylus varleyi
+      zh: Eleutherodactylus varleyi
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Eleutherodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-50dfade4a7
+            part: body
+          zh:
+            page: zh
+            section: s-4058be34e2
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0d8b83b484
+            part: body
+          zh:
+            page: zh
+            section: s-302183e3d8
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1800, 1801; Reference.csv rows 1605
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1800
+        values:
+          - Brachycephaloidea
+          - Eleutherodactylus
+          - Eleutherodactylus varleyi
+          - F
+          - "16.77"
+          - "5.57"
+          - "5.48"
+          - "1.87"
+          - "0.75"
+          - "0.4"
+          - "1.63"
+          - "1.27"
+          - "1.13"
+          - "1.47"
+          - "2.57"
+          - NA
+          - "3.35"
+          - NA
+          - NA
+          - "6.67"
+          - NA
+          - "6.58"
+          - "5.97"
+          - "4.32"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.35"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.37"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1801
+        values:
+          - Brachycephaloidea
+          - Eleutherodactylus
+          - Eleutherodactylus varleyi
+          - M
+          - "13.36"
+          - "4.73"
+          - "4.76"
+          - "1.69"
+          - "0.94"
+          - "0.41"
+          - "1.43"
+          - "1.23"
+          - "1.05"
+          - "1.28"
+          - "1.99"
+          - NA
+          - "2.81"
+          - NA
+          - NA
+          - "5.67"
+          - NA
+          - "5.83"
+          - "5.54"
+          - "3.83"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.35"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1605
+        values:
+          - Anura
+          - Eleutherodactylus_varleyi
+          - "Diaz, L. M., Cadiz, A., & Hedges, S. B. (2003). A new grass frog from pine forests of Western Cuba, and description of acoustic and pattern variation in Eleutherodactylus varleyi (Amphibia : Leptodactylidae). Caribbean Journal of Science, 39(2), 176-188.  <Go to ISI>://WOS:000184750000003"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

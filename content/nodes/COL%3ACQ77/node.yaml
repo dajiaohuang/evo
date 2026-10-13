@@ -1,0 +1,130 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega petersi
+  displayName: Ameerega petersi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ77
+  sourceIndexes:
+    - name:
+        en: Ameerega petersi
+        zh: Ameerega petersi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ77
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/272
+            queryName: Ameerega petersi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/216
+            queryName: Epipedobates petersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/225
+            queryName: Epipedobates smaragdinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/74
+            queryName: Ameerega smaragdina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/295
+            queryName: Phyllobates petersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/296
+            queryName: Phyllobates smaragdinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 46
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/297
+            queryName: Dendrobates petersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/298
+            queryName: Dendrobates smaragdinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/299
+            queryName: Phyllobates smaragdina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-38a2ba45f3
+      - s-c5990e4205
+      - s-cef5117173
+      - s-3a83675eca
+      - s-d1cafdd227
+      - s-9c5f7fbb17
+      - s-d62353318a
+      - s-abebb62c5b
+      - s-0aaa3fadc7
+      - s-bd89a651e9
+      - s-23a6948afa
+      - s-817cfbb234
+      - s-c4924a52d1
+      - s-234207bdff
+      - s-eaeb92c7e6
+      - s-f5f18fae73
+      - s-9dd546ea4d
+      - s-bfdfb230bd
+      - s-34def44978
+      - s-0d643d9ede
+      - s-db0b30a494
+    zh:
+      - s-a822aaf72b
+      - s-6d131a5038
+      - s-0a75b47129
+      - s-0ff43b02bf
+      - s-9bc6da965f
+      - s-c014cb4964
+      - s-7d17ae8773
+      - s-136c825827
+      - s-e5610036cf
+      - s-7f3036e14f
+      - s-740d007688
+      - s-fa3aa7ea1a
+      - s-2a09261253
+      - s-204640b7cd
+      - s-6582dd3efa
+      - s-b1bf76e1b7
+      - s-74305463e5
+      - s-939bd3d825
+      - s-bd76cf677c
+      - s-17ce7b392a
+      - s-289591c073

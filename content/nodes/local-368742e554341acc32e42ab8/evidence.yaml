@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Limnonectes larvaepartus
+    name:
+      en: Limnonectes larvaepartus
+      zh: Limnonectes larvaepartus
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Limnonectes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Limnonectes larvaepartus in the version 3 classification
+          zh: Limnonectes larvaepartus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d37643abf3
+            part: body
+          zh:
+            page: zh
+            section: s-d1dd91d6f5
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 16 populated trait fields
+          zh: 2 条测量行与 16 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-389b628aeb
+            part: body
+          zh:
+            page: zh
+            section: s-a2b3d9d808
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2817, 2818; Reference.csv rows 3248
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2817
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes larvaepartus
+          - F
+          - "41.2"
+          - "17.9"
+          - "15.1"
+          - "7.4"
+          - "3.3"
+          - "1.6"
+          - "3"
+          - "4.4"
+          - NA
+          - "3.9"
+          - "7.2"
+          - "3.8"
+          - "9.9"
+          - "9.1"
+          - NA
+          - NA
+          - NA
+          - "24.1"
+          - "22"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.4"
+          - NA
+      - rowNumber: 2818
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes larvaepartus
+          - M
+          - "39.8"
+          - "17.6"
+          - "15.4"
+          - "7.2"
+          - "3.1"
+          - "1.8"
+          - "3"
+          - "4.5"
+          - NA
+          - "3.6"
+          - "7"
+          - "3.6"
+          - "9.7"
+          - "8.4"
+          - NA
+          - NA
+          - NA
+          - "22.7"
+          - "21.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.5"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3248
+        values:
+          - Anura
+          - Limnonectes_larvaepartus
+          - "Iskandar, D. T., Evans, B., & McGuire, J. (2014). A Novel Reproductive Mode in Frogs: A new species of Fanged Frog with Internal Fertilization and Birth of Tadpoles. PLoS One, 9, e115884. https://doi.org/10.1371/journal.pone.0115884"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - TL
+      - THL
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 72DL2
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

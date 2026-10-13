@@ -1,0 +1,3 @@
+## *Chromolaena caaguazuensis*: three-veined leaves and cylindrical heads {#s-70116089be}
+The Brazilian Flora 2020 regional field records a woody underground swelling (xylopodium) and opposite, egg-shaped leaves with scalloped margins and three main veins. The leaves and stems may be hairy or gland-dotted. Flower heads sit in corymb-like clusters inside cylindrical bract cups; the bracts may be upright or recurved and range from hairless to glandular or finely hairy. The fruitlets are inversely cone-shaped, with surface hairiness varying across the listed forms, and have rough pappus bristles. These are alternatives in the dataset field.
+

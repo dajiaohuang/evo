@@ -1,0 +1,27 @@
+## PBDB placement of this fossil concept {#s-bdad05798b}
+In the PBDB snapshot dated 2 October 2026, Salamandridae Gray 1825 is listed at family rank beneath Urodela. This is the database-recorded placement; the supplementary PBDB path does not equate it with a similarly named COL entry.
+
+## Fossil concepts below this PBDB node {#s-82760e7ad3}
+The captured PBDB hierarchy places 30 accepted fossil-species concepts beneath this node. Exact returned-taxon matches yield 33 occurrence records; 13 concepts have no matching record in this query. The dated collection intervals span 48.07 to 5.333 million years ago across 33 records. These pooled bounds do not date lineage origin or extinction and do not show a continuous range. The PBDB placement is supplementary and does not establish equivalence with a similarly named COL group.
+
+## Child concepts in the PBDB hierarchy {#s-26c58c2eca}
+The links below follow child concepts in the captured PBDB parent hierarchy. Each linked page separates its taxonomic entry from the collections returned for it.
+
+- [Archaeotriton](Archaeotriton/page.en.md)
+- [Brachycormus](Brachycormus/page.en.md)
+- [Chelotriton](Chelotriton/page.en.md)
+- [Chioglossa](Chioglossa/page.en.md)
+- [Koalliella](Koalliella/page.en.md)
+- [Megalotriton](Megalotriton/page.en.md)
+- [Notophthalmus](Notophthalmus/page.en.md)
+- [Oligosemia](Oligosemia/page.en.md)
+- [Palaeopleurodeles](Palaeopleurodeles/page.en.md)
+- [Phosphotriton](Phosphotriton/page.en.md)
+- [Procynops](Procynops/page.en.md)
+- [Taricha](Taricha/page.en.md)
+- [Triturus](Triturus/page.en.md)
+- [Tylototriton](Tylototriton/page.en.md)
+
+## Scope of the available biological evidence {#s-cd3c9a51d2}
+The indexed references attached to this record are bibliographic leads, not verified biological claims. This page therefore describes the PBDB name and placement and the occurrence information returned in the captured query; it cannot support a description of anatomy, life history or ecology.
+

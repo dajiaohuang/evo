@@ -1,0 +1,3 @@
+## *Baccharis flexuosiramosa*: winged branches and clustered heads {#s-9a84e3de42}
+The Brazilian Flora 2020 regional field records winged branches and leaves with three main veins. Leaf stalks range in the field from absent to developed; blade outlines include inversely lance-shaped, inversely egg-shaped, and elliptic, with entire margins. Flower heads are listed in panicles or spike-like clusters. The field describes heads as either all tubular male-flowered or all threadlike female-flowered, so these are alternative entries rather than one combined state. Rock-associated and terrestrial substrate labels occur in the record, without a collection locality.
+

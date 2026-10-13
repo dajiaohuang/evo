@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella ebenaui
+  displayName: Mantella ebenaui
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7G
+  sourceIndexes:
+    - name:
+        en: Mantella ebenaui
+        zh: Mantella ebenaui
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/290
+            queryName: Mantella ebenaui
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/225
+            queryName: Dendrobates ebenaui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/226
+            queryName: Mantella attemsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8307b88f3b
+      - s-f587972b62
+      - s-58f5fe4728
+      - s-36d5078209
+      - s-06e7457904
+      - s-d4be3d4e46
+      - s-f553bfdea3
+      - s-a708457bab
+      - s-548e960861
+      - s-36a602ce8c
+    zh:
+      - s-1a0f56939b
+      - s-0bfe90c99f
+      - s-3e03c7f748
+      - s-27f6ca0fa6
+      - s-5fa26bff1d
+      - s-e8a1d90096
+      - s-483d5aeb3b
+      - s-e2dee4f002
+      - s-cfa153debf
+      - s-4db0111088

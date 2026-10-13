@@ -1,0 +1,175 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyopsodus miticulus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hyopsodus miticulus
+      en: Hyopsodus miticulus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0933769cfc
+            part: body
+          en:
+            page: en
+            section: s-52fe297d55
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7f5d4192ff
+            part: body
+          en:
+            page: en
+            section: s-a2a5afa20e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fa3a26e9cd
+            part: body
+          en:
+            page: en
+            section: s-1661ca4b4d
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1c57822ec9
+            part: body
+          en:
+            page: en
+            section: s-da7c87d36a
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0b68dabb49
+            part: body
+          en:
+            page: en
+            section: s-83232c69c5
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hyopsodus miticulus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=46340&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:46340; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:46340
+          selectedOccurrenceIds:
+            - occ:168510
+            - occ:457630
+            - occ:457777
+            - occ:458729
+            - occ:458733
+            - occ:458739
+            - occ:458746
+            - occ:458751
+            - occ:471294
+            - occ:1695634
+          selectedCollectionIds:
+            - col:15430
+            - col:15692
+            - col:15701
+            - col:15688
+            - col:15689
+            - col:15690
+            - col:15691
+            - col:15693
+            - col:46825
+            - col:200443
+          sourceReferenceIds:
+            - ref:3155
+            - ref:11717
+            - ref:91938
+          originalIdentificationMappings:
+            - occurrenceId: occ:168510
+              originalIdentifiedName: Esthonyx miticulus n. sp.
+              acceptedName: Hyopsodus miticulus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-27518715e1
+        part: body
+      en:
+        page: en
+        section: s-d558471f98
+        part: body

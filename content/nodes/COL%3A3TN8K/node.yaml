@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus wagneri
+  displayName: Leptodactylus wagneri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN8K
+  sourceIndexes:
+    - name:
+        en: Leptodactylus wagneri
+        zh: Leptodactylus wagneri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN8K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/448
+            queryName: Leptodactylus wagneri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/244
+            queryName: Plectromantis wagneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a5afde8a6
+      - s-cf896d71b3
+      - s-b40f47e12d
+      - s-43b5994fcd
+      - s-fb697d36e6
+      - s-278c0b4257
+      - s-65be2fb90b
+      - s-101132fb32
+      - s-f617f3f601
+      - s-8dd0dc0acb
+      - s-6d92b70dd3
+    zh:
+      - s-515b8b5ed9
+      - s-cd943e621a
+      - s-12af8e2f4c
+      - s-af61451f76
+      - s-94fb76011f
+      - s-cd153c1186
+      - s-b92bd7d9f1
+      - s-11a6e936f9
+      - s-a9a3cdb491
+      - s-682fcdaf26
+      - s-e6569da813

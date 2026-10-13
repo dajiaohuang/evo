@@ -1,0 +1,112 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Heliophila scandens Harv.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3KBWC, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3KBWC; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3KBWC
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3KBWC
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001217053-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3KBWC / WFO wfo-0001217053
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9736_0
+        referenceId: ref-aa9a80d7-d71c-852d-a663-b2c4a224b809
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Heliophila scandens Harv. account; archive rows 49667 (Morphology), 55518 (Habitat), source identifier 9736.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-643220d9ad
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-fde899bb9b
+          part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Straggling woody climbers up to 3 m high, glabrous. Leaves 4-8 cm long, 0.7-3 cm broad, lanceolate to broadly elliptic above the narrow petiole, acute or obtuse, mucronulate. glabrous, fleshy, the margin often revolutc in dried specimens, minutely stipulate. Racemes terminal, leafless, short and corymbose in flower, laxer in fruit, or rarely intercalary. Pedicels about 1 cm long in flower, 1.2-2 cm long in fruit, erect or ascending, subtended by 2 minute bracts. Sepals 4.8-6.5 mm long, 1.5-3 mm broad; outer 2 narrowly oblong, cucullate; inner 2 ovate with broad membranous margins. Petals 8.5-14 mm long, 3-8 mm broad, obovate-oblong to circular-obovate, clawed. Filaments 3-3.8 mm and 3.8-4.8 mm long, stout. Anthers 2 mm long. Ovary shortly stipitate, obovate or broadly oblong; style slender, long; stigma capitate; ovules 2. Fruits 2.5-4 cm long, 0.8-1.3 cm broad, elliptic-lanceolate to elliptic, sometimes oblique, shortly stipitate, the valves flat, 1-nerved, net-veined; style 2.5-6 mm long, tapering. Seeds 3.5-5 x 4-6.5 mm, subcir-cular, narrowly margined. Flowers are mostly produced during June and July, but one specimen with both flowers and fruit was collected in mid-September.
+            sourceIds:
+              - sanbi_9736_0
+            locator: "SANBI/WFO archive Morphology row 49667; source 9736.0; publication: Marais, W. 1970. Cruciferae, Fl. S. Africa 13: 1 - 118. Dept. Agric. and Technical Services, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Apparently confined to scrub vegetation and forest margins on sand-dunes along the coast.
+            sourceIds:
+              - sanbi_9736_0
+            locator: "SANBI/WFO archive Habitat row 55518; source 9736.0; publication: Marais, W. 1970. Cruciferae, Fl. S. Africa 13: 1 - 118. Dept. Agric. and Technical Services, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

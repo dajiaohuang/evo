@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana yunnanensis
+  displayName: Nanorana yunnanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N83
+  sourceIndexes:
+    - name:
+        en: Nanorana yunnanensis
+        zh: Nanorana yunnanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N83
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/194
+            queryName: Nanorana yunnanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 28
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/484
+            queryName: Paa bourreti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/10
+            queryName: Paa yunnanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/322
+            queryName: Rana yunnanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/326
+            queryName: Nanorana bourreti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/227
+            queryName: Rana bourreti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/229
+            queryName: Gynandropaa bourreti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/232
+            queryName: Gynandropaa yunnanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-80881355c7
+      - s-f4511a263f
+      - s-0706e52273
+      - s-8606d8fa5f
+      - s-c6361c75a7
+      - s-bf0d2ca53d
+      - s-05eba3b7d9
+      - s-a63d9bf6d9
+      - s-d1e1b0f653
+      - s-d5a8c9e065
+      - s-16ed8d1e91
+      - s-86e109143f
+      - s-6d5d8ef252
+      - s-dcd9cc1b49
+      - s-46506bfe01
+    zh:
+      - s-c9c58921f5
+      - s-bf430432b0
+      - s-6372d8cf2c
+      - s-3b5f7a3c81
+      - s-c66133b488
+      - s-c60b715fa6
+      - s-bdd533dce5
+      - s-7ebc59bd9a
+      - s-8ad7518101
+      - s-7e79ecb0f7
+      - s-5fd3e07d19
+      - s-be8ef1e03e
+      - s-24406880c1
+      - s-29b9e37ace
+      - s-3c8374bb9f

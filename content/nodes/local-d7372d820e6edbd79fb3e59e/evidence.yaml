@@ -1,0 +1,238 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis charlottevillensis
+    name:
+      en: Pristimantis charlottevillensis
+      zh: Pristimantis charlottevillensis
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Pristimantis charlottevillensis in the morphology deposit
+          zh: 形态数据中的 Pristimantis charlottevillensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-33f6194718
+            part: body
+          zh:
+            page: zh
+            section: s-9acee3687b
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4505 and 4506: measurement fields and sex codes"
+          zh: 第 4505、4506 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b5400e7d54
+            part: body
+          zh:
+            page: zh
+            section: s-616626eccb
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4505, 4506; Reference.csv rows 1655
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4505
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis charlottevillensis
+          - M
+          - "26.9"
+          - NA
+          - "10.5"
+          - "4.1"
+          - "1.4"
+          - NA
+          - "2.8"
+          - NA
+          - NA
+          - "3.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4506
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis charlottevillensis
+          - F
+          - "43.1"
+          - NA
+          - "17"
+          - "5.4"
+          - "2"
+          - NA
+          - "4.9"
+          - NA
+          - NA
+          - "6.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "25.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1655
+        values:
+          - Anura
+          - Pristimantis_charlottevillensis
+          - "Kaiser, H., Dwyer, C., Feichtinger, W., & Schmid, M. (1995). A new species of Eleutherodactylus (Anura: Leptodactylidae) from Tobago, West Indies and its morphometric and cytogenetic characterization. Herpetological Natural History, 3(2), 151-163. "
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - EN
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys kuatunensis
+  displayName: Boulenophrys kuatunensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X2MJ
+  sourceIndexes:
+    - name:
+        en: Boulenophrys kuatunensis
+        zh: Boulenophrys kuatunensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X2MJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/358
+            queryName: Boulenophrys kuatunensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/258
+            queryName: Xenophrys kuatunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/489
+            queryName: Megophrys kuatunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/490
+            queryName: Megalophrys kuatunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/491
+            queryName: Panophrys kuatunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ecdb586968
+      - s-5cb3c3f336
+      - s-35d871a1aa
+      - s-6ca9f8fcb7
+      - s-2960967b23
+      - s-14f89424a3
+      - s-d4349516ed
+      - s-a90ea7b5a8
+      - s-765587c7bc
+      - s-3a33ddcef5
+      - s-cf15ab59c6
+    zh:
+      - s-4655b319aa
+      - s-a0b62fe780
+      - s-d2d33c7f75
+      - s-57209f9b38
+      - s-8033c96d10
+      - s-6839c0327d
+      - s-bd6d4b9f24
+      - s-9d512f7973
+      - s-b9e0841c92
+      - s-b95d9209b4
+      - s-1e0ee9f436

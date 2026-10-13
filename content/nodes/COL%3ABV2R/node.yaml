@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates undulatus
+  displayName: Allobates undulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV2R
+  sourceIndexes:
+    - name:
+        en: Allobates undulatus
+        zh: Allobates undulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV2R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/178
+            queryName: Allobates undulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/158
+            queryName: Colostethus undulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd2d6d91f3
+      - s-70f78a5a5d
+      - s-585ab3735a
+      - s-44cac2df59
+      - s-a28dc886a9
+      - s-0afc9a16aa
+      - s-8d63f35442
+      - s-621a0d6000
+      - s-c98e4c6025
+      - s-98c6a5bb1e
+      - s-a1482ed2a6
+      - s-dbce45e45f
+      - s-ab95960098
+      - s-47992b250a
+      - s-10e1c3928b
+    zh:
+      - s-b8bf7c9c09
+      - s-4aaa3d93c1
+      - s-3a5cf7eeb4
+      - s-c803c468ac
+      - s-8920a87904
+      - s-caeea0261e
+      - s-06357c1dd2
+      - s-cd7547e24f
+      - s-b349d64152
+      - s-17c38facaa
+      - s-db2a321b12
+      - s-ef9d6385d8
+      - s-a166cb9703
+      - s-2c07c119ae
+      - s-68177cf57b

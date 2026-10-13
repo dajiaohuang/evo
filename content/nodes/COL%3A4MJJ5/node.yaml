@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis minutulus
+  displayName: Pristimantis minutulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJ5
+  sourceIndexes:
+    - name:
+        en: Pristimantis minutulus
+        zh: Pristimantis minutulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJ5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/412
+            queryName: Pristimantis minutulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-40fb6aad73
+      - s-51ac7a9210
+      - s-10425867f6
+      - s-ce3af37d0c
+      - s-a4e930692d
+      - s-be268a9ddb
+      - s-00ebbe6ce2
+      - s-08e8bb09b6
+    zh:
+      - s-684e5ca4f3
+      - s-840be93b01
+      - s-66ef9aa965
+      - s-7eafc2d193
+      - s-a4e5d16615
+      - s-f967b8d176
+      - s-39dd4558f8
+      - s-8fd6b8f589

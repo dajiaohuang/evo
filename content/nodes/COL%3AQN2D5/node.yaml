@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana xuelinensis
+  displayName: Nanorana xuelinensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QN2D5
+  sourceIndexes:
+    - name:
+        en: Nanorana xuelinensis
+        zh: Nanorana xuelinensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QN2D5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/193
+            queryName: Nanorana xuelinensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-376a423a5c
+      - s-7564add0b8
+      - s-fac2036f1c
+      - s-1bd3280417
+      - s-145fa665a7
+      - s-0ff41eb3be
+      - s-224e02d05c
+      - s-8b1f3f6698
+      - s-00ac163b80
+    zh:
+      - s-15bdf79819
+      - s-b94ad39f0d
+      - s-4049c48dc9
+      - s-6cac7255e2
+      - s-e2025ec896
+      - s-df6732b92a
+      - s-4d2e3c8831
+      - s-b573ce1a95
+      - s-526413ad8c

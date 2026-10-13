@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus goini
+  displayName: Eleutherodactylus goini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4C6
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus goini
+        zh: Eleutherodactylus goini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4C6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/215
+            queryName: Eleutherodactylus goini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/208
+            queryName: Euhyas goini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/383
+            queryName: Eleutherodactylus ricordi goini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/384
+            queryName: Eleutherodactylus planirostris goini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2c07f42406
+      - s-0c07762b47
+      - s-cb6e790088
+      - s-79e0fd9cd1
+      - s-5f5b598e4a
+      - s-508871f733
+      - s-b172333988
+      - s-507eeed71e
+      - s-2679a07f2d
+      - s-5f2ce0b35a
+      - s-6923ca830a
+      - s-5e2ddf320d
+      - s-e4911b8656
+      - s-eed4a30a6b
+    zh:
+      - s-557eae133a
+      - s-0ff13003f2
+      - s-f87a1b08ab
+      - s-5e77860a25
+      - s-f769e8775f
+      - s-657723ff74
+      - s-f38e9b8d5b
+      - s-519edfb13c
+      - s-20f96f8a7d
+      - s-48a27ca2fc
+      - s-531df53e03
+      - s-02bb55a299
+      - s-e6b3fb569c
+      - s-a3b6af0466

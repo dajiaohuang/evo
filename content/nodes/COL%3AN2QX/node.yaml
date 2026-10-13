@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachytarsophrys popei
+  displayName: Brachytarsophrys popei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N2QX
+  sourceIndexes:
+    - name:
+        en: Brachytarsophrys popei
+        zh: Brachytarsophrys popei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N2QX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/447
+            queryName: Brachytarsophrys popei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/432
+            queryName: Megophrys popei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-feacf77734
+      - s-fd1b0f5b0a
+      - s-4b44461606
+      - s-d763e5923c
+      - s-aaa63e65a7
+      - s-999acc87c0
+      - s-2b2b94ee04
+    zh:
+      - s-9693425e53
+      - s-7a53e82e0e
+      - s-e016f4c79b
+      - s-ad1371692b
+      - s-98a8f43487
+      - s-f560b5f371
+      - s-c8e86bdd91

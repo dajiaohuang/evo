@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema epipeda
+  displayName: Ischnocnema epipeda
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4RJ
+  sourceIndexes:
+    - name:
+        en: Ischnocnema epipeda
+        zh: Ischnocnema epipeda
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4RJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/13
+            queryName: Ischnocnema epipeda
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/344
+            queryName: Eleutherodactylus epipedus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-56410757e2
+      - s-5e46bea5e3
+      - s-aa43a8764d
+      - s-a1030c98af
+      - s-eaf5d57dc2
+      - s-c86178a8a5
+      - s-6c4a36d81f
+    zh:
+      - s-f976d12224
+      - s-a0b97a9c05
+      - s-1504bba57f
+      - s-6dc502a51f
+      - s-9189fb81ff
+      - s-52be02e6b7
+      - s-f2fbd30e3e

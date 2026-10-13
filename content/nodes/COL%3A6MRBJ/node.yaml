@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hypogeophis rostratus
+  displayName: Hypogeophis rostratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MRBJ
+  sourceIndexes:
+    - name:
+        en: Hypogeophis rostratus
+        zh: Hypogeophis rostratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MRBJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/365
+            queryName: Hypogeophis rostratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/44
+            queryName: Coecilia rostrata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/45
+            queryName: Hypogeophis guentheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/336
+            queryName: Hypogeophis rostratus rostratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/337
+            queryName: Hypogeophis rostratus praslini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/338
+            queryName: Hypogeophis rostratus guentheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/339
+            queryName: Hypogeophis rostratus lionneti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-be0c499bd0
+      - s-c6d084bf36
+      - s-587814af69
+      - s-4ad357a884
+      - s-8703facecc
+      - s-14a5a433cc
+      - s-14873fc6a2
+      - s-26d6248613
+      - s-7dc9d31a91
+    zh:
+      - s-e2426d7a2e
+      - s-414b1cf9bf
+      - s-16390dedb6
+      - s-6639d414b3
+      - s-d0f486707f
+      - s-1136acc849
+      - s-35fa221382
+      - s-a5fcf949c4
+      - s-1d1a3e7658

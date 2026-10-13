@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Oldenlandia rosulata K.Schum.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 493C7, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 493C7; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/493C7
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 493C7
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000255253-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 493C7 / WFO wfo-0000255253
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_18423_0
+        referenceId: ref-41b0f630-ca63-82af-a07d-c8247e727108
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Oldenlandia rosulata K.Schum. account; archive rows 102065 (Morphology), 99981 (Habitat), source identifier 18423.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Deciduous; cauline 3-10 mm long, ± filiform. Stipular sheath with 2 short teeth. Inflorescences terminal, few-flowered panicles in larger plants, lax; peduncles up to 28 mm long. Flowers: pedicels slender up to 38 mm long, heterostylous or isostylous, solitary or 2- or 3-grouped. Calyx: tube subglobose; lobes broadly triangular. Corolla white to pale purple; tube 1.2-3.6 mm long; lobes up to 2 mm long, oblong-ovate. Style 1.2 mm long in short-styled and 2.9 mm in long-styled forms; length intermediate in isostylous forms. Fruit subglobose capsule, not distinctly beaked, valves separated after dehiscence. Flowering time Dec.-Apr. Seeds black, angular, testa reticulate."
+            sourceIds:
+              - sanbi_18423_0
+            locator: "SANBI/WFO archive Morphology row 102065; source 18423.0; publication: Bredenkamp, CL; Madlokazi, N. 2019. Rubiaceae: Oldenlandia L. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(2): 1416 - 1418. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassland, rock crevices below waterfalls, black turf soil; Indian Ocean Coastal Belt.
+            sourceIds:
+              - sanbi_18423_0
+            locator: "SANBI/WFO archive Habitat row 99981; source 18423.0; publication: Bredenkamp, CL; Madlokazi, N. 2019. Rubiaceae: Oldenlandia L. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(2): 1416 - 1418. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

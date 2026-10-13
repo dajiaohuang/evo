@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Strabomantis cadenai
+    name:
+      en: Strabomantis cadenai
+      zh: Strabomantis cadenai
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Strabomantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Strabomantis cadenai in the morphology deposit
+          zh: 形态数据中的 Strabomantis cadenai 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-99783662af
+            part: body
+          zh:
+            page: zh
+            section: s-1da3599c2f
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5771: measurement fields and sex codes"
+          zh: 第 5771 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-71aac278c3
+            part: body
+          zh:
+            page: zh
+            section: s-2c07965811
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5771; Reference.csv rows 1644
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5771
+        values:
+          - Brachycephaloidea
+          - Strabomantis
+          - Strabomantis cadenai
+          - F
+          - "40.6"
+          - "18.7"
+          - "21.1"
+          - "4.75"
+          - "3.05"
+          - NA
+          - "4.7"
+          - NA
+          - "3.3"
+          - "4.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "19.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1644
+        values:
+          - Anura
+          - Strabomantis_cadenai
+          - Lynch, J. D. (1986). A new species of broad-headed Eleutherodactylus from the Cordillera Occidental of Colombia (Amphibia, Leptodactylidae). Caldasia, 1986, 503-509. https://doi.org/10.15446/caldasia
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - EN
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

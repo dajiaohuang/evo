@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena retropunctata
+  displayName: Ptychadena retropunctata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9RF
+  sourceIndexes:
+    - name:
+        en: Ptychadena retropunctata
+        zh: Ptychadena retropunctata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9RF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/494
+            queryName: Ptychadena retropunctata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/126
+            queryName: Rana retropunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e8a36d3c2
+      - s-35a7c960c5
+      - s-f6a105cf1e
+      - s-a2e1d25d2a
+      - s-ddebcbf4ef
+      - s-a6dcca8897
+      - s-5282b662d7
+    zh:
+      - s-b5837d5119
+      - s-9bca0ed311
+      - s-96fa843595
+      - s-0edae4c9cc
+      - s-3e6bdf7c41
+      - s-1320f2852b
+      - s-8055314ff2

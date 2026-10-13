@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cardioglossa gratiosa
+  displayName: Cardioglossa gratiosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/R5GD
+  sourceIndexes:
+    - name:
+        en: Cardioglossa gratiosa
+        zh: Cardioglossa gratiosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: R5GD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/156
+            queryName: Cardioglossa gratiosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/252
+            queryName: Cardioglossa peternageli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/3
+            queryName: Cardioglossa gratiosa peternageli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/4
+            queryName: Cardioglossa gratiosa gratiosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aedba38cf2
+      - s-d73e122383
+      - s-dd3cff5fd9
+      - s-ec270f531b
+      - s-e076aac3a9
+      - s-286a1a34c4
+      - s-76a51ba93b
+      - s-2a6b389cc1
+      - s-35eaa31f61
+      - s-81ec674dbb
+      - s-17bf8d782b
+      - s-51dc808cfe
+    zh:
+      - s-4b4f753a01
+      - s-79003568f8
+      - s-612472158d
+      - s-d30ca72594
+      - s-21e81fd136
+      - s-3f9da4257e
+      - s-92bb0e545f
+      - s-b448f9a8f7
+      - s-d5b00c0417
+      - s-a0803816b7
+      - s-f6b207e96b
+      - s-00b0d8a5e0

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus anotis
+  displayName: Phrynobatrachus anotis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW7X
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus anotis
+        zh: Phrynobatrachus anotis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW7X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/101
+            queryName: Phrynobatrachus anotis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b406a48d9
+      - s-873d6f0985
+      - s-32f57011ef
+      - s-08442e95f9
+      - s-23dd21114f
+      - s-660d309a29
+      - s-cbb44ba13f
+    zh:
+      - s-34b0f51b6a
+      - s-62ec852c85
+      - s-aaba2a7ebf
+      - s-a61b3d1a2c
+      - s-1829f5a0de
+      - s-1992b903b1
+      - s-c4c5b474ab

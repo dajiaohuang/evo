@@ -1,0 +1,276 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arthroleptella Hewitt, 1926
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Arthroleptella
+      zh: Arthroleptella
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-db74746c8a
+            part: title
+          zh:
+            page: zh
+            section: s-64e932d3de
+            part: title
+        text:
+          en:
+            page: en
+            section: s-db74746c8a
+            part: body
+          zh:
+            page: zh
+            section: s-64e932d3de
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0b1febba51
+            part: title
+          zh:
+            page: zh
+            section: s-b2c298d602
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0b1febba51
+            part: body
+          zh:
+            page: zh
+            section: s-b2c298d602
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-9a61fff7bf
+            part: title
+          zh:
+            page: zh
+            section: s-b53e11eec2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9a61fff7bf
+            part: body
+          zh:
+            page: zh
+            section: s-b53e11eec2
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f3a87c842d
+            part: title
+          zh:
+            page: zh
+            section: s-a57c461722
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f3a87c842d
+            part: body
+          zh:
+            page: zh
+            section: s-a57c461722
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-88ef2bb10c
+            part: title
+          zh:
+            page: zh
+            section: s-3a6337e02f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: GYPC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPC
+            label:
+              en: Arthroleptella atermina
+              zh: Arthroleptella atermina
+          - kind: catalogue
+            colId: GYPD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPD
+            label:
+              en: Arthroleptella bicolor
+              zh: Arthroleptella bicolor
+          - kind: catalogue
+            colId: 5W4C4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5W4C4
+            label:
+              en: Arthroleptella draconella
+              zh: Arthroleptella draconella
+          - kind: catalogue
+            colId: GYPF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPF
+            label:
+              en: Arthroleptella drewesii
+              zh: Arthroleptella drewesii
+          - kind: catalogue
+            colId: GYPH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPH
+            label:
+              en: Arthroleptella kogelbergensis
+              zh: Arthroleptella kogelbergensis
+          - kind: catalogue
+            colId: GYPJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPJ
+            label:
+              en: Arthroleptella landdrosia
+              zh: Arthroleptella landdrosia
+          - kind: catalogue
+            colId: GYPL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPL
+            label:
+              en: Arthroleptella lightfooti
+              zh: Arthroleptella lightfooti
+          - kind: catalogue
+            colId: GYPN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPN
+            label:
+              en: Arthroleptella rugosa
+              zh: Arthroleptella rugosa
+          - kind: catalogue
+            colId: GYPP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPP
+            label:
+              en: Arthroleptella subvoce
+              zh: Arthroleptella subvoce
+          - kind: catalogue
+            colId: GYPQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPQ
+            label:
+              en: Arthroleptella villiersi
+              zh: Arthroleptella villiersi
+        text:
+          en:
+            page: en
+            section: s-88ef2bb10c
+            part: body
+          zh:
+            page: zh
+            section: s-3a6337e02f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Arthroleptella
+          url: https://www.checklistbank.org/dataset/316115/taxon/33CQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Arthroleptella; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7f56efe4b8
+        part: body
+      zh:
+        page: zh
+        section: s-c4c7bae038
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Arthroleptella
+      sourceRowIds:
+        - Anf4656
+        - Anf4657
+        - Anf4658
+        - Anf4659
+        - Anf4660
+        - Anf4661
+        - Anf4662
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 7
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 7
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 6
+      currentConceptEquivalenceCertified: false

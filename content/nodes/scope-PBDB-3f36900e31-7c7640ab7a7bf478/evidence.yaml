@@ -1,0 +1,87 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-2c69d8642a
+          part: title
+        zh:
+          page: zh
+          section: s-147b1b6b5f
+          part: title
+      text:
+        en:
+          page: en
+          section: s-2c69d8642a
+          part: body
+        zh:
+          page: zh
+          section: s-147b1b6b5f
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-910c462465
+          part: title
+        zh:
+          page: zh
+          section: s-571ace31cd
+          part: title
+      text:
+        en:
+          page: en
+          section: s-910c462465
+          part: body
+        zh:
+          page: zh
+          section: s-571ace31cd
+          part: body
+  atlas-node:
+    name: Gymnophionomorpha
+    commonName: Caecilian total group
+    commonNameZh: 无足类总群
+    rank: clade
+    taxonId: txn:471965
+    firstAppearance: 223.04
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:gymnophionomorpha
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Funcusvermis gilmorei from the Norian upper Blue Mesa Member is a stem gymnophionomorph in the published analyses, extending the sampled caecilian total-group record to about 221 Ma without dating crown Gymnophiona.
+      confidence: medium
+      confidenceRationale: Named elements from at least 76 individuals and a U–Pb-bracketed bonebed directly support the occurrence; medium confidence retains isolated-element association and analysis-dependent topology.
+      referenceLinks:
+        - relation: supports
+          referenceId: kligman-2023-funcusvermis
+          pages: 102–107
+          figure: Figure 1; Extended Data Figures 2–4
+          quoteLocator: Systematic palaeontology; phylogenetic results; Methods
+  claim-rationales.zh:
+    - 该主张绑定具名标本或明确数据集及一手来源定位；置信度仅适用于所述样本、方法与边界，不外推为全球首次出现、直接祖先或完整类群覆盖。
+  claim-statements.zh:
+    - 诺利期上部蓝梅萨段的 Funcusvermis gilmorei 在已发表分析中属于无足类干群，把已取样的蚓螈总群记录延伸至约 2.21 亿年前，但不为冠群无足目定年。
+  ranges:
+    - entityId: gymnophionomorpha
+      rangeKind: global-composite
+      taxonomicConcept: Gymnophionomorpha total group; Funcusvermis is outside crown Gymnophiona
+      geographicScope: Global total-group display bound
+      olderMa: 223.04
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 0.059
+        youngerMa: null
+        note: The older endpoint rounds the dated upper Blue Mesa Member occurrence and is not a crown-caecilian origin time.
+      evidenceBasis: Funcusvermis occurs in a U–Pb-bracketed Norian bonebed and was recovered on the caecilian stem in the published analyses.
+      confidence: medium
+      claimIds:
+        - claim:taxon:gymnophionomorpha:stem-record
+      referenceLocators:
+        - referenceId: kligman-2023-funcusvermis
+          locator: pp. 102–107; Fig. 1; Extended Data Figs. 2–4; Methods and Supplementary Information section 1
+      evidenceLevel: literature-synthesized

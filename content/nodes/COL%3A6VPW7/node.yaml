@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon neomexicanus
+  displayName: Plethodon neomexicanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VPW7
+  sourceIndexes:
+    - name:
+        en: Plethodon neomexicanus
+        zh: Plethodon neomexicanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VPW7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/480
+            queryName: Plethodon neomexicanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dbd3638343
+      - s-30dab58ed3
+      - s-581ee6228a
+      - s-8eb6320b4f
+      - s-b72ad57586
+      - s-f0f6b0fd7f
+      - s-fe71d75a07
+      - s-6c5c72b8f2
+      - s-201867ff31
+      - s-bfe6d10c99
+    zh:
+      - s-5185c41bfb
+      - s-5b098e3573
+      - s-407e2c78ce
+      - s-3094de20dc
+      - s-6548093deb
+      - s-db4c87ce95
+      - s-e9ec0375d9
+      - s-a1ca7a3ca0
+      - s-2a92fc8174
+      - s-bd9029eb92

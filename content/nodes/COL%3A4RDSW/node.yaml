@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana iberica
+  displayName: Rana iberica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDSW
+  sourceIndexes:
+    - name:
+        en: Rana iberica
+        zh: Rana iberica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDSW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/56
+            queryName: Rana iberica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 36
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/195
+            queryName: Rana temporaria iberica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 38
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-18278c3e99
+      - s-a02c142152
+      - s-8a6307a794
+      - s-ea4c060fff
+      - s-42c7b21b69
+      - s-f156ae23db
+      - s-a6c619e2ea
+      - s-5665641727
+      - s-f1ae3bf7de
+      - s-b68e95d44d
+      - s-1f4611f9f3
+    zh:
+      - s-ef4e2fd2c7
+      - s-8734a9a52d
+      - s-7d717a2dcd
+      - s-4c265c76fc
+      - s-f0ba2b89f5
+      - s-e9fb7b2c1f
+      - s-eeb73e509e
+      - s-a643c1d9ce
+      - s-7d342e8eb2
+      - s-ca34b03c24
+      - s-2f778045bc

@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Lyciasalamandra luschani
+    name:
+      en: Lyciasalamandra luschani
+      zh: Lyciasalamandra luschani
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Lyciasalamandra
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Lyciasalamandra luschani in the morphology deposit
+          zh: 形态数据中的 Lyciasalamandra luschani 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-99c3e645eb
+            part: body
+          zh:
+            page: zh
+            section: s-27b71af3b4
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 211 and 212: measurement fields and sex codes"
+          zh: 第 211、212 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0c4b425250
+            part: body
+          zh:
+            page: zh
+            section: s-6c74bf6e11
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 211, 212; Reference.csv rows 4238
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 211
+        values:
+          - Salamandridae
+          - Lyciasalamandra
+          - Lyciasalamandra luschani
+          - M
+          - "118.33"
+          - "65.67"
+          - "51.78"
+          - "36.61"
+          - "13.89"
+          - "10.83"
+          - NA
+          - "4.34"
+          - "2.69"
+          - NA
+          - "4.11"
+          - NA
+          - "52.67"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "20.88"
+          - "22.59"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 212
+        values:
+          - Salamandridae
+          - Lyciasalamandra
+          - Lyciasalamandra luschani
+          - F
+          - "108.38"
+          - "60.46"
+          - "46.69"
+          - "33.46"
+          - "13.77"
+          - "10.78"
+          - NA
+          - "4.21"
+          - "2.47"
+          - NA
+          - "3.79"
+          - NA
+          - "47.92"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.79"
+          - "21.07"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4238
+        values:
+          - Caudata
+          - Lyciasalamandra_luschani
+          - "Kar??, M., Göçmen, B., & Mermer, A. (2015). Taxonomical and biological comparison of two Luschan's Lycian salamander, Lyciasalamandra luschani (Steindachner, 1891) (Urodela: Salamandridae) populations from southwestern Anatolia. South west J Hortic Biol Environ, 6, 107-136. "
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - ED
+      - EN
+      - IND
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6QPFN
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

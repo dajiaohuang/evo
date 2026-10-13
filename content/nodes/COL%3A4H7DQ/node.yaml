@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes maculosus
+  displayName: Phyllodytes maculosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7DQ
+  sourceIndexes:
+    - name:
+        en: Phyllodytes maculosus
+        zh: Phyllodytes maculosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7DQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/259
+            queryName: Phyllodytes maculosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6752fe2b1
+      - s-9b0408232f
+      - s-c79884b5f1
+      - s-e17800b2f4
+      - s-ed82f20f04
+      - s-11cd87f0a0
+      - s-db43d95716
+      - s-686090697a
+      - s-2d7e5caf32
+      - s-c67cf184a7
+      - s-65efb44a1d
+      - s-16879bfae9
+    zh:
+      - s-3031e0ee25
+      - s-46ff1b95d7
+      - s-f26be5a2dd
+      - s-9d8a42566e
+      - s-fb098531e4
+      - s-4a8815b52c
+      - s-cbd0aa06e3
+      - s-e7808e41f0
+      - s-4c5026b37f
+      - s-3c5d746f4c
+      - s-95beee2b84
+      - s-8db55cc4f2

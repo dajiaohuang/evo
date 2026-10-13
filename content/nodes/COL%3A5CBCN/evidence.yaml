@@ -1,0 +1,708 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Xenopus tropicalis (Gray, 1864)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Xenopus tropicalis
+      zh: Xenopus tropicalis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-20068e0c8f
+            part: title
+          zh:
+            page: zh
+            section: s-5431dccee9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-20068e0c8f
+            part: body
+          zh:
+            page: zh
+            section: s-5431dccee9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-38584e6268
+            part: title
+          zh:
+            page: zh
+            section: s-910c6073bf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-38584e6268
+            part: body
+          zh:
+            page: zh
+            section: s-910c6073bf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2329d4d21d
+            part: title
+          zh:
+            page: zh
+            section: s-15622c7490
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphitherm
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-2329d4d21d
+            part: body
+          zh:
+            page: zh
+            section: s-15622c7490
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-aeb5d4f77bacf5467408dfb4
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-28d483e64b2751c9549640b5
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-bb15e6270441188654e33bb52acbcb96
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-55a1539df4
+            part: title
+          zh:
+            page: zh
+            section: s-3c53262f6a
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-55a1539df4
+            part: body
+          zh:
+            page: zh
+            section: s-3c53262f6a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cc767a8f61
+            part: title
+          zh:
+            page: zh
+            section: s-50b217b197
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-cc767a8f61
+            part: body
+          zh:
+            page: zh
+            section: s-50b217b197
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e410cc2a4d
+            part: title
+          zh:
+            page: zh
+            section: s-195674c10d
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "2947"
+        text:
+          en:
+            page: en
+            section: s-e410cc2a4d
+            part: body
+          zh:
+            page: zh
+            section: s-195674c10d
+            part: body
+        sourceRowNumber: 2668
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-efb780257e
+            part: title
+          zh:
+            page: zh
+            section: s-cbdb8369b3
+            part: title
+        sourceIds:
+          - primary-pmc10548314-5cbcn
+        text:
+          en:
+            page: en
+            section: s-efb780257e
+            part: body
+          zh:
+            page: zh
+            section: s-cbdb8369b3
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-56d0290655
+            part: title
+          zh:
+            page: zh
+            section: s-05fdaa26cd
+            part: title
+        sourceIds:
+          - primary-pmc10874372-5cbcn
+        text:
+          en:
+            page: en
+            section: s-56d0290655
+            part: body
+          zh:
+            page: zh
+            section: s-05fdaa26cd
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-34b8a818a2
+            part: title
+          zh:
+            page: zh
+            section: s-cc84c07e2b
+            part: title
+        sourceIds:
+          - primary-pmc12822217-5cbcn
+        text:
+          en:
+            page: en
+            section: s-34b8a818a2
+            part: body
+          zh:
+            page: zh
+            section: s-cc84c07e2b
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b667e3a697
+            part: title
+          zh:
+            page: zh
+            section: s-1697b3c978
+            part: title
+        sourceIds:
+          - primary-pmc12822217-5cbcn
+        text:
+          en:
+            page: en
+            section: s-b667e3a697
+            part: body
+          zh:
+            page: zh
+            section: s-1697b3c978
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-ee79231ccc
+            part: title
+          zh:
+            page: zh
+            section: s-e6a587f027
+            part: title
+        sourceIds:
+          - primary-pmc12822217-5cbcn
+        text:
+          en:
+            page: en
+            section: s-ee79231ccc
+            part: body
+          zh:
+            page: zh
+            section: s-e6a587f027
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-173462a7c1
+            part: title
+          zh:
+            page: zh
+            section: s-730879446d
+            part: title
+        sourceIds:
+          - primary-pmc12822217-5cbcn
+        text:
+          en:
+            page: en
+            section: s-173462a7c1
+            part: body
+          zh:
+            page: zh
+            section: s-730879446d
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-9c818c56d9
+            part: title
+          zh:
+            page: zh
+            section: s-5612f96f31
+            part: title
+        sourceIds:
+          - primary-pmc12822217-5cbcn
+        text:
+          en:
+            page: en
+            section: s-9c818c56d9
+            part: body
+          zh:
+            page: zh
+            section: s-5612f96f31
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Xenopus tropicalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/5CBCN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1926; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4565; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4567 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 2668, 2669, 2670, 2671; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10548314-5cbcn
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Xenopus tropicalis: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10874372-5cbcn
+        referenceId: ref-720b4e5f-f49b-4215-a659-e64356b6d9b0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Xenopus tropicalis: XML Results Sec3–5/Table1, Discussion Sec6, Sampling Sec8, AMP characterisation Sec12 and prediction/expression Sec14 read; original assemblies, supplementary peptide sequences, extended methods and expression reads not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12822217-5cbcn
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Xenopus tropicalis: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ce100f9a4e
+        part: body
+      zh:
+        page: zh
+        section: s-41fe400a28
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-aeb5d4f77bacf5467408dfb4
+        scientificName: Xenopus tropicalis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-28d483e64b2751c9549640b5
+        scientificName: Xenopus tropicalis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1093/molbev/msad206
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        sourceKey: primary-pmc10548314-5cbcn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10548314/article.xml
+        sourceConcept: 2023 source-labelled Xenopus tropicalis; cited observations distinguished from new genomic analyses
+        evidenceRead: "Xenopus tropicalis: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A genomic synteny comparator, not a new behaviour experiment
+              zh: 基因组共线性对照而非新行为实验
+            referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+            sourceKey: primary-pmc10548314-5cbcn
+            locator: PMC10548314 XML Results1.3/Figure2 caption; Methods4.5 synteny/genome-mining paragraphs
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a33c3538ce
+                part: body
+              zh:
+                page: zh
+                section: s-2f1c955746
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1038/s41598-024-54522-x
+        referenceId: ref-720b4e5f-f49b-4215-a659-e64356b6d9b0
+        sourceKey: primary-pmc10874372-5cbcn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10874372/article.xml
+        sourceConcept: 2024 Xenopus tropicalis genomic study/comparator; specimen and deposited-resource scope retained
+        evidenceRead: "Xenopus tropicalis: XML Results Sec3–5/Table1, Discussion Sec6, Sampling Sec8, AMP characterisation Sec12 and prediction/expression Sec14 read; original assemblies, supplementary peptide sequences, extended methods and expression reads not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A deposited assembly is a quality comparator
+              zh: 存储组装为质量比较对照
+            referenceId: ref-720b4e5f-f49b-4215-a659-e64356b6d9b0
+            sourceKey: primary-pmc10874372-5cbcn
+            locator: PMC10874372 XML Sec3/Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-06a4774d1c
+                part: body
+              zh:
+                page: zh
+                section: s-9a46c02690
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1186/s12864-025-12414-y
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        sourceKey: primary-pmc12822217-5cbcn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/article.xml
+        sourceConcept: Table1source Xenopus tropicalis listedassemblyGCA_009364415.1; conflictingS1quantitativeassignments withheld, no rawgenomeauthentication
+        evidenceRead: "Xenopus tropicalis: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reference assembly in a comparative genome study
+              zh: 比较基因组研究中的参考组装
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-5cbcn
+            locator: PMC12822217 XML Tab1 tbody row40 sourceXenopus tropicalis accessionGCA_009364415.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0dbd72fff5
+                part: body
+              zh:
+                page: zh
+                section: s-d21ab69c10
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Assembly metadata has limits
+              zh: 组装元数据有其限制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-5cbcn
+            locator: PMC12822217 XML Tab1 tbody row40 sourceXenopus tropicalis accessionGCA_009364415.1;Tab1caption;Sec3assemblyfilter
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-287f152d3b
+                part: body
+              zh:
+                page: zh
+                section: s-c8e23a6fe8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Repeat annotations are computational observations
+              zh: 重复序列注释是计算观察
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-5cbcn
+            locator: PMC12822217 XML Sec3 repeatannotation
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-68880bd18b
+                part: body
+              zh:
+                page: zh
+                section: s-d5a5e901a1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Across-species correlations do not prove this species mechanism
+              zh: 跨物种相关性不能证明本种机制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-5cbcn
+            locator: PMC12822217 XML Sec5–8/Sec11–15/Sec17–20
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-01feba9089
+                part: body
+              zh:
+                page: zh
+                section: s-5d899aec90
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Conflicting source identifiers prevent a repeat-data assignment
+              zh: 来源编号冲突阻止重复数据归属
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-5cbcn
+            locator: PMC12822217 XML Tab1 tbody row40 sourceXenopus tropicalis accessionGCA_009364415.1; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/12864_2025_12414_MOESM1_ESM.xlsx Table S1 A15:B15; TableS2/S3headers
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-477df32223
+                part: body
+              zh:
+                page: zh
+                section: s-bb3ecc8701
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

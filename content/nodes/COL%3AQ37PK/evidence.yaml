@@ -1,0 +1,376 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobius kunibiki Sugawara, Iwata, Yamashita & Nagano, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobius kunibiki
+      zh: Hynobius kunibiki
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-598672c983
+            part: title
+          zh:
+            page: zh
+            section: s-fce739830e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-598672c983
+            part: body
+          zh:
+            page: zh
+            section: s-fce739830e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-979765a5e3
+            part: title
+          zh:
+            page: zh
+            section: s-f0329501c3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-979765a5e3
+            part: body
+          zh:
+            page: zh
+            section: s-f0329501c3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2461a94e3c
+            part: title
+          zh:
+            page: zh
+            section: s-833be553b3
+            part: title
+        sourceIds:
+          - primary-pmc8388460-q37pk
+        text:
+          en:
+            page: en
+            section: s-2461a94e3c
+            part: body
+          zh:
+            page: zh
+            section: s-833be553b3
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b24cfb57d2
+            part: title
+          zh:
+            page: zh
+            section: s-1e66811eea
+            part: title
+        sourceIds:
+          - primary-pmc8388460-q37pk
+        text:
+          en:
+            page: en
+            section: s-b24cfb57d2
+            part: body
+          zh:
+            page: zh
+            section: s-1e66811eea
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-5dc0d801d8
+            part: title
+          zh:
+            page: zh
+            section: s-e308498403
+            part: title
+        sourceIds:
+          - primary-pmc8388460-q37pk
+        text:
+          en:
+            page: en
+            section: s-5dc0d801d8
+            part: body
+          zh:
+            page: zh
+            section: s-e308498403
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f1d4c97eb9
+            part: title
+          zh:
+            page: zh
+            section: s-c2db9a29e2
+            part: title
+        sourceIds:
+          - primary-pmc8388460-q37pk
+        text:
+          en:
+            page: en
+            section: s-f1d4c97eb9
+            part: body
+          zh:
+            page: zh
+            section: s-c2db9a29e2
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-f68bc69e89
+            part: title
+          zh:
+            page: zh
+            section: s-de5fde56e8
+            part: title
+        sourceIds:
+          - primary-pmc8388460-q37pk
+        text:
+          en:
+            page: en
+            section: s-f68bc69e89
+            part: body
+          zh:
+            page: zh
+            section: s-de5fde56e8
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-17fccf1ca7
+            part: title
+          zh:
+            page: zh
+            section: s-49c7bc6684
+            part: title
+        sourceIds:
+          - primary-pmc8388460-q37pk
+        text:
+          en:
+            page: en
+            section: s-17fccf1ca7
+            part: body
+          zh:
+            page: zh
+            section: s-49c7bc6684
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobius kunibiki
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q37PK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc8388460-q37pk
+        referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hynobius kunibiki: Named species account and explicitly assigned comparison, molecular-results or discussion paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-759cad9f12
+        part: body
+      zh:
+        page: zh
+        section: s-5b1423a145
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani11082187
+        referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+        sourceKey: primary-pmc8388460-q37pk
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8388460/article.xml
+        sourceConcept: Hynobius kunibiki
+        evidenceRead: "Hynobius kunibiki: Named species account and explicitly assigned comparison, molecular-results or discussion paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A dated male holotype and specimen-level measurements
+              zh: 有日期雄性正模及标本层面测量
+            referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+            sourceKey: primary-pmc8388460-q37pk
+            locator: PMC8388460 reading-sections section 3, paragraphs 1–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8dc14c64b2
+                part: body
+              zh:
+                page: zh
+                section: s-e1c6346009
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Yellow tail edges and variable markings in sampled adults
+              zh: 采样成体黄色尾缘及变化纹样
+            referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+            sourceKey: primary-pmc8388460-q37pk
+            locator: PMC8388460 reading-sections section 3, paragraphs 3–4 and 7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-17abf5ba2e
+                part: body
+              zh:
+                page: zh
+                section: s-dfe4a05417
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Still-water breeding, coiled sacs and early larval balancers
+              zh: 静水繁殖、盘绕卵囊及早期幼体平衡器
+            referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+            sourceKey: primary-pmc8388460-q37pk
+            locator: PMC8388460 reading-sections section 3, paragraphs 9–10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-61c09ff4a9
+                part: body
+              zh:
+                page: zh
+                section: s-92f004bd79
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Shimane localities and a disputed isolated record
+              zh: Shimane 地点及有争议孤立记录
+            referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+            sourceKey: primary-pmc8388460-q37pk
+            locator: PMC8388460 reading-sections section 3, paragraph 9; section 4, paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6e00d18b02
+                part: body
+              zh:
+                page: zh
+                section: s-738c3d3569
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: The Izumo lineage and marker-bounded taxonomic evidence
+              zh: Izumo 谱系及受标记限定的分类证据
+            referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+            sourceKey: primary-pmc8388460-q37pk
+            locator: PMC8388460 reading-sections section 2, paragraph 0; section 4, paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-58705620ed
+                part: body
+              zh:
+                page: zh
+                section: s-d8a004111d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: ecology
+            heading:
+              en: A call for conservation reassessment in 2021
+              zh: 2021 年保护重新评估呼吁
+            referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+            sourceKey: primary-pmc8388460-q37pk
+            locator: PMC8388460 reading-sections section 4, paragraph 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8574eceb05
+                part: body
+              zh:
+                page: zh
+                section: s-87daf7c292
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus abditus
+  displayName: Philautus abditus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76YGY
+  sourceIndexes:
+    - name:
+        en: Philautus abditus
+        zh: Philautus abditus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76YGY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/32
+            queryName: Philautus abditus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-249b0e5a70
+      - s-9cd46a8078
+      - s-fb6cd1f400
+      - s-3673410ca9
+      - s-1510c9d5ee
+      - s-3d19bf10da
+      - s-87b492c725
+      - s-425d30129f
+    zh:
+      - s-8d8b6ba102
+      - s-c9dd2d16e7
+      - s-b1be39110d
+      - s-992914282a
+      - s-6c2ffe1879
+      - s-69a49b94ab
+      - s-a63a1ea774
+      - s-ae68b01a92

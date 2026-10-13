@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea lineola
+  displayName: Pseudoeurycea lineola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWRB
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea lineola
+        zh: Pseudoeurycea lineola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWRB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/298
+            queryName: Pseudoeurycea lineola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/82
+            queryName: Lineatriton lineolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/395
+            queryName: Spelerpes lineolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/396
+            queryName: Opheobatrachus lineolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/397
+            queryName: Spelerpes infuscatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/398
+            queryName: Geotriton lineolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/399
+            queryName: Oedipina lineolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/400
+            queryName: Oedipina lineola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/401
+            queryName: Oedipus lineolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/402
+            queryName: Lineatriton lineola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c17a820f8
+      - s-f5b25847ac
+      - s-8bbc376847
+      - s-b9931fd014
+      - s-f125f2e681
+      - s-42a75c2720
+      - s-39b4577423
+      - s-480fafaed5
+      - s-e2e0da9c43
+    zh:
+      - s-3c8db1a4c3
+      - s-c62a56bbbb
+      - s-cedcb65a59
+      - s-5116a2009b
+      - s-c12b969163
+      - s-1db3de730b
+      - s-d3167ffeb1
+      - s-eb5b934b78
+      - s-10933f6baf

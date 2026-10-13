@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis miniatus
+  displayName: Boophis miniatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PLR
+  sourceIndexes:
+    - name:
+        en: Boophis miniatus
+        zh: Boophis miniatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PLR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/274
+            queryName: Boophis miniatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/326
+            queryName: Rhacophorus miniatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b16fcc42b7
+      - s-1a1975cba0
+      - s-c414fe18f8
+      - s-f7266ecc5b
+      - s-7f31eda54a
+      - s-cfbe59f891
+      - s-2221213c26
+      - s-ea36db9046
+      - s-ea9c21fd23
+      - s-8189345c69
+    zh:
+      - s-157daa9f04
+      - s-92cb236caa
+      - s-a7bbaa9212
+      - s-04808a99a0
+      - s-cfa4f55790
+      - s-3755fbdbf1
+      - s-604c6f3663
+      - s-5e68c3fa2d
+      - s-931b47af9c
+      - s-85dd34655e

@@ -1,0 +1,100 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-560b3956f5
+      part: title
+    titleZh:
+      page: zh
+      section: s-0faf9ef7c4
+      part: title
+    category: genomics
+    startAge: 485
+    endAge: 444
+    regions:
+      - Global living-chelicerate sequence and morphology samples
+    clades:
+      - Pycnogonida
+      - Xiphosura
+      - Arachnida
+      - Acari
+    summary:
+      page: en
+      section: s-560b3956f5
+      part: body
+    summaryZh:
+      page: zh
+      section: s-0faf9ef7c4
+      part: body
+    claimIds:
+      - claim:event:arachnid-monophyly-conflict
+    evidenceItems:
+      - statement: Dense living-taxon datasets and slowly evolving gene subsets recover either monophyletic Arachnida or Xiphosura nested among terrestrial lineages.
+        relation: supports
+        claimIds:
+          - claim:event:arachnid-monophyly-conflict
+        referenceLinks:
+          - referenceId: lozano-fernandez-2019-chelicerate-phylogenomics
+            relation: supports
+            pages: "2295"
+            figure: Figures 1–4; Supplementary analyses
+            quoteLocator: Taxon-rich matrices; Model tests; Arachnida and Acari results
+          - referenceId: howard-2020-arachnid-monophyly
+            relation: contextualizes
+            pages: "100997"
+            figure: Figures 1–4; Supplementary matrices
+            quoteLocator: 200 slow-gene matrix; Fossil and morphology synthesis; Terrestrialization inference
+          - referenceId: ballesteros-2022-arachnida-paraphyly
+            relation: contextualizes
+            pages: msac021
+            figure: Figures 1–6; Supplementary analyses
+            quoteLocator: Dense taxon sampling; Heterogeneous models; Total-evidence topology
+    uncertaintyItems:
+      - statement: Gene choice, compositional heterogeneity, taxon sampling, morphology and model fit change the root; terrestrialization count and timing therefore remain topology-dependent.
+        relation: contextualizes
+        claimIds:
+          - claim:event:arachnid-monophyly-conflict
+        referenceLinks:
+          - referenceId: lozano-fernandez-2019-chelicerate-phylogenomics
+            relation: supports
+            pages: "2295"
+            figure: Figures 1–4; Supplementary analyses
+            quoteLocator: Taxon-rich matrices; Model tests; Arachnida and Acari results
+          - referenceId: howard-2020-arachnid-monophyly
+            relation: contextualizes
+            pages: "100997"
+            figure: Figures 1–4; Supplementary matrices
+            quoteLocator: 200 slow-gene matrix; Fossil and morphology synthesis; Terrestrialization inference
+          - referenceId: ballesteros-2022-arachnida-paraphyly
+            relation: contextualizes
+            pages: msac021
+            figure: Figures 1–6; Supplementary analyses
+            quoteLocator: Dense taxon sampling; Heterogeneous models; Total-evidence topology
+  claims:
+    - subjectId: event:arachnid-monophyly-conflict
+      claimKind: scientific
+      claimType: topology
+      statement: Genomic-scale chelicerate analyses using different taxon sets, slowly evolving genes, heterogeneous models and total evidence recover mutually incompatible monophyletic or paraphyletic Arachnida; one versus multiple terrestrializations and Cambrian–Ordovician timing are model-dependent historical reconstructions.
+      confidence: contested
+      confidenceRationale: Large matrices and explicit sensitivity analyses are available, but well-supported studies disagree under different sampling and evolutionary models.
+      referenceLinks:
+        - referenceId: lozano-fernandez-2019-chelicerate-phylogenomics
+          relation: supports
+          pages: "2295"
+          figure: Figures 1–4; Supplementary analyses
+          quoteLocator: Taxon-rich matrices; Model tests; Arachnida and Acari results
+        - referenceId: howard-2020-arachnid-monophyly
+          relation: contextualizes
+          pages: "100997"
+          figure: Figures 1–4; Supplementary matrices
+          quoteLocator: 200 slow-gene matrix; Fossil and morphology synthesis; Terrestrialization inference
+        - referenceId: ballesteros-2022-arachnida-paraphyly
+          relation: contextualizes
+          pages: msac021
+          figure: Figures 1–6; Supplementary analyses
+          quoteLocator: Dense taxon sampling; Heterogeneous models; Total-evidence topology
+  claim-rationales.zh:
+    - 已有大型矩阵与明确敏感性分析，但高支持度研究在不同取样和演化模型下仍相互冲突。
+  claim-statements.zh:
+    - 采用不同类群集、慢进化基因、异质模型和总证据的螯肢动物基因组尺度分析，恢复彼此不相容的单系或并系蛛形纲；一次或多次陆生化及寒武纪—奥陶纪时间均为模型依赖的历史复原。

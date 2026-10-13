@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus soaresi
+  displayName: Dendropsophus soaresi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S7B
+  sourceIndexes:
+    - name:
+        en: Dendropsophus soaresi
+        zh: Dendropsophus soaresi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S7B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/424
+            queryName: Dendropsophus soaresi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/473
+            queryName: Hyla soaresi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-30eec673df
+      - s-2c7812c153
+      - s-7eae878bfd
+      - s-79a0980886
+      - s-c63a6be2f6
+      - s-143bafcdf5
+      - s-e78f295f0b
+      - s-1448dd8afb
+      - s-7c2edc4f09
+      - s-9463348c5e
+      - s-226a2f43e7
+      - s-2304aac83c
+      - s-d5894d07b6
+      - s-918c791936
+      - s-059666ac5f
+      - s-a5d396b89e
+      - s-cdbac4e873
+      - s-4942d9dfb3
+    zh:
+      - s-8256e00830
+      - s-625fcadc03
+      - s-c3c90fe63f
+      - s-be40020641
+      - s-a333b364e0
+      - s-5351a809ec
+      - s-646c3dbe9d
+      - s-1ef05e1f57
+      - s-eefd3f1b08
+      - s-7b338e1fa3
+      - s-3c705aa92b
+      - s-45c9ab7343
+      - s-6e470dd438
+      - s-1d42ede255
+      - s-465525c630
+      - s-c335f94224
+      - s-20ab022f8f
+      - s-e4523e6b3a

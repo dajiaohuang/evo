@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Fejervarya triora
+  displayName: Fejervarya triora
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DXF8
+  sourceIndexes:
+    - name:
+        en: Fejervarya triora
+        zh: Fejervarya triora
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DXF8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/484
+            queryName: Fejervarya triora
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-19be658b1c
+      - s-510ddd904b
+      - s-793beb104f
+      - s-c0db7dc22c
+      - s-b017fa179a
+      - s-b1305ab257
+      - s-a18f0f83d9
+      - s-b1320db319
+      - s-67704ac9c2
+      - s-a7b25b6d9c
+      - s-5a32cb13da
+    zh:
+      - s-2861630725
+      - s-210af34dd7
+      - s-6e396da584
+      - s-94b63a08b3
+      - s-b0c6633f0e
+      - s-73bdfc471f
+      - s-c4f175c1d6
+      - s-94ce30cb10
+      - s-c2267dbf92
+      - s-436f0b6e8b
+      - s-5157e38ff5

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella aerea
+  displayName: Leptobrachella aerea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TK8Y
+  sourceIndexes:
+    - name:
+        en: Leptobrachella aerea
+        zh: Leptobrachella aerea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TK8Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/200
+            queryName: Leptobrachella aerea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/450
+            queryName: Leptolalax aereus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-12512ee8bb
+      - s-fcbc5bff32
+      - s-68b660592a
+      - s-4c7fef3a82
+      - s-2d0be718d9
+      - s-015c5bc403
+      - s-06dabe31dc
+      - s-001fb05ec7
+    zh:
+      - s-2dcd3f0e22
+      - s-b44bf1390e
+      - s-a932cc0d4f
+      - s-22cb9bb172
+      - s-5e6ee73e8a
+      - s-7b6e26dfb2
+      - s-b8a85056e2
+      - s-35c231865c

@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Mannophryne venezuelensis
+    name:
+      en: Mannophryne venezuelensis
+      zh: Mannophryne venezuelensis
+    sourceClassification:
+      order: Anura
+      family: Dendrobatoidea
+      genus: Mannophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Mannophryne venezuelensis in the version 3 classification
+          zh: Mannophryne venezuelensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e801c16d06
+            part: body
+          zh:
+            page: zh
+            section: s-7e3a28ab06
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-184899983c
+            part: body
+          zh:
+            page: zh
+            section: s-2f5159515e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2977, 2978; Reference.csv rows 3597
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2977
+        values:
+          - Dendrobatoidea
+          - Mannophryne
+          - Mannophryne venezuelensis
+          - F
+          - "21.5"
+          - "7.2"
+          - "7.8"
+          - "2.7"
+          - "1.39"
+          - NA
+          - "2.7"
+          - "2.9"
+          - NA
+          - "2.1"
+          - "2.7"
+          - NA
+          - "5.3"
+          - "5.07"
+          - NA
+          - "9.8"
+          - NA
+          - "10.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2978
+        values:
+          - Dendrobatoidea
+          - Mannophryne
+          - Mannophryne venezuelensis
+          - M
+          - "19.4"
+          - "5.7"
+          - "7.1"
+          - "2.8"
+          - "1.2"
+          - NA
+          - "2.4"
+          - "2.5"
+          - NA
+          - "1.7"
+          - "1.9"
+          - NA
+          - NA
+          - "4.7"
+          - NA
+          - "8.9"
+          - NA
+          - "9.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3597
+        values:
+          - Anura
+          - Mannophryne_venezuelensis
+          - "Manzanilla, J., Jowers, M., Marca, E., & García-París, M. (2007). Taxonomic reassessment of Mannophryne trinitatis (Anura: Dendrobatidae) with a description of a new species from Venezuela. The Herpetological Journal, 17, 31-42. "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Thorius longicaudus Parra-Olea, Rovito, García-París, Maisano, Wake & Hanken, 2016
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Thorius longicaudus
+      zh: Thorius longicaudus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0c3647806e
+            part: title
+          zh:
+            page: zh
+            section: s-8c700918da
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0c3647806e
+            part: body
+          zh:
+            page: zh
+            section: s-8c700918da
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-96665ab49e
+            part: title
+          zh:
+            page: zh
+            section: s-5d903cb039
+            part: title
+        text:
+          en:
+            page: en
+            section: s-96665ab49e
+            part: body
+          zh:
+            page: zh
+            section: s-5d903cb039
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-08b97e6212
+            part: title
+          zh:
+            page: zh
+            section: s-d7beb1f507
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56ksw
+        text:
+          en:
+            page: en
+            section: s-08b97e6212
+            part: body
+          zh:
+            page: zh
+            section: s-d7beb1f507
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bb54b40095
+            part: title
+          zh:
+            page: zh
+            section: s-0b8b225e08
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56ksw
+        text:
+          en:
+            page: en
+            section: s-bb54b40095
+            part: body
+          zh:
+            page: zh
+            section: s-0b8b225e08
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-14fd8a166a
+            part: title
+          zh:
+            page: zh
+            section: s-0211bf528e
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56ksw
+        text:
+          en:
+            page: en
+            section: s-14fd8a166a
+            part: body
+          zh:
+            page: zh
+            section: s-0211bf528e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b6f08cdf40
+            part: title
+          zh:
+            page: zh
+            section: s-f05d131649
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56ksw
+        text:
+          en:
+            page: en
+            section: s-b6f08cdf40
+            part: body
+          zh:
+            page: zh
+            section: s-f05d131649
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Thorius longicaudus
+          url: https://www.checklistbank.org/dataset/316115/taxon/56KSW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc5119241-56ksw
+        referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Thorius longicaudus: Named species type material, diagnosis and variation, live/preserved colour, distribution/ecology and conservation recommendation paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0bb0c54888
+        part: body
+      zh:
+        page: zh
+        section: s-468d12a5aa
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.2694
+        referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+        sourceKey: primary-pmc5119241-56ksw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5119241/article.xml
+        sourceConcept: Thorius longicaudus
+        evidenceRead: "Thorius longicaudus: Named species type material, diagnosis and variation, live/preserved colour, distribution/ecology and conservation recommendation paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Long tails, a defined standard length and different size scopes
+              zh: 长尾、明确标准长及不同体型范围
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56ksw
+            locator: Results > Thorius longicaudus; reading-sections index 2, paragraphs 22 and 25–30
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0d48cb6653
+                part: body
+              zh:
+                page: zh
+                section: s-762e7c958f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Colour notes from a gravid female and other specimens
+              zh: 来自怀卵雌性及其他标本的颜色笔记
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56ksw
+            locator: Results > Thorius longicaudus; reading-sections index 2, paragraphs 30–31
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bb35f00bdd
+                part: body
+              zh:
+                page: zh
+                section: s-c3b620d276
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Two areas and effort-bound changes in encounters
+              zh: 两个地区及受搜索努力限定的遭遇变化
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56ksw
+            locator: Results > Thorius longicaudus; reading-sections index 2, paragraphs 38–41
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b70a0fe9e6
+                part: body
+              zh:
+                page: zh
+                section: s-07d6f470fe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: A proposed threat category with unknown total range
+              zh: 整体范围未知的威胁等级提议
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56ksw
+            locator: Results > Thorius longicaudus; reading-sections index 2, paragraphs 44
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-72c942f10c
+                part: body
+              zh:
+                page: zh
+                section: s-eedd5022dc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

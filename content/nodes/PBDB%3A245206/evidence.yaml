@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microraptor hanqingi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Microraptor hanqingi
+      en: Microraptor hanqingi
+    sections:
+      - topic: morphology
+        sourceIds:
+          - gong2012MicroraptorHanqingi
+        text:
+          zh:
+            page: zh
+            section: s-d0cfd46044
+            part: body
+          en:
+            page: en
+            section: s-89adf3dbef
+            part: body
+      - topic: evidence
+        sourceIds:
+          - gong2012MicroraptorHanqingi
+        text:
+          zh:
+            page: zh
+            section: s-ffe1b61982
+            part: body
+          en:
+            page: en
+            section: s-050b007d50
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-381b6f40fc
+            part: body
+          en:
+            page: en
+            section: s-2c26f87025
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-798ff06556
+            part: body
+          en:
+            page: en
+            section: s-73fda0ba68
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-23bfabe985
+            part: body
+          en:
+            page: en
+            section: s-472c9980f2
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-762f6f25ce
+            part: body
+          en:
+            page: en
+            section: s-d7b2fd2bda
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - gong2012MicroraptorHanqingi
+        text:
+          zh:
+            page: zh
+            section: s-3e09f408a8
+            part: body
+          en:
+            page: en
+            section: s-4e447f5402
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Microraptor hanqingi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=245206&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:245206; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:245206
+          selectedOccurrenceIds:
+            - occ:1069459
+          selectedCollectionIds:
+            - col:132487
+          sourceReferenceIds:
+            - ref:42681
+          originalIdentificationMappings:
+            - occurrenceId: occ:1069459
+              originalIdentifiedName: Microraptor hanqingi n. sp.
+              acceptedName: Microraptor hanqingi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: gong2012MicroraptorHanqingi
+        referenceId: ref-9bcd7263-8aaa-48da-8fbd-97576bee88e8
+        fields:
+          - id
+          - title
+          - doi
+          - authors
+          - publishedAt
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: A new species of Microraptor from the Jehol Biota of northeastern China
+          url: https://doi.org/10.1016/j.palwor.2012.05.003
+          accessedAt: 2026-10-03
+          locator: "Author-uploaded ResearchGate transcription: front matter; section 3 Materials and methods; section 4 Type paragraph. Selected passages only; complete anatomical account and images not read."
+          scope:
+            zh: 原始描述中已读取的正模保存与制备方法；不是完整论文、独立标本鉴定或种界裁决。
+            en: Selected original-description passages on holotype preservation and preparation; not a complete paper, independent identification or species-boundary decision.
+    limitations:
+      zh:
+        page: zh
+        section: s-19a2b5dc73
+        part: body
+      en:
+        page: en
+        section: s-5d88c6362e
+        part: body

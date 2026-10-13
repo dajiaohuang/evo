@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis dorsopictus
+  displayName: Pristimantis dorsopictus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77WHL
+  sourceIndexes:
+    - name:
+        en: Pristimantis dorsopictus
+        zh: Pristimantis dorsopictus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77WHL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/246
+            queryName: Pristimantis dorsopictus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/335
+            queryName: Eleutherodactylus dorsopictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a52f6eca87
+      - s-f9859cfb55
+      - s-5971a47ea3
+      - s-a4c1bb5d71
+      - s-6d09dc862b
+      - s-fc777b1f45
+      - s-a249d91fbb
+      - s-26adb92933
+      - s-31fc3a3526
+      - s-81e5e3f888
+      - s-da60e4a12d
+      - s-01d228fd44
+      - s-bcebfd0e7d
+      - s-0074d73778
+    zh:
+      - s-1845709c72
+      - s-6cc41b2f15
+      - s-d7e7bd6be2
+      - s-b5982d2ed5
+      - s-47ecb4408d
+      - s-41e33ce04b
+      - s-ee2e674e08
+      - s-b512c5d44f
+      - s-7d0e6295d8
+      - s-84e5a33df1
+      - s-835518202e
+      - s-2a1c72f08e
+      - s-bb3787b2ba
+      - s-462057abfa

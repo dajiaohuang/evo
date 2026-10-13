@@ -1,0 +1,111 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Erythropygia
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Erythropygia
+      en: Erythropygia
+    sections:
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d171b0e415
+            part: body
+          en:
+            page: en
+            section: s-3cd2ce1237
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Erythropygia
+          url: https://www.checklistbank.org/dataset/316115/taxon/62RST
+          locator: Pinned name, rank and recorded ancestry.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 8 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 8
+            foraging: 8
+            activity: 0
+          readingTargets:
+            - name: Erythropygia leucosticta
+              colId: 3BFM3
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3BFM3
+            - name: Erythropygia quadrivirgata
+              colId: 3BFM5
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3BFM5
+            - name: Erythropygia barbata
+              colId: 3BFLW
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3BFLW
+            - name: Erythropygia signata
+              colId: 3BFM6
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3BFM6
+            - name: Erythropygia hartlaubi
+              colId: 3BFLZ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3BFLZ
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-0a13964853
+        part: body
+      en:
+        page: en
+        section: s-d0e6af6b63
+        part: body

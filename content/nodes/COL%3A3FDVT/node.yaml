@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrophryne elegans
+  displayName: Gastrophryne elegans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FDVT
+  sourceIndexes:
+    - name:
+        en: Gastrophryne elegans
+        zh: Gastrophryne elegans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FDVT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/5
+            queryName: Gastrophryne elegans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/223
+            queryName: Engystoma elegans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/224
+            queryName: Microhyla elegans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-46f9001174
+      - s-310e264780
+      - s-17203a70ed
+      - s-fd3a9a7eb0
+      - s-4456677d50
+      - s-3e82eaef13
+      - s-b86503c749
+      - s-b1085804e8
+      - s-e4fd7f77fb
+      - s-3d9265ae25
+      - s-61092a0488
+      - s-3a7a4628f1
+    zh:
+      - s-f5eccc4521
+      - s-929e1be39d
+      - s-6c3738bddd
+      - s-5b8c373249
+      - s-bd30c02ad5
+      - s-bf5284d5d1
+      - s-a2d0d10a77
+      - s-86bd44889d
+      - s-391d87684b
+      - s-1964c7523e
+      - s-c604e10383
+      - s-a49a4dde50

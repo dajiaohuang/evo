@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina tumulus
+  displayName: Xenorhina tumulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBFD
+  sourceIndexes:
+    - name:
+        en: Xenorhina tumulus
+        zh: Xenorhina tumulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBFD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/365
+            queryName: Xenorhina tumulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/290
+            queryName: Xenobatrachus tumulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7e3ebe98e
+      - s-39af8a74e2
+      - s-8928ff040f
+      - s-f3d0b3c281
+      - s-38e52fe60c
+      - s-b6a3638624
+      - s-93b61cabbd
+      - s-125fc480da
+    zh:
+      - s-c8db4654bc
+      - s-2638136cf0
+      - s-5b2e70f6df
+      - s-1f738cc2b0
+      - s-88a2a88b10
+      - s-2092aaa8d1
+      - s-7ad515d30a
+      - s-34aa007b11

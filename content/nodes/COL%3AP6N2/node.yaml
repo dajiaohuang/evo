@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum plimptoni
+  displayName: Cacosternum plimptoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6N2
+  sourceIndexes:
+    - name:
+        en: Cacosternum plimptoni
+        zh: Cacosternum plimptoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6N2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/48
+            queryName: Cacosternum plimptoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5ff05d1a5d
+      - s-6e829df927
+      - s-2f0d641fe2
+      - s-c823cb386d
+      - s-43ef0effee
+      - s-ec2457bcc6
+      - s-5a9b20a286
+      - s-c33018118c
+      - s-025ac3a056
+      - s-dc80fb8e67
+      - s-82cfbcb4bd
+      - s-4ed5200049
+      - s-7fe341b0f3
+      - s-65bfa39705
+      - s-0750812f22
+      - s-c1a67b7345
+      - s-7cac2d8f3a
+    zh:
+      - s-d1a4e329da
+      - s-86d5923143
+      - s-69ff772cd6
+      - s-dc9dd2947e
+      - s-7a0bdf015f
+      - s-c1bdd3bd05
+      - s-3f1bd22a6a
+      - s-ef8c07db3e
+      - s-9c906f1681
+      - s-ce095e12d4
+      - s-242649bfb8
+      - s-b408c66117
+      - s-29be5f40cf
+      - s-683e0fc110
+      - s-b3ef096136
+      - s-b712ed535e
+      - s-5e60429951

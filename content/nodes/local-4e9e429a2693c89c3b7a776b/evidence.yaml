@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cacosternum namaquense
+    name:
+      en: Cacosternum namaquense
+      zh: Cacosternum namaquense
+    sourceClassification:
+      order: Anura
+      family: Pyxicephalidae
+      genus: Cacosternum
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-327dada488
+            part: body
+          zh:
+            page: zh
+            section: s-c03e16111c
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0320f0e14b
+            part: body
+          zh:
+            page: zh
+            section: s-d45ac6411e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 965; Reference.csv rows 3419
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 965
+        values:
+          - Pyxicephalidae
+          - Cacosternum
+          - Cacosternum namaquense
+          - NA
+          - NA
+          - NA
+          - "6.72"
+          - "2.016"
+          - NA
+          - NA
+          - NA
+          - "2.791384615"
+          - NA
+          - "1.344"
+          - "2.584615385"
+          - NA
+          - "4.008"
+          - NA
+          - NA
+          - "11.872"
+          - NA
+          - "9.408"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "22.4"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3419
+        values:
+          - Anura
+          - Cacosternum_namaquense
+          - "Channing, A., Schmitz, A., Burger, M., & Kielgast, J. (2013). A molecular phylogeny of African Dainty Frogs, with the description of four new species (Anura: Pyxicephalidae: Cacosternum). Zootaxa, 3701, 518-550. https://doi.org/10.11646/zootaxa.3701.5.2"
+    availableTraitCodes:
+      - HW
+      - ED
+      - IND
+      - EN
+      - SL
+      - HAL
+      - FL
+      - TL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - P6MV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

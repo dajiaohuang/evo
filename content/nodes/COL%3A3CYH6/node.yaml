@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eupsophus altor
+  displayName: Eupsophus altor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CYH6
+  sourceIndexes:
+    - name:
+        en: Eupsophus altor
+        zh: Eupsophus altor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CYH6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/398
+            queryName: Eupsophus altor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1d26e94558
+      - s-7171288055
+      - s-8af7669b81
+      - s-4c45f2b939
+      - s-2a5aa31b4e
+      - s-62b2ee1c40
+      - s-9a1c3e4257
+      - s-79f7c3bd18
+      - s-34048c31be
+      - s-3c8a128bf8
+      - s-4f8a084d59
+      - s-2f2c172a3a
+      - s-1df67a012a
+      - s-30c9f1caba
+      - s-5244e74503
+      - s-4f699ce332
+      - s-cda3093a14
+      - s-070a2136eb
+    zh:
+      - s-a16e2dcfe3
+      - s-7638635834
+      - s-75ca522c36
+      - s-5e99e10f50
+      - s-3ae88ab4be
+      - s-5a09f555e0
+      - s-95ccbb2e0f
+      - s-801e62194b
+      - s-fa6f0be5f4
+      - s-1ed086d724
+      - s-528b9d356d
+      - s-e03fc7f3c1
+      - s-2292b1157f
+      - s-e9f4b8843e
+      - s-3ae43b80a2
+      - s-7bf7872971
+      - s-d164e56242
+      - s-be23f154a1

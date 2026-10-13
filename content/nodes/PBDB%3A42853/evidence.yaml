@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Redunca
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Redunca
+      en: Redunca
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ee51f651bf
+            part: body
+          en:
+            page: en
+            section: s-d896b23505
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f8a0c43b65
+            part: body
+          en:
+            page: en
+            section: s-9a0ea919b3
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Redunca
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=42853
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:42853
+          readingTargets:
+            - name: Redunca khroumirensis
+              pbdbTaxonId: txn:374838
+              canonicalPath: content/nodes/PBDB%3A374838
+            - name: Redunca darti
+              pbdbTaxonId: txn:374852
+              canonicalPath: content/nodes/PBDB%3A374852
+            - name: Redunca ancystrocera
+              pbdbTaxonId: txn:374847
+              canonicalPath: content/nodes/PBDB%3A374847
+            - name: Redunca arundinum
+              pbdbTaxonId: txn:149686
+              canonicalPath: content/nodes/PBDB%3A149686
+            - name: Redunca eulmensis
+              pbdbTaxonId: txn:447796
+              canonicalPath: content/nodes/PBDB%3A447796
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-c2519f2838
+        part: body
+      en:
+        page: en
+        section: s-48b377d022
+        part: body

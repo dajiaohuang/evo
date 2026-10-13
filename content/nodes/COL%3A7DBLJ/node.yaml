@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton hainanensis
+  displayName: Tylototriton hainanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLJ
+  sourceIndexes:
+    - name:
+        en: Tylototriton hainanensis
+        zh: Tylototriton hainanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/134
+            queryName: Tylototriton hainanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/105
+            queryName: Pleurodeles hainanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/106
+            queryName: Yaotriton hainanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b58b2e9f0
+      - s-506771ab29
+      - s-acf3997afc
+      - s-2e509143fc
+      - s-24f8dd4268
+      - s-b99029e241
+      - s-edc3583076
+      - s-f310df8831
+      - s-22c02236c4
+    zh:
+      - s-9963bd787a
+      - s-24cdbc0bac
+      - s-69c4e96040
+      - s-33ae91cbf1
+      - s-ffbf902b49
+      - s-05c0cbb29d
+      - s-74453646bc
+      - s-19d7a017e4
+      - s-7a7a37b6d3

@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cacosterninae Noble, 1931
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Cacosterninae
+      zh: Cacosterninae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b46f913dd3
+            part: title
+          zh:
+            page: zh
+            section: s-9e29603419
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b46f913dd3
+            part: body
+          zh:
+            page: zh
+            section: s-9e29603419
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4cd36d22c2
+            part: title
+          zh:
+            page: zh
+            section: s-d36ef9e966
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4cd36d22c2
+            part: body
+          zh:
+            page: zh
+            section: s-d36ef9e966
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-d5f227f24a
+            part: title
+          zh:
+            page: zh
+            section: s-21f394eaba
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 628X6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A628X6
+            label:
+              en: Amietia
+              zh: Amietia
+          - kind: catalogue
+            colId: W9J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AW9J
+            label:
+              en: Anhydrophryne
+              zh: Anhydrophryne
+          - kind: catalogue
+            colId: 33CQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A33CQ
+            label:
+              en: Arthroleptella
+              zh: Arthroleptella
+          - kind: catalogue
+            colId: 62K57
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62K57
+            label:
+              en: Cacosternum
+              zh: Cacosternum
+          - kind: catalogue
+            colId: 5RGR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5RGR
+            label:
+              en: Microbatrachella
+              zh: Microbatrachella
+          - kind: catalogue
+            colId: 5XT2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5XT2
+            label:
+              en: Natalobatrachus
+              zh: Natalobatrachus
+          - kind: catalogue
+            colId: "6569"
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6569
+            label:
+              en: Nothophryne
+              zh: Nothophryne
+          - kind: catalogue
+            colId: 63PPD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63PPD
+            label:
+              en: Poyntonia
+              zh: Poyntonia
+          - kind: catalogue
+            colId: 7PG9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7PG9
+            label:
+              en: Strongylopus
+              zh: Strongylopus
+          - kind: catalogue
+            colId: 7XN9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7XN9
+            label:
+              en: Tomopterna
+              zh: Tomopterna
+        text:
+          en:
+            page: en
+            section: s-d5f227f24a
+            part: body
+          zh:
+            page: zh
+            section: s-21f394eaba
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cacosterninae
+          url: https://www.checklistbank.org/dataset/316115/taxon/J99
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e91430a102
+        part: body
+      zh:
+        page: zh
+        section: s-dd8ca264b8
+        part: body

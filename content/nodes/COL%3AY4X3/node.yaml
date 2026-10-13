@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Copiula guttata
+  displayName: Copiula guttata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y4X3
+  sourceIndexes:
+    - name:
+        en: Copiula guttata
+        zh: Copiula guttata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y4X3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/9
+            queryName: Copiula guttata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/319
+            queryName: Austrochaperina guttata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a3849a3ca
+      - s-eb7d8cf89f
+      - s-0d06a28e98
+      - s-1b2b9701af
+      - s-219f7b7c96
+      - s-7da807546a
+    zh:
+      - s-5f0cb4affe
+      - s-003cdd2e09
+      - s-f2d2b95687
+      - s-877f29d97b
+      - s-de9c515137
+      - s-07ff6189ab

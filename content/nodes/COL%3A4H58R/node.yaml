@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllobates aurotaenia
+  displayName: Phyllobates aurotaenia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H58R
+  sourceIndexes:
+    - name:
+        en: Phyllobates aurotaenia
+        zh: Phyllobates aurotaenia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H58R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/244
+            queryName: Phyllobates aurotaenia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/10
+            queryName: Dendrobates aurotaenia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e5308ffa1e
+      - s-f5b9f442f4
+      - s-ec220b6d60
+      - s-d817031880
+      - s-cd954972a8
+      - s-621b464143
+      - s-eb10e914c6
+      - s-06b7f5c2af
+      - s-e2abe367aa
+      - s-52ed665698
+      - s-1010b7ea88
+      - s-b478f6c2c5
+      - s-e1e85bc957
+      - s-8c9aeef4b2
+      - s-9612bdb1fb
+      - s-1534640b06
+      - s-17e4d37dde
+      - s-d912ddd820
+      - s-a3edf124c5
+    zh:
+      - s-ebe947ac1b
+      - s-57de55eebb
+      - s-f19b021928
+      - s-a723558859
+      - s-a519955abb
+      - s-659e33615f
+      - s-d353a399ec
+      - s-5d788562c2
+      - s-6e12fa486a
+      - s-c87cbec2da
+      - s-44ecef6467
+      - s-a70af01b25
+      - s-a0233335c7
+      - s-5991c51ea3
+      - s-d7942462fc
+      - s-d94b6fd2e0
+      - s-c9091f1e39
+      - s-e053494249
+      - s-d194c88a5e

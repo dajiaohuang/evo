@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microcaecilia trombetas
+  displayName: Microcaecilia trombetas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42S5S
+  sourceIndexes:
+    - name:
+        en: Microcaecilia trombetas
+        zh: Microcaecilia trombetas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42S5S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/488
+            queryName: Microcaecilia trombetas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e1c76f56c9
+      - s-309aad4185
+      - s-2835444bf8
+      - s-f266dd7424
+      - s-f420517465
+      - s-986f87b71d
+      - s-6fd5bb77d4
+    zh:
+      - s-cde9fdf64d
+      - s-363fff9d48
+      - s-0922eec1e6
+      - s-8b6e2c7a58
+      - s-5daffb29c2
+      - s-6e7ea8e18b
+      - s-41d8d94e51

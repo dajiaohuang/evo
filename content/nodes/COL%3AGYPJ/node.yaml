@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptella landdrosia
+  displayName: Arthroleptella landdrosia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYPJ
+  sourceIndexes:
+    - name:
+        en: Arthroleptella landdrosia
+        zh: Arthroleptella landdrosia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYPJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/138
+            queryName: Arthroleptella landdrosia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b22d445ca5
+      - s-dfea4cf250
+      - s-3d2555aa11
+      - s-48a0b245dd
+      - s-b24218115c
+      - s-34448a55c7
+      - s-2e7df0ec17
+      - s-9d16e788e9
+      - s-91a8c9885d
+    zh:
+      - s-95cc5cc275
+      - s-6e75e9c5e8
+      - s-afde419c02
+      - s-57b39b604c
+      - s-2bb829f1c6
+      - s-0ab073f1c0
+      - s-cd821803cf
+      - s-fb6c11ed40
+      - s-1dabdca4de

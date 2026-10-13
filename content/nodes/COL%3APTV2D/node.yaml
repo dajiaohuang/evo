@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis benjii
+  displayName: Ichthyophis benjii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PTV2D
+  sourceIndexes:
+    - name:
+        en: Ichthyophis benjii
+        zh: Ichthyophis benjii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PTV2D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/388
+            queryName: Ichthyophis benjii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c7d112f124
+      - s-90eb9d3954
+      - s-cde39ce0e0
+      - s-8c1ae147ea
+      - s-c298f76435
+      - s-e8997aa263
+      - s-5f5b254718
+    zh:
+      - s-517870a483
+      - s-0c5ca59ece
+      - s-6ec6f191f8
+      - s-826bd483cf
+      - s-e18fe9dc62
+      - s-1770bfa9f2
+      - s-2b67085efd

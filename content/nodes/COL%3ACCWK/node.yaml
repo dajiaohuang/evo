@@ -1,0 +1,118 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alytes obstetricans
+  displayName: Alytes obstetricans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CCWK
+  sourceIndexes:
+    - name:
+        en: Alytes obstetricans
+        zh: Alytes obstetricans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CCWK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/213
+            queryName: Alytes obstetricans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 354
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/46
+            queryName: Bufo obstetricans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/47
+            queryName: Bombinator obstetricans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/48
+            queryName: Rana obstetricans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/49
+            queryName: Obstetricans vulgaris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/290
+            queryName: Alytes obstetricans boscai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/291
+            queryName: Alytes campanisonus boscai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/293
+            queryName: Alytes obstetricans pertinax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/472
+            queryName: Alytes obstetricans lusitanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce12c10d1e
+      - s-351aa7299b
+      - s-7da1d46c41
+      - s-a284a1b539
+      - s-4a390ffc9f
+      - s-c27d7eb6c1
+      - s-abb3ef81ee
+      - s-0696eed5e2
+      - s-310ae98e81
+      - s-f01e428222
+      - s-02388b1fa3
+      - s-dcc7be9952
+      - s-d69efcae43
+      - s-2fc5f20aa5
+      - s-7f9f2d5deb
+    zh:
+      - s-53d2213d1e
+      - s-fc3d19e502
+      - s-e3922e7ad1
+      - s-493ac77b7d
+      - s-7c7eca0637
+      - s-44fbbb7502
+      - s-477cdd426c
+      - s-36e685419b
+      - s-c73ae84063
+      - s-238235b8a1
+      - s-3de1b03a0b
+      - s-b2c3cda6bf
+      - s-d475ea2886
+      - s-596a3b9a46
+      - s-bd35a06765

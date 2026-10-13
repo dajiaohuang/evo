@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton multidentatus
+  displayName: Chiropterotriton multidentatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6KY
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton multidentatus
+        zh: Chiropterotriton multidentatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6KY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/303
+            queryName: Chiropterotriton multidentatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/313
+            queryName: Oedipus multidentatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/314
+            queryName: Bolitoglossa multidentata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ff6134fa2e
+      - s-3c1266325f
+      - s-9074fa705f
+      - s-a230d048b4
+      - s-cd1240ebf4
+      - s-8fb8954b4c
+      - s-ba02b1ba09
+      - s-903251e2d7
+      - s-f9937cc666
+      - s-316b59ea1c
+      - s-26458e9fc7
+      - s-8e99d72403
+      - s-5e97abb3b9
+      - s-1e9d06930d
+      - s-d0e7f93271
+      - s-1cd04df79c
+      - s-325d682800
+      - s-eaf4eece82
+      - s-edb3f72c6c
+      - s-37ec23edef
+    zh:
+      - s-a4a3fbc82e
+      - s-d2cf07eb55
+      - s-3f5af50c39
+      - s-688a0f6134
+      - s-97061645a8
+      - s-301dd83e1b
+      - s-22829d0381
+      - s-9f7d910f5e
+      - s-5f5888086a
+      - s-b1a477f1db
+      - s-3042c6db05
+      - s-43d5e833dc
+      - s-96de3c7a18
+      - s-72b4c72fab
+      - s-f6852589d0
+      - s-2e000a959d
+      - s-159240ace2
+      - s-eb42a9c485
+      - s-a5e0d18cd9
+      - s-3816dd138f

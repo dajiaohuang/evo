@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Stenotatus patagonicus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Stenotatus patagonicus
+      en: Stenotatus patagonicus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bf79a97453
+            part: body
+          en:
+            page: en
+            section: s-3707117c89
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-316f67f8b7
+            part: body
+          en:
+            page: en
+            section: s-3091d62c75
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-15c32aaf23
+            part: body
+          en:
+            page: en
+            section: s-a7da7c0ba6
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6c42942c84
+            part: body
+          en:
+            page: en
+            section: s-d69ceeb6b4
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-450c4be8d5
+            part: body
+          en:
+            page: en
+            section: s-f2a3f27cc5
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Stenotatus patagonicus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=244734&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:244734; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:244734
+          selectedOccurrenceIds:
+            - occ:1316118
+            - occ:1316126
+            - occ:1316132
+            - occ:1316318
+            - occ:1464947
+            - occ:1511309
+            - occ:1511317
+            - occ:1511322
+            - occ:1535777
+            - occ:1629349
+          selectedCollectionIds:
+            - col:176565
+            - col:176570
+            - col:27313
+            - col:142533
+            - col:142529
+            - col:176622
+            - col:176623
+            - col:176625
+            - col:215594
+            - col:215595
+          sourceReferenceIds:
+            - ref:58206
+            - ref:58227
+            - ref:70111
+            - ref:72833
+            - ref:74362
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3368eeff3b
+        part: body
+      en:
+        page: en
+        section: s-8e5c946df0
+        part: body

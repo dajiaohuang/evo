@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrophryniscus oreites
+  displayName: Dendrophryniscus oreites
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34RLM
+  sourceIndexes:
+    - name:
+        en: Dendrophryniscus oreites
+        zh: Dendrophryniscus oreites
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34RLM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/328
+            queryName: Dendrophryniscus oreites
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e5ef8713ae
+      - s-61fad854b3
+      - s-28670c8215
+      - s-bdc3bb422b
+      - s-f72c882bef
+      - s-9651565bac
+      - s-95af6597e3
+      - s-4268525d03
+    zh:
+      - s-b6f06ea7e6
+      - s-d99047a15d
+      - s-938786c70a
+      - s-1f6ddba459
+      - s-fd1a644d91
+      - s-d60bca4c89
+      - s-f82d741b11
+      - s-9dde3a4645

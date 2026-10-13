@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anodonthyla hutchisoni
+  displayName: Anodonthyla hutchisoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/675VY
+  sourceIndexes:
+    - name:
+        en: Anodonthyla hutchisoni
+        zh: Anodonthyla hutchisoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 675VY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/492
+            queryName: Anodonthyla hutchisoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4405d049dd
+      - s-1603ab99c9
+      - s-2d86c4f86b
+      - s-8c693d3208
+      - s-33fc78c4f3
+      - s-27e536dfec
+      - s-1bc05e7a2d
+      - s-57028f2025
+      - s-40e54242d3
+      - s-808ba2d2f0
+      - s-d7029556de
+    zh:
+      - s-95f526d0ae
+      - s-cfa7d19d17
+      - s-f548713d6d
+      - s-cefe1a4015
+      - s-85f448a3c1
+      - s-462c471d70
+      - s-5de77f50b0
+      - s-c294a1f0ce
+      - s-39568c76d0
+      - s-b14787c88d
+      - s-fc23c78d52

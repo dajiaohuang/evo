@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Trematolestes hagdorni
+    rank: species
+    sourceTaxonId: txn:179389
+    name:
+      en: Trematolestes hagdorni
+      zh: Trematolestes hagdorni
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-4de2a4627b
+            part: body
+          zh:
+            page: zh
+            section: s-fb5ba65420
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-3b58797f05
+            part: body
+          zh:
+            page: zh
+            section: s-bdabd66761
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-0395572928
+            part: body
+          zh:
+            page: zh
+            section: s-0d30f6b585
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:179389; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. S. Schoch. 2006. A complete trematosaurid amphibian from the Middle Triassic of Germany. Journal of Vertebrate Paleontology 26(1):29-43
+    occurrenceEvidence:
+      - occurrenceId: occ:906411
+        collectionId: col:101875
+        acceptedTaxonId: txn:179389
+        taxonomicDifference: null
+        referenceId: ref:34642
+        bibliography: R. R. Schoch. 2008. A new stereospondyl from the German Middle Triassic, and the origin of the Metoposauridae. Zoological Journal of the Linnean Society 152:79-113
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929764
+        collectionId: col:106349
+        acceptedTaxonId: txn:179389
+        identifiedName: Trematolestes hagdorni n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:35488
+        bibliography: R. S. Schoch. 2006. A complete trematosaurid amphibian from the Middle Triassic of Germany. Journal of Vertebrate Paleontology 26(1):29-43
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929776
+        collectionId: col:106352
+        acceptedTaxonId: txn:179389
+        taxonomicDifference: null
+        referenceId: ref:35488
+        bibliography: R. S. Schoch. 2006. A complete trematosaurid amphibian from the Middle Triassic of Germany. Journal of Vertebrate Paleontology 26(1):29-43
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929783
+        collectionId: col:101873
+        acceptedTaxonId: txn:179389
+        taxonomicDifference: null
+        referenceId: ref:35488
+        bibliography: R. S. Schoch. 2006. A complete trematosaurid amphibian from the Middle Triassic of Germany. Journal of Vertebrate Paleontology 26(1):29-43
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Hohenlohekreis
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-0395572928
+            part: body
+          zh:
+            page: zh
+            section: s-0d30f6b585
+            part: body
+        sourceIds: []

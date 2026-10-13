@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella nigricans
+  displayName: Mantella nigricans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7Q
+  sourceIndexes:
+    - name:
+        en: Mantella nigricans
+        zh: Mantella nigricans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/297
+            queryName: Mantella nigricans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/132
+            queryName: Mantella cowani nigricans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/133
+            queryName: Mantella madagascariensis nigricans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3234113aaa
+      - s-420ea7d1b6
+      - s-5f313175a1
+      - s-50ae2536ce
+      - s-170e1808c2
+      - s-4d2a43987b
+      - s-2b0b6b8f5e
+      - s-e03f9d1cb4
+      - s-658e31e85a
+      - s-52ff354d5c
+      - s-e0b9511756
+    zh:
+      - s-063a497100
+      - s-b0234f43d0
+      - s-f6f42f8992
+      - s-5108b0d971
+      - s-452a79e31c
+      - s-b299c73262
+      - s-47ac790660
+      - s-9532d14785
+      - s-d4530bb1bd
+      - s-b51209b0c8
+      - s-6fa3f234b7

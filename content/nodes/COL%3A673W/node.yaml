@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana
+  displayName: Odorrana
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/673W
+  sourceIndexes:
+    - name:
+        en: Odorrana
+        zh: Odorrana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 673W
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/106
+            queryName: Odorrana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 542
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-05bdce84e5
+      - s-06484125a1
+      - s-4ad67aebf2
+      - s-5b9243267e
+      - s-de215dc71f
+      - s-3b30c5c928
+      - s-0fbae7b93d
+      - s-f4c47f9f49
+      - s-cbac603d92
+      - s-1efd4a26d0
+      - s-bac41f13bc
+      - s-5ca556c403
+      - s-91f81768ad
+      - s-3facb8526d
+      - s-868d9aee93
+      - s-afb454e762
+      - s-ae5f450ea2
+      - s-7c7ad90f91
+      - s-cb5503e8fb
+      - s-3ac6a42ae5
+      - s-410d927023
+      - s-6e4a707718
+      - s-1d1ef44aa9
+      - s-5219014125
+      - s-3cb3cce440
+    zh:
+      - s-f595bf5741
+      - s-04baa5806c
+      - s-3d98f2fd9f
+      - s-a06d086bd5
+      - s-55d6cf0ca8
+      - s-59956cb9de
+      - s-d2fc492622
+      - s-d5ef32ea46
+      - s-32687d709a
+      - s-c106d9bc3e
+      - s-888f6b04f0
+      - s-9ceef84810
+      - s-836ee46e3e
+      - s-4913d15358
+      - s-7e5caa0479
+      - s-c75accb173
+      - s-6d7d3f57f3
+      - s-35d06401dc
+      - s-cb89e94b4f
+      - s-d1d64ede53
+      - s-cde663d0a5
+      - s-8d3bfb90b5
+      - s-a1889a814a
+      - s-d57cf1ffcd
+      - s-04565a5c4d

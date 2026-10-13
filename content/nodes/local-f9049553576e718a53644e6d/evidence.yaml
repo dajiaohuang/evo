@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius kuishiensis
+    name:
+      en: Hynobius kuishiensis
+      zh: Hynobius kuishiensis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-18aa13a6cd
+            part: body
+          zh:
+            page: zh
+            section: s-597abc17b4
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7d677d4c50
+            part: body
+          zh:
+            page: zh
+            section: s-1c980f3c45
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 157; Reference.csv rows 4100
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 157
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius kuishiensis
+          - M
+          - NA
+          - "60.3"
+          - "46.0692"
+          - "31.4163"
+          - "14.2308"
+          - "10.4319"
+          - "3.4371"
+          - "3.3768"
+          - NA
+          - "1.9899"
+          - "3.2562"
+          - "4.0401"
+          - "41.1849"
+          - "6.6933"
+          - "6.1506"
+          - "6.03"
+          - NA
+          - "14.5323"
+          - "18.0297"
+          - "2.5326"
+          - "2.412"
+          - "4.1607"
+          - "1.0854"
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4100
+        values:
+          - Caudata
+          - Hynobius_kuishiensis
+          - Tominaga, A., Matsui, M., Tanabe, S., & Nishikawa, K. (2019). A revision of Hynobius stejnegeri, a lotic breeding salamander from western Japan, with a description of three new species (Amphibia, Caudata, Hynobiidae). Zootaxa, 4651(3), zootaxa 4651.3.1. https://doi.org/10.11646/zootaxa.4651.3.1
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - Q37P9
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

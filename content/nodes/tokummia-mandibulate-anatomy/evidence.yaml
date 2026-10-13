@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-a36f525119
+      part: title
+    titleZh:
+      page: zh
+      section: s-3c9b0082f5
+      part: title
+    category: innovation
+    startAge: 508
+    endAge: 508
+    regions:
+      - Marble Canyon, Burgess Shale, British Columbia, Canada
+    clades:
+      - Mandibulata
+      - Tokummia katalepsis
+    summary:
+      page: en
+      section: s-a36f525119
+      part: body
+    summaryZh:
+      page: zh
+      section: s-3c9b0082f5
+      part: body
+    claimIds:
+      - claim:event:tokummia-mandibulate-anatomy
+    evidenceItems:
+      - statement: Holotype ROM 63823 and paratype ROM 63824 preserve the appendage combinations scored in the published matrix.
+        relation: supports
+        claimIds:
+          - claim:event:tokummia-mandibulate-anatomy
+        referenceLinks:
+          - referenceId: aria-caron-2017-tokummia
+            relation: supports
+            pages: 89–92
+            figure: Figures 1–4; Extended Data Figures 1–5
+            quoteLocator: Diagnosis; Mandibles and maxillipeds; Phylogenetic results
+    uncertaintyItems:
+      - statement: Stem-mandibulate placement is a matrix result; Tokummia is neither a demonstrated direct ancestor nor a crown crustacean, insect or myriapod.
+        relation: contextualizes
+        claimIds:
+          - claim:event:tokummia-mandibulate-anatomy
+        referenceLinks:
+          - referenceId: aria-caron-2017-tokummia
+            relation: supports
+            pages: 89–92
+            figure: Figure 4
+            quoteLocator: Phylogenetic results and discussion
+  claims:
+    - subjectId: event:tokummia-mandibulate-anatomy
+      claimKind: scientific
+      claimType: morphology
+      statement: Holotype ROM 63823 and paratypes of Tokummia katalepsis preserve paired mandibles, maxillipeds and subdivided basipods; their recovery as stem mandibulates is a morphology-matrix result, not evidence that Tokummia is a direct ancestor of crustaceans, insects or myriapods.
+      confidence: high
+      confidenceRationale: Named specimens directly preserve the scored appendages, while the statement separately bounds the matrix-derived topology and ancestry claim.
+      referenceLinks:
+        - referenceId: aria-caron-2017-tokummia
+          relation: supports
+          pages: 89–92
+          figure: Figures 1–4; Extended Data Figures 1–5
+          quoteLocator: Diagnosis; Mandibles and maxillipeds; Phylogenetic results
+  claim-rationales.zh:
+    - 具名正模和副模直接保存被评分的附肢；档案把性状观察、矩阵拓扑与祖先关系明确分开。
+  claim-statements.zh:
+    - Tokummia katalepsis 的正模 ROM 63823 和副模保存了成对大颚、颚足及分节的基肢；形态矩阵将其恢复为有颚类干群，并不证明 Tokummia 是甲壳类、昆虫或多足类的直接祖先。

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ranoidea
+  displayName: Ranoidea
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7746
+  sourceIndexes:
+    - name:
+        en: Ranoidea
+        zh: Ranoidea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "7746"
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/216
+            queryName: Ranoidea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 282
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-53c86f96f8
+      - s-9bb829f9bb
+      - s-c2130a5616
+      - s-e0886e4f00
+      - s-e94bfbfb0e
+    zh:
+      - s-c96067d0f9
+      - s-eecb2cb5a1
+      - s-345924d01e
+      - s-658f17ec7a
+      - s-7c9fac9a40

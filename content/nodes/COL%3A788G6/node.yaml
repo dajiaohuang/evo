@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis vertebralis
+  displayName: Pristimantis vertebralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/788G6
+  sourceIndexes:
+    - name:
+        en: Pristimantis vertebralis
+        zh: Pristimantis vertebralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 788G6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/166
+            queryName: Pristimantis vertebralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/217
+            queryName: Eleutherodactylus vertebralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/343
+            queryName: Hylodes vertebralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1add1b65e3
+      - s-cbf87c9b17
+      - s-4d2123cb63
+      - s-e726a01374
+      - s-f904540cf2
+      - s-d96179de1c
+      - s-53b5e15f6e
+      - s-fc3e5e2d2c
+      - s-e0a31865d8
+      - s-4e1a9a6ed4
+      - s-8eb93c8f3a
+      - s-b1bc4ad093
+      - s-bc3927cd14
+      - s-6a85bcec70
+      - s-12eca27341
+      - s-1897c4c520
+      - s-d01aa2125d
+      - s-ea055d1866
+    zh:
+      - s-deee950069
+      - s-adfe5b8f2a
+      - s-d3d044a226
+      - s-9e519c8e88
+      - s-2c17a56fd5
+      - s-26b785da9b
+      - s-46a828565a
+      - s-df85c56cc5
+      - s-303d7f2633
+      - s-d3144a888d
+      - s-ed070bb7dd
+      - s-2974742d8d
+      - s-b1afc40d7f
+      - s-cf1f65b68d
+      - s-c90ba369e0
+      - s-712f70ce23
+      - s-90cfbc981f
+      - s-fe33364f55

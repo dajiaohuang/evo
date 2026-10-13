@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus galactogaster
+  displayName: Atelopus galactogaster
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8YM
+  sourceIndexes:
+    - name:
+        en: Atelopus galactogaster
+        zh: Atelopus galactogaster
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8YM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/260
+            queryName: Atelopus galactogaster
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-43932bf8be
+      - s-d97a77d787
+      - s-0ff364f7c2
+      - s-6308c9548c
+      - s-543298e6b0
+      - s-dd5108b7e4
+      - s-ba4aec6217
+      - s-ad5ae66587
+      - s-fcfcca0e72
+    zh:
+      - s-f1d3ec1c30
+      - s-ca8e52b64a
+      - s-de594425b5
+      - s-4b01985bb9
+      - s-141c007450
+      - s-8dd2c5bbf5
+      - s-f1dc333784
+      - s-6f709a1207
+      - s-5bb050bfcb

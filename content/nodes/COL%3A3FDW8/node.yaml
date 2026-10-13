@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrophrynoides borneensis
+  displayName: Gastrophrynoides borneensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FDW8
+  sourceIndexes:
+    - name:
+        en: Gastrophrynoides borneensis
+        zh: Gastrophrynoides borneensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FDW8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/8
+            queryName: Gastrophrynoides borneensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/205
+            queryName: Engystoma borneense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/206
+            queryName: Gastrophryne borneensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/207
+            queryName: Gastrophrynoides borneense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a0c3539e0
+      - s-c8125ce58c
+      - s-2e3a95d0e9
+      - s-20370936ab
+      - s-4c9d667a38
+      - s-8d0987ce59
+      - s-55b7ea7d51
+      - s-0ab38ba922
+    zh:
+      - s-69846c52ca
+      - s-afc7353ad9
+      - s-b9bd7f101c
+      - s-68695cf26d
+      - s-6797d55535
+      - s-ff1ff48f3b
+      - s-8719b8fbc9
+      - s-700a08ffa0

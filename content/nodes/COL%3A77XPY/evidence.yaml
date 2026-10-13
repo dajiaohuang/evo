@@ -1,0 +1,221 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Propithecus diadema Bennett, 1832
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Diademed Sifaka
+      zh: 冠冕西法卡
+    sections:
+      - topic: feeding
+        text:
+          en:
+            page: en
+            section: s-73da7c34eb
+            part: body
+          zh:
+            page: zh
+            section: s-d7a9c33164
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - irwin2008
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-0299feffdf
+            part: body
+          en:
+            page: en
+            section: s-8d1d643c48
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-a7b9795857
+            part: body
+          en:
+            page: en
+            section: s-bd91192e35
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-413588f7c8
+            part: body
+          en:
+            page: en
+            section: s-aea8f146ec
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bf8cde7346
+            part: body
+          en:
+            page: en
+            section: s-015bdff0a4
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-415630e951
+            part: body
+          en:
+            page: en
+            section: s-1582c3f003
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Propithecus diadema Bennett, 1832
+          url: https://www.checklistbank.org/dataset/316115/taxon/77XPY
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-643153e2-e497-8de9-a366-7ee1cef77e9d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the current English common-name crosswalk used for the page; not evidence of occurrence, ecology or a complete range.
+            zh: 支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: irwin2008
+        referenceId: ref-1d38b6d3-c1b8-893a-a981-226466a5618e
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 12-month comparison of two groups in continuous forest and two groups in fragments at Tsinjoarivo, eastern Madagascar.
+            zh: 支持马达加斯加东部 Tsinjoarivo 连续林两群与林斑两群的 12 个月比较。
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 525; Scientific=Propithecus diadema; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-b93a94711d
+        part: body
+      zh:
+        page: zh
+        section: s-b7a21056b1
+        part: body

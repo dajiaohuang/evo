@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mannophryne neblina
+  displayName: Mannophryne neblina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XVQ5
+  sourceIndexes:
+    - name:
+        en: Mannophryne neblina
+        zh: Mannophryne neblina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XVQ5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/271
+            queryName: Mannophryne neblina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/336
+            queryName: Prostherapis neblina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/337
+            queryName: Colostethus neblina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca73e89095
+      - s-e343a8ebc0
+      - s-1a706fb5a9
+      - s-fb333e6bb4
+      - s-7b2233ac40
+      - s-7c62c94a08
+      - s-0d4ab11d4b
+      - s-1dd2f8e2f0
+      - s-a662c35b37
+    zh:
+      - s-0b4415e20a
+      - s-e564a0c940
+      - s-a457c43367
+      - s-24ed6ef075
+      - s-a6036d4e74
+      - s-d3cf3a59ed
+      - s-70531e3658
+      - s-1baa9e287e
+      - s-65d60fbbb6

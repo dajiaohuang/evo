@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Abavorana luctuosa
+    name:
+      en: Abavorana luctuosa
+      zh: Abavorana luctuosa
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Abavorana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cfca3d6e90
+            part: body
+          zh:
+            page: zh
+            section: s-52aaea9a30
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-eb929f47b9
+            part: body
+          zh:
+            page: zh
+            section: s-ee7e4adf3f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4, 5; Reference.csv rows 3720
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4
+        values:
+          - Ranidae
+          - Abavorana
+          - Abavorana luctuosa
+          - M
+          - "40.74"
+          - "15.64"
+          - "14.24"
+          - "4.25"
+          - "3.3"
+          - NA
+          - "4.35"
+          - "5.33"
+          - NA
+          - NA
+          - "6.88"
+          - NA
+          - "10.32"
+          - "8.09"
+          - NA
+          - "21.35"
+          - NA
+          - "21.98"
+          - "20.27"
+          - "11.12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.99"
+          - NA
+      - rowNumber: 5
+        values:
+          - Ranidae
+          - Abavorana
+          - Abavorana luctuosa
+          - F
+          - "47.38"
+          - "17.72"
+          - "15.77"
+          - "4.87"
+          - "3.87"
+          - NA
+          - "4.93"
+          - "6.06"
+          - NA
+          - NA
+          - "7.82"
+          - NA
+          - "11.93"
+          - "9.7"
+          - NA
+          - "25.2"
+          - NA
+          - "25.94"
+          - "23.83"
+          - "13.18"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.58"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3720
+        values:
+          - Anura
+          - Abavorana_luctuosa
+          - Quah, E. S. H., Grismer, L. L., Jr, P. L. W., Lim, K. K. P., Imbun, P. Y., & Anuar, M. S. S. (2021). An investigation into the taxonomy of Abavorana luctuosa (Peters, 1871) (Anura, Ranidae) and the resurrection of Rana decorata Mocquard, 1890 from Borneo. Vertebrate Zoology, 71(1), 75-99. doi:10.3897/vz.71.e60921
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

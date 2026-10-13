@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana erythraea
+  displayName: Hylarana erythraea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MN4Y
+  sourceIndexes:
+    - name:
+        en: Hylarana erythraea
+        zh: Hylarana erythraea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MN4Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/405
+            queryName: Hylarana erythraea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 37
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/96
+            queryName: Rana erythraea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/328
+            queryName: Hyla erythraea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/329
+            queryName: Limnodytes erythraeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/330
+            queryName: Hylorana erythraea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/331
+            queryName: Polypedates erythraea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa1406f787
+      - s-329c20ee7c
+      - s-fd06a0d423
+      - s-7514aa5124
+      - s-4880662933
+      - s-a8432d7d2a
+      - s-509308d9af
+      - s-da4daafcf7
+      - s-87ad4c8345
+      - s-218857c671
+      - s-01041af96e
+      - s-e8ad24f27a
+      - s-ccf53f28ec
+      - s-3bdf003837
+      - s-cee9f07e7c
+    zh:
+      - s-045d2a443d
+      - s-f10c0a6cef
+      - s-0f2184afc3
+      - s-1468c920c4
+      - s-240cdc8dd3
+      - s-aa2c58a56f
+      - s-d42bed04e3
+      - s-cc4607b711
+      - s-0772dc4f94
+      - s-b4c64861cf
+      - s-6c3c872b6e
+      - s-850fbd12f6
+      - s-490214709c
+      - s-94264161e2
+      - s-17493e6b61

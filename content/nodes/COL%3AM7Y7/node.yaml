@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana faber
+  displayName: Boana faber
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7Y7
+  sourceIndexes:
+    - name:
+        en: Boana faber
+        zh: Boana faber
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7Y7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/479
+            queryName: Boana faber
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 52
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/327
+            queryName: Hyla faber
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/151
+            queryName: Hypsiboas faber
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 64
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/76
+            queryName: Hyla fulva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/77
+            queryName: Rana gaimardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/78
+            queryName: Hyla gaimardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/79
+            queryName: Hyla wachei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91d7a8c132
+      - s-8418f8b779
+      - s-ca0e97dfaa
+      - s-38b2893210
+      - s-1181be1c8a
+      - s-d5c1d5c2b4
+      - s-c197ecec72
+      - s-c5fe0e55aa
+      - s-6310460fca
+      - s-bbc805bb93
+      - s-e34a736c99
+      - s-cbdb5fffef
+      - s-186a36b928
+      - s-45141b37c5
+      - s-6a4d9454d5
+      - s-70c86622b2
+      - s-a660f3f307
+      - s-70dcc4e861
+    zh:
+      - s-bae9e12767
+      - s-849e48040d
+      - s-3d7bc534ee
+      - s-6fddaaa07d
+      - s-6961464595
+      - s-dd9767a065
+      - s-ba90f766b8
+      - s-9e0ecc4efa
+      - s-b0fcd8a22c
+      - s-fb104fb3f3
+      - s-ecaa8091a1
+      - s-285fc1d592
+      - s-39963989b7
+      - s-afe23243e9
+      - s-2a0ee5d7d1
+      - s-2304e7d066
+      - s-d32bfbcf16
+      - s-ef371a981d

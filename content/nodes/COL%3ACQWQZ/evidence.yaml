@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pogonotriccus ophthalmicus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Pogonotriccus ophthalmicus
+      en: Pogonotriccus ophthalmicus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetPogonotriccusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-442f0bb0fe
+            part: body
+          en:
+            page: en
+            section: s-e5f652baf1
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetPogonotriccusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-4f7817b20a
+            part: body
+          en:
+            page: en
+            section: s-c94f2f3a53
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetPogonotriccusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-abaaa03b12
+            part: body
+          en:
+            page: en
+            section: s-b0fb2e242c
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetPogonotriccusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-a0224000b2
+            part: body
+          en:
+            page: en
+            section: s-faf6e1d7d6
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetPogonotriccusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-388c6002e9
+            part: body
+          en:
+            page: en
+            section: s-864c9eab35
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pogonotriccus ophthalmicus
+          url: https://www.checklistbank.org/dataset/316115/taxon/CQWQZ
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetPogonotriccusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Pogonotriccus historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 9033–9039; each eBird and BirdTree crosswalk, po/phy COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Phylloscartes 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Phylloscartes combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-ac5149e139
+        part: body
+      en:
+        page: en
+        section: s-ac51a1c063
+        part: body

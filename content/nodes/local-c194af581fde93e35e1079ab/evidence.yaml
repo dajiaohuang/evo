@@ -1,0 +1,196 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Lithobates kauffeldi
+    name:
+      en: Lithobates kauffeldi
+      zh: Lithobates kauffeldi
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Lithobates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e4f0e97fd0
+            part: body
+          zh:
+            page: zh
+            section: s-5f8dc44f47
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-92a1a80088
+            part: body
+          zh:
+            page: zh
+            section: s-23890d3c7a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2856; Reference.csv rows 3841
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2856
+        values:
+          - Ranidae
+          - Lithobates
+          - Lithobates kauffeldi
+          - NA
+          - "57.16"
+          - "18.59"
+          - "18.87"
+          - "4.69"
+          - "4.81"
+          - NA
+          - "4.19"
+          - "3.95"
+          - NA
+          - "3.98"
+          - NA
+          - "3.78"
+          - NA
+          - NA
+          - NA
+          - "48.35"
+          - NA
+          - "31.98"
+          - "27.24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3841
+        values:
+          - Anura
+          - Lithobates_kauffeldi
+          - "Feinberg, J., Newman, C., Watkins-Colwell, G., Schlesinger, M., Zarate, B., Curry, B., . . . Burger, J. (2014). Cryptic diversity in Metropolis: confirmation of a new leopard frog species (Anura: Ranidae) from New York City and surrounding Atlantic Coast regions. PLoS One, 9, e108213. https://doi.org/10.1371/journal.pone.0108213"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3VHQ6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,486 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dryophytes flaviventris Borzée & Min, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dryophytes flaviventris
+      zh: Dryophytes flaviventris
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9e0634857a
+            part: title
+          zh:
+            page: zh
+            section: s-c17e9a80d5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9e0634857a
+            part: body
+          zh:
+            page: zh
+            section: s-c17e9a80d5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c8b46dbe15
+            part: title
+          zh:
+            page: zh
+            section: s-8ad26e5e69
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c8b46dbe15
+            part: body
+          zh:
+            page: zh
+            section: s-8ad26e5e69
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-e5721d21a7
+            part: title
+          zh:
+            page: zh
+            section: s-54340b4b47
+            part: title
+        sourceIds:
+          - primary-pmc7314424-npgn2
+        text:
+          en:
+            page: en
+            section: s-e5721d21a7
+            part: body
+          zh:
+            page: zh
+            section: s-54340b4b47
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b30362591a
+            part: title
+          zh:
+            page: zh
+            section: s-f3765d4d4e
+            part: title
+        sourceIds:
+          - primary-pmc7314424-npgn2
+        text:
+          en:
+            page: en
+            section: s-b30362591a
+            part: body
+          zh:
+            page: zh
+            section: s-f3765d4d4e
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-b44e03f0e5
+            part: title
+          zh:
+            page: zh
+            section: s-5fc750095f
+            part: title
+        sourceIds:
+          - primary-pmc10215353-npgn2
+        text:
+          en:
+            page: en
+            section: s-b44e03f0e5
+            part: body
+          zh:
+            page: zh
+            section: s-5fc750095f
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4be7a3bcff
+            part: title
+          zh:
+            page: zh
+            section: s-6b82876c13
+            part: title
+        sourceIds:
+          - primary-pmc10695108-npgn2
+        text:
+          en:
+            page: en
+            section: s-4be7a3bcff
+            part: body
+          zh:
+            page: zh
+            section: s-6b82876c13
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f1d523f663
+            part: title
+          zh:
+            page: zh
+            section: s-0a033735d0
+            part: title
+        sourceIds:
+          - primary-pmc10695108-npgn2
+        text:
+          en:
+            page: en
+            section: s-f1d523f663
+            part: body
+          zh:
+            page: zh
+            section: s-0a033735d0
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1326b7c344
+            part: title
+          zh:
+            page: zh
+            section: s-e6dd8739c0
+            part: title
+        sourceIds:
+          - primary-pmc10695108-npgn2
+        text:
+          en:
+            page: en
+            section: s-1326b7c344
+            part: body
+          zh:
+            page: zh
+            section: s-e6dd8739c0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-851f460192
+            part: title
+          zh:
+            page: zh
+            section: s-a90b832476
+            part: title
+        sourceIds:
+          - primary-pmc10695108-npgn2
+        text:
+          en:
+            page: en
+            section: s-851f460192
+            part: body
+          zh:
+            page: zh
+            section: s-a90b832476
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dryophytes flaviventris
+          url: https://www.checklistbank.org/dataset/316115/taxon/NPGN2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7314424-npgn2
+        referenceId: ref-36f73064-2cfc-4d8f-a863-72a57a93e36f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dryophytes flaviventris: Species identity, distribution and diagnosis account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10215353-npgn2
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dryophytes flaviventris: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10695108-npgn2
+        referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dryophytes flaviventris: XML Abstract, Methods, Results including Tables1–2 and Figure captions, Discussion and Conclusion read; original recordings, per-individual data and supplementary pairwise tests not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3fca784a86
+        part: body
+      zh:
+        page: zh
+        section: s-a6a739cc3c
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0234299
+        referenceId: ref-36f73064-2cfc-4d8f-a863-72a57a93e36f
+        sourceKey: primary-pmc7314424-npgn2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7314424/article.xml
+        sourceConcept: Dryophytes flaviventris
+        evidenceRead: "Dryophytes flaviventris: Species identity, distribution and diagnosis account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: The South Korean records reported in 2020
+              zh: 2020 年报告的韩国记录
+            referenceId: ref-36f73064-2cfc-4d8f-a863-72a57a93e36f
+            sourceKey: primary-pmc7314424-npgn2
+            locator: "Dryophytes flaviventris: Species identity, distribution and diagnosis account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e9210e80ac
+                part: body
+              zh:
+                page: zh
+                section: s-7ad6c608ae
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Rice-paddy vegetation and seasonal observations
+              zh: 稻田植被与季节观察
+            referenceId: ref-36f73064-2cfc-4d8f-a863-72a57a93e36f
+            sourceKey: primary-pmc7314424-npgn2
+            locator: "Dryophytes flaviventris: Species identity, distribution and diagnosis account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a1afd1f08a
+                part: body
+              zh:
+                page: zh
+                section: s-e5f3efaf08
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani13101593
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        sourceKey: primary-pmc10215353-npgn2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10215353/article.xml
+        sourceConcept: Dryophytes flaviventris
+        evidenceRead: "Dryophytes flaviventris: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Mitochondrial fragments reassembled from earlier RAD data
+              zh: 从较早RAD数据重组装的线粒体片段
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-npgn2
+            locator: PMC10215353 XML sec2dot4 paragraph1; sec3dot5 paragraph1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1cdf47598c
+                part: body
+              zh:
+                page: zh
+                section: s-ea885b3409
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.16492
+        referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+        sourceKey: primary-pmc10695108-npgn2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10695108/article.xml
+        sourceConcept: 2023 Dryophytes suweonensis sensu lato; geographically labelled southern populations, not independently genotype-verified fixed concept
+        evidenceRead: "Dryophytes flaviventris: XML Abstract, Methods, Results including Tables1–2 and Figure captions, Discussion and Conclusion read; original recordings, per-individual data and supplementary pairwise tests not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Locality-specific recordings within a broad species concept
+              zh: 广义物种概念下的地点特定录音
+            referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+            sourceKey: primary-pmc10695108-npgn2
+            locator: PMC10695108 XML Methods paragraphs1–2; Figure1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7d0601d714
+                part: body
+              zh:
+                page: zh
+                section: s-0e8b393518
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Population means describe notes rather than species limits
+              zh: 种群均值描述音符而非物种极限
+            referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+            sourceKey: primary-pmc10695108-npgn2
+            locator: PMC10695108 XML Methods paragraph2; Results population-level properties/Table2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-84f59d4f63
+                part: body
+              zh:
+                page: zh
+                section: s-ddfd073189
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: Call variation motivates further integrated taxonomy
+              zh: 鸣声变异提示继续综合分类研究
+            referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+            sourceKey: primary-pmc10695108-npgn2
+            locator: PMC10695108 XML Results population comparisons; Discussion paragraphs1–3; Conclusion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-af5124e921
+                part: body
+              zh:
+                page: zh
+                section: s-978f55187b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Temperature and roadside noise are separate claims
+              zh: 温度与道路噪声为不同陈述
+            referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+            sourceKey: primary-pmc10695108-npgn2
+            locator: PMC10695108 XML Methods paragraph1; Discussion finalparagraph
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2687dd054e
+                part: body
+              zh:
+                page: zh
+                section: s-e863b4b016
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

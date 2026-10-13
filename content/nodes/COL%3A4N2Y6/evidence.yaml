@@ -1,0 +1,124 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Protea recondita H.Buek ex Meisn.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4N2Y6, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4N2Y6; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4N2Y6
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4N2Y6
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001106817-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4N2Y6 / WFO wfo-0001106817
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14383_0
+        referenceId: ref-c40134d5-38b7-834b-aeb5-84af3ad0eefe
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Protea recondita H.Buek ex Meisn. account; archive rows 5585 (Morphology), 29910 (Habitat), source identifier 14383.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_11445_0
+        referenceId: ref-dcb75f46-5b6d-8001-af55-e45eb4d05261
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Protea recondita H.Buek ex Meisn. account; archive rows 44065 (Diagnostic), source identifier 11445.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Sprawling shrublet to 1 m. Leaves lanceolate to broadly obovate, often flushed purple. Flower heads concealed by upper leaves, nodding, cup-shaped, 70-90 mm diam., involucral bracts green, style 30-35 mm long.
+            sourceIds:
+              - sanbi_14383_0
+            locator: "SANBI/WFO archive Morphology row 5585; source 14383.0; publication: Manning, JC; Goldblatt, P. 2012. Proteaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 657 - 681. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: As its name implies P. recondita has the curious habit of concealing its flower-heads. Even when in full bloom each flower-head is enclosed by large surrounding leaves which are folded in upon each other like the leaves surrounding a cauliflower. Indeed, this spectacular foliage is the most prominent feature of P. recondita as it is generally covered with a fine coating of blue-grey powdery wax. With the advance of winter this effect is heightened, particularly as the leaves take on a gorgeous pinkish-purple blush. With its smooth, completely hairless bracts, stems and leaves, P. recondita is unlikely to be confused with any other protea, except perhaps the upright-growing, large-leaved form of P. effusa. However, P. recondita has markedly broader leaves, 25-55 mm wide, while in P. effusa the leaves only occasionally attain a maximum of 25 mm in width, even in the broad-leaved form. This form of P. effusa often grows in association with P. recondita and although differences in bract colour and growth habit are at once apparent in the field, herbarium specimens are less easily separated.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_11445_0
+            locator: "SANBI/WFO archive Diagnostic row 44065; source 11445.0; publication: Rourke, JP. 1980. The proteas of southern Africa. Purnell, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky, upper sandstone slopes.
+            sourceIds:
+              - sanbi_14383_0
+            locator: "SANBI/WFO archive Habitat row 29910; source 14383.0; publication: Manning, JC; Goldblatt, P. 2012. Proteaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 657 - 681. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

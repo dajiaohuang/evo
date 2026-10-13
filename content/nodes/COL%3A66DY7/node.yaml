@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops hainanensis
+  displayName: Amolops hainanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DY7
+  sourceIndexes:
+    - name:
+        en: Amolops hainanensis
+        zh: Amolops hainanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DY7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/366
+            queryName: Amolops hainanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/245
+            queryName: Staurois hainanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/246
+            queryName: Staurois planiformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1888c044b1
+      - s-1223b47a82
+      - s-c7c46e290b
+      - s-dcd6a8f081
+      - s-8414714dbf
+      - s-a41e4ed0fe
+      - s-51cf146613
+      - s-2e5456cc06
+      - s-163bc67046
+      - s-0fedc12a27
+      - s-956b33ab58
+      - s-a792115551
+      - s-f77708fccb
+      - s-9b32a8254f
+    zh:
+      - s-3e0698596a
+      - s-13f202aad9
+      - s-53cacede87
+      - s-9e05e4ef27
+      - s-6fbb633cfe
+      - s-968c155c26
+      - s-de1d062cfa
+      - s-8ab36c3f13
+      - s-a61d0327f2
+      - s-dc54cbb4c3
+      - s-00f556c4c2
+      - s-f8f135095d
+      - s-868ddaf587
+      - s-8def40093c

@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Vegavis
+    commonName: Vegavis
+    commonNameZh: 维加鸟
+    rank: genus
+    taxonId: txn:81021
+    firstAppearance: 69.2
+    lastAppearance: 68.4
+    extinct: true
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:vegavis
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Vegavis is represented by skull AMNH FARB 30899 from the 69.2–68.4 Ma Sandwich Bluff Member interval; that dated individual does not establish a genus-wide or crown-bird first appearance, and crown-waterfowl placement remains model-dependent.
+      confidence: high
+      confidenceRationale: The specimen and interval are directly reported. High confidence is limited to that occurrence and keeps disputed topology separate.
+      referenceLinks:
+        - referenceId: torres-2025-vegavis-skull
+          relation: supports
+          pages: 146–151
+          figure: Figures 1–4
+          quoteLocator: Age statement; AMNH FARB 30899; geological setting; phylogenetic analyses
+  claim-rationales.zh:
+    - 标本与区间有直接报告。高置信度仅限该记录，并把有争议的拓扑分开。
+  claim-statements.zh:
+    - 维加鸟由 6920 万至 6840 万年前 Sandwich Bluff 段的头骨 AMNH FARB 30899 表示；该定年个体不建立属级或冠群鸟类首现，其冠群水禽位置仍依赖模型。
+  ranges:
+    - entityId: vegavis
+      rangeKind: global-composite
+      taxonomicConcept: Vegavis iaai, including AMNH FARB 30899
+      geographicScope: Vega Island, Antarctica
+      olderMa: 69.2
+      youngerMa: 68.4
+      status: available
+      uncertainty:
+        olderMa: 69.2
+        youngerMa: 68.4
+        note: This is the study-reported age interval for the fossil-bearing unit, not a direct radioisotopic date on the skull or the full genus range.
+      evidenceBasis: The nearly complete skull AMNH FARB 30899 is tied to the latest Cretaceous Sandwich Bluff Member interval reported as 69.2–68.4 Ma.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:vegavis-skull-crown-test
+      referenceLocators:
+        - referenceId: torres-2025-vegavis-skull
+          locator: 146–151; Figure 1; age statement; AMNH FARB 30899
+  catalogue-profile:
+    sections:
+      - topic: specimen
+        title:
+          en:
+            page: en
+            section: s-adc162a94c
+            part: title
+          zh:
+            page: zh
+            section: s-28c5656481
+            part: title
+        sourceIds:
+          - torres-2025-vegavis-skull
+        text:
+          en:
+            page: en
+            section: s-adc162a94c
+            part: body
+          zh:
+            page: zh
+            section: s-28c5656481
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-54a5107b59
+            part: body
+          en:
+            page: en
+            section: s-6027b2ce78
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-05e8854209
+            part: body
+          en:
+            page: en
+            section: s-47699471de
+            part: body
+    scientificName: Vegavis
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Vegavis
+      en: Vegavis
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Vegavis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=81021
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:81021
+          readingTargets:
+            - name: Vegavis iaai
+              pbdbTaxonId: txn:81024
+              canonicalPath: content/nodes/PBDB%3A81024
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e77b7e33d9
+        part: body
+      en:
+        page: en
+        section: s-cf189dc94c
+        part: body

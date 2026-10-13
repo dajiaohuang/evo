@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-ea1c77075a
+      part: title
+    titleZh:
+      page: zh
+      section: s-a6c81869ef
+      part: title
+    category: transition
+    startAge: 66
+    endAge: 11.63
+    regions:
+      - Global fossil and living-cycad sample
+    clades:
+      - Cycadales
+    summary:
+      page: en
+      section: s-ea1c77075a
+      part: body
+    summaryZh:
+      page: zh
+      section: s-a6c81869ef
+      part: body
+    claimIds:
+      - claim:event:cycad-latitudinal-contraction
+    evidenceItems:
+      - statement: 321 living species, 60 fossil leaf species and time-stratified process-based biogeography
+        relation: supports
+        claimIds:
+          - claim:event:cycad-latitudinal-contraction
+        referenceLinks:
+          - relation: supports
+            referenceId: coiro-2023-cycad-biogeography
+            pages: 1619–1631
+            figure: Figures 5–6
+    uncertaintyItems:
+      - statement: The broad 66–11.63 Ma display window summarizes a modelled transition and is not one dated extinction pulse
+        relation: contextualizes
+        claimIds:
+          - claim:event:cycad-latitudinal-contraction
+        referenceLinks:
+          - relation: supports
+            referenceId: coiro-2023-cycad-biogeography
+            quoteLocator: Evolution of the latitudinal gradient
+      - statement: Fossil omissions, uncertain placements and model assumptions can alter dates, ancestral areas and inferred local extirpation counts
+        relation: contextualizes
+        claimIds:
+          - claim:event:cycad-latitudinal-contraction
+        referenceLinks:
+          - relation: supports
+            referenceId: coiro-2023-cycad-biogeography
+            quoteLocator: Discussion and study limitations
+  claims:
+    - subjectId: event:cycad-latitudinal-contraction
+      claimKind: scientific
+      claimType: biogeography
+      statement: A species-level total-evidence model combining 321 living cycad species with 60 fossil leaf species inferred a broader high-latitude distribution through the Cretaceous and Palaeogene followed by contraction from the end of the Palaeogene to the middle Miocene; including fossils also increased inferred local extirpations from 22 to 130.
+      confidence: medium
+      confidenceRationale: The sampling, fossil placements and process-based biogeographic model are explicit and the contrast between analyses with and without fossils is directly reported. The result remains model- and sample-dependent, omits some important fossils, and does not establish one climatic driver as the sole cause.
+      referenceLinks:
+        - relation: supports
+          referenceId: coiro-2023-cycad-biogeography
+          pages: 1619–1631
+          figure: Figures 5–6
+          quoteLocator: Methods; Historical biogeography of cycads; Evolution of the latitudinal gradient; Conclusion
+  claim-rationales.zh:
+    - 取样、化石位置和过程型生物地理模型均有明确记录，含化石与不含化石分析之间的差异也由论文直接报告。结果仍依赖模型和样本，并遗漏部分重要化石；它也没有证明某一种气候驱动是唯一原因。
+  claim-statements.zh:
+    - 一套结合 321 个现生苏铁物种与 60 个化石叶物种的物种级总证据模型，推断苏铁类在白垩纪和古近纪曾具有更广的高纬分布，随后从古近纪末至中新世中期收缩；纳入化石还使推断的局地灭绝次数由 22 次增至 130 次。

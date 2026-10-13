@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Diasporus amirae
+    name:
+      en: Diasporus amirae
+      zh: Diasporus amirae
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Diasporus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Diasporus amirae in the version 3 classification
+          zh: Diasporus amirae 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-72508ce812
+            part: body
+          zh:
+            page: zh
+            section: s-5d52276d10
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 18 populated trait fields
+          zh: 1 条测量行与 18 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-dc9b69c91e
+            part: body
+          zh:
+            page: zh
+            section: s-0972319aa1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1555; Reference.csv rows 1648
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1555
+        values:
+          - Brachycephaloidea
+          - Diasporus
+          - Diasporus amirae
+          - NA
+          - "21"
+          - "6.1"
+          - "8.2"
+          - "2.4"
+          - "1.2"
+          - NA
+          - "2.5"
+          - NA
+          - "1.6"
+          - "1.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.4"
+          - "3.3"
+          - "4.8"
+          - "6.9"
+          - "5.3"
+          - "2.1"
+          - "2.8"
+          - "3.7"
+          - "3.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1648
+        values:
+          - Anura
+          - Diasporus_amirae
+          - "Arias, E., Chaves, G., Salazar, S., Salazar-Zuniga, J. A., & Garcia-rodriguez, A. (2019). A new species of dink frog, genus Diasporus (Anura: Eleutherodactylidae),from the Caribbean foothills of the Cordillera de Talamanca, Costa Rica. Zootaxa, 4609(2), 269-288. https://doi.org/10.11646/zootaxa.4609.2.4"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - EN
+      - TL
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

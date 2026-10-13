@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Holoaden
+  displayName: Holoaden
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4XX6
+  sourceIndexes:
+    - name:
+        en: Holoaden
+        zh: Holoaden
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4XX6
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/429
+            queryName: Holoaden
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 35
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3363421d58
+      - s-2343db744e
+      - s-3f7a0dcf17
+      - s-ade030152e
+      - s-82e8b0baf9
+      - s-cd6ec1a58c
+      - s-43e72ff28d
+      - s-3acf383ec1
+      - s-4fcaef6a73
+      - s-06cf18a3ea
+      - s-df3e813bf5
+    zh:
+      - s-b4d85cd2c9
+      - s-35b26d900c
+      - s-efd033f18e
+      - s-37f92298a6
+      - s-3df76e8ab0
+      - s-e663cd479e
+      - s-5c2fb3a020
+      - s-bccef59a76
+      - s-0acd456b9e
+      - s-2de3c1867f
+      - s-c213519d0d

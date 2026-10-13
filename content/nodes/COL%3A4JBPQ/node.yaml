@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pithecopus rusticus
+  displayName: Pithecopus rusticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JBPQ
+  sourceIndexes:
+    - name:
+        en: Pithecopus rusticus
+        zh: Pithecopus rusticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JBPQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/370
+            queryName: Pithecopus rusticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/434
+            queryName: Phyllomedusa rustica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7712e173d
+      - s-ecfb6e9a0a
+      - s-bb49a271c2
+      - s-252ff27227
+      - s-92a9ee0ebb
+      - s-02100d6bce
+      - s-43af54ed52
+      - s-302cb93716
+      - s-b1a4230f9e
+      - s-f102e8f13c
+      - s-619c353f3a
+      - s-f870aff695
+      - s-912b2b73b8
+      - s-1fb9f92415
+      - s-ae7816a6af
+      - s-66d325fdb3
+      - s-e16640577a
+      - s-baeb85bbb8
+      - s-32eb4efc12
+      - s-55f43ee074
+      - s-15c12ff8d3
+    zh:
+      - s-52cd267f48
+      - s-5eadc98fdc
+      - s-ff6171699a
+      - s-4216614b30
+      - s-f5385d8a05
+      - s-8ae551e15f
+      - s-a03954908a
+      - s-1103693b72
+      - s-85fb7e8519
+      - s-a5a1468e1c
+      - s-d6cc39d559
+      - s-cc5634a46d
+      - s-8eaa3a9cc5
+      - s-f82311edce
+      - s-b50ee8ea4d
+      - s-b978cc3c3c
+      - s-38b8f0f531
+      - s-743ad5a694
+      - s-8252bf303e
+      - s-5bf34ea52f
+      - s-ea75b1a0b4

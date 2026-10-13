@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys minuta
+  displayName: Proceratophrys minuta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMV2
+  sourceIndexes:
+    - name:
+        en: Proceratophrys minuta
+        zh: Proceratophrys minuta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMV2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/228
+            queryName: Proceratophrys minuta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93a13092db
+      - s-9229e4da6a
+      - s-4deb2c0789
+      - s-3dccfb5c5c
+      - s-c9f0786deb
+      - s-505b1c1995
+      - s-eb5692c7de
+      - s-d0c789c5a0
+      - s-c6ccf7ebaf
+      - s-6661d6c0db
+      - s-e46a020166
+      - s-3113b35ea6
+      - s-2ba24d3251
+      - s-39f9d62211
+      - s-ceb9180897
+      - s-933df66d9f
+      - s-dcf7d52740
+      - s-4aabc98c7d
+      - s-aba7e168b9
+      - s-82114f7220
+      - s-266a8fd5ad
+      - s-b8f90561ae
+    zh:
+      - s-27db82fda5
+      - s-d056211b2b
+      - s-840797d93c
+      - s-0c483d5cd5
+      - s-c82fdbbfab
+      - s-bb8a5389cc
+      - s-e2699ba699
+      - s-5e3c3c30b9
+      - s-ac8de3d4c5
+      - s-22e7b03418
+      - s-72451eb1bd
+      - s-90b1673cd2
+      - s-631e70070b
+      - s-e3ef3573e8
+      - s-9f4b48e63a
+      - s-c603da9e28
+      - s-f5a4e3c1cf
+      - s-d070ef8e29
+      - s-cc66b974f3
+      - s-6cacbae8c7
+      - s-32db336543
+      - s-59b3dfffa0

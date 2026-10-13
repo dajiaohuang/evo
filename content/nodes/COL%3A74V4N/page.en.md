@@ -1,0 +1,3 @@
+## ## Inflated fruit and red or orange seeds {#s-06c5ee846f}
+The Brazilian Flora 2020 entry records more than 13 opposite to subopposite leaflets, each with 9–20 pairs of straight, parallel secondary veins and an inconspicuous reticulate tertiary network; the leaflets are hairless. Papilionaceous flowers exceed 13 mm, with lilac petals and a lateral, bilobed stigma. The fruit is inflated and listed as indehiscent or late-dehiscent; it is generally 2–4 cm wide, becoming hairless, with leathery valves 1–2 mm thick. Seeds are red or orange, up to three per fruit, compressed or ellipsoid, 10–15 mm long and up to 15 mm wide; the hilum is 2–5 mm long. The habitat field says “terrestrial”; the source does not quantify the alternative states or establish a full range.
+

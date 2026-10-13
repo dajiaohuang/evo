@@ -1,0 +1,396 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chalicotherium
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Chalicotherium
+      en: Chalicotherium
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a2f6601d69
+            part: body
+          en:
+            page: en
+            section: s-6de8bafaee
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-963626d624
+            part: body
+          en:
+            page: en
+            section: s-c8ae0c6c99
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Chalicotherium
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=43079
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:43079
+          readingTargets:
+            - name: Chalicotherium rusingense
+              pbdbTaxonId: txn:464554
+              canonicalPath: content/nodes/PBDB%3A464554
+            - name: Chalicotherium goldfussi
+              pbdbTaxonId: txn:388463
+              canonicalPath: content/nodes/PBDB%3A388463
+            - name: Chalicotherium grande
+              pbdbTaxonId: txn:464542
+              canonicalPath: content/nodes/PBDB%3A464542
+            - name: Chalicotherium sinense
+              pbdbTaxonId: txn:476356
+              canonicalPath: content/nodes/PBDB%3A476356
+            - name: Chalicotherium brevirostris
+              pbdbTaxonId: txn:464550
+              canonicalPath: content/nodes/PBDB%3A464550
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-56e0ff3ea4
+        part: body
+      en:
+        page: en
+        section: s-ce92bb5eb4
+        part: body
+  atlas-node:
+    name: Chalicotherium
+    commonName: Chalicotheres
+    commonNameZh: 爪兽类
+    rank: genus
+    taxonId: txn:43079
+    firstAppearance: 15.97
+    lastAppearance: 5.33
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+  atlas-profile:
+    pbdbTaxonId: txn:43079
+    scientificName: Chalicotherium
+    commonName: Chalicothere
+    commonNameZh: 爪兽
+    rank: genus
+    parentName: Chalicotheriidae
+    extinct: true
+    geography:
+      - Southern Germany (sampled Miocene material)
+    overview:
+      page: en
+      section: s-5372e4a18e
+      part: body
+    overviewZh:
+      page: zh
+      section: s-af4d485107
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-289aeb014d
+        part: body
+      habitat:
+        page: en
+        section: s-2f7db25483
+        part: body
+      locomotion:
+        page: en
+        section: s-cc831464d0
+        part: body
+      bodySize:
+        page: en
+        section: s-07b3d27b55
+        part: body
+      guild:
+        page: en
+        section: s-925a21e3e0
+        part: body
+      dietZh:
+        page: zh
+        section: zh-d1d669d13b829c
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-af636a83211df0
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-aecabdef58a1a5
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-7df0c155666395
+        part: body
+      guildZh:
+        page: zh
+        section: zh-0f74d91019702b
+        part: body
+    traits:
+      - page: en
+        section: s-05d7b50ea6
+        part: body
+      - page: en
+        section: s-73c8481fad
+        part: body
+      - page: en
+        section: s-b93e559307
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-83a5d8068b
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-cbaa92c0a1
+      part: body
+    confidence: medium
+    referenceIds:
+      - schulz-2007-chalicothere-feeding
+      - amnh-perissodactyl-evolution
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-5372e4a18e
+            part: title
+          zh:
+            page: zh
+            section: s-af4d485107
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5372e4a18e
+            part: body
+          zh:
+            page: zh
+            section: s-af4d485107
+            part: body
+        sourceIds:
+          - schulz-2007-chalicothere-feeding
+      - id: dental-wear
+        title:
+          en:
+            page: en
+            section: s-6a9dd4b804
+            part: title
+          zh:
+            page: zh
+            section: s-2ffe47657f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6a9dd4b804
+            part: body
+          zh:
+            page: zh
+            section: s-2ffe47657f
+            part: body
+        sourceIds:
+          - schulz-2007-chalicothere-feeding
+      - id: limb-reconstruction
+        title:
+          en:
+            page: en
+            section: s-2758c64069
+            part: title
+          zh:
+            page: zh
+            section: s-d242ab1f5b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2758c64069
+            part: body
+          zh:
+            page: zh
+            section: s-d242ab1f5b
+            part: body
+        sourceIds:
+          - schulz-2007-chalicothere-feeding
+    readerSources:
+      - id: schulz-2007-chalicothere-feeding
+        referenceId: schulz-2007-chalicothere-feeding
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        usage:
+          scope:
+            en: "Schulz et al. (2007), pp. 5?23, Figures 1, 5 and 6 and Tables 2?7: sample names, dental-wear evidence, browse and bark/twig interpretation, ungual phalanges and reconstructed posture."
+            zh: Schulz ??2007??? 5?23 ??? 1?5?6 ?? 2?7????????????????????????????????
+    readerLimitations:
+      en:
+        page: en
+        section: s-97a016ebdc
+        part: body
+      zh:
+        page: zh
+        section: s-7d9fa720eb
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-7f473226f65f4c
+        part: body
+      - page: zh
+        section: zh-8350ac22b947dd
+        part: body
+      - page: zh
+        section: zh-184e09f489ed2a
+        part: body
+  claims:
+    - subjectId: taxon:chalicotherium
+      claimKind: scientific
+      claimType: morphology
+      statement: Southern German chalicotheriine material identified as Chalicotherium goldfussi and the historical combination Chalicotherium (Anisodon) grande preserves large ungual phalanges and shortened hind limbs, while claw use and upright feeding posture remain functional reconstructions.
+      confidence: medium
+      confidenceRationale: The primary study reviews the relevant postcranial anatomy and clearly labels its historical taxonomy. Medium confidence preserves the distinction between observed bones and reconstructed posture or behavior.
+      referenceLinks:
+        - referenceId: schulz-2007-chalicothere-feeding
+          relation: supports
+          pages: 5–23
+          figure: Figures 1, 5 and 6; Tables 2–7
+          quoteLocator: Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture
+    - subjectId: taxon:chalicotherium
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Chalicotherium is retained at genus rank, but the evidence profile distinguishes C. goldfussi from material published under the historical combination Chalicotherium (Anisodon) grande.
+      confidence: medium
+      confidenceRationale: The primary study’s own specimen labels prevent obsolete combinations from being silently treated as current genus membership.
+      referenceLinks:
+        - referenceId: schulz-2007-chalicothere-feeding
+          relation: supports
+          pages: 5–23
+          figure: Figures 1, 5 and 6; Tables 2–7
+          quoteLocator: Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture
+    - subjectId: taxon:chalicotherium
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The atlas’s 15.97–5.33 Ma occurrence envelope is provisional; the cited wear study samples southern German MN5–MN9 material and does not establish exact genus-wide first or last appearances.
+      confidence: low
+      confidenceRationale: Medium confidence applies to the study’s dated locality set, not the occurrence-derived global display endpoints.
+      referenceLinks:
+        - referenceId: schulz-2007-chalicothere-feeding
+          relation: supports
+          pages: 5–23
+          figure: Figures 1, 5 and 6; Tables 2–7
+          quoteLocator: Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture
+    - subjectId: taxon:chalicotherium
+      claimKind: scientific
+      claimType: ecology
+      statement: Sampled chalicotheriines show browse-dominated feeding with unusually abrasive bark or twig components; reconstructed claw use and posture remain functional interpretations.
+      confidence: medium
+      confidenceRationale: Dental wear directly supports diet, while limb function is explicitly treated as interpretation rather than behavior observed in fossils.
+      referenceLinks:
+        - referenceId: schulz-2007-chalicothere-feeding
+          relation: supports
+          pages: 5–23
+          figure: Figures 1, 5 and 6; Tables 2–7
+          quoteLocator: Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture
+    - subjectId: taxon:chalicotherium
+      claimKind: scientific
+      claimType: biogeography
+      statement: The detailed evidence is bounded to sampled Miocene localities in southern Germany; it is not used as proof of a complete Europe–Asia genus distribution.
+      confidence: medium
+      confidenceRationale: The source’s specimen and locality list directly supports the narrower geographic wording.
+      referenceLinks:
+        - referenceId: schulz-2007-chalicothere-feeding
+          relation: supports
+          pages: 5–23
+          figure: Figures 1, 5 and 6; Tables 2–7
+          quoteLocator: Sample definition, dental-wear results and discussion of browse, bark/twig abrasion and reconstructed posture
+  claim-rationales.zh:
+    - 主研究综述相关的颅后解剖，并清楚标明历史分类。中等置信度保留了所观察骨骼与所重建姿势或行为之间的区别。
+    - 分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。
+    - 化石范围主张把论文直接约束的区域或样本年代与图集的临时导航端点分开，端点不被当作精确起源或灭绝时刻。
+    - 生态主张区分直接测得的磨耗或同位素信号与栖息地、行为推断，并保留物种、地点和时代边界。
+    - 生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。
+  claim-statements.zh:
+    - 爪兽属按所引系统研究采用当前分类层级；导航父级仅表示分类关联，不表示直接祖先。
+    - 爪兽属的图集数值范围仍是临时导航包络；主研究只独立约束其明确讨论的区域或样本年代，端点不是精确起源或灭绝时刻。
+    - 爪兽属的生态档案按取样物种、地点与方法限定食性和运动推断，不把局部结果推广为整个类群的固定生态。
+    - 爪兽属的地理档案只覆盖所引研究明确讨论的区域与地点，并非完整的全球产出分布。
+    - 德国南部被鉴定为金氏爪兽及历史组合“爪兽（Anisodon）grande”的爪兽亚科材料保存了大型末端趾骨和缩短的后肢；爪的用途与直立取食姿势仍属功能重建。
+  ranges:
+    - entityId: chalicotherium
+      rangeKind: global-composite
+      taxonomicConcept: Chalicotherium numerical range withheld pending genus-wide global synthesis
+      geographicScope: No defensible global numerical scope established
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The source samples southern German MN5–MN9 material and cannot establish global genus endpoints.
+      evidenceBasis: The former 15.97–5.33 Ma display is withheld because the dental-wear study directly covers selected southern German MN5–MN9 samples rather than genus-wide first and last appearances.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: schulz-2007-chalicothere-feeding
+          locator: pp. 5–23; Figures 1, 5–6; Tables 2–7; southern German MN5–MN9 samples
+      evidenceLevel: withheld-no-range-evidence

@@ -1,0 +1,158 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Siren lacertina
+    name:
+      en: Siren lacertina
+      zh: Siren lacertina
+    sourceClassification:
+      order: Caudata
+      family: Sirenidae
+      genus: Siren
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Siren lacertina in the morphology deposit
+          zh: 形态数据中的 Siren lacertina 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d8b470bd32
+            part: body
+          zh:
+            page: zh
+            section: s-20622dc04b
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 352: measurement fields and sex codes"
+          zh: 第 352 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-39cec25706
+            part: body
+          zh:
+            page: zh
+            section: s-20d8a4d2ea
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 352; Reference.csv rows 4113
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 352
+        values:
+          - Sirenidae
+          - Siren
+          - Siren lacertina
+          - NA
+          - NA
+          - "35.8"
+          - NA
+          - NA
+          - "50.4"
+          - "35.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "17.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4113
+        values:
+          - Caudata
+          - Siren_lacertina
+          - "Graham, S. P., Kline, R., Steen, D. A., & Kelehear, C. (2018). Description of an extant salamander from the Gulf Coastal Plain of North America: The Reticulated Siren, Siren reticulata. PLoS One, 13(12). https://doi.org/10.1371/journal.pone.0207460"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4XR2K
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

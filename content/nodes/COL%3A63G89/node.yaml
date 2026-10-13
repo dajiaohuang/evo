@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon
+  displayName: Ololygon
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63G89
+  sourceIndexes:
+    - name:
+        en: Ololygon
+        zh: Ololygon
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63G89
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/108
+            queryName: Ololygon
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 50
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72c7cc4be9
+      - s-553ef33e7a
+      - s-bd23bcb5d5
+      - s-f1281d244a
+      - s-f7a6e6649d
+      - s-dca65edba0
+      - s-c887ae4cd9
+      - s-75b41fa896
+      - s-2aabb1cb18
+      - s-16a8b86505
+      - s-7285f9f82e
+      - s-bcb4dfd326
+      - s-9618f30c3b
+      - s-d035f4c51a
+      - s-ba29a6b020
+      - s-6978f3f128
+      - s-2cabb39e32
+      - s-7e2e7aff24
+      - s-a9fdb03371
+      - s-44282b8733
+    zh:
+      - s-85f5cf2ca3
+      - s-4995e97069
+      - s-9d2c5adcae
+      - s-f940a326ea
+      - s-daea34af33
+      - s-f8686e3fc6
+      - s-f779e410a0
+      - s-c48defa861
+      - s-9fef214c29
+      - s-0bd45d385a
+      - s-b7e24b0fe5
+      - s-8a02299654
+      - s-9e3d1f9ec7
+      - s-5692465be5
+      - s-9058ff5f88
+      - s-a3e0b4f3f0
+      - s-11ac9b5211
+      - s-b8f7c65137
+      - s-62974eeed8
+      - s-9ae7fc1f59

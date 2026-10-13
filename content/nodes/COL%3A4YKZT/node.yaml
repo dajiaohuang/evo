@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaenorhynchus carneus
+  displayName: Sphaenorhynchus carneus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YKZT
+  sourceIndexes:
+    - name:
+        en: Sphaenorhynchus carneus
+        zh: Sphaenorhynchus carneus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YKZT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/233
+            queryName: Sphaenorhynchus carneus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/6
+            queryName: Sphaenorhynchus habrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/273
+            queryName: Hylella carnea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/274
+            queryName: Sphoenohyla habra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/275
+            queryName: Dryomelictes habra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/276
+            queryName: Hyla habra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4f66b5ec48
+      - s-f179f601d7
+      - s-b0a881ef29
+      - s-cb9ce199f2
+      - s-b3d88b7cb4
+      - s-112528097f
+      - s-7c3a8f6c45
+      - s-583275350f
+      - s-3a4a1b69b0
+      - s-d57ebf9cbb
+      - s-f22f5c70ad
+      - s-e5d93b25a1
+      - s-373a4b19bd
+      - s-7cdbb7835a
+    zh:
+      - s-0d9c5d2224
+      - s-e8e34097ee
+      - s-aca335f5e1
+      - s-3e7e4f53a4
+      - s-5e7d1c4b3f
+      - s-9e03197a49
+      - s-b8211f02e8
+      - s-6807657c50
+      - s-e1c8181cdb
+      - s-58bf4e8489
+      - s-6db32e00d2
+      - s-ef7eb4230c
+      - s-3c704715d0
+      - s-74e4fe5011

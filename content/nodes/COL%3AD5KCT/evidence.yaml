@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ardenna pacifica
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Ardenna pacifica
+      en: Ardenna pacifica
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-1f9d7639ce
+            part: body
+          en:
+            page: en
+            section: s-2d79a4bdda
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-b5f43d7f22
+            part: body
+          en:
+            page: en
+            section: s-32fd96814b
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-ed7b890c61
+            part: body
+          en:
+            page: en
+            section: s-dbf78434ac
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-2f2180379d
+            part: body
+          en:
+            page: en
+            section: s-7030e941b1
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetArdennaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-c405855439
+            part: body
+          en:
+            page: en
+            section: s-1386a1e17a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ardenna pacifica
+          url: https://www.checklistbank.org/dataset/316115/taxon/D5KCT
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetArdennaHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Ardenna historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 10083–10089; each eBird and BirdTree crosswalk, ar/pu COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Puffinus 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Puffinus combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-73dd4654bc
+        part: body
+      en:
+        page: en
+        section: s-972419536d
+        part: body

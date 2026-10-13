@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ixia macrocarpa Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3QFP2, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3QFP2; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3QFP2
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3QFP2
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001343240-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3QFP2 / WFO wfo-0001343240
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ixia macrocarpa Goldblatt & J.C.Manning account; SANBI/WFO archive rows 98801 (Morphology), 97510 (Habitat), 95016 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants acaulescent, leaves and flowers reaching 30-50 mm above ground, often in small clumps. Corm broadly conic, 6-8 mm diam.; tunics of pale brown, fine, netted fibres. Stem underground, sheathed by membranous cataphylls reaching ground level. Leaves 6 or 7, falcate-flabellate, basal, 5-15 x (3-)4-6 mm, obtuse, leathery, glaucous, without evident main vein, margins cartilaginous. Spike contracted, few-flowered, hidden in leaf bases; bracts membranous, translucent, flushed green distally, outer linear-oblong, ± 30 mm long, median vein visible only near apex, acute, inner slightly shorter with 2 veins visible distally, acute. Flowers salver-shaped, pale yellow with red-brown blotch at bases of tepals, presence of scent unknown; perianth tube filiform, 35-45 mm long, cylindric, occluded by walls closely clasping style; tepals spreading, subequal, elliptic, slightly spooned, 12-15 x 4-5 mm. Filaments inserted at mouth of tube, united in a column ± 4 mm long; anthers diverging, curving inward distally, ± 4 mm long, yellow. Ovary subterranean, flask-shaped, 6 mm long. Style dividing just below apex of filament column, ± 2.5 mm long, extending between anthers. Capsules largely subterranean, concealed in leaf sheaths, oblong-ellipsoid, 20 x 5 mm, sterile in upper third, splitting at ground level to release seeds. Seeds globose, smooth, ± 3 mm diam., reddish brown, raphal vascular trace excluded.
+            textZh: Ixia macrocarpa Goldblatt & J.C.Manning 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Morphology row 98801; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Ixia macrocarpa, the second acaulescent species known in Ixia, has long-tubed, pale yellow flowers with dark markings at the base of the tepals. Despite the shared acaulescent habit, it may not be closely allied to I. acaulis, the other acaulescent species of the genus, restricted to rocky outcrops of limestone and marble in the Knersvlakte southwest of Loeriesfontein. Ixia macrocarpa differs in having broader, falcate leaves arranged in a tight fan, filaments united in a column enclosing the style, and diverging anthers. The pale yellow flowers have the tepals marked dark red-brown at the bases. Ixia acaulis has narrow, spreading to prostrate leaves, and uniformly yellow flowers with the style dividing opposite the bases of free filaments, and parallel anthers. Seeds of I. macrocarpa are smooth and unusually large, ± 3 mm diam.
+            textZh: SANBI 条目提供了 Ixia macrocarpa Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 95016; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony, shale flats in fine-grained clay ground, in Hantam Karoo vegetation.
+            textZh: 该 SANBI 区域物种条目记录的生境：Stony, shale flats in fine-grained clay ground, in Hantam Karoo vegetation.
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Habitat row 97510; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

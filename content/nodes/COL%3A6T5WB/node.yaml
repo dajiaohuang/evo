@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne inornata
+  displayName: Oreophryne inornata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T5WB
+  sourceIndexes:
+    - name:
+        en: Oreophryne inornata
+        zh: Oreophryne inornata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T5WB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/271
+            queryName: Oreophryne inornata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3b7b30ceea
+      - s-e17cdce5a7
+      - s-9d37ecae06
+      - s-d2c1c8c389
+      - s-6288a9c6b7
+      - s-7bd71994c7
+      - s-690601a5dc
+      - s-e1c05e050a
+      - s-340ecba762
+      - s-6bf0017553
+    zh:
+      - s-4ba2966bea
+      - s-0ddb4ccced
+      - s-6e42b6daa6
+      - s-45c0cccbe5
+      - s-ce41e44768
+      - s-12853d41e7
+      - s-01d94418b2
+      - s-24701732ca
+      - s-8ae7939261
+      - s-8ca9681e2a

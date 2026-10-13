@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla meridionalis
+  displayName: Hyla meridionalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3ND2Y
+  sourceIndexes:
+    - name:
+        en: Hyla meridionalis
+        zh: Hyla meridionalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3ND2Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/364
+            queryName: Hyla meridionalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 59
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/498
+            queryName: Hyla perezii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/499
+            queryName: Hyla barytonus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/0
+            queryName: Hyla africana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/475
+            queryName: Hyla arborea meridionalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/476
+            queryName: Hyla viridis meridionalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-440c43b797
+      - s-261a758af3
+      - s-035923b5a4
+      - s-7571e77a83
+      - s-05365bee09
+      - s-8ab2ea529c
+      - s-1d4bb1ecb9
+      - s-362fecda8f
+      - s-114548269d
+      - s-7c86c79a4a
+      - s-18f06d9d01
+      - s-f4d84fa49a
+      - s-e91c82c424
+      - s-c669b5dd9d
+      - s-d7cc62e737
+    zh:
+      - s-8202fd9653
+      - s-00bce375c9
+      - s-b246b16f15
+      - s-4d7a81cd92
+      - s-a7d684197c
+      - s-01d770323f
+      - s-09866550e7
+      - s-839c44d717
+      - s-671a5682de
+      - s-cb0eb48661
+      - s-ac689be8ff
+      - s-945906c727
+      - s-c2155bc878
+      - s-bb33485a1b
+      - s-18964847c8

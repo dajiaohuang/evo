@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates spectabilis
+  displayName: Lithobates spectabilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQW
+  sourceIndexes:
+    - name:
+        en: Lithobates spectabilis
+        zh: Lithobates spectabilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/195
+            queryName: Lithobates spectabilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/228
+            queryName: Rana spectabilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d338446256
+      - s-1b1cb80338
+      - s-a78f7b6073
+      - s-b863238175
+      - s-6947bbeb7e
+      - s-097ac11a18
+      - s-eeb7a9614b
+      - s-6c88ad60d2
+      - s-8e91a631b6
+      - s-5a4d511215
+    zh:
+      - s-d047db7d6d
+      - s-422397c26d
+      - s-105cd68d1c
+      - s-ce73c0eb74
+      - s-aade32e6d8
+      - s-0f9bb26614
+      - s-7fc3121df8
+      - s-700e641f47
+      - s-f5bd5fa398
+      - s-bdcb0a227b

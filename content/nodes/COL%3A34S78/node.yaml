@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus schubarti
+  displayName: Dendropsophus schubarti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S78
+  sourceIndexes:
+    - name:
+        en: Dendropsophus schubarti
+        zh: Dendropsophus schubarti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S78
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/421
+            queryName: Dendropsophus schubarti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/465
+            queryName: Hyla schubarti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-abed960888
+      - s-e7ab1e4066
+      - s-feb2fb0886
+      - s-196c67c68a
+      - s-8ef20dd395
+      - s-bc31fc579f
+      - s-998776d5d2
+      - s-1af7446408
+      - s-2b3b4517c5
+      - s-02919f90c5
+    zh:
+      - s-bab808f0d8
+      - s-7f47db5d15
+      - s-edf0e8dafd
+      - s-4db5f21652
+      - s-fc31b2f29d
+      - s-c0cf57e676
+      - s-07494b731b
+      - s-b47b31c6c6
+      - s-6e7cafd716
+      - s-b68c55f6ec

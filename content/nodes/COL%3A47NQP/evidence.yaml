@@ -1,0 +1,636 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nomascus leucogenys (Ogilby, 1840)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 北白颊长臂猿
+      en: Northern white-cheeked gibbon
+    sections:
+      - topic: lifeHistory
+        text:
+          zh:
+            page: zh
+            section: s-83ef072afe
+            part: body
+          en:
+            page: en
+            section: s-4fe4f55ed8
+            part: body
+        sourceIds:
+          - hradec2026CaptiveGibbonVocalizations
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-ee5e1d550d
+            part: body
+          en:
+            page: en
+            section: s-1cf0be756f
+            part: body
+        sourceIds:
+          - jia2018GibbonCaptiveMicrobiota
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-0d98ccef66
+            part: body
+          en:
+            page: en
+            section: s-c94848fe9a
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-daeafe8687
+            part: body
+          en:
+            page: en
+            section: s-3cce15dc36
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-31d5f0d820
+            part: body
+          en:
+            page: en
+            section: s-e3311ce670
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-85aa0a2e38
+            part: body
+          en:
+            page: en
+            section: s-0474956737
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-62b12193c0
+            part: body
+          en:
+            page: en
+            section: s-0f71ccfb7e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-ff1fcfdc02
+            part: body
+          en:
+            page: en
+            section: s-e36fb503c8
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f4afd4c7ff
+            part: body
+          en:
+            page: en
+            section: s-c22bf9a544
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-0ec53e5e6a
+            part: body
+          en:
+            page: en
+            section: s-d73acd4404
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-655d08e397
+            part: body
+          en:
+            page: en
+            section: s-569d91e7ae
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-5af84e6a80
+            part: body
+          en:
+            page: en
+            section: s-0514f5e3bb
+            part: body
+    sources:
+      - id: hradec2026CaptiveGibbonVocalizations
+        referenceId: ref-e4705dd8-e3b1-8cd9-afef-34855debe548
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 圈养北白颊与南黄颊长臂猿的群内发声研究；本条只采用 9 只北白颊长臂猿的录音结果。
+            en: Study of intragroup vocalizations in captive northern white-cheeked and southern yellow-cheeked gibbons; this account uses recordings from nine N. leucogenys only.
+      - id: jia2018GibbonCaptiveMicrobiota
+        referenceId: ref-1e51f93b-086e-8547-a205-222e8a27f293
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 中国两家动物园 56 只圈养个体的粪便 16S 研究；不代表野外微生物群，也未隔离单一饲养因素。
+            en: Fecal 16S study of 56 captive animals at two Chinese zoos; it does not represent wild microbiomes or isolate a single husbandry factor.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/47NQP
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12278; name Nomascus leucogenys; reference table row 12278; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: mean of Ernest et al., 2003 & de Magalhaes and Costa, 2009 from median of 4(de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, de Magalhaes and Costa, 2009)
+            female_maturity_d: mean of Ernest et al., 2003 and de Magalhaes and Costa, 2009
+            litter_or_clutch_size_n: mean of Ernest et al., 2003 and de Magalhaes and Costa, 2009
+            gestation_d: mean of Ernest et al., 2003 and de Magalhaes and Costa, 2009
+            weaning_d: de Magalhaes and Costa, 2009
+            birth_or_hatching_weight_g: Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            maximum_longevity_y: de Magalhaes and Costa, 2009
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 826; Scientific=Nomascus leucogenys; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-711d42a0df
+        part: body
+      en:
+        page: en
+        section: s-adb65f707a
+        part: body
+  catalogue-dossier:
+    scientificName: Nomascus leucogenys (Ogilby, 1840)
+    authorship: (Ogilby, 1840)
+    rank: species
+    sourceDatasetId: "2144"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4DT
+        scientificName: Haplorrhini Pocock, 1918
+        authorship: Pocock, 1918
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4PM
+        scientificName: Simiiformes Haeckel, 1866
+        authorship: Haeckel, 1866
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 58L
+        scientificName: Hominoidea Gray, 1825
+        authorship: Gray, 1825
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: B9K
+        scientificName: Hylobatidae Gray, 1871
+        authorship: Gray, 1871
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 64QQ
+        scientificName: Nomascus Miller, 1933
+        authorship: Miller, 1933
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 47NQP
+        scientificName: Nomascus leucogenys (Ogilby, 1840)
+        authorship: (Ogilby, 1840)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 usage 47NQP. Evidence in this dossier is limited to captive gibbon vocalizations and captive gut-microbiome comparisons; it does not establish wild behavior, a complete range, or global conservation status.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: No wild population was directly sampled in the two cited studies.
+      domesticated: No domesticated animals were assessed.
+      captive: Both cited studies concern gibbons kept in zoological facilities.
+      fossil: No fossil evidence was assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/47NQP
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:47NQP@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 47NQP; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 47NQP. https://doi.org/10.48580/dgywk.
+      - id: jia2018GibbonCaptiveMicrobiota
+        referenceId: ref-9ccd19bc-9a83-8238-a575-92e17ffeae25
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Rights and permissions section identifies the article as open access under CC BY 4.0.
+          licenseAppliesTo: Article text; no figures, tables, or third-party content are reproduced.
+          stableId: doi:10.1038/s41598-018-21117-2
+          locator: Abstract; Results on adult gibbons in Beijing and Nanning groups and age-group comparisons; Rights and permissions section.
+          attribution: Jia T, Zhao S, Knott K, et al. (2018). Scientific Reports 8:3214. https://doi.org/10.1038/s41598-018-21117-2. CC BY 4.0. Claims paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Fecal 16S microbiome samples from 56 captive northern white-cheeked gibbons in Beijing and Nanning zoos; facility and age-group comparisons do not establish wild microbiome ecology.
+          accessedAt: 2026-09-27
+      - id: hradec2026CaptiveGibbonVocalizations
+        referenceId: ref-18dd14a7-64d0-8355-ac79-cddb92521458
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Rights and permissions section identifies the article as open access under CC BY 4.0.
+          licenseAppliesTo: Article text; no audio, spectrogram, figure, table, or third-party material is reproduced.
+          stableId: doi:10.1007/s10764-026-00569-8
+          locator: Methods, Study Subjects and Data Collection; Results, Qualitative Description of the Calls and Grunt Call; Rights and permissions section.
+          attribution: Hradec M, Bolechová P, Pacáková Z (2026). International Journal of Primatology. https://doi.org/10.1007/s10764-026-00569-8. CC BY 4.0. Claims paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Long-term recordings from nine captive northern white-cheeked gibbons and five captive southern yellow-cheeked gibbons in seven zoological parks; behavioral repertoires in wild groups were not directly measured.
+          accessedAt: 2026-09-27
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The cited studies do not document diagnostic body morphology, age- and sex-stratified measurements, or identification limits.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: In recordings from nine captive northern white-cheeked gibbons, researchers classified three intragroup call types—grunt, hoo, and long hoo—across multiple social, feeding, stress, and attention contexts. These observations cover a limited captive sample and do not establish the complete repertoire or wild age-specific behavior.
+            originalLanguage: en
+            sourceIds:
+              - hradec2026CaptiveGibbonVocalizations
+            locator: Methods, Study Subjects and Data Collection; Results, Qualitative Description of the Calls; Figs. 2–5 and Tables I–III.
+            placeTimeScope: Nine northern white-cheeked gibbons in zoological parks in Czechia, France, Sweden, and Israel; recordings were made in 2015, 2017, and 2021–2024.
+            lifeStatus: Captive animals; wild vocal behavior was not directly measured.
+        gaps:
+          - Reproductive behavior, development outside recorded call contexts, parental care, lifespan, survival, and wild population variation remain unassessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In a fecal 16S study of 56 captive northern white-cheeked gibbons at two Chinese zoos, gut-microbiome composition and diversity differed among age groups and between adult zoo groups under distinct captive conditions. The results do not establish microbiome composition in wild populations or isolate the effect of any one husbandry factor.
+            originalLanguage: en
+            sourceIds:
+              - jia2018GibbonCaptiveMicrobiota
+            locator: Abstract; Results, Composition of the GIT microbiota and Comparison of adult gibbons between the Nanning and Beijing groups.
+            placeTimeScope: "56 captive animals: 36 from Nanning Zoo and 20 from Beijing Zoo; comparisons include adults and age groups at Nanning."
+            lifeStatus: Captive gibbons sampled from zoological facilities.
+        gaps:
+          - Wild habitat use, diet and plant interactions in free-ranging populations, parasites, competitors, and microbiome variation across the natural range are not established.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No species-level phylogeny, divergence estimate, or trait-evolution analysis is included.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No dated, source-verified current or historical range assessment is included.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No reproducible fossil search or fossil occurrence assessment is included.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No formal conservation assessment with system, status, date, and population scope is included; a source's license was not verified for reuse.

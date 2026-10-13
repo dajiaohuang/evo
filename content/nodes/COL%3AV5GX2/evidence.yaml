@@ -1,0 +1,431 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys sangzhiensis (Jiang, Ye & Fei, 2008)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys sangzhiensis
+      zh: Boulenophrys sangzhiensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6c78ac6aea
+            part: title
+          zh:
+            page: zh
+            section: s-64d4d3330a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6c78ac6aea
+            part: body
+          zh:
+            page: zh
+            section: s-64d4d3330a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-76112c28bb
+            part: title
+          zh:
+            page: zh
+            section: s-5b659e89f0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-76112c28bb
+            part: body
+          zh:
+            page: zh
+            section: s-5b659e89f0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8bf4c49a57
+            part: title
+          zh:
+            page: zh
+            section: s-7c602b1aa9
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-8bf4c49a57
+            part: body
+          zh:
+            page: zh
+            section: s-7c602b1aa9
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-9a3b935d5ab5b6d6041cde5f
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-226d883944baf559b0aa991f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-aed1b6f4e801867be0f02f7a1cd754e2
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-31be5e30be
+            part: title
+          zh:
+            page: zh
+            section: s-f16034f459
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-31be5e30be
+            part: body
+          zh:
+            page: zh
+            section: s-f16034f459
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-f6e0050954
+            part: title
+          zh:
+            page: zh
+            section: s-f1bff23104
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5gx2
+        text:
+          en:
+            page: en
+            section: s-f6e0050954
+            part: body
+          zh:
+            page: zh
+            section: s-f1bff23104
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-5e2d25d883
+            part: title
+          zh:
+            page: zh
+            section: s-2f9222b715
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5gx2
+        text:
+          en:
+            page: en
+            section: s-5e2d25d883
+            part: body
+          zh:
+            page: zh
+            section: s-2f9222b715
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-303f9a5ef0
+            part: title
+          zh:
+            page: zh
+            section: s-ad68552615
+            part: title
+        sourceIds:
+          - primary-pmc12466624-v5gx2
+        text:
+          en:
+            page: en
+            section: s-303f9a5ef0
+            part: body
+          zh:
+            page: zh
+            section: s-ad68552615
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys sangzhiensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5GX2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 3515; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3154; Reference.csv rows 808
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3832; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3833 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: primary-pmc10083232-v5gx2
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys sangzhiensis: Named species types, examined specimens, diagnosis, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-v5gx2
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys sangzhiensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-82b60fc03c
+        part: body
+      zh:
+        page: zh
+        section: s-0be23530b5
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-9a3b935d5ab5b6d6041cde5f
+        scientificName: Boulenophrys sangzhiensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v5gx2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys sangzhiensis
+        evidenceRead: "Boulenophrys sangzhiensis: Named species types, examined specimens, diagnosis, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Tianping and Huping mountain records
+              zh: 天平山及壶瓶山记录
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5gx2
+            locator: RESULTS > Boulenophrys sangzhiensis; Holotype, Specimens examined and Distribution; reading-sections index 37, section s03.53
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-48f23569c5
+                part: body
+              zh:
+                page: zh
+                section: s-494138b416
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Six examined adults with finger-specific tubercles
+              zh: 六只检查成体与指位专属关节下瘤
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5gx2
+            locator: RESULTS > Boulenophrys sangzhiensis; Diagnosis characters 1, 4, 7, 9 and 11; reading-sections index 37, section s03.53
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5bac2ef39a
+                part: body
+              zh:
+                page: zh
+                section: s-6aee2e15ab
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-v5gx2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys sangzhiensis
+        evidenceRead: "Boulenophrys sangzhiensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-v5gx2
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,34
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-80ae7ef719
+                part: body
+              zh:
+                page: zh
+                section: s-021852f0f8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

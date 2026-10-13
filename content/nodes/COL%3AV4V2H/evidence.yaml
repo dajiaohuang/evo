@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pseudodesulfovibrio karagichevae Bidzhieva et al., 2025
+    rank: species
+    sourceDatasetId: "2015"
+    identity:
+      method: Exact COL26.8 accepted usage V4V2H was checked by API fields for full scientific name Pseudodesulfovibrio karagichevae Bidzhieva et al., 2025, authorship Bidzhieva et al., 2025, species rank, accepted status and source dataset 2015. The pinned COL26.8 LPSN source-record crosswalk maps this exact COL ID to LPSN record 66912; the linked LPSN record was checked for matching name usage and nomenclatural status. No name-only or fuzzy join was used.
+      scope: This establishes a nomenclatural usage crosswalk only; it does not establish full biological species-concept equivalence.
+      sourceIds:
+        - col
+        - lpsn
+    lifeStatusScope:
+      wild: Biological observations refer only to the wild-origin type strain and observations reported in the cited species description; no field population generalization is made.
+      domesticated: No domesticated or captive populations were studied or inferred.
+      fossil: Fossil evidence was not assessed; no fossil-presence or fossil-absence claim is made.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 26
+        usage:
+          licenseAppliesTo: COL26.8 nomenclatural usage only
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          version: COL26.8 pinned 2026-08-20; accepted usage checked 2026-09-24
+          attribution: Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, DOI 10.48580/dgywk
+          licenseAssessment: identity-only
+          scope: "Name usage identity fields only: taxon ID, accepted scientific name, authorship, rank, status, and source dataset ID. No biological claims are derived from COL."
+          url: https://www.checklistbank.org/dataset/316115/taxon/V4V2H
+          stableId: V4V2H
+          locator: Pinned COL26.8 accepted usage V4V2H; API fields name, authorship, species rank, accepted status, and sectorDatasetKey 2015
+      - id: lpsn
+        referenceId: ref-e2731d97-ad22-8332-a19a-fd1bcec3ec22
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: LPSN nomenclatural source data and pinned crosswalk only
+          stableId: "66912"
+          attribution: Freese et al. (2026), List of Prokaryotic names with Standing in Nomenclature (LPSN), https://doi.org/10.1093/nar/gkaf1110
+          licenseAssessment: identity-only
+          scope: The exact release-pinned COL ID to LPSN ID mapping and name usage nomenclature only; no biological claims or complete species-concept equivalence are inferred.
+          locator: Release-pinned exact crosswalk row COL V4V2H -> LPSN record 66912; row response SHA-256 39d75c9f3e9832321ea96762832ed3e081cb91e5a3597108f01b266efa268bfb; linked LPSN item record 66912 supplies matching name usage and nomenclatural status
+      - id: paper
+        referenceId: ref-f61aabe5-88a4-8bd0-ae47-29608e494d08
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAssessment
+          - scope
+          - attribution
+        metadataVariant: 0
+        usage:
+          stableId: 10.3390/microorganisms12122552
+          accessedAt: 2026-09-24
+          locator: Taxon-specific species account and sections named in each facet claim; original article and item-level license metadata linked by DOI/PMCID
+          licenseAssessment: item-level-verified
+          scope: Article states that it is open access under CC BY 4.0; third-party material may have separate terms. Claims here are paraphrases with attribution.
+          attribution: Bidzhieva et al. (2024), Sulfate-Reducing Bacteria Isolated from an Oil Field in Kazakhstan and a Description of Pseudodesulfovibrio karagichevae sp. nov., DOI 10.3390/microorganisms12122552
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The article provides scanning and transmission electron micrographs of strain 9FUS-T cells, including a flagellum and an ultrathin section. The microscopy caption states that the strain was grown in lactate/sulfate medium for seven days at 25 C.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Figure 1 caption; microscopy of strain 9FUS-T
+            placeTimeScope: One cultured type strain under the stated preparation and growth conditions.
+            lifeStatus: Wild isolate; evidence is restricted to the named cultured type strain and the paper-reported observations.
+        gaps:
+          - No population-level morphology survey, developmental stages or environmental variation were assessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No life-history search was performed; reproduction, development, behavior and lifespan are not characterized.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Strain 9FUS-T was isolated from formation water at the Karazhanbas oil field in Kazakhstan and characterized as sulfate-reducing. The article discusses petroleum-industry sulfidogenesis; it does not measure field-scale activity of the species.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Abstract; strain isolation and characterization sections
+            placeTimeScope: One cultured isolate and the sampled formation-water context described in the paper.
+            lifeStatus: Wild isolate; evidence is restricted to the named cultured type strain and the paper-reported observations.
+        gaps:
+          - No in-situ abundance, activity rate, ecological interaction or reservoir-wide survey was assessed.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: The study compares 16S rRNA and a tree based on 120 conserved single-copy proteins, and reports ANI and dDDH comparisons supporting the authors' proposed distinct species placement. This is the study's taxonomic inference.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Abstract; Figures 2 and 3; genomic relatedness results
+            placeTimeScope: The strain and comparator genomes included in the 2024 paper.
+            lifeStatus: Wild isolate; evidence is restricted to the named cultured type strain and the paper-reported observations.
+        gaps:
+          - Alternative broader taxon sampling, later revisions and independent phylogenomic review were not assessed.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The type strain was isolated from formation water at the Karazhanbas oil field, Kazakhstan.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Title; abstract; strain isolation section
+            placeTimeScope: The type-strain collection site only; no wider range is implied.
+            lifeStatus: Wild isolate; evidence is restricted to the named cultured type strain and the paper-reported observations.
+        gaps:
+          - No additional localities, global range or sampling completeness were assessed.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil or paleontological literature/database search was performed; no fossil-presence or fossil-absence conclusion is made.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No conservation assessment or current formal Red List record was assessed.
+    readerSections:
+      - id: page-af4eba78b8
+        title:
+          en:
+            page: en
+            section: s-7fdf203174
+            part: title
+          zh:
+            page: zh
+            section: s-4ec933f88e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7fdf203174
+            part: body
+          zh:
+            page: zh
+            section: s-4ec933f88e
+            part: body
+        sourceIds:
+          - paper
+      - id: page-0a78ef0e37
+        title:
+          en:
+            page: en
+            section: s-e85d86ec98
+            part: title
+          zh:
+            page: zh
+            section: s-7e5b5823e4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e85d86ec98
+            part: body
+          zh:
+            page: zh
+            section: s-7e5b5823e4
+            part: body
+        sourceIds:
+          - paper
+      - id: page-6e19d29467
+        title:
+          en:
+            page: en
+            section: s-83530cc977
+            part: title
+          zh:
+            page: zh
+            section: s-bccf6f29a0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-83530cc977
+            part: body
+          zh:
+            page: zh
+            section: s-bccf6f29a0
+            part: body
+        sourceIds:
+          - paper
+      - id: page-3046657ab3
+        title:
+          en:
+            page: en
+            section: s-de269bcb9f
+            part: title
+          zh:
+            page: zh
+            section: s-2a8e66e38d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-de269bcb9f
+            part: body
+          zh:
+            page: zh
+            section: s-2a8e66e38d
+            part: body
+        sourceIds:
+          - paper

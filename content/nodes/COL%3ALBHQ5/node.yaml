@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops putaoensis
+  displayName: Amolops putaoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LBHQ5
+  sourceIndexes:
+    - name:
+        en: Amolops putaoensis
+        zh: Amolops putaoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LBHQ5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/395
+            queryName: Amolops putaoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-31d0aae4ff
+      - s-5550611e2e
+      - s-67019c77c8
+      - s-91521946a8
+      - s-72193430fb
+      - s-3583e2d300
+      - s-1d132926a8
+      - s-4133ce543a
+    zh:
+      - s-076ba80cb0
+      - s-8ef1cea163
+      - s-07ca8e416c
+      - s-31fc237387
+      - s-7f8112c619
+      - s-13d6bdd92e
+      - s-972dfa1b73
+      - s-74bcaebaee

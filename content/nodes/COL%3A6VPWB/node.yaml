@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodontohyla bipunctata
+  displayName: Plethodontohyla bipunctata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VPWB
+  sourceIndexes:
+    - name:
+        en: Plethodontohyla bipunctata
+        zh: Plethodontohyla bipunctata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VPWB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/6
+            queryName: Plethodontohyla bipunctata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/162
+            queryName: Mantipus bipunctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9a53fcd29f
+      - s-c8536f67b4
+      - s-8a3bee4412
+      - s-945b0c5eca
+      - s-ac745a3bac
+      - s-3421369855
+      - s-712c58cef4
+      - s-1541cd18dd
+      - s-2a42983f6b
+      - s-44aaffdc24
+    zh:
+      - s-e6e6ca128b
+      - s-94efc92db6
+      - s-46dee02c42
+      - s-f3e1d66b8f
+      - s-f394e81ad4
+      - s-262015c128
+      - s-9788012e5c
+      - s-a939d46ca0
+      - s-1f54110277
+      - s-345fcc78bc

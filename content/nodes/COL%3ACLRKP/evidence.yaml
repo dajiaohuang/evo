@@ -1,0 +1,58 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Formicidae Latreille, 1802
+    rank: family
+    sourceDatasetId: "54937"
+    name:
+      zh: 蚁科
+      en: Ants
+    sections:
+      - topic: form
+        text:
+          zh:
+            page: zh
+            section: s-bf7c3115f5
+            part: body
+          en:
+            page: en
+            section: s-f518093fe1
+            part: body
+        sourceIds:
+          - account
+    sources:
+      - id: account
+        referenceId: ref-cba218cb-8896-8cab-a433-a2a2a80d7896
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 常见工蚁和繁殖个体的形态与群体分工；不把单一群落模式强加给全科。
+            en: Common worker and reproductive forms and colony division of labor; no single colony pattern is imposed on the entire family.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 54937
+          url: https://www.checklistbank.org/dataset/316115/taxon/CLRKP
+          scope:
+            zh: 固定版本中的接受名、作者、等级及父链；保留亚属写法和未分配的来源 ID，不据名称推导生物学事实。
+            en: Pinned accepted name, authorship, rank and parent chain; subgenus notation and unassigned source IDs are retained. Names do not establish biological traits.
+    limitations:
+      zh:
+        page: zh
+        section: s-9c80a08262
+        part: body
+      en:
+        page: en
+        section: s-e9ff0d336a
+        part: body

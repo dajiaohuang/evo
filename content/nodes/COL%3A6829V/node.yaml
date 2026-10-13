@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arcovomer passarellii
+  displayName: Arcovomer passarellii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6829V
+  sourceIndexes:
+    - name:
+        en: Arcovomer passarellii
+        zh: Arcovomer passarellii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6829V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/111
+            queryName: Arcovomer passarellii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-02188276f7
+      - s-4adf2946f5
+      - s-240b1ed632
+      - s-f74c3a3aaf
+      - s-8be227111b
+      - s-af1e2e6c24
+      - s-03db896061
+      - s-4bd5161212
+      - s-d6611f8bb2
+      - s-4fe5803adc
+      - s-27f059862b
+      - s-1a31212593
+      - s-da637cfc96
+      - s-22eecacda4
+      - s-98484e5ed4
+      - s-c033b5fe0b
+    zh:
+      - s-36168d64e7
+      - s-3aa9641dbb
+      - s-f791764f77
+      - s-38ad62c191
+      - s-89b1f1e945
+      - s-0723372e76
+      - s-74cde61acd
+      - s-ae9fb9d0de
+      - s-c4e5296e3d
+      - s-6387d837c3
+      - s-08a0474eb2
+      - s-96535b120d
+      - s-6731e87152
+      - s-d51e11d7df
+      - s-0be295c4f8
+      - s-c07cbbd16c

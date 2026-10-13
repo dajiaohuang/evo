@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Peltophryne armata
+  displayName: Peltophryne armata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76FWC
+  sourceIndexes:
+    - name:
+        en: Peltophryne armata
+        zh: Peltophryne armata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76FWC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/485
+            queryName: Peltophryne armata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91ca8c08f3
+      - s-f3e965a442
+      - s-fa15bdd98f
+      - s-105098459d
+      - s-79b991e08b
+      - s-ae08fae378
+    zh:
+      - s-1c0b8194ca
+      - s-ab3ffcfc9c
+      - s-5adf450f3a
+      - s-14c4091e1c
+      - s-86e07bf1ca
+      - s-9cd653f2df

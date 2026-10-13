@@ -1,0 +1,410 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cryptothylax Laurent & Combaz, 1950
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Cryptothylax
+      zh: Cryptothylax
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b3c71a9f12
+            part: title
+          zh:
+            page: zh
+            section: s-8d94e916fc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b3c71a9f12
+            part: body
+          zh:
+            page: zh
+            section: s-8d94e916fc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cc4ce01294
+            part: title
+          zh:
+            page: zh
+            section: s-21f3bce737
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cc4ce01294
+            part: body
+          zh:
+            page: zh
+            section: s-21f3bce737
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-2f3b23ae17
+            part: title
+          zh:
+            page: zh
+            section: s-111402b20d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2f3b23ae17
+            part: body
+          zh:
+            page: zh
+            section: s-111402b20d
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-1420699b5e
+            part: title
+          zh:
+            page: zh
+            section: s-dc605d09c7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1420699b5e
+            part: body
+          zh:
+            page: zh
+            section: s-dc605d09c7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-80b6f938ab
+            part: title
+          zh:
+            page: zh
+            section: s-3e0431766d
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6BNBW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BNBW
+            label:
+              en: Cryptothylax greshoffii
+              zh: Cryptothylax greshoffii
+          - kind: catalogue
+            colId: 6BNC8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BNC8
+            label:
+              en: Cryptothylax minutus
+              zh: Cryptothylax minutus
+        text:
+          en:
+            page: en
+            section: s-80b6f938ab
+            part: body
+          zh:
+            page: zh
+            section: s-3e0431766d
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc5683629-62py8
+        title:
+          en:
+            page: en
+            section: s-8be561bf01
+            part: title
+          zh:
+            page: zh
+            section: s-2e13d76889
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8be561bf01
+            part: body
+          zh:
+            page: zh
+            section: s-2e13d76889
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc5683629-62py8
+        title:
+          en:
+            page: en
+            section: s-9ac37694e3
+            part: title
+          zh:
+            page: zh
+            section: s-e7e6ac03e7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9ac37694e3
+            part: body
+          zh:
+            page: zh
+            section: s-e7e6ac03e7
+            part: body
+      - topic: range
+        sourceIds:
+          - primary-direct-group-pmc5683629-62py8
+        title:
+          en:
+            page: en
+            section: s-801ead84c4
+            part: title
+          zh:
+            page: zh
+            section: s-ab222e5b8e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-801ead84c4
+            part: body
+          zh:
+            page: zh
+            section: s-ab222e5b8e
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc5683629-62py8
+        title:
+          en:
+            page: en
+            section: s-a4a761769e
+            part: title
+          zh:
+            page: zh
+            section: s-ef716d4f2a
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6BNBW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BNBW
+            label:
+              en: Cryptothylax greshoffii
+              zh: Cryptothylax greshoffii
+        text:
+          en:
+            page: en
+            section: s-a4a761769e
+            part: body
+          zh:
+            page: zh
+            section: s-ef716d4f2a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cryptothylax
+          url: https://www.checklistbank.org/dataset/316115/taxon/62PY8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Cryptothylax; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc5683629-62py8
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Cryptothylax greshoffii: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Cryptothylax greshoffii accountsec035. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Cryptothylax greshoffii selectednamedaccounts; unresolvedOTUs distinct
+            zh: Cryptothylax greshoffii 选定命名记录；未解决 OTU 独立
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-53a1612360
+        part: body
+      zh:
+        page: zh
+        section: s-e1fb6e9158
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Cryptothylax
+      sourceRowIds:
+        - Anf3093
+        - Anf3094
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 2
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-direct-group-pmc5683629-62py8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: RemainingselectedCryptothylax accountsubset, historicalworkinglabels/explicitcatalogue links, notfullgenus conceptcertification
+        evidenceRead: "Cryptothylax greshoffii: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Cryptothylax greshoffii accountsec035. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Selected working identifications retain their unresolved alternatives
+              zh: 选定工作鉴定保留未解决替代解释
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-62py8
+            locator: PMC5683629 XML sec035 literalCryptothylax greshoffii marker/reference/identification account; Table2 relevantrows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a46093f09d
+                part: body
+              zh:
+                page: zh
+                section: s-25e745833a
+                part: body
+            scope:
+              en: Cryptothylax greshoffii selectednamedaccounts; unresolvedOTUs distinct
+              zh: Cryptothylax greshoffii 选定命名记录；未解决 OTU 独立
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Reference evidence does not substitute for type or nuclear data
+              zh: 参考证据不替代模式或核数据
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-62py8
+            locator: PMC5683629 XML sec006–012,sec053 andselectedCryptothylax account limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4d1e8c0b23
+                part: body
+              zh:
+                page: zh
+                section: s-c0a9c41bc3
+                part: body
+            scope:
+              en: Cryptothylax greshoffii selectednamedaccounts; unresolvedOTUs distinct
+              zh: Cryptothylax greshoffii 选定命名记录；未解决 OTU 独立
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Reader routes preserve the historical regional scope
+              zh: 阅读路径保留历史区域范围
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-62py8
+            locator: PMC5683629 XML sec003/004/007/015/Table1; selectedspecies namedaccounts
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0554e455a1
+                part: body
+              zh:
+                page: zh
+                section: s-b4b37f27b2
+                part: body
+            scope:
+              en: Cryptothylax greshoffii selectednamedaccounts; unresolvedOTUs distinct
+              zh: Cryptothylax greshoffii 选定命名记录；未解决 OTU 独立
+    primaryResearchGroupSynthesisComplete: false

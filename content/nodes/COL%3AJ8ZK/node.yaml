@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus muisca
+  displayName: Atelopus muisca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8ZK
+  sourceIndexes:
+    - name:
+        en: Atelopus muisca
+        zh: Atelopus muisca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8ZK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/287
+            queryName: Atelopus muisca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-95cfcb9edb
+      - s-6787c72453
+      - s-14987d716f
+      - s-25a297552c
+      - s-08ceebac24
+      - s-d17cc0f9ef
+      - s-7783c4d9e2
+      - s-bb361dec7f
+      - s-dc4735eb70
+      - s-9cd5478b9a
+    zh:
+      - s-7307445bc9
+      - s-5ea3ed1c67
+      - s-09b895be76
+      - s-4d61dedd76
+      - s-f7d0c53bb8
+      - s-e0cf436ad2
+      - s-df0486539f
+      - s-29c4d646e6
+      - s-278360fa7b
+      - s-16b9ff3392

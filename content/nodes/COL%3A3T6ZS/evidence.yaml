@@ -1,0 +1,122 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leontopithecus chrysopygus (Mikan, 1823)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Black Lion Tamarin
+      zh: 黑狮面狨
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-e64d29084b
+            part: body
+          zh:
+            page: zh
+            section: s-d455703420
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_label
+          - foraging2001
+          - camera2026
+      - topic: seasonalForaging
+        text:
+          en:
+            page: en
+            section: s-f3be72064a
+            part: body
+          zh:
+            page: zh
+            section: s-b207e11fcb
+            part: body
+        sourceIds:
+          - foraging2001
+      - topic: cameraTraps
+        text:
+          en:
+            page: en
+            section: s-b2e7712815
+            part: body
+          zh:
+            page: zh
+            section: s-a01eb786e5
+            part: body
+        sourceIds:
+          - camera2026
+      - topic: limits
+        text:
+          en:
+            page: en
+            section: s-b3f788edec
+            part: body
+          zh:
+            page: zh
+            section: s-1bbd377e2a
+            part: body
+        sourceIds:
+          - foraging2001
+          - camera2026
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Leontopithecus chrysopygus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3T6ZS
+          scope:
+            en: Pins accepted identity, authorship, rank and parent genus.
+            zh: 固定接受身份、作者、等级与父属。
+      - id: mdd_label
+        referenceId: ref-722be706-cad0-8a48-aa58-b80708dd746e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supplies the English display name and alternate common-name wording.
+            zh: 提供英文显示名与另一普通名用法。
+      - id: foraging2001
+        referenceId: ref-be62732b-9ed3-8cc9-ad46-249b134312a9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Primary 83-day wet/dry-season study of one Caetetus group; supports only its diet and activity observations.
+            zh: Caetetus 一个群体跨雨旱季 83 天的原始研究；仅支持该样本的食谱和活动观察。
+      - id: camera2026
+        referenceId: ref-49dd3eeb-6508-88e2-a1b2-178f4d5a5c95
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Primary camera-trap study across two Pontal do Paranapanema forest remnants; supports the stated effort, focal-group and activity observations.
+            zh: Pontal do Paranapanema 两处森林残片的原始树上相机研究；支持所述工作量、焦点群体和活动观察。
+    limitations:
+      en:
+        page: en
+        section: s-8a3a68e1d8
+        part: body
+      zh:
+        page: zh
+        section: s-70154ceff4
+        part: body

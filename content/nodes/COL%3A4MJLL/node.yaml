@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis platychilus
+  displayName: Pristimantis platychilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJLL
+  sourceIndexes:
+    - name:
+        en: Pristimantis platychilus
+        zh: Pristimantis platychilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJLL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/5
+            queryName: Pristimantis platychilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/498
+            queryName: Eleutherodactylus platychilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9b943ed3e0
+      - s-4dba584103
+      - s-7d562cb3a8
+      - s-47accb7f8e
+      - s-5720f4c0d4
+      - s-bcb945f3b6
+      - s-9f4ed6f149
+      - s-2c1cba1f4c
+      - s-bc8d2d9f97
+    zh:
+      - s-2e193d09a8
+      - s-8674d686b5
+      - s-6f6fb49160
+      - s-ad11352ed2
+      - s-db30f1d3c8
+      - s-e0e3b7fda2
+      - s-d2026fde2b
+      - s-921dfcde53
+      - s-334d6d8e49

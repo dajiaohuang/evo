@@ -1,0 +1,269 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hermannia macra Schltr.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3KZJQ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3KZJQ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3KZJQ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3KZJQ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001140989-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3KZJQ / WFO wfo-0001140989
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14904_0
+        referenceId: ref-4fef06a3-7797-8c57-ab0e-3a451f60ff32
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia macra Schltr. account; archive rows 35060 (Morphology), 41275 (Habitat), source identifier 14904.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_815_0
+        referenceId: ref-dd7e7a98-4a75-8b51-a3b3-6553366b90ec
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia macra Schltr. account; archive rows 73190 (Diagnostic), source identifier 815.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Slender, erect perennial, 300-500 mm tall, from a woody base. Leaves mostly basal, ± oblong, coarsely and unevenly lobed, but never to midrib, appressed stellate-pubescent to glabrescent. Flowers in a much-branched inflorescence, 1 or paired in erect, terminal, leafless cymes, yellow to orange-red.
+            sourceIds:
+              - sanbi_14904_0
+            locator: "SANBI/WFO archive Morphology row 35060; source 14904.0; publication: Snijman, DA. 2013. Malvaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 416 - 420. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Closely related to H. paucifolia and differs mainly in the shape and lobing of the leaf and size of the flowers. In H. macra the flowers are small, the majority up to 6 mm long on dried specimens, whereas in H. paucifolia they are up to 10 mm long. The leaves in H. macra are more or less oblong, from narrowly to broadly so, and coarsely and unevenly lobed, rarely deeply lobed but not to the midrib, whereas in H. paucifolia the leaves are ovate and the lobing is usually to the midrib so that most of the lower leaves are palmatisect. Both these species are characterized by being fairly small, 30-50 cm tall, with several stems from a woody base and with leaves mostly basal and an inflorescence of practically leafless,' glabrous, racemose or paniculate cymes. The styles which cohere and persist, appear subclavate and this probably accounts for the unpublished specific name H. rhopalostylys. The name “macra”, the “Meagre Hermannia” was chosen instead when the species was published in 1919.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_815_0
+            locator: "SANBI/WFO archive Diagnostic row 73190; source 815.0; publication: Verdoorn, IC. 1980. Revision of Hermannia subgenus Hermannia in southern Africa. Bothalia 13(1&2): 1 - 63. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandy flats and dry riverbeds.
+            sourceIds:
+              - sanbi_14904_0
+            locator: "SANBI/WFO archive Habitat row 41275; source 14904.0; publication: Snijman, DA. 2013. Malvaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 416 - 420. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Hermannia macra Schltr.
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Hermannia macra
+      zh: Hermannia macra
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3KZJQ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3KZJQ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001140989-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3KZJQ / WFO wfo-0001140989
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14904_0
+        referenceId: ref-4fef06a3-7797-8c57-ab0e-3a451f60ff32
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia macra Schltr. account; archive rows 35060 (Morphology), 41275 (Habitat), source identifier 14904.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_815_0
+        referenceId: ref-dd7e7a98-4a75-8b51-a3b3-6553366b90ec
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia macra Schltr. account; archive rows 73190 (Diagnostic), source identifier 815.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ca5b98ba76
+            part: title
+          zh:
+            page: zh
+            section: s-bddb50c6a5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ca5b98ba76
+            part: body
+          zh:
+            page: zh
+            section: s-bddb50c6a5
+            part: body
+        sourceIds:
+          - sanbi_14904_0
+        locator: "SANBI/WFO archive Morphology row 35060; source 14904.0; publication: Snijman, DA. 2013. Malvaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 416 - 420. South African National Biodiversity Institute, Pretoria. [CC BY]"
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ba64d1b371
+            part: title
+          zh:
+            page: zh
+            section: s-e1b7239786
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ba64d1b371
+            part: body
+          zh:
+            page: zh
+            section: s-e1b7239786
+            part: body
+        sourceIds:
+          - sanbi_815_0
+        locator: "SANBI/WFO archive Diagnostic row 73190; source 815.0; publication: Verdoorn, IC. 1980. Revision of Hermannia subgenus Hermannia in southern Africa. Bothalia 13(1&2): 1 - 63. [CC BY]"
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6c6756d0d7
+            part: title
+          zh:
+            page: zh
+            section: s-03b1cf8bfa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6c6756d0d7
+            part: body
+          zh:
+            page: zh
+            section: s-03b1cf8bfa
+            part: body
+        sourceIds:
+          - sanbi_14904_0
+        locator: "SANBI/WFO archive Habitat row 41275; source 14904.0; publication: Snijman, DA. 2013. Malvaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 416 - 420. South African National Biodiversity Institute, Pretoria. [CC BY]"

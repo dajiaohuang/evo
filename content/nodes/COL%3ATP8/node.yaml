@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amerana
+  displayName: Amerana
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TP8
+  sourceIndexes:
+    - name:
+        en: Amerana
+        zh: Amerana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TP8
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/146
+            queryName: Amerana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e5237cb0c
+      - s-a1b5ab26fd
+      - s-8bdbfa6559
+      - s-0292a7b5c9
+      - s-3e4651fd1f
+      - s-31c95d1cdb
+      - s-e181aa35a4
+      - s-b4065a0b0f
+      - s-395890bd1b
+      - s-d94371fe05
+      - s-ca3e98cbb8
+      - s-e55cf5757d
+      - s-d9350a47ff
+    zh:
+      - s-4a3bc58f85
+      - s-49d984a9ed
+      - s-3e0b82d0c9
+      - s-689fdcdfa6
+      - s-587eb7bd45
+      - s-469f76e029
+      - s-e5b54a4f4d
+      - s-fd966006a4
+      - s-5ebedf5b51
+      - s-482c801a72
+      - s-9a11df1ef3
+      - s-4029120288
+      - s-87ad550df3

@@ -1,0 +1,316 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Philoria kundagungan
+    name:
+      en: Philoria kundagungan
+      zh: Philoria kundagungan
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: TadpoleTraits classification for Philoria kundagungan
+          zh: TadpoleTraits 对 Philoria kundagungan 的分类
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-df2437be22
+            part: body
+          zh:
+            page: zh
+            section: s-d6a2f467aa
+            part: body
+      - topic: morphology
+        title:
+          en: 0 literature rows and 1 image row
+          zh: 0 条文献行与 1 条图像行
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-d485212768
+            part: body
+          zh:
+            page: zh
+            section: s-5180ce247d
+            part: body
+      - topic: morphology
+        title:
+          en: Image proportions from row 1233
+          zh: 来源第 1233 行的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-6bddd80590
+            part: body
+          zh:
+            page: zh
+            section: s-bdfe6d3648
+            part: body
+      - topic: overview
+        title:
+          en: 3 image ratio fields flagged for review
+          zh: 3 个图像比例字段需复核
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-51b552d1dc
+            part: body
+          zh:
+            page: zh
+            section: s-e4b2c6806b
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1233; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Limnodynastidae
+      genus: Philoria
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1233
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Hand-drawn picture
+          - Philoria kundagungan
+          - Limnodynastidae
+          - Philoria
+          - Philoria kundagungan
+          - 27
+          - 27.971
+          - 7.629
+          - 20.174
+          - 5.17
+          - 4.805
+          - 2.088
+          - 1.556
+          - 1.445
+          - null
+          - null
+          - null
+          - 0.272746773443924
+          - 0.7212475827464
+          - 0.18483429266255
+          - 0.171785631169
+          - 0.746487433413178
+          - 0.5562944367385
+          - 0.51666485288334
+          - null
+          - null
+          - null
+          - Yongle Wang
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1233
+        scientificName: Philoria kundagungan
+        sourceField: TMH/TL
+        suppliedRatio: 0.746487433413178
+        originalNumerator: 2.088
+        originalTotalLength: 27.971
+        computedRatio: 0.0746487433413178
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1233
+        scientificName: Philoria kundagungan
+        sourceField: DFH/TL
+        suppliedRatio: 0.5562944367385
+        originalNumerator: 1.556
+        originalTotalLength: 27.971
+        computedRatio: 0.055629044367380504
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1233
+        scientificName: Philoria kundagungan
+        sourceField: VFH/TL
+        suppliedRatio: 0.51666485288334
+        originalNumerator: 1.445
+        originalTotalLength: 27.971
+        computedRatio: 0.05166064852883344
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.272746773443924
+        row: 1233
+        stage: 27
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.7212475827464
+        row: 1233
+        stage: 27
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.18483429266255
+        row: 1233
+        stage: 27
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.171785631169
+        row: 1233
+        stage: 27
+        type: Measurement
+        imageType: Hand-drawn picture
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4GCRX
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

@@ -1,0 +1,164 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinatrema koki Wilkinson & Bittencourt-Silva, 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Rhinatrema koki
+      zh: Rhinatrema koki
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a62313648d
+            part: title
+          zh:
+            page: zh
+            section: s-2995a38c59
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a62313648d
+            part: body
+          zh:
+            page: zh
+            section: s-2995a38c59
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-82b5d29fc4
+            part: title
+          zh:
+            page: zh
+            section: s-571f77c3f5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-82b5d29fc4
+            part: body
+          zh:
+            page: zh
+            section: s-571f77c3f5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-d147d62a4b
+            part: title
+          zh:
+            page: zh
+            section: s-c5b55ee2ff
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-d147d62a4b
+            part: body
+          zh:
+            page: zh
+            section: s-c5b55ee2ff
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhinatrema koki
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5N6G
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 1271537, row 975770; Distribution.tsv rows 441779; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a7141e0aab
+        part: body
+      zh:
+        page: zh
+        section: s-dd718740ba
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "1271537"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1271537
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName and species rank; authorship representation normalization limited to NFC, whitespace and and/& conjunction.
+      originalSourceAuthorship: Wilkinson and Bittencourt-Silva, 2025
+      colAuthorship: Wilkinson & Bittencourt-Silva, 2025
+      exactAuthorship: false
+      equivalentAuthorshipRepresentation: true
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 975770
+        key: "1271537"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "1271537"
+            area: South America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 441779
+            key: 1271537|South America|text|NULL|NULL

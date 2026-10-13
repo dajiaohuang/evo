@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dicamptodon copei
+  displayName: Dicamptodon copei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/35HZT
+  sourceIndexes:
+    - name:
+        en: Dicamptodon copei
+        zh: Dicamptodon copei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 35HZT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/12
+            queryName: Dicamptodon copei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75b1567459
+      - s-533c973804
+      - s-8b6c0fd4ba
+      - s-76c0215a75
+      - s-d9298d53c5
+      - s-77a4000d02
+      - s-6198a2feb2
+      - s-3e6b71a9b0
+      - s-b86179445f
+      - s-ae5c37b24c
+      - s-07c3d95c02
+    zh:
+      - s-432f07bb9c
+      - s-44fb58fc1c
+      - s-814fa8aa7f
+      - s-5e11ea8f9a
+      - s-b5dcc96160
+      - s-b56503c563
+      - s-484cf6b9b7
+      - s-2e96930f33
+      - s-422c3f19f1
+      - s-213b810ee4
+      - s-4c22f16a3c

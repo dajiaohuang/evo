@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudis fusca
+  displayName: Pseudis fusca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NNNM
+  sourceIndexes:
+    - name:
+        en: Pseudis fusca
+        zh: Pseudis fusca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NNNM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/270
+            queryName: Pseudis fusca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/436
+            queryName: Pseudis paradoxus fuscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/437
+            queryName: Pseudis paradoxa fusca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a696efc946
+      - s-f4dc39bea0
+      - s-52917ff39a
+      - s-5f5d23bc1f
+      - s-ea1db3d4fe
+      - s-2ece66e045
+      - s-5798fdd662
+      - s-4e3a819fd4
+      - s-1ac0b52b30
+      - s-a11ea92cb3
+      - s-3908b113da
+      - s-1220843c61
+      - s-ea49cc3e58
+      - s-d231c97ac1
+      - s-87fe251910
+      - s-0c95e4b815
+    zh:
+      - s-ae9042ee52
+      - s-6722e1f8d0
+      - s-b4127ae7b3
+      - s-58efcf526f
+      - s-971fa8f726
+      - s-0b7b8609fd
+      - s-c32c50bcff
+      - s-3be96771d3
+      - s-82dee2f1f9
+      - s-6c4f37d42e
+      - s-66a40cb094
+      - s-740c299aeb
+      - s-cb08c4d6f1
+      - s-4950238c58
+      - s-6a9d869062
+      - s-df9a097194

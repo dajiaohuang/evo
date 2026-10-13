@@ -1,0 +1,82 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cheirogaleus lavasoensis Thiele, Razafimahatratra & Hapke, 2013
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 拉瓦索阿侏狐猴
+      en: Lavasoa Dwarf Lemur
+    sections:
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-fb65192a81
+            part: body
+          en:
+            page: en
+            section: s-2ea82c1469
+            part: body
+        sourceIds:
+          - thiele2013
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Cheirogaleus lavasoensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/5Y3NW
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-ab8b8b25-2b8c-89ef-a7a6-50eb12df4f2d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页所用英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine COL26.8 accepted classification.
+      - id: thiele2013
+        referenceId: ref-e33fe560-8ec7-89a7-a899-f8ea77b6b45a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持九处南部地点的 51 只侏狐猴、线粒体与核基因分析以及拉瓦索阿侏狐猴的正式描述；样本数不是该种个体数。
+            en: Supports the 51 dwarf lemurs from nine southern sites, mitochondrial and nuclear analyses, and formal description of Lavasoa dwarf lemur; 51 is not the sample size for this species alone.
+      - id: lei2014
+        referenceId: ref-05f17313-9405-86ef-a8fb-d775af45e019
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持类型材料地点的后续汇整和跨种分类背景；不是新的拉瓦索阿种群调查。
+            en: Supports a later compilation of the type-material locality and comparative taxonomy; it is not a new population survey of Lavasoa dwarf lemur.
+    limitations:
+      zh:
+        page: zh
+        section: s-6ecdea9fe8
+        part: body
+      en:
+        page: en
+        section: s-f26034fe7c
+        part: body

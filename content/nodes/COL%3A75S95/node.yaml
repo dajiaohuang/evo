@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paratelmatobius cardosoi
+  displayName: Paratelmatobius cardosoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75S95
+  sourceIndexes:
+    - name:
+        en: Paratelmatobius cardosoi
+        zh: Paratelmatobius cardosoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75S95
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/424
+            queryName: Paratelmatobius cardosoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c289759a6a
+      - s-579dab8165
+      - s-9a84584945
+      - s-4b222248c3
+      - s-1cc6b0ba00
+      - s-5b21a5dd52
+      - s-c53c8e35bf
+      - s-e54937c3ca
+      - s-8f47eaaa17
+      - s-6adcde4f85
+      - s-030d102aa1
+      - s-3f796ffaa6
+      - s-9ab326b593
+      - s-7a5a1ae366
+      - s-741a622778
+      - s-2d44bb6b84
+      - s-3a4df8dce9
+      - s-7f4c3da7af
+    zh:
+      - s-e33004ee60
+      - s-6672e070a5
+      - s-d068d74b30
+      - s-5640c1f1a5
+      - s-85afcc3b6c
+      - s-3758ba7983
+      - s-09829cf88c
+      - s-1538707a73
+      - s-8e11e07375
+      - s-9927617051
+      - s-9739fcfacf
+      - s-c6b9203006
+      - s-9d9fced497
+      - s-6eb1eddeb9
+      - s-8b4772249c
+      - s-21612efcad
+      - s-efe528c524
+      - s-4808b6756b

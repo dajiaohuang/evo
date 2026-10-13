@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella Boulenger, 1882
+  displayName: Mantella
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5KYV
+  sourceIndexes:
+    - name:
+        en: Mantella
+        zh: Mantella
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5KYV
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/29
+            queryName: Mantella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 587
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e9876909d2
+      - s-7319dd0664
+      - s-5e749bd082
+      - s-152c507a68
+      - s-c0c52e401e
+      - s-4891a601a1
+    zh:
+      - s-a9b080be95
+      - s-78777e5db9
+      - s-e84c2fdf2b
+      - s-904ba87b62
+      - s-76d8810b37
+      - s-48b2b5c7a9

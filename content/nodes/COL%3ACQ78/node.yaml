@@ -1,0 +1,158 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega picta
+  displayName: Ameerega picta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ78
+  sourceIndexes:
+    - name:
+        en: Ameerega picta
+        zh: Ameerega picta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ78
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/273
+            queryName: Ameerega picta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/217
+            queryName: Epipedobates pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/75
+            queryName: Ameerega yungicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/289
+            queryName: Hylaplesia picta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/290
+            queryName: Dendrobates pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/291
+            queryName: Dendrobates eucnemis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/292
+            queryName: Phyllobates pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/293
+            queryName: Epipedobates guayanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/300
+            queryName: Epipedobates yungicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/109
+            queryName: Dendrobates pictus pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/110
+            queryName: Dendrobates pictus eucnemis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/111
+            queryName: Dendrobates pictus guayanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-05c8ba9137
+      - s-5c02bd4deb
+      - s-bad50fb6b9
+      - s-3dc8426c81
+      - s-5eebae02a7
+      - s-e729764d24
+      - s-d64ace4acf
+      - s-abf81596e5
+      - s-c98b17b5fc
+      - s-5859ef6f72
+      - s-b985aa9420
+      - s-1563511d5e
+      - s-66cb1973c1
+      - s-8651b487ff
+      - s-8b7f58f048
+      - s-df886ce20e
+      - s-22e5518cd7
+      - s-1ade6d076f
+      - s-dd1b100058
+      - s-a757d67546
+      - s-36f1253221
+      - s-69be8ec642
+      - s-f8e41f50a4
+      - s-32b3fe5a37
+      - s-b49de858f7
+      - s-c60e9e8f1c
+    zh:
+      - s-bf9c017db2
+      - s-56fce12381
+      - s-e805a57998
+      - s-d1f47236e4
+      - s-dcc1543a5f
+      - s-c16216030b
+      - s-e2d66f7351
+      - s-37a2bb26a6
+      - s-3303877d2b
+      - s-b54b9a6aef
+      - s-72e5644a3f
+      - s-15eaa151d3
+      - s-0a4d749924
+      - s-cc51f8c6e3
+      - s-c3b887c4c6
+      - s-1c8499cc8b
+      - s-ea1b26be5d
+      - s-6315667d37
+      - s-e15fa5aae1
+      - s-054ad38bc3
+      - s-c1041c936d
+      - s-bc0569da6f
+      - s-773fb9255f
+      - s-08fd75e66a
+      - s-55f4cf98eb
+      - s-869126c63d

@@ -1,0 +1,673 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Boana raniceps
+    name:
+      en: Boana raniceps
+      zh: Boana raniceps
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-c866081f08
+            part: body
+          zh:
+            page: zh
+            section: s-eba30f3c4c
+            part: body
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-44ddd34071
+            part: body
+          zh:
+            page: zh
+            section: s-39242ae5f2
+            part: body
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-97ef05abbe
+            part: body
+          zh:
+            page: zh
+            section: s-d34e5eaed7
+            part: body
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f5f714d124
+            part: body
+          zh:
+            page: zh
+            section: s-2c8d42c494
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1715, 1716; Picture measurement data rows 192, 193, 194; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Hylidae
+      genus: Boana
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 1715
+        values:
+          - Santos, D. L., Feio, R. N. & Nomura, F. (2023). Morphological characterization and taxonomic key for tadpoles of Brazilian Cerrado. Biota Neotropica, 23(2), 20231486-20231529.
+          - Boana raniceps
+          - Hylidae
+          - Boana
+          - Boana raniceps
+          - 14
+          - 34, 38
+          - 57.54
+          - 9.53
+          - 19.93
+          - 3.04
+          - 11.6
+          - 2.3
+          - 12.9
+          - 2.63
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.05
+          - 1
+          - 5.87
+          - 1.16
+          - 4.98
+          - 1
+          - 2.69
+          - 0.53
+          - null
+          - null
+          - null
+          - null
+          - 4.26
+          - 0.43
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.38
+          - 0.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.83
+          - 0.11
+          - null
+          - null
+          - null
+          - null
+          - 2.08
+          - 0.53
+      - rowNumber: 1716
+        values:
+          - "Schulze, A., Jansen, M. & Köhler, G. (2015). Tadpole diversity of Bolivia’s lowland anuran communities: molecular identification, morphological characterisation, and ecological assignment. Zootaxa, 4016 (1), 001-111."
+          - Hypsiboas raniceps
+          - Hylidae
+          - Boana
+          - Boana raniceps
+          - 4
+          - 35-41
+          - 45.4-59.9
+          - null
+          - 13.8-18.1
+          - null
+          - 7.3-11.6
+          - null
+          - 9.3-10.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 9.8-11.6
+          - null
+          - 4.5-5.7
+          - null
+          - 4.8-6.2
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.0-2.80
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.5-6.8
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.4-2.9
+          - null
+          - 11.9-14.6
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.5-2.1
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows:
+      - rowNumber: 192
+        values:
+          - "Dubeux, M. J. M., Nascimento, F. A. C. D., Lima, L. R., Magalhães, F. D. M., Silva, I. R. S. D., Gonçalves, U., Almeida, J. P. F., Correia, L. L., Garda, A. A., Mesquita, D. O., Rossa-Feres, D. D. C. & Mott, T. (2020). Morphological characterization and taxonomic key of tadpoles (Amphibia: Anura) from the northern region of the Atlantic Forest. Biota Neotropica, 20(2), e20180718."
+          - Measurement
+          - Color image
+          - Boana raniceps
+          - Hylidae
+          - Boana
+          - Boana raniceps
+          - 39 (Judging based on the picture)
+          - 68.563
+          - 18.463
+          - 49.18
+          - 9.692
+          - 12.239
+          - 4.852
+          - 5.788
+          - 3.462
+          - 11.31
+          - 4.852
+          - 4.426
+          - 0.2692851829747
+          - 0.7172965128251
+          - 0.1413594248918
+          - 0.17857358196112
+          - 0.776731789898
+          - 0.84418797997462
+          - 0.549376518929
+          - 0.16495777659974
+          - 0.776731789898
+          - 0.64553768673249
+          - Yanfang Song
+      - rowNumber: 193
+        values:
+          - "Schiesari, L., Rossa-Feres, D. D. C., Menin, M. & Hödl, W. (2022). Tadpoles of Central Amazonia (Amphibia: Anura). Zootaxa, 5223, 1-149."
+          - Measurement
+          - Hand-drawn picture
+          - Boana raniceps
+          - Hylidae
+          - Boana
+          - Boana raniceps
+          - 35
+          - 36.748
+          - 12.895
+          - 23.9
+          - 7.028
+          - 7.915
+          - 3.016
+          - 3.334
+          - 1.566
+          - 8.292
+          - 2.942
+          - 1.947
+          - 0.35934552792
+          - 0.6537553641123
+          - 0.1912485331999
+          - 0.215385871339937
+          - 0.8272493741156
+          - 0.972625961718
+          - 0.4261456457979
+          - 0.22564493357581
+          - 0.85877879454
+          - 0.529824752367476
+          - Yanfang Song
+      - rowNumber: 194
+        values:
+          - Lynch, J., & Suárez-Mayorga, A. (2011). An illustrated key to the tadpoles in the eastern lowlands of Colombia, with emphasis on the Hylidae. Caldasia, 33(1), 235-270.
+          - Measurement
+          - Hand-drawn picture
+          - Hypsiboas raniceps
+          - Hylidae
+          - Boana
+          - Boana raniceps
+          - 36 (Judging based on the picture)
+          - 39
+          - 12.461
+          - 25.535
+          - 6.23
+          - 7.848
+          - 4.024
+          - 2.42
+          - 2.211
+          - 7.639
+          - 3.014
+          - null
+          - 0.31951282512821
+          - 0.65474358974359
+          - 0.15974358974359
+          - 0.212376923769
+          - 0.13179487179487
+          - 0.625128251282
+          - 0.5669237692377
+          - 0.195871794871795
+          - 0.7728251282513
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 192
+        scientificName: Boana raniceps
+        sourceField: TMH/TL
+        suppliedRatio: 0.776731789898
+        originalNumerator: 4.852
+        originalTotalLength: 68.563
+        computedRatio: 0.07076703178098975
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 192
+        scientificName: Boana raniceps
+        sourceField: DFH/TL
+        suppliedRatio: 0.84418797997462
+        originalNumerator: 5.788
+        originalTotalLength: 68.563
+        computedRatio: 0.08441870979974622
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 192
+        scientificName: Boana raniceps
+        sourceField: VFH/TL
+        suppliedRatio: 0.549376518929
+        originalNumerator: 3.462
+        originalTotalLength: 68.563
+        computedRatio: 0.05049370651809285
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 192
+        scientificName: Boana raniceps
+        sourceField: TMW/TL
+        suppliedRatio: 0.776731789898
+        originalNumerator: 4.852
+        originalTotalLength: 68.563
+        computedRatio: 0.07076703178098975
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 192
+        scientificName: Boana raniceps
+        sourceField: OD/TL
+        suppliedRatio: 0.64553768673249
+        originalNumerator: 4.426
+        originalTotalLength: 68.563
+        computedRatio: 0.06455376806732495
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 193
+        scientificName: Boana raniceps
+        sourceField: BL/TL
+        suppliedRatio: 0.35934552792
+        originalNumerator: 12.895
+        originalTotalLength: 36.748
+        computedRatio: 0.3509034505279199
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 193
+        scientificName: Boana raniceps
+        sourceField: TaL/TL
+        suppliedRatio: 0.6537553641123
+        originalNumerator: 23.9
+        originalTotalLength: 36.748
+        computedRatio: 0.6503755306411233
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 193
+        scientificName: Boana raniceps
+        sourceField: TMH/TL
+        suppliedRatio: 0.8272493741156
+        originalNumerator: 3.016
+        originalTotalLength: 36.748
+        computedRatio: 0.082072493741156
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 193
+        scientificName: Boana raniceps
+        sourceField: DFH/TL
+        suppliedRatio: 0.972625961718
+        originalNumerator: 3.334
+        originalTotalLength: 36.748
+        computedRatio: 0.09072602590617178
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 193
+        scientificName: Boana raniceps
+        sourceField: VFH/TL
+        suppliedRatio: 0.4261456457979
+        originalNumerator: 1.566
+        originalTotalLength: 36.748
+        computedRatio: 0.042614564057907915
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 193
+        scientificName: Boana raniceps
+        sourceField: TMW/TL
+        suppliedRatio: 0.85877879454
+        originalNumerator: 2.942
+        originalTotalLength: 36.748
+        computedRatio: 0.0800587787090454
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 193
+        scientificName: Boana raniceps
+        sourceField: OD/TL
+        suppliedRatio: 0.529824752367476
+        originalNumerator: 1.947
+        originalTotalLength: 36.748
+        computedRatio: 0.05298247523674758
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 194
+        scientificName: Boana raniceps
+        sourceField: MTH/TL
+        suppliedRatio: 0.212376923769
+        originalNumerator: 7.848
+        originalTotalLength: 39
+        computedRatio: 0.20123076923076924
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 194
+        scientificName: Boana raniceps
+        sourceField: TMH/TL
+        suppliedRatio: 0.13179487179487
+        originalNumerator: 4.024
+        originalTotalLength: 39
+        computedRatio: 0.10317948717948718
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 194
+        scientificName: Boana raniceps
+        sourceField: DFH/TL
+        suppliedRatio: 0.625128251282
+        originalNumerator: 2.42
+        originalTotalLength: 39
+        computedRatio: 0.06205128205128205
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 194
+        scientificName: Boana raniceps
+        sourceField: VFH/TL
+        suppliedRatio: 0.5669237692377
+        originalNumerator: 2.211
+        originalTotalLength: 39
+        computedRatio: 0.05669230769230769
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 194
+        scientificName: Boana raniceps
+        sourceField: TMW/TL
+        suppliedRatio: 0.7728251282513
+        originalNumerator: 3.014
+        originalTotalLength: 39
+        computedRatio: 0.07728205128205128
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.2692851829747
+        row: 192
+        stage: 39 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.7172965128251
+        row: 192
+        stage: 39 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.1413594248918
+        row: 192
+        stage: 39 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.17857358196112
+        row: 192
+        stage: 39 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.16495777659974
+        row: 192
+        stage: 39 (Judging based on the picture)
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - M82G
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus ruthbeateae
+  displayName: Phrynobatrachus ruthbeateae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77DNW
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus ruthbeateae
+        zh: Phrynobatrachus ruthbeateae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77DNW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/170
+            queryName: Phrynobatrachus ruthbeateae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c7e1960f2a
+      - s-5169700887
+      - s-435beb3196
+      - s-a383f800d3
+      - s-7f16ab4c0e
+      - s-91d6a3f4f3
+      - s-012498c574
+      - s-c55cfdf6e1
+      - s-e065f3905a
+      - s-2680499b0b
+      - s-7d419945d9
+      - s-c8795813f6
+      - s-bcfa472c26
+    zh:
+      - s-106057c39b
+      - s-2a3a4ceba1
+      - s-60999a7bc4
+      - s-1177415af3
+      - s-de22cadb1c
+      - s-5f6288237d
+      - s-46d705741e
+      - s-8dc57cc48d
+      - s-f9aa0c11df
+      - s-4ec4784ef4
+      - s-25e3f41e2e
+      - s-0a632d2cad
+      - s-c42f614bb3

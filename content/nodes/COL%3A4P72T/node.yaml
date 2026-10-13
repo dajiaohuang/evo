@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophilautus fulvus
+  displayName: Pseudophilautus fulvus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P72T
+  sourceIndexes:
+    - name:
+        en: Pseudophilautus fulvus
+        zh: Pseudophilautus fulvus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P72T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/374
+            queryName: Pseudophilautus fulvus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/451
+            queryName: Philautus fulvus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6b98d22c0c
+      - s-406d8e92e7
+      - s-e24199ce1c
+      - s-955c1bc299
+      - s-58ab37236b
+      - s-7c3ffe6e9d
+      - s-67873f9edd
+    zh:
+      - s-58baa293ee
+      - s-4ba7e365ed
+      - s-b0cc30d452
+      - s-c3e960c1a2
+      - s-5150e6b1ef
+      - s-69db25d478
+      - s-5b7461b5ec

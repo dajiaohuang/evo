@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus pantostictus
+  displayName: Hyloscirtus pantostictus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGQD
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus pantostictus
+        zh: Hyloscirtus pantostictus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGQD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/62
+            queryName: Hyloscirtus pantostictus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/416
+            queryName: Hyla pantosticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/442
+            queryName: Boana pantosticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/443
+            queryName: Colomascirtus pantostictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a92c3eac81
+      - s-841186d0bf
+      - s-ea589b89d9
+      - s-d9b68921b4
+      - s-cd22a08adb
+      - s-725e578506
+      - s-529ef01316
+      - s-b490db15ab
+      - s-3d74c677bb
+      - s-f690a58adb
+    zh:
+      - s-e6c58821a9
+      - s-1ce3faaba2
+      - s-82c0ca042d
+      - s-eb0be6e296
+      - s-a9fac683ce
+      - s-ffa654861e
+      - s-ccf6716f3b
+      - s-ee224ead13
+      - s-16ce2749d9
+      - s-c7565e528c

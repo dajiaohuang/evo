@@ -1,0 +1,183 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tropidophorus
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Tropidophorus
+      en: Tropidophorus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-a72f8d0d32
+            part: body
+          en:
+            page: en
+            section: s-9ddcb2ea5b
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-8453e1de38
+            part: body
+          en:
+            page: en
+            section: s-a638633c48
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-5d50f89f28
+            part: body
+          en:
+            page: en
+            section: s-90e0f4eac2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-30a22e1001
+            part: body
+          en:
+            page: en
+            section: s-c474178158
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c7e0086eca
+            part: body
+          en:
+            page: en
+            section: s-8d4f7aa724
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tropidophorus
+          url: https://www.checklistbank.org/dataset/316115/taxon/833L
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 22 authored records grouped under Tropidophorus by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 7 authored records grouped under Tropidophorus by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 7D8S4
+              name: Tropidophorus baconi
+              canonicalPath: content/nodes/COL%3A7D8S4
+            - colId: 7CWS3
+              name: Tropidophorus guangxiensis
+              canonicalPath: content/nodes/COL%3A7CWS3
+            - colId: 59CB2
+              name: Tropidophorus hangnam
+              canonicalPath: content/nodes/COL%3A59CB2
+            - colId: 59CB4
+              name: Tropidophorus iniquus
+              canonicalPath: content/nodes/COL%3A59CB4
+            - colId: 59CB7
+              name: Tropidophorus matsuii
+              canonicalPath: content/nodes/COL%3A59CB7
+          fieldCountDistribution:
+            "2": 1
+            "3": 6
+    limitations:
+      zh:
+        page: zh
+        section: s-18dafa6a76
+        part: body
+      en:
+        page: en
+        section: s-e1d734c196
+        part: body

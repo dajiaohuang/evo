@@ -1,0 +1,156 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Codonorhiza azurea (Eckl. ex Baker) Goldblatt & J.C.Manning
+    rank: species
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-c7f8eea720
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-249a3a3eae
+          part: body
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage WPYJ, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0001343994.
+      scope: Codonorhiza azurea (Eckl. ex Baker) Goldblatt & J.C.Manning as represented by COL26.8 usage WPYJ; SANBI sources retain their southern African/South African regional scope.
+    lifeStatusScope:
+      wild: Claims concern wild populations described by the cited flora or national assessment.
+      domesticated: Cultivation is not covered by cited claims; no domestication claim is made.
+      fossil: No fossil occurrence claim is made; fossil evidence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 20
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/WPYJ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage WPYJ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001343994-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Exact accepted COL WPYJ / WFO wfo-0001343994 crosswalk row
+          scope: Identity-link evidence only; not biological evidence.
+      - id: sanbi2020
+        referenceId: ref-a2c82bbf-bb8f-8117-a1e3-5aefbf03dc12
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 2
+        usage:
+          locator: Codonorhiza species account, printed p. 163–164; relevant flowering-time/distribution entries
+          scope: Regional flora treatment of southern African Iridaceae; geographic statements retain their regional and temporal limits.
+      - id: sanbi-archive
+        referenceId: ref-17240331-6ad4-8e0c-aac4-8fde5401507e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Source 18638.0; morphology row 98035; habitat row 96946
+          scope: South African flora morphology and habitat description fields only.
+      - id: redlist
+        referenceId: ref-90a8dd65-a5d0-8e0b-ad53-bd75fe485d58
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: National status, assessment date, and scope; distribution fields when used
+          scope: South African national assessment only; not a global conservation assessment.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The archived description reports plants 70–180 mm tall, with a 5–7-branched stem, two leaves, and large dark-blue to violet, zygomorphic flowers with dark markings.
+            textZh: SANBI 档案记载：株高 70–180 mm，茎分 5–7 枝，具两枚叶；花大、深蓝至紫色、左右对称，带深色斑纹。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, morphology row 98035
+            placeTimeScope: SANBI e-Flora South Africa description archive, source 18638.0; South African source scope, not a global assessment.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of morphology has not been completed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Granite-derived gravel soils rather than the shale-derived clay soils also common in the area.
+            textZh: 花岗岩来源的砾质土，而非当地也常见的页岩来源黏土。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, habitat row 96946
+            placeTimeScope: SANBI e-Flora South Africa description archive, source 18638.0; South African source scope, not a global assessment.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of ecology has not been completed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: SANBI reports a South African endemic in the Western Cape, with a range from Saron to the Cape Peninsula and Stellenbosch. The national assessment is dated 2012-11-27 and does not establish a current global range.
+            textZh: SANBI 记为南非西开普特有种，分布范围从 Saron 至开普半岛和 Stellenbosch。 该国家评估日期为 2012-11-27，不构成当前全球分布清单。
+            sourceIds:
+              - redlist
+            locator: National range and provincial distribution fields
+            placeTimeScope: SANBI South African national assessment2012-11-27; not a global range inventory.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of distribution has not been completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: partially-supported
+        claims:
+          - text: The SANBI national assessment lists Endangered (EN), criterion B1ab(i,ii,iii,iv,v), assessed 2012-11-27. This is a dated South African assessment, not a global status.
+            textZh: SANBI 南非国家评估列为濒危（EN），标准 B1ab(i,ii,iii,iv,v)，评估日期 2012-11-27。这是有日期的南非评估，不代表全球等级。
+            sourceIds:
+              - redlist
+            locator: National category, criteria/assessment date, and scope; automated-status caveat retained where applicable.
+            placeTimeScope: SANBI South African assessment dated 2012-11-27; not a global status.
+            lifeStatus: Wild South African populations within the national assessment scope.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of conservation has not been completed.

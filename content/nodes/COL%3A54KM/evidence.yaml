@@ -1,0 +1,318 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Insuetophrynus Barrio, 1970
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Insuetophrynus
+      zh: Insuetophrynus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6a907b7233
+            part: title
+          zh:
+            page: zh
+            section: s-4098c7a185
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6a907b7233
+            part: body
+          zh:
+            page: zh
+            section: s-4098c7a185
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-818dea0499
+            part: title
+          zh:
+            page: zh
+            section: s-2c8abc3990
+            part: title
+        text:
+          en:
+            page: en
+            section: s-818dea0499
+            part: body
+          zh:
+            page: zh
+            section: s-2c8abc3990
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-19f000854b
+            part: title
+          zh:
+            page: zh
+            section: s-4ef3e951b3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-19f000854b
+            part: body
+          zh:
+            page: zh
+            section: s-4ef3e951b3
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-337eb70c2d
+            part: title
+          zh:
+            page: zh
+            section: s-9d37b5398a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-337eb70c2d
+            part: body
+          zh:
+            page: zh
+            section: s-9d37b5398a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-dcab1db58c
+            part: title
+          zh:
+            page: zh
+            section: s-45b025eaef
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3PSMF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PSMF
+            label:
+              en: Insuetophrynus acarpicus
+              zh: Insuetophrynus acarpicus
+        text:
+          en:
+            page: en
+            section: s-dcab1db58c
+            part: body
+          zh:
+            page: zh
+            section: s-45b025eaef
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10968267-54km
+        title:
+          en:
+            page: en
+            section: s-4bc1d71fb0
+            part: title
+          zh:
+            page: zh
+            section: s-35ae9f7400
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4bc1d71fb0
+            part: body
+          zh:
+            page: zh
+            section: s-35ae9f7400
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10968267-54km
+        title:
+          en:
+            page: en
+            section: s-a606d3e947
+            part: title
+          zh:
+            page: zh
+            section: s-53be9d57f6
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3PSMF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PSMF
+            label:
+              en: Insuetophrynus acarpicus
+              zh: Insuetophrynus acarpicus
+        text:
+          en:
+            page: en
+            section: s-a606d3e947
+            part: body
+          zh:
+            page: zh
+            section: s-53be9d57f6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Insuetophrynus
+          url: https://www.checklistbank.org/dataset/316115/taxon/54KM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Insuetophrynus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10968267-54km
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Telmatobius fronteriensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 selected Chilean priority entries; source management model and cited context, not a complete genus synthesis.
+            zh: 1 个所选智利优先条目；来源管理模型及被引背景，不是全属综述。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-cf3f8763da
+        part: body
+      zh:
+        page: zh
+        section: s-54cbbd240d
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Insuetophrynus
+      sourceRowIds:
+        - Anf1376
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.3390/biology13030169
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        sourceKey: primary-direct-group-pmc10968267-54km
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10968267/article.xml
+        sourceConcept: 2024 Chilean Insuetophrynus priority rows and cited conservation context
+        evidenceRead: "Telmatobius fronteriensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A low model priority can coexist with recognized vulnerability
+              zh: 较低模型优先级可与已知脆弱性并存
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-direct-group-pmc10968267-54km
+            locator: PMC10968267 XML Methods2.1–2.3; Tables2–4; Results; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f811f5a5ae
+                part: body
+              zh:
+                page: zh
+                section: s-276b1a4027
+                part: body
+            scope:
+              en: 1 selected Chilean priority entries; source management model and cited context, not a complete genus synthesis.
+              zh: 1 个所选智利优先条目；来源管理模型及被引背景，不是全属综述。
+    primaryResearchGroupSynthesisComplete: false

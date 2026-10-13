@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-529c3fe5ca
+      part: title
+    titleZh:
+      page: zh
+      section: s-75b6115234
+      part: title
+    category: topology
+    startAge: 480
+    endAge: 0
+    regions:
+      - Global Ordovician-to-living xiphosuran morphology sample
+    clades:
+      - Xiphosura
+      - Synziphosurina
+      - Euchelicerata
+    summary:
+      page: en
+      section: s-529c3fe5ca
+      part: body
+    summaryZh:
+      page: zh
+      section: s-75b6115234
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-1ff5d0a849
+            part: title
+          zh:
+            page: zh
+            section: s-b00d0f30f6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1ff5d0a849
+            part: body
+          zh:
+            page: zh
+            section: s-b00d0f30f6
+            part: body
+        id: observed-material
+        sourceIds:
+          - lamsdell-2020-xiphosura
+      - title:
+          en:
+            page: en
+            section: s-173cadaadc
+            part: title
+          zh:
+            page: zh
+            section: s-cd1f23d6d6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-173cadaadc
+            part: body
+          zh:
+            page: zh
+            section: s-cd1f23d6d6
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - lamsdell-2020-xiphosura
+    claimIds:
+      - claim:event:xiphosura-total-group-topology
+    evidenceItems:
+      - statement: The analysis samples fossil and living xiphosurans and rescored euchelicerates across an expanded character matrix.
+        relation: supports
+        claimIds:
+          - claim:event:xiphosura-total-group-topology
+        referenceLinks:
+          - referenceId: lamsdell-2020-xiphosura
+            relation: supports
+            pages: e10431
+            figure: Figures 1–13; Supplemental matrices
+            quoteLocator: Character matrix; Phylogenetic results; Revised systematics
+    uncertaintyItems:
+      - statement: Polyphyly of traditional synziphosurines and internal Xiphosura relationships are topology results sensitive to coding, missing anatomy and taxon sampling.
+        relation: contextualizes
+        claimIds:
+          - claim:event:xiphosura-total-group-topology
+        referenceLinks:
+          - referenceId: lamsdell-2020-xiphosura
+            relation: supports
+            pages: e10431
+            figure: Figures 1–13; Supplemental matrices
+            quoteLocator: Character matrix; Phylogenetic results; Revised systematics
+    readerSources:
+      - id: lamsdell-2020-xiphosura
+        referenceId: lamsdell-2020-xiphosura
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: e10431; figure: Figures 1–13; Supplemental matrices; Character matrix; Phylogenetic results; Revised systematics"
+  claims:
+    - subjectId: event:xiphosura-total-group-topology
+      claimKind: scientific
+      claimType: topology
+      statement: An expanded fossil-and-living morphology matrix resolves traditional synziphosurines across several euchelicerate stems rather than as one simple horseshoe-crab lineage; the result revises a classification hypothesis and does not demonstrate morphological stasis or a single habitat history.
+      confidence: medium
+      confidenceRationale: The character matrix is explicit and broad, but many fossils are incomplete and alternative coding can change short internal branches.
+      referenceLinks:
+        - referenceId: lamsdell-2020-xiphosura
+          relation: supports
+          pages: e10431
+          figure: Figures 1–13; Supplemental matrices
+          quoteLocator: Character matrix; Phylogenetic results; Revised systematics
+  claim-rationales.zh:
+    - 性状矩阵明确且范围广，但许多化石不完整，替代编码可改变短内部枝。
+  claim-statements.zh:
+    - 扩展的化石—现生形态矩阵将传统合甲鲎类分散恢复在多个真螯肢类干支，而非一条简单鲎类谱系；该结果修订分类假说，并不证明形态停滞或单一栖息地历史。

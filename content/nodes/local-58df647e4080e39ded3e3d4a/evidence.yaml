@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis latro
+    name:
+      en: Pristimantis latro
+      zh: Pristimantis latro
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Pristimantis latro in the morphology deposit
+          zh: 形态数据中的 Pristimantis latro 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1a03418402
+            part: body
+          zh:
+            page: zh
+            section: s-37d766b17d
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4618 and 4619: measurement fields and sex codes"
+          zh: 第 4618、4619 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a56d891e3e
+            part: body
+          zh:
+            page: zh
+            section: s-0f53b636e6
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4618, 4619; Reference.csv rows 1706
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4618
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis latro
+          - M
+          - "27.544"
+          - "10.52"
+          - "9.692"
+          - "3.64"
+          - "1.464"
+          - NA
+          - "2.548"
+          - "2.42"
+          - NA
+          - "3.756"
+          - "5.312"
+          - NA
+          - "6.116"
+          - NA
+          - NA
+          - "13.62"
+          - NA
+          - NA
+          - "14.036"
+          - "7.824"
+          - "20.804"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4619
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis latro
+          - F
+          - "31.80408163"
+          - "12.28979592"
+          - "11.40816327"
+          - "3.910204082"
+          - "1.689795918"
+          - NA
+          - "2.840816327"
+          - "2.669387755"
+          - NA
+          - "4.4"
+          - "6.179591837"
+          - NA
+          - "7.293877551"
+          - NA
+          - NA
+          - "15.61632653"
+          - NA
+          - NA
+          - "16.48163265"
+          - "9.304081633"
+          - "24.65714286"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1706
+        values:
+          - Anura
+          - Pristimantis_latro
+          - Oliveira, E. A., Rodrigues, L. R., Kaefer, I. L., Pinto, K. C., & Hernandez-Ruz, E. J. (2017). A new species of Pristimantis from eastern Brazilian Amazonia (Anura, Craugastoridae). Zookeys(687), 101-129. https://doi.org/10.3897/zookeys.687.13221
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - HAL
+      - FL
+      - THL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lophiodon remensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Lophiodon remensis
+      en: Lophiodon remensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7d350657e0
+            part: body
+          en:
+            page: en
+            section: s-29e4a0ed68
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8377b31fe1
+            part: body
+          en:
+            page: en
+            section: s-04dd474aea
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-219f15ab1b
+            part: body
+          en:
+            page: en
+            section: s-c8b61c8370
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-73f7039155
+            part: body
+          en:
+            page: en
+            section: s-9696fda172
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f4567bc497
+            part: body
+          en:
+            page: en
+            section: s-78e1c0d355
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Lophiodon remensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=63460&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:63460; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:63460
+          selectedOccurrenceIds:
+            - occ:456570
+            - occ:456578
+            - occ:456589
+            - occ:456620
+            - occ:456682
+            - occ:456689
+            - occ:463422
+            - occ:463423
+            - occ:463424
+            - occ:463427
+            - occ:463429
+            - occ:463432
+            - occ:463436
+            - occ:463437
+            - occ:463440
+            - occ:463443
+            - occ:463444
+            - occ:463447
+            - occ:463456
+            - occ:463457
+            - occ:463458
+            - occ:463459
+            - occ:463460
+            - occ:463461
+            - occ:463462
+            - occ:463463
+            - occ:463464
+          selectedCollectionIds:
+            - col:44999
+            - col:45000
+            - col:45001
+            - col:45002
+            - col:13322
+            - col:45003
+            - col:45734
+            - col:45736
+            - col:45738
+            - col:45739
+            - col:45744
+            - col:45741
+            - col:45748
+            - col:45747
+            - col:45742
+            - col:45743
+            - col:45750
+            - col:45749
+            - col:45751
+            - col:45763
+            - col:45764
+            - col:45765
+            - col:45768
+            - col:45769
+            - col:45766
+            - col:45770
+            - col:45767
+          sourceReferenceIds:
+            - ref:11934
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0e66eb2091
+        part: body
+      en:
+        page: en
+        section: s-4bff869f1a
+        part: body

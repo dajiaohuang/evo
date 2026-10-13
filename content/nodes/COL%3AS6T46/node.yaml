@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudopaludicola javae
+  displayName: Pseudopaludicola javae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S6T46
+  sourceIndexes:
+    - name:
+        en: Pseudopaludicola javae
+        zh: Pseudopaludicola javae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S6T46
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/341
+            queryName: Pseudopaludicola javae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0cda2344a9
+      - s-6db6e24028
+      - s-2599ad57b1
+      - s-85c7f975ee
+      - s-e3336150b0
+      - s-24e124d51e
+      - s-edac9a540a
+      - s-8b44a76a00
+      - s-171f7fee71
+      - s-03f91b7569
+      - s-9c244cd689
+      - s-63f37206de
+      - s-092c07cb5d
+      - s-c076f4fac6
+      - s-9b27b38256
+      - s-ebece2f426
+      - s-1af535c076
+      - s-50ac9cae05
+      - s-2639d05c6f
+      - s-7fe55e30cc
+    zh:
+      - s-de56557267
+      - s-064e2b9c72
+      - s-fa776bb086
+      - s-c1969d14b0
+      - s-f561c35c76
+      - s-8f310679c8
+      - s-53c45e5bc5
+      - s-7657f5e9bd
+      - s-67a1f28575
+      - s-a11567bc72
+      - s-bb0f9a1455
+      - s-19da406a47
+      - s-c4cb4c2aa2
+      - s-02ce63baa4
+      - s-e42f977b80
+      - s-8026f8d3de
+      - s-b52dc96190
+      - s-711ecc7840
+      - s-40d31b85a9
+      - s-4b5e065684

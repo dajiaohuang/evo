@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Microhyla beilunensis
+    name:
+      en: Microhyla beilunensis
+      zh: Microhyla beilunensis
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Microhyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d67f8f12d5
+            part: body
+          zh:
+            page: zh
+            section: s-d08cdbcb18
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d301611100
+            part: body
+          zh:
+            page: zh
+            section: s-5a0ffb67b3
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3267, 3268; Reference.csv rows 844
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3267
+        values:
+          - Microhylidae
+          - Microhyla
+          - Microhyla beilunensis
+          - F
+          - "27.58"
+          - "7.4"
+          - "8.37"
+          - "3.1"
+          - NA
+          - NA
+          - "2.83"
+          - "2.3"
+          - "1.94"
+          - NA
+          - "3.13"
+          - NA
+          - "6.14"
+          - NA
+          - "9.99"
+          - "13.15"
+          - NA
+          - "13.8"
+          - NA
+          - "6.4"
+          - "41.18"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3268
+        values:
+          - Microhylidae
+          - Microhyla
+          - Microhyla beilunensis
+          - M
+          - "21.86"
+          - "6.36"
+          - "7.72"
+          - "2.79"
+          - NA
+          - NA
+          - "2.53"
+          - "2.13"
+          - "1.68"
+          - NA
+          - "2.71"
+          - NA
+          - "5.43"
+          - NA
+          - "8.72"
+          - "11.46"
+          - NA
+          - "11.7"
+          - NA
+          - "1.8"
+          - "35.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 844
+        values:
+          - Anura
+          - Microhyla_beilunensis
+          - "Zhang, M. H., Fe, L., Ye, C. Y., Wang, Y. F., Wang, B., & Jiang, J. P. (2018). A New Species of Genus Microhyla(Amphibia: Anura: Microhylidae) from Zhejiang Province, China. Asian Herpetological Research, 9(3), 135-148. https://doi.org/10.16373/j.cnki.ahr.180032"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 42X9K
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,3 @@
+## ## Leaves, flowers and fruit in one regional description {#s-02b5d7dc82}
+The Brazilian Flora 2020 morphology entry describes erect, non-tufted stems and pinnate leaves. It records oblong, asymmetric leaflets with a central main vein, and loose axillary racemes bearing many flowers. The yellow flowers have a two-lipped calyx; the entry notes an orbicular standard and keel petals without cilia. It describes straight fruits with quadrangular segments joined by septa, and shiny brown, kidney-shaped seeds. These traits come from one regional flora row, whose descriptor alternatives do not establish the species’ full variation or a global account.
+

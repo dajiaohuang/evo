@@ -1,0 +1,380 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis cajanuma Urgilés, Székely, Székely, Christodoulides, Sánchez-Nivicela & Savage, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis cajanuma
+      zh: Pristimantis cajanuma
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c5a2ae2471
+            part: title
+          zh:
+            page: zh
+            section: s-17f75fa575
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c5a2ae2471
+            part: body
+          zh:
+            page: zh
+            section: s-17f75fa575
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-779a1d9ad1
+            part: title
+          zh:
+            page: zh
+            section: s-c2e06223f6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-779a1d9ad1
+            part: body
+          zh:
+            page: zh
+            section: s-c2e06223f6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5e55e6b012
+            part: title
+          zh:
+            page: zh
+            section: s-beed25a574
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-5e55e6b012
+            part: body
+          zh:
+            page: zh
+            section: s-beed25a574
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-7eaedb4091466ff7febfe86f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d50d920e5c
+            part: title
+          zh:
+            page: zh
+            section: s-d279c74589
+            part: title
+        sourceIds:
+          - primary-pmc6658573-scd3b
+        text:
+          en:
+            page: en
+            section: s-d50d920e5c
+            part: body
+          zh:
+            page: zh
+            section: s-d279c74589
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b05be7f6b2
+            part: title
+          zh:
+            page: zh
+            section: s-84d057b8ae
+            part: title
+        sourceIds:
+          - primary-pmc7482940-scd3b
+        text:
+          en:
+            page: en
+            section: s-b05be7f6b2
+            part: body
+          zh:
+            page: zh
+            section: s-84d057b8ae
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6901a38632
+            part: title
+          zh:
+            page: zh
+            section: s-de499f7e8b
+            part: title
+        sourceIds:
+          - primary-pmc7482940-scd3b
+        text:
+          en:
+            page: en
+            section: s-6901a38632
+            part: body
+          zh:
+            page: zh
+            section: s-de499f7e8b
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-3a3559ffc7
+            part: title
+          zh:
+            page: zh
+            section: s-88a6fafd91
+            part: title
+        sourceIds:
+          - primary-pmc7482940-scd3b
+        text:
+          en:
+            page: en
+            section: s-3a3559ffc7
+            part: body
+          zh:
+            page: zh
+            section: s-88a6fafd91
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis cajanuma
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCD3B
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4486, 4487; Reference.csv rows 1885
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc6658573-scd3b
+        referenceId: ref-25a1a208-28be-4201-a2f8-2c413aac4f5a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis cajanuma: Species natural-history account; article prose only, excluding separately licensed datasets; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc7482940-scd3b
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis cajanuma: Complete S2 donor table123rows including allspecimen/locus/locality cells;S1primers andAppendixspecimen paragraphs read;S4acoustic/S5inventory cells read plus main Methods/focaltreatments/Discussion/Tables1–3;S3distance matrix scientifically unreviewed beyond headers;GenBankoriginals/audio/vouchers/alignments/figurepixels unauthenticated; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ba754743b3
+        part: body
+      zh:
+        page: zh
+        section: s-682f746f01
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.864.35102
+        referenceId: ref-25a1a208-28be-4201-a2f8-2c413aac4f5a
+        sourceKey: primary-pmc6658573-scd3b
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6658573/article.xml
+        sourceConcept: Pristimantis cajanuma
+        evidenceRead: "Pristimantis cajanuma: Species natural-history account; article prose only, excluding separately licensed datasets; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Low vegetation near a cloud-forest trail
+              zh: 云雾林小径附近的低矮植被
+            referenceId: ref-25a1a208-28be-4201-a2f8-2c413aac4f5a
+            sourceKey: primary-pmc6658573-scd3b
+            locator: "Pristimantis cajanuma: Species natural-history account; article prose only, excluding separately licensed datasets; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ee865a53dc
+                part: body
+              zh:
+                page: zh
+                section: s-83ad060db2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0238306
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        sourceKey: primary-pmc7482940-scd3b
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/article.xml
+        sourceConcept: Source Pristimantis cajanuma donor labels in2020 comparative phylogeny; frozen exact-name link only, no voucher/concept certification
+        evidenceRead: "Pristimantis cajanuma: Complete S2 donor table123rows including allspecimen/locus/locality cells;S1primers andAppendixspecimen paragraphs read;S4acoustic/S5inventory cells read plus main Methods/focaltreatments/Discussion/Tables1–3;S3distance matrix scientifically unreviewed beyond headers;GenBankoriginals/audio/vouchers/alignments/figurepixels unauthenticated; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Reported sequence donors and their catalogue linkage
+              zh: 报告序列供体与目录链接
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-scd3b
+            locator: PMC7482940 supplementaryS2 pone.0238306.s003.docx table1 rows29,30 species/voucher;sha256:044b1c360d22c2e7b01e3f8afcbfd544d9f525cc35326f73800331b54dd4717b
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e3f0b5c7e2
+                part: body
+              zh:
+                page: zh
+                section: s-a678f5fdb7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: The three-locus matrix does not give every donor three genes
+              zh: 三基因矩阵不使每供体均有三基因
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-scd3b
+            locator: PMC7482940 supplementaryS2 table1 rows29,30 locus/accession columns3–5;Methodssec006–007;S1primer table
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e09aaf8bb7
+                part: body
+              zh:
+                page: zh
+                section: s-a42eb70fc6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Collection labels are sequence provenance, not a new range census
+              zh: 采集标签是序列来源而非新分布普查
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-scd3b
+            locator: PMC7482940 supplementaryS2 table1 rows29,30 localitycolumn6;S5localinventory comparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-25fc8481bc
+                part: body
+              zh:
+                page: zh
+                section: s-d5b87d47d4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Punica granatum L.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4QHX8, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4QHX8; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4QHX8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4QHX8
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000468843-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4QHX8 / WFO wfo-0000468843
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_16187_0
+        referenceId: ref-ea067750-ae06-8c5a-a247-ef528c1683a1
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Punica granatum L. account; archive rows 72520 (Morphology), 70060 (Habitat), source identifier 16187.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Shrub, up to 2-6 m high; deciduous. Stems sometimes spiny. Leaves opposite or subopposite; blade narrowly oblong-ovate to obovate, 30-70 x 20 mm, margins entire, glabrous. Flowers: 30-40 mm in diameter; many stamens inserted on corolla tube; petals 4- or 5-merous, red; Aug.-Jan. Fruit a ± globose berry, 50-80 mm in diameter, reddish brown, leathery when ripe; each seed surrounded by an edible aril, white to deep red or purple in colour, seeds embedded in a white, spongy, acid or sweet pulp."
+            sourceIds:
+              - sanbi_16187_0
+            locator: "SANBI/WFO archive Morphology row 72520; source 16187.0; publication: Retief, E; Meyer, NL. 2017. Lythraceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 629 - 630. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dry Grassland. Disturbed places, roadsides.
+            sourceIds:
+              - sanbi_16187_0
+            locator: "SANBI/WFO archive Habitat row 70060; source 16187.0; publication: Retief, E; Meyer, NL. 2017. Lythraceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 629 - 630. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

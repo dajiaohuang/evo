@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne zimmeri
+  displayName: Oreophryne zimmeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6STXV
+  sourceIndexes:
+    - name:
+        en: Oreophryne zimmeri
+        zh: Oreophryne zimmeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6STXV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/306
+            queryName: Oreophryne zimmeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e580ca8c0c
+      - s-bd6a72e6ef
+      - s-e5af972b81
+      - s-5947655f01
+      - s-22a48f5b2e
+      - s-138b280802
+      - s-be6150d50e
+    zh:
+      - s-f80cff2852
+      - s-3e48fe3331
+      - s-0435da576b
+      - s-147917b9c1
+      - s-26c632e2a7
+      - s-52710474b9
+      - s-321b94a485

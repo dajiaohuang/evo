@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amolops wangyali Mahony, Nidup, Streicher, Teeling & Kamei, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amolops wangyali
+      zh: Amolops wangyali
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a5c4e224fb
+            part: title
+          zh:
+            page: zh
+            section: s-bb5a59567c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a5c4e224fb
+            part: body
+          zh:
+            page: zh
+            section: s-bb5a59567c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b63332bb15
+            part: title
+          zh:
+            page: zh
+            section: s-d8d29f0c01
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b63332bb15
+            part: body
+          zh:
+            page: zh
+            section: s-d8d29f0c01
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a5e5f65ddb
+            part: title
+          zh:
+            page: zh
+            section: s-d747585ea8
+            part: title
+        sourceIds:
+          - primary-pmc10351143-v5cwg
+        text:
+          en:
+            page: en
+            section: s-a5e5f65ddb
+            part: body
+          zh:
+            page: zh
+            section: s-d747585ea8
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e0beac5315
+            part: title
+          zh:
+            page: zh
+            section: s-d1a687591f
+            part: title
+        sourceIds:
+          - primary-pmc10351143-v5cwg
+        text:
+          en:
+            page: en
+            section: s-e0beac5315
+            part: body
+          zh:
+            page: zh
+            section: s-d1a687591f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amolops wangyali
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5CWG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10351143-v5cwg
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amolops wangyali: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-858db53f1c
+        part: body
+      zh:
+        page: zh
+        section: s-7f79b85909
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1186/s40851-023-00214-9
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        sourceKey: primary-pmc10351143-v5cwg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10351143/article.xml
+        sourceConcept: Exactnamed2023comparison/donorrow;authorcomparisonnotnewwhole-speciesmeasurementorconceptauthentication
+        evidenceRead: "Amolops wangyali: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Characters in the dated group comparison
+              zh: 有年代群比较中的性状
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-v5cwg
+            locator: PMC10351143 article.xml Sec20p7;Sec4p1 comparative-source scope;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9acf1df75d
+                part: body
+              zh:
+                page: zh
+                section: s-6360e22b50
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Sex-specific size in a published comparison
+              zh: 发表比较中的性别特定体型
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-v5cwg
+            locator: PMC10351143 article.xml Sec20p7;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e280e2a1c6
+                part: body
+              zh:
+                page: zh
+                section: s-63c2b80041
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

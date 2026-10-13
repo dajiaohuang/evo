@@ -1,0 +1,3 @@
+## Duvalia modesta {#s-12be300574}
+COL26.8 (released 2026-08-20) lists *Duvalia modesta* as an accepted species. One regional account compares its pale greenish-brown flowers, with a paler centre and diameter under 18 mm, to *D. caespitosa*. A separate account of subsp. *pubescens* emphasizes variation: stems in Namibia and the Richtersveld are often no more than 15 mm long and less across, while sheltered Kamiesberg plants may have stems 30–40 mm or longer. Flowers are often pale dull pink-brown in northern areas and darker and shinier toward the south. A 2019 note records a variant treated as *D. modesta* in Bruyns (2005a). The habitat source says karroid scrub; these accounts do not describe one invariant form.
+

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis reichlei
+  displayName: Pristimantis reichlei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJML
+  sourceIndexes:
+    - name:
+        en: Pristimantis reichlei
+        zh: Pristimantis reichlei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJML
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/38
+            queryName: Pristimantis reichlei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dc72c63438
+      - s-3dd97f09b3
+      - s-7fb65dc315
+      - s-255a3e8662
+      - s-c1a838c144
+      - s-60a3b34faf
+      - s-6c72ff1bb0
+      - s-2fa34c8f6f
+    zh:
+      - s-e924aa9707
+      - s-3baa4c2660
+      - s-e57454b751
+      - s-8233c72c07
+      - s-86ea4d3f7c
+      - s-ec05d29a91
+      - s-4b2b0e89b2
+      - s-894d1d7ecb

@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pseudophilautus folicola
+    name:
+      en: Pseudophilautus folicola
+      zh: Pseudophilautus folicola
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Pseudophilautus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Pseudophilautus folicola in the morphology deposit
+          zh: 形态数据中的 Pseudophilautus folicola 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f6ec62f50a
+            part: body
+          zh:
+            page: zh
+            section: s-816eff80b9
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4994 and 4995: measurement fields and sex codes"
+          zh: 第 4994、4995 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ef824f5343
+            part: body
+          zh:
+            page: zh
+            section: s-1e58ecd2c6
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4994, 4995; Reference.csv rows 1188
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4994
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus folicola
+          - F
+          - "29.4"
+          - "7.574829932"
+          - "6.71145"
+          - "2.583075"
+          - "0.5151"
+          - NA
+          - "1.780125"
+          - "1.6665"
+          - "1.6665"
+          - "2.234625"
+          - "3.325425"
+          - "1.1514"
+          - "4.8783"
+          - "4.07535"
+          - NA
+          - "12.566925"
+          - NA
+          - "9.7566"
+          - "8.7264"
+          - NA
+          - NA
+          - "0.74235"
+          - "1.552875"
+          - "2.007375"
+          - "2.810325"
+          - "4.128375"
+          - "2.92395"
+          - "1.37865"
+          - "1.780125"
+          - "1.780125"
+          - "2.46945"
+          - NA
+          - NA
+          - "0.689325"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4995
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus folicola
+          - M
+          - "26.1"
+          - "8.867816092"
+          - "8.366958"
+          - "3.094932"
+          - "0.594156"
+          - NA
+          - "2.256906"
+          - "2.159358"
+          - "1.986432"
+          - "2.491908"
+          - "3.715692"
+          - "1.210482"
+          - "5.471556"
+          - "4.859664"
+          - NA
+          - "13.807476"
+          - NA
+          - "11.155944"
+          - "9.830178"
+          - NA
+          - NA
+          - "0.944442"
+          - "1.569636"
+          - "1.742562"
+          - "2.718042"
+          - "4.283244"
+          - "3.094932"
+          - "1.565202"
+          - "0.895668"
+          - "2.01747"
+          - "2.81559"
+          - NA
+          - NA
+          - "0.93114"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1188
+        values:
+          - Anura
+          - Pseudophilautus_folicola
+          - "Manamendra-Arachchi, K., & Pethiyagoda, R. (2005). The Sri Lankan shrub-frogs of the genus Philautus Gistel, 1848 (Ranidae: Rhacophorinae), with description of 27 new species. Raffles Bulletin of Zoology, 163-303."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4P72R
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cochranella resplendens
+  displayName: Cochranella resplendens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/WNT3
+  sourceIndexes:
+    - name:
+        en: Cochranella resplendens
+        zh: Cochranella resplendens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: WNT3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/387
+            queryName: Cochranella resplendens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/37
+            queryName: Cochranella phryxa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/409
+            queryName: Centrolenella resplendens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-77b81f95bc
+      - s-ca8837bf87
+      - s-22069bc1b2
+      - s-0956e536b1
+      - s-9e709e8bd9
+      - s-daeef0b147
+      - s-396a66e390
+      - s-6b22f26879
+      - s-3c1b4c224e
+      - s-03ec4b0ad1
+      - s-c55de598a9
+      - s-03366d9300
+      - s-c2d3d8619c
+      - s-48672905dc
+      - s-8f84683776
+      - s-e5af0e4d44
+    zh:
+      - s-faba496fe5
+      - s-aea0c894ae
+      - s-d6811cc9c5
+      - s-df081ef8a6
+      - s-bf85238cf7
+      - s-3d7e3f5f9b
+      - s-3d3efe0ec7
+      - s-b9ba8f36a9
+      - s-f47cdb4d6b
+      - s-ef17ffe4a1
+      - s-3232dcc700
+      - s-250c9c81f8
+      - s-9a1805d48e
+      - s-241d5c2ad5
+      - s-67d58b56d8
+      - s-063635d6c4

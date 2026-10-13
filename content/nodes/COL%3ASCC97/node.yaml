@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis verrucolatus
+  displayName: Pristimantis verrucolatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCC97
+  sourceIndexes:
+    - name:
+        en: Pristimantis verrucolatus
+        zh: Pristimantis verrucolatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCC97
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/164
+            queryName: Pristimantis verrucolatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-170887aff4
+      - s-3dd87b4400
+      - s-daf0fcf70c
+      - s-339cfde65e
+      - s-71edac0a9f
+      - s-cc52d3492c
+      - s-06b4824a6b
+      - s-b1d9502a64
+      - s-c5f970b708
+      - s-68a5bbf628
+      - s-c3612f12a0
+      - s-c47d1233aa
+      - s-bf415ec47c
+      - s-2ebe9200c8
+    zh:
+      - s-692d809d08
+      - s-388d8705da
+      - s-feaf8e85cb
+      - s-b6b0676d60
+      - s-e322fe1f55
+      - s-a695d1d912
+      - s-51df88e5dc
+      - s-b17ba08e55
+      - s-6b7f0676e7
+      - s-1724fe8713
+      - s-745cdf1694
+      - s-0153ace5ca
+      - s-1ccb179607
+      - s-8245ba4d5b

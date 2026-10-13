@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia leucocephala
+  displayName: Caecilia leucocephala
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SW
+  sourceIndexes:
+    - name:
+        en: Caecilia leucocephala
+        zh: Caecilia leucocephala
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/73
+            queryName: Caecilia leucocephala
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d34595d46
+      - s-c7ad13163d
+      - s-7675e9be09
+      - s-dd09700ac9
+      - s-00ec03c7c9
+      - s-e0677aeb7f
+      - s-e79d66d177
+      - s-60cfe15b05
+      - s-b7f1b07b00
+      - s-1812a61c3c
+      - s-8f99e0ae23
+      - s-5b3cd0d896
+    zh:
+      - s-3fe5f6a35c
+      - s-7275b6e411
+      - s-0f6b9f4f9c
+      - s-992fbddb3e
+      - s-5dae8591cf
+      - s-0764ede137
+      - s-8f67a84749
+      - s-1dce085a3c
+      - s-3cc7783f91
+      - s-7d32342944
+      - s-d4b9c49b73
+      - s-c61931010c

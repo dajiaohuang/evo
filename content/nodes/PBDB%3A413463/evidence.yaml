@@ -1,0 +1,369 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Asteriornis
+    commonName: Asteriornis
+    commonNameZh: 阿斯忒里鸟
+    rank: genus
+    taxonId: txn:413463
+    firstAppearance: 66.8
+    lastAppearance: 66.7
+    extinct: true
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  readerSections:
+    - id: specimen-route
+      title:
+        en:
+          page: en
+          section: s-e13d0ca819
+          part: title
+        zh:
+          page: zh
+          section: s-4e94fc8f6f
+          part: title
+      text:
+        en:
+          page: en
+          section: s-e13d0ca819
+          part: body
+        zh:
+          page: zh
+          section: s-4e94fc8f6f
+          part: body
+      sourceIds:
+        - field-2020-asteriornis
+    - id: species-reading-route
+      title:
+        en:
+          page: en
+          section: s-5d8cc902e9
+          part: title
+        zh:
+          page: zh
+          section: s-8e063cdeda
+          part: title
+      text:
+        en:
+          page: en
+          section: s-5d8cc902e9
+          part: body
+        zh:
+          page: zh
+          section: s-8e063cdeda
+          part: body
+      sourceIds:
+        - field-2020-asteriornis
+  readerSources:
+    - id: field-2020-asteriornis
+      referenceId: field-2020-asteriornis
+      fields:
+        - id
+        - title
+        - url
+        - scope
+      metadataVariant: 1
+      usage:
+        scope:
+          en: NHMM 2013 008 and its quarry/horizon provenance; Figures 1–3, Extended Data Figures 7–9 and the cited description. Existing research claims delimit anatomy, competing topology results, the skeletal-scaling mass estimate and tentative littoral interpretation. These locators do not establish a complete global range, feeding behaviour, flight performance, direct ancestry of this guide.
+          zh: NHMM 2013 008 及其采石场和层位来源；图1–3、扩展数据图7–9及所引描述。既有研究 claims 限定解剖观察、竞争拓扑、骨骼尺度体重估计和暂定滨岸解释。这些定位不确立完整全球分布、取食行为、飞行性能、直系祖先关系。
+  readerLimitations:
+    en:
+      page: en
+      section: s-3ae9d1d72d
+      part: body
+    zh:
+      page: zh
+      section: s-76535d0084
+      part: body
+  atlas-profile:
+    pbdbTaxonId: txn:413463
+    scientificName: Asteriornis
+    commonName: Asteriornis
+    commonNameZh: 星辰鸟
+    rank: genus
+    parentName: Neornithes
+    extinct: true
+    geography:
+      - Maastricht Formation, CBR-Romontbos quarry, Belgium
+    overview:
+      page: en
+      section: s-a24311bbee
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-ba2beb9e92
+        part: body
+      habitat:
+        page: en
+        section: s-6f85ef464c
+        part: body
+      locomotion:
+        page: en
+        section: s-dad7fac68f
+        part: body
+      bodySize:
+        page: en
+        section: s-85130e2128
+        part: body
+      guild:
+        page: en
+        section: s-4384393c3a
+        part: body
+    traits:
+      - page: en
+        section: s-351e5bbbc9
+        part: body
+      - page: en
+        section: s-24b684fff5
+        part: body
+      - page: en
+        section: s-1f7528ce74
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-ec42a77c83
+      part: body
+    readerSections:
+      - id: reading-0
+        title:
+          en:
+            page: en
+            section: s-422cbc0d6f
+            part: title
+          zh:
+            page: zh
+            section: s-764801448c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-422cbc0d6f
+            part: body
+          zh:
+            page: zh
+            section: s-764801448c
+            part: body
+      - id: reading-1
+        title:
+          en:
+            page: en
+            section: s-1dee47cf9b
+            part: title
+          zh:
+            page: zh
+            section: s-f9ffd742db
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1dee47cf9b
+            part: body
+          zh:
+            page: zh
+            section: s-f9ffd742db
+            part: body
+    confidence: medium
+    referenceIds:
+      - field-2020-asteriornis
+    overviewZh:
+      page: zh
+      section: zh-7a209f81c805f0
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-2bd80eb749a452
+      part: body
+  claims:
+    - subjectId: taxon:asteriornis
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Asteriornis is anchored by CT-imaged holotype NHMM 2013 008 from a tightly constrained latest Maastrichtian horizon in Belgium; the occurrence is not a global crown-bird FAD and its crown placement remains analysis-dependent.
+      confidence: high
+      confidenceRationale: The specimen and horizon are direct, while alternative phylogenetic methods place it differently. High confidence applies to occurrence, not a universal crown boundary.
+      referenceLinks:
+        - referenceId: field-2020-asteriornis
+          relation: supports
+          pages: 397–401
+          figure: Figures 1–4; Extended Data Figure 7
+          quoteLocator: Holotype; Geological setting; age constraint; Phylogenetic analyses
+    - subjectId: taxon:asteriornis
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Field et al. named Asteriornis maastrichtensis from holotype NHMM 2013 008; parsimony placed it as sister to crown Galloanserae whereas tip-dated Bayesian analysis placed it as the stemward-most Pangalliformes member, so exact crown position remains method-dependent.
+      confidence: medium
+      confidenceRationale: The name, type and two reported topology results are explicit. Confidence remains medium because the analyses disagree on the exact near-galloanseran branch and do not establish direct ancestry.
+      referenceLinks:
+        - referenceId: field-2020-asteriornis
+          relation: supports
+          pages: 397–401
+          figure: Figure 3; Extended Data Figure 9
+          quoteLocator: Systematic palaeontology; parsimony and tip-dated Bayesian phylogenetic analyses
+    - subjectId: taxon:asteriornis
+      claimType: biogeography
+      claimKind: scientific
+      statement: NHMM 2013 008 comes from the Maastricht Formation at the CBR-Romontbos quarry in Belgium; its Northern Hemisphere occurrence challenges a Gondwanan-origin hypothesis in the cited analysis but does not identify the geographic origin of crown birds.
+      confidence: high
+      confidenceRationale: The quarry and formation provenance are direct records. The broader biogeographic consequence is framed only as a challenge to one hypothesis, not as proof of an alternative origin.
+      referenceLinks:
+        - referenceId: field-2020-asteriornis
+          relation: supports
+          pages: 397–401
+          figure: Figure 3; Extended Data Figure 7
+          quoteLocator: Geological setting and provenance; Northern Hemisphere biogeographic discussion
+    - subjectId: taxon:asteriornis
+      claimType: morphology
+      claimKind: scientific
+      statement: NHMM 2013 008 includes a nearly complete, three-dimensionally preserved skull and associated postcranial elements and exhibits a combination of galliform-like and anseriform-like cranial features in the authors' comparison.
+      confidence: high
+      confidenceRationale: The CT-imaged specimen, preserved elements and comparative cranial observations are documented directly. High confidence is confined to the sampled anatomy rather than its universal phylogenetic interpretation.
+      referenceLinks:
+        - referenceId: field-2020-asteriornis
+          relation: supports
+          pages: 397–401
+          figure: Figures 1–2; Extended Data Figure 7
+          quoteLocator: Holotype and CT description; comparative skull and quadrate morphology
+    - subjectId: taxon:asteriornis
+      claimType: ecology
+      claimKind: scientific
+      statement: The cited study estimates a mean body mass of 394 g and proposes only a possible littoral ecology from small size and depositional context; it does not resolve species-specific diet, locomotor performance or a feeding guild.
+      confidence: medium
+      confidenceRationale: The body mass is a skeletal-scaling model result and littoral ecology is explicitly tentative. The remaining ecological fields are withheld because the study does not directly support them.
+      referenceLinks:
+        - referenceId: field-2020-asteriornis
+          relation: supports
+          pages: 397–401
+          figure: Extended Data Figure 8
+          quoteLocator: Mean body-mass estimate and discussion of possible littoral ecology
+  claim-rationales.zh:
+    - 标本与层位是直接证据，而不同系统发育方法给出不同位置。高置信度适用于出现记录，不适用于普遍冠群边界。
+    - 名称、模式标本与两项拓扑结果均有明确报告。两种分析对近鸡雁类的具体位置并不一致，且不建立直系祖先关系，因此置信度为中等。
+    - 采石场和地层组来源是直接记录。更广泛的生物地理意义仅表述为对一个假说的挑战，而不是另一种起源的证明。
+    - CT 成像标本、保存构件与比较头骨观察均有直接记录。高置信度只覆盖取样解剖，不延伸为普遍系统位置。
+    - 体重是骨骼尺度模型结果，滨岸生态在原文中也明确只是可能性。论文未直接支持的其余生态字段保持不详。
+  claim-statements.zh:
+    - Asteriornis 由比利时严格约束的最晚马斯特里赫特期层位中、经 CT 成像的正模 NHMM 2013 008 锚定；该记录不是全球冠群鸟类首现，其冠群位置仍依赖分析。
+  ranges:
+    - entityId: asteriornis
+      rangeKind: global-composite
+      taxonomicConcept: Asteriornis maastrichtensis holotype occurrence
+      geographicScope: Maastricht Formation, Belgium
+      olderMa: 66.8
+      youngerMa: 66.7
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The interval is a study-level occurrence or model-bounded navigation envelope, not a direct date on ancestry or a guaranteed global first appearance.
+      evidenceBasis: NHMM 2013 008 includes a three-dimensionally preserved skull imaged by CT plus associated postcrania from a tightly constrained Maastrichtian horizon.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:asteriornis
+      referenceLocators:
+        - referenceId: field-2020-asteriornis
+          locator: 397–401; Figures 1–4; Extended Data Figure 7; Holotype; Geological setting; Phylogenetic analyses
+  catalogue-profile:
+    scientificName: Asteriornis
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Asteriornis
+      en: Asteriornis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-aa85501ba1
+            part: body
+          en:
+            page: en
+            section: s-32d099c3e5
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dfc437e12c
+            part: body
+          en:
+            page: en
+            section: s-5119d4441b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Asteriornis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=413463
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:413463
+          readingTargets:
+            - name: Asteriornis maastrichtensis
+              pbdbTaxonId: txn:413465
+              canonicalPath: content/nodes/PBDB%3A413465
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-1b978c86fc
+        part: body
+      en:
+        page: en
+        section: s-9ddcb6e9f8
+        part: body

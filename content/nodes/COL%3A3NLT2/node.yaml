@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius amjiensis
+  displayName: Hynobius amjiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NLT2
+  sourceIndexes:
+    - name:
+        en: Hynobius amjiensis
+        zh: Hynobius amjiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NLT2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/151
+            queryName: Hynobius amjiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-71a1926bb3
+      - s-2d9b856710
+      - s-98b8080f87
+      - s-b6da8297f5
+      - s-7b02a8c4cc
+      - s-93609e820e
+      - s-f8e111f91c
+      - s-614752c634
+      - s-94cafb2da3
+      - s-b2d8dacbf7
+      - s-e911ac784d
+    zh:
+      - s-1e2d05d0fc
+      - s-dd61ced459
+      - s-5f06706bd9
+      - s-f5c7bf67d2
+      - s-fe012941dd
+      - s-b037a5418b
+      - s-c65b6adb59
+      - s-8e2bd680c2
+      - s-72ae2f09a0
+      - s-e248dc5e4a
+      - s-3f22ddded7

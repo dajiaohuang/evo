@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus elegans
+  displayName: Dendropsophus elegans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S57
+  sourceIndexes:
+    - name:
+        en: Dendropsophus elegans
+        zh: Dendropsophus elegans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S57
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/361
+            queryName: Dendropsophus elegans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/324
+            queryName: Hyla elegans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd68e79d5e
+      - s-78c733a72f
+      - s-3800d8842d
+      - s-534743f41e
+      - s-fcecf3ef5a
+      - s-944a886047
+      - s-f220845d0a
+      - s-1c32eedd1e
+      - s-908952648c
+      - s-6390f56c9a
+      - s-8c7d76a9f1
+      - s-b5b537e823
+      - s-c20a7258f6
+      - s-c5d839b48f
+      - s-8f208482cd
+      - s-bd54d03d96
+      - s-2874cbcd7d
+      - s-45a77956be
+      - s-8f37874f89
+      - s-fcb01d2f72
+    zh:
+      - s-f607fdb46d
+      - s-6cefc8a287
+      - s-3e93eba403
+      - s-650c1ca0d5
+      - s-e54bae9ae5
+      - s-4acc7ab2f8
+      - s-3a310467b7
+      - s-2309d165f6
+      - s-1e79b7ebcb
+      - s-f118b5061b
+      - s-f2873cf7b8
+      - s-2255b75dd0
+      - s-45c1bee6be
+      - s-b2301d6e90
+      - s-916980b386
+      - s-47537ec756
+      - s-712bb6258e
+      - s-5774cbdbd4
+      - s-b00e72f12d
+      - s-a307c636b3

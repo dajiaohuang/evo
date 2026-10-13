@@ -1,0 +1,134 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus cognatus
+  displayName: Anaxyrus cognatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66M5T
+  sourceIndexes:
+    - name:
+        en: Anaxyrus cognatus
+        zh: Anaxyrus cognatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66M5T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/433
+            queryName: Anaxyrus cognatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/237
+            queryName: Bufo cognatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 44
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/184
+            queryName: Chilophryne cognata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/185
+            queryName: Incilius cognatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/186
+            queryName: Bufo dipternus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/368
+            queryName: Bufo lentiginosus cognatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/369
+            queryName: Bufo cognatus cognatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d3b929b5a9
+      - s-fbeeae1b39
+      - s-2ccf056f32
+      - s-6f6a6b3d8c
+      - s-fdc616e677
+      - s-4d6745ebd3
+      - s-e28ec00d77
+      - s-be9fea813a
+      - s-9e7e0797dc
+      - s-726d80450d
+      - s-9426f814c0
+      - s-6d01f2be86
+      - s-94507882e6
+      - s-f4f0f883a4
+      - s-79eb342f65
+      - s-35cc3e402e
+      - s-3739b772cd
+      - s-21e910d212
+      - s-a9712508aa
+      - s-0c8d28f43e
+      - s-0cacda1fd9
+      - s-9cb00c5df7
+      - s-d66ace298a
+      - s-fa6daf4424
+      - s-47ca164f61
+      - s-9d3886ad62
+      - s-82b214cb7e
+      - s-d6b50e694d
+      - s-55071e29b0
+    zh:
+      - s-603762d6ff
+      - s-931cb37fda
+      - s-3003bec6f8
+      - s-70a9b28dce
+      - s-ab76df1e96
+      - s-5daf4fe524
+      - s-1bae16be71
+      - s-54b5c76301
+      - s-dd0e87727f
+      - s-d7051ca10c
+      - s-a34a5578af
+      - s-5be312d396
+      - s-5755fb7ed1
+      - s-74419fea7f
+      - s-0db04da2af
+      - s-69e90344e4
+      - s-82e2e669df
+      - s-54af8cdd1d
+      - s-4f4cdd426a
+      - s-2ec64f2f12
+      - s-5e0b0da703
+      - s-585c0527be
+      - s-eacad75879
+      - s-f32d363183
+      - s-4d07c8a0a4
+      - s-246d105120
+      - s-2063f7537e
+      - s-b47ea547c7
+      - s-afb34931eb

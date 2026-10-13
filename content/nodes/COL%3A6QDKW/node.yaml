@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes finchi
+  displayName: Limnonectes finchi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDKW
+  sourceIndexes:
+    - name:
+        en: Limnonectes finchi
+        zh: Limnonectes finchi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDKW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/68
+            queryName: Limnonectes finchi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/426
+            queryName: Rana finchi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/454
+            queryName: Rana microdisca finchi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ebb12647cc
+      - s-d89f1917fd
+      - s-f12d1e0947
+      - s-24f691f8c0
+      - s-1df0da90d1
+      - s-6664a5d23e
+      - s-46e73695d4
+      - s-dd43b47d56
+      - s-e9c1f72dbe
+      - s-71ceb306ce
+    zh:
+      - s-677625abb6
+      - s-9487f35705
+      - s-a91ce42acb
+      - s-e190dd2cbd
+      - s-4786972f28
+      - s-ac219a504e
+      - s-c75548cccf
+      - s-c6dcdb80d1
+      - s-8bb1c060c2
+      - s-0cdd7b0589

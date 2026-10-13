@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Carex distincta (Kukkonen) Luceño & Martín-Bravo
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage R8Z7, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage R8Z7; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/R8Z7
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage R8Z7
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001343406-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL R8Z7 / WFO wfo-0001343406
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13575_0
+        referenceId: ref-7846dc2a-4dfc-8ab8-a290-25ce645a7fc3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Carex distincta (Kukkonen) Luceño & Martín-Bravo account; SANBI/WFO archive rows 85277 (Morphology), 85003 (Habitat), source identifier 13575.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: A perennial 12-17 cm tall, caespitose or forming loose tufts. Bladeless sheaths in new growth greyish brown, c. 2 cm. Stem terete, grooved, c. 0.8 mm in diameter, smooth, triquetrous below the inflorescense; several of the higher stem leaves subtending inflorescense branches. Leaves green, about as tall as stem; sheath scarious on one side, margin U-shaped, light brown ligule c. 0.25 mm; leaf blade straight or slightly falcate, acute, 1.5-2.5 mm wide; leaf margin flat, smooth, but apically ± triangular with barbs; adaxial sides of leaf papillose, abaxial side smooth. Inflorescence a panicle, topmost part of inflorescence c. 2.5-3.0 cm; brown, narrowly elliptic; lowermost lateral branches 10-13 mm long, narrow, with 2-1 tristigmatic basal female flowers and with several male flowers at top. Subtending bracts of lateral inflorescence branches long, the lowermost up to 3 cm long, setaceous. Bracts brown, acute, 3-4 mm long, middle vein green, margins widely scarious, equal in length with the utricle. Utricles 3.5-4.0 x 0.7-0.8 mm, with a very short stipe (c. 0.3 mm), beak not clearly delimited, brown, c. 0.8 mm, apex with scarious margins; body of the utricle green, more conspicuously veined abaxially, mouth cleft on adaxial side, wide. Rhachilla green, with barbed margins, two veins, and a scale on its tip, slightly longer than the nutlet. Nutlet (not completely mature) narrowly oblong, trigonal, 2.5-2.8 x c. 0.6 mm.
+            textZh: Carex distincta (Kukkonen) Luceño & Martín-Bravo 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13575_0
+            locator: "SANBI/WFO archive Morphology row 85277; source identifier 13575.0; cited publication: Kukkonen, I. 1978. Two new species of Schoenoxiphium (Cyperaceae). Bot. Not. 131: 263 - 267. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Locally common in alpine grassveld on summit of Drakensberg.
+            textZh: 该 SANBI 区域物种条目记录的生境：Locally common in alpine grassveld on summit of Drakensberg.
+            sourceIds:
+              - sanbi_13575_0
+            locator: "SANBI/WFO archive Habitat row 85003; source identifier 13575.0; cited publication: Kukkonen, I. 1978. Two new species of Schoenoxiphium (Cyperaceae). Bot. Not. 131: 263 - 267. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

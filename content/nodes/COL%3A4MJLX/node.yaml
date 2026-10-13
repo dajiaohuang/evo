@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pruinatus
+  displayName: Pristimantis pruinatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJLX
+  sourceIndexes:
+    - name:
+        en: Pristimantis pruinatus
+        zh: Pristimantis pruinatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJLX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/17
+            queryName: Pristimantis pruinatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/6
+            queryName: Eleutherodactylus pruinatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c0cb11bc4e
+      - s-1854eed01a
+      - s-357f66d021
+      - s-3b31dc198f
+      - s-fe2ea79e7a
+      - s-a2811ff28a
+      - s-94ddd6a52a
+    zh:
+      - s-3ac46bab92
+      - s-7b3698cf01
+      - s-c097bd0ce7
+      - s-bedeb873e4
+      - s-319bd34e88
+      - s-37276d23fa
+      - s-2beb2aeceb

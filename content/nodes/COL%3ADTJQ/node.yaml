@@ -1,0 +1,196 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Andrias davidianus
+  displayName: Andrias davidianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DTJQ
+  sourceIndexes:
+    - name:
+        en: Andrias davidianus
+        zh: Andrias davidianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DTJQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/470
+            queryName: Andrias davidianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 570
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/308
+            queryName: Andrias davidianus davidianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/39
+            queryName: Sieboldia davidiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/40
+            queryName: Sieboldia davidi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 504
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/42
+            queryName: Megalobatrachus davidianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/43
+            queryName: Cryptobranchus davidianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/343
+            queryName: Megalobatrachus japonicus davidi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/344
+            queryName: Megalobatrachus japonicus davidianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/345
+            queryName: Andrias scheuchzeri davidiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1323355fca
+      - s-e9903dbc55
+      - s-89cefb2dd9
+      - s-4328af4fd8
+      - s-733e953431
+      - s-ef54323b1f
+      - s-336dd86c17
+      - s-ffe0bd9daa
+      - s-d91cb447d2
+      - s-adad3dfa15
+      - s-3c9a7d9bc1
+      - s-0c25da1c72
+      - s-518719d5b7
+      - s-adb73a116e
+      - s-94af6fe2a0
+      - s-6641f357a1
+      - s-14d1034e0d
+      - s-905e48411d
+      - s-8a03b4db3c
+      - s-7bc29c40a2
+      - s-af4a7ecd07
+      - s-d2840ffd8f
+      - s-41abfad356
+      - s-71d4961477
+      - s-454882972b
+      - s-1332d3d00c
+      - s-c05642931c
+      - s-9500ddac0d
+      - s-db466c5c4a
+      - s-59a54b1999
+      - s-4bc6ae789d
+      - s-6804297225
+      - s-23fb73661b
+      - s-2bfdee91f4
+      - s-03a329a19c
+      - s-08f3bcdc57
+      - s-94649a8b5c
+      - s-a36045bd8d
+      - s-5e1fef14a0
+      - s-18f20da560
+      - s-2b622d1687
+      - s-f37b787ce0
+      - s-743a6a82db
+      - s-bed81208b6
+      - s-fc29adf8f7
+      - s-3efe3b7176
+      - s-8c48465ef2
+      - s-b5572696bb
+      - s-040f63a789
+      - s-55b6c65359
+      - s-baa86c118c
+      - s-0cea1d79f5
+      - s-5260b595f9
+      - s-15b924a574
+    zh:
+      - s-daed5b98db
+      - s-654606810b
+      - s-2721220cb1
+      - s-6f26c811b5
+      - s-2fb48bd0e9
+      - s-75dea02c60
+      - s-3a5b058eac
+      - s-77f8b14542
+      - s-d4374f8915
+      - s-da74341742
+      - s-0804a73216
+      - s-0f2bed69e3
+      - s-f1f1c8163e
+      - s-ed3b307ca0
+      - s-5f768a8ae6
+      - s-0df2cc5c12
+      - s-fb71560ba9
+      - s-61ef39e48b
+      - s-40bc08605d
+      - s-9ed60dd287
+      - s-b6e0689246
+      - s-94dd685840
+      - s-6cacae312a
+      - s-caa2ecb3d2
+      - s-e1f2bb86fa
+      - s-043b322628
+      - s-9175871919
+      - s-f9b147eff3
+      - s-cad66e860c
+      - s-c967ddb340
+      - s-b241ae1c06
+      - s-3fd16cf63c
+      - s-286924a13d
+      - s-7d39a0d533
+      - s-fcd4b0cacc
+      - s-b032f4a29b
+      - s-8a79f65ba0
+      - s-2d676a3663
+      - s-7622bdf030
+      - s-0b83325d76
+      - s-2426657177
+      - s-5fb244fe2a
+      - s-fa555aeb6f
+      - s-7a6745469d
+      - s-4481200cfb
+      - s-22e85b99e1
+      - s-3b43e10345
+      - s-7b7855ca3d
+      - s-0b815b14d4
+      - s-566c0a085d
+      - s-5d7219bb08
+      - s-a64e41156c
+      - s-6c7d46bde9
+      - s-a2dd988c1b

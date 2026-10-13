@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Psychrophrynella chirihampatu
+    name:
+      en: Psychrophrynella chirihampatu
+      zh: Psychrophrynella chirihampatu
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Psychrophrynella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-05581aa46a
+            part: body
+          zh:
+            page: zh
+            section: s-ce8f4d3ce6
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0eddebb3bd
+            part: body
+          zh:
+            page: zh
+            section: s-eb2f4daf9c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5091, 5092; Reference.csv rows 1707
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5091
+        values:
+          - Brachycephaloidea
+          - Psychrophrynella
+          - Psychrophrynella chirihampatu
+          - M
+          - "19.3"
+          - "7.3"
+          - "6.8"
+          - "2.2"
+          - NA
+          - NA
+          - "2.1"
+          - "2"
+          - "1.4"
+          - "1.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.3"
+          - NA
+          - "9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5092
+        values:
+          - Brachycephaloidea
+          - Psychrophrynella
+          - Psychrophrynella chirihampatu
+          - F
+          - "25"
+          - "8.5"
+          - "7.6"
+          - "2.7"
+          - NA
+          - NA
+          - "2.7"
+          - "2.5"
+          - "1.8"
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11"
+          - NA
+          - "10.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1707
+        values:
+          - Anura
+          - Psychrophrynella_chirihampatu
+          - Catenazzi, A., & Ttito, A. (2016). A new species of Psychrophrynella (Amphibia, Anura, Craugastoridae) from the humid montane forests of Cusco, eastern slopes of the Peruvian Andes. PeerJ, 4, e1807. https://doi.org/10.7717/peerj.1807
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

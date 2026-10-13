@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rhinella crucifer
+    name:
+      en: Rhinella crucifer
+      zh: Rhinella crucifer
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Rhinella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Rhinella crucifer in the morphology deposit
+          zh: 形态数据中的 Rhinella crucifer 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5b76179e18
+            part: body
+          zh:
+            page: zh
+            section: s-3c044b595f
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5395: measurement fields and sex codes"
+          zh: 第 5395 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-991f07e899
+            part: body
+          zh:
+            page: zh
+            section: s-50c85ca4d6
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5395; Reference.csv rows 2724
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5395
+        values:
+          - Bufonidae
+          - Rhinella
+          - Rhinella crucifer
+          - M
+          - "81.63"
+          - "27.53"
+          - "30.98"
+          - "8.09"
+          - "4.83"
+          - "2.97"
+          - "11.08"
+          - "4.21"
+          - "6.35"
+          - "6.08"
+          - NA
+          - NA
+          - "7.66"
+          - "18.86"
+          - NA
+          - NA
+          - NA
+          - "34.72"
+          - "33.42"
+          - "20.93"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "26.83"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2724
+        values:
+          - Anura
+          - Rhinella_crucifer
+          - "Baldisseri, F., Caramaschi, U., & Haddad, C. (2004). Review of the Bufo crucifer species group, with descriptions of two new related species (Amphibia, Anura, Bufonidae). Arquivos Do Museu Nacional, 62, 255-282. "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - HAL
+      - FLL
+      - TL
+      - THL
+      - TSL
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4S7MV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

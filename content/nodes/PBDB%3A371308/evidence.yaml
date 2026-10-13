@@ -1,0 +1,187 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Megapodius alimentum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Megapodius alimentum
+      en: Megapodius alimentum
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-baccabbdd5
+            part: body
+          en:
+            page: en
+            section: s-5ee32d9184
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-37799346b3
+            part: body
+          en:
+            page: en
+            section: s-e0334746c3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-025f00c0e0
+            part: body
+          en:
+            page: en
+            section: s-122ad03929
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-282ac5dd9e
+            part: body
+          en:
+            page: en
+            section: s-18e807d66e
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1ef6289887
+            part: body
+          en:
+            page: en
+            section: s-dd5d5a62fb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Megapodius alimentum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=371308&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:371308; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:371308
+          selectedOccurrenceIds:
+            - occ:1404747
+            - occ:1409322
+            - occ:1409345
+            - occ:1409381
+            - occ:1409395
+            - occ:1409396
+            - occ:1409397
+            - occ:1409398
+            - occ:1409399
+            - occ:1409525
+            - occ:1500383
+            - occ:1500399
+            - occ:1500411
+            - occ:1500426
+            - occ:1500443
+          selectedCollectionIds:
+            - col:193980
+            - col:194698
+            - col:194699
+            - col:194717
+            - col:194718
+            - col:194719
+            - col:194720
+            - col:194721
+            - col:194722
+            - col:194751
+            - col:208867
+            - col:208865
+            - col:208862
+            - col:208863
+            - col:208864
+          sourceReferenceIds:
+            - ref:65886
+            - ref:66167
+            - ref:66168
+            - ref:66190
+            - ref:72087
+          originalIdentificationMappings:
+            - occurrenceId: occ:1404747
+              originalIdentifiedName: Megapodius alimentum n. sp.
+              acceptedName: Megapodius alimentum
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ad05dd19d5
+        part: body
+      en:
+        page: en
+        section: s-77c2a63d06
+        part: body

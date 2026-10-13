@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes kautskyi
+  displayName: Phyllodytes kautskyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7DN
+  sourceIndexes:
+    - name:
+        en: Phyllodytes kautskyi
+        zh: Phyllodytes kautskyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7DN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/257
+            queryName: Phyllodytes kautskyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c954073c35
+      - s-648b3c85cd
+      - s-498ca92423
+      - s-ec8019efe5
+      - s-d0552dbd0f
+      - s-d6c296747e
+      - s-d7cc1def38
+      - s-f2e5985302
+      - s-72f9709e2d
+      - s-db7ae17dea
+      - s-7b104925be
+      - s-e2cf36b4f9
+      - s-9234853633
+      - s-bbd60a45b4
+    zh:
+      - s-777583e187
+      - s-6821f99410
+      - s-e1c99a78c9
+      - s-ec96e32ab4
+      - s-6ef75c7221
+      - s-bdbc4c5bb5
+      - s-bc6cb1d938
+      - s-64f7fa4a85
+      - s-ecbcef55dc
+      - s-a8cf25c973
+      - s-ad78633b5b
+      - s-d03a54ca4d
+      - s-b492efac6c
+      - s-2b5cdf8b18

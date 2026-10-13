@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Synapturanus mirandaribeiroi
+  displayName: Synapturanus mirandaribeiroi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7B7NK
+  sourceIndexes:
+    - name:
+        en: Synapturanus mirandaribeiroi
+        zh: Synapturanus mirandaribeiroi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7B7NK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/398
+            queryName: Synapturanus mirandaribeiroi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2bb73009a7
+      - s-a6c0a3af39
+      - s-70ca465f05
+      - s-636041c7b5
+      - s-4d7c85b4d7
+      - s-e76664c09e
+      - s-3e45ea3f9a
+      - s-4399162647
+      - s-7747141aa4
+      - s-162968a7ce
+      - s-43815002c8
+      - s-657f7e52d2
+      - s-4c66391498
+      - s-b286022260
+    zh:
+      - s-fc94e6c206
+      - s-5a1213c7ec
+      - s-68fbd333a3
+      - s-5b62a6b15f
+      - s-05faee5445
+      - s-de9dfbe5f8
+      - s-be528bca89
+      - s-f2b0e47ea7
+      - s-e24820e576
+      - s-d520bca476
+      - s-d3e74297bb
+      - s-82842ddca6
+      - s-2553dd94d2
+      - s-56aca8f980

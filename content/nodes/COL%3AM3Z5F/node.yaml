@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia epicrionopsoides
+  displayName: Caecilia epicrionopsoides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M3Z5F
+  sourceIndexes:
+    - name:
+        en: Caecilia epicrionopsoides
+        zh: Caecilia epicrionopsoides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M3Z5F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/66
+            queryName: Caecilia epicrionopsoides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9e31e49bd4
+      - s-d1ee3f1c12
+      - s-d6307a5af2
+      - s-e951d70b1b
+      - s-a2093f4cd3
+      - s-ae3ce20254
+      - s-a600a4fddf
+    zh:
+      - s-d7bc7038f7
+      - s-8b8c22c003
+      - s-c2eb6474d2
+      - s-d31a064a75
+      - s-1d640f82fc
+      - s-ae0445c1dd
+      - s-fbcfed3e23

@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis fenestratus
+  displayName: Pristimantis fenestratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/788HK
+  sourceIndexes:
+    - name:
+        en: Pristimantis fenestratus
+        zh: Pristimantis fenestratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 788HK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/271
+            queryName: Pristimantis fenestratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/118
+            queryName: Eleutherodactylus fenestratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/387
+            queryName: Hylodes fenestratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/388
+            queryName: Lithodytes cinereus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-10e9ae3823
+      - s-71b58f8242
+      - s-346b8a6aa3
+      - s-45bda32c5a
+      - s-d82e604e97
+      - s-d3fbc2c7f7
+      - s-c730382bf4
+      - s-97065a56fb
+      - s-70e60ac170
+      - s-a7613af055
+      - s-b5457fd986
+      - s-3784f4efe9
+      - s-3f881da439
+      - s-01b338b491
+      - s-ae537d00cb
+      - s-bdaa5e41f5
+      - s-6ba7703487
+      - s-0196a739c2
+    zh:
+      - s-e432ab7f2b
+      - s-d232231c52
+      - s-e685787ac2
+      - s-666d8791e6
+      - s-90656dbc2b
+      - s-248ac57d3b
+      - s-4d9b8daf79
+      - s-7359707dd7
+      - s-e1fef2b602
+      - s-a88bea7216
+      - s-1e21fb0f15
+      - s-0690772bbe
+      - s-28eab4dc39
+      - s-b874259e37
+      - s-ee872be089
+      - s-7a42c32d37
+      - s-628d6e95b6
+      - s-2ce61c733d

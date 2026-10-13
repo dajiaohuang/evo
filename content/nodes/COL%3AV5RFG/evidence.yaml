@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sclerophrys berghei (Laurent, 1950)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Sclerophrys berghei
+      zh: Sclerophrys berghei
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-27725c9968
+            part: title
+          zh:
+            page: zh
+            section: s-c4e0696854
+            part: title
+        text:
+          en:
+            page: en
+            section: s-27725c9968
+            part: body
+          zh:
+            page: zh
+            section: s-c4e0696854
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-655d8389d6
+            part: title
+          zh:
+            page: zh
+            section: s-6b62ad60ca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-655d8389d6
+            part: body
+          zh:
+            page: zh
+            section: s-6b62ad60ca
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-c3acdeb2a8
+            part: title
+          zh:
+            page: zh
+            section: s-4d10a01ee5
+            part: title
+        sourceIds:
+          - primary-pmc13072372-v5rfg
+        text:
+          en:
+            page: en
+            section: s-c3acdeb2a8
+            part: body
+          zh:
+            page: zh
+            section: s-4d10a01ee5
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e0d9e25bcc
+            part: title
+          zh:
+            page: zh
+            section: s-20a1d7a116
+            part: title
+        sourceIds:
+          - primary-pmc13072372-v5rfg
+        text:
+          en:
+            page: en
+            section: s-e0d9e25bcc
+            part: body
+          zh:
+            page: zh
+            section: s-20a1d7a116
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-73e6799aab
+            part: title
+          zh:
+            page: zh
+            section: s-f5351bae33
+            part: title
+        sourceIds:
+          - primary-pmc13072372-v5rfg
+        text:
+          en:
+            page: en
+            section: s-73e6799aab
+            part: body
+          zh:
+            page: zh
+            section: s-f5351bae33
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-d40dc19e74
+            part: title
+          zh:
+            page: zh
+            section: s-54e47aed1b
+            part: title
+        sourceIds:
+          - primary-pmc13072372-v5rfg
+        text:
+          en:
+            page: en
+            section: s-d40dc19e74
+            part: body
+          zh:
+            page: zh
+            section: s-54e47aed1b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Sclerophrys berghei
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5RFG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc13072372-v5rfg
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Sclerophrys berghei: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5ceb48c280
+        part: body
+      zh:
+        page: zh
+        section: s-864efccf3a
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani16071104
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        sourceKey: primary-pmc13072372-v5rfg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13072372/article.xml
+        sourceConcept: Source Sclerophrys berghei compiled2010–2023Rwanda detections andindexcategories; exactwrittenname only, no originalvoucher/currentconceptcertification
+        evidenceRead: "Sclerophrys berghei: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Occurrence counts in the assembled Rwanda sample
+              zh: 卢旺达汇总样本中的出现计数
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-v5rfg
+            locator: PMC13072372 XML TablesA2/A3 namedrow Sclerophrys berghei;sec2dot3;sec3dot1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a62936bff9
+                part: body
+              zh:
+                page: zh
+                section: s-d4324568dc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A species score for a specified conservation framework
+              zh: 特定保护框架中的物种评分
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-v5rfg
+            locator: PMC13072372 XML TableA4 row9;Table1;sec2dot4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-895934c66d
+                part: body
+              zh:
+                page: zh
+                section: s-baaf8d3d5c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Species Index and site index have different meanings
+              zh: 物种指数与站点指数含义不同
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-v5rfg
+            locator: PMC13072372 XML sec2dot4;sec3dot3;sec4dot2;TableA4 row9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-367c0f010b
+                part: body
+              zh:
+                page: zh
+                section: s-ab3383bfb2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Sampling and transfer limits
+              zh: 采样与迁移应用限制
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-v5rfg
+            locator: PMC13072372 XML sec2dot3/5;sec3dot1/4;sec4dot1–3;TablesA1/4/7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-13163cb20c
+                part: body
+              zh:
+                page: zh
+                section: s-ad8e931e4f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

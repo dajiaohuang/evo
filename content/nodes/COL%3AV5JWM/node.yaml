@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella feii
+  displayName: Leptobrachella feii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5JWM
+  sourceIndexes:
+    - name:
+        en: Leptobrachella feii
+        zh: Leptobrachella feii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5JWM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/227
+            queryName: Leptobrachella feii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c9df87c8cc
+      - s-045822a350
+      - s-b715e38ac8
+      - s-a7be26c9e7
+      - s-c789be86da
+      - s-60b0cf6e5d
+      - s-7f05816004
+    zh:
+      - s-1e6e5c4065
+      - s-119169c690
+      - s-d0162eb0a3
+      - s-a50209ad02
+      - s-b655c38520
+      - s-2dc0f842a5
+      - s-0703c7cd18

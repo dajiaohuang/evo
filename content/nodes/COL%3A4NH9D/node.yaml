@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris clarkii
+  displayName: Pseudacris clarkii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NH9D
+  sourceIndexes:
+    - name:
+        en: Pseudacris clarkii
+        zh: Pseudacris clarkii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NH9D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/251
+            queryName: Pseudacris clarkii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/462
+            queryName: Helocaetes clarkii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/66
+            queryName: Hyla clarkii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/427
+            queryName: Chorophilus triseriatus clarkii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/428
+            queryName: Pseudacris triseriata clarkii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/429
+            queryName: Pseudacris nigrita clarkii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eab942b06e
+      - s-27d6de735f
+      - s-a34bb21215
+      - s-ec59d40e70
+      - s-d17e833875
+      - s-e46741c048
+      - s-b179704167
+      - s-6f511ae9c8
+      - s-1b0922c6cc
+      - s-bc5a74a350
+      - s-e07b48ca30
+      - s-5626d078cc
+      - s-345eae6331
+      - s-cb7ec7f63c
+      - s-8a948164fd
+      - s-7795b7c694
+      - s-7bc8e849c6
+      - s-a295baaf88
+      - s-dd2be117e0
+      - s-5528c91e26
+    zh:
+      - s-fea0c3b18f
+      - s-1bb4f16863
+      - s-9121b27514
+      - s-8ffe8e8e3b
+      - s-3d51f3a53f
+      - s-656c156856
+      - s-33b87a76b4
+      - s-d1e2ce005e
+      - s-b261837e08
+      - s-bc59ec9cfa
+      - s-7b411dc322
+      - s-781a39ae4c
+      - s-8600007758
+      - s-87b268b439
+      - s-3694316dc0
+      - s-5fbe38a715
+      - s-43082538d7
+      - s-b50264e89a
+      - s-1a02ba4449
+      - s-e6b9f14800

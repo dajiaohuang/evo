@@ -1,0 +1,113 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-d0cf90cfb6
+            part: title
+          zh:
+            page: zh
+            section: s-2ab954109a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d0cf90cfb6
+            part: body
+          zh:
+            page: zh
+            section: s-2ab954109a
+            part: body
+        claimIds:
+          - claim:taxon:elopomorpha
+      - topic: divergence-time
+        title:
+          en:
+            page: en
+            section: s-0e939cf9c5
+            part: title
+          zh:
+            page: zh
+            section: s-4051690d63
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0e939cf9c5
+            part: body
+          zh:
+            page: zh
+            section: s-4051690d63
+            part: body
+        claimIds:
+          - claim:taxon:elopomorpha:range-boundary
+    scientificName: Elopomorpha
+    name:
+      en: Elopomorpha
+      zh: Elopomorpha
+    rank: superorder
+  atlas-node:
+    name: Elopomorpha
+    commonName: Eels, Tarpons and Relatives
+    commonNameZh: 海鲢总目
+    rank: superorder
+    taxonId: ""
+    firstAppearance: 201.4
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:elopomorpha
+      claimKind: scientific
+      claimType: topology
+      statement: Six nuclear and mitochondrial markers across a 70-species sample test elopomorph relationships and classification. Marker conflict and incomplete sampling are retained; the study does not set the clade's fossil range or global origin.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond marker conflict and incomplete sampling are retained; the study does not set the clade's fossil range or global origin.
+      referenceLinks:
+        - relation: supports
+          referenceId: chen-2014-elopomorpha-phylogeny
+          pages: 152–161
+          figure: Figures 1–4; supplementary alignments
+          quoteLocator: Taxon and marker sampling; topology comparisons; classification
+    - subjectId: taxon:elopomorpha
+      claimKind: scientific
+      claimType: divergence-time
+      statement: The 2024 clock analysis estimated crown Elopomorpha between 239.12 and 213.05 Ma; this is a calibrated divergence interval, not a fossil FAD or exact taxon duration.
+      confidence: medium
+      confidenceRationale: "Crown Elopomorpha molecular-clock interval: the cited primary study or systematic review directly supports the stated sample, calibration or withholding boundary at the supplied locator. Confidence is medium and does not extend to a global FAD, LAD, direct ancestor or unsampled interval."
+      referenceLinks:
+        - relation: supports
+          referenceId: qi-2024-teleost-wgd-dating
+          pages: Article evae128
+          figure: Figure 1; Supplementary Table S1
+          quoteLocator: "Results: Elopomorpha 239.12–213.05 Ma"
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - Crown Elopomorpha molecular-clock interval：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。
+  claim-statements.zh:
+    - 在 70 个物种样本中使用六个核与线粒体标记，检验了海鲢总目关系及分类。这里保留标记冲突和抽样不全；该研究不能确定该支的化石延限或全球起源。
+    - 2024 年分子钟分析把海鲢形类冠群估计在 2.3912–2.1305 亿年前；这是校准分化区间，不是化石首现或精确类群延限。
+  ranges:
+    - entityId: elopomorpha
+      rangeKind: global-composite
+      taxonomicConcept: Crown Elopomorpha molecular-clock interval
+      geographicScope: Concatenated ohnologue clock model of Qi et al. 2024
+      olderMa: 239.12
+      youngerMa: 213.05
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The interval is a model estimate and not a fossil minimum or global occurrence range.
+      evidenceBasis: Only the reported divergence interval is displayed.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:elopomorpha:range-boundary
+      referenceLocators:
+        - referenceId: qi-2024-teleost-wgd-dating
+          locator: "Article evae128; Figure 1; Supplementary Table S1; Results: Elopomorpha 239.12–213.05 Ma"

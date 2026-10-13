@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Euparkerella
+  displayName: Euparkerella
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G78
+  sourceIndexes:
+    - name:
+        en: Euparkerella
+        zh: Euparkerella
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G78
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/383
+            queryName: Euparkerella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8cb40addc1
+      - s-09bd0ee934
+      - s-40e1866333
+      - s-8fd263f411
+      - s-5d5fc24472
+      - s-8d03d33380
+      - s-b9e97e4c39
+      - s-1e5548d72a
+      - s-8daf08e326
+      - s-71759569b8
+      - s-10fbb4b9f4
+      - s-4e70ef5ab5
+    zh:
+      - s-c33783ca18
+      - s-67f50fc160
+      - s-029eb4caba
+      - s-e35078ab46
+      - s-052f557265
+      - s-47a0f503e0
+      - s-ba8076ebe3
+      - s-3075eb2ba5
+      - s-bab95ef04e
+      - s-2df20d51b9
+      - s-bf7c56ebae
+      - s-bfde2dcd85

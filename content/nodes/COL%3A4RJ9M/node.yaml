@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes bombayensis
+  displayName: Raorchestes bombayensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RJ9M
+  sourceIndexes:
+    - name:
+        en: Raorchestes bombayensis
+        zh: Raorchestes bombayensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RJ9M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/131
+            queryName: Raorchestes bombayensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/242
+            queryName: Philautus bombayensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/64
+            queryName: Ixalus bombayensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/65
+            queryName: Rhacophorus bombayensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/66
+            queryName: Pseudophilautus bombayensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d917f0485d
+      - s-577b4d78f4
+      - s-5cc8c9ebab
+      - s-7a0e83d7d7
+      - s-e168209c4c
+      - s-d927cafd99
+      - s-bea6f75a66
+      - s-374467cbc2
+      - s-3a894aea66
+      - s-bed7a6c0f7
+      - s-39f363da08
+    zh:
+      - s-0f1336ba1d
+      - s-3a0999f53e
+      - s-51cdd20940
+      - s-572b6c2e66
+      - s-9853a33b56
+      - s-399488d84c
+      - s-3aa7245445
+      - s-59e1f6d9af
+      - s-a6412c9836
+      - s-1dc15fdedc
+      - s-7179661ef1

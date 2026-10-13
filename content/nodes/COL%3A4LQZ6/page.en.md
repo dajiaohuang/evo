@@ -1,0 +1,3 @@
+## What leaf and flower traits are recorded? {#s-2628dca2a6}
+The record lists no xylopodium, a woody underground swelling. The opposite leaves have entire, lance-shaped stipules; the blades may be oval, elliptic, broadly elliptic or lance-shaped, with pointed or tapering tips and toothed margins. They range from hairless to finely hairy. Solitary cream or greenish flowers grow in leaf axils and have linear bracteoles. The sepals are nearly equal, lance-shaped and entire. The petals vary in shape; reddish-brown appendages occur on the connective, the tissue linking the anther sacs. The stamens bear densely hairy, ovoid or ellipsoid nectar appendages on the anthers. The style is straight and hairless, as is the ovary. The fruit is a leathery, globose or ovoid capsule.
+

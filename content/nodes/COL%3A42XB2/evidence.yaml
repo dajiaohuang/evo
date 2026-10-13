@@ -1,0 +1,542 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microhyla mukhlesuri Hasan, Islam, Kuramoto, Kurabayashi & Sumida, 2014
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Microhyla mukhlesuri
+      zh: Microhyla mukhlesuri
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c58bc2376d
+            part: title
+          zh:
+            page: zh
+            section: s-0d7442bbd5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c58bc2376d
+            part: body
+          zh:
+            page: zh
+            section: s-0d7442bbd5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4a81296ed3
+            part: title
+          zh:
+            page: zh
+            section: s-67cc843eea
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4a81296ed3
+            part: body
+          zh:
+            page: zh
+            section: s-67cc843eea
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e71db3d59a
+            part: title
+          zh:
+            page: zh
+            section: s-31440eed2c
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e71db3d59a
+            part: body
+          zh:
+            page: zh
+            section: s-31440eed2c
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-be2c56465b7238c61868b205
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d885a22ed3
+            part: title
+          zh:
+            page: zh
+            section: s-7b196d71af
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d885a22ed3
+            part: body
+          zh:
+            page: zh
+            section: s-7b196d71af
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-14b3d202da
+            part: title
+          zh:
+            page: zh
+            section: s-83ef524eb2
+            part: title
+        sourceIds:
+          - primary-pmc12485483-42xb2
+        text:
+          en:
+            page: en
+            section: s-14b3d202da
+            part: body
+          zh:
+            page: zh
+            section: s-83ef524eb2
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-5e57f901b3
+            part: title
+          zh:
+            page: zh
+            section: s-a11fbe639f
+            part: title
+        sourceIds:
+          - primary-pmc13109738-42xb2
+        text:
+          en:
+            page: en
+            section: s-5e57f901b3
+            part: body
+          zh:
+            page: zh
+            section: s-a11fbe639f
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-257a2e2ecf
+            part: title
+          zh:
+            page: zh
+            section: s-965e1f5f70
+            part: title
+        sourceIds:
+          - primary-pmc13109738-42xb2
+        text:
+          en:
+            page: en
+            section: s-257a2e2ecf
+            part: body
+          zh:
+            page: zh
+            section: s-965e1f5f70
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7b61dc96bd
+            part: title
+          zh:
+            page: zh
+            section: s-5ba6eb8d0d
+            part: title
+        sourceIds:
+          - primary-pmc13109738-42xb2
+        text:
+          en:
+            page: en
+            section: s-7b61dc96bd
+            part: body
+          zh:
+            page: zh
+            section: s-5ba6eb8d0d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-dee4551c2c
+            part: title
+          zh:
+            page: zh
+            section: s-5cca9019b9
+            part: title
+        sourceIds:
+          - primary-pmc13109738-42xb2
+        text:
+          en:
+            page: en
+            section: s-dee4551c2c
+            part: body
+          zh:
+            page: zh
+            section: s-5cca9019b9
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-9491b1bcdd
+            part: title
+          zh:
+            page: zh
+            section: s-ef31c5129d
+            part: title
+        sourceIds:
+          - primary-pmc10793111-42xb2
+        text:
+          en:
+            page: en
+            section: s-9491b1bcdd
+            part: body
+          zh:
+            page: zh
+            section: s-ef31c5129d
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-c9f9019614
+            part: body
+          zh:
+            page: zh
+            section: s-67537a6539
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Microhyla mukhlesuri
+          url: https://www.checklistbank.org/dataset/316115/taxon/42XB2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3291; Reference.csv rows 861
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12485483-42xb2
+        referenceId: ref-b8fbbccc-0023-4d25-a439-eefd63a60c3c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Microhyla mukhlesuri: Species ecology treatment in Ha Nam field-record study; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc13109738-42xb2
+        referenceId: ref-2fda3f3d-f348-4868-a9e8-e92c973b10c2
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Microhyla mukhlesuri: Kim Bang 2025 sampling, named morphological accounts, diet results and microhabitat discussion; indices, modeled volumes and interpretations remain distinct; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10793111-42xb2
+        referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Microhyla mukhlesuri: XML Materials and methods, Results Tables 1–2, Discussion subsections and Conclusions read; original supplementary cross-site spreadsheet, encounter sheets, photographs and individual vouchers not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2acc2ee8e2
+        part: body
+      zh:
+        page: zh
+        section: s-50546d3212
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-be2c56465b7238c61868b205
+        scientificName: Microhyla mukhlesuri
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.13.e159973
+        referenceId: ref-b8fbbccc-0023-4d25-a439-eefd63a60c3c
+        sourceKey: primary-pmc12485483-42xb2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12485483/article.xml
+        sourceConcept: Microhyla mukhlesuri
+        evidenceRead: "Microhyla mukhlesuri: Species ecology treatment in Ha Nam field-record study; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A local puddle-associated reproductive record
+              zh: 当地与水坑相关的繁殖记录
+            referenceId: ref-b8fbbccc-0023-4d25-a439-eefd63a60c3c
+            sourceKey: primary-pmc12485483-42xb2
+            locator: "Microhyla mukhlesuri: Species ecology treatment in Ha Nam field-record study; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9198442919
+                part: body
+              zh:
+                page: zh
+                section: s-7e5c2d6f2a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1277.185967
+        referenceId: ref-2fda3f3d-f348-4868-a9e8-e92c973b10c2
+        sourceKey: primary-pmc13109738-42xb2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13109738/article.xml
+        sourceConcept: Microhyla mukhlesuri
+        evidenceRead: "Microhyla mukhlesuri: Kim Bang 2025 sampling, named morphological accounts, diet results and microhabitat discussion; indices, modeled volumes and interpretations remain distinct; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Local sexual size summaries and a molecular comparison
+              zh: 地方性别体长总结及分子比较
+            referenceId: ref-2fda3f3d-f348-4868-a9e8-e92c973b10c2
+            sourceKey: primary-pmc13109738-42xb2
+            locator: PMC13109738 reading-sections section 2, paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bdf493fb4c
+                part: body
+              zh:
+                page: zh
+                section: s-e064e93a49
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Local food composition and the largest recovered stomach count
+              zh: 地方食物组成及最大回收胃计数
+            referenceId: ref-2fda3f3d-f348-4868-a9e8-e92c973b10c2
+            sourceKey: primary-pmc13109738-42xb2
+            locator: PMC13109738 reading-sections section 4, paragraphs 0–2; XML sec3 paragraph 0 and sec5 paragraph 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-caf5b6a542
+                part: body
+              zh:
+                page: zh
+                section: s-90385d57c6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Encounter settings 0.5–4.5 m from the water edge
+              zh: 距水缘 0.5—4.5 米的遭遇环境
+            referenceId: ref-2fda3f3d-f348-4868-a9e8-e92c973b10c2
+            sourceKey: primary-pmc13109738-42xb2
+            locator: PMC13109738 reading-sections section 5, paragraph 3; XML sec3 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5db5be5075
+                part: body
+              zh:
+                page: zh
+                section: s-6a4e961a40
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: A high overlap with heymonsi and lower overlap with lingnanica
+              zh: 与 heymonsi 高重叠、与 lingnanica 较低重叠
+            referenceId: ref-2fda3f3d-f348-4868-a9e8-e92c973b10c2
+            sourceKey: primary-pmc13109738-42xb2
+            locator: PMC13109738 reading-sections section 4, paragraphs 3–4; XML sec5 paragraphs 2 and 4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-549385326a
+                part: body
+              zh:
+                page: zh
+                section: s-bab9d28deb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/BDJ.12.e108476
+        referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+        sourceKey: primary-pmc10793111-42xb2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10793111/article.xml
+        sourceConcept: 2024 source-labelled Microhyla mukhlesuri, nomenclature following Frost 2023, Gunung Belumut survey
+        evidenceRead: "Microhyla mukhlesuri: XML Materials and methods, Results Tables 1–2, Discussion subsections and Conclusions read; original supplementary cross-site spreadsheet, encounter sheets, photographs and individual vouchers not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: An effort-bounded Gunung Belumut survey record
+              zh: 取样投入有限的 Gunung Belumut 调查记录
+            referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+            sourceKey: primary-pmc10793111-42xb2
+            locator: PMC10793111 XML Herpetofauna Sampling and Collection; Results Table 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2cdbafa550
+                part: body
+              zh:
+                page: zh
+                section: s-fb11bd3b79
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,220 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caretta
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Caretta 属
+      en: Caretta
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-be37992394
+            part: body
+          en:
+            page: en
+            section: s-b5e1a7cdc0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-cbdf1495d4
+            part: body
+          en:
+            page: en
+            section: s-79d6f86480
+            part: body
+        sourceIds:
+          - joyce2007
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-1433011840
+            part: body
+          en:
+            page: en
+            section: s-a1339dd8c0
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-fa2c4f4974
+            part: body
+          en:
+            page: en
+            section: s-0bdf411eb7
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-2eae658c8f
+            part: body
+          en:
+            page: en
+            section: s-aa641374be
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-2d52b63ecc
+            part: body
+          en:
+            page: en
+            section: s-4d2859da44
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Caretta
+          url: https://www.checklistbank.org/dataset/316115/taxon/3HH4
+          locator: Accepted usage, full accepted parent chain, and exhaustive descendant traversal in the local COL26.8 hierarchy.
+          scope:
+            zh: 固定 COL26.8 的身份、等级、接受父链和全部严格接受种后代；没有现生标志，也不从同名 PBDB 记录推导身份。
+            en: Pinned COL26.8 identity, rank, accepted parent chain and complete strict accepted-species descendants. No extant flag; no identity inference from matching PBDB names.
+      - id: joyce2007
+        referenceId: joyce-2007-mesozoic-turtle-phylogeny
+        fields:
+          - id
+          - title
+          - url
+          - scope
+          - locator
+        metadataVariant: 0
+        usage:
+          locator: Appendix 1, p. 77, Caretta caretta specimen list; character 65 and Figure 8, p. 30; Appendix 3 legend and Caretta caretta row, p. 80.
+          rightsEvidenceUrl: https://www.researchgate.net/publication/232688227_Phylogenetic_Relationships_of_Mesozoic_Turtles
+          licenseAssessment: paraphrase-only
+          accessedAt: 2026-10-02
+          scope:
+            zh: Joyce（2007）：C. caretta 馆藏材料、周缘骨比较与矩阵图例。本页所用标本清单没有采集地点或日期序列。仅转述，不复制图版或矩阵。
+            en: "Joyce (2007): C. caretta museum material, peripheral-bone comparison and matrix legend. The specimen list gives no collecting-locality or date series for this page. Paraphrase only; no figures or matrix reproduced."
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 1 authored records grouped under Caretta by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 1 authored same-name records placed under Caretta by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+    limitations:
+      zh:
+        page: zh
+        section: s-7c3b176cc4
+        part: body
+      en:
+        page: en
+        section: s-cc27e59b1f
+        part: body

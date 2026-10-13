@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana pardalis
+  displayName: Boana pardalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7ZW
+  sourceIndexes:
+    - name:
+        en: Boana pardalis
+        zh: Boana pardalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7ZW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/13
+            queryName: Boana pardalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/417
+            queryName: Hyla pardalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/178
+            queryName: Hypsiboas pardalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/468
+            queryName: Hyla corticalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4f27a4452a
+      - s-aafcd47688
+      - s-f29f541319
+      - s-1164040d55
+      - s-4c30d5a0a4
+      - s-15b06d68a1
+      - s-552a607c95
+      - s-f9f92f53d3
+      - s-07dc2bf31f
+      - s-ebb48dbd7b
+    zh:
+      - s-39e1a40902
+      - s-fe43488783
+      - s-0cf7f53a16
+      - s-e5287f01d7
+      - s-07c0b1d2d1
+      - s-d34a15de1e
+      - s-aac5a52a14
+      - s-afa45af29f
+      - s-17aa910777
+      - s-a9a7815c7e

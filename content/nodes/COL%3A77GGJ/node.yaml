@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus rupestris
+  displayName: Physalaemus rupestris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77GGJ
+  sourceIndexes:
+    - name:
+        en: Physalaemus rupestris
+        zh: Physalaemus rupestris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77GGJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/344
+            queryName: Physalaemus rupestris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b7e6c9a2b8
+      - s-3b3f20f1ea
+      - s-5e528dfb17
+      - s-95e278087d
+      - s-34a8318011
+      - s-bf4d9f6721
+      - s-1b4f05a2e7
+      - s-7f47ecaa3d
+      - s-f7c89d51c6
+      - s-cb1811788b
+      - s-7cbeaa96d5
+    zh:
+      - s-f40d3d491f
+      - s-44a3c08a5a
+      - s-ff44444e7d
+      - s-9a8c863bc2
+      - s-317779a9a7
+      - s-ef8bb7cdeb
+      - s-8d157e23cd
+      - s-115563a1b3
+      - s-acca79440a
+      - s-d6f4c08350
+      - s-b38454603c

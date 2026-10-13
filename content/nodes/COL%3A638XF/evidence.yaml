@@ -1,0 +1,375 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptophryne Fitzinger, 1843
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Leptophryne
+      zh: Leptophryne
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b6f14c0ade
+            part: title
+          zh:
+            page: zh
+            section: s-e762e443b7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b6f14c0ade
+            part: body
+          zh:
+            page: zh
+            section: s-e762e443b7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6433110061
+            part: title
+          zh:
+            page: zh
+            section: s-7e1565b27c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6433110061
+            part: body
+          zh:
+            page: zh
+            section: s-7e1565b27c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-174aff63a3
+            part: title
+          zh:
+            page: zh
+            section: s-8ec12a4905
+            part: title
+        text:
+          en:
+            page: en
+            section: s-174aff63a3
+            part: body
+          zh:
+            page: zh
+            section: s-8ec12a4905
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-40924f88cf
+            part: title
+          zh:
+            page: zh
+            section: s-5134d2dec8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-40924f88cf
+            part: body
+          zh:
+            page: zh
+            section: s-5134d2dec8
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-e2ce2d6195
+            part: title
+          zh:
+            page: zh
+            section: s-f4f1f886c8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3TT6W
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TT6W
+            label:
+              en: Leptophryne borbonica
+              zh: Leptophryne borbonica
+          - kind: catalogue
+            colId: 3TT6X
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TT6X
+            label:
+              en: Leptophryne cruentata
+              zh: Leptophryne cruentata
+          - kind: catalogue
+            colId: 3TT6Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TT6Y
+            label:
+              en: Leptophryne javanica
+              zh: Leptophryne javanica
+        text:
+          en:
+            page: en
+            section: s-e2ce2d6195
+            part: body
+          zh:
+            page: zh
+            section: s-f4f1f886c8
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc4740822-638xf
+        title:
+          en:
+            page: en
+            section: s-5f7984e97e
+            part: title
+          zh:
+            page: zh
+            section: s-ec55a08f05
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5f7984e97e
+            part: body
+          zh:
+            page: zh
+            section: s-ec55a08f05
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc4740822-638xf
+        title:
+          en:
+            page: en
+            section: s-547b05980f
+            part: title
+          zh:
+            page: zh
+            section: s-1bc144a7b6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-547b05980f
+            part: body
+          zh:
+            page: zh
+            section: s-1bc144a7b6
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc4740822-638xf
+        title:
+          en:
+            page: en
+            section: s-b5c09ad35c
+            part: title
+          zh:
+            page: zh
+            section: s-2dbbc5f080
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3TT6W
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TT6W
+            label:
+              en: Leptophryne borbonica
+              zh: Leptophryne borbonica
+        text:
+          en:
+            page: en
+            section: s-b5c09ad35c
+            part: body
+          zh:
+            page: zh
+            section: s-2dbbc5f080
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptophryne
+          url: https://www.checklistbank.org/dataset/316115/taxon/638XF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Leptophryne; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc4740822-638xf
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptophryne borbonica: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected Leptophryne comparison records, methods and source limits from the Andaman toad description
+            zh: 安达曼蟾蜍描述中的选定 Leptophryne 比较记录、方法及来源限制
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-178fc0c791
+        part: body
+      zh:
+        page: zh
+        section: s-022c91fee1
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Leptophryne
+      sourceRowIds:
+        - Anf0655
+        - Anf0656
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 2
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-direct-group-pmc4740822-638xf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Selected Leptophryne comparisonlabels retainvoucher/sequence/focal roles; notfullgenusdiagnosis/currentconceptcertification
+        evidenceRead: "Leptophryne borbonica: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Selected comparison records retain their roles
+              zh: 选定比较记录保留各自角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-638xf
+            locator: PMC4740822 XMLTable3idT6/App1 sourceentries;sec26;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4c353eef9f
+                part: body
+              zh:
+                page: zh
+                section: s-7dd56e8818
+                part: body
+            scope:
+              en: Selected Leptophryne comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Leptophryne 比较记录、方法及来源限制
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Mitochondrial and specimen scope
+              zh: 线粒体与标本范围
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-638xf
+            locator: PMC4740822 XMLsec4/27;Table3idT6;Table6idT5;App1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-93fd3fa747
+                part: body
+              zh:
+                page: zh
+                section: s-dcc1266e52
+                part: body
+            scope:
+              en: Selected Leptophryne comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Leptophryne 比较记录、方法及来源限制
+    primaryResearchGroupSynthesisComplete: false

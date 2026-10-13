@@ -1,0 +1,3 @@
+## Odontochelys and the parts of an early shell {#s-5e4d8cc82b}
+Three specimens of *Odontochelys semitestacea* from China's Guanling Formation preserve a developed plastron (the belly-side shell), expanded ribs and neural plates along the backbone, but no complete carapace (the back-side shell) or overlying osteoderms (bony plates in the skin). This mix led to a proposed plastron-first shell sequence; the fossils show what was preserved, not the order in which the shell developed. Its position near the base of the sampled turtle tree and a marginal-marine habitat are also interpretations, not proof of direct ancestry or a global first appearance.
+

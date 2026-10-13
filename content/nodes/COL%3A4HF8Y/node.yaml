@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus bokermanni
+  displayName: Physalaemus bokermanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF8Y
+  sourceIndexes:
+    - name:
+        en: Physalaemus bokermanni
+        zh: Physalaemus bokermanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF8Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/308
+            queryName: Physalaemus bokermanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-32448508b3
+      - s-e60912031a
+      - s-748153ef18
+      - s-69deddd841
+      - s-89badf900a
+      - s-74fe7f96d6
+      - s-56da3aae7f
+      - s-8d7828df0f
+      - s-f9f6034cc2
+      - s-874e4adc30
+      - s-a87ce03d23
+    zh:
+      - s-55842144b6
+      - s-ce20a3eee1
+      - s-bd6a945dd0
+      - s-9049faa90f
+      - s-ba039954db
+      - s-b54cb42437
+      - s-ce61cb477b
+      - s-1c5e831052
+      - s-fb393a320a
+      - s-7cde70360a
+      - s-fe23c12590

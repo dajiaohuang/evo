@@ -1,0 +1,51 @@
+## Accepted name and placement {#s-20a163c15e}
+COL26.8 accepts Thorius tlaxiacus Parra-Olea, Rovito, García-París, Maisano, Wake & Hanken, 2016 as a species. Its recorded classification places it along Caudata (order) → Plethodontidae (family) → Thorius (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-3798b6f136}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Prolate nostrils and a holotype with a missing tail tip {#s-da56cbdfe1}
+Female holotype MCZ 148746 was collected southeast of Tlaxiaco, Oaxaca, on 22 July 1999 at 2855 m. Posterior-vent SL was 29.0 mm and anterior-vent length 27.9 mm; tail length 21.0 mm explicitly lacked its tip and is not a complete-tail ratio. Seven males averaged SL 28.0 mm, range 21.1–30.2 mm, and four females 27.7 mm, range 22.6–31.0 mm. Mean nostril major/minor-axis ratios were 2.1 and 2.3. Maxillary teeth were absent in the sample. Tail ratios used only five males and two females, a smaller denominator than the size sample; these observations do not define universal adult dimensions.
+
+## Voucher-specific live notes and damaged preserved material {#s-7de47c152e}
+Live-colour notes dated 26 July 1999 described MCZ 148746 with a dark brown background, a chestnut nuchal spot, brown dorsal stripe and fine white lateral spotting. MCZ A-148745 had a brighter reddish-brown stripe with dark chevron-like interruptions. Most preserved type-series animals had tissue removed for genetic analysis, limiting colour descriptions. The holotype collection date was separately 22 July; note date and collection date are not silently merged. Colour differences belong to named specimens, not invariant identification rules.
+
+## Two forest areas, sympatry and provisional assignments {#s-e0c5d502cb}
+The account reported Tlaxiaco-area elevations 2665–3080 m and San Vicente Lachixio elevations 2720–2730 m, about 80 km apart. In December 1978, animals were abundant inside fragmenting fallen logs in partly disturbed pine-oak slopes; ten or twelve could share one crevice. Much forest had been cleared by July 1999, when only three were seen; July 2014 searches found none. Named sympatric Thorius were T. narisovalis at Tlaxiaco and T. longicaudus at Lachixio. Some additional Tlaxiaco specimens were assigned provisionally from external morphology, distinct from genetic assignments. Aggregation does not establish a breeding group, and nondetection does not certify extinction.
+
+## A dated decline estimate and explicitly unknown extent {#s-88a346a43b}
+The 2016 authors recommended Critically Endangered because of drastic declines thought likely to exceed 80% over 30–40 years and continuing montane-forest deterioration. They described the cause as unexplained and the full extent of occurrence as unknown, despite two known areas about 80 km apart; occupied area might be very small. The distance between areas is not itself extent or area of occupancy. This recommendation is attributed to the publication rather than presented as a verified current assessment or a measured species-wide survival probability.
+
+## One sequenced individual and a separate DNA-content estimate {#s-7a48f3d73c}
+The study extracted liver DNA from one Thorius tlaxiacus specimen as part of a sixteen-species, three-genus comparison, targeting ten gigabases of short-read data per species. Repeat analysis randomly sampled merged reads at roughly 0.1-fold coverage. Table 1 gives a genome C-value estimate of 28.9 picograms, based on blood-smear densitometry and species means from earlier genome-size work. Picograms of DNA are not gigabases, body mass or a complete genome assembly; the sequenced individual and the species-mean DNA-content estimate have different evidence roles. The sample does not determine variation among sexes, populations or ages.
+
+## Detected repeat abundance is a method-dependent lower estimate {#s-67eaa66f05}
+Table 1 reports 65.6% detectable repeat abundance for Thorius tlaxiacus, including uncategorized repeats. Table 2 reports LTRs at 13.49%, and Table 3 separates ERV at 9.798% from Ty3/Gypsy at 3.506%. These are percentages of sampled bases identified by the study's repeat library, not percentages of animals, newly inserted elements or measured gene expression. Mutation can degrade repeats beyond recognition; the authors regard short-read masking as likely underestimating true repetitive content. Rounded table categories need not sum exactly, and uncategorized repeats should not be silently assigned to a known TE superfamily.
+
+## Repeat divergence suggests relative expansion histories {#s-75592c4bbe}
+Tlaxiacus had the largest Table 1 C-value among the four sampled Thorius and an ERV peak around Kimura distance nine, older in relative divergence than the peaks below four in its sampled congeners. The authors describe little to no evident ongoing activity in that profile. This is a comparative repeat-landscape interpretation, not a chronological date or proof that every individual is inactive. Deletion rates were not estimated, so deletion and silencing alternatives remain unresolved.
+
+## catalogue-profile / limitations {#s-0ad8bed504}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-69b26c0d73}
+Female holotype MCZ 148746 was collected southeast of Tlaxiaco, Oaxaca, on 22 July 1999 at 2855 m. Posterior-vent SL was 29.0 mm and anterior-vent length 27.9 mm; tail length 21.0 mm explicitly lacked its tip and is not a complete-tail ratio. Seven males averaged SL 28.0 mm, range 21.1–30.2 mm, and four females 27.7 mm, range 22.6–31.0 mm. Mean nostril major/minor-axis ratios were 2.1 and 2.3. Maxillary teeth were absent in the sample. Tail ratios used only five males and two females, a smaller denominator than the size sample; these observations do not define universal adult dimensions.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-80ad9bdfe0}
+Live-colour notes dated 26 July 1999 described MCZ 148746 with a dark brown background, a chestnut nuchal spot, brown dorsal stripe and fine white lateral spotting. MCZ A-148745 had a brighter reddish-brown stripe with dark chevron-like interruptions. Most preserved type-series animals had tissue removed for genetic analysis, limiting colour descriptions. The holotype collection date was separately 22 July; note date and collection date are not silently merged. Colour differences belong to named specimens, not invariant identification rules.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-4f48185ae1}
+The account reported Tlaxiaco-area elevations 2665–3080 m and San Vicente Lachixio elevations 2720–2730 m, about 80 km apart. In December 1978, animals were abundant inside fragmenting fallen logs in partly disturbed pine-oak slopes; ten or twelve could share one crevice. Much forest had been cleared by July 1999, when only three were seen; July 2014 searches found none. Named sympatric Thorius were T. narisovalis at Tlaxiaco and T. longicaudus at Lachixio. Some additional Tlaxiaco specimens were assigned provisionally from external morphology, distinct from genetic assignments. Aggregation does not establish a breeding group, and nondetection does not certify extinction.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-a255dcee1d}
+The 2016 authors recommended Critically Endangered because of drastic declines thought likely to exceed 80% over 30–40 years and continuing montane-forest deterioration. They described the cause as unexplained and the full extent of occurrence as unknown, despite two known areas about 80 km apart; occupied area might be very small. The distance between areas is not itself extent or area of occupancy. This recommendation is attributed to the publication rather than presented as a verified current assessment or a measured species-wide survival probability.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-d95dc4a27c}
+The study extracted liver DNA from one Thorius tlaxiacus specimen as part of a sixteen-species, three-genus comparison, targeting ten gigabases of short-read data per species. Repeat analysis randomly sampled merged reads at roughly 0.1-fold coverage. Table 1 gives a genome C-value estimate of 28.9 picograms, based on blood-smear densitometry and species means from earlier genome-size work. Picograms of DNA are not gigabases, body mass or a complete genome assembly; the sequenced individual and the species-mean DNA-content estimate have different evidence roles. The sample does not determine variation among sexes, populations or ages.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-432a4070e4}
+Table 1 reports 65.6% detectable repeat abundance for Thorius tlaxiacus, including uncategorized repeats. Table 2 reports LTRs at 13.49%, and Table 3 separates ERV at 9.798% from Ty3/Gypsy at 3.506%. These are percentages of sampled bases identified by the study's repeat library, not percentages of animals, newly inserted elements or measured gene expression. Mutation can degrade repeats beyond recognition; the authors regard short-read masking as likely underestimating true repetitive content. Rounded table categories need not sum exactly, and uncategorized repeats should not be silently assigned to a known TE superfamily.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-f95d64b8a8}
+Tlaxiacus had the largest Table 1 C-value among the four sampled Thorius and an ERV peak around Kimura distance nine, older in relative divergence than the peaks below four in its sampled congeners. The authors describe little to no evident ongoing activity in that profile. This is a comparative repeat-landscape interpretation, not a chronological date or proof that every individual is inactive. Deletion rates were not estimated, so deletion and silencing alternatives remain unresolved.
+

@@ -1,0 +1,27 @@
+## Start with sourced trait records {#s-d0db9f9adb}
+This batch’s ReptTraits route for Alethinophidia includes 1490 same-name, same-family entries with trait-specific citations. Start with Acanthophis antarcticus, Acanthophis cryptamydros, Acanthophis hawkei, Acanthophis laevis, Acanthophis praelongus. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+
+## Read the definition before comparing {#s-12ad98304c}
+Among size records in this batch, Tantilla gracilis has a reported maximum snout–vent length (SVL) of 133.8 mm and Ophiophagus hannah 5700 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
+
+## Choose comparison pages by life-history fields {#s-c29abc8bd6}
+This batch’s Alethinophidia route includes 291 historical life-history accounts; start with Acrochordus arafurae, Acrochordus granulatus, Acrochordus javanicus, Boa constrictor, Calabaria reinhardtii. Fields retained within declared class scopes include offspring per litter or eggs per clutch (289 entries), longest lifespan record in the compilation (249 entries), adult body mass (248 entries), oviposition to hatching (211 entries). Counts describe this batch’s coverage, not the complete accepted-species denominator; read events, units and provenance before comparing values. 4 entries fall below the original threshold after unconfirmed fields are withheld and remain limited-data and gap pages.
+
+## Evidence limits {#s-492b123d8c}
+This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
+This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+
+Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
+
+## Citation gaps in some descendant accounts {#s-2f0d3d4ff2}
+In this ReptTraits route, some fields in 103 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
+
+## Start with sourced trait records {#s-e51dcef10d}
+This batch’s ReptTraits route for Alethinophidia includes 1822 same-name, same-family entries with trait-specific citations. Start with [Achalinus huangjietangi](Xenodermidae/Achalinus/Achalinus_huangjietangi/page.en.md), [Achalinus pingbianensis](Xenodermidae/Achalinus/Achalinus_pingbianensis/page.en.md), [Achalinus timi](Xenodermidae/Achalinus/Achalinus_timi/page.en.md), [Achalinus tranganensis](Xenodermidae/Achalinus/Achalinus_tranganensis/page.en.md), [Achalinus vanhoensis](Xenodermidae/Achalinus/Achalinus_vanhoensis/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+
+## Read the definition before comparing {#s-0d91a60a84}
+Among size records in this batch, Tetralepis fruhstorferi has a reported maximum snout–vent length (SVL) of 317.7 mm and Amnisiophis amoenus 663 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
+
+## Limits of these trait data {#s-2ca32b54bc}
+This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
+

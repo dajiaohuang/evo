@@ -1,0 +1,392 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Piciformes
+    rank: order
+    sourceDatasetId: "2144"
+    name:
+      zh: Piciformes
+      en: Piciformes
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-3c158b2c12
+            part: body
+          en:
+            page: en
+            section: s-7a57e06e50
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-3c2a737456
+            part: body
+          en:
+            page: en
+            section: s-91bdb0484b
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-a045740333
+            part: body
+          en:
+            page: en
+            section: s-380574dbd4
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-a86fc4fba1
+            part: body
+          en:
+            page: en
+            section: s-2e186870c0
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e04f22f1aa
+            part: body
+          en:
+            page: en
+            section: s-be12eada7e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-df86819c59
+            part: body
+          en:
+            page: en
+            section: s-6f8eec41a4
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-f8433b59a2
+            part: body
+          en:
+            page: en
+            section: s-72988d1401
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-b281f06203
+            part: body
+          en:
+            page: en
+            section: s-ff892eec56
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Piciformes
+          url: https://www.checklistbank.org/dataset/316115/taxon/3TR
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 242 selected measured records placed under Piciformes in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 70 authored same-name records placed under Piciformes by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 204 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 204
+            foraging: 204
+            activity: 0
+          readingTargets:
+            - name: Indicator maculatus
+              colId: 3PLPG
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3PLPG
+            - name: Indicator variegatus
+              colId: 3PLPL
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3PLPL
+            - name: Indicator indicator
+              colId: 3PLPF
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3PLPF
+            - name: Indicator minor
+              colId: 3PLPJ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3PLPJ
+            - name: Indicator conirostris
+              colId: 3PLPD
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3PLPD
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 61 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 33
+            foraging: 28
+            activity: 0
+          readingTargets:
+            - name: Indicator archipelagicus
+              colId: 3PLPC
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3PLPC
+            - name: Prodotiscus insignis
+              colId: 4MQFK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4MQFK
+            - name: Jynx ruficollis
+              colId: 3QXQQ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3QXQQ
+            - name: Picumnus aurifrons
+              colId: 4HR26
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4HR26
+            - name: Picumnus pumilus
+              colId: 4HR2Q
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4HR2Q
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 9 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: MW66
+              name: Brachygalba albogularis
+              canonicalPath: content/nodes/COL%3AMW66
+            - colId: 3WHSJ
+              name: Lybius rubrifacies
+              canonicalPath: content/nodes/COL%3A3WHSJ
+            - colId: 7RVBH
+              name: Campethera scriptoricauda
+              canonicalPath: content/nodes/COL%3A7RVBH
+            - colId: 7T2SX
+              name: Dendrocopos noguchii
+              canonicalPath: content/nodes/COL%3A7T2SX
+            - colId: 44K27
+              name: Mulleripicus fulvus
+              canonicalPath: content/nodes/COL%3A44K27
+          fieldAccountCounts:
+            Habitat: 9
+            Trophic.Niche: 9
+            Primary.Lifestyle: 9
+            Migration: 9
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+    limitations:
+      zh:
+        page: zh
+        section: s-ff5c8443cb
+        part: body
+      en:
+        page: en
+        section: s-cb646080cf
+        part: body

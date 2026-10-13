@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Argya subrufa
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Argya subrufa
+      en: Argya subrufa
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetArgyaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-00e630e228
+            part: body
+          en:
+            page: en
+            section: s-a818737552
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetArgyaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-ab2bbc198f
+            part: body
+          en:
+            page: en
+            section: s-1e89edcd62
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetArgyaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-bb42015e9a
+            part: body
+          en:
+            page: en
+            section: s-803f78bff6
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetArgyaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-c35cb31e9e
+            part: body
+          en:
+            page: en
+            section: s-949c87defb
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetArgyaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-cb9aa27e8e
+            part: body
+          en:
+            page: en
+            section: s-795d2143c7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Argya subrufa
+          url: https://www.checklistbank.org/dataset/316115/taxon/LVWLB
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetArgyaHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Argya historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 4819–4827; each eBird and BirdTree crosswalk, ar/tu COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：保留来源科名 Leiotrichidae 与目录 Leiothrichidae；旧 Turdoides 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Eight historical rows: retain source family Leiotrichidae and catalogue Leiothrichidae; retain older Turdoides combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-261b72cc61
+        part: body
+      en:
+        page: en
+        section: s-89d79962f7
+        part: body

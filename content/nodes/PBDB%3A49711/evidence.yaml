@@ -1,0 +1,399 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Palaeotherium
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Palaeotherium
+      en: Palaeotherium
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-809ac516ff
+            part: body
+          en:
+            page: en
+            section: s-2c324f3a48
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cc95522b69
+            part: body
+          en:
+            page: en
+            section: s-0502f6bec4
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Palaeotherium
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=49711
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:49711
+          readingTargets:
+            - name: Palaeotherium robustum
+              pbdbTaxonId: txn:456405
+              canonicalPath: content/nodes/PBDB%3A456405
+            - name: Palaeotherium magnum
+              pbdbTaxonId: txn:374360
+              canonicalPath: content/nodes/PBDB%3A374360
+            - name: Palaeotherium castrense
+              pbdbTaxonId: txn:135290
+              canonicalPath: content/nodes/PBDB%3A135290
+            - name: Palaeotherium crassum
+              pbdbTaxonId: txn:374363
+              canonicalPath: content/nodes/PBDB%3A374363
+            - name: Palaeotherium giganteum
+              pbdbTaxonId: txn:347309
+              canonicalPath: content/nodes/PBDB%3A347309
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-dc78e75b19
+        part: body
+      en:
+        page: en
+        section: s-aedb18d560
+        part: body
+  atlas-node:
+    name: Palaeotherium
+    commonName: Palaeotheres
+    commonNameZh: 古兽马类
+    rank: genus
+    taxonId: txn:49711
+    firstAppearance: 47.8
+    lastAppearance: 33.9
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+  atlas-profile:
+    pbdbTaxonId: txn:49711
+    scientificName: Palaeotherium
+    commonName: Palaeothere
+    commonNameZh: 古兽
+    rank: genus
+    parentName: Palaeotheriidae
+    extinct: true
+    geography:
+      - Western Europe (French and British study records)
+    overview:
+      page: en
+      section: s-82267c90ce
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-3702bd017f
+        part: body
+      habitat:
+        page: en
+        section: s-51355a4fe3
+        part: body
+      locomotion:
+        page: en
+        section: s-0cea0a2869
+        part: body
+      bodySize:
+        page: en
+        section: s-9dea91117a
+        part: body
+      guild:
+        page: en
+        section: s-b6035a4e51
+        part: body
+      dietZh:
+        page: zh
+        section: zh-a55fc4c59fe830
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-4f91edb7f174ce
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-5293b97ba72b41
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-3d2fcd183a807f
+        part: body
+      guildZh:
+        page: zh
+        section: zh-f5c70f86a14707
+        part: body
+    traits:
+      - page: en
+        section: s-15f516e955
+        part: body
+      - page: en
+        section: s-5b6334f3aa
+        part: body
+      - page: en
+        section: s-8e955a2b9c
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-5d810ad86c
+      part: body
+    confidence: medium
+    referenceIds:
+      - joomun-2008-palaeotherium-diet
+      - hooker-2004-grande-coupure
+    overviewZh:
+      page: zh
+      section: s-944dfb0def
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-3c5fc30288
+      part: body
+    readerSources:
+      - id: joomun-2008-palaeotherium-diet
+        referenceId: joomun-2008-palaeotherium-diet
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Joomun et al. (2008), pp. 92–106, Figures 1–8 and Tables 1–4: dental wear in the La Débruge Palaeotherium medium sample and the resulting dietary interpretation."
+            zh: Joomun 等（2008），第 92–106 页、图 1–8 与表 1–4：La Débruge 的 Palaeotherium medium 样本牙齿磨耗及据此作出的食性解释。
+      - id: hooker-2004-grande-coupure
+        referenceId: hooker-2004-grande-coupure
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Hooker et al. (2004), pp. 161–172, Figures 2–4 and the mammal range chart: British regional records and losses around the Grande Coupure, not a global extinction date."
+            zh: Hooker 等（2004），第 161–172 页、图 2–4 与哺乳动物分布图：英国区域记录及 Grande Coupure 前后的消失，不是全球灭绝年代。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-82267c90ce
+            part: title
+          zh:
+            page: zh
+            section: s-944dfb0def
+            part: title
+        text:
+          en:
+            page: en
+            section: s-82267c90ce
+            part: body
+          zh:
+            page: zh
+            section: s-944dfb0def
+            part: body
+        sourceIds:
+          - joomun-2008-palaeotherium-diet
+          - hooker-2004-grande-coupure
+      - id: palaeotherium-evidence
+        title:
+          en:
+            page: en
+            section: s-5d810ad86c
+            part: title
+          zh:
+            page: zh
+            section: s-3c5fc30288
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5d810ad86c
+            part: body
+          zh:
+            page: zh
+            section: s-3c5fc30288
+            part: body
+        sourceIds:
+          - joomun-2008-palaeotherium-diet
+          - hooker-2004-grande-coupure
+    traitsZh:
+      - page: zh
+        section: zh-dcd25c22681c48
+        part: body
+      - page: zh
+        section: zh-d05178759bf862
+        part: body
+      - page: zh
+        section: zh-29b1088344ac1a
+        part: body
+  claims:
+    - subjectId: taxon:palaeotherium
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Palaeotherium medium is sampled in the late Eocene at La Débruge, and separate British range data place regional Palaeotherium loss near the Grande Coupure without dating a global extinction instant.
+      confidence: high
+      confidenceRationale: Two primary regional records independently constrain late Eocene occurrence and disappearance near the turnover. High confidence remains regional and does not convert a sampled last appearance into a global extinction instant.
+      referenceLinks:
+        - referenceId: joomun-2008-palaeotherium-diet
+          relation: supports
+          pages: 92–106
+          figure: Figures 1–8; Tables 1–4
+          quoteLocator: Abstract, materials and wear results for the La Débruge Palaeotherium medium sample
+        - referenceId: hooker-2004-grande-coupure
+          relation: supports
+          pages: 161–172
+          figure: Figures 2–4; mammal range chart
+          quoteLocator: Results and conclusions distinguish pre-turnover loss, the sequence hiatus and later first Asian-immigrant records
+    - subjectId: taxon:palaeotherium
+      claimKind: scientific
+      claimType: taxonomy
+      statement: The profile uses Palaeotherium at genus rank within Palaeotheriidae, while ecological detail is explicitly restricted to the sampled species P. medium.
+      confidence: medium
+      confidenceRationale: Primary species attribution and the regional range study support the genus context without collapsing all species into P. medium.
+      referenceLinks:
+        - referenceId: joomun-2008-palaeotherium-diet
+          relation: supports
+          pages: 92–106
+          figure: Figures 1–8; Tables 1–4
+          quoteLocator: Abstract, materials and wear results for the La Débruge Palaeotherium medium sample
+        - referenceId: hooker-2004-grande-coupure
+          relation: supports
+          pages: 161–172
+          figure: Figures 2–4; mammal range chart
+          quoteLocator: Results and conclusions distinguish pre-turnover loss, the sequence hiatus and later first Asian-immigrant records
+    - subjectId: taxon:palaeotherium
+      claimKind: scientific
+      claimType: morphology
+      statement: In the sampled Palaeotherium medium, molar wear facets, high occlusal relief and mixed sharp and rounded cusps provide the morphological basis for dietary inference; limb proportions are not claimed here.
+      confidence: medium
+      confidenceRationale: The primary study measures dental form and wear directly. Removing unsupported limb analogies keeps morphology at the observed specimen level.
+      referenceLinks:
+        - referenceId: joomun-2008-palaeotherium-diet
+          relation: supports
+          pages: 92–106
+          figure: Figures 1–8; Tables 1–4
+          quoteLocator: Abstract, materials and wear results for the La Débruge Palaeotherium medium sample
+    - subjectId: taxon:palaeotherium
+      claimKind: scientific
+      claimType: ecology
+      statement: The La Débruge Palaeotherium medium sample is consistent with leaf browsing plus a smaller fruit or abrasive-seed component; habitat and locomotor behavior are not inferred from tooth wear alone.
+      confidence: medium
+      confidenceRationale: High confidence applies to the replicated wear proxies, while the explicit non-inferences prevent dental data from carrying unrelated ecology.
+      referenceLinks:
+        - referenceId: joomun-2008-palaeotherium-diet
+          relation: supports
+          pages: 92–106
+          figure: Figures 1–8; Tables 1–4
+          quoteLocator: Abstract, materials and wear results for the La Débruge Palaeotherium medium sample
+    - subjectId: taxon:palaeotherium
+      claimKind: scientific
+      claimType: biogeography
+      statement: This profile represents western European study records from La Débruge and the Hampshire Basin rather than a complete genus-wide occurrence distribution.
+      confidence: medium
+      confidenceRationale: Two primary regional studies directly establish the French and British contexts; broader geography is intentionally not asserted.
+      referenceLinks:
+        - referenceId: joomun-2008-palaeotherium-diet
+          relation: supports
+          pages: 92–106
+          figure: Figures 1–8; Tables 1–4
+          quoteLocator: Abstract, materials and wear results for the La Débruge Palaeotherium medium sample
+        - referenceId: hooker-2004-grande-coupure
+          relation: supports
+          pages: 161–172
+          figure: Figures 2–4; mammal range chart
+          quoteLocator: Results and conclusions distinguish pre-turnover loss, the sequence hiatus and later first Asian-immigrant records
+  claim-rationales.zh:
+    - 两项区域主研究分别约束了晚始新世产出和接近更替期的消失。高置信度仍限于区域证据，不把取样到的末次出现转写为全球灭绝瞬间。
+    - 分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。
+    - 形态主张只保留引文图表或诊断直接支持的骨骼、牙齿性状，并把软组织、姿势或功能解释明确标为推断。
+    - 生态主张区分直接测得的磨耗或同位素信号与栖息地、行为推断，并保留物种、地点和时代边界。
+    - 生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。
+  claim-statements.zh:
+    - 古兽属按所引系统研究采用当前分类层级；导航父级仅表示分类关联，不表示直接祖先。
+    - 古兽属的形态档案仅记录所引研究直接描述或测量的牙齿、颅骨或肢骨性状，功能解释另行标注。
+    - 古兽属的生态档案按取样物种、地点与方法限定食性和运动推断，不把局部结果推广为整个类群的固定生态。
+    - 古兽属的地理档案只覆盖所引研究明确讨论的区域与地点，并非完整的全球产出分布。
+    - 中兽古兽在 La Débruge 的晚始新世地层中有明确样本；另一套英国范围资料把古兽的区域消失置于“大割裂”附近，但没有测定全球灭绝瞬间。
+  ranges:
+    - entityId: palaeotherium
+      rangeKind: global-composite
+      taxonomicConcept: Palaeotherium numerical range withheld pending a genus-wide global synthesis
+      geographicScope: No defensible global numerical scope established
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The sources cover a La Débruge sample and Hampshire regional turnover, not global genus endpoints.
+      evidenceBasis: The former 47.8–33.9 Ma display is withheld because the literature directly supports only a late Eocene La Débruge sample and a regional Hampshire disappearance sequence.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: joomun-2008-palaeotherium-diet
+          locator: pp. 92–106; Figures 1–8; Tables 1–4; late Eocene La Débruge Palaeotherium medium sample
+        - referenceId: hooker-2004-grande-coupure
+          locator: doi:10.1144/0016-764903-091; pp. 161–172; Figures 2–4; Hampshire Basin regional mammal range chart
+      evidenceLevel: withheld-no-range-evidence

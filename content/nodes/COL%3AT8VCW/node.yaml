@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stumpffia froschaueri
+  displayName: Stumpffia froschaueri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/T8VCW
+  sourceIndexes:
+    - name:
+        en: Stumpffia froschaueri
+        zh: Stumpffia froschaueri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: T8VCW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/356
+            queryName: Stumpffia froschaueri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2f41fb3556
+      - s-d5c5c94979
+      - s-6b92c8908f
+      - s-49e1728a5c
+      - s-71bdc1079c
+      - s-933238b851
+      - s-eef8cb4288
+    zh:
+      - s-ae19a0d7f8
+      - s-4f06f674ea
+      - s-9bf4de23e7
+      - s-832e63568a
+      - s-ff9593f837
+      - s-a48140518a
+      - s-eb968d987e

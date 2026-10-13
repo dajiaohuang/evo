@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma laterale
+  displayName: Ambystoma laterale
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66B4Q
+  sourceIndexes:
+    - name:
+        en: Ambystoma laterale
+        zh: Ambystoma laterale
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66B4Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/239
+            queryName: Ambystoma laterale
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 64
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/278
+            queryName: Ambystoma platineum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/431
+            queryName: Amblystoma laterale
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/375
+            queryName: Amblystoma jeffersonianum laterale
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/473
+            queryName: Amblystoma jeffersonianum platineum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3541e6f5df
+      - s-8b2b4a6ea1
+      - s-354416bf02
+      - s-ec5382f1cc
+      - s-f812e32e10
+      - s-3988949b5a
+      - s-7884fcfb66
+      - s-0eaeea8c64
+      - s-1f066c49d5
+      - s-aaac684faf
+    zh:
+      - s-016a907cc4
+      - s-4c1e8b6af7
+      - s-cb5f711c00
+      - s-7f60e59550
+      - s-3ea7bad892
+      - s-77d7104489
+      - s-b216402fd4
+      - s-6aa5faab52
+      - s-b4b4f31de5
+      - s-38c022ea71

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus aliciae
+  displayName: Nyctibatrachus aliciae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485FT
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus aliciae
+        zh: Nyctibatrachus aliciae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485FT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/337
+            queryName: Nyctibatrachus aliciae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/132
+            queryName: Nyctibatrachus periyar
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/135
+            queryName: Nyctibatrachus deveni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3b3dbd6c6f
+      - s-3d5e576d8e
+      - s-70cda32366
+      - s-57547f4942
+      - s-36b3c9f084
+      - s-ab70d2dbcc
+      - s-280d06d735
+      - s-ff06089e80
+      - s-0d6e971a01
+      - s-d2dec25974
+    zh:
+      - s-244b678ff1
+      - s-255cbcd1fd
+      - s-8df91656ab
+      - s-09d14b3151
+      - s-5e027a5910
+      - s-eef60696b2
+      - s-dee4dfe0fa
+      - s-458f3a4fc6
+      - s-2c38914b94
+      - s-b7d6bb98b6

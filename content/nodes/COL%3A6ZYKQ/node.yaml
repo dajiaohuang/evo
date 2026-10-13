@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Strongylopus rhodesianus
+  displayName: Strongylopus rhodesianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6ZYKQ
+  sourceIndexes:
+    - name:
+        en: Strongylopus rhodesianus
+        zh: Strongylopus rhodesianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6ZYKQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/342
+            queryName: Strongylopus rhodesianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/234
+            queryName: Rana grayi rhodesiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/235
+            queryName: Strongylopus grayii rhodesianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8c1e5de600
+      - s-82b0fb263c
+      - s-235e5775f9
+      - s-d075884611
+      - s-5e9dfc9e8e
+      - s-b34a6a9a53
+      - s-d8f04069ef
+      - s-630c114e49
+      - s-1ed4ce547a
+      - s-2e5394ef55
+    zh:
+      - s-1cdcb7bfcf
+      - s-cf5b42c9ef
+      - s-a9f5e95705
+      - s-7e22296a43
+      - s-6374bee2fa
+      - s-0d83cf7f53
+      - s-81746bc555
+      - s-84485aef65
+      - s-0e3c49bd9d
+      - s-b249071a1a

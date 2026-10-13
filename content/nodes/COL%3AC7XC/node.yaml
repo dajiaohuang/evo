@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes tumultuosus
+  displayName: Alsodes tumultuosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7XC
+  sourceIndexes:
+    - name:
+        en: Alsodes tumultuosus
+        zh: Alsodes tumultuosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7XC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/201
+            queryName: Alsodes tumultuosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ffe95be8b2
+      - s-94a04d831b
+      - s-b7753326d3
+      - s-21f98b9dc6
+      - s-64d26c0018
+      - s-1b2005fec6
+      - s-586d0fcb88
+      - s-2e03ac01d4
+      - s-078fe7a0c2
+      - s-e62614ca95
+      - s-f287977174
+      - s-d075968bbb
+      - s-4d286eb80e
+      - s-f328267f22
+      - s-e686d3fdcf
+      - s-dd4c40070f
+      - s-b89164edac
+    zh:
+      - s-0dd242c2f6
+      - s-b01d034a74
+      - s-d051001de0
+      - s-052c6b57bd
+      - s-70486d906c
+      - s-b6e8ea4bb3
+      - s-5f70e96a0c
+      - s-44b088f585
+      - s-015d8751c4
+      - s-b37c9fb8bb
+      - s-ee4c96b602
+      - s-2a7dc4e5f1
+      - s-5d9e0b9187
+      - s-09e3cf795d
+      - s-1cfe4b9f8c
+      - s-fb681e46d6
+      - s-2fea6bf4e0

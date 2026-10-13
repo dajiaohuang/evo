@@ -1,0 +1,218 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chacophrys Reig & Limeses, 1963
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Chacophrys
+      zh: Chacophrys
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5030599d31
+            part: title
+          zh:
+            page: zh
+            section: s-49cbd6541a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5030599d31
+            part: body
+          zh:
+            page: zh
+            section: s-49cbd6541a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d4abfd7534
+            part: title
+          zh:
+            page: zh
+            section: s-170ed5dbf4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d4abfd7534
+            part: body
+          zh:
+            page: zh
+            section: s-170ed5dbf4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c15707d063
+            part: title
+          zh:
+            page: zh
+            section: s-be8d2ea5d3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c15707d063
+            part: body
+          zh:
+            page: zh
+            section: s-be8d2ea5d3
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-37189f1a87
+            part: title
+          zh:
+            page: zh
+            section: s-c5c8edb232
+            part: title
+        text:
+          en:
+            page: en
+            section: s-37189f1a87
+            part: body
+          zh:
+            page: zh
+            section: s-c5c8edb232
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-0a9c32997a
+            part: title
+          zh:
+            page: zh
+            section: s-82dc944701
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: T9B9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AT9B9
+            label:
+              en: Chacophrys pierottii
+              zh: Chacophrys pierottii
+        text:
+          en:
+            page: en
+            section: s-0a9c32997a
+            part: body
+          zh:
+            page: zh
+            section: s-82dc944701
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-cc5bab254f
+            part: body
+          zh:
+            page: zh
+            section: s-7bc1dd4da4
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chacophrys
+          url: https://www.checklistbank.org/dataset/316115/taxon/3LFL
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Chacophrys; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-63b626916a
+        part: body
+      zh:
+        page: zh
+        section: s-459c89678b
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Chacophrys
+      sourceRowIds:
+        - Anf1163
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false

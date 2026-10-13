@@ -1,0 +1,73 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-6d20c707ae
+      part: title
+    titleZh:
+      page: zh
+      section: s-463f858537
+      part: title
+    category: morphology
+    startAge: 308.5
+    endAge: 305.5
+    regions:
+      - Sydney Mines Formation, Florence, Nova Scotia, Canada
+    clades:
+      - Synapsida
+      - Echinerpeton intermedium
+    summary:
+      page: en
+      section: s-6d20c707ae
+      part: body
+    summaryZh:
+      page: zh
+      section: s-463f858537
+      part: body
+    claimIds:
+      - claim:event:echinerpeton-neural-spine-specimen
+    evidenceItems:
+      - statement: ROM VP 83326 was referred to Echinerpeton intermedium after direct comparison with paratype RM 10057 and type-series casts and photographs; its preserved spine is at least 7 cm tall and about 2.3 mm wide.
+        relation: supports
+        claimIds:
+          - claim:event:echinerpeton-neural-spine-specimen
+        referenceLinks:
+          - referenceId: mann-reisz-2020-echinerpeton-spine
+            relation: supports
+            figure: Figure 1
+            quoteLocator: Materials and Methods; Comparative Anatomy
+    uncertaintyItems:
+      - statement: The 308.5–305.5 Ma display interval is the paper's approximate Sydney Mines Formation envelope, not a direct radiometric date on ROM VP 83326 or a global Synapsida first appearance.
+        relation: contextualizes
+        claimIds:
+          - claim:event:echinerpeton-neural-spine-specimen
+        referenceLinks:
+          - referenceId: mann-reisz-2020-echinerpeton-spine
+            relation: supports
+            quoteLocator: Locality and Horizon
+      - statement: Because the centrum and most of the skeleton are absent, the reconstructed spine-to-centrum ratio and proposed display, recognition or thermoregulatory roles are estimates and hypotheses, not observed function or evidence of a direct mammalian ancestor.
+        relation: contextualizes
+        claimIds:
+          - claim:event:echinerpeton-neural-spine-specimen
+        referenceLinks:
+          - referenceId: mann-reisz-2020-echinerpeton-spine
+            relation: supports
+            figure: Figure 1
+            quoteLocator: Comparative Anatomy; Discussion
+  claims:
+    - subjectId: event:echinerpeton-neural-spine-specimen
+      claimKind: scientific
+      claimType: morphology
+      statement: Referred specimen ROM VP 83326 documents a hyper-elongated neural spine in Echinerpeton intermedium from the Sydney Mines Formation, but incomplete preservation does not resolve the animal's full outline, spine ratio or sail function.
+      confidence: medium
+      confidenceRationale: The bone is described, figured and compared directly with paratype RM 10057 and the type series. Medium confidence preserves uncertainty in referral, incompleteness, reconstructed proportions and untested biological function.
+      referenceLinks:
+        - referenceId: mann-reisz-2020-echinerpeton-spine
+          relation: supports
+          figure: Figure 1
+          quoteLocator: Materials and Methods; Locality and Horizon; Comparative Anatomy; Discussion
+  claim-rationales.zh:
+    - 论文描述并图示了该骨骼，也将其与副模标本 RM 10057 及模式系列直接比较。中等置信度保留归入鉴定、保存不完整、比例复原和未经检验的生物学功能等不确定性。
+  claim-statements.zh:
+    - 归入标本 ROM VP 83326 记录了悉尼矿组 Echinerpeton intermedium 的超长神经棘，但保存不完整，不能确定动物整体轮廓、神经棘比例或帆状结构功能。

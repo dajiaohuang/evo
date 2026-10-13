@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus orophilus
+  displayName: Afrixalus orophilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G69
+  sourceIndexes:
+    - name:
+        en: Afrixalus orophilus
+        zh: Afrixalus orophilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G69
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/78
+            queryName: Afrixalus orophilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/464
+            queryName: Megalixalus orophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c324c2f173
+      - s-78a873f39d
+      - s-cda03ceb78
+      - s-8c5f415034
+      - s-daa25589d2
+      - s-6a41ba965c
+      - s-360eef8b36
+      - s-e5c0bdb6bc
+      - s-f5126bcf51
+      - s-7299defdd1
+      - s-64a265e219
+      - s-b6f9c7b183
+      - s-8ef009f55f
+      - s-ce36118321
+      - s-64678aab38
+      - s-767fe27374
+    zh:
+      - s-c632d500cf
+      - s-a4c1ebf99a
+      - s-dcee33b9b1
+      - s-785b1729c0
+      - s-1904c26d93
+      - s-c5badc83f2
+      - s-952fc3daf5
+      - s-4d0fd75ba7
+      - s-52bfcba644
+      - s-a441fce129
+      - s-102db437f9
+      - s-928f35e1f8
+      - s-96b9c1f8b4
+      - s-3a4ca61cc3
+      - s-6c20ec01cb
+      - s-66fe16890a

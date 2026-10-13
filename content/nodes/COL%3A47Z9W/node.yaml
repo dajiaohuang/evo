@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nototriton limnospectator
+  displayName: Nototriton limnospectator
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47Z9W
+  sourceIndexes:
+    - name:
+        en: Nototriton limnospectator
+        zh: Nototriton limnospectator
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47Z9W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/321
+            queryName: Nototriton limnospectator
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c9fb0656d
+      - s-0c94d7b389
+      - s-ededda61bb
+      - s-20eea61cf5
+      - s-f090d6f67b
+      - s-d7f0f11007
+      - s-8a49cf4f1f
+      - s-712ff4e67c
+      - s-2c2d114dbb
+    zh:
+      - s-23562f2887
+      - s-783b57a287
+      - s-7015f5d7a0
+      - s-9029b8fb6a
+      - s-9b854842be
+      - s-a0e0195445
+      - s-5b90771819
+      - s-8b25f5cac3
+      - s-70943266b5

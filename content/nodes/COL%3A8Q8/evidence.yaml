@@ -1,0 +1,274 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cryptobranchidae Fitzinger, 1826
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Cryptobranchidae
+      zh: Cryptobranchidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8d05db2e18
+            part: title
+          zh:
+            page: zh
+            section: s-dad9bc78ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8d05db2e18
+            part: body
+          zh:
+            page: zh
+            section: s-dad9bc78ba
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-72ad9d6a86
+            part: title
+          zh:
+            page: zh
+            section: s-88b96ec366
+            part: title
+        text:
+          en:
+            page: en
+            section: s-72ad9d6a86
+            part: body
+          zh:
+            page: zh
+            section: s-88b96ec366
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-4449000fbc
+            part: title
+          zh:
+            page: zh
+            section: s-209df993b4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4449000fbc
+            part: body
+          zh:
+            page: zh
+            section: s-209df993b4
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-810ab7d5c4
+            part: title
+          zh:
+            page: zh
+            section: s-ca1a055144
+            part: title
+        text:
+          en:
+            page: en
+            section: s-810ab7d5c4
+            part: body
+          zh:
+            page: zh
+            section: s-ca1a055144
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-fd4cc677d6
+            part: title
+          zh:
+            page: zh
+            section: s-a3f841ec1a
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: VTF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AVTF
+            label:
+              en: Andrias
+              zh: Andrias
+          - kind: catalogue
+            colId: 3WGT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3WGT
+            label:
+              en: Cryptobranchus
+              zh: Cryptobranchus
+        text:
+          en:
+            page: en
+            section: s-fd4cc677d6
+            part: body
+          zh:
+            page: zh
+            section: s-a3f841ec1a
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-339177aeac
+            part: title
+          zh:
+            page: zh
+            section: s-4ac9d47bec
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-339177aeac
+            part: body
+          zh:
+            page: zh
+            section: s-4ac9d47bec
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cryptobranchidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/8Q8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Cryptobranchidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Cryptobranchidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2ca34ab2ac
+        part: body
+      zh:
+        page: zh
+        section: s-b223ee3685
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Cryptobranchidae
+      sourceRowIds:
+        - Anf6012
+        - Anf6013
+        - Anf6014
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 3
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Cryptobranchus alleganiensis
+          path: content/nodes/local-a69a5925834b6c3e4cdbfda6
+      metrics:
+        - metric: CTmax
+          rows: 13
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

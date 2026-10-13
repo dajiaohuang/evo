@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Austrochaperina hooglandi
+    name:
+      en: Austrochaperina hooglandi
+      zh: Austrochaperina hooglandi
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Austrochaperina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e3b037d2ab
+            part: body
+          zh:
+            page: zh
+            section: s-cbc8971bcc
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6f189768bc
+            part: body
+          zh:
+            page: zh
+            section: s-c056523144
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 586; Reference.csv rows 49
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 586
+        values:
+          - Microhylidae
+          - Austrochaperina
+          - Austrochaperina hooglandi
+          - M
+          - "40.1"
+          - NA
+          - "14.5"
+          - "3.8"
+          - NA
+          - NA
+          - NA
+          - "4.1"
+          - NA
+          - "3.1"
+          - NA
+          - NA
+          - "9.3"
+          - NA
+          - NA
+          - "17.6"
+          - NA
+          - "17.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.05"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.45"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 49
+        values:
+          - Anura
+          - Austrochaperina_hooglandi
+          - Zweifel, R. G. (2000). Partition of the Australopapuan microhylid frog genus Sphenophryne with descriptions of new species. Bulletin of the American Museum of Natural History(253), 1-130. https://doi.org/10.1206/0003-0090(2000)253<0001:POTAMF>2.0.CO;2
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IND
+      - EN
+      - HAL
+      - FL
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - JVZV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

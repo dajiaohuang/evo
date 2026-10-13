@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella lescurei
+  displayName: Rhinella lescurei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7NM
+  sourceIndexes:
+    - name:
+        en: Rhinella lescurei
+        zh: Rhinella lescurei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7NM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/336
+            queryName: Rhinella lescurei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/398
+            queryName: Rhinella lescuri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6b450a1a0e
+      - s-067d02327e
+      - s-b86ec6447b
+      - s-e702e1298c
+      - s-ddef6e9e1f
+      - s-a965a6dfa4
+      - s-45ecaea885
+      - s-a7b93afafd
+      - s-1f6cdc8009
+      - s-ab5d36df35
+    zh:
+      - s-af7e8d130b
+      - s-5f7c195902
+      - s-594b5bc7a4
+      - s-44ab894377
+      - s-f3491514a3
+      - s-9d40633d4e
+      - s-5faf3e5b39
+      - s-a2f00e4513
+      - s-65cd22a464
+      - s-0fc44ad311

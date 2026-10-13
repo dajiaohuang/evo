@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus spilotus
+  displayName: Nymphargus spilotus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486K9
+  sourceIndexes:
+    - name:
+        en: Nymphargus spilotus
+        zh: Nymphargus spilotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486K9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/452
+            queryName: Nymphargus spilotus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/27
+            queryName: Cochranella spilota
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e3d3dd6c10
+      - s-0ace2c232c
+      - s-33cc95aa9f
+      - s-3d44b7ad18
+      - s-a589e7af08
+      - s-41d4201532
+      - s-f40f4b646b
+      - s-aa32ea9f9a
+      - s-5b00bc9a8d
+      - s-2fd2869e4a
+      - s-f7df19cc9f
+      - s-1f5a589e3a
+      - s-8c585ecae8
+      - s-89523e9454
+      - s-1ffd0c189d
+      - s-ce7721896e
+      - s-7c37b074ba
+      - s-379811fd07
+      - s-e62e3114e0
+      - s-2061cd7178
+      - s-e2132f17e1
+      - s-68e4e77076
+      - s-ff28b7db71
+      - s-4545df08e4
+    zh:
+      - s-81988ce288
+      - s-e3a5575a06
+      - s-83b59d251c
+      - s-6415a06ddf
+      - s-6c09454ef2
+      - s-3f2bd6f7d3
+      - s-15f4496077
+      - s-114e2555e8
+      - s-d19ac17378
+      - s-c38000b83e
+      - s-6c0a44b764
+      - s-3e3a715582
+      - s-e8cb8cd272
+      - s-685423da34
+      - s-2e356c85ff
+      - s-3abda7cd74
+      - s-49af117553
+      - s-f16d189758
+      - s-6d995fe6ee
+      - s-f3f228918a
+      - s-1890375bfe
+      - s-7c6c48fb04
+      - s-b23ae8ecb9
+      - s-9dab9a0cf6

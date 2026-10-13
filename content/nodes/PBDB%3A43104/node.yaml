@@ -1,0 +1,31 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tapiroidea
+  displayName: Tapiroidea
+  rank: superfamily
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=43104
+    parentSourceIdentifier: txn:43090
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=43104
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-14ad5b2941
+      - s-42eea3ed9d
+      - s-bf0f037312
+      - s-9c6d88e4a6
+    zh:
+      - s-5db19cfb87
+      - s-c2d631765b
+      - s-0fa082cf46
+      - s-172d87c97e

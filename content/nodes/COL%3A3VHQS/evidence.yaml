@@ -1,0 +1,589 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lithobates pustulosus (Boulenger, 1883)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Lithobates pustulosus
+      zh: Lithobates pustulosus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6ef12b4f4d
+            part: title
+          zh:
+            page: zh
+            section: s-a58c1fd0f9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6ef12b4f4d
+            part: body
+          zh:
+            page: zh
+            section: s-a58c1fd0f9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3cfd66864e
+            part: title
+          zh:
+            page: zh
+            section: s-01a1f02b95
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3cfd66864e
+            part: body
+          zh:
+            page: zh
+            section: s-01a1f02b95
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9d39fb8e57
+            part: title
+          zh:
+            page: zh
+            section: s-c1101c3993
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-9d39fb8e57
+            part: body
+          zh:
+            page: zh
+            section: s-c1101c3993
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-beb48137f7
+            part: title
+          zh:
+            page: zh
+            section: s-2ad3cc0ad0
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-beb48137f7
+            part: body
+          zh:
+            page: zh
+            section: s-2ad3cc0ad0
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-fb90a9982b
+            part: title
+          zh:
+            page: zh
+            section: s-8cca11888f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-fb90a9982b
+            part: body
+          zh:
+            page: zh
+            section: s-8cca11888f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-a7bf964f7b
+            part: title
+          zh:
+            page: zh
+            section: s-49cdfd99d2
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-a7bf964f7b
+            part: body
+          zh:
+            page: zh
+            section: s-49cdfd99d2
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3e32d07fa5
+            part: title
+          zh:
+            page: zh
+            section: s-3b10064961
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3e32d07fa5
+            part: body
+          zh:
+            page: zh
+            section: s-3b10064961
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-f389895b68d80c56cc1a65fb02830579
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-e96f7f821470b424873577ff
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-83c658f500
+            part: title
+          zh:
+            page: zh
+            section: s-b1de4a7c3c
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-83c658f500
+            part: body
+          zh:
+            page: zh
+            section: s-b1de4a7c3c
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-e29a4e58e6
+            part: title
+          zh:
+            page: zh
+            section: s-c78c6cd663
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhqs
+        text:
+          en:
+            page: en
+            section: s-e29a4e58e6
+            part: body
+          zh:
+            page: zh
+            section: s-c78c6cd663
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-dbbd8a9401
+            part: title
+          zh:
+            page: zh
+            section: s-39bc75dae1
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhqs
+        text:
+          en:
+            page: en
+            section: s-dbbd8a9401
+            part: body
+          zh:
+            page: zh
+            section: s-39bc75dae1
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d1b29a60d8
+            part: title
+          zh:
+            page: zh
+            section: s-d64697e44c
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhqs
+        text:
+          en:
+            page: en
+            section: s-d1b29a60d8
+            part: body
+          zh:
+            page: zh
+            section: s-d64697e44c
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6c8f2970f0
+            part: title
+          zh:
+            page: zh
+            section: s-f8ff27bd6c
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhqs
+          - primary-pmc12070909-3vhqs-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-6c8f2970f0
+            part: body
+          zh:
+            page: zh
+            section: s-f8ff27bd6c
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-2b5a569fa2
+            part: body
+          zh:
+            page: zh
+            section: s-b952a202f7
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Lithobates pustulosus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3VHQS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4892; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4895 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2869; Reference.csv rows 3852
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12070909-3vhqs
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Lithobates pustulosus: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12070909-3vhqs-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 dataset316115 usage792WK exact sourceName Rana pustulosa accepted3VHQS; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json
+          scope:
+            en: Recorded catalogue accepted-link only; source specimen identity and biological concept equivalence remain uncertified.
+            zh: 仅所记目录接受名链接；来源标本身份及生物学概念等同性仍未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc12070909-3vhqs-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-112fec7949
+        part: body
+      zh:
+        page: zh
+        section: s-712a064a77
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-f389895b68d80c56cc1a65fb02830579
+      sourceRowId: Anf4892
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4892
+        bibliographyRowId: Anf4895
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Lithobates pipiens
+        candidateBibliographyRowIds:
+          - Anf4895
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-e96f7f821470b424873577ff
+        scientificName: Lithobates pustulosus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-pmc12070909-3vhqs
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 source-labelled Rana pustulosa Boulenger, 1883; explicit COL26.8 nomenclatural bridge, not independently certified biological equivalence
+        evidenceRead: "Lithobates pustulosus: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A source-listed native regional occurrence
+              zh: 来源名册列出的区域原生出现
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhqs
+            locator: PMC12070909 XML Table1 body row 58 Rana pustulosa Boulenger, 1883; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-668dc8b9c4
+                part: body
+              zh:
+                page: zh
+                section: s-977ae9f188
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: Distribution categories are dated checklist assignments
+              zh: 分布类别是有日期的名册分配
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhqs
+            locator: PMC12070909 XML Table1 row 58 Global/Total columns and caption; Methods2.1; Results3.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cd78cff1d6
+                part: body
+              zh:
+                page: zh
+                section: s-8230bd0e7e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Three conservation systems retain distinct dates and meanings
+              zh: 三套保育体系保留不同日期与含义
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhqs
+            locator: PMC12070909 XML Table1 row 58 IUCN/EVS/Mx columns and caption; Methods2.2; Results3.4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ff6ec6950f
+                part: body
+              zh:
+                page: zh
+                section: s-c8e5f5247c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Historical name and catalogue link
+              zh: 历史名称与目录对应
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhqs
+            locator: PMC12070909 XML Table1 row 58; COL26.8 dataset316115 usage792WK accepted3VHQS; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json sourceName Rana pustulosa
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e66931a45c
+                part: body
+              zh:
+                page: zh
+                section: s-dd1d89f393
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

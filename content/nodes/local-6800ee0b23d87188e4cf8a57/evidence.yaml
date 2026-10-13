@@ -1,0 +1,443 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Anstisia rosea
+    name:
+      en: Anstisia rosea
+      zh: Anstisia rosea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Which source name is assigned to this tadpole record?
+          zh: 这条蝌蚪记录采用什么来源名称？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-9f062f9130
+            part: body
+          zh:
+            page: zh
+            section: s-4d878f0c7f
+            part: body
+      - topic: morphology
+        title:
+          en: What do the rows actually report?
+          zh: 数据行实际记录了什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-8e983b489f
+            part: body
+          zh:
+            page: zh
+            section: s-bf76475314
+            part: body
+      - topic: morphology
+        title:
+          en: What can the image measurements show?
+          zh: 图像测量能说明什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-14f88802f3
+            part: body
+          zh:
+            page: zh
+            section: s-e275c00979
+            part: body
+      - topic: overview
+        title:
+          en: Where do the supplied ratios disagree?
+          zh: 哪些来源比例存在差异？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-c9e0000f63
+            part: body
+          zh:
+            page: zh
+            section: s-bdd4881f84
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 127, 128, 129; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Myobatrachidae
+      genus: Anstisia
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 127
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Ratio
+          - Color image
+          - Geocrinia rosea
+          - Myobatrachidae
+          - Anstisia
+          - Anstisia rosea
+          - 31
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.333092746300974
+          - 0.679501984843017
+          - 0.168206423673764
+          - 0.168206423673764
+          - 0.0774810537712017
+          - 0.0540238181162035
+          - 0.0438469866474197
+          - null
+          - null
+          - null
+          - Yongle Wang
+      - rowNumber: 128
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Hand-drawn picture
+          - Geocrinia rosea
+          - Myobatrachidae
+          - Anstisia
+          - Anstisia rosea
+          - 31
+          - 14.535
+          - 4.396
+          - 10.051
+          - 2.459
+          - 2.591
+          - 1.016
+          - 0.935
+          - 0.706
+          - null
+          - null
+          - null
+          - 0.324423846956
+          - 0.69153267973856
+          - 0.169177846577227
+          - 0.1782593739259
+          - 0.69924798736
+          - 0.6432748538117
+          - 0.4857241142786
+          - null
+          - null
+          - null
+          - Yongle Wang
+      - rowNumber: 129
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Geocrinia rosea
+          - Myobatrachidae
+          - Anstisia
+          - Anstisia rosea
+          - 27
+          - 11.832
+          - 3.725
+          - 8.069
+          - 2.327
+          - 1.114
+          - 0.424
+          - 0.272
+          - 0.347
+          - 2.55
+          - 0.792
+          - null
+          - 0.31482425544287
+          - 0.681964164976335
+          - 0.1966747329277
+          - 0.941514536849223
+          - 0.35835236646383
+          - 0.22988557471264
+          - 0.29327248146356
+          - 0.21551724137931
+          - 0.669371196754564
+          - null
+          - Yongle Wang
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 128
+        scientificName: Anstisia rosea
+        sourceField: BL/TL
+        suppliedRatio: 0.324423846956
+        originalNumerator: 4.396
+        originalTotalLength: 14.535
+        computedRatio: 0.3024423804609563
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 128
+        scientificName: Anstisia rosea
+        sourceField: TMH/TL
+        suppliedRatio: 0.69924798736
+        originalNumerator: 1.016
+        originalTotalLength: 14.535
+        computedRatio: 0.06990024079807361
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 128
+        scientificName: Anstisia rosea
+        sourceField: DFH/TL
+        suppliedRatio: 0.6432748538117
+        originalNumerator: 0.935
+        originalTotalLength: 14.535
+        computedRatio: 0.06432748538011696
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 128
+        scientificName: Anstisia rosea
+        sourceField: VFH/TL
+        suppliedRatio: 0.4857241142786
+        originalNumerator: 0.706
+        originalTotalLength: 14.535
+        computedRatio: 0.04857241142070863
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 129
+        scientificName: Anstisia rosea
+        sourceField: MTH/TL
+        suppliedRatio: 0.941514536849223
+        originalNumerator: 1.114
+        originalTotalLength: 11.832
+        computedRatio: 0.09415145368492225
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 129
+        scientificName: Anstisia rosea
+        sourceField: TMH/TL
+        suppliedRatio: 0.35835236646383
+        originalNumerator: 0.424
+        originalTotalLength: 11.832
+        computedRatio: 0.03583502366463827
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 129
+        scientificName: Anstisia rosea
+        sourceField: DFH/TL
+        suppliedRatio: 0.22988557471264
+        originalNumerator: 0.272
+        originalTotalLength: 11.832
+        computedRatio: 0.022988505747126436
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 129
+        scientificName: Anstisia rosea
+        sourceField: VFH/TL
+        suppliedRatio: 0.29327248146356
+        originalNumerator: 0.347
+        originalTotalLength: 11.832
+        computedRatio: 0.02932724814063556
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 129
+        scientificName: Anstisia rosea
+        sourceField: TMW/TL
+        suppliedRatio: 0.669371196754564
+        originalNumerator: 0.792
+        originalTotalLength: 11.832
+        computedRatio: 0.06693711967545639
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.333092746300974
+        row: 127
+        stage: 31
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.679501984843017
+        row: 127
+        stage: 31
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.168206423673764
+        row: 127
+        stage: 31
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.168206423673764
+        row: 127
+        stage: 31
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.0774810537712017
+        row: 127
+        stage: 31
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - LK9M8
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

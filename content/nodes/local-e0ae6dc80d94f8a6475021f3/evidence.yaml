@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Boophis erythrodactylus
+    name:
+      en: Boophis erythrodactylus
+      zh: Boophis erythrodactylus
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Boophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Boophis erythrodactylus in the version 3 classification
+          zh: Boophis erythrodactylus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6c2f9c2cfa
+            part: body
+          zh:
+            page: zh
+            section: s-27b86744e9
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 12 populated trait fields
+          zh: 2 条测量行与 12 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-abcb47157b
+            part: body
+          zh:
+            page: zh
+            section: s-1630c937b8
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 755, 756; Reference.csv rows 98
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 755
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis erythrodactylus
+          - F
+          - "33"
+          - "11.1"
+          - "11.9"
+          - "3.1"
+          - "2.2"
+          - NA
+          - NA
+          - "2.9"
+          - NA
+          - "2.5"
+          - NA
+          - "1.7"
+          - "10"
+          - NA
+          - "20.4"
+          - "14.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "53.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 756
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis erythrodactylus
+          - M
+          - "24.075"
+          - "8.925"
+          - "9.4"
+          - "3.075"
+          - "1.7"
+          - NA
+          - NA
+          - "2.65"
+          - NA
+          - "1.875"
+          - NA
+          - "1.725"
+          - "7.5"
+          - NA
+          - "15.1"
+          - "10.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "42.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 98
+        values:
+          - Anura
+          - Boophis_erythrodactylus
+          - "Andreone, F. (1993). Two new treefrogs of the genus Boophis (Anura: Rhacophoridae) from central-eastern Madagascar. Bollettino del Museo Regionale di Scienze Naturali di Torino, 11(2), 289-313."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - MHT8
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

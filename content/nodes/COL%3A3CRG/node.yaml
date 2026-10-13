@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bradytriton
+  displayName: Bradytriton
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CRG
+  sourceIndexes:
+    - name:
+        en: Bradytriton
+        zh: Bradytriton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CRG
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/249
+            queryName: Bradytriton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4dfcc1a542
+      - s-035f0b25ea
+      - s-b9cc2eb5bc
+      - s-4ff4f0e6ab
+      - s-aa6e4c094c
+      - s-e75a5ec434
+    zh:
+      - s-194435e9db
+      - s-55ba3e6e36
+      - s-8347bfeb8d
+      - s-20ebadf840
+      - s-25c8b23a85
+      - s-8acb6e4247

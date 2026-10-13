@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Physalaemus lateristriga
+    name:
+      en: Physalaemus lateristriga
+      zh: Physalaemus lateristriga
+    sourceClassification:
+      order: Anura
+      family: Leptodactylidae
+      genus: Physalaemus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Physalaemus lateristriga in the morphology deposit
+          zh: 形态数据中的 Physalaemus lateristriga 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-010438dbb9
+            part: body
+          zh:
+            page: zh
+            section: s-ac5d5d9f47
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4338: measurement fields and sex codes"
+          zh: 第 4338 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c2eb1b6be4
+            part: body
+          zh:
+            page: zh
+            section: s-add7895220
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4338; Reference.csv rows 2868
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4338
+        values:
+          - Leptodactylidae
+          - Physalaemus
+          - Physalaemus lateristriga
+          - F
+          - "28.7"
+          - "12.2"
+          - "9"
+          - "0.4"
+          - NA
+          - NA
+          - "0.3"
+          - "0.3"
+          - "0.2"
+          - "0.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "21"
+          - "14"
+          - "15.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2868
+        values:
+          - Anura
+          - Physalaemus_lateristriga
+          - "Cassini, C., Alberto, C., Cruz, G., & Caramaschi, U. (2010). Taxonomic review of Physalaemus olfersii (Lichtenstein & Martens, 1856) with revalidation of Physalaemus lateristriga (Steindachner, 1864) and description of two new related species (Anura: Leiuperidae). Zootaxa, 2010, 1-33. https://doi.org/10.11646/zootaxa.2491.1.1 "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - TFL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4HF9Y
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

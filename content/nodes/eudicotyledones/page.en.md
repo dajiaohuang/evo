@@ -1,0 +1,5 @@
+## Leefructus traits belong to one dated fossil {#s-9b9244ac03}
+*Leefructus mirus*, diagnosed as a basal eudicot, comes from the Daxinfangzi bed of the Yixian Formation in northeastern China. The described fossil has deeply three-lobed leaves grouped at nodes and an axillary reproductive axis ending in five narrow, partly united carpels. These features describe this specimen, not a universal eudicot body plan. The bed’s reported radiometric dates span 122.6–125.8 Ma; the 125.8–0 Ma route runs from this fossil sample to living eudicots, not to a global first appearance, crown divergence or continuous record. The vegetative and reproductive material supports a limited account of its role as a primary producer, but its habitat and class-wide ecology remain unresolved.
+
+A separate analysis of 83 plastid genes resolves several early branches among its sampled eudicots. Plastid genes are organellar genes, including chloroplast genes; this sampled topology is not a literal ancestor sequence.
+

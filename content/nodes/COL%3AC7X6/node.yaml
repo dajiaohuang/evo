@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes neuquensis
+  displayName: Alsodes neuquensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7X6
+  sourceIndexes:
+    - name:
+        en: Alsodes neuquensis
+        zh: Alsodes neuquensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7X6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/197
+            queryName: Alsodes neuquensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/5
+            queryName: Alsodes gargola neuquensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-78e5a09c38
+      - s-72dece193e
+      - s-51d1843c19
+      - s-3b22104893
+      - s-6b394c3c83
+      - s-f4b6111156
+      - s-9f6c535589
+      - s-e5f962fb6f
+      - s-9308fe5dbf
+      - s-4af53ac854
+      - s-128ba05707
+      - s-47772434c2
+      - s-6dce264c90
+      - s-c27211af39
+    zh:
+      - s-5840d142ec
+      - s-060b66721f
+      - s-47f4f2721c
+      - s-6d238c0ab4
+      - s-047b963ef7
+      - s-1dc8ec7c33
+      - s-497d5b5d13
+      - s-ca55134f51
+      - s-8c3aaee728
+      - s-66df199c0a
+      - s-7f44c3b59a
+      - s-c463feea28
+      - s-0fb65bcaf3
+      - s-93dd069a8a

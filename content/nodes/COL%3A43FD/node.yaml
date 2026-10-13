@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dermatonotus
+  displayName: Dermatonotus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/43FD
+  sourceIndexes:
+    - name:
+        en: Dermatonotus
+        zh: Dermatonotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 43FD
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/347
+            queryName: Dermatonotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 36
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4fa649c4d2
+      - s-0b7bd240a0
+      - s-fa0fc7bfc6
+      - s-87d09ac48a
+      - s-df2f78b8da
+      - s-bff186ab8a
+      - s-e9cc4a2660
+      - s-66899acdc6
+      - s-ce925580a9
+      - s-9acd52a976
+      - s-6cf67d2163
+      - s-82e9aba1f2
+    zh:
+      - s-ba62987ee6
+      - s-7bb3f63dee
+      - s-71e9400052
+      - s-36f9de0202
+      - s-5952ded1cc
+      - s-d24ede5058
+      - s-35ef641759
+      - s-e76ea63a20
+      - s-aa4d13af4d
+      - s-321ca32ca2
+      - s-bc081f29cd
+      - s-6555701691

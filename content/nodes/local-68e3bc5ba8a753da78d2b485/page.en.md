@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-693cbe7ccf}
+This record shows how TadpoleTraits files tadpoles under Gastrophryne elegans. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Gastrophryne elegans in Gastrophryne and Microhylidae. In the literature table, rows 3819, 3820, 5449, 5450, 5451, 5452, 5453, 5454 list Gastrophryne elegans in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-4a42a21953}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 8 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 30 (row 3819); 26 (row 3820); 40 (row 5449); 39 (row 5450); 35 (row 5451); 37 (row 5452); 36 (row 5453); 38 (row 5454). Sample size is entered by row (row 3819: n=1; row 3820: n=1; row 5449: n=2; row 5450: n=4; row 5451: n=5; row 5452: n=3; row 5453: n=3; row 5454: n=1). These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

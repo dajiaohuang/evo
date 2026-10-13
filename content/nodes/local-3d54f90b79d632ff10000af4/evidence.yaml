@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius tsurugiensis
+    name:
+      en: Hynobius tsurugiensis
+      zh: Hynobius tsurugiensis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-64c53245d3
+            part: body
+          zh:
+            page: zh
+            section: s-a174122e81
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-49096b6746
+            part: body
+          zh:
+            page: zh
+            section: s-226793d81b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 190; Reference.csv rows 4101
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 190
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius tsurugiensis
+          - M
+          - NA
+          - "62"
+          - "39.624"
+          - "27.508"
+          - "12.376"
+          - "8.736"
+          - "2.86"
+          - "2.964"
+          - NA
+          - "1.664"
+          - "2.86"
+          - "3.536"
+          - "35.984"
+          - "5.616"
+          - "5.148"
+          - "4.94"
+          - NA
+          - "12.168"
+          - "14.976"
+          - "2.08"
+          - "2.028"
+          - "3.432"
+          - "0.624"
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4101
+        values:
+          - Caudata
+          - Hynobius_tsurugiensis
+          - Tominaga, A., Matsui, M., Tanabe, S., & Nishikawa, K. (2019). A revision of Hynobius stejnegeri, a lotic breeding salamander from western Japan, with a description of three new species (Amphibia, Caudata, Hynobiidae). Zootaxa, 4651(3), zootaxa 4651.3.1. https://doi.org/10.11646/zootaxa.4651.3.1
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - Q386K
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus resinifictrix
+  displayName: Trachycephalus resinifictrix
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PW6
+  sourceIndexes:
+    - name:
+        en: Trachycephalus resinifictrix
+        zh: Trachycephalus resinifictrix
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PW6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/108
+            queryName: Trachycephalus resinifictrix
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/17
+            queryName: Phrynohyas resinifictrix
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/165
+            queryName: Hyla resinifictrix
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f76bdeb875
+      - s-0a33558930
+      - s-a88aa76677
+      - s-15e679bf3b
+      - s-dba638dd6f
+      - s-af13234763
+      - s-de46e565f8
+      - s-40d844e257
+      - s-f623463126
+      - s-4b60575b74
+      - s-d051fa16b1
+      - s-c9bb8bfc6c
+      - s-6795a8c1af
+      - s-0c16139859
+      - s-0949161fe6
+      - s-a80f12aa19
+      - s-6916ec6663
+      - s-e7ce94062c
+    zh:
+      - s-80ef155ccb
+      - s-af0594b5a8
+      - s-703e0b32be
+      - s-50c5deb6d7
+      - s-49d3922edf
+      - s-b2e54b8441
+      - s-f07886f9dd
+      - s-600802133f
+      - s-13d1bd964a
+      - s-75083a282f
+      - s-5f494c2af4
+      - s-4cb6fec6c4
+      - s-08ee7131df
+      - s-f1eff3762c
+      - s-ba0d954355
+      - s-87ea7037a4
+      - s-5f002b018a
+      - s-305536786f

@@ -1,0 +1,316 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Anaxyrus debilis
+    name:
+      en: Anaxyrus debilis
+      zh: Anaxyrus debilis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The name and scope of this tadpole record
+          zh: 这份蝌蚪记录的名称与范围
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-451ceb42ed
+            part: body
+          zh:
+            page: zh
+            section: s-4d229b3e0a
+            part: body
+      - topic: morphology
+        title:
+          en: Stage labels and the fields attached to them
+          zh: 阶段标签及对应字段
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-7baf20bf86
+            part: body
+          zh:
+            page: zh
+            section: s-b12c387e30
+            part: body
+      - topic: morphology
+        title:
+          en: Dimensionless proportions in image records
+          zh: 图像记录中的无量纲比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f80b840f6a
+            part: body
+          zh:
+            page: zh
+            section: s-e8dc261fad
+            part: body
+      - topic: overview
+        title:
+          en: A ratio that conflicts with its source row
+          zh: 与来源行不一致的比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-3fe51ff5c3
+            part: body
+          zh:
+            page: zh
+            section: s-1af5fbca0b
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 89; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Bufonidae
+      genus: Anaxyrus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 89
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Color image
+          - Anaxyrus debilis
+          - Bufonidae
+          - Anaxyrus
+          - Anaxyrus debilis
+          - 28
+          - 18
+          - 6.593
+          - 11.473
+          - 4.022
+          - 2.902
+          - 1.518
+          - 1.055
+          - 0.728
+          - null
+          - null
+          - null
+          - 0.366277777777778
+          - 0.637388888888889
+          - 0.223444444444444
+          - 0.161222222222222
+          - 0.843333333333333
+          - 0.586111111111111
+          - 0.44444444444444
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 89
+        scientificName: Anaxyrus debilis
+        sourceField: TMH/TL
+        suppliedRatio: 0.843333333333333
+        originalNumerator: 1.518
+        originalTotalLength: 18
+        computedRatio: 0.08433333333333333
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 89
+        scientificName: Anaxyrus debilis
+        sourceField: DFH/TL
+        suppliedRatio: 0.586111111111111
+        originalNumerator: 1.055
+        originalTotalLength: 18
+        computedRatio: 0.05861111111111111
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 89
+        scientificName: Anaxyrus debilis
+        sourceField: VFH/TL
+        suppliedRatio: 0.44444444444444
+        originalNumerator: 0.728
+        originalTotalLength: 18
+        computedRatio: 0.04044444444444444
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.366277777777778
+        row: 89
+        stage: 28
+        type: Measurement
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.637388888888889
+        row: 89
+        stage: 28
+        type: Measurement
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.223444444444444
+        row: 89
+        stage: 28
+        type: Measurement
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.161222222222222
+        row: 89
+        stage: 28
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 66M66
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

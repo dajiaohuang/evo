@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis signifer
+  displayName: Pristimantis signifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJP3
+  sourceIndexes:
+    - name:
+        en: Pristimantis signifer
+        zh: Pristimantis signifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJP3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/90
+            queryName: Pristimantis signifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/55
+            queryName: Eleutherodactylus signifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5cac01707c
+      - s-dc518c3f2b
+      - s-5027a03f62
+      - s-ca40549470
+      - s-3abc55d7c7
+      - s-19f26d43b6
+      - s-2f3bf0ad3f
+    zh:
+      - s-79f57446c4
+      - s-4178b9b217
+      - s-ef1c6fc5cf
+      - s-fe384379b9
+      - s-89a24a0ffb
+      - s-47df82075d
+      - s-a79ed6c223

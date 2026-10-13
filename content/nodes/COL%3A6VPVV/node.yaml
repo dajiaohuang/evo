@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon montanus
+  displayName: Plethodon montanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VPVV
+  sourceIndexes:
+    - name:
+        en: Plethodon montanus
+        zh: Plethodon montanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VPVV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/479
+            queryName: Plethodon montanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd0cd50dd3
+      - s-68f0b034b4
+      - s-fe8c9990ce
+      - s-bdfefcc14b
+      - s-9176d7e2f9
+      - s-39b5f6f216
+      - s-0a101c71de
+      - s-88bec69f93
+      - s-6e3beab288
+      - s-083cace425
+      - s-666dac8d18
+    zh:
+      - s-7d2fbf3865
+      - s-9fd00698c0
+      - s-7d254e148e
+      - s-8a539714db
+      - s-989c1f3dd7
+      - s-20489a89c3
+      - s-e0318097fd
+      - s-8ce45a83e5
+      - s-44a4e834ec
+      - s-bf6e41c35e
+      - s-8b8e0494bd

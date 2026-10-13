@@ -1,0 +1,9 @@
+## Searsia erosa {#s-1d11e9cc33}
+The 1993 account describes a wiry, thicket-forming shrub with toothed narrow leaflets and a small brown drupe; it also records its rocky interior setting.
+
+## Narrow toothed leaflets and a small drupe {#s-3ddbd126c6}
+The regional description gives a rounded, multistemmed shrub to 3 m, often forming thickets. Grey branches bear prominent lenticels; chestnut-brown branchlets are glabrous. Three-part leaves have semiterete petioles that are grooved and slightly margined above, recorded as (8-)19(-30) mm. The sessile, leathery leaflets are linear, olive-green above and slightly paler below, glutinous and hypostomatous; lateral leaflets may be falcate. Their tips are acute and often mucronulate. Margins range from erose to strongly toothed, parted or divided, rarely nearly entire; venation is kladodromous to reticulodromous. The midrib is prominent on both surfaces, lateral veins slightly prominent above, and other veins obscure in mature leaflets. Terminal leaflets measure (25-)51(-90) × (3-)6(-12) mm and lateral leaflets (15-)39(-81) × (2-)5(-7) mm. Many-flowered panicles are axillary or terminal, the latter up to 100 mm long. Flowers are called “normal.” The round, globoid drupes are shiny, light brown and 3.3 × 3.1 to 4.5 × 4.0 mm.
+
+## A source account's diagnostic and habitat notes {#s-91a0403550}
+The account links the wiry branches and fairly dense foliage to use as a rough broom, reflected in the vernacular name “besembos.” It calls the toothed leaflets diagnostic and says confusion was reported only with *Commiphora gracilifrondosa*, which it distinguishes as allopatric and narrower-leaved. The habitat field calls the species a common shrub on rocky koppies in the central interior. That regional wording does not give a dated survey or a population-frequency estimate.
+

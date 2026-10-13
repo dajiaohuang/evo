@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus olivaceus
+  displayName: Brachycephalus olivaceus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPYC
+  sourceIndexes:
+    - name:
+        en: Brachycephalus olivaceus
+        zh: Brachycephalus olivaceus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPYC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/426
+            queryName: Brachycephalus olivaceus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e090877fe0
+      - s-adc350fd4d
+      - s-5dde3128bd
+      - s-bf96c652da
+      - s-dfef97151d
+      - s-b1537ee352
+      - s-0e7724f9bc
+      - s-035b94b459
+      - s-68ba99fbab
+      - s-28f720cc20
+      - s-18dc202e99
+      - s-6499918405
+      - s-0bd2cbe7eb
+    zh:
+      - s-bbbcb329a3
+      - s-9ab67ede00
+      - s-03da08594f
+      - s-0e309b9291
+      - s-5a141e68c2
+      - s-183073582f
+      - s-60dc312edd
+      - s-74326259c7
+      - s-5c404aebf7
+      - s-3aa6888aef
+      - s-a562d3fe1a
+      - s-64c0907cc3
+      - s-4f0a564a0a

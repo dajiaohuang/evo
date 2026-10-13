@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hystrix primigenia
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hystrix primigenia
+      en: Hystrix primigenia
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-275bb89bc4
+            part: body
+          en:
+            page: en
+            section: s-02ae5a42a1
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3f40aa5f66
+            part: body
+          en:
+            page: en
+            section: s-6558c7e41a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-98e5e1d8a2
+            part: body
+          en:
+            page: en
+            section: s-2ddfb3a007
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3dcd5dea3f
+            part: body
+          en:
+            page: en
+            section: s-fba95fa13f
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7fefa220d6
+            part: body
+          en:
+            page: en
+            section: s-311bd85501
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hystrix primigenia
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=397288&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:397288; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:397288
+          selectedOccurrenceIds:
+            - occ:340414
+            - occ:363700
+            - occ:405253
+            - occ:435586
+            - occ:1212775
+            - occ:1348706
+            - occ:1384773
+            - occ:1426039
+            - occ:1449137
+            - occ:1452839
+            - occ:1453481
+            - occ:1470404
+            - occ:1488787
+            - occ:1498839
+            - occ:1517496
+          selectedCollectionIds:
+            - col:32103
+            - col:34462
+            - col:38892
+            - col:33396
+            - col:157582
+            - col:182754
+            - col:189976
+            - col:174455
+            - col:202213
+            - col:202630
+            - col:32376
+            - col:205351
+            - col:207134
+            - col:208569
+            - col:195562
+          sourceReferenceIds:
+            - ref:8633
+            - ref:9080
+            - ref:13549
+            - ref:11342
+            - ref:65728
+            - ref:70445
+            - ref:63872
+            - ref:67531
+            - ref:69294
+            - ref:69436
+            - ref:70441
+            - ref:70452
+            - ref:61193
+            - ref:72006
+            - ref:70440
+          originalIdentificationMappings:
+            - occurrenceId: occ:1348706
+              originalIdentifiedName: Lamprodon primigenius n. gen. n. sp.
+              acceptedName: Hystrix primigenia
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-90c86338eb
+        part: body
+      en:
+        page: en
+        section: s-bda51bde49
+        part: body

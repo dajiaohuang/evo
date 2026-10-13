@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena newtoni
+  displayName: Ptychadena newtoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9R4
+  sourceIndexes:
+    - name:
+        en: Ptychadena newtoni
+        zh: Ptychadena newtoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9R4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/484
+            queryName: Ptychadena newtoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/115
+            queryName: Rana newtoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a5b974cfd7
+      - s-1c2d2cbb64
+      - s-07aa0c661a
+      - s-7555fee08c
+      - s-458d1ec9d2
+      - s-c6957f23a7
+      - s-2f937f3e00
+    zh:
+      - s-a47d62a1d3
+      - s-d49671f9db
+      - s-bb8c43ee57
+      - s-fdb84af24d
+      - s-2e4e17b6fa
+      - s-aa01029695
+      - s-1cdd2bb92b

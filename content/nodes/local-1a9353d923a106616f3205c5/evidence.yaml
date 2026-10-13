@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gephyromantis zavona
+    name:
+      en: Gephyromantis zavona
+      zh: Gephyromantis zavona
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Gephyromantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Gephyromantis zavona in the version 3 classification
+          zh: Gephyromantis zavona 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-724e901abb
+            part: body
+          zh:
+            page: zh
+            section: s-bcb033a2d4
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f6b815ac5c
+            part: body
+          zh:
+            page: zh
+            section: s-53c686ea00
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2006, 2007; Reference.csv rows 460
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2006
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis zavona
+          - F
+          - "42.23333333"
+          - "15.66666667"
+          - "14.63333333"
+          - "4.733333333"
+          - "2.8"
+          - NA
+          - NA
+          - "4.3"
+          - NA
+          - "3.833333333"
+          - NA
+          - "2.4"
+          - "12.06666667"
+          - NA
+          - "25.73333333"
+          - "22.53333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "75.56666667"
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2007
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis zavona
+          - M
+          - "37.83636364"
+          - "13.88181818"
+          - "13.05454545"
+          - "4.418181818"
+          - "2.654545455"
+          - NA
+          - NA
+          - "3.763636364"
+          - NA
+          - "3.609090909"
+          - NA
+          - "1.990909091"
+          - "11.18181818"
+          - NA
+          - "23.34545455"
+          - "20.37272727"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "66.17272727"
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 460
+        values:
+          - Anura
+          - Gephyromantis_zavona
+          - "Vences, M., Andreone, F., Glaw, F., & Randrianirina, J. E. (2003). Molecular and bioacoustic divergence in Mantidactylus granulatus and M-zavona n.sp (Anura : Mantellidae): bearings for the biogeography of northern Madagascar. African Zoology, 38(1), 67-78. https://doi.org/10.1080/15627020.2003.11657195"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6KCLX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

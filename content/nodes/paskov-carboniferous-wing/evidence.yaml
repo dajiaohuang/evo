@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-8a7d8d817a
+      part: title
+    titleZh:
+      page: zh
+      section: s-361c8758f8
+      part: title
+    category: innovation
+    startAge: 325
+    endAge: 323
+    regions:
+      - Paskov Mine drill core, Upper Silesian Basin, Czech Republic
+    clades:
+      - Pterygota
+      - Archaeorthoptera
+    summary:
+      page: en
+      section: s-8a7d8d817a
+      part: body
+    summaryZh:
+      page: zh
+      section: s-361c8758f8
+      part: body
+    claimIds:
+      - claim:event:paskov-carboniferous-wing
+    evidenceItems:
+      - statement: The approximately 10 mm crushed forewing fragment preserves cross-veins and branches of ScP, R and other main veins in lowermost Namurian strata.
+        relation: supports
+        claimIds:
+          - claim:event:paskov-carboniferous-wing
+        referenceLinks:
+          - referenceId: prokop-2005-paskov-wing
+            relation: supports
+            pages: 383–387
+            figure: Figures 1–2
+            quoteLocator: Material, age and wing description
+    uncertaintyItems:
+      - statement: Archaeorthopteran affinity follows incomplete venation, and one fragment cannot date the acquisition of powered flight or the global Pterygota first appearance.
+        relation: contextualizes
+        claimIds:
+          - claim:event:paskov-carboniferous-wing
+        referenceLinks:
+          - referenceId: prokop-2005-paskov-wing
+            relation: supports
+            pages: 383–387
+            figure: Figure 2
+            quoteLocator: Discussion and conclusions
+  claims:
+    - subjectId: event:paskov-carboniferous-wing
+      claimKind: scientific
+      claimType: fossil-range
+      statement: A crushed forewing part and counterpart from the lowermost Namurian Paskov drill core preserve cross-veins and main-vein branches attributed to Archaeorthoptera at about 324 Ma; the fragment does not date the origin of insect flight or all Pterygota.
+      confidence: medium
+      confidenceRationale: The wing venation and locality are direct observations, but higher placement and global evolutionary timing are necessarily bounded.
+      referenceLinks:
+        - referenceId: prokop-2005-paskov-wing
+          relation: supports
+          pages: 383–387
+          figure: Figures 1–2
+          quoteLocator: Material and horizon; wing description; discussion
+  claim-rationales.zh:
+    - 翅脉和层位是直接观察；较高阶元归属及飞行或翼昆虫的全球起源时间仍需限定。
+  claim-statements.zh:
+    - Paskov 钻芯最下部纳缪尔阶的一件压扁前翅及其正反模保存横脉和主脉分支，被归入约 3.24 亿年前的 Archaeorthoptera；该碎片不能确定昆虫飞行或整个有翅亚纲的起源时间。

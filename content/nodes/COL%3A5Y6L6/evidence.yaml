@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropotes sagulatus (Traill, 1821)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Guianan Bearded Saki
+      zh: 圭亚那胡须僧面猴
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-19fbc76a99
+            part: body
+          zh:
+            page: zh
+            section: s-718fb5e0d4
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd
+      - topic: feedingEcology
+        text:
+          en:
+            page: en
+            section: s-cb5d08d78c
+            part: body
+          zh:
+            page: zh
+            section: s-e2e3cd85bd
+            part: body
+        sourceIds:
+          - feeding2013
+      - topic: socialOrganization
+        text:
+          en:
+            page: en
+            section: s-7c015effaf
+            part: body
+          zh:
+            page: zh
+            section: s-460a2387ee
+            part: body
+        sourceIds:
+          - activity2013
+      - topic: habitatUse
+        text:
+          en:
+            page: en
+            section: s-f0b01a36d8
+            part: body
+          zh:
+            page: zh
+            section: s-7884b649be
+            part: body
+        sourceIds:
+          - fragment2023
+    sources:
+      - id: taxonomy
+        referenceId: ref-90c72cdc-8d0b-8caa-a5f9-4e6d79a07d19
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins the accepted name, authorship, species rank, and parent genus under COL26.8 ID 5Y6L6.
+            zh: 固定 COL26.8 下接受名、作者、种级等级及属级父链（ID 5Y6L6）。
+      - id: mdd
+        referenceId: ref-6eb907ff-ab1d-834f-a664-9ae61ffd6dc3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common name, coarse geographic summary, and the database’s version-specific taxonomic notes; it does not support the field-study results.
+            zh: 支持英文普通名、粗略地理概述及该版本的分类备注；不支持下列野外研究结果。
+      - id: feeding2013
+        referenceId: ref-b8b0a3cd-87da-830a-ad86-f1c7ad6a1d43
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Long-term diet observations in continuous forest in Guyana; plant richness, annual seed share, and seasonal insect feeding remain specific to the studied population and period.
+            zh: 圭亚那连续林地的长期食性观察；植物种类数、全年种子比例和季节性昆虫取食均限定于研究种群与时期。
+      - id: activity2013
+        referenceId: ref-60cfe6f0-7b52-80ec-af2b-f36956e62e6a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 15-month, 560-hour study of one free-ranging group in Guyana; reported group size, activity budget, and affiliation are sample-specific.
+            zh: 圭亚那一个自由活动群体的 15 个月、560 小时研究；群体规模、活动预算和结伴结果仅适用于该样本。
+      - id: fragment2023
+        referenceId: ref-bff7a76e-544c-8afc-ad82-74cb68f086e6
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Five-minute location and behavior records for one group in an isolated 13-ha fragment near Manaus, Brazil; not a species-wide estimate.
+            zh: 巴西马瑙斯附近孤立 13 公顷林片中一个群体的五分钟定位和行为记录；不是全物种估计。
+    limitations:
+      en:
+        page: en
+        section: s-7c4367430e
+        part: body
+      zh:
+        page: zh
+        section: s-3f1a7678e2
+        part: body

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea firscheini
+  displayName: Pseudoeurycea firscheini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWR3
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea firscheini
+        zh: Pseudoeurycea firscheini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWR3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/290
+            queryName: Pseudoeurycea firscheini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6dc244fdc
+      - s-1420d560ed
+      - s-97d1b8e11f
+      - s-fac1ff6295
+      - s-168fc0f12c
+      - s-8336e2b303
+      - s-019137a63e
+      - s-0e3e7e7373
+    zh:
+      - s-ac7300945a
+      - s-92a71f9415
+      - s-4320216b9d
+      - s-dccad1a991
+      - s-0a05e6e521
+      - s-6d983addaa
+      - s-39b64e4c7c
+      - s-ad4c7cb949

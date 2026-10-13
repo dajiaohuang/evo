@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema nasuta
+  displayName: Ischnocnema nasuta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4S3
+  sourceIndexes:
+    - name:
+        en: Ischnocnema nasuta
+        zh: Ischnocnema nasuta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4S3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/30
+            queryName: Ischnocnema nasuta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/138
+            queryName: Eleutherodactylus nasutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/205
+            queryName: Hylodes nasutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b85831315d
+      - s-8a2dc883b1
+      - s-52c26e178d
+      - s-54d378f8c6
+      - s-b72d8f059d
+      - s-439948ef42
+      - s-09ea7905bc
+      - s-fad66a7922
+      - s-e02788dbfc
+      - s-a9765689a4
+      - s-4bd32cb659
+      - s-9a2498f0f2
+      - s-6f0b96039e
+      - s-01b5315bc2
+    zh:
+      - s-a80bbda3a9
+      - s-5d3536e8f6
+      - s-f4ebe578c4
+      - s-e3085a27dd
+      - s-71a26b6ec0
+      - s-95f6df3c15
+      - s-cecb34b4b6
+      - s-82314769c0
+      - s-8567788e42
+      - s-8832522e1c
+      - s-eb9aa49f19
+      - s-77dfd2c853
+      - s-6a96dbb227
+      - s-b7c4eee0d5

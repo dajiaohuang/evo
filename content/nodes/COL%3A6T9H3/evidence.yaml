@@ -1,0 +1,381 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ortalis garrula
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Ortalis garrula
+      en: Ortalis garrula
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-670a191b53
+            part: body
+          en:
+            page: en
+            section: s-86b7a036ab
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-728fb19de8
+            part: body
+          en:
+            page: en
+            section: s-cc7203ee00
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-cb4629fe19
+            part: body
+          en:
+            page: en
+            section: s-c01675846d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-7273a4e43a
+            part: body
+          en:
+            page: en
+            section: s-69810745a3
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-87a7539b3d
+            part: body
+          en:
+            page: en
+            section: s-ca1c41e5d2
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-7b38556b42
+            part: body
+          en:
+            page: en
+            section: s-d81babc4f8
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f8e250d247
+            part: body
+          en:
+            page: en
+            section: s-4498640260
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-c39d08e861
+            part: body
+          en:
+            page: en
+            section: s-6bbd69cf33
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-2d90ce400f
+            part: body
+          en:
+            page: en
+            section: s-d565330a3e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f51229ab10
+            part: body
+          en:
+            page: en
+            section: s-63132c599c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-511e646687
+            part: body
+          en:
+            page: en
+            section: s-1b88b3ae19
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f9118e5cce
+            part: body
+          en:
+            page: en
+            section: s-aa45c19685
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ortalis garrula
+          url: https://www.checklistbank.org/dataset/316115/taxon/6T9H3
+          locator: Pinned accepted name, rank and ancestor closure; matching names do not establish concept equivalence.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceTaxonomy
+          - externalConceptId
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET Supplementary dataset 1.xlsx; AVONET1_BirdLife; Species1=Ortalis garrula; Sequence=112; Metadata field definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 34480856
+          sourceFileMd5: 1445afdcfb6df784010c2ca034544bc8
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceTaxonomy: HBW–BirdLife version 5.0 (December 2020)
+          externalConceptId: AVIBASE-B679EB0C
+          scope:
+            zh: 历史同名记录的数据导读；仅使用 Inference=NO 且至少一套完整形态测量的记录。保留体重来源和繁殖/留居地理范围限定，不推断当前分类概念等同。
+            en: Historical same-name data account, using Inference=NO records with at least one complete morphological set. Mass provenance and breeding/resident geography retained; no current taxonomic concept equivalence inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 2108; name Ortalis garrula; reference table row 2108; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - litter_or_clutch_size_n
+            - birth_or_hatching_weight_g
+            - incubation_d
+          originalReferenceStrings:
+            adult_body_mass_g: mean of Dunning, 1992 and Bennett, 1986
+            litter_or_clutch_size_n: mean of Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009 and Bennett, 1986
+            birth_or_hatching_weight_g: Bennett, 1986
+            incubation_d: Bennett, 1986
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - Bennett, 1986
+            - Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 60; Scientific=Ortalis garrula; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            foraging:
+              fields:
+                - ForStrat-watbelowsurf
+                - ForStrat-wataroundsurf
+                - ForStrat-ground
+                - ForStrat-understory
+                - ForStrat-midhigh
+                - ForStrat-canopy
+                - ForStrat-aerial
+              references:
+                - id: Ref_2
+                  verbatim: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              speciesLevel: "1"
+          withheldFieldGroups:
+            - group: diet
+              certainty: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          readerFieldCautions:
+            - fieldGroup: diet
+              sourceCode: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-3343272d81
+        part: body
+      en:
+        page: en
+        section: s-dfc0c85863
+        part: body

@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boavus occidentalis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Boavus occidentalis
+      en: Boavus occidentalis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-72514737f8
+            part: body
+          en:
+            page: en
+            section: s-48949f573a
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e43875d2c5
+            part: body
+          en:
+            page: en
+            section: s-d6f9286a41
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-388d7a0e27
+            part: body
+          en:
+            page: en
+            section: s-a989529a76
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4241ef2f73
+            part: body
+          en:
+            page: en
+            section: s-dc19bbd30f
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d61452101a
+            part: body
+          en:
+            page: en
+            section: s-9b5a1a18c0
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Boavus occidentalis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=68100&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:68100; original response record indices retained in data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 514f112902c399f610603231aa01670f6a662448389d5f94c43cb3b70ec452d6
+          pbdbTaxonId: txn:68100
+          selectedOccurrenceIds:
+            - occ:286291
+            - occ:286367
+            - occ:737703
+            - occ:737705
+            - occ:1238841
+            - occ:1276798
+            - occ:1336056
+            - occ:1336065
+            - occ:1336066
+            - occ:1336067
+            - occ:1336068
+            - occ:1336069
+          selectedCollectionIds:
+            - col:15837
+            - col:27269
+            - col:16786
+            - col:16791
+            - col:130809
+            - col:16810
+            - col:16228
+            - col:180198
+            - col:180199
+            - col:180200
+            - col:16201
+          sourceReferenceIds:
+            - ref:7542
+            - ref:696
+            - ref:53112
+            - ref:1681
+            - ref:14699
+          originalIdentificationMappings:
+            - occurrenceId: occ:737703
+              originalIdentifiedName: Boavus affinis n. sp.
+              acceptedName: Boavus occidentalis
+              difference: null
+            - occurrenceId: occ:737705
+              originalIdentifiedName: Boavus affinis
+              acceptedName: Boavus occidentalis
+              difference: null
+            - occurrenceId: occ:1238841
+              originalIdentifiedName: Protagras lacustris n. gen. n. sp.
+              acceptedName: Boavus occidentalis
+              difference: null
+            - occurrenceId: occ:1276798
+              originalIdentifiedName: Boavus affinis
+              acceptedName: Boavus occidentalis
+              difference: null
+            - occurrenceId: occ:1336056
+              originalIdentifiedName: Boavus occidentalis n. gen. n. sp.
+              acceptedName: Boavus occidentalis
+              difference: null
+            - occurrenceId: occ:1336067
+              originalIdentifiedName: Boavus agilis n. sp.
+              acceptedName: Boavus occidentalis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3d5714c183
+        part: body
+      en:
+        page: en
+        section: s-42cb23e427
+        part: body

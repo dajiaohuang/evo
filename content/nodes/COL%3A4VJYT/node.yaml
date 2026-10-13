@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax rogerioi
+  displayName: Scinax rogerioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJYT
+  sourceIndexes:
+    - name:
+        en: Scinax rogerioi
+        zh: Scinax rogerioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJYT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/68
+            queryName: Scinax rogerioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bee04c5a9d
+      - s-31093ad460
+      - s-f1ca693f0e
+      - s-3f49ef4917
+      - s-d7080d606d
+      - s-d1c0b6444b
+      - s-0bb43a08b9
+      - s-7e2c680d0d
+      - s-f6a51b261d
+      - s-f05b874629
+      - s-ca7742bf43
+      - s-06e6e95b6f
+      - s-6ad46e09f7
+      - s-606685a0cd
+      - s-6519222cf1
+    zh:
+      - s-80f9846a3b
+      - s-9cd84822f9
+      - s-ad49db354a
+      - s-c7436a9b3d
+      - s-47da0ecda8
+      - s-59b825b2a7
+      - s-e1db174248
+      - s-f420654d12
+      - s-5aa9096b36
+      - s-3fd91edcbc
+      - s-ed1a0debae
+      - s-32597fde6b
+      - s-6715eeb658
+      - s-4cdabe8f0a
+      - s-2b52a3eb79

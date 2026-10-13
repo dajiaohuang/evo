@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius yiwuensis
+  displayName: Hynobius yiwuensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NLV9
+  sourceIndexes:
+    - name:
+        en: Hynobius yiwuensis
+        zh: Hynobius yiwuensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NLV9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/212
+            queryName: Hynobius yiwuensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd4724b9e6
+      - s-f5491d9877
+      - s-3e133b8ac8
+      - s-f45eee903f
+      - s-d94ca6ee7b
+      - s-8b627788c9
+      - s-6bceb7e785
+      - s-0de3259168
+    zh:
+      - s-d62dfe69f9
+      - s-71ec754801
+      - s-18947836fe
+      - s-7a8aed3230
+      - s-ec51ba4aa7
+      - s-9c976a4975
+      - s-4927f2b72d
+      - s-a308dd2aef

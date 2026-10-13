@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufo stejnegeri
+  displayName: Bufo stejnegeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NPF9
+  sourceIndexes:
+    - name:
+        en: Bufo stejnegeri
+        zh: Bufo stejnegeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NPF9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/12
+            queryName: Bufo stejnegeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/248
+            queryName: Bufo kangi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/249
+            queryName: Bufo cycloparotidos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e73dae278
+      - s-5e3b177cc1
+      - s-2c5e47a99d
+      - s-105dc99313
+      - s-b12e70da14
+      - s-e816b40c13
+      - s-cafa4a611a
+      - s-b351a80e97
+      - s-c38f16df06
+      - s-fb459a8cff
+    zh:
+      - s-b039fe6e1a
+      - s-24bd16a966
+      - s-c4795d22f9
+      - s-07ea899c78
+      - s-fbab3949c2
+      - s-b2c56f2c5a
+      - s-b560fa37f2
+      - s-d42e1fdb7c
+      - s-fdf9cc34ed
+      - s-ef514a4494

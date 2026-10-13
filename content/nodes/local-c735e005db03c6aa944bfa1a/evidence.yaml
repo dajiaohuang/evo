@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Breviceps carruthersi
+    name:
+      en: Breviceps carruthersi
+      zh: Breviceps carruthersi
+    sourceClassification:
+      order: Anura
+      family: Brevicipitidae
+      genus: Breviceps
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-23a5206452
+            part: body
+          zh:
+            page: zh
+            section: s-b3c4c2259b
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c34b121153
+            part: body
+          zh:
+            page: zh
+            section: s-3a5d50aaf4
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 875, 876; Reference.csv rows 152
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 875
+        values:
+          - Brevicipitidae
+          - Breviceps
+          - Breviceps carruthersi
+          - M
+          - "33.9"
+          - NA
+          - "11.4"
+          - "3.7"
+          - NA
+          - NA
+          - NA
+          - "2"
+          - NA
+          - "2"
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.9"
+          - "0.6"
+          - NA
+          - NA
+          - "6"
+          - "0.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 876
+        values:
+          - Brevicipitidae
+          - Breviceps
+          - Breviceps carruthersi
+          - F
+          - "53"
+          - NA
+          - "13.8"
+          - "4.6"
+          - NA
+          - NA
+          - NA
+          - "2.8"
+          - NA
+          - "2.5"
+          - "2.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "17.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.45"
+          - "1.05"
+          - NA
+          - NA
+          - "9.25"
+          - "1.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 152
+        values:
+          - Anura
+          - Breviceps_carruthersi
+          - "Minter, L. R., Netherlands, E. C., & Du Preez, L. H. (2017). Uncovering a hidden diversity: two new species of Breviceps (Anura: Brevicipitidae) from northern KwaZulu-Natal, South Africa. Zootaxa, 4300(2), 195-216. https://doi.org/10.11646/zootaxa.4300.2.3"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IND
+      - EN
+      - SL
+      - FL
+      - IMT
+      - Toe1L
+      - Toe4L
+      - Toe5L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - N9P3
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

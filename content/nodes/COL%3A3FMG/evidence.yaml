@@ -1,0 +1,207 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Callixalus Laurent, 1950
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Callixalus
+      zh: Callixalus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-12efe8e842
+            part: title
+          zh:
+            page: zh
+            section: s-39791cc9bb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-12efe8e842
+            part: body
+          zh:
+            page: zh
+            section: s-39791cc9bb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-344b9357cb
+            part: title
+          zh:
+            page: zh
+            section: s-9e94939609
+            part: title
+        text:
+          en:
+            page: en
+            section: s-344b9357cb
+            part: body
+          zh:
+            page: zh
+            section: s-9e94939609
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-49dcaee73d
+            part: title
+          zh:
+            page: zh
+            section: s-941225edc4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-49dcaee73d
+            part: body
+          zh:
+            page: zh
+            section: s-941225edc4
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e77565d38b
+            part: title
+          zh:
+            page: zh
+            section: s-4468b11f98
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e77565d38b
+            part: body
+          zh:
+            page: zh
+            section: s-4468b11f98
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-fe1cecac12
+            part: title
+          zh:
+            page: zh
+            section: s-cac4da169c
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5X82Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5X82Q
+            label:
+              en: Callixalus pictus
+              zh: Callixalus pictus
+        text:
+          en:
+            page: en
+            section: s-fe1cecac12
+            part: body
+          zh:
+            page: zh
+            section: s-cac4da169c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Callixalus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FMG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Callixalus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2a04a9f77c
+        part: body
+      zh:
+        page: zh
+        section: s-eec79c9b4e
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Callixalus
+      sourceRowIds:
+        - Anf3090
+      foragingCounts:
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false

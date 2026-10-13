@@ -1,0 +1,196 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Panophrys nanlingensis
+    name:
+      en: Panophrys nanlingensis
+      zh: Panophrys nanlingensis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Panophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Panophrys nanlingensis in the morphology deposit
+          zh: 形态数据中的 Panophrys nanlingensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0e3d1cc99f
+            part: body
+          zh:
+            page: zh
+            section: s-6d644e15cc
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4019: measurement fields and sex codes"
+          zh: 第 4019 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a6ab846a51
+            part: body
+          zh:
+            page: zh
+            section: s-e4f0885c39
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4019; Reference.csv rows 1052
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4019
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys nanlingensis
+          - M
+          - "33.2"
+          - "11.6"
+          - "11.8"
+          - "4.5"
+          - "2.2"
+          - "1.8"
+          - "3.4"
+          - "3.7"
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - "8"
+          - "8.1"
+          - NA
+          - NA
+          - "22.4"
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1052
+        values:
+          - Anura
+          - Panophrys_nanlingensis
+          - Wang, J., Lyu, Z. T., Liu, Z. Y., Liao, C. K., Zeng, Z. C., Zhao, J., . . . Wang, Y. Y. (2019). Description of six new species of the subgenus Panophrys within the genus Megophrys (Anura, Megophryidae) from southeastern China based on molecular and morphological data. Zookeys(851), 113-164. https://doi.org/10.3897/zookeys.851.29107
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - TFL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

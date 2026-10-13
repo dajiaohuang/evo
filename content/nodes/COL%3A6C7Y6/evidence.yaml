@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cynorkis compacta Rchb.f.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6C7Y6, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6C7Y6; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6C7Y6
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6C7Y6
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000934812-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6C7Y6 / WFO wfo-0000934812
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_10448_0
+        referenceId: ref-9bbd0d67-04f8-8899-afad-f3d85c5fc840
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cynorkis compacta Rchb.f. account; SANBI/WFO archive rows 42110 (Morphology), 42955 (Habitat), source identifier 10448.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants to 80 mm tall; fusiform roots 1 to several, to 40 x 8 mm; leaves 1 (-2), basal, sheathing, narrowly ovate, acute, to 80 x 15 mm. Inflorescences glabrous, 1-15-flowered, to 40 x 20 mm, densely racemose; bracts less than half as long as the ovaries, narrowly lanceolate, acute to rounded. Flowers white, lip spotted pink. Sepals unequal; median broadly elliptic, galeate, margins recurved, 3-4.5 x 3.5 mm; laterals spreading, lanceolate, 4-5.5 x 2.5 mm. Petals erect, narrowly lanceolate, obtuse, 4 x 1.5 mm. Lip broadly obovate, patent, 3-lobed, 6-9 x 6-9 mm; midlobe square to oblong, sometimes obscurely 3-lobed; side lobes quadrate-rhomboid, 2-3 mm long; spur cylindrical, parallel to the ovary, 3-4 x 1 mm. Gynostemium 1.5 mm tall; rostellum basally fused to the lip.
+            textZh: Cynorkis compacta Rchb.f. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_10448_0
+            locator: "SANBI/WFO archive Morphology row 42110; source identifier 10448.0; cited publication: Kurzweil, H; Linder, HP. 1999. Orchids of Southern Africa. A.A. Balkema, Rotterdam. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: rock crevices.
+            textZh: 该 SANBI 区域物种条目记录的生境：rock crevices.
+            sourceIds:
+              - sanbi_10448_0
+            locator: "SANBI/WFO archive Habitat row 42955; source identifier 10448.0; cited publication: Kurzweil, H; Linder, HP. 1999. Orchids of Southern Africa. A.A. Balkema, Rotterdam. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-78be41fa3a
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-c6286d4d18
+          part: body

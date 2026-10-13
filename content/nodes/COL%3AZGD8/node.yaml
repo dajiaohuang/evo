@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia riparia
+  displayName: Crinia riparia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZGD8
+  sourceIndexes:
+    - name:
+        en: Crinia riparia
+        zh: Crinia riparia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZGD8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/211
+            queryName: Crinia riparia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/372
+            queryName: Ranidella riparia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/373
+            queryName: Australocrinia riparia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/374
+            queryName: Littlejohnophryne riparia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f3d65bf191
+      - s-54a096c623
+      - s-823989347e
+      - s-dcdb7e1eb0
+      - s-29f2ebddd4
+      - s-8e972d530b
+      - s-89b37009c2
+      - s-0286ab14e7
+      - s-9bf0311f0a
+      - s-12c58975de
+    zh:
+      - s-18d1e6fa16
+      - s-4fe5a07eb0
+      - s-a5d66025dd
+      - s-5ccda6f2a2
+      - s-a3ddf3d77b
+      - s-61470e85a5
+      - s-40cc7ab18c
+      - s-f38359187c
+      - s-e99bd98f0e
+      - s-38aa63b3bf

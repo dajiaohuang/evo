@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arfia zele
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Arfia zele
+      en: Arfia zele
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3399a88f7c
+            part: body
+          en:
+            page: en
+            section: s-e8c12fdda1
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-164ad06d2a
+            part: body
+          en:
+            page: en
+            section: s-80888d02ec
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2368d8d39d
+            part: body
+          en:
+            page: en
+            section: s-a32f5ceff6
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8f472a2e0f
+            part: body
+          en:
+            page: en
+            section: s-65dc7d83db
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d9a46ac7b7
+            part: body
+          en:
+            page: en
+            section: s-eff39fd11c
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Arfia zele
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=44316&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:44316; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:44316
+          selectedOccurrenceIds:
+            - occ:169023
+            - occ:169086
+            - occ:169162
+            - occ:169420
+            - occ:170651
+            - occ:170662
+            - occ:171347
+            - occ:171359
+            - occ:171407
+            - occ:171466
+            - occ:171679
+            - occ:171682
+            - occ:171687
+            - occ:171730
+            - occ:171778
+            - occ:171957
+            - occ:172758
+            - occ:173148
+            - occ:173153
+            - occ:173163
+            - occ:173276
+            - occ:469264
+            - occ:469287
+            - occ:471267
+          selectedCollectionIds:
+            - col:15491
+            - col:15493
+            - col:15504
+            - col:15515
+            - col:15587
+            - col:15590
+            - col:15729
+            - col:15731
+            - col:15738
+            - col:15749
+            - col:15773
+            - col:15774
+            - col:15775
+            - col:15781
+            - col:15789
+            - col:15809
+            - col:15932
+            - col:16016
+            - col:16017
+            - col:16019
+            - col:16055
+            - col:46659
+            - col:46661
+            - col:46823
+          sourceReferenceIds:
+            - ref:6294
+            - ref:1666
+            - ref:11717
+          originalIdentificationMappings:
+            - occurrenceId: occ:171466
+              originalIdentifiedName: Arfia zele n. sp.
+              acceptedName: Arfia zele
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7a7d9a5c6f
+        part: body
+      en:
+        page: en
+        section: s-4f3c5906e8
+        part: body

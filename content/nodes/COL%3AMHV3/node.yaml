@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis tasymena
+  displayName: Boophis tasymena
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHV3
+  sourceIndexes:
+    - name:
+        en: Boophis tasymena
+        zh: Boophis tasymena
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHV3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/304
+            queryName: Boophis tasymena
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-177340892d
+      - s-7bb9a178d3
+      - s-9073100fc0
+      - s-ae0f1703ac
+      - s-0dd79f3ec5
+      - s-a7a5297ba0
+      - s-0aead0bd64
+      - s-539d36001b
+      - s-a82cc0f1df
+      - s-322f519da3
+      - s-6690a74eef
+    zh:
+      - s-62f389dab3
+      - s-fc01a93e78
+      - s-447858641d
+      - s-b0fb472edd
+      - s-1ee83f725e
+      - s-11b41531fa
+      - s-28fb1991ce
+      - s-d4d49f078a
+      - s-2067772bfa
+      - s-b47af766e9
+      - s-d2da931d4c

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys paviotii
+  displayName: Proceratophrys paviotii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMV6
+  sourceIndexes:
+    - name:
+        en: Proceratophrys paviotii
+        zh: Proceratophrys paviotii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMV6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/232
+            queryName: Proceratophrys paviotii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-80e9431236
+      - s-1e5ef4a7c2
+      - s-4f2cbf281d
+      - s-f5fbbd01a8
+      - s-018ed00e61
+      - s-e66ca01998
+      - s-523663317f
+      - s-ecdafeeea3
+      - s-54a28e2d55
+      - s-36784e4b5f
+      - s-3d9a97f8f8
+      - s-24ee05a382
+      - s-dfd600177c
+      - s-2fe5d61dfd
+    zh:
+      - s-ff51a19e77
+      - s-6adc34e422
+      - s-82964a4ebe
+      - s-b96d928e82
+      - s-22ad05c945
+      - s-2f0a8d07c0
+      - s-15867b51ac
+      - s-6b58b489e7
+      - s-b32b746826
+      - s-3c6f35cfe8
+      - s-4008600d16
+      - s-ba3d8dddc3
+      - s-9d7c340eef
+      - s-143e35b29c

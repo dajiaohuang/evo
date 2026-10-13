@@ -1,0 +1,153 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Grandisoniidae Lescure, Renous & Gasc, 1986
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Grandisoniidae
+      zh: Grandisoniidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6af6e01170
+            part: title
+          zh:
+            page: zh
+            section: s-36298bce46
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6af6e01170
+            part: body
+          zh:
+            page: zh
+            section: s-36298bce46
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-87b407bb45
+            part: title
+          zh:
+            page: zh
+            section: s-db8390cd55
+            part: title
+        text:
+          en:
+            page: en
+            section: s-87b407bb45
+            part: body
+          zh:
+            page: zh
+            section: s-db8390cd55
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-dace1d76bc
+            part: title
+          zh:
+            page: zh
+            section: s-28afcc77e4
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4MKL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4MKL
+            label:
+              en: Gegeneophis
+              zh: Gegeneophis
+          - kind: catalogue
+            colId: 52RR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A52RR
+            label:
+              en: Hypogeophis
+              zh: Hypogeophis
+          - kind: catalogue
+            colId: 53K5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A53K5
+            label:
+              en: Idiocranium
+              zh: Idiocranium
+          - kind: catalogue
+            colId: 54D7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54D7
+            label:
+              en: Indotyphlus
+              zh: Indotyphlus
+          - kind: catalogue
+            colId: 6VG6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6VG6
+            label:
+              en: Praslinia
+              zh: Praslinia
+          - kind: catalogue
+            colId: 7QPZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7QPZ
+            label:
+              en: Sylvacaecilia
+              zh: Sylvacaecilia
+        text:
+          en:
+            page: en
+            section: s-dace1d76bc
+            part: body
+          zh:
+            page: zh
+            section: s-28afcc77e4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Grandisoniidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5K6R
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9bec2001b4
+        part: body
+      zh:
+        page: zh
+        section: s-b93476bf62
+        part: body

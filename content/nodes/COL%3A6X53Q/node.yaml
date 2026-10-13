@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes anili
+  displayName: Raorchestes anili
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X53Q
+  sourceIndexes:
+    - name:
+        en: Raorchestes anili
+        zh: Raorchestes anili
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X53Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/123
+            queryName: Raorchestes anili
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/439
+            queryName: Philautus anili
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/79
+            queryName: Pseudophilautus anili
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f85a4ccc60
+      - s-d452ba8aa3
+      - s-cb6d689e02
+      - s-fffadc2fec
+      - s-f11e7a824f
+      - s-ef203306ab
+      - s-9a541b7981
+      - s-f78186ef9b
+      - s-0f4dc4f6bf
+      - s-ed9d23211d
+      - s-f58028ef2f
+    zh:
+      - s-426e8781f2
+      - s-9260208ab7
+      - s-a7f7fe8118
+      - s-9f5c9becf4
+      - s-b6fbd3b257
+      - s-02022d6555
+      - s-32eeaaf54a
+      - s-e9cc7e6be0
+      - s-9d84783947
+      - s-d7efaeef51
+      - s-060bbc32c9

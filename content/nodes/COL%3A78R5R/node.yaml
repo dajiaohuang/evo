@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana kukunoris
+  displayName: Rana kukunoris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78R5R
+  sourceIndexes:
+    - name:
+        en: Rana kukunoris
+        zh: Rana kukunoris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78R5R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/63
+            queryName: Rana kukunoris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 76
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/4
+            queryName: Rana weigoldi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/227
+            queryName: Rana amurensis kukunoris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/228
+            queryName: Rana amurensis kokonoris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/229
+            queryName: Rana chensinensis hongyuanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/230
+            queryName: Rana chensinensis lanzhouensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/231
+            queryName: Rana chensinensis kangdingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-22e6c99e9f
+      - s-672e1ca353
+      - s-9a308cc0c2
+      - s-17477725c5
+      - s-988e5f53e5
+      - s-643aef926a
+      - s-4f87f42a7d
+      - s-efa409bd3b
+      - s-66f3e43363
+      - s-183ce26cef
+      - s-3d655fdf90
+      - s-f986e86c82
+      - s-bb48e277e5
+      - s-163f3a8cb8
+      - s-37c58dbe6e
+      - s-015d98b2de
+      - s-38964d9aef
+      - s-f207237a32
+      - s-09554558e3
+    zh:
+      - s-a61b54c11e
+      - s-8750a65c30
+      - s-9ca65f3a99
+      - s-59374c8463
+      - s-9dca88d415
+      - s-5426c2f98a
+      - s-7228e827e0
+      - s-0c36b1a033
+      - s-2b36ced756
+      - s-516f215d71
+      - s-669d9d580b
+      - s-b992a901d2
+      - s-c283c14e7a
+      - s-5784c356cd
+      - s-f541bd4917
+      - s-876efcee14
+      - s-c21c43aa98
+      - s-36cfbfe670
+      - s-9e1a0a8f52

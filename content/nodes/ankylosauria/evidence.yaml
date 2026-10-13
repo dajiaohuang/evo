@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Ankylosauria
+    commonName: Ankylosaurs
+    commonNameZh: 甲龙类
+    rank: suborder
+    taxonId: ""
+    firstAppearance: 170
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:ankylosauria
+      claimKind: scientific
+      claimType: topology
+      statement: Ankylosauria is represented by the taxa in Thompson and colleagues’ morphology matrix; recovery of major armoured-dinosaur branches and poor nodosaurid resolution are study results, not a resolved ancestor chain or exact range.
+      confidence: medium
+      confidenceRationale: The study was designed as a comprehensive sampled phylogenetic analysis and reports weakly resolved regions. Medium confidence mirrors those explicit support limits.
+      referenceLinks:
+        - referenceId: thompson-2012-ankylosauria-phylogeny
+          relation: supports
+          pages: 301–312
+          figure: Figures 1–4; supplementary matrix
+          quoteLocator: Methods; strict-consensus results; discussion of Nodosauridae resolution
+  claim-rationales.zh:
+    - 该研究旨在进行综合取样系统发育分析，并报告解析较弱区域；中等置信度对应这些明确的支持限制。
+  claim-statements.zh:
+    - 甲龙类表示 Thompson 等人形态矩阵中的取样类群；主要装甲恐龙分支的恢复以及结节龙科解析不足是研究结果，不是已解决的祖先链或精确范围。
+  ranges:
+    - entityId: ankylosauria
+      rangeKind: global-composite
+      taxonomicConcept: Ankylosauria — numerical range withheld — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former navigation numbers are withdrawn because the morphology matrix tests relationships but does not provide auditable numerical clade endpoints. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: "A source audit of Phylogeny of the ankylosaurian dinosaurs (Ornithischia: Thyreophora) found relationship or taxonomic evidence but no range-fit support for the former numerical display."
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: thompson-2012-ankylosauria-phylogeny
+          locator: 301–312; Methods; strict-consensus results; discussion of Nodosauridae resolution
+      evidenceLevel: withheld-no-range-evidence
+  catalogue-profile:
+    sections:
+      - topic: phylogeny
+        title:
+          en:
+            page: en
+            section: s-10033aa0d6
+            part: title
+          zh:
+            page: zh
+            section: s-e8c7125ac5
+            part: title
+        sourceIds:
+          - thompson-2012-ankylosauria-phylogeny
+        text:
+          en:
+            page: en
+            section: s-10033aa0d6
+            part: body
+          zh:
+            page: zh
+            section: s-e8c7125ac5
+            part: body

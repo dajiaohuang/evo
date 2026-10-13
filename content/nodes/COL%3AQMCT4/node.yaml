@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus ambony
+  displayName: Mantidactylus ambony
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QMCT4
+  sourceIndexes:
+    - name:
+        en: Mantidactylus ambony
+        zh: Mantidactylus ambony
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QMCT4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/304
+            queryName: Mantidactylus ambony
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7ccb81cb44
+      - s-07d8bac7b1
+      - s-639ee30e15
+      - s-23308679a2
+      - s-bd7159c563
+      - s-d7a0ccab44
+      - s-28e9021d6f
+      - s-e49da3cfa1
+      - s-b6d5a5d634
+      - s-fbba05b3cc
+      - s-2f257cd7b6
+    zh:
+      - s-5741e1e3a2
+      - s-8c7783d26b
+      - s-9fc3a3bbf8
+      - s-6f15938216
+      - s-86c76ba55f
+      - s-eb79963a43
+      - s-6eada44666
+      - s-59b1758c89
+      - s-86f89ccb1e
+      - s-53df7b462b
+      - s-df337d15c7

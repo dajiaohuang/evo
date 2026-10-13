@@ -1,0 +1,235 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nanotragulus loomisi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Nanotragulus loomisi
+      en: Nanotragulus loomisi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dd26d4525e
+            part: body
+          en:
+            page: en
+            section: s-0f4979d513
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3acb5ab0f6
+            part: body
+          en:
+            page: en
+            section: s-379853c4bc
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-50754773c8
+            part: body
+          en:
+            page: en
+            section: s-7c32de9b8a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-11f49dd9ba
+            part: body
+          en:
+            page: en
+            section: s-d3b2c5891a
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-86e620e9e4
+            part: body
+          en:
+            page: en
+            section: s-d090cfb680
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Nanotragulus loomisi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=48997&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:48997; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:48997
+          selectedOccurrenceIds:
+            - occ:181249
+            - occ:181282
+            - occ:181316
+            - occ:181527
+            - occ:182044
+            - occ:182051
+            - occ:182069
+            - occ:182074
+            - occ:182097
+            - occ:182123
+            - occ:182137
+            - occ:182152
+            - occ:182175
+            - occ:182208
+            - occ:182220
+            - occ:182236
+            - occ:182266
+            - occ:182300
+            - occ:182304
+            - occ:182321
+            - occ:182336
+            - occ:182340
+            - occ:182384
+            - occ:182566
+            - occ:182707
+            - occ:1207896
+            - occ:1315160
+          selectedCollectionIds:
+            - col:17466
+            - col:17472
+            - col:17476
+            - col:17517
+            - col:17607
+            - col:17610
+            - col:17621
+            - col:17623
+            - col:17629
+            - col:17630
+            - col:17633
+            - col:17634
+            - col:17635
+            - col:17636
+            - col:17637
+            - col:17638
+            - col:17641
+            - col:17644
+            - col:17645
+            - col:17651
+            - col:17657
+            - col:17658
+            - col:17667
+            - col:17727
+            - col:17764
+            - col:156729
+            - col:17743
+          sourceReferenceIds:
+            - ref:3041
+            - ref:2327
+            - ref:4229
+            - ref:2356
+            - ref:6294
+            - ref:6222
+            - ref:1544
+            - ref:51382
+            - ref:24877
+          originalIdentificationMappings:
+            - occurrenceId: occ:181249
+              originalIdentifiedName: Nanotragulus intermedius n. sp.
+              acceptedName: Nanotragulus loomisi
+              difference: null
+            - occurrenceId: occ:181282
+              originalIdentifiedName: Nanotragulus loomisi n. sp.
+              acceptedName: Nanotragulus loomisi
+              difference: null
+            - occurrenceId: occ:181527
+              originalIdentifiedName: Nanotragulus intermedius
+              acceptedName: Nanotragulus loomisi
+              difference: null
+            - occurrenceId: occ:182152
+              originalIdentifiedName: Nanotragulus intermedius
+              acceptedName: Nanotragulus loomisi
+              difference: null
+            - occurrenceId: occ:182300
+              originalIdentifiedName: Nanotragulus intermedius
+              acceptedName: Nanotragulus loomisi
+              difference: null
+            - occurrenceId: occ:182384
+              originalIdentifiedName: Nanotragulus intermedius
+              acceptedName: Nanotragulus loomisi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-eacf8a8b99
+        part: body
+      en:
+        page: en
+        section: s-610a383af6
+        part: body

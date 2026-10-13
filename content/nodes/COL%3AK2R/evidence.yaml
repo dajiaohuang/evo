@@ -1,0 +1,453 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Otomyinae
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      zh: Otomyinae
+      en: Otomyinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-4282624ab4
+            part: body
+          en:
+            page: en
+            section: s-20dc780ec5
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-25d13918f8
+            part: body
+          en:
+            page: en
+            section: s-640ebafdc6
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-959f91be42
+            part: body
+          en:
+            page: en
+            section: s-6f88e72f70
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-5d01e779e4
+            part: body
+          en:
+            page: en
+            section: s-4aea27156b
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-c159733339
+            part: body
+          en:
+            page: en
+            section: s-82e930ba29
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-d1aaf1726a
+            part: body
+          en:
+            page: en
+            section: s-ef6ba1cb81
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-c90509e7dd
+            part: body
+          en:
+            page: en
+            section: s-8a675f69c6
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-e55503e09d
+            part: body
+          en:
+            page: en
+            section: s-2d572a0c03
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-831ecf1fcc
+            part: body
+          en:
+            page: en
+            section: s-0501286170
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-728df3bf8b
+            part: body
+          en:
+            page: en
+            section: s-3e6c5ec1ca
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-e653c57273
+            part: body
+          en:
+            page: en
+            section: s-5531f74d96
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Otomyinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/K2R
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 3 authored entries grouped under Otomyinae by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 20 authored same-name records placed under Otomyinae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 16 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 14
+            foraging: 16
+            activity: 16
+          readingTargets:
+            - name: Myotomys sloggetti
+              colId: 456HS
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A456HS
+            - name: Myotomys unisulcatus
+              colId: 456HT
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A456HT
+            - name: Otomys irroratus
+              colId: 4B7KM
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B7KM
+            - name: Otomys typus
+              colId: 4B7L9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B7L9
+            - name: Otomys tropicalis
+              colId: 4B7L6
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B7L6
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 7 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 0
+            foraging: 7
+            activity: 0
+          readingTargets:
+            - name: Otomys orestes
+              colId: 4B7KV
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B7KV
+            - name: Otomys jacksoni
+              colId: 4B7KN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B7KN
+            - name: Otomys uzungwensis
+              colId: 4B7LB
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B7LB
+            - name: Otomys dollmani
+              colId: 4B7KJ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B7KJ
+            - name: Otomys dartmouthi
+              colId: 4B7KF
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4B7KF
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 3 authored entries grouped under Otomyinae by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 4B7KH
+              name: Otomys denti
+              canonicalPath: content/nodes/COL%3A4B7KH
+            - colId: 4B7KR
+              name: Otomys laminatus
+              canonicalPath: content/nodes/COL%3A4B7KR
+            - colId: 4DSV6
+              name: Parotomys littledalei
+              canonicalPath: content/nodes/COL%3A4DSV6
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 4 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 4B7KH
+              name: Otomys denti
+              canonicalPath: content/nodes/COL%3A4B7KH
+            - colId: 4B7K7
+              name: Otomys angoniensis
+              canonicalPath: content/nodes/COL%3A4B7K7
+            - colId: 4B7KM
+              name: Otomys irroratus
+              canonicalPath: content/nodes/COL%3A4B7KM
+            - colId: 4DSV5
+              name: Parotomys brantsii
+              canonicalPath: content/nodes/COL%3A4DSV5
+          fieldAccountCounts:
+            gestation(mo): 1
+            newborn(g): 2
+            weaning(mo): 1
+            wean mass(g): 1
+            AFR(mo): 2
+            max. life(mo): 1
+            litter size: 3
+            litters/year: 1
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-57fe0c9015
+        part: body
+      en:
+        page: en
+        section: s-8f23e98ffc
+        part: body

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Julianus uruguayus
+  displayName: Julianus uruguayus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QS6L
+  sourceIndexes:
+    - name:
+        en: Julianus uruguayus
+        zh: Julianus uruguayus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QS6L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/82
+            queryName: Julianus uruguayus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/489
+            queryName: Hyla uruguaya
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/242
+            queryName: Scinax uruguayus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a7c6808654
+      - s-8a48f5f1df
+      - s-71bc149dae
+      - s-53d04fea6f
+      - s-465a23582b
+      - s-8783e70711
+      - s-314bad49b2
+      - s-3700498d30
+      - s-a7fa7375bc
+      - s-7fad6b74d7
+      - s-a1e5fe3d38
+      - s-eb2aed28f4
+    zh:
+      - s-65876bed10
+      - s-a5dd0405ee
+      - s-80e6a01347
+      - s-7fb2d8eb27
+      - s-a16854720f
+      - s-2b39dc0c63
+      - s-03aa3ada04
+      - s-237889ee55
+      - s-dccb815109
+      - s-23643669a8
+      - s-551077ab96
+      - s-da4b3bc4cd

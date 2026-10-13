@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allophryne
+  displayName: Allophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SH4
+  sourceIndexes:
+    - name:
+        en: Allophryne
+        zh: Allophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SH4
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/130
+            queryName: Allophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 20
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-816ff6fda4
+      - s-e28935d4c3
+      - s-bdc9678e4c
+      - s-77af49d84c
+      - s-a409ee88f4
+      - s-1e5ffaef01
+      - s-9c222fbc73
+      - s-04fcdf3c41
+      - s-7b3326df2e
+      - s-0311cbf787
+      - s-d362c31965
+      - s-c600371cd9
+      - s-f55ccfc0fe
+      - s-8c4f43defd
+    zh:
+      - s-6851ce6c65
+      - s-12b68ace7b
+      - s-040d3d3c32
+      - s-e3594d147c
+      - s-81a677c51e
+      - s-fec6f93183
+      - s-27157b62ec
+      - s-83d951f083
+      - s-564bc17d9a
+      - s-54af39bf44
+      - s-b48e0f66ae
+      - s-facc809b80
+      - s-f7efdf94b1
+      - s-05ecb06474

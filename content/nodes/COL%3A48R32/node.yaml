@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odontophrynus cultripes
+  displayName: Odontophrynus cultripes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48R32
+  sourceIndexes:
+    - name:
+        en: Odontophrynus cultripes
+        zh: Odontophrynus cultripes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48R32
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/484
+            queryName: Odontophrynus cultripes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/136
+            queryName: Pyxicephalus cultripes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/137
+            queryName: Ceratophrys cultripes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c535d57689
+      - s-58148e0e89
+      - s-602d39508d
+      - s-006cf19ff1
+      - s-f41806c13e
+      - s-f2b81dfbd1
+      - s-800a37b0cd
+      - s-1f4a7f2de6
+      - s-3369947d72
+      - s-f3ecf6c387
+      - s-86c90e0bcc
+      - s-46ec40f66b
+      - s-55f885d7e0
+      - s-e6ebb91b6d
+      - s-385f3495d1
+      - s-f6a93d5b32
+    zh:
+      - s-982712f667
+      - s-e7cf7ac132
+      - s-2e2ac32430
+      - s-f9d6ec6bcc
+      - s-eff06f473b
+      - s-b7ffa74b0a
+      - s-45063beb9a
+      - s-4dbd25a512
+      - s-7a6ffd8c96
+      - s-505b36f7d5
+      - s-230a16665a
+      - s-ddc606375c
+      - s-71f54526bb
+      - s-38c80a2256
+      - s-a8a9eff74c
+      - s-efce35b05f

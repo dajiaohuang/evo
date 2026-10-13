@@ -1,0 +1,205 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mixotoxodon larensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Mixotoxodon larensis
+      en: Mixotoxodon larensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b3fefa1fc5
+            part: body
+          en:
+            page: en
+            section: s-fc6baf2b33
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1107d48334
+            part: body
+          en:
+            page: en
+            section: s-5e2a2494bf
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-357455196b
+            part: body
+          en:
+            page: en
+            section: s-19e0808311
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ab90d1de57
+            part: body
+          en:
+            page: en
+            section: s-b93ad05932
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-de6b6c1f3d
+            part: body
+          en:
+            page: en
+            section: s-eef68bc49b
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Mixotoxodon larensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=96383&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:96383; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:96383
+          selectedOccurrenceIds:
+            - occ:600962
+            - occ:648832
+            - occ:799302
+            - occ:799310
+            - occ:1142796
+            - occ:1144582
+            - occ:1144606
+            - occ:1255780
+            - occ:1387567
+            - occ:1394893
+            - occ:1394903
+            - occ:1394913
+            - occ:1394993
+            - occ:1450127
+            - occ:1520818
+            - occ:1520830
+            - occ:1520836
+            - occ:1520857
+            - occ:1520909
+            - occ:1525783
+            - occ:1627631
+          selectedCollectionIds:
+            - col:63884
+            - col:70118
+            - col:86959
+            - col:71267
+            - col:145511
+            - col:145703
+            - col:145704
+            - col:71278
+            - col:190753
+            - col:63515
+            - col:192087
+            - col:192088
+            - col:192106
+            - col:144977
+            - col:189381
+            - col:189383
+            - col:71294
+            - col:212606
+            - col:212616
+            - col:213632
+            - col:230462
+          sourceReferenceIds:
+            - ref:18354
+            - ref:23537
+            - ref:12164
+            - ref:37161
+            - ref:47096
+            - ref:54381
+            - ref:3575
+            - ref:64953
+            - ref:64959
+            - ref:64961
+            - ref:64974
+            - ref:69333
+            - ref:73427
+            - ref:73767
+            - ref:85081
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e6d080be91
+        part: body
+      en:
+        page: en
+        section: s-cbeafd2bf4
+        part: body

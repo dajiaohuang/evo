@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger tuberculatus
+  displayName: Scutiger tuberculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W38C
+  sourceIndexes:
+    - name:
+        en: Scutiger tuberculatus
+        zh: Scutiger tuberculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W38C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/166
+            queryName: Scutiger tuberculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d0fef8a3d8
+      - s-c0fcad340a
+      - s-cb26679d61
+      - s-fc3dc311f3
+      - s-d99ceddd42
+      - s-fbb717125c
+      - s-573834aafe
+      - s-b515c66bf4
+      - s-2631bbcc80
+      - s-d688031d56
+    zh:
+      - s-a4dd252b42
+      - s-2fa2ea3598
+      - s-d422e372c8
+      - s-c7584ab3c9
+      - s-906bb48867
+      - s-1f5c75f919
+      - s-a8db041c70
+      - s-f2af6f5925
+      - s-eaa8ccd65c
+      - s-ddb66b667b

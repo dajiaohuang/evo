@@ -1,0 +1,648 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Limnonectes blythii (Boulenger, 1920)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Limnonectes blythii
+      zh: Limnonectes blythii
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d165f40cba
+            part: title
+          zh:
+            page: zh
+            section: s-b0b48bcf20
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d165f40cba
+            part: body
+          zh:
+            page: zh
+            section: s-b0b48bcf20
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-73c5f31278
+            part: title
+          zh:
+            page: zh
+            section: s-1e12dce5a7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-73c5f31278
+            part: body
+          zh:
+            page: zh
+            section: s-1e12dce5a7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8063d90ba6
+            part: title
+          zh:
+            page: zh
+            section: s-c0a091cbdc
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-8063d90ba6
+            part: body
+          zh:
+            page: zh
+            section: s-c0a091cbdc
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-80503177b9
+            part: title
+          zh:
+            page: zh
+            section: s-5eaf824bfe
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+          - Vert
+        text:
+          en:
+            page: en
+            section: s-80503177b9
+            part: body
+          zh:
+            page: zh
+            section: s-5eaf824bfe
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1d274c4f27
+            part: title
+          zh:
+            page: zh
+            section: s-aafb096d64
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-1d274c4f27
+            part: body
+          zh:
+            page: zh
+            section: s-aafb096d64
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0027a408a8
+            part: title
+          zh:
+            page: zh
+            section: s-3099878159
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-0027a408a8
+            part: body
+          zh:
+            page: zh
+            section: s-3099878159
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-6293193591
+            part: title
+          zh:
+            page: zh
+            section: s-a4000ea62b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Size_at_maturity_min_mm
+          - Size_at_maturity_max_mm
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-6293193591
+            part: body
+          zh:
+            page: zh
+            section: s-a4000ea62b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-802a02c33a
+            part: title
+          zh:
+            page: zh
+            section: s-937a86cad1
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-802a02c33a
+            part: body
+          zh:
+            page: zh
+            section: s-937a86cad1
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0f3cef9386
+            part: title
+          zh:
+            page: zh
+            section: s-1993b78fea
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-0f3cef9386
+            part: body
+          zh:
+            page: zh
+            section: s-1993b78fea
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-4b4e09591ff1e29590ad119e536db156
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-30737357df2b092554d4508e
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-df7e2926e3
+            part: title
+          zh:
+            page: zh
+            section: s-d3127cc6c7
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1340"
+        text:
+          en:
+            page: en
+            section: s-df7e2926e3
+            part: body
+          zh:
+            page: zh
+            section: s-d3127cc6c7
+            part: body
+        sourceRowNumber: 1191
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f2eaea56ab
+            part: title
+          zh:
+            page: zh
+            section: s-82fb8a0e9b
+            part: title
+        sourceIds:
+          - primary-pmc11283625-6qdjb
+        text:
+          en:
+            page: en
+            section: s-f2eaea56ab
+            part: body
+          zh:
+            page: zh
+            section: s-82fb8a0e9b
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-66ddeb3ea2
+            part: title
+          zh:
+            page: zh
+            section: s-c415a9b026
+            part: title
+        sourceIds:
+          - primary-pmc10793111-6qdjb
+        text:
+          en:
+            page: en
+            section: s-66ddeb3ea2
+            part: body
+          zh:
+            page: zh
+            section: s-c415a9b026
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-f3968dc3a6
+            part: title
+          zh:
+            page: zh
+            section: s-3846370237
+            part: title
+        sourceIds:
+          - primary-pmc10793111-6qdjb
+        text:
+          en:
+            page: en
+            section: s-f3968dc3a6
+            part: body
+          zh:
+            page: zh
+            section: s-3846370237
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6692e8c4db
+            part: title
+          zh:
+            page: zh
+            section: s-beaf20bd5e
+            part: title
+        sourceIds:
+          - primary-pmc10793111-6qdjb
+        text:
+          en:
+            page: en
+            section: s-6692e8c4db
+            part: body
+          zh:
+            page: zh
+            section: s-beaf20bd5e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Limnonectes blythii
+          url: https://www.checklistbank.org/dataset/316115/taxon/6QDJB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1678; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1678 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 1191; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc11283625-6qdjb
+        referenceId: ref-811cbd43-eb8a-423f-a96c-560b0457b5ba
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Limnonectes blythii: Species Notes and Distribution paragraphs from the Ko Pha-ngan island survey; reported detections are not standardized density or unique marked individuals; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10793111-6qdjb
+        referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Limnonectes blythii: XML Materials and methods, Results Tables 1–2, Discussion subsections and Conclusions read; original supplementary cross-site spreadsheet, encounter sheets, photographs and individual vouchers not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e7d34ce659
+        part: body
+      zh:
+        page: zh
+        section: s-4b4f6d65e3
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-4b4e09591ff1e29590ad119e536db156
+      sourceRowId: Anf1678
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf1678
+        bibliographyRowId: Anf1678
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Limnonectes blythii
+        candidateBibliographyRowIds:
+          - Anf1678
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-30737357df2b092554d4508e
+        scientificName: Limnonectes blythii
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1207.116758
+        referenceId: ref-811cbd43-eb8a-423f-a96c-560b0457b5ba
+        sourceKey: primary-pmc11283625-6qdjb
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11283625/article.xml
+        sourceConcept: Limnonectes blythii
+        evidenceRead: "Limnonectes blythii: Species Notes and Distribution paragraphs from the Ko Pha-ngan island survey; reported detections are not standardized density or unique marked individuals; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Riverbanks, pond edges and rocky channels
+              zh: 河岸、塘边及岩石河道
+            referenceId: ref-811cbd43-eb8a-423f-a96c-560b0457b5ba
+            sourceKey: primary-pmc11283625-6qdjb
+            locator: "Limnonectes blythii: Species Notes and Distribution paragraphs from the Ko Pha-ngan island survey; reported detections are not standardized density or unique marked individuals; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-778b361a41
+                part: body
+              zh:
+                page: zh
+                section: s-f4901481f7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/BDJ.12.e108476
+        referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+        sourceKey: primary-pmc10793111-6qdjb
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10793111/article.xml
+        sourceConcept: 2024 source-labelled Limnonectes blythii, nomenclature following Frost 2023, Gunung Belumut survey
+        evidenceRead: "Limnonectes blythii: XML Materials and methods, Results Tables 1–2, Discussion subsections and Conclusions read; original supplementary cross-site spreadsheet, encounter sheets, photographs and individual vouchers not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: An effort-bounded Gunung Belumut survey record
+              zh: 取样投入有限的 Gunung Belumut 调查记录
+            referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+            sourceKey: primary-pmc10793111-6qdjb
+            locator: PMC10793111 XML Herpetofauna Sampling and Collection; Results Table 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-91dff000e4
+                part: body
+              zh:
+                page: zh
+                section: s-fc05c14e09
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: The dominant count differs between the table and Discussion
+              zh: 优势计数在表格与讨论之间不同
+            referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+            sourceKey: primary-pmc10793111-6qdjb
+            locator: PMC10793111 XML Results Table 1; Discussion Herpetofauna diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3f4d869fa7
+                part: body
+              zh:
+                page: zh
+                section: s-d6877eb37e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Forest streams and forest-floor use are cited natural history
+              zh: 森林溪流及林地利用为被引自然史
+            referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+            sourceKey: primary-pmc10793111-6qdjb
+            locator: PMC10793111 XML Discussion Herpetofauna diversity blythii paragraph
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-668d18df19
+                part: body
+              zh:
+                page: zh
+                section: s-54ef7e377a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

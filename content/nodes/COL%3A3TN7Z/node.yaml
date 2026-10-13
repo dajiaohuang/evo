@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus spixi
+  displayName: Leptodactylus spixi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN7Z
+  sourceIndexes:
+    - name:
+        en: Leptodactylus spixi
+        zh: Leptodactylus spixi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN7Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/438
+            queryName: Leptodactylus spixi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ef22c9d14
+      - s-023e7c7cd0
+      - s-e447926c8b
+      - s-079d705db5
+      - s-177c4a4dc4
+      - s-0e8ed2645b
+      - s-e5a4859886
+      - s-0fdee7fd70
+      - s-a74c639cc3
+      - s-43fd462b06
+      - s-9053caf269
+      - s-669d7ecead
+      - s-6b77b66140
+      - s-78caa8b248
+      - s-fe352708d6
+      - s-22b42eac30
+    zh:
+      - s-aa74145a0a
+      - s-6fbf929915
+      - s-edac1e78c6
+      - s-77710e534e
+      - s-1257b3d3fc
+      - s-bdcb6221af
+      - s-892a34535d
+      - s-b6afc17705
+      - s-6065cb6b45
+      - s-3a903bcd55
+      - s-33f0fcfeb3
+      - s-381340f623
+      - s-3c6f483c4f
+      - s-b8fcd40d2a
+      - s-8e7b06d6f3
+      - s-92722a1906

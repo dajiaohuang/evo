@@ -1,0 +1,12 @@
+## TadpoleTraits classification for Scutiger feiliangi {#s-7f26ae9848}
+TadpoleTraits version 4 places Scutiger feiliangi in Scutiger (Megophryidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names none recorded. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 0 literature rows and 1 image row {#s-f82e5cdb70}
+TadpoleTraits version 4 links 0 literature rows and 1 image row to Scutiger feiliangi. Source row numbers — literature: none recorded; image: 1746. Populated measurement fields — literature: none recorded; image: TL, BL, TaL, BMH, MTH, TMH, DFH, VFH, BMW, TMW, OD, BL/TL, TaL/TL, BMH/TL, MTH/TL, TMH/TL, DFH/TL, VFH/TL, BMW/TL, TMW/TL, OD/TL. Literature rows have no Stage value. Image row 1746: Stage 36. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+
+## Image proportions from row 1746 {#s-839d55e8e0}
+Selected image entries: BL/TL (body length / total length) = 0.272970 (source row 1746; Stage 36; type Measurement; image type Color image); BMH/TL (maximum body height / total length) = 0.125846 (source row 1746; Stage 36; type Measurement; image type Color image); MTH/TL (maximum tail height / total length) = 0.155282 (source row 1746; Stage 36; type Measurement; image type Color image); BMW/TL (maximum body width / total length) = 0.195338 (source row 1746; Stage 36; type Measurement; image type Color image). Each is a dimensionless ratio of the labelled feature to total length, displayed to six decimal places. Recorded image types: Color image. These values describe proportions in the listed source images, not variation across a wild population.
+
+## 6 image ratio fields flagged for review {#s-1a51e5caa7}
+TadpoleTraits version 4 flags 6 image-ratio fields: each supplied ratio differs by more than 0.001 from the same row’s numerator divided by total length. Flagged fields: TaL/TL (row 1746), TMH/TL (row 1746), DFH/TL (row 1746), VFH/TL (row 1746), TMW/TL (row 1746), OD/TL (row 1746). The source cells remain unchanged; these ratios are unresolved and are not used as reader measurements pending source review.
+

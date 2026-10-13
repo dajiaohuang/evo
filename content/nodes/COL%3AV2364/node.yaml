@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus formosus
+  displayName: Melanophryniscus formosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V2364
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus formosus
+        zh: Melanophryniscus formosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V2364
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/390
+            queryName: Melanophryniscus formosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/438
+            queryName: Melanophryniscus dorsalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/223
+            queryName: Dendrophryniscus stelzneri dorsalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/224
+            queryName: Melanophryniscus stelzneri dorsalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/124
+            queryName: Atelopus formosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-07ce159c9e
+      - s-645f70e00e
+      - s-b1108277b8
+      - s-963b0831b3
+      - s-aa00f8e8dc
+      - s-69343f413d
+      - s-cd97e6f79e
+      - s-ba6fdea554
+      - s-3542ef80b7
+      - s-cde6f04ec5
+      - s-1648e8cae2
+      - s-5792da8c09
+      - s-ac3d515258
+    zh:
+      - s-895d0e7765
+      - s-dcb15c862e
+      - s-fe97ca241f
+      - s-a27a954c50
+      - s-13f67aa26f
+      - s-e026a5bcb2
+      - s-7c8bbd1262
+      - s-552066a12f
+      - s-2b08b86035
+      - s-ba202afb37
+      - s-df81d4fdc1
+      - s-156202a7b9
+      - s-bde5ca6f80

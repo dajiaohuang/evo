@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus lithonaetes
+  displayName: Leptodactylus lithonaetes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN5T
+  sourceIndexes:
+    - name:
+        en: Leptodactylus lithonaetes
+        zh: Leptodactylus lithonaetes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN5T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/405
+            queryName: Leptodactylus lithonaetes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-57e58e75b2
+      - s-2ba5f81006
+      - s-960a2f0a9f
+      - s-4a7da0865b
+      - s-1a14fa72ad
+      - s-86c46d4ff6
+      - s-5a9ff5ad75
+      - s-8e6f44e9dc
+      - s-e03f50a01c
+      - s-b0aade6dcf
+      - s-a6ead36b3b
+      - s-11a6060e82
+      - s-5b6da184b8
+    zh:
+      - s-d4d45711b5
+      - s-f7f27aa798
+      - s-f8941e46b5
+      - s-86e7207dac
+      - s-b6e745322f
+      - s-5ca002c135
+      - s-d45c3d5815
+      - s-3d587e4d70
+      - s-f957412fc5
+      - s-30acdfbb9f
+      - s-2a4caacb5f
+      - s-e2cd83de63
+      - s-a25db012df

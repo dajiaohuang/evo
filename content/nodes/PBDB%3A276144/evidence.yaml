@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eorasaurus olsoni
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Eorasaurus olsoni
+      en: Eorasaurus olsoni
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f86da0ebdf
+            part: body
+          en:
+            page: en
+            section: s-82215778a0
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fad03f31d4
+            part: body
+          en:
+            page: en
+            section: s-2f50371a5a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-18325da648
+            part: body
+          en:
+            page: en
+            section: s-e6b97c3df3
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-46040593e5
+            part: body
+          en:
+            page: en
+            section: s-fb49d9e741
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c60cec8f11
+            part: body
+          en:
+            page: en
+            section: s-410f01f1fd
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Eorasaurus olsoni
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=276144&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:276144; original response record indices retained in data/sources/other-reptilia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:276144
+          selectedOccurrenceIds:
+            - occ:1163740
+          selectedCollectionIds:
+            - col:80712
+          sourceReferenceIds:
+            - ref:47937
+          originalIdentificationMappings:
+            - occurrenceId: occ:1163740
+              originalIdentifiedName: Eorasaurus olsoni n. gen. n. sp.
+              acceptedName: Eorasaurus olsoni
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-dd2cc7cfe5
+        part: body
+      en:
+        page: en
+        section: s-619b891d57
+        part: body

@@ -1,0 +1,784 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Bolitoglossa equatoriana Brame & Wake, 1972
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Bolitoglossa equatoriana
+      zh: Bolitoglossa equatoriana
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-61d950657f
+            part: title
+          zh:
+            page: zh
+            section: s-6a8fbad9f1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-61d950657f
+            part: body
+          zh:
+            page: zh
+            section: s-6a8fbad9f1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3cc9f1fe6f
+            part: title
+          zh:
+            page: zh
+            section: s-9607ccd798
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3cc9f1fe6f
+            part: body
+          zh:
+            page: zh
+            section: s-9607ccd798
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-62d87d6544
+            part: title
+          zh:
+            page: zh
+            section: s-13eb3db2d5
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-62d87d6544
+            part: body
+          zh:
+            page: zh
+            section: s-13eb3db2d5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c25a037b62
+            part: title
+          zh:
+            page: zh
+            section: s-5deaec1018
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-c25a037b62
+            part: body
+          zh:
+            page: zh
+            section: s-5deaec1018
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-abc234acdf
+            part: title
+          zh:
+            page: zh
+            section: s-eb922122fd
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dry_warm
+        text:
+          en:
+            page: en
+            section: s-abc234acdf
+            part: body
+          zh:
+            page: zh
+            section: s-eb922122fd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-73177b22cb
+            part: title
+          zh:
+            page: zh
+            section: s-bf56b1e6ba
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-73177b22cb
+            part: body
+          zh:
+            page: zh
+            section: s-bf56b1e6ba
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-744b8bcfc7
+            part: title
+          zh:
+            page: zh
+            section: s-69167bc983
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-744b8bcfc7
+            part: body
+          zh:
+            page: zh
+            section: s-69167bc983
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-f182bcf156
+            part: title
+          zh:
+            page: zh
+            section: s-4e2ebd28f7
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-f182bcf156
+            part: body
+          zh:
+            page: zh
+            section: s-4e2ebd28f7
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-09b7078786
+            part: title
+          zh:
+            page: zh
+            section: s-f137baf652
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-09b7078786
+            part: body
+          zh:
+            page: zh
+            section: s-f137baf652
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-128d2da23b7c19b6d7fbb489202e4e8c
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-d3fcd6f51ac28320c45fec17
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-779443660f
+            part: title
+          zh:
+            page: zh
+            section: s-f80a895e0f
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-779443660f
+            part: body
+          zh:
+            page: zh
+            section: s-f80a895e0f
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-e1ac5007da
+            part: title
+          zh:
+            page: zh
+            section: s-f44d05ebd0
+            part: title
+        sourceIds:
+          - primary-pmc13024529-mdpc
+        text:
+          en:
+            page: en
+            section: s-e1ac5007da
+            part: body
+          zh:
+            page: zh
+            section: s-f44d05ebd0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3d529963b1
+            part: title
+          zh:
+            page: zh
+            section: s-93de1ba67f
+            part: title
+        sourceIds:
+          - primary-pmc13024529-mdpc
+        text:
+          en:
+            page: en
+            section: s-3d529963b1
+            part: body
+          zh:
+            page: zh
+            section: s-93de1ba67f
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-642b5f79d5
+            part: title
+          zh:
+            page: zh
+            section: s-1de02c8248
+            part: title
+        sourceIds:
+          - primary-pmc13024529-mdpc
+        text:
+          en:
+            page: en
+            section: s-642b5f79d5
+            part: body
+          zh:
+            page: zh
+            section: s-1de02c8248
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c2e2ade247
+            part: title
+          zh:
+            page: zh
+            section: s-3da2272e67
+            part: title
+        sourceIds:
+          - primary-pmc13024529-mdpc
+          - primary-pmc13024529-mdpc-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-c2e2ade247
+            part: body
+          zh:
+            page: zh
+            section: s-3da2272e67
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1240e30b21
+            part: title
+          zh:
+            page: zh
+            section: s-dd19f60393
+            part: title
+        sourceIds:
+          - primary-pmc13215752-mdpc
+        text:
+          en:
+            page: en
+            section: s-1240e30b21
+            part: body
+          zh:
+            page: zh
+            section: s-dd19f60393
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-467dac63a1
+            part: title
+          zh:
+            page: zh
+            section: s-7a4a2dceea
+            part: title
+        sourceIds:
+          - primary-pmc13215752-mdpc
+        text:
+          en:
+            page: en
+            section: s-467dac63a1
+            part: body
+          zh:
+            page: zh
+            section: s-7a4a2dceea
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-df9ea5a03f
+            part: title
+          zh:
+            page: zh
+            section: s-af6b90b117
+            part: title
+        sourceIds:
+          - primary-pmc13215752-mdpc
+        text:
+          en:
+            page: en
+            section: s-df9ea5a03f
+            part: body
+          zh:
+            page: zh
+            section: s-af6b90b117
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Bolitoglossa equatoriana
+          url: https://www.checklistbank.org/dataset/316115/taxon/MDPC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6119; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6114 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 55, 56; Reference.csv rows 4283
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13024529-mdpc
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Bolitoglossa equatoriana: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc13024529-mdpc-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 dataset316115 usageMDP9 Bolitoglossa ecuatoriana acceptedMDPC; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13024529/col26.8-name-bridges.json
+          scope:
+            en: Recorded nomenclatural relation only; source occurrence/specimens and concepts uncertified.
+            zh: 仅所记命名关系；来源出现/标本及概念未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc13024529-mdpc-catalogue-alias
+      - id: primary-pmc13215752-mdpc
+        referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Bolitoglossa equatoriana: XML sec2-1 bibliographic methods, sec2-2 host nomenclature/complexes, sec2-3 geographical definitions; all sec3 numbered species headings, host/locality paragraphs, molecular metadata, citations and remarks through row333; sec4-1–sec4-3 discussion inspected. Figures only captions inspected; supplementary Table S1 not retrieved/read. Original cited reports, vouchers, sequences and experimental life-cycle studies not independently reassessed. Source totals contain internal inconsistencies; no full-article certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-53544114de
+        part: body
+      zh:
+        page: zh
+        section: s-131a258f71
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-128d2da23b7c19b6d7fbb489202e4e8c
+      sourceRowId: Anf6119
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6119
+        bibliographyRowId: Anf6114
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Bolitoglossa gomezi
+        candidateBibliographyRowIds:
+          - Anf6114
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-d3fcd6f51ac28320c45fec17
+        scientificName: Bolitoglossa equatoriana
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/biology15060451
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        sourceKey: primary-pmc13024529-mdpc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13024529/article.xml
+        sourceConcept: 2013–2018 source-labelled Bolitoglossa ecuatoriana nominal row in2026paper; Pristimantis identification contradiction retained where relevant, not certified vouchers/concepts
+        evidenceRead: "Bolitoglossa equatoriana: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Historical local survey records are distinct from a current provincial census
+              zh: 历史地方调查记录区别于当前全省普查
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-mdpc
+            locator: PMC13024529 XML Table2 bodyrow61 Bolitoglossa ecuatoriana; Methods2.1–2.3; Results opening
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-19308f9419
+                part: body
+              zh:
+                page: zh
+                section: s-e63eabfe26
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A source-assigned risk category retains its assessment limits
+              zh: 来源分配风险类别保留评估限制
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-mdpc
+            locator: PMC13024529 XML Table2 bodyrow61 LC/Total columns; Methods2.5; Results3.4; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1f062586c4
+                part: body
+              zh:
+                page: zh
+                section: s-1d602a7fae
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Coverage and community turnover do not prove a species trend
+              zh: 覆盖及群落更替不证明物种趋势
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-mdpc
+            locator: PMC13024529 XML Methods2.2/2.4.1/2.4.3/2.4.5; Table1; Results3.1/3.3; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c3098dad55
+                part: body
+              zh:
+                page: zh
+                section: s-de1ba052eb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: An exact catalogue usage links the source name to this page
+              zh: 精确目录用法链接来源名称至本页
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-mdpc
+            locator: PMC13024529 XML Table2 row61; COL26.8 usageMDP9 acceptedMDPC; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13024529/col26.8-name-bridges.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f20d53a7f0
+                part: body
+              zh:
+                page: zh
+                section: s-1de8a8f113
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1017/S0031182025101364
+        referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+        sourceKey: primary-pmc13215752-mdpc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13215752/article.xml
+        sourceConcept: Exact written host-name match only; compiled historical records not original-voucher/current-concept authentication
+        evidenceRead: "Bolitoglossa equatoriana: XML sec2-1 bibliographic methods, sec2-2 host nomenclature/complexes, sec2-3 geographical definitions; all sec3 numbered species headings, host/locality paragraphs, molecular metadata, citations and remarks through row333; sec4-1–sec4-3 discussion inspected. Figures only captions inspected; supplementary Table S1 not retrieved/read. Original cited reports, vouchers, sequences and experimental life-cycle studies not independently reassessed. Source totals contain internal inconsistencies; no full-article certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Original bilingual factual summaries of a bibliographic parasite checklist, with exact host-entry locators and historical identity limits; no source tables or figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Molineid nematodes in a regional literature checklist
+              zh: 区域文献清单中的毛圆线虫关联
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-mdpc
+            locator: PMC13215752 XML sec3 direct-child rows 66; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c97b0b5125
+                part: body
+              zh:
+                page: zh
+                section: s-48fdf887e7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Reported parasite localities and their limits
+              zh: 寄生记录地点及其限制
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-mdpc
+            locator: PMC13215752 XML sec3 direct-child rows 66; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0e71e4eb40
+                part: body
+              zh:
+                page: zh
+                section: s-7945b44c3b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: What the bibliographic survey can establish
+              zh: 文献调查能支持什么结论
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-mdpc
+            locator: PMC13215752 XML sec2-1–sec2-3; PMC13215752 XML sec3 direct-child rows 66; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c8550cb678
+                part: body
+              zh:
+                page: zh
+                section: s-5d6cb62bfa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

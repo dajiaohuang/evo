@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus arildae
+  displayName: Aplastodiscus arildae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNMM
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus arildae
+        zh: Aplastodiscus arildae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNMM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/82
+            queryName: Aplastodiscus arildae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/263
+            queryName: Hyla arildae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/452
+            queryName: Boana arildae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-825d2cb171
+      - s-0b1c8ab1c7
+      - s-5603cb227b
+      - s-52fb104134
+      - s-b93407f00a
+      - s-96baabbeea
+      - s-230425c109
+      - s-3132131346
+      - s-45938d0de3
+      - s-9d0ce7ef96
+      - s-efb74294cd
+      - s-13d254e582
+      - s-429e02eaff
+      - s-43a8131ad0
+      - s-51b07b4567
+      - s-1dffd1d37f
+    zh:
+      - s-afa7eceac0
+      - s-1e836031c2
+      - s-c8b70ed8ee
+      - s-1b95d82ef7
+      - s-a586df207f
+      - s-34a3ca222c
+      - s-92218c07b9
+      - s-98dc649b23
+      - s-cb161b09fd
+      - s-b258872654
+      - s-5dd9c901f9
+      - s-ab8ca20d61
+      - s-6069b4b3ab
+      - s-78de493ead
+      - s-d63f5cb69c
+      - s-5b180251a0

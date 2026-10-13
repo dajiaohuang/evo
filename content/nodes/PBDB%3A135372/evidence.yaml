@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Shelania pascuali
+    rank: species
+    sourceTaxonId: txn:135372
+    name:
+      en: Shelania pascuali
+      zh: Shelania pascuali
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-c5eb1ad154
+            part: body
+          zh:
+            page: zh
+            section: s-e9e9fe0eb0
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-b4adfc233c
+            part: body
+          zh:
+            page: zh
+            section: s-01976d89ce
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-a3250dd4e0
+            part: body
+          zh:
+            page: zh
+            section: s-9f3a641605
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:135372; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. M. Baez and L. A. Pugener. 1998. A new Paleogene pipid frog from northwestern Patagonia. Journal of Vertebrate Paleontology 18(3):511-524
+    occurrenceEvidence:
+      - occurrenceId: occ:832129
+        collectionId: col:92117
+        acceptedTaxonId: txn:135372
+        identifiedName: Shelania pascuali n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:31028
+        bibliography: A. M. Baez and L. Trueb. 1997. Redescription of the Paleogene Shelania pascuali from Patagonia and its bearing on the relationships of fossil and Recent pipoid frogs. Scientific Papers, Natural History Museum, University of Kansas 4:1-41
+        locality:
+          countryCode: AR
+          stateProvince: Chubut
+          county: null
+        stratigraphy:
+          group: null
+          formation: Laguna del Hunco
+          member: null
+        olderAgeMa: 48.07
+        youngerAgeMa: 41.03
+      - occurrenceId: occ:832130
+        collectionId: col:92118
+        acceptedTaxonId: txn:135372
+        taxonomicDifference: null
+        referenceId: ref:31028
+        bibliography: A. M. Baez and L. Trueb. 1997. Redescription of the Paleogene Shelania pascuali from Patagonia and its bearing on the relationships of fossil and Recent pipoid frogs. Scientific Papers, Natural History Museum, University of Kansas 4:1-41
+        locality:
+          countryCode: AR
+          stateProvince: Chubut
+          county: null
+        stratigraphy:
+          group: null
+          formation: Laguna del Hunco
+          member: null
+        olderAgeMa: 48.07
+        youngerAgeMa: 41.03
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-a3250dd4e0
+            part: body
+          zh:
+            page: zh
+            section: s-9f3a641605
+            part: body
+        sourceIds: []

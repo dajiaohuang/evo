@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Myiodynastes chrysocephalus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Myiodynastes chrysocephalus
+      en: Myiodynastes chrysocephalus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-ab164a9dcc
+            part: body
+          en:
+            page: en
+            section: s-420830b39d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-ab8fca8956
+            part: body
+          en:
+            page: en
+            section: s-9b6397c4ce
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-55a18ce1b7
+            part: body
+          en:
+            page: en
+            section: s-ee7774abc3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Myiodynastes chrysocephalus
+          url: https://www.checklistbank.org/dataset/316115/taxon/452TF
+          locator: Pinned accepted name, class, family and ancestry; historical concept equivalence not established.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 4275; Scientific=Myiodynastes chrysocephalus; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_9
+                  verbatim: Handbook of the Birds of the World vol.9.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              certainty: A
+          withheldFieldGroups:
+            - group: foraging
+              reason: not species-level or source/category support unavailable
+              speciesLevel: "1"
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          readerFieldCautions:
+            - fieldGroup: foraging
+              sourceCode: "1"
+              reason: not species-level or source/category support unavailable
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-74a78b2391
+        part: body
+      en:
+        page: en
+        section: s-dfed43bcb1
+        part: body

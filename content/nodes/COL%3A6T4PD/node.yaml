@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreobates madidi
+  displayName: Oreobates madidi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T4PD
+  sourceIndexes:
+    - name:
+        en: Oreobates madidi
+        zh: Oreobates madidi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T4PD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/203
+            queryName: Oreobates madidi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/313
+            queryName: Eleutherodactylus madidi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d526b2a0f
+      - s-e4441ee103
+      - s-e6090e4897
+      - s-a65c242ea2
+      - s-6f4d378feb
+      - s-5e0abb8172
+      - s-576483c758
+      - s-b1714f54c5
+      - s-3043e44120
+    zh:
+      - s-0c51b5f16a
+      - s-1c6a92a841
+      - s-a17de3cdfc
+      - s-4d410b018b
+      - s-6c4bdfe01a
+      - s-0041ef11b8
+      - s-ceae5042db
+      - s-ae41c8fa89
+      - s-84dc190779

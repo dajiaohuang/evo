@@ -1,0 +1,286 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bombyx mori Linnaeus, 1758
+    authorship: Linnaeus, 1758
+    rank: species
+    sourceDatasetId: "55434"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: COL26.8 accepted species usage MGPB. The evidence concerns cocoon properties of a laboratory-reared domesticated silkworm strain experiment, not wild populations.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: No wild silkworm population was studied.
+      domesticated: The experiment used domesticated Bombyx mori larvae from one four-way polyhybrid cross.
+      captive: Larvae were maintained under controlled laboratory rearing conditions; exact experiment location and dates were not reported by the cited locator.
+      fossil: No fossil evidence or geological age was assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 55434
+          url: https://www.checklistbank.org/dataset/316115/taxon/MGPB
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:MGPB@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage MGPB; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage MGPB. https://doi.org/10.48580/dgywk
+      - id: offord2016
+        referenceId: ref-0c46d701-a747-8835-a5df-2ff87f5f2d78
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - licenseVersion
+          - licenseUrl
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Repository item record identifies the article as CC BY 4.0.
+          licenseAppliesTo: Article text under the repository's item-level CC BY 4.0 record; separately credited third-party material is excluded. No figures are reused.
+          stableId: doi:10.1007/s10853-016-0298-5
+          locator: Abstract; Methods, silkworm rearing and experimental design; Results on cocoon morphology and mechanical properties; Fig. 1.
+          attribution: Offord C., Vollrath F., Holland C. (2016). Journal of Materials Science 51:10863–10872. https://doi.org/10.1007/s10853-016-0298-5. CC BY 4.0. Claims paraphrased; no figures reused.
+          accessedAt: 2026-09-25
+          licenseAssessment: item-level-verified
+          scope: One primary source supports a bounded claim only; article text is paraphrased and no figures or tables are reused.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: In a controlled experiment on spinning Bombyx mori, temperature treatments affected cocoon morphology, stiffness, and strength, while relative humidity affected cocoon colouration. These are measured outcomes for the tested laboratory-reared silkworm groups, not species-wide or wild-population estimates.
+            locator: Abstract; Methods, silkworm rearing and experimental design; Results on cocoon morphology and mechanical properties; Fig. 1.
+            placeTimeScope: Ninety larvae from one four-way polyhybrid cross were assigned to nine temperature and humidity groups. The article does not report the experiment's location or dates in the cited methods locator.
+            lifeStatus: Captive laboratory rearing of domesticated Bombyx mori larvae; no wild silkworms were studied.
+            sourceIds:
+              - offord2016
+            originalLanguage: en
+        gaps:
+          - One laboratory cross and controlled environmental treatments do not establish species-wide cocoon variation across strains or wild populations.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for lifeHistory.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for ecology.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for evolution.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for distribution.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for fossil.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for conservation.
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: RT
+        scientificName: Arthropoda
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: L2655
+        scientificName: Hexapoda
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: H6
+        scientificName: Insecta
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: B6L67
+        scientificName: Lepidoptera Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "55434"
+      - id: 4V9
+        scientificName: Bombycoidea
+        authorship: null
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "55434"
+      - id: 622GK
+        scientificName: Bombycidae
+        authorship: null
+        rank: family
+        status: accepted
+        sourceDatasetId: "55434"
+      - id: 93MS4
+        scientificName: Bombycinae
+        authorship: null
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "55434"
+      - id: 923XG
+        scientificName: Bombyx Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: genus
+        status: accepted
+        sourceDatasetId: "55434"
+      - id: MGPB
+        scientificName: Bombyx mori Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: species
+        status: accepted
+        sourceDatasetId: "55434"
+  catalogue-profile:
+    scientificName: Bombyx mori Linnaeus, 1758
+    rank: species
+    sourceDatasetId: "55434"
+    name:
+      en: Bombyx mori
+      zh: Bombyx mori
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 55434
+          url: https://www.checklistbank.org/dataset/316115/taxon/MGPB
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:MGPB@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage MGPB; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage MGPB. https://doi.org/10.48580/dgywk
+      - id: offord2016
+        referenceId: ref-0c46d701-a747-8835-a5df-2ff87f5f2d78
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - licenseVersion
+          - licenseUrl
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Repository item record identifies the article as CC BY 4.0.
+          licenseAppliesTo: Article text under the repository's item-level CC BY 4.0 record; separately credited third-party material is excluded. No figures are reused.
+          stableId: doi:10.1007/s10853-016-0298-5
+          locator: Abstract; Methods, silkworm rearing and experimental design; Results on cocoon morphology and mechanical properties; Fig. 1.
+          attribution: Offord C., Vollrath F., Holland C. (2016). Journal of Materials Science 51:10863–10872. https://doi.org/10.1007/s10853-016-0298-5. CC BY 4.0. Claims paraphrased; no figures reused.
+          accessedAt: 2026-09-25
+          licenseAssessment: item-level-verified
+          scope: One primary source supports a bounded claim only; article text is paraphrased and no figures or tables are reused.
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-efff399d2e
+            part: title
+          zh:
+            page: zh
+            section: s-1ed86ef8c6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-efff399d2e
+            part: body
+          zh:
+            page: zh
+            section: s-1ed86ef8c6
+            part: body
+        sourceIds:
+          - offord2016
+        locator: Abstract; Methods, silkworm rearing and experimental design; Results on cocoon morphology and mechanical properties; Fig. 1.
+        evidenceAssessment: partially-supported

@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Mantidactylus delormei
+    name:
+      en: Mantidactylus delormei
+      zh: Mantidactylus delormei
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Mantidactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Mantidactylus delormei in the version 3 classification
+          zh: Mantidactylus delormei 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cfdec38902
+            part: body
+          zh:
+            page: zh
+            section: s-b2985b7bfb
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 11 populated trait fields
+          zh: 1 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d9594d78a7
+            part: body
+          zh:
+            page: zh
+            section: s-1cffa94787
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3016; Reference.csv rows 732
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3016
+        values:
+          - Mantellidae
+          - Mantidactylus
+          - Mantidactylus delormei
+          - F
+          - "38.9"
+          - "14.5"
+          - "12"
+          - "4.2"
+          - "2.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - "2.7"
+          - "11.7"
+          - NA
+          - "21.3"
+          - "25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "69.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 732
+        values:
+          - Anura
+          - Mantidactylus_delormei
+          - "Vences, M., & Glaw, F. (2004). Revision of the subgenus Chonomantis(Anura: Mantellidae:Mantidactylus) from Madagascar, with description of two new species. Journal of Natural History, 38(1), 77-118. https://doi.org/10.1080/0022293021000010331"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3XWDH
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus baxteri
+  displayName: Anaxyrus baxteri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DK9V
+  sourceIndexes:
+    - name:
+        en: Anaxyrus baxteri
+        zh: Anaxyrus baxteri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DK9V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/429
+            queryName: Anaxyrus baxteri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/302
+            queryName: Bufo hemiophrys baxteri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/144
+            queryName: Bufo baxteri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3fb5dcf4b9
+      - s-c775df7688
+      - s-ba1525e754
+      - s-a854b77e85
+      - s-7aa3bc60f7
+      - s-c5c360ecf1
+      - s-832bd16786
+      - s-2fb068a604
+      - s-c4963ad9d0
+      - s-a482ef082c
+      - s-84a5c859f8
+      - s-7b3368dc99
+    zh:
+      - s-f7ba5a7b73
+      - s-7c1caba60c
+      - s-c2ecda8856
+      - s-4423aa9ef2
+      - s-d3c96c34b3
+      - s-d9d6971115
+      - s-32696f512f
+      - s-0d7d5f45a5
+      - s-19feca6578
+      - s-709d121654
+      - s-a340e1c8f7
+      - s-5150aa61b2

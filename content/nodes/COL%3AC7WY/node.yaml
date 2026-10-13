@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes igneus
+  displayName: Alsodes igneus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7WY
+  sourceIndexes:
+    - name:
+        en: Alsodes igneus
+        zh: Alsodes igneus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7WY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/193
+            queryName: Alsodes igneus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6be6ae5a46
+      - s-8210b1f6b4
+      - s-7040e7e862
+      - s-109bfc7f26
+      - s-8f665da6e8
+      - s-edfc8696b4
+      - s-e2fc6b86e3
+      - s-74d21997c5
+      - s-018b0aa4cd
+      - s-56711a82fb
+      - s-a8eaf2e48e
+      - s-45886d6cc8
+      - s-96f951775f
+      - s-2df0c467a3
+      - s-96f64a5ae4
+      - s-8f1336ebf7
+      - s-d2675e981b
+      - s-9887a3bfb3
+    zh:
+      - s-d51d2d0a5e
+      - s-699eefd1c2
+      - s-450ce0bb86
+      - s-f4df3e7d8b
+      - s-09511a0489
+      - s-2c77d58f98
+      - s-bb704e6d15
+      - s-0359ea7191
+      - s-10b04d6198
+      - s-b2f50a796f
+      - s-f6797158a1
+      - s-d8ff1c945f
+      - s-6247b7f21f
+      - s-e03bba9e1a
+      - s-1b6812e541
+      - s-b843f6024e
+      - s-6c7886acbe
+      - s-4c16cf3f7d

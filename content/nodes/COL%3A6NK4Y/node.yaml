@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus eok
+  displayName: Kalophrynus eok
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6NK4Y
+  sourceIndexes:
+    - name:
+        en: Kalophrynus eok
+        zh: Kalophrynus eok
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6NK4Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/98
+            queryName: Kalophrynus eok
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c0f33a50a3
+      - s-9710b1e8b6
+      - s-3a65325086
+      - s-a8c55b209b
+      - s-3fa55df374
+      - s-fece3f1a21
+      - s-cba172e5f1
+      - s-bd4c92cffd
+      - s-fd4f36707d
+    zh:
+      - s-61699c6561
+      - s-71b6038435
+      - s-d025b00ab7
+      - s-2b70926be4
+      - s-bb15ef442e
+      - s-b6f5c741fa
+      - s-a6bfec6b09
+      - s-de386e2d22
+      - s-43998251d9

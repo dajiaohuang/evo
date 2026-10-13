@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adelophryne gutturosa
+  displayName: Adelophryne gutturosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9XZ3
+  sourceIndexes:
+    - name:
+        en: Adelophryne gutturosa
+        zh: Adelophryne gutturosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9XZ3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/10
+            queryName: Adelophryne gutturosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-69b99a487f
+      - s-cfd356b94d
+      - s-51388422fb
+      - s-8fe2a329a2
+      - s-91e44166c7
+      - s-0da307bf17
+      - s-731c88bf4b
+      - s-cc08e57640
+      - s-d06b0c948c
+      - s-db7cd9cd95
+      - s-7c9bff67df
+    zh:
+      - s-c56957331e
+      - s-83687ba1b9
+      - s-faede1d9ba
+      - s-6507328d3b
+      - s-6a9df20816
+      - s-08785904a0
+      - s-0728a3ba33
+      - s-462606af1a
+      - s-8cc6115a66
+      - s-b35697fb81
+      - s-d164d9a677

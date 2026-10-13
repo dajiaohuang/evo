@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Raorchestes leucolatus
+    name:
+      en: Raorchestes leucolatus
+      zh: Raorchestes leucolatus
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Raorchestes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Raorchestes leucolatus in the morphology deposit
+          zh: 形态数据中的 Raorchestes leucolatus 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1a5f6dded2
+            part: body
+          zh:
+            page: zh
+            section: s-31203b58a7
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5303: measurement fields and sex codes"
+          zh: 第 5303 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9d03b19090
+            part: body
+          zh:
+            page: zh
+            section: s-2ad439c7a4
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5303; Reference.csv rows 1277
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5303
+        values:
+          - Rhacophoridae
+          - Raorchestes
+          - Raorchestes leucolatus
+          - M
+          - "17"
+          - "5.2"
+          - "6.45"
+          - "2.45"
+          - "0.8"
+          - NA
+          - "2.1"
+          - NA
+          - "1.55"
+          - NA
+          - "2.3"
+          - NA
+          - "4.5"
+          - "3.35"
+          - NA
+          - "6.05"
+          - NA
+          - "7.7"
+          - "7.75"
+          - "3.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.05"
+          - NA
+          - NA
+          - NA
+          - "0.85"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1277
+        values:
+          - Anura
+          - Raorchestes_leucolatus
+          - "Vijayakumar, S. P., Dinesh, K. P., Prabhu, M. V., & Shanker, K. (2014). Lineage delimitation and description of nine new species of bush frogs (Anura: Raorchestes, Rhacophoridae) from the Western Ghats Escarpment. Zootaxa, 3893(4), 451-488. https://doi.org/10.11646/zootaxa.3893.4.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Fin3L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6WT44
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

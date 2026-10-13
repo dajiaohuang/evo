@@ -1,0 +1,502 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ptychadena harenna Largen, 1997
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ptychadena harenna
+      zh: Ptychadena harenna
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-95e816fe5d
+            part: title
+          zh:
+            page: zh
+            section: s-65f8bf83bb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-95e816fe5d
+            part: body
+          zh:
+            page: zh
+            section: s-65f8bf83bb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6047518730
+            part: title
+          zh:
+            page: zh
+            section: s-9df993951a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6047518730
+            part: body
+          zh:
+            page: zh
+            section: s-9df993951a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6c26495ed0
+            part: title
+          zh:
+            page: zh
+            section: s-4737f21a5a
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-6c26495ed0
+            part: body
+          zh:
+            page: zh
+            section: s-4737f21a5a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo. org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-27af1e01c1
+            part: title
+          zh:
+            page: zh
+            section: s-0d9895b0f4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-27af1e01c1
+            part: body
+          zh:
+            page: zh
+            section: s-0d9895b0f4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-de97ef1f4b
+            part: title
+          zh:
+            page: zh
+            section: s-2dc14c46ca
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-de97ef1f4b
+            part: body
+          zh:
+            page: zh
+            section: s-2dc14c46ca
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-343216b904
+            part: title
+          zh:
+            page: zh
+            section: s-09c25d4b14
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-343216b904
+            part: body
+          zh:
+            page: zh
+            section: s-09c25d4b14
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-491a2d6e048971a79548c94f84bbf234
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-0c90507d063a13b5875488ca
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2d670da508
+            part: title
+          zh:
+            page: zh
+            section: s-43c3fa96fe
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2d670da508
+            part: body
+          zh:
+            page: zh
+            section: s-43c3fa96fe
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6956e2bb9c
+            part: title
+          zh:
+            page: zh
+            section: s-367ff987ea
+            part: title
+        sourceIds:
+          - primary-pmc10434514-4q9qj
+        text:
+          en:
+            page: en
+            section: s-6956e2bb9c
+            part: body
+          zh:
+            page: zh
+            section: s-367ff987ea
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-4d9e3b03f4
+            part: title
+          zh:
+            page: zh
+            section: s-59d5d61a0b
+            part: title
+        sourceIds:
+          - primary-pmc10434514-4q9qj
+        text:
+          en:
+            page: en
+            section: s-4d9e3b03f4
+            part: body
+          zh:
+            page: zh
+            section: s-59d5d61a0b
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-25940c4569
+            part: title
+          zh:
+            page: zh
+            section: s-a0b8cc3e38
+            part: title
+        sourceIds:
+          - primary-pmc10434514-4q9qj
+        text:
+          en:
+            page: en
+            section: s-25940c4569
+            part: body
+          zh:
+            page: zh
+            section: s-a0b8cc3e38
+            part: body
+      - topic: limitations
+        title:
+          en: Evidence scope
+          zh: 现有证据的范围
+        text:
+          en:
+            page: en
+            section: s-4e0b938cf4
+            part: body
+          zh:
+            page: zh
+            section: s-4153afb9c2
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ptychadena harenna
+          url: https://www.checklistbank.org/dataset/316115/taxon/4Q9QJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4605; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4607 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5097, 5098; Reference.csv rows 2355
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10434514-4q9qj
+        referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ptychadena harenna: XML abstract, Methods 2.1–2.5, Results 3.1–3.3 including Table1 and figure captions, Discussion 4.1–4.3 read; supplementary tables, original sequence reads, deposited assemblies and analysis pipelines not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f148b51fed
+        part: body
+      zh:
+        page: zh
+        section: s-68c63061f1
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-491a2d6e048971a79548c94f84bbf234
+      sourceRowId: Anf4605
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4605
+        bibliographyRowId: Anf4607
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Ptychadena grandisonae
+        candidateBibliographyRowIds:
+          - Anf4607
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-0c90507d063a13b5875488ca
+        scientificName: Ptychadena harenna
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3389/fgene.2023.1215715
+        referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+        sourceKey: primary-pmc10434514-4q9qj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10434514/article.xml
+        sourceConcept: 2023 Ethiopian Highlands Ptychadena harenna sample and author-reported distributions
+        evidenceRead: "Ptychadena harenna: XML abstract, Methods 2.1–2.5, Results 3.1–3.3 including Table1 and figure captions, Discussion 4.1–4.3 read; supplementary tables, original sequence reads, deposited assemblies and analysis pipelines not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A geographically sampled mitochondrial and nuclear dataset
+              zh: 有地理取样的线粒体与核数据集
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-4q9qj
+            locator: PMC10434514 XML Methods2.1–2.3; Table1; Results3.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7afb171137
+                part: body
+              zh:
+                page: zh
+                section: s-3a458935d5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: distribution
+            heading:
+              en: A study-defined highland clade and regional distribution
+              zh: 研究界定的高地支系及区域分布
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-4q9qj
+            locator: PMC10434514 XML Results3.2–3.3; Discussion4.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4ebfbf2c67
+                part: body
+              zh:
+                page: zh
+                section: s-7367481857
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: A dated reassessment argument, with remaining demographic gaps
+              zh: 有日期的重评论据与仍缺的人口统计证据
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-4q9qj
+            locator: PMC10434514 XML Discussion4.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-de234f660a
+                part: body
+              zh:
+                page: zh
+                section: s-6d6aef83f7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

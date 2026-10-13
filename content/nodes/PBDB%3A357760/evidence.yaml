@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Kuruleufenia xenopoides
+    rank: species
+    sourceTaxonId: txn:357760
+    name:
+      en: Kuruleufenia xenopoides
+      zh: Kuruleufenia xenopoides
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-24fa87c4ba
+            part: body
+          zh:
+            page: zh
+            section: s-1118f044aa
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-b3f49f392f
+            part: body
+          zh:
+            page: zh
+            section: s-92857afe88
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-427b88a0f2
+            part: body
+          zh:
+            page: zh
+            section: s-65339b8381
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:357760; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. O. Gómez. 2016. A new pipid frog from the Upper Cretaceous of Patagonia and early evolution of crown-group Pipidae. Cretaceous Research 62:52-64
+    occurrenceEvidence:
+      - occurrenceId: occ:457539
+        collectionId: col:45087
+        acceptedTaxonId: txn:357760
+        taxonomicDifference: null
+        referenceId: ref:85526
+        bibliography: "F. Suazo Lara and R. O. Gómez. 2022. In the shadow of dinosaurs: Late Cretaceous frogs are distinct components of a widespread tetrapod assemblage across Argentinean and Chilean Patagonia. Cretaceous Research 131:105085"
+        locality:
+          countryCode: AR
+          stateProvince: Río Negro
+          county: null
+        stratigraphy:
+          group: null
+          formation: Los Alamitos
+          member: Middle
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:491064
+        collectionId: col:49557
+        acceptedTaxonId: txn:357760
+        identifiedName: Kuruleufenia xenopoides n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:62828
+        bibliography: R. O. Gómez. 2016. A new pipid frog from the Upper Cretaceous of Patagonia and early evolution of crown-group Pipidae. Cretaceous Research 62:52-64
+        locality:
+          countryCode: AR
+          stateProvince: Río Negro
+          county: null
+        stratigraphy:
+          group: Malargüe
+          formation: Allen
+          member: Lower
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1371946
+        collectionId: col:48999
+        acceptedTaxonId: txn:357760
+        taxonomicDifference: null
+        referenceId: ref:62828
+        bibliography: R. O. Gómez. 2016. A new pipid frog from the Upper Cretaceous of Patagonia and early evolution of crown-group Pipidae. Cretaceous Research 62:52-64
+        locality:
+          countryCode: AR
+          stateProvince: Río Negro
+          county: null
+        stratigraphy:
+          group: Malargüe
+          formation: Allen
+          member: Lower
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1371952
+        collectionId: col:139574
+        acceptedTaxonId: txn:357760
+        taxonomicDifference: null
+        referenceId: ref:62828
+        bibliography: R. O. Gómez. 2016. A new pipid frog from the Upper Cretaceous of Patagonia and early evolution of crown-group Pipidae. Cretaceous Research 62:52-64
+        locality:
+          countryCode: AR
+          stateProvince: Río Negro
+          county: null
+        stratigraphy:
+          group: Malargüe
+          formation: Allen
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-427b88a0f2
+            part: body
+          zh:
+            page: zh
+            section: s-65339b8381
+            part: body
+        sourceIds: []

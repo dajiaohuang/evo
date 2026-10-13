@@ -1,0 +1,284 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys yunkaiensis Qi, Wang, Lyu & Wang, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys yunkaiensis
+      zh: Boulenophrys yunkaiensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1fa6956576
+            part: title
+          zh:
+            page: zh
+            section: s-367c3de85f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1fa6956576
+            part: body
+          zh:
+            page: zh
+            section: s-367c3de85f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cdab1cd38d
+            part: title
+          zh:
+            page: zh
+            section: s-3bcb6533ed
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cdab1cd38d
+            part: body
+          zh:
+            page: zh
+            section: s-3bcb6533ed
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-5d5ea6e0ec
+            part: title
+          zh:
+            page: zh
+            section: s-6f5f4fa5d2
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9rq
+        text:
+          en:
+            page: en
+            section: s-5d5ea6e0ec
+            part: body
+          zh:
+            page: zh
+            section: s-6f5f4fa5d2
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-70aecbcfd0
+            part: title
+          zh:
+            page: zh
+            section: s-c15804540b
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9rq
+        text:
+          en:
+            page: en
+            section: s-70aecbcfd0
+            part: body
+          zh:
+            page: zh
+            section: s-c15804540b
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-705f93e990
+            part: title
+          zh:
+            page: zh
+            section: s-cb9e2f1fbb
+            part: title
+        sourceIds:
+          - primary-pmc12466624-lx9rq
+        text:
+          en:
+            page: en
+            section: s-705f93e990
+            part: body
+          zh:
+            page: zh
+            section: s-cb9e2f1fbb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys yunkaiensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/LX9RQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10083232-lx9rq
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys yunkaiensis: Named species types, examined material, diagnostic anatomy and distribution; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-lx9rq
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys yunkaiensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-cd04efbb96
+        part: body
+      zh:
+        page: zh
+        section: s-cbc56d97a5
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-lx9rq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys yunkaiensis
+        evidenceRead: "Boulenophrys yunkaiensis: Named species types, examined material, diagnostic anatomy and distribution; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Yunkaishan type-locality knowledge
+              zh: 云开山模式地点知识
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9rq
+            locator: RESULTS > Boulenophrys yunkaiensis; Holotype and Distribution; reading-sections index 82, section s03.98
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b84febf895
+                part: body
+              zh:
+                page: zh
+                section: s-26370a81f3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Nine adults with sampled spiny skin characters
+              zh: 九只成体的具刺皮肤特征
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9rq
+            locator: RESULTS > Boulenophrys yunkaiensis; Specimens examined and Diagnosis characters 1, 5, 9 and 11; reading-sections index 82, section s03.98
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ea789551df
+                part: body
+              zh:
+                page: zh
+                section: s-7ed71e688f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-lx9rq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys yunkaiensis
+        evidenceRead: "Boulenophrys yunkaiensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-lx9rq
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,38
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-57225e4c16
+                part: body
+              zh:
+                page: zh
+                section: s-8b8a5efb66
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

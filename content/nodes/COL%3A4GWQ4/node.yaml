@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynopus dagmarae
+  displayName: Phrynopus dagmarae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWQ4
+  sourceIndexes:
+    - name:
+        en: Phrynopus dagmarae
+        zh: Phrynopus dagmarae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWQ4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/217
+            queryName: Phrynopus dagmarae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-43c944dc35
+      - s-84c3cbc9c8
+      - s-4686a2f8ab
+      - s-d9ea21c624
+      - s-bce6604cf4
+      - s-b573abb3b3
+      - s-98f06858e6
+      - s-60d297bd33
+      - s-0ee8cc7ecf
+    zh:
+      - s-0e5b9f846b
+      - s-5727391f98
+      - s-db5b32de29
+      - s-61eadd22b0
+      - s-0dfa15d1fd
+      - s-31c70ba161
+      - s-e9d30c5dce
+      - s-2e7dce90bb
+      - s-13b906a8bb

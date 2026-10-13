@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bokermannohyla pseudopseudis
+    name:
+      en: Bokermannohyla pseudopseudis
+      zh: Bokermannohyla pseudopseudis
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Bokermannohyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-046bf89f84
+            part: body
+          zh:
+            page: zh
+            section: s-5556bac01c
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-05eb1ba849
+            part: body
+          zh:
+            page: zh
+            section: s-3828812864
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 712, 713; Reference.csv rows 2969
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 712
+        values:
+          - Hylidae
+          - Bokermannohyla
+          - Bokermannohyla pseudopseudis
+          - F
+          - "51.3"
+          - "19.45"
+          - "20.23"
+          - "5.81"
+          - "3.5"
+          - NA
+          - "5.61"
+          - "4.34"
+          - NA
+          - "5.16"
+          - NA
+          - "1.67"
+          - "15.58"
+          - "9.4"
+          - NA
+          - "34.76"
+          - NA
+          - "27.1"
+          - "26.89"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 713
+        values:
+          - Hylidae
+          - Bokermannohyla
+          - Bokermannohyla pseudopseudis
+          - M
+          - "52.51"
+          - "19.69"
+          - "21.12"
+          - "5.71"
+          - "3.35"
+          - NA
+          - "6.14"
+          - "4.45"
+          - NA
+          - "5.25"
+          - NA
+          - "1.84"
+          - "17.47"
+          - "10.09"
+          - NA
+          - "36.43"
+          - NA
+          - "27.47"
+          - "27.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2969
+        values:
+          - Anura
+          - Bokermannohyla_pseudopseudis
+          - "Brandao, R., de Magalhães, R., Garda, A., Campos, L., Sebben, A., & Maciel, N. (2012). A new species of Bokermannohyla (Anura: Hylidae) from highlands of Central Brazil. Zootaxa, 3527, 28-42. https://doi.org/10.11646/zootaxa.3527.1.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5WMXW
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

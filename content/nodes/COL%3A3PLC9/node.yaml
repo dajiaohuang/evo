@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Incilius coccifer
+  displayName: Incilius coccifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PLC9
+  sourceIndexes:
+    - name:
+        en: Incilius coccifer
+        zh: Incilius coccifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PLC9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/444
+            queryName: Incilius coccifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/373
+            queryName: Bufo coccifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/163
+            queryName: Bufo microtis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/164
+            queryName: Cranopsis coccifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/165
+            queryName: Ollotis coccifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/31
+            queryName: Bufo valliceps microtis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-06d86d85f7
+      - s-58018b4cf4
+      - s-b8eae3ab00
+      - s-83ae3464c8
+      - s-9d44f218f6
+      - s-0251e40e89
+      - s-08b4e13e16
+      - s-f7aadaa455
+      - s-512ced96c6
+      - s-b1fcd285b0
+      - s-bf1aa33bab
+      - s-2cc7e578c8
+      - s-46fa98becd
+      - s-4d8697ce00
+      - s-0e75933392
+      - s-cbab61c4fe
+      - s-411f34c698
+      - s-bf78468a24
+      - s-085c08c731
+      - s-441c32fab8
+    zh:
+      - s-3ed20b6cba
+      - s-7ce5d516be
+      - s-dc92d3aea4
+      - s-a9c88a6fca
+      - s-e733afd924
+      - s-4a5bf65917
+      - s-983eda0feb
+      - s-4a067c090a
+      - s-931edb1855
+      - s-b5a67ce605
+      - s-ad69e0658b
+      - s-b931819446
+      - s-8f6c7ff843
+      - s-f19b98b201
+      - s-633033259c
+      - s-53afac71ff
+      - s-acc45fcaa4
+      - s-9efbc0c19f
+      - s-40301f569a
+      - s-19d8f170c1

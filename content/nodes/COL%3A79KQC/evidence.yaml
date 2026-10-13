@@ -1,0 +1,152 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Saprolegnia parasitica Coker
+    rank: species
+    sourceDatasetId: "2073"
+    identity:
+      method: Exact COL26.8 accepted species usage, verbatim name, rank and sourceDatasetId verified against the pinned registry. Species Fungorum source linkage and Index Fungorum NameByKey identifier 273605 resolve to Saprolegnia parasitica Coker; the pinned crosswalk maps this source identity to COL usage 79KQC.
+      scope: The dossier concerns nominal species usage 79KQC. The 2024 study's isolates are ITS-assigned S. parasitica from sampled Scottish freshwater salmon aquaculture sites; its results do not characterize every population or strain of the species.
+      sourceIds:
+        - col
+        - oomycota_crosswalk
+    lifeStatusScope:
+      wild: The 2024 study sampled water and Atlantic salmon epidermis at freshwater aquaculture facilities; it does not establish wild-population ecology.
+      domesticated: Aquaculture-associated isolates are discussed, but domestication and captive life history of the oomycete have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 8
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2073
+          url: https://www.checklistbank.org/dataset/316115/taxon/79KQC
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:79KQC@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage 79KQC; sourceDatasetId 2073; Oomycota classification
+          licenseAssessment: identity-only
+          scope: "Identity only: accepted name, authorship, rank, status, sourceDatasetId and classification in the pinned COL26.8 registry."
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 79KQC. https://doi.org/10.48580/dgywk
+      - id: oomycota_crosswalk
+        referenceId: ref-6bbd7f66-3a76-84cc-aae2-8e78bb3388e6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Declared nomenclatural identifier/name/status fields where CC BY applies; no biological prose copied.
+          stableId: indexfungorum:273605@crosswalk-2026-09-09
+          accessedAt: 2026-09-24
+          locator: Crosswalk row COL 79KQC; sourceDatasetId 2073; Index Fungorum ID 273605; NameByKey response SHA-256 4d0b50010c46af9e86e2af99cdc0cf45010f0b244f814be5ab013ec0261f5217
+          licenseAssessment: identity-only
+          scope: Identity only; retains declared identifier, name and status fields and response hashes, not bulk source database content.
+          attribution: Species Fungorum / Index Fungorum, via pinned COL26.8 crosswalk; Kew data reuse attribution applies.
+      - id: shreves_2024
+        referenceId: ref-5b3be9ec-e6cd-8ff8-a4fb-a533749e04ab
+        fields:
+          - id
+          - title
+          - url
+          - rightsEvidenceUrl
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text under CC BY 4.0; separately credited material retains its own terms. No figures, tables or images are reproduced.
+          stableId: doi:10.3390/jof10010057
+          rightsEvidenceUrl: https://www.mdpi.com/2309-608X/10/1/57
+          accessedAt: 2026-09-24
+          locator: Methods 2.1; Results 3.3, 3.6; Tables 2–5; conclusions
+          licenseAssessment: item-level-verified
+          scope: Peer-reviewed study of sampled isolates from 14 anonymized Scottish Atlantic salmon freshwater aquaculture sites; only text claims about this sample and study are used.
+          attribution: Shreves KV et al. (2024). Specific Phylotypes of Saprolegnia parasitica Associated with Atlantic Salmon Freshwater Aquaculture. Journal of Fungi 10(1):57. https://doi.org/10.3390/jof10010057. Claims paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Across the sampled Scottish freshwater salmon farms, the authors report that S. parasitica phylotype S2 was most abundant and was recovered predominantly from fish, while S6 was recovered from both fish and water; these are study-sample patterns, not universal host preferences.
+            sourceIds:
+              - shreves_2024
+            locator: Results 3.3; Tables 2–3; Discussion
+            placeTimeScope: Fourteen anonymized Atlantic salmon freshwater aquaculture sites in Scotland sampled monthly; the claim applies to the isolates and sampling period analyzed in this article.
+            lifeStatus: Association with farmed Atlantic salmon epidermis and tank water; the study does not establish wild-host interactions or causality.
+            originalLanguage: en
+        gaps:
+          - The article samples aquaculture sites only and does not provide a complete account of hosts, free-living ecology, interaction mechanisms or wild populations.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: ITS sequence analysis divided the 151 S. parasitica isolates in this study among five sampled phylotypes, S2–S6; S1 was not isolated at these sites. This is within-study strain-level grouping, not a species-wide phylogeny.
+            sourceIds:
+              - shreves_2024
+            locator: Results 3.3; Figure 2; Table 2; ITS sequence analysis methods
+            placeTimeScope: ITS-based analysis of isolates recovered in the 2024 study from the sampled Scottish aquaculture sites, compared with the paper's reference sequences.
+            lifeStatus: Molecular comparisons among sampled isolates; the study does not infer species divergence times or broad oomycete phylogenetic position.
+            originalLanguage: en
+        gaps:
+          - The study does not provide a comprehensive species-level phylogenetic analysis, population history or divergence-time estimate.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The study reports S. parasitica isolates from Scottish freshwater salmon aquaculture, with phylotypes differing in occurrence among the 14 sampled sites; site identities are anonymized as A–N.
+            sourceIds:
+              - shreves_2024
+            locator: Methods 2.1; Results 3.3 and 3.6; Tables 2, 4–5
+            placeTimeScope: Study-specific records from 14 Scottish aquaculture facilities sampled monthly; site anonymity and the farm-only sampling frame limit geographic precision.
+            lifeStatus: Records are from aquaculture water and farmed fish; they do not establish wild distribution, native status or current occupancy outside sampled facilities.
+            originalLanguage: en
+        gaps:
+          - The study is not an exhaustive distribution survey and does not establish a global range or native/introduced status.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

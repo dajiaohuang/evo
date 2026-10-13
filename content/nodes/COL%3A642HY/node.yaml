@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana Linnaeus, 1758
+  displayName: Rana
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/642HY
+  sourceIndexes:
+    - name:
+        en: Rana
+        zh: Rana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 642HY
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/213
+            queryName: Rana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 85924
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-438345bf54
+      - s-a539b235d6
+      - s-fbac5cbb4f
+      - s-0e7c163c53
+      - s-efd838d166
+      - s-a5f758c45c
+      - s-8f36cbff13
+      - s-8990bb8180
+      - s-d35cad41be
+      - s-d680b90f68
+      - s-c7f3563a11
+      - s-55371bcd9d
+      - s-9fb2f4c85a
+      - s-80075f69a3
+      - s-9b3fd24eb6
+      - s-de4e316d3d
+      - s-5627c962e6
+      - s-b2930ebb96
+      - s-99e68566a3
+      - s-cd8b1fd0ae
+      - s-2e5b348d8e
+      - s-2a4c2d5b27
+      - s-69e9296bdb
+      - s-0fc71eb3f2
+      - s-3c7af6568f
+      - s-decbd0e905
+      - s-bf98c8200c
+    zh:
+      - s-28b829fb5e
+      - s-0924eac53a
+      - s-ab2475f514
+      - s-7de9371544
+      - s-981f51a4fa
+      - s-e49af21b6d
+      - s-b63fd2ccd5
+      - s-dd2b0fa701
+      - s-9e7266ea59
+      - s-26f6cfa61d
+      - s-d383261f62
+      - s-83938b440a
+      - s-eef3496688
+      - s-63b5ecbff6
+      - s-6e5d665052
+      - s-3e852c0751
+      - s-05fc851dc8
+      - s-c3d3576038
+      - s-edabb8b43a
+      - s-a31ad55e01
+      - s-b5216f1ef4
+      - s-5a7d27a750
+      - s-b13275a722
+      - s-b871d030bd
+      - s-1d67f07379
+      - s-efc185f9b4
+      - s-8acec7b8b1

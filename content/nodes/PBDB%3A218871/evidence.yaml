@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Cheirolepis trailli
+    commonName: Eifelian early ray-fin
+    commonNameZh: 艾菲尔期早期辐鳍鱼
+    rank: species
+    taxonId: txn:218871
+    firstAppearance: 390.4
+    lastAppearance: 388.1
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:218871
+    scientificName: Cheirolepis trailli
+    commonName: Eifelian early ray-fin
+    commonNameZh: 艾菲尔期早期辐鳍鱼
+    rank: species
+    parentName: Early actinopterygian evidence route
+    extinct: true
+    geography:
+      - Achanarras Limestone
+      - Scotland
+    overview:
+      page: en
+      section: s-398f6f6ba1
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-13f5c9fb19
+        part: body
+      habitat:
+        page: en
+        section: s-6d552852d9
+        part: body
+      locomotion:
+        page: en
+        section: s-227f904913
+        part: body
+      bodySize:
+        page: en
+        section: s-9b98f06bd5
+        part: body
+      guild:
+        page: en
+        section: s-03e1aa9f37
+        part: body
+    traits:
+      - page: en
+        section: s-99ab236fbc
+        part: body
+      - page: en
+        section: s-4d04ccfe5b
+        part: body
+      - page: en
+        section: s-29560b9371
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-d3e7ad1165
+      part: body
+    confidence: medium
+    referenceIds:
+      - giles-2015-cheirolepis-endoskeleton
+    readerSections:
+      - id: fin-and-scale-anatomy
+        title:
+          en:
+            page: en
+            section: s-306e9e1981
+            part: title
+          zh:
+            page: zh
+            section: s-c36648e021
+            part: title
+        text:
+          en:
+            page: en
+            section: s-306e9e1981
+            part: body
+          zh:
+            page: zh
+            section: s-c36648e021
+            part: body
+        sourceIds:
+          - giles-2015-cheirolepis-endoskeleton
+    readerSources:
+      - id: giles-2015-cheirolepis-endoskeleton
+        referenceId: giles-2015-cheirolepis-endoskeleton
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: 849–870, especially 852–862; Figures 2–4 and 9–11; Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales
+          scope:
+            en: "Cheirolepis trailli: 849–870, especially 852–862; Figures 2–4 and 9–11; Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales. Limited to the cited specimens, samples or analyses."
+            zh: Cheirolepis trailli：原文定位 849–870, especially 852–862; Figures 2–4 and 9–11; Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales。本文仅使用所引标本、样本或分析的对应结果。
+  claims:
+    - subjectId: taxon:cheirolepis-trailli
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Cheirolepis trailli is an early actinopterygian represented in the cited study by several named Scottish museum specimens rather than one composite individual.
+      confidence: medium
+      confidenceRationale: "Cheirolepis trailli: Named material and a published systematic or phylogenetic treatment support this bounded identification. Confidence remains medium because the profile does not turn a sampled placement into direct ancestry or universal consensus."
+      referenceLinks:
+        - referenceId: giles-2015-cheirolepis-endoskeleton
+          relation: supports
+          pages: 849–870, especially 852–862
+          figure: Figures 2–4 and 9–11
+          quoteLocator: Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales
+    - subjectId: taxon:cheirolepis-trailli
+      claimType: biogeography
+      claimKind: scientific
+      statement: The scanned Cheirolepis material comes from the late Eifelian Achanarras Limestone and correlated Scottish localities; no global distribution is inferred.
+      confidence: medium
+      confidenceRationale: "Cheirolepis trailli: The primary study reports the named locality and horizon directly. Confidence is medium because one study sample cannot establish absence, endemism or a global geographic range."
+      referenceLinks:
+        - referenceId: giles-2015-cheirolepis-endoskeleton
+          relation: supports
+          pages: 849–870, especially 852–862
+          figure: Figures 2–4 and 9–11
+          quoteLocator: Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales
+    - subjectId: taxon:cheirolepis-trailli
+      claimType: ecology
+      claimKind: scientific
+      statement: The CT study resolves anatomy but does not directly establish diet, detailed habitat niche, swimming performance or trophic guild.
+      confidence: medium
+      confidenceRationale: "Cheirolepis trailli: The evidence boundary is explicit: depositional or anatomical context is retained while unsupported behaviour and niche claims are withheld. Medium confidence applies to that bounded negative statement, not to a reconstructed ecology."
+      referenceLinks:
+        - referenceId: giles-2015-cheirolepis-endoskeleton
+          relation: supports
+          pages: 849–870, especially 852–862
+          figure: Figures 2–4 and 9–11
+          quoteLocator: Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales
+    - subjectId: taxon:cheirolepis-trailli
+      claimType: morphology
+      claimKind: scientific
+      statement: Named Cheirolepis specimens preserve an imperforate propterygium and hyomandibular shaft plus peg-and-socket scales among a broader early ray-fin character mosaic.
+      confidence: medium
+      confidenceRationale: "Cheirolepis trailli: The cited figures and descriptions directly document the named anatomical observations. Confidence is medium rather than universal because preservation and specimen sampling limit character completeness and variation."
+      referenceLinks:
+        - referenceId: giles-2015-cheirolepis-endoskeleton
+          relation: supports
+          pages: 849–870, especially 852–862
+          figure: Figures 2–4 and 9–11
+          quoteLocator: Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales
+    - subjectId: taxon:cheirolepis-trailli
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 390.4–388.1 Ma interval bounds the cited late Eifelian Scottish sample and is not a global actinopterygian first appearance.
+      confidence: medium
+      confidenceRationale: "Cheirolepis trailli: The primary source and concrete locator support the displayed sample interval. Confidence is medium because the envelope is explicitly specimen- or locality-scoped and not a global first or last appearance."
+      referenceLinks:
+        - referenceId: giles-2015-cheirolepis-endoskeleton
+          relation: supports
+          pages: 849–870, especially 852–862
+          figure: Figures 2–4 and 9–11
+          quoteLocator: Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales
+  claim-rationales.zh:
+    - Cheirolepis trailli：具名材料和已发表的系统或系统发育处理支持这一有限鉴定。置信度保持中等，因为画像不会把取样位置转化为直接祖先或普遍共识。
+    - Cheirolepis trailli：一手研究直接报告了具名地点与层位。置信度为中等，因为单一研究样本不能确定缺失、特有性或全球地理范围。
+    - Cheirolepis trailli：证据边界是明确的：保留沉积或解剖背景，同时不填补无依据的行为与生态位。中等置信度针对这一有限的否定性陈述，而非重建生态。
+    - Cheirolepis trailli：所引图件与描述直接记录了具名解剖观察。由于保存与标本取样限制了性状完整性和变异，置信度为中等而非普遍结论。
+    - Cheirolepis trailli：一手来源与具体定位符支持显示的样本区间。置信度为中等，因为该包络明确限定于标本或地点，而非全球首现或末现。
+  claim-statements.zh:
+    - Cheirolepis trailli 是早期辐鳍鱼；所引研究由多件具名苏格兰馆藏标本代表，而非一件拼合个体。
+    - 扫描的 Cheirolepis 材料来自晚艾菲尔期 Achanarras 灰岩及苏格兰相关地点；不据此推断全球分布。
+    - CT 研究解析了解剖结构，但不能直接确定食性、详细栖息生态位、游泳性能或营养行会。
+    - 具名 Cheirolepis 标本保存无孔前鳍骨、无孔舌颌骨干及榫卯式鳞片，构成更广泛的早期辐鳍鱼性状镶嵌。
+    - 显示的 390.4–388.1 Ma 区间限定所引晚艾菲尔期苏格兰样本，并非辐鳍鱼全球首现。
+  ranges:
+    - entityId: cheirolepis-trailli
+      rangeKind: global-composite
+      taxonomicConcept: Cheirolepis trailli represented study sample
+      geographicScope: Achanarras Limestone and correlated Scottish localities
+      olderMa: 390.4
+      youngerMa: 388.1
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Rounded late Eifelian interval; different anatomical regions are distributed among several specimens.
+      evidenceBasis: Named museum specimens from late Eifelian Scottish deposits document the represented anatomical sample; the interval is not a global lineage range.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:cheirolepis-trailli:fossil-range
+      referenceLocators:
+        - referenceId: giles-2015-cheirolepis-endoskeleton
+          locator: 849–870, especially 852–862; Figures 2–4 and 9–11; Material and methods; neurocranium, hyomandibula, pectoral fin endoskeleton and body scales

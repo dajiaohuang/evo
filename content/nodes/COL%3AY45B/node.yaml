@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus sphagnicola
+  displayName: Cophixalus sphagnicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y45B
+  sourceIndexes:
+    - name:
+        en: Cophixalus sphagnicola
+        zh: Cophixalus sphagnicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y45B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/484
+            queryName: Cophixalus sphagnicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-434e611264
+      - s-2b702620e6
+      - s-1044091291
+      - s-45389779d6
+      - s-55bf53feee
+      - s-711a67fb8c
+      - s-d8bbf3a4bc
+      - s-18b3b33840
+      - s-602ca7d40a
+      - s-54f534b4c8
+      - s-70ec44b942
+    zh:
+      - s-ecb37394e5
+      - s-2175ac9af1
+      - s-00de3a5ebc
+      - s-7d3704cbb0
+      - s-8daade7e83
+      - s-5c25c8deca
+      - s-b35f4efbab
+      - s-71fe71a35d
+      - s-c77f803eba
+      - s-b761c706c7
+      - s-ce74c14af8

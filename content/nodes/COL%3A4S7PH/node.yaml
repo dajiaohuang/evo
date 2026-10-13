@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella proboscidea
+  displayName: Rhinella proboscidea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7PH
+  sourceIndexes:
+    - name:
+        en: Rhinella proboscidea
+        zh: Rhinella proboscidea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7PH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/361
+            queryName: Rhinella proboscidea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/395
+            queryName: Bufo proboscideus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/71
+            queryName: Oxyrhynchus proboscideus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/72
+            queryName: Eurhina proboscideus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1425f2c342
+      - s-465b198f51
+      - s-a55112a1c8
+      - s-8d07931bc8
+      - s-e81b817599
+      - s-1c9d77791a
+      - s-f3eb37ecdb
+      - s-05bc37f177
+      - s-71f20a9963
+      - s-365f9e25f7
+      - s-dacb1b7865
+      - s-ae3a8112a0
+      - s-8345ed049e
+    zh:
+      - s-c83fc1cdcc
+      - s-244615286f
+      - s-b87808a1b7
+      - s-966249676c
+      - s-790f07aaeb
+      - s-0e4fd310d8
+      - s-08d9cd0604
+      - s-ebed56ab4b
+      - s-aa5ca42f4e
+      - s-555ae88a39
+      - s-10bb86652a
+      - s-717ae18572
+      - s-d7c24c3918

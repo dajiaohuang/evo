@@ -1,0 +1,716 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lithobates berlandieri (Baird, 1859)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Lithobates berlandieri
+      zh: Lithobates berlandieri
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e80dd5e2c2
+            part: title
+          zh:
+            page: zh
+            section: s-ff483bac49
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e80dd5e2c2
+            part: body
+          zh:
+            page: zh
+            section: s-ff483bac49
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-49944749fa
+            part: title
+          zh:
+            page: zh
+            section: s-2d0e4a897c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-49944749fa
+            part: body
+          zh:
+            page: zh
+            section: s-2d0e4a897c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-1a15450e58
+            part: title
+          zh:
+            page: zh
+            section: s-4b62e89d56
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-1a15450e58
+            part: body
+          zh:
+            page: zh
+            section: s-4b62e89d56
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-625f17de89
+            part: title
+          zh:
+            page: zh
+            section: s-6f3007b458
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-625f17de89
+            part: body
+          zh:
+            page: zh
+            section: s-6f3007b458
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9ce11d0177
+            part: title
+          zh:
+            page: zh
+            section: s-8326b6be4b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-9ce11d0177
+            part: body
+          zh:
+            page: zh
+            section: s-8326b6be4b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-0cf7ebe81a
+            part: title
+          zh:
+            page: zh
+            section: s-91a9a1c25d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-0cf7ebe81a
+            part: body
+          zh:
+            page: zh
+            section: s-91a9a1c25d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-7dc0887f76
+            part: title
+          zh:
+            page: zh
+            section: s-fe94d5b3ed
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-7dc0887f76
+            part: body
+          zh:
+            page: zh
+            section: s-fe94d5b3ed
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1c1f30632f
+            part: title
+          zh:
+            page: zh
+            section: s-82839d4247
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1c1f30632f
+            part: body
+          zh:
+            page: zh
+            section: s-82839d4247
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-678ead7663f8f9b4542a949c35513c24
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-7c4c771e2870ae1e5f336901
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-20cdc476ec36c5d71090eb55
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cad2d50123
+            part: title
+          zh:
+            page: zh
+            section: s-fcf413dfa7
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-cad2d50123
+            part: body
+          zh:
+            page: zh
+            section: s-fcf413dfa7
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6235de1222
+            part: title
+          zh:
+            page: zh
+            section: s-b73a187a83
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-6235de1222
+            part: body
+          zh:
+            page: zh
+            section: s-b73a187a83
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-0cb32c8452
+            part: title
+          zh:
+            page: zh
+            section: s-c4d2cb859c
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhpn
+        text:
+          en:
+            page: en
+            section: s-0cb32c8452
+            part: body
+          zh:
+            page: zh
+            section: s-c4d2cb859c
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-76c149ec75
+            part: title
+          zh:
+            page: zh
+            section: s-61987477ef
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhpn
+        text:
+          en:
+            page: en
+            section: s-76c149ec75
+            part: body
+          zh:
+            page: zh
+            section: s-61987477ef
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-28ec359b2e
+            part: title
+          zh:
+            page: zh
+            section: s-43b854bd6b
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhpn
+        text:
+          en:
+            page: en
+            section: s-28ec359b2e
+            part: body
+          zh:
+            page: zh
+            section: s-43b854bd6b
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a9f0dc0159
+            part: title
+          zh:
+            page: zh
+            section: s-eb27fca38a
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhpn
+          - primary-pmc12070909-3vhpn-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-a9f0dc0159
+            part: body
+          zh:
+            page: zh
+            section: s-eb27fca38a
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1bb6052310
+            part: body
+          zh:
+            page: zh
+            section: s-e0a33e0a91
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Lithobates berlandieri
+          url: https://www.checklistbank.org/dataset/316115/taxon/3VHPN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 775079, row 523845; Distribution.tsv rows 196462; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4860; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4863 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 769, 770; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 2870, 2871, 3148, 3313; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc12070909-3vhpn
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Lithobates berlandieri: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12070909-3vhpn-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 dataset316115 usage4RDJH exact sourceName Rana berlandieri accepted3VHPN; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json
+          scope:
+            en: Recorded catalogue accepted-link only; source specimen identity and biological concept equivalence remain uncertified.
+            zh: 仅所记目录接受名链接；来源标本身份及生物学概念等同性仍未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc12070909-3vhpn-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-38e320e264
+        part: body
+      zh:
+        page: zh
+        section: s-a751ccd1ca
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "775079"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=775079
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 523845
+        key: "775079"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "775079"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 196462
+            key: 775079|North America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-678ead7663f8f9b4542a949c35513c24
+      sourceRowId: Anf4860
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4860
+        bibliographyRowId: Anf4863
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Hylarana volkerjane
+        candidateBibliographyRowIds:
+          - Anf4863
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-7c4c771e2870ae1e5f336901
+        scientificName: Lithobates berlandieri
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-pmc12070909-3vhpn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 source-labelled Rana berlandieri Baird, 1854; explicit COL26.8 nomenclatural bridge, not independently certified biological equivalence
+        evidenceRead: "Lithobates berlandieri: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A source-listed native regional occurrence
+              zh: 来源名册列出的区域原生出现
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhpn
+            locator: PMC12070909 XML Table1 body row 48 Rana berlandieri Baird, 1854; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2ff2379200
+                part: body
+              zh:
+                page: zh
+                section: s-2a3b4687ef
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: Distribution categories are dated checklist assignments
+              zh: 分布类别是有日期的名册分配
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhpn
+            locator: PMC12070909 XML Table1 row 48 Global/Total columns and caption; Methods2.1; Results3.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1ea822ad96
+                part: body
+              zh:
+                page: zh
+                section: s-1f16ca5e30
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Three conservation systems retain distinct dates and meanings
+              zh: 三套保育体系保留不同日期与含义
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhpn
+            locator: PMC12070909 XML Table1 row 48 IUCN/EVS/Mx columns and caption; Methods2.2; Results3.4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8b7cfc83ca
+                part: body
+              zh:
+                page: zh
+                section: s-0b8d47d6d0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Historical name and catalogue link
+              zh: 历史名称与目录对应
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhpn
+            locator: PMC12070909 XML Table1 row 48; COL26.8 dataset316115 usage4RDJH accepted3VHPN; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json sourceName Rana berlandieri
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d9d3dbf81c
+                part: body
+              zh:
+                page: zh
+                section: s-5e2bbf195f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

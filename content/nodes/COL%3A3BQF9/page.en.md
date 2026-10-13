@@ -1,0 +1,6 @@
+## Measured leaves, flowers and fruits on a very tall tree {#s-d99cdb59f7}
+A regional South African flora account describes Eucalyptus regnans as a very tall tree: usually to 75 m, with records to 100 m. One field places rough bark up to 15 m along the trunk, then smooth white or grey-green bark that often sheds in strips; another describes rough fibrous bark to about halfway up before the smooth upper bark. Adult lance-shaped leaves measure 9–14 cm by 1.6–2.7 cm, on channelled stalks 12–22 mm long. The flower-cluster stalk is angular and 5–13 mm; individual flower stalks are 2–4 mm. The conical operculum (flower cap) is 2–3 mm long and 3–4 mm wide. The inverted-cone flower cup is about 3 mm long and 3–4 mm wide. Fruits measure 5–9 mm by 4–7 mm. A second field describes umbels—umbrella-like flower clusters—paired in leaf axils. The two bark descriptions are both retained as recorded; this regional account does not establish global variation.
+
+## Tall open forest in a regional account {#s-fc7ce63bb6}
+The habitat field says the tree grows in tall open forest, often in pure stands. The binding identifies this as a regional South African flora treatment and cautions that it does not establish global representativeness or population frequencies. The habitat statement should be read within that scope.
+

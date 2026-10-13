@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Megophrys megacephala
+    name:
+      en: Megophrys megacephala
+      zh: Megophrys megacephala
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Megophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Megophrys megacephala in the version 3 classification
+          zh: Megophrys megacephala 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-365419b4c3
+            part: body
+          zh:
+            page: zh
+            section: s-e565d3f28c
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 19 populated trait fields
+          zh: 2 条测量行与 19 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-058b5301b9
+            part: body
+          zh:
+            page: zh
+            section: s-fb626f4091
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3121, 3122; Reference.csv rows 788
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3121
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys megacephala
+          - M
+          - "48"
+          - "19.6875"
+          - "20.575"
+          - "6.1375"
+          - "3.7625"
+          - "4.0625"
+          - "5.3625"
+          - "5.2875"
+          - "5.7125"
+          - "3.35"
+          - "6.6625"
+          - "3.3125"
+          - "12.9125"
+          - "12.8"
+          - "25.7125"
+          - "19.425"
+          - "2.975"
+          - "21.0875"
+          - "20.8375"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3122
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys megacephala
+          - F
+          - "64.4"
+          - "26.9"
+          - "28.7"
+          - "7.4"
+          - "6.1"
+          - "5.4"
+          - "8.4"
+          - "7.5"
+          - "6.5"
+          - "3.9"
+          - "8.3"
+          - "3.8"
+          - "14.9"
+          - "17.6"
+          - "32.5"
+          - "24.1"
+          - NA
+          - "27"
+          - "28"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 788
+        values:
+          - Anura
+          - Megophrys_megacephala
+          - "Mahony, S., Sengupta, S., Kamei, R. G., & Biju, S. D. (2011). A new low altitude species of Megophrys Kuhl and van Hasselt (Amphibia: Megophryidae), from Assam, Northeast India. Zootaxa(3059), 36-46. https://doi.org/10.11646/zootaxa.3059.1.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

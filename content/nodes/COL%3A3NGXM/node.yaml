@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus maculosus
+  displayName: Hyloxalus maculosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGXM
+  sourceIndexes:
+    - name:
+        en: Hyloxalus maculosus
+        zh: Hyloxalus maculosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGXM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/113
+            queryName: Hyloxalus maculosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/110
+            queryName: Colostethus maculosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a006fd835
+      - s-40ce164154
+      - s-8e8806f8c1
+      - s-836b53b10d
+      - s-e72c736a17
+      - s-28929a69fd
+      - s-51022bb25d
+      - s-4045c2ad96
+      - s-9d325c14a6
+      - s-213f169338
+    zh:
+      - s-1b5bfacab3
+      - s-82238f7fee
+      - s-55ffde9e6d
+      - s-ece66affb5
+      - s-e783debba7
+      - s-f8472cb303
+      - s-399e1cc612
+      - s-079b3d2c5a
+      - s-c2b2275305
+      - s-7cd99991ce

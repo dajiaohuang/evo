@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropterotriton chico García-Castillo, Rovito, Wake & Parra-Olea, 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiropterotriton chico
+      zh: Chiropterotriton chico
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c22f4925a9
+            part: title
+          zh:
+            page: zh
+            section: s-c59ea422e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c22f4925a9
+            part: body
+          zh:
+            page: zh
+            section: s-c59ea422e3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fdb7e9b342
+            part: title
+          zh:
+            page: zh
+            section: s-4490593e27
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fdb7e9b342
+            part: body
+          zh:
+            page: zh
+            section: s-4490593e27
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f56c63e649
+            part: title
+          zh:
+            page: zh
+            section: s-1a3520a413
+            part: title
+        sourceIds:
+          - primary-pmc7518159-5y6ll
+        text:
+          en:
+            page: en
+            section: s-f56c63e649
+            part: body
+          zh:
+            page: zh
+            section: s-1a3520a413
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiropterotriton chico
+          url: https://www.checklistbank.org/dataset/316115/taxon/5Y6LL
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7518159-5y6ll
+        referenceId: ref-aa939430-0160-4adc-a421-e79425959058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiropterotriton chico: Named species cave survey and pathogen observations, with explicit sample, historical-genotype and causal limits; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e718c86c43
+        part: body
+      zh:
+        page: zh
+        section: s-e776aba2f7
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.9763
+        referenceId: ref-aa939430-0160-4adc-a421-e79425959058
+        sourceKey: primary-pmc7518159-5y6ll
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7518159/article.xml
+        sourceConcept: Chiropterotriton chico
+        evidenceRead: "Chiropterotriton chico: Named species cave survey and pathogen observations, with explicit sample, historical-genotype and causal limits; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: An attributed 1974 historical Bd detection
+              zh: 所归属 1974 年历史 Bd 检出
+            referenceId: ref-aa939430-0160-4adc-a421-e79425959058
+            sourceKey: primary-pmc7518159-5y6ll
+            locator: PMC7518159 reading-sections section 3, paragraph 10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-251dd19ef9
+                part: body
+              zh:
+                page: zh
+                section: s-a0e9f39f93
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Breviceps fichus
+  displayName: Breviceps fichus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N9P5
+  sourceIndexes:
+    - name:
+        en: Breviceps fichus
+        zh: Breviceps fichus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N9P5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/459
+            queryName: Breviceps fichus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e9b838ed1
+      - s-a48a16a744
+      - s-613fd99815
+      - s-c79277af4e
+      - s-07fce8ea13
+      - s-1bb39ec3c7
+      - s-9e2bdfad4a
+      - s-a01ff3ffdc
+      - s-02bfab31e5
+      - s-d508e34de7
+      - s-c7785b25a1
+      - s-0613108eb7
+    zh:
+      - s-a04fb35694
+      - s-7e92a16de1
+      - s-39491d250b
+      - s-398ddf0b03
+      - s-7c5fd70510
+      - s-7133de4d76
+      - s-4e122dce83
+      - s-af2bcaad0a
+      - s-c954dd3e80
+      - s-8ab5f090dc
+      - s-b18c5d3793
+      - s-68b98d18ec

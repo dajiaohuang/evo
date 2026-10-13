@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene lynchi
+  displayName: Centrolene lynchi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S9YN
+  sourceIndexes:
+    - name:
+        en: Centrolene lynchi
+        zh: Centrolene lynchi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S9YN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/190
+            queryName: Centrolene lynchi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/466
+            queryName: Centrolene gemmatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/482
+            queryName: Centrolene scirtetes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/375
+            queryName: Centrolenella lynchi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/377
+            queryName: Centrolenella scirtetes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/433
+            queryName: Centrolenella gemmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-321deb7a0d
+      - s-119f6d5c76
+      - s-52756f86cf
+      - s-17f0996c8c
+      - s-4f2dc83c7a
+      - s-1f56de56da
+      - s-12bb1855b8
+      - s-cf37372479
+      - s-e8a5bbc551
+      - s-e6854a40ce
+      - s-8b786cb9d4
+      - s-53bac388bf
+    zh:
+      - s-9dca557759
+      - s-1c1f9077db
+      - s-0d85560e07
+      - s-4a0f8ee171
+      - s-c1e4857dc0
+      - s-53693af775
+      - s-21a28322aa
+      - s-0511185835
+      - s-6c035092b9
+      - s-3721f612f7
+      - s-1fc68947bc
+      - s-fc5d50719b

@@ -1,0 +1,135 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pteronia elata B.Nord.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4PZVT, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4PZVT; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4PZVT
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4PZVT
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000123228-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4PZVT / WFO wfo-0000123228
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14820_0
+        referenceId: ref-aed3435a-e1c9-8ad0-adfc-ac50c60a9b22
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Pteronia elata B.Nord. account; archive rows 34373 (Morphology), 40194 (Habitat), source identifier 14820.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_4116_0
+        referenceId: ref-73167f81-e022-8e76-ae29-922e5ac9de61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Pteronia elata B.Nord. account; archive rows 46762 (Diagnostic), source identifier 4116.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Shrub, 1-2 m tall. Leaves opposite, in distant pairs or crowded on lateral short shoots, spathulate to narrowly oblong-obovate, base half stem-clasping, apex rounded, obscurely apiculate, margins regularly white-toothed, otherwise glabrous. Flowerheads discoid, terminal, solitary, shortly pedunculate, ± campanulate; involucral bracts leathery-cartilaginous, glabrous, pale golden-yellow to straw-coloured, brownish towards apex, obtuse or rounded apically; disc florets yellow. Cypselas densely short-haired; pappus brownish.
+            sourceIds:
+              - sanbi_14820_0
+            locator: "SANBI/WFO archive Morphology row 34373; source 14820.0; publication: Herman, PPJ. 2013. Asteraceae: Pteronia. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 317 - 321. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: "This striking new species is very distinct, and I am unable to suggest any immediate allies. In the classification of Hutchinson and Phillips (1917) the species would belong to sect. Ciliatae Hutch. & Phill. The key designed by these authors leads to P. adenocarpa Harv., a species of the Upper Karroo, distributed from Worcester to Victoria West and eastwards to Albany. This is a very different species, however, with much larger capitula and glandular, glabrous achenes. The new species may have closer affinities to P. gymnocline DC. and P. lucilioides DC, both of which are known from the Richtersveld. These two species differ from P. elata by their narrower, linear to oblanceolate leaves, which are not obligately opposite, and by the pointed tips of the young involucres. By characters of leaf pubescence these three species belong to three different sections in the essentially artificial scheme proposed by Hutchinson and Phillips. The leaves are glabrous in P. gymnocline (sect. Glabratae), papillate in P. lucilioides (sect. Papillatae), and glabrous with ciliate margins in P. elata (sect. Ciliatae). In the modest vegetation of the desolate mountains near Stinkfontein (now: Ecksteinfontein), the tall and lanky shrubs of P. elata are a quite conspicuous feature."
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_4116_0
+            locator: "SANBI/WFO archive Diagnostic row 46762; source 4116.0; publication: Nordenstam, RB. 1971. New South African Compositae. Bot. Not. 124: 9 - 15. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mountain sides.
+            sourceIds:
+              - sanbi_14820_0
+            locator: "SANBI/WFO archive Habitat row 40194; source 14820.0; publication: Herman, PPJ. 2013. Asteraceae: Pteronia. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 317 - 321. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    reader:
+      zh:
+        overview:
+          page: zh
+          section: s-e8bbca3370
+          part: body
+      en:
+        overview:
+          page: en
+          section: s-e329b82636
+          part: body

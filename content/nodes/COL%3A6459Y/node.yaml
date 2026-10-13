@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger
+  displayName: Scutiger
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6459Y
+  sourceIndexes:
+    - name:
+        en: Scutiger
+        zh: Scutiger
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6459Y
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/257
+            queryName: Scutiger
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 194
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd6e404f9c
+      - s-24e700d9b5
+      - s-e0839f68fa
+      - s-46443fd910
+      - s-aa6d6fe6d1
+      - s-222c2ca72e
+      - s-4837dce2ad
+      - s-957434134f
+      - s-1f5c518aa1
+      - s-4bd72eb014
+      - s-2922c559cc
+      - s-b7530e386d
+      - s-e64458abfe
+    zh:
+      - s-7b01e511da
+      - s-f786fd549c
+      - s-11c70e3eec
+      - s-0b5766cd53
+      - s-6e14d8164d
+      - s-0bf1856039
+      - s-8bcbb53ff4
+      - s-527934bed5
+      - s-d69b47e45d
+      - s-16697567f4
+      - s-b91c94feb8
+      - s-625af92a15
+      - s-38040d0212

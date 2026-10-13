@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax rhodostigmatus
+  displayName: Oreolalax rhodostigmatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74SK5
+  sourceIndexes:
+    - name:
+        en: Oreolalax rhodostigmatus
+        zh: Oreolalax rhodostigmatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74SK5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/226
+            queryName: Oreolalax rhodostigmatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/248
+            queryName: Scutiger rhodostigmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d1cc18514
+      - s-ace532685d
+      - s-5200a31dc9
+      - s-abcd091dfe
+      - s-99b09e4ad9
+      - s-972590e507
+      - s-418c3c6da0
+      - s-f15a9a45cd
+      - s-1b4bc428c6
+      - s-efa3f4e562
+    zh:
+      - s-590c2c8007
+      - s-fa2f8ee1ce
+      - s-5070b06534
+      - s-62bc73ca1a
+      - s-0d2183f570
+      - s-fe5daa64e2
+      - s-d8c9498311
+      - s-041e10e790
+      - s-1aa7cd33ff
+      - s-1948638eae

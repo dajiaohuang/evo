@@ -1,0 +1,11 @@
+## Attalea cephalotus: leaves, flowers and fruit structure {#s-cd4f9d8a4d}
+The Brazilian Flora 2020 field lists the stem as aerial or subterranean, or as very short, and includes the note “under 25 cm diameter”; the field does not clarify how that note relates to the alternatives. Leaf sheaths are fibrous and petioles are absent. Pinnae are described as clustered or uniformly arranged along the rachis, attached at a single angle, with glabrous margins. The slightly curved rachis is also described with vertical and horizontal placement on the plant and whitish indumentum.
+
+The field lists androgynous or pistillate inflorescences and staminate inflorescences. Both have deeply grooved peduncular bracts and numerous rachillae; the rachillae are helically arranged. In androgynous inflorescences, pistillate flowers are paired with staminate flowers in the basal portion, while only staminate flowers occur distally.
+
+Male flowers are described as surface-attached or helically inserted on the rachilla, in pairs or singly on its abaxial surface. Their 3 petals are free, linear, non-coriaceous, transversely flattened and straight, with conspicuous venation and smooth margins; the petals are longer than the 6 stamens. Anthers are straight or rarely curved. Pistillate flowers are absent from staminate plants or occur only at the base of rachillae in androgynous inflorescences. Their petals are cuspidate with irregular margins; the staminal ring is membranous, smooth-edged, not tomentose and slightly denticulate. The stigma has 3 parts.
+
+Fruit has a smooth epicarp and a mesocarp listed as thick or narrow. The endocarp has an irregular surface, robust adherent fibres and an irregular base; its locule or operculum is inconspicuous. The field also describes one or more cavities, a prominent circular cluster of fibres inside, and aborted locules not compressed by fertile locules. The seed count is 1 or more.
+
+These descriptors come from one morphology field in the regional Brazilian Flora 2020 dataset; they do not establish a global description, sampling coverage, population variation, sex or life stage. Source alternatives and the unclear “under 25 cm diameter” note are retained without resolving them. The field does not identify the material as wild, cultivated, managed or fossil.
+

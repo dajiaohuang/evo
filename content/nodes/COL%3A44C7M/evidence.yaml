@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea lilacina Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 44C7M, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000785168.
+      scope: Moraea as represented by COL26.8 usage 44C7M. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/44C7M
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 44C7M
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000785168-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 44C7M / WFO wfo-0000785168
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-20d0ec4d-c325-85a0-a01a-cecb4d7f1682
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 7428 (Morphology), 29410 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 94247 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 20-35 cm. Leaf solitary, linear, channelled. Flowers pale pink with a bright yellow mark on each outer tepal, inner tepals trifid with a long, incurving, central cusp.
+            textZh: Moraea lilacina Goldblatt & J.C.Manning 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Morphology row 7428, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: Recognised by the pink to lilac flowers with outer tepals 27-30 mm long, and 3-lobed inner tepals 16-18 mm long. The inner tepals have a narrow, channelled claw but the 3-lobed limb consists of an erect central cusp ± 9 mm long and shorter rounded lateral lobes. The filaments are 7-8 mm long with a papillate or smooth column, The species is clearly allied to the widespread southern African winter-rainfall M. unguiculata, a remarkably variable species, both as regards perianth colour and size, but its critical features are inner tepals 10-12 mm long and trilobed with the central cusp linear and coiled inward, filaments usually 3-5 mm long with the column lightly to densely papillate, and the outer tepals are typically 12-16 mm long, rarely up to 24 mm long in northern Namaqualand populations. The stems in M. unguiculata are almost always branched unless depauperate due to environmental conditions but typically unbranched in M. lilacina. The outer tepals of M. unguiculata may be white to cream-coloured, brown, violet, or even dull yellow and usually have a contrasting mark at the base of the limb, and the style branches are narrow and spreading as in M. lilacina, but with erect crests 2.0-4.0(-5.5) mm long vs. 5-8 mm in M. lilacina.
+            textZh: SANBI 条目提供了 Moraea lilacina Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94247, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony slopes in renosterveld.
+            textZh: SANBI 区域植物志将 Moraea lilacina Goldblatt & J.C.Manning 的生境记为：Stony slopes in renosterveld.
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Habitat row 29410, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

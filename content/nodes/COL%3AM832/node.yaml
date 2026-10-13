@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana stenocephala
+  displayName: Boana stenocephala
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M832
+  sourceIndexes:
+    - name:
+        en: Boana stenocephala
+        zh: Boana stenocephala
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M832
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/38
+            queryName: Boana stenocephala
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/475
+            queryName: Hyla stenocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/201
+            queryName: Hypsiboas stenocephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a1981c2beb
+      - s-534014c35d
+      - s-092c2cddae
+      - s-0dcdb5a277
+      - s-c3267c0d31
+      - s-d90258b807
+      - s-7424b99f91
+      - s-f37ec68fe6
+      - s-fc9a4bab7c
+      - s-8b3fed6644
+    zh:
+      - s-be559700f2
+      - s-93c2139aca
+      - s-08185e199f
+      - s-0769ed9bdd
+      - s-23ad39ea4e
+      - s-5cb05f61ea
+      - s-efc6e97a65
+      - s-b13608c535
+      - s-0424a99130
+      - s-4b5c5f50b6

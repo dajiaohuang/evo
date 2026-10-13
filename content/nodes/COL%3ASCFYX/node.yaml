@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis nankints
+  displayName: Pristimantis nankints
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCFYX
+  sourceIndexes:
+    - name:
+        en: Pristimantis nankints
+        zh: Pristimantis nankints
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCFYX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/432
+            queryName: Pristimantis nankints
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8764a69a60
+      - s-bd20d129ab
+      - s-adbeec20a4
+      - s-c954c8a7b0
+      - s-dc024b6562
+      - s-83b91e3e8e
+      - s-200f0dc49d
+    zh:
+      - s-0cc29d30dd
+      - s-791358504b
+      - s-5f1e36e75c
+      - s-9c5fd9cbc1
+      - s-0391da9f7b
+      - s-1d96973e8e
+      - s-b92d46b1a1

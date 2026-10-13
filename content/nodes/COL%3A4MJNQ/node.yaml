@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis saturninoi
+  displayName: Pristimantis saturninoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJNQ
+  sourceIndexes:
+    - name:
+        en: Pristimantis saturninoi
+        zh: Pristimantis saturninoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJNQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/80
+            queryName: Pristimantis saturninoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/225
+            queryName: Pristimantis saturtinoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-349e00dac1
+      - s-c44c39eefd
+      - s-4b42df9121
+      - s-3688739e33
+      - s-cc35d6e22b
+      - s-2b9d1f65a6
+      - s-d8642c0696
+      - s-16301475c2
+      - s-12cb9e5743
+      - s-e1f2acb928
+    zh:
+      - s-16702b670b
+      - s-75040c77de
+      - s-76cfe85354
+      - s-52df155ab8
+      - s-b3ae6df9fe
+      - s-c45559e61a
+      - s-a53a86eb93
+      - s-341e2cd785
+      - s-f2aa0830e0
+      - s-488ee0e784

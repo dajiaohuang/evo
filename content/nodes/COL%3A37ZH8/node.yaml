@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duellmanohyla ignicolor
+  displayName: Duellmanohyla ignicolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37ZH8
+  sourceIndexes:
+    - name:
+        en: Duellmanohyla ignicolor
+        zh: Duellmanohyla ignicolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37ZH8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/66
+            queryName: Duellmanohyla ignicolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/12
+            queryName: Ptychohyla ignicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/296
+            queryName: Hyla ignicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d48e03b493
+      - s-fd4aeb2085
+      - s-ce764e649b
+      - s-5df522f81a
+      - s-1f69f67de7
+      - s-b7f6cfd577
+      - s-c227c2108d
+      - s-bd2c360d93
+      - s-756cc892e3
+      - s-cbeb18cdbf
+      - s-0b6db82aae
+      - s-a6cfaf064c
+      - s-d0675add30
+      - s-edc84e3612
+      - s-99c347f09e
+      - s-31b55554a9
+      - s-12284cddbe
+    zh:
+      - s-07145cf510
+      - s-10d7f53804
+      - s-82df70d0a7
+      - s-ed5bf167e9
+      - s-da40e785e9
+      - s-8d6274e198
+      - s-cee60cad45
+      - s-2aaa835daa
+      - s-8673ed7815
+      - s-8f857bd8fc
+      - s-e4937ab4ea
+      - s-db5e09c428
+      - s-b61a9a3249
+      - s-54b192f3dc
+      - s-ab1dce3bda
+      - s-06cc9f4661
+      - s-99dd92f0c2

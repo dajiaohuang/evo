@@ -1,0 +1,985 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hylodes phyllodes Heyer & Cocroft, 1986
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hylodes phyllodes
+      zh: Hylodes phyllodes
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-184da331cc
+            part: title
+          zh:
+            page: zh
+            section: s-f777d61757
+            part: title
+        text:
+          en:
+            page: en
+            section: s-184da331cc
+            part: body
+          zh:
+            page: zh
+            section: s-f777d61757
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-45b07cd5fa
+            part: title
+          zh:
+            page: zh
+            section: s-f689735d1d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-45b07cd5fa
+            part: body
+          zh:
+            page: zh
+            section: s-f689735d1d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7c62acd321
+            part: title
+          zh:
+            page: zh
+            section: s-c88891e2bd
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-7c62acd321
+            part: body
+          zh:
+            page: zh
+            section: s-c88891e2bd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7ddaa61848
+            part: title
+          zh:
+            page: zh
+            section: s-85cf243be5
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-7ddaa61848
+            part: body
+          zh:
+            page: zh
+            section: s-85cf243be5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cf931fc6f2
+            part: title
+          zh:
+            page: zh
+            section: s-338e7db67b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+        text:
+          en:
+            page: en
+            section: s-cf931fc6f2
+            part: body
+          zh:
+            page: zh
+            section: s-338e7db67b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a3954c5320
+            part: title
+          zh:
+            page: zh
+            section: s-fa6f09e73e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-a3954c5320
+            part: body
+          zh:
+            page: zh
+            section: s-fa6f09e73e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-a74e05e187
+            part: title
+          zh:
+            page: zh
+            section: s-7260bd4ffb
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-a74e05e187
+            part: body
+          zh:
+            page: zh
+            section: s-7260bd4ffb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-b0c70daab1
+            part: title
+          zh:
+            page: zh
+            section: s-7f58240c35
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-b0c70daab1
+            part: body
+          zh:
+            page: zh
+            section: s-7f58240c35
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-524e566fc6
+            part: title
+          zh:
+            page: zh
+            section: s-e4ea79bc19
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-524e566fc6
+            part: body
+          zh:
+            page: zh
+            section: s-e4ea79bc19
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-7abaae5962396587981eb3284fcdccf4
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-b2bed0e84c2c47de2ab69472
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-bc8c5eb873d2d7242455ae15
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-99b86100c8
+            part: title
+          zh:
+            page: zh
+            section: s-62822c4010
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-99b86100c8
+            part: body
+          zh:
+            page: zh
+            section: s-62822c4010
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d4e32ca17b
+            part: title
+          zh:
+            page: zh
+            section: s-c1ff6b0674
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d4e32ca17b
+            part: body
+          zh:
+            page: zh
+            section: s-c1ff6b0674
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2cb1e69325
+            part: title
+          zh:
+            page: zh
+            section: s-ca6a01310e
+            part: title
+        sourceIds:
+          - primary-pmc10688756-3ng9f
+        text:
+          en:
+            page: en
+            section: s-2cb1e69325
+            part: body
+          zh:
+            page: zh
+            section: s-ca6a01310e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-24e97abae3
+            part: title
+          zh:
+            page: zh
+            section: s-1a1d6f0710
+            part: title
+        sourceIds:
+          - primary-pmc10688756-3ng9f
+        text:
+          en:
+            page: en
+            section: s-24e97abae3
+            part: body
+          zh:
+            page: zh
+            section: s-1a1d6f0710
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cc375c98cc
+            part: title
+          zh:
+            page: zh
+            section: s-44a4e847ed
+            part: title
+        sourceIds:
+          - primary-pmc10688756-3ng9f
+        text:
+          en:
+            page: en
+            section: s-cc375c98cc
+            part: body
+          zh:
+            page: zh
+            section: s-44a4e847ed
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-39c27b9b35
+            part: title
+          zh:
+            page: zh
+            section: s-936e0dfa9d
+            part: title
+        sourceIds:
+          - primary-pmc11117230-3ng9f
+        text:
+          en:
+            page: en
+            section: s-39c27b9b35
+            part: body
+          zh:
+            page: zh
+            section: s-936e0dfa9d
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d429ead2ee
+            part: title
+          zh:
+            page: zh
+            section: s-bf3644dc42
+            part: title
+        sourceIds:
+          - primary-pmc11117230-3ng9f
+        text:
+          en:
+            page: en
+            section: s-d429ead2ee
+            part: body
+          zh:
+            page: zh
+            section: s-bf3644dc42
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9db054fb0b
+            part: title
+          zh:
+            page: zh
+            section: s-f49b244788
+            part: title
+        sourceIds:
+          - primary-pmc11117230-3ng9f
+        text:
+          en:
+            page: en
+            section: s-9db054fb0b
+            part: body
+          zh:
+            page: zh
+            section: s-f49b244788
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-53e76caafb
+            part: title
+          zh:
+            page: zh
+            section: s-79d82b4a3d
+            part: title
+        sourceIds:
+          - primary-pmc11117230-3ng9f
+        text:
+          en:
+            page: en
+            section: s-53e76caafb
+            part: body
+          zh:
+            page: zh
+            section: s-79d82b4a3d
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c85efc34f1
+            part: title
+          zh:
+            page: zh
+            section: s-44cac2eaa9
+            part: title
+        sourceIds:
+          - primary-pmc8819055-3ng9f
+        text:
+          en:
+            page: en
+            section: s-c85efc34f1
+            part: body
+          zh:
+            page: zh
+            section: s-44cac2eaa9
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-0abb938fa6
+            part: title
+          zh:
+            page: zh
+            section: s-1194fadbb7
+            part: title
+        sourceIds:
+          - primary-pmc8819055-3ng9f
+        text:
+          en:
+            page: en
+            section: s-0abb938fa6
+            part: body
+          zh:
+            page: zh
+            section: s-1194fadbb7
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0967137e19
+            part: title
+          zh:
+            page: zh
+            section: s-9119183d38
+            part: title
+        sourceIds:
+          - primary-pmc8819055-3ng9f
+        text:
+          en:
+            page: en
+            section: s-0967137e19
+            part: body
+          zh:
+            page: zh
+            section: s-9119183d38
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hylodes phyllodes
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NG9F
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3041; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3041 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2677; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2195; Reference.csv rows 527
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10688756-3ng9f
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hylodes phyllodes: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc11117230-3ng9f
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hylodes phyllodes: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc8819055-3ng9f
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hylodes phyllodes: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-838808f8bf
+        part: body
+      zh:
+        page: zh
+        section: s-08d7b4e77b
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-7abaae5962396587981eb3284fcdccf4
+      sourceRowId: Anf3041
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf3041
+        bibliographyRowId: Anf3041
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Hylodes phyllodes
+        candidateBibliographyRowIds:
+          - Anf3041
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-b2bed0e84c2c47de2ab69472
+        scientificName: Hylodes phyllodes
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-bc8c5eb873d2d7242455ae15
+        scientificName: Hylodes phyllodes
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-3ng9f
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Hylodes_phyllodes, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Hylodes phyllodes: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-3ng9f
+            locator: PMC10688756 S3 File Traits row 190 Hylodes_phyllodes; XML Functional diversity; upstream reference numbers 1, 2, 3, 21
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-22d9713392
+                part: body
+              zh:
+                page: zh
+                section: s-9ccba3dfb9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-3ng9f
+            locator: PMC10688756 S3 File Traits row 190 Hylodes_phyllodes habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2feefca0a2
+                part: body
+              zh:
+                page: zh
+                section: s-42c2023839
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-3ng9f
+            locator: PMC10688756 S3 File Traits row 190 Hylodes_phyllodes length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9f1f68aa5e
+                part: body
+              zh:
+                page: zh
+                section: s-6867d8cf7f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani14101406
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        sourceKey: primary-pmc11117230-3ng9f
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/article.xml
+        sourceConcept: 2024 TableS1 exact-name Hylodes phyllodes paired-stage image/literature compilation; vouchers and cross-revision biological identity not independently certified
+        evidenceRead: "Hylodes phyllodes: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A larval image record with explicit provenance
+              zh: 具有明确来源的幼体图像记录
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-3ng9f
+            locator: PMC11117230 supplementary TableS1 PDF page3 row5 Hylodes phyllodes tadpoleSource/Voucher columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-54358e09b6
+                part: body
+              zh:
+                page: zh
+                section: s-ce20d2d854
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Adult measurements preserve source type and sex limits
+              zh: 成体测量保留来源类型及性别限制
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-3ng9f
+            locator: PMC11117230 supplementary TableS1 PDF page3 row5 adultSource/Voucher/Sex columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e97201ee0d
+                part: body
+              zh:
+                page: zh
+                section: s-30da5f6819
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Larval guild and adult ecomorph are separate source categories
+              zh: 幼体功能群及成体生态型是分开来源类别
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-3ng9f
+            locator: PMC11117230 supplementary TableS1 PDF page3 row5 Guild/Ecomorph; page1 caption; XML Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-285a90c114
+                part: body
+              zh:
+                page: zh
+                section: s-f36f9148bb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Paired-stage comparisons do not establish complete developmental independence
+              zh: 配对阶段比较不确立完全发育独立
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-3ng9f
+            locator: PMC11117230 XML Results3.2–3.3; Tables1–2; Discussion; supplementary TableS2/S3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4240de28ed
+                part: body
+              zh:
+                page: zh
+                section: s-93a1e96470
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1111/joa.13569
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        sourceKey: primary-pmc8819055-3ng9f
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8819055/article.xml
+        sourceConcept: Source Hylodes phyllodes; preserved-specimen observation; exact name or explicit nomenclatural link only
+        evidenceRead: "Hylodes phyllodes: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Original bilingual factual descriptions of specimen-based histology and explicitly identified literature-derived outgroups; no source prose, tables or figures reproduced or adapted.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Hand glands in the examined adult-male evidence
+              zh: 所检查成体雄性证据中的手部腺体
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-3ng9f
+            locator: PMC8819055 XML Table2 joa13569-tbl-0002 tbody row38, literalHylodes phyllodes; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0fff6f6a7f
+                part: body
+              zh:
+                page: zh
+                section: s-7f690e0e84
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Preserved material, finger numbering and staining
+              zh: 保存材料、指序和染色方法
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-3ng9f
+            locator: PMC8819055 XML sec0003–0006; PMC8819055 XML Table2 joa13569-tbl-0002 tbody row38, literalHylodes phyllodes; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f48b2a772c
+                part: body
+              zh:
+                page: zh
+                section: s-38eaea0b63
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: A proposed reproductive role remains untested
+              zh: 提出的繁殖功能仍未验证
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-3ng9f
+            locator: PMC8819055 XML sec0023
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-45a584e4a6
+                part: body
+              zh:
+                page: zh
+                section: s-fb685582aa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

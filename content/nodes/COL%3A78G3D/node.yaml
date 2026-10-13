@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudohynobius kuankuoshuiensis
+  displayName: Pseudohynobius kuankuoshuiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78G3D
+  sourceIndexes:
+    - name:
+        en: Pseudohynobius kuankuoshuiensis
+        zh: Pseudohynobius kuankuoshuiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78G3D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/324
+            queryName: Pseudohynobius kuankuoshuiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db25d49af4
+      - s-6cdfd92470
+      - s-400b9c22f5
+      - s-3e602c648c
+      - s-69c22c6211
+      - s-4d063236a8
+      - s-c550c0ba02
+      - s-7db8d3cfe2
+    zh:
+      - s-cecafd6d5f
+      - s-3f2b0991c7
+      - s-4a7742d38d
+      - s-26429f5bfb
+      - s-7e43618905
+      - s-ab5de1690d
+      - s-4210a692b8
+      - s-3cb015a4da

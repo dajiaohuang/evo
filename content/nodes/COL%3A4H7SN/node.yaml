@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllomedusa vaillantii
+  displayName: Phyllomedusa vaillantii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7SN
+  sourceIndexes:
+    - name:
+        en: Phyllomedusa vaillantii
+        zh: Phyllomedusa vaillantii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7SN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/281
+            queryName: Phyllomedusa vaillantii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/393
+            queryName: Phyllomedusa blombergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/398
+            queryName: Phyllomedusa feltoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/407
+            queryName: Phyllomedusa perlata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/4
+            queryName: Pithecopus vaillanti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e94eb94f9c
+      - s-8c57f77fdb
+      - s-c5389c2b98
+      - s-a90ae69376
+      - s-89a6c7e2d6
+      - s-913e43ab58
+      - s-2d74d98cd0
+      - s-ef56460666
+      - s-8f8cf1a4fe
+      - s-ac47fd40e0
+      - s-76ffbf374b
+    zh:
+      - s-de4cad970a
+      - s-c6097a01c1
+      - s-1745424c58
+      - s-b0fd80148e
+      - s-89c0a6ba2e
+      - s-9b48ebeeb7
+      - s-b1fe99ebb2
+      - s-2be297feb5
+      - s-b0e7b71c6b
+      - s-21131f416a
+      - s-8ab65aab97

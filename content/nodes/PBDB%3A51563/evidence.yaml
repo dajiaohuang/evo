@@ -1,0 +1,176 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Simimeryx hudsoni
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Simimeryx hudsoni
+      en: Simimeryx hudsoni
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dbc4693083
+            part: body
+          en:
+            page: en
+            section: s-3ae9e68e65
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-98ad942595
+            part: body
+          en:
+            page: en
+            section: s-3ba55232ac
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3f5db2577d
+            part: body
+          en:
+            page: en
+            section: s-7eb452d51e
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0083824026
+            part: body
+          en:
+            page: en
+            section: s-dfe443b88c
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-60a162af26
+            part: body
+          en:
+            page: en
+            section: s-b144140c5c
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Simimeryx hudsoni
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=51563&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:51563; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:51563
+          selectedOccurrenceIds:
+            - occ:177289
+            - occ:177299
+            - occ:177305
+            - occ:177309
+            - occ:177316
+            - occ:177324
+            - occ:177330
+            - occ:177335
+            - occ:177337
+            - occ:177356
+            - occ:177363
+          selectedCollectionIds:
+            - col:16800
+            - col:16801
+            - col:16803
+            - col:16804
+            - col:16805
+            - col:16806
+            - col:16807
+            - col:16808
+            - col:16809
+            - col:16810
+            - col:16811
+          sourceReferenceIds:
+            - ref:2059
+            - ref:1681
+          originalIdentificationMappings:
+            - occurrenceId: occ:177356
+              originalIdentifiedName: Simimeryx hudsoni n. sp.
+              acceptedName: Simimeryx hudsoni
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-213c1af1f0
+        part: body
+      en:
+        page: en
+        section: s-382aed07bc
+        part: body

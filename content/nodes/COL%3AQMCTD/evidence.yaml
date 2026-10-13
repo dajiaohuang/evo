@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantidactylus macrotympanum Rabibisoa, Welt & Raxworthy, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mantidactylus macrotympanum
+      zh: Mantidactylus macrotympanum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b5eefb53c9
+            part: title
+          zh:
+            page: zh
+            section: s-b21d54cbeb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b5eefb53c9
+            part: body
+          zh:
+            page: zh
+            section: s-b21d54cbeb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5096c520dc
+            part: title
+          zh:
+            page: zh
+            section: s-fd9c991f50
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5096c520dc
+            part: body
+          zh:
+            page: zh
+            section: s-fd9c991f50
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ddaa56cc46
+            part: title
+          zh:
+            page: zh
+            section: s-6ab1dc9e9e
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctd
+        text:
+          en:
+            page: en
+            section: s-ddaa56cc46
+            part: body
+          zh:
+            page: zh
+            section: s-6ab1dc9e9e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9b97f31878
+            part: title
+          zh:
+            page: zh
+            section: s-eb28b30696
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctd
+        text:
+          en:
+            page: en
+            section: s-9b97f31878
+            part: body
+          zh:
+            page: zh
+            section: s-eb28b30696
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-d6922a3596
+            part: title
+          zh:
+            page: zh
+            section: s-e7d05b15f1
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctd
+        text:
+          en:
+            page: en
+            section: s-d6922a3596
+            part: body
+          zh:
+            page: zh
+            section: s-e7d05b15f1
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cc66f7cade
+            part: title
+          zh:
+            page: zh
+            section: s-da0c33d6fd
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctd
+        text:
+          en:
+            page: en
+            section: s-cc66f7cade
+            part: body
+          zh:
+            page: zh
+            section: s-da0c33d6fd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantidactylus macrotympanum
+          url: https://www.checklistbank.org/dataset/316115/taxon/QMCTD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10563080-qmctd
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Mantidactylus macrotympanum: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e6b0ea36fb
+        part: body
+      zh:
+        page: zh
+        section: s-b0aec0fa62
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani13172800
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        sourceKey: primary-pmc10563080-qmctd
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10563080/article.xml
+        sourceConcept: Mantidactylus macrotympanum
+        evidenceRead: "Mantidactylus macrotympanum: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Only males provide measured adult size in this description
+              zh: 该描述的成年体长实测仅来自雄性
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctd
+            locator: PMC10563080 reading-sections section 12 paragraphs 2, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ed0aa6c15d
+                part: body
+              zh:
+                page: zh
+                section: s-8de0975186
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Male encounters span quiet streams and rocks in fast rivers
+              zh: 雄性遇见记录跨缓溪及急河岩石
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctd
+            locator: PMC10563080 reading-sections section 12 paragraphs 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c3f53298ea
+                part: body
+              zh:
+                page: zh
+                section: s-b716d94708
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: distribution
+            heading:
+              en: Named northern localities carry different elevation information
+              zh: 北部具名地点具有不同海拔信息
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctd
+            locator: PMC10563080 reading-sections section 12 paragraphs 8
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7862e5dd0a
+                part: body
+              zh:
+                page: zh
+                section: s-dedb9f91f0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Three genetic vouchers do not resolve broader subgenus membership
+              zh: 三个遗传凭证未解决更广的亚属归属
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctd
+            locator: PMC10563080 reading-sections section 12 paragraphs 9; section 15 paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-53898c81d5
+                part: body
+              zh:
+                page: zh
+                section: s-429fb2e30d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

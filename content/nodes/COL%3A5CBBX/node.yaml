@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus epitropicalis
+  displayName: Xenopus epitropicalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBBX
+  sourceIndexes:
+    - name:
+        en: Xenopus epitropicalis
+        zh: Xenopus epitropicalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBBX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/309
+            queryName: Xenopus epitropicalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/384
+            queryName: Silurana epitropicalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-34bc661021
+      - s-6d29c53bb0
+      - s-778939965a
+      - s-3b35d110fc
+      - s-3633d3df42
+      - s-e5fd3efd5c
+      - s-9fe31a45d5
+      - s-f5211de7d5
+      - s-63375119c1
+      - s-1865881e85
+      - s-9d56fe4d39
+      - s-8e855fecea
+      - s-3b960ea101
+    zh:
+      - s-b4bbdc9d8c
+      - s-fe3d6ed678
+      - s-6b200f1b42
+      - s-5837ea6944
+      - s-5b36bede74
+      - s-994a7e2f01
+      - s-ac4696668a
+      - s-2d155c0025
+      - s-f91786a34e
+      - s-5b2ec65d37
+      - s-5e8deecff8
+      - s-2726c4ec3d
+      - s-6f16e27109

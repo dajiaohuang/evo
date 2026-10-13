@@ -1,0 +1,65 @@
+## 接受名称与分类位置 {#s-769c046474}
+COL26.8 接受 Hyperolius marmoratus Rapp, 1842 为种级记录，所记分类路径为 Anura（目） → Hyperoliidae（科） → Hyperolius（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+
+## 阅读路线 {#s-417b0b4ece}
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+
+## 觅食层位——AmphiBIO 来源 {#s-445aa9d395}
+历史来源概念：Hyperolius marmoratus，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。来源将 陆栖；树栖 标记为已记录的类别。这些是概括性的觅食类别；汇编没有详细区分季节变化或发育阶段变化。后续 TetrapodTraits 修订报告纠正了从早期汇编传播的部分两栖动物体重与微栖地记录。此处尚未取得受影响行的逐项比对；这些存档历史值或类别在再利用前需要核对。没有推断替代值，本说明也不把每条原记录判为错误。
+
+## 成体食物类别——AmphiBIO 来源 {#s-f1c2de4d73}
+历史来源概念：Hyperolius marmoratus，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。来源将 节肢动物 标记为已记录的类别。数据集从文献中的专家判断、观察或胃内容物记录汇总成体食物类别。某类别被记录，不表示完整食谱或实测食物比例。
+
+## 季节活动——AmphiBIO 来源 {#s-7b7393e7ae}
+历史来源概念：Hyperolius marmoratus，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。来源将 湿暖 标记为已记录的类别。季节类别将活动时的环境与当地全年气候比较，不对应全球固定的历月。
+
+## 汇编的成体尺寸——AmphiBIO 来源 {#s-20e36a7cc8}
+历史来源概念：Hyperolius marmoratus，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。AmphiBIO 记载 最大成体体长：43 mm。体长在无尾目指吻肛长，在有尾目和蚓螈目指全长。这些是汇编的最大成体值，不是每一个体的测量值。
+
+## 汇编的生活史——AmphiBIO 来源 {#s-eba085d182}
+历史来源概念：Hyperolius marmoratus，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。AmphiBIO 记载 最大寿命：4.7 年；每窝后代或卵的最小数量：150 个/枚；每窝后代或卵的最大数量：650 个/枚；每年最多繁殖次数：1 次/年；后代或卵的最小尺寸：1.3 mm；后代或卵的最大尺寸：1.5 mm。数据集从文献汇编极值和计数；本行没有逐值区分性别、种群、测量日期或野生与圈养条件。后代尺寸字段可能指后代或卵。
+
+## 发育方式——AmphiBIO 来源 {#s-72b99fd817}
+历史来源概念：Hyperolius marmoratus，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。存档记录标记 具有幼体阶段。这些来源类别本身不足以说明亲代照料、繁殖地点或季节时序。
+
+## 相关来源记录与数据集 {#s-f3a8625078}
+以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
+
+- [AmphiBIO v1: Hyperolius marmoratus](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Hyperoliidae/Hyperolius/Hyperolius_marmoratus/page.zh.md)
+- [TadpoleTraits v4: Hyperolius marmoratus](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Hyperoliidae/Hyperolius/Hyperolius_marmoratus/page.zh.md)
+- [AmphiTherm curated snapshot: Hyperolius marmoratus](../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Hyperoliidae/Hyperolius/Hyperolius_marmoratus/page.zh.md)
+- [AmphiBIO v1: Hyperolius swynnertoni](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Hyperoliidae/Hyperolius/Hyperolius_swynnertoni/page.zh.md)
+
+## 发育阶段材料——TadpoleTraits 来源 {#s-967ce04b27}
+存档来源概念：TadpoleTraits 中的 Hyperolius marmoratus。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。汇编为该来源概念保留 0 条文献数据行和 1 条图像数据行，提供的阶段条目为 37 (Judging based on the picture)。阶段值及其相伴不确定性按来源标签保留；由图像推断的阶段不视为直接记录的发育观察。数据行数不等于去重的动物数量，各研究的样本量字段也不跨研究相加。
+
+## 选列的图像比例——TadpoleTraits 来源 {#s-872b52de6f}
+存档来源概念：TadpoleTraits 中的 Hyperolius marmoratus。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。图像数据来源记载 躯体长度/全长 = 0.370634（来源第 567 行，阶段 37 (Judging based on the picture)）；尾长/全长 = 0.626969（来源第 567 行，阶段 37 (Judging based on the picture)）；躯体最大高度/全长 = 0.187627（来源第 567 行，阶段 37 (Judging based on the picture)）；尾部最大高度/全长 = 0.19901（来源第 567 行，阶段 37 (Judging based on the picture)）；尾肌高度/全长 = 0.0960736（来源第 567 行，阶段 37 (Judging based on the picture)）。显示值为便于阅读而作舍入，是无量纲的来源比例。图像可能是绘图或照片，这些值不是代表性野生种群的直接测量。有字段与同一行分子及全长不一致时，该字段不写入本节。
+
+## 选列的临界高温限估计——AmphiTherm 来源 {#s-44245f961e}
+存档来源概念：AmphiTherm 中的 Hyperolius marmoratus。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。来源第 1198 行（ID 1347，Davies_et_al_2015）为成体记载 44.14420063 °C，指标 CTmax，翻正反应丧失。所记温度适应条件为 15 °C。所记升温或降温速率为 0.4 °C/分钟。来源 n_trait 字段为 7；重复批次的样本量不能直接相加。这是一个选列的汇编估计，不是全物种耐受边界、环境温度范围或饲养建议；底层研究尚未独立重新分析。所记测试温度介质为 water，性别类别 mixed，动物来源 wild。处理字段：化学物质 NA，激素 NA，感染 NA，病原体 NA。NA 表示未报告，不证明没有处理；原实验与性状备注附于来源记录，仍需研究层级核对。存档不确定性字段为 0.752351097 °C（标准误）；两种量不能互换。
+
+## 选列的临界低温限估计——AmphiTherm 来源 {#s-ac3b1e87f9}
+存档来源概念：AmphiTherm 中的 Hyperolius marmoratus。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。来源第 1216 行（ID 1365，Davies_et_al_2015）为成体记载 3.198347107 °C，指标 CTmin，翻正反应丧失。所记温度适应条件为 15 °C。所记升温或降温速率为 0.5 °C/分钟。来源 n_trait 字段为 7；重复批次的样本量不能直接相加。这是一个选列的汇编估计，不是全物种耐受边界、环境温度范围或饲养建议；底层研究尚未独立重新分析。所记测试温度介质为 water，性别类别 mixed，动物来源 wild。处理字段：化学物质 NA，激素 NA，感染 NA，病原体 NA。NA 表示未报告，不证明没有处理；原实验与性状备注附于来源记录，仍需研究层级核对。存档不确定性字段为 0.338842975 °C（标准误）；两种量不能互换。
+
+## 已发表的 isiZulu 名称及其来源 {#s-4a2d5123bb}
+表 1 将 Hyperolius marmoratus 与 isiZulu 名称“Umgqagqa opendiwe”对应。在本研究汇编中，它在野外向导 Bongani Mkhize 协助下，修改自 Tarrant（2016）的名称。这是已发表的俗名拟定或修订，不能证明工作坊参与者原已使用这个精确的物种级短语，也不是动物命名法规管理的科学异名。名称保留表中文字拼写，来源上标单独记录，不拼入名称。
+
+## 工作坊词汇与后续物种命名 {#s-9be11c09f9}
+基础工作坊采用机会抽样：来自祖鲁兰五个地区、18–55 岁的 13 位 isiZulu 母语志愿者，2016年11月28日十人、12月1日三人在 Tembe Elephant Park 参与。参与者观看蛙类照片，集体讨论名称，并通过讨论协调分歧。工作坊获得的六个宽泛名称并没有分别区分全部 58 个物种。物种级名称是在工作坊后，由 Bongani Mkhize 协助，结合这些词汇、先前发表的名称及命名指南拟定。群体讨论未提供独立的逐人频率、全方言一致性或对 Hyperolius marmoratus 的识别准确率测试。
+
+## 地方命名类别能说明什么 {#s-5f7870191e}
+研究区分了宽泛民间类别与汇编所用科学物种标签。若干民间类别跨越多个科学属或科；对应关系只在该地区物种集合中评估，并非覆盖非洲全部两栖动物。涉及栖境、外观、地点或鸣声的名称，是本次命名工作中的语言选择。仅凭措辞不能构成 Hyperolius marmoratus 栖境偏好、体色、鸣声行为或地理限制的新测量。2019 年表格也不是当前占据调查或现今祖鲁兰完整名录。这里没有独立语言验证或当前社区使用调查。
+
+## catalogue-profile / limitations {#s-59646cc774}
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-c80d88b232}
+表 1 将 Hyperolius marmoratus 与 isiZulu 名称“Umgqagqa opendiwe”对应。在本研究汇编中，它在野外向导 Bongani Mkhize 协助下，修改自 Tarrant（2016）的名称。这是已发表的俗名拟定或修订，不能证明工作坊参与者原已使用这个精确的物种级短语，也不是动物命名法规管理的科学异名。名称保留表中文字拼写，来源上标单独记录，不拼入名称。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-59e60aeb17}
+基础工作坊采用机会抽样：来自祖鲁兰五个地区、18–55 岁的 13 位 isiZulu 母语志愿者，2016年11月28日十人、12月1日三人在 Tembe Elephant Park 参与。参与者观看蛙类照片，集体讨论名称，并通过讨论协调分歧。工作坊获得的六个宽泛名称并没有分别区分全部 58 个物种。物种级名称是在工作坊后，由 Bongani Mkhize 协助，结合这些词汇、先前发表的名称及命名指南拟定。群体讨论未提供独立的逐人频率、全方言一致性或对 Hyperolius marmoratus 的识别准确率测试。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-5c27c07f18}
+研究区分了宽泛民间类别与汇编所用科学物种标签。若干民间类别跨越多个科学属或科；对应关系只在该地区物种集合中评估，并非覆盖非洲全部两栖动物。涉及栖境、外观、地点或鸣声的名称，是本次命名工作中的语言选择。仅凭措辞不能构成 Hyperolius marmoratus 栖境偏好、体色、鸣声行为或地理限制的新测量。2019 年表格也不是当前占据调查或现今祖鲁兰完整名录。这里没有独立语言验证或当前社区使用调查。
+

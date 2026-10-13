@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Litoria
+  displayName: Litoria
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5FRY
+  sourceIndexes:
+    - name:
+        en: Litoria
+        zh: Litoria
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5FRY
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/14
+            queryName: Litoria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1241
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b8b6a0f3dc
+      - s-4135ac9e96
+      - s-124451cdd5
+      - s-6cdf52faf4
+      - s-e68470b66e
+      - s-19d07724f9
+      - s-fef761c78f
+    zh:
+      - s-03fb579a93
+      - s-00daedf626
+      - s-c349baa295
+      - s-8d935458a6
+      - s-38c5d69a7b
+      - s-8195a8e171
+      - s-2ef958e970

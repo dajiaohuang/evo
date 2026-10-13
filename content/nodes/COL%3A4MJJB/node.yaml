@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis moro
+  displayName: Pristimantis moro
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJB
+  sourceIndexes:
+    - name:
+        en: Pristimantis moro
+        zh: Pristimantis moro
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/420
+            queryName: Pristimantis moro
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/114
+            queryName: Eleutherodactylus lehmanvalenciae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/137
+            queryName: Eleutherodactylus moro
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-be1fb10f6f
+      - s-baa09c3199
+      - s-f38da8b1bf
+      - s-d7d95248c7
+      - s-4434c2d1e7
+      - s-ce92c53eb1
+      - s-b635dc29f7
+      - s-fae14ea356
+      - s-2fadfe6490
+      - s-3a15822c99
+    zh:
+      - s-dcd4daa2d1
+      - s-52509da889
+      - s-890c2b1855
+      - s-5dac2e4e52
+      - s-4add1f2489
+      - s-9226d6789d
+      - s-91950c82cf
+      - s-8be98764c2
+      - s-83789b74d6
+      - s-53a513ed51

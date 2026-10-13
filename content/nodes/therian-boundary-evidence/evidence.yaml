@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-a493ecd728
+          part: title
+        zh:
+          page: zh
+          section: s-e664a441d1
+          part: title
+      text:
+        en:
+          page: en
+          section: s-a493ecd728
+          part: body
+        zh:
+          page: zh
+          section: s-e664a441d1
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-2d96269939
+          part: title
+        zh:
+          page: zh
+          section: s-ac5d5a668e
+          part: title
+      text:
+        en:
+          page: en
+          section: s-2d96269939
+          part: body
+        zh:
+          page: zh
+          section: s-ac5d5a668e
+          part: body
+  atlas-node:
+    name: Therian boundary evidence
+    commonName: Early therian evidence routes
+    commonNameZh: 早期兽亚纲证据导航
+    rank: navigation group
+    taxonId: ""
+    firstAppearance: 161
+    lastAppearance: 124.1
+    extinct: true
+    entityKind: navigation-group
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:therian-boundary-evidence
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Therian boundary evidence is an atlas navigation route spanning separately sampled Juramaia, Eomaia and Ambolestes records from approximately 161–124.1 Ma; it is not a taxonomic clade, continuous lineage or ancestor sequence, and its older endpoint inherits the disputed Juramaia provenance.
+      confidence: contested
+      confidenceRationale: Three primary studies support separate specimens and analyses. The route construction and Juramaia caveat are explicit, so no clade or lineage claim is made.
+      referenceLinks:
+        - relation: supports
+          referenceId: luo-2011-juramaia
+          pages: 442–445
+          figure: Figures 1–3
+          quoteLocator: Holotype; formation attribution; phylogenetic analysis
+        - relation: supports
+          referenceId: ji-2002-eomaia
+          pages: 816–822
+          figure: Figures 1–6
+          quoteLocator: Holotype and phylogenetic analysis
+        - relation: supports
+          referenceId: bi-2018-ambolestes
+          pages: 390–395
+          figure: Figures 1–5
+          quoteLocator: Holotype and therian topology analysis
+  claim-rationales.zh:
+    - 三项一手研究支持彼此独立的标本与分析；路线构造和 Juramaia 限制均明确，因此不提出支系或谱系主张。
+  claim-statements.zh:
+    - “兽亚纲边界证据”是图谱导航路线，跨越约 1.61 亿—1.241 亿年前分别取样的 Juramaia、Eomaia 和 Ambolestes 记录；它不是分类支系、连续谱系或祖先序列，且较老端点继承 Juramaia 产地争议。
+  ranges:
+    - entityId: therian-boundary-evidence
+      rangeKind: global-composite
+      taxonomicConcept: Early therian evidence navigation interval
+      geographicScope: Tiaojishan and Yixian formations, northeastern China
+      olderMa: 161
+      youngerMa: 124.1
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The older endpoint inherits disputed Juramaia provenance and age; the group is a navigation route, not a taxonomic clade or lineage.
+      evidenceBasis: The browse interval spans three separately sampled fossils and does not arrange them into an ancestor sequence.
+      evidenceLevel: literature-synthesized
+      confidence: contested
+      claimIds:
+        - claim:event:juramaia-conditional-provenance
+        - claim:event:eomaia-holotype-topology
+        - claim:event:ambolestes-therian-boundary
+      referenceLocators:
+        - referenceId: luo-2011-juramaia
+          locator: 442–445; Figures 1–3
+        - referenceId: ji-2002-eomaia
+          locator: 816–822; Figures 1–6
+        - referenceId: bi-2018-ambolestes
+          locator: 390–395; Figures 1–5

@@ -1,0 +1,224 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gorgosaurus libratus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Gorgosaurus libratus
+      en: Gorgosaurus libratus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f6ad45d58e
+            part: body
+          en:
+            page: en
+            section: s-592c531755
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-96c2a893d6
+            part: body
+          en:
+            page: en
+            section: s-366c99a9ab
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8b16567e15
+            part: body
+          en:
+            page: en
+            section: s-63f9ee8871
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1b85740209
+            part: body
+          en:
+            page: en
+            section: s-767ae10bd5
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-80b9fcf394
+            part: body
+          en:
+            page: en
+            section: s-cbaa6d0bab
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Gorgosaurus libratus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=53194&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:53194; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:53194
+          selectedOccurrenceIds:
+            - occ:139242
+            - occ:139250
+            - occ:139252
+            - occ:139253
+            - occ:139254
+            - occ:220028
+            - occ:564427
+            - occ:564549
+            - occ:565105
+            - occ:901632
+            - occ:1390598
+            - occ:1557021
+            - occ:1571432
+            - occ:1663435
+            - occ:2048267
+          selectedCollectionIds:
+            - col:11890
+            - col:11893
+            - col:11895
+            - col:11896
+            - col:11897
+            - col:22659
+            - col:58913
+            - col:58944
+            - col:59024
+            - col:58156
+            - col:52481
+            - col:219724
+            - col:47629
+            - col:69213
+            - col:52475
+          sourceReferenceIds:
+            - ref:13165
+            - ref:4205
+            - ref:17547
+            - ref:5924
+            - ref:62727
+            - ref:15355
+            - ref:15650
+            - ref:91084
+            - ref:77956
+            - ref:55607
+          originalIdentificationMappings:
+            - occurrenceId: occ:139242
+              originalIdentifiedName: Gorgosaurus sternbergi n. sp.
+              acceptedName: Gorgosaurus libratus
+              difference: null
+            - occurrenceId: occ:139254
+              originalIdentifiedName: Gorgosaurus libratus n. gen. n. sp.
+              acceptedName: Gorgosaurus libratus
+              difference: null
+            - occurrenceId: occ:220028
+              originalIdentifiedName: Albertosaurus libratus
+              acceptedName: Gorgosaurus libratus
+              difference: recombined as
+            - occurrenceId: occ:564549
+              originalIdentifiedName: Albertosaurus libratus
+              acceptedName: Gorgosaurus libratus
+              difference: recombined as
+            - occurrenceId: occ:565105
+              originalIdentifiedName: Albertosaurus libratus
+              acceptedName: Gorgosaurus libratus
+              difference: recombined as
+            - occurrenceId: occ:901632
+              originalIdentifiedName: Laelaps falculus n. sp.
+              acceptedName: Gorgosaurus libratus
+              difference: null
+            - occurrenceId: occ:1390598
+              originalIdentifiedName: Albertosaurus libratus
+              acceptedName: Gorgosaurus libratus
+              difference: recombined as
+            - occurrenceId: occ:1663435
+              originalIdentifiedName: Dryptosaurus kenabekides n. sp.
+              acceptedName: Gorgosaurus libratus
+              difference: null
+            - occurrenceId: occ:2048267
+              originalIdentifiedName: Albertosaurus libratus
+              acceptedName: Gorgosaurus libratus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-6c7bc1d684
+        part: body
+      en:
+        page: en
+        section: s-e53c919e6c
+        part: body

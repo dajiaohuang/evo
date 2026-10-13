@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena broadleyi
+  displayName: Ptychadena broadleyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9Q3
+  sourceIndexes:
+    - name:
+        en: Ptychadena broadleyi
+        zh: Ptychadena broadleyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9Q3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/460
+            queryName: Ptychadena broadleyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/78
+            queryName: Rana broadleyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2acc522ea2
+      - s-7afe881793
+      - s-9ca3155e4f
+      - s-24c5a5685f
+      - s-b0f46c794d
+      - s-ecf700998c
+      - s-2841edc249
+      - s-4d292e6578
+      - s-34386698ed
+      - s-47d5cf01d8
+    zh:
+      - s-54a5d8aa80
+      - s-46b4e4d0cd
+      - s-99ca07c525
+      - s-ce98cd0159
+      - s-4fbf99cc81
+      - s-6e76c3cbce
+      - s-5304d58a29
+      - s-ee276e9312
+      - s-5f75afa471
+      - s-d360a6ac7f

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis boconoensis
+  displayName: Pristimantis boconoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/788HC
+  sourceIndexes:
+    - name:
+        en: Pristimantis boconoensis
+        zh: Pristimantis boconoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 788HC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/151
+            queryName: Pristimantis boconoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/283
+            queryName: Eleutherodactylus boconoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/359
+            queryName: Paramophrynella boconoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e162ba6384
+      - s-b2329ebda7
+      - s-7fd07f6081
+      - s-0704b83b69
+      - s-282f7d0159
+      - s-c8aa35b6ad
+      - s-72b97f7b16
+      - s-d014aca5b2
+    zh:
+      - s-753139967e
+      - s-a895696785
+      - s-0c076f3bbe
+      - s-fe6e082b5f
+      - s-6695aa2ccd
+      - s-50abea3aba
+      - s-c2d2084016
+      - s-e6b518f9aa

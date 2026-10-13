@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osornophryne antisana
+  displayName: Osornophryne antisana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6TC5H
+  sourceIndexes:
+    - name:
+        en: Osornophryne antisana
+        zh: Osornophryne antisana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6TC5H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/324
+            queryName: Osornophryne antisana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-52558b1aa7
+      - s-a37cdbd4ea
+      - s-b7a78c3dcc
+      - s-a290c98bb0
+      - s-d6320b7bae
+      - s-e483bdeba5
+      - s-a2d8baadb9
+      - s-a38712dff3
+      - s-53f5b9be6e
+      - s-c2ac884991
+      - s-72e9cf5a19
+    zh:
+      - s-853218ad37
+      - s-c363b275ee
+      - s-1d26e26c4f
+      - s-406be1db2b
+      - s-5a10908875
+      - s-23c53ee4b1
+      - s-b2c8e9077d
+      - s-0328b5497f
+      - s-4730531454
+      - s-37937f92a4
+      - s-ea6a362638

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Fejervarya moodiei
+  displayName: Fejervarya moodiei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6HQR3
+  sourceIndexes:
+    - name:
+        en: Fejervarya moodiei
+        zh: Fejervarya moodiei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6HQR3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/479
+            queryName: Fejervarya moodiei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/109
+            queryName: Rana moodiei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/110
+            queryName: Hoplobatrachus moodiei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-20cd998972
+      - s-7cc756b230
+      - s-027a44ea9b
+      - s-f577628b44
+      - s-ec20d4ef66
+      - s-1abf3c7249
+      - s-04afb3b3ad
+      - s-36e712434b
+      - s-3ce9edf696
+      - s-7801b95197
+      - s-3b19b12286
+      - s-31fab2258f
+    zh:
+      - s-6c2b6e5527
+      - s-7195fd5ee1
+      - s-27ebb844b6
+      - s-0cb53cec48
+      - s-555ff883bd
+      - s-ea7ff6e1cf
+      - s-726dd9eabd
+      - s-cde15b7aaa
+      - s-4aedb83030
+      - s-dd18afccad
+      - s-5931f8d79f
+      - s-488861f1c9

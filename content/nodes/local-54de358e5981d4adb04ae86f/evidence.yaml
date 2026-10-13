@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Zhangixalus zhoukaiyae
+    name:
+      en: Zhangixalus zhoukaiyae
+      zh: Zhangixalus zhoukaiyae
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Zhangixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-294a297e67
+            part: body
+          zh:
+            page: zh
+            section: s-dc02c1df59
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-66a51e6b4f
+            part: body
+          zh:
+            page: zh
+            section: s-293cc4cd8e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 6150, 6151; Reference.csv rows 1548
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 6150
+        values:
+          - Rhacophoridae
+          - Zhangixalus
+          - Zhangixalus zhoukaiyae
+          - M
+          - "34.204"
+          - "11.512"
+          - "13.326"
+          - "4.086"
+          - "2.304"
+          - NA
+          - "5.152"
+          - "3.918"
+          - "2.064"
+          - NA
+          - "4.952"
+          - NA
+          - "10.902"
+          - NA
+          - "17.228"
+          - "14.698"
+          - "22.93"
+          - "14.868"
+          - NA
+          - NA
+          - "52.464"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.13"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.782"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 6151
+        values:
+          - Rhacophoridae
+          - Zhangixalus
+          - Zhangixalus zhoukaiyae
+          - F
+          - "43.48666667"
+          - "14.45666667"
+          - "16.34333333"
+          - "5.01"
+          - "2.906666667"
+          - NA
+          - "5.55"
+          - "4.72"
+          - "2.346666667"
+          - NA
+          - "5.74"
+          - NA
+          - "13.39333333"
+          - NA
+          - "22.11666667"
+          - "19.86666667"
+          - "31.11"
+          - "19.68333333"
+          - NA
+          - NA
+          - "70.53666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.41"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.273333333"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1548
+        values:
+          - Anura
+          - Zhangixalus_zhoukaiyae
+          - "Pan, T., Zhang, Y., Wang, H., Wu, J., Kang, X., Qian, L., . . . Rao, D. (2017). A new species of the genus Rhacophorus (Anura: Rhacophoridae) from Dabie Mountains in East China. Asian Herpetological Research, 8, 1-13. https://doi.org/10.16373/j.cnki.ahr.160064"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - HLL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5D4N2
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

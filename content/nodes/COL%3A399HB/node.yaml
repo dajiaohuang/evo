@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus montanus
+  displayName: Eleutherodactylus montanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399HB
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus montanus
+        zh: Eleutherodactylus montanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399HB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/274
+            queryName: Eleutherodactylus montanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-127f651202
+      - s-ce5150edd0
+      - s-debf50da7f
+      - s-0a54c898c0
+      - s-76487b73f7
+      - s-8a60ec1ac9
+      - s-6eee7f1ff1
+      - s-91cb5b37eb
+    zh:
+      - s-2df6836673
+      - s-44a12d5d63
+      - s-56938a23f3
+      - s-557c419b5c
+      - s-ef31e1e7c4
+      - s-c269232e6d
+      - s-1e0e1eb4a0
+      - s-c426b64a06

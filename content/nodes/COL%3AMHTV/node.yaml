@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis madagascariensis
+  displayName: Boophis madagascariensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHTV
+  sourceIndexes:
+    - name:
+        en: Boophis madagascariensis
+        zh: Boophis madagascariensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHTV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/267
+            queryName: Boophis madagascariensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/122
+            queryName: Rhacophorus madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/123
+            queryName: Rhacophorus herthae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cbc5e71e46
+      - s-5fd5a2fe63
+      - s-bb4ad3e113
+      - s-eba6b5eae9
+      - s-92ef4d9c21
+      - s-9e4e6bfe18
+      - s-142d62d1ba
+      - s-02507ba48d
+      - s-b33d9d78b5
+      - s-648fbc85b6
+    zh:
+      - s-9e995dd679
+      - s-6e922f1699
+      - s-3d2c74f378
+      - s-628ef16898
+      - s-0d9887e218
+      - s-efe1b29184
+      - s-669d541d27
+      - s-c08e827dc0
+      - s-374283a52e
+      - s-3581140357

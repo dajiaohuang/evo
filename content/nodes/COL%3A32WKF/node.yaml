@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus bolitoglossus
+  displayName: Cycloramphus bolitoglossus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WKF
+  sourceIndexes:
+    - name:
+        en: Cycloramphus bolitoglossus
+        zh: Cycloramphus bolitoglossus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WKF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/267
+            queryName: Cycloramphus bolitoglossus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/316
+            queryName: Craspedoglossa santaecatharinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/331
+            queryName: Eupsophus bolitoglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/129
+            queryName: Borborocoetes bolitoglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/130
+            queryName: Craspedoglossa bolitoglossa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/131
+            queryName: Zachaenus bolitoglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-18baf6bbfc
+      - s-137201da0c
+      - s-8fcbf05ae4
+      - s-fa5ad1363c
+      - s-bb1cd51ea7
+      - s-9d961e173b
+      - s-912ca22ebd
+      - s-1c4d4a2de4
+      - s-8fab9cd8b2
+      - s-0eb208baca
+      - s-da6960275d
+      - s-0ba609e560
+      - s-78923d8641
+      - s-c17663f9cd
+    zh:
+      - s-048b423cfc
+      - s-b64b4ed67f
+      - s-e8b10cd2d5
+      - s-72c3401bef
+      - s-e28baf426f
+      - s-f38bd890b8
+      - s-1585ccbaed
+      - s-cf7a21c98c
+      - s-8797ccbea8
+      - s-cd8d07c56c
+      - s-1a0d2c73ea
+      - s-9cf05b2a37
+      - s-3f204337c2
+      - s-accded826b

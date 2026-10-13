@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus fascianigrus
+  displayName: Hyloxalus fascianigrus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGX7
+  sourceIndexes:
+    - name:
+        en: Hyloxalus fascianigrus
+        zh: Hyloxalus fascianigrus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGX7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/101
+            queryName: Hyloxalus fascianigrus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/86
+            queryName: Colostethus fascianiger
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/291
+            queryName: Colostethus fascianigrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/292
+            queryName: Hyloxalus fascianiger
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a55f9a35e8
+      - s-44055552d9
+      - s-50a70943df
+      - s-db1aa726dd
+      - s-659ed81974
+      - s-08a565af29
+      - s-3208b85813
+      - s-1d67fa2da6
+      - s-ddb83a451d
+    zh:
+      - s-839c2d332b
+      - s-3ddb5990d6
+      - s-a7619688a7
+      - s-340c0f86c7
+      - s-c04c199094
+      - s-a815838663
+      - s-629bc287a9
+      - s-e0dcc92670
+      - s-3efe01ccb5

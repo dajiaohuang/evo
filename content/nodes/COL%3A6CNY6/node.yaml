@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus aureatus
+  displayName: Desmognathus aureatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6CNY6
+  sourceIndexes:
+    - name:
+        en: Desmognathus aureatus
+        zh: Desmognathus aureatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6CNY6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/461
+            queryName: Desmognathus aureatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/306
+            queryName: Leurognathus marmorata roborata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/308
+            queryName: Leurognathus marmoratus roboratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/482
+            queryName: Leurognathus marmorata aureata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/483
+            queryName: Leurognathus marmoratus aureatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7f9ea70250
+      - s-e99dfff010
+      - s-9e886e8167
+      - s-66ae308704
+      - s-b48a33bf58
+      - s-32cc1f0785
+      - s-b5ef66c418
+      - s-872e1b3f5d
+      - s-159d3f222c
+      - s-5f7ccc67f2
+      - s-f1f8f9c606
+    zh:
+      - s-ae323a5739
+      - s-f0ac2d0044
+      - s-421b60578f
+      - s-2478398377
+      - s-44ef065e43
+      - s-41f8e5963c
+      - s-6b27e5ec47
+      - s-968188099f
+      - s-bc45b16000
+      - s-3e0dd4266b
+      - s-ffeda2750b

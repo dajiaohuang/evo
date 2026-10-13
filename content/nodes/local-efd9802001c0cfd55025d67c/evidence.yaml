@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gephyromantis ventrimaculatus
+    name:
+      en: Gephyromantis ventrimaculatus
+      zh: Gephyromantis ventrimaculatus
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Gephyromantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4c939db30f
+            part: body
+          zh:
+            page: zh
+            section: s-adc6ed7314
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-88ba7d3af1
+            part: body
+          zh:
+            page: zh
+            section: s-62d8a53171
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2001, 2002; Reference.csv rows 457
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2001
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis ventrimaculatus
+          - M
+          - "24"
+          - "9.75"
+          - "9.95"
+          - "3.45"
+          - "1.7"
+          - NA
+          - NA
+          - "2.4"
+          - NA
+          - "2.8"
+          - NA
+          - "1.65"
+          - "8.35"
+          - NA
+          - "18.3"
+          - "11.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "40.7"
+          - "1.4"
+          - "2.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2002
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis ventrimaculatus
+          - F
+          - "29.1"
+          - "11.8"
+          - "12.5"
+          - "3.6"
+          - "1.6"
+          - NA
+          - NA
+          - "2.1"
+          - NA
+          - "3.2"
+          - NA
+          - "2.5"
+          - "9.7"
+          - NA
+          - "22"
+          - "13.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "47"
+          - "1.8"
+          - "2.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 457
+        values:
+          - Anura
+          - Gephyromantis_ventrimaculatus
+          - Vences, M., Glaw, F., Andreone, F., Jesu, R., & Schimmenti, G. (2002). Systematic revision of the enigmatic Malagasy broad-headed frogs (Laurentomantis Dubois, 1980), and their phylogenetic position within the endemic mantellid radiation of Madagascar. Contributions to Zoology, 70(4), 191-212. https://doi.org/10.1163/18759866-07004001
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+      - IMT
+      - Toe1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

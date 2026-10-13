@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kaloula kalingensis
+  displayName: Kaloula kalingensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QZKR
+  sourceIndexes:
+    - name:
+        en: Kaloula kalingensis
+        zh: Kaloula kalingensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QZKR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/127
+            queryName: Kaloula kalingensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/274
+            queryName: Kaloula baleata kalingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0372b64528
+      - s-75aba21ef9
+      - s-9390368302
+      - s-727b5b76a7
+      - s-13138280df
+      - s-ad3f9d4c2a
+      - s-81c7a7c513
+      - s-a3b9432c8d
+      - s-e666a2cf4d
+      - s-d86bc89125
+    zh:
+      - s-98620c98fc
+      - s-72a237764d
+      - s-1feb28deb4
+      - s-fe6b22fba2
+      - s-2bdc22b3cb
+      - s-a4daf2ba79
+      - s-ccc339b581
+      - s-5a2a996119
+      - s-07133c3974
+      - s-6fd2abd5ba

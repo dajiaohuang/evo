@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella nyx
+  displayName: Leptobrachella nyx
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PFRX
+  sourceIndexes:
+    - name:
+        en: Leptobrachella nyx
+        zh: Leptobrachella nyx
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PFRX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/269
+            queryName: Leptobrachella nyx
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/410
+            queryName: Leptolalax nyx
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93126d0ea4
+      - s-f4f00b7ba3
+      - s-35bdc1d7dc
+      - s-888ed1fdb8
+      - s-14fba9095a
+      - s-ab1fe88dd1
+      - s-86739fd616
+      - s-cbb4fdc0bb
+      - s-4ae2881bef
+    zh:
+      - s-dda9214c45
+      - s-dd1a4b96be
+      - s-689e632071
+      - s-d285122d2c
+      - s-cde7cc70e5
+      - s-12ba09b9a8
+      - s-47d70ddb7b
+      - s-197a6955c6
+      - s-d06a07fe2d

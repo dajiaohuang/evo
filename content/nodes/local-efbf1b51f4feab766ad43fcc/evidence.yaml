@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hyloscirtus princecharlesi
+    name:
+      en: Hyloscirtus princecharlesi
+      zh: Hyloscirtus princecharlesi
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Hyloscirtus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8a5b12f3d6
+            part: body
+          zh:
+            page: zh
+            section: s-9c58740c7e
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b46ed2f6c2
+            part: body
+          zh:
+            page: zh
+            section: s-f7b672e08c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2220; Reference.csv rows 3060
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2220
+        values:
+          - Hylidae
+          - Hyloscirtus
+          - Hyloscirtus princecharlesi
+          - M
+          - "69.5"
+          - "23.9"
+          - "23.8"
+          - NA
+          - "3.8"
+          - NA
+          - NA
+          - "6.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "25.9"
+          - NA
+          - NA
+          - "33.2"
+          - NA
+          - "32.6"
+          - "31.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3060
+        values:
+          - Anura
+          - Hyloscirtus_princecharlesi
+          - "Coloma, L., Carvajal, S., Dueñas, J., Paredes-Recalde, A., Morales, M., Almeida-Reinoso, D., . . . Guayasamin, J. (2012). Molecular phylogenetics of stream treefrogs of the Hyloscirtus larinopygion group (Anura: Hylidae), and description of two new species from Ecuador. Zootaxa, 3364, 1-78. https://doi.org/10.11646/zootaxa.3364.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - TD
+      - IND
+      - HAL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NGQH
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

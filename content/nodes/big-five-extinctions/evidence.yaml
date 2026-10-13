@@ -1,0 +1,156 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-69ab1d3b4a
+      part: title
+    titleZh:
+      page: zh
+      section: s-512368a1f9
+      part: title
+    dek:
+      page: en
+      section: s-69ab1d3b4a
+      part: body
+    dekZh:
+      page: zh
+      section: s-512368a1f9
+      part: body
+    theme: red
+    durationMinutes: 10
+    featured: false
+    steps:
+      - id: end-ordovician
+        title:
+          page: en
+          section: s-0112a56bb3
+          part: title
+        text:
+          page: en
+          section: s-0112a56bb3
+          part: body
+        titleZh:
+          page: zh
+          section: s-5c0d6e2ba4
+          part: title
+        textZh:
+          page: zh
+          section: s-5c0d6e2ba4
+          part: body
+        age: 444
+        timeRange:
+          - 446
+          - 443
+        taxonIds: []
+        view: diversity
+        claimLinks: []
+      - id: late-devonian
+        title:
+          page: en
+          section: s-ae058ba936
+          part: title
+        text:
+          page: en
+          section: s-ae058ba936
+          part: body
+        titleZh:
+          page: zh
+          section: s-a45e7161d0
+          part: title
+        textZh:
+          page: zh
+          section: s-a45e7161d0
+          part: body
+        age: 372
+        timeRange:
+          - 376
+          - 359
+        taxonIds: []
+        view: diversity
+        claimLinks: []
+      - id: end-permian
+        title:
+          page: en
+          section: s-4eac2a79f0
+          part: title
+        text:
+          page: en
+          section: s-4eac2a79f0
+          part: body
+        titleZh:
+          page: zh
+          section: s-597f6673d5
+          part: title
+        textZh:
+          page: zh
+          section: s-597f6673d5
+          part: body
+        age: 252
+        timeRange:
+          - 253
+          - 251
+        taxonIds: []
+        view: evidence
+        eventId: end-permian-extinction
+        claimLinks:
+          - claimId: claim:event:end-permian-extinction
+            relation: supports
+      - id: end-triassic
+        title:
+          page: en
+          section: s-cb31f91efd
+          part: title
+        text:
+          page: en
+          section: s-cb31f91efd
+          part: body
+        titleZh:
+          page: zh
+          section: s-4f1e43b165
+          part: title
+        textZh:
+          page: zh
+          section: s-4f1e43b165
+          part: body
+        age: 201.4
+        timeRange:
+          - 203
+          - 200
+        taxonIds:
+          - dinosauria
+        view: tree
+        claimLinks:
+          - claimId: claim:event:dinosaur-radiation
+            relation: contextualizes
+      - id: kpg
+        title:
+          page: en
+          section: s-eb6717ec14
+          part: title
+        text:
+          page: en
+          section: s-eb6717ec14
+          part: body
+        titleZh:
+          page: zh
+          section: s-2719cc8246
+          part: title
+        textZh:
+          page: zh
+          section: s-2719cc8246
+          part: body
+        age: 66
+        timeRange:
+          - 67
+          - 65
+        taxonIds:
+          - dinosauria
+          - mammalia
+          - aves
+        view: evidence
+        eventId: k-pg-extinction
+        claimLinks:
+          - claimId: claim:event:k-pg-extinction
+            relation: supports
+    evidenceStatus: blocked-pending-step-evidence

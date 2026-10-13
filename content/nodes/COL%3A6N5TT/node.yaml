@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis youngorum
+  displayName: Ichthyophis youngorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5TT
+  sourceIndexes:
+    - name:
+        en: Ichthyophis youngorum
+        zh: Ichthyophis youngorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5TT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/432
+            queryName: Ichthyophis youngorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ad82e26c65
+      - s-25c86000a5
+      - s-d63318e739
+      - s-cf31bf253c
+      - s-c3572b7ee1
+      - s-c34f48128f
+      - s-dafbc8e93d
+      - s-b37a6dd2f7
+      - s-075eff8493
+      - s-06ac9cd98b
+      - s-81a9faddb3
+      - s-602889a4e0
+      - s-7dbf726c25
+    zh:
+      - s-2830ef2187
+      - s-773146533c
+      - s-42d3c60acb
+      - s-4845346eb9
+      - s-001f13f8c8
+      - s-19e1b8fdaa
+      - s-cbf532cbad
+      - s-2e8167cd7d
+      - s-1efb867a10
+      - s-c012906947
+      - s-b9b43c90c6
+      - s-69e93a14cb
+      - s-d0afa224ee

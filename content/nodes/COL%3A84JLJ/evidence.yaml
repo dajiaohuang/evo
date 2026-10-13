@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Presbytis percura Lyon, 1908
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 东苏门答腊带叶猴
+      en: East Sumatran Banded Langur
+    sections:
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-a977e046dd
+            part: body
+          en:
+            page: en
+            section: s-f73b3df876
+            part: body
+        sourceIds:
+          - taxonomy
+          - ang2020
+      - topic: genetics
+        text:
+          zh:
+            page: zh
+            section: s-c8af645719
+            part: body
+          en:
+            page: en
+            section: s-c8d184ee56
+            part: body
+        sourceIds:
+          - ang2020
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Presbytis percura Lyon, 1908
+          url: https://www.checklistbank.org/dataset/316115/taxon/84JLJ
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-32e38cca-c92b-84ef-ab5a-5b3e3cfee9e2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页采用的英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine the COL26.8 accepted classification.
+      - id: ang2020
+        referenceId: ref-9bb1acea-b1ce-8a1c-a16c-8814b052a0f4
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持研究者对东苏门答腊旧组合 P. f. percura 的线粒体基因组分析及对既有 P. f. robinsoni 序列的比较；材料覆盖有限且仅为线粒体证据。
+            en: Supports mitogenome analyses of the eastern Sumatran form then called P. f. percura and comparison with existing P. f. robinsoni sequence data; sampling is limited and mitochondrial only.
+    limitations:
+      zh:
+        page: zh
+        section: s-34dd5c7619
+        part: body
+      en:
+        page: en
+        section: s-e28b652bb5
+        part: body

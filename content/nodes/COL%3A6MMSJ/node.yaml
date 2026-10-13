@@ -1,0 +1,124 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana lepus
+  displayName: Hylarana lepus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MMSJ
+  sourceIndexes:
+    - name:
+        en: Hylarana lepus
+        zh: Hylarana lepus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MMSJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/434
+            queryName: Hylarana lepus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/402
+            queryName: Amnirana lepus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/260
+            queryName: Chiromantis lepus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/261
+            queryName: Rana zenkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/262
+            queryName: Hylorana zenkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/263
+            queryName: Rana lepus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/264
+            queryName: Hydrophylax lepus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/285
+            queryName: Hylarana lepus lepus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fd54c17c82
+      - s-1383bb54fe
+      - s-fcd22a611f
+      - s-462fe1bac8
+      - s-3598f7a709
+      - s-6f2bb90149
+      - s-08d9784bc7
+      - s-06f13500d0
+      - s-7f89750c29
+      - s-2de7c3c276
+      - s-051b3d7c79
+      - s-1c2c40f289
+      - s-ee6d63e0d8
+      - s-49bc71baf9
+      - s-be382ffb00
+      - s-cfc62490c7
+      - s-7367ac5a39
+      - s-e705bd60f2
+      - s-d37de1a745
+      - s-623a0f4425
+      - s-36befa7170
+    zh:
+      - s-336935edac
+      - s-a46cd61893
+      - s-2cfaed1943
+      - s-7d2b54ff78
+      - s-bbd19822be
+      - s-c985a2c0b2
+      - s-cb013fcd4a
+      - s-edef5f02c7
+      - s-37a94a9613
+      - s-8148380ca1
+      - s-81473ecf4b
+      - s-d0f7125502
+      - s-ebc5e3fe82
+      - s-4817e9c7c5
+      - s-6f12d5f65c
+      - s-0ec0e855fb
+      - s-2229b2d48f
+      - s-d922d79637
+      - s-a6eaa77ccf
+      - s-628718724e
+      - s-1a7592da89

@@ -1,0 +1,326 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys fanjingmontis (Zhang, Liang, Ran & Shen, 2012)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys fanjingmontis
+      zh: Boulenophrys fanjingmontis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4ba4cd3443
+            part: title
+          zh:
+            page: zh
+            section: s-4bba200259
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4ba4cd3443
+            part: body
+          zh:
+            page: zh
+            section: s-4bba200259
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9714c0c379
+            part: title
+          zh:
+            page: zh
+            section: s-ca07ef3638
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9714c0c379
+            part: body
+          zh:
+            page: zh
+            section: s-ca07ef3638
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-69e76c5080
+            part: title
+          zh:
+            page: zh
+            section: s-0b6a54fe0f
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5lvn
+        text:
+          en:
+            page: en
+            section: s-69e76c5080
+            part: body
+          zh:
+            page: zh
+            section: s-0b6a54fe0f
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3e62f95d24
+            part: title
+          zh:
+            page: zh
+            section: s-d27f0eda46
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5lvn
+        text:
+          en:
+            page: en
+            section: s-3e62f95d24
+            part: body
+          zh:
+            page: zh
+            section: s-d27f0eda46
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-650f0ddf7a
+            part: title
+          zh:
+            page: zh
+            section: s-9aad2cd9a8
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5lvn
+        text:
+          en:
+            page: en
+            section: s-650f0ddf7a
+            part: body
+          zh:
+            page: zh
+            section: s-9aad2cd9a8
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-226bc4e313
+            part: title
+          zh:
+            page: zh
+            section: s-05bba2aed8
+            part: title
+        sourceIds:
+          - primary-pmc12466624-v5lvn
+        text:
+          en:
+            page: en
+            section: s-226bc4e313
+            part: body
+          zh:
+            page: zh
+            section: s-05bba2aed8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys fanjingmontis
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5LVN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10083232-v5lvn
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys fanjingmontis: Named species types, examined specimens, diagnosis, distribution and applicable remarks; no source figures reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-v5lvn
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys fanjingmontis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6c8fda4971
+        part: body
+      zh:
+        page: zh
+        section: s-348650806b
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v5lvn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys fanjingmontis
+        evidenceRead: "Boulenophrys fanjingmontis: Named species types, examined specimens, diagnosis, distribution and applicable remarks; no source figures reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Fanjing and Youyang records with a provisional Xiushan assignment
+              zh: 梵净山、酉阳记录与暂定秀山归属
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5lvn
+            locator: RESULTS > Boulenophrys fanjingmontis; Holotype, Specimens examined and Distribution; reading-sections index 30, section s03.46
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-429e8acb22
+                part: body
+              zh:
+                page: zh
+                section: s-4bb31ae4e7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Eight examined adults and partial toe webbing
+              zh: 八只检查成体与部分趾蹼
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5lvn
+            locator: RESULTS > Boulenophrys fanjingmontis; Diagnosis characters 1, 4, 9 and 11; reading-sections index 30, section s03.46
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ea111f4745
+                part: body
+              zh:
+                page: zh
+                section: s-7e691f6bcc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: A previously overlooked subspecies elevated in the monograph
+              zh: 专著提升先前被忽略的亚种
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5lvn
+            locator: RESULTS > Boulenophrys fanjingmontis; both Remarks paragraphs; reading-sections index 30, section s03.46
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6e465ca720
+                part: body
+              zh:
+                page: zh
+                section: s-abec0003b8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-v5lvn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys fanjingmontis
+        evidenceRead: "Boulenophrys fanjingmontis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-v5lvn
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,34
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e30dff9bc8
+                part: body
+              zh:
+                page: zh
+                section: s-8009697366
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

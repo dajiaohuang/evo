@@ -1,0 +1,336 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys tuberogranulata (Shen, Mo & Li in Mo, Shen, Li & Wu, 2010)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys tuberogranulata
+      zh: Boulenophrys tuberogranulata
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3e016e624a
+            part: title
+          zh:
+            page: zh
+            section: s-c58071e2f6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3e016e624a
+            part: body
+          zh:
+            page: zh
+            section: s-c58071e2f6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2f6a4cb8b3
+            part: title
+          zh:
+            page: zh
+            section: s-b20c06fe52
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2f6a4cb8b3
+            part: body
+          zh:
+            page: zh
+            section: s-b20c06fe52
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-74748c73f0
+            part: title
+          zh:
+            page: zh
+            section: s-932164a971
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-74748c73f0
+            part: body
+          zh:
+            page: zh
+            section: s-932164a971
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-1ac431e6104dee50802c45f0
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-4b97a87db7d7418e6acf1a84201a7f28
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-a07d4fda69
+            part: title
+          zh:
+            page: zh
+            section: s-0cb14993a5
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5b7r
+        text:
+          en:
+            page: en
+            section: s-a07d4fda69
+            part: body
+          zh:
+            page: zh
+            section: s-0cb14993a5
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c0f1a36725
+            part: title
+          zh:
+            page: zh
+            section: s-e0ceaa8a51
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5b7r
+        text:
+          en:
+            page: en
+            section: s-c0f1a36725
+            part: body
+          zh:
+            page: zh
+            section: s-e0ceaa8a51
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-833aa3dd00
+            part: title
+          zh:
+            page: zh
+            section: s-abd4969f29
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5b7r
+        text:
+          en:
+            page: en
+            section: s-833aa3dd00
+            part: body
+          zh:
+            page: zh
+            section: s-abd4969f29
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys tuberogranulata
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5B7R
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3163, 3164; Reference.csv rows 813
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3838; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3839 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: primary-pmc10083232-v5b7r
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys tuberogranulata: Named species type material, examined specimens, diagnostic characters, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8469a6b450
+        part: body
+      zh:
+        page: zh
+        section: s-26a68f95cc
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v5b7r
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys tuberogranulata
+        evidenceRead: "Boulenophrys tuberogranulata: Named species type material, examined specimens, diagnostic characters, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Two mountain localities in northwestern Hunan
+              zh: 湖南西北部的两个山地地点
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5b7r
+            locator: RESULTS > Boulenophrys tuberogranulata; Holotype, Specimens examined and Distribution; reading-sections index 73, section s03.89
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ee30a30856
+                part: body
+              zh:
+                page: zh
+                section: s-4260e82be8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: A newly examined male exceeds the earlier sample range
+              zh: 新检查雄性超过早期样本范围
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5b7r
+            locator: RESULTS > Boulenophrys tuberogranulata; Diagnosis character 1; reading-sections index 73, section s03.89
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e9e7170e79
+                part: body
+              zh:
+                page: zh
+                section: s-9d07d0d4a5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Diagnostic skin characters and collection-name changes
+              zh: 皮肤鉴别特征及馆藏名称变更
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5b7r
+            locator: RESULTS > Boulenophrys tuberogranulata; Diagnosis characters 4, 5, 9 and 11 and Remarks; reading-sections index 73, section s03.89
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8037ade835
+                part: body
+              zh:
+                page: zh
+                section: s-58208e19c9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

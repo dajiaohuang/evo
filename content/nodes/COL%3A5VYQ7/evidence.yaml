@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Babiana latifolia L.Bolus
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 5VYQ7, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 5VYQ7; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/5VYQ7
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 5VYQ7
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000788100-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 5VYQ7 / WFO wfo-0000788100
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-375142dc-c61a-8d8c-ac7c-81b393e51f3e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana latifolia L.Bolus account; SANBI/WFO archive rows 6732 (Morphology), 17991 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana latifolia L.Bolus account; SANBI/WFO archive rows 94967 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Like B. ecklonii but tepals narrow, leaf tips almost obtuse, flowers dark purple with narrow white streaks on lower tepals, and broad style branches.
+            textZh: Babiana latifolia L.Bolus 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Morphology row 6732; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: "Differs from B. ecklonii in its unusual style branches conspicuously enlarged at the tips, purple flower colour with narrow white nectar guides on the lower lateral tepals, blue-black anthers, and obtuse apiculate tepal tips. Flowers of B. ecklonii are violet with broad white to pale yellow nectar guides, the anthers are pale violet, and the tepals are narrow and acute. The style divides opposite the anther apices in B. latifolia and the style branches are ± 4 mm long with the tips unusually broad and undulate. In B. ecklonii the point of division of the style and length of style branches is variable, in different individuals, dividing variously below the anthers and ± 2 mm long, or opposite the middle or close to the anther apices and up to 4 mm long, but in both cases the style branches are slender, widening gradually toward the tips. Vegetatively the two also differ: in B. latifolia the leaf and stem pubescence is velvety but in B. ecklonii the pubescence is longer and sparser, and the erect stem is largely sheathed by the leaf bases, whereas the stem of B. latifolia arches outward and is free of the leaf bases for at least half its length."
+            textZh: SANBI 条目提供了 Babiana latifolia L.Bolus 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94967; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky sandy-loam flats.
+            textZh: 该 SANBI 区域物种条目记录的生境：Rocky sandy-loam flats.
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Habitat row 17991; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-3e4987dd4e
+        title:
+          en:
+            page: en
+            section: s-491012be02
+            part: title
+          zh:
+            page: zh
+            section: s-3436099c4e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-491012be02
+            part: body
+          zh:
+            page: zh
+            section: s-3436099c4e
+            part: body
+        sourceIds:
+          - sanbi_13878_0
+      - id: page-b09474a0c6
+        title:
+          en:
+            page: en
+            section: s-c6deb2ce80
+            part: title
+          zh:
+            page: zh
+            section: s-f63bd56bba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c6deb2ce80
+            part: body
+          zh:
+            page: zh
+            section: s-f63bd56bba
+            part: body
+        sourceIds:
+          - sanbi_18638_0
+      - id: page-cf24161f00
+        title:
+          en:
+            page: en
+            section: s-031b001a25
+            part: title
+          zh:
+            page: zh
+            section: s-53f7061f0e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-031b001a25
+            part: body
+          zh:
+            page: zh
+            section: s-53f7061f0e
+            part: body
+        sourceIds:
+          - sanbi_13878_0

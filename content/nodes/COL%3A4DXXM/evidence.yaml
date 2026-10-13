@@ -1,0 +1,342 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Passer domesticus (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 家麻雀
+      en: House sparrow
+    sections:
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-d6567160e8
+            part: body
+          en:
+            page: en
+            section: s-e9f4ecf062
+            part: body
+        sourceIds:
+          - parn2012
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-b68a516f03
+            part: body
+          en:
+            page: en
+            section: s-b0ab2c37a9
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-2844fe33f6
+            part: body
+          en:
+            page: en
+            section: s-b1f629a61d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-a5432ad267
+            part: body
+          en:
+            page: en
+            section: s-4766a886ce
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-912733766b
+            part: body
+          en:
+            page: en
+            section: s-66b04f599c
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-90a16098e8
+            part: body
+          en:
+            page: en
+            section: s-ff3df434f3
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-7f036cadeb
+            part: body
+          en:
+            page: en
+            section: s-23d0eb0fdc
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-7de898314c
+            part: body
+          en:
+            page: en
+            section: s-adc43eea14
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-37eb725d9f
+            part: body
+          en:
+            page: en
+            section: s-569cb09099
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1dac67d09e
+            part: body
+          en:
+            page: en
+            section: s-e54ca25b01
+            part: body
+    sources:
+      - id: parn2012
+        referenceId: ref-3ab6785f-abfa-835d-a807-463e723116cf
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 长期岛屿种群研究的摘要报告，比较无农场与有农场岛屿中气候、种群大小和幼鸟扩散的关联；正文范围与样本细节本页未扩展。
+            en: Abstract-level report from a long-term island population study comparing associations of climate, population size, and natal dispersal on islands without and with farms; this guide does not expand beyond the available abstract.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4DXXM
+          scope:
+            zh: 固定版本中的接受名、作者、等级与分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank, and parent classification; not biological evidence.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 5960; name Passer domesticus; reference table row 5960; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - birth_or_hatching_weight_g
+            - incubation_d
+            - fledging_age_d
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Bennett, 1986 from median of 13(Dunning, 1992, Dunning, 1992, Dunning, 1992, Dunning, 1992, Dunning, 1992, Dunning, 1992, Dyke and Kaiser, 2010, Wasser, D.E. and P.W. Sherman, 2010, Boback and Guyer, 2003, Szekely, Lislevand, and Figuerola, 2007, Krist, 2011, de Magalhaes and Costa, 2009, Bennett, 1986)
+            female_maturity_d: Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004 from median of 3(de Magalhaes and Costa, 2009, Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004, Bennett, 1986)
+            litter_or_clutch_size_n: mean of Szekely, Lislevand, and Figuerola, 2007 & Krist, 2011 from median of 6(Jetz, Sekercioglu, and Bohning-Gaese, 2008, Szekely, Lislevand, and Figuerola, 2007, Krist, 2011, de Magalhaes and Costa, 2009, Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004, Bennett, 1986)
+            birth_or_hatching_weight_g: mean of de Magalhaes and Costa, 2009 and Bennett, 1986
+            incubation_d: mean of de Magalhaes and Costa, 2009 and Bennett, 1986
+            fledging_age_d: Bennett, 1986
+            maximum_longevity_y: de Magalhaes and Costa, 2009
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - Szekely, Lislevand, and Figuerola, 2007
+            - de Magalhaes and Costa, 2009
+            - Boback and Guyer, 2003
+            - Bennett, 1986
+            - Dyke and Kaiser, 2010
+            - Wasser, D.E. and P.W. Sherman, 2010
+            - Krist, 2011
+            - Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004
+            - Jetz, Sekercioglu, and Bohning-Gaese, 2008
+            - Lutmerding, J.A. and A.S. Love, 2013
+            - Fransson, T., Kolehmainen, T., Kroon, C. et al., 2010
+            - Carey, J.R. and D.S. Judge, 2002
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 8151; Scientific=Passer domesticus; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_14
+                  verbatim: Handbook of the Birds of the World vol.14.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              certainty: A
+            foraging:
+              fields:
+                - ForStrat-watbelowsurf
+                - ForStrat-wataroundsurf
+                - ForStrat-ground
+                - ForStrat-understory
+                - ForStrat-midhigh
+                - ForStrat-canopy
+                - ForStrat-aerial
+              references:
+                - id: Ref_27
+                  verbatim: Clement, P., A. Harris, and J. Davis. 2010. Finches and sparrows. A&C Black.
+              speciesLevel: "1"
+          withheldFieldGroups: []
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-59a32921b1
+        part: body
+      en:
+        page: en
+        section: s-206e41999e
+        part: body

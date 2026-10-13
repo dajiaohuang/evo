@@ -1,0 +1,697 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microhyla butleri Boulenger, 1900
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Microhyla butleri
+      zh: Microhyla butleri
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-511f3e18b9
+            part: title
+          zh:
+            page: zh
+            section: s-79c90b54be
+            part: title
+        text:
+          en:
+            page: en
+            section: s-511f3e18b9
+            part: body
+          zh:
+            page: zh
+            section: s-79c90b54be
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0bb23e3404
+            part: title
+          zh:
+            page: zh
+            section: s-93bf10f5a8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0bb23e3404
+            part: body
+          zh:
+            page: zh
+            section: s-93bf10f5a8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2e02da033b
+            part: title
+          zh:
+            page: zh
+            section: s-e137f4618e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-2e02da033b
+            part: body
+          zh:
+            page: zh
+            section: s-e137f4618e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b90250e4bf
+            part: title
+          zh:
+            page: zh
+            section: s-34c30e90d2
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-b90250e4bf
+            part: body
+          zh:
+            page: zh
+            section: s-34c30e90d2
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ecc0b3a5a8
+            part: title
+          zh:
+            page: zh
+            section: s-f0ed64e4cd
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-ecc0b3a5a8
+            part: body
+          zh:
+            page: zh
+            section: s-f0ed64e4cd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-aedf48c054
+            part: title
+          zh:
+            page: zh
+            section: s-89ebf277d9
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-aedf48c054
+            part: body
+          zh:
+            page: zh
+            section: s-89ebf277d9
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-fb2e4af31c
+            part: title
+          zh:
+            page: zh
+            section: s-bc22253965
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-fb2e4af31c
+            part: body
+          zh:
+            page: zh
+            section: s-bc22253965
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bbe4db3f40
+            part: title
+          zh:
+            page: zh
+            section: s-898e4ff500
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-bbe4db3f40
+            part: body
+          zh:
+            page: zh
+            section: s-898e4ff500
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-2bbf89d82ce791668b19b162b39bc78c
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-7444bd2828c3bdc95800667d
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-1f7089c2e29386e264f4f767
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-023d873125608127babccc6c
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b9a753882a
+            part: title
+          zh:
+            page: zh
+            section: s-c3649ce627
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-b9a753882a
+            part: body
+          zh:
+            page: zh
+            section: s-c3649ce627
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a6ac123ee4
+            part: title
+          zh:
+            page: zh
+            section: s-3a0e976a84
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a6ac123ee4
+            part: body
+          zh:
+            page: zh
+            section: s-3a0e976a84
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-94dcd8b212
+            part: title
+          zh:
+            page: zh
+            section: s-1edd1b1a4c
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1342"
+        text:
+          en:
+            page: en
+            section: s-94dcd8b212
+            part: body
+          zh:
+            page: zh
+            section: s-1edd1b1a4c
+            part: body
+        sourceRowNumber: 1193
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4cdb4dd178
+            part: title
+          zh:
+            page: zh
+            section: s-c367b6867c
+            part: title
+        sourceIds:
+          - primary-pmc12485483-42x9s
+        text:
+          en:
+            page: en
+            section: s-4cdb4dd178
+            part: body
+          zh:
+            page: zh
+            section: s-c367b6867c
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-f9d364b16f
+            part: title
+          zh:
+            page: zh
+            section: s-09ef321a7b
+            part: title
+        sourceIds:
+          - primary-pmc10793111-42x9s
+        text:
+          en:
+            page: en
+            section: s-f9d364b16f
+            part: body
+          zh:
+            page: zh
+            section: s-09ef321a7b
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-391521dd98
+            part: title
+          zh:
+            page: zh
+            section: s-660b47c4b6
+            part: title
+        sourceIds:
+          - primary-pmc10793111-42x9s
+        text:
+          en:
+            page: en
+            section: s-391521dd98
+            part: body
+          zh:
+            page: zh
+            section: s-660b47c4b6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Microhyla butleri
+          url: https://www.checklistbank.org/dataset/316115/taxon/42X9S
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4285; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4286 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 3847; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3270, 3271; Reference.csv rows 846
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 1193; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc12485483-42x9s
+        referenceId: ref-b8fbbccc-0023-4d25-a439-eefd63a60c3c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Microhyla butleri: Species ecology treatment in Ha Nam field-record study; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10793111-42x9s
+        referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Microhyla butleri: XML Materials and methods, Results Tables 1–2, Discussion subsections and Conclusions read; original supplementary cross-site spreadsheet, encounter sheets, photographs and individual vouchers not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8a039df767
+        part: body
+      zh:
+        page: zh
+        section: s-de3b40acc0
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-36d63b24302d4d47d0225cc846e7fc9f
+      sourceRowId: Anf4285
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4285
+        bibliographyRowId: Anf4286
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Microhyla borneensis
+        candidateBibliographyRowIds:
+          - Anf4286
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-7444bd2828c3bdc95800667d
+        scientificName: Microhyla butleri
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-1f7089c2e29386e264f4f767
+        scientificName: Microhyla butleri
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-023d873125608127babccc6c
+        scientificName: Microhyla butleri
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.13.e159973
+        referenceId: ref-b8fbbccc-0023-4d25-a439-eefd63a60c3c
+        sourceKey: primary-pmc12485483-42x9s
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12485483/article.xml
+        sourceConcept: Microhyla butleri
+        evidenceRead: "Microhyla butleri: Species ecology treatment in Ha Nam field-record study; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Calling and larvae near temporary puddles
+              zh: 临时水坑附近的鸣叫与幼体
+            referenceId: ref-b8fbbccc-0023-4d25-a439-eefd63a60c3c
+            sourceKey: primary-pmc12485483-42x9s
+            locator: "Microhyla butleri: Species ecology treatment in Ha Nam field-record study; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dfea4c7f19
+                part: body
+              zh:
+                page: zh
+                section: s-656841a7a8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/BDJ.12.e108476
+        referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+        sourceKey: primary-pmc10793111-42x9s
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10793111/article.xml
+        sourceConcept: 2024 source-labelled Microhyla butleri, nomenclature following Frost 2023, Gunung Belumut survey
+        evidenceRead: "Microhyla butleri: XML Materials and methods, Results Tables 1–2, Discussion subsections and Conclusions read; original supplementary cross-site spreadsheet, encounter sheets, photographs and individual vouchers not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: An effort-bounded Gunung Belumut survey record
+              zh: 取样投入有限的 Gunung Belumut 调查记录
+            referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+            sourceKey: primary-pmc10793111-42x9s
+            locator: PMC10793111 XML Herpetofauna Sampling and Collection; Results Table 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dee45fe19e
+                part: body
+              zh:
+                page: zh
+                section: s-2971d501f9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A human-commensal interpretation does not measure disturbance causation
+              zh: 人类伴生解释未测量干扰因果
+            referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+            sourceKey: primary-pmc10793111-42x9s
+            locator: PMC10793111 XML Discussion Herpetofauna diversity commensal-species paragraph
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a937e6581b
+                part: body
+              zh:
+                page: zh
+                section: s-d41213548b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

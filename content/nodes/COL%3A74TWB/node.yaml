@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne jeffersoniana
+  displayName: Oreophryne jeffersoniana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74TWB
+  sourceIndexes:
+    - name:
+        en: Oreophryne jeffersoniana
+        zh: Oreophryne jeffersoniana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74TWB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/273
+            queryName: Oreophryne jeffersoniana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/373
+            queryName: Oreophryne darewskyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3a0a8cfddc
+      - s-6b32276574
+      - s-938cd12652
+      - s-9bbd1a4806
+      - s-753371805f
+      - s-b446c3fe38
+      - s-697756dbfc
+      - s-c58cca69e2
+      - s-da98c239bf
+    zh:
+      - s-f07e610caa
+      - s-eb9a514087
+      - s-7e99f9bff6
+      - s-49273f6c12
+      - s-032f5f7129
+      - s-4c58e1ba98
+      - s-c476b5c07a
+      - s-960ad6e471
+      - s-5f9a81c2d4

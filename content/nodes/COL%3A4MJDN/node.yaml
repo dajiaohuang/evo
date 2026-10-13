@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis ernesti
+  displayName: Pristimantis ernesti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJDN
+  sourceIndexes:
+    - name:
+        en: Pristimantis ernesti
+        zh: Pristimantis ernesti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJDN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/257
+            queryName: Pristimantis ernesti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/348
+            queryName: Eleutherodactylus ernesti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-428cd37e7e
+      - s-5575eb53ec
+      - s-dca89274ac
+      - s-02fd26dae1
+      - s-87bdf82391
+      - s-fc9dd139c7
+      - s-141965f735
+      - s-ccc78e31fa
+    zh:
+      - s-3609975181
+      - s-af46b9a089
+      - s-22a042230c
+      - s-26953756be
+      - s-a2e76c03d5
+      - s-2df4182abd
+      - s-90649a7147
+      - s-25f081c39b

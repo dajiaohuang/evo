@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius narisovalis
+  displayName: Thorius narisovalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KT7
+  sourceIndexes:
+    - name:
+        en: Thorius narisovalis
+        zh: Thorius narisovalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KT7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/52
+            queryName: Thorius narisovalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d4dceb139
+      - s-7bc235ef5a
+      - s-1c0de1ccd7
+      - s-816ff60889
+      - s-dae60d9115
+      - s-aee6b3f2c4
+      - s-0bf09d7db3
+      - s-0d9fab5e6f
+      - s-05fcbdb6ec
+      - s-c6c80abf9e
+      - s-c4fc579ca9
+      - s-f016afa876
+      - s-273679d17d
+      - s-c471827743
+      - s-665610d7ac
+      - s-2420bb0d47
+      - s-b2b0f04d7f
+      - s-2cccdbce49
+      - s-8e0ceac0a5
+      - s-232b543ee7
+      - s-b6b6a6ea58
+      - s-7073fafea0
+      - s-7f76427b89
+      - s-c8e7ee38ac
+      - s-0c57cdf60e
+    zh:
+      - s-842b8373ed
+      - s-c19a0d774f
+      - s-6cb902a153
+      - s-f24249bc0e
+      - s-0abbf91a49
+      - s-89e15ecbbc
+      - s-7a4a270b3d
+      - s-980955a640
+      - s-89b6d506e7
+      - s-96cf9088f6
+      - s-50a7987be1
+      - s-a24e411a4b
+      - s-462bb8af17
+      - s-bceb2e570e
+      - s-18ebeb4186
+      - s-f59e9693bd
+      - s-e6d86c7529
+      - s-c9ab275947
+      - s-6589d07d28
+      - s-f85229332e
+      - s-d0b99a722c
+      - s-9c827a6808
+      - s-b1acbb0209
+      - s-22b4418acb
+      - s-c551e5078a

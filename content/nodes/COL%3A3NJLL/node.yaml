@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hymenochirus boettgeri
+  displayName: Hymenochirus boettgeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NJLL
+  sourceIndexes:
+    - name:
+        en: Hymenochirus boettgeri
+        zh: Hymenochirus boettgeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NJLL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/142
+            queryName: Hymenochirus boettgeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 98
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/133
+            queryName: Xenopus boettgeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/270
+            queryName: Hymenochirus boettgeri boettgeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/271
+            queryName: Hymenochirus boettgeri camerunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fc9c3d83c9
+      - s-0d5f5964f1
+      - s-6769f0b04b
+      - s-cb155825ee
+      - s-372f93f115
+      - s-2f96f7fdf7
+      - s-42b2a78a6b
+      - s-1d59a5c858
+      - s-7b8b98e8e8
+      - s-a90f863410
+      - s-656997ae88
+      - s-31c8276c81
+      - s-865a83950c
+      - s-25ecdf397b
+      - s-13268fb023
+      - s-98a3f8c038
+      - s-8b34da8b29
+      - s-b7b5b230e1
+      - s-e3979685bf
+      - s-f52ba9ee7d
+      - s-7a9e099002
+      - s-9024ceb127
+    zh:
+      - s-f0962e88fb
+      - s-e6299606de
+      - s-108fe90181
+      - s-5222e97387
+      - s-9e81d270be
+      - s-7278bf481f
+      - s-ed13d70f6b
+      - s-a57e6c4ba1
+      - s-55d5225542
+      - s-79b8617bb6
+      - s-7a2b4f3951
+      - s-2ca162af95
+      - s-3c2c61b634
+      - s-b1eb402c0a
+      - s-c3d1f44e9f
+      - s-94f62e6453
+      - s-e1223b4f01
+      - s-1380d5dc60
+      - s-2090addc9d
+      - s-7caefedcd8
+      - s-ea90d3925c
+      - s-309a18520e

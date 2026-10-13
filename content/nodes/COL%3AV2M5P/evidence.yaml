@@ -1,0 +1,223 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nidirana shyhhuangi Lin, Chang, Matsui, Shen, Tominaga & Lin, 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nidirana shyhhuangi
+      zh: Nidirana shyhhuangi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-88e967b3b1
+            part: title
+          zh:
+            page: zh
+            section: s-5aac1ff1c4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-88e967b3b1
+            part: body
+          zh:
+            page: zh
+            section: s-5aac1ff1c4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-69bbbf4274
+            part: title
+          zh:
+            page: zh
+            section: s-431148acce
+            part: title
+        text:
+          en:
+            page: en
+            section: s-69bbbf4274
+            part: body
+          zh:
+            page: zh
+            section: s-431148acce
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-688099a995
+            part: title
+          zh:
+            page: zh
+            section: s-011add8d88
+            part: title
+        sourceIds:
+          - primary-pmc11886882-v2m5p
+        text:
+          en:
+            page: en
+            section: s-688099a995
+            part: body
+          zh:
+            page: zh
+            section: s-011add8d88
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-7c7b8cf01b
+            part: title
+          zh:
+            page: zh
+            section: s-fee4cc3ef8
+            part: title
+        sourceIds:
+          - primary-pmc11886882-v2m5p
+        text:
+          en:
+            page: en
+            section: s-7c7b8cf01b
+            part: body
+          zh:
+            page: zh
+            section: s-fee4cc3ef8
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-fac6c10804
+            part: body
+          zh:
+            page: zh
+            section: s-6c2e60c383
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nidirana shyhhuangi
+          url: https://www.checklistbank.org/dataset/316115/taxon/V2M5P
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11886882-v2m5p
+        referenceId: ref-e0d9d716-6d5e-45ae-ac8b-c044e049ed98
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nidirana shyhhuangi: Distribution/natural-habitats and natural-history accounts, including their cited observations; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2e16cd9d97
+        part: body
+      zh:
+        page: zh
+        section: s-e0f7e59303
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1229.139344
+        referenceId: ref-e0d9d716-6d5e-45ae-ac8b-c044e049ed98
+        sourceKey: primary-pmc11886882-v2m5p
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11886882/article.xml
+        sourceConcept: Nidirana shyhhuangi
+        evidenceRead: "Nidirana shyhhuangi: Distribution/natural-habitats and natural-history accounts, including their cited observations; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Two supported Taiwanese sites
+              zh: 台湾两个支持地点
+            referenceId: ref-e0d9d716-6d5e-45ae-ac8b-c044e049ed98
+            sourceKey: primary-pmc11886882-v2m5p
+            locator: "Nidirana shyhhuangi: Distribution/natural-habitats and natural-history accounts, including their cited observations; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3f58d5b5ea
+                part: body
+              zh:
+                page: zh
+                section: s-c652ef3c07
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Mud nests and a small reported egg sample
+              zh: 泥巢及小规模报告卵样本
+            referenceId: ref-e0d9d716-6d5e-45ae-ac8b-c044e049ed98
+            sourceKey: primary-pmc11886882-v2m5p
+            locator: "Nidirana shyhhuangi: Distribution/natural-habitats and natural-history accounts, including their cited observations; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0884f6fa1b
+                part: body
+              zh:
+                page: zh
+                section: s-1237de8ec4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

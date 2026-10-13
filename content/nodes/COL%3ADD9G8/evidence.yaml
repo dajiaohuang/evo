@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Asthenes perijana
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Asthenes perijana
+      en: Asthenes perijana
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetAsthenesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-46f3850092
+            part: body
+          en:
+            page: en
+            section: s-da887f2ad7
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetAsthenesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-02fafbf24a
+            part: body
+          en:
+            page: en
+            section: s-20eed51b00
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetAsthenesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-ef71ba9739
+            part: body
+          en:
+            page: en
+            section: s-62bdaa2b71
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetAsthenesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-e98480718c
+            part: body
+          en:
+            page: en
+            section: s-8a2bbaca69
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetAsthenesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-19b9c67401
+            part: body
+          en:
+            page: en
+            section: s-e4de88bdd9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Asthenes perijana
+          url: https://www.checklistbank.org/dataset/316115/taxon/DD9G8
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetAsthenesHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Asthenes historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 4189–4206; each eBird and BirdTree crosswalk, as/sc/or COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：旧 Schizoeaca／Oreophylax 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Eight historical rows: retain older Schizoeaca／Oreophylax combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-b8ead1e8ad
+        part: body
+      en:
+        page: en
+        section: s-ebd02fa256
+        part: body

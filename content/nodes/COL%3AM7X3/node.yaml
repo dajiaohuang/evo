@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana atlantica
+  displayName: Boana atlantica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7X3
+  sourceIndexes:
+    - name:
+        en: Boana atlantica
+        zh: Boana atlantica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7X3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/450
+            queryName: Boana atlantica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/267
+            queryName: Hyla atlantica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/131
+            queryName: Hypsiboas atlanticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-721557cc79
+      - s-2697be4973
+      - s-38dfe2ec51
+      - s-b049695484
+      - s-f9f4ac6bcf
+      - s-1e2401bba9
+      - s-d9d7318f1d
+      - s-10cf225546
+      - s-2b725517c0
+      - s-a1a8c55497
+      - s-6e20b8607d
+      - s-201331c0ee
+    zh:
+      - s-cedd3d2f24
+      - s-309fa2af4f
+      - s-883cd199ea
+      - s-c826a75018
+      - s-e70e8edd43
+      - s-ef1939d5f6
+      - s-e61bcd6935
+      - s-88ca9fa1a5
+      - s-224a12f4e0
+      - s-e940e032ed
+      - s-584ba835c5
+      - s-71f6e0cae4

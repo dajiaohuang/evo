@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis aemulatus
+  displayName: Pristimantis aemulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ8V
+  sourceIndexes:
+    - name:
+        en: Pristimantis aemulatus
+        zh: Pristimantis aemulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ8V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/89
+            queryName: Pristimantis aemulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/249
+            queryName: Eleutherodactylus aemulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b37d211f3b
+      - s-8b2b2660f1
+      - s-f43de0f5e8
+      - s-4526fcb56f
+      - s-fd4e75c62f
+      - s-1bf1439dd4
+      - s-4a0e106ee8
+    zh:
+      - s-c2702053e1
+      - s-5c381cd0bf
+      - s-c508c65bf6
+      - s-42cb2b0bb4
+      - s-4b0bc726ab
+      - s-e117112710
+      - s-985b75a812

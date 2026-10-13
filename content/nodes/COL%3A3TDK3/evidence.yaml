@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Lepidostephium asteroides (Bolus & Schltr.) Kroner
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3TDK3, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3TDK3; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3TDK3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3TDK3
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000078608-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3TDK3 / WFO wfo-0000078608
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_3208_0
+        referenceId: ref-2829a97c-03c0-8764-a50b-c59d637903c0
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Lepidostephium asteroides (Bolus & Schltr.) Kroner account; archive rows 83146 (Morphology), 82607 (Habitat), source identifier 3208.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Eine ausdauernde, meist einstengelige, schlanke, bis 60 cm große Staude mit mehreren Köpfen. Stengel regelmäßig, ziemlich dicht beblättert, achselstandige Kurztriebe sehr dicht beblättert, stark drüsig und ± spinnwebig-filzig behaart, basal verkahlend, schuppig durch die Basen abgefallener Blätter. Blätter langlich-linealisch, 10 x 1.5 mm bis 85 x 5 mm, sitzend, Basis öhrelig verbreitert, leicht stengelumfassend, 1-nervig, ganzrandig, Rand ± nach unten gebogen, oberseits stark drüsig, unterseits ± filzig, am Mittelnerv zusätzlich drüsig behaart. Köpfchen ein bis mehrere (6) am Ende des Stengels bzw. beblätterter Zweige. Involucrum halbkugelig, 4 bis 6-reihig, 6-9 mm hoch, ± spinnwebig-filzig behaart. Die äußeren Hüllschuppen schmal eiformig, zugespitzt, nach innen hin lanzettlich bis linealisch, die außersten (3.2-4.0) x (0.6-0.9) mm, die inneren (8.2-9.0) x (1.1-1.4) mm, die innersten (7.5-8) x (0.79-0.92) mm, besonders die äußeren grünlich, alle ± stark drüsig behaart, Spitzen violettbraun. Zunqenblüten 20-30, Ligula langlich-linealisch, (13-17) x (2.0-2.6) mm,violett bis rosa; 4 bis 7-nervig, ± drüsig behaart. Scheibenblüten 80-120, Krone 5.2-5.7 mm lang, gelb, ± drüsig behaart. Pappus 25-32, bis 6 mm lange, bizarr gezähnte bis subbarbellate Haare in 2 Kreisen, die äußeren z. T. sehr kurz (minimal 0.5 mm) und schwach. Achänen (noch nicht reif), zylindrisch, (1.8-2.1) x (0.4-0.6) mm, 6-8 schwache Rippen, stark drüsig behaart, gelegentlich auch mit einigen steifen Zwillingshaaren besetzt.
+            sourceIds:
+              - sanbi_3208_0
+            locator: "SANBI/WFO archive Morphology row 83146; source 3208.0; publication: Kroner, G. 1980. Systematische studien im umkreis von Athrixia Ker-Gawler (Asteraceae). Mitt. Bot. Staatssamml. München 16: 1 - 268. [http://www.biodiversitylibrary.org/item/52055#page/17/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: L. asteroides wächst im steinübersäten Grasland, insbesondere an feuchten Standorten wie Sümpfen, Flußbänken und Ufern.
+            sourceIds:
+              - sanbi_3208_0
+            locator: "SANBI/WFO archive Habitat row 82607; source 3208.0; publication: Kroner, G. 1980. Systematische studien im umkreis von Athrixia Ker-Gawler (Asteraceae). Mitt. Bot. Staatssamml. München 16: 1 - 268. [http://www.biodiversitylibrary.org/item/52055#page/17/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,452 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Hylarana banjarana
+    name:
+      en: Hylarana banjarana
+      zh: Hylarana banjarana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The name and scope of this tadpole record
+          zh: 这份蝌蚪记录的名称与范围
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-173f2d9ccb
+            part: body
+          zh:
+            page: zh
+            section: s-4071161ca2
+            part: body
+      - topic: morphology
+        title:
+          en: Stage labels and the fields attached to them
+          zh: 阶段标签及对应字段
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-bdee096c84
+            part: body
+          zh:
+            page: zh
+            section: s-a9f3fa91fe
+            part: body
+      - topic: morphology
+        title:
+          en: Dimensionless proportions in image records
+          zh: 图像记录中的无量纲比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0b376d9ec1
+            part: body
+          zh:
+            page: zh
+            section: s-b716172ce3
+            part: body
+      - topic: overview
+        title:
+          en: A ratio that conflicts with its source row
+          zh: 与来源行不一致的比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-dad4cee5c1
+            part: body
+          zh:
+            page: zh
+            section: s-9a63449811
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 530, 531, 532; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Ranidae
+      genus: Hylarana
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 530
+        values:
+          - "Leong, T. M., & Lim, B. L. (2003). A new species of Rana (Amphibia : Anura : Ranidae) from the Highlands of the Malay Peninsula, with diagnostic larval descriptions. The Raffles Bulletin of Zoology, 51(1), 115-122."
+          - Measurement
+          - Black-and-white image
+          - Rana banjarana
+          - Ranidae
+          - Hylarana
+          - Hylarana banjarana
+          - 27
+          - 38.335
+          - 10.891
+          - 27.222
+          - 4.89
+          - 5.778
+          - 3.668
+          - 1.889
+          - 1.222
+          - 6.226
+          - 3.129
+          - null
+          - 0.2841691274292
+          - 0.7118256162776
+          - 0.127559671318638
+          - 0.1572388157366
+          - 0.9568279641565
+          - 0.492761184296335
+          - 0.318768749184818
+          - 0.16241329985653
+          - 0.81622538155152
+          - null
+          - Yanfang Song
+      - rowNumber: 531
+        values:
+          - "Leong, T. M., & Lim, B. L. (2003). A new species of Rana (Amphibia : Anura : Ranidae) from the Highlands of the Malay Peninsula, with diagnostic larval descriptions. The Raffles Bulletin of Zoology, 51(1), 115-122."
+          - Measurement
+          - Black-and-white image
+          - Rana banjarana
+          - Ranidae
+          - Hylarana
+          - Hylarana banjarana
+          - 43
+          - 48.728
+          - 16.911
+          - 31.077
+          - 6.786
+          - 5.714
+          - 4.649
+          - 1.548
+          - 0.476
+          - 7.627
+          - 3.93
+          - null
+          - 0.34748924642916
+          - 0.63776473485474
+          - 0.139262846823182
+          - 0.11726317517649
+          - 0.9547158121179
+          - 0.317681825644393
+          - 0.9768519177475
+          - 0.15652191758332
+          - 0.86517813166968
+          - null
+          - Yanfang Song
+      - rowNumber: 532
+        values:
+          - "Leong, T. M., & Lim, B. L. (2003). A new species of Rana (Amphibia : Anura : Ranidae) from the Highlands of the Malay Peninsula, with diagnostic larval descriptions. The Raffles Bulletin of Zoology, 51(1), 115-122."
+          - Measurement
+          - Hand-drawn picture
+          - Rana banjarana
+          - Ranidae
+          - Hylarana
+          - Hylarana banjarana
+          - 39
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.458
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 530
+        scientificName: Hylarana banjarana
+        sourceField: TaL/TL
+        suppliedRatio: 0.7118256162776
+        originalNumerator: 27.222
+        originalTotalLength: 38.335
+        computedRatio: 0.7101082561627755
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 530
+        scientificName: Hylarana banjarana
+        sourceField: MTH/TL
+        suppliedRatio: 0.1572388157366
+        originalNumerator: 5.778
+        originalTotalLength: 38.335
+        computedRatio: 0.15072388157036648
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 530
+        scientificName: Hylarana banjarana
+        sourceField: TMH/TL
+        suppliedRatio: 0.9568279641565
+        originalNumerator: 3.668
+        originalTotalLength: 38.335
+        computedRatio: 0.09568279640015652
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 530
+        scientificName: Hylarana banjarana
+        sourceField: DFH/TL
+        suppliedRatio: 0.492761184296335
+        originalNumerator: 1.889
+        originalTotalLength: 38.335
+        computedRatio: 0.049276118429633496
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 530
+        scientificName: Hylarana banjarana
+        sourceField: VFH/TL
+        suppliedRatio: 0.318768749184818
+        originalNumerator: 1.222
+        originalTotalLength: 38.335
+        computedRatio: 0.031876874918481804
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 530
+        scientificName: Hylarana banjarana
+        sourceField: TMW/TL
+        suppliedRatio: 0.81622538155152
+        originalNumerator: 3.129
+        originalTotalLength: 38.335
+        computedRatio: 0.08162253815051519
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 531
+        scientificName: Hylarana banjarana
+        sourceField: TMH/TL
+        suppliedRatio: 0.9547158121179
+        originalNumerator: 4.649
+        originalTotalLength: 48.728
+        computedRatio: 0.09540715810211788
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 531
+        scientificName: Hylarana banjarana
+        sourceField: DFH/TL
+        suppliedRatio: 0.317681825644393
+        originalNumerator: 1.548
+        originalTotalLength: 48.728
+        computedRatio: 0.031768182564439335
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 531
+        scientificName: Hylarana banjarana
+        sourceField: VFH/TL
+        suppliedRatio: 0.9768519177475
+        originalNumerator: 0.476
+        originalTotalLength: 48.728
+        computedRatio: 0.009768510917747495
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 531
+        scientificName: Hylarana banjarana
+        sourceField: TMW/TL
+        suppliedRatio: 0.86517813166968
+        originalNumerator: 3.93
+        originalTotalLength: 48.728
+        computedRatio: 0.08065178131669677
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.2841691274292
+        row: 530
+        stage: 27
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.127559671318638
+        row: 530
+        stage: 27
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.16241329985653
+        row: 530
+        stage: 27
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.34748924642916
+        row: 531
+        stage: 43
+        type: Measurement
+        imageType: Black-and-white image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.63776473485474
+        row: 531
+        stage: 43
+        type: Measurement
+        imageType: Black-and-white image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6MN44
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudohynobius shuichengensis
+  displayName: Pseudohynobius shuichengensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NYF2
+  sourceIndexes:
+    - name:
+        en: Pseudohynobius shuichengensis
+        zh: Pseudohynobius shuichengensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NYF2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/326
+            queryName: Pseudohynobius shuichengensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2774b668c3
+      - s-0db7efe328
+      - s-b9865be03d
+      - s-1b30e58ffd
+      - s-d254df22c9
+      - s-d0c00f03aa
+      - s-4b30d05163
+      - s-5fdd1bc369
+      - s-eeff98d6e7
+    zh:
+      - s-e02988061b
+      - s-b956bf2d27
+      - s-5175d4beb2
+      - s-492bdd6515
+      - s-05e0f2a634
+      - s-0c421b7649
+      - s-4a28bfa878
+      - s-cccdd59a9b
+      - s-497c5cc6d8

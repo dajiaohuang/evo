@@ -1,0 +1,160 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Euphlyctis cyanophlyctis
+  displayName: Euphlyctis cyanophlyctis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CMH4
+  sourceIndexes:
+    - name:
+        en: Euphlyctis cyanophlyctis
+        zh: Euphlyctis cyanophlyctis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CMH4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/393
+            queryName: Euphlyctis cyanophlyctis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 80
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/139
+            queryName: Euphlyctis mudigere
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/165
+            queryName: Rana cyanophlyetis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/166
+            queryName: Bufo cyanophlyctis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/167
+            queryName: Bufo cyanoplyetis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/168
+            queryName: Bufo cyanophlyetis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/169
+            queryName: Rana bengalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/170
+            queryName: Rana leschenaultii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/171
+            queryName: Rana benghalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/173
+            queryName: Euphlyctis leschenaultii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/174
+            queryName: Rana cyanophlictis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/175
+            queryName: Rana cyanophlyctis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 64
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/176
+            queryName: Dicroglossus cyanophlyctis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/177
+            queryName: Occidozyga cyanophlyctis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/367
+            queryName: Rana cyanophlyctis cyanophlyctis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/368
+            queryName: Euphlyctis cyanophlyctis cyanophlyctis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/369
+            queryName: Euphlyctis cyanophlyctis microspinulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f1b3ee2b3b
+      - s-757b3cdb6c
+      - s-015997defb
+      - s-f33cd0a119
+      - s-6da4580d1c
+      - s-d916bb1993
+      - s-8b772e07bc
+      - s-36e4b2d89e
+      - s-1678d75774
+      - s-c9c3875b14
+      - s-7877f19c5a
+      - s-36657073a5
+    zh:
+      - s-dfdb22fc7c
+      - s-0e0bb11944
+      - s-116d7aefa1
+      - s-91fb06fb1a
+      - s-05510bb9d8
+      - s-b218acae51
+      - s-49886f9d07
+      - s-17a4bd275b
+      - s-a15bbf6e48
+      - s-803a4b2981
+      - s-956be67717
+      - s-cefd33ab29

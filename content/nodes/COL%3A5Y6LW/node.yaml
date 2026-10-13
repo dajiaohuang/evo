@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton cieloensis
+  displayName: Chiropterotriton cieloensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6LW
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton cieloensis
+        zh: Chiropterotriton cieloensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6LW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/294
+            queryName: Chiropterotriton cieloensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dbeeef808d
+      - s-69ed4d4ef8
+      - s-7fe93532d7
+      - s-4e19617b7f
+      - s-76c2a1cdd5
+      - s-c820ad51e7
+      - s-6ff5362c01
+      - s-8acb9caf77
+      - s-0e047bbe9c
+      - s-4527499b57
+      - s-fd5d4de1e2
+    zh:
+      - s-311a338ab4
+      - s-b95509f15f
+      - s-8a964f7750
+      - s-18c97a1104
+      - s-f4961e8e08
+      - s-eab9f11031
+      - s-23a0f2a24b
+      - s-4990152343
+      - s-04c24f7f5e
+      - s-e17c4cb3d5
+      - s-fe1b7819cb

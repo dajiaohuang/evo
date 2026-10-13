@@ -1,0 +1,192 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus americanus
+  displayName: Anaxyrus americanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66LTT
+  sourceIndexes:
+    - name:
+        en: Anaxyrus americanus
+        zh: Anaxyrus americanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66LTT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/428
+            queryName: Anaxyrus americanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 203
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/227
+            queryName: Bufo americanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 633
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/228
+            queryName: Bufo americanus americanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/347
+            queryName: Bufo terrestris americanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/348
+            queryName: Bufo americanus charlesmithi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/350
+            queryName: Bufo terrestris copei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/107
+            queryName: Bufo copei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/273
+            queryName: Bufo terrestris charlesmithi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/274
+            queryName: Anaxyrus americanus americanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/275
+            queryName: Anaxyrus americanus charlesmithi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/164
+            queryName: Chilophryne americana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/165
+            queryName: Incilius americanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/166
+            queryName: Bufo copeii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/167
+            queryName: Anaxyrus charlesmithi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/336
+            queryName: Bufo americanus quadripunctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/337
+            queryName: Bufo lentiginosus americanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/338
+            queryName: Bufo americanus copei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/339
+            queryName: Bufo americanus alani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8bf8c35781
+      - s-d5ace2515b
+      - s-c0ee4f7b30
+      - s-1a1102b36c
+      - s-70acbd101c
+      - s-99e97a90f8
+      - s-018d8c4d42
+      - s-70584bb1db
+      - s-0f43a76e29
+      - s-14da4f6df8
+      - s-969790590a
+      - s-c1115cc7b5
+      - s-7cafc28a6f
+      - s-d346dad764
+      - s-0538c1b11d
+      - s-98f6fb78ad
+      - s-bf49244dff
+      - s-399b5ea9b5
+      - s-f980299118
+      - s-ebaaa9544c
+      - s-4afeaf448f
+      - s-97005f26ab
+    zh:
+      - s-d639c6d82b
+      - s-5ae2db98f6
+      - s-a338661cf8
+      - s-2807d66de8
+      - s-a60fe2ed79
+      - s-f0c56a29cf
+      - s-4ade97ab19
+      - s-2ad4c8054d
+      - s-269cc3c394
+      - s-7b76dddfeb
+      - s-9214880ed0
+      - s-0f12d821c0
+      - s-bdf14afab1
+      - s-bf1a0e1750
+      - s-29a1190d2e
+      - s-e6bcd46d0e
+      - s-e7a388eee2
+      - s-892454e725
+      - s-f5057eca57
+      - s-2d2fa7e709
+      - s-3e99b201a3
+      - s-6acb960061

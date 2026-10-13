@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys goyana
+  displayName: Proceratophrys goyana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VY6B
+  sourceIndexes:
+    - name:
+        en: Proceratophrys goyana
+        zh: Proceratophrys goyana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VY6B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/219
+            queryName: Proceratophrys goyana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/312
+            queryName: Ceratophrys goyanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/392
+            queryName: Stombus goyanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/393
+            queryName: Stombus goianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/394
+            queryName: Proceratophrys goyanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-08080f7e7c
+      - s-9f6a130131
+      - s-55be30fdd2
+      - s-422e000b4d
+      - s-e20d1ba85a
+      - s-40ccaa46f9
+      - s-4e673ffa67
+      - s-814b06d815
+      - s-ab68fd75b4
+      - s-18f908d799
+      - s-a5936857fa
+      - s-72e13f918e
+      - s-cd5a6f186a
+      - s-3125bb8c76
+      - s-fc2b4ab513
+      - s-a055d5cb3b
+    zh:
+      - s-35f0726663
+      - s-8423ce61e3
+      - s-f9d5104f44
+      - s-6f6cfc9cc5
+      - s-0dfaaecb6e
+      - s-5993a5e051
+      - s-b06dbbb23e
+      - s-1ff68ede9d
+      - s-d8ce89fb44
+      - s-876704c126
+      - s-3e229feccf
+      - s-9d4f42a1c7
+      - s-0ace820c6f
+      - s-224f80eecc
+      - s-909e88c901
+      - s-1a3f489699

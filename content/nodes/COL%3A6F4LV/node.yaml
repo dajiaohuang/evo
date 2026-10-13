@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus cundalli
+  displayName: Eleutherodactylus cundalli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4LV
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus cundalli
+        zh: Eleutherodactylus cundalli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4LV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/185
+            queryName: Eleutherodactylus cundalli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/122
+            queryName: Eleutherodactylus lynni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/365
+            queryName: Euhyas cundalli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/490
+            queryName: Eleutherodactylus cundalli cundalli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cde89703bf
+      - s-7145a4ee43
+      - s-8476e0c5da
+      - s-a39e5b30e6
+      - s-26c86d2085
+      - s-8bd1bc6a94
+      - s-b867b95ce1
+      - s-2365f78647
+      - s-b3c8a46c0d
+      - s-12580706b6
+      - s-3750cf286e
+    zh:
+      - s-207b5dbf2b
+      - s-4007cbf887
+      - s-313abc7ef8
+      - s-663e1f6a94
+      - s-153e0ca26d
+      - s-d810fd388a
+      - s-60d1751140
+      - s-011831fc9f
+      - s-445eb3f927
+      - s-37f197833d
+      - s-9e9a5b6b96

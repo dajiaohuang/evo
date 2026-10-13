@@ -1,0 +1,88 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Clupeocephala
+    commonName: Clupeocephalans
+    commonNameZh: 鲱头鱼类
+    rank: unranked clade
+    taxonId: txn:184584
+    firstAppearance: 201.4
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:clupeocephala
+      claimKind: scientific
+      claimType: topology
+      statement: Genome-scale comparisons test early teleost branching patterns that include the sampled Clupeocephala route. The recovered position changes with species and gene sampling, so it is not presented as a fossil FAD, ancestor or exact clade age.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond the recovered position changes with species and gene sampling, so it is not presented as a fossil FAD, ancestor or exact clade age.
+      referenceLinks:
+        - relation: supports
+          referenceId: takezaki-2021-teleost-divergence
+          pages: evab052
+          figure: Figures 1–6; supplementary datasets
+          quoteLocator: Dataset construction; topology comparisons; sampling sensitivity
+    - subjectId: taxon:clupeocephala
+      claimKind: scientific
+      claimType: divergence-time
+      statement: The 2024 clock analysis estimated crown Clupeocephala between 210.83 and 186.01 Ma; the interval is a divergence model, not a fossil first appearance or ancestor claim.
+      confidence: medium
+      confidenceRationale: "Crown Clupeocephala molecular-clock interval: the cited primary study or systematic review directly supports the stated sample, calibration or withholding boundary at the supplied locator. Confidence is medium and does not extend to a global FAD, LAD, direct ancestor or unsampled interval."
+      referenceLinks:
+        - relation: supports
+          referenceId: qi-2024-teleost-wgd-dating
+          pages: Article evae128
+          figure: Figure 1; Supplementary Table S1
+          quoteLocator: "Results: Clupeocephala 210.83–186.01 Ma"
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - Crown Clupeocephala molecular-clock interval：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。
+  claim-statements.zh:
+    - 基因组尺度比较检验了包含所抽样鲱头鱼类路线的早期真骨鱼分支模式。所得位置会随物种和基因抽样变化，因此不被表述为化石首现、祖先或精确支系年龄。
+    - 2024 年分子钟分析把鲱头鱼类冠群估计在 2.1083–1.8601 亿年前；该区间是分化模型，不是化石首现或祖先主张。
+  ranges:
+    - entityId: clupeocephala
+      rangeKind: global-composite
+      taxonomicConcept: Crown Clupeocephala molecular-clock interval
+      geographicScope: Concatenated ohnologue clock model of Qi et al. 2024
+      olderMa: 210.83
+      youngerMa: 186.01
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The reported interval is model- and calibration-dependent.
+      evidenceBasis: The interval represents a crown-node estimate, not a complete fossil or species range.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:clupeocephala:range-boundary
+      referenceLocators:
+        - referenceId: qi-2024-teleost-wgd-dating
+          locator: "Article evae128; Figure 1; Supplementary Table S1; Results: Clupeocephala 210.83–186.01 Ma"
+  catalogue-profile:
+    sections:
+      - topic: phylogeny
+        title:
+          en:
+            page: en
+            section: s-c4eec4c6ed
+            part: title
+          zh:
+            page: zh
+            section: s-eb9ec35a90
+            part: title
+        sourceIds:
+          - takezaki-2021-teleost-divergence
+          - qi-2024-teleost-wgd-dating
+        text:
+          en:
+            page: en
+            section: s-c4eec4c6ed
+            part: body
+          zh:
+            page: zh
+            section: s-eb9ec35a90
+            part: body

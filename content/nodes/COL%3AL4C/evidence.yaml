@@ -1,0 +1,372 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Papionini
+    commonName: Papionins
+    commonNameZh: 狒狒族
+    rank: tribe
+    taxonId: ""
+    colUsageId: L4C
+    colDatasetId: "2144"
+    firstAppearance: 0
+    lastAppearance: 0
+    extinct: false
+    parentRelationshipKind: taxonomic-parent
+    entityKind: taxon
+    contentLevel: registry-only
+  claims:
+    - subjectId: taxon:papionini
+      claimKind: scientific
+      claimType: taxonomy
+      statement: The COL26.8 accepted parent chain for Macaca radiata usage 3WWP2 places Papionini (tribe usage L4C) immediately below Cercopithecinae (subfamily usage JB3); this records checklist placement, not a phylogenetic result.
+      confidence: medium
+      confidenceRationale: Pinned COL26.8 usage L4C directly establishes Papionini (tribe) at this point in the accepted checklist path. This claim describes that dataset's classification and does not assert universal consensus or phylogenetic relationships.
+      referenceLinks:
+        - referenceId: col-2026-checklistbank-316115
+          relation: supports
+          quoteLocator: Accepted parent chain for species usage 3WWP2; tribe usage L4C immediately follows subfamily usage JB3.
+  claim-rationales.zh:
+    - 固定版 COL26.8 用名 L4C 直接支持 Papionini（tribe）在该已接受清单路径中的位置；此声明只描述该数据集的分类，不推断普遍共识或系统发育关系。
+  claim-statements.zh:
+    - COL26.8 对邦内猕猴用名 3WWP2 的已接受父级链，将 Papionini（族用名 L4C）置于 Cercopithecinae（亚科用名 JB3）之下；这记录的是清单分类位置，不是系统发育结果。
+  ranges:
+    - entityId: papionini
+      rangeKind: global-composite
+      taxonomicConcept: Papionini accepted usage L4C; numerical temporal range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; no audited fossil-range endpoint is asserted for this selected living-taxon route.
+      evidenceBasis: The pinned COL26.8 checklist supports accepted identity and classification only; the selected local roadside study does not establish a fossil range or a wild-distribution inventory.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: col-2026-checklistbank-316115
+          locator: COL26.8 dataset 316115; accepted usage L4C and parent classification (identity/classification only)
+  catalogue-profile:
+    scientificName: Papionini
+    rank: tribe
+    sourceDatasetId: "2144"
+    name:
+      zh: Papionini
+      en: Papionini
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-6e1d8834ae
+            part: body
+          en:
+            page: en
+            section: s-6b8a518649
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-30953f0826
+            part: body
+          en:
+            page: en
+            section: s-3430a638b7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-6ba647e608
+            part: body
+          en:
+            page: en
+            section: s-83502e1469
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-aa3516eb56
+            part: body
+          en:
+            page: en
+            section: s-e684a463ef
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-28674a235d
+            part: body
+          en:
+            page: en
+            section: s-e6150ced42
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-2aa7968778
+            part: body
+          en:
+            page: en
+            section: s-c1f5aeaaef
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-8a545e0488
+            part: body
+          en:
+            page: en
+            section: s-d49255bfb8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Papionini
+          url: https://www.checklistbank.org/dataset/316115/taxon/L4C
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 10 authored entries grouped under Papionini by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 36 authored same-name records placed under Papionini by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 37 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 33
+            foraging: 37
+            activity: 37
+          readingTargets:
+            - name: Macaca leonina
+              colId: 3WWNK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3WWNK
+            - name: Macaca maura
+              colId: 3WWNN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3WWNN
+            - name: Macaca mulatta
+              colId: 3WWNQ
+              release: COL26.8
+              canonicalPath: content/nodes/scope-COL-61215bcb4a-a9b0cf55208d885e
+            - name: Macaca nemestrina
+              colId: 3WWNT
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3WWNT
+            - name: Macaca nigra
+              colId: 732V5
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A732V5
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 9 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: SST8
+              name: Cercocebus galeritus
+              canonicalPath: content/nodes/COL%3ASST8
+            - colId: 3WWP8
+              name: Macaca sylvanus
+              canonicalPath: content/nodes/COL%3A3WWP8
+            - colId: 3WWP7
+              name: Macaca sinica
+              canonicalPath: content/nodes/COL%3A3WWP7
+            - colId: 3WWP6
+              name: Macaca silenus
+              canonicalPath: content/nodes/scope-COL-36bdb861d4-6563a7431141f63f
+            - colId: 3WWNQ
+              name: Macaca mulatta
+              canonicalPath: content/nodes/scope-COL-61215bcb4a-a9b0cf55208d885e
+          fieldAccountCounts:
+            gestation(mo): 8
+            newborn(g): 8
+            weaning(mo): 9
+            wean mass(g): 6
+            AFR(mo): 8
+            max. life(mo): 5
+            litter size: 9
+            litters/year: 8
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-e20844c99e
+        part: body
+      en:
+        page: en
+        section: s-03c8688768
+        part: body

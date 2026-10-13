@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis taciturnus
+  displayName: Pristimantis taciturnus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJPX
+  sourceIndexes:
+    - name:
+        en: Pristimantis taciturnus
+        zh: Pristimantis taciturnus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJPX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/120
+            queryName: Pristimantis taciturnus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/72
+            queryName: Eleutherodactylus taciturnus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-08642faa33
+      - s-6129dc570a
+      - s-7188c35408
+      - s-8389b97c62
+      - s-b75ad16267
+      - s-f455e51a06
+      - s-f652a107e9
+    zh:
+      - s-73cde091ed
+      - s-d66be19821
+      - s-4e3496fe93
+      - s-f1021a9762
+      - s-8eea8599ca
+      - s-9ab9d3c6a0
+      - s-53df443e96

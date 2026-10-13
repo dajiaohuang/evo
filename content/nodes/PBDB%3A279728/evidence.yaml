@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eumysops laeviplicatus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Eumysops laeviplicatus
+      en: Eumysops laeviplicatus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f5e5212773
+            part: body
+          en:
+            page: en
+            section: s-0a12117a54
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d4c3137430
+            part: body
+          en:
+            page: en
+            section: s-81f2b3f62c
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-554f174ad0
+            part: body
+          en:
+            page: en
+            section: s-bc94b88437
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6c21811b5a
+            part: body
+          en:
+            page: en
+            section: s-216832a158
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9aa8822a24
+            part: body
+          en:
+            page: en
+            section: s-ab1984b486
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Eumysops laeviplicatus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=279728&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:279728; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:279728
+          selectedOccurrenceIds:
+            - occ:1145023
+            - occ:1180453
+            - occ:1180518
+            - occ:1180576
+            - occ:1392555
+            - occ:1428663
+            - occ:1428673
+            - occ:1428685
+            - occ:1429230
+            - occ:1429231
+            - occ:1429235
+            - occ:1429310
+            - occ:1449067
+          selectedCollectionIds:
+            - col:145757
+            - col:152081
+            - col:152085
+            - col:152088
+            - col:191769
+            - col:198684
+            - col:198686
+            - col:198687
+            - col:198821
+            - col:198822
+            - col:198824
+            - col:198863
+            - col:202096
+          sourceReferenceIds:
+            - ref:47141
+            - ref:48790
+            - ref:64699
+            - ref:67705
+            - ref:67738
+            - ref:48434
+            - ref:69224
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-eda2ca9a86
+        part: body
+      en:
+        page: en
+        section: s-70acf22e1e
+        part: body

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca ernestoi
+  displayName: Gastrotheca ernestoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JXX3
+  sourceIndexes:
+    - name:
+        en: Gastrotheca ernestoi
+        zh: Gastrotheca ernestoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JXX3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/33
+            queryName: Gastrotheca ernestoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/277
+            queryName: Gastrotheca viridis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3c5195edf0
+      - s-6cd2cef28c
+      - s-53c8d34db7
+      - s-83b5e4aa4f
+      - s-4c1ba0dbd0
+      - s-67512d9f55
+      - s-36b3d65f69
+      - s-9289e0a941
+      - s-b6497996f2
+      - s-c0db79b231
+      - s-998ce660f6
+      - s-29016ab03e
+      - s-9c379b8814
+    zh:
+      - s-41d3c592bf
+      - s-2831b72a83
+      - s-c40f5189c8
+      - s-851bb9c002
+      - s-c9ef36c128
+      - s-894ef77941
+      - s-c84b988d94
+      - s-9de7bc8427
+      - s-33e87d3b9b
+      - s-667d457240
+      - s-9c9e54f8ea
+      - s-447268622c
+      - s-4392c4c62d

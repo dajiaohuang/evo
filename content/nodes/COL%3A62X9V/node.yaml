@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella
+  displayName: Leptobrachella
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62X9V
+  sourceIndexes:
+    - name:
+        en: Leptobrachella
+        zh: Leptobrachella
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62X9V
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/499
+            queryName: Leptobrachella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 282
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-44da79cb5b
+      - s-2f116370c9
+      - s-ad5b7df667
+      - s-ab07c80d00
+      - s-b54aab440a
+      - s-91bcce78a9
+      - s-2670ec6c60
+      - s-38989ef5de
+      - s-b50e24f97e
+      - s-61e6cc4872
+      - s-55df7b2b1f
+      - s-196b88d0a5
+      - s-1726bf1a3f
+      - s-f7f20d01e5
+      - s-c895cdfd76
+      - s-7a65be5588
+      - s-b31dbd43b5
+      - s-d087bff2ac
+      - s-d0d0f37542
+      - s-2b38ab8549
+    zh:
+      - s-26f004dabe
+      - s-af268ffd9b
+      - s-9aba115118
+      - s-4365af40c4
+      - s-8b115b4f6b
+      - s-e16428e4c3
+      - s-f9f081a347
+      - s-57fc7b7b89
+      - s-d3871a5fd6
+      - s-8639e490ed
+      - s-7340d06263
+      - s-0c9434be80
+      - s-3fcbc818ea
+      - s-52c96dac23
+      - s-c9d57f89b2
+      - s-de8f4db804
+      - s-f956085757
+      - s-ec83b07481
+      - s-dca020b4a8
+      - s-7f81d77db0

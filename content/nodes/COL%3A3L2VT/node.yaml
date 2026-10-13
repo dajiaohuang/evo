@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Herpele squalostoma
+  displayName: Herpele squalostoma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3L2VT
+  sourceIndexes:
+    - name:
+        en: Herpele squalostoma
+        zh: Herpele squalostoma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3L2VT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/281
+            queryName: Herpele squalostoma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/86
+            queryName: Caecilia squalostoma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-133298d68c
+      - s-4d463413e8
+      - s-6efb1aee32
+      - s-a5562a9d56
+      - s-160a085cd5
+      - s-197c57ac74
+      - s-e4faa84494
+      - s-988f4af6a0
+      - s-212b95a0b1
+    zh:
+      - s-45ee991625
+      - s-2980f5d5f9
+      - s-79c6b04908
+      - s-db01823873
+      - s-17023bd3ef
+      - s-a172abeffd
+      - s-458772b008
+      - s-9577a90a92
+      - s-b33c52fd24

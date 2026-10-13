@@ -1,0 +1,364 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paleosuchus palpebrosus (Cuvier, 1807)
+    rank: species
+    sourceDatasetId: "1008"
+    name:
+      zh: 库氏凯门鳄
+      en: Cuvier's dwarf caiman
+    sections:
+      - topic: feedingBiomechanics
+        text:
+          zh:
+            page: zh
+            section: s-fb8419a0e3
+            part: body
+          en:
+            page: en
+            section: s-1f96577959
+            part: body
+        sourceIds:
+          - erickson2012
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-7563d2c1e4
+            part: body
+          en:
+            page: en
+            section: s-aec62d158f
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-556ff10a9e
+            part: body
+          en:
+            page: en
+            section: s-d6805e5603
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-a37070d5c6
+            part: body
+          en:
+            page: en
+            section: s-cdebffea39
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-9d99b92eaf
+            part: body
+          en:
+            page: en
+            section: s-6843752916
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-480aaecef2
+            part: body
+          en:
+            page: en
+            section: s-f627738447
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-8b8ab0bc46
+            part: body
+          en:
+            page: en
+            section: s-d1aed4d1b6
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-ae40dba6a8
+            part: body
+          en:
+            page: en
+            section: s-38368e13e0
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-4ee28f6744
+            part: body
+          en:
+            page: en
+            section: s-5e83fde733
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-8ba45d2e4b
+            part: body
+          en:
+            page: en
+            section: s-34a576a8a4
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-a5677e4be1
+            part: body
+          en:
+            page: en
+            section: s-3d372507d0
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-dc3d83f285
+            part: body
+          en:
+            page: en
+            section: s-e9f3bd9fd3
+            part: body
+    sources:
+      - id: erickson2012
+        referenceId: ref-d26f7dc5-d18c-8991-a4cc-efad0f7a40f5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 对研究发表时认可的 23 种现生鳄类进行的咬合力与牙压实验；83 只性成熟个体来自研究、保育和展示机构，支持表 1 的样本测量及跨种体质量比较，不代表野外捕食力、物种全域变异或现行分类概念。
+            en: Bite-force and tooth-pressure experiments on the 23 living crocodilian species recognized when the study was published; 83 sexually mature individuals came from research, conservation and display institutions. Supports Table 1 measurements and cross-species body-mass comparisons, not field performance, range-wide variation or current taxonomic concepts.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 1008
+          url: https://www.checklistbank.org/dataset/316115/taxon/4C47J
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceClassification
+          - sourceCitationByField
+          - scope
+          - citationScopeCautions
+          - readerFocalFieldsAfterCitationCaution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits dataset v1-2.xlsx; Data row 8507; Species=Paleosuchus palpebrosus; Sources of individual trait val for the same species; Trait definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 45408133
+          sourceFileMd5: a00be695740e752db2654537bbb0814c
+          sourceFileSha256: 74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a
+          sourceClassification: Reptile Database 2023 as recorded in workbook
+          sourceCitationByField:
+            Maximum total length ("TL", mm): Feldman et al. 2016
+            Microhabitat: Stark et al. 2018
+            Diet: Harrington et al. 2018
+            Active time: Stark et al. 2018
+            Foraging mode: Rhodin et al. 2011
+            Reproductive mode: Zimin et al. 2022
+            Mean number of offspring per litter or number of eggs per clutch: Greer 1997
+            Smallest clutch size: Greer 1997
+            Largest clutch size: Greer 1997
+            Number of litters or clutches produced per year: Scharf et al. 2015
+            Egg length (mm): Greer 1997
+          scope:
+            zh: 尺寸、活动、取食与繁殖的已引性状资料；不外推体重、幼体长度、毒性、保护或当前分布。
+            en: Cited size, activity, feeding and reproductive traits; no mass, juvenile-length, venom, conservation or current-range inference.
+          citationScopeCautions:
+            - field: Diet
+              sourceCitation: Harrington et al. 2018
+              sourceValue: Carnivorous
+              reason: Snake study cited for a non-snake taxon; field support unresolved.
+            - field: Foraging mode
+              sourceCitation: Rhodin et al. 2011
+              sourceValue: ACT
+              reason: Turtle checklist cited for a non-turtle taxon; field support unresolved.
+          readerFocalFieldsAfterCitationCaution:
+            - Maximum total length ("TL", mm)
+            - Mean number of offspring per litter or number of eggs per clutch
+            - Smallest clutch size
+            - Largest clutch size
+            - Number of litters or clutches produced per year
+            - Egg length (mm)
+            - Microhabitat
+            - Active time
+            - Reproductive mode
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 14763; name Paleosuchus palpebrosus; reference table row 14763; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - incubation_d
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Thorbjarnarson,  1996 from median of 3(Thorbjarnarson,  1996, Werner and Griebeler, 2013, Ricklefs, 2010b)
+            female_maturity_d: Ricklefs, 2010b
+            litter_or_clutch_size_n: mean of Thorbjarnarson,  1996 & Werner and Griebeler, 2013 from median of 8(Reptile Incubation book, Brazaitis, P., Watanabe, M., 2011, Brazaitis, P., Watanabe, M., 2011, Thorbjarnarson,  1996, Werner and Griebeler, 2013, Brazaitis, P., Watanabe, M., 2011, Reptile Incubation book, Alderton, D., 1991)
+            incubation_d: mean of Birchard, G. and D. Marcellini, 1996 & IUCN, 1989 from median of 10(Brazaitis, P., Watanabe, M., 2011, IUCN, 1989, IUCN, 1989, Brazaitis, P., Watanabe, M., 2011, Brazaitis, P., Watanabe, M., 2011, IUCN, 1989, Birchard, G. and D. Marcellini, 1996, Reptile Incubation book, Reptile Incubation book, Ricklefs, 2010b)
+            maximum_longevity_y: de Magalhaes and Costa, 2009
+          sameNameSourceLabels:
+            - Ricklefs, 2010b
+            - Werner and Griebeler, 2013
+            - Thorbjarnarson,  1996
+            - Reptile Incubation book
+            - Brazaitis, P., Watanabe, M., 2011
+            - Alderton, D., 1991
+            - IUCN, 1989
+            - Birchard, G. and D. Marcellini, 1996
+            - de Magalhaes and Costa, 2009
+            - Carey, J.R. and D.S. Judge, 2002
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+    limitations:
+      zh:
+        page: zh
+        section: s-fc5916950b
+        part: body
+      en:
+        page: en
+        section: s-dab3e55a44
+        part: body

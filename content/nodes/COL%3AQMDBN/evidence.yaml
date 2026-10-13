@@ -1,0 +1,89 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantidactylus georgei Scherz, Crottini, Hutter, Hildenbrand, Andreone, Fulgence, Köhler, Ndriantsoa, Ohler et al., 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mantidactylus georgei
+      zh: Mantidactylus georgei
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c0ef2b11cf
+            part: title
+          zh:
+            page: zh
+            section: s-ec9c258bc7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c0ef2b11cf
+            part: body
+          zh:
+            page: zh
+            section: s-ec9c258bc7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-63cd8c6815
+            part: title
+          zh:
+            page: zh
+            section: s-fcff38af4b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-63cd8c6815
+            part: body
+          zh:
+            page: zh
+            section: s-fcff38af4b
+            part: body
+        sourceIds:
+          - taxonomy
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantidactylus georgei
+          url: https://www.checklistbank.org/dataset/316115/taxon/QMDBN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b501e793d0
+        part: body
+      zh:
+        page: zh
+        section: s-c44be2b74a
+        part: body

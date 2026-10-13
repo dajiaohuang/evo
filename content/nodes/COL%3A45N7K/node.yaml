@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana polunini
+  displayName: Nanorana polunini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7K
+  sourceIndexes:
+    - name:
+        en: Nanorana polunini
+        zh: Nanorana polunini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/184
+            queryName: Nanorana polunini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/499
+            queryName: Paa polunini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/318
+            queryName: Rana polunini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/248
+            queryName: Chaparana polunini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cab4604f8d
+      - s-cdc683d713
+      - s-c1d108f32c
+      - s-4cce5ad90e
+      - s-4e1531e532
+      - s-39024bb608
+      - s-d60b05c71d
+      - s-28daaca779
+      - s-6d2f0e8af4
+      - s-af1e398119
+      - s-8b33518065
+      - s-b8969955e1
+      - s-1665776c63
+      - s-0babbf5b7a
+    zh:
+      - s-3169191deb
+      - s-17b02f7129
+      - s-7d46a2ac2e
+      - s-fb56b08257
+      - s-03cc60479f
+      - s-5005931f95
+      - s-73d0a9e922
+      - s-5579de8481
+      - s-6db8eeb624
+      - s-e24bd4502a
+      - s-4de4f8e06f
+      - s-049c1f9ac0
+      - s-995772f7f4
+      - s-d7c709b8d6

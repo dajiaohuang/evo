@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-be2d144c77
+      part: title
+    titleZh:
+      page: zh
+      section: s-a3a1160d12
+      part: title
+    category: model
+    startAge: 66
+    endAge: 64
+    regions:
+      - Global 86-species phenomic and molecular matrix
+    clades:
+      - Placentalia
+      - Mammalia
+    summary:
+      page: en
+      section: s-be2d144c77
+      part: body
+    summaryZh:
+      page: zh
+      section: s-a3a1160d12
+      part: body
+    claimIds:
+      - claim:event:placental-phenomic-kpg-model
+    evidenceItems:
+      - statement: The study scored 4,541 phenomic characters for 86 living and fossil species, supported by more than 12,000 annotated images, and combined them with 27 nuclear genes.
+        relation: supports
+        claimIds:
+          - claim:event:placental-phenomic-kpg-model
+        referenceLinks:
+          - referenceId: oleary-2013-placental-ancestor-model
+            relation: supports
+            pages: 662–667
+            figure: Figures 1–2; Table 1; Tables S1–S8
+            quoteLocator: Phenomic matrix; Combined analysis; Reconstruction
+    uncertaintyItems:
+      - statement: The post-K–Pg chronology and reconstructed phenotype depend on parsimony, fossil ages, ghost lineages and ancestral-state optimization; no ancestor was directly observed.
+        relation: contextualizes
+        claimIds:
+          - claim:event:placental-phenomic-kpg-model
+        referenceLinks:
+          - referenceId: oleary-2013-placental-ancestor-model
+            relation: supports
+            pages: 662–667
+            figure: Figures 1–2; Table 1; Tables S1–S8
+            quoteLocator: Phenomic matrix; Combined analysis; Reconstruction
+  claims:
+    - subjectId: event:placental-phenomic-kpg-model
+      claimKind: scientific
+      claimType: divergence-time
+      statement: A matrix of 4,541 phenomic characters for 86 living and fossil species, combined with 27 nuclear genes, produced one parsimony tree with post-K–Pg crown-placental diversification and a reconstructed ancestral phenotype; both chronology and phenotype are model outputs rather than observations of an ancestor.
+      confidence: medium
+      confidenceRationale: The public MorphoBank-backed matrix and annotated images make inputs inspectable, while tree search, fossil ages, ghost lineages and ancestral-state optimization control the resulting dates and reconstruction.
+      referenceLinks:
+        - referenceId: oleary-2013-placental-ancestor-model
+          relation: supports
+          pages: 662–667
+          figure: Figures 1–2; Table 1; Tables S1–S8
+          quoteLocator: Phenomic character matrix; Combined analysis; Ancestral phenotype reconstruction
+  claim-rationales.zh:
+    - 公开的 MorphoBank 矩阵与注释图像使输入可检查；树搜索、化石年代、幽灵谱系和祖先状态优化控制所得日期与复原。
+  claim-statements.zh:
+    - 一套包含 86 个现生与化石物种、4541 个表型性状的矩阵与 27 个核基因联合，产生一棵将胎盘类冠群辐射置于 K–Pg 之后并复原祖先表型的简约树；年代与表型都属于模型输出，而非对祖先的观察。

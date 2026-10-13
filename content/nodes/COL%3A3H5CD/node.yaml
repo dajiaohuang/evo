@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gracixalus gracilipes
+  displayName: Gracixalus gracilipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3H5CD
+  sourceIndexes:
+    - name:
+        en: Gracixalus gracilipes
+        zh: Gracixalus gracilipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3H5CD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/189
+            queryName: Gracixalus gracilipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/253
+            queryName: Philautus gracilipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/207
+            queryName: Chirixalus gracilipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/208
+            queryName: Aquixalus gracilipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0cc682c789
+      - s-9be19aecb2
+      - s-9c4ee6b8e9
+      - s-23b7f4e42c
+      - s-c75fc5abcb
+      - s-0f7554e890
+      - s-ad107b238d
+      - s-2647f9bcac
+      - s-5f1414d7d5
+      - s-c27124890a
+      - s-b4a5e68f59
+    zh:
+      - s-417ec081ea
+      - s-c0bc9741f1
+      - s-b0f3dfa97b
+      - s-41db2f17d5
+      - s-f69e1bbd2d
+      - s-01054e4e67
+      - s-6badb369ae
+      - s-09a20c1406
+      - s-cc9bdb13cb
+      - s-e35da61968
+      - s-0e0e3d07a8

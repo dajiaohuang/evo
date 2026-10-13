@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-64f4a775ff}
+The version 3 Amphibian database lists Micrixalus specca in a source measurement table. Its classification fields read order = Anura, family = Micrixalidae, genus = Micrixalus; the linked citation is in Reference.csv row 838. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-9bb7259f5a}
+Anura.csv rows 3255, 3256 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 3255 (M) = 22.2, row 3256 (F) = 26.8; HL: row 3255 (M) = 8.4, row 3256 (F) = 8.9; HW: row 3255 (M) = 6.6, row 3256 (F) = 7.9; other populated codes are ED, TD, IOD, UEW, EN, SL, NS, HAL, FLL, FL, TL, THL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microcebus boraha Hotaling, Foley, Lawrence, Bocanegra, Blanco et al., 2016
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 博拉哈鼠狐猴
+      en: Boraha Mouse Lemur
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-d3fce6768b
+            part: body
+          en:
+            page: en
+            section: s-2334cb309c
+            part: body
+        sourceIds:
+          - hotaling2016
+      - topic: distribution_habitat
+        text:
+          zh:
+            page: zh
+            section: s-14bf4e16e2
+            part: body
+          en:
+            page: en
+            section: s-d4f248a5cb
+            part: body
+        sourceIds:
+          - hotaling2016
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-b0ff107be7
+            part: body
+          en:
+            page: en
+            section: s-bb3d0a2aa2
+            part: body
+        sourceIds:
+          - hotaling2016
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-1081d5d58d
+            part: body
+          en:
+            page: en
+            section: s-e82d630f92
+            part: body
+        sourceIds:
+          - hotaling2016
+          - mdd_taxonomy
+          - taxonomy
+    sources:
+      - id: hotaling2016
+        referenceId: ref-3a8cc2d2-35e1-88ff-abfb-b3d8087fb7e6
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持该来源报告的样点、样本、测量或分类结论；不作为现今全域分布或保育状态来源。
+            en: Supports the study sites, samples, measurements or taxonomic conclusions in the source; not a source for current full range or conservation status.
+      - id: mdd_taxonomy
+        referenceId: ref-9ffebce3-e466-8a27-a5be-1122f1176f03
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: MDD 当前西蒙斯鼠狐猴条目注明纳入博拉哈鼠狐猴；COL26.8 仍分列两个接受种。
+            en: The current MDD Simmons mouse lemur entry includes Boraha; COL26.8 retains two accepted species.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42SBH
+          scope:
+            zh: 固定版本中的接受名、作者、等级和父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent link; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-152a5746e1
+        part: body
+      en:
+        page: en
+        section: s-bf7b289721
+        part: body

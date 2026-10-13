@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Montsecosuchus depereti
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Montsecosuchus depereti
+      en: Montsecosuchus depereti
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6ca1f3b8f7
+            part: body
+          en:
+            page: en
+            section: s-7d94bdf522
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f207b1b5b8
+            part: body
+          en:
+            page: en
+            section: s-3dedf5990f
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4354eb4e94
+            part: body
+          en:
+            page: en
+            section: s-36d59fec4b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-79e1454059
+            part: body
+          en:
+            page: en
+            section: s-c7cfb3f46d
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e659c236d9
+            part: body
+          en:
+            page: en
+            section: s-08879e6432
+            part: body
+    sources:
+      - id: pbdbCrocodylomorphTaxonomy20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Montsecosuchus depereti
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=198778&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbCrocodylomorphOccurrences20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:198778; original response record indices retained in data/sources/crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: c4a662dc45be8020da61b782b38d37ab583c35a2e4bdf978ceca29e010472ca1
+          pbdbTaxonId: txn:198778
+          selectedOccurrenceIds:
+            - occ:975651
+          selectedCollectionIds:
+            - col:85293
+          sourceReferenceIds:
+            - ref:37484
+          originalIdentificationMappings:
+            - occurrenceId: occ:975651
+              originalIdentifiedName: Alligatorium depereti n. sp.
+              acceptedName: Montsecosuchus depereti
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-fbbe79f1ea
+        part: body
+      en:
+        page: en
+        section: s-2665b6a287
+        part: body

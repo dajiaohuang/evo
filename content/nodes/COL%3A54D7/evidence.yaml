@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Indotyphlus Taylor, 1960
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Indotyphlus
+      zh: Indotyphlus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8aa6a0b0a4
+            part: title
+          zh:
+            page: zh
+            section: s-092bfc4e83
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8aa6a0b0a4
+            part: body
+          zh:
+            page: zh
+            section: s-092bfc4e83
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7c0209af54
+            part: title
+          zh:
+            page: zh
+            section: s-4dc4aaf224
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7c0209af54
+            part: body
+          zh:
+            page: zh
+            section: s-4dc4aaf224
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-a10a01319c
+            part: title
+          zh:
+            page: zh
+            section: s-ff69125df6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a10a01319c
+            part: body
+          zh:
+            page: zh
+            section: s-ff69125df6
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-743d261ecb
+            part: title
+          zh:
+            page: zh
+            section: s-e50ffcddcc
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3PNWW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PNWW
+            label:
+              en: Indotyphlus battersbyi
+              zh: Indotyphlus battersbyi
+          - kind: catalogue
+            colId: 3PNWX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PNWX
+            label:
+              en: Indotyphlus maharashtraensis
+              zh: Indotyphlus maharashtraensis
+        text:
+          en:
+            page: en
+            section: s-743d261ecb
+            part: body
+          zh:
+            page: zh
+            section: s-e50ffcddcc
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Indotyphlus
+          url: https://www.checklistbank.org/dataset/316115/taxon/54D7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Indotyphlus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-da7fbb2909
+        part: body
+      zh:
+        page: zh
+        section: s-ffd5ac42ca
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Indotyphlus
+      sourceRowIds:
+        - Anf6665
+        - Anf6666
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 2
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+      developmentCounts: []
+      currentConceptEquivalenceCertified: false

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crotaphatrema bornmuelleri
+  displayName: Crotaphatrema bornmuelleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZPDV
+  sourceIndexes:
+    - name:
+        en: Crotaphatrema bornmuelleri
+        zh: Crotaphatrema bornmuelleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZPDV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/237
+            queryName: Crotaphatrema bornmuelleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/91
+            queryName: Herpele bornmuelleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-239d87986a
+      - s-afb615e32f
+      - s-45d174ff79
+      - s-b24935dd27
+      - s-496df17905
+      - s-b4f181b44a
+      - s-dd99870ed3
+      - s-fefb636477
+      - s-54513cbd80
+      - s-9021c5f6a0
+      - s-8c9e36f2bf
+    zh:
+      - s-31d13f6df8
+      - s-ecb165fe0e
+      - s-e242be70b1
+      - s-6dbe04d4a7
+      - s-949bcb10d8
+      - s-2aadbe1aea
+      - s-7542dd8472
+      - s-fcb70a7d83
+      - s-571770bbc1
+      - s-c45eb60f54
+      - s-09617b92c6

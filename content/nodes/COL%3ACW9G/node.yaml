@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops akhaorum
+  displayName: Amolops akhaorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CW9G
+  sourceIndexes:
+    - name:
+        en: Amolops akhaorum
+        zh: Amolops akhaorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CW9G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/339
+            queryName: Amolops akhaorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8f52eef00c
+      - s-f8860afca1
+      - s-09ce357e10
+      - s-720f5d161b
+      - s-364b40a3eb
+      - s-a75bae55f7
+      - s-3419397157
+      - s-7b911ebe11
+    zh:
+      - s-30afcadb91
+      - s-e90a89318a
+      - s-0e3d920547
+      - s-217f231b9f
+      - s-9a6f30d499
+      - s-71ffcfb372
+      - s-139dfb073d
+      - s-2d3ba7d8a5

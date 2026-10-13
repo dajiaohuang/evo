@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microcaecilia iyob
+  displayName: Microcaecilia iyob
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42S5H
+  sourceIndexes:
+    - name:
+        en: Microcaecilia iyob
+        zh: Microcaecilia iyob
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42S5H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/479
+            queryName: Microcaecilia iyob
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-133f9dc690
+      - s-d973fd7391
+      - s-fa43108b25
+      - s-2037ea84f6
+      - s-6e9e1dbbe8
+      - s-0407e0ab27
+      - s-a4789a3be3
+      - s-5a94141ff3
+    zh:
+      - s-70ae5d5fe7
+      - s-43c86db97e
+      - s-9ec706e155
+      - s-7956167cfd
+      - s-03215bb16b
+      - s-5bbc139925
+      - s-f702473c21
+      - s-aced14febf

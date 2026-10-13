@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus coloratus
+  displayName: Brachycephalus coloratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPX6
+  sourceIndexes:
+    - name:
+        en: Brachycephalus coloratus
+        zh: Brachycephalus coloratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPX6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/405
+            queryName: Brachycephalus coloratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e8fbaa377
+      - s-43502f774e
+      - s-11c2b16175
+      - s-a1e2d68486
+      - s-015d6c08e1
+      - s-b01d5a25d4
+      - s-6aa4eb3706
+      - s-68ad2124c7
+      - s-4381d7feb6
+      - s-dfb171195e
+      - s-bd2c2feb19
+      - s-679375524e
+      - s-d38d26fbb5
+      - s-40055bca98
+      - s-7775e41e45
+      - s-3c97e7a267
+      - s-a6b60c095a
+      - s-27cb5bd3e4
+      - s-f479892166
+      - s-46233b501e
+      - s-84700e6270
+    zh:
+      - s-084565492c
+      - s-cdd8d6aa74
+      - s-dcd9fc7a5f
+      - s-2e2aa21385
+      - s-87559a27a3
+      - s-fa63cd1c8a
+      - s-2986df97a9
+      - s-346feed6c1
+      - s-a9171f96a1
+      - s-c1a9e15b93
+      - s-abc3b24775
+      - s-7dc0d74fbd
+      - s-9e5fa19e95
+      - s-566d174756
+      - s-876646a5ee
+      - s-a4432c14ce
+      - s-28fbbd58fb
+      - s-3d08c8a767
+      - s-670407e703
+      - s-cf22b59c96
+      - s-0e7e429274

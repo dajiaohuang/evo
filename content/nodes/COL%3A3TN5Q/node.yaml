@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus lauramiriamae
+  displayName: Leptodactylus lauramiriamae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN5Q
+  sourceIndexes:
+    - name:
+        en: Leptodactylus lauramiriamae
+        zh: Leptodactylus lauramiriamae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN5Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/403
+            queryName: Leptodactylus lauramiriamae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5ab5c80fd
+      - s-6d7e3e2bb0
+      - s-b7c96a2504
+      - s-e92c793aa6
+      - s-ad5cbd3092
+      - s-8a19628e6c
+      - s-aeedadba94
+    zh:
+      - s-d474afa933
+      - s-8583b826ed
+      - s-e6b93ea219
+      - s-b8a379749a
+      - s-1495ce0eae
+      - s-7c7ab8300f
+      - s-8c194be5d9

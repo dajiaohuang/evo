@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hoodia flava (N.E.Br.) Plowes
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3MJ6X, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3MJ6X; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3MJ6X
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3MJ6X
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001259411-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3MJ6X / WFO wfo-0001259411
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14722_0
+        referenceId: ref-e8495b45-15cf-83d6-ab33-35614e512817
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hoodia flava (N.E.Br.) Plowes account; archive rows 34086 (Morphology), 39947 (Habitat), source identifier 14722.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_10484_0
+        referenceId: ref-c77dcd98-d53c-8d7b-ac6c-4025db5215e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hoodia flava (N.E.Br.) Plowes account; archive rows 65702 (Diagnostic), source identifier 10484.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Like H. alstonii but plant up to 0.5 m tall, stems brown-green with weak spines, flowers 1-3 per cluster, corolla rotate, 11-13 mm diam., inside greenish yellow, without tube, lobes 2.5-4 x 3.5-6 mm, outer corona lobes broadly spreading.
+            sourceIds:
+              - sanbi_14722_0
+            locator: "SANBI/WFO archive Morphology row 34086; source 14722.0; publication: Bruyns, PV. 2013. Apocynaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 248 - 264. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: The stems of D. parviflora are, at least when turgid, almost completely round and without angles. In seedlings the first few stems are very clearly four-angled and only later does the almost spherical shape without clear angles develop. When the stems are plump one cannot distinguish individual tubercles except for their tiny leaf-rudiments which project straight out of the stem. This situation is quite different to that in any other Duvalia but is remarkably similar to what one encounters in some of the western forms of Piaranthus geminatus and it is even possible occasionally to confuse the two when they are not in flower. The flowers of D. parviflora are also amongst the most distinctive in the genus. The corolla is small and often only 12 mm across. Inside it is generally cream or greenish in the centre on the annulus and on the lower half of the lobes, with this colour changing to greenish or brown towards the tips of the lobes. The corolla lobes vary from tightly to loosely folded along their length so that they are sometimes narrow and sometimes rather broader. They lack marginal cilia entirely. The annulus is fairly small and is only slightly raised above the centre, though it is usually constricted below the rim. Both the inner and the outer coronas are pale yellow, matching the colour of the annulus closely, though in fact they are very slightly darker than the annulus. The colour of the corona usually contrasts strongly with the reddish brown of the guide-rails.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_10484_0
+            locator: "SANBI/WFO archive Diagnostic row 65702; source 10484.0; publication: Bruyns, PV. 2005. Stapeliads of southern Africa and Madagascar, Vol. 1. Umdaus Press, Hatfield. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Gravelly slopes with Ruschia spinosa.
+            sourceIds:
+              - sanbi_14722_0
+            locator: "SANBI/WFO archive Habitat row 39947; source 14722.0; publication: Bruyns, PV. 2013. Apocynaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 248 - 264. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-c1aa5550ab
+        title:
+          en:
+            page: en
+            section: s-b2d484b4c4
+            part: title
+          zh:
+            page: zh
+            section: s-0cf18f1208
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b2d484b4c4
+            part: body
+          zh:
+            page: zh
+            section: s-0cf18f1208
+            part: body
+        sourceIds:
+          - sanbi_14722_0

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Choerophryne rostellifer
+  displayName: Choerophryne rostellifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69Z3W
+  sourceIndexes:
+    - name:
+        en: Choerophryne rostellifer
+        zh: Choerophryne rostellifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69Z3W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/354
+            queryName: Choerophryne rostellifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/39
+            queryName: Copiula rostellifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/40
+            queryName: Cophixalus rostellifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a08bef77bc
+      - s-33c02568bc
+      - s-84065ea82b
+      - s-d7dadf122a
+      - s-db4837d6ab
+      - s-74149a90aa
+      - s-1bba4369db
+      - s-cfde7ce23f
+      - s-e1c20c1753
+      - s-e624a0027f
+    zh:
+      - s-ecae8585e6
+      - s-8149b14c3e
+      - s-222f2c4825
+      - s-0cb5114fb0
+      - s-eb9ab6709f
+      - s-a8f57492bd
+      - s-897d4810e8
+      - s-a885f6bb40
+      - s-028bf31731
+      - s-b5fc2052fb

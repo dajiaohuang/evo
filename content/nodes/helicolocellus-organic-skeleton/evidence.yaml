@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-ccc826ffed
+      part: title
+    titleZh:
+      page: zh
+      section: s-29d7096c28
+      part: title
+    category: fossil
+    startAge: 551
+    endAge: 539
+    regions:
+      - Shibantan Member, Dengying Formation, Hubei, China
+    clades:
+      - Helicolocellus cantori
+      - Hexactinellida
+      - Porifera
+    summary:
+      page: en
+      section: s-ccc826ffed
+      part: body
+    summaryZh:
+      page: zh
+      section: s-29d7096c28
+      part: body
+    claimIds:
+      - claim:event:helicolocellus-organic-skeleton
+    evidenceItems:
+      - statement: NIGP-176531 and referred material preserve a more than 0.4 m stemmed body with at least three orders of nested quadrate fields.
+        relation: supports
+        claimIds:
+          - claim:event:helicolocellus-organic-skeleton
+        referenceLinks:
+          - referenceId: wang-2024-helicolocellus
+            relation: supports
+            pages: 905–911
+            figure: Figures 1–4; Extended Data Figures 1–10
+            quoteLocator: Holotype NIGP-176531, referred material, reconstruction and Bayesian morphology tree
+    uncertaintyItems:
+      - statement: Grid homology, ancestral skeletal state and phylogenetic placement depend on sampled taxa and character coding; the fossils do not directly date every sponge crown split.
+        relation: contextualizes
+        claimIds:
+          - claim:event:helicolocellus-organic-skeleton
+        referenceLinks:
+          - referenceId: wang-2024-helicolocellus
+            relation: supports
+            pages: 905–911
+            figure: Figures 1–4; Extended Data Figures 1–10
+            quoteLocator: Holotype NIGP-176531, referred material, reconstruction and Bayesian morphology tree
+  claims:
+    - subjectId: event:helicolocellus-organic-skeleton
+      claimKind: scientific
+      claimType: topology
+      statement: Helicolocellus specimens preserve a large goblet-shaped body with nested quadrate grids; a morphology matrix places the taxon within crown Porifera near Hexactinellida.
+      confidence: medium
+      confidenceRationale: Multiple specimens document the architecture, while organic-skeleton homology and crown placement remain character-coding and model results.
+      referenceLinks:
+        - referenceId: wang-2024-helicolocellus
+          relation: supports
+          pages: 905–911
+          figure: Figures 1–4; Extended Data Figures 1–10
+          quoteLocator: Holotype NIGP-176531, referred material, reconstruction and Bayesian morphology tree
+  claim-rationales.zh:
+    - 多件标本记录了结构，但有机骨架同源性与冠群位置仍是性状编码和模型结果。
+  claim-statements.zh:
+    - Helicolocellus 标本保存了大型杯状躯体和嵌套的四边形网格；形态矩阵将该分类单元置于海绵动物冠群内、接近六放海绵纲。

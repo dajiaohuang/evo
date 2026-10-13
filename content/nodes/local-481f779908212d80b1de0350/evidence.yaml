@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pseudophilautus silus
+    name:
+      en: Pseudophilautus silus
+      zh: Pseudophilautus silus
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Pseudophilautus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-06a8522cdf
+            part: body
+          zh:
+            page: zh
+            section: s-c1b3a5cd99
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fd49f6fcaf
+            part: body
+          zh:
+            page: zh
+            section: s-5b518cb01a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5050, 5051; Reference.csv rows 1230
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5050
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus silus
+          - M
+          - "38.7"
+          - "6.515503876"
+          - "6.58015"
+          - "2.391005"
+          - "0.5212"
+          - NA
+          - "1.830715"
+          - "1.674355"
+          - "1.895865"
+          - "1.6189775"
+          - "1.96753"
+          - "1.2020175"
+          - "5.10776"
+          - "3.73961"
+          - NA
+          - "12.6358425"
+          - NA
+          - "9.296905"
+          - "9.04282"
+          - NA
+          - NA
+          - "0.7394525"
+          - "1.452845"
+          - "1.7753375"
+          - "2.8568275"
+          - "4.254295"
+          - "3.1695475"
+          - "1.4235275"
+          - "1.7818525"
+          - "3.055535"
+          - "2.7525875"
+          - NA
+          - NA
+          - "0.97725"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5051
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus silus
+          - F
+          - "46.2"
+          - "5.310606061"
+          - "5.4092535"
+          - "1.7393525"
+          - "0.5496885"
+          - NA
+          - "1.4100705"
+          - "1.4100705"
+          - "1.354305"
+          - "1.2932285"
+          - "2.219998"
+          - "1.040956"
+          - "4.3098765"
+          - "2.862629"
+          - NA
+          - "9.862527"
+          - NA
+          - "7.8363805"
+          - "7.318558"
+          - NA
+          - NA
+          - "0.6718415"
+          - "1.1657645"
+          - "1.449903"
+          - "2.299663"
+          - "3.478705"
+          - "2.666122"
+          - "1.258707"
+          - "1.54019"
+          - "2.400572"
+          - "2.0633235"
+          - NA
+          - NA
+          - "0.807272"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1230
+        values:
+          - Anura
+          - Pseudophilautus_silus
+          - "Manamendra-Arachchi, K., & Pethiyagoda, R. (2005). The Sri Lankan shrub-frogs of the genus Philautus Gistel, 1848 (Ranidae: Rhacophorinae), with description of 27 new species. Raffles Bulletin of Zoology, 163-303."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4P74Q
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

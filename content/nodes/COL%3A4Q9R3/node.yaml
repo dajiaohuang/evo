@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena neumanni
+  displayName: Ptychadena neumanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9R3
+  sourceIndexes:
+    - name:
+        en: Ptychadena neumanni
+        zh: Ptychadena neumanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9R3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/483
+            queryName: Ptychadena neumanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/160
+            queryName: Rana neumanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0bfcbf0463
+      - s-2bac495651
+      - s-3e014fb99b
+      - s-a37f90de69
+      - s-fa315b911c
+      - s-66fe575cc2
+      - s-289b143b5b
+      - s-064c580efe
+      - s-502f46691c
+      - s-969876f4d8
+      - s-ae06ea6c22
+      - s-b7a4fe5502
+      - s-67dafec5f5
+      - s-6bcd6b08a4
+      - s-e055e68391
+      - s-614f2369b0
+      - s-3ce99ac970
+      - s-e04495ad6d
+      - s-f6202b02e0
+      - s-1ce90ee337
+    zh:
+      - s-a7b7885d03
+      - s-71d6be3579
+      - s-6bee6d3ac2
+      - s-4993a7d8a0
+      - s-e55be63ccf
+      - s-79104e8f51
+      - s-28fb9b06f3
+      - s-35a31c4102
+      - s-838734f400
+      - s-046962cf4d
+      - s-a24d28f332
+      - s-2d1c585d06
+      - s-1293cb0e83
+      - s-6854bcb2c4
+      - s-8d9e9be017
+      - s-517623ca9d
+      - s-957f4d7990
+      - s-328dd43255
+      - s-c052d6d2e1
+      - s-c3242ed8f6

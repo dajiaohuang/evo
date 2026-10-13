@@ -1,0 +1,239 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Engystomops freibergi
+    name:
+      en: Engystomops freibergi
+      zh: Engystomops freibergi
+    sourceClassification:
+      order: Anura
+      family: Leptodactylidae
+      genus: Engystomops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c28a7b7847
+            part: body
+          zh:
+            page: zh
+            section: s-95fa825607
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-dfb358b3e1
+            part: body
+          zh:
+            page: zh
+            section: s-f7bc6fd001
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1806, 1807; Reference.csv rows 2811
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1806
+        values:
+          - Leptodactylidae
+          - Engystomops
+          - Engystomops freibergi
+          - M
+          - "27.8"
+          - "9.1"
+          - "8.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.1"
+          - "13.5"
+          - "7.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1807
+        values:
+          - Leptodactylidae
+          - Engystomops
+          - Engystomops freibergi
+          - F
+          - "31.6"
+          - "9.8"
+          - "9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "15.7"
+          - "15.3"
+          - "8.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2811
+        values:
+          - Anura
+          - Engystomops_freibergi
+          - "Funk, W. C., Angulo, A., Caldwell, J., Ryan, M., & Cannatella, D. (2008). Comparison of morphology and calls of two cryptic species of Physalaemus (Anura: Leiuperidae). Herpetologica, 64, 290-304. https://doi.org/10.1655/08-019.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - EN
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 39TTS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

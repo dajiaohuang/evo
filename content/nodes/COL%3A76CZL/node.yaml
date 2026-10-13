@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelobates varaldii
+  displayName: Pelobates varaldii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CZL
+  sourceIndexes:
+    - name:
+        en: Pelobates varaldii
+        zh: Pelobates varaldii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CZL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/441
+            queryName: Pelobates varaldii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-62df9e3bbd
+      - s-fcbbcdd9f3
+      - s-89b7e3ea14
+      - s-a9779dd4e5
+      - s-baeffe029a
+      - s-d410da12d0
+      - s-117b387ab3
+      - s-dcd237a00d
+      - s-126ba0d706
+      - s-b0deed3e8c
+      - s-f10fac0012
+      - s-2e9d3dece5
+      - s-7ff1757494
+      - s-be6cd417c9
+      - s-ad139bf443
+      - s-9bcf35207c
+    zh:
+      - s-51c8447bab
+      - s-fbda41bb1b
+      - s-7f345e8da5
+      - s-033fc135d3
+      - s-21b7b7dc70
+      - s-68a26ff3c0
+      - s-2fd83a174d
+      - s-f645573a22
+      - s-87b5cf7c74
+      - s-9051c9bef0
+      - s-78d5915bd3
+      - s-e865ac670c
+      - s-68439cd143
+      - s-5118f54a01
+      - s-94a5850923
+      - s-687ca05fdb

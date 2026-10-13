@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pipa arrabali
+  displayName: Pipa arrabali
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4J2Z6
+  sourceIndexes:
+    - name:
+        en: Pipa arrabali
+        zh: Pipa arrabali
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4J2Z6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/352
+            queryName: Pipa arrabali
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ced1921b3
+      - s-03296d8362
+      - s-d6f118ff0d
+      - s-232d293f4d
+      - s-d6f8e7d639
+      - s-58c3719171
+      - s-e9a5e97dda
+      - s-da0e9b1e52
+      - s-d6181ffb20
+      - s-6c1aa377c3
+      - s-a7a04951ca
+      - s-38135dd314
+      - s-3b269e37b2
+      - s-436eb9c102
+      - s-e9b7f7e24a
+      - s-c39258bee6
+    zh:
+      - s-fe4742f8c2
+      - s-d00876109e
+      - s-09a5777e95
+      - s-8e1b23838e
+      - s-35c7cbd68a
+      - s-81a6d9b2c2
+      - s-1aba5849a9
+      - s-c1a8249c7f
+      - s-81e55044fd
+      - s-bd11cabedd
+      - s-6981113805
+      - s-203a96e886
+      - s-050200fead
+      - s-308e808bd6
+      - s-2242ed3949
+      - s-a497f26346

@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Xanthonycticebus pygmaeus (Bonhote, 1907)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 倭蜂猴
+      en: Pygmy slow loris
+    sections:
+      - topic: lifeHistory
+        text:
+          zh:
+            page: zh
+            section: s-7f32d3b70d
+            part: body
+          en:
+            page: en
+            section: s-b464c0ac2f
+            part: body
+        sourceIds:
+          - alejandro2021
+      - topic: lifeHistory
+        text:
+          zh:
+            page: zh
+            section: s-01b3d92477
+            part: body
+          en:
+            page: en
+            section: s-fab7b6a431
+            part: body
+        sourceIds:
+          - alejandro2021
+    sources:
+      - id: alejandro2021
+        referenceId: ref-21c3f0fb-2a30-8765-af17-46b1bcbe6974
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 论文以 Nycticebus pygmaeus 名义研究圈养雌性个体从单独饲养转入群体笼舍前后的行为和粪便皮质醇。
+            en: The article, using the name Nycticebus pygmaeus, studied behavior and fecal cortisol in captive females before and after transfer from solitary housing to group enclosures.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/BTCRT
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank, and parent classification; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-9a108dbf60
+        part: body
+      en:
+        page: en
+        section: s-e37b2f46f5
+        part: body

@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mesodma hensleighi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Mesodma hensleighi
+      en: Mesodma hensleighi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5ecc0b441f
+            part: body
+          en:
+            page: en
+            section: s-b1635d1ce2
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-750787eb30
+            part: body
+          en:
+            page: en
+            section: s-97f3b73a49
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dd0e601bf3
+            part: body
+          en:
+            page: en
+            section: s-720b4ac77a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-81b16002f8
+            part: body
+          en:
+            page: en
+            section: s-c2592a8a2d
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bb8314af80
+            part: body
+          en:
+            page: en
+            section: s-b25bb067ac
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Mesodma hensleighi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=48346&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:48346; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:48346
+          selectedOccurrenceIds:
+            - occ:163068
+            - occ:163117
+            - occ:163243
+            - occ:163278
+            - occ:163411
+            - occ:163501
+            - occ:163534
+            - occ:163604
+            - occ:163626
+            - occ:163637
+            - occ:164470
+            - occ:483560
+            - occ:1292673
+            - occ:1292691
+            - occ:1350794
+            - occ:1404231
+            - occ:1404253
+            - occ:1630924
+            - occ:1630938
+            - occ:1630962
+          selectedCollectionIds:
+            - col:14514
+            - col:14519
+            - col:14549
+            - col:14558
+            - col:14585
+            - col:14604
+            - col:14612
+            - col:14630
+            - col:14632
+            - col:14634
+            - col:14796
+            - col:14508
+            - col:172642
+            - col:172644
+            - col:176863
+            - col:193844
+            - col:14759
+            - col:14743
+            - col:231045
+            - col:231047
+          sourceReferenceIds:
+            - ref:1129
+            - ref:2670
+            - ref:960
+            - ref:3310
+            - ref:3705
+            - ref:2229
+            - ref:1419
+            - ref:13103
+            - ref:56083
+            - ref:61136
+            - ref:65846
+            - ref:85522
+          originalIdentificationMappings:
+            - occurrenceId: occ:163604
+              originalIdentifiedName: Mesodma hensleighi n. sp.
+              acceptedName: Mesodma hensleighi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-55b5ddbc9d
+        part: body
+      en:
+        page: en
+        section: s-ae43e1dd5c
+        part: body

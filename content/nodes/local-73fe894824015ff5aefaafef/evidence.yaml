@@ -1,0 +1,270 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Proceratophrys goyana
+    name:
+      en: Proceratophrys goyana
+      zh: Proceratophrys goyana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: TadpoleTraits classification for Proceratophrys goyana
+          zh: TadpoleTraits 对 Proceratophrys goyana 的分类
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-37b2b7503d
+            part: body
+          zh:
+            page: zh
+            section: s-3fa43ad3d3
+            part: body
+      - topic: morphology
+        title:
+          en: 1 literature row and 0 image rows
+          zh: 1 条文献行与 0 条图像行
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-d7a42783f4
+            part: body
+          zh:
+            page: zh
+            section: s-86995340fb
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4219; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Odontophrynidae
+      genus: Proceratophrys
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 4219
+        values:
+          - Santos, D. L., Feio, R. N. & Nomura, F. (2023). Morphological characterization and taxonomic key for tadpoles of Brazilian Cerrado. Biota Neotropica, 23(2), 20231486-20231529.
+          - Proceratophrys goyana
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys goyana
+          - 11
+          - 31, 37
+          - 35.55
+          - 3.83
+          - 14.17
+          - 1.2
+          - 7.14
+          - 0.88
+          - 8.14
+          - 0.69
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.66
+          - 0.48
+          - 3.81
+          - 0.41
+          - 2.51
+          - 0.33
+          - 1.52
+          - 0.22
+          - null
+          - null
+          - null
+          - null
+          - 2.51
+          - 0.35
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.35
+          - 0.18
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.41
+          - 0.06
+          - null
+          - null
+          - null
+          - null
+          - 0.83
+          - 0.12
+    originalImageRows: []
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies: []
+    selectedSourceRatios: []
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6VY6B
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

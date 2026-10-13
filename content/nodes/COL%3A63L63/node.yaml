@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophryne
+  displayName: Pelophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63L63
+  sourceIndexes:
+    - name:
+        en: Pelophryne
+        zh: Pelophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63L63
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/148
+            queryName: Pelophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 24
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-83590dc72b
+      - s-7fe475dc9d
+      - s-f6b20dc8cc
+      - s-2de59a9aec
+      - s-2b91b201b4
+      - s-f5f87b2d52
+      - s-a5e5f43c00
+      - s-6fc5d443e8
+      - s-0244877a76
+      - s-8724884feb
+      - s-c225d1c2a5
+    zh:
+      - s-72507667d6
+      - s-4c411cebca
+      - s-0c9f4ad9ce
+      - s-e0eead0c1d
+      - s-cddd01af7e
+      - s-d57a861dce
+      - s-2f5affa0ae
+      - s-b4678a7939
+      - s-341558deab
+      - s-405222e96c
+      - s-e479118ff6

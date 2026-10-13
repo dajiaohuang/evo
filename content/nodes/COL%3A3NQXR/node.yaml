@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius poweri
+  displayName: Hyperolius poweri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQXR
+  sourceIndexes:
+    - name:
+        en: Hyperolius poweri
+        zh: Hyperolius poweri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQXR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/318
+            queryName: Hyperolius poweri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1c2ddac0b8
+      - s-ac2dd40c22
+      - s-59ae387d28
+      - s-48a391debc
+      - s-de8c9f045a
+      - s-7108e46f12
+      - s-d672c17d52
+      - s-99641fdf7c
+      - s-6c7cbe7c8b
+      - s-83f10134ee
+      - s-466508f726
+      - s-df69e116f3
+      - s-fed741b649
+      - s-f0c928831e
+      - s-962e015e7a
+    zh:
+      - s-893e2208f2
+      - s-3f4357b1c5
+      - s-902f6f9f22
+      - s-c2c700381b
+      - s-2e0d848306
+      - s-9a35e91880
+      - s-6c57246596
+      - s-901dc1dac1
+      - s-6a00c06ccd
+      - s-6933bcbeda
+      - s-98f34cb7cb
+      - s-8c3b9fbea3
+      - s-d9b7eeea5c
+      - s-5d80047b76
+      - s-827aac1d67

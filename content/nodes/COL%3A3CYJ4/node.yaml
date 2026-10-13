@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eupsophus septentrionalis
+  displayName: Eupsophus septentrionalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CYJ4
+  sourceIndexes:
+    - name:
+        en: Eupsophus septentrionalis
+        zh: Eupsophus septentrionalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CYJ4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/406
+            queryName: Eupsophus septentrionalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/68
+            queryName: Eupsophus queulensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b6742c6aaa
+      - s-5c271dda76
+      - s-cab760381a
+      - s-4b90f3529e
+      - s-8ed9fa9966
+      - s-56a6b419a6
+      - s-45095bca8f
+      - s-5595884bc6
+      - s-214fefb722
+      - s-04b4dc93ea
+      - s-cb0efd9ada
+      - s-8c69badddd
+      - s-0f50602119
+      - s-90efecef16
+      - s-c3a688afdf
+      - s-9dbcf4f0c7
+      - s-bbd0374600
+    zh:
+      - s-705f51dba8
+      - s-eb1fb8badc
+      - s-2ab5166049
+      - s-ab04b38a11
+      - s-1ad32373bf
+      - s-33e8d51e97
+      - s-d9f25bcf11
+      - s-e1b4cfdc6f
+      - s-44bb3d4c17
+      - s-0dd96f920f
+      - s-604e524003
+      - s-d1b6996cdf
+      - s-4f26b2cc37
+      - s-cd3a1d7a46
+      - s-960c4629ec
+      - s-d249f9e028
+      - s-6949f8848a

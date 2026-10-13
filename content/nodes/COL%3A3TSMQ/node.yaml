@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis karissimbensis
+  displayName: Leptopelis karissimbensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSMQ
+  sourceIndexes:
+    - name:
+        en: Leptopelis karissimbensis
+        zh: Leptopelis karissimbensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSMQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/485
+            queryName: Leptopelis karissimbensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 852
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f5425a2cdf
+      - s-7770d40b32
+      - s-52aac3f514
+      - s-873bbb606c
+      - s-5ecc4d964e
+      - s-d5b176d466
+      - s-a12a385575
+      - s-7bb8c12a2f
+      - s-085e5140b6
+      - s-736f5c9f28
+      - s-934b2c146a
+      - s-9310fa7e7c
+      - s-443c6eadee
+      - s-dc4ae1041d
+      - s-5ebfc8d6e5
+      - s-d4a7535a87
+    zh:
+      - s-e994ce8dd4
+      - s-db54cdc694
+      - s-9fe0e3b02b
+      - s-eb4daa8116
+      - s-fdf49503f9
+      - s-9171fa6d90
+      - s-e41b2416ca
+      - s-2165a4acdb
+      - s-8d69af9c66
+      - s-2e0cb0527a
+      - s-826761b1c9
+      - s-33285973c9
+      - s-d40e0128a7
+      - s-a66f395fec
+      - s-e69a84959b
+      - s-a7fbff0470

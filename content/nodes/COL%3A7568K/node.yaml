@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne albopunctata
+  displayName: Oreophryne albopunctata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7568K
+  sourceIndexes:
+    - name:
+        en: Oreophryne albopunctata
+        zh: Oreophryne albopunctata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7568K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/235
+            queryName: Oreophryne albopunctata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/200
+            queryName: Sphenophryne albopunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-37d1debf12
+      - s-5f903f9543
+      - s-32d828b864
+      - s-0553d0d09d
+      - s-6265af5237
+      - s-dea70cf7e6
+      - s-e069640fbe
+      - s-6c47ba2400
+      - s-7700ad5d0d
+    zh:
+      - s-c7bf450302
+      - s-2fb6e5e6f7
+      - s-a035f8aa89
+      - s-704f03ce45
+      - s-0c524b5d1b
+      - s-fa78021783
+      - s-a5488cf626
+      - s-8c673068f7
+      - s-52ef95c4ae

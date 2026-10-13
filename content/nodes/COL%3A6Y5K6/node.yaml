@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiophryne brevis
+  displayName: Scaphiophryne brevis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Y5K6
+  sourceIndexes:
+    - name:
+        en: Scaphiophryne brevis
+        zh: Scaphiophryne brevis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Y5K6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/491
+            queryName: Scaphiophryne brevis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/129
+            queryName: Calophrynus brevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/130
+            queryName: Pseudohemisus brevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/350
+            queryName: Pseudohemisus verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e1fe0ca254
+      - s-8d16b5e4cb
+      - s-b2beee7c01
+      - s-5ab5543982
+      - s-f7c36e8ff3
+      - s-8325b53c44
+      - s-96d6940d4b
+      - s-316f6feddd
+      - s-7a10a5e5e4
+      - s-19237f1d20
+    zh:
+      - s-15bd05d3c7
+      - s-65fe220bdf
+      - s-0cf767491b
+      - s-86b38a8ee6
+      - s-b4eecaa43c
+      - s-e66dd749fb
+      - s-6ad49b5734
+      - s-6c2db917de
+      - s-e4c9145a24
+      - s-c911a45b4c

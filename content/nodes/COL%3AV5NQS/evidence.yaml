@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ericabatrachidae Dubois, Ohler & Pyron, 2021
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Ericabatrachidae
+      zh: Ericabatrachidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d1a12c34b9
+            part: title
+          zh:
+            page: zh
+            section: s-c4102e8010
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d1a12c34b9
+            part: body
+          zh:
+            page: zh
+            section: s-c4102e8010
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-238683dd2d
+            part: title
+          zh:
+            page: zh
+            section: s-8d3ea7a2f1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-238683dd2d
+            part: body
+          zh:
+            page: zh
+            section: s-8d3ea7a2f1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-aa78840357
+            part: title
+          zh:
+            page: zh
+            section: s-7e8557d466
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4DYT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4DYT
+            label:
+              en: Ericabatrachus
+              zh: Ericabatrachus
+        text:
+          en:
+            page: en
+            section: s-aa78840357
+            part: body
+          zh:
+            page: zh
+            section: s-7e8557d466
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ericabatrachidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5NQS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8ee4aab44f
+        part: body
+      zh:
+        page: zh
+        section: s-4f870c6601
+        part: body

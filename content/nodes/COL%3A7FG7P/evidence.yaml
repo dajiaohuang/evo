@@ -1,0 +1,315 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Varanus nebulosus
+    rank: species
+    sourceDatasetId: "1008"
+    name:
+      zh: Varanus nebulosus
+      en: Varanus nebulosus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-ef98d69453
+            part: body
+          en:
+            page: en
+            section: s-0b32d14444
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-992cfe8d20
+            part: body
+          en:
+            page: en
+            section: s-1a1609425e
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-1dcf7c3d49
+            part: body
+          en:
+            page: en
+            section: s-72bd3e25c1
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-af3e507ca8
+            part: body
+          en:
+            page: en
+            section: s-4c31351651
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-5a5828bf3d
+            part: body
+          en:
+            page: en
+            section: s-c84d57f9d2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-a66f87c191
+            part: body
+          en:
+            page: en
+            section: s-a1481aaa04
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-9d66903851
+            part: body
+          en:
+            page: en
+            section: s-9661b6ce0a
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f5acfa00e4
+            part: body
+          en:
+            page: en
+            section: s-ae7179fbb1
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-fbc64db5c4
+            part: body
+          en:
+            page: en
+            section: s-a9487e1851
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Varanus nebulosus
+          url: https://www.checklistbank.org/dataset/316115/taxon/7FG7P
+          locator: Pinned accepted name, family and recorded ancestry; historical concept equivalence not assumed.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceClassification
+          - sourceCitationByField
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits dataset v1-2.xlsx; Data row 11861; Species=Varanus nebulosus; Sources of individual trait val for the same species; Trait definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 45408133
+          sourceFileMd5: a00be695740e752db2654537bbb0814c
+          sourceFileSha256: 74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a
+          sourceClassification: Reptile Database 2023 as recorded in workbook
+          sourceCitationByField:
+            Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm): Meiri 2018
+            Maximum female length ("SVL", mm)/straight carapace length for turtles ("SCL", mm): Meiri 2018
+            Microhabitat: Meiri 2018
+            Diet: Meiri 2018
+            Active time: Meiri 2018
+            Foraging mode: Meiri 2018
+            Reproductive mode: Zimin et al. 2022
+            Mean number of offspring per litter or number of eggs per clutch: Meiri et al. 2020
+            Smallest clutch size: Meiri 2018
+            Largest clutch size: Meiri 2018
+          scope:
+            zh: 尺寸、活动、取食与繁殖的已引性状资料；不外推体重、幼体长度、毒性、保护或当前分布。
+            en: Cited size, activity, feeding and reproductive traits; no mass, juvenile-length, venom, conservation or current-range inference.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+          - readerAvailableFields
+          - readerFieldCautions
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 20822; name Varanus nebulosus; reference table row 20822; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - birth_or_hatching_weight_g
+            - incubation_d
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: mean of BC Reptiles - King, D., Green, B., 1999 & Meiri, 2010 from median of 4(BC Reptiles - King, D., Green, B., 1999, Meiri, 2010, BC Reptiles - Meyers et al., 2009, Meiri, S., Brown, J.H., and R.M. Sibly, 2011)
+            female_maturity_d: mean of BC Reptiles - Meyers et al., 2009 and BC Reptiles - Meyers et al., 2009
+            litter_or_clutch_size_n: mean of Meiri, S., Brown, J.H., and R.M. Sibly, 2011 & Pianka, E.R., King, D.R., King. R.A., 2004 from median of 16(Mendyk, 2011, Reptile Incubation book, Reptile Incubation book, Auffenberg, W., 1981, De Lisle, H.F., 1996, Thompsom and Pianka, 2001, BC Reptiles - Meyers et al., 2009, Pianka, E.R., King, D.R., King. R.A., 2004, Meiri, S., Brown, J.H., and R.M. Sibly, 2011, Frydlova, P., Frynta, D., 2010, Fradlova P., Frynta, D., 2010, Auffenberg, W., 1981, Auffenberg, W., 1981, Auffenberg, W., 1981, Auffenberg, W., 1981, De Lisle, H.F., 1996)
+            gestation_d: mean of BC Reptiles - Meyers et al., 2009 and BC Reptiles - Meyers et al., 2009
+            birth_or_hatching_weight_g: De Lisle, H.F., 1996 from median of 3(De Lisle, H.F., 1996, De Lisle, H.F., 1996, Meiri, S., Brown, J.H., and R.M. Sibly, 2011)
+            incubation_d: De Lisle, H.F., 1996 from median of 9(BC Reptiles - Meyers et al., 2009, Auffenberg, W., 1981, Auffenberg, W., 1981, De Lisle, H.F., 1996, De Lisle, H.F., 1996, BC Reptiles - Meyers et al., 2009, Thompsom and Pianka, 2001, Reptile Incubation book, Reptile Incubation book)
+            maximum_longevity_y: BC Reptiles - Meyers et al., 2009
+          sameNameSourceLabels:
+            - Meiri, 2010
+            - Meiri, S., Brown, J.H., and R.M. Sibly, 2011
+            - BC Reptiles - Meyers et al., 2009
+            - BC Reptiles - King, D., Green, B., 1999
+            - Mendyk, 2011
+            - Thompsom and Pianka, 2001
+            - Reptile Incubation book
+            - Fradlova P., Frynta, D., 2010
+            - Pianka, E.R., King, D.R., King. R.A., 2004
+            - Frydlova, P., Frynta, D., 2010
+            - Auffenberg, W., 1981
+            - De Lisle, H.F., 1996
+            - de Magalhaes and Costa, 2009
+            - Carey, J.R. and D.S. Judge, 2002
+            - King, D., Green, B., 1999
+            - BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+          readerAvailableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - birth_or_hatching_weight_g
+            - incubation_d
+            - maximum_longevity_y
+          readerFieldCautions:
+            - fields:
+                - gestation_d
+              originalValues:
+                gestation_d: "182.64"
+              reason: Supplemental Table 9 declares gestation/weaning for Mammalia, incubation for Aves/Reptilia, fledging for Aves. Source values outside those class scopes retained but not interpreted as corresponding species events without original-source review.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+    limitations:
+      zh:
+        page: zh
+        section: s-7b78b21851
+        part: body
+      en:
+        page: en
+        section: s-20af839414
+        part: body

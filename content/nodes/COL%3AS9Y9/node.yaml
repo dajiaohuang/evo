@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene heloderma
+  displayName: Centrolene heloderma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S9Y9
+  sourceIndexes:
+    - name:
+        en: Centrolene heloderma
+        zh: Centrolene heloderma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S9Y9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/184
+            queryName: Centrolene heloderma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/371
+            queryName: Centrolenella heloderma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/372
+            queryName: Centrolene helodermum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/373
+            queryName: Centrolene helodermatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-38c2e46056
+      - s-c8454ba61f
+      - s-8b5be749db
+      - s-abf701d162
+      - s-26dbd7e041
+      - s-d6ad39f057
+      - s-fc937f5688
+      - s-1466f387a8
+      - s-4dbc581ed7
+      - s-16830a3f57
+      - s-f2b6889713
+    zh:
+      - s-a2da201aca
+      - s-4fe5812f49
+      - s-3aac5a04a6
+      - s-bf752fb8ee
+      - s-6912386ef1
+      - s-567ba2c294
+      - s-c91722fa35
+      - s-529d7f129d
+      - s-ada8c63f7d
+      - s-d72d394c64
+      - s-a6f91bb79a

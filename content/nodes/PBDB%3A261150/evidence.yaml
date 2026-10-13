@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anhuichelys tsienshanensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Anhuichelys tsienshanensis
+      en: Anhuichelys tsienshanensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-51a54a5374
+            part: body
+          en:
+            page: en
+            section: s-fe1fa6c533
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5f48ce3a2c
+            part: body
+          en:
+            page: en
+            section: s-d4ce19976d
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c86ded218e
+            part: body
+          en:
+            page: en
+            section: s-36ea9d5c16
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d0e168a7eb
+            part: body
+          en:
+            page: en
+            section: s-b344c5da00
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-11f7ddab75
+            part: body
+          en:
+            page: en
+            section: s-81a9dab038
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Anhuichelys tsienshanensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=261150&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:261150; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:261150
+          selectedOccurrenceIds:
+            - occ:1109174
+            - occ:1329041
+            - occ:1329837
+            - occ:1329839
+            - occ:1329840
+            - occ:1329841
+            - occ:1329842
+            - occ:1329843
+            - occ:1329844
+          selectedCollectionIds:
+            - col:132942
+            - col:178873
+            - col:179036
+            - col:132939
+            - col:179037
+            - col:179038
+            - col:179039
+            - col:179040
+            - col:179025
+          sourceReferenceIds:
+            - ref:45440
+            - ref:59336
+            - ref:59242
+          originalIdentificationMappings:
+            - occurrenceId: occ:1109174
+              originalIdentifiedName: Anhuichelys tsienshanensis n. sp.
+              acceptedName: Anhuichelys tsienshanensis
+              difference: null
+            - occurrenceId: occ:1329041
+              originalIdentifiedName: Anhuichelys xinzhouensis n. sp.
+              acceptedName: Anhuichelys tsienshanensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-29baa583f2
+        part: body
+      en:
+        page: en
+        section: s-dfbca8df45
+        part: body

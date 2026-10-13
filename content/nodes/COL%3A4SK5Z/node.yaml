@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhombophryne testudo
+  displayName: Rhombophryne testudo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4SK5Z
+  sourceIndexes:
+    - name:
+        en: Rhombophryne testudo
+        zh: Rhombophryne testudo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4SK5Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/406
+            queryName: Rhombophryne testudo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 86
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8d2c97a13d
+      - s-5cddfb1851
+      - s-6e0bf78869
+      - s-c8538a2163
+      - s-5689b1f27b
+      - s-d47807d1e1
+      - s-2a7ae7cad7
+      - s-5bbd822e94
+      - s-86f731f8e2
+      - s-17e9282646
+    zh:
+      - s-f1e706b796
+      - s-270b416efe
+      - s-05d9430d33
+      - s-f948012b7b
+      - s-794bbe78a3
+      - s-7da1e3423e
+      - s-a6b327daf2
+      - s-314395afa4
+      - s-735037b094
+      - s-3e02da6ad2

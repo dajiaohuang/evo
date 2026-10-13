@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene quindianum
+  displayName: Centrolene quindianum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S9Z5
+  sourceIndexes:
+    - name:
+        en: Centrolene quindianum
+        zh: Centrolene quindianum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S9Z5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/199
+            queryName: Centrolene quindianum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce01b81a77
+      - s-b47006dbb4
+      - s-bb8b9edda3
+      - s-154ff8a63a
+      - s-64efe86d70
+      - s-eaa9d3bbd5
+      - s-cf82f83ea3
+      - s-b0f706b4b8
+    zh:
+      - s-f85dade11e
+      - s-d568fda6c4
+      - s-9a52e1432b
+      - s-b3ec956904
+      - s-af990c05ca
+      - s-5a7185c54f
+      - s-7d051b640f
+      - s-d59bed4193

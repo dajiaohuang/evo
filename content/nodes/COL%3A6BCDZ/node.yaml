@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor escoces
+  displayName: Craugastor escoces
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCDZ
+  sourceIndexes:
+    - name:
+        en: Craugastor escoces
+        zh: Craugastor escoces
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCDZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/115
+            queryName: Craugastor escoces
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/350
+            queryName: Eleutherodactylus escoces
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c5abe14d46
+      - s-d245af59ed
+      - s-fdc41bd607
+      - s-0e98100322
+      - s-e22eb3bb1f
+      - s-44b548afb3
+      - s-a16b52bf60
+      - s-2ce5472378
+    zh:
+      - s-482cfeec5b
+      - s-c74f142d43
+      - s-3f24f1403f
+      - s-0d2b1deae7
+      - s-dd1d215108
+      - s-aa1027005e
+      - s-8e053cfd12
+      - s-2143befc6f

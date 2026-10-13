@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microhyla kuramotoi Matsui & Tominaga, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Microhyla kuramotoi
+      zh: Microhyla kuramotoi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7fa898b0fe
+            part: title
+          zh:
+            page: zh
+            section: s-898c74c0f9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7fa898b0fe
+            part: body
+          zh:
+            page: zh
+            section: s-898c74c0f9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7753ddd167
+            part: title
+          zh:
+            page: zh
+            section: s-e453c8edca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7753ddd167
+            part: body
+          zh:
+            page: zh
+            section: s-e453c8edca
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2a7be643ee
+            part: title
+          zh:
+            page: zh
+            section: s-e4c98508ad
+            part: title
+        sourceIds:
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-2a7be643ee
+            part: body
+          zh:
+            page: zh
+            section: s-e4c98508ad
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-8ce7cdf0089dbd4cf3b10707
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-54766a4b58
+            part: title
+          zh:
+            page: zh
+            section: s-f1d660fa30
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-54766a4b58
+            part: body
+          zh:
+            page: zh
+            section: s-f1d660fa30
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0179207f6a
+            part: title
+          zh:
+            page: zh
+            section: s-711f0fe657
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0179207f6a
+            part: body
+          zh:
+            page: zh
+            section: s-711f0fe657
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Microhyla kuramotoi
+          url: https://www.checklistbank.org/dataset/316115/taxon/QKKPP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1026; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-82ad2c73d5
+        part: body
+      zh:
+        page: zh
+        section: s-705e3e2ff4
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-8ce7cdf0089dbd4cf3b10707
+        scientificName: Microhyla kuramotoi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2

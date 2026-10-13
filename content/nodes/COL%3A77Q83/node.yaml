@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon cylindraceus
+  displayName: Plethodon cylindraceus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77Q83
+  sourceIndexes:
+    - name:
+        en: Plethodon cylindraceus
+        zh: Plethodon cylindraceus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77Q83
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/458
+            queryName: Plethodon cylindraceus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/493
+            queryName: Salamandra cylindracea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e552899a8d
+      - s-befb356f4a
+      - s-7cbb721aaa
+      - s-150e6bd283
+      - s-8485935de5
+      - s-27a0358779
+      - s-14b0809165
+      - s-f290401700
+      - s-c597f4f76f
+      - s-b56aa80861
+      - s-21bb0e680a
+      - s-23b050f7eb
+    zh:
+      - s-3dbfe3a20a
+      - s-7fb5394997
+      - s-5145bdac3f
+      - s-470210494f
+      - s-5d31ebd57a
+      - s-4cd0857e0f
+      - s-64fcbb2a31
+      - s-4772950d5d
+      - s-aab7ee3e9d
+      - s-e549f1ec8a
+      - s-d306775309
+      - s-9e9b053c0c

@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rawlinsonia Wells & Wellington, 1985
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Rawlinsonia
+      zh: Rawlinsonia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f0e6f9898c
+            part: title
+          zh:
+            page: zh
+            section: s-4a83afa984
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f0e6f9898c
+            part: body
+          zh:
+            page: zh
+            section: s-4a83afa984
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-66ebe9cbd1
+            part: title
+          zh:
+            page: zh
+            section: s-253e3f2bdb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-66ebe9cbd1
+            part: body
+          zh:
+            page: zh
+            section: s-253e3f2bdb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-909a9164e6
+            part: title
+          zh:
+            page: zh
+            section: s-02789c3679
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4RMYZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4RMYZ
+            label:
+              en: Rawlinsonia calliscelis
+              zh: Rawlinsonia calliscelis
+          - kind: catalogue
+            colId: 4RMZ2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4RMZ2
+            label:
+              en: Rawlinsonia corbeni
+              zh: Rawlinsonia corbeni
+          - kind: catalogue
+            colId: V5LL8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5LL8
+            label:
+              en: Rawlinsonia eungellensis
+              zh: Rawlinsonia eungellensis
+          - kind: catalogue
+            colId: V5H6S
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5H6S
+            label:
+              en: Rawlinsonia ewingi
+              zh: Rawlinsonia ewingi
+          - kind: catalogue
+            colId: 4RMZ4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4RMZ4
+            label:
+              en: Rawlinsonia jervisiensis
+              zh: Rawlinsonia jervisiensis
+          - kind: catalogue
+            colId: V57XT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV57XT
+            label:
+              en: Rawlinsonia littlejohni
+              zh: Rawlinsonia littlejohni
+          - kind: catalogue
+            colId: 4RMZ7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4RMZ7
+            label:
+              en: Rawlinsonia paraewingi
+              zh: Rawlinsonia paraewingi
+          - kind: catalogue
+            colId: V5QNZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5QNZ
+            label:
+              en: Rawlinsonia revelata
+              zh: Rawlinsonia revelata
+          - kind: catalogue
+            colId: V5PRX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5PRX
+            label:
+              en: Rawlinsonia sibilus
+              zh: Rawlinsonia sibilus
+          - kind: catalogue
+            colId: 4RMZ9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4RMZ9
+            label:
+              en: Rawlinsonia verreauxii
+              zh: Rawlinsonia verreauxii
+          - kind: catalogue
+            colId: V5JNV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5JNV
+            label:
+              en: Rawlinsonia watsoni
+              zh: Rawlinsonia watsoni
+        text:
+          en:
+            page: en
+            section: s-909a9164e6
+            part: body
+          zh:
+            page: zh
+            section: s-02789c3679
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rawlinsonia
+          url: https://www.checklistbank.org/dataset/316115/taxon/77BW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d1d525210e
+        part: body
+      zh:
+        page: zh
+        section: s-144d023cb8
+        part: body

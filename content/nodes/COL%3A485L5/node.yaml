@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctimantis rugiceps
+  displayName: Nyctimantis rugiceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485L5
+  sourceIndexes:
+    - name:
+        en: Nyctimantis rugiceps
+        zh: Nyctimantis rugiceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485L5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/376
+            queryName: Nyctimantis rugiceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-af1a9d6d6d
+      - s-5564087ab1
+      - s-cf4cc89d23
+      - s-68981a0be3
+      - s-e0f3cff582
+      - s-1d4977073c
+      - s-697dc785f6
+      - s-87df4db339
+      - s-2351a8273a
+      - s-12aedf2a43
+    zh:
+      - s-ed9a3927ed
+      - s-14a530b30c
+      - s-0c1eb9ee57
+      - s-c262dd6971
+      - s-ea49154089
+      - s-d7a7e6f82a
+      - s-d8fa33339e
+      - s-537456da98
+      - s-9de6e99b0e
+      - s-15716ff5f3

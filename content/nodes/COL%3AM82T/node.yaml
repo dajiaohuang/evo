@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana semiguttata
+  displayName: Boana semiguttata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M82T
+  sourceIndexes:
+    - name:
+        en: Boana semiguttata
+        zh: Boana semiguttata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M82T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/33
+            queryName: Boana semiguttata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/467
+            queryName: Hyla semiguttata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/197
+            queryName: Hypsiboas semiguttatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-31bc7fceaf
+      - s-2c33f4b696
+      - s-b01a1a15d1
+      - s-d1d0cc620b
+      - s-3a286ff03a
+      - s-34f727fcc5
+      - s-a0d347333e
+      - s-2563c92fd8
+      - s-c2afde2532
+      - s-a493deee15
+      - s-974b805b9c
+      - s-770cddd671
+    zh:
+      - s-43bff88fee
+      - s-24d5851562
+      - s-e74e9fa0d2
+      - s-164189f35e
+      - s-dc05d06eed
+      - s-14a7eea402
+      - s-54bd7ec55d
+      - s-f50a912e5b
+      - s-b08eb2df28
+      - s-0a12aec66d
+      - s-8d240766fc
+      - s-40692e54c2

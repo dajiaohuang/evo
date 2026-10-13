@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema surda
+  displayName: Ischnocnema surda
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4SN
+  sourceIndexes:
+    - name:
+        en: Ischnocnema surda
+        zh: Ischnocnema surda
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4SN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/42
+            queryName: Ischnocnema surda
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bfa2809bdf
+      - s-49637d265a
+      - s-ed6cf9e396
+      - s-5d33808fe6
+      - s-a7449ba87c
+      - s-a1858fbbd2
+      - s-5169570d96
+      - s-e0ff6d5331
+      - s-057f118ba9
+      - s-779c67b32a
+      - s-590b43ffb4
+      - s-790ea49318
+      - s-b54d4fc758
+    zh:
+      - s-0a5cb0b910
+      - s-6b3ac8da43
+      - s-5bb59e375e
+      - s-3e361a94c0
+      - s-f75637508d
+      - s-27ae92cb9f
+      - s-e7662df8d2
+      - s-795d9af12e
+      - s-4f8b58ec21
+      - s-7c8203e930
+      - s-42d14e23d0
+      - s-a7597263c5
+      - s-1ff009298d

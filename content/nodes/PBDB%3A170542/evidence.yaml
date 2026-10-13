@@ -1,0 +1,176 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Guizhouichthyosaurus tangae
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Guizhouichthyosaurus tangae
+      en: Guizhouichthyosaurus tangae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbIchthyosauriformesTaxonomy20261002
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5a403a2f8
+            part: body
+          en:
+            page: en
+            section: s-ad2a199d56
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-93767c08b6
+            part: body
+          en:
+            page: en
+            section: s-24c77e7cd7
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d1bb8b83d3
+            part: body
+          en:
+            page: en
+            section: s-c2cc597813
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7071612c9f
+            part: body
+          en:
+            page: en
+            section: s-1f7a8d9377
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-178b3143a2
+            part: body
+          en:
+            page: en
+            section: s-64b071739d
+            part: body
+    sources:
+      - id: pbdbIchthyosauriformesTaxonomy20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Guizhouichthyosaurus tangae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=170542&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbIchthyosauriformesOccurrences20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:170542; original response record indices retained in data/sources/ichthyosauriformes-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: f47f280ca897054f5bf00b8a99d8aa7b7eee1e3225ec65be651afc93d19ba812
+          pbdbTaxonId: txn:170542
+          selectedOccurrenceIds:
+            - occ:788482
+            - occ:880873
+            - occ:893430
+            - occ:911118
+          selectedCollectionIds:
+            - col:85166
+            - col:97713
+            - col:98908
+            - col:102997
+          sourceReferenceIds:
+            - ref:28658
+            - ref:33393
+            - ref:34073
+            - ref:34828
+          originalIdentificationMappings:
+            - occurrenceId: occ:788482
+              originalIdentifiedName: Ghuizhouichthyosaurus tangae
+              acceptedName: Guizhouichthyosaurus tangae
+              difference: misspelling of
+            - occurrenceId: occ:880873
+              originalIdentifiedName: Guizhouicthyosaurus tangae
+              acceptedName: Guizhouichthyosaurus tangae
+              difference: variant of
+            - occurrenceId: occ:893430
+              originalIdentifiedName: Shastasaurus tangae
+              acceptedName: Guizhouichthyosaurus tangae
+              difference: recombined as
+            - occurrenceId: occ:911118
+              originalIdentifiedName: Panjiangsaurus epicharis
+              acceptedName: Guizhouichthyosaurus tangae
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4113a428b7
+        part: body
+      en:
+        page: en
+        section: s-38bbb75275
+        part: body

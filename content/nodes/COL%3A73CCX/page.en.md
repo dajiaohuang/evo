@@ -1,0 +1,3 @@
+## Cylindrical stems, digitiform colleters, and pendulous follicles {#s-8b83a993de}
+The source morphology field records cylindrical stems with digitiform colleters at the nodes. Leaves are opposite, leathery and discolorous, with brochidodromous venation; scale-like colleters occur at the adaxial blade base beside the midrib. Inflorescences are cymose. The flower tube is pink or pinkish white, the lobes cream-green or yellowish, and the tube salver-shaped. The fruit is a pendulous follicle, and the seeds are comose. A separate habitat field says “Terrícola” (terrestrial). This single morphology field does not establish variation or full diagnostic scope; no locality or range evidence was assessed.
+

@@ -1,0 +1,297 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Emydura
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Emydura 属
+      en: Emydura
+    sections:
+      - text:
+          zh:
+            page: zh
+            section: s-f8387ab118
+            part: body
+          en:
+            page: en
+            section: s-3bcee513a7
+            part: body
+        sourceIds:
+          - taxonomy
+        topic: overview
+      - text:
+          zh:
+            page: zh
+            section: s-f373712405
+            part: body
+          en:
+            page: en
+            section: s-3c8098b480
+            part: body
+        sourceIds:
+          - emyduraChondrocranium2013
+        topic: morphology
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-bb7f1fac07
+            part: body
+          en:
+            page: en
+            section: s-0d6d6ec00f
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-3b6cc8bc9d
+            part: body
+          en:
+            page: en
+            section: s-6c58283625
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-50c1ed71bd
+            part: body
+          en:
+            page: en
+            section: s-c1e3c4f8b7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-90fc427267
+            part: body
+          en:
+            page: en
+            section: s-117190fca5
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-f3b07ff4c5
+            part: body
+          en:
+            page: en
+            section: s-e31ead9613
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-285813167c
+            part: body
+          en:
+            page: en
+            section: s-40ce098154
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-24b9cc1670
+            part: body
+          en:
+            page: en
+            section: s-461c37d3c3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Emydura
+          url: https://www.checklistbank.org/dataset/316115/taxon/4BDY
+          locator: Accepted COL26.8 genus usage and parent classification.
+          scope:
+            zh: 固定 COL26.8 接受名称、阶元与父级分类；不推断现生状态或后代覆盖完整性。
+            en: Pinned COL26.8 accepted name, rank and parent classification; no inference about living status or complete descendant coverage.
+      - id: emyduraChondrocranium2013
+        referenceId: ref-4f70e2b6-48b2-41d4-9822-2243882f4f6e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - licenseAssessment
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Abstract; hatchling specimens and chondrocranium morphology.
+          licenseAssessment: paraphrase-only
+          accessedAt: 2026-10-02
+          scope:
+            zh: 幼体 Emydura subglobosa 的成熟颅软骨解剖，不外推为属级整体规律。
+            en: Chondrocranium anatomy in hatchling Emydura subglobosa; not generalized to the genus.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 3 authored records grouped under Emydura by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 3 authored same-name records placed under Emydura by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 2 authored records grouped under Emydura by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 886SB
+              name: Emydura australis
+              canonicalPath: content/nodes/COL%3A886SB
+            - colId: 8GRYJ
+              name: Emydura gunaleni
+              canonicalPath: content/nodes/COL%3A8GRYJ
+          fieldCountDistribution:
+            "2": 1
+            "3": 1
+    limitations:
+      zh:
+        page: zh
+        section: s-b604dd46b6
+        part: body
+      en:
+        page: en
+        section: s-8a1ae013b0
+        part: body

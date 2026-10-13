@@ -1,0 +1,218 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caecilia atelolepis Fernández-Roldán, Lynch & Medina-Rangel, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Caecilia atelolepis
+      zh: Caecilia atelolepis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3aa30bacfe
+            part: title
+          zh:
+            page: zh
+            section: s-e4a3a91e6f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3aa30bacfe
+            part: body
+          zh:
+            page: zh
+            section: s-e4a3a91e6f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d24d4c2782
+            part: title
+          zh:
+            page: zh
+            section: s-c268568254
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d24d4c2782
+            part: body
+          zh:
+            page: zh
+            section: s-c268568254
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-89bb73f9d3
+            part: title
+          zh:
+            page: zh
+            section: s-b6c83d4fa3
+            part: title
+        sourceIds:
+          - caeciliantraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-89bb73f9d3
+            part: body
+          zh:
+            page: zh
+            section: s-b6c83d4fa3
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-5eec160eb22334a56fd5693e
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-457c33d7e9
+            part: title
+          zh:
+            page: zh
+            section: s-227102760e
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-457c33d7e9
+            part: body
+          zh:
+            page: zh
+            section: s-227102760e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-dd7e48546b
+            part: title
+          zh:
+            page: zh
+            section: s-9590024063
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-dd7e48546b
+            part: body
+          zh:
+            page: zh
+            section: s-9590024063
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7657e29eba
+            part: title
+          zh:
+            page: zh
+            section: s-04a733b31c
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-7657e29eba
+            part: body
+          zh:
+            page: zh
+            section: s-04a733b31c
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Caecilia atelolepis
+          url: https://www.checklistbank.org/dataset/316115/taxon/M3Z3J
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 7; Individual level data rows 1304, 1305, 1306, 1307, 1308, 1309, 1310, 1311, 1312, 1313, 1314, 1315, 1316, 1317, 1318, 1319, 1320, 1321; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fb2ae39bdb
+        part: body
+      zh:
+        page: zh
+        section: s-a2b044a988
+        part: body
+    additionalTraitSources:
+      - kind: caecilian-traits-reader
+        path: content/nodes/local-5eec160eb22334a56fd5693e
+        scientificName: Caecilia atelolepis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 3

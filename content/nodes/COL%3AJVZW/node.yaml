@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina kosarek
+  displayName: Austrochaperina kosarek
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JVZW
+  sourceIndexes:
+    - name:
+        en: Austrochaperina kosarek
+        zh: Austrochaperina kosarek
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JVZW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/355
+            queryName: Austrochaperina kosarek
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-067aa0a68d
+      - s-98f813097e
+      - s-9138df65b9
+      - s-5f7d215be8
+      - s-74aa356e17
+      - s-612a73a845
+      - s-0d8d7df624
+      - s-33bbd9494b
+      - s-a097b67b89
+    zh:
+      - s-d70a5ae7fb
+      - s-5658f01f82
+      - s-4df15b0788
+      - s-fff003da55
+      - s-e2654b3237
+      - s-9f101cf487
+      - s-60b6ede04c
+      - s-edbfc0e770
+      - s-2190668dab

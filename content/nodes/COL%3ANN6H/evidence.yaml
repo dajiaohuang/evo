@@ -1,0 +1,740 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Buddleja nitida Benth.
+    authorship: Benth.
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 3F4
+        scientificName: Lamiales Bromhead
+        authorship: Bromhead
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: G5R
+        scientificName: Scrophulariaceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV3ND
+        scientificName: Buddlejeae Bartl.
+        authorship: Bartl.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 62H6F
+        scientificName: Buddleja L.
+        authorship: L.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: NN6H
+        scientificName: Buddleja nitida Benth.
+        authorship: Benth.
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage NN6H; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/NN6H
+          stableId: col:NN6H@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage NN6H; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage NN6H. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_nn6h_distribution_2964
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Buddleja nitida Benth., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: According to Norman (loc. cit. 75), B. nitida is "a common tree of the sierras of southern Chiapas to Panama."
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 2964
+          archiveSourceId: CF57EDD9-1FCE-42CA-8D2C-016565A38414
+          archiveSourceIds:
+            - CF57EDD9-1FCE-42CA-8D2C-016565A38414
+          referenceRowNumbers:
+            - 1997
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-db14df59-cea7-80f5-a415-f6da710844eb
+                metadataVariant: 0
+                usage:
+                  identifier: CF57EDD9-1FCE-42CA-8D2C-016565A38414
+                  referenceRowNumber: 1997
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2964 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2964; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:NN6H:row:2964
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2964; field distribution; reference rows 1997.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2964; CC BY 4.0. Citation metadata: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_nn6h_habit_6913
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Buddleja nitida Benth., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Shrub or small tree
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 6913
+          archiveSourceId: E74B142C-82F2-4CBE-A9DF-8E4138B57D4F
+          archiveSourceIds:
+            - E74B142C-82F2-4CBE-A9DF-8E4138B57D4F
+          referenceRowNumbers:
+            - 7773
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-db14df59-cea7-80f5-a415-f6da710844eb
+                metadataVariant: 0
+                usage:
+                  identifier: E74B142C-82F2-4CBE-A9DF-8E4138B57D4F
+                  referenceRowNumber: 7773
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 6913 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 6913; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:NN6H:row:6913
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 6913; field habit; reference rows 7773.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 6913; CC BY 4.0. Citation metadata: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_nn6h_general_6920
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Buddleja nitida Benth., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Shrub or small tree 3-10 m high; youngest branchlets with a closely appressed puberulence of minute stellate trichomes ca 0.1-0.2 mm broad, soon glabrous, the internodes 0.5-2(-3.5) cm long; older branches developing gray or grayish-brown bark. Leaves with petioles 3-22 mm long which are connected by stipular lines; blades oblong-lanceolate, 2.3-8 cm long, 0.6-2.6 cm broad, apically acute or at- tenuate, basally cuneate to rounded, subcoriaceous, densely appressed-puberulent beneath with stellate trichomes 0.1-0.2 mm broad, glabrous or with a few scattered stellate trichomes above, the midvein raised beneath, the secondaries 8-20 in num- ber, usually apparent (at least below), not arcuate, anastomosing marginally, the tertiaries usually obscure above and below. Inflorescences paniculate, 2-8 cm long, with 3 or sometimes 4 orders of branching, the ultimate units small 3-flowered dichasia which are subsessile or short-pedunculate. Flowers with pedicels 0-1 mm long; calyx funnelform or campanulate, stellate-tomentellous externally, the tube 1-2.5 mm long, the lobes deltoid, 0.5-1 mm long; corolla funnelform, stellate-tomentellous externally, internally with unbranched pitted trichomes ca 0.5 mm long randomly dispersed on the lower 2/3 of the lobes and the upper 1/3 of the tube, the tube 2.5-3 mm long, the lobes ovate, 1-2 mm long, imbricate in bud; anthers 0.7-1 mm long, the filaments becoming free from the corolla-tube near the middle or almost at the throat, the free-portion ca 0.5 mm long; ovary sub- globose to ovoid, 1-1.5 mm long, externally appressed-stellate-puberulent, the ovules oc per locule, the placenta a central column 0.7-1 mm broad often remain- ing attached basally after the seeds are shed, the style ca 1 mm long, the stigma 1 mm long, minutely retuse. Capsules narrowly ovoid or subcylindrical, 4-5.5 mm long.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 6920
+          archiveSourceId: 577B8D56-705E-4561-AFDB-362C5E2DC983
+          archiveSourceIds:
+            - 577B8D56-705E-4561-AFDB-362C5E2DC983
+          referenceRowNumbers:
+            - 7780
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-db14df59-cea7-80f5-a415-f6da710844eb
+                metadataVariant: 0
+                usage:
+                  identifier: 577B8D56-705E-4561-AFDB-362C5E2DC983
+                  referenceRowNumber: 7780
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 6920 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 6920; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:NN6H:row:6920
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 6920; field general; reference rows 7780.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 6920; CC BY 4.0. Citation metadata: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Shrub or small tree 3-10 m high; youngest branchlets with a closely appressed puberulence of minute stellate trichomes ca 0.1-0.2 mm broad, soon glabrous, the internodes 0.5-2(-3.5) cm long; older branches developing gray or grayish-brown bark. Leaves with petioles 3-22 mm long which are connected by stipular lines; blades oblong-lanceolate, 2.3-8 cm long, 0.6-2.6 cm broad, apically acute or at- tenuate, basally cuneate to rounded, subcoriaceous, densely appressed-puberulent beneath with stellate trichomes 0.1-0.2 mm broad, glabrous or with a few scattered stellate trichomes above, the midvein raised beneath, the secondaries 8-20 in num- ber, usually apparent (at least below), not arcuate, anastomosing marginally, the tertiaries usually obscure above and below. Inflorescences paniculate, 2-8 cm long, with 3 or sometimes 4 orders of branching, the ultimate units small 3-flowered dichasia which are subsessile or short-pedunculate. Flowers with pedicels 0-1 mm long; calyx funnelform or campanulate, stellate-tomentellous externally, the tube 1-2.5 mm long, the lobes deltoid, 0.5-1 mm long; corolla funnelform, stellate-tomentellous externally, internally with unbranched pitted trichomes ca 0.5 mm long randomly dispersed on the lower 2/3 of the lobes and the upper 1/3 of the tube, the tube 2.5-3 mm long, the lobes ovate, 1-2 mm long, imbricate in bud; anthers 0.7-1 mm long, the filaments becoming free from the corolla-tube near the middle or almost at the throat, the free-portion ca 0.5 mm long; ovary sub- globose to ovoid, 1-1.5 mm long, externally appressed-stellate-puberulent, the ovules oc per locule, the placenta a central column 0.7-1 mm broad often remain- ing attached basally after the seeds are shed, the style ca 1 mm long, the stigma 1 mm long, minutely retuse. Capsules narrowly ovoid or subcylindrical, 4-5.5 mm long.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_nn6h_general_6920
+            locator: "Flora of Panama general field; imported row 6920; sourceIds 577B8D56-705E-4561-AFDB-362C5E2DC983; reference rows 7780; citations: 577B8D56-705E-4561-AFDB-362C5E2DC983: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 7780)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: According to Norman (loc. cit. 75), B. nitida is "a common tree of the sierras of southern Chiapas to Panama."
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_nn6h_distribution_2964
+            locator: "Flora of Panama distribution field; imported row 2964; sourceIds CF57EDD9-1FCE-42CA-8D2C-016565A38414; reference rows 1997; citations: CF57EDD9-1FCE-42CA-8D2C-016565A38414: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 1997)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+  catalogue-profile:
+    scientificName: Buddleja nitida Benth.
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Buddleja nitida
+      zh: Buddleja nitida
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/NN6H
+          stableId: col:NN6H@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage NN6H; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage NN6H. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_nn6h_distribution_2964
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Buddleja nitida Benth., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: According to Norman (loc. cit. 75), B. nitida is "a common tree of the sierras of southern Chiapas to Panama."
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 2964
+          archiveSourceId: CF57EDD9-1FCE-42CA-8D2C-016565A38414
+          archiveSourceIds:
+            - CF57EDD9-1FCE-42CA-8D2C-016565A38414
+          referenceRowNumbers:
+            - 1997
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-db14df59-cea7-80f5-a415-f6da710844eb
+                metadataVariant: 0
+                usage:
+                  identifier: CF57EDD9-1FCE-42CA-8D2C-016565A38414
+                  referenceRowNumber: 1997
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2964 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2964; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:NN6H:row:2964
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2964; field distribution; reference rows 1997.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2964; CC BY 4.0. Citation metadata: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_nn6h_habit_6913
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Buddleja nitida Benth., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Shrub or small tree
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 6913
+          archiveSourceId: E74B142C-82F2-4CBE-A9DF-8E4138B57D4F
+          archiveSourceIds:
+            - E74B142C-82F2-4CBE-A9DF-8E4138B57D4F
+          referenceRowNumbers:
+            - 7773
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-db14df59-cea7-80f5-a415-f6da710844eb
+                metadataVariant: 0
+                usage:
+                  identifier: E74B142C-82F2-4CBE-A9DF-8E4138B57D4F
+                  referenceRowNumber: 7773
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 6913 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 6913; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:NN6H:row:6913
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 6913; field habit; reference rows 7773.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 6913; CC BY 4.0. Citation metadata: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_nn6h_general_6920
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Buddleja nitida Benth., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Shrub or small tree 3-10 m high; youngest branchlets with a closely appressed puberulence of minute stellate trichomes ca 0.1-0.2 mm broad, soon glabrous, the internodes 0.5-2(-3.5) cm long; older branches developing gray or grayish-brown bark. Leaves with petioles 3-22 mm long which are connected by stipular lines; blades oblong-lanceolate, 2.3-8 cm long, 0.6-2.6 cm broad, apically acute or at- tenuate, basally cuneate to rounded, subcoriaceous, densely appressed-puberulent beneath with stellate trichomes 0.1-0.2 mm broad, glabrous or with a few scattered stellate trichomes above, the midvein raised beneath, the secondaries 8-20 in num- ber, usually apparent (at least below), not arcuate, anastomosing marginally, the tertiaries usually obscure above and below. Inflorescences paniculate, 2-8 cm long, with 3 or sometimes 4 orders of branching, the ultimate units small 3-flowered dichasia which are subsessile or short-pedunculate. Flowers with pedicels 0-1 mm long; calyx funnelform or campanulate, stellate-tomentellous externally, the tube 1-2.5 mm long, the lobes deltoid, 0.5-1 mm long; corolla funnelform, stellate-tomentellous externally, internally with unbranched pitted trichomes ca 0.5 mm long randomly dispersed on the lower 2/3 of the lobes and the upper 1/3 of the tube, the tube 2.5-3 mm long, the lobes ovate, 1-2 mm long, imbricate in bud; anthers 0.7-1 mm long, the filaments becoming free from the corolla-tube near the middle or almost at the throat, the free-portion ca 0.5 mm long; ovary sub- globose to ovoid, 1-1.5 mm long, externally appressed-stellate-puberulent, the ovules oc per locule, the placenta a central column 0.7-1 mm broad often remain- ing attached basally after the seeds are shed, the style ca 1 mm long, the stigma 1 mm long, minutely retuse. Capsules narrowly ovoid or subcylindrical, 4-5.5 mm long.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 6920
+          archiveSourceId: 577B8D56-705E-4561-AFDB-362C5E2DC983
+          archiveSourceIds:
+            - 577B8D56-705E-4561-AFDB-362C5E2DC983
+          referenceRowNumbers:
+            - 7780
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-db14df59-cea7-80f5-a415-f6da710844eb
+                metadataVariant: 0
+                usage:
+                  identifier: 577B8D56-705E-4561-AFDB-362C5E2DC983
+                  referenceRowNumber: 7780
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 6920 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 6920; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:NN6H:row:6920
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 6920; field general; reference rows 7780.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 6920; CC BY 4.0. Citation metadata: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b3fb81753e
+            part: title
+          zh:
+            page: zh
+            section: s-58b8fb7b89
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b3fb81753e
+            part: body
+          zh:
+            page: zh
+            section: s-58b8fb7b89
+            part: body
+        sourceIds:
+          - flora_panama_nn6h_general_6920
+        locator: "Flora of Panama general field; imported row 6920; sourceIds 577B8D56-705E-4561-AFDB-362C5E2DC983; reference rows 7780; citations: 577B8D56-705E-4561-AFDB-362C5E2DC983: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 7780)."
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-6927bad844
+            part: title
+          zh:
+            page: zh
+            section: s-40c76a17ab
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6927bad844
+            part: body
+          zh:
+            page: zh
+            section: s-40c76a17ab
+            part: body
+        sourceIds:
+          - flora_panama_nn6h_distribution_2964
+        locator: "Flora of Panama distribution field; imported row 2964; sourceIds CF57EDD9-1FCE-42CA-8D2C-016565A38414; reference rows 1997; citations: CF57EDD9-1FCE-42CA-8D2C-016565A38414: Buddleja nitida Benth., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 1997)."

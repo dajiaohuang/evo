@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus fraseri
+  displayName: Xenopus fraseri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBC3
+  sourceIndexes:
+    - name:
+        en: Xenopus fraseri
+        zh: Xenopus fraseri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBC3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/312
+            queryName: Xenopus fraseri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c73a27a14
+      - s-d507f0f972
+      - s-4b252f24ff
+      - s-8e2fc75e8c
+      - s-f36139ac25
+      - s-f8e55420bf
+      - s-5a14e07ef5
+      - s-4826850d07
+      - s-468a26b518
+      - s-e64c50f0b7
+      - s-fcaf287bfe
+      - s-adca95de66
+    zh:
+      - s-aca7cbca3a
+      - s-b38d78b4eb
+      - s-cd1a91544b
+      - s-2b5eaeb276
+      - s-90c7498ccb
+      - s-ddd2899c15
+      - s-2cd42a65ce
+      - s-ac0003d621
+      - s-71a342a2d2
+      - s-734e93a994
+      - s-6e521b32e9
+      - s-d5c78d51f2

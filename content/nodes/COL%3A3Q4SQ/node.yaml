@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema verrucosa
+  displayName: Ischnocnema verrucosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4SQ
+  sourceIndexes:
+    - name:
+        en: Ischnocnema verrucosa
+        zh: Ischnocnema verrucosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4SQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/44
+            queryName: Ischnocnema verrucosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/216
+            queryName: Eleutherodactylus verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/342
+            queryName: Eupsophus versus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/357
+            queryName: Pleurodema verrucosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/126
+            queryName: Leiuperus verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/127
+            queryName: Paludicola verrucosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0c1cbcd74b
+      - s-8b1ade8cb5
+      - s-f29aaf3037
+      - s-57fac324a0
+      - s-940e579a47
+      - s-7e1b790ecb
+      - s-4fc6f5bbca
+      - s-296b08ee20
+      - s-5a6f7839b9
+      - s-8d775381d5
+      - s-eb924cff13
+      - s-5ed88e140a
+      - s-184d1fb1ff
+      - s-687bd82b9d
+      - s-dd88e9d3fd
+    zh:
+      - s-ff487481c1
+      - s-63c3bc5a8f
+      - s-fd75ea683b
+      - s-e18ab5ed83
+      - s-54496ff190
+      - s-752bf05832
+      - s-26c6819ec7
+      - s-ed326f48c5
+      - s-fe6c15918e
+      - s-d105418c69
+      - s-bb521da491
+      - s-a61e2c127d
+      - s-a1bf17802b
+      - s-c6a3928313
+      - s-6390cdae71

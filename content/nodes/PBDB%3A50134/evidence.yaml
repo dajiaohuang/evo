@@ -1,0 +1,238 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Herpetotherium knighti
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Herpetotherium knighti
+      en: Herpetotherium knighti
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0a00e9db2f
+            part: body
+          en:
+            page: en
+            section: s-e7760a5168
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e3a5cf1802
+            part: body
+          en:
+            page: en
+            section: s-f952c1de58
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-35d75ce57e
+            part: body
+          en:
+            page: en
+            section: s-906a19bedd
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b7785c6709
+            part: body
+          en:
+            page: en
+            section: s-cdbd7dc45a
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-526e0a00aa
+            part: body
+          en:
+            page: en
+            section: s-c5906c542e
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Herpetotherium knighti
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=50134&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:50134; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:50134
+          selectedOccurrenceIds:
+            - occ:173446
+            - occ:173499
+            - occ:173583
+            - occ:173597
+            - occ:173626
+            - occ:173872
+            - occ:174108
+            - occ:174178
+            - occ:174414
+            - occ:174709
+            - occ:174868
+            - occ:174924
+            - occ:174936
+            - occ:174983
+            - occ:175389
+            - occ:175476
+            - occ:175506
+            - occ:175537
+            - occ:175556
+            - occ:175572
+            - occ:175821
+            - occ:176147
+            - occ:176204
+            - occ:176613
+            - occ:177179
+            - occ:177239
+            - occ:177415
+            - occ:177802
+            - occ:1426242
+            - occ:1426243
+            - occ:1426245
+            - occ:1426247
+          selectedCollectionIds:
+            - col:16090
+            - col:16098
+            - col:16108
+            - col:16109
+            - col:16113
+            - col:16198
+            - col:16219
+            - col:16227
+            - col:16244
+            - col:16306
+            - col:16345
+            - col:16365
+            - col:16370
+            - col:16393
+            - col:16499
+            - col:16513
+            - col:16514
+            - col:16515
+            - col:16516
+            - col:16517
+            - col:16584
+            - col:16623
+            - col:16626
+            - col:16681
+            - col:16786
+            - col:16791
+            - col:16826
+            - col:16884
+            - col:186964
+            - col:186966
+            - col:186968
+            - col:93087
+          sourceReferenceIds:
+            - ref:6294
+            - ref:2180
+            - ref:2523
+            - ref:3359
+            - ref:1681
+            - ref:67550
+          originalIdentificationMappings:
+            - occurrenceId: occ:174414
+              originalIdentifiedName: Peratherium knighti n. sp.
+              acceptedName: Herpetotherium knighti
+              difference: recombined as
+            - occurrenceId: occ:175821
+              originalIdentifiedName: Peratherium knighti
+              acceptedName: Herpetotherium knighti
+              difference: recombined as
+            - occurrenceId: occ:176613
+              originalIdentifiedName: Peratherium knighti
+              acceptedName: Herpetotherium knighti
+              difference: recombined as
+            - occurrenceId: occ:177179
+              originalIdentifiedName: Peratherium knighti
+              acceptedName: Herpetotherium knighti
+              difference: recombined as
+            - occurrenceId: occ:177239
+              originalIdentifiedName: Peratherium knighti
+              acceptedName: Herpetotherium knighti
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-a59a4a8f2d
+        part: body
+      en:
+        page: en
+        section: s-214dfef6e2
+        part: body

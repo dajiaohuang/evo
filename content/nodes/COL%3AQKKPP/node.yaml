@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla kuramotoi
+  displayName: Microhyla kuramotoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QKKPP
+  sourceIndexes:
+    - name:
+        en: Microhyla kuramotoi
+        zh: Microhyla kuramotoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QKKPP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/11
+            queryName: Microhyla kuramotoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7fa898b0fe
+      - s-7753ddd167
+      - s-2a7be643ee
+      - s-54766a4b58
+      - s-0179207f6a
+      - s-82ad2c73d5
+    zh:
+      - s-898c74c0f9
+      - s-e453c8edca
+      - s-e4c98508ad
+      - s-f1d660fa30
+      - s-711f0fe657
+      - s-705e3e2ff4

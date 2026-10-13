@@ -1,0 +1,205 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Protocetidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Protocetidae
+      en: Protocetidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-59395d16e6
+            part: body
+          en:
+            page: en
+            section: s-2beb295cfb
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b36cca957e
+            part: body
+          en:
+            page: en
+            section: s-c435937943
+            part: body
+      - topic: fossil-record
+        title:
+          en:
+            page: en
+            section: s-50687b797d
+            part: title
+          zh:
+            page: zh
+            section: s-6ae663530d
+            part: title
+        sourceIds:
+          - uhen-2010-whale-origins
+          - ics-2026-06
+        text:
+          en:
+            page: en
+            section: s-50687b797d
+            part: body
+          zh:
+            page: zh
+            section: s-6ae663530d
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Protocetidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=42934
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:42934
+          readingTargets:
+            - name: Phiomicetus anubis
+              pbdbTaxonId: txn:441449
+              canonicalPath: content/nodes/PBDB%3A441449
+            - name: Takracetus simus
+              pbdbTaxonId: txn:53298
+              canonicalPath: content/nodes/PBDB%3A53298
+            - name: Rodhocetus kasranii
+              pbdbTaxonId: txn:53296
+              canonicalPath: content/nodes/PBDB%3A53296
+            - name: Rodhocetus balochistanensis
+              pbdbTaxonId: txn:53318
+              canonicalPath: content/nodes/PBDB%3A53318
+            - name: Artiocetus clavis
+              pbdbTaxonId: txn:53317
+              canonicalPath: content/nodes/PBDB%3A53317
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-eca5c87e99
+        part: body
+      en:
+        page: en
+        section: s-d4863824f6
+        part: body
+  atlas-node:
+    name: Protocetidae
+    commonName: Protocetids
+    commonNameZh: 原鲸科
+    rank: family
+    taxonId: txn:42934
+    firstAppearance: 47
+    lastAppearance: 37.7
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:protocetidae
+      claimKind: scientific
+      claimType: taxonomy
+      statement: The synthesis recognizes Protocetidae as a diverse, geographically dispersed assemblage of middle Eocene whales with varying amphibious adaptations; it is not reduced to one ancestor, habitat or uninterrupted global range.
+      confidence: medium
+      confidenceRationale: The review’s family treatment integrates multiple taxa and localities, so the statement preserves diversity and sampling boundaries.
+      referenceLinks:
+        - relation: supports
+          referenceId: uhen-2010-whale-origins
+          pages: 202–207
+          quoteLocator: Protocetidae diversity, distribution and locomotor discussion
+    - subjectId: taxon:protocetidae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: protocetidae is displayed at 47–37.7 Ma only as the review's diverse protocetid sample, not uninterrupted global occupancy or exact endpoints. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: protocetidae uses Uhen, M.D. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Middle Eocene protocetid sample synthesized by Uhen; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: uhen-2010-whale-origins
+          pages: 202–207
+          quoteLocator: Protocetidae diversity, distribution and locomotor discussion
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 综述的科级处理整合多个类群与地点，因此表述保留多样性和取样边界。
+    - protocetidae 采用 Uhen, M.D.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Middle Eocene protocetid sample synthesized by Uhen；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 综述把原鲸科识别为一个多样、地理分散、具有不同两栖适应的中始新世鲸类组合；它不被简化为单一祖先、单一栖息地或连续全球范围。
+    - protocetidae 仅以 47–37.7 Ma 展示为综述所采样的多样原鲸科记录，而非连续全球占据或精确端点。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: protocetidae
+      rangeKind: global-composite
+      taxonomicConcept: protocetidae — source-bounded sample window
+      geographicScope: Middle Eocene protocetid sample synthesized by Uhen
+      olderMa: 47
+      youngerMa: 37.7
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the review's diverse protocetid sample, not uninterrupted global occupancy or exact endpoints; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:protocetidae:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: uhen-2010-whale-origins
+          locator: 202–207; Protocetidae diversity, distribution and locomotor discussion
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized

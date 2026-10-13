@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylus caramaschii
+  displayName: Crossodactylus caramaschii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BHMB
+  sourceIndexes:
+    - name:
+        en: Crossodactylus caramaschii
+        zh: Crossodactylus caramaschii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BHMB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/225
+            queryName: Crossodactylus caramaschii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e2b1d29283
+      - s-f441939712
+      - s-9b6835f02e
+      - s-f1d00c4ffe
+      - s-71c8ff203b
+      - s-71272380e5
+      - s-86d5d9176e
+      - s-51ee348456
+      - s-0dcd2b388e
+      - s-c07266a1fe
+      - s-72dfc3cd94
+      - s-4e62b77216
+      - s-b505dc881e
+      - s-ee3fce92c8
+      - s-5ad2f67086
+      - s-808817aa08
+      - s-3cbd32912b
+      - s-bf59be8c5c
+      - s-48c6bf7f36
+      - s-baba26bdc0
+      - s-58588e7f39
+      - s-7a0943b831
+      - s-2710fc0d0e
+      - s-4700a12690
+      - s-719f898446
+    zh:
+      - s-6b119ae2be
+      - s-9892b262cb
+      - s-53fc4aeda3
+      - s-8eaf36747c
+      - s-38bce095ca
+      - s-b1860411a1
+      - s-a9b4cbf0b1
+      - s-74adf2fc7d
+      - s-7a13887797
+      - s-ae61619c0d
+      - s-26cc30da87
+      - s-a0480945bb
+      - s-a6e709422f
+      - s-4a39ee30b1
+      - s-fa3a6a9470
+      - s-61008ab3aa
+      - s-4601773904
+      - s-fd8693cea1
+      - s-0d8df0d064
+      - s-e930fa30cf
+      - s-1e6611efa8
+      - s-f4676b7754
+      - s-974a178a8f
+      - s-377f9b60f2
+      - s-6ea6f06620

@@ -1,0 +1,3 @@
+## ## Narrow leaflets, red petals and winged fruit {#s-ee4abd2449}
+The Brazilian Flora 2020 entry records three to nine leaflets, broadly elliptic to ovate, with commonly toothed margins and tips ranging from acute to strongly tapered. The leaflets and rachis are hairless or sometimes becoming hairless, and the leaflet pulvini are under 6 mm long. Erect panicles bear linear to lance-shaped bracteoles; their axis and calyx have dark-brown silky hairs. The flowers are under 12 mm long, with reddish to deep-red petals, a fiddle-shaped standard, and oblong wings and keel. The fruit has lateral wings beside the seed-bearing region. A habitat field in the same dataset says “terrestrial” but gives no locality or more specific habitat description.
+

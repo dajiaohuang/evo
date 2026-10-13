@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana huanrensis
+  displayName: Rana huanrensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDSM
+  sourceIndexes:
+    - name:
+        en: Rana huanrensis
+        zh: Rana huanrensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDSM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/55
+            queryName: Rana huanrensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/121
+            queryName: Rana huanrenensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d2b8ba9638
+      - s-08d0cdbf9e
+      - s-d36963b907
+      - s-2adf9b67b3
+      - s-8677b2c71c
+      - s-b9c8de0662
+      - s-bd5eb6e7df
+      - s-b03f626d73
+      - s-b2949aa078
+      - s-7b3b30f900
+    zh:
+      - s-5091edc73f
+      - s-409f933cba
+      - s-1db2423641
+      - s-8355701f85
+      - s-9a88e636ea
+      - s-835d7eeb20
+      - s-9d0b525dcb
+      - s-c10f8b4335
+      - s-f00ec18adc
+      - s-c31978c897

@@ -1,0 +1,258 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Litoria meiriana
+    name:
+      en: Litoria meiriana
+      zh: Litoria meiriana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-a990f1b8e6
+            part: body
+          zh:
+            page: zh
+            section: s-bf1fd8d3c4
+            part: body
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "4548"
+        text:
+          en:
+            page: en
+            section: s-ecbf1ca29a
+            part: body
+          zh:
+            page: zh
+            section: s-2544aaa2c7
+            part: body
+        sourceRowNumber: 4111
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 4111; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 4111
+        values:
+          - "4548"
+          - Pietro Pollo
+          - Tracy_and_Christian_2005
+          - Preferred Temperature Correlates with Evaporative Water Loss in Hylid Frogs from Northern Australia
+          - "2005"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1086/432151
+          - English
+          - Litoria_meiriana_pop1
+          - Litoria_meiriana_pop1_PBT_co1
+          - NA
+          - Anura
+          - Hylidae
+          - Litoria meiriana
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-13.35355288"
+          - "131.1295699"
+          - "118"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were estimated from Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "26"
+          - NA
+          - NA
+          - Unsure if they actually acclimated the individuals as they were collected and maintained overnight in a 26°C room
+          - adults
+          - NA
+          - NA
+          - "0.96"
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - body
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - "2"
+          - linear
+          - "8"
+          - "50"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "27"
+          - "0.7"
+          - "10"
+          - se
+          - NA
+    originalStudyCitations:
+      - ref: Tracy_and_Christian_2005
+        title: Preferred Temperature Correlates with Evaporative Water Loss in Hylid Frogs from Northern Australia
+        doi: 10.1086/432151
+        year: "2005"
+    selectedEstimateRowNumbers:
+      - 4111
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

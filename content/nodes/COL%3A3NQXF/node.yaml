@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius picturatus
+  displayName: Hyperolius picturatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQXF
+  sourceIndexes:
+    - name:
+        en: Hyperolius picturatus
+        zh: Hyperolius picturatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQXF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/313
+            queryName: Hyperolius picturatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/278
+            queryName: Rappia picturata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/279
+            queryName: Hyperolius festivus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/41
+            queryName: Hyperolius viridiflavus picturatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0990e44b26
+      - s-b3b7e849eb
+      - s-229d29c3b5
+      - s-27685e8699
+      - s-2758cf9a07
+      - s-ce5b4e9d87
+      - s-439a3c8dff
+      - s-d22ba717bc
+      - s-6a34994097
+    zh:
+      - s-677236884a
+      - s-522b88d878
+      - s-500f47c74b
+      - s-d1f6ce8bec
+      - s-604cc72063
+      - s-393120fe62
+      - s-e54cfd73d7
+      - s-e1894a4f28
+      - s-5fd4a9f3da

@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Miraglossum superbum Kupicha
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 43LN3, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 43LN3; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/43LN3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 43LN3
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001104778-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 43LN3 / WFO wfo-0001104778
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_4678_0
+        referenceId: ref-a8fe14f6-7d27-8905-a035-66f14a37ef6a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Miraglossum superbum Kupicha account; archive rows 67911 (Morphology), 67189 (Habitat), 66174 (Diagnostic), source identifier 4678.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Stems 25-50 cm tall, with lines of crispate pubescence. Leaves crowded and irregularly inserted on lower, non-flowering part of stem, verticillate and widely spaced in the inflorescence; internode below inflorescence 1-4 cm long; leaves at flowering nodes mostly small and inconspicuous. Leaf-lamina 15-40 x 0.5-2 mm, subsessile, glabrous or sparsely pilose. Flowers 3-5 in a terminal umbel and sometimes also in fascicles at 1 or 2 nodes below; pedicels up to 13 mm long. Calyx segments 4-6 x 1.5-2 mm, dorsally pilose, ventrally pubescent in upper half. Corolla lobes 6-9 x 4 mm, convex and reflexed at anthesis, dull green streaked dull purple; dorsal surface glabrous. Corona of complex form, 6-7 mm high; each lobe erect, quadrate below and cruciform above, bearing on its ventral surface a triangular fin flanked by two slender curled appendages; these lobes alternating with a small cucullate lobe that rests over the lower end of the anther fissure; corona lobes with yellow-green shoulders, dark maroon or brown cross and brownish purple inner appendages. Anther appendages white, papery, conspicuous, c. 2 mm long; corpusculum 0.45-0.5 mm long, sagittate because of the pronounced lateral flanges; pollinium 0.68-0.78 mm long. Gynostegium white. Fruit unknown.
+            sourceIds:
+              - sanbi_4678_0
+            locator: "SANBI/WFO archive Morphology row 67911; source 4678.0; publication: Kupicha, FK. 1984. Studies on African Asclepiadaceae. Kew Bull. 38(4): 599 - 672. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Flowers with conspicuous erect cruciform corona lobes.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_4678_0
+            locator: "SANBI/WFO archive Diagnostic row 66174; source 4678.0; publication: Kupicha, FK. 1984. Studies on African Asclepiadaceae. Kew Bull. 38(4): 599 - 672. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In grassland on black valley soil.
+            sourceIds:
+              - sanbi_4678_0
+            locator: "SANBI/WFO archive Habitat row 67189; source 4678.0; publication: Kupicha, FK. 1984. Studies on African Asclepiadaceae. Kew Bull. 38(4): 599 - 672. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes
+  displayName: Hylodes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/523W
+  sourceIndexes:
+    - name:
+        en: Hylodes
+        zh: Hylodes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 523W
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/442
+            queryName: Hylodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 260
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b8ad57f19
+      - s-f68cd143d7
+      - s-52a6be23a5
+      - s-0f9b1f8756
+      - s-4e978fc957
+      - s-6d4b1f5526
+      - s-7aae17c4e3
+      - s-837518bf68
+      - s-efc1172b58
+      - s-8c3f5bdd9b
+      - s-748f751f69
+      - s-222ae14657
+      - s-c55740190c
+      - s-3f6c140ef5
+      - s-10d760fbc0
+      - s-d8d831044e
+      - s-3f9a137dc9
+      - s-37a4ec76aa
+      - s-d4d456ded1
+      - s-e2a61d22ca
+      - s-f24a99ca4e
+      - s-c1311c3020
+      - s-39116b0ec0
+      - s-910ab04395
+      - s-944485d14e
+      - s-5c3550ea4a
+      - s-22fd064519
+      - s-cf507b9167
+      - s-32c6adc583
+      - s-b7960b5f6d
+    zh:
+      - s-56da98fd4a
+      - s-7468b91581
+      - s-4d5353511c
+      - s-d143912c3f
+      - s-593026850f
+      - s-246a2fe0e2
+      - s-0de1248017
+      - s-168bea8171
+      - s-29671500ea
+      - s-76fe2daf3a
+      - s-eea07b12ed
+      - s-01bfc2b75e
+      - s-e91aa4c097
+      - s-6647fcaf7a
+      - s-5ee32cae43
+      - s-d8a23ed670
+      - s-6765fd5df3
+      - s-5fadc36adc
+      - s-83f905481a
+      - s-0bc1e1f603
+      - s-696438610b
+      - s-31f0ff636f
+      - s-389dcc10d0
+      - s-829aa74fa0
+      - s-f812e1c30d
+      - s-ee84c51935
+      - s-916ed62533
+      - s-6c53b77b2f
+      - s-de14d0310d
+      - s-a4f2834bcb

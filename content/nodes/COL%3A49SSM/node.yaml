@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oophaga histrionica
+  displayName: Oophaga histrionica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49SSM
+  sourceIndexes:
+    - name:
+        en: Oophaga histrionica
+        zh: Oophaga histrionica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 49SSM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/170
+            queryName: Oophaga histrionica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/183
+            queryName: Dendrobates histrionicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 44
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/479
+            queryName: Dendrobates tinctorius cocteani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/480
+            queryName: Dendrobates tinctorius wittei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/481
+            queryName: Dendrobates tinctorius histrionicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/482
+            queryName: Dendrobates histrionicus concluens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/483
+            queryName: Dendrobates histrionicus confluens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/484
+            queryName: Dendrobates tinctorius confluens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/494
+            queryName: Dendrobates tinctorius cocteaui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f1e9e7d671
+      - s-b9b8e57563
+      - s-563c206dba
+      - s-14e36c4399
+      - s-f071d681af
+      - s-a28873f765
+      - s-808e6e9f12
+      - s-7722c80d8f
+      - s-0bc3088018
+      - s-51e4795487
+      - s-061e4b16b1
+      - s-1140bdd72c
+    zh:
+      - s-47672f712d
+      - s-99ac80ed03
+      - s-1a140814af
+      - s-fe5dfb98f2
+      - s-78d47be4b2
+      - s-6cef68d161
+      - s-6d675ff5ab
+      - s-63307e9126
+      - s-2121bae27a
+      - s-d3ec2400d8
+      - s-210d46e157
+      - s-96843adfe6

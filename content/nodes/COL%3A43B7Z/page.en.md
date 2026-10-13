@@ -1,0 +1,3 @@
+## *Mikania decumbens*: stipules and arrow-shaped leaf bases {#s-f02d612921}
+The Brazilian Flora 2020 regional field records decumbent, hairless, ridged branches with solid pith. Opposite, triangular leaves have toothed margins and arrow- or spear-shaped bases. A pair of interpetiolar stipules—small appendages between the opposite leaf stalks—exceeds 2 mm. Three main veins arise at the leaf base. Corymb-like clusters carry stalked heads; the field describes their corolla lobes as triangular, pointed, and glandular, and the fruitlets as glandular. These fields list morphology in a regional dataset.
+

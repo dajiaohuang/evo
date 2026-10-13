@@ -1,0 +1,9 @@
+## 来源中的研究概念 {#s-c609460b9c}
+AmphiBIO v1 在来源第 Anf4684 行记录 Strongylopus kilimanjaro，归在 Strongylopus 属、Pyxicephalidae 科和无尾目（Anura）之下。该汇编采用 Amphibian Species of the World（Frost 2011）。这是存档行使用的名称与分组；尚未将其与当前 COL26.8 物种概念对应起来。
+
+## 汇编的成体尺寸 {#s-e98512ef7b}
+AmphiBIO v1 第 Anf4684 行记录：最大成体体长（Body_size_mm）：39.2 mm。对 Anura（无尾目）而言，体长指吻肛长，即从吻端到泄殖孔的距离。这些是文献汇编的最大值，不是典型值，也不代表每个个体都测得该值。
+
+## 发育方式 {#s-c31bd5a075}
+Anf4684 行的发育类别字段为：Lar = 1（幼体阶段；有标记）。这些字段记录类别标记；本身不说明亲代照料、繁殖地点或季节时序。
+

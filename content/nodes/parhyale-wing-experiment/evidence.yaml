@@ -1,0 +1,74 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Parhyale wing-homology experiment
+    commonName: Crustacean leg-patterning knockouts
+    commonNameZh: 甲壳类附肢图式基因敲除实验
+    rank: research dataset
+    taxonId: ""
+    firstAppearance: 0
+    lastAppearance: 0
+    extinct: false
+    entityKind: navigation-group
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:parhyale-wing-experiment
+      claimKind: scientific
+      claimType: fossil-range
+      statement: This entry represents modern Parhyale hawaiensis leg-patterning knockout experiments compared with published insect phenotypes. Its 0 Ma marker denotes living experimental material, not a fossil occurrence, the age of insect wing origins or the species's complete temporal range.
+      confidence: medium
+      confidenceRationale: "Crustacean leg-patterning knockouts: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary."
+      referenceLinks:
+        - referenceId: bruce-patel-2020-wing-homology
+          relation: supports
+          pages: 1703–1712
+          figure: Figures 1–6; Extended Data Figures 1–8
+          quoteLocator: CRISPR phenotypes; segment alignment; wing-origin model
+  claim-rationales.zh:
+    - 甲壳类附肢图式基因敲除实验：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+  claim-statements.zh:
+    - 本条目记录现生 Parhyale hawaiensis 的附肢图式基因敲除实验，以及与已发表昆虫表型的比较。0 Ma 标记表示现生实验材料，不是化石产出、昆虫翅起源年代或该物种的完整生存延限。
+  ranges:
+    - entityId: parhyale-wing-experiment
+      rangeKind: global-composite
+      taxonomicConcept: Parhyale wing-homology gene-editing dataset
+      geographicScope: Living laboratory specimens and comparative insect material
+      olderMa: 0
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Present-day experimental marker, not a fossil occurrence or historical event date.
+      evidenceBasis: CRISPR knockouts and comparative expression map proximal leg and body-wall structures.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:event:parhyale-wing-homology-knockout
+      referenceLocators:
+        - referenceId: bruce-patel-2020-wing-homology
+          locator: 1703–1712; Figures 1–6; Extended Data
+  catalogue-profile:
+    sections:
+      - topic: experiment
+        title:
+          en:
+            page: en
+            section: s-519644ef8a
+            part: title
+          zh:
+            page: zh
+            section: s-8d83310c2d
+            part: title
+        sourceIds:
+          - bruce-patel-2020-wing-homology
+        text:
+          en:
+            page: en
+            section: s-519644ef8a
+            part: body
+          zh:
+            page: zh
+            section: s-8d83310c2d
+            part: body

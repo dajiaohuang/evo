@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-04d3bdf81c
+      part: title
+    titleZh:
+      page: zh
+      section: s-cc1b9e60e4
+      part: title
+    category: innovation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Thirty-six-specimen carnivoran μCT dataset
+    clades:
+      - Canidae
+      - Hesperocyon
+    summary:
+      page: en
+      section: s-04d3bdf81c
+      part: body
+    summaryZh:
+      page: zh
+      section: s-cc1b9e60e4
+      part: body
+    claimIds:
+      - claim:event:hesperocyon-bony-labyrinth-model
+    evidenceItems:
+      - statement: The 36-specimen sample includes Field Museum Hesperocyon gregarius and Aelurodon skulls, segmented as left bony labyrinths and compared by PCA, CVA and MANOVA.
+        relation: supports
+        claimIds:
+          - claim:event:hesperocyon-bony-labyrinth-model
+        referenceLinks:
+          - referenceId: schwab-2019-carnivoran-labyrinth
+            relation: supports
+            pages: Article 70
+            figure: Figures 1–4; Tables 1–2; Supplementary Datasets 1–2
+            quoteLocator: Morphometric sample; Multivariate analyses; Extinct hunting-style estimates
+    uncertaintyItems:
+      - statement: The reported 82.05% classification and pounce assignment are proxy-model results conditioned on living categories, scaling and phylogeny; they do not preserve an actual hunt or social behaviour.
+        relation: contextualizes
+        claimIds:
+          - claim:event:hesperocyon-bony-labyrinth-model
+        referenceLinks:
+          - referenceId: schwab-2019-carnivoran-labyrinth
+            relation: supports
+            pages: Article 70
+            figure: Figures 1–4; Tables 1–2; Supplementary Datasets 1–2
+            quoteLocator: Morphometric sample; Multivariate analyses; Extinct hunting-style estimates
+  claims:
+    - subjectId: event:hesperocyon-bony-labyrinth-model
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: A 36-specimen μCT and morphometric dataset includes a Hesperocyon gregarius bony labyrinth and assigns it to a pounce category, but the assignment is a comparative proxy with 82.05% overall classification accuracy rather than observed behaviour.
+      confidence: medium
+      confidenceRationale: Hesperocyon bony-labyrinth hunting model uses explicit named specimens or disclosed datasets, but placement, function or ecology depends on a sampled matrix or comparative model and is kept separate from observation.
+      referenceLinks:
+        - referenceId: schwab-2019-carnivoran-labyrinth
+          relation: supports
+          pages: Article 70
+          figure: Figures 1–4; Tables 1–2; Supplementary Datasets 1–2
+          quoteLocator: Morphometric sample; Multivariate analyses; Extinct hunting-style estimates
+  claim-rationales.zh:
+    - “黄昏犬内耳狩猎模型”的具名标本或已公开数据集是明确的，但位置、功能或生态依赖采样矩阵或比较模型，且已与直接观察分开。
+  claim-statements.zh:
+    - 一套含 36 件标本的微型 CT 与形态测量数据包含 Hesperocyon gregarius 骨迷路，并将其归为扑击型；但这一归类是总体准确率为 82.05% 的比较代理，而非观察到的行为。

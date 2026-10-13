@@ -1,0 +1,279 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nomascus Miller, 1933
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: 黑冠长臂猿属
+      en: Crested gibbons
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-5fb6f302a7
+            part: body
+          en:
+            page: en
+            section: s-523a8e651c
+            part: body
+        sourceIds:
+          - taxonomy
+          - annamensis2024chainsaw
+          - concolor2010social
+          - gabriellae2020ranging
+          - hainanus2023habitat
+          - siki2020truongson
+          - wearn2024caovitgibbon
+          - hradec2026CaptiveGibbonVocalizations
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-642145eb40
+            part: body
+          en:
+            page: en
+            section: s-52a828079b
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-01620504b0
+            part: body
+          en:
+            page: en
+            section: s-9d31f80f84
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Nomascus Miller, 1933
+            zh: 生命名录 COL26.8 — Nomascus Miller，1933
+          url: https://www.checklistbank.org/dataset/316115/taxon/64QQ
+          scope:
+            en: Pinned genus identity and accepted parent classification; the reading path does not revise taxonomy.
+            zh: 固定的属级身份和接受分类父链；本阅读路径不修订分类。
+      - id: annamensis2024chainsaw
+        referenceId: ref-3fff9c86-e36d-8f20-a891-ead287942c45
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: One habituated group during two dry seasons in Cambodia; group-level behavioural observations.
+            zh: 柬埔寨两个旱季中的一群习惯化个体；群体层面的行为观察。
+      - id: concolor2010social
+        referenceId: ref-157541f2-c9e0-8643-a59e-881d389c6622
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Three groups at one Yunnan site, including nine months of detailed observation of one habituated group.
+            zh: 云南一处地点的三群个体，其中一群习惯化个体接受九个月的详细观察。
+      - id: gabriellae2020ranging
+        referenceId: ref-4e72aba3-0f3f-864a-a154-8813818e0f94
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: One three-member group followed for a year in southern Vietnam.
+            zh: 越南南部一群三只个体的一年跟踪观察。
+      - id: hainanus2023habitat
+        referenceId: ref-7d91895d-3869-85e8-a9a0-dc049e1f724c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Five Hainan gibbon groups and modelled habitat conditions at Bawangling; study period and estimates are stated on the species page.
+            zh: 霸王岭海南长臂猿五群及模型化栖息地条件；研究时段和估计范围见种级页面。
+      - id: siki2020truongson
+        referenceId: ref-5eca6488-67e1-8a79-a291-9428737e965e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Surveys in four areas in 2018–2019 combined with a 2016 survey; the estimates concern one Vietnamese landscape.
+            zh: 2018—2019 年四处调查与 2016 年调查合并；估计限于越南一处景观。
+      - id: wearn2024caovitgibbon
+        referenceId: ref-a3c63269-0cd3-86ab-a236-a3fba0a7de6a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: One transboundary remnant forest block in adjacent Vietnamese and Chinese reserves; not the former range.
+            zh: 越南与中国相邻保护区的一片跨境残存森林；不涵盖历史分布区。
+      - id: hradec2026CaptiveGibbonVocalizations
+        referenceId: ref-e4705dd8-e3b1-8cd9-afef-34855debe548
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Captive recordings; the existing N. leucogenys account uses recordings from nine individuals and does not describe a wild repertoire.
+            zh: 圈养录音；既有 N. leucogenys 页面仅采用九只个体的录音，不能代表野外叫声谱。
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 4 authored same-name records placed under Nomascus by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 5 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 3
+            foraging: 5
+            activity: 5
+          readingTargets:
+            - name: Nomascus concolor
+              colId: 47NQL
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A47NQL
+            - name: Nomascus siki
+              colId: 47NQR
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A47NQR
+            - name: Nomascus gabriellae
+              colId: 47NQM
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A47NQM
+            - name: Nomascus leucogenys
+              colId: 47NQP
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A47NQP
+            - name: Nomascus hainanus
+              colId: 47NQN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A47NQN
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-2233982ee1
+        part: body
+      zh:
+        page: zh
+        section: s-f4e8d5a91d
+        part: body

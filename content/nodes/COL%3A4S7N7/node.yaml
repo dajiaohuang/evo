@@ -1,0 +1,146 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella granulosa
+  displayName: Rhinella granulosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7N7
+  sourceIndexes:
+    - name:
+        en: Rhinella granulosa
+        zh: Rhinella granulosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7N7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/323
+            queryName: Rhinella granulosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 67
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/388
+            queryName: Bufo granulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/151
+            queryName: Bufo globulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/61
+            queryName: Chaunus marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/62
+            queryName: Chaunus globulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/63
+            queryName: Bufo nasutulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/64
+            queryName: Phrynoidis granulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/65
+            queryName: Chaunus granulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/66
+            queryName: Rhinella granulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/84
+            queryName: Bufo granulosus granulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-44d043bb6c
+      - s-45a4e0b4b3
+      - s-cec18918cd
+      - s-e0b218973b
+      - s-0d35848361
+      - s-5a62116faa
+      - s-3026c0dcb5
+      - s-1ee3d49648
+      - s-c82326a2b4
+      - s-883840c614
+      - s-9d33e79a74
+      - s-4c165fa43b
+      - s-2721e8deb4
+      - s-b9f6a5517b
+      - s-d36ac7e5c2
+      - s-1d64183bac
+      - s-b28d9caef5
+      - s-955c73e6aa
+      - s-0532dc9141
+      - s-dff061286e
+      - s-19b9c944aa
+      - s-2d7b581393
+      - s-db5c1ca278
+      - s-ff843cf370
+      - s-b073d3046c
+      - s-2171920338
+    zh:
+      - s-7a4546699f
+      - s-f13118e042
+      - s-2883b4aaff
+      - s-2a868ca428
+      - s-0878076726
+      - s-89fe60f759
+      - s-91c95e89b3
+      - s-ae1cdc0e9f
+      - s-05869485ef
+      - s-06a1eb2065
+      - s-cb3312b763
+      - s-d880715b4e
+      - s-3bec03482b
+      - s-cf6b58512b
+      - s-05926409e9
+      - s-f29caa585b
+      - s-978e95e3e3
+      - s-50064ce4fa
+      - s-5d34a03c18
+      - s-48349e1aff
+      - s-1e3794a27e
+      - s-76026c1ba0
+      - s-e35bc0c84f
+      - s-f38bd64fe6
+      - s-9ad07e1864
+      - s-53dac09b3b

@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendropsophus bilobatus Ferrão, Moravec, Hanken & Lima, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dendropsophus bilobatus
+      zh: Dendropsophus bilobatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9c48fafd7b
+            part: title
+          zh:
+            page: zh
+            section: s-986839d9b9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9c48fafd7b
+            part: body
+          zh:
+            page: zh
+            section: s-986839d9b9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2fc81fbc78
+            part: title
+          zh:
+            page: zh
+            section: s-6698041df5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2fc81fbc78
+            part: body
+          zh:
+            page: zh
+            section: s-6698041df5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-ead2ac3ea3
+            part: title
+          zh:
+            page: zh
+            section: s-e74705af09
+            part: title
+        sourceIds:
+          - primary-pmc7316805-n9x49
+        text:
+          en:
+            page: en
+            section: s-ead2ac3ea3
+            part: body
+          zh:
+            page: zh
+            section: s-e74705af09
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-7dcd5be0e3
+            part: title
+          zh:
+            page: zh
+            section: s-49f2c5e822
+            part: title
+        sourceIds:
+          - primary-pmc7316805-n9x49
+        text:
+          en:
+            page: en
+            section: s-7dcd5be0e3
+            part: body
+          zh:
+            page: zh
+            section: s-49f2c5e822
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendropsophus bilobatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/N9X49
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7316805-n9x49
+        referenceId: ref-59232dcd-6b94-4402-abed-bed3001c86bb
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dendropsophus bilobatus: Distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5615c8406f
+        part: body
+      zh:
+        page: zh
+        section: s-e337e74d27
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.942.51864
+        referenceId: ref-59232dcd-6b94-4402-abed-bed3001c86bb
+        sourceKey: primary-pmc7316805-n9x49
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7316805/article.xml
+        sourceConcept: Dendropsophus bilobatus
+        evidenceRead: "Dendropsophus bilobatus: Distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: The upper Madeira east-bank records
+              zh: 马德拉河上游东岸记录
+            referenceId: ref-59232dcd-6b94-4402-abed-bed3001c86bb
+            sourceKey: primary-pmc7316805-n9x49
+            locator: "Dendropsophus bilobatus: Distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e8f008013f
+                part: body
+              zh:
+                page: zh
+                section: s-e672167798
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Wet-season choruses with unresolved endpoints
+              zh: 湿季合鸣及尚不明确的终点
+            referenceId: ref-59232dcd-6b94-4402-abed-bed3001c86bb
+            sourceKey: primary-pmc7316805-n9x49
+            locator: "Dendropsophus bilobatus: Distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d357f2b319
+                part: body
+              zh:
+                page: zh
+                section: s-bfc1a31479
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

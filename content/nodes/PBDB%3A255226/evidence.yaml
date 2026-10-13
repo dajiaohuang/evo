@@ -1,0 +1,323 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Micropholis stowi
+    rank: species
+    sourceTaxonId: txn:255226
+    name:
+      en: Micropholis stowi
+      zh: Micropholis stowi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-6fd5f1ce18
+            part: body
+          zh:
+            page: zh
+            section: s-048c5f1114
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-3f7755e7cd
+            part: body
+          zh:
+            page: zh
+            section: s-44386eda04
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-7ef8431a3f
+            part: body
+          zh:
+            page: zh
+            section: s-507c46f77e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:255226; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: T. H. Huxley. 1859. On some Amphibian and Reptilian Remains from South Africa and Australia. Quarterly Journal of the Geological Society 15:642-649
+    occurrenceEvidence:
+      - occurrenceId: occ:1134116
+        collectionId: col:144320
+        acceptedTaxonId: txn:255226
+        identifiedName: Micropholis stowi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Eastern Cape
+          county: Graaff-Reinet
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1134117
+        collectionId: col:13043
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Eastern Cape
+          county: Chris Hani
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+      - occurrenceId: occ:1134118
+        collectionId: col:144321
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Eastern Cape
+          county: null
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1134119
+        collectionId: col:144322
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Eastern Cape
+          county: null
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1134120
+        collectionId: col:98602
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Free State
+          county: null
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+      - occurrenceId: occ:1134121
+        collectionId: col:144323
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Free State
+          county: Xhariep
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1134122
+        collectionId: col:105608
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Free State
+          county: null
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1134124
+        collectionId: col:144325
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Free State
+          county: Xhariep
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1134125
+        collectionId: col:144326
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Free State
+          county: Xhariep
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+      - occurrenceId: occ:1134126
+        collectionId: col:144327
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Free State
+          county: Xhariep
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1134127
+        collectionId: col:144328
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:46658
+        bibliography: R. R. Schoch and B. S. Rubidge. 2005. The amphibamid Micropholis from the Lystrosaurus Assemblage Zone of South Africa. Journal of Vertebrate Paleontology 25(3):502-522
+        locality:
+          countryCode: ZA
+          stateProvince: Free State
+          county: Thabo Mofutsanyane
+        stratigraphy:
+          group: Beaufort
+          formation: Normandien
+          member: Harrismith
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1142024
+        collectionId: col:13043
+        acceptedTaxonId: txn:255226
+        identifiedTaxonId: txn:267010
+        identifiedName: Petrophryne granulata n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:47028
+        bibliography: D. M. S. Watson. 1913. Micropholis stowi, Huxley, a temnospondylus amphibian from South Africa. Geological Magazine (Decade V) 10:340-346
+        locality:
+          countryCode: ZA
+          stateProvince: Eastern Cape
+          county: Chris Hani
+        stratigraphy:
+          group: Beaufort
+          formation: Katberg
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+      - occurrenceId: occ:1561169
+        collectionId: col:220333
+        acceptedTaxonId: txn:255226
+        taxonomicDifference: null
+        referenceId: ref:76958
+        bibliography: B. M. Gee and C. A. Sidor. 2021. First record of the amphibamiform Micropholis stowi from the lower Fremouw Formation (Lower Triassic) of Antarctica. Journal of Vertebrate Paleontology 41(1):e1904251
+        locality:
+          countryCode: AQ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: Beacon
+          formation: Fremouw
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-7ef8431a3f
+            part: body
+          zh:
+            page: zh
+            section: s-507c46f77e
+            part: body
+        sourceIds: []

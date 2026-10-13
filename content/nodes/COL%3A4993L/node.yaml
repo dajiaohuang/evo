@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon melanodactyla
+  displayName: Ololygon melanodactyla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4993L
+  sourceIndexes:
+    - name:
+        en: Ololygon melanodactyla
+        zh: Ololygon melanodactyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4993L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/133
+            queryName: Ololygon melanodactyla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/498
+            queryName: Scinax melanodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b4ba921312
+      - s-5e7eb7d0b2
+      - s-c7d7a612b5
+      - s-cc493cbe86
+      - s-9836d973a0
+      - s-128efba971
+      - s-3c262b20f9
+      - s-398708a9ad
+      - s-7dd0dee8a1
+      - s-76fcf890d7
+      - s-07d2d2e50f
+      - s-33b59eabf3
+      - s-c41bb87045
+      - s-b6fa789a87
+    zh:
+      - s-bc12edda3d
+      - s-21e99ef2f2
+      - s-3480d6b26e
+      - s-b8ab8d7577
+      - s-8f0afef53e
+      - s-b1fdcb9ab8
+      - s-2437848593
+      - s-3fcffcd793
+      - s-096946a5af
+      - s-d92d1bbb82
+      - s-46bfd76c78
+      - s-d3c95f4397
+      - s-b3cfc6c0db
+      - s-2063b66058

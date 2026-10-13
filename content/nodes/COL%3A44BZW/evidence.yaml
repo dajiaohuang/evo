@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea albicuspa Goldblatt
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 44BZW, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000784921.
+      scope: Moraea as represented by COL26.8 usage 44BZW. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/44BZW
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 44BZW
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784921-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 44BZW / WFO wfo-0000784921
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18505_0
+        referenceId: ref-046a67f8-637b-8ccd-a00f-2649cf3ff0d4
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 91021 (Morphology), 92312 (Habitat), source identifier 18505.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 94255 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Perennial herb, geophyte, 0.3-0.5 m high; corm tunics of brown fibres; stem erect, simple or with 1 or 2 branches. Leaf 1, linear, canaliculate, usually dry and broken distally. Spathes herbaceous, apex dry, brown. Inflorescence with white to cream-coloured flowers; nectar guides yellow, with dark spots at edges; tepals unequal, outer 30-35 mm long, spreading horizontally, claw strongly ascending, inner 5-7 mm long, cusp-like, sometimes 3-lobed apically, acute. Stamens: filaments 7-8 mm long, united in cylindric column, free apically for ± 0.5 mm; anthers 5-6 mm long; pollen white. Ovary ± cylindric, ± 10 mm long; style branches up to 7 mm long; crests slender, up to 8 mm long. Flowering time Dec.-Mar."
+            textZh: Moraea albicuspa Goldblatt 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_18505_0
+            locator: Strelitzia 41(3); archive Morphology row 91021, source 18505.0
+            placeTimeScope: Regional species account published 2019; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: Readily distinguished by its relatively large white to pale yellow flowers, the outer tepals with narrow, deep yellow nectar guides, and the much reduced inner tepals, hair-like cusps just 5-7 mm long, usually entire, or obscurely 3-lobed at the apex. One of the taller species of eastern southern African species of sect. Vieusseuxia, it stands up to 600 mm high.
+            textZh: SANBI 条目提供了 Moraea albicuspa Goldblatt 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94255, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In moist montane grassland. Sub-Escarpment Grassland, Drakensberg Grassland.
+            textZh: SANBI 区域植物志将 Moraea albicuspa Goldblatt 的生境记为：In moist montane grassland. Sub-Escarpment Grassland, Drakensberg Grassland.
+            sourceIds:
+              - sanbi_18505_0
+            locator: Strelitzia 41(3); archive Habitat row 92312, source 18505.0
+            placeTimeScope: Regional species account published 2019; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

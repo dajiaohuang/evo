@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Callulops marmoratus
+  displayName: Callulops marmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X7CG
+  sourceIndexes:
+    - name:
+        en: Callulops marmoratus
+        zh: Callulops marmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X7CG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/126
+            queryName: Callulops marmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-350b9031f7
+      - s-e4dc236369
+      - s-5f67300f06
+      - s-4b92f7899f
+      - s-756aaece3a
+      - s-a0f13c8767
+      - s-f3763bb021
+      - s-cd1e20ae1b
+      - s-431e91386f
+      - s-23b4f4b3c0
+    zh:
+      - s-9f024ecce9
+      - s-6f02b47b82
+      - s-c160441ef6
+      - s-5bdba099c3
+      - s-547d57a4ea
+      - s-2fd63253a4
+      - s-8b221f8723
+      - s-4f4f5aac17
+      - s-31f7cd09a4
+      - s-22864560e9

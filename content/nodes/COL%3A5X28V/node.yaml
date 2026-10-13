@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus albolineatus
+  displayName: Brachycephalus albolineatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X28V
+  sourceIndexes:
+    - name:
+        en: Brachycephalus albolineatus
+        zh: Brachycephalus albolineatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X28V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/398
+            queryName: Brachycephalus albolineatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f850ea614b
+      - s-122394459c
+      - s-3797698598
+      - s-da9b82e5f5
+      - s-93506b0023
+      - s-16db6bac0b
+      - s-144d2af6ef
+      - s-3524d29e05
+      - s-a688900538
+      - s-cd728dcd27
+      - s-18f6639a7b
+      - s-21e092c9cf
+      - s-ce86bd5cf5
+    zh:
+      - s-481cbbb901
+      - s-8e366c3b86
+      - s-8630e60b98
+      - s-74a0f28fa4
+      - s-7663db56c7
+      - s-987ade8e6e
+      - s-3d8c518234
+      - s-f301b93238
+      - s-843d79bc6d
+      - s-07de5a9902
+      - s-7b249ca370
+      - s-1f70379216
+      - s-1cb8d102a8

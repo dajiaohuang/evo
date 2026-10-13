@@ -1,0 +1,526 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ambystoma rosaceum Taylor, 1941
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ambystoma rosaceum
+      zh: Ambystoma rosaceum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-db23b4b487
+            part: title
+          zh:
+            page: zh
+            section: s-4de1483d6f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-db23b4b487
+            part: body
+          zh:
+            page: zh
+            section: s-4de1483d6f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e8964f5d82
+            part: title
+          zh:
+            page: zh
+            section: s-7d40a8279e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e8964f5d82
+            part: body
+          zh:
+            page: zh
+            section: s-7d40a8279e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-17bdc8c30c
+            part: title
+          zh:
+            page: zh
+            section: s-81d2fee17b
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-17bdc8c30c
+            part: body
+          zh:
+            page: zh
+            section: s-81d2fee17b
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c30088c52d
+            part: title
+          zh:
+            page: zh
+            section: s-664407d9d9
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-c30088c52d
+            part: body
+          zh:
+            page: zh
+            section: s-664407d9d9
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-78d630845c
+            part: title
+          zh:
+            page: zh
+            section: s-ae725766a1
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-78d630845c
+            part: body
+          zh:
+            page: zh
+            section: s-ae725766a1
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-42c004dfc6
+            part: title
+          zh:
+            page: zh
+            section: s-13e558fec6
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-42c004dfc6
+            part: body
+          zh:
+            page: zh
+            section: s-13e558fec6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-dc96ff6028
+            part: title
+          zh:
+            page: zh
+            section: s-3e47d0f1ea
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-dc96ff6028
+            part: body
+          zh:
+            page: zh
+            section: s-3e47d0f1ea
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7b5333735e
+            part: title
+          zh:
+            page: zh
+            section: s-b0e4a31aaf
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-7b5333735e
+            part: body
+          zh:
+            page: zh
+            section: s-b0e4a31aaf
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-9089508321762e265057d7abf1e289ed
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-4adf8113be
+            part: title
+          zh:
+            page: zh
+            section: s-86070cf57d
+            part: title
+        sourceIds:
+          - primary-pmc12070909-cq54
+        text:
+          en:
+            page: en
+            section: s-4adf8113be
+            part: body
+          zh:
+            page: zh
+            section: s-86070cf57d
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-6df18a9096
+            part: title
+          zh:
+            page: zh
+            section: s-40e09f91a0
+            part: title
+        sourceIds:
+          - primary-pmc12070909-cq54
+        text:
+          en:
+            page: en
+            section: s-6df18a9096
+            part: body
+          zh:
+            page: zh
+            section: s-40e09f91a0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-59a913f230
+            part: title
+          zh:
+            page: zh
+            section: s-e631990bee
+            part: title
+        sourceIds:
+          - primary-pmc12070909-cq54
+        text:
+          en:
+            page: en
+            section: s-59a913f230
+            part: body
+          zh:
+            page: zh
+            section: s-e631990bee
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ambystoma rosaceum
+          url: https://www.checklistbank.org/dataset/316115/taxon/CQ54
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 586246, row 357751; Distribution.tsv rows 96832; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5997; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5992 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12070909-cq54
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ambystoma rosaceum: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-856369956d
+        part: body
+      zh:
+        page: zh
+        section: s-c3b3d7deec
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "586246"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=586246
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 357751
+        key: "586246"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "586246"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 96832
+            key: 586246|Middle America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-9089508321762e265057d7abf1e289ed
+      sourceRowId: Anf5997
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5997
+        bibliographyRowId: Anf5992
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Ambystoma texanum
+        candidateBibliographyRowIds:
+          - Anf5992
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-pmc12070909-cq54
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 source-labelled Ambystoma rosaceum Taylor, 1941; exact accepted-name candidate, not independently certified biological equivalence
+        evidenceRead: "Ambystoma rosaceum: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A source-listed native regional occurrence
+              zh: 来源名册列出的区域原生出现
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-cq54
+            locator: PMC12070909 XML Table1 body row 66 Ambystoma rosaceum Taylor, 1941; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-51cf2231b9
+                part: body
+              zh:
+                page: zh
+                section: s-5df2d8dba5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: Distribution categories are dated checklist assignments
+              zh: 分布类别是有日期的名册分配
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-cq54
+            locator: PMC12070909 XML Table1 row 66 Global/Total columns and caption; Methods2.1; Results3.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0aea166c65
+                part: body
+              zh:
+                page: zh
+                section: s-cb422108b2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Three conservation systems retain distinct dates and meanings
+              zh: 三套保育体系保留不同日期与含义
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-cq54
+            locator: PMC12070909 XML Table1 row 66 IUCN/EVS/Mx columns and caption; Methods2.2; Results3.4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0b21ed0ef9
+                part: body
+              zh:
+                page: zh
+                section: s-0ba9f03b76
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

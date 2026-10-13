@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudhymenochirus merlini
+  displayName: Pseudhymenochirus merlini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NNBR
+  sourceIndexes:
+    - name:
+        en: Pseudhymenochirus merlini
+        zh: Pseudhymenochirus merlini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NNBR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/265
+            queryName: Pseudhymenochirus merlini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 29
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/218
+            queryName: Hymenochirus merlini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c35ca617b1
+      - s-ed207b9ec9
+      - s-1c9e2667de
+      - s-8a652b2d47
+      - s-31d5c0281e
+      - s-2930344f35
+      - s-2efd1cfffd
+      - s-b18252eccb
+      - s-25fd807bd2
+      - s-a3eb7478f6
+      - s-aa1cd08912
+    zh:
+      - s-6254c576d6
+      - s-e9f6c419f2
+      - s-05af1bd3c4
+      - s-27a4fcf10d
+      - s-e706ba1e5e
+      - s-ef59aa2622
+      - s-7ad7a4cd06
+      - s-509a970aec
+      - s-57302630fd
+      - s-cde897f95f
+      - s-6c609f84f8

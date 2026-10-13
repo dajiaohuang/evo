@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinophrynidae
+  displayName: Rhinophrynidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FP5
+  sourceIndexes:
+    - name:
+        en: Rhinophrynidae
+        zh: Rhinophrynidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FP5
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/228
+            queryName: Rhinophrynidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 48
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-21c8e34d9d
+      - s-12b18c77ad
+      - s-4738f1a086
+      - s-96f7c3e6de
+      - s-f6a2d3020b
+      - s-abe2bcfd97
+    zh:
+      - s-c65eb8e6ca
+      - s-85b60856cd
+      - s-5de2695fdb
+      - s-60a5715aa2
+      - s-8f3e81db9e
+      - s-3d308aac56

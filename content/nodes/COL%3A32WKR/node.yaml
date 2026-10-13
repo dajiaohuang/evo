@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus faustoi
+  displayName: Cycloramphus faustoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WKR
+  sourceIndexes:
+    - name:
+        en: Cycloramphus faustoi
+        zh: Cycloramphus faustoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WKR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/277
+            queryName: Cycloramphus faustoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-04f14d8310
+      - s-46b038df79
+      - s-ff6052608f
+      - s-96b27072db
+      - s-3ef7766932
+      - s-5257336442
+      - s-dea2a4f802
+      - s-6c161c45ea
+      - s-a4c71fb769
+      - s-40f3c4113c
+      - s-92d9d22254
+    zh:
+      - s-3b6847de8d
+      - s-8cccc5bcb7
+      - s-bb2dfb5e31
+      - s-efe39e7031
+      - s-ce14e76cb9
+      - s-246a7debef
+      - s-42e4125869
+      - s-fb83c721a3
+      - s-1e509a6386
+      - s-806bc72a3d
+      - s-afe1bee2bb

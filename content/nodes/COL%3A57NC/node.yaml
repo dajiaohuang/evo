@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kassina
+  displayName: Kassina
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57NC
+  sourceIndexes:
+    - name:
+        en: Kassina
+        zh: Kassina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57NC
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/482
+            queryName: Kassina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 128
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8211bfd44f
+      - s-5fdb4506bc
+      - s-06f4ea5089
+      - s-3f705a51ac
+      - s-034d9b8c24
+      - s-f8ee787438
+      - s-858500f2a5
+      - s-30e67a01ad
+      - s-20717ffbe5
+      - s-e8314f990b
+      - s-68cf518ebc
+      - s-c3b3b8a0b0
+      - s-113c344ff4
+      - s-ea8dbddd21
+      - s-602a0f5693
+      - s-7922c121b0
+      - s-0a91757bff
+      - s-00f2750636
+    zh:
+      - s-b26933ea28
+      - s-3ba0a0dc03
+      - s-e3effdf942
+      - s-4106efc72e
+      - s-c0e0bf8b9b
+      - s-77a1319319
+      - s-a1c8cbd70f
+      - s-abcd97ad00
+      - s-423b7a9bd8
+      - s-b64308c52b
+      - s-f25baaa962
+      - s-9d795b68eb
+      - s-55f1b4472c
+      - s-089ef98a28
+      - s-2ec34e5e5b
+      - s-2cd78f26fe
+      - s-a9eaff6c9a
+      - s-e9ea6603cc

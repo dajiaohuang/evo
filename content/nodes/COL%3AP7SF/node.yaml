@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia disossea
+  displayName: Caecilia disossea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SF
+  sourceIndexes:
+    - name:
+        en: Caecilia disossea
+        zh: Caecilia disossea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/64
+            queryName: Caecilia disossea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-474c2f7da5
+      - s-54367e5924
+      - s-6d312937a7
+      - s-0ef330504f
+      - s-a81fa8de01
+      - s-7957d739ee
+      - s-d8bc4e9617
+      - s-8e79943c6b
+      - s-d5a7538944
+      - s-4ac21b5974
+      - s-284d204c5d
+    zh:
+      - s-743a214c39
+      - s-f1e60bd1c9
+      - s-b5fcff6eb5
+      - s-0560120be3
+      - s-32a97212f9
+      - s-197694b705
+      - s-60a734e208
+      - s-97896d65bd
+      - s-4cb687ad5d
+      - s-4cc51da5f9
+      - s-930f5d7750

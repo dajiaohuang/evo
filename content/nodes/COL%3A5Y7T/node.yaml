@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectophryne
+  displayName: Nectophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y7T
+  sourceIndexes:
+    - name:
+        en: Nectophryne
+        zh: Nectophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y7T
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/78
+            queryName: Nectophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba4b21a2c3
+      - s-a0d04cf3c7
+      - s-fdb1dcedda
+      - s-351efae5db
+      - s-70a9fc5ab0
+      - s-9a16c90f40
+      - s-93c0456842
+      - s-21da8515fe
+      - s-b3792478fc
+      - s-a037be15be
+      - s-f4edd2f4a0
+      - s-e7cd04617b
+      - s-ee6875907b
+      - s-edf228b382
+      - s-f152da0234
+      - s-d59244e0f8
+      - s-73005bf13a
+      - s-8df73452cf
+    zh:
+      - s-42a06d3f31
+      - s-3da9e2c033
+      - s-71468b220f
+      - s-08138f305d
+      - s-472ac7f03e
+      - s-4269bc1a78
+      - s-d39e8e6a4a
+      - s-1a86c51127
+      - s-0400410509
+      - s-0d3be2fccf
+      - s-8d33128ea8
+      - s-2557ba02c9
+      - s-33c3cf63e4
+      - s-98f7af1566
+      - s-d5f9f8842b
+      - s-eb68458028
+      - s-f13c044d6e
+      - s-5971f786ab

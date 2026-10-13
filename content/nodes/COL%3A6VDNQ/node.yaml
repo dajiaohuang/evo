@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus parvulus
+  displayName: Phrynobatrachus parvulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VDNQ
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus parvulus
+        zh: Phrynobatrachus parvulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VDNQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/159
+            queryName: Phrynobatrachus parvulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/243
+            queryName: Arthroleptis parvulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/244
+            queryName: Arthroleptis schoutedeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/245
+            queryName: Pararthroleptis schoutedeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/246
+            queryName: Phrynobatrachus schoutedeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/1
+            queryName: Phrynobatrachus ukingensis nyikae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dbe4e99d8f
+      - s-9c08004a49
+      - s-93d616dfe5
+      - s-d5711a26bc
+      - s-ef808be954
+      - s-fcc4af93f7
+      - s-08b4642f7b
+      - s-617af903ef
+      - s-725e0fe693
+      - s-13da65a1e4
+      - s-51ceb51d9f
+      - s-5b127405d2
+      - s-2752144cc6
+      - s-f0efbbbbd9
+      - s-452529c2ec
+      - s-ef41aa73b9
+    zh:
+      - s-e2cf641796
+      - s-efe56a4778
+      - s-234e24c965
+      - s-979b975bec
+      - s-1cba33c065
+      - s-a32dffd08d
+      - s-6840cf2b33
+      - s-ee20144b5f
+      - s-7bb00444c6
+      - s-b267b62b0c
+      - s-bb6d6b7e70
+      - s-66023475a4
+      - s-e3449f0be0
+      - s-043bca8065
+      - s-fe268ef5db
+      - s-969273e4c8

@@ -1,0 +1,34 @@
+## Start with the historical entries {#s-6a6925883e}
+The local PanTHERIA route for Herpestidae includes 12 usable data accounts. Start with Atilax paludinosus, Bdeogale crassicauda, Bdeogale nigripes, Crossarchus alexandri, Cynictis penicillata. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+
+## Compare body size and life history {#s-0f1cedc3c3}
+Among available consolidated adult-mass values in this batch, Helogale parvula records 281.83 g and Atilax paludinosus records 3600.16 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
+
+## Choose comparison pages by life-history fields {#s-3f94d9d577}
+This batch’s Herpestidae route includes 15 historical life-history accounts; start with Atilax paludinosus, Bdeogale crassicauda, Bdeogale jacksoni, Bdeogale nigripes, Crossarchus alexandri. More frequently represented fields include adult body mass (15 entries), offspring per litter or eggs per clutch (15 entries), longest lifespan record in the compilation (15 entries), age of dependence on food other than maternal milk (11 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
+
+## Compare food, feeding positions and activity periods {#s-1da017ea35}
+This batch’s Herpestidae route includes 24 historical entries; start with Atilax paludinosus, Bdeogale crassicauda, Bdeogale jacksoni, Bdeogale nigripes, Crossarchus platycephalus. Food-category weights are available in 23, foraging strata in 24, and mammalian activity periods in 24. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
+
+## Evidence limits {#s-605fdf0ec9}
+This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
+Herpestidae’s routes contain different samples: the two PanTHERIA sections list 12 and 6 accounts, the 2015 life-history sections list 15 and 8 entries, and EltonTraits has 24 entries with food-category weights in 23. These route counts are not interchangeable or a current family denominator. Each compiled median, longevity record and ecological code remains tied to its source definition and historical name.
+
+## Start with the historical entries {#s-5b00f263d5}
+The local PanTHERIA route for Herpestidae includes 6 usable data accounts. Start with [Galerella flavescens](Herpestinae/Galerella/Galerella_flavescens/page.en.md), [Bdeogale jacksoni](Herpestinae/Bdeogale/Bdeogale_jacksoni/page.en.md), [Crossarchus ansorgei](Mungotinae/Crossarchus/Crossarchus_ansorgei/page.en.md), [Helogale hirtula](Mungotinae/Helogale/Helogale_hirtula/page.en.md), [Mungos gambianus](Mungotinae/Mungos/Mungos_gambianus/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+
+## Compare body size and life history {#s-48f69fcc22}
+Among available consolidated adult-mass values in this batch, Helogale hirtula records 484.63 g and Bdeogale jacksoni records 2500 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
+
+## Limits of these historical data {#s-1d40518805}
+This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
+
+## Follow the life-history records {#s-d8dc40b4b9}
+This batch offers 8 historical life-history accounts under Herpestidae. Start with [Atilax paludinosus](Herpestinae/Atilax/Atilax_paludinosus/page.en.md), [Bdeogale crassicauda](Herpestinae/Bdeogale/Bdeogale_crassicauda/page.en.md), [Cynictis penicillata](Herpestinae/Cynictis/Cynictis_penicillata/page.en.md), [Helogale parvula](Mungotinae/Helogale/Helogale_parvula/page.en.md), [Herpestes ichneumon](Herpestinae/Herpestes/Herpestes_ichneumon/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+
+## Distinguish averages from records {#s-3402f935ba}
+Gestation is recorded in 6 accounts, female age at first reproduction in 5 accounts, and maximum lifespan in 4 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
+
+## Limits of these historical data {#s-8148c321b3}
+This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
+

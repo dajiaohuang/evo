@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Occidozyga semipalmata
+  displayName: Occidozyga semipalmata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48BST
+  sourceIndexes:
+    - name:
+        en: Occidozyga semipalmata
+        zh: Occidozyga semipalmata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48BST
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/470
+            queryName: Occidozyga semipalmata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/477
+            queryName: Occidozyga semipalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/363
+            queryName: Ooeidozyga semipalmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/171
+            queryName: Phrynoglossus semipalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/172
+            queryName: Phrynoglossus semipalmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6a3cb86259
+      - s-76f91b8b28
+      - s-e83fb22c22
+      - s-45b36c327a
+      - s-f28f2f1520
+      - s-e18e660dcd
+      - s-81fd522c26
+      - s-1dfd2bfb50
+      - s-5a5d51477a
+    zh:
+      - s-342ec85285
+      - s-6fe497a429
+      - s-d1c25f0bff
+      - s-daec2e727b
+      - s-2d7785d6ab
+      - s-0d29cc7da3
+      - s-7e3b77be7a
+      - s-e95787b82f
+      - s-bf281edbf6

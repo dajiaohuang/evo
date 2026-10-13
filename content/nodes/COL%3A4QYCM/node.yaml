@@ -1,0 +1,150 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pyxicephalus edulis
+  displayName: Pyxicephalus edulis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4QYCM
+  sourceIndexes:
+    - name:
+        en: Pyxicephalus edulis
+        zh: Pyxicephalus edulis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4QYCM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/18
+            queryName: Pyxicephalus edulis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 124
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/30
+            queryName: Maltzania bufonia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/31
+            queryName: Rana maltzanii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/32
+            queryName: Phrynopsis boulengerii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/33
+            queryName: Pyxicephalus flavigula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/34
+            queryName: Phrynopsis usambarae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/35
+            queryName: Rana flavicula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/36
+            queryName: Rana reiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/37
+            queryName: Pyxicephalus maltzani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/244
+            queryName: Rana adspersa edulis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/245
+            queryName: Rana adspersa maltzanii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/246
+            queryName: Pyxicephalus adspersus edulis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-48cf8b9ee2
+      - s-4acb12b48a
+      - s-d476124599
+      - s-dd4ee174f9
+      - s-68b9433d4e
+      - s-81739802a5
+      - s-fad5661ef1
+      - s-f1e4462ac1
+      - s-b9d6bcf22d
+      - s-7eb660cf6f
+      - s-11b62bc955
+      - s-4beb286f31
+      - s-d9474c7c08
+      - s-c2aaef9956
+      - s-ae49842f3a
+      - s-705170f044
+      - s-aca676cd7e
+      - s-20095a40f0
+      - s-339d3c9227
+      - s-7c41d8e930
+      - s-61e0bf508a
+      - s-41a41c9114
+    zh:
+      - s-8ae9216238
+      - s-81b64a50af
+      - s-10b1e96db8
+      - s-5ef5c2b7c4
+      - s-ee5322726a
+      - s-155e497411
+      - s-ec95b93edb
+      - s-0005e449b5
+      - s-0f670e61c8
+      - s-50d757478a
+      - s-b07499fb3e
+      - s-58b0e49063
+      - s-1e058af567
+      - s-babe8ba12c
+      - s-b870ca4f8e
+      - s-650c6df57e
+      - s-5e40ab2583
+      - s-c1a459535b
+      - s-364ca18546
+      - s-72015a99b4
+      - s-6ea8944035
+      - s-4271a2b32a

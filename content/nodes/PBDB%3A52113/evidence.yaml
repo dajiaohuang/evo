@@ -1,0 +1,215 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Teleoceras hicksi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Teleoceras hicksi
+      en: Teleoceras hicksi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-06d446663b
+            part: body
+          en:
+            page: en
+            section: s-1d5ce73903
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-edd27acd63
+            part: body
+          en:
+            page: en
+            section: s-9c58e3494f
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-920fa76fd5
+            part: body
+          en:
+            page: en
+            section: s-4cdcc79e0c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ee4521020d
+            part: body
+          en:
+            page: en
+            section: s-46f9e97385
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ad5b497fce
+            part: body
+          en:
+            page: en
+            section: s-e832286e48
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Teleoceras hicksi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=52113&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:52113; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:52113
+          selectedOccurrenceIds:
+            - occ:184552
+            - occ:186455
+            - occ:187185
+            - occ:187575
+            - occ:188206
+            - occ:188819
+            - occ:188873
+            - occ:188938
+            - occ:190039
+            - occ:190931
+            - occ:191113
+            - occ:191800
+            - occ:192017
+            - occ:1196371
+            - occ:1211186
+            - occ:1273677
+            - occ:1273679
+            - occ:1273680
+            - occ:1273681
+            - occ:1273682
+            - occ:1273683
+            - occ:1273684
+            - occ:1273685
+            - occ:1273686
+          selectedCollectionIds:
+            - col:18086
+            - col:18304
+            - col:18438
+            - col:18495
+            - col:18599
+            - col:18737
+            - col:18745
+            - col:18755
+            - col:18970
+            - col:19129
+            - col:19186
+            - col:19387
+            - col:19445
+            - col:18573
+            - col:20063
+            - col:18097
+            - col:169259
+            - col:18577
+            - col:45456
+            - col:19965
+            - col:18033
+            - col:18340
+            - col:18358
+            - col:18072
+          sourceReferenceIds:
+            - ref:3510
+            - ref:6328
+            - ref:6265
+            - ref:1561
+            - ref:6218
+            - ref:51758
+            - ref:2245
+            - ref:51726
+            - ref:3244
+            - ref:50333
+            - ref:51624
+          originalIdentificationMappings:
+            - occurrenceId: occ:184552
+              originalIdentifiedName: Teleoceras schultzi n. sp.
+              acceptedName: Teleoceras hicksi
+              difference: null
+            - occurrenceId: occ:187575
+              originalIdentifiedName: Teleoceras yumensis n. sp.
+              acceptedName: Teleoceras hicksi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5dc84d9074
+        part: body
+      en:
+        page: en
+        section: s-7941e0ad31
+        part: body

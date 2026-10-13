@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Elachistocleis skotogaster
+  displayName: Elachistocleis skotogaster
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38X3K
+  sourceIndexes:
+    - name:
+        en: Elachistocleis skotogaster
+        zh: Elachistocleis skotogaster
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38X3K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/140
+            queryName: Elachistocleis skotogaster
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fdcbe805bc
+      - s-7fb891e94b
+      - s-b0d7f87334
+      - s-914b0387ac
+      - s-9058bc0508
+      - s-7e3a4c2051
+      - s-5205879958
+      - s-2b1cfd445e
+      - s-d375510ea4
+      - s-d6fed14e00
+      - s-9132eb5061
+    zh:
+      - s-1da6b0f175
+      - s-8031e209c9
+      - s-9e9d66c948
+      - s-1a7bc1be19
+      - s-2e66bf3e3f
+      - s-41f273b968
+      - s-3034497906
+      - s-e28534c6bb
+      - s-6ed6381cdf
+      - s-de37b43d63
+      - s-c69e15bec6

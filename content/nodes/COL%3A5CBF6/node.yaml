@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina rostrata
+  displayName: Xenorhina rostrata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBF6
+  sourceIndexes:
+    - name:
+        en: Xenorhina rostrata
+        zh: Xenorhina rostrata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBF6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/357
+            queryName: Xenorhina rostrata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/286
+            queryName: Xenobatrachus rostratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/208
+            queryName: Choanacantha rostrata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-afce44d3ee
+      - s-ff5b996cd1
+      - s-c378688abb
+      - s-60b604e678
+      - s-d67e3d64a5
+      - s-90f8827c49
+      - s-216fb19f44
+      - s-d8c2652abb
+      - s-7723543a22
+      - s-ba42f5a332
+    zh:
+      - s-0f68093874
+      - s-bc1db8571c
+      - s-c7d3a5ae17
+      - s-d46c581850
+      - s-0f46153a3c
+      - s-17216be211
+      - s-b8dd672432
+      - s-27986851de
+      - s-c6a807d8f7
+      - s-abd652188a

@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aureliachoerus aurelianensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Aureliachoerus aurelianensis
+      en: Aureliachoerus aurelianensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a2a1878bc9
+            part: body
+          en:
+            page: en
+            section: s-4a0f1efb71
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6f9eada169
+            part: body
+          en:
+            page: en
+            section: s-ebae28e383
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-44011752ae
+            part: body
+          en:
+            page: en
+            section: s-d8c91f4101
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-de32a0572a
+            part: body
+          en:
+            page: en
+            section: s-102ebe380e
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0d577d1c02
+            part: body
+          en:
+            page: en
+            section: s-9b25988251
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Aureliachoerus aurelianensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=500091&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:500091; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:500091
+          selectedOccurrenceIds:
+            - occ:641007
+            - occ:641115
+            - occ:643925
+            - occ:645320
+            - occ:650540
+            - occ:667148
+            - occ:1156800
+            - occ:1156853
+            - occ:1156865
+            - occ:1156885
+            - occ:1374018
+            - occ:1374065
+            - occ:1392798
+            - occ:1392809
+            - occ:1392819
+            - occ:1392854
+            - occ:1392882
+            - occ:1392931
+            - occ:1431151
+            - occ:1434885
+          selectedCollectionIds:
+            - col:69106
+            - col:69116
+            - col:69539
+            - col:69711
+            - col:49102
+            - col:71873
+            - col:48069
+            - col:148396
+            - col:148398
+            - col:148401
+            - col:187579
+            - col:187580
+            - col:191822
+            - col:191823
+            - col:94801
+            - col:142146
+            - col:191829
+            - col:142149
+            - col:90354
+            - col:190142
+          sourceReferenceIds:
+            - ref:19926
+            - ref:23348
+            - ref:23390
+            - ref:23602
+            - ref:24290
+            - ref:47649
+            - ref:62965
+            - ref:64717
+            - ref:67825
+            - ref:68266
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4d00c6d467
+        part: body
+      en:
+        page: en
+        section: s-88db60e27a
+        part: body

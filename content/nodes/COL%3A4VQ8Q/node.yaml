@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sclerophrys kisoloensis
+  displayName: Sclerophrys kisoloensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VQ8Q
+  sourceIndexes:
+    - name:
+        en: Sclerophrys kisoloensis
+        zh: Sclerophrys kisoloensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VQ8Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/109
+            queryName: Sclerophrys kisoloensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/353
+            queryName: Bufo kisoloensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/466
+            queryName: Amietophrynus kisoloensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/268
+            queryName: Bufo regularis kisoloensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/269
+            queryName: Bufo regularis marakwetensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4bf3885bd8
+      - s-e256a62235
+      - s-903f2b5c21
+      - s-a871806942
+      - s-7813ccdcb3
+      - s-11d2d40566
+      - s-ed98c0e865
+      - s-3aaf329cb5
+      - s-29fd7edb0e
+      - s-9dc97dffb1
+      - s-d3b27ba1b2
+      - s-7df68bf07b
+      - s-aee6d07ab7
+      - s-ed6e004a22
+    zh:
+      - s-9613afeb94
+      - s-3f602933c4
+      - s-6cd0056c9d
+      - s-d13433b902
+      - s-c80e36e777
+      - s-93db697f52
+      - s-d11bf78fa5
+      - s-df7930f31d
+      - s-2a3ee44d1f
+      - s-4d32537cd9
+      - s-2d42b316dd
+      - s-f444c0d7f2
+      - s-689e25755e
+      - s-ab509a8980

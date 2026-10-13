@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ixalotriton
+  displayName: Ixalotriton
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/55YR
+  sourceIndexes:
+    - name:
+        en: Ixalotriton
+        zh: Ixalotriton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 55YR
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/474
+            queryName: Ixalotriton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1fe3efa1c8
+      - s-d597d712e8
+      - s-57baa286b0
+      - s-4ab5a67e69
+      - s-19fbf61cac
+      - s-3f8c2c4a54
+      - s-2544bb8100
+      - s-3e439f23c3
+      - s-9c5cbd63c8
+      - s-8aac7d51b9
+      - s-17d85e2017
+    zh:
+      - s-75bf918888
+      - s-12bb1a5b5e
+      - s-e97b929509
+      - s-0315faa60f
+      - s-6647bc1c48
+      - s-63844c75d7
+      - s-49fcb15be0
+      - s-34f6e5f2ff
+      - s-bb93b04665
+      - s-4ccedd7778
+      - s-8e248b6d14

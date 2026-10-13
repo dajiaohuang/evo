@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne corroboree
+  displayName: Pseudophryne corroboree
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P7G4
+  sourceIndexes:
+    - name:
+        en: Pseudophryne corroboree
+        zh: Pseudophryne corroboree
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P7G4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/435
+            queryName: Pseudophryne corroboree
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 70
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/369
+            queryName: Pseudophryne corroborree
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f4ef213017
+      - s-d52c3db7ac
+      - s-d43e75e5d8
+      - s-745fc6717e
+      - s-c7c362339b
+      - s-e4d1ae89cf
+      - s-066238e839
+      - s-7b5343ce2f
+      - s-4c98157219
+      - s-34035922f9
+      - s-f538e720c1
+      - s-ef9c7f0f95
+      - s-d316fbc9c0
+      - s-7b1ecd8ecb
+      - s-ce9a9fc843
+      - s-6e6edbd00c
+      - s-2a9591d35a
+      - s-53ac017015
+      - s-c0b4a85203
+      - s-96b9302340
+      - s-1f65735a03
+      - s-e32648d23d
+      - s-9c50874e70
+    zh:
+      - s-ce5748cb94
+      - s-ab0fa525fc
+      - s-9bbd464898
+      - s-980af5de1c
+      - s-4ccab17036
+      - s-777ace51d6
+      - s-3aaa43470c
+      - s-dbdb6ff102
+      - s-73d06b5dea
+      - s-8e03c6b14b
+      - s-f5229fea47
+      - s-6e7577a3bc
+      - s-55ce74d697
+      - s-0fb035480a
+      - s-0196ab648f
+      - s-76dfb1edeb
+      - s-8fe2f5c92d
+      - s-d86e59d72d
+      - s-0cf43d8c34
+      - s-dd91d33dfd
+      - s-054ca0981d
+      - s-7bfcc6f8c4
+      - s-234e06243b

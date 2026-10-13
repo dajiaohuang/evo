@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana vicina
+  displayName: Nanorana vicina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7Z
+  sourceIndexes:
+    - name:
+        en: Nanorana vicina
+        zh: Nanorana vicina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/192
+            queryName: Nanorana vicina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/8
+            queryName: Paa vicina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/321
+            queryName: Rana vicina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/255
+            queryName: Chaparana vicina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9b7005ad1c
+      - s-ad33281d81
+      - s-4322c6608c
+      - s-eab6a79609
+      - s-213dc0b298
+      - s-0c93185b4e
+      - s-caac8f88ef
+      - s-b379791464
+      - s-043eeb862e
+      - s-d2d5fa2b47
+      - s-7568868751
+      - s-ba700b76bc
+      - s-9c6f7262a9
+      - s-152c0b12de
+    zh:
+      - s-4d97c29e33
+      - s-fe3c785a19
+      - s-fd654f2998
+      - s-4c266d7926
+      - s-360265bcbb
+      - s-ecd47b4128
+      - s-f8fa099d1f
+      - s-a804f2be39
+      - s-54c714f97c
+      - s-4684495c6c
+      - s-dc19208c23
+      - s-a40b1f4504
+      - s-7934ae41bb
+      - s-eef351933f

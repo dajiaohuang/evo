@@ -1,0 +1,3 @@
+## ## A Panama flora description and range note {#s-2f559584f7}
+The Flora of Panama description records herbs up to 4 m tall, with leaves 2–10 cm long and 10–40 small leaflets. Yellow flowers grow in axillary racemes of four to eight; the segmented pod (a loment) usually has five to eight articles, and the brown seeds are 3–4 mm long. A separate distribution note places the species mainly in wet, low-elevation sites from the Antilles and southern Mexico through Central and South America, and explicitly says it was introduced into the Old World tropics. This historical regional account gives no sampling frame or observation date, so it is not a current, complete range statement.
+

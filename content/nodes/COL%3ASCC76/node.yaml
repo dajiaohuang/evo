@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis atillo
+  displayName: Pristimantis atillo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCC76
+  sourceIndexes:
+    - name:
+        en: Pristimantis atillo
+        zh: Pristimantis atillo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCC76
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/124
+            queryName: Pristimantis atillo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b01a982e3d
+      - s-d45ee6947f
+      - s-3fec10b6c2
+      - s-2f4fc25228
+      - s-670080f01a
+      - s-84b97e22ca
+      - s-7dd9e7b06e
+      - s-bfa3d5160d
+      - s-625ea3d4e3
+      - s-38f55aeb95
+      - s-615c2dbec6
+      - s-b82a4a9050
+      - s-c14efc7818
+    zh:
+      - s-0e1deef0b0
+      - s-955731c4fa
+      - s-7a9f1a3add
+      - s-6ec45ce8c0
+      - s-5a1198097e
+      - s-f32f5b4186
+      - s-7af9afe4c3
+      - s-e2661c86a4
+      - s-2def8f8de3
+      - s-20f6a9de66
+      - s-14f7762536
+      - s-c37f2d2cc2
+      - s-a284aec08b

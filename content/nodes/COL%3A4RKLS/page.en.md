@@ -1,0 +1,3 @@
+## A tuber and green flowers in the diagnostic account {#s-706cc32ffc}
+A regional diagnostic account records *Raphionacme velutina* as a herb up to 200 mm tall, with a large underground tuber (a swollen underground storage organ). The leaves are finely hairy beneath; their upper surface is hairless or rough with stiff hairs. The sepals, the outer parts of a flower, are narrow and sharply pointed, at least twice as long as wide, and shorter than the fused-petal tube or rarely equal to it. The green flowers have corona lobes, the inner crown-like floral parts, deeply divided into three branches. The source also lists grassland as habitat. These are diagnostic observations from one regional treatment, not a survey of variation or wider ecology.
+

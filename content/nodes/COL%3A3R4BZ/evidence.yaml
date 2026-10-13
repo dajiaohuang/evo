@@ -1,0 +1,124 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Kedrostis capensis (Sond.) A.Meeuse
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3R4BZ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3R4BZ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3R4BZ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3R4BZ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001301089-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3R4BZ / WFO wfo-0001301089
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 2
+        usage:
+          locator: Kedrostis capensis (Sond.) A.Meeuse account; archive rows 2522 (Morphology), 14833 (Habitat), source identifier 11118.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_9346_0
+        referenceId: ref-1fcc1802-dce6-86a9-a9e9-b4a791a7c75c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Kedrostis capensis (Sond.) A.Meeuse account; archive rows 61744 (Diagnostic), source identifier 9346.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Prostrate herb. Tendrils reduced or short or wanting. Male peduncles stout, distinct from pedicels which are more slender. Receptacle lobes of male flowers 1-2(-3) mm long, triangular or triangular-ovate. Fruit glabrous, 15-25(-30) mm long, subglobose to ovoid or oblong, shortly rostrate. Flowers pale yellow or greenish yellow.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Morphology row 2522; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Large monoecious flowers, in racemes or fascicled, vegetative parts with short, white curved hairs.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_9346_0
+            locator: "SANBI/WFO archive Diagnostic row 61744; source 9346.0; publication: Meeuse, ADJ. 1962. The Cucurbitaceae of southern Africa. Bothalia 8: 1 - 111. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassland.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Habitat row 14833; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

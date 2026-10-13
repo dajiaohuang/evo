@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus
+  displayName: Cophixalus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TNK
+  sourceIndexes:
+    - name:
+        en: Cophixalus
+        zh: Cophixalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TNK
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/316
+            queryName: Cophixalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 369
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b2d4a7f98d
+      - s-91912b92a2
+      - s-08e224bc0c
+      - s-8c07316986
+      - s-8d4d2d882f
+      - s-ebd7c00518
+      - s-2c186b0526
+    zh:
+      - s-cdcb7b7fa5
+      - s-48432dade6
+      - s-3e72635d75
+      - s-a96dce75be
+      - s-e50e53070f
+      - s-c943af0534
+      - s-b6d1cfab66

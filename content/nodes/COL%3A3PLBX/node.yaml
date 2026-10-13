@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Incilius alvarius
+  displayName: Incilius alvarius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PLBX
+  sourceIndexes:
+    - name:
+        en: Incilius alvarius
+        zh: Incilius alvarius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PLBX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/436
+            queryName: Incilius alvarius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 71
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/234
+            queryName: Bufo alvarius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 93
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/118
+            queryName: Phrynoidis alvarius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 79
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/119
+            queryName: Cranopsis alvaria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/120
+            queryName: Ollotis alvaria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ee4d651fcc
+      - s-d261a5c9cc
+      - s-ad3f9fa3f2
+      - s-5fbc4a5f91
+      - s-7382d3dc8d
+      - s-33c8f2b763
+      - s-0c1397c9dc
+      - s-efcb4a9a42
+      - s-f85d3b8f37
+      - s-4c6c8896d6
+      - s-4cfc9fa772
+      - s-d2248f219b
+      - s-4f175de534
+      - s-e30262b09e
+      - s-90023464c5
+      - s-81279e3a69
+      - s-56d8c2b7d9
+      - s-4ca3978b9c
+      - s-ae6acb7492
+      - s-8df6912052
+      - s-2860f88f04
+      - s-69e16504bc
+      - s-dd7eb364a2
+      - s-dfa848961c
+      - s-bae14ed4ae
+      - s-81778b0cab
+      - s-e96a79886c
+      - s-7583e8528d
+    zh:
+      - s-a2b3e2e2ac
+      - s-b5d905ffa4
+      - s-bfe7293020
+      - s-12513a49ae
+      - s-02793f876d
+      - s-4e7a7ff371
+      - s-182f2fa633
+      - s-f52bdb1cc9
+      - s-6171d210e9
+      - s-238739a1ca
+      - s-e0483f6a56
+      - s-454ae1d49c
+      - s-49b72446c4
+      - s-31348083c9
+      - s-07eddb4d00
+      - s-2837bf3f90
+      - s-628eff9a80
+      - s-61237ce595
+      - s-1eaf8108fa
+      - s-95ff061932
+      - s-fe866bb0b3
+      - s-b219596d7d
+      - s-8f46fafaab
+      - s-0de567a20f
+      - s-e31290b1c2
+      - s-b07a0304fe
+      - s-8cec789912
+      - s-fe8f5322fe

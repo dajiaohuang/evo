@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes babax
+  displayName: Hylodes babax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG5G
+  sourceIndexes:
+    - name:
+        en: Hylodes babax
+        zh: Hylodes babax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG5G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/489
+            queryName: Hylodes babax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba0fa8187d
+      - s-7db36db47a
+      - s-4f0145f916
+      - s-4927083d18
+      - s-bc82d2ea17
+      - s-d10e3fc13d
+      - s-41c03ddd7c
+      - s-47e5d7ee40
+      - s-3ef625476c
+      - s-9131b73047
+      - s-84f65cf7a0
+      - s-6cb628e37c
+      - s-46a4b65e2c
+      - s-e97a06636d
+      - s-81efc0aaa9
+      - s-557518879b
+      - s-b268a7eae7
+      - s-ba0c4527ef
+      - s-da9ad21d4c
+      - s-43760d84d6
+      - s-f0669358c2
+      - s-664fd7a464
+      - s-44003d63db
+      - s-ccc4c299a0
+    zh:
+      - s-0e8d57f55a
+      - s-e5f73d8b90
+      - s-f9ea814104
+      - s-c5dcded24d
+      - s-2ba08ad598
+      - s-5565695367
+      - s-21142e4cf8
+      - s-cd9a74cc37
+      - s-1ee665921f
+      - s-e9163d7fb8
+      - s-7baee71ae8
+      - s-f50b59495e
+      - s-12a6a23b19
+      - s-4dbb05ee23
+      - s-405805c034
+      - s-1a14e17d92
+      - s-4eb60fcfba
+      - s-95acc9a9ac
+      - s-a56d710839
+      - s-1d75218cf2
+      - s-e5b4630727
+      - s-d4593cb55b
+      - s-f6a14974f5
+      - s-5c2bdc6df6

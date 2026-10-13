@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella sungi
+  displayName: Leptobrachella sungi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PG46
+  sourceIndexes:
+    - name:
+        en: Leptobrachella sungi
+        zh: Leptobrachella sungi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PG46
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/296
+            queryName: Leptobrachella sungi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/236
+            queryName: Leptolalax sungi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/456
+            queryName: Paramegophrys sungi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/457
+            queryName: Paramegophrys sangi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a4d60b0260
+      - s-327515b6e2
+      - s-fb05f4e683
+      - s-8333c6f25a
+      - s-bd88658956
+      - s-e8f4a8340d
+      - s-4fa086b437
+      - s-48ccc66d44
+      - s-508793dfce
+    zh:
+      - s-eb1f2ae376
+      - s-e8ba9992c9
+      - s-0e7660cbce
+      - s-162b4d7075
+      - s-ff55fdfd42
+      - s-d88cacce4c
+      - s-33693c8934
+      - s-fbdb56f9c0
+      - s-9efbdc2d6c

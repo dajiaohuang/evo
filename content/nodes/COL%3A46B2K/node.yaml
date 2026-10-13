@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Neobatrachus kunapalari
+  displayName: Neobatrachus kunapalari
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/46B2K
+  sourceIndexes:
+    - name:
+        en: Neobatrachus kunapalari
+        zh: Neobatrachus kunapalari
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 46B2K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/236
+            queryName: Neobatrachus kunapalari
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-07849bb836
+      - s-4eb25082ca
+      - s-6f86d840b0
+      - s-c19b38b241
+      - s-0b17f801b3
+      - s-e33846b653
+      - s-4e8f8c8b0e
+      - s-adfca453d5
+      - s-d7c3af2774
+      - s-19d1478eb5
+      - s-50c16e7521
+      - s-ad865beba1
+    zh:
+      - s-c117c02b9f
+      - s-88b87175b8
+      - s-b5d3648f24
+      - s-e9d219ca47
+      - s-b49c64b71c
+      - s-8f307dcb67
+      - s-75a65c0e00
+      - s-11f3a7c7c2
+      - s-a010cfc400
+      - s-c8f0f7b0b8
+      - s-cf7bd7dda2
+      - s-4f7746ed0e

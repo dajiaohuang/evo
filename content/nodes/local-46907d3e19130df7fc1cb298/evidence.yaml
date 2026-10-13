@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pedostibes tuberculosus
+    name:
+      en: Pedostibes tuberculosus
+      zh: Pedostibes tuberculosus
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Pedostibes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Pedostibes tuberculosus in the morphology deposit
+          zh: 形态数据中的 Pedostibes tuberculosus 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9b5bbfd3df
+            part: body
+          zh:
+            page: zh
+            section: s-c20ad767d6
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4078: measurement fields and sex codes"
+          zh: 第 4078 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b49852b403
+            part: body
+          zh:
+            page: zh
+            section: s-f63deae623
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4078; Reference.csv rows 2696
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4078
+        values:
+          - Bufonidae
+          - Pedostibes
+          - Pedostibes tuberculosus
+          - NA
+          - "35"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - "48"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2696
+        values:
+          - Anura
+          - Pedostibes_tuberculosus
+          - "Günther, A. C. L. G. (1876). Third report on collections of Indian reptiles obtained by the British Museum. Proceedings of the Zoological Society of London, 1875, 567-577. "
+    availableTraitCodes:
+      - SVL
+      - TSL
+      - HLL
+      - Toe4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6TXVF
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

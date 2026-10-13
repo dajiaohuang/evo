@@ -1,0 +1,138 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrobates tinctorius
+  displayName: Dendrobates tinctorius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6CJSY
+  sourceIndexes:
+    - name:
+        en: Dendrobates tinctorius
+        zh: Dendrobates tinctorius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6CJSY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/314
+            queryName: Dendrobates tinctorius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 145
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/171
+            queryName: Dendrobates azureus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/285
+            queryName: Rana tinctoria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 134
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/286
+            queryName: Calamita tinctorius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/287
+            queryName: Dendrobates machadoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/204
+            queryName: Hyla tinctoria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/205
+            queryName: Hylaplesia tinctoria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/206
+            queryName: Dendrobates tinctorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/379
+            queryName: Dendrobates tinctorius daudini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/380
+            queryName: Dendrobates tinctorius azureus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c343915681
+      - s-93599a260b
+      - s-a4b94c34a4
+      - s-00525ab542
+      - s-52faee15a1
+      - s-5df7db6522
+      - s-a238569be7
+      - s-1430158de7
+      - s-63ea31caf7
+      - s-bdea22e3c8
+      - s-5299ed45f0
+      - s-45f55d1482
+      - s-2a972ed812
+      - s-80d508be2f
+      - s-8ae3f10b9f
+      - s-b5a105490e
+      - s-005a1e6620
+      - s-9388ab7a26
+      - s-701e38d4af
+      - s-84dd357995
+      - s-33513bca47
+      - s-7df6b63fab
+    zh:
+      - s-7a04b8bb3c
+      - s-08db95eea0
+      - s-42efa2908b
+      - s-2f70498953
+      - s-c7579fc1a6
+      - s-2857439eda
+      - s-431e5a77f0
+      - s-b8636a9fc2
+      - s-eaba3201b8
+      - s-4a2caa7ae3
+      - s-7509a6fa08
+      - s-dcf7e749e9
+      - s-95fc48fbeb
+      - s-d21930da77
+      - s-fa8d7e7d85
+      - s-779b1f6daf
+      - s-2d87f87aea
+      - s-7ab6bd328b
+      - s-d33cfa832f
+      - s-eecd352c8a
+      - s-576a2d0a36
+      - s-2e0487b781

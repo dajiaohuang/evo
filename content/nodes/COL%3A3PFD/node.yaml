@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chrysobatrachus
+  displayName: Chrysobatrachus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PFD
+  sourceIndexes:
+    - name:
+        en: Chrysobatrachus
+        zh: Chrysobatrachus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PFD
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/302
+            queryName: Chrysobatrachus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d977b7576f
+      - s-a4f09f0cc3
+      - s-18758bb237
+      - s-83cf5f8465
+      - s-5363974302
+      - s-8b18486f84
+    zh:
+      - s-55194e229c
+      - s-c0c138ef41
+      - s-e5fe8afd7c
+      - s-7325e68b14
+      - s-e3de6ea6e3
+      - s-bcbadb3f9b

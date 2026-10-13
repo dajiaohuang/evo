@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys binlingensis
+  displayName: Boulenophrys binlingensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9H7
+  sourceIndexes:
+    - name:
+        en: Boulenophrys binlingensis
+        zh: Boulenophrys binlingensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9H7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/328
+            queryName: Boulenophrys binlingensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/459
+            queryName: Megophrys binlingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/460
+            queryName: Xenophrys binlingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/129
+            queryName: Megophrys binlingensis binlingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/289
+            queryName: Panophrys binlingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9dadad1a0e
+      - s-1bdc782c1b
+      - s-50cf1ea28a
+      - s-d59796540c
+      - s-06448bf0b8
+      - s-7e8613eb90
+      - s-9721bd9b4a
+      - s-65397f3119
+      - s-dafd53d4ab
+      - s-7f8fa2f1a4
+      - s-9f52b3d8c5
+      - s-22d9e05249
+      - s-014357b068
+    zh:
+      - s-6387cec21b
+      - s-be9e1d141a
+      - s-64a4cd570c
+      - s-93b07863bb
+      - s-9afb834595
+      - s-0c3acc6fd3
+      - s-8794aea9ed
+      - s-d4d86f8d22
+      - s-06ef78713b
+      - s-7ca697426d
+      - s-d52da362ee
+      - s-92d5a0f318
+      - s-127ed8ac51

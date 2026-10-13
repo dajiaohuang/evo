@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus amoenus
+  displayName: Philautus amoenus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76YHL
+  sourceIndexes:
+    - name:
+        en: Philautus amoenus
+        zh: Philautus amoenus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76YHL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/36
+            queryName: Philautus amoenus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51a7402e8f
+      - s-7647a3add7
+      - s-a97367a7f5
+      - s-54b26c20d3
+      - s-b7d499197c
+      - s-f91f358a40
+      - s-1494a606d1
+      - s-16afc8ac4d
+      - s-8e20ff784b
+    zh:
+      - s-65f4b3e357
+      - s-3331f0565d
+      - s-180b042b13
+      - s-c79fbf3148
+      - s-88a88ae425
+      - s-67ba230a84
+      - s-5d94b7b49b
+      - s-d0b204c786
+      - s-b896427319

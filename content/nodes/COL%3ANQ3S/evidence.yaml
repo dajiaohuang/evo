@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bulbine suurbergensis van Jaarsv. & A.E.van Wyk
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NQ3S, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NQ3S; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NQ3S
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NQ3S
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000807936-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NQ3S / WFO wfo-0000807936
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_15972_0
+        referenceId: ref-9fd03925-c521-8742-a5e4-59d99fa75f0d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbine suurbergensis van Jaarsv. & A.E.van Wyk account; SANBI/WFO archive rows 85353 (Morphology), 85096 (Habitat), 84586 (Diagnostic), source identifier 15972.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants at first solitary, dividing and becoming branched. Rosettes pendent, up to 150 mm diam., up to 250 mm long, characteristically curving upwards at the apices. Stems pendent, up to 700 x 15 mm, characteristically orange-brown when cut, covered with persistent leaf bases, weathering to form a fibrous network; basal part often becoming glabrous, grey-brown, smooth and with aerial roots. Roofs grey-brown, fleshy, terete, ± 1.5-2.0 mm diam. Leaves 6-10 per rosette, ascending to ascending-spreading, linear-lanceolate, 70-170 x 12-18 mm, apex acute, mucronate, flat above, convex to rounded below, becoming channelled during drought, soft-textured, pale green, smooth, obscurely striated, margin entire. Inflorescence 110-350 mm long, sparsely flowered (20-30 flowers) in upper third; raceme up to 100-150 mm long; peduncle up to 5 mm diam. at base, biconvex, green; bracts deltoid, up to 3 x 0.5 mm, acuminate, clasping; pedicels 8-10 mm long. Perianth stellate, ± 13 mm diam.; tepals bright yellow with greenish yellow median stripes, apices obtuse to emarginate; outer tepals narrowly oblanceolate, up to 10 x 2 mm; inner tepals elliptic to elliptic-oblanceolate, up to 9 x 3 mm. Stamens up to 7 mm long, bearded in central part, with hairs 2.5-3.0 mm long. Ovary globose, up to 1 mm diam.; style erect, up to 4.5 mm long. Capsule obovate, up to 3 x 2.5 mm, ascending. Seeds 3 x 1.5 mm, black.
+            textZh: Bulbine suurbergensis van Jaarsv. & A.E.van Wyk 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_15972_0
+            locator: "SANBI/WFO archive Morphology row 85353; source identifier 15972.0; cited publication: Van Jaarsveld, EJ. 2017. Bulbine dewetii, a new cliff-dwelling Bulbine species (Asphodelaceae) from the Western Cape. Haseltonia 23: 53 - 56. [https://doi.org/10.2985/026.023.0108  ]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Bulbine suurbergensis differs from other cliff-dwelling species by its long, pendent, dichotomous, sparsely branched stems up to 700 mm long, characteristically curving upwards and by its soft, linear-lanceolate leaves.
+            textZh: SANBI 条目提供了 Bulbine suurbergensis van Jaarsv. & A.E.van Wyk 的鉴别特征。
+            sourceIds:
+              - sanbi_15972_0
+            locator: "SANBI/WFO archive Diagnostic row 84586; source identifier 15972.0; cited publication: Van Jaarsveld, EJ. 2017. Bulbine dewetii, a new cliff-dwelling Bulbine species (Asphodelaceae) from the Western Cape. Haseltonia 23: 53 - 56. [https://doi.org/10.2985/026.023.0108  ]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sheer rock face.
+            textZh: 该 SANBI 区域物种条目记录的生境：Sheer rock face.
+            sourceIds:
+              - sanbi_15972_0
+            locator: "SANBI/WFO archive Habitat row 85096; source identifier 15972.0; cited publication: Van Jaarsveld, EJ. 2017. Bulbine dewetii, a new cliff-dwelling Bulbine species (Asphodelaceae) from the Western Cape. Haseltonia 23: 53 - 56. [https://doi.org/10.2985/026.023.0108  ]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gracixalus carinensis (Boulenger, 1893)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Gracixalus carinensis
+      zh: Gracixalus carinensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0ae96da3dd
+            part: title
+          zh:
+            page: zh
+            section: s-3a2ed6b99b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0ae96da3dd
+            part: body
+          zh:
+            page: zh
+            section: s-3a2ed6b99b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a7a523fde9
+            part: title
+          zh:
+            page: zh
+            section: s-4c0d0b18ca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a7a523fde9
+            part: body
+          zh:
+            page: zh
+            section: s-4c0d0b18ca
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-dc6213a8e8
+            part: title
+          zh:
+            page: zh
+            section: s-8a5c7c2827
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-dc6213a8e8
+            part: body
+          zh:
+            page: zh
+            section: s-8a5c7c2827
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-7b8457b78240bd41c3e2b8c9
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-dd529a73285cf0b1b493f4fad150b506
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9d2f696460
+            part: title
+          zh:
+            page: zh
+            section: s-2a6aee8c56
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9d2f696460
+            part: body
+          zh:
+            page: zh
+            section: s-2a6aee8c56
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gracixalus carinensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/3H5CC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2030; Reference.csv rows 468
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5095; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5098 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-00f6dc0200
+        part: body
+      zh:
+        page: zh
+        section: s-933b125acd
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-7b8457b78240bd41c3e2b8c9
+        scientificName: Gracixalus carinensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

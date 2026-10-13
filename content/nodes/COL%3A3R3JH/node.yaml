@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kassina cassinoides
+  displayName: Kassina cassinoides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3R3JH
+  sourceIndexes:
+    - name:
+        en: Kassina cassinoides
+        zh: Kassina cassinoides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3R3JH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/142
+            queryName: Kassina cassinoides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/422
+            queryName: Hylambates cassinoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e94d3ab7c
+      - s-a58a56b7ad
+      - s-0989835ae4
+      - s-f21b3079cf
+      - s-f00a4937c8
+      - s-ba847f1d71
+      - s-7ebef7f639
+      - s-f7117ce63c
+      - s-caef441e81
+      - s-8fbd2da993
+    zh:
+      - s-aaa4f3516f
+      - s-d47d496a0c
+      - s-eef4cdd4ce
+      - s-d8600486fa
+      - s-decdf6c853
+      - s-4bcb2c5fa9
+      - s-718019ede0
+      - s-9e7aabbe67
+      - s-bbccd85314
+      - s-de12cc4df6

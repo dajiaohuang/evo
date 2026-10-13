@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ginkgo biloba L.
+    authorship: L.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: COL26.8 accepted species usage 3G3B3. The cited population-genomic study supports bounded inferences from sampled trees and models; it does not establish a complete current range or census.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The source sampled trees from populations, but the cited methods do not resolve wild versus planted status for each tree.
+      domesticated: Cultivated and ornamental status is not resolved for every sampled tree.
+      captive: No captive animal setting applies; the source analyzed tree samples.
+      fossil: The paper's phrase living fossil is descriptive and is not direct evidence of a fossil occurrence; no fossil specimen or geological age is assessed here.
+    sections:
+      - topic: evolution
+        sourceIds:
+          - zhao2019
+        text:
+          en:
+            page: en
+            section: s-05cfa5bdf7
+            part: body
+          zh:
+            page: zh
+            section: s-96a654362e
+            part: body
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3G3B3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:3G3B3@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 3G3B3; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3G3B3. https://doi.org/10.48580/dgywk
+      - id: zhao2019
+        referenceId: ref-4acf1b2f-7e38-8a28-a12e-cfb5f506eee3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - licenseVersion
+          - licenseUrl
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article Rights and permissions section, lines 592–595.
+          licenseAppliesTo: Article text; separately credited third-party material is excluded. No figures or tables are reused.
+          stableId: doi:10.1038/s41467-019-12133-5
+          locator: Abstract; Results, Four ancient genetic components and three refugia of ginkgo (paragraphs reporting refugia); Results, Human-aided dispersal of ginkgo out of China; Methods, Sample collection and resequencing.
+          attribution: Zhao Y-P et al. (2019). Nature Communications 10:4201. https://doi.org/10.1038/s41467-019-12133-5. CC BY 4.0. Claims paraphrased; no figures or tables reused.
+          accessedAt: 2026-09-25
+          licenseAssessment: item-level-verified
+          scope: One primary source supports a bounded claim only; article text is paraphrased and no figures or tables are reused.
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for morphology.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for lifeHistory.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for ecology.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: Genome resequencing of 545 sampled trees from 51 populations in nine countries was used to infer three refugia in China and multiple human-aided introductions from eastern China to other continents. These are study-level population-history inferences from the sampled trees, not a complete census or proof that every sampled tree was wild.
+            locator: Abstract; Results, sections Four ancient genetic components and three refugia of ginkgo and Human-aided dispersal of ginkgo out of China; Methods, Sample collection and resequencing and Analysis of population genetics and phylogeny.
+            placeTimeScope: Samples came from 51 populations in nine countries and were selected to represent most known localities of large Ginkgo trees. The cited methods locator does not establish collection dates or resolve wild versus planted status for every sampled tree.
+            lifeStatus: Tree samples; the cited source does not resolve wild versus cultivated or ornamental status for every sampled individual. No captive animal setting applies.
+            sourceIds:
+              - zhao2019
+            originalLanguage: en
+        gaps:
+          - The study supports population-history inferences for its sampled trees, but it is not a comprehensive species-level evolutionary synthesis and does not establish a complete present-day distribution.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for distribution.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for fossil.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for conservation.
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: BT
+        scientificName: Ginkgoopsida Meyen
+        authorship: Meyen
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 39Q
+        scientificName: Ginkgoales
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "1201"
+      - id: 623HJ
+        scientificName: Ginkgoaceae
+        authorship: null
+        rank: family
+        status: accepted
+        sourceDatasetId: "1201"
+      - id: 4NL8
+        scientificName: Ginkgo
+        authorship: null
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1201"
+      - id: 3G3B3
+        scientificName: Ginkgo biloba L.
+        authorship: L.
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"

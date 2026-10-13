@@ -1,0 +1,277 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis yanezi Navarrete, Venegas & Ron, 2016
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis yanezi
+      zh: Pristimantis yanezi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f431fac207
+            part: title
+          zh:
+            page: zh
+            section: s-b47b17725d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f431fac207
+            part: body
+          zh:
+            page: zh
+            section: s-b47b17725d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-006c354036
+            part: title
+          zh:
+            page: zh
+            section: s-9f43edf6f9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-006c354036
+            part: body
+          zh:
+            page: zh
+            section: s-9f43edf6f9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d0f820139e
+            part: title
+          zh:
+            page: zh
+            section: s-a4f8ffa307
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-d0f820139e
+            part: body
+          zh:
+            page: zh
+            section: s-a4f8ffa307
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-f190b532a5de5b0c9612622b
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-ea74496a1f
+            part: title
+          zh:
+            page: zh
+            section: s-8a749f2bc1
+            part: title
+        sourceIds:
+          - primary-pmc4926633-6vwg9
+        text:
+          en:
+            page: en
+            section: s-ea74496a1f
+            part: body
+          zh:
+            page: zh
+            section: s-8a749f2bc1
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-44d989cd8f
+            part: title
+          zh:
+            page: zh
+            section: s-d05b1f07c8
+            part: title
+        sourceIds:
+          - primary-pmc4926633-6vwg9
+        text:
+          en:
+            page: en
+            section: s-44d989cd8f
+            part: body
+          zh:
+            page: zh
+            section: s-d05b1f07c8
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-c4fca30004
+            part: body
+          zh:
+            page: zh
+            section: s-fbca454099
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis yanezi
+          url: https://www.checklistbank.org/dataset/316115/taxon/6VWG9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4861, 4862; Reference.csv rows 2213
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc4926633-6vwg9
+        referenceId: ref-7421b710-0b74-43f0-acd0-dd195324dd1e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis yanezi: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e3b118b9c5
+        part: body
+      zh:
+        page: zh
+        section: s-2519d4b6dd
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.593.8063
+        referenceId: ref-7421b710-0b74-43f0-acd0-dd195324dd1e
+        sourceKey: primary-pmc4926633-6vwg9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4926633/article.xml
+        sourceConcept: Pristimantis yanezi
+        evidenceRead: "Pristimantis yanezi: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Two Llanganates locality records
+              zh: 两个 Llanganates 地点记录
+            referenceId: ref-7421b710-0b74-43f0-acd0-dd195324dd1e
+            sourceKey: primary-pmc4926633-6vwg9
+            locator: "Pristimantis yanezi: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-41baa84036
+                part: body
+              zh:
+                page: zh
+                section: s-cf2bbddc4b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Night vegetation records after logging
+              zh: 采伐后的夜间植被记录
+            referenceId: ref-7421b710-0b74-43f0-acd0-dd195324dd1e
+            sourceKey: primary-pmc4926633-6vwg9
+            locator: "Pristimantis yanezi: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7120a7f6bb
+                part: body
+              zh:
+                page: zh
+                section: s-b904630341
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

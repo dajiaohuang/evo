@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cimolomys gracilis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Cimolomys gracilis
+      en: Cimolomys gracilis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9e89c08872
+            part: body
+          en:
+            page: en
+            section: s-56055c90c5
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8cab46932e
+            part: body
+          en:
+            page: en
+            section: s-6565cedebb
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7951f12798
+            part: body
+          en:
+            page: en
+            section: s-69b0d1bc18
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0b931d6672
+            part: body
+          en:
+            page: en
+            section: s-7076b61eca
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0057106f36
+            part: body
+          en:
+            page: en
+            section: s-9d9e744add
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Cimolomys gracilis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45127&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45127; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45127
+          selectedOccurrenceIds:
+            - occ:163020
+            - occ:163038
+            - occ:163062
+            - occ:163089
+            - occ:163121
+            - occ:163146
+            - occ:163153
+            - occ:163159
+            - occ:163166
+            - occ:163214
+            - occ:163248
+            - occ:163283
+            - occ:163325
+            - occ:163345
+            - occ:163349
+            - occ:163370
+            - occ:163390
+            - occ:163416
+            - occ:163434
+            - occ:163435
+            - occ:163459
+            - occ:163513
+            - occ:163609
+            - occ:163641
+            - occ:163714
+            - occ:1171237
+            - occ:1171281
+            - occ:1171306
+          selectedCollectionIds:
+            - col:14502
+            - col:14505
+            - col:14511
+            - col:14516
+            - col:14519
+            - col:14523
+            - col:14524
+            - col:14526
+            - col:14527
+            - col:14538
+            - col:14549
+            - col:14558
+            - col:14566
+            - col:14570
+            - col:14571
+            - col:14576
+            - col:14582
+            - col:14585
+            - col:14587
+            - col:14596
+            - col:14606
+            - col:14630
+            - col:14634
+            - col:14653
+            - col:14565
+            - col:14589
+            - col:14592
+          sourceReferenceIds:
+            - ref:2237
+            - ref:3880
+            - ref:14177
+            - ref:962
+            - ref:1239
+            - ref:960
+            - ref:6201
+            - ref:3310
+            - ref:3520
+            - ref:3198
+            - ref:9092
+            - ref:2229
+          originalIdentificationMappings:
+            - occurrenceId: occ:163062
+              originalIdentifiedName: Cimolomys nitidus
+              acceptedName: Cimolomys gracilis
+              difference: null
+            - occurrenceId: occ:163434
+              originalIdentifiedName: Cimolomys nitidus
+              acceptedName: Cimolomys gracilis
+              difference: null
+            - occurrenceId: occ:163435
+              originalIdentifiedName: Cimolomys digona n. sp.
+              acceptedName: Cimolomys gracilis
+              difference: null
+            - occurrenceId: occ:163513
+              originalIdentifiedName: Cimolomys digona
+              acceptedName: Cimolomys gracilis
+              difference: null
+            - occurrenceId: occ:1171237
+              originalIdentifiedName: Selenacodon brevis n. sp.
+              acceptedName: Cimolomys gracilis
+              difference: null
+            - occurrenceId: occ:1171281
+              originalIdentifiedName: Selenacodon brevis
+              acceptedName: Cimolomys gracilis
+              difference: null
+            - occurrenceId: occ:1171306
+              originalIdentifiedName: Cimolomys digona
+              acceptedName: Cimolomys gracilis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-50b4feb36c
+        part: body
+      en:
+        page: en
+        section: s-b4b6afc8b8
+        part: body

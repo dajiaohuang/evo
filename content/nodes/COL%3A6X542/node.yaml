@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes coonoorensis
+  displayName: Raorchestes coonoorensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X542
+  sourceIndexes:
+    - name:
+        en: Raorchestes coonoorensis
+        zh: Raorchestes coonoorensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X542
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/137
+            queryName: Raorchestes coonoorensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/107
+            queryName: Philautus coonoorensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/108
+            queryName: Pseudophilautus coonoorensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc67809f3e
+      - s-04cdc3b2c8
+      - s-aec7984a54
+      - s-9756a8b376
+      - s-5293198c1c
+      - s-902c8183a1
+      - s-6266fd8572
+      - s-ec112595d2
+      - s-6390f0bd35
+      - s-960f96d605
+      - s-b572fef6e5
+    zh:
+      - s-f52ae4a3ad
+      - s-f78707b271
+      - s-037f76f351
+      - s-1117771b10
+      - s-d743757324
+      - s-cb3112b083
+      - s-b9e3eff679
+      - s-0b84abfc42
+      - s-d2e42e8f66
+      - s-fe65bc04b1
+      - s-378c9fbbd6

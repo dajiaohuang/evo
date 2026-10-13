@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrophryniscus stawiarskyi
+  displayName: Dendrophryniscus stawiarskyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34RLS
+  sourceIndexes:
+    - name:
+        en: Dendrophryniscus stawiarskyi
+        zh: Dendrophryniscus stawiarskyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34RLS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/332
+            queryName: Dendrophryniscus stawiarskyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-760fd9c397
+      - s-b7ccd63b4a
+      - s-ddc5a18c14
+      - s-5dd3116f6b
+      - s-5f4f82066b
+      - s-61c3c24002
+      - s-741d50761c
+    zh:
+      - s-e6c3c994fd
+      - s-b4bc62faac
+      - s-7480d7421f
+      - s-49965fbbea
+      - s-31c30a03c1
+      - s-f04d2ff7d5
+      - s-e2b4ad4e7a

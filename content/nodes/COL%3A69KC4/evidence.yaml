@@ -1,0 +1,338 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cercopithecus denti Thomas, 1907
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dent's monkey
+      zh: 戴恩氏长尾猴
+    sections:
+      - topic: ecology
+        sourceIds:
+          - clark2023
+        text:
+          en:
+            page: en
+            section: s-fce093ea14
+            part: body
+          zh:
+            page: zh
+            section: s-e209e5bae9
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f55750ba9a
+            part: body
+          en:
+            page: en
+            section: s-e70390c35d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-a32f0c85be
+            part: body
+          en:
+            page: en
+            section: s-81a6a973b9
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1b6d6fb4f1
+            part: body
+          en:
+            page: en
+            section: s-303fa2a440
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-51bd82956f
+            part: body
+          en:
+            page: en
+            section: s-ac8d56639c
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-3f0141ac61
+            part: body
+          en:
+            page: en
+            section: s-2d570226c6
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d654209a3a
+            part: body
+          en:
+            page: en
+            section: s-9f0191f942
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-319e3f38e2
+            part: body
+          en:
+            page: en
+            section: s-2e692fa41b
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-be20b44edc
+            part: body
+          en:
+            page: en
+            section: s-dc7947ee2d
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-296e3eb011
+            part: body
+          en:
+            page: en
+            section: s-8504d0d43c
+            part: body
+    sources:
+      - id: mdd
+        referenceId: ref-797301d6-a2fc-8849-affa-9d70f5ffb3b6
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the selected English common-name alternative only; the Chinese common name is an editorial translation.
+            zh: 支持本页采用的英文普通名备选；中文普通名为编辑译名。
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/69KC4
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: clark2023
+        referenceId: ref-085a8b3f-b4a3-8f7b-a7b8-0aad7f196a51
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Three months of 2017 observations in the Cyamudongo fragment, Nyungwe National Park; reported diet and vertical use are limited to that study population.
+            zh: 支持 Nyungwe 国家公园 Cyamudongo 林斑 2017 年三个月观察；食谱与垂直空间使用仅适用于该研究种群。
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12102; name Cercopithecus denti; reference table row 12102; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000 from median of 23(Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            female_maturity_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 3(de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            litter_or_clutch_size_n: mean of Ernest et al., 2003 & Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 8(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            gestation_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 3(de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            birth_or_hatching_weight_g: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 & Ernest et al., 2003 from median of 8(Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            maximum_longevity_y: Weigl, R., 2005
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 735; Scientific=Cercopithecus denti; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups:
+            - group: diet
+              certainty: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          readerFieldCautions:
+            - fieldGroup: diet
+              sourceCode: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-06985556a2
+        part: body
+      zh:
+        page: zh
+        section: s-2c4f93a1c5
+        part: body

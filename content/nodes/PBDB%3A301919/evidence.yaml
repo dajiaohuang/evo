@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Xenocyon
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Xenocyon
+      en: Xenocyon
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-12511c70a6
+            part: body
+          en:
+            page: en
+            section: s-8d09aa1834
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9173608c4d
+            part: body
+          en:
+            page: en
+            section: s-a9a17d5160
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Xenocyon
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=301919
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:301919
+          readingTargets:
+            - name: Xenocyon texanus
+              pbdbTaxonId: txn:44883
+              canonicalPath: content/nodes/PBDB%3A44883
+            - name: Xenocyon brevicephalus
+              pbdbTaxonId: txn:433195
+              canonicalPath: content/nodes/PBDB%3A433195
+            - name: Xenocyon africanus
+              pbdbTaxonId: txn:433196
+              canonicalPath: content/nodes/PBDB%3A433196
+            - name: Xenocyon lycaonoides
+              pbdbTaxonId: txn:301921
+              canonicalPath: content/nodes/PBDB%3A301921
+            - name: Xenocyon antonii
+              pbdbTaxonId: txn:433190
+              canonicalPath: content/nodes/PBDB%3A433190
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3e05030ead
+        part: body
+      en:
+        page: en
+        section: s-3e2b44b4ed
+        part: body

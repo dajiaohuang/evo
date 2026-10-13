@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-0c23471a72
+      part: title
+    titleZh:
+      page: zh
+      section: s-31af08050c
+      part: title
+    category: transition
+    startAge: 50
+    endAge: 48
+    regions:
+      - H-GSP Locality 62, Ganda Kas, Kala Chitta Hills, Punjab, Pakistan
+    clades:
+      - Pakicetus attocki
+      - Pakicetidae
+      - Cetacea
+    summary:
+      page: en
+      section: s-0c23471a72
+      part: body
+    summaryZh:
+      page: zh
+      section: s-31af08050c
+      part: body
+    claimIds:
+      - claim:event:pakicetus-composite-terrestrial-skeleton
+    evidenceItems:
+      - statement: Skull H-GSP 96231 and separately catalogued vertebrae and limb elements, including humerus H-GSP 92042 and calcaneum H-GSP 96420, form the published Pakicetus reconstruction and support terrestrial locomotion.
+        relation: supports
+        claimIds:
+          - claim:event:pakicetus-composite-terrestrial-skeleton
+        referenceLinks:
+          - referenceId: thewissen-2001-pakicetid-skeletons
+            relation: supports
+            pages: 277–281
+            figure: Figures 1–4
+            quoteLocator: Postcranial osteology; Skeleton reconstruction; Hearing and locomotion discussion
+    uncertaintyItems:
+      - statement: The reconstruction combines multiple individuals and the 2001 morphological tree did not recover Hippopotamidae as the immediate cetacean sister group; neither result overrides later independent retroposon topology.
+        relation: contextualizes
+        claimIds:
+          - claim:event:pakicetus-composite-terrestrial-skeleton
+        referenceLinks:
+          - referenceId: thewissen-2001-pakicetid-skeletons
+            relation: supports
+            pages: 279–281
+            figure: Figures 2–4
+            quoteLocator: Reconstruction; Cladistic analysis; Methods
+  claims:
+    - subjectId: event:pakicetus-composite-terrestrial-skeleton
+      claimKind: scientific
+      claimType: morphology
+      statement: The published Pakicetus reconstruction combines skull H-GSP 96231 with separately catalogued vertebral and limb elements from one locality and supports terrestrial locomotion; it is not a single associated skeleton or a direct ancestor.
+      confidence: medium
+      confidenceRationale: The individual elements and locality are explicit and their anatomy strongly supports weight bearing, while taxonomic association and the whole-body reconstruction combine multiple individuals.
+      referenceLinks:
+        - referenceId: thewissen-2001-pakicetid-skeletons
+          relation: supports
+          pages: 277–281
+          figure: Figures 1–4
+          quoteLocator: Postcranial osteology; Reconstruction; Methods
+  claim-rationales.zh:
+    - 各骨骼和地点记录明确，其形态强烈支持承重；但分类关联与全身复原组合了多个个体。
+  claim-statements.zh:
+    - 已发表的巴基鲸复原把头骨 H-GSP 96231 与同一地点的多件独立编号椎骨和肢骨组合起来，并支持陆生运动；它不是一具关联骨架，也不是直系祖先。

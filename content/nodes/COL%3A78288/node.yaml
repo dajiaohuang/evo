@@ -1,0 +1,132 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon metcalfi
+  displayName: Plethodon metcalfi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78288
+  sourceIndexes:
+    - name:
+        en: Plethodon metcalfi
+        zh: Plethodon metcalfi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "78288"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/477
+            queryName: Plethodon metcalfi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/334
+            queryName: Plethodon clemsonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/436
+            queryName: Plethodon shermani rabunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/437
+            queryName: Plethodon shermani melaventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/438
+            queryName: Plethodon metcalfi metcalfi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/439
+            queryName: Plethodon metcalfi clemsonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/440
+            queryName: Plethodon shermani clemsonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/441
+            queryName: Plethodon jordani metcalfi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/442
+            queryName: Plethodon jordani clemsonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/443
+            queryName: Plethodon jordani rabunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/444
+            queryName: Plethodon jordani melaventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36be91d325
+      - s-a15712db16
+      - s-379973fb96
+      - s-8d0776af71
+      - s-49f9c05e92
+      - s-616f1dd4b1
+      - s-57a153ef74
+      - s-5551fb3d58
+      - s-49a463e86a
+      - s-4d46aa5abd
+      - s-4f0db5d4d0
+      - s-991dd09586
+      - s-44b56b4588
+      - s-5d7a3abcf8
+      - s-763ba75ff6
+      - s-6e77f06611
+    zh:
+      - s-423e11356a
+      - s-8927bdf72b
+      - s-195f943760
+      - s-6652435369
+      - s-952d5d286f
+      - s-af0d4e6a75
+      - s-55be208aba
+      - s-8881b70c29
+      - s-41e992fa2e
+      - s-e7bf460a27
+      - s-0cda42aedd
+      - s-295da4168f
+      - s-9f199e960d
+      - s-67f6f18cea
+      - s-0be36b00dc
+      - s-7396366fca

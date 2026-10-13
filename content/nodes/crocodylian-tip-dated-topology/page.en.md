@@ -1,0 +1,3 @@
+## A tip-dated test of crown-crocodylian relationships {#s-f372d4d44c}
+How can a long fossil record be reconciled with a comparatively recent molecular split among living crocodilians? The preferred tip-dated analysis combines 25 living and 92 extinct taxa, 278 anatomical characters and 9,284 molecular base pairs. It groups Gavialis with Tomistoma and places the sampled thoracosaurs outside the living crown. Morphology-only, parsimony and undated analyses differ, so the topology and divergence times are outputs of this model’s taxon sample, character weights, clock assumptions and priors—not observed dates or ancestor relationships.
+

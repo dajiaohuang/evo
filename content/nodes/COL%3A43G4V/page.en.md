@@ -1,0 +1,3 @@
+## ## Retrorse prickles and three-part flowers {#s-aff00f28c0}
+The Brazilian Flora 2020 entry records pubescent stems with spreading simple hairs and retrorse, scattered prickles. Setae and short shoots are absent; glandular hairs are absent or capitate. The stipules persist, while extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are ellipsoid, with floral bracts shorter than the flowers before they open. The flowers have three perianth parts and a membranous calyx without lobes; the hairless corolla lobes have one to three veins. The androecium is diplostemonous, with pink filaments. The habitat is recorded as “terrestrial,” without a locality or more specific habitat description.
+

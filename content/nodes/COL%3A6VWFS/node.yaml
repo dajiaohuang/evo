@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis orpacobates
+  displayName: Pristimantis orpacobates
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VWFS
+  sourceIndexes:
+    - name:
+        en: Pristimantis orpacobates
+        zh: Pristimantis orpacobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VWFS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/461
+            queryName: Pristimantis orpacobates
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/467
+            queryName: Eleutherodactylus orpacobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-479ddcdaf6
+      - s-4cbb508873
+      - s-a22da0d64e
+      - s-b279ec23ca
+      - s-eb6cb9ff4f
+      - s-afd48b893a
+      - s-a648feae31
+      - s-6fd4bae8df
+      - s-47ef51533d
+    zh:
+      - s-9b93e990fe
+      - s-6dde8f9c7b
+      - s-a5de75ed18
+      - s-18fed1605f
+      - s-59ece55d0f
+      - s-25347aa151
+      - s-398fe537ea
+      - s-c6801e347c
+      - s-873633535e

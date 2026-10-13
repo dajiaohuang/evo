@@ -1,0 +1,113 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Conohyus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Conohyus
+      en: Conohyus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ec6c84a2dd
+            part: body
+          en:
+            page: en
+            section: s-1c792c2c2f
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-722a203e37
+            part: body
+          en:
+            page: en
+            section: s-c73c2cb6fd
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Conohyus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=56989
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:56989
+          readingTargets:
+            - name: Conohyus huenermanni
+              pbdbTaxonId: txn:94600
+              canonicalPath: content/nodes/PBDB%3A94600
+            - name: Conohyus indicus
+              pbdbTaxonId: txn:105492
+              canonicalPath: content/nodes/PBDB%3A105492
+            - name: Conohyus sindiensis
+              pbdbTaxonId: txn:105496
+              canonicalPath: content/nodes/PBDB%3A105496
+            - name: Conohyus simorrensis
+              pbdbTaxonId: txn:105494
+              canonicalPath: content/nodes/PBDB%3A105494
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b35f238817
+        part: body
+      en:
+        page: en
+        section: s-c086114fe9
+        part: body

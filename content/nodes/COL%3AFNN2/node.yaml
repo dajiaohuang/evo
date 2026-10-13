@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus weygoldti
+  displayName: Aplastodiscus weygoldti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNN2
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus weygoldti
+        zh: Aplastodiscus weygoldti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNN2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/96
+            queryName: Aplastodiscus weygoldti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/498
+            queryName: Hyla weygoldti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/480
+            queryName: Boana weygoldti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51b086e1e2
+      - s-42815a5d00
+      - s-1aadf7655c
+      - s-368681cd1e
+      - s-3a015380ed
+      - s-7f9817eca7
+      - s-d41801ce0e
+      - s-bb81589d8c
+      - s-783c479b69
+      - s-f0cee0c8dd
+      - s-fbf4ab212b
+      - s-2e2f0183b6
+      - s-559fe9d6db
+      - s-0e4a8a8333
+      - s-f29d7575c7
+      - s-c1695a94d0
+      - s-6a90442d97
+    zh:
+      - s-a9f36b6f29
+      - s-7f4f8def0c
+      - s-e74b91cf92
+      - s-e251eeb852
+      - s-a937dafe6b
+      - s-3005eb3101
+      - s-a91a673094
+      - s-296779c92d
+      - s-343b1f4f4b
+      - s-d9c4fc233d
+      - s-d5bc151103
+      - s-04aa5b87d7
+      - s-bc6cb43caf
+      - s-e5c341ce81
+      - s-588d385406
+      - s-3a5a3863b1
+      - s-8139e7edd2

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius rhizophilus
+  displayName: Hyperolius rhizophilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MPZ6
+  sourceIndexes:
+    - name:
+        en: Hyperolius rhizophilus
+        zh: Hyperolius rhizophilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MPZ6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/327
+            queryName: Hyperolius rhizophilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ac5a98b9f
+      - s-7bbae9eb5a
+      - s-df1787bfdf
+      - s-f7fa7686b8
+      - s-656af5704f
+      - s-a87fae5352
+    zh:
+      - s-966a2d753a
+      - s-a22d9a0a23
+      - s-5be8cf2f99
+      - s-910d293d7b
+      - s-70f8b45307
+      - s-dcedfc3088

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis crucis
+  displayName: Chiasmocleis crucis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ24
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis crucis
+        zh: Chiasmocleis crucis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ24
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/246
+            queryName: Chiasmocleis crucis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9bd1617418
+      - s-b57b01f922
+      - s-c5f3ace42a
+      - s-19af5fb40d
+      - s-6ec8114945
+      - s-259b9a9311
+      - s-97ba17972f
+      - s-1168d758f3
+      - s-53cd53ab6b
+      - s-267db7119e
+      - s-78feb31c2c
+      - s-ce69f623b4
+      - s-00e8dded9e
+      - s-956f813064
+    zh:
+      - s-4e558d40c0
+      - s-b58962a24c
+      - s-c86a20e961
+      - s-c225e989b0
+      - s-4f71c470e4
+      - s-a50bf1e677
+      - s-b39786e0ba
+      - s-ba5f4b8e4a
+      - s-8eae3de6d6
+      - s-fadd08a702
+      - s-f840ef2488
+      - s-a57ceeb6de
+      - s-77cb3588c1
+      - s-43b85f9b07

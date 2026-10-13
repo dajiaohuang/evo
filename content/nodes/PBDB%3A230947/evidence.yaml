@@ -1,0 +1,351 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Yutyrannus huali
+    commonName: Yutyrannus
+    commonNameZh: 羽王龙
+    rank: species
+    taxonId: txn:230947
+    firstAppearance: 0
+    lastAppearance: 0
+    rangeEvidenceLevel: withheld-no-range-evidence
+    extinct: true
+    parentRelationshipKind: taxonomic-parent
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Yutyrannus huali
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Yutyrannus huali
+      en: Yutyrannus huali
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e82a4d2ac1
+            part: body
+          en:
+            page: en
+            section: s-e1c306ef00
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-faa5767847
+            part: body
+          en:
+            page: en
+            section: s-82a957ee18
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-faf0ed3bc4
+            part: body
+          en:
+            page: en
+            section: s-6eebb213f5
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ba9be9b61b
+            part: body
+          en:
+            page: en
+            section: s-0f89dfb33a
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-355774f048
+            part: body
+          en:
+            page: en
+            section: s-03a1f480bf
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Yutyrannus huali
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=230947&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:230947; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:230947
+          selectedOccurrenceIds:
+            - occ:1032618
+          selectedCollectionIds:
+            - col:126447
+          sourceReferenceIds:
+            - ref:41024
+          originalIdentificationMappings:
+            - occurrenceId: occ:1032618
+              originalIdentifiedName: Yutyrannus huali n. gen. n. sp.
+              acceptedName: Yutyrannus huali
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-24586072f4
+        part: body
+      en:
+        page: en
+        section: s-586b54e164
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:230947
+    scientificName: Yutyrannus huali
+    commonName: Yutyrannus
+    commonNameZh: 羽王龙
+    rank: species
+    parentName: Yutyrannus huali
+    extinct: true
+    geography:
+      - Yixian Formation, Liaoning Province, China
+      - "Three-skeleton sample: ZCDM V5000, ZCDM V5001 and ELDM V1001"
+    overview:
+      page: en
+      section: s-8fc3f6864f
+      part: body
+    overviewZh:
+      page: zh
+      section: s-530add3af2
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-bc22605236
+        part: body
+      habitat:
+        page: en
+        section: s-f7770788b2
+        part: body
+      locomotion:
+        page: en
+        section: s-2a436b4ed2
+        part: body
+      bodySize:
+        page: en
+        section: s-6329b09fff
+        part: body
+      guild:
+        page: en
+        section: s-0c0e411368
+        part: body
+      dietZh:
+        page: zh
+        section: zh-8f8cc1df591ffb
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-f87d05c7a0b3be
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-790cd03b0ade2f
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-ca178f09d0e337
+        part: body
+      guildZh:
+        page: zh
+        section: zh-9ba2fab3cf179f
+        part: body
+    traits:
+      - page: en
+        section: s-56f0785c9d
+        part: body
+      - page: en
+        section: s-bfcd3532d4
+        part: body
+      - page: en
+        section: s-73f2fb3b88
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-792ec7ff03
+      part: body
+    readerLimitations:
+      en:
+        page: en
+        section: s-78bac175e2
+        part: body
+      zh:
+        page: zh
+        section: s-64d9be5c74
+        part: body
+    confidence: medium
+    referenceIds:
+      - xu-2012-yutyrannus
+    evidenceSummaryZh:
+      page: zh
+      section: zh-61fc6f37cadc40
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-4add09362b8f96
+        part: body
+      - page: zh
+        section: zh-a20d1e64f5c3e6
+        part: body
+      - page: zh
+        section: zh-c3835d144b6e7c
+        part: body
+  claims:
+    - subjectId: taxon:yutyrannus_huali
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Yutyrannus huali is described from three nearly complete skeletons representing two ontogenetic stages, and its basal tyrannosauroid placement is the result of the study's sampled phylogenetic analysis rather than a direct-ancestor claim.
+      confidence: medium
+      confidenceRationale: "The named specimens and diagnosis are directly reported, while the wider placement depends on character coding, comparative sample and analysis settings. Yutyrannus huali: For the species-level page, this assessment applies to the named species and its cited diagnosis; it does not imply a broader genus sample."
+      referenceLinks:
+        - referenceId: xu-2012-yutyrannus
+          relation: supports
+          pages: 92–95
+          figure: Figure 3; Supplementary Information
+          quoteLocator: Abstract; systematic description; phylogenetic analysis
+    - subjectId: taxon:yutyrannus_huali
+      claimKind: scientific
+      claimType: biogeography
+      statement: This profile's geographic statement is limited to the Lower Cretaceous Yixian Formation of Liaoning Province, China, from which the three named Yutyrannus skeletons were reported; it does not assert a genus-wide distribution.
+      confidence: high
+      confidenceRationale: "The formation and provincial provenance are directly reported for the three-skeleton sample, but that sample cannot establish a complete geographic range. Yutyrannus huali: For the species-level page, this assessment covers the cited occurrence or localities only and does not estimate a complete range."
+      referenceLinks:
+        - referenceId: xu-2012-yutyrannus
+          relation: supports
+          pages: 92–95
+          figure: Figures 1–2; Supplementary Information
+          quoteLocator: Abstract; holotype and referred specimens; locality and horizon
+    - subjectId: taxon:yutyrannus_huali
+      claimKind: scientific
+      claimType: morphology
+      statement: The named Yutyrannus skeletons preserve a three-fingered manus, a typical theropod pes and long filamentous integumentary structures; these described structures do not directly establish their colour, complete body coverage or a single function.
+      confidence: high
+      confidenceRationale: "The primary study documents the named skeletons and their integumentary structures directly; the explicit limits prevent anatomical preservation from being promoted to colour or functional evidence. Yutyrannus huali: For the species-level page, this assessment covers the characters observed in the cited specimens; unsampled variation remains outside it."
+      referenceLinks:
+        - referenceId: xu-2012-yutyrannus
+          relation: supports
+          pages: 92–95
+          figure: Figures 1–2; Supplementary Information
+          quoteLocator: Abstract; specimen descriptions; integumentary structures
+    - subjectId: taxon:yutyrannus_huali
+      claimKind: scientific
+      claimType: ecology
+      statement: The cited study records specimen anatomy, large body size and filamentous integument but does not directly observe diet, habitat preference, locomotor behaviour, insulation, display or performance; those ecological interpretations remain unassigned here.
+      confidence: medium
+      confidenceRationale: "The specimens and their preserved structures are direct evidence, but ecological roles and feather functions require inferences beyond what the study directly observes. Yutyrannus huali: For the species-level page, this assessment covers only ecological inferences tied to the cited specimens; unmeasured fields remain unassigned."
+      referenceLinks:
+        - referenceId: xu-2012-yutyrannus
+          relation: supports
+          pages: 92–95
+          figure: Figures 1–3; Supplementary Information
+          quoteLocator: Abstract; specimen descriptions; phylogenetic analysis
+  claim-rationales.zh:
+    - 具名标本和诊断有直接记录，而更广泛的系统位置依赖性状编码、比较样本和分析设定。 Yutyrannus huali：本种级页面的判断仅适用于所引材料中的该种及其描述，不表示存在更广泛的属级样本。
+    - 三件标本的地层和省级产地有直接记录，但该样本不能建立完整地理分布。 Yutyrannus huali：本种级页面的判断仅覆盖所引化石记录或地点，不据此估算完整分布。
+    - 一手论文直接记录具名骨架及其丝状体被；明确保留其不等同于颜色、全身体被或单一功能的边界。 Yutyrannus huali：本种级页面的判断仅覆盖所引标本中观察到的性状；未取样的种内变异不在此结论内。
+    - 标本和保存结构是直接证据，但生态角色与羽毛功能需要超出论文直接观察的推断。 Yutyrannus huali：本种级页面的判断仅覆盖与所引标本相关的生态推断；未测量字段继续保持未指定。
+  claim-statements.zh:
+    - Yutyrannus huali 依据代表两个个体发育阶段的三具近完整骨骼描述；其基干暴龙超科位置是研究所取样系统发育分析的结果，而非直系祖先主张。
+    - 具名羽王龙骨骼保存三指手部、典型兽脚类足部和长丝状体被结构；这些被描述的结构不能直接确立其颜色、全身体表覆盖或单一功能。
+    - 本档案的地理陈述限定于三具具名羽王龙骨骼所报道的中国辽宁下白垩统义县组；它不宣称属级完整分布。
+    - 所引研究记录了标本解剖、大体型和丝状体被，但没有直接观察食性、生境偏好、运动行为、保温、展示或性能；这些生态解释在此保持未指定。
+  ranges:
+    - entityId: yutyrannus_huali
+      rangeKind: global-composite
+      taxonomicConcept: PBDB accepted fossil species txn:230947 (Yutyrannus huali); profile scope is the cited specimen record, not a global range synthesis
+      geographicScope: Named source locality only; no complete global geographic-temporal range is assigned
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; the cited specimen study does not establish a complete global first and last appearance range.
+      evidenceBasis: The frozen PBDB roster supports accepted name, rank, OID and immediate parent. The selected literature supports the described specimen evidence, not a complete global range for Yutyrannus huali.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: xu-2012-yutyrannus
+          locator: Cited named specimen and locality; no complete global range is claimed.
+  field-claim-overrides:
+    - firstAppearance:
+        status: not-assessed
+      lastAppearance:
+        status: not-assessed

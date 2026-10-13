@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bulbine erectipilosa G.Will.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NPYY, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NPYY; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NPYY
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NPYY
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000762326-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NPYY / WFO wfo-0000762326
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7890_0
+        referenceId: ref-2d3fdd9e-d41b-8afe-a766-12a1e202976f
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbine erectipilosa G.Will. account; SANBI/WFO archive rows 85348 (Morphology), 85091 (Habitat), source identifier 7890.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants perennial, rising from shortly ovoid tubers, 15 x 10 mm, roots orange-brown, spreading downwards, occasionally rebranched 35-70 x1.5-3 mm, a number of fine adventitious roots situated along the whole length of the roots. Leaves up to 5, 50-180 x 6-8 mm x 4 mm thick, erect to suberect spreading, rising from a rosette, very bright shiny green, linear-lanceolate acute from a broad base ca. 8 mm, soon becoming strongly canaliculate on adaxial surface, margins hyaline with a row of erect to suberect spreading fine hairs in the basal two thirds, 0.5-0.6 mm long, margins curling upwards and inwards forming an open tube in the apical third, epidermal surface finely granulate, outer half to one third withering during non-growing winter season. Peduncle plus inflorescences up to 220 x 1.2 mm with up to 8 bracts, 3 very prominent, lower 2 ca.20 mm apart, upper becoming closer, 5-7 mm long and 1.5 mm at base, lanceolate to ovate acuminate; inflorescence dense, with 20 flowers, up to 80 mm, bracts 5 mm long, acuminate, from a 3 mm triangular base, bracts projecting well beyond buds giving a furry appearance to the unopened inflorescence. Flowers angled slightly upwards, all tepals recurved, bright luminous yellow with a green mid-vein, outer tepals elliptic, subacute, 6 x 1.8 mm, inner ovate with margins slightly plicate, obtuse, 6 x 3.2 mm. Filaments yellowish, 5-6 mm long, in a tight bunch around style and all projecting forwards; all anthers 0.6 mm long, outers with a carpet of spreading hairs in upper half, inners with spreading hairs almost the whole length of filaments, hairs narrowly linear ca. 1 mm long. Ovary 1.8 mm in diameter, bright green, ovoid from a flat base with defined sinuses; style 6 mm long, yellowish green with a slight downward curvature in the apical third; stigma with fine papillae arranged stellately. Capsule and seeds not seen.
+            textZh: Bulbine erectipilosa G.Will. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_7890_0
+            locator: "SANBI/WFO archive Morphology row 85348; source identifier 7890.0; cited publication: Williamson, G. 2000. Four new, succulent Bulbine species (Asphodelaceae) from the Western and Eastern Cape Provinces of the Republic of South Africa. Bradleya 18: 31 - 40. [https://doi.org/10.25223/brad.n18.2000.a3]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Growing communally on low exposed rocky outcrops in shallow soil pockets on grassy slopes of low hills. Population occurring about 5 km from the sea.
+            textZh: 该 SANBI 区域物种条目记录的生境：Growing communally on low exposed rocky outcrops in shallow soil pockets on grassy slopes of low hills. Population occurring about 5 km from the sea.
+            sourceIds:
+              - sanbi_7890_0
+            locator: "SANBI/WFO archive Habitat row 85091; source identifier 7890.0; cited publication: Williamson, G. 2000. Four new, succulent Bulbine species (Asphodelaceae) from the Western and Eastern Cape Provinces of the Republic of South Africa. Bradleya 18: 31 - 40. [https://doi.org/10.25223/brad.n18.2000.a3]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

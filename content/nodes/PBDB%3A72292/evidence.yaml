@@ -1,0 +1,169 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Protanystropheus antiquus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Protanystropheus antiquus
+      en: Protanystropheus antiquus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-82388d3096
+            part: body
+          en:
+            page: en
+            section: s-359cd136d0
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-51e782af5e
+            part: body
+          en:
+            page: en
+            section: s-76d86b6fb2
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-edf5825312
+            part: body
+          en:
+            page: en
+            section: s-ae5ee04733
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-14bb89b114
+            part: body
+          en:
+            page: en
+            section: s-85493209e4
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-962bfe4063
+            part: body
+          en:
+            page: en
+            section: s-f2a85d31cb
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Protanystropheus antiquus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=72292&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:72292; original response record indices retained in data/sources/other-reptilia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:72292
+          selectedOccurrenceIds:
+            - occ:1106823
+            - occ:1347584
+            - occ:1347585
+          selectedCollectionIds:
+            - col:96435
+            - col:104812
+            - col:182564
+          sourceReferenceIds:
+            - ref:16920
+            - ref:35501
+            - ref:60738
+          originalIdentificationMappings:
+            - occurrenceId: occ:1106823
+              originalIdentifiedName: Tanystropheus antiquus
+              acceptedName: Protanystropheus antiquus
+              difference: recombined as
+            - occurrenceId: occ:1347584
+              originalIdentifiedName: Tanystropheus antiquus n. sp.
+              acceptedName: Protanystropheus antiquus
+              difference: recombined as
+            - occurrenceId: occ:1347585
+              originalIdentifiedName: Tanystropheus antiquus
+              acceptedName: Protanystropheus antiquus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-a3c38d1a79
+        part: body
+      en:
+        page: en
+        section: s-558240ac71
+        part: body

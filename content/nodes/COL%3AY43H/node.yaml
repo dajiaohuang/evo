@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus ateles
+  displayName: Cophixalus ateles
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43H
+  sourceIndexes:
+    - name:
+        en: Cophixalus ateles
+        zh: Cophixalus ateles
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/428
+            queryName: Cophixalus ateles
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/351
+            queryName: Cophixalus sisyphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/361
+            queryName: Sphenophryne ateles
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b42c6f98e1
+      - s-8585a225d9
+      - s-f082403c34
+      - s-a5081b5c94
+      - s-c0bfc012a5
+      - s-5839ef531a
+      - s-c57edc9b53
+      - s-c12a965f56
+      - s-96107ea90f
+    zh:
+      - s-4333d5597f
+      - s-0c238bbfb4
+      - s-0bc37e22e1
+      - s-8cece72dab
+      - s-f6dceb84ad
+      - s-2328250fce
+      - s-3301b5e0b3
+      - s-0fc53f7f20
+      - s-a35f9d5db7

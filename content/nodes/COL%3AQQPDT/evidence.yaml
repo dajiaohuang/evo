@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nymphargus humboldti Guayasamin, Cisneros-Heredia, McDiarmid & Hutter, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nymphargus humboldti
+      zh: Nymphargus humboldti
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b5329a9036
+            part: title
+          zh:
+            page: zh
+            section: s-bd90cd1175
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b5329a9036
+            part: body
+          zh:
+            page: zh
+            section: s-bd90cd1175
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f523552289
+            part: title
+          zh:
+            page: zh
+            section: s-43687bc4d0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f523552289
+            part: body
+          zh:
+            page: zh
+            section: s-43687bc4d0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-98cf145469
+            part: title
+          zh:
+            page: zh
+            section: s-9f21923625
+            part: title
+        sourceIds:
+          - primary-pmc13061190-qqpdt
+        text:
+          en:
+            page: en
+            section: s-98cf145469
+            part: body
+          zh:
+            page: zh
+            section: s-9f21923625
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-2242161c2e
+            part: title
+          zh:
+            page: zh
+            section: s-b108c19597
+            part: title
+        sourceIds:
+          - primary-pmc13061190-qqpdt
+        text:
+          en:
+            page: en
+            section: s-2242161c2e
+            part: body
+          zh:
+            page: zh
+            section: s-b108c19597
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nymphargus humboldti
+          url: https://www.checklistbank.org/dataset/316115/taxon/QQPDT
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc13061190-qqpdt
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nymphargus humboldti: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4931494a97
+        part: body
+      zh:
+        page: zh
+        section: s-484c31ebaa
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0345097
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        sourceKey: primary-pmc13061190-qqpdt
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/article.xml
+        sourceConcept: Exact frozen accepted name matched to source diagnostic comparison/sampled lineage; qualified candidates and disputed donors kept separately
+        evidenceRead: "Nymphargus humboldti: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Voucher-specific sequence accessions
+              zh: 凭证特定序列登录号
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-qqpdt
+            locator: PMC13061190 XMLTable1 rows7,8,9;article.xml sha256:314f611dc08a4dd271416e510adbd1aacc90024a2f2285743944f3c12582a77f
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e0d2826d6b
+                part: body
+              zh:
+                page: zh
+                section: s-fe3ae91e91
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: What the shared study can support
+              zh: 共享研究能够支持的内容
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-qqpdt
+            locator: PMC13061190 XMLsec004/007/008/009/012;sec027 supplementary captions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-80c87f7013
+                part: body
+              zh:
+                page: zh
+                section: s-ef302989a3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

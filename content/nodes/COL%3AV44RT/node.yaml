@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys daxuemontis
+  displayName: Boulenophrys daxuemontis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V44RT
+  sourceIndexes:
+    - name:
+        en: Boulenophrys daxuemontis
+        zh: Boulenophrys daxuemontis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V44RT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/340
+            queryName: Boulenophrys daxuemontis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ef04ae81df
+      - s-ba5de34210
+      - s-30ad6b96ab
+      - s-4a9783e3be
+      - s-6dcd63d1e9
+      - s-52c881aeb8
+      - s-aafc4aac68
+      - s-cbed507454
+      - s-9a3255d60d
+    zh:
+      - s-77a83d04b6
+      - s-f0a470b653
+      - s-4e5aaf5c51
+      - s-37170d66a2
+      - s-cf27e1eff6
+      - s-a6f7754bea
+      - s-69c8df87c1
+      - s-2c43c4a958
+      - s-1c00d5fa88

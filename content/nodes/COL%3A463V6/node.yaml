@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Necturus beyeri
+  displayName: Necturus beyeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/463V6
+  sourceIndexes:
+    - name:
+        en: Necturus beyeri
+        zh: Necturus beyeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 463V6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/226
+            queryName: Necturus beyeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/463
+            queryName: Necturus lodingi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/464
+            queryName: Necturus maculosus beyeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/282
+            queryName: Necturus beyeri beyeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/283
+            queryName: Necturus punctatus beyeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/486
+            queryName: Necturus punctatus lodingi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c4dcb18d3a
+      - s-411ae24e00
+      - s-47ec512b21
+      - s-d43477ad4e
+      - s-6021e118c4
+      - s-e8970db953
+      - s-987409dde6
+      - s-a6268180f6
+      - s-e2e88fcfce
+      - s-9e06dfca46
+      - s-a24da021ea
+    zh:
+      - s-062e44041a
+      - s-dd5bbdad5c
+      - s-c5e25b7140
+      - s-078966a457
+      - s-8acafc9ffb
+      - s-2c01014bdb
+      - s-90c8d6a03a
+      - s-173effead6
+      - s-794f495451
+      - s-cda37437b3
+      - s-3c0cfc9a92

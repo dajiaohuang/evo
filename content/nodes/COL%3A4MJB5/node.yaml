@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis cajamarcensis
+  displayName: Pristimantis cajamarcensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJB5
+  sourceIndexes:
+    - name:
+        en: Pristimantis cajamarcensis
+        zh: Pristimantis cajamarcensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJB5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/170
+            queryName: Pristimantis cajamarcensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/52
+            queryName: Eleutherodactylus cajamarcensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cf67e5c902
+      - s-79b4876867
+      - s-023a40146a
+      - s-f94e0dfedb
+      - s-5e4aa6accd
+      - s-25770c90d8
+      - s-7662ca95ca
+      - s-0991ff5f15
+      - s-d595b7a20e
+    zh:
+      - s-9939068c38
+      - s-feb4d3fd5f
+      - s-a8c549b52e
+      - s-fa601fa121
+      - s-70130b2c05
+      - s-850f3f2450
+      - s-707a6ddc2c
+      - s-7f69e1418b
+      - s-f6e9194b1d

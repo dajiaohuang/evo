@@ -1,0 +1,98 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mico chrysoleucos (Wagner, 1842)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Golden-white Tassel-ear Marmoset
+      zh: 金白簇耳绒猴
+    sections:
+      - topic: distribution
+        text:
+          en:
+            page: en
+            section: s-ed2d5d4fc2
+            part: body
+          zh:
+            page: zh
+            section: s-9f1bd232c0
+            part: body
+        sourceIds:
+          - chrysoleucos2018
+          - chrysoleucos2023
+      - topic: habitat
+        text:
+          en:
+            page: en
+            section: s-8d795e98b6
+            part: body
+          zh:
+            page: zh
+            section: s-5edfb45e70
+            part: body
+        sourceIds:
+          - chrysoleucos2018
+          - chrysoleucos2023
+    sources:
+      - id: chrysoleucos2018
+        referenceId: ref-694d5773-4517-8a3b-a012-b89d0dbc7ba7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports the 44-day multiyear survey, 14 records and the reported southern extension in the middle Madeira region.
+            zh: 支持 44 个调查日、多年调查中的 14 条记录，以及中 Madeira 地区南向分布延伸报告。
+      - id: chrysoleucos2023
+        referenceId: ref-da005a51-3139-8269-a75c-85d391ce09df
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports 12 new M. chrysoleucos records, eastern extension onto Ilha Tupinambarana and site-limited habitat observations from 2015–2018.
+            zh: 支持 12 条 M. chrysoleucos 新记录、向东延伸至 Ilha Tupinambarana 及 2015—2018 年地点范围内的生境观察。
+      - id: mdd_name
+        referenceId: ref-088262d3-00ec-89fd-a5c1-b6803f066b99
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common name Golden-white Tassel-ear Marmoset only; it does not support the field findings or replace the pinned COL identity.
+            zh: 仅支持英文普通名 Golden-white Tassel-ear Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 · source 2144
+            zh: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/6RGMY
+          scope:
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+    limitations:
+      en:
+        page: en
+        section: s-831094794b
+        part: body
+      zh:
+        page: zh
+        section: s-cb04900c1c
+        part: body

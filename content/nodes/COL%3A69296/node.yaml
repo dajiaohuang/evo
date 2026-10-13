@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus ephippium
+  displayName: Brachycephalus ephippium
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69296
+  sourceIndexes:
+    - name:
+        en: Brachycephalus ephippium
+        zh: Brachycephalus ephippium
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "69296"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/411
+            queryName: Brachycephalus ephippium
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 46
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/169
+            queryName: Brachycephalus atelopoide
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/216
+            queryName: Bufo ephippium
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/217
+            queryName: Ephippipher spixii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/218
+            queryName: Ephippipher aurantiacus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/219
+            queryName: Brachycephalus aurantiacus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/344
+            queryName: Brachycephalus ephippium atelopoide
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-16db272c48
+      - s-e0cbde9ffe
+      - s-9dce90b6d8
+      - s-40b087546a
+      - s-e1ca35592b
+      - s-6ec6e57a1a
+      - s-ae8c95d006
+      - s-8649618d93
+      - s-5a597bcb97
+      - s-ca9a2c1e56
+      - s-e0d216da9d
+      - s-ad59f39f30
+      - s-a8be324c0c
+      - s-d351d5fba9
+      - s-2ed69df9ed
+      - s-83b0e98b6d
+      - s-a3df3de3db
+      - s-e020d8550d
+      - s-ea01e2813b
+    zh:
+      - s-be63611e94
+      - s-f2bba62c6f
+      - s-efe99efd6e
+      - s-5447d806f8
+      - s-43ef34c922
+      - s-aa85a1d6a3
+      - s-6018ffda65
+      - s-30a392d680
+      - s-68557e8ef3
+      - s-7be2a84948
+      - s-e1c9587baa
+      - s-b59cc30e32
+      - s-c7f557c34e
+      - s-d72e793156
+      - s-5906274cef
+      - s-6ee0633d9d
+      - s-7c983fcc98
+      - s-4f6ad900a8
+      - s-04ef9fdb77

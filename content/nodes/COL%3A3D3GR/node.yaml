@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea aquatica
+  displayName: Eurycea aquatica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3GR
+  sourceIndexes:
+    - name:
+        en: Eurycea aquatica
+        zh: Eurycea aquatica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3GR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/408
+            queryName: Eurycea aquatica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/462
+            queryName: Eurycea bislineata aquatica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f6c59c7c95
+      - s-5812b30f7b
+      - s-5b45693c82
+      - s-bec7926dd5
+      - s-6f752b74dd
+      - s-b71d09adf6
+      - s-61719b8e12
+      - s-bfceac86f7
+    zh:
+      - s-95c72ce8ac
+      - s-3ce675b2bb
+      - s-78770daac8
+      - s-497a469887
+      - s-40a17fd35a
+      - s-40e35fe16a
+      - s-40b1e6f496
+      - s-d75efd60c9

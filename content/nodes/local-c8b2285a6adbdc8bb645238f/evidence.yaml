@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nymphargus manduriacu
+    name:
+      en: Nymphargus manduriacu
+      zh: Nymphargus manduriacu
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Nymphargus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e53b1f8c0b
+            part: body
+          zh:
+            page: zh
+            section: s-bfb78cff5a
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7f95ee71fe
+            part: body
+          zh:
+            page: zh
+            section: s-be13907bba
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3679, 3680; Reference.csv rows 939
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3679
+        values:
+          - Centrolenidae
+          - Nymphargus
+          - Nymphargus manduriacu
+          - M
+          - "25"
+          - "8.2"
+          - "8.866666667"
+          - "3.233333333"
+          - "0.9"
+          - NA
+          - "3.833333333"
+          - "2.266666667"
+          - "2.15"
+          - NA
+          - "2.933333333"
+          - NA
+          - "8.833333333"
+          - "5.6"
+          - NA
+          - "11.56666667"
+          - NA
+          - "14.73333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.233333333"
+          - "5.166666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3680
+        values:
+          - Centrolenidae
+          - Nymphargus
+          - Nymphargus manduriacu
+          - F
+          - "28.8"
+          - "8.7"
+          - "10.2"
+          - "3.8"
+          - "1.2"
+          - NA
+          - "4"
+          - "2.4"
+          - "2.6"
+          - NA
+          - "3.7"
+          - NA
+          - "10"
+          - "6.9"
+          - NA
+          - "13.8"
+          - NA
+          - "18"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.4"
+          - "6.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 939
+        values:
+          - Anura
+          - Nymphargus_manduriacu
+          - Guayasamin, J. M., Cisneros-Heredia, D. F., Vieira, J., Kohn, S., Gavilanes, G., Lynch, R. L., . . . Maynard, R. J. (2019). A new glassfrog (Centrolenidae) from the Choco-Andean Rio Manduriacu Reserve, Ecuador, endangered by mining. PeerJ, 7, e6400. https://doi.org/10.7717/peerj.6400
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - Fin1L
+      - Fin2L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 486JS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

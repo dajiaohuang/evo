@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gastrotheca dysprosita Duellman, 2013
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Gastrotheca dysprosita
+      zh: Gastrotheca dysprosita
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-331736634f
+            part: title
+          zh:
+            page: zh
+            section: s-34e4e8d495
+            part: title
+        text:
+          en:
+            page: en
+            section: s-331736634f
+            part: body
+          zh:
+            page: zh
+            section: s-34e4e8d495
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-787d2ea2c2
+            part: title
+          zh:
+            page: zh
+            section: s-bb8238bb88
+            part: title
+        text:
+          en:
+            page: en
+            section: s-787d2ea2c2
+            part: body
+          zh:
+            page: zh
+            section: s-bb8238bb88
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: limitations
+        title:
+          en: Limits of name-matched references
+          zh: 名称检索文献的适用范围
+        text:
+          en:
+            page: en
+            section: s-0928f16069
+            part: body
+          zh:
+            page: zh
+            section: s-668acee0ea
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gastrotheca dysprosita
+          url: https://www.checklistbank.org/dataset/316115/taxon/6K9WK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f302ef3cc8
+        part: body
+      zh:
+        page: zh
+        section: s-43227cf7e8
+        part: body

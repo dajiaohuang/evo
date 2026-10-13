@@ -1,0 +1,12 @@
+## Which source name is assigned to this tadpole record? {#s-f5405cddec}
+This record shows how TadpoleTraits files tadpoles under Xenopus laevis. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Xenopus laevis in Xenopus and Pipidae. In the literature table, rows 4373 list Xenopus laevis in both the source Species and ASTW assignment fields. In the image-measurement table, rows 1922, 1923 list Xenopus laevis in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-7915692991}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 1 literature row and 2 image-measurement rows for this source record. Literature Stage values are no Stage values are populated; blank cells in rows 4373. The Sample size cells are blank in all 1 literature rows; blank is not read as zero. Image-table Stage values are 26 (Judging based on the picture) (row 1922); 33 (row 1923); Type labels are Ratio, Measurement and image types are Hand-drawn picture, Black-and-white image. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-feafc81a24}
+The image-derived records support these source proportions: body length / total length = 0.296088 (image row 1922, stage 26 (Judging based on the picture), Hand-drawn picture); tail length / total length = 0.690907 (image row 1922, stage 26 (Judging based on the picture), Hand-drawn picture); maximum body height / total length = 0.134225 (image row 1922, stage 26 (Judging based on the picture), Hand-drawn picture); maximum tail height / total length = 0.135942 (image row 1922, stage 26 (Judging based on the picture), Hand-drawn picture); tail muscle height / total length = 0.084743 (image row 1922, stage 26 (Judging based on the picture), Hand-drawn picture). Each value describes only its cited image row; it is not a species-wide estimate.
+
+## Where do the supplied ratios disagree? {#s-0ae63b88c5}
+The source ratio cells in image row 1923 contain 1 discrepancies from the quotient of the same-row numerator and total length, including fields TMW/TL. Their original values remain in the evidence record; no correction is substituted and these cells are not used as proportions.
+

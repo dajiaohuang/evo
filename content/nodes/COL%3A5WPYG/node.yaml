@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus sulfuratus
+  displayName: Brachycephalus sulfuratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPYG
+  sourceIndexes:
+    - name:
+        en: Brachycephalus sulfuratus
+        zh: Brachycephalus sulfuratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPYG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/434
+            queryName: Brachycephalus sulfuratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-feff5be226
+      - s-a795c353e3
+      - s-af767022d8
+      - s-4c4d5ddff6
+      - s-a0f715cf04
+      - s-04ea1ea116
+      - s-6789f9c550
+      - s-25a46720e1
+      - s-e76fc1e67e
+      - s-cdb58f6d9e
+      - s-4ab8090459
+      - s-f2817a3bb5
+      - s-43928bd7bc
+    zh:
+      - s-d1b53f753f
+      - s-43f8c2ba02
+      - s-c9c3fdd342
+      - s-497d716808
+      - s-0b4e5b9a00
+      - s-bbe0327fa4
+      - s-17ff3455a9
+      - s-134ebae57e
+      - s-d13dc5a4d9
+      - s-e4a4ec40c4
+      - s-558b1b7e13
+      - s-3c1d72435f
+      - s-a9753ea8ee

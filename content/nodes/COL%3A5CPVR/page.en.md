@@ -1,0 +1,3 @@
+## *Xyris velutina*: two-ranked leaves with hooked tips {#s-44c70b83d4}
+The Brazilian Flora 2020 regional field records two-ranked leaves with dark brown to reddish-brown sheaths, strongly widened at the base and sometimes ear-lobed. The sheaths are hairy, and no ligule is recorded. The flattened blades are rough or transversely wrinkled, with hairs or velvety growth along the margins and hooked tips. The 50–70 cm flowering stalk is triangular in cross-section, with several ridges and hairs mainly on those ridges. The field records four sterile bracts, 10–25 flowers, and seeds ranging from globose to inversely egg-shaped. These are regional character fields with listed alternatives.
+

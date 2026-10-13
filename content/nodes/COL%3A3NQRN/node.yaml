@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius bolifambae
+  displayName: Hyperolius bolifambae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQRN
+  sourceIndexes:
+    - name:
+        en: Hyperolius bolifambae
+        zh: Hyperolius bolifambae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQRN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/227
+            queryName: Hyperolius bolifambae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/333
+            queryName: Hyperolius erythropus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6931e9cb17
+      - s-027ab521ab
+      - s-981e76ec0b
+      - s-5571a70969
+      - s-143701686c
+      - s-e753379a43
+      - s-3e05523b69
+      - s-9f5a1ce007
+    zh:
+      - s-2abd9d9b17
+      - s-3d0af15063
+      - s-7741d0a30d
+      - s-812d6dfcc3
+      - s-40e62c8200
+      - s-067c3e8e63
+      - s-c25c825dfd
+      - s-b22d47b541

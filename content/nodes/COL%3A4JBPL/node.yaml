@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pithecopus nordestinus
+  displayName: Pithecopus nordestinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JBPL
+  sourceIndexes:
+    - name:
+        en: Pithecopus nordestinus
+        zh: Pithecopus nordestinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JBPL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/366
+            queryName: Pithecopus nordestinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/319
+            queryName: Phyllomedusa nordestina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9bb575d677
+      - s-edde01dd36
+      - s-ed154fdfaf
+      - s-1e2796031f
+      - s-37700269f4
+      - s-2a63281407
+      - s-0aff7f0f03
+      - s-384da43854
+      - s-9efddd2ccc
+      - s-d70febbdf4
+      - s-7bb33158b8
+    zh:
+      - s-16c3af35e8
+      - s-5b3cb1e3bd
+      - s-8da25bea54
+      - s-fd82b495c0
+      - s-c5784bbe73
+      - s-cf919eb8cd
+      - s-f4aff8e65b
+      - s-db6984e7de
+      - s-0ec3ab82e9
+      - s-ee43fe8387
+      - s-26e587013c

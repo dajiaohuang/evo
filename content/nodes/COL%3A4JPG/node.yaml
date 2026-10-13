@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Fejervarya
+  displayName: Fejervarya
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JPG
+  sourceIndexes:
+    - name:
+        en: Fejervarya
+        zh: Fejervarya
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JPG
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/393
+            queryName: Fejervarya
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 358
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3ec3ed4a48
+      - s-156e7ef577
+      - s-ccf94bb175
+      - s-2284492c4b
+      - s-be28bab881
+      - s-1a579ad39f
+      - s-1ba585235b
+      - s-483481fb7c
+      - s-75bb598563
+      - s-f86669c7a8
+      - s-1bfec15276
+      - s-d5ca79c29f
+      - s-c959ba0569
+      - s-68e99324e6
+      - s-0a76aa0b80
+      - s-b3225b4512
+      - s-bfb54ef948
+    zh:
+      - s-9218fb8e8b
+      - s-c0b3433953
+      - s-a821a07702
+      - s-d99b98c924
+      - s-8e556cac05
+      - s-408653c43a
+      - s-68f2f5cf32
+      - s-770dd20d49
+      - s-a1d5938437
+      - s-f3d0002b80
+      - s-ad2e8c0af8
+      - s-019001f301
+      - s-d6446f9cf7
+      - s-b27aaac244
+      - s-f16e9072c4
+      - s-e733be81c8
+      - s-3556e97f30

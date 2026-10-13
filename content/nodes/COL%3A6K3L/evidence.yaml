@@ -1,0 +1,360 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pedostibes Günther, 1876
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Pedostibes
+      zh: Pedostibes
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-25e46a8a75
+            part: title
+          zh:
+            page: zh
+            section: s-e82ee8c464
+            part: title
+        text:
+          en:
+            page: en
+            section: s-25e46a8a75
+            part: body
+          zh:
+            page: zh
+            section: s-e82ee8c464
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1ae19f86bd
+            part: title
+          zh:
+            page: zh
+            section: s-37f16c6efd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1ae19f86bd
+            part: body
+          zh:
+            page: zh
+            section: s-37f16c6efd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-35be467115
+            part: title
+          zh:
+            page: zh
+            section: s-49343e04b3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-35be467115
+            part: body
+          zh:
+            page: zh
+            section: s-49343e04b3
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e1d00c388a
+            part: title
+          zh:
+            page: zh
+            section: s-db9cf07190
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e1d00c388a
+            part: body
+          zh:
+            page: zh
+            section: s-db9cf07190
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-5c5913378a
+            part: title
+          zh:
+            page: zh
+            section: s-5b4345bded
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6TXVF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6TXVF
+            label:
+              en: Pedostibes tuberculosus
+              zh: Pedostibes tuberculosus
+        text:
+          en:
+            page: en
+            section: s-5c5913378a
+            part: body
+          zh:
+            page: zh
+            section: s-5b4345bded
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc4740822-6k3l
+        title:
+          en:
+            page: en
+            section: s-48441c7b47
+            part: title
+          zh:
+            page: zh
+            section: s-ae07d5ca66
+            part: title
+        text:
+          en:
+            page: en
+            section: s-48441c7b47
+            part: body
+          zh:
+            page: zh
+            section: s-ae07d5ca66
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc4740822-6k3l
+        title:
+          en:
+            page: en
+            section: s-7ec413612a
+            part: title
+          zh:
+            page: zh
+            section: s-47e164f231
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7ec413612a
+            part: body
+          zh:
+            page: zh
+            section: s-47e164f231
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc4740822-6k3l
+        title:
+          en:
+            page: en
+            section: s-1761456f91
+            part: title
+          zh:
+            page: zh
+            section: s-444fe18260
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6TXVF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6TXVF
+            label:
+              en: Pedostibes tuberculosus
+              zh: Pedostibes tuberculosus
+        text:
+          en:
+            page: en
+            section: s-1761456f91
+            part: body
+          zh:
+            page: zh
+            section: s-444fe18260
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pedostibes
+          url: https://www.checklistbank.org/dataset/316115/taxon/6K3L
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Pedostibes; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc4740822-6k3l
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pedostibes tuberculosus: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected Pedostibes comparison records, methods and source limits from the Andaman toad description
+            zh: 安达曼蟾蜍描述中的选定 Pedostibes 比较记录、方法及来源限制
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7815aba5e5
+        part: body
+      zh:
+        page: zh
+        section: s-02f5a0c692
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Pedostibes
+      sourceRowIds:
+        - Anf0734
+        - Anf0735
+        - Anf0736
+        - Anf0737
+        - Anf0738
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 5
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 5
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 5
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-direct-group-pmc4740822-6k3l
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Selected Pedostibes comparisonlabels retainvoucher/sequence/focal roles; notfullgenusdiagnosis/currentconceptcertification
+        evidenceRead: "Pedostibes tuberculosus: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Selected comparison records retain their roles
+              zh: 选定比较记录保留各自角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-6k3l
+            locator: PMC4740822 XMLTable3idT6/App1 sourceentries;sec26;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6ad81f2e05
+                part: body
+              zh:
+                page: zh
+                section: s-2a0c681918
+                part: body
+            scope:
+              en: Selected Pedostibes comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Pedostibes 比较记录、方法及来源限制
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Mitochondrial and specimen scope
+              zh: 线粒体与标本范围
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-6k3l
+            locator: PMC4740822 XMLsec4/27;Table3idT6;Table6idT5;App1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b4dfa05022
+                part: body
+              zh:
+                page: zh
+                section: s-4b48846842
+                part: body
+            scope:
+              en: Selected Pedostibes comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Pedostibes 比较记录、方法及来源限制
+    primaryResearchGroupSynthesisComplete: false

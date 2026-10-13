@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulengerula fischeri
+  displayName: Boulengerula fischeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MR6X
+  sourceIndexes:
+    - name:
+        en: Boulengerula fischeri
+        zh: Boulengerula fischeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MR6X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/317
+            queryName: Boulengerula fischeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bbc18559e3
+      - s-867ab7fc4a
+      - s-5d6f9be7da
+      - s-6cbc7c697d
+      - s-4ebe947ee3
+      - s-d592eabea0
+      - s-7e2325042d
+      - s-2464652824
+      - s-323d3fa60e
+      - s-2e4b3f3589
+      - s-2c4d5dd3c9
+    zh:
+      - s-4a58caa283
+      - s-ffc25cacf7
+      - s-3948e83bd7
+      - s-87d6046b06
+      - s-9d4d0dde91
+      - s-485c684742
+      - s-ff5c8be39a
+      - s-044e3badbd
+      - s-6bc67b3899
+      - s-395d04c2d4
+      - s-a47d79629f

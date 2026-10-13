@@ -1,0 +1,9 @@
+## The dataset entry {#s-58329cc7db}
+The pinned AmphiTherm curated snapshot records Pseudacris triseriata under Hylidae, Anura. It retains 83 thermal estimate rows across 8 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-61256d3fe2}
+Source row 1117 (ID 1266; Cupp_1980) reports 35.8680203 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as larvae. The source population code is Pseudacris_triseriata_pop1. Recorded conditions include acclimation at 10 °C, medium_test_temp = water. The source reports 0.319796954 °C as its standard deviation. The source n_trait field is 10. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-3858ba6c35}
+Source row 2479 (ID 2706; John-Alder_et_al_1988) reports 0.25 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as adults. The source population code is Pseudacris_triseriata_pop5. Recorded conditions include acclimation at 21.5 °C, medium_test_temp = water. The source reports 0.058 °C as its standard deviation. The source n_trait field is 4. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

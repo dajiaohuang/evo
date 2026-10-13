@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-3c98f2d573
+      part: title
+    titleZh:
+      page: zh
+      section: s-a9d6f038ce
+      part: title
+    category: transition
+    startAge: 205.7
+    endAge: 201.4
+    regions:
+      - Tait Bjerg Beds, Fleming Fjord Formation, East Greenland
+    clades:
+      - Mammaliaformes
+      - Haramiyida
+      - Haramiyavia clemmenseni
+    summary:
+      page: en
+      section: s-3c98f2d573
+      part: body
+    summaryZh:
+      page: zh
+      section: s-a9d6f038ce
+      part: body
+    claimIds:
+      - claim:event:haramiyavia-ct-crown-boundary
+    evidenceItems:
+      - statement: CT scans and three-dimensional occlusal reconstruction of mandibles MCZ7/95A–B and maxilla MCZ10/G95 documented the dentary condyle, postdentary trough and tooth-wear geometry used in the study's MorphoBank Project 2292 character matrix.
+        relation: supports
+        claimIds:
+          - claim:event:haramiyavia-ct-crown-boundary
+        referenceLinks:
+          - referenceId: luo-2015-haramiyavia
+            relation: supports
+            pages: E7102–E7106
+            figure: Figures 1–4; Supplementary Figures S1–S8
+            quoteLocator: Results; Materials and Methods; SI Materials and Methods
+    uncertaintyItems:
+      - statement: The postdentary trough supports a mandibular-middle-ear interpretation, but the auditory ossicles are not preserved in articulation; the event therefore separates observed jaw anatomy from an ear-function inference.
+        relation: contextualizes
+        claimIds:
+          - claim:event:haramiyavia-ct-crown-boundary
+        referenceLinks:
+          - referenceId: luo-2015-haramiyavia
+            relation: supports
+            pages: E7103–E7105
+            figure: Figures 1 and 2
+            quoteLocator: Mandible morphology; Mandibular middle ear
+      - statement: Placement outside crown Mammalia is a result of the published matrix and rescoring, not an intrinsic label carried by the fossil or a universal calibration; competing haramiyidan placements require explicit alternative analyses.
+        relation: contextualizes
+        claimIds:
+          - claim:event:haramiyavia-ct-crown-boundary
+        referenceLinks:
+          - referenceId: luo-2015-haramiyavia
+            relation: supports
+            pages: E7105–E7108
+            figure: Figure 4
+            quoteLocator: Phylogenetic results; Discussion
+  claims:
+    - subjectId: event:haramiyavia-ct-crown-boundary
+      claimKind: scientific
+      claimType: topology
+      statement: CT anatomy and dental wear from MCZ7/95A–B and MCZ10/G95 informed a rescored matrix that placed Late Triassic haramiyids outside crown Mammalia, while the postdentary trough supports rather than directly preserves a mandibular middle ear.
+      confidence: medium
+      confidenceRationale: Named specimens, tomographic observations, wear reconstruction and MorphoBank Project 2292 are available. Medium confidence keeps crown placement conditional on this character matrix and separates preserved jaw surfaces from inferred auditory anatomy.
+      referenceLinks:
+        - referenceId: luo-2015-haramiyavia
+          relation: supports
+          pages: E7101–E7109
+          figure: Figures 1–4; Supplementary Figures S1–S8
+          quoteLocator: Results; Phylogenetic analysis; Materials and Methods
+  claim-rationales.zh:
+    - 具名标本、断层扫描观察、磨耗复原和 MorphoBank 2292 项目均可核查。中等置信度把冠群位置限定于该性状矩阵，并区分保存的颌面结构与推断的听觉解剖。
+  claim-statements.zh:
+    - MCZ7/95A–B 与 MCZ10/G95 的 CT 解剖和牙齿磨耗用于重新评分的矩阵，该矩阵将晚三叠世贼兽类置于哺乳动物冠群之外；齿骨后沟仅支持下颌中耳解释，并未直接保存中耳。

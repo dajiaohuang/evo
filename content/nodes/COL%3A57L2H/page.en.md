@@ -1,0 +1,3 @@
+## What fruit and flower traits are recorded for Tovomita clusiiflora? {#s-90c0a4500a}
+The record notes slight stilt-root development and yellow exudate. Its elliptic to obovate leaves have green stalks and curved side veins; when dry, they may look green or coppery. The underside lacks papillae. Male and female plants have dichasial flower clusters. Flowers have four sepals, four to six petals, and flattened stamens or staminodes; the female structures have six chambers and six styles. The elliptic fruit has six valves, a smooth outer wall, and red inner flesh. Seeds have an orange aril with vein-like markings.
+

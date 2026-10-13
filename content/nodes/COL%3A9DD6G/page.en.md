@@ -1,0 +1,3 @@
+## ## Hirsute stems and tomentose corolla lobes {#s-3425d412bb}
+The Brazilian Flora 2020 entry records hispid stems with incurved simple hairs, unbranched thread-like setae and capitate glandular hairs; branched setae, prickles and short shoots are absent. The stipules are shed, and extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose, with floral bracts longer than the flowers before opening. The flowers have four perianth parts and a membranous calyx without lobes. Corolla lobes are tomentose and have one to three veins; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial” without giving a locality or more specific habitat.
+

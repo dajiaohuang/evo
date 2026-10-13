@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Beiyanerpeton
+  displayName: Beiyanerpeton
+  rank: genus
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=242131
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Beiyanerpeton
+        zh: Beiyanerpeton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: null
+          rank: group
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/386
+            queryName: Beiyanerpeton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=242131
+      placement: PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted
+  subjectPath: content/nodes/PBDB%3A242131
+  scopeRecord: atlas-profile
+  packagePath: data/packages/vertebrata/amphibia
+relationships: []
+structure:
+  sections:
+    en:
+      - s-19d98e9516
+      - s-afc3b1b2b1
+      - s-c0b5fdb604
+      - s-ffc22297f1
+      - s-617f7f4ad0
+      - s-e824f79aaf
+      - s-d9da900ff7
+      - s-fd8fb67e92
+      - s-9819403e60
+      - s-a7c7f8e4b4
+      - s-dcb02f0e9a
+      - s-60e96da13b
+      - s-397ed8ad98
+      - s-2139cb6c60
+      - s-01a76b0662
+      - s-d920cc99bb
+    zh:
+      - s-fda29c0e44
+      - s-8f84c8377e
+      - s-c1946cbcf4
+      - s-69bc0c4eff
+      - s-a0514ddafd
+      - s-5cde4367bc

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sarcohyla
+  displayName: Sarcohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7CFD
+  sourceIndexes:
+    - name:
+        en: Sarcohyla
+        zh: Sarcohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7CFD
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/246
+            queryName: Sarcohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 43
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-11ff473944
+      - s-c79e55e3b0
+      - s-b2f090dcaf
+      - s-efa90b041a
+      - s-38e8a95c2a
+      - s-eb29b2cc6a
+      - s-607b456f37
+      - s-d0ebcd2d5d
+      - s-b96f4c0113
+      - s-00339891f8
+      - s-6f71b43c9a
+      - s-5b75d37706
+      - s-0df7dab68a
+      - s-9c08185aab
+      - s-626c3df1c3
+      - s-6712f38526
+    zh:
+      - s-c21a90d54e
+      - s-6a46593228
+      - s-daaef6a205
+      - s-bdbb8a55d9
+      - s-2af088bdf3
+      - s-9688b04bad
+      - s-ed129c8bed
+      - s-913404c341
+      - s-b5a5f113be
+      - s-0832a25168
+      - s-b691922f54
+      - s-3bab686d31
+      - s-78534e0442
+      - s-3e6321ff11
+      - s-f70b2e01c9
+      - s-4bc7cc3f18

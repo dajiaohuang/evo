@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Triturus dobrogicus
+  displayName: Triturus dobrogicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/595F5
+  sourceIndexes:
+    - name:
+        en: Triturus dobrogicus
+        zh: Triturus dobrogicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 595F5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/117
+            queryName: Triturus dobrogicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 87
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/53
+            queryName: Molge macrosoma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/47
+            queryName: Triton cristatus dobrogicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/48
+            queryName: Triton cristatus danubialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/49
+            queryName: Triturus cristatus danubialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/50
+            queryName: Triturus cristatus dobrogicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/51
+            queryName: Triturus dobrogicus dobrogicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/85
+            queryName: Triturus dobrogicus macrosomus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 44
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3271a74ab8
+      - s-ef92f19a9b
+      - s-b4e00961d9
+      - s-f1c5a2e625
+      - s-fa6d69ce30
+      - s-a9660742fd
+      - s-84cb332a70
+      - s-39718ff2ea
+      - s-df0066bc63
+      - s-4ddd26ec1b
+      - s-84646140fd
+    zh:
+      - s-df8ca8d94b
+      - s-f6e5855820
+      - s-959d676efe
+      - s-da2a425a88
+      - s-83ba51eb93
+      - s-014576c291
+      - s-c64563c872
+      - s-97e49b1ef0
+      - s-2c0c3d6e2c
+      - s-6c116e5ba0
+      - s-4d87244bb4

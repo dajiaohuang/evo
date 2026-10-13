@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nymphargus posadae
+    name:
+      en: Nymphargus posadae
+      zh: Nymphargus posadae
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Nymphargus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Nymphargus posadae in the version 3 classification
+          zh: Nymphargus posadae 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ce84e8d8cf
+            part: body
+          zh:
+            page: zh
+            section: s-1110058b97
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 17 populated trait fields
+          zh: 1 条测量行与 17 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1eab06bc00
+            part: body
+          zh:
+            page: zh
+            section: s-9df31d9b18
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3688; Reference.csv rows 945
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3688
+        values:
+          - Centrolenidae
+          - Nymphargus
+          - Nymphargus posadae
+          - M
+          - "31.2"
+          - "9.666666667"
+          - "10.23333333"
+          - "3.8"
+          - "1.05"
+          - "1.5"
+          - "3.1"
+          - "2.433333333"
+          - "2.633333333"
+          - "2.133333333"
+          - "4.366666667"
+          - NA
+          - "10.83333333"
+          - "7.266666667"
+          - NA
+          - "15.26666667"
+          - NA
+          - "19.83333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.333333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.066666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 945
+        values:
+          - Anura
+          - Nymphargus_posadae
+          - Guayasamin, J. M., Bustamante, M. R., Almeida-Reinoso, D., & Funk, W. C. (2006). Glass frogs (Centrolenidae) of Yanayacu Biological Station, Ecuador, with the description of a new species and comments on centrolenid systematics. Zoological Journal of the Linnean Society, 147(4), 489-513. https://doi.org/10.1111/j.1096-3642.2006.00223.x
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - Fin1L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 486K3
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

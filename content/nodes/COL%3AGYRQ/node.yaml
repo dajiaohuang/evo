@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis nikeae
+  displayName: Arthroleptis nikeae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYRQ
+  sourceIndexes:
+    - name:
+        en: Arthroleptis nikeae
+        zh: Arthroleptis nikeae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYRQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/168
+            queryName: Arthroleptis nikeae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-698a1dfdad
+      - s-fc64b0c0a1
+      - s-a954af58ee
+      - s-5d39744933
+      - s-55e7b34199
+      - s-58d64a53ae
+    zh:
+      - s-5a11631d34
+      - s-e4e69c4b09
+      - s-847a2a311c
+      - s-ef08a6518b
+      - s-60ffbb3cb3
+      - s-2d5ac4a371

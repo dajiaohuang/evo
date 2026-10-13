@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kassininae Laurent, 1972
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Kassininae
+      zh: Kassininae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7b39f2f111
+            part: title
+          zh:
+            page: zh
+            section: s-5e10e6862a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7b39f2f111
+            part: body
+          zh:
+            page: zh
+            section: s-5e10e6862a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3980327208
+            part: title
+          zh:
+            page: zh
+            section: s-9605979ae9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3980327208
+            part: body
+          zh:
+            page: zh
+            section: s-9605979ae9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-2e125298a9
+            part: title
+          zh:
+            page: zh
+            section: s-9432672c98
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4ZZB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4ZZB
+            label:
+              en: Hylambates
+              zh: Hylambates
+          - kind: catalogue
+            colId: 57NC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A57NC
+            label:
+              en: Kassina
+              zh: Kassina
+          - kind: catalogue
+            colId: 6DV5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6DV5
+            label:
+              en: Paracassina
+              zh: Paracassina
+          - kind: catalogue
+            colId: 7FH2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7FH2
+            label:
+              en: Semnodactylus
+              zh: Semnodactylus
+        text:
+          en:
+            page: en
+            section: s-2e125298a9
+            part: body
+          zh:
+            page: zh
+            section: s-9432672c98
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kassininae
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5JQP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-84f0f5e46b
+        part: body
+      zh:
+        page: zh
+        section: s-30d2b13e06
+        part: body

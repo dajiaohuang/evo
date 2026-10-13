@@ -1,0 +1,361 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gasterosteus aculeatus Linnaeus, 1758
+    authorship: Linnaeus, 1758
+    rank: species
+    sourceDatasetId: "1010"
+    identity:
+      method: Exact accepted COL26.8 usage 3FCKT verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Nominal species represented by COL26.8 accepted usage 3FCKT. The cited study used wild-bred North Uist ecotypes, then incubated their embryos under a specified laboratory temperature; results are not species-wide developmental constants.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: Breeding adult fish of both ecotypes were collected from a North Uist saltwater lagoon in 2023.
+      domesticated: Domestication was not assessed.
+      captive: Embryos were incubated and observed in laboratory dishes at 14 degrees Celsius; no captive adult population was studied.
+      fossil: No fossil occurrence or geological age was assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1010
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FCKT
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:3FCKT@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 3FCKT; exact name, authorship, rank, status, sourceDatasetId 1010, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3FCKT. https://doi.org/10.48580/dgywk
+      - id: barnes2024
+        referenceId: ref-e31c6049-bde5-87bb-ad0b-ad3598271b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text under its article-level CC BY 4.0 notice; separately credited third-party material is excluded.
+          stableId: doi:10.1371/journal.pone.0295485
+          accessedAt: 2026-09-25
+          locator: Abstract; Methods > Fish collection and crosses; Results > Hatching success and time to hatch; Results > Development of embryos; Figures 1, 3–5; Tables 1–2.
+          licenseAssessment: item-level-verified
+          scope: Primary embryo-development study of migratory and lagoon-resident North Uist ecotypes; the article text is paraphrased, without reusing figures or third-party material.
+          attribution: Barnes M, Chakrabarti L, MacColl ADC (2024). PLOS ONE 19(7):e0295485. https://doi.org/10.1371/journal.pone.0295485. Claims paraphrased from article text.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: In the North Uist lagoon-resident clutches incubated at 14 degrees Celsius, daily observations recorded a visible heartbeat by day 5; by day 7 yolk-sac circulation and developing pectoral fins could be seen. This is an embryo-stage description under the study's incubation conditions, not a diagnostic description of adult morphology.
+            sourceIds:
+              - barnes2024
+            locator: Results > Development of embryos, days 5 and 7; Figures 3–4; embryos staged from fertilisation at daily intervals.
+            placeTimeScope: Laboratory observations of embryos from breeding crosses made with North Uist saltwater-lagoon fish collected 30 April–19 May 2023; incubation at 14 degrees Celsius.
+            lifeStatus: Wild-bred parents; embryos incubated in laboratory dishes.
+            originalLanguage: en
+        gaps:
+          - Only selected embryonic stages under one temperature and source population are described; adult diagnostic morphology, sexes, age classes, variation across populations, and identification limits remain unassessed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: "At 14 degrees Celsius, embryos from six migratory and six lagoon-resident North Uist crosses hatched earlier in the migratory ecotype: mean first hatch was 11.7 versus 13.2 days after fertilisation, and mean 50-percent-clutch hatch was 12.2 versus 13.7 days. Hatching success did not differ significantly in this small clutch experiment; these timings do not establish a species-wide rate."
+            sourceIds:
+              - barnes2024
+            locator: Methods > Fish collection and crosses; Results > Hatching success and time to hatch; Figure 1; Table 1.
+            placeTimeScope: Crosses using breeding fish collected at Loch an Duin, North Uist, Scotland, 30 April–19 May 2023; embryos raised at 14 degrees Celsius; six clutches per ecotype.
+            lifeStatus: Wild-bred parents; eggs and embryos were maintained under laboratory conditions.
+            originalLanguage: en
+        gaps:
+          - The study covers embryonic development to hatching in two local ecotypes only; other life stages, reproduction in natural nests, survival, lifespan, and replication across environments remain unassessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The study collected breeding migratory and lagoon-resident three-spined stickleback from the same North Uist saltwater lagoon, Loch an Duin, during the 2023 breeding season, and established separate crosses for each ecotype. This establishes local co-occurrence at the collection site and period only; it is not a distribution estimate.
+            sourceIds:
+              - barnes2024
+            locator: Methods > Fish collection and crosses; Abstract, description of two sympatric saltwater ecotypes.
+            placeTimeScope: Loch an Duin, a saltwater lagoon in northeast North Uist, Scotland; fieldwork 30 April–19 May 2023.
+            lifeStatus: Wild breeding adults were caught for crosses; embryos were subsequently incubated in laboratory dishes.
+            originalLanguage: en
+        gaps:
+          - One breeding-season collection does not describe habitat breadth, diet, species interactions, migration routes, or other populations.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No species-specific phylogenetic or comparative evolutionary analysis was assessed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The collection site is not a global or range-wide distribution assessment.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil evidence or bounded fossil-record search was assessed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current assessment, population trend, or threat analysis was reviewed.
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VR36
+        scientificName: Actinopterygii
+        authorship: null
+        rank: gigaclass
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KTWM8
+        scientificName: Actinopteri
+        authorship: null
+        rank: superclass
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: 8V4VD
+        scientificName: Teleostei
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: PC
+        scientificName: Perciformes
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KVB4B
+        scientificName: Gasterosteoidei
+        authorship: null
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KV98H
+        scientificName: Gasterosteidae Bonaparte, 1831
+        authorship: Bonaparte, 1831
+        rank: family
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KVB4C
+        scientificName: Gasterosteus Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: 3FCKT
+        scientificName: Gasterosteus aculeatus Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: species
+        status: accepted
+        sourceDatasetId: "1010"
+  catalogue-profile:
+    scientificName: Gasterosteus aculeatus Linnaeus, 1758
+    rank: species
+    sourceDatasetId: "1010"
+    name:
+      en: Gasterosteus aculeatus
+      zh: Gasterosteus aculeatus
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bd5f692776
+            part: title
+          zh:
+            page: zh
+            section: s-f2dd945ae5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bd5f692776
+            part: body
+          zh:
+            page: zh
+            section: s-f2dd945ae5
+            part: body
+        sourceIds:
+          - barnes2024
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-3f455d0fd8
+            part: title
+          zh:
+            page: zh
+            section: s-77df28b3c4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3f455d0fd8
+            part: body
+          zh:
+            page: zh
+            section: s-77df28b3c4
+            part: body
+        sourceIds:
+          - barnes2024
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-01208537ed
+            part: title
+          zh:
+            page: zh
+            section: s-ce3e015feb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-01208537ed
+            part: body
+          zh:
+            page: zh
+            section: s-ce3e015feb
+            part: body
+        sourceIds:
+          - barnes2024
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1010
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FCKT
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:3FCKT@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 3FCKT; exact name, authorship, rank, status, sourceDatasetId 1010, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3FCKT. https://doi.org/10.48580/dgywk
+      - id: barnes2024
+        referenceId: ref-e31c6049-bde5-87bb-ad0b-ad3598271b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text under its article-level CC BY 4.0 notice; separately credited third-party material is excluded.
+          stableId: doi:10.1371/journal.pone.0295485
+          accessedAt: 2026-09-25
+          locator: Abstract; Methods > Fish collection and crosses; Results > Hatching success and time to hatch; Results > Development of embryos; Figures 1, 3–5; Tables 1–2.
+          licenseAssessment: item-level-verified
+          scope: Primary embryo-development study of migratory and lagoon-resident North Uist ecotypes; the article text is paraphrased, without reusing figures or third-party material.
+          attribution: Barnes M, Chakrabarti L, MacColl ADC (2024). PLOS ONE 19(7):e0295485. https://doi.org/10.1371/journal.pone.0295485. Claims paraphrased from article text.
+    limitations:
+      en:
+        page: en
+        section: s-3eda008c0b
+        part: body
+      zh:
+        page: zh
+        section: s-756ab594ec
+        part: body

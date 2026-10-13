@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus flavopictus
+  displayName: Leptodactylus flavopictus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN4P
+  sourceIndexes:
+    - name:
+        en: Leptodactylus flavopictus
+        zh: Leptodactylus flavopictus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN4P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/384
+            queryName: Leptodactylus flavopictus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/438
+            queryName: Leptodactylus pachyderma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/98
+            queryName: Leptodactylus pentadactylus flavopictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6bdaf904bd
+      - s-3d3d5c4df6
+      - s-9e03e4588b
+      - s-2d67566d2e
+      - s-d39c69eca3
+      - s-a57e57ca1a
+      - s-05ede62cec
+      - s-268e2315f5
+      - s-1648eb7b24
+      - s-2dbe6e88ec
+    zh:
+      - s-3d284d2095
+      - s-0615c17693
+      - s-b8722b8278
+      - s-0d1f35eaeb
+      - s-cce7ebf7f7
+      - s-ff6da6a7d8
+      - s-eb313c1415
+      - s-3e876c9e6b
+      - s-78cf505e19
+      - s-a914952b01

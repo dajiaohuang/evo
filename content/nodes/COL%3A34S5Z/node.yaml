@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus marmoratus
+  displayName: Dendropsophus marmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S5Z
+  sourceIndexes:
+    - name:
+        en: Dendropsophus marmoratus
+        zh: Dendropsophus marmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S5Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/382
+            queryName: Dendropsophus marmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/388
+            queryName: Hyla marmorata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/401
+            queryName: Bufo marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/377
+            queryName: Buffo marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/378
+            queryName: Calamita marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/379
+            queryName: Lophopus marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/380
+            queryName: Quinzhyla marmorata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/444
+            queryName: Hyla marmorata marmorata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-436cebe2fc
+      - s-f4a573eaf4
+      - s-b9f66c47b9
+      - s-681c31a994
+      - s-61f2d868b6
+      - s-f1e4b5ca3f
+      - s-2c8219a7ee
+      - s-04c0c12afb
+      - s-3c9088e09a
+      - s-8ab269500a
+      - s-c1cb77a720
+      - s-c99ace7e86
+      - s-224b355683
+      - s-d83009722f
+    zh:
+      - s-7d406b8da6
+      - s-e0f5ae5015
+      - s-af87e01220
+      - s-dbddd5372a
+      - s-b33f100daf
+      - s-605541318c
+      - s-476d88aa6d
+      - s-964c9b4f9e
+      - s-ccbbb6ad7f
+      - s-e230fab294
+      - s-b2b74338be
+      - s-829a5db886
+      - s-88e2240d8a
+      - s-def50efc96

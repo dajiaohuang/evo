@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plecturocebus aureipalatii (Wallace, Gómez, A. M. Felton & A. Felton, 2006)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 马迪迪绢毛猴
+      en: Madidi Titi
+    sections:
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-977c634de8
+            part: body
+          en:
+            page: en
+            section: s-abd43bbaa8
+            part: body
+        sourceIds:
+          - wallace2006
+          - taxonomy
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-5d31d5e187
+            part: body
+          en:
+            page: en
+            section: s-4738691eda
+            part: body
+        sourceIds:
+          - vermeer2015
+          - mdd_taxonomy
+          - taxonomy
+    sources:
+      - id: wallace2006
+        referenceId: ref-fbc33ed2-43ac-8d7f-adc5-e40c7879688f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持马迪迪描述材料、初步分布范围及四处样线调查的范围；不支持现今种群估计。
+            en: Supports the Madidi description material, preliminary range and scope of the four-site transect work; not a current population estimate.
+      - id: vermeer2015
+        referenceId: ref-5728f378-3b91-84d0-a3d6-fcceca9ec771
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持作者对 aureipalatii 与 toppini 分类边界的历史疑问及需要后续研究的说明；不是 COL26.8 接受分类的替代名录。
+            en: Supports the authors' historical uncertainty about the aureipalatii–toppini boundary and their call for further study; it does not replace the COL26.8 accepted classification.
+      - id: mdd_taxonomy
+        referenceId: ref-a86eb42d-f997-8b35-af0c-26c8a5c3720c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 MDD 将 P. aureipalatii 处理为 P. toppini 异名，以及 Madidi Titi 这一关联普通名；用于标明与 COL26.8 的分类差异。
+            en: Supports the MDD treatment of P. aureipalatii as a synonym of P. toppini and the associated common name Madidi Titi; used to document the difference from COL26.8.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4K5XV
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-cb25d0f25a
+        part: body
+      en:
+        page: en
+        section: s-46898ed2f7
+        part: body

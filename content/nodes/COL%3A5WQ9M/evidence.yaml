@@ -1,0 +1,361 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephalus verrucosus Ribeiro, Firkowski, Bornschein & Pie, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephalus verrucosus
+      zh: Brachycephalus verrucosus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5756676aaa
+            part: title
+          zh:
+            page: zh
+            section: s-6c168fa8f4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5756676aaa
+            part: body
+          zh:
+            page: zh
+            section: s-6c168fa8f4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-565ebc9c82
+            part: title
+          zh:
+            page: zh
+            section: s-221234264b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-565ebc9c82
+            part: body
+          zh:
+            page: zh
+            section: s-221234264b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1e632e13d9
+            part: title
+          zh:
+            page: zh
+            section: s-de933e6706
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1e632e13d9
+            part: body
+          zh:
+            page: zh
+            section: s-de933e6706
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-7eb4f96bbc4561414e5dbe81
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ad9def26f9
+            part: title
+          zh:
+            page: zh
+            section: s-9ad61001b5
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wq9m
+        text:
+          en:
+            page: en
+            section: s-ad9def26f9
+            part: body
+          zh:
+            page: zh
+            section: s-9ad61001b5
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-4fecb3e544
+            part: title
+          zh:
+            page: zh
+            section: s-52f4cf2172
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wq9m
+        text:
+          en:
+            page: en
+            section: s-4fecb3e544
+            part: body
+          zh:
+            page: zh
+            section: s-52f4cf2172
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-b83aef0ecf
+            part: title
+          zh:
+            page: zh
+            section: s-85802b028d
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wq9m
+        text:
+          en:
+            page: en
+            section: s-b83aef0ecf
+            part: body
+          zh:
+            page: zh
+            section: s-85802b028d
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-dd5230a148
+            part: title
+          zh:
+            page: zh
+            section: s-782b0627b7
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wq9m
+        text:
+          en:
+            page: en
+            section: s-dd5230a148
+            part: body
+          zh:
+            page: zh
+            section: s-782b0627b7
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f47f3ca143
+            part: body
+          zh:
+            page: zh
+            section: s-6b57a528a3
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephalus verrucosus
+          url: https://www.checklistbank.org/dataset/316115/taxon/5WQ9M
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 864; Reference.csv rows 2025
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12694819-5wq9m
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus verrucosus: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2d83ebfc80
+        part: body
+      zh:
+        page: zh
+        section: s-572e98c9d6
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0334746
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        sourceKey: primary-pmc12694819-5wq9m
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12694819/article.xml
+        sourceConcept: Brachycephalus verrucosus
+        evidenceRead: "Brachycephalus verrucosus: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY (version not explicit in XML)
+          licenseUrl: https://creativecommons.org/licenses/by/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Sex-specific measurements retain variable-specific sample counts
+              zh: 分性别测量保留各变量样本数
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wq9m
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus verrucosus measurement row and caption; sec004 paragraphs 0–1; sec036 paragraphs 4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9b497a4ab1
+                part: body
+              zh:
+                page: zh
+                section: s-48e98c2319
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Live and preserved colours are separate evidence
+              zh: 活体与保存颜色是不同证据
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wq9m
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus verrucosus live/preserved colour columns and caption; sec036 paragraphs 2,4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-93f75dc26b
+                part: body
+              zh:
+                page: zh
+                section: s-6c18853afc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Advertisement-call comparisons use distinct acoustic units
+              zh: 求偶鸣声比较区分声学单位
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wq9m
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus verrucosus acoustic row and caption; sec007 paragraphs 0–1; sec036 paragraphs 0–1,4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3c8793adc2
+                part: body
+              zh:
+                page: zh
+                section: s-d214f8f4d4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: conservation
+            heading:
+              en: The 2025 assessment separates records, mapped habitat and risk
+              zh: 2025 年评估区分记录、映射生境与风险
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wq9m
+            locator: PMC12694819 XML pone.0334746.t007 Brachycephalus verrucosus row; sec009 paragraphs 0–4; sec038 paragraphs 2–6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5048008a1f
+                part: body
+              zh:
+                page: zh
+                section: s-8e3e539cef
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

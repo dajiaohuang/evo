@@ -1,0 +1,12 @@
+## The dataset entry {#s-a7ed38036d}
+The pinned AmphiTherm curated snapshot records Rana sylvatica under Ranidae, Anura. It retains 92 thermal estimate rows across 9 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-c372df6532}
+Source row 277 (ID 353; Brattstrom_1963) reports 34.8 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Rana_sylvatica_pop16. Recorded conditions include medium_test_temp = water. The source n_trait field is 8. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## thermal preference estimate {#s-eebdb2a80c}
+Source row 1669 (ID 1852; Friedenberg_and_Skelly_2004) reports 17.6 °C for the thermal preference estimate (metric code Tpref). The tested stage is recorded as larvae. The source population code is Rana_sylvatica_pop10. Recorded conditions include acclimation at 7.9 °C, medium_test_temp = water, rate_measurement = 30. The source reports 1.2 °C as its standard error. The source n_trait field is 15. The source row does not state an endpoint. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-0c8c7b5643}
+Source row 2681 (ID 2970; Layne_1995) reports -3 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as adults. The source population code is Rana_sylvatica_pop7. Recorded conditions include acclimation at 5 °C, medium_test_temp = body. The source reports 0.1 °C as its standard error. The source n_trait field is 12. The endpoint is SCP. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

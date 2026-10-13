@@ -1,0 +1,33 @@
+## Accepted name and placement {#s-6e18a20e72}
+COL26.8 accepts Rhinella bella Menéndez-Guerrero, Santos, Salazar-Nicholls, Green & Ron, 2024 as a species. Its recorded classification places it along Anura (order) → Bufonidae (family) → Rhinella (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-7dfbddb8c5}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## A mixed-source urban and periurban checklist record {#s-4e004fb1ab}
+The 2026 Guayaquil checklist lists Rhinella bella in conservation areas; urban parks; unprotected remnant native vegetation. The source combines January 2008–February 2025 field surveys with museum, database, literature and critically screened secondary records. Its focus includes remnant forests and revegetated parks in the urban/periurban footprint, with selected near-boundary areas retained; it is not a uniform present-day census across all 4,113.89 km² of Guayaquil. Table 3’s presence categories are not individual counts, breeding records, occupancy probabilities or independently checked voucher identifications. The city-center elevation cannot be assigned as every specimen’s collection height.
+
+## Global and Ecuadorian risk categories preserve different scales {#s-daffbf6cf5}
+Table 3 assigns Rhinella bella IUCN NE (Not Evaluated) and Ecuadorian Red List NE (Not Evaluated). The Methods refer to IUCN 2025 and the national amphibian assessment published in 2021; these are source-reported historical assignments, not independently verified current categories or equivalent local extinction probabilities. LC does not establish urban safety, NE is not demonstrated absence of threat, and DD denotes an information gap. Differences between geographic assessment scales do not alone prove an error or quantify local population decline. The source’s 63 mixed-herpetofauna conservation totals must not be treated as nineteen-amphibian-only counts.
+
+## Presence and land-cover estimates do not demonstrate urban adaptation {#s-6d40725e23}
+The paper associates urbanization with habitat loss and argues that remaining areas serve as refuges. Its GIS estimates compare 2008 and 2022 land use, while biological records span different dates and sources. This does not experimentally establish pollution tolerance, reproductive success, behavioral plasticity or conservation effectiveness for every listed species. Sampling histories and detectability vary, especially for subterranean taxa. Original specimen accounts and photographs are in supporting appendices that have not been independently inspected here; table figure numbers are locators, not confirmation of a checked photo. Habitat restoration and monitoring recommendations remain proposed actions.
+
+## An urban persistence interpretation uses cited evidence {#s-7aeb402dac}
+Discussion names Rhinella bella among four amphibians recorded in urban parks and proposes resilience, reproductive traits and behavioral plasticity. It also cites earlier Bd incidence reports for those frogs. This checklist does not newly measure infection prevalence, disease resistance, reproduction rate or inherited urban adaptation. Presence across CA/UP/REM categories and a cited pathogen record are distinct evidence streams; neither demonstrates population growth or safety from urban disturbance.
+
+## catalogue-profile / limitations {#s-339ea09e0b}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-15759c9f3e}
+The 2026 Guayaquil checklist lists Rhinella bella in conservation areas; urban parks; unprotected remnant native vegetation. The source combines January 2008–February 2025 field surveys with museum, database, literature and critically screened secondary records. Its focus includes remnant forests and revegetated parks in the urban/periurban footprint, with selected near-boundary areas retained; it is not a uniform present-day census across all 4,113.89 km² of Guayaquil. Table 3’s presence categories are not individual counts, breeding records, occupancy probabilities or independently checked voucher identifications. The city-center elevation cannot be assigned as every specimen’s collection height.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-e966f210dd}
+Table 3 assigns Rhinella bella IUCN NE (Not Evaluated) and Ecuadorian Red List NE (Not Evaluated). The Methods refer to IUCN 2025 and the national amphibian assessment published in 2021; these are source-reported historical assignments, not independently verified current categories or equivalent local extinction probabilities. LC does not establish urban safety, NE is not demonstrated absence of threat, and DD denotes an information gap. Differences between geographic assessment scales do not alone prove an error or quantify local population decline. The source’s 63 mixed-herpetofauna conservation totals must not be treated as nineteen-amphibian-only counts.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-c19f657696}
+The paper associates urbanization with habitat loss and argues that remaining areas serve as refuges. Its GIS estimates compare 2008 and 2022 land use, while biological records span different dates and sources. This does not experimentally establish pollution tolerance, reproductive success, behavioral plasticity or conservation effectiveness for every listed species. Sampling histories and detectability vary, especially for subterranean taxa. Original specimen accounts and photographs are in supporting appendices that have not been independently inspected here; table figure numbers are locators, not confirmation of a checked photo. Habitat restoration and monitoring recommendations remain proposed actions.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-2435906651}
+Discussion names Rhinella bella among four amphibians recorded in urban parks and proposes resilience, reproductive traits and behavioral plasticity. It also cites earlier Bd incidence reports for those frogs. This checklist does not newly measure infection prevalence, disease resistance, reproduction rate or inherited urban adaptation. Presence across CA/UP/REM categories and a cited pathogen record are distinct evidence streams; neither demonstrates population growth or safety from urban disturbance.
+

@@ -1,0 +1,393 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptodactylus oreomantis Carvalho, Leite & Pezzuti, 2013
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptodactylus oreomantis
+      zh: Leptodactylus oreomantis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c34d9d3714
+            part: title
+          zh:
+            page: zh
+            section: s-1332e9823e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c34d9d3714
+            part: body
+          zh:
+            page: zh
+            section: s-1332e9823e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d95d28ebbd
+            part: title
+          zh:
+            page: zh
+            section: s-eb4ac3c5e5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d95d28ebbd
+            part: body
+          zh:
+            page: zh
+            section: s-eb4ac3c5e5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-dc479d080c
+            part: title
+          zh:
+            page: zh
+            section: s-826e57d58f
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-dc479d080c
+            part: body
+          zh:
+            page: zh
+            section: s-826e57d58f
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-207a0e20d53b1efeb62c1d13
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-a32f83e6f4c8c5bf9878eef9
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2d1c97a0a1
+            part: title
+          zh:
+            page: zh
+            section: s-a618b4cc1e
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-2d1c97a0a1
+            part: body
+          zh:
+            page: zh
+            section: s-a618b4cc1e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e7937b07b4
+            part: title
+          zh:
+            page: zh
+            section: s-d4b5265422
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e7937b07b4
+            part: body
+          zh:
+            page: zh
+            section: s-d4b5265422
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-590c76f898
+            part: title
+          zh:
+            page: zh
+            section: s-8bf7943a9f
+            part: title
+        sourceIds:
+          - primary-pmc10688756-3tn6q
+        text:
+          en:
+            page: en
+            section: s-590c76f898
+            part: body
+          zh:
+            page: zh
+            section: s-8bf7943a9f
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6a2f95a0ec
+            part: title
+          zh:
+            page: zh
+            section: s-88615d4a50
+            part: title
+        sourceIds:
+          - primary-pmc10688756-3tn6q
+        text:
+          en:
+            page: en
+            section: s-6a2f95a0ec
+            part: body
+          zh:
+            page: zh
+            section: s-88615d4a50
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-15c3b63b77
+            part: title
+          zh:
+            page: zh
+            section: s-e705e89009
+            part: title
+        sourceIds:
+          - primary-pmc10688756-3tn6q
+        text:
+          en:
+            page: en
+            section: s-15c3b63b77
+            part: body
+          zh:
+            page: zh
+            section: s-e705e89009
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptodactylus oreomantis
+          url: https://www.checklistbank.org/dataset/316115/taxon/3TN6Q
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2927; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2739, 2740; Reference.csv rows 2843
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10688756-3tn6q
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptodactylus oreomantis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-883b83bc47
+        part: body
+      zh:
+        page: zh
+        section: s-c9aba45438
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-207a0e20d53b1efeb62c1d13
+        scientificName: Leptodactylus oreomantis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-a32f83e6f4c8c5bf9878eef9
+        scientificName: Leptodactylus oreomantis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-3tn6q
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Leptodactylus_oreomantis, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Leptodactylus oreomantis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-3tn6q
+            locator: PMC10688756 S3 File Traits row 233 Leptodactylus_oreomantis; XML Functional diversity; upstream reference numbers 1, 2, 3, 75
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b0f94f30dd
+                part: body
+              zh:
+                page: zh
+                section: s-1ac8ae8647
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-3tn6q
+            locator: PMC10688756 S3 File Traits row 233 Leptodactylus_oreomantis habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-60dbf06e62
+                part: body
+              zh:
+                page: zh
+                section: s-b7e9825ceb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-3tn6q
+            locator: PMC10688756 S3 File Traits row 233 Leptodactylus_oreomantis length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f5f04f309b
+                part: body
+              zh:
+                page: zh
+                section: s-6a9e76ad44
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella hoogmoedi
+  displayName: Rhinella hoogmoedi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78TLS
+  sourceIndexes:
+    - name:
+        en: Rhinella hoogmoedi
+        zh: Rhinella hoogmoedi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78TLS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/325
+            queryName: Rhinella hoogmoedi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e9d37b90c5
+      - s-4afd1182d0
+      - s-f04310c4c5
+      - s-abdb45f105
+      - s-43458759ed
+      - s-49e9efbfee
+      - s-85d05b14f4
+      - s-b9e9ebeb13
+      - s-367586dbdb
+      - s-5ba91bccdd
+      - s-98aa0adcdf
+      - s-579ff71416
+      - s-a14f167c85
+      - s-cdc4435bce
+      - s-bf6c0721b7
+      - s-c9c5777b5d
+      - s-b22de5ce68
+      - s-b248e67e2a
+      - s-7a173254e6
+      - s-a9627f7cb4
+    zh:
+      - s-5cfcdb2d55
+      - s-d9315501a8
+      - s-7c837b2d0e
+      - s-d216d6211a
+      - s-0d203341e8
+      - s-bb975f98e3
+      - s-4d4c4b9496
+      - s-101da360be
+      - s-e8307d2598
+      - s-b858856dda
+      - s-a24fa41591
+      - s-9f4531d773
+      - s-99b8279a2e
+      - s-ced7d993ac
+      - s-955360c980
+      - s-4a521bf2ea
+      - s-43d9ca3bce
+      - s-225a028612
+      - s-a24b6f8e91
+      - s-906141c32b

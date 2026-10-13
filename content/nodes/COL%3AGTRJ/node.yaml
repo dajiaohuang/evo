@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates cannatellai
+  displayName: Aromobates cannatellai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GTRJ
+  sourceIndexes:
+    - name:
+        en: Aromobates cannatellai
+        zh: Aromobates cannatellai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GTRJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/116
+            queryName: Aromobates cannatellai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-beebd309d0
+      - s-d34acb2b70
+      - s-d01fcc44b7
+      - s-8f78933c6a
+      - s-b76b29bbbd
+      - s-6219fa0c04
+      - s-fca5b97e17
+    zh:
+      - s-0ac4caabdd
+      - s-ba47d3d4ef
+      - s-a9b8621b67
+      - s-56d0cd57e5
+      - s-5e97f5150e
+      - s-429d7acf0c
+      - s-d83ed08a8e

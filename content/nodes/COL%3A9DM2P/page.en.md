@@ -1,0 +1,3 @@
+## Stalked nectaries and late dehiscence in the entry {#s-1e30e5f22d}
+The Brazilian Flora 2020 entry records tomentose stems. Stipules are ovate or falcate; the petiole is under 5 cm and the rachis is 6–10 cm long. Stalked, fusiform extrafloral nectaries occur between all leaflet pairs. Leaves have 4 or 5 pairs of elliptic or obovate leaflets with acuminate tips. The raceme has oblong bracts. Flowers are zygomorphic, with an ovate central adaxial petal and seven fertile stamens. The legume is late dehiscent, erect or pendulous, linear and externally smooth; seeds are arranged in one series. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

@@ -1,0 +1,154 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Astylosterninae Noble, 1927
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Astylosterninae
+      zh: Astylosterninae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-78eef78ae8
+            part: title
+          zh:
+            page: zh
+            section: s-893356e6ed
+            part: title
+        text:
+          en:
+            page: en
+            section: s-78eef78ae8
+            part: body
+          zh:
+            page: zh
+            section: s-893356e6ed
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f6376b19a3
+            part: title
+          zh:
+            page: zh
+            section: s-8ad2c59e94
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f6376b19a3
+            part: body
+          zh:
+            page: zh
+            section: s-8ad2c59e94
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-43c10a0f49
+            part: title
+          zh:
+            page: zh
+            section: s-0f013fc4d5
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 34QG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A34QG
+            label:
+              en: Astylosternus
+              zh: Astylosternus
+          - kind: catalogue
+            colId: 5CYW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5CYW
+            label:
+              en: Leptodactylodon
+              zh: Leptodactylodon
+          - kind: catalogue
+            colId: 65ZD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A65ZD
+            label:
+              en: Nyctibates
+              zh: Nyctibates
+          - kind: catalogue
+            colId: 644VH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A644VH
+            label:
+              en: Scotobleps
+              zh: Scotobleps
+        text:
+          en:
+            page: en
+            section: s-43c10a0f49
+            part: body
+          zh:
+            page: zh
+            section: s-0f013fc4d5
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-41a83a6e2e
+            part: body
+          zh:
+            page: zh
+            section: s-6243edbf25
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Astylosterninae
+          url: https://www.checklistbank.org/dataset/316115/taxon/J6W
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-df725a0dff
+        part: body
+      zh:
+        page: zh
+        section: s-e28949b5ff
+        part: body

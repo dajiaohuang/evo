@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bufotes pewzowi
+    name:
+      en: Bufotes pewzowi
+      zh: Bufotes pewzowi
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Bufotes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4bc9ba7bc9
+            part: body
+          zh:
+            page: zh
+            section: s-5cac37a18a
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ff19fd0172
+            part: body
+          zh:
+            page: zh
+            section: s-5b5750f886
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 952, 953; Reference.csv rows 2610
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 952
+        values:
+          - Bufonidae
+          - Bufotes
+          - Bufotes pewzowi
+          - F
+          - "66.6"
+          - "20.9"
+          - "24.7"
+          - "8.6"
+          - "3.6"
+          - NA
+          - "4.9"
+          - "4.7"
+          - "6.6"
+          - NA
+          - "8.4"
+          - NA
+          - "17.7"
+          - NA
+          - "31.5"
+          - "30.3"
+          - NA
+          - "24.3"
+          - NA
+          - NA
+          - "84.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 953
+        values:
+          - Bufonidae
+          - Bufotes
+          - Bufotes pewzowi
+          - M
+          - "61.7"
+          - "19.2"
+          - "22.2"
+          - "7.5"
+          - "3.5"
+          - NA
+          - "4.3"
+          - "4.5"
+          - "5.6"
+          - NA
+          - "7.8"
+          - NA
+          - "16"
+          - NA
+          - "29"
+          - "28.6"
+          - NA
+          - "23.1"
+          - NA
+          - NA
+          - "79.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2610
+        values:
+          - Anura
+          - Bufotes_pewzowi
+          - "Stöck, M. (2001). Progress towards a taxonomic revision of the Asian Bufo viridis group: Current status of nominal taxa and unsolved problems (Amphibia: Anura: Bufonidae). Zoologische Abhandlungen des Staatlichen Museums für Tierkunde Dresden, 51, 253-319."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - NPMK
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

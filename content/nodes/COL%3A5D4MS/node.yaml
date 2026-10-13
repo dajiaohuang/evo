@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Zhangixalus schlegelii
+  displayName: Zhangixalus schlegelii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5D4MS
+  sourceIndexes:
+    - name:
+        en: Zhangixalus schlegelii
+        zh: Zhangixalus schlegelii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5D4MS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/412
+            queryName: Zhangixalus schlegelii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/335
+            queryName: Rhacophorus schlegelii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 48
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/87
+            queryName: Polypedates schlegelii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/88
+            queryName: Rhacophorus microglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/478
+            queryName: Rhacophorus schlegelii schlegelii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/479
+            queryName: Rhacophorus schlegelii microglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7f491c9dc4
+      - s-6917edb129
+      - s-94ec1bfbe1
+      - s-7808eb33d6
+      - s-6daa0c88bd
+      - s-9ab8984193
+      - s-13757aed61
+      - s-46f04e2800
+      - s-850023a787
+      - s-bd1cb777a2
+      - s-9d2b4a2e42
+      - s-b265f0223a
+      - s-88a6b33af8
+      - s-46e6c85dab
+    zh:
+      - s-3cfd519b89
+      - s-10227fa222
+      - s-75a8e2cd50
+      - s-dff1d116ca
+      - s-d177a99065
+      - s-213833510d
+      - s-c3b22d8ca5
+      - s-84561b69c8
+      - s-29145746ab
+      - s-f2791e5eaa
+      - s-0393a12674
+      - s-4b414e7737
+      - s-d188650d46
+      - s-4fe62b79ce

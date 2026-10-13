@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius ruvuensis
+  displayName: Hyperolius ruvuensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQYR
+  sourceIndexes:
+    - name:
+        en: Hyperolius ruvuensis
+        zh: Hyperolius ruvuensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQYR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/330
+            queryName: Hyperolius ruvuensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-afc7d91cf7
+      - s-b183cc38fc
+      - s-d9827cdea8
+      - s-bb80b9e877
+      - s-08a95a3883
+      - s-e3de137233
+    zh:
+      - s-372c68ee93
+      - s-75f2324198
+      - s-0bad292dc3
+      - s-671d376e0b
+      - s-5a0c60e24a
+      - s-f3ced6603f

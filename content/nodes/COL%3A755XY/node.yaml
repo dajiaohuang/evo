@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne notata
+  displayName: Oreophryne notata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/755XY
+  sourceIndexes:
+    - name:
+        en: Oreophryne notata
+        zh: Oreophryne notata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 755XY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/285
+            queryName: Oreophryne notata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6454fdb70c
+      - s-5f66dcdbd3
+      - s-68e8fc2d6a
+      - s-ca5c5b2e4a
+      - s-c32381156f
+      - s-c52f086885
+      - s-c5f6749471
+      - s-6b1e4ddb60
+    zh:
+      - s-75325a87e9
+      - s-c4f8c124d4
+      - s-e9aa77bb75
+      - s-d45f577890
+      - s-996b68b4cf
+      - s-d2900ea926
+      - s-003420ec72
+      - s-1ed509c7b7

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius cystocandicans
+  displayName: Hyperolius cystocandicans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQSH
+  sourceIndexes:
+    - name:
+        en: Hyperolius cystocandicans
+        zh: Hyperolius cystocandicans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQSH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/240
+            queryName: Hyperolius cystocandicans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-86d398cadc
+      - s-0fddac6cf8
+      - s-42579e9e42
+      - s-103bf4de49
+      - s-5981db459a
+      - s-7c351123b0
+      - s-5ba9acc6d4
+      - s-0b743adf12
+      - s-4cde9ee006
+      - s-d0b2845794
+      - s-222116b473
+    zh:
+      - s-728317e342
+      - s-78d0765d4b
+      - s-ebfe2ed44f
+      - s-6be72a7ab0
+      - s-e1d2ec86c4
+      - s-03758227b9
+      - s-aa7aeeab18
+      - s-f687c45a5d
+      - s-d4c79828fe
+      - s-cbd3288531
+      - s-fbcd7f2dab

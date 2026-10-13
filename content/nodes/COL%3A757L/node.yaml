@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychohyla
+  displayName: Ptychohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/757L
+  sourceIndexes:
+    - name:
+        en: Ptychohyla
+        zh: Ptychohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 757L
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/208
+            queryName: Ptychohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 51
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3ca4b55092
+      - s-c4ab1d4662
+      - s-0987a7251b
+      - s-d0a8754c30
+      - s-0c8d5f44e9
+      - s-8bb6cd907e
+      - s-a22853b0d8
+      - s-3ae5d172da
+      - s-39c1f00d09
+      - s-d3b09524b2
+      - s-31fbed0cc1
+    zh:
+      - s-d99513c4aa
+      - s-6b3852dbf1
+      - s-853a01e90e
+      - s-b670ac2f9c
+      - s-1266b86653
+      - s-9d23e520f0
+      - s-72862c44e0
+      - s-8045a9d775
+      - s-5cb2d19e44
+      - s-a2d65ebadd
+      - s-e8cbe20da0

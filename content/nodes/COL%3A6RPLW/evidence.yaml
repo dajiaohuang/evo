@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea thomsonii Baker
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6RPLW, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000784865.
+      scope: Moraea as represented by COL26.8 usage 6RPLW. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6RPLW
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6RPLW
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784865-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6RPLW / WFO wfo-0000784865
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 2799 (Morphology), source identifier 11118.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 96756 (Habitat), 94206 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous herb, up to 300 mm tall. Green leaf lacking at flowering time. Flower with inner and outer tepals similar. Style crests reduced and vestigial, shorter than stigma lobes. Flowers pale lilac-blue with tepals having yellow nectar guides at base of limbs.
+            textZh: Moraea thomsonii Baker 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_11118_0
+            locator: Strelitzia 6; archive Morphology row 2799, source 11118.0
+            placeTimeScope: Regional species account published 1997; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: Virtually identical to the relatively common Moraea stricta in vegetative features and life history, M. thomsonii is distinguished only by the flowers. The blue-mauve tepals have nectar guides on both the outer and inner tepal limbs and the inner tepals, ± 7 mm wide, are broader than in M. stricta. The style branches are poorly developed and have vestigial crests shorter than the stigma lobes. In M. stricta the style crests are 3-4 mm long and held erect above the nectar guides and the inner tepals are only 3-4 mm wide. As in M. stricta, the leaf is terete, usually dry and broken at flowering time and the sheathing leaves and spathes are more-or-less dry.
+            textZh: SANBI 条目提供了 Moraea thomsonii Baker 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94206, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dry grassland, blooming early in the season, usually before the first rains.
+            textZh: SANBI 区域植物志将 Moraea thomsonii Baker 的生境记为：Dry grassland, blooming early in the season, usually before the first rains.
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Habitat row 96756, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

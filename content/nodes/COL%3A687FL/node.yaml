@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Astylosternus robustus
+  displayName: Astylosternus robustus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/687FL
+  sourceIndexes:
+    - name:
+        en: Astylosternus robustus
+        zh: Astylosternus robustus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 687FL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/219
+            queryName: Astylosternus robustus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/264
+            queryName: Trichobatrachus robustus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 23
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93b4637536
+      - s-a95b7d583b
+      - s-b61653e8a1
+      - s-251537ae85
+      - s-bb75d432c4
+      - s-73321b2be6
+    zh:
+      - s-81be76f052
+      - s-5345cfc47a
+      - s-edeb29781a
+      - s-f308b6ecf9
+      - s-a3c3712509
+      - s-d2b5146c8c

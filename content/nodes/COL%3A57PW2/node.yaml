@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus nigromaculatus
+  displayName: Trachycephalus nigromaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PW2
+  sourceIndexes:
+    - name:
+        en: Trachycephalus nigromaculatus
+        zh: Trachycephalus nigromaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PW2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/106
+            queryName: Trachycephalus nigromaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 159
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/116
+            queryName: Hyla occipitalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/117
+            queryName: Trachycephalus geographicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/118
+            queryName: Hyla nigromaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/119
+            queryName: Hyla angustifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e1d9988ef
+      - s-9a05ca6a29
+      - s-274dc9f2a5
+      - s-9b181d2e7e
+      - s-59e3502008
+      - s-f7f63618ca
+      - s-b9a9bddb7f
+      - s-a9ac872bde
+      - s-ac420e5b17
+      - s-22efe06562
+      - s-1c1824eaf8
+      - s-66541bd354
+      - s-4fea9e5ad1
+      - s-d0ba2f289b
+      - s-f13acf38f3
+      - s-1b929a68ea
+    zh:
+      - s-22364555f5
+      - s-43f8cbcc99
+      - s-40d3b81e45
+      - s-4cddc69c37
+      - s-4c873cb62a
+      - s-f3f7a09097
+      - s-b5c04de475
+      - s-c1184a4689
+      - s-8e0372d49e
+      - s-6136d7c8e9
+      - s-3ca1221dee
+      - s-d799d367ec
+      - s-1e67fbe687
+      - s-e97c1ae7e0
+      - s-304e52fd33
+      - s-c4045827f4

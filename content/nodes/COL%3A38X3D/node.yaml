@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Elachistocleis muiraquitan
+  displayName: Elachistocleis muiraquitan
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38X3D
+  sourceIndexes:
+    - name:
+        en: Elachistocleis muiraquitan
+        zh: Elachistocleis muiraquitan
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38X3D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/133
+            queryName: Elachistocleis muiraquitan
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d84e146a9e
+      - s-260643b221
+      - s-25529bdf5e
+      - s-e7800aa3b3
+      - s-bf0c0b52ce
+      - s-ab6cfd0c64
+    zh:
+      - s-6db5943633
+      - s-41849fd590
+      - s-920231fb49
+      - s-9d50be0ead
+      - s-23904e4c7d
+      - s-f7d8e6a147

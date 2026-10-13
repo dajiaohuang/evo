@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca microdiscus
+  displayName: Gastrotheca microdiscus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JXWJ
+  sourceIndexes:
+    - name:
+        en: Gastrotheca microdiscus
+        zh: Gastrotheca microdiscus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JXWJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/53
+            queryName: Gastrotheca microdiscus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/286
+            queryName: Nototrema microdiscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/287
+            queryName: Opisthodelphis microdiscum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/288
+            queryName: Gastrotheca microdisca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/99
+            queryName: Alainia microdiscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f6c9c702e0
+      - s-49099e91a4
+      - s-ca75f73cc0
+      - s-541ad999e9
+      - s-d81b792983
+      - s-cd7cc059ba
+      - s-98ff109b7b
+      - s-be2cbfceda
+      - s-efc0024e98
+      - s-231005a602
+      - s-2222190144
+      - s-b3f0c00baa
+      - s-4bff0f2f92
+      - s-b706ad3a8e
+    zh:
+      - s-f8b67f06cc
+      - s-31c81f5977
+      - s-19a7bcdf4b
+      - s-5b3c78e601
+      - s-6cf30c5b2b
+      - s-6a1141bbbb
+      - s-25d08899ea
+      - s-bbda5902c9
+      - s-c0865d00b1
+      - s-d3b892d458
+      - s-38e7f72d6d
+      - s-0fad62deec
+      - s-787323e78f
+      - s-ac5a838124

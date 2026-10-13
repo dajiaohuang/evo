@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes macrocephalus
+  displayName: Limnonectes macrocephalus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDKK
+  sourceIndexes:
+    - name:
+        en: Limnonectes macrocephalus
+        zh: Limnonectes macrocephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDKK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/101
+            queryName: Limnonectes macrocephalus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/462
+            queryName: Rana macrodon macrocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/463
+            queryName: Rana magna macrocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/464
+            queryName: Euphlyctis magna macrocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dac214d027
+      - s-05996bfe90
+      - s-352b86d7d2
+      - s-8425c5f2f2
+      - s-d1c69140f0
+      - s-02e89def3b
+      - s-1f6aacca7c
+      - s-34915eacab
+      - s-1cef15e265
+    zh:
+      - s-6d86efa46b
+      - s-e60cf0003d
+      - s-ceecd8943d
+      - s-7482c2bebb
+      - s-988c2279ad
+      - s-a4957b176f
+      - s-d35341691f
+      - s-e582ab548a
+      - s-f14fc8a0b6

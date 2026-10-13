@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Andrias sligoi
+  displayName: Andrias sligoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LQGLJ
+  sourceIndexes:
+    - name:
+        en: Andrias sligoi
+        zh: Andrias sligoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LQGLJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/473
+            queryName: Andrias sligoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/41
+            queryName: Megalobatrachus sligoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2e60c85e5f
+      - s-e18315c28e
+      - s-a53f8f61c0
+      - s-0946ab0bf0
+      - s-490519e23a
+      - s-19e3a89d72
+      - s-91f8bc7bb6
+      - s-112ebaaa39
+      - s-0236482ccc
+      - s-a01e3c5a21
+      - s-7368bb0674
+      - s-ee1b1b69ca
+      - s-f3cbcccb9b
+      - s-71ab922e6e
+      - s-60770188a3
+      - s-46b3dc8ebf
+      - s-d92f978194
+      - s-71feffe20c
+      - s-5421beaa76
+      - s-14da2ff3f2
+      - s-17c04f2c23
+    zh:
+      - s-ed080d56ff
+      - s-21e27389ab
+      - s-1789e1d18d
+      - s-71fefc3d31
+      - s-bd46ba425e
+      - s-f741278e9e
+      - s-53491dee90
+      - s-e906120285
+      - s-c33562a5c3
+      - s-67bd3522b5
+      - s-db822121f8
+      - s-cc4f54977e
+      - s-8f12a80c50
+      - s-a587cb3fb3
+      - s-c07c61984f
+      - s-7b09a42ede
+      - s-7ac454c604
+      - s-93f6083680
+      - s-57fddad28a
+      - s-44d433e9c5
+      - s-c4f54a1fc6

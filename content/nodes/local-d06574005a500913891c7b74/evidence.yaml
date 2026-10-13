@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis buenaventura
+    name:
+      en: Pristimantis buenaventura
+      zh: Pristimantis buenaventura
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6bd3780ac8
+            part: body
+          zh:
+            page: zh
+            section: s-69717eec65
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9027e10845
+            part: body
+          zh:
+            page: zh
+            section: s-c235b7e856
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4479, 4480; Reference.csv rows 1822
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4479
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis buenaventura
+          - M
+          - "27.1"
+          - "10.3"
+          - "10.2"
+          - "3.4"
+          - "1.3"
+          - NA
+          - "3.2"
+          - NA
+          - "2.6"
+          - "3.3"
+          - "5"
+          - NA
+          - "6.6"
+          - "6.2"
+          - NA
+          - "10.9"
+          - NA
+          - "13.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4480
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis buenaventura
+          - F
+          - "20.1"
+          - "8"
+          - "7.7"
+          - "2.8"
+          - "1"
+          - NA
+          - "2.4"
+          - NA
+          - "2"
+          - "2.5"
+          - "3.8"
+          - NA
+          - "5.4"
+          - "4.9"
+          - NA
+          - "8.7"
+          - NA
+          - "10.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1822
+        values:
+          - Anura
+          - Pristimantis_buenaventura
+          - Arteaga, A., Pyron, R. A., Penafiel, N., Romero-Barreto, P., Culebras, J., Bustamante, L., . . . Guayasamin, J. M. (2016). Comparative phylogeography reveals cryptic diversity and repeated patterns of cladogenesis for amphibians and reptiles in Northwestern Ecuador. PLoS One, 11(4), e0151746. https://doi.org/10.1371/journal.pone.0151746
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - Fin1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

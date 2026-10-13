@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis salaputium
+  displayName: Pristimantis salaputium
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJNG
+  sourceIndexes:
+    - name:
+        en: Pristimantis salaputium
+        zh: Pristimantis salaputium
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJNG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/71
+            queryName: Pristimantis salaputium
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/40
+            queryName: Eleutherodactylus salaputium
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c9ee23f091
+      - s-5e8f6c1b3a
+      - s-1897ec39a6
+      - s-1078a6d4bf
+      - s-a2e85190ca
+      - s-dc7f71f281
+      - s-e45221d779
+      - s-b064cf8269
+    zh:
+      - s-8c701d32c0
+      - s-4f9ea1f3a6
+      - s-e4a0d14223
+      - s-bac12e0ec1
+      - s-c29e181471
+      - s-6950000648
+      - s-3375d14c95
+      - s-5bcc2e62f1

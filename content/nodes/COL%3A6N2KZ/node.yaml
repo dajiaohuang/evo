@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius nigrescens
+  displayName: Hynobius nigrescens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N2KZ
+  sourceIndexes:
+    - name:
+        en: Hynobius nigrescens
+        zh: Hynobius nigrescens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N2KZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/182
+            queryName: Hynobius nigrescens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 37
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/63
+            queryName: Hynobius fuscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/64
+            queryName: Hynobius sadoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-00cc9a1ad5
+      - s-1727131230
+      - s-79c0535fd6
+      - s-afd15c8cc7
+      - s-1b73a40c50
+      - s-9ea49f9b9d
+      - s-d2dcd27a13
+      - s-b9ec3e1dc4
+    zh:
+      - s-1c31c9c5c5
+      - s-26ca6cb0d7
+      - s-93c18e28dd
+      - s-be093f4815
+      - s-564caad65d
+      - s-2bd21d9331
+      - s-d08819ed91
+      - s-f0bc88d03e

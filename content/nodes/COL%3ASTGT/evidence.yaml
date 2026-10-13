@@ -1,0 +1,397 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cercopithecus wolfi Meyer, 1891
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Wolf's monkey
+      zh: 沃尔夫长尾猴
+    sections:
+      - topic: research
+        sourceIds:
+          - mcgraw1994
+          - fournier2023
+        text:
+          en:
+            page: en
+            section: s-5384fa3aeb
+            part: body
+          zh:
+            page: zh
+            section: s-5ef6ce3db3
+            part: body
+      - topic: Lomako habitat
+        sourceIds:
+          - mcgraw1994
+        text:
+          en:
+            page: en
+            section: s-0fe37b8241
+            part: body
+          zh:
+            page: zh
+            section: s-5f80ce2761
+            part: body
+      - topic: Lomami camera record
+        sourceIds:
+          - fournier2023
+        text:
+          en:
+            page: en
+            section: s-f92efbbe90
+            part: body
+          zh:
+            page: zh
+            section: s-429f6a7686
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-c8d5f95a1a
+            part: body
+          en:
+            page: en
+            section: s-158d60e51c
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-26b440bef9
+            part: body
+          en:
+            page: en
+            section: s-003448bf9c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-e9c66c148a
+            part: body
+          en:
+            page: en
+            section: s-6ee7fde764
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-064a8e93f0
+            part: body
+          en:
+            page: en
+            section: s-18139a3bfe
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-48e6d5175e
+            part: body
+          en:
+            page: en
+            section: s-7b3e511366
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e07cb63507
+            part: body
+          en:
+            page: en
+            section: s-62d16f4fee
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-ee917c9fdc
+            part: body
+          en:
+            page: en
+            section: s-edde994ada
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-5c9004a0c3
+            part: body
+          en:
+            page: en
+            section: s-bf026d2854
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-c76567f8bf
+            part: body
+          en:
+            page: en
+            section: s-7d78581ea7
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-16ca6097d8
+            part: body
+          en:
+            page: en
+            section: s-ac53f25fea
+            part: body
+    sources:
+      - id: mdd
+        referenceId: ref-2dfaa44c-620e-8f5d-a66f-4b6516f01591
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the selected English common-name alternative only; the Chinese common name is an editorial translation.
+            zh: 支持本页采用的英文普通名备选；中文普通名为编辑译名。
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/STGT
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: mcgraw1994
+        referenceId: ref-13e3c45d-47ca-8620-a3dc-0a7f567d17f5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Local multi-species census and association study that includes C. wolfi; group size and habitat findings are not a species-wide account.
+            zh: 支持包含 C. wolfi 的局地多物种普查和混群研究；群体规模及生境结果不构成全种综述。
+      - id: fournier2023
+        referenceId: ref-0bf93335-b90e-8534-ab50-470749186594
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: A three-area terrestrial camera survey recorded one independent C. wolfi event; this is a detection, not an abundance estimate.
+            zh: 三处区域的地面相机调查记录到一次独立 C. wolfi 事件；这是检出记录，不是丰度估值。
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12122; name Cercopithecus wolfi; reference table row 12122; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: mean of Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000 & Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 20(Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            female_maturity_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 3(de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            litter_or_clutch_size_n: Ernest et al., 2003 from median of 7(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            gestation_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 3(de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            birth_or_hatching_weight_g: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 & Ernest et al., 2003 from median of 8(Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            maximum_longevity_y: Weigl, R., 2005
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 719; Scientific=Cercopithecus wolfi; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-b2e69cc8ed
+        part: body
+      zh:
+        page: zh
+        section: s-3c8d10f64b
+        part: body

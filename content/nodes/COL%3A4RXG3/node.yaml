@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus kio
+  displayName: Rhacophorus kio
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXG3
+  sourceIndexes:
+    - name:
+        en: Rhacophorus kio
+        zh: Rhacophorus kio
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXG3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/234
+            queryName: Rhacophorus kio
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bbd75d5e40
+      - s-5cffae8e09
+      - s-8a4d1c6f15
+      - s-7230cad4f5
+      - s-31b15906f4
+      - s-3fe792d005
+      - s-dcead799f8
+      - s-949d9a4518
+      - s-b8a1071215
+      - s-1e796cdeb6
+      - s-599b295c50
+    zh:
+      - s-38fd5a45f3
+      - s-740707eac2
+      - s-d77bd05cca
+      - s-6cf3fba5c2
+      - s-8a3b369481
+      - s-c8f847c434
+      - s-53d16444e7
+      - s-2cf6123c1d
+      - s-a5a13263ec
+      - s-863cad4384
+      - s-ca5bee05e5

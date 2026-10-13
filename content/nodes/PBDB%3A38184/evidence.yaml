@@ -1,0 +1,110 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Protorosauridae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Protorosauridae
+      en: Protorosauridae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-31a45516fb
+            part: body
+          en:
+            page: en
+            section: s-77da4f32a7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7d9a8f444c
+            part: body
+          en:
+            page: en
+            section: s-a39fdf925b
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Protorosauridae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38184
+          locator: Recorded PBDB parent closure beneath the already documented Reptilia COL-compatible storage anchor.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38184
+          readingTargets:
+            - name: Malerisaurus robinsonae
+              pbdbTaxonId: txn:138926
+              canonicalPath: content/nodes/PBDB%3A138926
+            - name: Aphelosaurus lutevensis
+              pbdbTaxonId: txn:324123
+              canonicalPath: content/nodes/PBDB%3A324123
+            - name: Microcnemus efremovi
+              pbdbTaxonId: txn:162605
+              canonicalPath: content/nodes/PBDB%3A162605
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-cd9fbb1e5d
+        part: body
+      en:
+        page: en
+        section: s-76ead97532
+        part: body

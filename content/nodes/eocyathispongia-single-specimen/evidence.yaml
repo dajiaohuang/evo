@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-391834a052
+      part: title
+    titleZh:
+      page: zh
+      section: s-3844e0eaab
+      part: title
+    category: fossil
+    startAge: 609
+    endAge: 600
+    regions:
+      - Weng’an, Guizhou, China
+    clades:
+      - Eocyathispongia qiania
+      - Porifera
+    summary:
+      page: en
+      section: s-391834a052
+      part: body
+    summaryZh:
+      page: zh
+      section: s-3844e0eaab
+      part: body
+    claimIds:
+      - claim:event:eocyathispongia-single-specimen
+    evidenceItems:
+      - statement: The holotype is slightly over 1.2 mm wide and 1.1 mm tall and contains hundreds of thousands of phosphatized cells organized into three adjoining hollow tubes.
+        relation: supports
+        claimIds:
+          - claim:event:eocyathispongia-single-specimen
+        referenceLinks:
+          - referenceId: yin-2015-eocyathispongia
+            relation: supports
+            pages: E1453–E1460
+            figure: Figures 1–4; Supplementary Movies
+            quoteLocator: Holotype microtomography, cellular organization and explicit single-specimen caveat
+    uncertaintyItems:
+      - statement: The authors state that additional specimens are required; funnel and opening homologies do not demonstrate crown-Porifera membership or a global first appearance.
+        relation: contextualizes
+        claimIds:
+          - claim:event:eocyathispongia-single-specimen
+        referenceLinks:
+          - referenceId: yin-2015-eocyathispongia
+            relation: supports
+            pages: E1453–E1460
+            figure: Figures 1–4; Supplementary Movies
+            quoteLocator: Holotype microtomography, cellular organization and explicit single-specimen caveat
+  claims:
+    - subjectId: event:eocyathispongia-single-specimen
+      claimKind: scientific
+      claimType: morphology
+      statement: One phosphatized Eocyathispongia specimen preserves a millimetre-scale, multicellular, three-tube body with funnel and osculum-like openings interpreted as sponge-grade anatomy.
+      confidence: medium
+      confidenceRationale: Cellular geometry is directly imaged by SEM and tomography, but poriferan affinity rests on one specimen without spicules or an independently replicated canal system.
+      referenceLinks:
+        - referenceId: yin-2015-eocyathispongia
+          relation: supports
+          pages: E1453–E1460
+          figure: Figures 1–4; Supplementary Movies
+          quoteLocator: Holotype microtomography, cellular organization and explicit single-specimen caveat
+  claim-rationales.zh:
+    - 细胞几何由扫描电镜和断层成像直接记录，但海绵归属基于单件无骨针标本，水沟系统也未独立重复发现。
+  claim-statements.zh:
+    - 唯一一件磷酸盐化的 Eocyathispongia 标本保存了毫米尺度、多细胞、由三条管组成的躯体，并具漏斗状和类似出水孔的开口，被解释为海绵级构造。

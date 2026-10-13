@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Idiocranium russeli
+  displayName: Idiocranium russeli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PCYY
+  sourceIndexes:
+    - name:
+        en: Idiocranium russeli
+        zh: Idiocranium russeli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PCYY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/433
+            queryName: Idiocranium russeli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e87c8eb880
+      - s-3f46a95b52
+      - s-6c3ab5c7d1
+      - s-ad2c89a409
+      - s-7f1585e9bb
+      - s-d48433b17f
+      - s-d3232c726a
+      - s-a0d9ad5cfd
+      - s-6150cbeece
+    zh:
+      - s-12be8b63c7
+      - s-5915ae72ff
+      - s-325c1902dd
+      - s-35a6973aa7
+      - s-b17f3dfe58
+      - s-7d54ae10f4
+      - s-b7c57655c0
+      - s-d747d750c6
+      - s-7385543013

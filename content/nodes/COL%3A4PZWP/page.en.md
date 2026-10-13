@@ -1,0 +1,3 @@
+## *Pteronia intermedia*: small heads and long-haired fruits {#s-83f4a5e516}
+The regional account describes a shrub up to 0.3 m tall, with alternate, linear-oblong leaves whose blunt tips range from finely bristly at the edge to hairless. Solitary flower heads sit at branch ends; the head narrows near its opening and has yellow disc florets. Its fruitlets are densely covered with long hairs. The account contrasts it with *Pteronia onobromoides*, noting much smaller leaves and heads, and with *P. punctata*, noting alternate leaves and hairless branchlets. It records flats and slopes as habitat.
+

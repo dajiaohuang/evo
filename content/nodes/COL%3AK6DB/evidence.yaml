@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Babiana cuneata J.C.Manning & Goldblatt
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage K6DB, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage K6DB; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/K6DB
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage K6DB
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000791660-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL K6DB / WFO wfo-0000791660
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-375142dc-c61a-8d8c-ac7c-81b393e51f3e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana cuneata J.C.Manning & Goldblatt account; SANBI/WFO archive rows 6722 (Morphology), 17980 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana cuneata J.C.Manning & Goldblatt account; SANBI/WFO archive rows 94916 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Acaulescent, cormous geophyte 8-15 mm. Leaves abruptly truncate at widest point, loosely pleated, smooth or sparsely hairy. Flowers several in dense spikes at ground level, pale to deep blue, the lower lateral tepals with white spear-shaped markings, tube elongate, inner bracts forked apically, ovary smooth.
+            textZh: Babiana cuneata J.C.Manning & Goldblatt 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Morphology row 6722; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Among the species with truncate foliage, Babiana cuneata is distinguished by the elongate perianth tube, 40-60 mm long, more-or-less equal, ascending tepals 26-30(-40) mm long, and a pale blue to violet, fragrant or apparently odourless flower. The stamens are openly displayed, with filaments 15-18 mm long and exserted 9-10 mm. The point of division of the style varies. In the type population the style branches opposite the base of the anthers but in plants to the south, below the Roggeveld Escarpment, it reaches the anther apices before branching. Flowering occurs from early August to late September. Babiana flabellifolia has, in contrast, strongly scented bilabiate flowers with an arched dorsal tepal more-or-less concealing the stamens, a perianth tube 18-36 mm long, and often dry, submembranous, or occasionally green, leafy bracts. In specimens where it is possible to see floral details, the style divides opposite the anther apices. Flowering in B. flabellifolia occurs from late June through July, rarely in early August in seasons when the rains are late or conditions are particularly cold. The flowers of B. cuneata closely resemble those of B. sambucina, which is widespread across the dry interior of the Cape Floral Region, but absent from the Roggeveld. Plants at the southern end of the range, in the Klein Roggeveld south of Komsberg Pass, have unusually large flowers with the dorsal tepal ± 40 mm long, the anthers 9-11 mm long, and the style is also unusual in dividing opposite the anther apices rather than opposite their bases. Plants also seem unusual in the blue-grey colour of the leaves, often 20-30 mm wide, likewise exceptional for the species. At present, however, there appears no reason to recognise these as a separate taxon.
+            textZh: SANBI 条目提供了 Babiana cuneata J.C.Manning & Goldblatt 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94916; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky sandstone or dolerite slopes and flats.
+            textZh: 该 SANBI 区域物种条目记录的生境：Rocky sandstone or dolerite slopes and flats.
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Habitat row 17980; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

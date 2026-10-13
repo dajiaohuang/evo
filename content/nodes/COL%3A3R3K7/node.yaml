@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kassina somalica
+  displayName: Kassina somalica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3R3K7
+  sourceIndexes:
+    - name:
+        en: Kassina somalica
+        zh: Kassina somalica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3R3K7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/154
+            queryName: Kassina somalica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/479
+            queryName: Kassina senegalensis somalica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-201a426d9f
+      - s-a9aa08293c
+      - s-831649d9da
+      - s-ecd390dc7c
+      - s-4f1e1362d6
+      - s-08e9531ee8
+      - s-e80484485b
+      - s-5ed72a7350
+    zh:
+      - s-6a4fb116d4
+      - s-fa1c333f8b
+      - s-f2e4aa415d
+      - s-5d9b74bb5f
+      - s-3c116171b8
+      - s-c9b7697d26
+      - s-446fcc9766
+      - s-a6381fde01

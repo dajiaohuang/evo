@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius geojeensis
+  displayName: Hynobius geojeensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q37LT
+  sourceIndexes:
+    - name:
+        en: Hynobius geojeensis
+        zh: Hynobius geojeensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q37LT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/162
+            queryName: Hynobius geojeensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-29a8f7edc0
+      - s-935a57f4f5
+      - s-bf296277d6
+      - s-570218bbb9
+      - s-c1dd15d871
+      - s-386f247af0
+      - s-cdee2136c4
+      - s-bcfca6c78e
+      - s-b2c4162b1a
+      - s-2ececd6ca3
+      - s-be284f2287
+    zh:
+      - s-e6ebca3fea
+      - s-85ef39a218
+      - s-5e5214644e
+      - s-4588b84a4e
+      - s-664aad331e
+      - s-e71a469bc7
+      - s-ffa228cfa3
+      - s-afdddbbffe
+      - s-2e0d15f4c6
+      - s-5e07aeba2b
+      - s-5c2fc72480

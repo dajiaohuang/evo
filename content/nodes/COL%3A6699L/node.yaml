@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates grillisimilis
+  displayName: Allobates grillisimilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6699L
+  sourceIndexes:
+    - name:
+        en: Allobates grillisimilis
+        zh: Allobates grillisimilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6699L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/142
+            queryName: Allobates grillisimilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-848f2ed477
+      - s-4a5bea5b2c
+      - s-e2b6e3123d
+      - s-e6c2a8cdd3
+      - s-859bf67040
+      - s-fd6e83c184
+      - s-3405a875bb
+      - s-a9e80c02b6
+      - s-9b3e5cfad4
+      - s-b502d7a826
+      - s-587e04d239
+      - s-6f5c8bf3a7
+      - s-e37a5ba9b3
+      - s-4f69c93f11
+      - s-ce962e5b5e
+      - s-9d390aec7c
+      - s-4c4ba5279a
+    zh:
+      - s-514d459a07
+      - s-b951bc4baf
+      - s-3d10335516
+      - s-397d3b067f
+      - s-0beca22235
+      - s-76cffac09b
+      - s-2d737b1612
+      - s-146843f72c
+      - s-85fe158e3b
+      - s-1a1be85700
+      - s-7615e68aef
+      - s-5ccd5d4410
+      - s-dc6f6f6471
+      - s-dd94dd0031
+      - s-c7f7b0eda9
+      - s-b70dd0580f
+      - s-9d52dd7ee4

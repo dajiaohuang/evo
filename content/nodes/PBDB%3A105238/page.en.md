@@ -1,0 +1,18 @@
+## Which fossil records this name represents {#s-d314a1e83e}
+Gopherus hexagonatus is accepted in the fixed PBDB pantestudines working roster, with database parent Gopherus. This guide uses 9 eligible species-level occurrence records from 9 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+
+## Begin with named collections and strata {#s-6a75d8169e}
+Collection Beaumont (Texas), region code US, stratum name Beaumont; database age bracket 2.58–0.0117 Ma, early interval Pleistocene. Collection North Cita Canyon (Middle Stratum) (Texas), region code US; database age bracket 3.6–2.58 Ma, early interval Late Pliocene. Collection Cita Canyon (Texas), region code US; database age bracket 4.7–1.4 Ma, early interval Blancan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+
+## Age bounds of these records {#s-a915ecef23}
+Selected occurrences have an outer age envelope of 4.7–0.0117 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+
+## Read preservation setting separately from living habitat {#s-97a4a7b308}
+North Cita Canyon (Middle Stratum) has collection-environment label fluvial indet.; collection preservation-mode label body. Cita Canyon has collection-environment label "channel"; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+
+## Follow collection records back to references {#s-83847a60fe}
+Beaumont carries database reference attribution Westgate (1989), identifier ref:5717. North Cita Canyon (Middle Stratum) carries database reference attribution Johnston (1937), identifier ref:34313. Cita Canyon carries database reference attribution Oelrich (1957), identifier ref:34314. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+
+## Evidence limits {#s-ef7178d245}
+This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 1150-item pantestudines working roster, retain the current same name and a complete parent chain to the recorded Pantestudines storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+

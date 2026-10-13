@@ -1,0 +1,124 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis festae
+  displayName: Pristimantis festae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VWHN
+  sourceIndexes:
+    - name:
+        en: Pristimantis festae
+        zh: Pristimantis festae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VWHN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/273
+            queryName: Pristimantis festae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/207
+            queryName: Eleutherodactylus trepidotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/272
+            queryName: Syrrhophus festae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/133
+            queryName: Syrrhopus festae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/134
+            queryName: Niceforonia festae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/216
+            queryName: Paludicola festae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a553867fb1
+      - s-b5f76670be
+      - s-cf006e57ca
+      - s-b0824a8819
+      - s-eacc944462
+      - s-53f04fed0f
+      - s-b69a10f5df
+      - s-2144bc0458
+      - s-70387bdc29
+      - s-119a19abba
+      - s-b1ffc46422
+      - s-0c496fcc5d
+      - s-75ef7fab3b
+      - s-b077a475e8
+      - s-e5b6619d92
+      - s-24dfec5814
+      - s-a8ca3dd6c3
+      - s-3ab563de25
+      - s-8549f1101b
+      - s-745638db35
+      - s-9e7d973cc0
+      - s-35f1de8688
+      - s-32a51049f8
+      - s-e4c4dd6ded
+      - s-0755e79b0c
+      - s-5c83a14c12
+      - s-24257f08fd
+    zh:
+      - s-e3bf5777c1
+      - s-9cbabba674
+      - s-908afe2775
+      - s-5d543420cc
+      - s-1d4018f19b
+      - s-61cf47a9fb
+      - s-20b67e5d68
+      - s-69000be6ab
+      - s-36e09922d5
+      - s-b123827d93
+      - s-81d93371a7
+      - s-635ac6d7b0
+      - s-48943179f8
+      - s-55ca1ffe5e
+      - s-b33e1702b7
+      - s-e445f1eb48
+      - s-96fb1ecb8b
+      - s-97cc2add0a
+      - s-b4fdee2607
+      - s-4a75e1a365
+      - s-dd52310a4d
+      - s-42e18abc81
+      - s-ea1bfc2f99
+      - s-acdd0b266b
+      - s-992000959f
+      - s-402fa45bc2
+      - s-33264a69ad

@@ -1,0 +1,9 @@
+## The source tadpole concept {#s-2028716f7f}
+TadpoleTraits version 4 files these records under *Ololygon catharinae* in *Ololygon*, Hylidae, following its recorded use of Amphibian Species of the World version 6.2 (2024). The source spellings are kept separately: Scinax catharinae. This is the dataset’s filing choice; by itself it does not establish that the source concept is identical to a current COL26.8 species concept.
+
+## Developmental material {#s-de510e1be9}
+TadpoleTraits version 4 lists **3 literature rows** and **1 image-derived row** for this source concept. The developmental labels are **28-36; 37; 36-39 (uncertainty)**, kept as supplied, including any ranges or image-based notes. These are data entries, not a count of individual tadpoles; sample-size fields stay with their own rows and are not added across studies. The source readme does not confirm the units for its measurement columns, so this page does not present those numbers as absolute lengths. A stage marked as judged from a picture remains an image-derived inference, not a stage directly documented in the literature.
+
+## Selected image-derived proportions {#s-9eb2220116}
+The image-data source reports body length / total length = 0.389191 (source row 1176, stage 36-39 (uncertainty)); tail length / total length = 0.633474 (source row 1176, stage 36-39 (uncertainty)); maximum body height / total length = 0.208593 (source row 1176, stage 36-39 (uncertainty)); maximum tail height / total length = 0.272892 (source row 1176, stage 36-39 (uncertainty)); tail muscle height / total length = 0.104373 (source row 1176, stage 36-39 (uncertainty)). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+

@@ -7,8 +7,9 @@ import perissodactylHypothesisData from '../../../data/packages/mammalia/perisso
 import calibrationData from '../../../data/packages/mammalia/perissodactyla/phylogeny/calibrations.json'
 import type { TreeDisplayMode } from '../../types'
 import { useI18n } from '../../i18n'
+import { localizedProfileText } from '../../i18n/profileText'
 import { getTaxonProfile, taxonProfiles } from '../../services/catalogProfiles'
-import type { EvolutionEvent } from '../../types/catalog'
+import type { EvolutionEvent, TaxonProfile } from '../../types/catalog'
 import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
 import { isBackendConfigured } from '../../data-client/backendClient'
 import { BackendCatalogueTree } from './BackendCatalogueTree'
@@ -110,8 +111,13 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
   const alternativeNodes = useMemo(() => flattenNodes(sourceTree, []), [sourceTree])
   const traitOptions = useMemo(() => {
     const visibleNodeIds = new Set(alternativeNodes.map((node) => node.id))
-    return [...new Set(taxonProfiles.filter((profile) => visibleNodeIds.has(profile.treeNodeId ?? profile.id)).flatMap((profile) => profile.traits))]
-      .sort((left, right) => left.localeCompare(right, 'en'))
+    const traits = new Map<string, TaxonProfile>()
+    for (const profile of taxonProfiles) {
+      if (!visibleNodeIds.has(profile.treeNodeId ?? profile.id)) continue
+      for (const trait of profile.traits) if (!traits.has(trait)) traits.set(trait, profile)
+    }
+    return [...traits].map(([value, profile]) => ({ value, profile }))
+      .sort((left, right) => left.value.localeCompare(right.value, 'en'))
   }, [alternativeNodes])
   const activeNodeCount = alternativeNodes.filter((node) => activeAt(node, currentAge)).length
   const exportTree = sourceTree
@@ -508,7 +514,7 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
         {eventError && eventOverlay && <span role="alert">{language === 'zh' ? '事件图层暂不可用' : 'Event overlay unavailable'}</span>}
         <button disabled={!selectedSourceNode?.children?.length} onClick={toggleSelectedCollapse}>{t(selectedSourceNode && collapsedIds.has(selectedSourceNode.id) ? 'Expand selected clade' : 'Collapse selected clade')}</button>
         <button className={traceLineage ? 'is-active' : ''} aria-pressed={traceLineage} disabled={!selectedNodeId} onClick={() => setTraceLineage((current) => !current)}>{t('Lineage trace')}</button>
-        <label><span>{t('Trait overlay')}</span><select value={traitOverlay} onChange={(event) => setTraitOverlay(event.target.value)}><option value="">{t('No trait overlay')}</option>{traitOptions.map((trait) => <option value={trait} key={trait}>{trait}</option>)}</select></label>
+        <label><span>{t('Trait overlay')}</span><select value={traitOverlay} onChange={(event) => setTraitOverlay(event.target.value)}><option value="">{t('No trait overlay')}</option>{traitOptions.map(({ value, profile }) => <option value={value} key={value}>{localizedProfileText(profile, value, language, t)}</option>)}</select></label>
         <button className={eventOverlay ? 'is-active' : ''} aria-pressed={eventOverlay} onClick={() => setEventOverlay((current) => !current)}>{t('Event overlay')} · {activeEventLabels.size}</button>
       </div>
       <div className="tree-export-control" role="group" aria-label={t('Export topology')}>

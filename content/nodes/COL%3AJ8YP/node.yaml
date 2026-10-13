@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus glyphus
+  displayName: Atelopus glyphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8YP
+  sourceIndexes:
+    - name:
+        en: Atelopus glyphus
+        zh: Atelopus glyphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8YP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/262
+            queryName: Atelopus glyphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/427
+            queryName: Atelopus varius glyphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a397e74bf0
+      - s-71c52165e9
+      - s-3c1bf813ce
+      - s-00ca6cd25e
+      - s-beb0468986
+      - s-b7578c8f73
+      - s-25a4bbdc9a
+      - s-a5fc53843c
+      - s-e8be5554a6
+      - s-5b289195e6
+      - s-4f0bc8f2cc
+    zh:
+      - s-04c184fc6e
+      - s-da0eb1e7eb
+      - s-e390599256
+      - s-80cae3f3d3
+      - s-39d7fc090e
+      - s-74a0f3952d
+      - s-6276b28310
+      - s-f9974f87cf
+      - s-8b2887c739
+      - s-996840c3b8
+      - s-990218829e

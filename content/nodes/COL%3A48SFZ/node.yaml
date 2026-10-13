@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana khalam
+  displayName: Odorrana khalam
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SFZ
+  sourceIndexes:
+    - name:
+        en: Odorrana khalam
+        zh: Odorrana khalam
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SFZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/24
+            queryName: Odorrana khalam
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/317
+            queryName: Rana khalam
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/318
+            queryName: Huia khalam
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cccbd34515
+      - s-63ec542a48
+      - s-c2d4fae6f9
+      - s-22678fdb60
+      - s-b4e559129b
+      - s-dea5a04620
+      - s-bb312bb17d
+      - s-50ea415bb6
+      - s-bb807a3850
+    zh:
+      - s-7e96e0ebaa
+      - s-3ae778df77
+      - s-c59b70ff92
+      - s-f0a057e282
+      - s-ad515c62e9
+      - s-930d7f17dc
+      - s-7dd0805576
+      - s-e7e3335360
+      - s-b4e51ec3e4

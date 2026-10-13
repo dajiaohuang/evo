@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis charlottevillensis
+  displayName: Pristimantis charlottevillensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJBS
+  sourceIndexes:
+    - name:
+        en: Pristimantis charlottevillensis
+        zh: Pristimantis charlottevillensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJBS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/193
+            queryName: Pristimantis charlottevillensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/304
+            queryName: Eleutherodactylus charlottevillensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9508abcf2
+      - s-2aa20c159b
+      - s-a3aea506c9
+      - s-8dbaf43fb4
+      - s-11880eb220
+      - s-48b47af8b4
+      - s-96c457dee4
+      - s-216f73f066
+    zh:
+      - s-c22626dd02
+      - s-4586b48081
+      - s-d96ec7eceb
+      - s-6247d8c98e
+      - s-ef00fb5e95
+      - s-dc30708f95
+      - s-bd0f5fbca5
+      - s-935b177c51

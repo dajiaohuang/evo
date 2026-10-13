@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Benthosuchus uralensis
+    rank: species
+    sourceTaxonId: txn:269991
+    name:
+      en: Benthosuchus uralensis
+      zh: Benthosuchus uralensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-17a80639d9
+            part: body
+          zh:
+            page: zh
+            section: s-9e943b6708
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-1de83e0da5
+            part: body
+          zh:
+            page: zh
+            section: s-b4406bfdf6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-d30bca4f9d
+            part: body
+          zh:
+            page: zh
+            section: s-9c446fc7d4
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:269991; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "R. J. Damiani. 2001. A systematic revision and phylogenetic analysis of Triassic mastodonsauroids (Temnospondyli: Stereospondyli). Zoological Journal of the Linnean Society 133(4):379-482"
+    occurrenceEvidence:
+      - occurrenceId: occ:846842
+        collectionId: col:37037
+        acceptedTaxonId: txn:269991
+        taxonomicDifference: null
+        referenceId: ref:28844
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and M. V. Surkov, M. J. Benton. 2003. Tetrapod localities from the Triassic of the SE of European Russia. Earth-Science Reviews 60(1-2):1-66
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Belyaevka
+        stratigraphy:
+          group: null
+          formation: Kopanaskya
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-d30bca4f9d
+            part: body
+          zh:
+            page: zh
+            section: s-9c446fc7d4
+            part: body
+        sourceIds: []

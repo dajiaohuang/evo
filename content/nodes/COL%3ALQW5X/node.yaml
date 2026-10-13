@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Beduka
+  displayName: Beduka
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LQW5X
+  sourceIndexes:
+    - name:
+        en: Beduka
+        zh: Beduka
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LQW5X
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/230
+            queryName: Beduka
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75041910b1
+      - s-00517e5200
+      - s-328c2323ea
+      - s-62cda77fec
+      - s-7cee24845f
+      - s-ac2d3cbbb2
+      - s-63ec1daf17
+      - s-3718de0830
+      - s-8780316146
+      - s-ab2e1631c2
+      - s-3460119fa6
+    zh:
+      - s-4f2d0c8017
+      - s-c1e06d3f56
+      - s-2436351f79
+      - s-02af2feb61
+      - s-4bb3f4cb34
+      - s-efa88fc16c
+      - s-a375508359
+      - s-a9d3adda2c
+      - s-91013d37b1
+      - s-c74a01af57
+      - s-1296d4b672

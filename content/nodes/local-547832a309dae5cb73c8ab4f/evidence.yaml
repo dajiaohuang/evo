@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Laotriton laoensis
+    name:
+      en: Laotriton laoensis
+      zh: Laotriton laoensis
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Laotriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Laotriton laoensis in the morphology deposit
+          zh: 形态数据中的 Laotriton laoensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a2cbf0d987
+            part: body
+          zh:
+            page: zh
+            section: s-99920e2a6f
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 200 and 201: measurement fields and sex codes"
+          zh: 第 200、201 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-bfce7c931a
+            part: body
+          zh:
+            page: zh
+            section: s-4343c96c22
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 200, 201; Reference.csv rows 4048
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 200
+        values:
+          - Salamandridae
+          - Laotriton
+          - Laotriton laoensis
+          - M
+          - "176.9"
+          - "83.6"
+          - NA
+          - "41.5"
+          - "28.2"
+          - NA
+          - "11.8"
+          - NA
+          - "6.9"
+          - NA
+          - "5.7"
+          - NA
+          - "86.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "31.5"
+          - "29.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 201
+        values:
+          - Salamandridae
+          - Laotriton
+          - Laotriton laoensis
+          - F
+          - "180.3"
+          - "82.2"
+          - NA
+          - "40.2"
+          - "26.6"
+          - NA
+          - "11.5"
+          - NA
+          - "6.6"
+          - NA
+          - "5.9"
+          - NA
+          - "91.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "29.8"
+          - "29.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4048
+        values:
+          - Caudata
+          - Laotriton_laoensis
+          - "Stuart, B. (2009). A new salamander of the genus Paramesotriton (Caudata: Salamandridae) from Laos. Journal of Herpetology, 36, 145-148. https://doi.org/10.1670/0022-1511(2002)036[0145:ANSOTG]2.0.CO;2"
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - IOD
+      - EN
+      - IND
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3S8HP
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

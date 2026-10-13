@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Beishanlong
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Beishanlong
+      en: Beishanlong
+    sections:
+      - topic: specimenOverview
+        sourceIds:
+          - makovicky2010BeishanlongReader
+        text:
+          zh:
+            page: zh
+            section: s-742baf0e8f
+            part: body
+          en:
+            page: en
+            section: s-e25a4f50a8
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - makovicky2010BeishanlongReader
+          - lee2014DeinocheirusReader
+        text:
+          zh:
+            page: zh
+            section: s-61233e36ae
+            part: body
+          en:
+            page: en
+            section: s-4059a4a265
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2f2853de25
+            part: body
+          en:
+            page: en
+            section: s-536a68f08e
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2f4a3a4900
+            part: body
+          en:
+            page: en
+            section: s-3ad64c61f9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Beishanlong
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=146117
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:146117
+          readingTargets:
+            - name: Beishanlong grandis
+              pbdbTaxonId: txn:146118
+              canonicalPath: content/nodes/PBDB%3A146118
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: makovicky2010BeishanlongReader
+        referenceId: ref-e0e1f98a-1f10-4e2f-93a0-014e96e48674
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - publishedAt
+          - onlinePublishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: A giant ornithomimosaur from the Early Cretaceous of China
+          url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2842665/
+          accessedAt: 2026-10-03
+          locator: Main scientific paragraphs and figure1–5 captions in published PMC HTML. No figure pixels, supplementary tables/matrices or raw histology rerun. Print/online dates checked against Crossref.
+          scope:
+            zh: Beishanlong 正模／归入材料、颅后形态、限定组织学与估算；类群为比较路线。
+            en: Beishanlong holotype/referrals, postcranial anatomy, bounded histology and estimates; group pages offer comparison routes.
+      - id: lee2014DeinocheirusReader
+        referenceId: ref-697ce92d-02cb-4141-8419-a66940186442
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Resolving the long-standing enigmas of a giant ornithomimosaur Deinocheirus mirificus
+          url: https://biblio.naturalsciences.be/library-1/rbins-staff-publications/pdfs/Lee%20et%20al.-%202014%20-%20Deinocheirus.pdf
+          accessedAt: 2026-10-03
+          locator: Previously read P5-133 main PDF1–4, appended Extended Data captions and selected pixels; comparison of 2014 phylogeny and Deinocheirus stomach contents only. Not new Beishanlong specimen evidence.
+          scope:
+            zh: 2014 年恐手龙系统树和胃内容物作为比较，不能转成北山龙的直接形态或食性。
+            en: The 2014 Deinocheirus tree and stomach contents are comparative, not direct Beishanlong morphology or diet.
+    limitations:
+      zh:
+        page: zh
+        section: s-6f3e8718e2
+        part: body
+      en:
+        page: en
+        section: s-9f9a0e3605
+        part: body

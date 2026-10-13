@@ -1,0 +1,3 @@
+## What leaf, flower and fruit traits are recorded for Piriqueta scabrida? {#s-a4da2c1ccb}
+The branches bear simple and star-shaped hairs. Petiolate leaves are elliptic or lance-shaped, leathery and differently colored above and below; edges range from entire to toothed or rolled under. Both surfaces have star-shaped hairs, and nectaries are absent. The inflorescence has one flower and no bracteoles. Inner calyx lobes are woolly beside the midrib. The corolla ranges from pink to orange, with a reddish corona; styles are heterostylous, with different lengths. The fruit is granular or tuberculate. Seeds are slightly curved and net-veined; the outer seed layer is unknown.
+

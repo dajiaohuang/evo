@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis spectabilis
+  displayName: Pristimantis spectabilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/788FV
+  sourceIndexes:
+    - name:
+        en: Pristimantis spectabilis
+        zh: Pristimantis spectabilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 788FV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/104
+            queryName: Pristimantis spectabilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-245e877502
+      - s-152e36159f
+      - s-f6492b8e9f
+      - s-c5a3af83f7
+      - s-24d3a5314e
+      - s-937c00396c
+      - s-678df6eaf5
+    zh:
+      - s-1b53ae121d
+      - s-ff205ba7e2
+      - s-238fbbae3b
+      - s-3a2b9ab990
+      - s-52214af496
+      - s-94c21412c9
+      - s-1d5ec152e7

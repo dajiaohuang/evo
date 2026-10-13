@@ -1,0 +1,349 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachium sylheticum Al-Razi, Maria & Poyarkov, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachium sylheticum
+      zh: Leptobrachium sylheticum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cd3cca56f5
+            part: title
+          zh:
+            page: zh
+            section: s-1036acb988
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cd3cca56f5
+            part: body
+          zh:
+            page: zh
+            section: s-1036acb988
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-99c10019d1
+            part: title
+          zh:
+            page: zh
+            section: s-f23660793b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-99c10019d1
+            part: body
+          zh:
+            page: zh
+            section: s-f23660793b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-da7a060c4d
+            part: title
+          zh:
+            page: zh
+            section: s-d84b0fcb4e
+            part: title
+        sourceIds:
+          - primary-pmc12794644-q9zyd
+        text:
+          en:
+            page: en
+            section: s-da7a060c4d
+            part: body
+          zh:
+            page: zh
+            section: s-d84b0fcb4e
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b39dff2e5f
+            part: title
+          zh:
+            page: zh
+            section: s-ea4e536b11
+            part: title
+        sourceIds:
+          - primary-pmc12794644-q9zyd
+        text:
+          en:
+            page: en
+            section: s-b39dff2e5f
+            part: body
+          zh:
+            page: zh
+            section: s-ea4e536b11
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-11b7d943a6
+            part: title
+          zh:
+            page: zh
+            section: s-6e00f73e82
+            part: title
+        sourceIds:
+          - primary-pmc12794644-q9zyd
+        text:
+          en:
+            page: en
+            section: s-11b7d943a6
+            part: body
+          zh:
+            page: zh
+            section: s-6e00f73e82
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-81a776498c
+            part: title
+          zh:
+            page: zh
+            section: s-fd09cd29ec
+            part: title
+        sourceIds:
+          - primary-pmc12794644-q9zyd
+        text:
+          en:
+            page: en
+            section: s-81a776498c
+            part: body
+          zh:
+            page: zh
+            section: s-fd09cd29ec
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-2daf52e2d4
+            part: title
+          zh:
+            page: zh
+            section: s-b68f9a1cff
+            part: title
+        sourceIds:
+          - primary-pmc12794644-q9zyd
+        text:
+          en:
+            page: en
+            section: s-2daf52e2d4
+            part: body
+          zh:
+            page: zh
+            section: s-b68f9a1cff
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-023f80f767
+            part: body
+          zh:
+            page: zh
+            section: s-0e00f176ce
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachium sylheticum
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q9ZYD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12794644-q9zyd
+        referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachium sylheticum: Selected individual species accounts and molecular methods in the Indian genus revision; original factual summaries only, no images or supplementary datasets reproduced; two newly described taxa absent from pinned catalogue kept in a separate pending ledger; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c2824c7a4f
+        part: body
+      zh:
+        page: zh
+        section: s-0a24723ed8
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.20397
+        referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+        sourceKey: primary-pmc12794644-q9zyd
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12794644/article.xml
+        sourceConcept: Leptobrachium sylheticum
+        evidenceRead: "Leptobrachium sylheticum: Selected individual species accounts and molecular methods in the Indian genus revision; original factual summaries only, no images or supplementary datasets reproduced; two newly described taxa absent from pinned catalogue kept in a separate pending ledger; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: The revised diagnosis combines eye colour and small webbing
+              zh: 修订鉴别结合眼色与少量趾蹼
+            referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+            sourceKey: primary-pmc12794644-q9zyd
+            locator: PMC12794644 reading-sections section 5 paragraphs 12
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-99651c1850
+                part: body
+              zh:
+                page: zh
+                section: s-5c56262923
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: The sampled clade includes aryatium as its sister species
+              zh: 受采支系以 aryatium 为姐妹种
+            referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+            sourceKey: primary-pmc12794644-q9zyd
+            locator: PMC12794644 reading-sections section 5 paragraphs 13; section 1 paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-525c6e5481
+                part: body
+              zh:
+                page: zh
+                section: s-064629aaad
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Call and pulse timings contain a source inconsistency
+              zh: 鸣声与脉冲时间含来源不一致
+            referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+            sourceKey: primary-pmc12794644-q9zyd
+            locator: PMC12794644 reading-sections section 5 paragraphs 20
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-55ace087f1
+                part: body
+              zh:
+                page: zh
+                section: s-9984479727
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: behavior
+            heading:
+              en: Terminology limits comparison with the original call description
+              zh: 术语差异限制与原鸣声描述的比较
+            referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+            sourceKey: primary-pmc12794644-q9zyd
+            locator: PMC12794644 reading-sections section 5 paragraphs 22
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7113d3de86
+                part: body
+              zh:
+                page: zh
+                section: s-e942699217
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: distribution
+            heading:
+              en: Confirmed records remain separate from proposed nearby assignments
+              zh: 确认记录与拟议邻近归属分别保留
+            referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+            sourceKey: primary-pmc12794644-q9zyd
+            locator: PMC12794644 reading-sections section 5 paragraphs 23
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ed786c6a1c
+                part: body
+              zh:
+                page: zh
+                section: s-60c8546cac
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

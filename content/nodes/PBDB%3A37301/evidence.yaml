@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ostodolepidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Ostodolepidae
+      en: Ostodolepidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbResidualAmniotaTaxonomy20261002
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-09f1af4ac0
+            part: body
+          en:
+            page: en
+            section: s-17e70e84ed
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5ae47835e
+            part: body
+          en:
+            page: en
+            section: s-d66e908831
+            part: body
+    sources:
+      - id: pbdbResidualAmniotaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Ostodolepidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=37301
+          locator: Recorded PBDB parent closure beneath the already documented Amniota COL-compatible storage anchor.
+      - id: pbdbResidualAmniotaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:37301
+          readingTargets:
+            - name: Ostodolepis brevispinatus
+              pbdbTaxonId: txn:150619
+              canonicalPath: content/nodes/PBDB%3A150619
+            - name: Tambaroter carrolli
+              pbdbTaxonId: txn:207729
+              canonicalPath: content/nodes/PBDB%3A207729
+            - name: Nannaroter mckinziei
+              pbdbTaxonId: txn:150627
+              canonicalPath: content/nodes/PBDB%3A150627
+            - name: Pelodosotis elongatum
+              pbdbTaxonId: txn:150625
+              canonicalPath: content/nodes/PBDB%3A150625
+            - name: Micraroter erythrogeios
+              pbdbTaxonId: txn:90684
+              canonicalPath: content/nodes/PBDB%3A90684
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-20b4e8ce9b
+        part: body
+      en:
+        page: en
+        section: s-ce5ce3f48c
+        part: body

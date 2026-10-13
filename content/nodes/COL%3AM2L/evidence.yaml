@@ -1,0 +1,55 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Mollusca
+    commonName: Mollusks
+    commonNameZh: 软体动物
+    rank: phylum
+    taxonId: txn:7805
+    firstAppearance: 558
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:mollusca
+      claimKind: scientific
+      claimType: morphology
+      statement: The 558–0 Ma Mollusca display is a navigation envelope anchored at its old end by White Sea Kimberella morphology and at its young end by living molluscs; it is not a crown-Mollusca origin, a continuous fossil record or a direct-ancestor claim.
+      confidence: medium
+      confidenceRationale: Kimberella anatomy is directly documented, but mollusc affinity is interpretive and the navigation endpoint deliberately exceeds what one local fossil assemblage can establish.
+      referenceLinks:
+        - referenceId: fedonkin-waggoner-1997-kimberella
+          relation: supports
+          pages: 868–871
+          figure: Figures 1–3
+          quoteLocator: Description; reconstruction; discussion of mollusc-like characters
+  claim-rationales.zh:
+    - Kimberella 解剖有直接记录，但软体动物亲缘仍属解释；导航端点有意不被误写成单一局部化石群能够确定的全群端点。
+  claim-statements.zh:
+    - 558–0 Ma 的软体动物显示范围是导航包络：老端由白海 Kimberella 形态证据锚定，年轻端由现生软体动物锚定；它不是软体动物冠群起源、连续化石记录或直接祖先主张。
+  ranges:
+    - entityId: mollusca
+      rangeKind: global-composite
+      taxonomicConcept: Mollusca plus explicitly bounded origin-dossier navigation
+      geographicScope: Global living Mollusca plus represented origin-dossier sample
+      olderMa: 558
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The older endpoint includes the mollusc-like Kimberella dossier for discovery and is not a crown-Mollusca FAD or divergence estimate.
+      evidenceBasis: Teaching-navigation envelope linking living Mollusca to a separately qualified mollusc-like Ediacaran dossier.
+      confidence: low
+      claimIds:
+        - claim:event:kimberella-white-sea-morphology
+      referenceLocators:
+        - referenceId: open-tree
+          locator: https://opentreeoflife.github.io/use
+        - referenceId: pbdb-api-2016
+          locator: doi:10.1017/pab.2015.39
+        - referenceId: fedonkin-waggoner-1997-kimberella
+          locator: 868–871; mollusc-like body-plan dossier, not crown assignment
+      evidenceLevel: literature-synthesized

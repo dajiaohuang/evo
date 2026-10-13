@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger nepalensis
+  displayName: Scutiger nepalensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XYHC
+  sourceIndexes:
+    - name:
+        en: Scutiger nepalensis
+        zh: Scutiger nepalensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XYHC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/158
+            queryName: Scutiger nepalensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b0b2e404fe
+      - s-a6e467080e
+      - s-74fa00bd73
+      - s-ea88616233
+      - s-f55ae14578
+      - s-67479941cd
+      - s-7245aa00c5
+    zh:
+      - s-c96b7e612f
+      - s-5550bc7ddb
+      - s-c87d1c1090
+      - s-f45035bd10
+      - s-653bdd5276
+      - s-c4a1411b44
+      - s-9e00043cf7

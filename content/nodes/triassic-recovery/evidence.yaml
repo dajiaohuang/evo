@@ -1,0 +1,85 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-f599cb10ce
+      part: title
+    titleZh:
+      page: zh
+      section: s-6a3dadf6dd
+      part: title
+    category: radiation
+    startAge: 251.902
+    endAge: 235
+    regions:
+      - Pangaea
+      - Tethys Ocean
+    clades:
+      - Archosauromorpha
+      - marine reptiles
+      - modern-style marine guilds
+    summary:
+      page: en
+      section: s-f599cb10ce
+      part: body
+    summaryZh:
+      page: zh
+      section: s-6a3dadf6dd
+      part: body
+    claimIds:
+      - claim:event:triassic-recovery
+    evidenceItems:
+      - statement: Changing food-web structure
+        relation: supports
+        claimIds:
+          - claim:event:triassic-recovery
+        referenceLinks:
+          - relation: supports
+            referenceId: chen-2012-triassic-recovery
+      - statement: New reptile radiations
+        relation: supports
+        claimIds:
+          - claim:event:triassic-recovery
+        referenceLinks:
+          - relation: supports
+            referenceId: chen-2012-triassic-recovery
+      - statement: Recovery of reef and pelagic systems
+        relation: supports
+        claimIds:
+          - claim:event:triassic-recovery
+        referenceLinks:
+          - relation: supports
+            referenceId: chen-2012-triassic-recovery
+    uncertaintyItems:
+      - statement: Recovery duration differs by metric and region
+        relation: contextualizes
+        claimIds:
+          - claim:event:triassic-recovery
+        referenceLinks:
+          - relation: supports
+            referenceId: chen-2012-triassic-recovery
+      - statement: Repeated Early Triassic environmental stress delayed some communities
+        relation: contextualizes
+        claimIds:
+          - claim:event:triassic-recovery
+        referenceLinks:
+          - relation: supports
+            referenceId: chen-2012-triassic-recovery
+  claims:
+    - subjectId: event:triassic-recovery
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Ecological recovery after the end-Permian extinction was heterogeneous among environments and trophic levels.
+      confidence: high
+      confidenceRationale: High confidence reflects the source's synthesis of recovery timing across multiple fossil groups, environments and ecological metrics; local recovery trajectories are not generalized into one synchronous global date.
+      referenceLinks:
+        - relation: supports
+          referenceId: chen-2012-triassic-recovery
+          pages: 375–383
+          figure: Figures 1–3
+          quoteLocator: Review synthesis; recovery phases; Box 1
+  claim-rationales.zh:
+    - 高置信度来自来源对多个化石类群、环境和生态指标恢复时间的综合；局部轨迹没有被概括成单一的全球同步日期。
+  claim-statements.zh:
+    - 二叠纪末大灭绝后的生态恢复在不同环境和营养级之间并不均一。

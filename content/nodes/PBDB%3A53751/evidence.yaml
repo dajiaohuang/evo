@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Borhyaena tuberata
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Borhyaena tuberata
+      en: Borhyaena tuberata
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ed26b3e548
+            part: body
+          en:
+            page: en
+            section: s-2a54dcc05d
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ddbc5feec8
+            part: body
+          en:
+            page: en
+            section: s-fa4a087db4
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6f3e8f06be
+            part: body
+          en:
+            page: en
+            section: s-73bcd9a936
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b8b9cf0601
+            part: body
+          en:
+            page: en
+            section: s-12f48ff6ed
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5770ccfb8b
+            part: body
+          en:
+            page: en
+            section: s-0b78af78e5
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Borhyaena tuberata
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=53751&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:53751; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:53751
+          selectedOccurrenceIds:
+            - occ:1106023
+            - occ:1124802
+            - occ:1316006
+            - occ:1316007
+            - occ:1316008
+            - occ:1316009
+            - occ:1316010
+            - occ:1316011
+            - occ:1316012
+            - occ:1316013
+            - occ:1316014
+            - occ:1316015
+            - occ:1316016
+            - occ:1316017
+            - occ:1316018
+            - occ:1316019
+            - occ:1316020
+            - occ:1316782
+            - occ:1512691
+            - occ:1512702
+          selectedCollectionIds:
+            - col:139845
+            - col:142533
+            - col:176576
+            - col:176602
+            - col:142529
+            - col:176578
+            - col:176636
+            - col:176596
+            - col:176565
+            - col:27313
+            - col:176563
+            - col:176570
+            - col:176593
+            - col:176566
+            - col:176587
+            - col:176582
+            - col:176585
+            - col:210638
+            - col:210786
+          sourceReferenceIds:
+            - ref:44988
+            - ref:58202
+            - ref:58303
+            - ref:72910
+          originalIdentificationMappings:
+            - occurrenceId: occ:1316782
+              originalIdentifiedName: Borhyaena zitteli n. sp.
+              acceptedName: Borhyaena tuberata
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-2e7ad395f0
+        part: body
+      en:
+        page: en
+        section: s-951f6be678
+        part: body

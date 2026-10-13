@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus cochranae
+  displayName: Eleutherodactylus cochranae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39963
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus cochranae
+        zh: Eleutherodactylus cochranae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "39963"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/177
+            queryName: Eleutherodactylus cochranae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/174
+            queryName: Eleutherodactylus ramosi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-24f2647045
+      - s-fafc76fba3
+      - s-2f8ca7a90a
+      - s-3a361194aa
+      - s-0e57ce48b4
+      - s-dbb21b186e
+      - s-1902b21f12
+      - s-399ffdeb3f
+      - s-8db2e1c6f7
+      - s-d477467f02
+      - s-f1e46a3bf5
+    zh:
+      - s-81649965d0
+      - s-3983126959
+      - s-3500bb39dd
+      - s-46322c93eb
+      - s-351873b915
+      - s-103460465f
+      - s-c3908225fd
+      - s-121becbf67
+      - s-2080f5e6d3
+      - s-b9a6dc4bf0
+      - s-8d5d4759c3

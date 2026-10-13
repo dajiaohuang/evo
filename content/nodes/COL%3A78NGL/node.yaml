@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena tournieri
+  displayName: Ptychadena tournieri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78NGL
+  sourceIndexes:
+    - name:
+        en: Ptychadena tournieri
+        zh: Ptychadena tournieri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78NGL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/4
+            queryName: Ptychadena tournieri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/172
+            queryName: Rana tournieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d1ab35fe75
+      - s-fbaf0edd42
+      - s-640126b00a
+      - s-098d6cbdba
+      - s-cd669feec2
+      - s-a7683ba15f
+      - s-f590cbe063
+      - s-be237c506e
+      - s-bedccc0012
+      - s-5d9093d6b4
+      - s-42a1b9ed47
+    zh:
+      - s-39728e2879
+      - s-7124f35efa
+      - s-ec3f1dae1d
+      - s-71e2e7e7a8
+      - s-c08774d2a1
+      - s-33a78fd3c5
+      - s-090cba8390
+      - s-5feebb0d14
+      - s-31aa64076f
+      - s-030ff6b177
+      - s-c42bd3c829

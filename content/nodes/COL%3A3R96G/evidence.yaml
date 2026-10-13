@@ -1,0 +1,142 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Klattia stokoei L.Guthrie
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3R96G, name, authorship, rank, and source dataset 2232 checked against the pinned taxon; WFO 2026-06 crosswalk maps it to wfo-0000784550 by exact accepted name and authorship.
+      scope: Klattia stokoei L.Guthrie as represented by COL26.8 usage 3R96G; SANBI regional flora and national assessment retain their separate southern African/South African scopes.
+    lifeStatusScope:
+      wild: Claims concern wild populations described by the regional flora or South African national assessment.
+      domesticated: Cultivation is not covered by the cited claims; no domestication claim is made.
+      fossil: No fossil claim is made; fossil occurrence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - scope
+          - url
+          - locator
+        metadataVariant: 18
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          scope: Accepted name, authorship, rank, and source-dataset identity only; not biological evidence.
+          url: https://www.checklistbank.org/dataset/316115/taxon/3R96G
+          locator: Accepted taxon usage 3R96G
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - scope
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          url: https://list.worldfloraonline.org/wfo-0000784550-2026-06
+          scope: Identity-link evidence only; not biological evidence.
+          locator: Crosswalk row COL 3R96G / WFO wfo-0000784550
+      - id: sanbi2020
+        referenceId: ref-a2c82bbf-bb8f-8117-a1e3-5aefbf03dc12
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - scope
+          - locator
+        metadataVariant: 0
+        usage:
+          scope: Regional taxonomic flora treatment of southern African Iridaceae; species accounts are not global assessments.
+          locator: Klattia account, printed p. 58; morphology, flowering time, and distribution and ecology paragraphs
+      - id: redlist-3r96g
+        referenceId: ref-9e116c40-4886-8506-a047-1482108328e6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: National status and criteria; assessment date; justification; distribution; habitat and ecology; population trend
+          scope: South African national assessment only; assessment date is distinct from the dataset version and does not establish a current global status.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: A shrub about 0.5–1.2 m tall with dark-green, linear-lanceolate leaves, often somewhat sickle-shaped, and conspicuous crimson-red inflorescence bracts and orange-red tepals. The style exceeds the tepals by about 1–5 mm.
+            textZh: 灌木高约 0.5–1.2 m，叶深绿、线状披针形，常略呈镰刀状；显著的花序苞片为深红色，花被片橙红色。花柱超出花被片约 1–5 mm。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), Klattia account, printed p. 58, species morphological description
+            placeTimeScope: Species-level account in a 2020 southern African flora; locality and period are limited to the source account.
+            lifeStatus: Wild regional flora/account evidence; cultivated status is not assessed.
+        gaps:
+          - The regional or national account is partial evidence only; a systematic, scope-complete review of morphology for this species has not been completed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The 2020 account reports flowering mid-December–early February; it does not provide a full life-cycle or reproductive study.
+            textZh: 2020 年账户记载其花期为 mid-December–early February；账户未提供完整生活史或繁殖研究。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), Klattia account, printed p. 58, flowering-time entry
+            placeTimeScope: Species-level account in a 2020 southern African flora; locality and period are limited to the source account.
+            lifeStatus: Wild regional flora/account evidence; cultivated status is not assessed.
+        gaps:
+          - The regional or national account is partial evidence only; a systematic, scope-complete review of lifeHistory for this species has not been completed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The 2020 account records damp south-trending slopes, seeps and streambanks in peaty sand within the Kogelberg mountain complex of the Western Cape. SANBI’s regional plant account also records sunbird visits near Pringle Bay; this observation is local, not a full pollination study.
+            textZh: 2020 年账户记载其生于西开普 Kogelberg 山系泥炭质砂土上的湿润南向坡、渗水处及溪岸。SANBI 区域植物条目还记载 Pringle Bay 附近有太阳鸟访花；这是局部观察，并非完整传粉研究。
+            sourceIds:
+              - sanbi2020
+              - redlist-3r96g
+            locator: Strelitzia 42 (2020), Klattia account, printed p. 58, distribution and ecology
+            placeTimeScope: Species-level account in a 2020 southern African flora; locality and period are limited to the source account.
+            lifeStatus: Wild regional flora/account evidence; cultivated status is not assessed.
+        gaps:
+          - The regional or national account is partial evidence only; a systematic, scope-complete review of ecology for this species has not been completed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The 2020 flora account restricts the species to the Kogelberg mountain complex of the southwestern Western Cape, from ridges above Steenbras Dam east toward Betty’s Bay and the mountains above Kleinmond. The account is a regional treatment, not a current global range inventory.
+            textZh: 2020 年植物志将该种限定于西开普西南部 Kogelberg 山系，从 Steenbras Dam 上方山脊向东至 Betty’s Bay 及 Kleinmond 上方山地。这是区域性记载，不是当前全球分布清单。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), Klattia account, printed p. 58, distribution and ecology
+            placeTimeScope: Species-level account in a 2020 southern African flora; locality and period are limited to the source account.
+            lifeStatus: Wild regional flora/account evidence; cultivated status is not assessed.
+        gaps:
+          - The regional or national account is partial evidence only; a systematic, scope-complete review of distribution for this species has not been completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: partially-supported
+        claims:
+          - text: SANBI lists the South African national assessment as Endangered D, assessed 2007-07-28 and shown in Red List version 2024.1. It describes a Kogelberg endemic with 10 subpopulations, each with fewer than 10 individuals, fewer than 250 mature individuals in total, and a stable recorded trend; groundwater extraction is a potential threat.
+            textZh: SANBI 南非国家评估列为濒危 D，评估日期为 2007-07-28，页面列入 Red List 2024.1。评估记载其为 Kogelberg 特有种，有 10 个亚种群且每群少于 10 个个体，成熟个体总数少于 250，记录的趋势稳定；地下水抽取是潜在威胁。
+            sourceIds:
+              - redlist-3r96g
+            locator: National status and criteria; assessment date; justification; distribution; habitat and ecology; population trend
+            placeTimeScope: South African national assessment dated 2007-07-28; page version 2024.1. This is not a global assessment or a new assessment in 2024.
+            lifeStatus: Wild South African populations within the assessment scope.
+        gaps:
+          - The regional or national account is partial evidence only; a systematic, scope-complete review of conservation for this species has not been completed.

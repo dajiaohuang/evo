@@ -1,0 +1,59 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Acrocodia indica (Desmarest, 1819)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 马来貘
+      en: Malayan tapir
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-c978e93216
+            part: body
+          en:
+            page: en
+            section: s-a1f203ee51
+            part: body
+        sourceIds:
+          - account
+          - taxonomy
+    sources:
+      - id: account
+        referenceId: ref-67754daa-c61e-81d2-a4ad-0e4680c648c9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅支持本条目选用的形态、生境或取食概述；不导入来源中的旧保育数字或全部分类。
+            en: Supports the selected morphology, habitat or feeding overview only; older conservation numbers and the source’s full classification are not imported.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/9LYL
+          scope:
+            zh: 固定版本中的名称、作者、等级与父子关系；不是系统发育分歧证据。
+            en: Pinned names, authorship, ranks and parent links; not evidence of phylogenetic divergence.
+    limitations:
+      zh:
+        page: zh
+        section: s-b849d8202d
+        part: body
+      en:
+        page: en
+        section: s-1c792cc5d1
+        part: body

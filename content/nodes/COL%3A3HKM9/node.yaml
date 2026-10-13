@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis depressiceps
+  displayName: Guibemantis depressiceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3HKM9
+  sourceIndexes:
+    - name:
+        en: Guibemantis depressiceps
+        zh: Guibemantis depressiceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3HKM9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/216
+            queryName: Guibemantis depressiceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/171
+            queryName: Mantidactylus depressiceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/148
+            queryName: Rhacophorus depressiceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/149
+            queryName: Rhacophorus mocquardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/150
+            queryName: Mantidactylus acuticeps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/151
+            queryName: Rhacophorus mocquardti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/152
+            queryName: Boophis depressiceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/153
+            queryName: Boophis mocquardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3f5ec6144
+      - s-3e24e75fef
+      - s-0c9be8da7e
+      - s-8e629f5736
+      - s-34a7b721f7
+      - s-7b18c09c83
+      - s-1ae7973c9c
+      - s-da5ad9390c
+      - s-00ed2e014b
+      - s-10a928abaa
+      - s-0e9608efe6
+      - s-b6e3eb6102
+    zh:
+      - s-e9cca2ae29
+      - s-4f9899c971
+      - s-40259d1e34
+      - s-f57a066534
+      - s-382b04dd1e
+      - s-2e392fcc5c
+      - s-ea6e5b993c
+      - s-8a2316fe55
+      - s-da121cc949
+      - s-98f367c47c
+      - s-96f4d198c0
+      - s-4ee2857cdb

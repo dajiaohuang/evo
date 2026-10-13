@@ -1,0 +1,94 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Ammonitida
+    commonName: True Ammonites
+    commonNameZh: 真菊石类
+    rank: order
+    taxonId: txn:84931
+    firstAppearance: 201
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:ammonitida
+      claimKind: scientific
+      claimType: topology
+      statement: An integrated conch-character analysis resolves relationships within sampled Hildoceratidae; this family-level result supplies an Ammonitida case study rather than an order-wide tree or range.
+      confidence: medium
+      confidenceRationale: Explicit coding and sensitivity analyses support the family topology, while narrow scope prevents extending it to all Ammonitida.
+      referenceLinks:
+        - referenceId: bardin-2017-hildoceratidae
+          relation: supports
+          pages: 21–40
+          quoteLocator: Figures 2–8; integrated coding and phylogenetic results
+    - subjectId: taxon:ammonitida
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Bardin et al. analyze a 105-taxon Early Jurassic Hildoceratidae matrix, supporting a 201.4–174.7 Ma period envelope for that sampled ammonitid family rather than the complete Ammonitida range or a Cretaceous extinction endpoint.
+      confidence: medium
+      confidenceRationale: The paper directly scopes its family sample to the Early Jurassic. Medium confidence applies to the broad period envelope and not to unsampled ammonitid lineages.
+      referenceLinks:
+        - relation: supports
+          referenceId: bardin-2017-hildoceratidae
+          pages: 21–40
+          figure: Figures 2–8
+          quoteLocator: "Abstract: Early Jurassic Hildoceratidae; Methods: 105-taxon matrix"
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for the named stages and periods used to bound the source sample
+  claim-rationales.zh:
+    - 明确编码与敏感性分析支持科级拓扑，但狭窄范围不能扩展到全部菊石目。
+    - 论文把该科级样本直接限定在早侏罗世。中等置信度适用于宽泛的纪级包络，不外推到未取样的菊石目谱系。
+  claim-statements.zh:
+    - 整合壳体性状分析解析了取样 Hildoceratidae 内部关系；这一科级结果是菊石目案例，而不是目级系统树或范围。
+    - Bardin 等分析了一个包含 105 个类群的早侏罗世 Hildoceratidae 矩阵，因此支持该菊石目科级样本的 2.014–1.747 亿年前纪级包络，而不是菊石目完整延限或白垩纪灭绝端点。
+  ranges:
+    - entityId: ammonitida
+      rangeKind: global-composite
+      taxonomicConcept: Ammonitida — Early Jurassic Hildoceratidae study-sample window
+      geographicScope: Early Jurassic Hildoceratidae sampled in the conch-character analysis
+      olderMa: 201.4
+      youngerMa: 174.7
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The Early Jurassic period envelope represents one sampled ammonitid family, not the complete Ammonitida range or an order-wide extinction endpoint.
+      evidenceBasis: Bardin et al. analyze a 105-taxon Hildoceratidae matrix explicitly scoped to the Early Jurassic; ICS v2026/06 supplies the period boundaries.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:ammonitida:source-bounded-range-rc50
+      referenceLocators:
+        - referenceId: bardin-2017-hildoceratidae
+          locator: 21–40; Abstract, Early Jurassic Hildoceratidae; Methods, 105-taxon matrix; Figures 2–8
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample
+  catalogue-profile:
+    sections:
+      - topic: phylogeny
+        title:
+          en:
+            page: en
+            section: s-f4e27573a5
+            part: title
+          zh:
+            page: zh
+            section: s-422205a87f
+            part: title
+        sourceIds:
+          - bardin-2017-hildoceratidae
+          - ics-2026-06
+        text:
+          en:
+            page: en
+            section: s-f4e27573a5
+            part: body
+          zh:
+            page: zh
+            section: s-422205a87f
+            part: body

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis weberi
+  displayName: Ichthyophis weberi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTTT
+  sourceIndexes:
+    - name:
+        en: Ichthyophis weberi
+        zh: Ichthyophis weberi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTTT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/430
+            queryName: Ichthyophis weberi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/404
+            queryName: Caudacaecilia weberi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5c42a8b52
+      - s-382928baf5
+      - s-23f10cd33e
+      - s-99b1f8437e
+      - s-d4649d5332
+      - s-7670bf4239
+      - s-97ea0d1631
+      - s-23d98c866a
+      - s-e346b5f3a1
+    zh:
+      - s-b2fca1c788
+      - s-12cf0b2596
+      - s-addaeeae26
+      - s-2860031b5d
+      - s-74a598ee2b
+      - s-a4d9f2f88e
+      - s-f9bc4f9579
+      - s-9d8c841a88
+      - s-d008c3d053

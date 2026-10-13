@@ -1,0 +1,136 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Delosperma uniflorum L.Bolus
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 34HCP, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 34HCP; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/34HCP
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 34HCP
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000639616-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 34HCP / WFO wfo-0000639616
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_17929_0
+        referenceId: ref-140702ba-98f3-8b8a-a90b-c7fb32aa9ef1
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Delosperma uniflorum L.Bolus account; archive rows 83941 (Morphology), source identifier 17929.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_18046_0
+        referenceId: ref-775f98d2-4d0e-826c-ad3f-0184e87120f2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Delosperma uniflorum L.Bolus account; archive rows 88325 (Habitat), source identifier 18046.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Humile, diffuse cppioseque ramosum; rami decumbentes vel prostrati, ad 30 cm. longi, ad 2 mm. diam., intemodiis 1.5-2.5 cm. longis, juniore-compressi alati; folia erecto-patentia vel patenti-recurvata, supra concava vel superne plana, carinata, altero latere leviter convexo, lat. visa superne leviter angustata, viridia levia, glabra sinon carina marginibusque saepe ciliolatis, ad 2 cm. longa, ad 4 mm. lata, ad 3 mm. diam., vagina 0.5 mm.: flores singuli, pedunculo ad 1.2 cm. longo, pari foliorum bracteiformum prope basin onusto; receptaculum fere semi-globosum, 2 mm. longum, ad 5 mm. diam.; sepala 5, acuta, 2 longiora 5-6 mm., vel in alabastro ad 8 mm., breviora 3-4 mm. longa; petala 2-seriata, obtusa vel emarginata, inferne angustata, rubre cuprea, subtus rubre' purpurea, 6-7 mm. longa, ad 1.5 mm. lata; staminodia apicem versus recurvata setaceaque, gracillima albida, 4 mm. longa, staminibus con-fertis adpressa; filamenta ad 3 mm. longa, intima supra medium papillata, antheris luteis; glandulae inconspicuae contiguae; ovarium circa marginem leviter concavum, deinde abrupte per 1 mm. elevatum, lobis contiguis obtusis; stigmata subulata caudata, ad 2 mm. longa."
+            sourceIds:
+              - sanbi_17929_0
+            locator: "SANBI/WFO archive Morphology row 83941; source 17929.0; publication: Bolus, HML. 1932. Notes on Mesembrianthemum and allied genera: 337 - 356. University of Cape Town, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Among shrubs. Indian Ocean Coastal Belt, Sub-Escarpment Savanna, Albany Thicket.
+            sourceIds:
+              - sanbi_18046_0
+            locator: "SANBI/WFO archive Habitat row 88325; source 18046.0; publication: Burgoyne, PM; Bredenkamp, CL. 2019. Aizoaceae: Delosperma N.E.Br. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(1): 211 - 224. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-f3b3385647
+            part: title
+          zh:
+            page: zh
+            section: s-d1fb5aec44
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f3b3385647
+            part: body
+          zh:
+            page: zh
+            section: s-d1fb5aec44
+            part: body

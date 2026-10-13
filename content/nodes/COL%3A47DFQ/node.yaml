@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nidirana daunchina
+  displayName: Nidirana daunchina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47DFQ
+  sourceIndexes:
+    - name:
+        en: Nidirana daunchina
+        zh: Nidirana daunchina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47DFQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/268
+            queryName: Nidirana daunchina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/90
+            queryName: Rana daunchina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 55
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/376
+            queryName: Babina daunchina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 31
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/113
+            queryName: Rana musica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/114
+            queryName: Hylarana daunchina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-683d6c9a02
+      - s-2405cced2e
+      - s-0794dfb0c6
+      - s-f7e54126b5
+      - s-ab6d527099
+      - s-3de7f46e3e
+    zh:
+      - s-60e6cd19d7
+      - s-5add99ac2b
+      - s-a2e2dbaa4e
+      - s-2d963816c6
+      - s-e852d3a258
+      - s-104b25183f

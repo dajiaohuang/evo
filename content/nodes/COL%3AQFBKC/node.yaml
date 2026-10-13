@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis shebellensis
+  displayName: Leptopelis shebellensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QFBKC
+  sourceIndexes:
+    - name:
+        en: Leptopelis shebellensis
+        zh: Leptopelis shebellensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QFBKC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/8
+            queryName: Leptopelis shebellensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bb8c555381
+      - s-723aeb82da
+      - s-e156d2007a
+      - s-d498cec69d
+      - s-a387e15602
+      - s-0f75aa344b
+      - s-93077d6130
+      - s-dbb6f7a914
+    zh:
+      - s-03de579e27
+      - s-1918111882
+      - s-06ef11b05d
+      - s-6c82da975d
+      - s-35bd47edb2
+      - s-a0ca26bb12
+      - s-cb4dae4726
+      - s-2458968daa

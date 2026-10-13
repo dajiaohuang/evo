@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chthonerpeton tremembe
+  displayName: Chthonerpeton tremembe
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Z5F5
+  sourceIndexes:
+    - name:
+        en: Chthonerpeton tremembe
+        zh: Chthonerpeton tremembe
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Z5F5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/370
+            queryName: Chthonerpeton tremembe
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d5828af4c6
+      - s-6158f54784
+      - s-53ed8ac666
+      - s-944ff79200
+      - s-6ebfcda410
+      - s-14c556a895
+      - s-341c9ae3f8
+      - s-637558226a
+      - s-f62ce7daf6
+      - s-33bfc910a7
+      - s-abe9f53da8
+    zh:
+      - s-34637b462d
+      - s-351b7b0e1d
+      - s-4515153f3c
+      - s-a9e3a8db52
+      - s-38483dd1d3
+      - s-0e78a67ca2
+      - s-7cfd839673
+      - s-981f1a9993
+      - s-98806194ab
+      - s-e946fc80fd
+      - s-47ad60a4d1

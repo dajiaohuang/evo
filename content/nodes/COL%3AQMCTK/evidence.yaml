@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantidactylus tavaratra Rabibisoa, Welt & Raxworthy, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mantidactylus tavaratra
+      zh: Mantidactylus tavaratra
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-991ec5d22e
+            part: title
+          zh:
+            page: zh
+            section: s-a336e462b5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-991ec5d22e
+            part: body
+          zh:
+            page: zh
+            section: s-a336e462b5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6d297cc9d7
+            part: title
+          zh:
+            page: zh
+            section: s-6e2b5ff4bf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6d297cc9d7
+            part: body
+          zh:
+            page: zh
+            section: s-6e2b5ff4bf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c19da25097
+            part: title
+          zh:
+            page: zh
+            section: s-5491dad434
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctk
+        text:
+          en:
+            page: en
+            section: s-c19da25097
+            part: body
+          zh:
+            page: zh
+            section: s-5491dad434
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-18b594d9f7
+            part: title
+          zh:
+            page: zh
+            section: s-ce5f491bd1
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctk
+        text:
+          en:
+            page: en
+            section: s-18b594d9f7
+            part: body
+          zh:
+            page: zh
+            section: s-ce5f491bd1
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-bd690e3d32
+            part: title
+          zh:
+            page: zh
+            section: s-373a0137f7
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctk
+        text:
+          en:
+            page: en
+            section: s-bd690e3d32
+            part: body
+          zh:
+            page: zh
+            section: s-373a0137f7
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e54c8bb84f
+            part: title
+          zh:
+            page: zh
+            section: s-c401b036df
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctk
+        text:
+          en:
+            page: en
+            section: s-e54c8bb84f
+            part: body
+          zh:
+            page: zh
+            section: s-c401b036df
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-b6565856f9
+            part: title
+          zh:
+            page: zh
+            section: s-6e0bfd1fa0
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctk
+        text:
+          en:
+            page: en
+            section: s-b6565856f9
+            part: body
+          zh:
+            page: zh
+            section: s-6e0bfd1fa0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantidactylus tavaratra
+          url: https://www.checklistbank.org/dataset/316115/taxon/QMCTK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10563080-qmctk
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Mantidactylus tavaratra: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f6bde18740
+        part: body
+      zh:
+        page: zh
+        section: s-5c77a9c591
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani13172800
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        sourceKey: primary-pmc10563080-qmctk
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10563080/article.xml
+        sourceConcept: Mantidactylus tavaratra
+        evidenceRead: "Mantidactylus tavaratra: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: The source disagrees about tibiotarsal reach
+              zh: 来源对胫跗关节位置存在不一致
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctk
+            locator: PMC10563080 reading-sections section 14 paragraphs 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9de4195934
+                part: body
+              zh:
+                page: zh
+                section: s-62d470f9a5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Adults and juveniles differ in reported encounter timing
+              zh: 成年与幼体的报告遇见时间不同
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctk
+            locator: PMC10563080 reading-sections section 14 paragraphs 7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-29b2559005
+                part: body
+              zh:
+                page: zh
+                section: s-3c5c039ac1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: distribution
+            heading:
+              en: The northern distribution summary spans a broad elevation interval
+              zh: 北部分布摘要涵盖较宽海拔区间
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctk
+            locator: PMC10563080 reading-sections section 14 paragraphs 9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ad6c4d36d4
+                part: body
+              zh:
+                page: zh
+                section: s-6cd90e4eab
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Specific former mocquardi vouchers support the revised attribution
+              zh: 特定旧 mocquardi 凭证支持修订归属
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctk
+            locator: PMC10563080 reading-sections section 14 paragraphs 10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c19c3c71ba
+                part: body
+              zh:
+                page: zh
+                section: s-af1e5d4a04
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: reproduction
+            heading:
+              en: High-elevation February larvae do not establish a thermal trigger
+              zh: 高海拔二月幼体不能确定温度触发机制
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctk
+            locator: PMC10563080 XML sec4dot3-animals-13-02800 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-69ac1f93fb
+                part: body
+              zh:
+                page: zh
+                section: s-1b7079291e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana rostandi
+  displayName: Nanorana rostandi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7P
+  sourceIndexes:
+    - name:
+        en: Nanorana rostandi
+        zh: Nanorana rostandi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/187
+            queryName: Nanorana rostandi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/2
+            queryName: Paa rostandi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/320
+            queryName: Rana rostandi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/252
+            queryName: Chaparana rostandi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cf76f193c5
+      - s-05bb9bd1e9
+      - s-019e97fae3
+      - s-b9994273b3
+      - s-33a464fcb6
+      - s-bce402dd15
+      - s-c1ef79bb82
+      - s-c558f4d887
+      - s-b2ad02a65e
+      - s-8ad5f56024
+      - s-92adfba6af
+      - s-e70dd2db0f
+      - s-e78b2c7daf
+    zh:
+      - s-83bf3e96ca
+      - s-d81d0859c0
+      - s-7d0860543a
+      - s-9c4684db4b
+      - s-c9a9ad84c7
+      - s-7f5b9420ea
+      - s-c267a7c3a9
+      - s-7cccfefe92
+      - s-991a46fee3
+      - s-3c93b0ad9d
+      - s-dd852f8656
+      - s-42a29f928d
+      - s-8d467cc0f0

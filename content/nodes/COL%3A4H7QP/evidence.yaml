@@ -1,0 +1,403 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phyllomedusa bicolor (Boddaert, 1772)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phyllomedusa bicolor
+      zh: Phyllomedusa bicolor
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2c12d80078
+            part: title
+          zh:
+            page: zh
+            section: s-00c7381f7c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2c12d80078
+            part: body
+          zh:
+            page: zh
+            section: s-00c7381f7c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-28379fdac5
+            part: title
+          zh:
+            page: zh
+            section: s-d5e14e101e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-28379fdac5
+            part: body
+          zh:
+            page: zh
+            section: s-d5e14e101e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-443d6a4715
+            part: title
+          zh:
+            page: zh
+            section: s-30e13a2fb6
+            part: title
+        sourceIds:
+          - venancio-2010
+        text:
+          en:
+            page: en
+            section: s-443d6a4715
+            part: body
+          zh:
+            page: zh
+            section: s-30e13a2fb6
+            part: body
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-28602efa9e
+            part: title
+          zh:
+            page: zh
+            section: s-9c8d5c57e0
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-28602efa9e
+            part: body
+          zh:
+            page: zh
+            section: s-9c8d5c57e0
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-31b07460b505a29589e503a06e94f61b
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-631cd8c493901d339b9b2105
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-2f316f90d4
+            part: title
+          zh:
+            page: zh
+            section: s-194423fb30
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4h7qp
+        text:
+          en:
+            page: en
+            section: s-2f316f90d4
+            part: body
+          zh:
+            page: zh
+            section: s-194423fb30
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e24e295a8e
+            part: title
+          zh:
+            page: zh
+            section: s-610c52968c
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4h7qp
+        text:
+          en:
+            page: en
+            section: s-e24e295a8e
+            part: body
+          zh:
+            page: zh
+            section: s-610c52968c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-2e5078ffe5
+            part: title
+          zh:
+            page: zh
+            section: s-ae3b79381a
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4h7qp
+        text:
+          en:
+            page: en
+            section: s-2e5078ffe5
+            part: body
+          zh:
+            page: zh
+            section: s-ae3b79381a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phyllomedusa bicolor
+          url: https://www.checklistbank.org/dataset/316115/taxon/4H7QP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2987; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2987 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2365, 2366, 2367, 2368, 2369, 2370, 2371, 2372, 2373, 2374, 2375, 2376, 2377, 2378, 2379, 2380; Picture measurement data rows 1266, 1267; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: venancio-2010
+        referenceId: ref-e3c15d28-03f7-45cf-87de-b028f5032267
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: pp. 63–64; three amplexus observations in Acre during September 2008 and May 2009
+          scope:
+            en: Dated, study-scoped reproductive observation; no universal population behaviour, complete species dossier or contemporary conservation assessment is inferred.
+            zh: 有年代和研究范围限定的繁殖观察；不推断普遍种群行为、完整物种档案或当代保护评估。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12654886-4h7qp
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phyllomedusa bicolor: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-24b04172db
+        part: body
+      zh:
+        page: zh
+        section: s-918834b3a3
+        part: body
+    primaryStudyScopes:
+      - doi: 10.11606/issn.2316-9079.v9i1p63-67
+        locator: pp. 63–64; three amplexus observations in Acre during September 2008 and May 2009
+        identityStatus: study uses the recorded species name; observational scope preserved, contemporary concept boundaries not independently certified
+        evidenceRead: publisher-full-paper
+        rightsBoundary: new short factual synthesis; no reproduced source text, translation of source text or figures
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-4h7qp
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Mixed historic/recent regional source-labelled Phyllomedusa bicolor, exact-name frozenCOLcandidate notspecimen-certified concept
+        evidenceRead: "Phyllomedusa bicolor: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4h7qp
+            locator: PMC12654886 S3_Table.pdf page3 speciesrow10 Phyllomedusa bicolor fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e037c18d03
+                part: body
+              zh:
+                page: zh
+                section: s-b0e786c237
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4h7qp
+            locator: PMC12654886 S3_Table.pdf page3 speciesrow10 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-adfaf05349
+                part: body
+              zh:
+                page: zh
+                section: s-c0804f7e79
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4h7qp
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-166e6f7aa4
+                part: body
+              zh:
+                page: zh
+                section: s-275deef720
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

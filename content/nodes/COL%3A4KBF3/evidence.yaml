@@ -1,0 +1,397 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pleurodema thaul (Schneider, 1799)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pleurodema thaul
+      zh: Pleurodema thaul
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7f0e40cbb3
+            part: title
+          zh:
+            page: zh
+            section: s-c302cd0d84
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7f0e40cbb3
+            part: body
+          zh:
+            page: zh
+            section: s-c302cd0d84
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6cdbcf1e64
+            part: title
+          zh:
+            page: zh
+            section: s-2f88540050
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6cdbcf1e64
+            part: body
+          zh:
+            page: zh
+            section: s-2f88540050
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d485dc387e
+            part: title
+          zh:
+            page: zh
+            section: s-544a732ad8
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-d485dc387e
+            part: body
+          zh:
+            page: zh
+            section: s-544a732ad8
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-e8f4bdffbc1ccfb22e2158c82e7dcf80
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-9575b87bc9136f0200f375e5
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8a5410b987
+            part: title
+          zh:
+            page: zh
+            section: s-a0483cb778
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "20"
+        text:
+          en:
+            page: en
+            section: s-8a5410b987
+            part: body
+          zh:
+            page: zh
+            section: s-a0483cb778
+            part: body
+        sourceRowNumber: 21
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-da4dc74c38
+            part: title
+          zh:
+            page: zh
+            section: s-918fd9bb96
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "69"
+        text:
+          en:
+            page: en
+            section: s-da4dc74c38
+            part: body
+          zh:
+            page: zh
+            section: s-918fd9bb96
+            part: body
+        sourceRowNumber: 59
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-691c8e9ff0
+            part: title
+          zh:
+            page: zh
+            section: s-dc1fc5c71e
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "71"
+        text:
+          en:
+            page: en
+            section: s-691c8e9ff0
+            part: body
+          zh:
+            page: zh
+            section: s-dc1fc5c71e
+            part: body
+        sourceRowNumber: 61
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0d753b9b79
+            part: title
+          zh:
+            page: zh
+            section: s-f1cab1bab2
+            part: title
+        sourceIds:
+          - primary-pmc10968267-4kbf3
+        text:
+          en:
+            page: en
+            section: s-0d753b9b79
+            part: body
+          zh:
+            page: zh
+            section: s-f1cab1bab2
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-6dfe94b318
+            part: title
+          zh:
+            page: zh
+            section: s-f507c15069
+            part: title
+        sourceIds:
+          - primary-pmc10968267-4kbf3
+        text:
+          en:
+            page: en
+            section: s-6dfe94b318
+            part: body
+          zh:
+            page: zh
+            section: s-f507c15069
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pleurodema thaul
+          url: https://www.checklistbank.org/dataset/316115/taxon/4KBF3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3338; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3339 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 21, 22, 23, 24, 59, 60, 61, 62, 63, 64, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 167, 173, 2460, 2461, 2462, 3542, 3545, 3777, 3778, 3779; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10968267-4kbf3
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pleurodema thaul: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4df8f32f9a
+        part: body
+      zh:
+        page: zh
+        section: s-377f1c7ca9
+        part: body
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-9575b87bc9136f0200f375e5
+        scientificName: Pleurodema thaul
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 3
+    primaryStudyScopes:
+      - doi: 10.3390/biology13030169
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        sourceKey: primary-pmc10968267-4kbf3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10968267/article.xml
+        sourceConcept: 2024 Chile literature-assessed Pleurodema thaul; source-selected taxonomic concepts, not independent current-status certification
+        evidenceRead: "Pleurodema thaul: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A dated multicriteria conservation priority
+              zh: 有日期的多准则保育优先级
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-4kbf3
+            locator: PMC10968267 XML Methods2.1–2.3; Results Table4 row Pleurodema thaul
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5428fa0e91
+                part: body
+              zh:
+                page: zh
+                section: s-be9fc68dde
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: The population and protection scores retain their source limits
+              zh: 种群及保护评分保留来源限制
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-4kbf3
+            locator: PMC10968267 XML Methods2.2/Table2; Results Table3 row Pleurodema thaul; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-17778dbea2
+                part: body
+              zh:
+                page: zh
+                section: s-e8393966b0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

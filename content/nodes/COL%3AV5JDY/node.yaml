@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops wangyufani
+  displayName: Amolops wangyufani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5JDY
+  sourceIndexes:
+    - name:
+        en: Amolops wangyufani
+        zh: Amolops wangyufani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5JDY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/419
+            queryName: Amolops wangyufani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d8f963d88
+      - s-609a73e6e7
+      - s-f871175d04
+      - s-dd16b01252
+      - s-8201f99a17
+      - s-f4863f2235
+      - s-a7bcb8e0af
+      - s-24de21aeb0
+      - s-62d5b95e48
+      - s-4d4f716caa
+    zh:
+      - s-ce7d04600d
+      - s-63fd334277
+      - s-52c8fad38d
+      - s-c6e1fbcff2
+      - s-73575f4d77
+      - s-eea847fd79
+      - s-0376c41286
+      - s-2dc4fa1295
+      - s-d4c934a17e
+      - s-f7ff5d59ff

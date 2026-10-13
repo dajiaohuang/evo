@@ -1,0 +1,389 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Neornithes
+    commonName: Modern Birds
+    commonNameZh: 今鸟类
+    rank: subclass
+    taxonId: txn:39241
+    firstAppearance: 69.2
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: txn:39241
+    scientificName: Neornithes
+    commonName: Crown birds
+    commonNameZh: 冠群鸟类
+    rank: subclass
+    parentName: Aves
+    extinct: false
+    geography:
+      - Global today
+      - Antarctica and Europe for the two Maastrichtian fossil tests highlighted here
+    overview:
+      page: en
+      section: s-48ccb8ae7c
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-86eebf2c55
+        part: body
+      habitat:
+        page: en
+        section: s-99a1a040a4
+        part: body
+      locomotion:
+        page: en
+        section: s-30602e26fa
+        part: body
+      bodySize:
+        page: en
+        section: s-8d968a9480
+        part: body
+      guild:
+        page: en
+        section: s-0a45f49af3
+        part: body
+      dietZh:
+        page: zh
+        section: zh-62d371bae072b9
+        part: body
+    traits:
+      - page: en
+        section: s-aa112aa3c0
+        part: body
+      - page: en
+        section: s-c92cac953a
+        part: body
+      - page: en
+        section: s-743b625978
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-908f35e759
+      part: body
+    readerSections:
+      - id: crown-definition
+        title:
+          en:
+            page: en
+            section: s-197a71e830
+            part: title
+          zh:
+            page: zh
+            section: s-7a634102d4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-197a71e830
+            part: body
+          zh:
+            page: zh
+            section: s-7a634102d4
+            part: body
+        sourceIds:
+          - vegavis-2025
+          - asteriornis-2020
+      - id: cretaceous-fossil-tests
+        title:
+          en:
+            page: en
+            section: s-6e9b311f8e
+            part: title
+          zh:
+            page: zh
+            section: s-ccc7bb1382
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6e9b311f8e
+            part: body
+          zh:
+            page: zh
+            section: s-ccc7bb1382
+            part: body
+        sourceIds:
+          - vegavis-2025
+          - asteriornis-2020
+      - id: ecological-scope
+        title:
+          en:
+            page: en
+            section: s-18903f4a31
+            part: title
+          zh:
+            page: zh
+            section: s-8e648e7719
+            part: title
+        text:
+          en:
+            page: en
+            section: s-18903f4a31
+            part: body
+          zh:
+            page: zh
+            section: s-8e648e7719
+            part: body
+        sourceIds:
+          - vegavis-2025
+    readerSources:
+      - id: vegavis-2025
+        referenceId: torres-2025-vegavis-skull
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: AMNH FARB 30899, its 69.2–68.4 Ma age statement, skull description and combined phylogenetic analyses, Figures 1–4. The source supports crown-waterfowl affinity in the 2025 matrix while documenting earlier placements; it does not make that placement historically uncontested.
+            zh: AMNH FARB 30899、其 69.2–68.4 Ma 年代陈述、头骨描述与组合系统发育分析、图 1–4。该来源支持 2025 年矩阵中的冠群水禽位置，同时记录较早的其他归属；这一位置并非历来无争议。
+      - id: asteriornis-2020
+        referenceId: field-2020-asteriornis
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: NHMM 2013 008, its Maastrichtian geological setting and Figures 1–4, including the parsimony and tip-dated analyses. The placement differs between analyses; the source does not establish an undisputed crown position or complete fossil range.
+            zh: NHMM 2013 008、马斯特里赫特期地质背景与图 1–4，包括简约法和尖端定年分析。不同分析给出不同位置；该来源不能确立无争议的冠群归属或完整化石延限。
+    confidence: medium
+    referenceIds:
+      - torres-2025-vegavis-skull
+      - field-2020-asteriornis
+      - claramunt-cracraft-2015-avian-time-tree
+    overviewZh:
+      page: zh
+      section: zh-7c3f645a15b310
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-38508c0d3e42f4
+      part: body
+  claims:
+    - subjectId: taxon:neornithes
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Vegavis AMNH FARB 30899 from 69.2–68.4 Ma supplies the oldest highlighted crown-bird test in this atlas, but its crown-waterfowl membership is a 2025 matrix result and therefore the 69.2 Ma Neornithes range remains topology-dependent.
+      confidence: medium
+      confidenceRationale: The specimen age is stratigraphically constrained and its skull is directly imaged, but crown membership changed among published analyses. Medium confidence links the range explicitly to the current topology hypothesis.
+      referenceLinks:
+        - referenceId: torres-2025-vegavis-skull
+          relation: supports
+          quoteLocator: 146–151; Figures 1–4; age statement; phylogenetic analyses
+    - subjectId: taxon:neornithes
+      claimKind: scientific
+      claimType: biogeography
+      statement: The highlighted Maastrichtian crown-bird candidates occur in Antarctica and Europe, whereas living Neornithes are global; these endpoints do not reconstruct a complete Cretaceous distribution or center of origin.
+      confidence: medium
+      confidenceRationale: Named fossil localities and living global distribution are secure at their respective times, but the sparse Cretaceous sample cannot identify an ancestral area. Medium confidence marks that sampling gap.
+      referenceLinks:
+        - referenceId: torres-2025-vegavis-skull
+          relation: supports
+          pages: 146–151
+          figure: Figure 1
+          quoteLocator: Age and locality statement
+        - referenceId: field-2020-asteriornis
+          relation: supports
+          pages: 397–401
+          quoteLocator: Geological setting
+    - subjectId: taxon:neornithes
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Neornithes is the crown defined by the common ancestor of living birds and all descendants; Archaeopteryx is outside that crown, while Vegavis and Asteriornis require explicit fossil-placement analyses.
+      confidence: high
+      confidenceRationale: The crown definition and exclusion of Archaeopteryx are stable at this scope. High confidence does not convert contested Cretaceous placements into directly observed membership.
+      referenceLinks:
+        - referenceId: torres-2025-vegavis-skull
+          relation: supports
+          pages: 146–151
+          figure: Figure 4
+          quoteLocator: Introduction and phylogenetic analyses
+        - referenceId: field-2020-asteriornis
+          relation: contextualizes
+          pages: 397–401
+          quoteLocator: Phylogenetic analyses
+    - subjectId: taxon:neornithes
+      claimKind: scientific
+      claimType: ecology
+      statement: Neornithes has no single crown-wide ecology; the narrow beak, enlarged jaw-muscle attachment and skull of Vegavis support underwater prey capture for that fossil only.
+      confidence: medium
+      confidenceRationale: Vegavis feeding anatomy is directly preserved, while functional analogy uses living divers. Medium confidence prevents a single fossil ecology from becoming a crown-wide ancestral state.
+      referenceLinks:
+        - referenceId: torres-2025-vegavis-skull
+          relation: supports
+          quoteLocator: Figures 1–3; functional comparisons of feeding apparatus
+    - subjectId: taxon:neornithes
+      claimKind: scientific
+      claimType: morphology
+      statement: Vegavis AMNH FARB 30899 preserves a toothless reduced-maxilla beak, hyperinflated cerebrum and specialized jaw apparatus, while Asteriornis preserves a different Maastrichtian galloanseran character combination.
+      confidence: high
+      confidenceRationale: CT reconstruction directly documents the Vegavis structures and the Asteriornis holotype provides an independent character mosaic. High confidence concerns morphology, not identical crown placement.
+      referenceLinks:
+        - referenceId: torres-2025-vegavis-skull
+          relation: supports
+          pages: 146–151
+          figure: Figures 1–4
+          quoteLocator: AMNH FARB 30899 description
+        - referenceId: field-2020-asteriornis
+          relation: contextualizes
+          pages: 397–401
+          figure: Figures 1–4
+          quoteLocator: NHMM 2013 008 description
+  claim-rationales.zh:
+    - 标本年龄受地层约束且头骨被直接成像，但其冠群归属在已发表分析间变化；中等置信度把延限明确连接到当前拓扑假说。
+    - 具名化石地点与现生全球分布在各自时期可靠，但稀疏的白垩纪样本不能识别祖先区域；中等置信度标记这一取样缺口。
+    - 冠群定义以及始祖鸟在冠群之外的范围在此层级稳定；高置信度不会把有争议的白垩纪位置转化为直接观察到的成员资格。
+    - Vegavis 的摄食解剖被直接保存，但功能类比使用现生潜水鸟；中等置信度避免把单一化石生态变成整个冠群的祖先状态。
+    - CT 重建直接记录 Vegavis 结构，Asteriornis 正模提供独立性状组合；高置信度针对形态，而非两者具有相同冠群位置。
+  claim-statements.zh:
+    - 年代为 6920–6840 万年前的 Vegavis AMNH FARB 30899 是本图谱突出展示的最老冠群鸟测试，但其冠群水禽归属是 2025 年矩阵结果，因此今鸟类 6920 万年前的延限仍依赖拓扑。
+    - 本图谱突出的马斯特里赫特期冠群鸟候选分别出现于南极洲和欧洲，现生今鸟类则遍布全球；这些端点不能重建完整白垩纪分布或起源中心。
+    - 今鸟类是由所有现生鸟类最近共同祖先及其全部后代定义的冠群；Archaeopteryx 位于该冠群之外，而 Vegavis 与 Asteriornis 必须依赖明确的化石位置分析。
+    - 今鸟类没有单一冠群生态；Vegavis 的狭窄喙、增大的颌肌附着区和头骨只支持该化石进行水下捕食。
+    - Vegavis AMNH FARB 30899 保存无齿、上颌缩小的喙、膨大的大脑和特化颌装置；Asteriornis 则保存另一套马斯特里赫特期鸡雁类性状组合。
+  ranges:
+    - entityId: neornithes
+      rangeKind: global-composite
+      taxonomicConcept: Crown Neornithes under the Torres et al. 2025 placement of Vegavis
+      geographicScope: Global living crown; fossil minimum tested by Vegavis in Antarctica
+      olderMa: 69.2
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 69.2
+        youngerMa: 0
+        note: "The older endpoint is topology-dependent: it applies only if the 2025 combined placement of Vegavis within crown waterfowl is accepted. It is not the crown divergence time."
+      evidenceBasis: AMNH FARB 30899 is from a 69.2–68.4 Ma interval and the combined analysis supports waterfowl affinity; earlier conflicting placements remain explicit, while Asteriornis supplies a younger independent crown test.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:neornithes:fossil-range
+      referenceLocators:
+        - referenceId: torres-2025-vegavis-skull
+          locator: 146–151; Figures 1–4; age statement; phylogenetic analyses
+        - referenceId: field-2020-asteriornis
+          locator: 397–401; Figures 1–4; phylogenetic analyses
+  catalogue-profile:
+    scientificName: Neornithes
+    rank: subclass
+    sourceDatasetId: null
+    name:
+      zh: Neornithes
+      en: Neornithes
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-092051250f
+            part: body
+          en:
+            page: en
+            section: s-ec8a994e41
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0fa28097da
+            part: body
+          en:
+            page: en
+            section: s-392f0fa451
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Neornithes
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=39241
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:39241
+          readingTargets:
+            - name: Chunga incerta
+              pbdbTaxonId: txn:484714
+              canonicalPath: content/nodes/PBDB%3A484714
+            - name: Cariama santacrucensis
+              pbdbTaxonId: txn:336928
+              canonicalPath: content/nodes/PBDB%3A336928
+            - name: Ameghinornis minor
+              pbdbTaxonId: txn:191553
+              canonicalPath: content/nodes/PBDB%3A191553
+            - name: Gypsornis venablesi
+              pbdbTaxonId: txn:429918
+              canonicalPath: content/nodes/PBDB%3A429918
+            - name: Gypsornis cuvieri
+              pbdbTaxonId: txn:369578
+              canonicalPath: content/nodes/PBDB%3A369578
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-70c63d3a15
+        part: body
+      en:
+        page: en
+        section: s-52332a73cd
+        part: body

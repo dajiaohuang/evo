@@ -1,0 +1,112 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    sections:
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-edd5c34c98
+            part: title
+          zh:
+            page: zh
+            section: s-09900c877e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-edd5c34c98
+            part: body
+          zh:
+            page: zh
+            section: s-09900c877e
+            part: body
+        claimIds:
+          - claim:taxon:lepidodendron
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-1f65bf54b0
+            part: title
+          zh:
+            page: zh
+            section: s-5632f6a72c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1f65bf54b0
+            part: body
+          zh:
+            page: zh
+            section: s-5632f6a72c
+            part: body
+        claimIds:
+          - claim:taxon:lepidodendron:range-boundary-rc50
+    scientificName: Lepidodendrales
+    name:
+      en: Lepidodendrales
+      zh: Lepidodendrales
+    rank: order
+  atlas-node:
+    name: Lepidodendrales
+    commonName: Scale Trees
+    commonNameZh: 鳞木
+    rank: order
+    taxonId: txn:157277
+    firstAppearance: 359
+    lastAppearance: 299
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:lepidodendron
+      claimKind: scientific
+      claimType: topology
+      statement: A morphology matrix of anatomically preserved Carboniferous Euramerican arborescent lycopsids tests relationships among Lepidodendrales; it neither identifies a direct ancestor nor establishes the order's global first or last appearance.
+      confidence: medium
+      confidenceRationale: The published character matrix directly supports the sampled topology, while preservation, geographic restriction and extinct-taxon sampling limit any order-wide chronology.
+      referenceLinks:
+        - referenceId: bateman-1992-arborescent-lycopsids
+          relation: supports
+          pages: 500–559
+          quoteLocator: Cladistic analysis; character matrix; strict-consensus trees
+    - subjectId: taxon:lepidodendron
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Lepidodendron has no supported scalar temporal range here because the navigation record mixes a genus-level ID with a broader Lepidodendrales/arborescent-lycopsid concept, and the cited Carboniferous matrix does not define global endpoints; the former 359–299 Ma display is withheld.
+      confidence: low
+      confidenceRationale: Bateman et al. (1992) samples anatomically preserved arborescent lycopsids for cladistic analysis, but the entity concept is not aligned to one global genus range. Low confidence records that unresolved scope mismatch.
+      referenceLinks:
+        - relation: supports
+          referenceId: bateman-1992-arborescent-lycopsids
+          pages: 79:500–559
+          figure: Character matrix and strict-consensus trees
+          quoteLocator: Sampled arborescent lycopsids and cladistic scope
+  claim-rationales.zh:
+    - 已发表的性状矩阵直接支持取样拓扑，但保存状况、地域限制与灭绝类群取样使其不能外推为整个目的年代范围。
+    - Bateman 等（1992）为支序分析采样了解剖保存的树状石松，但实体概念并未对齐到单一全球属级范围。低置信度记录这一尚未解决的范围错配。
+  claim-statements.zh:
+    - 石炭纪欧美大陆木本石松类的解剖形态矩阵检验了鳞木目内部关系；它既未识别直接祖先，也未确定该目的全球首现或末现。
+    - Lepidodendron 在此不发布单一时间范围，因为导航记录混用了属级 ID 与更宽泛的鳞木目／树状石松概念，而所引石炭纪矩阵未定义全球端点；旧有 359–299 Ma 展示被暂缓。
+  ranges:
+    - entityId: lepidodendron
+      rangeKind: global-composite
+      taxonomicConcept: Lepidodendron / Lepidodendrales navigation concept temporal range
+      geographicScope: Interval pending resolution of genus-versus-order concept and range evidence
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The entity ID names a genus while the navigation scientific name and cited matrix concern broader arborescent lycopsids; endpoints cannot be assigned without concept reconciliation.
+      evidenceBasis: The former 359–299 Ma display is withheld because the sampled Carboniferous matrix does not define a global range for a stable Lepidodendron concept.
+      confidence: low
+      claimIds:
+        - claim:taxon:lepidodendron:range-boundary-rc50
+      referenceLocators:
+        - referenceId: bateman-1992-arborescent-lycopsids
+          locator: 500–559; cladistic matrix, sampled arborescent lycopsids and strict-consensus trees
+      evidenceLevel: withheld-no-range-evidence

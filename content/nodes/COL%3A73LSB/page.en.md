@@ -1,0 +1,3 @@
+## ## Globose heads and three-part flowers {#s-5bf2f2ae75}
+The Brazilian Flora 2020 entry records pilose stems with spreading simple hairs, capitate glandular hairs and scattered prickles that may point forward or backward. Setae and short shoots are absent. The stipules are shed, extrafloral nectaries are absent, and projections occur between pinna pairs. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have three perianth parts, a membranous calyx with triangular lobes, and hairless corolla lobes with one to three veins. The androecium is diplostemonous, with white filaments. The habitat field says “terrestrial,” but gives no locality or more detailed habitat description.
+

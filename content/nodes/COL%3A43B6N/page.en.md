@@ -1,0 +1,3 @@
+## *Mikania cipoensis*: triangular leaves and gland-dotted surfaces {#s-a6eaf64aa7}
+The Brazilian Flora 2020 regional field records triangular leaves with toothed margins and three strong veins from the base. The leaf base is listed as tapered or arrow- to heart-shaped; the upper surface is hairless or sparsely glandular, while the lower surface bears glandular dots. Decumbent or hairy branches carry corymb-like clusters of stalked heads. The bracts are described with fringed, hairy edges and tapered tips, and the fruitlets are hairless. These are regional field entries with alternative states.
+

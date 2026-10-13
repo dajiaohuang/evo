@@ -1,0 +1,3 @@
+## ## A twining vine with blue to violet flowers {#s-3921ebff30}
+The historical Flora of Panama describes *Centrosema pubescens* as a slender, often wiry vine that twines and scrambles over herbs and shrubs. Its three leaflets are usually 4–8 cm long, with short, weak hairs that are denser underneath. Axillary racemes carry blue or violet flowers, sometimes almost white; the broad, nearly flat standard petal may show fine dark lines and a purplish spot. The compressed pods are 5–7 cm long, with a prominent beak, and contain 15–30 dark-brown, mottled seeds. The same flora gives a historical range from the southern United States to Argentina, including the Antilles; its text has no sampling frame or observation date, so it is not a current range inventory.
+

@@ -1,0 +1,226 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sorex savini
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Sorex savini
+      en: Sorex savini
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0e812055c7
+            part: body
+          en:
+            page: en
+            section: s-5e5c1483f3
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-54512fc12a
+            part: body
+          en:
+            page: en
+            section: s-f15fea388c
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6d5a1b138f
+            part: body
+          en:
+            page: en
+            section: s-039a839d8c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-48a630adcf
+            part: body
+          en:
+            page: en
+            section: s-89f48b35e2
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-93776c7d5f
+            part: body
+          en:
+            page: en
+            section: s-6fd89f309d
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Sorex savini
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=376799&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:376799; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:376799
+          selectedOccurrenceIds:
+            - occ:368096
+            - occ:368101
+            - occ:368107
+            - occ:379606
+            - occ:381352
+            - occ:381453
+            - occ:493185
+            - occ:494679
+            - occ:496994
+            - occ:497048
+            - occ:497144
+            - occ:497442
+            - occ:497488
+          selectedCollectionIds:
+            - col:33873
+            - col:33872
+            - col:33874
+            - col:35905
+            - col:36214
+            - col:36219
+            - col:49816
+            - col:49999
+            - col:50196
+            - col:34400
+            - col:50200
+            - col:50242
+            - col:50249
+          sourceReferenceIds:
+            - ref:9224
+            - ref:9643
+            - ref:13380
+            - ref:13430
+          originalIdentificationMappings:
+            - occurrenceId: occ:368096
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:368101
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:368107
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:379606
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:381352
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:381453
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:494679
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:496994
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:497048
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:497144
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:497442
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+            - occurrenceId: occ:497488
+              originalIdentifiedName: Sorex (Drepanosorex) savini
+              acceptedName: Sorex savini
+              difference: variant of
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-655cb46052
+        part: body
+      en:
+        page: en
+        section: s-9d40ba2982
+        part: body

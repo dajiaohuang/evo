@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-85dc97625e
+      part: title
+    titleZh:
+      page: zh
+      section: s-8f32698f38
+      part: title
+    category: transition
+    startAge: 46.2
+    endAge: 42
+    regions:
+      - Southern California, Uintan North American Land Mammal Age
+    clades:
+      - Carnivora
+      - Caniformia
+      - Lycophocyon
+    summary:
+      page: en
+      section: s-85dc97625e
+      part: body
+    summaryZh:
+      page: zh
+      section: s-8f32698f38
+      part: body
+    claimIds:
+      - claim:event:lycophocyon-holotype-basal-caniform
+    evidenceItems:
+      - statement: Holotype UCMP 85202 supplies the cranium and dentition; associated paratypes SDSNH 107446 and SDSNH 107447 add postcranial anatomy.
+        relation: supports
+        claimIds:
+          - claim:event:lycophocyon-holotype-basal-caniform
+        referenceLinks:
+          - referenceId: tomiya-2011-lycophocyon
+            relation: supports
+            pages: e24146
+            figure: Figures 2–7; Tables 1–3; Appendices S1–S3
+            quoteLocator: Holotype and paratypes; Phylogenetic analysis; Dietary habits
+    uncertaintyItems:
+      - statement: Basal-caniform placement is an analytical result and familial assignment remains indeterminate; dietary discriminant scores are comparative-model outputs, not stomach contents or observed hunting.
+        relation: contextualizes
+        claimIds:
+          - claim:event:lycophocyon-holotype-basal-caniform
+        referenceLinks:
+          - referenceId: tomiya-2011-lycophocyon
+            relation: supports
+            pages: e24146
+            figure: Figures 2–7; Tables 1–3; Appendices S1–S3
+            quoteLocator: Holotype and paratypes; Phylogenetic analysis; Dietary habits
+  claims:
+    - subjectId: event:lycophocyon-holotype-basal-caniform
+      claimKind: scientific
+      claimType: topology
+      statement: UCMP 85202 and associated SDSNH skeletons preserve a craniodental–postcranial mosaic that the study’s 30-terminal morphology analysis places at the base of Caniformia; family assignment and diet remain unresolved or model-dependent.
+      confidence: medium
+      confidenceRationale: Lycophocyon holotype and basal-caniform test uses explicit named specimens or disclosed datasets, but placement, function or ecology depends on a sampled matrix or comparative model and is kept separate from observation.
+      referenceLinks:
+        - referenceId: tomiya-2011-lycophocyon
+          relation: supports
+          pages: e24146
+          figure: Figures 2–7; Tables 1–3; Appendices S1–S3
+          quoteLocator: Holotype and paratypes; Phylogenetic analysis; Dietary habits
+  claim-rationales.zh:
+    - “狼形兽正模与基干犬型类检验”的具名标本或已公开数据集是明确的，但位置、功能或生态依赖采样矩阵或比较模型，且已与直接观察分开。
+  claim-statements.zh:
+    - UCMP 85202 和相关 SDSNH 骨架保存了颅牙—躯后骨骼镶嵌特征，研究的 30 端点形态分析将其置于犬型亚目基部；科级归属和食性仍未解决或依赖模型。

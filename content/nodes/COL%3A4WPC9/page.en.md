@@ -1,0 +1,3 @@
+## Leaflet counts and a pendulous legume {#s-de44f57630}
+The Brazilian Flora 2020 entry records stems as puberulent or pubescent. Stipules are subulate or linear; the petiole is under 5 cm and the rachis is under 5 cm or 6–10 cm. Capitate extrafloral nectaries occur between the basal leaflet pairs and are listed as sessile or stalked. Leaflet counts are 5 pairs, 6–10 pairs or 11–15 pairs; leaflets are obovate or lanceolate with obtuse tips. The raceme has subulate bracts. Flowers are asymmetric, with an obovate central adaxial petal and seven fertile stamens. The legume is dehiscent and pendulous, linear and externally depressed between seeds; seeds are arranged in one series. No habitat field is included, so the entry does not establish habitat or range.
+

@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pithecia isabela Marsh, 2014
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 伊莎贝拉僧面猴
+      en: Isabel's Saki
+    sections:
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-9abe21aa14
+            part: body
+          en:
+            page: en
+            section: s-f7695a1717
+            part: body
+        sourceIds:
+          - marsh2014
+    sources:
+      - id: marsh2014
+        referenceId: ref-0d1d6df5-a9c9-8356-a6cd-7cd66affff1f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 2014 年修订中相关物种的描述、博物馆材料与名称处理；历史分类不等于当前种群调查。
+            en: Supports the relevant 2014 species account, museum material and name treatment; historical taxonomy is not a current population survey.
+      - id: mdd_name
+        referenceId: ref-b6f97d43-3c59-8431-a7ab-7fa02d2dff6b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅用于英文普通名标签；分类身份采用固定的 COL26.8。中文名为编辑译名。
+            en: Used only for the English common-name label; taxonomic identity follows pinned COL26.8. The Chinese name is editorial.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4JBH5
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-de783c5b96
+        part: body
+      en:
+        page: en
+        section: s-abb9a9f848
+        part: body

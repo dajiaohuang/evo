@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Werneria preussi
+    name:
+      en: Werneria preussi
+      zh: Werneria preussi
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Werneria
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-660320068d
+            part: body
+          zh:
+            page: zh
+            section: s-21f0f8ea79
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cf573fac20
+            part: body
+          zh:
+            page: zh
+            section: s-a837829005
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 6023, 6024; Reference.csv rows 2785
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 6023
+        values:
+          - Bufonidae
+          - Werneria
+          - Werneria preussi
+          - M
+          - "36"
+          - NA
+          - "12"
+          - "4.1"
+          - NA
+          - NA
+          - "4.1"
+          - NA
+          - NA
+          - "3.1"
+          - NA
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - "25"
+          - NA
+          - "16.6"
+          - "17.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 6024
+        values:
+          - Bufonidae
+          - Werneria
+          - Werneria preussi
+          - F
+          - "46.6"
+          - NA
+          - "13.7"
+          - "4.7"
+          - NA
+          - NA
+          - "5.1"
+          - NA
+          - NA
+          - "3.2"
+          - NA
+          - "2.6"
+          - NA
+          - NA
+          - NA
+          - "31.2"
+          - NA
+          - "20.8"
+          - "20.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2785
+        values:
+          - Anura
+          - Werneria_preussi
+          - "Rödel, M.-O., Schmitz, A., Pauwels, O., & Böhme, W. (2004). Revision of the genus Werneria Poche, 1903, including the descriptions of two new species from Cameroon and Gabon (Amphibia: Anura: Bufonidae). Zootaxa, 720, 1-28. https://doi.org/10.11646/zootaxa.720.1.1 "
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IOD
+      - EN
+      - NS
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5BXHG
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

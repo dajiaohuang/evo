@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus triunfo
+  displayName: Anomaloglossus triunfo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5V766
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus triunfo
+        zh: Anomaloglossus triunfo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5V766
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/29
+            queryName: Anomaloglossus triunfo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/216
+            queryName: Colostethus triunfo
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-43c40f411e
+      - s-726db56ed7
+      - s-ea9865d28e
+      - s-ba9905a1f7
+      - s-e051ce3446
+      - s-4c3e39502b
+      - s-986fbeb3b1
+      - s-3734b90758
+    zh:
+      - s-676d0c2958
+      - s-978e869b60
+      - s-de641d16d2
+      - s-43e5abd271
+      - s-17d86ad35e
+      - s-2d36a6f4cf
+      - s-d7e01d70e9
+      - s-046b21cfc1

@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cynoglossum alticola Hilliard & B.L.Burtt
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 339T4, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 339T4; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/339T4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 339T4
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000633896-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 339T4 / WFO wfo-0000633896
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_1514_0
+        referenceId: ref-d3f6062d-d86c-8532-a007-98957621f3cf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 1
+        usage:
+          locator: Cynoglossum alticola Hilliard & B.L.Burtt account; archive rows 74003 (Morphology), 73748 (Habitat), 73228 (Diagnostic), source identifier 1514.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Herba perennis, albo-pubescens; caulis ad 60 cm altus inflorescentia inclusa, 3.5 mm diam., simplex, foliatus. Folia radicalia tempore florendia marcescentia; lamina ad 200 x 13 mm, parte inferiore petiolari c. 80 mm longa, anguste elliptica, utrinque attenuata; caulina 35-100 x 6-8 mm sursum in bracteas gradatim decrescentia, basi amplectente, apice plus minusve acuto. Inflorescentia paniculata parce ramosa; pedicelli c. 5 mm longi, ebracteati. Calyx fere ad basin 5-lobatus; lobi c. 4 x 2.5 mm, sub fructu ad 7 x 4.5 mm ampliati et valde reflexi, elliptico-oblongi, obtusi, extra dense intus tenuiter pilosi. Corollae tubus ad fornicum bases 2.5 mm longus, intus basi gibbis 10 parvis praeditus; lobi 4 x 3 mm, oblongi, apice rotundato, caerulei, glabri pilis albis externe sub apice loborum exceptis; fornices c. 0.75 x 1.5 mm, crassi, leviter bilobi, acute papillosi, orem tubi fere occludentes, caerulei. Stamina 5, inclusa; filamenta in triente superiore tubi orientia, 0.3 mm longa; antherae 1.25 mm longae, sub medio dorsifixae. Stylus fructus 7 mm longus; nuculae 9 x 7 mm, ovatae, valde compressae, immarginatae, glochidiis validis conicis approximatis, cicatrice deltoidea 5 x 3.5 mm, fascia styli cum nucula separata.
+            sourceIds:
+              - sanbi_1514_0
+            locator: "SANBI/WFO archive Morphology row 74003; source 1514.0; publication: Burtt, BL; Hilliard, OM. 1986. Notes on some plants of southern Africa chiefly from Natal: XIII. Notes Roy. Bot. Gard. Edinburgh 43(3): 345 - 405. [CC BY-SA]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Cynoglossum alticola has much larger nutlets than any other species in southern Africa and it has no close ally amongst them.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_1514_0
+            locator: "SANBI/WFO archive Diagnostic row 73228; source 1514.0; publication: Burtt, BL; Hilliard, OM. 1986. Notes on some plants of southern Africa chiefly from Natal: XIII. Notes Roy. Bot. Gard. Edinburgh 43(3): 345 - 405. [CC BY-SA]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Cynoglossum alticola grows on damp slopes and near streams at c. 2600 m.
+            sourceIds:
+              - sanbi_1514_0
+            locator: "SANBI/WFO archive Habitat row 73748; source 1514.0; publication: Burtt, BL; Hilliard, OM. 1986. Notes on some plants of southern Africa chiefly from Natal: XIII. Notes Roy. Bot. Gard. Edinburgh 43(3): 345 - 405. [CC BY-SA]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Purgatorius
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Purgatorius
+      en: Purgatorius
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fbec0b39d6
+            part: body
+          en:
+            page: en
+            section: s-b7458304e8
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ea2bcbbfda
+            part: body
+          en:
+            page: en
+            section: s-dd9499f1c8
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Purgatorius
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=40704
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:40704
+          readingTargets:
+            - name: Purgatorius unio
+              pbdbTaxonId: txn:51270
+              canonicalPath: content/nodes/PBDB%3A51270
+            - name: Purgatorius mckeeveri
+              pbdbTaxonId: txn:433602
+              canonicalPath: content/nodes/PBDB%3A433602
+            - name: Purgatorius janisae
+              pbdbTaxonId: txn:51268
+              canonicalPath: content/nodes/PBDB%3A51268
+            - name: Purgatorius pinecreeensis
+              pbdbTaxonId: txn:145759
+              canonicalPath: content/nodes/PBDB%3A145759
+            - name: Purgatorius coracis
+              pbdbTaxonId: txn:246570
+              canonicalPath: content/nodes/PBDB%3A246570
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-37914b3c05
+        part: body
+      en:
+        page: en
+        section: s-261200d4a7
+        part: body

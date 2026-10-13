@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Euproctus montanus
+  displayName: Euproctus montanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CY47
+  sourceIndexes:
+    - name:
+        en: Euproctus montanus
+        zh: Euproctus montanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CY47
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/396
+            queryName: Euproctus montanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/335
+            queryName: Megapterna montana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/336
+            queryName: Triturus montanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/337
+            queryName: Molge montana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/338
+            queryName: Triton montanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f2a1bb403c
+      - s-75120b43f2
+      - s-388ca380e8
+      - s-c87cd08cbf
+      - s-4b522bd555
+      - s-9b6ad0ded4
+      - s-033f043a47
+      - s-22aa823e99
+      - s-721aa3e714
+      - s-2cf85f2928
+    zh:
+      - s-28e328af8c
+      - s-84c4522912
+      - s-e381eaa684
+      - s-9685ca7d94
+      - s-7bf087e4d6
+      - s-eed861cfa2
+      - s-ccb31a0729
+      - s-2e4f355e72
+      - s-bd35c70a86
+      - s-f831cc65b1

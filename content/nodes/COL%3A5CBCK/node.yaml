@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus pygmaeus
+  displayName: Xenopus pygmaeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBCK
+  sourceIndexes:
+    - name:
+        en: Xenopus pygmaeus
+        zh: Xenopus pygmaeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBCK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/325
+            queryName: Xenopus pygmaeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dff8d7ee4b
+      - s-45356e9074
+      - s-024976f87c
+      - s-440ad8a4c0
+      - s-24464dcabe
+      - s-86c970d234
+      - s-50b5925c2a
+      - s-6aa6821cda
+      - s-256c551ae9
+      - s-800766dcec
+      - s-2dcea7eb95
+      - s-f29ff30290
+      - s-7c9d6940f4
+      - s-5e87c21636
+      - s-8c252459a0
+    zh:
+      - s-14e1b873bb
+      - s-40075a0dbd
+      - s-17e46cc248
+      - s-3dcf0641b3
+      - s-b72214a56b
+      - s-e85a5cb67b
+      - s-b42a8ffb42
+      - s-efbcc727ac
+      - s-9e59b71eae
+      - s-4918913481
+      - s-18ef0335b6
+      - s-93d94fa680
+      - s-d952ec0466
+      - s-322d48a548
+      - s-384ca77b50

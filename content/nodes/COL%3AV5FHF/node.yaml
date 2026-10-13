@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys jiangi
+  displayName: Boulenophrys jiangi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5FHF
+  sourceIndexes:
+    - name:
+        en: Boulenophrys jiangi
+        zh: Boulenophrys jiangi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5FHF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/354
+            queryName: Boulenophrys jiangi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/254
+            queryName: Megophrys jiangi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7140340f8f
+      - s-fff303de31
+      - s-93eeefc870
+      - s-b1e80e508b
+      - s-ac4175827b
+      - s-075a3c7579
+      - s-ea5f415b77
+      - s-61ff9deadb
+      - s-2227e2d450
+      - s-91d1750fc1
+      - s-c94a22fc61
+    zh:
+      - s-e5ef9bf1a7
+      - s-3ee10f3be1
+      - s-36bdef0de4
+      - s-f52ea66abc
+      - s-0a0c8ea64d
+      - s-cc0e378764
+      - s-f5e8667cd1
+      - s-5c3792060b
+      - s-22cc3fbf2e
+      - s-3157dfa5de
+      - s-c15f1beda8

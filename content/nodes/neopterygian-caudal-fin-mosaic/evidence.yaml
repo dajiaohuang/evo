@@ -1,0 +1,80 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-7a785d9e38
+      part: title
+    titleZh:
+      page: zh
+      section: s-c25eca8443
+      part: title
+    category: transition
+    startAge: 0
+    endAge: 0
+    regions:
+      - Extant comparative developmental and anatomical sample
+    clades:
+      - Neopterygii
+      - Lepisosteiformes
+      - Amiiformes
+      - Teleostei
+    summary:
+      page: en
+      section: s-7a785d9e38
+      part: body
+    summaryZh:
+      page: zh
+      section: s-c25eca8443
+      part: body
+    claimIds:
+      - claim:event:neopterygian-caudal-fin-mosaic
+    evidenceItems:
+      - statement: Adults and developmental series of stickleback, zebrafish, spotted gar, bowfin, paddlefish and bichir show a gar–teleost hypural-diastema complex and that the earliest caudal lepidotrichia contribute to external fin symmetry.
+        relation: supports
+        claimIds:
+          - claim:event:neopterygian-caudal-fin-mosaic
+        referenceLinks:
+          - relation: supports
+            referenceId: desvignes-2018-neopterygian-caudal-fin
+            pages: 832–853
+            figure: Figures 1–3 and 5
+            quoteLocator: Results; Discussion
+    uncertaintyItems:
+      - statement: Presence in gars prevents treating the complete complex as an unconditional teleost synapomorphy; descent with repeated loss, parallel origin and latent homology remain alternative explanations, with the paper favouring latent parallelism.
+        relation: contextualizes
+        claimIds:
+          - claim:event:neopterygian-caudal-fin-mosaic
+        referenceLinks:
+          - relation: supports
+            referenceId: desvignes-2018-neopterygian-caudal-fin
+            pages: 846–851
+            figure: Figure 5
+            quoteLocator: "Discussion: homology by descent and latent homology hypotheses"
+      - statement: The complex includes connective tissue and vasculature that fossils seldom preserve, so skeletal gaps alone cannot fully score the living developmental complex.
+        relation: contextualizes
+        claimIds:
+          - claim:event:neopterygian-caudal-fin-mosaic
+        referenceLinks:
+          - relation: supports
+            referenceId: desvignes-2018-neopterygian-caudal-fin
+            pages: 832–853
+            figure: Figures 1–3
+            quoteLocator: Definition of the hypural diastema complex; fossil comparison
+  claims:
+    - subjectId: event:neopterygian-caudal-fin-mosaic
+      claimKind: scientific
+      claimType: morphology
+      statement: Comparative anatomy and development show a hypural-diastema complex in gars and teleosts and an early role for caudal fin rays in external symmetry, so the complete complex cannot be treated as an unconditional teleost synapomorphy; descent, loss and latent parallelism remain competing histories.
+      confidence: medium
+      confidenceRationale: Adult specimens and developmental series span major sampled actinopterygian lineages and directly document skeletal and soft-tissue components. Medium confidence preserves incomplete species sampling, the paper's hypothesis-level preference for latent homology, and the poor fossil visibility of connective tissue and vasculature.
+      referenceLinks:
+        - relation: supports
+          referenceId: desvignes-2018-neopterygian-caudal-fin
+          pages: 832–853
+          figure: Figures 1–3 and 5
+          quoteLocator: Results; Discussion of homology by descent and latent homology
+  claim-rationales.zh:
+    - 成年标本和发育序列覆盖了多个主要辐鳍鱼样本谱系，并直接记录骨骼与软组织组分。中等置信度保留不完整的物种取样、论文对潜在同源性的假说级偏好，以及结缔组织和血管在化石中的低可见性。
+  claim-statements.zh:
+    - 比较解剖与发育资料显示雀鳝类和真骨鱼类都具有尾下骨间隙复合体，尾鳍鳍条还早期参与外部对称性的建立；因此完整复合体不能被无条件视为真骨鱼共有衍征，继承、丢失与潜在平行演化仍是相互竞争的历史解释。

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis giorgii
+  displayName: Pristimantis giorgii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCDS7
+  sourceIndexes:
+    - name:
+        en: Pristimantis giorgii
+        zh: Pristimantis giorgii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCDS7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/288
+            queryName: Pristimantis giorgii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-34f96da219
+      - s-3acb410800
+      - s-2b3d0cf650
+      - s-cd5709d08e
+      - s-73109752e4
+      - s-1de21b5fc5
+      - s-d7006f643e
+      - s-ea27e55a31
+      - s-fb63e40ded
+      - s-a0c24efe1f
+      - s-e9ab1ce26d
+      - s-2cf79265de
+      - s-b0b09b5ad0
+      - s-ef1c9071a3
+      - s-de113b9194
+      - s-94f5c1b22a
+      - s-f9c48f433b
+      - s-39dc4b5385
+      - s-19484932b0
+      - s-acea8357ae
+      - s-f1ef9ace5b
+      - s-82f7022ec3
+      - s-c1d414172b
+    zh:
+      - s-0708c9ae65
+      - s-206fdf57d3
+      - s-b001bef782
+      - s-e50d631b23
+      - s-13f919a53d
+      - s-95c224f486
+      - s-6ee0f714b2
+      - s-244264c1a6
+      - s-fc14d30c2b
+      - s-6427f1044d
+      - s-9ee3427514
+      - s-e7bd03cc83
+      - s-d3ce1d21b2
+      - s-74d993f8d0
+      - s-76a4b71894
+      - s-3f895f401a
+      - s-3fc6661022
+      - s-8ea99883e3
+      - s-dcd0ce9680
+      - s-baf2e78d49
+      - s-c4d7d95c9d
+      - s-1bdfb13b95
+      - s-445d269005

@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Phrynopus daemon
+    name:
+      en: Phrynopus daemon
+      zh: Phrynopus daemon
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Phrynopus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Phrynopus daemon in the morphology deposit
+          zh: 形态数据中的 Phrynopus daemon 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7f6aab07cf
+            part: body
+          zh:
+            page: zh
+            section: s-d151e87233
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4272 and 4273: measurement fields and sex codes"
+          zh: 第 4272、4273 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2b75370cba
+            part: body
+          zh:
+            page: zh
+            section: s-ff650f9016
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4272, 4273; Reference.csv rows 2210
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4272
+        values:
+          - Brachycephaloidea
+          - Phrynopus
+          - Phrynopus daemon
+          - F
+          - "22.885"
+          - "7.435"
+          - "8.05"
+          - "1.725"
+          - NA
+          - NA
+          - "2.615"
+          - "2"
+          - "1.97"
+          - "1.725"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.795"
+          - NA
+          - "8.005"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4273
+        values:
+          - Brachycephaloidea
+          - Phrynopus
+          - Phrynopus daemon
+          - M
+          - "21.7"
+          - "7.8"
+          - "7.6"
+          - "2.3"
+          - NA
+          - NA
+          - "2.6"
+          - "1.9"
+          - "1.7"
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9"
+          - NA
+          - "8.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2210
+        values:
+          - Anura
+          - Phrynopus_daemon
+          - "Chávez, G., Santa-Cruz, R., Rodríguez, D., & Lehr, E. (2015). Two new species of frogs of the genus Phrynopus (Anura: Terrarana: Craugastoridae) from the Peruvian Andes. Amphibian and Reptile Conservation, 9(1), 15-25.  https://biostor.org/reference/192989"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

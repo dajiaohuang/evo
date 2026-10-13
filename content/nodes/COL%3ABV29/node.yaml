@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates niputidea
+  displayName: Allobates niputidea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV29
+  sourceIndexes:
+    - name:
+        en: Allobates niputidea
+        zh: Allobates niputidea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV29
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/160
+            queryName: Allobates niputidea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d798701de6
+      - s-d45136b3ab
+      - s-ec7398ea78
+      - s-6894719b36
+      - s-bfa26f25c0
+      - s-ad3079cbc9
+      - s-3d364bdbb7
+      - s-c0dc465f75
+      - s-13de60ebac
+      - s-ef6779eb1a
+      - s-3f816eb6f8
+      - s-7b4bc07c30
+      - s-5890e17559
+      - s-952ac00f55
+      - s-59bcda3d91
+      - s-38d0207c85
+      - s-3962086ae8
+    zh:
+      - s-d4de8931bf
+      - s-e78d3ce23f
+      - s-77260a5356
+      - s-3db09454f4
+      - s-f87152f4a1
+      - s-405caa39c0
+      - s-0574f7b9d4
+      - s-2fbc5bd0fa
+      - s-45880cdc90
+      - s-fbc6ebf340
+      - s-6b54bdd566
+      - s-df4b8b1e3b
+      - s-1306573262
+      - s-ec9585e387
+      - s-018dc8b11e
+      - s-d9b478eee6
+      - s-9e17550bd0

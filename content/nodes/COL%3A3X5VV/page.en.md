@@ -1,0 +1,3 @@
+## ## Narrow leaflets and an unobserved corolla {#s-9f108fc4ce}
+The Brazilian Flora 2020 entry records paripinnate leaves with six to 19 pairs of leaflets per pinna; stipules are shed or absent, and the rachis is not winged. The oblong leaflets have asymmetric bases and blunt, truncate or notched tips; the lower surface lacks punctures. Racemes have a hairy rachis. The floral record includes a hairless hypanthium, four free sepals, three stamens with hairy filaments and an ovary hairy along its margins, but the petals were not observed. The fruit is a legume; seed shape was not observed. The habitat field says “terrestrial” without providing a locality or finer habitat description.
+

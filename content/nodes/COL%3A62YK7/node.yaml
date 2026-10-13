@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnodynastes
+  displayName: Limnodynastes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62YK7
+  sourceIndexes:
+    - name:
+        en: Limnodynastes
+        zh: Limnodynastes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62YK7
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/8
+            queryName: Limnodynastes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 315
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-290c24fd10
+      - s-b51f502afd
+      - s-489faabeb9
+      - s-79703afd7b
+      - s-6cb96062e7
+      - s-2e4352d4df
+      - s-d73ee96ecf
+      - s-a846747661
+      - s-f6654c847e
+      - s-92e4c0ae74
+      - s-295933416c
+      - s-a107443c56
+      - s-a69b66165d
+      - s-5f1f99022a
+    zh:
+      - s-6d56d6a2fd
+      - s-f8dfbd8709
+      - s-5e5a72c479
+      - s-6e4feff5d2
+      - s-c9a9b7f27e
+      - s-8e3cea03dd
+      - s-0eab148f22
+      - s-93ce97b8e0
+      - s-34871d9e5f
+      - s-056144f968
+      - s-aeffb1b822
+      - s-8906cd9021
+      - s-3b95876da7
+      - s-2abe5277f9

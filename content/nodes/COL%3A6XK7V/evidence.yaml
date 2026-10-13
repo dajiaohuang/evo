@@ -1,0 +1,84 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sapajus robustus (Kuhl, 1820)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 冠毛卷尾猴
+      en: Crested Capuchin
+    sections:
+      - topic: feeding
+        sourceIds:
+          - martins2022robustus
+        text:
+          zh:
+            page: zh
+            section: s-9c92df1c85
+            part: body
+          en:
+            page: en
+            section: s-cc1e7ac831
+            part: body
+      - topic: ecology
+        sourceIds:
+          - martins2022robustus
+        text:
+          zh:
+            page: zh
+            section: s-be7b08d7eb
+            part: body
+          en:
+            page: en
+            section: s-7cb40bc101
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Sapajus robustus (Kuhl, 1820)
+            zh: 生命名录 COL26.8 — Sapajus robustus（Kuhl，1820）
+          url: https://www.checklistbank.org/dataset/316115/taxon/6XK7V
+          scope:
+            en: Pinned accepted name, rank and genus link; not biological evidence.
+            zh: 固定接受名、等级和属级父链；不作为生物学证据。
+      - id: mdd_name
+        referenceId: ref-1c01246c-9868-8f65-ad4f-8fbde8035fab
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the selected English common-name crosswalk only; not occurrence, ecology or a complete range.
+            zh: 仅支持所选英文普通名交叉表；不提供出现记录、生态或完整分布证据。
+      - id: martins2022robustus
+        referenceId: ref-0053c5ef-7d8f-8216-ab50-e1fbd3c24ac8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: One group at Reserva Natural Vale with access to forest and cultivated areas; diet and home-range observations.
+            zh: Reserva Natural Vale 一群可进入森林和栽培地的猴群；食性与活动范围观察。
+    limitations:
+      en:
+        page: en
+        section: s-8432b14d0c
+        part: body
+      zh:
+        page: zh
+        section: s-05177e60d0
+        part: body

@@ -1,0 +1,12 @@
+## Which source name is assigned to this tadpole record? {#s-8ef10139ca}
+This record shows how TadpoleTraits files tadpoles under Litoria coplandi. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Litoria coplandi in Litoria and Hylidae. No literature rows are present. In the image-measurement table, rows 824, 825, 826, 827, 828, 829, 830, 831, 832 list Litoria coplandi in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-eced4638c7}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 0 literature rows and 9 image-measurement rows for this source record. No literature rows are present; the image rows are the only measurements in this entry. Image-table Stage values are 38 (row 824); 41 (row 825); 39 (row 826); 27 (rows 827, 831); 22 (row 828); 35 (row 829); 34 (rows 830, 832); Type labels are Ratio, Measurement and image types are Color image, Hand-drawn picture, Color image(Dorsal view) + Hand-drawn picture(Oral disc). These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-d0ff864ec2}
+The image-derived records support these source proportions: body length / total length = 0.372791 (image row 824, stage 38, Color image); tail length / total length = 0.647059 (image row 824, stage 38, Color image); maximum body height / total length = 0.185185 (image row 824, stage 38, Color image); maximum tail height / total length = 0.187364 (image row 824, stage 38, Color image); tail muscle height / total length = 0.082789 (image row 824, stage 38, Color image). Each value describes only its cited image row; it is not a species-wide estimate.
+
+## Where do the supplied ratios disagree? {#s-db3a99d6a0}
+The source ratio cells in image rows 825, 826, 827, 828, 829, 830, 831, 832 contain 22 discrepancies from the quotient of the same-row numerator and total length, including fields TMW/TL, BMW/TL, BMH/TL, TMH/TL, DFH/TL, VFH/TL, BL/TL, OD/TL, … (9 entries). Their original values remain in the evidence record; no correction is substituted and these cells are not used as proportions.
+

@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eupsophus calcaratus
+  displayName: Eupsophus calcaratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CYH9
+  sourceIndexes:
+    - name:
+        en: Eupsophus calcaratus
+        zh: Eupsophus calcaratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CYH9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/399
+            queryName: Eupsophus calcaratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/379
+            queryName: Zachaenus roseus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/269
+            queryName: Cacotus calcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/270
+            queryName: Borborocoetes calcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-749b914ec7
+      - s-d2c20de83a
+      - s-8f2f1f1f27
+      - s-107bba945a
+      - s-24d1f7aaec
+      - s-3e61206bce
+      - s-8dd133a321
+      - s-2a14fed2b4
+      - s-3f118645d0
+      - s-223b88ed41
+      - s-b84f432619
+      - s-e04234b70b
+      - s-ce9e0fac52
+      - s-74afd5321a
+      - s-9df141bb0e
+      - s-0a822b8320
+      - s-7f788d7c5f
+      - s-a0be78e221
+      - s-9f69cfe0db
+    zh:
+      - s-e1eeaad3ae
+      - s-0873fc4cb5
+      - s-78417f63e1
+      - s-58e4a857ba
+      - s-bd6b2aad6d
+      - s-d0b137e325
+      - s-2bba8ea407
+      - s-058c02ae13
+      - s-9afdfaa426
+      - s-56f9407dc9
+      - s-bd0f88e08b
+      - s-b0bb92e896
+      - s-6dc255a2d9
+      - s-599d09c364
+      - s-da35790adb
+      - s-9f8f6188e5
+      - s-fa652ef85b
+      - s-fc2b40bcea
+      - s-0a27830104

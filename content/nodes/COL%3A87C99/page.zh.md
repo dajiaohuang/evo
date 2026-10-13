@@ -1,0 +1,18 @@
+## 从有性状记录的物种开始 {#s-41f23ae8d4}
+Prosymnidae 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 Prosymna bivittata、Prosymna lineata、Prosymna sundevalli 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+
+## 比较前先看测量定义 {#s-b449626502}
+本批只有 Prosymna sundevalli 一个具有可用同列尺寸的物种条目：已报道最大吻肛长（SVL） 219.7 mm。这是一条物种汇编记录，不能构成不同物种间的尺寸范围，也不表示个体平均或类群大小上限。其他后代的尺寸资料不足或出处待确认，保留缺口。
+
+## 证据边界 {#s-75e2b300c8}
+本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
+
+## 从有性状记录的物种开始 {#s-e87ccab43e}
+Prosymnidae 的本批 ReptTraits 阅读路径包含 15 条同名同科、有逐性状出处的物种资料，可从 [Prosymna ambigua](Prosymna/Prosymna_ambigua/page.zh.md)、[Prosymna angolensis](Prosymna/Prosymna_angolensis/page.zh.md)、[Prosymna confusa](Prosymna/Prosymna_confusa/page.zh.md)、[Prosymna frontalis](Prosymna/Prosymna_frontalis/page.zh.md)、[Prosymna greigerti](Prosymna/Prosymna_greigerti/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+
+## 按现有字段选择比较材料 {#s-f4b45ceb71}
+本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。
+
+## 这组性状资料的边界 {#s-dec3c98b55}
+本导读只概括本批至少一个焦点性状有逐字段出处、仅按可用字段介绍且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
+

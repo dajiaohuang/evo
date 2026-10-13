@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis maryanneae
+  displayName: Pristimantis maryanneae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCFPG
+  sourceIndexes:
+    - name:
+        en: Pristimantis maryanneae
+        zh: Pristimantis maryanneae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCFPG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/396
+            queryName: Pristimantis maryanneae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f0e4e14edf
+      - s-3e1fc56a0a
+      - s-a00b248446
+      - s-db817ff7ff
+      - s-32302c46d5
+      - s-09e95f8bd5
+      - s-7d699a1065
+      - s-ecb9a9343a
+      - s-3dce557baa
+      - s-e49cd9dc71
+      - s-2319182d8e
+      - s-78bea9cd51
+      - s-b1d166cb88
+      - s-9b9c1ec1b4
+    zh:
+      - s-4a60ff60eb
+      - s-7948d36116
+      - s-785533f1c0
+      - s-141af994cf
+      - s-9a9c5c6b1a
+      - s-d428b2ed88
+      - s-14b11b5741
+      - s-3ec9578cd2
+      - s-1a44666c39
+      - s-bfb4f22eef
+      - s-3b7e5e47da
+      - s-c2a3778c11
+      - s-8e47c1de70
+      - s-b7d95011cd

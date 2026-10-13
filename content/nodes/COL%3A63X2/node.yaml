@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Niceforonia
+  displayName: Niceforonia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63X2
+  sourceIndexes:
+    - name:
+        en: Niceforonia
+        zh: Niceforonia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63X2
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/86
+            queryName: Niceforonia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 25
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2217561067
+      - s-694755c20c
+      - s-23ee5da4f7
+      - s-c5e5620756
+      - s-f1e58228a9
+      - s-b07fe99ff5
+      - s-d3ec953319
+      - s-92c5eac967
+      - s-f78b873637
+      - s-cc3e61053e
+      - s-173ede94e8
+      - s-0e86dcf54b
+      - s-0787c0561d
+      - s-ed5b08beea
+      - s-f62680c65e
+      - s-fafdbde2cf
+      - s-2f1a4d8171
+      - s-fc1da6fd35
+      - s-40ecac15ac
+      - s-0947433296
+    zh:
+      - s-1d8104d23f
+      - s-4ef1b606d6
+      - s-33c9a96f67
+      - s-ff61fb5879
+      - s-459fe46aa1
+      - s-b9a20dfc10
+      - s-fdf4bbb8f3
+      - s-222da8e478
+      - s-6e768413cb
+      - s-61d14f40b5
+      - s-af9e65fa82
+      - s-2cc19b54d0
+      - s-d0909ec04c
+      - s-47f109c4f5
+      - s-665ce0c54c
+      - s-23e8018afa
+      - s-3260af6fd7
+      - s-3bab88828c
+      - s-3b4351b8d3
+      - s-8076616558

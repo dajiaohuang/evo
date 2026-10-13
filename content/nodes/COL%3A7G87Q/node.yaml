@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina obesa
+  displayName: Xenorhina obesa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7G87Q
+  sourceIndexes:
+    - name:
+        en: Xenorhina obesa
+        zh: Xenorhina obesa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7G87Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/350
+            queryName: Xenorhina obesa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/283
+            queryName: Xenobatrachus obesus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1bf5602815
+      - s-b8ac891329
+      - s-20f9c9ef2a
+      - s-8a7030d538
+      - s-fa23d3c537
+      - s-6e47e7e9d2
+      - s-f4f081ad31
+      - s-cdb23b9061
+      - s-f7bfd9ab65
+      - s-52f97b67e0
+    zh:
+      - s-75b0b2f585
+      - s-2a131d984d
+      - s-e5d5cc806e
+      - s-4183236f23
+      - s-36c8d4374a
+      - s-d6c3a525e4
+      - s-0938a0d2ee
+      - s-78fd7b8f16
+      - s-e0d61b104c
+      - s-d3ea6a5f68

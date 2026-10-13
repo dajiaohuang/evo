@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microcaecilia savagei
+  displayName: Microcaecilia savagei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42S5P
+  sourceIndexes:
+    - name:
+        en: Microcaecilia savagei
+        zh: Microcaecilia savagei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42S5P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/485
+            queryName: Microcaecilia savagei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0740cd7920
+      - s-6d101a6dc9
+      - s-d5a580273c
+      - s-62d86623f2
+      - s-1ab6fc3964
+      - s-1ba833b47a
+      - s-9b7ca90276
+    zh:
+      - s-1d20b29a7e
+      - s-e5cf15ac02
+      - s-4d01a51a10
+      - s-27bc0f056d
+      - s-53f456f9cb
+      - s-e94ce44211
+      - s-d4bb9a6880

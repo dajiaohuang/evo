@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cardioglossa gracilis
+  displayName: Cardioglossa gracilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/R5GC
+  sourceIndexes:
+    - name:
+        en: Cardioglossa gracilis
+        zh: Cardioglossa gracilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: R5GC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/155
+            queryName: Cardioglossa gracilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-32378716bb
+      - s-f93418a39e
+      - s-29d09137f3
+      - s-fa668f8401
+      - s-32399ca434
+      - s-3ff1cc9b04
+      - s-1f1a722188
+      - s-6b9e76dade
+      - s-c2f06f8f5a
+      - s-50fd73340b
+      - s-30b6192bbe
+      - s-c045f0a756
+      - s-f39ed3415a
+    zh:
+      - s-33fd6337a1
+      - s-103a2c4032
+      - s-c9af64c70d
+      - s-7c97960aa4
+      - s-c734d8f2b3
+      - s-e5a9a262bd
+      - s-ee52493c09
+      - s-3bc52ae917
+      - s-b67825df4d
+      - s-2da3b73b3c
+      - s-f30dc70276
+      - s-af1a8da148
+      - s-815c527f60

@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-1627140074
+      part: title
+    titleZh:
+      page: zh
+      section: s-9211068a59
+      part: title
+    category: radiation
+    startAge: 69.2
+    endAge: 68.4
+    regions:
+      - Vega Island, Antarctica
+    clades:
+      - Vegavis
+      - Neornithes
+      - Anseriformes
+    summary:
+      page: en
+      section: s-1627140074
+      part: body
+    summaryZh:
+      page: zh
+      section: s-9211068a59
+      part: body
+    claimIds:
+      - claim:event:vegavis-skull-crown-test
+    evidenceItems:
+      - statement: AMNH FARB 30899 preserves a toothless beak, crown-like neuroanatomy and specialized jaw apparatus
+        relation: supports
+        claimIds:
+          - claim:event:vegavis-skull-crown-test
+        referenceLinks:
+          - relation: supports
+            referenceId: torres-2025-vegavis-skull
+            pages: 146–151
+            figure: Figures 1–3
+            quoteLocator: Specimen description and functional comparisons
+    uncertaintyItems:
+      - statement: Published analyses have recovered stem-anatid, stem-anseriform and outside-Aves alternatives
+        relation: contextualizes
+        claimIds:
+          - claim:event:vegavis-skull-crown-test
+        referenceLinks:
+          - relation: supports
+            referenceId: torres-2025-vegavis-skull
+            pages: 146–151
+            figure: Figure 4
+            quoteLocator: Abstract and phylogenetic relationships
+  claims:
+    - subjectId: event:vegavis-skull-crown-test
+      claimKind: scientific
+      claimType: topology
+      statement: The 69.2–68.4 Ma skull AMNH FARB 30899 supports placement of Vegavis among crown waterfowl in the 2025 combined analysis, but earlier analyses recovered stem-anatid, stem-anseriform or outside-Aves positions, so crown membership remains a scoped hypothesis.
+      confidence: medium
+      confidenceRationale: The age and nearly complete skull are direct observations, and the new matrix supplies explicit support for waterfowl affinity. Medium confidence retains the published history of conflicting placements and does not turn one topology into observed ancestry.
+      referenceLinks:
+        - referenceId: torres-2025-vegavis-skull
+          relation: supports
+          pages: 146–151
+          figure: Figures 1–4
+          quoteLocator: Abstract; phylogenetic relationships; Methods; Dryad matrix
+  claim-rationales.zh:
+    - 年龄和近完整头骨是直接观察，新矩阵为水禽亲缘提供明确支持；中等置信度保留已发表的冲突位置历史，不把单个拓扑变成观察到的祖先关系。
+  claim-statements.zh:
+    - 年代为 6920–6840 万年前的头骨 AMNH FARB 30899 在 2025 年联合分析中支持 Vegavis 位于冠群水禽内，但更早分析曾得到鸭科干群、雁形目干群或鸟纲之外的位置，因此冠群成员资格仍是有范围限定的假说。

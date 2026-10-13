@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis bicalcaratus
+  displayName: Guibemantis bicalcaratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3HKM8
+  sourceIndexes:
+    - name:
+        en: Guibemantis bicalcaratus
+        zh: Guibemantis bicalcaratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3HKM8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/215
+            queryName: Guibemantis bicalcaratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/163
+            queryName: Mantidactylus bicalcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/160
+            queryName: Rhacophorus bicalcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/161
+            queryName: Gephyromantis bicalcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-002bfbdf6c
+      - s-2ac70567b0
+      - s-eb550970ec
+      - s-234b7b8f8a
+      - s-13af367155
+      - s-ca1d02839d
+      - s-df8cdd532c
+      - s-f8293b29d6
+      - s-4f7b1f4ed8
+      - s-533e075c7b
+      - s-7cec03309b
+      - s-509162027a
+    zh:
+      - s-07d01bbc92
+      - s-debcdc6db7
+      - s-df1e244ae0
+      - s-4e587905fb
+      - s-5927e28133
+      - s-a301ecf275
+      - s-73152e11e9
+      - s-cffb6b5635
+      - s-58d927a540
+      - s-f04a2ebaa4
+      - s-908f6642d6
+      - s-6914013d2a

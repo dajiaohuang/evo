@@ -1,0 +1,9 @@
+## Which source name is assigned to this tadpole record? {#s-f0d76a4a54}
+This record shows how TadpoleTraits files tadpoles under Phrynomantis bifasciatus. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Phrynomantis bifasciatus in Phrynomantis and Microhylidae. No literature rows are present. In the image-measurement table, rows 1258 list Phrynomantis bifasciatus in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-b4b36f2ff8}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 0 literature rows and 1 image-measurement row for this source record. No literature rows are present; the image rows are the only measurements in this entry. Image-table Stage values are uncertainty (row 1258); Type labels are Ratio and image types are Hand-drawn picture. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-53144d8564}
+The image-derived records support these source proportions: body length / total length = 0.336384 (image row 1258, stage uncertainty, Hand-drawn picture); tail length / total length = 0.654511 (image row 1258, stage uncertainty, Hand-drawn picture); maximum body height / total length = 0.187863 (image row 1258, stage uncertainty, Hand-drawn picture); maximum tail height / total length = 0.212821 (image row 1258, stage uncertainty, Hand-drawn picture); tail muscle height / total length = 0.073261 (image row 1258, stage uncertainty, Hand-drawn picture). Each value describes only its cited image row; it is not a species-wide estimate.
+

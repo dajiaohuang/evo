@@ -1,0 +1,206 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Pelycosauria
+    commonName: Pelycosaurs
+    commonNameZh: 盘龙类
+    rank: order
+    taxonId: txn:38883
+    firstAppearance: 308
+    lastAppearance: 260
+    extinct: true
+    entityKind: historical-grade
+    contentLevel: dossier
+    parentRelationshipKind: historical-grade-membership
+  claims:
+    - subjectId: taxon:pelycosauria
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Brocklehurst and colleagues explicitly analyse “pelycosaurian-grade” synapsids as an early, non-crown sampling grade; the atlas therefore retains Pelycosauria only as a historical navigation grade, not a monophyletic ancestor taxon.
+      confidence: medium
+      confidenceRationale: The claim is limited to how the cited primary sampling study treats the historical grade. It does not convert diversity bins into an origin, duration or ancestor sequence.
+      referenceLinks:
+        - relation: supports
+          referenceId: brocklehurst-2013-early-synapsids
+          pages: 470–490
+          quoteLocator: Abstract; Materials and methods; discussion of pelycosaurian-grade synapsids
+    - subjectId: taxon:pelycosauria
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Pelycosauria is displayed at 308–260 Ma only as the review's historical pelycosaurian-grade sample, not a monophyletic taxon range. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Pelycosauria uses Brocklehurst, N.; Kammerer, C.F.; Fröbisch, J. (2013) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Early-synapsid family record sampled by Brocklehurst et al.; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: brocklehurst-2013-early-synapsids
+          pages: 470–490
+          quoteLocator: Abstract; Materials and methods; discussion of pelycosaurian-grade synapsids
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 该主张仅限于所引一手取样研究如何处理这一历史等级，不把多样性分箱转换成起源时间、延续区间或祖先序列。
+    - Pelycosauria 采用 Brocklehurst, N.; Kammerer, C.F.; Fröbisch, J.（2013）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Early-synapsid family record sampled by Brocklehurst et al.；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - Brocklehurst 等明确把“盘龙类级”合弓类作为早期、非冠群的取样等级来分析；因此图谱仅将 Pelycosauria 保留为历史导航等级，而不把它视为单系祖先类群。
+    - Pelycosauria 仅以 308–260 Ma 展示为综述所采样的历史性“盘龙类等级”，并非单系类群范围。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: pelycosauria
+      rangeKind: global-composite
+      taxonomicConcept: Pelycosauria — source-bounded sample window
+      geographicScope: Early-synapsid family record sampled by Brocklehurst et al.
+      olderMa: 308
+      youngerMa: 260
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the review's historical pelycosaurian-grade sample, not a monophyletic taxon range; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: The early evolution of synapsids, and the influence of sampling on their fossil record directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:pelycosauria:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: brocklehurst-2013-early-synapsids
+          locator: 470–490; Abstract; Materials and methods; discussion of pelycosaurian-grade synapsids
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    scientificName: Pelycosauria
+    rank: order
+    sourceDatasetId: null
+    name:
+      zh: Pelycosauria
+      en: Pelycosauria
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ec9dedb758
+            part: body
+          en:
+            page: en
+            section: s-fa4bbe2431
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1c0ab2b003
+            part: body
+          en:
+            page: en
+            section: s-927c4fdfe6
+            part: body
+      - topic: classification
+        title:
+          en:
+            page: en
+            section: s-0aeeee4772
+            part: title
+          zh:
+            page: zh
+            section: s-cd650ce336
+            part: title
+        sourceIds:
+          - brocklehurst-2013-early-synapsids
+          - ics-2026-06
+        text:
+          en:
+            page: en
+            section: s-0aeeee4772
+            part: body
+          zh:
+            page: zh
+            section: s-cd650ce336
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Pelycosauria
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38883
+          locator: Recorded PBDB parent closure beneath the already documented Synapsida COL-compatible storage anchor.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38883
+          readingTargets:
+            - name: Protoclepsydrops haplous
+              pbdbTaxonId: txn:123523
+              canonicalPath: content/nodes/PBDB%3A123523
+            - name: Xyrospondylus ecordi
+              pbdbTaxonId: txn:138229
+              canonicalPath: content/nodes/PBDB%3A138229
+            - name: Milosaurus mccordi
+              pbdbTaxonId: txn:123521
+              canonicalPath: content/nodes/PBDB%3A123521
+            - name: Nitosaurus jacksonorum
+              pbdbTaxonId: txn:123522
+              canonicalPath: content/nodes/PBDB%3A123522
+            - name: Lupeosaurus kayi
+              pbdbTaxonId: txn:123518
+              canonicalPath: content/nodes/PBDB%3A123518
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d5fc036b88
+        part: body
+      en:
+        page: en
+        section: s-49bfb9ae05
+        part: body

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium smithi
+  displayName: Leptobrachium smithi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKCX
+  sourceIndexes:
+    - name:
+        en: Leptobrachium smithi
+        zh: Leptobrachium smithi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKCX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/344
+            queryName: Leptobrachium smithi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6c60f0e098
+      - s-4f61f920e3
+      - s-f319597e40
+      - s-ede5bd8a97
+      - s-305d76bf4e
+      - s-1da4ec3abc
+      - s-3d47a72af3
+      - s-120bb66b48
+      - s-3e50b43695
+      - s-d90a3138b3
+    zh:
+      - s-e3201171c4
+      - s-ee470955ec
+      - s-e06bac319d
+      - s-6e39e286bb
+      - s-94340ffff9
+      - s-544758d8b8
+      - s-9b1df8738d
+      - s-3b4da29ca2
+      - s-0303c15c42
+      - s-1c12ad198c

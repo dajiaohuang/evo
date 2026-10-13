@@ -1,0 +1,136 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloe gerstneri Reynolds
+    rank: species
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-cb5db6d2c7
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-c98312ddfc
+          part: body
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage C3N8, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage C3N8; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/C3N8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage C3N8
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000758224-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL C3N8 / WFO wfo-0000758224
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_5961_0
+        referenceId: ref-ba3368a6-e3f2-87ea-a40d-9e706b7d6fc6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe gerstneri Reynolds account; SANBI/WFO archive rows 49055 (Morphology), 55020 (Habitat), 51288 (Diagnostic), source identifier 5961.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_13236_0
+        referenceId: ref-4e1f793f-f50b-865d-ac17-a11eeda46a6e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe gerstneri Reynolds account; SANBI/WFO archive rows 78128 (Diagnostic), source identifier 13236.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants stemless to short-stemmed, 400-700 mm tall excluding inflorescence, solitary. Leaves 20-30, arcuate-erect to arcuate-incurved, lanceolate-ensiform, 400-600 x 60-90 mm, slightly channelled to D-shaped in section, glaucous to dull green, lower surface sometimes with apical median line of few prickles. Inflorescence of very dense, cylindric racemes, 1-3-branched, 1.0-1.3 m tall; bracts narrowly lanceolate, 18-20 x 5-6 mm, ±5-nerved. Flowers orange in bud, chrome-yellow at flowering, 24-30 mm long, cylindric-ventricose, mouth slightly narrowed and upturned; outer segments free for ± half their length, inner segments free but dorsally adnate to outer segments in lower third; pedicels 5-6 mm long. Anthers exserted up to 13 mm. Ovary ±5 x 3 mm, pale green; style exserted 4-14 mm. Fruit not seen.
+            textZh: Aloe gerstneri Reynolds 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Morphology row 49055; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Differences between this species on the one hand and A. petricola and A. reitzii on the other are discussed under those species. A. aculeata differs from this species in geographical range and flowering time and in having larger flowers and copious prickles on the leaves.
+            textZh: SANBI 条目提供了 Aloe gerstneri Reynolds 的鉴别特征。
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Diagnostic row 51288; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: In general habit of growth, leaf, inflorescence, and shape and size of flowers, A. gerstneri seems nearest allied to A. petricola Pole Evans, found principally in the Nelspruit and Sabie Districts of the Eastern Transvaal, but the latter flowers during June-July and has more glaucous more leathery, more spreading, straighter leaves, shorter pedicels, bicoloured racemes and flowers more clearly nerved. Another near ally is A. aculeata Pole Evans, which grows further north in the Lydenburg, Waterberg, Pietersburg and Zoutpansberg Districts of the Transvaal, and as far north as 80 miles south of Salisbury in Southern Rhodesia, but this species, which also flowers in June-July, is immediately separated by its very aculeate leaves and larger flowers. A noteworthy character of A. gerstneri is the very distinct white base from which the marginal teeth spring. This is a character not found in A. petricola, but it occurs in the Zoutpansberg form of A. aculeata. In young plants of A. gerstneri, the leaves are usually copiously spiny on both sides, sometimes with a row of spines down the median line dorsally; these spines disappear with age, until in mature specimens the leaves are smooth both sides, except sometimes for a few spines in median line dorsally near apex.
+            textZh: SANBI 条目提供了 Aloe gerstneri Reynolds 的鉴别特征。
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Diagnostic row 78128; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Aloe gerstneri occurs in rocky grassland, in an area of cold winters and reasonably high rainfall.
+            textZh: 该 SANBI 区域物种条目记录的生境：Aloe gerstneri occurs in rocky grassland, in an area of cold winters and reasonably high rainfall.
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Habitat row 55020; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

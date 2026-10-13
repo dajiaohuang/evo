@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia guntheri
+  displayName: Caecilia guntheri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SN
+  sourceIndexes:
+    - name:
+        en: Caecilia guntheri
+        zh: Caecilia guntheri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/70
+            queryName: Caecilia guntheri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6a76ce5df
+      - s-af363b847c
+      - s-fbff5fbaed
+      - s-d3bdb1ac52
+      - s-1bd197b178
+      - s-bb5e0824ad
+      - s-a7568dcea4
+      - s-2c07004303
+      - s-1cc7370d97
+    zh:
+      - s-b66adf3257
+      - s-41c7f4bb35
+      - s-06f0a3d59c
+      - s-f2915b3094
+      - s-8c4688a834
+      - s-e68c58b7c4
+      - s-0c5fca2e16
+      - s-881db6ce93
+      - s-07ea916847

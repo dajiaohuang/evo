@@ -1,0 +1,102 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Spatula clypeata
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Spatula clypeata
+      en: Spatula clypeata
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetSpatulaNameV7
+        text:
+          zh:
+            page: zh
+            section: s-1f26a7c62c
+            part: body
+          en:
+            page: en
+            section: s-17acebb5e0
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetSpatulaNameV7
+        text:
+          zh:
+            page: zh
+            section: s-2a86656947
+            part: body
+          en:
+            page: en
+            section: s-a6142c2312
+            part: body
+      - topic: feedingEcology
+        sourceIds:
+          - avonetSpatulaNameV7
+        text:
+          zh:
+            page: zh
+            section: s-5176c88d26
+            part: body
+          en:
+            page: en
+            section: s-c882bae0ce
+            part: body
+      - topic: movement
+        sourceIds:
+          - avonetSpatulaNameV7
+        text:
+          zh:
+            page: zh
+            section: s-73f026753f
+            part: body
+          en:
+            page: en
+            section: s-6d30f454ec
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Spatula clypeata
+          url: https://www.checklistbank.org/dataset/316115/taxon/9HKHD
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetSpatulaNameV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET dataset v7 — Spatula historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: AVONET1_BirdLife rows396–405; Metadata definitions; BirdLife–eBird rows9727–9736; BirdLife–BirdTree rows9667–9676.
+          scope:
+            zh: 十个历史 BirdLife／eBird 同名条目及旧 Anas 表内一对一对应；形态、体重与生态来源分开。
+            en: Ten same-name historical BirdLife/eBird rows and one-to-one older Anas workbook links; morphology, mass and ecological sources kept separate.
+    limitations:
+      zh:
+        page: zh
+        section: s-bac84fb738
+        part: body
+      en:
+        page: en
+        section: s-8a12b613db
+        part: body

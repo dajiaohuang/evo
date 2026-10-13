@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina polysticta
+  displayName: Austrochaperina polysticta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JW28
+  sourceIndexes:
+    - name:
+        en: Austrochaperina polysticta
+        zh: Austrochaperina polysticta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JW28
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/364
+            queryName: Austrochaperina polysticta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/82
+            queryName: Chaperina polysticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/83
+            queryName: Sphenophryne polysticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5e40da978
+      - s-e993e1c3c7
+      - s-944138dcdc
+      - s-b85f6e6007
+      - s-45069947ad
+      - s-44a7776dce
+      - s-457315dcca
+      - s-57fed8643d
+    zh:
+      - s-f9c5742795
+      - s-34b848da70
+      - s-6a5fc9ef2a
+      - s-a55d6fa8c1
+      - s-66bf9e486c
+      - s-44b070f125
+      - s-311156c564
+      - s-87d5a34020

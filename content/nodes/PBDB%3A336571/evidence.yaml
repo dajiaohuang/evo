@@ -1,0 +1,165 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Skinnerhyus shermerorum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Skinnerhyus shermerorum
+      en: Skinnerhyus shermerorum
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a089f9b2ae
+            part: body
+          en:
+            page: en
+            section: s-01ce95cdfc
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9e0b4dc82f
+            part: body
+          en:
+            page: en
+            section: s-48f36d3c6a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-80d37376ec
+            part: body
+          en:
+            page: en
+            section: s-53532fee00
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-31279570d4
+            part: body
+          en:
+            page: en
+            section: s-a00db738b0
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-292e0ed86d
+            part: body
+          en:
+            page: en
+            section: s-dee97e16a4
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Skinnerhyus shermerorum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=336571&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:336571; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:336571
+          selectedOccurrenceIds:
+            - occ:185068
+            - occ:185075
+            - occ:185678
+            - occ:185972
+            - occ:187327
+            - occ:187588
+          selectedCollectionIds:
+            - col:18142
+            - col:18145
+            - col:18218
+            - col:18245
+            - col:18447
+            - col:18496
+          sourceReferenceIds:
+            - ref:58090
+          originalIdentificationMappings:
+            - occurrenceId: occ:185972
+              originalIdentifiedName: Skinnerhyus shermerorum n. gen. n. sp.
+              acceptedName: Skinnerhyus shermerorum
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-420a61e385
+        part: body
+      en:
+        page: en
+        section: s-dee3c05662
+        part: body

@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Spathorhynchus fossorium
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Spathorhynchus fossorium
+      en: Spathorhynchus fossorium
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-efa421bdad
+            part: body
+          en:
+            page: en
+            section: s-2317b06a85
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-138a6ba6c4
+            part: body
+          en:
+            page: en
+            section: s-7b3f151e8c
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7ea3632a3f
+            part: body
+          en:
+            page: en
+            section: s-339d100170
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f4d245baea
+            part: body
+          en:
+            page: en
+            section: s-0f2ce1c2d2
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f521e90492
+            part: body
+          en:
+            page: en
+            section: s-e41240a45b
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Spathorhynchus fossorium
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=84024&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:84024; original response record indices retained in data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 514f112902c399f610603231aa01670f6a662448389d5f94c43cb3b70ec452d6
+          pbdbTaxonId: txn:84024
+          selectedOccurrenceIds:
+            - occ:1083690
+          selectedCollectionIds:
+            - col:136094
+          sourceReferenceIds:
+            - ref:18278
+          originalIdentificationMappings:
+            - occurrenceId: occ:1083690
+              originalIdentifiedName: Spathorhynchus fossorium n. gen. n. sp.
+              acceptedName: Spathorhynchus fossorium
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b48e2d58b6
+        part: body
+      en:
+        page: en
+        section: s-caf4b0f7bc
+        part: body

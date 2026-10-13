@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana schmackeri
+  displayName: Odorrana schmackeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SGP
+  sourceIndexes:
+    - name:
+        en: Odorrana schmackeri
+        zh: Odorrana schmackeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SGP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/45
+            queryName: Odorrana schmackeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 79
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/187
+            queryName: Rana schmackeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/342
+            queryName: Rana melli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/343
+            queryName: Hylorana melli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/344
+            queryName: Huia schmackeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-abc563c7af
+      - s-84af81308c
+      - s-dbc2ce4c69
+      - s-1fd323f0ad
+      - s-6e4dbd611e
+      - s-ef62f4bf08
+      - s-d0ff062652
+      - s-cf48f1c810
+      - s-e4e03675ac
+      - s-15a097a5ce
+    zh:
+      - s-3aca4f3e9c
+      - s-083c16177b
+      - s-7bef38d2df
+      - s-ec4c9e47e8
+      - s-8a9b46abb8
+      - s-f2872e2010
+      - s-261beb9f50
+      - s-12f4f4bc21
+      - s-89f580bc9d
+      - s-2ea86caf3c

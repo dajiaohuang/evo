@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Tritoniopsis cinnamomea J.C.Manning & Goldblatt
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 5956Z, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 5956Z; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/5956Z
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 5956Z
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001345027-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 5956Z / WFO wfo-0001345027
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tritoniopsis cinnamomea J.C.Manning & Goldblatt account; SANBI/WFO archive rows 97952 (Morphology), 96865 (Habitat), 94347 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 200-300 mm high. Corm globose, ± 20 mm diam.; tunics of densely matted brown fibres, with well-developed collar. Stem moderately slender, curved outward at ground level and then erect, unbranched, 1.0-1.5 mm diam. Basal leaves 3 or 4, green at flowering or outermost drying, blade linear to linear-lanceolate, acute, with 1 vein, 90-150 x 1-4 mm, contracted gradually into semiterete pseudopetiole 60-80 mm long; cauline leaves 3, lowermost concealed by corm collar, linear-conduplicate, ± 20 mm long, uppermost minute and scale like. Spike moderately densely 5- to 15-flowered, 60-120 mm long; bracts green at base but dry and brown above, leathery, oblong, outer bracts 5-6 mm long, acute, inner slightly longer, obtuse. Flowers zygomorphic, creamy white with apices of all tepals and outer surface of midline flushed dark brownish pink, acrid scented; perianth tube 3-4 mm long; tepals unequal, dorsal slightly larger, arching over stamens, crisped or undulate, base of lower tepals and mouth of tube minutely papillate, dorsal tepal linear, acute, 17-18 x 2.0-2.5 mm, upper laterals spreading horizontally, strongly clawed and recurved above, 10-12 x ± 1.5 mm, claw involute, 3-5 mm long, blade narrowly oblanceolate, acute, lower 3 tepals fused to one another for ± 2 mm, with short, involute claws up to 3 mm long, 13-15 x 2-3 mm. Filaments arcuate but later erect, 15-16 mm long, base of median filament minutely papillate; anthers yellow flushed reddish, 3 mm long with short apiculus 0.5 mm long. Style ± 20 mm long, dividing opposite anther bases, branches 0.5-1.0 mm long. Capsules much inflated, ovoid to subglobose, 8-12 x 8-15 mm. Seeds 4-5 mm long, winged on angles.
+            textZh: Tritoniopsis cinnamomea J.C.Manning & Goldblatt 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Morphology row 97952; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: A recently discovered species evidently closely allied to Tritoniopsis parviflora but distinguished from it by the creamy white flowers with the apices and outer surface of the tepals flushed dark brownish pink. The tepals are linear, the dorsal 2.0-2.5 mm wide and the upper laterals ± 1.5 mm wide, and the filaments are relatively long, 15-16 mm long.
+            textZh: SANBI 条目提供了 Tritoniopsis cinnamomea J.C.Manning & Goldblatt 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94347; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: On a seasonally wet plateau among low restios.
+            textZh: 该 SANBI 区域物种条目记录的生境：On a seasonally wet plateau among low restios.
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Habitat row 96865; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

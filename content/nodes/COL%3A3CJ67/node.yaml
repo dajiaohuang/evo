@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Euparkerella cochranae
+  displayName: Euparkerella cochranae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CJ67
+  sourceIndexes:
+    - name:
+        en: Euparkerella cochranae
+        zh: Euparkerella cochranae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CJ67
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/388
+            queryName: Euparkerella cochranae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-34f12a4f48
+      - s-c63b261c44
+      - s-c1f6de45cc
+      - s-4312373baa
+      - s-e8a83934bb
+      - s-1f55ceecda
+      - s-8af44293f3
+      - s-5256439192
+      - s-c4b51877c5
+      - s-68d0b1065a
+      - s-c1b58d80c2
+      - s-ad04ece14e
+      - s-686cf5fe85
+      - s-40ce91927b
+      - s-7427bfdc03
+    zh:
+      - s-27ce4184d4
+      - s-8bff0b2e1d
+      - s-f45b3b2095
+      - s-57bb598c57
+      - s-abd11f5380
+      - s-5dd5830e9b
+      - s-699f0faa49
+      - s-981a912267
+      - s-2af5a59ccc
+      - s-cc8eab6c98
+      - s-820c9a7443
+      - s-6c99b74ef0
+      - s-ed1d1309ef
+      - s-6cb24bef37
+      - s-203bc4d274

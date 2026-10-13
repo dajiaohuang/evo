@@ -1,0 +1,236 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Mimosiphonops vermiculatus
+    name:
+      en: Mimosiphonops vermiculatus
+      zh: Mimosiphonops vermiculatus
+    sourceClassification:
+      order: Gymnophiona
+      family: Siphonopidae
+      genus: Mimosiphonops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d7058d766e
+            part: body
+          zh:
+            page: zh
+            section: s-8830f3de53
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-95bc8f98e4
+            part: body
+          zh:
+            page: zh
+            section: s-92f0f28c7a
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Counts kept separate by row
+          zh: 按行分别记录的计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-a0819d3056
+            part: body
+          zh:
+            page: zh
+            section: s-c7e6d3bd81
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 123; Reference.csv rows 4400
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 123
+        values:
+          - Siphonopidae
+          - Mimosiphonops
+          - Mimosiphonops vermiculatus
+          - F
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.3"
+          - NA
+          - NA
+          - "87.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.8"
+          - "5.7"
+          - "6.15"
+          - NA
+          - "7.4"
+          - NA
+          - "2.45"
+          - NA
+          - "2.55"
+          - "4.4"
+          - NA
+          - NA
+          - "1.65"
+          - "1.1"
+          - "0.45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4400
+        values:
+          - Gymnophiona
+          - Mimosiphonops_vermiculatus
+          - Wilkinson, M., & Nussbaum, R. A. (1992). Taxonomic status of Pseudosiphonops-Ptychodermis Taylor and Mimosiphonops-Vermiculatus Taylor (Amphibia, Gymnophiona, Caeciliaidae) with Description of a New Species. Journal of Natural History, 26(3), 675-688. https://doi.org/10.1080/00222939200770421
+    availableTraitCodes:
+      - STFG
+      - TA1
+      - HL
+      - HW1
+      - HW2
+      - BW2
+      - IND
+      - EN
+      - IOD
+      - TE
+      - TN
+      - TLP
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 73M59
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amazops amazops
+  displayName: Amazops amazops
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/L7RC2
+  sourceIndexes:
+    - name:
+        en: Amazops amazops
+        zh: Amazops amazops
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: L7RC2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/227
+            queryName: Amazops amazops
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f56ca42d65
+      - s-55ddb0c648
+      - s-907389ae5a
+      - s-f157cd2bc1
+      - s-a5d1fe662e
+      - s-2f45db0260
+      - s-15001cbf67
+      - s-933289dfba
+    zh:
+      - s-92674e857b
+      - s-d220e414a0
+      - s-99babaf1d3
+      - s-116fe1aa06
+      - s-a7faae5048
+      - s-2604942d8e
+      - s-bf6ccdd856
+      - s-3c2a4d2462

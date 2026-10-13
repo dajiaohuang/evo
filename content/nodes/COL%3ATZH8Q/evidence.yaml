@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylototriton gaowangjienensis J. Huang, Y. Xiang, Y.-X. Zhang, T. Wu & W.-S. Jiang, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Tylototriton gaowangjienensis
+      zh: Tylototriton gaowangjienensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f9b22001d1
+            part: title
+          zh:
+            page: zh
+            section: s-1ee7063c34
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f9b22001d1
+            part: body
+          zh:
+            page: zh
+            section: s-1ee7063c34
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-99ac937d2e
+            part: title
+          zh:
+            page: zh
+            section: s-3f0d031592
+            part: title
+        text:
+          en:
+            page: en
+            section: s-99ac937d2e
+            part: body
+          zh:
+            page: zh
+            section: s-3f0d031592
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-a9c984e018
+            part: title
+          zh:
+            page: zh
+            section: s-0c964bbee9
+            part: title
+        sourceIds:
+          - primary-pmc13463510-tzh8q
+        text:
+          en:
+            page: en
+            section: s-a9c984e018
+            part: body
+          zh:
+            page: zh
+            section: s-0c964bbee9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylototriton gaowangjienensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/TZH8Q
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc13463510-tzh8q
+        referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton gaowangjienensis: Named-species morphological comparison only; new sheni biology not reassigned to accepted comparators; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2c67c7755b
+        part: body
+      zh:
+        page: zh
+        section: s-84ebddba28
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani16152340
+        referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+        sourceKey: primary-pmc13463510-tzh8q
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13463510/article.xml
+        sourceConcept: Tylototriton gaowangjienensis
+        evidenceRead: "Tylototriton gaowangjienensis: Named-species morphological comparison only; new sheni biology not reassigned to accepted comparators; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: appearance
+            heading:
+              en: Three external characters in a named-species comparison
+              zh: 具名物种比较中的三个外部性状
+            referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+            sourceKey: primary-pmc13463510-tzh8q
+            locator: PMC13463510 XML section sec3dot3-animals-16-02340, paragraph 7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-794f7ba699
+                part: body
+              zh:
+                page: zh
+                section: s-07e9c16abe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

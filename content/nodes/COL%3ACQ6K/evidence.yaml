@@ -1,0 +1,548 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ameerega bilinguis (Jungfer, 1989)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ameerega bilinguis
+      zh: Ameerega bilinguis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0265123879
+            part: title
+          zh:
+            page: zh
+            section: s-770c8cc124
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0265123879
+            part: body
+          zh:
+            page: zh
+            section: s-770c8cc124
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-26b2e5aeca
+            part: title
+          zh:
+            page: zh
+            section: s-fee34a803b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-26b2e5aeca
+            part: body
+          zh:
+            page: zh
+            section: s-fee34a803b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e581147d1d
+            part: title
+          zh:
+            page: zh
+            section: s-8b5d115d6d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-e581147d1d
+            part: body
+          zh:
+            page: zh
+            section: s-8b5d115d6d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-05cedc0562
+            part: title
+          zh:
+            page: zh
+            section: s-40662965a7
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-05cedc0562
+            part: body
+          zh:
+            page: zh
+            section: s-40662965a7
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1d9aa2ee8a
+            part: title
+          zh:
+            page: zh
+            section: s-1382aead4d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-1d9aa2ee8a
+            part: body
+          zh:
+            page: zh
+            section: s-1382aead4d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-718157d095
+            part: title
+          zh:
+            page: zh
+            section: s-336baaa4ca
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-718157d095
+            part: body
+          zh:
+            page: zh
+            section: s-336baaa4ca
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-b64b858246
+            part: title
+          zh:
+            page: zh
+            section: s-497f84d895
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-b64b858246
+            part: body
+          zh:
+            page: zh
+            section: s-497f84d895
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-37a1e8a38f
+            part: title
+          zh:
+            page: zh
+            section: s-769b567e36
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-37a1e8a38f
+            part: body
+          zh:
+            page: zh
+            section: s-769b567e36
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-366dbd9e430a6a457e987a57815b4668
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-4fc31dda1e2f8074b44876ab
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fb3d2be9d5
+            part: title
+          zh:
+            page: zh
+            section: s-9629ac77f7
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-fb3d2be9d5
+            part: body
+          zh:
+            page: zh
+            section: s-9629ac77f7
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3f1fa3a5be
+            part: title
+          zh:
+            page: zh
+            section: s-bbb1c0f1f4
+            part: title
+        sourceIds:
+          - primary-pmc11677230-cq6k
+        text:
+          en:
+            page: en
+            section: s-3f1fa3a5be
+            part: body
+          zh:
+            page: zh
+            section: s-bbb1c0f1f4
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-bc639c5acf
+            part: title
+          zh:
+            page: zh
+            section: s-5133f0cb82
+            part: title
+        sourceIds:
+          - primary-pmc11677230-cq6k
+        text:
+          en:
+            page: en
+            section: s-bc639c5acf
+            part: body
+          zh:
+            page: zh
+            section: s-5133f0cb82
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-9cd5e1532f
+            part: title
+          zh:
+            page: zh
+            section: s-a59d493c30
+            part: title
+        sourceIds:
+          - primary-pmc11677230-cq6k
+        text:
+          en:
+            page: en
+            section: s-9cd5e1532f
+            part: body
+          zh:
+            page: zh
+            section: s-a59d493c30
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ameerega bilinguis
+          url: https://www.checklistbank.org/dataset/316115/taxon/CQ6K
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1456; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1456 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc11677230-cq6k
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ameerega bilinguis: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-86e47b2c40
+        part: body
+      zh:
+        page: zh
+        section: s-3bd39d5398
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-366dbd9e430a6a457e987a57815b4668
+      sourceRowId: Anf1456
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf1456
+        bibliographyRowId: Anf1456
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Ameerega bilinguis
+        candidateBibliographyRowIds:
+          - Anf1456
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-4fc31dda1e2f8074b44876ab
+        scientificName: Ameerega bilinguis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7554/eLife.100011
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        sourceKey: primary-pmc11677230-cq6k
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11677230/article.xml
+        sourceConcept: Exactfixed source name Ameerega bilinguis; 1 sampledanimals/GC-MS, no originalvoucher/currentconcept authentication
+        evidenceRead: "Ameerega bilinguis: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Original bilingual factual synthesis of sampled skin chemistry and explicitly labelled mechanistic hypotheses; no figures or raw datasets reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Skin alkaloid measurements retain individuals and assay scope
+              zh: 皮肤生物碱测量保留个体及检测范围
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-cq6k
+            locator: PMC11677230 XML table1 row9 exactAmeerega bilinguis; tablecaption/footnote; s1-1 definitions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-49d2fbdb93
+                part: body
+              zh:
+                page: zh
+                section: s-9492b38e94
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Collection and chemical interpretation limits
+              zh: 取样与化学解读限制
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-cq6k
+            locator: PMC11677230 XML s3-1 collection; s3-2 assay; s3-4 analyses; s2-6 limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-759c2fea16
+                part: body
+              zh:
+                page: zh
+                section: s-6d455e199c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Passive accumulation remains a mechanistic hypothesis
+              zh: 被动积累仍是机制假说
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-cq6k
+            locator: PMC11677230 XML s1-3 passive-accumulation definition/model; s2-3-2 elimination prediction; s2-3-3 transport/storage prediction; s2-7 conclusion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6454a284ab
+                part: body
+              zh:
+                page: zh
+                section: s-f7be841957
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

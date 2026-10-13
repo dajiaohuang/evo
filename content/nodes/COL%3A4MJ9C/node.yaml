@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis anemerus
+  displayName: Pristimantis anemerus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ9C
+  sourceIndexes:
+    - name:
+        en: Pristimantis anemerus
+        zh: Pristimantis anemerus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ9C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/109
+            queryName: Pristimantis anemerus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/256
+            queryName: Eleutherodactylus anemerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-738ba9d6f4
+      - s-5372d03e65
+      - s-bf9f6aed55
+      - s-7db0b9320b
+      - s-45875cd02f
+      - s-91c1c7baee
+      - s-ee099eedb9
+      - s-d1e1f949cb
+      - s-80081c99fc
+    zh:
+      - s-570663bc89
+      - s-efa52aa38d
+      - s-3caa20fa4e
+      - s-af5d7e2f95
+      - s-5b44d71409
+      - s-4f74fa851a
+      - s-ca2dd7f7de
+      - s-1ac40e07c3
+      - s-a01225ddc1

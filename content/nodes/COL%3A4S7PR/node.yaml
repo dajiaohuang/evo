@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella rumbolli
+  displayName: Rhinella rumbolli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7PR
+  sourceIndexes:
+    - name:
+        en: Rhinella rumbolli
+        zh: Rhinella rumbolli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7PR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/369
+            queryName: Rhinella rumbolli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/406
+            queryName: Bufo rumbolli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/80
+            queryName: Chaunus rumbolli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a47ea0f6d7
+      - s-ae89cb59b9
+      - s-8290c98663
+      - s-b68f422703
+      - s-b2383b9717
+      - s-a9cb17d464
+      - s-57d0a2ad0c
+      - s-c3c417b812
+    zh:
+      - s-2156c64318
+      - s-f89ed8e353
+      - s-41f5cf2af2
+      - s-86bff0f3c4
+      - s-2d1679c120
+      - s-a10baef87c
+      - s-e1f13a6f1c
+      - s-07ee418818

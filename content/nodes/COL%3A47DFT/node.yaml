@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nidirana nankunensis
+  displayName: Nidirana nankunensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47DFT
+  sourceIndexes:
+    - name:
+        en: Nidirana nankunensis
+        zh: Nidirana nankunensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47DFT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/276
+            queryName: Nidirana nankunensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ad5e2ef860
+      - s-f8ab8e0692
+      - s-4ce0aa130e
+      - s-5b609257f5
+      - s-57dd1eb81b
+      - s-397e00fd45
+      - s-0a4fe2f398
+    zh:
+      - s-93a1564569
+      - s-973e59f187
+      - s-5f83336bf3
+      - s-4106958723
+      - s-50a05aafb2
+      - s-61f7d1d970
+      - s-ea57a267cc

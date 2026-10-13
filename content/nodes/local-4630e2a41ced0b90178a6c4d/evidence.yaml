@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Arthroleptella rugosa
+    name:
+      en: Arthroleptella rugosa
+      zh: Arthroleptella rugosa
+    sourceClassification:
+      order: Anura
+      family: Pyxicephalidae
+      genus: Arthroleptella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-676e74afac
+            part: body
+          zh:
+            page: zh
+            section: s-9981ae64a0
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b4a4ad129b
+            part: body
+          zh:
+            page: zh
+            section: s-d3f3774228
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 459, 460; Reference.csv rows 3409
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 459
+        values:
+          - Pyxicephalidae
+          - Arthroleptella
+          - Arthroleptella rugosa
+          - F
+          - "15.54"
+          - NA
+          - "5.28"
+          - "1.05"
+          - NA
+          - NA
+          - "3.05"
+          - "1.33"
+          - NA
+          - NA
+          - "0.91"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.55"
+          - NA
+          - "5.92"
+          - "5.33"
+          - "3.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 460
+        values:
+          - Pyxicephalidae
+          - Arthroleptella
+          - Arthroleptella rugosa
+          - M
+          - "13.178"
+          - NA
+          - "5.11"
+          - "1.38"
+          - NA
+          - NA
+          - "2.868"
+          - "1.256"
+          - NA
+          - NA
+          - "1.118"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.486"
+          - NA
+          - "5.094"
+          - "5.668"
+          - "3.138"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3409
+        values:
+          - Anura
+          - Arthroleptella_rugosa
+          - "Turner, A., & Channing, A. (2008). A new species of Arthroleptella Hewitt, 1926 (Anura: Pyxicephalidae) from the Klein Swartberg Mountain, Caledon, South Africa. African Journal of Herpetology, 57, 1-12. https://doi.org/10.1080/21564574.2008.9635564"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - SL
+      - FL
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - GYPN
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

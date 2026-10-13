@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stefania breweri
+  displayName: Stefania breweri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZMZS
+  sourceIndexes:
+    - name:
+        en: Stefania breweri
+        zh: Stefania breweri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZMZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/295
+            queryName: Stefania breweri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bebf7e39e0
+      - s-cec3b0af42
+      - s-7e34818385
+      - s-224e09ff1e
+      - s-8f7f4a9ed5
+      - s-68d4a7e902
+      - s-2ff1eb1a29
+      - s-e811132017
+      - s-952efca16e
+    zh:
+      - s-45d1b0d6bb
+      - s-7defc5ca8c
+      - s-97bc41adf7
+      - s-5229c6ce81
+      - s-3c99f3d993
+      - s-5cca42454a
+      - s-e371ce35f7
+      - s-c7e892fd9a
+      - s-0b323d098a

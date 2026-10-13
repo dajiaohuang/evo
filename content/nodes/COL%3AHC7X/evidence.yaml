@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aspergillus nidulans (Eidam) G. Winter
+    authorship: (Eidam) G. Winter
+    rank: species
+    sourceDatasetId: "2073"
+    sections:
+      - topic: morphology
+        sourceIds:
+          - guerriero2013AspergillusDichlobenil
+        text:
+          en:
+            page: en
+            section: s-871e1d41d1
+            part: body
+          zh:
+            page: zh
+            section: s-711a09c0c0
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - troppens2020AspergillusHulleCells
+        text:
+          en:
+            page: en
+            section: s-901b8a3e83
+            part: body
+          zh:
+            page: zh
+            section: s-180f0d4920
+            part: body
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: F
+        scientificName: Fungi
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: SM
+        scientificName: Ascomycota
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: BD
+        scientificName: Eurotiomycetes
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: 37R
+        scientificName: Eurotiales
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: 6T5
+        scientificName: Aspergillaceae
+        authorship: null
+        rank: family
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: 33ZF
+        scientificName: Aspergillus
+        authorship: null
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: HC7X
+        scientificName: Aspergillus nidulans (Eidam) G. Winter
+        authorship: (Eidam) G. Winter
+        rank: species
+        status: accepted
+        sourceDatasetId: "2073"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 usage HC7X. The claims concern laboratory-grown material studied under specified experimental conditions; they do not describe field ecology or whole-species variation.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: No wild field population was assessed by the cited laboratory studies.
+      domesticated: No domesticated population was studied; experimental material was cultured in the laboratory.
+      cultivated: Claims concern experimental laboratory cultures.
+      fossil: No fossil occurrence was assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2073
+          url: https://www.checklistbank.org/dataset/316115/taxon/HC7X
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:HC7X@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage HC7X; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage HC7X. https://doi.org/10.48580/dgywk.
+      - id: guerriero2013AspergillusDichlobenil
+        referenceId: ref-eaa95be8-412c-8073-a3b0-879dbb18b045
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article copyright statement links the Creative Commons Attribution License to the CC BY 3.0 deed.
+          licenseAppliesTo: Article text; no images, figures, or third-party content are reproduced.
+          stableId: doi:10.1371/journal.pone.0080038
+          locator: Abstract; Copyright statement; study Results on growth, spore germination, and hyphal morphology.
+          attribution: Guerriero G, Silvestrini L, Obersriebnig M, Salerno M, Pum D, Strauss J (2013). PLOS ONE 8(11):e80038. https://doi.org/10.1371/journal.pone.0080038. CC BY 3.0. Claims paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Laboratory experiment exposing A. nidulans to dichlobenil and Congo Red; observed growth, spore-germination, cell-wall gene-expression, and hyphal-morphology responses are treatment-specific.
+          accessedAt: 2026-09-27
+      - id: troppens2020AspergillusHulleCells
+        referenceId: ref-9abd8dc5-b174-865e-a254-31c7f8059b6f
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article Copyright section identifies the article as open access under CC BY 4.0.
+          licenseAppliesTo: Article text; no figures, tables, or third-party material are reproduced.
+          stableId: doi:10.1128/mbio.01673-20
+          locator: Abstract; Results on Hülle-cell localization, germination, hyphal growth, and conidiospore-producing colonies; Copyright section.
+          attribution: Troppens DM, Köhler AM, Schlüter R, Hoppert M, Gerke J, Braus GH (2020). mBio 11(4):e01673-20. https://doi.org/10.1128/mbio.01673-20. CC BY 4.0. Claims paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Experimental work on Aspergillus nidulans Hülle cells and laboratory colonies; proposed roles under destructive conditions are hypotheses rather than field-validated ecological generalizations.
+          accessedAt: 2026-09-27
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Under experimental exposure to dichlobenil, laboratory-grown A. nidulans showed altered hyphal morphology and growth; the study also found changes in cell-wall-related gene expression. The result is specific to the tested inhibitor and conditions and is not a description of untreated natural morphology.
+            originalLanguage: en
+            sourceIds:
+              - guerriero2013AspergillusDichlobenil
+            locator: Abstract and Results; article summary of growth, spore-germination, gene-expression, and ultrastructural observations.
+            placeTimeScope: Laboratory cultures under dichlobenil exposure; observations included 0, 1, 3, 6, and 24 hour time points.
+            lifeStatus: Cultured fungus under experimental treatment.
+          - text: In laboratory experiments, Hülle cells were observed at multiple locations along hyphae, and germinated Hülle cells grew hyphae that developed into spore-producing colonies. This documents a specialized cell form and developmental response under experimental conditions.
+            originalLanguage: en
+            sourceIds:
+              - troppens2020AspergillusHulleCells
+            locator: Abstract; Results on Hülle-cell distribution and germination.
+            placeTimeScope: Laboratory-grown A. nidulans material in a 2020 cell-biology study.
+            lifeStatus: Cultured fungus; not a field population.
+        gaps:
+          - Normal diagnostic morphology, environmental and strain variation, developmental-stage measurements, and identification limits have not been assessed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: A laboratory study demonstrated that A. nidulans Hülle cells can germinate, grow hyphae, and form colonies that produce conidiospores; Hülle-cell-derived colonies produced conidiospores sooner than spore-derived colonies in the reported experiment. This is a bounded developmental observation, not a full life-cycle account.
+            originalLanguage: en
+            sourceIds:
+              - troppens2020AspergillusHulleCells
+            locator: Abstract and Results on Hülle-cell germination and colony conidiospore production.
+            placeTimeScope: Laboratory developmental experiments reported in 2020; source does not establish frequencies in wild conditions.
+            lifeStatus: Cultured fungus under experimental conditions.
+        gaps:
+          - Sexual and asexual cycle timing, mating compatibility across natural populations, dispersal, and environmental stage transitions require broader evidence.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No field habitat, ecological interaction, natural substrate, or population-level ecological relationship is established by these laboratory studies.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No species-level phylogenetic placement, divergence, or trait-evolution analysis is included.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No verified native, introduced, cultivated, or global range evidence is included.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No reproducible fossil-record search or confirmed fossil occurrence assessment is included.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No formal conservation or extinction-risk assessment is applicable or included in the cited experimental studies.

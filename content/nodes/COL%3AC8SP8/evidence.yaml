@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Amanita multicingulata Y.Y. Cui, Q. Cai & Zhu L. Yang
+    rank: species
+    sourceDatasetId: "2073"
+    identity:
+      method: COL26.8 accepted usage was checked by COL ID and exact accepted label against the pinned COL hierarchy; Species Fungorum Plus dataset 2073 crosswalk maps this COL ID by exact source-dataset-and-verbatim-label to Index Fungorum record / Fungal Names FN 571586. The 2023 paper independently names the same species and cites that FN identifier.
+      scope: The accepted COL26.8 species usage and its explicitly linked Species Fungorum / Fungal Names name usage. Biological claims retain the paper’s species treatment, collection, place, and study limits.
+      sourceIds:
+        - col
+        - fungalNames
+        - cui2023
+    lifeStatusScope:
+      wild: Claims concern the authors’ field-collected fungal basidiomata and herbarium vouchers in natural forest settings as described in the paper.
+      domesticated: Not assessed; no domestication or cultivation claim is made.
+      fossil: Not assessed; no fossil occurrence claim is made.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAppliesTo
+          - licenseAssessment
+          - scope
+        metadataVariant: 23
+        usage:
+          licenseAppliesTo: Checklist taxon identity metadata only
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; underlying fungal source dataset 2073
+          url: https://www.checklistbank.org/dataset/316115/taxon/C8SP8
+          stableId: COL26.8 usage C8SP8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage C8SP8
+          licenseAssessment: identity-only
+          scope: Accepted-name identity, authorship, rank, status and sourceDatasetId only; no biological evidence copied.
+      - id: fungalNames
+        referenceId: ref-8b85b4d2-0cf8-8538-a9c9-d27ad8caf301
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Species Fungorum Plus taxonomic checklist record used to verify name identity
+          stableId: Index Fungorum RecordID 571586; Fungal Names FN 571586
+          accessedAt: 2026-09-24
+          locator: COL26.8 crosswalk row C8SP8; Index Fungorum record 571586
+          attribution: Royal Botanic Gardens, Kew (2023), Species Fungorum Plus, DOI 10.15468/ts7wsb; Index Fungorum record 571586
+          licenseAssessment: identity-only
+          scope: Identity link only; not a biological evidence source.
+      - id: cui2023
+        referenceId: ref-7f5bb31a-045b-84d9-af62-87074e5c5795
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Published article text; this dossier paraphrases scientific claims and does not redistribute article figures or full text
+          stableId: doi:10.3390/jof9080862; Fungal Names FN 571586
+          accessedAt: 2026-09-24
+          locator: Amanita multicingulata Y.Y. Cui, Q. Cai & Zhu L. Yang, Fungal Names FN 571586; section 3.2
+          attribution: Cui, Y.-Y.; Hao, Y.-J.; Guo, T.; Yang, Z.L.; Cai, Q. (2023), Journal of Fungi 9(8):862. https://doi.org/10.3390/jof9080862
+          licenseAssessment: item-level-verified
+          scope: Original taxonomic study of Amanita sect. Vaginatae in China; each cited passage is a named species account or paper phylogeny.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The species account diagnoses A. multicingulata against A. liquii by longer pileal-margin striations, lamellae color and drying response, smaller basidiospores, and subtropical Fagaceae-dominated forest occurrence; microscopic type characters are described.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Section 3.2, Amanita multicingulata Y.Y. Cui, Q. Cai & Zhu L. Yang, Diagnosis and Description; Type
+            placeTimeScope: Type from Huangshan, Anhui, China, collected 2018-07-13; the article lists additional July 2018 Huangshan vouchers. The stated eastern China range is the authors’ account, not a global range.
+            lifeStatus: Wild fungal type collection described by the authors.
+        gaps:
+          - One taxonomic paper and its sampled material do not cover developmental variation, broad population variation, or a complete diagnostic synthesis.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The authors report solitary-to-scattered fruiting on soil in subtropical broad-leaved forests dominated by Fagaceae, sometimes mixed with Pinus.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Section 3.2, Amanita multicingulata Y.Y. Cui, Q. Cai & Zhu L. Yang, Habitat
+            placeTimeScope: Type from Huangshan, Anhui, China, collected 2018-07-13; the article lists additional July 2018 Huangshan vouchers. The stated eastern China range is the authors’ account, not a global range.
+            lifeStatus: Wild field collections; the stated forest association does not establish a physiological host relationship.
+        gaps:
+          - The account does not establish interaction mechanisms, resource dependence, seasonality, or population-level ecology.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: The combined multilocus phylogeny places A. multicingulata as sister to A. liquii.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Results, phylogenetic relationships; Figure 1 and Figures S1–S4
+            placeTimeScope: Type from Huangshan, Anhui, China, collected 2018-07-13; the article lists additional July 2018 Huangshan vouchers. The stated eastern China range is the authors’ account, not a global range.
+            lifeStatus: Modern herbarium collections analyzed in the cited study.
+        gaps:
+          - Placement is limited to the study taxa, loci, sampling, and analyses; no divergence-time or broader phylogenomic synthesis was assessed.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The authors report A. multicingulata as known from eastern China and list the type and additional collections from Huangshan, Anhui, in July 2018.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Section 3.2, Amanita multicingulata Y.Y. Cui, Q. Cai & Zhu L. Yang, Type, Additional specimens examined, and Distribution
+            placeTimeScope: Type from Huangshan, Anhui, China, collected 2018-07-13; the article lists additional July 2018 Huangshan vouchers. The stated eastern China range is the authors’ account, not a global range.
+            lifeStatus: Reported field-collected specimens; cultivated, introduced, and global range status not assessed.
+        gaps:
+          - The paper reports its known range and examined collections; no exhaustive global occurrence search or native/introduced assessment was completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-252e49adc3
+        title:
+          en:
+            page: en
+            section: s-a2b2ce8c13
+            part: title
+          zh:
+            page: zh
+            section: s-b6c7b8ee41
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a2b2ce8c13
+            part: body
+          zh:
+            page: zh
+            section: s-b6c7b8ee41
+            part: body
+        sourceIds:
+          - cui2023
+      - id: page-d3b7273c41
+        title:
+          en:
+            page: en
+            section: s-59c473c79e
+            part: title
+          zh:
+            page: zh
+            section: s-9df7a2a3f2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-59c473c79e
+            part: body
+          zh:
+            page: zh
+            section: s-9df7a2a3f2
+            part: body
+        sourceIds:
+          - cui2023
+      - id: page-87161bd21f
+        title:
+          en:
+            page: en
+            section: s-f6740fb2c7
+            part: title
+          zh:
+            page: zh
+            section: s-80b142513a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f6740fb2c7
+            part: body
+          zh:
+            page: zh
+            section: s-80b142513a
+            part: body
+        sourceIds:
+          - cui2023
+      - id: page-d1d7510045
+        title:
+          en:
+            page: en
+            section: s-71d5d79863
+            part: title
+          zh:
+            page: zh
+            section: s-7744f04368
+            part: title
+        text:
+          en:
+            page: en
+            section: s-71d5d79863
+            part: body
+          zh:
+            page: zh
+            section: s-7744f04368
+            part: body
+        sourceIds:
+          - cui2023

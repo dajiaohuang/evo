@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon jordani
+  displayName: Plethodon jordani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VQ7W
+  sourceIndexes:
+    - name:
+        en: Plethodon jordani
+        zh: Plethodon jordani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VQ7W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/471
+            queryName: Plethodon jordani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 69
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/452
+            queryName: Plethodon jordani jordani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b89f534800
+      - s-b0ffc231ac
+      - s-2864283481
+      - s-2105c8e657
+      - s-4b0f6b6372
+      - s-3eb96e29b8
+      - s-0502265385
+      - s-a3e64c576d
+      - s-9568c9097b
+      - s-d98d892729
+      - s-559924d83a
+      - s-9de69244be
+      - s-ae305d34da
+      - s-ce8c7194bd
+      - s-21082c3a62
+      - s-819b905107
+      - s-ad6d24d9d6
+      - s-754d693757
+      - s-4caa8b4e6f
+      - s-8cedf53d78
+    zh:
+      - s-b4f44ac22e
+      - s-b9677c52d5
+      - s-6528ea5090
+      - s-f14d96f8af
+      - s-86173e0c26
+      - s-5a43466d98
+      - s-3c184fb985
+      - s-5f738407bc
+      - s-7aff392aae
+      - s-65b99ff3ee
+      - s-23c314224b
+      - s-594f8fb47f
+      - s-7b79ed9f0b
+      - s-4d69e0280a
+      - s-f0b2bb97dc
+      - s-66f3d29769
+      - s-101524f0e0
+      - s-9825f37fbf
+      - s-971bd91177
+      - s-dfdc3a7b03

@@ -1,0 +1,3 @@
+## Three-veined leaves on a twiggy shrub {#s-3fcb553b04}
+This description records a rounded, twiggy shrub up to 1 m tall. Its narrow leaves have three parallel veins, rolled-under edges and a white-felted underside; compact rounded clusters carry yellow flower heads. Leaf size and hairiness vary. The source notes that plants may have grey-woolly leaves at branch bases and narrow, nearly hairless leaves toward the tips, and that green-leaved forms can be confused with H. tenuifolium or H. witbergense. It records the plant on rocky inland slopes and says livestock do not eat it, while its branches are used as fuel.
+

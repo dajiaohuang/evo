@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus abditus
+  displayName: Desmognathus abditus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/353M6
+  sourceIndexes:
+    - name:
+        en: Desmognathus abditus
+        zh: Desmognathus abditus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 353M6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/455
+            queryName: Desmognathus abditus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-63a626cd80
+      - s-14be5ee012
+      - s-7997e61da9
+      - s-155a867f46
+      - s-ff14246478
+      - s-fff6e4f95e
+      - s-9e7ec9fab4
+      - s-819ae0e6bc
+      - s-7af9a841ec
+    zh:
+      - s-990ccb5b2f
+      - s-2d9d086d89
+      - s-8cdfe7ef0e
+      - s-c26c2be6aa
+      - s-701ce9d91d
+      - s-7240cf643a
+      - s-cc10371197
+      - s-d7b2d24d5c
+      - s-f797d274a5

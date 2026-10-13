@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis thelenae
+  displayName: Gephyromantis thelenae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KCZL
+  sourceIndexes:
+    - name:
+        en: Gephyromantis thelenae
+        zh: Gephyromantis thelenae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KCZL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/162
+            queryName: Gephyromantis thelenae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/211
+            queryName: Mantidactylus thelenae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9fad6ef837
+      - s-f8d80366fa
+      - s-c3b73f7225
+      - s-096b37d5c5
+      - s-cc3d80a589
+      - s-00df985ded
+      - s-0a795c4472
+      - s-9cace63b22
+      - s-6de62b605d
+    zh:
+      - s-fe5d85d347
+      - s-584634b1b4
+      - s-731e7d0030
+      - s-ad3e5dda8b
+      - s-85d9d94324
+      - s-6894783b3e
+      - s-f9e623475d
+      - s-531b030a88
+      - s-bd1cd4a704

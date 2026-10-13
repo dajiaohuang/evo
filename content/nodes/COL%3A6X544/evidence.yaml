@@ -1,0 +1,323 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes munnarensis (Biju & Bossuyt, 2009)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes munnarensis
+      zh: Raorchestes munnarensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0742d3daf1
+            part: title
+          zh:
+            page: zh
+            section: s-5904b561be
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0742d3daf1
+            part: body
+          zh:
+            page: zh
+            section: s-5904b561be
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5d884caad1
+            part: title
+          zh:
+            page: zh
+            section: s-a90bf2896c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5d884caad1
+            part: body
+          zh:
+            page: zh
+            section: s-a90bf2896c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-362e7a4cbd
+            part: title
+          zh:
+            page: zh
+            section: s-3617bb3c1b
+            part: title
+        sourceIds:
+          - amphibio
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-362e7a4cbd
+            part: body
+          zh:
+            page: zh
+            section: s-3617bb3c1b
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-8b7e1f56c170185895fffd0b91bb62ec
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ff88c98dc4ef40950032f988
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-01e9e06419
+            part: title
+          zh:
+            page: zh
+            section: s-584583a094
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-01e9e06419
+            part: body
+          zh:
+            page: zh
+            section: s-584583a094
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-99d6d1dfa0
+            part: title
+          zh:
+            page: zh
+            section: s-ee6a8612b0
+            part: title
+        sourceIds:
+          - primary-pmc7936570-6x544
+        text:
+          en:
+            page: en
+            section: s-99d6d1dfa0
+            part: body
+          zh:
+            page: zh
+            section: s-ee6a8612b0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e7770f7a3f
+            part: title
+          zh:
+            page: zh
+            section: s-8c73067208
+            part: title
+        sourceIds:
+          - primary-pmc7936570-6x544
+        text:
+          en:
+            page: en
+            section: s-e7770f7a3f
+            part: body
+          zh:
+            page: zh
+            section: s-8c73067208
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes munnarensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/6X544
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5272; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5275 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5310; Reference.csv rows 1282
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc7936570-6x544
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes munnarensis: Individually read species-specific acoustic comparison and table 2 species row 12, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a355c3aaf4
+        part: body
+      zh:
+        page: zh
+        section: s-26fcc9420c
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-ff88c98dc4ef40950032f988
+        scientificName: Raorchestes munnarensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-6x544
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes munnarensis
+        evidenceRead: "Raorchestes munnarensis: Individually read species-specific acoustic comparison and table 2 species row 12, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: behavior
+            heading:
+              en: Species-specific call structure in the 2021 comparison
+              zh: 2021 年比较中的物种专属鸣声结构
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-6x544
+            locator: PMC7936570 XML sec13 paragraph 15; table-2 species row 12 and adjacent rows for additional call types; sec7 paragraphs 1–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f31f385718
+                part: body
+              zh:
+                page: zh
+                section: s-22aa665266
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Reported calling height is an observation range
+              zh: 报告的鸣叫高度是观察范围
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-6x544
+            locator: PMC7936570 XML table-2 species row 12; caption and calling-height column
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7cd306a5a2
+                part: body
+              zh:
+                page: zh
+                section: s-70182870a0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

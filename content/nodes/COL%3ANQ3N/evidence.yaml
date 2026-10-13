@@ -1,0 +1,115 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bulbine striata Baijnath & Van Jaarsv.
+    rank: species
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-050a006e3c
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-3c93af5817
+          part: body
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NQ3N, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NQ3N; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NQ3N
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NQ3N
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000762420-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NQ3N / WFO wfo-0000762420
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_3000_0
+        referenceId: ref-ab401a0e-ff41-8281-ac77-444e6c8debf3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbine striata Baijnath & Van Jaarsv. account; SANBI/WFO archive rows 85336 (Morphology), 85080 (Habitat), 84572 (Diagnostic), source identifier 3000.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants solitary, acaulescent. Tuber oblong to oblong-globose, tapering and rounded at the top, up to 25 mm long and 18 mm in diameter, covered by a dark brown tunic, overtopped by a ring of bristles. Roots spreading, as single units, in addition 2-5 arranged in adpressed bundles surrounded by dark brown corky sheath; single roots 5-8 mm wide, bundles 10-20 mm wide. Leaves rosulate, erectly spreading becoming patent, ovate-lanceolate, 4-6, 50-150(-240) mm long and 25-40 mm wide, softly succulent, amplexicaul, membranous at the base, pale green; adaxial surface distinctly striated, translucent; abaxial surface obscurely striated, not translucent; margin entire; apex acuminate. Raceme erect, usually solitary, 450-570 mm tall with 30-40 flowers. Peduncle 3.5 mm in diameter, terete. Bracts membranous, deltoid-acuminate, 2 mm long, 1 mm wide at the base. Pedicels 10-20 mm long, erectly spreading. Tepals pale yellow, reflexed when fully open; outer segments ovate-elliptic, 8 mm long, 1.5 mm broad; inner segments 8 mm long, 2.5 mm broad. Stamens 4-5 mm long. Filaments bearded with yellow hairs. Anthers yellow, oblong, dorsifixed. Ovary globose, green, grooved. Style 5 mm long; stigma minute. Capsule globose-ovoid, 6 mm long, 5 mm wide. Seeds black, angular, with rough surface, 3 mm long and 1 mm wide.
+            textZh: Bulbine striata Baijnath & Van Jaarsv. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_3000_0
+            locator: "SANBI/WFO archive Morphology row 85336; source identifier 3000.0; cited publication: Baijnath, H; Van Jaarsveld, EJ. 1987. Bulbine striata (Asphodelaceae): A new species from the north-western Cape. S. African J. Bot. 53: 424 - 426. [Copyright held by the South African Association of Botanists (1987); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: B. striata is clearly separated from other members of the genus by the presence of distinctly striate leaves which are translucent on the adaxial surface. The only other species with some similarity in leaf patterning is B. haworthioides B. Nord., in which reticulate markings occur. However, the leaves of the latter are much smaller and tend not to exceed 2.5 cm in length. Superficially, the leaves of B. striata resemble those of the evergreen species, B. latifolia (L.f.) Roem. & Schult., which is common in the eastern Cape. A further distinguishing character of B. striata is the aggregation of 2-5 roots into bundles which are ensheathed by a corky layer.
+            textZh: SANBI 条目提供了 Bulbine striata Baijnath & Van Jaarsv. 的鉴别特征。
+            sourceIds:
+              - sanbi_3000_0
+            locator: "SANBI/WFO archive Diagnostic row 84572; source identifier 3000.0; cited publication: Baijnath, H; Van Jaarsveld, EJ. 1987. Bulbine striata (Asphodelaceae): A new species from the north-western Cape. S. African J. Bot. 53: 424 - 426. [Copyright held by the South African Association of Botanists (1987); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Solitary amongst quartz pebbles and rocks in sandy well-drained soil on the upper and middle south slope of Groot Pellaberg, at the base of sheer rock faces.
+            textZh: 该 SANBI 区域物种条目记录的生境：Solitary amongst quartz pebbles and rocks in sandy well-drained soil on the upper and middle south slope of Groot Pellaberg, at the base of sheer rock faces.
+            sourceIds:
+              - sanbi_3000_0
+            locator: "SANBI/WFO archive Habitat row 85080; source identifier 3000.0; cited publication: Baijnath, H; Van Jaarsveld, EJ. 1987. Bulbine striata (Asphodelaceae): A new species from the north-western Cape. S. African J. Bot. 53: 424 - 426. [Copyright held by the South African Association of Botanists (1987); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

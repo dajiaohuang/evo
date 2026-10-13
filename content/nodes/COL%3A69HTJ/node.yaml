@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene buckleyi
+  displayName: Centrolene buckleyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69HTJ
+  sourceIndexes:
+    - name:
+        en: Centrolene buckleyi
+        zh: Centrolene buckleyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69HTJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/176
+            queryName: Centrolene buckleyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/378
+            queryName: Hylella buckleyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/379
+            queryName: Centrolenella buckleyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/380
+            queryName: Hyla purpurea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/381
+            queryName: Cochranella buckleyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/382
+            queryName: Centrolenella johnelsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/53
+            queryName: Centrolenella buckleyi buckleyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8d8e4ba8ad
+      - s-68b3d1b8e5
+      - s-3dce0b4586
+      - s-78a3d7c402
+      - s-92325083e0
+      - s-b16f647948
+      - s-4776f645b2
+      - s-895d1a617e
+      - s-3e545e9572
+      - s-92590834e9
+      - s-f7528588b5
+      - s-08657ec40c
+      - s-360c253003
+      - s-ae2c5c7db0
+      - s-d27fbc6acd
+      - s-f057b8200f
+      - s-741f7abda0
+      - s-03b6d88452
+      - s-0b6b900e61
+    zh:
+      - s-56cbc04c32
+      - s-e29ea7f4b1
+      - s-f06b22ce23
+      - s-86a0c7b095
+      - s-91045ae3a2
+      - s-e0a74de75c
+      - s-6b616a5aa2
+      - s-825db09671
+      - s-da38842339
+      - s-73067e1975
+      - s-2af53db77c
+      - s-71f39f8b08
+      - s-c2af1fab50
+      - s-e7485a1c22
+      - s-f20f32aaaf
+      - s-eb8e5bfe38
+      - s-e84cfc7dce
+      - s-24aeca7eda
+      - s-f9db0f39f3

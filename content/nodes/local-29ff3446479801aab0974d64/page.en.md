@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-0bf5d5853e}
+This record shows how TadpoleTraits files tadpoles under Polypedates maculatus. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Polypedates maculatus in Polypedates and Rhacophoridae. In the literature table, rows 4928, 4929, 4930, 4931, 4932, 4933, 4934, 4935, 4936, 4937, 4938, 4939 list Polypedates maculatus in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-a09edcbcfb}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 12 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 27 (row 4928); 29 (row 4929); 31 (row 4930); 32 (row 4931); 33 (row 4932); 30 (row 4933); 36 (row 4934); 34 (row 4935); 35 (row 4936); 37 (row 4937); 38 (row 4938); 40 (row 4939). Sample size is populated in 12 rows, with source values from 1 to 4; the entries remain row-specific. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

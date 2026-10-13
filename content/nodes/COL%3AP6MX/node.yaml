@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum nanum
+  displayName: Cacosternum nanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6MX
+  sourceIndexes:
+    - name:
+        en: Cacosternum nanum
+        zh: Cacosternum nanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6MX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/45
+            queryName: Cacosternum nanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/375
+            queryName: Cacosternum poyntoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/243
+            queryName: Cacosternum magnaglandiferus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/277
+            queryName: Cacosternum boettgeri albiventer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/278
+            queryName: Cacosternum nanum nanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-60d90ab993
+      - s-7776fe48a5
+      - s-3aa61962a3
+      - s-48e077910f
+      - s-d6134f6219
+      - s-e19e02ec77
+      - s-4e324f5edb
+      - s-d480862401
+      - s-7528acc48d
+      - s-d7f6bc2f91
+      - s-43ca12ed10
+      - s-07f03ca752
+      - s-d52da96bd2
+      - s-3f5c08bdfb
+      - s-eefdf21920
+      - s-1a23fa9180
+      - s-2a82db11ab
+      - s-32110e7e99
+      - s-3eea290c40
+    zh:
+      - s-5ae79fc653
+      - s-4f4e2d9362
+      - s-271c0ba744
+      - s-c8e57dc996
+      - s-4ee1281504
+      - s-4dbb8882cc
+      - s-98154d81ad
+      - s-b269a00a02
+      - s-5ba89f799a
+      - s-f0dd18cdd9
+      - s-2f8aa8e341
+      - s-6d0328dbdf
+      - s-6473f3abed
+      - s-dc3ee2fe40
+      - s-c3f25f116e
+      - s-d45a151c6a
+      - s-3769e73e02
+      - s-005d20a414
+      - s-6817d7bd30

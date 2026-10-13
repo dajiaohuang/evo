@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor sandersoni
+  displayName: Craugastor sandersoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC7T
+  sourceIndexes:
+    - name:
+        en: Craugastor sandersoni
+        zh: Craugastor sandersoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC7T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/182
+            queryName: Craugastor sandersoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/44
+            queryName: Eleutherodactylus sandersoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7bdd72f2dd
+      - s-661f8c8c91
+      - s-51d7b1309b
+      - s-325ec083ad
+      - s-50343fedb5
+      - s-ffd48d09aa
+      - s-539428ec19
+      - s-6411a41f93
+    zh:
+      - s-b577762052
+      - s-d2500c80df
+      - s-4674c8cab5
+      - s-e8b4e30173
+      - s-83b01a6830
+      - s-d09f724451
+      - s-614c550cbc
+      - s-7646c1f110

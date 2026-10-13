@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys renalis
+  displayName: Proceratophrys renalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMVC
+  sourceIndexes:
+    - name:
+        en: Proceratophrys renalis
+        zh: Proceratophrys renalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMVC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/236
+            queryName: Proceratophrys renalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/313
+            queryName: Ceratophrys renalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/376
+            queryName: Stombus renalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e9b60da4f1
+      - s-602cfe6316
+      - s-aa4eb34425
+      - s-93f7e0edc6
+      - s-bbae4ab7b6
+      - s-6f698cc0f9
+      - s-cd620877fe
+      - s-d9b8500734
+      - s-c943a829f5
+      - s-350d792cee
+      - s-b6ec9500fd
+      - s-83394376b8
+      - s-8736d45cd7
+      - s-c7b4d3ee63
+      - s-9567c64285
+      - s-701d707027
+      - s-7869a66e13
+      - s-d66807a465
+      - s-d57fb75e2d
+      - s-8a52ee620c
+      - s-bb43f3d61d
+      - s-4fd366127c
+    zh:
+      - s-f2cacedd70
+      - s-af59aa3065
+      - s-13fd6967f2
+      - s-6c8ab3d7bb
+      - s-a95aa4fa16
+      - s-0bc9c0cecd
+      - s-c87d3a3c01
+      - s-b78cd6f4a0
+      - s-688b447d12
+      - s-2cba61d914
+      - s-9819ea4902
+      - s-743de7d94e
+      - s-bb56e9f38d
+      - s-d3ea336bc2
+      - s-6522951b89
+      - s-89feebc74b
+      - s-5928ad843b
+      - s-56b8777ef8
+      - s-d8ae8e57d8
+      - s-c17a554a9d
+      - s-5ef62b9b85
+      - s-a037bfa34e

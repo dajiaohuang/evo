@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cophixalus amabilis
+    name:
+      en: Cophixalus amabilis
+      zh: Cophixalus amabilis
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Cophixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Cophixalus amabilis in the version 3 classification
+          zh: Cophixalus amabilis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-de4fbb68c2
+            part: body
+          zh:
+            page: zh
+            section: s-01af24d7b3
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 11 populated trait fields
+          zh: 2 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-47bb3e7e29
+            part: body
+          zh:
+            page: zh
+            section: s-a9dca79b29
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1199, 1200; Reference.csv rows 288
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1199
+        values:
+          - Microhylidae
+          - Cophixalus
+          - Cophixalus amabilis
+          - M
+          - "14"
+          - "4.76"
+          - "5.46"
+          - "2.1"
+          - "0.84"
+          - NA
+          - NA
+          - "1.358"
+          - NA
+          - "1.134"
+          - "1.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.434"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.602"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1200
+        values:
+          - Microhylidae
+          - Cophixalus
+          - Cophixalus amabilis
+          - F
+          - "15.2"
+          - "5.016"
+          - "5.776"
+          - "2.128"
+          - "0.8208"
+          - NA
+          - NA
+          - "1.4136"
+          - NA
+          - "1.2008"
+          - "1.976"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.688"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.4256"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.6232"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 288
+        values:
+          - Anura
+          - Cophixalus_amabilis
+          - "Kraus, F. (2012). Papuan frogs of the genus Cophixalus (Anura: Microhylidae): new synonyms, new species, and a dichotomous key. Zootaxa(3559), 1-36. https://doi.org/10.11646/zootaxa.3559.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - SL
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - Y43G
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

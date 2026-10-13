@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus poocha
+  displayName: Nyctibatrachus poocha
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485GM
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus poocha
+        zh: Nyctibatrachus poocha
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485GM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/358
+            queryName: Nyctibatrachus poocha
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7d04ebcc28
+      - s-88cab5d7f6
+      - s-25291ad81f
+      - s-c026e3b925
+      - s-8598c6334c
+      - s-5b1f2ef103
+    zh:
+      - s-21d530b60d
+      - s-2a8827fea3
+      - s-b23e3531c5
+      - s-ba3d79df75
+      - s-d20c24e69d
+      - s-52da94793a

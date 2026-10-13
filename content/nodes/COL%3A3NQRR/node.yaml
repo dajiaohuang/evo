@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius brachiofasciatus
+  displayName: Hyperolius brachiofasciatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQRR
+  sourceIndexes:
+    - name:
+        en: Hyperolius brachiofasciatus
+        zh: Hyperolius brachiofasciatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQRR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/229
+            queryName: Hyperolius brachiofasciatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8c2be3ff69
+      - s-a3c5d50a80
+      - s-662ad746b9
+      - s-72340ffb4c
+      - s-6215f5655a
+      - s-2358f63b91
+      - s-3719c5906a
+    zh:
+      - s-5e002ac535
+      - s-f2ea3e18b9
+      - s-1a20dc1a1a
+      - s-814660bddc
+      - s-a98833ccff
+      - s-189b8d8f10
+      - s-50010873cb

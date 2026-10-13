@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chrysopaa Ohler & Dubois, 2006
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Chrysopaa
+      zh: Chrysopaa
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a793e7da3d
+            part: title
+          zh:
+            page: zh
+            section: s-2c9b303b09
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a793e7da3d
+            part: body
+          zh:
+            page: zh
+            section: s-2c9b303b09
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-47456a7fe0
+            part: title
+          zh:
+            page: zh
+            section: s-ca2f5dc074
+            part: title
+        text:
+          en:
+            page: en
+            section: s-47456a7fe0
+            part: body
+          zh:
+            page: zh
+            section: s-ca2f5dc074
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-805573313b
+            part: title
+          zh:
+            page: zh
+            section: s-d04c79d693
+            part: title
+        text:
+          en:
+            page: en
+            section: s-805573313b
+            part: body
+          zh:
+            page: zh
+            section: s-d04c79d693
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-219ef9f940
+            part: title
+          zh:
+            page: zh
+            section: s-870b1f7234
+            part: title
+        text:
+          en:
+            page: en
+            section: s-219ef9f940
+            part: body
+          zh:
+            page: zh
+            section: s-870b1f7234
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-4a0551fe85
+            part: title
+          zh:
+            page: zh
+            section: s-b8c77d3eef
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5YR8K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5YR8K
+            label:
+              en: Chrysopaa sternosignata
+              zh: Chrysopaa sternosignata
+        text:
+          en:
+            page: en
+            section: s-4a0551fe85
+            part: body
+          zh:
+            page: zh
+            section: s-b8c77d3eef
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chrysopaa
+          url: https://www.checklistbank.org/dataset/316115/taxon/3PKB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Chrysopaa; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2729354294
+        part: body
+      zh:
+        page: zh
+        section: s-50663181ce
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Chrysopaa
+      sourceRowIds:
+        - Anf1632
+      foragingCounts:
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false

@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Leiopelma acricarina
+    rank: species
+    sourceTaxonId: txn:287444
+    name:
+      en: Leiopelma acricarina
+      zh: Leiopelma acricarina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-d71ba44c0d
+            part: body
+          zh:
+            page: zh
+            section: s-f543166b0b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-d584e986e7
+            part: body
+          zh:
+            page: zh
+            section: s-c9b617a140
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Leiopelma acricarina
+          zh: Leiopelma acricarina 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-ad2fd955a6
+            part: body
+          zh:
+            page: zh
+            section: s-f056a0fcc0
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:287444; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "T. H. Worthy, A. J. D. Tennyson, and R. B. Scofield, S. J. Hand. 2013. Early Miocene fossil frogs (Anura: Leiopelmatidae) from New Zealand. Journal of the Royal Society of New Zealand 43(4):211-230"
+    occurrenceEvidence:
+      - occurrenceId: occ:1192636
+        collectionId: col:73690
+        acceptedTaxonId: txn:287444
+        identifiedName: Leiopelma acricarina n. sp.
+        taxonomicDifference: null
+        referenceId: ref:49851
+        bibliography: "T. H. Worthy, A. J. D. Tennyson, and R. B. Scofield, S. J. Hand. 2013. Early Miocene fossil frogs (Anura: Leiopelmatidae) from New Zealand. Journal of the Royal Society of New Zealand 43(4):211-230"
+        locality:
+          countryCode: NZ
+          stateProvince: South Island
+          county: Otago
+        stratigraphy:
+          group: Manuherikia
+          formation: Bannockburn
+          member: null
+        olderAgeMa: 18.7
+        youngerAgeMa: 15.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Leiopelma acricarina
+          zh: Leiopelma acricarina 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-ad2fd955a6
+            part: body
+          zh:
+            page: zh
+            section: s-f056a0fcc0
+            part: body
+        sourceIds: []

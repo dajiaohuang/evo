@@ -1,0 +1,792 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis percultus (Lynch, 1979)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis percultus
+      zh: Pristimantis percultus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-994446aa1e
+            part: title
+          zh:
+            page: zh
+            section: s-41222d2a6b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-994446aa1e
+            part: body
+          zh:
+            page: zh
+            section: s-41222d2a6b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bcb7823c53
+            part: title
+          zh:
+            page: zh
+            section: s-2597ce29fb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bcb7823c53
+            part: body
+          zh:
+            page: zh
+            section: s-2597ce29fb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-30288e0f89
+            part: title
+          zh:
+            page: zh
+            section: s-bfd99adb01
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-30288e0f89
+            part: body
+          zh:
+            page: zh
+            section: s-bfd99adb01
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-5b682863ed
+            part: title
+          zh:
+            page: zh
+            section: s-f955d776d9
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-5b682863ed
+            part: body
+          zh:
+            page: zh
+            section: s-f955d776d9
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-551cf5a15e
+            part: title
+          zh:
+            page: zh
+            section: s-7a1de9afcb
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-551cf5a15e
+            part: body
+          zh:
+            page: zh
+            section: s-7a1de9afcb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-77ef8082e4
+            part: title
+          zh:
+            page: zh
+            section: s-15d1f6bcbd
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-77ef8082e4
+            part: body
+          zh:
+            page: zh
+            section: s-15d1f6bcbd
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-c6b29a78af93c840dee629952410cef1
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-6d0526632197dfe2f91ec7dc
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-937ab4a3f2
+            part: title
+          zh:
+            page: zh
+            section: s-49b8dc6f4e
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-937ab4a3f2
+            part: body
+          zh:
+            page: zh
+            section: s-49b8dc6f4e
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d4c4a609d7
+            part: title
+          zh:
+            page: zh
+            section: s-983da33e12
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-d4c4a609d7
+            part: body
+          zh:
+            page: zh
+            section: s-983da33e12
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-967f53afa4
+            part: title
+          zh:
+            page: zh
+            section: s-956d67c57c
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-967f53afa4
+            part: body
+          zh:
+            page: zh
+            section: s-956d67c57c
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-7c6273c267
+            part: title
+          zh:
+            page: zh
+            section: s-14d3f9de7e
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-7c6273c267
+            part: body
+          zh:
+            page: zh
+            section: s-14d3f9de7e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-236c7505f2
+            part: title
+          zh:
+            page: zh
+            section: s-1b285af519
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-236c7505f2
+            part: body
+          zh:
+            page: zh
+            section: s-1b285af519
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-97a8374c8e
+            part: title
+          zh:
+            page: zh
+            section: s-b4e04fc8fe
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-97a8374c8e
+            part: body
+          zh:
+            page: zh
+            section: s-b4e04fc8fe
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-ce78058ff4
+            part: title
+          zh:
+            page: zh
+            section: s-941149e7a3
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-ce78058ff4
+            part: body
+          zh:
+            page: zh
+            section: s-941149e7a3
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8b92b7d237
+            part: title
+          zh:
+            page: zh
+            section: s-576cfa0013
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-8b92b7d237
+            part: body
+          zh:
+            page: zh
+            section: s-576cfa0013
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-514a7061a6
+            part: title
+          zh:
+            page: zh
+            section: s-0fa3f38ccb
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-514a7061a6
+            part: body
+          zh:
+            page: zh
+            section: s-0fa3f38ccb
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-63d825be9f
+            part: title
+          zh:
+            page: zh
+            section: s-6cc49116de
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-63d825be9f
+            part: body
+          zh:
+            page: zh
+            section: s-6cc49116de
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-8ebfda3534
+            part: title
+          zh:
+            page: zh
+            section: s-13f9abb8cf
+            part: title
+        sourceIds:
+          - primary-pmc7482940-4mjl3
+        text:
+          en:
+            page: en
+            section: s-8ebfda3534
+            part: body
+          zh:
+            page: zh
+            section: s-13f9abb8cf
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis percultus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MJL3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5786; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5789 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4720, 4721; Reference.csv rows 1908
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc7482940-4mjl3
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis percultus: Maintext/Methods/focaltreatments/Discussion/Tables1–3 andS1/S2/Appendix/S4/S5 read; allS3tiplabels andeightselected comparisons (34pairs) read with exactcells; remainingmatrix values/originalaudio/GenBankrecords/alignments/museumvouchers/figurepixels unauthenticated; nofullarticlecertification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-dc0da2b6e0
+        part: body
+      zh:
+        page: zh
+        section: s-9f89f4eca6
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-c6b29a78af93c840dee629952410cef1
+      sourceRowId: Anf5786
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5786
+        bibliographyRowId: Anf5789
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Pristimantis penelopus
+        candidateBibliographyRowIds:
+          - Anf5789
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0238306
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        sourceKey: primary-pmc7482940-4mjl3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/article.xml
+        sourceConcept: 2020 Pristimantis percultus revision; historical specimen records, new encounters and provisional population identities retained separately
+        evidenceRead: "Pristimantis percultus: Maintext/Methods/focaltreatments/Discussion/Tables1–3 andS1/S2/Appendix/S4/S5 read; allS3tiplabels andeightselected comparisons (34pairs) read with exactcells; remainingmatrix values/originalaudio/GenBankrecords/alignments/museumvouchers/figurepixels unauthenticated; nofullarticlecertification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Two historical types and later Cajanuma encounters
+              zh: 两件历史模式与较后Cajanuma遇见
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 XMLsec015 Pristimantis percultus named treatment
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-04df97be25
+                part: body
+              zh:
+                page: zh
+                section: s-538ea5fde7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Pustulate skin and historical measurements
+              zh: 疱疣状皮肤与历史测量
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 XMLsec015 Pristimantis percultus named treatment;Table3 and footnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9ecbd3a141
+                part: body
+              zh:
+                page: zh
+                section: s-f409f2616c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: A local encounter history with low detection
+              zh: 低检出率下的当地遇见历史
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 XMLsec015 Pristimantis percultus named treatment
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-22f1f779ff
+                part: body
+              zh:
+                page: zh
+                section: s-90b155c6da
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Subgroup relationships remain internally unresolved
+              zh: 亚组关系内部仍未解决
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 XMLsec015 Pristimantis percultus named treatment;sec013 phylogenetic support
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fbbed801d8
+                part: body
+              zh:
+                page: zh
+                section: s-e4900951e7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: ecology
+            heading:
+              en: Unknown advertisement call and2020 risk interpretation
+              zh: 未知求偶鸣声与2020年风险解释
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 XMLsec015 Pristimantis percultus named treatment
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-061eaefa3e
+                part: body
+              zh:
+                page: zh
+                section: s-5e2b709136
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: methods
+            heading:
+              en: Keep original datasets outside the present reading claim
+              zh: 原数据不纳入本次核读声明
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 XMLsec004–008;Tables1–3 footnotes;sec019; supporting-file captions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7531bbfc22
+                part: body
+              zh:
+                page: zh
+                section: s-c86c96d7c6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 6
+            topic: range
+            heading:
+              en: The supplementary inventory retains its2020 scope
+              zh: 补充名录保留2020年范围
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 supplementaryS5 pone.0238306.s006.xlsx sheet Abra de Zamora species B20:F20;sha256:c64b782eab38c2f0dc00773213d31df57d5e0f8c9c2c0c1697b6064ab4a82da4;main treatmentPristimantis percultus
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-61924e77e1
+                part: body
+              zh:
+                page: zh
+                section: s-3bff82f46e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 7
+            topic: taxonomy
+            heading:
+              en: Reported sequence donors and their catalogue linkage
+              zh: 报告序列供体与目录链接
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 supplementaryS2 pone.0238306.s003.docx table1 rows72,73 species/voucher;sha256:044b1c360d22c2e7b01e3f8afcbfd544d9f525cc35326f73800331b54dd4717b
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d7e3f9ad57
+                part: body
+              zh:
+                page: zh
+                section: s-87b9077437
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 8
+            topic: evolution
+            heading:
+              en: The three-locus matrix does not give every donor three genes
+              zh: 三基因矩阵不使每供体均有三基因
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 supplementaryS2 table1 rows72,73 locus/accession columns3–5;Methodssec006–007;S1primer table
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d2c81d2c1e
+                part: body
+              zh:
+                page: zh
+                section: s-71cc7a2bb4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 9
+            topic: range
+            heading:
+              en: Collection labels are sequence provenance, not a new range census
+              zh: 采集标签是序列来源而非新分布普查
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 supplementaryS2 table1 rows72,73 localitycolumn6;S5localinventory comparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9cf4197ff5
+                part: body
+              zh:
+                page: zh
+                section: s-0f85b27806
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 10
+            topic: evolution
+            heading:
+              en: Selected16S distances with exact donor and cell scope
+              zh: 保留精确供体与单元格范围的选定16S距离
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-4mjl3
+            locator: PMC7482940 supplementaryS3 pone.0238306.s004.xlsx sheetHuicundomantis cellsT21,T22,U21,U22;donorlabels in columnB;sha256:34eeeefdba5876eca4081ed4f42a916717b72949241a44b8d6aa668dcf3d9824
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ad23c03a8e
+                part: body
+              zh:
+                page: zh
+                section: s-1990059465
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

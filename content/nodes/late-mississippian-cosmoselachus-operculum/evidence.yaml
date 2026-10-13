@@ -1,0 +1,94 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-d245deaaf1
+      part: title
+    titleZh:
+      page: zh
+      section: s-50d71f9058
+      part: title
+    category: innovation
+    startAge: 326
+    endAge: 326
+    regions:
+      - Fayetteville Shale near Cove Creek, Searcy County, Arkansas, United States
+    clades:
+      - Cosmoselachus mehlingi
+      - Falcatidae
+      - Symmoriiformes
+    summary:
+      page: en
+      section: s-d245deaaf1
+      part: body
+    summaryZh:
+      page: zh
+      section: s-50d71f9058
+      part: body
+    claimIds:
+      - claim:event:late-mississippian-cosmoselachus-operculum
+    evidenceItems:
+      - statement: AMNH FF 20509 preserves lower jaws with teeth, a partial upper jaw and basicranium, branchial elements, pectoral cartilage and fin material from the Fayetteville Shale.
+        relation: supports
+        claimIds:
+          - claim:event:late-mississippian-cosmoselachus-operculum
+        referenceLinks:
+          - relation: supports
+            referenceId: bronson-2024-cosmoselachus
+            pages: 101–106
+            figure: Figures 1–4
+            quoteLocator: Abstract; Material; Systematic palaeontology; specimen description
+      - statement: The study identifies elongate rays extending from the hyoid and branchial arches and fused into an operculum covering at least two posterior branchial arches.
+        relation: supports
+        claimIds:
+          - claim:event:late-mississippian-cosmoselachus-operculum
+        referenceLinks:
+          - relation: supports
+            referenceId: bronson-2024-cosmoselachus
+            pages: 107–113
+            figure: Figures 5–7
+            quoteLocator: CT reconstruction; branchial anatomy; phylogenetic analysis
+    uncertaintyItems:
+      - statement: The holotype is partial and has experienced damage and pyrite decay; body size, complete locomotion and population variation are unavailable.
+        relation: contextualizes
+        claimIds:
+          - claim:event:late-mississippian-cosmoselachus-operculum
+        referenceLinks:
+          - relation: supports
+            referenceId: bronson-2024-cosmoselachus
+            pages: 101–106
+            figure: Figures 1–4
+            quoteLocator: Material; specimen condition; preservation limits
+      - statement: The phylogenetic placement is a sampled analysis and the event is not a global symmoriiform or Chondrichthyes endpoint, direct ancestor or complete species range.
+        relation: contextualizes
+        claimIds:
+          - claim:event:late-mississippian-cosmoselachus-operculum
+        referenceLinks:
+          - relation: supports
+            referenceId: bronson-2024-cosmoselachus
+            pages: 113–117
+            figure: Figure 8
+            quoteLocator: Phylogenetic analysis; Discussion; Conclusions
+  claims:
+    - subjectId: event:late-mississippian-cosmoselachus-operculum
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: The partial holotype AMNH FF 20509 of Cosmoselachus mehlingi from the Late Mississippian Fayetteville Shale preserves elongate rays from the hyoid and branchial arches fused into a corrugated operculum covering at least two posterior branchial arches.
+      confidence: medium
+      confidenceRationale: The primary description and CT reconstruction directly document the accessioned partial specimen and operculate anatomy, while its damage and incomplete body limit broader functional inference.
+      referenceLinks:
+        - relation: supports
+          referenceId: bronson-2024-cosmoselachus
+          pages: 101–106
+          figure: Figures 1–4
+          quoteLocator: Abstract; Material; Systematic palaeontology; specimen description
+        - relation: supports
+          referenceId: bronson-2024-cosmoselachus
+          pages: 107–113
+          figure: Figures 5–7
+          quoteLocator: CT reconstruction; branchial anatomy; phylogenetic analysis
+  claim-rationales.zh:
+    - 一手描述和 CT 复原直接记录了具编号的部分标本与鳃盖解剖，但其受损和身体不完整限制了更广泛的功能推断。
+  claim-statements.zh:
+    - 晚密西西比世 Fayetteville 页岩的 Cosmoselachus mehlingi 部分正模 AMNH FF 20509 保存来自舌弓和鳃弓、融合成波纹状鳃盖并覆盖至少两个后部鳃弓的长辐条。

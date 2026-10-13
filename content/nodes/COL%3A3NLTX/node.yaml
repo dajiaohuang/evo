@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius lichenatus
+  displayName: Hynobius lichenatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NLTX
+  sourceIndexes:
+    - name:
+        en: Hynobius lichenatus
+        zh: Hynobius lichenatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NLTX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/175
+            queryName: Hynobius lichenatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 29
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/494
+            queryName: Hynobius echigoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/495
+            queryName: Hynobius unnangso
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/496
+            queryName: Hynobius unnaugso
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/497
+            queryName: Hynobius longimanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-94a98299db
+      - s-b325acf4dc
+      - s-6adee1d080
+      - s-21bf1e936e
+      - s-8ea77db141
+      - s-9d2cee881b
+      - s-cf529faeac
+      - s-acc113cb08
+    zh:
+      - s-8bbbd02339
+      - s-1e2f078aba
+      - s-5a925fa059
+      - s-4664151956
+      - s-0a4e29d302
+      - s-da7c61fc1d
+      - s-8cda2bf9dd
+      - s-5fdf9f7613

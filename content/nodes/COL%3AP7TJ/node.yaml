@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia tentaculata
+  displayName: Caecilia tentaculata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7TJ
+  sourceIndexes:
+    - name:
+        en: Caecilia tentaculata
+        zh: Caecilia tentaculata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7TJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/87
+            queryName: Caecilia tentaculata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/388
+            queryName: Caecilia pressula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/367
+            queryName: Caecilia ibiara
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/368
+            queryName: Caecilia lenticulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/369
+            queryName: Amphiumophis andicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7775fbe05b
+      - s-692138808f
+      - s-30f51763b6
+      - s-d14b899053
+      - s-ea93fb56db
+      - s-8cf07df11e
+      - s-54d809b880
+      - s-a5f0d087fe
+      - s-afa4c03785
+      - s-e462cfd2f0
+      - s-81e452397e
+      - s-1bf72946a5
+      - s-5be6ec6257
+      - s-2de8479b49
+      - s-c307afd078
+      - s-f38d2d1ad7
+      - s-f325484657
+      - s-85d701f4ed
+      - s-2ea21a1929
+    zh:
+      - s-32244c9387
+      - s-3c0ca81df7
+      - s-cf75229815
+      - s-e40bd556a8
+      - s-14a6618b9d
+      - s-01a25b955f
+      - s-1beb1d3da2
+      - s-f385dac6b4
+      - s-cc2825a7d4
+      - s-fb4242ef66
+      - s-e748f526f2
+      - s-f0f77b0e38
+      - s-4ca2914ede
+      - s-113de7863b
+      - s-c4227b6ffc
+      - s-06d248d85c
+      - s-9ca84e1bbb
+      - s-a48084d4b6
+      - s-f72f747485

@@ -1,0 +1,144 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cynops ensicauda
+  displayName: Cynops ensicauda
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6C7WR
+  sourceIndexes:
+    - name:
+        en: Cynops ensicauda
+        zh: Cynops ensicauda
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6C7WR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/308
+            queryName: Cynops ensicauda
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 60
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/358
+            queryName: Triton ensicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/359
+            queryName: Diemictylus ensicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/360
+            queryName: Triturus ensicaudus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/361
+            queryName: Triturus ensicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/220
+            queryName: Molge pyrrhogaster ensicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/221
+            queryName: Molge pyrrhogastra ensicaudatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/222
+            queryName: Triturus ensicaudus popei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/223
+            queryName: Triturus ensicaudus ensicaudus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/224
+            queryName: Triturus pyrrhogaster ensicaudus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/225
+            queryName: Cynops pyrrhogaster popei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/226
+            queryName: Cynops ensicauda ensicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/227
+            queryName: Cynops ensicauda popei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6d7242f39
+      - s-5e272ea710
+      - s-8511c63c8f
+      - s-9e66ccf968
+      - s-8e090ec8f3
+      - s-4fef7fc538
+      - s-c8debe80ab
+      - s-683339abdb
+      - s-3a6eb9b173
+      - s-0c1ed67de8
+      - s-e1f59b2c20
+      - s-fbd8748eae
+      - s-605aada52a
+      - s-470d3af1d1
+      - s-2cb637636c
+      - s-bc1fa204d7
+    zh:
+      - s-3345a89ff4
+      - s-4b059ccd74
+      - s-c07e899173
+      - s-355b9b8201
+      - s-a11f962062
+      - s-7ef06e48b2
+      - s-e9049aede7
+      - s-6a42eb5439
+      - s-eb4892e88a
+      - s-93cfd65811
+      - s-f82a71d3a8
+      - s-31af6c2044
+      - s-0ea19fb7de
+      - s-593a82acd4
+      - s-75f8dcb04e
+      - s-19fda7542f

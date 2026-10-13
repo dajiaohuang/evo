@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon belloni
+  displayName: Ololygon belloni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/498ZY
+  sourceIndexes:
+    - name:
+        en: Ololygon belloni
+        zh: Ololygon belloni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 498ZY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/107
+            queryName: Ololygon belloni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/496
+            queryName: Scinax belloni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8bf194e020
+      - s-fbb9dec581
+      - s-84e64d2bd4
+      - s-df61262d65
+      - s-d38bbc6dc1
+      - s-aa55c1370e
+      - s-084c8b73f1
+      - s-be91432cde
+      - s-e1e7c22777
+      - s-768402617f
+      - s-41a0678919
+      - s-605bd6ae12
+      - s-d1f134053e
+    zh:
+      - s-ba0a270189
+      - s-c05ea31303
+      - s-500e3a849c
+      - s-193a86b651
+      - s-34bcd5e8a6
+      - s-6283494522
+      - s-ac4d690018
+      - s-96e692eeba
+      - s-7e325e5969
+      - s-d8adb22d34
+      - s-76007ddedf
+      - s-ba0d7bd5a3
+      - s-b2593f7df4

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema venancioi
+  displayName: Ischnocnema venancioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4SP
+  sourceIndexes:
+    - name:
+        en: Ischnocnema venancioi
+        zh: Ischnocnema venancioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4SP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/43
+            queryName: Ischnocnema venancioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/212
+            queryName: Eleutherodactylus venancioi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-94c645115a
+      - s-1e4cb3cff1
+      - s-82ebba8356
+      - s-bb3189beae
+      - s-bc886bac9a
+      - s-079d42a715
+      - s-46f5d31655
+      - s-d9602a8f05
+    zh:
+      - s-bc8cb90e00
+      - s-2cb7a70f34
+      - s-7294216be5
+      - s-9d109b3465
+      - s-d3583c73a1
+      - s-2e01a03117
+      - s-a5c5f1ea50
+      - s-cca2f99ee4

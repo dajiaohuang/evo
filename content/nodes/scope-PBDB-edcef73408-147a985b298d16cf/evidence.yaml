@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:41366
+    scientificName: Mimolagus aurorae
+    commonName: Middle Eocene mimotonid
+    commonNameZh: 中始新世拟兔科动物
+    rank: genus
+    parentName: Glires
+    extinct: true
+    geography:
+      - Lower Irdin Manha Formation
+      - Erlian Basin, Nei Mongol
+      - China
+    overview:
+      page: en
+      section: s-2e9e569df6
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-8ec9440501
+        part: body
+      habitat:
+        page: en
+        section: s-3ed96c370e
+        part: body
+      locomotion:
+        page: en
+        section: s-45302d86e7
+        part: body
+      bodySize:
+        page: en
+        section: s-ba35e72d15
+        part: body
+      guild:
+        page: en
+        section: s-10b2531964
+        part: body
+    traits:
+      - page: en
+        section: s-f4315b8fb4
+        part: body
+      - page: en
+        section: s-cffe6cd204
+        part: body
+      - page: en
+        section: s-391d19b09e
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-5b714ed83d
+      part: body
+    confidence: medium
+    referenceIds:
+      - fostowicz-frelik-2015-mimolagus
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-2e9e569df6
+            part: title
+          zh:
+            page: zh
+            section: s-5900c61a78
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2e9e569df6
+            part: body
+          zh:
+            page: zh
+            section: s-5900c61a78
+            part: body
+        sourceIds:
+          - fostowicz-frelik-2015-mimolagus
+      - id: body-observations
+        title:
+          en:
+            page: en
+            section: s-bec441c4ef
+            part: title
+          zh:
+            page: zh
+            section: s-6a8e192b3b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bec441c4ef
+            part: body
+          zh:
+            page: zh
+            section: s-6a8e192b3b
+            part: body
+        sourceIds:
+          - fostowicz-frelik-2015-mimolagus
+      - id: ecology-context
+        title:
+          en:
+            page: en
+            section: s-2a4627056b
+            part: title
+          zh:
+            page: zh
+            section: s-fe35eff830
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2a4627056b
+            part: body
+          zh:
+            page: zh
+            section: s-fe35eff830
+            part: body
+        sourceIds:
+          - fostowicz-frelik-2015-mimolagus
+      - id: interpretation-boundary
+        title:
+          en:
+            page: en
+            section: s-5b714ed83d
+            part: title
+          zh:
+            page: zh
+            section: s-68e7cfaffc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5b714ed83d
+            part: body
+          zh:
+            page: zh
+            section: s-68e7cfaffc
+            part: body
+        sourceIds:
+          - fostowicz-frelik-2015-mimolagus
+    readerSources:
+      - id: fostowicz-frelik-2015-mimolagus
+        referenceId: fostowicz-frelik-2015-mimolagus
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The description covers IVPP V20115 and referred teeth and tarsals; body mass and ecological role are comparative inferences.
+            zh: 研究描述 IVPP V20115 及归入的牙齿和跗骨；体重与生态角色是比较推断。
+  claims:
+    - subjectId: taxon:mimolagus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Mimolagus aurorae is bounded by holotype right M3 IVPP V20115 and referred teeth and tarsals from the lower Irdin Manha Formation within an approximately 47.8–41.2 Ma interval; this does not establish a global genus range or direct glires ancestry.
+      confidence: medium
+      confidenceRationale: Named material and formation assignment are direct; body mass, ecomorphology and higher placement are comparative.
+      referenceLinks:
+        - relation: supports
+          referenceId: fostowicz-frelik-2015-mimolagus
+          pages: Article 9394
+          figure: Figures 1–6
+          quoteLocator: Type locality and age; holotype and referred specimens
+    - subjectId: taxon:mimolagus
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Right M3 IVPP V20115 and referred material are assigned to Mimolagus aurorae in the published comparison; mimotonid and lagomorph affinities are matrix- and character-dependent, not direct ancestry.
+      confidence: medium
+      confidenceRationale: The type material and species assignment are directly described, while the higher relationship is a comparative phylogenetic interpretation.
+      referenceLinks:
+        - referenceId: fostowicz-frelik-2015-mimolagus
+          relation: supports
+          pages: Article 9394, pp. 1–9
+          figure: Figures 2–6
+          quoteLocator: Systematic palaeontology; IVPP V20115 holotype right M3; phylogenetic and comparative discussion
+    - subjectId: taxon:mimolagus
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profile is restricted to the lower Irdin Manha Formation sample in the Erlian Basin, Nei Mongol, China; this does not establish the complete distribution or origin centre of Mimolagus or Glires.
+      confidence: medium
+      confidenceRationale: The formation, basin and mapped locality context are direct for the source sample, whereas broader distribution and origin are not observed.
+      referenceLinks:
+        - referenceId: fostowicz-frelik-2015-mimolagus
+          relation: supports
+          pages: Article 9394, pp. 1–9
+          figure: Figure 1
+          quoteLocator: Geography and stratigraphy of Mimolagus findings; lower Irdin Manha Formation, Erlian Basin
+    - subjectId: taxon:mimolagus
+      claimKind: scientific
+      claimType: ecology
+      statement: Dental and tarsal comparisons support herbivory, locomotor and body-mass inferences for the source sample, but direct food use, habitat use and behaviour were not observed.
+      confidence: medium
+      confidenceRationale: The paper labels the body-mass and ecomorphological results as comparisons, so the claim does not promote them into direct ecological observations.
+      referenceLinks:
+        - referenceId: fostowicz-frelik-2015-mimolagus
+          relation: supports
+          pages: Article 9394, pp. 1–9
+          figure: Figures 4–6
+          quoteLocator: Palaeobiology and ecomorphology; estimated 4.5 kg body mass; Supplementary Tables S3–S6
+    - subjectId: taxon:mimolagus
+      claimKind: scientific
+      claimType: morphology
+      statement: Holotype right upper third molar IVPP V20115 and referred teeth and tarsals directly record the dental and postcranial characters used in Mimolagus comparisons.
+      confidence: high
+      confidenceRationale: The statement is restricted to the catalogued material and illustrated morphology; it makes no diagnosis of every individual or a complete body plan.
+      referenceLinks:
+        - referenceId: fostowicz-frelik-2015-mimolagus
+          relation: supports
+          pages: Article 9394, pp. 1–9
+          figure: Figures 2–6
+          quoteLocator: IVPP V20115 holotype right M3; referred teeth and tarsals; morphological description
+  claim-rationales.zh:
+    - 具名材料与地层归属属于直接证据；体重、生态形态与高阶位置来自比较。
+    - 正模右 M3 与归入材料直接支持物种归属；拟兔科及兔形类亲缘仍取决于比较性状和矩阵，而非直接祖先。
+    - 二连盆地 Irdin Manha 组的地层与地图直接限定来源样本；它不代表 Mimolagus 或啮形类的完整分布或起源中心。
+    - 牙齿、跗骨和回归估计支持谨慎的食性、运动和体型推断；食物、栖息地与行为没有被直接观察。
+    - 具名正模右上第三臼齿以及归入的牙齿和跗骨由图版直接记录；主张只适用于这些材料，不外推至完整身体。
+  claim-statements.zh:
+    - 已发表的比较研究将右侧第三臼齿 IVPP V20115 及归入材料归为 Mimolagus aurorae；其与拟兔类和兔形类的亲缘关系取决于矩阵及性状分析，并非直接祖先关系。
+    - 本档案仅限于中国内蒙古二连盆地伊尔丁曼哈组下部的样本，不能确定 Mimolagus 或啮形类的完整分布或起源中心。
+    - 牙齿和跗骨比较支持对来源样本作出植食性、运动方式和体重方面的推断，但并未直接观察其食物利用、生境利用或行为。
+    - 正模右上第三臼齿 IVPP V20115 及归入的牙齿和跗骨，直接记录了 Mimolagus 比较研究所用的牙齿及颅后骨骼性状。
+    - Mimolagus aurorae 由正模右上第三磨牙 IVPP V20115 及下 Irdin Manha 组的归入牙齿与跗骨约束，处于约 4780 万—4120 万年前区间；这不建立全球属级范围或 Glires 直接祖先关系。
+  ranges:
+    - entityId: mimolagus
+      rangeKind: global-composite
+      taxonomicConcept: Mimolagus aurorae type occurrence
+      geographicScope: Lower Irdin Manha Formation, Erlian Basin, China
+      olderMa: 47.8
+      youngerMa: 41.2
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range.
+      evidenceBasis: IVPP V20115 and referred specimens are reported from the early Middle Eocene lower Irdin Manha Formation.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:mimolagus-holotype-glires
+        - claim:taxon:mimolagus:fossil-range
+      referenceLocators:
+        - referenceId: fostowicz-frelik-2015-mimolagus
+          locator: 9394; Figures 1–6; Type locality and age

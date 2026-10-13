@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina parkerorum
+  displayName: Xenorhina parkerorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBF5
+  sourceIndexes:
+    - name:
+        en: Xenorhina parkerorum
+        zh: Xenorhina parkerorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBF5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/354
+            queryName: Xenorhina parkerorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eb33917950
+      - s-51982bd298
+      - s-b2bbdf44e7
+      - s-6a5071ccad
+      - s-3096b5199b
+      - s-3420e5d373
+      - s-14d5ab58d7
+      - s-f8c1aefb55
+      - s-6d163719da
+      - s-6306e86584
+    zh:
+      - s-92946ca01f
+      - s-9dfe67d993
+      - s-77916b7bdd
+      - s-67aa9161e6
+      - s-fc2b0893b5
+      - s-0af69bf50d
+      - s-2288300e6e
+      - s-1c40981558
+      - s-478d28ac01
+      - s-b260c123db

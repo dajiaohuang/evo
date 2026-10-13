@@ -1,0 +1,180 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Triticum aestivum L.
+    authorship: L.
+    rank: species
+    sourceDatasetId: "2232"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: L2L
+        scientificName: Liliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 627VM
+        scientificName: Poales Small
+        authorship: Small
+        rank: order
+        status: accepted
+        sourceDatasetId: null
+      - id: 627FW
+        scientificName: Poaceae
+        authorship: null
+        rank: family
+        status: accepted
+        sourceDatasetId: "2232"
+      - id: 8W4FX
+        scientificName: Triticum L.
+        authorship: L.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2232"
+      - id: 5944Q
+        scientificName: Triticum aestivum L.
+        authorship: L.
+        rank: species
+        status: accepted
+        sourceDatasetId: "2232"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 species usage 5944Q. The biological evidence concerns 11 cultivated genotypes in one rain-fed 2022/23 multi-location trial in South Ethiopia; it does not characterize all cultivars, wild populations, or the species' global productivity.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: No wild populations were studied.
+      domesticated: The study tested cultivated genotypes; it did not investigate the history or full breadth of wheat domestication.
+      captive: Not applicable; this was an agricultural field trial.
+      fossil: Fossil occurrence and geological age were not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/5944Q
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:5944Q@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 5944Q; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 5944Q. https://doi.org/10.48580/dgywk.
+      - id: alemayehu2025wheat
+        referenceId: ref-c85b3ecb-c9f1-80e6-a1f8-82fee78fa6a0
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article copyright notice names © 2025 Alemayehu et al. and links to the Creative Commons Attribution License; the linked license URL resolves to CC BY 4.0.
+          licenseAppliesTo: Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no table or figure is reproduced.
+          stableId: doi:10.1371/journal.pone.0318559
+          locator: Results §3.2 and Table 7; Methods §§2.1–2.2; article copyright notice and linked license.
+          attribution: Alemayehu L, Kebede M, Wada E (2025). AMMI analysis of elite bread wheat (Triticum aestivum L.) selections for genotype by environment interaction and stability of grain yield in Southern Ethiopia. PLoS ONE 20(1):e0318559. https://doi.org/10.1371/journal.pone.0318559. CC BY 4.0. Claim paraphrased.
+          licenseAssessment: item-level-verified
+          scope: One 2022/23 rain-fed field trial of 11 cultivated genotypes at four South Ethiopian districts; the claim is limited to this trial's sites, entries, and season.
+          accessedAt: 2026-09-25
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected yield trial does not assess species-level morphology or diagnostic variation.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The yield trial does not provide a complete life-history account, reproductive biology, or demographic rates.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In a rain-fed multi-location field trial on smallholder fields across four districts in South Ethiopia during the 2022/23 main cropping season, 11 bread-wheat genotypes were tested. G11 had the highest reported mean grain yield (2.83 t/ha), but its yield was not statistically distinguishable from G8, G9, and G10. This result applies to those trial entries, sites, and season; it is not a global yield estimate or a species-wide ranking.
+            textZh: 在 2022/23 年主要种植季于南埃塞俄比亚四个地区的小农田开展的一项雨养多地点田间试验中，研究测试了 11 个面包小麦基因型。G11 报告的平均籽粒产量最高（2.83 吨/公顷），但在籽粒产量比较中与 G8、G9 和 G10 无统计学显著差异。该结果仅适用于这些试验材料、地点和季节；它不是全球产量估计，也不构成物种层面的排名。
+            originalLanguage: en
+            sourceIds:
+              - alemayehu2025wheat
+            locator: Results §3.2, Table 7, mean grain yield across the four locations; Methods §§2.1–2.2 describe the 2022/23 rain-fed trial and 11 genotypes.
+            placeTimeScope: Humbo, Sodo Zuria, Boloso Sore, and Damot Gale districts, South Ethiopia; rain-fed main cropping season 2022/23.
+            lifeStatus: Cultivated bread-wheat genotypes grown in rain-fed field plots on smallholder farms; the trial did not study wild populations.
+        gaps:
+          - One season, four districts, and 11 trial genotypes do not establish yield across the species' global range, all cultivars, years, or production systems.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The trial does not analyze phylogeny or the species' evolutionary history.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Four trial districts are not a complete geographic range assessment.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study does not assess fossil occurrences or geological age.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The trial does not establish wild population trends, threats, or a conservation assessment.

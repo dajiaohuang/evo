@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Siren intermedia
+  displayName: Siren intermedia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4XR2J
+  sourceIndexes:
+    - name:
+        en: Siren intermedia
+        zh: Siren intermedia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4XR2J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/199
+            queryName: Siren intermedia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 53
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/83
+            queryName: Siren intermedia intermedia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8d6dfc55e2
+      - s-0615e86bc2
+      - s-b865febd0d
+      - s-69fca13bf6
+      - s-cc91b68a35
+      - s-b1d9b3506b
+      - s-ad3dcdaf0a
+      - s-88227b6f0d
+      - s-005d615f60
+      - s-68e94a3456
+      - s-d466ae9585
+      - s-4b7078e91f
+      - s-476d355f86
+      - s-92c0c25292
+      - s-51f3263fb3
+      - s-b1d6f983c8
+      - s-4e86313177
+      - s-0fcfd94dfe
+    zh:
+      - s-f98bd42072
+      - s-c417eed00c
+      - s-174cddb7e7
+      - s-b9d4d15792
+      - s-ecb7c134c1
+      - s-83ba7ca805
+      - s-c7c99afe09
+      - s-e28b17831f
+      - s-25cd4c7799
+      - s-4a06d6f3fa
+      - s-571bacc69d
+      - s-5a0eae8ce9
+      - s-72ec71c682
+      - s-566bf46ecb
+      - s-2975447024
+      - s-6bc04ce8dc
+      - s-ba608ad6a0
+      - s-a620d35769

@@ -1,0 +1,71 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Atrax O. Pickard-Cambridge, 1877
+    rank: genus
+    sourceDatasetId: "56185"
+    name:
+      zh: 澳洲漏斗网蛛属
+      en: Atrax funnel-web spiders
+    sections:
+      - topic: taxonomy_story
+        text:
+          zh:
+            page: zh
+            section: s-6d30819bda
+            part: body
+          en:
+            page: en
+            section: s-6db22c480e
+            part: body
+        sourceIds:
+          - study
+          - museum
+    sources:
+      - id: study
+        referenceId: ref-63da2930-14cc-8a7d-abdd-ed407dad92c5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 2025 年研究以形态和分子数据重新分析悉尼地区漏斗网蛛复合群；仅支持该研究采样、方法及其三种界定，不外推至全属或全球漏斗网蛛。
+            en: The 2025 study reassessed the Sydney-region funnel-web complex using morphology and molecular data; it supports only the sampled group, methods and three species delimitations, not the whole genus or all funnel-web spiders worldwide.
+      - id: museum
+        referenceId: ref-89dc483d-f269-8a73-ade9-40f7f73fb497
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 研究团队新闻说明；仅用于说明馆藏比较和研究背景，物种界定以关联的 2025 年研究为依据。
+            en: Research-team news release; used only for collection-comparison context, with species delimitation grounded in the linked 2025 paper.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 56185
+          url: https://www.checklistbank.org/dataset/316115/taxon/CTQWJ
+          scope:
+            zh: 固定版本中的属名、作者、等级与父子关系；不决定研究中提出的系统树或物种概念。
+            en: Pinned genus name, authorship, rank and parent link; it does not decide the study’s phylogeny or species concepts.
+    limitations:
+      zh:
+        page: zh
+        section: s-7c022e0ffb
+        part: body
+      en:
+        page: en
+        section: s-2b4c168e5b
+        part: body

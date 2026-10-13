@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis petrobardus
+  displayName: Pristimantis petrobardus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJL8
+  sourceIndexes:
+    - name:
+        en: Pristimantis petrobardus
+        zh: Pristimantis petrobardus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJL8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/492
+            queryName: Pristimantis petrobardus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/490
+            queryName: Eleutherodactylus petrobardus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/85
+            queryName: Pristimantis vermiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/386
+            queryName: Eleutherodactylus vermiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cde7907d3e
+      - s-cb7dc07fdb
+      - s-ca80ca389e
+      - s-d6809897c3
+      - s-42e969a060
+      - s-a59949a490
+      - s-07ff8ca5c2
+      - s-4e2c5a66cf
+      - s-ba0e8f424a
+    zh:
+      - s-f62b1199e6
+      - s-24878662b4
+      - s-7d3661ebe6
+      - s-48cadf76c2
+      - s-56eb95e112
+      - s-21f1ca85f8
+      - s-efdb7916f2
+      - s-3112c0b16e
+      - s-b51e3b8af5

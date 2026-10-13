@@ -1,0 +1,134 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Natovenator
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Natovenator
+      en: Natovenator
+    sections:
+      - topic: readingPath
+        sourceIds:
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-89f038bd9f
+            part: body
+          en:
+            page: en
+            section: s-5e0580f019
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-db2a77df14
+            part: body
+          en:
+            page: en
+            section: s-ca2d320062
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5f48f9e33e
+            part: body
+          en:
+            page: en
+            section: s-d239d8f168
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Natovenator
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=468707
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:468707
+          readingTargets:
+            - name: Natovenator polydontus
+              pbdbTaxonId: txn:468708
+              canonicalPath: content/nodes/PBDB%3A468708
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: lee2022Natovenator
+        referenceId: ref-61b73848-c367-4856-8e89-8862c823759c
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: A non-avian dinosaur with a streamlined body exhibits potential adaptations for swimming
+          url: https://www.nature.com/articles/s42003-022-04119-9
+          locator: Holotype; Locality and horizon; Diagnosis; Description; Phylogenetic analysis; Discussion; Methods; Figures 1–5 and Tables 1–2.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2022 年 MPC-D 102/114 原始描述与作者的形态、半水生及亲缘解释；非实测水动力、直接食物记录或全部后续研究综述。
+            en: The 2022 description of MPC-D 102/114 and the authors’ anatomical, semiaquatic and phylogenetic interpretations; not measured hydrodynamics, direct food records or a complete later review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0e1158abd0
+        part: body
+      en:
+        page: en
+        section: s-62bd1ff3a0
+        part: body

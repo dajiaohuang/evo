@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ornithomimidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Ornithomimidae
+      en: Ornithomimidae
+    sections:
+      - topic: bonebedOverview
+        sourceIds:
+          - varricchio2008SinornithomimusHerd
+        text:
+          zh:
+            page: zh
+            section: s-e10efff964
+            part: body
+          en:
+            page: en
+            section: s-8a05e2a05f
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - varricchio2008SinornithomimusHerd
+        text:
+          zh:
+            page: zh
+            section: s-864bc6bea2
+            part: body
+          en:
+            page: en
+            section: s-52c351c139
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0f32195b78
+            part: body
+          en:
+            page: en
+            section: s-98c3555378
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9d098ad3ee
+            part: body
+          en:
+            page: en
+            section: s-be26ad8a05
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Ornithomimidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38539
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38539
+          readingTargets:
+            - name: Qiupalong henanensis
+              pbdbTaxonId: txn:176038
+              canonicalPath: content/nodes/PBDB%3A176038
+            - name: Aepyornithomimus tugrikinensis
+              pbdbTaxonId: txn:370066
+              canonicalPath: content/nodes/PBDB%3A370066
+            - name: Gallimimus bullatus
+              pbdbTaxonId: txn:57265
+              canonicalPath: content/nodes/PBDB%3A57265
+            - name: Mexidracon longimanus
+              pbdbTaxonId: txn:520792
+              canonicalPath: content/nodes/PBDB%3A520792
+            - name: Struthiomimus altus
+              pbdbTaxonId: txn:57268
+              canonicalPath: content/nodes/PBDB%3A57268
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: varricchio2008SinornithomimusHerd
+        referenceId: ref-01d91007-37d8-4dbe-8fe7-bcd528a193f5
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - publicationMonth
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Mud-Trapped Herd Captures Evidence of Distinctive Dinosaur Sociality
+          url: https://www.app.pan.pl/archive/published/app53/APP53-567.pdf
+          accessedAt: 2026-10-03
+          locator: Scientific main text pp. 567–576; Tables 1–2 and Figures 1–5 captions. Visually inspected p. 570 Table 1, p. 571 Figure 3 and p. 573 Figure 4. Bibliographic metadata in publisher PDF and Crossref.
+          scope:
+            zh: 苏宏图中国似鸟龙骨床的限定埋藏学、三只组织学个体与社会行为解释；类群为阅读比较入口。
+            en: Bounded Suhongtu Sinornithomimus taphonomy, three histological individuals and social interpretations; group pages provide reading comparisons.
+    limitations:
+      zh:
+        page: zh
+        section: s-2b762cb9f5
+        part: body
+      en:
+        page: en
+        section: s-a924340211
+        part: body

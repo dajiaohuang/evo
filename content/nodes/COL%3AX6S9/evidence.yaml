@@ -1,0 +1,603 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Colobus vellerosus (I. Geoffroy Saint-Hilaire, 1834)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 白腿疣猴
+      en: White-thighed colobus
+    sections:
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-9444bc062c
+            part: body
+          en:
+            page: en
+            section: s-a4f603193b
+            part: body
+        sourceIds:
+          - wiafe2023colobus
+      - topic: conservation
+        text:
+          zh:
+            page: zh
+            section: s-bdfe3faf66
+            part: body
+          en:
+            page: en
+            section: s-f2d467e226
+            part: body
+        sourceIds:
+          - wiafe2023colobus
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-ce7db0b797
+            part: body
+          en:
+            page: en
+            section: s-b3e51fda91
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-b0f2a135d2
+            part: body
+          en:
+            page: en
+            section: s-01dec4d880
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-58a1937c53
+            part: body
+          en:
+            page: en
+            section: s-a7dd11dd54
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-bd9b6cbfe7
+            part: body
+          en:
+            page: en
+            section: s-484f84da1d
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-eff12f0b42
+            part: body
+          en:
+            page: en
+            section: s-9efd5c2e04
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-c31a74780f
+            part: body
+          en:
+            page: en
+            section: s-322e12e574
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-73d9f16346
+            part: body
+          en:
+            page: en
+            section: s-ba7578632b
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-48af33fae1
+            part: body
+          en:
+            page: en
+            section: s-e30c2b779e
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-2679585d03
+            part: body
+          en:
+            page: en
+            section: s-dc25333f96
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d24c853927
+            part: body
+          en:
+            page: en
+            section: s-d7bf0d33bc
+            part: body
+    sources:
+      - id: wiafe2023colobus
+        referenceId: ref-4d8182b4-53f2-819d-a5c2-63b1eb55fc9c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 加纳 Boabeng-Fiema 猴类保护区的地面调查与土地覆被研究；种群清点及 2007–2019 比较限于该地和文中调查方法。
+            en: Ground survey and land-cover study at Boabeng-Fiema Monkey Sanctuary, Ghana; counts and the 2007–2019 comparison are limited to that site and the reported methods.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/X6S9
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12133; name Colobus vellerosus; reference table row 12133; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000 from median of 17(Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            female_maturity_d: de Magalhaes and Costa, 2009 from median of 3(Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            litter_or_clutch_size_n: mean of de Magalhaes and Costa, 2009 & Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 6(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            gestation_d: Ernest et al., 2003 from median of 5(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            weaning_d: mean of Ernest et al., 2003 & de Magalhaes and Costa, 2009 from median of 4(Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            birth_or_hatching_weight_g: Ernest et al., 2003 from median of 3(Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            maximum_longevity_y: de Magalhaes and Costa, 2009
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 760; Scientific=Colobus vellerosus; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-852c8475cc
+        part: body
+      en:
+        page: en
+        section: s-07e6f89cb8
+        part: body
+  catalogue-dossier:
+    scientificName: Colobus vellerosus (I. Geoffroy Saint-Hilaire, 1834)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact COL26.8 accepted species usage was verified by COL ID, verbatim scientific name, authorship, rank, accepted status, sourceDatasetId, and every accepted parent node in the pinned hierarchy.
+      scope: Evidence is limited to direct surveys and historical comparisons from Boabeng-Fiema Monkey Sanctuary, Ghana; it is not a global population estimate or a range-wide trend.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4DT
+        scientificName: Haplorrhini Pocock, 1918
+        authorship: Pocock, 1918
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4PM
+        scientificName: Simiiformes Haeckel, 1866
+        authorship: Haeckel, 1866
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4X9
+        scientificName: Cercopithecoidea Gray, 1821
+        authorship: Gray, 1821
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 7X9
+        scientificName: Cercopithecidae Gray, 1821
+        authorship: Gray, 1821
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: JCX
+        scientificName: Colobinae Jerdon, 1867
+        authorship: Jerdon, 1867
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: KQK
+        scientificName: Colobini Jerdon, 1867
+        authorship: Jerdon, 1867
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3SG4
+        scientificName: Colobus Illiger, 1811
+        authorship: Illiger, 1811
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: X6S9
+        scientificName: Colobus vellerosus (I. Geoffroy Saint-Hilaire, 1834)
+        authorship: (I. Geoffroy Saint-Hilaire, 1834)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    lifeStatusScope:
+      wild: The study counted free-ranging animals in six forest patches within a Ghanaian sanctuary.
+      domesticated: Captive populations have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; pinned source checklist
+          url: https://www.checklistbank.org/dataset/316115/taxon/X6S9
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:X6S9@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: Accepted species usage X6S9; exact accepted name, authorship, species rank, sourceDatasetId 2144, and accepted parent chain verified in the pinned hierarchy.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 accepted-name identity and classification metadata only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage X6S9. https://doi.org/10.48580/dgywk
+      - id: wiafe2023colobus
+        referenceId: ref-54ee7418-fb09-8f21-a1cf-8fd98351bd7d
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: JoTT article page lines 137-143 identifies the article license as CC BY 4.0 International; the PDF copyright notice at lines 142-143 repeats it.
+          licenseAppliesTo: Published article text; this dossier paraphrases findings and does not reproduce maps, tables, or separately credited material.
+          stableId: doi:10.11609/jott.8297.15.5.23200-23209
+          accessedAt: 2026-09-28
+          locator: Methods (PDF lines 334-396); survey limitations (PDF lines 419-440); 2019 population counts (PDF lines 501-513); 2007-2019 comparison and caveat (PDF lines 531-535 and 720-723); publisher license statement (HTML lines 137-143).
+          licenseAssessment: item-level-verified
+          scope: Original ground-survey and land-cover study at Boabeng-Fiema Monkey Sanctuary, Ghana; population counts and temporal comparison are limited to that site and the reported survey methods.
+          attribution: Wiafe ED, Akuoku KK, Sarkodie I, Boakye MK. (2023). Current populations of Colobus vellerosus (Geoffory, 1834) & Cercopithecus lowei (Thomas, 1923) and land-use, land cover changes in Boabeng-Fiema Monkey Sanctuary, Ghana. Journal of Threatened Taxa 15(5):23200-23209. https://doi.org/10.11609/jott.8297.15.5.23200-23209. Findings paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: A 2019 ground survey at Boabeng-Fiema Monkey Sanctuary recorded 602 Colobus vellerosus individuals in 34 groups across six forest patches. This is a site-level survey count, not a global abundance estimate.
+            sourceIds:
+              - wiafe2023colobus
+            locator: Results, 2019 survey population counts (PDF lines 501-513); survey design and transect effort (PDF lines 334-396).
+            placeTimeScope: Boabeng-Fiema Monkey Sanctuary, Ghana, 2019; six forest patches, 17 transects of 500-1,000 m, and 71,050 m total walking distance over two survey rounds.
+            lifeStatus: Free-ranging animals counted in forest patches; age, sex, captive populations, and fossils were not assessed.
+            originalLanguage: en
+        gaps:
+          - The count covers one sanctuary and its surveyed patches and is not a species-wide abundance estimate.
+          - Visibility, animal detection, and transect access constrained survey methods; the authors did not fit a DISTANCE model because of few effective sightings.
+          - Morphology, life history, broader ecology, evolution, range-wide distribution, fossils, conservation status, systematic search, remain unassessed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: In a 2019 survey at Boabeng-Fiema Monkey Sanctuary, Colobus vellerosus was recorded in six forest patches, with 34 groups and 602 individuals counted. The result documents occurrence at this site and does not map the species' full geographic range.
+            sourceIds:
+              - wiafe2023colobus
+            locator: Results, 2019 population counts (PDF lines 501-513); the six-patch survey design is described at PDF lines 334-396.
+            placeTimeScope: Boabeng-Fiema Monkey Sanctuary, Ghana, 2019, across the six surveyed forest patches.
+            lifeStatus: Free-ranging animals observed during ground surveys; captive and fossil occurrences were not assessed.
+            originalLanguage: en
+        gaps:
+          - This is one sanctuary record and does not establish the complete distribution or occupancy outside the survey area.
+          - Other sites, survey years, and independent detection methods remain unassessed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: partially-supported
+        claims:
+          - text: The article reports a 70% increase in estimated Colobus vellerosus density at Boabeng-Fiema between 2007 and 2019 (5.8% per year), while cautioning that the comparison involved different survey personnel and methods. It should not be read as a methodologically uniform or range-wide population trend.
+            sourceIds:
+              - wiafe2023colobus
+            locator: Results, 2007-2019 comparison (PDF lines 531-535); authors' methodological caveat (PDF lines 720-723).
+            placeTimeScope: Boabeng-Fiema Monkey Sanctuary, Ghana, reported comparison between 2007 and 2019 survey estimates.
+            lifeStatus: Wild sanctuary population estimates; the paper does not provide a captive or fossil trend.
+            originalLanguage: en
+        gaps:
+          - The reported increase is a local comparison and the authors identify differences in personnel and methods between survey periods.
+          - Current threat drivers, demographic structure, wider-range trends, and independent population estimates remain unassessed.

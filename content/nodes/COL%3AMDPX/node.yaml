@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa huehuetenanguensis
+  displayName: Bolitoglossa huehuetenanguensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDPX
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa huehuetenanguensis
+        zh: Bolitoglossa huehuetenanguensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDPX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/132
+            queryName: Bolitoglossa huehuetenanguensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bffec7c0a2
+      - s-d7e97b4587
+      - s-90552897a6
+      - s-e45a2edebe
+      - s-8ceefb5660
+      - s-f0a706b932
+    zh:
+      - s-29d08f9fb9
+      - s-d2aa79eadf
+      - s-e3f3508333
+      - s-8c82e9b06e
+      - s-a53d9e0986
+      - s-42816d4f95

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus lasgralarias
+  displayName: Nymphargus lasgralarias
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JN
+  sourceIndexes:
+    - name:
+        en: Nymphargus lasgralarias
+        zh: Nymphargus lasgralarias
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/431
+            queryName: Nymphargus lasgralarias
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9d1f545d77
+      - s-df16f7ba64
+      - s-fec05bda5d
+      - s-6075f09c14
+      - s-10602ce3c2
+      - s-b7ebcfa896
+      - s-ea83503c02
+      - s-112062a9f7
+      - s-158892cf08
+      - s-74b4c3c62d
+      - s-73c028d8c3
+      - s-307a9aceee
+      - s-4a8b0e5bc5
+      - s-9bc959f24e
+      - s-e9d5c1f8d6
+      - s-72b4e7786d
+      - s-012195c62d
+      - s-f1118e931f
+      - s-420e7128fd
+      - s-dde6e0601b
+      - s-90f37513c3
+      - s-d0437bedb8
+      - s-9e569de19a
+    zh:
+      - s-5e8d0374e8
+      - s-b297ec8ff2
+      - s-1126a6ab9c
+      - s-9d83e207f3
+      - s-2e41c0dcf8
+      - s-7b02fb18f0
+      - s-9bcc6ff33e
+      - s-31ce28fca6
+      - s-87fde17478
+      - s-56a31fb3fe
+      - s-c9dbeb651d
+      - s-c5eeaded6f
+      - s-359be18f57
+      - s-5b9ec56ec5
+      - s-dd3964e96b
+      - s-5693c55350
+      - s-199b9f1aad
+      - s-205146cc29
+      - s-1d1f4e156e
+      - s-ae646b741b
+      - s-39e30e9cf3
+      - s-9d31bb4d16
+      - s-23df26c6b8

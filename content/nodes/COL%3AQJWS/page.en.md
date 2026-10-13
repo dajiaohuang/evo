@@ -1,0 +1,3 @@
+## ## A twining vine with pink flowers and ridged pods {#s-c4fcd4ac6e}
+Brazilian Flora 2020 records *Canavalia piperi* as a twining vine with stems that range from nearly hairless to softly hairy. Its leaflets are ovate to broadly ovate, with tips described as acuminate, acute or obtuse. The axillary inflorescences bear pink flowers. The lateral, flattened pods are hairless, split open at maturity and carry a median ridge; the seeds are ellipsoid and brown. The same dataset labels its substrate relation as terrestrial. These are regional flora character fields, not a global account or survey.
+

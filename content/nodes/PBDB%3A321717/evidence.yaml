@@ -1,0 +1,350 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Carnufex carolinensis
+    commonName: Carnufex
+    commonNameZh: 卡罗莱纳屠夫鳄
+    rank: species
+    taxonId: txn:321717
+    firstAppearance: 0
+    lastAppearance: 0
+    rangeEvidenceLevel: withheld-no-range-evidence
+    extinct: true
+    parentRelationshipKind: taxonomic-parent
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Carnufex carolinensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Carnufex carolinensis
+      en: Carnufex carolinensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-10802ceb7c
+            part: body
+          en:
+            page: en
+            section: s-5cf24922e8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ca6500e031
+            part: body
+          en:
+            page: en
+            section: s-827c18ffda
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a8a7f5c0be
+            part: body
+          en:
+            page: en
+            section: s-27529bc930
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bed7308de1
+            part: body
+          en:
+            page: en
+            section: s-0c5503ee8c
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-16066aaa45
+            part: body
+          en:
+            page: en
+            section: s-e4b3905e6e
+            part: body
+    sources:
+      - id: pbdbCrocodylomorphTaxonomy20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Carnufex carolinensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=321717&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbCrocodylomorphOccurrences20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:321717; original response record indices retained in data/sources/crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: c4a662dc45be8020da61b782b38d37ab583c35a2e4bdf978ceca29e010472ca1
+          pbdbTaxonId: txn:321717
+          selectedOccurrenceIds:
+            - occ:1280502
+          selectedCollectionIds:
+            - col:169982
+          sourceReferenceIds:
+            - ref:55470
+          originalIdentificationMappings:
+            - occurrenceId: occ:1280502
+              originalIdentifiedName: Carnufex carolinensis n. gen. n. sp.
+              acceptedName: Carnufex carolinensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ea288e2c79
+        part: body
+      en:
+        page: en
+        section: s-782d14914b
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:321717
+    scientificName: Carnufex carolinensis
+    commonName: Carnufex
+    commonNameZh: 卡罗莱纳屠夫鳄
+    rank: species
+    parentName: Carnufex
+    extinct: true
+    geography:
+      - Pekin Formation, Chatham County, North Carolina, United States
+    overview:
+      page: en
+      section: s-77fc47859e
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-adcff193c3
+        part: body
+      habitat:
+        page: en
+        section: s-088a02b178
+        part: body
+      locomotion:
+        page: en
+        section: s-45bf8c6985
+        part: body
+      bodySize:
+        page: en
+        section: s-375ebb632d
+        part: body
+      guild:
+        page: en
+        section: s-4aefa0e3fd
+        part: body
+    traits:
+      - page: en
+        section: s-eaf0fb595e
+        part: body
+      - page: en
+        section: s-346a4d901b
+        part: body
+      - page: en
+        section: s-fe4c73c042
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-a17375cb41
+      part: body
+    readerSections:
+      - id: reading-0
+        title:
+          en:
+            page: en
+            section: s-29212a8176
+            part: title
+          zh:
+            page: zh
+            section: s-a4d71d1c64
+            part: title
+        text:
+          en:
+            page: en
+            section: s-29212a8176
+            part: body
+          zh:
+            page: zh
+            section: s-a4d71d1c64
+            part: body
+      - id: reading-1
+        title:
+          en:
+            page: en
+            section: s-dbdacdc75c
+            part: title
+          zh:
+            page: zh
+            section: s-a99237952b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dbdacdc75c
+            part: body
+          zh:
+            page: zh
+            section: s-a99237952b
+            part: body
+    confidence: medium
+    referenceIds:
+      - zanno-2015-carnufex
+    overviewZh:
+      page: zh
+      section: zh-81d7ce597e7b00
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-5afd30ab5e6b20
+      part: body
+  claims:
+    - subjectId: taxon:carnufex_carolinensis
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Zanno et al. named Carnufex carolinensis from holotype NCSM 21558 and recovered it at the base of Crocodylomorpha in an unresolved polytomy in their 79-taxon, 413-character analysis; this is a sampled topology, not direct ancestry.
+      confidence: medium
+      confidenceRationale: "The name, type material and matrix result are explicit in the primary study. Confidence remains medium because the basal placement is analysis-dependent and the holotype is skeletally immature and incomplete. Carnufex carolinensis: For the species-level page, this assessment applies to the named species and its cited diagnosis; it does not imply a broader genus sample."
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: Article 9276
+          figure: Figure 2a; Supplementary Figure S9
+          quoteLocator: Systematic palaeontology; Holotype; comprehensive 79-taxon, 413-character phylogenetic analysis
+    - subjectId: taxon:carnufex_carolinensis
+      claimType: biogeography
+      claimKind: scientific
+      statement: The Carnufex type and referred material are recorded from the approximately 231 Ma Pekin Formation in Chatham County, North Carolina; this single formation sample does not establish a genus-wide distribution or absence elsewhere.
+      confidence: high
+      confidenceRationale: "The locality, formation and age are directly reported for the named material. High confidence is limited to that occurrence and does not infer a complete geographic range. Carnufex carolinensis: For the species-level page, this assessment covers the cited occurrence or localities only and does not estimate a complete range."
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: Article 9276
+          figure: Figures 1–2
+          quoteLocator: Systematic palaeontology—Locality and horizon; Discussion of the Pekin Formation assemblage
+    - subjectId: taxon:carnufex_carolinensis
+      claimType: morphology
+      claimKind: scientific
+      statement: NCSM 21558 preserves partial cranial and postcranial material, including a reconstructed slender, ornamented skull longer than 50 cm and elongate, serrated, slightly recurved premaxillary teeth; these observations are limited to the immature holotype.
+      confidence: high
+      confidenceRationale: "The preserved elements, three-dimensional reconstruction and tooth morphology are described and figured directly. High confidence does not extend the reconstruction to unknown individuals or ontogenetic stages. Carnufex carolinensis: For the species-level page, this assessment covers the characters observed in the cited specimens; unsampled variation remains outside it."
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: Article 9276
+          figure: Figure 1; Supplementary Figure S9
+          quoteLocator: Holotype; Diagnosis; cranial description; three-dimensional skull reconstruction
+    - subjectId: taxon:carnufex_carolinensis
+      claimType: ecology
+      claimKind: scientific
+      statement: The study interprets Carnufex as an approximately 3 m terrestrial faunivore and top-tier predator in the sampled Pekin Formation assemblage using serrated teeth, reconstructed skull length and an immature femur-length estimate of 354–441 mm; feeding, locomotion and guild are not direct behavioural observations.
+      confidence: medium
+      confidenceRationale: "Dentition and preserved anatomy are specimen observations, whereas total length, femur proxy and predator-guild assignment are reconstructions bounded to the study and assemblage. Carnufex carolinensis: For the species-level page, this assessment covers only ecological inferences tied to the cited specimens; unmeasured fields remain unassigned."
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: Article 9276
+          figure: Figure 2b–d; Supplementary Table S2
+          quoteLocator: Diagnosis; body-size estimates; Pekin Formation predator-guild discussion
+  claim-rationales.zh:
+    - 命名、模式材料与矩阵结果均由一手研究明确报告。由于正模骨骼未成熟且不完整、基部位置依赖分析，置信度保留为中等。 Carnufex carolinensis：本种级页面的判断仅适用于所引材料中的该种及其描述，不表示存在更广泛的属级样本。
+    - 论文直接报告具名材料的地点、地层组与年代。高置信度只适用于该出现记录，不推断完整地理范围。 Carnufex carolinensis：本种级页面的判断仅覆盖所引化石记录或地点，不据此估算完整分布。
+    - 保存骨骼、三维复原和牙齿形态均有直接描述与图示。高置信度不把正模复原外推到未知个体或发育阶段。 Carnufex carolinensis：本种级页面的判断仅覆盖所引标本中观察到的性状；未取样的种内变异不在此结论内。
+    - 牙列和保存解剖属于标本观察；全长、股骨代理值和捕食者功能群归属则是限定于该研究及动物群的复原。 Carnufex carolinensis：本种级页面的判断仅覆盖与所引标本相关的生态推断；未测量字段继续保持未指定。
+  claim-statements.zh:
+    - Zanno 等人依据正模 NCSM 21558 命名 Carnufex carolinensis，并在包含 79 个类群、413 个性状的分析中将其恢复为鳄形类基部未解析多分支；这是取样拓扑，不是直系祖先关系。
+    - Carnufex 的模式与归入材料记录于美国北卡罗来纳州查塔姆县约 2.31 亿年前的 Pekin 组；这一单一地层组样本不能确立属级完整分布或其他地区的缺失。
+    - NCSM 21558 保存部分头骨与头后材料，包括复原长度超过 50 厘米的细长饰纹头骨，以及细长、具锯齿且略后弯的前上颌齿；这些观察仅限未成熟正模。
+    - 该研究依据锯齿牙、复原头骨长度与未成熟股骨 354–441 毫米的估计，把 Carnufex 解释为 Pekin 组取样动物群中约 3 米长的陆生食动物与顶层捕食者；摄食、运动和功能群并非直接行为观察。
+  ranges:
+    - entityId: carnufex_carolinensis
+      rangeKind: global-composite
+      taxonomicConcept: PBDB accepted fossil species txn:321717 (Carnufex carolinensis); profile scope is the cited specimen record, not a global range synthesis
+      geographicScope: Named source locality only; no complete global geographic-temporal range is assigned
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; the cited specimen study does not establish a complete global first and last appearance range.
+      evidenceBasis: The frozen PBDB roster supports accepted name, rank, OID and immediate parent. The selected literature supports the described specimen evidence, not a complete global range for Carnufex carolinensis.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: zanno-2015-carnufex
+          locator: Cited named specimen and locality; no complete global range is claimed.
+  field-claim-overrides:
+    - firstAppearance:
+        status: not-assessed
+      lastAppearance:
+        status: not-assessed

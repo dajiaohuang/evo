@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops chunganensis
+  displayName: Amolops chunganensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CW9W
+  sourceIndexes:
+    - name:
+        en: Amolops chunganensis
+        zh: Amolops chunganensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CW9W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/353
+            queryName: Amolops chunganensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/125
+            queryName: Rana chunganensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/126
+            queryName: Staurois chunganensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-17e4d58ffc
+      - s-54d26eeb02
+      - s-fe47444a76
+      - s-96c3dc19ab
+      - s-bb98ccc9c2
+      - s-dc0f78d1e7
+      - s-3821130d44
+      - s-612d1bed82
+      - s-07b83bf055
+      - s-00f2c72ccc
+      - s-8aff45f084
+      - s-da0ec0ac3f
+      - s-096373a983
+    zh:
+      - s-db0c20e4c0
+      - s-8eeec59d1d
+      - s-31d2395881
+      - s-b0430b6862
+      - s-070341b0b2
+      - s-68fa5ac443
+      - s-f49304dc18
+      - s-7de0cbc967
+      - s-f77e058714
+      - s-f6b7d8eaf5
+      - s-4ca7e8dd96
+      - s-c5275500c1
+      - s-1b9ed49948

@@ -1,0 +1,415 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cavendishia chiriquiensis A.C.Sm.
+    authorship: A.C.Sm.
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 625QY
+        scientificName: Ericales Bercht. & J.Presl
+        authorship: Bercht. & J.Presl
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 623P8
+        scientificName: Ericaceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KH2
+        scientificName: Vaccinioideae Arn.
+        authorship: Arn.
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KVXTC
+        scientificName: Vaccinieae Rchb.
+        authorship: Rchb.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 3JS4
+        scientificName: Cavendishia Lindl.
+        authorship: Lindl.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: RXYY
+        scientificName: Cavendishia chiriquiensis A.C.Sm.
+        authorship: A.C.Sm.
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage RXYY; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/RXYY
+          stableId: col:RXYY@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage RXYY; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage RXYY. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_rxyy_habit_1622
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Cavendishia chiriquiensis A.C.Sm., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: shrub
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 1622
+          archiveSourceId: A6A5A0E1-9148-4B3D-A10B-342B09F85ABB
+          archiveSourceIds:
+            - A6A5A0E1-9148-4B3D-A10B-342B09F85ABB
+          referenceRowNumbers:
+            - 2162
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-e9b46f5f-f35e-894c-ab40-056b5003ea65
+                metadataVariant: 0
+                usage:
+                  identifier: A6A5A0E1-9148-4B3D-A10B-342B09F85ABB
+                  referenceRowNumber: 2162
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1622 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1622; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:RXYY:row:1622
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1622; field habit; reference rows 2162.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1622; CC BY 4.0. Citation metadata: Cavendishia chiriquiensis A.C. Sm., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_rxyy_distribution_1623
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Cavendishia chiriquiensis A.C.Sm., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: endemic to western Panama
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 1623
+          archiveSourceId: DDE98601-E431-4AB6-9DC3-63710D7046FF
+          archiveSourceIds:
+            - DDE98601-E431-4AB6-9DC3-63710D7046FF
+          referenceRowNumbers:
+            - 2460
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-e9b46f5f-f35e-894c-ab40-056b5003ea65
+                metadataVariant: 0
+                usage:
+                  identifier: DDE98601-E431-4AB6-9DC3-63710D7046FF
+                  referenceRowNumber: 2460
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1623 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1623; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:RXYY:row:1623
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1623; field distribution; reference rows 2460.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1623; CC BY 4.0. Citation metadata: Cavendishia chiriquiensis A.C. Sm., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_rxyy_general_4134
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Cavendishia chiriquiensis A.C.Sm., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Weakly erect, epiphytic shrub to 3 m tall, the stem base ca. 3 cm in diameter; mature branches terete, smooth to minutely striate, glabrous, tan, grayish red or reddish brown; immature branches and the twigs of the new growth terete to bluntly angled, smooth or striate, glabrous, tan, infrequently with caducous, globular glands on the recent growth. Leaves elliptic, 4.5-8 cm long, 1.5-3.5 cm wide, basally cuneate or sometimes attenuate, apically caudate acuminate, the acumen 1.5-2(-2.5) cm long, averaging 1/4-1/3 of the total leaf length, brownish to grayish green or tan when dry, glabrous or slightly puberulous at the base of the midrib when young, glabrescent; 3-5-plinerved, the midrib, the lateral nerves, and the veinlets impressed to slightly elevated and conspicuous above, all the veins raised beneath but usually only the midrib conspicuous, newly un- folding leaves often densely provided with caducous, globular glands on the upper surface and reddish glandular fimbriate beneath; petioles terete to sub- terete, sometimes flattened adaxially, rugose, 4-8 mm long, 1-1.5 mm in diam- eter, densely white puberulous when young becoming glabrate, tan to reddish brown. Inflorescence viscid, 6-9(-11)-flowered, the rachis complanate, bluntly angled, sometimes flexuous, smooth or minutely striate, glabrous, 1.5-4.5 cm long, ca. 1 mm in diameter at the base, pale green suffused with red when fresh but drying brick red, infrequently with a few scattered globular glands; floral bracts glabrous, slightly ribbed, smooth, rugose or muricate, oblong to oblanceo- late, basally narrowed and truncate, apically acute or rounded, 15-25 mm long, 5-9 mm broad, red, each margin with 11-12, sessile, globular glands to 0.5 mm in diameter, these often caducous; pedicels terete to angled, swollen at both ends, minutely striate, glabrous, 4-7 mm long, 0.5-1 mm in diameter, pale green when fresh but drying brick red, provided with few scattered globular glands and cilia, especially distally; bracteoles linear to linear lanceolate, 1-2(-4) mm long, ca. 0.5 mm broad, with a hastate, callose thickened, apical gland which breaks off easily, a few globular glands at the margin. Flowers with the calyx gla- brous, 3.5-4.5 mm long, pink at anthesis, the tube cylindric, smooth or rugose, 1.5-2(-2.5) mm long, 2-3.5 mm wide, basally slightly expanded, the expansion most noticeable in the early fruit, with numerous, scattered, globular glands not obscuring the surface of the tube, the limb campanulate to erect-spreading, rugose, ribbed, 1.5-2.5 mm long, with a few scattered glands similar to those of the tube, the lobes triangular, obtuse, 0.5-1 mm long, ca. 0.5 mm wide, erect after anthesis, completely or only marginally callose thickened but appearing almost completely callose thickened because of small size of the lobes, the lobes often breaking off with age, the sinuses broadly rounded or flat; corolla 16-24 mm long, 4-4.5 mm in diameter, reddish purple at the very base, purple above, the distal 1/3 short pilose, the lobes triangular, obtuse, ca. 2 mm long; sta- mens 14.5-21 mm long, the filaments densely short pilose or glabrate, alternately 3 mm and 5-7.5 mm long, white, the anthers including tubules alternately 9.5- 16.5 mm and 13-20 mm long, purplish orange, the thecae 3-6.5 mm long; style 17-23 mm long. Berry not seen.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 4134
+          archiveSourceId: ACE43AEF-48D4-4942-B767-784B76EFC3D9
+          archiveSourceIds:
+            - ACE43AEF-48D4-4942-B767-784B76EFC3D9
+          referenceRowNumbers:
+            - 4955
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-e9b46f5f-f35e-894c-ab40-056b5003ea65
+                metadataVariant: 0
+                usage:
+                  identifier: ACE43AEF-48D4-4942-B767-784B76EFC3D9
+                  referenceRowNumber: 4955
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 4134 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 4134; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:RXYY:row:4134
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 4134; field general; reference rows 4955.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 4134; CC BY 4.0. Citation metadata: Cavendishia chiriquiensis A.C. Sm., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Weakly erect, epiphytic shrub to 3 m tall, the stem base ca. 3 cm in diameter; mature branches terete, smooth to minutely striate, glabrous, tan, grayish red or reddish brown; immature branches and the twigs of the new growth terete to bluntly angled, smooth or striate, glabrous, tan, infrequently with caducous, globular glands on the recent growth. Leaves elliptic, 4.5-8 cm long, 1.5-3.5 cm wide, basally cuneate or sometimes attenuate, apically caudate acuminate, the acumen 1.5-2(-2.5) cm long, averaging 1/4-1/3 of the total leaf length, brownish to grayish green or tan when dry, glabrous or slightly puberulous at the base of the midrib when young, glabrescent; 3-5-plinerved, the midrib, the lateral nerves, and the veinlets impressed to slightly elevated and conspicuous above, all the veins raised beneath but usually only the midrib conspicuous, newly un- folding leaves often densely provided with caducous, globular glands on the upper surface and reddish glandular fimbriate beneath; petioles terete to sub- terete, sometimes flattened adaxially, rugose, 4-8 mm long, 1-1.5 mm in diam- eter, densely white puberulous when young becoming glabrate, tan to reddish brown. Inflorescence viscid, 6-9(-11)-flowered, the rachis complanate, bluntly angled, sometimes flexuous, smooth or minutely striate, glabrous, 1.5-4.5 cm long, ca. 1 mm in diameter at the base, pale green suffused with red when fresh but drying brick red, infrequently with a few scattered globular glands; floral bracts glabrous, slightly ribbed, smooth, rugose or muricate, oblong to oblanceo- late, basally narrowed and truncate, apically acute or rounded, 15-25 mm long, 5-9 mm broad, red, each margin with 11-12, sessile, globular glands to 0.5 mm in diameter, these often caducous; pedicels terete to angled, swollen at both ends, minutely striate, glabrous, 4-7 mm long, 0.5-1 mm in diameter, pale green when fresh but drying brick red, provided with few scattered globular glands and cilia, especially distally; bracteoles linear to linear lanceolate, 1-2(-4) mm long, ca. 0.5 mm broad, with a hastate, callose thickened, apical gland which breaks off easily, a few globular glands at the margin. Flowers with the calyx gla- brous, 3.5-4.5 mm long, pink at anthesis, the tube cylindric, smooth or rugose, 1.5-2(-2.5) mm long, 2-3.5 mm wide, basally slightly expanded, the expansion most noticeable in the early fruit, with numerous, scattered, globular glands not obscuring the surface of the tube, the limb campanulate to erect-spreading, rugose, ribbed, 1.5-2.5 mm long, with a few scattered glands similar to those of the tube, the lobes triangular, obtuse, 0.5-1 mm long, ca. 0.5 mm wide, erect after anthesis, completely or only marginally callose thickened but appearing almost completely callose thickened because of small size of the lobes, the lobes often breaking off with age, the sinuses broadly rounded or flat; corolla 16-24 mm long, 4-4.5 mm in diameter, reddish purple at the very base, purple above, the distal 1/3 short pilose, the lobes triangular, obtuse, ca. 2 mm long; sta- mens 14.5-21 mm long, the filaments densely short pilose or glabrate, alternately 3 mm and 5-7.5 mm long, white, the anthers including tubules alternately 9.5- 16.5 mm and 13-20 mm long, purplish orange, the thecae 3-6.5 mm long; style 17-23 mm long. Berry not seen.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_rxyy_general_4134
+            locator: "Flora of Panama general field; imported row 4134; sourceIds ACE43AEF-48D4-4942-B767-784B76EFC3D9; reference rows 4955; citations: ACE43AEF-48D4-4942-B767-784B76EFC3D9: Cavendishia chiriquiensis A.C. Sm., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 4955)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: endemic to western Panama
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_rxyy_distribution_1623
+            locator: "Flora of Panama distribution field; imported row 1623; sourceIds DDE98601-E431-4AB6-9DC3-63710D7046FF; reference rows 2460; citations: DDE98601-E431-4AB6-9DC3-63710D7046FF: Cavendishia chiriquiensis A.C. Sm., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 2460)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.

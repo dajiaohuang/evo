@@ -1,0 +1,33 @@
+## PanTHERIA 条目 {#s-941187c60a}
+本批次 Sciurini 的 PanTHERIA 路径中有两条可用记录：Tamiasciurus douglasii 和 T. hudsonicus。页面保留 MSW05 名称、字段条件和缺项。固定版本 COL26.8 用于导航；记录行数不是当前物种分母。
+
+## 成体体重端点 {#s-5651075660}
+按性别调整后的历史中位数为 T. hudsonicus 200.24 g、T. douglasii 225 g。胎儿发育、断奶、活动和群体定义应分别阅读；这些端点值不是个体极值，也不代表后代类群共享的性状。
+
+## 生活史记录与共有字段 {#s-29d55ec610}
+三条生活史记录为 T. douglasii、T. hudsonicus 和 T. mearnsi。三条均有成体体重、首次受孕年龄、窝/胎卵数和受孕/受精至出生间隔。计数只表示本批次覆盖，并非所有接受物种的分母；比较前先核对事件、单位和来源。
+
+## 生态记录 {#s-22044cfd0e}
+九条记录有生态字段，包括 Microsciurus alfari、M. santanderensis、M. mimulus、M. flaviventer 和 Rheithrosciurus macrotis。九条均有食物权重、地层和哺乳动物活动字段。比较前应区分来源、粗略权重以及类别/二元代码。
+
+## Sciurini 路径的限制 {#s-6b1533bd41}
+PanTHERIA 和生活史视图只纳入达到重点字段及历史名称匹配规则的批次记录；端点是汇总值而非个体极值，来源条件各异。生活史和生态路径计数不是完整的后代类群目录。食物类型、权重和活动不能证明整个类群共享性状。历史中位数、分类继承、半定量转换以及 ABC 可能借用同属种资料，均受逐页来源限制。此处未确定现行分类概念、分布和保护状况。
+
+## 其他 PanTHERIA 记录 {#s-5fb52b3c12}
+四条可用记录为 [Microsciurus alfari](Microsciurus/Microsciurus_alfari/page.zh.md)、[M. santanderensis](Microsciurus/Microsciurus_santanderensis/page.zh.md)、[Rheithrosciurus macrotis](Rheithrosciurus/Rheithrosciurus_macrotis/page.zh.md) 和 [Syntheosciurus brochus](Syntheosciurus/Syntheosciurus_brochus/page.zh.md)。每页保留 MSW05 名称、条件和缺项；行数不定义当前接受物种数。
+
+## 本批次的成体体重范围 {#s-51592b4eb2}
+可用中位数的最小和最大端点分别为 Microsciurus alfari 的 87.49 g 和 Rheithrosciurus macrotis 的 1353.27 g，均已按性别调整。这些是汇总值，不是个体极值，也不能证明后代类群共享一种生活方式。
+
+## PanTHERIA 记录的限制 {#s-625345501c}
+此视图涵盖至少有一个重点字段、名称/科级匹配且具有历史一对一对应关系的批次记录，不包括所有后代。端点是历史汇总值，条件各异。请查阅物种页面和原始变量定义；此处未确定当前物种概念、分布或保护状况。
+
+## 生活史记录 {#s-3cac89fe89}
+两条已编写的生活史页面为 [Tamiasciurus douglasii](Tamiasciurus/Tamiasciurus_douglasii/page.zh.md) 和 [T. hudsonicus](Tamiasciurus/Tamiasciurus_hudsonicus/page.zh.md)。路径遵循固定版本 COL26.8，且只统计本批次同名页面。
+
+## 时间字段与最大值记录 {#s-fda061b517}
+两条记录列有妊娠期，两条列出雌性首次繁殖年龄，一条列出最大寿命。首次繁殖不同于首次出生或性成熟；最大寿命也不等于平均寿命。来源条件可能不同，缺项需要其他证据。
+
+## 生活史路径的限制 {#s-cffd5c6b0d}
+此路径覆盖已编写的批次记录，不是完整的后代类群生物学。名称/科级匹配和 MSW93/MSW05 一对一表支持记录关联，不证明现行分类概念等同。除最大寿命外，文献输入通常等权平均；来源可能重复，且不按样本量加权。最大值仅指最长记录。成体体重未作解释，近缘种不填补缺项，且未逐一核实引文或所有采集条件。
+

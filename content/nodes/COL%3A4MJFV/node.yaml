@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis jubatus
+  displayName: Pristimantis jubatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJFV
+  sourceIndexes:
+    - name:
+        en: Pristimantis jubatus
+        zh: Pristimantis jubatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJFV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/334
+            queryName: Pristimantis jubatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/256
+            queryName: Eleutherodactylus jubatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8b5eb3fa48
+      - s-0df0382267
+      - s-be9e5a798d
+      - s-63268e67ec
+      - s-41f0852185
+      - s-cafa468aa3
+      - s-5e8c21505d
+      - s-9aa03b25bd
+      - s-e9ffef9b23
+      - s-f619a7bef9
+      - s-e0100581fb
+      - s-34235e156d
+      - s-8e37051b90
+      - s-1dcb8cc26b
+      - s-45f8858d88
+      - s-94d6ec9f34
+      - s-2fa917f233
+      - s-a9e5c025d3
+      - s-58a37100fb
+      - s-e26b0228d7
+      - s-97cc5ff919
+      - s-ee2be97d67
+    zh:
+      - s-535eed2146
+      - s-29d30d28da
+      - s-11bc2e0d2e
+      - s-c290c511bc
+      - s-9c05cb7f06
+      - s-40150d187b
+      - s-704ea091ea
+      - s-78f2995ef3
+      - s-bd529d1f14
+      - s-b510f27610
+      - s-a50e22a38b
+      - s-d010e41ee9
+      - s-503a9ce553
+      - s-3def254378
+      - s-c136b3925b
+      - s-21e43ed862
+      - s-090565e922
+      - s-22428dca15
+      - s-74bc1769fb
+      - s-a09014df15
+      - s-07ab6560c2
+      - s-1eba1166b0

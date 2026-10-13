@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:33521
+    scientificName: Pterobranchia
+    commonName: Pterobranchs
+    commonNameZh: 羽鳃类
+    rank: class
+    parentName: Hemichordata
+    extinct: false
+    geography:
+      - Xiaoshiba Lagerstätte, Yunnan, China
+      - Approximately 3.7 km southeast of Ala near Kunming (Yunotubus fossil sample)
+    overview:
+      page: en
+      section: s-8551dff403
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-ac28f8e578
+        part: body
+      habitat:
+        page: en
+        section: s-15217a7dd5
+        part: body
+      locomotion:
+        page: en
+        section: s-db41c6e32d
+        part: body
+      bodySize:
+        page: en
+        section: s-9cd267c824
+        part: body
+      guild:
+        page: en
+        section: s-18c978416e
+        part: body
+    traits:
+      - page: en
+        section: s-45a8d384a0
+        part: body
+      - page: en
+        section: s-f0158a9682
+        part: body
+      - page: en
+        section: s-8e124e345a
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-e6f38e2dd7
+      part: body
+    readerSections:
+      - id: reading-0
+        title:
+          en:
+            page: en
+            section: s-a8d19ca7eb
+            part: title
+          zh:
+            page: zh
+            section: s-3cb138d9e7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a8d19ca7eb
+            part: body
+          zh:
+            page: zh
+            section: s-3cb138d9e7
+            part: body
+      - id: reading-1
+        title:
+          en:
+            page: en
+            section: s-03899b7301
+            part: title
+          zh:
+            page: zh
+            section: s-85ed1e09db
+            part: title
+        text:
+          en:
+            page: en
+            section: s-03899b7301
+            part: body
+          zh:
+            page: zh
+            section: s-85ed1e09db
+            part: body
+    confidence: medium
+    referenceIds:
+      - yang-2025-yunotubus
+      - halanych-1993-rhabdopleura-feeding
+    overviewZh:
+      page: zh
+      section: zh-50f690eb5b8339
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-642f2dd730edc3
+      part: body
+  claims:
+    - subjectId: taxon:pterobranchia
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Five Yunotubus specimens from the approximately 516 Ma Hongjingshao Formation provide a diagnostic early Cambrian pterobranch minimum, not a Pterobranchia origin date or proof that every older tube fragment belongs to the clade.
+      confidence: medium
+      confidenceRationale: Five specimens preserve the tube-and-stolon association in one dated Lagerstätte; medium confidence keeps this direct minimum separate from phylogenetic origin and more fragmentary older candidates.
+      referenceLinks:
+        - referenceId: yang-2025-yunotubus
+          relation: supports
+          quoteLocator: Figures 1–5; Geological setting; Systematic palaeontology
+    - subjectId: taxon:pterobranchia
+      claimKind: scientific
+      claimType: biogeography
+      statement: Yunotubus directly records a pterobranch colony in the approximately 516 Ma Xiaoshiba Lagerstätte of Yunnan; this locality sample does not establish a complete early Cambrian or global pterobranch distribution.
+      confidence: medium
+      confidenceRationale: The fossil locality is a direct record, but one study window cannot reconstruct a complete early Cambrian or global distribution; medium confidence is deliberately occurrence-bounded.
+      referenceLinks:
+        - referenceId: yang-2025-yunotubus
+          relation: supports
+          quoteLocator: Figure 1; locality and stratigraphic sections
+    - subjectId: taxon:pterobranchia
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Yunotubus combines fusellar tubes, zooids and a connecting stolon recovered within Pterobranchia by sampled morphology matrices, while that placement remains a scored phylogenetic hypothesis rather than observed ancestry.
+      confidence: medium
+      confidenceRationale: Associated soft and tubular anatomy supports identification, but topology depends on 24-taxon, 39-character analyses; medium confidence preserves the distinction between diagnosis and branch placement.
+      referenceLinks:
+        - referenceId: yang-2025-yunotubus
+          relation: supports
+          quoteLocator: Systematic palaeontology; Figures 2–5; phylogenetic analyses
+    - subjectId: taxon:pterobranchia
+      claimKind: scientific
+      claimType: ecology
+      statement: Video and electron microscopy directly document suspension feeding by millimetre-scale, tube-dwelling zooids of living Rhabdopleura normani; this sampled ecology is not projected unchanged onto fossil pterobranchs.
+      confidence: high
+      confidenceRationale: Feeding currents and particle capture were observed directly in a living species. High confidence is species- and behaviour-specific and does not erase ecological evolution across the fossil radiation.
+      referenceLinks:
+        - referenceId: halanych-1993-rhabdopleura-feeding
+          relation: supports
+          pages: 417–427
+          figure: Figures 1–8
+          quoteLocator: Rhabdopleura normani observations; Figures 1–8
+    - subjectId: taxon:pterobranchia
+      claimKind: scientific
+      claimType: morphology
+      statement: Yunotubus preserves colonial zooids connected by a stolon inside fusellar tubes, whereas living Rhabdopleura supplies direct tentacle and ciliary anatomy; the traits come from different sampled taxa and times.
+      confidence: high
+      confidenceRationale: The cited studies image the listed structures directly, yielding high confidence in their occurrence. They do not establish that every structure was invariant throughout Pterobranchia history.
+      referenceLinks:
+        - referenceId: yang-2025-yunotubus
+          relation: supports
+          figure: Figures 2–5
+          quoteLocator: Systematic palaeontology and preserved colony anatomy
+        - referenceId: halanych-1993-rhabdopleura-feeding
+          relation: supports
+          pages: 417–427
+          figure: Figures 2–8
+          quoteLocator: Living tentacle and ciliary anatomy
+  claim-rationales.zh:
+    - 五件标本在一个有年代约束的化石库中保存管体—匍匐茎组合；中等置信度把这一直接最小年龄与系统起源及更破碎的早期候选严格分开。
+    - 该化石地点是直接记录，但单一研究窗口不能重建早寒武世或全球的完整分布；中等置信度被有意限定在出现记录层面。
+    - 伴生软体与管状解剖支持鉴定，但拓扑依赖 24 类群、39 性状的分析；中等置信度保留诊断与分支位置的区别。
+    - 摄食水流和颗粒捕获在一个现生种中被直接观察；高置信度只针对该物种和行为，不抹平化石辐射中的生态演变。
+    - 两项研究直接成像所列结构，因此其存在具有高置信度；但这不证明这些结构在羽鳃类历史中始终不变。
+  claim-statements.zh:
+    - 五件约 5.16 亿年前红井哨组的 Yunotubus 标本提供了诊断性的早寒武纪羽鳃类最小年龄，但不是羽鳃纲起源时间，也不能证明所有更老管状碎片都属于该类群。
+    - Yunotubus 结合了半环状生长构造管、个虫和连接匍匐茎，并在取样形态矩阵中落入羽鳃类；该位置仍是性状评分的系统发育假说，而非观察到的祖先关系。
+    - Yunotubus 保存了由匍匐茎连接并位于半环状构造管内的群体个虫，现生 Rhabdopleura 则提供触手和纤毛解剖的直接观察；这些性状来自不同时代、不同取样类群。
+    - Yunotubus 直接记录了约 5.16 亿年前云南小石坝化石库的一处羽鳃类群体；这一地点样本不能确定早寒武世或全球羽鳃类的完整分布。
+    - 视频和电子显微镜直接记录了现生 Rhabdopleura normani 毫米级管栖个虫的悬浮摄食；不能把这一取样生态原样外推到化石羽鳃类。
+  ranges:
+    - entityId: pterobranchia
+      rangeKind: global-composite
+      taxonomicConcept: Pterobranchia, with Yunotubus as the directly documented fossil minimum
+      geographicScope: Global living lineage; direct fossil anchor at the Xiaoshiba Lagerstätte, Yunnan, China
+      olderMa: 516
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 518
+        youngerMa: 0
+        note: 516 Ma is the rounded age of the diagnostic Yunotubus occurrence, not the origin of Pterobranchia; older fragmentary candidates are not used as a secure endpoint.
+      evidenceBasis: Five Yunotubus specimens from Cambrian Stage 3 preserve fusellar tubes, zooids and a stolon; living pterobranchs establish survival to the present.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:pterobranchia:fossil-range
+      referenceLocators:
+        - referenceId: yang-2025-yunotubus
+          locator: Figures 1–5; Geological setting; Systematic palaeontology; phylogenetic analyses

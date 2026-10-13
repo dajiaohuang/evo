@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Stumpffia yanniki
+    name:
+      en: Stumpffia yanniki
+      zh: Stumpffia yanniki
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Stumpffia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f3f89bb321
+            part: body
+          zh:
+            page: zh
+            section: s-dd9f1844f0
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f5022ea3e5
+            part: body
+          zh:
+            page: zh
+            section: s-713cd11fec
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5831; Reference.csv rows 1442
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5831
+        values:
+          - Microhylidae
+          - Stumpffia
+          - Stumpffia yanniki
+          - NA
+          - "10.2"
+          - "3.4"
+          - "3.15"
+          - "1.2"
+          - "0.95"
+          - NA
+          - NA
+          - "1.2"
+          - NA
+          - "0.65"
+          - NA
+          - "0.55"
+          - "1.9"
+          - "4.3"
+          - NA
+          - "3.45"
+          - NA
+          - "4.4"
+          - "12.85"
+          - "3.05"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1442
+        values:
+          - Anura
+          - Stumpffia_yanniki
+          - "Rakotoarison, A., Scherz, M. D., Glaw, F., Koehler, J., Andreone, F., Franzen, M., ... & Vences, M. (2017). Describing the smaller majority: integrative taxonomy reveals twenty-six new species of tiny microhylid frogs (genus Stumpffia) from Madagascar. Vertebrate Zoology, 67(3), 271-398."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6ZZV5
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

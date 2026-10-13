@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-e68e85dad0}
+The version 3 Amphibian database lists Leptopelis flavomaculatus in a source measurement table. Its classification fields read order = Anura, family = Arthroleptidae, genus = Leptopelis; the linked citation is in Reference.csv row 2487. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-d0e8f36eb2}
+Anura.csv rows 2766, 2767 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 2766 (F) = 52.3, row 2767 (M) = 39; HL: row 2766 (F) = 17.3, row 2767 (M) = 12.4; HW: row 2766 (F) = 22, row 2767 (M) = 16; other populated codes are ED, TD, ETD, IOD, IND, UEW, EN, SL, FLL, TL, THL, TSL, … (16 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

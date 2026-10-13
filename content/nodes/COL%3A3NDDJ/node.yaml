@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla tsinlingensis
+  displayName: Hyla tsinlingensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NDDJ
+  sourceIndexes:
+    - name:
+        en: Hyla tsinlingensis
+        zh: Hyla tsinlingensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NDDJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/372
+            queryName: Hyla tsinlingensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/389
+            queryName: Hyla annectans chuanxiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/390
+            queryName: Hyla gongshanensis chuanxiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/205
+            queryName: Hyla chuanxiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4142a4d73c
+      - s-565abf543b
+      - s-609af47289
+      - s-98f180e4bb
+      - s-e24ed3e2cf
+      - s-9f3efa93b7
+      - s-198f2d3a4f
+      - s-015396202b
+      - s-1fb5e6c68b
+      - s-95335c5f97
+      - s-5958363720
+      - s-1977619e46
+    zh:
+      - s-1e8e37c464
+      - s-ae9ff9adca
+      - s-5418bff3eb
+      - s-ff2a4c115c
+      - s-99d43c81c3
+      - s-19cb86d07a
+      - s-a3e6c3714b
+      - s-d16c2be6f5
+      - s-37556628a4
+      - s-8d0888b0ca
+      - s-9a56ff9dce
+      - s-a52e2a4f8a

@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Sparaxis calcicola Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage CF56M, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0001420920.
+      scope: Sparaxis as represented by COL26.8 usage CF56M. The cited regional flora treatment is retained as its own taxonomic and geographic scope; name agreement alone does not demonstrate complete circumscription equivalence.
+    lifeStatusScope:
+      wild: The regional flora account describes plants in the treatment region; native, naturalised, and cultivated occurrence are not inferred beyond statements in the cited record.
+      domesticated: No domestication history or cultivar evidence is assessed in this batch.
+      fossil: Fossil evidence is not assessed; no fossil occurrence or age is inferred from extant flora accounts.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/CF56M
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage CF56M
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001420920-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL CF56M / WFO wfo-0001420920
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi
+        referenceId: ref-9b2fad30-0ba4-8b88-abde-01c1fc5e185c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Strelitzia 42 (2020); species-linked SANBI/WFO archive rows 98778 (Morphology) and 97488 (Habitat), source identifier 18638.0
+          scope: Regional Cape flora treatment. Geographic and ecological statements retain the treatment scope; the source does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants mostly 120-220 mm high. Corm 8-14 mm diam., tunics of pale, fine fibres, often matted together. Stem usually unbranched or with 1(2) branches from base, occasionally also from middle of stem, without cormlets in lower axils. Leaves 5 to 8, obtuse to acute or obliquely apiculate, usually reaching to ± base of spike or sometimes shortly exceeding it, (3-)5-10 mm wide, with prominent main vein, sometimes with thickened margins. Spike 3- to 5-flowered, branches with fewer flowers, weakly flexuose, suberect; bracts dry, wrinkled, pale with dark brown streaks below, rust-brown above, outer 12-14 mm long, irregularly lacerate with 3 prominent cusps, inner 10-12 mm long, 2-cusped. Flowers zygomorphic, upper tepals creamy white, upper lateral and lower tepals yellow with dark mark at limb base, lightly lemon-scented; perianth tube obliquely funnel-shaped, curving outward above, 13-15 mm long; tepals unequal, dorsal largest, erect, 20-22 x 8-10 mm, widest in midline, upper laterals spreading at right angles to tube, 14-16 x ± 6 mm long, lower tepals united in lower 2-3 mm, narrowed at base of free part into claws ± 3 mm long, expanding abruptly into oblong limbs ± 10 mm x ± 5 mm, channelled in lower half, spreading horizontally. Stamens unilateral; filaments arched, ± 8 mm long, white; anthers ± 4 mm long; pollen creamy yellow. Style arching above filaments, white, dividing opposite anther tips, branches diverging to weakly recurved, ± 3 mm long, expanded apically and ciliate on margins, convolute below apex. Capsules barrel-shaped, (7-)9-11 mm long. Seeds 4 to 6 per locule, globose, yellowish brown, 2.2-2.5 mm diam.
+            textZh: Sparaxis calcicola Goldblatt & J.C.Manning 的 SANBI 区域植物志条目记录了其球茎、叶片及花部形态特征。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 42 (2020); SANBI/WFO archive Morphology record row 98778, source identifier 18638.0
+            placeTimeScope: Strelitzia 42 (2020) species account; regional treatment published 2020. The archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for every observation.
+        gaps:
+          - Only the cited regional flora account excerpt has been assessed; developmental, population-level and independent diagnostic variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Loamy soil in limestone pavement and in calcrete, in low scrub.
+            textZh: SANBI 区域植物志将该种的生境记为：Loamy soil in limestone pavement and in calcrete, in low scrub.
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 42 (2020); SANBI/WFO archive Habitat record row 97488, source identifier 18638.0
+            placeTimeScope: Strelitzia 42 (2020) species account; regional treatment published 2020. The archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for every observation.
+        gaps:
+          - Locality-level observations, seasonality, interactions, and variation across the full species range have not been assessed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

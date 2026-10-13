@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus abditaurantius
+  displayName: Hyloxalus abditaurantius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGWD
+  sourceIndexes:
+    - name:
+        en: Hyloxalus abditaurantius
+        zh: Hyloxalus abditaurantius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGWD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/77
+            queryName: Hyloxalus abditaurantius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/51
+            queryName: Colostethus abditaurantius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-80646c424d
+      - s-e4bcec0b15
+      - s-5ae50b8200
+      - s-257f2d8253
+      - s-75d4cb65f6
+      - s-983be45147
+      - s-ed1cf2eeeb
+      - s-2021283584
+    zh:
+      - s-5a6818ca11
+      - s-f38724c27b
+      - s-9e3d050bcd
+      - s-89a1be532f
+      - s-f4bf569c99
+      - s-b03bc9edcd
+      - s-8f01f6069a
+      - s-9b9eef5ea1

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax wandae
+  displayName: Scinax wandae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJZW
+  sourceIndexes:
+    - name:
+        en: Scinax wandae
+        zh: Scinax wandae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJZW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/86
+            queryName: Scinax wandae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/450
+            queryName: Hyla wandae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/451
+            queryName: Ololygon wandae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9bbe7de41f
+      - s-d43b662097
+      - s-ad555f4c24
+      - s-7bcf8d9b1a
+      - s-06e20c52d1
+      - s-9a98f671c7
+      - s-50c0d53682
+      - s-2eab400377
+      - s-59baea0264
+      - s-22d3571e60
+      - s-a0665cbc27
+      - s-ad3812647c
+    zh:
+      - s-7a004dc713
+      - s-9456b0da6d
+      - s-378eba43ab
+      - s-27d8bf4f2e
+      - s-eddbb0a402
+      - s-09b62e95c0
+      - s-716aaa2191
+      - s-c3ae80380c
+      - s-01b415f0d3
+      - s-1b2ce37593
+      - s-1bca85be58
+      - s-7b1825b44b

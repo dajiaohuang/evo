@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus cupricarenus
+  displayName: Cophixalus cupricarenus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43X
+  sourceIndexes:
+    - name:
+        en: Cophixalus cupricarenus
+        zh: Cophixalus cupricarenus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/442
+            queryName: Cophixalus cupricarenus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a1c8267202
+      - s-a44041a551
+      - s-9aa4b7e811
+      - s-3e275946d0
+      - s-831cc07382
+      - s-e52476cc17
+      - s-7ac7b9b822
+      - s-f1ede74039
+      - s-79eb205e90
+    zh:
+      - s-bdaec663af
+      - s-948e2261b4
+      - s-5878fba348
+      - s-4e47765017
+      - s-a43e3b699f
+      - s-42e7305072
+      - s-f436617fe3
+      - s-896f99203f
+      - s-e593d1e7f1

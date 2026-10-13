@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lynchius megacephalus
+  displayName: Lynchius megacephalus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3WSFL
+  sourceIndexes:
+    - name:
+        en: Lynchius megacephalus
+        zh: Lynchius megacephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3WSFL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/248
+            queryName: Lynchius megacephalus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-19cbdcf3b8
+      - s-9f521a9a76
+      - s-5ac25ad5c7
+      - s-85778714fb
+      - s-072c334c22
+      - s-2a68675327
+      - s-8987a94bec
+      - s-8dab87dfac
+      - s-a97f12bb86
+      - s-120fc83090
+    zh:
+      - s-b7c748b9f8
+      - s-3172f5ff2d
+      - s-bc3915cc34
+      - s-ab9564e3bd
+      - s-6dee0fe84f
+      - s-72f3cdd1c3
+      - s-b8b50fc519
+      - s-75c51c9c36
+      - s-c9b3d276cc
+      - s-aaea4bb113

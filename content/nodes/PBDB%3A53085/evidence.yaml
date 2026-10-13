@@ -1,0 +1,157 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Agkistrodon piscivorous
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Agkistrodon piscivorous
+      en: Agkistrodon piscivorous
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6a680f8a1b
+            part: body
+          en:
+            page: en
+            section: s-0588131280
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-abafc6593d
+            part: body
+          en:
+            page: en
+            section: s-7fb8931b6e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6176f2da47
+            part: body
+          en:
+            page: en
+            section: s-41f5d77b94
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a54e9a1bcb
+            part: body
+          en:
+            page: en
+            section: s-bb2608064d
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b2074ef277
+            part: body
+          en:
+            page: en
+            section: s-b0280797c7
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Agkistrodon piscivorous
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=53085&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:53085; original response record indices retained in data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 514f112902c399f610603231aa01670f6a662448389d5f94c43cb3b70ec452d6
+          pbdbTaxonId: txn:53085
+          selectedOccurrenceIds:
+            - occ:1111285
+            - occ:1197860
+            - occ:1197909
+          selectedCollectionIds:
+            - col:20638
+            - col:154921
+            - col:154922
+          sourceReferenceIds:
+            - ref:45624
+            - ref:50430
+            - ref:10101
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7fd7c76d1f
+        part: body
+      en:
+        page: en
+        section: s-81f8ff9ef4
+        part: body

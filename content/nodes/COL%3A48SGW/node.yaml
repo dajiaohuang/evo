@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana tormota
+  displayName: Odorrana tormota
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SGW
+  sourceIndexes:
+    - name:
+        en: Odorrana tormota
+        zh: Odorrana tormota
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SGW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/52
+            queryName: Odorrana tormota
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 84
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/410
+            queryName: Amolops tormotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/420
+            queryName: Rana tormotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/421
+            queryName: Wurana tormota
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 83
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/422
+            queryName: Bamburana tormota
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc3fb8355c
+      - s-eb6975f42d
+      - s-867109172a
+      - s-2810cc75e3
+      - s-a5b2e2fbdf
+      - s-f7575ff7f6
+      - s-873cc9d4c8
+      - s-0d15cdc9fe
+      - s-802dc77563
+      - s-52fb0c6d8d
+      - s-4d708fb7df
+    zh:
+      - s-3aab57a089
+      - s-6b529a43fa
+      - s-0f6fd462c1
+      - s-f3532b142b
+      - s-1eb3ec39e4
+      - s-6cfd2f7b5a
+      - s-dde0dd110d
+      - s-5d1efdf73e
+      - s-f7b0c33835
+      - s-762f544a9d
+      - s-e645e66592

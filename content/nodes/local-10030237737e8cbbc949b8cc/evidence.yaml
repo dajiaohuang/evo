@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella macrops
+    name:
+      en: Leptobrachella macrops
+      zh: Leptobrachella macrops
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a647aa81b5
+            part: body
+          zh:
+            page: zh
+            section: s-f645a171dc
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7cf5cadfe7
+            part: body
+          zh:
+            page: zh
+            section: s-76f06c2192
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2584, 2585; Reference.csv rows 626
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2584
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella macrops
+          - F
+          - "29.3"
+          - "10.3"
+          - "9.7"
+          - "2.75"
+          - "1.7"
+          - "1.05"
+          - "3.1"
+          - NA
+          - NA
+          - NA
+          - "3.8"
+          - NA
+          - "5.95"
+          - NA
+          - NA
+          - "11.4"
+          - NA
+          - "11.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.5"
+          - "4.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2585
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella macrops
+          - M
+          - "24.275"
+          - "9.4"
+          - "8.975"
+          - "2.675"
+          - "1.575"
+          - "0.9"
+          - "2.925"
+          - NA
+          - NA
+          - NA
+          - "3.575"
+          - NA
+          - "5.35"
+          - NA
+          - NA
+          - "10.075"
+          - NA
+          - "10.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.4"
+          - "4.125"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 626
+        values:
+          - Anura
+          - Leptobrachella_macrops
+          - "Duong, T. V., Do, D. T., Ngo, C. D., Nguyen, T. Q., & Poyarkov, N. A. (2018). A new species of the genus Leptolalax (Anura: Megophryidae) from southern Vietnam. Zoological Research, 39(3), 185-201. https://doi.org/10.24272/j.issn.2095-8137.2018.009"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - SL
+      - HAL
+      - FL
+      - TL
+      - Fin2L
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TK9Y
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus ruschii
+  displayName: Dendropsophus ruschii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S73
+  sourceIndexes:
+    - name:
+        en: Dendropsophus ruschii
+        zh: Dendropsophus ruschii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S73
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/416
+            queryName: Dendropsophus ruschii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/458
+            queryName: Hyla ruschii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa77afb933
+      - s-6bb7f6ca46
+      - s-235e1d8664
+      - s-0311d45f9e
+      - s-acaaaf3299
+      - s-3d0f724f57
+      - s-e9c9113c4d
+      - s-3a242f710c
+      - s-a4e8f4266b
+      - s-d41fd5477e
+      - s-43e822b972
+      - s-697bd55680
+      - s-f5c2960132
+      - s-a3214e5ab1
+      - s-b0e00244c0
+      - s-5422e02d42
+      - s-e2654ae4f7
+    zh:
+      - s-6423018df7
+      - s-bfabcb7f0f
+      - s-9d1ba270d7
+      - s-3b1353290b
+      - s-ebf90ca244
+      - s-239fce8783
+      - s-31191fd0d1
+      - s-34674205d7
+      - s-2d12afa905
+      - s-ff1c959ff3
+      - s-a683200a1d
+      - s-147d5c1f69
+      - s-1b38b5af31
+      - s-2be49a6869
+      - s-cdbf9f5881
+      - s-86d075a682
+      - s-6b18542a63

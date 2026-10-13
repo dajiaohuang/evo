@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis llanganati
+  displayName: Pristimantis llanganati
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJGX
+  sourceIndexes:
+    - name:
+        en: Pristimantis llanganati
+        zh: Pristimantis llanganati
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJGX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/370
+            queryName: Pristimantis llanganati
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b8ccf9d34
+      - s-c29ed47f74
+      - s-1898c7d983
+      - s-fc6517cb6f
+      - s-0e4cb420b9
+      - s-42ab888080
+      - s-8e4aaf2b39
+      - s-25ec89c82d
+    zh:
+      - s-99a1d14fba
+      - s-4b4ccc6755
+      - s-a80fe477ee
+      - s-ab66be2723
+      - s-ce37539e37
+      - s-d99c7555e8
+      - s-0cd98a05bf
+      - s-15da63c5e0

@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Sanguirana sanguinea
+    name:
+      en: Sanguirana sanguinea
+      zh: Sanguirana sanguinea
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Sanguirana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-031e43206a
+            part: body
+          zh:
+            page: zh
+            section: s-75bff2c3ea
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-700f65e97b
+            part: body
+          zh:
+            page: zh
+            section: s-6a0feee08e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5521; Reference.csv rows 4024
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5521
+        values:
+          - Ranidae
+          - Sanguirana
+          - Sanguirana sanguinea
+          - M
+          - "30.4"
+          - "15.1"
+          - "12.7"
+          - "3.6"
+          - "3.2"
+          - NA
+          - "3.8"
+          - "4.3"
+          - NA
+          - NA
+          - "7.7"
+          - NA
+          - NA
+          - "9.3"
+          - NA
+          - NA
+          - NA
+          - "26.1"
+          - "23.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "19.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.2"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4024
+        values:
+          - Anura
+          - Sanguirana_sanguinea
+          - Fuiten, A., Welton, L., Diesmos, A., Barley, A., Oberheide, B., Duya, M., . . . Brown, R. (2011). A new species of stream frog (Sanguirana) from the mountains of Luzon Island, Philippines. Herpetologica, 67, 89-103. https://doi.org/10.1655/HERPETOLOGICA-D-10-00042.1
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - SL
+      - FLL
+      - TL
+      - THL
+      - Toe4L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 79HD7
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

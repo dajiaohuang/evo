@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hemiphractus elioti
+    name:
+      en: Hemiphractus elioti
+      zh: Hemiphractus elioti
+    sourceClassification:
+      order: Anura
+      family: Hemiphractidae
+      genus: Hemiphractus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3582b8562d
+            part: body
+          zh:
+            page: zh
+            section: s-5ecf96119c
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-585eedb2ab
+            part: body
+          zh:
+            page: zh
+            section: s-68f9ee3445
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2087, 2088; Reference.csv rows 3711
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2087
+        values:
+          - Hemiphractidae
+          - Hemiphractus
+          - Hemiphractus elioti
+          - F
+          - "62"
+          - "28.5"
+          - "32.1"
+          - "7.4"
+          - "3.4"
+          - NA
+          - "10.8"
+          - NA
+          - "5.6"
+          - "6.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "29.1"
+          - NA
+          - "32.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2088
+        values:
+          - Hemiphractidae
+          - Hemiphractus
+          - Hemiphractus elioti
+          - M
+          - "46.2"
+          - "21.5"
+          - "24"
+          - "6"
+          - "3.7"
+          - NA
+          - "8"
+          - NA
+          - "4.4"
+          - "5.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "22.1"
+          - NA
+          - "24.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3711
+        values:
+          - Anura
+          - Hemiphractus_elioti
+          - "Hill, R. L., Martin, K. G., Stanley, E., & Mendelson, J. R. I. (2018). A taxonomic review of the genus Hemiphractus (Anura: Hemiphractidae) in Panama: description of two new species, resurrection of Hemiphractus panamensis (Stejneger, 1917), and discussion of Hemiphractus fasciatus peters, 1862. Zootaxa, 4429(3), 495-512. doi:10.11646/zootaxa.4429.3.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3KRRX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes
+  displayName: Alsodes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SXN
+  sourceIndexes:
+    - name:
+        en: Alsodes
+        zh: Alsodes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SXN
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/132
+            queryName: Alsodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 54
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-990c0c381a
+      - s-75e28a92db
+      - s-badcc2d9d9
+      - s-1f3bc19795
+      - s-dc49b3f6de
+      - s-af2a047897
+      - s-e7ecdf6bba
+      - s-75e9ebf064
+      - s-a1c05e2918
+      - s-bbcaec65d8
+      - s-e73cd6a21a
+      - s-aa4a574eea
+      - s-3601ce0a19
+      - s-db58a68ab4
+      - s-b426e24faa
+      - s-8989ac9085
+      - s-924ee764ee
+      - s-220f81a4cf
+      - s-e85b18f0cf
+      - s-07ff774bae
+      - s-cddcdb7c8f
+      - s-4b81cecf59
+      - s-013610ddb6
+      - s-cdbe3e703b
+      - s-156f2656b6
+      - s-af2fa66f83
+    zh:
+      - s-14f2110075
+      - s-e998146613
+      - s-e7980f3b55
+      - s-92b71e7c96
+      - s-49f0a14bfa
+      - s-e9c9418d8d
+      - s-aa477d8b6d
+      - s-0f2ba4f9df
+      - s-5831bfda84
+      - s-c67b5fabb4
+      - s-2c84db2810
+      - s-b160958e80
+      - s-5efccbff10
+      - s-83880ad455
+      - s-0d7b09e823
+      - s-38b312c5f6
+      - s-0d0b762d6a
+      - s-0421ef6ecd
+      - s-b776bb2814
+      - s-76167a7568
+      - s-681c2612a0
+      - s-9c6f65aae1
+      - s-c3da227725
+      - s-be0a4bcdb8
+      - s-de1ae99d75
+      - s-f3d9307c18

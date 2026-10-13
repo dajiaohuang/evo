@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiopus
+  displayName: Scaphiopus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7D2Y
+  sourceIndexes:
+    - name:
+        en: Scaphiopus
+        zh: Scaphiopus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7D2Y
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/249
+            queryName: Scaphiopus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 277
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-97e71d687f
+      - s-410af8d25d
+      - s-65740c6022
+      - s-0a991f3c77
+      - s-538625f9f7
+      - s-10861beac5
+      - s-ab4a671097
+      - s-cc995b9c62
+      - s-2d0e0387be
+      - s-8985e35cc0
+      - s-f2e152c1d2
+      - s-815f67c014
+    zh:
+      - s-e1374b90e6
+      - s-b2a343d12d
+      - s-76bfa71368
+      - s-c2a25cd597
+      - s-9c8c9d0632
+      - s-1b09435925
+      - s-09915f612a
+      - s-fc39c59fc3
+      - s-deabf8a2a9
+      - s-54956f6b4d
+      - s-f423b878a0
+      - s-6188513e7a

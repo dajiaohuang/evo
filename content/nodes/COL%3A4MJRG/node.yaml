@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis vinhai
+  displayName: Pristimantis vinhai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJRG
+  sourceIndexes:
+    - name:
+        en: Pristimantis vinhai
+        zh: Pristimantis vinhai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJRG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/172
+            queryName: Pristimantis vinhai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/97
+            queryName: Eleutherodactylus vinhai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/449
+            queryName: Ischnocnema vinhai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41f776c617
+      - s-6ae36365a5
+      - s-ce5e621798
+      - s-0322f6195b
+      - s-203966356a
+      - s-2d32e0bc47
+      - s-60709352f3
+      - s-63649cb6a9
+      - s-9ea9a81f01
+      - s-d79317ab5b
+    zh:
+      - s-6c0fe001c2
+      - s-b6faa99784
+      - s-6b12ee4edd
+      - s-00a1c93a35
+      - s-8c4e2220be
+      - s-44acc8c1b6
+      - s-0a3cfffd84
+      - s-5d4883e38e
+      - s-09b19b2b69
+      - s-b31101cb3c

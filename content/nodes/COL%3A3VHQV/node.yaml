@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates sierramadrensis
+  displayName: Lithobates sierramadrensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQV
+  sourceIndexes:
+    - name:
+        en: Lithobates sierramadrensis
+        zh: Lithobates sierramadrensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/194
+            queryName: Lithobates sierramadrensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/227
+            queryName: Rana sierramadrensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7ea6ad9d2
+      - s-893e0d927e
+      - s-e9c084ec93
+      - s-fccc196150
+      - s-08748f9b36
+      - s-890da10439
+      - s-5faf6a6e8c
+      - s-2e52e5631e
+    zh:
+      - s-2f43d6bcae
+      - s-4774cf381f
+      - s-dd6332db0f
+      - s-05014dac39
+      - s-554170c010
+      - s-e86fa33ac4
+      - s-1db799e1d0
+      - s-389ee0a322

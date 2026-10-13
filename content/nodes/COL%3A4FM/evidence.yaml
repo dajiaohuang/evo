@@ -1,0 +1,444 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Strepsirrhini
+    commonName: Living Strepsirrhine Line
+    commonNameZh: 现生湿鼻猴支系
+    rank: suborder
+    taxonId: txn:89317
+    firstAppearance: 66.8
+    lastAppearance: 0
+    extinct: false
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:strepsirrhini
+      claimKind: scientific
+      claimType: topology
+      statement: A 367-species molecular supermatrix strongly supports Strepsirrhini within the sampled living primates, but the tree omits extinct diversity and inherits the study’s 2012 species concepts; it does not date a fossil first appearance.
+      confidence: medium
+      confidenceRationale: The primary analysis explicitly samples 69 nuclear segments and 10 mitochondrial sequences. Scope is restricted to its living species matrix.
+      referenceLinks:
+        - relation: supports
+          referenceId: springer-2012-primate-supermatrix
+          pages: Article e49521
+          figure: Figures 1–2
+          quoteLocator: Taxon sampling; molecular phylogeny results
+  claim-rationales.zh:
+    - 一手分析明确取样 69 个核基因片段和 10 条线粒体序列；范围仅限于其现生物种矩阵。
+  claim-statements.zh:
+    - 一套覆盖 367 个物种的分子超级矩阵在取样现生灵长类中强烈支持湿鼻亚目，但该树不含灭绝多样性并继承研究的 2012 年物种概念；它不测定化石首现。
+  ranges:
+    - entityId: strepsirrhini
+      rangeKind: global-composite
+      taxonomicConcept: strepsirrhini — source-bounded sample window — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former navigation numbers are withdrawn because the living-primate supermatrix does not supply a range-fit fossil start. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: springer-2012-primate-supermatrix
+          locator: Article e49521; Taxon sampling; molecular phylogeny results
+      evidenceLevel: withheld-no-range-evidence
+  catalogue-profile:
+    scientificName: Strepsirrhini
+    rank: suborder
+    sourceDatasetId: "2144"
+    name:
+      zh: Strepsirrhini
+      en: Strepsirrhini
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-988fbf6eb2
+            part: body
+          en:
+            page: en
+            section: s-987f5fb864
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-dec1fc2383
+            part: body
+          en:
+            page: en
+            section: s-ebe90fcdfd
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-275b596094
+            part: body
+          en:
+            page: en
+            section: s-46068d693d
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-2f604acc6a
+            part: body
+          en:
+            page: en
+            section: s-b8f4d0cf85
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-e6cffbd076
+            part: body
+          en:
+            page: en
+            section: s-99df94bb28
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-c6c7e944ec
+            part: body
+          en:
+            page: en
+            section: s-203afe66c5
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-6c8e148c42
+            part: body
+          en:
+            page: en
+            section: s-118fade291
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-c94c335cd6
+            part: body
+          en:
+            page: en
+            section: s-d18f33922d
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-321613b84c
+            part: body
+          en:
+            page: en
+            section: s-22005aea87
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-6a94702b4a
+            part: body
+          en:
+            page: en
+            section: s-2106227be1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Strepsirrhini
+          url: https://www.checklistbank.org/dataset/316115/taxon/4FM
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 20 authored entries grouped under Strepsirrhini by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 55 authored same-name records placed under Strepsirrhini by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 72 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 65
+            foraging: 72
+            activity: 72
+          readingTargets:
+            - name: Allocebus trichotis
+              colId: BVDB
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3ABVDB
+            - name: Cheirogaleus crossleyi
+              colId: 5XRNW
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5XRNW
+            - name: Cheirogaleus major
+              colId: 69RNW
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A69RNW
+            - name: Cheirogaleus medius
+              colId: 5XRNX
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5XRNX
+            - name: Cheirogaleus minusculus
+              colId: 5Y3NY
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5Y3NY
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 3 authored entries grouped under Strepsirrhini by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 3CHNM
+              name: Euoticus pallidus
+              canonicalPath: content/nodes/COL%3A3CHNM
+            - colId: 3F2D4
+              name: Galago gallarum
+              canonicalPath: content/nodes/COL%3A3F2D4
+            - colId: 5W3R4
+              name: Arctocebus aureus
+              canonicalPath: content/nodes/COL%3A5W3R4
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 7 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 42SC2
+              name: Microcebus rufus
+              canonicalPath: content/nodes/COL%3A42SC2
+            - colId: 34B7X
+              name: Daubentonia madagascariensis
+              canonicalPath: content/nodes/COL%3A34B7X
+            - colId: 6GXNZ
+              name: Eulemur rubriventer
+              canonicalPath: content/nodes/COL%3A6GXNZ
+            - colId: 6GXNY
+              name: Eulemur macaco
+              canonicalPath: content/nodes/COL%3A6GXNY
+            - colId: 6H9MJ
+              name: Eulemur coronatus
+              canonicalPath: content/nodes/COL%3A6H9MJ
+          fieldAccountCounts:
+            gestation(mo): 5
+            newborn(g): 6
+            weaning(mo): 4
+            wean mass(g): 1
+            AFR(mo): 4
+            max. life(mo): 3
+            litter size: 6
+            litters/year: 5
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-f9e438d347
+        part: body
+      en:
+        page: en
+        section: s-8af308a44b
+        part: body

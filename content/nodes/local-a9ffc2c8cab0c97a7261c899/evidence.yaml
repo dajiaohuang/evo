@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rhinella inopina
+    name:
+      en: Rhinella inopina
+      zh: Rhinella inopina
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Rhinella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Rhinella inopina in the morphology deposit
+          zh: 形态数据中的 Rhinella inopina 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-00d642c1ea
+            part: body
+          zh:
+            page: zh
+            section: s-3bfb8d8c51
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5407 and 5408: measurement fields and sex codes"
+          zh: 第 5407、5408 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d806f41d1d
+            part: body
+          zh:
+            page: zh
+            section: s-8cc50532ac
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5407, 5408; Reference.csv rows 2732
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5407
+        values:
+          - Bufonidae
+          - Rhinella
+          - Rhinella inopina
+          - F
+          - "113.1"
+          - "33.9"
+          - "41.9"
+          - "7.2"
+          - "7.2"
+          - "3.4"
+          - "15.2"
+          - "6.8"
+          - "7.6"
+          - "7.4"
+          - NA
+          - NA
+          - "12"
+          - "24.9"
+          - NA
+          - NA
+          - NA
+          - "45.1"
+          - "44.7"
+          - "24.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "33.4"
+          - NA
+      - rowNumber: 5408
+        values:
+          - Bufonidae
+          - Rhinella
+          - Rhinella inopina
+          - M
+          - "88.5"
+          - "25.3"
+          - "31.3"
+          - "6.6"
+          - "5.2"
+          - "2.5"
+          - "11.8"
+          - "5.2"
+          - "6.2"
+          - "5.6"
+          - NA
+          - NA
+          - "9.8"
+          - "20.3"
+          - NA
+          - NA
+          - NA
+          - "37.9"
+          - "37.3"
+          - "19.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "27.7"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2732
+        values:
+          - Anura
+          - Rhinella_inopina
+          - "Vaz-Silva, W., Valdujo, P., & Pombal, J. (2012). New species of the Rhinella crucifer group (Anura, Bufonidae) from the Brazilian Cerrado. Zootaxa, 3265, 57-65. https://doi.org/10.11646/zootaxa.3265.1.4 "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - HAL
+      - FLL
+      - TL
+      - THL
+      - TSL
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4S7NF
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

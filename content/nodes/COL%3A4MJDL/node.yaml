@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis eremitus
+  displayName: Pristimantis eremitus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJDL
+  sourceIndexes:
+    - name:
+        en: Pristimantis eremitus
+        zh: Pristimantis eremitus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJDL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/255
+            queryName: Pristimantis eremitus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/346
+            queryName: Eleutherodactylus eremitus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ea9358f589
+      - s-81f60c2ebb
+      - s-4e64cd793f
+      - s-ce8778bd98
+      - s-85d9778c8a
+      - s-bafbc4bdec
+      - s-d300aad760
+      - s-aba6b25967
+      - s-59f35c47ae
+    zh:
+      - s-a0daa954e2
+      - s-c55302bbe5
+      - s-db017e119f
+      - s-3cf8e43cec
+      - s-919cd1f608
+      - s-e31426154a
+      - s-fb078963c0
+      - s-b2e16ce780
+      - s-14b36209ae

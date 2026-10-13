@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus fuscolineatus
+  displayName: Brachycephalus fuscolineatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WQ9Z
+  sourceIndexes:
+    - name:
+        en: Brachycephalus fuscolineatus
+        zh: Brachycephalus fuscolineatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WQ9Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/413
+            queryName: Brachycephalus fuscolineatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0be34dbb11
+      - s-82a8e0d6b6
+      - s-89fe90ad31
+      - s-ebd9f181f4
+      - s-2c697bea2e
+      - s-ca872e9b15
+      - s-0d974642a3
+      - s-7eb1e5fe94
+      - s-9231d1f701
+      - s-edbeeb7b0a
+      - s-c5d988d5ad
+      - s-4cbacc185b
+      - s-d69a0c0c56
+    zh:
+      - s-7162b29fe9
+      - s-00ae05e476
+      - s-963069fb45
+      - s-6ad56315f4
+      - s-3b13a9de50
+      - s-b21b8da3c8
+      - s-c08907c659
+      - s-00c623776c
+      - s-42ef1cfa1a
+      - s-6d142fb66c
+      - s-6f0ef98ed8
+      - s-04d999ae65
+      - s-dbb8dbb3e1

@@ -1,0 +1,532 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amolops hainanensis (Boulenger, 1900)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amolops hainanensis
+      zh: Amolops hainanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1888c044b1
+            part: title
+          zh:
+            page: zh
+            section: s-3e0698596a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1888c044b1
+            part: body
+          zh:
+            page: zh
+            section: s-3e0698596a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1223b47a82
+            part: title
+          zh:
+            page: zh
+            section: s-13f202aad9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1223b47a82
+            part: body
+          zh:
+            page: zh
+            section: s-13f202aad9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c7c46e290b
+            part: title
+          zh:
+            page: zh
+            section: s-53cacede87
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-c7c46e290b
+            part: body
+          zh:
+            page: zh
+            section: s-53cacede87
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-dcd6a8f081
+            part: title
+          zh:
+            page: zh
+            section: s-9e05e4ef27
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-dcd6a8f081
+            part: body
+          zh:
+            page: zh
+            section: s-9e05e4ef27
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-8414714dbf
+            part: title
+          zh:
+            page: zh
+            section: s-6fbb633cfe
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-8414714dbf
+            part: body
+          zh:
+            page: zh
+            section: s-6fbb633cfe
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-a41e4ed0fe
+            part: title
+          zh:
+            page: zh
+            section: s-968c155c26
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-a41e4ed0fe
+            part: body
+          zh:
+            page: zh
+            section: s-968c155c26
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-51cf146613
+            part: title
+          zh:
+            page: zh
+            section: s-de1d062cfa
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-51cf146613
+            part: body
+          zh:
+            page: zh
+            section: s-de1d062cfa
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-ff58333fd557cbd5d4a96adaf8003b59
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-4a17b5c92ae3243cfdd72117
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-b2a581fb1783084b0544b0cd
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2e5456cc06
+            part: title
+          zh:
+            page: zh
+            section: s-8ab36c3f13
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-2e5456cc06
+            part: body
+          zh:
+            page: zh
+            section: s-8ab36c3f13
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-163bc67046
+            part: title
+          zh:
+            page: zh
+            section: s-a61d0327f2
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-163bc67046
+            part: body
+          zh:
+            page: zh
+            section: s-a61d0327f2
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0fedc12a27
+            part: title
+          zh:
+            page: zh
+            section: s-dc54cbb4c3
+            part: title
+        sourceIds:
+          - primary-pmc10351143-66dy7
+        text:
+          en:
+            page: en
+            section: s-0fedc12a27
+            part: body
+          zh:
+            page: zh
+            section: s-dc54cbb4c3
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-956b33ab58
+            part: title
+          zh:
+            page: zh
+            section: s-00f556c4c2
+            part: title
+        sourceIds:
+          - primary-pmc10351143-66dy7
+        text:
+          en:
+            page: en
+            section: s-956b33ab58
+            part: body
+          zh:
+            page: zh
+            section: s-00f556c4c2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amolops hainanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/66DY7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4721; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4724 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4461; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 259, 260; Reference.csv rows 3752
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10351143-66dy7
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amolops hainanensis: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a792115551
+        part: body
+      zh:
+        page: zh
+        section: s-f8f135095d
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-1fd33b42eb56f5ea82522f14b74b5e50
+      sourceRowId: Anf4721
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4721
+        bibliographyRowId: Anf4724
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Amolops formosus
+        candidateBibliographyRowIds:
+          - Anf4724
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-4a17b5c92ae3243cfdd72117
+        scientificName: Amolops hainanensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-0b9ad95f7606b62405bee0f4
+        scientificName: Amolops hainanensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1186/s40851-023-00214-9
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        sourceKey: primary-pmc10351143-66dy7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10351143/article.xml
+        sourceConcept: Exactnamed2023comparison/donorrow;authorcomparisonnotnewwhole-speciesmeasurementorconceptauthentication
+        evidenceRead: "Amolops hainanensis: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Characters in the dated group comparison
+              zh: 有年代群比较中的性状
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-66dy7
+            locator: PMC10351143 article.xml Sec20p13;Sec4p1 comparative-source scope;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f77708fccb
+                part: body
+              zh:
+                page: zh
+                section: s-868ddaf587
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: A source donor with uneven locus coverage
+              zh: 位点覆盖不均匀的来源供体
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-66dy7
+            locator: PMC10351143 article.xml Tab1 row12 allsixcolumns;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9b32a8254f
+                part: body
+              zh:
+                page: zh
+                section: s-8def40093c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

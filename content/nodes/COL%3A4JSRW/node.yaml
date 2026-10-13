@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis spelaeus
+  displayName: Platymantis spelaeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSRW
+  sourceIndexes:
+    - name:
+        en: Platymantis spelaeus
+        zh: Platymantis spelaeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSRW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/400
+            queryName: Platymantis spelaeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/45
+            queryName: Platymantis spelaea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ef8ea2b4ee
+      - s-5854121f9a
+      - s-5e67ed6d71
+      - s-53b9ef3c76
+      - s-18d8ad9759
+      - s-0ab3f56315
+      - s-125394fe08
+      - s-49dc31fc9a
+      - s-66278ac8a7
+    zh:
+      - s-e1733db418
+      - s-5c352ea926
+      - s-d3d24a77d9
+      - s-4133c0d1c0
+      - s-205834dfcb
+      - s-3772832d1f
+      - s-3aa4d5be0f
+      - s-7e1026cb78
+      - s-cc76cee88f

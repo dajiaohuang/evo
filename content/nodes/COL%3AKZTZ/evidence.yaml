@@ -1,0 +1,485 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Batrachyla antartandica Barrio, 1967
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Batrachyla antartandica
+      zh: Batrachyla antartandica
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0ef4756382
+            part: title
+          zh:
+            page: zh
+            section: s-5f7c77ba9e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0ef4756382
+            part: body
+          zh:
+            page: zh
+            section: s-5f7c77ba9e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ef6b5f3af1
+            part: title
+          zh:
+            page: zh
+            section: s-8ee59d2134
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ef6b5f3af1
+            part: body
+          zh:
+            page: zh
+            section: s-8ee59d2134
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-90c5745272
+            part: title
+          zh:
+            page: zh
+            section: s-df641bf6fd
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-90c5745272
+            part: body
+          zh:
+            page: zh
+            section: s-df641bf6fd
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-68496fa8d5772147d9ceaed9c90bfe63
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d6205aba12
+            part: title
+          zh:
+            page: zh
+            section: s-78bcea9bb8
+            part: title
+        sourceIds:
+          - primary-pmc10968267-kztz
+        text:
+          en:
+            page: en
+            section: s-d6205aba12
+            part: body
+          zh:
+            page: zh
+            section: s-78bcea9bb8
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-de6b1cd31b
+            part: title
+          zh:
+            page: zh
+            section: s-75cec20261
+            part: title
+        sourceIds:
+          - primary-pmc10968267-kztz
+        text:
+          en:
+            page: en
+            section: s-de6b1cd31b
+            part: body
+          zh:
+            page: zh
+            section: s-75cec20261
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fae24ce22d
+            part: title
+          zh:
+            page: zh
+            section: s-d2bf6b0e26
+            part: title
+        sourceIds:
+          - primary-pmc11117230-kztz
+        text:
+          en:
+            page: en
+            section: s-fae24ce22d
+            part: body
+          zh:
+            page: zh
+            section: s-d2bf6b0e26
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0920e5cc01
+            part: title
+          zh:
+            page: zh
+            section: s-c26a2346f9
+            part: title
+        sourceIds:
+          - primary-pmc11117230-kztz
+        text:
+          en:
+            page: en
+            section: s-0920e5cc01
+            part: body
+          zh:
+            page: zh
+            section: s-c26a2346f9
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-eeb607b1cb
+            part: title
+          zh:
+            page: zh
+            section: s-da80b8c175
+            part: title
+        sourceIds:
+          - primary-pmc11117230-kztz
+        text:
+          en:
+            page: en
+            section: s-eeb607b1cb
+            part: body
+          zh:
+            page: zh
+            section: s-da80b8c175
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-55a31f63de
+            part: title
+          zh:
+            page: zh
+            section: s-95aa2eb973
+            part: title
+        sourceIds:
+          - primary-pmc11117230-kztz
+        text:
+          en:
+            page: en
+            section: s-55a31f63de
+            part: body
+          zh:
+            page: zh
+            section: s-95aa2eb973
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Batrachyla antartandica
+          url: https://www.checklistbank.org/dataset/316115/taxon/KZTZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1150; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1150 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10968267-kztz
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Batrachyla antartandica: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc11117230-kztz
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Batrachyla antartandica: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1a22121b01
+        part: body
+      zh:
+        page: zh
+        section: s-cac8009815
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/biology13030169
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        sourceKey: primary-pmc10968267-kztz
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10968267/article.xml
+        sourceConcept: 2024 Chile literature-assessed Batrachyla antartandica; source-selected taxonomic concepts, not independent current-status certification
+        evidenceRead: "Batrachyla antartandica: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A dated multicriteria conservation priority
+              zh: 有日期的多准则保育优先级
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-kztz
+            locator: PMC10968267 XML Methods2.1–2.3; Results Table4 row Batrachyla antartandica
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-99f8707451
+                part: body
+              zh:
+                page: zh
+                section: s-3c3e5ee705
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: The population and protection scores retain their source limits
+              zh: 种群及保护评分保留来源限制
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-kztz
+            locator: PMC10968267 XML Methods2.2/Table2; Results Table3 row Batrachyla antartandica; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7f66196b72
+                part: body
+              zh:
+                page: zh
+                section: s-c39abe57a0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani14101406
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        sourceKey: primary-pmc11117230-kztz
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/article.xml
+        sourceConcept: 2024 TableS1 exact-name Batrachyla antartandica paired-stage image/literature compilation; vouchers and cross-revision biological identity not independently certified
+        evidenceRead: "Batrachyla antartandica: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A larval image record with explicit provenance
+              zh: 具有明确来源的幼体图像记录
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-kztz
+            locator: PMC11117230 supplementary TableS1 PDF page1 row18 Batrachyla antartandica tadpoleSource/Voucher columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bf08b9ac5a
+                part: body
+              zh:
+                page: zh
+                section: s-9599d7e691
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Adult measurements preserve source type and sex limits
+              zh: 成体测量保留来源类型及性别限制
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-kztz
+            locator: PMC11117230 supplementary TableS1 PDF page1 row18 adultSource/Voucher/Sex columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3b79a2f084
+                part: body
+              zh:
+                page: zh
+                section: s-8a1f46e296
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Larval guild and adult ecomorph are separate source categories
+              zh: 幼体功能群及成体生态型是分开来源类别
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-kztz
+            locator: PMC11117230 supplementary TableS1 PDF page1 row18 Guild/Ecomorph; page1 caption; XML Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ae6242cd19
+                part: body
+              zh:
+                page: zh
+                section: s-e8ee209523
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Paired-stage comparisons do not establish complete developmental independence
+              zh: 配对阶段比较不确立完全发育独立
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-kztz
+            locator: PMC11117230 XML Results3.2–3.3; Tables1–2; Discussion; supplementary TableS2/S3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2258df5203
+                part: body
+              zh:
+                page: zh
+                section: s-74d301ca4a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

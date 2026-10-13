@@ -1,0 +1,183 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Coragyps occidentalis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Coragyps occidentalis
+      en: Coragyps occidentalis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6003cc96c9
+            part: body
+          en:
+            page: en
+            section: s-4c891ce936
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8df20caa83
+            part: body
+          en:
+            page: en
+            section: s-284c03e4af
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5ff84fdc45
+            part: body
+          en:
+            page: en
+            section: s-a0dbf18741
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-153332f335
+            part: body
+          en:
+            page: en
+            section: s-67f5ead928
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9cffa7782e
+            part: body
+          en:
+            page: en
+            section: s-7990d91725
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Coragyps occidentalis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=291538&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:291538; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:291538
+          selectedOccurrenceIds:
+            - occ:665517
+            - occ:709900
+            - occ:1083786
+            - occ:1201093
+            - occ:1550459
+            - occ:1550517
+            - occ:1550605
+            - occ:1555405
+            - occ:1671603
+            - occ:1672001
+            - occ:1672070
+          selectedCollectionIds:
+            - col:71670
+            - col:76059
+            - col:20491
+            - col:20595
+            - col:44954
+            - col:190077
+            - col:218989
+            - col:155393
+            - col:192630
+            - col:152008
+            - col:161536
+          sourceReferenceIds:
+            - ref:24234
+            - ref:25748
+            - ref:43539
+            - ref:50707
+            - ref:75467
+            - ref:50708
+            - ref:76348
+            - ref:89843
+            - ref:89882
+          originalIdentificationMappings:
+            - occurrenceId: occ:1550517
+              originalIdentifiedName: Catharista occidentalis n. sp.
+              acceptedName: Coragyps occidentalis
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-dad263c20e
+        part: body
+      en:
+        page: en
+        section: s-ab5e2611da
+        part: body

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus sabarimalai
+  displayName: Nyctibatrachus sabarimalai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485GR
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus sabarimalai
+        zh: Nyctibatrachus sabarimalai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485GR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/362
+            queryName: Nyctibatrachus sabarimalai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-89857757f1
+      - s-eef0fabb48
+      - s-d1b0134bdf
+      - s-0d0e52d972
+      - s-dccb194169
+    zh:
+      - s-ac0eebaab3
+      - s-b8ca0810eb
+      - s-6b0c3e67a1
+      - s-1ad1e54dff
+      - s-9ff0012039

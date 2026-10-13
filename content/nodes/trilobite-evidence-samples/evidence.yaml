@@ -1,0 +1,121 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-03ffc3d783
+            part: title
+          zh:
+            page: zh
+            section: s-f0acc91979
+            part: title
+        text:
+          en:
+            page: en
+            section: s-03ffc3d783
+            part: body
+          zh:
+            page: zh
+            section: s-f0acc91979
+            part: body
+        claimIds:
+          - claim:taxon:trilobite-evidence-samples
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-d088eed68e
+            part: title
+          zh:
+            page: zh
+            section: s-ceeb6ab8b9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d088eed68e
+            part: body
+          zh:
+            page: zh
+            section: s-ceeb6ab8b9
+            part: body
+        claimIds:
+          - claim:taxon:trilobite-evidence-samples:fossil-range
+    scientificName: Trilobite primary-evidence samples
+    name:
+      en: Trilobite primary-evidence samples
+      zh: Trilobite primary-evidence samples
+    rank: navigation group
+  atlas-node:
+    name: Trilobite primary-evidence samples
+    commonName: Trilobite Evidence Samples
+    commonNameZh: 三叶虫主证据样本
+    rank: navigation group
+    taxonId: ""
+    firstAppearance: 521
+    lastAppearance: 443
+    extinct: true
+    entityKind: navigation-group
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:trilobite-evidence-samples
+      claimKind: scientific
+      claimType: topology
+      statement: The trilobite evidence-samples entity is a navigation group linking the early-trilobite morphology matrix and approximately 521 Ma widespread sampled record to specimen dossiers. It is not a taxon, direct ancestor route, Precambrian absence test, global FAD or complete Trilobita range.
+      confidence: medium
+      confidenceRationale: Medium confidence applies to the cited matrix, widespread sampled appearance and concrete locator. The navigation grouping is editorial and the paper's clock result remains an analytical estimate rather than a direct origin date.
+      referenceLinks:
+        - referenceId: holmes-budd-2022-early-trilobites
+          relation: supports
+          pages: 7:1177
+          figure: Figures 1–4; Supplementary analyses
+          quoteLocator: Early-euarthropod matrix; approximately 521 Ma widespread trilobite appearance; divergence-time tests
+    - subjectId: taxon:trilobite-evidence-samples
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 521–443 Ma trilobite evidence route is a navigation envelope between separate early-trilobite and Beecher's Bed samples, not a lineage duration or continuous occurrence series.
+      confidence: medium
+      confidenceRationale: Both endpoint studies provide concrete sample ages, but their different taxa and localities require an explicitly editorial navigation interpretation.
+      referenceLinks:
+        - referenceId: holmes-budd-2022-early-trilobites
+          relation: supports
+          pages: Article 1177
+          figure: Figures 1–4
+          quoteLocator: Abstract and Introduction, widespread early trilobite record at approximately 521 Ma
+        - referenceId: hou-2021-trilobite-gill
+          relation: supports
+          pages: Article eabe7377
+          figure: Figures 1–5 and supplement
+          quoteLocator: Beecher's Bed Triarthrus sample within 450–443 Ma
+  claim-rationales.zh:
+    - 置信度为中：所引矩阵、广布抽样出现及具体定位器直接有据；导航分组属于编辑组织，论文的时钟结果仍是分析估计而非直接起源日期。
+    - 两端论文给出具体样本年代，但分类与地点不同，因此只能作为明确标注的编辑性导航包络。
+  claim-statements.zh:
+    - 三叶虫证据样本实体是导航组，把早期三叶虫形态矩阵及约 5.21 亿年前的广布抽样记录连接到标本档案；它不是分类单元、直接祖先路线、前寒武纪缺失检验、全球首现或三叶虫完整延限。
+    - 521–443 Ma 的三叶虫证据路线连接彼此独立的早期三叶虫与 Beecher's Bed 样本，是导航包络而非谱系存续期或连续记录序列。
+  ranges:
+    - entityId: trilobite-evidence-samples
+      rangeKind: global-composite
+      taxonomicConcept: Trilobite primary-evidence navigation sample
+      geographicScope: Global sampled record
+      olderMa: 521
+      youngerMa: 443
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: A navigation envelope spanning separate sampled dossiers; not a lineage or continuous occurrence.
+      evidenceBasis: The displayed interval is a navigation envelope across separate evidence and is not a phylogenetic or occurrence claim.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:trilobite-evidence-samples:fossil-range
+      referenceLocators:
+        - referenceId: holmes-budd-2022-early-trilobites
+          locator: Article 1177; Abstract and Introduction; Figures 1–4; widespread early trilobite record at approximately 521 Ma
+        - referenceId: hou-2021-trilobite-gill
+          locator: Article eabe7377; Figures 1–5 and supplement; Beecher's Bed Triarthrus sample within 450–443 Ma

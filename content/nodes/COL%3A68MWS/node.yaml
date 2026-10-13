@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa hermosa
+  displayName: Bolitoglossa hermosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68MWS
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa hermosa
+        zh: Bolitoglossa hermosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68MWS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/130
+            queryName: Bolitoglossa hermosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-edcb4131c5
+      - s-8865728bde
+      - s-a93c542b14
+      - s-6946b9e73a
+      - s-bbee77d18e
+      - s-5509f52ab9
+      - s-0fa01bc61f
+      - s-26d3b93170
+      - s-6b63758149
+      - s-dbbafa9386
+    zh:
+      - s-c0b4965ec5
+      - s-f98f2b007b
+      - s-5b22bc3032
+      - s-c2a745b3f8
+      - s-6ce5c0e60e
+      - s-48c8ddfcbb
+      - s-77f947606f
+      - s-713882fddb
+      - s-807ad3fd61
+      - s-975c375589

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Breviceps bagginsi
+  displayName: Breviceps bagginsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N9NZ
+  sourceIndexes:
+    - name:
+        en: Breviceps bagginsi
+        zh: Breviceps bagginsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N9NZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/456
+            queryName: Breviceps bagginsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-515ea1fe7e
+      - s-30d4cfb1c8
+      - s-9d304f3934
+      - s-f8879894bb
+      - s-b7c857cc87
+      - s-b8e3aab6f7
+      - s-09a2daf79a
+      - s-0a149b3d50
+      - s-0894ad91d0
+      - s-49c62d327e
+      - s-a702293b32
+      - s-5231d7be69
+      - s-95131d19d4
+      - s-dea5ef83e2
+      - s-eae0ec0796
+      - s-7856a6233b
+      - s-42df767381
+    zh:
+      - s-48934999c5
+      - s-e506ee1358
+      - s-b0fbaec8f6
+      - s-2d70042d99
+      - s-733fb2eedc
+      - s-db00e0862b
+      - s-ae03f4e5d5
+      - s-23371610b9
+      - s-8af58ca908
+      - s-d5dc5beb20
+      - s-f7cd419da0
+      - s-dae3af691e
+      - s-b0c1a19128
+      - s-a8e6e42691
+      - s-daa15e42bd
+      - s-34b71cbf8e
+      - s-7564095cc5

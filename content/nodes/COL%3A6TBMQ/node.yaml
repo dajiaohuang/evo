@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osteocephalus deridens
+  displayName: Osteocephalus deridens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6TBMQ
+  sourceIndexes:
+    - name:
+        en: Osteocephalus deridens
+        zh: Osteocephalus deridens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6TBMQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/342
+            queryName: Osteocephalus deridens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-547ca7a46c
+      - s-7f6fcb4c25
+      - s-81d7158bef
+      - s-17f8090e54
+      - s-4eac6cdd89
+      - s-cddaea3dee
+      - s-92b3ccb242
+      - s-3ac5993016
+      - s-e8ff537940
+      - s-7924dbc778
+    zh:
+      - s-b3646c1c39
+      - s-61fc765d55
+      - s-5867ecfcd4
+      - s-9ec3c7d43d
+      - s-c1169c8fb4
+      - s-d5de15b080
+      - s-3d833465e1
+      - s-5431237873
+      - s-f0cdca13d1
+      - s-d490669b5f

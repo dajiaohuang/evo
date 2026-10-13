@@ -1,0 +1,148 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera hylaedactyla
+  displayName: Adenomera hylaedactyla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZMP
+  sourceIndexes:
+    - name:
+        en: Adenomera hylaedactyla
+        zh: Adenomera hylaedactyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZMP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/40
+            queryName: Adenomera hylaedactyla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/245
+            queryName: Leptodactylus hololius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/246
+            queryName: Leptodactylus hylaedactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 54
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/253
+            queryName: Leptodactylus melini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/257
+            queryName: Leptodactylus poeppigi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/0
+            queryName: Cystignathus hylaedactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/1
+            queryName: Leptodactylus minutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/405
+            queryName: Leptodactylus marmoratus hylaedactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b0adcb2c68
+      - s-a716819ab3
+      - s-b2a15e9d14
+      - s-f6d6728791
+      - s-2382049f9a
+      - s-1cc83b2884
+      - s-22482b63a7
+      - s-e2824c69f3
+      - s-f9a82e721f
+      - s-3c0754800f
+      - s-242dc981d3
+      - s-ad51cde1f4
+      - s-d3de4b5369
+      - s-1aa64c519b
+      - s-eee8a71539
+      - s-50a38131da
+      - s-dfba50c3f4
+      - s-a53f967dd8
+      - s-695e05a729
+      - s-11c923595e
+      - s-c6abc2b0ff
+      - s-e2bb46bc44
+      - s-e6e13e28f9
+      - s-cc66304c1a
+      - s-7f21cf8354
+      - s-d7554973a4
+      - s-ce310d4b50
+      - s-f2dc5bbb37
+      - s-7110ee244b
+      - s-734ca47e2b
+    zh:
+      - s-1b9a1e9a17
+      - s-3414a645e7
+      - s-02a1bc6ea2
+      - s-38ef189bf5
+      - s-d77270b5d4
+      - s-94a581868b
+      - s-e86cc9e60b
+      - s-261c2f8dcc
+      - s-ce9b9ca187
+      - s-a0d211e655
+      - s-66761c5163
+      - s-d1f95af2be
+      - s-462f75b4ab
+      - s-8e6aef8f96
+      - s-171deb9dd2
+      - s-64a011a4b6
+      - s-786b19e0d9
+      - s-9fb86c926e
+      - s-68fb335298
+      - s-fe75c34bbe
+      - s-4fd165fbf9
+      - s-eccd6d1b51
+      - s-af4d45eb82
+      - s-2b0177b666
+      - s-90957bb7f7
+      - s-0051050018
+      - s-8d960bb86b
+      - s-01e1e84c5b
+      - s-c3fb323b80
+      - s-5a7d9c953d

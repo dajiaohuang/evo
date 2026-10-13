@@ -1,0 +1,343 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Scutiger feiliangi
+    name:
+      en: Scutiger feiliangi
+      zh: Scutiger feiliangi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: TadpoleTraits classification for Scutiger feiliangi
+          zh: TadpoleTraits 对 Scutiger feiliangi 的分类
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-7f26ae9848
+            part: body
+          zh:
+            page: zh
+            section: s-c6568cf6e8
+            part: body
+      - topic: morphology
+        title:
+          en: 0 literature rows and 1 image row
+          zh: 0 条文献行与 1 条图像行
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f82e5cdb70
+            part: body
+          zh:
+            page: zh
+            section: s-bd82d58314
+            part: body
+      - topic: morphology
+        title:
+          en: Image proportions from row 1746
+          zh: 来源第 1746 行的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-839d55e8e0
+            part: body
+          zh:
+            page: zh
+            section: s-4bc2b30bc7
+            part: body
+      - topic: overview
+        title:
+          en: 6 image ratio fields flagged for review
+          zh: 6 个图像比例字段需复核
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-1a51e5caa7
+            part: body
+          zh:
+            page: zh
+            section: s-0514e376f8
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1746; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Megophryidae
+      genus: Scutiger
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1746
+        values:
+          - Jiang, J. P., Cai, B., Wang, B., Chen, W. T. & Ma, S. (2023). Annual Report on New Species of Vertebrates in China. Journal of Zoology, 58(5), 641-650.
+          - Measurement
+          - Color image
+          - Scutiger feiliangi
+          - Megophryidae
+          - Scutiger
+          - Scutiger feiliangi
+          - 36
+          - 53.2
+          - 14.522
+          - 30.353
+          - 6.695
+          - 8.261
+          - 4.087
+          - 3.652
+          - 2.348
+          - 10.392
+          - 4.846
+          - 4.79
+          - 0.2729699248123
+          - 0.57545112781955
+          - 0.125845864661654
+          - 0.155281954887218
+          - 0.7682338276767
+          - 0.686466165413534
+          - 0.441353383458647
+          - 0.195338345864662
+          - 0.919225563998
+          - 0.9375939849624
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1746
+        scientificName: Scutiger feiliangi
+        sourceField: TaL/TL
+        suppliedRatio: 0.57545112781955
+        originalNumerator: 30.353
+        originalTotalLength: 53.2
+        computedRatio: 0.5705451127819549
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1746
+        scientificName: Scutiger feiliangi
+        sourceField: TMH/TL
+        suppliedRatio: 0.7682338276767
+        originalNumerator: 4.087
+        originalTotalLength: 53.2
+        computedRatio: 0.07682330827067668
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1746
+        scientificName: Scutiger feiliangi
+        sourceField: DFH/TL
+        suppliedRatio: 0.686466165413534
+        originalNumerator: 3.652
+        originalTotalLength: 53.2
+        computedRatio: 0.06864661654135339
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1746
+        scientificName: Scutiger feiliangi
+        sourceField: VFH/TL
+        suppliedRatio: 0.441353383458647
+        originalNumerator: 2.348
+        originalTotalLength: 53.2
+        computedRatio: 0.04413533834586466
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1746
+        scientificName: Scutiger feiliangi
+        sourceField: TMW/TL
+        suppliedRatio: 0.919225563998
+        originalNumerator: 4.846
+        originalTotalLength: 53.2
+        computedRatio: 0.09109022556390978
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1746
+        scientificName: Scutiger feiliangi
+        sourceField: OD/TL
+        suppliedRatio: 0.9375939849624
+        originalNumerator: 4.79
+        originalTotalLength: 53.2
+        computedRatio: 0.0900375939849624
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.2729699248123
+        row: 1746
+        stage: 36
+        type: Measurement
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.125845864661654
+        row: 1746
+        stage: 36
+        type: Measurement
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.155281954887218
+        row: 1746
+        stage: 36
+        type: Measurement
+        imageType: Color image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.195338345864662
+        row: 1746
+        stage: 36
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - V5KVQ
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

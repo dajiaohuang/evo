@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Bufo pliocompactilis
+    rank: species
+    sourceTaxonId: txn:110940
+    name:
+      en: Bufo pliocompactilis
+      zh: Bufo pliocompactilis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-6587718f21
+            part: body
+          zh:
+            page: zh
+            section: s-11f2b5e354
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-2e86ec4088
+            part: body
+          zh:
+            page: zh
+            section: s-7ef91f92e9
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-47652e8dee
+            part: body
+          zh:
+            page: zh
+            section: s-691cd991db
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110940; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. L. Wilson. 1968. Systematics and faunal analysis of a Lower Pliocene vertebrate assemblage from Trego County, Kansas. Contributions from the Museum of Paleontology, University of Michigan 22(7):75-126
+    occurrenceEvidence:
+      - occurrenceId: occ:232482
+        collectionId: col:19610
+        acceptedTaxonId: txn:110940
+        taxonomicDifference: null
+        referenceId: ref:6732
+        bibliography: D. Parmley and D. L. Peck. 2002. Amphibians and reptiles of the late Hemphillian White Cone local fauna, Navajo County, Arizona. Journal of Vertebrate Paleontology 22(1):175-178
+        locality:
+          countryCode: US
+          stateProvince: Arizona
+          county: Navajo
+        stratigraphy:
+          group: null
+          formation: Bidahochi
+          member: null
+        olderAgeMa: 9.4
+        youngerAgeMa: 4.7
+      - occurrenceId: occ:288103
+        collectionId: col:18225
+        acceptedTaxonId: txn:110940
+        taxonomicDifference: null
+        referenceId: ref:7579
+        bibliography: D. Parmley. 1992. Frogs in Hemphillian deposits of Nebraska, with the description of a new species of Bufo. Journal of Herpetology 26(3):274-281
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Keith
+        stratigraphy:
+          group: null
+          formation: Ash Hollow
+          member: null
+        olderAgeMa: 9.4
+        youngerAgeMa: 4.7
+      - occurrenceId: occ:288678
+        collectionId: col:18450
+        acceptedTaxonId: txn:110940
+        identifiedName: Bufo pliocompactilis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:3676
+        bibliography: R. L. Wilson. 1968. Systematics and faunal analysis of a Lower Pliocene vertebrate assemblage from Trego County, Kansas. Contributions from the Museum of Paleontology, University of Michigan 22(7):75-126
+        locality:
+          countryCode: US
+          stateProvince: Kansas
+          county: Trego
+        stratigraphy:
+          group: null
+          formation: Ogallala
+          member: null
+        olderAgeMa: 12.5
+        youngerAgeMa: 9.4
+      - occurrenceId: occ:629492
+        collectionId: col:18268
+        acceptedTaxonId: txn:110940
+        taxonomicDifference: null
+        referenceId: ref:19395
+        bibliography: J. A. Holman. 1973. Herpetofauna of the Mission local fauna (Lower Pliocene) of South Dakota. Journal of Paleontology 47(3):462-464
+        locality:
+          countryCode: US
+          stateProvince: South Dakota
+          county: Mellette
+        stratigraphy:
+          group: null
+          formation: Ash Hollow
+          member: null
+        olderAgeMa: 12.5
+        youngerAgeMa: 9.4
+      - occurrenceId: occ:1487987
+        collectionId: col:18327
+        acceptedTaxonId: txn:110940
+        taxonomicDifference: null
+        referenceId: ref:71281
+        bibliography: D. Parmley, R. Chandler, and L. Chandler. 2015. Fossil Frogs of the Late Clarendonian (Late Miocene) Pratt Slide Local Fauna of Nebraska, with the Description of a New Genus. Journal of Herpetology 49(1):143-149
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Brown
+        stratigraphy:
+          group: null
+          formation: Ash Hollow
+          member: Merritt Dam
+        olderAgeMa: 12.5
+        youngerAgeMa: 9.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-47652e8dee
+            part: body
+          zh:
+            page: zh
+            section: s-691cd991db
+            part: body
+        sourceIds: []

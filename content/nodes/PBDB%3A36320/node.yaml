@@ -1,0 +1,44 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Temnospondyli
+  displayName: Temnospondyli
+  rank: order
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/pbdb-taxon-resolution.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=36320
+    placement: PBDB-recorded-ancestor-chain-supplement
+  sourceIndexes:
+    - name:
+        en: Temnospondyli
+        zh: Temnospondyli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: null
+          rank: group
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/348
+            queryName: Temnospondyli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 95
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0c50b7185b
+      - s-fae31c5516
+      - s-5e709ba1bb
+    zh:
+      - s-ddfd3d7581
+      - s-e019dad921
+      - s-6047238747

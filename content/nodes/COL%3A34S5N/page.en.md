@@ -1,0 +1,24 @@
+## Accepted name and placement {#s-7a48da8082}
+COL26.8 accepts Dendropsophus kamagarini Rivadeneira, Venegas & Ron, 2018 as a species. Its recorded classification places it along Anura (order) → Hylidae (family) → Dendropsophus (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-7c8d265c2e}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-36a5e7290d}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [Amphibian morphology v3: Dendropsophus kamagarini](../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Hylidae/Dendropsophus/Dendropsophus_kamagarini/page.en.md)
+- [AmphiTherm curated snapshot: Dendropsophus kamagarini](../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Hylidae/Dendropsophus/Dendropsophus_kamagarini/page.en.md)
+
+## Sex-specific measurement material — Amphibian morphology source {#s-1eb8279f1b}
+Deposited source concept: Dendropsophus kamagarini, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 2 rows and 8 populated trait columns for this source concept. Recorded sex codes are F, M: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
+
+## Selected critical upper thermal limit estimate — AmphiTherm source {#s-9a05f3853b}
+Deposited source concept: Dendropsophus kamagarini, in AmphiTherm. Matching names provide a reading lead; equivalence with this current species concept remains unverified. Source row 4342 (ID 4824, von-May_et_al_2019) reports 36.8 °C for adults, metric CTmax, loss of righting response. Recorded acclimation temperature: 25 °C. Recorded heating/cooling rate: 1 °C/min. The source n_trait field is 5; sample sizes must not be summed across repeated cohorts. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is body; sex category unknown; animal origin wild. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review. The deposited uncertainty field is 0.752994024 °C (standard error); these measures are not interchangeable.
+
+## Selected critical lower thermal limit estimate — AmphiTherm source {#s-b6a9b1873e}
+Deposited source concept: Dendropsophus kamagarini, in AmphiTherm. Matching names provide a reading lead; equivalence with this current species concept remains unverified. Source row 4379 (ID 4871, von-May_et_al_2019) reports 7.8 °C for adults, metric CTmin, loss of righting response. Recorded acclimation temperature: 25 °C. The source n_trait field is 5; sample sizes must not be summed across repeated cohorts. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is body; sex category unknown; animal origin wild. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review. The deposited uncertainty field is 0.1 °C (standard error); these measures are not interchangeable.
+
+## catalogue-profile / limitations {#s-20eca0646c}
+Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. This reader is.
+

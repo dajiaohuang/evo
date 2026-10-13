@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella feii
+    name:
+      en: Leptobrachella feii
+      zh: Leptobrachella feii
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-25251ee6a6
+            part: body
+          zh:
+            page: zh
+            section: s-95490df193
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9e3f7c8eda
+            part: body
+          zh:
+            page: zh
+            section: s-84d10cd68c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2552; Reference.csv rows 606
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2552
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella feii
+          - M
+          - "22.79166667"
+          - "9.308333333"
+          - "8.541666667"
+          - "3.228333333"
+          - NA
+          - "0.928333333"
+          - "2.656666667"
+          - "2.376666667"
+          - "2.173333333"
+          - "1.966666667"
+          - "3.47"
+          - "1.375"
+          - "6.02"
+          - "5.673333333"
+          - NA
+          - "10.14333333"
+          - NA
+          - "11.26"
+          - "11.53166667"
+          - NA
+          - "36.97"
+          - "1.015"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.69"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 606
+        values:
+          - Anura
+          - Leptobrachella_feii
+          - 'Chen, J. M., Xu, K., Poyarkov, N. A., Wang, K., Yuan, Z. Y., Hou, M., . . . Che, J. (2020). How little is known about "the little brown frogs": description of three new species of the genus Leptobrachella (Anura: Megophryidae) from Yunnan Province, China. Zoological Research, 41(3), 292-313. https://doi.org/10.24272/j.issn.2095-8137.2020.036'
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - HLL
+      - IMT
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - V5JWM
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

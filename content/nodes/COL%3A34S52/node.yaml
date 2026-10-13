@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus cruzi
+  displayName: Dendropsophus cruzi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S52
+  sourceIndexes:
+    - name:
+        en: Dendropsophus cruzi
+        zh: Dendropsophus cruzi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S52
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/356
+            queryName: Dendropsophus cruzi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/313
+            queryName: Hyla cruzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da71413ccb
+      - s-31a7d394b7
+      - s-78d2e9d9b4
+      - s-78a45074a6
+      - s-9d74718fc2
+      - s-ec25336172
+      - s-fcae627dc1
+      - s-5fbb77df26
+      - s-eca12ab40f
+      - s-79d81d2385
+      - s-5cf16780be
+      - s-ef8473bf75
+      - s-3bd1a4d3d1
+      - s-10ef4b70b0
+      - s-ac72a4d6f6
+    zh:
+      - s-0858c47dc3
+      - s-f7bfd8a85d
+      - s-3e89199712
+      - s-8da614abf1
+      - s-c19a8c2ecc
+      - s-f6bc91a10e
+      - s-730ba2c4d3
+      - s-e1595341ab
+      - s-422f16263f
+      - s-f08b564210
+      - s-a895cca86d
+      - s-19f7a7507c
+      - s-df6d2c3659
+      - s-ab7277ffa1
+      - s-b1b1b9a04b

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Occidozyga myanhessei
+  displayName: Occidozyga myanhessei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V58HS
+  sourceIndexes:
+    - name:
+        en: Occidozyga myanhessei
+        zh: Occidozyga myanhessei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V58HS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/468
+            queryName: Occidozyga myanhessei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/331
+            queryName: Phrynoglossus myanhessei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f144e14f4e
+      - s-6880a41244
+      - s-ab97b9e177
+      - s-1190f006db
+      - s-a96c89b6f4
+      - s-d1f5caf3a1
+      - s-6260fb8e94
+      - s-6ca6160848
+      - s-910f4d1085
+      - s-ed29ce0879
+      - s-318b428bc6
+      - s-3f30aee113
+      - s-f7b25699f3
+      - s-2417d06fdc
+      - s-e2ab049353
+    zh:
+      - s-f4f2c07e0c
+      - s-3f8c1689dc
+      - s-744a370a5e
+      - s-714ff68b10
+      - s-479d5ec981
+      - s-bd8a85b444
+      - s-e092770e71
+      - s-0343a5e17f
+      - s-70989d2ded
+      - s-7adb47dd5a
+      - s-6461e8138b
+      - s-a011ffe63e
+      - s-74de5fa061
+      - s-2e4ff5249a
+      - s-483c07674e

@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis croceoinguinis
+  displayName: Pristimantis croceoinguinis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJCH
+  sourceIndexes:
+    - name:
+        en: Pristimantis croceoinguinis
+        zh: Pristimantis croceoinguinis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJCH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/221
+            queryName: Pristimantis croceoinguinis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/67
+            queryName: Eleutherodactylus croceoinguinis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-30e6dd2a14
+      - s-9207c1841e
+      - s-299a80d7c9
+      - s-95acc15c7d
+      - s-0eedf1ddb4
+      - s-82f5d1086a
+      - s-0c2af69003
+      - s-ba54662b6b
+      - s-8106af8aeb
+      - s-2cc4cacd5f
+      - s-39d49eb214
+      - s-6bc5db2096
+      - s-3fd1a7e5d3
+      - s-180a8d43df
+      - s-398f1ab29f
+      - s-9c38e2f6f2
+      - s-29ee9cc3ec
+      - s-950f4f911c
+      - s-e7f331162f
+    zh:
+      - s-75e77d39aa
+      - s-04d896d210
+      - s-0c50d63545
+      - s-6b54802fc3
+      - s-1ea8397477
+      - s-65bd3f20cb
+      - s-1208096500
+      - s-a5e58fde33
+      - s-f05f38003c
+      - s-4f4f1ed3d4
+      - s-a58ea86883
+      - s-2667dc798d
+      - s-1a779f2336
+      - s-434263a106
+      - s-71b0d7b847
+      - s-cf23a05da1
+      - s-73b1c73305
+      - s-41824aeaca
+      - s-4ac0fb4b04

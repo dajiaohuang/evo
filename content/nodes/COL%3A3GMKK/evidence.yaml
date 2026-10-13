@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gnidia pallida Meisn.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3GMKK, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3GMKK; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3GMKK
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3GMKK
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000704915-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3GMKK / WFO wfo-0000704915
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_18780_0
+        referenceId: ref-170d863e-c9b6-8a09-a0b8-2b9c62fb4e6b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Gnidia pallida Meisn. account; archive rows 104439 (Morphology), 104219 (Habitat), source identifier 18780.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Branch nearly 1 ft. long; branchlets nearly filiform, quite glabrous, internodes 1-2 lin. long, leaf-scars tooth-like; leaves alternate, erect or slightly spreading, linear-lanceolate, acute, 4-6 lin. long, 0.5-1 lin. wide, flat or with recurved margins, ashy-green, glabrous, 1-nerved, upper leaves nearly verticillate; flowers surrounded at the base with white hairs; calyx 6-7 lin. long, glabrous; tube slender, almost filiform at the middle, narrowly funnel-shaped above; lobes ovate- or ovate-oblong, acuminate, 1.5 lin. long, sparingly hairy outside; petals 8, rather fleshy, oblong, obtuse, lin. long, inserted in pairs; anthers half as long as the petals, the upper exserted.
+            sourceIds:
+              - sanbi_18780_0
+            locator: "SANBI/WFO archive Morphology row 104439; source 18780.0; publication: Wright, CH. 1925. Thymelaeaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 5: 1 - 81. [https://www.biodiversitylibrary.org/item/15248#page/3/mode/1up]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In grassy places near the mouth of the Umtentu River.
+            sourceIds:
+              - sanbi_18780_0
+            locator: "SANBI/WFO archive Habitat row 104219; source 18780.0; publication: Wright, CH. 1925. Thymelaeaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 5: 1 - 81. [https://www.biodiversitylibrary.org/item/15248#page/3/mode/1up]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Gnidia pallida Meisn.
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Gnidia pallida
+      zh: Gnidia pallida
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3GMKK
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3GMKK
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000704915-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3GMKK / WFO wfo-0000704915
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_18780_0
+        referenceId: ref-170d863e-c9b6-8a09-a0b8-2b9c62fb4e6b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Gnidia pallida Meisn. account; archive rows 104439 (Morphology), 104219 (Habitat), source identifier 18780.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-665169c322
+            part: title
+          zh:
+            page: zh
+            section: s-ed5c50c872
+            part: title
+        text:
+          en:
+            page: en
+            section: s-665169c322
+            part: body
+          zh:
+            page: zh
+            section: s-ed5c50c872
+            part: body
+        sourceIds:
+          - sanbi_18780_0
+        locator: "SANBI/WFO archive Morphology row 104439; source 18780.0; publication: Wright, CH. 1925. Thymelaeaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 5: 1 - 81. [https://www.biodiversitylibrary.org/item/15248#page/3/mode/1up]"
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2b72a7fd13
+            part: title
+          zh:
+            page: zh
+            section: s-5beca06e6b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2b72a7fd13
+            part: body
+          zh:
+            page: zh
+            section: s-5beca06e6b
+            part: body
+        sourceIds:
+          - sanbi_18780_0
+        locator: "SANBI/WFO archive Habitat row 104219; source 18780.0; publication: Wright, CH. 1925. Thymelaeaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 5: 1 - 81. [https://www.biodiversitylibrary.org/item/15248#page/3/mode/1up]"

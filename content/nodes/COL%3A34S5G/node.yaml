@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus gryllatus
+  displayName: Dendropsophus gryllatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S5G
+  sourceIndexes:
+    - name:
+        en: Dendropsophus gryllatus
+        zh: Dendropsophus gryllatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S5G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/368
+            queryName: Dendropsophus gryllatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/340
+            queryName: Hyla gryllata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d37c2f4f74
+      - s-45737a5c05
+      - s-e2bfa12322
+      - s-e346df951c
+      - s-68120da1cf
+      - s-eec9ea0913
+      - s-ccddd0f983
+      - s-acc71f42e2
+      - s-cdfcc644cf
+    zh:
+      - s-64c4605daa
+      - s-eba4be3303
+      - s-2de02ea6c3
+      - s-97826d4863
+      - s-2ea79a1d01
+      - s-24f1783120
+      - s-ccd9be4e03
+      - s-068466d3d3
+      - s-035099960e

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis capitonis
+  displayName: Pristimantis capitonis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJBC
+  sourceIndexes:
+    - name:
+        en: Pristimantis capitonis
+        zh: Pristimantis capitonis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJBC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/179
+            queryName: Pristimantis capitonis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/294
+            queryName: Eleutherodactylus capitonis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bae0a9a18c
+      - s-4ad104572b
+      - s-b489180226
+      - s-460714f933
+      - s-984e82345c
+      - s-26b2ecfc2b
+      - s-c6f42b0f97
+    zh:
+      - s-b40b69679d
+      - s-1d260f3adf
+      - s-9e3f15b9c2
+      - s-07c55b1fb8
+      - s-39f81df488
+      - s-da7bd8d329
+      - s-d54b35c93c

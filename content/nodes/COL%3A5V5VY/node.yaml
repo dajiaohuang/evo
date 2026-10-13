@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anodonthyla boulengerii
+  displayName: Anodonthyla boulengerii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5V5VY
+  sourceIndexes:
+    - name:
+        en: Anodonthyla boulengerii
+        zh: Anodonthyla boulengerii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5V5VY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/489
+            queryName: Anodonthyla boulengerii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-687fd25b6c
+      - s-c7ffc17b9c
+      - s-0ff1e6ed44
+      - s-a3211c2afd
+      - s-b69ebe3d38
+      - s-fbb071d099
+      - s-fbbe4409bd
+      - s-7880d841a7
+      - s-6abe973ae9
+      - s-52d3cfbe53
+      - s-8d88f22f20
+      - s-58f9fb88a6
+    zh:
+      - s-0081004805
+      - s-ba3b32b5c8
+      - s-e0988d3b1c
+      - s-d6e799135a
+      - s-10722a906f
+      - s-4f4fdf0b9a
+      - s-db014d0d37
+      - s-df35e6f285
+      - s-fbb24af6f6
+      - s-c0193d7450
+      - s-4f1bd0502f
+      - s-fc84e8b5b1

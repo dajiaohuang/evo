@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus dendrobates
+  displayName: Phrynobatrachus dendrobates
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW8S
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus dendrobates
+        zh: Phrynobatrachus dendrobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW8S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/120
+            queryName: Phrynobatrachus dendrobates
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/100
+            queryName: Arthroleptis dendrobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/101
+            queryName: Natalobatrachus dendrobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ebc92d10f4
+      - s-8b4c41b2cb
+      - s-92a5c8e999
+      - s-1e2fcd1eea
+      - s-52c7acf318
+      - s-4ab3b0f30a
+      - s-1924753d87
+      - s-5ad5b0b6fe
+    zh:
+      - s-a4c2d93007
+      - s-e5a414a866
+      - s-993e3c2145
+      - s-e72c27dfa0
+      - s-9e41955637
+      - s-d3b1d01a28
+      - s-56943c1ce0
+      - s-0c868c00bc

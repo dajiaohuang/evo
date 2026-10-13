@@ -1,0 +1,291 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Polypedates discantus Rujirawan, Stuart & Aowphol, 2013
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Polypedates discantus
+      zh: Polypedates discantus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-545d076aae
+            part: title
+          zh:
+            page: zh
+            section: s-92215f18c8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-545d076aae
+            part: body
+          zh:
+            page: zh
+            section: s-92215f18c8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0e15dc568e
+            part: title
+          zh:
+            page: zh
+            section: s-493649ddc3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0e15dc568e
+            part: body
+          zh:
+            page: zh
+            section: s-493649ddc3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6dcb03b9c7
+            part: title
+          zh:
+            page: zh
+            section: s-84d49ba799
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-6dcb03b9c7
+            part: body
+          zh:
+            page: zh
+            section: s-84d49ba799
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-c001440cee00afa2904fe80c
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fd9934d8f5
+            part: title
+          zh:
+            page: zh
+            section: s-501324c407
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fd9934d8f5
+            part: body
+          zh:
+            page: zh
+            section: s-501324c407
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-70b2d963b5
+            part: title
+          zh:
+            page: zh
+            section: s-82faceec95
+            part: title
+        sourceIds:
+          - primary-pmc10793111-4ld47
+        text:
+          en:
+            page: en
+            section: s-70b2d963b5
+            part: body
+          zh:
+            page: zh
+            section: s-82faceec95
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-f552d4bd0d
+            part: title
+          zh:
+            page: zh
+            section: s-bffecf2a0e
+            part: title
+        sourceIds:
+          - primary-pmc10793111-4ld47
+        text:
+          en:
+            page: en
+            section: s-f552d4bd0d
+            part: body
+          zh:
+            page: zh
+            section: s-bffecf2a0e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Polypedates discantus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4LD47
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4396, 4397; Reference.csv rows 1131
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10793111-4ld47
+        referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Polypedates discantus: XML Materials and methods, Results Tables 1–2, Discussion subsections and Conclusions read; original supplementary cross-site spreadsheet, encounter sheets, photographs and individual vouchers not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d36705de1f
+        part: body
+      zh:
+        page: zh
+        section: s-623b70f23a
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-c001440cee00afa2904fe80c
+        scientificName: Polypedates discantus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.12.e108476
+        referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+        sourceKey: primary-pmc10793111-4ld47
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10793111/article.xml
+        sourceConcept: 2024 source-labelled Polypedates discantus, nomenclature following Frost 2023, Gunung Belumut survey
+        evidenceRead: "Polypedates discantus: XML Materials and methods, Results Tables 1–2, Discussion subsections and Conclusions read; original supplementary cross-site spreadsheet, encounter sheets, photographs and individual vouchers not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: An effort-bounded Gunung Belumut survey record
+              zh: 取样投入有限的 Gunung Belumut 调查记录
+            referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+            sourceKey: primary-pmc10793111-4ld47
+            locator: PMC10793111 XML Herpetofauna Sampling and Collection; Results Table 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0ae3430b4d
+                part: body
+              zh:
+                page: zh
+                section: s-9b5dcce00a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: A unique checklist entry is not geographic endemism
+              zh: 比较名册独有条目不是地理特有性
+            referenceId: ref-94df9f04-7f08-4316-a7e1-582800a348de
+            sourceKey: primary-pmc10793111-4ld47
+            locator: PMC10793111 XML Herpetofauna Sampling and Collection comparative compilation; Discussion Comparison of Herpetofauna assemblage
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-63c32be31b
+                part: body
+              zh:
+                page: zh
+                section: s-3970ab6fdf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

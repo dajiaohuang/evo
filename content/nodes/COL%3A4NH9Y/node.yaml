@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris streckeri
+  displayName: Pseudacris streckeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NH9Y
+  sourceIndexes:
+    - name:
+        en: Pseudacris streckeri
+        zh: Pseudacris streckeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NH9Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/263
+            queryName: Pseudacris streckeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/469
+            queryName: Pseudacris streckeri streckeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-27ef28155a
+      - s-4116ee03a5
+      - s-d53130945b
+      - s-4fb68d8bc6
+      - s-88cea5ddd4
+      - s-fc9d901923
+      - s-a22b37bcf1
+      - s-ef1b99d18e
+      - s-0c8d457449
+      - s-f8f3aa1c00
+      - s-265f23931c
+      - s-02135e2f45
+    zh:
+      - s-8b11a1da80
+      - s-01cdfc8258
+      - s-40201a1f6b
+      - s-76c9d6b33d
+      - s-7456708da5
+      - s-fee35ab02e
+      - s-e4e7524253
+      - s-0ceef5ae4f
+      - s-7810d4503f
+      - s-2d8f400e9e
+      - s-e46296aca6
+      - s-ae7f5e2ae8

@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kaloula borealis
+  displayName: Kaloula borealis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QZKK
+  sourceIndexes:
+    - name:
+        en: Kaloula borealis
+        zh: Kaloula borealis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QZKK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/122
+            queryName: Kaloula borealis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 35
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/33
+            queryName: Cacopoides borealis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/34
+            queryName: Callula tornieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/35
+            queryName: Kaloula wolterstorffi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/36
+            queryName: Cacopoides tornieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/37
+            queryName: Kaloula tornieri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/38
+            queryName: Kaloula manchuriensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-53b879bbb2
+      - s-f05d5db0c8
+      - s-3de6c06bee
+      - s-8a14d913ec
+      - s-170d379242
+      - s-7e66e3baa3
+      - s-0cba193311
+      - s-638b5f1a28
+      - s-8ef6321583
+      - s-9c28b9eabe
+      - s-ce78846c3a
+      - s-e3b8ddb739
+      - s-23aaaa5a86
+    zh:
+      - s-c3c41ccafc
+      - s-dab78953cf
+      - s-06a3d83b0c
+      - s-476b4b5e5f
+      - s-a5f208341a
+      - s-379d715510
+      - s-d3aea610b4
+      - s-ebc61de9b3
+      - s-42bbfa9b78
+      - s-c120545235
+      - s-b759ea9b9b
+      - s-f35ac8536e
+      - s-e89b1f8b18

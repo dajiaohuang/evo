@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus surrufus
+  displayName: Philautus surrufus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5LK
+  sourceIndexes:
+    - name:
+        en: Philautus surrufus
+        zh: Philautus surrufus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5LK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/76
+            queryName: Philautus surrufus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5450db30b2
+      - s-514584be8d
+      - s-6b55f5ccb6
+      - s-aee5ff86d8
+      - s-9042af80de
+      - s-58e2c0eab6
+      - s-9618cf2797
+      - s-dd888615e6
+      - s-8055d5d522
+      - s-f55cd8de90
+      - s-7c97ec54ab
+      - s-ae4c958ec2
+    zh:
+      - s-d58ba571f6
+      - s-3788d2b8d6
+      - s-5cc5bd4b29
+      - s-06f2c6da15
+      - s-fe2a17ecab
+      - s-3ccdc9febf
+      - s-3301ba5af4
+      - s-156a03ba71
+      - s-01d179be5d
+      - s-345a8d4920
+      - s-5f8cd3442e
+      - s-ce69533641

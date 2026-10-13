@@ -1,0 +1,206 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odorrana supranarina
+    name:
+      en: Odorrana supranarina
+      zh: Odorrana supranarina
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Odorrana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Odorrana supranarina in the version 3 classification
+          zh: Odorrana supranarina 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3be2b38399
+            part: body
+          zh:
+            page: zh
+            section: s-203e54455b
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 22 populated trait fields
+          zh: 1 条测量行与 22 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6fb9c3c99c
+            part: body
+          zh:
+            page: zh
+            section: s-13f5623d5a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3797; Reference.csv rows 3930
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3797
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana supranarina
+          - NA
+          - "68.4"
+          - "26.9496"
+          - "22.3668"
+          - "9.5076"
+          - "5.472"
+          - "1.9836"
+          - "5.2668"
+          - "6.84"
+          - "7.1136"
+          - "5.13"
+          - "10.944"
+          - "5.2668"
+          - "17.7156"
+          - "44.3232"
+          - NA
+          - "34.7472"
+          - NA
+          - "35.9784"
+          - "34.0632"
+          - NA
+          - "115.1856"
+          - "3.4884"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.8072"
+          - NA
+          - NA
+          - NA
+          - "1.89468"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.96308"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3930
+        values:
+          - Anura
+          - Odorrana_supranarina
+          - "Matsui, M. (2008). A taxonomic study of the Rana narina complex, with description of three new species (Amphibia: Ranidae). Zoological Journal of the Linnean Society, 111, 385-415. https://doi.org/10.1111/j.1096-3642.1994.tb01489.x"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - HLL
+      - IMT
+      - Fin3L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48SGS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

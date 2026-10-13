@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega silverstonei
+  displayName: Ameerega silverstonei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66B43
+  sourceIndexes:
+    - name:
+        en: Ameerega silverstonei
+        zh: Ameerega silverstonei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66B43
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/279
+            queryName: Ameerega silverstonei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/223
+            queryName: Epipedobates silverstonei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/280
+            queryName: Dendrobates silverstonei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/281
+            queryName: Phobobates silverstonei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/282
+            queryName: Phyllobates silverstonei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-448c145f6b
+      - s-f391d4758c
+      - s-f569923cf8
+      - s-7973bde68a
+      - s-4d5683d62c
+      - s-5693d7c4f1
+      - s-0cc95825a0
+      - s-e2dfe88799
+      - s-8c621ddab8
+      - s-f85cd2f251
+      - s-bdc13e47bc
+    zh:
+      - s-936924f9e9
+      - s-e82f529ae4
+      - s-cef7e5f4a9
+      - s-27a37fad18
+      - s-11f62b0ca4
+      - s-35d5cd8cf8
+      - s-b43a3d4c42
+      - s-f6d45fb36a
+      - s-448cb9f8eb
+      - s-812b5fdc1a
+      - s-cb1c00aa3b

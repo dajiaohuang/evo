@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton lavae
+  displayName: Chiropterotriton lavae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6M3
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton lavae
+        zh: Chiropterotriton lavae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6M3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/298
+            queryName: Chiropterotriton lavae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/204
+            queryName: Bolitoglossa lavae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-014d62dcd6
+      - s-662effd5ce
+      - s-0c3d1aec6a
+      - s-0aee6cffd1
+      - s-0d550825a9
+      - s-02798da4dd
+      - s-0c5a95769d
+      - s-1a1db92669
+      - s-6e4359be1d
+      - s-217567b1fc
+      - s-e11f733a83
+      - s-64d02f788d
+      - s-9ace3d2dbb
+      - s-0ad13c3ce5
+      - s-78601a0316
+    zh:
+      - s-eaebb6e232
+      - s-acab7f1cf3
+      - s-94b1218883
+      - s-109e1d76cb
+      - s-289944f1c0
+      - s-2e4e36e840
+      - s-b91a31c39b
+      - s-917a7a4285
+      - s-a237e333b6
+      - s-db7b203f9e
+      - s-bf09153fcd
+      - s-b9d374b309
+      - s-4e10b8cd17
+      - s-193d84e84b
+      - s-943aa1c42b

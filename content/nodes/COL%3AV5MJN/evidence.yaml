@@ -1,0 +1,380 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys mufumontana (J. Wang, Lyu & Y. Y. Wang in J. Wang et al., 2019)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys mufumontana
+      zh: Boulenophrys mufumontana
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8339089cd8
+            part: title
+          zh:
+            page: zh
+            section: s-9bbdaf2461
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8339089cd8
+            part: body
+          zh:
+            page: zh
+            section: s-9bbdaf2461
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e4deb665ca
+            part: title
+          zh:
+            page: zh
+            section: s-a0804017dd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e4deb665ca
+            part: body
+          zh:
+            page: zh
+            section: s-a0804017dd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3ff6893afc
+            part: title
+          zh:
+            page: zh
+            section: s-47f47e068c
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3ff6893afc
+            part: body
+          zh:
+            page: zh
+            section: s-47f47e068c
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-141370493e8094339596a5c3
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-f57584708c
+            part: title
+          zh:
+            page: zh
+            section: s-4e181c3622
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5mjn
+        text:
+          en:
+            page: en
+            section: s-f57584708c
+            part: body
+          zh:
+            page: zh
+            section: s-4e181c3622
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f31ce4bc58
+            part: title
+          zh:
+            page: zh
+            section: s-2645371814
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5mjn
+        text:
+          en:
+            page: en
+            section: s-f31ce4bc58
+            part: body
+          zh:
+            page: zh
+            section: s-2645371814
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cb7080eb26
+            part: title
+          zh:
+            page: zh
+            section: s-96e8c73982
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5mjn
+        text:
+          en:
+            page: en
+            section: s-cb7080eb26
+            part: body
+          zh:
+            page: zh
+            section: s-96e8c73982
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-08271dec01
+            part: title
+          zh:
+            page: zh
+            section: s-fae8aee6bd
+            part: title
+        sourceIds:
+          - primary-pmc12466624-v5mjn
+        text:
+          en:
+            page: en
+            section: s-08271dec01
+            part: body
+          zh:
+            page: zh
+            section: s-fae8aee6bd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys mufumontana
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5MJN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4015, 4016; Reference.csv rows 1050
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10083232-v5mjn
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys mufumontana: Named species type material, distribution, diagnostic measurements and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-v5mjn
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys mufumontana: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c84bdae466
+        part: body
+      zh:
+        page: zh
+        section: s-bdd0e840bb
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v5mjn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys mufumontana
+        evidenceRead: "Boulenophrys mufumontana: Named species type material, distribution, diagnostic measurements and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Examined mountain material and the broader summary
+              zh: 检查山地材料及更广泛综合
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5mjn
+            locator: RESULTS > Boulenophrys mufumontana; Holotype, Specimens examined and Distribution; reading-sections index 62
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5f29ef0664
+                part: body
+              zh:
+                page: zh
+                section: s-52bc6716b7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Reported measurements from eight examined adults
+              zh: 八只检查成体的报告测量
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5mjn
+            locator: RESULTS > Boulenophrys mufumontana; Diagnosis character 1; reading-sections index 62
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-726da4625a
+                part: body
+              zh:
+                page: zh
+                section: s-4bd32c6999
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: Geographic isolation proposed for mitochondrial differences
+              zh: 对线粒体差异提出的地理隔离解释
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5mjn
+            locator: RESULTS > Boulenophrys mufumontana; Remarks; reading-sections index 62
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-468d24e50b
+                part: body
+              zh:
+                page: zh
+                section: s-fcad140e2a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-v5mjn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys mufumontana
+        evidenceRead: "Boulenophrys mufumontana: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-v5mjn
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,37
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-efbe2d2986
+                part: body
+              zh:
+                page: zh
+                section: s-59466a8b55
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

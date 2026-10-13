@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes kadarsani
+  displayName: Limnonectes kadarsani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DL3
+  sourceIndexes:
+    - name:
+        en: Limnonectes kadarsani
+        zh: Limnonectes kadarsani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DL3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/83
+            queryName: Limnonectes kadarsani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9638c2f79c
+      - s-41463d987e
+      - s-eff1ef0183
+      - s-6d1cabf304
+      - s-2ddb370ccd
+      - s-9e828446f1
+      - s-36f3aeb027
+      - s-259bacc0eb
+      - s-ea35f46891
+    zh:
+      - s-fe868f7c15
+      - s-004eeee5ea
+      - s-f3c9cb8034
+      - s-0bc0127d50
+      - s-cf0bcee3ed
+      - s-3ad9703075
+      - s-d34364fbe4
+      - s-0e2e82bc81
+      - s-634223ea86

@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Allophryne resplendens
+    name:
+      en: Allophryne resplendens
+      zh: Allophryne resplendens
+    sourceClassification:
+      order: Anura
+      family: Allophrynidae
+      genus: Allophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-60632381da
+            part: body
+          zh:
+            page: zh
+            section: s-aa309cf13f
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-faf47d9cd8
+            part: body
+          zh:
+            page: zh
+            section: s-a6fcff4157
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 133; Reference.csv rows 2474
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 133
+        values:
+          - Allophrynidae
+          - Allophryne
+          - Allophryne resplendens
+          - F
+          - "28.4"
+          - "7.8"
+          - "9.1"
+          - "3"
+          - "1.1"
+          - "1.1"
+          - "3.6"
+          - "1.7"
+          - "2"
+          - "2.5"
+          - "3.3"
+          - NA
+          - "8.7"
+          - "5.7"
+          - NA
+          - "11.5"
+          - NA
+          - "12.3"
+          - "11.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.1"
+          - "6.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2474
+        values:
+          - Anura
+          - Allophryne_resplendens
+          - "Castroviejo-Fisher, S., Perez-Pena, P. E., Padial, J. M., & Guayasamin, J. M. (2012). A Second Species of the Family Allophrynidae (Amphibia: Anura). American Museum Novitates, 3739, 1-17. <Go to ISI>://WOS:000301552600001"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Fin1L
+      - Fin2L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - BY88
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

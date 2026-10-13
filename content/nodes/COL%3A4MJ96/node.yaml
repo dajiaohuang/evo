@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis altamazonicus
+  displayName: Pristimantis altamazonicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ96
+  sourceIndexes:
+    - name:
+        en: Pristimantis altamazonicus
+        zh: Pristimantis altamazonicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ96
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/100
+            queryName: Pristimantis altamazonicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/24
+            queryName: Eleutherodactylus altamazonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0d80cfa2c5
+      - s-198bee1766
+      - s-446165478b
+      - s-ffd60fc0c8
+      - s-600b7d4a94
+      - s-1c06f70d4d
+      - s-f8eddcae0d
+      - s-3b42ea9055
+      - s-6bb5334f5d
+      - s-aece57560b
+      - s-b43b970230
+      - s-97f6a69ec6
+      - s-658842be02
+      - s-b13a3875b7
+      - s-680ca263bc
+      - s-dc4e1ec82b
+      - s-78a1e2a4f9
+      - s-b56e8333f3
+      - s-0b217c9bd3
+      - s-d3fbc9b0c2
+      - s-9b20fcbb04
+      - s-3917c15aaf
+      - s-a7a3260428
+      - s-a99219dade
+      - s-8376cc4d9d
+      - s-736078e8df
+      - s-1ed8112cb6
+      - s-41e61090e8
+    zh:
+      - s-21e4ef69bf
+      - s-eb2555d112
+      - s-3e7ab7267f
+      - s-761eb6de17
+      - s-a86c21f9d0
+      - s-1170556d34
+      - s-9193cc7bf9
+      - s-80c5357e1f
+      - s-c45e336812
+      - s-f7354eb63d
+      - s-1fddd35ae3
+      - s-fb3057bdc7
+      - s-0deebf756c
+      - s-b523a6ceda
+      - s-b6b46f78c3
+      - s-939e7a6126
+      - s-fccb4ac104
+      - s-2933d6ede0
+      - s-d9cdaaea82
+      - s-7a531da2c3
+      - s-3df9c34a97
+      - s-567985f072
+      - s-edc97e50c4
+      - s-5e9436c6b3
+      - s-088b627d20
+      - s-00330a3d0c
+      - s-bd8fb0b585
+      - s-6d709b5298

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla pineticola
+  displayName: Microhyla pineticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42XBJ
+  sourceIndexes:
+    - name:
+        en: Microhyla pineticola
+        zh: Microhyla pineticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42XBJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/33
+            queryName: Microhyla pineticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-61cca91bee
+      - s-93f485a4d0
+      - s-ea00a2e6ec
+      - s-2edbcb829d
+      - s-10865f6460
+      - s-75557ac19a
+    zh:
+      - s-5a7f0a474d
+      - s-55239b1526
+      - s-ba4c3f28f1
+      - s-1dd0ff2e30
+      - s-2057a5abe2
+      - s-8f8bb4d144

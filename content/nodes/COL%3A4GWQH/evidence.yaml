@@ -1,0 +1,361 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phrynopus inti Lehr, von May, Moravec & Cusi, 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phrynopus inti
+      zh: Phrynopus inti
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0e2557a5ba
+            part: title
+          zh:
+            page: zh
+            section: s-0c0eb8150e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0e2557a5ba
+            part: body
+          zh:
+            page: zh
+            section: s-0c0eb8150e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8ebe01753e
+            part: title
+          zh:
+            page: zh
+            section: s-3322d5303d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8ebe01753e
+            part: body
+          zh:
+            page: zh
+            section: s-3322d5303d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a314e52483
+            part: title
+          zh:
+            page: zh
+            section: s-f29a69c305
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-a314e52483
+            part: body
+          zh:
+            page: zh
+            section: s-f29a69c305
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-b45e4d8a8a0039bb8a776c55
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-602b41c0d8
+            part: title
+          zh:
+            page: zh
+            section: s-c43719e1e9
+            part: title
+        sourceIds:
+          - primary-pmc5704321-4gwqh
+        text:
+          en:
+            page: en
+            section: s-602b41c0d8
+            part: body
+          zh:
+            page: zh
+            section: s-c43719e1e9
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6a77fea71d
+            part: title
+          zh:
+            page: zh
+            section: s-e525a11d33
+            part: title
+        sourceIds:
+          - primary-pmc5704321-4gwqh
+        text:
+          en:
+            page: en
+            section: s-6a77fea71d
+            part: body
+          zh:
+            page: zh
+            section: s-e525a11d33
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1363466953
+            part: title
+          zh:
+            page: zh
+            section: s-c1f83d29d7
+            part: title
+        sourceIds:
+          - primary-pmc5704321-4gwqh
+        text:
+          en:
+            page: en
+            section: s-1363466953
+            part: body
+          zh:
+            page: zh
+            section: s-c1f83d29d7
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-ee182e77e9
+            part: title
+          zh:
+            page: zh
+            section: s-ce8ef6a982
+            part: title
+        sourceIds:
+          - primary-pmc5704321-4gwqh
+        text:
+          en:
+            page: en
+            section: s-ee182e77e9
+            part: body
+          zh:
+            page: zh
+            section: s-ce8ef6a982
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f1b99620dd
+            part: body
+          zh:
+            page: zh
+            section: s-08c5b8fc78
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phrynopus inti
+          url: https://www.checklistbank.org/dataset/316115/taxon/4GWQH
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4279, 4280; Reference.csv rows 1690
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc5704321-4gwqh
+        referenceId: ref-ed192963-1ea0-4b94-a2f6-48ecb03fe2bb
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phrynopus inti: Species distribution, natural-history and threat-status account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7857b2defd
+        part: body
+      zh:
+        page: zh
+        section: s-2cae4ea5e5
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.713.20776
+        referenceId: ref-ed192963-1ea0-4b94-a2f6-48ecb03fe2bb
+        sourceKey: primary-pmc5704321-4gwqh
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5704321/article.xml
+        sourceConcept: Phrynopus inti
+        evidenceRead: "Phrynopus inti: Species distribution, natural-history and threat-status account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Six reported high-Andean localities
+              zh: 六个已报告高安第斯地点
+            referenceId: ref-ed192963-1ea0-4b94-a2f6-48ecb03fe2bb
+            sourceKey: primary-pmc5704321-4gwqh
+            locator: "Phrynopus inti: Species distribution, natural-history and threat-status account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aa63bde519
+                part: body
+              zh:
+                page: zh
+                section: s-0af20f7624
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Rock and moss shelters across forest patches and puna
+              zh: 林块与高山草甸中的岩石及苔藓庇护处
+            referenceId: ref-ed192963-1ea0-4b94-a2f6-48ecb03fe2bb
+            sourceKey: primary-pmc5704321-4gwqh
+            locator: "Phrynopus inti: Species distribution, natural-history and threat-status account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-db86868ac1
+                part: body
+              zh:
+                page: zh
+                section: s-ed4e62d3d5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: A single male with ectoparasitic mites
+              zh: 一只雄性的体外寄生螨记录
+            referenceId: ref-ed192963-1ea0-4b94-a2f6-48ecb03fe2bb
+            sourceKey: primary-pmc5704321-4gwqh
+            locator: "Phrynopus inti: Species distribution, natural-history and threat-status account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-38432a40de
+                part: body
+              zh:
+                page: zh
+                section: s-46f91c628a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: conservation
+            heading:
+              en: A dated author proposal
+              zh: 有发表日期的作者评估建议
+            referenceId: ref-ed192963-1ea0-4b94-a2f6-48ecb03fe2bb
+            sourceKey: primary-pmc5704321-4gwqh
+            locator: "Phrynopus inti: Species distribution, natural-history and threat-status account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9a3fb1b65e
+                part: body
+              zh:
+                page: zh
+                section: s-9e568fe28b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

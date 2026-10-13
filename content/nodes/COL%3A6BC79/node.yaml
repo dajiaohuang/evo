@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor pelorus
+  displayName: Craugastor pelorus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC79
+  sourceIndexes:
+    - name:
+        en: Craugastor pelorus
+        zh: Craugastor pelorus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC79
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/155
+            queryName: Craugastor pelorus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/482
+            queryName: Eleutherodactylus pelorus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7acdb66d67
+      - s-e0c01eb921
+      - s-6c9f63efa8
+      - s-e1cf2d954c
+      - s-27a69f76e3
+      - s-07b94b3df2
+      - s-ce3b080fdc
+    zh:
+      - s-8d0267effa
+      - s-2bdb52e6f0
+      - s-21acf7ea4a
+      - s-b6bd0d39ff
+      - s-22e8dcbc29
+      - s-104f52de19
+      - s-578527f642

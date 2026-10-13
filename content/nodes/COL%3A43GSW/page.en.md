@@ -1,0 +1,3 @@
+## ## Subnodal prickles and globose heads {#s-9a374b599b}
+The Brazilian Flora 2020 entry records stems as glabrous or pubescent, with spreading simple hairs and unbranched thread-like setae; branched setae and glandular hairs are absent. Prickles occur below the nodes and may point outward or backward; short shoots are absent. The stipules persist, and extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts, a membranous calyx without lobes and hairless corolla lobes with one to three veins. The androecium is isostemonous, with pink filaments. The listed states are not a quantified account of variation.
+

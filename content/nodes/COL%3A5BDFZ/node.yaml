@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vietnamophryne orlovi
+  displayName: Vietnamophryne orlovi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5BDFZ
+  sourceIndexes:
+    - name:
+        en: Vietnamophryne orlovi
+        zh: Vietnamophryne orlovi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5BDFZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/233
+            queryName: Vietnamophryne orlovi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4efa00a724
+      - s-9f5e792d70
+      - s-1210e368ac
+      - s-9cea4a31c6
+      - s-fe803c4802
+      - s-c314e4a9d5
+      - s-abe7e3f3d0
+      - s-723aee48c0
+      - s-560c723a2d
+      - s-53580d6431
+      - s-f85d13ac65
+      - s-2467ca05cc
+      - s-ec962c6c17
+      - s-5276e1b8d4
+      - s-012bcae5b5
+      - s-666a26fe1c
+      - s-958e7b76c7
+    zh:
+      - s-d8ba44cd87
+      - s-2215f67b84
+      - s-b15a350e8e
+      - s-39454fc28b
+      - s-8ec874104b
+      - s-e10dda724a
+      - s-6adacbba30
+      - s-06920df749
+      - s-40a751f5d9
+      - s-129629c8ce
+      - s-a6d917ae47
+      - s-354e59074f
+      - s-f43dc1378d
+      - s-d70722fb4b
+      - s-06018e52ce
+      - s-d7ffb24587
+      - s-4e4b9dc50e

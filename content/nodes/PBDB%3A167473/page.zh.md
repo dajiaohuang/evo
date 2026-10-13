@@ -1,0 +1,9 @@
+## PBDB 所记分类概念 {#s-b2ace4ec31}
+PBDB 于 2026-10-02 核对的快照将 Xenotosuchus africanus 记为 species 级概念（来源概念 txn:167473），其记录父级为 Xenotosuchus。这是 Amphibia 存储锚点下的数据库父链；该路径不认证其与 COL26.8 概念等同。
+
+## 7 条 PBDB 出现记录与采集地字段 {#s-b671a504c6}
+这一确切概念返回 7 条出现记录，涉及 6 个不同采集地 ID：occ:868564 (collection col:96329; locality labels ZA / Eastern Cape / Ukhahlamba; stratigraphy fields group=Beaufort, formation=Burgersdorp; `olderAgeMa`=247 Ma, `youngerAgeMa`=241.464 Ma). occ:1116262 (collection col:141537; identified name `Capitosaurus africanus n. sp.` (taxonomicDifference: `recombined as`); locality labels ZA / Eastern Cape; stratigraphy fields group=Beaufort, formation=Burgersdorp; `olderAgeMa`=247 Ma, `youngerAgeMa`=241.464 Ma). occ:1134176 (collection col:144341; locality labels ZA / Free State; `olderAgeMa`=247 Ma, `youngerAgeMa`=241.464 Ma). occ:1142847 (collection col:92312; locality labels ZA / Eastern Cape / Ukhahlamba; stratigraphy fields group=Beaufort, formation=Burgersdorp; `olderAgeMa`=247 Ma, `youngerAgeMa`=241.464 Ma). occ:1143595 (collection col:92312; identified name `? Wellesaurus africanus` (taxonomicDifference: `recombined as`); locality labels ZA / Eastern Cape / Ukhahlamba; stratigraphy fields group=Beaufort, formation=Burgersdorp; `olderAgeMa`=247 Ma, `youngerAgeMa`=241.464 Ma). occ:1420186 (collection col:196999; locality labels ZA / Eastern Cape; stratigraphy fields group=Beaufort; `olderAgeMa`=247 Ma, `youngerAgeMa`=241.464 Ma). occ:1420190 (collection col:197001; locality labels ZA / Free State; `olderAgeMa`=247 Ma, `youngerAgeMa`=241.464 Ma)。年代值是采集地记录中的 Ma（距今百万年）字段，不是测定的物种起源或灭绝时间；该快照不证明全球分布已完整记录。摘录提供出现记录和采集地 ID，但没有标本编号或标本层级描述。
+
+## Xenotosuchus africanus 的文献索引查询 {#s-cfa4eff168}
+链接索引中的 accepted-name 查询以 `Xenotosuchus africanus` 为检索名，报告 3 条参考文献记录匹配。这是书目元数据，不是经核实的生物学结果。该占位记录尚未分配生物学主张，概念等同性尚未认证；本页事实仅限上述 PBDB 字段。
+

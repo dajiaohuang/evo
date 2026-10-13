@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ischnocnema venancioi
+    name:
+      en: Ischnocnema venancioi
+      zh: Ischnocnema venancioi
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Ischnocnema
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6640617fa1
+            part: body
+          zh:
+            page: zh
+            section: s-4489673126
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4dae01bff6
+            part: body
+          zh:
+            page: zh
+            section: s-f283552c19
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2447, 2448; Reference.csv rows 1924
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2447
+        values:
+          - Brachycephaloidea
+          - Ischnocnema
+          - Ischnocnema venancioi
+          - F
+          - "24.1"
+          - "9.64"
+          - "7.953"
+          - "2.2172"
+          - "0.8676"
+          - NA
+          - NA
+          - "1.928"
+          - NA
+          - "2.2172"
+          - NA
+          - NA
+          - "6.507"
+          - "5.302"
+          - NA
+          - "11.568"
+          - NA
+          - "13.255"
+          - "12.05"
+          - "6.989"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.302"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.001"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2448
+        values:
+          - Brachycephaloidea
+          - Ischnocnema
+          - Ischnocnema venancioi
+          - M
+          - "17.5"
+          - "7.525"
+          - "6.125"
+          - "2.4096"
+          - "0.9036"
+          - NA
+          - NA
+          - "3.2379"
+          - NA
+          - "1.506"
+          - NA
+          - NA
+          - "4.55"
+          - "3.675"
+          - NA
+          - "8.05"
+          - NA
+          - "9.625"
+          - "8.4"
+          - "5.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.7735"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.7392"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1924
+        values:
+          - Anura
+          - Ischnocnema_venancioi
+          - "Taucce, P. P. G., Canedo, C., Parreiras, J. S., Drummond, L. O., Nogueira-Costa, P., & Haddad, C. F. B. (2018). Molecular phylogeny of Ischnocnema (Anura: Brachycephalidae) with the redefinition of its series and the description of two new species. Mol Phylogenet Evol, 128, 123-146. https://doi.org/10.1016/j.ympev.2018.06.042"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

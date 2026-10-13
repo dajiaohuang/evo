@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spea bombifrons
+  displayName: Spea bombifrons
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Z8SV
+  sourceIndexes:
+    - name:
+        en: Spea bombifrons
+        zh: Spea bombifrons
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Z8SV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/215
+            queryName: Spea bombifrons
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 284
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/195
+            queryName: Scaphiopus bombifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/346
+            queryName: Scaphiopus hammondii bombifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c086d024e
+      - s-3334ba96e3
+      - s-5f511ff77a
+      - s-333e3f1583
+      - s-3c8ba4ff0e
+      - s-c418f862d0
+      - s-8327454879
+      - s-e2f53ac4bd
+      - s-23dd24f3b8
+      - s-a05777d41c
+      - s-da3351db0f
+      - s-d019a64cb3
+      - s-9330999678
+      - s-42debb07a2
+      - s-b4f9b10f30
+      - s-202f50531c
+      - s-46077ed1f7
+      - s-50d86f7c8a
+      - s-386d7e8145
+      - s-5fcdb0dd63
+      - s-69d42c008b
+      - s-1784039c2c
+      - s-309de373ca
+    zh:
+      - s-da6caa6623
+      - s-3c0b162ccc
+      - s-5fbe89de58
+      - s-e08e69968d
+      - s-9bdf5091cc
+      - s-6d01d7c359
+      - s-cac91e6495
+      - s-d8ce1f610c
+      - s-843b2db08d
+      - s-eeaecb3743
+      - s-84ef3c3bc2
+      - s-4e93d86d91
+      - s-1f90f69a82
+      - s-b012fd423e
+      - s-b456abd52a
+      - s-f4124a6822
+      - s-20ae3d5995
+      - s-bfc0c7c65a
+      - s-b9fe7759ef
+      - s-150f0d4a04
+      - s-3f95f06bcc
+      - s-cff4f331d9
+      - s-27dfd33341

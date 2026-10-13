@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla pulchra
+  displayName: Microhyla pulchra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42XBL
+  sourceIndexes:
+    - name:
+        en: Microhyla pulchra
+        zh: Microhyla pulchra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42XBL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/34
+            queryName: Microhyla pulchra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/299
+            queryName: Engystoma pulchrum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/300
+            queryName: Scaptophryne labyrinthica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/301
+            queryName: Diplopelma pulchrum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/302
+            queryName: Ranina symetrica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/303
+            queryName: Microhyla hainanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/304
+            queryName: Microhyla melli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/305
+            queryName: Microhyla pulchrum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/306
+            queryName: Microhyla major
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fdfc6e7d96
+      - s-a0f33aea51
+      - s-a1ab3a9b95
+      - s-8030686442
+      - s-90befa3bb0
+      - s-a2bb80cb6d
+      - s-83b73998d7
+      - s-c932c25cdd
+      - s-0c36a91b88
+      - s-90a7f4cf1b
+      - s-2065596b7c
+      - s-d29e6f9e40
+      - s-e28967b330
+    zh:
+      - s-fc4a50bd69
+      - s-6a80fca538
+      - s-5b6d13f4b9
+      - s-2243c71bed
+      - s-97ecbffc5d
+      - s-e72855a299
+      - s-db980eeb46
+      - s-45a2233de5
+      - s-b5187d14e6
+      - s-6a573d7941
+      - s-1152707396
+      - s-4a35c573c4
+      - s-0089dba247

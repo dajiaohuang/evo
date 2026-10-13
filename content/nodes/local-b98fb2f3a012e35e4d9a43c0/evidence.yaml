@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis jubatus
+    name:
+      en: Pristimantis jubatus
+      zh: Pristimantis jubatus
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-45b0ab25cc
+            part: body
+          zh:
+            page: zh
+            section: s-6ef9397b0f
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a89deb7d32
+            part: body
+          zh:
+            page: zh
+            section: s-321a0d5ef2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4607, 4608; Reference.csv rows 1563
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4607
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis jubatus
+          - M
+          - "21.13"
+          - "8.62"
+          - "7.87"
+          - "3.19"
+          - "0.97"
+          - "0.78"
+          - "2.12"
+          - NA
+          - "1.92"
+          - "2.61"
+          - NA
+          - NA
+          - NA
+          - "5.23"
+          - NA
+          - NA
+          - NA
+          - "11.93"
+          - "10.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4608
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis jubatus
+          - F
+          - "32.6"
+          - "12.91"
+          - "12.43"
+          - "4.27"
+          - "1.59"
+          - "1.39"
+          - "3.33"
+          - NA
+          - "2.48"
+          - "3.7"
+          - NA
+          - NA
+          - NA
+          - "7.67"
+          - NA
+          - NA
+          - NA
+          - "18.01"
+          - "16.28"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1563
+        values:
+          - Anura
+          - Pristimantis_jubatus
+          - "Garcia-R, J. C., Mendoza, Á. M., Ospina, O., Cardenas, H., & Castro, F. (2014). A morphometric and molecular approach to define three closely related species of frogs of the Genus Pristimantis(Anura: Craugastoridae) from the Cordillera Occidental in Colombia. Journal of Herpetology, 48(2), 220-227. https://doi.org/10.1670/12-091"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - UEW
+      - EN
+      - FLL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

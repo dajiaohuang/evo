@@ -1,0 +1,130 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena anchietae
+  displayName: Ptychadena anchietae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9PV
+  sourceIndexes:
+    - name:
+        en: Ptychadena anchietae
+        zh: Ptychadena anchietae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9PV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/453
+            queryName: Ptychadena anchietae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/132
+            queryName: Rana anchietae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/133
+            queryName: Rana abyssinica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/134
+            queryName: Rana gondokorensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/135
+            queryName: Rana aberae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/136
+            queryName: Ptychadena abyssinica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/489
+            queryName: Rana oxyrhynchus migiurtina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3c441689f6
+      - s-286ebcf5ba
+      - s-5b78e53344
+      - s-7a087b29f3
+      - s-0e55dbff2d
+      - s-93ea55336d
+      - s-6a62c7177e
+      - s-9b3ac1f3e7
+      - s-5f2ca033de
+      - s-4fb0723fbf
+      - s-47b0fdda25
+      - s-f16e47a426
+      - s-5c0436034a
+      - s-cc78c00335
+      - s-2b08e2dc88
+      - s-ec99d2a4b9
+      - s-fe6d6d4a9b
+      - s-45cb4a4672
+      - s-19eb3a409b
+      - s-a905750653
+      - s-424f0a89b3
+      - s-f1dea2929d
+      - s-dfc538c0ef
+      - s-de442db49a
+      - s-3f642f837e
+      - s-579c924303
+      - s-5b4e372a1a
+    zh:
+      - s-794198b838
+      - s-09b5c70d2e
+      - s-6491918079
+      - s-5b1765bee6
+      - s-6d1ee07044
+      - s-200b7bd16f
+      - s-b934eb6d2e
+      - s-5b97c8dcdb
+      - s-63260aa82f
+      - s-3b007d9154
+      - s-997a4f19d8
+      - s-091a9f8e30
+      - s-fb0117b186
+      - s-abc31cf3f6
+      - s-b5313e1968
+      - s-805d3200ef
+      - s-ca4ce53cf3
+      - s-9853141f3d
+      - s-8c50b9f61e
+      - s-402bd98d05
+      - s-331c9c8828
+      - s-fd9cc10782
+      - s-9957829e30
+      - s-a9dc37ca7e
+      - s-f99e88a101
+      - s-23cbf9a11a
+      - s-d1b9a737ab

@@ -1,0 +1,42 @@
+## Accepted name and placement {#s-510bd64695}
+COL26.8 accepts Dryophytes avivoca (Viosca, 1928) as a species. Its recorded classification places it along Anura (order) → Hylidae (family) → Dryophytes (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-6a053b140c}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Recorded geographic labels {#s-3e80331245}
+The pinned ITIS source lists North America for Dryophytes avivoca. The connection uses the exact ITIS TSN 1098486 supplied by COL26.8, with the scientific name and authorship checked against the archived source Name row. These are textual geographic labels rather than precise range boundaries, local observation dates or population measurements. The distribution-status field is unspecified, so native versus introduced status cannot be assigned from these rows.
+
+## Related source records and datasets {#s-f458bb0261}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [TadpoleTraits v4: Dryophytes avivoca](../../../../../../../../../../../../../topics/research/TadpoleTraits/Hylidae/Dryophytes/Dryophytes_avivoca/page.en.md)
+- [AmphiBIO v1: Hyla avivoca](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Hylidae/Hyla/Hyla_avivoca/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-29ea42dfe6}
+Deposited source concept: Dryophytes avivoca, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 0 literature-derived rows and 3 image-derived rows for this source concept. Supplied stage entries are 34; 35. Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Selected image-derived proportions — TadpoleTraits source {#s-8eb8b2c38a}
+Deposited source concept: Dryophytes avivoca, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The image-data source reports tail length / total length = 0.641769 (source row 402, stage 34); body length / total length = 0.312571 (source row 403, stage 34); tail length / total length = 0.687536 (source row 403, stage 34); maximum body height / total length = 0.1875 (source row 403, stage 34); maximum tail height / total length = 0.179857 (source row 403, stage 34). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+
+## Adult tapeworm associations in a historical North American checklist {#s-fc28a311fc}
+The 2023 review includes Dryophytes avivoca among amphibian hosts with records of adult intestinal cestodes. Its named parasite associations are Cylindrotaenia americana. These describe compiled host–parasite records, not parasites measured in every member of the species. The scope is adult worms in wild continental North American herpetofauna; larval cestode records are excluded. An intestinal association alone does not establish disease severity, host mortality, zoonotic transmission or the species’ role in completing every parasite life cycle. Prevalence, intensity, examined-host denominators and experimental susceptibility are not supplied by this host checklist.
+
+## Reported parasite localities retain their historical scope {#s-ae3b23cd78}
+The parasite-oriented entries associate the source label Dryophytes avivoca with these reported places: Cylindrotaenia americana: Arkansas. Place labels are retained at the article’s stated resolution; an unspecified locality is not converted into a state or precise site. The underlying reports span different publication dates and collection settings. This review is not a new survey demonstrating present occupancy, a complete host range or absence of infection outside those places. Host names and parasite identifications are the review’s interpretation of historical reports; original vouchers, collection dates and sequences have not been independently reassessed for current species concepts.
+
+## How to interpret the compiled parasite evidence {#s-38edcf30d1}
+The authors assembled literature records into both parasite-first and host-first lists and supplied an identification key using earlier taxonomic works. The host-first list intentionally omits worms identified only to genus; a shorter list there is not evidence that genus-level records do not exist. The article reports 88 named amphibian hosts overall, alongside unresolved and hybrid labels in its host list; that source total is not the number of pinned COL26.8 pages linked here. This page uses only an exact source-name match to the frozen accepted name, without certifying every historical specimen’s identity. The source does not document a dated, reproducible database-query protocol sufficient to treat a missing association as a systematic negative finding.
+
+## catalogue-profile / limitations {#s-3589887b67}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-21d3c5f6d6}
+The 2023 review includes Dryophytes avivoca among amphibian hosts with records of adult intestinal cestodes. Its named parasite associations are Cylindrotaenia americana. These describe compiled host–parasite records, not parasites measured in every member of the species. The scope is adult worms in wild continental North American herpetofauna; larval cestode records are excluded. An intestinal association alone does not establish disease severity, host mortality, zoonotic transmission or the species’ role in completing every parasite life cycle. Prevalence, intensity, examined-host denominators and experimental susceptibility are not supplied by this host checklist.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-d53fbc734a}
+The parasite-oriented entries associate the source label Dryophytes avivoca with these reported places: Cylindrotaenia americana: Arkansas. Place labels are retained at the article’s stated resolution; an unspecified locality is not converted into a state or precise site. The underlying reports span different publication dates and collection settings. This review is not a new survey demonstrating present occupancy, a complete host range or absence of infection outside those places. Host names and parasite identifications are the review’s interpretation of historical reports; original vouchers, collection dates and sequences have not been independently reassessed for current species concepts.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-c895c95d95}
+The authors assembled literature records into both parasite-first and host-first lists and supplied an identification key using earlier taxonomic works. The host-first list intentionally omits worms identified only to genus; a shorter list there is not evidence that genus-level records do not exist. The article reports 88 named amphibian hosts overall, alongside unresolved and hybrid labels in its host list; that source total is not the number of pinned COL26.8 pages linked here. This page uses only an exact source-name match to the frozen accepted name, without certifying every historical specimen’s identity. The source does not document a dated, reproducible database-query protocol sufficient to treat a missing association as a systematic negative finding.
+

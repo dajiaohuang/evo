@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus grandis
+  displayName: Eleutherodactylus grandis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4BM
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus grandis
+        zh: Eleutherodactylus grandis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4BM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/219
+            queryName: Eleutherodactylus grandis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/372
+            queryName: Tomodactylus grandis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 56
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/108
+            queryName: Syrrhophus grandis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d38f4271e0
+      - s-2eb60efc60
+      - s-77d1b41118
+      - s-71c6aec8a8
+      - s-27bc586529
+      - s-f19060b64c
+      - s-61e1597db2
+      - s-3e32416ecd
+      - s-77ca37fa56
+    zh:
+      - s-8739ff59c8
+      - s-9b6cd47833
+      - s-f39dd1419a
+      - s-1ce6b1922d
+      - s-dc6df08492
+      - s-67a2e1a220
+      - s-74c37d6c71
+      - s-2211ee8d86
+      - s-463d0c0645

@@ -26,12 +26,70 @@
       "Seed-plant reproduction",
       "Fossil leaf sampling used in total-evidence models"
     ],
-    "evidenceSummary": "Models disagree with a simple synchronous recent radiation; fossil integration supports older regional histories but does not turn model nodes into direct fossil occurrences.",
+    "evidenceSummary": "Studies use different datasets and methods to estimate cycad history. Fossil-integrated models support older regional histories, but a model age is not itself a fossil occurrence.",
     "confidence": "medium",
     "referenceIds": [
       "nagalingum-2011-living-cycad-radiation",
       "liu-2022-cycadaceae-palaeogene",
       "coiro-2023-cycad-biogeography"
+    ],
+    "readerSections": [
+      {
+        "id": "living-and-fossil-data",
+        "title": {
+          "en": "One analysis combines living plants and fossil leaves",
+          "zh": "一项分析结合现生植物与化石叶片"
+        },
+        "text": {
+          "en": "Coiro and colleagues combined molecular data from living cycads with leaf morphology scored for living and fossil taxa, including 60 fossil species. The fossil leaf assignments and character codings are inputs to the analysis, not conclusions supplied by the model. The resulting tree and historical estimates describe the sampled dataset and analytical choices; they are not a fixed topology for every member of Cycadophyta.",
+          "zh": "Coiro 等将现生苏铁的分子数据与现生及化石类群的叶部形态结合，其中包括 60 个化石种。化石叶片的归属和性状编码是分析输入，而非模型自动给出的结论。生成的树和历史估计描述的是特定取样数据集与分析选择，并不是适用于所有苏铁门成员的固定拓扑。"
+        },
+        "sourceIds": [
+          "coiro-2023-cycad-biogeography"
+        ]
+      },
+      {
+        "id": "crown-cycadales-model-age",
+        "title": {
+          "en": "The age estimate applies to crown Cycadales",
+          "zh": "年代估计针对冠群苏铁目"
+        },
+        "text": {
+          "en": "In the study's fossilized birth–death analysis, crown Cycadales has a posterior median age of 330.4 million years, with a 95% highest posterior density interval of 296.2–358.9 million years. The displayed 330.4-to-present interval is a navigation summary linking that model estimate to living cycads. It is not a directly observed fossil first appearance for all Cycadophyta, and the interval does not mean fossils are known continuously through that time.",
+          "zh": "在该研究的化石化出生—死亡分析中，冠群苏铁目的后验中位年龄为 3.304 亿年，95% 最高后验密度区间为 2.962–3.589 亿年。图示的“3.304 亿年前至今”是把模型估计与现生苏铁相连的导航摘要，并非整个苏铁门的直接化石首现；它也不表示这一时期都有连续化石记录。"
+        },
+        "sourceIds": [
+          "coiro-2023-cycad-biogeography"
+        ]
+      },
+      {
+        "id": "biogeographic-model",
+        "title": {
+          "en": "A modelled range contraction is not a complete map",
+          "zh": "模型化的分布收缩不是完整地图"
+        },
+        "text": {
+          "en": "The fossil-integrated biogeographic model supports an interpretation of broader high-latitude occupation followed by contraction. Ancestral areas and the number of local disappearances depend on model assumptions and the sampled fossils. Living cycads are concentrated in tropical and subtropical regions, but that modern pattern alone does not identify where the group originated or why its range changed.",
+          "zh": "纳入化石的生物地理模型支持一种解释：苏铁类过去在高纬度地区分布更广，后来分布范围收缩。祖先分布区和局部消失次数取决于模型假设及化石取样。现生苏铁主要分布于热带和亚热带，但仅凭现代格局无法确定该类群的起源地或分布变化的原因。"
+        },
+        "sourceIds": [
+          "coiro-2023-cycad-biogeography"
+        ]
+      }
+    ],
+    "readerSources": [
+      {
+        "id": "coiro-2023-cycad-biogeography",
+        "title": {
+          "en": "Coiro et al. (2023), cycad fossils and biogeography",
+          "zh": "Coiro 等（2023），苏铁化石与生物地理"
+        },
+        "url": "https://doi.org/10.1111/nph.19010",
+        "scope": {
+          "en": "The study combines molecular data from living cycads with morphology scored from living and fossil leaf taxa, including 60 fossil species. Its dating and biogeographic conclusions are outputs of sampled trees and models. They do not independently establish a direct fossil first appearance, a complete global distribution or a single cause of diversification.",
+          "zh": "该研究将现生苏铁的分子数据与现生及化石叶类群的形态编码结合，其中包括 60 个化石种。其年代和生物地理结论来自特定取样树与模型，并不能独立确立直接观测到的化石首现、完整全球分布或单一多样化原因。"
+        }
+      }
     ],
     "firstAppearance": 330.4,
     "lastAppearance": 0,
@@ -52,25 +110,37 @@
       "Global fossil record",
       "East Asian living representative"
     ],
-    "overview": "Ginkgoxylon liaoningense PB22285 provides a well-bounded Jurassic wood-anatomy exemplar without being treated as the first ginkgophyte or an associated leaf species.",
+    "overview": "Jurassic wood specimen Ginkgoxylon liaoningense PB22285 provides a bounded example of ginkgo-like wood anatomy. It is not treated as the first ginkgophyte, and no leaf species is associated with the wood.",
     "ecology": {
-      "diet": "Photosynthetic autotrophy",
-      "habitat": "Terrestrial forest or woodland inferred for the wood producer",
-      "locomotion": "Sessile growth",
-      "bodySize": "Tree-sized producer inferred from secondary wood",
-      "guild": "Terrestrial woody primary producer"
+      "diet": "The source describes the producer as photosynthetic; the wood itself does not preserve feeding behavior.",
+      "habitat": "A terrestrial forest or woodland is inferred for the wood producer, not directly shown by the anatomical specimen.",
+      "locomotion": "The plant grew in place rather than moving; this is a growth-form description.",
+      "bodySize": "Tree size is inferred from secondary wood, not measured from a whole plant.",
+      "guild": "The specimen represents a terrestrial woody primary producer in the source’s functional description.",
+      "dietZh": "来源将造木植物描述为进行光合作用；木材本身没有保存取食行为。",
+      "habitatZh": "根据造木植物推测其生长于陆地森林或林地，但解剖标本没有直接显示这种环境。",
+      "locomotionZh": "植物固定生长，不会主动移动；这是生长形态的描述。",
+      "bodySizeZh": "根据次生木质部推测其为树木大小，未测得完整植株尺寸。",
+      "guildZh": "来源将该标本的生产者描述为陆生木本初级生产者。"
     },
     "traits": [
-      "Secondary xylem",
-      "Ginkgo-like wood anatomy in PB22285",
-      "Seed-plant growth form"
+      "Secondary xylem is preserved.",
+      "PB22285 shows ginkgo-like wood anatomy.",
+      "The source interprets the producer as having a seed-plant growth form."
     ],
-    "evidenceSummary": "The Tiaojishan specimen directly supports wood characters and locality; its affinity and evolutionary position do not establish a complete phylum range or ancestor sequence.",
+    "evidenceSummary": "The Tiaojishan specimen directly supports wood characters and locality. Its affinity and evolutionary position do not establish the full range of Ginkgophyta or an ancestor sequence.",
     "confidence": "medium",
     "referenceIds": [
       "jiang-2016-ginkgoxylon",
       "ran-2018-gymnosperm-phylogenomics"
     ],
+    "overviewZh": "侏罗纪木化石 Ginkgoxylon liaoningense PB22285 提供了一个范围明确的银杏样木材解剖案例。它不被视为银杏植物的最早代表，木材也未与某一叶种关联。",
+    "traitsZh": [
+      "标本保存了次生木质部。",
+      "PB22285 显示银杏样木材解剖。",
+      "来源将造木植物解释为具有种子植物生长形态。"
+    ],
+    "evidenceSummaryZh": "Tiaojishan 标本直接支持木材特征和产地记录。其亲缘关系与演化位置不能确定整个银杏植物类群的完整分布，也不能建立祖先序列。",
     "firstAppearance": 165,
     "lastAppearance": 0,
     "rangeEvidenceLevel": "literature-synthesized",
@@ -90,7 +160,7 @@
       "Living conifer sample across both hemispheres",
       "Fossil calibrations used in the dated analysis"
     ],
-    "overview": "A dated phylogeny sampling about 80% of living conifer species tests hemispheric differences in evolutionary dynamics; its modelled nodes and fossil calibrations are not direct occurrences or a complete total-group history.",
+    "overview": "A dated tree sampling about 80% of living conifer species compares evolutionary patterns between hemispheres. Its node ages depend on fossil calibrations and models; they are not direct fossil occurrences or a complete history of the conifer total group.",
     "ecology": {
       "diet": "Not generalized by the cited dated-phylogeny study",
       "habitat": "No single habitat is assigned across the sampled living conifers",
@@ -103,12 +173,38 @@
       "No universal cone morphology is generalized from the sampled molecular tree",
       "Fossil calibrations constrain sampled nodes rather than recording body characters"
     ],
-    "evidenceSummary": "The primary analysis directly supports its sampled tree, calibrations and hemispheric comparison; morphology and ecology remain explicitly ungeneralized, and the separate 300–0 Ma display is only a conservative review-bounded navigation range.",
+    "evidenceSummary": "The cited analysis supports its sampled phylogeny, fossil calibrations and hemispheric comparison. The displayed 300–0 Ma interval is a separate, conservatively reviewed navigation envelope, not a complete fossil record or an output of the tree.",
+    "readerSections": [
+      {
+        "id": "reading-0",
+        "title": {
+          "en": "A broad sample of living conifers",
+          "zh": "现生松柏类的大规模取样"
+        },
+        "text": {
+          "en": "The dated phylogeny samples about 80% of living conifer species to compare evolutionary dynamics in the Northern and Southern Hemispheres. This is a large living-species sample, not a census of every conifer lineage that has ever existed.",
+          "zh": "这项定年系统树取样了约 80% 的现生松柏类物种，以比较北半球和南半球的演化动态。这是对现生物种的大规模取样，不是对所有曾存在的松柏类谱系的普查。"
+        }
+      },
+      {
+        "id": "reading-1",
+        "title": {
+          "en": "Modelled dates and the fossil record",
+          "zh": "模型年代与化石记录"
+        },
+        "text": {
+          "en": "Fossil calibrations help estimate ages for sampled branches, but those node ages are model results rather than direct dates on every split. The separate 300–0 Ma display is a conservative navigation span; it is not a complete, continuously documented fossil range.",
+          "zh": "化石校准帮助估计所取样枝系的年代，但节点年代是模型结果，并非对每次分化的直接测年。另行展示的 3 亿年至今区间是保守的导航跨度，并非完整且连续有记录的化石延限。"
+        }
+      }
+    ],
     "confidence": "medium",
     "referenceIds": [
       "leslie-2012-conifer-hemispheres",
       "leslie-2018-conifer-evolution"
     ],
+    "overviewZh": "一项带年代的系统树取样了约 80% 的现生松柏类物种，用于比较南北半球的演化模式。节点年龄取决于化石校准和模型；它们并非直接化石记录，也不代表松柏类总群的完整历史。",
+    "evidenceSummaryZh": "所引分析支持其取样系统发育关系、化石定年校准及半球间比较。图示的 300–0 Ma 区间是另行审慎审核的导航时间范围，并非完整化石记录，也不是系统树的分析结果。",
     "firstAppearance": 300,
     "lastAppearance": 0,
     "rangeEvidenceLevel": "literature-synthesized",
@@ -128,24 +224,89 @@
       "Hettangian South Hadley Falls Member, Massachusetts, United States",
       "Living and fossil taxa sampled in the family-level matrix"
     ],
-    "overview": "Holyoke specimen J 1430 supplies a bounded Lower Jurassic bract-scale exemplar, while a separate combined matrix samples 31 living and eight fossil araucariacean species; neither establishes an exact family origin or direct ancestry.",
+    "overview": "Holyoke specimen J 1430 is a Lower Jurassic, Hettangian bract-scale complex assigned to Araucariaceae. A separate combined matrix analyzes 31 living and eight fossil species. The single specimen and sampled tree do not establish an exact family origin or direct ancestry.",
     "ecology": {
-      "diet": "Not resolved by the cited specimen description and phylogenetic analysis",
-      "habitat": "Not generalized beyond the named fossil locality and sampled living taxa",
-      "locomotion": "Sessile plant growth is not directly observed in the fossil sample",
-      "bodySize": "Not resolved from the isolated bract-scale complex",
-      "guild": "No single ecological guild is assigned from the cited studies"
+      "diet": "The specimen description and family-level phylogeny do not assess diet or ecological interactions.",
+      "habitat": "J 1430 comes from the South Hadley Falls Member in Massachusetts. The fossil locality and sampled living taxa do not establish habitat preferences for the family.",
+      "locomotion": "A single bract-scale fossil does not establish whole-plant growth form.",
+      "bodySize": "Whole-plant size cannot be estimated from this isolated bract-scale complex.",
+      "guild": "The cited studies do not assign a family-wide ecological guild.",
+      "dietZh": "标本描述和科级系统发育研究均未评估食性或生态相互作用。",
+      "habitatZh": "J 1430 出自马萨诸塞州的 South Hadley Falls 段。该化石产地和取样的现生类群不足以确定该科的栖息地偏好。",
+      "locomotionZh": "单件苞片鳞片化石不足以确定整株植物的生长型。",
+      "bodySizeZh": "仅凭这件孤立的苞鳞复合结构，无法估计整株植物的大小。",
+      "guildZh": "所引研究没有为整个科指定统一的生态功能类群。"
     },
     "traits": [
-      "Wedge-shaped bract-scale complex in specimen J 1430",
-      "Centrally placed ovule retained at maturity in the sampled fossil",
-      "Lateral wings documented on the Holyoke bract-scale complex"
+      "Specimen J 1430 preserves a wedge-shaped bract-scale complex.",
+      "A centrally placed ovule is retained in the mature fossil structure.",
+      "The bract-scale complex has documented lateral wings."
     ],
-    "evidenceSummary": "The primary description directly supports J 1430's anatomy, locality and Hettangian context; family relationships come from a character matrix and remain analytical rather than an ancestor sequence or a global range boundary.",
+    "evidenceSummary": "Axsmith et al. describe J 1430's anatomy and Hettangian South Hadley Falls Member locality. Escapa and Catalano analyze molecular and morphological data for 31 living and eight fossil araucariacean species. The specimen supports a bounded fossil comparison; family relationships come from a sampled character matrix, not an ancestor sequence or global range boundary.",
     "confidence": "medium",
     "referenceIds": [
       "axsmith-2008-holyoke-araucaria",
       "escapa-catalano-2013-araucariaceae"
+    ],
+    "overviewZh": "Holyoke 标本 J 1430 是早侏罗世赫塘阶的一件苞鳞复合体，被归入 Araucariaceae。另一项合并矩阵分析了 31 种现生和 8 种化石物种。这件标本与所取样的系统树都不能确定该科的确切起源或直接祖先关系。",
+    "evidenceSummaryZh": "Axsmith 等人描述了 J 1430 的解剖及其赫塘阶 South Hadley Falls Member 产地。Escapa 和 Catalano 分析了 31 种现生及 8 种化石南洋杉科物种的分子和形态数据。该标本支持有界的化石比较；科级关系来自取样性状矩阵，并非祖先序列或全球分布边界。",
+    "readerSources": [
+      {
+        "id": "axsmith-2008-holyoke-araucaria",
+        "title": "An araucarian conifer bract-scale complex from the Lower Jurassic of Massachusetts: implications for estimating phylogenetic/stratigraphic congruence in the Araucariaceae",
+        "url": "https://palaeo-electronica.org/2008_3/152/index.html",
+        "scope": {
+          "en": "Axsmith et al. (2008), pp. 11.3.13A:1–9, Figures 1–2: specimen J 1430, the Holyoke locality and the single bract-scale description, especially pp. 4–6 and Figure 2.",
+          "zh": "Axsmith 等（2008），第 11.3.13A:1–9 页、图 1–2：J 1430 标本、Holyoke 产地及单件苞鳞描述，尤其第 4–6 页和图 2。"
+        }
+      },
+      {
+        "id": "escapa-catalano-2013-araucariaceae",
+        "title": "Phylogenetic Analysis of Araucariaceae: Integrating Molecules, Morphology, and Fossils",
+        "url": "https://doi.org/10.1086/672369",
+        "doi": "10.1086/672369",
+        "scope": {
+          "en": "Escapa and Catalano (2013), pp. 1153–1170, Table 1, Figures 2–6 and online appendix: the 31 living and eight fossil species sample and its molecular/morphological analyses.",
+          "zh": "Escapa 与 Catalano（2013），第 1153–1170 页、表 1、图 2–6 与在线附录：31 种现生和 8 种化石物种的样本，以及分子／形态分析。"
+        }
+      }
+    ],
+    "readerSections": [
+      {
+        "id": "reading-introduction",
+        "title": {
+          "en": "Specimen J 1430 and a 39-species matrix",
+          "zh": "J 1430 标本与 39 种矩阵"
+        },
+        "text": {
+          "en": "Holyoke specimen J 1430 is a Lower Jurassic, Hettangian bract-scale complex assigned to Araucariaceae. A separate combined matrix analyzes 31 living and eight fossil species. The single specimen and sampled tree do not establish an exact family origin or direct ancestry.",
+          "zh": "Holyoke 标本 J 1430 是早侏罗世赫塘阶的一件苞鳞复合体，被归入 Araucariaceae。另一项合并矩阵分析了 31 种现生和 8 种化石物种。这件标本与所取样的系统树都不能确定该科的确切起源或直接祖先关系。"
+        },
+        "sourceIds": [
+          "axsmith-2008-holyoke-araucaria",
+          "escapa-catalano-2013-araucariaceae"
+        ]
+      },
+      {
+        "id": "araucariaceae-evidence",
+        "title": {
+          "en": "One Hettangian occurrence and a sampled family tree",
+          "zh": "一件赫塘阶记录与科级取样系统树"
+        },
+        "text": {
+          "en": "Axsmith et al. describe J 1430's anatomy and Hettangian South Hadley Falls Member locality. Escapa and Catalano analyze molecular and morphological data for 31 living and eight fossil araucariacean species. The specimen supports a bounded fossil comparison; family relationships come from a sampled character matrix, not an ancestor sequence or global range boundary.",
+          "zh": "Axsmith 等人描述了 J 1430 的解剖及其赫塘阶 South Hadley Falls Member 产地。Escapa 和 Catalano 分析了 31 种现生及 8 种化石南洋杉科物种的分子和形态数据。该标本支持有界的化石比较；科级关系来自取样性状矩阵，并非祖先序列或全球分布边界。"
+        },
+        "sourceIds": [
+          "axsmith-2008-holyoke-araucaria",
+          "escapa-catalano-2013-araucariaceae"
+        ]
+      }
+    ],
+    "traitsZh": [
+      "标本 J 1430 保存了一个楔形苞片—鳞片复合体。",
+      "成熟化石结构中保留了位于中央的胚珠。",
+      "已有记录显示苞片—鳞片复合结构具有侧翼。"
     ],
     "firstAppearance": 201.4,
     "lastAppearance": 0,

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia pseudinsignifera
+  displayName: Crinia pseudinsignifera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZGD6
+  sourceIndexes:
+    - name:
+        en: Crinia pseudinsignifera
+        zh: Crinia pseudinsignifera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZGD6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/209
+            queryName: Crinia pseudinsignifera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/427
+            queryName: Ranidella pseudinsignifera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a92614edc6
+      - s-07e2f24114
+      - s-17ec01890e
+      - s-fc7250325b
+      - s-7807d9104c
+      - s-3d89359b96
+      - s-ddb49a0e76
+      - s-417f9b903b
+      - s-df05021031
+      - s-a9e99c375f
+    zh:
+      - s-48ccbc6c11
+      - s-c84d92e61a
+      - s-794bd22de2
+      - s-5b7fadfee0
+      - s-9ba50597e7
+      - s-0a6de60847
+      - s-adce983bb9
+      - s-f0cdc33781
+      - s-31ed260e12
+      - s-5210462ee9

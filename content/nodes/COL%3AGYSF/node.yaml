@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis schubotzi
+  displayName: Arthroleptis schubotzi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYSF
+  sourceIndexes:
+    - name:
+        en: Arthroleptis schubotzi
+        zh: Arthroleptis schubotzi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYSF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/178
+            queryName: Arthroleptis schubotzi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/246
+            queryName: Schoutedenella discodactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/255
+            queryName: Schoutedenella schubotzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/356
+            queryName: Schoutedenella kivuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/357
+            queryName: Arthroleptis discodactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/358
+            queryName: Arthroleptis kivuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/48
+            queryName: Schoutedenella schubotzi schubotzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/49
+            queryName: Schoutedenella schubotzi kivuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/50
+            queryName: Arthroleptis schubotzi schubotzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/51
+            queryName: Arthroleptis schubotzi kivuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bb51a46221
+      - s-f165766a6a
+      - s-b207bc13bb
+      - s-749f185b83
+      - s-1cbf72323f
+      - s-faf72eacb2
+      - s-258782d0f8
+      - s-ea8ddc49b9
+      - s-57d823390a
+      - s-9fbdb3dae5
+      - s-98ffff3727
+      - s-d35d5cc78a
+      - s-9a1dcf20b3
+    zh:
+      - s-c91481b595
+      - s-8b23bc5bef
+      - s-fc63674b2b
+      - s-6463fc443a
+      - s-50a7cb149f
+      - s-fba33e787b
+      - s-530b64ec18
+      - s-43546cc0a8
+      - s-d256b8c425
+      - s-f0a337ac61
+      - s-5ce102d82e
+      - s-398dfd9ad2
+      - s-44fba4f0c5

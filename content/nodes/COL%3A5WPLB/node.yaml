@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis schuboeae
+  displayName: Boophis schuboeae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPLB
+  sourceIndexes:
+    - name:
+        en: Boophis schuboeae
+        zh: Boophis schuboeae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPLB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/297
+            queryName: Boophis schuboeae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75943db6e7
+      - s-08d902850d
+      - s-597ad4565c
+      - s-56a59547cc
+      - s-3e15066678
+      - s-b1f2b9cfa4
+      - s-c229cf0dc2
+      - s-ccd5ea530b
+      - s-cebe6afa64
+      - s-52d32ee92e
+    zh:
+      - s-fb3f4890d1
+      - s-afa6521694
+      - s-3d72a676d0
+      - s-00ed985e6e
+      - s-3fa119d59a
+      - s-8fa4fa64cc
+      - s-f6bb053de4
+      - s-4cca5088df
+      - s-4a83d43d5c
+      - s-6381d05803

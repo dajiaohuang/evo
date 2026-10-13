@@ -1,0 +1,3 @@
+## Pectinate stipules and floral measurements {#s-4c93ef6b8e}
+The Brazilian Flora 2020 entry records pectinate stipules and triangular domatia on the petiole and rachis. Leaves have up to 10 pairs of leaflets (juga); the leaflets are oblong or elliptic, coriaceous and glabrous on the lower surface. Flowers are over 10 mm long and bilaterally symmetric, with deciduous bracteoles. The hypanthium is asymmetric and cylindrical. Petals are over 1 mm wide and glabrous; stamens are dimorphic, with 10 counted. The fruit is elliptic to orbicular. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-c0a3bc4fef
+      part: title
+    titleZh:
+      page: zh
+      section: s-0d350dca1a
+      part: title
+    category: behavior
+    startAge: 75
+    endAge: 71
+    regions:
+      - Djadokhta Formation, Ukhaa Tolgod, Mongolia
+    clades:
+      - Theropoda
+      - Oviraptorosauria
+    summary:
+      page: en
+      section: s-c0a3bc4fef
+      part: body
+    summaryZh:
+      page: zh
+      section: s-0d350dca1a
+      part: body
+    claimIds:
+      - claim:event:oviraptorid-igm100979-nest-association
+    evidenceItems:
+      - statement: IGM 100/979 preserves folded hindlimbs and forelimbs spread over a nest with at least fifteen visible eggs and no evident post-mortem transport; brooding and parental care are strong behavioural interpretations of the association, not directly observed actions.
+        relation: supports
+        claimIds:
+          - claim:event:oviraptorid-igm100979-nest-association
+        referenceLinks:
+          - referenceId: norell-1995-nesting-dinosaur
+            relation: supports
+            pages: 774–776
+            figure: Figures 1–3
+            quoteLocator: Specimen IGM 100/979; Nest geometry; Behavioural alternatives
+    uncertaintyItems:
+      - statement: The original paper explicitly retains alternative explanations and limits testing of parental-system hypotheses in the fossil record.
+        relation: contextualizes
+        claimIds:
+          - claim:event:oviraptorid-igm100979-nest-association
+        referenceLinks:
+          - referenceId: norell-1995-nesting-dinosaur
+            relation: supports
+            pages: 774–776
+            figure: Figures 1–3
+            quoteLocator: Specimen IGM 100/979; Nest geometry; Behavioural alternatives
+  claims:
+    - subjectId: event:oviraptorid-igm100979-nest-association
+      claimKind: scientific
+      claimType: ecology
+      statement: IGM 100/979 preserves folded hindlimbs and forelimbs spread over a nest with at least fifteen visible eggs and no evident post-mortem transport; brooding and parental care are strong behavioural interpretations of the association, not directly observed actions.
+      confidence: medium
+      confidenceRationale: The articulated pose, eggs and sedimentary association are direct; death while brooding, habitual care and sex are hypotheses constrained but not observed by the fossil.
+      referenceLinks:
+        - referenceId: norell-1995-nesting-dinosaur
+          relation: supports
+          pages: 774–776
+          figure: Figures 1–3
+          quoteLocator: Specimen IGM 100/979; Nest geometry; Behavioural alternatives
+  claim-rationales.zh:
+    - 关节姿态、卵与沉积关联是直接证据；孵卵时死亡、习惯性照料与性别均是受约束但未被直接观察的假说。
+  claim-statements.zh:
+    - IGM 100/979 保存折叠后肢与伸展覆盖蛋窝的前肢，至少可见十五枚卵且无明显死后搬运；孵卵与亲代照料是该关联支持的强行为解释，而非直接观察到的动作。

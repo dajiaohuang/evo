@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaerotheca rolandae
+  displayName: Sphaerotheca rolandae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YSMX
+  sourceIndexes:
+    - name:
+        en: Sphaerotheca rolandae
+        zh: Sphaerotheca rolandae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YSMX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/249
+            queryName: Sphaerotheca rolandae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/37
+            queryName: Tomopterna rolandae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/84
+            queryName: Rana breviceps rolandae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-42e1854b3d
+      - s-43fcfb3ac1
+      - s-be5743e279
+      - s-84fc5b8d0b
+      - s-f353490fdf
+      - s-75fd17f790
+      - s-2a40ecd68a
+      - s-89a397ca52
+      - s-f5832f3520
+      - s-da827d80c3
+    zh:
+      - s-6fd3f3dbdf
+      - s-7e6868b10e
+      - s-0a46c802cb
+      - s-3294481744
+      - s-a29a49bb1b
+      - s-a67344c1eb
+      - s-5d82df81e9
+      - s-acf691a5c1
+      - s-00274d29ee
+      - s-b6160c6bb2

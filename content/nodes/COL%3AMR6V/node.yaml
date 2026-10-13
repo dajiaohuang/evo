@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulengerula changamwensis
+  displayName: Boulengerula changamwensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MR6V
+  sourceIndexes:
+    - name:
+        en: Boulengerula changamwensis
+        zh: Boulengerula changamwensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MR6V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/314
+            queryName: Boulengerula changamwensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/153
+            queryName: Afrocaecilia changamwensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8210073111
+      - s-8f2d335583
+      - s-ffd9b2cfc8
+      - s-c080cfd431
+      - s-ea893f7cea
+      - s-36d931eae8
+      - s-6cd26e58ad
+      - s-00aca960c0
+      - s-b184b92820
+      - s-5a94238ba1
+      - s-f3c79ce63a
+    zh:
+      - s-87307b9c7f
+      - s-9a51b4fd0a
+      - s-9c69354521
+      - s-92da8880a4
+      - s-0ad48afa0d
+      - s-aaa980548e
+      - s-d37c486617
+      - s-3996b9c203
+      - s-cdfe363b30
+      - s-b55f897156
+      - s-d635c7c014

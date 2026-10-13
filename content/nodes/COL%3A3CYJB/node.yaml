@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eupsophus vertebralis
+  displayName: Eupsophus vertebralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CYJB
+  sourceIndexes:
+    - name:
+        en: Eupsophus vertebralis
+        zh: Eupsophus vertebralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CYJB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/407
+            queryName: Eupsophus vertebralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-768c6d665b
+      - s-e95db13f5e
+      - s-8fa89b004f
+      - s-027756027f
+      - s-f40a936351
+      - s-029ccc5a64
+      - s-b9c637290f
+      - s-be567df139
+      - s-ff9a6e92cd
+      - s-300e2b22f3
+      - s-42e6fa4857
+      - s-c017af1371
+      - s-66ec1b846b
+      - s-3c048a83c9
+      - s-90d4b1c9b2
+      - s-a2d2610518
+      - s-4bafd2637d
+      - s-4cb00cee9c
+      - s-eccae37db9
+      - s-4df12c5c67
+      - s-e93a19a9d0
+      - s-8ed2d7c76f
+      - s-1a897f3f84
+      - s-0f3aecafb1
+    zh:
+      - s-e7585d2455
+      - s-c109fa155f
+      - s-67e629b5f8
+      - s-d68602b3be
+      - s-e5c2dd58ad
+      - s-5e5ca346ff
+      - s-e8b6b02ea6
+      - s-4bdb267301
+      - s-57024bddd9
+      - s-77ef901767
+      - s-0f2645745b
+      - s-d458dcf1c0
+      - s-d4992bf32c
+      - s-ed1a094814
+      - s-224618591f
+      - s-f3fef79fa5
+      - s-0110db617b
+      - s-4408a6c82e
+      - s-7677421f49
+      - s-d766ff3763
+      - s-c09ec8dc82
+      - s-af657ececd
+      - s-8366cd7dd9
+      - s-fa0e6212f2

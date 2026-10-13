@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Shansisuchus shansisuchus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Shansisuchus shansisuchus
+      en: Shansisuchus shansisuchus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-038821d70e
+            part: body
+          en:
+            page: en
+            section: s-bd6056e239
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-03f36b495b
+            part: body
+          en:
+            page: en
+            section: s-9af91e0c3a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4aad10f835
+            part: body
+          en:
+            page: en
+            section: s-3e4fdcc753
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-89d0ebb163
+            part: body
+          en:
+            page: en
+            section: s-88cf0dc26f
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9168565ef0
+            part: body
+          en:
+            page: en
+            section: s-e8d7a9aa8b
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Shansisuchus shansisuchus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=174032&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:174032; original response record indices retained in data/sources/other-reptilia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:174032
+          selectedOccurrenceIds:
+            - occ:902067
+            - occ:902068
+            - occ:902069
+            - occ:902070
+            - occ:902378
+            - occ:902379
+            - occ:902380
+            - occ:902381
+            - occ:902382
+            - occ:902383
+            - occ:902384
+            - occ:902385
+            - occ:902386
+            - occ:902395
+            - occ:902396
+            - occ:902397
+            - occ:902398
+            - occ:902417
+            - occ:1308749
+          selectedCollectionIds:
+            - col:101061
+            - col:101062
+            - col:101060
+            - col:101059
+            - col:101159
+            - col:101160
+            - col:101161
+            - col:101162
+            - col:101163
+            - col:101164
+            - col:101165
+            - col:101166
+            - col:101167
+            - col:101168
+            - col:175580
+          sourceReferenceIds:
+            - ref:34560
+            - ref:57427
+          originalIdentificationMappings:
+            - occurrenceId: occ:902070
+              originalIdentifiedName: Shansisuchus shansisuchus n. gen. n. sp.
+              acceptedName: Shansisuchus shansisuchus
+              difference: null
+            - occurrenceId: occ:902395
+              originalIdentifiedName: Fenhosuchus cristatus n. gen. n. sp.
+              acceptedName: Shansisuchus shansisuchus
+              difference: null
+            - occurrenceId: occ:902396
+              originalIdentifiedName: Fenhosuchus cristatus
+              acceptedName: Shansisuchus shansisuchus
+              difference: null
+            - occurrenceId: occ:902397
+              originalIdentifiedName: Fenhosuchus cristatus
+              acceptedName: Shansisuchus shansisuchus
+              difference: null
+            - occurrenceId: occ:902398
+              originalIdentifiedName: Fenhosuchus cristatus
+              acceptedName: Shansisuchus shansisuchus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3e27b52196
+        part: body
+      en:
+        page: en
+        section: s-9f9080879c
+        part: body

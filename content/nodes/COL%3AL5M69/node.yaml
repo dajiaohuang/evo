@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera kayapo
+  displayName: Adenomera kayapo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/L5M69
+  sourceIndexes:
+    - name:
+        en: Adenomera kayapo
+        zh: Adenomera kayapo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: L5M69
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/43
+            queryName: Adenomera kayapo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f16d9c700f
+      - s-5c5b964e4b
+      - s-c78db74d9b
+      - s-dffd0e7489
+      - s-7e9fb2af89
+      - s-b086ffc867
+      - s-8343e64d51
+      - s-d3fbbdd7e9
+      - s-7ef4ea355b
+      - s-66595dc840
+      - s-9f9ec3fbee
+      - s-2da6de4cd8
+      - s-07bc44d454
+    zh:
+      - s-b6d612d6ac
+      - s-374c81bf95
+      - s-67f1ead0f1
+      - s-f48215a9df
+      - s-e6d139a7f6
+      - s-7e38585630
+      - s-08353bd7cf
+      - s-283332a0da
+      - s-2f25c2e763
+      - s-b2dcd785b4
+      - s-eea9920685
+      - s-04f888b0db
+      - s-d0c778cc70

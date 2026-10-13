@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla rubra
+  displayName: Microhyla rubra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42XBP
+  sourceIndexes:
+    - name:
+        en: Microhyla rubra
+        zh: Microhyla rubra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42XBP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/36
+            queryName: Microhyla rubra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/255
+            queryName: Engystoma rubrum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/256
+            queryName: Copea fulva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/257
+            queryName: Microhyla fulva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd13812082
+      - s-46a7e7196f
+      - s-61c73da6a8
+      - s-3330ed29a7
+      - s-e013cdb7c1
+      - s-21010b2440
+      - s-e6567d1c0c
+      - s-16190d5947
+      - s-035c444a4c
+      - s-4359e52bf7
+      - s-63edb3bd2b
+      - s-3145201ca7
+    zh:
+      - s-194bb33320
+      - s-96e10c0248
+      - s-a14dacffef
+      - s-1073e116b7
+      - s-f48c124bff
+      - s-2b6d94771f
+      - s-f9b5753e0d
+      - s-aab9d39ab9
+      - s-626446fe5f
+      - s-2cb7bdbe86
+      - s-ac4e418e8f
+      - s-688f3fd94c

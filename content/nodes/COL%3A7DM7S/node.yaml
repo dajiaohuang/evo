@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia glandulosa
+  displayName: Uperoleia glandulosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DM7S
+  sourceIndexes:
+    - name:
+        en: Uperoleia glandulosa
+        zh: Uperoleia glandulosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DM7S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/192
+            queryName: Uperoleia glandulosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7a8ff2aac4
+      - s-005c816024
+      - s-4eab2c020b
+      - s-4c2ab1d3ba
+      - s-0e90431329
+      - s-83c8cf445c
+      - s-9e028b7968
+      - s-dceae3920c
+      - s-b81523dce3
+      - s-0d109caded
+    zh:
+      - s-7b33bad272
+      - s-c39ce7f2c4
+      - s-8c5a6a7fe3
+      - s-b21085fd3f
+      - s-96942628ba
+      - s-21cdfe6c3e
+      - s-958399eeb2
+      - s-60cc6ac35a
+      - s-d1db800223
+      - s-6338733dd8

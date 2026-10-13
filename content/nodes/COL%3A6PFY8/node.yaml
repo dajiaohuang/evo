@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis ocellatus
+  displayName: Leptopelis ocellatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PFY8
+  sourceIndexes:
+    - name:
+        en: Leptopelis ocellatus
+        zh: Leptopelis ocellatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PFY8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/499
+            queryName: Leptopelis ocellatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/71
+            queryName: Hylambates ocellatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/72
+            queryName: Leptopelis acuticeps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/301
+            queryName: Leptopelis ocellatus ocellatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/302
+            queryName: Leptopelis ocellatus schiotzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ec3c0786c
+      - s-93f69d03ed
+      - s-4e02a6572c
+      - s-7b0d03b5cf
+      - s-03b9e89598
+      - s-51e4876ea8
+      - s-c4314a1289
+      - s-cedb33d6be
+      - s-204814271b
+      - s-d0bfe32e8f
+      - s-55b72f8b62
+      - s-256bad4519
+      - s-c45b20c1a8
+      - s-299a3664c5
+    zh:
+      - s-6aebc6aa4c
+      - s-e0c8c3f60c
+      - s-8fd44bf169
+      - s-633d4b7d07
+      - s-f102c2086c
+      - s-e180e56555
+      - s-ceaf329b7d
+      - s-68cedc8b03
+      - s-f5536866b0
+      - s-c81d9e8120
+      - s-b9e4cf60a1
+      - s-cbc0cc06a6
+      - s-75e7e9993b
+      - s-aa3d8cba52

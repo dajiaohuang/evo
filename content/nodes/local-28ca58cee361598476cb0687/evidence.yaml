@@ -1,0 +1,283 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Boulengerula niedeni
+    name:
+      en: Boulengerula niedeni
+      zh: Boulengerula niedeni
+    sourceClassification:
+      order: Gymnophiona
+      family: Herpelidae
+      genus: Boulengerula
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Boulengerula niedeni in the morphology deposit
+          zh: 形态数据中的 Boulengerula niedeni 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-efcdfa94e7
+            part: body
+          zh:
+            page: zh
+            section: s-a6840cc235
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5 and 6: measurement fields and sex codes"
+          zh: 第 5、6 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7e66994edc
+            part: body
+          zh:
+            page: zh
+            section: s-ef51f2eba1
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Deposited annulus counts
+          zh: 存档的环褶计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-fe56cf4e44
+            part: body
+          zh:
+            page: zh
+            section: s-39b3d43a14
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 5, 6; Reference.csv rows 4318
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 5
+        values:
+          - Herpelidae
+          - Boulengerula
+          - Boulengerula niedeni
+          - F
+          - "245.5"
+          - "0.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "142"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.35"
+          - "3.6"
+          - "3.85"
+          - NA
+          - "4.75"
+          - "2.85"
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - NA
+          - "1.6"
+          - NA
+          - "2"
+          - "1.8"
+          - NA
+          - "3.45"
+          - "3.85"
+          - NA
+          - "1.7"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 6
+        values:
+          - Herpelidae
+          - Boulengerula
+          - Boulengerula niedeni
+          - M
+          - "209.5"
+          - "0.725"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "141"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.275"
+          - "3.75"
+          - "4.225"
+          - NA
+          - "4.45"
+          - "3.05"
+          - "1.425"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.05"
+          - NA
+          - "1.475"
+          - NA
+          - "1.8"
+          - "1.825"
+          - NA
+          - "3.425"
+          - "3.75"
+          - NA
+          - "1.7"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4318
+        values:
+          - Gymnophiona
+          - Boulengerula_niedeni
+          - "MÜLler, H., Measey, G. J., Loader, S. P., & Malonza, P. K. (2005). A new species of Boulengerula Tornier (Amphibia: Gymnophiona: Caeciliidae) from an isolated mountain block of the Taita Hills, Kenya. Zootaxa, 1004(1), 37-50. https://doi.org/10.11646/zootaxa.1004.1.4"
+    availableTraitCodes:
+      - TOL
+      - TL
+      - TA1
+      - HL
+      - HW1
+      - HW2
+      - BW2
+      - BW3
+      - IND
+      - ITD
+      - TN
+      - TS
+      - TJ
+      - NJ
+      - SJ
+      - C1
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - MR6Y
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

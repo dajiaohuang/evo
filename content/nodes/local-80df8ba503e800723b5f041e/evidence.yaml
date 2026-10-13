@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Amolops gerutu
+    name:
+      en: Amolops gerutu
+      zh: Amolops gerutu
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Amolops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Amolops gerutu in the version 3 classification
+          zh: Amolops gerutu 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-97fb0b8d1b
+            part: body
+          zh:
+            page: zh
+            section: s-58f84a8506
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 9 populated trait fields
+          zh: 2 条测量行与 9 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fb6105a848
+            part: body
+          zh:
+            page: zh
+            section: s-93d50c262f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 253, 254; Reference.csv rows 3749
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 253
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops gerutu
+          - F
+          - "53.27"
+          - "19.57"
+          - "18.17"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.7"
+          - NA
+          - NA
+          - "8.21"
+          - NA
+          - NA
+          - "12.04"
+          - NA
+          - NA
+          - NA
+          - "31.62"
+          - "29.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.48"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 254
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops gerutu
+          - M
+          - "35.67"
+          - "13.77"
+          - "12.43"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.93"
+          - NA
+          - NA
+          - "5.63"
+          - NA
+          - NA
+          - "8.86"
+          - NA
+          - NA
+          - NA
+          - "21.99"
+          - "20.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.26"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3749
+        values:
+          - Anura
+          - Amolops_gerutu
+          - "Onn, C., Abraham, R., Grismer, J., & Grismer, L. (2018). Elevational size variation and two new species of torrent frogs from Peninsular Malaysia (Anura: Ranidae: Amolops Cope). Zootaxa, 4434, 250. https://doi.org/10.11646/zootaxa.4434.2.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - IND
+      - SL
+      - FLL
+      - TL
+      - THL
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 66DZ3
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

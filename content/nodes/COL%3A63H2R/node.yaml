@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osteopilus
+  displayName: Osteopilus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63H2R
+  sourceIndexes:
+    - name:
+        en: Osteopilus
+        zh: Osteopilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63H2R
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/123
+            queryName: Osteopilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 202
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f18c3ab656
+      - s-aed5cd67ee
+      - s-3c43b4960c
+      - s-c78edb89bd
+      - s-e8c376eb52
+      - s-a494dd7de3
+      - s-50cf80fddd
+      - s-5586a68edc
+      - s-3df44eb772
+      - s-86620a5ff5
+      - s-a57ccf4145
+      - s-97da61ed87
+      - s-ab4b79d93d
+      - s-b0a98f99da
+      - s-df8d123348
+      - s-57d2816a66
+      - s-d5557fd952
+      - s-8939d91f19
+      - s-9189a5f398
+    zh:
+      - s-2eae52e835
+      - s-0ee8cc5727
+      - s-a187b495b8
+      - s-ca665aa8f6
+      - s-f3984d180d
+      - s-c755e09cc5
+      - s-0557c2758c
+      - s-fc3bb73546
+      - s-c5b864c351
+      - s-4328782c19
+      - s-e844e7cc1c
+      - s-21c435a9df
+      - s-b6722c6897
+      - s-9d706e5c5c
+      - s-2925e92d2e
+      - s-102267f1b5
+      - s-e6b69ed634
+      - s-810582e3fb
+      - s-d6b1b2eba7

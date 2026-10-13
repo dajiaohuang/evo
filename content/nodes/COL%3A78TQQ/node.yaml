@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinoderma darwinii
+  displayName: Rhinoderma darwinii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78TQQ
+  sourceIndexes:
+    - name:
+        en: Rhinoderma darwinii
+        zh: Rhinoderma darwinii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78TQQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/385
+            queryName: Rhinoderma darwinii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 45
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/170
+            queryName: Bombinator darwinii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/371
+            queryName: Rhinoderma darwinii lateralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/372
+            queryName: Rhinoderma darwinii unicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/373
+            queryName: Rhinoderma darwinii picta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/374
+            queryName: Rhinoderma darwinii angulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4faa29b586
+      - s-06d6ff4d15
+      - s-39ab690a30
+      - s-01eafd71e3
+      - s-0c84f8d84c
+      - s-3fe0271ef0
+      - s-d09d3f914c
+      - s-a49f6166d3
+      - s-b28dcf9869
+      - s-134b039113
+      - s-3eb0d2a388
+      - s-4f44f79b2e
+      - s-a748d109ad
+      - s-12e56ed296
+      - s-2c24748db9
+      - s-3d39e10384
+    zh:
+      - s-2357cdc4ce
+      - s-2c42176a7d
+      - s-9ed150916d
+      - s-94f1f9a6a7
+      - s-55bc09727c
+      - s-851959fb4f
+      - s-7eb878dde7
+      - s-953d6f6b21
+      - s-0e096e3e2e
+      - s-ad478019c1
+      - s-683e561ec5
+      - s-c4179debb0
+      - s-e4743ad253
+      - s-1969828d88
+      - s-e109e4f50d
+      - s-cfe3a1afe1

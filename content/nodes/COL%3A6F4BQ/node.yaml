@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus glamyrus
+  displayName: Eleutherodactylus glamyrus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4BQ
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus glamyrus
+        zh: Eleutherodactylus glamyrus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4BQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/210
+            queryName: Eleutherodactylus glamyrus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d9696c6ce0
+      - s-6a4b62bbb4
+      - s-e879bb38c2
+      - s-f686590fb6
+      - s-04374a5af7
+      - s-4d9ba0e00a
+      - s-c657c1e895
+      - s-304fc731d0
+      - s-2b7a0c34c4
+    zh:
+      - s-52a51fb6ad
+      - s-fab131bf79
+      - s-fb5e80255a
+      - s-5803295a06
+      - s-951abcb25b
+      - s-8f7bc3af1b
+      - s-43465abcfe
+      - s-10da2159a5
+      - s-da8681524f

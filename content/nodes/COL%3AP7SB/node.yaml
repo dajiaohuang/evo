@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia caribea
+  displayName: Caecilia caribea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SB
+  sourceIndexes:
+    - name:
+        en: Caecilia caribea
+        zh: Caecilia caribea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/60
+            queryName: Caecilia caribea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f5472a2e1
+      - s-151662110a
+      - s-1d5498f473
+      - s-e6e44fe759
+      - s-6008c34b81
+      - s-3f2ca9c643
+      - s-d78ce1647e
+      - s-2a66c2a7eb
+      - s-6e3a8b748a
+    zh:
+      - s-8a1757911c
+      - s-e70a4008d7
+      - s-86931a1e14
+      - s-037ee98f5e
+      - s-7311834db7
+      - s-fb92870853
+      - s-06d739f3eb
+      - s-5d1618ba19
+      - s-3d332a3a0c

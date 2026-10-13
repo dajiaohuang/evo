@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaenorhynchus mirim
+  displayName: Sphaenorhynchus mirim
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YKZY
+  sourceIndexes:
+    - name:
+        en: Sphaenorhynchus mirim
+        zh: Sphaenorhynchus mirim
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YKZY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/236
+            queryName: Sphaenorhynchus mirim
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-49f2d8f05e
+      - s-fea4755710
+      - s-b8263397e3
+      - s-a6a35ee78d
+      - s-6383e6d8ce
+      - s-1f716b368e
+      - s-aac040b621
+      - s-53b5dcd99e
+    zh:
+      - s-c678b30234
+      - s-77e5d2df43
+      - s-294d157dfa
+      - s-101946be11
+      - s-8b09081a5a
+      - s-d44b1b6681
+      - s-f53a7ef17b
+      - s-83e8532a49

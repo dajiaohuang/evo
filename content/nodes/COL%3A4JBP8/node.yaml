@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pithecopus araguaius
+  displayName: Pithecopus araguaius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JBP8
+  sourceIndexes:
+    - name:
+        en: Pithecopus araguaius
+        zh: Pithecopus araguaius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JBP8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/359
+            queryName: Pithecopus araguaius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ad0f7dc1a1
+      - s-a81d7a47d5
+      - s-0da1ff888b
+      - s-24bc8e6905
+      - s-fa3d3e11a2
+      - s-82f8c8983a
+      - s-d2c15237dc
+      - s-25885476c9
+      - s-45d4228a89
+      - s-80a783f48f
+      - s-bf5dc1a5f4
+      - s-8c1d03f881
+      - s-da9ffee198
+      - s-996a9e433e
+      - s-f1686f030e
+      - s-c59c4b6d14
+      - s-740fe744d5
+      - s-904caef07a
+      - s-ff4106d15b
+    zh:
+      - s-f70bb7ee68
+      - s-beae02b45d
+      - s-f614b956f7
+      - s-ba1d3f6101
+      - s-b655123910
+      - s-e7d9fea6d7
+      - s-5fe2b2db68
+      - s-17deb29963
+      - s-3ac937ae40
+      - s-4758a4a01e
+      - s-ff12226e2f
+      - s-1982d69aec
+      - s-76f19dfcdf
+      - s-ca4cac06fa
+      - s-703a1d30a3
+      - s-e9fdc16472
+      - s-e3acfdf8dc
+      - s-388be450c3
+      - s-e072081096

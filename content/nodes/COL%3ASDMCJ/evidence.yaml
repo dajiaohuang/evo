@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Quasipaa taoi Pham, Hoang, Phan, Nguyen & Ziegler, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Quasipaa taoi
+      zh: Quasipaa taoi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b53722b959
+            part: title
+          zh:
+            page: zh
+            section: s-25a35aed49
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b53722b959
+            part: body
+          zh:
+            page: zh
+            section: s-25a35aed49
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e4e25b9485
+            part: title
+          zh:
+            page: zh
+            section: s-c9a22281b5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e4e25b9485
+            part: body
+          zh:
+            page: zh
+            section: s-c9a22281b5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-1fe649707f
+            part: title
+          zh:
+            page: zh
+            section: s-2315752642
+            part: title
+        sourceIds:
+          - primary-pmc9836650-sdmcj
+        text:
+          en:
+            page: en
+            section: s-1fe649707f
+            part: body
+          zh:
+            page: zh
+            section: s-2315752642
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6a2f5acd83
+            part: title
+          zh:
+            page: zh
+            section: s-1885caea22
+            part: title
+        sourceIds:
+          - primary-pmc9836650-sdmcj
+        text:
+          en:
+            page: en
+            section: s-6a2f5acd83
+            part: body
+          zh:
+            page: zh
+            section: s-1885caea22
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Quasipaa taoi
+          url: https://www.checklistbank.org/dataset/316115/taxon/SDMCJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9836650-sdmcj
+        referenceId: ref-a7aa4e06-f0c5-446e-a72b-2a7c3cf85a94
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Quasipaa taoi: Species ecological notes and distribution account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-538b219f80
+        part: body
+      zh:
+        page: zh
+        section: s-81251e967c
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1124.89282
+        referenceId: ref-a7aa4e06-f0c5-446e-a72b-2a7c3cf85a94
+        sourceKey: primary-pmc9836650-sdmcj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9836650/article.xml
+        sourceConcept: Quasipaa taoi
+        evidenceRead: "Quasipaa taoi: Species ecological notes and distribution account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Ngoc Linh records and a Lao sequence attribution
+              zh: Ngoc Linh 记录及老挝序列归属
+            referenceId: ref-a7aa4e06-f0c5-446e-a72b-2a7c3cf85a94
+            sourceKey: primary-pmc9836650-sdmcj
+            locator: "Quasipaa taoi: Species ecological notes and distribution account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7bdb280e44
+                part: body
+              zh:
+                page: zh
+                section: s-bd7de5035d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: High-elevation headwater observations
+              zh: 高海拔溪流源头观察
+            referenceId: ref-a7aa4e06-f0c5-446e-a72b-2a7c3cf85a94
+            sourceKey: primary-pmc9836650-sdmcj
+            locator: "Quasipaa taoi: Species ecological notes and distribution account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-17c53fdbc9
+                part: body
+              zh:
+                page: zh
+                section: s-9d62fca781
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

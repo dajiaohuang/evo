@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana siberu
+  displayName: Hylarana siberu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MN5L
+  sourceIndexes:
+    - name:
+        en: Hylarana siberu
+        zh: Hylarana siberu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MN5L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/474
+            queryName: Hylarana siberu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/192
+            queryName: Rana siberu
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/456
+            queryName: Pulchrana siberu
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0782f1313b
+      - s-b9a7f95930
+      - s-cc4730928c
+      - s-c69e578524
+      - s-fa15e2782a
+      - s-3a78ad1100
+      - s-fb186708f6
+      - s-343cd4b285
+      - s-6f634dbb31
+    zh:
+      - s-31d4cc0c36
+      - s-e735919ffc
+      - s-98e35a2bde
+      - s-d75c0f9808
+      - s-80d0483972
+      - s-64a00d4f9e
+      - s-310a35112b
+      - s-64e4243a50
+      - s-1829e4a362

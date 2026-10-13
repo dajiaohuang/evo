@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachyla antartandica
+  displayName: Batrachyla antartandica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZTZ
+  sourceIndexes:
+    - name:
+        en: Batrachyla antartandica
+        zh: Batrachyla antartandica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZTZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/418
+            queryName: Batrachyla antartandica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/480
+            queryName: Eupsophus antartandicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ef4756382
+      - s-ef6b5f3af1
+      - s-90c5745272
+      - s-d6205aba12
+      - s-de6b1cd31b
+      - s-fae24ce22d
+      - s-0920e5cc01
+      - s-eeb607b1cb
+      - s-55a31f63de
+      - s-1a22121b01
+      - s-99f8707451
+      - s-7f66196b72
+      - s-bf08b9ac5a
+      - s-3b79a2f084
+      - s-ae6242cd19
+      - s-2258df5203
+    zh:
+      - s-5f7c77ba9e
+      - s-8ee59d2134
+      - s-df641bf6fd
+      - s-78bcea9bb8
+      - s-75cec20261
+      - s-d2bf6b0e26
+      - s-c26a2346f9
+      - s-da80b8c175
+      - s-95aa2eb973
+      - s-cac8009815
+      - s-3c3e5ee705
+      - s-c39abe57a0
+      - s-9599d7e691
+      - s-8a1f46e296
+      - s-e8ee209523
+      - s-74d301ca4a

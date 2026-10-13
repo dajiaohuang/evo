@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma dumerilii
+  displayName: Ambystoma dumerilii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ3T
+  sourceIndexes:
+    - name:
+        en: Ambystoma dumerilii
+        zh: Ambystoma dumerilii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ3T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/236
+            queryName: Ambystoma dumerilii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/15
+            queryName: Siredon dumerilii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 55
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/16
+            queryName: Amblystoma dumerili
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/17
+            queryName: Bathysiredon dumerilii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/18
+            queryName: Ambystoma queretarense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/438
+            queryName: Bathysiredon dumerilii dumerilii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/439
+            queryName: Bathysiredon dumerilii queretarensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3fb1a6451
+      - s-01934f33de
+      - s-09c830c51c
+      - s-11c1b82b7b
+      - s-3b82345540
+      - s-cf3ce41721
+      - s-e29cde01d3
+      - s-99daead80b
+      - s-32807dc092
+      - s-bf3b802866
+    zh:
+      - s-f871ff63c5
+      - s-6b4e996496
+      - s-686b0888bf
+      - s-6c31a03fe6
+      - s-fd876ead77
+      - s-903b39ca9e
+      - s-5ae64ace19
+      - s-cb6a57c5f3
+      - s-7480ecb6d6
+      - s-35635e8e4f

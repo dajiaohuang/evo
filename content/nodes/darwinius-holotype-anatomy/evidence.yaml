@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-a6366eec46
+      part: title
+    titleZh:
+      page: zh
+      section: s-f4913a60c4
+      part: title
+    category: morphology
+    startAge: 47.5
+    endAge: 47.5
+    regions:
+      - Messel Pit, Hesse, Germany
+    clades:
+      - Darwinius
+      - Adapiformes
+      - Primates
+    summary:
+      page: en
+      section: s-a6366eec46
+      part: body
+    summaryZh:
+      page: zh
+      section: s-f4913a60c4
+      part: body
+    claimIds:
+      - claim:event:darwinius-holotype-anatomy
+    evidenceItems:
+      - statement: PMO 214.214 (plate A) and WDC-MG-210 (plate B) are opposite slabs of the same articulated skeleton, with a complete tail, hands and right foot documented in Figure 1 and Table 1.
+        relation: supports
+        claimIds:
+          - claim:event:darwinius-holotype-anatomy
+        referenceLinks:
+          - referenceId: franzen-2009-darwinius
+            relation: supports
+            pages: e5723
+            figure: Figures 1–16; Tables 1–4
+            quoteLocator: Systematic paleontology, preservation disclosure, skeletal description and phylogenetic discussion
+    uncertaintyItems:
+      - statement: Parts of plate B were fabricated during preparation and disclosed; sex, life history, ecology and haplorhine placement are interpretations, not direct observations or proof of crown-anthropoid ancestry.
+        relation: contextualizes
+        claimIds:
+          - claim:event:darwinius-holotype-anatomy
+        referenceLinks:
+          - referenceId: franzen-2009-darwinius
+            relation: supports
+            pages: e5723
+            figure: Figures 1–16; Tables 1–4
+            quoteLocator: Systematic paleontology, preservation disclosure, skeletal description and phylogenetic discussion
+  claims:
+    - subjectId: event:darwinius-holotype-anatomy
+      claimKind: scientific
+      claimType: morphology
+      statement: PMO 214.214 and WDC-MG-210 are part and counterpart of one approximately 47.5 Ma Darwinius holotype preserving an exceptionally complete juvenile skeleton; its crown placement is not directly observed.
+      confidence: high
+      confidenceRationale: High confidence applies to the documented specimen identity and anatomy, while the preparation disclosure and interpretation-sensitive sex, ecology and topology remain explicit.
+      referenceLinks:
+        - referenceId: franzen-2009-darwinius
+          relation: supports
+          pages: e5723
+          figure: Figures 1–16; Tables 1–4
+          quoteLocator: Systematic paleontology, preservation disclosure, skeletal description and phylogenetic discussion
+  claim-rationales.zh:
+    - 高置信度适用于有文档支持的标本同一性和解剖；制备披露及依赖解释的性别、生态和拓扑仍被明确保留。
+  claim-statements.zh:
+    - PMO 214.214 与 WDC-MG-210 是同一件约 4,750 万年前 Darwinius 正模的正、反模，保存了一具异常完整的幼体骨架；其冠群位置并非可直接观察。

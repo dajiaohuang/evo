@@ -1,0 +1,307 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudomys gouldii
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Pseudomys gouldii
+      en: Pseudomys gouldii
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-6509b2bd4e
+            part: body
+          en:
+            page: en
+            section: s-3123cf72b7
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-2879802e5f
+            part: body
+          en:
+            page: en
+            section: s-a2d342e560
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8c8027239d
+            part: body
+          en:
+            page: en
+            section: s-8a30c3003f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-7d37e234fd
+            part: body
+          en:
+            page: en
+            section: s-08a314ed2d
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-b1dd2717c2
+            part: body
+          en:
+            page: en
+            section: s-14c486fe3f
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-4fadf1eda0
+            part: body
+          en:
+            page: en
+            section: s-c64a15c94d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-264106984e
+            part: body
+          en:
+            page: en
+            section: s-1f6771b737
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-8d94b92261
+            part: body
+          en:
+            page: en
+            section: s-f0a6a160c3
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-585f10fadb
+            part: body
+          en:
+            page: en
+            section: s-71d2b90ff0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pseudomys gouldii
+          url: https://www.checklistbank.org/dataset/316115/taxon/4P4J2
+          locator: Pinned accepted name, class, family and ancestry; historical concept equivalence not established.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 2604; Scientific=Pseudomys gouldii; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - sourceWorksheet
+          - originalReferenceNumbers
+          - availableFields
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - scope
+          - availableFocalFields
+          - uninterpretedFocalFields
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA_1-0_WR05_Aug2008.txt; MSW05_Binomial=Pseudomys gouldii; metadata.htm Class IV Tables 1–2; Class V C; original References IDs=2655;2803.
+          sourceWorksheet: PanTHERIA_1-0_WR05_Aug2008.txt
+          originalReferenceNumbers:
+            - "2655"
+            - "2803"
+          availableFields:
+            - 5-1_AdultBodyMass_g
+            - 13-1_AdultHeadBodyLen_mm
+            - 24-1_TeatNumber
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          sourceFileId: 5604752
+          sourceFileMd5: ca6fcc6935a8ab9cb54b6bfc84aeeb76
+          sourceFileSha256: fe84274a39ba73b3c9b6950b78ba44c545852db9809d1549b0071cfdde46df9f
+          scope:
+            zh: 2008 年历史条目与汇总统计；不使用 *_EXT 字段补值，不证明当前物种概念同一。
+            en: Historical 2008 entry and consolidated statistics; no filling from *_EXT fields or current concept-equivalence claim.
+          availableFocalFields:
+            - 5-1_AdultBodyMass_g
+            - 13-1_AdultHeadBodyLen_mm
+          uninterpretedFocalFields:
+            - 8-1_AdultForearmLen_mm
+            - 9-1_GestationLen_d
+            - 15-1_LitterSize
+            - 25-1_WeaningAge_d
+            - 23-1_SexualMaturityAge_d
+            - 14-1_InterbirthInterval_d
+            - 10-2_SocialGrpSize
+            - 22-2_HomeRange_Indiv_km2
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+    limitations:
+      zh:
+        page: zh
+        section: s-2acfebe08e
+        part: body
+      en:
+        page: en
+        section: s-b8fd4f2c08
+        part: body

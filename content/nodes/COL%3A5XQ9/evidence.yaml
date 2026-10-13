@@ -1,0 +1,210 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nasikabatrachus Biju & Bossuyt, 2003
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Nasikabatrachus
+      zh: Nasikabatrachus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d5a980d79a
+            part: title
+          zh:
+            page: zh
+            section: s-830200b469
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d5a980d79a
+            part: body
+          zh:
+            page: zh
+            section: s-830200b469
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-616967bc99
+            part: title
+          zh:
+            page: zh
+            section: s-5ca30352f1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-616967bc99
+            part: body
+          zh:
+            page: zh
+            section: s-5ca30352f1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-b846c60af8
+            part: title
+          zh:
+            page: zh
+            section: s-00e60f4df6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b846c60af8
+            part: body
+          zh:
+            page: zh
+            section: s-00e60f4df6
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c6178304c0
+            part: title
+          zh:
+            page: zh
+            section: s-8bc5a34ecc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c6178304c0
+            part: body
+          zh:
+            page: zh
+            section: s-8bc5a34ecc
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-a639d724f6
+            part: title
+          zh:
+            page: zh
+            section: s-84089cc601
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 746FF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A746FF
+            label:
+              en: Nasikabatrachus bhupathi
+              zh: Nasikabatrachus bhupathi
+          - kind: catalogue
+            colId: 6S6FD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6S6FD
+            label:
+              en: Nasikabatrachus sahyadrensis
+              zh: Nasikabatrachus sahyadrensis
+        text:
+          en:
+            page: en
+            section: s-a639d724f6
+            part: body
+          zh:
+            page: zh
+            section: s-84089cc601
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nasikabatrachus
+          url: https://www.checklistbank.org/dataset/316115/taxon/5XQ9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Nasikabatrachus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4bdd7c50fe
+        part: body
+      zh:
+        page: zh
+        section: s-b28585b5cb
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Nasikabatrachus
+      sourceRowIds:
+        - Anf4427
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false

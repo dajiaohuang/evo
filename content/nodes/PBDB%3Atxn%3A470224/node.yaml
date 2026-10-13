@@ -1,0 +1,20 @@
+schemaVersion: 1
+identity:
+  kind: topic
+  scientificName: Ursus boeckhi
+  displayName: Ursus boeckhi
+  sourceIdentity:
+    authority: PBDB
+    oid: txn:470224
+    snapshot: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+  placementStatus: unresolved-navigation-topic
+  sourceIndexes:
+    - scientificName: Ursus boeckhi
+      sourceIdentity: PBDB:txn:470224
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators: []
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

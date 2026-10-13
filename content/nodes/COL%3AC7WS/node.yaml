@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes barrioi
+  displayName: Alsodes barrioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7WS
+  sourceIndexes:
+    - name:
+        en: Alsodes barrioi
+        zh: Alsodes barrioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7WS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/188
+            queryName: Alsodes barrioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2347db2d15
+      - s-56b18e5f2b
+      - s-c606384126
+      - s-34a6888185
+      - s-d0533d34c7
+      - s-d7225e783a
+      - s-5796cfddc8
+      - s-692e590355
+      - s-06b7dba9b1
+      - s-e670b82d5a
+      - s-ea8dbf13a4
+      - s-217e660ccb
+      - s-ced31dae04
+      - s-f83c7b2ef5
+      - s-ce1886ea6c
+      - s-92df05d45d
+    zh:
+      - s-f409a0525e
+      - s-ecdceda9bf
+      - s-c24813b489
+      - s-3c0136512e
+      - s-8072269ddd
+      - s-bea6c7d9ca
+      - s-f328e48972
+      - s-24ed13a749
+      - s-10be42d7dc
+      - s-de852e7b3c
+      - s-20191a5eac
+      - s-9e3529130a
+      - s-9fcfbf2762
+      - s-d8000fd7b5
+      - s-2a0f7402ff
+      - s-1272179f55

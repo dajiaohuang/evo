@@ -1,0 +1,138 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Chenoprosopus
+    rank: genus
+    sourceTaxonId: txn:37000
+    name:
+      en: Chenoprosopus
+      zh: Chenoprosopus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-1b039bf453
+            part: body
+          zh:
+            page: zh
+            section: s-af8356b4e9
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: 0 PBDB occurrence rows and collection fields
+          zh: 0 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-1daf88839f
+            part: body
+          zh:
+            page: zh
+            section: s-82a454826f
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-58596af929
+            part: body
+          zh:
+            page: zh
+            section: s-33a474847a
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Chenoprosopus
+          zh: Chenoprosopus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-ff94641d95
+            part: body
+          zh:
+            page: zh
+            section: s-af2e83d2a8
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:37000; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. G. Mehl. 1913. A description of Chenoprosopus milleri gen. et sp. nov. Permo-Carboniferous Vertebrates from New Mexico. Carnegie Institution of Washington Publication 181:11-16
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:139020
+      exactOccurrenceCount: 8
+      datedOccurrenceCount: 8
+      collectionIntervalBoundsMa:
+        older: 303.7
+        younger: 286
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Chenoprosopus
+          zh: Chenoprosopus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-ff94641d95
+            part: body
+          zh:
+            page: zh
+            section: s-af2e83d2a8
+            part: body
+        sourceIds: []

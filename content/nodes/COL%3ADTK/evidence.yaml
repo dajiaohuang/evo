@@ -1,0 +1,323 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pachycephalidae
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      zh: Pachycephalidae
+      en: Pachycephalidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-7b506d8227
+            part: body
+          en:
+            page: en
+            section: s-fa5681e79b
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-d71d0ef399
+            part: body
+          en:
+            page: en
+            section: s-b04805c2f6
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-a79c4ce5bd
+            part: body
+          en:
+            page: en
+            section: s-15788c804e
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-a4c2e9ea71
+            part: body
+          en:
+            page: en
+            section: s-e8dcfcc3f7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-60f19bd1ad
+            part: body
+          en:
+            page: en
+            section: s-3e4acc633a
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-25051a8fff
+            part: body
+          en:
+            page: en
+            section: s-12708c1c30
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-0c1434b699
+            part: body
+          en:
+            page: en
+            section: s-e5e7536303
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pachycephalidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/DTK
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 26 selected measured records placed under Pachycephalidae in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 29 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 29
+            foraging: 29
+            activity: 0
+          readingTargets:
+            - name: Rhagologus leucostigma
+              colId: 4RZ7D
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4RZ7D
+            - name: Coracornis raveni
+              colId: Y9CS
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AY9CS
+            - name: Pachycephala olivacea
+              colId: 4BQD6
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4BQD6
+            - name: Pachycephala rufogularis
+              colId: 75GNH
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A75GNH
+            - name: Pachycephala inornata
+              colId: 4BQCR
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4BQCR
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 3 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 3
+            foraging: 0
+            activity: 0
+          readingTargets:
+            - name: Pachycephala albiventris
+              colId: 4BQC9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4BQC9
+            - name: Pachycephala pectoralis
+              colId: 4BQD9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4BQD9
+            - name: Pachycephala griseonota
+              colId: 4BQCK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4BQCK
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 6 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: Y9CS
+              name: Coracornis raveni
+              canonicalPath: content/nodes/COL%3AY9CS
+            - colId: 75GNF
+              name: Pachycephala arctitorquis
+              canonicalPath: content/nodes/COL%3A75GNF
+            - colId: 4BQCB
+              name: Pachycephala aurea
+              canonicalPath: content/nodes/COL%3A4BQCB
+            - colId: 4BQCF
+              name: Pachycephala flavifrons
+              canonicalPath: content/nodes/COL%3A4BQCF
+            - colId: 4BQCP
+              name: Pachycephala hypoxantha
+              canonicalPath: content/nodes/COL%3A4BQCP
+          fieldAccountCounts:
+            Habitat: 6
+            Trophic.Niche: 6
+            Primary.Lifestyle: 6
+            Migration: 6
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+    limitations:
+      zh:
+        page: zh
+        section: s-ade2a184e4
+        part: body
+      en:
+        page: en
+        section: s-cd22b52665
+        part: body

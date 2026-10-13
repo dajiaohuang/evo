@@ -1,0 +1,205 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pachytriton feii
+    name:
+      en: Pachytriton feii
+      zh: Pachytriton feii
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Pachytriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Pachytriton feii in the morphology deposit
+          zh: 形态数据中的 Pachytriton feii 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-031b732117
+            part: body
+          zh:
+            page: zh
+            section: s-f59f45f4f9
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 268 and 269: measurement fields and sex codes"
+          zh: 第 268、269 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f50bf63812
+            part: body
+          zh:
+            page: zh
+            section: s-9dcf820b56
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 268, 269; Reference.csv rows 4270
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 268
+        values:
+          - Salamandridae
+          - Pachytriton
+          - Pachytriton feii
+          - M
+          - NA
+          - "73.3"
+          - "53.4357"
+          - "36.7233"
+          - "19.8643"
+          - "14.66"
+          - "5.5708"
+          - "2.6388"
+          - "5.2776"
+          - "1.9791"
+          - "4.6179"
+          - "7.1101"
+          - "71.3942"
+          - "9.0892"
+          - NA
+          - "8.4295"
+          - "6.5237"
+          - "18.9114"
+          - "21.6968"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.3509"
+          - NA
+          - NA
+      - rowNumber: 269
+        values:
+          - Salamandridae
+          - Pachytriton
+          - Pachytriton feii
+          - F
+          - NA
+          - "81.6"
+          - "61.0368"
+          - "41.8608"
+          - "20.5632"
+          - "15.0144"
+          - "5.4672"
+          - "2.3664"
+          - "5.1408"
+          - "2.04"
+          - "4.8144"
+          - "7.0992"
+          - "78.744"
+          - "9.8736"
+          - NA
+          - "9.384"
+          - "7.2624"
+          - "19.3392"
+          - "23.0928"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.3456"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4270
+        values:
+          - Caudata
+          - Pachytriton_feii
+          - "Nishikawa, K., Jiang, J., & Matsui, M. (2011). Two new species of Pachytriton from Anhui and Guangxi, China (Amphibia: Urodela: Salamandridae). Current Herpetology, 30, 15-31. https://doi.org/10.3105/018.030.0102"
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - VL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4BVTY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,132 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyalotos Richards, Mahony & Donnellan in Donnellan et al., 2025
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Hyalotos
+      zh: Hyalotos
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-73cfaad49e
+            part: title
+          zh:
+            page: zh
+            section: s-b06a742cb9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-73cfaad49e
+            part: body
+          zh:
+            page: zh
+            section: s-b06a742cb9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-02066129ff
+            part: title
+          zh:
+            page: zh
+            section: s-066d980399
+            part: title
+        text:
+          en:
+            page: en
+            section: s-02066129ff
+            part: body
+          zh:
+            page: zh
+            section: s-066d980399
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-dae08c5942
+            part: title
+          zh:
+            page: zh
+            section: s-5512d28449
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5DZV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5DZV
+            label:
+              en: Hyalotos naispela
+              zh: Hyalotos naispela
+          - kind: catalogue
+            colId: V5Q74
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5Q74
+            label:
+              en: Hyalotos richardsi
+              zh: Hyalotos richardsi
+          - kind: catalogue
+            colId: V5N6Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5N6Q
+            label:
+              en: Hyalotos singadanae
+              zh: Hyalotos singadanae
+        text:
+          en:
+            page: en
+            section: s-dae08c5942
+            part: body
+          zh:
+            page: zh
+            section: s-5512d28449
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyalotos
+          url: https://www.checklistbank.org/dataset/316115/taxon/V57YN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-842b208f85
+        part: body
+      zh:
+        page: zh
+        section: s-b6982d6e17
+        part: body

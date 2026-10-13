@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa heiroreias
+  displayName: Bolitoglossa heiroreias
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDPS
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa heiroreias
+        zh: Bolitoglossa heiroreias
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDPS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/128
+            queryName: Bolitoglossa heiroreias
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fad6722180
+      - s-f14e6096ee
+      - s-05fd6b6f46
+      - s-44195360d3
+      - s-eb95e11c2f
+      - s-eb98ef8e4f
+      - s-b8ffd0533d
+      - s-7f0b562c91
+    zh:
+      - s-1c763679e1
+      - s-4f23c37812
+      - s-2ebcf6406b
+      - s-2e4d572028
+      - s-47911507cd
+      - s-addd75c564
+      - s-55cecd639e
+      - s-433157326c

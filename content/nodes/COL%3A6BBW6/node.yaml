@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor sabrinus
+  displayName: Craugastor sabrinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BBW6
+  sourceIndexes:
+    - name:
+        en: Craugastor sabrinus
+        zh: Craugastor sabrinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BBW6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/178
+            queryName: Craugastor sabrinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/38
+            queryName: Eleutherodactylus sabrinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f9ad8ace0f
+      - s-7cd01c6df2
+      - s-70c352d0fc
+      - s-89b4adaef7
+      - s-d5554c002a
+      - s-16b3f48df7
+      - s-cf415b5124
+      - s-f351e92add
+    zh:
+      - s-14af522bbc
+      - s-a26dbff2e6
+      - s-22ae5e1bb7
+      - s-78c8d78b3d
+      - s-2823f0f30b
+      - s-69adeea4fe
+      - s-5f7b538584
+      - s-89b336d396

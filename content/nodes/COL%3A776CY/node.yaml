@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Petropedetes parkeri
+  displayName: Petropedetes parkeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/776CY
+  sourceIndexes:
+    - name:
+        en: Petropedetes parkeri
+        zh: Petropedetes parkeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 776CY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/12
+            queryName: Petropedetes parkeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-62b19b7be1
+      - s-1421f38bde
+      - s-c2a1fa76c2
+      - s-c692de8153
+      - s-8beb53b3a7
+      - s-a30c9c6e9b
+      - s-c42feabb05
+      - s-56afd93f75
+      - s-4c1876ad2e
+      - s-5088ac436c
+      - s-1faf94a7c1
+      - s-2b10885e79
+    zh:
+      - s-82688d12bd
+      - s-97237b3930
+      - s-3233d2f1ee
+      - s-4826f9b395
+      - s-111d29dc80
+      - s-75a3b8dd52
+      - s-5e13bb2019
+      - s-3175f4a2fe
+      - s-f76aefc31b
+      - s-6e7d1ae296
+      - s-b799df95c8
+      - s-48411d6b16

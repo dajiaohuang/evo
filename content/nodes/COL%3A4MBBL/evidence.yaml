@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Presbytis siberu (Chasen & Kloss, 1928)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 西伯鲁叶猴
+      en: Siberut Langur
+    sections:
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-79b1274ef7
+            part: body
+          en:
+            page: en
+            section: s-7fe5278eba
+            part: body
+        sourceIds:
+          - taxonomy
+          - hadi2012
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-4b5cc06515
+            part: body
+          en:
+            page: en
+            section: s-37363f3332
+            part: body
+        sourceIds:
+          - hadi2012
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Presbytis siberu (Chasen & Kloss, 1928)
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MBBL
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-36103b5d-6eda-8663-a69d-1b5462aa62fb
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页采用的英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine the COL26.8 accepted classification.
+      - id: hadi2012
+        referenceId: ref-b87daaaa-3382-8960-a92f-4b72ac25d2e2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持北西伯鲁岛 Peleonan 林中两群当时记作 P. potenziani 的局地比较；研究早于当前分种处理，页面不把它当作全种 P. siberu 估计。
+            en: Supports a local comparison of two groups identified at the time as P. potenziani in Peleonan Forest, North Siberut; it predates the current split and is not a species-wide P. siberu estimate.
+    limitations:
+      zh:
+        page: zh
+        section: s-0428fa837d
+        part: body
+      en:
+        page: en
+        section: s-9aac1c3720
+        part: body

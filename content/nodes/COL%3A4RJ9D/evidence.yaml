@@ -1,0 +1,393 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes akroparallagi (Biju & Bossuyt, 2009)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes akroparallagi
+      zh: Raorchestes akroparallagi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c710fb5191
+            part: title
+          zh:
+            page: zh
+            section: s-2a8753c9f4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c710fb5191
+            part: body
+          zh:
+            page: zh
+            section: s-2a8753c9f4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b1c60440c5
+            part: title
+          zh:
+            page: zh
+            section: s-00e5dd5db0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b1c60440c5
+            part: body
+          zh:
+            page: zh
+            section: s-00e5dd5db0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a73a602240
+            part: title
+          zh:
+            page: zh
+            section: s-1936a7b3b6
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-a73a602240
+            part: body
+          zh:
+            page: zh
+            section: s-1936a7b3b6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5329255168
+            part: title
+          zh:
+            page: zh
+            section: s-9d4d176770
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-5329255168
+            part: body
+          zh:
+            page: zh
+            section: s-9d4d176770
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-134fdd3cb46b726d1646fba0ea6e4469
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ed8445821e7512f470fb6638
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f223b74aa5
+            part: title
+          zh:
+            page: zh
+            section: s-687013a04a
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f223b74aa5
+            part: body
+          zh:
+            page: zh
+            section: s-687013a04a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-d8bcc68c7f
+            part: title
+          zh:
+            page: zh
+            section: s-fad94eb69a
+            part: title
+        sourceIds:
+          - primary-pmc7936570-4rj9d
+        text:
+          en:
+            page: en
+            section: s-d8bcc68c7f
+            part: body
+          zh:
+            page: zh
+            section: s-fad94eb69a
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9ad33f7a82
+            part: title
+          zh:
+            page: zh
+            section: s-8740ab2c6e
+            part: title
+        sourceIds:
+          - primary-pmc7936570-4rj9d
+        text:
+          en:
+            page: en
+            section: s-9ad33f7a82
+            part: body
+          zh:
+            page: zh
+            section: s-8740ab2c6e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes akroparallagi
+          url: https://www.checklistbank.org/dataset/316115/taxon/4RJ9D
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5247; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5250 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5258, 5259; Reference.csv rows 1247
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc7936570-4rj9d
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes akroparallagi: Individually read species-specific acoustic comparison and table 2 species row 55, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0256f3013b
+        part: body
+      zh:
+        page: zh
+        section: s-54f7a98166
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-134fdd3cb46b726d1646fba0ea6e4469
+      sourceRowId: Anf5247
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5247
+        bibliographyRowId: Anf5250
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Pseudophilautus zal
+        candidateBibliographyRowIds:
+          - Anf5250
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-ed8445821e7512f470fb6638
+        scientificName: Raorchestes akroparallagi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-4rj9d
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes akroparallagi
+        evidenceRead: "Raorchestes akroparallagi: Individually read species-specific acoustic comparison and table 2 species row 55, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: behavior
+            heading:
+              en: Species-specific call structure in the 2021 comparison
+              zh: 2021 年比较中的物种专属鸣声结构
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-4rj9d
+            locator: PMC7936570 XML sec13 paragraph 50; table-2 species row 55 and adjacent rows for additional call types; sec7 paragraphs 1–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-658c438d21
+                part: body
+              zh:
+                page: zh
+                section: s-6704910701
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Reported calling height is an observation range
+              zh: 报告的鸣叫高度是观察范围
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-4rj9d
+            locator: PMC7936570 XML table-2 species row 55; caption and calling-height column
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-82daf12569
+                part: body
+              zh:
+                page: zh
+                section: s-b9b7e09163
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

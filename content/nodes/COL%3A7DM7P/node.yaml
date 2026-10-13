@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia minima
+  displayName: Uperoleia minima
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DM7P
+  sourceIndexes:
+    - name:
+        en: Uperoleia minima
+        zh: Uperoleia minima
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DM7P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/203
+            queryName: Uperoleia minima
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8cac014661
+      - s-21fd6bc568
+      - s-521fa4d30c
+      - s-da4913ef26
+      - s-7fffc3ec47
+      - s-b20df323ba
+      - s-b79c6e147c
+      - s-2666a22fd2
+    zh:
+      - s-1fdc502b65
+      - s-19f51edf1c
+      - s-5247fc7a1e
+      - s-8fdda2e08b
+      - s-c9353ba351
+      - s-45eba332e8
+      - s-c5e3cfee9f
+      - s-d38dcbde9b

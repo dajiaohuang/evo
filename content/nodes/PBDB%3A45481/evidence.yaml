@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microsyops angustidens
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Microsyops angustidens
+      en: Microsyops angustidens
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-69624579a3
+            part: body
+          en:
+            page: en
+            section: s-14aea976d1
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-22c4a80612
+            part: body
+          en:
+            page: en
+            section: s-1ca148c6b3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d53466402e
+            part: body
+          en:
+            page: en
+            section: s-f576312540
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c43ddfd5c8
+            part: body
+          en:
+            page: en
+            section: s-8a6fc3d70a
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-59b02cd9d7
+            part: body
+          en:
+            page: en
+            section: s-e4a2babae8
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Microsyops angustidens
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45481&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45481; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45481
+          selectedOccurrenceIds:
+            - occ:168234
+            - occ:168646
+            - occ:168719
+            - occ:168890
+            - occ:170565
+            - occ:170863
+            - occ:170941
+            - occ:171266
+            - occ:171653
+            - occ:171699
+            - occ:171744
+            - occ:171913
+            - occ:171923
+            - occ:171937
+            - occ:171944
+            - occ:171962
+            - occ:171974
+            - occ:172157
+            - occ:172253
+            - occ:172275
+            - occ:172358
+            - occ:172430
+            - occ:457636
+            - occ:457659
+            - occ:457766
+            - occ:457783
+            - occ:458613
+            - occ:458634
+            - occ:458701
+            - occ:469806
+            - occ:470245
+            - occ:470466
+            - occ:470583
+            - occ:471234
+            - occ:471475
+            - occ:807116
+          selectedCollectionIds:
+            - col:15357
+            - col:15450
+            - col:15455
+            - col:15480
+            - col:15577
+            - col:15660
+            - col:15663
+            - col:15725
+            - col:15769
+            - col:15778
+            - col:15785
+            - col:15803
+            - col:15805
+            - col:15806
+            - col:15807
+            - col:15811
+            - col:15814
+            - col:15845
+            - col:15865
+            - col:15870
+            - col:15887
+            - col:15895
+            - col:15692
+            - col:15694
+            - col:15700
+            - col:15701
+            - col:15702
+            - col:15703
+            - col:15707
+            - col:46707
+            - col:46749
+            - col:46767
+            - col:46776
+            - col:46820
+            - col:46843
+            - col:88209
+          sourceReferenceIds:
+            - ref:2078
+            - ref:1728
+            - ref:1618
+            - ref:6214
+            - ref:2311
+            - ref:2528
+            - ref:3598
+            - ref:11717
+            - ref:3348
+          originalIdentificationMappings:
+            - occurrenceId: occ:168719
+              originalIdentifiedName: Cynodontomys angustidens
+              acceptedName: Microsyops angustidens
+              difference: recombined as
+            - occurrenceId: occ:172157
+              originalIdentifiedName: Cynodontomys alfi n. sp.
+              acceptedName: Microsyops angustidens
+              difference: null
+            - occurrenceId: occ:807116
+              originalIdentifiedName: Microsyops angustidens n. sp.
+              acceptedName: Microsyops angustidens
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-1f74802758
+        part: body
+      en:
+        page: en
+        section: s-7a784346c8
+        part: body

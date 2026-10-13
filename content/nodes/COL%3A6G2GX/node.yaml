@@ -1,0 +1,118 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epidalea calamita
+  displayName: Epidalea calamita
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6G2GX
+  sourceIndexes:
+    - name:
+        en: Epidalea calamita
+        zh: Epidalea calamita
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6G2GX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/371
+            queryName: Epidalea calamita
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 136
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/302
+            queryName: Bufo calamita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 160
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/115
+            queryName: Rana foetidissima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/116
+            queryName: Rana portentosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/117
+            queryName: Rana ecaudata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/118
+            queryName: Bufo cruciatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/119
+            queryName: Rana mephitica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/120
+            queryName: Bufo portentosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/22
+            queryName: Bufo calamita alpestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/23
+            queryName: Bufo viridis calamita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-25caa6f20c
+      - s-f495a51d1b
+      - s-e1a72fdd21
+      - s-5547918f39
+      - s-e76ca98d04
+      - s-9f77352940
+      - s-7432e9776c
+      - s-0dbc16b29a
+      - s-492526c1b1
+      - s-e2b57b2633
+      - s-726c8a5a4c
+      - s-4b9c76e5b0
+    zh:
+      - s-bd4db9cf10
+      - s-1ef87b1b56
+      - s-f2aa36e67d
+      - s-8783b25940
+      - s-4b22750b00
+      - s-909dc4a41e
+      - s-0a96fd550a
+      - s-b0f3eacd99
+      - s-9bb60cc5f8
+      - s-f6c95ebcac
+      - s-8d9bbe03e2
+      - s-49baeb324f

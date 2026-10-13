@@ -1,0 +1,202 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Phymaspermum pinnatifidum (Oliv.) Källersjö
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4HDL4, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4HDL4; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4HDL4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4HDL4
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000096157-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4HDL4 / WFO wfo-0000096157
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_15725_0
+        referenceId: ref-6c442e92-8362-8ff8-a47a-3e2e8b8fb66a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Phymaspermum pinnatifidum (Oliv.) Källersjö account; archive rows 79747 (Morphology), 79222 (Habitat), 78289 (Diagnostic), source identifier 15725.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Multistemmed, densely leafy shrub, 0.25-0.5 m high. Stems unbranched; branches erect, glabrous or with few silver- villous hairs, sometimes woolly or matted; fascicles present in leaf axils. Leaves alternate, erect to spreading, 5.0-32.0 x 0.2-1.0 mm, linear, deeply pinnatifid, narrowed into petiolelike base, sometimes with secondary basal lobes, silvery- pubescent villous hairs on both surface, leathery; basal swelling present, continuous with stem ribs; lobes 7-9, 4.025.0 mm, filiform to linear, attenuating. Capitula discoid, homogamous, terminal, few- to many-headed (5-30), simple to compound corymbs, pedunculate; peduncles 4.0-35.0 mm long, glabrous to matted. Involucre 6-7 x 4-5 mm, funnelshaped to cyathiform, rarely tapering at the base; involucral bracts 3- or 4-seriate, loosely arranged, margins and apices scarious (curved shape due to thin rigid centres with resin canals), membranous apices of all bracts 0.2-2.5 mm long, glabrous to villous especially on edges, brown margins absent, median resin canals present; outer bracts triangular to lanceolate or oblong, 2.3-3.0 mm long, attenuating to rounded; middle bracts lanceolate to oblong, 2.7-3.8 mm long, attenuating to rounded; inner bracts linear to oblong, 4.3-5.0 mm long, acute rounded; inner most bracts oblong, 5.2 mm long, rounded. Receptacle convex; paleae in marginal series, linear to oblong, 3.3-5.1 mm long, rounded, rigid with scarious margins and apices, scarious apices 0.7-1.0 mm long. Disc florets 38-44, without resin canals; corolla 2.3-2.5 mm long, with only glandular trichomes, yellow; tube 1.2-1.5 mm long; limb campanulate, 1.0 mm long (excluding lobes); lobes spreading, 0.6-1.0 mm long, triangular to triangular-ovate. Anthers 2.8-3.2 mm long (including apical appendage); apical appendage lanceolate. Style 2.1-2.6 mm long (excluding branches); branches 0.5-0.7 mm long. Cypselas 3.5 x 0.7 mm, oblong to obovate, 12-ribbed, apical rim membranous, dentate, glandular trichomes absent, discontinuous resin canals in ribs present. The species is early flowering, usually in spring, between August and October, but early fires can result in even earlier flowering.
+            sourceIds:
+              - sanbi_15725_0
+            locator: "SANBI/WFO archive Morphology row 79747; source 15725.0; publication: Ruiters, AK; Tilney, PM; van Wyk, B-E; Magee, AR. 2016. Taxonomy of the genus Phymaspermum (Asteraceae, Anthemideae). Syst. Bot. 41(2): 430 - 456. [DOI 10.1600/036364416X691768]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Phymaspermum pinnatifidum is a small, spring flowering multistemmed shrublet with discoid corymbosely arranged capitula and cypselas with a prominent membranous apical crown. Together with P. acerosum it does not have myxogenic trichomes on the cypselas (the generic synapomorphy) but rather prominent resin canals in the cypsela ribs. It can be readily distinguished from P. acerosum by its earlier flowering time, smaller stature (less than 0.5 m tall) with thin herbaceous stems, the broader funnel or cupshaped involucres and the prominent membranous apical crown on the cypselas. Its small size means that it could also be confused with P. woodii but can be readily distinguished by the broader, not apically constricted involucres with loosely appressed involucral bracts, the prominent membranous apical crown on the cyselas and the absence of myxogenic trichomes.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_15725_0
+            locator: "SANBI/WFO archive Diagnostic row 78289; source 15725.0; publication: Ruiters, AK; Tilney, PM; van Wyk, B-E; Magee, AR. 2016. Taxonomy of the genus Phymaspermum (Asteraceae, Anthemideae). Syst. Bot. 41(2): 430 - 456. [DOI 10.1600/036364416X691768]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: On the Natal group sandstone and is mostly found in grasslands between 450-920 m.
+            sourceIds:
+              - sanbi_15725_0
+            locator: "SANBI/WFO archive Habitat row 79222; source 15725.0; publication: Ruiters, AK; Tilney, PM; van Wyk, B-E; Magee, AR. 2016. Taxonomy of the genus Phymaspermum (Asteraceae, Anthemideae). Syst. Bot. 41(2): 430 - 456. [DOI 10.1600/036364416X691768]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Phymaspermum pinnatifidum (Oliv.) Källersjö
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Phymaspermum pinnatifidum (Oliv.) Källersjö
+      zh: Phymaspermum pinnatifidum (Oliv.) Källersjö
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-eac9af9b0c
+            part: title
+          zh:
+            page: zh
+            section: s-e79a3c9ce5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eac9af9b0c
+            part: body
+          zh:
+            page: zh
+            section: s-e79a3c9ce5
+            part: body
+        sourceIds:
+          - sanbi_15725_0
+        locator: "SANBI/WFO archive Morphology row 79747; source 15725.0; publication: Ruiters, AK; Tilney, PM; van Wyk, B-E; Magee, AR. 2016. Taxonomy of the genus Phymaspermum (Asteraceae, Anthemideae). Syst. Bot. 41(2): 430 - 456. [DOI 10.1600/036364416X691768]. [All rights reserved]"
+        evidenceAssessment: partially-supported
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b63388e52d
+            part: title
+          zh:
+            page: zh
+            section: s-3df83a27d4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b63388e52d
+            part: body
+          zh:
+            page: zh
+            section: s-3df83a27d4
+            part: body
+        sourceIds:
+          - sanbi_15725_0
+        locator: "SANBI/WFO archive Diagnostic row 78289; source 15725.0; publication: Ruiters, AK; Tilney, PM; van Wyk, B-E; Magee, AR. 2016. Taxonomy of the genus Phymaspermum (Asteraceae, Anthemideae). Syst. Bot. 41(2): 430 - 456. [DOI 10.1600/036364416X691768]. [All rights reserved]"
+        evidenceAssessment: partially-supported
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-236ec0ef30
+            part: title
+          zh:
+            page: zh
+            section: s-83dedfe38c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-236ec0ef30
+            part: body
+          zh:
+            page: zh
+            section: s-83dedfe38c
+            part: body
+        sourceIds:
+          - sanbi_15725_0
+        locator: "SANBI/WFO archive Habitat row 79222; source 15725.0; publication: Ruiters, AK; Tilney, PM; van Wyk, B-E; Magee, AR. 2016. Taxonomy of the genus Phymaspermum (Asteraceae, Anthemideae). Syst. Bot. 41(2): 430 - 456. [DOI 10.1600/036364416X691768]. [All rights reserved]"
+        evidenceAssessment: partially-supported
+    sources:
+      - id: sanbi_15725_0
+        referenceId: ref-6c442e92-8362-8ff8-a47a-3e2e8b8fb66a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Phymaspermum pinnatifidum (Oliv.) Källersjö account; archive rows 79747 (Morphology), 79222 (Habitat), 78289 (Diagnostic), source identifier 15725.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only

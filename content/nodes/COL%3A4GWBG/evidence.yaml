@@ -1,0 +1,492 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phrynobatrachus versicolor Ahl, 1924
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phrynobatrachus versicolor
+      zh: Phrynobatrachus versicolor
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-51051f5457
+            part: title
+          zh:
+            page: zh
+            section: s-b87d5f9ff6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-51051f5457
+            part: body
+          zh:
+            page: zh
+            section: s-b87d5f9ff6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6e2162bff7
+            part: title
+          zh:
+            page: zh
+            section: s-13a39af4a9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6e2162bff7
+            part: body
+          zh:
+            page: zh
+            section: s-13a39af4a9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ed3f290592
+            part: title
+          zh:
+            page: zh
+            section: s-ee87e28f75
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-ed3f290592
+            part: body
+          zh:
+            page: zh
+            section: s-ee87e28f75
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a6ea7d7a7a
+            part: title
+          zh:
+            page: zh
+            section: s-d281e4bb5d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-a6ea7d7a7a
+            part: body
+          zh:
+            page: zh
+            section: s-d281e4bb5d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-63a2e03e49
+            part: title
+          zh:
+            page: zh
+            section: s-7c7ea79bf6
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-63a2e03e49
+            part: body
+          zh:
+            page: zh
+            section: s-7c7ea79bf6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-2de8f5b629
+            part: title
+          zh:
+            page: zh
+            section: s-61c39b3ac6
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-2de8f5b629
+            part: body
+          zh:
+            page: zh
+            section: s-61c39b3ac6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c7cb518393
+            part: title
+          zh:
+            page: zh
+            section: s-ee3d239a83
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-c7cb518393
+            part: body
+          zh:
+            page: zh
+            section: s-ee3d239a83
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-8073d758c975c5ef9b1bfc160e7e42de
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-9460cc490b
+            part: title
+          zh:
+            page: zh
+            section: s-b84ff2989e
+            part: title
+        sourceIds:
+          - primary-pmc13072372-4gwbg
+        text:
+          en:
+            page: en
+            section: s-9460cc490b
+            part: body
+          zh:
+            page: zh
+            section: s-b84ff2989e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9c23456b1f
+            part: title
+          zh:
+            page: zh
+            section: s-97d9c23f2c
+            part: title
+        sourceIds:
+          - primary-pmc13072372-4gwbg
+        text:
+          en:
+            page: en
+            section: s-9c23456b1f
+            part: body
+          zh:
+            page: zh
+            section: s-97d9c23f2c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-df8a0ee551
+            part: title
+          zh:
+            page: zh
+            section: s-442bee2775
+            part: title
+        sourceIds:
+          - primary-pmc13072372-4gwbg
+        text:
+          en:
+            page: en
+            section: s-df8a0ee551
+            part: body
+          zh:
+            page: zh
+            section: s-442bee2775
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-84e44f5e83
+            part: title
+          zh:
+            page: zh
+            section: s-1664c1ae07
+            part: title
+        sourceIds:
+          - primary-pmc13072372-4gwbg
+        text:
+          en:
+            page: en
+            section: s-84e44f5e83
+            part: body
+          zh:
+            page: zh
+            section: s-1664c1ae07
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phrynobatrachus versicolor
+          url: https://www.checklistbank.org/dataset/316115/taxon/4GWBG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4548; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4550 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13072372-4gwbg
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phrynobatrachus versicolor: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-376168a8c3
+        part: body
+      zh:
+        page: zh
+        section: s-15f9e94beb
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-8073d758c975c5ef9b1bfc160e7e42de
+      sourceRowId: Anf4548
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4548
+        bibliographyRowId: Anf4550
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Phrynobatrachus ungujae
+        candidateBibliographyRowIds:
+          - Anf4550
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.3390/ani16071104
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        sourceKey: primary-pmc13072372-4gwbg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13072372/article.xml
+        sourceConcept: Source Phrynobatrachus versicolor compiled2010–2023Rwanda detections andindexcategories; exactwrittenname only, no originalvoucher/currentconceptcertification
+        evidenceRead: "Phrynobatrachus versicolor: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Occurrence counts in the assembled Rwanda sample
+              zh: 卢旺达汇总样本中的出现计数
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-4gwbg
+            locator: PMC13072372 XML TablesA2/A3 namedrow Phrynobatrachus versicolor;sec2dot3;sec3dot1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-245a9651bf
+                part: body
+              zh:
+                page: zh
+                section: s-6430b97996
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A species score for a specified conservation framework
+              zh: 特定保护框架中的物种评分
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-4gwbg
+            locator: PMC13072372 XML TableA4 row37;Table1;sec2dot4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2eff366e41
+                part: body
+              zh:
+                page: zh
+                section: s-ed571fc015
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Species Index and site index have different meanings
+              zh: 物种指数与站点指数含义不同
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-4gwbg
+            locator: PMC13072372 XML sec2dot4;sec3dot3;sec4dot2;TableA4 row37
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-645f15f969
+                part: body
+              zh:
+                page: zh
+                section: s-8f1dfa277a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Sampling and transfer limits
+              zh: 采样与迁移应用限制
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-4gwbg
+            locator: PMC13072372 XML sec2dot3/5;sec3dot1/4;sec4dot1–3;TablesA1/4/7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1406f94c6e
+                part: body
+              zh:
+                page: zh
+                section: s-8f50be7c6d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

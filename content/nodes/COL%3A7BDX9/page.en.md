@@ -1,0 +1,3 @@
+## Petiole domatia and bilateral flowers {#s-6cf103d9d9}
+The Brazilian Flora 2020 entry records foliaceous stipules and cylindrical domatia on the petiole. Leaves have up to 10 pairs of oblong, coriaceous leaflets; their lower surfaces are glabrous. Flowers are over 10 mm long and bilaterally symmetric, with deciduous bracteoles. The hypanthium is asymmetric and cylindrical. Petals are over 1 mm wide and glabrous; stamens are dimorphic, with 10 counted. The fruit is elliptic to oblong. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

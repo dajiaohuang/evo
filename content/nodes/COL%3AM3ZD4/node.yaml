@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia wilkinsoni
+  displayName: Caecilia wilkinsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M3ZD4
+  sourceIndexes:
+    - name:
+        en: Caecilia wilkinsoni
+        zh: Caecilia wilkinsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M3ZD4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/93
+            queryName: Caecilia wilkinsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c52d93ba33
+      - s-ec150bb1fc
+      - s-b4e87b6590
+      - s-ab533f53f4
+      - s-22f0e29d7d
+      - s-c36b75374f
+      - s-3256a211ae
+    zh:
+      - s-be9dfec927
+      - s-d307212b62
+      - s-f933f46e56
+      - s-266180e3ac
+      - s-7ff57be715
+      - s-96a492da63
+      - s-9994113977

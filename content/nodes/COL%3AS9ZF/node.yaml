@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene venezuelense
+  displayName: Centrolene venezuelense
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S9ZF
+  sourceIndexes:
+    - name:
+        en: Centrolene venezuelense
+        zh: Centrolene venezuelense
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S9ZF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/205
+            queryName: Centrolene venezuelense
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/49
+            queryName: Centrolenella buckleyi venezuelensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fe7f6c1344
+      - s-0c0192ded0
+      - s-ecbee9158b
+      - s-5ca9621cee
+      - s-544e854fcd
+      - s-d754c87f08
+      - s-0ae06e6a01
+      - s-83613fcde9
+      - s-22ea529691
+      - s-f3cb4ed4d8
+    zh:
+      - s-fd10d7a487
+      - s-41e2466d8c
+      - s-78fc1041f4
+      - s-4c36319c6a
+      - s-70f29aa679
+      - s-8fd5e682d8
+      - s-8fba61f8fb
+      - s-fe46f73805
+      - s-21dcd54316
+      - s-5748927916

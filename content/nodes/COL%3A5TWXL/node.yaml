@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates fratisenescus
+  displayName: Allobates fratisenescus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5TWXL
+  sourceIndexes:
+    - name:
+        en: Allobates fratisenescus
+        zh: Allobates fratisenescus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5TWXL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/136
+            queryName: Allobates fratisenescus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/91
+            queryName: Colostethus fratisenescus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-151ac9b771
+      - s-6c9869d693
+      - s-3857c311fe
+      - s-835737e034
+      - s-4c7b5d37c2
+      - s-9443be8d23
+      - s-0651e385d4
+      - s-028ae4712c
+      - s-bd726c48ce
+      - s-70c93a720c
+      - s-41cc5266a3
+      - s-a1abb9d0ab
+      - s-6377ff77de
+      - s-5e648303bf
+      - s-47c08e1686
+      - s-0930cd1a02
+      - s-1ab4443d6d
+      - s-8aebeaf925
+      - s-9fa8145816
+    zh:
+      - s-0ba559b543
+      - s-9d9aa6894e
+      - s-a7cda6b4b6
+      - s-951c2da003
+      - s-a37fff3ab5
+      - s-2e24b0fd96
+      - s-be6b1f203c
+      - s-27ba18a424
+      - s-8b9ec49617
+      - s-996731310e
+      - s-f20d818aa3
+      - s-38d1ccdcf3
+      - s-a95a458a67
+      - s-c2621ccf45
+      - s-193d8c8343
+      - s-297f2fbcd4
+      - s-89a3e281d9
+      - s-bb0e99ab94
+      - s-1471641a93

@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon rizibilis
+  displayName: Ololygon rizibilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49946
+  sourceIndexes:
+    - name:
+        en: Ololygon rizibilis
+        zh: Ololygon rizibilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "49946"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/142
+            queryName: Ololygon rizibilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/58
+            queryName: Scinax rizibilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/478
+            queryName: Hyla rizibilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/479
+            queryName: Hyla mirim
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/480
+            queryName: Ololygon mirim
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f78ea7aaab
+      - s-6ac4ab6392
+      - s-1c6ca35dfa
+      - s-5a83bc8eb9
+      - s-cc47873698
+      - s-f3a5770fe2
+      - s-4f5e6ccae1
+      - s-976f006d26
+      - s-0b7267122e
+      - s-a01bf7f19a
+      - s-e6b55dca53
+      - s-d09a222592
+      - s-3023b9924c
+      - s-3a573c1b02
+      - s-1e7961e0de
+    zh:
+      - s-bcde06378e
+      - s-1a0c08c4f1
+      - s-1bfdb95612
+      - s-f6dc6dda56
+      - s-fd96b1afb6
+      - s-4cb08f97df
+      - s-fd5d424818
+      - s-38eb6980b4
+      - s-27587a897d
+      - s-39e8f0777f
+      - s-f5ebb3e2aa
+      - s-b48b5436f3
+      - s-f83d86042d
+      - s-3b9b5eb9d0
+      - s-7f61cde960

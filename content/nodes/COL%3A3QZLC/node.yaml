@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kaloula verrucosa
+  displayName: Kaloula verrucosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QZLC
+  sourceIndexes:
+    - name:
+        en: Kaloula verrucosa
+        zh: Kaloula verrucosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QZLC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/138
+            queryName: Kaloula verrucosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 104
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/14
+            queryName: Callula verrucosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/15
+            queryName: Kaloula macroptica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4d7a8555a7
+      - s-25b116c4b2
+      - s-326e284558
+      - s-dcfeb5c2c1
+      - s-99ada388c3
+      - s-282a4782b7
+      - s-2c235eff30
+      - s-8dcfd0fe23
+      - s-4184ac2cdd
+      - s-1721af266e
+    zh:
+      - s-1cf92d2aff
+      - s-0b018d84c0
+      - s-404ff91497
+      - s-a656bde551
+      - s-7c821f49d3
+      - s-d861008de5
+      - s-4fe0dccbeb
+      - s-db910d60ee
+      - s-836d7ecf73
+      - s-e4dd50f860

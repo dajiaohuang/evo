@@ -1,0 +1,168 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spea multiplicata
+  displayName: Spea multiplicata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6YWSS
+  sourceIndexes:
+    - name:
+        en: Spea multiplicata
+        zh: Spea multiplicata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6YWSS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/218
+            queryName: Spea multiplicata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 175
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/198
+            queryName: Scaphiopus multiplicatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/109
+            queryName: Spea stagnalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/450
+            queryName: Spea multiplicata stagnalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/33
+            queryName: Scaphiopus dugesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/34
+            queryName: Scaphiopus stagnalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/335
+            queryName: Scaphopus hammondii multiplicatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/336
+            queryName: Spea hammondii multiplicata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/337
+            queryName: Spea hammondi stagnalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/69
+            queryName: Spea hammondi multiplicata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-80da5878e6
+      - s-56d7b8ca1c
+      - s-a24b333852
+      - s-38c6405fcb
+      - s-759adfe3a8
+      - s-dd62b44f22
+      - s-e2c2205f44
+      - s-669404f9ca
+      - s-618340690f
+      - s-fbaa144b07
+      - s-227811142e
+      - s-3f71972c1e
+      - s-48faf9ec1c
+      - s-eea6529dc3
+      - s-a524ed53ea
+      - s-7f2ea34900
+      - s-6ea90ec1e5
+      - s-86d122fa3f
+      - s-58a0a395bb
+      - s-ab1101c8ed
+      - s-9f20caa8dd
+      - s-c3999c413f
+      - s-c78365cf43
+      - s-a159699c30
+      - s-3e2243cc20
+      - s-44a160f482
+      - s-c9aa5c079e
+      - s-05b2f01b1f
+      - s-5f486bd761
+      - s-861024d6f4
+      - s-61d4a70d7f
+      - s-ca6b1fee5d
+      - s-7617d3d09c
+      - s-3a6efa9c9e
+      - s-0a72420416
+      - s-fe20c5a424
+      - s-414350c30c
+    zh:
+      - s-2cfb7bbbad
+      - s-fc7a41ae87
+      - s-fdbcc243c4
+      - s-ca2d8d1745
+      - s-e1afd4b990
+      - s-003ce60591
+      - s-8266a2aacf
+      - s-ee89a07474
+      - s-40d5a05cac
+      - s-56f82e44a4
+      - s-50d6ad9a3a
+      - s-5d0414fbb3
+      - s-50977089bb
+      - s-348a9338c8
+      - s-5dc42ed916
+      - s-eaef3eb0b1
+      - s-7b57db236f
+      - s-2a0c050655
+      - s-ba2b928976
+      - s-40e9c526e0
+      - s-e662e1305b
+      - s-01498a82c1
+      - s-b47783a29d
+      - s-e86ed5ac5a
+      - s-74bbd6c8c7
+      - s-79d12ca153
+      - s-bdd4ada814
+      - s-36737b13df
+      - s-d55bb0b42f
+      - s-b3e34e246d
+      - s-e420b4a7f6
+      - s-16b405b1db
+      - s-9e0a131bec
+      - s-8331d1af34
+      - s-a7c1780d15
+      - s-f4d51909ec
+      - s-5fcc3841a5

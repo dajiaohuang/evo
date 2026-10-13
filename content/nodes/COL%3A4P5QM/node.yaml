@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudopaludicola mystacalis
+  displayName: Pseudopaludicola mystacalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P5QM
+  sourceIndexes:
+    - name:
+        en: Pseudopaludicola mystacalis
+        zh: Pseudopaludicola mystacalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P5QM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/348
+            queryName: Pseudopaludicola mystacalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/369
+            queryName: Paludicola mystacalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/370
+            queryName: Physalaemus mysticalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c48b88f90d
+      - s-7f0d7176b4
+      - s-f7a162d03a
+      - s-73d3af0caf
+      - s-39c3904520
+      - s-c93fce96a9
+      - s-1a823b10b7
+      - s-b9eb5477b8
+      - s-8cd81a4db7
+      - s-c08f684d1c
+      - s-ab7470f774
+      - s-464bea84f7
+      - s-401525b9ff
+      - s-b5ffc5d8ff
+      - s-d4ba11d425
+      - s-a5cf28c6da
+      - s-e71012c84b
+      - s-fc5e053878
+      - s-1f30acd66b
+      - s-9835e28bb0
+      - s-b61269b08d
+      - s-cc58e4d615
+      - s-b3b1683aa0
+      - s-8db30954d0
+      - s-9487a85eac
+      - s-a8df53f1f5
+    zh:
+      - s-b3a8d74ccc
+      - s-aa5c9426c3
+      - s-a3a775be5f
+      - s-1d1f30ba0f
+      - s-2014b63277
+      - s-4dc3fe23e6
+      - s-3c64df48f5
+      - s-14a3fb100e
+      - s-80da9ec97e
+      - s-d11506ac8c
+      - s-0e4ca46e14
+      - s-ddcfc80d55
+      - s-5544b1b015
+      - s-0ac69d2c5c
+      - s-99073d9fc6
+      - s-33963430d7
+      - s-574c1cb24f
+      - s-3327665d53
+      - s-ddf61a73da
+      - s-1db2a6c2ea
+      - s-855293fff5
+      - s-b04e60df37
+      - s-402ecfdf13
+      - s-49ad469897
+      - s-3a597d869b
+      - s-3651a4f3d5

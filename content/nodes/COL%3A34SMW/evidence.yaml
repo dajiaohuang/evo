@@ -1,0 +1,264 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendrotriton bromeliacius (Schmidt, 1936)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dendrotriton bromeliacius
+      zh: Dendrotriton bromeliacius
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9b1fdff1da
+            part: title
+          zh:
+            page: zh
+            section: s-5abbaeaa62
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9b1fdff1da
+            part: body
+          zh:
+            page: zh
+            section: s-5abbaeaa62
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3fb2425f9b
+            part: title
+          zh:
+            page: zh
+            section: s-d031141ea3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3fb2425f9b
+            part: body
+          zh:
+            page: zh
+            section: s-d031141ea3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7e9555cc81
+            part: title
+          zh:
+            page: zh
+            section: s-6d0c8d6789
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-7e9555cc81
+            part: body
+          zh:
+            page: zh
+            section: s-6d0c8d6789
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-f5c236ff37
+            part: title
+          zh:
+            page: zh
+            section: s-dc9845baae
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-f5c236ff37
+            part: body
+          zh:
+            page: zh
+            section: s-dc9845baae
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-a58a304fb5
+            part: title
+          zh:
+            page: zh
+            section: s-4c1bd58905
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-a58a304fb5
+            part: body
+          zh:
+            page: zh
+            section: s-4c1bd58905
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bd13c56af9
+            part: title
+          zh:
+            page: zh
+            section: s-90e85badff
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-bd13c56af9
+            part: body
+          zh:
+            page: zh
+            section: s-90e85badff
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-0c73f9b5da69cd24b2e6f6fe099571f9
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendrotriton bromeliacius
+          url: https://www.checklistbank.org/dataset/316115/taxon/34SMW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6226; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6221 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b3cfd67e97
+        part: body
+      zh:
+        page: zh
+        section: s-52b5f7aad6
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-0c73f9b5da69cd24b2e6f6fe099571f9
+      sourceRowId: Anf6226
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6226
+        bibliographyRowId: Anf6221
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Dendrotriton rabbi
+        candidateBibliographyRowIds:
+          - Anf6221
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis merostictus
+  displayName: Pristimantis merostictus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJHY
+  sourceIndexes:
+    - name:
+        en: Pristimantis merostictus
+        zh: Pristimantis merostictus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJHY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/406
+            queryName: Pristimantis merostictus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/438
+            queryName: Eleutherodactylus merostictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-feba1f21ab
+      - s-82117a5806
+      - s-d9324c6a7a
+      - s-c9827b99c1
+      - s-00302eaf5c
+      - s-1ea89a2fbb
+      - s-7fb89e8a65
+    zh:
+      - s-7634e292e4
+      - s-c5f53398aa
+      - s-37107c2d8b
+      - s-92dd6b780f
+      - s-9f2a422296
+      - s-055183fd68
+      - s-d3f8a2ed7d

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epicrionops marmoratus
+  displayName: Epicrionops marmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6G2SY
+  sourceIndexes:
+    - name:
+        en: Epicrionops marmoratus
+        zh: Epicrionops marmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6G2SY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/367
+            queryName: Epicrionops marmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c237f31150
+      - s-fa22575435
+      - s-9e35328b11
+      - s-ef4c69aafe
+      - s-38ffe4b5f5
+      - s-12b9929474
+      - s-7ceb852205
+      - s-c9e4021828
+      - s-2387efca95
+      - s-da51e5571e
+      - s-0ec2c253c7
+      - s-8b20e4eda4
+    zh:
+      - s-ba07eb7225
+      - s-15e29ce7b7
+      - s-5a25862884
+      - s-3a69cd573e
+      - s-3aae5959e1
+      - s-500acb211d
+      - s-ea9edd3ac1
+      - s-efa8578e63
+      - s-5df531faa9
+      - s-7256a9094e
+      - s-8fe38508f6
+      - s-3ad2bf3b8e

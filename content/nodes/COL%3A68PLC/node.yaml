@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis sandrae
+  displayName: Boophis sandrae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PLC
+  sourceIndexes:
+    - name:
+        en: Boophis sandrae
+        zh: Boophis sandrae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PLC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/296
+            queryName: Boophis sandrae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2ce713ce16
+      - s-4bcf307d85
+      - s-b7e17d50f7
+      - s-ef17725618
+      - s-68a9d54bae
+      - s-703d606040
+      - s-cf4815c9f6
+      - s-8dedba371a
+    zh:
+      - s-73805ce403
+      - s-7b4fbcd136
+      - s-4753805960
+      - s-f952d9adce
+      - s-d61582feed
+      - s-da7755bde5
+      - s-cb423b58f5
+      - s-edbcc6f838

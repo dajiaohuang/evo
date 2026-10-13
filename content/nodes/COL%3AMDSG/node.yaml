@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa synoria
+  displayName: Bolitoglossa synoria
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDSG
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa synoria
+        zh: Bolitoglossa synoria
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDSG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/202
+            queryName: Bolitoglossa synoria
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-81c22430bb
+      - s-adc9f8177a
+      - s-9a13b66186
+      - s-6958bbe3ce
+      - s-4aa910b129
+      - s-95ced20b03
+      - s-31cb5f63dd
+      - s-a16b2a2675
+    zh:
+      - s-c97e768c6d
+      - s-e6cc8cbea4
+      - s-7457224b2a
+      - s-3f0cc53a28
+      - s-6bdce64c59
+      - s-c7c9deb40d
+      - s-1fd1aa9a6c
+      - s-c6df4ee92b

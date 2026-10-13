@@ -1,0 +1,3 @@
+## *Xyris teres*: cylindrical leaves and a tall flowering stalk {#s-31f4051684}
+The Brazilian Flora 2020 regional field records spiral leaves with dark brown to reddish-brown, hairless sheaths. The blades are cylindrical, hairless, and transversely roughened, with pointed tips; a small ligule, the projection at the blade-sheath junction, is present and distinct. The flowering stalk exceeds 70 cm and is hairless, with no or only faint ridges. The spike shape and seed shape are listed as alternatives; the field records 10–25 flowers and ellipsoid seeds. Its habitat field gives only the broad category “terrestrial.”
+

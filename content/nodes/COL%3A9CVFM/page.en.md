@@ -1,0 +1,3 @@
+## A tree in the Brazilian Flora description {#s-01e79d8c8c}
+The Brazilian Flora 2020 v393.147 description records this species as a tree, with stems described as shedding and odoriferous. Its alternate, two-ranked leaves are odd-pinnate, with an unpaired terminal leaflet. The leaflets are subopposite, oval to elliptic, and entire-edged; the midrib is prominent on both surfaces. The source also describes axillary or terminal panicles. Its oblong legume has a wrinkled, net-like surface and splits into two valves; it usually contains one seed, rarely two. These details come from one regional dataset description; variation across the species was not assessed.
+

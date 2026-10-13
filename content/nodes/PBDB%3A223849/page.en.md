@@ -1,0 +1,19 @@
+## Which fossil records this name represents {#s-39fe9a5ae2}
+Dsungarodon zuoi is accepted in the fixed PBDB other-synapsida working roster, with database parent Dsungarodon. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+
+## Begin with named collections and strata {#s-9948b34745}
+Collection Liuhuanggou bonebed (Xinjiang), region code CN, stratum name Qigu; database age bracket 157.9–149.2 Ma, early interval Late Oxfordian and late interval Kimmeridgian. Collection Wucaiwan area, Acuodulodon sunae type (Xinjiang), region code CN, stratum name Shishugou; database age bracket 161.5–154.8 Ma, early interval Oxfordian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+
+## Age bounds of these records {#s-f1d010c578}
+Selected occurrences have an outer age envelope of 161.5–149.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+One record supplying the older envelope bound is Wucaiwan area, Acuodulodon sunae type, occurrence occ:1099320 (161.5–154.8 Ma); one supplying the younger bound is Liuhuanggou bonebed, occurrence occ:474476 (157.9–149.2 Ma). These are collection-age bounds, not endpoints of species survival.
+
+## Read preservation setting separately from living habitat {#s-671ea122f4}
+Liuhuanggou bonebed has collection-environment label fluvial indet.; collection preservation-mode label body. Wucaiwan area, Acuodulodon sunae type has collection-environment label mire/swamp; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+
+## Follow collection records back to references {#s-118e3779d0}
+Liuhuanggou bonebed carries database reference attribution Pfretzschner et al. (2005), identifier ref:44172. Wucaiwan area, Acuodulodon sunae type carries database reference attribution Hu et al. (2007), identifier ref:44533. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+
+## Evidence limits {#s-8a6d2e450a}
+This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+

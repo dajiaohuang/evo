@@ -1,0 +1,3 @@
+## What leaf and flower-cluster traits are recorded? {#s-05ddeb6840}
+The erect stems bear pubescence or woolly hairs, including long simple, star-shaped and translucent hairs. Linear stipules are under 1 cm long. Slightly two-toned leaves are heart-shaped or ovate, with symmetrical blades, heart-shaped bases, pointed tips and toothed margins; the upper surface is hairy with sparse star-shaped hairs. Flowers occur two or three together in clusters or singly in leaf axils. The sepals are pointed and the corolla is yellow. The dry fruit splits into five segments (mericarps) without awns; the segments have simple hairs.
+

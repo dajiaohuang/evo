@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Discoglossus sardus
+  displayName: Discoglossus sardus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/36TMN
+  sourceIndexes:
+    - name:
+        en: Discoglossus sardus
+        zh: Discoglossus sardus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 36TMN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/21
+            queryName: Discoglossus sardus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/93
+            queryName: Pseudis sardoa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/94
+            queryName: Rana sardus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/95
+            queryName: Rana sardoa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/96
+            queryName: Pseudes sardus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/97
+            queryName: Discoglossus sardous
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/305
+            queryName: Discoglossus pictus sardoa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/306
+            queryName: Discoglossus pictus sardus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-11e25c9097
+      - s-7cb1975717
+      - s-6634cdedeb
+      - s-67e4eb5258
+      - s-1a956283e6
+      - s-ff7a644b9a
+      - s-f30000aa05
+      - s-e0c129239d
+      - s-e1ceef5647
+      - s-c6b683e7d8
+      - s-cf829718be
+      - s-c79250f0d4
+    zh:
+      - s-84a38543d0
+      - s-1091368492
+      - s-829c52ac39
+      - s-f9f2a2be5e
+      - s-c250fc4c39
+      - s-cb8b76a0ad
+      - s-4e489e264d
+      - s-510e0318a8
+      - s-858f5cb195
+      - s-3141c9ef4d
+      - s-7254edcbb0
+      - s-a79cfddf35

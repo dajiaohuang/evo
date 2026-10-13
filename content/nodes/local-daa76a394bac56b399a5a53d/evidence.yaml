@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gastrotheca espeletia
+    name:
+      en: Gastrotheca espeletia
+      zh: Gastrotheca espeletia
+    sourceClassification:
+      order: Anura
+      family: Hemiphractidae
+      genus: Gastrotheca
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7dea50625c
+            part: body
+          zh:
+            page: zh
+            section: s-c0822f9a07
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b714a33beb
+            part: body
+          zh:
+            page: zh
+            section: s-395df986d7
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1890, 1891; Reference.csv rows 3676
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1890
+        values:
+          - Hemiphractidae
+          - Gastrotheca
+          - Gastrotheca espeletia
+          - F
+          - "47.5"
+          - "15.9"
+          - "17.7"
+          - "4.1"
+          - "2.5"
+          - NA
+          - "3.9"
+          - "2.9"
+          - "3.6"
+          - "3.5"
+          - NA
+          - "3.4"
+          - NA
+          - NA
+          - NA
+          - "20.2"
+          - NA
+          - "17.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.8"
+          - NA
+          - NA
+          - NA
+          - "1.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1891
+        values:
+          - Hemiphractidae
+          - Gastrotheca
+          - Gastrotheca espeletia
+          - M
+          - "49.4"
+          - "16.2"
+          - "17.8"
+          - "4.5"
+          - "2.2"
+          - NA
+          - "4.3"
+          - "2.8"
+          - "3.7"
+          - "3.5"
+          - NA
+          - "3.6"
+          - NA
+          - NA
+          - NA
+          - "22.1"
+          - NA
+          - "19.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - "1.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3676
+        values:
+          - Anura
+          - Gastrotheca_espeletia
+          - "Duellman, W. E., & Hillis, D. M. (1987). Marsupial frogs (Anura: Hylidae: Gastrotheca) of the Ecuadorian Andes: resolution of taxonomic problems and phylogenetic relationships. Herpetologica, 43, 141-173."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - FL
+      - TL
+      - Fin3L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6JY8R
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

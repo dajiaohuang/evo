@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lynchius
+  displayName: Lynchius
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5HQS
+  sourceIndexes:
+    - name:
+        en: Lynchius
+        zh: Lynchius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5HQS
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/23
+            queryName: Lynchius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 23
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1f57533c3c
+      - s-7d5eadc1b0
+      - s-d8461ee6a0
+      - s-ca6bf06853
+      - s-7578ebdad7
+      - s-8b21b288d9
+      - s-6facce3bcf
+      - s-1663ac7553
+      - s-a2dcd0136b
+      - s-00be8ad388
+      - s-1dba1cb0dd
+      - s-e701103a00
+      - s-8833e7bf3d
+      - s-74e11ce151
+      - s-33e6e3452f
+      - s-416819dba6
+      - s-5fccc14f21
+      - s-6c797528be
+      - s-6475ee8033
+      - s-cc2cac3778
+      - s-662ad05840
+      - s-46f5bbabfd
+      - s-b876b0ff5f
+      - s-59e89b033a
+      - s-97022182a4
+      - s-41ee2136d3
+      - s-47856c96cc
+    zh:
+      - s-adb7980c0d
+      - s-cb4deb06e1
+      - s-0e072987ec
+      - s-63fb92c7de
+      - s-e9185cdd54
+      - s-7d7659ed3d
+      - s-dfd627226b
+      - s-1dcef83b24
+      - s-50b898f48c
+      - s-29bf11e7d6
+      - s-c84706fced
+      - s-8d6a795303
+      - s-96ea725638
+      - s-248875357f
+      - s-55b1a55e30
+      - s-b0026e7563
+      - s-046624c4e8
+      - s-4735378f55
+      - s-5cdcd11f28
+      - s-28ac307ec8
+      - s-03befaa984
+      - s-ba94480568
+      - s-f9cd90a28a
+      - s-caf5a7b04b
+      - s-cc19490567
+      - s-15da099c08
+      - s-c191e8029b

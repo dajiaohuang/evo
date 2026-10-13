@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana tetete
+  displayName: Boana tetete
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M835
+  sourceIndexes:
+    - name:
+        en: Boana tetete
+        zh: Boana tetete
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M835
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/40
+            queryName: Boana tetete
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/166
+            queryName: Hypsiboas tetete
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-588f55c955
+      - s-7e62fa7464
+      - s-14385c954f
+      - s-e4b60408a1
+      - s-4e03b035cd
+      - s-00276002c7
+      - s-e06e804a2f
+    zh:
+      - s-e8e83eabd7
+      - s-a4c4a1b7ca
+      - s-ab3902941b
+      - s-b39fa3d00e
+      - s-df5f9b701a
+      - s-9bae0ef00b
+      - s-b9db3796b8

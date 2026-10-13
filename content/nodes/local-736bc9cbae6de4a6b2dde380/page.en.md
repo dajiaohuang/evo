@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-865d983adf}
+This record shows how TadpoleTraits files tadpoles under Boulenophrys shimentaina. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Boulenophrys shimentaina in Boulenophrys and Megophryidae. In the literature table, rows 3516, 3517, 3518, 3519, 3520 list source Species Brachytarsophrys shimentaina → Species (ASTW) Boulenophrys shimentaina. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-538db6d4a3}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 5 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 25 (rows 3516, 3518); 28 (row 3517); 27 (row 3519); 26 (row 3520). Sample size is entered by row (row 3516: n=1; row 3517: n=1; row 3518: n=1; row 3519: n=1; row 3520: n=1). These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

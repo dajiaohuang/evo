@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina brevipes
+  displayName: Austrochaperina brevipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JVZQ
+  sourceIndexes:
+    - name:
+        en: Austrochaperina brevipes
+        zh: Austrochaperina brevipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JVZQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/350
+            queryName: Austrochaperina brevipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/462
+            queryName: Liophryne brevipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/463
+            queryName: Sphenophryne brevipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-619c8303e3
+      - s-25076c7bf1
+      - s-4384d188b6
+      - s-267291ffd2
+      - s-ebeb11779e
+      - s-2e922ecb7d
+      - s-82e59da912
+      - s-d2e929d4f4
+      - s-1d5a026b6e
+      - s-c8ab87c3f0
+      - s-61292061a0
+    zh:
+      - s-57fcc1a6f0
+      - s-710ed61627
+      - s-285fb034fe
+      - s-41dde7a435
+      - s-74423547d7
+      - s-faf40a3144
+      - s-77cfe2c498
+      - s-a74073bc3f
+      - s-fb397f87c2
+      - s-eca9298b94
+      - s-c2d3dfb7f8

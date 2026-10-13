@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Engystomops freibergi
+  displayName: Engystomops freibergi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39TTS
+  sourceIndexes:
+    - name:
+        en: Engystomops freibergi
+        zh: Engystomops freibergi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 39TTS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/355
+            queryName: Engystomops freibergi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/135
+            queryName: Physalaemus freibergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/226
+            queryName: Eupemphix freibergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aac425b9fb
+      - s-08040ff57f
+      - s-0592269332
+      - s-668d92f19c
+      - s-8c44089ccb
+      - s-ddbd6eda19
+      - s-b21218f76b
+      - s-585725bcd1
+      - s-424c5f20bf
+      - s-eae11f48d1
+      - s-ccc7179621
+      - s-8bdace0cce
+      - s-40528b0edb
+    zh:
+      - s-8abcd80e19
+      - s-b39a56ebc6
+      - s-746f4c82be
+      - s-1585c9acdb
+      - s-d07bbf8762
+      - s-bb7d210646
+      - s-c0eb663220
+      - s-0875e492fd
+      - s-658e87339c
+      - s-8edbd74562
+      - s-cba66c11e9
+      - s-129670328f
+      - s-03d7286634

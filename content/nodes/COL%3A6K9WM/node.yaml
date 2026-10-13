@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca cornuta
+  displayName: Gastrotheca cornuta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6K9WM
+  sourceIndexes:
+    - name:
+        en: Gastrotheca cornuta
+        zh: Gastrotheca cornuta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6K9WM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/26
+            queryName: Gastrotheca cornuta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/499
+            queryName: Gastrotheca ceratophrys
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/385
+            queryName: Nototrema cornutum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/386
+            queryName: Hyla ceratophrys
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/218
+            queryName: Gastrotheca cornutum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cdc1ec478b
+      - s-761aecb04f
+      - s-8c129cadb3
+      - s-637d5ae98a
+      - s-3a0b4d64b4
+      - s-1d82f9207b
+      - s-84aabb812b
+      - s-426bd20400
+      - s-2683668883
+      - s-068a67e6db
+      - s-b25a36b45c
+    zh:
+      - s-ca1776eec1
+      - s-9294593e9d
+      - s-a4f38ff88c
+      - s-8450b8f156
+      - s-b95f8852fb
+      - s-e907f56db8
+      - s-05319e3fc9
+      - s-d45d799013
+      - s-e86c73c698
+      - s-c275bfb50a
+      - s-6df1de3cb0

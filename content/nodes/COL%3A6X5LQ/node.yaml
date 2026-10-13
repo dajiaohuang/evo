@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinatrema uaiuai
+  displayName: Rhinatrema uaiuai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X5LQ
+  sourceIndexes:
+    - name:
+        en: Rhinatrema uaiuai
+        zh: Rhinatrema uaiuai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X5LQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/287
+            queryName: Rhinatrema uaiuai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41549202ff
+      - s-12bc4f8395
+      - s-fda7f98bec
+      - s-da93d1d513
+      - s-c324c5dee7
+      - s-8fde1fcaae
+      - s-8fc8c09b93
+      - s-b1dbbd1c0b
+      - s-21e426b923
+      - s-3457cd14fd
+      - s-3417412da5
+    zh:
+      - s-ee56c59241
+      - s-c667c998d1
+      - s-e5168912c4
+      - s-8cd657872d
+      - s-44ef3e0cb4
+      - s-613a21349d
+      - s-c745cff802
+      - s-3b442d97d9
+      - s-16a6191f5f
+      - s-1045d7bfec
+      - s-2cd25c10ce

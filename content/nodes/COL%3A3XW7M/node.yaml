@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella madagascariensis
+  displayName: Mantella madagascariensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7M
+  sourceIndexes:
+    - name:
+        en: Mantella madagascariensis
+        zh: Mantella madagascariensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/294
+            queryName: Mantella madagascariensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 31
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/184
+            queryName: Dendrobates madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/185
+            queryName: Mantella loppei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/117
+            queryName: Mantella madagascariensis madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0d7fbc0efc
+      - s-8f720385e4
+      - s-8d319370db
+      - s-0bffbaceb3
+      - s-2f93ffde8e
+      - s-8c9d93b1dc
+      - s-d80751d267
+      - s-adb7c4899e
+      - s-01068bd095
+      - s-b913c25716
+      - s-4e60fdb25d
+      - s-e851a86ad1
+    zh:
+      - s-8e4dbf9ca1
+      - s-3382b1e0f1
+      - s-a8723057e6
+      - s-e8ff86ebb0
+      - s-4f5f7a1daf
+      - s-3aa3792d89
+      - s-e709848614
+      - s-3c3710a252
+      - s-f3ca09c110
+      - s-2475e22f15
+      - s-5114675f3c
+      - s-b76ee67a0c

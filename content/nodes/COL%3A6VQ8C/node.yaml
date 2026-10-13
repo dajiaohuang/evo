@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodontohyla mihanika
+  displayName: Plethodontohyla mihanika
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VQ8C
+  sourceIndexes:
+    - name:
+        en: Plethodontohyla mihanika
+        zh: Plethodontohyla mihanika
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VQ8C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/12
+            queryName: Plethodontohyla mihanika
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e235997931
+      - s-b28e328cfc
+      - s-fb889b4cc6
+      - s-771f7a8166
+      - s-0ffd974320
+      - s-dbc68eaccb
+      - s-6c55c77736
+      - s-6a712c1949
+      - s-dac0d8b9dd
+      - s-729b2f06fb
+      - s-d79a40862d
+      - s-c8f3a10094
+      - s-9561ad964b
+      - s-a2076eb717
+    zh:
+      - s-6c975697c0
+      - s-7b72280401
+      - s-b6329453fd
+      - s-3d3f9a8b89
+      - s-41c0ddae02
+      - s-241beb8a14
+      - s-64f0e164bc
+      - s-89a1e1d6b3
+      - s-9741a99379
+      - s-9211f8c2bd
+      - s-4266f9babd
+      - s-566c9f4394
+      - s-2faac8d4d9
+      - s-0dde389804

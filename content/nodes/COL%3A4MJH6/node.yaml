@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis luscombei
+  displayName: Pristimantis luscombei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJH6
+  sourceIndexes:
+    - name:
+        en: Pristimantis luscombei
+        zh: Pristimantis luscombei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJH6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/379
+            queryName: Pristimantis luscombei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/420
+            queryName: Eleutherodactylus luscombei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/56
+            queryName: Pristimantis achuar
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fba2cafa73
+      - s-0896f318bd
+      - s-a55e8344ff
+      - s-20d674b685
+      - s-65b564f5fb
+      - s-fca294cb05
+      - s-510e00dacf
+      - s-d1c8559120
+      - s-c7e3e0c17a
+      - s-c736016adc
+      - s-7c11337106
+      - s-893ac53155
+      - s-0e48125454
+      - s-4784e491f9
+      - s-b44b066233
+    zh:
+      - s-7e9036fbbe
+      - s-ab6af5b91f
+      - s-382ca68b13
+      - s-6f4d8287c8
+      - s-22c921251e
+      - s-ef3da57aed
+      - s-e9740e7416
+      - s-9db880e0db
+      - s-4f6e9433de
+      - s-74cea9d28a
+      - s-67f94a9183
+      - s-ec69e96f6e
+      - s-6228669d03
+      - s-2f409be4f0
+      - s-3355282586

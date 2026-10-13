@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus heterochirus
+  displayName: Kalophrynus heterochirus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6NJSV
+  sourceIndexes:
+    - name:
+        en: Kalophrynus heterochirus
+        zh: Kalophrynus heterochirus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6NJSV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/99
+            queryName: Kalophrynus heterochirus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/140
+            queryName: Calophrynus heterochirus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-42a7da85e4
+      - s-6795c6cb97
+      - s-012a271288
+      - s-c1f45c5c6a
+      - s-f9957765fc
+      - s-7853fec1d7
+      - s-51b4a653e3
+      - s-9db4124d17
+      - s-9308e393c2
+    zh:
+      - s-49b7da55ee
+      - s-4e4c210c24
+      - s-006862b77d
+      - s-06572a2c52
+      - s-80bc5156b9
+      - s-930ef41678
+      - s-892bccd62f
+      - s-e93aa466b1
+      - s-821c70c49f

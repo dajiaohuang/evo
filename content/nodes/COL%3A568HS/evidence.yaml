@@ -1,0 +1,341 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Theloderma lateriticum Bain, Nguyen & Doan, 2009
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Theloderma lateriticum
+      zh: Theloderma lateriticum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-76c68cce3c
+            part: title
+          zh:
+            page: zh
+            section: s-4ffbfddde1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-76c68cce3c
+            part: body
+          zh:
+            page: zh
+            section: s-4ffbfddde1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-190956b97f
+            part: title
+          zh:
+            page: zh
+            section: s-8b319fbc04
+            part: title
+        text:
+          en:
+            page: en
+            section: s-190956b97f
+            part: body
+          zh:
+            page: zh
+            section: s-8b319fbc04
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-af6f456b79
+            part: title
+          zh:
+            page: zh
+            section: s-f0f19c5793
+            part: title
+        sourceIds:
+          - amphibio
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-af6f456b79
+            part: body
+          zh:
+            page: zh
+            section: s-f0f19c5793
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-7272467f9bd3a04a7eaa8c222152a716
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-a179cd5d3c619df59824d617
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-cee8777281705a8cd97dd97f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4f07b1f550
+            part: title
+          zh:
+            page: zh
+            section: s-5537389b97
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-4f07b1f550
+            part: body
+          zh:
+            page: zh
+            section: s-5537389b97
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-aa4eccda33
+            part: title
+          zh:
+            page: zh
+            section: s-ea7416f625
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-aa4eccda33
+            part: body
+          zh:
+            page: zh
+            section: s-ea7416f625
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4237708b54
+            part: title
+          zh:
+            page: zh
+            section: s-284570032f
+            part: title
+        sourceIds:
+          - primary-pmc12485483-568hs
+        text:
+          en:
+            page: en
+            section: s-4237708b54
+            part: body
+          zh:
+            page: zh
+            section: s-284570032f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Theloderma lateriticum
+          url: https://www.checklistbank.org/dataset/316115/taxon/568HS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5374; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5377 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 5124; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5909; Reference.csv rows 1456
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12485483-568hs
+        referenceId: ref-b8fbbccc-0023-4d25-a439-eefd63a60c3c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Theloderma lateriticum: Species ecology treatment in Ha Nam field-record study; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a1c1a581ba
+        part: body
+      zh:
+        page: zh
+        section: s-37a8321d20
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-a179cd5d3c619df59824d617
+        scientificName: Theloderma lateriticum
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-cee8777281705a8cd97dd97f
+        scientificName: Theloderma lateriticum
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.13.e159973
+        referenceId: ref-b8fbbccc-0023-4d25-a439-eefd63a60c3c
+        sourceKey: primary-pmc12485483-568hs
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12485483/article.xml
+        sourceConcept: Theloderma lateriticum
+        evidenceRead: "Theloderma lateriticum: Species ecology treatment in Ha Nam field-record study; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Branch encounter and bamboo-tube larvae
+              zh: 枝条发现与竹筒幼体
+            referenceId: ref-b8fbbccc-0023-4d25-a439-eefd63a60c3c
+            sourceKey: primary-pmc12485483-568hs
+            locator: "Theloderma lateriticum: Species ecology treatment in Ha Nam field-record study; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1846a50420
+                part: body
+              zh:
+                page: zh
+                section: s-88b8aa8970
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

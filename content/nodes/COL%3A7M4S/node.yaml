@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stefania
+  displayName: Stefania
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7M4S
+  sourceIndexes:
+    - name:
+        en: Stefania
+        zh: Stefania
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7M4S
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/280
+            queryName: Stefania
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 52888
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b751b02228
+      - s-bc824038c7
+      - s-c6eabe2dce
+      - s-3f9f78e36c
+      - s-9c3407d066
+      - s-b445876bae
+      - s-d968f7bc80
+      - s-7ffae746cf
+      - s-c88f780e91
+      - s-de270ec4f6
+      - s-e5a0b9df6b
+      - s-f592ad10d1
+      - s-0bb0b7d404
+    zh:
+      - s-528ef9b445
+      - s-1184c7acf4
+      - s-755dc4ef9e
+      - s-753b33f462
+      - s-db2ecfa093
+      - s-79ac137355
+      - s-3279fb6c26
+      - s-40d080423d
+      - s-6bb5921727
+      - s-1acbb53285
+      - s-0aa1ade156
+      - s-79479b3702
+      - s-340d5fdcf2

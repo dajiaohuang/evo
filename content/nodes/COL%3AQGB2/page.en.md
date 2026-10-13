@@ -1,0 +1,3 @@
+## *Campuloclinium burchellii*: violet florets in rounded heads {#s-52173c724c}
+Brazilian Flora 2020 records opposite leaves, sometimes smaller and nearly opposite near the stem tip. The leaves are lance-shaped and leathery; their edges range from nearly entire to toothed, and the surfaces from bristly to densely hairy with glands. Several heads form corymb-like or panicle-like clusters. Each hemispherical head cup has about 30–40 near-equal bracts, and the field records 48–70 violet florets. The fruits are five-ribbed and may bear hairs; a one-row pappus of barbed bristles is recorded. The morphology field lists alternatives rather than one combined form.
+

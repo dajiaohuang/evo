@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Telmatobius peruvianus
+  displayName: Telmatobius peruvianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/558BW
+  sourceIndexes:
+    - name:
+        en: Telmatobius peruvianus
+        zh: Telmatobius peruvianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 558BW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/464
+            queryName: Telmatobius peruvianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5379660b33
+      - s-d0ba67da0a
+      - s-a7a9a808dd
+      - s-c08b132e44
+      - s-b8222b4aee
+      - s-733cf7e2eb
+      - s-d43cd503ff
+      - s-d9ca8a03ed
+      - s-42c7fad61c
+    zh:
+      - s-012e598035
+      - s-94a6078180
+      - s-24253fb4d4
+      - s-1d62631d3e
+      - s-635d3caeaa
+      - s-cf93de89ca
+      - s-d315a78d96
+      - s-c90bc9efeb
+      - s-68af78b06c

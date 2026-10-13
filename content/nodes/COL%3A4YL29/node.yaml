@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaenorhynchus surdus
+  displayName: Sphaenorhynchus surdus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YL29
+  sourceIndexes:
+    - name:
+        en: Sphaenorhynchus surdus
+        zh: Sphaenorhynchus surdus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YL29
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/242
+            queryName: Sphaenorhynchus surdus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/271
+            queryName: Sphoenohyla surda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/272
+            queryName: Sphoenorhynchus surdus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/351
+            queryName: Hyla aurantiaca surda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bae1cfe5f5
+      - s-f0ea0bc14b
+      - s-a40c449507
+      - s-cf7a99c12f
+      - s-3cdf25d5a1
+      - s-91e6c47b44
+      - s-08c8121458
+      - s-c146d25cef
+      - s-ef71f7f1c7
+      - s-30e6c7f50b
+      - s-b20a69f094
+      - s-d9e77be6f4
+      - s-7433159a50
+      - s-fa1d2c7866
+      - s-a491628bd1
+      - s-ad08adc1d5
+      - s-d76c3bad07
+    zh:
+      - s-1318ec342e
+      - s-1af0a3c27f
+      - s-0d7021575d
+      - s-9af012549d
+      - s-d01ad621d1
+      - s-37089b9633
+      - s-cba0bf8530
+      - s-fb96ec66f9
+      - s-cfc5e393ed
+      - s-46601974e9
+      - s-f8e6e5abc6
+      - s-bf02b23622
+      - s-d3d149146f
+      - s-7b8dc3b281
+      - s-3094eb0cf0
+      - s-e48b6bb32b
+      - s-ef4cef7faa

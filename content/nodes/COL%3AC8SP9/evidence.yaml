@@ -1,0 +1,205 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Amanita orientalis Q. Cai, Y.Y. Cui & Zhu L. Yang
+    rank: species
+    sourceDatasetId: "2073"
+    sections:
+      - topic: morphology
+        sourceIds:
+          - cui2023
+        text:
+          en:
+            page: en
+            section: s-8c5707d67a
+            part: body
+          zh:
+            page: zh
+            section: s-e10e09cd0f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - cui2023
+        text:
+          en:
+            page: en
+            section: s-8c6724a800
+            part: body
+          zh:
+            page: zh
+            section: s-81531c25e9
+            part: body
+      - topic: evolution
+        sourceIds:
+          - cui2023
+        text:
+          en:
+            page: en
+            section: s-416d0f283c
+            part: body
+          zh:
+            page: zh
+            section: s-b0f0d986c5
+            part: body
+      - topic: distribution
+        sourceIds:
+          - cui2023
+        text:
+          en:
+            page: en
+            section: s-a8d47a99e7
+            part: body
+          zh:
+            page: zh
+            section: s-5a85c7ac69
+            part: body
+    identity:
+      method: COL26.8 accepted usage was checked by COL ID and exact accepted label against the pinned COL hierarchy; Species Fungorum Plus dataset 2073 crosswalk maps this COL ID by exact source-dataset-and-verbatim-label to Index Fungorum record / Fungal Names FN 571587. The 2023 paper independently names the same species and cites that FN identifier.
+      scope: The accepted COL26.8 species usage and its explicitly linked Species Fungorum / Fungal Names name usage. Biological claims retain the paper’s species treatment, collection, place, and study limits.
+      sourceIds:
+        - col
+        - fungalNames
+        - cui2023
+    lifeStatusScope:
+      wild: Claims concern the authors’ field-collected fungal basidiomata and herbarium vouchers in natural forest settings as described in the paper.
+      domesticated: Not assessed; no domestication or cultivation claim is made.
+      fossil: Not assessed; no fossil occurrence claim is made.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAppliesTo
+          - licenseAssessment
+          - scope
+        metadataVariant: 23
+        usage:
+          licenseAppliesTo: Checklist taxon identity metadata only
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; underlying fungal source dataset 2073
+          url: https://www.checklistbank.org/dataset/316115/taxon/C8SP9
+          stableId: COL26.8 usage C8SP9
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage C8SP9
+          licenseAssessment: identity-only
+          scope: Accepted-name identity, authorship, rank, status and sourceDatasetId only; no biological evidence copied.
+      - id: fungalNames
+        referenceId: ref-6244d106-1415-8562-ad94-17c143c4aa91
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Species Fungorum Plus taxonomic checklist record used to verify name identity
+          stableId: Index Fungorum RecordID 571587; Fungal Names FN 571587
+          accessedAt: 2026-09-24
+          locator: COL26.8 crosswalk row C8SP9; Index Fungorum record 571587
+          attribution: Royal Botanic Gardens, Kew (2023), Species Fungorum Plus, DOI 10.15468/ts7wsb; Index Fungorum record 571587
+          licenseAssessment: identity-only
+          scope: Identity link only; not a biological evidence source.
+      - id: cui2023
+        referenceId: ref-7f5bb31a-045b-84d9-af62-87074e5c5795
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Published article text; this dossier paraphrases scientific claims and does not redistribute article figures or full text
+          stableId: doi:10.3390/jof9080862; Fungal Names FN 571587
+          accessedAt: 2026-09-24
+          locator: Amanita orientalis Q. Cai, Y.Y. Cui & Zhu L. Yang, Fungal Names FN 571587; section 3.2
+          attribution: Cui, Y.-Y.; Hao, Y.-J.; Guo, T.; Yang, Z.L.; Cai, Q. (2023), Journal of Fungi 9(8):862. https://doi.org/10.3390/jof9080862
+          licenseAssessment: item-level-verified
+          scope: Original taxonomic study of Amanita sect. Vaginatae in China; each cited passage is a named species account or paper phylogeny.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The species account describes the type basidioma and microscopic characters and distinguishes A. orientalis by its spore shape and dimensions from related taxa.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Section 3.2, Amanita orientalis Q. Cai, Y.Y. Cui & Zhu L. Yang, Diagnosis and Description; Type
+            placeTimeScope: Type EFHAAU 1367 from Huangshan, Anhui, China, collected 2018-09-15; the paper lists one additional Huangshan specimen from 2018-07-14. The stated eastern China range is the authors’ account, not a global range.
+            lifeStatus: Wild fungal type collection described by the authors.
+        gaps:
+          - One taxonomic paper and its sampled material do not cover developmental variation, broad population variation, or a complete diagnostic synthesis.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The authors report solitary-to-scattered fruiting on soil in subtropical forests with Fagaceae and Pinaceae.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Section 3.2, Amanita orientalis Q. Cai, Y.Y. Cui & Zhu L. Yang, Habitat
+            placeTimeScope: Type EFHAAU 1367 from Huangshan, Anhui, China, collected 2018-09-15; the paper lists one additional Huangshan specimen from 2018-07-14. The stated eastern China range is the authors’ account, not a global range.
+            lifeStatus: Wild field collections; the stated forest association does not establish a physiological host relationship.
+        gaps:
+          - The account does not establish interaction mechanisms, resource dependence, seasonality, or population-level ecology.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: The combined multilocus analysis groups A. orientalis with A. griseofolia and two South Korean collections identified in the paper as A. ceciliae; the article flags those identifications as erroneous.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Results, phylogenetic relationships; Figure 1 and Figures S1–S4
+            placeTimeScope: Type EFHAAU 1367 from Huangshan, Anhui, China, collected 2018-09-15; the paper lists one additional Huangshan specimen from 2018-07-14. The stated eastern China range is the authors’ account, not a global range.
+            lifeStatus: Modern herbarium collections analyzed in the cited study.
+        gaps:
+          - Placement is limited to the study taxa, loci, sampling, and analyses; no divergence-time or broader phylogenomic synthesis was assessed.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The authors report A. orientalis as known from eastern China and list type and additional Huangshan collections from 2018.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Section 3.2, Amanita orientalis Q. Cai, Y.Y. Cui & Zhu L. Yang, Type, Additional specimens examined, and Distribution
+            placeTimeScope: Type EFHAAU 1367 from Huangshan, Anhui, China, collected 2018-09-15; the paper lists one additional Huangshan specimen from 2018-07-14. The stated eastern China range is the authors’ account, not a global range.
+            lifeStatus: Reported field-collected specimens; cultivated, introduced, and global range status not assessed.
+        gaps:
+          - The paper reports its known range and examined collections; no exhaustive global occurrence search or native/introduced assessment was completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

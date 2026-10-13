@@ -1,0 +1,15 @@
+## Read this historical record through food and foraging position {#s-046cea66dd}
+COL26.8 accepts Threskiornis molucca in Threskiornithidae. EltonTraits 1.0 has a same-name, same-family historical record with diet and foraging fields. This page follows those two field groups under the source’s taxonomy; the match links to that record but does not resolve later species splits or synonym disputes.
+
+## Relative weights of food categories {#s-2de4373318}
+EltonTraits assigns relative diet weights of 50% to invertebrates, 30% to fish, 10% to unspecified vertebrates and 10% to scavenged or discarded food. Its A certainty code records the compilers’ high confidence in the source and diet information. The percentages standardize literature descriptions; they are not measured diet proportions, and a zero for another category would not show that the bird never eats it. Nect, Seed and PlantO are source categories broader than their everyday names, so they do not imply an exclusively nectar-, seed- or plant-based diet.
+
+## Foraging strata differ from whole-day activity {#s-b359ebc384}
+The archive marks these foraging-stratum weights as species-level: 50% on or just below the water surface and 50% on the ground. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. The source defines surface-water, understory, mid/high, canopy and aerial categories separately; they are not elevation bands and cannot yield flight heights or habitat area.
+
+## Trace each field group to its source labels {#s-8a0d6fe837}
+Both field groups used here carry Ref_1, which resolves in this bird record to Handbook of the Birds of the World, volume 1 (Del Hoyo, Elliott, Sargatal and Christie, 1992–2011). The same label supports diet and foraging here, but reference numbers are table-specific and do not identify the same source across bird and mammal tables. The archive retains original source strings by file, row, field group and reference table. The underlying book has not been individually reviewed; its citation is not an additional independent observation.
+
+## Life-history evidence limits {#s-a9a71868bf}
+This page guides readers through one historical same-name, same-family EltonTraits 1.0 record; it is not a complete species account. A matching name and family do not establish that the archive’s historical species concept equals COL26.8. Diet and avian foraging percentages are coarse relative weights standardized from literature descriptions, not measurements of stomach contents, intake, energy or observation time. The A code describes confidence in the source and diet information, not precise measurement. Elsewhere in the compilation, mammalian ABC diet or activity values may use a congener judged ecologically similar; those values do not add direct observations for this bird. Genus- or family-typical values, non-species-level strata and unresolved split records do not establish this species’ traits. The underlying book has not been individually reviewed. Individual, seasonal and local variation, current range, population and conservation require other sources.
+

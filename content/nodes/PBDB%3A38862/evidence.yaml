@@ -1,0 +1,326 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Triceratops
+    commonName: Triceratops
+    commonNameZh: 三角龙
+    rank: genus
+    taxonId: txn:38862
+    firstAppearance: 68
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Triceratops
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Triceratops
+      en: Triceratops
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-74b29bbe2d
+            part: body
+          en:
+            page: en
+            section: s-a7e8dbcb1d
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3b69938e97
+            part: body
+          en:
+            page: en
+            section: s-db0a82232c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Triceratops
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38862
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38862
+          readingTargets:
+            - name: Triceratops prorsus
+              pbdbTaxonId: txn:63770
+              canonicalPath: content/nodes/PBDB%3A63770
+            - name: Tatankaceratops sacrisonorum
+              pbdbTaxonId: txn:170638
+              canonicalPath: content/nodes/PBDB%3A170638
+            - name: Triceratops horridus
+              pbdbTaxonId: txn:63766
+              canonicalPath: content/nodes/PBDB%3A63766
+            - name: Ojoceratops fowleri
+              pbdbTaxonId: txn:170630
+              canonicalPath: content/nodes/PBDB%3A170630
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e9d1c1e600
+        part: body
+      en:
+        page: en
+        section: s-7f577ca3d6
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:38862
+    scientificName: Triceratops
+    commonName: Triceratops
+    commonNameZh: 三角龙
+    rank: genus
+    parentName: Ceratopsia
+    extinct: true
+    geography:
+      - Hell Creek Formation cranial sample, northeastern Montana, United States
+    overview:
+      page: en
+      section: s-7be8e12da1
+      part: body
+    overviewZh:
+      page: zh
+      section: s-073b53fdb3
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-14b90a9477
+        part: body
+      habitat:
+        page: en
+        section: s-87446f352c
+        part: body
+      locomotion:
+        page: en
+        section: s-bb660a991a
+        part: body
+      bodySize:
+        page: en
+        section: s-517ebd6e84
+        part: body
+      guild:
+        page: en
+        section: s-e4e24b5b0b
+        part: body
+      dietZh:
+        page: zh
+        section: zh-b4a220527f1287
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-4ec7365b0b0ec2
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-80c739e7ca145c
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-300ca99c237c74
+        part: body
+      guildZh:
+        page: zh
+        section: zh-04fe0df521534b
+        part: body
+    traits:
+      - page: en
+        section: s-651ea60642
+        part: body
+      - page: en
+        section: s-8e1b26b5d0
+        part: body
+      - page: en
+        section: s-44d04634c1
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-59d6c00f9a
+      part: body
+    evidenceSummaryZh: 头骨序列直接记录了地狱溪组中的颅骨差异，包括鼻部区域延长和前上颌骨鼻突变化。差异究竟反映分类、个体生长还是演化，仍须解释；所引研究没有确定其生态。
+    confidence: medium
+    referenceIds:
+      - longrich-field-2012-triceratops-taxonomy
+      - scannella-2014-triceratops-evolution
+    readerLimitations:
+      en:
+        page: en
+        section: s-d9babfbd11
+        part: body
+      zh:
+        page: zh
+        section: s-ec2022d270
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-07936880ce5513
+        part: body
+      - page: zh
+        section: zh-4e7faef724a969
+        part: body
+      - page: zh
+        section: zh-de17fda019603b
+        part: body
+  claims:
+    - subjectId: taxon:triceratops
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Triceratops remains a separately diagnosed genus in Longrich and Field’s sampled ontogenetic comparison with Torosaurus; the result is one side of an active taxonomic hypothesis and does not determine the genus’s complete range.
+      confidence: contested
+      confidenceRationale: The skull measurements and ontogenetic tests are explicit, but competing studies interpret synonymy differently. Contested confidence records the unresolved taxonomic dispute.
+      referenceLinks:
+        - referenceId: longrich-field-2012-triceratops-taxonomy
+          relation: supports
+          pages: 7(2):e32623
+          figure: Figures 1–9; Tables 1–2
+          quoteLocator: Methods; cranial comparisons; ontogenetic tests; Discussion
+    - subjectId: taxon:triceratops
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Triceratops is displayed at 68–66 Ma only as the sampled latest-Maastrichtian material used in the Triceratops–Torosaurus test, not complete genus endpoints. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Triceratops uses Longrich, N.R.; Field, D.J. (2012) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Latest Cretaceous western North American cranial sample in Longrich and Field; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: longrich-field-2012-triceratops-taxonomy
+          pages: 7(2):e32623
+          figure: Figures 1–9; Tables 1–2
+          quoteLocator: Methods; cranial comparisons; ontogenetic tests; Discussion
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+    - subjectId: taxon:triceratops
+      claimType: morphology
+      claimKind: scientific
+      statement: In the stratigraphically controlled Hell Creek skull sample, nasal-horn, rostrum and postorbital-horn characters vary among specimens and intermediate character combinations occur in the middle unit; these are sampled cranial observations, not a direct ancestor–descendant series.
+      confidence: high
+      confidenceRationale: The study documents measurements, specimen positions and cranial characters directly, while any evolutionary sequence is an analytical interpretation.
+      referenceLinks:
+        - referenceId: scannella-2014-triceratops-evolution
+          relation: supports
+          pages: 10245–10250
+          figure: Figures 1–2; Dataset S1
+          quoteLocator: "Results: stratigraphic placement and cranial-character variation"
+    - subjectId: taxon:triceratops
+      claimType: biogeography
+      claimKind: scientific
+      statement: This profile's geographic statement is limited to the northeastern Montana Hell Creek Formation skull sample; it does not assert a genus-wide geographic range or distributional preference.
+      confidence: high
+      confidenceRationale: The localities and stratigraphic placement of the analyzed specimens are explicit, but the study does not establish a complete genus distribution.
+      referenceLinks:
+        - referenceId: scannella-2014-triceratops-evolution
+          relation: supports
+          pages: 10245–10250
+          figure: Figure 1; Dataset S1
+          quoteLocator: "Methods and Results: Hell Creek Project sample and stratigraphic positions"
+    - subjectId: taxon:triceratops
+      claimType: ecology
+      claimKind: scientific
+      statement: The cited cranial and stratigraphic studies do not directly determine diet, habitat preference, locomotion, body size or ecological guild for Triceratops; those profile fields are explicitly withheld.
+      confidence: high
+      confidenceRationale: The studies test cranial variation, ontogeny and stratigraphic distribution rather than the listed ecological attributes.
+      referenceLinks:
+        - referenceId: longrich-field-2012-triceratops-taxonomy
+          relation: supports
+          pages: 7(2):e32623
+          figure: Figures 1–9; Tables 1–2
+          quoteLocator: Methods, cranial comparisons and ontogenetic tests
+        - referenceId: scannella-2014-triceratops-evolution
+          relation: supports
+          pages: 10245–10250
+          figure: Figures 1–3; Dataset S1
+          quoteLocator: "Methods and Results: skull sample and stratigraphic analysis"
+  claim-rationales.zh:
+    - 头骨测量和个体发育检验明确，但竞争研究对同物异名有不同解释；有争议置信度记录未解决的分类争论。
+    - Triceratops 采用 Longrich, N.R.; Field, D.J.（2012）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Latest Cretaceous western North American cranial sample in Longrich and Field；更宽泛端点保持未声明。
+    - 研究直接记录了测量值、标本层位和头骨特征；任何演化序列仍是分析性解释。
+    - 分析标本的地点和地层位置均有明确记录，但不能据此建立该属的完整地理分布。
+    - 这些研究检验的是头骨变异、个体发育和地层分布，而非所列生态属性，因此相关字段明确保留为空缺。
+  claim-statements.zh:
+    - 在具有明确地层约束的 Hell Creek 头骨样本中，鼻角、吻部及眶后角特征在标本间存在差异，中部地层单元中出现了中间型特征组合；这些是采样所得的头骨观察，并非直接的祖先—后代序列。
+    - 本档案的地理说明仅限于蒙大拿州东北部 Hell Creek 组的头骨样本，不代表整个属的地理范围或分布偏好。
+    - 所引头骨和地层研究未直接确定 Triceratops 的食性、生境偏好、运动方式、体型或生态功能类群；本档案明确暂不填写这些字段。
+    - 在 Longrich 与 Field 对三角龙和牛角龙的取样个体发育比较中，三角龙仍是独立诊断属；该结果是持续分类争论的一种假说，不决定该属完整范围。
+    - Triceratops 仅以 68–66 Ma 展示为用于检验 Triceratops–Torosaurus 假说的晚马斯特里赫特期样本，而非该属完整端点。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: triceratops
+      rangeKind: global-composite
+      taxonomicConcept: Triceratops — source-bounded sample window
+      geographicScope: Latest Cretaceous western North American cranial sample in Longrich and Field
+      olderMa: 68
+      youngerMa: 66
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the sampled latest-Maastrichtian material used in the Triceratops–Torosaurus test, not complete genus endpoints; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: "Torosaurus Is Not Triceratops: Ontogeny in Chasmosaurine Ceratopsids as a Case Study in Dinosaur Taxonomy directly anchors the sampled window; the display does not extrapolate it into a global taxon duration."
+      confidence: medium
+      claimIds:
+        - claim:taxon:triceratops:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: longrich-field-2012-triceratops-taxonomy
+          locator: 7(2):e32623; Methods; cranial comparisons; ontogenetic tests; Discussion
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized

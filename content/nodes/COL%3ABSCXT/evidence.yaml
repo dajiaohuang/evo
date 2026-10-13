@@ -1,0 +1,121 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oedipomidas oedipus (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 棉顶狨猴
+      en: Cotton-top Tamarin
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-4079925693
+            part: body
+          en:
+            page: en
+            section: s-6d192e1a68
+            part: body
+        sourceIds:
+          - taxonomy
+          - demography1996
+          - litters2009
+          - assessment2016
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-d05e56c1ae
+            part: body
+          en:
+            page: en
+            section: s-eb362695b3
+            part: body
+        sourceIds:
+          - demography1996
+      - topic: breeding
+        text:
+          zh:
+            page: zh
+            section: s-94b5205871
+            part: body
+          en:
+            page: en
+            section: s-6bbb84af3a
+            part: body
+        sourceIds:
+          - litters2009
+      - topic: population
+        text:
+          zh:
+            page: zh
+            section: s-f0616e30eb
+            part: body
+          en:
+            page: en
+            section: s-c2d8e68866
+            part: body
+        sourceIds:
+          - assessment2016
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Oedipomidas oedipus
+          url: https://www.checklistbank.org/dataset/316115/taxon/BSCXT
+          scope:
+            zh: 固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。
+            en: Pinned checklist name, authorship, rank and parent links; not biological evidence.
+      - id: demography1996
+        referenceId: ref-6890c189-391c-8a45-aca1-ed988f9a4eb2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Colosó 五年个体标记群体研究；不代表全部地点或群体。
+            en: Supports a five-year study of individually marked groups at Colosó; not all sites or groups.
+      - id: litters2009
+        referenceId: ref-0abd39fb-f948-8aea-ace7-29c480b84ba8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 1994–2008 年两处哥伦比亚研究点的繁殖与幼仔存活记录。
+            en: Supports reproductive and infant-survival records from two Colombian sites in 1994–2008.
+      - id: assessment2016
+        referenceId: ref-1be1fad8-3e72-82d5-a5a5-8fecb413c362
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 2005/2012 年 43 块可达林地调查与带假设的 2012 年外推。
+            en: Supports surveys of 43 accessible forest parcels in 2005/2012 and the assumption-based 2012 extrapolation.
+    limitations:
+      zh:
+        page: zh
+        section: s-cf2aa9e17c
+        part: body
+      en:
+        page: en
+        section: s-e71a624dd7
+        part: body

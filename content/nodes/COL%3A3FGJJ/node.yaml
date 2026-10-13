@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gegeneophis goaensis
+  displayName: Gegeneophis goaensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FGJJ
+  sourceIndexes:
+    - name:
+        en: Gegeneophis goaensis
+        zh: Gegeneophis goaensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FGJJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/89
+            queryName: Gegeneophis goaensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f6e17bf172
+      - s-87d443499f
+      - s-2a2f463802
+      - s-fe4e06db39
+      - s-89f3f55a60
+      - s-d394185219
+      - s-f14b0c612d
+      - s-11a71f1fa4
+      - s-a956c08a6d
+      - s-c3549b2c24
+      - s-e084a22a97
+    zh:
+      - s-5fd19cb609
+      - s-f95861f664
+      - s-b66b5d6886
+      - s-d37b30823d
+      - s-097ae75d8a
+      - s-ad1c1e5d0a
+      - s-81154d8c95
+      - s-b101895e4f
+      - s-124c5b4309
+      - s-f263f5af30
+      - s-5b25676e69

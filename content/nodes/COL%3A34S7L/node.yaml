@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus vraemi
+  displayName: Dendropsophus vraemi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S7L
+  sourceIndexes:
+    - name:
+        en: Dendropsophus vraemi
+        zh: Dendropsophus vraemi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S7L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/434
+            queryName: Dendropsophus vraemi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-370e531516
+      - s-8b4adbe939
+      - s-fe7b52ad37
+      - s-8e689d2347
+      - s-0a40aedccc
+      - s-b9dd229394
+      - s-16e87bf566
+      - s-d455c6578c
+      - s-a24800851c
+      - s-6c4d3193c4
+      - s-363b376ebb
+      - s-ae0758415a
+      - s-78f3db9b3e
+    zh:
+      - s-7003a41bcd
+      - s-9dc90b55b7
+      - s-863f436898
+      - s-54913a2fbf
+      - s-ad51806217
+      - s-76d1cac318
+      - s-d29dad367f
+      - s-8d6ed9d800
+      - s-d06fe74e21
+      - s-1edd8b658c
+      - s-f624e45691
+      - s-7fe373c196
+      - s-1a4cd5ed48

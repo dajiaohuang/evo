@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amietia vandijki
+  displayName: Amietia vandijki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CSB2
+  sourceIndexes:
+    - name:
+        en: Amietia vandijki
+        zh: Amietia vandijki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CSB2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/304
+            queryName: Amietia vandijki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/394
+            queryName: Afrana vandijki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/199
+            queryName: Amietia vandyki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36b4b30407
+      - s-48feb62509
+      - s-c145bfbaed
+      - s-7192b97f24
+      - s-26f2f77b64
+      - s-b9cf227ec1
+      - s-b214424bb9
+      - s-854bf07628
+      - s-b82899ff48
+    zh:
+      - s-ee14480d18
+      - s-d8915595bd
+      - s-bcd15a0f54
+      - s-a77cb5eb9b
+      - s-d22cc56251
+      - s-f84c817fa2
+      - s-ae8be3039e
+      - s-e0cff01827
+      - s-a2d87aebf1

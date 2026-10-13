@@ -1,0 +1,323 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pelomedusidae
+    rank: family
+    sourceDatasetId: "1008"
+    name:
+      zh: Pelomedusidae 科
+      en: Pelomedusidae
+    sections:
+      - text:
+          zh:
+            page: zh
+            section: s-c67214eaaa
+            part: body
+          en:
+            page: en
+            section: s-90828dea2e
+            part: body
+        sourceIds:
+          - taxonomy
+        topic: overview
+      - text:
+          zh:
+            page: zh
+            section: s-d7fcf41b33
+            part: body
+          en:
+            page: en
+            section: s-a7f394719b
+            part: body
+        sourceIds:
+          - taxonomy
+          - pelomedusoidNeuroanatomy
+        topic: overview
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-b2748165c9
+            part: body
+          en:
+            page: en
+            section: s-dd71c028a5
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-05f82ebf22
+            part: body
+          en:
+            page: en
+            section: s-5269a0d7ca
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-8ed04ac5b6
+            part: body
+          en:
+            page: en
+            section: s-8b42a625e8
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-6a10d67dea
+            part: body
+          en:
+            page: en
+            section: s-0feefbfb64
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-5d83da68aa
+            part: body
+          en:
+            page: en
+            section: s-ecb3e15dbf
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-f58538b949
+            part: body
+          en:
+            page: en
+            section: s-aae2918590
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-0fbd6e448f
+            part: body
+          en:
+            page: en
+            section: s-75201f9ef7
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-315fe2b801
+            part: body
+          en:
+            page: en
+            section: s-0db77e57a0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pelomedusidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/62658
+          locator: Accepted COL26.8 family usage and parent classification.
+          scope:
+            zh: 固定 COL26.8 接受名称、阶元与父级分类；不推断现生状态或后代覆盖完整性。
+            en: Pinned COL26.8 accepted name, rank and parent classification; no inference about living status or complete descendant coverage.
+      - id: pelomedusoidNeuroanatomy
+        referenceId: ref-12a1495c-e3a3-4bd2-b122-6f1a95a588f6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - publishedAt
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - licenseAssessment
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: One Pelusios niger skull MNHN.ZA.AC 1934-371, cited only to define the current local sample route.
+          licenseAssessment: paraphrase-only
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅定义当前本地路径中的单一 Pelusios 标本研究范围。
+            en: Defines only the scope of the single Pelusios sample in the local route.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 6 authored records grouped under Pelomedusidae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 4
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 8 authored same-name records placed under Pelomedusidae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 21 authored records grouped under Pelomedusidae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 76D3X
+              name: Pelomedusa barbata
+              canonicalPath: content/nodes/COL%3A76D3X
+            - colId: 76CRY
+              name: Pelomedusa galeata
+              canonicalPath: content/nodes/COL%3A76CRY
+            - colId: 76CRZ
+              name: Pelomedusa gehafie
+              canonicalPath: content/nodes/COL%3A76CRZ
+            - colId: 76D3Z
+              name: Pelomedusa kobe
+              canonicalPath: content/nodes/COL%3A76D3Z
+            - colId: 76CSB
+              name: Pelomedusa neumanni
+              canonicalPath: content/nodes/COL%3A76CSB
+          fieldCountDistribution:
+            "2": 3
+            "3": 18
+    limitations:
+      zh:
+        page: zh
+        section: s-cf6dd9adb9
+        part: body
+      en:
+        page: en
+        section: s-ce5c73aaae
+        part: body

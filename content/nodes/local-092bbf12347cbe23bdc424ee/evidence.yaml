@@ -1,0 +1,190 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Afrixalus aureus
+    name:
+      en: Afrixalus aureus
+      zh: Afrixalus aureus
+    sourceClassification:
+      order: Anura
+      family: Hyperoliidae
+      genus: Afrixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Afrixalus aureus in the version 3 classification
+          zh: Afrixalus aureus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d237e143e4
+            part: body
+          zh:
+            page: zh
+            section: s-2e97bae68b
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 6 populated trait fields
+          zh: 1 条测量行与 6 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-db2dc03fd3
+            part: body
+          zh:
+            page: zh
+            section: s-8f28f524b9
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 51; Reference.csv rows 2344
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 51
+        values:
+          - Hyperoliidae
+          - Afrixalus
+          - Afrixalus aureus
+          - M
+          - "22.8"
+          - NA
+          - "6.4"
+          - "2.9"
+          - NA
+          - NA
+          - "2.6"
+          - NA
+          - NA
+          - NA
+          - "2.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2344
+        values:
+          - Anura
+          - Afrixalus_aureus
+          - "Pickergill, M. (1984). Three new Afrixalus (Anura: Hyperoliidae) from south-eastern Africa. Durban Museum Novitates, 13(17), 203-220. "
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IOD
+      - SL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 65FTM
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

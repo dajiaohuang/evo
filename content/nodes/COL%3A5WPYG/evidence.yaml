@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephalus sulfuratus Condez, Monteiro, Comitti, Garcia, Amaral & Haddad, 2016
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephalus sulfuratus
+      zh: Brachycephalus sulfuratus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-feff5be226
+            part: title
+          zh:
+            page: zh
+            section: s-d1b53f753f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-feff5be226
+            part: body
+          zh:
+            page: zh
+            section: s-d1b53f753f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a795c353e3
+            part: title
+          zh:
+            page: zh
+            section: s-43f8c2ba02
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a795c353e3
+            part: body
+          zh:
+            page: zh
+            section: s-43f8c2ba02
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-af767022d8
+            part: title
+          zh:
+            page: zh
+            section: s-c9c3fdd342
+            part: title
+        sourceIds:
+          - primary-pmc7937348-5wpyg
+        text:
+          en:
+            page: en
+            section: s-af767022d8
+            part: body
+          zh:
+            page: zh
+            section: s-c9c3fdd342
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-4c4d5ddff6
+            part: title
+          zh:
+            page: zh
+            section: s-497d716808
+            part: title
+        sourceIds:
+          - primary-pmc7937348-5wpyg
+        text:
+          en:
+            page: en
+            section: s-4c4d5ddff6
+            part: body
+          zh:
+            page: zh
+            section: s-497d716808
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a0f715cf04
+            part: title
+          zh:
+            page: zh
+            section: s-0b4e5b9a00
+            part: title
+        sourceIds:
+          - primary-pmc7937348-5wpyg
+        text:
+          en:
+            page: en
+            section: s-a0f715cf04
+            part: body
+          zh:
+            page: zh
+            section: s-0b4e5b9a00
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-04ea1ea116
+            part: title
+          zh:
+            page: zh
+            section: s-bbe0327fa4
+            part: title
+        sourceIds:
+          - primary-pmc7937348-5wpyg
+        text:
+          en:
+            page: en
+            section: s-04ea1ea116
+            part: body
+          zh:
+            page: zh
+            section: s-bbe0327fa4
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6789f9c550
+            part: title
+          zh:
+            page: zh
+            section: s-17ff3455a9
+            part: title
+        sourceIds:
+          - primary-pmc7937348-5wpyg
+        text:
+          en:
+            page: en
+            section: s-6789f9c550
+            part: body
+          zh:
+            page: zh
+            section: s-17ff3455a9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephalus sulfuratus
+          url: https://www.checklistbank.org/dataset/316115/taxon/5WPYG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7937348-5wpyg
+        referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus sulfuratus: Methods, diagnosis, geographical occurrence records and Conclusions; original-description claims distinguished from reviewed evidence; no tables, figures or audio reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-25a46720e1
+        part: body
+      zh:
+        page: zh
+        section: s-134ebae57e
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10983
+        referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+        sourceKey: primary-pmc7937348-5wpyg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7937348/article.xml
+        sourceConcept: Brachycephalus sulfuratus
+        evidenceRead: "Brachycephalus sulfuratus: Methods, diagnosis, geographical occurrence records and Conclusions; original-description claims distinguished from reviewed evidence; no tables, figures or audio reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Variable yellow blotches limit visual identification
+              zh: 变化的黄色斑块限制外观鉴定
+            referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+            sourceKey: primary-pmc7937348-5wpyg
+            locator: Results > Diagnosis between Brachycephalus sulfuratus and B. hermogenesi; reading-sections index 1, paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e76fc1e67e
+                part: body
+              zh:
+                page: zh
+                section: s-d13dc5a4d9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: A diagnosis depends on the definition of a call
+              zh: 依赖鸣声定义的鉴别
+            referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+            sourceKey: primary-pmc7937348-5wpyg
+            locator: Materials and Methods; reading-sections index 0, paragraph 3; Results > Diagnosis; index 1, paragraphs 2–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cdb58f6d9e
+                part: body
+              zh:
+                page: zh
+                section: s-e4a4ec40c4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Reviewed vouchers and acoustic records revise occurrence assignments
+              zh: 复核凭证及声学记录修订出现归属
+            referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+            sourceKey: primary-pmc7937348-5wpyg
+            locator: Results > Geographical occurrence records; reading-sections index 2, paragraphs 0 and 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4ab8090459
+                part: body
+              zh:
+                page: zh
+                section: s-558b1b7e13
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Unresolved São Paulo records are not a certified range union
+              zh: 未解决的圣保罗记录不构成已认证范围并集
+            referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+            sourceKey: primary-pmc7937348-5wpyg
+            locator: Results > Geographical occurrence records; reading-sections index 2, paragraphs 1–2; Conclusions, index 4, paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f2817a3bb5
+                part: body
+              zh:
+                page: zh
+                section: s-3c1d72435f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Similar calls do not certify a single species across the range
+              zh: 相似鸣声不认证全范围仅有一个物种
+            referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+            sourceKey: primary-pmc7937348-5wpyg
+            locator: Conclusions; reading-sections index 4, paragraph 3; Materials and Methods, index 0, paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-43928bd7bc
+                part: body
+              zh:
+                page: zh
+                section: s-a9753ea8ee
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus pulivijayani
+  displayName: Nyctibatrachus pulivijayani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485GN
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus pulivijayani
+        zh: Nyctibatrachus pulivijayani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485GN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/359
+            queryName: Nyctibatrachus pulivijayani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db94d6a2b3
+      - s-a7a5e146a9
+      - s-9adf03686f
+      - s-17cb3a8cf8
+      - s-61dedf3114
+    zh:
+      - s-f16a7e5c95
+      - s-e175665fc5
+      - s-a543c809ef
+      - s-a922c6338f
+      - s-b880b22832

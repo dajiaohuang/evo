@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega boehmei
+  displayName: Ameerega boehmei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ6L
+  sourceIndexes:
+    - name:
+        en: Ameerega boehmei
+        zh: Ameerega boehmei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ6L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/258
+            queryName: Ameerega boehmei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c0fc9c0d2d
+      - s-4324e54f06
+      - s-9348e5a600
+      - s-64bf7d97b7
+      - s-55db6c83bd
+      - s-ed9d427bb7
+      - s-4fcee4d815
+      - s-07d395a7a2
+      - s-e60c9a79b5
+    zh:
+      - s-bdea5534a6
+      - s-56468f5cc4
+      - s-9cc5353756
+      - s-c22705d742
+      - s-d44deb2046
+      - s-5b9c198f9f
+      - s-fd21357293
+      - s-6feed67297
+      - s-4e8f200248

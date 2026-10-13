@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Plagiosaurinae
+    rank: subfamily
+    sourceTaxonId: txn:180696
+    name:
+      en: Plagiosaurinae
+      zh: Plagiosaurinae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB’s recorded fossil classification
+          zh: PBDB 所记化石分类
+        text:
+          en:
+            page: en
+            section: s-5141260c84
+            part: body
+          zh:
+            page: zh
+            section: s-716e5f781b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: What the captured fossil records show
+          zh: 捕获的化石记录显示什么
+        text:
+          en:
+            page: en
+            section: s-a9fa644756
+            part: body
+          zh:
+            page: zh
+            section: s-ecec56ef28
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Follow PBDB’s fossil classification
+          zh: 沿 PBDB 化石分类继续阅读
+        text:
+          en:
+            page: en
+            section: s-5b78f75271
+            part: body
+          zh:
+            page: zh
+            section: s-632878030f
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-07eb41c13d
+            part: body
+          zh:
+            page: zh
+            section: s-b4dff4261a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:180696; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: F. A. Jenkins, N. H. Shubin, and S. M. Gatesy, A. Warren. 2008. Gerrothorax pulcherrimus from the Upper Triassic Fleming Fjord Formation of East Greenland and a reassessment of head lifting in temnospondyl feeding. Journal of Vertebrate Paleontology 28(4):935-950
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:180697
+        - txn:174316
+      exactOccurrenceCount: 12
+      datedOccurrenceCount: 12
+      collectionIntervalBoundsMa:
+        older: 247
+        younger: 201.4
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-07eb41c13d
+            part: body
+          zh:
+            page: zh
+            section: s-b4dff4261a
+            part: body
+        sourceIds: []

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pirrensis
+  displayName: Pristimantis pirrensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJLK
+  sourceIndexes:
+    - name:
+        en: Pristimantis pirrensis
+        zh: Pristimantis pirrensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJLK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/4
+            queryName: Pristimantis pirrensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/497
+            queryName: Eleutherodactylus pirrensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7a1d206af
+      - s-126b4ceee8
+      - s-d4d0b04c9e
+      - s-e2ba06ec1b
+      - s-1ce919356b
+      - s-5719ffadbc
+      - s-fb8030dafa
+    zh:
+      - s-46a519d4e0
+      - s-06a40e9ff4
+      - s-131c8cdee5
+      - s-be21630e32
+      - s-6da59ef65d
+      - s-95f02922e5
+      - s-b91ec558b1

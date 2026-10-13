@@ -1,0 +1,78 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-6323041294
+            part: title
+          zh:
+            page: zh
+            section: s-aed6eb9c36
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6323041294
+            part: body
+          zh:
+            page: zh
+            section: s-aed6eb9c36
+            part: body
+        claimIds:
+          - claim:taxon:actinopterygii:fossil-range
+    scientificName: Actinopterygii
+    name:
+      en: Actinopterygii
+      zh: Actinopterygii
+    rank: class
+  atlas-node:
+    name: Actinopterygii
+    commonName: Ray-finned Fish
+    commonNameZh: 辐鳍鱼类
+    rank: class
+    taxonId: ""
+    firstAppearance: 390.4
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:actinopterygii
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The evidence-linked Actinopterygii navigation envelope starts at 390.4 Ma, the older edge of the late Eifelian interval represented by CT-scanned Cheirolepis trailli specimens, and extends to living ray-finned fishes at 0 Ma; it is not a global class FAD or a claim that Cheirolepis was a direct ancestor.
+      confidence: medium
+      confidenceRationale: Named museum specimens and archived tomography directly document a secure early actinopterygian sample, while the stage-scale older edge and incomplete sampling prevent promotion to an exact global first appearance. Medium confidence applies to the navigation envelope only.
+      referenceLinks:
+        - referenceId: giles-2015-cheirolepis-endoskeleton
+          relation: supports
+          pages: 849–870, especially 852–862
+          figure: Figures 2–4 and 9–11
+          quoteLocator: Material and methods; geological occurrence; neurocranium, hyomandibula and pectoral-fin descriptions
+  claim-rationales.zh:
+    - 具名馆藏标本和存档断层数据直接记录了可靠的早期辐鳍鱼样本，但阶段尺度老端和不完整取样不能提升为精确全球首现；中等置信度只适用于导航范围。
+  claim-statements.zh:
+    - 有证据连接的辐鳍鱼类导航范围从 3.904 亿年前开始，这是 CT 扫描的 Cheirolepis trailli 标本所代表晚艾菲尔期区间的老端，并延续到 0 Ma 的现生辐鳍鱼；它不是该纲的全球首现，也不表示 Cheirolepis 是直系祖先。
+  ranges:
+    - entityId: actinopterygii
+      rangeKind: global-composite
+      taxonomicConcept: Actinopterygii
+      geographicScope: Global or represented navigation composite
+      olderMa: 390.4
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 390.4 Ma older edge is the older side of the late Eifelian Cheirolepis sample envelope; it is not an exact global class FAD.
+      evidenceBasis: CT-scanned Cheirolepis museum specimens provide a secure primary-study early actinopterygian anchor; 0 Ma represents living ray-finned fishes rather than continuous sampling.
+      confidence: medium
+      claimIds:
+        - claim:taxon:actinopterygii:fossil-range
+      referenceLocators:
+        - referenceId: giles-2015-cheirolepis-endoskeleton
+          locator: pp. 849–870, especially 852–862; Figures 2–4 and 9–11; material, geological occurrence and anatomical descriptions
+      evidenceLevel: literature-synthesized

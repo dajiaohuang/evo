@@ -1,0 +1,222 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-71e07d9964
+          part: title
+        zh:
+          page: zh
+          section: s-94b808fedb
+          part: title
+      text:
+        en:
+          page: en
+          section: s-71e07d9964
+          part: body
+        zh:
+          page: zh
+          section: s-94b808fedb
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-286be2d03c
+          part: title
+        zh:
+          page: zh
+          section: s-ccaeebf44e
+          part: title
+      text:
+        en:
+          page: en
+          section: s-286be2d03c
+          part: body
+        zh:
+          page: zh
+          section: s-ccaeebf44e
+          part: body
+  atlas-node:
+    name: Phorusrhacidae
+    commonName: Terror Birds
+    commonNameZh: 恐鹤类
+    rank: family
+    taxonId: txn:39461
+    firstAppearance: 62
+    lastAppearance: 1.8
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:phorusrhacidae
+      claimKind: scientific
+      claimType: topology
+      statement: Phorusrhacidae is represented by the named Llallawavis specimen and its morphology-matrix placement within terror birds; sensory reconstructions and family relationships are study hypotheses, not a complete range or ancestor chain.
+      confidence: medium
+      confidenceRationale: The specimen anatomy and phylogenetic analysis are direct, whereas sensory capabilities and deeper relationships are inferential. Medium confidence keeps both levels distinct.
+      referenceLinks:
+        - referenceId: degrange-2015-phorusrhacid-phylogeny
+          relation: supports
+          pages: 35(2):e912656
+          figure: Figures 1–10; Tables 1–3
+          quoteLocator: Systematic paleontology; specimen description; phylogenetic analysis; sensory discussion
+    - subjectId: taxon:phorusrhacidae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Phorusrhacidae is displayed at 3.6–2.6 Ma only as the Pliocene Llallawavis specimen interval, not the family-wide FAD or LAD. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Phorusrhacidae uses Degrange, F.J.; Tambussi, C.P.; Taglioretti, M.L.; Dondas, A.; Scaglia, F. (2015) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Playa Los Lobos Llallawavis scagliai sample, Argentina; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: degrange-2015-phorusrhacid-phylogeny
+          pages: 35(2):e912656
+          figure: Figures 1–10; Tables 1–3
+          quoteLocator: Systematic paleontology; specimen description; phylogenetic analysis; sensory discussion
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 标本解剖与系统发育分析是直接证据，而感官能力与更深关系属于推断；中等置信度区分两者。
+    - Phorusrhacidae 采用 Degrange, F.J.; Tambussi, C.P.; Taglioretti, M.L.; Dondas, A.; Scaglia, F.（2015）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Playa Los Lobos Llallawavis scagliai sample, Argentina；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 恐鹤科由具名 Llallawavis 标本及其在恐鹤类形态矩阵中的位置表示；感官重建与科内关系属于研究假说，不是完整范围或祖先链。
+    - Phorusrhacidae 仅以 3.6–2.6 Ma 展示为上新世 Llallawavis 标本区间，而非恐鹤科整体首现或末现。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: phorusrhacidae
+      rangeKind: global-composite
+      taxonomicConcept: Phorusrhacidae — source-bounded sample window
+      geographicScope: Playa Los Lobos Llallawavis scagliai sample, Argentina
+      olderMa: 3.6
+      youngerMa: 2.6
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the Pliocene Llallawavis specimen interval, not the family-wide FAD or LAD; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: A new Mesembriornithinae (Aves, Phorusrhacidae) provides new insights into the phylogeny and sensory capabilities of terror birds directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:phorusrhacidae:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: degrange-2015-phorusrhacid-phylogeny
+          locator: 35(2):e912656; Systematic paleontology; specimen description; phylogenetic analysis; sensory discussion
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    scientificName: Phorusrhacidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Phorusrhacidae
+      en: Phorusrhacidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4e1cfe6754
+            part: body
+          en:
+            page: en
+            section: s-15eec376fb
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c69dd87e30
+            part: body
+          en:
+            page: en
+            section: s-b25d3cda8b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Phorusrhacidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=39461
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:39461
+          readingTargets:
+            - name: Andrewsornis abbotti
+              pbdbTaxonId: txn:181116
+              canonicalPath: content/nodes/PBDB%3A181116
+            - name: Patagornis marshi
+              pbdbTaxonId: txn:53566
+              canonicalPath: content/nodes/PBDB%3A53566
+            - name: Paraphysornis brasiliensis
+              pbdbTaxonId: txn:181144
+              canonicalPath: content/nodes/PBDB%3A181144
+            - name: Titanis walleri
+              pbdbTaxonId: txn:53324
+              canonicalPath: content/nodes/PBDB%3A53324
+            - name: Phorusrhacos longissimus
+              pbdbTaxonId: txn:53570
+              canonicalPath: content/nodes/PBDB%3A53570
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5baf25e412
+        part: body
+      en:
+        page: en
+        section: s-98254fb10f
+        part: body

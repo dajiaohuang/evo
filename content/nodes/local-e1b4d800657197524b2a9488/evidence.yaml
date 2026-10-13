@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ommatotriton nesterovi
+    name:
+      en: Ommatotriton nesterovi
+      zh: Ommatotriton nesterovi
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Ommatotriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-63d01a0da4
+            part: body
+          zh:
+            page: zh
+            section: s-7df62d4893
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2b7547b0ec
+            part: body
+          zh:
+            page: zh
+            section: s-415b0944ef
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 241, 242; Reference.csv rows 4237
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 241
+        values:
+          - Salamandridae
+          - Ommatotriton
+          - Ommatotriton nesterovi
+          - M
+          - NA
+          - "54.65"
+          - NA
+          - "27.35"
+          - "12.95"
+          - "8.95"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "53.4"
+          - NA
+          - "7"
+          - NA
+          - NA
+          - "20.5"
+          - "22.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 242
+        values:
+          - Salamandridae
+          - Ommatotriton
+          - Ommatotriton nesterovi
+          - F
+          - NA
+          - "52.65"
+          - NA
+          - "25.1"
+          - "12.8"
+          - "8.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "51.1"
+          - NA
+          - "7.3"
+          - NA
+          - NA
+          - "18.65"
+          - "17.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4237
+        values:
+          - Caudata
+          - Ommatotriton_nesterovi
+          - "Litvinchuk, S., Zuiderwijk, A., Borkin, L., & Rozanov, Y. (2005). Taxonomic status of Triturus vittatus (Amphibia: Salamandridae) in western Turkey: Trunk vertebrae count, genome size and allozyme data. Amphibia-Reptilia, 26, 305-323. https://doi.org/10.1163/156853805774408685"
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - TL
+      - TH
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 49CV8
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

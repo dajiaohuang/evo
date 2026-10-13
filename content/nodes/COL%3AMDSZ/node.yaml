@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa yucatana
+  displayName: Bolitoglossa yucatana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDSZ
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa yucatana
+        zh: Bolitoglossa yucatana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDSZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/215
+            queryName: Bolitoglossa yucatana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/282
+            queryName: Spelerpus yucatanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/283
+            queryName: Oedipus yucatanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/284
+            queryName: Spelerpes yucatanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/285
+            queryName: Oedipus jucatanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/286
+            queryName: Oedipus yucatanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8f219d32d4
+      - s-472216bdb9
+      - s-706f032975
+      - s-6665845b46
+      - s-eb31220603
+      - s-822b1463d8
+      - s-d389f5c46f
+      - s-a4751fe5d9
+      - s-1a0151a096
+      - s-ea6f31c945
+      - s-88e2585942
+      - s-074fe565e6
+      - s-5add2eda84
+      - s-62e816645a
+      - s-c874837fd3
+      - s-222ed9e17f
+      - s-049fefe58b
+    zh:
+      - s-a765cd85eb
+      - s-c0f677751c
+      - s-355f7b7b3f
+      - s-a4b97a6723
+      - s-2af55cd8f9
+      - s-8ee1c95667
+      - s-2ab370c3c9
+      - s-556e20cebb
+      - s-6bf4f0ab7b
+      - s-4e62b535e5
+      - s-4b2e4a9d79
+      - s-c0418ddb90
+      - s-1e16c0f65c
+      - s-ce76d2b423
+      - s-0d71d0c095
+      - s-c6593761cd
+      - s-0572a6c6a4

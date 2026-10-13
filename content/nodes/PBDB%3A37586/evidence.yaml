@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Proterochersidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Proterochersidae
+      en: Proterochersidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e9d3acd92f
+            part: body
+          en:
+            page: en
+            section: s-62f09a8148
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d3ed061d9d
+            part: body
+          en:
+            page: en
+            section: s-243704e702
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Proterochersidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=37586
+          locator: Recorded PBDB parent closure beneath the already documented Pantestudines COL-compatible storage anchor.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:37586
+          readingTargets:
+            - name: Bartassochersis lopezi
+              pbdbTaxonId: txn:524649
+              canonicalPath: content/nodes/PBDB%3A524649
+            - name: Cryptochersis paraxene
+              pbdbTaxonId: txn:519797
+              canonicalPath: content/nodes/PBDB%3A519797
+            - name: Proterochersis porebensis
+              pbdbTaxonId: txn:344458
+              canonicalPath: content/nodes/PBDB%3A344458
+            - name: Proterochersis robusta
+              pbdbTaxonId: txn:131561
+              canonicalPath: content/nodes/PBDB%3A131561
+            - name: Proterochersis limendorsa
+              pbdbTaxonId: txn:344460
+              canonicalPath: content/nodes/PBDB%3A344460
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d3353ca883
+        part: body
+      en:
+        page: en
+        section: s-5e88b1f9c1
+        part: body

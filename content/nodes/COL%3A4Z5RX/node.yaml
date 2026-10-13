@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spinomantis fimbriatus
+  displayName: Spinomantis fimbriatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Z5RX
+  sourceIndexes:
+    - name:
+        en: Spinomantis fimbriatus
+        zh: Spinomantis fimbriatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Z5RX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/278
+            queryName: Spinomantis fimbriatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/176
+            queryName: Mantidactylus fimbriatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-063f5c7e3c
+      - s-42954d1e21
+      - s-482146b79f
+      - s-18deb317f5
+      - s-90166ec36d
+      - s-17194b3be4
+      - s-4e422c4ed2
+      - s-5fa1ab8f4a
+      - s-af702492c4
+      - s-309b7a59ec
+    zh:
+      - s-e5592425ca
+      - s-3e00fd8869
+      - s-eb601805a5
+      - s-e75ab60c62
+      - s-961e5f909c
+      - s-be18b1c628
+      - s-16ba5b4e7e
+      - s-4cc715e2e2
+      - s-e8645a4dd7
+      - s-7d6399a62a

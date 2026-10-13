@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Cyclotosaurus intermedius
+    rank: species
+    sourceTaxonId: txn:81760
+    name:
+      en: Cyclotosaurus intermedius
+      zh: Cyclotosaurus intermedius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-b83defcc96
+            part: body
+          zh:
+            page: zh
+            section: s-c85d851d1a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-aa33f16490
+            part: body
+          zh:
+            page: zh
+            section: s-f7f77e1d2d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-1388081c0a
+            part: body
+          zh:
+            page: zh
+            section: s-e707786e9b
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:81760; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: T. Sulej and F. Majer. 2005. The temnospondyl amphibian Cyclotosaurus from the Upper Triassic of Poland. Palaeontology 48(1):157-170
+    occurrenceEvidence:
+      - occurrenceId: occ:584069
+        collectionId: col:61448
+        acceptedTaxonId: txn:81760
+        identifiedName: Cyclotosaurus intermedius n. sp.
+        taxonomicDifference: null
+        referenceId: ref:17717
+        bibliography: T. Sulej and F. Majer. 2005. The temnospondyl amphibian Cyclotosaurus from the Upper Triassic of Poland. Palaeontology 48(1):157-170
+        locality:
+          countryCode: PL
+          stateProvince: Opole
+          county: null
+        stratigraphy:
+          group: null
+          formation: Grabowa
+          member: null
+        olderAgeMa: 237
+        youngerAgeMa: 205.7
+      - occurrenceId: occ:584075
+        collectionId: col:61449
+        acceptedTaxonId: txn:81760
+        taxonomicDifference: null
+        referenceId: ref:17717
+        bibliography: T. Sulej and F. Majer. 2005. The temnospondyl amphibian Cyclotosaurus from the Upper Triassic of Poland. Palaeontology 48(1):157-170
+        locality:
+          countryCode: PL
+          stateProvince: Opole
+          county: null
+        stratigraphy:
+          group: null
+          formation: Drawno Beds
+          member: null
+        olderAgeMa: 233.6
+        youngerAgeMa: 227.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1388081c0a
+            part: body
+          zh:
+            page: zh
+            section: s-e707786e9b
+            part: body
+        sourceIds: []

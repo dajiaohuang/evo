@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes ponmudi
+  displayName: Raorchestes ponmudi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78T44
+  sourceIndexes:
+    - name:
+        en: Raorchestes ponmudi
+        zh: Raorchestes ponmudi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78T44
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/182
+            queryName: Raorchestes ponmudi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/473
+            queryName: Philautus ponmudi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/362
+            queryName: Pseudophilautus ponmudi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-60680e6be8
+      - s-47b81b6602
+      - s-440d8c6ebb
+      - s-001f2fabce
+      - s-d2d1ccdb44
+      - s-22e71d5b83
+      - s-a7dd47e28b
+      - s-3b27043b7e
+      - s-fb8511346f
+      - s-fc9d326e61
+      - s-c31e00b307
+      - s-13b29bd845
+    zh:
+      - s-306329caf0
+      - s-e844e33f1c
+      - s-1a823c5351
+      - s-d6be94b475
+      - s-45ecd17530
+      - s-fa39d0ed8c
+      - s-7e9845e106
+      - s-2d23b3f383
+      - s-e8221c97f8
+      - s-c94806c6c0
+      - s-984d908f21
+      - s-40cbef2498

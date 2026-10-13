@@ -1,0 +1,196 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pseudoeurycea lineola
+    name:
+      en: Pseudoeurycea lineola
+      zh: Pseudoeurycea lineola
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Pseudoeurycea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4763a95913
+            part: body
+          zh:
+            page: zh
+            section: s-fcecc8143f
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-33b017e575
+            part: body
+          zh:
+            page: zh
+            section: s-2241b7ebfe
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 315, 316; Reference.csv rows 4226
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 315
+        values:
+          - Plethodontidae
+          - Pseudoeurycea
+          - Pseudoeurycea lineola
+          - F
+          - NA
+          - "39.5"
+          - NA
+          - "25.9"
+          - "6.4"
+          - "3.7"
+          - "1.1"
+          - "1.7"
+          - "0.8"
+          - NA
+          - "1.1"
+          - NA
+          - "73.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 316
+        values:
+          - Plethodontidae
+          - Pseudoeurycea
+          - Pseudoeurycea lineola
+          - M
+          - NA
+          - "38.3"
+          - NA
+          - "24.2"
+          - "6.5"
+          - "3.7"
+          - "1.2"
+          - "1.7"
+          - "0.8"
+          - NA
+          - "1.1"
+          - NA
+          - "71.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4226
+        values:
+          - Caudata
+          - Pseudoeurycea_lineola
+          - "Crespi, E. J., Browne, R. A., & Rissler, L. J. (2010). Taxonomic revision of Desmognathus wrighti (Caudata: Plethodontidae). Herpetologica, 66(3), 283-295. https://doi.org/10.1655/herpetologica-d-09-00002.1"
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - IND
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4NWRB
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

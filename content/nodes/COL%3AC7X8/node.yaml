@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes norae
+  displayName: Alsodes norae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7X8
+  sourceIndexes:
+    - name:
+        en: Alsodes norae
+        zh: Alsodes norae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7X8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/199
+            queryName: Alsodes norae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-219d3e07bf
+      - s-3c5df8c2c5
+      - s-88f47ef341
+      - s-b5dd7c174a
+      - s-3372329a45
+      - s-f5f1622d25
+      - s-380c7d7dc3
+      - s-ab4d9361eb
+      - s-539f62770c
+      - s-fe4495a87c
+      - s-77e676802f
+      - s-1839a2f4dd
+      - s-cfda10d639
+      - s-d3b8a3ae75
+      - s-e5e0e91c3d
+      - s-535b9a7dc6
+      - s-75bddb8c75
+      - s-10dfb821f4
+    zh:
+      - s-19941d6c92
+      - s-3c0e785896
+      - s-07d53e8e69
+      - s-28691d262f
+      - s-d4627e1dc9
+      - s-5f516a7e5c
+      - s-36c01e7d2a
+      - s-36b9f3dee3
+      - s-85ae3c7760
+      - s-bc5f35ba4b
+      - s-12277446ca
+      - s-3c7f8c0bee
+      - s-cc0e59fdab
+      - s-5ac5136855
+      - s-fee46dc07a
+      - s-d14e924dfb
+      - s-ba4e95ce94
+      - s-7a2cd5b6cf

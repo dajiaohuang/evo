@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus curtus
+  displayName: Mantidactylus curtus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWDF
+  sourceIndexes:
+    - name:
+        en: Mantidactylus curtus
+        zh: Mantidactylus curtus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWDF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/319
+            queryName: Mantidactylus curtus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/221
+            queryName: Rana curta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eb9759f0ef
+      - s-d9f9d6f93c
+      - s-ccddf83475
+      - s-a983443ca1
+      - s-dfafc4dc7a
+      - s-3f19bd2e50
+      - s-d960d12312
+      - s-276a812235
+    zh:
+      - s-c32266330f
+      - s-b8d9ae6d07
+      - s-bf1e0d1405
+      - s-51423f7f6a
+      - s-181f49b67b
+      - s-9c55815da6
+      - s-1ded787de8
+      - s-3e5068fea5

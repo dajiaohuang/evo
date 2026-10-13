@@ -1,0 +1,236 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-a6d3d84366
+      part: title
+    titleZh:
+      page: zh
+      section: s-1d0d0669da
+      part: title
+    dek:
+      page: en
+      section: s-a6d3d84366
+      part: body
+    dekZh:
+      page: zh
+      section: s-1d0d0669da
+      part: body
+    theme: blue
+    durationMinutes: 12
+    featured: true
+    steps:
+      - id: cheirolepis-mosaic
+        title:
+          page: en
+          section: s-beaaae625e
+          part: title
+        titleZh:
+          page: zh
+          section: s-5e70ee5739
+          part: title
+        text:
+          page: en
+          section: s-beaaae625e
+          part: body
+        textZh:
+          page: zh
+          section: s-5e70ee5739
+          part: body
+        age: 389.25
+        timeRange:
+          - 390.4
+          - 388.1
+        taxonIds:
+          - actinopterygii
+        view: evidence
+        eventId: cheirolepis-eifelian-endoskeleton
+        annotation: Specimen anatomy, stage assignment and lineage origin are separate claims.
+        claimLinks:
+          - claimId: claim:event:cheirolepis-eifelian-endoskeleton
+            relation: supports
+      - id: three-r-model
+        title:
+          page: en
+          section: s-6da8401366
+          part: title
+        titleZh:
+          page: zh
+          section: s-8891762fec
+          part: title
+        text:
+          page: en
+          section: s-6da8401366
+          part: body
+        textZh:
+          page: zh
+          section: s-8891762fec
+          part: body
+        age: 276.69
+        timeRange:
+          - 286.18
+          - 267.2
+        taxonIds:
+          - teleosteomorpha
+          - teleostei
+        view: evidence
+        eventId: teleost-3r-model-age
+        annotation: Duplication, rediploidization and later diversification are not one synchronous causal event.
+        claimLinks:
+          - claimId: claim:event:teleost-3r-model-age
+            relation: supports
+      - id: fukangichthys-recalibration
+        title:
+          page: en
+          section: s-30ab332311
+          part: title
+        titleZh:
+          page: zh
+          section: s-d786efcab1
+          part: title
+        text:
+          page: en
+          section: s-30ab332311
+          part: body
+        textZh:
+          page: zh
+          section: s-d786efcab1
+          part: body
+        age: 244.232
+        timeRange:
+          - 247
+          - 241.464
+        taxonIds:
+          - actinopterygii
+        view: tree
+        eventId: fukangichthys-crown-actinopterygian-recalibration
+        annotation: A minimum calibration is younger than some previous calibrations; it is not the crown's birth time.
+        claimLinks:
+          - claimId: claim:event:fukangichthys-crown-actinopterygian-recalibration
+            relation: supports
+      - id: triassic-teleosteomorphs
+        title:
+          page: en
+          section: s-c741c444de
+          part: title
+        titleZh:
+          page: zh
+          section: s-c9f4baee60
+          part: title
+        text:
+          page: en
+          section: s-c741c444de
+          part: body
+        textZh:
+          page: zh
+          section: s-c9f4baee60
+          part: body
+        age: 244
+        timeRange:
+          - 247
+          - 241.464
+        taxonIds:
+          - teleosteomorpha
+          - teleostei
+        view: evidence
+        eventId: anisian-stem-teleosteomorph-record
+        annotation: The current Anisian display envelope is broader than the source's approximate locality age.
+        claimLinks:
+          - claimId: claim:event:anisian-stem-teleosteomorph-record
+            relation: supports
+      - id: living-holostei
+        title:
+          page: en
+          section: s-a5e8e39365
+          part: title
+        titleZh:
+          page: zh
+          section: s-0ccc12f6e0
+          part: title
+        text:
+          page: en
+          section: s-a5e8e39365
+          part: body
+        textZh:
+          page: zh
+          section: s-0ccc12f6e0
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - holostei
+          - lepisosteiformes
+          - amiiformes
+          - teleostei
+        view: tree
+        eventId: holostei-genomic-support
+        annotation: A genomic outgroup to teleost duplication is not a deterministic explanation for teleost richness.
+        claimLinks:
+          - claimId: claim:event:holostei-genomic-support
+            relation: supports
+      - id: caudal-fin-mosaic
+        title:
+          page: en
+          section: s-a0ca2b5475
+          part: title
+        titleZh:
+          page: zh
+          section: s-429d6d18af
+          part: title
+        text:
+          page: en
+          section: s-a0ca2b5475
+          part: body
+        textZh:
+          page: zh
+          section: s-429d6d18af
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - neopterygii
+          - holostei
+          - teleostei
+        view: evidence
+        eventId: neopterygian-caudal-fin-mosaic
+        annotation: Soft tissues and vasculature make the living complex richer than the component usually visible in fossils.
+        claimLinks:
+          - claimId: claim:event:neopterygian-caudal-fin-mosaic
+            relation: supports
+      - id: deep-teleost-genome-structure
+        title:
+          page: en
+          section: s-e008ec90cd
+          part: title
+        titleZh:
+          page: zh
+          section: s-a20d5beac2
+          part: title
+        text:
+          page: en
+          section: s-e008ec90cd
+          part: body
+        textZh:
+          page: zh
+          section: s-a20d5beac2
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - elopomorpha
+          - osteoglossomorpha
+          - clupeocephala
+        view: tree
+        eventId: eloposteoglossocephala-genome-structure
+        annotation: COL26.8 routes 35,928 strictly accepted species names below Actinopterygii (usage ID 8VR36); that is naming coverage, not 35,928 mature dossiers, verified morphologies, fossil ranges, media recordss.
+        claimLinks:
+          - claimId: claim:event:eloposteoglossocephala-genome-structure
+            relation: supports
+    evidenceStatus: available-with-limitations

@@ -1,0 +1,95 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tarsius fuscus Fischer, 1804
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Makassar Tarsier
+      zh: 望加锡眼镜猴
+    sections:
+      - topic: taxonomy
+        text:
+          en:
+            page: en
+            section: s-ac6052d203
+            part: body
+          zh:
+            page: zh
+            section: s-cc8f072f13
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+      - topic: field ecology
+        text:
+          en:
+            page: en
+            section: s-525ddf4498
+            part: body
+          zh:
+            page: zh
+            section: s-362f5b0bc1
+            part: body
+        sourceIds:
+          - andriyani2021
+      - topic: evidence_scope
+        text:
+          en:
+            page: en
+            section: s-c74e125935
+            part: body
+          zh:
+            page: zh
+            section: s-8df709c88e
+            part: body
+        sourceIds:
+          - andriyani2021
+    limitations:
+      en:
+        page: en
+        section: s-8a6668b0ba
+        part: body
+      zh:
+        page: zh
+        section: s-c4572424f3
+        part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tarsius fuscus
+          url: https://www.checklistbank.org/dataset/316115/taxon/7BM5P
+          scope:
+            en: Pinned COL26.8 name, authorship, rank and parent link; not biological evidence.
+            zh: 固定 COL26.8 中的名称、作者、等级与父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-49e544e0-b110-89c7-a340-aae94c467050
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English display name “Makassar Tarsier” as an MDD vernacular; it does not establish ecological claims or override the pinned COL26.8 taxon.
+            zh: 支持英文展示名“Makassar Tarsier”作为 MDD 普通名；不据此推导生态结论或改动固定 COL26.8 分类。
+      - id: andriyani2021
+        referenceId: ref-61038314-41d9-8719-a8e1-26f2ec41c5b8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports October 2020–January 2021 nest observations at Bantimurung Bulusaraung National Park and Hasanuddin University Educational Forest, including substrate and elevation records; results are local to those sites.
+            zh: 支持 2020 年 10 月至 2021 年 1 月在 Bantimurung Bulusaraung 国家公园和 Hasanuddin 大学教育林开展的巢址观察，包括基质与海拔记录；结果仅适用于这些地点。

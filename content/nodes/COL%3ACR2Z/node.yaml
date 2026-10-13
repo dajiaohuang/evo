@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amerana muscosa
+  displayName: Amerana muscosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CR2Z
+  sourceIndexes:
+    - name:
+        en: Amerana muscosa
+        zh: Amerana muscosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CR2Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/288
+            queryName: Amerana muscosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/217
+            queryName: Rana muscosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 202
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/327
+            queryName: Rana boylii muscosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dfb1d53806
+      - s-792753dab8
+      - s-ecfbab283a
+      - s-dff5de9b67
+      - s-179a86fa34
+      - s-eebc8d2637
+      - s-4bf128761f
+      - s-57f258458a
+      - s-9f10e200c3
+      - s-cb20950e7d
+      - s-d29502f983
+      - s-02ef860a0f
+      - s-93eb1a5f0e
+      - s-2f691b3df7
+      - s-2435b675bd
+      - s-6f0a07f5d5
+      - s-2a7b683b82
+      - s-70c28a8b03
+      - s-4f45e4643f
+      - s-25916c51c1
+    zh:
+      - s-a0666d5fab
+      - s-dc7f59ec6d
+      - s-142d26a9b8
+      - s-c5864783bf
+      - s-fbf65f53a7
+      - s-888f63f83a
+      - s-e079281d26
+      - s-29e14f8f78
+      - s-18e963e66d
+      - s-65d439afdf
+      - s-59a6d076c9
+      - s-c34a3d5e3f
+      - s-e7c16ac5c7
+      - s-7fc3723887
+      - s-4c9b209584
+      - s-fd611ca7ff
+      - s-c9c979a434
+      - s-e96b8dc907
+      - s-aea663e135
+      - s-d3a45f6480

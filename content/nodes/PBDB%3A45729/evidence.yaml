@@ -1,0 +1,254 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Didymictis leptomylus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Didymictis leptomylus
+      en: Didymictis leptomylus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1200042f76
+            part: body
+          en:
+            page: en
+            section: s-e6739b5dc7
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-756c1c9f04
+            part: body
+          en:
+            page: en
+            section: s-ff75ed526e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4cd353861a
+            part: body
+          en:
+            page: en
+            section: s-55fef76800
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-63b9d91579
+            part: body
+          en:
+            page: en
+            section: s-ce079c2efc
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5faf0f31d5
+            part: body
+          en:
+            page: en
+            section: s-6a8389d676
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Didymictis leptomylus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45729&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45729; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45729
+          selectedOccurrenceIds:
+            - occ:168898
+            - occ:168953
+            - occ:169099
+            - occ:169127
+            - occ:169175
+            - occ:169208
+            - occ:169242
+            - occ:169279
+            - occ:169312
+            - occ:169333
+            - occ:169360
+            - occ:169377
+            - occ:169438
+            - occ:169484
+            - occ:169505
+            - occ:171099
+            - occ:171273
+            - occ:171341
+            - occ:171371
+            - occ:171397
+            - occ:171411
+            - occ:171463
+            - occ:171469
+            - occ:171495
+            - occ:171530
+            - occ:171617
+            - occ:171716
+            - occ:171771
+            - occ:171781
+            - occ:171805
+            - occ:172008
+            - occ:172016
+            - occ:172364
+            - occ:286953
+            - occ:458713
+            - occ:462651
+            - occ:470770
+            - occ:471486
+            - occ:752605
+            - occ:1193895
+            - occ:1193896
+            - occ:1193897
+            - occ:1193898
+            - occ:1193899
+            - occ:1193900
+            - occ:1193901
+            - occ:1193902
+            - occ:1193903
+            - occ:1193904
+            - occ:1193905
+          selectedCollectionIds:
+            - col:15480
+            - col:15485
+            - col:15495
+            - col:15503
+            - col:15505
+            - col:15507
+            - col:15509
+            - col:15510
+            - col:15511
+            - col:15512
+            - col:15513
+            - col:15514
+            - col:15516
+            - col:15518
+            - col:15519
+            - col:15699
+            - col:15725
+            - col:15729
+            - col:15732
+            - col:15736
+            - col:15738
+            - col:15748
+            - col:15749
+            - col:15754
+            - col:15756
+            - col:15762
+            - col:15779
+            - col:15788
+            - col:15789
+            - col:15791
+            - col:15820
+            - col:15822
+            - col:15887
+            - col:27351
+            - col:15681
+            - col:15592
+            - col:46792
+            - col:46844
+            - col:80580
+            - col:154251
+            - col:154254
+            - col:154255
+            - col:154257
+            - col:154258
+            - col:154262
+            - col:154264
+            - col:154270
+            - col:154271
+            - col:154273
+            - col:154274
+          sourceReferenceIds:
+            - ref:2787
+            - ref:3021
+            - ref:1657
+            - ref:11717
+            - ref:27112
+            - ref:49988
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7ef1596c6d
+        part: body
+      en:
+        page: en
+        section: s-0e00464c2b
+        part: body

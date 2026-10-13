@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius lunaris
+  displayName: Thorius lunaris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KSX
+  sourceIndexes:
+    - name:
+        en: Thorius lunaris
+        zh: Thorius lunaris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KSX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/44
+            queryName: Thorius lunaris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cdb4a2524c
+      - s-da4e7660b0
+      - s-209635b1c3
+      - s-0523cc7d7c
+      - s-17ba5c3fbf
+      - s-b544e39cab
+      - s-09dd64a9b1
+      - s-003594dfc9
+      - s-9305ecd231
+      - s-2775cf7bf4
+      - s-07ac2726ae
+      - s-a15af2291d
+      - s-6a0d3a9031
+      - s-58331bf473
+    zh:
+      - s-972891c430
+      - s-50dfa56bf2
+      - s-0f788f8437
+      - s-a6c2dc9b8d
+      - s-4f75a5a094
+      - s-946dea9713
+      - s-e1a194e1d2
+      - s-14b5f44e12
+      - s-0d4d2659c6
+      - s-76ea96d8f4
+      - s-bb696a4399
+      - s-bbca6fab46
+      - s-a832fa66a2
+      - s-197290aefa

@@ -1,0 +1,1451 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Rana arvalis
+    name:
+      en: Rana arvalis
+      zh: Rana arvalis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-edfdc1933a
+            part: body
+          zh:
+            page: zh
+            section: s-d44e685a4d
+            part: body
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "100"
+        text:
+          en:
+            page: en
+            section: s-8a6a2bf9e1
+            part: body
+          zh:
+            page: zh
+            section: s-e4097cbc16
+            part: body
+        sourceRowNumber: 90
+      - topic: ecology
+        title:
+          en: Selected cold lethal-limit assay estimate
+          zh: 选列的低温致死限实验估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "102"
+        text:
+          en:
+            page: en
+            section: s-6a0001b292
+            part: body
+          zh:
+            page: zh
+            section: s-de416c4e50
+            part: body
+        sourceRowNumber: 92
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "1480"
+        text:
+          en:
+            page: en
+            section: s-2616e20e44
+            part: body
+          zh:
+            page: zh
+            section: s-3278d970f1
+            part: body
+        sourceRowNumber: 1322
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 90, 91, 92, 93, 94, 1322, 3733, 3734, 3735, 3736, 3737, 3738, 3739, 4161; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 90
+        values:
+          - "100"
+          - Natalie_Claunch
+          - Berman_et_al_2020
+          - Overwintering and cold tolerance in the Moor frog (Rana arvalis) across its range
+          - "2020"
+          - NA
+          - NA
+          - peer-reviewed
+          - dx.doi.org/10.1139/cjz-2019-0179
+          - English
+          - Rana_arvalis_pop2
+          - Rana_arvalis_pop2_LTL_co1
+          - The same animals were assesed for CTmin and LT50, hence the shared cohort_IDs
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "53"
+          - "78"
+          - "128"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Karasuk
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "-1"
+          - NA
+          - "20"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "13.1"
+          - NA
+          - unknown
+          - CTmin
+          - SCP
+          - NA
+          - "-1"
+          - "0.0017"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-2.7"
+          - "0.2"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 91
+        values:
+          - "101"
+          - Natalie_Claunch
+          - Berman_et_al_2020
+          - Overwintering and cold tolerance in the Moor frog (Rana arvalis) across its range
+          - "2020"
+          - NA
+          - NA
+          - peer-reviewed
+          - dx.doi.org/10.1139/cjz-2019-0179
+          - English
+          - Rana_arvalis_pop4
+          - Rana_arvalis_pop4_LTL_co1
+          - The same animals were assesed for CTmin and LT50, hence the shared cohort_IDs
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "56"
+          - "38"
+          - "157"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Chernogolovka
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "-1"
+          - NA
+          - "20"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "14"
+          - NA
+          - unknown
+          - CTmin
+          - SCP
+          - NA
+          - "-1"
+          - "0.0017"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-2.7"
+          - "0.2"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 92
+        values:
+          - "102"
+          - Natalie_Claunch
+          - Berman_et_al_2020
+          - Overwintering and cold tolerance in the Moor frog (Rana arvalis) across its range
+          - "2020"
+          - NA
+          - NA
+          - peer-reviewed
+          - dx.doi.org/10.1139/cjz-2019-0179
+          - English
+          - Rana_arvalis_pop2
+          - Rana_arvalis_pop2_LTL_co1
+          - The same animals were assesed for CTmin and LT50, hence the shared cohort_IDs
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "53"
+          - "78"
+          - "128"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Karasuk
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "-1"
+          - NA
+          - "20"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "13.1"
+          - NA
+          - unknown
+          - LT50_cold
+          - death
+          - NA
+          - NA
+          - NA
+          - "48"
+          - "5"
+          - "2"
+          - "5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "n_replicates_per_temp was different for each temperature. Frogs were placed in containers of 3-5 individuals, and some temperatures only have 5 or fewer individuals (Pop 1 ranges from 2-12 individuals, pop2 from 4-20 individuals, pop3 from 3-13 individuals). To determine # replicates I averaged # individuals per temp per population, divide by 5 (# individuals per cohort) and report this value."
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-12.90152"
+          - "0.1672265"
+          - "10"
+          - se
+          - Sample size unclear. LT50 was estimated based on survival rates at different temperatures.
+      - rowNumber: 93
+        values:
+          - "103"
+          - Natalie_Claunch
+          - Berman_et_al_2020
+          - Overwintering and cold tolerance in the Moor frog (Rana arvalis) across its range
+          - "2020"
+          - NA
+          - NA
+          - peer-reviewed
+          - dx.doi.org/10.1139/cjz-2019-0179
+          - English
+          - Rana_arvalis_pop4
+          - Rana_arvalis_pop4_LTL_co1
+          - The same animals were assesed for CTmin and LT50, hence the shared cohort_IDs
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "56"
+          - "38"
+          - "157"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Chernogolovka
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "-1"
+          - NA
+          - "20"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "14"
+          - NA
+          - unknown
+          - LT50_cold
+          - death
+          - NA
+          - NA
+          - NA
+          - "48"
+          - "6"
+          - "1.23"
+          - "5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "n_replicates_per_temp was different for each temperature. Frogs were placed in containers of 3-5 individuals, and some temperatures only have 5 or fewer individuals (Pop 1 ranges from 2-12 individuals, pop2 from 4-20 individuals, pop3 from 3-13 individuals). To determine # replicates I averaged # individuals per temp per population, divide by 5 (# individuals per cohort) and report this value. n was taken as the as n_test_temperatures * n_replicates_per_temp."
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-11.23449"
+          - "0.1407404"
+          - "7.38"
+          - se
+          - Sample size unclear. LT50 was estimated based on survival rates at different temperatures.
+      - rowNumber: 94
+        values:
+          - "104"
+          - Natalie_Claunch
+          - Berman_et_al_2020
+          - Overwintering and cold tolerance in the Moor frog (Rana arvalis) across its range
+          - "2020"
+          - NA
+          - NA
+          - peer-reviewed
+          - dx.doi.org/10.1139/cjz-2019-0179
+          - English
+          - Rana_arvalis_pop5
+          - Rana_arvalis_pop5_LTL_co1
+          - The same animals were assesed for CTmin and LT50, hence the shared cohort_IDs
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "57"
+          - "82"
+          - "108"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Podgornoye
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "-1"
+          - NA
+          - "20"
+          - NA
+          - adults
+          - NA
+          - NA
+          - "13.1"
+          - NA
+          - unknown
+          - LT50_cold
+          - death
+          - NA
+          - NA
+          - NA
+          - "48"
+          - "5"
+          - "1.12"
+          - "5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "n_replicates_per_temp was different for each temperature. Frogs were placed in containers of 3-5 individuals, and some temperatures only have 5 or fewer individuals (Pop 1 ranges from 2-12 individuals, pop2 from 4-20 individuals, pop3 from 3-13 individuals). To determine # replicates I averaged # individuals per temp per population, divide by 5 (# individuals per cohort) and report this value."
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-11.57049"
+          - "0.1236074"
+          - "5.6"
+          - se
+          - Sample size unclear. LT50 was estimated based on survival rates at different temperatures.
+      - rowNumber: 1322
+        values:
+          - "1480"
+          - Patrice Pottier
+          - Duarte_et_al_2012
+          - Can amphibians take the heat? Vulnerability to climate warming in subtropical and temperate larval amphibian communities
+          - "2012"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1111/j.1365-2486.2011.02518.x
+          - English
+          - Rana_arvalis_pop1
+          - Rana_arvalis_pop1_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.378831"
+          - "-2.858458"
+          - "1756"
+          - NA
+          - NA
+          - "2009"
+          - February_2009
+          - June_2009
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - "52.5"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab S1
+          - NA
+          - NA
+          - "35.8"
+          - "0.1"
+          - "15"
+          - se
+          - Data was taken from Tab S1 because Rohr et al. 2018 did not report SD.
+      - rowNumber: 3733
+        values:
+          - "4080"
+          - Yefeng Yang
+          - Richter-Boix_et_al_2015
+          - |-
+            Local divergence of thermal reaction norms
+            among amphibian populations is affected
+            by pond temperature variation
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1111/evo.12711
+          - English
+          - Rana_arvalis_pop10
+          - Rana_arvalis_pop10_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "59.7"
+          - "17.66666667"
+          - "49"
+          - NA
+          - April
+          - "2009"
+          - NA
+          - NA
+          - NA
+          - "10.41"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20"
+          - NA
+          - "21"
+          - Gosner stage was taken as the mean of the range presented (28-35)
+          - larvae
+          - NA
+          - NA
+          - "0.275704225"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2D
+          - NA
+          - NA
+          - "36.11166253"
+          - "0.084367246"
+          - "24"
+          - se
+          - Data was digitised from figure 2.
+      - rowNumber: 3734
+        values:
+          - "4081"
+          - Yefeng Yang
+          - Richter-Boix_et_al_2015
+          - |-
+            Local divergence of thermal reaction norms
+            among amphibian populations is affected
+            by pond temperature variation
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1111/evo.12711
+          - English
+          - Rana_arvalis_pop11
+          - Rana_arvalis_pop11_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "59.78333333"
+          - "16.86666667"
+          - "38"
+          - NA
+          - April
+          - "2009"
+          - NA
+          - NA
+          - NA
+          - "10.61"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20"
+          - NA
+          - "21"
+          - Gosner stage was taken as the mean of the range presented (28-35)
+          - larvae
+          - NA
+          - NA
+          - "0.337910798"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2D
+          - NA
+          - NA
+          - "35.70967742"
+          - "0.05955335"
+          - "24"
+          - se
+          - Data was digitised from figure 2.
+      - rowNumber: 3735
+        values:
+          - "4082"
+          - Yefeng Yang
+          - Richter-Boix_et_al_2015
+          - |-
+            Local divergence of thermal reaction norms
+            among amphibian populations is affected
+            by pond temperature variation
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1111/evo.12711
+          - English
+          - Rana_arvalis_pop12
+          - Rana_arvalis_pop12_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "59.83333333"
+          - "17.35"
+          - "39"
+          - NA
+          - April
+          - "2009"
+          - NA
+          - NA
+          - NA
+          - "9.44"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20"
+          - NA
+          - "21"
+          - Gosner stage was taken as the mean of the range presented (28-35)
+          - larvae
+          - NA
+          - NA
+          - "0.356103286"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2D
+          - NA
+          - NA
+          - "35.94789082"
+          - "0.109181141"
+          - "24"
+          - se
+          - Data was digitised from figure 2.
+      - rowNumber: 3736
+        values:
+          - "4083"
+          - Yefeng Yang
+          - Richter-Boix_et_al_2015
+          - |-
+            Local divergence of thermal reaction norms
+            among amphibian populations is affected
+            by pond temperature variation
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1111/evo.12711
+          - English
+          - Rana_arvalis_pop6
+          - Rana_arvalis_pop6_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "59.6"
+          - "16.91666667"
+          - "15"
+          - NA
+          - April
+          - "2009"
+          - NA
+          - NA
+          - NA
+          - "11.14"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20"
+          - NA
+          - "21"
+          - Gosner stage was taken as the mean of the range presented (28-35)
+          - larvae
+          - NA
+          - NA
+          - "0.350234742"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2D
+          - NA
+          - NA
+          - "35.82878412"
+          - "0.05955335"
+          - "24"
+          - se
+          - Data was digitised from figure 2.
+      - rowNumber: 3737
+        values:
+          - "4084"
+          - Yefeng Yang
+          - Richter-Boix_et_al_2015
+          - |-
+            Local divergence of thermal reaction norms
+            among amphibian populations is affected
+            by pond temperature variation
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1111/evo.12711
+          - English
+          - Rana_arvalis_pop7
+          - Rana_arvalis_pop7_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "59.61666667"
+          - "17.21666667"
+          - "24"
+          - NA
+          - April
+          - "2009"
+          - NA
+          - NA
+          - NA
+          - "12.31"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20"
+          - NA
+          - "21"
+          - Gosner stage was taken as the mean of the range presented (28-35)
+          - larvae
+          - NA
+          - NA
+          - "0.296244131"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2D
+          - NA
+          - NA
+          - "35.98759305"
+          - "0.064516129"
+          - "24"
+          - se
+          - Data was digitised from figure 2.
+      - rowNumber: 3738
+        values:
+          - "4085"
+          - Yefeng Yang
+          - Richter-Boix_et_al_2015
+          - |-
+            Local divergence of thermal reaction norms
+            among amphibian populations is affected
+            by pond temperature variation
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1111/evo.12711
+          - English
+          - Rana_arvalis_pop8
+          - Rana_arvalis_pop8_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "59.73333333"
+          - "16.83333333"
+          - "41"
+          - NA
+          - April
+          - "2009"
+          - NA
+          - NA
+          - NA
+          - "13.24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20"
+          - NA
+          - "21"
+          - Gosner stage was taken as the mean of the range presented (28-35)
+          - larvae
+          - NA
+          - NA
+          - "0.298591549"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2D
+          - NA
+          - NA
+          - "35.76923077"
+          - "0.05955335"
+          - "24"
+          - se
+          - Data was digitised from figure 2.
+      - rowNumber: 3739
+        values:
+          - "4086"
+          - Yefeng Yang
+          - Richter-Boix_et_al_2015
+          - |-
+            Local divergence of thermal reaction norms
+            among amphibian populations is affected
+            by pond temperature variation
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - http://dx.doi.org/10.1111/evo.12711
+          - English
+          - Rana_arvalis_pop9
+          - Rana_arvalis_pop9_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "59.71666667"
+          - "16.98333333"
+          - "50"
+          - NA
+          - April
+          - "2009"
+          - NA
+          - NA
+          - NA
+          - "10.74"
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "31.5"
+          - "20"
+          - NA
+          - "21"
+          - Gosner stage was taken as the mean of the range presented (28-35)
+          - larvae
+          - NA
+          - NA
+          - "0.351408451"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 2D
+          - NA
+          - NA
+          - "35.53598015"
+          - "0.044665012"
+          - "24"
+          - se
+          - Data was digitised from figure 2.
+      - rowNumber: 4161
+        values:
+          - "4616"
+          - Rachel Oh
+          - Voituron_et_al_2009
+          - Survival and metabolism of Rana arvalis during freezing
+          - "2009"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1007/s00360-008-0307-3
+          - English
+          - Rana_arvalis_pop3
+          - Rana_arvalis_pop3_LTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana arvalis
+          - NA
+          - LC
+          - wild
+          - NA
+          - "55.583333"
+          - "12.142222"
+          - "20"
+          - NA
+          - NA
+          - NA
+          - September
+          - October
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - juveniles
+          - NA
+          - "3"
+          - NA
+          - "1"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - LT50_cold
+          - death
+          - body
+          - NA
+          - NA
+          - "72"
+          - "4"
+          - "1"
+          - "5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - text
+          - NA
+          - NA
+          - "-3.429264"
+          - "0.05014812"
+          - "4"
+          - se
+          - LT50 was calculated from survival data in Table 1. n_trait was taken as the number of test temperatures
+    originalStudyCitations:
+      - ref: Berman_et_al_2020
+        title: Overwintering and cold tolerance in the Moor frog (Rana arvalis) across its range
+        doi: dx.doi.org/10.1139/cjz-2019-0179
+        year: "2020"
+      - ref: Duarte_et_al_2012
+        title: Can amphibians take the heat? Vulnerability to climate warming in subtropical and temperate larval amphibian communities
+        doi: https://doi.org/10.1111/j.1365-2486.2011.02518.x
+        year: "2012"
+      - ref: Richter-Boix_et_al_2015
+        title: |-
+          Local divergence of thermal reaction norms
+          among amphibian populations is affected
+          by pond temperature variation
+        doi: http://dx.doi.org/10.1111/evo.12711
+        year: "2015"
+      - ref: Voituron_et_al_2009
+        title: Survival and metabolism of Rana arvalis during freezing
+        doi: 10.1007/s00360-008-0307-3
+        year: "2009"
+    selectedEstimateRowNumbers:
+      - 90
+      - 92
+      - 1322
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4RDHG
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrotriton cuchumatanus
+  displayName: Dendrotriton cuchumatanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34SMY
+  sourceIndexes:
+    - name:
+        en: Dendrotriton cuchumatanus
+        zh: Dendrotriton cuchumatanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34SMY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/441
+            queryName: Dendrotriton cuchumatanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/200
+            queryName: Chiropterotriton cuchumatanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e273fe26f
+      - s-21f796b892
+      - s-e410773177
+      - s-84920013d4
+      - s-534ac9981f
+      - s-54118d8640
+      - s-aa124f932e
+    zh:
+      - s-f646af01ad
+      - s-47792e353f
+      - s-3915f1b02c
+      - s-dbd46d69a6
+      - s-5fffb4c516
+      - s-902ce5d88b
+      - s-3593694306

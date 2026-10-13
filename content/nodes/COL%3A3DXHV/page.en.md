@@ -1,0 +1,3 @@
+## *Felicia brevifolia*: blue-violet rays and variable leaves {#s-bf15c665cb}
+The regional account describes a shrub or dwarf shrub up to 1.5 m tall. Its leaves vary in size and shape: lower leaves are elliptic to inversely egg-shaped, toothed and hairy, while those higher on the stem become smaller, narrower and entire. The solitary, stalked flower heads have blue-violet outer ray florets around yellow disc florets. Fruits bear long hairs, and the pappus bristles are similarly long. The account emphasizes that leaf form and hairiness vary among plants and do not mark separate taxa. It records sandy or loamy soils on slopes of rocky outcrops.
+

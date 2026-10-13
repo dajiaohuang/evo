@@ -1,0 +1,356 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amolops mengyangensis Wu & Tian, 1995
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amolops mengyangensis
+      zh: Amolops mengyangensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-36e6af31f7
+            part: title
+          zh:
+            page: zh
+            section: s-c5a992d088
+            part: title
+        text:
+          en:
+            page: en
+            section: s-36e6af31f7
+            part: body
+          zh:
+            page: zh
+            section: s-c5a992d088
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-282c010e94
+            part: title
+          zh:
+            page: zh
+            section: s-b9a9a9b268
+            part: title
+        text:
+          en:
+            page: en
+            section: s-282c010e94
+            part: body
+          zh:
+            page: zh
+            section: s-b9a9a9b268
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-463c6b60fd
+            part: title
+          zh:
+            page: zh
+            section: s-f830f7f88d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-463c6b60fd
+            part: body
+          zh:
+            page: zh
+            section: s-f830f7f88d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo. org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-c2f661fe2a
+            part: title
+          zh:
+            page: zh
+            section: s-882d24191c
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-c2f661fe2a
+            part: body
+          zh:
+            page: zh
+            section: s-882d24191c
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-3f569e0cac
+            part: title
+          zh:
+            page: zh
+            section: s-a257df4b95
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-3f569e0cac
+            part: body
+          zh:
+            page: zh
+            section: s-a257df4b95
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-48d9cbdea9
+            part: title
+          zh:
+            page: zh
+            section: s-18aa04b7fe
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-48d9cbdea9
+            part: body
+          zh:
+            page: zh
+            section: s-18aa04b7fe
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-a670c985cff5ccd7f69c3caccfefcf7d
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-73f669cce6
+            part: title
+          zh:
+            page: zh
+            section: s-8e2d2e1ece
+            part: title
+        sourceIds:
+          - primary-pmc10351143-66dzr
+        text:
+          en:
+            page: en
+            section: s-73f669cce6
+            part: body
+          zh:
+            page: zh
+            section: s-8e2d2e1ece
+            part: body
+      - topic: limitations
+        title:
+          en: Evidence scope
+          zh: 现有证据的范围
+        text:
+          en:
+            page: en
+            section: s-b1c86b8353
+            part: body
+          zh:
+            page: zh
+            section: s-2ba4f740c5
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amolops mengyangensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/66DZR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4738; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4741 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10351143-66dzr
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amolops mengyangensis: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-bb57e0a2be
+        part: body
+      zh:
+        page: zh
+        section: s-39308dc0fe
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-a670c985cff5ccd7f69c3caccfefcf7d
+      sourceRowId: Anf4738
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4738
+        bibliographyRowId: Anf4741
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Amolops mantzorum
+        candidateBibliographyRowIds:
+          - Anf4741
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.1186/s40851-023-00214-9
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        sourceKey: primary-pmc10351143-66dzr
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10351143/article.xml
+        sourceConcept: Exactnamed2023comparison/donorrow;authorcomparisonnotnewwhole-speciesmeasurementorconceptauthentication
+        evidenceRead: "Amolops mengyangensis: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Characters in the dated group comparison
+              zh: 有年代群比较中的性状
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-66dzr
+            locator: PMC10351143 article.xml Sec20p5;Sec4p1 comparative-source scope;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7886be5945
+                part: body
+              zh:
+                page: zh
+                section: s-f2fc0726ee
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

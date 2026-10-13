@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates juami
+  displayName: Allobates juami
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/668XM
+  sourceIndexes:
+    - name:
+        en: Allobates juami
+        zh: Allobates juami
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 668XM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/147
+            queryName: Allobates juami
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-42b06f49cb
+      - s-fe4bf6f393
+      - s-d2ac81df7d
+      - s-0e27539fb9
+      - s-1757c72130
+      - s-c9c556c2d9
+      - s-b46fd6e48c
+      - s-c2c9b69624
+      - s-de94e2e3fa
+      - s-bd9fc1fb54
+      - s-8f3e28c5b6
+      - s-0f572468ce
+      - s-c2ea6bb4a6
+      - s-48d4c47742
+    zh:
+      - s-0db0d5decf
+      - s-5721dcf914
+      - s-6e277fc0fb
+      - s-c06eb0f059
+      - s-6b28cb2027
+      - s-c49753a12e
+      - s-d710296f56
+      - s-e0a3892c20
+      - s-cbbef58db4
+      - s-5f61d87d42
+      - s-3be37dcac3
+      - s-a89681b345
+      - s-6c5f64d827
+      - s-cbd0d50407

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus mirandaribeiroi
+  displayName: Cycloramphus mirandaribeiroi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WL4
+  sourceIndexes:
+    - name:
+        en: Cycloramphus mirandaribeiroi
+        zh: Cycloramphus mirandaribeiroi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WL4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/286
+            queryName: Cycloramphus mirandaribeiroi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a431b40153
+      - s-324d7bb724
+      - s-8c415cd49d
+      - s-1220cbdb4d
+      - s-acc028f87a
+      - s-730abc45fd
+      - s-6cba3e078b
+      - s-4a7d4ab9e6
+      - s-16f81a54da
+      - s-8ce0565cad
+      - s-5c09b99504
+      - s-952ccbb37b
+      - s-8475577fc0
+      - s-78fb58bfdc
+    zh:
+      - s-d0b71387fc
+      - s-70218abe20
+      - s-71b1a56ce3
+      - s-52070e092d
+      - s-e2396c444d
+      - s-02f7ef745f
+      - s-c97528dffd
+      - s-4efdce2b66
+      - s-6b89d624f6
+      - s-3d448328bb
+      - s-f737734ae5
+      - s-a12cbc2d21
+      - s-cc48918bbf
+      - s-6e4553ec37

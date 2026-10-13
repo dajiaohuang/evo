@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Blommersia galani
+    name:
+      en: Blommersia galani
+      zh: Blommersia galani
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Blommersia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d2dfdee682
+            part: body
+          zh:
+            page: zh
+            section: s-970e16c6c6
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-58748dc482
+            part: body
+          zh:
+            page: zh
+            section: s-0905ae9469
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 622, 623; Reference.csv rows 74
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 622
+        values:
+          - Mantellidae
+          - Blommersia
+          - Blommersia galani
+          - M
+          - "21.79047619"
+          - "8.60952381"
+          - "6.457142857"
+          - "2.59047619"
+          - "1.50952381"
+          - NA
+          - NA
+          - "2.533333333"
+          - NA
+          - "2.228571429"
+          - NA
+          - "1.523809524"
+          - "6.266666667"
+          - NA
+          - "13.87619048"
+          - "10.68571429"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "35.86190476"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 623
+        values:
+          - Mantellidae
+          - Blommersia
+          - Blommersia galani
+          - F
+          - "22.55"
+          - "8.85"
+          - "6.45"
+          - "2.75"
+          - "1.4"
+          - NA
+          - NA
+          - "2.4"
+          - NA
+          - "2.35"
+          - NA
+          - "1.5"
+          - "6.35"
+          - NA
+          - "13.75"
+          - "11.15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "36.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 74
+        values:
+          - Anura
+          - Blommersia_galani
+          - Vences, M., Köhler, J., Pabijan, M., & Glaw, F. (2010). Two syntopic and microendemic new frogs of the genusBlommersiafrom the east coast of Madagascar. African Journal of Herpetology, 59(2), 133-156. https://doi.org/10.1080/21564574.2010.512961
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - M74L
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

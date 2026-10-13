@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Paramesotriton yunwuensis
+    name:
+      en: Paramesotriton yunwuensis
+      zh: Paramesotriton yunwuensis
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Paramesotriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Paramesotriton yunwuensis in the morphology deposit
+          zh: 形态数据中的 Paramesotriton yunwuensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4e51110124
+            part: body
+          zh:
+            page: zh
+            section: s-8ad441ef94
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 297 and 298: measurement fields and sex codes"
+          zh: 第 297、298 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-26e34c264c
+            part: body
+          zh:
+            page: zh
+            section: s-fca20304df
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 297, 298; Reference.csv rows 4062
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 297
+        values:
+          - Salamandridae
+          - Paramesotriton
+          - Paramesotriton yunwuensis
+          - M
+          - "177.2"
+          - "99.5"
+          - NA
+          - "41.5"
+          - "30.7"
+          - NA
+          - "14.1"
+          - NA
+          - "8.8"
+          - NA
+          - "6.8"
+          - NA
+          - "77.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "23.5"
+          - "27.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 298
+        values:
+          - Salamandridae
+          - Paramesotriton
+          - Paramesotriton yunwuensis
+          - F
+          - "155.3"
+          - "82.9"
+          - NA
+          - "36.2"
+          - "25.2"
+          - NA
+          - "10.8"
+          - NA
+          - "6.8"
+          - NA
+          - "5.4"
+          - NA
+          - "72.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "22.9"
+          - "23.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4062
+        values:
+          - Caudata
+          - Paramesotriton_yunwuensis
+          - Wu, Y. K., Jiang, K., & Hanken, J. (2010). A new species of newt of the genus Paramesotriton (Salamandridae) from southwestern Guangdong, China, with a new northern record of P. longliensis from western Hubei. Zootaxa, 2494, 45-58. https://doi.org/10.5281/zenodo.195694
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - IOD
+      - EN
+      - IND
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4D37B
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

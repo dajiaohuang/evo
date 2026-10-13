@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys belzebul
+  displayName: Proceratophrys belzebul
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VY7X
+  sourceIndexes:
+    - name:
+        en: Proceratophrys belzebul
+        zh: Proceratophrys belzebul
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VY7X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/208
+            queryName: Proceratophrys belzebul
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7d8c399bc9
+      - s-4c5d1d70f5
+      - s-427d74d625
+      - s-4e13cb4236
+      - s-dc78f7690c
+      - s-f95233811b
+      - s-18c5382b9c
+      - s-2d99a3cee8
+      - s-285b2d0310
+      - s-a822dccdba
+      - s-4a0c3bb1f7
+      - s-1edf83963e
+      - s-37b612f7f9
+      - s-7fea78ceec
+      - s-db7eec905e
+      - s-59b1dc080d
+      - s-2b699e775d
+      - s-71293943f6
+      - s-13c7b9ff33
+      - s-6af01fdce5
+      - s-de8f65381e
+      - s-d877b97d13
+      - s-d6e56b3f4e
+    zh:
+      - s-fc3a849921
+      - s-bceeddd31e
+      - s-50a22a0180
+      - s-108c52c098
+      - s-6e512d601b
+      - s-8cd9260f96
+      - s-4bef55c20e
+      - s-d31fa493bf
+      - s-4a7e71d0e2
+      - s-293eb895f2
+      - s-74d393d8f9
+      - s-d61bb050a0
+      - s-e9d662163b
+      - s-f32d6aeb16
+      - s-495eaf6513
+      - s-fcc72737dd
+      - s-ff5c84fe27
+      - s-4685e6b4c2
+      - s-b487812714
+      - s-fc1a799fd4
+      - s-7c27ae4107
+      - s-7f2fd2082e
+      - s-5a451cd1e5

@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Typhlops
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Typhlops
+      en: Typhlops
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-b17c5c471e
+            part: body
+          en:
+            page: en
+            section: s-ba88d90d9c
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-100c37bc75
+            part: body
+          en:
+            page: en
+            section: s-1290b74538
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-906b67cb22
+            part: body
+          en:
+            page: en
+            section: s-8929ea4719
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-390165f212
+            part: body
+          en:
+            page: en
+            section: s-a8fcc87384
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-f3cb129581
+            part: body
+          en:
+            page: en
+            section: s-21a2bf5893
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Typhlops
+          url: https://www.checklistbank.org/dataset/316115/taxon/63VX2
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 3 authored records grouped under Typhlops by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 17 authored records grouped under Typhlops by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 59X6Z
+              name: Typhlops agoralionis
+              canonicalPath: content/nodes/COL%3A59X6Z
+            - colId: 59X8W
+              name: Typhlops capitulatus
+              canonicalPath: content/nodes/COL%3A59X8W
+            - colId: 7DD4R
+              name: Typhlops eperopeus
+              canonicalPath: content/nodes/COL%3A7DD4R
+            - colId: 59XBL
+              name: Typhlops gonavensis
+              canonicalPath: content/nodes/COL%3A59XBL
+            - colId: 59XC2
+              name: Typhlops hectus
+              canonicalPath: content/nodes/COL%3A59XC2
+          fieldCountDistribution:
+            "3": 17
+    limitations:
+      zh:
+        page: zh
+        section: s-31afb52889
+        part: body
+      en:
+        page: en
+        section: s-9ba7c888b9
+        part: body

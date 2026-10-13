@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Microhyla mixtura
+    name:
+      en: Microhyla mixtura
+      zh: Microhyla mixtura
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Microhyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f8a0c935ff
+            part: body
+          zh:
+            page: zh
+            section: s-1f97aa35e4
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-84b7ed8737
+            part: body
+          zh:
+            page: zh
+            section: s-207f3a906e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3289, 3290; Reference.csv rows 860
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3289
+        values:
+          - Microhylidae
+          - Microhyla
+          - Microhyla mixtura
+          - M
+          - "22.16"
+          - "6.2"
+          - "7.32"
+          - "2.72"
+          - NA
+          - NA
+          - "2.81"
+          - "1.92"
+          - "1.51"
+          - NA
+          - "2.9"
+          - NA
+          - "5.79"
+          - NA
+          - "9.6"
+          - "12.76"
+          - NA
+          - "13.12"
+          - NA
+          - "5.7"
+          - "38.93"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3290
+        values:
+          - Microhylidae
+          - Microhyla
+          - Microhyla mixtura
+          - F
+          - "25.52"
+          - "7.26"
+          - "7.39"
+          - "3.15"
+          - NA
+          - NA
+          - "2.95"
+          - "1.99"
+          - "1.74"
+          - NA
+          - "3.13"
+          - NA
+          - "6.02"
+          - NA
+          - "9.35"
+          - "13.65"
+          - NA
+          - "14"
+          - NA
+          - "6.02"
+          - "43.03"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 860
+        values:
+          - Anura
+          - Microhyla_mixtura
+          - "Zhang, M. H., Fe, L., Ye, C. Y., Wang, Y. F., Wang, B., & Jiang, J. P. (2018). A New Species of Genus Microhyla(Amphibia: Anura: Microhylidae) from Zhejiang Province, China. Asian Herpetological Research, 9(3), 135-148. https://doi.org/10.16373/j.cnki.ahr.180032"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 73H39
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis xerophilus
+  displayName: Boophis xerophilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHVD
+  sourceIndexes:
+    - name:
+        en: Boophis xerophilus
+        zh: Boophis xerophilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHVD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/311
+            queryName: Boophis xerophilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f695457315
+      - s-836c5720bb
+      - s-9789991617
+      - s-651d5b4b8d
+      - s-e2cbf63f7a
+      - s-173daecd8f
+      - s-767a038222
+      - s-825630da4b
+      - s-bcd3778389
+      - s-47eb528334
+      - s-ff98f9ac72
+      - s-df2fd99519
+      - s-5c3df89502
+    zh:
+      - s-141358fcca
+      - s-e59290596c
+      - s-a242504693
+      - s-13868e3646
+      - s-0533ad6e51
+      - s-336235aeb3
+      - s-43031b8388
+      - s-4844301ad6
+      - s-c3f832732e
+      - s-a57339bf9c
+      - s-7e9c4f4ce9
+      - s-e34078e038
+      - s-a948243454

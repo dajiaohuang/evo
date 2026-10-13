@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lystrosaurus maccaigi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Lystrosaurus maccaigi
+      en: Lystrosaurus maccaigi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1fc737b504
+            part: body
+          en:
+            page: en
+            section: s-0f92edef96
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-95a54f3b14
+            part: body
+          en:
+            page: en
+            section: s-5413305ade
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2fc1a47b48
+            part: body
+          en:
+            page: en
+            section: s-cda0bc4b8a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a86815aa90
+            part: body
+          en:
+            page: en
+            section: s-0b4a51a86f
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0b9b1f4426
+            part: body
+          en:
+            page: en
+            section: s-bb024be916
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Lystrosaurus maccaigi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=122672&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:122672; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:122672
+          selectedOccurrenceIds:
+            - occ:286245
+            - occ:286246
+            - occ:922724
+            - occ:1315259
+            - occ:1342998
+            - occ:1413656
+            - occ:1413659
+            - occ:1418582
+            - occ:1418583
+            - occ:1418584
+            - occ:1418588
+            - occ:1418592
+            - occ:1418593
+          selectedCollectionIds:
+            - col:27265
+            - col:27266
+            - col:105610
+            - col:176503
+            - col:181690
+            - col:195280
+            - col:195279
+            - col:176312
+            - col:88282
+            - col:174085
+            - col:117183
+            - col:196533
+          sourceReferenceIds:
+            - ref:7538
+            - ref:27216
+            - ref:66488
+            - ref:66836
+            - ref:27213
+            - ref:27201
+          originalIdentificationMappings:
+            - occurrenceId: occ:1315259
+              originalIdentifiedName: Lystrosaurus maccaigi n. sp.
+              acceptedName: Lystrosaurus maccaigi
+              difference: null
+            - occurrenceId: occ:1418592
+              originalIdentifiedName: Lystrosaurus amphibius n. sp.
+              acceptedName: Lystrosaurus maccaigi
+              difference: null
+            - occurrenceId: occ:1418593
+              originalIdentifiedName: Lystrosaurus putterilli n. sp.
+              acceptedName: Lystrosaurus maccaigi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-9917830034
+        part: body
+      en:
+        page: en
+        section: s-ae1216fa1a
+        part: body

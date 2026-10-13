@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus ulcerosus
+  displayName: Mantidactylus ulcerosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWFT
+  sourceIndexes:
+    - name:
+        en: Mantidactylus ulcerosus
+        zh: Mantidactylus ulcerosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWFT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/361
+            queryName: Mantidactylus ulcerosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/192
+            queryName: Limnodytes ulcerosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/193
+            queryName: Rana ulcerosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/195
+            queryName: Mantidactylus brauni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8b5ea0598b
+      - s-fd7e6775a5
+      - s-7ceaab9d69
+      - s-460a623c47
+      - s-d002cfa121
+      - s-e03867376b
+      - s-d855b89066
+      - s-4e51a7c1d0
+      - s-68d2a7d724
+    zh:
+      - s-4f53159d27
+      - s-a5f5bf3bf3
+      - s-5788021d3c
+      - s-d1eca857af
+      - s-98b3ef3b4c
+      - s-995751508b
+      - s-cf99b7210b
+      - s-70561a0313
+      - s-161658c6b2

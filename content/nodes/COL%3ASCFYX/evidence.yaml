@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis nankints Ron, Carrión, Caminer, Sagredo, Navarrete, Ortega, Varela-Jaramillo, Maldonado-Castro et al., 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis nankints
+      zh: Pristimantis nankints
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8764a69a60
+            part: title
+          zh:
+            page: zh
+            section: s-0cc29d30dd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8764a69a60
+            part: body
+          zh:
+            page: zh
+            section: s-0cc29d30dd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bd20d129ab
+            part: title
+          zh:
+            page: zh
+            section: s-791358504b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bd20d129ab
+            part: body
+          zh:
+            page: zh
+            section: s-791358504b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-adbeec20a4
+            part: title
+          zh:
+            page: zh
+            section: s-5f1e36e75c
+            part: title
+        sourceIds:
+          - primary-pmc7683497-scfyx
+        text:
+          en:
+            page: en
+            section: s-adbeec20a4
+            part: body
+          zh:
+            page: zh
+            section: s-5f1e36e75c
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-c954c8a7b0
+            part: title
+          zh:
+            page: zh
+            section: s-9c5fd9cbc1
+            part: title
+        sourceIds:
+          - primary-pmc7683497-scfyx
+        text:
+          en:
+            page: en
+            section: s-c954c8a7b0
+            part: body
+          zh:
+            page: zh
+            section: s-9c5fd9cbc1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis nankints
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCFYX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7683497-scfyx
+        referenceId: ref-a0fa4731-acfb-4729-ad89-1dfc084dfcae
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis nankints: Species distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-dc024b6562
+        part: body
+      zh:
+        page: zh
+        section: s-0391da9f7b
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.993.53559
+        referenceId: ref-a0fa4731-acfb-4729-ad89-1dfc084dfcae
+        sourceKey: primary-pmc7683497-scfyx
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7683497/article.xml
+        sourceConcept: Pristimantis nankints
+        evidenceRead: "Pristimantis nankints: Species distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: One Cutucú locality
+              zh: Cutucú 的一个地点
+            referenceId: ref-a0fa4731-acfb-4729-ad89-1dfc084dfcae
+            sourceKey: primary-pmc7683497-scfyx
+            locator: "Pristimantis nankints: Species distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-83b91e3e8e
+                part: body
+              zh:
+                page: zh
+                section: s-1d96973e8e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Egg deposition after capture
+              zh: 采集后的排卵
+            referenceId: ref-a0fa4731-acfb-4729-ad89-1dfc084dfcae
+            sourceKey: primary-pmc7683497-scfyx
+            locator: "Pristimantis nankints: Species distribution, natural-history and conservation account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-200f0dc49d
+                part: body
+              zh:
+                page: zh
+                section: s-b92d46b1a1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

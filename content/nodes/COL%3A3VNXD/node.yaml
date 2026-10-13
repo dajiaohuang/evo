@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Liuixalus shiwandashan
+  displayName: Liuixalus shiwandashan
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VNXD
+  sourceIndexes:
+    - name:
+        en: Liuixalus shiwandashan
+        zh: Liuixalus shiwandashan
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VNXD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/227
+            queryName: Liuixalus shiwandashan
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e1325fcb3f
+      - s-7a11fb960b
+      - s-0aead46310
+      - s-2119ef560c
+      - s-3007d17a61
+      - s-cd4bb886ab
+      - s-606bb2463b
+    zh:
+      - s-f52da0ee12
+      - s-8bdab2b2f9
+      - s-0721dd253d
+      - s-87861a4263
+      - s-b0d5daa97c
+      - s-d0f80613fc
+      - s-d60880eeb7

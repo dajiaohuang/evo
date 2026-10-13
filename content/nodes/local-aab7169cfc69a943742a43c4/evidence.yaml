@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nothophryne unilurio
+    name:
+      en: Nothophryne unilurio
+      zh: Nothophryne unilurio
+    sourceClassification:
+      order: Anura
+      family: Pyxicephalidae
+      genus: Nothophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4d37f428e2
+            part: body
+          zh:
+            page: zh
+            section: s-5339f4aa32
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d857e8307f
+            part: body
+          zh:
+            page: zh
+            section: s-15a3c56df2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3555; Reference.csv rows 3432
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3555
+        values:
+          - Pyxicephalidae
+          - Nothophryne
+          - Nothophryne unilurio
+          - M
+          - NA
+          - "6.2"
+          - "7.7"
+          - "2.4"
+          - "0.8"
+          - NA
+          - "1.5"
+          - "1.9"
+          - "1.7"
+          - "1.6"
+          - "3"
+          - NA
+          - "4.3"
+          - "3.8"
+          - NA
+          - "8.9"
+          - NA
+          - "9.1"
+          - "9.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3432
+        values:
+          - Anura
+          - Nothophryne_unilurio
+          - "Conradie, W., Bittencourt-Silva, G., Farooq, H., Loader, S., Menegon, M., & Tolley, K. (2018). New species of Mongrel Frogs (Pyxicephalidae: Nothophryne) for northern Mozambique inselbergs. African Journal of Herpetology, 1-25. https://doi.org/10.1080/21564574.2017.1376714"
+    availableTraitCodes:
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 47TLD
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,545 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Beelzebufo ampinga
+    rank: species
+    sourceTaxonId: txn:118075
+    name:
+      en: Beelzebufo ampinga
+      zh: Beelzebufo ampinga
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-471e03e948
+            part: body
+          zh:
+            page: zh
+            section: s-ad4f264c24
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 27 PBDB occurrence rows and collection fields
+          zh: 27 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-fbde6348a1
+            part: body
+          zh:
+            page: zh
+            section: s-2902bccec4
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Beelzebufo ampinga
+          zh: Beelzebufo ampinga 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-44a7c087e6
+            part: body
+          zh:
+            page: zh
+            section: s-c679130e6d
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:118075; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: S. E. Evans, M. E. H. Jones, and D. W. Krause. 2008. A giant frog with South American affinities from the Late Cretaceous of Madagascar. Proceedings of the National Academy of Sciences 105(8):2951-2956
+    occurrenceEvidence:
+      - occurrenceId: occ:483686
+        collectionId: col:48389
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:735475
+        collectionId: col:78931
+        acceptedTaxonId: txn:118075
+        identifiedName: Beelzebufo ampinga n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:26523
+        bibliography: S. E. Evans, M. E. H. Jones, and D. W. Krause. 2008. A giant frog with South American affinities from the Late Cretaceous of Madagascar. Proceedings of the National Academy of Sciences 105(8):2951-2956
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:983390
+        collectionId: col:117797
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192695
+        collectionId: col:144918
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Berivotra
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192696
+        collectionId: col:91203
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Lac Kinkony
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192697
+        collectionId: col:55268
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192698
+        collectionId: col:118200
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192699
+        collectionId: col:96692
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192700
+        collectionId: col:154139
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192701
+        collectionId: col:32366
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192702
+        collectionId: col:55269
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192703
+        collectionId: col:39266
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192704
+        collectionId: col:154140
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192705
+        collectionId: col:55270
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192706
+        collectionId: col:154141
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192707
+        collectionId: col:118202
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192708
+        collectionId: col:154142
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192709
+        collectionId: col:154143
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192710
+        collectionId: col:154144
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192711
+        collectionId: col:154145
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Masorobe
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192712
+        collectionId: col:154146
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192713
+        collectionId: col:143192
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192714
+        collectionId: col:154148
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192715
+        collectionId: col:154149
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Anembalemba
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192716
+        collectionId: col:154150
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Lac Kinkony
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192717
+        collectionId: col:154151
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1192718
+        collectionId: col:154152
+        acceptedTaxonId: txn:118075
+        taxonomicDifference: null
+        referenceId: ref:49974
+        bibliography: "S. E. Evans, J. R. Groenke, and M. E. H. Jones, A. H. Turner, D. W. Krause. 2014. New material of Beelzebufo, a hyperossified frog (Amphibia: Anura) from the Late Cretaceous of Madagascar. PLoS One 9(1):e87236"
+        locality:
+          countryCode: MG
+          stateProvince: Mahajanga
+          county: null
+        stratigraphy:
+          group: null
+          formation: Maevarano
+          member: Lac Kinkony
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Beelzebufo ampinga
+          zh: Beelzebufo ampinga 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-44a7c087e6
+            part: body
+          zh:
+            page: zh
+            section: s-c679130e6d
+            part: body
+        sourceIds: []

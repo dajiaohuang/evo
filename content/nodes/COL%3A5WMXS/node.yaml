@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla astartea
+  displayName: Bokermannohyla astartea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WMXS
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla astartea
+        zh: Bokermannohyla astartea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WMXS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/47
+            queryName: Bokermannohyla astartea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/266
+            queryName: Hyla astartea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/419
+            queryName: Boana astartea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f27445958a
+      - s-8faeef2543
+      - s-32b1642d5f
+      - s-e4d4c7d009
+      - s-c8aa80b9e1
+      - s-d07d85fcc0
+      - s-9a5d9f8b0b
+      - s-4cd8d0d042
+      - s-888e1e8f49
+      - s-65d3a88929
+      - s-21264c36b5
+      - s-1e59275cba
+      - s-5a4ddeb249
+      - s-ee75df3c1c
+      - s-6a8e3aaf0b
+      - s-67358b1bef
+      - s-4339825e25
+    zh:
+      - s-ab362cdae5
+      - s-ede7a6a3a6
+      - s-fa7bb9b2b5
+      - s-c6ab41b122
+      - s-e031121efd
+      - s-e3d7c3b1c1
+      - s-c8f776dbe2
+      - s-a569b0b915
+      - s-d0aa07738b
+      - s-0dd9f78ca1
+      - s-b42bc52d39
+      - s-6fa82e6f86
+      - s-b7eaea2851
+      - s-f5c673b11d
+      - s-2c988d0d6e
+      - s-e5b4d8d338
+      - s-d7ee0facff

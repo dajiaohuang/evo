@@ -1,0 +1,214 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Freziera carinata A.L.Weitzman
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: COL26.8 accepted species ID 6JMXR and exact name/authorship map through exactly one accepted WFO usage wfo-0000692367; the Brazilian Flora source record carries the same WFO ID.
+      scope: COL26.8 accepted species concept. Brazilian Flora fields remain regional dataset records; no global, current, complete-range or taxonomic-equivalence claim is made.
+      sourceIds:
+        - col26
+        - wfo2026
+        - brazilFlora2020
+      classificationPath:
+        - id: 6JMXR
+          scientificName: Freziera carinata A.L.Weitzman
+          rank: species
+          status: accepted
+        - id: 4L5G
+          scientificName: Freziera Sw. ex Willd.
+          rank: genus
+          status: accepted
+        - id: KVCJR
+          scientificName: Freziereae DC.
+          rank: tribe
+          status: accepted
+        - id: 6265Q
+          scientificName: Pentaphylacaceae Engl.
+          rank: family
+          status: accepted
+        - id: 625QY
+          scientificName: Ericales Bercht. & J.Presl
+          rank: order
+          status: accepted
+        - id: MG
+          scientificName: Magnoliopsida
+          rank: class
+          status: accepted
+        - id: TP
+          scientificName: Tracheophyta
+          rank: phylum
+          status: accepted
+        - id: CMQ8S
+          scientificName: Pteridobiotina Britton & Brown
+          rank: subkingdom
+          status: accepted
+        - id: P
+          scientificName: Plantae
+          rank: kingdom
+          status: accepted
+        - id: CS5HF
+          scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+          rank: domain
+          status: accepted
+    lifeStatusScope:
+      wild: Wild status is not specified in these source fields.
+      domesticated: Cultivated or managed status is not specified; none is inferred.
+      fossil: Fossil applicability is not assessed from this extant-flora source.
+    sources:
+      - id: col26
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 24
+        usage:
+          licenseAppliesTo: Nomenclatural identity record only; no biological text reused
+          title: Catalogue of Life COL26.8, ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/6JMXR
+          stableId: COL26.8:6JMXR
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 6JMXR; source dataset 1141
+          attribution: Catalogue of Life COL26.8; underlying dataset 1141
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, COL ID, parent chain and source dataset identity only.
+      - id: wfo2026
+        referenceId: ref-43499f65-2865-819f-a936-29a569ccf911
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: WFO nomenclatural data
+          title: World Flora Online Plant List 2026-06, pinned exact COL-to-WFO crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000692367-2026-06
+          stableId: wfo:wfo-0000692367-2026-06
+          version: WFO Plant List 2026-06, issued 2026-06-21; crosswalk sidecar pinned in this repository
+          publishedAt: 2026-06-21
+          accessedAt: 2026-09-27
+          locator: Accepted species record wfo-0000692367; exact accepted-name/authorship mapping to COL 6JMXR
+          attribution: World Flora Online Plant List 2026-06
+          licenseAssessment: identity-only
+          scope: Exact accepted-name and authorship species crosswalk; nomenclatural identity only.
+      - id: brazilFlora2020
+        referenceId: ref-352c188a-fa63-8d4e-a243-10428cf85b9c
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Brazilian Flora 2020 archived dataset fields; not inferred for linked publications, images or PDFs
+          stableId: doi:10.15468/1mtkaw; archive sha256 79455efc837678d0812c4f83247c9f024ab4d8dae43fe72f5c40b2302d50c923; WFO wfo-0000692367
+          accessedAt: 2026-09-06
+          locator: 'Brazilian Flora 2020 v393.147, morphology row 90658; WFO wfo-0000692367; source identifier ref-morph-BR-pt-0000692367; reference row 53837; source-reported citation: "Vieira, J.A.; Sampaio, D. Pentaphylacaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB135640. Accessed on: Jun. 30, 2021."; habitat row 40094; habitat row 40095'
+          attribution: "Group Brazil Flora, REFLORA Program (2014): Brazilian Flora 2020, v393.147, doi:10.15468/1mtkaw"
+          licenseAssessment: aggregate-declaration-only
+          scope: Regional source fields are retained verbatim with physical archive row locators. A morphology citation is the reference reported by the dataset; rights for the referenced publication are not independently verified. Habitat rows have dataset-level attribution only.
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-aac156cdda
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-59d1e545d5
+          part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Caule: forma arredondado(s)/estriado(s)/achatado(s) ao longo(s) do ramo(s)/glabrescente(s) ou estrigoso(s). Folha: disposição simples/alterna(s)/dística(s); pecíolo(s) face(s) adaxial canaliculada(s)/face(s) abaxial quilhada/coberto pela(s) base decorrente(s) do limbo/glabrescente(s); forma do limbo subcoriácea(s)/elíptico(s)/oblanceolada(s)/ápice(s) agudo(s)/ápice(s) acuminado(s)/base obtusa(s) estreito(s) auriculada(s)/presença de dente(s) setáceo(s) na(s) margem(ns)/aurícula(s) revoluta(s) em folha(s) madura(s); indumento face(s) adaxial glabra(s)/face(s) abaxial esparso(s) velutino(s); venação pinada(s) semicraspedódroma(s)/nervura-central adaxial levemente sulcada(s) e glabra(s)/nervura-central abaxial saliente(s) e quilhada/nervura-lateral regular(es) alterna(s) percorrente uniforme/32 pares de nervura(s)/areolação ausente(s); folha(s) terminal(ais) conduplicada(s)/involuta(s)/face(s) abaxial vilosa(s)/nervura-central pubescente(s) na(s) porção distal(ais) da face(s) abaxial. Inflorescência: disposição fasciculada(s) racemosa(s)/axila(s)/1 - 5 ( 7 ) por axila(s); sexualidade ginodioica(s)/flor(es) pistilada(s)/flor(es) estaminada(s). Flor: pedicelo(s) glabro(s)/estrigoso(s); bráctea(s) 2/oposta(s)/ovada(s)/estrigosa(s)/margem(ns) glandular(es) ciliada(s); cálice(s) 5 sépala(s)/imbricada(s)/face(s) externa(s) pubescente(s)/face(s) externa(s) glabrescente(s)/face(s) interna(s) glabra(s); sépala(s) externa(s) 2/ovada(s)/ápice(s) arredondada(s)/margem(ns) ciliada(s)/escariosa(s); sépala(s) interna(s) 3/ápice(s) arredondada(s); corola 5 pétala(s)/imbricada(s)/urceolada(s)/membranácea(s)/glabra(s); pétala(s) externa(s) 2/arredondada(s)/ápice(s) agudo(s); pétala(s) interna(s) ovada(s)/ápice(s) agudo(s); androceu 15 estame(s) em flor(es) estaminada(s)/15 estaminódio(s) em flor(es) pistilada(s)/prolongamento do conectivo(s) ovado(s) apiculado(s); gineceu pistilo(s) piriforme(s)/3 lóculo(s)/estilete(s) funiforme(s)/papilado(s)/estigma(s) 3 lobulado(s)/ovário(s) glabra(s) pluriovulada(s). Fruto: forma globoso(s)/funiforme(s)/estilete(s) persistente(s)."
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: 'Brazilian Flora 2020 v393.147, morphology description row 90658; WFO wfo-0000692367; source identifier ref-morph-BR-pt-0000692367; reference row 53837; dataset-reported citation: "Vieira, J.A.; Sampaio, D. Pentaphylacaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB135640. Accessed on: Jun. 30, 2021."'
+            placeTimeScope: Verbatim morphology field in the Brazilian Flora 2020 regional dataset. The field does not establish a global description, sampling coverage, population variation, sex or life stage unless stated in its text.
+            lifeStatus: The field does not state whether observations concern wild, cultivated, managed or fossil material; none is inferred.
+        gaps:
+          - Only one source-labelled morphology field is included; its completeness, variation and diagnostic scope have not been assessed.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - The source habit field is not treated as life-history evidence; life cycle and reproduction were not assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rupícola
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: Brazilian Flora 2020 v393.147, habitat field row 40094; dataset DOI 10.15468/1mtkaw; WFO wfo-0000692367
+            placeTimeScope: Habitat or substrate category exactly as recorded in this Brazilian Flora dataset row; no collection locality, survey date, global range or sampling completeness is supplied by the field.
+            lifeStatus: Wild, cultivated, managed and fossil applicability are not specified by this field.
+          - text: Terrícola
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: Brazilian Flora 2020 v393.147, habitat field row 40095; dataset DOI 10.15468/1mtkaw; WFO wfo-0000692367
+            placeTimeScope: Habitat or substrate category exactly as recorded in this Brazilian Flora dataset row; no collection locality, survey date, global range or sampling completeness is supplied by the field.
+            lifeStatus: Wild, cultivated, managed and fossil applicability are not specified by this field.
+        gaps:
+          - Only source-labelled habitat field(s) are included; interactions, variation, locality and sampling coverage have not been assessed.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level phylogenetic or comparative evidence was assessed.
+      distribution:
+        status: not-assessed
+        gaps:
+          - No locality or range evidence was assessed; the regional flora dataset does not establish a complete distribution.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil search or species-level fossil evidence was assessed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No qualifying conservation assessment was reviewed.

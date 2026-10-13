@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Jingophrys zhoui (Shi, Zhang, Xie, Jiang, Liu, Ding, Luan & Wang, 2020)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Jingophrys zhoui
+      zh: Jingophrys zhoui
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-309fbb8f99
+            part: title
+          zh:
+            page: zh
+            section: s-f8cb1c65b2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-309fbb8f99
+            part: body
+          zh:
+            page: zh
+            section: s-f8cb1c65b2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-74460ca25e
+            part: title
+          zh:
+            page: zh
+            section: s-7c5d7bef19
+            part: title
+        text:
+          en:
+            page: en
+            section: s-74460ca25e
+            part: body
+          zh:
+            page: zh
+            section: s-7c5d7bef19
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-c2744a769b
+            part: title
+          zh:
+            page: zh
+            section: s-e5b98623dd
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v56rp
+        text:
+          en:
+            page: en
+            section: s-c2744a769b
+            part: body
+          zh:
+            page: zh
+            section: s-e5b98623dd
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6b189a89fb
+            part: title
+          zh:
+            page: zh
+            section: s-40be30b33e
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v56rp
+        text:
+          en:
+            page: en
+            section: s-6b189a89fb
+            part: body
+          zh:
+            page: zh
+            section: s-40be30b33e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Jingophrys zhoui
+          url: https://www.checklistbank.org/dataset/316115/taxon/V56RP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10083232-v56rp
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Jingophrys zhoui: Named species types, specimens examined, diagnosis and distribution; historical and current measurements retained separately; no source figures or tables reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fd123fd670
+        part: body
+      zh:
+        page: zh
+        section: s-da0eb9f547
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v56rp
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Jingophrys zhoui
+        evidenceRead: "Jingophrys zhoui: Named species types, specimens examined, diagnosis and distribution; historical and current measurements retained separately; no source figures or tables reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Renqingbeng type-locality knowledge
+              zh: 仁青崩模式地点知识
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v56rp
+            locator: RESULTS > Jingophrys zhoui; Holotype and Distribution; reading-sections index 12, section s03.26
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eea9bf84de
+                part: body
+              zh:
+                page: zh
+                section: s-beb4335bf8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: A diagnosis based on three original adults
+              zh: 依据三只原始成体的鉴别
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v56rp
+            locator: RESULTS > Jingophrys zhoui; Paratypes and Diagnosis characters 1, 4, 7, 9 and 11; reading-sections index 12, section s03.26
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f459fa02a9
+                part: body
+              zh:
+                page: zh
+                section: s-7014dc7361
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

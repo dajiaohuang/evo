@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla circumdata
+  displayName: Bokermannohyla circumdata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68MY4
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla circumdata
+        zh: Bokermannohyla circumdata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68MY4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/51
+            queryName: Bokermannohyla circumdata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/307
+            queryName: Hyla circumdata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/423
+            queryName: Hypsiboas circumdatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/424
+            queryName: Hyla circundata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/425
+            queryName: Boana circumdata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3741f444fa
+      - s-77c9c3f101
+      - s-5e7bbdf828
+      - s-d35316aa87
+      - s-4913f31370
+      - s-f0eea37a5f
+      - s-4f8494b962
+      - s-6c36e3d169
+      - s-e415b2ccae
+      - s-065f1971b5
+      - s-14f2b98dad
+      - s-17d3aea522
+      - s-75847168b4
+      - s-1780bd7f80
+      - s-b873937e34
+      - s-9e226ddd4e
+    zh:
+      - s-85a19aa59c
+      - s-f4ce34a124
+      - s-d919fa1df5
+      - s-06b4c7e362
+      - s-09d6cf5574
+      - s-3260870eb1
+      - s-e2f277b9ee
+      - s-318367617c
+      - s-77e0779717
+      - s-0e816479d8
+      - s-f2d8f518da
+      - s-84c2b0b57b
+      - s-1b82c6fd09
+      - s-78c004bd33
+      - s-4c7aca139f
+      - s-f87e6fe83f

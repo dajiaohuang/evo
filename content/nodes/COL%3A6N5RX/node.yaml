@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis sendenyu
+  displayName: Ichthyophis sendenyu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5RX
+  sourceIndexes:
+    - name:
+        en: Ichthyophis sendenyu
+        zh: Ichthyophis sendenyu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5RX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/424
+            queryName: Ichthyophis sendenyu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-88ae516052
+      - s-82c24b615c
+      - s-0aaf564360
+      - s-c3e488495b
+      - s-719b6768f7
+      - s-3d27e98087
+      - s-5f8fa03c5d
+      - s-bd8d8ede5d
+      - s-1f3b02c2b2
+      - s-817c7052b3
+      - s-8b611a2cfd
+      - s-dbbfb47fc5
+    zh:
+      - s-089deb633e
+      - s-6b00d29bc7
+      - s-f43129abb6
+      - s-611da74c07
+      - s-16c67b2b7b
+      - s-9aebd4b573
+      - s-c278017556
+      - s-86f2300149
+      - s-630e486201
+      - s-bb9d38fd34
+      - s-908cf17030
+      - s-89742301c3

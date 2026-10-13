@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylophorbus tetraphonus
+  displayName: Hylophorbus tetraphonus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGM2
+  sourceIndexes:
+    - name:
+        en: Hylophorbus tetraphonus
+        zh: Hylophorbus tetraphonus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGM2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/30
+            queryName: Hylophorbus tetraphonus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7833dfad28
+      - s-404df6a78e
+      - s-f05270a728
+      - s-36937f458a
+      - s-7de81b86eb
+      - s-bfde7825d1
+      - s-ae6cadf0f0
+    zh:
+      - s-75c9a6fd13
+      - s-4cab112ecf
+      - s-bec6cec11b
+      - s-8b17f35088
+      - s-4b1b97d4fc
+      - s-e136793263
+      - s-f1605baafc

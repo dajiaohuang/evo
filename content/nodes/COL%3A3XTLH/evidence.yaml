@@ -1,0 +1,423 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mandrillus sphinx (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mandrill
+      zh: 山魈
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-2787d4a192
+            part: body
+          zh:
+            page: zh
+            section: s-bca1bba556
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_label
+      - topic: fieldEcology
+        text:
+          en:
+            page: en
+            section: s-78877053d9
+            part: body
+          zh:
+            page: zh
+            section: s-b320d6ec4d
+            part: body
+        sourceIds:
+          - lahm1986
+      - topic: homeRange
+        text:
+          en:
+            page: en
+            section: s-9159e0ac67
+            part: body
+          zh:
+            page: zh
+            section: s-7753a88c90
+            part: body
+        sourceIds:
+          - white2010
+      - topic: seasonalDiet
+        text:
+          en:
+            page: en
+            section: s-5150971984
+            part: body
+          zh:
+            page: zh
+            section: s-91a757c522
+            part: body
+        sourceIds:
+          - hongo2018
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-3ef6edee08
+            part: body
+          en:
+            page: en
+            section: s-d9ac7f9515
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-22369605b9
+            part: body
+          en:
+            page: en
+            section: s-73f970038d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-e8931ad9ec
+            part: body
+          en:
+            page: en
+            section: s-d4433b6edd
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-d4711add66
+            part: body
+          en:
+            page: en
+            section: s-e1e2bb2be3
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-18b9c13cf6
+            part: body
+          en:
+            page: en
+            section: s-ea22c67df5
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f2a37c7a5c
+            part: body
+          en:
+            page: en
+            section: s-41b9e61711
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-ada6255cdc
+            part: body
+          en:
+            page: en
+            section: s-69bda6fe9d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-c2a3044ff6
+            part: body
+          en:
+            page: en
+            section: s-b7c5029941
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-026db33e5e
+            part: body
+          en:
+            page: en
+            section: s-0814d92f9b
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8c4785df09
+            part: body
+          en:
+            page: en
+            section: s-2132cc387f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-7036394d-ac25-8d37-a64f-cde937b873b8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins accepted identity, authorship, rank and parent genus.
+            zh: 固定接受身份、作者、等级与父属。
+      - id: mdd_label
+        referenceId: ref-47b54db5-f68c-89c9-a377-fc9c0e5f86ae
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supplies the English display name; COL26.8 remains the page identity.
+            zh: 提供英文显示名；页面身份仍按 COL26.8 固定。
+      - id: lahm1986
+        referenceId: ref-0f60cb24-a4a3-8160-a0c8-eb54da0964e5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Direct observations and feeding remains from northeastern and central Gabon in 1982–1983.
+            zh: 1982 至 1983 年在加蓬东北部和中部进行的直接观察与食物残留分析。
+      - id: white2010
+        referenceId: ref-62446d0c-6901-827d-a120-a5376945f69e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Six-year radiotelemetry of one approximately 700-member horde in Lopé National Park.
+            zh: 在 Lopé 国家公园对一个约 700 只的群体开展六年无线电遥测。
+      - id: hongo2018
+        referenceId: ref-62b59ec2-b41a-8fc8-ad4c-c6c2785dbe90
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Fruit counts, camera-trap visits and fecal analyses in Moukalaba–Doudou National Park, Gabon.
+            zh: 在加蓬 Moukalaba–Doudou 国家公园开展果实清点、相机记录与粪便分析。
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12160; name Mandrillus sphinx; reference table row 12160; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: de Magalhaes and Costa, 2009 from median of 7(Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            female_maturity_d: mean of Ricklefs, 2010b & Ernest et al., 2003 from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            litter_or_clutch_size_n: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 & Ernest et al., 2003 from median of 4(Garratt et al., 2014, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            gestation_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            weaning_d: de Magalhaes and Costa, 2009 from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            birth_or_hatching_weight_g: Ricklefs, 2010b from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            maximum_longevity_y: Jones, K., Bielby, J., Cardillo, M. et al., 2009
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Ricklefs, 2010b
+            - Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000
+            - Garratt et al., 2014
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 747; Scientific=Mandrillus sphinx; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-ad441e1599
+        part: body
+      zh:
+        page: zh
+        section: s-f754ba0c2a
+        part: body

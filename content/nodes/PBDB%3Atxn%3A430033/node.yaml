@@ -1,0 +1,20 @@
+schemaVersion: 1
+identity:
+  kind: topic
+  scientificName: Propelargus elatus
+  displayName: Propelargus elatus
+  sourceIdentity:
+    authority: PBDB
+    oid: txn:430033
+    snapshot: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+  placementStatus: unresolved-navigation-topic
+  sourceIndexes:
+    - scientificName: Propelargus elatus
+      sourceIdentity: PBDB:txn:430033
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators: []
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

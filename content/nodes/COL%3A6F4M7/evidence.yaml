@@ -1,0 +1,724 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eleutherodactylus cystignathoides (Cope, 1877)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Eleutherodactylus cystignathoides
+      zh: Eleutherodactylus cystignathoides
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a5ff01aeda
+            part: title
+          zh:
+            page: zh
+            section: s-4101803d9b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a5ff01aeda
+            part: body
+          zh:
+            page: zh
+            section: s-4101803d9b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2539b529b9
+            part: title
+          zh:
+            page: zh
+            section: s-a24cde641d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2539b529b9
+            part: body
+          zh:
+            page: zh
+            section: s-a24cde641d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-6a87056324
+            part: title
+          zh:
+            page: zh
+            section: s-84d53a9b0d
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-6a87056324
+            part: body
+          zh:
+            page: zh
+            section: s-84d53a9b0d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4308527c32
+            part: title
+          zh:
+            page: zh
+            section: s-47afdfbefd
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-4308527c32
+            part: body
+          zh:
+            page: zh
+            section: s-47afdfbefd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8571f5fc45
+            part: title
+          zh:
+            page: zh
+            section: s-76b9f94ea3
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+          - Noc
+          - Crepu
+        text:
+          en:
+            page: en
+            section: s-8571f5fc45
+            part: body
+          zh:
+            page: zh
+            section: s-76b9f94ea3
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f61be7d311
+            part: title
+          zh:
+            page: zh
+            section: s-2ee5f94ac5
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-f61be7d311
+            part: body
+          zh:
+            page: zh
+            section: s-2ee5f94ac5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b94de2bbee
+            part: title
+          zh:
+            page: zh
+            section: s-b123f2526a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-b94de2bbee
+            part: body
+          zh:
+            page: zh
+            section: s-b123f2526a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-d5896aa754
+            part: title
+          zh:
+            page: zh
+            section: s-3aa3b8cf7b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-d5896aa754
+            part: body
+          zh:
+            page: zh
+            section: s-3aa3b8cf7b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-d36092b2fe
+            part: title
+          zh:
+            page: zh
+            section: s-af8a8916c2
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-d36092b2fe
+            part: body
+          zh:
+            page: zh
+            section: s-af8a8916c2
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e0f9ad9be9
+            part: title
+          zh:
+            page: zh
+            section: s-ba5805c53b
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e0f9ad9be9
+            part: body
+          zh:
+            page: zh
+            section: s-ba5805c53b
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-90b92e24b44483ddb77966c9157ab82d
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3353465823
+            part: title
+          zh:
+            page: zh
+            section: s-1b2bf35b35
+            part: title
+        sourceIds:
+          - primary-pmc7518159-6f4m7
+        text:
+          en:
+            page: en
+            section: s-3353465823
+            part: body
+          zh:
+            page: zh
+            section: s-1b2bf35b35
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8aa3b7887f
+            part: title
+          zh:
+            page: zh
+            section: s-f74d47d6ed
+            part: title
+        sourceIds:
+          - primary-pmc11677230-6f4m7
+        text:
+          en:
+            page: en
+            section: s-8aa3b7887f
+            part: body
+          zh:
+            page: zh
+            section: s-f74d47d6ed
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-2e57beb2be
+            part: title
+          zh:
+            page: zh
+            section: s-a87de1b802
+            part: title
+        sourceIds:
+          - primary-pmc11677230-6f4m7
+        text:
+          en:
+            page: en
+            section: s-2e57beb2be
+            part: body
+          zh:
+            page: zh
+            section: s-a87de1b802
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-5056cd1c10
+            part: title
+          zh:
+            page: zh
+            section: s-b5533e2333
+            part: title
+        sourceIds:
+          - primary-pmc11677230-6f4m7
+        text:
+          en:
+            page: en
+            section: s-5056cd1c10
+            part: body
+          zh:
+            page: zh
+            section: s-b5533e2333
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b87c0c7dd5
+            part: title
+          zh:
+            page: zh
+            section: s-7226637967
+            part: title
+        sourceIds:
+          - primary-pmc11677230-6f4m7
+        text:
+          en:
+            page: en
+            section: s-b87c0c7dd5
+            part: body
+          zh:
+            page: zh
+            section: s-7226637967
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f25532fc34
+            part: body
+          zh:
+            page: zh
+            section: s-7155e083be
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Eleutherodactylus cystignathoides
+          url: https://www.checklistbank.org/dataset/316115/taxon/6F4M7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 550238, row 326595; Distribution.tsv rows 82296, 82297; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1849; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1849 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc7518159-6f4m7
+        referenceId: ref-aa939430-0160-4adc-a421-e79425959058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Eleutherodactylus cystignathoides: Named species cave survey and pathogen observations, with explicit sample, historical-genotype and causal limits; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc11677230-6f4m7
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Eleutherodactylus cystignathoides: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-45a6d5cdde
+        part: body
+      zh:
+        page: zh
+        section: s-ee743f7f30
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "550238"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=550238
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 326595
+        key: "550238"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "550238"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 82296
+            key: 550238|Middle America|text|NULL|NULL
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "550238"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 82297
+            key: 550238|North America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-90b92e24b44483ddb77966c9157ab82d
+      sourceRowId: Anf1849
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf1849
+        bibliographyRowId: Anf1849
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Eleutherodactylus cystignathoides
+        candidateBibliographyRowIds:
+          - Anf1849
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.9763
+        referenceId: ref-aa939430-0160-4adc-a421-e79425959058
+        sourceKey: primary-pmc7518159-6f4m7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7518159/article.xml
+        sourceConcept: Eleutherodactylus cystignathoides
+        evidenceRead: "Eleutherodactylus cystignathoides: Named species cave survey and pathogen observations, with explicit sample, historical-genotype and causal limits; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Only two negative swabs at El Coni
+              zh: El Coni 仅两份阴性拭子
+            referenceId: ref-aa939430-0160-4adc-a421-e79425959058
+            sourceKey: primary-pmc7518159-6f4m7
+            locator: PMC7518159 reading-sections section 1, paragraph 1; section 3, paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e59800cacf
+                part: body
+              zh:
+                page: zh
+                section: s-60adc18dff
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7554/eLife.100011
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        sourceKey: primary-pmc11677230-6f4m7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11677230/article.xml
+        sourceConcept: Exactfixed source name Eleutherodactylus cystignathoides; 3 sampledanimals/UHPLC-HESI-MS/MS, no originalvoucher/currentconcept authentication
+        evidenceRead: "Eleutherodactylus cystignathoides: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Original bilingual factual synthesis of sampled skin chemistry and explicitly labelled mechanistic hypotheses; no figures or raw datasets reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Skin alkaloid measurements retain individuals and assay scope
+              zh: 皮肤生物碱测量保留个体及检测范围
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-6f4m7
+            locator: PMC11677230 XML table1 row32 exactEleutherodactylus cystignathoides*; tablecaption/footnote; s1-1 definitions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2b5f11e206
+                part: body
+              zh:
+                page: zh
+                section: s-ce67d912ff
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Collection and chemical interpretation limits
+              zh: 取样与化学解读限制
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-6f4m7
+            locator: PMC11677230 XML s3-1 collection; s3-2 assay; s3-4 analyses; s2-6 limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b2c61ac97e
+                part: body
+              zh:
+                page: zh
+                section: s-ce4f3fd37e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Passive accumulation remains a mechanistic hypothesis
+              zh: 被动积累仍是机制假说
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-6f4m7
+            locator: PMC11677230 XML s1-3 passive-accumulation definition/model; s2-3-2 elimination prediction; s2-3-3 transport/storage prediction; s2-7 conclusion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a1610ce502
+                part: body
+              zh:
+                page: zh
+                section: s-143f9ab4e1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Species-specific detections and their evidence limits
+              zh: 物种特定检出及证据限制
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-6f4m7
+            locator: PMC11677230 XML s2-2-5 namedEleutherodactylus cystignathoides discussion; table1 row32
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d1d0401529
+                part: body
+              zh:
+                page: zh
+                section: s-b22abc27d5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

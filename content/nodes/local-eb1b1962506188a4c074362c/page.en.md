@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-301188eb09}
+The version 3 Amphibian database lists Hyla chinensis in a source measurement table. Its classification fields read order = Anura, family = Hylidae, genus = Hyla; the linked citation is in Reference.csv row 3045. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-5f6eb41916}
+Anura.csv rows 2159, 2160 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 2159 (F) = 33.4, row 2160 (M) = 31.9; HL: row 2159 (F) = 9.8, row 2160 (M) = 8.9; HW: row 2159 (F) = 10.8, row 2160 (M) = 9.9; other populated codes are ED, TD, IOD, IND, UEW, SL, HAL, LAL, FL, TFL, TL, HLL, … (13 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

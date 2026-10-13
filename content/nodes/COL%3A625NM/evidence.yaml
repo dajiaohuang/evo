@@ -1,0 +1,332 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pipidae Gray, 1825
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Pipidae
+      zh: Pipidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0930278001
+            part: title
+          zh:
+            page: zh
+            section: s-4cd39e79c3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0930278001
+            part: body
+          zh:
+            page: zh
+            section: s-4cd39e79c3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4471b09941
+            part: title
+          zh:
+            page: zh
+            section: s-fa117d6db8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4471b09941
+            part: body
+          zh:
+            page: zh
+            section: s-fa117d6db8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-3706107b5e
+            part: title
+          zh:
+            page: zh
+            section: s-243ae2ffbe
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3706107b5e
+            part: body
+          zh:
+            page: zh
+            section: s-243ae2ffbe
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f18a03a3ea
+            part: title
+          zh:
+            page: zh
+            section: s-114a8a2c7c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f18a03a3ea
+            part: body
+          zh:
+            page: zh
+            section: s-114a8a2c7c
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-a68d5e6a3e
+            part: title
+          zh:
+            page: zh
+            section: s-d229ef43e9
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 628HP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A628HP
+            label:
+              en: Dactylethrinae
+              zh: Dactylethrinae
+          - kind: catalogue
+            colId: K5Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AK5Y
+            label:
+              en: Pipinae
+              zh: Pipinae
+        text:
+          en:
+            page: en
+            section: s-a68d5e6a3e
+            part: body
+          zh:
+            page: zh
+            section: s-d229ef43e9
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-9ce8937129
+            part: title
+          zh:
+            page: zh
+            section: s-b56ade16f0
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-9ce8937129
+            part: body
+          zh:
+            page: zh
+            section: s-b56ade16f0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pipidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/625NM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Pipidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Pipidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-30735bf73d
+        part: body
+      zh:
+        page: zh
+        section: s-7b396450b2
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Pipidae
+      sourceRowIds:
+        - Anf4552
+        - Anf4553
+        - Anf4554
+        - Anf4555
+        - Anf4556
+        - Anf4557
+        - Anf4558
+        - Anf4559
+        - Anf4560
+        - Anf4561
+        - Anf4562
+        - Anf4563
+        - Anf4564
+        - Anf4565
+        - Anf4566
+        - Anf4567
+        - Anf4568
+        - Anf4569
+        - Anf4570
+        - Anf4571
+        - Anf4572
+        - Anf4573
+        - Anf4574
+        - Anf4575
+        - Anf4576
+        - Anf4577
+        - Anf4578
+        - Anf4579
+        - Anf4580
+        - Anf4581
+        - Anf4582
+        - Anf4583
+        - Anf4584
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 7
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 26
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 33
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 23
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 3
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 26
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Xenopus laevis
+          path: content/nodes/local-3c1a476b9c837e327c7c8b6b
+        - scientificName: Pipa carvalhoi
+          path: content/nodes/local-e753bd5214a0665f36ebec4a
+        - scientificName: Xenopus tropicalis
+          path: content/nodes/local-28d483e64b2751c9549640b5
+      metrics:
+        - metric: LT50_hot
+          rows: 14
+          sourceConcepts: 1
+        - metric: CTmax
+          rows: 20
+          sourceConcepts: 2
+        - metric: CTmin
+          rows: 7
+          sourceConcepts: 2
+        - metric: Tpref
+          rows: 1
+          sourceConcepts: 1
+        - metric: LT50_cold
+          rows: 4
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

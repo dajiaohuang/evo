@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca rebeccae
+  displayName: Gastrotheca rebeccae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6K9VT
+  sourceIndexes:
+    - name:
+        en: Gastrotheca rebeccae
+        zh: Gastrotheca rebeccae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6K9VT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/71
+            queryName: Gastrotheca rebeccae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf6c6b240c
+      - s-5fcd404f1c
+      - s-c91a21b637
+      - s-1ce7d6bb8d
+      - s-c81b6ef87f
+      - s-b5332989eb
+      - s-f1b3998bd9
+    zh:
+      - s-c8e8c1291d
+      - s-84371d3c77
+      - s-4f1ff0f311
+      - s-6df10282a1
+      - s-06f717cfdb
+      - s-c6ec0ac391
+      - s-47e3a4706a

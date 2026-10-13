@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stumpffia staffordi
+  displayName: Stumpffia staffordi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/537TB
+  sourceIndexes:
+    - name:
+        en: Stumpffia staffordi
+        zh: Stumpffia staffordi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 537TB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/384
+            queryName: Stumpffia staffordi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-13297795ae
+      - s-e1c1bff1de
+      - s-8bfe073f25
+      - s-28b08850db
+      - s-e41f53f1ec
+      - s-cbe7411b42
+      - s-0dcdf74658
+      - s-238b5cb14d
+      - s-cf398b39b6
+    zh:
+      - s-0b7f0b4113
+      - s-bfb35daf3d
+      - s-ce17a44cb7
+      - s-d9a6833e56
+      - s-c52fb1eb55
+      - s-5cb83eb9c3
+      - s-deb1264f3a
+      - s-bf9fe7e191
+      - s-da80c01467

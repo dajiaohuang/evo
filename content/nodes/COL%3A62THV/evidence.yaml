@@ -1,0 +1,266 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Heleioporus Gray, 1841
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Heleioporus
+      zh: Heleioporus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-38cc40bd63
+            part: title
+          zh:
+            page: zh
+            section: s-69a5a6b9c2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-38cc40bd63
+            part: body
+          zh:
+            page: zh
+            section: s-69a5a6b9c2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-04f7d5b04a
+            part: title
+          zh:
+            page: zh
+            section: s-de5055e08b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-04f7d5b04a
+            part: body
+          zh:
+            page: zh
+            section: s-de5055e08b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5af0d50394
+            part: title
+          zh:
+            page: zh
+            section: s-a75402a477
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5af0d50394
+            part: body
+          zh:
+            page: zh
+            section: s-a75402a477
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c1d59f3fb0
+            part: title
+          zh:
+            page: zh
+            section: s-4bab25fbba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c1d59f3fb0
+            part: body
+          zh:
+            page: zh
+            section: s-4bab25fbba
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-30c19c2418
+            part: title
+          zh:
+            page: zh
+            section: s-4d95fd8c66
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3K4FB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4FB
+            label:
+              en: Heleioporus albopunctatus
+              zh: Heleioporus albopunctatus
+          - kind: catalogue
+            colId: 3K4FC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4FC
+            label:
+              en: Heleioporus australiacus
+              zh: Heleioporus australiacus
+          - kind: catalogue
+            colId: 3K4FD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4FD
+            label:
+              en: Heleioporus barycragus
+              zh: Heleioporus barycragus
+          - kind: catalogue
+            colId: 3K4FF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4FF
+            label:
+              en: Heleioporus eyrei
+              zh: Heleioporus eyrei
+          - kind: catalogue
+            colId: 3K4FH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4FH
+            label:
+              en: Heleioporus inornatus
+              zh: Heleioporus inornatus
+          - kind: catalogue
+            colId: 3K4FM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4FM
+            label:
+              en: Heleioporus psammophilus
+              zh: Heleioporus psammophilus
+        text:
+          en:
+            page: en
+            section: s-30c19c2418
+            part: body
+          zh:
+            page: zh
+            section: s-4d95fd8c66
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-268bd313e8
+            part: body
+          zh:
+            page: zh
+            section: s-5510852d43
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Heleioporus
+          url: https://www.checklistbank.org/dataset/316115/taxon/62THV
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Heleioporus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ff10025fb3
+        part: body
+      zh:
+        page: zh
+        section: s-43db0f45be
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Heleioporus
+      sourceRowIds:
+        - Anf3455
+        - Anf3456
+        - Anf3457
+        - Anf3458
+        - Anf3459
+        - Anf3460
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 6
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 6
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 6
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 6
+      currentConceptEquivalenceCertified: false

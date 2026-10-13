@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloe globuligemma Pole-Evans
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage C3NF, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage C3NF; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/C3NF
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage C3NF
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000758240-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL C3NF / WFO wfo-0000758240
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          locator: Aloe globuligemma Pole-Evans account; SANBI/WFO archive rows 165 (Morphology), 12867 (Habitat), source identifier 11118.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_5961_0
+        referenceId: ref-ba3368a6-e3f2-87ea-a40d-9e706b7d6fc6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe globuligemma Pole-Evans account; SANBI/WFO archive rows 51290 (Diagnostic), source identifier 5961.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_13236_0
+        referenceId: ref-4e1f793f-f50b-865d-ac17-a11eeda46a6e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe globuligemma Pole-Evans account; SANBI/WFO archive rows 78129 (Diagnostic), source identifier 13236.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_17714_0
+        referenceId: ref-7cc83481-d822-8aa1-a684-e3a862064c43
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe globuligemma Pole-Evans account; SANBI/WFO archive rows 78130 (Diagnostic), source identifier 17714.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Succulent herb, up to 0.6 mm high, excluding inflorescence. Stems procumbent. Bracts 3-5-nerved. Inflorescence shorter than 1 m. Racemes secund, bicoloured, lax to sublax. Flowers deep dull red in bud, sulphur-yellow to ivory at anthesis.
+            textZh: Aloe globuligemma Pole-Evans 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Morphology row 165; source identifier 11118.0; cited publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Aloe globuligemma is similar to A. guerrae and A. procera (both indigenous to Angola), A. ortholopha (indigenous to Zimbabwe) and A. mawii (indigenous to Malawi and Mozam-bique). In A. guerrae the flowers are somewhat laxer than in A. globuligemma, the inflores-cences are much taller and plants are solitary, not forming great masses. In A. procera the inflorescences are laxer and taller than in A. globuligemma, and the flowers do not change colour as they age. Plants of A. ortholopha are solitary, with very dense, unicoloured racemes in inflorescences which are only once or twice branched, and flowers on much longer pedicels than those of A. globuligemma. A. mawii is shortly (1-2 m) caulescent and has simple, very dense racemes in which the bracts are very small and obscurely veined. In A. globuligemma, unlike all the other members of this section, the flowers are clavate.
+            textZh: SANBI 条目提供了 Aloe globuligemma Pole-Evans 的鉴别特征。
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Diagnostic row 51290; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: A. globuligemma ('globular buds') is a very distinctive and charming species. It occurs mostly in bushveld country, either in smaller groups under trees, or in larger dense patches in open country. Near Steelpoort, for example, very considerable quantities are found in colonies many yards across. Plants are stemless or almost so, but sometimes develop a slender procumbent stem up to 3 ft. long with numerous offshoots and suckers, and soon forms dense groups. The most striking feature of A. globuligemma is the much-branched inflorescence with racemes produced almost horizontally. The buds and flowers are secund, i.e. grouped along the top of the axis and all pointing backwards towards the base of the branch.
+            textZh: SANBI 条目提供了 Aloe globuligemma Pole-Evans 的鉴别特征。
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Diagnostic row 78129; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: In the early stages of development the racemes are conspicuously furnished with widely separated spherical to globular flower-buds which develop with considerable slowness. The unopened flowers are a rich nopal red (R.C.S.) tinged with green at the tips; as soon as they open the flowers become a sulphur-yellow (R.C.S.). I think this Aloe must be referred to Berger's Pleurostachyae, and it would appear to show some relationships with A. secundiflora, Engl.
+            textZh: SANBI 条目提供了 Aloe globuligemma Pole-Evans 的鉴别特征。
+            sourceIds:
+              - sanbi_17714_0
+            locator: "SANBI/WFO archive Diagnostic row 78130; source identifier 17714.0; cited publication: Pole-Evans, IB. 1915. Descriptions of some new aloes from the Transvaal. Trans. Roy. Soc. South Africa 5: 25 - 37. [https://www.biodiversitylibrary.org/item/181589#page/87/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Hot, dry, thorny bushveld, stony soil.
+            textZh: 该 SANBI 区域物种条目记录的生境：Hot, dry, thorny bushveld, stony soil.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Habitat row 12867; source identifier 11118.0; cited publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Buergeria robusta
+  displayName: Buergeria robusta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/693ZK
+  sourceIndexes:
+    - name:
+        en: Buergeria robusta
+        zh: Buergeria robusta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 693ZK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/493
+            queryName: Buergeria robusta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/414
+            queryName: Rhacophorus robustus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/415
+            queryName: Polypedates robustus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-309d623a07
+      - s-d6ec2d7f7e
+      - s-bdb9fdb60a
+      - s-24c740397e
+      - s-a2a75ec6de
+      - s-6dec50b3ae
+      - s-2bdc5b51ff
+      - s-50f9a48cd6
+      - s-70d88b4a32
+      - s-f5e69bda1d
+      - s-66d1a0010b
+    zh:
+      - s-9e15d31257
+      - s-38a862a64c
+      - s-4723876535
+      - s-3c825855fc
+      - s-54e2679a27
+      - s-df31a9fad0
+      - s-2f6aaaf526
+      - s-b16b210246
+      - s-5fdec7aec3
+      - s-b13edcb782
+      - s-70435cd551

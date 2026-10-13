@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Siren lacertina
+  displayName: Siren lacertina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4XR2K
+  sourceIndexes:
+    - name:
+        en: Siren lacertina
+        zh: Siren lacertina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4XR2K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/200
+            queryName: Siren lacertina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 50
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/181
+            queryName: Muraena siren
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/182
+            queryName: Syren lacertina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/183
+            queryName: Sirene lacertina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/184
+            queryName: Phanerobranchus dipus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bfe18416d1
+      - s-f6d9bb4923
+      - s-55dbdc0b9c
+      - s-14e4a24fc9
+      - s-91c53267b5
+      - s-62b310d549
+      - s-c00b1b4cb8
+      - s-6e064672c4
+      - s-f14647ff60
+      - s-a7a15a73c3
+      - s-5e1c1b57fe
+      - s-3847a6be59
+      - s-fdac5ced9a
+      - s-aad1afea2e
+      - s-82cde39f61
+      - s-8bacf7182d
+      - s-c51811eadc
+      - s-87969ec7b9
+    zh:
+      - s-480fc2e531
+      - s-ce4cfbe5fb
+      - s-f15a0ac5a3
+      - s-5ce3bf187b
+      - s-fe65aade63
+      - s-e5c8333f6c
+      - s-211c1e19e5
+      - s-6fbe4594c4
+      - s-f6c307c3ff
+      - s-bde59f279d
+      - s-67229e75b8
+      - s-ff9f6c2b00
+      - s-c87da41c9a
+      - s-adf7fd798f
+      - s-5a3167d2d4
+      - s-6fda41964a
+      - s-78bfc9906e
+      - s-9278e66cc0

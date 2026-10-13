@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis nguyenorum
+  displayName: Ichthyophis nguyenorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTS7
+  sourceIndexes:
+    - name:
+        en: Ichthyophis nguyenorum
+        zh: Ichthyophis nguyenorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTS7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/416
+            queryName: Ichthyophis nguyenorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fcf5b25ed9
+      - s-8be5acc725
+      - s-824d7eedc0
+      - s-f618e43157
+      - s-cd4d8c697b
+      - s-d737a5de93
+      - s-10ae17c86a
+      - s-95d34ced16
+      - s-36b368560d
+      - s-cbad822dfe
+      - s-9837b3f1ec
+    zh:
+      - s-a9898ed292
+      - s-fb9e991401
+      - s-fff8c3195d
+      - s-ce7edaa48e
+      - s-120703b905
+      - s-71b03813a9
+      - s-2ffbcf42a6
+      - s-223fa06c0c
+      - s-5186992f46
+      - s-8975924e39
+      - s-3e0b538441

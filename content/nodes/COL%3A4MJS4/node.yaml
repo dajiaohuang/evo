@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis zimmermanae
+  displayName: Pristimantis zimmermanae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJS4
+  sourceIndexes:
+    - name:
+        en: Pristimantis zimmermanae
+        zh: Pristimantis zimmermanae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJS4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/194
+            queryName: Pristimantis zimmermanae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/107
+            queryName: Eleutherodactylus zimmermanae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e9829928b5
+      - s-69f7620c58
+      - s-9e1d2d8241
+      - s-03574dfdfe
+      - s-ec3fc97d4c
+      - s-517db15992
+      - s-43a0890a61
+      - s-ce4482b1df
+      - s-c8593f1b06
+      - s-2906698875
+    zh:
+      - s-3dd0fef1b0
+      - s-e60035aeed
+      - s-291f9f8277
+      - s-c28dc2d2ca
+      - s-2dfbb3faab
+      - s-e81f9560ee
+      - s-51cf885ed3
+      - s-e1bacd74fb
+      - s-1abc539cff
+      - s-4cfdca0a7d

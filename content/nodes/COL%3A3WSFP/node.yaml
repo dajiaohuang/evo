@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lynchius parkeri
+  displayName: Lynchius parkeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3WSFP
+  sourceIndexes:
+    - name:
+        en: Lynchius parkeri
+        zh: Lynchius parkeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3WSFP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/251
+            queryName: Lynchius parkeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/124
+            queryName: Phrynopus parkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1207c5bb91
+      - s-426de7f4ec
+      - s-cdc145e635
+      - s-73593922fd
+      - s-ca6f7e2e09
+      - s-dc32d0062c
+      - s-3391fedf7e
+      - s-b1273ad6c9
+      - s-3728363748
+      - s-93ced948fe
+      - s-ac8d0400aa
+      - s-1a1d66e3ee
+      - s-d5285f170f
+    zh:
+      - s-a0f4461c9c
+      - s-b04610c837
+      - s-425320a6e8
+      - s-916b7b61cc
+      - s-c2b2d35321
+      - s-c343871cbd
+      - s-404905b7a6
+      - s-fc4dc4bfd7
+      - s-5309184d16
+      - s-f9f65c2e50
+      - s-bad7c693c2
+      - s-e84da5226f
+      - s-f04f3f3af0

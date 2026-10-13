@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Propithecus candidus Grandidier, 1871
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Silky Sifaka
+      zh: 丝绢西法卡
+    sections:
+      - topic: behaviour
+        text:
+          en:
+            page: en
+            section: s-8ed576fa14
+            part: body
+          zh:
+            page: zh
+            section: s-18d5c86b93
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - mills2021
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Propithecus candidus Grandidier, 1871
+          url: https://www.checklistbank.org/dataset/316115/taxon/77Y49
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-480ddf61-a516-8b64-a2b9-bac6f0093be1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the current English common-name crosswalk used for the page; not evidence of occurrence, ecology or a complete range.
+            zh: 支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: mills2021
+        referenceId: ref-c669b4bf-062b-8eab-acc7-ed251eb2b839
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 10-month sleeping-tree study of one wild group in Marojejy National Park; observations test site-selection hypotheses at that group and site.
+            zh: 支持 Marojejy 国家公园一个野生群体 10 个月的睡眠树研究；观察用于检验该群体和地点的栖点假设。
+    limitations:
+      en:
+        page: en
+        section: s-7b00f767a8
+        part: body
+      zh:
+        page: zh
+        section: s-6472a03773
+        part: body

@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hyperolius viridis
+    name:
+      en: Hyperolius viridis
+      zh: Hyperolius viridis
+    sourceClassification:
+      order: Anura
+      family: Hyperoliidae
+      genus: Hyperolius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hyperolius viridis in the version 3 classification
+          zh: Hyperolius viridis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-562efd33c8
+            part: body
+          zh:
+            page: zh
+            section: s-b8e94ba7ec
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 15 populated trait fields
+          zh: 1 条测量行与 15 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e564493a31
+            part: body
+          zh:
+            page: zh
+            section: s-6cf6ac2606
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2326; Reference.csv rows 2340
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2326
+        values:
+          - Hyperoliidae
+          - Hyperolius
+          - Hyperolius viridis
+          - M
+          - NA
+          - "6.4"
+          - "7.1"
+          - "2.7"
+          - NA
+          - NA
+          - "2.4"
+          - "1.8"
+          - "3.1"
+          - "1.9"
+          - "2.7"
+          - "1.6"
+          - "4"
+          - NA
+          - NA
+          - "8.9"
+          - "11.2"
+          - NA
+          - "10.3"
+          - NA
+          - "30.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "20.9"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2340
+        values:
+          - Anura
+          - Hyperolius_viridis
+          - "Channing, A., Hillers, A., Lotters, S., Rodel, M. O., Schick, S., Conradie, W., . . . Burger, M. (2013). Taxonomy of the super-cryptic Hyperolius nasutus group of long reed frogs of Africa (Anura: Hyperoliidae), with descriptions of six new species. Zootaxa, 3620, 301-350. https://doi.org/10.11646/zootaxa.3620.3.1"
+    availableTraitCodes:
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FL
+      - TFL
+      - THL
+      - HLL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NR2P
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

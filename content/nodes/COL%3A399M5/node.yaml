@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus pinchoni
+  displayName: Eleutherodactylus pinchoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399M5
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus pinchoni
+        zh: Eleutherodactylus pinchoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399M5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/300
+            queryName: Eleutherodactylus pinchoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a0f265b650
+      - s-69bad61916
+      - s-df7a3df495
+      - s-3ea7123f54
+      - s-c376a24024
+      - s-62b4d2f45b
+      - s-0a9dbe075a
+      - s-b1de61270e
+      - s-27e15e796b
+    zh:
+      - s-cae31957ac
+      - s-75a68be525
+      - s-62c91d52e2
+      - s-46346bcb38
+      - s-3f07e25b4a
+      - s-926a4d7185
+      - s-772b5842e6
+      - s-880daf9cc3
+      - s-baa29196e2

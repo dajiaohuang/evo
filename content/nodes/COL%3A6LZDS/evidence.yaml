@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Holothuria scabra Jaeger, 1833
+    authorship: Jaeger, 1833
+    rank: species
+    sourceDatasetId: "1107"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CHN
+        scientificName: Echinodermata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 7NF2T
+        scientificName: Echinozoa
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: B8V3W
+        scientificName: Holothuroidea de Blainville, 1834
+        authorship: de Blainville, 1834
+        rank: class
+        status: accepted
+        sourceDatasetId: "1107"
+      - id: 844G6
+        scientificName: Actinopoda Ludwig, 1891
+        authorship: Ludwig, 1891
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "1107"
+      - id: 7NFBP
+        scientificName: Holothuriida Miller, Kerr, Paulay, Reich, Wilson, Carvajal & Rouse, 2017
+        authorship: Miller, Kerr, Paulay, Reich, Wilson, Carvajal & Rouse, 2017
+        rank: order
+        status: accepted
+        sourceDatasetId: "1107"
+      - id: 7NHV6
+        scientificName: Holothuriidae Burmeister, 1837
+        authorship: Burmeister, 1837
+        rank: family
+        status: accepted
+        sourceDatasetId: "1107"
+      - id: 7P678
+        scientificName: Holothuria Linnaeus, 1767
+        authorship: Linnaeus, 1767
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1107"
+      - id: 6LZDS
+        scientificName: Holothuria scabra Jaeger, 1833
+        authorship: Jaeger, 1833
+        rank: species
+        status: accepted
+        sourceDatasetId: "1107"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 species usage 6LZDS. The evidence concerns survival after experimental releases of hatchery-cultured juveniles into four seagrass sea pens near Kavieng, Papua New Guinea; it does not estimate survival for wild-born sandfish or the whole species.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: Released juveniles occupied natural seagrass habitats in sea pens, but were hatchery-cultured and not a wild-born cohort.
+      domesticated: The study concerns cultured juveniles used in a ranching experiment; it does not assess the history or breadth of domestication.
+      captive: Juveniles were temporarily protected in open sea pens under three release treatments; this is not a captive life-history study.
+      fossil: Fossil occurrence and geological age were not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1107
+          url: https://www.checklistbank.org/dataset/316115/taxon/6LZDS
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:6LZDS@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 6LZDS; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6LZDS. https://doi.org/10.48580/dgywk.
+      - id: hair2016holothuria-release-survival
+        referenceId: ref-b4eec74f-cac6-8af1-a71a-50bc36dcf280
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: WorldFish repository record identifies Copyright CC BY 4.0 and links the author article PDF, whose article front matter names The Authors and CC BY 4.0.
+          licenseAppliesTo: The article text under its item-level CC BY 4.0 notice; claim paraphrased and no figure or table is reproduced.
+          stableId: doi:10.1016/j.aqrep.2016.03.004
+          locator: Abstract; §§2.2–2.4 and Table 1 for sites, release design, and dates; §3.2 and Fig. 3 for survival results; article copyright and license statement.
+          attribution: "Hair C, Mills DJ, McIntyre R, Southgate PC (2016). Optimising methods for community-based sea cucumber ranching: Experimental releases of cultured juvenile Holothuria scabra into seagrass meadows in Papua New Guinea. Aquaculture Reports 3:198–208. https://doi.org/10.1016/j.aqrep.2016.03.004. CC BY 4.0. Claim paraphrased."
+          licenseAssessment: item-level-verified
+          scope: First-recovery survival of hatchery-cultured juveniles after releases at four 100 m² seagrass sea pens near Kavieng in 2014; short local ranching results, not natural survival or a species-wide estimate.
+          accessedAt: 2026-09-25
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The release-survival study does not document diagnostic morphology or species-level anatomical variation.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Short-term juvenile survival after experimental release is not a complete life cycle, reproduction history, or lifespan account.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: At the first recovery measurement after releases of hatchery-cultured juvenile Holothuria scabra into 100 m² seagrass sea pens near Kavieng, Papua New Guinea, overall survival was 93.5% at Limanak 1, 84.6% at Limanak 2, and 52.7% at Enuk; no juveniles were found at the fourth site, Ungakum. These site-level results combine the study's free-release, one-day cage, and seven-day cage treatments and describe this short ranching experiment only.
+            textZh: 在巴布亚新几内亚卡维恩附近的 100 平方米海草围栏中放流人工孵化幼参后进行的首次回收测量显示，Limanak 1、Limanak 2 和 Enuk 的总体存活率分别为 93.5%、84.6% 和 52.7%；在第四个地点 Ungakum 未发现幼参。这些地点级结果合并了研究中的直接放流、笼护 1 天和笼护 7 天处理，仅描述这项短期海参牧场试验。
+            originalLanguage: en
+            sourceIds:
+              - hair2016holothuria-release-survival
+            locator: Abstract for hatchery origin, approximate juvenile size, sites, and total-loss limitation; §2.4 and Table 1 for release dates and protection treatments; §3.2 Results and Fig. 3 for first-recovery site survival and no recovery at Ungakum.
+            placeTimeScope: Limanak 1, Limanak 2, Enuk, and Ungakum, seagrass meadows near Kavieng, New Ireland Province, Papua New Guinea; releases on 22 March, 15 May, and 15 July 2014; first recovery approximately two months after release.
+            lifeStatus: Hatchery-cultured juveniles released into natural seagrass habitats within experimental sea pens; not wild-born individuals or an unmanipulated wild population.
+        gaps:
+          - Short-term recovery of hatchery juveniles at four experimental sites does not establish natural survival, long-term population recruitment, species-wide habitat suitability, or regional wild population status.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study does not analyze phylogeny or evolutionary history.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Four experimental release sites do not establish the species' geographic range.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study does not assess fossil occurrences or geological age.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The release experiment is not a wild population assessment or conservation-status evaluation.
+    readerSections:
+      - id: page-ab101e8d06
+        title:
+          en:
+            page: en
+            section: s-1e7a6fdfa3
+            part: title
+          zh:
+            page: zh
+            section: s-39b4e55233
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1e7a6fdfa3
+            part: body
+          zh:
+            page: zh
+            section: s-39b4e55233
+            part: body
+        sourceIds:
+          - col
+          - hair2016holothuria-release-survival
+      - id: page-dfd9d05d4f
+        title:
+          en:
+            page: en
+            section: s-f2754a6db8
+            part: title
+          zh:
+            page: zh
+            section: s-d691c24e32
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f2754a6db8
+            part: body
+          zh:
+            page: zh
+            section: s-d691c24e32
+            part: body
+        sourceIds: []
+      - id: page-01f6f585f9
+        title:
+          en:
+            page: en
+            section: s-3c64b773e5
+            part: title
+          zh:
+            page: zh
+            section: s-63941c874d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3c64b773e5
+            part: body
+          zh:
+            page: zh
+            section: s-63941c874d
+            part: body
+        sourceIds:
+          - hair2016holothuria-release-survival

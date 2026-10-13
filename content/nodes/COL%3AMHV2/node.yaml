@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis tampoka
+  displayName: Boophis tampoka
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHV2
+  sourceIndexes:
+    - name:
+        en: Boophis tampoka
+        zh: Boophis tampoka
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHV2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/303
+            queryName: Boophis tampoka
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4de0b234c0
+      - s-824bdd1a90
+      - s-2da9da6477
+      - s-8085c39097
+      - s-07cea315f8
+      - s-524ce518c1
+      - s-71a7a73090
+      - s-031853ac8a
+      - s-22ba430d21
+      - s-b40cd9f930
+    zh:
+      - s-8fdb879157
+      - s-9e3f520c13
+      - s-da0dd6d873
+      - s-63e086629d
+      - s-4745b34e6f
+      - s-d88b23aa79
+      - s-70a0a45798
+      - s-fc45b3439d
+      - s-01de159bc7
+      - s-30ca3cbb16

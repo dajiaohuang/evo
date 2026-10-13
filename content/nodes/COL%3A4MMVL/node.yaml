@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys vielliardi
+  displayName: Proceratophrys vielliardi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMVL
+  sourceIndexes:
+    - name:
+        en: Proceratophrys vielliardi
+        zh: Proceratophrys vielliardi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMVL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/246
+            queryName: Proceratophrys vielliardi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b3e8099f5c
+      - s-d1c8ab7279
+      - s-c343f832f3
+      - s-b227d51f3d
+      - s-8bc869d722
+      - s-db0db92f1a
+      - s-805900e8f1
+      - s-00c21652fc
+      - s-d839c01ebe
+    zh:
+      - s-dc2a4f8115
+      - s-0db4657a79
+      - s-b50dfe215d
+      - s-049e2a995e
+      - s-b9cf2b4be9
+      - s-177b885194
+      - s-83db8e0819
+      - s-39e0d8f180
+      - s-5481274eee

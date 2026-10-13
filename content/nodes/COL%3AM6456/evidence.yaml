@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Breviceps ombelanonga Nielsen, Conradie, Ceríaco, Bauer, Heinicke, Stanley & Blackburn, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Breviceps ombelanonga
+      zh: Breviceps ombelanonga
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d2c5df645a
+            part: title
+          zh:
+            page: zh
+            section: s-efcca411b8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d2c5df645a
+            part: body
+          zh:
+            page: zh
+            section: s-efcca411b8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-677f3eb940
+            part: title
+          zh:
+            page: zh
+            section: s-3f4ce456f3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-677f3eb940
+            part: body
+          zh:
+            page: zh
+            section: s-3f4ce456f3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-26a776e94e
+            part: title
+          zh:
+            page: zh
+            section: s-4bf0ce5a74
+            part: title
+        sourceIds:
+          - primary-pmc7609483-m6456
+        text:
+          en:
+            page: en
+            section: s-26a776e94e
+            part: body
+          zh:
+            page: zh
+            section: s-4bf0ce5a74
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fafda66796
+            part: title
+          zh:
+            page: zh
+            section: s-dc5eea3c71
+            part: title
+        sourceIds:
+          - primary-pmc7609483-m6456
+        text:
+          en:
+            page: en
+            section: s-fafda66796
+            part: body
+          zh:
+            page: zh
+            section: s-dc5eea3c71
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Breviceps ombelanonga
+          url: https://www.checklistbank.org/dataset/316115/taxon/M6456
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7609483-m6456
+        referenceId: ref-70e01117-789e-47fa-a009-d1143df895b6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Breviceps ombelanonga distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3b64843aee
+        part: body
+      zh:
+        page: zh
+        section: s-e7dd4ef377
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.979.56863
+        referenceId: ref-70e01117-789e-47fa-a009-d1143df895b6
+        sourceKey: primary-pmc7609483-m6456
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7609483/article.xml
+        sourceConcept: Breviceps ombelanonga
+        evidenceRead: Breviceps ombelanonga distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Three genetically supported Angolan areas
+              zh: 安哥拉三个遗传证据支持地区
+            referenceId: ref-70e01117-789e-47fa-a009-d1143df895b6
+            sourceKey: primary-pmc7609483-m6456
+            locator: Breviceps ombelanonga distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-51077b5f9a
+                part: body
+              zh:
+                page: zh
+                section: s-5e36585428
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Rain-associated collections and food records
+              zh: 雨后采集与食物记录
+            referenceId: ref-70e01117-789e-47fa-a009-d1143df895b6
+            sourceKey: primary-pmc7609483-m6456
+            locator: Breviceps ombelanonga distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c869339a8b
+                part: body
+              zh:
+                page: zh
+                section: s-9fe09cbad4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

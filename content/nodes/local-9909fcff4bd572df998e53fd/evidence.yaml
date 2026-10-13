@@ -1,0 +1,29 @@
+schemaVersion: 1
+records:
+  Research_examples:
+    schemaVersion: 1
+    packageId: primates
+    examples:
+      - id: primates-common-marmoset-captive-fathering
+        type: explorer-preset
+        title:
+          en: "Common marmoset: captive fathering study"
+          zh: 普通狨：圈养父亲照料研究
+        description:
+          en:
+            page: en
+            section: s-343b0c36ee
+            part: body
+          zh:
+            page: zh
+            section: s-e6f2922e42
+            part: body
+        route: "#/explore?taxon=callithrix_jacchus&view=tree"
+        entityIds:
+          - callithrix_jacchus
+        claimIds:
+          - claim:taxon:callithrix_jacchus:ecology
+        evidenceStatus: available-with-limitations
+        limitations:
+          - The study concerns one captive Wisconsin colony; it does not estimate wild behavior, geographic distribution or a species-wide effect.
+          - Father responsiveness was classified before offspring outcomes were compared, so the study-level association does not establish causation.

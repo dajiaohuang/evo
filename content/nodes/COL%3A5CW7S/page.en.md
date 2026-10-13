@@ -1,0 +1,3 @@
+## Zantedeschia aethiopica {#s-5c2a2f0472}
+Two South African regional accounts describe this evergreen perennial as up to 0.6 m tall, with broadly ovate, heart-shaped leaves 150–200 × 100–150 mm. The ivory-white spathe (the bract around the flower-bearing axis) has bright green at its base and no dark-purple area inside at the base; its broad limb spreads backward. Female flowers are interspersed with staminodes (sterile stamens), and a typical spadix (flower-bearing axis) is bright yellow. Habitat entries name vleis (marshy depressions) and marshy ground. These accounts do not represent a full-range or population survey.
+

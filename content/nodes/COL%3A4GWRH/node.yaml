@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynopus thompsoni
+  displayName: Phrynopus thompsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWRH
+  sourceIndexes:
+    - name:
+        en: Phrynopus thompsoni
+        zh: Phrynopus thompsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWRH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/239
+            queryName: Phrynopus thompsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0f26732892
+      - s-b1b9499d9a
+      - s-49d73069c3
+      - s-efde579e80
+      - s-d2d301ba0a
+      - s-e851694f64
+    zh:
+      - s-75b31f8280
+      - s-bafde1e913
+      - s-cd74295016
+      - s-2bc57ee0e1
+      - s-137958b49c
+      - s-9641cd329d

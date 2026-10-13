@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis vrazi Moravec, Lehr, Wang & Uvizl, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis vrazi
+      zh: Pristimantis vrazi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-19ab0bc596
+            part: title
+          zh:
+            page: zh
+            section: s-7a317c3d28
+            part: title
+        text:
+          en:
+            page: en
+            section: s-19ab0bc596
+            part: body
+          zh:
+            page: zh
+            section: s-7a317c3d28
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0c4a38d063
+            part: title
+          zh:
+            page: zh
+            section: s-6e40369549
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0c4a38d063
+            part: body
+          zh:
+            page: zh
+            section: s-6e40369549
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-4a06fb1079
+            part: title
+          zh:
+            page: zh
+            section: s-a6532e936e
+            part: title
+        sourceIds:
+          - primary-pmc11621819-tzq3s
+        text:
+          en:
+            page: en
+            section: s-4a06fb1079
+            part: body
+          zh:
+            page: zh
+            section: s-a6532e936e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1b812f5e7d
+            part: title
+          zh:
+            page: zh
+            section: s-463c7bb634
+            part: title
+        sourceIds:
+          - primary-pmc11621819-tzq3s
+        text:
+          en:
+            page: en
+            section: s-1b812f5e7d
+            part: body
+          zh:
+            page: zh
+            section: s-463c7bb634
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis vrazi
+          url: https://www.checklistbank.org/dataset/316115/taxon/TZQ3S
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11621819-tzq3s
+        referenceId: ref-83a82c6d-c4d5-4b2f-ac8b-6470b1876670
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis vrazi: Distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b04ff6f5f6
+        part: body
+      zh:
+        page: zh
+        section: s-02d2566367
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1219.129773
+        referenceId: ref-83a82c6d-c4d5-4b2f-ac8b-6470b1876670
+        sourceKey: primary-pmc11621819-tzq3s
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11621819/article.xml
+        sourceConcept: Pristimantis vrazi
+        evidenceRead: "Pristimantis vrazi: Distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Two buffer-zone records
+              zh: 缓冲区两个记录
+            referenceId: ref-83a82c6d-c4d5-4b2f-ac8b-6470b1876670
+            sourceKey: primary-pmc11621819-tzq3s
+            locator: "Pristimantis vrazi: Distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-74056d4bc7
+                part: body
+              zh:
+                page: zh
+                section: s-d0964c1585
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Low vegetation in a disturbed forest mosaic
+              zh: 受扰动森林镶嵌生境的低植被
+            referenceId: ref-83a82c6d-c4d5-4b2f-ac8b-6470b1876670
+            sourceKey: primary-pmc11621819-tzq3s
+            locator: "Pristimantis vrazi: Distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-745a3b672d
+                part: body
+              zh:
+                page: zh
+                section: s-7efa085331
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

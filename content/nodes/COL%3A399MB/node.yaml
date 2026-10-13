@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus planirostris
+  displayName: Eleutherodactylus planirostris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399MB
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus planirostris
+        zh: Eleutherodactylus planirostris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399MB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/303
+            queryName: Eleutherodactylus planirostris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 29
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/185
+            queryName: Hylodes planirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 35
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/186
+            queryName: Euhyas planirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/373
+            queryName: Eleutherodactylus ricordii planirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/374
+            queryName: Eleutherodactylus planirostris planirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c0cc84edce
+      - s-eff13732c2
+      - s-3a133ae9c3
+      - s-2c002ef1a6
+      - s-4b9bc73261
+      - s-f1148983cf
+      - s-21fcbf4e92
+      - s-0a49c52441
+      - s-5a14ad67a9
+      - s-1d5cdc5f9e
+      - s-703bbe31f3
+      - s-7b3fa88c98
+      - s-b4101b5435
+      - s-82909d2d6d
+      - s-7511b717dd
+      - s-9dc9c1ce64
+      - s-cc81a99204
+      - s-75c90e48cf
+      - s-050315dfe6
+    zh:
+      - s-55eba5fb66
+      - s-0ab03eb38c
+      - s-f6e58ec3cb
+      - s-8b71463253
+      - s-0a393073aa
+      - s-74a506d32b
+      - s-71fd8d2213
+      - s-d3b8ed37e3
+      - s-131245518a
+      - s-a24063d892
+      - s-baaab7fe16
+      - s-f222d7860a
+      - s-b332ec0daa
+      - s-2344c0babc
+      - s-7786ad34b8
+      - s-2969fc489e
+      - s-1d139fadb4
+      - s-1df6c46143
+      - s-302fc66942

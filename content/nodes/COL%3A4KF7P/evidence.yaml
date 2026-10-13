@@ -1,0 +1,236 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pleurotus pulmonarius
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Pleurotus pulmonarius
+      en: Pleurotus pulmonarius
+    sections:
+      - topic: ecology
+        sourceIds:
+          - huang2024pleurotus-camellia-shell
+        locator: Methods §§2.1–2.2 for strain, substrate, and experimental design; Results Tables 1–2 for total yield, biological efficiency, and treatment comparisons
+        text:
+          zh:
+            page: zh
+            section: s-eb9f075802
+            part: body
+          en:
+            page: en
+            section: s-27a023996f
+            part: body
+    sources:
+      - id: huang2024pleurotus-camellia-shell
+        referenceId: ref-ae3662c2-589c-8793-a971-52e35510d3f4
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Publisher article page copyright/license notice; Crossref item license metadata lists https://creativecommons.org/licenses/by/4.0/.
+          licenseAppliesTo: The article text under its item-level CC BY 4.0 notice; claim paraphrased and no table or figure is reproduced.
+          stableId: doi:10.3390/foods13182946
+          locator: Methods §§2.1–2.2; Results Tables 1–2; article copyright and license statement.
+          attribution: Huang Y, Wang W, Lu N, Yu J, Chen S, Liang Z (2024). The Role of Camellia Shell Substrates in Modulating the Nutritional Characteristics of Pleurotus pulmonarius. Foods 13(18):2946. https://doi.org/10.3390/foods13182946. CC BY 4.0. Claim paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Reported total yield and biological efficiency from one three-replicate bag-cultivation trial with the Hangxiu 1 strain; trial location and dates are not reported.
+          accessedAt: 2026-09-25
+    limitations:
+      zh:
+        page: zh
+        section: s-40209db2f2
+        part: body
+      en:
+        page: en
+        section: s-657e25faca
+        part: body
+  catalogue-dossier:
+    scientificName: Pleurotus pulmonarius (Fr.) Quél.
+    authorship: (Fr.) Quél.
+    rank: species
+    sourceDatasetId: "2073"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: F
+        scientificName: Fungi
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: BM
+        scientificName: Basidiomycota
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: 7C
+        scientificName: Agaricomycetes
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: N8
+        scientificName: Agaricales
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: 625RB
+        scientificName: Pleurotaceae
+        authorship: null
+        rank: family
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: 6SW5
+        scientificName: Pleurotus
+        authorship: null
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2073"
+      - id: 4KF7P
+        scientificName: Pleurotus pulmonarius (Fr.) Quél.
+        authorship: (Fr.) Quél.
+        rank: species
+        status: accepted
+        sourceDatasetId: "2073"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 species usage 4KF7P. The biological evidence concerns reported total yield from one managed bag-cultivation experiment using strain Hangxiu 1; it does not characterize wild populations or other strains and cultivation systems.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: No wild populations or field ecological interactions were studied.
+      domesticated: The article tests cultivation performance and does not assess the full history or breadth of domestication.
+      captive: Not applicable; this is managed fungal cultivation.
+      fossil: Fossil occurrence and geological age were not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2073
+          url: https://www.checklistbank.org/dataset/316115/taxon/4KF7P
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:4KF7P@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 4KF7P; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4KF7P. https://doi.org/10.48580/dgywk.
+      - id: huang2024pleurotus-camellia-shell
+        referenceId: ref-ae3662c2-589c-8793-a971-52e35510d3f4
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Publisher article page copyright/license notice; Crossref item license metadata lists https://creativecommons.org/licenses/by/4.0/.
+          licenseAppliesTo: The article text under its item-level CC BY 4.0 notice; claim paraphrased and no table or figure is reproduced.
+          stableId: doi:10.3390/foods13182946
+          locator: Methods §§2.1–2.2; Results Tables 1–2; article copyright and license statement.
+          attribution: Huang Y, Wang W, Lu N, Yu J, Chen S, Liang Z (2024). The Role of Camellia Shell Substrates in Modulating the Nutritional Characteristics of Pleurotus pulmonarius. Foods 13(18):2946. https://doi.org/10.3390/foods13182946. CC BY 4.0. Claim paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Reported total yield and biological efficiency from one three-replicate bag-cultivation trial with the Hangxiu 1 strain; trial location and dates are not reported.
+          accessedAt: 2026-09-25
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The substrate-yield experiment does not document diagnostic morphology or species-level anatomical variation.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study does not assess a full life cycle, wild development, or reproduction outside managed cultivation.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In one managed bag-cultivation experiment with the Hangxiu 1 strain, the A3 substrate treatment replacing 20% of cottonseed shell with camellia shell produced a reported total yield of 407.83 ± 24.93 g per bag and biological efficiency of 72.83 ± 4.45% (mean ± SD, n=3). The article reports no significant yield or biological-efficiency difference among the tested 0–20% replacement treatments. The result is limited to this cultivation experiment and strain.
+            textZh: 在一项使用 Hangxiu 1 菌株的袋式人工栽培试验中，A3 基质以山茶壳替代 20% 棉籽壳，报告的总产量为每袋 407.83 ± 24.93 克，生物学效率为 72.83 ± 4.45%（均值 ± 标准差，n=3）。文章报告，在所测 0–20% 替代处理之间，产量或生物学效率差异均未达到显著水平。该结果仅适用于这一菌株和栽培试验。
+            originalLanguage: en
+            sourceIds:
+              - huang2024pleurotus-camellia-shell
+            locator: Methods §§2.1–2.2 for strain, substrate, and experimental design; Results Tables 1–2 for total yield, biological efficiency, and treatment comparisons.
+            placeTimeScope: Trial location and dates are not stated; the Hangxiu 1 strain was supplied by Hangzhou Academy of Agricultural Sciences and camellia shells were sourced from Quzhou, Zhejiang, China.
+            lifeStatus: Cultivated mushrooms grown in prepared substrate bags; wild populations were not studied.
+        gaps:
+          - One strain and managed substrate trial does not establish wild ecology, natural substrate use, or cultivation performance across strains, sites, seasons, and systems.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study does not analyze phylogeny or evolutionary history.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The trial does not establish a geographic range; its cultivation setting is not stated.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected study does not assess fossil occurrences or geological age.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The cultivation experiment does not assess wild population status, threats, or conservation categories.

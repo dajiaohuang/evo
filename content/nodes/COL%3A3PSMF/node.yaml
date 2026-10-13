@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Insuetophrynus acarpicus
+  displayName: Insuetophrynus acarpicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PSMF
+  sourceIndexes:
+    - name:
+        en: Insuetophrynus acarpicus
+        zh: Insuetophrynus acarpicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PSMF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/6
+            queryName: Insuetophrynus acarpicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d5d83c9252
+      - s-c6f96adef9
+      - s-c3d553c05f
+      - s-78a75df5f5
+      - s-e7e7481c3c
+      - s-f71cb7ba3a
+      - s-43153923aa
+      - s-e9fa97e3d3
+      - s-ba8bb9e0e6
+    zh:
+      - s-eaf72d4ff7
+      - s-b97978b91e
+      - s-06b55916e3
+      - s-c01e4ca215
+      - s-e01eca9c23
+      - s-8f4c4a740c
+      - s-239cdc3824
+      - s-e56a2fabe5
+      - s-580bdeacec

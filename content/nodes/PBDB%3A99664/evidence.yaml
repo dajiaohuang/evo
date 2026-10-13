@@ -1,0 +1,148 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Spea diversus
+    rank: species
+    sourceTaxonId: txn:99664
+    name:
+      en: Spea diversus
+      zh: Spea diversus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-13bd58ee1f
+            part: body
+          zh:
+            page: zh
+            section: s-0a32b33ab7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-a720dbfa64
+            part: body
+          zh:
+            page: zh
+            section: s-d4f2cc8b90
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-e6dd446c51
+            part: body
+          zh:
+            page: zh
+            section: s-26258abfa5
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:99664; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: E. H. Taylor. 1942. Extinct toads and frogs from the Upper Pliocene deposits of Meade County, Kansas. The University of Kansas Science Bulletin 28(10):199-235
+    occurrenceEvidence:
+      - occurrenceId: occ:1193464
+        collectionId: col:154240
+        acceptedTaxonId: txn:99664
+        identifiedTaxonId: var:99664
+        identifiedName: Scaphiopus diversus
+        taxonomicDifference: recombined as
+        referenceId: ref:50079
+        bibliography: B. Sanchiz. 1998. Salientia.  In P. Wellnhofer (ed.), Handbuch der Palaoherpetologie 4
+        locality:
+          countryCode: US
+          stateProvince: Kansas
+          county: Meade
+        stratigraphy:
+          group: null
+          formation: Rexroad
+          member: upper
+        olderAgeMa: 4.7
+        youngerAgeMa: 1.4
+      - occurrenceId: occ:1193465
+        collectionId: col:154240
+        acceptedTaxonId: txn:99664
+        identifiedTaxonId: txn:99659
+        identifiedName: Neoscaphiopus noblei
+        taxonomicDifference: null
+        referenceId: ref:50079
+        bibliography: B. Sanchiz. 1998. Salientia.  In P. Wellnhofer (ed.), Handbuch der Palaoherpetologie 4
+        locality:
+          countryCode: US
+          stateProvince: Kansas
+          county: Meade
+        stratigraphy:
+          group: null
+          formation: Rexroad
+          member: upper
+        olderAgeMa: 4.7
+        youngerAgeMa: 1.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-e6dd446c51
+            part: body
+          zh:
+            page: zh
+            section: s-26258abfa5
+            part: body
+        sourceIds: []

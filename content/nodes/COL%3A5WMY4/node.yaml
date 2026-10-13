@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla capra
+  displayName: Bokermannohyla capra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WMY4
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla capra
+        zh: Bokermannohyla capra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WMY4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/48
+            queryName: Bokermannohyla capra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a116e6b59c
+      - s-f5bbb6bf3a
+      - s-c7d8b04ce5
+      - s-53cbdbba17
+      - s-900b546a77
+      - s-f1c778d5a7
+      - s-35c696b40e
+      - s-0a89c08260
+      - s-2ee7fbe108
+      - s-132c6beff6
+      - s-734e1de333
+      - s-08e73b4278
+      - s-1f764d5c98
+      - s-03a121a177
+      - s-ed85b328c5
+    zh:
+      - s-bd45d9db4c
+      - s-af53469f59
+      - s-50d0e66a4e
+      - s-30645e37e6
+      - s-dea54c43d7
+      - s-be43746d07
+      - s-afdaa90fdb
+      - s-4691e8619f
+      - s-4ebee0e4a6
+      - s-9f3731226b
+      - s-55c9d5e6dc
+      - s-131473a04e
+      - s-84712796fe
+      - s-2f9ac92a0d
+      - s-4e2a493da5

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Theloderma phrynoderma
+  displayName: Theloderma phrynoderma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/568J5
+  sourceIndexes:
+    - name:
+        en: Theloderma phrynoderma
+        zh: Theloderma phrynoderma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 568J5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/25
+            queryName: Theloderma phrynoderma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18582
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/177
+            queryName: Phrynoderma asperum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/178
+            queryName: Rhacophorus phrynoderma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-25ce8647cb
+      - s-d1399c1c7d
+      - s-4f9663fbd0
+      - s-4632bf28ae
+      - s-347ff36ba6
+      - s-7d2839ba8b
+    zh:
+      - s-570d414526
+      - s-1ef8e477e6
+      - s-b83bf89cfb
+      - s-cf98f18321
+      - s-675eba437a
+      - s-57caf3646a

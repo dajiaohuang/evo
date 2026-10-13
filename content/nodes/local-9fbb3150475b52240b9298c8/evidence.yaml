@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Minervarya sengupti
+    name:
+      en: Minervarya sengupti
+      zh: Minervarya sengupti
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Minervarya
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Minervarya sengupti in the version 3 classification
+          zh: Minervarya sengupti 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ba1e33ba46
+            part: body
+          zh:
+            page: zh
+            section: s-d077c54c2e
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 16 populated trait fields
+          zh: 2 条测量行与 16 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6e38ecee71
+            part: body
+          zh:
+            page: zh
+            section: s-dd871d06c8
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3381, 3382; Reference.csv rows 3285
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3381
+        values:
+          - Dicroglossidae
+          - Minervarya
+          - Minervarya sengupti
+          - F
+          - "43.5"
+          - "16.4865"
+          - "14.1375"
+          - "4.263"
+          - "3.0015"
+          - "1.827"
+          - "3.4365"
+          - "3.0015"
+          - "3.393"
+          - "3.2625"
+          - "6.8295"
+          - "3.1755"
+          - NA
+          - "26.0565"
+          - NA
+          - NA
+          - NA
+          - "20.6625"
+          - NA
+          - NA
+          - "69.4695"
+          - "3.045"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3382
+        values:
+          - Dicroglossidae
+          - Minervarya
+          - Minervarya sengupti
+          - M
+          - "34.6"
+          - "12.5252"
+          - "13.1134"
+          - "3.979"
+          - "2.4912"
+          - "1.384"
+          - "2.1452"
+          - "2.5604"
+          - "2.8026"
+          - "3.0448"
+          - "6.401"
+          - "2.8372"
+          - NA
+          - "24.566"
+          - NA
+          - NA
+          - NA
+          - "19.549"
+          - NA
+          - NA
+          - "62.6952"
+          - "2.6642"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3285
+        values:
+          - Anura
+          - Minervarya_sengupti
+          - "Purkayastha, J., & Masafumi, M. (2012). A new species of Fejervarya (Anura: Dicroglossidae) from Mawphlang, Northeastern India. Asian Herpetological Research, 3, 31-37. https://doi.org/10.3724/sp.j.1245.2012.00031"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - FLL
+      - TL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 43JBF
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

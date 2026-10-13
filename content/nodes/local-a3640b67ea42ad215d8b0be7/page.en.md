@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-f159d0e8ba}
+The version 3 Amphibian database lists Eleutherodactylus gossei in a source measurement table. Its classification fields read order = Anura, family = Brachycephaloidea, genus = Eleutherodactylus; the linked citation is in Reference.csv row 2085. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-27279fea07}
+Anura.csv rows 1694, 1695 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1694 (F) = 25.5, row 1695 (M) = 23.9; HL: row 1694 (F) = 9.9, row 1695 (M) = 9.1; HW: row 1694 (F) = 10.1, row 1695 (M) = 9.4; other populated codes are TD, EN, TL, THL, Toe4L. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

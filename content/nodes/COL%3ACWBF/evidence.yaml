@@ -1,0 +1,417 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amolops shuichengicus Lyu & Wang, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amolops shuichengicus
+      zh: Amolops shuichengicus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7d96036bbe
+            part: title
+          zh:
+            page: zh
+            section: s-1ceb4c7de2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7d96036bbe
+            part: body
+          zh:
+            page: zh
+            section: s-1ceb4c7de2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8fe62fba02
+            part: title
+          zh:
+            page: zh
+            section: s-555f947ac2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8fe62fba02
+            part: body
+          zh:
+            page: zh
+            section: s-555f947ac2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-30603edd36
+            part: title
+          zh:
+            page: zh
+            section: s-fe44b0d19f
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-30603edd36
+            part: body
+          zh:
+            page: zh
+            section: s-fe44b0d19f
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-4d191188fe902fc54aca9ef2
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2b8c84f6f0
+            part: title
+          zh:
+            page: zh
+            section: s-42c662f2c0
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2b8c84f6f0
+            part: body
+          zh:
+            page: zh
+            section: s-42c662f2c0
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f80865cb76
+            part: title
+          zh:
+            page: zh
+            section: s-a3c505ccb5
+            part: title
+        sourceIds:
+          - primary-pmc10351143-cwbf
+        text:
+          en:
+            page: en
+            section: s-f80865cb76
+            part: body
+          zh:
+            page: zh
+            section: s-a3c505ccb5
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cc9e0bce32
+            part: title
+          zh:
+            page: zh
+            section: s-3ef1feb676
+            part: title
+        sourceIds:
+          - primary-pmc10351143-cwbf
+        text:
+          en:
+            page: en
+            section: s-cc9e0bce32
+            part: body
+          zh:
+            page: zh
+            section: s-3ef1feb676
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-338a65db8f
+            part: title
+          zh:
+            page: zh
+            section: s-af7981b5b2
+            part: title
+        sourceIds:
+          - primary-pmc10351143-cwbf
+        text:
+          en:
+            page: en
+            section: s-338a65db8f
+            part: body
+          zh:
+            page: zh
+            section: s-af7981b5b2
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-476b1b02c0
+            part: title
+          zh:
+            page: zh
+            section: s-3facf6dfc5
+            part: title
+        sourceIds:
+          - primary-pmc10351143-cwbf
+        text:
+          en:
+            page: en
+            section: s-476b1b02c0
+            part: body
+          zh:
+            page: zh
+            section: s-3facf6dfc5
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-13bf91498e
+            part: title
+          zh:
+            page: zh
+            section: s-7275045922
+            part: title
+        sourceIds:
+          - primary-pmc10351143-cwbf
+        text:
+          en:
+            page: en
+            section: s-13bf91498e
+            part: body
+          zh:
+            page: zh
+            section: s-7275045922
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amolops shuichengicus
+          url: https://www.checklistbank.org/dataset/316115/taxon/CWBF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 298, 299; Reference.csv rows 3774
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10351143-cwbf
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amolops shuichengicus: Amolops shuichengicus: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced; selected focal pairwise-distance cells read with explicit row, column, gene and original label; no sequence or alignment authentication; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-00107d0a19
+        part: body
+      zh:
+        page: zh
+        section: s-6b3a1005ef
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-4d191188fe902fc54aca9ef2
+        scientificName: Amolops shuichengicus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1186/s40851-023-00214-9
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        sourceKey: primary-pmc10351143-cwbf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10351143/article.xml
+        sourceConcept: Exactnamed2023comparison/donorrow;authorcomparisonnotnewwhole-speciesmeasurementorconceptauthentication
+        evidenceRead: "Amolops shuichengicus: Amolops shuichengicus: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced; selected focal pairwise-distance cells read with explicit row, column, gene and original label; no sequence or alignment authentication; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Sex-specific size in a published comparison
+              zh: 发表比较中的性别特定体型
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-cwbf
+            locator: PMC10351143 article.xml Sec20p2;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c37e8ac988
+                part: body
+              zh:
+                page: zh
+                section: s-22bbd86078
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Vomerine teeth in the named comparison
+              zh: 具名比较中的犁骨齿
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-cwbf
+            locator: PMC10351143 article.xml Sec20p1–2;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0ca1deb891
+                part: body
+              zh:
+                page: zh
+                section: s-bd38c63485
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: A source donor with uneven locus coverage
+              zh: 位点覆盖不均匀的来源供体
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-cwbf
+            locator: PMC10351143 article.xml Tab1 row45 allsixcolumns;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-24f88c3b44
+                part: body
+              zh:
+                page: zh
+                section: s-751e148172
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: A source donor with uneven locus coverage
+              zh: 位点覆盖不均匀的来源供体
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-cwbf
+            locator: PMC10351143 article.xml Tab1 row46 allsixcolumns;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e1b1375278
+                part: body
+              zh:
+                page: zh
+                section: s-28d023e651
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Published mitochondrial distances from the ailao label
+              zh: 与ailao标签的已发表线粒体距离
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-cwbf
+            locator: PMC10351143 article.xml Tab2 row 11 column 1 (16S; 11 A. shuichengicus / 1 A. ailao sp. nov.); Tab2 row 1 column 11 (COI; 1 A. ailao sp. nov. / 11 A. shuichengicus); Tab3 row 12 column 1 (CYTB; 12 A. shuichengicus / 1 A. ailao sp. nov.); yunnan-amolops-focal-distance-reading.json; Tab3 header has columns 1–11 for twelve numbered data rows, selected first-column values retained
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5b46a89d17
+                part: body
+              zh:
+                page: zh
+                section: s-7d9fcb3790
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

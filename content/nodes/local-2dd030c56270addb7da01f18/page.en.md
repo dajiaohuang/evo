@@ -1,0 +1,9 @@
+## The dataset entry {#s-9369c506ed}
+The pinned AmphiTherm curated snapshot records Eurycea longicauda under Plethodontidae, Caudata. It retains 6 thermal estimate rows across 4 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-b3a13fb885}
+Source row 2243 (ID 2469; Hutchison_1958) reports 33.79 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Eurycea_longicauda_pop4. Recorded conditions include acclimation at 18 °C, medium_test_temp = ambient. The source n_trait field is 13. The endpoint is OS. Sex is recorded as mixed. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## thermal preference estimate {#s-9580fa1f51}
+Source row 4058 (ID 4485; Spotila_1972) reports 21.48648649 °C for the thermal preference estimate (metric code Tpref). The tested stage is recorded as adults. The source population code is Eurycea_longicauda_pop1. Recorded conditions include acclimation at 15 °C, medium_test_temp = substrate, rate_measurement = 0.5. The source reports 7.783783784 °C as its standard deviation. The source n_trait field is 21. The source row does not state an endpoint. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

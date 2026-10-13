@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Churamiti maridadi
+  displayName: Churamiti maridadi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V3SG
+  sourceIndexes:
+    - name:
+        en: Churamiti maridadi
+        zh: Churamiti maridadi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V3SG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/372
+            queryName: Churamiti maridadi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-78ec6cd250
+      - s-393f3ee358
+      - s-56102ecdaf
+      - s-0c5399b1cf
+      - s-294464364f
+      - s-dc54df66d2
+      - s-230302ea63
+      - s-242c9524bf
+    zh:
+      - s-7d6bde5529
+      - s-4b33aafe23
+      - s-15550c6c1c
+      - s-1ee08f05a1
+      - s-822bd4fafb
+      - s-e58fcaff20
+      - s-fd50152af8
+      - s-8cd25c0494

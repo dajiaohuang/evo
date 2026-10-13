@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Blommersia wittei
+  displayName: Blommersia wittei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M74S
+  sourceIndexes:
+    - name:
+        en: Blommersia wittei
+        zh: Blommersia wittei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M74S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/441
+            queryName: Blommersia wittei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/216
+            queryName: Mantidactylus wittei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-80df101ac1
+      - s-1147eee49d
+      - s-629b1993bb
+      - s-a0d1e96648
+      - s-241d2e3479
+      - s-319779c33f
+      - s-a4e0631099
+      - s-dae444d052
+      - s-95e61b4f73
+      - s-ff51c852e4
+    zh:
+      - s-55ea5a9c1d
+      - s-e63a161428
+      - s-9036bdf13f
+      - s-1e9ba4a568
+      - s-a45c364a0e
+      - s-dce903bbee
+      - s-d98329cc8b
+      - s-474edb8757
+      - s-b6e772dea4
+      - s-f5fc2f9d11

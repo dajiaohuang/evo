@@ -1,0 +1,138 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aneides lugubris
+  displayName: Aneides lugubris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DW5C
+  sourceIndexes:
+    - name:
+        en: Aneides lugubris
+        zh: Aneides lugubris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DW5C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/481
+            queryName: Aneides lugubris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 36
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/31
+            queryName: Salamandra lugubris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/32
+            queryName: Aneides lugubris lugubris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/33
+            queryName: Aneides lugubris farallonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/34
+            queryName: Autodax lugubris farallonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/345
+            queryName: Triton tereticauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/346
+            queryName: Ambystoma punctulatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/347
+            queryName: Amblystoma punctulatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/348
+            queryName: Anaides lugubris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/349
+            queryName: Plethodon crassulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/350
+            queryName: Autodax lugubris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/458
+            queryName: Taricha lugubris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5ffc0de962
+      - s-9f6fd4c6ba
+      - s-06d77e9a36
+      - s-46260cd505
+      - s-4066eb3f1c
+      - s-e70da81f2e
+      - s-949f736978
+      - s-b27e13d284
+      - s-c6e7f90042
+      - s-3d8d25054f
+      - s-55fa5d6c7d
+      - s-03f85c6205
+      - s-fa68c99140
+      - s-fe118cce22
+      - s-bbb8ef0af3
+      - s-0e397c4cf2
+    zh:
+      - s-ec8dc1aafb
+      - s-bd0169d8ed
+      - s-9ae122b68f
+      - s-00b340034c
+      - s-561758da75
+      - s-2b34e019f5
+      - s-85cde3727e
+      - s-7f70da148d
+      - s-a72e813ea8
+      - s-f2653b0570
+      - s-528983744a
+      - s-9654adcc98
+      - s-0f864bee4b
+      - s-803fee31bf
+      - s-7e567acd57
+      - s-d3d90bf0ea

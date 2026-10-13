@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Plagiorophus paraboliceps
+    rank: species
+    sourceTaxonId: txn:169909
+    name:
+      en: Plagiorophus paraboliceps
+      zh: Plagiorophus paraboliceps
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-3082a2f6db
+            part: body
+          zh:
+            page: zh
+            section: s-93c68266b8
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 3 PBDB occurrence rows and collection fields
+          zh: 3 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-0eacc6d9aa
+            part: body
+          zh:
+            page: zh
+            section: s-1be4a47b11
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Plagiorophus paraboliceps
+          zh: Plagiorophus paraboliceps 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-832c0546e0
+            part: body
+          zh:
+            page: zh
+            section: s-838cf3e20e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:169909; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. A. Shishkin, I. V. Novikov, and Y. M. Gubin. 2000. Permian and Triassic temnospondyls from Russia. The Age of Dinosaurs in Russia and Mongolia. Cambridge University Press, Cambridge
+    occurrenceEvidence:
+      - occurrenceId: occ:877609
+        collectionId: col:97410
+        acceptedTaxonId: txn:169909
+        identifiedTaxonId: var:169909
+        identifiedName: Plagiosternum paraboliceps
+        taxonomicDifference: recombined as
+        referenceId: ref:28844
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and M. V. Surkov, M. J. Benton. 2003. Tetrapod localities from the Triassic of the SE of European Russia. Earth-Science Reviews 60(1-2):1-66
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Sol'-Iletskiy
+        stratigraphy:
+          group: null
+          formation: Donguz
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 241.464
+      - occurrenceId: occ:877637
+        collectionId: col:97415
+        acceptedTaxonId: txn:169909
+        identifiedTaxonId: var:169909
+        identifiedName: Plagiosternum paraboliceps
+        taxonomicDifference: recombined as
+        referenceId: ref:28844
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and M. V. Surkov, M. J. Benton. 2003. Tetrapod localities from the Triassic of the SE of European Russia. Earth-Science Reviews 60(1-2):1-66
+        locality:
+          countryCode: RU
+          stateProvince: Bashkortostan
+          county: null
+        stratigraphy:
+          group: null
+          formation: Donguz
+          member: null
+        olderAgeMa: 243.43
+        youngerAgeMa: 241.464
+      - occurrenceId: occ:1383189
+        collectionId: col:79970
+        acceptedTaxonId: txn:169909
+        identifiedTaxonId: var:169909
+        identifiedName: Plagiosternum paraboliceps n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: RU
+          stateProvince: Bashkortostan
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bukobay
+          member: null
+        olderAgeMa: 241.464
+        youngerAgeMa: 237
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Plagiorophus paraboliceps
+          zh: Plagiorophus paraboliceps 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-832c0546e0
+            part: body
+          zh:
+            page: zh
+            section: s-838cf3e20e
+            part: body
+        sourceIds: []

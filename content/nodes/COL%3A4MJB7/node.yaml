@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis calcarulatus
+  displayName: Pristimantis calcarulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJB7
+  sourceIndexes:
+    - name:
+        en: Pristimantis calcarulatus
+        zh: Pristimantis calcarulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJB7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/173
+            queryName: Pristimantis calcarulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/291
+            queryName: Eleutherodactylus calcarulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c84dec615d
+      - s-d86479833e
+      - s-000441acf6
+      - s-d0ffe544b8
+      - s-6d341320db
+      - s-4ff8dcc319
+      - s-69a11d0948
+      - s-eab039e2c3
+      - s-ad8ef13a29
+    zh:
+      - s-d1a68320ff
+      - s-a48e73fab6
+      - s-dbad038344
+      - s-74d029b5d8
+      - s-5e2043bdf3
+      - s-60a8499d92
+      - s-47da354ea3
+      - s-9b1f7511ab
+      - s-6c6b7887eb

@@ -1,0 +1,107 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Luangwa
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Luangwa
+      en: Luangwa
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-871910964a
+            part: body
+          en:
+            page: en
+            section: s-a0e55e2700
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5bb77460c1
+            part: body
+          en:
+            page: en
+            section: s-56eeb17211
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Luangwa
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=39202
+          locator: Recorded PBDB parent closure beneath the already documented Synapsida COL-compatible storage anchor.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:39202
+          readingTargets:
+            - name: Luangwa drysdalli
+              pbdbTaxonId: txn:172477
+              canonicalPath: content/nodes/PBDB%3A172477
+            - name: Luangwa sudamericana
+              pbdbTaxonId: txn:180407
+              canonicalPath: content/nodes/PBDB%3A180407
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3799c55394
+        part: body
+      en:
+        page: en
+        section: s-552158a76d
+        part: body

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella khasiorum
+  displayName: Leptobrachella khasiorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PFQF
+  sourceIndexes:
+    - name:
+        en: Leptobrachella khasiorum
+        zh: Leptobrachella khasiorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PFQF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/247
+            queryName: Leptobrachella khasiorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/414
+            queryName: Leptolalax khasiorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9a62607c0a
+      - s-589d386ebd
+      - s-36784256c5
+      - s-cd5a59b8e5
+      - s-aff6f2390b
+      - s-7c757b8ed6
+      - s-8ea195fcd1
+    zh:
+      - s-679efff21a
+      - s-0ef4a634c4
+      - s-2b0a13f31b
+      - s-1d1d24da28
+      - s-5d84dcb67d
+      - s-1ab3593e98
+      - s-d7d7555068

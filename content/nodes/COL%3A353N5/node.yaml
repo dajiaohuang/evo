@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus welteri
+  displayName: Desmognathus welteri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/353N5
+  sourceIndexes:
+    - name:
+        en: Desmognathus welteri
+        zh: Desmognathus welteri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 353N5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/492
+            queryName: Desmognathus welteri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/480
+            queryName: Desmognathus fuscus welteri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-528dbec93b
+      - s-6a6808bb99
+      - s-742dd224e9
+      - s-c60858dbec
+      - s-45de113e18
+      - s-53eb2c0130
+      - s-7a8bf4c149
+      - s-481deb6c58
+      - s-182424e66e
+    zh:
+      - s-2de2ecb31f
+      - s-71588a6732
+      - s-97d928391d
+      - s-da07b4560e
+      - s-d035b7c99d
+      - s-9ea665cd2b
+      - s-9905b1eb57
+      - s-1315bc5c89
+      - s-3a8e341c94

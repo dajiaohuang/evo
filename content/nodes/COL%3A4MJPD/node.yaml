@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis sobetes
+  displayName: Pristimantis sobetes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJPD
+  sourceIndexes:
+    - name:
+        en: Pristimantis sobetes
+        zh: Pristimantis sobetes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJPD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/103
+            queryName: Pristimantis sobetes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/62
+            queryName: Eleutherodactylus sobetes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-502b5aba91
+      - s-8b671dbc46
+      - s-7ec82e241a
+      - s-13ba0b005b
+      - s-ac1d1c05ea
+      - s-2bb2ee726c
+      - s-d0649cebc6
+      - s-15d15ef34f
+      - s-65844db01c
+      - s-873affdd94
+      - s-c639bf5a9a
+      - s-7cc5ee4c21
+      - s-7c38b0f1bc
+      - s-e7fcecbad2
+      - s-540f31e6bb
+    zh:
+      - s-37d4ef2a29
+      - s-a227abdff9
+      - s-b104b51651
+      - s-6ef1d44209
+      - s-6e0443dab1
+      - s-1b4f3d1bd5
+      - s-d8bc547280
+      - s-503fd3b714
+      - s-d1af2003ab
+      - s-f3ac86917e
+      - s-4371156324
+      - s-e1a28940e3
+      - s-a440f0edc4
+      - s-2cef99dabf
+      - s-f4c6b4bff1

@@ -1,0 +1,3 @@
+## *Praxelis kleinioides*: lilac heads and a bristly fruit crown {#s-e7cae99416}
+The Brazilian Flora 2020 regional field records erect, ridged, hairy stems and opposite, papery, egg-shaped leaves with toothed margins and three main veins. Single flower heads sit on long, hairy stalks inside bell-shaped bract cups. The florets are bisexual and lilac, with five equal triangular lobes. The ribbed fruitlets have an asymmetric attachment base and hairs along the ribs; the pappus is a single row of bristles. The field lists several bristle forms and fruit rib counts, so these are recorded alternatives.
+

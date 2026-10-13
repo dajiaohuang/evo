@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus coriaceus
+  displayName: Trachycephalus coriaceus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PVH
+  sourceIndexes:
+    - name:
+        en: Trachycephalus coriaceus
+        zh: Trachycephalus coriaceus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PVH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/95
+            queryName: Trachycephalus coriaceus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/12
+            queryName: Phrynohyas coriacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/157
+            queryName: Hyla coriacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e26e0b22b
+      - s-5e34bd2da4
+      - s-5c259ad194
+      - s-d3582f90b9
+      - s-0a1595ac0b
+      - s-e8591ba98d
+      - s-805237caaf
+      - s-e6dc6fdabd
+      - s-69b5b4152b
+      - s-453b8b11ce
+      - s-8c06de210e
+      - s-32081602c6
+      - s-fc1bc560fa
+      - s-7fc03e0a9b
+      - s-34832ba64b
+      - s-519605d465
+      - s-2249b7a61f
+      - s-feb2b9cb36
+      - s-51a6a0e513
+      - s-4b9bb6dcf5
+      - s-fcb96f1ef1
+      - s-1737f8ea70
+      - s-a6cfc16cf5
+      - s-3ac3c8d786
+      - s-2340c1fa31
+    zh:
+      - s-9ab5c0e02b
+      - s-0e7c135b9f
+      - s-648791229d
+      - s-5fea6a096e
+      - s-392d2b0240
+      - s-640e00e470
+      - s-27c6f71f32
+      - s-1c4716efb1
+      - s-c5c9097e6d
+      - s-c77e1174a7
+      - s-f6c385b40e
+      - s-a0b3fd5ff6
+      - s-8f10a844cf
+      - s-5cf4ad4c8e
+      - s-c17532b293
+      - s-6a813b1574
+      - s-1bdde5805d
+      - s-a3f092a9a0
+      - s-875e700b02
+      - s-139233b506
+      - s-f2a548998a
+      - s-9d35eb20ad
+      - s-82ee36097d
+      - s-d381a9a9b8
+      - s-ab767b20b3

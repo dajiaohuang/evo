@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius nimbae
+  displayName: Hyperolius nimbae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQWH
+  sourceIndexes:
+    - name:
+        en: Hyperolius nimbae
+        zh: Hyperolius nimbae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQWH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/299
+            queryName: Hyperolius nimbae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/57
+            queryName: Hyperolius viridiflavus nimbae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/58
+            queryName: Hyperolius tuberculatus nimbae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c748b4d823
+      - s-8f97e7bf7e
+      - s-2604ac018f
+      - s-1466d6525f
+      - s-c353fadd70
+      - s-2d7b884ba1
+      - s-ac38366cc9
+      - s-45a14d502f
+    zh:
+      - s-3945cc4d05
+      - s-12125b4801
+      - s-d0e26e0233
+      - s-2b6e781201
+      - s-3eb113995e
+      - s-6a09116d12
+      - s-4fb4f1bdb8
+      - s-a508d3e0bc

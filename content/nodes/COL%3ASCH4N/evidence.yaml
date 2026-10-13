@@ -1,0 +1,223 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis sinschi Moravec, Lehr & Kodejs, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis sinschi
+      zh: Pristimantis sinschi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6772b0ccdf
+            part: title
+          zh:
+            page: zh
+            section: s-217b7e482c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6772b0ccdf
+            part: body
+          zh:
+            page: zh
+            section: s-217b7e482c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e4decf2493
+            part: title
+          zh:
+            page: zh
+            section: s-79cca88eac
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e4decf2493
+            part: body
+          zh:
+            page: zh
+            section: s-79cca88eac
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-c782051a22
+            part: title
+          zh:
+            page: zh
+            section: s-ca644efc38
+            part: title
+        sourceIds:
+          - primary-pmc7686219-sch4n
+        text:
+          en:
+            page: en
+            section: s-c782051a22
+            part: body
+          zh:
+            page: zh
+            section: s-ca644efc38
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7abbfd413d
+            part: title
+          zh:
+            page: zh
+            section: s-42c83e992c
+            part: title
+        sourceIds:
+          - primary-pmc7686219-sch4n
+        text:
+          en:
+            page: en
+            section: s-7abbfd413d
+            part: body
+          zh:
+            page: zh
+            section: s-42c83e992c
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-51c584ed65
+            part: body
+          zh:
+            page: zh
+            section: s-88e01bad98
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis sinschi
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCH4N
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7686219-sch4n
+        referenceId: ref-80b698c9-d99b-4e0c-a362-9a1f0fbbb9b9
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis sinschi: Distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a957e2b740
+        part: body
+      zh:
+        page: zh
+        section: s-246f88fd5d
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.994.56277
+        referenceId: ref-80b698c9-d99b-4e0c-a362-9a1f0fbbb9b9
+        sourceKey: primary-pmc7686219-sch4n
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7686219/article.xml
+        sourceConcept: Pristimantis sinschi
+        evidenceRead: "Pristimantis sinschi: Distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Two Pui Pui-area localities
+              zh: Pui Pui 地区两个地点
+            referenceId: ref-80b698c9-d99b-4e0c-a362-9a1f0fbbb9b9
+            sourceKey: primary-pmc7686219-sch4n
+            locator: "Pristimantis sinschi: Distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d71b038460
+                part: body
+              zh:
+                page: zh
+                section: s-6e938ed0bd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Three night-time leaf observations
+              zh: 三次夜间叶片观察
+            referenceId: ref-80b698c9-d99b-4e0c-a362-9a1f0fbbb9b9
+            sourceKey: primary-pmc7686219-sch4n
+            locator: "Pristimantis sinschi: Distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d5683e7661
+                part: body
+              zh:
+                page: zh
+                section: s-9ab9ec9789
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

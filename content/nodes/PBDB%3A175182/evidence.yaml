@@ -1,0 +1,389 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Morganucodonta
+    commonName: Morganucodontans
+    commonNameZh: 摩尔根兽类
+    rank: order
+    taxonId: txn:175182
+    firstAppearance: 201.4
+    lastAppearance: 145
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Morganucodonta
+    rank: order
+    sourceDatasetId: null
+    name:
+      zh: Morganucodonta
+      en: Morganucodonta
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-81cb786faa
+            part: body
+          en:
+            page: en
+            section: s-158f8e1fb3
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1ec9f6472a
+            part: body
+          en:
+            page: en
+            section: s-3e5328f43c
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Morganucodonta
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=175182
+          locator: Recorded PBDB parent closure beneath the already documented Synapsida COL-compatible storage anchor.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:175182
+          readingTargets:
+            - name: Wareolestes rex
+              pbdbTaxonId: txn:208887
+              canonicalPath: content/nodes/PBDB%3A208887
+            - name: Megazostrodon rudnerae
+              pbdbTaxonId: txn:178199
+              canonicalPath: content/nodes/PBDB%3A178199
+            - name: Dinnetherium nezorum
+              pbdbTaxonId: txn:175122
+              canonicalPath: content/nodes/PBDB%3A175122
+            - name: Paceyodon davidi
+              pbdbTaxonId: txn:216774
+              canonicalPath: content/nodes/PBDB%3A216774
+            - name: Purbeckodon batei
+              pbdbTaxonId: txn:216651
+              canonicalPath: content/nodes/PBDB%3A216651
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e6176cb077
+        part: body
+      en:
+        page: en
+        section: s-981d82c3e8
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:175182
+    scientificName: Morganucodonta
+    commonName: Morganucodontans
+    commonNameZh: 摩尔根兽类颅骨标本组
+    rank: order
+    parentName: Mammaliaformes
+    extinct: true
+    geography:
+      - Wales and China
+      - Lower Jurassic representative material
+      - No complete order-level distribution inferred
+    overview:
+      page: en
+      section: s-221219e596
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-bbb442fd62
+        part: body
+      habitat:
+        page: en
+        section: s-a751f152fd
+        part: body
+      locomotion:
+        page: en
+        section: s-a903f0fc63
+        part: body
+      bodySize:
+        page: en
+        section: s-8b1542af58
+        part: body
+      guild:
+        page: en
+        section: s-dd316078de
+        part: body
+      dietZh:
+        page: zh
+        section: zh-51cda165a22980
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-0d0917453c9d49
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-2b2c0782d61a6d
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-3bc6da14cfc826
+        part: body
+      guildZh:
+        page: zh
+        section: zh-1214d514f40aac
+        part: body
+    traits:
+      - page: en
+        section: s-0fad7dc79d
+        part: body
+      - page: en
+        section: s-945a6eb097
+        part: body
+      - page: en
+        section: s-a1cb2cccd6
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-ebac6eaf7a
+      part: body
+    confidence: medium
+    referenceIds:
+      - kermack-1981-morganucodon-skull
+      - luo-2002-mesozoic-mammal-phylogeny
+    overviewZh:
+      page: zh
+      section: s-34b2a92798
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-f0c5b757d6
+      part: body
+    readerSources:
+      - id: kermack-1981-morganucodon-skull
+        referenceId: kermack-1981-morganucodon-skull
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Kermack et al. (1981), pp. 1–158, especially 1–8: Morganucodon watsoni and M. oehleri skull samples, the 26 mm skull, jaw articulation and dentition."
+            zh: Kermack 等（1981），第 1–158 页，尤其第 1–8 页：Morganucodon watsoni 与 M. oehleri 头骨样本、26 毫米头骨、颌关节及牙列。
+      - id: luo-2002-mesozoic-mammal-phylogeny
+        referenceId: luo-2002-mesozoic-mammal-phylogeny
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Luo et al. (2002), pp. 1–78: mammaliaform taxon sampling, Morganucodontan relationships and the stated crown Mammalia boundary."
+            zh: Luo 等（2002），第 1–78 页：哺乳形类取样、摩根齿兽类关系及文中采用的冠群哺乳动物边界。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-221219e596
+            part: title
+          zh:
+            page: zh
+            section: s-34b2a92798
+            part: title
+        text:
+          en:
+            page: en
+            section: s-221219e596
+            part: body
+          zh:
+            page: zh
+            section: s-34b2a92798
+            part: body
+        sourceIds:
+          - kermack-1981-morganucodon-skull
+      - id: morganucodonta-evidence
+        title:
+          en:
+            page: en
+            section: s-ebac6eaf7a
+            part: title
+          zh:
+            page: zh
+            section: s-f0c5b757d6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ebac6eaf7a
+            part: body
+          zh:
+            page: zh
+            section: s-f0c5b757d6
+            part: body
+        sourceIds:
+          - kermack-1981-morganucodon-skull
+          - luo-2002-mesozoic-mammal-phylogeny
+    traitsZh:
+      - page: zh
+        section: zh-c49bbc33a28096
+        part: body
+      - page: zh
+        section: zh-9813491f56d262
+        part: body
+      - page: zh
+        section: zh-1197ea96df2885
+        part: body
+  claims:
+    - subjectId: taxon:morganucodonta
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Morganucodontans are sampled as early mammaliaforms outside narrower crown Mammalia in the cited broad character analysis; this placement is a higher-taxon convention and topology, not evidence that Morganucodonta is the direct ancestor of living mammals.
+      confidence: medium
+      confidenceRationale: The paper directly scores morganucodontans and discusses the Mammalia boundary. The statement avoids ancestry and whole-group duration.
+      referenceLinks:
+        - relation: supports
+          referenceId: luo-2002-mesozoic-mammal-phylogeny
+          pages: 1–78
+          quoteLocator: Taxon sampling; Mammaliaformes relationships; discussion of crown Mammalia definitions
+        - relation: supports
+          referenceId: kermack-1981-morganucodon-skull
+          pages: 1–158, especially 1–8
+          quoteLocator: Material, taxonomy and systematic position of Morganucodon
+    - subjectId: taxon:morganucodonta
+      claimKind: scientific
+      claimType: biogeography
+      statement: The primary skull study describes Lower Jurassic Morganucodon watsoni from Wales and M. oehleri from China; these two source localities are representative material, not a complete geographic distribution for Morganucodonta.
+      confidence: medium
+      confidenceRationale: The source names the two species, countries and Lower Jurassic context, but an order-level dossier must not turn them into a complete range or origin centre.
+      referenceLinks:
+        - relation: supports
+          referenceId: kermack-1981-morganucodon-skull
+          pages: 1–158, especially 1–8
+          quoteLocator: "Introduction and material: M. watsoni from Wales; M. oehleri from China"
+    - subjectId: taxon:morganucodonta
+      claimKind: scientific
+      claimType: ecology
+      statement: The described Morganucodon skulls have teeth differentiated into incisors, canines, premolars and molars, but the study does not directly observe diet, habitat, locomotion or behaviour for Morganucodonta as a whole.
+      confidence: medium
+      confidenceRationale: The dental differentiation is a direct anatomical observation; ecological function is deliberately withheld beyond a cautious dental inference.
+      referenceLinks:
+        - relation: supports
+          referenceId: kermack-1981-morganucodon-skull
+          pages: 1–158, especially 1–8
+          quoteLocator: Abstract; dentition and functional differentiation
+    - subjectId: taxon:morganucodonta
+      claimKind: scientific
+      claimType: morphology
+      statement: Kermack and colleagues describe a 26 mm Morganucodon watsoni skull and a slightly larger M. oehleri skull, with a squamosal–dentary contact while the articular–quadrate joint is retained; this is one anatomical mosaic, not a linear transition or direct ancestry claim.
+      confidence: high
+      confidenceRationale: The named skull study directly describes the stated anatomy, while functional and evolutionary interpretations remain bounded to the authors' material and taxon sampling.
+      referenceLinks:
+        - relation: supports
+          referenceId: kermack-1981-morganucodon-skull
+          pages: 1–158, especially 1–8
+          quoteLocator: Abstract; skull, jaw articulation and middle-ear descriptions
+    - subjectId: taxon:morganucodonta
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Morganucodonta is displayed at 201.4–145 Ma only as the synthesis's sampled fossil envelope, not exact global genus-group endpoints. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Morganucodonta uses Luo, Z.-X.; Kielan-Jaworowska, Z.; Cifelli, R.L. (2002) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Morganucodontan specimens sampled in Luo et al.'s Mesozoic-mammal synthesis; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: luo-2002-mesozoic-mammal-phylogeny
+          pages: 1–78
+          quoteLocator: Taxon sampling; Mammaliaformes relationships; discussion of crown Mammalia definitions
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 论文直接编码摩根兽类并讨论哺乳纲边界；表述避免祖先关系和全群延续范围。
+    - 来源明确两种标本、国家和早侏罗世背景，但目级档案不能把它们转化为完整分布或起源中心。
+    - 牙齿分化是直接的解剖观察；除审慎的牙齿功能推断外，生态功能保持未定。
+    - 具名颅骨研究直接描述了相关解剖；功能和演化解释仍限定于作者的材料与类群取样。
+    - Morganucodonta 采用 Luo, Z.-X.; Kielan-Jaworowska, Z.; Cifelli, R.L.（2002）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Morganucodontan specimens sampled in Luo et al.'s Mesozoic-mammal synthesis；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - Kermack 及同事描述了一件长 26 毫米的 Morganucodon watsoni 头骨和一件稍大的 M. oehleri 头骨：存在鳞骨与齿骨的接触，同时保留关节骨与方骨组成的关节。这是一种解剖特征的镶嵌组合，并不代表线性演变或直接祖先关系。
+    - 头骨主研究描述了威尔士下侏罗统的 Morganucodon watsoni 和中国的 M. oehleri；这两个来源地点提供代表性材料，并非摩根齿兽目的完整地理分布。
+    - 所描述 Morganucodon 头骨的牙齿分化为门齿、犬齿、前臼齿和臼齿，但研究并未直接观察整个摩根齿兽目的食性、生境、运动方式或行为。
+    - 在所引广泛性状分析中，摩根兽类被取样为狭义冠群哺乳纲之外的早期哺乳形类；这一位置属于高阶分类约定与拓扑，不是摩根兽目为现生哺乳类直接祖先的证据。
+    - Morganucodonta 仅以 201.4–145 Ma 展示为综述所采样的化石包络，而非精确全球类群端点。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: morganucodonta
+      rangeKind: global-composite
+      taxonomicConcept: Morganucodonta — source-bounded sample window
+      geographicScope: Morganucodontan specimens sampled in Luo et al.'s Mesozoic-mammal synthesis
+      olderMa: 201.4
+      youngerMa: 145
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the synthesis's sampled fossil envelope, not exact global genus-group endpoints; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: In quest for a phylogeny of Mesozoic mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:morganucodonta:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: luo-2002-mesozoic-mammal-phylogeny
+          locator: 1–78; Taxon sampling; Mammaliaformes relationships; discussion of crown Mammalia definitions
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries

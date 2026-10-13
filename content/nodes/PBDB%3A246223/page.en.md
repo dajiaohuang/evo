@@ -1,0 +1,9 @@
+## PBDB's recorded taxonomic concept {#s-4b817aad47}
+The PBDB snapshot checked 2026-10-02 records Habrosaurus prodilatus at species rank (source concept txn:246223), beneath the recorded parent Habrosaurus. This is the database parent chain stored under the Amphibia anchor; the path does not certify equivalence with a COL26.8 concept.
+
+## 4 PBDB occurrence rows and collection fields {#s-6161d51b9e}
+The exact concept has 4 occurrence records and 4 distinct collection IDs: occ:1170323 (collection col:14463; identified name `Habrosaurus prodilatus n. sp.`; locality labels CA / Alberta; stratigraphy fields group=Belly River, formation=Dinosaur Park; `olderAgeMa`=83.6 Ma, `youngerAgeMa`=72.2 Ma). occ:1395765 (collection col:144499; locality labels US / Montana / Garfield; stratigraphy fields formation=Hell Creek; `olderAgeMa`=72.2 Ma, `youngerAgeMa`=66 Ma). occ:1395793 (collection col:144500; locality labels US / Montana / Garfield; stratigraphy fields group=Montana, formation=Hell Creek, member=Lower; `olderAgeMa`=72.2 Ma, `youngerAgeMa`=66 Ma). occ:1395794 (collection col:192249; locality labels US / Montana / Garfield; stratigraphy fields formation=Hell Creek; `olderAgeMa`=72.2 Ma, `youngerAgeMa`=66 Ma). Age values are collection-record fields in Ma (million years ago), not measured origin or extinction dates; this snapshot does not establish a complete global distribution. The excerpt supplies occurrence and collection IDs but no specimen identifier or specimen-level description.
+
+## Reference-index lookup for Habrosaurus prodilatus {#s-9cc934326e}
+The accepted-name lookup for `Habrosaurus prodilatus` reports 0 reference records in the linked index. This is bibliography metadata, not a verified biological result. This placeholder assigns no biological claim and concept equivalence is not certified; the factual account on this page is limited to the PBDB fields above.
+

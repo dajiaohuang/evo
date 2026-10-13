@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaenorhynchus
+  displayName: Sphaenorhynchus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7KD4
+  sourceIndexes:
+    - name:
+        en: Sphaenorhynchus
+        zh: Sphaenorhynchus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7KD4
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/273
+            queryName: Sphaenorhynchus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 198
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-589a3a651e
+      - s-6846b6f5d0
+      - s-805e516ecc
+      - s-0fc9ddb01d
+      - s-aa75af681c
+      - s-73c918d545
+      - s-675744d311
+      - s-4ba50983f0
+      - s-415a97ed7e
+      - s-a898ccb992
+      - s-079e2e38f7
+      - s-02d88d0ec7
+      - s-878ee98ce1
+      - s-777c8ae3a0
+      - s-9cba0ae8e0
+      - s-222297afe9
+      - s-46fa7427a8
+      - s-900f4b1412
+      - s-40ba1107d4
+    zh:
+      - s-246231d0e1
+      - s-d03312a9d3
+      - s-5e604e0561
+      - s-07346f2f1e
+      - s-f61c423d32
+      - s-ee299d4202
+      - s-1a1cfaa564
+      - s-967fd0d44c
+      - s-c591be6b44
+      - s-e6579b6b2b
+      - s-6b89dc140c
+      - s-6cf11e5a48
+      - s-5affc389c7
+      - s-f06963f40e
+      - s-73fadc2ebe
+      - s-684d0e0181
+      - s-b6a0bae4e4
+      - s-a5d4003ca0
+      - s-76d4c0489c

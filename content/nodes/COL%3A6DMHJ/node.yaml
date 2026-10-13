@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryophytes chrysoscelis
+  displayName: Dryophytes chrysoscelis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6DMHJ
+  sourceIndexes:
+    - name:
+        en: Dryophytes chrysoscelis
+        zh: Dryophytes chrysoscelis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6DMHJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/39
+            queryName: Dryophytes chrysoscelis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/251
+            queryName: Hyla chrysoscelis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 282
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/444
+            queryName: Hyla versicolor chrysoscelis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/445
+            queryName: Hyla femoralis chrysoscelis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/447
+            queryName: Hyla versicolor sandersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41b0609424
+      - s-d2faada307
+      - s-e28a4bf4a9
+      - s-143d0788ae
+      - s-3e2f49b353
+      - s-6cf6ce95e5
+      - s-efe47ac9e5
+    zh:
+      - s-2fd645d7f7
+      - s-f82dcb15ea
+      - s-2ed2ea5084
+      - s-37528c74cd
+      - s-a29616f004
+      - s-314b7ef423
+      - s-125806d009

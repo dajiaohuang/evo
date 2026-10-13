@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor megacephalus
+  displayName: Craugastor megacephalus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BBV7
+  sourceIndexes:
+    - name:
+        en: Craugastor megacephalus
+        zh: Craugastor megacephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BBV7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/135
+            queryName: Craugastor megacephalus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/431
+            queryName: Eleutherodactylus megacephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/266
+            queryName: Lithodytes megacephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/267
+            queryName: Hylodes megacephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36c5fc5816
+      - s-2cb4a0e63c
+      - s-93cdc6bd22
+      - s-13cc2cb31f
+      - s-0988cea209
+      - s-3a4bdb3607
+      - s-e95b2daabc
+      - s-4b56f557bb
+      - s-7e04b6fc67
+      - s-11b0cd7fdf
+      - s-c825c45c3a
+    zh:
+      - s-c5c067176a
+      - s-4706f75ec5
+      - s-7395cdaa3b
+      - s-f073f5ea59
+      - s-b6922a14a5
+      - s-c496b35ca2
+      - s-d8a44c1dbe
+      - s-119f94fd21
+      - s-e4b88021f0
+      - s-7b03860eb6
+      - s-8b8c3d8001

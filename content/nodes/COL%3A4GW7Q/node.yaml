@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus africanus
+  displayName: Phrynobatrachus africanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW7Q
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus africanus
+        zh: Phrynobatrachus africanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW7Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/95
+            queryName: Phrynobatrachus africanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/376
+            queryName: Dimorphognathus africanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/203
+            queryName: Heteroglossa africana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/204
+            queryName: Arthroleptis africana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/205
+            queryName: Arthroleptis gabonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/206
+            queryName: Arthroleptis verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/207
+            queryName: Phrynobatrachus latirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cca24a2e15
+      - s-bfb42c0af7
+      - s-1d60589961
+      - s-3a72ae348f
+      - s-1f3ad097af
+      - s-816c0616ef
+      - s-2e3e27e098
+      - s-6240eaeb92
+      - s-56f20400bc
+      - s-af5ca840dd
+      - s-a38a5bd59e
+      - s-8ab30d07c1
+      - s-f4319f4b7d
+      - s-768759b4b5
+      - s-2a2ef914d9
+      - s-43d21b3d0e
+    zh:
+      - s-a8c87b3b83
+      - s-0912a09235
+      - s-dedbee40a0
+      - s-376015bbcb
+      - s-ac2593ffd3
+      - s-689e4ea49c
+      - s-f3baa2f0fb
+      - s-df3b8c7d01
+      - s-3e6d36d0b1
+      - s-f0061edf03
+      - s-14dc33d1d1
+      - s-326e225418
+      - s-9961e6b0e2
+      - s-020f03bb68
+      - s-d6ace988ee
+      - s-ca98447eef

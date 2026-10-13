@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-eea6466c39
+      part: title
+    titleZh:
+      page: zh
+      section: s-93c8c9115c
+      part: title
+    category: innovation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Parhyale hawaiensis CRISPR and comparative insect expression dataset
+    clades:
+      - Pancrustacea
+      - Pterygota
+    summary:
+      page: en
+      section: s-eea6466c39
+      part: body
+    summaryZh:
+      page: zh
+      section: s-93c8c9115c
+      part: body
+    claimIds:
+      - claim:event:parhyale-wing-homology-knockout
+    evidenceItems:
+      - statement: CRISPR perturbations and expression domains compare proximal leg segments in Parhyale with cricket and other insect body-wall and wing structures.
+        relation: supports
+        claimIds:
+          - claim:event:parhyale-wing-homology-knockout
+        referenceLinks:
+          - referenceId: bruce-patel-2020-wing-homology
+            relation: supports
+            pages: 1703–1712
+            figure: Figures 1–6; Extended Data Figures 1–8
+            quoteLocator: Knockout phenotypes and segment alignment
+    uncertaintyItems:
+      - statement: Developmental correspondence supports a homology model but does not preserve the first wing, its ecology or one uniquely identified fossil precursor.
+        relation: contextualizes
+        claimIds:
+          - claim:event:parhyale-wing-homology-knockout
+        referenceLinks:
+          - referenceId: bruce-patel-2020-wing-homology
+            relation: supports
+            pages: 1703–1712
+            figure: Figure 6
+            quoteLocator: Evolutionary model and discussion
+  claims:
+    - subjectId: event:parhyale-wing-homology-knockout
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: CRISPR knockout and expression comparisons in Parhyale hawaiensis and insects support serial homology between proximal leg segments, lateral body wall and wing-related structures, but do not directly observe the first insect wing or identify one fossil transition.
+      confidence: high
+      confidenceRationale: The perturbations and phenotypes directly test developmental correspondence, while deep homology and historical origin remain evolutionary interpretation.
+      referenceLinks:
+        - referenceId: bruce-patel-2020-wing-homology
+          relation: supports
+          pages: 1703–1712
+          figure: Figures 1–6; Extended Data Figures 1–8
+          quoteLocator: CRISPR phenotypes; segment alignment; wing-origin model
+  claim-rationales.zh:
+    - 基因扰动与表型直接检验发育对应关系；深层同源和历史起源仍是演化解释。
+  claim-statements.zh:
+    - 夏威夷 Parhyale hawaiensis 与昆虫的 CRISPR 敲除和表达比较，支持近端足节、侧体壁和翅相关结构之间的系列同源；但未直接观察昆虫第一片翅，也未识别某一化石过渡。

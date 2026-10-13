@@ -1,0 +1,9 @@
+## The dataset entry {#s-da47e18397}
+The pinned AmphiTherm curated snapshot records Phyllodytes melanomystax under Hylidae, Anura. It retains 3 thermal estimate rows across 2 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-f7de3e754b}
+Source row 2053 (ID 2257; Gutierrez-Pesquera_et_al_2016) reports 42 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as larvae. The source population code is Phyllodytes_melanomystax_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.68 °C as its standard deviation. The source n_trait field is 5. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-dcc7e0572d}
+Source row 2098 (ID 2304; Gutierrez-Pesquera_et_al_2016) reports 8 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as larvae. The source population code is Phyllodytes_melanomystax_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.53 °C as its standard deviation. The source n_trait field is 4. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

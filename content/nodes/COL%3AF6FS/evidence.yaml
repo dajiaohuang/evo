@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aotus nancymai Hershkovitz, 1983
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ma's Night Monkey
+      zh: 南希·梅夜猴
+    sections:
+      - topic: population-study
+        text:
+          en:
+            page: en
+            section: s-1df9e2fec6
+            part: body
+          zh:
+            page: zh
+            section: s-8107c01448
+            part: body
+        sourceIds:
+          - nancymai1988
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Aotus nancymai Hershkovitz, 1983
+          url: https://www.checklistbank.org/dataset/316115/taxon/F6FS
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent identity; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-c651d7f4-7f4e-8586-a010-433fc2c93d8d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common-name crosswalk; not occurrence, ecology or a complete range.
+            zh: 支持英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: nancymai1988
+        referenceId: ref-3f204e38-ea2e-84cd-a656-a68502068a4c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Transect-based density estimates and a dated geographic account for A. nancymai and A. vociferans in northeastern Peru.
+            zh: 以样线调查估算 A. nancymai 和 A. vociferans 的密度，并记录秘鲁东北部的有年代地理资料。
+    limitations:
+      en:
+        page: en
+        section: s-0b96b422a0
+        part: body
+      zh:
+        page: zh
+        section: s-5b33a515fe
+        part: body

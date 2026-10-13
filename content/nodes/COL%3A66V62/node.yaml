@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus leopardus
+  displayName: Anomaloglossus leopardus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66V62
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus leopardus
+        zh: Anomaloglossus leopardus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66V62
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/11
+            queryName: Anomaloglossus leopardus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1646cc081f
+      - s-5dfb7a48f2
+      - s-8a59c26894
+      - s-6ffe68145a
+      - s-de53996919
+      - s-afb5226294
+    zh:
+      - s-1f273eaf23
+      - s-6447bbaf2f
+      - s-fa525ade6b
+      - s-ebb38d6959
+      - s-bfcb050936
+      - s-a193aba8f3

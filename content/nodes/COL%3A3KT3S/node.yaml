@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemisus barotseensis
+  displayName: Hemisus barotseensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KT3S
+  sourceIndexes:
+    - name:
+        en: Hemisus barotseensis
+        zh: Hemisus barotseensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KT3S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/271
+            queryName: Hemisus barotseensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da5db4d2d0
+      - s-cf879874d9
+      - s-343884a4b4
+      - s-8235277c87
+      - s-24f6600f1d
+      - s-d650292445
+      - s-1761427cf3
+      - s-5f5db6863a
+      - s-0b7d38e715
+      - s-af894a8960
+    zh:
+      - s-fc782b8f34
+      - s-5110eb4603
+      - s-a1f27c86c5
+      - s-2d6d8bd91d
+      - s-c35aa55791
+      - s-f9c0fb08d9
+      - s-4f84e89f15
+      - s-83c3407fad
+      - s-d06feab791
+      - s-b7567863dd

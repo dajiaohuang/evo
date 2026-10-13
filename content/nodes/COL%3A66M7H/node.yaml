@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus punctatus
+  displayName: Anaxyrus punctatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66M7H
+  sourceIndexes:
+    - name:
+        en: Anaxyrus punctatus
+        zh: Anaxyrus punctatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66M7H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/446
+            queryName: Anaxyrus punctatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 29
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/244
+            queryName: Bufo punctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/191
+            queryName: Bufo beldingi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c2201a22f7
+      - s-e867fdb26b
+      - s-4650e573f6
+      - s-d134afce11
+      - s-28fc039475
+      - s-85bb2571cb
+      - s-e1b92cf0ad
+      - s-4c720fbee2
+      - s-97227d861c
+      - s-cd2f23f96b
+      - s-20fe130809
+      - s-cce5bcc932
+      - s-841c7bf9bc
+      - s-e3d05d14dd
+      - s-b175a8a43f
+      - s-b4818b88a5
+      - s-10b78533c7
+      - s-6bf235585b
+      - s-0d02b2a3af
+      - s-c9c05e2f7f
+      - s-da72016ee2
+      - s-143d9399b1
+      - s-2dd5ecf42b
+      - s-cf57cbbfe1
+      - s-b020d50295
+      - s-961797327f
+      - s-497f1f0e15
+    zh:
+      - s-b329ba7e86
+      - s-236fcbdfb3
+      - s-ff0646014a
+      - s-4560e3c2fe
+      - s-710c8c5c6e
+      - s-60a3f6a777
+      - s-fbbd2c3c89
+      - s-6b9bc1f998
+      - s-600308dee1
+      - s-0314bb3783
+      - s-a7933fad11
+      - s-801c42572d
+      - s-f73921705a
+      - s-fe43d2695f
+      - s-6e47a8e801
+      - s-0ba42be9cd
+      - s-fbeaffd0cd
+      - s-065e2a7d95
+      - s-39a0c51956
+      - s-ad7da099eb
+      - s-c64fbc81ff
+      - s-a7918a8d13
+      - s-3b765f9594
+      - s-9bebb9eb60
+      - s-3480e9da3b
+      - s-1a5e291bfc
+      - s-2784ed1387

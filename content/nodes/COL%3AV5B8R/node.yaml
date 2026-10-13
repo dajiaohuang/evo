@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryadobates olfersioides
+  displayName: Dryadobates olfersioides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5B8R
+  sourceIndexes:
+    - name:
+        en: Dryadobates olfersioides
+        zh: Dryadobates olfersioides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5B8R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/30
+            queryName: Dryadobates olfersioides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/124
+            queryName: Colostethus olfersioides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/437
+            queryName: Allobates olfersioides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/14
+            queryName: Eupemphix olfersioides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/15
+            queryName: Phyllobates olfersioides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5534d0234
+      - s-24cc94ae62
+      - s-611b42b3a2
+      - s-93441d2ebb
+      - s-7ae6790783
+      - s-408ba342c3
+      - s-a9a8d4b413
+      - s-52826ec09b
+      - s-d61854cedf
+      - s-318214b06e
+      - s-7322468371
+      - s-e21b7fc11a
+      - s-e4fc2c2cc3
+      - s-c67bb3c9f6
+      - s-ad5621989b
+      - s-7ba3fa90fb
+      - s-a2ac336a6b
+      - s-c550d64b1e
+      - s-2c76082395
+      - s-32476ee762
+      - s-e67b3d73f3
+      - s-d323c12874
+    zh:
+      - s-7628e18d2b
+      - s-d459b0c205
+      - s-bcd6aa3c9a
+      - s-61d49cdf76
+      - s-8a2171f939
+      - s-3a0d4a179e
+      - s-ae21729f7c
+      - s-d7c72ef1df
+      - s-153a80a489
+      - s-e3fd31b799
+      - s-9d230f65f7
+      - s-5d78499ae2
+      - s-1c3858009c
+      - s-2d7e7461f5
+      - s-4ac2ab2452
+      - s-d8d6e3b896
+      - s-76780a2382
+      - s-1930930a97
+      - s-29023f42a4
+      - s-9797024cde
+      - s-04a91446ca
+      - s-947beffa7d

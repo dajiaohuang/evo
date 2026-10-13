@@ -1,0 +1,236 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Prolemur Gray, 1870
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: 大竹狐猴属
+      en: Greater Bamboo Lemur Genus
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-731e0ec4c5
+            part: body
+          en:
+            page: en
+            section: s-a59e5c0e0e
+            part: body
+        sourceIds:
+          - taxonomy
+          - simus2011
+          - king2013
+          - yamashita2010
+          - fausser2002
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-165fcd07cf
+            part: body
+          en:
+            page: en
+            section: s-95f7d3aeb3
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-90acc32112
+            part: body
+          en:
+            page: en
+            section: s-8509f32267
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Prolemur
+          url: https://www.checklistbank.org/dataset/316115/taxon/6WMC
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: taxonomy_species
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Prolemur simus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MRRG
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: simus2011
+        referenceId: ref-9fde34cf-83fc-8538-a071-88ce410b4448
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持六处东部调查与记录类型区分；不作为当前全域普查。
+            en: Supports the six eastern survey sites and distinction among record types; not a current range-wide census.
+      - id: king2013
+        referenceId: ref-5863c930-f945-8510-a2b5-aa2e4f6dcae8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持大型秆竹的植物分布与识别资料；不等同于狐猴种群或食性普查。
+            en: Supports plant distribution and identification data for large-culmed bamboos; not a lemur population or diet census.
+      - id: yamashita2010
+        referenceId: ref-84609833-521f-8eaf-aa92-f8c1b0bf8a29
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持一项 Ranomafana 比较研究的有限样品；论文采用的亚属组合保留为历史术语。
+            en: Supports limited samples from a comparative Ranomafana study; the paper’s subgeneric combination is retained as historical terminology.
+      - id: fausser2002
+        referenceId: ref-30269060-4c51-897c-aa06-8465f690c9fc
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持论文发表时的大竹狐猴分类和样本语境；不取代当前 COL26.8 名称。
+            en: Supports the greater bamboo lemur taxonomy and sample context used at publication; it does not replace the current COL26.8 name.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 1 authored same-name records placed under Prolemur by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 1 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 1
+            foraging: 1
+            activity: 1
+          readingTargets:
+            - name: Prolemur simus
+              colId: 4MRRG
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4MRRG
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-24f087f7df
+        part: body
+      en:
+        page: en
+        section: s-f3cb4c99d4
+        part: body

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana macrodactyla
+  displayName: Hylarana macrodactyla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MMSF
+  sourceIndexes:
+    - name:
+        en: Hylarana macrodactyla
+        zh: Hylarana macrodactyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MMSF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/436
+            queryName: Hylarana macrodactyla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/147
+            queryName: Rana macrodactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/460
+            queryName: Rana trivittata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/461
+            queryName: Hylorana macrodactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/462
+            queryName: Hylorana subcoerulea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b11a66522
+      - s-54523de132
+      - s-08b5347f23
+      - s-4ba32888af
+      - s-1799feab12
+      - s-1b8ca2bf6b
+      - s-42c9fbed6d
+      - s-ded3506590
+      - s-d6c1ad3895
+      - s-391710c12d
+      - s-64deaacbcc
+    zh:
+      - s-5b55d6ee0b
+      - s-7de24141f0
+      - s-638353bb18
+      - s-06abc8b353
+      - s-14cdb98e0b
+      - s-a47709c498
+      - s-041af75428
+      - s-3f0310f496
+      - s-791842a08b
+      - s-37c3ecba8a
+      - s-1464d81033

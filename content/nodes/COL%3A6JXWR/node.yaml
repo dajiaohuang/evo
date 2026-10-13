@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca elicioi
+  displayName: Gastrotheca elicioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JXWR
+  sourceIndexes:
+    - name:
+        en: Gastrotheca elicioi
+        zh: Gastrotheca elicioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JXWR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/32
+            queryName: Gastrotheca elicioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-54102cfe82
+      - s-4d1135342a
+      - s-a2447e0029
+      - s-e0a4cd7843
+      - s-83aee57a47
+      - s-2be211cf6e
+      - s-ff841d2906
+      - s-7f21982dfc
+      - s-4ad4b6d84f
+      - s-14a075b0de
+      - s-35142050d6
+      - s-e13a2db579
+      - s-575e218ccd
+      - s-06513c5388
+      - s-d1360dfbee
+      - s-a2c48752ee
+    zh:
+      - s-17138270d1
+      - s-1de669f4c1
+      - s-68eb53b509
+      - s-8997eec25c
+      - s-dd3cf04d05
+      - s-c5fc839a2e
+      - s-0454716273
+      - s-b8c1c4a3fd
+      - s-3d0b650b67
+      - s-94887b81c8
+      - s-d4c7f013d1
+      - s-21b6cb8843
+      - s-3e1c46e187
+      - s-dd1e89059b
+      - s-67261d1208
+      - s-893930fca5

@@ -1,0 +1,33 @@
+## 该路径中的 PanTHERIA 记录 {#s-007e7b8106}
+本批次有五条可用记录：Funisciurus anerythrus、F. congicus、F. isabella、F. lemniscatus 和 F. pyrropus。页面保留 MSW05 名称、野外条件和缺项；固定版本 COL26.8 用于组织浏览路径，不是当前物种总数的分母。
+
+## 成体体重端点 {#s-eb6a552548}
+按性别调整后的历史中位数从 F. isabella 的 109.31 g 到 F. pyrropus 的 243.18 g。胎儿发育、断奶、活动和群体定义应分别阅读；这些是汇总值，不是个体极值或所有后代共有的性状。
+
+## 生活史记录与共有字段 {#s-f9ce331c07}
+四条记录为 F. anerythrus、F. congicus、F. leucogenys 和 F. pyrropus。四条均有成体体重、窝/胎卵数和最大寿命字段；受孕/受精至出生间隔只见于一条。计数只描述本批次，不是全部接受物种；比较时应区分事件、单位和来源。
+
+## 生态字段覆盖情况 {#s-fadd6ab25b}
+九条历史记录包括 F. substriatus、F. pyrropus、F. leucogenys、F. lemniscatus 和 F. carruthersi。九条记录都有食物权重、地层和哺乳动物活动字段。比较前需区分来源、半定量权重以及类别/二元代码。
+
+## 各路径视图的整体限制 {#s-caf9ce31b8}
+PanTHERIA、生活史和生态路径只覆盖达到各自字段及历史名称阈值的批次记录，并非每个后代类群。端点是汇总值，不是个体极值；来源条件有差异。这些路径不能证明整个类群共享生物学特征，也不能确定当前分类、分布和保护状况。历史分类继承、最大记录值和半定量处理仍是各页的限制。
+
+## 其他 PanTHERIA 页面 {#s-087032a1c9}
+四条可用记录为 [F. bayonii](Funisciurus_bayonii/page.zh.md)、[F. carruthersi](Funisciurus_carruthersi/page.zh.md)、[F. leucogenys](Funisciurus_leucogenys/page.zh.md) 和 [F. substriatus](Funisciurus_substriatus/page.zh.md)。页面保留 MSW05 名称、条件和缺项；数量不等于当前物种总数。
+
+## 其他体重端点 {#s-6e00c2d637}
+可用中位数经性别调整后，端点为 F. bayonii 的 134.99 g 和 F. carruthersi 的 276.85 g。它们不是个体极值，也不能证明所有后代类群具有共同生活方式。
+
+## PanTHERIA 收录规则 {#s-25c50d6807}
+此视图包括至少有一个重点字段、名称/科级匹配且具有一对一历史对应关系的批次记录。它不涵盖所有后代；端点为汇总值，各字段条件也不同。现行分类概念、分布和保护状况需要其他证据。
+
+## 生活史页面 {#s-0da41573c5}
+四个页面为 [F. anerythrus](Funisciurus_anerythrus/page.zh.md)、[F. lemniscatus](Funisciurus_lemniscatus/page.zh.md)、[F. pyrropus](Funisciurus_pyrropus/page.zh.md) 和 [F. congicus](Funisciurus_congicus/page.zh.md)。这些链接只覆盖本批次中已编写的同名记录。
+
+## 时间与寿命字段 {#s-8461bd1d7e}
+一条记录列有妊娠期，没有记录列出雌性首次繁殖年龄；另有一条列出最大寿命。首次繁殖不同于首次出生和性成熟，最大寿命也不是平均寿命。条件各异，缺失字段需要其他来源。
+
+## 生活史来源的限制 {#s-ad8f587012}
+这是一条批次浏览路径，不是完整的后代类群生物学。名称/科级匹配及 MSW93/MSW05 一对一对应关系不能证明与现行分类概念等同。除最大寿命外，数值通常对等权重文献输入取平均；来源可能重复，且未按样本量加权。最大寿命仅取最长记录。成体体重未作解释，近缘种未用于填补缺项，底层文献和条件也未逐一核实。
+

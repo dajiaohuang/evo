@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops marmoratus
+  displayName: Amolops marmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DZQ
+  sourceIndexes:
+    - name:
+        en: Amolops marmoratus
+        zh: Amolops marmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DZQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/384
+            queryName: Amolops marmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/224
+            queryName: Polypedates marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-96318733cc
+      - s-428ae99a6e
+      - s-7a81b0ccd8
+      - s-787a756175
+      - s-9e0db2fa45
+      - s-1822083bdb
+      - s-d5229dad1c
+      - s-06fe0da4aa
+      - s-667def2d99
+      - s-cbae9a9cb8
+      - s-f4a649d662
+      - s-d6c402099d
+      - s-c88a7950bb
+      - s-1e55fc5221
+      - s-0643068060
+    zh:
+      - s-f5d186b6dd
+      - s-96dde0752f
+      - s-f3ecba62f6
+      - s-5adc431a7c
+      - s-3a257414f6
+      - s-843ad70eaa
+      - s-0b5332f5ba
+      - s-0997a4a1fd
+      - s-bb73f3aefe
+      - s-04d56511d4
+      - s-8260d46269
+      - s-82e78e7c81
+      - s-798887cd2e
+      - s-f2b4a51c08
+      - s-eae5005192

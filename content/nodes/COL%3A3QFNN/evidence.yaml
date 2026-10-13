@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ixia latifolia D.Delaroche
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3QFNN, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3QFNN; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3QFNN
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3QFNN
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784260-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3QFNN / WFO wfo-0000784260
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-375142dc-c61a-8d8c-ac7c-81b393e51f3e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ixia latifolia D.Delaroche account; SANBI/WFO archive rows 7163 (Morphology), 29287 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ixia latifolia D.Delaroche account; SANBI/WFO archive rows 95057 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 15-40 cm, with 1 or 2 sturdy, twisted or straight branches, flowers occasionally crowded distally. Leaves broad, often falcate. Flowers ascending or often facing the side, pink to mauve, occasionally red, tube narrowly funnel-shaped, 7-18 mm long, filaments exserted 6-8 mm from tube.
+            textZh: Ixia latifolia D.Delaroche 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Morphology row 7163; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: "Recognised by the relatively large, deep pink, purple, mauve-pink or blue-mauve flowers usually with a relatively well-developed perianth tube, (7-)10-18(-23) mm long that gradually widens toward the mouth, and spreading tepals 13-20(-23) long. The long stamens have filaments exserted 6-8 mm from the tube and anthers 3-5 mm long. The floral bracts are mostly 8-10 mm long and distinctive in having narrowly acute teeth. The two basal leaves are usually fairly broad, 10-18 mm, but occasionally only 5 mm wide. The third leaf sheaths the stem for its entire length. Plants with short, somewhat twisted, rather than straight, lateral branches and slightly smaller flowers, described by G.J. Lewis (1962) as var. curviramosa, are now included in I. latifolia. The degree of twisting and length of the branches is not consistently correlated with any other character, and is often difficult to determine because plants with shorter, ± straight branches, conform to neither taxon. Flower size is unusually variable. Both the northernmost populations of I. latifolia in the arid Tanqua Basin and the easternmost near Oudtshoorn are exceptional: the Tanqua populations, growing in perhaps the most arid habitat for the species, have the largest flowers with a tube 20-23 mm long and tepals up to 21 x 10.5 mm. In contrast, the Gamkaberg populations have flowers with a tube 7-8 mm long and tepals 13-15 x ± 7 mm, among the smallest in the species. But plants from several other localities have flowers almost as small. The plants from the Tanqua Karoo reverse the usual trend for smaller stature and flower size in the driest habitats and merit further study. Ixia latifolia is probably most closely related to I. divaricata, a plant of wet, sandstone habitats in the Cold Bokkeveld and surrounding mountains, which has long, slender, straight lateral branches with flowers crowded in the upper half and a smaller perianth with a tube 8-11 mm long, tepals 11-14 mm long, and filaments 4-5 mm long reaching 1-2 mm beyond the mouth of the perianth tube or sometimes only to the mouth of the tube. Ixia divaricata typically has pale pink or white flowers and narrow leaves, thus very different from the larger, deep pink-mauve or purple flowers with well-exserted filaments, and broad, fairly short leaves of I. latifolia. Plants with broader leaves may be the result of crossing with I. latifolia, and plants of that species with particularly long branches may be the result of occasional crosses with I. divaricata at sites where the habitats of the two are close together."
+            textZh: SANBI 条目提供了 Ixia latifolia D.Delaroche 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 95057; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mostly clay and stony sandstone soils in renosterveld or arid fynbos.
+            textZh: 该 SANBI 区域物种条目记录的生境：Mostly clay and stony sandstone soils in renosterveld or arid fynbos.
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Habitat row 29287; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

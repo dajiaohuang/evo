@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arcovomer
+  displayName: Arcovomer
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62CSR
+  sourceIndexes:
+    - name:
+        en: Arcovomer
+        zh: Arcovomer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62CSR
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/178
+            queryName: Arcovomer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b4eda0645d
+      - s-8eb5717ccf
+      - s-71d8c3083c
+      - s-ceb4c05a33
+      - s-3fc13a1815
+      - s-7fc5f244d6
+      - s-bb591d8a8e
+      - s-a1092adcdc
+      - s-3a5525f24e
+      - s-ba9413ec7c
+      - s-10392e30ea
+      - s-f38f5ab72a
+    zh:
+      - s-a3e00adaf1
+      - s-f12715f229
+      - s-6af77d7ee3
+      - s-40b2ee735b
+      - s-c881bab70b
+      - s-54f07f6c43
+      - s-d6e5727566
+      - s-b2de109d87
+      - s-b41f6bc728
+      - s-c3ca717407
+      - s-8f05884a54
+      - s-2519a5c0af

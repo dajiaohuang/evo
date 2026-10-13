@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Peltophryne taladai
+  displayName: Peltophryne taladai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76FWM
+  sourceIndexes:
+    - name:
+        en: Peltophryne taladai
+        zh: Peltophryne taladai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76FWM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/498
+            queryName: Peltophryne taladai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/422
+            queryName: Bufo taladai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/61
+            queryName: Bufo taladai taladai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-167c4b6d5d
+      - s-2f91e4c3e8
+      - s-485647672a
+      - s-f42cf8d320
+      - s-390713c288
+      - s-b71efc4ab0
+      - s-2b1a44b457
+      - s-b0408916d1
+      - s-f548aac2a2
+      - s-28d81b0554
+      - s-37781d75d5
+      - s-bc974d80bf
+      - s-fdff672565
+      - s-cd66c85173
+      - s-ceae85ee74
+      - s-6da2e127bc
+    zh:
+      - s-6265b57979
+      - s-fff8931321
+      - s-423b209992
+      - s-9e117f8f4e
+      - s-4834e1d9d9
+      - s-dddaf12815
+      - s-cb984346f4
+      - s-372370e719
+      - s-3616a4ed81
+      - s-8e5c51cd9c
+      - s-34ebe51528
+      - s-6ca0495d1d
+      - s-b4b6185136
+      - s-c14072fc9f
+      - s-e5596d7da6
+      - s-a666de4511

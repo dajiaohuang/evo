@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus calcaneus
+  displayName: Rhacophorus calcaneus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXCY
+  sourceIndexes:
+    - name:
+        en: Rhacophorus calcaneus
+        zh: Rhacophorus calcaneus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXCY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/224
+            queryName: Rhacophorus calcaneus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/1
+            queryName: Rhacophorus chuyangsinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/445
+            queryName: Rhacophorus schlegelii calcaneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da630ee850
+      - s-35dc288422
+      - s-a151153df9
+      - s-da944751fb
+      - s-b5fd514679
+      - s-22e67b7f1f
+      - s-a7dd133204
+      - s-c40232010a
+    zh:
+      - s-ea5adb4f19
+      - s-1a49d06c6b
+      - s-daece35aca
+      - s-b5f552ad62
+      - s-8bfd625bb7
+      - s-a536f7ebd3
+      - s-7c4f5457b4
+      - s-e23dd1b592

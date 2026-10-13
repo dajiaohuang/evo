@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectophrynoides viviparus
+  displayName: Nectophrynoides viviparus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/462X2
+  sourceIndexes:
+    - name:
+        en: Nectophrynoides viviparus
+        zh: Nectophrynoides viviparus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 462X2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/223
+            queryName: Nectophrynoides viviparus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/422
+            queryName: Pseudophryne vivipara
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/423
+            queryName: Nectophryne werthi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/424
+            queryName: Tornierobates vivipara
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 77
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/425
+            queryName: Nectophrynoides vivipara
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bbcfe0153f
+      - s-13e8e0ffae
+      - s-20a3a1ce72
+      - s-8396e7da99
+      - s-bbc14f8b49
+      - s-38736b95f6
+      - s-014fa96b43
+      - s-3fdbdcac4c
+      - s-17fc0d1523
+      - s-60a9c826ca
+      - s-7bd7f425a1
+    zh:
+      - s-6cf5d15fa4
+      - s-3d5043ded1
+      - s-1af80fc395
+      - s-ce77e4dd3a
+      - s-0ce31046df
+      - s-197cfca9b4
+      - s-1c80b82096
+      - s-6e44bb7d54
+      - s-ca751d75b9
+      - s-c57443e8d8
+      - s-5eeca78618

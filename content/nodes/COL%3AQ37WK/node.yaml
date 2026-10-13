@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius oni
+  displayName: Hynobius oni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q37WK
+  sourceIndexes:
+    - name:
+        en: Hynobius oni
+        zh: Hynobius oni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q37WK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/186
+            queryName: Hynobius oni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f3a736b45c
+      - s-ddf62eb664
+      - s-066a4d1688
+      - s-5f28dcb46e
+      - s-9d9a860833
+      - s-75c609535b
+      - s-671f9dc008
+      - s-7804fe4449
+      - s-006ec420b6
+      - s-6e31be533e
+      - s-cbf2b1d132
+      - s-913741b2b9
+      - s-1ffb5ee3f7
+      - s-f76e81cdf7
+      - s-2f31b63267
+      - s-223bc800f1
+      - s-d48f05d707
+    zh:
+      - s-47b88635ab
+      - s-0fc0191e16
+      - s-ef10ad2d72
+      - s-b968765f39
+      - s-62e9a79511
+      - s-ca69a2ba0a
+      - s-0fd66de8fe
+      - s-b4b16a2105
+      - s-dd1816c283
+      - s-173ce4c636
+      - s-84cde0443d
+      - s-9003ddbda1
+      - s-bececc4f7f
+      - s-90e9c4c6c6
+      - s-de45c7a0e3
+      - s-74d95f6be1
+      - s-85b45a0575

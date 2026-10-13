@@ -1,0 +1,448 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caecilia orientalis Taylor, 1968
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Caecilia orientalis
+      zh: Caecilia orientalis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3a9cc8e6cc
+            part: title
+          zh:
+            page: zh
+            section: s-9a34efc990
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3a9cc8e6cc
+            part: body
+          zh:
+            page: zh
+            section: s-9a34efc990
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-780b7ce837
+            part: title
+          zh:
+            page: zh
+            section: s-89037eee46
+            part: title
+        text:
+          en:
+            page: en
+            section: s-780b7ce837
+            part: body
+          zh:
+            page: zh
+            section: s-89037eee46
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fa83fa4239
+            part: title
+          zh:
+            page: zh
+            section: s-e678128cec
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-fa83fa4239
+            part: body
+          zh:
+            page: zh
+            section: s-e678128cec
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-50cebc7fe3
+            part: title
+          zh:
+            page: zh
+            section: s-78e8a33943
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-50cebc7fe3
+            part: body
+          zh:
+            page: zh
+            section: s-78e8a33943
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-b65eee05ad
+            part: title
+          zh:
+            page: zh
+            section: s-2dee363b54
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-b65eee05ad
+            part: body
+          zh:
+            page: zh
+            section: s-2dee363b54
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-c4d2425427
+            part: title
+          zh:
+            page: zh
+            section: s-1dc211ebd6
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-c4d2425427
+            part: body
+          zh:
+            page: zh
+            section: s-1dc211ebd6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b0d182a0bb
+            part: title
+          zh:
+            page: zh
+            section: s-f248ff54f3
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - caeciliantraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b0d182a0bb
+            part: body
+          zh:
+            page: zh
+            section: s-f248ff54f3
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-18e93abe9d958551d56e482df5ae91ff
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-e800dc2b0c5b4e4ac0448117
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-543f98cd8e
+            part: title
+          zh:
+            page: zh
+            section: s-e34cc483cc
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-543f98cd8e
+            part: body
+          zh:
+            page: zh
+            section: s-e34cc483cc
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c59d373e68
+            part: title
+          zh:
+            page: zh
+            section: s-2219c3dfeb
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-c59d373e68
+            part: body
+          zh:
+            page: zh
+            section: s-2219c3dfeb
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-76518d8886
+            part: title
+          zh:
+            page: zh
+            section: s-5db609cf53
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-76518d8886
+            part: body
+          zh:
+            page: zh
+            section: s-5db609cf53
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c7969bbf9b
+            part: title
+          zh:
+            page: zh
+            section: s-3a7455e483
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-c7969bbf9b
+            part: body
+          zh:
+            page: zh
+            section: s-3a7455e483
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en:
+            page: en
+            section: s-160ab3a469
+            part: title
+          zh:
+            page: zh
+            section: s-f0ffe64c17
+            part: title
+        text:
+          en:
+            page: en
+            section: s-160ab3a469
+            part: body
+          zh:
+            page: zh
+            section: s-f0ffe64c17
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Caecilia orientalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/P7T5
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6622; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6617 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 29; Individual level data rows 1430; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7076668a45
+        part: body
+      zh:
+        page: zh
+        section: s-13e589c793
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-18e93abe9d958551d56e482df5ae91ff
+      sourceRowId: Anf6622
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6622
+        bibliographyRowId: Anf6617
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Caecilia subnigricans
+        candidateBibliographyRowIds:
+          - Anf6617
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: caecilian-traits-reader
+        path: content/nodes/local-e800dc2b0c5b4e4ac0448117
+        scientificName: Caecilia orientalis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 5

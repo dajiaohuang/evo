@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Jingophrys feii
+  displayName: Jingophrys feii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5PJX
+  sourceIndexes:
+    - name:
+        en: Jingophrys feii
+        zh: Jingophrys feii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5PJX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/74
+            queryName: Jingophrys feii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/279
+            queryName: Megophrys feii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc53011d1b
+      - s-f99653b7d8
+      - s-7909c10d81
+      - s-3b6b22a295
+      - s-9f3c6905cd
+      - s-67ba929627
+      - s-448762dbe9
+      - s-8fa75e6849
+    zh:
+      - s-5b8d9b4174
+      - s-adaca816d2
+      - s-f20fb2e346
+      - s-2d2a646ef3
+      - s-a23c0720ab
+      - s-351243780e
+      - s-c3a56c25f8
+      - s-27e0ef6fb6

@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Myrmelastes brunneiceps
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Myrmelastes brunneiceps
+      en: Myrmelastes brunneiceps
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-fe5d5b3076
+            part: body
+          en:
+            page: en
+            section: s-045c359508
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-0495142cc8
+            part: body
+          en:
+            page: en
+            section: s-1a52d702d4
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-6ff93ff4e8
+            part: body
+          en:
+            page: en
+            section: s-06b1eee486
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-b7e49e5e96
+            part: body
+          en:
+            page: en
+            section: s-dc783fb63a
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetMyrmelastesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-c7ce09275c
+            part: body
+          en:
+            page: en
+            section: s-5d324da48c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Myrmelastes brunneiceps
+          url: https://www.checklistbank.org/dataset/316115/taxon/R8FYN
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetMyrmelastesHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Myrmelastes historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 7789–7795; each eBird and BirdTree crosswalk, my/sc COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Schistocichla／Myrmeciza 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Schistocichla／Myrmeciza combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-41b34c2475
+        part: body
+      en:
+        page: en
+        section: s-52bb889e5b
+        part: body

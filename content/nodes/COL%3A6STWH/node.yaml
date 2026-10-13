@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne anthonyi
+  displayName: Oreophryne anthonyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6STWH
+  sourceIndexes:
+    - name:
+        en: Oreophryne anthonyi
+        zh: Oreophryne anthonyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6STWH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/240
+            queryName: Oreophryne anthonyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/407
+            queryName: Sphenophryne anthonyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c84e4a9ff3
+      - s-75c860fca6
+      - s-c5944a24ef
+      - s-65ce504cbb
+      - s-c9295ec1b8
+      - s-e13f5c2192
+      - s-b6c97c7bbd
+      - s-9e183ed8ca
+      - s-8b3dbaa104
+    zh:
+      - s-f000914567
+      - s-41a97b076a
+      - s-bb124424f8
+      - s-ddb9b79250
+      - s-e0fe7a9a3e
+      - s-8aa5cd4e59
+      - s-3abee63d7c
+      - s-0a180d1798
+      - s-9b7cb24500

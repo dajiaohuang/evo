@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mannophryne olmonae
+  displayName: Mannophryne olmonae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XVQ7
+  sourceIndexes:
+    - name:
+        en: Mannophryne olmonae
+        zh: Mannophryne olmonae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XVQ7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/273
+            queryName: Mannophryne olmonae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/271
+            queryName: Colostethus olmonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b590db7875
+      - s-6da2355726
+      - s-e868dd1cc0
+      - s-920ed58846
+      - s-5a008ab833
+      - s-de728200f1
+      - s-afd9154e71
+      - s-64ea5b9d14
+      - s-27881a3874
+      - s-634a51d99d
+      - s-dfbc7e09a1
+      - s-4d2c04e4d8
+      - s-1b416dd349
+      - s-099bf7e941
+      - s-84720c8ee3
+      - s-8d60d5fcbc
+      - s-c4e1b5cece
+      - s-28061700f5
+      - s-a12c01aa78
+    zh:
+      - s-df98a93c5a
+      - s-f7e87dc260
+      - s-0c412fb36e
+      - s-f27ec41a72
+      - s-a89a5baf79
+      - s-451c96357d
+      - s-5262f5b649
+      - s-3569582194
+      - s-5339f5703e
+      - s-0ecfd268e7
+      - s-209d8fb23f
+      - s-7ad5c267f1
+      - s-f6c1a75815
+      - s-008e60c7a0
+      - s-ae6b053879
+      - s-6b4b43a693
+      - s-b8fc1f00f0
+      - s-a269f2a30d
+      - s-8d77e2de9f

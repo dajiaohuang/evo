@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Erythrogenys gravivox
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Erythrogenys gravivox
+      en: Erythrogenys gravivox
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-ec14c52e58
+            part: body
+          en:
+            page: en
+            section: s-3968504e2d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-1e459584b8
+            part: body
+          en:
+            page: en
+            section: s-6bff9ba3f2
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-6a4f8b02b4
+            part: body
+          en:
+            page: en
+            section: s-abeb5851a1
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-1adb7a04ea
+            part: body
+          en:
+            page: en
+            section: s-59bb992c8c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-97ef15fb99
+            part: body
+          en:
+            page: en
+            section: s-08d89fd554
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Erythrogenys gravivox
+          url: https://www.checklistbank.org/dataset/316115/taxon/NRMPS
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetErythrogenysHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Erythrogenys historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 6 selected AVONET1_BirdLife rows 8332–8337; full eBird and BirdTree crosswalks, twelve related COL er/po name records and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 六条历史行：Pomatorhinus旧名、未定性别、完整分母、独立体重与灌丛密度分开。
+            en: "Six historical rows: separate Pomatorhinus names, unsexed sampling, complete sets, independent mass and shrubland density."
+    limitations:
+      zh:
+        page: zh
+        section: s-662b06f14f
+        part: body
+      en:
+        page: en
+        section: s-6875c39972
+        part: body

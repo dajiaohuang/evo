@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudobranchus axanthus
+  displayName: Pseudobranchus axanthus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NQ8F
+  sourceIndexes:
+    - name:
+        en: Pseudobranchus axanthus
+        zh: Pseudobranchus axanthus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NQ8F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/277
+            queryName: Pseudobranchus axanthus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/87
+            queryName: Pseudobranchus striatus axanthus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/90
+            queryName: Pseudobranchus striatus belli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/415
+            queryName: Pseudobranchus axanthus belli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/416
+            queryName: Pseudobranchus axanthus axanthus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b0b598e7d
+      - s-4452cca1fb
+      - s-7a9ddefe0f
+      - s-d703402c39
+      - s-ec1e16ce49
+      - s-b04e632afe
+      - s-f4aa7689b2
+      - s-6646e9dd74
+      - s-1dd1e3ba0e
+      - s-286febc4b9
+    zh:
+      - s-6ecdfbb45b
+      - s-d619652827
+      - s-9877081647
+      - s-48af9ffb8e
+      - s-5df97fb1ad
+      - s-344574b0af
+      - s-f74cca78f1
+      - s-2e7685e90e
+      - s-05017c2d0b
+      - s-4b569fa35a

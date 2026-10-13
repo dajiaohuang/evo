@@ -1,0 +1,418 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Geotrypetes Peters, 1880
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Geotrypetes
+      zh: Geotrypetes
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-22163479bb
+            part: title
+          zh:
+            page: zh
+            section: s-921f86fe87
+            part: title
+        text:
+          en:
+            page: en
+            section: s-22163479bb
+            part: body
+          zh:
+            page: zh
+            section: s-921f86fe87
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-18d7d06bba
+            part: title
+          zh:
+            page: zh
+            section: s-6abb5b685c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-18d7d06bba
+            part: body
+          zh:
+            page: zh
+            section: s-6abb5b685c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e21068ce0e
+            part: title
+          zh:
+            page: zh
+            section: s-ae55201f86
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e21068ce0e
+            part: body
+          zh:
+            page: zh
+            section: s-ae55201f86
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5d3e134138
+            part: title
+          zh:
+            page: zh
+            section: s-cc4f379057
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5d3e134138
+            part: body
+          zh:
+            page: zh
+            section: s-cc4f379057
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-cfb2dc0129
+            part: title
+          zh:
+            page: zh
+            section: s-feb601324e
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3FTN7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3FTN7
+            label:
+              en: Geotrypetes angeli
+              zh: Geotrypetes angeli
+          - kind: catalogue
+            colId: 6KCZJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6KCZJ
+            label:
+              en: Geotrypetes pseudoangeli
+              zh: Geotrypetes pseudoangeli
+          - kind: catalogue
+            colId: 3FTNB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3FTNB
+            label:
+              en: Geotrypetes seraphini
+              zh: Geotrypetes seraphini
+        text:
+          en:
+            page: en
+            section: s-cfb2dc0129
+            part: body
+          zh:
+            page: zh
+            section: s-feb601324e
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc5683629-4n3l
+        title:
+          en:
+            page: en
+            section: s-11be837802
+            part: title
+          zh:
+            page: zh
+            section: s-4473545244
+            part: title
+        text:
+          en:
+            page: en
+            section: s-11be837802
+            part: body
+          zh:
+            page: zh
+            section: s-4473545244
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc5683629-4n3l
+        title:
+          en:
+            page: en
+            section: s-651cacf62a
+            part: title
+          zh:
+            page: zh
+            section: s-4b5480cf11
+            part: title
+        text:
+          en:
+            page: en
+            section: s-651cacf62a
+            part: body
+          zh:
+            page: zh
+            section: s-4b5480cf11
+            part: body
+      - topic: range
+        sourceIds:
+          - primary-direct-group-pmc5683629-4n3l
+        title:
+          en:
+            page: en
+            section: s-4710144303
+            part: title
+          zh:
+            page: zh
+            section: s-20db4bdbcf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4710144303
+            part: body
+          zh:
+            page: zh
+            section: s-20db4bdbcf
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc5683629-4n3l
+        title:
+          en:
+            page: en
+            section: s-ad55497400
+            part: title
+          zh:
+            page: zh
+            section: s-61fe5385d8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3FTNB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3FTNB
+            label:
+              en: Geotrypetes seraphini
+              zh: Geotrypetes seraphini
+        text:
+          en:
+            page: en
+            section: s-ad55497400
+            part: body
+          zh:
+            page: zh
+            section: s-61fe5385d8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Geotrypetes
+          url: https://www.checklistbank.org/dataset/316115/taxon/4N3L
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Geotrypetes; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc5683629-4n3l
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Geotrypetes seraphini: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedGeotrypetes seraphini account sec017. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected named accounts Geotrypetes seraphini with unresolvedsource labels retained
+            zh: 选定命名记录 Geotrypetes seraphini，保留未解决来源标签
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-21143aa159
+        part: body
+      zh:
+        page: zh
+        section: s-74f6a8497d
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Geotrypetes
+      sourceRowIds:
+        - Anf6651
+        - Anf6652
+        - Anf6653
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 3
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 3
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+      developmentCounts:
+        - key: Viv
+          en: viviparity
+          zh: 胎生
+          count: 3
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-direct-group-pmc5683629-4n3l
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: SelectedGeotrypetes namedbarcode/voucher accounts only; notfullarticle/genusconcept certification
+        evidenceRead: "Geotrypetes seraphini: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedGeotrypetes seraphini account sec017. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Working barcode identifications retain unresolved labels
+              zh: 条形码工作鉴定保留未解决标签
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-4n3l
+            locator: PMC5683629 XML sec017 namedGeotrypetes seraphini markeridentification paragraphs; sec009–012 assignmentcriteria
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-091247c70b
+                part: body
+              zh:
+                page: zh
+                section: s-be06e4b67d
+                part: body
+            scope:
+              en: Selected named accounts Geotrypetes seraphini with unresolvedsource labels retained
+              zh: 选定命名记录 Geotrypetes seraphini，保留未解决来源标签
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Reference-library evidence is not independent nuclear confirmation
+              zh: 参考库证据不是独立核确认
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-4n3l
+            locator: PMC5683629 XML sec006–012 identification/reference criteria andselectedGeotrypetes account
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c0b38a744c
+                part: body
+              zh:
+                page: zh
+                section: s-a2cac74874
+                part: body
+            scope:
+              en: Selected named accounts Geotrypetes seraphini with unresolvedsource labels retained
+              zh: 选定命名记录 Geotrypetes seraphini，保留未解决来源标签
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Read selected accounts with their locality boundaries
+              zh: 按地点边界阅读选定记录
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-4n3l
+            locator: PMC5683629 XML sec003/004/007 sampling; sec015/Table1 counts; selectedGeotrypetes accounts
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-36bd5e2546
+                part: body
+              zh:
+                page: zh
+                section: s-45bbf6be15
+                part: body
+            scope:
+              en: Selected named accounts Geotrypetes seraphini with unresolvedsource labels retained
+              zh: 选定命名记录 Geotrypetes seraphini，保留未解决来源标签
+    primaryResearchGroupSynthesisComplete: false

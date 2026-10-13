@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ophryophryne microstoma
+  displayName: Ophryophryne microstoma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T2ZZ
+  sourceIndexes:
+    - name:
+        en: Ophryophryne microstoma
+        zh: Ophryophryne microstoma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T2ZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/181
+            queryName: Ophryophryne microstoma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/12
+            queryName: Megophrys microstoma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e437875526
+      - s-56cf208ca6
+      - s-2cd1bf3685
+      - s-0ebe083b01
+      - s-7b548f74e4
+      - s-f0775ce0f5
+      - s-7ffe561c51
+      - s-c1e89ec16c
+      - s-41e7c3b85a
+      - s-bfebfca7fb
+      - s-fa6caeb66c
+      - s-c7037e7b8b
+    zh:
+      - s-1e05543066
+      - s-ff25748ed5
+      - s-5bb03d7812
+      - s-2ff3b63026
+      - s-e1e28a2dea
+      - s-87d2deca65
+      - s-4194a36c44
+      - s-4d0f89d591
+      - s-077a714089
+      - s-83de664ede
+      - s-051fd93325
+      - s-7dc92afa1c

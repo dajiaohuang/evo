@@ -1,0 +1,87 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-477e782ae2
+          part: title
+        zh:
+          page: zh
+          section: s-b8edf41f64
+          part: title
+      text:
+        en:
+          page: en
+          section: s-477e782ae2
+          part: body
+        zh:
+          page: zh
+          section: s-b8edf41f64
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-f96c686384
+          part: title
+        zh:
+          page: zh
+          section: s-65978c047d
+          part: title
+      text:
+        en:
+          page: en
+          section: s-f96c686384
+          part: body
+        zh:
+          page: zh
+          section: s-65978c047d
+          part: body
+  atlas-node:
+    name: Anthropoidea
+    commonName: Anthropoids
+    commonNameZh: 类人猿下目
+    rank: infraorder
+    taxonId: ""
+    firstAppearance: 48.3
+    lastAppearance: 0
+    extinct: false
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:anthropoidea
+      claimKind: scientific
+      claimType: topology
+      statement: The living-primate supermatrix strongly supports the branch labelled Simiiformes in the paper, corresponding to the atlas Anthropoidea route; this name mapping is limited to sampled living relationships and does not settle all fossil anthropoid membership.
+      confidence: medium
+      confidenceRationale: The claim makes the nomenclatural correspondence explicit and avoids extending an extant molecular tree to contested fossils.
+      referenceLinks:
+        - relation: supports
+          referenceId: springer-2012-primate-supermatrix
+          pages: Article e49521
+          figure: Figures 1–2
+          quoteLocator: Higher-level primate topology; Simiiformes sampling
+  claim-rationales.zh:
+    - 主张明确名称对应关系，并避免把现生分子树外推到有争议的化石。
+  claim-statements.zh:
+    - 现生灵长类超级矩阵强烈支持论文中标为 Simiiformes 的分支，对应图谱 Anthropoidea 路线；这一名称映射仅限于取样现生关系，并不解决所有化石类人猿类成员资格。
+  ranges:
+    - entityId: anthropoidea
+      rangeKind: global-composite
+      taxonomicConcept: anthropoidea — source-bounded sample window — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former navigation numbers are withdrawn because the living-primate supermatrix does not establish fossil membership or a range-fit first appearance. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: springer-2012-primate-supermatrix
+          locator: Article e49521; Higher-level primate topology; Simiiformes sampling
+      evidenceLevel: withheld-no-range-evidence

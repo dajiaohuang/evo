@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis bicantus
+  displayName: Pristimantis bicantus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77WHD
+  sourceIndexes:
+    - name:
+        en: Pristimantis bicantus
+        zh: Pristimantis bicantus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77WHD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/146
+            queryName: Pristimantis bicantus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-08a6def70f
+      - s-aca3974b73
+      - s-b8fd53b6d4
+      - s-5daedc7567
+      - s-95e823c3f1
+      - s-6885bbe8e5
+      - s-7ed632acc9
+      - s-00a3e96593
+      - s-5f49e2d949
+      - s-72ea59d38d
+      - s-6062e4b7c2
+      - s-114218e308
+      - s-0a58d48d4c
+      - s-42c0f1bc28
+      - s-5f8f187bda
+      - s-9ce6e36a2e
+      - s-f1a1f05d99
+      - s-b9e9f63e5d
+      - s-8d839527ab
+      - s-8ba8675f8f
+    zh:
+      - s-b42ff08b03
+      - s-a33fef795a
+      - s-6acbf38765
+      - s-31d2baced4
+      - s-7b9fea478e
+      - s-3d9e8ceb1b
+      - s-8b3323b9f3
+      - s-b4c5e81218
+      - s-0f0d442342
+      - s-995ecae10a
+      - s-d2d9f11c5a
+      - s-d098bcf32d
+      - s-0131d23f83
+      - s-935da5a1a1
+      - s-8b20efa1b9
+      - s-54145e6d5f
+      - s-bbdc4132f7
+      - s-7552299abc
+      - s-108c080891
+      - s-149cce92f7

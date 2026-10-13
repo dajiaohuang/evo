@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-b38419d6f4
+      part: title
+    titleZh:
+      page: zh
+      section: s-97cd08d129
+      part: title
+    category: genomic
+    startAge: 0
+    endAge: 0
+    regions:
+      - Laboratory genome and transcriptome samples from parasitic cnidarians
+    clades:
+      - Myxozoa
+      - Polypodium
+      - Cnidaria
+    summary:
+      page: en
+      section: s-b38419d6f4
+      part: body
+    summaryZh:
+      page: zh
+      section: s-97cd08d129
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-9a9bc93251
+            part: title
+          zh:
+            page: zh
+            section: s-da5e135224
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9a9bc93251
+            part: body
+          zh:
+            page: zh
+            section: s-da5e135224
+            part: body
+        id: observed-material
+        sourceIds:
+          - chang-2015-myxozoa
+      - title:
+          en:
+            page: en
+            section: s-66f38c81e8
+            part: title
+          zh:
+            page: zh
+            section: s-15d48babb6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-66f38c81e8
+            part: body
+          zh:
+            page: zh
+            section: s-15d48babb6
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - chang-2015-myxozoa
+    claimIds:
+      - claim:event:myxozoan-genome-reduction
+    evidenceItems:
+      - statement: Four new myxozoan assemblies, Kudoa and Myxobolus data and Polypodium were compared in a 77-taxon amino-acid matrix.
+        relation: supports
+        claimIds:
+          - claim:event:myxozoan-genome-reduction
+        referenceLinks:
+          - referenceId: chang-2015-myxozoa
+            relation: supports
+            pages: 14912–14917
+            figure: Figures 1–4; Supplementary Figures; genomic assemblies
+            quoteLocator: 77-taxon phylogeny, genome-size estimates and gene-category comparisons
+    uncertaintyItems:
+      - statement: Gene loss and parasite adaptation are reconstructed from extant samples; polar capsules and nematocysts are homologous interpretations, not identical life histories.
+        relation: contextualizes
+        claimIds:
+          - claim:event:myxozoan-genome-reduction
+        referenceLinks:
+          - referenceId: chang-2015-myxozoa
+            relation: supports
+            pages: 14912–14917
+            figure: Figures 1–4; Supplementary Figures; genomic assemblies
+            quoteLocator: 77-taxon phylogeny, genome-size estimates and gene-category comparisons
+    readerSources:
+      - id: chang-2015-myxozoa
+        referenceId: chang-2015-myxozoa
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 14912–14917; figure: Figures 1–4; Supplementary Figures; genomic assemblies; 77-taxon phylogeny, genome-size estimates and gene-category comparisons"
+  claims:
+    - subjectId: event:myxozoan-genome-reduction
+      claimKind: scientific
+      claimType: topology
+      statement: Genome and transcriptome assemblies place sampled Myxozoa as cnidarians sister to Polypodium and associate their microscopic parasitic body plans with extreme genome and gene-content reduction.
+      confidence: high
+      confidenceRationale: Multiple assemblies and a 51,940-amino-acid matrix support placement and reduction; results remain limited to sampled parasites and comparative gene annotations.
+      referenceLinks:
+        - referenceId: chang-2015-myxozoa
+          relation: supports
+          pages: 14912–14917
+          figure: Figures 1–4; Supplementary Figures; genomic assemblies
+          quoteLocator: 77-taxon phylogeny, genome-size estimates and gene-category comparisons
+  claim-rationales.zh:
+    - 多份组装和 51,940 氨基酸矩阵支持其位置与缩减；结论仍限于取样寄生物和比较基因注释。
+  claim-statements.zh:
+    - 基因组和转录组组装把所取样的黏体动物置于刺胞动物内、与 Polypodium 互为姐妹群，并将其微型寄生体制与基因组及基因内容的极端缩减联系起来。

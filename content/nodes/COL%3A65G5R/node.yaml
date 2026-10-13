@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus knysnae
+  displayName: Afrixalus knysnae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G5R
+  sourceIndexes:
+    - name:
+        en: Afrixalus knysnae
+        zh: Afrixalus knysnae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G5R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/69
+            queryName: Afrixalus knysnae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/299
+            queryName: Hyperolius knysnae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/215
+            queryName: Afrixalus brachycnemis knysnae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-295bdd77c8
+      - s-291e43a070
+      - s-0951ce4b78
+      - s-67b8c9f621
+      - s-4482afee84
+      - s-bc687aca8b
+      - s-971dded7ff
+      - s-c3421f2c3a
+      - s-d427cc1a7b
+      - s-0056966a85
+    zh:
+      - s-c60b9f01b1
+      - s-8bc34f244c
+      - s-57f58756e9
+      - s-9236f22033
+      - s-eebada69dc
+      - s-e19a0f644b
+      - s-ef3907287e
+      - s-22941d3ecb
+      - s-00750196db
+      - s-70264d2069

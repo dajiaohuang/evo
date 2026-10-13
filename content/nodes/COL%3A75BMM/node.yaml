@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osteocephalus cabrerai
+  displayName: Osteocephalus cabrerai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75BMM
+  sourceIndexes:
+    - name:
+        en: Osteocephalus cabrerai
+        zh: Osteocephalus cabrerai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75BMM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/337
+            queryName: Osteocephalus cabrerai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/476
+            queryName: Hyla cabrerai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c8c33a81f
+      - s-e00682b92c
+      - s-41efd9528f
+      - s-f60cb46e32
+      - s-b4ab5c6fb6
+      - s-ea3d930359
+      - s-0c1d13e468
+      - s-2924e5c532
+      - s-b07fac2f49
+      - s-b852542a14
+      - s-6ee844d1e0
+      - s-2b30200d5e
+      - s-854cf825fe
+      - s-7d948b21ca
+      - s-e874612d3f
+      - s-fed94f39fc
+      - s-a012ccf333
+      - s-ae716f3d80
+      - s-1db3b91b7e
+    zh:
+      - s-d842eb68a3
+      - s-1a492411c8
+      - s-5481432052
+      - s-afb1bca115
+      - s-423639f6de
+      - s-791278fe24
+      - s-7e20548beb
+      - s-2e72765995
+      - s-e4e39a764c
+      - s-3efe31ed8c
+      - s-3e604cd985
+      - s-ef02996da7
+      - s-c8299ee0cf
+      - s-cb2302a2c6
+      - s-2ef6ac5fa8
+      - s-50736e0ae9
+      - s-2c43d321dd
+      - s-bf62b27ba3
+      - s-4091fe957d

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne atrigularis
+  displayName: Oreophryne atrigularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T68H
+  sourceIndexes:
+    - name:
+        en: Oreophryne atrigularis
+        zh: Oreophryne atrigularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T68H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/243
+            queryName: Oreophryne atrigularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a556d0d5cd
+      - s-8fc4c42a24
+      - s-8d51854831
+      - s-7941704803
+      - s-182fca7607
+      - s-890d4c49ae
+      - s-1549a637de
+      - s-69157ede01
+      - s-cd15055250
+      - s-550558d0ae
+      - s-12975ef13d
+    zh:
+      - s-08297cb253
+      - s-db494e9725
+      - s-087a63dd66
+      - s-41d62ea9db
+      - s-e0d626998d
+      - s-b8becd6aba
+      - s-b66418fc32
+      - s-732a1a4e7f
+      - s-143effb2e6
+      - s-cfb5d8e871
+      - s-9e22e5c415

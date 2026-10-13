@@ -1,0 +1,534 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Engystomops petersi Jiménez de la Espada, 1872
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Engystomops petersi
+      zh: Engystomops petersi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-01f5a0695f
+            part: title
+          zh:
+            page: zh
+            section: s-0d0dbf6027
+            part: title
+        text:
+          en:
+            page: en
+            section: s-01f5a0695f
+            part: body
+          zh:
+            page: zh
+            section: s-0d0dbf6027
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2f3ae81d4a
+            part: title
+          zh:
+            page: zh
+            section: s-8f252413e7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2f3ae81d4a
+            part: body
+          zh:
+            page: zh
+            section: s-8f252413e7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3f72848d64
+            part: title
+          zh:
+            page: zh
+            section: s-b791993181
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3f72848d64
+            part: body
+          zh:
+            page: zh
+            section: s-b791993181
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-f518ed843733d5107341fdb917058163
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-df68611a665b0ff17ef85aae
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-c7ee238d52df919e4eddc55c
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-2a29d72833824789b2597496
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d1573c423c
+            part: title
+          zh:
+            page: zh
+            section: s-c187a419d4
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-d1573c423c
+            part: body
+          zh:
+            page: zh
+            section: s-c187a419d4
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1ab8cc7cd9
+            part: title
+          zh:
+            page: zh
+            section: s-7f4ea2d489
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1ab8cc7cd9
+            part: body
+          zh:
+            page: zh
+            section: s-7f4ea2d489
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-413602c9b0
+            part: title
+          zh:
+            page: zh
+            section: s-9b2ba4973b
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1963"
+        text:
+          en:
+            page: en
+            section: s-413602c9b0
+            part: body
+          zh:
+            page: zh
+            section: s-9b2ba4973b
+            part: body
+        sourceRowNumber: 1770
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1dd1262023
+            part: title
+          zh:
+            page: zh
+            section: s-1505c2e3bb
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "2051"
+        text:
+          en:
+            page: en
+            section: s-1dd1262023
+            part: body
+          zh:
+            page: zh
+            section: s-1505c2e3bb
+            part: body
+        sourceRowNumber: 1857
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-79583716c6
+            part: title
+          zh:
+            page: zh
+            section: s-2557660729
+            part: title
+        sourceIds:
+          - primary-pmc13024529-39ttw
+        text:
+          en:
+            page: en
+            section: s-79583716c6
+            part: body
+          zh:
+            page: zh
+            section: s-2557660729
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b946d26264
+            part: title
+          zh:
+            page: zh
+            section: s-51fe3358b5
+            part: title
+        sourceIds:
+          - primary-pmc13024529-39ttw
+        text:
+          en:
+            page: en
+            section: s-b946d26264
+            part: body
+          zh:
+            page: zh
+            section: s-51fe3358b5
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-066cd73242
+            part: title
+          zh:
+            page: zh
+            section: s-b6d0aa8b37
+            part: title
+        sourceIds:
+          - primary-pmc13024529-39ttw
+        text:
+          en:
+            page: en
+            section: s-066cd73242
+            part: body
+          zh:
+            page: zh
+            section: s-b6d0aa8b37
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Engystomops petersi
+          url: https://www.checklistbank.org/dataset/316115/taxon/39TTW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2851, 2852, 2853, 2854, 2855, 2856; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1810, 1811; Reference.csv rows 2814
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3274; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3275 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 1770, 1857, 3570; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13024529-39ttw
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Engystomops petersi: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b0dbedec65
+        part: body
+      zh:
+        page: zh
+        section: s-68bf92a042
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-df68611a665b0ff17ef85aae
+        scientificName: Engystomops petersi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-c7ee238d52df919e4eddc55c
+        scientificName: Engystomops petersi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-2a29d72833824789b2597496
+        scientificName: Engystomops petersi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.3390/biology15060451
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        sourceKey: primary-pmc13024529-39ttw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13024529/article.xml
+        sourceConcept: 2013–2018 source-labelled Engystomops petersi nominal row in2026paper; Pristimantis identification contradiction retained where relevant, not certified vouchers/concepts
+        evidenceRead: "Engystomops petersi: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Historical local survey records are distinct from a current provincial census
+              zh: 历史地方调查记录区别于当前全省普查
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-39ttw
+            locator: PMC13024529 XML Table2 bodyrow56 Engystomops petersi; Methods2.1–2.3; Results opening
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-24c5b9147f
+                part: body
+              zh:
+                page: zh
+                section: s-ad657eaa00
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A source-assigned risk category retains its assessment limits
+              zh: 来源分配风险类别保留评估限制
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-39ttw
+            locator: PMC13024529 XML Table2 bodyrow56 LC/Total columns; Methods2.5; Results3.4; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eebab6fdb6
+                part: body
+              zh:
+                page: zh
+                section: s-8622b28343
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Coverage and community turnover do not prove a species trend
+              zh: 覆盖及群落更替不证明物种趋势
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-39ttw
+            locator: PMC13024529 XML Methods2.2/2.4.1/2.4.3/2.4.5; Table1; Results3.1/3.3; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a4f3e9002d
+                part: body
+              zh:
+                page: zh
+                section: s-2427f24bc5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

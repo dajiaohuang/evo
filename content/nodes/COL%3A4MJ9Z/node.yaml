@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis auricarens
+  displayName: Pristimantis auricarens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ9Z
+  sourceIndexes:
+    - name:
+        en: Pristimantis auricarens
+        zh: Pristimantis auricarens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ9Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/131
+            queryName: Pristimantis auricarens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/391
+            queryName: Eleutherodactylus auricarens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4dc253c5a6
+      - s-a09f4b53af
+      - s-cf67e5615c
+      - s-71495a63d6
+      - s-329543a3ee
+      - s-0ccda66083
+      - s-3a979f0d63
+    zh:
+      - s-01ef97ea68
+      - s-46ef314d4b
+      - s-e93416f79f
+      - s-1d5a8a9f69
+      - s-d9e16227db
+      - s-2c2bb0cbf2
+      - s-946962c02e

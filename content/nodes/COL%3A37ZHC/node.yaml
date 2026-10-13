@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duellmanohyla schmidtorum
+  displayName: Duellmanohyla schmidtorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37ZHC
+  sourceIndexes:
+    - name:
+        en: Duellmanohyla schmidtorum
+        zh: Duellmanohyla schmidtorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37ZHC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/72
+            queryName: Duellmanohyla schmidtorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/15
+            queryName: Ptychohyla schmidtorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/297
+            queryName: Hyla schmidtorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/408
+            queryName: Ptychohyla schmidtorum schmidtorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-58665f6df5
+      - s-bf62bfc4b5
+      - s-630be2aa2d
+      - s-df7365a205
+      - s-1e62470f5d
+      - s-5222e768df
+      - s-c43b85df2f
+      - s-ba29bb85fe
+      - s-d661fac0cc
+    zh:
+      - s-7b9402bf88
+      - s-cbc106f8cb
+      - s-59cb47bfdf
+      - s-c242a7a386
+      - s-aece14b0d4
+      - s-e5d77e4ed4
+      - s-548fecafca
+      - s-b604437051
+      - s-b4096d20af

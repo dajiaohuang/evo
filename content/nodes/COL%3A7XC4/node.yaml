@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tlalocohyla
+  displayName: Tlalocohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7XC4
+  sourceIndexes:
+    - name:
+        en: Tlalocohyla
+        zh: Tlalocohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7XC4
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/307
+            queryName: Tlalocohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 31
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e5579a9b1c
+      - s-6c38284d1a
+      - s-cd48dae0de
+      - s-381545cd61
+      - s-a1a522ab05
+      - s-b56cd18c19
+      - s-33b3a6965a
+      - s-09870b6066
+      - s-ab1709c6f9
+      - s-b8f76896dc
+      - s-71100209e3
+      - s-bf4f5c5b0d
+    zh:
+      - s-c1ca289462
+      - s-666d38597f
+      - s-ad09814ddb
+      - s-7d713b85b0
+      - s-c27160f7fc
+      - s-6abef833b0
+      - s-e74df0277e
+      - s-6030c875b3
+      - s-1dac67de57
+      - s-a2a61f18fc
+      - s-18f1e80a7a
+      - s-a510f33793

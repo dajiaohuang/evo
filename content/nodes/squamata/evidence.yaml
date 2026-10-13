@@ -1,0 +1,113 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-58ae8b222d
+            part: title
+          zh:
+            page: zh
+            section: s-8b9963db0f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-58ae8b222d
+            part: body
+          zh:
+            page: zh
+            section: s-8b9963db0f
+            part: body
+        claimIds:
+          - claim:taxon:squamata
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-4beff320a7
+            part: title
+          zh:
+            page: zh
+            section: s-13601b3ed8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4beff320a7
+            part: body
+          zh:
+            page: zh
+            section: s-13601b3ed8
+            part: body
+        claimIds:
+          - claim:taxon:squamata:range-boundary
+    scientificName: Squamata
+    name:
+      en: Squamata
+      zh: Squamata
+    rank: order
+  atlas-node:
+    name: Squamata
+    commonName: Lizards & Snakes
+    commonNameZh: 蜥蜴与蛇
+    rank: order
+    taxonId: ""
+    firstAppearance: 168
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:squamata
+      claimKind: scientific
+      claimType: topology
+      statement: The Squamata route follows a molecular supermatrix classification of 4,161 sampled living lizard and snake species; it is an extant topology hypothesis and does not establish a fossil first appearance, ancestral species or exact divergence date.
+      confidence: medium
+      confidenceRationale: The species sample and analysis are large and explicit, but gene coverage is uneven and the source is not a fossil chronology. Medium confidence preserves those boundaries.
+      referenceLinks:
+        - referenceId: pyron-2013-squamate-phylogeny
+          relation: supports
+          pages: 1–53
+          figure: Figures 1–28; Additional files 1–7
+          quoteLocator: p. 4 Figure 1; Methods; phylogenetic results; revised classification; limitations
+    - subjectId: taxon:squamata
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Megachirella provides a Middle Triassic Pan-Squamata stem sample, not a crown-Squamata first appearance; the former 201.4 Ma–present crown display is therefore withheld.
+      confidence: low
+      confidenceRationale: "Crown Squamata temporal range: the cited primary study or systematic review directly supports the stated sample, calibration or withholding boundary at the supplied locator. Confidence is low and does not extend to a global FAD, LAD, direct ancestor or unsampled interval."
+      referenceLinks:
+        - relation: supports
+          referenceId: simoes-2018-megachirella
+          pages: 706–709
+          figure: Figures 1–2; Extended Data Figures 1–8
+          quoteLocator: Middle Triassic specimen and combined-evidence stem-squamate placement
+  claim-rationales.zh:
+    - 物种取样和分析规模大且明确，但基因覆盖不均，来源也不是化石年代学研究；中等置信度保留这些边界。
+    - Crown Squamata temporal range：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为低。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。
+  claim-statements.zh:
+    - 有鳞目路线采用覆盖 4,161 个取样现生蜥蜴和蛇类物种的分子超级矩阵分类；它是现生类群拓扑假说，并不建立化石首现、祖先物种或精确分化日期。
+    - Megachirella 提供中三叠世泛有鳞类干群样本，而不是有鳞类冠群首现；因此原先 2.014 亿年前至今的冠群显示暂缓。
+  ranges:
+    - entityId: squamata
+      rangeKind: global-composite
+      taxonomicConcept: Crown Squamata temporal range
+      geographicScope: Crown interval pending a crown-specific fossil calibration
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Megachirella is placed on the squamate stem and cannot by itself validate the former crown display.
+      evidenceBasis: The former 201.4 Ma–present range is withheld rather than transferring a Pan-Squamata stem occurrence to crown Squamata.
+      confidence: low
+      claimIds:
+        - claim:taxon:squamata:range-boundary
+      referenceLocators:
+        - referenceId: simoes-2018-megachirella
+          locator: 706–709; Figures 1–2; Extended Data Figures 1–8; Middle Triassic specimen and combined-evidence stem-squamate placement
+      evidenceLevel: literature-synthesized

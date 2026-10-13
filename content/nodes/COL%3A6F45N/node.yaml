@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus principalis
+  displayName: Eleutherodactylus principalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F45N
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus principalis
+        zh: Eleutherodactylus principalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F45N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/307
+            queryName: Eleutherodactylus principalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a1d071459
+      - s-d81bbb9b63
+      - s-b436a0d1ae
+      - s-bebc6f4169
+      - s-e44790d08d
+      - s-6acaee964c
+      - s-7f3f48af80
+      - s-21abaf3170
+      - s-53f8566755
+      - s-a8412cc2d3
+    zh:
+      - s-8a7068ed57
+      - s-689407dc2c
+      - s-ad01f1632a
+      - s-cee467e660
+      - s-1d5fc4c7a8
+      - s-7c2a5861dd
+      - s-8f1441daeb
+      - s-b2bcf04152
+      - s-e825bde7de
+      - s-ec15882b95

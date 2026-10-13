@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus rhodomystax
+  displayName: Leptodactylus rhodomystax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN7F
+  sourceIndexes:
+    - name:
+        en: Leptodactylus rhodomystax
+        zh: Leptodactylus rhodomystax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN7F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/431
+            queryName: Leptodactylus rhodomystax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/262
+            queryName: Leptodactylus stictigularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-52e7185e6d
+      - s-242485a65b
+      - s-4feff6fc2d
+      - s-9985229b84
+      - s-b348defc32
+      - s-f6c3a90d7e
+      - s-b36697146e
+      - s-236ba2a13f
+      - s-bbf6b489a6
+      - s-3cbf986aba
+      - s-635326d3fc
+      - s-663c8fc453
+      - s-3b8d902768
+      - s-db2ca37850
+      - s-e1c38c5ba9
+      - s-e2ad21d384
+      - s-09c4edd81d
+      - s-1705f5b9d9
+      - s-fdab54c452
+    zh:
+      - s-954f593903
+      - s-6932d1612a
+      - s-974d9fff9d
+      - s-6da1c18506
+      - s-a607fc08af
+      - s-91907aa691
+      - s-6b184c5b03
+      - s-c7f3b365bb
+      - s-4730fcddcf
+      - s-d676938052
+      - s-ecee03974c
+      - s-4d0bc70b35
+      - s-ea8749e949
+      - s-3f037dca44
+      - s-7f94296255
+      - s-4f5ee4fa7d
+      - s-8f27ec03d1
+      - s-aa43c90c49
+      - s-69af6d12b9

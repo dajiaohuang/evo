@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kaloula
+  displayName: Kaloula
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6387Z
+  sourceIndexes:
+    - name:
+        en: Kaloula
+        zh: Kaloula
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6387Z
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/480
+            queryName: Kaloula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 285
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c84b3ef7e0
+      - s-8c3dd3d4f7
+      - s-69981b942c
+      - s-9ab168d6c4
+      - s-99b085ea20
+      - s-c0fe3ab99c
+      - s-c08006eacd
+      - s-a75ce13c7c
+      - s-df1d16b873
+      - s-c8640f812b
+      - s-6eb6232818
+      - s-306f41bf59
+      - s-210769d1c1
+      - s-a1230bbadd
+    zh:
+      - s-53f837c935
+      - s-08014d927f
+      - s-afe431acdb
+      - s-483114ddf0
+      - s-c3c127690b
+      - s-2a2fe3af7c
+      - s-fc2478ccd6
+      - s-d20ceedb92
+      - s-fa76aaffbe
+      - s-5966cb2b4f
+      - s-128c44dc33
+      - s-1a774ed3c8
+      - s-a0202a60a3
+      - s-69554ce293

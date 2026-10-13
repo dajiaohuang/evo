@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloe gariepensis Pillans
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage C3N5, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage C3N5; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/C3N5
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage C3N5
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000758221-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL C3N5 / WFO wfo-0000758221
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14533_0
+        referenceId: ref-e7bddb2b-19b9-87a9-a229-8c856f098703
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe gariepensis Pillans account; SANBI/WFO archive rows 32906 (Morphology), 38814 (Habitat), source identifier 14533.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_5961_0
+        referenceId: ref-ba3368a6-e3f2-87ea-a40d-9e706b7d6fc6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe gariepensis Pillans account; SANBI/WFO archive rows 51287 (Diagnostic), source identifier 5961.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_13236_0
+        referenceId: ref-4e1f793f-f50b-865d-ac17-a11eeda46a6e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe gariepensis Pillans account; SANBI/WFO archive rows 78127 (Diagnostic), source identifier 13236.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Short-stemmed, usually solitary, up to 1 m tall. Leaves with numerous longitudinal lines, copiously spotted on both surfaces in young plants, some spots on upper surface in mature plants, unarmed, margins brown, horn-like, with small, sharp, triangular teeth. Flowers in unbranched, narrow, oblong racemes, yellow to greenish yellow, buds sometimes red, hidden by long bracts. (In west) July-Sept. (in east).
+            textZh: Aloe gariepensis Pillans 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14533_0
+            locator: "SANBI/WFO archive Morphology row 32906; source identifier 14533.0; cited publication: Klopper, RR; Smith, GF. 2013. Asphodelaceae: Aloe. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 45 - 48. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Aloe gariepensis is the only species in this section in which the flowers are usually yellow both in bud and at flowering. Plants are usually solitary, unlike the much-branched, shrubby A. succotrina, and the leaf sap does not dry purple, with the result that dried leaves are not this colour. The leaves of A. gariepensis are lined, and may be spotted or unspotted.
+            textZh: SANBI 条目提供了 Aloe gariepensis Pillans 的鉴别特征。
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Diagnostic row 51287; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Leaves are always lineate, but vary from entirely without spots to copiously spotted both sides in various localities. Racemes also vary from the usual unicoloured greenish-yellow form to reddish, and bicoloured. A. gariepensis is the only species in this series having long cylindric-acuminate racemes 35-50 cm long, pedicels only 15-20 mm long, and bracts much longer than their pedicels.
+            textZh: SANBI 条目提供了 Aloe gariepensis Pillans 的鉴别特征。
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Diagnostic row 78127; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Steep rocky slopes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Steep rocky slopes.
+            sourceIds:
+              - sanbi_14533_0
+            locator: "SANBI/WFO archive Habitat row 38814; source identifier 14533.0; cited publication: Klopper, RR; Smith, GF. 2013. Asphodelaceae: Aloe. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 45 - 48. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

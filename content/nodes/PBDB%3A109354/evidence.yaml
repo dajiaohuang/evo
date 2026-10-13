@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Burnetiamorpha
+    rank: unranked clade
+    sourceDatasetId: null
+    name:
+      zh: Burnetiamorpha
+      en: Burnetiamorpha
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e4eea110a2
+            part: body
+          en:
+            page: en
+            section: s-fbc8ef7f6d
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-60e6dff24f
+            part: body
+          en:
+            page: en
+            section: s-b5ff99a4ef
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Burnetiamorpha
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=109354
+          locator: Recorded PBDB parent closure beneath the already documented Synapsida COL-compatible storage anchor.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:109354
+          readingTargets:
+            - name: Lobalopex mordax
+              pbdbTaxonId: txn:140412
+              canonicalPath: content/nodes/PBDB%3A140412
+            - name: Lophorhinus willodenensis
+              pbdbTaxonId: txn:140414
+              canonicalPath: content/nodes/PBDB%3A140414
+            - name: Lemurosaurus pricei
+              pbdbTaxonId: txn:96182
+              canonicalPath: content/nodes/PBDB%3A96182
+            - name: Lende chiweta
+              pbdbTaxonId: txn:335788
+              canonicalPath: content/nodes/PBDB%3A335788
+            - name: Proburnetia viatkensis
+              pbdbTaxonId: txn:140409
+              canonicalPath: content/nodes/PBDB%3A140409
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ff7072ee97
+        part: body
+      en:
+        page: en
+        section: s-94a84f9088
+        part: body

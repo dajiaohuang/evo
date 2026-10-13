@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla mixtura
+  displayName: Microhyla mixtura
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73H39
+  sourceIndexes:
+    - name:
+        en: Microhyla mixtura
+        zh: Microhyla mixtura
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73H39
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/19
+            queryName: Microhyla mixtura
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-89c8442327
+      - s-d51309e98d
+      - s-da081cec3b
+      - s-c23f09c7bf
+      - s-ee4b17fc43
+      - s-2006d2b7e4
+      - s-66f52c4eeb
+      - s-a9c6f7f779
+      - s-6541bdcdb7
+      - s-93fe560534
+      - s-24de4db245
+    zh:
+      - s-4405cbaacf
+      - s-4f235780e6
+      - s-9ad16cdb27
+      - s-ed4678f2eb
+      - s-ffa7d78a29
+      - s-a8f4510df3
+      - s-7a5027233d
+      - s-9a8422eeb8
+      - s-c80cdcf224
+      - s-d0c5b0b619
+      - s-4fe5a2041e

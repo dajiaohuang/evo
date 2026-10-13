@@ -1,0 +1,131 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rheohyla Duellman, Marion & Hedges, 2016
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Rheohyla
+      zh: Rheohyla
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a5cdbc47ee
+            part: title
+          zh:
+            page: zh
+            section: s-dda2c49262
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a5cdbc47ee
+            part: body
+          zh:
+            page: zh
+            section: s-dda2c49262
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c77ca2f8e3
+            part: title
+          zh:
+            page: zh
+            section: s-b1ee4c78d6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c77ca2f8e3
+            part: body
+          zh:
+            page: zh
+            section: s-b1ee4c78d6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-fc2fad4158
+            part: title
+          zh:
+            page: zh
+            section: s-e5da096cf7
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4S62R
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4S62R
+            label:
+              en: Rheohyla miotympanum
+              zh: Rheohyla miotympanum
+        text:
+          en:
+            page: en
+            section: s-fc2fad4158
+            part: body
+          zh:
+            page: zh
+            section: s-e5da096cf7
+            part: body
+      - topic: limitations
+        title: Reading the indexed references 阅读索引中的文献
+        text:
+          en:
+            page: en
+            section: s-bfe46c9f8f
+            part: body
+          zh:
+            page: zh
+            section: s-2e5cdc9e49
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rheohyla
+          url: https://www.checklistbank.org/dataset/316115/taxon/78HW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-537dd6c600
+        part: body
+      zh:
+        page: zh
+        section: s-04dd172e7d
+        part: body

@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-aeabdabc0d
+      part: title
+    titleZh:
+      page: zh
+      section: s-7f8ee70bc6
+      part: title
+    category: transition
+    startAge: 508
+    endAge: 505
+    regions:
+      - Burgess Shale, British Columbia, Canada
+    clades:
+      - Molluscan origin dossier route
+      - Nectocaris pteryx
+      - Cephalopoda
+    summary:
+      page: en
+      section: s-aeabdabc0d
+      part: body
+    summaryZh:
+      page: zh
+      section: s-7f8ee70bc6
+      part: body
+    claimIds:
+      - claim:event:nectocaris-soft-body-cephalopod-test
+    evidenceItems:
+      - statement: The expanded sample repeatedly preserves paired camera-like eyes, lateral fins, an axial cavity and a ventral funnel-like structure.
+        relation: supports
+        claimIds:
+          - claim:event:nectocaris-soft-body-cephalopod-test
+        referenceLinks:
+          - referenceId: smith-caron-2010-nectocaris
+            relation: supports
+            pages: 469–472
+            figure: Figures 1–4; Supplementary Information
+            quoteLocator: New material and reconstruction
+    uncertaintyItems:
+      - statement: The cephalopod interpretation lacks a preserved siphuncle, chambered shell, beak or radula and remains a contested topology rather than a secure crown fossil.
+        relation: contextualizes
+        claimIds:
+          - claim:event:nectocaris-soft-body-cephalopod-test
+        referenceLinks:
+          - referenceId: smith-caron-2010-nectocaris
+            relation: supports
+            pages: 469–472
+            figure: Figure 4
+            quoteLocator: Cephalopod comparison and discussion
+  claims:
+    - subjectId: event:nectocaris-soft-body-cephalopod-test
+      claimKind: scientific
+      claimType: topology
+      statement: Ninety newly prepared Nectocaris specimens reveal paired eyes, two tentacles, lateral fins and a ventral funnel-like structure that support a cephalopod interpretation in the cited study, but absent diagnostic shell, siphuncle, beak and radula evidence leaves that placement contested.
+      confidence: low
+      confidenceRationale: The expanded sample strongly supports the described soft anatomy, but cephalopod affinity has unusual character combinations and lacks several diagnostic structures, so the claim is explicitly topology-limited.
+      referenceLinks:
+        - referenceId: smith-caron-2010-nectocaris
+          relation: supports
+          pages: 469–472
+          figure: Figures 1–4; Supplementary Information
+          quoteLocator: New material; reconstruction; cephalopod comparison
+  claim-rationales.zh:
+    - 扩大的样本可靠记录软组织解剖，但异常性状组合及关键诊断结构缺失使头足类归属保持低置信度。
+  claim-statements.zh:
+    - 九十件新制备的 Nectocaris 标本显示成对眼、两条触手、侧鳍和腹侧漏斗状构造，支持所引研究的头足类解释；但缺少诊断性的壳、体管、喙和齿舌证据，使这一归属仍有争议。

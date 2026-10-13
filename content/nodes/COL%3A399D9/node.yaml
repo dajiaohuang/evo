@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus juanariveroi
+  displayName: Eleutherodactylus juanariveroi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399D9
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus juanariveroi
+        zh: Eleutherodactylus juanariveroi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399D9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/244
+            queryName: Eleutherodactylus juanariveroi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-44b3b279ca
+      - s-9e9da93ebc
+      - s-9dec161abb
+      - s-f10094093d
+      - s-ac66b22e33
+      - s-2b148ce891
+      - s-16a1d53ad1
+      - s-7971ceecbc
+      - s-bbb5381bfd
+      - s-6d028be875
+    zh:
+      - s-df528cdf25
+      - s-6fb5cb48f5
+      - s-4fcfb545ca
+      - s-e14bb3a761
+      - s-01601d4f35
+      - s-470b30cccc
+      - s-a4a64cef99
+      - s-1d2dfcd902
+      - s-5171b14cb8
+      - s-2b4c83644f

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis scoloblepharus
+  displayName: Pristimantis scoloblepharus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJNV
+  sourceIndexes:
+    - name:
+        en: Pristimantis scoloblepharus
+        zh: Pristimantis scoloblepharus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJNV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/84
+            queryName: Pristimantis scoloblepharus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/50
+            queryName: Eleutherodactylus scoloblepharus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f6fe51f57f
+      - s-91bffe4c9b
+      - s-851c958d77
+      - s-9d40ccc062
+      - s-e19185aa72
+      - s-5b1bf8b8b4
+      - s-77114c0587
+      - s-bfed3282c3
+      - s-9892426980
+      - s-1a64529071
+      - s-be32f2ae21
+      - s-0f8d3b1f8d
+      - s-e12d437048
+      - s-d60d12fdfb
+    zh:
+      - s-68ab900199
+      - s-62447cd23f
+      - s-fbe637868f
+      - s-cff2ce2801
+      - s-733ba6b82c
+      - s-448255f2d6
+      - s-5e81b472df
+      - s-6fdcec4d72
+      - s-928dd041fd
+      - s-345eec3023
+      - s-cf0ffd22e5
+      - s-cc5f021b5a
+      - s-120bd003bd
+      - s-ee02cc6e53

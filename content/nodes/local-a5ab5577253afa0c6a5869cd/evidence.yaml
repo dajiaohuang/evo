@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Batrachuperus daochengensis
+    name:
+      en: Batrachuperus daochengensis
+      zh: Batrachuperus daochengensis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Batrachuperus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Batrachuperus daochengensis in the morphology deposit
+          zh: 形态数据中的 Batrachuperus daochengensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1eade8f1ac
+            part: body
+          zh:
+            page: zh
+            section: s-16f39c89d8
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 23 and 24: measurement fields and sex codes"
+          zh: 第 23、24 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ff50e3a0ff
+            part: body
+          zh:
+            page: zh
+            section: s-cb2303dbf7
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 23, 24; Reference.csv rows 4081
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 23
+        values:
+          - Hynobiidae
+          - Batrachuperus
+          - Batrachuperus daochengensis
+          - F
+          - NA
+          - "96.22857143"
+          - NA
+          - NA
+          - "24.12857143"
+          - "17.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "80.27142857"
+          - NA
+          - "11.71428571"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 24
+        values:
+          - Hynobiidae
+          - Batrachuperus
+          - Batrachuperus daochengensis
+          - M
+          - NA
+          - "103.4"
+          - NA
+          - NA
+          - "26.56666667"
+          - "19.86666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "96.73333333"
+          - NA
+          - "14.13333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4081
+        values:
+          - Caudata
+          - Batrachuperus_daochengensis
+          - "Xiong, J. L., Luo, W., & Zeng, X. M. (2020). A new species of the genus Batrachuperus (Urodela: Hynobiidae) from Southwestern China. Zool Res, 41(5), 589-594. https://doi.org/10.24272/j.issn.2095-8137.2020.129"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - TL
+      - TH
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - MWKQH
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

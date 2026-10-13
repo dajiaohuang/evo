@@ -1,0 +1,504 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dryophytes suweonensis (Kuramoto, 1980)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dryophytes suweonensis
+      zh: Dryophytes suweonensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cd1bf57c4e
+            part: title
+          zh:
+            page: zh
+            section: s-b4dcfab052
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cd1bf57c4e
+            part: body
+          zh:
+            page: zh
+            section: s-b4dcfab052
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-287d56bc31
+            part: title
+          zh:
+            page: zh
+            section: s-60bf1b1d59
+            part: title
+        text:
+          en:
+            page: en
+            section: s-287d56bc31
+            part: body
+          zh:
+            page: zh
+            section: s-60bf1b1d59
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-db0f7ea768
+            part: title
+          zh:
+            page: zh
+            section: s-707bdfae2e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-db0f7ea768
+            part: body
+          zh:
+            page: zh
+            section: s-707bdfae2e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-89940cc18410a9ddb8d0449c
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-364b2a66920cd4665ecf846ec89cb9be
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bb5bc89eff
+            part: title
+          zh:
+            page: zh
+            section: s-2c321d8a77
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-bb5bc89eff
+            part: body
+          zh:
+            page: zh
+            section: s-2c321d8a77
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-2f93d5d996
+            part: title
+          zh:
+            page: zh
+            section: s-d4fc4de77a
+            part: title
+        sourceIds:
+          - primary-pmc10215353-37vnq
+        text:
+          en:
+            page: en
+            section: s-2f93d5d996
+            part: body
+          zh:
+            page: zh
+            section: s-d4fc4de77a
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-773481302b
+            part: title
+          zh:
+            page: zh
+            section: s-26e88c1b9c
+            part: title
+        sourceIds:
+          - primary-pmc10695108-37vnq
+        text:
+          en:
+            page: en
+            section: s-773481302b
+            part: body
+          zh:
+            page: zh
+            section: s-26e88c1b9c
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-abb48e06c3
+            part: title
+          zh:
+            page: zh
+            section: s-7e4fb34fa9
+            part: title
+        sourceIds:
+          - primary-pmc10695108-37vnq
+        text:
+          en:
+            page: en
+            section: s-abb48e06c3
+            part: body
+          zh:
+            page: zh
+            section: s-7e4fb34fa9
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1a97223b6e
+            part: title
+          zh:
+            page: zh
+            section: s-b3ee7b9381
+            part: title
+        sourceIds:
+          - primary-pmc10695108-37vnq
+        text:
+          en:
+            page: en
+            section: s-1a97223b6e
+            part: body
+          zh:
+            page: zh
+            section: s-b3ee7b9381
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b0ba26cd7b
+            part: title
+          zh:
+            page: zh
+            section: s-803210aa8f
+            part: title
+        sourceIds:
+          - primary-pmc10695108-37vnq
+        text:
+          en:
+            page: en
+            section: s-b0ba26cd7b
+            part: body
+          zh:
+            page: zh
+            section: s-803210aa8f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dryophytes suweonensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/37VNQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1579; Reference.csv rows 3028
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2331; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2331 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10215353-37vnq
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dryophytes suweonensis: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10695108-37vnq
+        referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dryophytes suweonensis: XML Abstract, Methods, Results including Tables1–2 and Figure captions, Discussion and Conclusion read; original recordings, per-individual data and supplementary pairwise tests not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ecdd509ce9
+        part: body
+      zh:
+        page: zh
+        section: s-287bfaef3c
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-89940cc18410a9ddb8d0449c
+        scientificName: Dryophytes suweonensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani13101593
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        sourceKey: primary-pmc10215353-37vnq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10215353/article.xml
+        sourceConcept: Dryophytes suweonensis reference as listed in Table1
+        evidenceRead: "Dryophytes suweonensis: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: An accession-bounded reference in the 2023 study
+              zh: 2023年研究中受序列号限定的参考
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-37vnq
+            locator: PMC10215353 XML Table1 named/accession rows; sec2dot5 paragraph1; sec3dot6 paragraph1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a7d85d8a53
+                part: body
+              zh:
+                page: zh
+                section: s-c355cc4b0b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.16492
+        referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+        sourceKey: primary-pmc10695108-37vnq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10695108/article.xml
+        sourceConcept: 2023 Dryophytes suweonensis sensu lato; geographically labelled northern populations, not independently genotype-verified fixed concept
+        evidenceRead: "Dryophytes suweonensis: XML Abstract, Methods, Results including Tables1–2 and Figure captions, Discussion and Conclusion read; original recordings, per-individual data and supplementary pairwise tests not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Locality-specific recordings within a broad species concept
+              zh: 广义物种概念下的地点特定录音
+            referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+            sourceKey: primary-pmc10695108-37vnq
+            locator: PMC10695108 XML Methods paragraphs1–2; Figure1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aa4eeabe03
+                part: body
+              zh:
+                page: zh
+                section: s-3df556ff5c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Population means describe notes rather than species limits
+              zh: 种群均值描述音符而非物种极限
+            referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+            sourceKey: primary-pmc10695108-37vnq
+            locator: PMC10695108 XML Methods paragraph2; Results population-level properties/Table2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-399b9361ed
+                part: body
+              zh:
+                page: zh
+                section: s-812ace1210
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: Call variation motivates further integrated taxonomy
+              zh: 鸣声变异提示继续综合分类研究
+            referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+            sourceKey: primary-pmc10695108-37vnq
+            locator: PMC10695108 XML Results population comparisons; Discussion paragraphs1–3; Conclusion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2b137e2a72
+                part: body
+              zh:
+                page: zh
+                section: s-e57e19f205
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Temperature and roadside noise are separate claims
+              zh: 温度与道路噪声为不同陈述
+            referenceId: ref-25864b64-1a4b-4767-a72e-c2ec3ce28851
+            sourceKey: primary-pmc10695108-37vnq
+            locator: PMC10695108 XML Methods paragraph1; Discussion finalparagraph
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b846eb5386
+                part: body
+              zh:
+                page: zh
+                section: s-389e401eb0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

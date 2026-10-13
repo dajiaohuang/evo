@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Eurycea sphagnicola
+    name:
+      en: Eurycea sphagnicola
+      zh: Eurycea sphagnicola
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Eurycea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Eurycea sphagnicola in the morphology deposit
+          zh: 形态数据中的 Eurycea sphagnicola 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ebce1cdf5e
+            part: body
+          zh:
+            page: zh
+            section: s-b19ab29632
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 127: measurement fields and sex codes"
+          zh: 第 127 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-152fdea56c
+            part: body
+          zh:
+            page: zh
+            section: s-f2f7cdbb5a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 127; Reference.csv rows 4196
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 127
+        values:
+          - Plethodontidae
+          - Eurycea
+          - Eurycea sphagnicola
+          - NA
+          - "54.17661098"
+          - "22.7"
+          - NA
+          - NA
+          - "5.448"
+          - "3.0191"
+          - "1.5436"
+          - "1.4301"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "31.47661098"
+          - "1.9295"
+          - NA
+          - "2.27"
+          - NA
+          - "5.4707"
+          - "6.4468"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.4301"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4196
+        values:
+          - Caudata
+          - Eurycea_sphagnicola
+          - "Wray, K. P., Means, D. B., & Steppan, S. J. (2017). Revision of the Eurycea quadridigitata (Holbrook 1842) complex of Dwarf Salamanders (Caudata: Plethodontidae: Hemidactyliinae) with a description of two new species. Herpetological Monographs, 31, 18–46. https://doi.org/10.1655/herpmonographs-d-16-00011"
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - HL
+      - HW
+      - IOD
+      - ED
+      - TL
+      - TW
+      - TAH
+      - FLL
+      - HLL
+      - ELL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3D3HR
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

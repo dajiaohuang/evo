@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropotes utahicki Hershkovitz, 1985
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Uta Hick's Bearded Saki
+      zh: 乌塔·希克胡须僧面猴
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-4348298bc6
+            part: body
+          zh:
+            page: zh
+            section: s-35fe54a67d
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd
+      - topic: habitatSurvey
+        text:
+          en:
+            page: en
+            section: s-d24a378d03
+            part: body
+          zh:
+            page: zh
+            section: s-a9132a9726
+            part: body
+        sourceIds:
+          - habitat1998
+      - topic: islandDiet
+        text:
+          en:
+            page: en
+            section: s-accf56efc5
+            part: body
+          zh:
+            page: zh
+            section: s-2f26b4049d
+            part: body
+        sourceIds:
+          - feeding2002
+          - feeding2013
+    sources:
+      - id: taxonomy
+        referenceId: ref-67f57a53-2403-87f8-a094-4cd97f636441
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins the accepted species name, authorship, rank and genus parent under COL26.8 ID 84HTH.
+            zh: 固定 COL26.8 下接受种名、作者、等级及属级父链（ID 84HTH）。
+      - id: mdd
+        referenceId: ref-671c6873-ad9f-8fe3-aa57-d0bf8c40c822
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common name, Brazil country record and the note on the accepted spelling utahicki.
+            zh: 支持英文普通名、巴西国家记录，以及接受拼法 utahicki 的说明。
+      - id: habitat1998
+        referenceId: ref-c36343f4-c639-8291-a681-0b328b89e531
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Primary 1996 line-transect comparison at two Xingu–Tocantins sites; source uses the historical trinomial and unequal survey effort.
+            zh: Xingu–Tocantins 两地的 1996 年样线比较一手资料；原文使用历史三名法且调查努力不等。
+      - id: feeding2002
+        referenceId: ref-ffe05667-41f1-8291-a697-cf6580cd927f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Master’s thesis abstract on one 24-member group at Germoplasma Island, including scan-sample and diet records.
+            zh: 关于 Germoplasma Island 一个 24 只群体的硕士论文摘要，含扫描取样和食性记录。
+      - id: feeding2013
+        referenceId: ref-49b6da98-3f82-85eb-a223-dd7139937b00
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Compares diet observations from the same island group in 2001 and 2004; local and period-bounded.
+            zh: 比较同一岛上群体在 2001 与 2004 年的食性观察；仅限当地和采样期。
+    limitations:
+      en:
+        page: en
+        section: s-6f5bd0894e
+        part: body
+      zh:
+        page: zh
+        section: s-ecef60053d
+        part: body

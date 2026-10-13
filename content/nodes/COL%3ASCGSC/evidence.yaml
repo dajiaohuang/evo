@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis resistencia Ortega, Brito-M. & Ron, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis resistencia
+      zh: Pristimantis resistencia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8227d0ace6
+            part: title
+          zh:
+            page: zh
+            section: s-223b901e49
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8227d0ace6
+            part: body
+          zh:
+            page: zh
+            section: s-223b901e49
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-25842afd75
+            part: title
+          zh:
+            page: zh
+            section: s-b4415641c8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-25842afd75
+            part: body
+          zh:
+            page: zh
+            section: s-b4415641c8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4c76cdc0dd
+            part: title
+          zh:
+            page: zh
+            section: s-801b18bf1e
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scgsc
+        text:
+          en:
+            page: en
+            section: s-4c76cdc0dd
+            part: body
+          zh:
+            page: zh
+            section: s-801b18bf1e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f061d9ff6c
+            part: title
+          zh:
+            page: zh
+            section: s-0bb71d1834
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scgsc
+        text:
+          en:
+            page: en
+            section: s-f061d9ff6c
+            part: body
+          zh:
+            page: zh
+            section: s-0bb71d1834
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-1528abc140
+            part: title
+          zh:
+            page: zh
+            section: s-2196f025dc
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scgsc
+        text:
+          en:
+            page: en
+            section: s-1528abc140
+            part: body
+          zh:
+            page: zh
+            section: s-2196f025dc
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis resistencia
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCGSC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9583859-scgsc
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis resistencia: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6402b82efc
+        part: body
+      zh:
+        page: zh
+        section: s-bd5b73b9a0
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.13761
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        sourceKey: primary-pmc9583859-scgsc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9583859/article.xml
+        sourceConcept: Pristimantis resistencia
+        evidenceRead: "Pristimantis resistencia: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Small sex samples and a sometimes inconspicuous fold
+              zh: 小性别样本及有时不明显的褶
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scgsc
+            locator: PMC9583859 reading-sections section 1, paragraph 66
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bff657eb66
+                part: body
+              zh:
+                page: zh
+                section: s-2b307900cf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Ankaku cloud-forest nighttime perches
+              zh: Ankaku 云雾林夜间栖位
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scgsc
+            locator: PMC9583859 reading-sections section 1, paragraph 73
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ece1d760a1
+                part: body
+              zh:
+                page: zh
+                section: s-6bc84daca2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: Nearby deforestation and a dated recommendation
+              zh: 附近砍伐及有年代建议
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scgsc
+            locator: PMC9583859 reading-sections section 1, paragraph 74
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7d93dffbcf
+                part: body
+              zh:
+                page: zh
+                section: s-8c7167bbf1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

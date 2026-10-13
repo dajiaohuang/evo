@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus manauensis
+  displayName: Atelopus manauensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LJNJM
+  sourceIndexes:
+    - name:
+        en: Atelopus manauensis
+        zh: Atelopus manauensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LJNJM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/278
+            queryName: Atelopus manauensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f8b228b867
+      - s-7e2d4a21a6
+      - s-756bc12699
+      - s-0ee19507f2
+      - s-c9ddeb5e99
+      - s-60a4ddb303
+    zh:
+      - s-c3835c27d1
+      - s-ef0f557916
+      - s-534234f27a
+      - s-e52598fd8c
+      - s-43cd6d3443
+      - s-fb2fc81efc

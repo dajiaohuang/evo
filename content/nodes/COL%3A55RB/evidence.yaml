@@ -1,0 +1,309 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Isthmura Dubois & Raffaelli, 2012
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Isthmura
+      zh: Isthmura
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0166fda516
+            part: title
+          zh:
+            page: zh
+            section: s-1306575acd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0166fda516
+            part: body
+          zh:
+            page: zh
+            section: s-1306575acd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-90e3faf255
+            part: title
+          zh:
+            page: zh
+            section: s-1bf9fbb11a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-90e3faf255
+            part: body
+          zh:
+            page: zh
+            section: s-1bf9fbb11a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b5461b8c7e
+            part: title
+          zh:
+            page: zh
+            section: s-ba6111cfb2
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3QD9P
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QD9P
+            label:
+              en: Isthmura bellii
+              zh: Isthmura bellii
+          - kind: catalogue
+            colId: 3QD9Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QD9Q
+            label:
+              en: Isthmura boneti
+              zh: Isthmura boneti
+          - kind: catalogue
+            colId: 3QD9R
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QD9R
+            label:
+              en: Isthmura corrugata
+              zh: Isthmura corrugata
+          - kind: catalogue
+            colId: 3QD9S
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QD9S
+            label:
+              en: Isthmura gigantea
+              zh: Isthmura gigantea
+          - kind: catalogue
+            colId: 3QD9T
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QD9T
+            label:
+              en: Isthmura maxima
+              zh: Isthmura maxima
+          - kind: catalogue
+            colId: 6NBKG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6NBKG
+            label:
+              en: Isthmura naucampatepetl
+              zh: Isthmura naucampatepetl
+          - kind: catalogue
+            colId: 3QD9W
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QD9W
+            label:
+              en: Isthmura sierraoccidentalis
+              zh: Isthmura sierraoccidentalis
+        text:
+          en:
+            page: en
+            section: s-b5461b8c7e
+            part: body
+          zh:
+            page: zh
+            section: s-ba6111cfb2
+            part: body
+      - topic: occurrence
+        sourceIds:
+          - primary-direct-group-pmc12070909-55rb
+        title:
+          en:
+            page: en
+            section: s-e84669a52e
+            part: title
+          zh:
+            page: zh
+            section: s-7dcf360a01
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e84669a52e
+            part: body
+          zh:
+            page: zh
+            section: s-7dcf360a01
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc12070909-55rb
+        title:
+          en:
+            page: en
+            section: s-575f150b89
+            part: title
+          zh:
+            page: zh
+            section: s-11c261f09b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-575f150b89
+            part: body
+          zh:
+            page: zh
+            section: s-11c261f09b
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc12070909-55rb
+        title:
+          en:
+            page: en
+            section: s-d1f9c4aa42
+            part: title
+          zh:
+            page: zh
+            section: s-3cc7c14090
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3QD9W
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QD9W
+            label:
+              en: Isthmura sierraoccidentalis
+              zh: Isthmura sierraoccidentalis
+        text:
+          en:
+            page: en
+            section: s-d1f9c4aa42
+            part: body
+          zh:
+            page: zh
+            section: s-3cc7c14090
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Isthmura
+          url: https://www.checklistbank.org/dataset/316115/taxon/55RB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-direct-group-pmc12070909-55rb
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Anaxyrus cognatus: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 selected checklist entries; regional occurrence and dated assessments, not complete genus coverage.
+            zh: 1 个所选名册条目；区域出现及有日期评估，不是全属覆盖。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7a33e033a9
+        part: body
+      zh:
+        page: zh
+        section: s-ee423f8282
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-direct-group-pmc12070909-55rb
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 Sierra Madre Occidental checklist names linked by exact names or recorded frozen catalogue accepted-links; specimen identities not independently certified
+        evidenceRead: "Anaxyrus cognatus: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional checklist routes preserve source names and sampling limits
+              zh: 区域名册路径保留来源名称及取样限制
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-direct-group-pmc12070909-55rb
+            locator: PMC12070909 XML Methods2.1–2.2; Table1 amphibian rows; archived sierra-madre-amphibian-rows.json and col26.8-name-bridges.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bf5b9837d2
+                part: body
+              zh:
+                page: zh
+                section: s-9b19994f00
+                part: body
+            scope:
+              en: 1 selected checklist entries; regional occurrence and dated assessments, not complete genus coverage.
+              zh: 1 个所选名册条目；区域出现及有日期评估，不是全属覆盖。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Endemism and risk categories retain their original evidence boundaries
+              zh: 特有性及风险类别保留原证据边界
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-direct-group-pmc12070909-55rb
+            locator: PMC12070909 XML Table1 caption; Results/Discussion3.2–3.4; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2470abbd0c
+                part: body
+              zh:
+                page: zh
+                section: s-5381ff9d29
+                part: body
+            scope:
+              en: 1 selected checklist entries; regional occurrence and dated assessments, not complete genus coverage.
+              zh: 1 个所选名册条目；区域出现及有日期评估，不是全属覆盖。
+    primaryResearchGroupSynthesisComplete: false

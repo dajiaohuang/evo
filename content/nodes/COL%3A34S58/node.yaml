@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus elianeae
+  displayName: Dendropsophus elianeae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S58
+  sourceIndexes:
+    - name:
+        en: Dendropsophus elianeae
+        zh: Dendropsophus elianeae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S58
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/362
+            queryName: Dendropsophus elianeae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/325
+            queryName: Hyla elianeae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e9ccb3d353
+      - s-5852c83853
+      - s-b6eaaf3db6
+      - s-46629f0b62
+      - s-749dd354be
+      - s-860e230108
+      - s-e777c6eb84
+      - s-2c2ffa7666
+      - s-888d73d5ee
+      - s-86f364dad6
+      - s-b2530673da
+      - s-157193c910
+      - s-2a5f525912
+      - s-9a21075353
+      - s-690803249d
+      - s-9c0d9e50c3
+      - s-c9b12ffc01
+    zh:
+      - s-a7afdef29e
+      - s-0879a58832
+      - s-cc4464875b
+      - s-c1d34905e3
+      - s-54e1dbbe3d
+      - s-4b847f27e5
+      - s-76c781bf08
+      - s-26f8fd9eb4
+      - s-faf877fd37
+      - s-84c9eda6da
+      - s-8abcb4323e
+      - s-19eadbf6fd
+      - s-88998f2652
+      - s-9090cf790d
+      - s-60854951e7
+      - s-0a8ec866eb
+      - s-821411dfdf

@@ -1,0 +1,550 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phyllomedusa burmeisteri Boulenger, 1882
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phyllomedusa burmeisteri
+      zh: Phyllomedusa burmeisteri
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fa7867f2a2
+            part: title
+          zh:
+            page: zh
+            section: s-e182cc57de
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fa7867f2a2
+            part: body
+          zh:
+            page: zh
+            section: s-e182cc57de
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9332340471
+            part: title
+          zh:
+            page: zh
+            section: s-92d1bda8fe
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9332340471
+            part: body
+          zh:
+            page: zh
+            section: s-92d1bda8fe
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cc3dc7728a
+            part: title
+          zh:
+            page: zh
+            section: s-f38144c60e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-cc3dc7728a
+            part: body
+          zh:
+            page: zh
+            section: s-f38144c60e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-63c6a5ea6f464ceefaa9138780b25629
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-522edcce177fc636b44ca1ed
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-7cc133eead1d901a93cafa25
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f1c12bb10a
+            part: title
+          zh:
+            page: zh
+            section: s-19f25f3159
+            part: title
+        sourceIds:
+          - primary-pmc10688756-6vg3c
+        text:
+          en:
+            page: en
+            section: s-f1c12bb10a
+            part: body
+          zh:
+            page: zh
+            section: s-19f25f3159
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8577cc6018
+            part: title
+          zh:
+            page: zh
+            section: s-493df08c17
+            part: title
+        sourceIds:
+          - primary-pmc10688756-6vg3c
+        text:
+          en:
+            page: en
+            section: s-8577cc6018
+            part: body
+          zh:
+            page: zh
+            section: s-493df08c17
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f5d286a5dc
+            part: title
+          zh:
+            page: zh
+            section: s-e5aa528609
+            part: title
+        sourceIds:
+          - primary-pmc10688756-6vg3c
+        text:
+          en:
+            page: en
+            section: s-f5d286a5dc
+            part: body
+          zh:
+            page: zh
+            section: s-e5aa528609
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-aecd0ac021
+            part: title
+          zh:
+            page: zh
+            section: s-9345539058
+            part: title
+        sourceIds:
+          - primary-pmc13215752-6vg3c
+        text:
+          en:
+            page: en
+            section: s-aecd0ac021
+            part: body
+          zh:
+            page: zh
+            section: s-9345539058
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-264c9907a4
+            part: title
+          zh:
+            page: zh
+            section: s-b709530b99
+            part: title
+        sourceIds:
+          - primary-pmc13215752-6vg3c
+        text:
+          en:
+            page: en
+            section: s-264c9907a4
+            part: body
+          zh:
+            page: zh
+            section: s-b709530b99
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-be7aa3f0a0
+            part: title
+          zh:
+            page: zh
+            section: s-cfed2134e4
+            part: title
+        sourceIds:
+          - primary-pmc13215752-6vg3c
+        text:
+          en:
+            page: en
+            section: s-be7aa3f0a0
+            part: body
+          zh:
+            page: zh
+            section: s-cfed2134e4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phyllomedusa burmeisteri
+          url: https://www.checklistbank.org/dataset/316115/taxon/6VG3C
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2989; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2989 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2383; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 2889, 2933; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc10688756-6vg3c
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phyllomedusa burmeisteri: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc13215752-6vg3c
+        referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phyllomedusa burmeisteri: XML sec2-1 bibliographic methods, sec2-2 host nomenclature/complexes, sec2-3 geographical definitions; all sec3 numbered species headings, host/locality paragraphs, molecular metadata, citations and remarks through row333; sec4-1–sec4-3 discussion inspected. Figures only captions inspected; supplementary Table S1 not retrieved/read. Original cited reports, vouchers, sequences and experimental life-cycle studies not independently reassessed. Source totals contain internal inconsistencies; no full-article certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4bf2e959ac
+        part: body
+      zh:
+        page: zh
+        section: s-61a314ee56
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-6vg3c
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Phyllomedusa_burmeisteri, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Phyllomedusa burmeisteri: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-6vg3c
+            locator: PMC10688756 S3 File Traits row 285 Phyllomedusa_burmeisteri; XML Functional diversity; upstream reference numbers 1, 2, 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5bf2f3a00d
+                part: body
+              zh:
+                page: zh
+                section: s-796eceb2a3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-6vg3c
+            locator: PMC10688756 S3 File Traits row 285 Phyllomedusa_burmeisteri habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-60aa183149
+                part: body
+              zh:
+                page: zh
+                section: s-5a094af4c9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-6vg3c
+            locator: PMC10688756 S3 File Traits row 285 Phyllomedusa_burmeisteri length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-df2ad6d2ab
+                part: body
+              zh:
+                page: zh
+                section: s-4de40529b1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1017/S0031182025101364
+        referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+        sourceKey: primary-pmc13215752-6vg3c
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13215752/article.xml
+        sourceConcept: Exact written host-name match only; compiled historical records not original-voucher/current-concept authentication
+        evidenceRead: "Phyllomedusa burmeisteri: XML sec2-1 bibliographic methods, sec2-2 host nomenclature/complexes, sec2-3 geographical definitions; all sec3 numbered species headings, host/locality paragraphs, molecular metadata, citations and remarks through row333; sec4-1–sec4-3 discussion inspected. Figures only captions inspected; supplementary Table S1 not retrieved/read. Original cited reports, vouchers, sequences and experimental life-cycle studies not independently reassessed. Source totals contain internal inconsistencies; no full-article certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Original bilingual factual summaries of a bibliographic parasite checklist, with exact host-entry locators and historical identity limits; no source tables or figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Molineid nematodes in a regional literature checklist
+              zh: 区域文献清单中的毛圆线虫关联
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-6vg3c
+            locator: PMC13215752 XML sec3 direct-child rows 243; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cf3e9070d4
+                part: body
+              zh:
+                page: zh
+                section: s-1948ca106f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Reported parasite localities and their limits
+              zh: 寄生记录地点及其限制
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-6vg3c
+            locator: PMC13215752 XML sec3 direct-child rows 243; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0451798d27
+                part: body
+              zh:
+                page: zh
+                section: s-5ddf1dc1a4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: What the bibliographic survey can establish
+              zh: 文献调查能支持什么结论
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-6vg3c
+            locator: PMC13215752 XML sec2-1–sec2-3; PMC13215752 XML sec3 direct-child rows 243; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-23a9eb4217
+                part: body
+              zh:
+                page: zh
+                section: s-97c219b294
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

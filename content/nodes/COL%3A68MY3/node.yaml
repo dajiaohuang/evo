@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla gouveai
+  displayName: Bokermannohyla gouveai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68MY3
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla gouveai
+        zh: Bokermannohyla gouveai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68MY3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/55
+            queryName: Bokermannohyla gouveai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/337
+            queryName: Hyla gouveai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/279
+            queryName: Boana gouveai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba5adb3cfb
+      - s-825da9fbcd
+      - s-c7c2ba0bde
+      - s-4dc0929af9
+      - s-981da285d6
+      - s-0f5b3ff225
+      - s-727dcc62cb
+      - s-6e6b2562ec
+      - s-f1c5cdb6f7
+      - s-dba0737b49
+      - s-ecdf89f2d3
+      - s-e420038cf7
+      - s-0c81bc4482
+      - s-faadc2f12c
+      - s-c0406c6ea8
+      - s-211b8c6286
+      - s-1082ba66db
+      - s-6c031d523d
+    zh:
+      - s-926555b19e
+      - s-4ea38dabdd
+      - s-aa0c0413b3
+      - s-872e539d76
+      - s-c903af1a0c
+      - s-6fa58a1253
+      - s-fae4b4839c
+      - s-ef41331f1f
+      - s-9315e8c444
+      - s-502167adb9
+      - s-dd4d5e6f53
+      - s-8b26fff93b
+      - s-9556212397
+      - s-0418846e16
+      - s-3557f1aba8
+      - s-598b55c245
+      - s-e42161026d
+      - s-e24fb6e5e3

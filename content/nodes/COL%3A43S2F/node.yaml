@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mixophyes coggeri
+  displayName: Mixophyes coggeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/43S2F
+  sourceIndexes:
+    - name:
+        en: Mixophyes coggeri
+        zh: Mixophyes coggeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 43S2F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/125
+            queryName: Mixophyes coggeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b823cc94c2
+      - s-c41926cf4c
+      - s-fe9292e0de
+      - s-87ecf6313e
+      - s-46037a8fa3
+      - s-fd2b9e86e6
+      - s-9b197367b9
+      - s-a55d042230
+      - s-a9c4156d2f
+      - s-e95aebb111
+      - s-a2a95cd740
+    zh:
+      - s-198d6945cb
+      - s-c402b00a4d
+      - s-cc02035bfd
+      - s-98ba5db934
+      - s-efbb133087
+      - s-8b9de6cd33
+      - s-80dc042fdd
+      - s-9ce92449a8
+      - s-2201939c94
+      - s-f9af2a31bf
+      - s-f970e95545

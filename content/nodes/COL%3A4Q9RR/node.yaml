@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena taenioscelis
+  displayName: Ptychadena taenioscelis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9RR
+  sourceIndexes:
+    - name:
+        en: Ptychadena taenioscelis
+        zh: Ptychadena taenioscelis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9RR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/2
+            queryName: Ptychadena taenioscelis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/330
+            queryName: Ptychadena taeioscelis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/331
+            queryName: Rana taenioscelis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/332
+            queryName: Ptychadena smithi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/28
+            queryName: Ptychadena pumilio taenioscelis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c296232ca
+      - s-e9891e1a76
+      - s-d9f659004d
+      - s-6e2a409291
+      - s-23985ea33f
+      - s-ef0c670ab2
+      - s-8f8d571f4a
+      - s-e2661e710a
+      - s-eb1cc76cd7
+      - s-234542df56
+      - s-c83fec629b
+      - s-67200c61fd
+      - s-a947507722
+      - s-723b5e3b91
+      - s-4d1e22bb5a
+      - s-fef74dfa3d
+      - s-854eb9f03b
+      - s-eaa6c18634
+      - s-2261669c70
+      - s-9832956a71
+      - s-b1bf5e1e2e
+      - s-188abc0457
+      - s-de10efe6d2
+      - s-9269e6bb42
+    zh:
+      - s-c961fff056
+      - s-64b128c676
+      - s-72dafc403e
+      - s-a8ec1266ee
+      - s-578e51b93c
+      - s-e2e1a3f54f
+      - s-fd71a1ee5f
+      - s-c46603d01f
+      - s-dbb0699c12
+      - s-54b1332910
+      - s-a5612cadc3
+      - s-69288aafff
+      - s-100387df4d
+      - s-26d7a900a9
+      - s-255e55fef7
+      - s-877cb72704
+      - s-19b4c6bf8e
+      - s-9175a5cdbd
+      - s-5692ac67d6
+      - s-70343916bb
+      - s-da17ccc3cf
+      - s-16aca76b4c
+      - s-d73acb84e6
+      - s-9112b2fa4f

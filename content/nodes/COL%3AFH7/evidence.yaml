@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pyxicephalidae Bonaparte, 1850
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Pyxicephalidae
+      zh: Pyxicephalidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ffce414956
+            part: title
+          zh:
+            page: zh
+            section: s-3ba8fa47ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ffce414956
+            part: body
+          zh:
+            page: zh
+            section: s-3ba8fa47ba
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-271831d8f2
+            part: title
+          zh:
+            page: zh
+            section: s-f728e5eb8b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-271831d8f2
+            part: body
+          zh:
+            page: zh
+            section: s-f728e5eb8b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-342aee95b2
+            part: title
+          zh:
+            page: zh
+            section: s-d5546516ec
+            part: title
+        text:
+          en:
+            page: en
+            section: s-342aee95b2
+            part: body
+          zh:
+            page: zh
+            section: s-d5546516ec
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f3fe92f5bc
+            part: title
+          zh:
+            page: zh
+            section: s-8024218373
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f3fe92f5bc
+            part: body
+          zh:
+            page: zh
+            section: s-8024218373
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-717a39f102
+            part: title
+          zh:
+            page: zh
+            section: s-5baea466ad
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: J99
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJ99
+            label:
+              en: Cacosterninae
+              zh: Cacosterninae
+          - kind: catalogue
+            colId: K8Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AK8Y
+            label:
+              en: Pyxicephalinae
+              zh: Pyxicephalinae
+        text:
+          en:
+            page: en
+            section: s-717a39f102
+            part: body
+          zh:
+            page: zh
+            section: s-5baea466ad
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pyxicephalidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/FH7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Pyxicephalidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9912828353
+        part: body
+      zh:
+        page: zh
+        section: s-679e4dd9f6
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Pyxicephalidae
+      sourceRowIds:
+        - Anf4638
+        - Anf4639
+        - Anf4640
+        - Anf4641
+        - Anf4642
+        - Anf4643
+        - Anf4644
+        - Anf4645
+        - Anf4646
+        - Anf4647
+        - Anf4648
+        - Anf4649
+        - Anf4650
+        - Anf4651
+        - Anf4652
+        - Anf4653
+        - Anf4654
+        - Anf4655
+        - Anf4656
+        - Anf4657
+        - Anf4658
+        - Anf4659
+        - Anf4660
+        - Anf4661
+        - Anf4662
+        - Anf4663
+        - Anf4664
+        - Anf4665
+        - Anf4666
+        - Anf4667
+        - Anf4668
+        - Anf4669
+        - Anf4670
+        - Anf4671
+        - Anf4672
+        - Anf4673
+        - Anf4674
+        - Anf4675
+        - Anf4676
+        - Anf4677
+        - Anf4678
+        - Anf4679
+        - Anf4680
+        - Anf4681
+        - Anf4682
+        - Anf4683
+        - Anf4684
+        - Anf4685
+        - Anf4686
+        - Anf4687
+        - Anf4688
+        - Anf4689
+        - Anf4690
+        - Anf4691
+        - Anf4692
+        - Anf4693
+        - Anf4694
+        - Anf4695
+        - Anf4696
+        - Anf4697
+        - Anf4698
+        - Anf4699
+        - Anf4700
+        - Anf4701
+        - Anf4702
+        - Anf4703
+        - Anf4704
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 13
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 57
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 56
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 14
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 8
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 52
+      currentConceptEquivalenceCertified: false

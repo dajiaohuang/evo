@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene ericsmithi
+  displayName: Centrolene ericsmithi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ML5L5
+  sourceIndexes:
+    - name:
+        en: Centrolene ericsmithi
+        zh: Centrolene ericsmithi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ML5L5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/182
+            queryName: Centrolene ericsmithi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d3f9937468
+      - s-eb2b6aa308
+      - s-0e77ce5d5c
+      - s-6c75b758ca
+      - s-5ebdb76e85
+      - s-43a8c35c30
+      - s-6cdde54fef
+      - s-c34b9b0269
+      - s-706461573a
+      - s-aee076ac6f
+      - s-b9f9d70e92
+      - s-2a43b2e79e
+      - s-6c02d66fb7
+      - s-9fc66eefc0
+      - s-e02e8085fd
+    zh:
+      - s-619fd86fd3
+      - s-06b90537b8
+      - s-617cfd7515
+      - s-3f5cd70c8d
+      - s-6dbd0519bf
+      - s-7236b42c18
+      - s-89d40fbe04
+      - s-cdecbb68eb
+      - s-9b24e1ae95
+      - s-f82a9b9a1a
+      - s-77e896765c
+      - s-bab25cf680
+      - s-06b41ed19f
+      - s-1440d9ab0c
+      - s-0512b45e15

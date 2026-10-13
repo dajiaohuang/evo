@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum boettgeri
+  displayName: Cacosternum boettgeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6MP
+  sourceIndexes:
+    - name:
+        en: Cacosternum boettgeri
+        zh: Cacosternum boettgeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6MP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/37
+            queryName: Cacosternum boettgeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/222
+            queryName: Arthroleptis boettgeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/223
+            queryName: Arthroleptis schebeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/274
+            queryName: Cacosternum boettgeri boettgeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c9a3b13c36
+      - s-1a91271829
+      - s-0782b5ba22
+      - s-7e6e2de6c0
+      - s-41a3aba0ce
+      - s-325dc74023
+      - s-8b49e1c0a4
+      - s-c95e04b40d
+      - s-8c03b200e9
+      - s-35bacd8a06
+      - s-3aaaad6440
+      - s-ec5e985b7d
+      - s-9d8782abf9
+      - s-f18099d4e6
+      - s-8926d4cd3f
+      - s-bf4ba50443
+      - s-2183924a8c
+    zh:
+      - s-46c9fb9da4
+      - s-cf3a2f6ce6
+      - s-5f46d4139c
+      - s-8be0108ccd
+      - s-70e6b6a66a
+      - s-837efd259f
+      - s-a84416b137
+      - s-fbec402b0c
+      - s-b48d36bcc1
+      - s-9eaef3b348
+      - s-9573757105
+      - s-02258c872e
+      - s-6a922539ca
+      - s-1604dff4c6
+      - s-ed2b7f998a
+      - s-b95f568de4
+      - s-ba5f97e77b

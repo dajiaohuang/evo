@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys liboensis
+  displayName: Boulenophrys liboensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5C4X
+  sourceIndexes:
+    - name:
+        en: Boulenophrys liboensis
+        zh: Boulenophrys liboensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5C4X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/360
+            queryName: Boulenophrys liboensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/257
+            queryName: Megophrys liboensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/258
+            queryName: Xenophrys liboensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/300
+            queryName: Panophrys liboensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6573a9f0af
+      - s-693da129f3
+      - s-2b47ba57c1
+      - s-d6622cbb97
+      - s-0bf19027a0
+      - s-16b1321da6
+      - s-b8e6012ffe
+      - s-5eea06b851
+      - s-9a5cb44078
+      - s-b208ed1661
+    zh:
+      - s-90b4393456
+      - s-358cb0ead0
+      - s-995171ce09
+      - s-f513871017
+      - s-363cca92c5
+      - s-833a86f960
+      - s-e6c55155ac
+      - s-c22539e7e1
+      - s-dfec792fbd
+      - s-b6ca939534

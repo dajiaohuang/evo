@@ -1,0 +1,1318 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Physalaemus cuvieri
+    name:
+      en: Physalaemus cuvieri
+      zh: Physalaemus cuvieri
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-eef998724f
+            part: body
+          zh:
+            page: zh
+            section: s-9fbc78ce40
+            part: body
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "228"
+        text:
+          en:
+            page: en
+            section: s-29f123d996
+            part: body
+          zh:
+            page: zh
+            section: s-6cd06ad882
+            part: body
+        sourceRowNumber: 188
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "250"
+        text:
+          en:
+            page: en
+            section: s-2f77846c67
+            part: body
+          zh:
+            page: zh
+            section: s-4cba8adf41
+            part: body
+        sourceRowNumber: 210
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 188, 189, 190, 191, 210, 211, 212, 213, 2892, 3989, 3990, 3991, 3992; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Anura
+      family: Leptodactylidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 188
+        values:
+          - "228"
+          - Patrice Pottier
+          - Bovo_2015
+          - Fisiologia térmica e balanço hídrico em anfíbios anuros
+          - "2015"
+          - "2"
+          - "Climbing The Atlantic Forest Mountains: Do Physiological Traits Of Amphibians Vary Along Elevational Gradients ?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Physalaemus_cuvieri_pop2
+          - Physalaemus_cuvieri_pop2_UTL_co1
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-23.3362"
+          - "-45.145917"
+          - "820"
+          - NA
+          - NA
+          - NA
+          - September_2011
+          - February_2014
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24.5"
+          - "2.5"
+          - "7"
+          - Acclimation time was taken as the mean of the range presented (6-8 days). Acclimation_temp was 22-27C so it was taken as 24.5 +/- 2.5C
+          - adults
+          - NA
+          - NA
+          - "1.845"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - body
+          - "25"
+          - "0.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - body_mass was taken as the mean of the range presented in Table 1
+          - "55"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "34.91038769"
+          - "3.235240812"
+          - "6"
+          - sd
+          - Data was digitised from figure 4. Sample sizes were taken as the total sample size across sites (reported in Table 1) divided by the number of sites for a given species.
+      - rowNumber: 189
+        values:
+          - "229"
+          - Patrice Pottier
+          - Bovo_2015
+          - Fisiologia térmica e balanço hídrico em anfíbios anuros
+          - "2015"
+          - "2"
+          - "Climbing The Atlantic Forest Mountains: Do Physiological Traits Of Amphibians Vary Along Elevational Gradients ?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Physalaemus_cuvieri_pop3
+          - Physalaemus_cuvieri_pop3_UTL_co1
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-23.23556"
+          - "-45.021944"
+          - "1022"
+          - NA
+          - NA
+          - NA
+          - September_2011
+          - February_2014
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24.5"
+          - "2.5"
+          - "7"
+          - Acclimation time was taken as the mean of the range presented (6-8 days). Acclimation_temp was 22-27C so it was taken as 24.5 +/- 2.5C
+          - adults
+          - NA
+          - NA
+          - "1.845"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - body
+          - "25"
+          - "0.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - body_mass was taken as the mean of the range presented in Table 1
+          - "55"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "35.51004952"
+          - "1.721115608"
+          - "6"
+          - sd
+          - Data was digitised from figure 4. Sample sizes were taken as the total sample size across sites (reported in Table 1) divided by the number of sites for a given species.
+      - rowNumber: 190
+        values:
+          - "230"
+          - Patrice Pottier
+          - Bovo_2015
+          - Fisiologia térmica e balanço hídrico em anfíbios anuros
+          - "2015"
+          - "2"
+          - "Climbing The Atlantic Forest Mountains: Do Physiological Traits Of Amphibians Vary Along Elevational Gradients ?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Physalaemus_cuvieri_pop4
+          - Physalaemus_cuvieri_pop4_UTL_co1
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-22.947417"
+          - "-45.74585"
+          - "550"
+          - NA
+          - NA
+          - NA
+          - September_2011
+          - February_2014
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24.5"
+          - "2.5"
+          - "7"
+          - Acclimation time was taken as the mean of the range presented (6-8 days). Acclimation_temp was 22-27C so it was taken as 24.5 +/- 2.5C
+          - adults
+          - NA
+          - NA
+          - "1.845"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - body
+          - "25"
+          - "0.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - body_mass was taken as the mean of the range presented in Table 1
+          - "55"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "36.41206187"
+          - "0.871029143"
+          - "6"
+          - sd
+          - Data was digitised from figure 4. Sample sizes were taken as the total sample size across sites (reported in Table 1) divided by the number of sites for a given species.
+      - rowNumber: 191
+        values:
+          - "231"
+          - Patrice Pottier
+          - Bovo_2015
+          - Fisiologia térmica e balanço hídrico em anfíbios anuros
+          - "2015"
+          - "2"
+          - "Climbing The Atlantic Forest Mountains: Do Physiological Traits Of Amphibians Vary Along Elevational Gradients ?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Physalaemus_cuvieri_pop5
+          - Physalaemus_cuvieri_pop5_UTL_co1
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-22.508533"
+          - "-45.149167"
+          - "1600"
+          - NA
+          - NA
+          - NA
+          - September_2011
+          - February_2014
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24.5"
+          - "2.5"
+          - "7"
+          - Acclimation time was taken as the mean of the range presented (6-8 days). Acclimation_temp was 22-27C so it was taken as 24.5 +/- 2.5C
+          - adults
+          - NA
+          - NA
+          - "1.845"
+          - NA
+          - mixed
+          - CTmax
+          - LRR
+          - body
+          - "25"
+          - "0.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - body_mass was taken as the mean of the range presented in Table 1
+          - "55"
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 4
+          - NA
+          - NA
+          - "34.90030934"
+          - "1.250233583"
+          - "6"
+          - sd
+          - Data was digitised from figure 4. Sample sizes were taken as the total sample size across sites (reported in Table 1) divided by the number of sites for a given species.
+      - rowNumber: 210
+        values:
+          - "250"
+          - Natalie_Claunch
+          - Bovo_2015
+          - Fisiologia térmica e balanço hídrico em anfíbios anuros
+          - "2015"
+          - "2"
+          - "Climbing The Atlantic Forest Mountains: Do Physiological Traits Of Amphibians Vary Along Elevational Gradients ?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Physalaemus_cuvieri_pop2
+          - Physalaemus_cuvieri_pop2_LTL_co1
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-23.3362"
+          - "-45.145917"
+          - "820"
+          - NA
+          - NA
+          - NA
+          - September_2011
+          - February_2014
+          - Species sampled between September and February each year
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24.5"
+          - NA
+          - "5"
+          - Acclimation temperature was taken as the mean of the range provided.
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "25"
+          - "0.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "55"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.656862745"
+          - "1.764705882"
+          - NA
+          - sd
+          - Sample size missing
+      - rowNumber: 211
+        values:
+          - "251"
+          - Natalie_Claunch
+          - Bovo_2015
+          - Fisiologia térmica e balanço hídrico em anfíbios anuros
+          - "2015"
+          - "2"
+          - "Climbing The Atlantic Forest Mountains: Do Physiological Traits Of Amphibians Vary Along Elevational Gradients ?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Physalaemus_cuvieri_pop3
+          - Physalaemus_cuvieri_pop3_LTL_co1
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-23.235556"
+          - "-45.021944"
+          - "1022"
+          - NA
+          - NA
+          - NA
+          - September_2011
+          - February_2014
+          - Species sampled between September and February each year
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24.5"
+          - NA
+          - "5"
+          - Acclimation temperature was taken as the mean of the range provided.
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "25"
+          - "0.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "55"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "7.205882353"
+          - "2.549019608"
+          - NA
+          - sd
+          - Sample size missing
+      - rowNumber: 212
+        values:
+          - "252"
+          - Natalie_Claunch
+          - Bovo_2015
+          - Fisiologia térmica e balanço hídrico em anfíbios anuros
+          - "2015"
+          - "2"
+          - "Climbing The Atlantic Forest Mountains: Do Physiological Traits Of Amphibians Vary Along Elevational Gradients ?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Physalaemus_cuvieri_pop4
+          - Physalaemus_cuvieri_pop4_LTL_co1
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-22.947417"
+          - "-45.74585"
+          - "550"
+          - NA
+          - NA
+          - NA
+          - September_2011
+          - February_2014
+          - Species sampled between September and February each year
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24.5"
+          - NA
+          - "5"
+          - Acclimation temperature was taken as the mean of the range provided.
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "25"
+          - "0.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "55"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "9.215686275"
+          - "0.784313725"
+          - NA
+          - sd
+          - Sample size missing
+      - rowNumber: 213
+        values:
+          - "253"
+          - Natalie_Claunch
+          - Bovo_2015
+          - Fisiologia térmica e balanço hídrico em anfíbios anuros
+          - "2015"
+          - "2"
+          - "Climbing The Atlantic Forest Mountains: Do Physiological Traits Of Amphibians Vary Along Elevational Gradients ?"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Physalaemus_cuvieri_pop5
+          - Physalaemus_cuvieri_pop5_LTL_co1
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-22.508533"
+          - "-45.149167"
+          - "1600"
+          - NA
+          - NA
+          - NA
+          - September_2011
+          - February_2014
+          - Species sampled between September and February each year
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "24.5"
+          - NA
+          - "5"
+          - Acclimation temperature was taken as the mean of the range provided.
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - body
+          - "25"
+          - "0.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "55"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "6.176470588"
+          - "3.480392157"
+          - NA
+          - sd
+          - Sample size missing
+      - rowNumber: 2892
+        values:
+          - "3203"
+          - Patrice Pottier
+          - Madalozzo_2018
+          - "Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia"
+          - "2018"
+          - "1"
+          - "Latitudinal variation of thermal tolerance limits and vulnerability to extreme temperatures in amphibians: the effects of microhabitats, seasonality and phylogeny"
+          - not_peer-reviewed
+          - NA
+          - English
+          - Physalaemus_cuvieri_pop13
+          - Physalaemus_cuvieri_pop13_UTL_co1
+          - Note that data for some species was already presented in Gutiérrez-Pesquera et al 2016
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - November_2014
+          - March_2017
+          - Geographical coordinates were not reported because too approximate (i.e. "Rio Grande do Sul state, 28-32°S")
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "3.5"
+          - acclimation_time was taken as the mean of the range presented (3-4 days)
+          - larvae
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (25-38)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1A
+          - NA
+          - NA
+          - "37.24"
+          - NA
+          - "15"
+          - NA
+          - n_trait was taken as 15 because authors state that they "analyzed a minimum of 15 individuals for all 60 species for each thermal tolerance limit". However, note that this may be an overestimate in some casesbecause they also state that "for some species we study a reduced sample because shortage of field collected tadpoles".
+      - rowNumber: 3989
+        values:
+          - "4414"
+          - Patrice Pottier
+          - Simon_et_al_2015
+          - "Upper thermal tolerance plasticity in tropical amphibian species from contrasting habitats: implications for warming impact prediction"
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/j.jtherbio.2014.12.008
+          - English
+          - Physalaemus_cuvieri_pop1
+          - Physalaemus_cuvieri_pop1_UTL_co1
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-23.6334"
+          - "-45.8667"
+          - "936"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Elevation estimated from https://latlongdata.com/elevation/
+          - NA
+          - NA
+          - "20.1"
+          - NA
+          - NA
+          - acclimated
+          - "18"
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - NA
+          - "33"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.905"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Ramping was taken as the mean of the range presented (0.88-0.93C/min)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - dataset
+          - NA
+          - NA
+          - "40.4375"
+          - "0.62915287"
+          - "16"
+          - sd
+          - Data was calculated from the raw data, which was obtained from the authors of the original study.
+      - rowNumber: 3990
+        values:
+          - "4415"
+          - Patrice Pottier
+          - Simon_et_al_2015
+          - "Upper thermal tolerance plasticity in tropical amphibian species from contrasting habitats: implications for warming impact prediction"
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/j.jtherbio.2014.12.008
+          - English
+          - Physalaemus_cuvieri_pop1
+          - Physalaemus_cuvieri_pop1_UTL_co2
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-23.6334"
+          - "-45.8667"
+          - "936"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Elevation estimated from https://latlongdata.com/elevation/
+          - NA
+          - NA
+          - "20.1"
+          - NA
+          - NA
+          - acclimated
+          - "18"
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - NA
+          - "33"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "30"
+          - "0.905"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Ramping was taken as the mean of the range presented (0.88-0.93C/min)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - dataset
+          - NA
+          - NA
+          - "41.92857143"
+          - "0.474631147"
+          - "14"
+          - sd
+          - Data was calculated from the raw data, which was obtained from the authors of the original study.
+      - rowNumber: 3991
+        values:
+          - "4416"
+          - Patrice Pottier
+          - Simon_et_al_2015
+          - "Upper thermal tolerance plasticity in tropical amphibian species from contrasting habitats: implications for warming impact prediction"
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/j.jtherbio.2014.12.008
+          - English
+          - Physalaemus_cuvieri_pop1
+          - Physalaemus_cuvieri_pop1_UTL_co3
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-23.6334"
+          - "-45.8667"
+          - "936"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Elevation estimated from https://latlongdata.com/elevation/
+          - NA
+          - NA
+          - "20.1"
+          - NA
+          - NA
+          - acclimated
+          - "18"
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - NA
+          - "33"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "20"
+          - "0.905"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Ramping was taken as the mean of the range presented (0.88-0.93C/min)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - dataset
+          - NA
+          - NA
+          - "39.90909091"
+          - "0.70064905"
+          - "11"
+          - sd
+          - Data was calculated from the raw data, which was obtained from the authors of the original study.
+      - rowNumber: 3992
+        values:
+          - "4417"
+          - Patrice Pottier
+          - Simon_et_al_2015
+          - "Upper thermal tolerance plasticity in tropical amphibian species from contrasting habitats: implications for warming impact prediction"
+          - "2015"
+          - NA
+          - NA
+          - peer-reviewed
+          - 10.1016/j.jtherbio.2014.12.008
+          - English
+          - Physalaemus_cuvieri_pop1
+          - Physalaemus_cuvieri_pop1_UTL_co4
+          - NA
+          - Anura
+          - Leptodactylidae
+          - Physalaemus cuvieri
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-23.6334"
+          - "-45.8667"
+          - "936"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Elevation estimated from https://latlongdata.com/elevation/
+          - NA
+          - NA
+          - "20.1"
+          - NA
+          - NA
+          - acclimated
+          - "18"
+          - NA
+          - larvae
+          - NA
+          - "30"
+          - NA
+          - "3"
+          - NA
+          - larvae
+          - NA
+          - "33"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - "30"
+          - "0.905"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. Ramping was taken as the mean of the range presented (0.88-0.93C/min)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - dataset
+          - NA
+          - NA
+          - "41.91666667"
+          - "0.194624736"
+          - "12"
+          - sd
+          - Data was calculated from the raw data, which was obtained from the authors of the original study.
+    originalStudyCitations:
+      - ref: Bovo_2015
+        title: Fisiologia térmica e balanço hídrico em anfíbios anuros
+        doi: NA
+        year: "2015"
+      - ref: Madalozzo_2018
+        title: "Variação latitudinal nos limites de tolerância e plasticidade térmica em anfíbios em um cenário de mudanças climáticas: efeito dos micro-habitats, sazonalidade e filogenia"
+        doi: NA
+        year: "2018"
+      - ref: Simon_et_al_2015
+        title: "Upper thermal tolerance plasticity in tropical amphibian species from contrasting habitats: implications for warming impact prediction"
+        doi: 10.1016/j.jtherbio.2014.12.008
+        year: "2015"
+    selectedEstimateRowNumbers:
+      - 188
+      - 210
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4HF9B
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

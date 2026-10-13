@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis caprifer
+  displayName: Pristimantis caprifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJBD
+  sourceIndexes:
+    - name:
+        en: Pristimantis caprifer
+        zh: Pristimantis caprifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJBD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/180
+            queryName: Pristimantis caprifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/295
+            queryName: Eleutherodactylus caprifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1751a5eb2e
+      - s-a18ec72916
+      - s-62d12867b6
+      - s-e8e9cf1797
+      - s-2eb6d465e2
+      - s-8d343e93ab
+      - s-57a5d33909
+      - s-77f61d4d89
+      - s-5b52fbca8a
+      - s-f2b79efe09
+      - s-26c55b8e4e
+      - s-cc41ccfb65
+      - s-b6575f65b4
+      - s-c79d92247e
+      - s-4f77039125
+      - s-a58e518aa5
+    zh:
+      - s-f54f1dc863
+      - s-84cc3d50bf
+      - s-8675cd7b66
+      - s-106e350be6
+      - s-3b7b176708
+      - s-96ea37025e
+      - s-0f26055ee9
+      - s-cd69c15826
+      - s-36ee87842d
+      - s-52a0cd0ff9
+      - s-d2541bd611
+      - s-2c1c3aeb8d
+      - s-58021ab59c
+      - s-660a14f8e4
+      - s-7057c74c0c
+      - s-73fba862ec

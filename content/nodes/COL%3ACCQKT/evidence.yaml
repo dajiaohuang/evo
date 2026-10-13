@@ -1,0 +1,74 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Arachnida
+    commonName: Arachnids
+    commonNameZh: 蛛形类
+    rank: class
+    taxonId: txn:19008
+    firstAppearance: 485
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:arachnida
+      claimKind: scientific
+      claimType: topology
+      statement: Phylogenomic analyses sample the major arachnid orders and expose systematic conflict among data partitions at deep nodes. The evidence supports a contested sampled topology, not one settled arachnid tree, direct ancestor or temporal origin.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond the evidence supports a contested sampled topology, not one settled arachnid tree, direct ancestor or temporal origin.
+      referenceLinks:
+        - relation: supports
+          referenceId: sharma-2014-arachnida-phylogenomics
+          pages: 2963–2984
+          figure: Figures 1–6; supplementary analyses
+          quoteLocator: Taxon and gene sampling; data-partition conflict; sensitivity analyses
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+  claim-statements.zh:
+    - 系统基因组分析抽样主要蛛形纲目级类群，并揭示深层节点在不同数据分区间存在系统冲突。这些证据支持的是有争议的抽样拓扑，而不是唯一确定的蛛形纲树、直接祖先或起源时间。
+  ranges:
+    - entityId: arachnida
+      rangeKind: global-composite
+      taxonomicConcept: Arachnida numerical range withheld because sampled phylogenies do not support one stable monophyletic concept
+      geographicScope: No defensible global numerical scope established
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Dense taxon sampling recovers Arachnida as paraphyletic, so 485 Ma cannot bound one agreed lineage.
+      evidenceBasis: The former 485–0 Ma display is withheld because topology studies do not establish its older endpoint and dense sampling contests Arachnida monophyly.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: contested
+      claimIds: []
+      referenceLocators:
+        - referenceId: ballesteros-2022-arachnida-paraphyly
+          locator: msac021; Figures 1–6; Supplementary analyses; Dense taxon sampling; Heterogeneous models; Total-evidence topology
+  catalogue-profile:
+    sections:
+      - topic: phylogeny
+        title:
+          en:
+            page: en
+            section: s-035c15e53f
+            part: title
+          zh:
+            page: zh
+            section: s-218a3b6262
+            part: title
+        sourceIds:
+          - sharma-2014-arachnida-phylogenomics
+          - ballesteros-2022-arachnida-paraphyly
+        text:
+          en:
+            page: en
+            section: s-035c15e53f
+            part: body
+          zh:
+            page: zh
+            section: s-218a3b6262
+            part: body

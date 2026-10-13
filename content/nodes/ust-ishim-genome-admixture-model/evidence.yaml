@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-b0d437c081
+      part: title
+    titleZh:
+      page: zh
+      section: s-6ac4d5c916
+      part: title
+    category: dispersal
+    startAge: 0.04688
+    endAge: 0.04321
+    regions:
+      - Irtysh River near Ust’-Ishim, western Siberia, Russia
+    clades:
+      - Homo sapiens
+      - Homo neanderthalensis
+      - Homo
+    summary:
+      page: en
+      section: s-b0d437c081
+      part: body
+    summaryZh:
+      page: zh
+      section: s-6ac4d5c916
+      part: body
+    claimIds:
+      - claim:event:ust-ishim-genome-admixture-model
+    evidenceItems:
+      - statement: Ust’-Ishim 1 was dated twice (OxA-25516 and OxA-30190), giving 46,880–43,210 cal BP at 95.4% probability; its sequence data are deposited as ENA PRJEB6622.
+        relation: supports
+        claimIds:
+          - claim:event:ust-ishim-genome-admixture-model
+        referenceLinks:
+          - referenceId: fu-2014-ust-ishim
+            relation: supports
+            pages: 445–449
+            figure: Figures 1–4; Extended Data Figures 1–9; Supplementary Information sections 1 and 14
+            quoteLocator: Direct dates, ENA accession and Neanderthal-ancestry tract analysis
+    uncertaintyItems:
+      - statement: Segment length supports an admixture interval 7,000–13,000 years before this individual under the paper’s recombination model; it does not identify a contact place, exact event count or all modern-human dispersals.
+        relation: contextualizes
+        claimIds:
+          - claim:event:ust-ishim-genome-admixture-model
+        referenceLinks:
+          - referenceId: fu-2014-ust-ishim
+            relation: supports
+            pages: 445–449
+            figure: Figures 1–4; Extended Data Figures 1–9; Supplementary Information sections 1 and 14
+            quoteLocator: Direct dates, ENA accession and Neanderthal-ancestry tract analysis
+  claims:
+    - subjectId: event:ust-ishim-genome-admixture-model
+      claimKind: scientific
+      claimType: biogeography
+      statement: The directly dated Ust’-Ishim 1 femur yielded genome PRJEB6622 with long Neanderthal-derived segments; the inferred 7–13 ka pre-individual admixture interval is a recombination model, not a directly observed contact event.
+      confidence: high
+      confidenceRationale: High confidence reflects replicated direct dating, high-coverage sequence data and identifiable ancestry segments while retaining timing, geography and number of contacts as model-dependent.
+      referenceLinks:
+        - referenceId: fu-2014-ust-ishim
+          relation: supports
+          pages: 445–449
+          figure: Figures 5–6; Supplementary Information sections 1 and 18
+          quoteLocator: Direct dates, ENA accession and Neanderthal-ancestry tract analysis
+  claim-rationales.zh:
+    - 高置信度来自重复直接测年、高覆盖度序列和可识别的祖源片段；接触年代、地点和次数仍依赖模型。
+  claim-statements.zh:
+    - 直接测年的 Ust’-Ishim 1 股骨产生了含长尼安德特来源片段的基因组 PRJEB6622；推断发生在该个体之前 7,000 至 13,000 年的混合区间来自重组模型，并非直接观察到的接触事件。

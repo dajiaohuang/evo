@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cophixalus iovaorum
+    name:
+      en: Cophixalus iovaorum
+      zh: Cophixalus iovaorum
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Cophixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1c186fd5ca
+            part: body
+          zh:
+            page: zh
+            section: s-c9e923aa35
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5dfcba8963
+            part: body
+          zh:
+            page: zh
+            section: s-6c942cf294
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1225, 1226; Reference.csv rows 305
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1225
+        values:
+          - Microhylidae
+          - Cophixalus
+          - Cophixalus iovaorum
+          - F
+          - "16.9"
+          - "5.239"
+          - "5.746"
+          - "2.028"
+          - "1.0985"
+          - NA
+          - NA
+          - "1.859"
+          - NA
+          - "1.0985"
+          - "2.197"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.098"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.4394"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.7098"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1226
+        values:
+          - Microhylidae
+          - Cophixalus
+          - Cophixalus iovaorum
+          - M
+          - "14.5"
+          - "4.785"
+          - "5.365"
+          - "2.03"
+          - "0.899"
+          - NA
+          - NA
+          - "1.74"
+          - NA
+          - "1.015"
+          - "1.885"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.525"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.377"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.6525"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 305
+        values:
+          - Anura
+          - Cophixalus_iovaorum
+          - "Kraus, F., & Allison, A. (2009). New species of Cophixalus (Anura: Microhylidae) from Papua New Guinea. Zootaxa(2128), 1-38.  https://doi.org/10.5281/zenodo.188300"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - SL
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - Y44B
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

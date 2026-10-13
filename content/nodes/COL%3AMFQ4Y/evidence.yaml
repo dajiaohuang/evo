@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropterotriton melipona Parra-Olea, García-Castillo, Rovito, Maisano, Hanken & Wake, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiropterotriton melipona
+      zh: Chiropterotriton melipona
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e730c09a0f
+            part: title
+          zh:
+            page: zh
+            section: s-791e28fe6a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e730c09a0f
+            part: body
+          zh:
+            page: zh
+            section: s-791e28fe6a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ac5db53f4c
+            part: title
+          zh:
+            page: zh
+            section: s-e430b9c335
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ac5db53f4c
+            part: body
+          zh:
+            page: zh
+            section: s-e430b9c335
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d16c843e12
+            part: title
+          zh:
+            page: zh
+            section: s-212d98ac40
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq4y
+        text:
+          en:
+            page: en
+            section: s-d16c843e12
+            part: body
+          zh:
+            page: zh
+            section: s-212d98ac40
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-eea39c7a27
+            part: title
+          zh:
+            page: zh
+            section: s-b3cbd5beca
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq4y
+        text:
+          en:
+            page: en
+            section: s-eea39c7a27
+            part: body
+          zh:
+            page: zh
+            section: s-b3cbd5beca
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3ebc2b4790
+            part: title
+          zh:
+            page: zh
+            section: s-da67758328
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq4y
+        text:
+          en:
+            page: en
+            section: s-3ebc2b4790
+            part: body
+          zh:
+            page: zh
+            section: s-da67758328
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bf9c17b099
+            part: title
+          zh:
+            page: zh
+            section: s-f840cfbdec
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq4y
+        text:
+          en:
+            page: en
+            section: s-bf9c17b099
+            part: body
+          zh:
+            page: zh
+            section: s-f840cfbdec
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-789bb716b4
+            part: title
+          zh:
+            page: zh
+            section: s-a9f77c514d
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq4y
+        text:
+          en:
+            page: en
+            section: s-789bb716b4
+            part: body
+          zh:
+            page: zh
+            section: s-a9f77c514d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiropterotriton melipona
+          url: https://www.checklistbank.org/dataset/316115/taxon/MFQ4Y
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7258950-mfq4y
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiropterotriton melipona: Named species type material, diagnosis, comparison conflicts, live/preserved colour, osteology and distribution/ecology paragraphs; no images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-50d2e5413a
+        part: body
+      zh:
+        page: zh
+        section: s-0bac3fb535
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.8800
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        sourceKey: primary-pmc7258950-mfq4y
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7258950/article.xml
+        sourceConcept: Chiropterotriton melipona
+        evidenceRead: "Chiropterotriton melipona: Named species type material, diagnosis, comparison conflicts, live/preserved colour, osteology and distribution/ecology paragraphs; no images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Type material and a separately counted adult sample
+              zh: 模式材料与单列成体样本
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq4y
+            locator: Results > Chiropterotriton melipona; reading-sections index 2, paragraphs 99–102
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4e13300980
+                part: body
+              zh:
+                page: zh
+                section: s-edb7312b44
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Long tails and a comparison-text conflict
+              zh: 长尾及比较文字冲突
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq4y
+            locator: Results > Chiropterotriton melipona; reading-sections index 2, paragraphs 102–105 and 108
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-13064cd099
+                part: body
+              zh:
+                page: zh
+                section: s-f4bbfa69a8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: A photographed referred animal and faded preserved types
+              zh: 拍摄参考个体及褪色保存模式标本
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq4y
+            locator: Results > Chiropterotriton melipona; reading-sections index 2, paragraphs 113–114
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-99eba7e23e
+                part: body
+              zh:
+                page: zh
+                section: s-4c899167e1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: morphology
+            heading:
+              en: One CT specimen with an explicit maturity caveat
+              zh: 一件 CT 标本及明确成熟度保留
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq4y
+            locator: Results > Chiropterotriton melipona; reading-sections index 2, paragraphs 115–117
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-19589eec79
+                part: body
+              zh:
+                page: zh
+                section: s-2c4dba90da
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: ecology
+            heading:
+              en: Northern Puebla plant encounters and a dated conservation proposal
+              zh: Puebla 北部植物遭遇及有日期保护提议
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq4y
+            locator: Results > Chiropterotriton melipona; reading-sections index 2, paragraphs 118 and 120
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dc635a65c7
+                part: body
+              zh:
+                page: zh
+                section: s-d8a13d8b32
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

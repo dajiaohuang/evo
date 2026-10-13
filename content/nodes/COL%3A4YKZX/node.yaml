@@ -1,0 +1,162 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaenorhynchus lacteus
+  displayName: Sphaenorhynchus lacteus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YKZX
+  sourceIndexes:
+    - name:
+        en: Sphaenorhynchus lacteus
+        zh: Sphaenorhynchus lacteus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YKZX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/235
+            queryName: Sphaenorhynchus lacteus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 29
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/5
+            queryName: Sphaenorhynchus eurhostus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/440
+            queryName: Dryomelictes aurantiacus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/258
+            queryName: Hyla lactea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/76
+            queryName: Rana aurantia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/77
+            queryName: Hyla aurantiaca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/78
+            queryName: Calamita aurantiacus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/79
+            queryName: Calamita lacteus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/80
+            queryName: Auletris aurantiaca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/81
+            queryName: Dryomelictes lactea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/82
+            queryName: Dendropsophus aurantiacus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/83
+            queryName: Scytopis aurantiacus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/84
+            queryName: Sphoenohyla aurantiaca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/85
+            queryName: Sphaenorhynchus aurantiacus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0677edc1c5
+      - s-271f4bec3b
+      - s-5390ae1b54
+      - s-17a942817b
+      - s-92c48b77fb
+      - s-a3052f0998
+      - s-8bdcc242ba
+      - s-c6f9aa1408
+      - s-cb7d52c874
+      - s-0084737878
+      - s-dfd149eb29
+      - s-0eaf12a288
+      - s-c70b18560b
+      - s-63cff5bc25
+      - s-cdd6b9f6c6
+      - s-e2042812d3
+      - s-d916a522b4
+      - s-e0bed499b2
+      - s-0817088e72
+    zh:
+      - s-cae8f2bf7c
+      - s-0ee5eb6b8c
+      - s-6b884c162f
+      - s-eeec840706
+      - s-a66094a9a3
+      - s-d214b9ce71
+      - s-9bb2100d7d
+      - s-2db7fcc301
+      - s-70758408a8
+      - s-a46047fadd
+      - s-468ccae8c2
+      - s-249751a37e
+      - s-5e162cf7c9
+      - s-698030596f
+      - s-9dda6b55f5
+      - s-07abaf4267
+      - s-02842f09a8
+      - s-13edb0df85
+      - s-b35a5e424c

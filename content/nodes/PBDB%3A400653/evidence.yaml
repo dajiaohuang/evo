@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Trypanognathus remigiusbergensis
+    rank: species
+    sourceTaxonId: txn:400653
+    name:
+      en: Trypanognathus remigiusbergensis
+      zh: Trypanognathus remigiusbergensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-a109818521
+            part: body
+          zh:
+            page: zh
+            section: s-ed9209de48
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-1404a14ec9
+            part: body
+          zh:
+            page: zh
+            section: s-f401c4bbd2
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-f53c1fe913
+            part: body
+          zh:
+            page: zh
+            section: s-42626ae8cd
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:400653; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. R. Schoch and S. Voigt. 2019. A dvinosaurian temnospondyl from the Carboniferous-Permian boundary of Germany sheds light on dvinosaurian phylogeny and distribution. Journal of Vertebrate Paleontology 39(1):e1577874
+    occurrenceEvidence:
+      - occurrenceId: occ:1642296
+        collectionId: col:109702
+        acceptedTaxonId: txn:400653
+        identifiedName: Trypanognathus remigiusbergensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:71198
+        bibliography: R. R. Schoch and S. Voigt. 2019. A dvinosaurian temnospondyl from the Carboniferous-Permian boundary of Germany sheds light on dvinosaurian phylogeny and distribution. Journal of Vertebrate Paleontology 39(1):e1577874
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatinate
+          county: Kusel
+        stratigraphy:
+          group: Rotliegend
+          formation: Remigiusberg
+          member: null
+        olderAgeMa: 303.7
+        youngerAgeMa: 293.52
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f53c1fe913
+            part: body
+          zh:
+            page: zh
+            section: s-42626ae8cd
+            part: body
+        sourceIds: []

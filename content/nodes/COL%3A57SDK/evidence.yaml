@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trachypithecus mauritius (Griffith, 1821)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 西爪哇叶猴
+      en: West Javan Langur
+    sections:
+      - topic: phylogenetic placement
+        text:
+          zh:
+            page: zh
+            section: s-107499a1ab
+            part: body
+          en:
+            page: en
+            section: s-4688cbd000
+            part: body
+        sourceIds:
+          - roos2008
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Trachypithecus mauritius (Griffith, 1821)
+          url: https://www.checklistbank.org/dataset/316115/taxon/57SDK
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-55b6dd13-9d63-83d0-a4a0-68a62c3d8b34
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 MDD 页面所列英文普通名和名称注记；固定物种身份仍按 COL26.8。
+            en: Supports the English common name and nomenclatural notes on the MDD page; the pinned species identity remains COL26.8.
+      - id: roos2008
+        referenceId: ref-777e74be-211c-8c28-a291-57167abb54f3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 573 bp 线粒体细胞色素 b 序列及 115 只样本（68 只来源地可知）的谱系结论和论文分类提案；不等于核基因组、完整种群地理或已解决的种界。
+            en: Supports the 573-bp mitochondrial cytochrome-b analysis of 115 langurs (68 of known origin) and the paper's taxonomic proposals; it is not nuclear-genome evidence, a complete population map, or a settled species limit.
+    limitations:
+      zh:
+        page: zh
+        section: s-5165e4de94
+        part: body
+      en:
+        page: en
+        section: s-e14907a750
+        part: body

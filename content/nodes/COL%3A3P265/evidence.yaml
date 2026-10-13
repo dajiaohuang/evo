@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hypoxis obtusa Burch. ex Ker Gawl.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3P265, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3P265; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3P265
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3P265
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000670082-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3P265 / WFO wfo-0000670082
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_16271_0
+        referenceId: ref-e0c7ba92-f7c3-8878-a954-e4c7c4c4781f
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Hypoxis obtusa Burch. ex Ker Gawl. account; SANBI/WFO archive rows 71890 (Morphology), 68633 (Habitat), source identifier 16271.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Perennial herb, 200-450 mm high; robust, growing singly. Rhizome subglobose, oblong or turbinate, 4-12 x 4-8 mm. Leaves 8-15, well developed at flowering, coriaceous, erect or recurving, arranged one above the other in 3 ranks, rigid, spirally twisting towards apex with age, waxy; blade lanceolate, sometimes linear-lanceolate, 100-700 x 6-30 mm; ribbed, bases sometimes red or purple; almost glabrous or hairy towards base, margins and midrib outlined in white by a thickened band of squat hairs (ciliate); hairs stellate. Flowers: 5-12-flowered, racemose, 2-5 per plant; perianth segments 10-20 x 6-10 mm, ovate-elliptic, yellow; Aug.- Feb. Fruit a capsule, 6-7 x 5-7 mm, opening by a circular slit."
+            textZh: Hypoxis obtusa Burch. ex Ker Gawl. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_16271_0
+            locator: "SANBI/WFO archive Morphology row 71890; source identifier 16271.0; cited publication: Singh, Y; Retief, E; Meyer, NL. 2017. Hypoxidaceae: Hypoxis L. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 927 - 933. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dry Grassland; Mesic Grassland. Grassland.
+            textZh: 该 SANBI 区域物种条目记录的生境：Dry Grassland; Mesic Grassland. Grassland.
+            sourceIds:
+              - sanbi_16271_0
+            locator: "SANBI/WFO archive Habitat row 68633; source identifier 16271.0; cited publication: Singh, Y; Retief, E; Meyer, NL. 2017. Hypoxidaceae: Hypoxis L. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 927 - 933. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

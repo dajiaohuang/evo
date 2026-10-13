@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-e83da33187
+      part: title
+    titleZh:
+      page: zh
+      section: s-18d0753e30
+      part: title
+    category: transition
+    startAge: 23
+    endAge: 23
+    regions:
+      - Pyramid Hill Sand Member, Jewett Sand, California, USA
+    clades:
+      - Pinnipedimorpha
+      - Enaliarctos
+    summary:
+      page: en
+      section: s-e83da33187
+      part: body
+    summaryZh:
+      page: zh
+      section: s-18d0753e30
+      part: body
+    claimIds:
+      - claim:event:enaliarctos-skeleton-swimming-model
+    evidenceItems:
+      - statement: LACM 4321 preserves a skull and much of the postcranial skeleton, allowing measured limb proportions and joint morphology to be compared with living pinnipeds and terrestrial carnivorans.
+        relation: supports
+        claimIds:
+          - claim:event:enaliarctos-skeleton-swimming-model
+        referenceLinks:
+          - referenceId: berta-ray-1990-enaliarctos
+            relation: supports
+            pages: 141–157
+            figure: Figures 1–8; Tables 1–6
+            quoteLocator: Skeletal description; Limb proportions; Locomotor interpretation
+          - referenceId: berta-ray-wyss-1989-enaliarctos
+            relation: supports
+            pages: 60–62
+            quoteLocator: "Abstract: nearly complete skeleton from California rocks, approximately 23 million years old"
+    uncertaintyItems:
+      - statement: Combined fore- and hind-limb propulsion and terrestrial competence are functional inferences from osteology; the specimen is not footage of locomotion, a direct ancestor or a global pinniped first appearance.
+        relation: contextualizes
+        claimIds:
+          - claim:event:enaliarctos-skeleton-swimming-model
+        referenceLinks:
+          - referenceId: berta-ray-1990-enaliarctos
+            relation: supports
+            pages: 141–157
+            figure: Figures 1–8; Tables 1–6
+            quoteLocator: Skeletal description; Limb proportions; Locomotor interpretation
+  claims:
+    - subjectId: event:enaliarctos-skeleton-swimming-model
+      claimKind: scientific
+      claimType: morphology
+      statement: LACM 4321 preserves enough cranial and postcranial anatomy to test locomotor capability in a stem pinniped; inferred swimming strokes and terrestrial performance remain comparative functional models.
+      confidence: medium
+      confidenceRationale: Enaliarctos skeleton and swimming model uses explicit named specimens or disclosed datasets, but placement, function or ecology depends on a sampled matrix or comparative model and is kept separate from observation.
+      referenceLinks:
+        - referenceId: berta-ray-1990-enaliarctos
+          relation: supports
+          pages: 141–157
+          figure: Figures 1–8; Tables 1–6
+          quoteLocator: Skeletal description; Limb proportions; Locomotor interpretation
+  claim-rationales.zh:
+    - “始海豹骨架与游泳模型”的具名标本或已公开数据集是明确的，但位置、功能或生态依赖采样矩阵或比较模型，且已与直接观察分开。
+  claim-statements.zh:
+    - LACM 4321 保存了足以检验一件鳍足类干群运动能力的颅骨和躯后骨骼解剖；推断的游泳划水方式与陆地活动能力仍属比较功能模型。

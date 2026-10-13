@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes flaviventris
+  displayName: Raorchestes flaviventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78SS2
+  sourceIndexes:
+    - name:
+        en: Raorchestes flaviventris
+        zh: Raorchestes flaviventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78SS2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/144
+            queryName: Raorchestes flaviventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/250
+            queryName: Philautus flaviventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/36
+            queryName: Ixalus flaviventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/37
+            queryName: Rhacophorus flaviventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/38
+            queryName: Pseudophilautus flaviventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/39
+            queryName: Raorchestes emeraldi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-50e6b02450
+      - s-7013028fa9
+      - s-25ef9ee963
+      - s-9c510f515a
+      - s-5430dce759
+      - s-37e77079e0
+      - s-93aedbcee0
+      - s-a5282e1481
+      - s-010b7e565f
+      - s-27d1779871
+      - s-c749101d3a
+    zh:
+      - s-f6fa816b88
+      - s-1bc692d8e4
+      - s-09d4a2346d
+      - s-03373c4102
+      - s-6226d29e8a
+      - s-2491b335d4
+      - s-5b178c72ce
+      - s-18c4c9c02d
+      - s-3bd84d2318
+      - s-2daa089aba
+      - s-f1f41eef6f

@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea macronyx G.J.Lewis
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 73PL2, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000784728.
+      scope: Moraea as represented by COL26.8 usage 73PL2. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/73PL2
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 73PL2
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784728-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 73PL2 / WFO wfo-0000784728
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-20d0ec4d-c325-85a0-a01a-cecb4d7f1682
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 7353 (Morphology), 26784 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 94166 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Acaulescent, cormous geophyte, mostly 9-15 cm. Leaves 3-5, slightly pilose. Flowers yellow and white, tepal claws longer than limbs, fragrant.
+            textZh: Moraea macronyx G.J.Lewis 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Morphology row 7353, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: Allied to the well-known and widespread Moraea ciliata and occurring entirely within the range of this species, M. macronyx can be distinguished by its larger flowers with the outer tepal claws one and a half to twice as long as the limbs. The larger outer tepals are 40-60 mm long with the claws 25-40 mm long and the style branches are ± 20 mm long with crests up to 25 mm long. The outer tepals of M. ciliata are mostly 25-35 mm long with the claws 12-15 mm long, thus about half as long as the limbs, and the style branches are typically 8-15 mm long. Vegetatively M. macronyx and M. ciliata are nearly identical although the corm tunics may differ, those of M. macronyx sometimes unusual in being entire and peculiarly soft, of an almost spongy, pith-like texture. Some populations, however, have fibrous corm tunics no different from those of M. ciliata.
+            textZh: SANBI 条目提供了 Moraea macronyx G.J.Lewis 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94166, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky sandstone slopes.
+            textZh: SANBI 区域植物志将 Moraea macronyx G.J.Lewis 的生境记为：Rocky sandstone slopes.
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Habitat row 26784, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

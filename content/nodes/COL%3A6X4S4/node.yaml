@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes marki
+  displayName: Raorchestes marki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X4S4
+  sourceIndexes:
+    - name:
+        en: Raorchestes marki
+        zh: Raorchestes marki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X4S4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/175
+            queryName: Raorchestes marki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/378
+            queryName: Philautus marki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/379
+            queryName: Pseudophilautus marki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7f96d5c434
+      - s-7913ff5ff0
+      - s-78f1332451
+      - s-123ce6866f
+      - s-9cfffcf86f
+      - s-8f76ff34bf
+      - s-3aabddc17b
+      - s-48b271797e
+      - s-02b0d78f70
+    zh:
+      - s-ecb1f17c5f
+      - s-974356540d
+      - s-19d701d0c5
+      - s-182c3df64b
+      - s-aaefe16f2e
+      - s-48d0394043
+      - s-9299f9f761
+      - s-3015ca0cc5
+      - s-e1107deca6

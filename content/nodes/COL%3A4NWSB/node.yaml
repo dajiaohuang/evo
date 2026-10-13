@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea tlilicxitl
+  displayName: Pseudoeurycea tlilicxitl
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWSB
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea tlilicxitl
+        zh: Pseudoeurycea tlilicxitl
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWSB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/318
+            queryName: Pseudoeurycea tlilicxitl
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf3165f025
+      - s-c3e3a2889f
+      - s-f54e70bf5d
+      - s-e57be5f09e
+      - s-82aff2541a
+      - s-60b83fbbd6
+    zh:
+      - s-4f0a38b52c
+      - s-c157ce74ed
+      - s-2ab53324b4
+      - s-fb482153e7
+      - s-b5670738a2
+      - s-ab087462e6

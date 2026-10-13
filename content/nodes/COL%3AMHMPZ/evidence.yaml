@@ -1,0 +1,185 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ceuthomantidae Heinicke, Duellman, Trueb, Means, MacCulloch & Hedges, 2009
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Ceuthomantidae
+      zh: Ceuthomantidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b9921cac0b
+            part: title
+          zh:
+            page: zh
+            section: s-6cbd610ee0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b9921cac0b
+            part: body
+          zh:
+            page: zh
+            section: s-6cbd610ee0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-686960b0a2
+            part: title
+          zh:
+            page: zh
+            section: s-f6a23b0e9b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-686960b0a2
+            part: body
+          zh:
+            page: zh
+            section: s-f6a23b0e9b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-b86f28a538
+            part: title
+          zh:
+            page: zh
+            section: s-b3efaef53f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b86f28a538
+            part: body
+          zh:
+            page: zh
+            section: s-b3efaef53f
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-fcfcf306b6
+            part: title
+          zh:
+            page: zh
+            section: s-790fab000e
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62JYW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62JYW
+            label:
+              en: Ceuthomantis
+              zh: Ceuthomantis
+        text:
+          en:
+            page: en
+            section: s-fcfcf306b6
+            part: body
+          zh:
+            page: zh
+            section: s-790fab000e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ceuthomantidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/MHMPZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Ceuthomantidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ca79715678
+        part: body
+      zh:
+        page: zh
+        section: s-38ce3891f1
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Ceuthomantidae
+      sourceRowIds:
+        - Anf1227
+        - Anf1228
+        - Anf1229
+        - Anf1230
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 3
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts: []
+      currentConceptEquivalenceCertified: false

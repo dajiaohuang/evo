@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Petropedetes vulpiae
+  displayName: Petropedetes vulpiae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/776CZ
+  sourceIndexes:
+    - name:
+        en: Petropedetes vulpiae
+        zh: Petropedetes vulpiae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 776CZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/14
+            queryName: Petropedetes vulpiae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a1fc3cf2f6
+      - s-b45d50d141
+      - s-06dc430602
+      - s-c95931a022
+      - s-6a6b7406ce
+      - s-58910d2c2f
+      - s-40df94d067
+      - s-9e881626bf
+      - s-de574089c9
+      - s-8f1750db4f
+      - s-75c49ea43a
+      - s-a0746f62c0
+    zh:
+      - s-70ca3c524b
+      - s-e6e5a98e5c
+      - s-8eb1a45e85
+      - s-8f655a6732
+      - s-33d89c72af
+      - s-df23834a93
+      - s-6ee8b8ce4b
+      - s-f2473b107f
+      - s-67144ad1e8
+      - s-31cfd936ec
+      - s-aa6227bbd7
+      - s-00252f26fa

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates hodli
+  displayName: Allobates hodli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5TWXM
+  sourceIndexes:
+    - name:
+        en: Allobates hodli
+        zh: Allobates hodli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5TWXM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/143
+            queryName: Allobates hodli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a62fad6867
+      - s-cfe2a6926a
+      - s-a9154dfa9d
+      - s-6918ffa100
+      - s-c2e364a8cf
+      - s-a459c0331c
+      - s-9c62df834e
+      - s-7afc1c07ba
+      - s-bbff2cbd16
+      - s-7d55af86ed
+      - s-0f95398da2
+      - s-2f624060f8
+      - s-5885a03207
+      - s-8c5844008c
+      - s-9f6b46546e
+      - s-8b1b4e97ff
+      - s-ce29259d04
+      - s-70343db38c
+    zh:
+      - s-355ea7b158
+      - s-eafb9b1b4f
+      - s-1600c59c1c
+      - s-fe9d1d0679
+      - s-f017913ce8
+      - s-3064f58890
+      - s-63cfc9bfcf
+      - s-f75694400e
+      - s-f53f05049a
+      - s-cac14b9912
+      - s-b9303851f8
+      - s-e342f017f1
+      - s-c9d8d694f5
+      - s-e5d04e22aa
+      - s-0af0f4b021
+      - s-65e04a78b9
+      - s-31be50b757
+      - s-48157a7d0f

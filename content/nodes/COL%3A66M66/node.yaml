@@ -1,0 +1,134 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus debilis
+  displayName: Anaxyrus debilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66M66
+  sourceIndexes:
+    - name:
+        en: Anaxyrus debilis
+        zh: Anaxyrus debilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66M66
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/435
+            queryName: Anaxyrus debilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/238
+            queryName: Bufo debilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/357
+            queryName: Bufo debilis debilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/358
+            queryName: Bufo debilis insidior
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/359
+            queryName: Bufo insidior
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/280
+            queryName: Anaxyrus debilis debilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/281
+            queryName: Anaxyrus debilis insidior
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9135f88447
+      - s-c5d1769fa3
+      - s-811de42ba5
+      - s-6728b36891
+      - s-56a24e2c3a
+      - s-b4da435730
+      - s-daca7440ff
+      - s-10a8e285e9
+      - s-114b7fad95
+      - s-70d3433dca
+      - s-ad073521f5
+      - s-076f894366
+      - s-384495b3f9
+      - s-7f179715bf
+      - s-8c9617a15d
+      - s-ec40323580
+      - s-33d3177690
+      - s-80757468bf
+      - s-b49c16dcf1
+      - s-dca51d5246
+      - s-dd2341334d
+      - s-e885b7e912
+      - s-a8edf2ff9e
+      - s-de072ffb58
+      - s-e2fa2db054
+      - s-46ea4c4a10
+    zh:
+      - s-db90f7d13b
+      - s-2f59fd045e
+      - s-f7db751893
+      - s-434bd61b02
+      - s-4aa6e470a1
+      - s-96b15e9171
+      - s-1681b9fb05
+      - s-cf0704496a
+      - s-810fb49927
+      - s-4b5fd657dc
+      - s-3b5b1dc6fd
+      - s-ca1016391c
+      - s-e3dc42f6ee
+      - s-79786c1beb
+      - s-5526ab3faf
+      - s-40b976eeea
+      - s-9d929109a8
+      - s-0236f90ee1
+      - s-6257fbdbfc
+      - s-0fff2168eb
+      - s-23d47e2e8e
+      - s-8c655761b2
+      - s-add36a17cf
+      - s-45f72d3d49
+      - s-8815f615f9
+      - s-d547de8b2b

@@ -1,0 +1,33 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambulocetidae
+  displayName: Ambulocetidae
+  rank: family
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=53246
+    parentSourceIdentifier: txn:36652
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=53246
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c9ed2f7c1
+      - s-1c8fefac09
+      - s-fabf74c4a3
+      - s-a8aaa22593
+      - s-f1d2329029
+    zh:
+      - s-25d2acbdc8
+      - s-6aa03485ca
+      - s-d9bbac8616
+      - s-b1590d524a
+      - s-33f5c22d13

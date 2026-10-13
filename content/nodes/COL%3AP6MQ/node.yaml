@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum capense
+  displayName: Cacosternum capense
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6MQ
+  sourceIndexes:
+    - name:
+        en: Cacosternum capense
+        zh: Cacosternum capense
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6MQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/38
+            queryName: Cacosternum capense
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc0d151b62
+      - s-72acea6edd
+      - s-48ef40efc0
+      - s-adab8b532e
+      - s-7f7836813d
+      - s-95cb6df975
+      - s-9bd5d7e395
+      - s-948f2ac7e2
+      - s-76a25e552d
+      - s-b1fc2d4cb9
+      - s-7b55c4af78
+    zh:
+      - s-cc2c08cf0a
+      - s-1455188dd8
+      - s-3ed1eb4ee5
+      - s-0533901d1c
+      - s-8f21119b28
+      - s-f2d4645284
+      - s-b8352565a0
+      - s-922c0ea345
+      - s-40a6294f9e
+      - s-714b7ab7d8
+      - s-9402c7b077

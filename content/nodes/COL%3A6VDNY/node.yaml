@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus scheffleri
+  displayName: Phrynobatrachus scheffleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VDNY
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus scheffleri
+        zh: Phrynobatrachus scheffleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VDNY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/173
+            queryName: Phrynobatrachus scheffleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/95
+            queryName: Arthroleptis scheffleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/96
+            queryName: Pseudarthroleptis scheffleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/227
+            queryName: Phrynobatrachus albifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/228
+            queryName: Arthroleptis albifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/229
+            queryName: Pseudarthroleptis albifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-64b0eea96e
+      - s-86bb305509
+      - s-05cc84e339
+      - s-2558b70058
+      - s-220c47289b
+      - s-9e1c691f4f
+      - s-b7a5ec963e
+      - s-78f6cecc6a
+      - s-0c7464de7f
+      - s-bc7275bef0
+      - s-3313e72de6
+      - s-b2b855b46b
+      - s-0c297753eb
+      - s-4de65255cc
+      - s-d768d159a9
+      - s-a367a906c0
+      - s-8ca1d5acbe
+      - s-11ed757d54
+      - s-96e14d0a29
+      - s-b33ba02613
+    zh:
+      - s-d620216c68
+      - s-407dcbd9a4
+      - s-427e5d6e2c
+      - s-cdb8f3c429
+      - s-5f5ade184c
+      - s-cc2bb3a285
+      - s-8e670100d7
+      - s-39d61e7c4d
+      - s-3cc32ef45e
+      - s-71863b4d33
+      - s-5eaa8c9022
+      - s-2e52502e45
+      - s-7b53057621
+      - s-aa911f14fb
+      - s-491a9b8111
+      - s-0081557ff2
+      - s-58fdcb3904
+      - s-267e529dfd
+      - s-ee64d6f16f
+      - s-3ad9fb8156

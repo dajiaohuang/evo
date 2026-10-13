@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates palustris
+  displayName: Lithobates palustris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQN
+  sourceIndexes:
+    - name:
+        en: Lithobates palustris
+        zh: Lithobates palustris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/188
+            queryName: Lithobates palustris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 38
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/199
+            queryName: Rana palustris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 108
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/315
+            queryName: Rana palustris mansuetii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/426
+            queryName: Rana palustris palustris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/267
+            queryName: Rana pardalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1426f5fcfb
+      - s-bcd604ef0c
+      - s-b6b182c35a
+      - s-0a1581bbb2
+      - s-18ce311fb3
+      - s-629636be7a
+      - s-1e90e8bf53
+      - s-440b9e8ba3
+      - s-2598206c1e
+      - s-73d5790fd4
+      - s-adc633c8a1
+      - s-2b716ccc72
+      - s-9469e433a3
+    zh:
+      - s-c9efe26c27
+      - s-d21c5d4581
+      - s-9aa5177b16
+      - s-52e4dd9c6a
+      - s-2bb40f12bc
+      - s-221196c4dd
+      - s-59adc65848
+      - s-cb3d42534b
+      - s-0fc32fe498
+      - s-1e989b99ed
+      - s-937116b1af
+      - s-f1d45d6b86
+      - s-a39c600c91

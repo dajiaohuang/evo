@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates nunciatus
+  displayName: Allobates nunciatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LCNZ7
+  sourceIndexes:
+    - name:
+        en: Allobates nunciatus
+        zh: Allobates nunciatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LCNZ7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/161
+            queryName: Allobates nunciatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9833f23819
+      - s-8ff272ecea
+      - s-fad5559be6
+      - s-312f540d60
+      - s-3dff75e867
+      - s-becccfe10c
+      - s-9410bdbb3c
+      - s-641d244980
+      - s-3c8a6296d3
+      - s-882fdf4ce6
+      - s-379967f650
+      - s-47c710b244
+      - s-00137bed09
+      - s-16a39a4a03
+      - s-4137a69ec1
+      - s-619dfd7b7f
+      - s-3a7f621175
+      - s-b61f80ac41
+      - s-1693dcec81
+    zh:
+      - s-5df366fb53
+      - s-c15c058231
+      - s-1b21a5eecf
+      - s-ff0bc4055e
+      - s-9bd815b089
+      - s-9f431babe0
+      - s-0978bdd001
+      - s-8c0f864c40
+      - s-7271f166c8
+      - s-e4ad06eba2
+      - s-ca43de00f1
+      - s-978888f5a6
+      - s-d791129951
+      - s-6607fae6cb
+      - s-bc879e943f
+      - s-7caef88ca2
+      - s-e214e9efd3
+      - s-7f4e7a9b91
+      - s-b566cc82c0

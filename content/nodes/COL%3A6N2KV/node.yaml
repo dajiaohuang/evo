@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius quelpaertensis
+  displayName: Hynobius quelpaertensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N2KV
+  sourceIndexes:
+    - name:
+        en: Hynobius quelpaertensis
+        zh: Hynobius quelpaertensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N2KV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/191
+            queryName: Hynobius quelpaertensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/358
+            queryName: Hynobius quelpartensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/460
+            queryName: Hynobius leechii quelpaertensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cef447e11e
+      - s-470b236ed0
+      - s-5e55a2db9b
+      - s-156fdff883
+      - s-0fd9462501
+      - s-3cc33e37a0
+      - s-9583ac1056
+      - s-7371f7c46b
+      - s-09650faa08
+      - s-ea3c23a2ef
+      - s-f3afbcaa01
+    zh:
+      - s-a4a81ec406
+      - s-d2d01a0934
+      - s-4a00e725b4
+      - s-ecbeb17fa4
+      - s-52aff9b50d
+      - s-d2643ba437
+      - s-afa926aa2d
+      - s-f17833cbdd
+      - s-a8ec4f799a
+      - s-b0a54e44c8
+      - s-fe1076980b

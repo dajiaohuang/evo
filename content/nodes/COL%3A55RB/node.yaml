@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Isthmura
+  displayName: Isthmura
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/55RB
+  sourceIndexes:
+    - name:
+        en: Isthmura
+        zh: Isthmura
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 55RB
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/472
+            queryName: Isthmura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0166fda516
+      - s-90e3faf255
+      - s-b5461b8c7e
+      - s-e84669a52e
+      - s-575f150b89
+      - s-d1f9c4aa42
+      - s-7a33e033a9
+      - s-bf5b9837d2
+      - s-2470abbd0c
+    zh:
+      - s-1306575acd
+      - s-1bf9fbb11a
+      - s-ba6111cfb2
+      - s-7dcf360a01
+      - s-11c261f09b
+      - s-3cc7c14090
+      - s-ee423f8282
+      - s-9b19994f00
+      - s-5381ff9d29

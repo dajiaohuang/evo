@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Strongylopus wageri
+  displayName: Strongylopus wageri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/534WW
+  sourceIndexes:
+    - name:
+        en: Strongylopus wageri
+        zh: Strongylopus wageri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 534WW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/343
+            queryName: Strongylopus wageri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/493
+            queryName: Rana wageri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4d1a08f457
+      - s-9fa829fdb5
+      - s-4981bf65da
+      - s-d1c6f4be39
+      - s-6c23b0b303
+      - s-2b85f039f1
+      - s-9641a45ade
+      - s-d295a39163
+      - s-38eba9ce0b
+      - s-dccb536892
+    zh:
+      - s-fd2c7bc143
+      - s-f5e6bb92ed
+      - s-910e037a7c
+      - s-64333e3ead
+      - s-b98798f9a7
+      - s-3b87e55f20
+      - s-6239fb7af7
+      - s-e6ca6fdd46
+      - s-1ab2737769
+      - s-84d170a283

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Isthmohyla angustilineata
+  displayName: Isthmohyla angustilineata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QD7Q
+  sourceIndexes:
+    - name:
+        en: Isthmohyla angustilineata
+        zh: Isthmohyla angustilineata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QD7Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/51
+            queryName: Isthmohyla angustilineata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/260
+            queryName: Hyla angustilineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-531cdd52ae
+      - s-3771677e44
+      - s-70ff70becf
+      - s-ce9478affa
+      - s-d96e276171
+      - s-b5e7efbc3d
+      - s-9ebbce6e09
+      - s-7cab339080
+      - s-624c8e60ee
+      - s-ac4887eea8
+    zh:
+      - s-a0d703abd3
+      - s-d5c6810018
+      - s-d61f0bdf4b
+      - s-aa66c4cab4
+      - s-821f061bde
+      - s-cef1733959
+      - s-2d082cd615
+      - s-0ed3413eef
+      - s-ab6266ca73
+      - s-0c9de31d06

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis yumbo
+  displayName: Pristimantis yumbo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJRY
+  sourceIndexes:
+    - name:
+        en: Pristimantis yumbo
+        zh: Pristimantis yumbo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJRY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/190
+            queryName: Pristimantis yumbo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-71c0a75208
+      - s-678585ee51
+      - s-36057431f1
+      - s-8244e13002
+      - s-901570b71b
+      - s-e374fac7c0
+      - s-8d1cedf941
+      - s-f3d1600dd0
+      - s-b4b7b3fbd1
+    zh:
+      - s-a582990e99
+      - s-c2dda571aa
+      - s-f1a0caa1bc
+      - s-8f92566c8f
+      - s-04d1ae0c7c
+      - s-5bcea6db92
+      - s-1f7b572927
+      - s-c8740a0675
+      - s-676b19bd61

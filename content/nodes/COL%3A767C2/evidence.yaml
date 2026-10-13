@@ -1,0 +1,115 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pauridia verna (Hilliard & B.L.Burtt) Snijman & Kocyan
+    rank: species
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-b34b49457a
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-50674cfba6
+          part: body
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 767C2, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 767C2; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/767C2
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 767C2
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001336351-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 767C2 / WFO wfo-0001336351
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_15172_0
+        referenceId: ref-e97a6c82-af79-875a-a072-ef81915016f7
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pauridia verna (Hilliard & B.L.Burtt) Snijman & Kocyan account; SANBI/WFO archive rows 60930 (Morphology), 60107 (Habitat), 58384 (Diagnostic), source identifier 15172.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 2-4 cm tall. Corm somewhat ovoid, 5-8 mm diam., fibreless proximally, extending into a short, dark brown papery sheath distally; roots arising from proximal third of corm. Cataphylls absent at flowering. Leaves (3)4-6, membranous and shortly sheathing at base for up to 3 cm, spreading, linear, 40-80 x 2-4 mm, tapering evenly upwards, shallowly carinate, slightly succulent, entire. Inflorescences 1 in flower at a time, 1-flowered, ca. as long as leaves; scape hidden by leaf sheaths, ca. 4 x 1-2 mm, laterally compressed, whitish; bract 1, linear, inserted at ovary base, ca. 15 x 2 mm, whitish, somewhat membranous. Flower sessile, partly subterranean, more or less rotate, white with yellow throat, midveins backed with yellowish green on outer tepals, unscented; perigone tube arising from a slender, elongated, ovary beak, somewhat bowl-shaped, 2-4 x 2-3 mm; tepals 6, elliptic, 14-25 mm long, outer 4-8 mm wide, minutely mucronate, inner 2.5-4.0 mm wide. Stamens 6, suberect, outer shorter than inner or subequal, yellow; filaments inserted near base of perigone tube, outer 2.5-3.5 mm long, inner 3-4 mm, ca. as long as anthers; anthers linear, latrorse, 2.5-4.0 mm, pollen yellow. Ovary subterranean, narrowly ovoid, compressed ventrally, 3-5 x 1.5 mm, 3-locular, distal beak 20-47 mm long; style 3.0-6.5 mm long; stigma branches suberect, linear, 2.0-3.5 x 0.5 mm, ca. equalling stamens, yellow, densely papillose. Capsule partially subterranean, beaked, walls thin, disintegrating irregularly. Seeds depressed-ellipsoid, ca. 0.8 x 0.6 mm; testa black, outer periclinal cell walls densely colliculate.
+            textZh: Pauridia verna (Hilliard & B.L.Burtt) Snijman & Kocyan 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_15172_0
+            locator: "SANBI/WFO archive Morphology row 60930; source identifier 15172.0; cited publication: Snijman, DA. 2014. A taxonomic revision of the genus Pauridia (Hypoxidaceae) in southern Africa. Phytotaxa 182(1): 1 - 114. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The geographic range of Pauridia verna is widely disjunct from that of its sister species P. alticola, which is found along the southwestern section of the Great Escarpment, Northern Cape and in the Cederberg and Kouebokkeveld, Western Cape. P. verna, like P. alticola, has a solitary-flowered inflorescence, distinguished by a short, entirely subterranean scape and the absence of a pedicel. Thus the flower, with its small, yellow, bowl-shaped tube and spreading, white tepals, is sessile and only the well-developed ovary beak, 20-47 mm long, holds the perigone clear of the ground, while the ovary itself remains buried until fruiting. Although remarkably similar in their floral morphology the two species are easily distinguished from each other by differences in the corms and seeds. P. verna has a fibreless corm, sometimes partially covered distally by brown papery sheaths and the seeds have a colliculate testa, unlike P. alticola in which the corm is heavily covered by fibrous tunics and the seed is densely covered by elongated trichomes.
+            textZh: SANBI 条目提供了 Pauridia verna (Hilliard & B.L.Burtt) Snijman & Kocyan 的鉴别特征。
+            sourceIds:
+              - sanbi_15172_0
+            locator: "SANBI/WFO archive Diagnostic row 58384; source identifier 15172.0; cited publication: Snijman, DA. 2014. A taxonomic revision of the genus Pauridia (Hypoxidaceae) in southern Africa. Phytotaxa 182(1): 1 - 114. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Scattered colonies are found in small, seasonally wet, bare patches of basaltic gravel, areas fringing tarns and along marshy drainage lines in short, damp turf at elevations ranging from 2550 to 3050 meters above sea-level. This attractive plant is one of several other hardy dwarf geophytes, such as Rhodohypoxis rubella (Baker) Nel (Hypoxidaceae), Moraea alpina Goldblatt and Hesperantha crocopsis Hilliard & Burtt (both Iridaceae), that survive the extreme conditions of repeated freezing and thawing that prevail on the summit of the Drakensberg Escarpment.
+            textZh: 该 SANBI 区域物种条目记录的生境：Scattered colonies are found in small, seasonally wet, bare patches of basaltic gravel, areas fringing tarns and along marshy drainage lines in short, damp turf at elevations ranging from 2550 to 3050 meters above sea-level. This attractive plant is one of several other hardy dwarf geophytes, such as Rhodohypoxis rubella (Baker) Nel (Hypoxidaceae), Moraea alpina Goldblatt and Hesperantha crocopsis Hilliard & Burtt (both Iridaceae), that survive the extreme conditions of repeated freezing and thawing that prevail on the summit of the Drakensberg Escarpment.
+            sourceIds:
+              - sanbi_15172_0
+            locator: "SANBI/WFO archive Habitat row 60107; source identifier 15172.0; cited publication: Snijman, DA. 2014. A taxonomic revision of the genus Pauridia (Hypoxidaceae) in southern Africa. Phytotaxa 182(1): 1 - 114. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

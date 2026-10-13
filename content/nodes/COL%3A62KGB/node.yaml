@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cardioglossa
+  displayName: Cardioglossa
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62KGB
+  sourceIndexes:
+    - name:
+        en: Cardioglossa
+        zh: Cardioglossa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62KGB
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/275
+            queryName: Cardioglossa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 34
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eacaeab29f
+      - s-8770fcc6d5
+      - s-f696c47797
+      - s-864abfab78
+      - s-7b1a4ef744
+      - s-164a2cb8cb
+      - s-0d896afce2
+      - s-a8b6fe5141
+      - s-a64dfb3325
+      - s-5e063e93cb
+      - s-eb77ee0e99
+      - s-b06136dbd9
+      - s-2acf87b45d
+      - s-89ce2a6fdf
+      - s-7d433a8538
+      - s-f98832834d
+      - s-00014dbd57
+      - s-53d9de4ceb
+      - s-22e2aca934
+      - s-e88ace0b1b
+    zh:
+      - s-68264e0fdd
+      - s-f6551fd4d5
+      - s-61d0341aca
+      - s-62d26d3d9a
+      - s-337d895dd8
+      - s-1daf9f921a
+      - s-e5a8ddd320
+      - s-c2235f426a
+      - s-9a9ca4feb3
+      - s-c660e78489
+      - s-81f5477339
+      - s-24086f91e9
+      - s-a19ad823ec
+      - s-82bdfa16a5
+      - s-0abcaf3ac8
+      - s-4100fc359d
+      - s-0627be710d
+      - s-a8e9ae3de1
+      - s-cef950f7db
+      - s-936a1c14cc

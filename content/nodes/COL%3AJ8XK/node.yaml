@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus barbotini
+  displayName: Atelopus barbotini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8XK
+  sourceIndexes:
+    - name:
+        en: Atelopus barbotini
+        zh: Atelopus barbotini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8XK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/232
+            queryName: Atelopus barbotini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/424
+            queryName: Atelopus spumarius barbotini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91696e9198
+      - s-7359a0f1f5
+      - s-2ed3f6f08d
+      - s-5b4003d6e8
+      - s-66140f04a3
+      - s-5b2c14b622
+      - s-a305056776
+    zh:
+      - s-9d12e66d75
+      - s-5cf443aca0
+      - s-c9935588c4
+      - s-d53b34153a
+      - s-bd2966fb14
+      - s-ddc205d4b2
+      - s-ebd696f07d

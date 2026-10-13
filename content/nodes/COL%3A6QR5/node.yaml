@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pipa
+  displayName: Pipa
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QR5
+  sourceIndexes:
+    - name:
+        en: Pipa
+        zh: Pipa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QR5
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/175
+            queryName: Pipa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1899
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3da3d5d089
+      - s-039e13386e
+      - s-097856a0ba
+      - s-4d47c9b736
+      - s-3b3a12a38f
+      - s-23495787e1
+      - s-b2f72f7c2b
+      - s-f937d28821
+      - s-7e54f27230
+      - s-1f69230497
+      - s-73cd5ed50e
+      - s-974a152f0f
+      - s-6806d5f782
+      - s-d60bb3e9f7
+      - s-342c1db0f0
+      - s-43e30c8cea
+      - s-793fceda8a
+      - s-00fbf4fbd9
+      - s-f489f22d6f
+      - s-a12119d948
+      - s-dc62814841
+      - s-918392bbf1
+      - s-9267ed8188
+      - s-a5709a5476
+      - s-237666adaf
+      - s-3ac5dcac90
+    zh:
+      - s-f16ad29501
+      - s-d3f3573ee5
+      - s-ff50a667b9
+      - s-4479fd0b1c
+      - s-ae41f9cb7f
+      - s-e8b6374e0e
+      - s-58c441c515
+      - s-dbfd76867e
+      - s-e691b3b46d
+      - s-48ceb53b7c
+      - s-1d2f977b79
+      - s-8b96e18206
+      - s-3b81e36f26
+      - s-ae43012ca0
+      - s-3163b1e22d
+      - s-bf34c0cb43
+      - s-4003804287
+      - s-a802282bdc
+      - s-9368fd9d80
+      - s-2e760b6789
+      - s-d3c3caf6b1
+      - s-da8e99dbea
+      - s-641bbc769d
+      - s-29b5a95c97
+      - s-86175e07cb
+      - s-ea01967406

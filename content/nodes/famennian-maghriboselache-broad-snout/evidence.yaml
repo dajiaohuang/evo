@@ -1,0 +1,102 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-42bbed5c96
+      part: title
+    titleZh:
+      page: zh
+      section: s-d30fa9b18b
+      part: title
+    category: innovation
+    startAge: 369.5
+    endAge: 369
+    regions:
+      - Thylacocephalan Layer, southern Maïder and Tafilalt, eastern Anti-Atlas, Morocco
+    clades:
+      - Maghriboselache mohamezanei
+      - symmoriiform Chondrichthyes
+    summary:
+      page: en
+      section: s-42bbed5c96
+      part: body
+    summaryZh:
+      page: zh
+      section: s-d30fa9b18b
+      part: body
+    claimIds:
+      - claim:event:famennian-maghriboselache-broad-snout
+    evidenceItems:
+      - statement: The holotype AA.MEM.DS.12 and referred specimen PIMUZ A/I 5159 preserve three-dimensional cranial anatomy, while the Thylacocephalan Layer sample also preserves partly articulated body and fin anatomy.
+        relation: supports
+        claimIds:
+          - claim:event:famennian-maghriboselache-broad-snout
+        referenceLinks:
+          - relation: supports
+            referenceId: klug-2023-maghriboselache
+            pages: 1–7
+            figure: Figures 1–6; Supplementary Table S1
+            quoteLocator: Introduction; Material; Systematic palaeontology; neurocranium description
+      - statement: In PIMUZ A/I 5155, the stomach contains a more or less articulated small actinopterygian approximately 40 mm long, recording one feeding event.
+        relation: supports
+        claimIds:
+          - claim:event:famennian-maghriboselache-broad-snout
+        referenceLinks:
+          - relation: supports
+            referenceId: klug-2023-maghriboselache
+            pages: "17"
+            figure: Figure 1
+            quoteLocator: Description—Soft tissues; paragraph beginning ‘Consequently, the body outline is discernible...’
+      - statement: The broad rostrum and laterally separated nasal capsules are described as an early sensory specialization, while the time-calibrated placement remains matrix-dependent.
+        relation: supports
+        claimIds:
+          - claim:event:famennian-maghriboselache-broad-snout
+        referenceLinks:
+          - relation: supports
+            referenceId: klug-2023-maghriboselache
+            pages: 19–28
+            figure: Figures 13–15
+            quoteLocator: Phylogenetic analysis; Discussion; Conclusions
+    uncertaintyItems:
+      - statement: Most skeletons have missing caudal regions and some cranial parts are compressed; body length, sex and ecology therefore remain sample-bounded interpretations.
+        relation: contextualizes
+        claimIds:
+          - claim:event:famennian-maghriboselache-broad-snout
+        referenceLinks:
+          - relation: supports
+            referenceId: klug-2023-maghriboselache
+            pages: 4–7
+            figure: Figures 1–2; Supplementary Figures
+            quoteLocator: Material and methods; body form and preservation
+      - statement: The event is a Moroccan specimen record and does not establish direct ancestry, a global FAD/LAD or an uninterrupted holocephalan lineage.
+        relation: contextualizes
+        claimIds:
+          - claim:event:famennian-maghriboselache-broad-snout
+        referenceLinks:
+          - relation: supports
+            referenceId: klug-2023-maghriboselache
+            pages: 19–28
+            quoteLocator: Time calibration; Discussion; Conclusions
+  claims:
+    - subjectId: event:famennian-maghriboselache-broad-snout
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Several partly articulated Maghriboselache mohamezanei skeletons from the Famennian Thylacocephalan Layer of Morocco preserve three-dimensional neurocrania with a broad cartilage-enclosed snout, widely separated nasal capsules, a high-aspect-ratio tail and large pectoral fins; this is a specimen-level sensory and body-plan record, not a global crown-chondrichthyan origin.
+      confidence: medium
+      confidenceRationale: The primary study documents multiple named specimens, their Famennian layer and cranial and fin anatomy, while missing caudal regions, compression and matrix-sensitive placement limit organism-wide and lineage-wide inference.
+      referenceLinks:
+        - relation: supports
+          referenceId: klug-2023-maghriboselache
+          pages: 1–7
+          figure: Figures 1–6; Supplementary Table S1
+          quoteLocator: Introduction; Material; Systematic palaeontology; neurocranium description
+        - relation: supports
+          referenceId: klug-2023-maghriboselache
+          pages: 19–28
+          figure: Figures 13–15
+          quoteLocator: Phylogenetic analysis; Discussion; Conclusions
+  claim-rationales.zh:
+    - 一手研究记录了多件具名标本、法门期层位以及脑颅和鳍部解剖；尾部缺失、压扁与矩阵依赖的位置限制了对完整个体和谱系的外推。
+  claim-statements.zh:
+    - 来自摩洛哥法门期噬甲动物层的数件部分关节相连 Maghriboselache mohamezanei 骨架保存三维脑颅、宽大的软骨包围吻部、相距很远的鼻囊、高展弦比尾和大型胸鳍；这是标本层级的感觉系统与体制记录，不是全球冠群软骨鱼起源。

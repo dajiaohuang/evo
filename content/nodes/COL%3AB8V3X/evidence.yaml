@@ -1,0 +1,87 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Hydrozoa
+    commonName: Hydroids and hydromedusae
+    commonNameZh: 水螅纲
+    rank: class
+    taxonId: txn:4596
+    firstAppearance: 520
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:hydrozoa
+      claimKind: scientific
+      claimType: morphology
+      statement: A synthesis maps colony form, life cycle and medusa characters onto published hydrozoan phylogenies; the inferred gains and losses are comparative reconstructions rather than directly observed ancestral states.
+      confidence: medium
+      confidenceRationale: Multiple character systems support the comparative framework, while dependence on published trees and heterogeneous life cycles limits causal certainty.
+      referenceLinks:
+        - referenceId: cartwright-nawrocki-2010-hydrozoa
+          relation: supports
+          pages: 456–472
+          quoteLocator: Figures 1–4; character-evolution synthesis
+    - subjectId: taxon:hydrozoa
+      claimKind: scientific
+      claimType: fossil-range
+      statement: "Hydrozoa has no supported scalar temporal range in the cited evidence: the character-evolution review does not document a diagnostic 520 Ma hydrozoan fossil or crown boundary, so the former 520–0 Ma display is withheld."
+      confidence: low
+      confidenceRationale: Cartwright and Nawrocki (2010) supports hydrozoan character interpretation, not a dated fossil endpoint. Low confidence records the missing specimen-level basis for 520 Ma.
+      referenceLinks:
+        - relation: supports
+          referenceId: cartwright-nawrocki-2010-hydrozoa
+          pages: 456–472
+          figure: Figures 1–4
+          quoteLocator: Hydrozoan character-evolution synthesis
+  claim-rationales.zh:
+    - 多类性状系统支持比较框架，但对既有系统树的依赖和异质生活史限制了因果确定性。
+    - Cartwright 与 Nawrocki（2010）支持水螅纲性状解释，而非有年代约束的化石端点。低置信度表示 520 Ma 缺少标本级依据。
+  claim-statements.zh:
+    - 一项综合把群体形态、生活史和水母体性状映射到已发表的水螅纲系统树上；推断的获得与丧失是比较重建，并非直接观察的祖先状态。
+    - 现有引证不支持 Hydrozoa 的单一时间范围：性状演化综述未记录可鉴定的 520 Ma 水螅纲化石或冠群边界，因此旧有 520–0 Ma 展示被暂缓。
+  ranges:
+    - entityId: hydrozoa
+      rangeKind: global-composite
+      taxonomicConcept: Crown Hydrozoa temporal range
+      geographicScope: Temporal interval pending diagnostic fossil evidence
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The cited character-evolution review does not identify a diagnostic 520 Ma hydrozoan specimen or crown boundary.
+      evidenceBasis: The former 520–0 Ma display is withheld rather than deriving a fossil FAD from a morphology and character-evolution synthesis.
+      confidence: low
+      claimIds:
+        - claim:taxon:hydrozoa:range-boundary-rc50
+      referenceLocators:
+        - referenceId: cartwright-nawrocki-2010-hydrozoa
+          locator: 456–472; Figures 1–4; hydrozoan character-evolution synthesis
+      evidenceLevel: withheld-no-range-evidence
+  catalogue-profile:
+    sections:
+      - topic: character-evolution
+        title:
+          en:
+            page: en
+            section: s-387510a734
+            part: title
+          zh:
+            page: zh
+            section: s-85d3c4a6f9
+            part: title
+        sourceIds:
+          - cartwright-nawrocki-2010-hydrozoa
+        text:
+          en:
+            page: en
+            section: s-387510a734
+            part: body
+          zh:
+            page: zh
+            section: s-85d3c4a6f9
+            part: body

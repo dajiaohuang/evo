@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Neobatrachus sutor
+  displayName: Neobatrachus sutor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/46B2P
+  sourceIndexes:
+    - name:
+        en: Neobatrachus sutor
+        zh: Neobatrachus sutor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 46B2P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/240
+            queryName: Neobatrachus sutor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c9e203f470
+      - s-6386d34077
+      - s-c02d0d633a
+      - s-1fd59b79da
+      - s-b10b3ef26e
+      - s-876bb057d9
+      - s-4f23dec130
+      - s-8816561fbb
+      - s-781dd082ed
+      - s-2439dcc41c
+    zh:
+      - s-a1f669c703
+      - s-908ac7ca53
+      - s-688929cdc2
+      - s-ea427e1f7e
+      - s-c37e8de857
+      - s-9c1d57fe85
+      - s-9ac379dfe1
+      - s-93f5ad9fd1
+      - s-9385ae56ba
+      - s-880f9819ea

@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Niceforonia adenobrachia
+  displayName: Niceforonia adenobrachia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47CD8
+  sourceIndexes:
+    - name:
+        en: Niceforonia adenobrachia
+        zh: Niceforonia adenobrachia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47CD8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/249
+            queryName: Niceforonia adenobrachia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/114
+            queryName: Phrynopus adenobrachius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3f921f5d8c
+      - s-386561f263
+      - s-fc9dd0ade3
+      - s-970fc78b89
+      - s-3d9ec5027a
+      - s-f13b75bb27
+      - s-fd9ee04bbe
+      - s-7ae2bec78e
+      - s-922c430874
+      - s-f415b4b04f
+      - s-13a7a60e3d
+      - s-234d863bf7
+      - s-99e2ac7eb7
+      - s-4d44f91c48
+      - s-30b7dd252e
+      - s-fda9e0bd3e
+      - s-3291b3a108
+      - s-a9ef124204
+    zh:
+      - s-d2277ae44d
+      - s-572d0a2a28
+      - s-0c8b9c1ede
+      - s-fee817f630
+      - s-c2792bccd4
+      - s-9a5f1a5e0f
+      - s-a65259029b
+      - s-209aaa5909
+      - s-d7d163ea78
+      - s-d746301c3b
+      - s-ebedb406a9
+      - s-d5176fdde0
+      - s-5ffff715df
+      - s-7b036f5923
+      - s-09173a107c
+      - s-34ddd52a3f
+      - s-ec1a85009e
+      - s-dc5d1b1803

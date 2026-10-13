@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stereochilus marginatus
+  displayName: Stereochilus marginatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/52DTY
+  sourceIndexes:
+    - name:
+        en: Stereochilus marginatus
+        zh: Stereochilus marginatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 52DTY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/316
+            queryName: Stereochilus marginatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/481
+            queryName: Pseudotriton marginatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/403
+            queryName: Stereochilus marginatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/404
+            queryName: Spelerpes marginatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/405
+            queryName: Geotriton marginatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b811667e1
+      - s-d829f2f29f
+      - s-e6bef28960
+      - s-ec4714fede
+      - s-1d5dc57b03
+      - s-ce3c855462
+      - s-354a94b5fe
+      - s-44b957934f
+      - s-dc66d4b6b5
+      - s-f58ed86931
+      - s-9c2b63f256
+    zh:
+      - s-bdf983644a
+      - s-a4d5566fca
+      - s-aa417099f3
+      - s-608bc649e2
+      - s-3cac298a8f
+      - s-670b336134
+      - s-835e97f4ce
+      - s-4dac8b4c56
+      - s-a123fa6b57
+      - s-ed9a701640
+      - s-a8db4bec8d

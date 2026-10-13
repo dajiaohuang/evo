@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates nidicola
+  displayName: Allobates nidicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV28
+  sourceIndexes:
+    - name:
+        en: Allobates nidicola
+        zh: Allobates nidicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV28
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/159
+            queryName: Allobates nidicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/122
+            queryName: Colostethus nidicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-873a166226
+      - s-85edeb5ed6
+      - s-50c929b7bb
+      - s-2c8298ebb7
+      - s-813cc322db
+      - s-bdab4f14e8
+      - s-ac17a2b856
+      - s-954810f0e0
+      - s-fa9a61524a
+      - s-4f6b832d56
+      - s-f8665ff43a
+      - s-4ac95be22d
+      - s-a59d4e6d92
+      - s-ccdb974e37
+      - s-2ae8ef4682
+      - s-201e9c05c1
+      - s-44a201f78d
+      - s-6629db6c83
+      - s-4b25e75aed
+      - s-0e0e48f8ea
+      - s-c6971f94bf
+      - s-3c160a767e
+    zh:
+      - s-6b0bdb2da1
+      - s-66c4f6627c
+      - s-5dd943a308
+      - s-17492887d9
+      - s-14e35fb21b
+      - s-defaa6e524
+      - s-7a2caaf09c
+      - s-62b445419e
+      - s-e75a6d5a33
+      - s-aeb18793cc
+      - s-d2d38b1a7e
+      - s-b07a5a22a6
+      - s-87a50178c5
+      - s-5b7411aadc
+      - s-466369379c
+      - s-d427ffb04b
+      - s-7b5b60ed19
+      - s-ff199fbb59
+      - s-0f1d137d9b
+      - s-e7dd5c2bfc
+      - s-af93ffb143
+      - s-27a276f103

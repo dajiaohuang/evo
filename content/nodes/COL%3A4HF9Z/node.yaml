@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus lisei
+  displayName: Physalaemus lisei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF9Z
+  sourceIndexes:
+    - name:
+        en: Physalaemus lisei
+        zh: Physalaemus lisei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF9Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/333
+            queryName: Physalaemus lisei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-799fd01ef1
+      - s-3042abf8a6
+      - s-74fa9aaca3
+      - s-48ec0faa19
+      - s-7d81589ef7
+      - s-d7062fc038
+      - s-9366933140
+      - s-c152be58a7
+      - s-227c249da8
+      - s-295c930d95
+      - s-5ca6c7f51b
+    zh:
+      - s-37f0113ca0
+      - s-b3caab13e3
+      - s-933fb60512
+      - s-263396aed0
+      - s-215077bd6d
+      - s-a48abeee92
+      - s-1e40fddbd3
+      - s-1baf6cc5d8
+      - s-b30693bad3
+      - s-391e7beea8
+      - s-8067974fff

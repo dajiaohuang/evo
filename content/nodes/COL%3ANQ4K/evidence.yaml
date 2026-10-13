@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bulbinella barkerae P.L.Perry
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NQ4K, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NQ4K; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NQ4K
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NQ4K
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000762455-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NQ4K / WFO wfo-0000762455
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_5933_0
+        referenceId: ref-80cd3d19-ab02-80a6-adef-c0b68ec32ca5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbinella barkerae P.L.Perry account; SANBI/WFO archive rows 84212 (Morphology), 85054 (Habitat), 84526 (Diagnostic), source identifier 5933.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants medium-sized, up to 0.6 m high, solitary. Roots numerous, fascicled, those immediately below stem disc swollen near base, with contractile rings, growing ± vertically downwards, more lateral roots spreading with distal swellings on wiry bases. Fibrous sheathing neck up to 50 mm high, 28 mm wide at base, fibres fine to medium coarse, ± straight, loose, untidy. Leaves 6-13, suberect to spreading, base dilated forming a complete sheath, cream-coloured with brownish veins; lamina subulate, canaliculate, size varying from up to 300 x 6 mm (outer) to up to 120 x 1 mm (innermost); margin with dense short cilia. Raceme narrowly cylindrical, dense, in flower up to 110 mm long, 20 mm wide, with 60-100 flowers, more compact in fruit, up to 95 mm long, 18 mm wide; peduncle up to 400 mm long, 3 mm in diameter; bracts 3-5 mm long, base broadly cymbiform, apex narrowly attenuate, membranous, white with a brownish midrib, margin somewhat irregularly serrate. Flowers stellate, up to 9 mm in diameter, with a strong, rather unpleasant, musty odour; pedicels 5-6 mm long. Tepals whitish with a very faint pink midrib, sometimes pinkish in bud. Filaments filiform, apiculate, 2.5 mm long, white. Ovary ovoid, 1 mm long, narrower than 1 mm, yellowish green; style 2 mm long, white. Capsule ovoid, 4-5 mm long, 3 mm wide, light greenish grey. Seed grey-black, 3.5-4.0 mm long, 1.75-3.0 mm wide, with amber-coloured membranous wing extension up to 1 mm wide all round.
+            textZh: Bulbinella barkerae P.L.Perry 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_5933_0
+            locator: "SANBI/WFO archive Morphology row 84212; source identifier 5933.0; cited publication: Perry, PL. 1999. Bulbinella in South Africa. Strelitzia 8: 1 - 78. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Bulbinella barkerae may be confused with B. caudafelis, but is separated from that species by a number of features, especially the spreading leaves with regularly ciliate margins, the smaller greyish green fruits, the seeds with a broadish wing extension and also the strong-smelling flowers. B. barkerae is easily separated from the other species with ciliate margins, B. ciliolata, on locality and also on the broader and fewer leaves.
+            textZh: SANBI 条目提供了 Bulbinella barkerae P.L.Perry 的鉴别特征。
+            sourceIds:
+              - sanbi_5933_0
+            locator: "SANBI/WFO archive Diagnostic row 84526; source identifier 5933.0; cited publication: Perry, PL. 1999. Bulbinella in South Africa. Strelitzia 8: 1 - 78. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Shale flats or slight slopes mainly in renosterveld, or on stony, sandy ground.
+            textZh: 该 SANBI 区域物种条目记录的生境：Shale flats or slight slopes mainly in renosterveld, or on stony, sandy ground.
+            sourceIds:
+              - sanbi_5933_0
+            locator: "SANBI/WFO archive Habitat row 85054; source identifier 5933.0; cited publication: Perry, PL. 1999. Bulbinella in South Africa. Strelitzia 8: 1 - 78. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

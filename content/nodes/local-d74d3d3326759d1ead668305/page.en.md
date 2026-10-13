@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Boophis doulioti {#s-f8b1d1bb19}
+TadpoleTraits version 4 places Boophis doulioti in Boophis (Mantellidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Boophis doulioti. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 4 literature rows and 0 image rows {#s-7ecc3e11e5}
+TadpoleTraits version 4 links 4 literature rows and 0 image rows to Boophis doulioti. Source row numbers — literature: 3186, 3187, 3188, 3189; image: none recorded. Populated measurement fields — literature: TL, TL.sd, BL, BL.sd, BMH, TaL, MTH, MTH.sd, TMH, TMW, TMW.sd, END.a, END.a.sd, IOD.a, E, E.sd, OD; image: none recorded. Literature row 3186: Stage 25; Literature row 3187: Stage 27-31; Literature row 3188: Stage 37-41; Literature row 3189: Stage 27-31. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

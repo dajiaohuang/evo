@@ -1,0 +1,428 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Firouzophrynus hololius (Günther, 1876)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Firouzophrynus hololius
+      zh: Firouzophrynus hololius
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b6fed1b5e7
+            part: title
+          zh:
+            page: zh
+            section: s-ee3ff8a06e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b6fed1b5e7
+            part: body
+          zh:
+            page: zh
+            section: s-ee3ff8a06e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a61552b2cc
+            part: title
+          zh:
+            page: zh
+            section: s-14d8ac2a10
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a61552b2cc
+            part: body
+          zh:
+            page: zh
+            section: s-14d8ac2a10
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-409dea6079
+            part: title
+          zh:
+            page: zh
+            section: s-8abc49c07d
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-409dea6079
+            part: body
+          zh:
+            page: zh
+            section: s-8abc49c07d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-2106cb73e00caaf4d3119c3b
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-cef8196ed853f55b450a3a8c55a8c5f5
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-19ee4ec999
+            part: title
+          zh:
+            page: zh
+            section: s-f1bfd8eb4a
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-19ee4ec999
+            part: body
+          zh:
+            page: zh
+            section: s-f1bfd8eb4a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0da9eac16e
+            part: title
+          zh:
+            page: zh
+            section: s-be0e7278ae
+            part: title
+        sourceIds:
+          - primary-pmc4740822-p2pwv
+        text:
+          en:
+            page: en
+            section: s-0da9eac16e
+            part: body
+          zh:
+            page: zh
+            section: s-be0e7278ae
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-e31597b633
+            part: title
+          zh:
+            page: zh
+            section: s-5af1235238
+            part: title
+        sourceIds:
+          - primary-pmc4740822-p2pwv
+        text:
+          en:
+            page: en
+            section: s-e31597b633
+            part: body
+          zh:
+            page: zh
+            section: s-5af1235238
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-64d8847f0c
+            part: title
+          zh:
+            page: zh
+            section: s-31fa255452
+            part: title
+        sourceIds:
+          - primary-pmc4740822-p2pwv
+        text:
+          en:
+            page: en
+            section: s-64d8847f0c
+            part: body
+          zh:
+            page: zh
+            section: s-31fa255452
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2e8d61dd96
+            part: title
+          zh:
+            page: zh
+            section: s-9c1345700f
+            part: title
+        sourceIds:
+          - primary-pmc4740822-p2pwv
+          - primary-pmc4740822-p2pwv-catalogue-alias-6dq43
+        text:
+          en:
+            page: en
+            section: s-2e8d61dd96
+            part: body
+          zh:
+            page: zh
+            section: s-9c1345700f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Firouzophrynus hololius
+          url: https://www.checklistbank.org/dataset/316115/taxon/P2PWV
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 641, 642, 643; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0582; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0582 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: primary-pmc4740822-p2pwv
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Firouzophrynus hololius: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc4740822-p2pwv-catalogue-alias-6dq43
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 usage6DQ43 acceptedP2PWV
+          scope:
+            en: Exact nomenclatural link Duttaphrynus hololius to Firouzophrynus hololius; no voucher/sequence authentication
+            zh: Duttaphrynus hololius 至 Firouzophrynus hololius 的精确命名链接；未认证凭证/序列
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc4740822-p2pwv-catalogue-alias-6dq43
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a75a8097a8
+        part: body
+      zh:
+        page: zh
+        section: s-8f27039c6b
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-2106cb73e00caaf4d3119c3b
+        scientificName: Firouzophrynus hololius
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-pmc4740822-p2pwv
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Source labelsDuttaphrynus hololius; comparisonvoucher/sequence/focal roles retainedseparately; no originalidentitycertification
+        evidenceRead: "Firouzophrynus hololius: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Evidence roles in the Andaman toad description
+              zh: 安达曼蟾蜍描述中的证据角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-p2pwv
+            locator: PMC4740822 XML Table3 idT6 rows17;App1 entries
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d9c26f8bb7
+                part: body
+              zh:
+                page: zh
+                section: s-40e26764dc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Comparative material does not supply every trait
+              zh: 比较材料并不提供全部性状
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-p2pwv
+            locator: PMC4740822 XMLsec4;sec26;App1;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7d2a8cd5b1
+                part: body
+              zh:
+                page: zh
+                section: s-813382122e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Mitochondrial sampling and phylogenetic limits
+              zh: 线粒体采样与系统树限制
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-p2pwv
+            locator: PMC4740822 XMLsec4molecularmethods;sec27;Table3idT6;Table6idT5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e89d86f546
+                part: body
+              zh:
+                page: zh
+                section: s-e9b4dfa6d6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Frozen nomenclatural correspondence retains the source label
+              zh: 冻结命名对应保留来源标签
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-p2pwv
+            locator: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/col26.8-name-bridges.json usage6DQ43
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a5123cf248
+                part: body
+              zh:
+                page: zh
+                section: s-8eb7424bbf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

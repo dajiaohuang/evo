@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega cainarachi
+  displayName: Ameerega cainarachi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ6Q
+  sourceIndexes:
+    - name:
+        en: Ameerega cainarachi
+        zh: Ameerega cainarachi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ6Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/261
+            queryName: Ameerega cainarachi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/208
+            queryName: Epipedobates cainarachi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/211
+            queryName: Epipedobates ardens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c5a7a6cb12
+      - s-f4e5edf2bc
+      - s-ea7a9bdecd
+      - s-b371d2ef88
+      - s-d136cb3c59
+      - s-a7a9cc8bdd
+      - s-c93ba597c9
+      - s-066f698f5d
+    zh:
+      - s-02ff51fb35
+      - s-34c481d6fa
+      - s-0b497d039d
+      - s-bcf7402d6f
+      - s-8d55a902e7
+      - s-a1e0663fac
+      - s-8ab2df3318
+      - s-3b2e2fce73

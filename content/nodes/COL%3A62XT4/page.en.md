@@ -1,0 +1,10 @@
+## Choose comparison pages by life-history fields {#s-6355fd1e03}
+This batch’s Lycalopex route includes 5 historical life-history accounts; start with Lycalopex culpaeus, Lycalopex fulvipes, Lycalopex griseus, Lycalopex gymnocercus, Lycalopex vetulus. More frequently represented fields include adult body mass (5 entries), offspring per litter or eggs per clutch (5 entries), conception or fertilization to birth (5 entries), longest lifespan record in the compilation (5 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
+
+## Compare food, feeding positions and activity periods {#s-b4ab23b4a1}
+This batch’s Lycalopex route includes 6 historical entries; start with Lycalopex fulvipes, Lycalopex vetulus, Lycalopex sechurae, Lycalopex griseus, Lycalopex culpaeus. Food-category weights are available in 6, foraging strata in 6, and mammalian activity periods in 6. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
+
+## Life-history evidence limits {#s-c917396e0a}
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+

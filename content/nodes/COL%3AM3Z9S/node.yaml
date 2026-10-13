@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia pulchraserrana
+  displayName: Caecilia pulchraserrana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M3Z9S
+  sourceIndexes:
+    - name:
+        en: Caecilia pulchraserrana
+        zh: Caecilia pulchraserrana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M3Z9S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/83
+            queryName: Caecilia pulchraserrana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1c59b23a28
+      - s-410fc2fd3f
+      - s-17f576d56b
+      - s-3670cd0538
+      - s-3b7c97dcab
+      - s-2c00dbef60
+      - s-e956a4dbab
+      - s-fd5bba9381
+    zh:
+      - s-f6f529c7e9
+      - s-aaa6714f1d
+      - s-6cbbf5422b
+      - s-11c741e90e
+      - s-a37c9e1a17
+      - s-6a1d264cf1
+      - s-ca1c4c2b06
+      - s-e85cfd662f

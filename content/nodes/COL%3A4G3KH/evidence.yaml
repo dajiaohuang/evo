@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pheugopedius genibarbis
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Pheugopedius genibarbis
+      en: Pheugopedius genibarbis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetPheugopediusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-f56e30c98e
+            part: body
+          en:
+            page: en
+            section: s-8ff98db34b
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetPheugopediusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-d44a02ed3d
+            part: body
+          en:
+            page: en
+            section: s-11f0ad5c0d
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetPheugopediusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-f596ecab3c
+            part: body
+          en:
+            page: en
+            section: s-5cc06481bd
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetPheugopediusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-c4cd79abe0
+            part: body
+          en:
+            page: en
+            section: s-eaa9e5e623
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetPheugopediusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-04c7ef3b4b
+            part: body
+          en:
+            page: en
+            section: s-d330bc16e1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pheugopedius genibarbis
+          url: https://www.checklistbank.org/dataset/316115/taxon/4G3KH
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetPheugopediusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Pheugopedius historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 8481–8490; each eBird and BirdTree crosswalk, phe/th COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：旧 Thryothorus 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Eight historical rows: retain older Thryothorus combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-b1ba65094b
+        part: body
+      en:
+        page: en
+        section: s-6b18dfc3c3
+        part: body

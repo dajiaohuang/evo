@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus mariposa
+  displayName: Eleutherodactylus mariposa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399G2
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus mariposa
+        zh: Eleutherodactylus mariposa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399G2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/264
+            queryName: Eleutherodactylus mariposa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a607ea396
+      - s-d8fbf84756
+      - s-8622934bfe
+      - s-2b81c3d440
+      - s-384072b76f
+      - s-59df7ae8eb
+      - s-b565acab5f
+      - s-684103aa10
+      - s-8faf50b2c1
+      - s-7829cab8a8
+    zh:
+      - s-a36eed7ee6
+      - s-90288bf632
+      - s-9e6faea5e6
+      - s-1af8f1cbc6
+      - s-34608276b2
+      - s-bd4338a714
+      - s-a55999860b
+      - s-e9995d1b3d
+      - s-50e76e7fa8
+      - s-254ac776ec

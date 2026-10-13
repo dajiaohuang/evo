@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus humboldti
+  displayName: Eleutherodactylus humboldti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NNM5T
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus humboldti
+        zh: Eleutherodactylus humboldti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NNM5T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/231
+            queryName: Eleutherodactylus humboldti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fad9ac8bcb
+      - s-f5591b5753
+      - s-27d87fb9b6
+      - s-38c69ede01
+      - s-77b122c410
+      - s-02e1bdb372
+      - s-3a7d7ea9aa
+      - s-7752cba26d
+      - s-b049bf2f80
+      - s-4305981def
+      - s-fbbeba27bc
+      - s-adb0327feb
+      - s-cdd6758fe7
+    zh:
+      - s-838415cd5c
+      - s-a1456007ed
+      - s-703074af98
+      - s-c434857c29
+      - s-628ba188c6
+      - s-b2e4e23f1d
+      - s-877163adad
+      - s-c639d27d8e
+      - s-70bc48c940
+      - s-a38b6bdb62
+      - s-3a84ba639c
+      - s-c394bf4f28
+      - s-300a27ae91

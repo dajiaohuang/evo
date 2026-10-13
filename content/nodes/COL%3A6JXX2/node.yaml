@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca fulvorufa
+  displayName: Gastrotheca fulvorufa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JXX2
+  sourceIndexes:
+    - name:
+        en: Gastrotheca fulvorufa
+        zh: Gastrotheca fulvorufa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JXX2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/39
+            queryName: Gastrotheca fulvorufa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/262
+            queryName: Nototrema fulvorufa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/211
+            queryName: Hyla parkeriana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-68f42e9ff5
+      - s-c5079b786f
+      - s-715569b7b7
+      - s-bc7d48132f
+      - s-42d811a226
+      - s-3403acb358
+      - s-877e9f1852
+      - s-55e5342375
+      - s-6de99c5f50
+      - s-261f7d06bc
+      - s-bf1b741b41
+      - s-49526ead79
+    zh:
+      - s-babb545073
+      - s-2b82d24c51
+      - s-01e68a48b0
+      - s-fb947db1ce
+      - s-cf2b68c762
+      - s-77c9c6a3db
+      - s-e75b8ff1e3
+      - s-452aff6531
+      - s-2641646cde
+      - s-ef51213be7
+      - s-a8d0855a25
+      - s-3a929596e1

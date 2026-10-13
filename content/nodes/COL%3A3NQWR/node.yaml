@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius occidentalis
+  displayName: Hyperolius occidentalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQWR
+  sourceIndexes:
+    - name:
+        en: Hyperolius occidentalis
+        zh: Hyperolius occidentalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQWR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/304
+            queryName: Hyperolius occidentalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb48482e28
+      - s-24decae8be
+      - s-9a57bbf9b3
+      - s-aa64bf3a16
+      - s-f5dfbe7a4a
+      - s-85b51eb459
+      - s-5c59217fa3
+      - s-531c77be96
+    zh:
+      - s-fcfeac4b82
+      - s-d4797b8d3c
+      - s-370b951aac
+      - s-168c7b7636
+      - s-ad90afd687
+      - s-6e8e6e03d5
+      - s-854726d032
+      - s-41e4ce44aa

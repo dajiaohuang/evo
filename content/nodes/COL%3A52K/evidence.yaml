@@ -1,0 +1,140 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendrobatoidea Cope, 1865
+    rank: superfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Dendrobatoidea
+      zh: Dendrobatoidea
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-45560c50de
+            part: title
+          zh:
+            page: zh
+            section: s-f6ef26b961
+            part: title
+        text:
+          en:
+            page: en
+            section: s-45560c50de
+            part: body
+          zh:
+            page: zh
+            section: s-f6ef26b961
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-21e24eb390
+            part: title
+          zh:
+            page: zh
+            section: s-0e4acbfd8a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-21e24eb390
+            part: body
+          zh:
+            page: zh
+            section: s-0e4acbfd8a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-d16b3bd27f
+            part: title
+          zh:
+            page: zh
+            section: s-ed0e9a5ab8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6QV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6QV
+            label:
+              en: Aromobatidae
+              zh: Aromobatidae
+          - kind: catalogue
+            colId: 93G
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A93G
+            label:
+              en: Dendrobatidae
+              zh: Dendrobatidae
+        text:
+          en:
+            page: en
+            section: s-d16b3bd27f
+            part: body
+          zh:
+            page: zh
+            section: s-ed0e9a5ab8
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-d753f1a8f0
+            part: body
+          zh:
+            page: zh
+            section: s-08f841b737
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendrobatoidea
+          url: https://www.checklistbank.org/dataset/316115/taxon/52K
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3e727d6d5a
+        part: body
+      zh:
+        page: zh
+        section: s-9503a0cba7
+        part: body

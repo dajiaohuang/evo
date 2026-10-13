@@ -1,0 +1,212 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Phacopida
+    commonName: Phacopids
+    commonNameZh: 镜眼虫类
+    rank: order
+    taxonId: txn:21421
+    firstAppearance: 488
+    lastAppearance: 359
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: txn:21421
+    scientificName: Phacopida
+    commonName: Phacopids
+    commonNameZh: 镜眼虫类
+    rank: order
+    parentName: Trilobita
+    extinct: true
+    geography:
+      - Siluro-Devonian Phacopidae material and ontogenetic series in Crônier et al.
+      - Sampled trilobite systematics reviewed by Fortey
+    overview:
+      page: en
+      section: s-bf72410380
+      part: body
+    overviewZh:
+      page: zh
+      section: s-94f65412ec
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-707203e256
+        part: body
+      habitat:
+        page: en
+        section: s-079167d39c
+        part: body
+      locomotion:
+        page: en
+        section: s-f82cfc50c2
+        part: body
+      bodySize:
+        page: en
+        section: s-c53a8fa9ee
+        part: body
+      guild:
+        page: en
+        section: s-1639df6c68
+        part: body
+      dietZh:
+        page: zh
+        section: zh-bb571f8ee8e3a1
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-2368c69bf97f9c
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-920b378567be9f
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-592ad066115259
+        part: body
+      guildZh:
+        page: zh
+        section: zh-485aa43f4b3b64
+        part: body
+    traits:
+      - page: en
+        section: s-24bf0d8925
+        part: body
+      - page: en
+        section: s-0f8fa0f24f
+        part: body
+      - page: en
+        section: s-c986bb1971
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-cc7dfb0609
+      part: body
+    readerLimitations:
+      en:
+        page: en
+        section: s-339041f793
+        part: body
+      zh:
+        page: zh
+        section: s-318973a857
+        part: body
+    confidence: medium
+    referenceIds:
+      - cronier-2011-phacopidae-species
+      - fortey-2001-trilobite-systematics
+    evidenceSummaryZh:
+      page: zh
+      section: zh-8ceb5c0a4ff085
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-98b060b31dc289
+        part: body
+      - page: zh
+        section: zh-5187ae4cd64350
+        part: body
+      - page: zh
+        section: zh-e2aed307e94cef
+        part: body
+  claims:
+    - subjectId: taxon:phacopida
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Siluro-Devonian phacopid morphology and ontogeny provide an explicit worked sample for diagnosing species within Phacopida. The study samples Phacopidae and neither revises every phacopid lineage nor fixes order-wide temporal endpoints.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded taxonomy statement at the supplied locator. The confidence does not extend beyond the study samples Phacopidae and neither revises every phacopid lineage nor fixes order-wide temporal endpoints.
+      referenceLinks:
+        - relation: supports
+          referenceId: cronier-2011-phacopidae-species
+          pages: 143–153
+          figure: Figures 1–6; Tables 1–2
+          quoteLocator: Morphological criteria; ontogenetic series; species delimitation
+    - subjectId: taxon:phacopida
+      claimKind: scientific
+      claimType: morphology
+      statement: Crônier et al. use morphological and ontogenetic characters to delimit Siluro-Devonian Phacopidae species; these observations are a bounded family sample, not universal phacopid anatomy.
+      confidence: medium
+      confidenceRationale: The primary study directly documents the scored exoskeletal characters and ontogenetic series, while its family- and species-level scope limits order-wide generalization.
+      referenceLinks:
+        - referenceId: cronier-2011-phacopidae-species
+          relation: supports
+          pages: 143-153
+          figure: Figures 1-6; Tables 1-2
+          quoteLocator: Morphological and ontogenetic criteria for Phacopidae species delimitation
+    - subjectId: taxon:phacopida
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The former 488-359 Ma Phacopida display is withheld because the available primary study treats Siluro-Devonian Phacopidae rather than an order-wide first and last occurrence synthesis; no numerical global range is assigned here.
+      confidence: low
+      confidenceRationale: The cited study directly documents a Siluro-Devonian family- and species-scoped sample, but it cannot establish order-wide temporal endpoints.
+      referenceLinks:
+        - referenceId: cronier-2011-phacopidae-species
+          relation: supports
+          pages: 143-153
+          figure: Figures 1-6; Tables 1-2
+          quoteLocator: Siluro-Devonian Phacopidae scope; no order-wide temporal synthesis
+    - subjectId: taxon:phacopida
+      claimKind: scientific
+      claimType: biogeography
+      statement: Crônier et al. document Siluro-Devonian Phacopidae material and ontogenetic series, while Fortey reviews sampled trilobite systematics; these records are regional and taxon-sampled rather than a complete geographic distribution of Phacopida.
+      confidence: medium
+      confidenceRationale: The primary case study and systematic review identify their included taxa and material, but neither surveys presence and absence across all Phacopida.
+      referenceLinks:
+        - referenceId: cronier-2011-phacopidae-species
+          relation: supports
+          pages: 143-153
+          figure: Figures 1-6; Tables 1-2
+          quoteLocator: Siluro-Devonian Phacopidae material and ontogenetic sampling
+        - referenceId: fortey-2001-trilobite-systematics
+          relation: supports
+          pages: 1141-1154
+          figure: Systematics review
+          quoteLocator: Sampled trilobite classification and unresolved order-level boundaries
+    - subjectId: taxon:phacopida
+      claimKind: scientific
+      claimType: ecology
+      statement: The cited phacopid taxonomy studies focus on morphology, ontogeny and classification, not diet, habitat use, locomotor performance, body size or ecological guild; those fields remain unassigned for Phacopida here.
+      confidence: high
+      confidenceRationale: The source designs are explicitly taxonomic and morphological, so withholding ecological fields avoids converting classification samples into observed behaviour or a uniform order ecology.
+      referenceLinks:
+        - referenceId: cronier-2011-phacopidae-species
+          relation: supports
+          pages: 143-153
+          figure: Figures 1-6; Tables 1-2
+          quoteLocator: Morphological and ontogenetic study scope
+        - referenceId: fortey-2001-trilobite-systematics
+          relation: supports
+          pages: 1141-1154
+          figure: Systematics review
+          quoteLocator: Classification review without an order-wide ecology dataset
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的分类表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - Crônier 等利用形态与个体发育性状划分志留纪—泥盆纪镜眼虫科物种；这些观察是有界的科级样本，不是普遍的镜眼虫目解剖。
+    - 原先的 488—359 Ma 镜眼虫目显示已被撤回，因为现有一手研究处理的是志留纪—泥盆纪镜眼虫科，而不是整个目级类群的首末出现综合；这里不指定全球数值延限。
+    - Crônier 等记录了志留纪—泥盆纪镜眼虫科材料与个体发育系列，Fortey 则综述了取样的三叶虫系统学；这些记录是区域性和类群取样的，不是镜眼虫目的完整地理分布。
+    - 所引镜眼虫分类研究聚焦形态、个体发育和分类，而非食性、栖息地利用、运动性能、体型或生态营养类群；这些字段在此对镜眼虫目保留未赋值。
+  claim-statements.zh:
+    - 志留纪—泥盆纪镜眼虫科的形态与个体发育材料，为镜眼虫目内部的物种识别提供了一个明确实例。该研究只抽样镜眼虫科，既未修订镜眼虫目的全部谱系，也未确定全目的时间端点。
+  ranges:
+    - entityId: phacopida
+      rangeKind: global-composite
+      taxonomicConcept: Phacopida numerical range withheld pending order-wide range evidence
+      geographicScope: No defensible global numerical scope established
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The cited Phacopidae study is family- and species-scoped and cannot bound the order.
+      evidenceBasis: The former 488–359 Ma display is withheld because the available primary study treats Siluro-Devonian Phacopidae rather than an order-wide first and last occurrence synthesis.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: cronier-2011-phacopidae-species
+          locator: pp. 143–153; Figures 1–6; Tables 1–2; Siluro-Devonian Phacopidae species and ontogeny only
+      evidenceLevel: withheld-no-range-evidence

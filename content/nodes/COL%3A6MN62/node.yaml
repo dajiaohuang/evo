@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana raniceps
+  displayName: Hylarana raniceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MN62
+  sourceIndexes:
+    - name:
+        en: Hylarana raniceps
+        zh: Hylarana raniceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MN62
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/469
+            queryName: Hylarana raniceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/183
+            queryName: Rana raniceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/56
+            queryName: Polypedates raniceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/57
+            queryName: Hydrophylax raniceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/413
+            queryName: Rana chalconota raniceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/164
+            queryName: Chalcorana raniceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8759a275f7
+      - s-61c69eb534
+      - s-0fa1784425
+      - s-c01008c93f
+      - s-f33f0b3b94
+      - s-019087873d
+      - s-c4a9fb4fd4
+      - s-40984ab1c1
+      - s-9ec2717d9b
+      - s-8229937c22
+      - s-cc842bfe7e
+    zh:
+      - s-e746279eda
+      - s-df6006cc9c
+      - s-77a30cd0a0
+      - s-249fbf190a
+      - s-84f2193226
+      - s-8d91bac4e5
+      - s-75527c8018
+      - s-cc2f315412
+      - s-1e2c19a2e1
+      - s-5624f8ad20
+      - s-5d78a86d2d

@@ -1,0 +1,311 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Propithecus Bennett, 1832
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Sifakas
+      zh: 西法卡属
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-90954fc645
+            part: body
+          zh:
+            page: zh
+            section: s-fabb07939a
+            part: body
+        sourceIds:
+          - taxonomy
+          - banks2007
+          - josoa2023
+          - quemere2013
+          - irwin2008
+          - mills2021
+          - gerber2012
+          - greene2021
+          - salmona2014
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-bcd5220f56
+            part: body
+          en:
+            page: en
+            section: s-a9b1d65bc4
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-c527e446d2
+            part: body
+          en:
+            page: en
+            section: s-2823b2951c
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-1370867028
+            part: body
+          en:
+            page: en
+            section: s-f6c9b2f17b
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-b982314229
+            part: body
+          en:
+            page: en
+            section: s-939bb2064c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Propithecus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6WXL
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: banks2007
+        referenceId: ref-444c3342-d0c3-8cf2-a17c-1d6f207a80be
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Line-transect surveys conducted in 2003–2004 and remote-sensing comparison of 1994 and 2002 Landsat imagery; abundance estimates are historical and model-dependent.
+            zh: 支持 2003—2004 年样线调查及 1994、2002 年 Landsat 影像比较；数量估算具有年代与模型边界。
+      - id: josoa2023
+        referenceId: ref-57ffe409-ce7b-8099-a81f-755de0b4f872
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Focal observations of eight groups in two protected areas during 2017–2018; findings describe those monitored groups and the article’s methods.
+            zh: 支持 2017—2018 年在两个保护区对八群的焦点观察；结论限于这些群体与论文方法。
+      - id: quemere2013
+        referenceId: ref-0294dc10-a356-8729-a84b-db894f43ace7
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Dry-season fecal sampling from 96 individuals across the mapped range of golden-crowned sifakas, analyzed with trnL metabarcoding; taxon counts and habitat associations are study results.
+            zh: 支持金冠西法卡分布区内 96 个体的旱季粪便 trnL 条形码分析；食物类群数与生境关联均为该研究结果。
+      - id: irwin2008
+        referenceId: ref-1d38b6d3-c1b8-893a-a981-226466a5618e
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 12-month comparison of two groups in continuous forest and two groups in fragments at Tsinjoarivo, eastern Madagascar.
+            zh: 支持马达加斯加东部 Tsinjoarivo 连续林两群与林斑两群的 12 个月比较。
+      - id: mills2021
+        referenceId: ref-c669b4bf-062b-8eab-acc7-ed251eb2b839
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 10-month sleeping-tree study of one wild group in Marojejy National Park; observations test site-selection hypotheses at that group and site.
+            zh: 支持 Marojejy 国家公园一个野生群体 10 个月的睡眠树研究；观察用于检验该群体和地点的栖点假设。
+      - id: gerber2012
+        referenceId: ref-2e4cc98d-d522-8d62-a309-b10fd3490aee
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Daily, seasonal and annual space-use comparison of groups at logged and unlogged Ranomafana rainforest sites from December 2002 to November 2003.
+            zh: 支持 2002 年 12 月至 2003 年 11 月 Ranomafana 受伐与未伐雨林地点的群体日、季节和年度空间利用比较。
+      - id: greene2021
+        referenceId: ref-c7d6015e-5533-8033-a5a1-3d56126985c8
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Amplicon and metagenomic analysis of fecal samples from two wild and one captive population, each with multiple groups; microbiome comparisons do not substitute for a field diet study.
+            zh: 支持两个野生与一个圈养种群（各含多个群体）的粪便扩增子和宏基因组分析；微生物组比较不等同于野外食谱研究。
+      - id: salmona2014
+        referenceId: ref-22151c87-ae07-881c-a4ee-633d3f95a145
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Presence–absence surveys of 70 forest fragments and 12 corridors around 19 northwestern Madagascar sites in 2009–2010, plus line-transect density surveys at six localities; full-range abundance extrapolation is explicitly difficult.
+            zh: 支持 2009—2010 年马达加斯加西北部 19 个地点周围 70 片森林和 12 条廊道的有无调查，以及六处样线密度调查；论文明确指出全分布区数量外推困难。
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Propithecus by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 7 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 7
+            foraging: 7
+            activity: 7
+          readingTargets:
+            - name: Propithecus edwardsi
+              colId: 789PY
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A789PY
+            - name: Propithecus verreauxi
+              colId: 77XPX
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A77XPX
+            - name: Propithecus perrieri
+              colId: 6VXQ9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6VXQ9
+            - name: Propithecus deckenii
+              colId: 6W9PY
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6W9PY
+            - name: Propithecus coquereli
+              colId: 789RX
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A789RX
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-238b51e54d
+        part: body
+      zh:
+        page: zh
+        section: s-962f5ce44f
+        part: body

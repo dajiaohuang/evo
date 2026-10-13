@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor daryi
+  displayName: Craugastor daryi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCDR
+  sourceIndexes:
+    - name:
+        en: Craugastor daryi
+        zh: Craugastor daryi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCDR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/110
+            queryName: Craugastor daryi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/327
+            queryName: Eleutherodactylus daryi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4db8d78e1c
+      - s-703fd93aa3
+      - s-0acffb1366
+      - s-38bd3dada9
+      - s-36e0f1cc2e
+      - s-e1e023128a
+      - s-bd12ee8ab9
+      - s-6db60c0f5e
+      - s-b1a3ac55f4
+      - s-4a7db74782
+      - s-41c3e8f8ad
+    zh:
+      - s-99eb762ec9
+      - s-406f1952ff
+      - s-eb75094d6d
+      - s-20f91d53f7
+      - s-aed5e448d3
+      - s-e0d7bee46d
+      - s-6406065f35
+      - s-235e4d1c28
+      - s-a3c67c8d0f
+      - s-1e5c2235cf
+      - s-cac47ed1df

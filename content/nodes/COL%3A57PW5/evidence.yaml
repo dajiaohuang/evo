@@ -1,0 +1,349 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trachycephalus quadrangulum (Boulenger, 1882)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Trachycephalus quadrangulum
+      zh: Trachycephalus quadrangulum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d3ba09819e
+            part: title
+          zh:
+            page: zh
+            section: s-16ebd9afb0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d3ba09819e
+            part: body
+          zh:
+            page: zh
+            section: s-16ebd9afb0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7c48f344d2
+            part: title
+          zh:
+            page: zh
+            section: s-f657b4f461
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7c48f344d2
+            part: body
+          zh:
+            page: zh
+            section: s-f657b4f461
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-0ee6188b1b
+            part: title
+          zh:
+            page: zh
+            section: s-d0f34b5eee
+            part: title
+        sourceIds:
+          - primary-pmc13149743-57pw5
+        text:
+          en:
+            page: en
+            section: s-0ee6188b1b
+            part: body
+          zh:
+            page: zh
+            section: s-d0f34b5eee
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-83855f1d06
+            part: title
+          zh:
+            page: zh
+            section: s-867d8fb304
+            part: title
+        sourceIds:
+          - primary-pmc13149743-57pw5
+        text:
+          en:
+            page: en
+            section: s-83855f1d06
+            part: body
+          zh:
+            page: zh
+            section: s-867d8fb304
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-9b36287fca
+            part: title
+          zh:
+            page: zh
+            section: s-b2e14e0fe8
+            part: title
+        sourceIds:
+          - primary-pmc13149743-57pw5
+        text:
+          en:
+            page: en
+            section: s-9b36287fca
+            part: body
+          zh:
+            page: zh
+            section: s-b2e14e0fe8
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-467586c00c
+            part: title
+          zh:
+            page: zh
+            section: s-66e96b199b
+            part: title
+        sourceIds:
+          - primary-pmc13149743-57pw5
+        text:
+          en:
+            page: en
+            section: s-467586c00c
+            part: body
+          zh:
+            page: zh
+            section: s-66e96b199b
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-48154ba114
+            part: title
+          zh:
+            page: zh
+            section: s-898fb8fbd2
+            part: title
+        sourceIds:
+          - primary-pmc13149743-57pw5
+        text:
+          en:
+            page: en
+            section: s-48154ba114
+            part: body
+          zh:
+            page: zh
+            section: s-898fb8fbd2
+            part: body
+      - topic: limitations
+        title:
+          en: Scope of these records
+          zh: 现有证据的范围
+        text:
+          en:
+            page: en
+            section: s-07efcc1313
+            part: body
+          zh:
+            page: zh
+            section: s-e9f283d8e1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Trachycephalus quadrangulum
+          url: https://www.checklistbank.org/dataset/316115/taxon/57PW5
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc13149743-57pw5
+        referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Trachycephalus quadrangulum: XML Materials/Methods2.1–2.3, Results, Table3 amphibian rows/caption/footnote, Discussion4.1–4.4 and supplementary captions read; publisherS1request403/PMCbinary404 recorded. AppendicesS1/S2/S3/S4, originalvouchers, individualrecords, speciesphotos, GISlayers andcurrentassessments notindependentlyreconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-150e8f5dd4
+        part: body
+      zh:
+        page: zh
+        section: s-c6899f928e
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1002/ece3.73504
+        referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+        sourceKey: primary-pmc13149743-57pw5
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13149743/article.xml
+        sourceConcept: 2026 source-labelled Trachycephalus quadrangulum combined2008–2025urban/periurban inventory; exact-name candidate not certified vouchers/contemporary concepts
+        evidenceRead: "Trachycephalus quadrangulum: XML Materials/Methods2.1–2.3, Results, Table3 amphibian rows/caption/footnote, Discussion4.1–4.4 and supplementary captions read; publisherS1request403/PMCbinary404 recorded. AppendicesS1/S2/S3/S4, originalvouchers, individualrecords, speciesphotos, GISlayers andcurrentassessments notindependentlyreconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A mixed-source urban and periurban checklist record
+              zh: 混合来源城市及城郊名册记录
+            referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+            sourceKey: primary-pmc13149743-57pw5
+            locator: PMC13149743 XML Table3 bodyrow16 Trachycephalus quadrangulum*; Methods2.1–2.3; Table2 notes
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6a9416d81d
+                part: body
+              zh:
+                page: zh
+                section: s-ae599b0a27
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Global and Ecuadorian risk categories preserve different scales
+              zh: 全球及厄瓜多尔风险类别保留不同尺度
+            referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+            sourceKey: primary-pmc13149743-57pw5
+            locator: PMC13149743 XML Table3 row16 IUCN/ERL; Methods2.3; Results conservation totals
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4804a5c88d
+                part: body
+              zh:
+                page: zh
+                section: s-e743b845a5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Presence and land-cover estimates do not demonstrate urban adaptation
+              zh: 出现及土地覆盖估计不证明城市适应
+            referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+            sourceKey: primary-pmc13149743-57pw5
+            locator: PMC13149743 XML Methods2.1–2.3; Figures1–2 captions; Results; Discussion4.2–4.4; supplementary captions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f9b49118cd
+                part: body
+              zh:
+                page: zh
+                section: s-d8d343aa3b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: biogeography
+            heading:
+              en: A country-endemism flag is distinct from city restriction
+              zh: 国家特有标记区别于城市限制
+            referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+            sourceKey: primary-pmc13149743-57pw5
+            locator: PMC13149743 XML Table3 row16 asterisk/footnote; Methods2.3; Results
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3826b28a95
+                part: body
+              zh:
+                page: zh
+                section: s-0655a3312b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: taxonomy
+            heading:
+              en: A source-listed type locality is not a present range boundary
+              zh: 来源列出模式产地区别于当前范围边界
+            referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+            sourceKey: primary-pmc13149743-57pw5
+            locator: PMC13149743 XML Table3 row16 Type locality; Table4 typeflags; Discussion4.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f6f062cdeb
+                part: body
+              zh:
+                page: zh
+                section: s-eceb7cb841
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

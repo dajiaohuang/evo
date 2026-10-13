@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-81b31e7832}
+The version 3 Amphibian database lists Megophrys flavipunctata in a source measurement table. Its classification fields read order = Anura, family = Megophryidae, genus = Megophrys; the linked citation is in Reference.csv row 767. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-20eba0b096}
+Anura.csv rows 3083, 3084 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 3083 (F) = 70.2, row 3084 (M) = 63.8; HL: row 3083 (F) = 27.66666667, row 3084 (M) = 24.3; HW: row 3083 (F) = 27.53333333, row 3084 (M) = 24.55; other populated codes are ED, TD, ETD, IOD, IND, UEW, EN, SL, NS, HAL, FLL, LAL, … (19 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

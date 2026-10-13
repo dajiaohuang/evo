@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon shenandoah
+  displayName: Plethodon shenandoah
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VPVX
+  sourceIndexes:
+    - name:
+        en: Plethodon shenandoah
+        zh: Plethodon shenandoah
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VPVX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/491
+            queryName: Plethodon shenandoah
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/429
+            queryName: Plethodon richmondi shenandoah
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/430
+            queryName: Plethodon nettingi shenandoah
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5783ecfb6a
+      - s-d4567f847c
+      - s-789f887e8b
+      - s-40187e4361
+      - s-ae8a6f3304
+      - s-a15a475964
+      - s-f0788302dd
+      - s-36783e957a
+      - s-8a381cdb5e
+    zh:
+      - s-1ab494b7fd
+      - s-588b3f2e7a
+      - s-be2cf114f2
+      - s-8b99409463
+      - s-18a51d1cc5
+      - s-325457264c
+      - s-03209a0ca7
+      - s-1d42c4c121
+      - s-738a32401f

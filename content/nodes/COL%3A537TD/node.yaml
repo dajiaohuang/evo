@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stumpffia tridactyla
+  displayName: Stumpffia tridactyla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/537TD
+  sourceIndexes:
+    - name:
+        en: Stumpffia tridactyla
+        zh: Stumpffia tridactyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 537TD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/386
+            queryName: Stumpffia tridactyla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/159
+            queryName: Rhombophryne tridactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d6f627a92
+      - s-8a4c574a3b
+      - s-dbd1740ad9
+      - s-13d82dab47
+      - s-086816c1de
+      - s-d605eaeef3
+      - s-13a811d63e
+      - s-44cbeac1d6
+      - s-61a66341da
+      - s-0eddc8bc57
+    zh:
+      - s-51565252f2
+      - s-21000903b4
+      - s-5842322e6d
+      - s-7ce53c6644
+      - s-dab1a640f3
+      - s-cc84f4c665
+      - s-08b0a91b4f
+      - s-5cf4b2ad12
+      - s-584ebb155e
+      - s-06b4097704

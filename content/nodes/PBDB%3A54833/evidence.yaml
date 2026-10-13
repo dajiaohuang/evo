@@ -1,0 +1,587 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Tyrannosaurus rex
+    commonName: T. rex
+    commonNameZh: 霸王龙
+    rank: species
+    taxonId: txn:54833
+    firstAppearance: 68
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Tyrannosaurus rex
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Tyrannosaurus rex
+      en: Tyrannosaurus rex
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-91205cabb4
+            part: body
+          en:
+            page: en
+            section: s-4d121a2afc
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4071e715dd
+            part: body
+          en:
+            page: en
+            section: s-c5936c8a26
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-58cc6d2ca3
+            part: body
+          en:
+            page: en
+            section: s-6591e54cc9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d6375555b0
+            part: body
+          en:
+            page: en
+            section: s-54bb14787a
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-26b3930b4f
+            part: body
+          en:
+            page: en
+            section: s-5d7c64d835
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Tyrannosaurus rex
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=54833&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:54833; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:54833
+          selectedOccurrenceIds:
+            - occ:139292
+            - occ:220009
+            - occ:280101
+            - occ:401751
+            - occ:457806
+            - occ:457816
+            - occ:457841
+            - occ:457862
+            - occ:457881
+            - occ:457902
+            - occ:457914
+            - occ:457927
+            - occ:457946
+            - occ:457975
+            - occ:457986
+            - occ:458111
+            - occ:458207
+            - occ:458213
+            - occ:458258
+            - occ:458288
+            - occ:458292
+            - occ:459864
+            - occ:459975
+            - occ:460445
+            - occ:460473
+            - occ:460480
+            - occ:460503
+            - occ:464520
+            - occ:487164
+            - occ:487166
+            - occ:487593
+            - occ:490989
+            - occ:491014
+            - occ:491021
+            - occ:491030
+            - occ:491043
+            - occ:519729
+            - occ:529533
+            - occ:566954
+            - occ:577480
+            - occ:577481
+            - occ:646548
+            - occ:690124
+            - occ:692635
+            - occ:700704
+            - occ:700725
+            - occ:702708
+            - occ:702767
+            - occ:1093504
+            - occ:1093548
+            - occ:1123288
+            - occ:1179394
+            - occ:1199943
+            - occ:1210694
+            - occ:1210695
+            - occ:1210698
+            - occ:1350466
+            - occ:1372226
+            - occ:1584410
+            - occ:1588479
+            - occ:1599636
+            - occ:1625433
+            - occ:1688887
+            - occ:2069689
+          selectedCollectionIds:
+            - col:11917
+            - col:22657
+            - col:26760
+            - col:38544
+            - col:45098
+            - col:45099
+            - col:14610
+            - col:45102
+            - col:45109
+            - col:45111
+            - col:45112
+            - col:45114
+            - col:45118
+            - col:45126
+            - col:45128
+            - col:45136
+            - col:45138
+            - col:45141
+            - col:45144
+            - col:45145
+            - col:45146
+            - col:45299
+            - col:45312
+            - col:45381
+            - col:45388
+            - col:45389
+            - col:45390
+            - col:45878
+            - col:48848
+            - col:48847
+            - col:49005
+            - col:49523
+            - col:49535
+            - col:49538
+            - col:49539
+            - col:49547
+            - col:52871
+            - col:54105
+            - col:48193
+            - col:60766
+            - col:47034
+            - col:74175
+            - col:14674
+            - col:75284
+            - col:75286
+            - col:75432
+            - col:75446
+            - col:137722
+            - col:137728
+            - col:142325
+            - col:14526
+            - col:155214
+            - col:157187
+            - col:157188
+            - col:157189
+            - col:183109
+            - col:223935
+            - col:224484
+            - col:226054
+            - col:227186
+            - col:239512
+            - col:279858
+          sourceReferenceIds:
+            - ref:4218
+            - ref:5721
+            - ref:7389
+            - ref:10350
+            - ref:11749
+            - ref:9259
+            - ref:54064
+            - ref:13266
+            - ref:51520
+            - ref:10608
+            - ref:14627
+            - ref:82296
+            - ref:17469
+            - ref:23444
+            - ref:2333
+            - ref:2236
+            - ref:42536
+            - ref:46207
+            - ref:48569
+            - ref:82620
+            - ref:61095
+            - ref:62838
+            - ref:80625
+            - ref:81886
+            - ref:31715
+            - ref:91309
+            - ref:95670
+          originalIdentificationMappings:
+            - occurrenceId: occ:401751
+              originalIdentifiedName: Aublysodon molnaris n. sp.
+              acceptedName: Tyrannosaurus rex
+              difference: null
+            - occurrenceId: occ:464520
+              originalIdentifiedName: Dynamosaurus imperiosus n. gen. n. sp.
+              acceptedName: Tyrannosaurus rex
+              difference: null
+            - occurrenceId: occ:487593
+              originalIdentifiedName: Tyrannosaurus rex n. gen. n. sp.
+              acceptedName: Tyrannosaurus rex
+              difference: null
+            - occurrenceId: occ:566954
+              originalIdentifiedName: Tyrannosaurus regina
+              acceptedName: Tyrannosaurus rex
+              difference: null
+            - occurrenceId: occ:577481
+              originalIdentifiedName: Albertosaurus megagracilis n. sp.
+              acceptedName: Tyrannosaurus rex
+              difference: null
+            - occurrenceId: occ:690124
+              originalIdentifiedName: Tyrannosaurus imperator
+              acceptedName: Tyrannosaurus rex
+              difference: null
+            - occurrenceId: occ:1210694
+              originalIdentifiedName: Tyrannosaurus regina n. sp.
+              acceptedName: Tyrannosaurus rex
+              difference: null
+            - occurrenceId: occ:1210695
+              originalIdentifiedName: Tyrannosaurus regina
+              acceptedName: Tyrannosaurus rex
+              difference: null
+            - occurrenceId: occ:1210698
+              originalIdentifiedName: Tyrannosaurus imperator n. sp.
+              acceptedName: Tyrannosaurus rex
+              difference: null
+            - occurrenceId: occ:1584410
+              originalIdentifiedName: Tyrannosaurus regina
+              acceptedName: Tyrannosaurus rex
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4e69819173
+        part: body
+      en:
+        page: en
+        section: s-41029f39fd
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:54833
+    scientificName: Tyrannosaurus rex
+    commonName: Tyrannosaurus rex
+    commonNameZh: 霸王龙
+    rank: species
+    parentName: Tyrannosauridae
+    extinct: true
+    geography:
+      - Western North America
+      - Hell Creek, Lance and age-equivalent latest Maastrichtian formations
+    overview:
+      page: en
+      section: s-4fe86123a6
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-c416f69fa2
+        part: body
+      habitat:
+        page: en
+        section: s-7f6bad4840
+        part: body
+      locomotion:
+        page: en
+        section: s-2472b8c5b7
+        part: body
+      bodySize:
+        page: en
+        section: s-48f6ec6f0d
+        part: body
+      guild:
+        page: en
+        section: s-4888c470aa
+        part: body
+    traits:
+      - page: en
+        section: s-32df0941d7
+        part: body
+      - page: en
+        section: s-95827ee2cc
+        part: body
+      - page: en
+        section: s-76ef6e7f1c
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-6a14b1ce8e
+      part: body
+    confidence: medium
+    referenceIds:
+      - horner-2011-hell-creek-dinosaur-census
+      - carr-2020-tyrannosaurus-growth-series
+      - gignac-2017-tyrannosaurus-osteophagy
+      - loewen-2013-tyrannosaur-biogeography
+    readerSections:
+      - id: specimens-traces-and-models
+        title:
+          en:
+            page: en
+            section: s-5e24e21147
+            part: title
+          zh:
+            page: zh
+            section: s-cb37f61277
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5e24e21147
+            part: body
+          zh:
+            page: zh
+            section: s-cb37f61277
+            part: body
+        sourceIds:
+          - horner-2011-hell-creek-dinosaur-census
+          - carr-2020-tyrannosaurus-growth-series
+          - gignac-2017-tyrannosaurus-osteophagy
+          - loewen-2013-tyrannosaur-biogeography
+    readerSources:
+      - id: horner-2011-hell-creek-dinosaur-census
+        referenceId: horner-2011-hell-creek-dinosaur-census
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: Figure 1; Tables 1 and S1–S6; locality census | Figure 1; Locality and stratigraphic census
+          scope:
+            en: "Tyrannosaurus rex: Figure 1; Tables 1 and S1–S6; locality census | Figure 1; Locality and stratigraphic census. Limited to the cited specimens, samples or analyses."
+            zh: Tyrannosaurus rex：原文定位 Figure 1; Tables 1 and S1–S6; locality census | Figure 1; Locality and stratigraphic census。本文仅使用所引标本、样本或分析的对应结果。
+      - id: carr-2020-tyrannosaurus-growth-series
+        referenceId: carr-2020-tyrannosaurus-growth-series
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: "Figure 2; Abstract; Methods: specimen sample and cladistic analysis; Results: ontogram and growth categories; Tables 1–4 | Figures 2 and 6–10; Abstract; Methods: specimen sample; Results: ontogram and growth categories; character dataset and specimen catalogue"
+          scope:
+            en: "Tyrannosaurus rex: Figure 2; Abstract; Methods: specimen sample and cladistic analysis; Results: ontogram and growth categories; Tables 1–4 | Figures 2 and 6–10; Abstract; Methods: specimen sample; Results: ontogram and growth categories; character dataset and specimen catalogue. Limited to the cited specimens, samples or analyses."
+            zh: "Tyrannosaurus rex：原文定位 Figure 2; Abstract; Methods: specimen sample and cladistic analysis; Results: ontogram and growth categories; Tables 1–4 | Figures 2 and 6–10; Abstract; Methods: specimen sample; Results: ontogram and growth categories; character dataset and specimen catalogue。本文仅使用所引标本、样本或分析的对应结果。"
+      - id: gignac-2017-tyrannosaurus-osteophagy
+        referenceId: gignac-2017-tyrannosaurus-osteophagy
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: Figures 1–4; Gignac 2017 Figures 1–4; Results; supplementary measurements
+          scope:
+            en: "Tyrannosaurus rex: Figures 1–4; Gignac 2017 Figures 1–4; Results; supplementary measurements. Limited to the cited specimens, samples or analyses."
+            zh: Tyrannosaurus rex：原文定位 Figures 1–4; Gignac 2017 Figures 1–4; Results; supplementary measurements。本文仅使用所引标本、样本或分析的对应结果。
+      - id: loewen-2013-tyrannosaur-biogeography
+        referenceId: loewen-2013-tyrannosaur-biogeography
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: Figures 1–8; Event-based biogeographic analyses
+          scope:
+            en: "Tyrannosaurus rex: Figures 1–8; Event-based biogeographic analyses. Limited to the cited specimens, samples or analyses."
+            zh: Tyrannosaurus rex：原文定位 Figures 1–8; Event-based biogeographic analyses。本文仅使用所引标本、样本或分析的对应结果。
+  claims:
+    - subjectId: taxon:tyrannosaurus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Measured Hell Creek occurrences place Tyrannosaurus in latest Maastrichtian strata up to the K–Pg boundary; the 68–66 Ma atlas envelope is rounded and does not claim a global genus origination at 68 Ma.
+      confidence: medium
+      confidenceRationale: Specimen positions within the Hell Creek section and the independently dated boundary are direct, but formation-wide sampling cannot guarantee the genus FAD; medium confidence marks the rounded envelope.
+      referenceLinks:
+        - referenceId: horner-2011-hell-creek-dinosaur-census
+          relation: supports
+          quoteLocator: Figure 1; Tables 1 and S1–S6; locality census
+    - subjectId: taxon:tyrannosaurus
+      claimKind: scientific
+      claimType: biogeography
+      statement: Tyrannosaurus specimens are documented in western North American latest Maastrichtian formations; broader dispersal routes inferred for tyrannosaurids remain model-dependent and are not treated as direct Tyrannosaurus movements.
+      confidence: medium
+      confidenceRationale: Localities directly support western North American occurrence, whereas ancestral-area reconstruction depends on topology and area coding; medium confidence separates observation from route inference.
+      referenceLinks:
+        - referenceId: horner-2011-hell-creek-dinosaur-census
+          relation: supports
+          figure: Figure 1
+          quoteLocator: Locality and stratigraphic census
+        - referenceId: loewen-2013-tyrannosaur-biogeography
+          relation: contextualizes
+          figure: Figures 1–8
+          quoteLocator: Event-based biogeographic analyses
+    - subjectId: taxon:tyrannosaurus
+      claimKind: scientific
+      claimType: taxonomy
+      statement: A multi-institution growth series documents substantial ontogenetic cranial variation within referred Tyrannosaurus rex specimens, but ontogenetic assignment and synonymy remain analytical decisions rather than directly observed life histories.
+      confidence: medium
+      confidenceRationale: Many scored specimens provide repeatable anatomy, but sequence ordering and taxonomic referral are interpretive. Medium confidence reflects that asymmetry without discarding the observations.
+      referenceLinks:
+        - referenceId: carr-2020-tyrannosaurus-growth-series
+          relation: supports
+          figure: Figure 2
+          quoteLocator: "Abstract; Methods: specimen sample and cladistic analysis; Results: ontogram and growth categories; Tables 1–4"
+    - subjectId: taxon:tyrannosaurus
+      claimKind: scientific
+      claimType: ecology
+      statement: Tyrannosaurus tooth marks and coprolite contents directly demonstrate bone consumption, while prey choice, population density, bite force and tooth pressure remain separate behavioural or mechanical inferences.
+      confidence: high
+      confidenceRationale: Bone modification and embedded or ingested material directly establish osteophagy. High confidence is confined to consumption evidence and does not elevate demographic or performance models to observations.
+      referenceLinks:
+        - referenceId: gignac-2017-tyrannosaurus-osteophagy
+          relation: supports
+          figure: Figures 1–4
+          quoteLocator: Gignac 2017 Figures 1–4; Results; supplementary measurements
+    - subjectId: taxon:tyrannosaurus
+      claimKind: scientific
+      claimType: morphology
+      statement: Robust cranial and dental anatomy and two-fingered forelimbs are repeatedly preserved, while the cited growth series shows that several skull proportions change across assigned ontogenetic stages.
+      confidence: high
+      confidenceRationale: Repeated specimen anatomy supports the listed structures with high confidence; the exact growth trajectory remains dependent on referral and stage ordering rather than a tracked individual.
+      referenceLinks:
+        - referenceId: carr-2020-tyrannosaurus-growth-series
+          relation: supports
+          figure: Figures 2 and 6–10
+          quoteLocator: "Abstract; Methods: specimen sample; Results: ontogram and growth categories; character dataset and specimen catalogue"
+  claim-rationales.zh:
+    - 地狱溪剖面中的标本位置与独立测定的界线是直接证据，但全组取样不能保证属级首现；中等置信度标记这一舍入延限。
+    - 地点直接支持北美西部出现，而祖先区域重建依赖拓扑和区域编码；中等置信度把观察与路线推断分开。
+    - 大量评分标本提供可复核解剖，但序列排序与分类归属仍是解释；中等置信度反映这种不对称，而不否定观察。
+    - 骨表改造和嵌入或摄入材料直接确立食骨行为；高置信度仅限摄食证据，不把种群或性能模型提升为观察。
+    - 重复标本解剖以高置信度支持所列结构；精确生长轨迹仍依赖标本归属和阶段排序，而非追踪同一个体。
+  claim-statements.zh:
+    - 实测地狱溪出现记录把 Tyrannosaurus 置于最晚马斯特里赫特期并延续到 K–Pg 界线；图谱 6800–6600 万年前的范围是舍入包络，不声称该属在 6800 万年前全球起源。
+    - 最晚马斯特里赫特期的北美西部地层直接记录了 Tyrannosaurus 标本；更广的暴龙科扩散路线仍依赖模型，不被当作 Tyrannosaurus 个体迁移的直接证据。
+    - 跨机构生长序列记录了归入 Tyrannosaurus rex 标本的显著头骨个体发育变化，但发育阶段分配和同物异名处理仍是分析决定，不是直接观察的生命史。
+    - Tyrannosaurus 的齿痕和粪化石内容直接证明食骨，但猎物选择、种群密度、咬合力和牙压仍是彼此独立的行为或力学推断。
+    - 粗壮的头骨和牙齿解剖以及二指前肢在多个标本中反复保存；所引生长序列还显示若干头骨比例随指定个体发育阶段变化。
+  ranges:
+    - entityId: tyrannosaurus
+      rangeKind: global-composite
+      taxonomicConcept: Tyrannosaurus rex and referred latest Maastrichtian material
+      geographicScope: Western North America; Hell Creek, Lance and approximately coeval strata
+      olderMa: 68
+      youngerMa: 66
+      status: available
+      uncertainty:
+        olderMa: 68.2
+        youngerMa: 66.043
+        note: The displayed endpoints are a rounded latest Maastrichtian envelope. Census sampling does not prove a global genus FAD, and the younger uncertainty records the dated K–Pg boundary rather than a last individual.
+      evidenceBasis: Measured Hell Creek specimen positions document latest Maastrichtian occurrence; the range closes at the independently dated K–Pg boundary without claiming instantaneous disappearance everywhere.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:tyrannosaurus:fossil-range
+      referenceLocators:
+        - referenceId: horner-2011-hell-creek-dinosaur-census
+          locator: Figure 1; Tables 1 and S1–S6; locality census
+        - referenceId: renne-2013-kpg-timescale
+          locator: 684–687; Figures 1–3; 40Ar/39Ar boundary age

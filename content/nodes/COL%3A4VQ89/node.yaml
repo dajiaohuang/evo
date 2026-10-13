@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sclerophrys camerunensis
+  displayName: Sclerophrys camerunensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VQ89
+  sourceIndexes:
+    - name:
+        en: Sclerophrys camerunensis
+        zh: Sclerophrys camerunensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VQ89
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/94
+            queryName: Sclerophrys camerunensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/304
+            queryName: Bufo camerunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/454
+            queryName: Amietophrynus camerunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/248
+            queryName: Bufo camerunensis poensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/249
+            queryName: Bufo camerunensis camerunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/250
+            queryName: Bufo cameronensis cameronensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a7c254d0c
+      - s-4d4f577b5b
+      - s-a3e08b6154
+      - s-6e6d3c6d07
+      - s-1aee62ffa7
+      - s-b68dbc66b0
+      - s-5dcc45acb5
+      - s-039a906829
+      - s-bdc39771dc
+      - s-4b86a0bf47
+      - s-16e3fc4c09
+      - s-306b1c6b1f
+      - s-86cf19102e
+      - s-a374932052
+    zh:
+      - s-5fbb1665e9
+      - s-1e65c80ba5
+      - s-e2a4f01abe
+      - s-559c79c22b
+      - s-0e15cfad30
+      - s-decd7daeda
+      - s-234fd10a9d
+      - s-902307dc78
+      - s-18e71592df
+      - s-7f69d81fa7
+      - s-bbbba8f174
+      - s-3090f4bdab
+      - s-44d21cdd3b
+      - s-8908272202

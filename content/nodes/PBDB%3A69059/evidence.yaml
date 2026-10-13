@@ -1,0 +1,171 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Smilosuchus gregorii
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Smilosuchus gregorii
+      en: Smilosuchus gregorii
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherArchosauriaTaxonomy20261002
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ad459b2385
+            part: body
+          en:
+            page: en
+            section: s-c570dfe328
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b01efca729
+            part: body
+          en:
+            page: en
+            section: s-75fd4c30bd
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-22be7001ae
+            part: body
+          en:
+            page: en
+            section: s-8e352b805d
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d90fcfdb33
+            part: body
+          en:
+            page: en
+            section: s-b4dcee03ab
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-eeec636ae8
+            part: body
+          en:
+            page: en
+            section: s-c5502d2452
+            part: body
+    sources:
+      - id: pbdbArchosauriaTaxonomy20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Smilosuchus gregorii
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=69059&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherArchosauriaOccurrences20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:69059; original response record indices retained in data/sources/other-archosauria-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 95c66a034ee801effe8e70dd0e2d80f080cfb92730dab8e60a52bf5d4a379a25
+          pbdbTaxonId: txn:69059
+          selectedOccurrenceIds:
+            - occ:841828
+            - occ:841834
+            - occ:841836
+            - occ:842795
+            - occ:1418487
+            - occ:1418494
+          selectedCollectionIds:
+            - col:93358
+            - col:93362
+            - col:93363
+            - col:93547
+            - col:84271
+            - col:71982
+          sourceReferenceIds:
+            - ref:14122
+            - ref:31669
+            - ref:66825
+          originalIdentificationMappings:
+            - occurrenceId: occ:841834
+              originalIdentifiedName: Machaeroprosopus gregorii n. sp.
+              acceptedName: Smilosuchus gregorii
+              difference: recombined as
+            - occurrenceId: occ:842795
+              originalIdentifiedName: Machaeroprosopus gregorii
+              acceptedName: Smilosuchus gregorii
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-392544863e
+        part: body
+      en:
+        page: en
+        section: s-b3e76c8098
+        part: body

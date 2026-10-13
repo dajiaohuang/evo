@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-c5657caa8b
+      part: title
+    titleZh:
+      page: zh
+      section: s-c8f8b7738d
+      part: title
+    category: transition
+    startAge: 11.8
+    endAge: 11.2
+    regions:
+      - Nombrevilla 2 and Abocador de Can Mata, Spain
+    clades:
+      - Ursidae
+      - Ailuropodinae
+      - Kretzoiarctos
+    summary:
+      page: en
+      section: s-c5657caa8b
+      part: body
+    summaryZh:
+      page: zh
+      section: s-c8f8b7738d
+      part: body
+    claimIds:
+      - claim:event:kretzoiarctos-dental-panda-topology
+    evidenceItems:
+      - statement: Holotype MNCN-CSIC NV-2-42 is a left P4; NV-2-40 is a right M1, and IPS 46473 is a partial mandible with c1–m2 and associated P4.
+        relation: supports
+        claimIds:
+          - claim:event:kretzoiarctos-dental-panda-topology
+        referenceLinks:
+          - referenceId: abella-2012-kretzoiarctos
+            relation: supports
+            pages: e48985
+            figure: Figures 1–4; Tables 1–2; Table S1
+            quoteLocator: Holotype and referred material; Phylogenetic analysis; Dental comparisons
+    uncertaintyItems:
+      - statement: Ailuropodine placement and herbivorous tendency derive from a character matrix and dental comparison; neither demonstrates identical giant-panda ecology nor a direct ancestor or secure centre of origin.
+        relation: contextualizes
+        claimIds:
+          - claim:event:kretzoiarctos-dental-panda-topology
+        referenceLinks:
+          - referenceId: abella-2012-kretzoiarctos
+            relation: supports
+            pages: e48985
+            figure: Figures 1–4; Tables 1–2; Table S1
+            quoteLocator: Holotype and referred material; Phylogenetic analysis; Dental comparisons
+  claims:
+    - subjectId: event:kretzoiarctos-dental-panda-topology
+      claimKind: scientific
+      claimType: morphology
+      statement: MNCN-CSIC NV-2-42, NV-2-40 and IPS 46473 document a middle Miocene Spanish ursid dental sample recovered within Ailuropodinae in the published matrix; diet and biogeographic origin remain comparative interpretations.
+      confidence: medium
+      confidenceRationale: Kretzoiarctos teeth and panda-clade topology uses explicit named specimens or disclosed datasets, but placement, function or ecology depends on a sampled matrix or comparative model and is kept separate from observation.
+      referenceLinks:
+        - referenceId: abella-2012-kretzoiarctos
+          relation: supports
+          pages: e48985
+          figure: Figures 1–4; Tables 1–2; Table S1
+          quoteLocator: Holotype and referred material; Phylogenetic analysis; Dental comparisons
+  claim-rationales.zh:
+    - “克氏熊猫牙齿与熊猫支拓扑”的具名标本或已公开数据集是明确的，但位置、功能或生态依赖采样矩阵或比较模型，且已与直接观察分开。
+  claim-statements.zh:
+    - MNCN-CSIC NV-2-42、NV-2-40 与 IPS 46473 记录了西班牙中新世中期熊科牙齿样本，并在已发表矩阵中恢复于大熊猫亚科；食性和生物地理起源仍是比较性解释。

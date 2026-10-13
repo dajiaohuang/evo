@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius puncticulatus
+  displayName: Hyperolius puncticulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQXX
+  sourceIndexes:
+    - name:
+        en: Hyperolius puncticulatus
+        zh: Hyperolius puncticulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQXX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/321
+            queryName: Hyperolius puncticulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/285
+            queryName: Rappia puncticulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f7a5ea205b
+      - s-6e2e0e7cb1
+      - s-bcca7f8a37
+      - s-d7f8f61e8b
+      - s-0a73d3f0d1
+      - s-e6ce14db83
+      - s-6fc2336ab8
+      - s-a1de724b25
+      - s-ff6fa724fd
+      - s-6cb0996694
+      - s-e33aae9818
+    zh:
+      - s-17333dd25a
+      - s-92b2148be0
+      - s-756c04aab1
+      - s-919234b02d
+      - s-5c424644bb
+      - s-c2ecda39f6
+      - s-ba508279dd
+      - s-2d47d975ed
+      - s-15c0fe1b2a
+      - s-d16e59a404
+      - s-174570d4aa

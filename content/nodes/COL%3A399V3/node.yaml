@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus wixarika
+  displayName: Eleutherodactylus wixarika
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399V3
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus wixarika
+        zh: Eleutherodactylus wixarika
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399V3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/351
+            queryName: Eleutherodactylus wixarika
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-37981d6c94
+      - s-18e67ffadc
+      - s-386844ee7e
+      - s-ff3b362008
+      - s-4ae8f16ca0
+      - s-b0cd82994d
+      - s-c7198beb4f
+      - s-1fe8d77510
+      - s-736d09900c
+      - s-ca76f905a9
+    zh:
+      - s-28538c2b8d
+      - s-c5aaecbb52
+      - s-5eb302dd44
+      - s-ca08c7ab96
+      - s-a62466f4ee
+      - s-ab1722a867
+      - s-d9022280b1
+      - s-4f73dfcb8e
+      - s-23aadab296
+      - s-0a55ad9ec8

@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Litoria mareku
+    name:
+      en: Litoria mareku
+      zh: Litoria mareku
+    sourceClassification:
+      order: Anura
+      family: Pelodryadidae
+      genus: Litoria
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f322176da4
+            part: body
+          zh:
+            page: zh
+            section: s-05d824b9a2
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-dca1e7328f
+            part: body
+          zh:
+            page: zh
+            section: s-2101888a0f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2908; Reference.csv rows 2438
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2908
+        values:
+          - Pelodryadidae
+          - Litoria
+          - Litoria mareku
+          - M
+          - NA
+          - "8.5"
+          - "7.65"
+          - "3.05"
+          - "0.95"
+          - NA
+          - NA
+          - "2.3"
+          - NA
+          - "2.45"
+          - "4.45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.7"
+          - NA
+          - "9.05"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.5"
+          - NA
+          - "1.05"
+          - NA
+          - "0.4"
+          - NA
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - "26"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2438
+        values:
+          - Anura
+          - Litoria_mareku
+          - "Günther, R. (2008). Two new hylid frogs (Anura: Hylidae: Litoria) from western New Guinea. Vertebrate Zoology, 58, 83-92. "
+    availableTraitCodes:
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - SL
+      - TL
+      - TSL
+      - Fin1DW
+      - Fin3DW
+      - Toe1DW
+      - Toe4DW
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

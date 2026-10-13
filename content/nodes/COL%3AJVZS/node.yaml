@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina fryi
+  displayName: Austrochaperina fryi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JVZS
+  sourceIndexes:
+    - name:
+        en: Austrochaperina fryi
+        zh: Austrochaperina fryi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JVZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/351
+            queryName: Austrochaperina fryi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/74
+            queryName: Sphenophryne fryi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/118
+            queryName: Asterophrys fryi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1360a5b159
+      - s-33d08fb7b4
+      - s-6e335d2900
+      - s-a701e3a679
+      - s-0d08568a8c
+      - s-4b55072b69
+      - s-77fca21683
+      - s-aec19ac2a6
+      - s-ce7cedbb7a
+      - s-130bf88192
+      - s-317613ec27
+    zh:
+      - s-e5545c85a0
+      - s-36b88b9d76
+      - s-b4efc1efcf
+      - s-d0f256d563
+      - s-5ed50a9227
+      - s-9815365331
+      - s-3db44cc414
+      - s-d9ee2b70fa
+      - s-823d01d0ea
+      - s-a35df1045f
+      - s-487f92f0a6

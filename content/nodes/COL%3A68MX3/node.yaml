@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa veracrucis
+  displayName: Bolitoglossa veracrucis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68MX3
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa veracrucis
+        zh: Bolitoglossa veracrucis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68MX3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/211
+            queryName: Bolitoglossa veracrucis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3856151b2a
+      - s-82bd316e28
+      - s-3ded3abab3
+      - s-133c0ce941
+      - s-cccc2a87f7
+      - s-30856e23ca
+      - s-1d86eff03a
+      - s-341eea2ca5
+      - s-a451e223f0
+      - s-bc46e75c22
+      - s-0ba652aae4
+      - s-79fb218a65
+      - s-5e61e4dfba
+      - s-0ed56dc6d1
+    zh:
+      - s-b854cb9e59
+      - s-2ccd33986c
+      - s-7796af95a5
+      - s-08681bb798
+      - s-34042a75fd
+      - s-580ae96c5a
+      - s-47654c4a71
+      - s-527d236113
+      - s-245751424e
+      - s-4bcc99734c
+      - s-7116fb6dc0
+      - s-65eb5514ca
+      - s-c578d8fcdb
+      - s-6ac35e801d

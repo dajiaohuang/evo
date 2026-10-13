@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa sombra
+  displayName: Bolitoglossa sombra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDS8
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa sombra
+        zh: Bolitoglossa sombra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDS8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/195
+            queryName: Bolitoglossa sombra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/427
+            queryName: A Solution to the Large Black Salamander Problem (Genus Bolitoglossa) in Costa Rica and Panamá
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ffed00dc8
+      - s-2d2bdddbf6
+      - s-5e2761f343
+      - s-e75e41e7dd
+      - s-2a39e6da4a
+      - s-a958d5843a
+      - s-413b094d78
+      - s-9d3454721d
+      - s-ec7b83545f
+    zh:
+      - s-ba6a3e5ee4
+      - s-bb1250aa7f
+      - s-99338d9002
+      - s-fc469f5a76
+      - s-09d62c1f46
+      - s-a2d88c3d21
+      - s-d970a2dfb5
+      - s-fe2c01d1b9
+      - s-c1668d93f9

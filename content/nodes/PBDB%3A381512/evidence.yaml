@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Wealdenbatrachus jucarensis
+    rank: species
+    sourceTaxonId: txn:381512
+    name:
+      en: Wealdenbatrachus jucarensis
+      zh: Wealdenbatrachus jucarensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-34e1b95bf1
+            part: body
+          zh:
+            page: zh
+            section: s-5877c68c9d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-47ee0bbe67
+            part: body
+          zh:
+            page: zh
+            section: s-f9ccb704b9
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-1d1457390e
+            part: body
+          zh:
+            page: zh
+            section: s-2c08c6701e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:381512; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. M. Báez and R. O. Gómez. 2019. Redescription of the overlooked basal frog Wealdenbatrachus reveals increased diversity among Early Cretaceous anurans. Cretaceous Research
+    occurrenceEvidence:
+      - occurrenceId: occ:604676
+        collectionId: col:61319
+        acceptedTaxonId: txn:381512
+        identifiedName: Wealdenbatrachus jucarensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:18607
+        bibliography: B. Krebs. 1995. The Barremian vertebrate locality Uña (province of Cuenca) materials for a comparison with Las Hoyas. II International Symposium on Lithographic Limestones, Extended Abstracts. Ediciones de la Universidad Autónoma de Madrid
+        locality:
+          countryCode: ES
+          stateProvince: Cuenca
+          county: null
+        stratigraphy:
+          group: null
+          formation: La Huérguina
+          member: null
+        olderAgeMa: 125.77
+        youngerAgeMa: 121.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1d1457390e
+            part: body
+          zh:
+            page: zh
+            section: s-2c08c6701e
+            part: body
+        sourceIds: []

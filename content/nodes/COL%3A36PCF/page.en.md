@@ -1,0 +1,3 @@
+## What leaf and flower details are recorded? {#s-d0d95e5d60}
+The Flora do Brasil 2020 field describes hairless leaves that blacken when dry. Petioles are 3–10 mm long; blades are more than 5 mm wide, with acute or tapered bases and flat margins. Secondary veins curve toward the leaf edge before fading; at least two occur on each side, and small hair tufts are absent from their axils. A small bract below the flower reaches from halfway up the floral tube to its tip. Flower stalks are 0–6.5 mm long. The epicalyx segments, an extra sepal-like ring below the calyx, are 2–11 mm long, shorter than the sepals, and bend downward or spread outward. The corolla is 3.5–7 cm across and has 12 stamens. This regional morphology field gives no sampling frame.
+

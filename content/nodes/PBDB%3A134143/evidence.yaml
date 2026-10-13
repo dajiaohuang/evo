@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amphiperatherium exile
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Amphiperatherium exile
+      en: Amphiperatherium exile
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4758b23d13
+            part: body
+          en:
+            page: en
+            section: s-7ce7a2e92c
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-42e1f8be75
+            part: body
+          en:
+            page: en
+            section: s-dab559cd5f
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-205b08ea23
+            part: body
+          en:
+            page: en
+            section: s-4090444e16
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f3e694f807
+            part: body
+          en:
+            page: en
+            section: s-2af872a875
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7d2cec2866
+            part: body
+          en:
+            page: en
+            section: s-164c8e2833
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Amphiperatherium exile
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=134143&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:134143; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:134143
+          selectedOccurrenceIds:
+            - occ:633278
+            - occ:646067
+            - occ:646069
+            - occ:646073
+            - occ:646075
+            - occ:699438
+            - occ:699446
+            - occ:782801
+            - occ:1348933
+            - occ:1354221
+            - occ:1468613
+          selectedCollectionIds:
+            - col:60214
+            - col:66110
+            - col:66109
+            - col:66105
+            - col:66111
+            - col:59125
+            - col:74679
+            - col:84364
+            - col:182805
+            - col:31748
+            - col:84606
+          sourceReferenceIds:
+            - ref:19601
+            - ref:23404
+            - ref:25358
+            - ref:28268
+            - ref:60953
+            - ref:61354
+            - ref:70399
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-829a990911
+        part: body
+      en:
+        page: en
+        section: s-0181301015
+        part: body

@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Mantella aurantiaca
+    name:
+      en: Mantella aurantiaca
+      zh: Mantella aurantiaca
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Mantella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-65d4135e78
+            part: body
+          zh:
+            page: zh
+            section: s-3a612277ab
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9607a46250
+            part: body
+          zh:
+            page: zh
+            section: s-c1a1e15b6c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2983, 2984; Reference.csv rows 711
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2983
+        values:
+          - Mantellidae
+          - Mantella
+          - Mantella aurantiaca
+          - F
+          - "24.6"
+          - "9.6"
+          - "7.8"
+          - "2.6"
+          - "1.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2"
+          - NA
+          - "1.6"
+          - "5.6"
+          - NA
+          - "14.1"
+          - "9.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "31.5"
+          - "0.8"
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2984
+        values:
+          - Mantellidae
+          - Mantella
+          - Mantella aurantiaca
+          - M
+          - "21.8"
+          - NA
+          - "6"
+          - "1.9"
+          - "1.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.5"
+          - NA
+          - NA
+          - "10.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "32.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 711
+        values:
+          - Anura
+          - Mantella_aurantiaca
+          - "Vences, M., Glaw, F., & Böhme, W. (1999). A review of the genus Mantella (Anura, Ranidae, Mantellinae): taxonomy, distribution and conservation of Malagasy poison frogs. Alytes, 17(1-2), 3-72."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+      - IMT
+      - Toe1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 736LN
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

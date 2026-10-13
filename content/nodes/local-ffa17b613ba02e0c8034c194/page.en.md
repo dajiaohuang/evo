@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-419b2699d0}
+The version 3 Amphibian database lists Breviceps fichus in a source measurement table. Its classification fields read order = Anura, family = Brevicipitidae, genus = Breviceps; the linked citation is in Reference.csv row 153. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-369d49011e}
+Anura.csv rows 877, 878 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 877 (F) = 43.35, row 878 (M) = 30.8; IOD: row 877 (F) = 3.7, row 878 (M) = 3.55; IND: row 877 (F) = 2.45, row 878 (M) = 1.95; other populated codes are UEW, EN, SL, TL, IMT, Toe4L, Fin1L, Fin3L, SUL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

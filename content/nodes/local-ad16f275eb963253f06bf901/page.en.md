@@ -1,0 +1,9 @@
+## The dataset entry {#s-9010c74d8d}
+The pinned AmphiTherm curated snapshot records Atelopus elegans under Bufonidae, Anura. It retains 3 thermal estimate rows across 2 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-84b63f895b}
+Source row 1763 (ID 1956; Gutierrez-Pesquera_2015) reports 36 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as larvae. The source population code is Atelopus_elegans_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.1 °C as its standard error. The source n_trait field is 9. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as unclear. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-c921f0b99a}
+Source row 1792 (ID 1985; Gutierrez-Pesquera_2015) reports 5.7 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as larvae. The source population code is Atelopus_elegans_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.1 °C as its standard error. The source n_trait field is 9. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as unclear. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

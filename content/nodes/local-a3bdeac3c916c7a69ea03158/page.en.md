@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-7fcbe67aac}
+The version 3 Amphibian database lists Dendropsophus bromeliaceus in a source measurement table. Its classification fields read order = Anura, family = Hylidae, genus = Dendropsophus; the linked citation is in Reference.csv row 2986. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-edac8428cd}
+Anura.csv rows 1490, 1491 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1490 (F) = 20.1, row 1491 (M) = 16.8; HL: row 1490 (F) = 6.5, row 1491 (M) = 5.9; HW: row 1490 (F) = 7.2, row 1491 (M) = 6.4; other populated codes are ED, TD, IOD, IND, EN, FL, TL, THL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

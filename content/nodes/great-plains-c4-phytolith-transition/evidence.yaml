@@ -1,0 +1,74 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-3a169e5861
+      part: title
+    titleZh:
+      page: zh
+      section: s-424fc97c7e
+      part: title
+    category: transition
+    startAge: 8
+    endAge: 5.5
+    regions:
+      - Central Great Plains, Nebraska and Kansas, United States
+    clades:
+      - Poaceae
+      - Chloridoideae
+      - PACMAD grasses
+    summary:
+      page: en
+      section: s-3a169e5861
+      part: body
+    summaryZh:
+      page: zh
+      section: s-424fc97c7e
+      part: body
+    claimIds:
+      - claim:event:great-plains-c4-phytolith-transition
+    evidenceItems:
+      - statement: By about 5.5 Ma, chloridoid and other potentially C4 PACMAD grass short cells reached roughly 50–60% of the grass component
+        relation: supports
+        claimIds:
+          - claim:event:great-plains-c4-phytolith-transition
+        referenceLinks:
+          - relation: supports
+            referenceId: stromberg-2011-great-plains-phytoliths
+            pages: 50–51
+            quoteLocator: Abstract
+    uncertaintyItems:
+      - statement: The 50–60% estimate is within the grass component, not total vegetation, and PACMAD-type morphologies are not all diagnostic of C4 photosynthesis
+        relation: contextualizes
+        claimIds:
+          - claim:event:great-plains-c4-phytolith-transition
+        referenceLinks:
+          - relation: supports
+            referenceId: stromberg-2011-great-plains-phytoliths
+            pages: 50–71
+            quoteLocator: Assemblage interpretation and limitations
+      - statement: Fourteen selected assemblages from the central Great Plains do not establish a synchronous continental or global transition
+        relation: contextualizes
+        claimIds:
+          - claim:event:great-plains-c4-phytolith-transition
+        referenceLinks:
+          - relation: supports
+            referenceId: stromberg-2011-great-plains-phytoliths
+            pages: 50–71
+  claims:
+    - subjectId: event:great-plains-c4-phytolith-transition
+      claimKind: scientific
+      claimType: ecology
+      statement: Fourteen selected palaeosol phytolith assemblages from Nebraska and Kansas record an 8–5.5 Ma increase in chloridoid and other potentially C4 PACMAD grass short cells, reaching about 50–60% of the grass component by 5.5 Ma within heterogeneous mixed C3–C4 habitats.
+      confidence: medium
+      confidenceRationale: The assemblage analysis directly quantifies a regional phytolith transition, but the sample is restricted to the central Great Plains and subject to phytolith production and preservation biases. The percentage applies within grasses, and not every PACMAD-type morphology diagnoses C4 photosynthesis.
+      referenceLinks:
+        - relation: supports
+          referenceId: stromberg-2011-great-plains-phytoliths
+          pages: 50–71
+          quoteLocator: Abstract, pp. 50–51; assemblage analysis and limitations
+  claim-rationales.zh:
+    - 组合分析直接量化了区域植硅体转变，但样本仅限中部大平原，并受植硅体产生与保存偏差影响。该百分比只适用于禾草内部，且并非所有 PACMAD 型形态都能诊断 C4 光合途径。
+  claim-statements.zh:
+    - 内布拉斯加州和堪萨斯州 14 个精选古土壤植硅体组合记录了 8–5.5 Ma 间虎尾草亚科型及其他潜在 C4 PACMAD 禾草短细胞的增加；到约 5.5 Ma，它们在异质 C3–C4 混合生境的禾草组分中达到约 50–60%。

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amazophrynella siona
+  displayName: Amazophrynella siona
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5TZTV
+  sourceIndexes:
+    - name:
+        en: Amazophrynella siona
+        zh: Amazophrynella siona
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5TZTV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/223
+            queryName: Amazophrynella siona
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-735b3dc12a
+      - s-1c07876314
+      - s-e2e1a3f464
+      - s-c2856d385b
+      - s-5d103088e1
+      - s-5a0e7ac10b
+      - s-086b5141b1
+      - s-8be9494eb1
+      - s-51f6326ad3
+      - s-4c2092205b
+      - s-7a32eee605
+      - s-269f8959d0
+      - s-25c2ffdfa9
+      - s-5c6f6ccb0a
+      - s-f8ae269bfd
+      - s-348945f338
+      - s-219d6303d1
+      - s-2d0f3f4911
+      - s-da55e57982
+    zh:
+      - s-ba73c2afba
+      - s-4c0c84e8be
+      - s-409835cd0d
+      - s-2cba4a5614
+      - s-8e1ca68b70
+      - s-3d52af963f
+      - s-393a6e0657
+      - s-a23195be67
+      - s-79e28fe5d6
+      - s-01a4fface8
+      - s-cd76d445b9
+      - s-a3096066fe
+      - s-e4a45b424e
+      - s-b500382260
+      - s-5d91a70b68
+      - s-a463bf307d
+      - s-18702561d2
+      - s-89e5c05bae
+      - s-4875724b4a

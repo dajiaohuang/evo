@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor underwoodi
+  displayName: Craugastor underwoodi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BBVP
+  sourceIndexes:
+    - name:
+        en: Craugastor underwoodi
+        zh: Craugastor underwoodi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BBVP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/193
+            queryName: Craugastor underwoodi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/209
+            queryName: Eleutherodactylus underwoodi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/257
+            queryName: Hylodes underwoodi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/258
+            queryName: Microbatrachylus underwoodi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8f4e58c27f
+      - s-000b8805b8
+      - s-9c2455945f
+      - s-5c525368c7
+      - s-5c55fcedf6
+      - s-3bd152ae03
+      - s-5d516d3320
+      - s-870e0095e0
+      - s-8898d80f02
+      - s-1608ae1504
+      - s-3ed7389b52
+    zh:
+      - s-81e4834287
+      - s-6161eebb58
+      - s-f3cac6a673
+      - s-0eadf8507c
+      - s-6f10eb175b
+      - s-d904d42f38
+      - s-58c3ec927a
+      - s-39497065ad
+      - s-9e204d76d3
+      - s-b2892e2851
+      - s-88471d6349

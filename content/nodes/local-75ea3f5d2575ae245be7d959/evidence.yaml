@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odorrana chapaensis
+    name:
+      en: Odorrana chapaensis
+      zh: Odorrana chapaensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Odorrana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-374cd16e76
+            part: body
+          zh:
+            page: zh
+            section: s-c41d6380c6
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cb844d89d4
+            part: body
+          zh:
+            page: zh
+            section: s-ffad0c8af6
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3745, 3746; Reference.csv rows 3903
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3745
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana chapaensis
+          - M
+          - "78.8"
+          - "29.6"
+          - "24.3"
+          - "8.2"
+          - "3.3"
+          - "3.3"
+          - NA
+          - "8"
+          - NA
+          - NA
+          - "12.4"
+          - NA
+          - "24.4"
+          - NA
+          - NA
+          - "42.5"
+          - NA
+          - "44.9"
+          - "39.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3746
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana chapaensis
+          - F
+          - "94.2"
+          - "34.4"
+          - "30.6"
+          - "9.6"
+          - "3.4"
+          - "4.4"
+          - NA
+          - "9.6"
+          - NA
+          - NA
+          - "13.9"
+          - NA
+          - "30.1"
+          - NA
+          - NA
+          - "50.1"
+          - NA
+          - "53.7"
+          - "43"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3903
+        values:
+          - Anura
+          - Odorrana_chapaensis
+          - "Bain, R., Stuart, B., Nguyen, T., Che, J., & Rao, D.-Q. (2009). A new Odorrana (Amphibia: Ranidae) from Vietnam and China. Copeia, 2009, 348-362. https://doi.org/10.1643/ch-07-195"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IND
+      - SL
+      - HAL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48SFB
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

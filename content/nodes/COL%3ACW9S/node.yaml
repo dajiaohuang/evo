@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops chakrataensis
+  displayName: Amolops chakrataensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CW9S
+  sourceIndexes:
+    - name:
+        en: Amolops chakrataensis
+        zh: Amolops chakrataensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CW9S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/349
+            queryName: Amolops chakrataensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9fbd53e628
+      - s-a1ac278dff
+      - s-20934190d7
+      - s-739a8baafe
+      - s-7ea073090b
+      - s-db71532b41
+      - s-8071143592
+      - s-8deafaa1f5
+    zh:
+      - s-e63625cc8c
+      - s-aa6eb0808c
+      - s-0f77e3afc8
+      - s-e06c1721c7
+      - s-59a2280ed1
+      - s-c6e5016002
+      - s-d756293c55
+      - s-76e2347346

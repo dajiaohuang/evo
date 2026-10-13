@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius troglodytes
+  displayName: Thorius troglodytes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KTJ
+  sourceIndexes:
+    - name:
+        en: Thorius troglodytes
+        zh: Thorius troglodytes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KTJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/62
+            queryName: Thorius troglodytes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-275cd403a7
+      - s-deee3559d0
+      - s-1018d80703
+      - s-3f5c3a01a3
+      - s-6de4cc6236
+      - s-932536c727
+      - s-15537ade22
+      - s-a5d8b74c14
+      - s-6edf4bea24
+    zh:
+      - s-b1c6d0d6ae
+      - s-bc6893ff3d
+      - s-365b841c79
+      - s-94c102cd85
+      - s-88d4182767
+      - s-a9ce77edea
+      - s-a70267f3fb
+      - s-a17fd9c3f3
+      - s-9e44888f27

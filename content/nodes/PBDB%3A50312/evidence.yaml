@@ -1,0 +1,185 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phenacodus magnus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Phenacodus magnus
+      en: Phenacodus magnus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-52b5852dff
+            part: body
+          en:
+            page: en
+            section: s-8271877840
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-697a1fbf28
+            part: body
+          en:
+            page: en
+            section: s-b06b097076
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4108d96675
+            part: body
+          en:
+            page: en
+            section: s-87b709d6d2
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6d7e282ac7
+            part: body
+          en:
+            page: en
+            section: s-c95accb837
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d2cfbb7d82
+            part: body
+          en:
+            page: en
+            section: s-727b8cac24
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Phenacodus magnus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=50312&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:50312; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:50312
+          selectedOccurrenceIds:
+            - occ:166037
+            - occ:166062
+            - occ:166188
+            - occ:166269
+            - occ:166527
+            - occ:166702
+            - occ:166754
+            - occ:469231
+            - occ:1303054
+            - occ:1384108
+            - occ:1384124
+            - occ:1386130
+            - occ:1386137
+            - occ:1386211
+            - occ:1386223
+            - occ:1386387
+          selectedCollectionIds:
+            - col:14977
+            - col:14978
+            - col:14993
+            - col:15002
+            - col:15036
+            - col:15066
+            - col:15071
+            - col:46654
+            - col:174227
+            - col:15024
+            - col:15018
+            - col:190404
+            - col:188231
+            - col:15007
+            - col:53059
+            - col:190471
+          sourceReferenceIds:
+            - ref:3401
+            - ref:62690
+            - ref:11717
+            - ref:56865
+            - ref:63104
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-a7db684ce7
+        part: body
+      en:
+        page: en
+        section: s-ba6a85a1d2
+        part: body

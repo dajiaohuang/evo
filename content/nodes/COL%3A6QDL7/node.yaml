@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes diuatus
+  displayName: Limnonectes diuatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDL7
+  sourceIndexes:
+    - name:
+        en: Limnonectes diuatus
+        zh: Limnonectes diuatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDL7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/65
+            queryName: Limnonectes diuatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/38
+            queryName: Limnonectes ferneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/411
+            queryName: Rana diuata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f2456c0284
+      - s-9cd4fedf51
+      - s-3232da89c2
+      - s-105f0e8ff0
+      - s-e4df513a49
+      - s-c895cbec70
+      - s-ea0b3fa5a5
+      - s-a99cd92f7b
+      - s-14087142d1
+      - s-0f416199a5
+      - s-2ab5959ed7
+      - s-942b73f675
+      - s-37219b02f1
+    zh:
+      - s-7f86a9c5c1
+      - s-bcd118ebfe
+      - s-c6689ce020
+      - s-6ff6e5e807
+      - s-66c8ac74c5
+      - s-6f5471deae
+      - s-774bccc5e8
+      - s-84aa01a37e
+      - s-a7e945a5ef
+      - s-73dea9b8cf
+      - s-81702965b3
+      - s-77abb60edb
+      - s-f424de914c

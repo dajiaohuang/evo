@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Otophryne robusta
+  displayName: Otophryne robusta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4B7QC
+  sourceIndexes:
+    - name:
+        en: Otophryne robusta
+        zh: Otophryne robusta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4B7QC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/372
+            queryName: Otophryne robusta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/289
+            queryName: Otophryne robusta robusta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c5a83a2e56
+      - s-cc160bdc78
+      - s-593b0f535a
+      - s-a052405e1d
+      - s-3aa2f49b05
+      - s-812e94fc08
+      - s-87a59ffe77
+      - s-500583f5d3
+      - s-92bb5944b6
+      - s-ed415e21c8
+      - s-66bfc898c0
+      - s-9d672e7c68
+      - s-a92539908c
+      - s-d8ea67f53d
+    zh:
+      - s-7c4f673727
+      - s-738746f6f0
+      - s-6e9585ee62
+      - s-1493616cbb
+      - s-2a27dc5b47
+      - s-b725a1ca3b
+      - s-32964b61c9
+      - s-d30225e90b
+      - s-0fa531dfc4
+      - s-cd34aca974
+      - s-a1da531758
+      - s-f370d58396
+      - s-9fa1ef80d1
+      - s-5c8882f99b

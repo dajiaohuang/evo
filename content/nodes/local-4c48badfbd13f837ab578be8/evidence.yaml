@@ -1,0 +1,196 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Probreviceps durirostris
+    name:
+      en: Probreviceps durirostris
+      zh: Probreviceps durirostris
+    sourceClassification:
+      order: Anura
+      family: Brevicipitidae
+      genus: Probreviceps
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8c1677f9a3
+            part: body
+          zh:
+            page: zh
+            section: s-afa38341d0
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1c8f62f5b3
+            part: body
+          zh:
+            page: zh
+            section: s-6cdd318bda
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4868; Reference.csv rows 1140
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4868
+        values:
+          - Brevicipitidae
+          - Probreviceps
+          - Probreviceps durirostris
+          - F
+          - NA
+          - NA
+          - "14"
+          - "3.6"
+          - "2.8"
+          - "2.5"
+          - NA
+          - "3.3"
+          - "4.7"
+          - "2.5"
+          - NA
+          - "2.2"
+          - NA
+          - NA
+          - NA
+          - "7.25"
+          - NA
+          - "17.2"
+          - NA
+          - NA
+          - NA
+          - "2.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "40.1"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1140
+        values:
+          - Anura
+          - Probreviceps_durirostris
+          - "Loader, S. P., Channing, A., Menegon, M., & Davenport, T. R. B. (2006). A new species of Probreviceps (Amphibia : Anura) from the Eastern Arc Mountains, Tanzania. Zootaxa(1237), 45-60. https://doi.org/10.5281/zenodo.172816"
+    availableTraitCodes:
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - FL
+      - TL
+      - IMT
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4MMBL
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

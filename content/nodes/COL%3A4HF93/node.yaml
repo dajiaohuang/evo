@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus camacan
+  displayName: Physalaemus camacan
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF93
+  sourceIndexes:
+    - name:
+        en: Physalaemus camacan
+        zh: Physalaemus camacan
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF93
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/310
+            queryName: Physalaemus camacan
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d0d0246967
+      - s-547d6eec04
+      - s-009272bb2b
+      - s-833427af79
+      - s-af96828bf8
+      - s-3c2c20a298
+      - s-a68365ce8a
+      - s-37718c96c5
+      - s-237723d1d4
+      - s-1f0f600319
+      - s-f22ebac08c
+      - s-78b276b0ba
+      - s-b64b61ace1
+      - s-35c8a5d7dc
+    zh:
+      - s-b6fbf0d15e
+      - s-7dcdc19064
+      - s-7e669d26c7
+      - s-6f120b9c46
+      - s-5de3ff448d
+      - s-013d264a6b
+      - s-15cb1a61b5
+      - s-404f59b8b4
+      - s-a9abe54e87
+      - s-f20a90eda3
+      - s-eae70b6ebc
+      - s-1601645155
+      - s-dbfbefb022
+      - s-81b62dd17e

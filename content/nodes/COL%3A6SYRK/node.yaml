@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oscaecilia bassleri
+  displayName: Oscaecilia bassleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SYRK
+  sourceIndexes:
+    - name:
+        en: Oscaecilia bassleri
+        zh: Oscaecilia bassleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SYRK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/315
+            queryName: Oscaecilia bassleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/415
+            queryName: Caecilia bassleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2916790dc8
+      - s-9279a53ab3
+      - s-5c6085c32b
+      - s-2fab8fb60f
+      - s-9ae1a3598f
+      - s-468e44104c
+      - s-f81aee223b
+      - s-7c8ccade55
+      - s-c3dfb0ca68
+      - s-27122b71ce
+      - s-88e5f7d2ce
+      - s-9601a9ce96
+      - s-d73f46985c
+    zh:
+      - s-ce747d6f4f
+      - s-4fd62ac0e6
+      - s-5d6fbe17d4
+      - s-c9698707ac
+      - s-1867aa3f0e
+      - s-dfc2c48ae2
+      - s-973f2f790a
+      - s-cfc58e4337
+      - s-d113ec276a
+      - s-7151996c59
+      - s-332ca10c38
+      - s-c5f4c85eb1
+      - s-74607b690b

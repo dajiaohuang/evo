@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis vittatus
+  displayName: Boophis vittatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHVB
+  sourceIndexes:
+    - name:
+        en: Boophis vittatus
+        zh: Boophis vittatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHVB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/309
+            queryName: Boophis vittatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5b76ca53d2
+      - s-6f979b2362
+      - s-f9236fcf71
+      - s-fb56a51ff7
+      - s-ad4cac1b2a
+      - s-586b0ebbbe
+      - s-bd6c6d0205
+      - s-c8d306c3bd
+      - s-b0da39f084
+      - s-60c2ed5263
+      - s-07350ac0b2
+    zh:
+      - s-3bca46b285
+      - s-914ee1151b
+      - s-b23f48d120
+      - s-6035ae427f
+      - s-40ec928b84
+      - s-d6ff4f0d95
+      - s-a52d0ef2f4
+      - s-deb53e17dd
+      - s-d5e64ff799
+      - s-9071c53032
+      - s-9778492fbd

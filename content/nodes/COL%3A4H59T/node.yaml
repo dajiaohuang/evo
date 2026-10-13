@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllobates lugubris
+  displayName: Phyllobates lugubris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H59T
+  sourceIndexes:
+    - name:
+        en: Phyllobates lugubris
+        zh: Phyllobates lugubris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H59T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/247
+            queryName: Phyllobates lugubris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/116
+            queryName: Dendrobates lugubris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/117
+            queryName: Hylaplesia lugubris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/118
+            queryName: Phyllobates beatriciae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f20bd4b148
+      - s-78c26abab6
+      - s-f41657b1aa
+      - s-f37e5bce12
+      - s-15ca8e9455
+      - s-e6e504a14c
+      - s-c809ed9a19
+      - s-cd2fbdfce8
+      - s-c4f9224e90
+      - s-7672ab6c2a
+      - s-70dc121944
+      - s-b2ee544cdc
+    zh:
+      - s-b0395117a3
+      - s-5d4af2cb10
+      - s-3b3eb0359e
+      - s-a0bf204f8b
+      - s-4e9bd8f653
+      - s-f441bbbe05
+      - s-73d973b384
+      - s-da1ceadeee
+      - s-bd567ca763
+      - s-4b60655f33
+      - s-d960a2971b
+      - s-76b6fa3482

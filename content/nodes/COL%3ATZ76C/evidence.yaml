@@ -1,0 +1,284 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys lichun Lin, Chen, Li, Peng, Zeng & Wang, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys lichun
+      zh: Boulenophrys lichun
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ea4d97fcf9
+            part: title
+          zh:
+            page: zh
+            section: s-3485b7c532
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ea4d97fcf9
+            part: body
+          zh:
+            page: zh
+            section: s-3485b7c532
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b7615f38e8
+            part: title
+          zh:
+            page: zh
+            section: s-bde64f9290
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b7615f38e8
+            part: body
+          zh:
+            page: zh
+            section: s-bde64f9290
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-40c98c951d
+            part: title
+          zh:
+            page: zh
+            section: s-bf62ea8246
+            part: title
+        sourceIds:
+          - primary-pmc11512100-tz76c
+        text:
+          en:
+            page: en
+            section: s-40c98c951d
+            part: body
+          zh:
+            page: zh
+            section: s-bf62ea8246
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6add70056e
+            part: title
+          zh:
+            page: zh
+            section: s-f3cfecb994
+            part: title
+        sourceIds:
+          - primary-pmc11512100-tz76c
+        text:
+          en:
+            page: en
+            section: s-6add70056e
+            part: body
+          zh:
+            page: zh
+            section: s-f3cfecb994
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2a2cf86bca
+            part: title
+          zh:
+            page: zh
+            section: s-e3a06047bb
+            part: title
+        sourceIds:
+          - primary-pmc12466624-tz76c
+        text:
+          en:
+            page: en
+            section: s-2a2cf86bca
+            part: body
+          zh:
+            page: zh
+            section: s-e3a06047bb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys lichun
+          url: https://www.checklistbank.org/dataset/316115/taxon/TZ76C
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11512100-tz76c
+        referenceId: ref-7be08335-73cf-4b95-a800-7492a8c15694
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Boulenophrys lichun distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-tz76c
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys lichun: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b260ab3927
+        part: body
+      zh:
+        page: zh
+        section: s-d22fcc5965
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1216.130017
+        referenceId: ref-7be08335-73cf-4b95-a800-7492a8c15694
+        sourceKey: primary-pmc11512100-tz76c
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11512100/article.xml
+        sourceConcept: Boulenophrys lichun
+        evidenceRead: Boulenophrys lichun distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Coastal hills of eastern Fujian
+              zh: 福建东部沿海丘陵
+            referenceId: ref-7be08335-73cf-4b95-a800-7492a8c15694
+            sourceKey: primary-pmc11512100-tz76c
+            locator: Boulenophrys lichun distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b59924f149
+                part: body
+              zh:
+                page: zh
+                section: s-de93dafc91
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Seeps, litter and calling crevices
+              zh: 渗流、落叶与鸣叫裂隙
+            referenceId: ref-7be08335-73cf-4b95-a800-7492a8c15694
+            sourceKey: primary-pmc11512100-tz76c
+            locator: Boulenophrys lichun distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-684f5bd55d
+                part: body
+              zh:
+                page: zh
+                section: s-9480c3a794
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-tz76c
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys lichun
+        evidenceRead: "Boulenophrys lichun: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-tz76c
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,35
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-60c5c1ee47
+                part: body
+              zh:
+                page: zh
+                section: s-c5e62720b0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

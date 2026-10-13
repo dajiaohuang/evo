@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cynops orientalis
+    name:
+      en: Cynops orientalis
+      zh: Cynops orientalis
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Cynops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d74f07f30d
+            part: body
+          zh:
+            page: zh
+            section: s-d31e4749e1
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-53c8237456
+            part: body
+          zh:
+            page: zh
+            section: s-2e42e8af8c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 108, 109; Reference.csv rows 4125
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 108
+        values:
+          - Salamandridae
+          - Cynops
+          - Cynops orientalis
+          - F
+          - "79.6"
+          - "47.6"
+          - NA
+          - "23.6"
+          - "10.8"
+          - "7.8"
+          - "2.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "36"
+          - NA
+          - "5.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 109
+        values:
+          - Salamandridae
+          - Cynops
+          - Cynops orientalis
+          - M
+          - "65.6"
+          - "39.8"
+          - NA
+          - "19"
+          - "10.1"
+          - "7.6"
+          - "2.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "29.6"
+          - NA
+          - "5.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4125
+        values:
+          - Caudata
+          - Cynops_orientalis
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006). Fauna Sinica, Amphibia, Urodela. Science Press, Beijing.
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - TL
+      - TH
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

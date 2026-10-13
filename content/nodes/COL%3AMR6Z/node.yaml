@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulengerula spawlsi
+  displayName: Boulengerula spawlsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MR6Z
+  sourceIndexes:
+    - name:
+        en: Boulengerula spawlsi
+        zh: Boulengerula spawlsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MR6Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/319
+            queryName: Boulengerula spawlsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f4c50db308
+      - s-29e48a9159
+      - s-cd25d390e7
+      - s-042e0d6af2
+      - s-15930da07d
+      - s-b4dbbd9088
+      - s-2ffc0de46c
+      - s-0c025239e5
+      - s-f5298b38b2
+      - s-684459160c
+      - s-649de33dff
+    zh:
+      - s-256b6d3908
+      - s-fd2ff300bd
+      - s-7c63ab687c
+      - s-a15cb4c1bd
+      - s-0d03947a98
+      - s-2065ad90cc
+      - s-166e095636
+      - s-b3469dfd34
+      - s-05059ead8e
+      - s-1da2d7e4d5
+      - s-59a2c8c0aa

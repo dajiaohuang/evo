@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius ademetzi
+  displayName: Hyperolius ademetzi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQQK
+  sourceIndexes:
+    - name:
+        en: Hyperolius ademetzi
+        zh: Hyperolius ademetzi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQQK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/215
+            queryName: Hyperolius ademetzi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8e61b5eb15
+      - s-e2bb5281bb
+      - s-189cfbfa27
+      - s-0be1c263e1
+      - s-b2ad25d2b3
+      - s-05fd16472d
+      - s-eb4e4fa5bf
+      - s-79d0f9e938
+      - s-5a340bfb32
+      - s-7e70925e19
+    zh:
+      - s-ee3f86278c
+      - s-e2d644a0a7
+      - s-dcddb6c84e
+      - s-0f5a0e1ff4
+      - s-d851fa6688
+      - s-71cdaa265b
+      - s-fec4a93295
+      - s-25dee67bda
+      - s-1c43a78993
+      - s-2a5e7af6a5

@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arrhyton
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Arrhyton
+      en: Arrhyton
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c2e7feb868
+            part: body
+          en:
+            page: en
+            section: s-c9ca8f8df6
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-57b5921333
+            part: body
+          en:
+            page: en
+            section: s-40008bc7ba
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-86bbc4836f
+            part: body
+          en:
+            page: en
+            section: s-85c35b3e23
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c7f3a6da56
+            part: body
+          en:
+            page: en
+            section: s-7dffe43ac1
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-f2435427fd
+            part: body
+          en:
+            page: en
+            section: s-dac257e796
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Arrhyton
+          url: https://www.checklistbank.org/dataset/316115/taxon/338K
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 1 authored records grouped under Arrhyton by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 8 authored records grouped under Arrhyton by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: GV2M
+              name: Arrhyton ainictum
+              canonicalPath: content/nodes/COL%3AGV2M
+            - colId: 8SK3Y
+              name: Arrhyton albicollum
+              canonicalPath: content/nodes/COL%3A8SK3Y
+            - colId: GV2Q
+              name: Arrhyton dolichura
+              canonicalPath: content/nodes/COL%3AGV2Q
+            - colId: GV2Y
+              name: Arrhyton procerum
+              canonicalPath: content/nodes/COL%3AGV2Y
+            - colId: GV32
+              name: Arrhyton redimitum
+              canonicalPath: content/nodes/COL%3AGV32
+          fieldCountDistribution:
+            "1": 1
+            "2": 1
+            "3": 6
+    limitations:
+      zh:
+        page: zh
+        section: s-2c7cd85290
+        part: body
+      en:
+        page: en
+        section: s-48e909b61e
+        part: body

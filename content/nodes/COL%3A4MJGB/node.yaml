@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis lasalleorum
+  displayName: Pristimantis lasalleorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJGB
+  sourceIndexes:
+    - name:
+        en: Pristimantis lasalleorum
+        zh: Pristimantis lasalleorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJGB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/352
+            queryName: Pristimantis lasalleorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/403
+            queryName: Eleutherodactylus lasalleorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/270
+            queryName: Eleutherodactylus lasallorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/271
+            queryName: Pristimantis lasallorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cac9cbc0e0
+      - s-e3fbe9aee7
+      - s-62860c4df0
+      - s-86278ea76d
+      - s-7b891abd14
+      - s-ed41773242
+      - s-e098c186f0
+      - s-9e5faec5c8
+      - s-92587414e5
+      - s-0a5e37c1e9
+      - s-b591819745
+      - s-5b7c47d904
+      - s-06594a6155
+      - s-248f202fc5
+    zh:
+      - s-9d487b5c7c
+      - s-3993ad3baf
+      - s-d791a1014e
+      - s-16db98b697
+      - s-6f5c71ec73
+      - s-f847230c24
+      - s-33c4e92eaa
+      - s-500baa78fc
+      - s-521057d6fb
+      - s-1534d83d70
+      - s-3d42e20b85
+      - s-7ca148736f
+      - s-b0f0db1a83
+      - s-4aec42b24f

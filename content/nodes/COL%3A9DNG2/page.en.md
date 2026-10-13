@@ -1,0 +1,3 @@
+## Leaflets and floral structure in the source entry {#s-5958efa753}
+The Brazilian Flora 2020 entry records foliaceous stipules and no domatia. Leaves have up to 10 pairs of leaflets (juga); the leaflets are oblong or obovate, coriaceous, and pubescent or pilose on the lower surface. Flowers are up to 10 mm long and radially symmetric, with persistent bracteoles. The hypanthium is symmetric and cup shaped. Petals are under 1 mm wide and densely indumented; stamens are monomorphic, with 10 counted. The fruit is elliptic to oblong. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

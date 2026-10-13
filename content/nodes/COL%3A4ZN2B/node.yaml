@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stefania woodleyi
+  displayName: Stefania woodleyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZN2B
+  sourceIndexes:
+    - name:
+        en: Stefania woodleyi
+        zh: Stefania woodleyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZN2B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/315
+            queryName: Stefania woodleyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0b38dc5eea
+      - s-e961e959f5
+      - s-42f322e807
+      - s-d154e9361a
+      - s-8e8f84e55a
+      - s-b68bb749c2
+      - s-24fd731abd
+      - s-14dbe48c4e
+    zh:
+      - s-8ad17640cb
+      - s-2721d1b9b1
+      - s-d438a6aa75
+      - s-99d3dee562
+      - s-3b24581b78
+      - s-ca29350afc
+      - s-1a46547ecf
+      - s-eabe7fab7d

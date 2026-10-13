@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trochalopteron morrisonianum
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Trochalopteron morrisonianum
+      en: Trochalopteron morrisonianum
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-f9b1d493f5
+            part: body
+          en:
+            page: en
+            section: s-41cb3a8236
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-37a5c0425c
+            part: body
+          en:
+            page: en
+            section: s-6d0f94d5fe
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-027293eb64
+            part: body
+          en:
+            page: en
+            section: s-5ac3d12c36
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-f3bb654e41
+            part: body
+          en:
+            page: en
+            section: s-94d0538f70
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-92231a1e85
+            part: body
+          en:
+            page: en
+            section: s-7db5fdf9ce
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Trochalopteron morrisonianum
+          url: https://www.checklistbank.org/dataset/316115/taxon/596HB
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetTrochalopteronHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Trochalopteron historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 14 selected AVONET1_BirdLife rows within 4918–4935; individual BirdLife–eBird and BirdLife–BirdTree rows and relevant Metadata definitions in receipt.
+          scope:
+            zh: 十四条历史行；保留来源科名 Leiotrichidae 与目录 Leiothrichidae 的拼写差异及旧 Garrulax 名称。
+            en: Fourteen historical rows; retain source family spelling Leiotrichidae versus catalogue Leiothrichidae and older Garrulax names.
+    limitations:
+      zh:
+        page: zh
+        section: s-eed1400829
+        part: body
+      en:
+        page: en
+        section: s-a537514439
+        part: body

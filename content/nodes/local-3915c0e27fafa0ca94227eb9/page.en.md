@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-ec70e41201}
+This record shows how TadpoleTraits files tadpoles under Elachistocleis haroi. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Elachistocleis haroi in Elachistocleis and Microhylidae. In the literature table, rows 3780, 3781, 3782, 3783, 3784, 3785, 3786, 3787, 3788, 3789 list Elachistocleis haroi in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-fb11222888}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 10 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 34 (rows 3780, 3784); 35 (rows 3781, 3782); 32 (rows 3783, 3785, 3788); 31 (rows 3786, 3789); 30 (row 3787). Sample size is populated in 10 rows, with source values from 1 to 1; the entries remain row-specific. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

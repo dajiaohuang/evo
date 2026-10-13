@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus limai
+  displayName: Dendropsophus limai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6CKWT
+  sourceIndexes:
+    - name:
+        en: Dendropsophus limai
+        zh: Dendropsophus limai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6CKWT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/378
+            queryName: Dendropsophus limai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/379
+            queryName: Hyla limai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2ee21c8ac8
+      - s-27b9e3bee0
+      - s-e1b7bfff47
+      - s-30ea0e96da
+      - s-30093b5b44
+      - s-54024a9480
+      - s-1372997305
+    zh:
+      - s-a7207888c7
+      - s-3dda01c3f4
+      - s-0bc40622b5
+      - s-6972ad5a31
+      - s-4e26f7d6d5
+      - s-c6efafb32d
+      - s-2db4582172

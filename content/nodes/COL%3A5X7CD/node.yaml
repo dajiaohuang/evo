@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Callulina stanleyi
+  displayName: Callulina stanleyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X7CD
+  sourceIndexes:
+    - name:
+        en: Callulina stanleyi
+        zh: Callulina stanleyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X7CD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/111
+            queryName: Callulina stanleyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d88a011126
+      - s-676befcabe
+      - s-c524c4bd4d
+      - s-886e32b8f2
+      - s-f0b0a681e8
+      - s-667d14cc0e
+      - s-00212397c3
+      - s-62402ef88e
+    zh:
+      - s-06170e35d2
+      - s-bf5e8f9655
+      - s-833c33a32c
+      - s-57db898f8a
+      - s-dfb94d42a0
+      - s-f4b3232bb4
+      - s-1929254403
+      - s-c22a0ea7d0

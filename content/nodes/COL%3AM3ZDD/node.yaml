@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Blaira
+  displayName: Blaira
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M3ZDD
+  sourceIndexes:
+    - name:
+        en: Blaira
+        zh: Blaira
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M3ZDD
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/231
+            queryName: Blaira
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 40
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-69df894345
+      - s-54abd2a3d8
+      - s-73d901a32a
+      - s-21f4ea74c0
+      - s-d5c56f1aaf
+      - s-3fa2cb43f0
+      - s-e39e6c203b
+      - s-d7ce98b4a8
+      - s-ab769c1bd5
+      - s-148e8e3943
+      - s-4a6a19e486
+      - s-a5e14d8793
+      - s-0078bf3329
+      - s-2e28d50755
+    zh:
+      - s-ac25991572
+      - s-1c10f39325
+      - s-ac8cdc79b4
+      - s-72ada651fe
+      - s-c79fbba864
+      - s-4836bb921b
+      - s-431123d42d
+      - s-3d193d2235
+      - s-2387bed849
+      - s-6e35b77fcc
+      - s-4f763cd141
+      - s-e41dbbedc5
+      - s-f94c2badc6
+      - s-00c69309c2

@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena mascareniensis
+  displayName: Ptychadena mascareniensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9QX
+  sourceIndexes:
+    - name:
+        en: Ptychadena mascareniensis
+        zh: Ptychadena mascareniensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9QX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/479
+            queryName: Ptychadena mascareniensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 43
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/363
+            queryName: Ptychadena hylaea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/148
+            queryName: Rana mascareniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 52
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/149
+            queryName: Rana idae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/150
+            queryName: Rana nigrescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/151
+            queryName: Hyperolius nigrescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/152
+            queryName: Rana mascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/111
+            queryName: Ptychadena mascareniensis mascareniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/387
+            queryName: Rana savignyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-40f2e45360
+      - s-81ad4db7ee
+      - s-954a859aac
+      - s-7ab79eb522
+      - s-9c95f60c93
+      - s-d8c8a31010
+      - s-9173ce8008
+      - s-ec0642bfc3
+      - s-2df526623c
+      - s-651b87ab8a
+      - s-d73be005f0
+      - s-7b680970d4
+      - s-70ecb8d86d
+    zh:
+      - s-90a5e3111f
+      - s-3a31aef8e7
+      - s-d14bddacc3
+      - s-379d064613
+      - s-2a1ca1b4ed
+      - s-c1cac8896b
+      - s-a4fe1c85b8
+      - s-78b7350a4e
+      - s-cc113b3085
+      - s-16d24342f7
+      - s-26174f8986
+      - s-d025f75f2d
+      - s-096490e2f5

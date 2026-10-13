@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Schoenus aureus T.L.Elliott & Muasya
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 8X5L5, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 8X5L5; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/8X5L5
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 8X5L5
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001421028-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 8X5L5 / WFO wfo-0001421028
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_17737_0
+        referenceId: ref-ab75b08b-2681-896d-a032-256230805154
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Schoenus aureus T.L.Elliott & Muasya account; SANBI/WFO archive rows 104818 (Morphology), 104785 (Habitat), 104718 (Diagnostic), source identifier 17737.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Caespitose, phyllopodic perennial graminoid with flat leaves. Not viscous. Culms terete, 450-602 x 0.7-1.0 mm. Leaves basal, 2-4, flat, firm, not channelled, (11.5-)74.6-212.8(-235.0) x 0.6-1.0 mm, up to or exceeding half of culm length, apices acute, margins serrate. Sheaths open, papery, ivory in colour, not viscous. Ligule membranaceous, long,3.2-5.6 mm. Inflorescence a compact, short panicle, 15.0-28.0(-38.5) x 4.5-7.0 mm, spikes usually overlapping, not viscous, golden to straw-coloured, proximal rachis length 6.0-16.0(-20.0) mm. Proximal primary inflorescence bracts flat, apices acute to acuminate, exceeding length of inflorescence, with membranaceous extensions along margins that cover part of spikes, lowest (64.5-)67.0-91.0(-110.0) mm long. Spikes few, 2-3, congested, 7.0-14.0(-27.0) mm long. Spikelets with pedicels, prophyll bracts with raised veins, oblong to lanceolate, (4.4-)5.2-6.7(-7.2) x 1.2-2.2 mm, 3-7 spikelets/spike. Rachilla (0.8-)1.5-2.2 mm long. Glumes 3-7 per spikelet, proximal glume (2.8-)4.0-5.6(-6.2) mm long, subproximal glume 4.0-6.0(-6.8) mm long, lower firm and shorter, upper thin and papery in texture, apices acute or acuminate. Mucros difficult to distinguish from glume apices, proximal mucro (0.1-)0.4-1.7 mm long, subproximal mucro (0-)0.8-1.4(-2.4) mm long. Stamens 3(-4) per floret, anthers 4.0-4.7 mm long. Stigmas 3-branched. Perianth bristles up to 6, shorter than or as long as glumes. Nutlet [only immature observed], 3-sided, wide elliptical, (1.8-)2.6-7.2 x0.3-0.6(-0.9) mm. Nutlet beak glabrous, conical, 0.6-1.0 mm long. [Only immature nutlets from the Klipbokkop population were observed, most of which were broken during extraction due to being brittle towards the base.
+            textZh: Schoenus aureus T.L.Elliott & Muasya 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_17737_0
+            locator: "SANBI/WFO archive Morphology row 104818; source identifier 17737.0; cited publication: Elliott, TL; Muasya, AM. 2018. A taxonomic revision of Schoenus compar - Schoenus pictus and allies (Cyperaceae, tribe Schoeneae) with three new species described from South Africa. S. African J. Bot. 114: 303 - 315. [https://doi.org/10.1016/j.sajb.2017.11.020]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Schoenus aureus is a robust, relatively light coloured sedge, with ivory culm bases, long membraneous ligules and golden-brown glumes. The leaves and inflorescence bracts are flat, as in S. megacarpus - a species with a much larger nutlet. The compact panicle is similar in shape to that of S. compar and S. megacarpus; however, S. compar lacks the wide marginal membraneous extensions on the inflorescence bracts. Schoenus megacarpus, on the other hand, has darker inflorescences than S. aureus and has more evident veins on the proximal primary inflorescence bracts. Mature nutlets have yet to be observed in this species.
+            textZh: SANBI 条目提供了 Schoenus aureus T.L.Elliott & Muasya 的鉴别特征。
+            sourceIds:
+              - sanbi_17737_0
+            locator: "SANBI/WFO archive Diagnostic row 104718; source identifier 17737.0; cited publication: Elliott, TL; Muasya, AM. 2018. A taxonomic revision of Schoenus compar - Schoenus pictus and allies (Cyperaceae, tribe Schoeneae) with three new species described from South Africa. S. African J. Bot. 114: 303 - 315. [https://doi.org/10.1016/j.sajb.2017.11.020]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Growing among fynbos vegetation.
+            textZh: 该 SANBI 区域物种条目记录的生境：Growing among fynbos vegetation.
+            sourceIds:
+              - sanbi_17737_0
+            locator: "SANBI/WFO archive Habitat row 104785; source identifier 17737.0; cited publication: Elliott, TL; Muasya, AM. 2018. A taxonomic revision of Schoenus compar - Schoenus pictus and allies (Cyperaceae, tribe Schoeneae) with three new species described from South Africa. S. African J. Bot. 114: 303 - 315. [https://doi.org/10.1016/j.sajb.2017.11.020]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

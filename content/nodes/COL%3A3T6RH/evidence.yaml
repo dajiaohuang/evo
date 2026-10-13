@@ -1,0 +1,121 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leontocebus leucogenys (Gray, 1866)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 安第斯鞍背狨
+      en: Andean Saddle-back Tamarin
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-69caff06f5
+            part: body
+          en:
+            page: en
+            section: s-8ebcfa077c
+            part: body
+        sourceIds:
+          - taxonomy
+          - matauschek2011
+          - garbino2018
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-81e1276f80
+            part: body
+          en:
+            page: en
+            section: s-5c8d30e7e9
+            part: body
+        sourceIds:
+          - gobel2018
+      - topic: classification
+        text:
+          zh:
+            page: zh
+            section: s-5e6e5b41f1
+            part: body
+          en:
+            page: en
+            section: s-6e764bd611
+            part: body
+        sourceIds:
+          - mdd_name
+          - garbino2018
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leontocebus leucogenys (Gray, 1866)
+          url: https://www.checklistbank.org/dataset/316115/taxon/3T6RH
+          scope:
+            zh: 固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。
+            en: Pinned checklist identity, authorship, rank and parent links; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-bf1f8b85-8966-8682-ada5-9a4eee8e5c93
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 本地 MDD v2.5 源记录使用 Saguinus leucogenys，置于 Saguinus 属、Leontocebus 亚属，并提供英文显示名 “Andean Saddle-back Tamarin”；该记录与固定 COL26.8 ID 的交叉联接仍未命中，不能仅凭同一词尾改写分类身份。
+            en: The local MDD v2.5 source row uses Saguinus leucogenys under genus Saguinus and subgenus Leontocebus, with the English display name “Andean Saddle-back Tamarin”. Its join to the pinned COL26.8 ID is unmatched; a shared epithet alone is not used to rewrite taxonomic identity.
+      - id: matauschek2011
+        referenceId: ref-28c6f691-9686-8d2f-a46f-ed8c5b7b2cf0
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 线粒体细胞色素 b 与 D-loop 分析，样本主要来自秘鲁野生狨猴粪便；支持多个 nigricollis 类群谱系作为独立种的分类假说，不单独解决属级名称采用。
+            en: Mitochondrial cytochrome-b and D-loop analysis, using mainly fecal samples from wild Peruvian tamarins; supports species-level hypotheses for several nigricollis-group lineages but does not alone settle genus-level naming.
+      - id: garbino2018
+        referenceId: ref-668595a3-edf1-8232-ac1f-07fd0aa2ae4e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 结合遗传、骨骼、毛色与发声资料提出 Callitrichinae 分类方案；该方案把 Leontocebus 置于 Saguinus 的亚属层级，代表与 COL26.8 不同的属级处理。
+            en: Combines genetic, osteological, pelage and vocal evidence in a Callitrichinae classification that treats Leontocebus as a subgenus of Saguinus, a genus-level treatment differing from pinned COL26.8.
+      - id: gobel2018
+        referenceId: ref-8a886b9b-7c93-8404-ab10-9047aee636ac
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 秘鲁 Panguana 私人保护地的一处系统调查；L. leucogenys 的观察与 35.7 公顷样地、林隙占地及群体记录有关，不外推到全分布区。
+            en: A systematic survey at one Peruvian Panguana reserve; L. leucogenys observations relate to a 35.7-ha observation area, its gaps and local groups, not the full range.
+    limitations:
+      zh:
+        page: zh
+        section: s-033a4515a4
+        part: body
+      en:
+        page: en
+        section: s-7f3e166627
+        part: body

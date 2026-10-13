@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-332e76aa61
+      part: title
+    titleZh:
+      page: zh
+      section: s-76c194c68a
+      part: title
+    category: morphology
+    startAge: 67
+    endAge: 66
+    regions:
+      - Hell Creek Formation, North Dakota, USA
+    clades:
+      - Hadrosauridae
+      - Edmontosaurus
+    summary:
+      page: en
+      section: s-332e76aa61
+      part: body
+    summaryZh:
+      page: zh
+      section: s-76c194c68a
+      part: body
+    claimIds:
+      - claim:event:edmontosaurus-ndgs2000-skin-taphonomy
+    evidenceItems:
+      - statement: NDGS 2000 directly preserves skin draped over bones, punctures, hook scores and CT-visible manus anatomy; scavenging-assisted deflation, desiccation and burial form a taphonomic pathway inferred for this carcass, not a universal recipe for dinosaur skin preservation.
+        relation: supports
+        claimIds:
+          - claim:event:edmontosaurus-ndgs2000-skin-taphonomy
+        referenceLinks:
+          - referenceId: drumheller-2022-edmontosaurus-mummy
+            relation: supports
+            pages: 17:e0275240
+            figure: Figures 1–10; Tables 1–2
+            quoteLocator: Materials and methods; Biostratinomic alterations; Proposed preservational pathway
+    uncertaintyItems:
+      - statement: The evidence concerns one specimen and one depositional history; skin presence does not establish original colour, physiology or preservation frequency.
+        relation: contextualizes
+        claimIds:
+          - claim:event:edmontosaurus-ndgs2000-skin-taphonomy
+        referenceLinks:
+          - referenceId: drumheller-2022-edmontosaurus-mummy
+            relation: supports
+            pages: 17:e0275240
+            figure: Figures 1–10; Tables 1–2
+            quoteLocator: Materials and methods; Biostratinomic alterations; Proposed preservational pathway
+  claims:
+    - subjectId: event:edmontosaurus-ndgs2000-skin-taphonomy
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: NDGS 2000 directly preserves skin draped over bones, punctures, hook scores and CT-visible manus anatomy; scavenging-assisted deflation, desiccation and burial form a taphonomic pathway inferred for this carcass, not a universal recipe for dinosaur skin preservation.
+      confidence: medium
+      confidenceRationale: Skin, damage, CT slices and sediment measurements are observed; the sequence connecting scavenging, desiccation and fossilization is a case-specific taphonomic interpretation.
+      referenceLinks:
+        - referenceId: drumheller-2022-edmontosaurus-mummy
+          relation: supports
+          pages: 17:e0275240
+          figure: Figures 1–10; Tables 1–2
+          quoteLocator: Materials and methods; Biostratinomic alterations; Proposed preservational pathway
+  claim-rationales.zh:
+    - 皮肤、损伤、CT 切片与沉积物测量是直接观察；把食腐、干燥与化石化连接起来的顺序是个案埋藏学解释。
+  claim-statements.zh:
+    - NDGS 2000 直接保存贴覆骨骼的皮肤、穿刺痕、钩划痕及 CT 可见手部解剖；食腐促进的泄压、干燥与埋藏是为这具尸体推断的埋藏路径，并非恐龙皮肤保存的通用配方。

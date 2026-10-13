@@ -1,0 +1,462 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Myomorpha
+    rank: suborder
+    sourceDatasetId: "2144"
+    name:
+      zh: Myomorpha
+      en: Myomorpha
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-d4785f3fde
+            part: body
+          en:
+            page: en
+            section: s-f5d28b0853
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-d17e843d68
+            part: body
+          en:
+            page: en
+            section: s-03f60ba9f4
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1fa418cdb3
+            part: body
+          en:
+            page: en
+            section: s-aec9e00cef
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-fbc3ad889a
+            part: body
+          en:
+            page: en
+            section: s-ffbe1692bd
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-677c66c8cb
+            part: body
+          en:
+            page: en
+            section: s-9b3db6288a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-66ee66442b
+            part: body
+          en:
+            page: en
+            section: s-fd321a890b
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-5350afda91
+            part: body
+          en:
+            page: en
+            section: s-33287be1ae
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-0487c5ae55
+            part: body
+          en:
+            page: en
+            section: s-710b8fad52
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-067bde07a9
+            part: body
+          en:
+            page: en
+            section: s-b9f314f1fb
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-09915ff4c7
+            part: body
+          en:
+            page: en
+            section: s-df576c74f9
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-fe922d4f82
+            part: body
+          en:
+            page: en
+            section: s-9619e2051d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Myomorpha
+          url: https://www.checklistbank.org/dataset/316115/taxon/622X6
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 207 authored entries grouped under Myomorpha by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 465 authored same-name records placed under Myomorpha by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 1000 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 842
+            foraging: 1000
+            activity: 860
+          readingTargets:
+            - name: Allactodipus bobrinskii
+              colId: BSWB
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3ABSWB
+            - name: Cardiocranius paradoxus
+              colId: R5CD
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AR5CD
+            - name: Salpingotulus michaelis
+              colId: 79G4X
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A79G4X
+            - name: Dipus sagitta
+              colId: 36R7T
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A36R7T
+            - name: Eremodipus lichtensteini
+              colId: 6GGMV
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6GGMV
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 164 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 1
+            foraging: 163
+            activity: 0
+          readingTargets:
+            - name: Voalavo gymnocaudus
+              colId: 7FT8Q
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A7FT8Q
+            - name: Eliurus antsingy
+              colId: 6F5ML
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5ML
+            - name: Eliurus petteri
+              colId: 6F5NV
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NV
+            - name: Eliurus grandidieri
+              colId: 6F5NY
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NY
+            - name: Eliurus ellermani
+              colId: 6F5NZ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6F5NZ
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 364 authored entries grouped under Myomorpha by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: PYKY
+              name: Calomys boliviae
+              canonicalPath: content/nodes/COL%3APYKY
+            - colId: PYKZ
+              name: Calomys callidus
+              canonicalPath: content/nodes/COL%3APYKZ
+            - colId: PYL5
+              name: Calomys hummelincki
+              canonicalPath: content/nodes/COL%3APYL5
+            - colId: PYL9
+              name: Calomys sorellus
+              canonicalPath: content/nodes/COL%3APYL9
+            - colId: 68VFY
+              name: Calomys tener
+              canonicalPath: content/nodes/COL%3A68VFY
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 108 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 36R7T
+              name: Dipus sagitta
+              canonicalPath: content/nodes/COL%3A36R7T
+            - colId: 6GGMV
+              name: Eremodipus lichtensteini
+              canonicalPath: content/nodes/COL%3A6GGMV
+            - colId: 3QK2Y
+              name: Jaculus orientalis
+              canonicalPath: content/nodes/COL%3A3QK2Y
+            - colId: 3QK2X
+              name: Jaculus jaculus
+              canonicalPath: content/nodes/COL%3A3QK2X
+            - colId: 45NLZ
+              name: Napaeozapus insignis
+              canonicalPath: content/nodes/COL%3A45NLZ
+          fieldAccountCounts:
+            gestation(mo): 68
+            newborn(g): 40
+            weaning(mo): 57
+            wean mass(g): 26
+            AFR(mo): 57
+            max. life(mo): 24
+            litter size: 99
+            litters/year: 33
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-c2019a220b
+        part: body
+      en:
+        page: en
+        section: s-fedea7e1cd
+        part: body

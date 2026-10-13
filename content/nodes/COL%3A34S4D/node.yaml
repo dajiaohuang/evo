@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus anceps
+  displayName: Dendropsophus anceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S4D
+  sourceIndexes:
+    - name:
+        en: Dendropsophus anceps
+        zh: Dendropsophus anceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S4D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/336
+            queryName: Dendropsophus anceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/258
+            queryName: Hyla anceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0b71c22720
+      - s-865ddab56d
+      - s-2b78656c0c
+      - s-236e8bfa2f
+      - s-459e439358
+      - s-24b3e4a392
+      - s-2816f271aa
+      - s-8a42ff237c
+      - s-1fd3857ee2
+      - s-f18c9877f5
+      - s-02b06b2d96
+      - s-bd097dd584
+      - s-2900dc1c19
+      - s-741101b216
+      - s-3d0ec4ce40
+      - s-097e4c1ade
+      - s-5539bf6c9d
+    zh:
+      - s-f5e4937849
+      - s-3f5b0249ba
+      - s-6b5f582bc0
+      - s-20274bf5b2
+      - s-ecb1db3b30
+      - s-17ebd599d3
+      - s-00507f8785
+      - s-b6d1e707d4
+      - s-266438b7ab
+      - s-9e46cbb90f
+      - s-befd08782c
+      - s-182129c309
+      - s-cd3073ab4d
+      - s-50060cfaf1
+      - s-3aa0f61950
+      - s-cae7e83091
+      - s-4fa4c57c42

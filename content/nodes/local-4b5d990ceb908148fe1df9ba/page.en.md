@@ -1,0 +1,12 @@
+## TadpoleTraits classification for Lithobates fisheri {#s-cd01ebe5f7}
+TadpoleTraits version 4 places Lithobates fisheri in Lithobates (Ranidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names none recorded. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 0 literature rows and 1 image row {#s-f22d96e431}
+TadpoleTraits version 4 links 0 literature rows and 1 image row to Lithobates fisheri. Source row numbers — literature: none recorded; image: 778. Populated measurement fields — literature: none recorded; image: TL, BL, TaL, BMH, MTH, TMH, DFH, VFH, BL/TL, TaL/TL, BMH/TL, MTH/TL, TMH/TL, DFH/TL, VFH/TL. Literature rows have no Stage value. Image row 778: Stage 40. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+
+## Image proportions from row 778 {#s-b291a60bda}
+Selected image entries: BL/TL (body length / total length) = 0.341952 (source row 778; Stage 40; type Measurement; image type Black-and-white image); TaL/TL (tail length / total length) = 0.655595 (source row 778; Stage 40; type Measurement; image type Black-and-white image); BMH/TL (maximum body height / total length) = 0.197724 (source row 778; Stage 40; type Measurement; image type Black-and-white image); MTH/TL (maximum tail height / total length) = 0.197667 (source row 778; Stage 40; type Measurement; image type Black-and-white image). Each is a dimensionless ratio of the labelled feature to total length, displayed to six decimal places. Recorded image types: Black-and-white image. These values describe proportions in the listed source images, not variation across a wild population.
+
+## 3 image ratio fields flagged for review {#s-14f18a9172}
+TadpoleTraits version 4 flags 3 image-ratio fields: each supplied ratio differs by more than 0.001 from the same row’s numerator divided by total length. Flagged fields: TMH/TL (row 778), DFH/TL (row 778), VFH/TL (row 778). The source cells remain unchanged; these ratios are unresolved and are not used as reader measurements pending source review.
+

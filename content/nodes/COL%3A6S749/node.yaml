@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Neobatrachus albipes
+  displayName: Neobatrachus albipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6S749
+  sourceIndexes:
+    - name:
+        en: Neobatrachus albipes
+        zh: Neobatrachus albipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6S749
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/233
+            queryName: Neobatrachus albipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-769f579376
+      - s-6fff1594a7
+      - s-2a3def1b25
+      - s-85fce6b024
+      - s-a885f28249
+      - s-684b4772be
+      - s-2b664c59e5
+      - s-57d68c446b
+      - s-4acc0a67b7
+      - s-97fc444e74
+      - s-6c23d53ec5
+      - s-84c2ec4907
+    zh:
+      - s-428a444af5
+      - s-11b64005f7
+      - s-10400a69e2
+      - s-33b280aa2f
+      - s-f5d125c1bd
+      - s-e52d551ebe
+      - s-21d018ffbd
+      - s-f11eb11acf
+      - s-adb650fc5e
+      - s-64a1e7ddc0
+      - s-684abb9a05
+      - s-a5e0404f50

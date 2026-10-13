@@ -1,0 +1,3 @@
+## What a laboratory decay test found {#s-e25404cd4a}
+COL26.8 accepts *Neurospora crassa* Shear & B.O. Dodge in Sordariaceae. A 2025 study tested one cultured strain in controlled laboratory microcosms. Compared with the non-fire-associated fungi in that experiment, N. crassa did not decay pyrolyzed (heat-treated) wood or grass more strongly. It caused more than 20% mass loss in untreated grass substrates but less than 6% in wood. The experiments included substrates heated to 225°C and 350°C. These are results for that strain under laboratory conditions; they do not measure field performance after fires, wild abundance, seasonal activity, or colonization in nature.
+

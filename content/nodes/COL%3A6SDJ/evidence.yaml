@@ -1,0 +1,290 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plecturocebus Byrne, Rylands, Carneiro, Lynch Alfaro et al., 2016
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: 绢毛猴属
+      en: Titi Monkeys
+    sections:
+      - topic: materialComparison
+        sourceIds:
+          - vanDerMije2025TitiTypes
+        text:
+          zh:
+            page: zh
+            section: s-4a27d69ddb
+            part: body
+          en:
+            page: en
+            section: s-df35409b24
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - vanDerMije2025TitiTypes
+        text:
+          zh:
+            page: zh
+            section: s-997bca9258
+            part: body
+          en:
+            page: en
+            section: s-a87e077ea5
+            part: body
+      - topic: typeComparison
+        sourceIds:
+          - roosmalen2002BernhardiMaterials
+        text:
+          zh:
+            page: zh
+            section: s-b576498b95
+            part: body
+          en:
+            page: en
+            section: s-c8b20f39ee
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - roosmalen2002BernhardiMaterials
+        text:
+          zh:
+            page: zh
+            section: s-03910b76a7
+            part: body
+          en:
+            page: en
+            section: s-d4f27a08bc
+            part: body
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-8c3cc997be
+            part: body
+          en:
+            page: en
+            section: s-5210fdb81e
+            part: body
+        sourceIds:
+          - taxonomy
+          - byrne2016
+          - vermeer2025
+      - topic: readingPath
+        text:
+          zh:
+            page: zh
+            section: s-9ed553cd93
+            part: body
+          en:
+            page: en
+            section: s-9aa4691ef4
+            part: body
+        sourceIds:
+          - carrillo2005
+          - papworth2010
+          - roosmalen2002
+          - vermeer2025
+          - quintero2024
+      - topic: limitations
+        text:
+          zh:
+            page: zh
+            section: s-ac0294024a
+            part: body
+          en:
+            page: en
+            section: s-45cc3c880e
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_v24
+          - vermeer2025
+          - quintero2024
+      - topic: readingPath
+        sourceIds:
+          - snodderly2019Morning
+        text:
+          zh:
+            page: zh
+            section: s-065c64b65d
+            part: body
+          en:
+            page: en
+            section: s-5d2014ae76
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Plecturocebus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6SDJ
+          scope:
+            zh: 支持固定名录中的属名、作者、等级和层级；不裁决属内物种边界。
+            en: Supports the genus name, authorship, rank and hierarchy in the pinned catalogue; it does not adjudicate species boundaries within the genus.
+      - id: byrne2016
+        referenceId: ref-036fc150-2a15-8ae6-a10f-195ba5c5c907
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持该研究以分子数据并结合形态、生物地理证据提出的三属框架；不等同于所有后续种级分类结论。
+            en: Supports the three-genus framework proposed from molecular data combined with morphology and biogeography; it is not every later species-level taxonomic conclusion.
+      - id: vermeer2025
+        referenceId: ref-3d645239-a7b4-8013-a535-002fd5e05deb
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持作者对若干北部与西北部绢毛猴名称、形态和分布的修订；范围限于该研究讨论的分类单元。
+            en: Supports the authors’ revisions to names, morphology and distribution for selected northwestern titi taxa; scope is limited to taxa discussed in that study.
+      - id: mdd_v24
+        referenceId: ref-bce38b3d-09ae-8993-a3e8-e76e310c1dc1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 MDD v2.4 对 P. discolor 和 P. stephennashi 的版本级分类处理记录；不覆盖全属名录。
+            en: Supports the MDD v2.4 release entries for P. discolor and P. stephennashi; it is not a complete genus checklist.
+      - id: carrillo2005
+        referenceId: ref-7e92f57a-d029-881f-ad33-ca64f74e1cab
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持旧分类名称下一个 Yasuní 群体的局地观察；不提供属级生态概括。
+            en: Supports local observations of one Yasuní group under an older taxonomic name; not a genus-wide ecological account.
+      - id: papworth2010
+        referenceId: ref-9fba831e-6c1e-8939-aebb-2ae9350b6963
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持研究中心周边的局地距离抽样数据；不提供属级密度或完整分布。
+            en: Supports local distance-sampling data around the research station; not genus-level density or complete distribution.
+      - id: roosmalen2002
+        referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本批 stephennashi 的原始模式和诊断材料；不提供属级分类综述。
+            en: Supports the original type and diagnostic material for stephennashi in this batch; not a genus-wide taxonomic review.
+      - id: quintero2024
+        referenceId: ref-1b9adf7c-2cef-8baa-a6c8-27197da3ad68
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持两个哥伦比亚研究群体的活动预算和食物植物记录；不提供属级生活史。
+            en: Supports activity budgets and food-plant records for two Colombian study groups; not a genus-wide life history.
+      - id: snodderly2019Morning
+        referenceId: ref-630787fc-d174-4360-810b-05c62a0133ec
+        fields:
+          - id
+          - url
+          - locator
+          - accessedAt
+          - sourceTaxonName
+          - scope
+        metadataVariant: 0
+        usage:
+          url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210494
+          locator: Reading path to source-bounded P. discolor morning study; species concept unresolved.
+          accessedAt: 2026-10-02
+          sourceTaxonName: Plecturocebus (Callicebus) discolor
+          scope:
+            zh: Tiputini 历史名下的晨间观察；不裁决当前分类概念。
+            en: Morning observations under historical Tiputini naming; current concept assignment unresolved.
+          readingTargets:
+            - colId: 4K5Y5
+              name: Plecturocebus discolor
+              canonicalPath: content/nodes/COL%3A4K5Y5
+              status: historical-study-concept-assignment-unresolved
+      - id: roosmalen2002BernhardiMaterials
+        referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+        fields:
+          - id
+          - title
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: A taxonomic review of the titi monkeys, genus Callicebus Thomas, 1903, with the description of two new species, Callicebus bernhardi and Callicebus stephennashi, from Brazilian Amazonia
+          url: https://doi.org/10.62015/np.2002.v10.503
+          accessedAt: 2026-10-03
+          locator: Published NP10 supplement pp. 24–27, bernhardi account and captions; pp. 28–30 captions; pp. 25–26 pixels and table 3 inspected. No specimen remeasurement or modern population audit.
+          scope:
+            zh: 依据 bernhardi 材料组织比较路径；不外推整个属或亚科。
+            en: Comparison route through bernhardi material, not extrapolation to the genus or subfamily.
+      - id: vanDerMije2025TitiTypes
+        referenceId: ref-afacf123-823d-48a5-b102-82d3f8a8e63d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - pages
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Type specimens of recent mammals in Naturalis Biodiversity Center. Part 1 Monotremata, Didelphimorphia, Dasyuromorphia, Peramelemorphia, Diprotodontia, Afrosoricida, Macroscelidea, Hyracoidea, Proboscidea, Scandentia, Primates, Rodentia (Mammalia)
+          url: https://repository.naturalis.nl/pub/801296/Meije-2025-Type-specimens-of-recent-mammals-in-Naturalis-A.pdf
+          accessedAt: 2026-10-03
+          locator: Front matter p. 1; selected introduction/methods and taxonomic-issue discussion pp. 3–4, 6–8; cupreus/discolor/donacophilus accounts pp. 49–50 including continuation. Pixels viewed pp. 49–50. No full article or current physical inventory audit.
+          scope:
+            zh: 三种伶猴的限定类型身份、收藏／行程及命名解释；属与亚科为材料比较入口。
+            en: Bounded type identity, collection/itinerary and nomenclatural interpretations for three titi species; genus/subfamily pages offer material comparisons.
+    limitations:
+      zh:
+        page: zh
+        section: s-ff6f5ef838
+        part: body
+      en:
+        page: en
+        section: s-cc3b99a7ba
+        part: body

@@ -1,0 +1,6 @@
+## Branching hairs and a bud-closed calyx {#s-89d550df1e}
+The Brazilian Flora 2020 v393.147 field describes tree-like hairs on young stems. Elliptic or obovate leaves have acute or blunt tips and wedge-shaped bases; their margins are entire, scalloped or without fringe-like hairs. Three main veins begin above the base, with two faint veins just inside the edge. The lower surface is hairless or sparsely covered by star-shaped hairs attached directly to it. Flowers branch in pairs. The tubular flower cup bears a persistent calyx with irregular lobes; the field also says the calyx is closed in bud. Each flower has five petals. The tissue joining the anther's pollen sacs is not prolonged, while its appendage is described as two lower-side lobes. Lilac anthers have one small pore, and the ovary bears hairs. The habitat field separately says “terrícola,” or terrestrial. The source records this combination but does not establish its variation.
+
+## A terrestrial label beside the floral record {#s-8482e362d1}
+The habitat field classifies the record as “terrícola,” meaning terrestrial. It gives no locality, survey date or range coverage and does not specify wild, cultivated, managed or fossil material. The entry complements the morphology field with one habitat category only.
+

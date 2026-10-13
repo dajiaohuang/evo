@@ -1,0 +1,221 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Bavayia
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Bavayia
+      en: Bavayia
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-1f5ed4276e
+            part: body
+          en:
+            page: en
+            section: s-eae5369cb1
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-0ac030300c
+            part: body
+          en:
+            page: en
+            section: s-88a12ad6f8
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c9b7c06edd
+            part: body
+          en:
+            page: en
+            section: s-baa7a24fde
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-51d19a0786
+            part: body
+          en:
+            page: en
+            section: s-6bed2dc81d
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-7fc236da63
+            part: body
+          en:
+            page: en
+            section: s-1c8938b731
+            part: body
+      - topic: overview
+        sourceIds:
+          - bauer2022Mandjeliensis
+        text:
+          zh:
+            page: zh
+            section: s-6b376b1c92
+            part: body
+          en:
+            page: en
+            section: s-39220e0cc9
+            part: body
+      - topic: overview
+        sourceIds:
+          - bauer2022Mandjeliensis
+        text:
+          zh:
+            page: zh
+            section: s-09cfdf1318
+            part: body
+          en:
+            page: en
+            section: s-08c24f95b3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Bavayia
+          url: https://www.checklistbank.org/dataset/316115/taxon/38Y5
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 12 authored records grouped under Bavayia by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 2 authored records grouped under Bavayia by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: C6GNB
+              name: Bavayia endemia
+              canonicalPath: content/nodes/COL%3AC6GNB
+            - colId: C6GP6
+              name: Bavayia periclitata
+              canonicalPath: content/nodes/COL%3AC6GP6
+          fieldCountDistribution:
+            "1": 2
+      - id: bauer2022Mandjeliensis
+        referenceId: ref-d502c327-58dd-4702-b801-d094ea4863ff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Printed pp121–125; brief reading entry only.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: C6GP2
+              name: Bavayia mandjeliensis
+              canonicalPath: content/nodes/COL%3AC6GP2
+          scope:
+            zh: 仅此篇已读物种描述的入口；不概括全部后代。
+            en: Entry for this read species description only; no summary of every descendant.
+    limitations:
+      zh:
+        page: zh
+        section: s-b8de37adf7
+        part: body
+      en:
+        page: en
+        section: s-96eafa6d11
+        part: body

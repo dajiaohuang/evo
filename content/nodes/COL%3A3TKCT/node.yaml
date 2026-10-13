@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium promustache
+  displayName: Leptobrachium promustache
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKCT
+  sourceIndexes:
+    - name:
+        en: Leptobrachium promustache
+        zh: Leptobrachium promustache
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKCT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/341
+            queryName: Leptobrachium promustache
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/15
+            queryName: Vibrissaphora promustache
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7f85fe970f
+      - s-bafaf40823
+      - s-257f9a1382
+      - s-6ed88159eb
+      - s-bd2974411d
+      - s-91970b9571
+      - s-eda2724566
+      - s-3748b724c6
+    zh:
+      - s-e1c819f817
+      - s-e16eea7329
+      - s-8d54c81d0e
+      - s-bf700ad587
+      - s-9059540f5f
+      - s-98c60c124f
+      - s-282be9a5c2
+      - s-2261a49b99

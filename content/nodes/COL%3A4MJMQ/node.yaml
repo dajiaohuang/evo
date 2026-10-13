@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis reticulatus
+  displayName: Pristimantis reticulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJMQ
+  sourceIndexes:
+    - name:
+        en: Pristimantis reticulatus
+        zh: Pristimantis reticulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJMQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/44
+            queryName: Pristimantis reticulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/178
+            queryName: Eleutherodactylus reticulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4a72b7b2c4
+      - s-f54d92be97
+      - s-110ad9f1b0
+      - s-44407893bd
+      - s-52c6c0ad1a
+      - s-50c66f0c2c
+      - s-765048c6f2
+      - s-8a95443bba
+    zh:
+      - s-33bee9223a
+      - s-abe991fef1
+      - s-68c1ecf177
+      - s-751f2303ce
+      - s-b6dcf52dbd
+      - s-f197f53ee5
+      - s-966868635d
+      - s-3ddfc7397d

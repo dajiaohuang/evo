@@ -1,0 +1,131 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Codonorhiza pillansii Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage WPYQ, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0001343993.
+      scope: Codonorhiza pillansii Goldblatt & J.C.Manning as represented by COL26.8 usage WPYQ; SANBI sources retain their southern African/South African regional scope.
+    lifeStatusScope:
+      wild: Claims concern wild populations described by the cited flora or national assessment.
+      domesticated: Cultivation is not covered by cited claims; no domestication claim is made.
+      fossil: No fossil occurrence claim is made; fossil evidence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 20
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/WPYQ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage WPYQ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001343993-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Exact accepted COL WPYQ / WFO wfo-0001343993 crosswalk row
+          scope: Identity-link evidence only; not biological evidence.
+      - id: sanbi2020
+        referenceId: ref-a2c82bbf-bb8f-8117-a1e3-5aefbf03dc12
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 2
+        usage:
+          locator: Codonorhiza species account, printed p. 163; relevant flowering-time/distribution entries
+          scope: Regional flora treatment of southern African Iridaceae; geographic statements retain their regional and temporal limits.
+      - id: sanbi-archive
+        referenceId: ref-17240331-6ad4-8e0c-aac4-8fde5401507e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Source 18638.0; morphology row 98034; habitat row 96945
+          scope: South African flora morphology and habitat description fields only.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The archived description reports plants 100–150 mm tall, with a crowded, flat-topped inflorescence of dark-blue flowers and an unusually slender perianth tube 14–20 mm long.
+            textZh: SANBI 档案记载：株高 100–150 mm，花序密集、平顶，开深蓝花；花被管异常细长，约 14–20 mm。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, morphology row 98034
+            placeTimeScope: SANBI e-Flora South Africa description archive, source 18638.0; South African source scope, not a global assessment.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of morphology has not been completed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The flora reports flowering October and November. It does not provide a full life-cycle study.
+            textZh: 植物志记载花期为10 月和 11 月；该账户不构成完整生活史研究。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), printed p. 163, flowering-time entry
+            placeTimeScope: Species account in Goldblatt & Manning, Strelitzia 42 (2020), printed p. 163; regional flora evidence is not a current global synthesis.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of lifeHistory has not been completed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The flora describes low fynbos on sandy, stony ground as the likely habitat and notes that flowering probably follows fire.
+            textZh: 植物志推测其可能生于低矮 fynbos 的砂石地，并可能在火后开花。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, habitat row 96945
+            placeTimeScope: SANBI e-Flora South Africa description archive, source 18638.0; South African source scope, not a global assessment.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of ecology has not been completed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The flora says the record is poorly understood and known from a single collection made in 1921 at Cape Point Nature Reserve, Western Cape; this is a historical collection statement, not proof of current occupancy.
+            textZh: 植物志称其记录尚不清楚，仅知 1921 年在西开普 Cape Point Nature Reserve 采得一次；这是历史采集记录，不证明目前仍占据该地。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), printed p. 163, distribution and ecology paragraph
+            placeTimeScope: Species account in Goldblatt & Manning, Strelitzia 42 (2020), printed p. 163; regional flora evidence is not a current global synthesis.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of distribution has not been completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

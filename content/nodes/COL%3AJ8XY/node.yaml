@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus chocoensis
+  displayName: Atelopus chocoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8XY
+  sourceIndexes:
+    - name:
+        en: Atelopus chocoensis
+        zh: Atelopus chocoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8XY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/242
+            queryName: Atelopus chocoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3a81a7ed1f
+      - s-9a163a7ad8
+      - s-1fdc19c19a
+      - s-993cc5f336
+      - s-3ee70d5113
+      - s-e24ba7aa53
+      - s-621ecf2a34
+      - s-88fa62b24d
+      - s-1321e149e0
+    zh:
+      - s-e26310aa74
+      - s-9dafe1cb4a
+      - s-4457007850
+      - s-26d18e7c7a
+      - s-353650bef4
+      - s-fd49af1349
+      - s-720000d614
+      - s-7e250c5d41
+      - s-c0fce6cc25

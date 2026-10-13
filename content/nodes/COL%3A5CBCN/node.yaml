@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus tropicalis
+  displayName: Xenopus tropicalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBCN
+  sourceIndexes:
+    - name:
+        en: Xenopus tropicalis
+        zh: Xenopus tropicalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBCN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/327
+            queryName: Xenopus tropicalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8459
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/385
+            queryName: Silurana tropicalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 502
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/99
+            queryName: Silurana intertropicalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-20068e0c8f
+      - s-38584e6268
+      - s-2329d4d21d
+      - s-55a1539df4
+      - s-cc767a8f61
+      - s-e410cc2a4d
+      - s-efb780257e
+      - s-56d0290655
+      - s-34b8a818a2
+      - s-b667e3a697
+      - s-ee79231ccc
+      - s-173462a7c1
+      - s-9c818c56d9
+      - s-ce100f9a4e
+      - s-a33c3538ce
+      - s-06a4774d1c
+      - s-0dbd72fff5
+      - s-287f152d3b
+      - s-68880bd18b
+      - s-01feba9089
+      - s-477df32223
+    zh:
+      - s-5431dccee9
+      - s-910c6073bf
+      - s-15622c7490
+      - s-3c53262f6a
+      - s-50b217b197
+      - s-195674c10d
+      - s-cbdb8369b3
+      - s-05fdaa26cd
+      - s-cc84c07e2b
+      - s-1697b3c978
+      - s-e6a587f027
+      - s-730879446d
+      - s-5612f96f31
+      - s-41fe400a28
+      - s-2f1c955746
+      - s-9a46c02690
+      - s-d21ab69c10
+      - s-c8e23a6fe8
+      - s-d5a5e901a1
+      - s-5d899aec90
+      - s-bb3ecc8701

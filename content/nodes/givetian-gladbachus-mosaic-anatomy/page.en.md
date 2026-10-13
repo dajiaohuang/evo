@@ -1,0 +1,3 @@
+## A mosaic anatomy in one Devonian shark relative {#s-3938a33aab}
+The single specimen UMZC 2000.32, from the Lower Plattenkalk at about 385 million years old, preserves parts of the skull, jaws, gill skeleton, pectoral girdle, cartilage, scales and teeth. CT imaging and histology reveal a mixture of features associated with placoderms, bony fishes and chondrichthyans; a phylogenetic analysis places Gladbachus on the chondrichthyan stem. The fossil is dorsoventrally compressed and its tail is missing, so total length and feeding interpretations remain reconstructions. One stem species does not establish the anatomy or ancestry of crown sharks.
+

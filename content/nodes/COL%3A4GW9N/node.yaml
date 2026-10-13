@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus krefftii
+  displayName: Phrynobatrachus krefftii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW9N
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus krefftii
+        zh: Phrynobatrachus krefftii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW9N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/142
+            queryName: Phrynobatrachus krefftii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa8a18c769
+      - s-34d4bcc175
+      - s-5dffce6ac7
+      - s-58b6973011
+      - s-5457df048f
+      - s-82311f0b71
+      - s-81caed0256
+      - s-152c1eead4
+      - s-22d67c793d
+      - s-ff2b3c7972
+      - s-234b807d29
+    zh:
+      - s-864a743f9b
+      - s-ec4cdce69f
+      - s-3a4f39534f
+      - s-e19cb6f972
+      - s-5ceb6f9065
+      - s-2955edc230
+      - s-adb3f57f32
+      - s-281b2016d5
+      - s-cadeb8a82d
+      - s-71b7ae0d26
+      - s-007da859b2

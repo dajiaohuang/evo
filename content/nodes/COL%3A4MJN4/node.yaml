@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis rosadoi
+  displayName: Pristimantis rosadoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJN4
+  sourceIndexes:
+    - name:
+        en: Pristimantis rosadoi
+        zh: Pristimantis rosadoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJN4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/58
+            queryName: Pristimantis rosadoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/30
+            queryName: Eleutherodactylus rosadoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5ec9c2fbe1
+      - s-b123338a99
+      - s-af26f74c2c
+      - s-62c94c742b
+      - s-ca0effd7b8
+      - s-9a9c2a3426
+      - s-9ed9001378
+      - s-e7b66dde10
+      - s-4b732bf9c2
+    zh:
+      - s-48d48742c0
+      - s-5f74b6f345
+      - s-a0f5ada272
+      - s-5a41927584
+      - s-e0bc55ba6e
+      - s-243edbb472
+      - s-d546624c7f
+      - s-425ddb2a60
+      - s-21c3d805f8

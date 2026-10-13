@@ -1,0 +1,122 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudis minuta
+  displayName: Pseudis minuta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6WC9H
+  sourceIndexes:
+    - name:
+        en: Pseudis minuta
+        zh: Pseudis minuta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6WC9H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/273
+            queryName: Pseudis minuta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/92
+            queryName: Lysapsus mantidactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/93
+            queryName: Pseudis brasiliensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/94
+            queryName: Pseudis mantidactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/95
+            queryName: Pseudis meridionalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/96
+            queryName: Pseudis minutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/97
+            queryName: Lysapsus mantidactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/98
+            queryName: Podonectes minutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-450f9cd253
+      - s-979f04654c
+      - s-27082cbdd1
+      - s-daf9f6c8ac
+      - s-75282a6a91
+      - s-9962498479
+      - s-801e97d600
+      - s-1e2f2bb745
+      - s-2252a46b33
+      - s-f602d92864
+      - s-61ab04496b
+      - s-ea2493ccc2
+      - s-7d70297603
+      - s-c8413de53e
+      - s-ace6e6f257
+      - s-412b22c305
+      - s-b9e0f5450c
+      - s-fc1c0cb306
+      - s-003509836e
+      - s-ed8b6a5c69
+    zh:
+      - s-5e27e4fcb6
+      - s-a627434568
+      - s-3d1137c07f
+      - s-d8963d1d45
+      - s-ef11a056e5
+      - s-7cf7304d19
+      - s-8b7de34446
+      - s-ac25bc9fe4
+      - s-808584caf3
+      - s-3a85afafed
+      - s-e2baaae615
+      - s-c6ce9d6537
+      - s-a6745dd32c
+      - s-4fa5f3259e
+      - s-67138bc8db
+      - s-7ae387b04b
+      - s-6bfe148a3d
+      - s-55b058a98d
+      - s-ea274d85a9
+      - s-8e0af9978e

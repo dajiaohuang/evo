@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia thompsoni
+  displayName: Caecilia thompsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7TL
+  sourceIndexes:
+    - name:
+        en: Caecilia thompsoni
+        zh: Caecilia thompsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7TL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/90
+            queryName: Caecilia thompsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9209619110
+      - s-34077606a3
+      - s-f310401da3
+      - s-2cc8a5997a
+      - s-2baab937e4
+      - s-ddcf37578c
+      - s-35e0be1901
+      - s-49ce4c44db
+      - s-b00757906d
+      - s-1e8e53a487
+      - s-53fa40d7d6
+    zh:
+      - s-47421a963b
+      - s-16e1eb56e0
+      - s-ed8e57e00f
+      - s-c035c2b9dc
+      - s-62ab435c84
+      - s-339dee83a0
+      - s-ea744bcb0e
+      - s-03e121b8a0
+      - s-bcce12e680
+      - s-69bb5946d2
+      - s-2e2b9c493c

@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes ornatus
+  displayName: Hylodes ornatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG8Z
+  sourceIndexes:
+    - name:
+        en: Hylodes ornatus
+        zh: Hylodes ornatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG8Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/3
+            queryName: Hylodes ornatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/328
+            queryName: Elosia ornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2713bee6aa
+      - s-b8cb188a80
+      - s-a358291e5b
+      - s-5b4f3951e7
+      - s-7f6fcad562
+      - s-2207076553
+      - s-d041b5936a
+      - s-ef4d655002
+      - s-b45b658085
+      - s-6169d6aa0f
+      - s-c9cc9063bc
+      - s-3c44d75535
+      - s-e92bc5a385
+      - s-832b6b9982
+      - s-edd041e36b
+      - s-a7c95aba55
+      - s-732b382fd5
+      - s-edde18e98e
+    zh:
+      - s-de7cf3b433
+      - s-12d5a07354
+      - s-ee190910e5
+      - s-f97317e537
+      - s-0f3a3c1a42
+      - s-ee4e954802
+      - s-5bd528e0cf
+      - s-5255071425
+      - s-63599f8bca
+      - s-03c5a5d6a4
+      - s-a377a993cb
+      - s-e811011b57
+      - s-e657ce1cab
+      - s-eb1385f57f
+      - s-8306ab84c3
+      - s-b1da8b0c60
+      - s-5f506da0c3
+      - s-5363e27a7d

@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Austrochaperina aquilonia
+    name:
+      en: Austrochaperina aquilonia
+      zh: Austrochaperina aquilonia
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Austrochaperina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Austrochaperina aquilonia in the version 3 classification
+          zh: Austrochaperina aquilonia 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3aa7c67b8d
+            part: body
+          zh:
+            page: zh
+            section: s-4ce38834dd
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 10 populated trait fields
+          zh: 1 条测量行与 10 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0c7e3c42a5
+            part: body
+          zh:
+            page: zh
+            section: s-e2bd391262
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 579; Reference.csv rows 43
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 579
+        values:
+          - Microhylidae
+          - Austrochaperina
+          - Austrochaperina aquilonia
+          - M
+          - "31"
+          - NA
+          - "11.2"
+          - "3.4"
+          - NA
+          - NA
+          - NA
+          - "3.45"
+          - NA
+          - "2.3"
+          - NA
+          - NA
+          - "7.1"
+          - NA
+          - NA
+          - "13.6"
+          - NA
+          - "12.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.1"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 43
+        values:
+          - Anura
+          - Austrochaperina_aquilonia
+          - Zweifel, R. G. (2000). Partition of the Australopapuan microhylid frog genus Sphenophryne with descriptions of new species. Bulletin of the American Museum of Natural History(253), 1-130. https://doi.org/10.1206/0003-0090(2000)253<0001:POTAMF>2.0.CO;2
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IND
+      - EN
+      - HAL
+      - FL
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - JVZL
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

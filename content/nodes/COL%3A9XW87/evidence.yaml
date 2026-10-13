@@ -1,0 +1,310 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Penaeus vannamei Boone, 1931
+    authorship: Boone, 1931
+    rank: species
+    sourceDatasetId: "2144"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: RT
+        scientificName: Arthropoda
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: KZX8B
+        scientificName: Crustacea
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MC
+        scientificName: Malacostraca
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 33N
+        scientificName: Decapoda
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: null
+      - id: 9XCS2
+        scientificName: Dendrobranchiata Spence Bate, 1888
+        authorship: Spence Bate, 1888
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: B3HG3
+        scientificName: Penaeoidea Rafinesque, 1815
+        authorship: Rafinesque, 1815
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 9XBTP
+        scientificName: Penaeidae Rafinesque, 1815
+        authorship: Rafinesque, 1815
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 9XDNB
+        scientificName: Penaeus Fabricius, 1798
+        authorship: Fabricius, 1798
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 9XW87
+        scientificName: Penaeus vannamei Boone, 1931
+        authorship: Boone, 1931
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 species usage 9XW87. The biological evidence concerns cultured juveniles in one replicated 30-day tank experiment; it does not characterize wild populations or all aquaculture systems.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: No wild populations were studied; juveniles were obtained from an aquaculture farm.
+      domesticated: The study concerns cultured juveniles and does not examine domestication history or the full range of farmed stocks.
+      captive: Cultured in experimental tanks for 30 days at approximately 13‰ salinity.
+      fossil: Fossil occurrence and geological age were not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/9XW87
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:9XW87@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 9XW87; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 9XW87. https://doi.org/10.48580/dgywk.
+      - id: zheng2025penaeusvannamei
+        referenceId: ref-ebec20df-7876-8647-aba1-d2a658a15e35
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: "Article page Copyright block: © 2025 Zheng, Wu, Tang, Li, Fan and He; Creative Commons Attribution License (CC BY)."
+          licenseAppliesTo: Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no table or figure is reproduced.
+          stableId: doi:10.3389/fmicb.2025.1595680
+          locator: Methods §§2.1.2–2.2; Results §3.2; Table 1; article copyright block.
+          attribution: Zheng Y, Wu Y, Tang S, Li J, Fan L, He W (2025). Effects of Bacillus licheniformis on the water quality, growth performance and bacterial community in Penaeus vannamei aquaculture system. Front. Microbiol. 16:1595680. https://doi.org/10.3389/fmicb.2025.1595680. CC BY 4.0. Claim paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Measured results for cultured juveniles in triplicate control and Bacillus-treatment tanks during one 30-day experiment; no inference to wild stocks or all farms.
+          accessedAt: 2026-09-25
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Growth measurements under one treatment do not establish diagnostic morphology or population-level anatomical variation.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - A 30-day juvenile growth trial does not cover the full life cycle or reproduction.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In a 30-day tank experiment, juvenile P. vannamei sourced from an aquaculture farm in Pingtan, Fujian, China, were stocked at 30 shrimp per tank in two triplicate groups. Tanks receiving Bacillus licheniformis strain FS051 in the water every five days (5 × 10^4 CFU/mL) had significantly higher reported length, weight, survival, and yield and lower feed conversion ratio than control tanks (p < 0.05). The result applies to this cultured stock, dose, and tank experiment, not to wild shrimp or aquaculture systems generally.
+            textZh: 在一项为期 30 天的水槽试验中，来自中国福建平潭某养殖场的凡纳滨对虾幼体按每槽 30 尾分为两个各有三次重复的处理组。每五天向水中添加地衣芽孢杆菌 FS051（5 × 10^4 CFU/mL）的水槽，相较对照槽报告了显著更高的体长、体重、存活率和产量，以及更低的饲料系数（p < 0.05）。该结果仅适用于这批养殖个体、该剂量和水槽试验，不代表野生对虾或一般养殖系统。
+            originalLanguage: en
+            sourceIds:
+              - zheng2025penaeusvannamei
+            locator: Methods §§2.1.2–2.2 for juvenile source, tank replication, stocking density, trial duration, and treatment; Results §3.2 and Table 1 for growth indices and significance.
+            placeTimeScope: Juveniles obtained from an aquaculture farm in Pingtan, Fujian, China; controlled tank experiment at approximately 13‰ salinity; 30 days; trial dates not reported.
+            lifeStatus: Cultured juvenile shrimp; the experiment did not study wild populations.
+        gaps:
+          - A single 30-day tank trial with one source lot, one probiotic strain and dose, and three replicate tanks per group does not establish species-wide ecology or outcomes across farms and environments.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study does not analyze phylogeny or evolutionary history.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The juvenile source farm is not a geographic range assessment.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study does not assess fossil occurrences or geological age.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The aquaculture experiment does not provide a wild population or conservation assessment.
+  catalogue-profile:
+    scientificName: Penaeus vannamei Boone, 1931
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Penaeus vannamei
+      zh: Penaeus vannamei
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/9XW87
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:9XW87@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 9XW87; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 9XW87. https://doi.org/10.48580/dgywk.
+      - id: zheng2025penaeusvannamei
+        referenceId: ref-ebec20df-7876-8647-aba1-d2a658a15e35
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: "Article page Copyright block: © 2025 Zheng, Wu, Tang, Li, Fan and He; Creative Commons Attribution License (CC BY)."
+          licenseAppliesTo: Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no table or figure is reproduced.
+          stableId: doi:10.3389/fmicb.2025.1595680
+          locator: Methods §§2.1.2–2.2; Results §3.2; Table 1; article copyright block.
+          attribution: Zheng Y, Wu Y, Tang S, Li J, Fan L, He W (2025). Effects of Bacillus licheniformis on the water quality, growth performance and bacterial community in Penaeus vannamei aquaculture system. Front. Microbiol. 16:1595680. https://doi.org/10.3389/fmicb.2025.1595680. CC BY 4.0. Claim paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Measured results for cultured juveniles in triplicate control and Bacillus-treatment tanks during one 30-day experiment; no inference to wild stocks or all farms.
+          accessedAt: 2026-09-25
+    sections:
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0577f066a6
+            part: title
+          zh:
+            page: zh
+            section: s-05347a47ea
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0577f066a6
+            part: body
+          zh:
+            page: zh
+            section: s-05347a47ea
+            part: body
+        sourceIds:
+          - zheng2025penaeusvannamei
+        locator: Methods §§2.1.2–2.2 for juvenile source, tank replication, stocking density, trial duration, and treatment; Results §3.2 and Table 1 for growth indices and significance.
+        evidenceAssessment: partially-supported
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-532c6a47b0
+            part: title
+          zh:
+            page: zh
+            section: s-e8d8457811
+            part: title
+        text:
+          en:
+            page: en
+            section: s-532c6a47b0
+            part: body
+          zh:
+            page: zh
+            section: s-e8d8457811
+            part: body
+        sourceIds:
+          - zheng2025penaeusvannamei
+        locator: Methods §§2.1.2–2.2 for juvenile source, tank replication, stocking density, trial duration, and treatment; Results §3.2 and Table 1 for growth indices and significance.
+        evidenceAssessment: partially-supported

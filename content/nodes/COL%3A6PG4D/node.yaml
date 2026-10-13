@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella minima
+  displayName: Leptobrachella minima
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PG4D
+  sourceIndexes:
+    - name:
+        en: Leptobrachella minima
+        zh: Leptobrachella minima
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PG4D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/260
+            queryName: Leptobrachella minima
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/448
+            queryName: Leptobrachium minimum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/449
+            queryName: Leptolalax minimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1cfe445723
+      - s-30dfc186a7
+      - s-641c737d0c
+      - s-7da1fe45c3
+      - s-3a7eb1d282
+      - s-15e3d529b8
+      - s-e9b2517bde
+      - s-a691edc3c6
+    zh:
+      - s-02ae5194ef
+      - s-c07e42239e
+      - s-ecdb05617b
+      - s-717d44abb5
+      - s-d11ecca4c4
+      - s-02712c7501
+      - s-a695cd4eb6
+      - s-2b181003b6

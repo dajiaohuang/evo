@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis
+  displayName: Arthroleptis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/33CS
+  sourceIndexes:
+    - name:
+        en: Arthroleptis
+        zh: Arthroleptis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 33CS
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/188
+            queryName: Arthroleptis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 64
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c7f8e5882a
+      - s-c63fa88991
+      - s-9b4e2f3e29
+      - s-bf29095316
+      - s-4b2f87eb0b
+      - s-33cabf1edd
+      - s-e6e2ab1b0f
+      - s-15606df047
+      - s-568b4e8de0
+      - s-8f9c3bbef3
+      - s-f17577cb0e
+      - s-dc486b6a6f
+      - s-7d9358050e
+      - s-7b85b28239
+      - s-cee914c4a3
+      - s-d33c87fbe7
+      - s-3738769c0e
+      - s-76c4c0e26e
+      - s-05df1ce07b
+      - s-dce97195ed
+      - s-05f6564e49
+      - s-659b2a515b
+      - s-8107b5d80b
+      - s-6d5ed805c6
+      - s-64419a67b6
+      - s-24452ff696
+    zh:
+      - s-f57137edcf
+      - s-ed9e3af912
+      - s-6b85a3a422
+      - s-f9f27b0fd7
+      - s-8f763030ae
+      - s-0bde500942
+      - s-a723c75998
+      - s-624c42e0ca
+      - s-e72a8b4f18
+      - s-d08360c480
+      - s-69d11b9a04
+      - s-1ddec14a18
+      - s-de7508f22f
+      - s-af96a73e88
+      - s-c3e58070bb
+      - s-572d458a10
+      - s-86bb633908
+      - s-96ab762c11
+      - s-4a966f28c0
+      - s-9592261633
+      - s-860a8b3849
+      - s-5a3f984a01
+      - s-12faa6634f
+      - s-70874e7f3f
+      - s-d1f2fb6f68
+      - s-04f2bbd6ff

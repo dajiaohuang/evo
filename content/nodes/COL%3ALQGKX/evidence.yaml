@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Andrias jiangxiensis Lu, Wang, Chai, Yi, Peng, Murphy, Zhang & Che, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Andrias jiangxiensis
+      zh: Andrias jiangxiensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4e7841da18
+            part: title
+          zh:
+            page: zh
+            section: s-02d39dde7a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4e7841da18
+            part: body
+          zh:
+            page: zh
+            section: s-02d39dde7a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b75cf1241f
+            part: title
+          zh:
+            page: zh
+            section: s-ec5fd4e722
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b75cf1241f
+            part: body
+          zh:
+            page: zh
+            section: s-ec5fd4e722
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-c46d9fe7ec
+            part: title
+          zh:
+            page: zh
+            section: s-37aa972284
+            part: title
+        sourceIds:
+          - primary-pmc10831114-lqgkx
+        text:
+          en:
+            page: en
+            section: s-c46d9fe7ec
+            part: body
+          zh:
+            page: zh
+            section: s-37aa972284
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-5f89a5b633
+            part: title
+          zh:
+            page: zh
+            section: s-018b986791
+            part: title
+        sourceIds:
+          - primary-pmc12149308-lqgkx
+        text:
+          en:
+            page: en
+            section: s-5f89a5b633
+            part: body
+          zh:
+            page: zh
+            section: s-018b986791
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Andrias jiangxiensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/LQGKX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10831114-lqgkx
+        referenceId: ref-af599cab-da09-4ad2-ac64-9bbc99affaad
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Andrias jiangxiensis: XML Results Samples/Tables1–2, mtDNA/microsatellite/sex/morphology sections, Discussion and Online methods Samples/mtDNA/microsatellite/sex/morphology read; original sequences, genotypes, supplementary distances, historical newspaper records and cited type studies not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12149308-lqgkx
+        referenceId: ref-e7a32340-bde0-4f75-ad19-bc168331e38f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Andrias jiangxiensis: XML Introduction, bone identification Sec2, dating/phylogeny Sec3, Methods Sec5–Sec9 and Table1 read. Independently written factual synthesis, no source translation/images. Bone/sequence/raw AMS data, calibration distribution, figure support and GenBank records not independently inspected.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d290b063fe
+        part: body
+      zh:
+        page: zh
+        section: s-56c6a45d85
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1038/s41598-024-52907-6
+        referenceId: ref-af599cab-da09-4ad2-ac64-9bbc99affaad
+        sourceKey: primary-pmc10831114-lqgkx
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10831114/article.xml
+        sourceConcept: 2024 Andrias jiangxiensis source-labelled sample/reference; unknown native origins and dated status retained
+        evidenceRead: "Andrias jiangxiensis: XML Results Samples/Tables1–2, mtDNA/microsatellite/sex/morphology sections, Discussion and Online methods Samples/mtDNA/microsatellite/sex/morphology read; original sequences, genotypes, supplementary distances, historical newspaper records and cited type studies not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A previously named U2 lineage serves as a reference
+              zh: 此前命名的 U2 谱系作为参考
+            referenceId: ref-af599cab-da09-4ad2-ac64-9bbc99affaad
+            sourceKey: primary-pmc10831114-lqgkx
+            locator: PMC10831114 XML Sec4; Table1 rows104–107; Sec11
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e039c12a22
+                part: body
+              zh:
+                page: zh
+                section: s-06df70522a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1038/s41598-025-03496-5
+        referenceId: ref-e7a32340-bde0-4f75-ad19-bc168331e38f
+        sourceKey: primary-pmc12149308-lqgkx
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12149308/article.xml
+        sourceConcept: Previously published modern reference sequence in Ehime fossil comparison, not new fossil DNA of this species
+        evidenceRead: "Andrias jiangxiensis: XML Introduction, bone identification Sec2, dating/phylogeny Sec3, Methods Sec5–Sec9 and Table1 read. Independently written factual synthesis, no source translation/images. Bone/sequence/raw AMS data, calibration distribution, figure support and GenBank records not independently inspected.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Reference-marker role in a Japanese ancient-DNA comparison
+              zh: 日本古 DNA 比较中的参考标记角色
+            referenceId: ref-e7a32340-bde0-4f75-ad19-bc168331e38f
+            sourceKey: primary-pmc12149308-lqgkx
+            locator: PMC12149308 XML Table1 Andrias jiangxiensis accessionrows; Sec8 comparatorlist; Sec3 fossilassignment
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-222e8fc002
+                part: body
+              zh:
+                page: zh
+                section: s-fdc159fad6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

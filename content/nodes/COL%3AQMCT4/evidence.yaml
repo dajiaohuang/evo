@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantidactylus ambony Scherz, Rasolonjatovo, Köhler, Rancilhac, Rakotoarison, Raselimanana, Ohler, Preick et al., 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mantidactylus ambony
+      zh: Mantidactylus ambony
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7ccb81cb44
+            part: title
+          zh:
+            page: zh
+            section: s-5741e1e3a2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7ccb81cb44
+            part: body
+          zh:
+            page: zh
+            section: s-5741e1e3a2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-07d8bac7b1
+            part: title
+          zh:
+            page: zh
+            section: s-8c7783d26b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-07d8bac7b1
+            part: body
+          zh:
+            page: zh
+            section: s-8c7783d26b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-639ee30e15
+            part: title
+          zh:
+            page: zh
+            section: s-9fc3a3bbf8
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmct4
+        text:
+          en:
+            page: en
+            section: s-639ee30e15
+            part: body
+          zh:
+            page: zh
+            section: s-9fc3a3bbf8
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-23308679a2
+            part: title
+          zh:
+            page: zh
+            section: s-6f15938216
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmct4
+        text:
+          en:
+            page: en
+            section: s-23308679a2
+            part: body
+          zh:
+            page: zh
+            section: s-6f15938216
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-bd7159c563
+            part: title
+          zh:
+            page: zh
+            section: s-86c76ba55f
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmct4
+        text:
+          en:
+            page: en
+            section: s-bd7159c563
+            part: body
+          zh:
+            page: zh
+            section: s-86c76ba55f
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d7a0ccab44
+            part: title
+          zh:
+            page: zh
+            section: s-eb79963a43
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmct4
+        text:
+          en:
+            page: en
+            section: s-d7a0ccab44
+            part: body
+          zh:
+            page: zh
+            section: s-eb79963a43
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantidactylus ambony
+          url: https://www.checklistbank.org/dataset/316115/taxon/QMCT4
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10563080-qmct4
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Mantidactylus ambony: Individually read species diagnosis, natural history, distribution and attributed voucher comments in the 2023 Ochthomantis revision; cited prior findings distinguished from new observations; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-28e9021d6f
+        part: body
+      zh:
+        page: zh
+        section: s-6eada44666
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani13172800
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        sourceKey: primary-pmc10563080-qmct4
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10563080/article.xml
+        sourceConcept: Mantidactylus ambony
+        evidenceRead: "Mantidactylus ambony: Individually read species diagnosis, natural history, distribution and attributed voucher comments in the 2023 Ochthomantis revision; cited prior findings distinguished from new observations; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Small adult size and a pale lateral stripe form the diagnosis
+              zh: 小型成年体长和浅色侧纹形成鉴别
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmct4
+            locator: PMC10563080 reading-sections section 4 paragraphs 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e49da3cfa1
+                part: body
+              zh:
+                page: zh
+                section: s-59b1758c89
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: New encounters and cited perch observations remain separate
+              zh: 新遇见记录和引述栖位观察分别保留
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmct4
+            locator: PMC10563080 reading-sections section 4 paragraphs 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b6d5a5d634
+                part: body
+              zh:
+                page: zh
+                section: s-86f89ccb1e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: distribution
+            heading:
+              en: Broader morphological records contrast with the type-locality statement
+              zh: 较广形态记录与模式地点陈述存在差别
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmct4
+            locator: PMC10563080 reading-sections section 4 paragraphs 7–8
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fbba05b3cc
+                part: body
+              zh:
+                page: zh
+                section: s-53df7b462b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: The holotype connection does not sequence-certify outside specimens
+              zh: 正模关联不使外部标本自动获得序列认证
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmct4
+            locator: PMC10563080 reading-sections section 4 paragraphs 8
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2f257cd7b6
+                part: body
+              zh:
+                page: zh
+                section: s-df337d15c7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

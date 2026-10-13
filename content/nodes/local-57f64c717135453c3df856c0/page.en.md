@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-0b55a19502}
+The version 3 Amphibian database lists Nymphargus wileyi in a source measurement table. Its classification fields read order = Anura, family = Centrolenidae, genus = Nymphargus; the linked citation is in Reference.csv row 952. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-16171dc6cb}
+Anura.csv rows 3697, 3698 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 3697 (M) = 24.58, row 3698 (F) = 27.1; HL: row 3697 (M) = 7.64, row 3698 (F) = 8; HW: row 3697 (M) = 8.34, row 3698 (F) = 9; other populated codes are ED, TD, ETD, IOD, IND, UEW, EN, SL, HAL, FLL, FL, TL, … (14 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

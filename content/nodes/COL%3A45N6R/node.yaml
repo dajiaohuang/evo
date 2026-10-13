@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana annandalii
+  displayName: Nanorana annandalii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N6R
+  sourceIndexes:
+    - name:
+        en: Nanorana annandalii
+        zh: Nanorana annandalii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N6R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/164
+            queryName: Nanorana annandalii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/479
+            queryName: Paa annandalii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/305
+            queryName: Rana annandalii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/222
+            queryName: Chaparana annandalii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-823d055211
+      - s-29bcb55f3d
+      - s-74848adb8b
+      - s-768ea88c0a
+      - s-880459a396
+      - s-ac141e4bca
+      - s-812592223f
+      - s-b73ba3877d
+      - s-d9396db900
+      - s-88e60473ad
+      - s-2e6f2a7e46
+    zh:
+      - s-5ffb68704a
+      - s-22ab0f450a
+      - s-27563eae0d
+      - s-9570af1ef6
+      - s-9b9cc411d4
+      - s-d1639088df
+      - s-9894aae59b
+      - s-70e0164247
+      - s-7611d00708
+      - s-f3cadf0d0d
+      - s-8608f82fc4

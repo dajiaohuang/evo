@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Boophis sandrae
+    name:
+      en: Boophis sandrae
+      zh: Boophis sandrae
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Boophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Boophis sandrae in the version 3 classification
+          zh: Boophis sandrae 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0985924406
+            part: body
+          zh:
+            page: zh
+            section: s-209964b20a
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-89e6b825cd
+            part: body
+          zh:
+            page: zh
+            section: s-fdd6c474cf
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 810, 811; Reference.csv rows 134
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 810
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis sandrae
+          - M
+          - "39.05555556"
+          - "14.11111111"
+          - "13.58888889"
+          - "5.422222222"
+          - "3.377777778"
+          - NA
+          - NA
+          - "4.666666667"
+          - NA
+          - "2.722222222"
+          - NA
+          - "3.533333333"
+          - "11.95555556"
+          - NA
+          - "23.7"
+          - "18.28888889"
+          - NA
+          - "21.72222222"
+          - NA
+          - NA
+          - "68.25555556"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 811
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis sandrae
+          - F
+          - "57.16666667"
+          - "19.76666667"
+          - "19.33333333"
+          - "6.666666667"
+          - "2.933333333"
+          - NA
+          - NA
+          - "6.233333333"
+          - NA
+          - "3.966666667"
+          - NA
+          - "4.933333333"
+          - "16.93333333"
+          - NA
+          - "34.9"
+          - "26.4"
+          - NA
+          - "30.33333333"
+          - NA
+          - NA
+          - "96.86666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 134
+        values:
+          - Anura
+          - Boophis_sandrae
+          - "Glaw, F., KÖHler, J., De La Riva, I., Vieites, D. R., & Vences, M. (2010). Integrative taxonomy of Malagasy treefrogs: combination of molecular genetics, bioacoustics and comparative morphology reveals twelve additional species of Boophis. Zootaxa, 2383(1). https://doi.org/10.11646/zootaxa.2383.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 68PLC
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

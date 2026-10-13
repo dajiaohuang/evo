@@ -1,0 +1,33 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phorusrhacidae
+  displayName: Phorusrhacidae
+  rank: family
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=39461
+    parentSourceIdentifier: txn:39455
+    placement: Recorded PBDB ancestry beneath the documented Dinosauria storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=39461
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-71e07d9964
+      - s-286be2d03c
+      - s-15eec376fb
+      - s-b25d3cda8b
+      - s-98254fb10f
+    zh:
+      - s-94b808fedb
+      - s-ccaeebf44e
+      - s-4e1cfe6754
+      - s-c69dd87e30
+      - s-5baf25e412

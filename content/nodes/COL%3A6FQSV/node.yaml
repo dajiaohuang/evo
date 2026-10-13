@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epicrionops parkeri
+  displayName: Epicrionops parkeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6FQSV
+  sourceIndexes:
+    - name:
+        en: Epicrionops parkeri
+        zh: Epicrionops parkeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6FQSV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/368
+            queryName: Epicrionops parkeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 69
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/418
+            queryName: Rhinatrema parkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7cfa8d6c89
+      - s-b956fe1557
+      - s-68d6ac32ea
+      - s-9164ed999e
+      - s-39549ad2e5
+      - s-955c09f2e9
+      - s-3dde362a38
+      - s-78a233ca16
+      - s-95c1e3c485
+      - s-81dc33fa77
+      - s-3b746f7f57
+      - s-e6bea2eb3e
+    zh:
+      - s-a14e0be4d8
+      - s-48ce923c37
+      - s-3ea7032546
+      - s-9ef5d380d7
+      - s-126f987188
+      - s-1891ec9276
+      - s-163c96a42a
+      - s-a420624042
+      - s-50e1ed558f
+      - s-793db76a2d
+      - s-1d82bacc89
+      - s-26d47353c9

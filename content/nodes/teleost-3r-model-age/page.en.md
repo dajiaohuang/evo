@@ -1,0 +1,3 @@
+## When did the teleost genome duplicate? {#s-7af689c24c}
+Models fitted to 30 pairs of duplicated teleost genes estimate the 3R whole-genome duplication at 286.18–267.20 million years ago. The same study places the crown group of living teleost lineages at 254.36–234.16 million years ago, so its model puts 3R earlier than that interval. These are posterior age estimates, not fossil dates or a single observed instant; delayed rediploidization means different duplicate genes can retain signals of the event on different timescales. The study does not treat the duplication alone as a cause of later teleost diversity.
+

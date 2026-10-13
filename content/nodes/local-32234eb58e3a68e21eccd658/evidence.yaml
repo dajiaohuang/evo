@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nidirana xiangica
+    name:
+      en: Nidirana xiangica
+      zh: Nidirana xiangica
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Nidirana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-95866982ae
+            part: body
+          zh:
+            page: zh
+            section: s-1e08286222
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-584665a9dc
+            part: body
+          zh:
+            page: zh
+            section: s-de1c90cc1c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3519, 3520; Reference.csv rows 3892
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3519
+        values:
+          - Ranidae
+          - Nidirana
+          - Nidirana xiangica
+          - F
+          - "58.275"
+          - "21.85"
+          - "20.125"
+          - "6.125"
+          - "5.025"
+          - "1.65"
+          - "5.175"
+          - "6.625"
+          - NA
+          - NA
+          - "8.4"
+          - NA
+          - "15.25"
+          - "11.55"
+          - NA
+          - NA
+          - "45.65"
+          - "31.225"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3520
+        values:
+          - Ranidae
+          - Nidirana
+          - Nidirana xiangica
+          - M
+          - "57.96666667"
+          - "21.4"
+          - "20.15"
+          - "6.316666667"
+          - "5.416666667"
+          - "1.55"
+          - "5.183333333"
+          - "6.633333333"
+          - NA
+          - NA
+          - "8.6"
+          - NA
+          - "14.83333333"
+          - "11.35"
+          - NA
+          - NA
+          - "44.41666667"
+          - "30.33333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3892
+        values:
+          - Anura
+          - Nidirana_xiangica
+          - Lyu, Z.-T., Dai, K.-Y., Li, Y., Wan, H., Liu, Z., Qi, S., . . . Wang, Y.-Y. (2020). Comprehensive approaches reveal three cryptic species of genus Nidirana (Anura, Ranidae) from China. Zookeys, 914, 127-159. https://doi.org/10.3897/zookeys.914.36604
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - TFL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - QT3JS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

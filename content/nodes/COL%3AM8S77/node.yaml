@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa muisca
+  displayName: Bolitoglossa muisca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M8S77
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa muisca
+        zh: Bolitoglossa muisca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M8S77
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/157
+            queryName: Bolitoglossa muisca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01fa98740d
+      - s-9d6a193ef4
+      - s-d03ec039e8
+      - s-e407c1dfd5
+      - s-d7b01f33c5
+      - s-0bd566c353
+      - s-8a48c61b88
+      - s-b2fc587787
+      - s-4171a9f2fd
+      - s-cfc0593449
+      - s-c343c9b3d5
+      - s-421ecede99
+      - s-9f4e5cc1ba
+      - s-9550c2cd92
+      - s-8b1cbdf4f9
+      - s-3811ed5131
+    zh:
+      - s-f6593e8b79
+      - s-2866f552a1
+      - s-10e1fc87f0
+      - s-eecd44f07b
+      - s-4460947637
+      - s-b228c2a833
+      - s-2cbe7ee96b
+      - s-7269eb5ba7
+      - s-ac449f37c2
+      - s-f4913721b7
+      - s-874f493984
+      - s-6051ec6dd6
+      - s-ca093bae87
+      - s-4803fe3e68
+      - s-b0e8d34b14
+      - s-49a0fde880

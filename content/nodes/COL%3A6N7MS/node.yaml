@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ingerophrynus galeatus
+  displayName: Ingerophrynus galeatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N7MS
+  sourceIndexes:
+    - name:
+        en: Ingerophrynus galeatus
+        zh: Ingerophrynus galeatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N7MS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/497
+            queryName: Ingerophrynus galeatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/331
+            queryName: Bufo galeatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/459
+            queryName: Qianbufo galeatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-44e3a10f17
+      - s-cf6a191183
+      - s-bc0843dac2
+      - s-c97d929661
+      - s-9b0b7abde0
+      - s-1abfb0996d
+      - s-44e9a0de69
+      - s-a186254440
+      - s-4fb761ed10
+      - s-ef8ac8d621
+      - s-b996ba0033
+      - s-8f1bf91a35
+      - s-a22e6c045e
+      - s-d192358f28
+      - s-cac5165ba7
+    zh:
+      - s-2eedbaac0c
+      - s-ce27e47c37
+      - s-00df830d4a
+      - s-73b2559e6f
+      - s-656aa09be0
+      - s-04a5eed66e
+      - s-85eb7aae46
+      - s-31f50f6ecb
+      - s-b96d232485
+      - s-4eb6a2b0ab
+      - s-21b776c663
+      - s-07377ffe52
+      - s-ef7b508f64
+      - s-96d8be7502
+      - s-5bb618d1fc

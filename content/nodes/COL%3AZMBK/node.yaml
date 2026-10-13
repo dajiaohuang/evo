@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylodes bokermanni
+  displayName: Crossodactylodes bokermanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMBK
+  sourceIndexes:
+    - name:
+        en: Crossodactylodes bokermanni
+        zh: Crossodactylodes bokermanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMBK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/217
+            queryName: Crossodactylodes bokermanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7f480b0653
+      - s-c79d7e8315
+      - s-21ce625e45
+      - s-e85e3de50f
+      - s-f9ae377801
+    zh:
+      - s-b910385bf3
+      - s-b0731aeabf
+      - s-3f9dac2ce8
+      - s-1d9b38deaf
+      - s-345ac7dd1c

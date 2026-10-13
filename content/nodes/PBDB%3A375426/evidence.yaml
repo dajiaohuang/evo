@@ -1,0 +1,273 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Syrtosuchus samarensis
+    rank: species
+    sourceTaxonId: txn:375426
+    name:
+      en: Syrtosuchus samarensis
+      zh: Syrtosuchus samarensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-dcdfda5d07
+            part: body
+          zh:
+            page: zh
+            section: s-74b1bb4dba
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-25809b75d4
+            part: body
+          zh:
+            page: zh
+            section: s-0a79ae58dc
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-c2f27e6dce
+            part: body
+          zh:
+            page: zh
+            section: s-b264b7cdb1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:375426; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+    occurrenceEvidence:
+      - occurrenceId: occ:1395227
+        collectionId: col:192165
+        acceptedTaxonId: txn:375426
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Vetlugian Series
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1416151
+        collectionId: col:195796
+        acceptedTaxonId: txn:375426
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Samara
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kamennyi Yar
+          member: Vokhminskian
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1416516
+        collectionId: col:37040
+        acceptedTaxonId: txn:375426
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Belyaevka
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+      - occurrenceId: occ:1416528
+        collectionId: col:195870
+        acceptedTaxonId: txn:375426
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kopanskaya
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1416558
+        collectionId: col:195873
+        acceptedTaxonId: txn:375426
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Totskoe
+        stratigraphy:
+          group: null
+          formation: Kopanskaya
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1416567
+        collectionId: col:195877
+        acceptedTaxonId: txn:375426
+        identifiedName: Syrtosuchus cf. samarensis
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kopanskaya
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1417082
+        collectionId: col:196050
+        acceptedTaxonId: txn:375426
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kopanskaya
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1417083
+        collectionId: col:196051
+        acceptedTaxonId: txn:375426
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kopanskaya
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1417086
+        collectionId: col:196052
+        acceptedTaxonId: txn:375426
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kopanskaya
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+      - occurrenceId: occ:1417088
+        collectionId: col:196053
+        acceptedTaxonId: txn:375426
+        taxonomicDifference: null
+        referenceId: ref:66659
+        bibliography: I. V. Novikov. 2016. New tempospondyl amphibians from the basal Triassic of the Obshchii Syrt Highland, Eastern Europe. Paleontological Journal 50(3):297-310
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kopanskaya
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-c2f27e6dce
+            part: body
+          zh:
+            page: zh
+            section: s-b264b7cdb1
+            part: body
+        sourceIds: []

@@ -1,0 +1,273 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Barygenys Parker, 1936
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Barygenys
+      zh: Barygenys
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-bbed7bab16
+            part: title
+          zh:
+            page: zh
+            section: s-3fe37d7226
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bbed7bab16
+            part: body
+          zh:
+            page: zh
+            section: s-3fe37d7226
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-193a35cb07
+            part: title
+          zh:
+            page: zh
+            section: s-7c6e827b2b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-193a35cb07
+            part: body
+          zh:
+            page: zh
+            section: s-7c6e827b2b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-d2d70981fc
+            part: title
+          zh:
+            page: zh
+            section: s-1f31298a54
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d2d70981fc
+            part: body
+          zh:
+            page: zh
+            section: s-1f31298a54
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5d02eeb603
+            part: title
+          zh:
+            page: zh
+            section: s-5c0d6fbf0f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5d02eeb603
+            part: body
+          zh:
+            page: zh
+            section: s-5c0d6fbf0f
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-f9cc4b1812
+            part: title
+          zh:
+            page: zh
+            section: s-fe7f43c807
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 68DJG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A68DJG
+            label:
+              en: Barygenys apodasta
+              zh: Barygenys apodasta
+          - kind: catalogue
+            colId: 5WDJF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5WDJF
+            label:
+              en: Barygenys atra
+              zh: Barygenys atra
+          - kind: catalogue
+            colId: 68DJF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A68DJF
+            label:
+              en: Barygenys cheesmanae
+              zh: Barygenys cheesmanae
+          - kind: catalogue
+            colId: 5WDJD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5WDJD
+            label:
+              en: Barygenys exsul
+              zh: Barygenys exsul
+          - kind: catalogue
+            colId: 68DJD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A68DJD
+            label:
+              en: Barygenys flavigularis
+              zh: Barygenys flavigularis
+          - kind: catalogue
+            colId: 5WDJ3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5WDJ3
+            label:
+              en: Barygenys maculata
+              zh: Barygenys maculata
+          - kind: catalogue
+            colId: 68DJ3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A68DJ3
+            label:
+              en: Barygenys nana
+              zh: Barygenys nana
+          - kind: catalogue
+            colId: 5WDJ2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5WDJ2
+            label:
+              en: Barygenys parvula
+              zh: Barygenys parvula
+          - kind: catalogue
+            colId: 68DJ2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A68DJ2
+            label:
+              en: Barygenys resima
+              zh: Barygenys resima
+        text:
+          en:
+            page: en
+            section: s-f9cc4b1812
+            part: body
+          zh:
+            page: zh
+            section: s-fe7f43c807
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Barygenys
+          url: https://www.checklistbank.org/dataset/316115/taxon/62F6H
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Barygenys; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9a6523750e
+        part: body
+      zh:
+        page: zh
+        section: s-ad7d04f38d
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Barygenys
+      sourceRowIds:
+        - Anf3919
+        - Anf3920
+        - Anf3921
+        - Anf3922
+        - Anf3923
+        - Anf3924
+        - Anf3925
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 7
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 7
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 7
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 7
+      currentConceptEquivalenceCertified: false

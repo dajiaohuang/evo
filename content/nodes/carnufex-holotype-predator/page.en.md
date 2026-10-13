@@ -1,0 +1,3 @@
+## Carnufex: a partial skeleton in a Triassic predator assemblage {#s-01a25931ab}
+Carnufex is represented by the partial, skeletally immature holotype NCSM 21558 from the Carnian Pekin Formation, including cranial, vertebral and forelimb bones. Scaling from the skull and femur, together with the animals found in the same assemblage, supports interpreting it as a large-bodied, top-tier predator. Those are estimates from an incomplete young individual and its fossil community: the specimen does not preserve a meal, establish how often it hunted, make Carnufex a direct ancestor, or mark the crocodylomorphs’ global first appearance.
+

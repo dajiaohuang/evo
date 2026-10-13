@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Capensibufo tradouwi
+  displayName: Capensibufo tradouwi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QQ4M
+  sourceIndexes:
+    - name:
+        en: Capensibufo tradouwi
+        zh: Capensibufo tradouwi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QQ4M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/148
+            queryName: Capensibufo tradouwi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/31
+            queryName: Bufo tradouwi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-10e99a268d
+      - s-2b4954478f
+      - s-8448d1f4f6
+      - s-0c6b1d58e0
+      - s-bc0dec9cdf
+      - s-1dcb5c40c5
+      - s-045c11d7a2
+      - s-4d7b5851a9
+      - s-cd567b8f95
+      - s-ead42e7cfb
+      - s-7f27b98941
+    zh:
+      - s-24c84204f5
+      - s-a0c3d8e1e8
+      - s-fb5c8b3f2d
+      - s-77c182b437
+      - s-48be2c629b
+      - s-d8915ad0c9
+      - s-2d815189b7
+      - s-6ef7dc955c
+      - s-daf60872e7
+      - s-8bc080e1b0
+      - s-3fef16a1da

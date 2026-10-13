@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates tokuko
+  displayName: Aromobates tokuko
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GTRY
+  sourceIndexes:
+    - name:
+        en: Aromobates tokuko
+        zh: Aromobates tokuko
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GTRY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/130
+            queryName: Aromobates tokuko
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d052eb937d
+      - s-b9c416021d
+      - s-50b32aa3d6
+      - s-fff48975f8
+      - s-9403341a23
+      - s-84892d98df
+      - s-4bf7080b35
+      - s-e29f07b055
+    zh:
+      - s-c1278a636d
+      - s-f48532f185
+      - s-8493698191
+      - s-82cfedfc1f
+      - s-6fc35986c3
+      - s-40cff3076c
+      - s-09bae722fa
+      - s-ca045e1228

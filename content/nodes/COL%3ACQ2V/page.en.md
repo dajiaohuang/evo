@@ -1,0 +1,3 @@
+## ## A fragrant, peeling stem and divided pod {#s-b0844ccafc}
+The Brazilian Flora 2020 entry describes *Amburana acreana* as a tree 3–40 m tall, with stems 20–120 cm in diameter that are peeling and fragrant; branches may bear pale lenticels. Its alternate, two-ranked, odd-pinnate leaves have stipules recorded only on seedlings, and panicles may be axillary or terminal. The oblong legume has a wrinkled, netted surface and opens into two valves; the source records one seed, rarely two, smooth and ovoid. Its habitat field says “terrestrial.” This regional row does not establish the species’ complete variation or range.
+

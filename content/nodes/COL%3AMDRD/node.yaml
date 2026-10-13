@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa palmata
+  displayName: Bolitoglossa palmata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDRD
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa palmata
+        zh: Bolitoglossa palmata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDRD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/172
+            queryName: Bolitoglossa palmata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/261
+            queryName: Spelerpes palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6c81fcaade
+      - s-ea4b8b9744
+      - s-ae50f67e6b
+      - s-f6b7bef347
+      - s-436d9d666e
+      - s-5083d8cfc7
+      - s-76f9dbcb15
+      - s-192522250d
+    zh:
+      - s-19e924e785
+      - s-3ef0875163
+      - s-9d2448438a
+      - s-847e7bdd59
+      - s-80c19e8bf8
+      - s-ae91c3fa51
+      - s-bea4662e68
+      - s-86797496bb

@@ -1,0 +1,9 @@
+## PBDB placement of this fossil concept {#s-13ee288a77}
+In the PBDB snapshot dated 2 October 2026, Stenotosaurus semiclausus (Swinton 1927) is listed at species rank beneath Stenotosaurus. This is the database-recorded placement; the supplementary PBDB path does not equate it with a similarly named COL entry.
+
+## Occurrences returned for this fossil concept {#s-3dd81ec4dc}
+The PBDB query returned 1 occurrence records for this concept, assigned to 1 collection IDs. The listed modern localities are DE / Baden-Württemberg. The supplied interval labels are Spathian–Aegean. The returned collection intervals span 248.6 to 245.19 million years ago. These are age intervals attached to returned collections, not a measured species origin or extinction date, and the snapshot does not establish a complete global fossil distribution.
+
+## Scope of the available biological evidence {#s-3276de9d3e}
+The indexed references attached to this record are bibliographic leads, not verified biological claims. This page therefore describes the PBDB name and placement and the occurrence information returned in the captured query; it cannot support a description of anatomy, life history or ecology.
+

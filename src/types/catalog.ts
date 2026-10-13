@@ -26,14 +26,20 @@ export interface TaxonProfileReaderSection {
   id: string
   title: { en: string; zh: string }
   text: { en: string; zh: string }
-  sourceIds: string[]
+  sourceIds?: string[]
+  confidence?: ConfidenceLevel
 }
 
 export interface TaxonProfileReaderSource {
   id: string
-  title: { en: string; zh: string }
+  title: string | { en: string; zh: string }
   url: string
-  scope: { en: string; zh: string }
+  scope?: string | { en: string; zh: string }
+  referenceId?: string
+  doi?: string
+  locator?: string
+  version?: string
+  sourceFileSha256?: string
 }
 
 export interface TaxonProfileReaderPageLink {
@@ -70,20 +76,24 @@ export interface TaxonProfile {
     referenceIds: string[]
   }>
   overview: string
+  overviewZh?: string
   ecology: {
     diet: string
+    dietZh?: string
     habitat: string
+    habitatZh?: string
     locomotion: string
+    locomotionZh?: string
     bodySize: string
+    bodySizeZh?: string
     guild: string
+    guildZh?: string
   }
   traits: string[]
+  traitsZh?: string[]
   traitsAssessmentStatus?: 'assessed' | 'not-assessed'
   evidenceSummary: string
-  readerLanguageStatus?: {
-    en: 'draft-ready' | 'translation-needed' | 'not-started'
-    zh: 'draft-ready' | 'translation-needed' | 'not-started'
-  }
+  evidenceSummaryZh?: string
   readerSections?: TaxonProfileReaderSection[]
   readerSources?: TaxonProfileReaderSource[]
   readerRelatedPages?: TaxonProfileReaderPageLink[]
@@ -102,6 +112,9 @@ export interface EvolutionEvent {
   regions: string[]
   clades: string[]
   summary: string
+  summaryZh?: string
+  readerSections?: TaxonProfileReaderSection[]
+  readerSources?: TaxonProfileReaderSource[]
   evidenceItems: EventEvidenceItem[]
   uncertaintyItems: EventEvidenceItem[]
   claimIds: string[]
@@ -127,7 +140,9 @@ export type StoryView = 'map' | 'tree' | 'diversity' | 'evidence'
 export interface StoryStep {
   id: string
   title: string
+  titleZh?: string
   text: string
+  textZh?: string
   age: number
   timeRange: [number, number]
   taxonIds: string[]
@@ -145,6 +160,9 @@ export interface EvolutionStory {
   title: string
   titleZh: string
   dek: string
+  dekZh?: string
+  overviewZh?: string
+  summaryZh?: string
   theme: string
   durationMinutes: number
   featured: boolean

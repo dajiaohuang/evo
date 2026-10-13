@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mannophryne collaris
+  displayName: Mannophryne collaris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XVPW
+  sourceIndexes:
+    - name:
+        en: Mannophryne collaris
+        zh: Mannophryne collaris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XVPW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/264
+            queryName: Mannophryne collaris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/333
+            queryName: Hyloxalus collaris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/334
+            queryName: Prostherapis collaris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/335
+            queryName: Colostethus collaris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/217
+            queryName: Hylixalus collaris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72a056b469
+      - s-b8bcf736d1
+      - s-067c9f3ed5
+      - s-7a287a6e09
+      - s-0c2113eeb1
+      - s-7259792567
+      - s-2e413e29c4
+      - s-3310eab997
+      - s-b994f61826
+      - s-fd2a07aa8f
+      - s-292f5228ad
+      - s-eb3f2d7377
+      - s-c941d2eb06
+    zh:
+      - s-724017d457
+      - s-9c266abe12
+      - s-97270d687f
+      - s-ced45b26c9
+      - s-d8d0235ec9
+      - s-e1fba6a3ec
+      - s-db103bca7f
+      - s-dc6c2787a8
+      - s-009284f4e8
+      - s-b348136815
+      - s-b85d93c349
+      - s-b3c7be13c1
+      - s-9cfdf6cf8a

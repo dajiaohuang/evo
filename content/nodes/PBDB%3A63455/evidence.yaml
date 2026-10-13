@@ -1,0 +1,78 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    sections:
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-a0dc0baf8c
+            part: title
+          zh:
+            page: zh
+            section: s-9d3089fd69
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a0dc0baf8c
+            part: body
+          zh:
+            page: zh
+            section: s-9d3089fd69
+            part: body
+        claimIds:
+          - claim:taxon:orthrozanclus
+    scientificName: Orthrozanclus reburrus
+    name:
+      en: Orthrozanclus reburrus
+      zh: Orthrozanclus reburrus
+    rank: species
+  atlas-node:
+    name: Orthrozanclus reburrus
+    commonName: Orthrozanclus
+    commonNameZh: 毛饰刺甲虫
+    rank: species
+    firstAppearance: 508
+    lastAppearance: 505
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+    taxonId: txn:63455
+  claims:
+    - subjectId: taxon:orthrozanclus
+      claimKind: scientific
+      claimType: topology
+      statement: One articulated Orthrozanclus body combines an anterior shell, three sclerite zones and marginal spines; Halwaxiida placement is a character-matrix hypothesis, not observed molluscan ancestry.
+      confidence: medium
+      confidenceRationale: The character mosaic is directly preserved, while homology and root placement depend on a small morphological sample.
+      referenceLinks:
+        - referenceId: conway-morris-caron-2007-orthrozanclus
+          relation: supports
+          pages: 1255–1258
+          figure: Figures 1–4; supporting online material
+          quoteLocator: Description of Orthrozanclus; character matrix; halwaxiid topology
+  claim-rationales.zh:
+    - 性状镶嵌有直接保存，但同源性与根部位置依赖小型形态样本。
+  claim-statements.zh:
+    - 一件关节相连的 Orthrozanclus 躯体结合前部壳、三带骨片和边缘棘；Halwaxiida 位置是性状矩阵假说，并非已观察软体动物祖先关系。
+  ranges:
+    - entityId: orthrozanclus
+      rangeKind: global-composite
+      taxonomicConcept: Orthrozanclus reburrus — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former 508–505 Ma display is withdrawn because the primary paper supports morphology and sampled topology but does not provide an auditable numerical occurrence endpoint in the atlas locator. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: No museum overview or secondary age page is used to manufacture a numerical endpoint absent from the located primary study.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: conway-morris-caron-2007-orthrozanclus
+          locator: 1255–1258; Figures 1–4; holotype description, character comparison and matrix

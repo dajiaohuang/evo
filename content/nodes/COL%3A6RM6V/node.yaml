@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Minervarya chilapata
+  displayName: Minervarya chilapata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6RM6V
+  sourceIndexes:
+    - name:
+        en: Minervarya chilapata
+        zh: Minervarya chilapata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6RM6V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/93
+            queryName: Minervarya chilapata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/38
+            queryName: Fejervarya chilapata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-53ecf66ffe
+      - s-813a41b322
+      - s-76b3c36ee1
+      - s-d0ff812d98
+      - s-42784ea29f
+      - s-29fb1957cd
+      - s-b6c094c3ea
+    zh:
+      - s-2ea9a5b323
+      - s-7fa044ee83
+      - s-d5c4a470eb
+      - s-8fd5167b3a
+      - s-b51a166402
+      - s-11a074947e
+      - s-d743144742

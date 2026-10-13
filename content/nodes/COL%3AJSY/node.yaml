@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leiuperinae
+  displayName: Leiuperinae
+  rank: subfamily
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JSY
+  sourceIndexes:
+    - name:
+        en: Leiuperinae
+        zh: Leiuperinae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JSY
+          rank: subfamily
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/370
+            queryName: Leiuperinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 71
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7af17f7f2
+      - s-44b50f373f
+      - s-e4a3dc7e1e
+      - s-9f70dcaac8
+      - s-16e68b1734
+    zh:
+      - s-f7d29c696e
+      - s-2fa79379c7
+      - s-8a1f7951b4
+      - s-b2bad91f12
+      - s-2febcbc18b

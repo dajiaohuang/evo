@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-904af68aab}
+The version 3 Amphibian database lists Limnonectes diuatus in a source measurement table. Its classification fields read order = Anura, family = Dicroglossidae, genus = Limnonectes; the linked citation is in Reference.csv row 3235. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-888137f561}
+Anura.csv rows 2793, 2794 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 2793 (M) = 81.95, row 2794 (F) = 69.3; HL: row 2793 (M) = 26.5, row 2794 (F) = 25.1; HW: row 2793 (M) = 32.6, row 2794 (F) = 28.3; other populated codes are ED, TD, IOD, IND, UEW, EN, SL, HAL, FLL, TL, THL, UAL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

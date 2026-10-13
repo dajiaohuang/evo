@@ -1,0 +1,335 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Neobatrachus Peters, 1863
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Neobatrachus
+      zh: Neobatrachus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-25c0a430c7
+            part: title
+          zh:
+            page: zh
+            section: s-add47d6b03
+            part: title
+        text:
+          en:
+            page: en
+            section: s-25c0a430c7
+            part: body
+          zh:
+            page: zh
+            section: s-add47d6b03
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1641ee9948
+            part: title
+          zh:
+            page: zh
+            section: s-d96055a323
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1641ee9948
+            part: body
+          zh:
+            page: zh
+            section: s-d96055a323
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-150a3f7399
+            part: title
+          zh:
+            page: zh
+            section: s-83c7022b5d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-150a3f7399
+            part: body
+          zh:
+            page: zh
+            section: s-83c7022b5d
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-1551355035
+            part: title
+          zh:
+            page: zh
+            section: s-af0b7033fa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1551355035
+            part: body
+          zh:
+            page: zh
+            section: s-af0b7033fa
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-63c7f5625f
+            part: title
+          zh:
+            page: zh
+            section: s-dd0f7be77d
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6S749
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6S749
+            label:
+              en: Neobatrachus albipes
+              zh: Neobatrachus albipes
+          - kind: catalogue
+            colId: 46B2F
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46B2F
+            label:
+              en: Neobatrachus aquilonius
+              zh: Neobatrachus aquilonius
+          - kind: catalogue
+            colId: 46B2J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46B2J
+            label:
+              en: Neobatrachus fulvus
+              zh: Neobatrachus fulvus
+          - kind: catalogue
+            colId: 46B2K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46B2K
+            label:
+              en: Neobatrachus kunapalari
+              zh: Neobatrachus kunapalari
+          - kind: catalogue
+            colId: 46B2L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46B2L
+            label:
+              en: Neobatrachus pelobatoides
+              zh: Neobatrachus pelobatoides
+          - kind: catalogue
+            colId: 46B2M
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46B2M
+            label:
+              en: Neobatrachus pictus
+              zh: Neobatrachus pictus
+          - kind: catalogue
+            colId: 46B2N
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46B2N
+            label:
+              en: Neobatrachus sudelli
+              zh: Neobatrachus sudelli
+          - kind: catalogue
+            colId: 46B2P
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46B2P
+            label:
+              en: Neobatrachus sutor
+              zh: Neobatrachus sutor
+          - kind: catalogue
+            colId: 46B2Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46B2Q
+            label:
+              en: Neobatrachus wilsmorei
+              zh: Neobatrachus wilsmorei
+        text:
+          en:
+            page: en
+            section: s-63c7f5625f
+            part: body
+          zh:
+            page: zh
+            section: s-dd0f7be77d
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-95ca54c674
+            part: title
+          zh:
+            page: zh
+            section: s-d1b138f222
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-95ca54c674
+            part: body
+          zh:
+            page: zh
+            section: s-d1b138f222
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Neobatrachus
+          url: https://www.checklistbank.org/dataset/316115/taxon/63DP8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Neobatrachus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Neobatrachus; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d8eccf4aec
+        part: body
+      zh:
+        page: zh
+        section: s-87eb1793c2
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Neobatrachus
+      sourceRowIds:
+        - Anf3476
+        - Anf3477
+        - Anf3478
+        - Anf3479
+        - Anf3480
+        - Anf3481
+        - Anf3482
+        - Anf3483
+        - Anf3484
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 9
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 9
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 9
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 9
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Neobatrachus pictus
+          path: content/nodes/local-7f24ff61f7339fd4eb528370
+        - scientificName: Neobatrachus sudelli
+          path: content/nodes/local-a3dfd054f1fa093bd59c07ad
+      metrics:
+        - metric: CTmax
+          rows: 2
+          sourceConcepts: 2
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

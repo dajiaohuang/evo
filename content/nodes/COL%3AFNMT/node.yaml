@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus flumineus
+  displayName: Aplastodiscus flumineus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNMT
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus flumineus
+        zh: Aplastodiscus flumineus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNMT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/88
+            queryName: Aplastodiscus flumineus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/330
+            queryName: Hyla fluminea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/473
+            queryName: Boana fluminea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1f50e69c3e
+      - s-52674fafea
+      - s-f26860955e
+      - s-7f8e78a299
+      - s-02e95c3169
+      - s-ba2f193781
+      - s-deab9ebdfe
+      - s-63faa59c22
+      - s-4d246b5bb3
+      - s-0fe28feaba
+      - s-8ec0657d6c
+      - s-b71225c2b0
+      - s-158ea37b1d
+      - s-15be0af4dc
+    zh:
+      - s-93715eb35f
+      - s-5f5fb95ba5
+      - s-04737018da
+      - s-78ae87734d
+      - s-dbf7c29ed7
+      - s-964a65e32e
+      - s-4beedd66f4
+      - s-7e12a5f4b4
+      - s-3ecf57d2be
+      - s-ad5986d25e
+      - s-d02cce9924
+      - s-dcf048b6bc
+      - s-044408d99d
+      - s-8be3cc5e1a

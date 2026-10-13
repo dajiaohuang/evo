@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-c102cc04fa}
+The version 3 Amphibian database lists Elachistocleis erythrogaster in a source measurement table. Its classification fields read order = Anura, family = Microhylidae, genus = Elachistocleis; the linked citation is in Reference.csv row 412. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-21bf8f867d}
+Anura.csv rows 1623, 1624 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1623 (F) = 37.6, row 1624 (M) = 32.3; HW: row 1623 (F) = 7.4, row 1624 (M) = 7.2; ED: row 1623 (F) = 2, row 1624 (M) = 1.9; other populated codes are IOD, IND, EN, FL, TL, THL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

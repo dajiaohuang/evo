@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Piriqueta nanuzae? {#s-2f98d884f1}
+The branches have simple, spreading star-shaped and bristle-like glandular hairs. Petiolate leaves are ovate or broadly ovate, papery to chartaceous, and differ in color above and below; margins are scalloped, toothed or rolled under. Both surfaces bear star-shaped and glandular hairs, and nectaries are absent. The inflorescence is cymose with bracteoles. Inner calyx lobes are woolly beside the midrib. The corolla and corona are yellow; styles are heterostylous. The fruit surface is smooth. Seeds are slightly curved, net-veined and papillose.
+

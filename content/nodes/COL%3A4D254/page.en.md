@@ -1,0 +1,3 @@
+## ## Terminal panicles and samaras {#s-a7368dd7e8}
+The Brazilian Flora 2020 entry records deciduous stipules and odd-pinnate leaves with coriaceous leaflets, listed as ovate-elliptic, obovate or elliptic. Their tips are acuminate, bases rounded, and venation brochidodromous. The terminal panicles are tomentose. Flowers are sessile, with a tubular, five-part calyx; the entry also records pink flowers before opening. The fruit is a samara. The habitat field says “terrestrial,” but gives no locality or finer habitat description. This regional set of character fields is not a complete account of variation.
+

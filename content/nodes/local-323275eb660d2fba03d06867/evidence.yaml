@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bolitoglossa hiemalis
+    name:
+      en: Bolitoglossa hiemalis
+      zh: Bolitoglossa hiemalis
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Bolitoglossa
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-08ab5a85e0
+            part: body
+          zh:
+            page: zh
+            section: s-8b6673bc77
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-aef5639c5d
+            part: body
+          zh:
+            page: zh
+            section: s-7b9af7f4cd
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 58, 59; Reference.csv rows 4102
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 58
+        values:
+          - Plethodontidae
+          - Bolitoglossa
+          - Bolitoglossa hiemalis
+          - M
+          - NA
+          - "37.4"
+          - NA
+          - "19.6"
+          - NA
+          - "4.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 59
+        values:
+          - Plethodontidae
+          - Bolitoglossa
+          - Bolitoglossa hiemalis
+          - F
+          - NA
+          - "44.9"
+          - NA
+          - "25.2"
+          - "8.5"
+          - "5.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4102
+        values:
+          - Caudata
+          - Bolitoglossa_hiemalis
+          - "Lynch, J. D. (2001). A small amphibian fauna from a previously unexplored paramo of the Cordillera Occidental in western Colombia. Journal of Herpetology, 35(2), 226-231. https://doi.org/10.2307/1566112 ? Acevedo, A. A., Wake, D. B., Marquez, R., Silva, K., Franco, R., & Amezquita, A. (2013). Two new species of Salamanders, Genus Bolitoglossa (Amphibia: Plethodontidae), from the Eastern Colombian Andes. Zootaxa, 3609, 69-84. https://doi.org/10.11646/zootaxa.3609.1.5"
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - MDPW
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

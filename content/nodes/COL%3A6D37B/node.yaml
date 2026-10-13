@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Diasporus hylaeformis
+  displayName: Diasporus hylaeformis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6D37B
+  sourceIndexes:
+    - name:
+        en: Diasporus hylaeformis
+        zh: Diasporus hylaeformis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6D37B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/0
+            queryName: Diasporus hylaeformis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/105
+            queryName: Eleutherodactylus hylaeformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/76
+            queryName: Phyllobates hylaeformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/77
+            queryName: Phyllobates hyliformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/78
+            queryName: Syrrhopus hylaeformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/79
+            queryName: Syrrhaphus hylaeformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/80
+            queryName: Syrrhophus hylaeformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/81
+            queryName: Pristimantis hylaeformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-112726bba0
+      - s-16e03394eb
+      - s-1d5963b291
+      - s-e058f6e9e0
+      - s-1434a30004
+      - s-e6501d5f30
+      - s-5050f7dcf0
+      - s-a9720ef645
+      - s-c18cd469e6
+      - s-19aa1c942b
+      - s-330fa72df4
+      - s-bd5bed91e9
+      - s-b4a655e2fc
+      - s-3610ea0683
+    zh:
+      - s-af0a4f4792
+      - s-361e780a76
+      - s-78a9e39c4e
+      - s-5aeda78e9d
+      - s-d0895edbaa
+      - s-479b21bb19
+      - s-6da92615ca
+      - s-bfb85b5e0b
+      - s-556d190473
+      - s-55a5a23472
+      - s-ac3c404ea1
+      - s-303bfbbf78
+      - s-fdb260cad2
+      - s-2a5cb9fa40

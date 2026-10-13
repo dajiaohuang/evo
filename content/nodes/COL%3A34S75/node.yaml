@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus sanborni
+  displayName: Dendropsophus sanborni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S75
+  sourceIndexes:
+    - name:
+        en: Dendropsophus sanborni
+        zh: Dendropsophus sanborni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S75
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/418
+            queryName: Dendropsophus sanborni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/460
+            queryName: Hyla sanborni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/397
+            queryName: Hyla nana sanborni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-df66d08fa5
+      - s-07318df5d2
+      - s-a914f97284
+      - s-02f58e6db0
+      - s-39d7252521
+      - s-141c0db0d7
+      - s-ad7dacb49a
+      - s-1e8ad7017d
+      - s-a74475ca18
+      - s-afaea95e36
+      - s-76a918298d
+      - s-3007e06a5f
+      - s-48a57bd859
+      - s-54f55ce013
+      - s-8212d77afb
+      - s-83b7cc72cf
+      - s-11080059ae
+      - s-0bde2b525a
+      - s-f359feb1b5
+    zh:
+      - s-4c46d3996a
+      - s-043376667f
+      - s-5a76ed8b49
+      - s-664a03c833
+      - s-b32822a24e
+      - s-7db7b41ff5
+      - s-d0b13a5bd2
+      - s-0134d02dd4
+      - s-a368a8bd0c
+      - s-113f7273cc
+      - s-2409ff27e8
+      - s-9fb375d5ad
+      - s-267e3924b1
+      - s-b0e678e19e
+      - s-c40ee6de12
+      - s-d5b89f54f1
+      - s-b4ef96756e
+      - s-4986c8471a
+      - s-bfff660ae0

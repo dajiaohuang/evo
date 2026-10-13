@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Flectonotus pygmaeus
+  displayName: Flectonotus pygmaeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6J8RZ
+  sourceIndexes:
+    - name:
+        en: Flectonotus pygmaeus
+        zh: Flectonotus pygmaeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6J8RZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/494
+            queryName: Flectonotus pygmaeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/4
+            queryName: Nototheca pygmaeum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/88
+            queryName: Nototrema pygmaeum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/89
+            queryName: Gastrotheca pygmaea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d5a7048645
+      - s-777e6cda1d
+      - s-3f9078c352
+      - s-b17cac7716
+      - s-e388da8341
+      - s-dbf9542c5c
+      - s-2e1c595304
+      - s-7ffef07d5b
+      - s-1b610e9655
+      - s-5914c92e67
+      - s-2ae4eb7e5c
+    zh:
+      - s-5804e3efdf
+      - s-b0d6ce1f35
+      - s-733ca8f509
+      - s-e3d37cfdfa
+      - s-cc5ff58149
+      - s-3c5da77b7b
+      - s-0d1b1fef6f
+      - s-8c24b4ec43
+      - s-46cb651a50
+      - s-dc68c90ae1
+      - s-17413d86f0

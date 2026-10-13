@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophilautus newtonjayawardanei
+  displayName: Pseudophilautus newtonjayawardanei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P73W
+  sourceIndexes:
+    - name:
+        en: Pseudophilautus newtonjayawardanei
+        zh: Pseudophilautus newtonjayawardanei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P73W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/396
+            queryName: Pseudophilautus newtonjayawardanei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0045ba16e4
+      - s-799e524450
+      - s-bba1381591
+      - s-fa200befcf
+      - s-43e16ed7bc
+    zh:
+      - s-2b7f2058b3
+      - s-aba7c9da2a
+      - s-59c49363b6
+      - s-add8e31224
+      - s-38a9d8981a

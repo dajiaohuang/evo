@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osteocephalus alboguttatus
+  displayName: Osteocephalus alboguttatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75BMK
+  sourceIndexes:
+    - name:
+        en: Osteocephalus alboguttatus
+        zh: Osteocephalus alboguttatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75BMK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/335
+            queryName: Osteocephalus alboguttatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/244
+            queryName: Hyla alboguttata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-28599aec80
+      - s-4935887d0d
+      - s-f32cd83032
+      - s-07a016c878
+      - s-49001109c9
+      - s-ae6e071616
+      - s-a9e017ca3d
+      - s-dcdafe99e6
+      - s-6bc3dfaac2
+      - s-f9ea07f8e6
+    zh:
+      - s-e08493bbd3
+      - s-ad4bc36854
+      - s-0a7eaca2fc
+      - s-4fea442030
+      - s-a6c4f5448b
+      - s-c8e373e9ce
+      - s-65fea5fcdf
+      - s-796c049f49
+      - s-3b45a40564
+      - s-48ecbc42f3

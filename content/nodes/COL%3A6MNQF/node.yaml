@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus phyllognathus
+  displayName: Hyloscirtus phyllognathus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNQF
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus phyllognathus
+        zh: Hyloscirtus phyllognathus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNQF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/63
+            queryName: Hyloscirtus phyllognathus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/425
+            queryName: Hyla phyllognatha
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/334
+            queryName: Boana phyllognatha
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b21f143ff
+      - s-bebdc3bc14
+      - s-3cf792648c
+      - s-a5d3c6e94d
+      - s-22edee04ba
+      - s-3cc650e805
+      - s-d092a0edfe
+      - s-4ba33105e2
+      - s-56c77400c7
+      - s-0a17e2f454
+      - s-aec3f4f59d
+      - s-91de0b8b69
+      - s-bf35fdacd8
+      - s-562c004621
+      - s-d74964fed2
+      - s-f91813af37
+      - s-2beab86f10
+    zh:
+      - s-c3fc5f8f2a
+      - s-4430ced932
+      - s-93a9c962c5
+      - s-d20d6e6b1a
+      - s-768e717f16
+      - s-69b30bdf70
+      - s-be81b3d105
+      - s-bf2bdb068e
+      - s-27f9af03bc
+      - s-48a3f7b274
+      - s-c0a836f19b
+      - s-e165731855
+      - s-655837986c
+      - s-99a3eb621b
+      - s-3741ae43c8
+      - s-55619b85a5
+      - s-04ed36189e

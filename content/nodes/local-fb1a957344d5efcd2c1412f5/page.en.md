@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-95579e9d16}
+The version 3 Amphibian database lists Guibemantis woosteri in a source measurement table. Its classification fields read order = Anura, family = Mantellidae, genus = Guibemantis; the linked citation is in Reference.csv row 497. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-f001e16007}
+Anura.csv rows 2082, 2083 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 2082 (M) = 21.11111111, row 2083 (F) = 23.76; HL: row 2082 (M) = 7.677777778, row 2083 (F) = 8.4; HW: row 2082 (M) = 6.933333333, row 2083 (F) = 7.58; other populated codes are ED, TD, IOD, IND, EN, NS, HAL, FLL, FL, TL, THL, Fin3DW, … (13 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

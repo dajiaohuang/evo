@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Meristogenys amoropalamus
+  displayName: Meristogenys amoropalamus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6RBCX
+  sourceIndexes:
+    - name:
+        en: Meristogenys amoropalamus
+        zh: Meristogenys amoropalamus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6RBCX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/414
+            queryName: Meristogenys amoropalamus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/363
+            queryName: Amolops amoropalamus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0da4e28bd5
+      - s-60fca4a520
+      - s-2d980ed8d4
+      - s-a08c177b92
+      - s-2b7b11b8c3
+      - s-3f740a42e0
+      - s-7cddf72c0b
+      - s-4299932ead
+      - s-66acaa6463
+      - s-0e366d1e61
+      - s-79490b3fca
+      - s-49ba676785
+      - s-05267c082e
+    zh:
+      - s-6e377f2c57
+      - s-aa70c919bf
+      - s-d0e73d8775
+      - s-4d2d185057
+      - s-e1f5eba729
+      - s-69acea9161
+      - s-313c2af9db
+      - s-6b2678913e
+      - s-80fb676b65
+      - s-4e2f002d65
+      - s-674e772da2
+      - s-65d6ad71e0
+      - s-adccbfd62b

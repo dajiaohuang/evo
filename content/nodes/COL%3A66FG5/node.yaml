@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amphiuma tridactylum
+  displayName: Amphiuma tridactylum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66FG5
+  sourceIndexes:
+    - name:
+        en: Amphiuma tridactylum
+        zh: Amphiuma tridactylum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66FG5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/427
+            queryName: Amphiuma tridactylum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 86
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/442
+            queryName: Amphiuma means tridactylum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/171
+            queryName: Syren quadrapeda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/172
+            queryName: Muraenopsis tridactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/173
+            queryName: Amphiuma tridactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/460
+            queryName: Siren quadrupes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4ef23f4ebf
+      - s-0c3f181fc4
+      - s-85d1414243
+      - s-b40c82a813
+      - s-c300697822
+      - s-45e33d3d5c
+      - s-ca3469a4ce
+      - s-16276d54e5
+      - s-a621d5c7e7
+      - s-35e782e1af
+      - s-27688dc3cf
+      - s-0ba1039e61
+      - s-fef29e0c66
+      - s-9150c4eddd
+      - s-3f1a16f0d2
+      - s-d5484febdf
+      - s-cba55be6ad
+    zh:
+      - s-9217a29358
+      - s-5c6e0234b3
+      - s-cc84379427
+      - s-dfa5d93a91
+      - s-07942b82e0
+      - s-a7ea685abe
+      - s-61330a7a04
+      - s-abf9eebf83
+      - s-d364f6f3d1
+      - s-ca21de26ad
+      - s-3f4cfb5f02
+      - s-9eba519824
+      - s-181dd2b713
+      - s-05a831465d
+      - s-87296fefa5
+      - s-bfbf43492b
+      - s-2cb973b92f

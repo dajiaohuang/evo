@@ -1,0 +1,3 @@
+## ## Ellipsoid flower heads and pale calyx lobes {#s-e094e787ab}
+The Brazilian Flora 2020 entry records strigose stem hairs that point forward and lie close to the surface. It lists simple hairs but no setae, glandular hairs, prickles or short shoots. The stipules persist; extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are ellipsoid, and floral bracts are shorter than the flowers before they open. The flowers have four perianth parts, a paleaceous calyx with pappus-like lobes, and corolla lobes with one to three veins and silky hairs. The androecium is isostemonous, with pink filaments. A habitat field says “terrestrial”; it gives no locality or more detailed habitat account.
+

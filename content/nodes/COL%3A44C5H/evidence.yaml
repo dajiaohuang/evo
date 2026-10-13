@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea flexicaulis Goldblatt
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 44C5H, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000785167.
+      scope: Moraea as represented by COL26.8 usage 44C5H. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/44C5H
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 44C5H
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000785167-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 44C5H / WFO wfo-0000785167
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14562_0
+        referenceId: ref-81700c88-f1f5-8e39-a6f3-7f3b7c855177
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 33329 (Morphology), 39182 (Habitat), source identifier 14562.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 94287 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, up to 150 mm tall, branched. Leaves 2 or 3, linear, fairly short, channelled. Flowers enclosed in green spathes, yellow, tepal claws long, limbs shorter, outspread, filaments united in a slender column, style branches narrow, diverging, crests short, erect.
+            textZh: Moraea flexicaulis Goldblatt 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_14562_0
+            locator: Strelitzia 30; archive Morphology row 33329, source 14562.0
+            placeTimeScope: Regional species account published 2013; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: So unusual is Moraea flexicaulis that when first described it was assigned to a separate sect. Flexuosae of subg. Moraea, but molecular studies have shown it to be deeply nested in subg. Homeria, in which its chromosome number, 2n = 12, and karyotype of exclusively acrocentric chromosomes are consistent, as are the largely united filaments forming a sturdy, cylindric column. Moraea flexicaulis is now considered to be most closely allied to two Namaqualand species of subg. Homeria, M. schlechteri and M. knersvlaktensis, all three with several leaves, even those in the upper part of the stem with free blades, and filaments free and diverging distally. The species remains a very distinctive member of the subgenus. Its particularly well-developed style branches and crests are exceptional in subg. Homeria but both its presumed close allies have style branches bearing moderately well-developed crests although they have much shorter style branches. Blooming early in the season, in late June and July, Moraea flexicaulis comes into flower three to four weeks after the first soaking autumn or winter rains fall in this arid area of the southern African northwest coast. As with many plants of arid areas, plant size is very variable depending on rainfall. Plants from the base of the Ploegberg in the Richtersveld are unusually robust compared to other collections, up to 150 mm tall (vs. < 100 mm elsewhere) and with larger rhipidial spathes (45-50 mm vs. 20-40 mm) and broader leaves, leaving open the possibility that they may be a separate species but this remains uncertain until more material is available.
+            textZh: SANBI 条目提供了 Moraea flexicaulis Goldblatt 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94287, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony and sandy slopes and flats.
+            textZh: SANBI 区域植物志将 Moraea flexicaulis Goldblatt 的生境记为：Stony and sandy slopes and flats.
+            sourceIds:
+              - sanbi_14562_0
+            locator: Strelitzia 30; archive Habitat row 39182, source 14562.0
+            placeTimeScope: Regional species account published 2013; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0a32bde72f
+            part: title
+          zh:
+            page: zh
+            section: s-ec880210cf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0a32bde72f
+            part: body
+          zh:
+            page: zh
+            section: s-ec880210cf
+            part: body
+        sourceIds:
+          - sanbi_14562_0
+          - sanbi_18638_0
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b7aebd6b37
+            part: title
+          zh:
+            page: zh
+            section: s-27b33b8302
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b7aebd6b37
+            part: body
+          zh:
+            page: zh
+            section: s-27b33b8302
+            part: body
+        sourceIds:
+          - sanbi_14562_0

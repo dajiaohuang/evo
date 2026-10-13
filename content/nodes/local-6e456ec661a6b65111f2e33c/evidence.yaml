@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Fejervarya sakishimensis
+    name:
+      en: Fejervarya sakishimensis
+      zh: Fejervarya sakishimensis
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Fejervarya
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Fejervarya sakishimensis in the version 3 classification
+          zh: Fejervarya sakishimensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a13a40beb1
+            part: body
+          zh:
+            page: zh
+            section: s-6dc6b2c694
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 15 populated trait fields
+          zh: 2 条测量行与 15 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-af938a2739
+            part: body
+          zh:
+            page: zh
+            section: s-d2d7388b51
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1867, 1868; Reference.csv rows 3222
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1867
+        values:
+          - Dicroglossidae
+          - Fejervarya
+          - Fejervarya sakishimensis
+          - M
+          - "51.7"
+          - "19.3875"
+          - "19.0256"
+          - "6.8761"
+          - "3.8258"
+          - NA
+          - "2.8435"
+          - "3.5673"
+          - "4.9115"
+          - NA
+          - "8.5822"
+          - NA
+          - NA
+          - "30.1928"
+          - NA
+          - "27.918"
+          - NA
+          - "25.333"
+          - NA
+          - NA
+          - "83.6506"
+          - "2.7401"
+          - "6.4625"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1868
+        values:
+          - Dicroglossidae
+          - Fejervarya
+          - Fejervarya sakishimensis
+          - F
+          - "60.6"
+          - "22.725"
+          - "22.3008"
+          - "8.0598"
+          - "4.4844"
+          - NA
+          - "3.333"
+          - "4.1814"
+          - "5.757"
+          - NA
+          - "10.0596"
+          - NA
+          - NA
+          - "35.3904"
+          - NA
+          - "32.724"
+          - NA
+          - "29.694"
+          - NA
+          - NA
+          - "98.0508"
+          - "3.2118"
+          - "7.575"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3222
+        values:
+          - Anura
+          - Fejervarya_sakishimensis
+          - "Matsui, M., Toda, M., & Ota, H. (2007). A new species of Frog Allied to Fejervarya limnocharis from the Southern Ryukyus, Japan (Amphibia: Ranidae). Current Herpetology, 26, 65-79. https://doi.org/10.3105/1881-1019(2007)26[65:ANSOFA]2.0.CO;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - FLL
+      - FL
+      - TL
+      - HLL
+      - IMT
+      - Toe1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6HQR8
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

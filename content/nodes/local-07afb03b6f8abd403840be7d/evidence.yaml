@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Phrynobatrachus maculiventris
+    name:
+      en: Phrynobatrachus maculiventris
+      zh: Phrynobatrachus maculiventris
+    sourceClassification:
+      order: Anura
+      family: Phrynobatrachidae
+      genus: Phrynobatrachus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Phrynobatrachus maculiventris in the morphology deposit
+          zh: 形态数据中的 Phrynobatrachus maculiventris 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ee5112912d
+            part: body
+          zh:
+            page: zh
+            section: s-b34c7658b9
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4235 and 4236: measurement fields and sex codes"
+          zh: 第 4235、4236 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f7bc3947c3
+            part: body
+          zh:
+            page: zh
+            section: s-72cd9fbad8
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4235, 4236; Reference.csv rows 2321
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4235
+        values:
+          - Phrynobatrachidae
+          - Phrynobatrachus
+          - Phrynobatrachus maculiventris
+          - M
+          - "17.98"
+          - NA
+          - "5.585"
+          - "2.315"
+          - "1.185"
+          - NA
+          - "1.905"
+          - NA
+          - NA
+          - "1.62"
+          - NA
+          - "2.515"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.435"
+          - "9.305"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4236
+        values:
+          - Phrynobatrachidae
+          - Phrynobatrachus
+          - Phrynobatrachus maculiventris
+          - NA
+          - "22"
+          - NA
+          - "6.5"
+          - "3"
+          - NA
+          - NA
+          - "3.3"
+          - NA
+          - NA
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - "10.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2321
+        values:
+          - Anura
+          - Phrynobatrachus_maculiventris
+          - Rödel, M. O., Sandberger, L., Loua, N. S., Doumbia, J., & Hillers, A. (2009). Revalidation ofPhrynobatrachus maculiventrisGuibé & Lamotte, 1958 and description of its aposematic coloured tadpole. African Journal of Herpetology, 58(1), 15-27. https://doi.org/10.1080/21564574.2009.9635576
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - EN
+      - NS
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4GW9Y
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

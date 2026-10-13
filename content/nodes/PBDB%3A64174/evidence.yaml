@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Steneofiber depereti
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Steneofiber depereti
+      en: Steneofiber depereti
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3efb0e212b
+            part: body
+          en:
+            page: en
+            section: s-2c44b52512
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0717821959
+            part: body
+          en:
+            page: en
+            section: s-980feddfde
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-58f487eb7c
+            part: body
+          en:
+            page: en
+            section: s-1f8a0c4b2d
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dbccd9e6f7
+            part: body
+          en:
+            page: en
+            section: s-c7b36ed030
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-612a2f5f77
+            part: body
+          en:
+            page: en
+            section: s-592141e254
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Steneofiber depereti
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=64174&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:64174; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:64174
+          selectedOccurrenceIds:
+            - occ:332796
+            - occ:332829
+            - occ:339813
+            - occ:339847
+            - occ:472547
+            - occ:640825
+            - occ:650526
+            - occ:837697
+            - occ:926828
+            - occ:1156792
+            - occ:1336952
+            - occ:1374001
+            - occ:1374041
+            - occ:1392796
+            - occ:1392807
+            - occ:1392813
+            - occ:1392866
+            - occ:1392879
+            - occ:1392895
+            - occ:1431134
+          selectedCollectionIds:
+            - col:31316
+            - col:31326
+            - col:32071
+            - col:32072
+            - col:46955
+            - col:69098
+            - col:49102
+            - col:71873
+            - col:106003
+            - col:48069
+            - col:180344
+            - col:187579
+            - col:187580
+            - col:191822
+            - col:191823
+            - col:94801
+            - col:191827
+            - col:191829
+            - col:142149
+            - col:90354
+          sourceReferenceIds:
+            - ref:8464
+            - ref:8616
+            - ref:12472
+            - ref:19926
+            - ref:23602
+            - ref:31402
+            - ref:35360
+            - ref:47649
+            - ref:59850
+            - ref:62965
+            - ref:64717
+            - ref:67825
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-9fdca86d59
+        part: body
+      en:
+        page: en
+        section: s-f88af5b246
+        part: body

@@ -1,0 +1,90 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-8b12a59bb1
+      part: title
+    titleZh:
+      page: zh
+      section: s-3e012e3c0e
+      part: title
+    category: radiation
+    startAge: 538.8
+    endAge: 520
+    regions:
+      - Global shallow seas
+    clades:
+      - Arthropoda
+      - Mollusca
+      - Brachiopoda
+      - Chordata
+    summary:
+      page: en
+      section: s-8b12a59bb1
+      part: body
+    summaryZh:
+      page: zh
+      section: s-3e012e3c0e
+      part: body
+    claimIds:
+      - claim:event:cambrian-radiation
+    evidenceItems:
+      - statement: Burgess Shale-type preservation
+        relation: supports
+        claimIds:
+          - claim:event:cambrian-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: erwin-2011-cambrian
+            pages: 1091–1097
+      - statement: Small shelly fossils
+        relation: supports
+        claimIds:
+          - claim:event:cambrian-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: erwin-2011-cambrian
+            pages: 1091–1097
+      - statement: Trace-fossil diversification
+        relation: supports
+        claimIds:
+          - claim:event:cambrian-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: erwin-2011-cambrian
+            pages: 1091–1097
+    uncertaintyItems:
+      - statement: Molecular divergences often predate obvious body fossils
+        relation: contextualizes
+        claimIds:
+          - claim:event:cambrian-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: erwin-2011-cambrian
+            pages: 1091–1097
+      - statement: The apparent tempo depends on sampling and preservation
+        relation: contextualizes
+        claimIds:
+          - claim:event:cambrian-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: erwin-2011-cambrian
+            pages: 1091–1097
+  claims:
+    - subjectId: event:cambrian-radiation
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: The Cambrian record combines earlier lineage divergence with later ecological and skeletal expansion visible in exceptional deposits, small shelly fossils and trace fossils.
+      confidence: high
+      confidenceRationale: High confidence reflects convergence among exceptional body-fossil deposits, small shelly fossils, trace fossils and phylogenetic timing in the cited synthesis; the wording separates lineage divergence from later ecological expansion.
+      referenceLinks:
+        - relation: supports
+          referenceId: erwin-2011-cambrian
+          pages: 1091–1097
+          figure: Figures 1–3
+          quoteLocator: Stratigraphic pattern and explanatory-model synthesis
+  claim-rationales.zh:
+    - 高置信度来自特殊化石库、小壳化石、遗迹化石与系统发育时间信息的相互印证；声明明确区分了较早的谱系分化与较晚的生态扩张。
+  claim-statements.zh:
+    - 寒武纪记录结合了较早的谱系分化与较晚的生态和骨骼扩张；后者可见于特异埋藏化石库、小壳化石和遗迹化石。

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Acris
+  displayName: Acris
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/627SP
+  sourceIndexes:
+    - name:
+        en: Acris
+        zh: Acris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 627SP
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/95
+            queryName: Acris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4708
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91011864de
+      - s-8e8a7f8188
+      - s-2710ecb96b
+      - s-9f2f1166f4
+      - s-5fe92069f9
+      - s-c5ba6af52d
+      - s-fa61087992
+      - s-363f8ff9e0
+      - s-583dbfe06e
+      - s-5f887302a2
+      - s-faa4ec9a43
+      - s-6ddc950c58
+    zh:
+      - s-f1c5ba79cf
+      - s-31f777503a
+      - s-f6fa47b483
+      - s-79787f41da
+      - s-ab9b02927c
+      - s-675fbfbc78
+      - s-eed37b7bde
+      - s-9f5b6f88f8
+      - s-af14339788
+      - s-c953e82601
+      - s-79c8fda37d
+      - s-8e9e63e0d6

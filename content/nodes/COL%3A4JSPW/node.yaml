@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis diesmosi
+  displayName: Platymantis diesmosi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSPW
+  sourceIndexes:
+    - name:
+        en: Platymantis diesmosi
+        zh: Platymantis diesmosi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSPW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/377
+            queryName: Platymantis diesmosi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-59ba554543
+      - s-625a63809f
+      - s-874bfe6b5c
+      - s-db09528c22
+      - s-1615c6da72
+      - s-3176786427
+      - s-2feceaa3e0
+      - s-7f01eefc74
+      - s-b9691b3a23
+      - s-2ca152dffd
+    zh:
+      - s-83becb02aa
+      - s-606f92611f
+      - s-90f19caba9
+      - s-4e1018e029
+      - s-97183a44d5
+      - s-0a6bda9d04
+      - s-88dd53b308
+      - s-d8656585db
+      - s-d9e7658b82
+      - s-5829a87ba2

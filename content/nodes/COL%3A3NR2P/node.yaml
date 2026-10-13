@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius viridis
+  displayName: Hyperolius viridis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NR2P
+  sourceIndexes:
+    - name:
+        en: Hyperolius viridis
+        zh: Hyperolius viridis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NR2P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/356
+            queryName: Hyperolius viridis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70464f8b50
+      - s-1af8954840
+      - s-55c264e8e9
+      - s-7ff811d714
+      - s-b5172c03a9
+      - s-7954816da3
+      - s-16f9a2bb0d
+      - s-47e66fcc3f
+    zh:
+      - s-2cd259ba4a
+      - s-ff9bb930b0
+      - s-8458cf4c54
+      - s-b04fe91782
+      - s-e3a88a16c4
+      - s-cddfd00780
+      - s-3a613b65d7
+      - s-03a18256da

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Gerobatrachus hottoni
+  displayName: Gerobatrachus hottoni
+  rank: species
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=153288
+    placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Gerobatrachus hottoni
+        zh: Gerobatrachus hottoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: txn:153288
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00018.json.gz
+            field: /records/30
+            queryName: Gerobatrachus hottoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=153288
+      placement: PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted
+  subjectPath: content/nodes/PBDB%3A153288
+  scopeRecord: atlas-profile
+  packagePath: data/packages/vertebrata/amphibia
+relationships: []
+structure:
+  sections:
+    en:
+      - s-301bcba875
+      - s-33dd406b7d
+      - s-a78d9970d5
+      - s-3c3f98b4e6
+      - s-386c1c9dac
+      - s-2ac60cea51
+      - s-3ff81585c2
+      - s-e2d656c972
+      - s-8b9a565aad
+      - s-f81082944c
+      - s-b0997383f7
+      - s-33c11f48f8
+      - s-e421c18d41
+      - s-a8d564b91c
+      - s-0e0542ad55
+    zh:
+      - s-9bc99ea8c2
+      - s-5a662a8b1a
+      - s-e0590483a8
+      - s-b462a70499
+      - s-3fedd9a205
+      - zh-e7a6230a984f4e
+      - zh-76220918a8faf3
+      - zh-7fcfb949584746
+      - zh-b9edab1f5e7dcc

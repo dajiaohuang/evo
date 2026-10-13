@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius glacialis
+    name:
+      en: Hynobius glacialis
+      zh: Hynobius glacialis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0b51433633
+            part: body
+          zh:
+            page: zh
+            section: s-e704481983
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d12bb53f87
+            part: body
+          zh:
+            page: zh
+            section: s-241ea616d9
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 147, 148; Reference.csv rows 4263
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 147
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius glacialis
+          - F
+          - NA
+          - "58.9"
+          - NA
+          - "31"
+          - "12.3"
+          - "9.6"
+          - "3.2"
+          - NA
+          - NA
+          - NA
+          - "2.3"
+          - "4.3"
+          - "43.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.1"
+          - "16.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 148
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius glacialis
+          - M
+          - NA
+          - "63.1"
+          - NA
+          - "34"
+          - "12.1"
+          - "9.7"
+          - "3.2"
+          - NA
+          - NA
+          - NA
+          - "2.1"
+          - "4.5"
+          - "49.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.9"
+          - "16.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4263
+        values:
+          - Caudata
+          - Hynobius_glacialis
+          - "Lai, J. S., & Luei, K. Y. (2008). Two new Hynobius (Caudata : Hynobiidae) salamanders from Taiwan. Herpetologica, 64(1), 63-80. https://doi.org/10.1655/06-065.1"
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - IND
+      - SL
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NLTK
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

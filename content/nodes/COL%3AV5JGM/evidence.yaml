@@ -1,0 +1,399 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys rubrimera (Tapley, Cutajar, Mahony, C. T. Nguyen, Dau, T. T. Nguyen, Luong & Rowley, 2017)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys rubrimera
+      zh: Boulenophrys rubrimera
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f64b1a1eaa
+            part: title
+          zh:
+            page: zh
+            section: s-01416252bd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f64b1a1eaa
+            part: body
+          zh:
+            page: zh
+            section: s-01416252bd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ed31c695a1
+            part: title
+          zh:
+            page: zh
+            section: s-fa4e1de958
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ed31c695a1
+            part: body
+          zh:
+            page: zh
+            section: s-fa4e1de958
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1b564f2f63
+            part: title
+          zh:
+            page: zh
+            section: s-401f7bc405
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1b564f2f63
+            part: body
+          zh:
+            page: zh
+            section: s-401f7bc405
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-f929863790dd22106329eaf8
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-93464950c502be8a62c39064
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f67baabeb7
+            part: title
+          zh:
+            page: zh
+            section: s-1204d21fc9
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f67baabeb7
+            part: body
+          zh:
+            page: zh
+            section: s-1204d21fc9
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-c791da048c
+            part: title
+          zh:
+            page: zh
+            section: s-a1f120cf06
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5jgm
+        text:
+          en:
+            page: en
+            section: s-c791da048c
+            part: body
+          zh:
+            page: zh
+            section: s-a1f120cf06
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1b1dca8381
+            part: title
+          zh:
+            page: zh
+            section: s-999bad5216
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5jgm
+        text:
+          en:
+            page: en
+            section: s-1b1dca8381
+            part: body
+          zh:
+            page: zh
+            section: s-999bad5216
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e5a7845ba0
+            part: title
+          zh:
+            page: zh
+            section: s-7097cbcd5a
+            part: title
+        sourceIds:
+          - primary-pmc12466624-v5jgm
+        text:
+          en:
+            page: en
+            section: s-e5a7845ba0
+            part: body
+          zh:
+            page: zh
+            section: s-7097cbcd5a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys rubrimera
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5JGM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 3513, 3514; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3153; Reference.csv rows 807
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10083232-v5jgm
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys rubrimera: Named species types, examined specimens, diagnosis, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-v5jgm
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys rubrimera: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-076bcd3ccf
+        part: body
+      zh:
+        page: zh
+        section: s-bf39393c3f
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-f929863790dd22106329eaf8
+        scientificName: Boulenophrys rubrimera
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v5jgm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys rubrimera
+        evidenceRead: "Boulenophrys rubrimera: Named species types, examined specimens, diagnosis, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Vietnamese type locality and Chinese border records
+              zh: 越南模式地点与中国边境记录
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5jgm
+            locator: RESULTS > Boulenophrys rubrimera; Holotype, Paratypes and Distribution; reading-sections index 36, section s03.52
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dd6df1bfc8
+                part: body
+              zh:
+                page: zh
+                section: s-e9c53e4872
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Seven original males and red-orange thigh markings
+              zh: 七只原始雄性与红橙股部斑纹
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5jgm
+            locator: RESULTS > Boulenophrys rubrimera; Diagnosis characters 1, 5, 9, 10 and 11; reading-sections index 36, section s03.52
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9c226b87e1
+                part: body
+              zh:
+                page: zh
+                section: s-4da0479f5a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-v5jgm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys rubrimera
+        evidenceRead: "Boulenophrys rubrimera: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-v5jgm
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,34
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dd16519440
+                part: body
+              zh:
+                page: zh
+                section: s-cca15859e0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

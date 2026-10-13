@@ -1,0 +1,24 @@
+## 13 条同名性状记录 {#s-e682735a2a}
+本批 ReptTraits 路径收录 13 条同名同科、逐性状附有出处的 Vipera 记录；可先读 Vipera ammodytes、Vipera aspis、Vipera berus、Vipera dinniki 和 Vipera eriwanensis。导航沿用固定版 COL26.8，工作簿则保留 Reptile Database 2023 名称框架。这 13 条是本批覆盖数，不是该属全部接受种数量。
+
+## 两项已报道的吻肛长记录 {#s-2d27342d87}
+本批尺寸记录中，Vipera kaznakovi 的已报道最大吻肛长（SVL）为 493.5 mm，Vipera ammodytes 为 611 mm。两者是不同物种的汇编最大值，不是任一物种的个体体长范围，也不是整个属的实际最小与最大个体。跨物种比较时应确认字段定义一致，并保留各性状出处。
+
+## 13 条历史生活史记录 {#s-a5b85ca4c7}
+另一条 2015 年生活史路径收录 13 条同名记录，可从 Vipera ammodytes、Vipera anatolica、Vipera aspis、Vipera berus 和 Vipera dinniki 开始。成年体重、每窝幼体数或窝卵数、汇编中的最长寿命记录各见于 13 条记录；首次受孕年龄这一雌性字段见于 2 条。计数仅描述本批字段覆盖，不是该属接受种总数；比较数值前应先核对事件、单位与来源方法。
+
+## 证据边界 {#s-7e53c3fd92}
+本页并列三条范围不同的路径：13 条有性状出处的 ReptTraits 记录、13 条历史生活史记录，以及 6 条有限性状 ReptTraits 记录；都不是完整后代名录。汇编最大体长是已报道记录，不是个体平均值或鉴定阈值；吻肛长与龟类背甲长也不是同一种测量。历史汇总可能在物种或亚种间继承资料。两个后代条目存在引用范围疑点，相关值不作为确定性状呈现；原始记录仍保留，具体出处边界见物种页。群级入口不表示所有后代具有相同繁殖方式或生活史。
+
+## 两个后代条目的引用范围疑点 {#s-a6a1c3e52a}
+两个后代条目的部分字段有待澄清引用范围，因此没有作为确定性状写入正文。物种页保留原始记录及其引用标签。路径数量代表资料条目数，不代表已有支持的性状数量。
+
+## 六条有限性状 ReptTraits 记录 {#s-eb1b39d892}
+有限性状 ReptTraits 路径包括 6 条同名同科记录，可从 [Vipera altaica](Vipera_altaica/page.zh.md)、[Vipera anatolica](Vipera_anatolica/page.zh.md)、[Vipera darevskii](Vipera_darevskii/page.zh.md)、[Vipera graeca](Vipera_graeca/page.zh.md) 或 [Vipera nikolskii](Vipera_nikolskii/page.zh.md) 开始。COL26.8 提供导航框架，工作簿保留 Reptile Database 2023 名称；6 条是这条路径的数量，不是 Vipera 的接受种总数。
+
+## 只比较共同有来源的字段 {#s-97e58b0d4e}
+每个后代页只介绍自身有来源的字段。只有定义和单位一致且都受来源支持时，才适合跨物种对读。缺项不以近缘种补值；页面数也不代表性状完整。龟类直线背甲长（SCL）与蛇类吻肛长（SVL）不可互换。
+
+## 这组性状资料的边界 {#s-95c2373e36}
+这些路径按固定分类框架归到 Vipera，但数据集、字段和历史范围各不相同；汇编最大值与生活史汇总都不能当作个体典型值，也不构成该属的完整介绍。请沿物种页查看具体出处和限制。路径本身不能解决所有分类修订、种群差异或当前保护状态。
+

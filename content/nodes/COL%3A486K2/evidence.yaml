@@ -1,0 +1,604 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nymphargus pluvialis (Cannatella & Duellman, 1982)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nymphargus pluvialis
+      zh: Nymphargus pluvialis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-bf685d1d59
+            part: title
+          zh:
+            page: zh
+            section: s-594da781d9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bf685d1d59
+            part: body
+          zh:
+            page: zh
+            section: s-594da781d9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b465c067c0
+            part: title
+          zh:
+            page: zh
+            section: s-9b3936fc03
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b465c067c0
+            part: body
+          zh:
+            page: zh
+            section: s-9b3936fc03
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8d4d9804fa
+            part: title
+          zh:
+            page: zh
+            section: s-d227847b9f
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-8d4d9804fa
+            part: body
+          zh:
+            page: zh
+            section: s-d227847b9f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4a5b85c63d
+            part: title
+          zh:
+            page: zh
+            section: s-d88ad05082
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-4a5b85c63d
+            part: body
+          zh:
+            page: zh
+            section: s-d88ad05082
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-d0d10d7704
+            part: title
+          zh:
+            page: zh
+            section: s-d823bc1637
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-d0d10d7704
+            part: body
+          zh:
+            page: zh
+            section: s-d823bc1637
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d12ed61e3b
+            part: title
+          zh:
+            page: zh
+            section: s-33e244d587
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-d12ed61e3b
+            part: body
+          zh:
+            page: zh
+            section: s-33e244d587
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-f1bd30c5307e9cbc963c0316560939cc
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-c53d6b5ce0d1cd6df425b4ac
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6750588378
+            part: title
+          zh:
+            page: zh
+            section: s-ba9070aff8
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6750588378
+            part: body
+          zh:
+            page: zh
+            section: s-ba9070aff8
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-a94ae2c752
+            part: title
+          zh:
+            page: zh
+            section: s-7184ff7b31
+            part: title
+        sourceIds:
+          - primary-pmc13061190-486k2
+        text:
+          en:
+            page: en
+            section: s-a94ae2c752
+            part: body
+          zh:
+            page: zh
+            section: s-7184ff7b31
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fd6f9ffe29
+            part: title
+          zh:
+            page: zh
+            section: s-1238c48f60
+            part: title
+        sourceIds:
+          - primary-pmc13061190-486k2
+        text:
+          en:
+            page: en
+            section: s-fd6f9ffe29
+            part: body
+          zh:
+            page: zh
+            section: s-1238c48f60
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-699ab15f4d
+            part: title
+          zh:
+            page: zh
+            section: s-0e95c1fffd
+            part: title
+        sourceIds:
+          - primary-pmc13061190-486k2
+        text:
+          en:
+            page: en
+            section: s-699ab15f4d
+            part: body
+          zh:
+            page: zh
+            section: s-0e95c1fffd
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-a238083dfc
+            part: title
+          zh:
+            page: zh
+            section: s-8970519da8
+            part: title
+        sourceIds:
+          - primary-pmc13061190-486k2
+        text:
+          en:
+            page: en
+            section: s-a238083dfc
+            part: body
+          zh:
+            page: zh
+            section: s-8970519da8
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-83a40723f6
+            part: title
+          zh:
+            page: zh
+            section: s-8fb6c3f50f
+            part: title
+        sourceIds:
+          - primary-pmc6404656-486k2
+        text:
+          en:
+            page: en
+            section: s-83a40723f6
+            part: body
+          zh:
+            page: zh
+            section: s-8fb6c3f50f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nymphargus pluvialis
+          url: https://www.checklistbank.org/dataset/316115/taxon/486K2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0992; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0992 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3687; Reference.csv rows 944
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13061190-486k2
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nymphargus pluvialis: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc6404656-486k2
+        referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nymphargus pluvialis: Mainsec1–8paragraphs/Tables1–2/AppendixI andallTableS1DOCXdonorrows read;cloudDOI/license/MD5verified;originalmainfigurepixels/audio/alignments/GenBankrecords/voucheridentities unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-722447960f
+        part: body
+      zh:
+        page: zh
+        section: s-0263a5294b
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-f1bd30c5307e9cbc963c0316560939cc
+      sourceRowId: Anf0992
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0992
+        bibliographyRowId: Anf0992
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Nymphargus pluvialis
+        candidateBibliographyRowIds:
+          - Anf0992
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-c53d6b5ce0d1cd6df425b4ac
+        scientificName: Nymphargus pluvialis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0345097
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        sourceKey: primary-pmc13061190-486k2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/article.xml
+        sourceConcept: Exact frozen accepted name matched to source diagnostic comparison/sampled lineage; qualified candidates and disputed donors kept separately
+        evidenceRead: "Nymphargus pluvialis: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: The sampled relationship retains support and label limits
+              zh: 采样关系保留支持与标签限制
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-486k2
+            locator: PMC13061190 XMLsec012/026;Fig1/2 captions;S1Fig caption (pixels not inspected)
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-60788bfa03
+                part: body
+              zh:
+                page: zh
+                section: s-1b57820a54
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: An unresolved name conflict for QCAZ-A57095
+              zh: QCAZ-A57095未解决的名称冲突
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-486k2
+            locator: PMC13061190 XMLsec009;Table1row10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8cfb745d20
+                part: body
+              zh:
+                page: zh
+                section: s-73dd87a1b5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: What the shared study can support
+              zh: 共享研究能够支持的内容
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-486k2
+            locator: PMC13061190 XMLsec004/007/008/009/012;sec027 supplementary captions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-97b93489fb
+                part: body
+              zh:
+                page: zh
+                section: s-134a04baa4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Nuclear-tree donors and actual support values
+              zh: 核树供体与实际支持值
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-486k2
+            locator: PMC13061190 supplementaryS1Figure pone.0345097.s002.tif;printedpluvialis donorlabels/selectednodes;sha256:a80eb833d154e69e1308650a1967d7b5c1d917ea78269d4043423f305ccc8c40;quimi-nuclear-tree-reading-receipt.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8c673e41c1
+                part: body
+              zh:
+                page: zh
+                section: s-bf2dabd603
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.6400
+        referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+        sourceKey: primary-pmc6404656-486k2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6404656/article.xml
+        sourceConcept: Exact frozen-name match to selected maintext/table/Appendix labels;qualified/unnamedcandidates andhistoricalassessments remainseparate
+        evidenceRead: "Nymphargus pluvialis: Mainsec1–8paragraphs/Tables1–2/AppendixI andallTableS1DOCXdonorrows read;cloudDOI/license/MD5verified;originalmainfigurepixels/audio/alignments/GenBankrecords/voucheridentities unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A sampled biogeographic hypothesis
+              zh: 采样的生物地理假说
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-486k2
+            locator: PMC6404656 XMLsec5p1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e2236c79c2
+                part: body
+              zh:
+                page: zh
+                section: s-8a142ca81c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

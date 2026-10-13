@@ -1,49 +1,36 @@
 # Amphibia reference and discovery index
 
-This phase stores references, citation metadata, discovery indexes and source
-locators. Detailed prose is deferred. Original full text, PDFs, figures,
-attachments and sequence data are not required for this phase. Previously
-captured materials remain preserved locally.
+The recorded index preserves citation metadata, literal name queries and source
+locators. A search result is a discovery lead: it may concern a homonym, an
+incidental mention or a different taxonomic concept. It becomes support for a
+scientific statement only when its actual material and scope match that statement.
 
-## Project locations
+## Files and provenance
 
-- `data/references.json`: established shared references used by authored
-  evidence and reader sections. Existing curated entries remain unchanged by
-  the discovery exporter.
-- `data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json`:
-  citation candidate shards and query-binding shards, with SHA-256 hashes.
-  Candidate reference envelopes follow `data/schemas/reference.schema.json`;
-  original source IDs and conflicting metadata variants remain available.
-- `docs/amphibia-content/full-roster-literature-collection.json`: literal
-  queries for the pinned COL26.8 accepted-species roster and independent PBDB
-  fossil concepts.
-- `docs/amphibia-content/expanded-literature-collection.json`: additional
-  archived ITIS synonym and higher-taxon literal queries. Source locators and
-  original taxonomic concepts are retained.
-- `docs/amphibia-content/bibliography-literature-collection.json`: discovery
-  of bibliography leads retained by the archived ITIS source. A zero-hit
-  query does not establish that the original work is unavailable.
+- `content/references.yaml` is the canonical shared bibliography.
+  `data/references.json` is its generated application view.
+- `content/nodes/<physical-key>/evidence.yaml` holds authored evidence and
+  source bindings. Recorded query and index provenance belongs to
+  `node.yaml` under `identity.sourceIndexes`; reader prose belongs to the
+  locale Markdown files.
+- `data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json`
+  describes citation and query-binding shards, including SHA-256 hashes.
+- The archived `full-roster-literature-collection.json`,
+  `expanded-literature-collection.json` and
+  `bibliography-literature-collection.json` in this directory preserve the
+  literal COL26.8, PBDB and historical ITIS query contexts separately.
 
-## Evidence and interpretation
+Original source IDs and conflicting citation variants are retained. The index
+omits abstracts and original full texts; each retained metadata variant points
+to the raw search response, JSON position, source URL and hash. Untitled entries
+keep their original metadata and IDs without an invented citation title. Source
+publication exclusions remain in `publication-exclusions.json`.
 
-Canonical `content/taxa/.../evidence.md` records connect their collection
-placeholder to exact query-binding shard locations. `page.en.md` and
-`page.zh.md` contain the bilingual placeholder body alongside retained prose.
+## Interpretation
 
-A literal name search may return homonyms, incidental mentions, laboratory
-reagents or publications unrelated to the taxon. Its query binding is a
-discovery lead, not a verified biological citation or certified taxonomic
-equivalence. Candidates are retained in the source index rather than promoted
-to the shared authored-reference table without review. Untitled records keep
-their original metadata and IDs; no citation title is invented.
-
-The exported index omits abstracts and original full texts. Each retained
-metadata variant points to its original raw search response, JSON position,
-source URL and hash. Raw capture publication exclusions are recorded in
-`publication-exclusions.json`.
-
-Collection counts describe this recorded index snapshot and named source
-scope. They do not certify coverage of all publications in existence. Any
-reported-hit-count or cursor discrepancy remains explicit in the query
-ledger and reconciliation receipts. Biological synthesis and full article
-reading are separate unfinished activities.
+Name matching does not establish COL/PBDB/ITIS concept equivalence. A zero-hit
+query does not prove that a publication is unavailable. Counts describe the
+named snapshot and query scope; they do not measure all literature in existence.
+Reported totals and cursor discrepancies remain in the original query records.
+Preserved full texts, figures, attachments and sequence data keep their original
+source identity and rights information separately from discovery metadata.

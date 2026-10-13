@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys wugongensis
+  displayName: Boulenophrys wugongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5H96
+  sourceIndexes:
+    - name:
+        en: Boulenophrys wugongensis
+        zh: Boulenophrys wugongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5H96
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/386
+            queryName: Boulenophrys wugongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/294
+            queryName: Megophrys wugongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/137
+            queryName: Boulenophrys wugonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/317
+            queryName: Panophrys wugonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5ffa615070
+      - s-7c9118f01f
+      - s-1328fc6349
+      - s-4fd3c708ce
+      - s-6d61f64806
+      - s-5b6c6355d4
+      - s-cf8a33bc1e
+      - s-efd716efb3
+      - s-608445530a
+      - s-4a0105b3d9
+      - s-5932a2459e
+      - s-d0816a0563
+      - s-6969e26b5d
+    zh:
+      - s-eead42c46f
+      - s-ed025c55b3
+      - s-ee511cfc76
+      - s-8915c90af9
+      - s-2b6e1f81d2
+      - s-1d852ecfb3
+      - s-d62462ccbc
+      - s-ec1921ffac
+      - s-b0ed962076
+      - s-70be9af627
+      - s-5e781ac1b7
+      - s-5f7cd30a6f
+      - s-1d12e2be74

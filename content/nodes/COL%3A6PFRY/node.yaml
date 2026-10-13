@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella parva
+  displayName: Leptobrachella parva
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PFRY
+  sourceIndexes:
+    - name:
+        en: Leptobrachella parva
+        zh: Leptobrachella parva
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PFRY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/273
+            queryName: Leptobrachella parva
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8509445072
+      - s-d423f8a604
+      - s-b33fc7a3ce
+      - s-3a7ad7c49d
+      - s-403d1000a1
+      - s-41efc85058
+      - s-c921b50c84
+      - s-37ea88fdc2
+      - s-1a0aec5818
+      - s-2d9a54c970
+      - s-8c1c4ee004
+    zh:
+      - s-fd8ad172c2
+      - s-30430d49de
+      - s-b3d62eb9d1
+      - s-a7d0cd76c5
+      - s-36b5defa8f
+      - s-27cde13e6c
+      - s-42feef66dd
+      - s-d4b65772e6
+      - s-f15cb1232c
+      - s-f82896f718
+      - s-249baca609

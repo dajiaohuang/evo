@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heleophryne purcelli
+  displayName: Heleophryne purcelli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3K4WB
+  sourceIndexes:
+    - name:
+        en: Heleophryne purcelli
+        zh: Heleophryne purcelli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3K4WB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/258
+            queryName: Heleophryne purcelli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/403
+            queryName: Heleophryne purcelli purcelli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ccf540c0e0
+      - s-512c4c9bcb
+      - s-d1ae2e011b
+      - s-1e475b4295
+      - s-1324fff6b2
+      - s-4cee1902e9
+      - s-efa75a454c
+      - s-16ae46b996
+      - s-078f01b3e7
+      - s-0f8a5369ca
+      - s-0097c07068
+    zh:
+      - s-bd56eacf5f
+      - s-72fcaab913
+      - s-5d1090d25d
+      - s-3a220ea41e
+      - s-7619b21ae0
+      - s-f005cc7366
+      - s-a7474b8137
+      - s-923be86c34
+      - s-eaf8a53950
+      - s-184876331d
+      - s-3cf22db778

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ranitomeya benedicta
+  displayName: Ranitomeya benedicta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78T37
+  sourceIndexes:
+    - name:
+        en: Ranitomeya benedicta
+        zh: Ranitomeya benedicta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78T37
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/99
+            queryName: Ranitomeya benedicta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/100
+            queryName: Dendrobates benedicta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-078ca8cf3d
+      - s-64f148ead7
+      - s-02b62f336f
+      - s-399be762c0
+      - s-3956025469
+      - s-5738f98528
+      - s-4464cc33f6
+      - s-4e69dd3d6e
+      - s-785503548a
+    zh:
+      - s-79522ab5cf
+      - s-10a3002914
+      - s-9a0ae7a4da
+      - s-3cdd88226f
+      - s-5ef2549e77
+      - s-57dbdd855e
+      - s-d52e1a1859
+      - s-bd3b3ec38a
+      - s-12eddbf893

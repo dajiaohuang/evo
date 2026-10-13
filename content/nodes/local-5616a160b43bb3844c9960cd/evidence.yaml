@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Polypedates mutus
+    name:
+      en: Polypedates mutus
+      zh: Polypedates mutus
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Polypedates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-abe0121c07
+            part: body
+          zh:
+            page: zh
+            section: s-b3259d73eb
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-67f0163aae
+            part: body
+          zh:
+            page: zh
+            section: s-761c5ca4fe
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4402, 4403; Reference.csv rows 1135
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4402
+        values:
+          - Rhacophoridae
+          - Polypedates
+          - Polypedates mutus
+          - M
+          - "56.9"
+          - "19.5"
+          - "17.5"
+          - "7.9"
+          - "3.5"
+          - NA
+          - "6.9"
+          - "4.3"
+          - "4.8"
+          - NA
+          - "9.2"
+          - NA
+          - NA
+          - NA
+          - "29.7"
+          - "24.6"
+          - NA
+          - "30.9"
+          - NA
+          - NA
+          - "95"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4403
+        values:
+          - Rhacophoridae
+          - Polypedates
+          - Polypedates mutus
+          - F
+          - "76.7"
+          - "26.4"
+          - "23.5"
+          - "9"
+          - "4.4"
+          - NA
+          - "8.9"
+          - "5.4"
+          - "6"
+          - NA
+          - "11.8"
+          - NA
+          - NA
+          - NA
+          - "37.2"
+          - "32.5"
+          - NA
+          - "40.5"
+          - NA
+          - NA
+          - "125"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1135
+        values:
+          - Anura
+          - Polypedates_mutus
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006) Fauna of China, Class Amphibia (Middle Volume) Anura. Science Press, Beijing.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - LAL
+      - FL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 785TR
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla karunaratnei
+  displayName: Microhyla karunaratnei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73GRB
+  sourceIndexes:
+    - name:
+        en: Microhyla karunaratnei
+        zh: Microhyla karunaratnei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73GRB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/9
+            queryName: Microhyla karunaratnei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b992f6d812
+      - s-cbffd26171
+      - s-a0cca0b638
+      - s-c6d4df77c2
+      - s-f733c430b7
+      - s-8b1aa4db18
+      - s-bb8dcdff25
+      - s-75ec1bb517
+      - s-7e656ef9a0
+      - s-8732650a6d
+    zh:
+      - s-cd006e021c
+      - s-e57db91751
+      - s-b62ad52daa
+      - s-f36b283254
+      - s-2c0f27144a
+      - s-861b4c0c29
+      - s-291bb3a827
+      - s-8f58b35387
+      - s-b7112f470c
+      - s-e47baa31d6

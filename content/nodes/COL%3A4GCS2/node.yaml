@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philoria richmondensis
+  displayName: Philoria richmondensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GCS2
+  sourceIndexes:
+    - name:
+        en: Philoria richmondensis
+        zh: Philoria richmondensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GCS2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/89
+            queryName: Philoria richmondensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c8185c7d5
+      - s-06f786ba53
+      - s-89dba624fd
+      - s-90f31eacc1
+      - s-8c40e6aefb
+      - s-f0868cbfda
+      - s-b471a15078
+      - s-f43d328c15
+      - s-57cde33acc
+      - s-17770a5a86
+      - s-99992fad76
+    zh:
+      - s-a55bf360bb
+      - s-84a63a2ffe
+      - s-8a129aa0ff
+      - s-52761e8ad1
+      - s-1548d5d7e7
+      - s-f3f6f5f040
+      - s-f495aac07f
+      - s-16ddcfa21f
+      - s-c2df876180
+      - s-9b751e52d2
+      - s-f161ffd92c

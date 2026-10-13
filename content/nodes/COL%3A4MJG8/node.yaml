@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis lacrimosus
+  displayName: Pristimantis lacrimosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJG8
+  sourceIndexes:
+    - name:
+        en: Pristimantis lacrimosus
+        zh: Pristimantis lacrimosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJG8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/349
+            queryName: Pristimantis lacrimosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/109
+            queryName: Eleutherodactylus lacrimosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/355
+            queryName: Cyclocephalus lacrimosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/356
+            queryName: Hylodes lacrimosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bdf9552dd7
+      - s-63656de24e
+      - s-739819aa0b
+      - s-6cd58ab52f
+      - s-9e37da4692
+      - s-4c34e800ad
+      - s-bd502fd65d
+      - s-efeac68b23
+      - s-d55eaee917
+      - s-c48ccce6a1
+      - s-38da0783a9
+      - s-32452022f5
+      - s-d6cf079afb
+      - s-e59ae8b72a
+      - s-de956c4a88
+      - s-b2d3c17998
+      - s-4d32b00207
+      - s-09ea579a4d
+      - s-3fe9b7d8d5
+      - s-a9bf725794
+    zh:
+      - s-a7dd513199
+      - s-7e501bb812
+      - s-c014a1ebfa
+      - s-83f7e45d9e
+      - s-ed2c755418
+      - s-9e6dda4ab5
+      - s-4210ac3318
+      - s-82ce736adc
+      - s-b999726f59
+      - s-ac791123c4
+      - s-04aff3d912
+      - s-2d607bcd7f
+      - s-e13cef5768
+      - s-ea1a626c4e
+      - s-92d5c13b4b
+      - s-6c36ed5e84
+      - s-50bbce3ce7
+      - s-6891f3366b
+      - s-1c6fedeb64
+      - s-71c58bd31e

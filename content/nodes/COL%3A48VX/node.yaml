@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duttaphrynus
+  displayName: Duttaphrynus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48VX
+  sourceIndexes:
+    - name:
+        en: Duttaphrynus
+        zh: Duttaphrynus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48VX
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/363
+            queryName: Duttaphrynus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 272
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-44872d3383
+      - s-88b166705d
+      - s-81e04e23f9
+      - s-12a7b87e90
+      - s-75298ab775
+      - s-c3a7c75b59
+      - s-c556da8bf1
+      - s-729ea29f92
+      - s-3c5579ed3c
+      - s-03ef284173
+      - s-c2cd8f2691
+      - s-07326f7121
+      - s-5277dbdd2b
+      - s-301123a601
+      - s-b7b384ad89
+      - s-c759fc9455
+      - s-61584d804b
+      - s-3f7a5baba0
+      - s-1824a3e613
+      - s-e3bbc79590
+      - s-1d460f1bf3
+      - s-75d801eba1
+      - s-96c581f24e
+      - s-4673623982
+    zh:
+      - s-e19db1868c
+      - s-a6e213f019
+      - s-fe5f30cd46
+      - s-bab0e1ac93
+      - s-3c9c426d41
+      - s-4d43d35ff0
+      - s-4de8044f33
+      - s-498b104b4c
+      - s-639281f819
+      - s-286d28a64b
+      - s-c1a2afb0e2
+      - s-5f11283bdf
+      - s-e731d4de31
+      - s-2691f770fe
+      - s-c940ecf0dc
+      - s-fb9b2b44f6
+      - s-b717261583
+      - s-ef074663ce
+      - s-26efa78d80
+      - s-1b7596c243
+      - s-fe04241ca4
+      - s-7f0a10f075
+      - s-108072cd6e
+      - s-f2422a635c

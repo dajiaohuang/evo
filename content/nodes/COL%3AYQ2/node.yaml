@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus
+  displayName: Aplastodiscus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/YQ2
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus
+        zh: Aplastodiscus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: YQ2
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/173
+            queryName: Aplastodiscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 56
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fda46efd22
+      - s-c6e9507df6
+      - s-7def3e5413
+      - s-e0e76718b1
+      - s-d7a80eecbd
+      - s-8e5c693ee5
+      - s-83fcfda0ed
+      - s-4ff161dfb1
+      - s-1680aacd42
+      - s-51922d389c
+      - s-aad5d15ea7
+      - s-2150be7d15
+    zh:
+      - s-359a3a3461
+      - s-ea559c6eaa
+      - s-f96e2cfce4
+      - s-e1d3341975
+      - s-6a9a8f30d9
+      - s-f4b92bd7d5
+      - s-2ea9a59320
+      - s-f7aeb2a467
+      - s-37bbb263be
+      - s-87ae398a70
+      - s-3276d4223b
+      - s-e945299bc4

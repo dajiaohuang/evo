@@ -1,0 +1,157 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Searsia erosa (Thunb.) Moffett
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4W73Q, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4W73Q; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4W73Q
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4W73Q
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000510236-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4W73Q / WFO wfo-0000510236
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9808_0
+        referenceId: ref-d66c93fa-c48a-8f55-a06a-c1dd23cf4256
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Searsia erosa (Thunb.) Moffett account; archive rows 45148 (Morphology), 55860 (Habitat), 51635 (Diagnostic), source identifier 9808.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Multistemmed, wiry, rounded shrub up to 3 m high, often forming thickets. Branches grey, prominently lenticellate, branchlets chestnut-brown, glabrous. Leaves trifoliolate, petiolate; petiole semiterete, canaliculate and slightly margined above, (8-)19(-30) mm long; leaflets sessile, coriaceous, slightly discolorous, olive-green above, slightly paler below, glabrous, glutinous, hypostomatous; lamina linear, lateral leaflets often falcate, apex acute, often mucronulate; margin erose to grossly dentate, parted or divided, rarely almost entire; venation kladodromous to reticulodromous, midrib prominent above and below, lateral veins slightly prominent above, other veins obscure in mature leaflets; terminal leaflets (25-)51(-90) x (3-)6(-12) mm, lateral leaflets (15-)39(-81) x (2-)5(-7) mm. Panicles profusely multiflorous, occasionally glomerate, axillary and terminal, latter up to 100 mm long, prominently exposed. Flowers normal. Drupe circular, globoid, glabrous, shiny, light brown, relatively small, 3.3 x 3.1 - 4.5 x 4.0 mm.
+            sourceIds:
+              - sanbi_9808_0
+            locator: "SANBI/WFO archive Morphology row 45148; source 9808.0; publication: Moffett, RO. 1993. Rhus, Fl. S. Africa 19(3,1): 1 - 123. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209553#page/1/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: The wiry branches and fairly dense foliage have led to its use as a rough broom, hence its vernacular name 'besembos'. The toothed leaflets are diagnostic and it has only been confused with Commiphora gracilifrondosa Dinter ex J.J.A. van der Walt. The latter species is, however, allopatric and apart from the generic differences, has narrower leaflets.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_9808_0
+            locator: "SANBI/WFO archive Diagnostic row 51635; source 9808.0; publication: Moffett, RO. 1993. Rhus, Fl. S. Africa 19(3,1): 1 - 123. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209553#page/1/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: A common shrub on rocky koppies in the central interior.
+            sourceIds:
+              - sanbi_9808_0
+            locator: "SANBI/WFO archive Habitat row 55860; source 9808.0; publication: Moffett, RO. 1993. Rhus, Fl. S. Africa 19(3,1): 1 - 123. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209553#page/1/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    pages:
+      en:
+        dek:
+          page: en
+          section: s-1d11e9cc33
+          part: body
+        sections:
+          foliage-fruit:
+            title:
+              page: en
+              section: s-3ddbd126c6
+              part: title
+            text:
+              page: en
+              section: s-3ddbd126c6
+              part: body
+          diagnosis-setting:
+            title:
+              page: en
+              section: s-91a0403550
+              part: title
+            text:
+              page: en
+              section: s-91a0403550
+              part: body
+      zh:
+        dek:
+          page: zh
+          section: s-3fd3a45ef5
+          part: body
+        sections:
+          foliage-fruit:
+            title:
+              page: zh
+              section: s-2629536299
+              part: title
+            text:
+              page: zh
+              section: s-2629536299
+              part: body
+          diagnosis-setting:
+            title:
+              page: zh
+              section: s-80e06ab524
+              part: title
+            text:
+              page: zh
+              section: s-80e06ab524
+              part: body

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis baetkei
+  displayName: Boophis baetkei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHSP
+  sourceIndexes:
+    - name:
+        en: Boophis baetkei
+        zh: Boophis baetkei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHSP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/237
+            queryName: Boophis baetkei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a6b8d4cf17
+      - s-c43ac360a7
+      - s-3820c2d052
+      - s-ddc5a88f89
+      - s-ff62aa55fd
+      - s-7aa4dcb98a
+      - s-c0d036926e
+      - s-2121dbc329
+    zh:
+      - s-44fd0797ef
+      - s-c565eed551
+      - s-d290f0de80
+      - s-dfb7b5abc7
+      - s-4b5a4490f3
+      - s-8bac683533
+      - s-927a3be7ff
+      - s-a233110d49

@@ -1,0 +1,268 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oreophrynella Boulenger, 1895
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Oreophrynella
+      zh: Oreophrynella
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-209b06b82f
+            part: title
+          zh:
+            page: zh
+            section: s-7ec66f2c5d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-209b06b82f
+            part: body
+          zh:
+            page: zh
+            section: s-7ec66f2c5d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-eafd626252
+            part: title
+          zh:
+            page: zh
+            section: s-064abcdab6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eafd626252
+            part: body
+          zh:
+            page: zh
+            section: s-064abcdab6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-8679f106a4
+            part: title
+          zh:
+            page: zh
+            section: s-586f710a5a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8679f106a4
+            part: body
+          zh:
+            page: zh
+            section: s-586f710a5a
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c0d7279c3a
+            part: title
+          zh:
+            page: zh
+            section: s-19ae6748ac
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c0d7279c3a
+            part: body
+          zh:
+            page: zh
+            section: s-19ae6748ac
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-5d2ba2d6f8
+            part: title
+          zh:
+            page: zh
+            section: s-84e1bdcb76
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6STY7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6STY7
+            label:
+              en: Oreophrynella cryptica
+              zh: Oreophrynella cryptica
+          - kind: catalogue
+            colId: 6T69V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6T69V
+            label:
+              en: Oreophrynella huberi
+              zh: Oreophrynella huberi
+          - kind: catalogue
+            colId: 74TXV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A74TXV
+            label:
+              en: Oreophrynella macconnelli
+              zh: Oreophrynella macconnelli
+          - kind: catalogue
+            colId: 74TY7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A74TY7
+            label:
+              en: Oreophrynella nigra
+              zh: Oreophrynella nigra
+          - kind: catalogue
+            colId: 755XV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A755XV
+            label:
+              en: Oreophrynella quelchii
+              zh: Oreophrynella quelchii
+          - kind: catalogue
+            colId: 755Y7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A755Y7
+            label:
+              en: Oreophrynella seegobini
+              zh: Oreophrynella seegobini
+          - kind: catalogue
+            colId: 7569V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7569V
+            label:
+              en: Oreophrynella vasquezi
+              zh: Oreophrynella vasquezi
+          - kind: catalogue
+            colId: 6STY6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6STY6
+            label:
+              en: Oreophrynella weiassipuensis
+              zh: Oreophrynella weiassipuensis
+        text:
+          en:
+            page: en
+            section: s-5d2ba2d6f8
+            part: body
+          zh:
+            page: zh
+            section: s-84e1bdcb76
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Oreophrynella
+          url: https://www.checklistbank.org/dataset/316115/taxon/69MR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Oreophrynella; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-22ec0e1da2
+        part: body
+      zh:
+        page: zh
+        section: s-2bd22ec8aa
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Oreophrynella
+      sourceRowIds:
+        - Anf0717
+        - Anf0718
+        - Anf0719
+        - Anf0720
+        - Anf0721
+        - Anf0722
+        - Anf0723
+        - Anf0724
+        - Anf0725
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 7
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 6
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 2
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 7
+      currentConceptEquivalenceCertified: false

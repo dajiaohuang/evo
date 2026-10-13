@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea spelaea
+  displayName: Eurycea spelaea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3HP
+  sourceIndexes:
+    - name:
+        en: Eurycea spelaea
+        zh: Eurycea spelaea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3HP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/433
+            queryName: Eurycea spelaea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/296
+            queryName: Typhlotriton spelaeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 36
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/183
+            queryName: Eurycea spelaeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a95dc2e197
+      - s-fa4b1a9f45
+      - s-531328a47b
+      - s-c943a0e084
+      - s-e1f50e392e
+      - s-c6754fadda
+      - s-8d678a49d2
+      - s-392b3c11cc
+      - s-329d3cbb5b
+      - s-b8c5ca2a45
+      - s-b44a9c0706
+      - s-73e126962a
+      - s-f8aabd052b
+      - s-a41d698be1
+      - s-7cbdf2df45
+      - s-bf088473a1
+      - s-6d5f37a645
+      - s-5f7754f23f
+      - s-9bb6bd8a2c
+    zh:
+      - s-c172664c72
+      - s-0cbe65c37a
+      - s-48b346e6b1
+      - s-c3e679b72c
+      - s-cb8d231c45
+      - s-b5b56e9c1d
+      - s-b42e0cebc2
+      - s-4b28d93a3c
+      - s-3724fcfbcd
+      - s-1b60c73718
+      - s-041919473a
+      - s-a2005e96d4
+      - s-bf24a1b4e3
+      - s-1b531e284c
+      - s-546afecf7d
+      - s-2f1b0fae5e
+      - s-fde63aa0f7
+      - s-69e0b702dd
+      - s-3ec8195e27

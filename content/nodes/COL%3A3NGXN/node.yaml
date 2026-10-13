@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus maquipucuna
+  displayName: Hyloxalus maquipucuna
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGXN
+  sourceIndexes:
+    - name:
+        en: Hyloxalus maquipucuna
+        zh: Hyloxalus maquipucuna
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGXN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/114
+            queryName: Hyloxalus maquipucuna
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/112
+            queryName: Colostethus maquipucuna
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bbcfeef810
+      - s-32adeb72c9
+      - s-dc21f451d1
+      - s-15d86bd9eb
+      - s-86e62e44fd
+      - s-97b1e9b354
+      - s-088e37c3d4
+    zh:
+      - s-c02496b554
+      - s-2c9534ee97
+      - s-9d70ea2e41
+      - s-5565ddfb90
+      - s-c4eea67e63
+      - s-0e3b068dad
+      - s-bcdf722872

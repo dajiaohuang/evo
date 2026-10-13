@@ -1,0 +1,399 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Geotrypetes seraphini (Duméril, 1859)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Geotrypetes seraphini
+      zh: Geotrypetes seraphini
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2546a4df2b
+            part: title
+          zh:
+            page: zh
+            section: s-ec5d771b93
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2546a4df2b
+            part: body
+          zh:
+            page: zh
+            section: s-ec5d771b93
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8e3a9e563a
+            part: title
+          zh:
+            page: zh
+            section: s-2d6778f72c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8e3a9e563a
+            part: body
+          zh:
+            page: zh
+            section: s-2d6778f72c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-685cbd16f6
+            part: title
+          zh:
+            page: zh
+            section: s-1d9388ed1b
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - caeciliantraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-685cbd16f6
+            part: body
+          zh:
+            page: zh
+            section: s-1d9388ed1b
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-c79465632e2554468d584f48435b70f2
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-801b5708a1fb25bac7d949c8
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-f854565e7f
+            part: title
+          zh:
+            page: zh
+            section: s-e73a2e0ced
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3ftnb
+        text:
+          en:
+            page: en
+            section: s-f854565e7f
+            part: body
+          zh:
+            page: zh
+            section: s-e73a2e0ced
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4374102852
+            part: title
+          zh:
+            page: zh
+            section: s-a47a3378e8
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3ftnb
+        text:
+          en:
+            page: en
+            section: s-4374102852
+            part: body
+          zh:
+            page: zh
+            section: s-a47a3378e8
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-ad6f0e1e3e
+            part: title
+          zh:
+            page: zh
+            section: s-faf5a9d7f0
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3ftnb
+        text:
+          en:
+            page: en
+            section: s-ad6f0e1e3e
+            part: body
+          zh:
+            page: zh
+            section: s-faf5a9d7f0
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-2156f7460f
+            part: title
+          zh:
+            page: zh
+            section: s-ccf265795d
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3ftnb
+        text:
+          en:
+            page: en
+            section: s-2156f7460f
+            part: body
+          zh:
+            page: zh
+            section: s-ccf265795d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Geotrypetes seraphini
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FTNB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6653; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6648 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 64; Individual level data rows 1112, 1113, 1114, 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1139, 1140, 1141, 1142, 1143, 1144, 1145, 1146, 1147; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc5683629-3ftnb
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Geotrypetes seraphini: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedGeotrypetes seraphini account sec017. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-238fc643b2
+        part: body
+      zh:
+        page: zh
+        section: s-f65d94173e
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-pmc5683629-3ftnb
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: NamedGeotrypetes seraphini workingidentification in2017 barcode library; no originalvoucher/currentCOLconcept authentication
+        evidenceRead: "Geotrypetes seraphini: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedGeotrypetes seraphini account sec017. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Sampled localities and voucher forms remain distinct
+              zh: 取样地点与凭证形式保持区分
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3ftnb
+            locator: PMC5683629 XML sec017 namedGeotrypetes seraphini locality/voucher account; sec003/004/007 scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b3f6384137
+                part: body
+              zh:
+                page: zh
+                section: s-b46dbcff9a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Barcode-supported identification retains provisional boundaries
+              zh: 条形码支持鉴定保留暂定界限
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3ftnb
+            locator: PMC5683629 XML sec017 namedGeotrypetes seraphini markeridentification paragraphs; sec009–012 assignmentcriteria
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-92097f3790
+                part: body
+              zh:
+                page: zh
+                section: s-ed740d5399
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Two mitochondrial markers and uneven references limit inference
+              zh: 两线粒体标记及不均参考限制推断
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3ftnb
+            locator: PMC5683629 XML sec004/006–012 methods/reference/limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dbfb66f41e
+                part: body
+              zh:
+                page: zh
+                section: s-d2149184c2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Study counts and identification scope are not population estimates
+              zh: 研究计数及鉴定范围不是种群估计
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3ftnb
+            locator: PMC5683629 XML sec004/007 collectioncounts; sec015 andTable1 total/source-locality rows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0f61f4c81d
+                part: body
+              zh:
+                page: zh
+                section: s-fddbe498c4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

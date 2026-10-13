@@ -1,0 +1,211 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arlequinus Perret, 1988
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Arlequinus
+      zh: Arlequinus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2b46404d64
+            part: title
+          zh:
+            page: zh
+            section: s-2fc3b12f1c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2b46404d64
+            part: body
+          zh:
+            page: zh
+            section: s-2fc3b12f1c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1a6a893fda
+            part: title
+          zh:
+            page: zh
+            section: s-a5e5feab27
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1a6a893fda
+            part: body
+          zh:
+            page: zh
+            section: s-a5e5feab27
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ce5a502b21
+            part: title
+          zh:
+            page: zh
+            section: s-cca3c7e0cb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ce5a502b21
+            part: body
+          zh:
+            page: zh
+            section: s-cca3c7e0cb
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-481939f652
+            part: title
+          zh:
+            page: zh
+            section: s-44aa342595
+            part: title
+        text:
+          en:
+            page: en
+            section: s-481939f652
+            part: body
+          zh:
+            page: zh
+            section: s-44aa342595
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-53d1624082
+            part: title
+          zh:
+            page: zh
+            section: s-ecbe4cf5ed
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6852Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6852Q
+            label:
+              en: Arlequinus krebsi
+              zh: Arlequinus krebsi
+        text:
+          en:
+            page: en
+            section: s-53d1624082
+            part: body
+          zh:
+            page: zh
+            section: s-ecbe4cf5ed
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Arlequinus
+          url: https://www.checklistbank.org/dataset/316115/taxon/32Z4
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Arlequinus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-72a996cbe7
+        part: body
+      zh:
+        page: zh
+        section: s-26bd10b2ba
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Arlequinus
+      sourceRowIds:
+        - Anf3089
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false

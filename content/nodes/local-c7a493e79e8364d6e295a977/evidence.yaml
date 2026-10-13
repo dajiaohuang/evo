@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Anomaloglossus apiau
+    name:
+      en: Anomaloglossus apiau
+      zh: Anomaloglossus apiau
+    sourceClassification:
+      order: Anura
+      family: Dendrobatoidea
+      genus: Anomaloglossus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-862b3602d1
+            part: body
+          zh:
+            page: zh
+            section: s-3e3fa8a602
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0f39f64562
+            part: body
+          zh:
+            page: zh
+            section: s-da741cf9a0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 366, 367; Reference.csv rows 3496
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 366
+        values:
+          - Dendrobatoidea
+          - Anomaloglossus
+          - Anomaloglossus apiau
+          - F
+          - "17.09"
+          - "5.55"
+          - "6.07"
+          - "2.54"
+          - "0.97"
+          - NA
+          - "1.9"
+          - "2.44"
+          - NA
+          - "1.54"
+          - "2.67"
+          - NA
+          - "4.46"
+          - "3.73"
+          - NA
+          - "7.69"
+          - NA
+          - "8.48"
+          - "9.06"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.91"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.67"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.79"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 367
+        values:
+          - Dendrobatoidea
+          - Anomaloglossus
+          - Anomaloglossus apiau
+          - M
+          - "20.16"
+          - "6.31"
+          - "7.27"
+          - "2.89"
+          - "1.07"
+          - NA
+          - "2.21"
+          - "2.8"
+          - NA
+          - "1.73"
+          - "3.09"
+          - NA
+          - "5.05"
+          - "4.29"
+          - NA
+          - "8.72"
+          - NA
+          - "9.55"
+          - "10.31"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.91"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3496
+        values:
+          - Anura
+          - Anomaloglossus_apiau
+          - "Fouquet, A., Souza, S. M., Nunes, P. M., Kok, P. J., Curcio, F. F., De Carvalho, C. M., . . . Rodrigues, M. T. (2015). Two new endangered species of Anomaloglossus (Anura: Aromobatidae) from Roraima State, northern Brazil. Zootaxa, 3926(2), 191-210. https://doi.org/10.11646/zootaxa.3926.2.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Fin1L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

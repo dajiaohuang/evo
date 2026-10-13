@@ -1,0 +1,3 @@
+## What leaf, flower and fruit traits are recorded for Turnera pohliana? {#s-ef01d25174}
+The branches have simple hairs. Petioles are present; small stipules may be reduced to glands, and extrafloral nectaries occur. Obovate or elliptic leaves have margins ranging from single to double toothed or scalloped; the upper surface is hairy and the lower woolly. A single flower may grow on the leaf surface; a peduncle and bracteoles are present, while the pedicel may be present or absent. The corolla is yellow, without a corona, and the filaments join the floral tube at the base. Styles are heterostylous. The fruit exocarp is smooth. Seed surface, outer layer and chalaza are unknown.
+

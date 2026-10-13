@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis nguruensis
+  displayName: Arthroleptis nguruensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYRP
+  sourceIndexes:
+    - name:
+        en: Arthroleptis nguruensis
+        zh: Arthroleptis nguruensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYRP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/167
+            queryName: Arthroleptis nguruensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-754c0c7168
+      - s-4d12e65b0e
+      - s-89b78dabe9
+      - s-e07241b1a5
+      - s-c6c51c5ce0
+      - s-edab4f2f04
+    zh:
+      - s-2b99a522ce
+      - s-203bd89623
+      - s-376f888007
+      - s-86878937a0
+      - s-4a89383861
+      - s-fea092bf19

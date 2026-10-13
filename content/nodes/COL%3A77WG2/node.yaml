@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis illotus
+  displayName: Pristimantis illotus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77WG2
+  sourceIndexes:
+    - name:
+        en: Pristimantis illotus
+        zh: Pristimantis illotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77WG2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/314
+            queryName: Pristimantis illotus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/381
+            queryName: Eleutherodactylus illotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-353022582f
+      - s-57706e445f
+      - s-9eebf32368
+      - s-8ec646aab9
+      - s-5f033535e8
+      - s-d6a8679904
+      - s-8d1aa298a5
+      - s-56538935ec
+      - s-76f211b76e
+    zh:
+      - s-aed2188fc3
+      - s-6f88691e1a
+      - s-0a9b196ca2
+      - s-f1ffc95cda
+      - s-f52b92295a
+      - s-40d19a0330
+      - s-7d684690d4
+      - s-6d89e9ec46
+      - s-5361aeb830

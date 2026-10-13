@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus petersii
+  displayName: Leptodactylus petersii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN72
+  sourceIndexes:
+    - name:
+        en: Leptodactylus petersii
+        zh: Leptodactylus petersii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN72
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/425
+            queryName: Leptodactylus petersii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/15
+            queryName: Platymantis petersii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/80
+            queryName: Leptodactylus caliginosus petersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/81
+            queryName: Leptodactylus podicipinus petersii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a143dd267
+      - s-5d2aea7a2f
+      - s-c755a5ebe8
+      - s-ee26790ba6
+      - s-88be34434f
+      - s-48510dfe6d
+      - s-3e2cb75b3e
+      - s-e936290322
+      - s-9fbca0c4ba
+      - s-f460617c38
+      - s-10d63420de
+      - s-ab5556953b
+      - s-f285bbd6a5
+      - s-e50eeb6c68
+      - s-4f0cf0e736
+      - s-ae4eb5fe81
+      - s-0574a66413
+      - s-463f863cb0
+      - s-f288dc9a6c
+      - s-5b57c84d58
+      - s-d8cffd5a03
+      - s-17e0297a62
+      - s-6a926dd174
+      - s-737ab77c37
+      - s-ae21b757e1
+    zh:
+      - s-03ac3398f9
+      - s-42204549dc
+      - s-98ba86ec4b
+      - s-b1c4acb770
+      - s-a96076ee77
+      - s-b6b40bf861
+      - s-5a15597dfc
+      - s-4677780d7c
+      - s-59a214d54b
+      - s-44c02a4fad
+      - s-00240720f6
+      - s-5f319ab893
+      - s-ba5bd6ac93
+      - s-e749a21b03
+      - s-db3e3fdc4e
+      - s-4704836f2a
+      - s-2b2c8c4fed
+      - s-b6479b0615
+      - s-7356002844
+      - s-d3cac56145
+      - s-1e4e4d21f1
+      - s-ed10df34be
+      - s-b708c769b6
+      - s-4b55d69040
+      - s-301bd855f1

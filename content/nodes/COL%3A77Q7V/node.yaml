@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon ouachitae
+  displayName: Plethodon ouachitae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77Q7V
+  sourceIndexes:
+    - name:
+        en: Plethodon ouachitae
+        zh: Plethodon ouachitae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77Q7V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/483
+            queryName: Plethodon ouachitae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b228f16bda
+      - s-45d7aad475
+      - s-f899df5339
+      - s-75d039de33
+      - s-aa29e9479b
+      - s-489b0b547d
+      - s-b2131ea0df
+      - s-5837c7b997
+      - s-61a4b4d08e
+      - s-f7738beb38
+      - s-51e22b814e
+      - s-5a54713bd7
+      - s-e6a9efcc15
+      - s-b444c0aedf
+      - s-998fbf45ff
+      - s-5629bc8d53
+      - s-79b9366351
+      - s-305d8540c1
+      - s-5c084e771e
+    zh:
+      - s-0acc9eda8e
+      - s-13fe1ab799
+      - s-9dd0cfa208
+      - s-178c824356
+      - s-d2cdc339ac
+      - s-d8ea349f37
+      - s-1499c46b2e
+      - s-f4d30e9df6
+      - s-0f6b0d65dd
+      - s-bc0c1501c8
+      - s-79d892060c
+      - s-4103bb4ffb
+      - s-c305a87428
+      - s-68a26a8423
+      - s-742209cf0f
+      - s-35cfc4cd9d
+      - s-092109f287
+      - s-a39cc173f3
+      - s-672a462b06

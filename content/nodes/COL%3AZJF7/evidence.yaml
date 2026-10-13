@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Crithagra sulphurata
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Crithagra sulphurata
+      en: Crithagra sulphurata
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetCrithagraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-e60e35dde9
+            part: body
+          en:
+            page: en
+            section: s-cc73160c35
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetCrithagraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-7a0f124639
+            part: body
+          en:
+            page: en
+            section: s-149132ebbd
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetCrithagraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-38a5ee3d84
+            part: body
+          en:
+            page: en
+            section: s-c6601c4ec9
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetCrithagraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-ee372fc2d1
+            part: body
+          en:
+            page: en
+            section: s-ddb6ef4ecd
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetCrithagraHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-14bf4adb6f
+            part: body
+          en:
+            page: en
+            section: s-be61720f55
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Crithagra sulphurata
+          url: https://www.checklistbank.org/dataset/316115/taxon/ZJF7
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetCrithagraHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Crithagra historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 24 selected AVONET1_BirdLife rows within 4011–4046; individual eBird/BirdTree crosswalks and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 仅二十四条历史行；旧 Serinus 组合、形态样本、独立文献体重与生态类别分别保留。
+            en: Only these twenty-four historical rows; retain older Serinus combinations, morphology samples, separately compiled mass and ecological categories.
+    limitations:
+      zh:
+        page: zh
+        section: s-84b7b7f555
+        part: body
+      en:
+        page: en
+        section: s-d2e8817aee
+        part: body

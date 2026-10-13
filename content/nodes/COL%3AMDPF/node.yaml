@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa flaviventris
+  displayName: Bolitoglossa flaviventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDPF
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa flaviventris
+        zh: Bolitoglossa flaviventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDPF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/121
+            queryName: Bolitoglossa flaviventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/263
+            queryName: Oedipus flaviventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-496d47ab0b
+      - s-1a3d96da5c
+      - s-e78329999d
+      - s-6d095fb40b
+      - s-c4ce946142
+      - s-e03bddd1ee
+      - s-a5742b481e
+      - s-b1099f60e7
+      - s-ee1a1c15d9
+      - s-5ab43208cc
+      - s-9912ca20e8
+      - s-41b0dacc8e
+      - s-e5b348aef9
+      - s-2089916516
+    zh:
+      - s-6d70914d0a
+      - s-a5bd7938cd
+      - s-893e9f016e
+      - s-c6d929a113
+      - s-a56fe2c09f
+      - s-e1705b4e7d
+      - s-854cb7961c
+      - s-6d6764c30c
+      - s-85b0b1b7ab
+      - s-765080b4d5
+      - s-c6ff41b52b
+      - s-3797a7a5b8
+      - s-ca7c249015
+      - s-3ef05cd788

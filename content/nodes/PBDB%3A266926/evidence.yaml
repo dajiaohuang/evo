@@ -1,0 +1,179 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Rhinesuchus whaitsi
+    rank: species
+    sourceTaxonId: txn:266926
+    name:
+      en: Rhinesuchus whaitsi
+      zh: Rhinesuchus whaitsi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-bfdf20504f
+            part: body
+          zh:
+            page: zh
+            section: s-b62a32852f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 4 PBDB occurrence rows and collection fields
+          zh: 4 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-aeaee59ecb
+            part: body
+          zh:
+            page: zh
+            section: s-80b80e98fa
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Rhinesuchus whaitsi
+          zh: Rhinesuchus whaitsi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-022f75f82b
+            part: body
+          zh:
+            page: zh
+            section: s-5926f7356d
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:266926; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: S. H. Haughton. 1925. Investigations in South African fossil reptiles and amphibians (Part 13). Annals of the South African Museum 22:227-261
+    occurrenceEvidence:
+      - occurrenceId: occ:1368952
+        collectionId: col:176244
+        acceptedTaxonId: txn:266926
+        identifiedName: Rhinesuchus whaitsi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:62606
+        bibliography: "C. A. Marsicano, E. Latimer, and B. Rubidge, R. M. H. Smith. 2017. The Rhinesuchidae and early history of the Stereospondyli (Amphibia: Temnospondyli) at the end of the Palaeozoic. Zoological Journal of the Linnean Society"
+        locality:
+          countryCode: ZA
+          stateProvince: Western Cape
+          county: Prince Albert
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 259.857
+      - occurrenceId: occ:1418497
+        collectionId: col:80178
+        acceptedTaxonId: txn:266926
+        identifiedTaxonId: txn:267020
+        identifiedName: Muchocephalus muchos n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:47068
+        bibliography: D. M. S. Watson. 1962. The evolution of the labyrinthodonts. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences 245:219-265
+        locality:
+          countryCode: ZA
+          stateProvince: Western Cape
+          county: Central Karoo
+        stratigraphy:
+          group: Beaufort
+          formation: Balfour
+          member: null
+        olderAgeMa: 259.857
+        youngerAgeMa: 251.902
+      - occurrenceId: occ:1419232
+        collectionId: col:93097
+        acceptedTaxonId: txn:266926
+        taxonomicDifference: null
+        referenceId: ref:66951
+        bibliography: J. B. McHugh. 2014. Paleohistology and histovariability of the Permian stereospondyl Rhinesuchus. Journal of Vertebrate Paleontology 34(1):59-68
+        locality:
+          countryCode: ZA
+          stateProvince: Western Cape
+          county: Prince Albert
+        stratigraphy:
+          group: Beaufort
+          formation: Abrahamskraal
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 259.857
+      - occurrenceId: occ:1428417
+        collectionId: col:89650
+        acceptedTaxonId: txn:266926
+        taxonomicDifference: null
+        referenceId: ref:67683
+        bibliography: L. D. Boonstra. 1969. The fauna of the Tapinocephalus Zone (Beaufort Beds of the Karoo). Annals of the South African Museum 56(1):1-73
+        locality:
+          countryCode: ZA
+          stateProvince: Western Cape
+          county: Prince Albert
+        stratigraphy:
+          group: Beaufort
+          formation: Abrahamskraal
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 259.857
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Rhinesuchus whaitsi
+          zh: Rhinesuchus whaitsi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-022f75f82b
+            part: body
+          zh:
+            page: zh
+            section: s-5926f7356d
+            part: body
+        sourceIds: []

@@ -1,0 +1,122 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Occidozyga laevis
+  displayName: Occidozyga laevis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48BSN
+  sourceIndexes:
+    - name:
+        en: Occidozyga laevis
+        zh: Occidozyga laevis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48BSN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/463
+            queryName: Occidozyga laevis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/198
+            queryName: Oxyglossus laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/199
+            queryName: Phrynoglossus laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/200
+            queryName: Oxyglossis laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/201
+            queryName: Oxydozyga laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/202
+            queryName: Ooeidozyga laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/16
+            queryName: Oxydozyga laevis laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/17
+            queryName: Phrynoglossus laevis laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/18
+            queryName: Ooeidozyga laevis laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d7f44daa4
+      - s-866d3d254b
+      - s-29a77ff430
+      - s-2cfa43033e
+      - s-c37dbac2ef
+      - s-ca89abb018
+      - s-aabd658988
+      - s-7ad7e80fef
+      - s-061033b21c
+      - s-fcfddae9a0
+      - s-357e414b9d
+      - s-25839a6905
+      - s-0caccb46a0
+      - s-9a8b370292
+      - s-19d7777829
+      - s-ad356766f8
+      - s-33e1cc23e3
+    zh:
+      - s-fe4929bf81
+      - s-8c7cafa614
+      - s-1a85534a0c
+      - s-588a368dc6
+      - s-8745b37705
+      - s-8bfc5312ef
+      - s-4d78afe674
+      - s-253b809596
+      - s-a8b9aa5a6a
+      - s-feb042b02c
+      - s-30382d7d0e
+      - s-11314e1605
+      - s-26e2132bca
+      - s-ec15beda21
+      - s-ff5e8f1977
+      - s-1621d59ced
+      - s-60597aeda9

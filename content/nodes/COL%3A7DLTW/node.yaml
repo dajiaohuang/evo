@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia talpa
+  displayName: Uperoleia talpa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DLTW
+  sourceIndexes:
+    - name:
+        en: Uperoleia talpa
+        zh: Uperoleia talpa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DLTW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/210
+            queryName: Uperoleia talpa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dbba0a4f51
+      - s-f065e3585c
+      - s-0f1b78f5d4
+      - s-a455f1f618
+      - s-a48f31f56b
+      - s-bdcc99976a
+      - s-c40eee7c56
+      - s-5fc55958fa
+      - s-54a75d2d3d
+      - s-176b3491da
+    zh:
+      - s-86a11f4c2e
+      - s-99303eb0a2
+      - s-4d642032ce
+      - s-fc6b3d3af9
+      - s-8ab66b6dfa
+      - s-2692ef532b
+      - s-7c5c7bd682
+      - s-84cc37a87a
+      - s-9ca34f782e
+      - s-4459a0e96d

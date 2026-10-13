@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heterixalus luteostriatus
+  displayName: Heterixalus luteostriatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3L7NM
+  sourceIndexes:
+    - name:
+        en: Heterixalus luteostriatus
+        zh: Heterixalus luteostriatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3L7NM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/287
+            queryName: Heterixalus luteostriatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/90
+            queryName: Megalixalus boettgeri luteostriata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/91
+            queryName: Heterixalus boettgeri luteostriatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6a0daddc60
+      - s-fe5a2c0293
+      - s-1f9c279a4f
+      - s-0d44f91479
+      - s-dfd457b256
+      - s-5c151f9181
+      - s-ba44b662ff
+      - s-5b51ee3404
+    zh:
+      - s-45c9b1108a
+      - s-88a462f828
+      - s-1f8b75e6ab
+      - s-a053403a2a
+      - s-b9ba26169a
+      - s-b090de02e0
+      - s-6e7a7da9f8
+      - s-36d8cae06d

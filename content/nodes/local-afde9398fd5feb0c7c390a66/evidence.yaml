@@ -1,0 +1,385 @@
+schemaVersion: 1
+records:
+  caecilian-traits-reader:
+    scientificName: Caecilia subnigricans
+    name:
+      en: Caecilia subnigricans
+      zh: Caecilia subnigricans
+    sourceClassification:
+      family: Caeciliidae
+      genus: Caecilia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: A name with separate evidence levels
+          zh: 名称与不同层级的证据
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-c095b8c7d8
+            part: body
+          zh:
+            page: zh
+            section: s-aceb0ac1c6
+            part: body
+      - topic: morphology
+        title:
+          en: Measurement rows and their sample context
+          zh: 测量行及其样本背景
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-61a8583060
+            part: body
+          zh:
+            page: zh
+            section: s-c84fa64a03
+            part: body
+      - topic: ecology
+        title:
+          en: Habitat labels in the source table
+          zh: 来源表中的栖地标签
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-a35b810758
+            part: body
+          zh:
+            page: zh
+            section: s-ab8604cdbb
+            part: body
+      - topic: morphology
+        title:
+          en: Counts in the species-level row
+          zh: 种级行中的计数
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-d3880f3d48
+            part: body
+          zh:
+            page: zh
+            section: s-db1c096524
+            part: body
+    sources:
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 34; Individual level data rows 1444; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+    originalSpeciesRow:
+      rowNumber: 34
+      values:
+        - Caeciliidae
+        - Caecilia
+        - Caecilia subnigricans
+        - Tropical & Subtropical Moist Broadleaf Forests; Tropical & Subtropical Dry Broadleaf Forests
+        - Terrestrial
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - "IUCN. The IUCN Red List of Threatened Species. Version 2023-1, <https://www.iucnredlist.org> (2023). "
+        - 375
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 6
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 5.2
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 2.5
+        - 0.7
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 158
+        - null
+        - null
+        - 16
+        - 0
+        - 20
+        - 6
+        - null
+    originalMeasurementRows:
+      - rowNumber: 1444
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Caeciliidae
+          - Caecilia
+          - Caecilia subnigricans
+          - I
+          - ANSP 4921
+          - null
+          - "375"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "2.5"
+          - "0.7"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "158"
+          - null
+          - null
+          - 7-1-8
+          - 13-1-?
+          - 10-10
+          - 3-3
+          - null
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - P7TG
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en: Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets remain to be resolved.
+      zh: 本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题仍待核对。
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records

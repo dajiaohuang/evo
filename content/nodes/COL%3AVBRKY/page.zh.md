@@ -1,0 +1,30 @@
+## 从已有历史条目开始 {#s-240fd1a168}
+本批 Reduncini 的 PanTHERIA 路径有 8 条可用记录。可从 Kobus ellipsiprymnus、Kobus kob、Kobus leche、Kobus vardonii 或 Pelea capreolus 开始。各页保留原始 MSW05 名称、各变量对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
+
+## 比较体型与生活史 {#s-62de4ead83}
+可用的成年体重端点为 Pelea capreolus 的 22731.33 g 和 Kobus ellipsiprymnus 的 204393.48 g。这些是按性别调整后的历史中位数，不是个体极值。比较胎儿发育、断奶、活动或群体变量前，应先读清定义；体型差异本身不能证明所有后代共享同一种生活方式。
+
+## 按生活史字段选择对读页面 {#s-f0e6ee7fb5}
+本批有 9 条 Reduncini 历史生活史记录。成年体重、每胎后代数或每窝卵数、受孕或受精至出生的时长，以及汇编中的最长寿命记录，各见于 9 条。可从 Kobus ellipsiprymnus、Kobus kob、Kobus leche、Kobus megaceros 或 Kobus vardonii 开始。数量描述本批记录，不代表所有接受种；比较前应核对事件、单位和来源。
+
+## 沿食物、取食位置和活动时段对读 {#s-dfeab324e6}
+本批的生态路径也有 9 条历史记录。食物类别权重、觅食层位和哺乳动物活动时段各见于 9 条；可从 Kobus kob、Kobus leche、Kobus megaceros、Kobus vardonii 或 Kobus ellipsiprymnus 开始。应先核对来源、粗略权重及类别或二元编码。这些数量描述本批覆盖，不代表全部接受种，也不表示所有后代共享相同生态。
+
+## 证据边界 {#s-e2042571ac}
+本指南只涵盖本批至少有三个焦点字段、名称与科相符且具有一对一历史对应的条目，并未覆盖所有接受种。体型端点是历史汇总值，不是该群体个体极值；不同字段的来源条件可能不同。历史数值不能确定当前物种概念、分布或保护状况。
+
+## 从已有历史条目开始 {#s-a747bce1e5}
+Reduncini 的本地 PanTHERIA 路径有一条可用记录：[Kobus megaceros](Kobus/Kobus_megaceros/page.zh.md)。该页保留原始 MSW05 名称、各变量对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
+
+## 这组历史数据的边界 {#s-cc03c73f09}
+本指南只涵盖本批至少有一个焦点字段、名称与科相符且具有一对一历史对应的条目，并未覆盖所有接受种。数值汇总自历史条目，不是该群体个体极值；各字段的来源条件可能不同。这些记录不能确定当前物种概念、分布或保护状况。
+
+## 沿生活史资料阅读 {#s-d02b5b3879}
+本批 Reduncini 路径有 9 条历史生活史记录。可阅读 [Kobus megaceros](Kobus/Kobus_megaceros/page.zh.md)、[Kobus vardonii](Kobus/Kobus_vardonii/page.zh.md)、[Kobus leche](Kobus/Kobus_leche/page.zh.md)、[Kobus ellipsiprymnus](Kobus/Kobus_ellipsiprymnus/page.zh.md) 或 [Kobus kob](Kobus/Kobus_kob/page.zh.md)。分类导航沿用固定 COL26.8。此数量涵盖本批撰写的同名记录，不代表该群全部接受种。
+
+## 先区分平均值与纪录 {#s-d419d2a9c4}
+妊娠期见于 8 条记录，雌性首次繁殖年龄见于 6 条，最长寿命见于 6 条。首次繁殖不同于首次出生或性成熟；最长寿命也不同于平均寿命。各字段可能来自不同材料条件。缺失字段需由其他来源补充，名称相同不能解决历史分类变更问题。
+
+## 这组历史数据的边界 {#s-8f98b3cbb1}
+本页概述本批历史生活史记录，不涵盖所有后代或完整群体生物学。来源以名称和科相符及 MSW93/MSW05 一对一同名表作匹配；这不能证明与当前物种概念等同。除最长寿命外，各字段通常对文献来源取等权平均。输入可能是已发表均值、个体值，或缺少其他数据时采用的范围中点；样本量不决定权重，底层文献也可能重复使用。最长寿命仅为最长记录，不是典型寿命。本批未解释成年体重，亲缘种也不会填补缺失字段。各页保留原始参考文献编号；此处未逐一核实底层物种文献及所有野外、圈养和地点条件。
+

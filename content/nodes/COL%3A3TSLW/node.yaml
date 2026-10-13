@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis boulengeri
+  displayName: Leptopelis boulengeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSLW
+  sourceIndexes:
+    - name:
+        en: Leptopelis boulengeri
+        zh: Leptopelis boulengeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSLW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/470
+            queryName: Leptopelis boulengeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/98
+            queryName: Leptopelis poensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/99
+            queryName: Leptopelis violescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/100
+            queryName: Leptopelis flaviventer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/307
+            queryName: Hylambates rufus boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7f78b054ce
+      - s-e3923f9d85
+      - s-1bc2a587f2
+      - s-06b8aa1cb0
+      - s-3b0518f01e
+      - s-b8e313ff01
+      - s-690e379569
+      - s-901532446f
+      - s-f7ac2a890d
+      - s-48e5e9a26f
+      - s-6e15c58155
+      - s-f4d4bb024b
+      - s-15ccc5e84e
+    zh:
+      - s-38c8f9acf7
+      - s-fa488b1fcb
+      - s-e9a6955a05
+      - s-07831e1646
+      - s-cfc3778e31
+      - s-b0f10fc252
+      - s-a8777ada73
+      - s-94ff70b2be
+      - s-64520573ec
+      - s-27e7b04d6f
+      - s-00f7f8d211
+      - s-1406a17a57
+      - s-c7c29c1ee9

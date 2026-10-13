@@ -1,0 +1,219 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cyclopia aurescens Kies
+    rank: species
+    sourceDatasetId: "2304"
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-e9813a776d
+            part: title
+          zh:
+            page: zh
+            section: s-caff62b7f7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e9813a776d
+            part: body
+          zh:
+            page: zh
+            section: s-caff62b7f7
+            part: body
+    identity:
+      method: COL26.8 ID 32VQF is accepted species Cyclopia aurescens Kies (source dataset 2304). The pinned WFO 2026-06 crosswalk maps this exact accepted COL name and authorship to exactly one accepted WFO species, wfo-0000197612. The SANBI e-Flora source row carries that WFO identifier; its individual Strelitzia 29 account spells the same binomial and authorship.
+      scope: COL26.8 nominal accepted species concept. SANBI evidence is the individual account printed under Cyclopia aurescens on p. 549 of Strelitzia 29 (2012), scoped to that regional flora account; no equivalence to all populations or later concepts is asserted.
+      sourceIds:
+        - col26
+        - wfo2026
+        - sanbiArchive
+        - strelitzia29
+    lifeStatusScope:
+      wild: Printed account concerns the South African regional flora; claim scopes stay within its stated account.
+      domesticated: Not assessed; no cultivated or managed material is inferred.
+      fossil: Not assessed; no fossil conclusion is inferred from this extant flora account.
+    sources:
+      - id: col26
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 24
+        usage:
+          licenseAppliesTo: Identity record only; no biological text reused
+          title: Catalogue of Life COL26.8, ChecklistBank dataset 316115; underlying source dataset 2304
+          url: https://www.checklistbank.org/dataset/316115/taxon/32VQF
+          stableId: COL26.8:32VQF
+          version: COL26.8 released 2026-08-20; dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted taxon usage 32VQF; rank species; source dataset 2304
+          attribution: Catalogue of Life COL26.8 and underlying dataset 2304
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, COL ID and source dataset identity only.
+      - id: wfo2026
+        referenceId: ref-43499f65-2865-819f-a936-29a569ccf911
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: WFO nomenclatural data
+          title: World Flora Online Plant List 2026-06, pinned exact COL-to-WFO crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000197612-2026-06
+          stableId: wfo:wfo-0000197612-2026-06
+          version: WFO Plant List 2026-06, issued 2026-06-21; crosswalk sidecar pinned in this repository
+          publishedAt: 2026-06-21
+          accessedAt: 2026-09-24
+          locator: Accepted species record wfo-0000197612 and exact accepted-name/authorship mapping from COL 32VQF
+          attribution: World Flora Online Plant List 2026-06
+          licenseAssessment: identity-only
+          scope: Exact accepted-name and authorship species crosswalk; nomenclatural identity only.
+      - id: sanbiArchive
+        referenceId: ref-29356014-f628-8f48-a502-601f067deb1b
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: SANBI e-Flora archive data and its declared reusable descriptive extracts; not inferred for the underlying book
+          stableId: SANBI e-Flora 1.36 source identifier 14286.0; description row 5059; WFO wfo-0000197612
+          accessedAt: 2026-09-24
+          locator: Description row 5059, type Morphology, source identifier 14286.0; row 28484, type Habitat, same source identifier
+          attribution: South African National Biodiversity Institute (SANBI), e-Flora of South Africa v1.36; retain the cited publication citation
+          licenseAssessment: aggregate-declaration-only
+          scope: Used to confirm the exact imported WFO identity and field/row locators. The archived [CC BY] citation was not treated as the underlying publication's license.
+      - id: strelitzia29
+        referenceId: ref-65408e03-e3b1-81f8-a6d1-624b3b4eb985
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: The Strelitzia 29 book item and its PDF as stated on the item-specific SANBI Opus record
+          stableId: SANBI Opus handle 20.500.12143/5609; PDF Manning_et_al_2012_Strelitzia_29.pdf
+          accessedAt: 2026-09-24
+          locator: Printed p. 549, individual Cyclopia aurescens account; morphology, flowering period, habitat and regional range lines
+          attribution: "Schutte, A.L. 2012. Fabaceae: Cyclopia Vent. In Manning & Goldblatt (eds), Strelitzia 29, p. 549. SANBI. Item license CC BY-SA 4.0."
+          licenseAssessment: item-level-verified
+          scope: Direct species account in a SANBI-published regional flora; claims below are paraphrased and retain this account's regional scope.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The account describes a sturdy, erect resprouting shrub reaching 70 cm, with three-foliolate leaves, linear leaflets and strongly revolute margins; yellow flowers are noted.
+            originalLanguage: en
+            sourceIds:
+              - strelitzia29
+            locator: Printed p. 549, individual Cyclopia aurescens account; SANBI e-Flora v1.36 Morphology row 5059 (source identifier 14286.0)
+            placeTimeScope: Regional flora account; adult plant form as stated in the 2012 account; no sex-specific or population sample is given.
+            lifeStatus: Extant regional flora account; cultivation status not specified.
+        gaps:
+          - Developmental stages, sex-specific traits, variation, measured samples and diagnostic limits have not been reviewed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The species account gives a flowering period of October to December.
+            originalLanguage: en
+            sourceIds:
+              - strelitzia29
+            locator: Printed p. 549, flowering months in the individual Cyclopia aurescens account
+            placeTimeScope: Phenology stated in the 2012 South African regional account; observation locations and annual sampling are not specified.
+            lifeStatus: Wild-status observations are not separately described.
+        gaps:
+          - Life-cycle stages, reproduction mode, pollination, seed development and geographic or seasonal variation have not been assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The account places the species in subalpine mountain fynbos above 1,800 m elevation.
+            originalLanguage: en
+            sourceIds:
+              - strelitzia29
+            locator: Printed p. 549, habitat line in the individual Cyclopia aurescens account; SANBI e-Flora v1.36 Habitat row 28484 (source identifier 14286.0)
+            placeTimeScope: Habitat and elevation as reported by the 2012 South African regional flora; not a complete environmental envelope.
+            lifeStatus: Regional habitat account; management status not specified.
+        gaps:
+          - Resources and species interactions, habitat variation, and sampling coverage have not been reviewed.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The printed account lists Klein Swartberg as the regional range summary.
+            originalLanguage: en
+            sourceIds:
+              - strelitzia29
+            locator: Printed p. 549, distribution line in the individual Cyclopia aurescens account
+            placeTimeScope: The printed regional range summary, abbreviated KM in the source; not a global distribution or a dated locality dataset.
+            lifeStatus: Native, introduced, cultivated and escaped status are not distinguished in this short range summary.
+        gaps:
+          - Locality records, coordinate precision, range date, native or introduced status, and unsampled areas have not been assessed.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level phylogenetic or comparative study was assessed.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil search was conducted.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No qualifying conservation assessment was reviewed.

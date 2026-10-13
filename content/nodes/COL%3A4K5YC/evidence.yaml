@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plecturocebus oenanthe (Thomas, 1924)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 圣马丁绢毛猴
+      en: San Martín Titi Monkey
+    sections:
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-123b7a6075
+            part: body
+          en:
+            page: en
+            section: s-31ba572805
+            part: body
+        sourceIds:
+          - shanee2024
+          - taxonomy
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-146ff86b2b
+            part: body
+          en:
+            page: en
+            section: s-4461416d1c
+            part: body
+        sourceIds:
+          - shanee2024
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-798c3eb23f
+            part: body
+          en:
+            page: en
+            section: s-0b017fd597
+            part: body
+        sourceIds:
+          - shanee2024
+          - mdd_name
+          - taxonomy
+    sources:
+      - id: shanee2024
+        referenceId: ref-df64d9b2-c66d-8777-a30e-9f37f539b284
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持圣马丁地区范围、海拔、群组结构和主要食物概述；不把局地密度当作现今全种总量。
+            en: Supports the San Martín range, elevation, group structure and broad diet; local densities are not treated as a current species-wide total.
+      - id: mdd_name
+        referenceId: ref-c55d69f0-ef70-8002-aff2-27241cad82ef
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅支持英文普通名及名录入口；中文名为编辑翻译，生物学内容采用专门物种研究。
+            en: Supports the English common name and catalogue entry only; the Chinese name is an editorial translation, and biological content uses the species study.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4K5YC
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-96c8ffeba0
+        part: body
+      en:
+        page: en
+        section: s-fdae443719
+        part: body

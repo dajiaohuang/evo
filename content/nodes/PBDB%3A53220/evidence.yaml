@@ -1,0 +1,336 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Mosasauroidea
+    commonName: Mosasauroids
+    commonNameZh: 沧龙超科
+    rank: superfamily
+    taxonId: txn:53220
+    firstAppearance: 101
+    lastAppearance: 66
+    extinct: true
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Mosasauroidea
+    rank: superfamily
+    sourceDatasetId: null
+    name:
+      zh: Mosasauroidea
+      en: Mosasauroidea
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fa07f0ca50
+            part: body
+          en:
+            page: en
+            section: s-1427b1089c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3b1e33d6a3
+            part: body
+          en:
+            page: en
+            section: s-771053d692
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Mosasauroidea
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=53220
+          locator: Recorded PBDB parent closure beneath the already documented Squamata COL-compatible storage anchor.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:53220
+          readingTargets:
+            - name: Aigialosaurus bucchichi
+              pbdbTaxonId: txn:203013
+              canonicalPath: content/nodes/PBDB%3A203013
+            - name: Aigialosaurus dalmaticus
+              pbdbTaxonId: txn:53222
+              canonicalPath: content/nodes/PBDB%3A53222
+            - name: Carentonosaurus soaresi
+              pbdbTaxonId: txn:484392
+              canonicalPath: content/nodes/PBDB%3A484392
+            - name: Carentonosaurus mineaui
+              pbdbTaxonId: txn:186983
+              canonicalPath: content/nodes/PBDB%3A186983
+            - name: Carentonosaurus algorensis
+              pbdbTaxonId: txn:484399
+              canonicalPath: content/nodes/PBDB%3A484399
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-659c0d4819
+        part: body
+      en:
+        page: en
+        section: s-d6a9c28279
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:53220
+    scientificName: Mosasauroidea
+    commonName: Mosasauroids
+    commonNameZh: 沧龙超科
+    rank: superfamily
+    parentName: Squamata
+    extinct: true
+    geography:
+      - Middle Turonian Arcadia Park Shale, north-central Texas (Dallasaurus sample)
+      - Maastrichtian type area, the Netherlands (sampled Mosasaurus occurrence)
+    overview:
+      page: en
+      section: s-5b9de76b13
+      part: body
+    overviewZh:
+      page: zh
+      section: s-f063a7cd9f
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-d207de6a88
+        part: body
+      habitat:
+        page: en
+        section: s-d4302f3540
+        part: body
+      locomotion:
+        page: en
+        section: s-b9fab2372e
+        part: body
+      bodySize:
+        page: en
+        section: s-93fe4971a1
+        part: body
+      guild:
+        page: en
+        section: s-771fcc2fc6
+        part: body
+      dietZh:
+        page: zh
+        section: zh-fe7fbcfda50aa9
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-19475962c7c50a
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-677b0c8845efc7
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-5feb0f16dc3ada
+        part: body
+      guildZh:
+        page: zh
+        section: zh-debeedf7c18a26
+        part: body
+    traits:
+      - page: en
+        section: s-4de6d4a5ef
+        part: body
+      - page: en
+        section: s-3ca42edeeb
+        part: body
+      - page: en
+        section: s-36e1f96104
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-297b9aa4ea
+      part: body
+    evidenceSummaryZh: 类群定义的区分来自命名学分析；Dallasaurus 解剖和五类群马斯特里赫特期同位素样本回答的是不同问题。生态陈述仅适用于所研究的标本和地点，不据此指定所有沧龙类共有的食性、栖地或生态功能群。
+    confidence: medium
+    referenceIds:
+      - madzia-cau-2017-mosasauroid-nomenclature
+      - bell-polcyn-2005-dallasaurus
+      - schulp-et-al-2013-mosasaur-resource-partitioning
+      - jagt-et-al-2008-youngest-mosasaurus
+    readerLimitations:
+      en:
+        page: en
+        section: s-305294a774
+        part: body
+      zh:
+        page: zh
+        section: s-1fcadedd32
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-3d873da2b2b502
+        part: body
+      - page: zh
+        section: zh-2cc7f4f5705a89
+        part: body
+      - page: zh
+        section: zh-b56688a00def1a
+        part: body
+  claims:
+    - subjectId: taxon:mosasauroidea
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Mosasauroidea is retained as the broader branch-defined mosasauroid navigation clade and is not interchangeable with node-defined Mosasauridae; the nomenclatural analysis does not provide a global range, ancestor chain or first appearance.
+      confidence: high
+      confidenceRationale: The primary study explicitly tests clade definitions and tree sensitivity. High confidence applies to the scoped nomenclatural distinction only.
+      referenceLinks:
+        - referenceId: madzia-cau-2017-mosasauroid-nomenclature
+          relation: supports
+          pages: Article e3782
+          figure: Table 1; Figures 1–7
+          quoteLocator: Phylogenetic definitions; sensitivity analyses; Conclusions
+    - subjectId: taxon:mosasauroidea
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Dallasaurus turneri from the middle Turonian Arcadia Park Shale supports a 93.9–89.8 Ma named mosasauroid sample window; it does not establish a global Mosasauroidea FAD or LAD.
+      confidence: medium
+      confidenceRationale: "Dallasaurus turneri mosasauroid sample: the cited primary study or systematic review directly supports the stated sample, calibration or withholding boundary at the supplied locator. Confidence is medium and does not extend to a global FAD, LAD, direct ancestor or unsampled interval."
+      referenceLinks:
+        - relation: supports
+          referenceId: bell-polcyn-2005-dallasaurus
+          pages: 177–178, 189–190
+          figure: Figures 1–13
+          quoteLocator: Age and geological context; systematic palaeontology; phylogenetic analysis
+    - subjectId: taxon:mosasauroidea
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profile's named mosasauroid samples include Dallasaurus turneri from the middle Turonian Arcadia Park Shale of north-central Texas and a latest Maastrichtian Mosasaurus occurrence from the Maastricht type area of the Netherlands; these records do not establish a global Mosasauroidea distribution.
+      confidence: high
+      confidenceRationale: The primary studies identify the specimens and geological contexts directly. High confidence is limited to those occurrences and does not infer absence or a complete geographic range.
+      referenceLinks:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          relation: supports
+          pages: 177–178
+          figure: Figures 1–2
+          quoteLocator: Age and geological context; two Dallasaurus skeletons from the middle Turonian Arcadia Park Shale
+        - referenceId: jagt-et-al-2008-youngest-mosasaurus
+          relation: supports
+          pages: 73–77
+          figure: Figures 1–2
+          quoteLocator: NHMM 2007 093 from the highest metre of the Meerssen Member, within one metre below the regional K/Pg boundary
+    - subjectId: taxon:mosasauroidea
+      claimType: morphology
+      claimKind: scientific
+      statement: Dallasaurus preserves cranial, axial and plesiopedal limb anatomy in two incomplete skeletons, while the cited nomenclatural analysis distinguishes the broader Mosasauroidea branch from node-defined Mosasauridae; limb grade is not treated as the clade definition.
+      confidence: high
+      confidenceRationale: The named specimens, anatomical description and explicit clade definitions are directly reported. High confidence applies to this scoped anatomy-and-definition distinction, not to one universal basal topology.
+      referenceLinks:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          relation: supports
+          pages: 177–194
+          figure: Figures 5–13
+          quoteLocator: Systematic paleontology; pectoral and pelvic girdles; plesiopedal limb description; phylogenetic analysis
+        - referenceId: madzia-cau-2017-mosasauroid-nomenclature
+          relation: supports
+          pages: Article e3782
+          figure: Table 1; Figures 1–7
+          quoteLocator: Phylogenetic definitions and sensitivity analyses
+    - subjectId: taxon:mosasauroidea
+      claimType: ecology
+      claimKind: scientific
+      statement: Schulp et al. report tooth-enamel carbon-isotope, body-size and resource-partitioning results for five named mosasaurs in one type-Maastrichtian fauna; the study-bounded marine sample does not establish a single diet, body-size distribution or guild for all Mosasauroidea.
+      confidence: medium
+      confidenceRationale: The isotope and size measurements are direct sample data, while resource partitioning and ecological grouping are interpretations limited to five taxa in one fauna. No global ecological extrapolation is made.
+      referenceLinks:
+        - referenceId: schulp-et-al-2013-mosasaur-resource-partitioning
+          relation: supports
+          pages: 165–169
+          figure: Figure 1
+          quoteLocator: Tooth-enamel carbon isotopes, reconstructed body sizes and resource-partitioning interpretation for five named taxa
+        - referenceId: bell-polcyn-2005-dallasaurus
+          relation: contextualizes
+          pages: 177–194
+          figure: Figures 5–13
+          quoteLocator: Dallasaurus sampled anatomy and limb-grade context
+  claim-rationales.zh:
+    - 主研究明确检验了支系定义和树敏感性。高置信度仅适用于这一有边界的命名学区分。
+    - Dallasaurus turneri mosasauroid sample：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。
+    - 研究直接识别标本和地质背景；高置信度仅限所列出现记录，不推断缺失或完整地理范围。
+    - 具名标本、解剖描述和明确支系定义均有直接来源；高置信度限于这一解剖—定义区分，不选定唯一基部拓扑。
+    - 同位素与体型数据来自单一动物群的五个类群；资源分割是取样范围内解释，不外推为整个沧龙超科的统一生态位。
+  claim-statements.zh:
+    - 本档案所列沧龙超科样本包括得克萨斯州中北部土仑期中期 Arcadia Park 页岩中的 Dallasaurus turneri，以及荷兰马斯特里赫特阶标准地区的一条最晚马斯特里赫特期 Mosasaurus 产出记录；这些记录不能确定沧龙超科的全球分布。
+    - Dallasaurus 的两具不完整骨架保留了头骨、中轴骨骼及原始型肢体结构；所引命名分析则区分了范围较广的沧龙超科分支与按节点定义的沧龙科，不以肢体形态等级作为演化支的定义。
+    - Schulp 等报告了马斯特里赫特阶标准地区一个动物群中五种已命名沧龙的牙釉质碳同位素、体型和资源分配结果；这一受研究范围限定的海生样本不能确定全部沧龙超科统一的食性、体型分布或生态功能类群。
+    - 沧龙超科保留为较宽的分支定义沧龙类导航支系，不能与节点定义的沧龙科互换；该命名分析不提供全球范围、祖先链或首现。
+    - 中土仑期 Arcadia Park 页岩中的 Dallasaurus turneri 支持 9390–8980 万年前的具名沧龙超科样本窗口；它不能确定沧龙超科的全球首现或末现。
+  ranges:
+    - entityId: mosasauroidea
+      rangeKind: global-composite
+      taxonomicConcept: Dallasaurus turneri mosasauroid sample
+      geographicScope: Middle Turonian Arcadia Park Shale, Texas, United States
+      olderMa: 93.9
+      youngerMa: 89.8
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Stage-scale middle Turonian window for the named material; it does not cover all Mosasauroidea.
+      evidenceBasis: The former 101–66 Ma global composite is replaced by a specimen-scoped mosasauroid occurrence.
+      confidence: medium
+      claimIds:
+        - claim:taxon:mosasauroidea:range-boundary
+      referenceLocators:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          locator: 177–178, 189–190; Figures 1–13; Age and geological context; systematic palaeontology; phylogenetic analysis
+      evidenceLevel: literature-synthesized

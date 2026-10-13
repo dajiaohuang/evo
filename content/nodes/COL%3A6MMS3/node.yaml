@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana baramica
+  displayName: Hylarana baramica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MMS3
+  sourceIndexes:
+    - name:
+        en: Hylarana baramica
+        zh: Hylarana baramica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MMS3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/391
+            queryName: Hylarana baramica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/68
+            queryName: Rana baramica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/160
+            queryName: Pulchrana baramica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a6c9473e47
+      - s-b1393bd22e
+      - s-783866e79a
+      - s-059b1b8499
+      - s-1ab49bda12
+      - s-a0d30ef950
+      - s-1dd26b2171
+      - s-2cfcb32544
+      - s-86255a094e
+      - s-9bfea1fe38
+    zh:
+      - s-4d42466f87
+      - s-3faa0692ac
+      - s-a1cd7a026e
+      - s-17b25874c2
+      - s-44b9eca59b
+      - s-76be63d2fb
+      - s-11afd33eb4
+      - s-ad804f25fc
+      - s-328c75a554
+      - s-0cfd5423be

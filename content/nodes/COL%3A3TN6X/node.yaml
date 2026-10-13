@@ -1,0 +1,150 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus pentadactylus
+  displayName: Leptodactylus pentadactylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN6X
+  sourceIndexes:
+    - name:
+        en: Leptodactylus pentadactylus
+        zh: Leptodactylus pentadactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN6X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/423
+            queryName: Leptodactylus pentadactylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 85
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/248
+            queryName: Leptodactylus macroblepharus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/14
+            queryName: Rana pentadactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/426
+            queryName: Rana coriacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/427
+            queryName: Cystignathus pentadactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/428
+            queryName: Leptodactylus goliath
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/92
+            queryName: Rana pachypus bilineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/93
+            queryName: Leptodactylus pentadactylus pentadactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/94
+            queryName: Leptodactylus pentadactylus dengleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/95
+            queryName: Leptodactylus pentadactylus rubidoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce8f082a2f
+      - s-18a2716834
+      - s-5e47f8c638
+      - s-ac621e464f
+      - s-c1d41b045a
+      - s-29d51583bd
+      - s-bfcdfbfca1
+      - s-66f6d0cb45
+      - s-7ec5e961f0
+      - s-c972f96b0e
+      - s-b535f19240
+      - s-7e4a8a6563
+      - s-b37ff25c89
+      - s-8a2c1d4c71
+      - s-a6f81f211d
+      - s-e8a6cd9e6c
+      - s-f2138eba05
+      - s-28e0fb0a8d
+      - s-c17e07fcf2
+      - s-11ec594b0c
+      - s-c70e727f77
+      - s-79c7bd76f7
+      - s-d88b6b8327
+      - s-55bd5b21ce
+      - s-be364bfad7
+    zh:
+      - s-33a9582cc0
+      - s-0557a8b51c
+      - s-17fa935608
+      - s-c215baf83e
+      - s-e07da15009
+      - s-f00e938566
+      - s-d3e56473b4
+      - s-4725de789b
+      - s-dad8724fa3
+      - s-021aa13414
+      - s-a6d07f9372
+      - s-52542855e8
+      - s-5eea6f4d96
+      - s-e7d2be3520
+      - s-b8ad9db7d1
+      - s-1400e90054
+      - s-2ca956fb0e
+      - s-be7e1f0fe0
+      - s-9f040efd34
+      - s-cdeafc6c9d
+      - s-b210aca048
+      - s-75bbfe7850
+      - s-050192d0db
+      - s-c0b2924125
+      - s-d8f7998d2b

@@ -1,0 +1,548 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephalus curupira Ribeiro, Blackburn, Stanley, Pie & Bornschein, 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephalus curupira
+      zh: Brachycephalus curupira
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a9f85d7939
+            part: title
+          zh:
+            page: zh
+            section: s-047419fd05
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a9f85d7939
+            part: body
+          zh:
+            page: zh
+            section: s-047419fd05
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-98a192da33
+            part: title
+          zh:
+            page: zh
+            section: s-8e3077f50b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-98a192da33
+            part: body
+          zh:
+            page: zh
+            section: s-8e3077f50b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ed1ff126ac
+            part: title
+          zh:
+            page: zh
+            section: s-776dc19ebb
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-ed1ff126ac
+            part: body
+          zh:
+            page: zh
+            section: s-776dc19ebb
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-8fa88ce4a00241f06528f801
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7081106ab6
+            part: title
+          zh:
+            page: zh
+            section: s-7bf4a88405
+            part: title
+        sourceIds:
+          - primary-pmc5534166-5x296
+        text:
+          en:
+            page: en
+            section: s-7081106ab6
+            part: body
+          zh:
+            page: zh
+            section: s-7bf4a88405
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a07df8a7d4
+            part: title
+          zh:
+            page: zh
+            section: s-53fdd0345b
+            part: title
+        sourceIds:
+          - primary-pmc5534166-5x296
+        text:
+          en:
+            page: en
+            section: s-a07df8a7d4
+            part: body
+          zh:
+            page: zh
+            section: s-53fdd0345b
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-de02814862
+            part: title
+          zh:
+            page: zh
+            section: s-3598fbe9c3
+            part: title
+        sourceIds:
+          - primary-pmc5534166-5x296
+        text:
+          en:
+            page: en
+            section: s-de02814862
+            part: body
+          zh:
+            page: zh
+            section: s-3598fbe9c3
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-905e699507
+            part: title
+          zh:
+            page: zh
+            section: s-54e6f5b22a
+            part: title
+        sourceIds:
+          - primary-pmc5534166-5x296
+        text:
+          en:
+            page: en
+            section: s-905e699507
+            part: body
+          zh:
+            page: zh
+            section: s-54e6f5b22a
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b16d6928f7
+            part: title
+          zh:
+            page: zh
+            section: s-afae46022f
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5x296
+        text:
+          en:
+            page: en
+            section: s-b16d6928f7
+            part: body
+          zh:
+            page: zh
+            section: s-afae46022f
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-0a02e4561a
+            part: title
+          zh:
+            page: zh
+            section: s-40837787d3
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5x296
+        text:
+          en:
+            page: en
+            section: s-0a02e4561a
+            part: body
+          zh:
+            page: zh
+            section: s-40837787d3
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-0eaf076e6d
+            part: title
+          zh:
+            page: zh
+            section: s-728ddf5518
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5x296
+        text:
+          en:
+            page: en
+            section: s-0eaf076e6d
+            part: body
+          zh:
+            page: zh
+            section: s-728ddf5518
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-6a981ee290
+            part: title
+          zh:
+            page: zh
+            section: s-23753d4002
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5x296
+        text:
+          en:
+            page: en
+            section: s-6a981ee290
+            part: body
+          zh:
+            page: zh
+            section: s-23753d4002
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephalus curupira
+          url: https://www.checklistbank.org/dataset/316115/taxon/5X296
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 840, 841; Reference.csv rows 2226
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc5534166-5x296
+        referenceId: ref-e8f6ecdb-9375-4de8-a248-8b351626afbf
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus curupira: Named species holotype, type-series variation, live/preserved coloration, habitat/distribution and applicable remarks; no figures or source CT images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12694819-5x296
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus curupira: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f694a349a7
+        part: body
+      zh:
+        page: zh
+        section: s-90627a677d
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.3603
+        referenceId: ref-e8f6ecdb-9375-4de8-a248-8b351626afbf
+        sourceKey: primary-pmc5534166-5x296
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5534166/article.xml
+        sourceConcept: Brachycephalus curupira
+        evidenceRead: "Brachycephalus curupira: Named species holotype, type-series variation, live/preserved coloration, habitat/distribution and applicable remarks; no figures or source CT images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Fourteen adult measurements in the type series
+              zh: 模式系列中的十四只成体测量
+            referenceId: ref-e8f6ecdb-9375-4de8-a248-8b351626afbf
+            sourceKey: primary-pmc5534166-5x296
+            locator: Results > Brachycephalus curupira; Holotype, Measurements of holotype and Variation in the type series; reading-sections index 2, paragraphs 0, 7 and 8
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-40065d20dc
+                part: body
+              zh:
+                page: zh
+                section: s-ecf2716680
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Patchy local records and habitat-associated density estimates
+              zh: 斑块状地方记录与生境相关密度估计
+            referenceId: ref-e8f6ecdb-9375-4de8-a248-8b351626afbf
+            sourceKey: primary-pmc5534166-5x296
+            locator: Results > Brachycephalus curupira; Distribution, habitat and abundance; reading-sections index 2, paragraphs 16 and 18
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-59a8cde256
+                part: body
+              zh:
+                page: zh
+                section: s-4387ae7644
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Daytime calling does not make capture rate a density measure
+              zh: 日间鸣声不把捕获率变成密度测量
+            referenceId: ref-e8f6ecdb-9375-4de8-a248-8b351626afbf
+            sourceKey: primary-pmc5534166-5x296
+            locator: Results > Brachycephalus curupira; Calling and capture observations; reading-sections index 2, paragraph 17
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b51e53cb82
+                part: body
+              zh:
+                page: zh
+                section: s-a654089f23
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: One stomach observation and an attributed relationship
+              zh: 一次胃内观察与注明归属的近缘关系
+            referenceId: ref-e8f6ecdb-9375-4de8-a248-8b351626afbf
+            sourceKey: primary-pmc5534166-5x296
+            locator: Results > Brachycephalus curupira; Remarks and CT stomach observation; reading-sections index 2, paragraphs 19 and 21
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e08cfeac10
+                part: body
+              zh:
+                page: zh
+                section: s-3bce93939b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0334746
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        sourceKey: primary-pmc12694819-5x296
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12694819/article.xml
+        sourceConcept: Brachycephalus curupira
+        evidenceRead: "Brachycephalus curupira: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY (version not explicit in XML)
+          licenseUrl: https://creativecommons.org/licenses/by/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Sex-specific measurements retain variable-specific sample counts
+              zh: 分性别测量保留各变量样本数
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5x296
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus curupira measurement row and caption; sec004 paragraphs 0–1; sec036 paragraphs 4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fd28d10c3f
+                part: body
+              zh:
+                page: zh
+                section: s-ca086e539f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Live and preserved colours are separate evidence
+              zh: 活体与保存颜色是不同证据
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5x296
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus curupira live/preserved colour columns and caption; sec036 paragraphs 2,4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-258b276180
+                part: body
+              zh:
+                page: zh
+                section: s-6bdc3596eb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Advertisement-call comparisons use distinct acoustic units
+              zh: 求偶鸣声比较区分声学单位
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5x296
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus curupira acoustic row and caption; sec007 paragraphs 0–1; sec036 paragraphs 0–1,4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a0f0212552
+                part: body
+              zh:
+                page: zh
+                section: s-48bcfc7d6a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: conservation
+            heading:
+              en: The 2025 assessment separates records, mapped habitat and risk
+              zh: 2025 年评估区分记录、映射生境与风险
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5x296
+            locator: PMC12694819 XML pone.0334746.t007 Brachycephalus curupira row; sec009 paragraphs 0–4; sec038 paragraphs 2–6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-76ae6ebf02
+                part: body
+              zh:
+                page: zh
+                section: s-a5d0da12b5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca pulchra
+  displayName: Gastrotheca pulchra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JY7T
+  sourceIndexes:
+    - name:
+        en: Gastrotheca pulchra
+        zh: Gastrotheca pulchra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JY7T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/70
+            queryName: Gastrotheca pulchra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8d289fa725
+      - s-545a75773b
+      - s-494317f073
+      - s-33dd9e164a
+      - s-ed8a613935
+      - s-229a2e7f10
+      - s-2778315c31
+      - s-79173d2c90
+      - s-642c0ae2e0
+      - s-2ce72ff64b
+      - s-eb25d86c9f
+      - s-80d68753ca
+      - s-f3d1d327d4
+      - s-e2949d62b5
+      - s-3631dc05e6
+    zh:
+      - s-36db05ebcc
+      - s-e530595a82
+      - s-d57caf33d6
+      - s-e27df9e2fa
+      - s-e8f9ad28cd
+      - s-b8ac0bebcc
+      - s-1a3f4e3452
+      - s-9692175375
+      - s-415263ec25
+      - s-0756b41206
+      - s-393e558c10
+      - s-0a457629db
+      - s-15f9f44975
+      - s-ad85341f7c
+      - s-fee4f90943

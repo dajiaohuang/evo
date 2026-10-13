@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys qianbeiensis
+  displayName: Boulenophrys qianbeiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5GYX
+  sourceIndexes:
+    - name:
+        en: Boulenophrys qianbeiensis
+        zh: Boulenophrys qianbeiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5GYX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/376
+            queryName: Boulenophrys qianbeiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/260
+            queryName: Megophrys qianbeiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-11427fc5d2
+      - s-996fd85c8e
+      - s-a9f7122d00
+      - s-366f9366ae
+      - s-1691ffdcfe
+      - s-6a6ba98b92
+      - s-c1e7d37c1b
+      - s-9e7913be4c
+      - s-072e78a605
+      - s-31541240ff
+      - s-3561ef8791
+    zh:
+      - s-be270a4be2
+      - s-a922a9174d
+      - s-803e4eeb8b
+      - s-d151f09663
+      - s-f52ef2965d
+      - s-f87fca714f
+      - s-7104acf5ea
+      - s-9c3919577d
+      - s-dfc79ccbbd
+      - s-54392b18ae
+      - s-881749d9b6

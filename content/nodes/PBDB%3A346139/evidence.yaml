@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eolacerta robusta
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Eolacerta robusta
+      en: Eolacerta robusta
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bd3fb75a6d
+            part: body
+          en:
+            page: en
+            section: s-9f7b22f1f1
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cf1eb4c976
+            part: body
+          en:
+            page: en
+            section: s-5dd674f6e3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4b17ef8822
+            part: body
+          en:
+            page: en
+            section: s-0d4f181c23
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-36c6c28900
+            part: body
+          en:
+            page: en
+            section: s-5da0ac7202
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a8509be6fc
+            part: body
+          en:
+            page: en
+            section: s-7b2ce00788
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Eolacerta robusta
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=346139&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:346139; original response record indices retained in data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 514f112902c399f610603231aa01670f6a662448389d5f94c43cb3b70ec452d6
+          pbdbTaxonId: txn:346139
+          selectedOccurrenceIds:
+            - occ:456580
+            - occ:456599
+            - occ:456600
+            - occ:456636
+            - occ:456637
+            - occ:456686
+            - occ:463492
+            - occ:463513
+            - occ:463514
+            - occ:463515
+            - occ:463516
+          selectedCollectionIds:
+            - col:45001
+            - col:45002
+            - col:13322
+            - col:45003
+            - col:45768
+            - col:45751
+            - col:45770
+            - col:45765
+            - col:45766
+          sourceReferenceIds:
+            - ref:12101
+          originalIdentificationMappings:
+            - occurrenceId: occ:456580
+              originalIdentifiedName: Eolacerta robusta n. sp.
+              acceptedName: Eolacerta robusta
+              difference: null
+            - occurrenceId: occ:456599
+              originalIdentifiedName: Eolacerta robusta n. sp.
+              acceptedName: Eolacerta robusta
+              difference: null
+            - occurrenceId: occ:456600
+              originalIdentifiedName: Iguanosauriscus haupti n. sp.
+              acceptedName: Eolacerta robusta
+              difference: null
+            - occurrenceId: occ:456636
+              originalIdentifiedName: Eolacerta robusta n. sp.
+              acceptedName: Eolacerta robusta
+              difference: null
+            - occurrenceId: occ:456637
+              originalIdentifiedName: Iguanosauriscus haupti n. sp.
+              acceptedName: Eolacerta robusta
+              difference: null
+            - occurrenceId: occ:456686
+              originalIdentifiedName: Eolacerta robusta n. sp.
+              acceptedName: Eolacerta robusta
+              difference: null
+            - occurrenceId: occ:463515
+              originalIdentifiedName: Iguanosauriscus haupti
+              acceptedName: Eolacerta robusta
+              difference: null
+            - occurrenceId: occ:463516
+              originalIdentifiedName: Iguanosauriscus haupti
+              acceptedName: Eolacerta robusta
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-233d1f359e
+        part: body
+      en:
+        page: en
+        section: s-e7d8f5879d
+        part: body

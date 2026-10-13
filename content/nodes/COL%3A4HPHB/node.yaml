@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyzelaphryne miriamae
+  displayName: Phyzelaphryne miriamae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HPHB
+  sourceIndexes:
+    - name:
+        en: Phyzelaphryne miriamae
+        zh: Phyzelaphryne miriamae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HPHB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/350
+            queryName: Phyzelaphryne miriamae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a0d9470a60
+      - s-70d6b56325
+      - s-96084e15f0
+      - s-66feea0f85
+      - s-dbaef9ddab
+      - s-381e386189
+      - s-2229a72968
+      - s-4f9ba63603
+      - s-1fb84362ea
+    zh:
+      - s-e5b8a57426
+      - s-e2f3519380
+      - s-32680185d5
+      - s-0882d0ea52
+      - s-89a276f603
+      - s-7cf7e8cd2b
+      - s-ec74ba44ce
+      - s-d8b9ea0aff
+      - s-7c8095c6da

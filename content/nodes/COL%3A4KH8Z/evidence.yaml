@@ -1,0 +1,287 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ploceus nigrimentus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Ploceus nigrimentus
+      en: Ploceus nigrimentus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-3f5c52b70e
+            part: body
+          en:
+            page: en
+            section: s-a48dceb589
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-49a857185d
+            part: body
+          en:
+            page: en
+            section: s-a2a670e65d
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-6307871537
+            part: body
+          en:
+            page: en
+            section: s-7d599ae135
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-2a0ced4664
+            part: body
+          en:
+            page: en
+            section: s-8b34393544
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-d920b9ec5e
+            part: body
+          en:
+            page: en
+            section: s-685b580383
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-d995322f38
+            part: body
+          en:
+            page: en
+            section: s-cad60c1f97
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-901db03ab0
+            part: body
+          en:
+            page: en
+            section: s-b416cfa3b5
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-9a0d1acf8b
+            part: body
+          en:
+            page: en
+            section: s-0cc43db2b3
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-d100f5aae4
+            part: body
+          en:
+            page: en
+            section: s-dbddf7e604
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ploceus nigrimentus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4KH8Z
+          locator: Pinned accepted name, class, family and ancestry; historical concept equivalence not established.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 8274; Scientific=Ploceus nigrimentus; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_15
+                  verbatim: Handbook of the Birds of the World vol.15.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              certainty: B
+          withheldFieldGroups:
+            - group: foraging
+              reason: not species-level or source/category support unavailable
+              speciesLevel: "1"
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          readerFieldCautions:
+            - fieldGroup: foraging
+              sourceCode: "1"
+              reason: not species-level or source/category support unavailable
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - sourceVersion
+          - sourceWorksheet
+          - sourceFileSha256
+          - sourceRecordName
+          - eBirdCrosswalk
+          - birdTreeCrosswalk
+          - interpretedEcologicalFields
+          - uninterpretedEcologicalFields
+          - withheldBiometricFields
+          - originalInference
+          - originalMassSource
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: Species1=Ploceus nigrimentus; Metadata sheet ecological category and breeding/resident latitude definitions."
+          sourceVersion: Figshare AVONET version 7; file 34480856
+          sourceWorksheet: AVONET1_BirdLife
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceRecordName: Ploceus nigrimentus
+          eBirdCrosswalk:
+            Species1: Ploceus nigrimentus
+            Species2: Ploceus nigrimentus
+            Match.type: 1BL to 1eBird
+            Match.notes: null
+            Avibase.ID1: AVIBASE-9FB7D020
+            Avibase.ID2: AVIBASE-9FB7D020
+            "null": null
+          birdTreeCrosswalk:
+            Species1: Ploceus nigrimentus
+            Species3: Ploceus nigrimentus
+            Match.type: 1BL to 1BT
+            Match.notes: null
+          interpretedEcologicalFields:
+            - Habitat
+            - Trophic.Niche
+            - Primary.Lifestyle
+            - Migration
+          uninterpretedEcologicalFields: []
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          originalInference: NO
+          originalMassSource: EltonTraits_GenAvg
+          accessedAt: 2026-10-03
+          licenseAssessment: CC-BY-4.0-archive-attributed-factual-summary
+          scope:
+            zh: 有限历史生态类别与地图摘要；不解读形态或体重，底层物种文献未逐条读取，名称不证明概念等同。
+            en: Limited historical ecology categories and map summaries; no morphology or mass interpretation, underlying species literature not individually read, matching names do not prove equivalent concepts.
+    limitations:
+      zh:
+        page: zh
+        section: s-ab6447d0b0
+        part: body
+      en:
+        page: en
+        section: s-310b475421
+        part: body

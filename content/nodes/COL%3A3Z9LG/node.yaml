@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus atroluteus
+  displayName: Melanophryniscus atroluteus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9LG
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus atroluteus
+        zh: Melanophryniscus atroluteus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9LG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/383
+            queryName: Melanophryniscus atroluteus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/348
+            queryName: Atelopus atroluteus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/219
+            queryName: Melanophryniscus stelzneri atroluteus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-577c7c3cec
+      - s-4a03a1621d
+      - s-43f14e8388
+      - s-91953a9198
+      - s-be086fca07
+      - s-a020ff2c6c
+      - s-d0fa2dc997
+      - s-de225a86fc
+      - s-0315def751
+      - s-b4da0ddd29
+      - s-f61d135f0d
+      - s-49db05923b
+      - s-77589a7cbd
+      - s-54d8681345
+      - s-a8c3507ff7
+      - s-424611a3a1
+    zh:
+      - s-e3daef335b
+      - s-eff4204836
+      - s-d3939feedc
+      - s-3ffac350a3
+      - s-1e19efc1b1
+      - s-4121aa9ac4
+      - s-b93bd428d4
+      - s-26518fd1ff
+      - s-e5c20dadfa
+      - s-6b0e1aec2f
+      - s-b6c17f5494
+      - s-7c0ad625a3
+      - s-c8b6acc4a4
+      - s-0f5733144b
+      - s-3fd764da23
+      - s-757897fda7

@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Physalaemus erikae
+    name:
+      en: Physalaemus erikae
+      zh: Physalaemus erikae
+    sourceClassification:
+      order: Anura
+      family: Leptodactylidae
+      genus: Physalaemus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Physalaemus erikae in the morphology deposit
+          zh: 形态数据中的 Physalaemus erikae 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ea36372c2f
+            part: body
+          zh:
+            page: zh
+            section: s-f0eaa988df
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4331 and 4332: measurement fields and sex codes"
+          zh: 第 4331、4332 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-61675c886b
+            part: body
+          zh:
+            page: zh
+            section: s-ac54a5e624
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4331, 4332; Reference.csv rows 2864
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4331
+        values:
+          - Leptodactylidae
+          - Physalaemus
+          - Physalaemus erikae
+          - F
+          - "23.1"
+          - "6.9"
+          - "7.4"
+          - "2.4"
+          - "0.9"
+          - NA
+          - "2.5"
+          - "1.7"
+          - "2"
+          - "1.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.6"
+          - "9.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4332
+        values:
+          - Leptodactylidae
+          - Physalaemus
+          - Physalaemus erikae
+          - M
+          - "23.7"
+          - "7"
+          - "7.6"
+          - "2.4"
+          - "1"
+          - NA
+          - "2.4"
+          - "1.7"
+          - "2"
+          - "1.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.7"
+          - "10.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2864
+        values:
+          - Anura
+          - Physalaemus_erikae
+          - Cruz, C., & Pimenta, B. (2004). New Species of Physalaemus Fitzinger, 1826 from Southern Bahia, Brazil (Anura, Leptodactylidae). Journal of Herpetology, 38, 480-486. https://doi.org/10.1670/214-02A
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4HF9F
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

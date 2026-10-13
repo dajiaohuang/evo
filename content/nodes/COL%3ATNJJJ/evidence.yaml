@@ -1,0 +1,284 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylototriton lizhenchangi Hou, Zhang, Jiang, Li & Lu in Hou, Li & Lü, 2012
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Tylototriton lizhenchangi
+      zh: Tylototriton lizhenchangi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-961437024c
+            part: title
+          zh:
+            page: zh
+            section: s-4f4a1cd2c4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-961437024c
+            part: body
+          zh:
+            page: zh
+            section: s-4f4a1cd2c4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7b3d9ef3d2
+            part: title
+          zh:
+            page: zh
+            section: s-9f001a57cf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7b3d9ef3d2
+            part: body
+          zh:
+            page: zh
+            section: s-9f001a57cf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-ad612de4d9
+            part: title
+          zh:
+            page: zh
+            section: s-a71a34d84c
+            part: title
+        sourceIds:
+          - primary-pmc13463510-tnjjj
+        text:
+          en:
+            page: en
+            section: s-ad612de4d9
+            part: body
+          zh:
+            page: zh
+            section: s-a71a34d84c
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c164a7eafc
+            part: title
+          zh:
+            page: zh
+            section: s-9179e1e37a
+            part: title
+        sourceIds:
+          - primary-pmc7369190-tnjjj
+        text:
+          en:
+            page: en
+            section: s-c164a7eafc
+            part: body
+          zh:
+            page: zh
+            section: s-9179e1e37a
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-55fa5ddc66
+            part: title
+          zh:
+            page: zh
+            section: s-d89fb459b0
+            part: title
+        sourceIds:
+          - primary-pmc7369190-tnjjj
+        text:
+          en:
+            page: en
+            section: s-55fa5ddc66
+            part: body
+          zh:
+            page: zh
+            section: s-d89fb459b0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylototriton lizhenchangi
+          url: https://www.checklistbank.org/dataset/316115/taxon/TNJJJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc13463510-tnjjj
+        referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton lizhenchangi: Named-species morphological comparison only; new sheni biology not reassigned to accepted comparators; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc7369190-tnjjj
+        referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton lizhenchangi: Table 1 and footnotes, methods/landmark/statistical sections, lateral/dorsal and comparative shape/size results, ecological discussion read; no independent supplementary-matrix or original scan analysis; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-402761bd1e
+        part: body
+      zh:
+        page: zh
+        section: s-af02d0fbee
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani16152340
+        referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+        sourceKey: primary-pmc13463510-tnjjj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13463510/article.xml
+        sourceConcept: Tylototriton lizhenchangi
+        evidenceRead: "Tylototriton lizhenchangi: Named-species morphological comparison only; new sheni biology not reassigned to accepted comparators; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: appearance
+            heading:
+              en: Head proportions, toe order and lateral nodules
+              zh: 头比例、趾序及侧结节
+            referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+            sourceKey: primary-pmc13463510-tnjjj
+            locator: PMC13463510 XML section sec3dot3-animals-16-02340, paragraph 13
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b579d99fd1
+                part: body
+              zh:
+                page: zh
+                section: s-0d2fe6737c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1111/joa.13201
+        referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+        sourceKey: primary-pmc7369190-tnjjj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7369190/article.xml
+        sourceConcept: Tylototriton lizhenchangi
+        evidenceRead: "Tylototriton lizhenchangi: Table 1 and footnotes, methods/landmark/statistical sections, lateral/dorsal and comparative shape/size results, ecological discussion read; no independent supplementary-matrix or original scan analysis; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Three external and two osteological records form a small sample
+              zh: 三份外部、两份骨学记录构成小样本
+            referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+            sourceKey: primary-pmc7369190-tnjjj
+            locator: PMC7369190 XML joa13201-tbl-0001 with footnotes; joa13201-sec-0002–0004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7441f49faf
+                part: body
+              zh:
+                page: zh
+                section: s-e3d778cd70
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: A dorsal external-head size comparison has a limited meaning
+              zh: 背面外部头形大小比较含义有限
+            referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+            sourceKey: primary-pmc7369190-tnjjj
+            locator: PMC7369190 XML joa13201-sec-0009 paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a4c4de93f2
+                part: body
+              zh:
+                page: zh
+                section: s-5adbe1d592
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

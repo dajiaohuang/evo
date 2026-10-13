@@ -1,0 +1,94 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-f8c9acc4c0
+      part: title
+    titleZh:
+      page: zh
+      section: s-e819dc8f97
+      part: title
+    category: extinction
+    startAge: 252.1
+    endAge: 251.902
+    regions:
+      - Global
+    clades:
+      - Marine invertebrates
+      - Synapsida
+      - terrestrial plants
+    summary:
+      page: en
+      section: s-f8c9acc4c0
+      part: body
+    summaryZh:
+      page: zh
+      section: s-e819dc8f97
+      part: body
+    claimIds:
+      - claim:event:end-permian-extinction
+    evidenceItems:
+      - statement: Abrupt fossil range terminations
+        relation: supports
+        claimIds:
+          - claim:event:end-permian-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: burgess-2014-end-permian
+      - statement: Carbon-isotope excursion
+        relation: supports
+        claimIds:
+          - claim:event:end-permian-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: burgess-2014-end-permian
+      - statement: Volcanic and warming proxies
+        relation: supports
+        claimIds:
+          - claim:event:end-permian-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: burgess-2014-end-permian
+      - statement: Dated Meishan ash beds bound the main extinction interval to about 60 ± 48 kyr
+        relation: supports
+        claimIds:
+          - claim:event:end-permian-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: burgess-2014-end-permian
+            pages: 3316–3321
+            figure: Figures 1–3
+            quoteLocator: Results; extinction interval; Table 1
+    uncertaintyItems:
+      - statement: Kill mechanisms interacted across ocean and land
+        relation: contextualizes
+        claimIds:
+          - claim:event:end-permian-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: burgess-2014-end-permian
+      - statement: Regional ecological collapse and recovery were asynchronous
+        relation: contextualizes
+        claimIds:
+          - claim:event:end-permian-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: burgess-2014-end-permian
+  claims:
+    - subjectId: event:end-permian-extinction
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: CA–ID–TIMS U–Pb ages from the Meishan section place the main end-Permian extinction interval between 251.941 ± 0.037 and 251.880 ± 0.031 Ma, lasting about 60 ± 48 kyr in that calibrated succession.
+      confidence: high
+      confidenceRationale: The interval is bounded by high-precision dated ash beds and a measured fossil succession. High confidence applies to the Meishan calibrated interval, while global ecological expression and causal mechanism require additional records.
+      referenceLinks:
+        - relation: supports
+          referenceId: burgess-2014-end-permian
+          pages: 3316–3321
+          figure: Figures 1–3
+          quoteLocator: Results; extinction interval; Table 1; SI U–Pb data tables
+  claim-rationales.zh:
+    - 梅山剖面的高精度火山灰层测年与化石序列直接夹定主要灭绝区间；高置信度只覆盖该校准层序，全球生态表现和致因仍需独立证据。
+  claim-statements.zh:
+    - 梅山剖面的 CA–ID–TIMS 铀铅年龄把二叠纪末主要灭绝区间约束在 251.941 ± 0.037 至 251.880 ± 0.031 Ma，在该校准层序中持续约 60 ± 48 千年。

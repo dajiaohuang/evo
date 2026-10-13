@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus parapelates
+  displayName: Eleutherodactylus parapelates
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399KQ
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus parapelates
+        zh: Eleutherodactylus parapelates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399KQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/292
+            queryName: Eleutherodactylus parapelates
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/140
+            queryName: Pelorius parapelates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d2bd334200
+      - s-5b7ec80abe
+      - s-f33a593abf
+      - s-4b7148921c
+      - s-0d5a897991
+      - s-227944159d
+      - s-5e5826c55e
+      - s-89138df0b9
+      - s-d4d86a4183
+      - s-b0327dc74b
+    zh:
+      - s-2267ad8c6c
+      - s-af8b6316c2
+      - s-0ce07290c0
+      - s-8a9c2a2864
+      - s-4d8b91badf
+      - s-dbe48ac3c4
+      - s-b474f8b513
+      - s-ed4e743554
+      - s-306d17bd93
+      - s-e426aa0bcc

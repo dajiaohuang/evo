@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachium gunungense
+    name:
+      en: Leptobrachium gunungense
+      zh: Leptobrachium gunungense
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Leptobrachium gunungense in the version 3 classification
+          zh: Leptobrachium gunungense 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cfa44dfb18
+            part: body
+          zh:
+            page: zh
+            section: s-748c269df0
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2c5084d887
+            part: body
+          zh:
+            page: zh
+            section: s-973ba16ecf
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2664, 2665; Reference.csv rows 673
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2664
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium gunungense
+          - M
+          - "44"
+          - "19.536"
+          - "19.668"
+          - "6.468"
+          - NA
+          - NA
+          - "6.38"
+          - "4.092"
+          - "5.544"
+          - NA
+          - "7.744"
+          - NA
+          - NA
+          - NA
+          - "23.452"
+          - "15.488"
+          - NA
+          - "16.5"
+          - NA
+          - NA
+          - "51.964"
+          - "1.584"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2665
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium gunungense
+          - F
+          - "59.4"
+          - "26.2548"
+          - "25.7202"
+          - "7.722"
+          - NA
+          - NA
+          - "8.4942"
+          - "5.1084"
+          - "6.7122"
+          - NA
+          - "10.098"
+          - NA
+          - NA
+          - NA
+          - "33.0858"
+          - "20.8494"
+          - NA
+          - "22.7502"
+          - NA
+          - NA
+          - "71.1612"
+          - "2.2572"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 673
+        values:
+          - Anura
+          - Leptobrachium_gunungense
+          - Hamidy, A., & Matsui, M. (2014). A new species of Leptobrachium from the Kelabit Highland, northwestern Borneo (Anura, Megophryidae). Current Herpetology, 33(1), 57-67. https://doi.org/10.5358/hsj.33.57
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - LAL
+      - FL
+      - TL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6PG43
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

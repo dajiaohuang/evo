@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aglyptodactylus madagascariensis
+  displayName: Aglyptodactylus madagascariensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65RB8
+  sourceIndexes:
+    - name:
+        en: Aglyptodactylus madagascariensis
+        zh: Aglyptodactylus madagascariensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65RB8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/112
+            queryName: Aglyptodactylus madagascariensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/152
+            queryName: Limnodytes madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/153
+            queryName: Hylarana madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/154
+            queryName: Rana madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/155
+            queryName: Mantidactylus madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/156
+            queryName: Mantidactylus purpureus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-16de380212
+      - s-c246e3bba7
+      - s-753c41cead
+      - s-7920181ddb
+      - s-4d76445fff
+      - s-1dd4ebc101
+      - s-af9b6266f3
+      - s-2ea6b1bbd4
+      - s-4994361d79
+      - s-92a1e57a21
+    zh:
+      - s-670c18e55b
+      - s-ef4880e80d
+      - s-4762fde16c
+      - s-a2278f92b1
+      - s-b29223617e
+      - s-9ff7aa2e66
+      - s-6d5b726b9f
+      - s-27ea41faa0
+      - s-b1452319db
+      - s-3b791d48cc

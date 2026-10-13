@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Physcomitrium patens (Hedw.) Mitt.
+    rank: species
+    sourceDatasetId: "170394"
+    identity:
+      method: Exact COL26.8 accepted species usage was verified by COL ID, verbatim scientific name, authorship, rank, accepted status, sourceDatasetId, and every accepted parent node in the pinned hierarchy.
+      scope: Evidence is limited to a laboratory observation of stomatal-lineage cell development on Physcomitrium patens sporophyte epidermis. It does not establish the frequency of this division across plants, populations, or environments, and does not describe a field population.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: 9THX2
+        scientificName: Bryobiotina Trevis.
+        authorship: Trevis.
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: BJ5TM
+        scientificName: Bryophyta Schimp.
+        authorship: Schimp.
+        rank: phylum
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: CHTRW
+        scientificName: Bryopsida Ritgen
+        authorship: Ritgen
+        rank: class
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: 9JHXV
+        scientificName: Funariidae Ochyra
+        authorship: Ochyra
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: L23DB
+        scientificName: Funariales M. Fleisch.
+        authorship: M. Fleisch.
+        rank: order
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: 9JG2X
+        scientificName: Funariaceae Schwägr.
+        authorship: Schwägr.
+        rank: family
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: 9JM69
+        scientificName: Physcomitrium (Brid.) Brid.
+        authorship: (Brid.) Brid.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: 9M4BT
+        scientificName: Physcomitrium patens (Hedw.) Mitt.
+        authorship: (Hedw.) Mitt.
+        rank: species
+        status: accepted
+        sourceDatasetId: "170394"
+    lifeStatusScope:
+      wild: The cited observation uses laboratory-grown wild-type strains under sterile culture, not a field observation of an unmanaged population.
+      domesticated: Domesticated populations have not been assessed; laboratory culture alone is not treated as evidence of domestication.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; pinned source checklist
+          url: https://www.checklistbank.org/dataset/316115/taxon/9M4BT
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:9M4BT@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: Accepted species usage 9M4BT; exact accepted name, authorship, species rank, sourceDatasetId 170394, and accepted parent chain verified in the pinned hierarchy.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 accepted-name identity and classification metadata only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 9M4BT. https://doi.org/10.48580/dgywk
+      - id: caine2020
+        referenceId: ref-88d27028-cd41-8493-a1b0-e52a8eb16aec
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Publisher copyright and license notice states that the article is distributed under the Creative Commons Attribution License (CC BY) and links to https://creativecommons.org/licenses/by/4.0/.
+          licenseAppliesTo: The published article text; this dossier paraphrases the reported observation and does not reproduce figures or separately credited third-party material.
+          stableId: doi:10.3389/fpls.2020.00643
+          accessedAt: 2026-09-28
+          locator: Abstract, second paragraph; Results, ‘Stomatal Patterning and GMC Spacing Divisions,’ paragraphs 1–2; Figure 5 legend; Materials and Methods, ‘Plant Materials’ and ‘Growth Conditions.’
+          licenseAssessment: item-level-verified
+          scope: Original research describing stomatal development in laboratory-grown Physcomitrium patens sporophytes and associated developmental mutants.
+          attribution: Caine RS, Chater CCC, Fleming AJ, Gray JE (2020). Stomata and Sporophytes of the Model Moss Physcomitrium patens. Frontiers in Plant Science 11:643. https://doi.org/10.3389/fpls.2020.00643. Findings paraphrased.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: In laboratory observations of Physcomitrium patens sporophyte epidermis, when two early guard mother cells formed adjacently, one had the potential to undergo an asymmetric spacing division that produced an epidermal spacer cell between the formerly adjacent cells. The illustrated division was followed over approximately two hours.
+            sourceIds:
+              - caine2020
+            locator: Results, ‘Stomatal Patterning and GMC Spacing Divisions,’ paragraphs 1–2; Figure 5 legend; the abstract summarizes the same conditional observation.
+            placeTimeScope: Laboratory study published in 2020; sterile-cultured Physcomitrium patens wild-type strains Gransden 2004, Gransden D12, and Villersexel were used in the study. The Figure 5 cell sequence spans approximately two hours; no field locality or collection date is reported for that sequence.
+            lifeStatus: Experimental sporophyte tissue from laboratory-grown wild-type moss strains; this is not an in-situ population observation, a domestication result, or fossil evidence.
+            originalLanguage: en
+        gaps:
+          - The observation supports a conditional developmental possibility, not the frequency or prevalence of spacing divisions across strains, populations, or growth environments.
+          - The authors could not track the dissected live samples for longer, and the later fate or renewed identity of the spacer cell remains unclear.
+          - Life history, ecology, evolution, geographic distribution, fossils, conservation, systematic evidence search, remain unassessed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: not-assessed
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

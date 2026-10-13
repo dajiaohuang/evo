@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Strumaria luteoloba Snijman
+    rank: species
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-5aa9129bce
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-8fa511618f
+          part: body
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6ZYR9, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6ZYR9; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6ZYR9
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6ZYR9
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000800580-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6ZYR9 / WFO wfo-0000800580
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14528_0
+        referenceId: ref-7a6c70aa-af86-8893-a14a-3f36cc5a9892
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Strumaria luteoloba Snijman account; SANBI/WFO archive rows 32853 (Morphology), 38762 (Habitat), source identifier 14528.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_6647_0
+        referenceId: ref-3495e7b5-fa24-858f-a086-ba8466414f62
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Strumaria luteoloba Snijman account; SANBI/WFO archive rows 44969 (Diagnostic), source identifier 6647.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Bulbous geophyte, 180-280 mm tall. Leaves 2-4, usually dry at flowering, oblong, erect, spreading apart like a fan, smooth. Flowers in a drooping cluster, narrowly tubular below with pale lemon to cream-coloured, deeply-channelled, recurved tepals above, stamens exserted. ?May.
+            textZh: Strumaria luteoloba Snijman 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14528_0
+            locator: "SANBI/WFO archive Morphology row 32853; source identifier 14528.0; cited publication: Snijman, DA. 2013. Amaryllidaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 33 - 42. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The erect, fan-shaped leaf arrangement and dorsifixed anthers of S. luteoloba are sufficiently distinctive to place the species in subgenus Strumaria, but unlike most species in the subgenus, the filaments of S. luteoloba are not proximally fused into a tube. Like S. phonolithica the new species has narrow, closely imbricate tepals. However, S. luteoloba is easily recognized by the tepals being deeply channelled and sharply reflexed from ± halfway along their length, and by the outer tepal whorl reflexing 2-4 mm below the inner whorl so that the perigone has a distinctive biseriate appearance. The flower colour is also unique in the genus. The perigone is pinkish red near the base and pale lemon- to cream-coloured in the distal half. S. gemmata Ker Gawl., belonging to subgenus Gemmaria, is the only other species with lemon- or cream-coloured flowers but these are stellate and concolorous.
+            textZh: SANBI 条目提供了 Strumaria luteoloba Snijman 的鉴别特征。
+            sourceIds:
+              - sanbi_6647_0
+            locator: "SANBI/WFO archive Diagnostic row 44969; source identifier 6647.0; cited publication: Snijman, DA. 2005. Three new species and a new synonym in Strumaria (Amaryllidaceae: Amaryllideae) from southern Africa. Bothalia 35(1&2): 21 - 27. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: On rocky slopes in dolomite or granite.
+            textZh: 该 SANBI 区域物种条目记录的生境：On rocky slopes in dolomite or granite.
+            sourceIds:
+              - sanbi_14528_0
+            locator: "SANBI/WFO archive Habitat row 38762; source identifier 14528.0; cited publication: Snijman, DA. 2013. Amaryllidaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 33 - 42. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

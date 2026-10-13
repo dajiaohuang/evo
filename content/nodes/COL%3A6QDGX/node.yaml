@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnodynastes salmini
+  displayName: Limnodynastes salmini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDGX
+  sourceIndexes:
+    - name:
+        en: Limnodynastes salmini
+        zh: Limnodynastes salmini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDGX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/42
+            queryName: Limnodynastes salmini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2c6edb80a4
+      - s-4b3b302df1
+      - s-a69c22d18e
+      - s-eca67d8c8a
+      - s-4acaac8393
+      - s-20266e1b77
+      - s-5198b90f65
+      - s-3b368a2fad
+      - s-b70965f899
+      - s-97f6988879
+    zh:
+      - s-6c02e88dda
+      - s-cee126be30
+      - s-1be7965068
+      - s-eb7aa6c1e1
+      - s-e6b34b1761
+      - s-9e65ee3cf9
+      - s-7e758b799c
+      - s-2b43ec2f02
+      - s-e46953a9fb
+      - s-3170feec3f

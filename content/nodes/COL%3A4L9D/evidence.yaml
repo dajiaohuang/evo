@@ -1,0 +1,364 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Frostius Cannatella, 1986
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Frostius
+      zh: Frostius
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1be9390830
+            part: title
+          zh:
+            page: zh
+            section: s-cb034bc47f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1be9390830
+            part: body
+          zh:
+            page: zh
+            section: s-cb034bc47f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8ee693fe17
+            part: title
+          zh:
+            page: zh
+            section: s-e2af96418f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8ee693fe17
+            part: body
+          zh:
+            page: zh
+            section: s-e2af96418f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-d501ce5d2a
+            part: title
+          zh:
+            page: zh
+            section: s-8cf1a18dc7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d501ce5d2a
+            part: body
+          zh:
+            page: zh
+            section: s-8cf1a18dc7
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-154cfa61a3
+            part: title
+          zh:
+            page: zh
+            section: s-2b0b23ba15
+            part: title
+        text:
+          en:
+            page: en
+            section: s-154cfa61a3
+            part: body
+          zh:
+            page: zh
+            section: s-2b0b23ba15
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-15a6398d8f
+            part: title
+          zh:
+            page: zh
+            section: s-c0253a5568
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6K34L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6K34L
+            label:
+              en: Frostius erythrophthalmus
+              zh: Frostius erythrophthalmus
+          - kind: catalogue
+            colId: 6JQSK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6JQSK
+            label:
+              en: Frostius pernambucensis
+              zh: Frostius pernambucensis
+        text:
+          en:
+            page: en
+            section: s-15a6398d8f
+            part: body
+          zh:
+            page: zh
+            section: s-c0253a5568
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10688756-4l9d
+        title:
+          en:
+            page: en
+            section: s-4528713e15
+            part: title
+          zh:
+            page: zh
+            section: s-457528273a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4528713e15
+            part: body
+          zh:
+            page: zh
+            section: s-457528273a
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10688756-4l9d
+        title:
+          en:
+            page: en
+            section: s-ed39102af5
+            part: title
+          zh:
+            page: zh
+            section: s-add76e490a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ed39102af5
+            part: body
+          zh:
+            page: zh
+            section: s-add76e490a
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10688756-4l9d
+        title:
+          en:
+            page: en
+            section: s-d032eacb91
+            part: title
+          zh:
+            page: zh
+            section: s-0c1055bbd8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6JQSK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6JQSK
+            label:
+              en: Frostius pernambucensis
+              zh: Frostius pernambucensis
+        text:
+          en:
+            page: en
+            section: s-d032eacb91
+            part: body
+          zh:
+            page: zh
+            section: s-0c1055bbd8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Frostius
+          url: https://www.checklistbank.org/dataset/316115/taxon/4L9D
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Frostius; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10688756-4l9d
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+            zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-05e1b792ab
+        part: body
+      zh:
+        page: zh
+        section: s-b37a2c64cd
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Frostius
+      sourceRowIds:
+        - Anf0604
+        - Anf0605
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-direct-group-pmc10688756-4l9d
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: Source-labelled Atlantic Forest workbook rows grouped through fixed exact names or explicit catalogue accepted-links; duplicate destinations retained, not biological identity certification
+        evidenceRead: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Reproduction and juvenile habitats retain source-row denominators
+              zh: 繁殖及幼体生境保留来源行分母
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-4l9d
+            locator: PMC10688756 S3 Traits rows 168; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4b323c0ff5
+                part: body
+              zh:
+                page: zh
+                section: s-cf5a282d8e
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Inference flags and community associations have limited scope
+              zh: 推断标记及群落关联具有有限范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-4l9d
+            locator: PMC10688756 S3 Traits rows 168; XML Functional diversity length/Observation columns; Results/Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c0a9bf9081
+                part: body
+              zh:
+                page: zh
+                section: s-1358a8bdba
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+    primaryResearchGroupSynthesisComplete: false

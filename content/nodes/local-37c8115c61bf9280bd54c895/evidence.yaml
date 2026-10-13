@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Proceratophrys cristiceps
+    name:
+      en: Proceratophrys cristiceps
+      zh: Proceratophrys cristiceps
+    sourceClassification:
+      order: Anura
+      family: Odontophrynidae
+      genus: Proceratophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b0a2d2c63e
+            part: body
+          zh:
+            page: zh
+            section: s-5988bd8d11
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6bf12e55d2
+            part: body
+          zh:
+            page: zh
+            section: s-30a64d7dad
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4889, 4890; Reference.csv rows 1152
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4889
+        values:
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys cristiceps
+          - M
+          - "44.5"
+          - "14.9"
+          - "20.2"
+          - "5.7"
+          - "1.8"
+          - NA
+          - NA
+          - "3.2"
+          - "4.7"
+          - "4.4"
+          - NA
+          - NA
+          - "12.8"
+          - "15.2"
+          - NA
+          - "18.9"
+          - NA
+          - "15.2"
+          - "8.3"
+          - NA
+          - NA
+          - "3.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4890
+        values:
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys cristiceps
+          - F
+          - "52"
+          - "17.5"
+          - "24.1"
+          - "6.8"
+          - "2"
+          - NA
+          - NA
+          - "3.9"
+          - "6.5"
+          - "5"
+          - NA
+          - NA
+          - "15"
+          - "18.5"
+          - NA
+          - "21.3"
+          - NA
+          - "17.2"
+          - "8.3"
+          - NA
+          - NA
+          - "4.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1152
+        values:
+          - Anura
+          - Proceratophrys_cristiceps
+          - Cruz, C. A. G., Nunes, I., & Juncá, F. A. (2012). Redescription of Proceratophrys cristiceps(Müller, 1883) (Amphibia, Anura, Odontophrynidae), with description of two new species without eyelid appendages from northeastern Brazil. South American Journal of Herpetology, 7(2), 110-122. https://doi.org/10.2994/057.007.0201
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - UEW
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 789W9
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

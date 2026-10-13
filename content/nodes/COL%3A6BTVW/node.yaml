@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus bandeirensis
+  displayName: Cycloramphus bandeirensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BTVW
+  sourceIndexes:
+    - name:
+        en: Cycloramphus bandeirensis
+        zh: Cycloramphus bandeirensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BTVW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/266
+            queryName: Cycloramphus bandeirensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f5fab3f614
+      - s-47158df22a
+      - s-6ff9e6ad80
+      - s-e682e7fad0
+      - s-1d0bf525ab
+      - s-09cfd2dd07
+      - s-e9e03fe258
+      - s-f314baa4cb
+      - s-2feeaec6fc
+      - s-9d5e5d0337
+      - s-d14daf9647
+      - s-de406f3cc6
+      - s-42a562a1f3
+      - s-f142809d31
+      - s-7b7db65950
+      - s-eba4d42261
+      - s-4fd7264a05
+      - s-9dfd561f25
+    zh:
+      - s-1413dc403e
+      - s-65b09b629f
+      - s-28c7f6eac6
+      - s-483c3eefed
+      - s-a0cdbdb00f
+      - s-5d7ff7fb48
+      - s-bdf0377c14
+      - s-67dae0c243
+      - s-f608a6fdc8
+      - s-5639340b37
+      - s-263ae04d28
+      - s-c2ec2d62e2
+      - s-3ae226b16c
+      - s-c6c5544a2d
+      - s-049b9acfd6
+      - s-e69bbe5132
+      - s-01cbc2c297
+      - s-21877703cf

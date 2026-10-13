@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-ff6db10cc9}
+This record shows how TadpoleTraits files tadpoles under Theloderma asperum. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Theloderma asperum in Theloderma and Rhacophoridae. In the literature table, rows 5104, 5105, 5106, 5107, 5108, 5109, 5110, 5111, 5112, 5113 list Theloderma asperum in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-b1776b9285}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 10 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 31 (rows 5104, 5110); 23 (row 5105); 25 (row 5106); 27 (row 5107); 28 (row 5108); 29 (row 5109); 33 (row 5111); 35 (row 5112); 43 (row 5113). Sample size is populated in 9 rows, with source values from 1 to 7; the entries remain row-specific; 1 other Sample size cells are blank, not zero. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

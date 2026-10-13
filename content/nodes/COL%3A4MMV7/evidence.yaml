@@ -1,0 +1,283 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Proceratophrys phyllostomus Izecksohn, Cruz & Peixoto, 1999
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Proceratophrys phyllostomus
+      zh: Proceratophrys phyllostomus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f6efa6abef
+            part: title
+          zh:
+            page: zh
+            section: s-18231296dc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f6efa6abef
+            part: body
+          zh:
+            page: zh
+            section: s-18231296dc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-eef3d9d41b
+            part: title
+          zh:
+            page: zh
+            section: s-32b9bcc41f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eef3d9d41b
+            part: body
+          zh:
+            page: zh
+            section: s-32b9bcc41f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-daa0e5a1e5
+            part: title
+          zh:
+            page: zh
+            section: s-4457e3adab
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-daa0e5a1e5
+            part: body
+          zh:
+            page: zh
+            section: s-4457e3adab
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-0eb8bbbf2321d23ae62b57539f9f3ee3
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a6ba865d64
+            part: title
+          zh:
+            page: zh
+            section: s-3bba2d74e7
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv7
+        text:
+          en:
+            page: en
+            section: s-a6ba865d64
+            part: body
+          zh:
+            page: zh
+            section: s-3bba2d74e7
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1203a4dbfa
+            part: title
+          zh:
+            page: zh
+            section: s-7eacd5df19
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv7
+        text:
+          en:
+            page: en
+            section: s-1203a4dbfa
+            part: body
+          zh:
+            page: zh
+            section: s-7eacd5df19
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Proceratophrys phyllostomus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MMV7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1404; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1404 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc8436961-4mmv7
+        referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Proceratophrys phyllostomus: Proceratophrys korekore: Introduction,Fieldwork,Morphology,Bioacoustics,Phylogenetic inference,Nomenclatural acts,Results,Discussion and31Appendix specimen paragraphs read;allthree main tables andeightfigure captions read. ArticleCCBY4link verified. Figurepixels,rawsounds,originalGenBank/alignment,DocumentS1/S2,museumobjects not independently read/authenticated.; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c1511ca30f
+        part: body
+      zh:
+        page: zh
+        section: s-116f6de14a
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.12012
+        referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+        sourceKey: primary-pmc8436961-4mmv7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8436961/article.xml
+        sourceConcept: Exact named comparator, Appendix row, outgroup or sympatric record in the2021korekore study; not new complete species description
+        evidenceRead: "Proceratophrys phyllostomus: Proceratophrys korekore: Introduction,Fieldwork,Morphology,Bioacoustics,Phylogenetic inference,Nomenclatural acts,Results,Discussion and31Appendix specimen paragraphs read;allthree main tables andeightfigure captions read. ArticleCCBY4link verified. Figurepixels,rawsounds,originalGenBank/alignment,DocumentS1/S2,museumobjects not independently read/authenticated.; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A named character in the2021 comparison
+              zh: 2021年比较中的具名性状
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv7
+            locator: PMC8436961 article.xml sec8p7;proceratophrys-korekore-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ed7a168c97
+                part: body
+              zh:
+                page: zh
+                section: s-c56983fe98
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: A named character in the2021 comparison
+              zh: 2021年比较中的具名性状
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv7
+            locator: PMC8436961 article.xml sec8p7;proceratophrys-korekore-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-67dd999673
+                part: body
+              zh:
+                page: zh
+                section: s-06d4dd981c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

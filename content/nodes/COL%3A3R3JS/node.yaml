@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kassina kuvangensis
+  displayName: Kassina kuvangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3R3JS
+  sourceIndexes:
+    - name:
+        en: Kassina kuvangensis
+        zh: Kassina kuvangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3R3JS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/147
+            queryName: Kassina kuvangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/125
+            queryName: Cassiniopsis kuvangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/126
+            queryName: Kassina ingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-95a8099465
+      - s-24978c0472
+      - s-36426b1c83
+      - s-4a4804e066
+      - s-fb11812a48
+      - s-6345c230b7
+      - s-5c7b429b1d
+      - s-e196787e6a
+      - s-7b14df96bf
+      - s-04c93dc85f
+    zh:
+      - s-5525b255d0
+      - s-1ba3ab8683
+      - s-a660d35953
+      - s-421be39ca4
+      - s-9f154fbc16
+      - s-3b1b16e635
+      - s-7ed84448a1
+      - s-05f53c3f19
+      - s-7b82f50e51
+      - s-98615d239e

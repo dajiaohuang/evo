@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Nesovtriton mynbulakensis
+    rank: species
+    sourceTaxonId: txn:161668
+    name:
+      en: Nesovtriton mynbulakensis
+      zh: Nesovtriton mynbulakensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-2d6de3a4e9
+            part: body
+          zh:
+            page: zh
+            section: s-1897ed07ea
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-39763969df
+            part: body
+          zh:
+            page: zh
+            section: s-a7648fdd92
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-c5d302b621
+            part: body
+          zh:
+            page: zh
+            section: s-4efc50b84e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:161668; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "P. P. Skutschas. 2009. Re-evaluation of Mynbulakia Nesov, 1981 (Lissamphibia: Caudata) and description of a new salamander genus from the Late Cretaceous of Uzbekistan. Journal of Vertebrate Paleontology 29(3):659-664"
+    occurrenceEvidence:
+      - occurrenceId: occ:841558
+        collectionId: col:58168
+        acceptedTaxonId: txn:161668
+        identifiedName: Nesovtriton mynbulakensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:31565
+        bibliography: "P. P. Skutschas. 2009. Re-evaluation of Mynbulakia Nesov, 1981 (Lissamphibia: Caudata) and description of a new salamander genus from the Late Cretaceous of Uzbekistan. Journal of Vertebrate Paleontology 29(3):659-664"
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+      - occurrenceId: occ:841559
+        collectionId: col:58174
+        acceptedTaxonId: txn:161668
+        taxonomicDifference: null
+        referenceId: ref:31565
+        bibliography: "P. P. Skutschas. 2009. Re-evaluation of Mynbulakia Nesov, 1981 (Lissamphibia: Caudata) and description of a new salamander genus from the Late Cretaceous of Uzbekistan. Journal of Vertebrate Paleontology 29(3):659-664"
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+      - occurrenceId: occ:841560
+        collectionId: col:58179
+        acceptedTaxonId: txn:161668
+        taxonomicDifference: null
+        referenceId: ref:31565
+        bibliography: "P. P. Skutschas. 2009. Re-evaluation of Mynbulakia Nesov, 1981 (Lissamphibia: Caudata) and description of a new salamander genus from the Late Cretaceous of Uzbekistan. Journal of Vertebrate Paleontology 29(3):659-664"
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-c5d302b621
+            part: body
+          zh:
+            page: zh
+            section: s-4efc50b84e
+            part: body
+        sourceIds: []

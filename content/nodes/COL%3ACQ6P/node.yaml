@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega braccata
+  displayName: Ameerega braccata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ6P
+  sourceIndexes:
+    - name:
+        en: Ameerega braccata
+        zh: Ameerega braccata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ6P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/260
+            queryName: Ameerega braccata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/207
+            queryName: Epipedobates braccatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/303
+            queryName: Dendrobates braccatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/113
+            queryName: Dendrobates pictus braccatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e79570336
+      - s-1cd1c17a5f
+      - s-1690fc08e2
+      - s-4e3f788ba1
+      - s-f8cceff6b5
+      - s-908fd48a14
+      - s-e8501f008f
+      - s-d37cbb90d9
+      - s-12b8a2f058
+    zh:
+      - s-92e2b91eb3
+      - s-4a54dbc732
+      - s-e26ad7b8fc
+      - s-e5716bf9cf
+      - s-b45d8c6db2
+      - s-d05bd12b8c
+      - s-7a3df252f5
+      - s-bc5dcc77d9
+      - s-65b0ab3594

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uraeotyphlus gansi
+  displayName: Uraeotyphlus gansi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DNCZ
+  sourceIndexes:
+    - name:
+        en: Uraeotyphlus gansi
+        zh: Uraeotyphlus gansi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DNCZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/214
+            queryName: Uraeotyphlus gansi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-445d926f37
+      - s-ad586e0e4b
+      - s-ca8f92c88e
+      - s-ecc8d82b9b
+      - s-d7c365de8a
+      - s-10977ec5cd
+      - s-1034e8462f
+      - s-887ed90835
+      - s-80a695e328
+      - s-76fcbc0098
+      - s-9735599827
+      - s-da21f0a508
+      - s-0bda47ecf2
+    zh:
+      - s-f2c59df39d
+      - s-6756215fa6
+      - s-90f5969d4d
+      - s-1179b5feec
+      - s-cbde643ad5
+      - s-c84144bf79
+      - s-01a98fe67d
+      - s-0c44c58773
+      - s-1b8dd16562
+      - s-5434d7514b
+      - s-89c633d04f
+      - s-1d92d0691c
+      - s-043cf824b6

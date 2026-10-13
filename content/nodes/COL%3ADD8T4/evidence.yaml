@@ -1,0 +1,132 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hydrobates tristrami
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Hydrobates tristrami
+      en: Tristram’s Storm-Petrel
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - mcclelland2008TristramiBreeding
+        text:
+          zh:
+            page: zh
+            section: s-ae3aeea111
+            part: body
+          en:
+            page: en
+            section: s-2b2f0aaf7f
+            part: body
+      - topic: nesting
+        sourceIds:
+          - mcclelland2008TristramiBreeding
+        text:
+          zh:
+            page: zh
+            section: s-25d084dc67
+            part: body
+          en:
+            page: en
+            section: s-716005e1ec
+            part: body
+      - topic: breedingPhenology
+        sourceIds:
+          - mcclelland2008TristramiBreeding
+        text:
+          zh:
+            page: zh
+            section: s-5186bc4972
+            part: body
+          en:
+            page: en
+            section: s-ec75a40e89
+            part: body
+      - topic: breedingSuccess
+        sourceIds:
+          - mcclelland2008TristramiBreeding
+        text:
+          zh:
+            page: zh
+            section: s-2c5370ec77
+            part: body
+          en:
+            page: en
+            section: s-5745693dae
+            part: body
+      - topic: nestCompetition
+        sourceIds:
+          - mcclelland2008TristramiBreeding
+        text:
+          zh:
+            page: zh
+            section: s-39c889e096
+            part: body
+          en:
+            page: en
+            section: s-f53a351a2a
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - mcclelland2008TristramiBreeding
+        text:
+          zh:
+            page: zh
+            section: s-72a4548410
+            part: body
+          en:
+            page: en
+            section: s-6cbc808747
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hydrobates tristrami
+          url: https://www.checklistbank.org/dataset/316115/taxon/DD8T4
+          locator: Pinned accepted name and recorded Hydrobatidae ancestry.
+      - id: mcclelland2008TristramiBreeding
+        referenceId: ref-74ca34fb-b8f3-4b8f-afbe-7e15edeb10d8
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Breeding biology of Tristram’s Storm-Petrel Oceanodroma tristrami at French Frigate Shoals and Laysan Island, Northwest Hawaiian Islands
+          url: https://marineornithology.org/article?rn=787
+          accessedAt: 2026-10-03
+          locator: Published PDF scientific text pp175–180, Tables1–3 and captions; PDF pages3–4 visually read.
+          scope:
+            zh: 夏威夷三个岛的 2003–2008 年繁殖资料，East 仅 2005 年；不作当期全域趋势。
+            en: 2003–2008 breeding material from three Hawaiian islands, East only in 2005; no current range-wide trend.
+    limitations:
+      zh:
+        page: zh
+        section: s-887b4e34e0
+        part: body
+      en:
+        page: en
+        section: s-7bead6af0b
+        part: body

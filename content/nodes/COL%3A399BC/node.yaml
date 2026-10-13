@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus guanahacabibes
+  displayName: Eleutherodactylus guanahacabibes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399BC
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus guanahacabibes
+        zh: Eleutherodactylus guanahacabibes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399BC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/224
+            queryName: Eleutherodactylus guanahacabibes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/468
+            queryName: Euhyas guanahacabibes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cef552c653
+      - s-de3f0ae44f
+      - s-74509294a4
+      - s-234400b38b
+      - s-75186bdd14
+      - s-a378e799b9
+      - s-09554862e4
+      - s-153490ea67
+      - s-976af045bd
+      - s-3cf04b1020
+    zh:
+      - s-72f98d4df2
+      - s-79e4322e1b
+      - s-379486735a
+      - s-007785e8f6
+      - s-5873caf90a
+      - s-d7449edc35
+      - s-aea0ecd8bc
+      - s-889b43ac8b
+      - s-7b57b23aff
+      - s-3c55022fe6

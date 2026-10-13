@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vandijkophrynus amatolicus
+  displayName: Vandijkophrynus amatolicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FFFV
+  sourceIndexes:
+    - name:
+        en: Vandijkophrynus amatolicus
+        zh: Vandijkophrynus amatolicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FFFV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/223
+            queryName: Vandijkophrynus amatolicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/148
+            queryName: Bufo amatolicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/321
+            queryName: Bufo angusticeps amatolica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/492
+            queryName: Bufo amatolica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9b934beefd
+      - s-34298d1495
+      - s-6b35e5f783
+      - s-a704d2b0c9
+      - s-41ef43bd0d
+      - s-5c21d2a177
+      - s-b2c6708ac6
+      - s-d983fe311c
+      - s-bc8cedbd32
+      - s-f835374fe4
+      - s-45f467ef40
+    zh:
+      - s-9a42cade79
+      - s-913b4d6522
+      - s-22b0cd81ca
+      - s-8574a065b6
+      - s-539a0014e7
+      - s-52560141f6
+      - s-7253087bbd
+      - s-5b11274644
+      - s-0ba3d70518
+      - s-155409c066
+      - s-72591777d5

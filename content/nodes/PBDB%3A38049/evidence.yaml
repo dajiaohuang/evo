@@ -1,0 +1,353 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Mosasauridae
+    commonName: Mosasaurs
+    commonNameZh: 沧龙科
+    rank: family
+    taxonId: txn:38049
+    firstAppearance: 101
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  catalogue-profile:
+    scientificName: Mosasauridae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Mosasauridae
+      en: Mosasauridae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fe1c14f271
+            part: body
+          en:
+            page: en
+            section: s-05ace66dde
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bf8668d36f
+            part: body
+          en:
+            page: en
+            section: s-f2281e74cf
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Mosasauridae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38049
+          locator: Recorded PBDB parent closure beneath the already documented Squamata COL-compatible storage anchor.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38049
+          readingTargets:
+            - name: Kaikaifilu hervei
+              pbdbTaxonId: txn:373813
+              canonicalPath: content/nodes/PBDB%3A373813
+            - name: Hainosaurus neumilleri
+              pbdbTaxonId: txn:216780
+              canonicalPath: content/nodes/PBDB%3A216780
+            - name: Hainosaurus boubker
+              pbdbTaxonId: txn:471650
+              canonicalPath: content/nodes/PBDB%3A471650
+            - name: Taniwhasaurus mikasaensis
+              pbdbTaxonId: txn:197698
+              canonicalPath: content/nodes/PBDB%3A197698
+            - name: Taniwhasaurus oweni
+              pbdbTaxonId: txn:108966
+              canonicalPath: content/nodes/PBDB%3A108966
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-1142547839
+        part: body
+      en:
+        page: en
+        section: s-d4515398e6
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:38049
+    scientificName: Mosasauridae
+    commonName: True mosasaurs
+    commonNameZh: 沧龙科
+    rank: family
+    parentName: Mosasauroidea
+    extinct: true
+    geography:
+      - North-central Texas (middle Turonian Dallasaurus sample)
+      - Maastricht type area, the Netherlands (latest Maastrichtian Mosasaurus sample)
+    regionalRanges:
+      - canonicalRangeId: range:mosasauridae:dallasaurus-middle-turonian
+        label: Dallasaurus middle Turonian occurrence
+    overview:
+      page: en
+      section: s-85845cceed
+      part: body
+    overviewZh:
+      page: zh
+      section: s-d604456637
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-90e845ff8b
+        part: body
+      habitat:
+        page: en
+        section: s-b97adca9e0
+        part: body
+      locomotion:
+        page: en
+        section: s-a35b169d3b
+        part: body
+      bodySize:
+        page: en
+        section: s-7d258f42af
+        part: body
+      guild:
+        page: en
+        section: s-cb8d7d968b
+        part: body
+      dietZh:
+        page: zh
+        section: zh-f4a97c54818f27
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-20ae8846ea5569
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-1f224feeed4ac2
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-84a5bfd682185b
+        part: body
+      guildZh:
+        page: zh
+        section: zh-817e9e0f80c14c
+        part: body
+    traits:
+      - page: en
+        section: s-670aa140eb
+        part: body
+      - page: en
+        section: s-04a61e485a
+        part: body
+      - page: en
+        section: s-e1bdb98d1d
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-fac092a3ab
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-780787d6ac
+      part: body
+    confidence: high
+    referenceIds:
+      - bell-polcyn-2005-dallasaurus
+      - schulp-et-al-2013-mosasaur-resource-partitioning
+      - jagt-et-al-2008-youngest-mosasaurus
+    traitsZh:
+      - page: zh
+        section: zh-2f0ab7d6bfb5c9
+        part: body
+      - page: zh
+        section: zh-5d4adb3208eb6b
+        part: body
+      - page: zh
+        section: zh-a1522a51a72057
+        part: body
+  claims:
+    - subjectId: taxon:mosasauridae
+      claimKind: scientific
+      claimType: taxonomy
+      statement: In Bell and Polcyn's sampled analysis, Mosasauridae includes plesiopedal Dallasaurus as well as more derived hydropedal members, so limb grade alone is not treated as a family diagnosis.
+      confidence: high
+      confidenceRationale: The claim follows the study's systematic assignment and explicit 144-character analysis, while remaining bounded to that matrix and not turning Dallasaurus into a direct ancestor or a universal family definition.
+      referenceLinks:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          relation: supports
+          pages: 177–178, 189–190
+          figure: Figure 7
+          quoteLocator: Abstract; Systematic palaeontology; Discussion and conclusions
+    - subjectId: taxon:mosasauridae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: "The 92–66 Ma Mosasauridae display is a two-study sampled envelope: two Dallasaurus skeletons document a middle Turonian (~92 Ma) occurrence, and Mosasaurus hoffmanni NHMM 2007 093 occurs within one metre below the regional K/Pg boundary; neither edge is an exact global family FAD or LAD."
+      confidence: medium
+      confidenceRationale: Both endpoints are tied to named specimens and explicit stratigraphic contexts, but the rounded envelope joins two local samples and therefore cannot establish unsampled global first or last appearances.
+      referenceLinks:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          relation: supports
+          pages: 177–178
+          figure: none
+          quoteLocator: Abstract; Age and geological context; middle Turonian (~92 Ma) Dallasaurus interval
+        - referenceId: jagt-et-al-2008-youngest-mosasaurus
+          relation: supports
+          pages: 73–77
+          figure: Figures 1–2
+          quoteLocator: Abstract; Material; Discussion; NHMM 2007 093 within one metre below the regional K/Pg boundary
+    - subjectId: taxon:mosasauridae
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profile's geographic examples are restricted to middle Turonian Dallasaurus skeletons from north-central Texas and latest-Maastrichtian Mosasaurus hoffmanni NHMM 2007 093 from the Maastricht type area; they are not a complete Mosasauridae distribution map.
+      confidence: medium
+      confidenceRationale: The two localities and stratigraphic positions are directly reported for named specimens, while the claim explicitly withholds a global distribution inference from two sampled regions.
+      referenceLinks:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          relation: supports
+          pages: 177–178
+          figure: none
+          quoteLocator: Abstract; Age and geological context; north-central Texas
+        - referenceId: jagt-et-al-2008-youngest-mosasaurus
+          relation: supports
+          pages: 73–77
+          figure: Figure 1
+          quoteLocator: Abstract; locality map and provenance of NHMM 2007 093 in the Maastricht type area
+    - subjectId: taxon:mosasauridae
+      claimKind: scientific
+      claimType: morphology
+      statement: The two incomplete Dallasaurus skeletons preserve cranial, axial and plesiopedal limb characters, and the cited analysis places that condition within Mosasauridae alongside independently acquired hydropedal limbs; this is a character-and-topology result, not a linear ancestor-to-descendant sequence.
+      confidence: medium
+      confidenceRationale: Named specimens and figured bones directly support the anatomy, while independent origins of hydropedal limbs depend on the study's character coding and three equally parsimonious trees.
+      referenceLinks:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          relation: supports
+          pages: 177–178, 187–190
+          figure: Figures 5–7
+          quoteLocator: Appendicular skeleton; Phylogenetic analysis; Discussion and conclusions
+    - subjectId: taxon:mosasauridae
+      claimKind: scientific
+      claimType: ecology
+      statement: Bell and Polcyn distinguish small plesiopedal from larger hydropedal adaptive grades, while tooth-enamel carbon isotopes from five type-Maastrichtian mosasaur taxa support marine carnivory and resource partitioning; these samples do not establish one family-wide diet, foraging habitat, swimming mode or body size.
+      confidence: medium
+      confidenceRationale: The adaptive-grade morphology and five-taxon isotope measurements are direct, but ecological interpretation is sample-bounded and combines body size, diet, diving and habitat effects that the isotope study does not fully separate.
+      referenceLinks:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          relation: supports
+          pages: 177–178, 189–190
+          figure: Figures 6–7
+          quoteLocator: Introduction; plesiopedal/hydropedal definitions; Discussion and conclusions
+        - referenceId: schulp-et-al-2013-mosasaur-resource-partitioning
+          relation: supports
+          pages: 165–169
+          figure: Figure 1; Table 1
+          quoteLocator: Introduction; Material; Results and discussion; Conclusions
+  claim-rationales.zh:
+    - 该主张遵循研究中的系统归属和显式 144 性状分析，同时严格限定于该矩阵，不把 Dallasaurus 写成直系祖先或普适的科级定义。
+    - 两个端点都关联到具名标本和明确地层背景，但取整后的包络连接的是两个局部样本，因此不能建立未取样的全球首现或末现。
+    - 两处地点和地层位置均由具名标本直接记录；主张明确拒绝从两个取样地区推演全球分布。
+    - 具名标本和图示骨骼直接支持解剖记录；鳍桨型肢体独立起源则取决于该研究的性状编码和三棵同等简约树。
+    - 适应等级形态和五类群同位素测量属于直接数据，但生态解释受样本限制，并混合了研究未能完全拆分的体型、食性、潜水和生境效应。
+  claim-statements.zh:
+    - 在 Bell 与 Polcyn 的取样分析中，沧龙科既包含步行型的 Dallasaurus，也包含更衍生的鳍桨型成员，因此不能仅凭肢体适应等级诊断该科。
+    - 沧龙科 9200 万至 6600 万年前的显示范围是由两项研究构成的取样包络：两具 Dallasaurus 骨架记录了中土仑期（约 9200 万年前）出现，而 Mosasaurus hoffmanni 标本 NHMM 2007 093 出自区域 K/Pg 界线下方一米以内；两个端点都不是全科精确的全球首现或末现。
+    - 本档案的地理实例仅限于得州中北部中土仑期的 Dallasaurus 骨架，以及马斯特里赫特标准地区最晚马斯特里赫特期的 Mosasaurus hoffmanni 标本 NHMM 2007 093；它们不是完整的沧龙科分布图。
+    - 两具不完整 Dallasaurus 骨架保存头部、轴向骨骼及步行型肢体性状；所引分析把这种状态置于沧龙科内部，并与独立获得的鳍桨型肢体并列。这是性状与拓扑结果，不是线性的祖先—后代序列。
+    - Bell 与 Polcyn 区分了小型步行型和较大型鳍桨型适应等级；马斯特里赫特标准地区五个沧龙类群的牙釉质碳同位素则支持海生肉食与资源分化。这些样本不能建立全科统一的食性、觅食生境、游泳方式或体型。
+  ranges:
+    - entityId: mosasauridae
+      rangeKind: global-composite
+      taxonomicConcept: Mosasauridae
+      geographicScope: Sampled middle Turonian north-central Texas occurrence to a latest Maastrichtian occurrence in the Maastricht type area
+      olderMa: 92
+      youngerMa: 66
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Rounded two-study display envelope. The 92 Ma edge is the age assigned to the Dallasaurus-bearing interval; the 66 Ma edge represents a specimen within one metre below the regional K/Pg boundary. Neither is an exact global family FAD or LAD.
+      evidenceBasis: Two incomplete Dallasaurus skeletons establish a sampled middle Turonian Mosasauridae occurrence, while Mosasaurus hoffmanni NHMM 2007 093 establishes survival to immediately below the regional K/Pg boundary.
+      confidence: medium
+      claimIds:
+        - claim:taxon:mosasauridae:fossil-range
+      referenceLocators:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          locator: pp. 177–178; Abstract; Age and geological context; two skeletons from the middle Turonian (~92 Ma) Arcadia Park Shale
+        - referenceId: jagt-et-al-2008-youngest-mosasaurus
+          locator: pp. 73–77; Abstract; Figs. 1–2; NHMM 2007 093 within one metre below the regional K/Pg boundary
+      evidenceLevel: literature-synthesized
+    - entityId: mosasauridae
+      rangeKind: taxon-range
+      taxonomicConcept: Mosasauridae sample represented by Dallasaurus turneri
+      geographicScope: North-central Texas, United States
+      olderMa: 93.9
+      youngerMa: 89.8
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Stage-level envelope; it does not establish absence outside the cited study sample.
+      evidenceBasis: The stage envelope captures the middle Turonian Dallasaurus skeletons without treating them as a globally complete family range.
+      confidence: medium
+      claimIds:
+        - claim:taxon:mosasauridae:fossil-range
+      referenceLocators:
+        - referenceId: bell-polcyn-2005-dallasaurus
+          locator: pp. 177–194; middle Turonian locality and systematic paleontology
+      evidenceLevel: literature-synthesized

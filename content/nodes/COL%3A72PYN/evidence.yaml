@@ -1,0 +1,409 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Lundia puberula Pittier
+    authorship: Pittier
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 3F4
+        scientificName: Lamiales Bromhead
+        authorship: Bromhead
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 77P
+        scientificName: Bignoniaceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV29D
+        scientificName: Bignonieae Dumort.
+        authorship: Dumort.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 639R8
+        scientificName: Lundia DC.
+        authorship: DC.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 72PYN
+        scientificName: Lundia puberula Pittier
+        authorship: Pittier
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 72PYN; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/72PYN
+          stableId: col:72PYN@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 72PYN; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 72PYN. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_72pyn_distribution_1018
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Lundia puberula Pittier, Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: ranges from British Honduras and southern Mexico to Venezuela.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 1018
+          archiveSourceId: 50EFC400-19C6-43FD-9CA6-041CE406EC8F
+          archiveSourceIds:
+            - 50EFC400-19C6-43FD-9CA6-041CE406EC8F
+          referenceRowNumbers:
+            - 2616
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-36c43c7c-e4ae-84da-a524-ce3685a76474
+                metadataVariant: 0
+                usage:
+                  identifier: 50EFC400-19C6-43FD-9CA6-041CE406EC8F
+                  referenceRowNumber: 2616
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1018 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1018; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:72PYN:row:1018
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1018; field distribution; reference rows 2616.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1018; CC BY 4.0. Citation metadata: Lundia puberula Pittier, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_72pyn_general_2261
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Lundia puberula Pittier, Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Liana to at least 2.5 cm in diameter; stems with 4 phloem arms in cross sec- tion; the branchlets terete, puberulous, nodes with interpetiolar glandular fields; pseudostipules inconspicuous, blunt. Leaves 3-foliolate or 2-foliolate with a ten- dril or tendril scar; leaflets ovate, long-acuminate, basally truncate to asymmetri- cally cordate, 7.4-9.2 cm long and 4.6-5.7 cm wide, membranaceous, palmately veined at the base, the secondary veins 3-5 on a side, sparsely subpuberulous at least on the main veins above and beneath with a few longer trichomes in the axils of lateral nerves beneath and scattered lepidote scales mostly beneath, the margins strongly ciliate, plate-shaped glands near the midvein beneath, lepidote- glandular basally, drying olive brown to reddish-brown; tendril simple, 5-10 cm long; petiolules 2-2.3 cm long, the petiole 2.4-2.9 cm long, puberulous. Inflores- cence an axillary or terminal panicle, the branches puberulous. Flowers with the calyx in young bud conical-pointed, at length truncate, the tip calypterate and evenly dehiscent, or 2 (-3) -labiate and the tip splitting, 4-6 mm long and 3-4 mm wide, subpuberulous; corolla pale pink or lavender to magenta, tubular- campanulate or infundibuliform, 3.1-5.8 cm long and 0.7-1.5 cm wide at the mouth, the tube 2.5-4.0 cm long, the lobes 0.8-2.1 cm long, densely simple puber- ulous outside, the lobes ciliate-margined, glandular-lepidote and puberulous with simple trichomes inside, the throat glabrous inside or with a few scattered gland- tipped trichomes at and below the level of stamen insertion; stamens didynamous, the anther thecae divaricate, 3-4 mm long, the longer filaments 1.5-2.1 cm long, the shorter pair 1.0-1.3 cm long, the staminode 1-2 mm long, inserted 11-15 mm from the base of corolla tube; pistil 2.9-3.2 cm long, the style somewhat puber- ulous at least toward the apex, the ovary cylindric, 2.5-3.0 mm long and 1 mm wide, strongly appressed puberulous, the ovules 4-seriate in each locule; disc absent. Capsule linear, the valves somewhat compressed, the midvein conspicu- ously raised, the margins raised but rounded, velvety pubescent, drying blackish, 25-45 cm long and 1.5-1.6 cm wide; the seeds thin, bialate, 0.9-1.2 cm long and 3.3-3.5 cm wide, the wings membranaceous, basally brown, dirty-hyaline at the tip, not clearly demarcated from the seed body.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 2261
+          archiveSourceId: 22583B39-620F-4F77-8307-0D9EAF81D03B
+          archiveSourceIds:
+            - 22583B39-620F-4F77-8307-0D9EAF81D03B
+          referenceRowNumbers:
+            - 3413
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-36c43c7c-e4ae-84da-a524-ce3685a76474
+                metadataVariant: 0
+                usage:
+                  identifier: 22583B39-620F-4F77-8307-0D9EAF81D03B
+                  referenceRowNumber: 3413
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2261 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2261; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:72PYN:row:2261
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2261; field general; reference rows 3413.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2261; CC BY 4.0. Citation metadata: Lundia puberula Pittier, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_72pyn_habit_2262
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Lundia puberula Pittier, Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Liana
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 2262
+          archiveSourceId: FD63AAB1-3AAE-4300-80C5-F0AA10128415
+          archiveSourceIds:
+            - FD63AAB1-3AAE-4300-80C5-F0AA10128415
+          referenceRowNumbers:
+            - 3414
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-36c43c7c-e4ae-84da-a524-ce3685a76474
+                metadataVariant: 0
+                usage:
+                  identifier: FD63AAB1-3AAE-4300-80C5-F0AA10128415
+                  referenceRowNumber: 3414
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2262 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2262; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:72PYN:row:2262
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2262; field habit; reference rows 3414.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2262; CC BY 4.0. Citation metadata: Lundia puberula Pittier, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Liana to at least 2.5 cm in diameter; stems with 4 phloem arms in cross sec- tion; the branchlets terete, puberulous, nodes with interpetiolar glandular fields; pseudostipules inconspicuous, blunt. Leaves 3-foliolate or 2-foliolate with a ten- dril or tendril scar; leaflets ovate, long-acuminate, basally truncate to asymmetri- cally cordate, 7.4-9.2 cm long and 4.6-5.7 cm wide, membranaceous, palmately veined at the base, the secondary veins 3-5 on a side, sparsely subpuberulous at least on the main veins above and beneath with a few longer trichomes in the axils of lateral nerves beneath and scattered lepidote scales mostly beneath, the margins strongly ciliate, plate-shaped glands near the midvein beneath, lepidote- glandular basally, drying olive brown to reddish-brown; tendril simple, 5-10 cm long; petiolules 2-2.3 cm long, the petiole 2.4-2.9 cm long, puberulous. Inflores- cence an axillary or terminal panicle, the branches puberulous. Flowers with the calyx in young bud conical-pointed, at length truncate, the tip calypterate and evenly dehiscent, or 2 (-3) -labiate and the tip splitting, 4-6 mm long and 3-4 mm wide, subpuberulous; corolla pale pink or lavender to magenta, tubular- campanulate or infundibuliform, 3.1-5.8 cm long and 0.7-1.5 cm wide at the mouth, the tube 2.5-4.0 cm long, the lobes 0.8-2.1 cm long, densely simple puber- ulous outside, the lobes ciliate-margined, glandular-lepidote and puberulous with simple trichomes inside, the throat glabrous inside or with a few scattered gland- tipped trichomes at and below the level of stamen insertion; stamens didynamous, the anther thecae divaricate, 3-4 mm long, the longer filaments 1.5-2.1 cm long, the shorter pair 1.0-1.3 cm long, the staminode 1-2 mm long, inserted 11-15 mm from the base of corolla tube; pistil 2.9-3.2 cm long, the style somewhat puber- ulous at least toward the apex, the ovary cylindric, 2.5-3.0 mm long and 1 mm wide, strongly appressed puberulous, the ovules 4-seriate in each locule; disc absent. Capsule linear, the valves somewhat compressed, the midvein conspicu- ously raised, the margins raised but rounded, velvety pubescent, drying blackish, 25-45 cm long and 1.5-1.6 cm wide; the seeds thin, bialate, 0.9-1.2 cm long and 3.3-3.5 cm wide, the wings membranaceous, basally brown, dirty-hyaline at the tip, not clearly demarcated from the seed body.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_72pyn_general_2261
+            locator: "Flora of Panama general field; imported row 2261; sourceIds 22583B39-620F-4F77-8307-0D9EAF81D03B; reference rows 3413; citations: 22583B39-620F-4F77-8307-0D9EAF81D03B: Lundia puberula Pittier, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 3413)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: ranges from British Honduras and southern Mexico to Venezuela.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_72pyn_distribution_1018
+            locator: "Flora of Panama distribution field; imported row 1018; sourceIds 50EFC400-19C6-43FD-9CA6-041CE406EC8F; reference rows 2616; citations: 50EFC400-19C6-43FD-9CA6-041CE406EC8F: Lundia puberula Pittier, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 2616)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.

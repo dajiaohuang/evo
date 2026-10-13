@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus pinangoi
+  displayName: Atelopus pinangoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J929
+  sourceIndexes:
+    - name:
+        en: Atelopus pinangoi
+        zh: Atelopus pinangoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J929
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/306
+            queryName: Atelopus pinangoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ed663f4f05
+      - s-25a5d40358
+      - s-554dea143d
+      - s-e625d7d6ae
+      - s-b594ba0e9d
+      - s-102f3eaa89
+      - s-0b94822d1e
+      - s-1f44a732e7
+      - s-00d708ca9d
+    zh:
+      - s-175971ff5a
+      - s-281fcabf15
+      - s-1a9fa6587f
+      - s-ed3ea459b3
+      - s-107d26a492
+      - s-c7754d4d09
+      - s-13095f2cde
+      - s-a486f1cd0b
+      - s-a233f81459

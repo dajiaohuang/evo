@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus mystax
+  displayName: Hyloxalus mystax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGXR
+  sourceIndexes:
+    - name:
+        en: Hyloxalus mystax
+        zh: Hyloxalus mystax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGXR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/117
+            queryName: Hyloxalus mystax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/120
+            queryName: Colostethus mystax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-48bc9fa73b
+      - s-85557b567f
+      - s-fc57b00579
+      - s-60379d1000
+      - s-a6b46c7393
+      - s-97d789cdad
+      - s-5dfe4067c7
+      - s-d03984c4e4
+    zh:
+      - s-bf933aef0d
+      - s-5f33485701
+      - s-99f424d7c9
+      - s-5e2707748d
+      - s-561c88e6ba
+      - s-f17ae95fd3
+      - s-5f7abd9ebd
+      - s-5dab51e775

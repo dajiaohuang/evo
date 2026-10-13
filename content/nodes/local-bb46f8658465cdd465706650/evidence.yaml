@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Megophrys obesa
+    name:
+      en: Megophrys obesa
+      zh: Megophrys obesa
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Megophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5907372450
+            part: body
+          zh:
+            page: zh
+            section: s-185a253ed6
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2e8780a8b2
+            part: body
+          zh:
+            page: zh
+            section: s-aaa8a72e3f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3133, 3134; Reference.csv rows 795
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3133
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys obesa
+          - M
+          - "35.6"
+          - "12.6"
+          - "13.8"
+          - "4.1"
+          - "2.7"
+          - "2.1"
+          - "3.7"
+          - "3.9"
+          - NA
+          - NA
+          - "4.4"
+          - NA
+          - "8.2"
+          - "8.8"
+          - NA
+          - NA
+          - "20.9"
+          - "15.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3134
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys obesa
+          - F
+          - "38.8"
+          - "13.8"
+          - "14.8"
+          - "4.5"
+          - "2.5"
+          - "2.5"
+          - "4.1"
+          - "4.5"
+          - NA
+          - NA
+          - "4.5"
+          - NA
+          - "9.5"
+          - "10.3"
+          - NA
+          - NA
+          - "24.2"
+          - "16.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 795
+        values:
+          - Anura
+          - Megophrys_obesa
+          - "Li, Y. L., Jin, M. J., Zhao, J., Liu, Z. Y., Wang, Y. Y., & Pang, H. (2014). Description of two new species of the genus Megophrys (Amphibia: Anura: Megophryidae) from Heishiding Nature Reserve, Fengkai, Guangdong, China, based on molecular and morphological data. Zootaxa, 3795(4), 449-471. https://doi.org/10.11646/zootaxa.3795.4.5"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - TFL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

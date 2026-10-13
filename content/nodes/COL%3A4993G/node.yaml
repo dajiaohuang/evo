@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon luizotavioi
+  displayName: Ololygon luizotavioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4993G
+  sourceIndexes:
+    - name:
+        en: Ololygon luizotavioi
+        zh: Ololygon luizotavioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4993G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/131
+            queryName: Ololygon luizotavioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/50
+            queryName: Scinax luizotavioi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dc7a0e22f6
+      - s-1518560ec0
+      - s-16cc219d54
+      - s-958703c093
+      - s-6e0ab37cb1
+      - s-55a06a35cf
+      - s-7d698304d8
+      - s-b2344d65c9
+      - s-e47fb73895
+      - s-1e83dda22d
+      - s-fbad6fe237
+      - s-52c0003748
+      - s-e162f856d1
+    zh:
+      - s-05b2de8a6a
+      - s-5674d68b73
+      - s-3ddfe5ac60
+      - s-79e5ce439e
+      - s-8d0130a6a0
+      - s-8f52e36168
+      - s-9f7aa53b28
+      - s-4f86a1b8a9
+      - s-5fd6cf897b
+      - s-5d12ea1f2c
+      - s-f39025d0b5
+      - s-4ea12c4484
+      - s-7938393c7e

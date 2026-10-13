@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus hoogmoedi
+  displayName: Atelopus hoogmoedi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5W7JY
+  sourceIndexes:
+    - name:
+        en: Atelopus hoogmoedi
+        zh: Atelopus hoogmoedi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5W7JY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/269
+            queryName: Atelopus hoogmoedi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/410
+            queryName: Atelopus pulcher hoogmoedi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/411
+            queryName: Atelopus spumarius hoogmoedi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/412
+            queryName: Atelopus hoogmoedi hoogmoedi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/413
+            queryName: Atelopus hoogmoedi nassaui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-719638f8e3
+      - s-a584e1aca3
+      - s-f2144e00c6
+      - s-bb8c56de7a
+      - s-709587e9ab
+      - s-8a021f93a6
+      - s-705fbddd92
+      - s-c509c5b19a
+    zh:
+      - s-02a21788a2
+      - s-ca1e55de76
+      - s-2b0f44133f
+      - s-5f3029ead3
+      - s-b9ef6a5b8b
+      - s-2ffe37e732
+      - s-f31c3e05c5
+      - s-45424af122

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osteocephalus buckleyi
+  displayName: Osteocephalus buckleyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6TBMM
+  sourceIndexes:
+    - name:
+        en: Osteocephalus buckleyi
+        zh: Osteocephalus buckleyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6TBMM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/336
+            queryName: Osteocephalus buckleyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/41
+            queryName: Hyla buckleyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/42
+            queryName: Osteocephalus vilmae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-14c338a6f3
+      - s-031a040632
+      - s-94e94faa41
+      - s-0b396e3017
+      - s-4a88aacfe8
+      - s-e5bd654735
+      - s-157207b4ee
+      - s-60ae3ae055
+      - s-3ffe774a2a
+      - s-5b18ecdb47
+      - s-d3935b640d
+      - s-2773468ea2
+      - s-fca0517761
+    zh:
+      - s-0a66d9e7fb
+      - s-1938a629cc
+      - s-04fffad56d
+      - s-54049de16d
+      - s-9a340f577d
+      - s-6786399929
+      - s-b7ccd3bd36
+      - s-2bc7f9419c
+      - s-2f53587917
+      - s-a1fd1b6bc6
+      - s-a2d6eac411
+      - s-8dae2cf496
+      - s-d6b04698fa

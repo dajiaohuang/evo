@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aerodramus terraereginae
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Aerodramus terraereginae
+      en: Aerodramus terraereginae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetAerodramusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-28f058144b
+            part: body
+          en:
+            page: en
+            section: s-b8b2554ad2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetAerodramusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-d5406019e9
+            part: body
+          en:
+            page: en
+            section: s-54435bb9a9
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetAerodramusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-6f06932469
+            part: body
+          en:
+            page: en
+            section: s-df93b64a4e
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetAerodramusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-4f8d5de7cc
+            part: body
+          en:
+            page: en
+            section: s-4d866a6f06
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetAerodramusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-8b470eaf9b
+            part: body
+          en:
+            page: en
+            section: s-a5841c4103
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Aerodramus terraereginae
+          url: https://www.checklistbank.org/dataset/316115/taxon/64Z4W
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetAerodramusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Aerodramus historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 12 selected AVONET1_BirdLife rows within 505–527; each eBird and BirdTree crosswalk, ae/col COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 十二条历史行：旧 Collocalia 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Twelve historical rows: retain older Collocalia combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-1912d57db2
+        part: body
+      en:
+        page: en
+        section: s-ff35c98c80
+        part: body

@@ -1,0 +1,205 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Raorchestes shillongensis
+    name:
+      en: Raorchestes shillongensis
+      zh: Raorchestes shillongensis
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Raorchestes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Raorchestes shillongensis in the morphology deposit
+          zh: 形态数据中的 Raorchestes shillongensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f9eec7d65a
+            part: body
+          zh:
+            page: zh
+            section: s-75f500099d
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5320: measurement fields and sex codes"
+          zh: 第 5320 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-967814e7ce
+            part: body
+          zh:
+            page: zh
+            section: s-8acdc4a4bf
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5320; Reference.csv rows 1289
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5320
+        values:
+          - Rhacophoridae
+          - Raorchestes
+          - Raorchestes shillongensis
+          - NA
+          - "14.6875"
+          - "4.125"
+          - "4.775"
+          - "1.9125"
+          - "0.95"
+          - NA
+          - "2.225"
+          - NA
+          - NA
+          - NA
+          - "2.2375"
+          - "1.3625"
+          - "3.4375"
+          - NA
+          - NA
+          - "5.0625"
+          - NA
+          - "6.8375"
+          - NA
+          - NA
+          - "22.75"
+          - NA
+          - "1.05"
+          - "1.225"
+          - "2.05"
+          - "2.8"
+          - "1.85"
+          - "1.2"
+          - "1.925"
+          - "2.375"
+          - "1.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1289
+        values:
+          - Anura
+          - Raorchestes_shillongensis
+          - Pillai, R.S., Chanda, S.K.  (1973) Philautus shillongensis, a new frog (ranidae) from Meghalaya, India. Proc. Indian Acad. Sci, 78, 30–36. https://doi.org/10.1007/BF03045421
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - SL
+      - NS
+      - HAL
+      - FL
+      - TL
+      - HLL
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4RJB2
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,118 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus osorioi
+  displayName: Afrixalus osorioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G66
+  sourceIndexes:
+    - name:
+        en: Afrixalus osorioi
+        zh: Afrixalus osorioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G66
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/79
+            queryName: Afrixalus osorioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/433
+            queryName: Rappia osorioi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/434
+            queryName: Hyperolius osorioi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/71
+            queryName: Megalixalus fornasinii congicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/72
+            queryName: Afrixalus fornasini congicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/73
+            queryName: Afrixalus dorsalis congicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/74
+            queryName: Afrixalus congicus congicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/75
+            queryName: Afrixalus osorioi congicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca9705eefe
+      - s-3971340458
+      - s-c7836a829b
+      - s-e3bcad7ea6
+      - s-94d36fcede
+      - s-2f28deb6e1
+      - s-0cebb2652b
+      - s-1f15c9e3c7
+      - s-d2b8834821
+      - s-0c59434027
+      - s-0f5c483490
+      - s-a378784929
+      - s-efe2538e56
+      - s-2564b1e456
+      - s-cd43c6539e
+      - s-87b9834f55
+      - s-e96def335d
+      - s-f0594e2964
+    zh:
+      - s-baed62f0e1
+      - s-33a4d14219
+      - s-f3430fb385
+      - s-4e841d975f
+      - s-8b8fa19745
+      - s-b6db5ef475
+      - s-918cfac268
+      - s-0c41e56e17
+      - s-2fcb230d1c
+      - s-bb3a06eb91
+      - s-2e13fa2be2
+      - s-b05adf38ad
+      - s-3626057093
+      - s-2bbe3b0001
+      - s-62dd73dcc4
+      - s-bfb13c2413
+      - s-26bf3add23
+      - s-86979e4a24

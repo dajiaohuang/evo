@@ -1,0 +1,103 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-65c29a9d1c
+      part: title
+    titleZh:
+      page: zh
+      section: s-a7b73a4b86
+      part: title
+    category: transition
+    startAge: 2450
+    endAge: 2050
+    regions:
+      - Global
+    clades:
+      - Bacteria
+      - Archaea
+      - early eukaryotic lineages
+    summary:
+      page: en
+      section: s-65c29a9d1c
+      part: body
+    summaryZh:
+      page: zh
+      section: s-a7b73a4b86
+      part: body
+    claimIds:
+      - claim:event:great-oxidation
+    evidenceItems:
+      - statement: Mass-independent sulfur isotope signal disappears
+        relation: supports
+        claimIds:
+          - claim:event:great-oxidation
+        referenceLinks:
+          - relation: supports
+            referenceId: lyons-2014-oxygenation
+            pages: 307–315
+      - statement: Oxidized continental deposits become widespread
+        relation: supports
+        claimIds:
+          - claim:event:great-oxidation
+        referenceLinks:
+          - relation: supports
+            referenceId: lyons-2014-oxygenation
+            pages: 307–315
+      - statement: Carbon and sulfur cycles reorganize
+        relation: supports
+        claimIds:
+          - claim:event:great-oxidation
+        referenceLinks:
+          - relation: supports
+            referenceId: lyons-2014-oxygenation
+            pages: 307–315
+      - statement: U–Pb baddeleyite ages bracket the onset at about 2,460–2,426 Ma
+        relation: supports
+        claimIds:
+          - claim:event:great-oxidation
+        referenceLinks:
+          - relation: supports
+            referenceId: gumsley-2017-goe
+            pages: 1811–1816
+            figure: Figure 1
+            quoteLocator: Results; Table 1; SI Tables S1 and S4–S5
+    uncertaintyItems:
+      - statement: Oxygenation was episodic rather than a single instant
+        relation: contextualizes
+        claimIds:
+          - claim:event:great-oxidation
+        referenceLinks:
+          - relation: supports
+            referenceId: lyons-2014-oxygenation
+            pages: 307–315
+      - statement: Local oceans followed different redox histories
+        relation: contextualizes
+        claimIds:
+          - claim:event:great-oxidation
+        referenceLinks:
+          - relation: supports
+            referenceId: lyons-2014-oxygenation
+            pages: 307–315
+  claims:
+    - subjectId: event:great-oxidation
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Sulfur-isotope and redox records support a prolonged oxygenation transition; U–Pb baddeleyite ages place its onset between about 2,460 and 2,426 Ma rather than at one instantaneous boundary.
+      confidence: high
+      confidenceRationale: The proxy transition is supported across a broad synthesis and the onset bracket comes from directly dated igneous units. High confidence applies to that bounded onset interval, not to a single universal oxygen threshold or trigger.
+      referenceLinks:
+        - relation: supports
+          referenceId: gumsley-2017-goe
+          pages: 1811–1816
+          figure: Figure 1
+          quoteLocator: Results; Table 1; SI Tables S1 and S4–S5
+        - relation: contextualizes
+          referenceId: lyons-2014-oxygenation
+          pages: 307–315
+          quoteLocator: Great Oxidation Event synthesis and proxy discussion
+  claim-rationales.zh:
+    - 一手 U–Pb 测年把大氧化事件起始约束在约 24.60–24.26 亿年前，综合代用指标则说明变化是分阶段的；高置信度不等于存在单一全球氧阈值或唯一触发机制。
+  claim-statements.zh:
+    - 硫同位素与氧化还原记录支持一个持续的增氧转变；晶质铀铅测年把其起始置于约 24.60–24.26 亿年前之间，而不是一个瞬时界线。

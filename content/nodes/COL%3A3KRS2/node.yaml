@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemiphractus johnsoni
+  displayName: Hemiphractus johnsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KRS2
+  sourceIndexes:
+    - name:
+        en: Hemiphractus johnsoni
+        zh: Hemiphractus johnsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KRS2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/266
+            queryName: Hemiphractus johnsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/356
+            queryName: Cerathyla johnsoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-39791b4028
+      - s-f8cc0da7c6
+      - s-d71f63ad0e
+      - s-bcefd1d4af
+      - s-59b9ce9694
+      - s-9e48c1b6c7
+      - s-43e1b7cd6b
+      - s-85f2c20e08
+      - s-4fd86f6b38
+      - s-25aacb66ec
+    zh:
+      - s-df9034eba5
+      - s-1e1b8d0be3
+      - s-b60d5f9b41
+      - s-c2a1d48eea
+      - s-e3b0666a52
+      - s-39206ba9b4
+      - s-27d509c070
+      - s-47890c2508
+      - s-71bf0570b6
+      - s-4dfb572eff

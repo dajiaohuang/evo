@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus major
+  displayName: Nyctibatrachus major
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485GC
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus major
+        zh: Nyctibatrachus major
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485GC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/352
+            queryName: Nyctibatrachus major
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/175
+            queryName: Rana travancorica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c33190ef1a
+      - s-4aea4a9efd
+      - s-df4a219732
+      - s-48a03356ba
+      - s-76a10dfc4a
+      - s-a3b5d1fb51
+      - s-3031d0e662
+      - s-473e592e3d
+      - s-16e79b5805
+      - s-14cdf85817
+      - s-2c4d0f315d
+    zh:
+      - s-82e2d4fac8
+      - s-fab2be328c
+      - s-669d6d3c5c
+      - s-58352838ff
+      - s-a344721a8f
+      - s-ffa1788010
+      - s-f96a7411ea
+      - s-89cc66ae93
+      - s-3cb7db0809
+      - s-16550f7e50
+      - s-87f303d4a9

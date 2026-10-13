@@ -1,0 +1,393 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Lithobates palustris
+    name:
+      en: Lithobates palustris
+      zh: Lithobates palustris
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: TadpoleTraits classification for Lithobates palustris
+          zh: TadpoleTraits 对 Lithobates palustris 的分类
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-9003b4f945
+            part: body
+          zh:
+            page: zh
+            section: s-eaca4e45a7
+            part: body
+      - topic: morphology
+        title:
+          en: 0 literature rows and 2 image rows
+          zh: 0 条文献行与 2 条图像行
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-a56b206e45
+            part: body
+          zh:
+            page: zh
+            section: s-2dc7c60237
+            part: body
+      - topic: morphology
+        title:
+          en: Image proportions from rows 782, 783
+          zh: 来源第 782、783 行的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-8d4cbdae10
+            part: body
+          zh:
+            page: zh
+            section: s-cc20b7e181
+            part: body
+      - topic: overview
+        title:
+          en: 7 image ratio fields flagged for review
+          zh: 7 个图像比例字段需复核
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-d54e45e2cf
+            part: body
+          zh:
+            page: zh
+            section: s-383977b995
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 782, 783; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Ranidae
+      genus: Lithobates
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 782
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Black-and-white image
+          - Lithobates palustris
+          - Ranidae
+          - Lithobates
+          - Lithobates palustris
+          - 25
+          - 28
+          - 9.509
+          - 18.388
+          - 5.389
+          - 5.706
+          - 2.327
+          - 2.853
+          - 0.769
+          - null
+          - null
+          - null
+          - 0.33967142857143
+          - 0.656714285714286
+          - 0.192464285714286
+          - 0.23785714285714
+          - 0.83171428571429
+          - 0.11892857142857
+          - 0.274642857142857
+          - null
+          - null
+          - null
+          - Yanfang Song
+      - rowNumber: 783
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Color image
+          - Lithobates palustris
+          - Ranidae
+          - Lithobates
+          - Lithobates palustris
+          - 25
+          - 55
+          - 18.458
+          - 36.171
+          - 10.627
+          - 13.611
+          - 4.847
+          - 5.41
+          - 3.733
+          - null
+          - null
+          - null
+          - 0.3356
+          - 0.657654545454545
+          - 0.193218181818182
+          - 0.247472727272727
+          - 0.881272727272727
+          - 0.983636363636364
+          - 0.678727272727273
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 782
+        scientificName: Lithobates palustris
+        sourceField: MTH/TL
+        suppliedRatio: 0.23785714285714
+        originalNumerator: 5.706
+        originalTotalLength: 28
+        computedRatio: 0.2037857142857143
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 782
+        scientificName: Lithobates palustris
+        sourceField: TMH/TL
+        suppliedRatio: 0.83171428571429
+        originalNumerator: 2.327
+        originalTotalLength: 28
+        computedRatio: 0.08310714285714285
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 782
+        scientificName: Lithobates palustris
+        sourceField: DFH/TL
+        suppliedRatio: 0.11892857142857
+        originalNumerator: 2.853
+        originalTotalLength: 28
+        computedRatio: 0.10189285714285715
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 782
+        scientificName: Lithobates palustris
+        sourceField: VFH/TL
+        suppliedRatio: 0.274642857142857
+        originalNumerator: 0.769
+        originalTotalLength: 28
+        computedRatio: 0.027464285714285715
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 783
+        scientificName: Lithobates palustris
+        sourceField: TMH/TL
+        suppliedRatio: 0.881272727272727
+        originalNumerator: 4.847
+        originalTotalLength: 55
+        computedRatio: 0.08812727272727273
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 783
+        scientificName: Lithobates palustris
+        sourceField: DFH/TL
+        suppliedRatio: 0.983636363636364
+        originalNumerator: 5.41
+        originalTotalLength: 55
+        computedRatio: 0.09836363636363636
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 783
+        scientificName: Lithobates palustris
+        sourceField: VFH/TL
+        suppliedRatio: 0.678727272727273
+        originalNumerator: 3.733
+        originalTotalLength: 55
+        computedRatio: 0.06787272727272728
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.33967142857143
+        row: 782
+        stage: 25
+        type: Measurement
+        imageType: Black-and-white image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.656714285714286
+        row: 782
+        stage: 25
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.192464285714286
+        row: 782
+        stage: 25
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.3356
+        row: 783
+        stage: 25
+        type: Measurement
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.657654545454545
+        row: 783
+        stage: 25
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3VHQN
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

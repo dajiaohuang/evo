@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heterixalus andrakata
+  displayName: Heterixalus andrakata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3L7NG
+  sourceIndexes:
+    - name:
+        en: Heterixalus andrakata
+        zh: Heterixalus andrakata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3L7NG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/283
+            queryName: Heterixalus andrakata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 42
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f4b3aa54cd
+      - s-7539d5e90c
+      - s-d79ef6615d
+      - s-93125a9565
+      - s-129b3d99f6
+      - s-ddc81ee6fc
+      - s-299727d651
+      - s-4794271d56
+      - s-66606d6e18
+      - s-227cafe7b3
+    zh:
+      - s-79d1a6aa0a
+      - s-eb31ee983d
+      - s-d6206d0efe
+      - s-abbbad6f13
+      - s-4d211aa89a
+      - s-9e1d5beea9
+      - s-c968e6e562
+      - s-569d86471e
+      - s-348920c731
+      - s-b26ff6491f

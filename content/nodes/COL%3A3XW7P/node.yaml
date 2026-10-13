@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella milotympanum
+  displayName: Mantella milotympanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7P
+  sourceIndexes:
+    - name:
+        en: Mantella milotympanum
+        zh: Mantella milotympanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/296
+            queryName: Mantella milotympanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/185
+            queryName: Mantella aurantiaca milotympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2ee689a48d
+      - s-fe8f81de2b
+      - s-68b60b7757
+      - s-ed14a8dce1
+      - s-c73155a86b
+      - s-ad08040ebe
+      - s-715ce9cecd
+      - s-09173c5124
+      - s-95669ff317
+      - s-67796e8d5c
+      - s-f5e2f744b0
+    zh:
+      - s-63ab0d9a8b
+      - s-2e6c33718f
+      - s-7b9c505f9e
+      - s-a460bbb102
+      - s-cfff1e3767
+      - s-4d7c3f5675
+      - s-3bf95e4996
+      - s-be6c256d5b
+      - s-8e807ac33e
+      - s-7787eecda2
+      - s-417f658001

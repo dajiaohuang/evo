@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pachytriton archospotus
+  displayName: Pachytriton archospotus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75J9F
+  sourceIndexes:
+    - name:
+        en: Pachytriton archospotus
+        zh: Pachytriton archospotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75J9F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/376
+            queryName: Pachytriton archospotus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-56a7f3de80
+      - s-08b812569a
+      - s-f3c5f1e472
+      - s-9b61064b24
+      - s-955dcee0b8
+      - s-390df87abd
+      - s-d5baa58bb0
+    zh:
+      - s-b0e1ed7dd2
+      - s-c770391126
+      - s-b461556b5e
+      - s-a7c8887775
+      - s-7d266430c1
+      - s-ffa867b8c2
+      - s-8b8d53003e

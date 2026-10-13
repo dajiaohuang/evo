@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Lechriodus casca
+    rank: species
+    sourceTaxonId: txn:333977
+    name:
+      en: Lechriodus casca
+      zh: Lechriodus casca
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-9aab13236a
+            part: body
+          zh:
+            page: zh
+            section: s-0afc880a8d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-21b4dcf192
+            part: body
+          zh:
+            page: zh
+            section: s-19a775ddaf
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Lechriodus casca
+          zh: Lechriodus casca 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-f27b8fe849
+            part: body
+          zh:
+            page: zh
+            section: s-77917888f1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:333977; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "M. J. Tyler and H. Godthelp. 1993. A new species of Lechriodus Boulenger (Anura: Leptodactylidae) from the Early Eocene of Queensland. Transactions of the Royal Society of South Australia 117(4):187-189"
+    occurrenceEvidence:
+      - occurrenceId: occ:1309302
+        collectionId: col:59088
+        acceptedTaxonId: txn:333977
+        identifiedName: Lechriodus casca n. sp.
+        taxonomicDifference: null
+        referenceId: ref:57503
+        bibliography: "M. J. Tyler and H. Godthelp. 1993. A new species of Lechriodus Boulenger (Anura: Leptodactylidae) from the Early Eocene of Queensland. Transactions of the Royal Society of South Australia 117(4):187-189"
+        locality:
+          countryCode: AU
+          stateProvince: Queensland
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 56
+        youngerAgeMa: 48.07
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Lechriodus casca
+          zh: Lechriodus casca 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-f27b8fe849
+            part: body
+          zh:
+            page: zh
+            section: s-77917888f1
+            part: body
+        sourceIds: []

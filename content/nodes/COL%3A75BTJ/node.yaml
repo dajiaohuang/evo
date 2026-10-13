@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osornophryne percrassa
+  displayName: Osornophryne percrassa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75BTJ
+  sourceIndexes:
+    - name:
+        en: Osornophryne percrassa
+        zh: Osornophryne percrassa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75BTJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/330
+            queryName: Osornophryne percrassa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0a8a9aae80
+      - s-31260ae21c
+      - s-2068897a87
+      - s-28257af342
+      - s-1b377b03cb
+      - s-9a76ee217b
+      - s-fd2eb02e4b
+      - s-806fbcf335
+      - s-32b2919a2f
+    zh:
+      - s-1746ab1021
+      - s-ed6c4ec7ff
+      - s-36ce1f2bad
+      - s-efda4abd26
+      - s-55a1b75499
+      - s-af1e146de5
+      - s-8dcb497fcf
+      - s-dc77d0ba91
+      - s-b82a38c17e

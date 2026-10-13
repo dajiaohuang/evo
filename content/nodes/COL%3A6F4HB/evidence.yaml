@@ -1,0 +1,640 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Elephantopus mollis Kunth
+    authorship: Kunth
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: ST
+        scientificName: Asterales Link
+        authorship: Link
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 622TP
+        scientificName: Asteraceae Dumort.
+        authorship: Dumort.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 7NM4T
+        scientificName: Vernonioideae Lindl.
+        authorship: Lindl.
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KVWV4
+        scientificName: Vernonieae Cass.
+        authorship: Cass.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV8S9
+        scientificName: Elephantopinae Less.
+        authorship: Less.
+        rank: subtribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 632HF
+        scientificName: Elephantopus L.
+        authorship: L.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 6F4HB
+        scientificName: Elephantopus mollis Kunth
+        authorship: Kunth
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 6F4HB; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/6F4HB
+          stableId: col:6F4HB@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 6F4HB; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6F4HB. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_6f4hb_distribution_1377
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Elephantopus mollis Kunth, Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: pantropical.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 1377
+          archiveSourceId: B8F19885-3AB3-4AC2-A57F-AFDDD9776C59
+          archiveSourceIds:
+            - B8F19885-3AB3-4AC2-A57F-AFDDD9776C59
+          referenceRowNumbers:
+            - 2152
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-6b152ef3-8cc6-8dcf-a1bd-a48aafc6c1f0
+                metadataVariant: 0
+                usage:
+                  identifier: B8F19885-3AB3-4AC2-A57F-AFDDD9776C59
+                  referenceRowNumber: 2152
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1377 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1377; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6F4HB:row:1377
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1377; field distribution; reference rows 2152.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1377; CC BY 4.0. Citation metadata: Elephantopus mollis Kunth, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_6f4hb_general_1387
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Elephantopus mollis Kunth, Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Coarse perennial herbs mostly 30-150 (-200) cm tall, occasionally from a creeping rootstock; stem erect, leafy, usually hollow, villous, the trichomes to 1.5 mm long. Leaves cauline, rarely basal, more or less oblanceolate, basally attenuate, apically acute, crenate, mostly 7-22 cm long, 2-7 cm wide, less than 3?/ times longer than wide, chartaceous, green throughout, darker above, resin-dotted and densely soft-puberulent beneath, the trichomes to 0.5 mm long, slightly longer on the veins, above muricate and sparsely appressed-pubescent, somewhat obscurely veined above; petioles broadly expanded at the base, clasping. Inflores- cence solitary, terminal, a much-branched corymbose panicle, the branches sub- tended by oblong leaflike bracts to 6 cm long; peduncles appressed-pubescent; glomerules many, with ca. 40 heads, hemispheric, to 10 mm high and 20 mm across, subtended by 2 or 3 ovate bracts; bracts obtuse at base, slightly acuminate, 6-12 mm long, the venation arcuate-ascending, conspicuous beneath, obscure above. Heads with 4 florets; involucral bracts 8, in 2 decussate series, minutely sericeous towards the apex, usually resin-dotted, the outer 4 lanceolate, 4.5-5.0 mm long, the inner 4 lanceolate-oblong, acuminate, 5.5-7.5 mm long; corolla white or occasionally pinkish, the tube slender, 3.0-4.0 mm long, ca. 0.15 mm wide, the limb ca. 2.0 mm long, deeply divided on the adaxial side, 5-parted, the lobes linear, ca. 1.2 mm long, ca. 0.18 mm wide; anthers ca. 1.0 mm long, ca. 0.18 mm wide, basally sagittate, 0.12-0.15 mm long, the apical appendage ca. 0.1 mm long; style branches slender, terete, somewhat flattened adaxially, ca. 0.7 mm long, strigulose throughout, but less densely on the adaxial surfaces. Achenes obovoid, slightly flattened, 10-ribbed, 1.9-2.7 mm long, ca. 0.7 mm wide, brown in the sulci when mature, pale on the ribs, strigulose and resin-dotted; pappus in 1 series of 5(-8) straight bristles, 3.5-4.7 mm long, abruptly or somewhat gradually dilated at the base, to 0.25 mm wide, the dilated portion 0.2-0.6 mm long, the bristles appressed-puberulent, often ciliate at the base.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 1387
+          archiveSourceId: 21DCEF5E-C074-481E-9B64-E78D1E6CD102
+          archiveSourceIds:
+            - 21DCEF5E-C074-481E-9B64-E78D1E6CD102
+          referenceRowNumbers:
+            - 2936
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-6b152ef3-8cc6-8dcf-a1bd-a48aafc6c1f0
+                metadataVariant: 0
+                usage:
+                  identifier: 21DCEF5E-C074-481E-9B64-E78D1E6CD102
+                  referenceRowNumber: 2936
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1387 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1387; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6F4HB:row:1387
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1387; field general; reference rows 2936.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1387; CC BY 4.0. Citation metadata: Elephantopus mollis Kunth, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_6f4hb_habit_1388
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Elephantopus mollis Kunth, Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: herbs
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 1388
+          archiveSourceId: 48D5D01D-E724-4EBF-A72A-FB8F85AA8E05
+          archiveSourceIds:
+            - 48D5D01D-E724-4EBF-A72A-FB8F85AA8E05
+          referenceRowNumbers:
+            - 2937
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-6b152ef3-8cc6-8dcf-a1bd-a48aafc6c1f0
+                metadataVariant: 0
+                usage:
+                  identifier: 48D5D01D-E724-4EBF-A72A-FB8F85AA8E05
+                  referenceRowNumber: 2937
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1388 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1388; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6F4HB:row:1388
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1388; field habit; reference rows 2937.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1388; CC BY 4.0. Citation metadata: Elephantopus mollis Kunth, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Coarse perennial herbs mostly 30-150 (-200) cm tall, occasionally from a creeping rootstock; stem erect, leafy, usually hollow, villous, the trichomes to 1.5 mm long. Leaves cauline, rarely basal, more or less oblanceolate, basally attenuate, apically acute, crenate, mostly 7-22 cm long, 2-7 cm wide, less than 3?/ times longer than wide, chartaceous, green throughout, darker above, resin-dotted and densely soft-puberulent beneath, the trichomes to 0.5 mm long, slightly longer on the veins, above muricate and sparsely appressed-pubescent, somewhat obscurely veined above; petioles broadly expanded at the base, clasping. Inflores- cence solitary, terminal, a much-branched corymbose panicle, the branches sub- tended by oblong leaflike bracts to 6 cm long; peduncles appressed-pubescent; glomerules many, with ca. 40 heads, hemispheric, to 10 mm high and 20 mm across, subtended by 2 or 3 ovate bracts; bracts obtuse at base, slightly acuminate, 6-12 mm long, the venation arcuate-ascending, conspicuous beneath, obscure above. Heads with 4 florets; involucral bracts 8, in 2 decussate series, minutely sericeous towards the apex, usually resin-dotted, the outer 4 lanceolate, 4.5-5.0 mm long, the inner 4 lanceolate-oblong, acuminate, 5.5-7.5 mm long; corolla white or occasionally pinkish, the tube slender, 3.0-4.0 mm long, ca. 0.15 mm wide, the limb ca. 2.0 mm long, deeply divided on the adaxial side, 5-parted, the lobes linear, ca. 1.2 mm long, ca. 0.18 mm wide; anthers ca. 1.0 mm long, ca. 0.18 mm wide, basally sagittate, 0.12-0.15 mm long, the apical appendage ca. 0.1 mm long; style branches slender, terete, somewhat flattened adaxially, ca. 0.7 mm long, strigulose throughout, but less densely on the adaxial surfaces. Achenes obovoid, slightly flattened, 10-ribbed, 1.9-2.7 mm long, ca. 0.7 mm wide, brown in the sulci when mature, pale on the ribs, strigulose and resin-dotted; pappus in 1 series of 5(-8) straight bristles, 3.5-4.7 mm long, abruptly or somewhat gradually dilated at the base, to 0.25 mm wide, the dilated portion 0.2-0.6 mm long, the bristles appressed-puberulent, often ciliate at the base.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_6f4hb_general_1387
+            locator: "Flora of Panama general field; imported row 1387; sourceIds 21DCEF5E-C074-481E-9B64-E78D1E6CD102; reference rows 2936; citations: 21DCEF5E-C074-481E-9B64-E78D1E6CD102: Elephantopus mollis Kunth, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 2936)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: pantropical.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_6f4hb_distribution_1377
+            locator: "Flora of Panama distribution field; imported row 1377; sourceIds B8F19885-3AB3-4AC2-A57F-AFDDD9776C59; reference rows 2152; citations: B8F19885-3AB3-4AC2-A57F-AFDDD9776C59: Elephantopus mollis Kunth, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 2152)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+  catalogue-profile:
+    scientificName: Elephantopus mollis Kunth
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Elephantopus mollis Kunth
+      zh: Elephantopus mollis Kunth
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-42b3fabd6a
+            part: title
+          zh:
+            page: zh
+            section: s-4b5d318142
+            part: title
+        text:
+          en:
+            page: en
+            section: s-42b3fabd6a
+            part: body
+          zh:
+            page: zh
+            section: s-4b5d318142
+            part: body
+        sourceIds:
+          - flora_panama_6f4hb_general_1387
+        locator: "Flora of Panama general field; imported row 1387; sourceIds 21DCEF5E-C074-481E-9B64-E78D1E6CD102; reference rows 2936; citations: 21DCEF5E-C074-481E-9B64-E78D1E6CD102: Elephantopus mollis Kunth, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 2936)."
+        evidenceAssessment: partially-supported
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-1e1b4f1d99
+            part: title
+          zh:
+            page: zh
+            section: s-4fe6001caf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1e1b4f1d99
+            part: body
+          zh:
+            page: zh
+            section: s-4fe6001caf
+            part: body
+        sourceIds:
+          - flora_panama_6f4hb_distribution_1377
+        locator: "Flora of Panama distribution field; imported row 1377; sourceIds B8F19885-3AB3-4AC2-A57F-AFDDD9776C59; reference rows 2152; citations: B8F19885-3AB3-4AC2-A57F-AFDDD9776C59: Elephantopus mollis Kunth, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 2152)."
+        evidenceAssessment: partially-supported
+    sources:
+      - id: flora_panama_6f4hb_distribution_1377
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Elephantopus mollis Kunth, Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: pantropical.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 1377
+          archiveSourceId: B8F19885-3AB3-4AC2-A57F-AFDDD9776C59
+          archiveSourceIds:
+            - B8F19885-3AB3-4AC2-A57F-AFDDD9776C59
+          referenceRowNumbers:
+            - 2152
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-6b152ef3-8cc6-8dcf-a1bd-a48aafc6c1f0
+                metadataVariant: 0
+                usage:
+                  identifier: B8F19885-3AB3-4AC2-A57F-AFDDD9776C59
+                  referenceRowNumber: 2152
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1377 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1377; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6F4HB:row:1377
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1377; field distribution; reference rows 2152.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1377; CC BY 4.0. Citation metadata: Elephantopus mollis Kunth, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_6f4hb_general_1387
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Elephantopus mollis Kunth, Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Coarse perennial herbs mostly 30-150 (-200) cm tall, occasionally from a creeping rootstock; stem erect, leafy, usually hollow, villous, the trichomes to 1.5 mm long. Leaves cauline, rarely basal, more or less oblanceolate, basally attenuate, apically acute, crenate, mostly 7-22 cm long, 2-7 cm wide, less than 3?/ times longer than wide, chartaceous, green throughout, darker above, resin-dotted and densely soft-puberulent beneath, the trichomes to 0.5 mm long, slightly longer on the veins, above muricate and sparsely appressed-pubescent, somewhat obscurely veined above; petioles broadly expanded at the base, clasping. Inflores- cence solitary, terminal, a much-branched corymbose panicle, the branches sub- tended by oblong leaflike bracts to 6 cm long; peduncles appressed-pubescent; glomerules many, with ca. 40 heads, hemispheric, to 10 mm high and 20 mm across, subtended by 2 or 3 ovate bracts; bracts obtuse at base, slightly acuminate, 6-12 mm long, the venation arcuate-ascending, conspicuous beneath, obscure above. Heads with 4 florets; involucral bracts 8, in 2 decussate series, minutely sericeous towards the apex, usually resin-dotted, the outer 4 lanceolate, 4.5-5.0 mm long, the inner 4 lanceolate-oblong, acuminate, 5.5-7.5 mm long; corolla white or occasionally pinkish, the tube slender, 3.0-4.0 mm long, ca. 0.15 mm wide, the limb ca. 2.0 mm long, deeply divided on the adaxial side, 5-parted, the lobes linear, ca. 1.2 mm long, ca. 0.18 mm wide; anthers ca. 1.0 mm long, ca. 0.18 mm wide, basally sagittate, 0.12-0.15 mm long, the apical appendage ca. 0.1 mm long; style branches slender, terete, somewhat flattened adaxially, ca. 0.7 mm long, strigulose throughout, but less densely on the adaxial surfaces. Achenes obovoid, slightly flattened, 10-ribbed, 1.9-2.7 mm long, ca. 0.7 mm wide, brown in the sulci when mature, pale on the ribs, strigulose and resin-dotted; pappus in 1 series of 5(-8) straight bristles, 3.5-4.7 mm long, abruptly or somewhat gradually dilated at the base, to 0.25 mm wide, the dilated portion 0.2-0.6 mm long, the bristles appressed-puberulent, often ciliate at the base.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 1387
+          archiveSourceId: 21DCEF5E-C074-481E-9B64-E78D1E6CD102
+          archiveSourceIds:
+            - 21DCEF5E-C074-481E-9B64-E78D1E6CD102
+          referenceRowNumbers:
+            - 2936
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-6b152ef3-8cc6-8dcf-a1bd-a48aafc6c1f0
+                metadataVariant: 0
+                usage:
+                  identifier: 21DCEF5E-C074-481E-9B64-E78D1E6CD102
+                  referenceRowNumber: 2936
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1387 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1387; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6F4HB:row:1387
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1387; field general; reference rows 2936.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1387; CC BY 4.0. Citation metadata: Elephantopus mollis Kunth, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.

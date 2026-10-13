@@ -1,0 +1,64 @@
+## 接受名称与分类位置 {#s-a69d40d0a1}
+COL26.8 将 Pyxicephalus 接受为 Pyxicephalinae 下的属级记录。完整接受种查询在这条分类路径下收录 5 种。这是有版本日期的目录计数，各名称和分类概念保留在来源记载的层级中。
+
+## 阅读路线 {#s-4acd5e3dd2}
+从本属进入下级类群和物种，先在同一版本内比较接受名称，再查阅物种研究。分类层级提供目录阅读路线，但不能据此确定全部后代的共有性状或生物学历史。
+
+## 历史汇编中的觅食层位 {#s-0febf65470}
+AmphiBIO 在 Frost 2011 来源分类的 Pyxicephalus 下保留 2 条记录。觅食类别的正值计数为穴居 2 条、陆栖 2 条、水栖 2 条；同一记录可以同时属于多个类别，未报告值仍为未知。这些计数描述汇编中有代表的历史概念，不表示当前类群所有物种的性状比例。
+
+## 所记发育类别 {#s-228ba95255}
+在同一历史来源子集中，正值代码记载幼体发育 2 条。代码记录不是独立种群样本；缺失类别不能推断为不存在。种级读本保留原值和汇编范围。
+
+## 沿所记分类树继续阅读 {#s-7235c049e7}
+以下已编写子页面遵循固定分类。限定来源的生物学记录保留各自身份和审阅边界。
+
+- [Pyxicephalus adspersus](Pyxicephalus_adspersus/page.zh.md)
+- [Pyxicephalus angusticeps](Pyxicephalus_angusticeps/page.zh.md)
+- [Pyxicephalus beytelli](Pyxicephalus_beytelli/page.zh.md)
+- [Pyxicephalus edulis](Pyxicephalus_edulis/page.zh.md)
+- [Pyxicephalus obbianus](Pyxicephalus_obbianus/page.zh.md)
+
+## 选定参考组装及其范围 {#s-d0d5f595e1}
+无尾目比较基因组研究为所选 Pyxicephalus 页面列出：Pyxicephalus adspersus: GCA_022657655.1, 1.56 Gbp, contigN50 30.4 Kbp。这些值受具体组装及研究在2024年10月29日的 NCBI 快照范围限制，不是细胞 DNA 含量的直接测量或全属不变的基因组大小。页面选择依据当前精确名称与明确冻结命名链接；这里没有独立认证原标本及基因组身份。
+
+## 重复数据编号需要澄清 {#s-6f4648fb6a}
+主文表1与补充S1的61行没有“精确物种名＋编号”同时一致的对应：59个精确匹配名称均携不同编号，另两名使用不同拼写或组合。链接的物种页逐一保留具体冲突。因此，这里不把补充 TE 数量、比例及按编号列出的窝卵、幼体记录分配为已核实属成员性状。已核读主表没有给五百分比 BUSCO 向量标分量名称；contigN50 是连续性统计，不是完整性认证。这里没有重跑序列处理流程、原组装和重复库。
+
+## 比较模型及提出的机制 {#s-18e06d8f57}
+作者用系统模型、contigN50 协变量及多重检验校正比较61个组装。RepeatMasker 命中、占据长度和比例是不同指标；与重复共识的分歧是年龄或活跃程度代理，不是当前转座观察。暂定全长 Ty3 的 ORF 相似性不能证明蛋白质正在表达。发育限制和 TE 扩增是对跨物种关联的解释，不是每个选定属成员的操纵实验依据。来源中的 TE 比例、ORF 总数及 GC 关联陈述冲突保持未解决。
+
+## 阅读选定基因组研究条目 {#s-ec05352b25}
+逐页区分所列组装统计、有冲突的重复数据、名称对应及比较假说。选定参考组装不构成完整全属生物学。
+
+- [Pyxicephalus adspersus](Pyxicephalus_adspersus/page.zh.md)
+
+## 地区汇编中的选定 isiZulu 名称 {#s-a61d98a528}
+2019 年研究在祖鲁兰汇编中为这些选定 Pyxicephalus 条目赋名：Pyxicephalus edulis: Inkunzi yexoxo。各链接页面保留该名称属于新拟定还是修改自 Tarrant2016。物种级短语是在工作坊后赋予，不是全部以已存在的独立物种名称从参与者处获得。这是地区俗名汇编，不是当前全球命名权威或全属生物学鉴别。
+
+## 集体词汇采集与对应范围 {#s-b9c0a82ddf}
+来自祖鲁兰五个地区的 13 位 isiZulu 母语志愿者参加了2016年的两组工作坊。看图后的集体讨论获得六个宽泛民间类别；后续物种命名在 Bongani Mkhize 协助下结合这些类别、已发表名称及指南完成。文中额外宽泛词汇来自先前出版物或借用。民间类别有时跨越若干科学属或科，一个名称不必对应一个科学属或种。这些选定 Pyxicephalus 条目不能确立全社区名称频率、独立识别准确率、当前地方占据或祖先全属的栖境/鸣声性状。研究的语言与命名证据和实测生物学证据分别保留。
+
+## 阅读名称及其来源 {#s-858c643563}
+这些页面解释选定俗名、工作坊或出版背景及科学名称对应限制，不从名称推断生物学性状。
+
+- [Pyxicephalus edulis](Pyxicephalus_edulis/page.zh.md)
+
+## catalogue-profile / limitations {#s-de4d951575}
+本页为分类与限定来源范围的类群介绍；不将历史来源子集视为整个当前类群的等同物。尚未代表的生物学证据仍需核对。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-a33ef217ca}
+无尾目比较基因组研究为所选 Pyxicephalus 页面列出：Pyxicephalus adspersus: GCA_022657655.1, 1.56 Gbp, contigN50 30.4 Kbp。这些值受具体组装及研究在2024年10月29日的 NCBI 快照范围限制，不是细胞 DNA 含量的直接测量或全属不变的基因组大小。页面选择依据当前精确名称与明确冻结命名链接；这里没有独立认证原标本及基因组身份。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-b007db5ec1}
+主文表1与补充S1的61行没有“精确物种名＋编号”同时一致的对应：59个精确匹配名称均携不同编号，另两名使用不同拼写或组合。链接的物种页逐一保留具体冲突。因此，这里不把补充 TE 数量、比例及按编号列出的窝卵、幼体记录分配为已核实属成员性状。已核读主表没有给五百分比 BUSCO 向量标分量名称；contigN50 是连续性统计，不是完整性认证。这里没有重跑序列处理流程、原组装和重复库。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-acd0d90d59}
+作者用系统模型、contigN50 协变量及多重检验校正比较61个组装。RepeatMasker 命中、占据长度和比例是不同指标；与重复共识的分歧是年龄或活跃程度代理，不是当前转座观察。暂定全长 Ty3 的 ORF 相似性不能证明蛋白质正在表达。发育限制和 TE 扩增是对跨物种关联的解释，不是每个选定属成员的操纵实验依据。来源中的 TE 比例、ORF 总数及 GC 关联陈述冲突保持未解决。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-ddf0c21e85}
+2019 年研究在祖鲁兰汇编中为这些选定 Pyxicephalus 条目赋名：Pyxicephalus edulis: Inkunzi yexoxo。各链接页面保留该名称属于新拟定还是修改自 Tarrant2016。物种级短语是在工作坊后赋予，不是全部以已存在的独立物种名称从参与者处获得。这是地区俗名汇编，不是当前全球命名权威或全属生物学鉴别。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-6c1120c229}
+来自祖鲁兰五个地区的 13 位 isiZulu 母语志愿者参加了2016年的两组工作坊。看图后的集体讨论获得六个宽泛民间类别；后续物种命名在 Bongani Mkhize 协助下结合这些类别、已发表名称及指南完成。文中额外宽泛词汇来自先前出版物或借用。民间类别有时跨越若干科学属或科，一个名称不必对应一个科学属或种。这些选定 Pyxicephalus 条目不能确立全社区名称频率、独立识别准确率、当前地方占据或祖先全属的栖境/鸣声性状。研究的语言与命名证据和实测生物学证据分别保留。
+

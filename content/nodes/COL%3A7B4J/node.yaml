@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rulyrana
+  displayName: Rulyrana
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7B4J
+  sourceIndexes:
+    - name:
+        en: Rulyrana
+        zh: Rulyrana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7B4J
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/234
+            queryName: Rulyrana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 27
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8eca0d07e2
+      - s-f784d3ae1d
+      - s-d6317578f0
+      - s-736041a5b2
+      - s-89050ebbc7
+      - s-7f0c2e0b36
+      - s-c512f25c16
+      - s-64ae30a956
+      - s-26419f574f
+      - s-affda45e0d
+      - s-750662c558
+      - s-526a9aafa1
+    zh:
+      - s-29a722d6d7
+      - s-eb452ce375
+      - s-f98053d118
+      - s-4e71515d57
+      - s-97708b37f9
+      - s-7676e82b2f
+      - s-824e73a20f
+      - s-71f018009a
+      - s-4935c07e63
+      - s-5d74d55aa3
+      - s-17cf929e56
+      - s-513dce8f9b

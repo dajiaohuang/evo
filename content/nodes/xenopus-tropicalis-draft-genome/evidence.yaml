@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-c70690078d
+      part: title
+    titleZh:
+      page: zh
+      section: s-b2fc31d26a
+      part: title
+    category: innovation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Laboratory genome dataset; Nigerian inbred line
+    clades:
+      - Xenopus tropicalis
+      - Anura
+    summary:
+      page: en
+      section: s-c70690078d
+      part: body
+    summaryZh:
+      page: zh
+      section: s-b2fc31d26a
+      part: body
+    claimIds:
+      - claim:event:xenopus-tropicalis-draft-genome
+    evidenceItems:
+      - statement: A seventh-generation inbred female yielded about 7.6-fold shotgun coverage, 1.51 Gbp of scaffolds and assembly accession AAMC00000000.
+        relation: supports
+        claimIds:
+          - claim:event:xenopus-tropicalis-draft-genome
+        referenceLinks:
+          - relation: supports
+            referenceId: hellsten-2010-xenopus-genome
+            pages: 633–636
+            figure: Figures 1–4; Supplementary Tables 1–3
+            quoteLocator: Assembly; annotation; comparative genomics
+    uncertaintyItems:
+      - statement: The genome is not a direct record of amphibian ancestors, divergence time, every amphibian genome or universal phenotype.
+        relation: contextualizes
+        claimIds:
+          - claim:event:xenopus-tropicalis-draft-genome
+        referenceLinks:
+          - relation: supports
+            referenceId: hellsten-2010-xenopus-genome
+            pages: 633–636
+            figure: Figures 1–4; Supplementary Tables 1–3
+            quoteLocator: Assembly; annotation; comparative genomics
+  claims:
+    - subjectId: event:xenopus-tropicalis-draft-genome
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: A roughly 7.6-fold draft assembly from a seventh-generation inbred Nigerian female Xenopus tropicalis spans about 1.51 Gbp and supplies an extant comparative model; it is not an amphibian ancestor, crown-age estimate or survey of all amphibian genomes.
+      confidence: high
+      confidenceRationale: Assembly accession AAMC00000000, sequencing depth and annotation metrics are reported directly; high confidence applies only to this sampled laboratory genome and draft.
+      referenceLinks:
+        - relation: supports
+          referenceId: hellsten-2010-xenopus-genome
+          pages: 633–636
+          figure: Figures 1–4; Supplementary Tables 1–3
+          quoteLocator: Genome assembly, annotation and comparative analyses
+  claim-rationales.zh:
+    - 该主张绑定具名标本或明确数据集及一手来源定位；置信度仅适用于所述样本、方法与边界，不外推为全球首次出现、直接祖先或完整类群覆盖。
+  claim-statements.zh:
+    - 来自第七代近交尼日利亚雌性热带爪蟾、约 7.6 倍覆盖的草图组装跨度约 15.1 亿碱基，提供现生比较模型；它不是两栖类祖先、冠群年龄估计或全部两栖动物基因组调查。

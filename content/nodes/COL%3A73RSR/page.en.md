@@ -1,0 +1,6 @@
+## Variable leaf outlines and a glabrous underside {#s-667ea19a67}
+The Brazilian Flora 2020 v393.147 field records monopodial growth and simple stem hairs. Leaves are elliptic, lanceolate, or oblong, with a channelled midrib on the upper surface. Their undersides are listed as glabrous or puberulent, meaning covered with fine, short hairs. Bracts or small scale-like cataphylls below leaf nodes are absent. The regional dataset field lists these alternatives without frequencies.
+
+## Winged flower-cluster branches and a silky flower cup {#s-52738f4f11}
+The inflorescence branchlets are winged; the bracteoles beneath flowers are not described in the field. One inflorescence is listed per axillary shoot, in an axillary or terminal position, with a thyrsoid (branched flower-cluster) form. The anther's two pollen sacs are equal, and hairs cover the floral disc. The flower cup (hypanthium) is obconic, or inversely cone-shaped, and silky-haired (sericeous). Sepals are free, the ovary has two chambers, and the calyx is listed as not opening by tearing. The fruit is ellipsoid or cylindrical, with calyx lobes that enlarge as it develops. These details come from one regional dataset field, which reports no frequencies.
+

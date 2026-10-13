@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Juramaia
+    commonName: Juramaia
+    commonNameZh: 侏罗兽
+    rank: genus
+    taxonId: txn:196927
+    firstAppearance: 161
+    lastAppearance: 159
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:juramaia
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Juramaia sinensis is bounded conditionally by holotype BMNH PM1343B and its original approximately 161–159 Ma Tiaojishan attribution; uncertain collection provenance and a younger tip-dating signal prevent treating that interval as a secure global first appearance or calibration.
+      confidence: contested
+      confidenceRationale: The specimen is direct, but formation provenance and analytical age conflict are material. Contested confidence preserves both.
+      referenceLinks:
+        - relation: supports
+          referenceId: luo-2011-juramaia
+          pages: 442–445
+          figure: Figures 1–3
+          quoteLocator: Holotype; provenance and age attribution
+        - relation: contextualizes
+          referenceId: celik-phillips-2020-juramaia-tip-dating
+          pages: Article 20200943
+          figure: Figure 3; Figures S11–S13
+          quoteLocator: Unconstrained tip-dating result and sensitivity analyses
+  claim-rationales.zh:
+    - 标本属于直接证据，但地层产地与分析年龄冲突实质重要；争议置信度保留两者。
+  claim-statements.zh:
+    - Juramaia sinensis 由正模 BMNH PM1343B 及原研究约 1.61 亿—1.59 亿年前的髫髻山组归属有条件地约束；不确定的采集产地和更年轻的尖端定年信号，使该区间不能被视为可靠全球首现或校准点。
+  ranges:
+    - entityId: juramaia
+      rangeKind: global-composite
+      taxonomicConcept: Juramaia sinensis holotype attributed occurrence
+      geographicScope: Attributed Tiaojishan Formation, Liaoning, China
+      olderMa: 161
+      youngerMa: 159
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This interval follows the original stratigraphic attribution; collection provenance and a younger tip-dating signal remain explicit and it is not a secure universal calibration.
+      evidenceBasis: BMNH PM1343B is reported from approximately 160 Ma strata, but the atlas retains provenance and model-age caveats.
+      evidenceLevel: literature-synthesized
+      confidence: contested
+      claimIds:
+        - claim:event:juramaia-conditional-provenance
+      referenceLocators:
+        - referenceId: luo-2011-juramaia
+          locator: 442–445; Figures 1–3
+        - referenceId: celik-phillips-2020-juramaia-tip-dating
+          locator: 20200943; Figure 3; Figures S11–S13
+  catalogue-profile:
+    scientificName: Juramaia
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Juramaia
+      en: Juramaia
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-165b3123d9
+            part: body
+          en:
+            page: en
+            section: s-a0dc067972
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5cf48d8519
+            part: body
+          en:
+            page: en
+            section: s-3eb7151a9a
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Juramaia
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=196927
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:196927
+          readingTargets:
+            - name: Juramaia sinensis
+              pbdbTaxonId: txn:196928
+              canonicalPath: content/nodes/PBDB%3A196928
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-9f7ff4b99a
+        part: body
+      en:
+        page: en
+        section: s-d595064505
+        part: body

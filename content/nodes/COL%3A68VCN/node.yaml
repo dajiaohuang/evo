@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Callulops personatus
+  displayName: Callulops personatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68VCN
+  sourceIndexes:
+    - name:
+        en: Callulops personatus
+        zh: Callulops personatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68VCN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/131
+            queryName: Callulops personatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/112
+            queryName: Phrynomantis personata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5794e77284
+      - s-81880f08b3
+      - s-8e21e03da1
+      - s-5b10fc4ca4
+      - s-c7b43a9c35
+      - s-94a046169b
+      - s-b59722b1c0
+      - s-fad242a0ae
+      - s-a6b88bb599
+    zh:
+      - s-5e98207a18
+      - s-8a1d7872cd
+      - s-45441d63ee
+      - s-a40e93c8d6
+      - s-6eff71a133
+      - s-8671565fc3
+      - s-3cc6e8abcb
+      - s-28c7389ffb
+      - s-31635f78e6

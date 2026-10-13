@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pellorneum palustre
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Pellorneum palustre
+      en: Pellorneum palustre
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-ff18d284e2
+            part: body
+          en:
+            page: en
+            section: s-dfd2ce098c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-e547ed4309
+            part: body
+          en:
+            page: en
+            section: s-5a4d034af1
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-5dc617e4ce
+            part: body
+          en:
+            page: en
+            section: s-823964a7e4
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-bbc7479e63
+            part: body
+          en:
+            page: en
+            section: s-49979c26be
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-eb316a2814
+            part: body
+          en:
+            page: en
+            section: s-e5213b3d0e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pellorneum palustre
+          url: https://www.checklistbank.org/dataset/316115/taxon/76BJ2
+          locator: Pinned accepted name, family and ancestry.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - sourceVersion
+          - sourceWorksheet
+          - sourceFileSha256
+          - sourceRecordName
+          - eBirdCrosswalk
+          - birdTreeCrosswalk
+          - interpretedEcologicalFields
+          - uninterpretedEcologicalFields
+          - withheldBiometricFields
+          - originalInference
+          - originalMassSource
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: Species1=Pellorneum palustre; Metadata sheet ecological category and breeding/resident latitude definitions."
+          sourceVersion: Figshare AVONET version 7; file 34480856
+          sourceWorksheet: AVONET1_BirdLife
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceRecordName: Pellorneum palustre
+          eBirdCrosswalk:
+            Species1: Pellorneum palustre
+            Species2: Pellorneum palustre
+            Match.type: 1BL to 1eBird
+            Match.notes: null
+            Avibase.ID1: AVIBASE-A9D2D8D4
+            Avibase.ID2: AVIBASE-A9D2D8D4
+            "null": null
+          birdTreeCrosswalk:
+            Species1: Pellorneum palustre
+            Species3: Pellorneum palustre
+            Match.type: 1BL to 1BT
+            Match.notes: null
+          interpretedEcologicalFields:
+            - Habitat
+            - Trophic.Niche
+            - Primary.Lifestyle
+            - Migration
+          uninterpretedEcologicalFields: []
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          originalInference: YES
+          originalMassSource: Inferred
+          accessedAt: 2026-10-03
+          licenseAssessment: CC-BY-4.0-archive-attributed-factual-summary
+          scope:
+            zh: 有限历史生态类别与地图摘要；不解读形态或体重，底层物种文献未逐条读取，名称不证明概念等同。
+            en: Limited historical ecology categories and map summaries; no morphology or mass interpretation, underlying species literature not individually read, matching names do not prove equivalent concepts.
+    limitations:
+      zh:
+        page: zh
+        section: s-17f667217c
+        part: body
+      en:
+        page: en
+        section: s-a9072f62a2
+        part: body

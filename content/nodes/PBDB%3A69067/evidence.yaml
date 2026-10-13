@@ -1,0 +1,175 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Machaeroprosopus mccauleyi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Machaeroprosopus mccauleyi
+      en: Machaeroprosopus mccauleyi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherArchosauriaTaxonomy20261002
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-95bf9ba5f1
+            part: body
+          en:
+            page: en
+            section: s-579fbbe7e1
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-131601c4a8
+            part: body
+          en:
+            page: en
+            section: s-fae624cab6
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2494192f3b
+            part: body
+          en:
+            page: en
+            section: s-e38ab619bd
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-972daa00ac
+            part: body
+          en:
+            page: en
+            section: s-e0508aeb0c
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-42725705d9
+            part: body
+          en:
+            page: en
+            section: s-32cdd5fc8c
+            part: body
+    sources:
+      - id: pbdbArchosauriaTaxonomy20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Machaeroprosopus mccauleyi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=69067&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherArchosauriaOccurrences20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:69067; original response record indices retained in data/sources/other-archosauria-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 95c66a034ee801effe8e70dd0e2d80f080cfb92730dab8e60a52bf5d4a379a25
+          pbdbTaxonId: txn:69067
+          selectedOccurrenceIds:
+            - occ:842084
+            - occ:842115
+            - occ:1418646
+            - occ:1418647
+          selectedCollectionIds:
+            - col:93417
+            - col:93431
+            - col:188759
+            - col:49499
+          sourceReferenceIds:
+            - ref:24406
+            - ref:14122
+            - ref:66841
+          originalIdentificationMappings:
+            - occurrenceId: occ:842084
+              originalIdentifiedName: Pseudopalatus mccauleyi
+              acceptedName: Machaeroprosopus mccauleyi
+              difference: recombined as
+            - occurrenceId: occ:842115
+              originalIdentifiedName: Pseudopalatus mccauleyi n. sp.
+              acceptedName: Machaeroprosopus mccauleyi
+              difference: recombined as
+            - occurrenceId: occ:1418646
+              originalIdentifiedName: Pseudopalatus mccauleyi
+              acceptedName: Machaeroprosopus mccauleyi
+              difference: recombined as
+            - occurrenceId: occ:1418647
+              originalIdentifiedName: Pseudopalatus mccauleyi
+              acceptedName: Machaeroprosopus mccauleyi
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e62820a30f
+        part: body
+      en:
+        page: en
+        section: s-d4d4e861f7
+        part: body

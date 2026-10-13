@@ -1,0 +1,580 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hirtella racemosa Lam.
+    authorship: Lam.
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: MLP
+        scientificName: Malpighiales Juss. ex Bercht. & J.Presl
+        authorship: Juss. ex Bercht. & J.Presl
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 87L
+        scientificName: Chrysobalanaceae R.Br.
+        authorship: R.Br.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 7P64Q
+        scientificName: Hirtella L.
+        authorship: L.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 6LWCV
+        scientificName: Hirtella racemosa Lam.
+        authorship: Lam.
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 6LWCV; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/6LWCV
+          stableId: col:6LWCV@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 6LWCV; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6LWCV. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_6lwcv_distribution_3192
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Hirtella racemosa Lam., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Guerrero and British Honduras to Panama, northern South America, and south in the Amazon Basin to central Brazil, eastern Peru and eastern Bolivia; lowlands, in forests and thickets.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 3192
+          archiveSourceId: null
+          archiveSourceIds:
+            - CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E
+            - 2F51269F-51C7-488E-A45A-16D9414665D5
+          referenceRowNumbers:
+            - 101
+            - 1901
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-bbd9b1f0-e580-8dcf-af19-498a8c2615b1
+                metadataVariant: 0
+                usage:
+                  identifier: CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E
+                  referenceRowNumber: 101
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+              - referenceId: ref-a1a722b1-7dd9-8479-af11-b727da5e4842
+                metadataVariant: 0
+                usage:
+                  identifier: 2F51269F-51C7-488E-A45A-16D9414665D5
+                  referenceRowNumber: 1901
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 3192 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 3192; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6LWCV:row:3192
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 3192; field distribution; reference rows 101, 1901.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 3192; CC BY 4.0. Citation metadata: DC. Prodr. 2:529. 1825; Seem. in Bot. Voy. Herald, 119. 1852-53; Standl. & Steyerm. in Field- iana, Bot. 24:450-452. 1946. | Hirtella racemosa Lam., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_6lwcv_general_3200
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Hirtella racemosa Lam., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Shrub or small tree, 2-3 (-6) m. tall, with slender pubescent branchlets 1-1.5 mm. in diameter below the inflorescence; hairs of two types, those of the young foliage and branchlets yellowish, appressed or erect, straight and slender, pointed, multicellular, 0.5-1.5 mm. long, these also abundant in the inflorescence but there mixed with tiny erect white hairs mostly 0.2-0.3 mm. long. Leaves elliptic to oblong, lanceolate, or ovate, glabrate, only a few long yellow hairs persistent on the veins (at least of the lower surface), a few of the hairs with papillose bases; blades subcoriaceous,'lustrous, 1.5-4 cm. wide, 3-8 cm. long, usually 2-3 times as long as wide, narrowed from the middle or above to a broad blunt or pointed acumen 1 cm. long or less, narrowed and rounded at base (or obtusely narrowed, with the extreme base rounded abruptly into the petiole); petiole short, stout, about 0.7
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 3200
+          archiveSourceId: null
+          archiveSourceIds:
+            - CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E
+            - FC39DE7D-9EC7-4D75-B52C-8797FA295B80
+          referenceRowNumbers:
+            - 101
+            - 1892
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-bbd9b1f0-e580-8dcf-af19-498a8c2615b1
+                metadataVariant: 0
+                usage:
+                  identifier: CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E
+                  referenceRowNumber: 101
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+              - referenceId: ref-a1a722b1-7dd9-8479-af11-b727da5e4842
+                metadataVariant: 0
+                usage:
+                  identifier: FC39DE7D-9EC7-4D75-B52C-8797FA295B80
+                  referenceRowNumber: 1892
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 3200 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 3200; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6LWCV:row:3200
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 3200; field general; reference rows 101, 1892.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 3200; CC BY 4.0. Citation metadata: DC. Prodr. 2:529. 1825; Seem. in Bot. Voy. Herald, 119. 1852-53; Standl. & Steyerm. in Field- iana, Bot. 24:450-452. 1946. | Hirtella racemosa Lam., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_6lwcv_habit_3201
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Hirtella racemosa Lam., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Shrub tree
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 3201
+          archiveSourceId: null
+          archiveSourceIds:
+            - CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E
+            - F3110582-C14C-4380-9733-AE8DC1217CD4
+          referenceRowNumbers:
+            - 101
+            - 2009
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-bbd9b1f0-e580-8dcf-af19-498a8c2615b1
+                metadataVariant: 0
+                usage:
+                  identifier: CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E
+                  referenceRowNumber: 101
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+              - referenceId: ref-a1a722b1-7dd9-8479-af11-b727da5e4842
+                metadataVariant: 0
+                usage:
+                  identifier: F3110582-C14C-4380-9733-AE8DC1217CD4
+                  referenceRowNumber: 2009
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 3201 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 3201; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6LWCV:row:3201
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 3201; field habit; reference rows 101, 2009.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 3201; CC BY 4.0. Citation metadata: DC. Prodr. 2:529. 1825; Seem. in Bot. Voy. Herald, 119. 1852-53; Standl. & Steyerm. in Field- iana, Bot. 24:450-452. 1946. | Hirtella racemosa Lam., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_6lwcv_general_3204
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Hirtella racemosa Lam., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: mm. in diameter, 2 mm. long; lateral veins 6-8 pairs, arcuate, slightly raised on both surfaces but not forming conspicuous ribs on either, often hardly visible on the upper; glands occurring on the lower surface of the blade near base, mostly nearly circular, about 0.2 mm. across, with raised rim and depressed center; stipules subpersistent, filiform-subulate, appressed-hairy, 2.5-5 mm. long, usually black in dried material, appressed to the branchlets. Flowers in axillary and terminal racemes 12-15 cm. long (or up to 20-25 cm. including the basal leafy part of the growing branchlet terminated -by the raceme); "racemes" 30- to.40-flowered, flowering from base to apex but apparently always determinate, the terminal (bractless) flower abortive; lateral flowers on filiform "pedicels" 5-8 (-12) mm. long, spreading at right angles or somewhat ascending, each with two tiny bracte- oles near base or about one-third the distance from base to apex, the bracteoles often with sessile or stalked glands on the margins, and borne at the summit of a thickened peduncular portion of the flower-stalk (only the part beyond them being the pedicel proper); bracts subtending the flower-stalks lanceolate, usually re- curved, 1-2 mm. long, with basal marginal glands like those of the leaves (and sometimes a similar gland at apex); petals pink, purple or "rosy mauve", glabrous, broadly elliptic, rounded at both ends, 2-3 mm. wide, 3-5 mm. long; stamens 5-7, much exserted, purple, glabrous, the filaments 1.2-1.6 cm. long, fleshy at base and tapering to the very slender tips, arising separately from the fleshy hypanthium-rim which projects 1 mm. or less above the base of the calyx, absent from the segment of the rim opposite the insertion of the ovary or there represented by vestigial staminodia only; anthers about 0.6 mm. long; hypanthium in anthesis elongate- tubular, with hollow cylindric or oblong one-sided base up to about 1 mm. thick and 2 mm. long, and funnelform throat about 1 mm. long, the interior hairy about the summit of the throat, glabrous below; calyx-lobes oblong or elliptic, usually reflexed at anthesis, entire, rounded or subacute at apex, about 1-1.5 mm. wide, 2.5 mm. long, the outer surface with mixed short white and long yellow hairs, the inner surface glabrous proximally, distally white-tomentulose; ovary hirsute, sessile, attached to one side of the funnelform portion of the hypanthium above the bottom; style as in H. americana, but up to about 1.5 cm. long, arising from the flower toward the side where functional stamens are lacking (i. e. the side toward which the inflated base of the hypanthium is expanded). Fruit oblong- obovoid, sparsely hairy, dark red or purple, up to about 1.5 cm. long and 0.6 cm. in diameter, rounded at apex, the base substipitate.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 3204
+          archiveSourceId: null
+          archiveSourceIds:
+            - CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E
+            - 68E38A7B-49E1-4B8C-BF52-55C29F000C65
+          referenceRowNumbers:
+            - 101
+            - 1896
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-bbd9b1f0-e580-8dcf-af19-498a8c2615b1
+                metadataVariant: 0
+                usage:
+                  identifier: CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E
+                  referenceRowNumber: 101
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+              - referenceId: ref-a1a722b1-7dd9-8479-af11-b727da5e4842
+                metadataVariant: 0
+                usage:
+                  identifier: 68E38A7B-49E1-4B8C-BF52-55C29F000C65
+                  referenceRowNumber: 1896
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 3204 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 3204; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:6LWCV:row:3204
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 3204; field general; reference rows 101, 1896.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 3204; CC BY 4.0. Citation metadata: DC. Prodr. 2:529. 1825; Seem. in Bot. Voy. Herald, 119. 1852-53; Standl. & Steyerm. in Field- iana, Bot. 24:450-452. 1946. | Hirtella racemosa Lam., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Shrub or small tree, 2-3 (-6) m. tall, with slender pubescent branchlets 1-1.5 mm. in diameter below the inflorescence; hairs of two types, those of the young foliage and branchlets yellowish, appressed or erect, straight and slender, pointed, multicellular, 0.5-1.5 mm. long, these also abundant in the inflorescence but there mixed with tiny erect white hairs mostly 0.2-0.3 mm. long. Leaves elliptic to oblong, lanceolate, or ovate, glabrate, only a few long yellow hairs persistent on the veins (at least of the lower surface), a few of the hairs with papillose bases; blades subcoriaceous,'lustrous, 1.5-4 cm. wide, 3-8 cm. long, usually 2-3 times as long as wide, narrowed from the middle or above to a broad blunt or pointed acumen 1 cm. long or less, narrowed and rounded at base (or obtusely narrowed, with the extreme base rounded abruptly into the petiole); petiole short, stout, about 0.7
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_6lwcv_general_3200
+            locator: "Flora of Panama general field; imported row 3200; sourceIds CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E, FC39DE7D-9EC7-4D75-B52C-8797FA295B80; reference rows 101, 1892; citations: CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E: DC. Prodr. 2:529. 1825; Seem. in Bot. Voy. Herald, 119. 1852-53; Standl. & Steyerm. in Field- iana, Bot. 24:450-452. 1946. (reference row 101); FC39DE7D-9EC7-4D75-B52C-8797FA295B80: Hirtella racemosa Lam., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 1892)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+          - text: mm. in diameter, 2 mm. long; lateral veins 6-8 pairs, arcuate, slightly raised on both surfaces but not forming conspicuous ribs on either, often hardly visible on the upper; glands occurring on the lower surface of the blade near base, mostly nearly circular, about 0.2 mm. across, with raised rim and depressed center; stipules subpersistent, filiform-subulate, appressed-hairy, 2.5-5 mm. long, usually black in dried material, appressed to the branchlets. Flowers in axillary and terminal racemes 12-15 cm. long (or up to 20-25 cm. including the basal leafy part of the growing branchlet terminated -by the raceme); "racemes" 30- to.40-flowered, flowering from base to apex but apparently always determinate, the terminal (bractless) flower abortive; lateral flowers on filiform "pedicels" 5-8 (-12) mm. long, spreading at right angles or somewhat ascending, each with two tiny bracte- oles near base or about one-third the distance from base to apex, the bracteoles often with sessile or stalked glands on the margins, and borne at the summit of a thickened peduncular portion of the flower-stalk (only the part beyond them being the pedicel proper); bracts subtending the flower-stalks lanceolate, usually re- curved, 1-2 mm. long, with basal marginal glands like those of the leaves (and sometimes a similar gland at apex); petals pink, purple or "rosy mauve", glabrous, broadly elliptic, rounded at both ends, 2-3 mm. wide, 3-5 mm. long; stamens 5-7, much exserted, purple, glabrous, the filaments 1.2-1.6 cm. long, fleshy at base and tapering to the very slender tips, arising separately from the fleshy hypanthium-rim which projects 1 mm. or less above the base of the calyx, absent from the segment of the rim opposite the insertion of the ovary or there represented by vestigial staminodia only; anthers about 0.6 mm. long; hypanthium in anthesis elongate- tubular, with hollow cylindric or oblong one-sided base up to about 1 mm. thick and 2 mm. long, and funnelform throat about 1 mm. long, the interior hairy about the summit of the throat, glabrous below; calyx-lobes oblong or elliptic, usually reflexed at anthesis, entire, rounded or subacute at apex, about 1-1.5 mm. wide, 2.5 mm. long, the outer surface with mixed short white and long yellow hairs, the inner surface glabrous proximally, distally white-tomentulose; ovary hirsute, sessile, attached to one side of the funnelform portion of the hypanthium above the bottom; style as in H. americana, but up to about 1.5 cm. long, arising from the flower toward the side where functional stamens are lacking (i. e. the side toward which the inflated base of the hypanthium is expanded). Fruit oblong- obovoid, sparsely hairy, dark red or purple, up to about 1.5 cm. long and 0.6 cm. in diameter, rounded at apex, the base substipitate.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_6lwcv_general_3204
+            locator: "Flora of Panama general field; imported row 3204; sourceIds CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E, 68E38A7B-49E1-4B8C-BF52-55C29F000C65; reference rows 101, 1896; citations: CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E: DC. Prodr. 2:529. 1825; Seem. in Bot. Voy. Herald, 119. 1852-53; Standl. & Steyerm. in Field- iana, Bot. 24:450-452. 1946. (reference row 101); 68E38A7B-49E1-4B8C-BF52-55C29F000C65: Hirtella racemosa Lam., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 1896)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: Guerrero and British Honduras to Panama, northern South America, and south in the Amazon Basin to central Brazil, eastern Peru and eastern Bolivia; lowlands, in forests and thickets.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_6lwcv_distribution_3192
+            locator: "Flora of Panama distribution field; imported row 3192; sourceIds CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E, 2F51269F-51C7-488E-A45A-16D9414665D5; reference rows 101, 1901; citations: CC6342B2-F546-4B5C-8C4F-6DBF564E0E1E: DC. Prodr. 2:529. 1825; Seem. in Bot. Voy. Herald, 119. 1852-53; Standl. & Steyerm. in Field- iana, Bot. 24:450-452. 1946. (reference row 101); 2F51269F-51C7-488E-A45A-16D9414665D5: Hirtella racemosa Lam., Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 1901)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.

@@ -1,0 +1,137 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Brachypodium distachyon (L.) P.Beauv.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 5WQ6Q, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 5WQ6Q; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/5WQ6Q
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 5WQ6Q
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000854379-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 5WQ6Q / WFO wfo-0000854379
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13894_0
+        referenceId: ref-61779894-7cab-8959-a76b-3686c00cbf89
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Brachypodium distachyon (L.) P.Beauv. account; SANBI/WFO archive rows 6284 (Morphology), 30434 (Habitat), source identifier 13894.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: fisher2016BrachypodiumDrought
+        referenceId: ref-bfc2b13f-58ed-896e-aa58-213ef2864e13
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - rightsEvidenceUrl
+          - rightsEvidenceLocator
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text only. This dossier paraphrases the results and does not reproduce figures, tables, or supplemental material.
+          stableId: doi:10.3389/fpls.2016.01751
+          accessedAt: 2026-09-27
+          locator: "Materials and Methods: Plant Material and Phenotyping of Drought Induced Physiological Changes; Results: Phenotypic Analyses of 10 Selected Brachypodium Lines, including Fig. 4; Discussion: Screening and Ecotype Selection"
+          licenseAssessment: item-level-verified
+          scope: Controlled greenhouse and Smarthouse drought experiment. Although 10 ecotypes were selected for detailed phenotyping, the authors excluded flowering Bd21 from further phenotypic and metabolomic analyses; the claim concerns the remaining selected accessions under the stated treatment, not wild populations or species-wide field tolerance.
+          rightsEvidenceUrl: https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.01751/full
+          attribution: Fisher LHC, Han J, Corke FMK, Akinyemi A, Didion T, Nielsen KK, Doonan JH, Mur LAJ, Bosch M (2016). Linking Dynamic Phenotyping with Metabolite Analysis to Study Natural Variation in Drought Responses of Brachypodium distachyon. Front Plant Sci. 7:1751. https://doi.org/10.3389/fpls.2016.01751. Claims paraphrased.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Annual to 45 cm. Leaves linear. Spikelets sessile, 2-6 in distichous racemes, lemma awn 10-25 mm long.
+            textZh: Brachypodium distachyon (L.) P.Beauv. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13894_0
+            locator: "SANBI/WFO archive Morphology row 6284; source identifier 13894.0; cited publication: Manning, JC; Goldblatt, P; Linder, HP. 2012. Poaceae: Brachypodium P.Beauv. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 205 - 205. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Disturbed areas.
+            textZh: 该 SANBI 区域物种条目记录的生境：Disturbed areas.
+            sourceIds:
+              - sanbi_13894_0
+            locator: "SANBI/WFO archive Habitat row 30434; source identifier 13894.0; cited publication: Manning, JC; Goldblatt, P; Linder, HP. 2012. Poaceae: Brachypodium P.Beauv. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 205 - 205. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: "In a controlled greenhouse and Smarthouse drought experiment, the nine selected Brachypodium distachyon ecotypes retained for phenotypic analyses separated by previously screened drought-response group under a 12-day treatment targeting 0% soil water content: the tolerant group showed greater plant height and side-view projected area, and fewer grey and yellow pixels, than the susceptible group. These results describe the selected accessions under this imposed treatment, not species-wide field drought tolerance."
+            textZh: 在温室与 Smarthouse 控水试验中，进入表型分析的九个 Brachypodium distachyon 选定生态型，在以土壤含水量 0% 为目标、持续 12 天的处理下，按前期筛选的干旱响应组表现出差异：耐受组的株高和侧视投影面积较大，灰色与黄色像素较少。该结果仅描述这些选定材料在此处理下的表现，不代表全物种的野外耐旱性。
+            sourceIds:
+              - fisher2016BrachypodiumDrought
+            locator: Results, Phenotypic Analyses of 10 Selected Brachypodium Lines and Fig. 4; the article states Bd21 flowered and was excluded from further phenotypic analyses.
+            placeTimeScope: National Plant Phenomics Centre, Aberystwyth University, Wales, UK; greenhouse/Smarthouse experiment before flowering. Daily imaging covered the 12-day treatment from days 34 to 45 after sowing; day/night temperatures were 22°C/20°C; the severe treatment targeted 0% soil water content.
+            lifeStatus: Selected diploid inbred ecotypes grown under controlled glasshouse conditions. The experiment was not a field survey and does not directly characterize wild populations.
+            originalLanguage: en
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+          - The drought-response evidence comes from a controlled experiment on selected accessions and does not establish species-wide field tolerance, natural population frequencies, or performance across other life stages and environments.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

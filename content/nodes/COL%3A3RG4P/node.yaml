@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus odontotarsus
+  displayName: Kurixalus odontotarsus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3RG4P
+  sourceIndexes:
+    - name:
+        en: Kurixalus odontotarsus
+        zh: Kurixalus odontotarsus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3RG4P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/173
+            queryName: Kurixalus odontotarsus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/269
+            queryName: Philautus odontotarsus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/292
+            queryName: Aquixalus odontotarsus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f4ee0d1ba4
+      - s-98514a92e8
+      - s-81b34b351a
+      - s-d685c827f5
+      - s-d98a398257
+      - s-f7c27be7a4
+      - s-7d8e8ce075
+      - s-a29c4ad675
+      - s-b64f664075
+      - s-59503431b8
+      - s-b26b182857
+      - s-daadab9f9c
+      - s-a044a5f910
+    zh:
+      - s-a1d5f4a141
+      - s-58f93a77e2
+      - s-ee499844eb
+      - s-173f271baf
+      - s-67ede907f7
+      - s-6c5f629e28
+      - s-4f97e942b6
+      - s-fba90e8a67
+      - s-130db364d3
+      - s-523daae137
+      - s-b6bc32c1ae
+      - s-890cf7a771
+      - s-63190b0a31

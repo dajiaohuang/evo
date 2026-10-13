@@ -1,0 +1,12 @@
+## TadpoleTraits classification for Pseudacris maculata {#s-59236c8a79}
+TadpoleTraits version 4 places Pseudacris maculata in Pseudacris (Hylidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names none recorded. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 0 literature rows and 1 image row {#s-b4f98df110}
+TadpoleTraits version 4 links 0 literature rows and 1 image row to Pseudacris maculata. Source row numbers — literature: none recorded; image: 1335. Populated measurement fields — literature: none recorded; image: TL, BL, TaL, BMH, MTH, TMH, DFH, VFH, BL/TL, TaL/TL, BMH/TL, MTH/TL, TMH/TL, DFH/TL, VFH/TL. Literature rows have no Stage value. Image row 1335: Stage 33. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+
+## Image proportions from row 1335 {#s-737450eac4}
+Selected image entries: BL/TL (body length / total length) = 0.356833 (source row 1335; Stage 33; type Measurement; image type Black-and-white image); TaL/TL (tail length / total length) = 0.647367 (source row 1335; Stage 33; type Measurement; image type Black-and-white image); BMH/TL (maximum body height / total length) = 0.236500 (source row 1335; Stage 33; type Measurement; image type Black-and-white image); MTH/TL (maximum tail height / total length) = 0.273867 (source row 1335; Stage 33; type Measurement; image type Black-and-white image). Each is a dimensionless ratio of the labelled feature to total length, displayed to six decimal places. Recorded image types: Black-and-white image. These values describe proportions in the listed source images, not variation across a wild population.
+
+## 3 image ratio fields flagged for review {#s-6ca44e8d93}
+TadpoleTraits version 4 flags 3 image-ratio fields: each supplied ratio differs by more than 0.001 from the same row’s numerator divided by total length. Flagged fields: TMH/TL (row 1335), DFH/TL (row 1335), VFH/TL (row 1335). The source cells remain unchanged; these ratios are unresolved and are not used as reader measurements pending source review.
+

@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates subfolionidificans
+  displayName: Allobates subfolionidificans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV2K
+  sourceIndexes:
+    - name:
+        en: Allobates subfolionidificans
+        zh: Allobates subfolionidificans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV2K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/172
+            queryName: Allobates subfolionidificans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/31
+            queryName: Colostethus subfolionidificans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5af68b3042
+      - s-49edc1520e
+      - s-7abff8dde5
+      - s-008b178e5e
+      - s-c8ab13a6c0
+      - s-1e5586128b
+      - s-bdc25d48fc
+      - s-a8ec1a727c
+      - s-a730b30748
+      - s-1e2694c012
+      - s-9c07cc273f
+      - s-f3c9672228
+      - s-b334475599
+      - s-b57e7f47e9
+      - s-614f3ae3be
+      - s-58f0405da3
+      - s-74f7c35b9e
+      - s-6719449c2f
+      - s-c0cc0f48c4
+      - s-eb2979e584
+      - s-447508c46c
+      - s-8ad15e3ee0
+      - s-9a4b734dff
+      - s-850bb47f30
+      - s-85a6b80ca7
+    zh:
+      - s-edb2cafca3
+      - s-fb2e3ab705
+      - s-a52ec68e69
+      - s-3be213c003
+      - s-ea27300259
+      - s-1994028ddf
+      - s-9b187cec74
+      - s-e7c55e2dc8
+      - s-787eebf2d0
+      - s-1727ce0779
+      - s-55872b4a62
+      - s-39a1b2d3cf
+      - s-5fc04833be
+      - s-1232773fc2
+      - s-31acf26bd9
+      - s-2120d8316d
+      - s-4bbc225678
+      - s-b73b58c1fd
+      - s-24de53edf0
+      - s-47a03a7e53
+      - s-1a3a5ea294
+      - s-f4ded9c167
+      - s-36b09a050d
+      - s-6475d4f234
+      - s-511c94404c

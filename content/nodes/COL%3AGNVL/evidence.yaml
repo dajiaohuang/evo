@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aristida dasydesmis Mez
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage GNVL, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage GNVL; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/GNVL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage GNVL
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000848712-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL GNVL / WFO wfo-0000848712
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14569_0
+        referenceId: ref-b6ebbdea-ded9-875b-a0ac-091f11af9d6c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aristida dasydesmis Mez account; SANBI/WFO archive rows 33430 (Morphology), 39298 (Habitat), source identifier 14569.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_15411_0
+        referenceId: ref-0e1c01d2-d9df-831c-a4d0-f64795338bac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aristida dasydesmis Mez account; SANBI/WFO archive rows 61639 (Diagnostic), source identifier 15411.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Perennial, up to 0.8 mm tall, densely tufted; culms much branched in upper nodes. Leaves linear, folded, straight, rigid, quill-like, pungent, often as long as or overtopping inflorescence; ligule a fringe of hairs. Inflorescence a panicle, contracted when young, becoming more open with age. Spikelets 25-30 mm long (including awns), 1-flowered; glumes unequal; lemma 3-awned, column present, articulation between lemma apex and column base or absent.
+            textZh: Aristida dasydesmis Mez 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14569_0
+            locator: "SANBI/WFO archive Morphology row 33430; source identifier 14569.0; cited publication: Fish, L. 2013. Poaceae: Aristida. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 133 - 134. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Resembles A. junciformis subsp. junciformis and A. transvaalensis, which both have the lower glumes awned or mucronate; A. vestita, which has the lower internodes pubescent to woolly-hairy, and A. diffusa, which has flexible leaves.
+            textZh: SANBI 条目提供了 Aristida dasydesmis Mez 的鉴别特征。
+            sourceIds:
+              - sanbi_15411_0
+            locator: "SANBI/WFO archive Diagnostic row 61639; source identifier 15411.0; cited publication: Mashau, AC. 2015. Aristida L. In: L Fish, AC Mashau, MJ Moeaha & MT Nembudani (eds), Identification guide to the southern Africa grasses. An identification manual with keys, descriptions and distributions, Strelitzia 36: 83 - 104. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Granite slopes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Granite slopes.
+            sourceIds:
+              - sanbi_14569_0
+            locator: "SANBI/WFO archive Habitat row 39298; source identifier 14569.0; cited publication: Fish, L. 2013. Poaceae: Aristida. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 133 - 134. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

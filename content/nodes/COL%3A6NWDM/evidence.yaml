@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Lapeirousia purpurea Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6NWDM, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6NWDM; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6NWDM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6NWDM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001343989-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6NWDM / WFO wfo-0001343989
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Lapeirousia purpurea Goldblatt & J.C.Manning account; SANBI/WFO archive rows 98063 (Morphology), 96973 (Habitat), 94450 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 100-150 mm high, simple or few- to many-branched, mostly from base, stem compressed and 1- or 2-angled. Corm triangular in outline, basal rim prominently serrated, 24-28 mm diam. at base. Leaves several, the basal ribbed, 1/3 to ± as long as stem, to 5 mm wide, upper leaves progressively smaller above, smooth, the uppermost resembling floral bracts. Spike 6- to 10-flowered; bracts green, outer 10-18 mm long, with shallow, slightly serrated keel, inner ± 1/3-1/2 as long as outer, membranous with two darker keels, notched at apex. Flowers blue-purple, lower tepals with V-shaped white mark above base surrounded by darker violet to ± black zone, lower median tepal with a small claw-like tooth above base, unscented; perianth tube slender below, widening and curving outward in upper 1/3, 35-38 mm long; tepals unequal, dorsal erect, ovate, ± 15 x 6 mm, upper laterals slightly smaller, recurved, lower tepals united basally for ± 3 mm, curving downward, ± 8 x 4 mm. Stamens unilateral, arcuate; filaments ± 7 mm long, exserted ± 3 mm from mouth of tube; anthers suberect, prominently tailed, ± 4 mm long; pollen yellow. Style arching above stamens, dividing opposite lower 1/3 to middle of anthers; style branches ± 3.5 mm long, divided for slightly > 1/2 their length. Capsules ovoid, ± 12 mm long, showing outline of seeds, with moderately well developed locular ridges. Seeds unknown.
+            textZh: Lapeirousia purpurea Goldblatt & J.C.Manning 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Morphology row 98063; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The obconic corms of Lapeirousia purpurea have fine teeth projecting from the base and resemble the corms of L. dolomitica, L. lewisiana and L. violacea, also long-tubed species, but can be distinguished by the rich violet colour of the perianth, with the upper lateral tepals strongly reflexed and the lower three tepals with a V-shaped white mark above the base surrounded by a dark violet to black zone. The lower median tepal bears a small claw-like cusp near the base. In L. violacea all three lower tepals usually bear a small tooth near the base.
+            textZh: SANBI 条目提供了 Lapeirousia purpurea Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94450; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandy ground among sandstone rocks.
+            textZh: 该 SANBI 区域物种条目记录的生境：Sandy ground among sandstone rocks.
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Habitat row 96973; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

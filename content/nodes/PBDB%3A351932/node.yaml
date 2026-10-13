@@ -1,0 +1,29 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gustafsonia
+  displayName: Gustafsonia
+  rank: genus
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=351932
+    parentSourceIdentifier: txn:41266
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=351932
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-71a8f180fd
+      - s-f7ac3e20cd
+      - s-a4cbf628a2
+    zh:
+      - s-174e91da04
+      - s-83a1b6ab15
+      - s-05c74ca7a4

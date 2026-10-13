@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Blommersia nataliae
+  displayName: Blommersia nataliae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M6296
+  sourceIndexes:
+    - name:
+        en: Blommersia nataliae
+        zh: Blommersia nataliae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M6296
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/437
+            queryName: Blommersia nataliae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f0151e509
+      - s-abaac410e6
+      - s-9eb102a22c
+      - s-cd91eaf0b9
+      - s-5f98ace0bd
+      - s-8837e20d54
+      - s-875ef88efe
+    zh:
+      - s-cbb63f5179
+      - s-d71381daa3
+      - s-504b1011e9
+      - s-ebf263b118
+      - s-d4034e87e2
+      - s-7b17dcc270
+      - s-92d587d611

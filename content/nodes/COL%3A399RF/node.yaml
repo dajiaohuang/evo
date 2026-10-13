@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus sisyphodemus
+  displayName: Eleutherodactylus sisyphodemus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399RF
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus sisyphodemus
+        zh: Eleutherodactylus sisyphodemus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399RF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/328
+            queryName: Eleutherodactylus sisyphodemus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/86
+            queryName: Euhyas sisyphodema
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-277ea1bed3
+      - s-93aa5e31dd
+      - s-9736295946
+      - s-5c214b6a39
+      - s-dde375be8e
+      - s-c9ce2933ec
+      - s-e7cf082a81
+      - s-d2b841b19c
+      - s-d0797808fb
+      - s-eecec3e723
+      - s-f675e7ed72
+    zh:
+      - s-a7462355e5
+      - s-5c574358da
+      - s-904beb849b
+      - s-c85f5e5778
+      - s-c89da3321b
+      - s-5194b93a5f
+      - s-6c819b9fe7
+      - s-050c51d8bb
+      - s-bce14ef3f3
+      - s-74a4250d5a
+      - s-0ee70f81e0

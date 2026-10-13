@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla ibitipoca
+  displayName: Bokermannohyla ibitipoca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WMY2
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla ibitipoca
+        zh: Bokermannohyla ibitipoca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WMY2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/58
+            queryName: Bokermannohyla ibitipoca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/351
+            queryName: Hyla ibitipoca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/487
+            queryName: Boana ibitipoca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f673a4e1fb
+      - s-0223b8b772
+      - s-58632321e1
+      - s-8419c2e204
+      - s-17843ca0c7
+      - s-b06e036ea2
+      - s-082a395f77
+      - s-931ab0773d
+      - s-760f763f12
+      - s-01d96a38a7
+      - s-e33ca1b412
+      - s-5f44d93d63
+      - s-d5ea4c2f5a
+      - s-ef55f0b93b
+      - s-2cbeaa6608
+    zh:
+      - s-76859432cc
+      - s-9808d66981
+      - s-ac8a5c0791
+      - s-50313e7c3b
+      - s-b8ca9e7898
+      - s-8a8621b3cb
+      - s-1ba6d8d4f2
+      - s-0cf99bb7e7
+      - s-7883a58320
+      - s-22bf8cde7d
+      - s-20c0e7142e
+      - s-de4754193a
+      - s-11fc7ee90e
+      - s-15b2ed626c
+      - s-89d0728d8f

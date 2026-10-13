@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis glandulosus
+  displayName: Pristimantis glandulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W8FR
+  sourceIndexes:
+    - name:
+        en: Pristimantis glandulosus
+        zh: Pristimantis glandulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W8FR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/290
+            queryName: Pristimantis glandulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/93
+            queryName: Eleutherodactylus glandulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/169
+            queryName: Hylodes glandulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aac1bb464e
+      - s-4a53b43849
+      - s-574528f035
+      - s-f1754e64d5
+      - s-9ad6114d6f
+      - s-795f2368e7
+      - s-9eace8d5b0
+      - s-eada69c7bf
+      - s-e7b277c091
+    zh:
+      - s-a68197e85b
+      - s-51437e4340
+      - s-d37536b925
+      - s-ff294394fa
+      - s-55dcf9946a
+      - s-c44924130a
+      - s-6425d6463c
+      - s-0758a2d3a0
+      - s-2fbc26f9ae

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Andinobates fulguritus
+  displayName: Andinobates fulguritus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DQDV
+  sourceIndexes:
+    - name:
+        en: Andinobates fulguritus
+        zh: Andinobates fulguritus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DQDV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/460
+            queryName: Andinobates fulguritus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/180
+            queryName: Dendrobates fulguritus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/84
+            queryName: Ranitomeya fulgurita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/20
+            queryName: Minyobates fulguritus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dc09bee682
+      - s-c5c41a42a3
+      - s-8153904241
+      - s-bf8901c56d
+      - s-6f29f1c157
+      - s-b5ca52fd8b
+      - s-9dcf8318e1
+      - s-22bfdd7164
+      - s-778d29feca
+      - s-c4c24d2fe1
+      - s-0089d1ec77
+      - s-2e5de66ff4
+      - s-7d96ddd207
+      - s-9de8e56755
+    zh:
+      - s-3a05a017fa
+      - s-7750116164
+      - s-56f7adcac6
+      - s-6dfcbd5c5c
+      - s-6a695c3a17
+      - s-4733e516ef
+      - s-dfc83a14c5
+      - s-14b785fb67
+      - s-3a12706b47
+      - s-113f8e16d5
+      - s-6cde734d36
+      - s-f00d24671a
+      - s-2df6642cb4
+      - s-51a49add01

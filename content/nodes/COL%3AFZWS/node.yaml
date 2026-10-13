@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aquiloeurycea galeanae
+  displayName: Aquiloeurycea galeanae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FZWS
+  sourceIndexes:
+    - name:
+        en: Aquiloeurycea galeanae
+        zh: Aquiloeurycea galeanae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FZWS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/106
+            queryName: Aquiloeurycea galeanae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/80
+            queryName: Pseudoeurycea galeanae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/411
+            queryName: Bolitoglossa galaenae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/320
+            queryName: Bolitoglossa galeanae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aeb354af09
+      - s-fe6f0288cc
+      - s-a1619b1446
+      - s-55e1f874c5
+      - s-161bbb4da9
+      - s-e3fb0327a3
+      - s-aa8ca38a7a
+      - s-1af78507ad
+      - s-7fc7bc80e7
+      - s-0fad60fed3
+      - s-0f35459efc
+      - s-3031346a06
+    zh:
+      - s-c94549711f
+      - s-e8e7ebe852
+      - s-9d7dde4080
+      - s-5db3ca01e6
+      - s-7b4c59f440
+      - s-f47c174d68
+      - s-371731172f
+      - s-668da4f2c6
+      - s-deeb586798
+      - s-e1e0b924f5
+      - s-66c0a6e9a7
+      - s-b7b19756b6

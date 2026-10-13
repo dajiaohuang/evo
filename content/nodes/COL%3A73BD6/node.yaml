@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Meristogenys whiteheadi
+  displayName: Meristogenys whiteheadi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73BD6
+  sourceIndexes:
+    - name:
+        en: Meristogenys whiteheadi
+        zh: Meristogenys whiteheadi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73BD6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/426
+            queryName: Meristogenys whiteheadi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/367
+            queryName: Rana whiteheadi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/368
+            queryName: Amolops whiteheadi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-62ebb0f823
+      - s-75c3b11d01
+      - s-765454d600
+      - s-1fe4d7ef84
+      - s-7b4d13c5a2
+      - s-541d40ca0a
+      - s-df30526b3e
+      - s-111346ec93
+      - s-254101f01e
+      - s-6d7760251c
+      - s-404a523d7e
+    zh:
+      - s-0c008ab08c
+      - s-9c31c0a0b9
+      - s-d75e9870ce
+      - s-f75f2cc198
+      - s-6530c966dc
+      - s-8884fad0e1
+      - s-af2c61c15b
+      - s-8bad5d115b
+      - s-5b8db190fd
+      - s-313018e6c2
+      - s-a5f7a31255

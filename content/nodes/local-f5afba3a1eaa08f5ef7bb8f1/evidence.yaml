@@ -1,0 +1,240 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Oreobates saxatilis
+    name:
+      en: Oreobates saxatilis
+      zh: Oreobates saxatilis
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Oreobates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1af890960f
+            part: body
+          zh:
+            page: zh
+            section: s-04ead3d6f6
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e47754ae18
+            part: body
+          zh:
+            page: zh
+            section: s-aac665d105
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3843, 3844; Reference.csv rows 1681
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3843
+        values:
+          - Brachycephaloidea
+          - Oreobates
+          - Oreobates saxatilis
+          - F
+          - "51.5"
+          - "19.3"
+          - "20.3"
+          - "6.2"
+          - "4"
+          - NA
+          - "4.6"
+          - NA
+          - "5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "23.7"
+          - NA
+          - "27.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3844
+        values:
+          - Brachycephaloidea
+          - Oreobates
+          - Oreobates saxatilis
+          - M
+          - "50.6"
+          - "19.4"
+          - "20.9"
+          - "6.5"
+          - "4"
+          - NA
+          - "4.5"
+          - NA
+          - "4.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "28.5"
+          - NA
+          - "31.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1681
+        values:
+          - Anura
+          - Oreobates_saxatilis
+          - Duellman, W. E. (1990). A new species of leptodactylid frog, genus Ischnocnema, from Peru. https://biostor.org/reference/215
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

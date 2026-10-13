@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylototriton daloushanensis Zhou, Xiao & Luo, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Tylototriton daloushanensis
+      zh: Tylototriton daloushanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7a28c05a40
+            part: title
+          zh:
+            page: zh
+            section: s-e69a329288
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7a28c05a40
+            part: body
+          zh:
+            page: zh
+            section: s-e69a329288
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3b63da50b4
+            part: title
+          zh:
+            page: zh
+            section: s-637796b722
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3b63da50b4
+            part: body
+          zh:
+            page: zh
+            section: s-637796b722
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-9373b351bb
+            part: title
+          zh:
+            page: zh
+            section: s-96c96d3ae8
+            part: title
+        sourceIds:
+          - primary-pmc13463510-v5n3n
+        text:
+          en:
+            page: en
+            section: s-9373b351bb
+            part: body
+          zh:
+            page: zh
+            section: s-96c96d3ae8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylototriton daloushanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5N3N
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc13463510-v5n3n
+        referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton daloushanensis: Named-species morphological comparison only; new sheni biology not reassigned to accepted comparators; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6281a9cce3
+        part: body
+      zh:
+        page: zh
+        section: s-1f1dd23006
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani16152340
+        referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+        sourceKey: primary-pmc13463510-v5n3n
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13463510/article.xml
+        sourceConcept: Tylototriton daloushanensis
+        evidenceRead: "Tylototriton daloushanensis: Named-species morphological comparison only; new sheni biology not reassigned to accepted comparators; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: appearance
+            heading:
+              en: Forward limb reach and male cloacal morphology
+              zh: 前伸肢到达位置及雄泄殖腔形态
+            referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+            sourceKey: primary-pmc13463510-v5n3n
+            locator: PMC13463510 XML section sec3dot3-animals-16-02340, paragraph 11
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2019d5c500
+                part: body
+              zh:
+                page: zh
+                section: s-9009324caa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

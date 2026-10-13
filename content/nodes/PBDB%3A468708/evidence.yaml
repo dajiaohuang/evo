@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Natovenator polydontus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Natovenator polydontus
+      en: Natovenator polydontus
+    sections:
+      - topic: morphology
+        sourceIds:
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-dda7f01226
+            part: body
+          en:
+            page: en
+            section: s-c85b35f60b
+            part: body
+      - topic: morphology
+        sourceIds:
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-61325be1d2
+            part: body
+          en:
+            page: en
+            section: s-b1ebf1489e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-387e31a22d
+            part: body
+          en:
+            page: en
+            section: s-b0111d8ce4
+            part: body
+      - topic: palaeobiology
+        sourceIds:
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-738527be1c
+            part: body
+          en:
+            page: en
+            section: s-31eb705d18
+            part: body
+      - topic: phylogeny
+        sourceIds:
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-4b0b02aa6f
+            part: body
+          en:
+            page: en
+            section: s-b53350fd96
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-6f86ea2178
+            part: body
+          en:
+            page: en
+            section: s-09050a1107
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-edee32519c
+            part: body
+          en:
+            page: en
+            section: s-391d9b0329
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ac7e2ba7b9
+            part: body
+          en:
+            page: en
+            section: s-82b2b681b7
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3246d1c2bc
+            part: body
+          en:
+            page: en
+            section: s-eb64ac5109
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d7e55f13a1
+            part: body
+          en:
+            page: en
+            section: s-d668759bcc
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-265f24d007
+            part: body
+          en:
+            page: en
+            section: s-ddce9295ad
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Natovenator polydontus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=468708&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:468708; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:468708
+          selectedOccurrenceIds:
+            - occ:1634492
+          selectedCollectionIds:
+            - col:204919
+          sourceReferenceIds:
+            - ref:83912
+          originalIdentificationMappings:
+            - occurrenceId: occ:1634492
+              originalIdentifiedName: Natovenator polydontus n. gen. n. sp.
+              acceptedName: Natovenator polydontus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: lee2022Natovenator
+        referenceId: ref-61b73848-c367-4856-8e89-8862c823759c
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: A non-avian dinosaur with a streamlined body exhibits potential adaptations for swimming
+          url: https://www.nature.com/articles/s42003-022-04119-9
+          locator: Holotype; Locality and horizon; Diagnosis; Description; Phylogenetic analysis; Discussion; Methods; Figures 1–5 and Tables 1–2.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2022 年 MPC-D 102/114 原始描述与作者的形态、半水生及亲缘解释；非实测水动力、直接食物记录或全部后续研究综述。
+            en: The 2022 description of MPC-D 102/114 and the authors’ anatomical, semiaquatic and phylogenetic interpretations; not measured hydrodynamics, direct food records or a complete later review.
+    limitations:
+      zh:
+        page: zh
+        section: s-217d2bccf1
+        part: body
+      en:
+        page: en
+        section: s-146a56a565
+        part: body

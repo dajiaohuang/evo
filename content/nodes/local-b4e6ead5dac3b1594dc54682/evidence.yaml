@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Phrynopus bracki
+    name:
+      en: Phrynopus bracki
+      zh: Phrynopus bracki
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Phrynopus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Phrynopus bracki in the morphology deposit
+          zh: 形态数据中的 Phrynopus bracki 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-77828da1cc
+            part: body
+          zh:
+            page: zh
+            section: s-2d26194fe5
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4265 and 4266: measurement fields and sex codes"
+          zh: 第 4265、4266 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ac7eba1070
+            part: body
+          zh:
+            page: zh
+            section: s-e8a101e40d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4265, 4266; Reference.csv rows 1693
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4265
+        values:
+          - Brachycephaloidea
+          - Phrynopus
+          - Phrynopus bracki
+          - M
+          - "15.95"
+          - "5.81"
+          - "6.09"
+          - "1.98"
+          - NA
+          - NA
+          - "1.83"
+          - "1.97"
+          - NA
+          - "1.31"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.515"
+          - NA
+          - "6.185"
+          - "6.53"
+          - "4.06"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.32"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.33"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4266
+        values:
+          - Brachycephaloidea
+          - Phrynopus
+          - Phrynopus bracki
+          - F
+          - "19.8"
+          - "7.28"
+          - "7.81"
+          - "2.39"
+          - NA
+          - NA
+          - "2.32"
+          - "2.19"
+          - NA
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.06"
+          - NA
+          - "7.4"
+          - "8.25"
+          - "4.99"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.4"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1693
+        values:
+          - Anura
+          - Phrynopus_bracki
+          - "Hedges, S. B. (1990). A new species of Phrynopus (Anura: Leptodactylidae) from Perú. Copeia, 1990(1), 108-112. https://doi.org/10.2307/1445826"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - EN
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

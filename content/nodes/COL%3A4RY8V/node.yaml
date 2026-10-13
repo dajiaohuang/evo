@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhaebo blombergi
+  displayName: Rhaebo blombergi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RY8V
+  sourceIndexes:
+    - name:
+        en: Rhaebo blombergi
+        zh: Rhaebo blombergi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RY8V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/266
+            queryName: Rhaebo blombergi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/367
+            queryName: Bufo blombergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0039ed0f04
+      - s-1423072613
+      - s-60c075953e
+      - s-02853b76ce
+      - s-75664677bf
+      - s-4cf80e7891
+      - s-5a06c06ef0
+      - s-3d47a453a5
+    zh:
+      - s-b51226b215
+      - s-e803e98518
+      - s-d1168e1850
+      - s-340313ec3e
+      - s-40e8bf1133
+      - s-0b231f3fa1
+      - s-c1c2ec199e
+      - s-ffa570da29

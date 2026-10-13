@@ -1,0 +1,222 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eupsophus roseus
+  displayName: Eupsophus roseus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CYJ3
+  sourceIndexes:
+    - name:
+        en: Eupsophus roseus
+        zh: Eupsophus roseus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CYJ3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/405
+            queryName: Eupsophus roseus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/340
+            queryName: Eupsophus sylvestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/279
+            queryName: Cystignathus roseus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/280
+            queryName: Cystignathus sylvestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/272
+            queryName: Borborocoetes bibronii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/273
+            queryName: Borborocoetes grayii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/274
+            queryName: Cystignathus bibronii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/275
+            queryName: Borborocoetes roseus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/276
+            queryName: Borborocoetes pliciferus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/277
+            queryName: Cystignathus nigrita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/278
+            queryName: Borborocoetes nigrita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/279
+            queryName: Leptodactylus kreffti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/280
+            queryName: Borborocoetes masareyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/281
+            queryName: Platymantis kreffti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/17
+            queryName: Eupsophus grayii grayii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/175
+            queryName: Cyclorhamphus fasciatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/179
+            queryName: Cystignathus boedeckeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/180
+            queryName: Cystignathus fernandezi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/182
+            queryName: Cystignathus oreophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/183
+            queryName: Cystignathus oxyglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/184
+            queryName: Cystignathus pallidus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/185
+            queryName: Cystignathus tympanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-610a4be451
+      - s-2e8cd65f7d
+      - s-101fbcdb69
+      - s-3e234cf01f
+      - s-bc9d0d0b68
+      - s-c7b3d1e312
+      - s-f81ee479d3
+      - s-275199a50e
+      - s-9d31048a3d
+      - s-5b3a9bc7b2
+      - s-a6fb9fc116
+      - s-26ef91e8ad
+      - s-87839f9001
+      - s-bd4201759f
+      - s-ba706bf421
+      - s-795b4968f5
+      - s-524e09d20c
+      - s-575f3d96ea
+      - s-fa75eaab11
+      - s-9860769ba1
+      - s-0fce32a844
+      - s-b0e05a5ac1
+      - s-5d685e66cd
+      - s-43fda28f3c
+      - s-41130208e9
+    zh:
+      - s-f407d9d336
+      - s-a1ae5566a7
+      - s-d22fe34129
+      - s-cdbe6e7a33
+      - s-91b0c93eea
+      - s-30228e1d58
+      - s-065d06c4d7
+      - s-4a5b1c4205
+      - s-ca960ebbb2
+      - s-c45652bbeb
+      - s-9974295e5a
+      - s-fb31ca85c3
+      - s-aa25058487
+      - s-193665e5b2
+      - s-be221d7c97
+      - s-209564aad3
+      - s-75c3ad3ca2
+      - s-ea0cb969f8
+      - s-655ea544fe
+      - s-1c63447a6c
+      - s-f5e40c6188
+      - s-b2a5146c81
+      - s-d1a01290a9
+      - s-6c55b0446f
+      - s-367695caf4

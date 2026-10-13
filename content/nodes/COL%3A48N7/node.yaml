@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duellmanohyla
+  displayName: Duellmanohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48N7
+  sourceIndexes:
+    - name:
+        en: Duellmanohyla
+        zh: Duellmanohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48N7
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/362
+            queryName: Duellmanohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3b4588a5fc
+      - s-b83635e1c0
+      - s-6e8aeb6a1b
+      - s-f1fa0e8f78
+      - s-6f434c3395
+      - s-64209db26d
+      - s-14984efb6b
+      - s-3fb75e2a75
+      - s-d4cbbefa06
+      - s-693ccb6682
+      - s-c30d3f0c62
+    zh:
+      - s-17d8b4d1d8
+      - s-c0aa469110
+      - s-bb66a2735a
+      - s-1c0f846f0c
+      - s-80f95d64f3
+      - s-00c692e4d7
+      - s-8b7ab81f8e
+      - s-3a8e50b515
+      - s-2c8b3ee4e6
+      - s-2143128c6c
+      - s-35aff8753c

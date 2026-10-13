@@ -1,0 +1,144 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Zatracheidae
+    rank: family
+    sourceTaxonId: txn:37053
+    name:
+      en: Zatracheidae
+      zh: Zatracheidae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB’s recorded fossil classification
+          zh: PBDB 所记化石分类
+        text:
+          en:
+            page: en
+            section: s-c4f488e47b
+            part: body
+          zh:
+            page: zh
+            section: s-600950ebde
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: What the captured fossil records show
+          zh: 捕获的化石记录显示什么
+        text:
+          en:
+            page: en
+            section: s-22a1591919
+            part: body
+          zh:
+            page: zh
+            section: s-431fd29374
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Follow PBDB’s fossil classification
+          zh: 沿 PBDB 化石分类继续阅读
+        text:
+          en:
+            page: en
+            section: s-13b559a1a6
+            part: body
+          zh:
+            page: zh
+            section: s-7c3defca3e
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-873923d519
+            part: body
+          zh:
+            page: zh
+            section: s-145ec223be
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:37053; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. L. Carroll. 1988. Vertebrate Paleontology and Evolution.
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:255221
+        - txn:441447
+        - txn:310490
+        - txn:150298
+        - txn:458213
+        - txn:345490
+        - txn:157514
+      exactOccurrenceCount: 18
+      datedOccurrenceCount: 18
+      collectionIntervalBoundsMa:
+        older: 303.7
+        younger: 274.4
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: What the fossil records cannot tell us
+          zh: 这些化石记录不能说明什么
+        text:
+          en:
+            page: en
+            section: s-873923d519
+            part: body
+          zh:
+            page: zh
+            section: s-145ec223be
+            part: body
+        sourceIds: []

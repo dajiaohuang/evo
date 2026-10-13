@@ -1,0 +1,111 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Barberetta aurea Harv.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage KMF7, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage KMF7; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/KMF7
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage KMF7
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000340973-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL KMF7 / WFO wfo-0000340973
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_1500_0
+        referenceId: ref-00879739-ef12-8f3c-a255-b4abc4bf0234
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Barberetta aurea Harv. account; SANBI/WFO archive rows 73973 (Morphology), source identifier 1500.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18496_0
+        referenceId: ref-c9734a54-f362-8f27-a91e-73f22bf5b012
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Barberetta aurea Harv. account; SANBI/WFO archive rows 92175 (Habitat), source identifier 18496.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Herbs up to 30 cm high from a stoloniferous corm. Leaves up to 35 cm long and 6-20 mm broad, glabrous. Inflorescences many-flowered, up to 30 cm long; bracts 5 mm long; pedicels 8-15 mm long. Flowers yellow; tepals 7 mm long, 4 mm broad, the three upper with an orange spot at the base; stamens 7 mm long the two upper ascending and slightly divergent, the lower diverging strongly in the opposite direction to the style; filaments yellow; anthers elliptic, very short, orange; ovary green, 2 mm diam.; ovule 1 mm diam.; style yellow, 6-7 mm long, strongly bent sideways; stigma orange. Fruit half-ovoid, green becoming black, 4 mm diam.; seed 3 mm diam., orange.
+            textZh: Barberetta aurea Harv. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_1500_0
+            locator: "SANBI/WFO archive Morphology row 73973; source identifier 1500.0; cited publication: Burtt, BL; Hilliard, OM. 1971. Notes on some plants of southern Africa chiefly from Natal: II. Notes Roy. Bot. Gard. Edinburgh 31(1): 1 - 33. [CC BY-SA]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Colonies on wet rocky forest floors. Sub-Escarpment Grassland, Indigenous Forests, Sub-Escarpment Savanna.
+            textZh: 该 SANBI 区域物种条目记录的生境：Colonies on wet rocky forest floors. Sub-Escarpment Grassland, Indigenous Forests, Sub-Escarpment Savanna.
+            sourceIds:
+              - sanbi_18496_0
+            locator: "SANBI/WFO archive Habitat row 92175; source identifier 18496.0; cited publication: Magwaza, ZL; Bredenkamp, CL. 2019. Haemodoraceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1170 - 1771. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus carolinensis
+  displayName: Desmognathus carolinensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6CNXV
+  sourceIndexes:
+    - name:
+        en: Desmognathus carolinensis
+        zh: Desmognathus carolinensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6CNXV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/467
+            queryName: Desmognathus carolinensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/477
+            queryName: Desmognathus ochrophaeus carolinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/463
+            queryName: Desmognathus ochrophaea carolinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/464
+            queryName: Desmognathus fuscus carolinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e32dfdf8b
+      - s-0355fde754
+      - s-97c316710e
+      - s-d8b8779401
+      - s-5bb3db2d29
+      - s-3c5cf19ad8
+      - s-096c64cb46
+      - s-9362337237
+      - s-ae56209db3
+      - s-e9af024c74
+      - s-767e5bdb64
+      - s-b2adf8fdc7
+      - s-7486860c9d
+      - s-bbc30f5db3
+      - s-e2c687a83a
+      - s-36665af9e7
+      - s-ce8b487b58
+    zh:
+      - s-a63aa5eb3e
+      - s-ad62eabecc
+      - s-1763e5a228
+      - s-4efe154f71
+      - s-d6f6fe90c1
+      - s-d52c90bef5
+      - s-ddf6bc1e8f
+      - s-8459fe8f6a
+      - s-e0add4b50c
+      - s-39e2ce32eb
+      - s-8acddcf93a
+      - s-d8b7a91b62
+      - s-67f54fff0b
+      - s-1f8be80c7c
+      - s-e493c20b2d
+      - s-17f1c54c74
+      - s-1b95323184

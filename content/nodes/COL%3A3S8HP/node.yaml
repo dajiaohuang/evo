@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Laotriton laoensis
+  displayName: Laotriton laoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3S8HP
+  sourceIndexes:
+    - name:
+        en: Laotriton laoensis
+        zh: Laotriton laoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3S8HP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/185
+            queryName: Laotriton laoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/380
+            queryName: Paramesotriton laoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 24
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9eabe2af90
+      - s-beebb44d4c
+      - s-c090b69601
+      - s-e6b248a4b4
+      - s-6554da9317
+      - s-ed3492862a
+      - s-481b946ab6
+      - s-8ef3e41ea1
+      - s-676046f52b
+      - s-c6b8bbb035
+      - s-0265b51bf4
+    zh:
+      - s-7b86aaf6ca
+      - s-82bb523ab3
+      - s-7e2d29ac28
+      - s-66ae1e6aa9
+      - s-370b8fdf78
+      - s-ad906da8d8
+      - s-88f0ef1745
+      - s-9f2c92c6f4
+      - s-e77b307aa8
+      - s-15d78a50d8
+      - s-8f56bf9e23

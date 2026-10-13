@@ -1,0 +1,166 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella icterica
+  displayName: Rhinella icterica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7ND
+  sourceIndexes:
+    - name:
+        en: Rhinella icterica
+        zh: Rhinella icterica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7ND
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/328
+            queryName: Rhinella icterica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 79
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/395
+            queryName: Bufo ictericus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/406
+            queryName: Bufo missionum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/152
+            queryName: Bufo bimaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/153
+            queryName: Bufo fuliginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/154
+            queryName: Docidophryne icterica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/155
+            queryName: Chaunus ictericus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/166
+            queryName: Bufo agua
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/311
+            queryName: Bufo marinus ictericus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/312
+            queryName: Bufo ictericus mertensi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/313
+            queryName: Bufo ictericus ictericus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/453
+            queryName: Docidophryne agua
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/454
+            queryName: Phrynoidis agua
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2e34429d01
+      - s-322f7275ac
+      - s-07a944d2ca
+      - s-72e6b00f4b
+      - s-3c8975a4d4
+      - s-20bc609f43
+      - s-0e0aa08f10
+      - s-388c4ebcaf
+      - s-8290f61bcc
+      - s-ccebe89f67
+      - s-c7f1b43ffa
+      - s-f430aa1f2f
+      - s-891e763c0f
+      - s-1783cfb147
+      - s-fe9368d4aa
+      - s-c5b4c0391d
+      - s-e25cdc5715
+      - s-ac1a643a03
+      - s-508a97c079
+      - s-dc5ec3799b
+      - s-4ad8724f13
+      - s-3f8c5148e8
+      - s-d990323279
+      - s-9358a5f7e1
+      - s-72234ced5b
+      - s-9750b08bb8
+      - s-ae69a8113b
+    zh:
+      - s-8153814b00
+      - s-251c88cd75
+      - s-9b447d4437
+      - s-2df7e4f2b1
+      - s-5acc601d4d
+      - s-8e7b1f7ed5
+      - s-cd4d3d7c8c
+      - s-b2082dd795
+      - s-9ee5dfd80e
+      - s-a473a45fba
+      - s-0bf75a361d
+      - s-ab5055b41f
+      - s-1b788ee34a
+      - s-6618adc950
+      - s-93082f8f4c
+      - s-07c6d31d22
+      - s-8e38eeb6fc
+      - s-769dff69e9
+      - s-96f649cbd2
+      - s-c7afcd2f41
+      - s-7d2cfe2f21
+      - s-348a575f85
+      - s-13ddbd45e9
+      - s-4cc1cc8dd5
+      - s-55394dbcad
+      - s-b21beddc70
+      - s-2b9a67f528

@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates pustulosus
+  displayName: Lithobates pustulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQS
+  sourceIndexes:
+    - name:
+        en: Lithobates pustulosus
+        zh: Lithobates pustulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/192
+            queryName: Lithobates pustulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/226
+            queryName: Rana pustulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 53
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/140
+            queryName: Rana sinaloae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ef12b4f4d
+      - s-3cfd66864e
+      - s-9d39fb8e57
+      - s-beb48137f7
+      - s-fb90a9982b
+      - s-a7bf964f7b
+      - s-3e32d07fa5
+      - s-83c658f500
+      - s-e29a4e58e6
+      - s-dbbd8a9401
+      - s-d1b29a60d8
+      - s-6c8f2970f0
+      - s-112fec7949
+      - s-668dc8b9c4
+      - s-cd78cff1d6
+      - s-ff6ec6950f
+      - s-e66931a45c
+      - s-2b5a569fa2
+    zh:
+      - s-a58c1fd0f9
+      - s-01a1f02b95
+      - s-c1101c3993
+      - s-2ad3cc0ad0
+      - s-8cca11888f
+      - s-49cdfd99d2
+      - s-3b10064961
+      - s-b1de4a7c3c
+      - s-c78c6cd663
+      - s-39bc75dae1
+      - s-d64697e44c
+      - s-f8ff27bd6c
+      - s-712a064a77
+      - s-977ae9f188
+      - s-8230bd0e7e
+      - s-c8e5f5247c
+      - s-dd1d89f393
+      - s-b952a202f7

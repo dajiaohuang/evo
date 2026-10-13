@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanohyla albopunctata
+  displayName: Nanohyla albopunctata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QMT99
+  sourceIndexes:
+    - name:
+        en: Nanohyla albopunctata
+        zh: Nanohyla albopunctata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QMT99
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/153
+            queryName: Nanohyla albopunctata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75c5c0b549
+      - s-c5276db946
+      - s-b465634224
+      - s-dffd11bb2b
+      - s-5443eb982f
+      - s-b8bd098a46
+      - s-c2fdec158e
+      - s-9ef1c0bc5c
+      - s-48ff958295
+      - s-db7559c16a
+      - s-a256d9ab2f
+      - s-09e65befa8
+      - s-952cf8aaab
+      - s-c9fdc1e9e9
+      - s-b795cf0621
+      - s-a9641bf2c0
+      - s-dd8c0618b0
+      - s-3554af8f12
+      - s-d5780244ed
+    zh:
+      - s-208f8e728f
+      - s-4e33eb79ac
+      - s-c7569ff69a
+      - s-0de702e169
+      - s-8a76bd1ed6
+      - s-e20de99dc9
+      - s-49c325f48a
+      - s-92822ef71b
+      - s-9c50296a78
+      - s-c4127926f1
+      - s-57ec6e577d
+      - s-aa7cbfc27b
+      - s-98df5dc24d
+      - s-5dcccf4951
+      - s-27574b9565
+      - s-22b5b4bd19
+      - s-7e2479ad00
+      - s-1a79b5d474
+      - s-7d1566c602

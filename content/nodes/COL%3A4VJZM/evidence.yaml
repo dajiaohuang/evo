@@ -1,0 +1,421 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Scinax tsachila Ron, Duellman, Caminer & Pazmiño, 2018
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Scinax tsachila
+      zh: Scinax tsachila
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c3ccec8c45
+            part: title
+          zh:
+            page: zh
+            section: s-8d76736e5d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c3ccec8c45
+            part: body
+          zh:
+            page: zh
+            section: s-8d76736e5d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ef9a8a9e49
+            part: title
+          zh:
+            page: zh
+            section: s-5b05ec78c1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ef9a8a9e49
+            part: body
+          zh:
+            page: zh
+            section: s-5b05ec78c1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bcfabcd224
+            part: title
+          zh:
+            page: zh
+            section: s-c463e54e9c
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-bcfabcd224
+            part: body
+          zh:
+            page: zh
+            section: s-c463e54e9c
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-06fbf6ffa1548f131420db0f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-70d3cccce465a23fa2267334
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9a8180a259
+            part: title
+          zh:
+            page: zh
+            section: s-e84f44e01e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9a8180a259
+            part: body
+          zh:
+            page: zh
+            section: s-e84f44e01e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9a2d2038f2
+            part: title
+          zh:
+            page: zh
+            section: s-97bdce3adf
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "4005"
+        text:
+          en:
+            page: en
+            section: s-9a2d2038f2
+            part: body
+          zh:
+            page: zh
+            section: s-97bdce3adf
+            part: body
+        sourceRowNumber: 3665
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-578058f905
+            part: title
+          zh:
+            page: zh
+            section: s-86b57f47b4
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "4022"
+        text:
+          en:
+            page: en
+            section: s-578058f905
+            part: body
+          zh:
+            page: zh
+            section: s-86b57f47b4
+            part: body
+        sourceRowNumber: 3681
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-ac20da2391
+            part: title
+          zh:
+            page: zh
+            section: s-690ee07cb2
+            part: title
+        sourceIds:
+          - primary-pmc6157856-4vjzm
+        text:
+          en:
+            page: en
+            section: s-ac20da2391
+            part: body
+          zh:
+            page: zh
+            section: s-690ee07cb2
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c819f83a06
+            part: title
+          zh:
+            page: zh
+            section: s-daecfd15c5
+            part: title
+        sourceIds:
+          - primary-pmc6157856-4vjzm
+        text:
+          en:
+            page: en
+            section: s-c819f83a06
+            part: body
+          zh:
+            page: zh
+            section: s-daecfd15c5
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-46e194e65b
+            part: title
+          zh:
+            page: zh
+            section: s-8243753077
+            part: title
+        sourceIds:
+          - primary-pmc6157856-4vjzm
+        text:
+          en:
+            page: en
+            section: s-46e194e65b
+            part: body
+          zh:
+            page: zh
+            section: s-8243753077
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Scinax tsachila
+          url: https://www.checklistbank.org/dataset/316115/taxon/4VJZM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5635, 5636; Reference.csv rows 3182
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3665, 3681; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc6157856-4vjzm
+        referenceId: ref-661cc777-9af9-4079-a934-e1ceb89fad0a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Scinax tsachila: Species distribution and ecology account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-320b2d8e4c
+        part: body
+      zh:
+        page: zh
+        section: s-d40971d734
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-06fbf6ffa1548f131420db0f
+        scientificName: Scinax tsachila
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-70d3cccce465a23fa2267334
+        scientificName: Scinax tsachila
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0203169
+        referenceId: ref-661cc777-9af9-4079-a934-e1ceb89fad0a
+        sourceKey: primary-pmc6157856-4vjzm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6157856/article.xml
+        sourceConcept: Scinax tsachila
+        evidenceRead: "Scinax tsachila: Species distribution and ecology account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Ecuadorian records and a conditional Colombian attribution
+              zh: 厄瓜多尔记录与有条件的哥伦比亚归属
+            referenceId: ref-661cc777-9af9-4079-a934-e1ceb89fad0a
+            sourceKey: primary-pmc6157856-4vjzm
+            locator: "Scinax tsachila: Species distribution and ecology account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a4db73131b
+                part: body
+              zh:
+                page: zh
+                section: s-7c50e5a448
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Collection records in artificial open areas
+              zh: 人工开阔地的馆藏记录
+            referenceId: ref-661cc777-9af9-4079-a934-e1ceb89fad0a
+            sourceKey: primary-pmc6157856-4vjzm
+            locator: "Scinax tsachila: Species distribution and ecology account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-70c4aca6dc
+                part: body
+              zh:
+                page: zh
+                section: s-11df095665
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Shallow-water callers and observed egg deposition
+              zh: 浅水鸣叫者与已观察产卵
+            referenceId: ref-661cc777-9af9-4079-a934-e1ceb89fad0a
+            sourceKey: primary-pmc6157856-4vjzm
+            locator: "Scinax tsachila: Species distribution and ecology account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9b0a5f90d0
+                part: body
+              zh:
+                page: zh
+                section: s-42e1898133
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

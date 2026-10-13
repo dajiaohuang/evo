@@ -1,0 +1,212 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Allophrynidae Goin, Goin & Zug, 1978
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Allophrynidae
+      zh: Allophrynidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5005c959f3
+            part: title
+          zh:
+            page: zh
+            section: s-f8bf7e16e8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5005c959f3
+            part: body
+          zh:
+            page: zh
+            section: s-f8bf7e16e8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7e7e3e5d38
+            part: title
+          zh:
+            page: zh
+            section: s-14728ae336
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7e7e3e5d38
+            part: body
+          zh:
+            page: zh
+            section: s-14728ae336
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-1d2ded7f9d
+            part: title
+          zh:
+            page: zh
+            section: s-2581053943
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1d2ded7f9d
+            part: body
+          zh:
+            page: zh
+            section: s-2581053943
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-45ac126d7b
+            part: title
+          zh:
+            page: zh
+            section: s-e71ab12c8e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-45ac126d7b
+            part: body
+          zh:
+            page: zh
+            section: s-e71ab12c8e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b0c408a003
+            part: title
+          zh:
+            page: zh
+            section: s-bafafc0649
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: SH4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASH4
+            label:
+              en: Allophryne
+              zh: Allophryne
+        text:
+          en:
+            page: en
+            section: s-b0c408a003
+            part: body
+          zh:
+            page: zh
+            section: s-bafafc0649
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Allophrynidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/67P
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Allophrynidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-99148b5e3c
+        part: body
+      zh:
+        page: zh
+        section: s-f402183aa7
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Allophrynidae
+      sourceRowIds:
+        - Anf0001
+        - Anf5964
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false

@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Werneria mertensiana
+    name:
+      en: Werneria mertensiana
+      zh: Werneria mertensiana
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Werneria
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Werneria mertensiana in the morphology deposit
+          zh: 形态数据中的 Werneria mertensiana 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6cb1e6f61d
+            part: body
+          zh:
+            page: zh
+            section: s-3f7c8cd492
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 6021 and 6022: measurement fields and sex codes"
+          zh: 第 6021、6022 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b39eeb6995
+            part: body
+          zh:
+            page: zh
+            section: s-bb904fe6d0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 6021, 6022; Reference.csv rows 2784
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 6021
+        values:
+          - Bufonidae
+          - Werneria
+          - Werneria mertensiana
+          - M
+          - "36.7"
+          - NA
+          - "10.9"
+          - "4.5"
+          - NA
+          - NA
+          - "4.5"
+          - NA
+          - NA
+          - "3.3"
+          - NA
+          - "2"
+          - NA
+          - NA
+          - NA
+          - "24.7"
+          - NA
+          - "16.8"
+          - "16.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 6022
+        values:
+          - Bufonidae
+          - Werneria
+          - Werneria mertensiana
+          - F
+          - "44.9"
+          - NA
+          - "12.2"
+          - "4.6"
+          - NA
+          - NA
+          - "5"
+          - NA
+          - NA
+          - "3.5"
+          - NA
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - "27.7"
+          - NA
+          - "19.4"
+          - "19.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2784
+        values:
+          - Anura
+          - Werneria_mertensiana
+          - "Rödel, M.-O., Schmitz, A., Pauwels, O., & Böhme, W. (2004). Revision of the genus Werneria Poche, 1903, including the descriptions of two new species from Cameroon and Gabon (Amphibia: Anura: Bufonidae). Zootaxa, 720, 1-28. https://doi.org/10.11646/zootaxa.720.1.1 "
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IOD
+      - EN
+      - NS
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5BXH2
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

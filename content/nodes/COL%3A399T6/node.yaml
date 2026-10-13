@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus toa
+  displayName: Eleutherodactylus toa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399T6
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus toa
+        zh: Eleutherodactylus toa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399T6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/337
+            queryName: Eleutherodactylus toa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/204
+            queryName: Euhyas toa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-460f2690ad
+      - s-43c1d5da30
+      - s-6c1fa88821
+      - s-aa07800f8d
+      - s-990c1095f0
+      - s-d84aa631fb
+      - s-3c6ec90c81
+      - s-6aca615323
+      - s-8d79594c0c
+    zh:
+      - s-c0b4ed8bb1
+      - s-fe52bf24c3
+      - s-5e7cb526b6
+      - s-b5714fdadb
+      - s-f178178426
+      - s-11098f2e7f
+      - s-3386621f96
+      - s-0f471c4a2e
+      - s-3314c64fc8

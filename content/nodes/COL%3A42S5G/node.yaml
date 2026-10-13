@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microcaecilia iwokramae
+  displayName: Microcaecilia iwokramae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42S5G
+  sourceIndexes:
+    - name:
+        en: Microcaecilia iwokramae
+        zh: Microcaecilia iwokramae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42S5G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/478
+            queryName: Microcaecilia iwokramae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/54
+            queryName: Caecilita iwokramae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dfaf62a519
+      - s-352a9fa4a9
+      - s-6f334d71d1
+      - s-b988315ec9
+      - s-ed9461fa3f
+      - s-5b87ff1c8f
+      - s-d057841be5
+      - s-3ae477f245
+      - s-c27e439154
+      - s-32db79c210
+      - s-e9f2307428
+    zh:
+      - s-491793279d
+      - s-d5198d88de
+      - s-4e01b04d8d
+      - s-d170c05c9c
+      - s-c95b61f0c5
+      - s-9234e44a9a
+      - s-b5e576fd1d
+      - s-5a72283101
+      - s-648de11b7f
+      - s-95741e3e30
+      - s-ae22816973

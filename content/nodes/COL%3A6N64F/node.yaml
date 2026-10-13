@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis garoensis
+  displayName: Ichthyophis garoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N64F
+  sourceIndexes:
+    - name:
+        en: Ichthyophis garoensis
+        zh: Ichthyophis garoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N64F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/399
+            queryName: Ichthyophis garoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/407
+            queryName: Ichthyophis husaini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1225d08e30
+      - s-b629e468a5
+      - s-8b79432fbc
+      - s-327a0da7e1
+      - s-dbee0efac4
+      - s-a8fab370a5
+      - s-2499ed3bb1
+      - s-4e7d0faabb
+      - s-40479071e8
+      - s-4f22511fa2
+      - s-534fb24ccb
+      - s-94feda667e
+      - s-e450bbf7eb
+    zh:
+      - s-e02ef35269
+      - s-4493be0883
+      - s-7caeb0c2e4
+      - s-e72f38313e
+      - s-4d493c4cac
+      - s-1cfe9ade05
+      - s-a1c3c6f6a8
+      - s-7871f2843c
+      - s-da03e51645
+      - s-9d32bd51b1
+      - s-b53a7b104e
+      - s-ecc64e8e45
+      - s-74480bba7f

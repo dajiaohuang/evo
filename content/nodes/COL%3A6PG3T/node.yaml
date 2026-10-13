@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella serasanae
+  displayName: Leptobrachella serasanae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PG3T
+  sourceIndexes:
+    - name:
+        en: Leptobrachella serasanae
+        zh: Leptobrachella serasanae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PG3T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/289
+            queryName: Leptobrachella serasanae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e9f7b3b8a
+      - s-d3f672dc26
+      - s-5550b526c9
+      - s-868783d9a5
+      - s-93cfa34c96
+      - s-0312a58b5e
+      - s-a0d7b5d385
+      - s-00f773758a
+      - s-b5b1d78330
+      - s-c2b268dd15
+    zh:
+      - s-169dc9792e
+      - s-74173c6868
+      - s-8101300da7
+      - s-23d4a092f8
+      - s-f4e94c6c9f
+      - s-9a9c187f16
+      - s-d2414c0bdb
+      - s-dd051b1cc5
+      - s-34c5504a36
+      - s-da62418be2

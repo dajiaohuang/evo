@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pauridia canaliculata (Garside) Snijman & Kocyan
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6TVDJ, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6TVDJ; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6TVDJ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6TVDJ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001336325-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6TVDJ / WFO wfo-0001336325
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13877_0
+        referenceId: ref-57048583-5353-8f0b-a70d-aae9850c37fa
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pauridia canaliculata (Garside) Snijman & Kocyan account; SANBI/WFO archive rows 7529 (Morphology), 28957 (Habitat), source identifier 13877.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_15172_0
+        referenceId: ref-e97a6c82-af79-875a-a072-ef81915016f7
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pauridia canaliculata (Garside) Snijman & Kocyan account; SANBI/WFO archive rows 58382 (Diagnostic), source identifier 15172.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Like S. capensis but leaves U-shaped in t/s, without a keel, flowers yellow or orange with a dark, non-iridescent centre, ovules and seeds J-shaped.
+            textZh: Pauridia canaliculata (Garside) Snijman & Kocyan 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13877_0
+            locator: "SANBI/WFO archive Morphology row 7529; source identifier 13877.0; cited publication: Snijman, DA. 2012. Hypoxidaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 115 - 119. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: "Pauridia canaliculata is superficially so like the highly variable P. capensis that the differences between the plants went unnoticed until Garside brought them to the fore. As the name suggests, the outer leaves of P. canaliculata are smoothly canaliculate and without a prominent midrib, thus differing from P. capensis which has carinate leaves characterized by a prominent midrib on the abaxial surface, at least distally. Even though the flowers of P. capensis vary hugely in colour and markings they never approach the diagnostic markings found in P. canaliculata. These form a non-iridescent, glaucous, brownish purple centre against orange or rarely deep yellow tepals. Other features distinguishing P. canaliculata are the uniquely J-shaped seeds and the heavily rugose testa. In contrast, the seeds of all other Pauridia species are ovoid to globose, with the testa ranging from colliculate to tuberculate, studded or rarely covered with blunt trichomes. Discussion: Garside (1942) postulated that the variation in specimens collected by W.F. Purcell on Bergvliet Farm, Cape Peninsula, in 1917 and 1918 reflected hybridization between Pauridia canaliculata and P. capensis. Unfortunately, populations of P. canaliculata on the Cape Peninsula are now believed to be extinct and the putative hybrids in the area have not been seen again. The richly coloured large flowers make P. canaliculata one of the most beautiful species in the genus. Despite its striking appearance the earliest collections of P. canaliculata date back only to 1917, even though botanical exploration of the southwestern Cape commenced as long ago as the seventeenth century."
+            textZh: SANBI 条目提供了 Pauridia canaliculata (Garside) Snijman & Kocyan 的鉴别特征。
+            sourceIds:
+              - sanbi_15172_0
+            locator: "SANBI/WFO archive Diagnostic row 58382; source identifier 15172.0; cited publication: Snijman, DA. 2014. A taxonomic revision of the genus Pauridia (Hypoxidaceae) in southern Africa. Phytotaxa 182(1): 1 - 114. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Wet flats.
+            textZh: 该 SANBI 区域物种条目记录的生境：Wet flats.
+            sourceIds:
+              - sanbi_13877_0
+            locator: "SANBI/WFO archive Habitat row 28957; source identifier 13877.0; cited publication: Snijman, DA. 2012. Hypoxidaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 115 - 119. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

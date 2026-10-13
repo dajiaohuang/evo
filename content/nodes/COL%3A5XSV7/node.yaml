@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiromantis xerampelina
+  displayName: Chiromantis xerampelina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5XSV7
+  sourceIndexes:
+    - name:
+        en: Chiromantis xerampelina
+        zh: Chiromantis xerampelina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5XSV7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/286
+            queryName: Chiromantis xerampelina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 149
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/241
+            queryName: Chiromantis umbelluzianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/242
+            queryName: Chiromantis microglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cf4409011c
+      - s-839c180937
+      - s-e5538d86fd
+      - s-18826f26e7
+      - s-29103994a0
+      - s-8b13d003e1
+      - s-f39ab11631
+      - s-e2dc91c806
+      - s-0a516785c4
+      - s-6e82622887
+      - s-551881959b
+      - s-f5fd01fa1b
+      - s-57da072969
+      - s-a6a0c5c0ab
+      - s-14889f4ca1
+      - s-3dc78691ca
+      - s-e4e9e45e23
+    zh:
+      - s-cc4eae0f68
+      - s-a7ad9dd0a4
+      - s-b23a5900dc
+      - s-3405e88374
+      - s-d9ba42d7a4
+      - s-ca063bee13
+      - s-b89da05645
+      - s-3d2271855f
+      - s-5393ef87bc
+      - s-7cc5580a86
+      - s-96ab8acf47
+      - s-cb644218a8
+      - s-d65d35c95e
+      - s-1284413ed5
+      - s-0d7b904cce
+      - s-129df77e98
+      - s-ef6b9c07f9

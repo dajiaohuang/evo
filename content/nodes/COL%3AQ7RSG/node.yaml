@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes phyllofolia
+  displayName: Limnonectes phyllofolia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q7RSG
+  sourceIndexes:
+    - name:
+        en: Limnonectes phyllofolia
+        zh: Limnonectes phyllofolia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q7RSG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/128
+            queryName: Limnonectes phyllofolia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1b053525cf
+      - s-8cfbd4c2b5
+      - s-bfa9bac297
+      - s-d637e49b63
+      - s-75ebdf6f0c
+      - s-afa0589863
+      - s-009d132b9c
+      - s-ab82bf78dd
+      - s-de542a52a1
+      - s-555492f38a
+      - s-5560c07aa9
+      - s-be6bc35c07
+      - s-147f6e850d
+      - s-9e1b2e49c2
+      - s-3fc652808a
+    zh:
+      - s-8ed11da214
+      - s-64551ff796
+      - s-499a9d338d
+      - s-84e793b630
+      - s-f4593a268f
+      - s-8fbde5eed1
+      - s-106d2b2aa8
+      - s-d69874e261
+      - s-acfae0dcee
+      - s-d05e6215b1
+      - s-ad91696860
+      - s-97ba5a622c
+      - s-6f52743d77
+      - s-1900bbec57
+      - s-ed1eb7edab

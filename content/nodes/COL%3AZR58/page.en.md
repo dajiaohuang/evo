@@ -1,0 +1,3 @@
+## What leaf and flower traits are recorded for Croton sincorensis? {#s-58b049015e}
+Young branches have star-shaped hairs. The short-stalked oval-lanceolate or oblong leaves have sparse or star-shaped hairs above and star-shaped hairs beneath, looping side veins, and scalloped margins. Nectar glands may be stalked near the top of the leaf stalk or occur along the margin; leafy stipules are present at young branch tips. Terminal thyrses have unisexual flower clusters near the base. Male flowers are stalked and wheel-shaped; female flowers are shortly stalked, with separate sepals, a many-lobed style, and equal calyx lobes. Female petals are threadlike, the bud arrangement is valvate, and the fruit columella has weakly distinct apical lobes.
+

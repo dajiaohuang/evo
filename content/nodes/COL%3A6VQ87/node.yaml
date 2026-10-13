@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon mississippi
+  displayName: Plethodon mississippi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VQ87
+  sourceIndexes:
+    - name:
+        en: Plethodon mississippi
+        zh: Plethodon mississippi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VQ87
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/478
+            queryName: Plethodon mississippi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/426
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, with Comments Regarding Confidence in Our Understanding
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf0235b315
+      - s-30a51635aa
+      - s-c3c1f08ea6
+      - s-b56c241534
+      - s-aef79fb0c3
+      - s-46231d6dbe
+      - s-73b8254405
+      - s-e3966ce062
+    zh:
+      - s-604200c895
+      - s-5ca4f60079
+      - s-a68233db42
+      - s-8152d22528
+      - s-b4b8fb7ed0
+      - s-c95577bded
+      - s-ed7db253f3
+      - s-d68c5926ff

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Acanthixalus spinosus
+  displayName: Acanthixalus spinosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/64CR2
+  sourceIndexes:
+    - name:
+        en: Acanthixalus spinosus
+        zh: Acanthixalus spinosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 64CR2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/1
+            queryName: Acanthixalus spinosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/317
+            queryName: Hyperolius spinosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/318
+            queryName: Megalixalus spinosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f18064fc32
+      - s-93b2b2243e
+      - s-af393a0a23
+      - s-11b2ddc464
+      - s-94aaf17935
+      - s-3d4cf6b682
+      - s-e912165f25
+      - s-589019da19
+      - s-5240513d54
+      - s-e6a213a0cc
+      - s-5b5eabccbc
+      - s-f4464cffdc
+    zh:
+      - s-0173ef1fa3
+      - s-136ded2a59
+      - s-f111c1b5e9
+      - s-ff52211261
+      - s-6545d9f96b
+      - s-b5d07f7895
+      - s-c53be755c5
+      - s-27ec763533
+      - s-f0ee5dd3f6
+      - s-08fb5caf70
+      - s-e7ed1c57c3
+      - s-786b2fd4cb

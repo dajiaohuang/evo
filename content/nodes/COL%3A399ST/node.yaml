@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus teretistes
+  displayName: Eleutherodactylus teretistes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399ST
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus teretistes
+        zh: Eleutherodactylus teretistes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399ST
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/333
+            queryName: Eleutherodactylus teretistes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/287
+            queryName: Syrrhophus teretistes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-665a2ce848
+      - s-277e4e0786
+      - s-51648032f7
+      - s-4e166ef7e3
+      - s-4a478edf7c
+      - s-3b0bcd2790
+      - s-4129415b25
+      - s-5591d9b9f1
+      - s-d7c0ca3f2b
+      - s-ec05447381
+      - s-51c2218c53
+      - s-594c5cd4e1
+      - s-28ef532570
+    zh:
+      - s-b16ffd157c
+      - s-43a77b941c
+      - s-99eceb9877
+      - s-f7562fb68a
+      - s-9d2a15ab36
+      - s-3accde0da6
+      - s-333f8f1ce1
+      - s-d8ff1a8419
+      - s-9425bf47ec
+      - s-b1c7f82e63
+      - s-fd2ff39d81
+      - s-301c36b669
+      - s-461edb0b2d

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium viridissimum
+  displayName: Hyalinobatrachium viridissimum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PP58L
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium viridissimum
+        zh: Hyalinobatrachium viridissimum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PP58L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/342
+            queryName: Hyalinobatrachium viridissimum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/498
+            queryName: Centrolenella viridissima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4a5d496f88
+      - s-7b95fabe6a
+      - s-0805837aa0
+      - s-d696b174ac
+      - s-59475f6f27
+      - s-b72045d6e6
+      - s-2ce26685f6
+      - s-5e23bdce68
+      - s-0faa5e5633
+    zh:
+      - s-5421bebd53
+      - s-fcbb1257d4
+      - s-38d5ebad00
+      - s-1aa539898f
+      - s-c21b420d33
+      - s-061e28e374
+      - s-5279726cec
+      - s-63ec038c41
+      - s-c9bb13f91a

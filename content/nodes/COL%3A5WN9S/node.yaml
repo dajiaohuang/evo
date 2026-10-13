@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla caramaschii
+  displayName: Bokermannohyla caramaschii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WN9S
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla caramaschii
+        zh: Bokermannohyla caramaschii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WN9S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/49
+            queryName: Bokermannohyla caramaschii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/414
+            queryName: Hyla caramaschii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/415
+            queryName: Boana caramaschi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca66dd92a2
+      - s-e9612cc1ba
+      - s-526404fde8
+      - s-a75b536dcd
+      - s-8e3b52f3f9
+      - s-ba5253722b
+      - s-2e8a47c8e8
+      - s-f1c4d802b5
+      - s-55e564a103
+      - s-90938e9f5c
+      - s-ab6cc08dc9
+      - s-e100294350
+      - s-204c95dc9e
+      - s-6f3fd8e221
+      - s-34ff82fcee
+      - s-3a7c8bf310
+      - s-a8f60fbf29
+    zh:
+      - s-affd202499
+      - s-cc5497e9b6
+      - s-db3a0f5f02
+      - s-35a28f6328
+      - s-95bd02eace
+      - s-2dfc3d057a
+      - s-c466a43055
+      - s-621a149d55
+      - s-c45654e15c
+      - s-d2b1afc3fd
+      - s-0883e00059
+      - s-8ec8f38c1c
+      - s-93a5e64037
+      - s-3df24008a8
+      - s-92d884f9b8
+      - s-c1f79c26fa
+      - s-e1df183a3c

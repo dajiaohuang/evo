@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Microglanis lundbergi Jarduli & Shibatta, 2013
+    authorship: Jarduli & Shibatta, 2013
+    rank: species
+    sourceDatasetId: "1010"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VR36
+        scientificName: Actinopterygii
+        authorship: null
+        rank: gigaclass
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KTWM8
+        scientificName: Actinopteri
+        authorship: null
+        rank: superclass
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: 8V4VD
+        scientificName: Teleostei
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: 6236K
+        scientificName: Siluriformes
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KVMJR
+        scientificName: Pseudopimelodidae Fernández-Yépez & Antón, 1966
+        authorship: Fernández-Yépez & Antón, 1966
+        rank: family
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: KVJQM
+        scientificName: Microglanis Eigenmann, 1912
+        authorship: Eigenmann, 1912
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1010"
+      - id: 6RGPT
+        scientificName: Microglanis lundbergi Jarduli & Shibatta, 2013
+        authorship: Jarduli & Shibatta, 2013
+        rank: species
+        status: accepted
+        sourceDatasetId: "1010"
+    identity:
+      method: The Plazi projection's direct COL identifier 6RGPT was matched to exactly one accepted COL26.8 species usage and checked against its exact name, authorship, source dataset, and accepted parent chain. The projection has no sourceColUsageId or synonym redirect for this record; no fuzzy match was used.
+      scope: Accepted COL26.8 identity 6RGPT; source article treatment 03B8FF3BA628895BFED2FC433E406821; this linkage does not establish full scientific-concept equivalence across all literature.
+      sourceIds:
+        - col
+        - plazi_archive_6rgpt
+        - jarduli_shibatta_2013
+    lifeStatusScope:
+      wild: Claims concern taxonomic specimens, collection records, or habitat observations described in the cited treatment; broader population status and coverage are not assessed.
+      domesticated: Captive, domesticated, and escaped occurrences were not assessed by this source slice.
+      fossil: Fossil occurrence and geological age were not assessed by this source slice.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1010
+          url: https://www.checklistbank.org/dataset/316115/taxon/6RGPT
+          stableId: col:6RGPT@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 6RGPT; exact name, authorship, rank, status, sourceDatasetId, and complete accepted parent chain.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6RGPT. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: plazi_archive_6rgpt
+        referenceId: ref-cb5043aa-82c7-8447-a814-fb339b53bf76
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - licenseAssessment
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Extracted Plazi archive description records only; not the cited journal article, DOI page, PDF, or figures.
+          stableId: PlaziArchiveSha256:75f4e69193f65cfa0e32a728ae690f065ed0c860d58e1760adfbd8ca6d3d107e
+          accessedAt: 2026-09-27
+          locator: Description-extension rows 4, 5, 7 for direct COL26.8 usage 6RGPT; source ZIP is absent and embedded EML was not rechecked.
+          licenseAssessment: aggregate-declaration-only
+          attribution: Plazi TreatmentBank, selected fish treatment rows; archive declaration and import hashes are retained in data/sources/plazi-descriptions-import-ledger.json.
+          scope: Article-scoped extracted treatment records; not a complete species dossier.
+      - id: jarduli_shibatta_2013
+        referenceId: ref-f8c5c586-11cb-8372-a5ba-a2ba47fc6921
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Bibliographic citation only; no article prose, PDF, or figures are redistributed.
+          stableId: doi:10.1590/S1679-62252013000300004
+          locator: Diagnosis p. 508 (Plazi row 4); description pp. 508-509 (row 5); label-based habitat note p. 510 (row 7).
+          licenseAssessment: unknown
+          attribution: "Jarduli, Lucas Ribeiro, Shibatta, Oscar Akio (2013): Description of a new species of Microglanis (Siluriformes: Pseudopimelodidae) from the Amazon basin, Amazonas State, Brazil. Neotropical Ichthyology 11 (3): 507-512."
+          scope: Cited taxonomic article; item-level reuse rights remain unknown.
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-5974ba0e07
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-e9a8a92b96
+          part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The diagnosis describes Microglanis lundbergi by a deeply notched forked caudal fin, two juxtaposed pale elliptical spots on the supraoccipital region, and an adipose-fin base 13.1-16.6% of SL. The description reports orange-brown coloration with pale supraoccipital spots and other preserved-color pattern details. These are treatment-level diagnostic and descriptive observations, not an assessment of variation across all populations. The morphometric table reports n=9, while the listed type series totals 10 specimens; this discrepancy is retained as unresolved.
+            originalLanguage: en
+            sourceIds:
+              - jarduli_shibatta_2013
+              - plazi_archive_6rgpt
+            locator: Plazi description-extension row 4 (diagnosis), row 5 (description); treatment https://treatment.plazi.org/id/03B8FF3BA628895BFED2FC433E406821; original article p. 508 (Plazi row 4) and pp. 508-509 (row 5); DOI 10.1590/S1679-62252013000300004; source archive 95e56920-147b-4e47-bf6f-858c13683b7f.zip; archive SHA-256 75f4e69193f65cfa0e32a728ae690f065ed0c860d58e1760adfbd8ca6d3d107e. Source ZIP absent from checkout; embedded EML not rechecked. Article item-level reuse rights unknown.
+            placeTimeScope: Diagnosis on p. 508, description on pp. 508-509, and morphometric table (n=9) in the 2013 treatment. The examined type series listed in that article totals 10; the source does not resolve the difference from the table sample, so no reconciliation is inferred.
+            lifeStatus: Morphology and preserved coloration of specimens described in the treatment; no population-wide variation or live-color claim is made.
+        gaps:
+          - Selected diagnostic and descriptive characters come from one taxonomic treatment and its stated comparative or examined samples; neither dossier assesses variation across all populations or life stages. The Microglanis lundbergi article's morphometric table reports n=9 while its listed type series totals 10 specimens; that difference is unresolved.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No systematic reproductive, developmental, lifespan, or full behavioral life-history search was performed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: According to collection-lot labels, the reported individuals were collected in the main channel of the rio Amazonas, in white water, over a bottom rich in organic matter and pieces of wood. This is a label-based habitat observation from the cited treatment, not a species-wide habitat preference or complete distribution statement.
+            originalLanguage: en
+            sourceIds:
+              - jarduli_shibatta_2013
+              - plazi_archive_6rgpt
+            locator: Plazi description-extension row 7 (biology_ecology); treatment https://treatment.plazi.org/id/03B8FF3BA628895BFED2FC433E406821; original article p. 510 (Plazi row 7); DOI 10.1590/S1679-62252013000300004; source archive 95e56920-147b-4e47-bf6f-858c13683b7f.zip; archive SHA-256 75f4e69193f65cfa0e32a728ae690f065ed0c860d58e1760adfbd8ca6d3d107e. Source ZIP absent from checkout; embedded EML not rechecked. Article item-level reuse rights unknown.
+            placeTimeScope: Habitat note on p. 510 explicitly attributes the observation to collection-lot labels. It is limited to the reported material and location; other localities, dates, and habitat conditions were not inferred from this note.
+            lifeStatus: Wild collection-label observations only; no broader ecological, abundance, or conservation conclusion is made.
+        gaps:
+          - Habitat and diet claims are limited to the selected treatment notes, collection labels, localities, and sample sizes. Sampling completeness, seasonal ecology, trophic importance, and species-wide habitat preferences remain unassessed.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No phylogenetic or population-genetic evidence is assessed in this source slice.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Taxonomic article localities are retained only as reported collection context and do not establish a current, complete range or trend.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil or paleontological search was performed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No conservation assessment, population trend, or threat evaluation is assessed in this source slice.

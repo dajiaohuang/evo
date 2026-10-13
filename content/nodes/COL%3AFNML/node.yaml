@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus albosignatus
+  displayName: Aplastodiscus albosignatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNML
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus albosignatus
+        zh: Aplastodiscus albosignatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNML
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/81
+            queryName: Aplastodiscus albosignatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/249
+            queryName: Hyla albosignata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/291
+            queryName: Hyla callipygia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/109
+            queryName: Aplastodiscus callipygius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/418
+            queryName: Boana albosignata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/419
+            queryName: Boana callipygia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9dc549ac72
+      - s-f1f24fb1b0
+      - s-1f81e643b7
+      - s-3bd66b249e
+      - s-d4ac004c90
+      - s-fc7fda1a51
+      - s-7a263787a5
+      - s-74fc15b071
+      - s-fb7e25c5c2
+      - s-586dfb79be
+      - s-afea978ef2
+      - s-f5abb248da
+      - s-061305f9fc
+      - s-7dea76b640
+      - s-1c494557cd
+    zh:
+      - s-ff55e3cf2c
+      - s-af0b6c3dd5
+      - s-760f9996e8
+      - s-7ff2ca68b4
+      - s-1097471de2
+      - s-0790b7a4dc
+      - s-bd58deee05
+      - s-eef96cdd81
+      - s-1aca698c10
+      - s-51fde40c55
+      - s-acf795e91d
+      - s-776343a364
+      - s-ec90433e06
+      - s-c86f897c16
+      - s-6b0f4c4372

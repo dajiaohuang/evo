@@ -1,0 +1,239 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis altamnis
+    name:
+      en: Pristimantis altamnis
+      zh: Pristimantis altamnis
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ca435d7f79
+            part: body
+          zh:
+            page: zh
+            section: s-81fa52836c
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-90a6373a25
+            part: body
+          zh:
+            page: zh
+            section: s-46c50fe386
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4428, 4429; Reference.csv rows 2149
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4428
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis altamnis
+          - M
+          - "18.5"
+          - NA
+          - "7"
+          - NA
+          - NA
+          - NA
+          - "3.7"
+          - "1.7"
+          - NA
+          - "2.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.3"
+          - NA
+          - "11.1"
+          - "9.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4429
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis altamnis
+          - F
+          - "25.5"
+          - NA
+          - "9.7"
+          - NA
+          - NA
+          - NA
+          - "5.2"
+          - "2.3"
+          - NA
+          - "3.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.9"
+          - NA
+          - "14.5"
+          - "12.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2149
+        values:
+          - Anura
+          - Pristimantis_altamnis
+          - 'Elmer, K. R., & Cannatella, D. C. (2008). Three new species of leaflitter frogs from the upper Amazon forests: cryptic diversity within Pristimantis "ockendeni" (Anura : Strabomantidae) in Ecuador. Zootaxa(1784), 11-38. https://doi.org/10.11646/zootaxa.1784.1.2'
+    availableTraitCodes:
+      - SVL
+      - HW
+      - IOD
+      - IND
+      - EN
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

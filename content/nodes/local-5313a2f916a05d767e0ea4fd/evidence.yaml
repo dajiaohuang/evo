@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Chimerella mariaelenae
+    name:
+      en: Chimerella mariaelenae
+      zh: Chimerella mariaelenae
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Chimerella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Chimerella mariaelenae in the version 3 classification
+          zh: Chimerella mariaelenae 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-de675ced18
+            part: body
+          zh:
+            page: zh
+            section: s-8fd1199ebb
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 11 populated trait fields
+          zh: 1 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8578935133
+            part: body
+          zh:
+            page: zh
+            section: s-ca847f24a9
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1131; Reference.csv rows 240
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1131
+        values:
+          - Centrolenidae
+          - Chimerella
+          - Chimerella mariaelenae
+          - M
+          - "19"
+          - "6.6"
+          - "7.4"
+          - "2.3"
+          - "1.4"
+          - NA
+          - "3.2"
+          - "2"
+          - NA
+          - "1.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.7"
+          - NA
+          - "10.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 240
+        values:
+          - Anura
+          - Chimerella_mariaelenae
+          - "Cisneros-Heredia, D. F., & Mcdiarmid, R. W. (2006). A new species of the genus Centrolene (Amphibia: Anura: Centrolenidae) from Ecuador with comments on the taxonomy and biogeography of Glassfrogs. Zootaxa. https://doi.org/10.5281/zenodo.172896"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - FL
+      - TL
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5XRQJ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

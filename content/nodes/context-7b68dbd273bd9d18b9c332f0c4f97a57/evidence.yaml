@@ -1,0 +1,212 @@
+schemaVersion: 1
+records:
+  amphibio-source-reader:
+    scientificName: Ptychadena subpunctata
+    sourceRowId: Anf4629
+    sourceClassification:
+      order: Anura
+      family: Ptychadenidae
+      genus: Ptychadena
+    name:
+      en: Ptychadena subpunctata
+      zh: Ptychadena subpunctata
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The source concept
+          zh: 来源中的研究概念
+        sourceIds:
+          - amphibio
+        text:
+          en:
+            page: en
+            section: s-18eb5a5560
+            part: body
+          zh:
+            page: zh
+            section: s-e87675b156
+            part: body
+      - topic: ecology
+        title:
+          en: Foraging strata
+          zh: 觅食层位
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-9455dfb3a9
+            part: body
+          zh:
+            page: zh
+            section: s-409059cad2
+            part: body
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en: Compiled adult dimensions
+          zh: 汇编的成体尺寸
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-8692601a77
+            part: body
+          zh:
+            page: zh
+            section: s-89192d3278
+            part: body
+      - topic: lifeHistory
+        title:
+          en: Compiled life history
+          zh: 汇编的生活史
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-71d9405814
+            part: body
+          zh:
+            page: zh
+            section: s-e036ce4546
+            part: body
+      - topic: lifeHistory
+        title:
+          en: Developmental strategy
+          zh: 发育方式
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-92067d59b1
+            part: body
+          zh:
+            page: zh
+            section: s-65a2b3ef89
+            part: body
+    sources:
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4629; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4631 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+    originalBibliography: De Witte 1921;Wells 2007;Guyer and Boback 2011;Foden et al. 2013;Sodhi et al. 2008
+    bibliographyAlignment:
+      status: unique-within-source-tuple
+      method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+      dataRowId: Anf4629
+      bibliographyRowId: Anf4631
+      sameIdNameMismatch: true
+      originalSameIdScientificName: Ptychadena straeleni
+      candidateBibliographyRowIds:
+        - Anf4631
+    originalValues:
+      id: Anf4629
+      Order: Anura
+      Family: Ptychadenidae
+      Genus: Ptychadena
+      Species: Ptychadena subpunctata
+      Fos: NA
+      Ter: "1"
+      Aqu: "1"
+      Arb: "1"
+      Leaves: NA
+      Flowers: NA
+      Seeds: NA
+      Fruits: NA
+      Arthro: NA
+      Vert: NA
+      Diu: NA
+      Noc: NA
+      Crepu: NA
+      Wet_warm: NA
+      Wet_cold: NA
+      Dry_warm: NA
+      Dry_cold: NA
+      Body_mass_g: NA
+      Age_at_maturity_min_y: NA
+      Age_at_maturity_max_y: NA
+      Body_size_mm: "68"
+      Size_at_maturity_min_mm: NA
+      Size_at_maturity_max_mm: NA
+      Longevity_max_y: NA
+      Litter_size_min_n: NA
+      Litter_size_max_n: NA
+      Reproductive_output_y: "1"
+      Offspring_size_min_mm: NA
+      Offspring_size_max_mm: NA
+      Dir: "0"
+      Lar: "1"
+      Viv: "0"
+      OBS: NA
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4Q9RN
+      method: Exact scientific name, family and order candidate selection only; no equivalence asserted.
+    limitations:
+      en: This is a reader for a deposited trait compilation. NA remains missing data; unlisted categories are not inferred absent. Per-trait primary citations, modern taxonomic reconciliation and seven-facet scientific dossier review remain incomplete.
+      zh: 本页是存档性状汇编的读本。NA 保留为缺失数据；未列出的类别不能据此推断为不存在。逐性状原始出处、现代分类概念核对及七主题科学档案审阅尚未完成。

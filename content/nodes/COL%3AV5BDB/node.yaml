@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys obesa
+  displayName: Boulenophrys obesa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5BDB
+  sourceIndexes:
+    - name:
+        en: Boulenophrys obesa
+        zh: Boulenophrys obesa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5BDB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/370
+            queryName: Boulenophrys obesa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/437
+            queryName: Megophrys obesa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/438
+            queryName: Xenophrys obesa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/307
+            queryName: Panophrys obesa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8147479083
+      - s-4d1decf613
+      - s-cfd9a18cd9
+      - s-f6408c9d25
+      - s-42f7c1fc34
+      - s-818612941d
+      - s-6214edd68a
+      - s-411ef3c451
+      - s-24085d1aaa
+      - s-c52a62b2f1
+      - s-4b1e148440
+      - s-20265b3a24
+    zh:
+      - s-138a547eb3
+      - s-0e2591466f
+      - s-0f1cce7287
+      - s-6bcb9f6225
+      - s-0fcc87fa4f
+      - s-cc450a2911
+      - s-1a5b0d1cbc
+      - s-4deac676d7
+      - s-db93e1e81d
+      - s-fd9264bfaf
+      - s-7c26ad0afe
+      - s-fb5e097e19

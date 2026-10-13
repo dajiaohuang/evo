@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena beka
+  displayName: Ptychadena beka
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SML8F
+  sourceIndexes:
+    - name:
+        en: Ptychadena beka
+        zh: Ptychadena beka
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SML8F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/457
+            queryName: Ptychadena beka
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-194f95de0c
+      - s-c4d7a3d47b
+      - s-b108fad027
+      - s-7065ba4f69
+      - s-3d4d3c9b2f
+      - s-00e6c052ac
+      - s-89c22caaa2
+      - s-e920292a6f
+      - s-192df63dcb
+      - s-563ffba98b
+      - s-0bc5d0f1a7
+      - s-dd7e13b56e
+      - s-f8ed909d76
+      - s-a1ceca7121
+      - s-650e959710
+    zh:
+      - s-6b44565aca
+      - s-38ea13c5d9
+      - s-ce0a1455d5
+      - s-c7f18988e5
+      - s-0647b04ee3
+      - s-8e03c7af73
+      - s-99cce9425e
+      - s-4b75922028
+      - s-0b2c8bb1ba
+      - s-5cbc5e671b
+      - s-04020bc245
+      - s-d5aaebdda2
+      - s-17453b7e62
+      - s-ed1c355f38
+      - s-4ab57a27ae

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Myersiohyla loveridgei
+  displayName: Myersiohyla loveridgei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73RLY
+  sourceIndexes:
+    - name:
+        en: Myersiohyla loveridgei
+        zh: Myersiohyla loveridgei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73RLY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/141
+            queryName: Myersiohyla loveridgei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/381
+            queryName: Hyla loveridgei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/492
+            queryName: Hyla ginesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cbaf6835af
+      - s-ba78358c2a
+      - s-0b8183129b
+      - s-0e5afc4a32
+      - s-2261d6a205
+      - s-88313dc077
+      - s-4808dcdd63
+      - s-cc0d9791a7
+    zh:
+      - s-2eaf4c911f
+      - s-012646fe70
+      - s-668a3c981e
+      - s-7b0cbe1f43
+      - s-0d06d26aef
+      - s-7c0df43688
+      - s-b5706a8007
+      - s-2063a60411

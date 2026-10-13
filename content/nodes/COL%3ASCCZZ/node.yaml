@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis burtoniorum
+  displayName: Pristimantis burtoniorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCCZZ
+  sourceIndexes:
+    - name:
+        en: Pristimantis burtoniorum
+        zh: Pristimantis burtoniorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCCZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/165
+            queryName: Pristimantis burtoniorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-656b56584c
+      - s-fb399d0200
+      - s-2da2ff56d6
+      - s-278b54d37c
+      - s-2d0d49a0e9
+      - s-454df1f432
+      - s-9e2ea87c61
+      - s-59ba156501
+      - s-27d4f78163
+      - s-bac6edbc72
+      - s-3b275e8405
+      - s-17b4211c85
+      - s-910e86cf2f
+      - s-192b030ac6
+      - s-634e44ab57
+      - s-2f8c01bd57
+      - s-f0abada063
+      - s-9ac0bea684
+    zh:
+      - s-5262f55b00
+      - s-64d518a7ac
+      - s-6338c25070
+      - s-7576d143e5
+      - s-fd7df06778
+      - s-c73ce4e197
+      - s-aa88f96c41
+      - s-5b0015fe4c
+      - s-f4b09a33d4
+      - s-0033ac2b67
+      - s-004a4635da
+      - s-1a6ee58cd0
+      - s-31a1b5af1d
+      - s-837a2ebad6
+      - s-81958d4092
+      - s-faa4481b3f
+      - s-33c73e9b4d
+      - s-fe67598f40

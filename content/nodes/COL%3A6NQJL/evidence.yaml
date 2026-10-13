@@ -1,0 +1,527 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kurixalus bisacculus (Taylor, 1962)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Kurixalus bisacculus
+      zh: Kurixalus bisacculus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-def90f650f
+            part: title
+          zh:
+            page: zh
+            section: s-9a309cb439
+            part: title
+        text:
+          en:
+            page: en
+            section: s-def90f650f
+            part: body
+          zh:
+            page: zh
+            section: s-9a309cb439
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-aee0a70a88
+            part: title
+          zh:
+            page: zh
+            section: s-a1622f9f5a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aee0a70a88
+            part: body
+          zh:
+            page: zh
+            section: s-a1622f9f5a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ca1f95467c
+            part: title
+          zh:
+            page: zh
+            section: s-0f0136d676
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-ca1f95467c
+            part: body
+          zh:
+            page: zh
+            section: s-0f0136d676
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e1a8190171
+            part: title
+          zh:
+            page: zh
+            section: s-4fc16a3aa8
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-e1a8190171
+            part: body
+          zh:
+            page: zh
+            section: s-4fc16a3aa8
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-862a8c20eb
+            part: title
+          zh:
+            page: zh
+            section: s-c42603d89f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-862a8c20eb
+            part: body
+          zh:
+            page: zh
+            section: s-c42603d89f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-01cea16123
+            part: title
+          zh:
+            page: zh
+            section: s-f009ecd4f3
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-01cea16123
+            part: body
+          zh:
+            page: zh
+            section: s-f009ecd4f3
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-07998b0c55
+            part: title
+          zh:
+            page: zh
+            section: s-988c6eced5
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-07998b0c55
+            part: body
+          zh:
+            page: zh
+            section: s-988c6eced5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-78b9fde45e
+            part: title
+          zh:
+            page: zh
+            section: s-3311efaa5b
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-78b9fde45e
+            part: body
+          zh:
+            page: zh
+            section: s-3311efaa5b
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-fe646a26a16381fc5bfb99bd8a7ffb1a
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-bfa722d11a2a787ce241f7af
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8c08e9ec58
+            part: title
+          zh:
+            page: zh
+            section: s-fa05c1862e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8c08e9ec58
+            part: body
+          zh:
+            page: zh
+            section: s-fa05c1862e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b024d09137
+            part: title
+          zh:
+            page: zh
+            section: s-3fc4c41dda
+            part: title
+        sourceIds:
+          - primary-pmc13213382-6nqjl
+        text:
+          en:
+            page: en
+            section: s-b024d09137
+            part: body
+          zh:
+            page: zh
+            section: s-3fc4c41dda
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-64806d4869
+            part: title
+          zh:
+            page: zh
+            section: s-f32785cc60
+            part: title
+        sourceIds:
+          - primary-pmc10486437-6nqjl
+        text:
+          en:
+            page: en
+            section: s-64806d4869
+            part: body
+          zh:
+            page: zh
+            section: s-f32785cc60
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kurixalus bisacculus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6NQJL
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5094; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5097 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2497, 2498; Reference.csv rows 573
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13213382-6nqjl
+        referenceId: ref-25987ac1-6d46-4346-aaf7-c8b62d8bc72d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kurixalus bisacculus: Species Notes paragraph from Ba Vi National Park checklist; field encounter conditions, not physiology or habitat preference; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10486437-6nqjl
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kurixalus bisacculus: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f0ec5ca09d
+        part: body
+      zh:
+        page: zh
+        section: s-24d0cacf81
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-fe646a26a16381fc5bfb99bd8a7ffb1a
+      sourceRowId: Anf5094
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5094
+        bibliographyRowId: Anf5097
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Kurixalus ananjevae
+        candidateBibliographyRowIds:
+          - Anf5097
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-bfa722d11a2a787ce241f7af
+        scientificName: Kurixalus bisacculus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.14.e178266
+        referenceId: ref-25987ac1-6d46-4346-aaf7-c8b62d8bc72d
+        sourceKey: primary-pmc13213382-6nqjl
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13213382/article.xml
+        sourceConcept: Kurixalus bisacculus
+        evidenceRead: "Kurixalus bisacculus: Species Notes paragraph from Ba Vi National Park checklist; field encounter conditions, not physiology or habitat preference; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Two frogs on a trail-side tree leaf
+              zh: 林间小径旁树叶上的两只蛙
+            referenceId: ref-25987ac1-6d46-4346-aaf7-c8b62d8bc72d
+            sourceKey: primary-pmc13213382-6nqjl
+            locator: "Kurixalus bisacculus: Species Notes paragraph from Ba Vi National Park checklist; field encounter conditions, not physiology or habitat preference; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b16a814811
+                part: body
+              zh:
+                page: zh
+                section: s-4b24c50738
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani13172754
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        sourceKey: primary-pmc10486437-6nqjl
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10486437/article.xml
+        sourceConcept: 2023 Table2 Kurixalus bisacculus sequence row
+        evidenceRead: "Kurixalus bisacculus: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Marker availability in the 2023 island-origin comparison
+              zh: 2023 年岛屿起源比较的标记覆盖
+            referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+            sourceKey: primary-pmc10486437-6nqjl
+            locator: PMC10486437 XML Methods2.1/Table2; Results3.1/Table3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-50a59837cd
+                part: body
+              zh:
+                page: zh
+                section: s-caf7c23a34
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

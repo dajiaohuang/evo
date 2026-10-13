@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris cadaverina
+  displayName: Pseudacris cadaverina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NH9C
+  sourceIndexes:
+    - name:
+        en: Pseudacris cadaverina
+        zh: Pseudacris cadaverina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NH9C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/250
+            queryName: Pseudacris cadaverina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 122
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/261
+            queryName: Hyla cadaverina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/80
+            queryName: Hyla californiae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/81
+            queryName: Hyliola cadaverina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b761efb822
+      - s-b198f84891
+      - s-acc0472403
+      - s-a020f240ea
+      - s-3ae340392f
+      - s-d5c649a354
+      - s-3e69cea083
+      - s-7bd170acf2
+      - s-be596de58d
+      - s-92b66cf0c1
+      - s-d1b404a325
+      - s-b76ca202ad
+      - s-938395f7a6
+      - s-8401b11019
+      - s-73c6baf53f
+      - s-896fa7aff1
+    zh:
+      - s-c6d92547ee
+      - s-8dd9fd0028
+      - s-5cd073ac6f
+      - s-715a195dbd
+      - s-93114f539f
+      - s-4b72438732
+      - s-daf1947fe6
+      - s-11f7e10ae0
+      - s-e24e75b5eb
+      - s-93e5462563
+      - s-5317dc9918
+      - s-80729a042c
+      - s-a0695a137b
+      - s-0285e8aae3
+      - s-590823d5ee
+      - s-686ad60b06

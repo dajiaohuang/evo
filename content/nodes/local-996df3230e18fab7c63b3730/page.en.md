@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-5c0e560a5f}
+This record shows how TadpoleTraits files tadpoles under Rhacophorus annamensis. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Rhacophorus annamensis in Rhacophorus and Rhacophoridae. In the literature table, rows 4960, 4961, 4962, 4963, 4964, 4965, 4966, 4967 list Rhacophorus annamensis in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-e9055d384f}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 8 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 41 (rows 4960, 4961, 4962, 4963, 4964, 4965, 4966); blank cells in rows 4967. Sample size is entered by row (row 4961: n=1; row 4962: n=1; row 4963: n=1; row 4964: n=4; row 4965: n=1; row 4966: n=4); 2 other Sample size cells are blank, not zero. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

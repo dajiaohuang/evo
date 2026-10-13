@@ -1,0 +1,33 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adapiformes
+  displayName: Adapiformes
+  rank: infraorder
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=40748
+    parentSourceIdentifier: txn:89317
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=40748
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-65d32583b2
+      - s-084807c4e0
+      - s-9943ac574d
+      - s-a8717c4236
+      - s-5e15ad71a9
+    zh:
+      - s-a6e634c4a4
+      - s-d9438a0481
+      - s-953e72f40a
+      - s-96b95e3eb4
+      - s-bb036e479e

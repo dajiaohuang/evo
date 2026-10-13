@@ -1,0 +1,223 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptopelis diffidens Tiutenko & Zinenko, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptopelis diffidens
+      zh: Leptopelis diffidens
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-157ba9f0cc
+            part: title
+          zh:
+            page: zh
+            section: s-8862275c29
+            part: title
+        text:
+          en:
+            page: en
+            section: s-157ba9f0cc
+            part: body
+          zh:
+            page: zh
+            section: s-8862275c29
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1312dfc9b2
+            part: title
+          zh:
+            page: zh
+            section: s-0123d95133
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1312dfc9b2
+            part: body
+          zh:
+            page: zh
+            section: s-0123d95133
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5d8b3f84bb
+            part: title
+          zh:
+            page: zh
+            section: s-af998188e6
+            part: title
+        sourceIds:
+          - primary-pmc7973069-qfb7m
+        text:
+          en:
+            page: en
+            section: s-5d8b3f84bb
+            part: body
+          zh:
+            page: zh
+            section: s-af998188e6
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-bc0efeb8cd
+            part: title
+          zh:
+            page: zh
+            section: s-89afcdd6e5
+            part: title
+        sourceIds:
+          - primary-pmc7973069-qfb7m
+        text:
+          en:
+            page: en
+            section: s-bc0efeb8cd
+            part: body
+          zh:
+            page: zh
+            section: s-89afcdd6e5
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-3d5584441e
+            part: body
+          zh:
+            page: zh
+            section: s-18764f6bf7
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptopelis diffidens
+          url: https://www.checklistbank.org/dataset/316115/taxon/QFB7M
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7973069-qfb7m
+        referenceId: ref-4217d91c-3035-4e37-a866-fdd794d69831
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptopelis diffidens: Distribution/habitat and natural-history accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-971d721aa0
+        part: body
+      zh:
+        page: zh
+        section: s-411b3ec3ab
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1023.53404
+        referenceId: ref-4217d91c-3035-4e37-a866-fdd794d69831
+        sourceKey: primary-pmc7973069-qfb7m
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7973069/article.xml
+        sourceConcept: Leptopelis diffidens
+        evidenceRead: "Leptopelis diffidens: Distribution/habitat and natural-history accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Natural glades in Harenna Forest
+              zh: 哈雷纳林的自然空地
+            referenceId: ref-4217d91c-3035-4e37-a866-fdd794d69831
+            sourceKey: primary-pmc7973069-qfb7m
+            locator: "Leptopelis diffidens: Distribution/habitat and natural-history accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b0d7aae2a8
+                part: body
+              zh:
+                page: zh
+                section: s-6913d158e2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Co-occurring life stages and a breeding hypothesis
+              zh: 共同出现的生活阶段及繁殖假说
+            referenceId: ref-4217d91c-3035-4e37-a866-fdd794d69831
+            sourceKey: primary-pmc7973069-qfb7m
+            locator: "Leptopelis diffidens: Distribution/habitat and natural-history accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-357e707633
+                part: body
+              zh:
+                page: zh
+                section: s-c376e114ab
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

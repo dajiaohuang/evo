@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-f9c7da9e33
+      part: title
+    titleZh:
+      page: zh
+      section: s-61af6273cb
+      part: title
+    category: morphology
+    startAge: 50
+    endAge: 48.5
+    regions:
+      - Grizzly Buttes, Bridger B, Bridger Formation, Wyoming, USA
+    clades:
+      - Notharctus
+      - Adapiformes
+      - Primates
+    summary:
+      page: en
+      section: s-f9c7da9e33
+      part: body
+    summaryZh:
+      page: zh
+      section: s-61af6273cb
+      part: body
+    claimIds:
+      - claim:event:notharctus-grooming-claw-foot
+    evidenceItems:
+      - statement: AMNH 143612 and rejoining block AMNH 143640 preserve the foot; associated mandible AMNH 143611 supports taxonomic attribution, and AMNH 143612-03 is the digit-two distal phalanx.
+        relation: supports
+        claimIds:
+          - claim:event:notharctus-grooming-claw-foot
+        referenceLinks:
+          - referenceId: maiolino-2012-notharctus
+            relation: supports
+            pages: e29135
+            figure: Figures 1–16; Tables 2–8; Tables S1–S6
+            quoteLocator: "Results: fossil context, distal-phalanx comparisons and cladistic analysis"
+    uncertaintyItems:
+      - statement: Grooming-claw function and tree effects are comparative and matrix-based; the specimen does not make Notharctus a crown anthropoid, direct ancestor or global first occurrence.
+        relation: contextualizes
+        claimIds:
+          - claim:event:notharctus-grooming-claw-foot
+        referenceLinks:
+          - referenceId: maiolino-2012-notharctus
+            relation: supports
+            pages: e29135
+            figure: Figures 1–16; Tables 2–8; Tables S1–S6
+            quoteLocator: "Results: fossil context, distal-phalanx comparisons and cladistic analysis"
+  claims:
+    - subjectId: event:notharctus-grooming-claw-foot
+      claimKind: scientific
+      claimType: morphology
+      statement: AMNH 143612/143640 preserves a semi-articulated Notharctus foot in which AMNH 143612-03 can be assigned to digit two and exhibits the cited study’s comparative grooming-phalanx morphology.
+      confidence: high
+      confidenceRationale: High confidence concerns the documented association and preserved morphology; behaviour and broader anthropoid implications remain bounded interpretations.
+      referenceLinks:
+        - referenceId: maiolino-2012-notharctus
+          relation: supports
+          pages: e29135
+          figure: Figures 1–16; Tables 2–8; Tables S1–S6
+          quoteLocator: "Results: fossil context, distal-phalanx comparisons and cladistic analysis"
+  claim-rationales.zh:
+    - 高置信度针对已记录的关联关系和保存形态；行为与更广泛的人猿总科含义仍是有界解释。
+  claim-statements.zh:
+    - AMNH 143612/143640 保存了一件半关节连接的 Notharctus 足，其中 AMNH 143612-03 可归于第二趾，并呈现所引研究用于比较的梳理趾骨形态。

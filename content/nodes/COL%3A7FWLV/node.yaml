@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenohyla truncata
+  displayName: Xenohyla truncata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FWLV
+  sourceIndexes:
+    - name:
+        en: Xenohyla truncata
+        zh: Xenohyla truncata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FWLV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/269
+            queryName: Xenohyla truncata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/421
+            queryName: Hyla truncata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-10749e4288
+      - s-803895621b
+      - s-10a9b888e1
+      - s-d25f8e6938
+      - s-24e853efec
+      - s-0f8fb6c7b9
+      - s-b5f20b6aaf
+      - s-259664e996
+      - s-bdc864d721
+      - s-d54c1b5fee
+      - s-4f69420032
+      - s-e624d17da3
+      - s-65e2351ab6
+      - s-0f3bcede1b
+      - s-d1d24b0c88
+      - s-6958ed2a6f
+      - s-b38dbd520b
+    zh:
+      - s-f295349a9c
+      - s-b0575a669f
+      - s-256a4363d0
+      - s-44878b9154
+      - s-c742634a9e
+      - s-04d3f3c055
+      - s-d50d8cabf1
+      - s-2dc1e72f8c
+      - s-6246abd9c5
+      - s-dc24b9b173
+      - s-1085fa6994
+      - s-c6763f897e
+      - s-eda6252e30
+      - s-ab11ea7503
+      - s-9ffbd47e18
+      - s-3c6f0751e7
+      - s-0fda250def

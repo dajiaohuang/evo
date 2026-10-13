@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amietia vertebralis
+  displayName: Amietia vertebralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CSB4
+  sourceIndexes:
+    - name:
+        en: Amietia vertebralis
+        zh: Amietia vertebralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CSB4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/305
+            queryName: Amietia vertebralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/367
+            queryName: Amietia umbraculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/185
+            queryName: Rana vertebralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/186
+            queryName: Rana umbraculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5de5deb92e
+      - s-0de0ba7962
+      - s-4c46cb0b0a
+      - s-c8112624b0
+      - s-3af5cf1cff
+      - s-2de66db151
+      - s-630ac9e316
+      - s-b01488a074
+      - s-06ded3f9d5
+      - s-3a8c50976e
+      - s-86bcfbfcd6
+    zh:
+      - s-b50167966f
+      - s-faf5d05b4b
+      - s-02070771d7
+      - s-41ef3432c9
+      - s-6fb835b9bd
+      - s-771a5c0545
+      - s-50c7c13965
+      - s-f971a9ff0b
+      - s-0bdd796c21
+      - s-7a3cd8768d
+      - s-1a85e7c97c

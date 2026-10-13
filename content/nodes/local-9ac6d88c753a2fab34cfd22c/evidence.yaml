@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Proceratophrys avelinoi
+    name:
+      en: Proceratophrys avelinoi
+      zh: Proceratophrys avelinoi
+    sourceClassification:
+      order: Anura
+      family: Odontophrynidae
+      genus: Proceratophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3aad9e7fb0
+            part: body
+          zh:
+            page: zh
+            section: s-b03b169ea3
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-250f0149bc
+            part: body
+          zh:
+            page: zh
+            section: s-335221c470
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4874, 4875; Reference.csv rows 1144
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4874
+        values:
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys avelinoi
+          - M
+          - "26.54"
+          - "10.7"
+          - "12.55"
+          - "2.13"
+          - NA
+          - NA
+          - NA
+          - "2.05"
+          - NA
+          - "2.22"
+          - NA
+          - "2.13"
+          - NA
+          - NA
+          - NA
+          - "10.22"
+          - NA
+          - "8.91"
+          - NA
+          - NA
+          - NA
+          - "1.57"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4875
+        values:
+          - Odontophrynidae
+          - Proceratophrys
+          - Proceratophrys avelinoi
+          - F
+          - "33.58"
+          - "12.75"
+          - "15.33"
+          - "2.6"
+          - NA
+          - NA
+          - NA
+          - "2.5"
+          - NA
+          - "2.63"
+          - NA
+          - "2.6"
+          - NA
+          - NA
+          - NA
+          - "12.93"
+          - NA
+          - "11.25"
+          - NA
+          - NA
+          - NA
+          - "1.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1144
+        values:
+          - Anura
+          - Proceratophrys_avelinoi
+          - "Kwet, A., Faivovich, J., & Price, A. H. (2001). Proceratophrys bigibbosa species Group (Anura: Leptodactylidae), with description of a new species. Copeia, 2001(1), 203-215. https://doi.org/10.1643/0045-8511(2001)001[0203:Pbsgal]2.0.Co;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IND
+      - EN
+      - NS
+      - FL
+      - TL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6VXVX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

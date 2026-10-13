@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus alutus
+  displayName: Mantidactylus alutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWCL
+  sourceIndexes:
+    - name:
+        en: Mantidactylus alutus
+        zh: Mantidactylus alutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWCL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/302
+            queryName: Mantidactylus alutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/285
+            queryName: Rana aluta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/286
+            queryName: Mantidactylus aluta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/287
+            queryName: Mantidactylus laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7bac5d4133
+      - s-4e0c9dbafe
+      - s-8d2dff2f77
+      - s-0b4a922851
+      - s-33c90004a4
+      - s-1d7257c9b6
+      - s-407fd708b6
+      - s-3ba7e28827
+      - s-22f03fbd47
+      - s-90a568af4b
+    zh:
+      - s-0fab3e01ab
+      - s-a5dc074636
+      - s-ec8338a8b3
+      - s-7f71362dd3
+      - s-53508418f3
+      - s-ed0d44879d
+      - s-24dbdf66af
+      - s-16d5d182ae
+      - s-334efcbd77
+      - s-1116917a3f

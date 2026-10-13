@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Barbarophryne brongersmai
+  displayName: Barbarophryne brongersmai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KM76
+  sourceIndexes:
+    - name:
+        en: Barbarophryne brongersmai
+        zh: Barbarophryne brongersmai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KM76
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/374
+            queryName: Barbarophryne brongersmai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/298
+            queryName: Bufo brongersmai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/0
+            queryName: Pseudepidalea brongersmai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ae3e8226e2
+      - s-36e419fa9b
+      - s-3336ba0117
+      - s-4b87805f8f
+      - s-9bb9a65d13
+      - s-e1abcdf037
+      - s-303a3214de
+      - s-2ece4ea93d
+      - s-7c95c8fb35
+    zh:
+      - s-59746c4285
+      - s-50986e576e
+      - s-2f9265b438
+      - s-2b4db3e781
+      - s-47e5508346
+      - s-1ae5e847e1
+      - s-39087d1c0a
+      - s-359133cad5
+      - s-c557111550

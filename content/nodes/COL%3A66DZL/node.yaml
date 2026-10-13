@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops loloensis
+  displayName: Amolops loloensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DZL
+  sourceIndexes:
+    - name:
+        en: Amolops loloensis
+        zh: Amolops loloensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DZL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/380
+            queryName: Amolops loloensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 64
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/408
+            queryName: Amolops liangshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/231
+            queryName: Staurois loloensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 40
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/232
+            queryName: Staurois liangshanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-402fcc5fb6
+      - s-b3d970db9f
+      - s-1415476894
+      - s-db9a9c477d
+      - s-48cbd738c7
+      - s-cd3752ed10
+      - s-9806c8a8ff
+      - s-5a21855eed
+      - s-b87489005d
+      - s-7af584929f
+      - s-f0deaa9a30
+      - s-86cb59c09a
+      - s-52406fa71e
+      - s-f9691389cf
+      - s-99e24d310c
+      - s-4404329fd7
+      - s-ef7793ba93
+      - s-6ec90b8663
+      - s-9285684c15
+      - s-eb604a02e5
+      - s-33538a9a1a
+      - s-032b7115b1
+    zh:
+      - s-2c60fce167
+      - s-01801a7ea3
+      - s-ed33480647
+      - s-8fa62170b3
+      - s-b3474e1f09
+      - s-f456c2cad3
+      - s-a6239959ad
+      - s-3231d42567
+      - s-9362c13852
+      - s-787bb33c5e
+      - s-f0c851f4ea
+      - s-1587d0b6ad
+      - s-19edafca9a
+      - s-5a6129bb2d
+      - s-ef4bf7a59b
+      - s-9513295af3
+      - s-e0e6cb4b6c
+      - s-1c7b648e4c
+      - s-49c6303d4a
+      - s-dac8a5d86b
+      - s-fd6624bbbd
+      - s-9880388022

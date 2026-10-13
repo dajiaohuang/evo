@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Myxinikela siroka
+    commonName: Carboniferous stem hagfish
+    commonNameZh: 石炭纪盲鳗干群
+    rank: species
+    taxonId: txn:178986
+    firstAppearance: 310
+    lastAppearance: 307
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:178986
+    scientificName: Myxinikela siroka
+    commonName: Carboniferous stem hagfish
+    commonNameZh: 石炭纪盲鳗干群
+    rank: species
+    parentName: Cyclostome fossil evidence route
+    extinct: true
+    geography:
+      - Mazon Creek
+      - Illinois
+      - United States
+    overview:
+      page: en
+      section: s-ec7256b5b1
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-06b2b114ce
+        part: body
+      habitat:
+        page: en
+        section: s-14f29c2c08
+        part: body
+      locomotion:
+        page: en
+        section: s-d9d5dcf59c
+        part: body
+      bodySize:
+        page: en
+        section: s-039a24f120
+        part: body
+      guild:
+        page: en
+        section: s-48e05b65c1
+        part: body
+    traits:
+      - page: en
+        section: s-40da89e2bc
+        part: body
+      - page: en
+        section: s-5078344609
+        part: body
+      - page: en
+        section: s-e5b1113478
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-3374e9d644
+      part: body
+    readerSections:
+      - id: reading-0
+        title:
+          en:
+            page: en
+            section: s-9ae4ab3c9d
+            part: title
+          zh:
+            page: zh
+            section: s-7bcec1053c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9ae4ab3c9d
+            part: body
+          zh:
+            page: zh
+            section: s-7bcec1053c
+            part: body
+      - id: reading-1
+        title:
+          en:
+            page: en
+            section: s-4f22b548d6
+            part: title
+          zh:
+            page: zh
+            section: s-da51a3877d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4f22b548d6
+            part: body
+          zh:
+            page: zh
+            section: s-da51a3877d
+            part: body
+    confidence: medium
+    referenceIds:
+      - miyashita-2020-myxinikela
+    overviewZh:
+      page: zh
+      section: zh-4ca0a25746ac81
+      part: body
+  claims:
+    - subjectId: taxon:myxinikela
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Myxinikela siroka is represented by holotype FMNH PF15373 and paratype FMNH PF8472 and is interpreted as a stem or putative total-group hagfish, not a crown-Myxini member.
+      confidence: medium
+      confidenceRationale: "Myxinikela siroka: Named material and a published systematic or phylogenetic treatment support this bounded identification. Confidence remains medium because the profile does not turn a sampled placement into direct ancestry or universal consensus."
+      referenceLinks:
+        - referenceId: miyashita-2020-myxinikela
+          relation: supports
+          pages: 850–865, especially 852–860
+          figure: Figures 1–4 and 8; Table 1
+          quoteLocator: Systematic palaeontology; anatomical description; locality and measurements
+    - subjectId: taxon:myxinikela
+      claimType: biogeography
+      claimKind: scientific
+      statement: Both represented Myxinikela specimens come from the Moscovian Francis Creek Shale at the former Pit 11 locality in Illinois; no broader distribution is inferred.
+      confidence: medium
+      confidenceRationale: "Myxinikela siroka: The primary study reports the named locality and horizon directly. Confidence is medium because one study sample cannot establish absence, endemism or a global geographic range."
+      referenceLinks:
+        - referenceId: miyashita-2020-myxinikela
+          relation: supports
+          pages: 850–865, especially 852–860
+          figure: Figures 1–4 and 8; Table 1
+          quoteLocator: Systematic palaeontology; anatomical description; locality and measurements
+    - subjectId: taxon:myxinikela
+      claimType: ecology
+      claimKind: scientific
+      statement: The fossils preserve body outlines and soft-tissue traces but do not directly establish diet, slime production, habitat preference or feeding guild.
+      confidence: medium
+      confidenceRationale: "Myxinikela siroka: The evidence boundary is explicit: depositional or anatomical context is retained while unsupported behaviour and niche claims are withheld. Medium confidence applies to that bounded negative statement, not to a reconstructed ecology."
+      referenceLinks:
+        - referenceId: miyashita-2020-myxinikela
+          relation: supports
+          pages: 850–865, especially 852–860
+          figure: Figures 1–4 and 8; Table 1
+          quoteLocator: Systematic palaeontology; anatomical description; locality and measurements
+    - subjectId: taxon:myxinikela
+      claimType: morphology
+      claimKind: scientific
+      statement: The two specimens preserve a cyclostome–hagfish anatomical mosaic, with body lengths of 73.3 and 62.5 mm and multiple structures whose interpretation depends on preservation.
+      confidence: medium
+      confidenceRationale: "Myxinikela siroka: The cited figures and descriptions directly document the named anatomical observations. Confidence is medium rather than universal because preservation and specimen sampling limit character completeness and variation."
+      referenceLinks:
+        - referenceId: miyashita-2020-myxinikela
+          relation: supports
+          pages: 850–865, especially 852–860
+          figure: Figures 1–4 and 8; Table 1
+          quoteLocator: Systematic palaeontology; anatomical description; locality and measurements
+    - subjectId: taxon:myxinikela
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 310–307 Ma interval bounds the represented Francis Creek Shale specimens and is not the duration or global first appearance of hagfishes.
+      confidence: medium
+      confidenceRationale: "Myxinikela siroka: The primary source and concrete locator support the displayed sample interval. Confidence is medium because the envelope is explicitly specimen- or locality-scoped and not a global first or last appearance."
+      referenceLinks:
+        - referenceId: miyashita-2020-myxinikela
+          relation: supports
+          pages: 850–865, especially 852–860
+          figure: Figures 1–4 and 8; Table 1
+          quoteLocator: Systematic palaeontology; anatomical description; locality and measurements
+  claim-rationales.zh:
+    - Myxinikela siroka：具名材料和已发表的系统或系统发育处理支持这一有限鉴定。置信度保持中等，因为画像不会把取样位置转化为直接祖先或普遍共识。
+    - Myxinikela siroka：一手研究直接报告了具名地点与层位。置信度为中等，因为单一研究样本不能确定缺失、特有性或全球地理范围。
+    - Myxinikela siroka：证据边界是明确的：保留沉积或解剖背景，同时不填补无依据的行为与生态位。中等置信度针对这一有限的否定性陈述，而非重建生态。
+    - Myxinikela siroka：所引图件与描述直接记录了具名解剖观察。由于保存与标本取样限制了性状完整性和变异，置信度为中等而非普遍结论。
+    - Myxinikela siroka：一手来源与具体定位符支持显示的样本区间。置信度为中等，因为该包络明确限定于标本或地点，而非全球首现或末现。
+  claim-statements.zh:
+    - Myxinikela siroka 由正模 FMNH PF15373 与副模 FMNH PF8472 代表，被解释为盲鳗干群或可能的总群成员，而非盲鳗纲冠群。
+    - 两件 Myxinikela 标本均来自美国伊利诺伊州原 Pit 11 地点的莫斯科期 Francis Creek 页岩；不据此推断更广分布。
+    - 化石保存了身体轮廓与软组织痕迹，但不能直接确定食性、黏液产生、栖息地偏好或取食行会。
+    - 两件标本保存圆口类—盲鳗式解剖镶嵌，体长分别为 73.3 与 62.5 毫米，且多处结构的解释受保存状况限制。
+    - 显示的 310–307 Ma 区间限定 Francis Creek 页岩标本，并非盲鳗谱系延续时间或全球首现。
+  ranges:
+    - entityId: myxinikela
+      rangeKind: global-composite
+      taxonomicConcept: Myxinikela siroka represented study sample
+      geographicScope: Francis Creek Shale, former Pit 11, Illinois, United States
+      olderMa: 310
+      youngerMa: 307
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Rounded Francis Creek Shale interval; preservation differs between the two specimens and several anatomical readings remain equivocal.
+      evidenceBasis: Holotype FMNH PF15373 and paratype FMNH PF8472 document the represented Moscovian sample; the interval is not a crown-hagfish or global lineage range.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:myxinikela:fossil-range
+      referenceLocators:
+        - referenceId: miyashita-2020-myxinikela
+          locator: 850–865, especially 852–860; Figures 1–4 and 8; Table 1; Systematic palaeontology; anatomical description; locality and measurements

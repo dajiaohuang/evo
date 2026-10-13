@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax rostratus
+  displayName: Scinax rostratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJYV
+  sourceIndexes:
+    - name:
+        en: Scinax rostratus
+        zh: Scinax rostratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJYV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/70
+            queryName: Scinax rostratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/12
+            queryName: Hyla rostrata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/13
+            queryName: Hyla foliamorta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/14
+            queryName: Ololygon rostrata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/15
+            queryName: Scinax rostrata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-81495ee8ad
+      - s-2b01c35244
+      - s-767187f99d
+      - s-881fd85a1f
+      - s-d09a4f35cf
+      - s-99fdb99c9f
+      - s-660626890f
+      - s-1db06c2017
+      - s-abcfd4ac8b
+      - s-dd6ff1d47f
+      - s-f5aa92fba9
+      - s-52bd4aa181
+      - s-ea1062a3bc
+      - s-a869e0e8be
+      - s-3f41fd5c09
+    zh:
+      - s-17d0ef5173
+      - s-36ac6d3f63
+      - s-6c2f43b019
+      - s-c4146a6157
+      - s-7843926c9d
+      - s-2c99b65be7
+      - s-486ccb48d2
+      - s-4338532825
+      - s-748c8fa9c3
+      - s-78fcd72700
+      - s-ee818a43dc
+      - s-1f69d05825
+      - s-6f0eb9d5b4
+      - s-986af8a1ba
+      - s-76c94b5f2a

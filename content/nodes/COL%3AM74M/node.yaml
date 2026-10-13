@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Blommersia grandisonae
+  displayName: Blommersia grandisonae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M74M
+  sourceIndexes:
+    - name:
+        en: Blommersia grandisonae
+        zh: Blommersia grandisonae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M74M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/435
+            queryName: Blommersia grandisonae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/178
+            queryName: Mantidactylus grandisonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1081d2d40f
+      - s-b6a35d9428
+      - s-e839f0bf0f
+      - s-79067b344b
+      - s-41128f8c09
+      - s-071a75f5fa
+      - s-b1e8d7f915
+    zh:
+      - s-25a27b32ee
+      - s-c0d96fcff0
+      - s-236f1543d4
+      - s-0e492ec5ae
+      - s-174e2f0182
+      - s-891fb087f0
+      - s-a5ead58160

@@ -1,0 +1,190 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Aneides iecanus
+    name:
+      en: Aneides iecanus
+      zh: Aneides iecanus
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Aneides
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a9b0a8d178
+            part: body
+          zh:
+            page: zh
+            section: s-3a72d08019
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-43c8c9a885
+            part: body
+          zh:
+            page: zh
+            section: s-aeb23ee8a1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 18, 19; Reference.csv rows 4222
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 18
+        values:
+          - Plethodontidae
+          - Aneides
+          - Aneides iecanus
+          - F
+          - NA
+          - "70.1"
+          - NA
+          - NA
+          - NA
+          - "10"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "54.678"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 19
+        values:
+          - Plethodontidae
+          - Aneides
+          - Aneides iecanus
+          - M
+          - NA
+          - "75.8"
+          - NA
+          - NA
+          - NA
+          - "12.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "64.43"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4222
+        values:
+          - Caudata
+          - Aneides_iecanus
+          - "Reilly, S. B., & Wake, D. B. (2019). Taxonomic revision of black salamanders of the Aneides flavipunctatus complex (Caudata: Plethodontidae). PeerJ, 7, e7370. https://doi.org/10.7717/peerj.7370"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 66R29
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

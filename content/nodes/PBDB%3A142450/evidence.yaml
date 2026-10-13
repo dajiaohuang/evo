@@ -1,0 +1,148 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Platyoposaurus watsoni
+    rank: species
+    sourceTaxonId: txn:142450
+    name:
+      en: Platyoposaurus watsoni
+      zh: Platyoposaurus watsoni
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-2871801bca
+            part: body
+          zh:
+            page: zh
+            section: s-0ab48a8536
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-6ae5dffa9b
+            part: body
+          zh:
+            page: zh
+            section: s-287e952220
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-628906834b
+            part: body
+          zh:
+            page: zh
+            section: s-5e2c0cc24c
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:142450; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. S. Romer. 1947. Review of the Labyrinthodontia. Bulletin of the Museum of Comparative Zoology 99(1):1-368
+    occurrenceEvidence:
+      - occurrenceId: occ:219960
+        collectionId: col:22644
+        acceptedTaxonId: txn:142450
+        identifiedTaxonId: var:142450
+        identifiedName: Platyops watsoni
+        taxonomicDifference: recombined as
+        referenceId: ref:4769
+        bibliography: "J. de Heinzelin. 1983. The Omo Group: Archives of the International Omo Research Expedition. Musee Royal de l'Afrique Centrale, Annales Series 8, Tervuren, Belgique 85"
+        locality:
+          countryCode: RU
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+      - occurrenceId: occ:799672
+        collectionId: col:80022
+        acceptedTaxonId: txn:142450
+        identifiedTaxonId: var:142450
+        identifiedName: Platyops watsoni n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:28553
+        bibliography: M. A. Shishkin, I. V. Novikov, and Y. M. Gubin. 2000. Permian and Triassic temnospondyls from Russia.  In M. J. Benton, M. A. Shishkin, D. M. Unwin & E. N. Kurochkin (eds.), The Age of Dinosaurs in Russia and Mongolia. Cambridge University Press, Cambridge
+        locality:
+          countryCode: RU
+          stateProvince: Kirov
+          county: Slobodskoi
+        stratigraphy:
+          group: null
+          formation: Pechishchi
+          member: null
+        olderAgeMa: 277.3
+        youngerAgeMa: 266.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-628906834b
+            part: body
+          zh:
+            page: zh
+            section: s-5e2c0cc24c
+            part: body
+        sourceIds: []

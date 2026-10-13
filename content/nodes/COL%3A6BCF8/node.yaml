@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor longirostris
+  displayName: Craugastor longirostris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCF8
+  sourceIndexes:
+    - name:
+        en: Craugastor longirostris
+        zh: Craugastor longirostris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCF8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/133
+            queryName: Craugastor longirostris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/119
+            queryName: Eleutherodactylus longirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/271
+            queryName: Hylodes longirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-707879056d
+      - s-c8a7c9d696
+      - s-8e53d6eecf
+      - s-f9ffeac0f8
+      - s-6555456927
+      - s-58adb8df8a
+      - s-f2050251f7
+      - s-d786f748fc
+      - s-d5944de38d
+      - s-aefc6f8afc
+      - s-ad08075437
+      - s-955ef4c974
+      - s-5a073821da
+      - s-6dafb14a94
+      - s-8a86f683f3
+      - s-ef32ad10fc
+      - s-0dae591c67
+      - s-ca705404c5
+      - s-aa88ede70c
+    zh:
+      - s-59bd0d324f
+      - s-ad93ea74c2
+      - s-8391c1d3b6
+      - s-5c2835a8c9
+      - s-87da03f256
+      - s-bb60b2cf4c
+      - s-82934b6725
+      - s-ec8c1a9ddd
+      - s-2edc64b3bf
+      - s-5b612b7fd9
+      - s-6508f46714
+      - s-c88ccfa527
+      - s-f75c7e91d5
+      - s-07461b71c2
+      - s-787ae9f889
+      - s-177adede24
+      - s-458e45556e
+      - s-2f632055f1
+      - s-243c1927c9

@@ -1,0 +1,3 @@
+## ## Alternate leaflets and a broad-winged samara {#s-e8792ff013}
+The Brazilian Flora 2020 entry records glabrous stems and alternate, odd-pinnate leaves with six to ten leaflets. The alternate leaflets are elliptic or oblong, nearly leathery, hairless and 3.6–9 cm long by 1.4–4 cm wide; their bases range from blunt to heart-shaped and their tips are acute or tapered. Terminal thyrses are elongated and sparsely flowered. The flowers have five free, hairy sepals and five yellow, hairless petals; four stamens are recorded, with zero or one staminode. The fruit is a one-seeded samara, 7.5–14 cm long and 2.7–5.7 cm wide, laterally compressed with a developed wing. The dataset’s habitat field says “terrestrial” but supplies no locality.
+

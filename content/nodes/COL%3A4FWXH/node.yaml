@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phasmahyla spectabilis
+  displayName: Phasmahyla spectabilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4FWXH
+  sourceIndexes:
+    - name:
+        en: Phasmahyla spectabilis
+        zh: Phasmahyla spectabilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4FWXH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/30
+            queryName: Phasmahyla spectabilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-858951b889
+      - s-331fb0678f
+      - s-33c6caf903
+      - s-ed18d7ed02
+      - s-e265562d52
+      - s-89c48cd431
+      - s-39d0559b70
+      - s-9218154e4c
+      - s-aee398b5b4
+      - s-66e7d73864
+      - s-37201d257d
+    zh:
+      - s-debfad41a4
+      - s-63f9e0d524
+      - s-66bc41a356
+      - s-3dedee570d
+      - s-45fe9becbe
+      - s-7275d4971c
+      - s-1cd2fbc2a5
+      - s-6f5a52035c
+      - s-4a8385822c
+      - s-af23e3335c
+      - s-b21281aebc

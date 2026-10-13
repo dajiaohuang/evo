@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea rathbuni
+  displayName: Eurycea rathbuni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3HK
+  sourceIndexes:
+    - name:
+        en: Eurycea rathbuni
+        zh: Eurycea rathbuni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3HK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/430
+            queryName: Eurycea rathbuni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/294
+            queryName: Typhlomolge rathbuni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2cf7077479
+      - s-a59aa520d1
+      - s-45c5d1b9b2
+      - s-75728f0db7
+      - s-ada99f93ac
+      - s-b13dd15b9d
+      - s-ce5b6f5780
+      - s-fd9c8614ae
+      - s-a7c070fc3d
+    zh:
+      - s-e7ecdcfac4
+      - s-375fda70ba
+      - s-960eb7620b
+      - s-8b423e2fad
+      - s-2362f08e85
+      - s-02f065811c
+      - s-231abf7233
+      - s-c58ad5a6ee
+      - s-174d5b8349

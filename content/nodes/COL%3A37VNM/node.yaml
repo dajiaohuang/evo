@@ -1,0 +1,136 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryophytes japonicus
+  displayName: Dryophytes japonicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37VNM
+  sourceIndexes:
+    - name:
+        en: Dryophytes japonicus
+        zh: Dryophytes japonicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37VNM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/47
+            queryName: Dryophytes japonicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 62
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/359
+            queryName: Hyla japonica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 172
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/490
+            queryName: Hyla ussuriensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/124
+            queryName: Hyla heinzsteinitzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/406
+            queryName: Hyla stepheni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/372
+            queryName: Hyla arborea ussuriensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/437
+            queryName: Hyla sodeicampi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/398
+            queryName: Hyla arborea japonica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/399
+            queryName: Hyla arborea stepheni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/400
+            queryName: Hyla japonica stepheni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/401
+            queryName: Hyla japonica japonica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-19442edd4e
+      - s-23fe9c73bd
+      - s-e9c1c8fc21
+      - s-ccd274766f
+      - s-f39a2ad0ea
+      - s-32836adaee
+      - s-89f0a4280d
+      - s-67e2bf83d4
+      - s-dc5b54fc2a
+      - s-6f8880bc62
+      - s-edb3c8e691
+      - s-3618312835
+      - s-9630588c48
+      - s-ae630554cc
+      - s-1639d8377f
+      - s-0bb0148e44
+      - s-ce7661ce78
+      - s-737828efc6
+    zh:
+      - s-7012ff3fa1
+      - s-6f033cc071
+      - s-24eb28bd8a
+      - s-12a812c225
+      - s-e6dd3a839a
+      - s-7e496b8578
+      - s-3f7326c78d
+      - s-1ad72f0395
+      - s-66609431e9
+      - s-5b913b5653
+      - s-8f37a8ba1b
+      - s-7870b0ea19
+      - s-a2879803d7
+      - s-e1e7db7bb2
+      - s-510c820581
+      - s-4036c88f6c
+      - s-0cabac1354
+      - s-4805b5f223

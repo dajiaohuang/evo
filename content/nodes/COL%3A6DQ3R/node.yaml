@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duttaphrynus himalayanus
+  displayName: Duttaphrynus himalayanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6DQ3R
+  sourceIndexes:
+    - name:
+        en: Duttaphrynus himalayanus
+        zh: Duttaphrynus himalayanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6DQ3R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/79
+            queryName: Duttaphrynus himalayanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/339
+            queryName: Bufo himalayanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/117
+            queryName: Bufo abatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/231
+            queryName: Bufo melanostictus himalayanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce4190ae87
+      - s-7672280d11
+      - s-f264adcac5
+      - s-b267a9e6de
+      - s-14f5edebb4
+      - s-210c17dd8a
+      - s-9f6b82ee85
+      - s-f8ce0210e4
+      - s-106e675c7f
+      - s-32548e62c5
+      - s-7ac8548f6f
+      - s-9bec991f2e
+      - s-1ecd86b8c7
+      - s-91823078e7
+      - s-189602e288
+      - s-cb363554cd
+      - s-649a84c63c
+      - s-023acfced9
+    zh:
+      - s-b866d79dc7
+      - s-a622567928
+      - s-475b3bc621
+      - s-9407dd1c31
+      - s-c7f769d4c7
+      - s-6334472be4
+      - s-c6a90ea91c
+      - s-b401e2ba11
+      - s-1eafbc0bf0
+      - s-d4e5dde1c2
+      - s-db911ca77e
+      - s-f53c2f4634
+      - s-d7ead82326
+      - s-47149f9dec
+      - s-6e93e21b7a
+      - s-f54043934d
+      - s-0456b56450
+      - s-6df7bec044

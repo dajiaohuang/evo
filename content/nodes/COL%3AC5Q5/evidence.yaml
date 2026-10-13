@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Alouatta arctoidea Cabrera, 1940
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 乌尔辛红吼猴
+      en: Ursine Red Howler
+    sections:
+      - topic: population
+        sourceIds:
+          - aponte2019arctoidea
+        text:
+          en:
+            page: en
+            section: s-61bf3591f7
+            part: body
+          zh:
+            page: zh
+            section: s-7afc72a8e3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Alouatta arctoidea Cabrera, 1940
+            zh: 生命名录 COL26.8 — Alouatta arctoidea Cabrera, 1940
+          url: https://www.checklistbank.org/dataset/316115/taxon/C5Q5
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent link; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和父链；不作为生物学证据。
+      - id: mdd_name
+        referenceId: ref-ac6de761-ab19-85fe-a132-2dd3864003e7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the selected English common-name crosswalk only; not occurrence, ecology or a complete range.
+            zh: 仅支持所选英文普通名交叉表；不提供出现记录、生态或完整分布证据。
+      - id: aponte2019arctoidea
+        referenceId: ref-a454932e-e8bf-8651-ac27-3f8bab912ba1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A population at Hato Masaguaral, monitored almost continuously from 1970 to 1999 and recounted in 2011–2012; demographic and troop-composition comparison.
+            zh: 委内瑞拉 Hato Masaguaral 一个种群：1970—1999 年近乎持续监测，并在 2011—2012 年重新计数；比较人口与猴群组成。
+    limitations:
+      en:
+        page: en
+        section: s-c73f722f5b
+        part: body
+      zh:
+        page: zh
+        section: s-4cda321fe1
+        part: body

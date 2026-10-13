@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Neobatrachus pelobatoides
+  displayName: Neobatrachus pelobatoides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/46B2L
+  sourceIndexes:
+    - name:
+        en: Neobatrachus pelobatoides
+        zh: Neobatrachus pelobatoides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 46B2L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/237
+            queryName: Neobatrachus pelobatoides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/220
+            queryName: Heleioporus pelobatoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/170
+            queryName: Heleioporus albopunctatus pelobatoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0888bd0601
+      - s-af431fc55b
+      - s-6afa160b35
+      - s-b291597cf0
+      - s-4d79e439f3
+      - s-bb360255cc
+      - s-983a5c4f51
+      - s-9aef3db112
+      - s-bcb6fed036
+      - s-773dec991a
+      - s-c86b9f1d27
+    zh:
+      - s-753c36070a
+      - s-aa1d779654
+      - s-1b148a22b2
+      - s-218279e609
+      - s-51d2487ff6
+      - s-820b5a2313
+      - s-5284449655
+      - s-d543763123
+      - s-2838f254a2
+      - s-99ef248af2
+      - s-529445f589

@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Palaeoproteus klatti
+    rank: species
+    sourceTaxonId: txn:393903
+    name:
+      en: Palaeoproteus klatti
+      zh: Palaeoproteus klatti
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-8eb6d850b2
+            part: body
+          zh:
+            page: zh
+            section: s-808328f94d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-e90b09d350
+            part: body
+          zh:
+            page: zh
+            section: s-b70f3efd79
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-4ee7303f74
+            part: body
+          zh:
+            page: zh
+            section: s-1c3fd682d0
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:393903; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Estes. 1981. Handbuch der Paläoherpetologie/Encyclopedia of Paleoherpetology. Part 2. Gymnophiona, Caudata. Gustav Fischer Verlag, Stuttgart
+    occurrenceEvidence:
+      - occurrenceId: occ:456631
+        collectionId: col:13322
+        acceptedTaxonId: txn:393903
+        identifiedName: Palaeoproteus klatti n. sp.
+        taxonomicDifference: null
+        referenceId: ref:11714
+        bibliography: H. Haubold. 1982. Zur Stellung der Wirbeltierfauna des Geiseltals, insbesondere der Mammalier, im europäischen Mitteleozän (Position of the European Middle Eocene vertebrate fauna of the Geisel Valley, with special focus on mammals). Zeitschrift für geologische Wissenschaften 10(12):1539-1551
+        locality:
+          countryCode: DE
+          stateProvince: Sachsen-Anhalt
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 48.07
+        youngerAgeMa: 41.03
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-4ee7303f74
+            part: body
+          zh:
+            page: zh
+            section: s-1c3fd682d0
+            part: body
+        sourceIds: []

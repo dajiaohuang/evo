@@ -1,0 +1,3 @@
+## Leaf surfaces and the hypanthium {#s-fe385a85f7}
+The Brazilian Flora 2020 entry records foliaceous stipules and no domatia. Leaves have up to 10 pairs of oblong or elliptic leaflets, with pilose or sericeous lower surfaces. Flowers are up to 10 mm long and radially symmetric, with deciduous bracteoles. The hypanthium is cup shaped and listed as symmetric or asymmetric. Petals are under 1 mm wide and densely indumented; stamens are monomorphic, with 10 counted. The fruit is elliptic to oblong. The habitat field records terrestrial. These regional fields preserve alternatives and do not define a complete range.
+

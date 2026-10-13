@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus troglodytes
+  displayName: Leptodactylus troglodytes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN88
+  sourceIndexes:
+    - name:
+        en: Leptodactylus troglodytes
+        zh: Leptodactylus troglodytes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN88
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/442
+            queryName: Leptodactylus troglodytes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1904597b33
+      - s-77f8724e2c
+      - s-815f359740
+      - s-cbfb949873
+      - s-23c08f22c6
+      - s-01695d10d0
+      - s-1533c07efd
+      - s-7290581a57
+      - s-61399611db
+      - s-95fdf86250
+      - s-14d3f2239a
+      - s-01095f5c0c
+      - s-33f9873ae2
+      - s-f1e896d2d6
+      - s-d665bd1da6
+      - s-46ef42b4e2
+      - s-f77433ce58
+      - s-0a48978bf2
+      - s-d70047b251
+      - s-85b8158f1b
+      - s-e9cf27438d
+    zh:
+      - s-0da34856e1
+      - s-b796756d6b
+      - s-78708cebe8
+      - s-0e49a03911
+      - s-b1e054d8de
+      - s-01b708cd69
+      - s-cd9ce0611a
+      - s-6fadb4a244
+      - s-8a7d9a8bcd
+      - s-dd2330f8b3
+      - s-b4e455be56
+      - s-41e82ad0f3
+      - s-42e2c3fc53
+      - s-1bc5f08085
+      - s-7b3fae49a0
+      - s-1b27ee1961
+      - s-9d54fa2a04
+      - s-ed8df2d888
+      - s-eb4f3e59cd
+      - s-fb6eca79db
+      - s-6f75181a7a

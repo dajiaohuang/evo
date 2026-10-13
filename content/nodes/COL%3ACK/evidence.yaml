@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-bf62f52eae
+          part: title
+        zh:
+          page: zh
+          section: s-05934a4561
+          part: title
+      text:
+        en:
+          page: en
+          section: s-bf62f52eae
+          part: body
+        zh:
+          page: zh
+          section: s-05934a4561
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-ea51ff8608
+          part: title
+        zh:
+          page: zh
+          section: s-ecc0cbdcf1
+          part: title
+      text:
+        en:
+          page: en
+          section: s-ea51ff8608
+          part: body
+        zh:
+          page: zh
+          section: s-ecc0cbdcf1
+          part: body
+  atlas-node:
+    name: Holocephali
+    commonName: Chimaeras
+    commonNameZh: 银鲛类
+    rank: subclass
+    taxonId: txn:34760
+    firstAppearance: 358.9
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:holocephali
+      claimKind: scientific
+      claimType: topology
+      statement: Mitogenomes representing all three living chimaeriform families provide a sampled topology and molecular divergence estimates. The living sample and clock model do not directly date total-group Holocephali or establish its fossil endpoints.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond the living sample and clock model do not directly date total-group Holocephali or establish its fossil endpoints.
+      referenceLinks:
+        - relation: supports
+          referenceId: inoue-2010-holocephalan-mitogenomics
+          pages: 2576–2586
+          figure: Figures 1–4; Tables 1–3
+          quoteLocator: Mitogenomic sampling; topology; divergence-time estimation
+    - subjectId: taxon:holocephali
+      claimKind: scientific
+      claimType: divergence-time
+      statement: The mitogenomic clock estimated the lineage leading to modern holocephalans at 421 Ma (95% credible interval 410–447 Ma), supporting a model-to-present window rather than a fossil FAD.
+      confidence: medium
+      confidenceRationale: "Modern holocephalan lineage model: the cited primary study or systematic review directly supports the stated sample, calibration or withholding boundary at the supplied locator. Confidence is medium and does not extend to a global FAD, LAD, direct ancestor or unsampled interval."
+      referenceLinks:
+        - relation: supports
+          referenceId: inoue-2010-holocephalan-mitogenomics
+          pages: 2579–2584
+          figure: Figure 2; Tables 2–3
+          quoteLocator: Mitogenomic divergence-time estimation and credible intervals
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - Modern holocephalan lineage model：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。
+  claim-statements.zh:
+    - 代表现生银鲛目三个科的线粒体基因组，提供了抽样拓扑与分子分歧估计。现生样本和时钟模型不能直接给全头类总群定年，也不能确立其化石端点。
+    - 线粒体基因组分子钟把通向现代全头类的谱系估计为 4.21 亿年前（95% 可信区间 4.10–4.47 亿年前）；这支持模型至今的窗口，而不是化石首现。
+  ranges:
+    - entityId: holocephali
+      rangeKind: global-composite
+      taxonomicConcept: Modern holocephalan lineage model
+      geographicScope: Eight living holocephalans representing all three extant families
+      olderMa: 421
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 421 Ma mean has a 410–447 Ma credible interval and is calibration- and model-dependent.
+      evidenceBasis: The interval represents the modeled lineage leading to modern holocephalans, not total-group fossil endpoints.
+      confidence: medium
+      claimIds:
+        - claim:taxon:holocephali:range-boundary
+      referenceLocators:
+        - referenceId: inoue-2010-holocephalan-mitogenomics
+          locator: 2579–2584; Figure 2; Tables 2–3; Mitogenomic divergence-time estimation and credible intervals
+      evidenceLevel: literature-synthesized

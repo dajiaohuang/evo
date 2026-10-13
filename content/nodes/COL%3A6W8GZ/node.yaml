@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis bambu
+  displayName: Pristimantis bambu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W8GZ
+  sourceIndexes:
+    - name:
+        en: Pristimantis bambu
+        zh: Pristimantis bambu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W8GZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/137
+            queryName: Pristimantis bambu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc8e23a40c
+      - s-0cef8dadb2
+      - s-2a9776e52c
+      - s-6ed450227e
+      - s-b58bc53a8a
+      - s-7c24b68ad4
+      - s-e3d429ddb0
+      - s-4f3875033e
+      - s-2db8d1c703
+      - s-06da2af68f
+      - s-c298e26f61
+      - s-720a620785
+      - s-a464e9657e
+    zh:
+      - s-1172f55b27
+      - s-fc7ebf0aad
+      - s-42392f01b7
+      - s-26de091405
+      - s-4eafcb25a3
+      - s-28052c7681
+      - s-0ea2f791ed
+      - s-69f708bb26
+      - s-d3ad7f6e51
+      - s-bb74fe0417
+      - s-062e025846
+      - s-2d4c13b7cb
+      - s-3910b1ffb4

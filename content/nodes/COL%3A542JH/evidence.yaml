@@ -1,0 +1,172 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Syringodea concolor (Baker) M.P.de Vos
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 542JH, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0000786201.
+      scope: Syringodea concolor (Baker) M.P.de Vos as represented by COL26.8 usage 542JH; biological claims retain the cited South African regional scope.
+    lifeStatusScope:
+      wild: Claims concern wild populations described by the cited regional flora or national assessment.
+      domesticated: Cultivation is not covered by cited claims; no domestication claim is made.
+      fossil: No fossil occurrence claim is made; fossil evidence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 21
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/542JH
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted taxon usage 542JH
+          scope: Accepted name, authorship, rank, status, and source dataset only.
+      - id: wfo
+        referenceId: ref-b7a0da64-36cd-8130-ab0c-cf9d69929170
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000786201-2026-06
+          version: WFO 2026-06, issued 2026-06-21; DOI 10.5281/zenodo.20782718
+          locator: Exact accepted COL 542JH / WFO wfo-0000786201 crosswalk
+          scope: Identity-link evidence only, not biological evidence.
+      - id: sanbi-archive
+        referenceId: ref-240f872a-55ec-83ef-ae4f-5731c9346cae
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          locator: Morphology row 98942; diagnostic row 95192; habitat row 97654
+          scope: South African flora morphology, diagnostic, and habitat fields only.
+      - id: sanbi2019
+        referenceId: ref-84fb6a85-f27e-8ebb-a977-dac442ef625a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Syringodea concolor (Baker) M.P.de Vos account, flowering-time entry
+          scope: Eastern Cape regional flora evidence; phenology does not imply year-round or global flowering.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "The SANBI e-Flora morphology field describes Syringodea concolor (Baker) M.P.de Vos: plants 30–250 mm high, with 4–8 linear-channelled leaves and pale to deep violet flowers, sometimes darker at the tepal base, with a white throat."
+            textZh: SANBI e-Flora 形态字段记载 Syringodea concolor (Baker) M.P.de Vos：株高 30–250 mm，具 4–8 枚线形槽状叶；花浅紫至深紫，花被片基部有时较深，喉部白色。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, morphology row 98942
+            placeTimeScope: SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.
+            lifeStatus: Wild regional-flora evidence; cultivated status is not assessed.
+          - text: Among summer-rainfall species with a narrowly funnel-shaped perianth tube, the archive distinguishes it by relatively large violet flowers with a white throat.
+            textZh: 在具狭漏斗形花被管的夏雨区种类中，档案以较大的紫花和白色花喉作为识别特征。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, diagnostic row 95192
+            placeTimeScope: SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.
+            lifeStatus: Wild regional-flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of morphology has not been completed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The 2019 Eastern Cape flora reports flowering January–May; this is a regional flowering-time observation, not a full life-history study.
+            textZh: 2019 年东开普植物志记载花期为 1–5 月；这是区域花期记载，不构成完整生活史研究。
+            sourceIds:
+              - sanbi2019
+            locator: Strelitzia 41(3), species flowering-time entry
+            placeTimeScope: Eastern Cape flora treatment published 2019; regional flowering season only.
+            lifeStatus: Wild regional-flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of lifeHistory has not been completed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Washes or seasonal drainage lines on clay flats in karroid scrub and open grassland.
+            textZh: SANBI e-Flora 生境字段记载：喀拉哈里灌丛和开阔草地中的黏土平地冲沟或季节性排水线。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, habitat row 97654
+            placeTimeScope: SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.
+            lifeStatus: Wild regional-flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of ecology has not been completed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6c4a6f32d3
+            part: title
+          zh:
+            page: zh
+            section: s-f313c97c70
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6c4a6f32d3
+            part: body
+          zh:
+            page: zh
+            section: s-f313c97c70
+            part: body
+        sourceIds:
+          - sanbi-archive
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3dfef7ea09
+            part: title
+          zh:
+            page: zh
+            section: s-a5b757b20f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3dfef7ea09
+            part: body
+          zh:
+            page: zh
+            section: s-a5b757b20f
+            part: body
+        sourceIds:
+          - sanbi2019
+          - sanbi-archive

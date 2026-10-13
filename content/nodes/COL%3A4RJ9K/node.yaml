@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes blandus
+  displayName: Raorchestes blandus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RJ9K
+  sourceIndexes:
+    - name:
+        en: Raorchestes blandus
+        zh: Raorchestes blandus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RJ9K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/129
+            queryName: Raorchestes blandus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5b3f1decaf
+      - s-f15f0eaa00
+      - s-3c10351b6c
+      - s-d6fce51003
+      - s-cb8f600886
+      - s-5b9572cc44
+      - s-f7385ebd74
+      - s-7280d898de
+      - s-c9aeda1276
+    zh:
+      - s-ce4e4a161c
+      - s-59d5155ed9
+      - s-3e69e30804
+      - s-53cace4a17
+      - s-bf3f74c6b9
+      - s-f899482ac4
+      - s-b36ad917c5
+      - s-6b4922b3f7
+      - s-eea69b81a8

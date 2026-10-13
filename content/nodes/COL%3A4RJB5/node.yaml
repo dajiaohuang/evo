@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes sushili
+  displayName: Raorchestes sushili
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RJB5
+  sourceIndexes:
+    - name:
+        en: Raorchestes sushili
+        zh: Raorchestes sushili
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RJB5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/193
+            queryName: Raorchestes sushili
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/332
+            queryName: Philautus sushili
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/333
+            queryName: Pseudophilautus sushili
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ada0f8c275
+      - s-54881e3b86
+      - s-e0d3cd94e0
+      - s-af3669ef7c
+      - s-bc851bac1f
+      - s-3150eab525
+      - s-977902fa77
+      - s-2f925b8cc3
+      - s-31d6e2b3e1
+    zh:
+      - s-295d017e5e
+      - s-399d55cc9b
+      - s-31a0236710
+      - s-2d9eb3fb8c
+      - s-8bcb70ad19
+      - s-5f9084c8ea
+      - s-aa82562154
+      - s-9f4207442d
+      - s-cb6af83c31

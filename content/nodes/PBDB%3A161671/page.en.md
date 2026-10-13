@@ -1,0 +1,9 @@
+## PBDB's recorded taxonomic concept {#s-1f8e0b0028}
+The PBDB snapshot checked 2026-10-02 records Eoscapherpeton asiaticum at species rank (source concept txn:161671), beneath the recorded parent Eoscapherpeton. This is the database parent chain stored under the Amphibia anchor; the path does not certify equivalence with a COL26.8 concept.
+
+## 4 PBDB occurrence rows and collection fields {#s-4e37005075}
+The exact concept has 4 occurrence records and 3 distinct collection IDs: occ:559658 (collection col:46959; identified name `Mynbulakia surgayi`; locality labels UZ / Navoi; stratigraphy fields formation=Bissekty; `olderAgeMa`=93.9 Ma, `youngerAgeMa`=89.8 Ma). occ:559721 (collection col:58179; identified name `Mynbulakia surgayi n. gen. n. sp.`; locality labels UZ / Navoi; stratigraphy fields formation=Bissekty; `olderAgeMa`=93.9 Ma, `youngerAgeMa`=89.8 Ma). occ:1437958 (collection col:58164; locality labels UZ / Navoi; stratigraphy fields formation=Bissekty; `olderAgeMa`=93.9 Ma, `youngerAgeMa`=89.8 Ma). occ:1437975 (collection col:58179; identified name `Eoscapherpeton asiaticum n. gen. n. sp.`; locality labels UZ / Navoi; stratigraphy fields formation=Bissekty; `olderAgeMa`=93.9 Ma, `youngerAgeMa`=89.8 Ma). Age values are collection-record fields in Ma (million years ago), not measured origin or extinction dates; this snapshot does not establish a complete global distribution. The excerpt supplies occurrence and collection IDs but no specimen identifier or specimen-level description.
+
+## Reference-index lookup for Eoscapherpeton asiaticum {#s-b59cd97393}
+The accepted-name lookup for `Eoscapherpeton asiaticum` reports 2 reference records in the linked index. This is bibliography metadata, not a verified biological result. This placeholder assigns no biological claim and concept equivalence is not certified; the factual account on this page is limited to the PBDB fields above.
+

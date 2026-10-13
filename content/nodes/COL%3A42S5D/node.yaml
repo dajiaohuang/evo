@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microcaecilia butantan
+  displayName: Microcaecilia butantan
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42S5D
+  sourceIndexes:
+    - name:
+        en: Microcaecilia butantan
+        zh: Microcaecilia butantan
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42S5D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/475
+            queryName: Microcaecilia butantan
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b81870dd78
+      - s-82ed812ee9
+      - s-b63109277d
+      - s-02f8cd7bf9
+      - s-981818681d
+      - s-c7f4ad16a2
+      - s-408a56edf4
+      - s-038b1f0d43
+      - s-934ba43d9d
+    zh:
+      - s-40aabee44d
+      - s-d4aa6cd1e8
+      - s-a66fde8c83
+      - s-391c0f4f72
+      - s-17adabd71f
+      - s-079530014b
+      - s-f528f573b7
+      - s-4f6cc81921
+      - s-4146d1f63f

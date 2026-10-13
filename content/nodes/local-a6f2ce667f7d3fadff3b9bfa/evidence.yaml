@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Callulops stictogaster
+    name:
+      en: Callulops stictogaster
+      zh: Callulops stictogaster
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Callulops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Callulops stictogaster in the version 3 classification
+          zh: Callulops stictogaster 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7b93adefbd
+            part: body
+          zh:
+            page: zh
+            section: s-08d27dd88b
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 9 populated trait fields
+          zh: 1 条测量行与 9 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c8de525d6f
+            part: body
+          zh:
+            page: zh
+            section: s-1bf2f28c66
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1008; Reference.csv rows 189
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1008
+        values:
+          - Microhylidae
+          - Callulops
+          - Callulops stictogaster
+          - F
+          - "72.2"
+          - NA
+          - "27.3"
+          - "6.8"
+          - "4.5"
+          - NA
+          - NA
+          - "5.2"
+          - NA
+          - "4.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "22.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.6"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 189
+        values:
+          - Anura
+          - Callulops_stictogaster
+          - Zweifel, R. G. (1972). A revision of the frogs of the subfamily Asterophryinae, Family Microhylidae. American Museum of Natural History.
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - PWB6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

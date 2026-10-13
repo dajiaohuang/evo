@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Tylototriton lizhengchangi
+    name:
+      en: Tylototriton lizhengchangi
+      zh: Tylototriton lizhengchangi
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Tylototriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-53e48cb2f9
+            part: body
+          zh:
+            page: zh
+            section: s-2034da95e0
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4bf1c2a811
+            part: body
+          zh:
+            page: zh
+            section: s-37e0527cad
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 385; Reference.csv rows 4090
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 385
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton lizhengchangi
+          - M
+          - NA
+          - "61.85"
+          - "47"
+          - "31.85"
+          - "14.85"
+          - "14.15"
+          - "7.25"
+          - "2.3"
+          - "3.85"
+          - "1.75"
+          - "5.2"
+          - "6.65"
+          - "61.85"
+          - "5.2"
+          - NA
+          - "6.2"
+          - "2.65"
+          - "22.6"
+          - "24.85"
+          - "3.75"
+          - "4.25"
+          - "5.6"
+          - "2.35"
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4090
+        values:
+          - Caudata
+          - Tylototriton_lizhengchangi
+          - "Nishikawa, K., Matsui, M., & Nguyen, T. (2013). A new species of Tylototriton from Northern Vietnam (Amphibia: Urodela: Salamandridae). Current Herpetology, 32, 34-49. https://doi.org/10.5358/hsj.32.34"
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

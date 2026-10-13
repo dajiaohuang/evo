@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Vietnamophryne inexpectata
+    name:
+      en: Vietnamophryne inexpectata
+      zh: Vietnamophryne inexpectata
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Vietnamophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Vietnamophryne inexpectata in the morphology deposit
+          zh: 形态数据中的 Vietnamophryne inexpectata 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1626cea329
+            part: body
+          zh:
+            page: zh
+            section: s-a3cf56c815
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 6005: measurement fields and sex codes"
+          zh: 第 6005 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-62dcda4a4b
+            part: body
+          zh:
+            page: zh
+            section: s-b00c3e7ca2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 6005; Reference.csv rows 1482
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 6005
+        values:
+          - Microhylidae
+          - Vietnamophryne
+          - Vietnamophryne inexpectata
+          - M
+          - "14.2"
+          - "5.4"
+          - "5.4"
+          - "1.9"
+          - "1.1"
+          - "0.5"
+          - "1.6"
+          - "1.5"
+          - "0.9"
+          - "0.9"
+          - NA
+          - NA
+          - "3.2"
+          - "4.2"
+          - NA
+          - "6.6"
+          - NA
+          - "7.2"
+          - NA
+          - NA
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1482
+        values:
+          - Anura
+          - Vietnamophryne_inexpectata
+          - "Poyarkov, N. A., Jr., Suwannapoom, C., Pawangkhanant, P., Aksornneam, A., Duong, T. V., Korost, D. V., & Che, J. (2018). A new genus and three new species of miniaturized microhylid frogs from Indochina (Amphibia: Anura: Microhylidae: Asterophryinae). Zool Res, 39(3), 130-157. https://doi.org/10.24272/j.issn.2095-8137.2018.019"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - IMT
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5BDFX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

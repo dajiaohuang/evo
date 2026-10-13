@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paracrinia haswelli
+  displayName: Paracrinia haswelli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4CRJZ
+  sourceIndexes:
+    - name:
+        en: Paracrinia haswelli
+        zh: Paracrinia haswelli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4CRJZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/403
+            queryName: Paracrinia haswelli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/93
+            queryName: Crinia haswelli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/109
+            queryName: Crinia affinis haswelli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a07a76c1fc
+      - s-45ce5394de
+      - s-f8338df330
+      - s-0bc869be81
+      - s-1b94b74a65
+      - s-02b729b354
+      - s-74940c3ff3
+      - s-701de3af65
+      - s-d4a53e2932
+      - s-cd15579ff6
+    zh:
+      - s-1d81f0c99f
+      - s-494e32ff98
+      - s-ca3e3df565
+      - s-6b7f918865
+      - s-c3a0ecd069
+      - s-a0ecafb106
+      - s-88c0fdd7d1
+      - s-8eb035e159
+      - s-ccf4deb2f9
+      - s-814d792e07

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis tsilomaro
+  displayName: Boophis tsilomaro
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHV7
+  sourceIndexes:
+    - name:
+        en: Boophis tsilomaro
+        zh: Boophis tsilomaro
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHV7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/306
+            queryName: Boophis tsilomaro
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c441eee54c
+      - s-92904e6802
+      - s-c34005ea46
+      - s-1553ad353f
+      - s-19239adbe0
+      - s-75f0a1844b
+      - s-86f3dd5693
+      - s-c468c41a3c
+      - s-a8842233ee
+      - s-6253d250c1
+    zh:
+      - s-e7a41e9138
+      - s-f789e9b4b5
+      - s-e2376c6e08
+      - s-8bdb333e71
+      - s-1d4547f6db
+      - s-1bc2b93fc9
+      - s-4904799df3
+      - s-af24be457a
+      - s-d5fea17737
+      - s-46dd7a00fa

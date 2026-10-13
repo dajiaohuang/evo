@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops nyingchiensis
+  displayName: Amolops nyingchiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CWB7
+  sourceIndexes:
+    - name:
+        en: Amolops nyingchiensis
+        zh: Amolops nyingchiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CWB7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/392
+            queryName: Amolops nyingchiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-62510118ca
+      - s-e3af7095e6
+      - s-c689e9a307
+      - s-ffd95dc9ac
+      - s-0b83c461ea
+      - s-2b601d8f57
+      - s-a8540e92a5
+    zh:
+      - s-dd3f65d4cb
+      - s-5913007818
+      - s-3326fd789e
+      - s-3df84fb361
+      - s-d7c96bc40a
+      - s-70afbbaa90
+      - s-438d4b87ce

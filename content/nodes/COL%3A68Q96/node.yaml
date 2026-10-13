@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus didactylus
+  displayName: Brachycephalus didactylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68Q96
+  sourceIndexes:
+    - name:
+        en: Brachycephalus didactylus
+        zh: Brachycephalus didactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68Q96
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/410
+            queryName: Brachycephalus didactylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/21
+            queryName: Psyllophryne didactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6ed8086a8
+      - s-ad45c20cb0
+      - s-721aec9d74
+      - s-3683bbddd1
+      - s-07ef36f5ad
+      - s-c58619a57f
+      - s-bcfef449e3
+      - s-26078ea650
+      - s-079b45a707
+      - s-ddd5fe2d8c
+      - s-8963d4604a
+      - s-7236fa037c
+      - s-5be5105565
+      - s-aa933355c4
+      - s-653951518d
+      - s-d1b1aac694
+      - s-99658ecd0e
+    zh:
+      - s-a376920214
+      - s-aadb73aa55
+      - s-6f772b88b4
+      - s-0f263ac5a6
+      - s-c802e7760f
+      - s-40d33a8275
+      - s-3f0745b00d
+      - s-2ab4a1abd5
+      - s-a21052bfe1
+      - s-24a68f4950
+      - s-45b5175c18
+      - s-9f634dab3b
+      - s-9767095909
+      - s-f0c04302fa
+      - s-dcdff124d2
+      - s-a808f4c607
+      - s-85b7a4e09f

@@ -1,0 +1,39 @@
+## 接受名称与分类位置 {#s-6cf884f4b6}
+COL26.8 将 Fritziana 接受为 Hemiphractidae 下的属级记录。完整接受种查询在这条分类路径下收录 7 种。这是有版本日期的目录计数，各名称和分类概念保留在来源记载的层级中。
+
+## 阅读路线 {#s-cadaccf1e7}
+从本属进入下级类群和物种，先在同一版本内比较接受名称，再查阅物种研究。分类层级提供目录阅读路线，但不能据此确定全部后代的共有性状或生物学历史。
+
+## 沿所记分类树继续阅读 {#s-54f1f9ea45}
+以下已编写子页面遵循固定分类。限定来源的生物学记录保留各自身份和审阅边界。
+
+- [Fritziana fissilis](Fritziana_fissilis/page.zh.md)
+- [Fritziana goeldii](Fritziana_goeldii/page.zh.md)
+- [Fritziana izecksohni](Fritziana_izecksohni/page.zh.md)
+- [Fritziana mitus](Fritziana_mitus/page.zh.md)
+- [Fritziana ohausi](Fritziana_ohausi/page.zh.md)
+- [Fritziana tonimi](Fritziana_tonimi/page.zh.md)
+- [Fritziana ulei](Fritziana_ulei/page.zh.md)
+
+## 繁殖及幼体生境保留来源行分母 {#s-fa899e874e}
+所保留 Fritziana 子集包含 3 个来源名称工作簿行，链接 3 个不同接受种页面。按行计，0 个编码直接发育、3 个陆生产卵，幼体生境标记水生 3、陆生 0、半陆生 0 个条目。这是来源行计数，不是不同接受种比例或全属普查。共享目的地的历史名称保留分开性状陈述。陆生卵不自动意味直接发育，幼体生境区别于成体偏好。页面保留多个卵位点标记及原上游参考索引，不声称每个性状均独立观察。
+
+## 推断标记及群落关联具有有限范围 {#s-266f9d8860}
+此来源行子集中，3 个头宽条目、3 个胫长条目明确为推断值。无标记长度不是独立认证测量。混合均值/最大值、表头无明确单位、性别/阶段标签不一致，阻止一致诊断体型系列。全文对 766 个群落建模，报告直接发育比例变异解释 36%；功能多样性为代理，拟合关联未确立每个链接种的竞争、捕食或生理阈值。全工作簿目前 463 行有保留阅读目的地，一个未解决来源拼写仍在路径外；463 行代表 457 个不同接受名目的地，不是修订生物学普查。
+
+## 阅读所采物种 {#s-3a2ff4b217}
+这些页面保留本研究所采物种与证据限制。此选择覆盖研究样本，不是全属所有有效成员，也不覆盖全部生物学主题。
+
+- [Fritziana fissilis](Fritziana_fissilis/page.zh.md)
+- [Fritziana goeldii](Fritziana_goeldii/page.zh.md)
+- [Fritziana ohausi](Fritziana_ohausi/page.zh.md)
+
+## catalogue-profile / limitations {#s-20e84e0487}
+本页为分类与限定来源范围的类群介绍；不将历史来源子集视为整个当前类群的等同物。尚未代表的生物学证据仍需核对。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-30b2d535bc}
+所保留 Fritziana 子集包含 3 个来源名称工作簿行，链接 3 个不同接受种页面。按行计，0 个编码直接发育、3 个陆生产卵，幼体生境标记水生 3、陆生 0、半陆生 0 个条目。这是来源行计数，不是不同接受种比例或全属普查。共享目的地的历史名称保留分开性状陈述。陆生卵不自动意味直接发育，幼体生境区别于成体偏好。页面保留多个卵位点标记及原上游参考索引，不声称每个性状均独立观察。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-150c25bd28}
+此来源行子集中，3 个头宽条目、3 个胫长条目明确为推断值。无标记长度不是独立认证测量。混合均值/最大值、表头无明确单位、性别/阶段标签不一致，阻止一致诊断体型系列。全文对 766 个群落建模，报告直接发育比例变异解释 36%；功能多样性为代理，拟合关联未确立每个链接种的竞争、捕食或生理阈值。全工作簿目前 463 行有保留阅读目的地，一个未解决来源拼写仍在路径外；463 行代表 457 个不同接受名目的地，不是修订生物学普查。
+

@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pelobates vespertinus (Pallas, 1771)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pelobates vespertinus
+      zh: Pelobates vespertinus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-faaf6d6177
+            part: title
+          zh:
+            page: zh
+            section: s-7a8bfea2c3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-faaf6d6177
+            part: body
+          zh:
+            page: zh
+            section: s-7a8bfea2c3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-091edc0606
+            part: title
+          zh:
+            page: zh
+            section: s-bdb8c932ef
+            part: title
+        text:
+          en:
+            page: en
+            section: s-091edc0606
+            part: body
+          zh:
+            page: zh
+            section: s-bdb8c932ef
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e1a77f851d
+            part: title
+          zh:
+            page: zh
+            section: s-13eb47075a
+            part: title
+        sourceIds:
+          - dufresnes-2019
+        text:
+          en:
+            page: en
+            section: s-e1a77f851d
+            part: body
+          zh:
+            page: zh
+            section: s-13eb47075a
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6b67f62251
+            part: title
+          zh:
+            page: zh
+            section: s-d16f078bab
+            part: title
+        sourceIds:
+          - dufresnes-2019
+        text:
+          en:
+            page: en
+            section: s-6b67f62251
+            part: body
+          zh:
+            page: zh
+            section: s-d16f078bab
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pelobates vespertinus
+          url: https://www.checklistbank.org/dataset/316115/taxon/76CZM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: dufresnes-2019
+        referenceId: ref-6778d646-8dca-4e63-a5b2-9983d8f20715
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - accessedAt
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pelobates vespertinus account: Diagnosis, Diversity; Supplementary Table S1; original measurements and phylogeographic studies cited within the account"
+          scope:
+            en: A dated population-based measurement compilation and synthesis of cited hybrid-zone studies; not invariant species limits or a contemporary conservation assessment.
+            zh: 有年代限定的种群测量汇编与所引杂交带研究综合；不是不变的物种极限或当代保护评估。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e24bfba636
+        part: body
+      zh:
+        page: zh
+        section: s-fb2feebf8d
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.859.33634
+        sourceFile: data/sources/snapshots/pelobates-taxonomy-2019-2026-10-02/article.xml
+        sourceConcept: Pelobates vespertinus (Pallas, 1771)
+        evidenceRead: full-primary-taxonomic-account
+        dataScope: Population-based literature compilation, not a new individual-level body-size dataset; hybrid-zone conclusion summarizes cited genetic studies
+        contemporaryConceptEquivalence: not-independently-certified

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys dupanglingensis
+  displayName: Boulenophrys dupanglingensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5NSV
+  sourceIndexes:
+    - name:
+        en: Boulenophrys dupanglingensis
+        zh: Boulenophrys dupanglingensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5NSV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/342
+            queryName: Boulenophrys dupanglingensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e9b0194a1
+      - s-adcfce032c
+      - s-b9dc4fb8fb
+      - s-f1b2dbdef3
+      - s-751a1eafef
+      - s-1ce6ddf11b
+      - s-f12f9223e8
+      - s-ce17cdca7c
+      - s-44bdf9380f
+      - s-38d230b952
+      - s-56708b94f1
+      - s-9ee1b11e91
+      - s-a77ca0d6d9
+    zh:
+      - s-f8343dc660
+      - s-d54ba0b297
+      - s-6614113d52
+      - s-f1b15eb462
+      - s-6be5ac3a05
+      - s-7e485c4ccd
+      - s-f2b59fef62
+      - s-7a2e4e0953
+      - s-c97ac7b7bb
+      - s-e4c0f32424
+      - s-4441efb941
+      - s-9a78669ec0
+      - s-8aeda36d3a

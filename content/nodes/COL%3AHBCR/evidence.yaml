@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Asparagus coddii (Oberm.) Fellingham & N.L.Mey.
+    rank: species
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-7e3aa82e43
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-39d9f80699
+          part: body
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage HBCR, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage HBCR; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/HBCR
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage HBCR
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000631929-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL HBCR / WFO wfo-0000631929
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_12951_0
+        referenceId: ref-b8ba7fdb-c0ca-8cec-a590-47eeb1df52a5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Asparagus coddii (Oberm.) Fellingham & N.L.Mey. account; SANBI/WFO archive rows 84086 (Morphology), 84088 (Habitat), source identifier 12951.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Shrubs or chamaephytes, erect, glabrous, ± 0.3 m high, flowering before cladodes develop. Rhizome compact, woody, covered by numerous acute cataphylls. Roots (incomplete) spreading, many, long, cylindrical, ± 12 mm in diameter with some thin side roots. Stems several, simple, erect, placed close together, ridged, the ridges consisting of large transparent cells. Spines few, recurved, 3-5 mm long, hard. Cladodes ± 8-12 per fascicle, linear, ± 20 x 0.5 mm, unequally long, flat above, margin and keel with large transparent cells, greyish green. Racemes near base of plant, maturing before cladodes develop, simple, short, dense, up to 250 mm long but usually shorter. Flowers 2-4 per fascicle, placed close together, subtended by minute, membranous bracts and a small, reflexed spine; pedicels short; tepals oblong, ± 2 mm long; stalk ± 5 mm long, disc placed near or below centre. Stamens with yellow or orange anthers. Ovary ovoid, attenuated into a short style; ovules 4 in each locule. Berry ± 6 mm in diameter, red.
+            textZh: Asparagus coddii (Oberm.) Fellingham & N.L.Mey. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_12951_0
+            locator: "SANBI/WFO archive Morphology row 84086; source identifier 12951.0; cited publication: Obermeyer, AA; Immelman, KL; Bos, JJ. 1992. Dracaenaceae, Asparagaceae, Luzuriagaceae, Smilacaceae. In: OA Leistner (ed.), Fl. S. Africa 5(3): 1 - 90. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In dense bushveld vegetation.
+            textZh: 该 SANBI 区域物种条目记录的生境：In dense bushveld vegetation.
+            sourceIds:
+              - sanbi_12951_0
+            locator: "SANBI/WFO archive Habitat row 84088; source identifier 12951.0; cited publication: Obermeyer, AA; Immelman, KL; Bos, JJ. 1992. Dracaenaceae, Asparagaceae, Luzuriagaceae, Smilacaceae. In: OA Leistner (ed.), Fl. S. Africa 5(3): 1 - 90. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

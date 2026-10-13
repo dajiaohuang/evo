@@ -1,0 +1,126 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa rufescens
+  displayName: Bolitoglossa rufescens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDRY
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa rufescens
+        zh: Bolitoglossa rufescens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDRY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/188
+            queryName: Bolitoglossa rufescens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/252
+            queryName: Oedipus rufescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/253
+            queryName: Spelerpes rufescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/254
+            queryName: Geotriton rufescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/255
+            queryName: Palmatotriton rufescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ee91077ba
+      - s-884d64e901
+      - s-2f744059c8
+      - s-357d932d50
+      - s-439abe9331
+      - s-5b6890a742
+      - s-4f1ffe6ec0
+      - s-259884a3c4
+      - s-db12abfde1
+      - s-90182deabd
+      - s-5136241f69
+      - s-cfc4157032
+      - s-4cb5d2d86a
+      - s-fb8227f048
+      - s-c201dd9870
+      - s-2b434409b3
+      - s-8dc6367839
+      - s-1f7157413b
+      - s-28dd882f04
+      - s-f1b5ad2a22
+      - s-8750775303
+      - s-b9a9a1dd07
+      - s-6741f6300e
+      - s-0736b0c23f
+      - s-ba51448c85
+      - s-e3cd79b329
+      - s-7f5b0ca175
+      - s-0056d5884b
+    zh:
+      - s-dd7cd320c5
+      - s-cd3d55e486
+      - s-27ea07f5d5
+      - s-9a4e1c6215
+      - s-b503ab8975
+      - s-aed957f570
+      - s-0ce9fe0a79
+      - s-b839d9cb08
+      - s-1f573b0bf5
+      - s-dee0a377d5
+      - s-7fb9cf371f
+      - s-86e06e80a1
+      - s-54e10e916b
+      - s-20f72b90c5
+      - s-3934830579
+      - s-5c4a6b9993
+      - s-3746014e66
+      - s-12da43143c
+      - s-a2efd62128
+      - s-ad864efd37
+      - s-b8805f8f64
+      - s-e9559ee3d7
+      - s-621a916249
+      - s-018470bfab
+      - s-9f092cb2c7
+      - s-20adaa2d10
+      - s-a4d006965b
+      - s-92a4b16c7b

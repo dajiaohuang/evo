@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stumpffia dolchi
+  displayName: Stumpffia dolchi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6ZZV2
+  sourceIndexes:
+    - name:
+        en: Stumpffia dolchi
+        zh: Stumpffia dolchi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6ZZV2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/354
+            queryName: Stumpffia dolchi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7c3958d7e3
+      - s-26aeca663c
+      - s-60703dba4f
+      - s-5b91c873b1
+      - s-de06ea1e59
+      - s-7b4fbe087c
+    zh:
+      - s-8230f434f1
+      - s-6c469977ae
+      - s-af087b58a5
+      - s-65e35d484e
+      - s-1f98a8323d
+      - s-6cb84c2428

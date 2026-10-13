@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton terrestris
+  displayName: Chiropterotriton terrestris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6BF
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton terrestris
+        zh: Chiropterotriton terrestris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6BF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/308
+            queryName: Chiropterotriton terrestris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/205
+            queryName: Bolitoglossa terrestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/410
+            queryName: Chiropterotriton chondrostega terrestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1861fd81f9
+      - s-4fb005f0d0
+      - s-4319d0e2a2
+      - s-8e859b714b
+      - s-3d30074109
+      - s-fb2f1caa74
+      - s-fad28fd7ca
+      - s-7042ab15aa
+    zh:
+      - s-93b5890cf9
+      - s-1abcc0ae01
+      - s-bf170b205c
+      - s-6e91a07b20
+      - s-85997373b5
+      - s-9bd0996fc0
+      - s-64ec8d7d40
+      - s-2213d25a9f

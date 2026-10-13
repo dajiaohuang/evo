@@ -1,0 +1,163 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Enosuchus breviceps
+    rank: species
+    sourceTaxonId: txn:321015
+    name:
+      en: Enosuchus breviceps
+      zh: Enosuchus breviceps
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-a9aa2e5b09
+            part: body
+          zh:
+            page: zh
+            section: s-1a2ac6ca75
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-370b531eb6
+            part: body
+          zh:
+            page: zh
+            section: s-dc19a6bf91
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-8dd6e212bf
+            part: body
+          zh:
+            page: zh
+            section: s-9382be9894
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:321015; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. L. Carroll, O. Kuhn, and L. P. Tatarinov. 1972. Handbuch der Palaoherpetologie / Encyclopedia of Paleoherpetology Teil 5 / Part 5 Batrachosauria (Anthracosauria) Teil B / Part B Gephyrostegida-Chroniosuchida.
+    occurrenceEvidence:
+      - occurrenceId: occ:796172
+        collectionId: col:36273
+        acceptedTaxonId: txn:321015
+        identifiedName: Enosuchus cf. breviceps
+        taxonomicDifference: null
+        referenceId: ref:14547
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and A. V. Minikh, M. V. Surkov, M. J. Benton. 2005. Upper Permian vertebrates and their sedimentological context in the South Urals, Russia. Earth-Science Reviews 69:27-77
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Krasnopartizan
+        stratigraphy:
+          group: null
+          formation: Amanakskaya
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 259.857
+      - occurrenceId: occ:1374723
+        collectionId: col:124278
+        acceptedTaxonId: txn:321015
+        identifiedName: Enosuchus cf. breviceps
+        taxonomicDifference: null
+        referenceId: ref:14547
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and A. V. Minikh, M. V. Surkov, M. J. Benton. 2005. Upper Permian vertebrates and their sedimentological context in the South Urals, Russia. Earth-Science Reviews 69:27-77
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Perevolotskii
+        stratigraphy:
+          group: null
+          formation: Amanakskaya
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 259.857
+      - occurrenceId: occ:1381589
+        collectionId: col:27931
+        acceptedTaxonId: txn:321015
+        identifiedName: Enosuchus breviceps n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:63557
+        bibliography: M. F. Ivakhnenko. 2008. Cranial morphology and evolution of Permian Dinomorpha (Eotherapsida) of Eastern Europe. Paleontological Journal 42(9):859-995
+        locality:
+          countryCode: RU
+          stateProvince: Tatarstan
+          county: Apastovo
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 259.857
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-8dd6e212bf
+            part: body
+          zh:
+            page: zh
+            section: s-9382be9894
+            part: body
+        sourceIds: []

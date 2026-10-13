@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius camerunensis
+  displayName: Hyperolius camerunensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQS3
+  sourceIndexes:
+    - name:
+        en: Hyperolius camerunensis
+        zh: Hyperolius camerunensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQS3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/231
+            queryName: Hyperolius camerunensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75fcb2040e
+      - s-b73735de71
+      - s-fa5cd28910
+      - s-c009b22d82
+      - s-bf1f0cddb8
+      - s-f481721dd6
+      - s-f932c3cc69
+    zh:
+      - s-760c33969a
+      - s-56f9b98789
+      - s-02040687c4
+      - s-33929da69e
+      - s-e23a94fd58
+      - s-9ce686caee
+      - s-2d39515c60

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis zeuctotylus
+  displayName: Pristimantis zeuctotylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJS3
+  sourceIndexes:
+    - name:
+        en: Pristimantis zeuctotylus
+        zh: Pristimantis zeuctotylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJS3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/193
+            queryName: Pristimantis zeuctotylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/106
+            queryName: Eleutherodactylus zeuctotylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-39fcf8b1f4
+      - s-8a6d9130c5
+      - s-ae18625b68
+      - s-50088a7673
+      - s-2ef2d3de98
+      - s-bf1c3d57c4
+      - s-65e38a1d5e
+      - s-7bb2ecc433
+      - s-258e879b94
+      - s-8c012fd99b
+      - s-a39dba9ed1
+    zh:
+      - s-96a8551661
+      - s-be73935ccc
+      - s-02e6cb45f2
+      - s-b02184cb13
+      - s-39d40eeffe
+      - s-34743f2589
+      - s-9eb6426060
+      - s-7732a3f92c
+      - s-f67fb692ed
+      - s-677b99f111
+      - s-d67bd96e17

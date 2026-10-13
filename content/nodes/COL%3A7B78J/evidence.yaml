@@ -1,0 +1,574 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Symphalangus syndactylus (Raffles, 1821)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 合趾猿
+      en: Siamang
+    sections:
+      - topic: evolution
+        text:
+          zh:
+            page: zh
+            section: s-cb28a33665
+            part: body
+          en:
+            page: en
+            section: s-e133df93c3
+            part: body
+        sourceIds:
+          - sariyati2024siamangmtDNA
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f35476cdc8
+            part: body
+          en:
+            page: en
+            section: s-c471fe2f81
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-17aa5fd916
+            part: body
+          en:
+            page: en
+            section: s-386080126e
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-9a792bbda4
+            part: body
+          en:
+            page: en
+            section: s-c8bae73d84
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-4c548aa74f
+            part: body
+          en:
+            page: en
+            section: s-cd478d7a20
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-d39c668665
+            part: body
+          en:
+            page: en
+            section: s-7b7833dc63
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-278f561045
+            part: body
+          en:
+            page: en
+            section: s-14bfc0b9ee
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-646127153b
+            part: body
+          en:
+            page: en
+            section: s-1bcf781924
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bd8f3666af
+            part: body
+          en:
+            page: en
+            section: s-03140b65aa
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-4a1b795d59
+            part: body
+          en:
+            page: en
+            section: s-79eaf0fb33
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e0caf4ff1d
+            part: body
+          en:
+            page: en
+            section: s-141aa6d5ef
+            part: body
+    sources:
+      - id: sariyati2024siamangmtDNA
+        referenceId: ref-0db15fcc-d070-8c31-aa6b-d6eca85bedd2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 约 348 bp 线粒体 D-loop；6 份新样本来自马来半岛 Fraser’s Hill 和 Genting Highlands，其余包含公开数据库序列。
+            en: Approximately 348 bp of mitochondrial D-loop; six new samples came from Fraser’s Hill and Genting Highlands in Peninsular Malaysia, alongside published database sequences.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/7B78J
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12280; name Symphalangus syndactylus; reference table row 12280; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 & de Magalhaes and Costa, 2009 from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            female_maturity_d: mean of Ricklefs, 2010b & Ernest et al., 2003 from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            litter_or_clutch_size_n: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            gestation_d: mean of de Magalhaes and Costa, 2009 & Ricklefs, 2010b from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            weaning_d: mean of de Magalhaes and Costa, 2009 & Ricklefs, 2010b from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            birth_or_hatching_weight_g: mean of de Magalhaes and Costa, 2009 & Ricklefs, 2010b from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            maximum_longevity_y: Ricklefs, 2010b
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Ricklefs, 2010b
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 828; Scientific=Symphalangus syndactylus; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-f0cda4f4e4
+        part: body
+      en:
+        page: en
+        section: s-a22c3587c5
+        part: body
+  catalogue-dossier:
+    scientificName: Symphalangus syndactylus (Raffles, 1821)
+    authorship: (Raffles, 1821)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact pinned COL26.8 accepted usage 7B78J verified for verbatim name, authorship, species rank, accepted status and sourceDatasetId 2144; every accepted parent node was followed in the pinned hierarchy registry to the root.
+      scope: COL26.8 accepted species usage 7B78J only. The biological evidence concerns one mitochondrial-marker study and its sampled sequences; it does not validate the article authors’ subspecies classification as a complete taxonomic consensus.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4DT
+        scientificName: Haplorrhini Pocock, 1918
+        authorship: Pocock, 1918
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4PM
+        scientificName: Simiiformes Haeckel, 1866
+        authorship: Haeckel, 1866
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 58L
+        scientificName: Hominoidea Gray, 1825
+        authorship: Gray, 1825
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: B9K
+        scientificName: Hylobatidae Gray, 1871
+        authorship: Gray, 1871
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 645SV
+        scientificName: Symphalangus Gloger, 1841
+        authorship: Gloger, 1841
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 7B78J
+        scientificName: Symphalangus syndactylus (Raffles, 1821)
+        authorship: (Raffles, 1821)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    lifeStatusScope:
+      wild: The article describes collection from Peninsular Malaysian populations but also acknowledges institutional sample contributions; specimen-by-specimen captive or wild provenance is not fully resolved here.
+      domesticated: Domestication was not examined.
+      fossil: Fossil evidence was not examined.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 10
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/7B78J
+          stableId: col:7B78J@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage 7B78J; exact name, authorship, species rank, accepted status, sourceDatasetId 2144; complete accepted parent chain resolved to the root.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 7B78J. https://doi.org/10.48580/dgywk
+      - id: sariyati2024siamangmtDNA
+        referenceId: ref-2dba8614-0c10-897f-ac9a-35bf7dc8a644
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - rightsEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text; claims are paraphrased. No figures, tables, images, or supplementary data are reproduced.
+          stableId: doi:10.3897/BDJ.12.e120314
+          accessedAt: 2026-09-24
+          locator: Abstract; Materials and methods, Sample collection and Data resources; Results, Maximum Likelihood tree and Bayesian Inference tree; Figures 4–5; Conclusions.
+          licenseAssessment: item-level-verified
+          rightsEvidenceUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC11069032/
+          attribution: Sariyati NH, Abdul-Latiff MAB, Aifat NR, Mohd-Ridwan AR, Osman NA, Karuppannan KV, Chan E, Md-Zain BM (2024). Molecular phylogeny confirms the subspecies delineation of the Malayan Siamang and the Sumatran Siamang based on the hypervariable region of mitochondrial DNA. Biodiversity Data Journal 12:e120314. https://doi.org/10.3897/BDJ.12.e120314. CC BY 4.0. Claim paraphrased.
+          scope: Single-marker mitochondrial phylogeny using newly collected Peninsular Malaysian siamang faecal samples and published GenBank sequences. Claims are paraphrased; no figures, tables, images, or sequence data are reproduced.
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No taxon-specific morphology or diagnosis was assessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No reproductive, developmental, lifespan, or behavioral evidence was assessed.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No systematic habitat, diet, or species-interaction evidence was assessed.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: Using approximately 348 bp of mitochondrial D-loop sequence, Sariyati et al. recovered separate Peninsular Malaysian and Sumatran siamang clades across their phylogenetic analyses. In the maximum-likelihood tree, bootstrap support was 98% for the Peninsular clade and 83% for the Sumatran clade; Bayesian posterior probabilities were 1.00 and 0.98, respectively. The comparison included six newly collected Peninsular Malaysian siamang faecal samples and published GenBank sequences. This is one mitochondrial marker study, not genome-wide evidence or a range-wide population-structure assessment.
+            originalLanguage: en
+            sourceIds:
+              - sariyati2024siamangmtDNA
+            locator: Abstract; Materials and methods, Sample collection and Data resources; Results, Maximum Likelihood tree and Bayesian Inference tree; Figures 4–5; Conclusions.
+            placeTimeScope: The article analyzes approximately 348 bp of mitochondrial D-loop sequences, including six newly collected Symphalangus syndactylus faecal samples from Fraser's Hill and Genting Highlands in Peninsular Malaysia plus published GenBank sequences representing Sumatran siamangs and other hylobatids. Regional clade support varies by phylogenetic method; this does not establish genome-wide structure or a species-wide subspecies consensus.
+            lifeStatus: The article describes new faecal samples from Peninsular Malaysian populations and also acknowledges contributions from Zoo Melaka and Genting Nature Adventure; provenance is not assigned to every comparison sequence. No captive-versus-wild biological comparison is claimed.
+        gaps:
+          - The evidence is a single mitochondrial D-loop marker study with limited regional sampling; nuclear-genome evidence, broader population coverage, and independent taxonomic review remain unassessed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The sequence study does not establish a complete modern distribution or current site occupancy.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil or paleontological search was performed; no fossil presence or absence is claimed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current formal conservation assessment, population trend, or threat category was verified.

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Micrixalus elegans
+  displayName: Micrixalus elegans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42RGM
+  sourceIndexes:
+    - name:
+        en: Micrixalus elegans
+        zh: Micrixalus elegans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42RGM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/451
+            queryName: Micrixalus elegans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/418
+            queryName: Philautus elegans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2347ded7ea
+      - s-a9bb61bbf0
+      - s-b27d432a2f
+      - s-94673b75fd
+      - s-0c82356518
+      - s-334a6daaf5
+      - s-ce13ad7330
+    zh:
+      - s-ddbacbfce8
+      - s-1985b8d4fe
+      - s-24fb6cfc64
+      - s-4dc4f8b4c6
+      - s-bf61815b9a
+      - s-6f558d0c11
+      - s-0b496f2a3a

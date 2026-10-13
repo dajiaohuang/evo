@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Incilius valliceps
+  displayName: Incilius valliceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PLDC
+  sourceIndexes:
+    - name:
+        en: Incilius valliceps
+        zh: Incilius valliceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PLDC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/474
+            queryName: Incilius valliceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/247
+            queryName: Bufo valliceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 34
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/365
+            queryName: Bufo valliceps valliceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/133
+            queryName: Bufo trachypus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/290
+            queryName: Bufo valliceps wilsoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/346
+            queryName: Cranopsis valliceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/347
+            queryName: Ollotis valliceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-65346bb32e
+      - s-d269ca6033
+      - s-2a9ef8f870
+      - s-970d3eb7df
+      - s-8d2052899a
+      - s-49c39ab252
+      - s-2ce2eeb21d
+      - s-9e91c48738
+      - s-b53735066d
+      - s-e36af860a4
+      - s-7964b494e3
+      - s-5ef5b668ae
+      - s-d302c9e47b
+      - s-4609da0c16
+      - s-4cc1c45062
+      - s-3d6fe43ac6
+      - s-2a25bbc202
+      - s-00c742aaaa
+      - s-8c0fa26a7e
+    zh:
+      - s-d83eebc0ad
+      - s-cd4d2cdc79
+      - s-33afa714b6
+      - s-fbbb6463b7
+      - s-424577373a
+      - s-dddb026d5c
+      - s-35381a0f88
+      - s-ad39074bb7
+      - s-a2f0cd24dc
+      - s-37d94083c1
+      - s-53cf457d4a
+      - s-306c5b37fe
+      - s-dd486e948f
+      - s-d38e7360bf
+      - s-7bf0f123b7
+      - s-875a228c16
+      - s-5be9de89f2
+      - s-e871554f48
+      - s-eb955e2155

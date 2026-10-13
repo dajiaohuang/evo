@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus luminosus
+  displayName: Nymphargus luminosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JQ
+  sourceIndexes:
+    - name:
+        en: Nymphargus luminosus
+        zh: Nymphargus luminosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/434
+            queryName: Nymphargus luminosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/3
+            queryName: Cochranella luminosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-af5be316a7
+      - s-bbb193e9d5
+      - s-2071797df2
+      - s-557369d2bf
+      - s-242393e0cd
+      - s-3435cfff9a
+      - s-eb0f4e07ff
+      - s-7600bf5740
+      - s-307d732072
+      - s-be9e38d903
+      - s-300ad6bd50
+      - s-16161b76eb
+      - s-ed421b504c
+      - s-b4b899f05e
+      - s-51c4e2fffc
+      - s-77f142539c
+    zh:
+      - s-6a0d589fa1
+      - s-363a2ec9dd
+      - s-31634beb2d
+      - s-9e286161da
+      - s-1d246c1b4d
+      - s-4cd1a1b154
+      - s-e5c75f1152
+      - s-5df61d0fb5
+      - s-e71f3b39bb
+      - s-ae0c097e33
+      - s-af3d2d3c1b
+      - s-7719d3946a
+      - s-3920d56570
+      - s-93e442a40f
+      - s-ecba7e818b
+      - s-348cd267a1

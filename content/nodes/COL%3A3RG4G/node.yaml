@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus chaseni
+  displayName: Kurixalus chaseni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3RG4G
+  sourceIndexes:
+    - name:
+        en: Kurixalus chaseni
+        zh: Kurixalus chaseni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3RG4G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/164
+            queryName: Kurixalus chaseni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/267
+            queryName: Rhacophorus chaseni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/393
+            queryName: Rhacophorus appendiculatus chaseni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2404550a4d
+      - s-bad5d7b89d
+      - s-115680b21a
+      - s-ace6cbe6f3
+      - s-fae0404372
+      - s-82c3ec5974
+      - s-b80a7abf37
+      - s-b932d16b90
+    zh:
+      - s-16ccc58a8c
+      - s-f57dd1303b
+      - s-666aac7663
+      - s-3732d1c2af
+      - s-4094c19044
+      - s-ab57938dd6
+      - s-e87974dbfb
+      - s-55ae912b9f

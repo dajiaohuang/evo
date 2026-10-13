@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Notaden weigeli
+  displayName: Notaden weigeli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47RTW
+  sourceIndexes:
+    - name:
+        en: Notaden weigeli
+        zh: Notaden weigeli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47RTW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/303
+            queryName: Notaden weigeli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ce5840748
+      - s-3df6cb7e79
+      - s-37bcb8930a
+      - s-a0f1abf325
+      - s-87665f4c87
+      - s-dd51506e9e
+      - s-a5612e524f
+      - s-731706c381
+      - s-211d53e11f
+      - s-097cf746ac
+    zh:
+      - s-2a51ad0e96
+      - s-ae8f56d56c
+      - s-ed796acfb7
+      - s-dc57d62deb
+      - s-b7a4ba4ebb
+      - s-ec94b15bc7
+      - s-55079222f8
+      - s-31f5341add
+      - s-8783582e62
+      - s-134acdf4c2

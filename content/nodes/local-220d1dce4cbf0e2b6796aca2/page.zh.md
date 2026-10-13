@@ -1,0 +1,12 @@
+## 这条蝌蚪记录采用什么来源名称？ {#s-469b5e2128}
+这条记录展示 TadpoleTraits 如何归档 Anomaloglossus stepheni 的蝌蚪。第 4 版按数据集作者所录分类依据 Amphibian Species of the World 6.2 (2024)，将记录归在 Anomaloglossus stepheni、Anomaloglossus、Aromobatidae 下。文献表没有数据行。图像测量表：第 112 行的 Species 字段为 Colostethus stepheni，Species (ASTW) 字段分配为 Anomaloglossus stepheni；第 113 行的 Species 与 Species (ASTW) 字段均为 Anomaloglossus stepheni。该数据集到 COL26.8 的概念映射标为“尚未解决”，因此这些行名并不能确定当前物种身份。
+
+## 数据行实际记录了什么？ {#s-c20f23fded}
+TadpoleTraits 第 4 版（工作簿日期 2025.4.21）为这一来源记录保留 0 条文献行和 2 条图像测量行。没有文献行；本条只有图像表中的测量记录。图像表 Stage 字段的值为 38（第 112 行）；36（第 113 行）；Type 字段为 Ratio（比例），Measurement（测量），图像类型为 手绘图。这些是来源表中的行，不是去重蝌蚪数量。TadpoleTraits 的 readme 未确认绝对尺寸的单位，因此不据此推断身体大小。
+
+## 图像测量能说明什么？ {#s-f3f81ddb44}
+图像测量行支持以下来源比例：躯体长度/全长 = 0.329527（图像行 112，阶段 38，手绘图）；尾长/全长 = 0.666381（图像行 112，阶段 38，手绘图）；躯体最大高度/全长 = 0.131864（图像行 112，阶段 38，手绘图）；尾部最大高度/全长 = 0.157603（图像行 112，阶段 38，手绘图）；尾肌高度/全长 = 0.073192（图像行 112，阶段 38，手绘图）。每个数值只描述对应图像行，不代表物种总体估计。
+
+## 哪些来源比例存在差异？ {#s-15ffbb42d8}
+图像行 113 中有 6 个来源比例单元格与同一行分子除以全长所得商不一致，涉及字段 BMH/TL，TMH/TL，DFH/TL，VFH/TL，TMW/TL，OD/TL。原始值仍保留在证据记录中；不替换为校正值，也不把这些单元格作为比例结论。
+

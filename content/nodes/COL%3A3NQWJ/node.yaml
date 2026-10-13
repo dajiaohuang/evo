@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius nitidulus
+  displayName: Hyperolius nitidulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQWJ
+  sourceIndexes:
+    - name:
+        en: Hyperolius nitidulus
+        zh: Hyperolius nitidulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQWJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/300
+            queryName: Hyperolius nitidulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/185
+            queryName: Rappia nitidula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/186
+            queryName: Hyperolius pallidus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/461
+            queryName: Hyperolius viridiflavus angeli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/157
+            queryName: Hyperolius viridiflavus nitidulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/158
+            queryName: Hyperolius nitidulus aureus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/159
+            queryName: Hyperolius nitidulus nitidulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/161
+            queryName: Hyperolius nitidulus pallidus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cfdaf7c621
+      - s-2aac9a5d78
+      - s-19a1485413
+      - s-4be3384556
+      - s-d6de95bb45
+      - s-5a8c7c8561
+      - s-c52b210ec8
+      - s-b663473d15
+      - s-b8191005f8
+      - s-5446be619a
+      - s-dccbb2006c
+      - s-600cc88bd4
+      - s-7b5fa5c812
+    zh:
+      - s-55a79457e2
+      - s-5c3824f0b8
+      - s-e7c0f71625
+      - s-b1e41dac37
+      - s-594cba6e35
+      - s-80bb9213a9
+      - s-e03668f607
+      - s-6d9bf41dff
+      - s-feb46aa610
+      - s-b90ac185cd
+      - s-d0ceb4eec1
+      - s-a7b78fea12
+      - s-dbf2a880e3

@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-b44325a9ff}
+The version 3 Amphibian database lists Mantidactylus zolitschka in a source measurement table. Its classification fields read order = Anura, family = Mantellidae, genus = Mantidactylus; the linked citation is in Reference.csv row 743. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-2af97944b9}
+Anura.csv rows 3037, 3038 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 3037 (M) = 29.88, row 3038 (F) = 36.3; HL: row 3037 (M) = 11.6, row 3038 (F) = 14.43333333; HW: row 3037 (M) = 10.08, row 3038 (F) = 12.3; other populated codes are ED, TD, IND, EN, NS, HAL, LAL, FL, HLL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

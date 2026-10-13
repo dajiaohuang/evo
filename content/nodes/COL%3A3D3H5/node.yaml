@@ -1,0 +1,126 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea longicauda
+  displayName: Eurycea longicauda
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3H5
+  sourceIndexes:
+    - name:
+        en: Eurycea longicauda
+        zh: Eurycea longicauda
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3H5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/419
+            queryName: Eurycea longicauda
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/7
+            queryName: Salamandra longicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/9
+            queryName: Eurycea longicauda longicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/370
+            queryName: Cylindrosoma longicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/371
+            queryName: Plethodon longicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/372
+            queryName: Spelerpes longicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/373
+            queryName: Saurocercus longicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/374
+            queryName: Geotriton longicauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/463
+            queryName: Eurycea longicauda pernix
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aa0a8f9965
+      - s-ba99aecd9e
+      - s-d654fda074
+      - s-e7c9a07832
+      - s-88cb781be6
+      - s-ba35bc46f4
+      - s-1daf8bf67f
+      - s-5df01d5a6b
+      - s-d58a4a8cbd
+      - s-5f7aac3ce2
+      - s-871003fc9b
+      - s-f543e577a1
+      - s-b2f2c2b7a8
+      - s-1edbdd9276
+      - s-677343d31d
+      - s-c5cc69cd10
+      - s-3fc815efe5
+      - s-659b0158a9
+      - s-fabcf46b16
+    zh:
+      - s-ec70718f1d
+      - s-8673b27aa2
+      - s-bf787f15f4
+      - s-a935d4f4c9
+      - s-1ddceaa896
+      - s-0c9b887583
+      - s-bd3665c2e5
+      - s-e129b6cdd5
+      - s-571ba538a2
+      - s-8c06a958bc
+      - s-06c146697d
+      - s-90c6603c14
+      - s-ca9c2929c0
+      - s-defa73ed42
+      - s-bbb87fc77d
+      - s-06b06d6e84
+      - s-c519e3e352
+      - s-61d06784c6
+      - s-183040336b

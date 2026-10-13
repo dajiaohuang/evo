@@ -1,0 +1,3 @@
+## ## Reticulate leaves and apetalous flowers {#s-5bd9218c43}
+The historical Flora of Panama describes an unarmed tree with glabrous, lenticellate branchlets. Its leathery leaves usually have 6–8 leaflets, though the source gives a range of 6–12; the ovate to ovate-elliptic leaflets are 3–5 cm long, with a prominent midvein and visible lateral veins. The flowers lack petals and have four calyx lobes and usually ten stamens. The flattened ovary has hairs along its margins. The glabrous, round to broadly ellipsoid pod is about 15 mm wide, and the seed is almost enclosed by its aril. The same historical flora lists Panama; without a sampling frame or observation date, this is not a current range inventory.
+

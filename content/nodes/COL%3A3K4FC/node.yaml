@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heleioporus australiacus
+  displayName: Heleioporus australiacus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3K4FC
+  sourceIndexes:
+    - name:
+        en: Heleioporus australiacus
+        zh: Heleioporus australiacus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3K4FC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/250
+            queryName: Heleioporus australiacus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/201
+            queryName: Rana australiaca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/202
+            queryName: Rana spinipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/203
+            queryName: Rana australensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/205
+            queryName: Philocryphus flavoguttatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/206
+            queryName: Heleioporus flavoguttatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/207
+            queryName: Philocryphus australiacus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/1
+            queryName: Heleioporus australiacus flavopunctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bbce9339bf
+      - s-0a7277a0dd
+      - s-35c8957a28
+      - s-6b31b883a9
+      - s-857828de18
+      - s-9a571fbaf3
+      - s-dfdd97de86
+      - s-1328cc8228
+      - s-c5d9824ffb
+      - s-0ff35c210c
+      - s-7ba9071f71
+      - s-e9c7075688
+      - s-97f5da37df
+    zh:
+      - s-f4096c0fc3
+      - s-25ca937bf4
+      - s-be62f15023
+      - s-bb53727df7
+      - s-82771993f8
+      - s-ec1383418f
+      - s-8f60778cb9
+      - s-cf27754f78
+      - s-0e59273249
+      - s-2ece3e163e
+      - s-35a93a879f
+      - s-5ffb7c41eb
+      - s-8b3c051799

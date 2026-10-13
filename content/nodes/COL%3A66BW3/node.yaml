@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amietia delalandii
+  displayName: Amietia delalandii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66BW3
+  sourceIndexes:
+    - name:
+        en: Amietia delalandii
+        zh: Amietia delalandii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66BW3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/293
+            queryName: Amietia delalandii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/389
+            queryName: Afrana dracomontana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/365
+            queryName: Amietia dracomontana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/302
+            queryName: Rana delalandii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/303
+            queryName: Rana nyassae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/304
+            queryName: Rana theileri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/305
+            queryName: Rana dracomontana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/306
+            queryName: Rana quecketti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-daf0eb5cbe
+      - s-b2b02b854b
+      - s-03a7d66458
+      - s-ee6a111bd4
+      - s-cc28c25a46
+      - s-1b53341e11
+      - s-059a2cbe04
+      - s-3ffca0bbb7
+      - s-b1c4db1c7f
+      - s-e8cd58e493
+      - s-2288ca44c9
+      - s-6174f66e8d
+      - s-0a9c19263e
+    zh:
+      - s-5ffbb4a7a4
+      - s-ec1552c4b3
+      - s-24621a0bcb
+      - s-12e8f4f90c
+      - s-789edddaca
+      - s-b9152b538d
+      - s-e1a30e0648
+      - s-0cc894e7bd
+      - s-b006fc6551
+      - s-276b37902e
+      - s-ede3d4b271
+      - s-a3fb264feb
+      - s-16c40975f4

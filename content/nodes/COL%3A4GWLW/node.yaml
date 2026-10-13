@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynomedusa vanzolinii
+  displayName: Phrynomedusa vanzolinii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWLW
+  sourceIndexes:
+    - name:
+        en: Phrynomedusa vanzolinii
+        zh: Phrynomedusa vanzolinii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWLW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/206
+            queryName: Phrynomedusa vanzolinii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8e2523dfcd
+      - s-ac78254a38
+      - s-95dc307b9d
+      - s-21fa049474
+      - s-7cd766747e
+    zh:
+      - s-1174cd3bce
+      - s-a8627aefa0
+      - s-edab117cb8
+      - s-6ecebb8e7d
+      - s-2d9861a7e3

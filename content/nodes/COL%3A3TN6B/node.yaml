@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus myersi
+  displayName: Leptodactylus myersi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN6B
+  sourceIndexes:
+    - name:
+        en: Leptodactylus myersi
+        zh: Leptodactylus myersi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN6B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/412
+            queryName: Leptodactylus myersi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7b4d0fbff
+      - s-66d12be3d3
+      - s-50638c1f17
+      - s-4a5059c8a8
+      - s-ecfa831d88
+      - s-d0a4a6a2a0
+      - s-e35de01def
+      - s-12461a262f
+    zh:
+      - s-3d7cf07c90
+      - s-3225b106d1
+      - s-06a3befb23
+      - s-b603999715
+      - s-864946acc2
+      - s-48c9e92f9e
+      - s-c56015e4a3
+      - s-4681941498

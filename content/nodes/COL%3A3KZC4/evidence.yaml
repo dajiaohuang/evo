@@ -1,0 +1,269 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hermannia angularis Jacq.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3KZC4, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3KZC4; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3KZC4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3KZC4
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001140861-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3KZC4 / WFO wfo-0001140861
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14353_0
+        referenceId: ref-5229a6ca-aa1c-897f-abf1-2ef0e715ffd4
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia angularis Jacq. account; archive rows 8395 (Morphology), 29734 (Habitat), source identifier 14353.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_815_0
+        referenceId: ref-dd7e7a98-4a75-8b51-a3b3-6553366b90ec
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia angularis Jacq. account; archive rows 73256 (Diagnostic), source identifier 815.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Like H. rudis but leaves oblanceolate-cuneate and calyx lobes glabrous except along margins.
+            sourceIds:
+              - sanbi_14353_0
+            locator: "SANBI/WFO archive Morphology row 8395; source 14353.0; publication: Manning, JC; Goldblatt, P. 2012. Malvaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 613 - 621. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: The distinguishing characters are found mainly in the flowers. The parchment-like calyx is distinctly 5-angled, the angles extending from the sinuses to the base of the calyx with the portion between being concave. The calyx is broad at the base and the lobes do not spread nor reflex at any time. The shortly exserted petals are strongly twisted and lemon -yellow grading into orange-red. Characteristic too is the blade of the petal which is broadly oblong and several times longer than the basal claw.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_815_0
+            locator: "SANBI/WFO archive Diagnostic row 73256; source 815.0; publication: Verdoorn, IC. 1980. Revision of Hermannia subgenus Hermannia in southern Africa. Bothalia 13(1&2): 1 - 63. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dry stony slopes.
+            sourceIds:
+              - sanbi_14353_0
+            locator: "SANBI/WFO archive Habitat row 29734; source 14353.0; publication: Manning, JC; Goldblatt, P. 2012. Malvaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 613 - 621. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Hermannia angularis Jacq.
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Hermannia angularis
+      zh: Hermannia angularis
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3KZC4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3KZC4
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001140861-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3KZC4 / WFO wfo-0001140861
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14353_0
+        referenceId: ref-5229a6ca-aa1c-897f-abf1-2ef0e715ffd4
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia angularis Jacq. account; archive rows 8395 (Morphology), 29734 (Habitat), source identifier 14353.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_815_0
+        referenceId: ref-dd7e7a98-4a75-8b51-a3b3-6553366b90ec
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia angularis Jacq. account; archive rows 73256 (Diagnostic), source identifier 815.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d4ebf36c15
+            part: title
+          zh:
+            page: zh
+            section: s-adbf7e0525
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d4ebf36c15
+            part: body
+          zh:
+            page: zh
+            section: s-adbf7e0525
+            part: body
+        sourceIds:
+          - sanbi_14353_0
+        locator: "SANBI/WFO archive Morphology row 8395; source 14353.0; publication: Manning, JC; Goldblatt, P. 2012. Malvaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 613 - 621. South African National Biodiversity Institute, Pretoria. [CC BY]"
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-22cb13fc99
+            part: title
+          zh:
+            page: zh
+            section: s-111183e468
+            part: title
+        text:
+          en:
+            page: en
+            section: s-22cb13fc99
+            part: body
+          zh:
+            page: zh
+            section: s-111183e468
+            part: body
+        sourceIds:
+          - sanbi_815_0
+        locator: "SANBI/WFO archive Diagnostic row 73256; source 815.0; publication: Verdoorn, IC. 1980. Revision of Hermannia subgenus Hermannia in southern Africa. Bothalia 13(1&2): 1 - 63. [CC BY]"
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-014014aa5a
+            part: title
+          zh:
+            page: zh
+            section: s-56e3f54fb2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-014014aa5a
+            part: body
+          zh:
+            page: zh
+            section: s-56e3f54fb2
+            part: body
+        sourceIds:
+          - sanbi_14353_0
+        locator: "SANBI/WFO archive Habitat row 29734; source 14353.0; publication: Manning, JC; Goldblatt, P. 2012. Malvaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 613 - 621. South African National Biodiversity Institute, Pretoria. [CC BY]"

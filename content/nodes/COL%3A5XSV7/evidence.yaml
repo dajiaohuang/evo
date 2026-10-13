@@ -1,0 +1,574 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiromantis xerampelina Peters, 1854
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiromantis xerampelina
+      zh: Chiromantis xerampelina
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cf4409011c
+            part: title
+          zh:
+            page: zh
+            section: s-cc4eae0f68
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cf4409011c
+            part: body
+          zh:
+            page: zh
+            section: s-cc4eae0f68
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-839c180937
+            part: title
+          zh:
+            page: zh
+            section: s-a7ad9dd0a4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-839c180937
+            part: body
+          zh:
+            page: zh
+            section: s-a7ad9dd0a4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e5538d86fd
+            part: title
+          zh:
+            page: zh
+            section: s-b23a5900dc
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-e5538d86fd
+            part: body
+          zh:
+            page: zh
+            section: s-b23a5900dc
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-18826f26e7
+            part: title
+          zh:
+            page: zh
+            section: s-3405e88374
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-18826f26e7
+            part: body
+          zh:
+            page: zh
+            section: s-3405e88374
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-29103994a0
+            part: title
+          zh:
+            page: zh
+            section: s-d9ba42d7a4
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-29103994a0
+            part: body
+          zh:
+            page: zh
+            section: s-d9ba42d7a4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-8b13d003e1
+            part: title
+          zh:
+            page: zh
+            section: s-ca063bee13
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-8b13d003e1
+            part: body
+          zh:
+            page: zh
+            section: s-ca063bee13
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-f39ab11631
+            part: title
+          zh:
+            page: zh
+            section: s-b89da05645
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-f39ab11631
+            part: body
+          zh:
+            page: zh
+            section: s-b89da05645
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e2dc91c806
+            part: title
+          zh:
+            page: zh
+            section: s-3d2271855f
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e2dc91c806
+            part: body
+          zh:
+            page: zh
+            section: s-3d2271855f
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-21dd6921cb50d07a3647e34a53dab9dc
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-d34029e4246643970007639d
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0a516785c4
+            part: title
+          zh:
+            page: zh
+            section: s-5393ef87bc
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0a516785c4
+            part: body
+          zh:
+            page: zh
+            section: s-5393ef87bc
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6e82622887
+            part: title
+          zh:
+            page: zh
+            section: s-7cc5580a86
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-6e82622887
+            part: body
+          zh:
+            page: zh
+            section: s-7cc5580a86
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-551881959b
+            part: title
+          zh:
+            page: zh
+            section: s-96ab8acf47
+            part: title
+        sourceIds:
+          - primary-pmc6434812-5xsv7
+        text:
+          en:
+            page: en
+            section: s-551881959b
+            part: body
+          zh:
+            page: zh
+            section: s-96ab8acf47
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-f5fd01fa1b
+            part: title
+          zh:
+            page: zh
+            section: s-cb644218a8
+            part: title
+        sourceIds:
+          - primary-pmc6434812-5xsv7
+        text:
+          en:
+            page: en
+            section: s-f5fd01fa1b
+            part: body
+          zh:
+            page: zh
+            section: s-cb644218a8
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-57da072969
+            part: title
+          zh:
+            page: zh
+            section: s-d65d35c95e
+            part: title
+        sourceIds:
+          - primary-pmc6434812-5xsv7
+        text:
+          en:
+            page: en
+            section: s-57da072969
+            part: body
+          zh:
+            page: zh
+            section: s-d65d35c95e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiromantis xerampelina
+          url: https://www.checklistbank.org/dataset/316115/taxon/5XSV7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5081; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5084 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 241, 242; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc6434812-5xsv7
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiromantis xerampelina: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a6a0c5c0ab
+        part: body
+      zh:
+        page: zh
+        section: s-1284413ed5
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-21dd6921cb50d07a3647e34a53dab9dc
+      sourceRowId: Anf5081
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5081
+        bibliographyRowId: Anf5084
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Chiromantis shyamrupus
+        candidateBibliographyRowIds:
+          - Anf5084
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-d34029e4246643970007639d
+        scientificName: Chiromantis xerampelina
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1186/s13002-019-0294-3
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        sourceKey: primary-pmc6434812-5xsv7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6434812/article.xml
+        sourceConcept: SourceTab1 Chiromantis xerampelina nomenclatural/ethnotaxonomic label; no new biologicaltrait or specimenidentity assignment
+        evidenceRead: "Chiromantis xerampelina: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: A published isiZulu name and its provenance
+              zh: 已发表的 isiZulu 名称及其来源
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-5xsv7
+            locator: PMC6434812 XML Tab1 tbody row59; tablefootnotes; Sec6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-14889f4ca1
+                part: body
+              zh:
+                page: zh
+                section: s-0d7b904cce
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Workshop vocabulary and later species naming
+              zh: 工作坊词汇与后续物种命名
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-5xsv7
+            locator: PMC6434812 XML Sec2 completeMethods; Sec4; Sec6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3dc78691ca
+                part: body
+              zh:
+                page: zh
+                section: s-129df77e98
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: What a local naming category can establish
+              zh: 地方命名类别能说明什么
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-5xsv7
+            locator: PMC6434812 XML Sec4–7; Sec9Discussion; Sec10Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e4e9e45e23
+                part: body
+              zh:
+                page: zh
+                section: s-ef6b9c07f9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

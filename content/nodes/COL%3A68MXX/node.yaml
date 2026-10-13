@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla nanuzae
+  displayName: Bokermannohyla nanuzae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68MXX
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla nanuzae
+        zh: Bokermannohyla nanuzae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68MXX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/66
+            queryName: Bokermannohyla nanuzae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/407
+            queryName: Hyla nanuzae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/6
+            queryName: Boana nanuzae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-18e60a6903
+      - s-165603ef0c
+      - s-d984c46b9f
+      - s-5d70a8cbaa
+      - s-d7c0c8e99e
+      - s-7ef3bea422
+      - s-ac91f2b639
+      - s-7da2bd64d6
+      - s-47d72a60bb
+      - s-4454a300c1
+      - s-1a337269c2
+      - s-75cba73d90
+      - s-778c61c17d
+      - s-9108c0cfc0
+      - s-d3626cb6b4
+      - s-18ae7f4a67
+      - s-104d32fe61
+    zh:
+      - s-7e6a7ca8b3
+      - s-a1c64ca52f
+      - s-0da5822002
+      - s-786791e8ba
+      - s-dd86497bba
+      - s-9c02c43fb9
+      - s-269e69a28f
+      - s-574f641b4f
+      - s-52fcaf3f14
+      - s-7b2ba388d3
+      - s-e5c9f67f57
+      - s-463c18a644
+      - s-4579d964c5
+      - s-9e44b4cdf2
+      - s-97efd46953
+      - s-b52a15abae
+      - s-aaa9a3a89a

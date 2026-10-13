@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Polypedates mutus
+  displayName: Polypedates mutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/785TR
+  sourceIndexes:
+    - name:
+        en: Polypedates mutus
+        zh: Polypedates mutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 785TR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/49
+            queryName: Polypedates mutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/455
+            queryName: Rhacophorus mutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-778c56393c
+      - s-1c9d80b3c3
+      - s-89defcc38b
+      - s-acd9ae2ca3
+      - s-4c4d255eae
+      - s-50eb6f04f1
+      - s-16808d8ad0
+      - s-cf3fe54298
+      - s-55e693928f
+      - s-4dc37eff60
+      - s-33f959b0a2
+      - s-0b1385f2e9
+    zh:
+      - s-4ef9e1a676
+      - s-1d7a4bf4b9
+      - s-6a9283861e
+      - s-e15df0a729
+      - s-ccb5fbe47c
+      - s-2755d54866
+      - s-af80a84ae6
+      - s-75480560bf
+      - s-d915963e14
+      - s-0bc6c2c727
+      - s-b7014af585
+      - s-a14e4898e6

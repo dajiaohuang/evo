@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyperoliinae Laurent, 1943
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Hyperoliinae
+      zh: Hyperoliinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9e7ebb0aba
+            part: title
+          zh:
+            page: zh
+            section: s-a3be35b9a6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9e7ebb0aba
+            part: body
+          zh:
+            page: zh
+            section: s-a3be35b9a6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4524dc8148
+            part: title
+          zh:
+            page: zh
+            section: s-d4e49c28f8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4524dc8148
+            part: body
+          zh:
+            page: zh
+            section: s-d4e49c28f8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-f719aacde5
+            part: title
+          zh:
+            page: zh
+            section: s-dec709737b
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: Q3X
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AQ3X
+            label:
+              en: Afrixalus
+              zh: Afrixalus
+          - kind: catalogue
+            colId: MWV6W
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMWV6W
+            label:
+              en: Congolius
+              zh: Congolius
+          - kind: catalogue
+            colId: 62PY8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62PY8
+            label:
+              en: Cryptothylax
+              zh: Cryptothylax
+          - kind: catalogue
+            colId: 4W93
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4W93
+            label:
+              en: Heterixalus
+              zh: Heterixalus
+          - kind: catalogue
+            colId: 52FT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A52FT
+            label:
+              en: Hyperolius
+              zh: Hyperolius
+          - kind: catalogue
+            colId: 57ND
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A57ND
+            label:
+              en: Kassinula
+              zh: Kassinula
+          - kind: catalogue
+            colId: 5V6C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5V6C
+            label:
+              en: Morerella
+              zh: Morerella
+          - kind: catalogue
+            colId: 696V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A696V
+            label:
+              en: Opisthothylax
+              zh: Opisthothylax
+          - kind: catalogue
+            colId: 63TF8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63TF8
+            label:
+              en: Tachycnemis
+              zh: Tachycnemis
+        text:
+          en:
+            page: en
+            section: s-f719aacde5
+            part: body
+          zh:
+            page: zh
+            section: s-dec709737b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyperoliinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JQT
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-32feb25b08
+        part: body
+      zh:
+        page: zh
+        section: s-a06c68d1a0
+        part: body

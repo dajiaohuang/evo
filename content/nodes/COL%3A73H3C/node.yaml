@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla heymonsi
+  displayName: Microhyla heymonsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73H3C
+  sourceIndexes:
+    - name:
+        en: Microhyla heymonsi
+        zh: Microhyla heymonsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73H3C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/6
+            queryName: Microhyla heymonsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 44
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/244
+            queryName: Microhyletta heymonsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f28f866ba2
+      - s-d9bfcf6e6a
+      - s-5618b36dc0
+      - s-1eb501aa6c
+      - s-23c13b11d6
+      - s-dc7386ba69
+      - s-6a442a3e06
+      - s-3fb08d79cc
+      - s-8c2cf4aa93
+      - s-6205786f7d
+      - s-0ab8cef005
+      - s-7b0bec852f
+      - s-848add2300
+      - s-310eb49ba9
+      - s-3d4ce31048
+      - s-80f0dc7fca
+      - s-81ccc393a6
+      - s-095f5f1bf1
+      - s-343999431b
+      - s-332c5058be
+      - s-3ebfa9fe6d
+      - s-8a5f4124c0
+      - s-3ae31422a0
+      - s-b56afa6ee3
+    zh:
+      - s-032cb4cd06
+      - s-9ac2368e3c
+      - s-a333b4fb4a
+      - s-caf62d1d85
+      - s-ddaaa92f89
+      - s-67af95fa1f
+      - s-4e72c7ad97
+      - s-668b0932a1
+      - s-3ac9f5faad
+      - s-a33eedad0f
+      - s-d4ff96f81d
+      - s-0fbed845e2
+      - s-4e81a8bb6a
+      - s-64bc92f1af
+      - s-801cfe6bbf
+      - s-3a7daaed06
+      - s-8b97f9269a
+      - s-8371dcafb6
+      - s-ceda6c044b
+      - s-03d8f8034a
+      - s-6e14d094b1
+      - s-c2866bbb29
+      - s-c98c3249b1
+      - s-fb8d0a2418

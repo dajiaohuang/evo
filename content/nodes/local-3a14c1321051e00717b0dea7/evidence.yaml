@@ -1,0 +1,211 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pseudophilautus nemus
+    name:
+      en: Pseudophilautus nemus
+      zh: Pseudophilautus nemus
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Pseudophilautus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2e948442da
+            part: body
+          zh:
+            page: zh
+            section: s-15ba829819
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ae405e86c2
+            part: body
+          zh:
+            page: zh
+            section: s-0ededb8454
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5023; Reference.csv rows 1211
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5023
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus nemus
+          - M
+          - "20.7"
+          - "10.75362319"
+          - "9.245"
+          - "4.16025"
+          - "0.80625"
+          - NA
+          - "2.65525"
+          - "2.7735"
+          - "3.01"
+          - "2.7735"
+          - "4.2785"
+          - "1.62325"
+          - "7.396"
+          - "5.891"
+          - NA
+          - "17.92025"
+          - NA
+          - "13.76"
+          - "13.5235"
+          - NA
+          - NA
+          - "1.161"
+          - "1.73075"
+          - "2.31125"
+          - "4.16025"
+          - "6.35325"
+          - "4.6225"
+          - "1.96725"
+          - "2.31125"
+          - "3.9345"
+          - "2.89175"
+          - NA
+          - NA
+          - "1.38675"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1211
+        values:
+          - Anura
+          - Pseudophilautus_nemus
+          - "Manamendra-Arachchi, K., & Pethiyagoda, R. (2005). The Sri Lankan shrub-frogs of the genus Philautus Gistel, 1848 (Ranidae: Rhacophorinae), with description of 27 new species. Raffles Bulletin of Zoology, 163-303."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6WGZL
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

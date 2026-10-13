@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus monohernandezii
+  displayName: Atelopus monohernandezii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8ZG
+  sourceIndexes:
+    - name:
+        en: Atelopus monohernandezii
+        zh: Atelopus monohernandezii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8ZG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/284
+            queryName: Atelopus monohernandezii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-81d1ddcd8f
+      - s-f876769d73
+      - s-ed0879a406
+      - s-256254d33c
+      - s-f97c012f6a
+      - s-74bc64f36c
+      - s-3ff12d1d50
+      - s-29c90288a5
+      - s-bdb37bff21
+    zh:
+      - s-d3f79aa570
+      - s-b867d4e372
+      - s-9cfe58527b
+      - s-9aab466e78
+      - s-0d8ce5ad36
+      - s-4ccb7c14b5
+      - s-7a2df74892
+      - s-ada8bf8005
+      - s-c09fda6413

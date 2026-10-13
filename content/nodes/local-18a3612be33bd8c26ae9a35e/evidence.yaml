@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Kaloula nonggangensis
+    name:
+      en: Kaloula nonggangensis
+      zh: Kaloula nonggangensis
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Kaloula
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Kaloula nonggangensis in the version 3 classification
+          zh: Kaloula nonggangensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-97e521a9bb
+            part: body
+          zh:
+            page: zh
+            section: s-62b19c5666
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-45b85ae924
+            part: body
+          zh:
+            page: zh
+            section: s-df43d10dbe
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2478, 2479; Reference.csv rows 566
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2478
+        values:
+          - Microhylidae
+          - Kaloula
+          - Kaloula nonggangensis
+          - F
+          - "52.2"
+          - "13.3"
+          - "16.8"
+          - "4.8"
+          - NA
+          - NA
+          - "4.9"
+          - "2.9"
+          - "2.7"
+          - NA
+          - "5.1"
+          - NA
+          - "15.2"
+          - "12.1"
+          - NA
+          - "22.5"
+          - NA
+          - "20"
+          - NA
+          - NA
+          - "66.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2479
+        values:
+          - Microhylidae
+          - Kaloula
+          - Kaloula nonggangensis
+          - M
+          - "47.6"
+          - "11.8"
+          - "15.2"
+          - "4.4"
+          - NA
+          - NA
+          - "4.2"
+          - "3.1"
+          - "2.8"
+          - NA
+          - "4.7"
+          - NA
+          - "14"
+          - "10.3"
+          - NA
+          - "21.5"
+          - NA
+          - "1.7"
+          - NA
+          - NA
+          - "61.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 566
+        values:
+          - Anura
+          - Kaloula_nonggangensis
+          - "Mo, Y., Zhang, W., Zhou, S., Chen, T., Tang, H., Meng, Y., & Chen, W. (2013). A new species of Kaloula (Amphibia: Anura: Microhylidae) from southern Guangxi, China. Zootaxa, 3710, 165-178. https://doi.org/10.11646/zootaxa.3710.2.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3QZL2
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum nanogularum
+  displayName: Cacosternum nanogularum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6MW
+  sourceIndexes:
+    - name:
+        en: Cacosternum nanogularum
+        zh: Cacosternum nanogularum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6MW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/44
+            queryName: Cacosternum nanogularum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7c2cb4537e
+      - s-25b5e11970
+      - s-85f777e50a
+      - s-623b91b459
+      - s-2c9678c85c
+      - s-8697fbb580
+      - s-023201ec66
+      - s-80d9a09742
+      - s-80379e9ce1
+      - s-2e823b0706
+      - s-be577a3994
+    zh:
+      - s-a7f091c0a8
+      - s-38eb2eb3c4
+      - s-2b9fb543a8
+      - s-164a304553
+      - s-94e0c59bb3
+      - s-0426e4c406
+      - s-9d6a83a66b
+      - s-b6dccdf464
+      - s-81436e218b
+      - s-7b7406a442
+      - s-33e2f32789

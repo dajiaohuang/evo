@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trimeresurus andersonii
+    rank: species
+    sourceDatasetId: "1008"
+    name:
+      zh: Trimeresurus andersonii
+      en: Trimeresurus andersonii
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-f41ee7529c
+            part: body
+          en:
+            page: en
+            section: s-7f5953f0d8
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-57876f908c
+            part: body
+          en:
+            page: en
+            section: s-80de553dd9
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-1b1bd59cdd
+            part: body
+          en:
+            page: en
+            section: s-79e10d6175
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-19d8de0a1d
+            part: body
+          en:
+            page: en
+            section: s-ede4de93bb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Trimeresurus andersonii
+          url: https://www.checklistbank.org/dataset/316115/taxon/7D5L4
+          locator: Pinned accepted name, family and recorded ancestry; historical concept equivalence not assumed.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceClassification
+          - sourceCitationByField
+          - withheldCitationFields
+          - supportedFocalFields
+          - scope
+          - readerMissingFocalFields
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits dataset v1-2.xlsx; Data row 11345; Species=Trimeresurus andersonii; Sources of individual trait val for the same species; Trait definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 45408133
+          sourceFileMd5: a00be695740e752db2654537bbb0814c
+          sourceFileSha256: 74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a
+          sourceClassification: Reptile Database 2023 as recorded in workbook
+          sourceCitationByField:
+            Microhabitat: Gearty et al. 2021
+            Diet: Harrington et al. 2018
+            Active time: De Magalhaes and Costa 2009, Feldman et al. 2015
+            Reproductive mode: Zimin et al. 2022
+          withheldCitationFields:
+            - field: Foraging mode
+              sourceValue: AMB
+              sourceCitation: Rhodin et al. 2011
+              reason: Cross-taxon citation scope unresolved
+          supportedFocalFields:
+            - Microhabitat
+            - Diet
+            - Active time
+            - Reproductive mode
+          scope:
+            zh: 尺寸、活动、取食与繁殖的已引性状资料；不外推体重、幼体长度、毒性、保护或当前分布。
+            en: Cited size, activity, feeding and reproductive traits; no mass, juvenile-length, venom, conservation or current-range inference.
+          readerMissingFocalFields:
+            - Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm)
+            - Maximum female length ("SVL", mm)/straight carapace length for turtles ("SCL", mm)
+            - Maximum male length ("SVL", mm)/straight carapace length for turtles ("SCL", mm)
+            - Maximum total length ("TL", mm)
+            - Mean number of offspring per litter or number of eggs per clutch
+            - Smallest clutch size
+            - Largest clutch size
+            - Number of litters or clutches produced per year
+            - Egg length (mm)
+            - Egg width (mm)
+            - Foraging mode
+            - Sex-determining mechanism (GSD or TSD)
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+    limitations:
+      zh:
+        page: zh
+        section: s-19811ded7e
+        part: body
+      en:
+        page: en
+        section: s-429c887434
+        part: body

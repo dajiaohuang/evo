@@ -1,0 +1,3 @@
+## Leaflet counts and floral dimensions in the entry {#s-8d3cc396ea}
+The Brazilian Flora 2020 entry records conspicuous axillary buds and leaves with 5–11 leaflets; leaflets are under 9.0 cm long, with the lower surface glabrous or pubescent, a straight midrib and pulvinules over 2.0 mm long. The inflorescence is described as a paniculate raceme. Flowers are under 2 cm long, with pedicels over 3 mm; the bud apex is straight, calyx lobes are no longer than the tube, and petals are purple to vinaceous. The fruit’s upper margin is extended into a wing or crest. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

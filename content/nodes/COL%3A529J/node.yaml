@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius
+  displayName: Hynobius
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/529J
+  sourceIndexes:
+    - name:
+        en: Hynobius
+        zh: Hynobius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 529J
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/451
+            queryName: Hynobius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 518
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-876d3102ee
+      - s-45e35bd041
+      - s-db93bd8ff1
+      - s-7b0e99f742
+      - s-7bdda9fe40
+      - s-311019ba3d
+      - s-d045003e59
+      - s-028177549b
+      - s-d317cbc854
+      - s-b63df22f6a
+      - s-5b80eacaee
+      - s-cbd818afa2
+      - s-ba8c139105
+      - s-7a0c162b40
+      - s-066ed99310
+      - s-8234353bfb
+      - s-e226041502
+      - s-423b15fca6
+      - s-408c1472cb
+    zh:
+      - s-d39100338d
+      - s-965074a8bd
+      - s-e1177c0143
+      - s-1823ec147f
+      - s-f6239b2783
+      - s-a5bae25861
+      - s-d791167da8
+      - s-045d4c2fac
+      - s-4bdffaf6f8
+      - s-72402ac63e
+      - s-dd95d2479d
+      - s-df44f2ae22
+      - s-8e828ef473
+      - s-c2820cd922
+      - s-f3179fc841
+      - s-b66b424342
+      - s-b68e173f1b
+      - s-bc04e4bbbf
+      - s-fa37165e42

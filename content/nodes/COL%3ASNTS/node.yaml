@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ceratophrys ornata
+  displayName: Ceratophrys ornata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SNTS
+  sourceIndexes:
+    - name:
+        en: Ceratophrys ornata
+        zh: Ceratophrys ornata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SNTS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/212
+            queryName: Ceratophrys ornata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 58
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/222
+            queryName: Uperodon ornatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 41
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/223
+            queryName: Trigonophrys rugiceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/224
+            queryName: Ceratophrys ensenadensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-156fb52f61
+      - s-39f951b6ae
+      - s-b6d1e017ff
+      - s-fa220c89fa
+      - s-e1ca2f59fa
+      - s-15bd71be20
+      - s-6cdab0ff05
+      - s-9ca21a16f4
+      - s-fcf7bc55b3
+      - s-0b04d226ac
+    zh:
+      - s-10c8afb5e8
+      - s-96ebbdae68
+      - s-4b25d0340d
+      - s-d94a449d1a
+      - s-63b3155569
+      - s-e0c665eaab
+      - s-83cc94db75
+      - s-70f8fc2ce0
+      - s-b19bf1a383
+      - s-e989fb0860

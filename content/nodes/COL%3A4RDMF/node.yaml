@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana coreana
+  displayName: Rana coreana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDMF
+  sourceIndexes:
+    - name:
+        en: Rana coreana
+        zh: Rana coreana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDMF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/48
+            queryName: Rana coreana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/133
+            queryName: Rana kunyuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/211
+            queryName: Rana temporaria coreana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/212
+            queryName: Rana amurensis coreana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca60f782ee
+      - s-31d0475f3f
+      - s-e38a4bb14c
+      - s-cca3c55f2a
+      - s-216fdce331
+      - s-de624680b3
+      - s-e4bb2b6db0
+      - s-4bf2aac913
+      - s-3cf30750a4
+    zh:
+      - s-7251516d01
+      - s-3358e6ab49
+      - s-63526f0815
+      - s-05a3b4aa12
+      - s-b28a503d9a
+      - s-f519ec9733
+      - s-3fcf33200e
+      - s-f36e57e840
+      - s-999d2233c6

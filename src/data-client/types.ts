@@ -1,3 +1,6 @@
+import type { NodeReadingSection } from '../utils/nodeReading.mjs'
+import type { TaxonProfileReaderSource } from '../types/catalog'
+
 export interface RuntimeFile {
   url: string
   bytes?: number
@@ -1635,30 +1638,28 @@ export interface CatalogueFdacDescriptionRecord {
 }
 
 export interface CatalogueKnowledgeProfile {
+  readingIntroduction?: Omit<NodeReadingSection, 'id'>
   colId: string
   scientificName: string
   rank: string
   sourceDatasetId: string | null
   name: { zh: string; en: string }
-  checkedAt: string
   sections: Array<{ topic: string; text: { zh: string; en: string }; sourceIds: string[] }>
   sources: Array<{ id: string; title: string | { zh: string; en: string }; url: string; scope?: { zh: string; en: string } }>
   limitations: { zh: string; en: string }
 }
 
 export interface CatalogueSpeciesDossier {
-  checkedAt: string
+  readerSections?: NodeReadingSection[]
+  readerSources?: TaxonProfileReaderSource[]
   identity: { method: string; scope: string; sourceIds?: string[] }
   lifeStatusScope: { wild: string; domesticated: string; fossil: string }
   sources: Array<{ id: string; title: string; url: string; stableId?: string; version: string; publishedAt?: string; accessedAt?: string; locator: string; license: string; licenseVersion?: string; licenseUrl?: string; rightsHolder?: string; licenseAppliesTo?: string; attribution?: string; licenseAssessment?: 'item-level-verified' | 'aggregate-declaration-only' | 'identity-only' | 'unknown'; scope: string }>
   facets: Record<string, {
-    status: 'supported' | 'partially-supported' | 'searched-no-evidence' | 'conflicted' | 'not-assessed'
-    claims?: Array<{ text: string; textZh?: string; originalLanguage?: string; translationStatus?: 'verified' | 'untranslated'; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
+    status: 'supported' | 'partially-supported' | 'conflicted' | 'not-assessed'
+    claims?: Array<{ text?: string; textZh?: string; originalLanguage?: string; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
     gaps?: string[]
-    search?: { date: string; scope: string; method: string; queryOrPath?: string; inclusionCriteria?: string; exclusionCriteria?: string; searcher?: string }
   }>
-  completeness: { status: 'incomplete' | 'complete'; reasons?: string[] }
-  systematicSearch?: { date: string; scope: string; method: string; queryOrPath?: string; inclusionCriteria?: string; exclusionCriteria?: string; searcher?: string }
 }
 
 export interface CatalogueKnowledgeRecord {
@@ -1671,7 +1672,6 @@ export interface CatalogueKnowledgeRecord {
     describedSpecies: number
     profiledSpecies: number
     dossierSpecies?: number
-    completeDossierSpecies?: number
     dossierFacets?: Record<string, Record<string, number>>
     sourceFacetEvidenceSpecies?: Record<string, number>
   }
@@ -1682,7 +1682,7 @@ export interface CatalogueRuntimeManifest {
   knowledge?: {
     schemaVersion: 1
     releaseAlias: string
-    counts: { hierarchyNodes: number; ranks: Record<string, number>; describedSpecies: number; profilesByRank: Record<string, number>; sourceFacetEvidenceSpecies?: Record<string, number>; dossierSpecies?: number; completeDossierSpecies?: number; dossierFacets?: Record<string, Record<string, number>> }
+    counts: { hierarchyNodes: number; ranks: Record<string, number>; describedSpecies: number; profilesByRank: Record<string, number>; sourceFacetEvidenceSpecies?: Record<string, number>; dossierSpecies?: number; dossierFacets?: Record<string, Record<string, number>> }
     routes: Record<string, string[]>
     files: CatalogueRuntimeFile[]
   }

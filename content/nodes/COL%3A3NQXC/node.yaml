@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius phantasticus
+  displayName: Hyperolius phantasticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQXC
+  sourceIndexes:
+    - name:
+        en: Hyperolius phantasticus
+        zh: Hyperolius phantasticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQXC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/311
+            queryName: Hyperolius phantasticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/190
+            queryName: Rappia phantastica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/191
+            queryName: Hyperolius nigropalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/192
+            queryName: Hyperolius chabanaudi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/193
+            queryName: Hyperolius boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-788f098d59
+      - s-d00a762852
+      - s-1454f48638
+      - s-4f89e05a8f
+      - s-fb4499731d
+      - s-1cb1d239a2
+      - s-a505401a37
+      - s-bffa39367f
+      - s-c27a926b40
+      - s-b9d1178114
+      - s-055a91e0d4
+      - s-82505b60b9
+      - s-a821a3c1ff
+      - s-8b8a20dc20
+      - s-9ad504da67
+      - s-7fc7606a05
+      - s-dcdfbdc3ce
+      - s-bafb787fb8
+    zh:
+      - s-23419ec9fe
+      - s-98a61a3d5d
+      - s-ca786c1013
+      - s-699dbd11e4
+      - s-c3e6d2328b
+      - s-15f1cdf7cb
+      - s-9972953267
+      - s-d8225c7394
+      - s-6f9183d23d
+      - s-04713a4df6
+      - s-ca3d9c41c4
+      - s-b9ee88d90d
+      - s-9e30ad9e67
+      - s-86474043f9
+      - s-f9ef090e2f
+      - s-80e3e1d3ed
+      - s-affa5c01b1
+      - s-4a74c6fda3

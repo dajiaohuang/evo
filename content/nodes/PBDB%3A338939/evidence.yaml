@@ -1,0 +1,256 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhachiocephalus magnus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Rhachiocephalus magnus
+      en: Rhachiocephalus magnus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0c18c4b7a1
+            part: body
+          en:
+            page: en
+            section: s-c322115227
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-03b9e1512b
+            part: body
+          en:
+            page: en
+            section: s-4f792d6b75
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-20b8abacdb
+            part: body
+          en:
+            page: en
+            section: s-87b5de2f1f
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cbefbc3982
+            part: body
+          en:
+            page: en
+            section: s-13a0c267a6
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5657912027
+            part: body
+          en:
+            page: en
+            section: s-2d40eb8f93
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Rhachiocephalus magnus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=338939&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:338939; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:338939
+          selectedOccurrenceIds:
+            - occ:1081118
+            - occ:1304608
+            - occ:1305442
+            - occ:1305474
+            - occ:1320523
+            - occ:1324916
+            - occ:1327826
+            - occ:1329928
+            - occ:1331649
+            - occ:1331667
+            - occ:1336968
+            - occ:1337216
+            - occ:1337452
+            - occ:1337456
+            - occ:1337457
+            - occ:1337462
+            - occ:1342687
+            - occ:1387196
+            - occ:1387198
+          selectedCollectionIds:
+            - col:135700
+            - col:174626
+            - col:174736
+            - col:144272
+            - col:177585
+            - col:178113
+            - col:178523
+            - col:179072
+            - col:179328
+            - col:179335
+            - col:180347
+            - col:80826
+            - col:180461
+            - col:180462
+            - col:178128
+            - col:181609
+            - col:181520
+          sourceReferenceIds:
+            - ref:43411
+            - ref:27216
+            - ref:29040
+            - ref:57014
+            - ref:55690
+            - ref:6969
+            - ref:59882
+            - ref:37154
+          originalIdentificationMappings:
+            - occurrenceId: occ:1304608
+              originalIdentifiedName: Platycyclops latirhinus n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1305442
+              originalIdentifiedName: Platycyclops rubidgei n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1305474
+              originalIdentifiedName: Platycyclops haughtoni
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1320523
+              originalIdentifiedName: Oudenodon magnus n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: recombined as
+            - occurrenceId: occ:1324916
+              originalIdentifiedName: Dicynodon scheepersi n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1329928
+              originalIdentifiedName: Kitchingia planifrons n. gen. n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1331649
+              originalIdentifiedName: Rhachiocephalus angusticeps n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1331667
+              originalIdentifiedName: Platycyclops haughtoni n. gen. n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1336968
+              originalIdentifiedName: Eocyclops longus n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1337216
+              originalIdentifiedName: Megacyclops whaitsi n. gen. n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1337452
+              originalIdentifiedName: Megacyclops rugosus n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1337456
+              originalIdentifiedName: Dicynodon scheepersi
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1337457
+              originalIdentifiedName: Pelanomodon wesselsi n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1337462
+              originalIdentifiedName: Neomegacyclops cyclops n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1387196
+              originalIdentifiedName: Megacyclops usiliensis n. sp.
+              acceptedName: Rhachiocephalus magnus
+              difference: null
+            - occurrenceId: occ:1387198
+              originalIdentifiedName: Platypodosaurus magnus
+              acceptedName: Rhachiocephalus magnus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5565d28c62
+        part: body
+      en:
+        page: en
+        section: s-46406970fb
+        part: body

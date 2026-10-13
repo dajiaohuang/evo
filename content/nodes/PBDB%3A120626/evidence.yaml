@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Kokartus honorarius
+    rank: species
+    sourceTaxonId: txn:120626
+    name:
+      en: Kokartus honorarius
+      zh: Kokartus honorarius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-ca0f4e332e
+            part: body
+          zh:
+            page: zh
+            section: s-fd83adb576
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 2 PBDB occurrence rows and collection fields
+          zh: 2 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-9524966a97
+            part: body
+          zh:
+            page: zh
+            section: s-f9897697ba
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Kokartus honorarius
+          zh: Kokartus honorarius 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-6c6a439b88
+            part: body
+          zh:
+            page: zh
+            section: s-989fb34ce9
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:120626; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: L. A. Nessov. 1988. Late Mesozoic amphibians and lizards of Soviet Middle Asia. Acta Zoologica Cracoviensia 31(14):475-486
+    occurrenceEvidence:
+      - occurrenceId: occ:745361
+        collectionId: col:79954
+        acceptedTaxonId: txn:120626
+        taxonomicDifference: null
+        referenceId: ref:26886
+        bibliography: A. O. Averianov, T. Martin, and P. P. Skutschas, A. S. Rezvyi, A. A. Bakirov. 2008. Amphibians from the Middle Jurassic Balabansai Svita in the Fergana Depression, Kyrgyzstan (Central Asia). Palaeontology 51(2):471-485
+        locality:
+          countryCode: KG
+          stateProvince: Jalal-Abad
+          county: null
+        stratigraphy:
+          group: null
+          formation: Balabansai
+          member: null
+        olderAgeMa: 168.2
+        youngerAgeMa: 165.3
+      - occurrenceId: occ:745365
+        collectionId: col:79955
+        acceptedTaxonId: txn:120626
+        identifiedName: Kokartus honorarius n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:19868
+        bibliography: L. A. Nessov. 1988. Late Mesozoic amphibians and lizards of Soviet Middle Asia. Acta Zoologica Cracoviensia 31(14):475-486
+        locality:
+          countryCode: KG
+          stateProvince: Jalal-Abad
+          county: null
+        stratigraphy:
+          group: null
+          formation: Balabansai
+          member: null
+        olderAgeMa: 168.2
+        youngerAgeMa: 165.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Kokartus honorarius
+          zh: Kokartus honorarius 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-6c6a439b88
+            part: body
+          zh:
+            page: zh
+            section: s-989fb34ce9
+            part: body
+        sourceIds: []

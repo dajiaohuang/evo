@@ -1,0 +1,273 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulengerula Tornier, 1896
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Boulengerula
+      zh: Boulengerula
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-92d9571e94
+            part: title
+          zh:
+            page: zh
+            section: s-daea930bc4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-92d9571e94
+            part: body
+          zh:
+            page: zh
+            section: s-daea930bc4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-37221dbee7
+            part: title
+          zh:
+            page: zh
+            section: s-249b68558c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-37221dbee7
+            part: body
+          zh:
+            page: zh
+            section: s-249b68558c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-633cc5b8dc
+            part: title
+          zh:
+            page: zh
+            section: s-bebafef40c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-633cc5b8dc
+            part: body
+          zh:
+            page: zh
+            section: s-bebafef40c
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-4345741f83
+            part: title
+          zh:
+            page: zh
+            section: s-f7f618c8bf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4345741f83
+            part: body
+          zh:
+            page: zh
+            section: s-f7f618c8bf
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-cdfdac0853
+            part: title
+          zh:
+            page: zh
+            section: s-42094c75d2
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5WQMJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5WQMJ
+            label:
+              en: Boulengerula boulengeri
+              zh: Boulengerula boulengeri
+          - kind: catalogue
+            colId: MR6V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMR6V
+            label:
+              en: Boulengerula changamwensis
+              zh: Boulengerula changamwensis
+          - kind: catalogue
+            colId: MR6W
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMR6W
+            label:
+              en: Boulengerula denhardti
+              zh: Boulengerula denhardti
+          - kind: catalogue
+            colId: LX9F7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ALX9F7
+            label:
+              en: Boulengerula endauensis
+              zh: Boulengerula endauensis
+          - kind: catalogue
+            colId: MR6X
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMR6X
+            label:
+              en: Boulengerula fischeri
+              zh: Boulengerula fischeri
+          - kind: catalogue
+            colId: MR6Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMR6Y
+            label:
+              en: Boulengerula niedeni
+              zh: Boulengerula niedeni
+          - kind: catalogue
+            colId: MR6Z
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMR6Z
+            label:
+              en: Boulengerula spawlsi
+              zh: Boulengerula spawlsi
+          - kind: catalogue
+            colId: MR72
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMR72
+            label:
+              en: Boulengerula taitana
+              zh: Boulengerula taitana
+          - kind: catalogue
+            colId: MR74
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMR74
+            label:
+              en: Boulengerula uluguruensis
+              zh: Boulengerula uluguruensis
+        text:
+          en:
+            page: en
+            section: s-cdfdac0853
+            part: body
+          zh:
+            page: zh
+            section: s-42094c75d2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulengerula
+          url: https://www.checklistbank.org/dataset/316115/taxon/3C2S
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Boulengerula; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6071862ef9
+        part: body
+      zh:
+        page: zh
+        section: s-282cd741df
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Boulengerula
+      sourceRowIds:
+        - Anf6591
+        - Anf6592
+        - Anf6593
+        - Anf6594
+        - Anf6595
+        - Anf6596
+        - Anf6597
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 6
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 6
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 5
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 7
+      currentConceptEquivalenceCertified: false

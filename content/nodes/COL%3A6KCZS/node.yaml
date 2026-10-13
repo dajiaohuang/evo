@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis tandroka
+  displayName: Gephyromantis tandroka
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KCZS
+  sourceIndexes:
+    - name:
+        en: Gephyromantis tandroka
+        zh: Gephyromantis tandroka
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KCZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/161
+            queryName: Gephyromantis tandroka
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/209
+            queryName: Mantidactylus tandroka
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2040714e9c
+      - s-a338538a05
+      - s-1b459d395c
+      - s-d1710ef967
+      - s-67f82aacb3
+      - s-1c67dc37a1
+      - s-1718026105
+      - s-39e493e0f6
+      - s-7e38663cbe
+    zh:
+      - s-ddd11af173
+      - s-5abbbe2775
+      - s-c122a22615
+      - s-2833a28852
+      - s-25e1e1958f
+      - s-1212d86a9e
+      - s-0f75a3ccf6
+      - s-02ef5514d5
+      - s-acfadd7ac3

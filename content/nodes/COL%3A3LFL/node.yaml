@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chacophrys
+  displayName: Chacophrys
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3LFL
+  sourceIndexes:
+    - name:
+        en: Chacophrys
+        zh: Chacophrys
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3LFL
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/286
+            queryName: Chacophrys
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 25
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5030599d31
+      - s-d4abfd7534
+      - s-c15707d063
+      - s-37189f1a87
+      - s-0a9c32997a
+      - s-63b626916a
+      - s-cc5bab254f
+    zh:
+      - s-49cbd6541a
+      - s-170ed5dbf4
+      - s-be8d2ea5d3
+      - s-c5c8edb232
+      - s-82dc944701
+      - s-459c89678b
+      - s-7bc1dd4da4

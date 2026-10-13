@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Albanerpeton cifellii
+    rank: species
+    sourceTaxonId: txn:156365
+    name:
+      en: Albanerpeton cifellii
+      zh: Albanerpeton cifellii
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-d80401e203
+            part: body
+          zh:
+            page: zh
+            section: s-05432c8ad0
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-1bcd39342a
+            part: body
+          zh:
+            page: zh
+            section: s-d771793d24
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Albanerpeton cifellii
+          zh: Albanerpeton cifellii 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-95bbd16639
+            part: body
+          zh:
+            page: zh
+            section: s-2af5cd0843
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:156365; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. D. Gardner. 1999. New albanerpetontid amphibians from the Albian to Coniacian of Utah, USA—bridging the gap. Journal of Vertebrate Paleontology 19(4):632-638
+    occurrenceEvidence:
+      - occurrenceId: occ:247987
+        collectionId: col:14415
+        acceptedTaxonId: txn:156365
+        identifiedName: Albanerpeton cifellii n. sp.
+        taxonomicDifference: null
+        referenceId: ref:6845
+        bibliography: J. D. Gardner. 1999. New albanerpetontid amphibians from the Albian to Coniacian of Utah, USA—bridging the gap. Journal of Vertebrate Paleontology 19(4):632-638
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Straight Cliffs
+          member: Smoky Hollow
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Albanerpeton cifellii
+          zh: Albanerpeton cifellii 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-95bbd16639
+            part: body
+          zh:
+            page: zh
+            section: s-2af5cd0843
+            part: body
+        sourceIds: []

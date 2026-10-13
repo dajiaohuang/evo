@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus houstonensis
+  displayName: Anaxyrus houstonensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66M7D
+  sourceIndexes:
+    - name:
+        en: Anaxyrus houstonensis
+        zh: Anaxyrus houstonensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66M7D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/439
+            queryName: Anaxyrus houstonensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/241
+            queryName: Bufo houstonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/367
+            queryName: Bufo americanus houstonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c2faa02684
+      - s-9f0df323cc
+      - s-64eaed8269
+      - s-3fd817b227
+      - s-17ac0efb10
+      - s-6215521836
+      - s-b25e20a9f6
+      - s-e3bc85dccd
+      - s-771df98758
+      - s-051a2e06af
+      - s-142fbba525
+      - s-e16d1c4238
+      - s-3cea0ef62e
+      - s-3a2c838307
+      - s-fc3aede441
+    zh:
+      - s-667f5ffbc0
+      - s-9d472fd323
+      - s-43086b9f3b
+      - s-15da443499
+      - s-12c6dcdf1e
+      - s-78a62b1815
+      - s-7026f2ddcf
+      - s-0b6c9bd308
+      - s-e2885cb583
+      - s-18e0bbaa46
+      - s-e50a3f3c91
+      - s-69ebad95ae
+      - s-72b6872b8d
+      - s-59123f89ef
+      - s-2c9ff4361e

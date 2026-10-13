@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus rubrimaculatus
+  displayName: Eleutherodactylus rubrimaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F45B
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus rubrimaculatus
+        zh: Eleutherodactylus rubrimaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F45B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/316
+            queryName: Eleutherodactylus rubrimaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/284
+            queryName: Syrrhophus rubrimaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/138
+            queryName: Syrrhophus rubrimaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3c717b5ca4
+      - s-87e57c43a8
+      - s-f4e50d4d83
+      - s-db8c49c089
+      - s-9b2566be9f
+      - s-34f1e3555c
+      - s-ca1d7074d0
+      - s-8ea8ab6119
+      - s-8fc6e60da5
+      - s-0040d36840
+    zh:
+      - s-cb9abfd224
+      - s-175b94439d
+      - s-0ef900b5ae
+      - s-ed1db214a8
+      - s-c9c93d3cb1
+      - s-d476b7b80d
+      - s-4d2e4c705a
+      - s-58c9172f9b
+      - s-547275cc13
+      - s-15893d5515

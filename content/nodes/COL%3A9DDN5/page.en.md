@@ -1,0 +1,3 @@
+## ## Seven leaflets and a samaroid legume {#s-a7026ce23c}
+The Brazilian Flora 2020 entry records plants about 6 m tall, with pubescent young branches and leaves bearing seven oval to elliptic leaflets. The lax inflorescences exceed the leaves in length; their pedicel bracteoles have secretory cavities, are shed, and bear hairs. Flowers are pedicellate, with at least three developed calyx lobes and a dotted white corolla. The standard lacks a callus; the androecium is pseudomonadelphous, and the anthers are hairless. The fruit is a hairy, papery to chartaceous, samaroid legume; the seeds are kidney-shaped. The habitat field says “terrestrial” but does not provide a locality.
+

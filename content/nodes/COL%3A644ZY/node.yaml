@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scythrophrys
+  displayName: Scythrophrys
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/644ZY
+  sourceIndexes:
+    - name:
+        en: Scythrophrys
+        zh: Scythrophrys
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 644ZY
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/258
+            queryName: Scythrophrys
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9dec5eedfd
+      - s-968cbb974b
+      - s-14edd795f7
+      - s-0b18b158f5
+      - s-f94ad2bd23
+      - s-e254f65c27
+      - s-a8f84922a4
+      - s-97485de337
+      - s-420d160660
+      - s-4e6cba9a2d
+      - s-7498d393c1
+    zh:
+      - s-efd356b837
+      - s-6f870a7b33
+      - s-940d4d6fc0
+      - s-192c43cb7f
+      - s-a37ce9ae8e
+      - s-ac1c8612ef
+      - s-01b04d6b72
+      - s-d3b655443f
+      - s-f8161c8b0c
+      - s-ce191159b9
+      - s-e9b7dfe156

@@ -1,0 +1,215 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Equus capensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Equus capensis
+      en: Equus capensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bb3a12dc32
+            part: body
+          en:
+            page: en
+            section: s-7ad35c5706
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b6e988efd6
+            part: body
+          en:
+            page: en
+            section: s-1d37f4c57b
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8846f4d4f5
+            part: body
+          en:
+            page: en
+            section: s-9cb7c4d3e1
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5d6abff9e7
+            part: body
+          en:
+            page: en
+            section: s-4a1c013bb2
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b31192ee4d
+            part: body
+          en:
+            page: en
+            section: s-18575e5336
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Equus capensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=331457&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:331457; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:331457
+          selectedOccurrenceIds:
+            - occ:214064
+            - occ:214192
+            - occ:214232
+            - occ:220696
+            - occ:220816
+            - occ:220912
+            - occ:220955
+            - occ:221022
+            - occ:224504
+            - occ:225013
+            - occ:225101
+            - occ:225233
+            - occ:225300
+            - occ:225742
+            - occ:225839
+            - occ:225864
+            - occ:226084
+            - occ:227677
+            - occ:228094
+            - occ:583590
+            - occ:970833
+            - occ:970980
+            - occ:1488199
+          selectedCollectionIds:
+            - col:21923
+            - col:21953
+            - col:21961
+            - col:21915
+            - col:21931
+            - col:21948
+            - col:21949
+            - col:21951
+            - col:21791
+            - col:21824
+            - col:21825
+            - col:21828
+            - col:21829
+            - col:21921
+            - col:21928
+            - col:21929
+            - col:21956
+            - col:22231
+            - col:22334
+            - col:21695
+            - col:115167
+            - col:115191
+            - col:207105
+          sourceReferenceIds:
+            - ref:5214
+            - ref:5252
+            - ref:5261
+            - ref:5241
+            - ref:5246
+            - ref:5248
+            - ref:5250
+            - ref:4867
+            - ref:4896
+            - ref:4892
+            - ref:4888
+            - ref:4895
+            - ref:5218
+            - ref:5238
+            - ref:5255
+            - ref:5408
+            - ref:4885
+            - ref:17685
+            - ref:37301
+            - ref:37306
+            - ref:71299
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-174a8f8952
+        part: body
+      en:
+        page: en
+        section: s-59f5d64fec
+        part: body

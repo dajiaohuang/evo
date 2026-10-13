@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis dendrobatoides
+  displayName: Pristimantis dendrobatoides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJCY
+  sourceIndexes:
+    - name:
+        en: Pristimantis dendrobatoides
+        zh: Pristimantis dendrobatoides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJCY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/236
+            queryName: Pristimantis dendrobatoides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-99d6a68971
+      - s-d50be20c1b
+      - s-45e178c2ac
+      - s-8d60441bdf
+      - s-ec861c2202
+      - s-3a098b3ef7
+      - s-d9125d24f8
+      - s-4070716c4c
+      - s-1579bf27ac
+      - s-4a80812128
+    zh:
+      - s-207add6d4f
+      - s-28925995ad
+      - s-64af66c979
+      - s-c3ac1c3304
+      - s-820b875b45
+      - s-61504a885e
+      - s-7fa3c47f4a
+      - s-bf5ae83a38
+      - s-c0de3be7bd
+      - s-617f4d7386

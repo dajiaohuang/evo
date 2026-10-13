@@ -1,0 +1,9 @@
+## Which source name is assigned to this tadpole record? {#s-35b02873e5}
+This record shows how TadpoleTraits files tadpoles under Chiromantis xerampelina. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Chiromantis xerampelina in Chiromantis and Rhacophoridae. No literature rows are present. In the image-measurement table, rows 241, 242 list Chiromantis xerampelina in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-3083aa74b5}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 0 literature rows and 2 image-measurement rows for this source record. No literature rows are present; the image rows are the only measurements in this entry. Image-table Stage values are uncertainty (rows 241, 242); Type labels are Ratio and image types are Hand-drawn picture, Color image. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-b57de2058c}
+The image-derived records support these source proportions: body length / total length = 0.333330 (image row 241, stage uncertainty, Hand-drawn picture); tail length / total length = 0.673572 (image row 241, stage uncertainty, Hand-drawn picture); maximum body height / total length = 0.172550 (image row 241, stage uncertainty, Hand-drawn picture); maximum tail height / total length = 0.206908 (image row 241, stage uncertainty, Hand-drawn picture); tail muscle height / total length = 0.089654 (image row 241, stage uncertainty, Hand-drawn picture). Each value describes only its cited image row; it is not a species-wide estimate.
+

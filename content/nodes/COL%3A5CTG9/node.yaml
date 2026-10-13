@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Yunganastes pluvicanorus
+  displayName: Yunganastes pluvicanorus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CTG9
+  sourceIndexes:
+    - name:
+        en: Yunganastes pluvicanorus
+        zh: Yunganastes pluvicanorus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CTG9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/376
+            queryName: Yunganastes pluvicanorus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/0
+            queryName: Eleutherodactylus pluvicanorus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/76
+            queryName: Pristimantis pluvicanorus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1be46f2568
+      - s-27496c66a4
+      - s-9523889486
+      - s-a4dec00581
+      - s-61a4b664f8
+      - s-9a2031c922
+      - s-76cd69b9f1
+    zh:
+      - s-ec94565ca7
+      - s-7bf92cdd8b
+      - s-81c0dc727a
+      - s-645c694526
+      - s-1418d4e002
+      - s-c3a47ec4cc
+      - s-772ec5cbad

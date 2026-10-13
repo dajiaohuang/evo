@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microhylinae Günther, 1858
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Microhylinae
+      zh: Microhylinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b6e54f98c1
+            part: title
+          zh:
+            page: zh
+            section: s-2bb21bfd6d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b6e54f98c1
+            part: body
+          zh:
+            page: zh
+            section: s-2bb21bfd6d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-77990e61d3
+            part: title
+          zh:
+            page: zh
+            section: s-091348b79b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-77990e61d3
+            part: body
+          zh:
+            page: zh
+            section: s-091348b79b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-de4a613dce
+            part: title
+          zh:
+            page: zh
+            section: s-ecd0e847e4
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62M47
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62M47
+            label:
+              en: Chaperina
+              zh: Chaperina
+          - kind: catalogue
+            colId: 4PDS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4PDS
+            label:
+              en: Glyphoglossus
+              zh: Glyphoglossus
+          - kind: catalogue
+            colId: 6387Z
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6387Z
+            label:
+              en: Kaloula
+              zh: Kaloula
+          - kind: catalogue
+            colId: 62ZVW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62ZVW
+            label:
+              en: Metaphrynella
+              zh: Metaphrynella
+          - kind: catalogue
+            colId: 5RVV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5RVV
+            label:
+              en: Microhyla
+              zh: Microhyla
+          - kind: catalogue
+            colId: 5SNB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5SNB
+            label:
+              en: Micryletta
+              zh: Micryletta
+          - kind: catalogue
+            colId: 5WTN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5WTN
+            label:
+              en: Mysticellus
+              zh: Mysticellus
+          - kind: catalogue
+            colId: QMT8Z
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AQMT8Z
+            label:
+              en: Nanohyla
+              zh: Nanohyla
+          - kind: catalogue
+            colId: 6PBL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6PBL
+            label:
+              en: Phrynella
+              zh: Phrynella
+          - kind: catalogue
+            colId: 84ZH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A84ZH
+            label:
+              en: Uperodon
+              zh: Uperodon
+        text:
+          en:
+            page: en
+            section: s-de4a613dce
+            part: body
+          zh:
+            page: zh
+            section: s-ecd0e847e4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Microhylinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JWL
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-41001513fc
+        part: body
+      zh:
+        page: zh
+        section: s-b429415ed6
+        part: body

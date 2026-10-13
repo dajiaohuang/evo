@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-0a3810a27b
+      part: title
+    titleZh:
+      page: zh
+      section: s-60d5c918b4
+      part: title
+    category: origin
+    startAge: 237
+    endAge: 227.3
+    regions:
+      - Rio del Lago Formation, northeastern Italy
+    clades:
+      - Bobosaurus forojuliensis
+      - Pistosauroidea
+      - Plesiosauria
+    summary:
+      page: en
+      section: s-0a3810a27b
+      part: body
+    summaryZh:
+      page: zh
+      section: s-60d5c918b4
+      part: body
+    claimIds:
+      - claim:event:bobosaurus-plesiosaurian-affinity
+    evidenceItems:
+      - statement: Holotype MFSN 27285 preserves an articulated sauropterygian skeleton from the lower Carnian Rio del Lago Formation with a documented mosaic of nothosaurian and plesiosaurian characters.
+        relation: supports
+        claimIds:
+          - claim:event:bobosaurus-plesiosaurian-affinity
+        referenceLinks:
+          - referenceId: dalla-vecchia-2006-bobosaurus
+            relation: supports
+            pages: 207–225
+            figure: Figures 1–12
+            quoteLocator: Systematic paleontology; comparisons
+    uncertaintyItems:
+      - statement: The original study considered a pistosaurid position or a closer relationship to Plesiosauria; this older candidate is displayed beside, not substituted for, diagnostic Rhaetian Rhaeticosaurus.
+        relation: contextualizes
+        claimIds:
+          - claim:event:bobosaurus-plesiosaurian-affinity
+        referenceLinks:
+          - referenceId: dalla-vecchia-2006-bobosaurus
+            relation: supports
+            pages: 220–224
+            figure: Figure 12
+            quoteLocator: Phylogenetic discussion
+          - referenceId: wintrich-2017-rhaeticosaurus
+            relation: supports
+            pages: e1701144
+            figure: Figures 1–4
+            quoteLocator: Systematic paleontology
+  claims:
+    - subjectId: event:bobosaurus-plesiosaurian-affinity
+      claimKind: scientific
+      claimType: topology
+      statement: The early Carnian Bobosaurus holotype combines nothosaurian and plesiosaurian features and was interpreted near the plesiosaur lineage, but it is an older uncertain candidate rather than diagnostic Plesiosauria; the articulated Rhaetian Rhaeticosaurus provides the older secure comparison used here.
+      confidence: contested
+      confidenceRationale: Bobosaurus is a named articulated specimen, but its placement was presented with alternatives. Rhaeticosaurus preserves a diagnostic articulated skeleton and was tested phylogenetically, allowing evidence age and assignment confidence to remain separate.
+      referenceLinks:
+        - referenceId: dalla-vecchia-2006-bobosaurus
+          relation: supports
+          pages: 207–225
+          figure: Figures 1–12
+          quoteLocator: Description; comparisons; phylogenetic discussion
+        - referenceId: wintrich-2017-rhaeticosaurus
+          relation: supports
+          pages: e1701144
+          figure: Figures 1–4; Supplementary Figures S1–S12
+          quoteLocator: Systematic paleontology; phylogenetic analysis
+  claim-rationales.zh:
+    - Bobosaurus 是具名关节标本，但原研究同时保留替代位置；Rhaeticosaurus 保存诊断性骨架并接受系统分析，因此可把“更老”与“归属更可靠”分开。
+  claim-statements.zh:
+    - 早卡尼期 Bobosaurus 正模兼具幻龙式与蛇颈龙式特征，并被解释为接近蛇颈龙谱系；但它只是更老且不确定的候选，不能替代诊断明确的蛇颈龙类，本包以关节相连的瑞替期 Rhaeticosaurus 作为更可靠的对照。

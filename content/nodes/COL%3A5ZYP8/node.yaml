@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus crepitans
+  displayName: Cophixalus crepitans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5ZYP8
+  sourceIndexes:
+    - name:
+        en: Cophixalus crepitans
+        zh: Cophixalus crepitans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5ZYP8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/440
+            queryName: Cophixalus crepitans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d4f233dd58
+      - s-118a9bf566
+      - s-b2cbb7c019
+      - s-d286f3fb49
+      - s-44d6577f23
+      - s-544c32fbae
+      - s-fb9e1f32cf
+      - s-d3020bced8
+      - s-d3856f55ed
+      - s-82b997e1a8
+    zh:
+      - s-a2faa0b32a
+      - s-7d997db827
+      - s-b23c7ce3b9
+      - s-fa1c7181bc
+      - s-b866972122
+      - s-e61a2acb23
+      - s-d7c1654259
+      - s-c1ed3510c9
+      - s-36373ad7ca
+      - s-1a2c004f38

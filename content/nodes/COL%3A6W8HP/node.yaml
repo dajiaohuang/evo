@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis gaigei
+  displayName: Pristimantis gaigei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W8HP
+  sourceIndexes:
+    - name:
+        en: Pristimantis gaigei
+        zh: Pristimantis gaigei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W8HP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/282
+            queryName: Pristimantis gaigei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/91
+            queryName: Eleutherodactylus gaigeae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/325
+            queryName: Lithodytes gaigei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/326
+            queryName: Eleutherodactylus gaigei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/327
+            queryName: Pristimantis gaigeae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-419c5ccb38
+      - s-58fa1898d1
+      - s-ca9b8ad1b3
+      - s-71352a017e
+      - s-332cfabb1f
+      - s-90acf357d1
+      - s-fa73942d34
+      - s-f43316b342
+      - s-9107490ab1
+      - s-da440091e5
+      - s-fbe2e98226
+      - s-68b9f54cef
+      - s-fd56e75c26
+      - s-15a9cab663
+      - s-1406b1d8f7
+      - s-ad69b210e4
+      - s-2e8d791d75
+      - s-91145cca94
+    zh:
+      - s-b81c192ec8
+      - s-2d7a7815c1
+      - s-97a9861236
+      - s-091a7da989
+      - s-7e58394d75
+      - s-0674965be2
+      - s-c254745a0e
+      - s-6cf4e638b2
+      - s-caa9a43c07
+      - s-419d5eae98
+      - s-36402482a5
+      - s-43613471da
+      - s-20c722ab2f
+      - s-20095dde40
+      - s-5395e9ca98
+      - s-5f11d06a96
+      - s-049e71ed19
+      - s-4450939405

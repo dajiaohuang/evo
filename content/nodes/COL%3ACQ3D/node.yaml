@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma annulatum
+  displayName: Ambystoma annulatum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ3D
+  sourceIndexes:
+    - name:
+        en: Ambystoma annulatum
+        zh: Ambystoma annulatum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ3D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/231
+            queryName: Ambystoma annulatum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/425
+            queryName: Amblystoma annulatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/468
+            queryName: Linguaelapsus annulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/469
+            queryName: Linguaelapsus annulatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1b098b7872
+      - s-9b22d5d798
+      - s-2666ad4418
+      - s-24cc29f0b5
+      - s-1a27743954
+      - s-54db5d39b5
+      - s-e31aa2941c
+      - s-2790485840
+      - s-a1deaa0963
+    zh:
+      - s-8844a359f9
+      - s-eae9fada4c
+      - s-b58c82a2e7
+      - s-fc52b20432
+      - s-87f15db20b
+      - s-3f3b38ab86
+      - s-39ccab21d1
+      - s-484dbb7f01
+      - s-46f18654c7

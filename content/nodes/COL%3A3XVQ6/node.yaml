@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mannophryne oblitterata
+  displayName: Mannophryne oblitterata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XVQ6
+  sourceIndexes:
+    - name:
+        en: Mannophryne oblitterata
+        zh: Mannophryne oblitterata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XVQ6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/272
+            queryName: Mannophryne oblitterata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/328
+            queryName: Colostethus oblitteratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/329
+            queryName: Colostethus guatopoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ffd0ca32c
+      - s-bc7da901d1
+      - s-ab2a0d8c7e
+      - s-e994b9deef
+      - s-528eeeb01e
+      - s-3056d1a2ac
+      - s-58df33a33b
+      - s-63937aef0f
+      - s-dd60a8d1d3
+    zh:
+      - s-4ff794a5c3
+      - s-2439676e98
+      - s-adaac1108d
+      - s-e7745e5940
+      - s-f85eb49dfd
+      - s-b7e63f5d2a
+      - s-cc7e5a8cc9
+      - s-20d4088304
+      - s-dc47961a5c

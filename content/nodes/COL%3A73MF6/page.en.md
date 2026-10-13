@@ -1,0 +1,3 @@
+## ## Malpighian hairs and clawed yellow petals {#s-615a334d42}
+The Brazilian Flora 2020 entry records rust-colored or translucent Malpighian hairs on young branches, leaflet undersides, pedicels, outer sepal and petal surfaces, and ovaries. The stipules are present and divided into one to five segments. Pinnate leaves bear elliptic leaflets with rounded, blunt or notched tips and rolled-under margins. Racemes are solitary or clustered. The five-part flowers lack a hypanthium and have yellow, clawed petals; the stamens are dimorphic, with nine staminodes whose filaments are short and fleshy. The oblong legume has a wing along its upper suture. A habitat field says “terrestrial,” but no locality is supplied.
+

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus sorianoi
+  displayName: Atelopus sorianoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/687KD
+  sourceIndexes:
+    - name:
+        en: Atelopus sorianoi
+        zh: Atelopus sorianoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 687KD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/320
+            queryName: Atelopus sorianoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b1baa7a18d
+      - s-0b5974f2ea
+      - s-053f77a94d
+      - s-d518fc7649
+      - s-e3009f2ae9
+      - s-55feb7e91b
+      - s-a3454a8437
+      - s-40371c7f02
+      - s-df8e1efe45
+      - s-a88fa146b4
+      - s-d2b93cf142
+    zh:
+      - s-93892ce3a6
+      - s-98c6d2034e
+      - s-55eb9e1f63
+      - s-566281ff90
+      - s-e9f5ce7c84
+      - s-b9f639e386
+      - s-687a205106
+      - s-c34c1b9ecb
+      - s-2635f8ebc8
+      - s-9a9ef47476
+      - s-c5aea9c22d

@@ -1,0 +1,3 @@
+## ## Nectar glands along the leaf stalk and rachis {#s-05d3274868}
+Brazilian Flora 2020 describes a xylopodium and alternate leaves arranged in two ranks. Their oval stipules have a mucronate tip and an ear-shaped base; extrafloral nectar glands occur on the petiole and rachis. Each leaf has 4–9 pairs of oblong, sometimes slightly sickle-shaped leaflets, 9.5–19 mm long and 2.3–7.8 mm wide. The axillary inflorescences have few flowers. The linear-oblong pods are 3.5–4.5 cm long, with brown valves that may be hairless or finely puberulent. The record also notes ten stamens, yellow petals of differing forms, and depressed obovoid seeds. It classifies the plant as terrestrial.
+

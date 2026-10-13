@@ -1,0 +1,3 @@
+## ## One to three pairs of leaflets {#s-1dff87f03a}
+The Brazilian Flora 2020 entry records paripinnate leaves with one to three pairs of leaflets; stipules are shed or absent. The rachis is recorded as absent, present or not winged. The oblong to oblong-elliptic leaflets have acute bases and rounded or truncate tips, with no punctures on the lower surface. Racemes have a hairless rachis. Flowers are recorded with a hairless hypanthium, five sepals including a joined pair, a clawed obovate petal, three stamens with hairy filaments and a hairless ovary. The fruit is a legume; seed form was not observed. These are the fields recorded in the regional dataset, not a complete account of variation.
+

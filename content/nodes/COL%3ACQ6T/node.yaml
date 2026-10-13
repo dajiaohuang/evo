@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega flavopicta
+  displayName: Ameerega flavopicta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ6T
+  sourceIndexes:
+    - name:
+        en: Ameerega flavopicta
+        zh: Ameerega flavopicta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ6T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/262
+            queryName: Ameerega flavopicta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/210
+            queryName: Epipedobates flavopictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/254
+            queryName: Hylaplesia flavopicta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/255
+            queryName: Dendrobates flavopictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/105
+            queryName: Dendrobates pictus flavopictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b7b07c964
+      - s-cb0455107a
+      - s-bcd1ac786e
+      - s-ceaa410c0d
+      - s-d6050ce2e6
+      - s-9cfaabc54e
+      - s-3d0330064b
+      - s-34ffe2f805
+      - s-db8c76e964
+      - s-3e4c3d57ef
+      - s-d8a9aecc5a
+      - s-b02458c9ac
+      - s-055df716f1
+      - s-02ae785535
+      - s-8a370c349c
+      - s-352cd39357
+      - s-95fc974967
+      - s-8e37860ba3
+      - s-68ed01923f
+      - s-6879120485
+      - s-171810d553
+      - s-0f23de4ec3
+    zh:
+      - s-c4ae3a6b9b
+      - s-e174b16e70
+      - s-e7ffdd5046
+      - s-c503a813b6
+      - s-6099304a4b
+      - s-0f571cc302
+      - s-cce657113a
+      - s-e75a832a7e
+      - s-7d4cd87ed2
+      - s-87766b1c33
+      - s-94325ecabc
+      - s-1e45f89e19
+      - s-0a249c06be
+      - s-c80212f71a
+      - s-98d46ead1e
+      - s-8e6b38368d
+      - s-be8fae13a6
+      - s-ec326451c6
+      - s-83600ebc89
+      - s-68ae561514
+      - s-196a3f9fe8
+      - s-10944663ba

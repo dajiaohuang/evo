@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Clinotarsus alticola
+    name:
+      en: Clinotarsus alticola
+      zh: Clinotarsus alticola
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Clinotarsus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cdcc42b7ef
+            part: body
+          zh:
+            page: zh
+            section: s-74f600c149
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-dd1a090399
+            part: body
+          zh:
+            page: zh
+            section: s-39f27702c7
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1176; Reference.csv rows 3797
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1176
+        values:
+          - Ranidae
+          - Clinotarsus
+          - Clinotarsus alticola
+          - M
+          - "35.4"
+          - "14.2662"
+          - "11.1864"
+          - "4.6728"
+          - "3.2922"
+          - "0.6726"
+          - NA
+          - NA
+          - "2.9028"
+          - "3.6108"
+          - NA
+          - NA
+          - "9.381"
+          - "8.142"
+          - NA
+          - "16.1424"
+          - NA
+          - "20.178"
+          - NA
+          - NA
+          - NA
+          - "1.0266"
+          - NA
+          - NA
+          - NA
+          - "9.1686"
+          - NA
+          - NA
+          - NA
+          - "5.9118"
+          - NA
+          - NA
+          - NA
+          - "1.1328"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.062"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3797
+        values:
+          - Anura
+          - Clinotarsus_alticola
+          - "Grosjean, S., Bordoloi, S., Chuaynkern, Y., Chakravarty, P., & Ohler, A. (2015). When young are more conspicuous than adults: A new ranid species (Anura: Ranidae) revealed by its tadpole. Zootaxa, 4058, 471-498. https://doi.org/10.11646/zootaxa.4058.4.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - UEW
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - IMT
+      - Toe4L
+      - Fin3L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - W73H
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

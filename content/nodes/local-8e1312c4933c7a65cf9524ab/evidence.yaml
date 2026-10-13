@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gracixalus lumarius
+    name:
+      en: Gracixalus lumarius
+      zh: Gracixalus lumarius
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Gracixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b101037970
+            part: body
+          zh:
+            page: zh
+            section: s-a1f9cbb529
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fb1b0d3c89
+            part: body
+          zh:
+            page: zh
+            section: s-0f9eed8823
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2039, 2040; Reference.csv rows 473
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2039
+        values:
+          - Rhacophoridae
+          - Gracixalus
+          - Gracixalus lumarius
+          - M
+          - "40"
+          - "14"
+          - "15.3"
+          - "4.966666667"
+          - "1.8"
+          - "1.066666667"
+          - "4.666666667"
+          - "4"
+          - NA
+          - "2.9"
+          - "5.933333333"
+          - "2.266666667"
+          - "14.16666667"
+          - NA
+          - NA
+          - "18.96666667"
+          - NA
+          - "19.83333333"
+          - NA
+          - NA
+          - NA
+          - "2.033333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2040
+        values:
+          - Rhacophoridae
+          - Gracixalus
+          - Gracixalus lumarius
+          - F
+          - "36.3"
+          - "12.7"
+          - "14.1"
+          - "3.9"
+          - "1.7"
+          - "1.2"
+          - "4.5"
+          - "3.6"
+          - NA
+          - "3"
+          - "5.6"
+          - "2.3"
+          - "12.5"
+          - NA
+          - NA
+          - "17"
+          - NA
+          - "18.4"
+          - NA
+          - NA
+          - NA
+          - "2.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 473
+        values:
+          - Anura
+          - Gracixalus_lumarius
+          - "Rowley, J. J., Le, D. T., Dau, V. Q., Hoang, H. D., & Cao, T. T. (2014). A striking new species of phytotelm-breeding tree frog (Anura: Rhacophoridae) from central Vietnam. Zootaxa, 3785, 25-37. https://doi.org/10.11646/zootaxa.3785.1.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FL
+      - TL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3H5CH
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

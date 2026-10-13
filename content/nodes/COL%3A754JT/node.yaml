@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax rugosus
+  displayName: Oreolalax rugosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/754JT
+  sourceIndexes:
+    - name:
+        en: Oreolalax rugosus
+        zh: Oreolalax rugosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 754JT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/227
+            queryName: Oreolalax rugosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/76
+            queryName: Scutiger rugosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4f8aa3a0a3
+      - s-eb42e2b133
+      - s-7236b3f315
+      - s-8914a31754
+      - s-d7575195fd
+      - s-0c6886ed30
+      - s-a11d9d6404
+      - s-9a00f7895b
+      - s-ec8ab0c010
+      - s-2b5de05ad4
+    zh:
+      - s-f706df698c
+      - s-04e6530ec2
+      - s-2817a8e20f
+      - s-c791377be2
+      - s-2f73c4cf8d
+      - s-f5117cb577
+      - s-a0e9c21d2a
+      - s-dac011ff77
+      - s-d05a03f157
+      - s-4027cc559c

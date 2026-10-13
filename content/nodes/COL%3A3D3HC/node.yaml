@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea naufragia
+  displayName: Eurycea naufragia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3HC
+  sourceIndexes:
+    - name:
+        en: Eurycea naufragia
+        zh: Eurycea naufragia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3HC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/424
+            queryName: Eurycea naufragia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1eea69f1ee
+      - s-cf8d821e61
+      - s-31c7cb4cc5
+      - s-5048f86363
+      - s-c3c705c747
+      - s-55d30e8815
+      - s-e5b8e29eed
+      - s-1951fabbca
+      - s-4e9c5c5931
+    zh:
+      - s-b7740850f6
+      - s-5c0275f10c
+      - s-ae6ef7f5e9
+      - s-c6243019a1
+      - s-3aa994187a
+      - s-da44303567
+      - s-e3ce53895d
+      - s-73b7b27c72
+      - s-0a568d26ee

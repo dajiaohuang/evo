@@ -1,0 +1,9 @@
+## 来源中的研究概念 {#s-cad3fc04dd}
+AmphiBIO v1 将 *Ceratophrys testudo* 记为 Anf1162 行，分类为 Ceratophrys 属、Ceratophryidae 科、Anura 目。汇编采用 Amphibian Species of the World（Frost 2011）的物种概念。以下数值属于这条存档记录；尚未确定它与当前 COL26.8 物种概念的对应关系。
+
+## 觅食层位 {#s-a64fe05f1f}
+该行将穴居 (Fos = 1)、陆栖 (Ter = 1)列为宽泛的觅食类别。Fos 指与掘穴有关的类别。这些类别没有说明季节或生活阶段的变化。后续 TetrapodTraits 修订报告改正了从早期汇编沿用的部分微栖地记录；这条记录尚未按行与该修订核对，因此这些标记仍是历史 AmphiBIO 值，并非已核实的现今生态描述。
+
+## 发育方式 {#s-b27585f580}
+该行将幼体阶段 (Lar = 1)列为发育类别。这些来源字段没有说明亲代照料、繁殖地点或季节时序。
+

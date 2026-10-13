@@ -1,0 +1,165 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Thaumastosaurus gezei
+    rank: species
+    sourceTaxonId: txn:361645
+    name:
+      en: Thaumastosaurus gezei
+      zh: Thaumastosaurus gezei
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-a5abf9d8eb
+            part: body
+          zh:
+            page: zh
+            section: s-12b43c259f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 3 PBDB occurrence rows and collection fields
+          zh: 3 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-ad6b7c1c19
+            part: body
+          zh:
+            page: zh
+            section: s-197c2dfec2
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Thaumastosaurus gezei
+          zh: Thaumastosaurus gezei 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-c795628c62
+            part: body
+          zh:
+            page: zh
+            section: s-92272853b7
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:361645; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: F. Laloy, J.-C. Rage, and S. E. Evans, R. Boistel, N. Lenoir, M. Laurin. 2013. A Re-Interpretation of the Eocene Anuran Thaumastosaurus Based on MicroCT Examination of a ‘Mummified’ Specimen. PLoS ONE 8(12):e74874:1
+    occurrenceEvidence:
+      - occurrenceId: occ:1341214
+        collectionId: col:179194
+        acceptedTaxonId: txn:361645
+        identifiedTaxonId: txn:346351
+        identifiedName: Rana plicata n. sp.
+        taxonomicDifference: null
+        referenceId: ref:60203
+        bibliography: "J.-C. Rage. 2006. The lower vertebrates from the Eocene and Oligocene of the Phosphorites du Quercy (France): an overview. Strata 1(13):161-173"
+        locality:
+          countryCode: FR
+          stateProvince: Languedoc-Roussillon-Midi-Pyrénées
+          county: Lot
+        stratigraphy:
+          group: null
+          formation: Quercy Phosphorites
+          member: null
+        olderAgeMa: 37.71
+        youngerAgeMa: 15.98
+      - occurrenceId: occ:1416424
+        collectionId: col:183665
+        acceptedTaxonId: txn:361645
+        identifiedTaxonId: txn:346351
+        identifiedName: Rana plicata
+        taxonomicDifference: null
+        referenceId: ref:63535
+        bibliography: F. Laloy, J.-C. Rage, and S. E. Evans, R. Boistel, N. Lenoir, M. Laurin. 2013. A Re-Interpretation of the Eocene Anuran Thaumastosaurus Based on MicroCT Examination of a ‘Mummified’ Specimen. PLoS ONE 8(12):e74874:1
+        locality:
+          countryCode: FR
+          stateProvince: Languedoc-Roussillon-Midi-Pyrénées
+          county: null
+        stratigraphy:
+          group: null
+          formation: Quercy Phosphorites
+          member: null
+        olderAgeMa: 37.71
+        youngerAgeMa: 33.9
+      - occurrenceId: occ:1416425
+        collectionId: col:183665
+        acceptedTaxonId: txn:361645
+        identifiedName: Thaumastosaurus gezei n. sp.
+        taxonomicDifference: null
+        referenceId: ref:63535
+        bibliography: F. Laloy, J.-C. Rage, and S. E. Evans, R. Boistel, N. Lenoir, M. Laurin. 2013. A Re-Interpretation of the Eocene Anuran Thaumastosaurus Based on MicroCT Examination of a ‘Mummified’ Specimen. PLoS ONE 8(12):e74874:1
+        locality:
+          countryCode: FR
+          stateProvince: Languedoc-Roussillon-Midi-Pyrénées
+          county: null
+        stratigraphy:
+          group: null
+          formation: Quercy Phosphorites
+          member: null
+        olderAgeMa: 37.71
+        youngerAgeMa: 33.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Thaumastosaurus gezei
+          zh: Thaumastosaurus gezei 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-c795628c62
+            part: body
+          zh:
+            page: zh
+            section: s-92272853b7
+            part: body
+        sourceIds: []

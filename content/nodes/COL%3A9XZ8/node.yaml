@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adelophryne pachydactyla
+  displayName: Adelophryne pachydactyla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9XZ8
+  sourceIndexes:
+    - name:
+        en: Adelophryne pachydactyla
+        zh: Adelophryne pachydactyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9XZ8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/16
+            queryName: Adelophryne pachydactyla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-686b5c82f8
+      - s-55b2c12f06
+      - s-bdff44009f
+      - s-c7ab87ab1f
+      - s-30ea549238
+      - s-c15cd14de1
+      - s-b4b2202412
+      - s-d3f8522f82
+      - s-54854f65d9
+      - s-c4a93d5a92
+      - s-49c5c04661
+      - s-31e252bd2d
+      - s-afa0e860c8
+    zh:
+      - s-6a30a5fadf
+      - s-e2c1bd2894
+      - s-1316482868
+      - s-25bdf991d7
+      - s-69beda254c
+      - s-24f31c0d55
+      - s-51e8f846d0
+      - s-496270bc3e
+      - s-43c73aa040
+      - s-836c78befb
+      - s-97f03cadb9
+      - s-1d0a96b9c8
+      - s-a3d0b07efa

@@ -1,0 +1,12 @@
+## Which source name is assigned to this tadpole record? {#s-4037c267ea}
+This record shows how TadpoleTraits files tadpoles under Leptodactylus podicipinus. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Leptodactylus podicipinus in Leptodactylus and Leptodactylidae. In the literature table, rows 2945, 2946, 2947 list Leptodactylus podicipinus in both the source Species and ASTW assignment fields. In the image-measurement table, rows 657 list Leptodactylus podicipinus in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-c280c17d85}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 3 literature rows and 1 image-measurement row for this source record. Literature Stage values are 31, 37 (row 2945); 36 (row 2946); 39 (row 2947). Sample size is entered by row (row 2945: n=3; row 2946: n=1; row 2947: n=1). Image-table Stage values are 34 (Judging based on the picture) (row 657); Type labels are Measurement and image types are Color image. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-0332b005a4}
+The image-derived records support these source proportions: body length / total length = 0.342839 (image row 657, stage 34 (Judging based on the picture), Color image); tail length / total length = 0.656289 (image row 657, stage 34 (Judging based on the picture), Color image); maximum body height / total length = 0.181220 (image row 657, stage 34 (Judging based on the picture), Color image); maximum tail height / total length = 0.166795 (image row 657, stage 34 (Judging based on the picture), Color image); maximum body width / total length = 0.215556 (image row 657, stage 34 (Judging based on the picture), Color image). Each value describes only its cited image row; it is not a species-wide estimate.
+
+## Where do the supplied ratios disagree? {#s-5f3d6e7cfa}
+The source ratio cells in image row 657 contain 4 discrepancies from the quotient of the same-row numerator and total length, including fields TMH/TL, DFH/TL, VFH/TL, TMW/TL. Their original values remain in the evidence record; no correction is substituted and these cells are not used as proportions.
+

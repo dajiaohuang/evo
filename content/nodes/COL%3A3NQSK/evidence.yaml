@@ -1,0 +1,187 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyperolius davenporti Loader, Lawson, Portik & Menegon, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyperolius davenporti
+      zh: Hyperolius davenporti
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1128b632bb
+            part: title
+          zh:
+            page: zh
+            section: s-b11fa86b39
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1128b632bb
+            part: body
+          zh:
+            page: zh
+            section: s-b11fa86b39
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ca3e2a6ef6
+            part: title
+          zh:
+            page: zh
+            section: s-c4badf47e5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ca3e2a6ef6
+            part: body
+          zh:
+            page: zh
+            section: s-c4badf47e5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-53a05bfe2c
+            part: title
+          zh:
+            page: zh
+            section: s-470cd3bfee
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-53a05bfe2c
+            part: body
+          zh:
+            page: zh
+            section: s-470cd3bfee
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-45f8939737ada8b121f80c5e
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8d6272b3c6
+            part: title
+          zh:
+            page: zh
+            section: s-3f416bf88b
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8d6272b3c6
+            part: body
+          zh:
+            page: zh
+            section: s-3f416bf88b
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: limitations
+        title:
+          en: Scope of these records
+          zh: 现有证据的范围
+        text:
+          en:
+            page: en
+            section: s-94c01875d8
+            part: body
+          zh:
+            page: zh
+            section: s-b2f6a46c8c
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyperolius davenporti
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NQSK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2287, 2288; Reference.csv rows 2348
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-025d2ef5ca
+        part: body
+      zh:
+        page: zh
+        section: s-0dde92c38e
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-45f8939737ada8b121f80c5e
+        scientificName: Hyperolius davenporti
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus iovaorum
+  displayName: Cophixalus iovaorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44B
+  sourceIndexes:
+    - name:
+        en: Cophixalus iovaorum
+        zh: Cophixalus iovaorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/454
+            queryName: Cophixalus iovaorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2f13ab5eea
+      - s-68f2207575
+      - s-9b51d1f8dc
+      - s-3fbfc0f0c1
+      - s-ee11c44ff0
+      - s-2435bbc76e
+    zh:
+      - s-6ee8478dfe
+      - s-a9b5a46d7c
+      - s-e0eaa97d71
+      - s-fddc8a0a23
+      - s-03f2cbf03d
+      - s-5202525604

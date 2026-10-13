@@ -1,0 +1,3 @@
+## Leaf, flower, and fruit characters {#s-e34ead0849}
+The Brazilian Flora 2020 field lists petioles as either 0.6–0.9 cm long or longer than 1 cm, and leaf blades as 8–16 cm long. It records 7–11 pairs of secondary veins, impressed veins on the ventral leaf face, and prominent veins on the dorsal face. The dorsal leaf face is hirsute; stipule tips are acute or acuminate, and their dorsal surface is also recorded as hirsute. Inflorescences are paniculate. The calyx is truncate or nearly truncate and glabrous; the corolla is silky on the outside, and the style is hairy. The fruit is cylindrical. The field retains alternatives for several characters.
+

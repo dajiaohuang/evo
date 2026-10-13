@@ -1,0 +1,3 @@
+## *Pteronia elata*: opposite leaves and golden bracts {#s-e329b82636}
+The regional account describes a 1–2 m shrub. Its opposite leaves may be spaced along the stem or crowded on short side shoots; the blades range from spoon-shaped to narrowly inversely egg-shaped, with white teeth along otherwise hairless edges. Solitary flower heads sit at branch tips on short stalks. Their overlapping bracts are leathery, pale gold to straw-coloured and brownish near the tip; the disc florets are yellow. The fruitlets are densely short-haired and the pappus is brownish. The account records mountain slopes as habitat.
+

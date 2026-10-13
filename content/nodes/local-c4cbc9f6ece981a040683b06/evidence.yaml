@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rana uenoi
+    name:
+      en: Rana uenoi
+      zh: Rana uenoi
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Rana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f52d8856d3
+            part: body
+          zh:
+            page: zh
+            section: s-5bf89a336d
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b386f68cd3
+            part: body
+          zh:
+            page: zh
+            section: s-609a4fc5b0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5208, 5209; Reference.csv rows 4014
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5208
+        values:
+          - Ranidae
+          - Rana
+          - Rana uenoi
+          - M
+          - "57.5"
+          - "20.585"
+          - "20.0675"
+          - "6.4975"
+          - "4.14"
+          - NA
+          - "3.45"
+          - "4.5425"
+          - "4.7725"
+          - NA
+          - "8.4525"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "34.73"
+          - NA
+          - "32.775"
+          - "30.705"
+          - NA
+          - "106.03"
+          - "3.335"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5209
+        values:
+          - Ranidae
+          - Rana
+          - Rana uenoi
+          - F
+          - "69.4"
+          - "24.1512"
+          - "23.6654"
+          - "7.5646"
+          - "4.5804"
+          - NA
+          - "4.0946"
+          - "4.9968"
+          - "5.6908"
+          - NA
+          - "10.1324"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "40.5296"
+          - NA
+          - "38.7252"
+          - "36.2962"
+          - NA
+          - "122.9074"
+          - "3.8864"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4014
+        values:
+          - Anura
+          - Rana_uenoi
+          - "Matsui, M. (2014). Description of a new brown frog from Tsushima Island, Japan (Anura: Ranidae: Rana). Zoological science, 31, 613-620. https://doi.org/10.2108/zs140080"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - FL
+      - TL
+      - THL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6X38Z
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

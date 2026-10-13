@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Incilius aucoinae
+  displayName: Incilius aucoinae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PLBZ
+  sourceIndexes:
+    - name:
+        en: Incilius aucoinae
+        zh: Incilius aucoinae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PLBZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/437
+            queryName: Incilius aucoinae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/416
+            queryName: Bufo aucoinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/417
+            queryName: Cranopsis aucoinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/418
+            queryName: Ollotis aucoinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e8e78231e7
+      - s-7e551dfe79
+      - s-cd26a7ad30
+      - s-5153afab30
+      - s-a849b7d6ae
+      - s-b9fae3365f
+      - s-ef4d506fd8
+      - s-38073459a9
+      - s-948f72cdfc
+      - s-00fcb0d468
+      - s-c562f18f79
+    zh:
+      - s-33d0b2b2ee
+      - s-ccf9d1b5cb
+      - s-90bbed9341
+      - s-e1b3dc95d2
+      - s-d600b13733
+      - s-4428fae910
+      - s-66877448c0
+      - s-4158715fed
+      - s-6a23756910
+      - s-7f3d2dd4fc
+      - s-778ed6fbd6

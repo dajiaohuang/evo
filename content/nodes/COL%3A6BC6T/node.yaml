@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor milesi
+  displayName: Craugastor milesi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC6T
+  sourceIndexes:
+    - name:
+        en: Craugastor milesi
+        zh: Craugastor milesi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC6T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/141
+            queryName: Craugastor milesi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/134
+            queryName: Eleutherodactylus milesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0e31625014
+      - s-72c874aba7
+      - s-d6e7701283
+      - s-bb74674bc8
+      - s-66a2f0bbc5
+      - s-9ef357fdc4
+      - s-75bd8c0478
+      - s-05cf71be40
+      - s-c9f501ec0f
+      - s-0dd7f3f7de
+    zh:
+      - s-411385e77e
+      - s-b29a8e9ff0
+      - s-6dbc620d2f
+      - s-b16753fde1
+      - s-443d924518
+      - s-bb0aef6817
+      - s-162416f249
+      - s-0ed5500dc9
+      - s-83ae823da0
+      - s-ac4fc4de32

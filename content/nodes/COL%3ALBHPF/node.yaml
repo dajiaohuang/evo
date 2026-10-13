@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops pallasitatus
+  displayName: Amolops pallasitatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LBHPF
+  sourceIndexes:
+    - name:
+        en: Amolops pallasitatus
+        zh: Amolops pallasitatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LBHPF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/393
+            queryName: Amolops pallasitatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c37526b95
+      - s-c403f59fd9
+      - s-129c83363a
+      - s-1f2ce80028
+      - s-16d36f7b43
+      - s-f108d7c847
+      - s-8944f42cbb
+      - s-50be15dbe1
+      - s-a2cfbc860f
+    zh:
+      - s-8bd9c5a20c
+      - s-d3a8569101
+      - s-33d48b5d00
+      - s-ed009ffc82
+      - s-f2a9db4c11
+      - s-75a0944cb3
+      - s-38e42de340
+      - s-e31285378d
+      - s-99a1619bcc

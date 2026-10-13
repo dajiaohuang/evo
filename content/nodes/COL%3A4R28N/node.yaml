@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Quasipaa jiulongensis
+  displayName: Quasipaa jiulongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4R28N
+  sourceIndexes:
+    - name:
+        en: Quasipaa jiulongensis
+        zh: Quasipaa jiulongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4R28N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/30
+            queryName: Quasipaa jiulongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/492
+            queryName: Paa jiulongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/342
+            queryName: Rana jiulongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/343
+            queryName: Nanorana jiulongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-61bc366dcf
+      - s-419b432a4f
+      - s-ba50a2e541
+      - s-571748dd45
+      - s-1dcdde55db
+      - s-c767495d72
+      - s-7eec4921f0
+      - s-7099cc5be0
+      - s-8c6f0d570f
+    zh:
+      - s-530b0bccc1
+      - s-6caa27a31f
+      - s-c9e1f99f4d
+      - s-42fae925f8
+      - s-866d395cb1
+      - s-06914f7901
+      - s-ef9b010381
+      - s-f4d3ae95bc
+      - s-5687559489

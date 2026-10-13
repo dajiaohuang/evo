@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oedipina grandis
+  displayName: Oedipina grandis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74JLM
+  sourceIndexes:
+    - name:
+        en: Oedipina grandis
+        zh: Oedipina grandis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74JLM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/73
+            queryName: Oedipina grandis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d99c48cb9a
+      - s-68188d7ff5
+      - s-baf9d02580
+      - s-88eda54b73
+      - s-4efa8e1db9
+      - s-3d5206ab0c
+      - s-6a126f3327
+      - s-d248e55c82
+      - s-2631be4c2c
+    zh:
+      - s-481fe58f30
+      - s-110987f8d2
+      - s-e7b7ccd0ea
+      - s-cbb2c590ac
+      - s-4090be9b01
+      - s-a343c00357
+      - s-eaca2ffe3a
+      - s-d1ef7f024d
+      - s-e7743bbe17

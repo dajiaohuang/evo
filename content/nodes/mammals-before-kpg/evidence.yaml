@@ -1,0 +1,109 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-0833368525
+      part: title
+    titleZh:
+      page: zh
+      section: s-391b7842de
+      part: title
+    dek:
+      page: en
+      section: s-0833368525
+      part: body
+    overviewZh:
+      page: zh
+      section: s-391b7842de
+      part: body
+    theme: violet
+    durationMinutes: 6
+    featured: false
+    steps:
+      - id: synapsids
+        title:
+          page: en
+          section: s-e7f117e5ed
+          part: title
+        titleZh:
+          page: zh
+          section: s-b97cc575e1
+          part: title
+        text:
+          page: en
+          section: s-e7f117e5ed
+          part: body
+        textZh:
+          page: zh
+          section: s-b97cc575e1
+          part: body
+        age: 300
+        timeRange:
+          - 320
+          - 250
+        taxonIds:
+          - synapsida
+        view: tree
+        claimLinks:
+          - claimId: claim:event:amniote-divergence
+            relation: contextualizes
+      - id: mesozoic
+        title:
+          page: en
+          section: s-a9f3dee429
+          part: title
+        titleZh:
+          page: zh
+          section: s-49d73f3edd
+          part: title
+        text:
+          page: en
+          section: s-a9f3dee429
+          part: body
+        textZh:
+          page: zh
+          section: s-49d73f3edd
+          part: body
+        age: 150
+        timeRange:
+          - 220
+          - 66
+        taxonIds:
+          - mammalia
+        view: evidence
+        claimLinks: []
+      - id: after
+        title:
+          page: en
+          section: s-cdf3712b16
+          part: title
+        titleZh:
+          page: zh
+          section: s-b87d4f9d0a
+          part: title
+        text:
+          page: en
+          section: s-cdf3712b16
+          part: body
+        textZh:
+          page: zh
+          section: s-b87d4f9d0a
+          part: body
+        age: 58
+        timeRange:
+          - 66
+          - 50
+        taxonIds:
+          - mammalia
+          - placentalia
+        view: tree
+        eventId: k-pg-extinction
+        claimLinks:
+          - claimId: claim:event:k-pg-extinction
+            relation: contextualizes
+    evidenceStatus: blocked-pending-step-evidence
+    dekZh:
+      page: zh
+      section: zh-1f1e4605232f64
+      part: body

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne cameroni
+  displayName: Oreophryne cameroni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/755WG
+  sourceIndexes:
+    - name:
+        en: Oreophryne cameroni
+        zh: Oreophryne cameroni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 755WG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/251
+            queryName: Oreophryne cameroni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5fd9c777a7
+      - s-c4cd19a8a3
+      - s-31c5625405
+      - s-0f88f37dc9
+      - s-2d67ac68f4
+      - s-e746007e72
+      - s-fb31be31e8
+      - s-5a0ae97a48
+    zh:
+      - s-155f14e03a
+      - s-6706db129c
+      - s-a2a32e8fa8
+      - s-84da9d2066
+      - s-cacd62e022
+      - s-b4dd697939
+      - s-e07854638e
+      - s-984a181165

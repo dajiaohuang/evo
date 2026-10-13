@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Xanthophryne tigerina
+    name:
+      en: Xanthophryne tigerina
+      zh: Xanthophryne tigerina
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Xanthophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Xanthophryne tigerina in the morphology deposit
+          zh: 形态数据中的 Xanthophryne tigerina 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-98f1ad94b3
+            part: body
+          zh:
+            page: zh
+            section: s-1aed27e6eb
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 6029 and 6030: measurement fields and sex codes"
+          zh: 第 6029、6030 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-643a5089c9
+            part: body
+          zh:
+            page: zh
+            section: s-54f4524cef
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 6029, 6030; Reference.csv rows 2788
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 6029
+        values:
+          - Bufonidae
+          - Xanthophryne
+          - Xanthophryne tigerina
+          - M
+          - "30.8"
+          - "10"
+          - "10.3"
+          - "3.4"
+          - NA
+          - NA
+          - "2.3"
+          - NA
+          - "3.1"
+          - NA
+          - "4"
+          - NA
+          - "6.8"
+          - "6.1"
+          - NA
+          - "12.8"
+          - NA
+          - "11.5"
+          - "9.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 6030
+        values:
+          - Bufonidae
+          - Xanthophryne
+          - Xanthophryne tigerina
+          - F
+          - "34.2"
+          - "11.4"
+          - "12.5"
+          - "4.5"
+          - NA
+          - NA
+          - "2.6"
+          - NA
+          - "3.3"
+          - NA
+          - "4.6"
+          - NA
+          - "7"
+          - "6.5"
+          - NA
+          - "13.2"
+          - NA
+          - "11.8"
+          - "10.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2788
+        values:
+          - Anura
+          - Xanthophryne_tigerina
+          - "Biju, S., Van Bocxlaer, I., Giri, V. B., Loader, S. P., & Bossuyt, F. (2009). Two new endemic genera and a new species of toad (Anura: Bufonidae) from the Western Ghats of India. BMC Res Notes, 2, 241. https://doi.org/10.1186/1756-0500-2-241"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

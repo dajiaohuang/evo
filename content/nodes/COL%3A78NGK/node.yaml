@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena amharensis
+  displayName: Ptychadena amharensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78NGK
+  sourceIndexes:
+    - name:
+        en: Ptychadena amharensis
+        zh: Ptychadena amharensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78NGK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/452
+            queryName: Ptychadena amharensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-78c9d6ba3a
+      - s-e2eb0f4395
+      - s-a315c6dc11
+      - s-56715fd28a
+      - s-f81fc77c3f
+      - s-68cb1c3178
+      - s-abf7eafc64
+      - s-8ec23ff8fc
+      - s-5cd2de9bb0
+      - s-417e365223
+      - s-5940615019
+      - s-6b23eb9b2c
+      - s-fc48a4adde
+    zh:
+      - s-ba49c24787
+      - s-790caf321c
+      - s-81aadad575
+      - s-ce27d25201
+      - s-e7f25f24eb
+      - s-b5e5c240c7
+      - s-ecd4abea02
+      - s-91828ecb97
+      - s-7135ad856f
+      - s-c53800e3d4
+      - s-401bccd39d
+      - s-ef009eac64
+      - s-73b9ffdb16

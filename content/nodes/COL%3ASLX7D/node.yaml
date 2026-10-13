@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes keirasabinae
+  displayName: Raorchestes keirasabinae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SLX7D
+  sourceIndexes:
+    - name:
+        en: Raorchestes keirasabinae
+        zh: Raorchestes keirasabinae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SLX7D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/164
+            queryName: Raorchestes keirasabinae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-453a89a044
+      - s-b7833ae82c
+      - s-4ed24fc31f
+      - s-1a169ed8b2
+      - s-c4e48d109b
+      - s-35a05ec599
+      - s-75ad59239a
+      - s-a533fbbd30
+      - s-7178aaffaf
+      - s-616e5d9058
+      - s-b249d975eb
+    zh:
+      - s-fdc27f271c
+      - s-d316bbb5cb
+      - s-e71f7a1090
+      - s-17c6968db4
+      - s-03f75ca498
+      - s-9199ecf906
+      - s-c0690b2876
+      - s-c651d320fe
+      - s-e5f378b858
+      - s-4fa1bf6696
+      - s-00767c0d9b

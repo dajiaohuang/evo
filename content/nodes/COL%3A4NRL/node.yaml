@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Glandirana
+  displayName: Glandirana
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NRL
+  sourceIndexes:
+    - name:
+        en: Glandirana
+        zh: Glandirana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NRL
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/408
+            queryName: Glandirana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 160
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8483410037
+      - s-0e4b3c37d7
+      - s-533ff56d6d
+      - s-95832e63a4
+      - s-66f14a89b1
+      - s-53258c8fb6
+      - s-78dd4d6905
+      - s-87a8cb1795
+      - s-4a91724850
+      - s-19ce911e88
+      - s-71473a3dec
+      - s-6c1e2cb1d5
+      - s-48208b2d33
+    zh:
+      - s-bf8c63277b
+      - s-088b5345f7
+      - s-62083f2069
+      - s-4f6aea4a67
+      - s-cc60aa04a8
+      - s-fa4595cc06
+      - s-271a0ba7bb
+      - s-a599fa982f
+      - s-0b5c2b6f51
+      - s-bb32d78214
+      - s-f8f0f5e7df
+      - s-5d1efaed1a
+      - s-191b7c4d57

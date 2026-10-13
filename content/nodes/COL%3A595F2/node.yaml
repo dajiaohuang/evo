@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Triturus carnifex
+  displayName: Triturus carnifex
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/595F2
+  sourceIndexes:
+    - name:
+        en: Triturus carnifex
+        zh: Triturus carnifex
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 595F2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/115
+            queryName: Triturus carnifex
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 186
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/110
+            queryName: Triton carnifex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/111
+            queryName: Gecko carnifex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/112
+            queryName: Salamandra carnifex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/113
+            queryName: Salamandra platycauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/114
+            queryName: Triton nycthemerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/115
+            queryName: Petraponia nigra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/74
+            queryName: Triton cristatus carnifex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/75
+            queryName: Triturus cristatus platycauda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/76
+            queryName: Triturus cristatus carnifex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 166
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4429bf1e7c
+      - s-3e4db97698
+      - s-b123199166
+      - s-5c9da61c4b
+      - s-11e217e009
+      - s-612b03473f
+      - s-5fdb795feb
+      - s-5bf6fa0762
+      - s-86b6e6e674
+      - s-6751c2d35c
+      - s-ff8561ee21
+    zh:
+      - s-26078f081a
+      - s-06c4ed6c04
+      - s-ce9eefceb9
+      - s-a1e236d68b
+      - s-e75645aa71
+      - s-39653abfc6
+      - s-b65e7984aa
+      - s-11edafa314
+      - s-0d127b11f9
+      - s-96cf9a527b
+      - s-a8018ed389

@@ -1,0 +1,88 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-4500e24b8e
+          part: title
+        zh:
+          page: zh
+          section: s-049b98d394
+          part: title
+      text:
+        en:
+          page: en
+          section: s-4500e24b8e
+          part: body
+        zh:
+          page: zh
+          section: s-049b98d394
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-4fb185fd91
+          part: title
+        zh:
+          page: zh
+          section: s-2e3a81a710
+          part: title
+      text:
+        en:
+          page: en
+          section: s-4fb185fd91
+          part: body
+        zh:
+          page: zh
+          section: s-2e3a81a710
+          part: body
+  atlas-node:
+    name: Xenarthra
+    commonName: Sloths, anteaters and armadillos
+    commonNameZh: 异关节总目
+    rank: clade
+    taxonId: txn:97907
+    firstAppearance: 58.3
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:xenarthra
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 58.3–0 Ma Xenarthra route retains the Riostegotherium entry from a combined phenomic–molecular chronology as a sampled/model bound; it is not a securely dated global FAD, crown origin or complete fossil range.
+      confidence: low
+      confidenceRationale: The source makes fossil ages, ghost lineages and topology explicit inputs to a combined model. The atlas therefore keeps the rounded bound visibly model-conditioned rather than treating it as a direct occurrence endpoint.
+      referenceLinks:
+        - referenceId: oleary-2013-placental-ancestor-model
+          relation: supports
+          pages: 662–667
+          figure: Figure 1; Table 1; Tables S1–S8
+          quoteLocator: Taxon-age table; combined analysis; ghost-lineage chronology
+  claim-rationales.zh:
+    - 来源把化石年龄、幽灵谱系与拓扑明确作为联合模型输入；因此图谱将取整边界标为模型条件结果，而非直接出现记录端点。
+  claim-statements.zh:
+    - 58.3–0 Ma 的异关节类路线保留表型—分子联合年代框架中的 Riostegotherium 条目作为取样/模型边界；它不是可靠测定的全球首现、冠群起源或完整化石范围。
+  ranges:
+    - entityId: xenarthra
+      rangeKind: global-composite
+      taxonomicConcept: Xenarthra sampled/model navigation span
+      geographicScope: Combined global phenomic and molecular model inputs
+      olderMa: 58.3
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: 58.3 Ma follows the model’s Riostegotherium entry and ghost-lineage treatment; it is not a securely dated global FAD or crown origin.
+      evidenceBasis: The combined-data chronology supplies a transparent sampled/model bound while living Xenarthra extend the route to the present.
+      evidenceLevel: literature-synthesized
+      confidence: low
+      claimIds:
+        - claim:taxon:xenarthra:root-range
+      referenceLocators:
+        - referenceId: oleary-2013-placental-ancestor-model
+          locator: pp. 662–667; Figure 1; Table 1; Tables S1–S8

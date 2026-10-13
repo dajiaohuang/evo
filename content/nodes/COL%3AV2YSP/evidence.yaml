@@ -1,0 +1,89 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis praemortuus Yánez-Muñoz, Reyes-Puig, Reyes-Puig, Lagla-Chimba, Paucar-Veintimilla, Urgilés-Merchán et al., 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis praemortuus
+      zh: Pristimantis praemortuus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1fe3f741a1
+            part: title
+          zh:
+            page: zh
+            section: s-413b6a351d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1fe3f741a1
+            part: body
+          zh:
+            page: zh
+            section: s-413b6a351d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-16ca91ae1d
+            part: title
+          zh:
+            page: zh
+            section: s-5881e4ac53
+            part: title
+        text:
+          en:
+            page: en
+            section: s-16ca91ae1d
+            part: body
+          zh:
+            page: zh
+            section: s-5881e4ac53
+            part: body
+        sourceIds:
+          - taxonomy
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis praemortuus
+          url: https://www.checklistbank.org/dataset/316115/taxon/V2YSP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3f28bca749
+        part: body
+      zh:
+        page: zh
+        section: s-7e0aa42426
+        part: body

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis latro
+  displayName: Pristimantis latro
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJGH
+  sourceIndexes:
+    - name:
+        en: Pristimantis latro
+        zh: Pristimantis latro
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJGH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/356
+            queryName: Pristimantis latro
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c5792896bb
+      - s-03c6d3707e
+      - s-079012bca9
+      - s-b02e01e0e9
+      - s-ec2794139b
+      - s-2433dd4217
+      - s-292b7af67c
+      - s-922074c44d
+      - s-318a0ee03c
+      - s-11eb520fb8
+      - s-b8be039ce9
+      - s-15f94e91f1
+      - s-61b0358740
+      - s-82e2bfc690
+      - s-edbeff2434
+    zh:
+      - s-06f844a832
+      - s-81527c7089
+      - s-17c32bd193
+      - s-7cb7eb166c
+      - s-88791b68a2
+      - s-71aa1b2fa7
+      - s-864555d1af
+      - s-60927810ee
+      - s-cb79d82da5
+      - s-d9f28905b3
+      - s-b2ce734f93
+      - s-7c0d0e6c59
+      - s-cfb92f5efc
+      - s-5bea055162
+      - s-2fdfe7b5d5

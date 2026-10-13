@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanohyla
+  displayName: Nanohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QMT8Z
+  sourceIndexes:
+    - name:
+        en: Nanohyla
+        zh: Nanohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QMT8Z
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/68
+            queryName: Nanohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6a6708db50
+      - s-9289649634
+      - s-4e66c88ebf
+      - s-4d611a68a0
+      - s-8bb7a2ce68
+      - s-651af8aef4
+      - s-c1fa3bc302
+      - s-ba4702be6d
+      - s-1767a77477
+      - s-6d4ab4b258
+      - s-544b230cbe
+    zh:
+      - s-bef848debe
+      - s-93a442a095
+      - s-b59109a6e9
+      - s-9f3d49784a
+      - s-d634c5f799
+      - s-734d24be60
+      - s-a573f1925c
+      - s-33f3c01274
+      - s-f2b1b63d20
+      - s-bca8cd4c35
+      - s-19a967d01d

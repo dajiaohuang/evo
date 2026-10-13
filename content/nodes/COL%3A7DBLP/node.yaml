@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton taliangensis
+  displayName: Tylototriton taliangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLP
+  sourceIndexes:
+    - name:
+        en: Tylototriton taliangensis
+        zh: Tylototriton taliangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/159
+            queryName: Tylototriton taliangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/103
+            queryName: Pleurodeles taliangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/104
+            queryName: Liangshantriton taliangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3ce79120c5
+      - s-5ba624a7be
+      - s-f002fc0bd0
+      - s-ca50ed098a
+      - s-70cc928051
+      - s-125dd6b4b4
+      - s-b10ff1081e
+      - s-08cd923379
+      - s-60500391e9
+      - s-43aa39e8a8
+      - s-f39409b3cd
+      - s-615e61e77e
+      - s-138b2b6eb8
+    zh:
+      - s-11845faee4
+      - s-7d17e96f23
+      - s-e873ff2abf
+      - s-a04768d199
+      - s-aa6c52dd10
+      - s-b29f72e14c
+      - s-d9a0fe15ec
+      - s-0f96627a9c
+      - s-c35ad66270
+      - s-f491dfff2f
+      - s-1d7b146022
+      - s-ce968374cd
+      - s-3e6a03dbfc

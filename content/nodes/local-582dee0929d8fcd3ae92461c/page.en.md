@@ -1,0 +1,9 @@
+## The source tadpole concept {#s-dfdd87c86e}
+In TadpoleTraits version 4, these records are assigned to Limnonectes palavanensis. The source classification lists Limnonectes as the genus and Dicroglossidae as the family, following Amphibian Species of the World version 6.2 (2024). Names printed in the underlying works are retained separately as Rana palavanensis; Limnonectes palavanensis. This assignment has not been established as equivalent to a current COL26.8 species concept.
+
+## Developmental material {#s-9913f4dff6}
+This source concept has 9 literature-derived rows and 1 image-derived row in the compilation. The supplied stage labels are 25; 23-25; 24-25; 38 (Judging based on the picture); their uncertainty remains attached to the source labels. A stage inferred from a picture is not a directly documented developmental observation. Row counts are not counts of distinct animals, and sample-size fields are not added across studies.
+
+## Selected image-derived proportions {#s-3ec3197dc3}
+The selected image-derived records report body length / total length = 0.304508 (source row 766, stage 38 (Judging based on the picture)); tail length / total length = 0.694267 (source row 766, stage 38 (Judging based on the picture)); maximum body height / total length = 0.12992 (source row 766, stage 38 (Judging based on the picture)); maximum tail height / total length = 0.126515 (source row 766, stage 38 (Judging based on the picture)); tail muscle height / total length = 0.0694539 (source row 766, stage 38 (Judging based on the picture)). These are dimensionless source proportions, rounded for readability. The images may be drawings or photographs, so the values are not direct measurements of a representative wild population. Ratio fields inconsistent with their same-row numerator and total length are excluded.
+

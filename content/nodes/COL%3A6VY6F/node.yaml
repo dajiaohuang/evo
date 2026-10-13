@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys melanopogon
+  displayName: Proceratophrys melanopogon
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VY6F
+  sourceIndexes:
+    - name:
+        en: Proceratophrys melanopogon
+        zh: Proceratophrys melanopogon
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VY6F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/227
+            queryName: Proceratophrys melanopogon
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/391
+            queryName: Stombus melanopogon
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-139a84c560
+      - s-4c48479b99
+      - s-677eed5db2
+      - s-92bff1420b
+      - s-3c378907ee
+      - s-bc14b000cf
+      - s-b42aea1962
+      - s-32ffe1b798
+      - s-58693e84d2
+      - s-f5bf1ee479
+      - s-8d6f3e834a
+      - s-b42cb27e8f
+      - s-4a84052e51
+      - s-8ada2afab9
+      - s-c9fab67b29
+      - s-19191ddb5d
+      - s-23d0b682f2
+      - s-e2e68fd21c
+      - s-943c90f8fc
+      - s-787093d5d9
+      - s-475fbf4b93
+      - s-2a504b4034
+      - s-75ab38779c
+      - s-695198c77d
+    zh:
+      - s-02999b1d3f
+      - s-47d81c00a9
+      - s-5946fc740d
+      - s-587360e491
+      - s-eed4e38dc6
+      - s-27402a8487
+      - s-a8abf13ccb
+      - s-58756b760e
+      - s-2709d8e0ba
+      - s-c0d03c3cdd
+      - s-77756fdd17
+      - s-7e41fdcef6
+      - s-b23650f7be
+      - s-de27275d5f
+      - s-4a306537e9
+      - s-c50f464686
+      - s-aaccdfe547
+      - s-27c4ec2e5f
+      - s-342a17655c
+      - s-d3c5f36281
+      - s-193278f499
+      - s-d81a9bccbd
+      - s-4bae04a4ec
+      - s-97885c0a05

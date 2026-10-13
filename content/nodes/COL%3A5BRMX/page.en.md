@@ -1,0 +1,3 @@
+## White roots and yellow flowers {#s-7370234197}
+The Brazilian Flora 2020 description records white roots with scales along them. Stems are simple or unbranched and are listed as white or yellow; leaves are also listed as white or yellow. The source gives two alternatives for the terminal inflorescence—a terminal inflorescence absent or a solitary flower—and describes a five-part, bell-shaped calyx and a five-part yellow corolla. It records the corolla lobes both as linear or deltoid with acute tips and as elliptic with rounded tips. The field presents both sets of lobe descriptions without explaining their relationship; the stigma is described as capitate.
+

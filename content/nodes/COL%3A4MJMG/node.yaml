@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis racemus
+  displayName: Pristimantis racemus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJMG
+  sourceIndexes:
+    - name:
+        en: Pristimantis racemus
+        zh: Pristimantis racemus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJMG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/34
+            queryName: Pristimantis racemus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/17
+            queryName: Eleutherodactylus racemus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb798c1a76
+      - s-fda76c409a
+      - s-ebaedc8d3f
+      - s-137d931807
+      - s-b60826334f
+      - s-0fa76b13e5
+      - s-115294f6c3
+      - s-065cf7d60b
+    zh:
+      - s-0ed9bd57e8
+      - s-b175e81c0a
+      - s-5e53c85667
+      - s-223b70bb4e
+      - s-4cbaeadd4d
+      - s-cd191a4da0
+      - s-607c3b2dce
+      - s-561cef7ecc

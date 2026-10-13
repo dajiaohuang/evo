@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia volcani
+  displayName: Caecilia volcani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7TN
+  sourceIndexes:
+    - name:
+        en: Caecilia volcani
+        zh: Caecilia volcani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7TN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/92
+            queryName: Caecilia volcani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5069c9eec8
+      - s-953338f638
+      - s-44890d95d5
+      - s-b207d611ef
+      - s-7ebf073648
+      - s-1e8b804581
+      - s-ad59dc4139
+      - s-492e63581d
+      - s-457507d414
+      - s-fc1bfb6288
+    zh:
+      - s-56810916f2
+      - s-f01961a0a1
+      - s-c1f6ad1a7d
+      - s-92ba61c577
+      - s-50f0ef71cc
+      - s-e5b8b08fd2
+      - s-b09efb123b
+      - s-926fd91cf2
+      - s-5bfefa8943
+      - s-9d12d5b608

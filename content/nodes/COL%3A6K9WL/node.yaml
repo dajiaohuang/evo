@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca cuencana
+  displayName: Gastrotheca cuencana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6K9WL
+  sourceIndexes:
+    - name:
+        en: Gastrotheca cuencana
+        zh: Gastrotheca cuencana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6K9WL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/27
+            queryName: Gastrotheca cuencana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-03d7cad2af
+      - s-44a6d92e94
+      - s-a21f0cdc6d
+      - s-4cfb7e3f99
+      - s-16748fd8e1
+      - s-090052fab9
+    zh:
+      - s-678448cc42
+      - s-182a11c185
+      - s-d33531c6f6
+      - s-b7ec9e407d
+      - s-d1eb7079d7
+      - s-33f295d380

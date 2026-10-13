@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynomedusa bokermanni
+  displayName: Phrynomedusa bokermanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWLR
+  sourceIndexes:
+    - name:
+        en: Phrynomedusa bokermanni
+        zh: Phrynomedusa bokermanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWLR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/202
+            queryName: Phrynomedusa bokermanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6b81e8226e
+      - s-1300de177a
+      - s-d3260874e6
+      - s-36a6887ecd
+      - s-2cbd070e5b
+      - s-c81c97ff1a
+    zh:
+      - s-5516da8c9f
+      - s-186cc2c86b
+      - s-365707d7cd
+      - s-b2fe2624b5
+      - s-896571c506
+      - s-a3f8f914f7

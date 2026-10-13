@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Jingophrys Lyu & Wang, 2023
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Jingophrys
+      zh: Jingophrys
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-abf5ae0007
+            part: title
+          zh:
+            page: zh
+            section: s-3f48026675
+            part: title
+        text:
+          en:
+            page: en
+            section: s-abf5ae0007
+            part: body
+          zh:
+            page: zh
+            section: s-3f48026675
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-85a69281ce
+            part: title
+          zh:
+            page: zh
+            section: s-3b5dd28a8c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-85a69281ce
+            part: body
+          zh:
+            page: zh
+            section: s-3b5dd28a8c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-47d660b4d8
+            part: title
+          zh:
+            page: zh
+            section: s-d8caca92f8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5PJX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5PJX
+            label:
+              en: Jingophrys feii
+              zh: Jingophrys feii
+          - kind: catalogue
+            colId: Q32XK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AQ32XK
+            label:
+              en: Jingophrys pachyproctus
+              zh: Jingophrys pachyproctus
+          - kind: catalogue
+            colId: Q32XM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AQ32XM
+            label:
+              en: Jingophrys vegrandis
+              zh: Jingophrys vegrandis
+          - kind: catalogue
+            colId: V5GVP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5GVP
+            label:
+              en: Jingophrys yeae
+              zh: Jingophrys yeae
+          - kind: catalogue
+            colId: V56RP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV56RP
+            label:
+              en: Jingophrys zhoui
+              zh: Jingophrys zhoui
+        text:
+          en:
+            page: en
+            section: s-47d660b4d8
+            part: body
+          zh:
+            page: zh
+            section: s-d8caca92f8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Jingophrys
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5CWK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c799256b27
+        part: body
+      zh:
+        page: zh
+        section: s-e3dd44a2b6
+        part: body

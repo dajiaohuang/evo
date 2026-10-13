@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates goianus
+  displayName: Allobates goianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65X9L
+  sourceIndexes:
+    - name:
+        en: Allobates goianus
+        zh: Allobates goianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65X9L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/139
+            queryName: Allobates goianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/96
+            queryName: Colostethus goianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c4b7d577a
+      - s-b21c1c709e
+      - s-533322cf58
+      - s-83de01b562
+      - s-cffeab09fe
+      - s-31145c3f3a
+      - s-795d0db7a2
+      - s-ae66ae76d6
+      - s-ebdf3f375c
+      - s-7acceb7333
+      - s-23434a579a
+      - s-0f562170c8
+    zh:
+      - s-3dc6357a45
+      - s-9fadfc536b
+      - s-e0ac101c7d
+      - s-4608465cbe
+      - s-7422b49623
+      - s-ac298c66a3
+      - s-8b8076af6d
+      - s-208a02f3de
+      - s-a61d8fa38c
+      - s-c08c209e90
+      - s-415bacad3c
+      - s-219f48a5fa

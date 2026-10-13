@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cantorchilus semibadius
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Cantorchilus semibadius
+      en: Cantorchilus semibadius
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetCantorchilusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-fd129e8aff
+            part: body
+          en:
+            page: en
+            section: s-d65bcc8843
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetCantorchilusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-7b56a8fb4c
+            part: body
+          en:
+            page: en
+            section: s-2165dbf57f
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetCantorchilusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-e70201adb7
+            part: body
+          en:
+            page: en
+            section: s-abaf29b8a8
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetCantorchilusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-d6f65be27b
+            part: body
+          en:
+            page: en
+            section: s-916b80e7ad
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetCantorchilusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-e04f727c1c
+            part: body
+          en:
+            page: en
+            section: s-7ad316232e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cantorchilus semibadius
+          url: https://www.checklistbank.org/dataset/316115/taxon/QPN3
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetCantorchilusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Cantorchilus historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 8443–8451; each eBird and BirdTree crosswalk, can/th COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Thryothorus 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Thryothorus combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-3f6c29823a
+        part: body
+      en:
+        page: en
+        section: s-5dcfd1c899
+        part: body

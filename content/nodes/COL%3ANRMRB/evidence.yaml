@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Erythrogenys hypoleucos
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Erythrogenys hypoleucos
+      en: Erythrogenys hypoleucos
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-e2969b1237
+            part: body
+          en:
+            page: en
+            section: s-13dad5c5ed
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-f9362f3e0d
+            part: body
+          en:
+            page: en
+            section: s-c19fde635b
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-5d30564e1b
+            part: body
+          en:
+            page: en
+            section: s-364e68fa52
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-509a7ae3f5
+            part: body
+          en:
+            page: en
+            section: s-822b2005eb
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetErythrogenysHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-1bf681ca20
+            part: body
+          en:
+            page: en
+            section: s-d9aab77521
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Erythrogenys hypoleucos
+          url: https://www.checklistbank.org/dataset/316115/taxon/NRMRB
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetErythrogenysHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Erythrogenys historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 6 selected AVONET1_BirdLife rows 8332–8337; full eBird and BirdTree crosswalks, twelve related COL er/po name records and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 六条历史行：Pomatorhinus旧名、未定性别、完整分母、独立体重与灌丛密度分开。
+            en: "Six historical rows: separate Pomatorhinus names, unsexed sampling, complete sets, independent mass and shrubland density."
+    limitations:
+      zh:
+        page: zh
+        section: s-224e85043e
+        part: body
+      en:
+        page: en
+        section: s-3c29dcecff
+        part: body

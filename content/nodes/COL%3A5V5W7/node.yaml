@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anodonthyla nigrigularis
+  displayName: Anodonthyla nigrigularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5V5W7
+  sourceIndexes:
+    - name:
+        en: Anodonthyla nigrigularis
+        zh: Anodonthyla nigrigularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5V5W7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/496
+            queryName: Anodonthyla nigrigularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e123f9a60
+      - s-d2a64a4632
+      - s-74f90ffb17
+      - s-c3f7ffae19
+      - s-7cb0bba3ae
+      - s-00d1392596
+      - s-f74a7905aa
+      - s-0e653ca68a
+      - s-628bff6967
+    zh:
+      - s-abe9d4b689
+      - s-b65f1d9eab
+      - s-b25888a864
+      - s-0378a5decf
+      - s-5560dbd1bf
+      - s-d9640a66dd
+      - s-eb49c2f5c1
+      - s-716d73b6d5
+      - s-58f518793d

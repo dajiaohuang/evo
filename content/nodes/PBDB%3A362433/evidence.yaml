@@ -1,0 +1,163 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Chalcosaurus lukjanovae
+    rank: species
+    sourceTaxonId: txn:362433
+    name:
+      en: Chalcosaurus lukjanovae
+      zh: Chalcosaurus lukjanovae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-e8e675a489
+            part: body
+          zh:
+            page: zh
+            section: s-8660cc68ac
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-d6aaa97025
+            part: body
+          zh:
+            page: zh
+            section: s-b956134226
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-cdaae09385
+            part: body
+          zh:
+            page: zh
+            section: s-995b050d46
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:362433; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "M. F. Ivakhnenko. 2008. Podklass Parareptilia. Iskopaemye pozvonotchnye Rossii i sopredel'nykh stran: Iskopaemye reptilii i ptitsy, Tchast' 1 [Fossil vertebrates of Russia and adjacent countries: Fossil reptiles and birds, Part 1], GEOS, Moscow"
+    occurrenceEvidence:
+      - occurrenceId: occ:790216
+        collectionId: col:85487
+        acceptedTaxonId: txn:362433
+        taxonomicDifference: null
+        referenceId: ref:14547
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and A. V. Minikh, M. V. Surkov, M. J. Benton. 2005. Upper Permian vertebrates and their sedimentological context in the South Urals, Russia. Earth-Science Reviews 69:27-77
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bolshekinelskaya
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+      - occurrenceId: occ:1333329
+        collectionId: col:179656
+        acceptedTaxonId: txn:362433
+        identifiedTaxonId: var:362433
+        identifiedName: Lanthanosuchus lukjanovae n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:59524
+        bibliography: M. F. Ivakhnenko. 2012. Permian Cynodontia (Theromorpha) of Eastern Europe. Paleontological Journal 46(2):199-207
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+      - occurrenceId: occ:1371064
+        collectionId: col:187190
+        acceptedTaxonId: txn:362433
+        identifiedName: Chalcosaurus cf. lukjanovae
+        taxonomicDifference: null
+        referenceId: ref:14547
+        bibliography: V. P. Tverdokhlebov, G. I. Tverdokhlebova, and A. V. Minikh, M. V. Surkov, M. J. Benton. 2005. Upper Permian vertebrates and their sedimentological context in the South Urals, Russia. Earth-Science Reviews 69:27-77
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Amanakskaya
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 259.857
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-cdaae09385
+            part: body
+          zh:
+            page: zh
+            section: s-995b050d46
+            part: body
+        sourceIds: []

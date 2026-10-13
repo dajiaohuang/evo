@@ -1,0 +1,276 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:54789
+    scientificName: Araucariaceae
+    commonName: Araucarian conifers
+    commonNameZh: 南洋杉科
+    rank: family
+    parentName: Coniferophyta
+    extinct: false
+    geography:
+      - Hettangian South Hadley Falls Member, Massachusetts, United States
+      - Living and fossil taxa sampled in the family-level matrix
+    overview:
+      page: en
+      section: s-56d02dcbbd
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-8ec77d5e85
+        part: body
+      habitat:
+        page: en
+        section: s-e44ffdb8c0
+        part: body
+      locomotion:
+        page: en
+        section: s-b1f7eb6c7b
+        part: body
+      bodySize:
+        page: en
+        section: s-34f4e86218
+        part: body
+      guild:
+        page: en
+        section: s-d2da80cbdb
+        part: body
+      dietZh:
+        page: zh
+        section: zh-2dce383361ae1c
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-20e688f4bda2dc
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-18b493abb3d352
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-599fbe3579d41d
+        part: body
+      guildZh:
+        page: zh
+        section: zh-506c836b0d70e7
+        part: body
+    traits:
+      - page: en
+        section: s-240fda1bbf
+        part: body
+      - page: en
+        section: s-88bb11d61c
+        part: body
+      - page: en
+        section: s-e116169c8e
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-5685b82785
+      part: body
+    confidence: medium
+    referenceIds:
+      - axsmith-2008-holyoke-araucaria
+      - escapa-catalano-2013-araucariaceae
+    overviewZh:
+      page: zh
+      section: s-9d0f1f0a0b
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-144fd8f215
+      part: body
+    readerSources:
+      - id: axsmith-2008-holyoke-araucaria
+        referenceId: axsmith-2008-holyoke-araucaria
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Axsmith et al. (2008), pp. 11.3.13A:1–9, Figures 1–2: specimen J 1430, the Holyoke locality and the single bract-scale description, especially pp. 4–6 and Figure 2."
+            zh: Axsmith 等（2008），第 11.3.13A:1–9 页、图 1–2：J 1430 标本、Holyoke 产地及单件苞鳞描述，尤其第 4–6 页和图 2。
+      - id: escapa-catalano-2013-araucariaceae
+        referenceId: escapa-catalano-2013-araucariaceae
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Escapa and Catalano (2013), pp. 1153–1170, Table 1, Figures 2–6 and online appendix: the 31 living and eight fossil species sample and its molecular/morphological analyses."
+            zh: Escapa 与 Catalano（2013），第 1153–1170 页、表 1、图 2–6 与在线附录：31 种现生和 8 种化石物种的样本，以及分子／形态分析。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-56d02dcbbd
+            part: title
+          zh:
+            page: zh
+            section: s-9d0f1f0a0b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-56d02dcbbd
+            part: body
+          zh:
+            page: zh
+            section: s-9d0f1f0a0b
+            part: body
+        sourceIds:
+          - axsmith-2008-holyoke-araucaria
+          - escapa-catalano-2013-araucariaceae
+      - id: araucariaceae-evidence
+        title:
+          en:
+            page: en
+            section: s-5685b82785
+            part: title
+          zh:
+            page: zh
+            section: s-144fd8f215
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5685b82785
+            part: body
+          zh:
+            page: zh
+            section: s-144fd8f215
+            part: body
+        sourceIds:
+          - axsmith-2008-holyoke-araucaria
+          - escapa-catalano-2013-araucariaceae
+    traitsZh:
+      - page: zh
+        section: zh-764da17a8779a0
+        part: body
+      - page: zh
+        section: zh-ca5f5905083fdc
+        part: body
+      - page: zh
+        section: zh-a6092e9cffa275
+        part: body
+  claims:
+    - subjectId: taxon:araucariaceae
+      claimKind: scientific
+      claimType: topology
+      statement: A total-evidence analysis combining molecules, morphology and fossils tests relationships among sampled Araucariaceae; fossil placement is character-dependent and does not set a global family origin.
+      confidence: medium
+      confidenceRationale: Multiple evidence partitions support explicit tests, but fossil incompleteness and alternative coding keep several placements uncertain.
+      referenceLinks:
+        - referenceId: escapa-catalano-2013-araucariaceae
+          relation: supports
+          pages: 1153–1170
+          quoteLocator: Figures 2–6; character matrix; phylogenetic analyses
+    - subjectId: taxon:araucariaceae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: "Araucariaceae is displayed at 201.4–0 Ma only as a Hettangian-specimen-to-living navigation anthology: Holyoke specimen J 1430 is a bona fide family occurrence but does not establish the family FAD, crown origin or uninterrupted global occupancy."
+      confidence: medium
+      confidenceRationale: Axsmith et al. (2008) directly describes J 1430 and its Hettangian South Hadley Falls Member context. Medium confidence applies to that family-level specimen plus living continuation, not to older ambiguous araucarian material.
+      referenceLinks:
+        - relation: supports
+          referenceId: axsmith-2008-holyoke-araucaria
+          pages: 11.3.13A:1–9
+          figure: Figures 1–2
+          quoteLocator: Abstract; “Locality and Geological Setting”; description and discussion
+    - subjectId: taxon:araucariaceae
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Escapa and Catalano analyze 39 araucariacean species—31 living and eight fossil—using molecular and morphological characters; the recovered family relationships are sampled matrix results, not direct ancestry or an exhaustive record of Araucariaceae.
+      confidence: medium
+      confidenceRationale: The taxon and character samples and parsimony analyses are explicit. Medium confidence preserves sensitivity to taxon sampling, character coding and incomplete fossil diversity.
+      referenceLinks:
+        - referenceId: escapa-catalano-2013-araucariaceae
+          relation: supports
+          pages: 1153–1170
+          figure: Table 1; Figures 3–6; online Appendix
+          quoteLocator: "Methods: taxon and character sampling; Results: combined analyses; Conclusions"
+    - subjectId: taxon:araucariaceae
+      claimType: biogeography
+      claimKind: scientific
+      statement: Holyoke specimen J 1430 comes from the Hettangian South Hadley Falls Member of the Portland Formation in Massachusetts; this single Lower Jurassic occurrence does not establish a complete family distribution, endemicity or absence elsewhere.
+      confidence: medium
+      confidenceRationale: The specimen repository, locality and stratigraphic unit are stated directly in the open primary description; medium confidence also preserves the single-specimen and source-metadata boundary.
+      referenceLinks:
+        - referenceId: axsmith-2008-holyoke-araucaria
+          relation: supports
+          pages: 11.3.13A:1–9
+          figure: Figure 1
+          quoteLocator: "Materials and Methods: Holyoke Dam locality, repository specimen J 1430 and South Hadley Falls Member context"
+    - subjectId: taxon:araucariaceae
+      claimType: morphology
+      claimKind: scientific
+      statement: Specimen J 1430 is a single bract-scale complex with a wedge-like outline, central seed-bearing region and lateral wings; these directly described characters support the sampled fossil comparison but are not universal family traits.
+      confidence: medium
+      confidenceRationale: The specimen dimensions, seed position, wings and comparison are described and figured directly. Medium confidence is limited to J 1430 and preserves the single-specimen and source-metadata boundary.
+      referenceLinks:
+        - referenceId: axsmith-2008-holyoke-araucaria
+          relation: supports
+          pages: 11.3.13A:4–6
+          figure: Figure 2
+          quoteLocator: "Description and Comparisons: specimen dimensions, central seed-bearing zone, longitudinally striated lateral wings and Eutacta comparison"
+    - subjectId: taxon:araucariaceae
+      claimType: ecology
+      claimKind: scientific
+      statement: The isolated Holyoke bract-scale and the combined family phylogeny do not directly determine diet, habitat preference, growth observation, whole-plant body size or one ecological guild for Araucariaceae; those fields are explicitly withheld or locality-bounded.
+      confidence: high
+      confidenceRationale: Both primary studies expose specimen anatomy or character-matrix relationships rather than the listed family-wide ecological attributes, so the profile does not infer them.
+      referenceLinks:
+        - referenceId: axsmith-2008-holyoke-araucaria
+          relation: supports
+          pages: 11.3.13A:1–9
+          figure: Figures 1–3
+          quoteLocator: "Study scope: isolated bract-scale description and stratigraphic/phylogenetic congruence"
+        - referenceId: escapa-catalano-2013-araucariaceae
+          relation: supports
+          pages: 1153–1170
+          figure: Table 1; Figures 3–6
+          quoteLocator: "Study scope: molecular and morphological character-matrix analyses"
+  claim-rationales.zh:
+    - 多类证据分区支持显式检验，但化石不完整与替代编码使若干位置仍不确定。
+    - Axsmith 等（2008）直接描述 J 1430 及其赫塘期南哈德利瀑布段背景。中等置信度仅适用于该科级标本与现生延续，不延伸到更老且含糊的南洋杉类材料。
+    - 类群、性状取样和简约法分析均有明确记录；中等置信度保留对类群取样、性状编码和不完整化石多样性的敏感性。
+    - 开放的一手描述直接给出标本馆藏、地点与地层单元；中等置信度同时保留单标本和来源元数据边界。
+    - 论文直接描述并图示了标本尺寸、种子位置、侧翼和比较；中等置信度仅限 J 1430，并保留单标本和来源元数据边界。
+    - 两项一手研究分别处理标本解剖或性状矩阵关系，而非所列科级生态属性，因此档案不作推断。
+  claim-statements.zh:
+    - 整合分子、形态和化石的总证据分析检验了取样南洋杉科关系；化石位置依赖性状，不能据此设定该科全球起源。
+    - Araucariaceae 的 201.4–0 Ma 仅作为“赫塘期标本—现生类群”导航汇编：霍利奥克 J 1430 是可靠的科级记录，但不能确立该科首现、冠群起源或连续全球占据。
+    - Escapa 与 Catalano 以分子和形态性状分析了 39 个南洋杉科物种——31 个现生、8 个化石；所得科内关系是取样矩阵结果，不是直系祖先关系，也不是南洋杉科的穷尽记录。
+    - Holyoke 标本 J 1430 来自美国马萨诸塞州波特兰组赫塘期 South Hadley Falls 段；这一处早侏罗世出现不能确立该科的完整分布、特有性或其他地区的缺失。
+    - 标本 J 1430 是一件具有楔形轮廓、中央含种区和侧翼的苞鳞复合体；这些直接描述的性状支持该化石样本的比较，但不是全科普遍性状。
+    - 孤立的 Holyoke 苞鳞与科级联合系统分析都不能直接确定南洋杉科的食性、生境偏好、生长观察、整株体型或统一生态功能群；这些字段被明确保留为空缺或限定于地点背景。
+  ranges:
+    - entityId: araucariaceae
+      rangeKind: global-composite
+      taxonomicConcept: Araucariaceae Hettangian-specimen-to-living navigation anthology
+      geographicScope: Holyoke Araucaria bract-scale specimen plus living Araucariaceae
+      olderMa: 201.4
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The Hettangian specimen anchors a conservative sample-to-living display; it is not the family FAD, a Triassic absence claim or exact crown origin.
+      evidenceBasis: Axsmith et al. describe specimen J 1430 from the Hettangian South Hadley Falls Member as a bona fide Araucariaceae megafossil; 0 Ma denotes living family members.
+      confidence: medium
+      claimIds:
+        - claim:taxon:araucariaceae:range-boundary-rc50
+      referenceLocators:
+        - referenceId: axsmith-2008-holyoke-araucaria
+          locator: Abstract; Materials and Methods “Locality and Geological Setting”; Figure 2; Discussion; Hettangian specimen J 1430
+      evidenceLevel: literature-synthesized

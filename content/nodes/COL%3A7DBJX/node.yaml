@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton yangi
+  displayName: Tylototriton yangi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBJX
+  sourceIndexes:
+    - name:
+        en: Tylototriton yangi
+        zh: Tylototriton yangi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBJX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/167
+            queryName: Tylototriton yangi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/102
+            queryName: Tylototriton daweishanensi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-337a44bade
+      - s-de459f0c3f
+      - s-c7179442e5
+      - s-1149a4d02f
+      - s-42247bdbdf
+      - s-a65fd3aeaa
+      - s-b3ff1a2254
+    zh:
+      - s-a8f038a863
+      - s-1ae3f5dfd5
+      - s-5aacee231a
+      - s-13a454ec5d
+      - s-f8fea1d4c8
+      - s-32eef1ee99
+      - s-b2db7336fd

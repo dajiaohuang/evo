@@ -1,0 +1,5 @@
+## Lasiolaena santosii {#s-ef4c3f41e1}
+## A woolly stem and measured flower heads
+
+The Brazilian Flora 2020 record describes branched, woolly stems and two-coloured leaves 1.6–2.5 cm long and 0.5–0.9 cm wide. The leaves are oblanceolate to obovate, with acute tips and fine teeth along the upper part of the edge; their stalks are 6–8 mm long. A corymb-like cluster bears 3–9 flower heads on woolly stalks 0.5–1.3 mm long. Each cylindrical involucre—the bracts surrounding a head—is 9–11 by 4–6 mm. It has 33–38 bracts in two or three rows, smooth on the inner face and woolly with glandular hairs on the outer face. The conical receptacle is sparsely hairy, and each head has 67–100 florets. Style branches are 3–3.5 mm long; the dry fruits (cypselae) are 1.5–2 mm long and glandular-hairy. Their pappus, the bristles attached to the fruit, has 21–32 bristles measuring 3–3.5 mm. The habitat fields say rock-dwelling and terrestrial, without giving a locality or full range; this is a regional flora record, not a complete account of variation.
+

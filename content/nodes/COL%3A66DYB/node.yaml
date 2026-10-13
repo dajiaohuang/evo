@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops kohimaensis
+  displayName: Amolops kohimaensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DYB
+  sourceIndexes:
+    - name:
+        en: Amolops kohimaensis
+        zh: Amolops kohimaensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DYB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/375
+            queryName: Amolops kohimaensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c4a8b61017
+      - s-7cdbdd3148
+      - s-5eee9b313d
+      - s-e6a35aa1fc
+      - s-7c8d8a24f9
+      - s-654766dfa7
+      - s-b68a3592ce
+      - s-5db8416725
+    zh:
+      - s-5cee23fd2d
+      - s-6c52de42bb
+      - s-ab5a7d3b32
+      - s-7402687c69
+      - s-c665bd9b71
+      - s-00de10d7a5
+      - s-3093681379
+      - s-6d01644c1d

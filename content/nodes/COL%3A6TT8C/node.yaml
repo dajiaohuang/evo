@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Parvimolge townsendi
+  displayName: Parvimolge townsendi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6TT8C
+  sourceIndexes:
+    - name:
+        en: Parvimolge townsendi
+        zh: Parvimolge townsendi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6TT8C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/435
+            queryName: Parvimolge townsendi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/236
+            queryName: Oedipus townsendi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/237
+            queryName: Bolitoglossa townsendi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c1c085452
+      - s-cfa0d83ee6
+      - s-0e8d81ed2d
+      - s-1199eacfa6
+      - s-0088f3b57e
+      - s-cd8931b4b8
+      - s-e7714cfb63
+      - s-d6b17bd52c
+      - s-217abe7d67
+      - s-4929f1109a
+      - s-28614e0efb
+      - s-f4c35ec9cd
+      - s-9b87ddf65d
+    zh:
+      - s-0fceda97bc
+      - s-9d9e56835c
+      - s-2fb60a5a8a
+      - s-be42aab923
+      - s-853cd2e58c
+      - s-bfd56d27bd
+      - s-e9cb15b9d3
+      - s-82c17ba663
+      - s-199a6bffb3
+      - s-28a24fe192
+      - s-be6c55e21d
+      - s-f1238386b0
+      - s-155f51e74b

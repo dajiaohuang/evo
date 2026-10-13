@@ -1,0 +1,3 @@
+## Eosimias ankle bones and the anthropoid-stem test {#s-a2b82ae2fe}
+Researchers compared isolated ankle bones—a talus and a heel bone—from Shanghuang and Yuanqu, China, in a matrix of anatomical characters. Some bones were attributed to *Eosimias*, but they are not associated with teeth, so that identification is indirect; the fissure-fill age is also broad. In the cited analysis, the preserved characters place *Eosimias* on the stem leading to anthropoids: outside the living anthropoid group, but closer to it than more distant branches. This is a result of that character matrix, not proof of crown membership or a global first appearance.
+

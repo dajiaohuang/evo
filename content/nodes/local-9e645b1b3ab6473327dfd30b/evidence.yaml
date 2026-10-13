@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Boophis occidentalis
+    name:
+      en: Boophis occidentalis
+      zh: Boophis occidentalis
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Boophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d05ba5eec6
+            part: body
+          zh:
+            page: zh
+            section: s-d47b11af26
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b2ecf42076
+            part: body
+          zh:
+            page: zh
+            section: s-b9d696a37c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 789, 790; Reference.csv rows 120
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 789
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis occidentalis
+          - F
+          - "53.5"
+          - "18.8"
+          - "19.1"
+          - "5.45"
+          - "4.05"
+          - NA
+          - NA
+          - "5.7"
+          - NA
+          - "4.6"
+          - NA
+          - "4"
+          - "15.95"
+          - NA
+          - "33.1"
+          - "22.25"
+          - NA
+          - "26.3"
+          - NA
+          - NA
+          - "40.95"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 790
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis occidentalis
+          - M
+          - "57.28333333"
+          - "18.71666667"
+          - "16.55"
+          - "5.9"
+          - "4.116666667"
+          - NA
+          - NA
+          - "6.066666667"
+          - NA
+          - "4.466666667"
+          - NA
+          - "3.95"
+          - "16.45"
+          - NA
+          - "33.41666667"
+          - "23.68333333"
+          - NA
+          - "26.76666667"
+          - NA
+          - NA
+          - "88.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 120
+        values:
+          - Anura
+          - Boophis_occidentalis
+          - Vences, M., Andreone, F., Glos, J., & Glaw, F. (2010). Molecular and bioacoustic differentiation of Boophis occidentalis with description of a new treefrog from north-western Madagascar. Zootaxa(2544), 54-68. https://doi.org/10.11646/zootaxa.2544.1.2
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5WPM9
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

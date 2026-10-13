@@ -1,0 +1,3 @@
+## ## A trailing herb with hooked hairs and segmented pods {#s-05b7d5a5b9}
+The historical Flora of Panama describes *Desmodium affine* as a trailing, woody herb with upright flower stalks. Its leaves have three leaflets: the terminal one is ovate, while the side leaflets are obliquely oval. Hook-tipped hairs and longer spreading hairs cover parts of the stem and leaves. Axillary and terminal flower clusters develop into short-stalked loments—segmented legumes—with up to five articles. The seed is transversely elliptical. The same flora gives a range from southern Mexico through Central America and the West Indies to northern South America. No sampling frame or observation date is specified, so this is not a current range inventory.
+

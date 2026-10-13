@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes fujianensis
+  displayName: Limnonectes fujianensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DKW
+  sourceIndexes:
+    - name:
+        en: Limnonectes fujianensis
+        zh: Limnonectes fujianensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DKW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/70
+            queryName: Limnonectes fujianensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 59
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-feed317e09
+      - s-0440699049
+      - s-d305287af0
+      - s-0c456c7d8a
+      - s-37ea94dd63
+      - s-e8db01e5a5
+      - s-5d70e63f6f
+      - s-9792409df2
+      - s-1042fef46c
+    zh:
+      - s-1b0a5a862e
+      - s-55ef0f44ef
+      - s-5f701a450d
+      - s-41c66d973f
+      - s-87c10aeb9a
+      - s-75baded752
+      - s-81ee2cc065
+      - s-95d670e7f3
+      - s-1a7791efce

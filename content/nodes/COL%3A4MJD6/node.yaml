@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis diogenes
+  displayName: Pristimantis diogenes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJD6
+  sourceIndexes:
+    - name:
+        en: Pristimantis diogenes
+        zh: Pristimantis diogenes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJD6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/241
+            queryName: Pristimantis diogenes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/332
+            queryName: Eleutherodactylus diogenes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c9e6ec468e
+      - s-91ad28cbcb
+      - s-00adda16bc
+      - s-bd099ab057
+      - s-8f6e83d046
+      - s-6247ffb83e
+      - s-40424ac6c5
+      - s-1f5e771ef1
+    zh:
+      - s-8d3b78df0c
+      - s-bac13d5f1d
+      - s-4420977c8e
+      - s-d98343ab1d
+      - s-1730eeaa6d
+      - s-96b2a265a8
+      - s-475b7d1a34
+      - s-3aa152008c

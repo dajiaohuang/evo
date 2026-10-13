@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oophaga lehmanni
+  displayName: Oophaga lehmanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49SSN
+  sourceIndexes:
+    - name:
+        en: Oophaga lehmanni
+        zh: Oophaga lehmanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 49SSN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/171
+            queryName: Oophaga lehmanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/186
+            queryName: Dendrobates lehmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3f6e733457
+      - s-10fb5b913c
+      - s-276c5d0a38
+      - s-1a8f5e127b
+      - s-c07081adca
+      - s-a617ffacd2
+      - s-b39be02ce6
+      - s-571b645eca
+      - s-54f7a765ee
+      - s-025e1698f3
+      - s-5e4c3d9918
+    zh:
+      - s-d8d8e02ea4
+      - s-ef07bd0972
+      - s-1920331d68
+      - s-4769a56d97
+      - s-e98f799a72
+      - s-103ba7b989
+      - s-701044e368
+      - s-c7d79c9574
+      - s-d5b7c50ade
+      - s-66f1f58392
+      - s-fabf90ce9b

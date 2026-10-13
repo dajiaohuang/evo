@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrotriton sanctibarbarus
+  displayName: Dendrotriton sanctibarbarus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34SN4
+  sourceIndexes:
+    - name:
+        en: Dendrotriton sanctibarbarus
+        zh: Dendrotriton sanctibarbarus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34SN4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/445
+            queryName: Dendrotriton sanctibarbarus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/212
+            queryName: Nototriton sanctibarbarus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b716e75fee
+      - s-a49ca9b151
+      - s-008b80b780
+      - s-9fd167c4c9
+      - s-5bf498a9be
+      - s-c0a4a5ee0b
+      - s-1a4272cbc2
+      - s-37fceb9794
+    zh:
+      - s-c53fe2946a
+      - s-28cb4c10c4
+      - s-3c63ebf6c2
+      - s-7c9e9bab83
+      - s-09961c2a44
+      - s-350c4af419
+      - s-be078f6a4c
+      - s-ee570f33b3

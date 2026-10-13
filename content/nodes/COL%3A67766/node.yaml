@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus wothuja
+  displayName: Anomaloglossus wothuja
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/67766
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus wothuja
+        zh: Anomaloglossus wothuja
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "67766"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/32
+            queryName: Anomaloglossus wothuja
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/114
+            queryName: Colostethus wothuja
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a04e1ca0fa
+      - s-c20d7b2ccf
+      - s-1c2c36cc72
+      - s-342ed2a7d4
+      - s-24319ecb35
+      - s-73acd88455
+      - s-45862ed07d
+    zh:
+      - s-88167d8f48
+      - s-970116169b
+      - s-12bceafc2d
+      - s-b7c7d45c97
+      - s-ae33eff662
+      - s-8e7ed1106f
+      - s-c87b029ce5

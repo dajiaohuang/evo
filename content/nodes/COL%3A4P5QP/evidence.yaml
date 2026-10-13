@@ -1,0 +1,255 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudopaludicola pocoto Magalhães, Loebmann, Kokubum, Haddad & Garda, 2014
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pseudopaludicola pocoto
+      zh: Pseudopaludicola pocoto
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7d9c093cc2
+            part: title
+          zh:
+            page: zh
+            section: s-1e5e1107e7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7d9c093cc2
+            part: body
+          zh:
+            page: zh
+            section: s-1e5e1107e7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5ba8a876f8
+            part: title
+          zh:
+            page: zh
+            section: s-790412f98b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5ba8a876f8
+            part: body
+          zh:
+            page: zh
+            section: s-790412f98b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ffa680126a
+            part: title
+          zh:
+            page: zh
+            section: s-ae4840cb7d
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-ffa680126a
+            part: body
+          zh:
+            page: zh
+            section: s-ae4840cb7d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-8337e5e8407fb5a6dd9e4a0c
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-52fe349d9667ac510627f2a0
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-25621149de
+            part: title
+          zh:
+            page: zh
+            section: s-15751f8311
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-25621149de
+            part: body
+          zh:
+            page: zh
+            section: s-15751f8311
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7a31efd780
+            part: title
+          zh:
+            page: zh
+            section: s-03770ec2f8
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-7a31efd780
+            part: body
+          zh:
+            page: zh
+            section: s-03770ec2f8
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-82b6db1c0f
+            part: title
+          zh:
+            page: zh
+            section: s-06bc9edf2a
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-82b6db1c0f
+            part: body
+          zh:
+            page: zh
+            section: s-06bc9edf2a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pseudopaludicola pocoto
+          url: https://www.checklistbank.org/dataset/316115/taxon/4P5QP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 3120; Picture measurement data rows 1356; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4959; Reference.csv rows 2890
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-39ea93a09c
+        part: body
+      zh:
+        page: zh
+        section: s-4a5f7eb594
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-8337e5e8407fb5a6dd9e4a0c
+        scientificName: Pseudopaludicola pocoto
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-52fe349d9667ac510627f2a0
+        scientificName: Pseudopaludicola pocoto
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

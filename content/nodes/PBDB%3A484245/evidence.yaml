@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Inbecetenanura ragei
+    rank: species
+    sourceTaxonId: txn:484245
+    name:
+      en: Inbecetenanura ragei
+      zh: Inbecetenanura ragei
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-6ad07d4667
+            part: body
+          zh:
+            page: zh
+            section: s-902ff18822
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-aa294c2578
+            part: body
+          zh:
+            page: zh
+            section: s-6b415fa462
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-8104fe1afa
+            part: body
+          zh:
+            page: zh
+            section: s-38fed3ef6a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:484245; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. Lemierre, S. Bailon, and A. Folie, M. Laurin. 2023. A new pipid from the Cretaceous of Africa (In Becetèn, Niger) and early evolution of the Pipidae. Journal of Systematic Palaeontology 21(1):2266428
+    occurrenceEvidence:
+      - occurrenceId: occ:487239
+        collectionId: col:48867
+        acceptedTaxonId: txn:484245
+        identifiedName: Inbecetenanura ragei n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:87571
+        bibliography: A. Lemierre, S. Bailon, and A. Folie, M. Laurin. 2023. A new pipid from the Cretaceous of Africa (In Becetèn, Niger) and early evolution of the Pipidae. Journal of Systematic Palaeontology 21(1):2266428
+        locality:
+          countryCode: NE
+          stateProvince: Tahoua
+          county: null
+        stratigraphy:
+          group: Damergou
+          formation: Inbeceten
+          member: null
+        olderAgeMa: 89.8
+        youngerAgeMa: 83.6
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-8104fe1afa
+            part: body
+          zh:
+            page: zh
+            section: s-38fed3ef6a
+            part: body
+        sourceIds: []

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudotriton
+  displayName: Pseudotriton
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73XJ
+  sourceIndexes:
+    - name:
+        en: Pseudotriton
+        zh: Pseudotriton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73XJ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/206
+            queryName: Pseudotriton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 569
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4a82bd8381
+      - s-640f47c257
+      - s-15910c6604
+      - s-c30a04e6eb
+      - s-4ff270f31d
+      - s-6a31b2817c
+      - s-29d853dd96
+      - s-38506bedbd
+      - s-74a46b2dfa
+      - s-51a4fd7a73
+      - s-8f0fc91fcb
+      - s-9f65e83258
+    zh:
+      - s-d81a8635fe
+      - s-241535858a
+      - s-f5b7e0716b
+      - s-6596eaa011
+      - s-df40171437
+      - s-775493c43c
+      - s-fc2c3d0bf5
+      - s-4a67b749f4
+      - s-af75290801
+      - s-0386f62e61
+      - s-8211ec6cff
+      - s-0c036ffc16

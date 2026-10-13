@@ -1,0 +1,12 @@
+## Which source name is assigned to this tadpole record? {#s-f4a4b925f8}
+This record shows how TadpoleTraits files tadpoles under Litoria latopalmata. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Litoria latopalmata in Litoria and Hylidae. No literature rows are present. In the image-measurement table, rows 873, 874 list Litoria latopalmata in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-0c8843e734}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 0 literature rows and 2 image-measurement rows for this source record. No literature rows are present; the image rows are the only measurements in this entry. Image-table Stage values are 38 (row 873); 37 (row 874); Type labels are Measurement and image types are Color image(Dorsal view) + Hand-drawn picture(Side view), Hand-drawn picture. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-d0bba9bc98}
+The image-derived records support these source proportions: body length / total length = 0.385952 (image row 873, stage 38, Color image(Dorsal view) + Hand-drawn picture(Side view)); tail length / total length = 0.613333 (image row 873, stage 38, Color image(Dorsal view) + Hand-drawn picture(Side view)); maximum body height / total length = 0.194913 (image row 873, stage 38, Color image(Dorsal view) + Hand-drawn picture(Side view)); maximum tail height / total length = 0.212671 (image row 873, stage 38, Color image(Dorsal view) + Hand-drawn picture(Side view)); maximum body width / total length = 0.178471 (image row 873, stage 38, Color image(Dorsal view) + Hand-drawn picture(Side view)). Each value describes only its cited image row; it is not a species-wide estimate.
+
+## Where do the supplied ratios disagree? {#s-0455026c30}
+The source ratio cells in image row 873 contain 4 discrepancies from the quotient of the same-row numerator and total length, including fields TMH/TL, DFH/TL, VFH/TL, TMW/TL. Their original values remain in the evidence record; no correction is substituted and these cells are not used as proportions.
+

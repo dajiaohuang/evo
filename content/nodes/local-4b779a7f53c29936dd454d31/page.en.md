@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Guibemantis depressiceps {#s-034c33e5bb}
+TadpoleTraits version 4 places Guibemantis depressiceps in Guibemantis (Mantellidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Guibemantis depressiceps. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 2 literature rows and 0 image rows {#s-500eab129d}
+TadpoleTraits version 4 links 2 literature rows and 0 image rows to Guibemantis depressiceps. Source row numbers — literature: 3312, 3313; image: none recorded. Populated measurement fields — literature: TL, BL, BMH, BMW, TaL, MTH, TMH, TMW, IOD.a, E; image: none recorded. Literature row 3312: Stage 26; Literature row 3313: Stage 26. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

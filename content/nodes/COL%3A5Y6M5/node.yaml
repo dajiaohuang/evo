@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton mosaueri
+  displayName: Chiropterotriton mosaueri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6M5
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton mosaueri
+        zh: Chiropterotriton mosaueri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6M5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/302
+            queryName: Chiropterotriton mosaueri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/309
+            queryName: Oedipus mosaueri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/310
+            queryName: Chiropterotriton mosauri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ebf8acc993
+      - s-3210429440
+      - s-73ef3960bb
+      - s-5ccbb15c08
+      - s-3a9f4785ba
+      - s-ca9d122787
+      - s-c9cbfdd528
+      - s-3647a07589
+      - s-b82139e718
+      - s-9b4ad52a1a
+      - s-02c80546fb
+      - s-f5104e9b93
+      - s-8807074c72
+      - s-0a7d21a27f
+      - s-22367452d2
+      - s-b18c579bd7
+      - s-7b64dc0487
+      - s-361b6c4fce
+    zh:
+      - s-2a90776efd
+      - s-11aa2df18c
+      - s-4a9a12ce79
+      - s-1febe3ff6e
+      - s-08ff275387
+      - s-a97db701e4
+      - s-02bb922fb2
+      - s-7be753a211
+      - s-4d28ef71f9
+      - s-08592073d7
+      - s-47c98f8b68
+      - s-b732836ef4
+      - s-af5836e0fd
+      - s-8739267ffa
+      - s-6570c256aa
+      - s-03f339e519
+      - s-29aa29f158
+      - s-af9231c9cb

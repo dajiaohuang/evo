@@ -1,0 +1,6 @@
+## Leaf surfaces and changing calyx {#s-2c8bba36aa}
+The Brazilian Flora 2020 v393.147 field records star-shaped hairs on young stems. Leaves may be elliptic or lance-shaped, with acuminate tips, rounded or wedge-shaped bases, and non-ciliate, finely toothed margins. Three main basal veins are listed, with two faint veins just inside the edge. The underside is densely covered by sessile or stalked star-shaped hairs. Flowers form compact clusters. The bell-shaped hypanthium has a calyx that falls away, with distinct lobes; each flower has five petals. The connective is not prolonged, and its appendages are listed as two lower lobes or one dorsal tooth. Anthers may be white or yellow, each with one medium-sized pore; the ovary may be hairless or hairy. The habitat field records “terrícola,” or terrestrial. These alternatives do not establish their distribution among plants or populations.
+
+## A terrestrial habitat label {#s-065867a61c}
+The habitat row classifies the setting as “terrícola,” meaning terrestrial. It gives no collecting locality, survey date or range coverage and does not identify whether the material is wild, cultivated, managed or fossil. This is one category, not a complete ecological account.
+

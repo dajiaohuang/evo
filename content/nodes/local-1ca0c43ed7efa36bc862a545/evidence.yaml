@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Litoria lodesdema
+    name:
+      en: Litoria lodesdema
+      zh: Litoria lodesdema
+    sourceClassification:
+      order: Anura
+      family: Pelodryadidae
+      genus: Litoria
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Litoria lodesdema in the version 3 classification
+          zh: Litoria lodesdema 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8b6b0954b9
+            part: body
+          zh:
+            page: zh
+            section: s-7835317307
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 8 populated trait fields
+          zh: 1 条测量行与 8 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b82869c746
+            part: body
+          zh:
+            page: zh
+            section: s-6e0a0e2945
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2906; Reference.csv rows 2431
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2906
+        values:
+          - Pelodryadidae
+          - Litoria
+          - Litoria lodesdema
+          - M
+          - "21.99"
+          - "7.529376"
+          - "7.0368"
+          - "2.8587"
+          - "1.3194"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.6547"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.8796"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.8796"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2431
+        values:
+          - Anura
+          - Litoria_lodesdema
+          - "Menzies, J. I., Richards, S. J., & Tyler, M. J. (2008). Systematics of the Australo-Papuan tree frogs known as Litoria bicolor (Anura : Hylidae) in the Papuan region. Australian Journal of Zoology, 56(4), 257-280. https://doi.org/10.1071/Zo07068"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

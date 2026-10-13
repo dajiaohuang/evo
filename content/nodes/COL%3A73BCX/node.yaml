@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Meristogenys jerboa
+  displayName: Meristogenys jerboa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73BCX
+  sourceIndexes:
+    - name:
+        en: Meristogenys jerboa
+        zh: Meristogenys jerboa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73BCX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/416
+            queryName: Meristogenys jerboa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/279
+            queryName: Hylorana jerboa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/280
+            queryName: Rana jerboa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/281
+            queryName: Hylarana jerboa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/282
+            queryName: Amolops jerboa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93039af6da
+      - s-c85f837c79
+      - s-5f09b123ba
+      - s-4b20762d52
+      - s-1012be7208
+      - s-06d1bc9ed3
+      - s-614bf88e6f
+      - s-03dd7600cf
+      - s-c3b371a246
+      - s-534b594e30
+      - s-76a6404d6a
+      - s-09478fe6e0
+    zh:
+      - s-b94ec33c78
+      - s-4e5112d5fd
+      - s-87c8911d62
+      - s-beb30278ab
+      - s-f5b24f7080
+      - s-e7d64ffceb
+      - s-4220ffc724
+      - s-89f76f9828
+      - s-593755462c
+      - s-5ae7d6a9ab
+      - s-ad3e92d134
+      - s-b18ddf1bb6

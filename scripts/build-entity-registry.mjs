@@ -98,33 +98,36 @@ const duplicateProfileIds = profiles.filter((profile, index) => profiles.findInd
 const duplicateProfileNodes = profiles.filter((profile, index) => profiles.findIndex((candidate) => candidate.treeNodeId === profile.treeNodeId) !== index).map((profile) => profile.treeNodeId)
 if (duplicateProfileIds.length) throw new Error(`Duplicate profile IDs: ${[...new Set(duplicateProfileIds)].join(', ')}`)
 if (duplicateProfileNodes.length) throw new Error(`Multiple profiles target the same tree node: ${[...new Set(duplicateProfileNodes)].join(', ')}`)
-for (const profile of profiles) if (profile.id !== profile.treeNodeId) throw new Error(`Profile ${profile.id} must use its treeNodeId as its stable ID`)
+for (const profile of profiles) {
+  if (profile.id !== profile.treeNodeId) throw new Error(`Profile ${profile.id} must use its treeNodeId as its stable ID`)
+  if (Object.hasOwn(profile, 'readerLanguageStatus')) throw new Error(`Retired readerLanguageStatus field on profile ${profile.id}`)
+}
 const profileIds = new Set(profiles.map((profile) => profile.treeNodeId))
 
-const readerProfiles = profiles.filter((profile) => profile.readerLanguageStatus || profile.readerSections || profile.readerSources || profile.readerRelatedPages || profile.readerLimitations)
+const readerProfiles = profiles.filter((profile) => profile.readerSections || profile.readerSources || profile.readerRelatedPages || profile.readerLimitations)
+const readerReferenceIds = new Set(references.map(reference => reference.id))
 for (const profile of readerProfiles) {
-  const readyStates = ['draft-ready', 'translation-needed', 'not-started']
-  if (!profile.readerLanguageStatus || !readyStates.includes(profile.readerLanguageStatus.en) || !readyStates.includes(profile.readerLanguageStatus.zh)) {
-    throw new Error('Reader-language status is incomplete for ' + profile.id)
-  }
-  if (!Array.isArray(profile.readerSections) || profile.readerSections.length === 0 || !Array.isArray(profile.readerSources) || profile.readerSources.length === 0) {
-    throw new Error('Reader pages require sections and sources for ' + profile.id)
-  }
-  if (!profile.readerLimitations?.en || !profile.readerLimitations?.zh) throw new Error('Reader-page limitations must be bilingual for ' + profile.id)
+  if (profile.readerSections !== undefined && !Array.isArray(profile.readerSections)) throw new Error('Reader sections must be an array for ' + profile.id)
+  if (profile.readerSources !== undefined && !Array.isArray(profile.readerSources)) throw new Error('Reader sources must be an array for ' + profile.id)
+  if (profile.readerLimitations && (!profile.readerLimitations.en || !profile.readerLimitations.zh)) throw new Error('Reader-page limitations must be bilingual for ' + profile.id)
+  const primaryIds = new Set(profile.referenceIds ?? [])
+  if (![...primaryIds].every(id => readerReferenceIds.has(id))) throw new Error('Reader page has an unresolved primary reference for ' + profile.id)
   const sources = new Map()
-  for (const source of profile.readerSources) {
-    if (!source.id || sources.has(source.id) || !/^https:\/\//.test(source.url) || !source.title?.en || !source.title?.zh || !source.scope?.en || !source.scope?.zh) {
+  for (const source of profile.readerSources ?? []) {
+    const hasTitle = typeof source.title === 'string' ? source.title.trim().length > 0 : source.title?.en && source.title?.zh
+    if (!source.id || sources.has(source.id) || !/^https:\/\//.test(source.url) || !hasTitle || !source.scope?.en || !source.scope?.zh) {
       throw new Error('Reader source is incomplete or duplicated for ' + profile.id)
     }
     sources.set(source.id, source)
   }
   const sectionIds = new Set()
-  for (const section of profile.readerSections) {
-    if (!section.id || sectionIds.has(section.id) || !section.title?.en || !section.title?.zh || !section.text?.en || !section.text?.zh || !section.sourceIds?.length) {
+  for (const section of profile.readerSections ?? []) {
+    if (!section.id || sectionIds.has(section.id) || !section.title?.en || !section.title?.zh || !section.text?.en || !section.text?.zh) {
       throw new Error('Reader section is incomplete or duplicated for ' + profile.id)
     }
     sectionIds.add(section.id)
-    if (!section.sourceIds.every((sourceId) => sources.has(sourceId))) throw new Error('Reader section has an unresolved source for ' + profile.id + '/' + section.id)
+    if (section.sourceIds !== undefined && (!Array.isArray(section.sourceIds) || !section.sourceIds.length || !section.sourceIds.every(sourceId => sources.has(sourceId) || primaryIds.has(sourceId)))) throw new Error('Reader section has an unresolved source for ' + profile.id + '/' + section.id)
+    if (section.sourceIds === undefined && !primaryIds.size) throw new Error('Reader section needs passage sources or a recorded primary bibliography for ' + profile.id + '/' + section.id)
   }
   const relatedPageIds = new Set()
   for (const relatedPage of profile.readerRelatedPages ?? []) {

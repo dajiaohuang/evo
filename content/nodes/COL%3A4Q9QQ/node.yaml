@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena levenorum
+  displayName: Ptychadena levenorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9QQ
+  sourceIndexes:
+    - name:
+        en: Ptychadena levenorum
+        zh: Ptychadena levenorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9QQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/475
+            queryName: Ptychadena levenorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5396c674cb
+      - s-738cae54fd
+      - s-42d91f39fa
+      - s-51508cf406
+      - s-262e32eae9
+      - s-b1d7ed1fdb
+      - s-6ce7edf718
+      - s-cc04909f57
+      - s-b054cdca33
+      - s-83e22cf95f
+      - s-ab11160746
+      - s-c0a737cac9
+      - s-5b86efade9
+    zh:
+      - s-afe0eed1e4
+      - s-becdb58203
+      - s-5d286e9974
+      - s-130591dfca
+      - s-0ac600dfac
+      - s-f4574baa24
+      - s-183a9c9cf7
+      - s-b0919e9ab8
+      - s-3a12c99af4
+      - s-7ad2e078f7
+      - s-e936fd2454
+      - s-087fe1eb06
+      - s-dfecc52661

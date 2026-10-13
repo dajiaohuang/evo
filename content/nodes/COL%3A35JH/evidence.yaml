@@ -1,0 +1,410 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aubria Boulenger, 1917
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Aubria
+      zh: Aubria
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3c796b0732
+            part: title
+          zh:
+            page: zh
+            section: s-ce2c332ca0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3c796b0732
+            part: body
+          zh:
+            page: zh
+            section: s-ce2c332ca0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-35dc1590b8
+            part: title
+          zh:
+            page: zh
+            section: s-930ba17871
+            part: title
+        text:
+          en:
+            page: en
+            section: s-35dc1590b8
+            part: body
+          zh:
+            page: zh
+            section: s-930ba17871
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-d6cf67ab07
+            part: title
+          zh:
+            page: zh
+            section: s-be216b4b9f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d6cf67ab07
+            part: body
+          zh:
+            page: zh
+            section: s-be216b4b9f
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f28735d1de
+            part: title
+          zh:
+            page: zh
+            section: s-9cc84ede0a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f28735d1de
+            part: body
+          zh:
+            page: zh
+            section: s-9cc84ede0a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-7fb9084764
+            part: title
+          zh:
+            page: zh
+            section: s-215e5b41a8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: JP7B
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJP7B
+            label:
+              en: Aubria masako
+              zh: Aubria masako
+          - kind: catalogue
+            colId: JP7D
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJP7D
+            label:
+              en: Aubria subsigillata
+              zh: Aubria subsigillata
+        text:
+          en:
+            page: en
+            section: s-7fb9084764
+            part: body
+          zh:
+            page: zh
+            section: s-215e5b41a8
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc5683629-35jh
+        title:
+          en:
+            page: en
+            section: s-e5c21fb5ec
+            part: title
+          zh:
+            page: zh
+            section: s-a4288fa651
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e5c21fb5ec
+            part: body
+          zh:
+            page: zh
+            section: s-a4288fa651
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc5683629-35jh
+        title:
+          en:
+            page: en
+            section: s-cd619ed3fe
+            part: title
+          zh:
+            page: zh
+            section: s-64100166f7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cd619ed3fe
+            part: body
+          zh:
+            page: zh
+            section: s-64100166f7
+            part: body
+      - topic: range
+        sourceIds:
+          - primary-direct-group-pmc5683629-35jh
+        title:
+          en:
+            page: en
+            section: s-57772eff64
+            part: title
+          zh:
+            page: zh
+            section: s-d3781ac0e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-57772eff64
+            part: body
+          zh:
+            page: zh
+            section: s-d3781ac0e3
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc5683629-35jh
+        title:
+          en:
+            page: en
+            section: s-dde618456e
+            part: title
+          zh:
+            page: zh
+            section: s-985f30c314
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: JP7B
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJP7B
+            label:
+              en: Aubria masako
+              zh: Aubria masako
+        text:
+          en:
+            page: en
+            section: s-dde618456e
+            part: body
+          zh:
+            page: zh
+            section: s-985f30c314
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Aubria
+          url: https://www.checklistbank.org/dataset/316115/taxon/35JH
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Aubria; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc5683629-35jh
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Aubria masako: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Aubria masako accountsec046. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Aubria masako selectednamedaccounts; unresolvedOTUs distinct
+            zh: Aubria masako 选定命名记录；未解决 OTU 独立
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b2304ebb9e
+        part: body
+      zh:
+        page: zh
+        section: s-ed51c4ac01
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Aubria
+      sourceRowIds:
+        - Anf4701
+        - Anf4702
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 2
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-direct-group-pmc5683629-35jh
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: RemainingselectedAubria accountsubset, historicalworkinglabels/explicitcatalogue links, notfullgenus conceptcertification
+        evidenceRead: "Aubria masako: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Aubria masako accountsec046. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Selected working identifications retain their unresolved alternatives
+              zh: 选定工作鉴定保留未解决替代解释
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-35jh
+            locator: PMC5683629 XML sec046 literalAubria masako marker/reference/identification account; Table2 relevantrows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-436fc16158
+                part: body
+              zh:
+                page: zh
+                section: s-cff7c687a0
+                part: body
+            scope:
+              en: Aubria masako selectednamedaccounts; unresolvedOTUs distinct
+              zh: Aubria masako 选定命名记录；未解决 OTU 独立
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Reference evidence does not substitute for type or nuclear data
+              zh: 参考证据不替代模式或核数据
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-35jh
+            locator: PMC5683629 XML sec006–012,sec053 andselectedAubria account limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d61b467812
+                part: body
+              zh:
+                page: zh
+                section: s-3d99cc1cb1
+                part: body
+            scope:
+              en: Aubria masako selectednamedaccounts; unresolvedOTUs distinct
+              zh: Aubria masako 选定命名记录；未解决 OTU 独立
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Reader routes preserve the historical regional scope
+              zh: 阅读路径保留历史区域范围
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-35jh
+            locator: PMC5683629 XML sec003/004/007/015/Table1; selectedspecies namedaccounts
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-32e87d1d85
+                part: body
+              zh:
+                page: zh
+                section: s-467c0802b2
+                part: body
+            scope:
+              en: Aubria masako selectednamedaccounts; unresolvedOTUs distinct
+              zh: Aubria masako 选定命名记录；未解决 OTU 独立
+    primaryResearchGroupSynthesisComplete: false

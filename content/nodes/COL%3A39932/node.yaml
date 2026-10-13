@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus bartonsmithi
+  displayName: Eleutherodactylus bartonsmithi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39932
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus bartonsmithi
+        zh: Eleutherodactylus bartonsmithi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "39932"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/164
+            queryName: Eleutherodactylus bartonsmithi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb42f21960
+      - s-0df588be48
+      - s-554c6879eb
+      - s-2aa1d42a73
+      - s-a2a5e9ae3c
+      - s-fb122120e5
+      - s-48338d57fb
+      - s-3773771803
+      - s-b9de062c44
+    zh:
+      - s-8a0869396f
+      - s-6beba4e77c
+      - s-26d1893bc4
+      - s-beb6da49ad
+      - s-f8050c45cd
+      - s-9bfdeeded5
+      - s-12b04b222e
+      - s-31f100f758
+      - s-d4d0c9e787

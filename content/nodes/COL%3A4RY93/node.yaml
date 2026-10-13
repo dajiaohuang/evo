@@ -1,0 +1,162 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhaebo guttatus
+  displayName: Rhaebo guttatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RY93
+  sourceIndexes:
+    - name:
+        en: Rhaebo guttatus
+        zh: Rhaebo guttatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RY93
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/271
+            queryName: Rhaebo guttatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/391
+            queryName: Bufo guttatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/405
+            queryName: Bufo melini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/154
+            queryName: Bufo anderssoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/136
+            queryName: Rhaebo anderssoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/303
+            queryName: Bufo guttatus guttatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/304
+            queryName: Bufo crucifer phrimeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/384
+            queryName: Bufo leschenaultii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/385
+            queryName: Phrynomorphus leschenaulti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/386
+            queryName: Rhaebo leschenaultii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/54
+            queryName: Bufo crucifer pfrimeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/149
+            queryName: Bufo leschenaulti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eb2ec6e2b2
+      - s-5ee492c2f6
+      - s-05760720cf
+      - s-2e009350a6
+      - s-caa064ba20
+      - s-9f4b1a9bd5
+      - s-0f1555922f
+      - s-9ab26b216b
+      - s-92224974fb
+      - s-0e63f10fb1
+      - s-be6139288a
+      - s-f66ad2da3b
+      - s-2f6d860148
+      - s-2188f386a3
+      - s-66dbbd9fb9
+      - s-a190757a60
+      - s-1581051be9
+      - s-11e6a89b11
+      - s-486770164d
+      - s-67f8e94d83
+      - s-9765f1f40a
+      - s-75ac59d803
+      - s-a43e13e3d9
+      - s-e2b340101a
+      - s-30704cb74e
+      - s-f745b0c388
+      - s-af853d4679
+      - s-6c9bc45824
+    zh:
+      - s-6093bdccd4
+      - s-355b2d84f4
+      - s-aee564f032
+      - s-4fbed888aa
+      - s-37e3d82d9a
+      - s-33fbf65761
+      - s-d96a212712
+      - s-99bc31d821
+      - s-99ddd5c08e
+      - s-716f659a7f
+      - s-e5f19d6c84
+      - s-ed39c68a61
+      - s-70017900b3
+      - s-99bcbf8d32
+      - s-a4ee42eb27
+      - s-f216dc6c41
+      - s-9cf5260d9e
+      - s-3e58c4297d
+      - s-85e50e79df
+      - s-c9f405f6ba
+      - s-a65b80a5aa
+      - s-505cc4e1d3
+      - s-cac2d932c8
+      - s-1fd310ff9e
+      - s-de1c6496c0
+      - s-dbff6c92eb
+      - s-166889af09
+      - s-33aeca9b24

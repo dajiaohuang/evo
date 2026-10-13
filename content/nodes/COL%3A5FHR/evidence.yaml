@@ -1,0 +1,332 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lissotriton Bell, 1839
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Lissotriton
+      zh: Lissotriton
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f27de8a8ab
+            part: title
+          zh:
+            page: zh
+            section: s-b9f4ec2351
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f27de8a8ab
+            part: body
+          zh:
+            page: zh
+            section: s-b9f4ec2351
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d47af47ff8
+            part: title
+          zh:
+            page: zh
+            section: s-3883614811
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d47af47ff8
+            part: body
+          zh:
+            page: zh
+            section: s-3883614811
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-fbbb4b0b6d
+            part: title
+          zh:
+            page: zh
+            section: s-8d0c77f6e7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fbbb4b0b6d
+            part: body
+          zh:
+            page: zh
+            section: s-8d0c77f6e7
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-cdd473cfb5
+            part: title
+          zh:
+            page: zh
+            section: s-a0b2990275
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cdd473cfb5
+            part: body
+          zh:
+            page: zh
+            section: s-a0b2990275
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-ebe35847a4
+            part: title
+          zh:
+            page: zh
+            section: s-0a1c9e3d25
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3VGGW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3VGGW
+            label:
+              en: Lissotriton boscai
+              zh: Lissotriton boscai
+          - kind: catalogue
+            colId: 3VGGX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3VGGX
+            label:
+              en: Lissotriton graecus
+              zh: Lissotriton graecus
+          - kind: catalogue
+            colId: 3VGGY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3VGGY
+            label:
+              en: Lissotriton helveticus
+              zh: Lissotriton helveticus
+          - kind: catalogue
+            colId: 3VGGZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3VGGZ
+            label:
+              en: Lissotriton italicus
+              zh: Lissotriton italicus
+          - kind: catalogue
+            colId: 3VGH2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3VGH2
+            label:
+              en: Lissotriton kosswigi
+              zh: Lissotriton kosswigi
+          - kind: catalogue
+            colId: 3VGH4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3VGH4
+            label:
+              en: Lissotriton maltzani
+              zh: Lissotriton maltzani
+          - kind: catalogue
+            colId: 3VGH6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3VGH6
+            label:
+              en: Lissotriton montandoni
+              zh: Lissotriton montandoni
+          - kind: catalogue
+            colId: 72KTZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A72KTZ
+            label:
+              en: Lissotriton vulgaris
+              zh: Lissotriton vulgaris
+        text:
+          en:
+            page: en
+            section: s-ebe35847a4
+            part: body
+          zh:
+            page: zh
+            section: s-0a1c9e3d25
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-a27afaedf7
+            part: title
+          zh:
+            page: zh
+            section: s-09ced7d630
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-a27afaedf7
+            part: body
+          zh:
+            page: zh
+            section: s-09ced7d630
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Lissotriton
+          url: https://www.checklistbank.org/dataset/316115/taxon/5FHR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Lissotriton; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Lissotriton; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fa78b60fd3
+        part: body
+      zh:
+        page: zh
+        section: s-775e764936
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Lissotriton
+      sourceRowIds:
+        - Anf6514
+        - Anf6515
+        - Anf6516
+        - Anf6517
+        - Anf6518
+        - Anf6519
+        - Anf6520
+        - Anf6521
+        - Anf6522
+        - Anf6523
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 5
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 5
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Lissotriton vulgaris
+          path: content/nodes/local-05038dcbee049d6600e6f0d5
+        - scientificName: Lissotriton helveticus
+          path: content/nodes/local-7f8a62ee1ee45b8bf323e8a8
+        - scientificName: Lissotriton boscai
+          path: content/nodes/local-9ff169530ac0b33bc19bf8f5
+        - scientificName: Lissotriton montandoni
+          path: content/nodes/local-b6054f7b9696406f95bf5723
+      metrics:
+        - metric: Tpref
+          rows: 7
+          sourceConcepts: 4
+        - metric: CTmax
+          rows: 1
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

@@ -1,0 +1,6 @@
+## A three-vein leaf and a broad anther pore {#s-5ba6e15c53}
+One Brazilian Flora 2020 v393.147 field places a mostly hairless lance-shaped leaf beside a flower with a broad anther pore. The leaf tip tapers gradually or extends like a tail; its base narrows, and the margin is described as saw-toothed or toothed, finely to minutely toothed, and without fringe-like hairs. Three main veins arise above the base; two faint veins just inside the edge appear in one alternative. The underside is hairless or sparsely covered by star-shaped hairs attached directly to it. Flowers branch in paired units. The bell-shaped flower cup bears a calyx that falls away and has distinct lobes; each flower has five petals. The tissue connecting the pollen sacs extends, with no appendage or two lower-side lobes. Anther colour is unspecified; there is one broad pore, and the ovary bears hairs. The field lists alternatives but does not quantify their distribution.
+
+## A terrestrial habitat category {#s-4b76d086dd}
+The accompanying habitat field uses “terrícola,” or terrestrial. It supplies no collection locality, survey date or range coverage and does not say whether the material is wild, cultivated, managed or fossil. The label is one setting category rather than a full account of habitat.
+

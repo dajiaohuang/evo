@@ -1,0 +1,178 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Palemys bowerbankii
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Palemys bowerbankii
+      en: Palemys bowerbankii
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-123344fa09
+            part: body
+          en:
+            page: en
+            section: s-51dd7385f3
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c231f638c7
+            part: body
+          en:
+            page: en
+            section: s-8ad106cb95
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-02ac33541c
+            part: body
+          en:
+            page: en
+            section: s-b681a57f06
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3e0f55d519
+            part: body
+          en:
+            page: en
+            section: s-1cb70ff675
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-77993ef6c4
+            part: body
+          en:
+            page: en
+            section: s-3042a8f656
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Palemys bowerbankii
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=156263&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:156263; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:156263
+          selectedOccurrenceIds:
+            - occ:1332207
+            - occ:1384089
+            - occ:1413906
+            - occ:1413907
+            - occ:1413908
+          selectedCollectionIds:
+            - col:167274
+            - col:178051
+          sourceReferenceIds:
+            - ref:14071
+            - ref:64256
+            - ref:66508
+          originalIdentificationMappings:
+            - occurrenceId: occ:1332207
+              originalIdentifiedName: Platemys bowerbankii n. sp.
+              acceptedName: Palemys bowerbankii
+              difference: recombined as
+            - occurrenceId: occ:1384089
+              originalIdentifiedName: Platemys bowerbankii n. sp.
+              acceptedName: Palemys bowerbankii
+              difference: recombined as
+            - occurrenceId: occ:1413906
+              originalIdentifiedName: Emys laevis n. sp.
+              acceptedName: Palemys bowerbankii
+              difference: null
+            - occurrenceId: occ:1413907
+              originalIdentifiedName: Emys delabechii n. sp.
+              acceptedName: Palemys bowerbankii
+              difference: null
+            - occurrenceId: occ:1413908
+              originalIdentifiedName: Emys conybearii n. sp.
+              acceptedName: Palemys bowerbankii
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-69b3024014
+        part: body
+      en:
+        page: en
+        section: s-41419e2b82
+        part: body

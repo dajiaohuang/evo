@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhombophryne matavy
+  displayName: Rhombophryne matavy
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4SK5Q
+  sourceIndexes:
+    - name:
+        en: Rhombophryne matavy
+        zh: Rhombophryne matavy
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4SK5Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/397
+            queryName: Rhombophryne matavy
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/189
+            queryName: Plethodontohyla matavy
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/190
+            queryName: Rhombophryns matavy
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b72aee4f7b
+      - s-95af838b9e
+      - s-fc7b06ac35
+      - s-178dd78b9a
+      - s-5595511dad
+      - s-9dbd44cea6
+      - s-41d8e82f0a
+      - s-6cc4cd5569
+      - s-354330fa23
+      - s-b75c3bb634
+    zh:
+      - s-00d002492a
+      - s-dd012418cc
+      - s-1070cb48bf
+      - s-d83400a318
+      - s-9375614100
+      - s-704d15089c
+      - s-bac968721f
+      - s-0acc9a2a0d
+      - s-60129795c3
+      - s-9135815ba5

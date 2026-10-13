@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-59fb02e92a
+      part: title
+    titleZh:
+      page: zh
+      section: s-626b93f4ed
+      part: title
+    category: innovation
+    startAge: 521
+    endAge: 513
+    regions:
+      - Cambrian Series 2 localities in Siberia and Australia
+    clades:
+      - Bivalvia
+      - Pojetaia runnegari
+    summary:
+      page: en
+      section: s-59fb02e92a
+      part: body
+    summaryZh:
+      page: zh
+      section: s-626b93f4ed
+      part: body
+    claimIds:
+      - claim:event:pojetaia-shell-microstructure
+    evidenceItems:
+      - statement: Pojetaia and Fordilla sections show a laminar inner fabric compared with foliated aragonite in living monoplacophorans.
+        relation: supports
+        claimIds:
+          - claim:event:pojetaia-shell-microstructure
+        referenceLinks:
+          - referenceId: vendrasco-et-al-2011-pojetaia
+            relation: supports
+            pages: 825–850
+            figure: Figures 1–12; Tables 1–2
+            quoteLocator: Material; shell microstructure; comparisons
+    uncertaintyItems:
+      - statement: Diagenesis and structural analogy limit mineral and homology claims; the paper explicitly withholds undisputed Cambrian nacre.
+        relation: contextualizes
+        claimIds:
+          - claim:event:pojetaia-shell-microstructure
+        referenceLinks:
+          - referenceId: vendrasco-et-al-2011-pojetaia
+            relation: supports
+            pages: 825–850
+            figure: Figures 8–12
+            quoteLocator: Discussion of aragonite and nacre
+  claims:
+    - subjectId: event:pojetaia-shell-microstructure
+      claimKind: scientific
+      claimType: morphology
+      statement: New Pojetaia shell sections preserve a laminar inner microstructure comparable to foliated aragonite; the study does not identify undisputed Cambrian nacre and instead tests independent later origins of nacre across molluscan classes.
+      confidence: medium
+      confidenceRationale: Shell fabrics are imaged and compared directly, while mineral identity, precursor relationships and repeated origins of nacre are comparative inferences affected by preservation.
+      referenceLinks:
+        - referenceId: vendrasco-et-al-2011-pojetaia
+          relation: supports
+          pages: 825–850
+          figure: Figures 1–12; Tables 1–2
+          quoteLocator: Pojetaia material; shell microstructure; discussion of foliated aragonite and nacre
+  claim-rationales.zh:
+    - 壳体微结构由切片和图像直接记录；矿物身份、前体关系及珍珠层多次起源仍受保存和比较限制。
+  claim-statements.zh:
+    - 新的 Pojetaia 贝壳切片保存了可与叶片状文石相比的层状内微结构；该研究没有认定存在无争议的寒武纪珍珠层，而是检验珍珠层在各软体动物纲中后来独立起源的可能性。

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla Laurenti, 1768
+  displayName: Hyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZYM
+  sourceIndexes:
+    - name:
+        en: Hyla
+        zh: Hyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZYM
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/438
+            queryName: Hyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4170
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bcbf220671
+      - s-d5c3462bfd
+      - s-fb5c9aa6ab
+      - s-05a79425f2
+      - s-c99077e7fd
+      - s-8e372785a1
+      - s-cf890536bd
+      - s-b3e14e384d
+      - s-89ac80b728
+      - s-62202de5b2
+      - s-72576fb4f0
+      - s-50b7e3e331
+      - s-dffdad50f9
+      - s-b958ddafb6
+      - s-f3abcb54be
+      - s-a647675744
+      - s-b2e8d2fe9f
+      - s-dc98657561
+      - s-32f6ae3ddc
+    zh:
+      - s-666a0d4a43
+      - s-5fb4ac70c6
+      - s-6f9f7b3a63
+      - s-4e20bd679c
+      - s-9def6dfb40
+      - s-1da0b06e63
+      - s-748bcaffe7
+      - s-3a788e3662
+      - s-df519fccc8
+      - s-2823aca0eb
+      - s-5aac6a0bb0
+      - s-cf8a1de2bb
+      - s-446b136c7a
+      - s-da0354909c
+      - s-6347500abb
+      - s-6c40f31b1f
+      - s-c6bb7e56e0
+      - s-e89d8ff572
+      - s-c1fae97930

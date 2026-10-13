@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia martini
+  displayName: Uperoleia martini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DLW2
+  sourceIndexes:
+    - name:
+        en: Uperoleia martini
+        zh: Uperoleia martini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DLW2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/199
+            queryName: Uperoleia martini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5664a14caa
+      - s-28a4d5be40
+      - s-ed6b56a48d
+      - s-0865e265b2
+      - s-e6f9e27761
+      - s-c76d1380ac
+      - s-1e8f195ea1
+      - s-e517083bcf
+      - s-29433c8130
+      - s-a9c19947ce
+    zh:
+      - s-3e4c89ff8f
+      - s-0333b8fd4d
+      - s-cf3f2f9c2d
+      - s-dc7da3c8ca
+      - s-43a29501d2
+      - s-f6d92665a1
+      - s-b811319d43
+      - s-915f4e4830
+      - s-a96a76ef08
+      - s-103d5b2660

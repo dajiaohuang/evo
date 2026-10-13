@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella maculosa
+  displayName: Leptobrachella maculosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TK9Z
+  sourceIndexes:
+    - name:
+        en: Leptobrachella maculosa
+        zh: Leptobrachella maculosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TK9Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/253
+            queryName: Leptobrachella maculosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/300
+            queryName: Leptolalax maculosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6dc359a861
+      - s-ce68b5faf6
+      - s-bab64b74cc
+      - s-c2def0e7bf
+      - s-77fa243856
+      - s-7d4f9d6ee4
+      - s-40cf0eaff5
+      - s-b254650fe9
+      - s-d89f1954c6
+    zh:
+      - s-a949f66ae9
+      - s-4e89d7b7d0
+      - s-338c22a8b2
+      - s-5ab6602f77
+      - s-3ed02fe678
+      - s-f375699842
+      - s-47405e6bf1
+      - s-6a7a82ca01
+      - s-9f91205db9

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina adelphe
+  displayName: Austrochaperina adelphe
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JVZJ
+  sourceIndexes:
+    - name:
+        en: Austrochaperina adelphe
+        zh: Austrochaperina adelphe
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JVZJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/342
+            queryName: Austrochaperina adelphe
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/75
+            queryName: Sphenophryne adelphe
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b538c5527
+      - s-d8ab57ca65
+      - s-2fbd6329f1
+      - s-5b94b084d7
+      - s-290c0c2063
+      - s-9a624d235d
+      - s-dabdefb4fd
+      - s-10b53dac35
+      - s-ca0966759e
+      - s-0ae3f7a7e5
+    zh:
+      - s-cda10eb488
+      - s-72efb4a9c8
+      - s-85efd42664
+      - s-b51d922d8d
+      - s-5c218fea76
+      - s-59158ee1e2
+      - s-e4cc4646b7
+      - s-b9200e7c4c
+      - s-7846d4c0ea
+      - s-b0b85d14bc

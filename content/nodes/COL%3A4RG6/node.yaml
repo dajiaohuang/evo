@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis
+  displayName: Guibemantis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RG6
+  sourceIndexes:
+    - name:
+        en: Guibemantis
+        zh: Guibemantis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RG6
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/412
+            queryName: Guibemantis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 37
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b235648502
+      - s-2b8375458b
+      - s-d84a0d9c4f
+      - s-a228240f3d
+      - s-770d47541c
+      - s-ecd99df403
+    zh:
+      - s-4e6e69580a
+      - s-b1304f02ac
+      - s-72ded54803
+      - s-7ed332b858
+      - s-8b3fddf706
+      - s-6605c0b2a4

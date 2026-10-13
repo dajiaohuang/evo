@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-e5b205401e}
+The version 3 Amphibian database lists Boophis marojezensis in a source measurement table. Its classification fields read order = Anura, family = Mantellidae, genus = Boophis; the linked citation is in Reference.csv row 113. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-96ab75adaa}
+Anura.csv rows 778, 779 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 778 (M) = 23.24146341, row 779 (F) = 32.4; HL: row 778 (M) = 8.563414634, row 779 (F) = 11.7; HW: row 778 (M) = 8.441463415, row 779 (F) = 11.7; other populated codes are ED, TD, IND, EN, NS, HAL, LAL, FL, HLL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

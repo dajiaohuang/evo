@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Lyciasalamandra antalyana
+    name:
+      en: Lyciasalamandra antalyana
+      zh: Lyciasalamandra antalyana
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Lyciasalamandra
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Lyciasalamandra antalyana in the morphology deposit
+          zh: 形态数据中的 Lyciasalamandra antalyana 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-44b4a101b0
+            part: body
+          zh:
+            page: zh
+            section: s-1c22eee654
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 206 and 207: measurement fields and sex codes"
+          zh: 第 206、207 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7d858d59dd
+            part: body
+          zh:
+            page: zh
+            section: s-abe118c83d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 206, 207; Reference.csv rows 4185
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 206
+        values:
+          - Salamandridae
+          - Lyciasalamandra
+          - Lyciasalamandra antalyana
+          - M
+          - "126.58"
+          - "69.9"
+          - "45.24"
+          - "36.94"
+          - "17.21"
+          - "10.86"
+          - NA
+          - "3.97"
+          - "2.82"
+          - NA
+          - "4.74"
+          - NA
+          - "56.53"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "20.37"
+          - "24.19"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 207
+        values:
+          - Salamandridae
+          - Lyciasalamandra
+          - Lyciasalamandra antalyana
+          - F
+          - "123.17"
+          - "68.17"
+          - "45.44"
+          - "37.36"
+          - "16.73"
+          - "11.2"
+          - NA
+          - "4.4"
+          - "2.72"
+          - NA
+          - "4.87"
+          - NA
+          - "55"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "21.63"
+          - "25.54"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4185
+        values:
+          - Caudata
+          - Lyciasalamandra_antalyana
+          - "Yalçinkaya, D. (2013). Range extension of Lyciasalamandra antalyana (Ba?o?lu & Baran, 1976) (Amphibia: Urodela: Salamandridae). Biherean Biologist, 7, 7-12. "
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - ED
+      - EN
+      - IND
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6QPDR
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

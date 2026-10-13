@@ -1,0 +1,24 @@
+## Choose comparison pages by life-history fields {#s-39a93ff3cf}
+This batch’s Steno route includes 1 historical life-history accounts; start with Steno bredanensis. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), age of dependence on food other than maternal milk (1 entries), longest lifespan record in the compilation (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
+
+## Compare food, feeding positions and activity periods {#s-8b2442df57}
+This batch’s Steno route includes 1 historical entries; start with Steno bredanensis. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
+
+## Life-history evidence limits {#s-7157bae079}
+The PanTHERIA, 2015 life-history and EltonTraits routes each list one Steno bredanensis record. The available life-history fields include age at first conception, age of dependence on non-maternal food, and a longest-lifespan value, but no gestation record. EltonTraits has food and foraging categories, with no activity-period entry in this route. These source records describe one historical name, not complete genus coverage.
+
+## Start with the historical entries {#s-e73de0ac68}
+The local PanTHERIA route for Steno includes one usable data account. Start with [Steno bredanensis](Steno_bredanensis/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+
+## Limits of these historical data {#s-502a9508b0}
+This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
+
+## Follow the life-history records {#s-9e8b6867fa}
+This batch offers 1 historical life-history account under Steno. Start with [Steno bredanensis](Steno_bredanensis/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+
+## Distinguish averages from records {#s-725610d3a0}
+Gestation is recorded in 0 accounts, female age at first reproduction in 1 account, and maximum lifespan in 1 account. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
+
+## Limits of these historical data {#s-ff5f1c94bf}
+This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
+

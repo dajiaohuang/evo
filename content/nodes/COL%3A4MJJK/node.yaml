@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis myersi
+  displayName: Pristimantis myersi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJK
+  sourceIndexes:
+    - name:
+        en: Pristimantis myersi
+        zh: Pristimantis myersi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/429
+            queryName: Pristimantis myersi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/377
+            queryName: Trachyphrynus myersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/139
+            queryName: Eleutherodactylus myersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-32b3d70136
+      - s-095b4f8eb4
+      - s-d9721a38e6
+      - s-e6fb91a3bc
+      - s-3e0ed11855
+      - s-7f95e7f42f
+      - s-9d70e34722
+      - s-01a4811db3
+      - s-3ab9847ad8
+      - s-6b01cfcba9
+      - s-5f56a5a1d8
+      - s-c41206e497
+      - s-d81b0794a9
+      - s-83d0c4d95d
+      - s-873ee0422c
+      - s-e16cb697f9
+      - s-6b0e97d445
+      - s-a20e316c00
+      - s-97a30a2a94
+      - s-3258a54d24
+      - s-6ca07da7ff
+      - s-c5386627c4
+    zh:
+      - s-ab2c795b48
+      - s-564bdbdd54
+      - s-5711cdcefe
+      - s-34b267595e
+      - s-40721f45eb
+      - s-c5c1f6a63d
+      - s-d1945661d0
+      - s-898c837470
+      - s-b3c9af9889
+      - s-e04ca7767d
+      - s-a2895ccfc4
+      - s-2a0a746751
+      - s-48b0be5fa1
+      - s-1020d6138e
+      - s-0c53bb3fc8
+      - s-82e6cb9c07
+      - s-20b19b1c7b
+      - s-16548dd09b
+      - s-dfe2f54162
+      - s-12876265e9
+      - s-53758706ba
+      - s-67ba798ba6

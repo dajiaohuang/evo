@@ -1,0 +1,237 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lophocebus Palmer, 1903
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Crested Mangabeys
+      zh: 冠獒猴属
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-b2230b09cb
+            part: body
+          zh:
+            page: zh
+            section: s-75a84a4463
+            part: body
+        sourceIds:
+          - taxonomy
+          - albigenaTaxonomy
+          - aterrimusTaxonomy
+          - poulsen2001
+          - horn1987
+          - salonga2023
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-33252d20dc
+            part: body
+          en:
+            page: en
+            section: s-18bb030c09
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-2001792161
+            part: body
+          en:
+            page: en
+            section: s-17ae08b64a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-7eb2b386-3dd0-8295-a96e-e2dacbcf16f1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins accepted genus ID 5GJD and COL26.8 hierarchy.
+            zh: 固定接受属 ID 5GJD 及 COL26.8 层级。
+      - id: albigenaTaxonomy
+        referenceId: ref-b8f49e68-0fb6-8b10-a70e-e21e0cf8860f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Links accepted species page 3W2S8 into the genus reading path.
+            zh: 将接受种页面 3W2S8 接入属级阅读路径。
+      - id: aterrimusTaxonomy
+        referenceId: ref-82ccddaf-88a0-8853-a28e-c89c2ca22c17
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Links accepted species page 3W2S9 into the genus reading path.
+            zh: 将接受种页面 3W2S9 接入属级阅读路径。
+      - id: poulsen2001
+        referenceId: ref-3d7b06db-cc52-8c3a-aaf4-d242e878138b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Seasonal field study in Dja Reserve, February–December 1998.
+            zh: 1998 年 2–12 月在 Dja 保护区开展的季节性野外研究。
+      - id: horn1987
+        referenceId: ref-adfab442-fe20-810f-a95a-ec92bdebfce5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Two-year Lake Tumba field study, published under an older genus combination.
+            zh: Lake Tumba 两年野外研究，论文使用旧属名组合。
+      - id: salonga2023
+        referenceId: ref-909531f9-0c50-8960-a5e4-73288ebd7489
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Line-transect disturbance study in Salonga National Park, 2016–2018.
+            zh: 2016–2018 年在 Salonga 国家公园开展的样线干扰研究。
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 2 authored same-name records placed under Lophocebus by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 2 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 2
+            foraging: 2
+            activity: 2
+          readingTargets:
+            - name: Lophocebus albigena
+              colId: 3W2S8
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3W2S8
+            - name: Lophocebus aterrimus
+              colId: 3W2S9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3W2S9
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-956c35faa0
+        part: body
+      zh:
+        page: zh
+        section: s-5621570543
+        part: body

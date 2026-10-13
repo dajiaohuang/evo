@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thoropa saxatilis
+  displayName: Thoropa saxatilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KWF
+  sourceIndexes:
+    - name:
+        en: Thoropa saxatilis
+        zh: Thoropa saxatilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KWF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/68
+            queryName: Thoropa saxatilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9ab2703207
+      - s-33e963ac57
+      - s-72e957098a
+      - s-0ad8d926d6
+      - s-4eca8168ee
+      - s-26639178ad
+      - s-224550fa1a
+      - s-d2237dbcb4
+      - s-34bcb44e66
+      - s-66b5133069
+      - s-d2e2d7f7c7
+      - s-26f9e95cfc
+      - s-287a812bb1
+      - s-128e87ef67
+      - s-268fd5c598
+      - s-289f0bb1f8
+      - s-6635e4e40b
+      - s-91297b4818
+      - s-10da84a3a0
+    zh:
+      - s-072d4b557d
+      - s-a3ade1f0f2
+      - s-a0334baeba
+      - s-7a7945479a
+      - s-7a3369e863
+      - s-7669275e12
+      - s-19adb6fc1c
+      - s-223c27ae8d
+      - s-579ff34229
+      - s-ab057f8917
+      - s-d8e4d181d6
+      - s-e9377eded4
+      - s-82aef93918
+      - s-7043c5b13f
+      - s-2e251bb113
+      - s-1b2405aac4
+      - s-2c1d22eab4
+      - s-db3bba194d
+      - s-36a48ca06c

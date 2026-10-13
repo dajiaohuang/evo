@@ -1,0 +1,3 @@
+## Skin, blubber-like tissue and pigment in one ichthyosaur {#s-d19c621f15}
+Microscopy, spectroscopy and molecular analysis of Toarcian specimen MH 432 from Holzmaden identify scaleless skin with epidermal and dermal layers, a subcutaneous adipose layer interpreted as blubber, and melanophores (pigment cells) containing eumelanin, a dark pigment. The pigment pattern has been used to propose countershading, but its appearance and any effects on body temperature or metabolism are interpretations based on living analogues, not directly measured physiology. MH 432 documents one ichthyosaur, not every member of the group.
+

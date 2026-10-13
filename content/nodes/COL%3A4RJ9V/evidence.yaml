@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes crustai Zachariah, Dinesh, Kunhikrishnan, Das, Raju, Radhakrishnan, Palot & Kalesh, 2011
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes crustai
+      zh: Raorchestes crustai
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-dbb51236ee
+            part: title
+          zh:
+            page: zh
+            section: s-3c3f59a3dd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dbb51236ee
+            part: body
+          zh:
+            page: zh
+            section: s-3c3f59a3dd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1ae9cc8941
+            part: title
+          zh:
+            page: zh
+            section: s-2ebbcbf06a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1ae9cc8941
+            part: body
+          zh:
+            page: zh
+            section: s-2ebbcbf06a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-2e46b4638a
+            part: title
+          zh:
+            page: zh
+            section: s-46a27d1cbe
+            part: title
+        sourceIds:
+          - primary-pmc7936570-4rj9v
+        text:
+          en:
+            page: en
+            section: s-2e46b4638a
+            part: body
+          zh:
+            page: zh
+            section: s-46a27d1cbe
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2a89fe77eb
+            part: title
+          zh:
+            page: zh
+            section: s-fb5db013b3
+            part: title
+        sourceIds:
+          - primary-pmc7936570-4rj9v
+        text:
+          en:
+            page: en
+            section: s-2a89fe77eb
+            part: body
+          zh:
+            page: zh
+            section: s-fb5db013b3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes crustai
+          url: https://www.checklistbank.org/dataset/316115/taxon/4RJ9V
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7936570-4rj9v
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes crustai: Individually read species-specific acoustic comparison and table 2 species row 65, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7980fe79b9
+        part: body
+      zh:
+        page: zh
+        section: s-946e3604e4
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-4rj9v
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes crustai
+        evidenceRead: "Raorchestes crustai: Individually read species-specific acoustic comparison and table 2 species row 65, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: behavior
+            heading:
+              en: Species-specific call structure in the 2021 comparison
+              zh: 2021 年比较中的物种专属鸣声结构
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-4rj9v
+            locator: PMC7936570 XML sec13 paragraph 60; table-2 species row 65 and adjacent rows for additional call types; sec7 paragraphs 1–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b369f8cd65
+                part: body
+              zh:
+                page: zh
+                section: s-f7b4334826
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Reported calling height is an observation range
+              zh: 报告的鸣叫高度是观察范围
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-4rj9v
+            locator: PMC7936570 XML table-2 species row 65; caption and calling-height column
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eb8283713a
+                part: body
+              zh:
+                page: zh
+                section: s-e8cb20f562
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

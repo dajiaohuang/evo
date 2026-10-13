@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nototriton gamezi
+  displayName: Nototriton gamezi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47Z9T
+  sourceIndexes:
+    - name:
+        en: Nototriton gamezi
+        zh: Nototriton gamezi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47Z9T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/316
+            queryName: Nototriton gamezi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14556
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8c768f761c
+      - s-338caf6fc7
+      - s-9db96acc06
+      - s-ffe9e02d2f
+      - s-cc8e83dd83
+      - s-d74a337256
+      - s-1bbee4dd95
+      - s-82f2190a62
+    zh:
+      - s-d18fdde18e
+      - s-5494cd3c40
+      - s-f984970439
+      - s-8dccad562a
+      - s-ac7582900c
+      - s-97f7f3fff8
+      - s-f2967fae8f
+      - s-b3fffa3b44

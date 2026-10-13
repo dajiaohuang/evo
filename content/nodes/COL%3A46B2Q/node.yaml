@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Neobatrachus wilsmorei
+  displayName: Neobatrachus wilsmorei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/46B2Q
+  sourceIndexes:
+    - name:
+        en: Neobatrachus wilsmorei
+        zh: Neobatrachus wilsmorei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 46B2Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/241
+            queryName: Neobatrachus wilsmorei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/218
+            queryName: Heleioporus wilsmorei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3205c6e33c
+      - s-64f96e1783
+      - s-e319656555
+      - s-ebcd3ac4fa
+      - s-65d570e269
+      - s-2b05ed9d45
+      - s-903d1d06a6
+      - s-47b8fbe906
+      - s-f203dca665
+      - s-687896fb49
+    zh:
+      - s-c46e873b09
+      - s-b7b6692de3
+      - s-576c54a800
+      - s-cda610716d
+      - s-03c7ce3941
+      - s-8047df75ea
+      - s-78cb22877a
+      - s-0fe244c488
+      - s-24b6da5f5b
+      - s-d6e2a2b31a

@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Equus (Plesippus) crenidens
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Equus (Plesippus) crenidens
+      en: Equus (Plesippus) crenidens
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c79c2d2f08
+            part: body
+          en:
+            page: en
+            section: s-d22c019035
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4026c1ea30
+            part: body
+          en:
+            page: en
+            section: s-a615799a05
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-962f890880
+            part: body
+          en:
+            page: en
+            section: s-02aa58010e
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5dec1d736
+            part: body
+          en:
+            page: en
+            section: s-ce7c759c3f
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0ebcf5147a
+            part: body
+          en:
+            page: en
+            section: s-5d80d00a7d
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Equus (Plesippus) crenidens
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=46263&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:46263; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:46263
+          selectedOccurrenceIds:
+            - occ:661978
+            - occ:1243008
+          selectedCollectionIds:
+            - col:71317
+            - col:163820
+          sourceReferenceIds:
+            - ref:24069
+            - ref:53461
+          originalIdentificationMappings:
+            - occurrenceId: occ:661978
+              originalIdentifiedName: Equus crinidens
+              acceptedName: Equus (Plesippus) crenidens
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:1243008
+              originalIdentifiedName: Equus crenidens n. sp.
+              acceptedName: Equus (Plesippus) crenidens
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3b5b2e4c13
+        part: body
+      en:
+        page: en
+        section: s-964b224174
+        part: body

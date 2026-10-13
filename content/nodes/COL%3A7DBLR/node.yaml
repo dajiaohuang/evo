@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton shanjing
+  displayName: Tylototriton shanjing
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLR
+  sourceIndexes:
+    - name:
+        en: Tylototriton shanjing
+        zh: Tylototriton shanjing
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/154
+            queryName: Tylototriton shanjing
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/123
+            queryName: Tylototriton verrucosus shanjing
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e61da6fa3
+      - s-e427bc9895
+      - s-b6228db625
+      - s-6cf9e308d6
+      - s-76a6930f1b
+      - s-0c5dff316d
+      - s-a0c011d114
+      - s-ca69addece
+      - s-1ebfeecca6
+    zh:
+      - s-ee28555b0d
+      - s-dc4e767266
+      - s-144080bd9e
+      - s-87301cf2aa
+      - s-1d0ff1a50b
+      - s-22d2a478e8
+      - s-c7a5dab376
+      - s-3e989f529b
+      - s-c5e4e45aff

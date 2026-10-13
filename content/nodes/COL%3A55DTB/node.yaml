@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Teratohyla spinosa
+  displayName: Teratohyla spinosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/55DTB
+  sourceIndexes:
+    - name:
+        en: Teratohyla spinosa
+        zh: Teratohyla spinosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 55DTB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/2
+            queryName: Teratohyla spinosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/28
+            queryName: Cochranella spinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/207
+            queryName: Centrolenella spinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dfd12cb557
+      - s-9c4aa74a6b
+      - s-2a48da6038
+      - s-d3567f21ff
+      - s-8019520292
+      - s-5ebe65d9ca
+      - s-d177c67e7e
+      - s-4cbca8aa8f
+    zh:
+      - s-e88511f3bc
+      - s-8ee29278d2
+      - s-86d8fc3235
+      - s-b0b690b4ef
+      - s-f3039e736b
+      - s-beb3262d0c
+      - s-14e9e45052
+      - s-cc14059677

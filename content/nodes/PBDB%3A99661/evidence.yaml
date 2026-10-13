@@ -1,0 +1,130 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Spea pliobatrachus
+    rank: species
+    sourceTaxonId: txn:99661
+    name:
+      en: Spea pliobatrachus
+      zh: Spea pliobatrachus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-79ea02a02b
+            part: body
+          zh:
+            page: zh
+            section: s-51906f4974
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-7131a93415
+            part: body
+          zh:
+            page: zh
+            section: s-47837d0829
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Spea pliobatrachus
+          zh: Spea pliobatrachus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-e382e165dc
+            part: body
+          zh:
+            page: zh
+            section: s-381313e04a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:99661; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. A. Tihen. 1960. On Neoscaphiopus and other Pliocene pelobatid frogs. Copeia 1960(2):89-94
+    occurrenceEvidence:
+      - occurrenceId: occ:1425311
+        collectionId: col:18140
+        acceptedTaxonId: txn:99661
+        identifiedTaxonId: var:99661
+        identifiedName: Scaphiopus pliobatrachus
+        taxonomicDifference: recombined as
+        referenceId: ref:1842
+        bibliography: C. W. Hibbard. 1939. Notes on Additional Fauna of Edson Quarry of the Middle Pliocene of Kansas. Transactions of the Kansas Academy of Sciences 42:457-462
+        locality:
+          countryCode: US
+          stateProvince: Kansas
+          county: Sherman
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 9.4
+        youngerAgeMa: 4.7
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Spea pliobatrachus
+          zh: Spea pliobatrachus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-e382e165dc
+            part: body
+          zh:
+            page: zh
+            section: s-381313e04a
+            part: body
+        sourceIds: []

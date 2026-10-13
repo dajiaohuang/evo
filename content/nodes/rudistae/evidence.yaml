@@ -1,0 +1,71 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Hippuritoida
+    commonName: Rudist Bivalves
+    commonNameZh: 厚壳蛤类
+    rank: order
+    taxonId: ""
+    firstAppearance: 160
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:rudistae
+      claimKind: scientific
+      claimType: topology
+      statement: A 41-shell-character cladistic analysis tests relationships among sampled rudists (Hippuritida/Hippuritoida); the resulting trees do not define the group's complete geographic or temporal range.
+      confidence: medium
+      confidenceRationale: Explicit comparative anatomy and matrices support the sampled topology, while preservation and character dependence limit broader claims.
+      referenceLinks:
+        - referenceId: rineau-2020-rudists
+          relation: supports
+          pages: 1243–1297
+          quoteLocator: Figures 2–20; 41-character matrix; cladistic results
+  claim-rationales.zh:
+    - 明确的比较解剖与矩阵支持取样拓扑，但保存和性状依赖限制了更广主张。
+  claim-statements.zh:
+    - 一项 41 个贝壳性状的支序分析检验了取样厚壳蛤类（Hippuritida/Hippuritoida）的关系；所得系统树不界定该群完整地理或年代范围。
+  ranges:
+    - entityId: rudistae
+      rangeKind: global-composite
+      taxonomicConcept: Hippuritida (rudists) — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former 160–66 Ma display is withdrawn because the cited formal study directly supports comparative anatomy and sampled topology but does not furnish an auditable full-group numerical endpoint pair. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: No secondary summary or general background statement is promoted into a global rudist range without a range-fit primary locator.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: rineau-2020-rudists
+          locator: 1243–1297; Introduction; Figure 1; comparative anatomy and sampled cladistic matrix; Figures 2–20
+  catalogue-profile:
+    sections:
+      - topic: phylogeny
+        title:
+          en:
+            page: en
+            section: s-b7259b7359
+            part: title
+          zh:
+            page: zh
+            section: s-80744c2915
+            part: title
+        sourceIds:
+          - rineau-2020-rudists
+        text:
+          en:
+            page: en
+            section: s-b7259b7359
+            part: body
+          zh:
+            page: zh
+            section: s-80744c2915
+            part: body

@@ -1,0 +1,206 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Amanita sinofulva Q. Cai, Y.Y. Cui & Zhu L. Yang
+    rank: species
+    sourceDatasetId: "2073"
+    identity:
+      method: COL26.8 accepted usage was checked by COL ID and exact accepted label against the pinned COL hierarchy; Species Fungorum Plus dataset 2073 crosswalk maps this COL ID by exact source-dataset-and-verbatim-label to Index Fungorum record / Fungal Names FN 571588. The 2023 paper independently names the same species and cites that FN identifier.
+      scope: The accepted COL26.8 species usage and its explicitly linked Species Fungorum / Fungal Names name usage. Biological claims retain the paper’s species treatment, collection, place, and study limits.
+      sourceIds:
+        - col
+        - fungalNames
+        - cui2023
+    lifeStatusScope:
+      wild: Claims concern the authors’ field-collected fungal basidiomata and herbarium vouchers in natural forest settings as described in the paper.
+      domesticated: Not assessed; no domestication or cultivation claim is made.
+      fossil: Not assessed; no fossil occurrence claim is made.
+    sections:
+      - topic: morphology
+        sourceIds:
+          - col
+          - cui2023
+        text:
+          zh:
+            page: zh
+            section: s-c9c7cc0610
+            part: body
+          en:
+            page: en
+            section: s-6d5e01165d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - cui2023
+        text:
+          zh:
+            page: zh
+            section: s-38d7dbcbc0
+            part: body
+          en:
+            page: en
+            section: s-e55434f924
+            part: body
+      - topic: distribution
+        sourceIds:
+          - cui2023
+        text:
+          zh:
+            page: zh
+            section: s-2ca4fda647
+            part: body
+          en:
+            page: en
+            section: s-1028634cc8
+            part: body
+      - topic: evolution
+        sourceIds:
+          - cui2023
+        text:
+          zh:
+            page: zh
+            section: s-096da33eb7
+            part: body
+          en:
+            page: en
+            section: s-04d1ee4db9
+            part: body
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAppliesTo
+          - licenseAssessment
+          - scope
+        metadataVariant: 23
+        usage:
+          licenseAppliesTo: Checklist taxon identity metadata only
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; underlying fungal source dataset 2073
+          url: https://www.checklistbank.org/dataset/316115/taxon/C8SPF
+          stableId: COL26.8 usage C8SPF
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage C8SPF
+          licenseAssessment: identity-only
+          scope: Accepted-name identity, authorship, rank, status and sourceDatasetId only; no biological evidence copied.
+      - id: fungalNames
+        referenceId: ref-789b46dd-1383-8197-af1f-8802b76c9c31
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Species Fungorum Plus taxonomic checklist record used to verify name identity
+          stableId: Index Fungorum RecordID 571588; Fungal Names FN 571588
+          accessedAt: 2026-09-24
+          locator: COL26.8 crosswalk row C8SPF; Index Fungorum record 571588
+          attribution: Royal Botanic Gardens, Kew (2023), Species Fungorum Plus, DOI 10.15468/ts7wsb; Index Fungorum record 571588
+          licenseAssessment: identity-only
+          scope: Identity link only; not a biological evidence source.
+      - id: cui2023
+        referenceId: ref-7f5bb31a-045b-84d9-af62-87074e5c5795
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Published article text; this dossier paraphrases scientific claims and does not redistribute article figures or full text
+          stableId: doi:10.3390/jof9080862; Fungal Names FN 571588
+          accessedAt: 2026-09-24
+          locator: Amanita sinofulva Q. Cai, Y.Y. Cui & Zhu L. Yang, Fungal Names FN 571588; section 3.2
+          attribution: Cui, Y.-Y.; Hao, Y.-J.; Guo, T.; Yang, Z.L.; Cai, Q. (2023), Journal of Fungi 9(8):862. https://doi.org/10.3390/jof9080862
+          licenseAssessment: item-level-verified
+          scope: Original taxonomic study of Amanita sect. Vaginatae in China; each cited passage is a named species account or paper phylogeny.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The species account describes the type basidioma and microscopic characters and compares its spores and pileus with A. orientifulva and A. suborientifulva.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Section 3.2, Amanita sinofulva Q. Cai, Y.Y. Cui & Zhu L. Yang, Diagnosis and Description; Type
+            placeTimeScope: Type from Nanjian, Dali, Yunnan, China, collected 2015-06-27; the article lists additional Anhui and Yunnan collections from 2017 and cites broader eastern, central, and southwestern China occurrence. Tibet and Hunan are not asserted here because the paper presents those from an ITS-tree inference.
+            lifeStatus: Wild fungal type collection described by the authors.
+        gaps:
+          - One taxonomic paper and its sampled material do not cover developmental variation, broad population variation, or a complete diagnostic synthesis.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The authors report solitary-to-scattered fruiting on soil in subtropical forests dominated by Fagaceae, sometimes mixed with Pinus.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Section 3.2, Amanita sinofulva Q. Cai, Y.Y. Cui & Zhu L. Yang, Habitat
+            placeTimeScope: Type from Nanjian, Dali, Yunnan, China, collected 2015-06-27; the article lists additional Anhui and Yunnan collections from 2017 and cites broader eastern, central, and southwestern China occurrence. Tibet and Hunan are not asserted here because the paper presents those from an ITS-tree inference.
+            lifeStatus: Wild field collections; the stated forest association does not establish a physiological host relationship.
+        gaps:
+          - The account does not establish interaction mechanisms, resource dependence, seasonality, or population-level ecology.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: The authors’ multilocus analysis places A. sinofulva close to A. orientifulva and A. suborientifulva; their ITS analysis also includes additional provisionally or previously misidentified collections.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Results, phylogenetic relationships; Figure 1 and Figures S1–S4
+            placeTimeScope: Type from Nanjian, Dali, Yunnan, China, collected 2015-06-27; the article lists additional Anhui and Yunnan collections from 2017 and cites broader eastern, central, and southwestern China occurrence. Tibet and Hunan are not asserted here because the paper presents those from an ITS-tree inference.
+            lifeStatus: Modern herbarium collections analyzed in the cited study.
+        gaps:
+          - Placement is limited to the study taxa, loci, sampling, and analyses; no divergence-time or broader phylogenomic synthesis was assessed.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The authors report A. sinofulva from eastern, central, and southwestern China and list dated collections from Anhui and Yunnan; the paper separately attributes Tibet and Hunan to ITS-tree inference, which is excluded from this direct occurrence claim.
+            originalLanguage: en
+            sourceIds:
+              - cui2023
+            locator: Section 3.2, Amanita sinofulva Q. Cai, Y.Y. Cui & Zhu L. Yang, Type, Additional specimens examined, and Distribution
+            placeTimeScope: Type from Nanjian, Dali, Yunnan, China, collected 2015-06-27; the article lists additional Anhui and Yunnan collections from 2017 and cites broader eastern, central, and southwestern China occurrence. Tibet and Hunan are not asserted here because the paper presents those from an ITS-tree inference.
+            lifeStatus: Reported field-collected specimens; cultivated, introduced, and global range status not assessed.
+        gaps:
+          - The paper reports its known range and examined collections; no exhaustive global occurrence search or native/introduced assessment was completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax squalirostris
+  displayName: Scinax squalirostris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJZ7
+  sourceIndexes:
+    - name:
+        en: Scinax squalirostris
+        zh: Scinax squalirostris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJZ7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/76
+            queryName: Scinax squalirostris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/414
+            queryName: Hyla squalirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/415
+            queryName: Hyla lindneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/416
+            queryName: Hyla evelynae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/417
+            queryName: Hyla evelinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/418
+            queryName: Ololygon squalirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/311
+            queryName: Hyla squalirostris evelynae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ed27767d1d
+      - s-61692aa283
+      - s-b346c03fd5
+      - s-9a6c2b66a0
+      - s-8f76fc00ed
+      - s-d7cd1410e1
+      - s-8020158eae
+      - s-9404c5d0d6
+      - s-fda1202690
+      - s-858b7816b9
+      - s-bf3a95bb72
+      - s-d9b27e1de3
+      - s-2a44cc8ad9
+      - s-6d1485cfd0
+      - s-ff922f186e
+      - s-bd43869c66
+      - s-fb91aa8d46
+      - s-e6317f64b1
+    zh:
+      - s-3e9b2edff1
+      - s-b575641421
+      - s-2295c7dacb
+      - s-3d86850a83
+      - s-cfa5fb1189
+      - s-65c7ed9a23
+      - s-df4821a8b0
+      - s-382f22a3de
+      - s-25d6823063
+      - s-7216f97014
+      - s-dffbb52c5a
+      - s-3c85c00330
+      - s-beefddda48
+      - s-e480792c2b
+      - s-ce9458fea1
+      - s-aa984230c4
+      - s-3726580449
+      - s-77ada8ac8a

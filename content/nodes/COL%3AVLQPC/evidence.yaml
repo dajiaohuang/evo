@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Macrosamanea discolor (Humb. & Bonpl. ex Willd.) Britton & Rose
+    rank: species
+    sourceDatasetId: "2304"
+    sections:
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-9d7865f8ed
+            part: body
+          en:
+            page: en
+            section: s-3091b1ffa0
+            part: body
+        sourceIds:
+          - brazilFlora2020
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-957d51a3fb
+            part: body
+          en:
+            page: en
+            section: s-0cff136133
+            part: body
+        sourceIds:
+          - brazilFlora2020
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-47e9065453
+            part: body
+          en:
+            page: en
+            section: s-0a3abcfbfb
+            part: body
+        sourceIds:
+          - brazilFlora2020
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-ff87a53921
+            part: body
+          en:
+            page: en
+            section: s-f539eacf6b
+            part: body
+        sourceIds:
+          - brazilFlora2020
+  catalogue-dossier:
+    scientificName: Macrosamanea discolor (Humb. & Bonpl. ex Willd.) Britton & Rose
+    rank: species
+    sourceDatasetId: "2304"
+    identity:
+      method: COL26.8 accepted species ID VLQPC and exact name/authorship map through exactly one accepted WFO usage wfo-0000176657; the Brazilian Flora source record carries the same WFO ID.
+      scope: COL26.8 accepted species concept. Brazilian Flora fields remain regional dataset records; no global, current, complete-range or taxonomic-equivalence claim is made.
+      sourceIds:
+        - col26
+        - wfo2026
+        - brazilFlora2020
+      classificationPath:
+        - id: VLQPC
+          scientificName: Macrosamanea discolor (Humb. & Bonpl. ex Willd.) Britton & Rose
+          rank: species
+          status: accepted
+        - id: 9CL96
+          scientificName: Macrosamanea Britton & Rose
+          rank: genus
+          status: accepted
+        - id: 623QT
+          scientificName: Fabaceae
+          rank: family
+          status: accepted
+        - id: "383"
+          scientificName: Fabales Bromhead
+          rank: order
+          status: accepted
+        - id: MG
+          scientificName: Magnoliopsida
+          rank: class
+          status: accepted
+        - id: TP
+          scientificName: Tracheophyta
+          rank: phylum
+          status: accepted
+        - id: CMQ8S
+          scientificName: Pteridobiotina Britton & Brown
+          rank: subkingdom
+          status: accepted
+        - id: P
+          scientificName: Plantae
+          rank: kingdom
+          status: accepted
+        - id: CS5HF
+          scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+          rank: domain
+          status: accepted
+    lifeStatusScope:
+      wild: Wild status is not specified in these source fields.
+      domesticated: Cultivated or managed status is not specified; none is inferred.
+      fossil: Fossil applicability is not assessed from this extant-flora source.
+    sources:
+      - id: col26
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 24
+        usage:
+          licenseAppliesTo: Nomenclatural identity record only; no biological text reused
+          title: Catalogue of Life COL26.8, ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/VLQPC
+          stableId: COL26.8:VLQPC
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage VLQPC; source dataset 2304
+          attribution: Catalogue of Life COL26.8; underlying dataset 2304
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, COL ID, parent chain and source dataset identity only.
+      - id: wfo2026
+        referenceId: ref-43499f65-2865-819f-a936-29a569ccf911
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: WFO nomenclatural data
+          title: World Flora Online Plant List 2026-06, pinned exact COL-to-WFO crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000176657-2026-06
+          stableId: wfo:wfo-0000176657-2026-06
+          version: WFO Plant List 2026-06, issued 2026-06-21; crosswalk sidecar pinned in this repository
+          publishedAt: 2026-06-21
+          accessedAt: 2026-09-27
+          locator: Accepted species record wfo-0000176657; exact accepted-name/authorship mapping to COL VLQPC
+          attribution: World Flora Online Plant List 2026-06
+          licenseAssessment: identity-only
+          scope: Exact accepted-name and authorship species crosswalk; nomenclatural identity only.
+      - id: brazilFlora2020
+        referenceId: ref-352c188a-fa63-8d4e-a243-10428cf85b9c
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Brazilian Flora 2020 archived dataset fields; not inferred for linked publications, images or PDFs
+          stableId: doi:10.15468/1mtkaw; archive sha256 79455efc837678d0812c4f83247c9f024ab4d8dae43fe72f5c40b2302d50c923; WFO wfo-0000176657
+          accessedAt: 2026-09-06
+          locator: 'Brazilian Flora 2020 v393.147, morphology row 80145; WFO wfo-0000176657; source identifier ref-morph-BR-pt-0000176657; reference row 43324; source-reported citation: "Silva, W.L.S. 2020 Macrosamanea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB83376. Accessed on: Jun. 30, 2021."; habitat row 7579'
+          attribution: "Group Brazil Flora, REFLORA Program (2014): Brazilian Flora 2020, v393.147, doi:10.15468/1mtkaw"
+          licenseAssessment: aggregate-declaration-only
+          scope: Regional source fields are retained verbatim with physical archive row locators. A morphology citation is the reference reported by the dataset; rights for the referenced publication are not independently verified. Habitat rows have dataset-level attribution only.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Caule: indumento glabro(s); ramo(s) inerme(s)/cilíndrico(s). Folha: estípula(s) caduca(s)/lanceolada(s)/nervação indistinto; folha(s) alterna(s) bipinada(s)/1 à 2 pares de pinas; foliólulo 14 à 29 pares por pina/proximal(ais) elíptico(s)/proximal(ais) lanceolado(s)/distal(ais) lanceolado(s)/ápice(s) obtuso(s) emarginado(s) ou mucronulado(s) não sigmóide(s)/discolor(es)/cartáceo(s)/nervura(s) primária(s) reta(s)/nervura(s) primária(s) central(ais) ou sub central(ais)/nervura(s) secundária(s) broquidódroma(s)/venação conspícuo(s) em alguma(s) das face(s); nectário(s) presente(s) no pecíolo(s) entre pares pinas e entre foliólulo ou/elíptico(s)/circular(es)/oval(ais)/pateliforme(s)/côncavo(s). Inflorescência: bráctea(s) e bractéola(s) homomórfica(s) persistente(s) caduca(s) ou/bráctea(s) com nectário(s); racemo(s) simples capituliforme(s)/axilar(es); receptáculo globoso(s). Flor: tipo homomórfica(s)/séssil(eis)/subséssil(eis); cálice(s) cilíndrico(s) campanulado(s)/não inflado(s)/verde à branco esverdeado/pubérula(s)/glabra(s)/8 à 16 mm compr.; corola infundibuliforme(s) branca/pubérula(s)/glabra(s)/21 à 32 compr. (mm)/venação distinta(s); androceu tubo estaminal(ais) adnato a corola/numeroso(s) estame(s)/filete(s) branco à rosado distalmente; gineceu 1 carpelo(s)/estilete(s) linear(es) levemente curvado(s) exserto(s)/estigma(s) não dilatado. Fruto: tipo formato folículo compresso(s) deiscência pela(s) sutura(s) ventral(ais)/simples/oblongo(s)/reto(s)/curvado(s)/cálice(s) persistente(s)/funículo(s) sub filiforme(s). Semente: tipo e formato elíptica(s) à oblonga(s)/obovada(s)/castanho escuro/testa papiráceo(s) membranácea(s)/seca(s)/pleurograma ausente(s)/cotilédone(s) plano(s) côncavo(s)/plúmula(s) desenvolvida(s) e diferenciada em segmento(s) de pinas com pilosidade ferrugínea(s)."
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: 'Brazilian Flora 2020 v393.147, morphology description row 80145; WFO wfo-0000176657; source identifier ref-morph-BR-pt-0000176657; reference row 43324; dataset-reported citation: "Silva, W.L.S. 2020 Macrosamanea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB83376. Accessed on: Jun. 30, 2021."'
+            placeTimeScope: Verbatim morphology field in the Brazilian Flora 2020 regional dataset. The field does not establish a global description, sampling coverage, population variation, sex or life stage unless stated in its text.
+            lifeStatus: The field does not state whether observations concern wild, cultivated, managed or fossil material; none is inferred.
+        gaps:
+          - Only one source-labelled morphology field is included; its completeness, variation and diagnostic scope have not been assessed.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - The source habit field is not treated as life-history evidence; life cycle and reproduction were not assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Terrícola
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: Brazilian Flora 2020 v393.147, habitat field row 7579; dataset DOI 10.15468/1mtkaw; WFO wfo-0000176657
+            placeTimeScope: Habitat or substrate category exactly as recorded in this Brazilian Flora dataset row; no collection locality, survey date, global range or sampling completeness is supplied by the field.
+            lifeStatus: Wild, cultivated, managed and fossil applicability are not specified by this field.
+        gaps:
+          - Only source-labelled habitat field(s) are included; interactions, variation, locality and sampling coverage have not been assessed.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level phylogenetic or comparative evidence was assessed.
+      distribution:
+        status: not-assessed
+        gaps:
+          - No locality or range evidence was assessed; the regional flora dataset does not establish a complete distribution.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil search or species-level fossil evidence was assessed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No qualifying conservation assessment was reviewed.

@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Magericyon
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Magericyon
+      en: Magericyon
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a0f88eb95a
+            part: body
+          en:
+            page: en
+            section: s-0b74c328fa
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-efd2c51aa6
+            part: body
+          en:
+            page: en
+            section: s-8492a34fde
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Magericyon
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=374790
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:374790
+          readingTargets:
+            - name: Magericyon anceps
+              pbdbTaxonId: txn:374791
+              canonicalPath: content/nodes/PBDB%3A374791
+            - name: Magericyon castellanus
+              pbdbTaxonId: txn:374792
+              canonicalPath: content/nodes/PBDB%3A374792
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-86e460a505
+        part: body
+      en:
+        page: en
+        section: s-075fe0ef70
+        part: body
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-553bebcd9f
+          part: title
+        zh:
+          page: zh
+          section: s-b2ee1ac253
+          part: title
+      text:
+        en:
+          page: en
+          section: s-553bebcd9f
+          part: body
+        zh:
+          page: zh
+          section: s-b2ee1ac253
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-4a9c785d0a
+          part: title
+        zh:
+          page: zh
+          section: s-d22f9eb538
+          part: title
+      text:
+        en:
+          page: en
+          section: s-4a9c785d0a
+          part: body
+        zh:
+          page: zh
+          section: s-d22f9eb538
+          part: body
+  atlas-node:
+    name: Magericyon
+    commonName: Magericyon
+    commonNameZh: 巨犬熊
+    rank: genus
+    firstAppearance: 9.7
+    lastAppearance: 8.7
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    taxonId: txn:374790
+  claims:
+    - subjectId: taxon:magericyon
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Magericyon anceps is bounded by Batallones-1 material including complete young-adult skull B-4071 within an approximately 9.7–8.7 Ma sample envelope; finite-element results do not extend that locality sample into a global genus range.
+      confidence: medium
+      confidenceRationale: The named skull and locality interval are direct; prey handling and stress performance are simulations kept outside this range claim.
+      referenceLinks:
+        - relation: supports
+          referenceId: diaz-de-leon-2026-magericyon-fea
+          pages: Article 34
+          figure: Figures 2–7
+          quoteLocator: Material; geological setting; model construction
+  claim-rationales.zh:
+    - 具名头骨与地点区间属于直接证据；猎物处理和应力表现是模拟，不纳入该范围主张。
+  claim-statements.zh:
+    - Magericyon anceps 由 Batallones-1 材料约束，其中包括处于约 970 万—870 万年前样本区间的完整青年成体头骨 B-4071；有限元结果不会把该地点样本扩展为全球属级范围。
+  ranges:
+    - entityId: magericyon
+      rangeKind: global-composite
+      taxonomicConcept: Magericyon anceps Batallones-1 sample
+      geographicScope: Batallones-1, Madrid, Spain
+      olderMa: 9.7
+      youngerMa: 8.7
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance.
+      evidenceBasis: Holotype B-4071 is a complete young-adult skull; the 2026 analysis compares intrinsic canine, p4 and m1 bites and extrinsic pull-back and head-shaking loads, with meshes and scripts deposited on Zenodo.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:magericyon-feeding-fea
+      referenceLocators:
+        - referenceId: diaz-de-leon-2026-magericyon-fea
+          locator: Article 34; Figures 2–7; Table 1; Online Resources 1–3; Muscle reconstruction; Intrinsic and extrinsic FEA; Bite-force normalization

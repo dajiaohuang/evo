@@ -1,0 +1,178 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Elasmosauridae
+    commonName: Elasmosaurs
+    commonNameZh: 薄板龙类
+    rank: family
+    taxonId: txn:38175
+    firstAppearance: 130
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:elasmosauridae
+      claimKind: scientific
+      claimType: topology
+      statement: Elasmosauridae is represented by the taxa sampled in O’Gorman’s revised matrix and paleobiogeographic analysis; the recovered topology and recognized Cenomanian/Santonian intervals are study results, not exact family-wide origin or extinction boundaries.
+      confidence: medium
+      confidenceRationale: The source directly revises a specimen and runs a family-level matrix, but topology and inferred biogeographic phases remain sampling-dependent.
+      referenceLinks:
+        - referenceId: ogorman-2019-elasmosaurid-phylogeny
+          relation: supports
+          pages: 39(5):e1692025
+          figure: Figures 1–7; Tables 1–2; supplementary matrix
+          quoteLocator: Systematic paleontology; phylogenetic analysis; paleobiogeographic discussion
+    - subjectId: taxon:elasmosauridae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The reappraised Aphrosaurus furlongi material from the Maastrichtian Moreno Formation supports a 72.1–66 Ma elasmosaurid study-sample window, not exact family-wide origin or extinction.
+      confidence: medium
+      confidenceRationale: "Aphrosaurus furlongi represented elasmosaurid sample: the cited primary study or systematic review directly supports the stated sample, calibration or withholding boundary at the supplied locator. Confidence is medium and does not extend to a global FAD, LAD, direct ancestor or unsampled interval."
+      referenceLinks:
+        - relation: supports
+          referenceId: ogorman-2019-elasmosaurid-phylogeny
+          pages: Article e1692025
+          figure: Figures 1–7; Tables 1–2
+          quoteLocator: Aphrosaurus systematic reappraisal, Moreno Formation age and matrix
+  claim-rationales.zh:
+    - 来源直接修订标本并运行科级矩阵，但拓扑和推断的古生物地理阶段仍依赖取样。
+    - Aphrosaurus furlongi represented elasmosaurid sample：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。
+  claim-statements.zh:
+    - 薄板龙科表示 O’Gorman 修订矩阵和古生物地理分析中取样的类群；恢复的拓扑及识别出的森诺曼期/桑托期区间是研究结果，不是全科精确起源或灭绝边界。
+    - 重新评估的 Maastrichtian Moreno 组 Aphrosaurus furlongi 材料支持 7210–6600 万年前的薄板龙科研究样本窗口，而非整个科的精确起源或灭绝。
+  ranges:
+    - entityId: elasmosauridae
+      rangeKind: global-composite
+      taxonomicConcept: Aphrosaurus furlongi represented elasmosaurid sample
+      geographicScope: Maastrichtian Moreno Formation, California, United States
+      olderMa: 72.1
+      youngerMa: 66
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Stage-level Maastrichtian window for the reappraised specimen and formation.
+      evidenceBasis: The interval is specimen- and study-scoped, not the complete Elasmosauridae range.
+      confidence: medium
+      claimIds:
+        - claim:taxon:elasmosauridae:range-boundary
+      referenceLocators:
+        - referenceId: ogorman-2019-elasmosaurid-phylogeny
+          locator: Article e1692025; Figures 1–7; Tables 1–2; Aphrosaurus systematic reappraisal, Moreno Formation age and matrix
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    scientificName: Elasmosauridae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Elasmosauridae
+      en: Elasmosauridae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-31dd065977
+            part: body
+          en:
+            page: en
+            section: s-f13e0fe523
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-87774d02cf
+            part: body
+          en:
+            page: en
+            section: s-feb399c1c9
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Elasmosauridae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38175
+          locator: Recorded PBDB parent closure beneath the already documented Sauropterygia COL-compatible storage anchor.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38175
+          readingTargets:
+            - name: Wapuskanectes betsynichollsae
+              pbdbTaxonId: txn:201029
+              canonicalPath: content/nodes/PBDB%3A201029
+            - name: Traskasaura sandrae
+              pbdbTaxonId: txn:511581
+              canonicalPath: content/nodes/PBDB%3A511581
+            - name: Nakonanectes bradti
+              pbdbTaxonId: txn:377257
+              canonicalPath: content/nodes/PBDB%3A377257
+            - name: Styxosaurus snowii
+              pbdbTaxonId: txn:114166
+              canonicalPath: content/nodes/PBDB%3A114166
+            - name: Styxosaurus browni
+              pbdbTaxonId: txn:114163
+              canonicalPath: content/nodes/PBDB%3A114163
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5c6acf3970
+        part: body
+      en:
+        page: en
+        section: s-f42fa79bf8
+        part: body

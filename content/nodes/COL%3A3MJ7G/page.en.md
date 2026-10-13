@@ -1,0 +1,3 @@
+## Shallowly campanulate flowers with cup-shaped corona lobes {#s-1c1c0b2c6c}
+The regional description compares the species with H. alstonii and records plants up to 0.5 m tall, with brown-green stems bearing weak spines and 1–3 flowers per cluster. The shallowly campanulate corolla is 12–20 mm across, reddish brown inside with scattered papillae; its tube is broadly saucer-shaped and the lobes are 4–6 × 5–7 mm. Outer corona lobes are cup-shaped and deeply indented in the middle. The habitat entry records stony slopes. A separate diagnostic excerpt names Duvalia immaculata, not H. officinalis, so its descriptions are not used here for this species.
+

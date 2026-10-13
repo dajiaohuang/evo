@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus centralis
+  displayName: Physalaemus centralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF95
+  sourceIndexes:
+    - name:
+        en: Physalaemus centralis
+        zh: Physalaemus centralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF95
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/312
+            queryName: Physalaemus centralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 89
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-43d461291d
+      - s-b2c87cd800
+      - s-47f18e413d
+      - s-452c6053d9
+      - s-09eebfa172
+      - s-5fa662a8b3
+      - s-a7052c6c82
+      - s-0bf7637b2f
+      - s-9fc9a8efa6
+      - s-e30600af56
+      - s-53b5280c53
+      - s-20745b21b2
+      - s-e39d2793b4
+      - s-4a39109bd5
+      - s-bb1575f1bd
+      - s-181612c9c0
+      - s-6583889979
+      - s-e749781698
+      - s-429965d4e5
+      - s-e117e5b6f3
+      - s-77a20b90a5
+      - s-602d49c5d2
+      - s-0eb0accfcb
+    zh:
+      - s-0fe88d82f7
+      - s-5c37659c33
+      - s-89b5c54908
+      - s-1b15c9966a
+      - s-77c88c2019
+      - s-4d6e2242df
+      - s-1041530064
+      - s-e67ff71bfd
+      - s-3d5fdbde75
+      - s-fb0e68b713
+      - s-eaf9a0dce5
+      - s-7cee96e150
+      - s-a94279336f
+      - s-d1129870c8
+      - s-e602a67f5a
+      - s-b1a5fdf3bd
+      - s-43392b85b4
+      - s-200bc0dfe9
+      - s-817d5720d8
+      - s-aabd0e43d2
+      - s-8fff7abc5a
+      - s-d6e31f8f6b
+      - s-4fa0d8fac9

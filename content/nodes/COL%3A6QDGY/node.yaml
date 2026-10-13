@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnodynastes terraereginae
+  displayName: Limnodynastes terraereginae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDGY
+  sourceIndexes:
+    - name:
+        en: Limnodynastes terraereginae
+        zh: Limnodynastes terraereginae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDGY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/45
+            queryName: Limnodynastes terraereginae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/194
+            queryName: Platyplectrum terraereginae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/167
+            queryName: Limnodynastes dorsalis terraereginae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-479d7069cf
+      - s-67fd071636
+      - s-c797897571
+      - s-eeadca30de
+      - s-85c0dbe059
+      - s-94470ea3fb
+      - s-8beab4f838
+      - s-aea6420ff2
+      - s-abbcb07060
+      - s-c0756838fe
+    zh:
+      - s-5ca6ce8489
+      - s-535cc448b9
+      - s-2f970bb7dd
+      - s-7cdfec26ec
+      - s-a155140a2f
+      - s-77b1f0128b
+      - s-e705f93435
+      - s-9b8dee580c
+      - s-66bad4dd4d
+      - s-5795fe257e

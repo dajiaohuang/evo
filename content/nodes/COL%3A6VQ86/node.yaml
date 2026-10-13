@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon electromorphus
+  displayName: Plethodon electromorphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VQ86
+  sourceIndexes:
+    - name:
+        en: Plethodon electromorphus
+        zh: Plethodon electromorphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VQ86
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/462
+            queryName: Plethodon electromorphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e5c89ecfb
+      - s-68fe9aa642
+      - s-43e0101434
+      - s-c6d2fa339b
+      - s-6daf8cb366
+      - s-6a7ded2c2b
+      - s-31fd4dc142
+      - s-58154ea2cc
+    zh:
+      - s-4d0f948f7c
+      - s-c61b313053
+      - s-3045bd58d4
+      - s-fba17f74f4
+      - s-48c149c2d9
+      - s-6b11a3ac27
+      - s-77ed4081fc
+      - s-3bee028847

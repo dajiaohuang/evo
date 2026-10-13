@@ -1,0 +1,144 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Lechriodus intergerivus
+    rank: species
+    sourceTaxonId: txn:94065
+    name:
+      en: Lechriodus intergerivus
+      zh: Lechriodus intergerivus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-2815497ea3
+            part: body
+          zh:
+            page: zh
+            section: s-cdd3800e5b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-d93c5c9040
+            part: body
+          zh:
+            page: zh
+            section: s-6dc790a881
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-da277a06f3
+            part: body
+          zh:
+            page: zh
+            section: s-51b902feba
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:94065; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: T. Myers, K. Crosby, and M. Archer, M. Tyler. 2001. The Encore Local Fauna, a late Miocene assemblage from Riversleigh, northwestern Queensland. Memoirs of the Association of Australian Paleontologists 25:147-154
+    occurrenceEvidence:
+      - occurrenceId: occ:638996
+        collectionId: col:68775
+        acceptedTaxonId: txn:94065
+        taxonomicDifference: null
+        referenceId: ref:19849
+        bibliography: T. Myers, K. Crosby, and M. Archer, M. Tyler. 2001. The Encore Local Fauna, a late Miocene assemblage from Riversleigh, northwestern Queensland. Memoirs of the Association of Australian Paleontologists 25:147-154
+        locality:
+          countryCode: AU
+          stateProvince: Queensland
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.63
+        youngerAgeMa: 7.246
+      - occurrenceId: occ:1350298
+        collectionId: col:183096
+        acceptedTaxonId: txn:94065
+        taxonomicDifference: null
+        referenceId: ref:61085
+        bibliography: M. Archer, H. Godthelp, and S. J. Hand, D. Megirian. 1989. Fossil mammals of Riversleigh, northwestern Queensland; preliminary overview of biostratigraphy, correlation and environmental change. Australian Zoologist 25(2):29-65
+        locality:
+          countryCode: AU
+          stateProvince: Queensland
+          county: Riversleigh
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 23.04
+        youngerAgeMa: 15.98
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-da277a06f3
+            part: body
+          zh:
+            page: zh
+            section: s-51b902feba
+            part: body
+        sourceIds: []

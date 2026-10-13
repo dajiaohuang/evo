@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla simplex
+  displayName: Hyla simplex
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NDBK
+  sourceIndexes:
+    - name:
+        en: Hyla simplex
+        zh: Hyla simplex
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NDBK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/371
+            queryName: Hyla simplex
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/378
+            queryName: Hyla chinensis simplex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/379
+            queryName: Hyla simplex simplex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/380
+            queryName: Hyla simplex hainanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-92bb1f3fe4
+      - s-b697552d28
+      - s-c236787c8c
+      - s-7ea80812b0
+      - s-b06762f80e
+      - s-edaab96ef0
+      - s-029d83986e
+      - s-2716f1a78e
+      - s-3836f53ff4
+    zh:
+      - s-771706a29a
+      - s-71d4226a06
+      - s-b69b189c6d
+      - s-02dc304640
+      - s-24ceebf3a8
+      - s-8be2b2f3b4
+      - s-8c78d1f7ba
+      - s-8302e160d3
+      - s-3a4c34f1dc

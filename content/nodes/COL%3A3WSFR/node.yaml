@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lynchius tabaconas
+  displayName: Lynchius tabaconas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3WSFR
+  sourceIndexes:
+    - name:
+        en: Lynchius tabaconas
+        zh: Lynchius tabaconas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3WSFR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/253
+            queryName: Lynchius tabaconas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b8dbfd49a8
+      - s-860812aa6b
+      - s-fe0404ee48
+      - s-d3698f6990
+      - s-a906348b2c
+      - s-64dad6d4c2
+      - s-1b7bab7984
+      - s-0cd1900da4
+      - s-1123c77871
+      - s-fd1cf0075b
+    zh:
+      - s-edd0e917d8
+      - s-97e68d8240
+      - s-1803c7f512
+      - s-b27b883d69
+      - s-54b68e370c
+      - s-a8afaf939e
+      - s-ef86784881
+      - s-a5460cf2b7
+      - s-99186af945
+      - s-531ef6bec5

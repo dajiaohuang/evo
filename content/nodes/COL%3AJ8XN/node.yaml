@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus bomolochos
+  displayName: Atelopus bomolochos
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8XN
+  sourceIndexes:
+    - name:
+        en: Atelopus bomolochos
+        zh: Atelopus bomolochos
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8XN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/233
+            queryName: Atelopus bomolochos
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-374bfbfcfe
+      - s-99f6067d94
+      - s-7c9b0bd397
+      - s-926af3d452
+      - s-27d8f585b1
+      - s-1ef06b6b6f
+      - s-4edd81a157
+      - s-e4426a0e7a
+      - s-c01f5f5650
+      - s-1f90932f5d
+    zh:
+      - s-0d4821f608
+      - s-ebb619a68f
+      - s-1857ec2315
+      - s-3761af8c84
+      - s-4e15f8ab44
+      - s-9e83a14a35
+      - s-e9e1352fce
+      - s-052f1a4a13
+      - s-a2ed209e29
+      - s-09e10fffd0

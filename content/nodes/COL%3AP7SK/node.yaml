@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia flavopunctata
+  displayName: Caecilia flavopunctata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SK
+  sourceIndexes:
+    - name:
+        en: Caecilia flavopunctata
+        zh: Caecilia flavopunctata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/67
+            queryName: Caecilia flavopunctata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f25f7a23be
+      - s-53d5d1a446
+      - s-21848fad0a
+      - s-368cadc6c8
+      - s-f17d2ae67c
+      - s-cec5124346
+      - s-ed21be1b70
+      - s-a606aad8b9
+      - s-c4e2ffa954
+    zh:
+      - s-5a76c929da
+      - s-d1f99505e9
+      - s-cffe74273c
+      - s-c90fc6259b
+      - s-3a027e1d01
+      - s-c473072027
+      - s-28b46c2788
+      - s-6f2577a4c1
+      - s-4eeeda3825

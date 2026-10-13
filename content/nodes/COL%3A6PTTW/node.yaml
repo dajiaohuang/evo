@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leucostethus brachistriatus
+  displayName: Leucostethus brachistriatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PTTW
+  sourceIndexes:
+    - name:
+        en: Leucostethus brachistriatus
+        zh: Leucostethus brachistriatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PTTW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/25
+            queryName: Leucostethus brachistriatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/64
+            queryName: Colostethus brachistriatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/206
+            queryName: Colostethus brachystriatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5319181975
+      - s-191771b3d5
+      - s-c7ce49e966
+      - s-de65c30861
+      - s-f426784064
+      - s-6c3e64ee4d
+      - s-9f0a2f298c
+      - s-b4a44db226
+      - s-1b78963ca8
+      - s-7741f09c00
+      - s-09808f210d
+      - s-aec3f49949
+    zh:
+      - s-ce7eccc247
+      - s-db2c5d9ec0
+      - s-48d13aa763
+      - s-d629f43629
+      - s-6da57434cd
+      - s-7ff77bd78e
+      - s-40dd1e38b4
+      - s-45731d704e
+      - s-bf9ceebf51
+      - s-e0f607a73c
+      - s-f4f00dfab1
+      - s-3e0f44eb11

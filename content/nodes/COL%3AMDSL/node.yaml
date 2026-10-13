@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa taylori
+  displayName: Bolitoglossa taylori
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDSL
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa taylori
+        zh: Bolitoglossa taylori
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDSL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/206
+            queryName: Bolitoglossa taylori
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de44816c24
+      - s-243c672842
+      - s-b4f8a830c6
+      - s-84f4218bd0
+      - s-64685de8b9
+      - s-1ea455d4a6
+      - s-f01b9b625a
+    zh:
+      - s-e3a569a478
+      - s-73f81ec3a5
+      - s-6bca285a1a
+      - s-9e4c15e6d2
+      - s-d2da0ad464
+      - s-713ffd8de4
+      - s-6c24f10eef

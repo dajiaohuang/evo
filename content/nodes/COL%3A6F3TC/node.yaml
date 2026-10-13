@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus sciagraphus
+  displayName: Eleutherodactylus sciagraphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F3TC
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus sciagraphus
+        zh: Eleutherodactylus sciagraphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F3TC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/324
+            queryName: Eleutherodactylus sciagraphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/50
+            queryName: Euhyas sciagraphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dac01bd520
+      - s-1268ed7dc5
+      - s-adfaba61e5
+      - s-67933675bb
+      - s-d8bf688250
+      - s-10adb97573
+      - s-e0dbfacec6
+      - s-b6467832c7
+      - s-f81c53df2e
+    zh:
+      - s-7238cd677d
+      - s-3af7d18c74
+      - s-226f12ae36
+      - s-45c3939d53
+      - s-2b7d2303a9
+      - s-543000e59e
+      - s-75dc8c2e6f
+      - s-8cd49d90a1
+      - s-7c29b7a9e7

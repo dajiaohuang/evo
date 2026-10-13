@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus acutirostris
+  displayName: Phrynobatrachus acutirostris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW7M
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus acutirostris
+        zh: Phrynobatrachus acutirostris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW7M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/93
+            queryName: Phrynobatrachus acutirostris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/357
+            queryName: Hylarthroleptis acutirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db33719f94
+      - s-d183d568d7
+      - s-ed252df884
+      - s-f1649c76e4
+      - s-d5e07fae95
+      - s-6ccf70e60c
+      - s-1a81605145
+      - s-06db62e3f7
+      - s-87d113f6bd
+      - s-72b9f9c98c
+      - s-ecb8122074
+      - s-5fc6a32d26
+      - s-1556fff412
+      - s-cef1ef2af3
+      - s-bfd5148221
+      - s-be40411ade
+      - s-4655b3bc80
+    zh:
+      - s-1e1bbf874b
+      - s-40ad885a46
+      - s-227ca001d8
+      - s-ec1578e4a9
+      - s-edec795825
+      - s-70b367e772
+      - s-051ebefa56
+      - s-62f697b47a
+      - s-da91c006d4
+      - s-cb4fff5938
+      - s-74e82b3e7a
+      - s-4592ac5495
+      - s-c6bb71e457
+      - s-abb5802e43
+      - s-17cfc36428
+      - s-616186201c
+      - s-23f9eea9ca

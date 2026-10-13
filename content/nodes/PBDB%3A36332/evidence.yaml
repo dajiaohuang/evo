@@ -1,0 +1,113 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caretta
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Caretta
+      en: Caretta
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e7a9c8b532
+            part: body
+          en:
+            page: en
+            section: s-613755e039
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-effdc263d7
+            part: body
+          en:
+            page: en
+            section: s-e506e4d91b
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Caretta
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36332
+          locator: Recorded PBDB parent closure beneath the already documented Pantestudines COL-compatible storage anchor.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36332
+          readingTargets:
+            - name: Thalassochelys testei
+              pbdbTaxonId: txn:252453
+              canonicalPath: content/nodes/PBDB%3A252453
+            - name: Thalassochelys libyca
+              pbdbTaxonId: txn:86275
+              canonicalPath: content/nodes/PBDB%3A86275
+            - name: Thalassochelys eocaenica
+              pbdbTaxonId: txn:235259
+              canonicalPath: content/nodes/PBDB%3A235259
+            - name: Thalassochelys phosphatica
+              pbdbTaxonId: txn:280081
+              canonicalPath: content/nodes/PBDB%3A280081
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-6c8d9c0c3f
+        part: body
+      en:
+        page: en
+        section: s-90f352599e
+        part: body

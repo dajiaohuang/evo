@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Piliocolobus epieni (Grubb & Powell, 1999)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Niger Delta Red Colobus
+      zh: 尼日尔三角洲红疣猴
+    sections:
+      - topic: survey
+        text:
+          en:
+            page: en
+            section: s-b393f50c9f
+            part: body
+          zh:
+            page: zh
+            section: s-649f8cd2a6
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - ikemeh2015
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Piliocolobus epieni
+          url: https://www.checklistbank.org/dataset/316115/taxon/4HTQL
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-934a9573-b0c9-8fd0-aaec-73b2a0b19ee3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the current English common-name crosswalk used for the page; not evidence of occurrence, ecology or a complete range.
+            zh: 支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: ikemeh2015
+        referenceId: ref-579a52ec-7ce7-88c3-acb3-e2e2a324207a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 2013–2014 survey and forest-cover analysis in the central Niger Delta; population and forest figures are the author’s dated study estimates, not current assessments.
+            zh: 支持尼日尔三角洲中部 2013—2014 年调查与森林覆盖分析；种群和森林数字是作者当时的研究估计，不是当前评估。
+    limitations:
+      en:
+        page: en
+        section: s-3e1a23c7bf
+        part: body
+      zh:
+        page: zh
+        section: s-806c3b50a4
+        part: body

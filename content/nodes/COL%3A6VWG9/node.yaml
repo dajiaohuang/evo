@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis yanezi
+  displayName: Pristimantis yanezi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VWG9
+  sourceIndexes:
+    - name:
+        en: Pristimantis yanezi
+        zh: Pristimantis yanezi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VWG9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/185
+            queryName: Pristimantis yanezi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f431fac207
+      - s-006c354036
+      - s-d0f820139e
+      - s-ea74496a1f
+      - s-44d989cd8f
+      - s-e3b118b9c5
+      - s-41baa84036
+      - s-7120a7f6bb
+      - s-c4fca30004
+    zh:
+      - s-b47b17725d
+      - s-9f43edf6f9
+      - s-a4f8ffa307
+      - s-8a749f2bc1
+      - s-d05b1f07c8
+      - s-2519d4b6dd
+      - s-cf2bbddc4b
+      - s-b904630341
+      - s-fbca454099

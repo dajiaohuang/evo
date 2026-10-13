@@ -1,0 +1,460 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Alsodes gargola
+    name:
+      en: Alsodes gargola
+      zh: Alsodes gargola
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Alsodes gargola in the pinned AmphiTherm file
+          zh: 固定版 AmphiTherm 中的 Alsodes gargola
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-ba7e7c7558
+            part: body
+          zh:
+            page: zh
+            section: s-58e4a21108
+            part: body
+      - topic: ecology
+        title:
+          en: "Row 163 (ID 203): critical upper thermal-limit estimate"
+          zh: 第 163 行（ID 203）：临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "203"
+        text:
+          en:
+            page: en
+            section: s-dd9e181a3b
+            part: body
+          zh:
+            page: zh
+            section: s-4163ff31f1
+            part: body
+        sourceRowNumber: 163
+      - topic: ecology
+        title:
+          en: "Row 169 (ID 209): critical lower thermal-limit estimate"
+          zh: 第 169 行（ID 209）：临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "209"
+        text:
+          en:
+            page: en
+            section: s-ad72507999
+            part: body
+          zh:
+            page: zh
+            section: s-6089354caf
+            part: body
+        sourceRowNumber: 169
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 163, 169, 3375; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Anura
+      family: Alsodidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 163
+        values:
+          - "203"
+          - Nayelli Rivera
+          - Bonino_et_al_2020
+          - |-
+            Does temperature at local scale explain thermal biology patterns of
+            temperate tadpoles?
+          - "2020"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/j.jtherbio.2020.102744
+          - English
+          - Alsodes_gargola_pop2
+          - Alsodes_gargola_pop2_UTL_co1
+          - NA
+          - Anura
+          - Alsodidae
+          - Alsodes gargola
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-41.1935"
+          - "-71.50058333"
+          - "1929"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.5"
+          - NA
+          - water_temp is the mean water temperature during the two weeks prior to sampling
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "8.5"
+          - "3.5"
+          - "4"
+          - The acclimation temperature varied between 5 and 12C so it was taken as 8.5 +/- 3.5C
+          - larvae
+          - "28.5"
+          - "42.4"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - "10"
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range presented (26-31)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 2
+          - NA
+          - NA
+          - "32.53"
+          - "0.18"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 169
+        values:
+          - "209"
+          - Natalie_Claunch
+          - Bonino_et_al_2020
+          - |-
+            Does temperature at local scale explain thermal biology patterns of
+            temperate tadpoles?
+          - "2020"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/j.jtherbio.2020.102744
+          - English
+          - Alsodes_gargola_pop2
+          - Alsodes_gargola_pop2_LTL_co1
+          - NA
+          - Anura
+          - Alsodidae
+          - Alsodes gargola
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-41.1935"
+          - "-71.500583"
+          - "1929"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "8.5"
+          - NA
+          - "14"
+          - Acclimation temperature were fluctuating and the mean of the range provided was taken
+          - larvae
+          - "28.5"
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Gosner stage was taken as the mean of the range provided in supplement
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - table
+          - NA
+          - NA
+          - "0.14"
+          - "0.02"
+          - "10"
+          - se
+          - NA
+      - rowNumber: 3375
+        values:
+          - "3700"
+          - Patrice Pottier
+          - Navas_et_al_2010
+          - Thermal tolerances in tadpoles of three species of Patagonian anurans
+          - "2010"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2994/057.005.0203
+          - English
+          - Alsodes_gargola_pop1
+          - Alsodes_gargola_pop1_UTL_co1
+          - NA
+          - Anura
+          - Alsodidae
+          - Alsodes gargola
+          - NA
+          - LC
+          - wild
+          - NA
+          - "-41.198611"
+          - "-71.488611"
+          - "1750"
+          - NA
+          - December
+          - "2001"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "32.5"
+          - "22"
+          - "1"
+          - "20"
+          - Gosner stage was taken as the mean of the range presented (28-37)
+          - larvae
+          - NA
+          - "75"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1
+          - NA
+          - NA
+          - "32.8"
+          - "0.31"
+          - "10"
+          - sd
+          - Data was taken from table 1 because SD was not reported in Rohr et al. 2018.
+    originalStudyCitations:
+      - ref: Bonino_et_al_2020
+        title: |-
+          Does temperature at local scale explain thermal biology patterns of
+          temperate tadpoles?
+        doi: https://doi.org/10.1016/j.jtherbio.2020.102744
+        year: "2020"
+      - ref: Navas_et_al_2010
+        title: Thermal tolerances in tadpoles of three species of Patagonian anurans
+        doi: https://doi.org/10.2994/057.005.0203
+        year: "2010"
+    selectedEstimateRowNumbers:
+      - 163
+      - 169
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - C7WW
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

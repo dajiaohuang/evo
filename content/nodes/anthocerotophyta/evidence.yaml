@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3d439455f7
+            part: title
+          zh:
+            page: zh
+            section: s-7258d30616
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3d439455f7
+            part: body
+          zh:
+            page: zh
+            section: s-7258d30616
+            part: body
+        claimIds:
+          - claim:taxon:anthocerotophyta:morphology
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-e6453259c0
+            part: title
+          zh:
+            page: zh
+            section: s-867b0033ad
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e6453259c0
+            part: body
+          zh:
+            page: zh
+            section: s-867b0033ad
+            part: body
+        claimIds:
+          - claim:taxon:anthocerotophyta
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-5e642bd49b
+            part: title
+          zh:
+            page: zh
+            section: s-5e896dbd67
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5e642bd49b
+            part: body
+          zh:
+            page: zh
+            section: s-5e896dbd67
+            part: body
+        claimIds:
+          - claim:taxon:anthocerotophyta:range-boundary-rc50
+    scientificName: Anthocerotophyta
+    name:
+      en: Anthocerotophyta
+      zh: Anthocerotophyta
+    rank: phylum
+  atlas-node:
+    taxonId: ""
+    extinct: false
+    name: Anthocerotophyta
+    commonName: Hornworts
+    commonNameZh: 角苔门
+    rank: phylum
+    firstAppearance: 470
+    lastAppearance: 0
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:anthocerotophyta
+      claimKind: scientific
+      claimType: morphology
+      statement: Li and colleagues illustrate sporophytes, gametophytes and stomata of Anthoceros agrestis Bonn; these named living materials provide a morphological example for hornworts, without establishing that every hornwort species has identical structures or resolving stomatal homology across land plants.
+      confidence: high
+      confidenceRationale: Figure 3b–c explicitly identifies the illustrated strain and structures; the developmental discussion separately notes that firm evidence for homology is scarce.
+      referenceLinks:
+        - referenceId: li-2020-hornwort-genomes
+          relation: supports
+          figure: Figure 3b–c
+          quoteLocator: Figure 3 caption; Genes related to sporophyte development, opening paragraph
+    - subjectId: taxon:anthocerotophyta
+      claimKind: scientific
+      claimType: topology
+      statement: Two Anthoceros genome assemblies support hornwort comparative placement and reveal lineage-specific genomic features; two species cannot date Anthocerotophyta or represent every hornwort lineage.
+      confidence: medium
+      confidenceRationale: Chromosome-scale data strengthen the sampled comparisons, while species sampling and evolutionary models bound phylum-wide inference.
+      referenceLinks:
+        - referenceId: li-2020-hornwort-genomes
+          relation: supports
+          pages: 259–272
+          quoteLocator: Figures 1–5; hornwort phylogenomics and comparative genomics
+    - subjectId: taxon:anthocerotophyta
+      claimKind: scientific
+      claimType: fossil-range
+      statement: "Anthocerotophyta has no supported scalar temporal range in the cited evidence: two living hornwort genomes inform phylogenomics but do not establish a 470 Ma fossil or calibrated phylum boundary, so the former 470–0 Ma display is withheld."
+      confidence: low
+      confidenceRationale: Li et al. (2020) directly supports living-genome comparisons and topology, not a fossil first appearance. Low confidence records the absence of range-fit support for the former 470 Ma endpoint.
+      referenceLinks:
+        - relation: supports
+          referenceId: li-2020-hornwort-genomes
+          pages: 6:259–272
+          figure: Figures 1–5
+          quoteLocator: Two hornwort genomes, phylogenomics and comparative genomics
+  claim-rationales.zh:
+    - 图 3b–c 明确标识所展示的品系和结构；发育讨论另外指出，同源性的确凿证据仍然不足。
+    - 染色体尺度数据加强了取样比较，但物种取样与演化模型限制了门级外推。
+    - Li 等（2020）直接支持现生基因组比较与拓扑，而非化石首现。低置信度表示旧有 470 Ma 端点缺少适合范围用途的证据。
+  claim-statements.zh:
+    - Li 及同事展示了 Anthoceros agrestis Bonn 品系的孢子体、配子体和气孔；这些具名现生材料提供了角苔的形态实例，但不能证明所有角苔物种具有完全相同的结构，也未解决陆生植物间气孔的同源性问题。
+    - 两套角苔属基因组支持角苔的比较系统位置并揭示谱系特有基因组特征；两个物种不能为角苔门定年，也不能代表全部角苔谱系。
+    - 现有引证不支持 Anthocerotophyta 的单一时间范围：两个现生角苔基因组可用于系统基因组学，却不能确立 470 Ma 化石或校准门级边界，因此旧有 470–0 Ma 展示被暂缓。
+  ranges:
+    - entityId: anthocerotophyta
+      rangeKind: global-composite
+      taxonomicConcept: Anthocerotophyta temporal range
+      geographicScope: Temporal interval pending fossil or calibrated phylum evidence
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Two living hornwort genomes and comparative analyses do not establish a 470 Ma fossil boundary.
+      evidenceBasis: The former 470–0 Ma display is withheld rather than converting extant genome sampling into a phylum first appearance.
+      confidence: low
+      claimIds:
+        - claim:taxon:anthocerotophyta:range-boundary-rc50
+      referenceLocators:
+        - referenceId: li-2020-hornwort-genomes
+          locator: 259–272; Figures 1–5; two hornwort genomes, phylogenomics and comparative genomics
+      evidenceLevel: withheld-no-range-evidence

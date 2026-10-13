@@ -1,0 +1,416 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Plesiosauria
+    commonName: Plesiosaurs
+    commonNameZh: 蛇颈龙类
+    rank: order
+    taxonId: txn:36454
+    firstAppearance: 205.7
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Plesiosauria
+    rank: order
+    sourceDatasetId: null
+    name:
+      zh: Plesiosauria
+      en: Plesiosauria
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-00232b2ea8
+            part: body
+          en:
+            page: en
+            section: s-ea0b263780
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-55a96ee4fd
+            part: body
+          en:
+            page: en
+            section: s-5d42b74ee9
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Plesiosauria
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36454
+          locator: Recorded PBDB parent closure beneath the already documented Sauropterygia COL-compatible storage anchor.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36454
+          readingTargets:
+            - name: Macroplata tenuiceps
+              pbdbTaxonId: txn:100094
+              canonicalPath: content/nodes/PBDB%3A100094
+            - name: Yuzhoupliosaurus chengjiangensis
+              pbdbTaxonId: txn:172031
+              canonicalPath: content/nodes/PBDB%3A172031
+            - name: Maresaurus coccai
+              pbdbTaxonId: txn:180118
+              canonicalPath: content/nodes/PBDB%3A180118
+            - name: Rhomaleosaurus cramptoni
+              pbdbTaxonId: txn:171549
+              canonicalPath: content/nodes/PBDB%3A171549
+            - name: Rhomaleosaurus megacephalus
+              pbdbTaxonId: txn:100065
+              canonicalPath: content/nodes/PBDB%3A100065
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5f58ace094
+        part: body
+      en:
+        page: en
+        section: s-a03ce0bc53
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:36454
+    scientificName: Plesiosauria
+    commonName: Plesiosaurs
+    commonNameZh: 蛇颈龙类
+    rank: order
+    parentName: Sauropterygia
+    extinct: true
+    geography:
+      - Global marine deposits
+      - Exter Formation, Germany
+    overview:
+      page: en
+      section: s-5c6b639f48
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-de0aa3ee7c
+        part: body
+      habitat:
+        page: en
+        section: s-4872cc7a0e
+        part: body
+      locomotion:
+        page: en
+        section: s-7b48226234
+        part: body
+      bodySize:
+        page: en
+        section: s-b14b333c4e
+        part: body
+      guild:
+        page: en
+        section: s-42933358c8
+        part: body
+    traits:
+      - page: en
+        section: s-178030e639
+        part: body
+      - page: en
+        section: s-4e36ca001f
+        part: body
+      - page: en
+        section: s-f1be59b5c1
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-91e42fff0e
+      part: body
+    confidence: high
+    referenceIds:
+      - wintrich-2017-rhaeticosaurus
+      - dalla-vecchia-2006-bobosaurus
+      - muscutt-2017-plesiosaur-four-flipper
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-5c6b639f48
+            part: title
+          zh:
+            page: zh
+            section: s-71bd32aa1c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5c6b639f48
+            part: body
+          zh:
+            page: zh
+            section: s-71bd32aa1c
+            part: body
+        sourceIds:
+          - wintrich-2017-rhaeticosaurus
+          - dalla-vecchia-2006-bobosaurus
+          - muscutt-2017-plesiosaur-four-flipper
+      - id: body-observations
+        title:
+          en:
+            page: en
+            section: s-badefc6e2f
+            part: title
+          zh:
+            page: zh
+            section: s-8c39f1ce66
+            part: title
+        text:
+          en:
+            page: en
+            section: s-badefc6e2f
+            part: body
+          zh:
+            page: zh
+            section: s-8c39f1ce66
+            part: body
+        sourceIds:
+          - wintrich-2017-rhaeticosaurus
+          - dalla-vecchia-2006-bobosaurus
+          - muscutt-2017-plesiosaur-four-flipper
+      - id: ecology-context
+        title:
+          en:
+            page: en
+            section: s-06a7a438c6
+            part: title
+          zh:
+            page: zh
+            section: s-6fc93d928e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-06a7a438c6
+            part: body
+          zh:
+            page: zh
+            section: s-6fc93d928e
+            part: body
+        sourceIds:
+          - wintrich-2017-rhaeticosaurus
+          - muscutt-2017-plesiosaur-four-flipper
+      - id: interpretation-boundary
+        title:
+          en:
+            page: en
+            section: s-91e42fff0e
+            part: title
+          zh:
+            page: zh
+            section: s-7e41c58629
+            part: title
+        text:
+          en:
+            page: en
+            section: s-91e42fff0e
+            part: body
+          zh:
+            page: zh
+            section: s-7e41c58629
+            part: body
+        sourceIds:
+          - wintrich-2017-rhaeticosaurus
+          - dalla-vecchia-2006-bobosaurus
+          - muscutt-2017-plesiosaur-four-flipper
+    readerSources:
+      - id: wintrich-2017-rhaeticosaurus
+        referenceId: wintrich-2017-rhaeticosaurus
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Describes Rhaeticosaurus holotype anatomy and histology from the Exter Formation, supporting a diagnostic Triassic plesiosaurian record.
+            zh: 描述 Exter 组 Rhaeticosaurus 正模的骨骼与组织学，支持一个诊断清楚的三叠纪蛇颈龙类记录。
+      - id: dalla-vecchia-2006-bobosaurus
+        referenceId: dalla-vecchia-2006-bobosaurus
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Bobosaurus combines nothosaurian and plesiosaurian features; affinity near Plesiosauria remains uncertain.
+            zh: Bobosaurus 兼有幻龙类和蛇颈龙类特征；其与蛇颈龙类的亲缘关系仍不确定。
+      - id: muscutt-2017-plesiosaur-four-flipper
+        referenceId: muscutt-2017-plesiosaur-four-flipper
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A water-channel experiment with prescribed flipper models tests swimming efficiency; it does not directly observe plesiosaur swimming.
+            zh: 水槽实验使用预设鳍肢模型检验游泳效率；它没有直接观察蛇颈龙游泳。
+    traitsZh:
+      - page: zh
+        section: zh-3c4e432587e8c4
+        part: body
+      - page: zh
+        section: zh-d6155b60883d95
+        part: body
+      - page: zh
+        section: zh-f1e2eccf094579
+        part: body
+  claims:
+    - subjectId: taxon:plesiosauria
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Plesiosauria is represented securely in the Rhaetian by the diagnostic articulated Rhaeticosaurus skeleton; older Bobosaurus remains an uncertain near-plesiosaur candidate rather than accepted diagnostic Plesiosauria.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:taxonomy.
+      referenceLinks:
+        - referenceId: wintrich-2017-rhaeticosaurus
+          relation: supports
+          pages: e1701144
+          figure: Figures 1–4; Supplementary Figures S1–S12
+          quoteLocator: taxonomy
+    - subjectId: taxon:plesiosauria
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The claim-linked older bound for diagnostic Plesiosauria is the Rhaetian 205.7–201.4 Ma interval; the younger 66 Ma bound remains a broad composite and Bobosaurus does not pull the range into the Carnian.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:fossil-range.
+      referenceLinks:
+        - referenceId: wintrich-2017-rhaeticosaurus
+          relation: supports
+          pages: e1701144
+          figure: Figures 1–4; Supplementary Figures S1–S12
+          quoteLocator: fossil-range
+    - subjectId: taxon:plesiosauria
+      claimKind: scientific
+      claimType: biogeography
+      statement: The oldest diagnostic occurrence highlighted here is from the Exter Formation at Bonenburg, Germany; older candidate evidence from northeastern Italy is shown separately.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:biogeography.
+      referenceLinks:
+        - referenceId: wintrich-2017-rhaeticosaurus
+          relation: supports
+          pages: e1701144
+          figure: Figures 1–4; Supplementary Figures S1–S12
+          quoteLocator: biogeography
+    - subjectId: taxon:plesiosauria
+      claimKind: scientific
+      claimType: morphology
+      statement: Plesiosauria has a distinctive four-flipper body plan; Rhaeticosaurus preserves diagnostic skeletal characters, whereas Bobosaurus presents a less decisive mosaic.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:morphology.
+      referenceLinks:
+        - referenceId: wintrich-2017-rhaeticosaurus
+          relation: supports
+          pages: e1701144
+          figure: Figures 1–4; Supplementary Figures S1–S12
+          quoteLocator: morphology
+    - subjectId: taxon:plesiosauria
+      claimKind: scientific
+      claimType: ecology
+      statement: Plesiosaurs were marine swimmers, but inferred physiology and four-flipper hydrodynamics remain separate from the directly preserved Rhaeticosaurus skeleton and histology.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to plesiosauria:ecology.
+      referenceLinks:
+        - referenceId: wintrich-2017-rhaeticosaurus
+          relation: supports
+          pages: e1701144
+          figure: Figures 1–4; Supplementary Figures S1–S12
+          quoteLocator: ecology
+  claim-rationales.zh:
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 plesiosauria:taxonomy。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 plesiosauria:fossil-range。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 plesiosauria:biogeography。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 plesiosauria:morphology。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 plesiosauria:ecology。
+  claim-statements.zh:
+    - 诊断性关节骨架 Rhaeticosaurus 可靠记录蛇颈龙类已出现于瑞替期；更老的 Bobosaurus 仍是不确定近蛇颈龙候选，不被视为已确认蛇颈龙类。
+    - 诊断性蛇颈龙类有主张关联的较老界限为 2.057 亿至 2.014 亿年前瑞替期；6600 万年前较年轻界限仍是综合值，Bobosaurus 不会把延限拉入卡尼期。
+    - 本档案重点的最老诊断性出现来自德国 Bonenburg 的 Exter 组；意大利东北部更老候选证据被单独展示。
+    - 蛇颈龙类具有独特四鳍肢体制；Rhaeticosaurus 保存诊断性骨骼性状，而 Bobosaurus 的镶嵌组合证据较不确定。
+    - 蛇颈龙类是海生游泳动物，但生理与四鳍肢水动力推断必须与 Rhaeticosaurus 直接保存的骨架和组织学分开。
+  ranges:
+    - entityId: plesiosauria
+      rangeKind: global-composite
+      taxonomicConcept: Plesiosauria
+      geographicScope: Global or represented navigation composite
+      olderMa: 205.7
+      youngerMa: 66
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Older bound follows diagnostic Rhaetian Rhaeticosaurus; the 66 Ma younger bound remains a broad composite.
+      evidenceBasis: Diagnostic Rhaetian Rhaeticosaurus constrains the older display bound; older Bobosaurus remains an uncertain candidate and does not pull the range into the Carnian.
+      confidence: high
+      claimIds:
+        - claim:taxon:plesiosauria:fossil-range
+      referenceLocators:
+        - referenceId: wintrich-2017-rhaeticosaurus
+          locator: Article e1701144; Figures 1–4; Supplementary Figures S1–S12
+        - referenceId: dalla-vecchia-2006-bobosaurus
+          locator: pp. 207–225; alternative affinity discussion
+      evidenceLevel: literature-synthesized

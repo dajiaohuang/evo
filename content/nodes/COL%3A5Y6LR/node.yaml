@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton infernalis
+  displayName: Chiropterotriton infernalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6LR
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton infernalis
+        zh: Chiropterotriton infernalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6LR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/297
+            queryName: Chiropterotriton infernalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e8904a7837
+      - s-f2d27f2998
+      - s-d57494f949
+      - s-18709ca54d
+      - s-e6378ab2df
+      - s-61647b8d66
+      - s-1e4bdbac61
+      - s-f56d08a092
+      - s-1fa7225240
+      - s-e3720e21e5
+      - s-4f3adda799
+      - s-960750bdd6
+      - s-03900ac0c4
+      - s-eb63396a1e
+      - s-66df86188e
+    zh:
+      - s-2370530da0
+      - s-20521e159b
+      - s-73ea91f926
+      - s-23e416d45e
+      - s-5c8e017bad
+      - s-16cf0c5110
+      - s-0e2004472b
+      - s-ff9d8f28c3
+      - s-77aa9ae370
+      - s-17aabf4ed7
+      - s-17bb0f153f
+      - s-930fe7002b
+      - s-c8d8fad89a
+      - s-ff1518a383
+      - s-bace5cd7d1

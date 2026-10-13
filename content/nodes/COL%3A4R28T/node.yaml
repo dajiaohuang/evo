@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Quasipaa verrucospinosa
+  displayName: Quasipaa verrucospinosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4R28T
+  sourceIndexes:
+    - name:
+        en: Quasipaa verrucospinosa
+        zh: Quasipaa verrucospinosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4R28T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/36
+            queryName: Quasipaa verrucospinosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/7
+            queryName: Paa verrucospinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/35
+            queryName: Rana verrucospinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/36
+            queryName: Nanorana verrucospinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/493
+            queryName: Rana spinosa verrucospinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0f91c63284
+      - s-806393a4cd
+      - s-055af91d11
+      - s-153c23dc7d
+      - s-b66c01a8d4
+      - s-a4f47d50be
+      - s-7ae941815b
+      - s-1e4d2b9961
+      - s-0670a360b0
+      - s-87d4cecb6c
+      - s-f2e465d167
+      - s-7acdc4be30
+      - s-462876dc89
+      - s-6ad30d6392
+      - s-e6580b9de5
+    zh:
+      - s-f969279b30
+      - s-2df5bf6ef1
+      - s-a1dd5c0aa4
+      - s-b1c41af49e
+      - s-57cb3d7008
+      - s-c28dd75a19
+      - s-f882986012
+      - s-49d212703a
+      - s-0dc80bde2b
+      - s-c6450ac62c
+      - s-7e04206ba0
+      - s-c2b404a6b2
+      - s-956925ba60
+      - s-29c7fe496a
+      - s-4aafbdd31a

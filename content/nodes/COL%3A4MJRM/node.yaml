@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis wagteri
+  displayName: Pristimantis wagteri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJRM
+  sourceIndexes:
+    - name:
+        en: Pristimantis wagteri
+        zh: Pristimantis wagteri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJRM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/177
+            queryName: Pristimantis wagteri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/340
+            queryName: Eleutherodactylus wagteri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3ebec64822
+      - s-1286e1194e
+      - s-f0cdc98773
+      - s-3d2242819c
+      - s-7d02ea6bc4
+      - s-a5968670f4
+      - s-24d5bc52d3
+      - s-8f14f234c6
+      - s-70f561b8cb
+      - s-8049aa0f06
+      - s-2d8d211841
+    zh:
+      - s-c70de63a32
+      - s-538b3b6c54
+      - s-2a9131a8b8
+      - s-0cfa2d32e6
+      - s-068d3bfb06
+      - s-cc74cec928
+      - s-e7c875587e
+      - s-634b1ac1a6
+      - s-c32074abba
+      - s-5db431916d
+      - s-33ff1affd9

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana polytaenia
+  displayName: Boana polytaenia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M826
+  sourceIndexes:
+    - name:
+        en: Boana polytaenia
+        zh: Boana polytaenia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M826
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/18
+            queryName: Boana polytaenia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/432
+            queryName: Hyla polytaenia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/182
+            queryName: Hypsiboas polytaenius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/321
+            queryName: Hyla striata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/359
+            queryName: Hyla polytaenia polytaenia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1310835239
+      - s-77c0a6e94a
+      - s-836b8e9dc4
+      - s-cf1e61ac24
+      - s-e4345822d1
+      - s-4a8d744f7f
+      - s-e350dad117
+      - s-5e2012e20a
+      - s-350f53f802
+      - s-7962e8941e
+      - s-1a40b4b1b8
+    zh:
+      - s-d7a95bd4bb
+      - s-3c70ee43e3
+      - s-6173745314
+      - s-f63c49339d
+      - s-5dedbede39
+      - s-4f481918c7
+      - s-2148c19871
+      - s-e6dad111a1
+      - s-972cdf9c45
+      - s-dd82b451f9
+      - s-03f0a9b3db

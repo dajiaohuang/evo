@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus nanay
+  displayName: Atelopus nanay
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8ZM
+  sourceIndexes:
+    - name:
+        en: Atelopus nanay
+        zh: Atelopus nanay
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8ZM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/289
+            queryName: Atelopus nanay
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a59b999961
+      - s-d7a45d057b
+      - s-831dbebe45
+      - s-2c8905108f
+      - s-0f76edf14d
+      - s-0508861321
+      - s-b3bc19d3ef
+      - s-9c093dc5fd
+      - s-c40c5e6b56
+      - s-72ed5f3f37
+      - s-214c9a8510
+    zh:
+      - s-cb378b74ec
+      - s-ff9791ef2f
+      - s-b0a3b7f658
+      - s-2949743d52
+      - s-4c67e9a16c
+      - s-2352275ea8
+      - s-c2ba00a694
+      - s-38d21e1c26
+      - s-c7b125165a
+      - s-41c7a7fb85
+      - s-5958ab2ca0

@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana
+  displayName: Hylarana
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZZH
+  sourceIndexes:
+    - name:
+        en: Hylarana
+        zh: Hylarana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZZH
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/441
+            queryName: Hylarana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 279
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-84027ab8ee
+      - s-c987c7e90a
+      - s-533af2f59e
+      - s-cbad26e087
+      - s-83e35c256b
+      - s-d58bbd3dd0
+      - s-7ba8571201
+      - s-e5416df90c
+      - s-b3b0db0f5f
+      - s-a138046c02
+      - s-5c93b511af
+      - s-3ac81e928c
+      - s-030da20814
+      - s-49e278ccba
+      - s-a6d7cc3596
+      - s-a1534e2b4c
+      - s-84e47072b0
+      - s-5d1bcfacbc
+      - s-b12e77b29a
+      - s-a90636a012
+      - s-f273ec302f
+      - s-f7dd0618b1
+      - s-48c690f573
+      - s-882db99e45
+      - s-a56dc5c233
+      - s-edda543627
+      - s-c34a4c530d
+    zh:
+      - s-1bdf6e8e9c
+      - s-65af60d0e4
+      - s-603621bf13
+      - s-1caee78a70
+      - s-e423119880
+      - s-22b8841c85
+      - s-b69312d667
+      - s-fd1a813fc5
+      - s-681282e993
+      - s-7ffba7698a
+      - s-cb33773d12
+      - s-86471703f0
+      - s-971fe45361
+      - s-894d80999e
+      - s-9f26ebc7c8
+      - s-c85a7296e8
+      - s-d8a903b510
+      - s-3fbc4579ad
+      - s-ba202ccd67
+      - s-3343695199
+      - s-7fac376c0a
+      - s-6d854095bd
+      - s-e9e2b879d8
+      - s-21b2422665
+      - s-3e4e3e81be
+      - s-5827118673
+      - s-d0c0545853

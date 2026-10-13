@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis calcaratus
+  displayName: Boophis calcaratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHSX
+  sourceIndexes:
+    - name:
+        en: Boophis calcaratus
+        zh: Boophis calcaratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHSX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/245
+            queryName: Boophis calcaratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e9b84623f2
+      - s-92f2ea7b63
+      - s-60a5b3338a
+      - s-6154a46e98
+      - s-7d88981220
+      - s-fb07f80395
+      - s-6236143cfa
+      - s-1eacfad61c
+    zh:
+      - s-3fc5305ce4
+      - s-6a2aac79f1
+      - s-5c34963536
+      - s-7ff23b790e
+      - s-c61a406151
+      - s-dabef2edac
+      - s-7639d46329
+      - s-45bcd8c2cd

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bombina
+  displayName: Bombina
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3BBJ
+  sourceIndexes:
+    - name:
+        en: Bombina
+        zh: Bombina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3BBJ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/239
+            queryName: Bombina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1541
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-612fc9d3f6
+      - s-d9bb5a64e1
+      - s-79e9bf0614
+      - s-a3462ebca6
+      - s-42827d583b
+      - s-edf6473c94
+      - s-82d35b3915
+      - s-c5dc3617b5
+      - s-e381670971
+      - s-de7e7ddabc
+      - s-39b1d8d9db
+      - s-dadce9b4ba
+      - s-f5404aef91
+      - s-850c386502
+    zh:
+      - s-a2cf68707c
+      - s-8e8fbafbb1
+      - s-d23a5e6b68
+      - s-8c987a430f
+      - s-ecb3422913
+      - s-6f2396bb11
+      - s-494162d659
+      - s-a72945d068
+      - s-1d4301c634
+      - s-16d9a33ba1
+      - s-74d64371e4
+      - s-71ce697f10
+      - s-e06668b8ec
+      - s-f5250a4832

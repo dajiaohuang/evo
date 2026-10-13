@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis latidiscus
+  displayName: Pristimantis latidiscus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJGG
+  sourceIndexes:
+    - name:
+        en: Pristimantis latidiscus
+        zh: Pristimantis latidiscus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJGG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/355
+            queryName: Pristimantis latidiscus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/112
+            queryName: Eleutherodactylus latidiscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/138
+            queryName: Hylodes latidiscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/97
+            queryName: Eleutherodactylus latidiscus latidiscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e10e5f9dfe
+      - s-4e57fb4682
+      - s-e9ee208030
+      - s-be017819f3
+      - s-71b89e3a86
+      - s-24ebd6ffc9
+      - s-68aa03bd36
+      - s-293603f6c7
+      - s-7781d17dca
+    zh:
+      - s-8d278b53a8
+      - s-ec06fb186a
+      - s-267b97befa
+      - s-cbe8248015
+      - s-9952c47e2b
+      - s-135f25a003
+      - s-a7403cd452
+      - s-8e428d522d
+      - s-4b12995642

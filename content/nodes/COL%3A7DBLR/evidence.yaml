@@ -1,0 +1,291 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylototriton shanjing Nussbaum, Brodie & Yang, 1995
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Tylototriton shanjing
+      zh: Tylototriton shanjing
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6e61da6fa3
+            part: title
+          zh:
+            page: zh
+            section: s-ee28555b0d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6e61da6fa3
+            part: body
+          zh:
+            page: zh
+            section: s-ee28555b0d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e427bc9895
+            part: title
+          zh:
+            page: zh
+            section: s-dc4e767266
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e427bc9895
+            part: body
+          zh:
+            page: zh
+            section: s-dc4e767266
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b6228db625
+            part: title
+          zh:
+            page: zh
+            section: s-144080bd9e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b6228db625
+            part: body
+          zh:
+            page: zh
+            section: s-144080bd9e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-49cac36cdaa8ab30f5a6dc17
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6cf9e308d6
+            part: title
+          zh:
+            page: zh
+            section: s-87301cf2aa
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6cf9e308d6
+            part: body
+          zh:
+            page: zh
+            section: s-87301cf2aa
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-76a6930f1b
+            part: title
+          zh:
+            page: zh
+            section: s-1d0ff1a50b
+            part: title
+        sourceIds:
+          - primary-pmc7369190-7dblr
+        text:
+          en:
+            page: en
+            section: s-76a6930f1b
+            part: body
+          zh:
+            page: zh
+            section: s-1d0ff1a50b
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-0c5dff316d
+            part: title
+          zh:
+            page: zh
+            section: s-22d2a478e8
+            part: title
+        sourceIds:
+          - primary-pmc7369190-7dblr
+        text:
+          en:
+            page: en
+            section: s-0c5dff316d
+            part: body
+          zh:
+            page: zh
+            section: s-22d2a478e8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylototriton shanjing
+          url: https://www.checklistbank.org/dataset/316115/taxon/7DBLR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 395, 396; Reference.csv rows 4152
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc7369190-7dblr
+        referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton shanjing: Methods, Table 1 and footnotes, landmark/statistical design, lateral/dorsal results, phylogeny/ecology/shape results and morphology/phylogeny/ecology discussion read; supplementary matrices, original images and scans not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a0c011d114
+        part: body
+      zh:
+        page: zh
+        section: s-c7a5dab376
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-49cac36cdaa8ab30f5a6dc17
+        scientificName: Tylototriton shanjing
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1111/joa.13201
+        referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+        sourceKey: primary-pmc7369190-7dblr
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7369190/article.xml
+        sourceConcept: Tylototriton shanjing
+        evidenceRead: "Tylototriton shanjing: Methods, Table 1 and footnotes, landmark/statistical design, lateral/dorsal results, phylogeny/ecology/shape results and morphology/phylogeny/ecology discussion read; supplementary matrices, original images and scans not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Sample counts distinguish external heads from skulls
+              zh: 样本数区分外部头部与头骨
+            referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+            sourceKey: primary-pmc7369190-7dblr
+            locator: PMC7369190 XML joa13201-sec-0002 paragraph 0; joa13201-tbl-0001 with note-0001; joa13201-sec-0003–0004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ca69addece
+                part: body
+              zh:
+                page: zh
+                section: s-3e989f529b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: Comparative results retain their measurement limits
+              zh: 比较结果保留测量限制
+            referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+            sourceKey: primary-pmc7369190-7dblr
+            locator: PMC7369190 XML joa13201-sec-0011 paragraph 2; joa13201-sec-0012 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1ebfeecca6
+                part: body
+              zh:
+                page: zh
+                section: s-c5e4e45aff
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

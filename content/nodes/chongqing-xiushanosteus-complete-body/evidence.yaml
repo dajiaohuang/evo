@@ -1,0 +1,86 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-ae7ad69faf
+      part: title
+    titleZh:
+      page: zh
+      section: s-26a3835261
+      part: title
+    category: origin
+    startAge: 436
+    endAge: 436
+    regions:
+      - Huixingshao Formation, Yongdong, Xiushan, Chongqing, China
+    clades:
+      - Xiushanosteus mirabilis
+      - placoderm-grade stem Gnathostomata
+    summary:
+      page: en
+      section: s-ae7ad69faf
+      part: body
+    summaryZh:
+      page: zh
+      section: s-26a3835261
+      part: body
+    claimIds:
+      - claim:event:chongqing-xiushanosteus-complete-body
+    evidenceItems:
+      - statement: Holotype IVPP V300001 and referred specimens IVPP V300002–V300021 preserve articulated or near-complete bodies from the middle-to-late Telychian Huixingshao Formation
+        relation: supports
+        claimIds:
+          - claim:event:chongqing-xiushanosteus-complete-body
+        referenceLinks:
+          - relation: supports
+            referenceId: zhu-2022-chongqing-gnathostomes
+            pages: 955–957
+            figure: Figures 1a, 2; Extended Data Figures 3a–e and 4–6
+            quoteLocator: "Systematic palaeontology: material, locality and horizon"
+      - statement: The skull roof combines character states otherwise distributed among major placoderm grades and approaches the osteichthyan pattern in the arrangement of paired bones
+        relation: supports
+        claimIds:
+          - claim:event:chongqing-xiushanosteus-complete-body
+        referenceLinks:
+          - relation: supports
+            referenceId: zhu-2022-chongqing-gnathostomes
+            pages: 956–958
+            figure: Figure 2; Figure 4
+            quoteLocator: Description; phylogenetic and morphospace discussion
+    uncertaintyItems:
+      - statement: Placoderms form an evolutionary grade in the study and early stem-gnathostome relationships remain weakly resolved, so Xiushanosteus is not presented as a direct ancestor
+        relation: contextualizes
+        claimIds:
+          - claim:event:chongqing-xiushanosteus-complete-body
+        referenceLinks:
+          - relation: supports
+            referenceId: zhu-2022-chongqing-gnathostomes
+            figure: Figure 4; Extended Data phylogenies
+            quoteLocator: Phylogenetic analysis and Discussion
+      - statement: Its abundance within one Lagerstätte is not evidence of global ecological dominance or a global FAD for placoderms or jawed vertebrates
+        relation: contextualizes
+        claimIds:
+          - claim:event:chongqing-xiushanosteus-complete-body
+        referenceLinks:
+          - relation: supports
+            referenceId: zhu-2022-chongqing-gnathostomes
+            pages: 954–958
+            quoteLocator: Lagerstätte composition and Discussion
+  claims:
+    - subjectId: event:chongqing-xiushanosteus-complete-body
+      claimKind: scientific
+      claimType: morphology
+      statement: Xiushanosteus mirabilis holotype IVPP V300001 and referred specimens IVPP V300002–V300021 from the middle-to-late Telychian Huixingshao Formation at approximately 436 Ma preserve an approximately 30 mm placoderm-grade stem-gnathostome body and a mosaic skull roof; this is articulated specimen evidence, not a direct ancestor, global dominance estimate or global jawed-vertebrate FAD.
+      confidence: high
+      confidenceRationale: Multiple articulated specimens directly preserve the small body and cranial armor, and the primary study provides a specimen list, horizon and detailed figures. The high confidence applies only to the documented material and character mosaic; placoderm-grade relationships remain poorly resolved and are not converted into ancestry.
+      referenceLinks:
+        - relation: supports
+          referenceId: zhu-2022-chongqing-gnathostomes
+          pages: 954–958, especially pp. 955–957
+          figure: Figures 1a, 2 and 4; Extended Data Figures 3a–e and 4–6
+          quoteLocator: Systematic palaeontology; anatomical description; phylogenetic and morphospace discussion
+  claim-rationales.zh:
+    - 多件关节相连标本直接保存小型躯体与颅甲，一手研究给出了标本清单、层位和详细图版。高置信度只适用于已记录材料及性状镶嵌；盾皮鱼等级的关系仍解析不足，不能转化为祖先关系。
+  claim-statements.zh:
+    - 约 436 Ma 中—晚特列奇期回星哨组的 Xiushanosteus mirabilis 正模 IVPP V300001 与归入标本 IVPP V300002–V300021，保存了约 30 毫米长、盾皮鱼等级的有颌类干群躯体及镶嵌式颅顶；这是关节相连标本证据，不是直接祖先、全球优势度估计或有颌脊椎动物全球首现。

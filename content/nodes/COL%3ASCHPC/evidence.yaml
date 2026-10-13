@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis venegasi Ortega, Brito-M. & Ron, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis venegasi
+      zh: Pristimantis venegasi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5f487d47ba
+            part: title
+          zh:
+            page: zh
+            section: s-e4b081efda
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5f487d47ba
+            part: body
+          zh:
+            page: zh
+            section: s-e4b081efda
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1361fd055d
+            part: title
+          zh:
+            page: zh
+            section: s-0733ffcf3f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1361fd055d
+            part: body
+          zh:
+            page: zh
+            section: s-0733ffcf3f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-effbb9134f
+            part: title
+          zh:
+            page: zh
+            section: s-3336c068e6
+            part: title
+        sourceIds:
+          - primary-pmc9583859-schpc
+        text:
+          en:
+            page: en
+            section: s-effbb9134f
+            part: body
+          zh:
+            page: zh
+            section: s-3336c068e6
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d151063987
+            part: title
+          zh:
+            page: zh
+            section: s-d21b67042b
+            part: title
+        sourceIds:
+          - primary-pmc9583859-schpc
+        text:
+          en:
+            page: en
+            section: s-d151063987
+            part: body
+          zh:
+            page: zh
+            section: s-d21b67042b
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-91287d56f3
+            part: title
+          zh:
+            page: zh
+            section: s-67b998bc70
+            part: title
+        sourceIds:
+          - primary-pmc9583859-schpc
+        text:
+          en:
+            page: en
+            section: s-91287d56f3
+            part: body
+          zh:
+            page: zh
+            section: s-67b998bc70
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis venegasi
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCHPC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9583859-schpc
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis venegasi: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0cc528f6c8
+        part: body
+      zh:
+        page: zh
+        section: s-affbf53e71
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.13761
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        sourceKey: primary-pmc9583859-schpc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9583859/article.xml
+        sourceConcept: Pristimantis venegasi
+        evidenceRead: "Pristimantis venegasi: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: One adult of each sex and preservation-sensitive fringes
+              zh: 每性别一成体及保存敏感的缘
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-schpc
+            locator: PMC9583859 reading-sections section 1, paragraph 81
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8fb5d7f216
+                part: body
+              zh:
+                page: zh
+                section: s-5f8eafb6dd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Ankaku perches and a separately noted Sumaco voucher
+              zh: Ankaku 栖位及另记 Sumaco 凭证
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-schpc
+            locator: PMC9583859 reading-sections section 1, paragraph 88
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-efb1bb2a18
+                part: body
+              zh:
+                page: zh
+                section: s-4863050096
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: Data Deficient despite mapped habitat loss
+              zh: 图示生境损失下的数据缺乏建议
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-schpc
+            locator: PMC9583859 reading-sections section 1, paragraph 89
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dfbb45f478
+                part: body
+              zh:
+                page: zh
+                section: s-87563d29b2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

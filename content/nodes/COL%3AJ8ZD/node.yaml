@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus minutulus
+  displayName: Atelopus minutulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8ZD
+  sourceIndexes:
+    - name:
+        en: Atelopus minutulus
+        zh: Atelopus minutulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8ZD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/282
+            queryName: Atelopus minutulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d943d98a49
+      - s-2b6d80004e
+      - s-77443c1de7
+      - s-ace41e2cff
+      - s-82c45b446b
+      - s-e8a55531f7
+      - s-2f5354b250
+      - s-2256e27c41
+      - s-033190b976
+    zh:
+      - s-76092e3aba
+      - s-b8878447a2
+      - s-9f244301a4
+      - s-9781b2ec07
+      - s-f8b0374316
+      - s-f104771e23
+      - s-db5a285e4d
+      - s-cf60dd66b4
+      - s-e9e586d487

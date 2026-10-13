@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrobates nubeculosus
+  displayName: Dendrobates nubeculosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6CK58
+  sourceIndexes:
+    - name:
+        en: Dendrobates nubeculosus
+        zh: Dendrobates nubeculosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6CK58
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/313
+            queryName: Dendrobates nubeculosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dc5c28a155
+      - s-7ae1bc8fbe
+      - s-c5d09a8c95
+      - s-ab07dd68b3
+      - s-8f11934a75
+      - s-77f8b8019c
+    zh:
+      - s-2bbad60044
+      - s-42fc342f11
+      - s-b902b2fb1a
+      - s-15cb11f81e
+      - s-6f2ee0c179
+      - s-7ea47cb01e

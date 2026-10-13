@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amolops yunkaiensis Lyu, Wang, Liu, Zeng & Wang, 2018
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amolops yunkaiensis
+      zh: Amolops yunkaiensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6b567726fb
+            part: title
+          zh:
+            page: zh
+            section: s-4297555c7c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6b567726fb
+            part: body
+          zh:
+            page: zh
+            section: s-4297555c7c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1eb52f4541
+            part: title
+          zh:
+            page: zh
+            section: s-7ccf3fb9ef
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1eb52f4541
+            part: body
+          zh:
+            page: zh
+            section: s-7ccf3fb9ef
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-31291895e0
+            part: title
+          zh:
+            page: zh
+            section: s-37333c4ecf
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-31291895e0
+            part: body
+          zh:
+            page: zh
+            section: s-37333c4ecf
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-3f1826053f14e90994b2563e
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c6ba23263f
+            part: title
+          zh:
+            page: zh
+            section: s-ab8d6dac4c
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c6ba23263f
+            part: body
+          zh:
+            page: zh
+            section: s-ab8d6dac4c
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bc4503caa4
+            part: title
+          zh:
+            page: zh
+            section: s-e00244f675
+            part: title
+        sourceIds:
+          - primary-pmc10351143-cwbx
+        text:
+          en:
+            page: en
+            section: s-bc4503caa4
+            part: body
+          zh:
+            page: zh
+            section: s-e00244f675
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amolops yunkaiensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/CWBX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 324, 325; Reference.csv rows 3788
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10351143-cwbx
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amolops yunkaiensis: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c27982ad4d
+        part: body
+      zh:
+        page: zh
+        section: s-a4fe677b15
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-3f1826053f14e90994b2563e
+        scientificName: Amolops yunkaiensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1186/s40851-023-00214-9
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        sourceKey: primary-pmc10351143-cwbx
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10351143/article.xml
+        sourceConcept: Exactnamed2023comparison/donorrow;authorcomparisonnotnewwhole-speciesmeasurementorconceptauthentication
+        evidenceRead: "Amolops yunkaiensis: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Characters in the dated group comparison
+              zh: 有年代群比较中的性状
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-cwbx
+            locator: PMC10351143 article.xml Sec20p11;Sec4p1 comparative-source scope;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-07867e674b
+                part: body
+              zh:
+                page: zh
+                section: s-937818a2f4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

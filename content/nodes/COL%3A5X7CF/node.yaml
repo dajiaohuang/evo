@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Callulina kreffti
+  displayName: Callulina kreffti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X7CF
+  sourceIndexes:
+    - name:
+        en: Callulina kreffti
+        zh: Callulina kreffti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X7CF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/107
+            queryName: Callulina kreffti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0e62013830
+      - s-775f489d27
+      - s-d7ab33aab1
+      - s-66d3d20c5c
+      - s-4eb3762cf9
+      - s-1f4fde532a
+      - s-2593dc9717
+      - s-d1ccd8dfeb
+      - s-d7a0f12756
+      - s-162b1cf266
+    zh:
+      - s-c03e3fa310
+      - s-367788cf4f
+      - s-eef0835d44
+      - s-8d53da1313
+      - s-c8af50cc19
+      - s-c636fb45cc
+      - s-5038d04a2a
+      - s-bfaa964bf1
+      - s-b3dd6e5f2b
+      - s-d951d1ff25

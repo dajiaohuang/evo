@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus auriculatoides
+  displayName: Eleutherodactylus auriculatoides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3992L
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus auriculatoides
+        zh: Eleutherodactylus auriculatoides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3992L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/160
+            queryName: Eleutherodactylus auriculatoides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/467
+            queryName: Eleutherodactylus auriculatus auriculatoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/468
+            queryName: Eleutherodactylus montanus auriculatoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4667f29a32
+      - s-9ca9cc4de7
+      - s-a934b0514b
+      - s-04ce2a0b1f
+      - s-c561cc9676
+      - s-0041f66134
+      - s-b257e9e2d0
+      - s-a5895b6934
+      - s-d8ed114567
+    zh:
+      - s-c11662c7eb
+      - s-8ab6b9a11d
+      - s-3d078edd0f
+      - s-d0b8e7b505
+      - s-798870a301
+      - s-d0c1c3f8d8
+      - s-86a29d7aa9
+      - s-24141772a4
+      - s-2aa505369a

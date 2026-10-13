@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates crombiei
+  displayName: Allobates crombiei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65X9N
+  sourceIndexes:
+    - name:
+        en: Allobates crombiei
+        zh: Allobates crombiei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65X9N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/133
+            queryName: Allobates crombiei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/77
+            queryName: Colostethus crombiei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7a0c5e2f4
+      - s-c2ed52572b
+      - s-87cef73edf
+      - s-0188ce2b6f
+      - s-865af6152c
+      - s-4c0795bfb4
+      - s-511663bef9
+      - s-0b004cacc7
+      - s-62ff30f1dd
+      - s-5e957896a6
+      - s-cb716c1e0a
+      - s-592cd17a59
+      - s-f166f79b8c
+      - s-0204e90faa
+      - s-06a2e8baf3
+      - s-c8b0eb3742
+      - s-33bc01533d
+      - s-42d765beba
+      - s-fc667b9e5e
+      - s-bf5c96dcf0
+      - s-99b2e36334
+      - s-c6e4e1f3f6
+      - s-b238f815ac
+      - s-f4c18b3dd9
+      - s-d09370668b
+      - s-67d29f503e
+      - s-d537d77d35
+      - s-545206e5de
+      - s-71b4082b37
+      - s-6e69b63aff
+    zh:
+      - s-b94f904e5b
+      - s-bbaf991ab3
+      - s-46edd393a9
+      - s-285730a184
+      - s-ba1a3e8943
+      - s-907dded820
+      - s-1230f95070
+      - s-e8ce103a88
+      - s-afa4e5c0cf
+      - s-9da12ee366
+      - s-6515250fdc
+      - s-16d10b5c27
+      - s-72927fb955
+      - s-58af2c978b
+      - s-d240b18983
+      - s-d3ed9ed1ac
+      - s-c77ef17cd6
+      - s-d0699219c7
+      - s-664b944123
+      - s-6d02b5d052
+      - s-181d4bb593
+      - s-6c3508b569
+      - s-b03dea96c3
+      - s-d4ef0d7b6f
+      - s-c6a059e852
+      - s-04bf9d6e67
+      - s-d4ebc4ed44
+      - s-c382620eb6
+      - s-5992bbecaf
+      - s-6474def01d

@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Neotoma (Paraneotoma) taylori
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Neotoma (Paraneotoma) taylori
+      en: Neotoma (Paraneotoma) taylori
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-94dd227a18
+            part: body
+          en:
+            page: en
+            section: s-59a4896e32
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2833240798
+            part: body
+          en:
+            page: en
+            section: s-1061504120
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1f73db566c
+            part: body
+          en:
+            page: en
+            section: s-2b930fa37b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f721284b38
+            part: body
+          en:
+            page: en
+            section: s-30aa633979
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4dd6c15ec0
+            part: body
+          en:
+            page: en
+            section: s-74666be0a9
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Neotoma (Paraneotoma) taylori
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=49139&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:49139; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:49139
+          selectedOccurrenceIds:
+            - occ:193317
+            - occ:193344
+            - occ:193347
+            - occ:193512
+            - occ:194268
+          selectedCollectionIds:
+            - col:19658
+            - col:19659
+            - col:19660
+            - col:19715
+            - col:19927
+          sourceReferenceIds:
+            - ref:6199
+            - ref:2725
+            - ref:1894
+          originalIdentificationMappings:
+            - occurrenceId: occ:193317
+              originalIdentifiedName: Neotoma taylori
+              acceptedName: Neotoma (Paraneotoma) taylori
+              difference: variant of
+            - occurrenceId: occ:193344
+              originalIdentifiedName: Neotoma taylori
+              acceptedName: Neotoma (Paraneotoma) taylori
+              difference: variant of
+            - occurrenceId: occ:193347
+              originalIdentifiedName: Neotoma taylori
+              acceptedName: Neotoma (Paraneotoma) taylori
+              difference: variant of
+            - occurrenceId: occ:194268
+              originalIdentifiedName: Neotoma taylori n. sp.
+              acceptedName: Neotoma (Paraneotoma) taylori
+              difference: variant of
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b931c5c432
+        part: body
+      en:
+        page: en
+        section: s-ed16dd3313
+        part: body

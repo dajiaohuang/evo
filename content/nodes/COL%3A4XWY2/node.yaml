@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Smilisca cyanosticta
+  displayName: Smilisca cyanosticta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4XWY2
+  sourceIndexes:
+    - name:
+        en: Smilisca cyanosticta
+        zh: Smilisca cyanosticta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4XWY2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/205
+            queryName: Smilisca cyanosticta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/250
+            queryName: Hyla cyanosticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/346
+            queryName: Hyla phaeota cyanosticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/347
+            queryName: Smilisca phaeota cyanosticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3857af745d
+      - s-0827302c94
+      - s-32306cbefe
+      - s-e7ef984f5e
+      - s-622689c8ab
+      - s-4ee3c9acc1
+      - s-bd11a3964b
+      - s-e658e0c8fb
+      - s-57b775c266
+      - s-9b81ef927e
+      - s-834ca8cf7c
+      - s-27c68aae04
+      - s-c5c9974408
+      - s-304adcda29
+      - s-bc5e821f44
+      - s-2f087f43b7
+      - s-51f6fa0b21
+    zh:
+      - s-20d6acb1f5
+      - s-cb73d305b7
+      - s-0d6b1c619f
+      - s-3764c77dd8
+      - s-a1781051cb
+      - s-81db0a6339
+      - s-18e42aa038
+      - s-383d199faa
+      - s-3d9733eefe
+      - s-29ecc6b98f
+      - s-96dc2b0589
+      - s-45df981070
+      - s-298de25ee3
+      - s-71461319b7
+      - s-4e5d8d8a3a
+      - s-4a0f9b8d42
+      - s-aeb81591af

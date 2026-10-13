@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hylobates abbotti Kloss, 1929
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Western Gray Gibbon
+      zh: 西部灰长臂猿
+    sections:
+      - topic: survey
+        text:
+          en:
+            page: en
+            section: s-f0ee9daf9c
+            part: body
+          zh:
+            page: zh
+            section: s-185ed7b828
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - ahmad2021
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hylobates abbotti Kloss, 1929
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NFRG
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级与分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-2fb9ffef-2cf4-8789-a2d2-57c7354e85b6
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common-name crosswalk used here; not evidence of occurrence, ecology or complete range.
+            zh: 支持本页采用的英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: ahmad2021
+        referenceId: ref-13e5d557-af61-8ebc-ab85-96ec00ff7df9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: PLEO density estimates from Gunung Niut Nature Reserve, West Kalimantan, based on April–May 2019 interviews and ten sample units covering 167 km²; Abbott’s gray gibbon was estimated at 1.70 individuals/km² (CV 0.16; 95% interval 1.13–2.26). This is local pooled opinion, not a direct species-wide census.
+            zh: 支持西加里曼丹 Gunung Niut 自然保护区 2019 年 4—5 月的 PLEO 汇集估算及十个合计覆盖 167 平方公里的样区；研究给出 Abbott 灰长臂猿每平方公里 1.70 只的估算（CV 0.16；95% 区间 1.13—2.26）。这是局地意见汇集结果，不是全物种直接普查。
+    limitations:
+      en:
+        page: en
+        section: s-3c0a3958a2
+        part: body
+      zh:
+        page: zh
+        section: s-eac479c9a1
+        part: body

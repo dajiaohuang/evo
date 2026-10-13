@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis lichenoides
+  displayName: Boophis lichenoides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHTR
+  sourceIndexes:
+    - name:
+        en: Boophis lichenoides
+        zh: Boophis lichenoides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHTR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/263
+            queryName: Boophis lichenoides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0725988bf3
+      - s-9e329ea03a
+      - s-98b95bb6ce
+      - s-ae49cb3d4c
+      - s-ff7295d080
+      - s-944cc4b244
+      - s-fb6d6c7676
+      - s-4c265c7500
+      - s-f8413d477f
+      - s-7c5db9bf7a
+    zh:
+      - s-0ae92e3086
+      - s-37b6a0d877
+      - s-8c3d301203
+      - s-2516485b2d
+      - s-0c2939b6ed
+      - s-dddbeacd02
+      - s-cd2b1f71fe
+      - s-7c2eb6b05a
+      - s-f5077a15e9
+      - s-a4c5526730

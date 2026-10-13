@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus nexipus
+  displayName: Hyloxalus nexipus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGXS
+  sourceIndexes:
+    - name:
+        en: Hyloxalus nexipus
+        zh: Hyloxalus nexipus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGXS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/118
+            queryName: Hyloxalus nexipus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/121
+            queryName: Colostethus nexipus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/207
+            queryName: Colostethus citreicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0540cc9b06
+      - s-61dc0d21fa
+      - s-3e0263d3b3
+      - s-d13dc29038
+      - s-49ccf7d1d8
+      - s-d1d635c207
+      - s-0895971a8b
+      - s-7d8b3759b5
+      - s-3494e1827b
+      - s-5da2f7b101
+      - s-4cad7ba3f0
+      - s-78313ae28b
+      - s-8081c46253
+      - s-c0f9b7a7e7
+      - s-c42e2e4b17
+      - s-01562004f0
+      - s-00bc088c2b
+    zh:
+      - s-3c9bbcd367
+      - s-abcb55b1cf
+      - s-1f03bb17af
+      - s-10b74edcb2
+      - s-36437e33c7
+      - s-b5b5b18a52
+      - s-eebd35e3c3
+      - s-50015507ae
+      - s-2c7e251bba
+      - s-aaa2eb164d
+      - s-35d88a9dbf
+      - s-992f0bb1f2
+      - s-92f1a08826
+      - s-d9ecaf77fe
+      - s-bd5dbede5a
+      - s-df2e1a7f97
+      - s-d480a2a55c

@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Hyla europaea
+    rank: species
+    sourceTaxonId: txn:135434
+    name:
+      en: Hyla europaea
+      zh: Hyla europaea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-a37b63f8d7
+            part: body
+          zh:
+            page: zh
+            section: s-43e53a3bc1
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-64a01ac649
+            part: body
+          zh:
+            page: zh
+            section: s-ec68c4dfa7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Hyla europaea
+          zh: Hyla europaea 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-de6adddcad
+            part: body
+          zh:
+            page: zh
+            section: s-bdd92cbeb4
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:135434; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: G. K. Noble. 1928. Two new fossil amphibia of zoögeographic importance from the Miocene of Europe. American Museum Novitates 303:1-13
+    occurrenceEvidence:
+      - occurrenceId: occ:785828
+        collectionId: col:84606
+        acceptedTaxonId: txn:135434
+        identifiedName: Hyla europaea n. sp.
+        taxonomicDifference: null
+        referenceId: ref:28416
+        bibliography: G. K. Noble. 1928. Two new fossil amphibia of zoögeographic importance from the Miocene of Europe. American Museum Novitates 303:1-13
+        locality:
+          countryCode: DE
+          stateProvince: North Rhine-Westfalia
+          county: Rhein-Sieg
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 27.3
+        youngerAgeMa: 23.04
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Hyla europaea
+          zh: Hyla europaea 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-de6adddcad
+            part: body
+          zh:
+            page: zh
+            section: s-bdd92cbeb4
+            part: body
+        sourceIds: []

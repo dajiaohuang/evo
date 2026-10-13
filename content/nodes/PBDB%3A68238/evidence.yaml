@@ -1,0 +1,230 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microraptor
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Microraptor
+      en: Microraptor
+    sections:
+      - topic: readingPath
+        sourceIds:
+          - gong2012MicroraptorHanqingi
+        text:
+          zh:
+            page: zh
+            section: s-b5c943af23
+            part: body
+          en:
+            page: en
+            section: s-52f6e6fb75
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - hwang2002MicroraptorZhaoianus
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-6c3d8729c2
+            part: body
+          en:
+            page: en
+            section: s-339fe0ba21
+            part: body
+      - topic: overview
+        sourceIds:
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-473e3066ed
+            part: body
+          en:
+            page: en
+            section: s-b6e98e9ef3
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-ba97c1a280
+            part: body
+          en:
+            page: en
+            section: s-e45649d2b7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - hwang2002MicroraptorZhaoianus
+          - gong2012MicroraptorHanqingi
+        text:
+          zh:
+            page: zh
+            section: s-e7ea111222
+            part: body
+          en:
+            page: en
+            section: s-41d2c025b1
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c8df70d17a
+            part: body
+          en:
+            page: en
+            section: s-e53835d2d6
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c2266a98a2
+            part: body
+          en:
+            page: en
+            section: s-076c85ce73
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Microraptor
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=68238
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:68238
+          readingTargets:
+            - name: Microraptor zhaoianus
+              pbdbTaxonId: txn:68239
+              canonicalPath: content/nodes/PBDB%3A68239
+            - name: Microraptor gui
+              pbdbTaxonId: txn:68246
+              canonicalPath: content/nodes/PBDB%3A68246
+            - name: Microraptor hanqingi
+              pbdbTaxonId: txn:245206
+              canonicalPath: content/nodes/PBDB%3A245206
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: dyke2013MicroraptorWindTunnel
+        referenceId: dyke-2013-microraptor-wind-tunnel
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Aerodynamic performance of the feathered dinosaur Microraptor and the evolution of feathered flight
+          url: https://doi.org/10.1038/ncomms3489
+          locator: "Complete nine-page primary article: Results, Discussion, Methods, Figures 1–8 captions; Figure 2 visually inspected; specimen/model distinction in Model making and Figure 5 caption."
+          accessedAt: 2026-10-03
+          scope:
+            zh: 基于化石复原模型的 2013 年风洞实验与轨迹计算；模型混合具名物种正模和属级标本，不是活体行为或全部种的共同性能。
+            en: 2013 wind-tunnel experiments and trajectory calculations on fossil-based reconstructions combining a named-species holotype and a genus-level specimen; not observed behavior or common performance of all species.
+      - id: hwang2002MicroraptorZhaoianus
+        referenceId: ref-5bb42319-57c5-4fbd-b5d7-dc457c3d47db
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: "New Specimens of Microraptor zhaoianus (Theropoda: Dromaeosauridae) from Northeastern China"
+          url: https://doi.org/10.1206%2F0003-0082(2002)381%3C0001%3ANSOMZT%3E2.0.CO%3B2
+          locator: "Complete main pp. 1–31: Introduction, Material, Description, Discussion, Phylogenetic Analysis, Conclusions; references pp. 32–33; Appendix 3. Figure 22 visually inspected. Image-only measurements and matrix appendices were not read row by row."
+          accessedAt: 2026-10-03
+          scope:
+            zh: 两件 CAGS 标本的 2002 年骨骼重描述与作者比较分析，不是原标本复量、羽毛专论或活体运动观察。
+            en: 2002 anatomical redescription of two CAGS specimens and the authors’ comparative analysis; not specimen remeasurement, a plumage monograph or observed locomotion.
+      - id: gong2012MicroraptorHanqingi
+        referenceId: ref-9bcd7263-8aaa-48da-8fbd-97576bee88e8
+        fields:
+          - id
+          - title
+          - doi
+          - authors
+          - publishedAt
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: A new species of Microraptor from the Jehol Biota of northeastern China
+          url: https://doi.org/10.1016/j.palwor.2012.05.003
+          accessedAt: 2026-10-03
+          locator: "Author-uploaded ResearchGate transcription: front matter; section 3 Materials and methods; section 4 Type paragraph. Selected passages only; complete anatomical account and images not read."
+          scope:
+            zh: 原始描述中已读取的正模保存与制备方法；不是完整论文、独立标本鉴定或种界裁决。
+            en: Selected original-description passages on holotype preservation and preparation; not a complete paper, independent identification or species-boundary decision.
+    limitations:
+      zh:
+        page: zh
+        section: s-fd263e11d1
+        part: body
+      en:
+        page: en
+        section: s-b93837d9fa
+        part: body

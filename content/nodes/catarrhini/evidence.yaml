@@ -1,0 +1,87 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-cfde3f550e
+          part: title
+        zh:
+          page: zh
+          section: s-e321256921
+          part: title
+      text:
+        en:
+          page: en
+          section: s-cfde3f550e
+          part: body
+        zh:
+          page: zh
+          section: s-e321256921
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-d1e15cbdee
+          part: title
+        zh:
+          page: zh
+          section: s-83f8d42fe0
+          part: title
+      text:
+        en:
+          page: en
+          section: s-d1e15cbdee
+          part: body
+        zh:
+          page: zh
+          section: s-83f8d42fe0
+          part: body
+  atlas-node:
+    name: Catarrhini
+    commonName: Catarrhines
+    commonNameZh: 狭鼻猴类
+    rank: parvorder
+    taxonId: ""
+    firstAppearance: 35.1
+    lastAppearance: 0
+    extinct: false
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:catarrhini
+      claimKind: scientific
+      claimType: topology
+      statement: Catarrhini is recovered as a supported higher-level branch in the 367-species living-primate supermatrix, but its internal topology and historical biogeography remain properties of that sequence sample and model, not direct fossil observations.
+      confidence: medium
+      confidenceRationale: The molecular matrix supports sampled relationships; the statement withholds fossil range and universal ancestral-area claims.
+      referenceLinks:
+        - relation: supports
+          referenceId: springer-2012-primate-supermatrix
+          pages: Article e49521
+          figure: Figures 1–3
+          quoteLocator: Catarrhini topology; ancestral-area analyses
+  claim-rationales.zh:
+    - 分子矩阵支持取样关系；表述不陈述化石范围或普适祖域。
+  claim-statements.zh:
+    - 狭鼻小目在覆盖 367 个物种的现生灵长类超级矩阵中被恢复为有支持的高阶分支，但其内部拓扑与历史生物地理仍是该序列样本和模型的属性，不是直接化石观测。
+  ranges:
+    - entityId: catarrhini
+      rangeKind: global-composite
+      taxonomicConcept: catarrhini — source-bounded sample window — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former navigation numbers are withdrawn because the living-primate supermatrix does not supply a range-fit fossil start. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: A source audit of Macroevolutionary Dynamics and Historical Biogeography of Primate Diversification Inferred from a Species Supermatrix found relationship or taxonomic evidence but no range-fit support for the former numerical display.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: springer-2012-primate-supermatrix
+          locator: Article e49521; Catarrhini topology; ancestral-area analyses
+      evidenceLevel: withheld-no-range-evidence

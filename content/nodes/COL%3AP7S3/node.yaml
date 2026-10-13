@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia antioquiaensis
+  displayName: Caecilia antioquiaensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7S3
+  sourceIndexes:
+    - name:
+        en: Caecilia antioquiaensis
+        zh: Caecilia antioquiaensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7S3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/54
+            queryName: Caecilia antioquiaensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01ca589c14
+      - s-3b1f07ea4f
+      - s-f5d258093b
+      - s-308bd99e62
+      - s-85a67eaff6
+      - s-d739f6e8ba
+      - s-7ab8a36a7b
+      - s-b1d3823b6e
+      - s-d8c7dce539
+      - s-0d20c2c8fb
+    zh:
+      - s-e39ea1c538
+      - s-98bc68d747
+      - s-d653a81231
+      - s-01bc86883d
+      - s-55166a20f7
+      - s-88e090821b
+      - s-6ec92165da
+      - s-853096720b
+      - s-a0a60fd2af
+      - s-87ec377ed4

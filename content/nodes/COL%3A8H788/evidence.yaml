@@ -1,0 +1,84 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chlorocebus dryas (Schwarz, 1932)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dryas Monkey
+      zh: 德赖斯猴
+    sections:
+      - topic: survey
+        text:
+          en:
+            page: en
+            section: s-a7f75e83ba
+            part: body
+          zh:
+            page: zh
+            section: s-f1eb29d58a
+            part: body
+        sourceIds:
+          - dryas2022
+      - topic: taxonomy
+        text:
+          en:
+            page: en
+            section: s-9b85bd1294
+            part: body
+          zh:
+            page: zh
+            section: s-03d62cdd11
+            part: body
+        sourceIds:
+          - dryas2022
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Chlorocebus dryas (Schwarz, 1932)
+            zh: 生命名录 COL26.8 — Chlorocebus dryas (Schwarz, 1932)
+          url: https://www.checklistbank.org/dataset/316115/taxon/8H788
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent identity; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和父链；不作为生物学证据。
+      - id: mdd_name
+        referenceId: ref-6f55f908-df54-860c-a0a7-ae5a56fca41f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common-name crosswalk only; not occurrence, ecology or a complete range.
+            zh: 仅支持英文普通名交叉表；不提供出现记录、生态或完整分布证据。
+      - id: dryas2022
+        referenceId: ref-e41d8bee-f9ea-8688-aca8-8629759d6289
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Local-knowledge surveys and 55 multi-stratum camera traps at Bafundo Forest and Camp Bartho in Lomami National Park and its buffer zone; the authors discuss historical C. salongo taxonomy.
+            zh: 在 Lomami 国家公园及缓冲区的 Bafundo 森林和 Camp Bartho，结合地方知识调查与 55 台多层相机陷阱；作者讨论历史名称 C. salongo 的分类问题。
+    limitations:
+      en:
+        page: en
+        section: s-52ffc2a257
+        part: body
+      zh:
+        page: zh
+        section: s-18bd1bb370
+        part: body

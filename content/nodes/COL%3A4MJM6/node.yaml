@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pulvinatus
+  displayName: Pristimantis pulvinatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJM6
+  sourceIndexes:
+    - name:
+        en: Pristimantis pulvinatus
+        zh: Pristimantis pulvinatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJM6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/24
+            queryName: Pristimantis pulvinatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/168
+            queryName: Eleutherodactylus pulvinatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-31a34418a0
+      - s-d0af3f26e6
+      - s-0194607810
+      - s-c23374f013
+      - s-968e407efb
+      - s-542fd7bc2c
+      - s-6849955ac1
+      - s-0068ff53b3
+      - s-fd9d52e4d6
+    zh:
+      - s-d517a63d97
+      - s-90c0746c2a
+      - s-5602c28a62
+      - s-bf25d9c0e6
+      - s-0598d3b54e
+      - s-ea030d6140
+      - s-f5eea34aea
+      - s-558b805a6b
+      - s-1ac0bb51bb

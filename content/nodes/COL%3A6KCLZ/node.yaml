@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis tschenki
+  displayName: Gephyromantis tschenki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KCLZ
+  sourceIndexes:
+    - name:
+        en: Gephyromantis tschenki
+        zh: Gephyromantis tschenki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KCLZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/164
+            queryName: Gephyromantis tschenki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/213
+            queryName: Mantidactylus tschenki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f637bcec7
+      - s-0862a9b6cb
+      - s-67da36fcfd
+      - s-74099d6353
+      - s-2e5e4b048a
+      - s-fd31665287
+      - s-8fc11f32c0
+      - s-71b208f1d1
+    zh:
+      - s-bb2469fdb7
+      - s-294a6864ab
+      - s-acf6b5962d
+      - s-475fa67886
+      - s-cb18fd745d
+      - s-def9c43bc6
+      - s-73925b1933
+      - s-5865de88b8

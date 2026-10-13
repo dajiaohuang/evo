@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis mantiqueira
+  displayName: Chiasmocleis mantiqueira
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ2D
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis mantiqueira
+        zh: Chiasmocleis mantiqueira
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ2D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/255
+            queryName: Chiasmocleis mantiqueira
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b8a18c1e8f
+      - s-664e739113
+      - s-4f24f233dc
+      - s-de23500936
+      - s-6f588121dd
+      - s-344de8e948
+      - s-18121e4d1f
+      - s-9e6f80af64
+      - s-1e3aef38f8
+      - s-c21b111798
+      - s-707443c2f3
+      - s-3980c66f78
+      - s-2a2d596daa
+      - s-0257ea9fe6
+      - s-e4ca0bad1b
+    zh:
+      - s-7a3227e4de
+      - s-1a90dbf990
+      - s-cdb27398db
+      - s-27a76115a3
+      - s-29f2b5ffbf
+      - s-5e05151505
+      - s-c5cc489ee5
+      - s-3841e8b004
+      - s-d39e70a941
+      - s-d4224d28ee
+      - s-86713a2e1c
+      - s-09e22df96e
+      - s-ecfb9e8797
+      - s-063e6104a8
+      - s-93facf1081

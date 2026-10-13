@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea inconspicua Goldblatt
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 44C6Y, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000784784.
+      scope: Moraea as represented by COL26.8 usage 44C6Y. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/44C6Y
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 44C6Y
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784784-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 44C6Y / WFO wfo-0000784784
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-20d0ec4d-c325-85a0-a01a-cecb4d7f1682
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 6929 (Morphology), 29406 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 95243 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 20-45 cm, stems sticky. Leaves 2 or 3, linear, channelled and trailing or loosely coiled. Flowers tiny, yellow to brown or cream-coloured, tepal limbs often strongly reflexed.
+            textZh: Moraea inconspicua Goldblatt 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Morphology row 6929, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: With the smallest flowers in subg. Visciramosae, Moraea inconspicua is distinguished by its flowers with fully reflexed tepals, the outer mostly 12-18 mm long (rarely up to 25 mm), the limb at least twice as long as the claw. In addition the rhipidial spathes are short, usually less than 28 mm long and sometimes only 18 mm. Flower colour is variable, mostly yellow or partly to completely brown, but white-flowered morphs occur in the Biedouw Valley near Clanwilliam and on the Agulhas Plain near Elim, the latter with the smallest flowers recorded in the species. In Namaqualand flowers are sometimes ivory-coloured or pink, but also yellow or brown as elsewhere. The foliage leaves are usually straight and erect below but often trailing distally, and have channelled blades, but plants from Namaqualand have distinctive spirally coiled leaves with a plane surface and on this basis have been segregated as subsp. namaquensis. Populations from the northern Cederberg and Biedouw Valley have unusually large flowers for the species, the outer tepals up to 25 mm long, thus matching those of closely allied M. bituminosa. The narrow leaves, short style crests and almost fully reflexed tepal limbs conform to M. inconspicua. Superficially similar Moraea viscaria, is a white-flowered species with spreading tepals 15-23 mm long, a strong floral odour, and relatively well-developed style crests up to 6 mm long, half as long to ± as long as the style branches. Moraea saldanhensis may also be confused with M. inconspicua but has slate-blue flowers with the tepal claws as long as to slightly longer than the limbs, the latter usually reflexed to ± 45º.
+            textZh: SANBI 条目提供了 Moraea inconspicua Goldblatt 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 95243, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandy and clay slopes.
+            textZh: SANBI 区域植物志将 Moraea inconspicua Goldblatt 的生境记为：Sandy and clay slopes.
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Habitat row 29406, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

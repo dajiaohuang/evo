@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Didymictis
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Didymictis
+      en: Didymictis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3b211dcec4
+            part: body
+          en:
+            page: en
+            section: s-12e5bd7683
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d9b87426fd
+            part: body
+          en:
+            page: en
+            section: s-008434f4fe
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Didymictis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=40973
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:40973
+          readingTargets:
+            - name: Didymictis proteus
+              pbdbTaxonId: txn:45734
+              canonicalPath: content/nodes/PBDB%3A45734
+            - name: Didymictis protenus
+              pbdbTaxonId: txn:47676
+              canonicalPath: content/nodes/PBDB%3A47676
+            - name: Didymictis altidens
+              pbdbTaxonId: txn:45724
+              canonicalPath: content/nodes/PBDB%3A45724
+            - name: Didymictis dellensis
+              pbdbTaxonId: txn:45727
+              canonicalPath: content/nodes/PBDB%3A45727
+            - name: Didymictis vancleveae
+              pbdbTaxonId: txn:45736
+              canonicalPath: content/nodes/PBDB%3A45736
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-744f7d0674
+        part: body
+      en:
+        page: en
+        section: s-477177e933
+        part: body

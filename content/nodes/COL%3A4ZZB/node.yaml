@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylambates
+  displayName: Hylambates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZZB
+  sourceIndexes:
+    - name:
+        en: Hylambates
+        zh: Hylambates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZZB
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/440
+            queryName: Hylambates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d0038c304c
+      - s-f248cf0f67
+      - s-cfd6c6171f
+      - s-3f782167a0
+      - s-f1a23647e9
+      - s-2e467838c7
+      - s-cd983d5454
+      - s-bc9c8c18e0
+      - s-0849712bac
+      - s-0934b530f4
+      - s-838f08200e
+      - s-24dc425e39
+      - s-47127b6345
+      - s-e96bc28fd4
+      - s-32b0c13a75
+      - s-63fb423bfa
+      - s-bf2d13ecec
+      - s-e7692d57af
+      - s-7c35766e64
+      - s-cc494071f3
+      - s-d252046a91
+      - s-0856ce8b3a
+      - s-4a65e79887
+      - s-ab5814c8a2
+      - s-fc1489fa74
+      - s-10d78c7a54
+      - s-a1922a47d4
+    zh:
+      - s-61e36ab108
+      - s-b273951556
+      - s-f8eaf7e567
+      - s-b91cf41253
+      - s-121bf863f8
+      - s-717dcd07c0
+      - s-2faca6f09c
+      - s-d6a2d07eac
+      - s-395c5653c9
+      - s-e48a442271
+      - s-16379eac27
+      - s-1108729b35
+      - s-39db668e36
+      - s-ae0c86b19b
+      - s-d6c2023252
+      - s-108a4e8451
+      - s-45e7f8291c
+      - s-8eb62338af
+      - s-4cbd608be9
+      - s-f1e0858609
+      - s-dd91911146
+      - s-0c25965c83
+      - s-529bf067f6
+      - s-c6c4bc9699
+      - s-3fb319c615
+      - s-6e7b156bf5
+      - s-ade57c313d

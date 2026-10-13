@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Isthmohyla tica
+  displayName: Isthmohyla tica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QD84
+  sourceIndexes:
+    - name:
+        en: Isthmohyla tica
+        zh: Isthmohyla tica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QD84
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/61
+            queryName: Isthmohyla tica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/482
+            queryName: Hyla tica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-24a5b5cb52
+      - s-173484c196
+      - s-76dd49a111
+      - s-cf9baca631
+      - s-1d4245e20e
+      - s-c54be2c103
+      - s-9bb1c26f50
+      - s-d004421110
+      - s-9410c1c76e
+    zh:
+      - s-92605c934f
+      - s-7b16a645ba
+      - s-88541b7ee6
+      - s-bfa9f81d80
+      - s-4a442a311c
+      - s-5dcdedbf9e
+      - s-787961068c
+      - s-d879930f07
+      - s-6e677edb17

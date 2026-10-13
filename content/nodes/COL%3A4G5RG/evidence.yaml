@@ -1,0 +1,306 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Philemon albitorques
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Philemon albitorques
+      en: Philemon albitorques
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-556e9f9fac
+            part: body
+          en:
+            page: en
+            section: s-0eb495fe8e
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-7f1cd4bc85
+            part: body
+          en:
+            page: en
+            section: s-d6fd4b6ed6
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d4080eeb28
+            part: body
+          en:
+            page: en
+            section: s-230b9bbc77
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-95d534e66b
+            part: body
+          en:
+            page: en
+            section: s-62674878af
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-9da315099b
+            part: body
+          en:
+            page: en
+            section: s-fe8a7e57a2
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-62bd12d5a5
+            part: body
+          en:
+            page: en
+            section: s-8f75543239
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-6b5ef39a0e
+            part: body
+          en:
+            page: en
+            section: s-9dc908af9b
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-525cefe465
+            part: body
+          en:
+            page: en
+            section: s-f577eb3d6e
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-b8ae189718
+            part: body
+          en:
+            page: en
+            section: s-857f40feae
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-60a2d29549
+            part: body
+          en:
+            page: en
+            section: s-613681461d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Philemon albitorques
+          url: https://www.checklistbank.org/dataset/316115/taxon/4G5RG
+          locator: Pinned accepted name, class, family and ancestry; historical concept equivalence not established.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 5204; Scientific=Philemon albitorques; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_13
+                  verbatim: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              certainty: A
+            foraging:
+              fields:
+                - ForStrat-watbelowsurf
+                - ForStrat-wataroundsurf
+                - ForStrat-ground
+                - ForStrat-understory
+                - ForStrat-midhigh
+                - ForStrat-canopy
+                - ForStrat-aerial
+              references:
+                - id: Ref_45
+                  verbatim: "Coates, B. J. and W. S. Peckover. 2001. Birds of New Guinea and the Bismarck Archipelago: A photographic guide. Dove Publications."
+              speciesLevel: "1"
+          withheldFieldGroups: []
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - sourceVersion
+          - sourceWorksheet
+          - sourceFileSha256
+          - sourceRecordName
+          - eBirdCrosswalk
+          - birdTreeCrosswalk
+          - interpretedEcologicalFields
+          - uninterpretedEcologicalFields
+          - withheldBiometricFields
+          - originalInference
+          - originalMassSource
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: Species1=Philemon albitorques; Metadata sheet ecological category and breeding/resident latitude definitions."
+          sourceVersion: Figshare AVONET version 7; file 34480856
+          sourceWorksheet: AVONET1_BirdLife
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceRecordName: Philemon albitorques
+          eBirdCrosswalk:
+            Species1: Philemon albitorques
+            Species2: Philemon albitorques
+            Match.type: 1BL to 1eBird
+            Match.notes: null
+            Avibase.ID1: AVIBASE-DAD1050F
+            Avibase.ID2: AVIBASE-DAD1050F
+            "null": null
+          birdTreeCrosswalk:
+            Species1: Philemon albitorques
+            Species3: Philemon albitorques
+            Match.type: 1BL to 1BT
+            Match.notes: null
+          interpretedEcologicalFields:
+            - Habitat
+            - Trophic.Niche
+            - Primary.Lifestyle
+            - Migration
+          uninterpretedEcologicalFields: []
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          originalInference: NO
+          originalMassSource: EltonTraits_GenAvg
+          accessedAt: 2026-10-03
+          licenseAssessment: CC-BY-4.0-archive-attributed-factual-summary
+          scope:
+            zh: 有限历史生态类别与地图摘要；不解读形态或体重，底层物种文献未逐条读取，名称不证明概念等同。
+            en: Limited historical ecology categories and map summaries; no morphology or mass interpretation, underlying species literature not individually read, matching names do not prove equivalent concepts.
+    limitations:
+      zh:
+        page: zh
+        section: s-5bb62efba6
+        part: body
+      en:
+        page: en
+        section: s-dad041b6af
+        part: body

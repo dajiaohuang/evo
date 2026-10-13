@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-2b9188fc1e}
+The version 3 Amphibian database lists Ansonia minuta in a source measurement table. Its classification fields read order = Anura, family = Bufonidae, genus = Ansonia; the linked citation is in Reference.csv row 2534. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-e43536fe2f}
+Anura.csv rows 420, 421 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 420 (F) = 26.55864, row 421 (M) = 23.81305; HL: row 420 (F) = 7.67486, row 421 (M) = 7.38855; HW: row 420 (F) = 7.94551, row 421 (M) = 7.3715; other populated codes are ED, TD, ETD, IOD, IND, UEW, EN, SL, NS, HAL, FL, TL, … (13 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

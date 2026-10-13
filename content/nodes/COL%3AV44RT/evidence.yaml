@@ -1,0 +1,284 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys daxuemontis Liu, Li, Cheng, Wei, Wang & Cheng, 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys daxuemontis
+      zh: Boulenophrys daxuemontis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ef04ae81df
+            part: title
+          zh:
+            page: zh
+            section: s-77a83d04b6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ef04ae81df
+            part: body
+          zh:
+            page: zh
+            section: s-77a83d04b6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ba5de34210
+            part: title
+          zh:
+            page: zh
+            section: s-f0a470b653
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ba5de34210
+            part: body
+          zh:
+            page: zh
+            section: s-f0a470b653
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-30ad6b96ab
+            part: title
+          zh:
+            page: zh
+            section: s-4e5aaf5c51
+            part: title
+        sourceIds:
+          - primary-pmc12246799-v44rt
+        text:
+          en:
+            page: en
+            section: s-30ad6b96ab
+            part: body
+          zh:
+            page: zh
+            section: s-4e5aaf5c51
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4a9783e3be
+            part: title
+          zh:
+            page: zh
+            section: s-37170d66a2
+            part: title
+        sourceIds:
+          - primary-pmc12246799-v44rt
+        text:
+          en:
+            page: en
+            section: s-4a9783e3be
+            part: body
+          zh:
+            page: zh
+            section: s-37170d66a2
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6dcd63d1e9
+            part: title
+          zh:
+            page: zh
+            section: s-cf27e1eff6
+            part: title
+        sourceIds:
+          - primary-pmc12466624-v44rt
+        text:
+          en:
+            page: en
+            section: s-6dcd63d1e9
+            part: body
+          zh:
+            page: zh
+            section: s-cf27e1eff6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys daxuemontis
+          url: https://www.checklistbank.org/dataset/316115/taxon/V44RT
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12246799-v44rt
+        referenceId: ref-e42f3778-003f-4d77-a7c1-5808e49f34fb
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Boulenophrys daxuemontis distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-v44rt
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys daxuemontis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-52c881aeb8
+        part: body
+      zh:
+        page: zh
+        section: s-a6f7754bea
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.13.e153987
+        referenceId: ref-e42f3778-003f-4d77-a7c1-5808e49f34fb
+        sourceKey: primary-pmc12246799-v44rt
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12246799/article.xml
+        sourceConcept: Boulenophrys daxuemontis
+        evidenceRead: Boulenophrys daxuemontis distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Daxue Mountain survey records
+              zh: 大雪山调查记录
+            referenceId: ref-e42f3778-003f-4d77-a7c1-5808e49f34fb
+            sourceKey: primary-pmc12246799-v44rt
+            locator: Boulenophrys daxuemontis distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aafc4aac68
+                part: body
+              zh:
+                page: zh
+                section: s-69c8df87c1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Rainy-night stream observations
+              zh: 雨夜溪流观察
+            referenceId: ref-e42f3778-003f-4d77-a7c1-5808e49f34fb
+            sourceKey: primary-pmc12246799-v44rt
+            locator: Boulenophrys daxuemontis distribution, ecology and natural-history account; no figures or deposited datasets reproduced
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cbed507454
+                part: body
+              zh:
+                page: zh
+                section: s-2c43c4a958
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-v44rt
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys daxuemontis
+        evidenceRead: "Boulenophrys daxuemontis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-v44rt
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,37
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9a3255d60d
+                part: body
+              zh:
+                page: zh
+                section: s-1c00d5fa88
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

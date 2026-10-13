@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella baroni
+  displayName: Mantella baroni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7B
+  sourceIndexes:
+    - name:
+        en: Mantella baroni
+        zh: Mantella baroni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/285
+            queryName: Mantella baroni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/233
+            queryName: Phrynomantis maculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-112363a442
+      - s-1802d2d4b8
+      - s-d45c5b43ed
+      - s-b45451683f
+      - s-8df81b13c0
+      - s-d24e69cdfb
+      - s-4a15574c28
+      - s-69cb864061
+      - s-cf17341782
+      - s-2c6c3026ce
+      - s-9d092f9409
+      - s-bfb6cbc16f
+      - s-75b4df4373
+    zh:
+      - s-0f154d9cb5
+      - s-19e07a6c8e
+      - s-1c0d7c4fd9
+      - s-5b92bb9d24
+      - s-ed747c4ffa
+      - s-9c37bd5ae4
+      - s-5df11bf03e
+      - s-79fed73a8f
+      - s-e566efff7e
+      - s-507f3b1b50
+      - s-1b03508d58
+      - s-f2bc9f0eb9
+      - s-19addfbc99

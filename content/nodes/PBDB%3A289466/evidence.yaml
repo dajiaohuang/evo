@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kaikaifilusaurus minimus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Kaikaifilusaurus minimus
+      en: Kaikaifilusaurus minimus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbRhynchocephaliaTaxonomy20261002
+          - pbdbRhynchocephaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f3e1a3c636
+            part: body
+          en:
+            page: en
+            section: s-08deeb8235
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbRhynchocephaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d02a52af0f
+            part: body
+          en:
+            page: en
+            section: s-7f76e78fda
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbRhynchocephaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9a63efc04f
+            part: body
+          en:
+            page: en
+            section: s-46323be86b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbRhynchocephaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d261e896ef
+            part: body
+          en:
+            page: en
+            section: s-5a341a5813
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbRhynchocephaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0d20100f2d
+            part: body
+          en:
+            page: en
+            section: s-f28e794f13
+            part: body
+    sources:
+      - id: pbdbRhynchocephaliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Kaikaifilusaurus minimus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=289466&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbRhynchocephaliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:289466; original response record indices retained in data/sources/rhynchocephalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:289466
+          selectedOccurrenceIds:
+            - occ:1195865
+            - occ:1195866
+          selectedCollectionIds:
+            - col:154711
+            - col:154712
+          sourceReferenceIds:
+            - ref:50309
+          originalIdentificationMappings:
+            - occurrenceId: occ:1195865
+              originalIdentifiedName: Priosphenodon minimus n. sp.
+              acceptedName: Kaikaifilusaurus minimus
+              difference: recombined as
+            - occurrenceId: occ:1195866
+              originalIdentifiedName: Priosphenodon minimus
+              acceptedName: Kaikaifilusaurus minimus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e91899fc72
+        part: body
+      en:
+        page: en
+        section: s-1b0eabb58f
+        part: body

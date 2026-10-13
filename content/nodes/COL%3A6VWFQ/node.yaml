@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis hamiotae
+  displayName: Pristimantis hamiotae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VWFQ
+  sourceIndexes:
+    - name:
+        en: Pristimantis hamiotae
+        zh: Pristimantis hamiotae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VWFQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/303
+            queryName: Pristimantis hamiotae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/372
+            queryName: Eleutherodactylus hamiotae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e8bc4f60c
+      - s-eb41b574f4
+      - s-7588e2b7e2
+      - s-8532943750
+      - s-718a7e5572
+      - s-5e47e029af
+      - s-1cd4382e29
+      - s-54ae6e7a3b
+    zh:
+      - s-3d8f230d25
+      - s-a441deebe8
+      - s-570592ebe6
+      - s-4643db3e58
+      - s-78df2f49d7
+      - s-c310231559
+      - s-fc1a6b09c9
+      - s-9d9b821ae5

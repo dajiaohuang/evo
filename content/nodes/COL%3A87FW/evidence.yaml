@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Walkerana Dahanukar, Modak, Krutha, Nameer, Padhye & Molur, 2016
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Walkerana
+      zh: Walkerana
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6c464ee394
+            part: title
+          zh:
+            page: zh
+            section: s-5109864d8f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6c464ee394
+            part: body
+          zh:
+            page: zh
+            section: s-5109864d8f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-eb9863b6cd
+            part: title
+          zh:
+            page: zh
+            section: s-b2e4d567ce
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eb9863b6cd
+            part: body
+          zh:
+            page: zh
+            section: s-b2e4d567ce
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-78548fa6e5
+            part: title
+          zh:
+            page: zh
+            section: s-1c43f12073
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5BTY2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5BTY2
+            label:
+              en: Walkerana diplosticta
+              zh: Walkerana diplosticta
+          - kind: catalogue
+            colId: 5BTY5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5BTY5
+            label:
+              en: Walkerana leptodactyla
+              zh: Walkerana leptodactyla
+          - kind: catalogue
+            colId: V58Y3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV58Y3
+            label:
+              en: Walkerana muduga
+              zh: Walkerana muduga
+          - kind: catalogue
+            colId: 5BTY9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5BTY9
+            label:
+              en: Walkerana phrynoderma
+              zh: Walkerana phrynoderma
+        text:
+          en:
+            page: en
+            section: s-78548fa6e5
+            part: body
+          zh:
+            page: zh
+            section: s-1c43f12073
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Walkerana
+          url: https://www.checklistbank.org/dataset/316115/taxon/87FW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-182c71b4de
+        part: body
+      zh:
+        page: zh
+        section: s-a577360e53
+        part: body

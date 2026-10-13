@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax schmidti
+  displayName: Oreolalax schmidti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/754K5
+  sourceIndexes:
+    - name:
+        en: Oreolalax schmidti
+        zh: Oreolalax schmidti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 754K5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/228
+            queryName: Oreolalax schmidti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/84
+            queryName: Scutiger schmidti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0889c4235b
+      - s-bcf80df94f
+      - s-b6e7592015
+      - s-6a8eeb6610
+      - s-f1b1f985da
+      - s-c30ab8a18d
+      - s-e56c222eab
+      - s-f724864c27
+      - s-95bd556ca6
+      - s-4e441576e8
+      - s-7508b60d5c
+    zh:
+      - s-969d6acccd
+      - s-bd93ca77f3
+      - s-e24b9597f8
+      - s-cd9f65afb6
+      - s-90cd666fe2
+      - s-8d244da224
+      - s-22771ce70d
+      - s-2ac97cdf03
+      - s-97ca2bf2b7
+      - s-a43161115c
+      - s-a82c0aa40f

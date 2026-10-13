@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-99d7efd330}
+The version 3 Amphibian database lists Gastrotheca galeata in a source measurement table. Its classification fields read order = Anura, family = Hemiphractidae, genus = Gastrotheca; the linked citation is in Reference.csv row 3680. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-ebb1a48fcf}
+Anura.csv rows 1896, 1897 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1896 (M) = 43.7, row 1897 (F) = 52; HL: row 1896 (M) = 14.6832, row 1897 (F) = 16.588; HW: row 1896 (M) = 15.3387, row 1897 (F) = 17.16; other populated codes are IOD, UEW, FL, TL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

@@ -1,0 +1,463 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lithobates psilonota (Webb, 2001)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Lithobates psilonota
+      zh: Lithobates psilonota
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9bb8eb2be1
+            part: title
+          zh:
+            page: zh
+            section: s-3526377e1a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9bb8eb2be1
+            part: body
+          zh:
+            page: zh
+            section: s-3526377e1a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5a422dd527
+            part: title
+          zh:
+            page: zh
+            section: s-d1caad1426
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5a422dd527
+            part: body
+          zh:
+            page: zh
+            section: s-d1caad1426
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e18d60a77c
+            part: title
+          zh:
+            page: zh
+            section: s-828b4ba9c2
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-e18d60a77c
+            part: body
+          zh:
+            page: zh
+            section: s-828b4ba9c2
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-a7f6b24296
+            part: title
+          zh:
+            page: zh
+            section: s-9a60deca6b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-a7f6b24296
+            part: body
+          zh:
+            page: zh
+            section: s-9a60deca6b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ba66400a4c
+            part: title
+          zh:
+            page: zh
+            section: s-437d8ef783
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-ba66400a4c
+            part: body
+          zh:
+            page: zh
+            section: s-437d8ef783
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-c0d3a2ce31ddfc82c8665fe662ea21bc
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-8d930f5384
+            part: title
+          zh:
+            page: zh
+            section: s-b2bea1fd58
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhqq
+        text:
+          en:
+            page: en
+            section: s-8d930f5384
+            part: body
+          zh:
+            page: zh
+            section: s-b2bea1fd58
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-b844f72560
+            part: title
+          zh:
+            page: zh
+            section: s-42af82443d
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhqq
+        text:
+          en:
+            page: en
+            section: s-b844f72560
+            part: body
+          zh:
+            page: zh
+            section: s-42af82443d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-868c91bb6b
+            part: title
+          zh:
+            page: zh
+            section: s-c63adc3c42
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhqq
+        text:
+          en:
+            page: en
+            section: s-868c91bb6b
+            part: body
+          zh:
+            page: zh
+            section: s-c63adc3c42
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-39a8070a5e
+            part: title
+          zh:
+            page: zh
+            section: s-7c149281fb
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhqq
+          - primary-pmc12070909-3vhqq-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-39a8070a5e
+            part: body
+          zh:
+            page: zh
+            section: s-7c149281fb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Lithobates psilonota
+          url: https://www.checklistbank.org/dataset/316115/taxon/3VHQQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4890; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4893 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12070909-3vhqq
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Lithobates psilonota: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12070909-3vhqq-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 dataset316115 usage6X2WK exact sourceName Rana psilonota accepted3VHQQ; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json
+          scope:
+            en: Recorded catalogue accepted-link only; source specimen identity and biological concept equivalence remain uncertified.
+            zh: 仅所记目录接受名链接；来源标本身份及生物学概念等同性仍未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc12070909-3vhqq-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-36b453a71a
+        part: body
+      zh:
+        page: zh
+        section: s-a69acba6e1
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-c0d3a2ce31ddfc82c8665fe662ea21bc
+      sourceRowId: Anf4890
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4890
+        bibliographyRowId: Anf4893
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Lithobates palmipes
+        candidateBibliographyRowIds:
+          - Anf4893
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-pmc12070909-3vhqq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 source-labelled Rana psilonota Webb, 2001; explicit COL26.8 nomenclatural bridge, not independently certified biological equivalence
+        evidenceRead: "Lithobates psilonota: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A source-listed native regional occurrence
+              zh: 来源名册列出的区域原生出现
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhqq
+            locator: PMC12070909 XML Table1 body row 57 Rana psilonota Webb, 2001; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-547afcaf7d
+                part: body
+              zh:
+                page: zh
+                section: s-c8234cbfa1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: Distribution categories are dated checklist assignments
+              zh: 分布类别是有日期的名册分配
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhqq
+            locator: PMC12070909 XML Table1 row 57 Global/Total columns and caption; Methods2.1; Results3.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-46f2c8985c
+                part: body
+              zh:
+                page: zh
+                section: s-d969fc92ed
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Three conservation systems retain distinct dates and meanings
+              zh: 三套保育体系保留不同日期与含义
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhqq
+            locator: PMC12070909 XML Table1 row 57 IUCN/EVS/Mx columns and caption; Methods2.2; Results3.4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-78f883ca54
+                part: body
+              zh:
+                page: zh
+                section: s-9be9cde743
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: The source combination has an explicit pinned catalogue link
+              zh: 来源组合具有明确固定目录链接
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhqq
+            locator: PMC12070909 XML Table1 row 57; COL26.8 dataset316115 usage6X2WK accepted3VHQQ; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json sourceName Rana psilonota
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8b24a8b17b
+                part: body
+              zh:
+                page: zh
+                section: s-5f1c9d7b4f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

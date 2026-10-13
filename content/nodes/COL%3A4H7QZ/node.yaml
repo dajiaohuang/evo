@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllomedusa chaparroi
+  displayName: Phyllomedusa chaparroi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7QZ
+  sourceIndexes:
+    - name:
+        en: Phyllomedusa chaparroi
+        zh: Phyllomedusa chaparroi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7QZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/272
+            queryName: Phyllomedusa chaparroi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4a115d808d
+      - s-9e228ed28e
+      - s-957cacb4ab
+      - s-8890b8158f
+      - s-d9e8d401c7
+    zh:
+      - s-f21a348a3a
+      - s-391bf60819
+      - s-5e4ebc7848
+      - s-8ce7458ec6
+      - s-f1836be475

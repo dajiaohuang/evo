@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-39f917b600}
+The version 3 Amphibian database lists Indirana duboisi in a source measurement table. Its classification fields read order = Anura, family = Ranixalidae, genus = Indirana; the linked citation is in Reference.csv row 543. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-8aeb16abfb}
+Anura.csv rows 2364, 2365 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include HL: row 2364 (M) = 9.5, row 2365 (F) = 11.95; HW: row 2364 (M) = 8.3, row 2365 (F) = 10.25; ED: row 2364 (M) = 3.2, row 2365 (F) = 3.5; other populated codes are TD, IOD, IND, UEW, EN, SL, NS, HAL, FLL, FL, TFL, TL, … (27 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

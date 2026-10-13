@@ -1,0 +1,54 @@
+## Accepted name and placement {#s-b676acc7e6}
+COL26.8 accepts Bufotes viridis (Laurenti, 1768) as a species. Its recorded classification places it along Anura (order) → Bufonidae (family) → Bufotes (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-59ec7642f7}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-c091631436}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [Amphibian morphology v3: Bufotes viridis](../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Bufonidae/Bufotes/Bufotes_viridis/page.en.md)
+- [AmphiTherm curated snapshot: Bufotes viridis](../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Bufonidae/Bufotes/Bufotes_viridis/page.en.md)
+- [AmphiBIO v1: Pseudepidalea balearica](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Bufonidae/Pseudepidalea/Pseudepidalea_balearica/page.en.md)
+- [AmphiBIO v1: Pseudepidalea variabilis](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Bufonidae/Pseudepidalea/Pseudepidalea_variabilis/page.en.md)
+- [AmphiBIO v1: Pseudepidalea viridis](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Bufonidae/Pseudepidalea/Pseudepidalea_viridis/page.en.md)
+
+## Sex-specific measurement material — Amphibian morphology source {#s-1e4c0cc4f8}
+Deposited source concept: Bufotes viridis, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 1 rows and 14 populated trait columns for this source concept. Recorded sex codes are NA: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
+
+## Selected critical upper thermal limit estimate — AmphiTherm source {#s-8ca0d6c18e}
+Deposited source concept: Bufotes viridis, in AmphiTherm. Matching names provide a reading lead; equivalence with this current species concept remains unverified. Source row 1738 (ID 1923, Gouveia_et_al_2014) reports 40 °C for larvae, metric CTmax, onset of spasms. Recorded acclimation temperature: 20 °C. Recorded heating/cooling rate: 1 °C/min. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is water; sex category unknown; animal origin wild. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review.
+
+## A reference assembly in a comparative genome study {#s-94ca00d689}
+The study published online in December2025 and in the 2026 volume lists Bufotes viridis assembly GCA_037952925.1, with an assembled genome-size summary of 3.8 Gbp and contig N50 1,872.4 Kbp. These describe this listed assembly and its continuity, rather than a direct measurement of DNA per cell, a universally fixed species genome size or a demonstrated ploidy. The source selected NCBI reference assemblies on 29October2024. Original sequence data, assembly quality and specimen identity have not been independently reassessed here.
+
+## Assembly metadata has limits {#s-26254e4ffd}
+Table1 marks short-read sequencing, long-read sequencing for this entry. An unmarked cell is not proof that a technology was never used. The BUSCO caption names compleasm0.2.7 and tetrapoda_odb12, but its five-value score vector is not supplied with component labels in the inspected table. Those percentages are retained in evidence without choosing an assumed completeness category. The study removed three assemblies whose contig N50 was below1kb, retaining61; passing that continuity filter alone does not certify completeness, repeat recovery or a species-level biological measurement.
+
+## Repeat annotations are computational observations {#s-522c102948}
+The authors built species-specific repeat libraries with RepeatModeler2, classified unknown elements with RFSB and supplemented the libraries with vertebrate repeats before applying RepeatMasker. Its hits are termed insertions in the paper, but a hit is not independently demonstrated to be a complete, expressed or mobile element. Superfamily labels can aggregate distinct families. Element counts, total occupied length and genome proportions are separate quantities; overlapping hierarchy categories cannot safely be added as independent fractions. No new repeat annotation or expression experiment for Bufotes viridis was performed here.
+
+## Across-species correlations do not prove this species mechanism {#s-36ecb51563}
+The study compared61 assemblies using phylogenetically adjusted models, an earlier pruned tree, contig-N50 covariates and multiple-comparison correction. Recently active Ty3/DIRS1-associated sequences correlate with genome size across that sample, but recent activity is a divergence-based proxy, not direct observation of current transposition in this species. Length and open-reading-frame similarity filters likewise do not demonstrate active protein expression. The authors' suggested developmental constraints are comparative hypotheses; they do not establish a causal TE effect on this species' larval duration or clutch size.
+
+## Conflicting source identifiers prevent a repeat-data assignment {#s-3462fb66c0}
+Main Table1 links Bufotes viridis to GCA_037952925.1, while supplementary TableS1 row12 labels Bufotes viridis with GCA_033119425.1. That supplementary accession appears under Pseudophryne corroboree in main Table1. The species-name and accession correspondence therefore cannot be authenticated by simply joining these tables. The supplementary repeat counts and proportions are retained as conflicting source data, without treating them as verified traits of this accepted species. TablesS2–S3 supply55 clutch and39 larval-period rows by accession without individual provenance or unit labels in their headers; those life-history values are also withheld from species trait assignment pending reconciliation.
+
+## catalogue-profile / limitations {#s-292ee559fb}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-9360dae4cb}
+The study published online in December2025 and in the 2026 volume lists Bufotes viridis assembly GCA_037952925.1, with an assembled genome-size summary of 3.8 Gbp and contig N50 1,872.4 Kbp. These describe this listed assembly and its continuity, rather than a direct measurement of DNA per cell, a universally fixed species genome size or a demonstrated ploidy. The source selected NCBI reference assemblies on 29October2024. Original sequence data, assembly quality and specimen identity have not been independently reassessed here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-c300aa5e48}
+Table1 marks short-read sequencing, long-read sequencing for this entry. An unmarked cell is not proof that a technology was never used. The BUSCO caption names compleasm0.2.7 and tetrapoda_odb12, but its five-value score vector is not supplied with component labels in the inspected table. Those percentages are retained in evidence without choosing an assumed completeness category. The study removed three assemblies whose contig N50 was below1kb, retaining61; passing that continuity filter alone does not certify completeness, repeat recovery or a species-level biological measurement.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-683920e109}
+The authors built species-specific repeat libraries with RepeatModeler2, classified unknown elements with RFSB and supplemented the libraries with vertebrate repeats before applying RepeatMasker. Its hits are termed insertions in the paper, but a hit is not independently demonstrated to be a complete, expressed or mobile element. Superfamily labels can aggregate distinct families. Element counts, total occupied length and genome proportions are separate quantities; overlapping hierarchy categories cannot safely be added as independent fractions. No new repeat annotation or expression experiment for Bufotes viridis was performed here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-b2d8116a6c}
+The study compared61 assemblies using phylogenetically adjusted models, an earlier pruned tree, contig-N50 covariates and multiple-comparison correction. Recently active Ty3/DIRS1-associated sequences correlate with genome size across that sample, but recent activity is a divergence-based proxy, not direct observation of current transposition in this species. Length and open-reading-frame similarity filters likewise do not demonstrate active protein expression. The authors' suggested developmental constraints are comparative hypotheses; they do not establish a causal TE effect on this species' larval duration or clutch size.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-850b36e7f5}
+Main Table1 links Bufotes viridis to GCA_037952925.1, while supplementary TableS1 row12 labels Bufotes viridis with GCA_033119425.1. That supplementary accession appears under Pseudophryne corroboree in main Table1. The species-name and accession correspondence therefore cannot be authenticated by simply joining these tables. The supplementary repeat counts and proportions are retained as conflicting source data, without treating them as verified traits of this accepted species. TablesS2–S3 supply55 clutch and39 larval-period rows by accession without individual provenance or unit labels in their headers; those life-history values are also withheld from species trait assignment pending reconciliation.
+

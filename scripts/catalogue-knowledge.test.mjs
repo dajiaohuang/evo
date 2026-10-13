@@ -5,16 +5,13 @@ const node = (id, rank, parentId = null) => ({ id, rank, parentId, scientificNam
 const empty = { releaseAlias: 'test', records: [] }
 const build = (nodes, collections = {}, profiles = empty, dossiers = empty) => buildCatalogueKnowledge({ releaseAlias: 'test', nodes, collections, profiles, dossiers })
 const dossierTree = [node('root', 'kingdom'), node('a', 'species', 'root')]
-const completeDossier = () => {
-  const claim = { text: 'Scoped evidence statement.', textZh: '有范围限定的证据陈述。', originalLanguage: 'en', sourceIds: ['paper'], locator: 'Results, paragraph 2', placeTimeScope: 'Study population, 2024.', lifeStatus: 'wild population' }
+const sampleDossier = () => {
   return {
-    colId: 'a', scientificName: 'a', rank: 'species', sourceDatasetId: '1', checkedAt: '2026-09-23',
+    colId: 'a', scientificName: 'a', rank: 'species', sourceDatasetId: '1',
     identity: { method: 'Exact accepted-name and identifier review.', scope: 'The COL26.8 accepted species concept.', sourceIds: ['paper'] },
     lifeStatusScope: { wild: 'wild population', domesticated: 'not assessed', fossil: 'not assessed' },
-    sources: [{ id: 'paper', title: 'Example study', url: 'https://example.org/paper', stableId: 'doi:10.1000/example', version: 'Version of record', publishedAt: '2024-04-03', accessedAt: '2026-09-23', locator: 'Results, paragraph 2', license: 'CC BY', licenseVersion: '4.0', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', rightsHolder: 'Example authors', licenseAppliesTo: 'Article text', attribution: 'Credit the authors and DOI.', licenseAssessment: 'item-level-verified', scope: 'One scoped biological claim.' }],
-    facets: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { status: 'supported', claims: [{ ...claim }] }])),
-    completeness: { status: 'complete' },
-    systematicSearch: { date: '2026-09-23', scope: 'Named literature databases and species accounts.', method: 'Manual and structured database search.', queryOrPath: 'Exact binomial plus facet terms; saved search URL.', inclusionCriteria: 'Primary sources with direct evidence for the accepted species concept.', exclusionCriteria: 'Unresolved names, unsupported secondary repetition, and out-of-scope life states.', searcher: 'Curator identifier 1.' },
+    sources: [{ id: 'paper', title: 'Example study', url: 'https://example.org/paper', version: 'Version of record', locator: 'Results, paragraph 2', license: 'Unknown', licenseAssessment: 'aggregate-declaration-only', scope: 'One scoped biological claim.' }],
+    facets: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { status: 'not-assessed' }])),
   }
 }
 
@@ -28,7 +25,6 @@ test('rolls up every branch without inventing absent ranks or double-counting so
     describedSpecies: 1,
     profiledSpecies: 0,
     dossierSpecies: 0,
-    completeDossierSpecies: 0,
     sourceFacetEvidenceSpecies: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, 0])),
     dossierFacets: Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { 'not-assessed': 2 }])),
   })
@@ -62,36 +58,72 @@ test('validates exact profile identity and every section citation', () => {
   expect(result.counts.profilesByRank).toEqual({ species: 1 })
   expect(() => build([node('a', 'species')], {}, { ...empty, records: [{ ...profile, scientificName: 'wrong' }] })).toThrow('scientificName')
   expect(() => build([], {}, { ...empty, records: [{ ...profile, sources: [] }] })).toThrow()
+  expect(() => build([node('a', 'species')], {}, { ...empty, records: [{ ...profile, checkedAt: '2026-10-12' }] })).toThrow('Retired profile field checkedAt')
 })
 
-test('requires reproducible evidence-search protocols before a facet or dossier can count complete', () => {
-  const facetSearch = completeDossier()
-  facetSearch.completeness.status = 'incomplete'
-  facetSearch.facets = Object.fromEntries(['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation'].map(facet => [facet, { status: 'not-assessed' }]))
-  facetSearch.facets.morphology = { status: 'searched-no-evidence', search: { date: '2026-09-23', scope: 'Named sources.', method: 'Structured search.', queryOrPath: 'saved query', inclusionCriteria: 'Direct evidence only', exclusionCriteria: 'Ambiguous records only' } }
-  expect(() => build(dossierTree, {}, empty, { ...empty, records: [facetSearch] })).toThrow('Reproducible search protocol')
-
-  const systematicSearch = completeDossier()
-  delete systematicSearch.systematicSearch.exclusionCriteria
-  expect(() => build(dossierTree, {}, empty, { ...empty, records: [systematicSearch] })).toThrow('reproducible systematic search')
+test('retains scoped source-linked facet evidence without completeness, search, translation, or global rights gates', () => {
+  const dossier = sampleDossier()
+  const claim = { text: 'Scoped evidence statement.', textZh: '有范围限定的证据陈述。', originalLanguage: 'en', sourceIds: ['paper'], locator: 'Results, paragraph 2', placeTimeScope: 'Study population, 2024.', lifeStatus: 'wild population' }
+  dossier.facets.morphology = { status: 'supported', claims: [{ ...claim }] }
+  dossier.facets.ecology = { status: 'partially-supported', claims: [{ ...dossier.facets.morphology.claims[0] }], gaps: ['The sample covers one population.'] }
+  dossier.facets.evolution = { status: 'conflicted', claims: [{ ...dossier.facets.morphology.claims[0] }] }
+  const result = build(dossierTree, {}, empty, { ...empty, records: [dossier] })
+  const built = result.records.find(row => row.colId === 'a').dossier
+  expect(built.sources[0]).toMatchObject({ id: 'paper', licenseAssessment: 'aggregate-declaration-only', scope: 'One scoped biological claim.' })
+  expect(built.facets.morphology.claims[0]).toMatchObject({ sourceIds: ['paper'], textZh: '有范围限定的证据陈述。', originalLanguage: 'en' })
+  expect(built.facets.ecology.gaps).toEqual(['The sample covers one population.'])
+  expect(result.counts.dossierSpecies).toBe(1)
+  expect(result.counts.completeDossierSpecies).toBeUndefined()
+  expect(result.counts.dossierFacets.morphology.supported).toBe(1)
+  expect(result.counts.dossierFacets.lifeHistory['not-assessed']).toBe(1)
 })
 
-test('requires source language, item-level rights metadata, and source identity for completion counts', () => {
-  const invalidDate = completeDossier()
-  invalidDate.checkedAt = '2026-02-30'
-  expect(() => build(dossierTree, {}, empty, { ...empty, records: [invalidDate] })).toThrow('real ISO calendar date')
+test('rejects named retired maintenance fields and the retired search-negative facet status', () => {
+  const retired = [
+    dossier => { dossier.checkedAt = '2026-09-23' },
+    dossier => { dossier.completeness = { status: 'incomplete' } },
+    dossier => { dossier.systematicSearch = {} },
+    dossier => { dossier.facets.morphology.search = {} },
+    dossier => { dossier.facets.morphology = { status: 'supported', claims: [{ text: 'Evidence', textZh: '证据', translationStatus: 'verified', sourceIds: ['paper'], locator: 'Table 1', placeTimeScope: 'One site.', lifeStatus: 'wild' }] } },
+  ]
+  for (const addRetiredField of retired) {
+    const dossier = sampleDossier()
+    addRetiredField(dossier)
+    expect(() => build(dossierTree, {}, empty, { ...empty, records: [dossier] })).toThrow('Retired')
+  }
+  const dossier = sampleDossier()
+  dossier.facets.morphology = { status: 'searched-no-evidence' }
+  expect(() => build(dossierTree, {}, empty, { ...empty, records: [dossier] })).toThrow('Invalid morphology status')
+})
 
-  const unresolvedIdentity = completeDossier()
+test('validates recorded dates, explicit item-level rights claims, and source bindings', () => {
+  const invalidDate = sampleDossier()
+  invalidDate.sources[0].publishedAt = '2026-02-30'
+  expect(() => build(dossierTree, {}, empty, { ...empty, records: [invalidDate] })).toThrow('publication date')
+  for (const date of ['2019', '2019-10', '2019-10-01']) {
+    const partialDate = sampleDossier()
+    partialDate.sources[0].publishedAt = date
+    expect(() => build(dossierTree, {}, empty, { ...empty, records: [partialDate] })).not.toThrow()
+    expect(partialDate.sources[0].publishedAt).toBe(date)
+  }
+  invalidDate.sources[0].publishedAt = '2019-13'
+  expect(() => build(dossierTree, {}, empty, { ...empty, records: [invalidDate] })).toThrow('publication date')
+
+  const incompleteItemRights = sampleDossier()
+  incompleteItemRights.sources[0].licenseAssessment = 'item-level-verified'
+  expect(() => build(dossierTree, {}, empty, { ...empty, records: [incompleteItemRights] })).toThrow('Item-level rights metadata')
+  incompleteItemRights.sources[0].license = 'Creative Commons Attribution License as stated on the article page; no numbered version is recorded. No figures are reproduced.'
+  expect(() => build(dossierTree, {}, empty, { ...empty, records: [incompleteItemRights] })).not.toThrow()
+  expect(incompleteItemRights.sources[0]).not.toHaveProperty('licenseUrl')
+  expect(incompleteItemRights.sources[0]).not.toHaveProperty('rightsHolder')
+  incompleteItemRights.sources[0].licenseUrl = 'not-a-url'
+  expect(() => build(dossierTree, {}, empty, { ...empty, records: [incompleteItemRights] })).toThrow('license URL')
+
+  const unresolvedIdentity = sampleDossier()
   unresolvedIdentity.identity.sourceIds = ['missing-source']
-  expect(() => build(dossierTree, {}, empty, { ...empty, records: [unresolvedIdentity] })).toThrow('identity must cite resolvable source IDs')
+  expect(() => build(dossierTree, {}, empty, { ...empty, records: [unresolvedIdentity] })).toThrow('Unresolved dossier identity source')
 
-  const missingLanguage = completeDossier()
-  delete missingLanguage.facets.morphology.claims[0].originalLanguage
-  expect(() => build(dossierTree, {}, empty, { ...empty, records: [missingLanguage] })).toThrow('source language')
-
-  const missingRights = completeDossier()
-  delete missingRights.sources[0].rightsHolder
-  expect(() => build(dossierTree, {}, empty, { ...empty, records: [missingRights] })).toThrow('item-level rights')
-
-
+  const unresolvedClaim = sampleDossier()
+  unresolvedClaim.facets.morphology = { status: 'supported', claims: [{ text: 'Evidence.', sourceIds: [], locator: 'Table 1', placeTimeScope: 'One site.', lifeStatus: 'wild' }] }
+  expect(() => build(dossierTree, {}, empty, { ...empty, records: [unresolvedClaim] })).toThrow('Unresolved dossier source')
 })

@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Polypedates macrotis
+  displayName: Polypedates macrotis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4LD58
+  sourceIndexes:
+    - name:
+        en: Polypedates macrotis
+        zh: Polypedates macrotis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4LD58
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/46
+            queryName: Polypedates macrotis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/431
+            queryName: Rhacophorus macrotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/432
+            queryName: Philautus montanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/433
+            queryName: Polypedates linki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/434
+            queryName: Rhacophorus alticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/435
+            queryName: Rhacophorus lincki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/171
+            queryName: Rhacophorus leucomystax linki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-00dc533146
+      - s-ecbfb95321
+      - s-5b30f34daa
+      - s-71bac76cd7
+      - s-805c0fcf63
+      - s-3e0c69f994
+      - s-6140b6ae59
+      - s-478bcfc0d9
+      - s-a359a5fd79
+      - s-496ff0c864
+      - s-6fa4febd97
+      - s-b845fa856a
+    zh:
+      - s-9a1d5ea461
+      - s-da15378a7c
+      - s-97f9dd3f34
+      - s-da61b27fa3
+      - s-ae734a8c7b
+      - s-f1332ef0ef
+      - s-50083b2b20
+      - s-05be28a282
+      - s-7e991bc7b0
+      - s-4dcb4fdc97
+      - s-7c458ce511
+      - s-70c92d1850

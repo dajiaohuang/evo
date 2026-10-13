@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Myiothlypis fraseri
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Myiothlypis fraseri
+      en: Myiothlypis fraseri
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetMyiothlypisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-eb3b981bee
+            part: body
+          en:
+            page: en
+            section: s-c44a002226
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetMyiothlypisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-fe9d247ab8
+            part: body
+          en:
+            page: en
+            section: s-31bd3045c8
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetMyiothlypisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-090841f6ca
+            part: body
+          en:
+            page: en
+            section: s-c8e6c2975c
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetMyiothlypisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-0652959750
+            part: body
+          en:
+            page: en
+            section: s-a56260d386
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetMyiothlypisHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-d98738c70c
+            part: body
+          en:
+            page: en
+            section: s-c3fb3f1f87
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Myiothlypis fraseri
+          url: https://www.checklistbank.org/dataset/316115/taxon/743ND
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetMyiothlypisHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Myiothlypis historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 6307–6319; each eBird and BirdTree crosswalk, my/ba COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Basileuterus 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Basileuterus combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-9352bed0a8
+        part: body
+      en:
+        page: en
+        section: s-75be016939
+        part: body

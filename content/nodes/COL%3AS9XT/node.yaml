@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene ballux
+  displayName: Centrolene ballux
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S9XT
+  sourceIndexes:
+    - name:
+        en: Centrolene ballux
+        zh: Centrolene ballux
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S9XT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/175
+            queryName: Centrolene ballux
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/376
+            queryName: Centrolenella ballux
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-78e390a895
+      - s-b6e5ed48ac
+      - s-e012ac97a2
+      - s-cc853df2ff
+      - s-a1f11b85b8
+      - s-eb940a32d8
+      - s-3dbad5c8e2
+      - s-c397633372
+      - s-d4befd8f3b
+      - s-09abe1284a
+      - s-17126aea73
+      - s-f0b5e06c92
+    zh:
+      - s-82163b0809
+      - s-213aef5521
+      - s-93365a19fa
+      - s-9280bd89a5
+      - s-f5926bab3b
+      - s-f7c75394c1
+      - s-3222820f96
+      - s-d80145f409
+      - s-9afd335534
+      - s-6bc4ea00c1
+      - s-bee3eacd6c
+      - s-9e74d60725

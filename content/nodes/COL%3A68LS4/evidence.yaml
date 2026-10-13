@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Blindia acuta (Hedw.) Bruch & Schimp.
+    authorship: (Hedw.) Bruch & Schimp.
+    rank: species
+    sourceDatasetId: "170394"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: 9THX2
+        scientificName: Bryobiotina Trevis.
+        authorship: Trevis.
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: BJ5TM
+        scientificName: Bryophyta Schimp.
+        authorship: Schimp.
+        rank: phylum
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: CHTRW
+        scientificName: Bryopsida Ritgen
+        authorship: Ritgen
+        rank: class
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: 9JHXR
+        scientificName: Dicranidae Doweld
+        authorship: Doweld
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: L23LP
+        scientificName: Grimmiales M. Fleisch.
+        authorship: M. Fleisch.
+        rank: order
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: 9JGG7
+        scientificName: Seligeriaceae Schimp.
+        authorship: Schimp.
+        rank: family
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: 9JHQX
+        scientificName: Blindia Bruch & Schimp.
+        authorship: Bruch & Schimp.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "170394"
+      - id: 68LS4
+        scientificName: Blindia acuta (Hedw.) Bruch & Schimp.
+        authorship: (Hedw.) Bruch & Schimp.
+        rank: species
+        status: accepted
+        sourceDatasetId: "170394"
+    identity:
+      method: Matched the retained COL ID and WFO-linked FNA source row to exactly one accepted species usage in the pinned COL26.8 search registry; followed each parent through the pinned hierarchy registry and retained the complete accepted parent chain. The source join also preserves the exact FNA row number, source identifier, and taxon-specific citation.
+      scope: COL26.8 accepted identity 68LS4 linked through WFO wfo-0001154601 to one Flora of North America species account. This link does not assert full concept equivalence across checklist versions.
+      sourceIds:
+        - col
+        - fna_f4f395df_b87a_40b0_ac22_aa053b82eccb
+    lifeStatusScope:
+      wild: The account does not identify the provenance of the described material; population-level wild status has not been assessed.
+      domesticated: Cultivation, domestication, and horticultural history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 170394
+          url: https://www.checklistbank.org/dataset/316115/taxon/68LS4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:68LS4@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 68LS4; exact name, authorship, rank, status, sourceDatasetId, and complete accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 68LS4. https://doi.org/10.48580/dgywk.
+      - id: fna_f4f395df_b87a_40b0_ac22_aa053b82eccb
+        referenceId: ref-a2d26b4a-87d4-8631-a186-def4c2b433f1
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - sourceCitation
+          - itemDeclaredLicenseUrl
+          - license
+          - rightsHolder
+          - rights
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Archive resource metadata declares CC BY 4.0; the imported source item independently retains its CC BY 4.0 license URL and rights-holder field.
+          licenseAppliesTo: The taxon-specific FNA description text in row 16037; no third-party figure, image, or table is reused.
+          stableId: FNA-sourceId:F4F395DF-B87A-40B0-AC22-AA053B82ECCB
+          accessedAt: 2026-09-27
+          locator: FNA imported general-description row 16037; source identifier F4F395DF-B87A-40B0-AC22-AA053B82ECCB; exact taxon-specific citation retained.
+          attribution: Blindia acuta (Hedw.) Bruch & Schimp. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2007. Web. Accessed February 2018. Flora of North America Association; one short excerpt retained with its source locator.
+          licenseAssessment: item-level-verified
+          scope: Regional North American taxonomic description; morphology excerpt only, not a population-sampled estimate, current/global range statement, or proof of cross-release concept equivalence.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "The FNA account describes these morphology characters: “leaf cells (1-)3:1, quadrate to rectangular-elliptic; perichaetial leaves abruptly subulate.”"
+            originalLanguage: en
+            sourceIds:
+              - fna_f4f395df_b87a_40b0_ac22_aa053b82eccb
+            locator: "FNA description row 16037, source identifier F4F395DF-B87A-40B0-AC22-AA053B82ECCB; citation: Blindia acuta (Hedw.) Bruch & Schimp. in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2007. Web. Accessed February 2018."
+            placeTimeScope: Regional Flora of North America taxonomic account; the excerpt does not provide a population-sampling frame, named observation locality, or temporal estimate.
+            lifeStatus: The source describes taxonomic structures but does not identify whether the described material was wild or cultivated; neither status is inferred.
+        gaps:
+          - One reviewed excerpt supports selected morphology characters only; completeness, variation, methods, and coverage of the full COL26.8 concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Seed maturation, release, germination, recruitment, growth, survival, and the full reproductive cycle have not been assessed.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Habitat, environmental tolerances, and ecological interactions have not been assessed.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No species-specific phylogenetic, population-genetic, or evolutionary analysis was assessed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This regional flora excerpt is not a current range map or global distribution assessment.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil occurrences or bounded species-level fossil search were assessed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current conservation assessment, population trend, or threat analysis was reviewed.

@@ -1,0 +1,3 @@
+## Nine to eleven leaflets and a bilateral flower {#s-eac377f05e}
+The Brazilian Flora 2020 v393.147 morphology field records 9–11 leaflets set opposite to nearly opposite along the leaf axis. They are oblong to elliptic or lance-shaped, hairless on both surfaces, with wedge-shaped bases. The same field codes the flowers as bilaterally symmetrical and lists 10–11 stamens. A separate habitat field labels the plant terrestrial (Portuguese: Terrícola). These regional fields give no sampling frame, sex, life stage, locality, survey date, or wild/cultivated status, so they do not define full variation or range.
+

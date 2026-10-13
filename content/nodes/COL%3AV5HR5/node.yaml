@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys yangmingensis
+  displayName: Boulenophrys yangmingensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5HR5
+  sourceIndexes:
+    - name:
+        en: Boulenophrys yangmingensis
+        zh: Boulenophrys yangmingensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5HR5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/392
+            queryName: Boulenophrys yangmingensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/265
+            queryName: Megophrys yangmingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/321
+            queryName: Panophrys yangmingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73679bd0cd
+      - s-c7752c3e4a
+      - s-396fffb028
+      - s-cc2c942d74
+      - s-34d1c44525
+      - s-c0b59a1b98
+      - s-26aae7dcb5
+      - s-72a5fa8177
+      - s-967733007b
+      - s-01041d33ba
+    zh:
+      - s-8a3a57cbf2
+      - s-3c61c56dda
+      - s-959f246dcd
+      - s-bb2122d1fa
+      - s-0e0b1a7f7c
+      - s-b82d53d324
+      - s-9665bce8cb
+      - s-124860e744
+      - s-14358a4e21
+      - s-fcabd735b5

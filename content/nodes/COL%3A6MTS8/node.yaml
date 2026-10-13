@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis supachaii
+  displayName: Ichthyophis supachaii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTS8
+  sourceIndexes:
+    - name:
+        en: Ichthyophis supachaii
+        zh: Ichthyophis supachaii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTS8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/428
+            queryName: Ichthyophis supachaii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4ea23911c1
+      - s-770395c9dc
+      - s-6fdde14eef
+      - s-ba2e8ddf47
+      - s-f77be8b012
+      - s-33a6002d5e
+      - s-c8d3e3d5c3
+      - s-bb4389e855
+      - s-92f1e5c0ce
+      - s-1c9c07c90d
+      - s-93be31a4f9
+      - s-6498489415
+      - s-4f0011bef3
+    zh:
+      - s-3ad27a4694
+      - s-d73edaea64
+      - s-53b1f481a1
+      - s-32cb6d78a1
+      - s-c8eba04e31
+      - s-e70a8ea366
+      - s-39f2ffce14
+      - s-556ce2683a
+      - s-d390be51f7
+      - s-aba8256881
+      - s-2b68a746de
+      - s-c61239de9e
+      - s-b1b42d5d5a

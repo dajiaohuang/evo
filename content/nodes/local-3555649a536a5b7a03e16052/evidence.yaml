@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rhinella lescurei
+    name:
+      en: Rhinella lescurei
+      zh: Rhinella lescurei
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Rhinella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9637203610
+            part: body
+          zh:
+            page: zh
+            section: s-48639b3756
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f950c2c7fb
+            part: body
+          zh:
+            page: zh
+            section: s-05434a7e34
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5413, 5414; Reference.csv rows 2735
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5413
+        values:
+          - Bufonidae
+          - Rhinella
+          - Rhinella lescurei
+          - M
+          - "34.57"
+          - "11.99"
+          - "13.24"
+          - "5.19"
+          - "2.67"
+          - "0.69"
+          - "4.64"
+          - "1.92"
+          - "3.37"
+          - "3.24"
+          - "5.15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.3"
+          - NA
+          - "14.07"
+          - "14"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.5"
+          - NA
+          - "3.94"
+          - NA
+          - "8.41"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5414
+        values:
+          - Bufonidae
+          - Rhinella
+          - Rhinella lescurei
+          - F
+          - "43.7"
+          - "15.15"
+          - "15.95"
+          - "6.3"
+          - "3.15"
+          - "0.9"
+          - "5.9"
+          - "2.05"
+          - "3.53"
+          - "4.23"
+          - "6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.65"
+          - NA
+          - "18.45"
+          - "17.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.9"
+          - NA
+          - "4.9"
+          - NA
+          - "10.93"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2735
+        values:
+          - Anura
+          - Rhinella_lescurei
+          - "Fouquet, A., Gaucher, P., Blanc, M., & Velez-Rodriguez, C. (2007). Description of two new species of Rhinella (Anura: Bufonidae) from the lowlands of the Guiana Shield. Zootaxa, 1663, 17-32. https://doi.org/10.11646/zootaxa.1663.1.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - FL
+      - TL
+      - THL
+      - Toe4L
+      - Fin1L
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4S7NM
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

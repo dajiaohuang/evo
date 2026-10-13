@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis olivaceus
+  displayName: Pristimantis olivaceus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJK2
+  sourceIndexes:
+    - name:
+        en: Pristimantis olivaceus
+        zh: Pristimantis olivaceus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJK2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/452
+            queryName: Pristimantis olivaceus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/463
+            queryName: Eleutherodactylus olivaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-76f6884f93
+      - s-35df8a8c51
+      - s-e915d2f837
+      - s-2c603ec2ad
+      - s-5976eceabd
+      - s-2f72f8f56c
+      - s-f9d9263a8d
+      - s-8e15ba9636
+    zh:
+      - s-26d992e26e
+      - s-d7e0d196fc
+      - s-ce953511b5
+      - s-3365968a2d
+      - s-1cc7a8b8fe
+      - s-11e19e978b
+      - s-ec0fee8b82
+      - s-d01dc4176f

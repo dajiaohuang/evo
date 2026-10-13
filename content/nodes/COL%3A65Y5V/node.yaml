@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Altiphrynoides osgoodi
+  displayName: Altiphrynoides osgoodi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65Y5V
+  sourceIndexes:
+    - name:
+        en: Altiphrynoides osgoodi
+        zh: Altiphrynoides osgoodi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65Y5V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/207
+            queryName: Altiphrynoides osgoodi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/455
+            queryName: Spinophrynoides osgoodi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/244
+            queryName: Bufo osgoodi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/245
+            queryName: Nectophrynoides osgoodi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8bb4daa8e6
+      - s-9c9419021a
+      - s-74ad945263
+      - s-d9e40443eb
+      - s-d96e83ef51
+      - s-8a37981913
+      - s-e1561c4fdc
+      - s-8d7d3b6e38
+      - s-1a1c9d7293
+    zh:
+      - s-a43ffd5cb3
+      - s-e6bdd1c266
+      - s-f9c158e9c4
+      - s-20227ca09d
+      - s-8e54c8ab00
+      - s-465d7438f4
+      - s-be6952451b
+      - s-a8193d2d4c
+      - s-42a20d267f

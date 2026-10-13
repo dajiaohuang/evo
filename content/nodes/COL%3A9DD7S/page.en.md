@@ -1,0 +1,3 @@
+## ## Long floral bracts and many-veined corolla lobes {#s-0416e3d8ce}
+The Brazilian Flora 2020 entry records pilose stems with forward-appressed simple hairs; setae, glandular hairs, prickles and short shoots are absent. The stipules persist, extrafloral nectaries are absent, and projections occur between pinna pairs. The inflorescences are globose, with floral bracts longer than the flowers before opening. The flowers have four perianth parts and a membranous calyx without lobes. Pubescent corolla lobes have four or more veins; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial” but gives no locality or more specific habitat description.
+

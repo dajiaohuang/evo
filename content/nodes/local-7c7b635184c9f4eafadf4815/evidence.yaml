@@ -1,0 +1,1736 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Rana clamitans
+    name:
+      en: Rana clamitans
+      zh: Rana clamitans
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-a026c79677
+            part: body
+          zh:
+            page: zh
+            section: s-a195be94f0
+            part: body
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "352"
+        text:
+          en:
+            page: en
+            section: s-627d3422e4
+            part: body
+          zh:
+            page: zh
+            section: s-2ff42b9435
+            part: body
+        sourceRowNumber: 276
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 276, 337, 338, 645, 646, 647, 648, 649, 2605, 4194, 4195, 4196, 4197, 4198, 4199, 4200, 4201, 4202; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 276
+        values:
+          - "352"
+          - Patrice Pottier
+          - Brattstrom_1963
+          - A Preliminary Review of the Thermal Requirements of Amphibians
+          - "1963"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1932171
+          - English
+          - Rana_clamitans_pop5
+          - Rana_clamitans_pop5_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "44.996399"
+          - "-93.061598"
+          - "267"
+          - 25/08/1955
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - field-fresh
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - adults
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - water
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text; Rohr et al. 2018
+          - NA
+          - NA
+          - "36.3"
+          - NA
+          - "2"
+          - NA
+          - NA
+      - rowNumber: 337
+        values:
+          - "413"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Rana_clamitans_pop3
+          - Rana_clamitans_pop3_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42"
+          - "-73.13496"
+          - "305"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "29.9"
+          - NA
+          - "10"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 338
+        values:
+          - "414"
+          - Patrice Pottier
+          - Brattstrom_1968
+          - Thermal acclimation in anuran amphibians as a function of latitude and altitude
+          - "1968"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0010-406X(68)90961-4
+          - English
+          - Rana_clamitans_pop3
+          - Rana_clamitans_pop3_UTL_co2
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42"
+          - "-73.13496"
+          - "305"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - "1"
+          - "17.5"
+          - acclimation_time was taken as the mean of the range presented (2-3 weeks)
+          - adults
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018. Photoperiod was either 24h light, or 24h dark.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "35"
+          - NA
+          - "10"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 645
+        values:
+          - "737"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rana_clamitans_pop4
+          - Rana_clamitans_pop4_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42"
+          - "-73.13496"
+          - "422"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "29.92192"
+          - NA
+          - "3"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 646
+        values:
+          - "738"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rana_clamitans_pop4
+          - Rana_clamitans_pop4_UTL_co2
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42"
+          - "-73.13496"
+          - "422"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - NA
+          - "1"
+          - NA
+          - adults
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "31.79972"
+          - NA
+          - "3"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 647
+        values:
+          - "739"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rana_clamitans_pop4
+          - Rana_clamitans_pop4_UTL_co3
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42"
+          - "-73.13496"
+          - "422"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - NA
+          - "2"
+          - NA
+          - adults
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "33.99528"
+          - NA
+          - "3"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 648
+        values:
+          - "740"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rana_clamitans_pop4
+          - Rana_clamitans_pop4_UTL_co4
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42"
+          - "-73.13496"
+          - "422"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - NA
+          - "3"
+          - NA
+          - adults
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "35.09969"
+          - NA
+          - "3"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 649
+        values:
+          - "741"
+          - Patrice Pottier
+          - Brattstrom_and_Lawrence_1962
+          - The Rate of Thermal Acclimation in Anuran Amphibians
+          - "1962"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1086/physzool.35.2.30152723
+          - English
+          - Rana_clamitans_pop4
+          - Rana_clamitans_pop4_UTL_co5
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "42"
+          - "-73.13496"
+          - "422"
+          - NA
+          - NA
+          - NA
+          - "1959"
+          - "1960"
+          - Geographical coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "23"
+          - NA
+          - "4"
+          - NA
+          - adults
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - LRR
+          - body
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was taken as reported in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr et al. 2018
+          - NA
+          - NA
+          - "35.00557"
+          - NA
+          - "3"
+          - NA
+          - Data taken from Rohr et al. 2018; n_trait corresponds to the lower end of the range of sample sizes presented in the original study.
+      - rowNumber: 2605
+        values:
+          - "2875"
+          - PPollo
+          - Katzenberger_et_al_2021
+          - Variation in upper thermal tolerance among 19 species from temperate wetlands
+          - "2021"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/j.jtherbio.2021.102856
+          - English
+          - Rana_clamitans_pop2
+          - Rana_clamitans_pop2_UTL_co1
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "41.68786944"
+          - "-80.42608056"
+          - "333"
+          - NA
+          - NA
+          - "2010"
+          - March_2010
+          - May_2010
+          - Spring 2010
+          - NA
+          - NA
+          - "20.2"
+          - NA
+          - water_temp was from the deepest point in the pond. Animals were collected in Spring 2010 in the USA so it was taken as March - May 2010
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - NA
+          - "20"
+          - NA
+          - "4"
+          - NA
+          - larvae
+          - NA
+          - NA
+          - "0.0376"
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 1 and 3
+          - NA
+          - NA
+          - "39.4"
+          - "0.387298335"
+          - "15"
+          - sd
+          - Standard error was converted to SD as sqrt(N) * se
+      - rowNumber: 4194
+        values:
+          - "4665"
+          - Patrice Pottier
+          - Willhite_and_Cupp_1982
+          - "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(82)90042-1
+          - English
+          - Rana_clamitans_pop1
+          - Rana_clamitans_pop1_UTL_co1
+          - Data for animals tested at 0400hr
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.621295"
+          - "-84.198892"
+          - "278"
+          - 22/08/1978
+          - August
+          - "1978"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - "19.38637363"
+          - NA
+          - water_temp was digitised from figure 2 and taken as the mean daily temperature at both 30 cm and 1m from the shore.
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "35"
+          - "25"
+          - "1"
+          - "7"
+          - gosner_acclimated was taken as the mean of the range presented (32-38)
+          - larvae
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. ramping was taken as in Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.33521445"
+          - "0.0496614"
+          - "12"
+          - se
+          - Data was taken from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 4195
+        values:
+          - "4666"
+          - Patrice Pottier
+          - Willhite_and_Cupp_1982
+          - "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(82)90042-1
+          - English
+          - Rana_clamitans_pop1
+          - Rana_clamitans_pop1_UTL_co2
+          - Data for animals tested at 0800hr
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.621295"
+          - "-84.198892"
+          - "278"
+          - 22/08/1978
+          - August
+          - "1978"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - "19.38637363"
+          - NA
+          - water_temp was digitised from figure 2 and taken as the mean daily temperature at both 30 cm and 1m from the shore.
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "35"
+          - "25"
+          - "1"
+          - "7"
+          - gosner_acclimated was taken as the mean of the range presented (32-38)
+          - larvae
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. ramping was taken as in Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "40.03273138"
+          - "0.040632054"
+          - "12"
+          - se
+          - Data was taken from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 4196
+        values:
+          - "4667"
+          - Patrice Pottier
+          - Willhite_and_Cupp_1982
+          - "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(82)90042-1
+          - English
+          - Rana_clamitans_pop1
+          - Rana_clamitans_pop1_UTL_co3
+          - Data for animals tested at 1200hr
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.621295"
+          - "-84.198892"
+          - "278"
+          - 22/08/1978
+          - August
+          - "1978"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - "19.38637363"
+          - NA
+          - water_temp was digitised from figure 2 and taken as the mean daily temperature at both 30 cm and 1m from the shore.
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "35"
+          - "25"
+          - "1"
+          - "7"
+          - gosner_acclimated was taken as the mean of the range presented (32-38)
+          - larvae
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. ramping was taken as in Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "40.17945824"
+          - "0.0496614"
+          - "12"
+          - se
+          - Data was taken from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 4197
+        values:
+          - "4668"
+          - Patrice Pottier
+          - Willhite_and_Cupp_1982
+          - "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(82)90042-1
+          - English
+          - Rana_clamitans_pop1
+          - Rana_clamitans_pop1_UTL_co4
+          - Data for animals tested at 1600hr
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.621295"
+          - "-84.198892"
+          - "278"
+          - 22/08/1978
+          - August
+          - "1978"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - "19.38637363"
+          - NA
+          - water_temp was digitised from figure 2 and taken as the mean daily temperature at both 30 cm and 1m from the shore.
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "35"
+          - "25"
+          - "1"
+          - "7"
+          - gosner_acclimated was taken as the mean of the range presented (32-38)
+          - larvae
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. ramping was taken as in Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "40.13431151"
+          - "0.038374718"
+          - "12"
+          - se
+          - Data was taken from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 4198
+        values:
+          - "4669"
+          - Patrice Pottier
+          - Willhite_and_Cupp_1982
+          - "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(82)90042-1
+          - English
+          - Rana_clamitans_pop1
+          - Rana_clamitans_pop1_UTL_co5
+          - Data for animals tested at 2000hr
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.621295"
+          - "-84.198892"
+          - "278"
+          - 22/08/1978
+          - August
+          - "1978"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - "19.38637363"
+          - NA
+          - water_temp was digitised from figure 2 and taken as the mean daily temperature at both 30 cm and 1m from the shore.
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "35"
+          - "25"
+          - "1"
+          - "7"
+          - gosner_acclimated was taken as the mean of the range presented (32-38)
+          - larvae
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. ramping was taken as in Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.7731377"
+          - "0.042889391"
+          - "12"
+          - se
+          - Data was taken from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 4199
+        values:
+          - "4670"
+          - Patrice Pottier
+          - Willhite_and_Cupp_1982
+          - "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(82)90042-1
+          - English
+          - Rana_clamitans_pop1
+          - Rana_clamitans_pop1_UTL_co6
+          - Data for animals tested at 2400hr
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.621295"
+          - "-84.198892"
+          - "278"
+          - 22/08/1978
+          - August
+          - "1978"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - "19.38637363"
+          - NA
+          - water_temp was digitised from figure 2 and taken as the mean daily temperature at both 30 cm and 1m from the shore.
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "35"
+          - "25"
+          - "1"
+          - "7"
+          - gosner_acclimated was taken as the mean of the range presented (32-38)
+          - larvae
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. ramping was taken as in Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "39.61512415"
+          - "0.045146727"
+          - "12"
+          - se
+          - Data was taken from figure 1 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 4200
+        values:
+          - "4671"
+          - Patrice Pottier
+          - Willhite_and_Cupp_1982
+          - "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(82)90042-1
+          - English
+          - Rana_clamitans_pop1
+          - Rana_clamitans_pop1_UTL_co7
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.621295"
+          - "-84.198892"
+          - "278"
+          - 22/08/1978
+          - August
+          - "1978"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - "19.38637363"
+          - NA
+          - water_temp was digitised from figure 2 and taken as the mean daily temperature at both 30 cm and 1m from the shore.
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "35"
+          - "10"
+          - "1"
+          - "7"
+          - gosner_acclimated was taken as the mean of the range presented (32-38)
+          - larvae
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. ramping was taken as in Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 2
+          - NA
+          - NA
+          - "39"
+          - "0.11"
+          - "12"
+          - se
+          - Data was taken from Table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 4201
+        values:
+          - "4672"
+          - Patrice Pottier
+          - Willhite_and_Cupp_1982
+          - "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(82)90042-1
+          - English
+          - Rana_clamitans_pop1
+          - Rana_clamitans_pop1_UTL_co8
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.621295"
+          - "-84.198892"
+          - "278"
+          - 22/08/1978
+          - August
+          - "1978"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - "19.38637363"
+          - NA
+          - water_temp was digitised from figure 2 and taken as the mean daily temperature at both 30 cm and 1m from the shore.
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "35"
+          - "20"
+          - "1"
+          - "7"
+          - gosner_acclimated was taken as the mean of the range presented (32-38)
+          - larvae
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. ramping was taken as in Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 2
+          - NA
+          - NA
+          - "39.4"
+          - "0.03"
+          - "12"
+          - se
+          - Data was taken from Table 2 because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 4202
+        values:
+          - "4673"
+          - Patrice Pottier
+          - Willhite_and_Cupp_1982
+          - "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+          - "1982"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/0300-9629(82)90042-1
+          - English
+          - Rana_clamitans_pop1
+          - Rana_clamitans_pop1_UTL_co9
+          - NA
+          - Anura
+          - Ranidae
+          - Rana clamitans
+          - NA
+          - LC
+          - wild
+          - NA
+          - "37.621295"
+          - "-84.198892"
+          - "278"
+          - 22/08/1978
+          - August
+          - "1978"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - "19.38637363"
+          - NA
+          - water_temp was digitised from figure 2 and taken as the mean daily temperature at both 30 cm and 1m from the shore.
+          - acclimated
+          - NA
+          - NA
+          - larvae
+          - "35"
+          - "30"
+          - "1"
+          - "7"
+          - gosner_acclimated was taken as the mean of the range presented (32-38)
+          - larvae
+          - NA
+          - "87"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - prodding
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018. ramping was taken as in Hutchison (1961)
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Tab 2
+          - NA
+          - NA
+          - "40.4"
+          - "0.05"
+          - "12"
+          - se
+          - Data was taken from Table 2 because SD was not reported in Rohr et al. 2018.
+    originalStudyCitations:
+      - ref: Brattstrom_1963
+        title: A Preliminary Review of the Thermal Requirements of Amphibians
+        doi: https://doi.org/10.2307/1932171
+        year: "1963"
+      - ref: Brattstrom_1968
+        title: Thermal acclimation in anuran amphibians as a function of latitude and altitude
+        doi: https://doi.org/10.1016/0010-406X(68)90961-4
+        year: "1968"
+      - ref: Brattstrom_and_Lawrence_1962
+        title: The Rate of Thermal Acclimation in Anuran Amphibians
+        doi: https://doi.org/10.1086/physzool.35.2.30152723
+        year: "1962"
+      - ref: Katzenberger_et_al_2021
+        title: Variation in upper thermal tolerance among 19 species from temperate wetlands
+        doi: https://doi.org/10.1016/j.jtherbio.2021.102856
+        year: "2021"
+      - ref: Willhite_and_Cupp_1982
+        title: "Daily rhythms of thermal tolerance in Rana clamitans (Anura: Ranidae) tadpoles"
+        doi: https://doi.org/10.1016/0300-9629(82)90042-1
+        year: "1982"
+    selectedEstimateRowNumbers:
+      - 276
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

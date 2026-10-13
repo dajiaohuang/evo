@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Buergeria japonica
+  displayName: Buergeria japonica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X3ZL
+  sourceIndexes:
+    - name:
+        en: Buergeria japonica
+        zh: Buergeria japonica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X3ZL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/490
+            queryName: Buergeria japonica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 35
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/388
+            queryName: Ixalus japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/389
+            queryName: Rana macropus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/390
+            queryName: Polypedates japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/391
+            queryName: Rhacophorus japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7ea99a95a5
+      - s-a6be7ab3ad
+      - s-8fff055a8f
+      - s-993652fc8d
+      - s-c803b47b82
+      - s-617ff3958d
+      - s-ef765f4aa7
+      - s-220f83cbb6
+      - s-841dea3e29
+      - s-6579807709
+      - s-3539190b29
+    zh:
+      - s-ce351d6af2
+      - s-d188d869d4
+      - s-ff621cf11c
+      - s-c64185fe7b
+      - s-e461fa51dc
+      - s-23c1ef057d
+      - s-d0800899d0
+      - s-9078f769dd
+      - s-fae45f6292
+      - s-7a422e1417
+      - s-2e36f8f74c

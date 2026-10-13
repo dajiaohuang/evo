@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aphantophryne minuta
+  displayName: Aphantophryne minuta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FBQZ
+  sourceIndexes:
+    - name:
+        en: Aphantophryne minuta
+        zh: Aphantophryne minuta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FBQZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/75
+            queryName: Aphantophryne minuta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c4773297e4
+      - s-27744024b1
+      - s-0bc2a83766
+      - s-759a957e25
+      - s-d542965174
+      - s-b713e81b08
+      - s-192dee2fa6
+      - s-252e1156fd
+      - s-871813ec9e
+    zh:
+      - s-eee4fb0777
+      - s-869d9adf8e
+      - s-5dc05a74e2
+      - s-f205738b5b
+      - s-6da5b1a7ba
+      - s-bac53fa798
+      - s-17a3836ebb
+      - s-62ab7e3ca6
+      - s-a504582d39

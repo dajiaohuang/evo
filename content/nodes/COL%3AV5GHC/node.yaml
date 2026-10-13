@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys daoji
+  displayName: Boulenophrys daoji
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5GHC
+  sourceIndexes:
+    - name:
+        en: Boulenophrys daoji
+        zh: Boulenophrys daoji
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5GHC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/338
+            queryName: Boulenophrys daoji
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/293
+            queryName: Panophrys daoji
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5d3a0c74dd
+      - s-8873c9794f
+      - s-2d6213230a
+      - s-5ae4270598
+      - s-f5ce647589
+      - s-4d559ff13a
+      - s-a49e7816aa
+      - s-43ee68b3bb
+      - s-54c5f9388f
+      - s-ab780f2caa
+    zh:
+      - s-fdcb77f5a7
+      - s-e8506ff0bc
+      - s-81c9819325
+      - s-f08b2d745f
+      - s-d2fc083403
+      - s-396eebf643
+      - s-c517c41b5c
+      - s-0dba0460fa
+      - s-6d50fbb6a4
+      - s-0d4a605902

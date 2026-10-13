@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana damingshanensis
+  displayName: Odorrana damingshanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/R2ZN5
+  sourceIndexes:
+    - name:
+        en: Odorrana damingshanensis
+        zh: Odorrana damingshanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: R2ZN5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/6
+            queryName: Odorrana damingshanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6d06f57f5
+      - s-378fc23842
+      - s-db7f6745ed
+      - s-7dc6b4f772
+      - s-a4a9dd6d9e
+      - s-cb3f6d199f
+      - s-2590c5bda6
+    zh:
+      - s-13fa8db364
+      - s-c2d5e7ea09
+      - s-b20d11e26b
+      - s-ea34324085
+      - s-1d0a0d17c5
+      - s-10373f38dc
+      - s-65dc9495ce

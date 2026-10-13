@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Petropedetes euskircheni
+  displayName: Petropedetes euskircheni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6V6CW
+  sourceIndexes:
+    - name:
+        en: Petropedetes euskircheni
+        zh: Petropedetes euskircheni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6V6CW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/7
+            queryName: Petropedetes euskircheni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da86777ef8
+      - s-9e49714a70
+      - s-5077a8c4bc
+      - s-03fbd79af2
+      - s-3ff21281ab
+      - s-23e6804175
+      - s-1a84ad4db7
+      - s-fe014be3bd
+    zh:
+      - s-49f87bfc78
+      - s-ee2fc96191
+      - s-c20fabb433
+      - s-0cf63324c5
+      - s-fa6bdc05c2
+      - s-38bf580714
+      - s-a816a8c1a7
+      - s-462fc393c0

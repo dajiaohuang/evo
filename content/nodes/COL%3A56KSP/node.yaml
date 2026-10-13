@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius aureus
+  displayName: Thorius aureus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KSP
+  sourceIndexes:
+    - name:
+        en: Thorius aureus
+        zh: Thorius aureus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KSP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/36
+            queryName: Thorius aureus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/319
+            queryName: Thorius aurens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a811b9bc47
+      - s-6951fb8e08
+      - s-5afc0f9368
+      - s-f500cf7635
+      - s-113a5d6107
+      - s-3e1457026d
+      - s-65fb40e287
+      - s-fdd91aef22
+    zh:
+      - s-b3f15f6e2c
+      - s-c78063df57
+      - s-81577b7c65
+      - s-1b201b2e16
+      - s-149f63896e
+      - s-370a27edc8
+      - s-b67b28a384
+      - s-99b5d82fdf

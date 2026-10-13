@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis yaldeni
+  displayName: Leptopelis yaldeni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSP3
+  sourceIndexes:
+    - name:
+        en: Leptopelis yaldeni
+        zh: Leptopelis yaldeni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSP3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/17
+            queryName: Leptopelis yaldeni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-844414e629
+      - s-c77fe5fe9a
+      - s-20507cdfc0
+      - s-404ca188aa
+      - s-14567c6960
+      - s-267db62c9e
+      - s-aa0bf13625
+    zh:
+      - s-555aaf02d9
+      - s-c76bbcea3d
+      - s-a26dd59265
+      - s-2f99df5180
+      - s-0090628aaf
+      - s-9ebe6b47f8
+      - s-7ad7f1c639

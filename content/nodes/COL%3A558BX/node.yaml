@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Telmatobius philippii
+  displayName: Telmatobius philippii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/558BX
+  sourceIndexes:
+    - name:
+        en: Telmatobius philippii
+        zh: Telmatobius philippii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 558BX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/465
+            queryName: Telmatobius philippii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-18988947e4
+      - s-e3deb43acd
+      - s-bb1cd9d395
+      - s-4b463e7f51
+      - s-a0fe5db388
+      - s-dd47664c75
+      - s-ba613bfb75
+      - s-b6183a5405
+      - s-a8ba4ee3ce
+      - s-e7f5240a64
+      - s-0d783d1aaa
+    zh:
+      - s-d5f789774d
+      - s-39df983482
+      - s-095a998e4a
+      - s-59bb6e9b67
+      - s-df7785d407
+      - s-4ead644fbd
+      - s-085d435941
+      - s-1bbcd3b333
+      - s-e58353b84b
+      - s-e99642f5f1
+      - s-ea44170e59

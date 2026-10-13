@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis molybrignus
+  displayName: Pristimantis molybrignus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJ9
+  sourceIndexes:
+    - name:
+        en: Pristimantis molybrignus
+        zh: Pristimantis molybrignus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJ9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/417
+            queryName: Pristimantis molybrignus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/443
+            queryName: Eleutherodactylus molybrignus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-df079d24b6
+      - s-c3f635cfd9
+      - s-e836976d1c
+      - s-d330c52818
+      - s-2353d5da87
+      - s-bdae3369d4
+      - s-d21b9a183a
+      - s-653f3397f6
+    zh:
+      - s-960fae5595
+      - s-b8f6bb8d1b
+      - s-a608573f4d
+      - s-312f56a97b
+      - s-4c986a0cc0
+      - s-b5f20286e9
+      - s-ee9c5a2097
+      - s-7e581aac2b

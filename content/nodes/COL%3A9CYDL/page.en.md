@@ -1,0 +1,3 @@
+## Three leaflets and a violet corolla {#s-79af66ffed}
+Brazilian Flora 2020 v393.147 describes Centrosema lucia-helenae with trifoliolate leaves, meaning three leaflets, on a conspicuous central axis; the leaflets are leathery and oval to obovate. The flower field records a violet corolla and no calcar (floral spur). Pods are flattened, and their valves are described as becoming nearly hairless. A separate habitat field labels the plant terrestrial. The regional fields provide no sampling frame, locality, observation date, or wild/cultivated status, so they do not establish how common each trait is.
+

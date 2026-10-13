@@ -1,0 +1,148 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius lateralis
+  displayName: Hyperolius lateralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N29C
+  sourceIndexes:
+    - name:
+        en: Hyperolius lateralis
+        zh: Hyperolius lateralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N29C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/278
+            queryName: Hyperolius lateralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/280
+            queryName: Hyperolius pleurospilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/42
+            queryName: Hyperolius lateralis pleurospilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/43
+            queryName: Hyperolius lateralis cyaneops
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/44
+            queryName: Hyperolius lateralis bururiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/45
+            queryName: Hyperolius lateralis lateralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/46
+            queryName: Hyperolius lateralis guibei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/47
+            queryName: Hyperolius lateralis acanthochromus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/48
+            queryName: Hyperolius lateralis capnodogaster
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/49
+            queryName: Hyperolius lateralis kochi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/50
+            queryName: Hyperolius lateralis subolivaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/51
+            queryName: Hyperolius lateralis bogerti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/52
+            queryName: Hyperolius lateralis pulcherrimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d4c95aabb
+      - s-aedf796899
+      - s-71abeb4769
+      - s-8ec11c3241
+      - s-55c6625ea3
+      - s-dfffb75a04
+      - s-a3593a9f20
+      - s-c7d7e93e51
+      - s-8e12fbec18
+      - s-1424c1ceeb
+      - s-d429d8e705
+      - s-9b4b1848a6
+      - s-f7139c9d81
+      - s-f250e8d03e
+      - s-95bb852fbe
+      - s-f4cbe18075
+      - s-8bd269f152
+      - s-873b64cebd
+    zh:
+      - s-4648764bb9
+      - s-e0112b9093
+      - s-2fb1786d90
+      - s-d99d2b77bb
+      - s-b59348e0e7
+      - s-0b897699b7
+      - s-abd91e8284
+      - s-06e5b81295
+      - s-4de0690e3a
+      - s-72b0ef06c4
+      - s-86cb757c15
+      - s-d3ef100132
+      - s-6c58cdb007
+      - s-bed110c804
+      - s-6ecb7c1efd
+      - s-ccc5dd8a82
+      - s-be74988679
+      - s-d12882ef7b

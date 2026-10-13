@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelobates syriacus
+  displayName: Pelobates syriacus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CZJ
+  sourceIndexes:
+    - name:
+        en: Pelobates syriacus
+        zh: Pelobates syriacus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CZJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/440
+            queryName: Pelobates syriacus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 38
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/406
+            queryName: Pelobates transcaucasicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/407
+            queryName: Pseudopelobates transcaucasicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/203
+            queryName: Pelobates syriacus boettgeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/204
+            queryName: Pelobates syriacus syriacus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fdce5ed100
+      - s-27c0de805b
+      - s-ef09b66160
+      - s-5c4b783520
+      - s-c97a9f1ddd
+      - s-65d9119a6b
+      - s-9af78c084d
+      - s-105e18476b
+      - s-29dcf57891
+      - s-72c8f1f28e
+      - s-c3dc616d5f
+      - s-169bc86926
+      - s-349d5dfd25
+      - s-bc1a4124ea
+    zh:
+      - s-a8d3900ef5
+      - s-18d4795366
+      - s-f133b5775c
+      - s-5c88ee797e
+      - s-91079699a8
+      - s-2d02da1bde
+      - s-dbbd88f374
+      - s-2dc2a89644
+      - s-272453e6fd
+      - s-df3a8836fa
+      - s-21e43fc398
+      - s-902faa6ff2
+      - s-1b358a0dbf
+      - s-a179e676ce

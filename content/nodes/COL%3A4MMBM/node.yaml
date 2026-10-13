@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Probreviceps loveridgei
+  displayName: Probreviceps loveridgei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMBM
+  sourceIndexes:
+    - name:
+        en: Probreviceps loveridgei
+        zh: Probreviceps loveridgei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMBM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/199
+            queryName: Probreviceps loveridgei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/216
+            queryName: Probreviceps macrodactylus loveridgei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-787937a571
+      - s-1cb7651a7a
+      - s-451e338778
+      - s-f36c9591a7
+      - s-85c4452cda
+      - s-e98941dfe1
+      - s-b52f9b320e
+      - s-aa1da54d6d
+    zh:
+      - s-4ab4016b15
+      - s-c55d38a4f9
+      - s-4ab70c6d0f
+      - s-eaef488b14
+      - s-60802643b7
+      - s-1cf7700dbb
+      - s-2d713a4b09
+      - s-25de3a61d9

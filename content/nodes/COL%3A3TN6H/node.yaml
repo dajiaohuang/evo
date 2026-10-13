@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus nesiotus
+  displayName: Leptodactylus nesiotus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN6H
+  sourceIndexes:
+    - name:
+        en: Leptodactylus nesiotus
+        zh: Leptodactylus nesiotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN6H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/416
+            queryName: Leptodactylus nesiotus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a98f7899a
+      - s-9052b347da
+      - s-8c4e040393
+      - s-bc1e1aa48e
+      - s-c03e7cfd11
+      - s-eaed9264ea
+      - s-b68e1b67c0
+      - s-4fb7effb91
+      - s-a068538700
+      - s-e5dfc8db3c
+      - s-0213bd0423
+    zh:
+      - s-0d0cfdddfe
+      - s-eb4f0b206a
+      - s-f2097680c6
+      - s-7535910188
+      - s-39c6209a29
+      - s-a8946400da
+      - s-327050918a
+      - s-4d57f076cc
+      - s-9e6132af6a
+      - s-021c64e28e
+      - s-35d1a8c811

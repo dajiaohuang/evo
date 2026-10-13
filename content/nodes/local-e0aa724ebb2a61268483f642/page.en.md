@@ -1,0 +1,9 @@
+## Which source name is assigned to this tadpole record? {#s-b84170c275}
+This record shows how TadpoleTraits files tadpoles under Meristogenys kinabaluensis. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Meristogenys kinabaluensis in Meristogenys and Ranidae. No literature rows are present. In the image-measurement table, rows 1010 list Meristogenys kinabaluensis in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-b70991a7d0}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 0 literature rows and 1 image-measurement row for this source record. No literature rows are present; the image rows are the only measurements in this entry. Image-table Stage values are 37/31 (row 1010); Type labels are Ratio and image types are Color image. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-d2d90f1146}
+The image-derived records support these source proportions: body length / total length = 0.330155 (image row 1010, stage 37/31, Color image); tail length / total length = 0.672504 (image row 1010, stage 37/31, Color image); maximum body height / total length = 0.150739 (image row 1010, stage 37/31, Color image); maximum tail height / total length = 0.147151 (image row 1010, stage 37/31, Color image); tail muscle height / total length = 0.102466 (image row 1010, stage 37/31, Color image). Each value describes only its cited image row; it is not a species-wide estimate.
+

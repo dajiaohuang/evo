@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemiphractus fasciatus
+  displayName: Hemiphractus fasciatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KRRY
+  sourceIndexes:
+    - name:
+        en: Hemiphractus fasciatus
+        zh: Hemiphractus fasciatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KRRY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/264
+            queryName: Hemiphractus fasciatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/490
+            queryName: Cerathyla fasciatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/342
+            queryName: Ceratohyla fasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41ae254673
+      - s-59daac537f
+      - s-4fdcff6581
+      - s-80aa7813a5
+      - s-32bf741b8c
+      - s-3c211dba21
+      - s-aa2fc0f339
+      - s-fad26f3dd4
+      - s-6b67589c5d
+      - s-7e433b2c48
+      - s-d6c8d14e7d
+    zh:
+      - s-b82a042923
+      - s-038f35832e
+      - s-4e128942bc
+      - s-e8b03657f4
+      - s-6d2f6c6054
+      - s-027d80b66e
+      - s-8b78dbc043
+      - s-2a9909730f
+      - s-2ddc24f672
+      - s-0bbcb9d81b
+      - s-c298214ef3

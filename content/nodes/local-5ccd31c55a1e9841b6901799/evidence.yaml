@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Aneides aeneus
+    name:
+      en: Aneides aeneus
+      zh: Aneides aeneus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-6bbca3fb7f
+            part: body
+          zh:
+            page: zh
+            section: s-5294a4ff59
+            part: body
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "2468"
+        text:
+          en:
+            page: en
+            section: s-e9d83d5049
+            part: body
+          zh:
+            page: zh
+            section: s-69fa0b04f8
+            part: body
+        sourceRowNumber: 2242
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 2242; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 2242
+        values:
+          - "2468"
+          - Patrice Pottier
+          - Hutchison_1958
+          - The Distribution and Ecology of the Cave Salamander, Eurycea lucifuga
+          - "1958"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Aneides_aeneus_pop1
+          - Aneides_aeneus_pop1_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Aneides aeneus
+          - aeneus
+          - NT
+          - wild
+          - NA
+          - "37.432664"
+          - "-80.31995"
+          - "701"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "18"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - ambient
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - "100"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Rohr_et_al_2018
+          - NA
+          - NA
+          - "34.33"
+          - NA
+          - "9"
+          - NA
+          - Data taken from Rohr et al. 2018
+    originalStudyCitations:
+      - ref: Hutchison_1958
+        title: The Distribution and Ecology of the Cave Salamander, Eurycea lucifuga
+        doi: NA
+        year: "1958"
+    selectedEstimateRowNumbers:
+      - 2242
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - DW55
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

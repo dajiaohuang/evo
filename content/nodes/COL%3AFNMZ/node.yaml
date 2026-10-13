@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus sibilatus
+  displayName: Aplastodiscus sibilatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNMZ
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus sibilatus
+        zh: Aplastodiscus sibilatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNMZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/95
+            queryName: Aplastodiscus sibilatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/470
+            queryName: Hyla sibilata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f4e9baf053
+      - s-c58fcc3770
+      - s-eab0900a04
+      - s-a5df055691
+      - s-3c05257929
+      - s-9b0125ce21
+      - s-c55dd70185
+      - s-c682225cfb
+      - s-c0df92331f
+      - s-25ea5b9ff0
+      - s-72ab697ee6
+      - s-4817f37409
+      - s-9c120ea6cd
+      - s-6eee018a9b
+      - s-9a7e1b6de9
+      - s-9fc6160bcb
+      - s-bf99ca918b
+      - s-9878d969ba
+    zh:
+      - s-d7610f64c3
+      - s-747340edf0
+      - s-c880795a61
+      - s-2402c6a39c
+      - s-a3b9beac07
+      - s-86f788f9ed
+      - s-5a2169648b
+      - s-97d6116d78
+      - s-40e8858f13
+      - s-23fddac9fb
+      - s-0004d245fd
+      - s-fa21976b6a
+      - s-bd9b5c499d
+      - s-110a66841f
+      - s-c6acec639a
+      - s-52f1b60cd5
+      - s-25d02ad328
+      - s-0456c0f891

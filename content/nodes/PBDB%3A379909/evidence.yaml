@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lagostomus telenkechanum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Lagostomus telenkechanum
+      en: Lagostomus telenkechanum
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-58fbadc95e
+            part: body
+          en:
+            page: en
+            section: s-cdbe8a5d4e
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1861f952f6
+            part: body
+          en:
+            page: en
+            section: s-53841cb5c3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-78e8995ab8
+            part: body
+          en:
+            page: en
+            section: s-2e2c1b8066
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d102dab422
+            part: body
+          en:
+            page: en
+            section: s-43e437cc3b
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-712873b1e7
+            part: body
+          en:
+            page: en
+            section: s-7b1896b416
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Lagostomus telenkechanum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=379909&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:379909; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:379909
+          selectedOccurrenceIds:
+            - occ:1427156
+            - occ:1505385
+            - occ:1632169
+            - occ:1632171
+            - occ:1632173
+            - occ:1632176
+            - occ:1632178
+            - occ:1632180
+            - occ:1632182
+            - occ:1632184
+            - occ:1632186
+            - occ:1632188
+            - occ:1632190
+          selectedCollectionIds:
+            - col:79180
+            - col:13502
+            - col:140932
+            - col:152067
+            - col:140925
+            - col:204598
+            - col:206260
+            - col:206031
+            - col:151500
+            - col:204363
+            - col:152061
+            - col:152065
+            - col:152063
+          sourceReferenceIds:
+            - ref:67585
+            - ref:72411
+            - ref:85601
+          originalIdentificationMappings:
+            - occurrenceId: occ:1427156
+              originalIdentifiedName: Lagostomus telenkechanum n. sp.
+              acceptedName: Lagostomus telenkechanum
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-aad22cbad0
+        part: body
+      en:
+        page: en
+        section: s-fc1529c9ef
+        part: body

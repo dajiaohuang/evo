@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dyscophinae Boulenger, 1882
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Dyscophinae
+      zh: Dyscophinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-de61b4eb70
+            part: title
+          zh:
+            page: zh
+            section: s-54a6787310
+            part: title
+        text:
+          en:
+            page: en
+            section: s-de61b4eb70
+            part: body
+          zh:
+            page: zh
+            section: s-54a6787310
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-50c8163e8a
+            part: title
+          zh:
+            page: zh
+            section: s-8b8ccde811
+            part: title
+        text:
+          en:
+            page: en
+            section: s-50c8163e8a
+            part: body
+          zh:
+            page: zh
+            section: s-8b8ccde811
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-7af55c227c
+            part: title
+          zh:
+            page: zh
+            section: s-8bcada6a30
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: "4946"
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4946
+            label:
+              en: Dyscophus
+              zh: Dyscophus
+        text:
+          en:
+            page: en
+            section: s-7af55c227c
+            part: body
+          zh:
+            page: zh
+            section: s-8bcada6a30
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dyscophinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JH5
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fda4f2a245
+        part: body
+      zh:
+        page: zh
+        section: s-76d62ff8e4
+        part: body

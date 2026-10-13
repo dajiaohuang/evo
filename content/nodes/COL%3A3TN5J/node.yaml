@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus labrosus
+  displayName: Leptodactylus labrosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN5J
+  sourceIndexes:
+    - name:
+        en: Leptodactylus labrosus
+        zh: Leptodactylus labrosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN5J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/398
+            queryName: Leptodactylus labrosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/239
+            queryName: Leptodactylus curtus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b02ee94694
+      - s-b6aaea46f4
+      - s-5f66831f6d
+      - s-86ac4138e6
+      - s-92fc52e701
+      - s-3011314168
+      - s-ac2f144785
+      - s-42ac530823
+      - s-2eaee20216
+      - s-30b05e158e
+      - s-26570236d1
+      - s-18ea25bc9a
+      - s-e41a0a3436
+      - s-ccc3071ca3
+      - s-0aeb21fce3
+    zh:
+      - s-d0a6c1de84
+      - s-7dc259484b
+      - s-971fca6a5c
+      - s-1ebcc21681
+      - s-9a3bf1b5d4
+      - s-bcee908fbb
+      - s-f85bb1c5f6
+      - s-41f6e6341d
+      - s-e8d501c5c7
+      - s-89b704fd5a
+      - s-be802f6be7
+      - s-eb4cff79af
+      - s-f9f8cd3d3e
+      - s-e3ff602e66
+      - s-82723517d8

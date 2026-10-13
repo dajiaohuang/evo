@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus brunneus
+  displayName: Brachycephalus brunneus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6928V
+  sourceIndexes:
+    - name:
+        en: Brachycephalus brunneus
+        zh: Brachycephalus brunneus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6928V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/402
+            queryName: Brachycephalus brunneus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-26823678bf
+      - s-3c4d0626fa
+      - s-2cddaabcbe
+      - s-2f367c6bb0
+      - s-4a5a803df5
+      - s-c8736ab112
+      - s-7bd704978c
+      - s-1eba8d7cd2
+      - s-fd129c5d97
+      - s-7814b9057b
+      - s-558795259c
+      - s-f93ada9f61
+      - s-b21c977ecb
+      - s-eb8aef784e
+      - s-f670f230bb
+      - s-8e8367b8d7
+      - s-8c8ae9002c
+      - s-734904371d
+    zh:
+      - s-65eb2b21f0
+      - s-8018838b0c
+      - s-75bdcd3785
+      - s-da2ff1520e
+      - s-b49b11bf5e
+      - s-2e5095a889
+      - s-0de1cdcda6
+      - s-992efbc152
+      - s-e847b4b0a0
+      - s-401d58383e
+      - s-3d42f6525f
+      - s-b223b29f86
+      - s-a50822f63f
+      - s-1be493fd28
+      - s-922de3c470
+      - s-2992c73816
+      - s-8b9bb1d357
+      - s-d4954470e2

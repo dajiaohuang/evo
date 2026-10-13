@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa alvaradoi
+  displayName: Bolitoglossa alvaradoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDMX
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa alvaradoi
+        zh: Bolitoglossa alvaradoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDMX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/79
+            queryName: Bolitoglossa alvaradoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/64
+            queryName: Bolitoglossa arborescandens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8157ad58b7
+      - s-e9cc25e30b
+      - s-fb54368023
+      - s-57f8db03db
+      - s-ff19b42324
+      - s-0bc1193a4a
+      - s-feff3da082
+      - s-2b453ef786
+    zh:
+      - s-af24118833
+      - s-9f5a905f7a
+      - s-290eeec56c
+      - s-d7efdfc6e4
+      - s-9e17655cac
+      - s-17e25405f0
+      - s-423c7ff37e
+      - s-019a0d2e59

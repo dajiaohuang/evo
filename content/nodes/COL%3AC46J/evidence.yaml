@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloe vandermerwei Reynolds
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage C46J, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage C46J; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/C46J
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage C46J
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000758963-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL C46J / WFO wfo-0000758963
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13236_0
+        referenceId: ref-4e1f793f-f50b-865d-ac17-a11eeda46a6e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe vandermerwei Reynolds account; SANBI/WFO archive rows 79395 (Morphology), 78857 (Habitat), source identifier 13236.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants acaulescent, freely suckering and forming dense groups. Leaves 15-20, rosulate, up to 60 cm long, but only 3.5 cm broad (about 16 times longer than broad), linear, tapering upwards; upper surface flat low down, slightly channelled near apex, dark green, with large dull to distinct whitish elongated.spots arranged more or less in undulating interrupted transverse bands; lower surface convex, paler green, usually distinctly spotted, the spots more confluent and in more pronounced bands than the upper surface; margins sinuate-dentate, armed with firm deltoid pale brownish teeth 3-4 mm long, 10-15 mm distant, the interspaces rounded and the green colour of the leaf. (Leaf sap dries deep purple.) Inflorescence a blanched panicle about 1 met. high. Peduncle rather slender, branched above the middle with 6-10 arcuate-erect branches, the lowest subtended at base by a thin scarious many-nerved bract about 20-25 mm long, 10 mm broad at base. Racemes the terminal 10-20 cm long, rather laxly about 25-flowered, cylindric slightly acuminate, about 7 cm diam., the terminal the highest, the lateral lower shorter and fewer flowered. Bracts deltoid-acuminate, lowest of terminal racemes up to 10 mm long, 3 mm broad, thin scarious brownish 3-5-nerved. Pedicels lowest 10 mm long. Perianth flesh-pink to pale pinkish-red, 30 mm long, with a basal swelling 7-8 mm diam., constricted above the ovary to 5 mm, thence slightly decurved and enlarging towards the throat to 9 mm,, the mouth wide open; outer segments free for 9-10 mm, about 5-nerved, the nerves reddish and confluent at apex, with a broad whitish border 1-l.5 mm broad, the apices sub-acute, slightly spreading; inner segments themselves free but dorsally adnate to the outer for their greater length, broader than the outer, with broader white marginal border and more obtuse more spreading apices. Filaments filiform-flattened, the 3 inner narrower and lengthening in advance of the 3 outer, with their anthers in turn exserted 1-2 mm Stigma at length exserted 2 mm. Ovary 6 mm long, 2-5 mm diam., finely 6-grooved, pale green. Capsule 3 cm long, 1 cm diam.
+            textZh: Aloe vandermerwei Reynolds 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Morphology row 79395; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: A. vandermerwei is a most distinctive species; it occurs in red clayey soil in grassveld in openings among acacia and lowveld and other trees, in a locality which sometimes experiences 110 deg. F. in summer.
+            textZh: 该 SANBI 区域物种条目记录的生境：A. vandermerwei is a most distinctive species; it occurs in red clayey soil in grassveld in openings among acacia and lowveld and other trees, in a locality which sometimes experiences 110 deg. F. in summer.
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Habitat row 78857; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-c2bd3d54df}
+This record shows how TadpoleTraits files tadpoles under Boulenophrys ombrophila. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Boulenophrys ombrophila in Boulenophrys and Megophryidae. In the literature table, rows 3508, 3509, 3510, 3511 list source Species Brachytarsophrys ombrophila → Species (ASTW) Boulenophrys ombrophila. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-c0636d4564}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 4 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 25 (row 3508); 26 (row 3509); 27 (row 3510); 36 (row 3511). Sample size is entered by row (row 3508: n=1; row 3509: n=1; row 3510: n=1; row 3511: n=1). These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

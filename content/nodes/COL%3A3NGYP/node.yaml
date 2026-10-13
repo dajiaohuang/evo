@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus yasuni
+  displayName: Hyloxalus yasuni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGYP
+  sourceIndexes:
+    - name:
+        en: Hyloxalus yasuni
+        zh: Hyloxalus yasuni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGYP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/141
+            queryName: Hyloxalus yasuni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ceb3e235c
+      - s-59d870bb3f
+      - s-04a8190613
+      - s-3dc7d23173
+      - s-b6dff18acc
+      - s-709c63dee6
+      - s-f80bde41c6
+      - s-94c95094d8
+      - s-3fa897ebf3
+      - s-eda6727af4
+    zh:
+      - s-09460b5237
+      - s-81074f1169
+      - s-b0e8389bab
+      - s-cab5653e10
+      - s-5f2815795e
+      - s-a3de2f792b
+      - s-b317776371
+      - s-af50ef456d
+      - s-b79c96731f
+      - s-cfe83f32c0

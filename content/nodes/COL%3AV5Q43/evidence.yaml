@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nasutibatrachus Richards, Mahony & Donnellan in Donnellan et al., 2025
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Nasutibatrachus
+      zh: Nasutibatrachus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-192ad999ec
+            part: title
+          zh:
+            page: zh
+            section: s-f3af2e05dc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-192ad999ec
+            part: body
+          zh:
+            page: zh
+            section: s-f3af2e05dc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-77ab340b97
+            part: title
+          zh:
+            page: zh
+            section: s-c22c51e7e8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-77ab340b97
+            part: body
+          zh:
+            page: zh
+            section: s-c22c51e7e8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-a14ccb0420
+            part: title
+          zh:
+            page: zh
+            section: s-41541a2419
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5H7K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5H7K
+            label:
+              en: Nasutibatrachus mareku
+              zh: Nasutibatrachus mareku
+          - kind: catalogue
+            colId: V5LJ8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5LJ8
+            label:
+              en: Nasutibatrachus mucro
+              zh: Nasutibatrachus mucro
+          - kind: catalogue
+            colId: V5KLR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5KLR
+            label:
+              en: Nasutibatrachus pinocchio
+              zh: Nasutibatrachus pinocchio
+          - kind: catalogue
+            colId: V5DHN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5DHN
+            label:
+              en: Nasutibatrachus pronimius
+              zh: Nasutibatrachus pronimius
+          - kind: catalogue
+            colId: V5CCB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5CCB
+            label:
+              en: Nasutibatrachus vivissimia
+              zh: Nasutibatrachus vivissimia
+        text:
+          en:
+            page: en
+            section: s-a14ccb0420
+            part: body
+          zh:
+            page: zh
+            section: s-41541a2419
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-eb68c479e8
+            part: body
+          zh:
+            page: zh
+            section: s-313375de51
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nasutibatrachus
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5Q43
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-649e5d707d
+        part: body
+      zh:
+        page: zh
+        section: s-e6c03077c0
+        part: body

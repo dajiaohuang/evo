@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Petropedetes
+  displayName: Petropedetes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6M5H
+  sourceIndexes:
+    - name:
+        en: Petropedetes
+        zh: Petropedetes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6M5H
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/152
+            queryName: Petropedetes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 206
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7899b6e109
+      - s-8b96ee0b9d
+      - s-6e9f42bf9b
+      - s-28feaa6739
+      - s-509c6fb524
+      - s-6fb65be0ec
+      - s-4a18a9cee3
+      - s-215dcdd589
+      - s-7e67e4985c
+    zh:
+      - s-70520fc4d2
+      - s-33d708a4d6
+      - s-f13bc8bf12
+      - s-117b9664e7
+      - s-9321a93ad8
+      - s-206022ec57
+      - s-e7e6c82bf7
+      - s-b8844a1045
+      - s-d6d7f67ecf

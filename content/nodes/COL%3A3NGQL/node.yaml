@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus sarampiona
+  displayName: Hyloscirtus sarampiona
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGQL
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus sarampiona
+        zh: Hyloscirtus sarampiona
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGQL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/69
+            queryName: Hyloscirtus sarampiona
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/461
+            queryName: Hyla sarampiona
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/402
+            queryName: Boana sarampiona
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-68dbaf8366
+      - s-e238fa3ff6
+      - s-812e4bb37e
+      - s-1226592bc1
+      - s-1b2c73eba0
+      - s-49e5c3733f
+      - s-edbc7722ee
+      - s-77f4b6c7b1
+    zh:
+      - s-d488fe6a54
+      - s-5490472da7
+      - s-552dd3096f
+      - s-bb592d8451
+      - s-926cbd45d5
+      - s-4751aeee36
+      - s-3b4e1b1ada
+      - s-c8193317e7

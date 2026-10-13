@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mini mum
+  displayName: Mini mum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/43JGZ
+  sourceIndexes:
+    - name:
+        en: Mini mum
+        zh: Mini mum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 43JGZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/119
+            queryName: Mini mum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8318
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0cbbe8803b
+      - s-c7b23933cb
+      - s-7d4be60e48
+      - s-e402c4b56d
+      - s-769ec98894
+      - s-2c594e3c5c
+    zh:
+      - s-a295850536
+      - s-2ac3acfc02
+      - s-094ad05b3e
+      - s-cf6b298692
+      - s-7802ad33fb
+      - s-204d4454c0

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Luetkenotyphlus insulanus
+  displayName: Luetkenotyphlus insulanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QBSW8
+  sourceIndexes:
+    - name:
+        en: Luetkenotyphlus insulanus
+        zh: Luetkenotyphlus insulanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QBSW8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/238
+            queryName: Luetkenotyphlus insulanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/398
+            queryName: Siphonops insulanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-39de413ce3
+      - s-87a538eaf7
+      - s-1f4392d9f7
+      - s-a0a7f43a4a
+      - s-f1ac4846a0
+      - s-aeca5c16c1
+      - s-45b62de3e0
+      - s-6ec77df6db
+      - s-cfdbefe741
+      - s-d7419253cc
+      - s-6382d42689
+    zh:
+      - s-d85b0ad54e
+      - s-f792dd9fae
+      - s-f75228e689
+      - s-2177b7a877
+      - s-7122f47a7e
+      - s-a7e1b5f50d
+      - s-d5e6cd0940
+      - s-ed6b99edeb
+      - s-283b86dc86
+      - s-9d5caf9ef5
+      - s-7d308950fb

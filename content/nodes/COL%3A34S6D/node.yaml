@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus nahdereri
+  displayName: Dendropsophus nahdereri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S6D
+  sourceIndexes:
+    - name:
+        en: Dendropsophus nahdereri
+        zh: Dendropsophus nahdereri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S6D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/394
+            queryName: Dendropsophus nahdereri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/405
+            queryName: Hyla nahdereri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e7916da31
+      - s-4f013896e4
+      - s-1e00d7210c
+      - s-5f2953c757
+      - s-8041ffe1bf
+      - s-e6db37cd31
+      - s-e78c08d037
+      - s-ca1147bdd5
+      - s-84b2bb8105
+      - s-611eb03f67
+      - s-217d53df6c
+      - s-16d4dee320
+      - s-6dfa10f3a9
+      - s-30c0e51d65
+      - s-4e3be818af
+      - s-8557ac2717
+      - s-42c1015aab
+    zh:
+      - s-da43b6c29a
+      - s-383c36c823
+      - s-b8de3a1942
+      - s-1101f9fd87
+      - s-efaeb89fa2
+      - s-f8f6de2c2d
+      - s-e0f797aaca
+      - s-2a1046aad5
+      - s-1b51b7221b
+      - s-c8d400fba1
+      - s-a3f61c5e6f
+      - s-7f674514da
+      - s-e3ad5eb070
+      - s-9a59459309
+      - s-e94a416298
+      - s-f111c36f51
+      - s-cf9f107e71

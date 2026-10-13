@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana supragrisea
+  displayName: Hylarana supragrisea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MMTH
+  sourceIndexes:
+    - name:
+        en: Hylarana supragrisea
+        zh: Hylarana supragrisea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MMTH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/480
+            queryName: Hylarana supragrisea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/197
+            queryName: Rana supragrisea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/373
+            queryName: Papurana supragrisea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/374
+            queryName: Sylvirana supragrisea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ed5d894149
+      - s-7f8b8413f1
+      - s-42afdefc22
+      - s-468c234e94
+      - s-3812e4ccfb
+      - s-7fe704b1d1
+      - s-0e56587f17
+      - s-6cadc6a327
+      - s-2626be9c38
+      - s-dbcd09e6a3
+      - s-e857bf5f14
+    zh:
+      - s-3998d650b6
+      - s-0215ba455f
+      - s-3a88cfad2b
+      - s-6967499f5d
+      - s-f97ccd77aa
+      - s-c4e0cc6b0f
+      - s-d2f933a381
+      - s-2022b0f36f
+      - s-425b4e8de7
+      - s-523ea97069
+      - s-2d270925b4

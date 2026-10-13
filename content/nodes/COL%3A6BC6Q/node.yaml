@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor occidentalis
+  displayName: Craugastor occidentalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC6Q
+  sourceIndexes:
+    - name:
+        en: Craugastor occidentalis
+        zh: Craugastor occidentalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC6Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/148
+            queryName: Craugastor occidentalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/145
+            queryName: Eleutherodactylus occidentalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/328
+            queryName: Borborocoetes mexicanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/329
+            queryName: Hylactophryne mexicanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/330
+            queryName: Hylactophryne occidentalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f1a6f58ed4
+      - s-c5fe03a931
+      - s-2a75713ddd
+      - s-73efe3986a
+      - s-829e642ba0
+      - s-ef4936933c
+      - s-815ef53785
+      - s-9315e7ba2c
+      - s-e0e0bebcc9
+      - s-71f7b7d97c
+      - s-15c63c219e
+      - s-df6208c321
+      - s-53a3308f7e
+      - s-83c5d2da00
+    zh:
+      - s-ccfe500251
+      - s-d8d14057e9
+      - s-7f5eb989f3
+      - s-d3bd532cec
+      - s-e7d1a612b1
+      - s-2014b1bb50
+      - s-cfac238834
+      - s-444abd8f04
+      - s-5e62242c2d
+      - s-2046a57506
+      - s-f724c483e4
+      - s-dd3c4ca967
+      - s-9ec10d9d71
+      - s-5771607cc3

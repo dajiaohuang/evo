@@ -1,0 +1,391 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhea pennata
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Rhea pennata
+      en: Rhea pennata
+    sections:
+      - topic: genomeMaterial
+        sourceIds:
+          - sackton2019FlightLossReader
+          - cloutier2019PalaeognathReader
+          - ncbi2019PalaeognathWgsReader
+        text:
+          zh:
+            page: zh
+            section: s-4fcb074530
+            part: body
+          en:
+            page: en
+            section: s-6a157969b3
+            part: body
+      - topic: phylogeneticComparison
+        sourceIds:
+          - sackton2019FlightLossReader
+          - cloutier2019PalaeognathReader
+        text:
+          zh:
+            page: zh
+            section: s-bbd49d5cd0
+            part: body
+          en:
+            page: en
+            section: s-8ded03774d
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-895225d948
+            part: body
+          en:
+            page: en
+            section: s-8cd42439c2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-e96c2185ff
+            part: body
+          en:
+            page: en
+            section: s-800701e136
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-5f6d869245
+            part: body
+          en:
+            page: en
+            section: s-fc1e024b1a
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-31b74e294b
+            part: body
+          en:
+            page: en
+            section: s-9630ea0524
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-4bc3bedeb5
+            part: body
+          en:
+            page: en
+            section: s-37e0b41014
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f10e840b90
+            part: body
+          en:
+            page: en
+            section: s-796a1ae714
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e664330a52
+            part: body
+          en:
+            page: en
+            section: s-8723abfcbe
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-760a42da51
+            part: body
+          en:
+            page: en
+            section: s-8a1399c69c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhea pennata
+          url: https://www.checklistbank.org/dataset/316115/taxon/4S5KZ
+          locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 9434; name Rhea pennata; reference table row 9434; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - litter_or_clutch_size_n
+            - birth_or_hatching_weight_g
+            - incubation_d
+          originalReferenceStrings:
+            adult_body_mass_g: mean of BC Birds - Lambertucci,S.A., Trejo, A., Martino, S.D., et al, 2009 & BC Birds - Harris, T., 2009 from median of 10(BC Birds - Meyers et al., 2009, BC Birds - Lambertucci,S.A., Trejo, A., Martino, S.D., et al, 2009, BC Birds - Harris, T., 2009, Dunning, 1992, Dunning, 1992, BC Birds - Lambertucci,S.A., Trejo, A., Martino, S.D., et al, 2009, BC Birds - Meyers et al., 2009, Bennett, 1986, Werner and Griebeler, 2012, Werner and Griebeler, 2013)
+            litter_or_clutch_size_n: mean of BC Birds - Meyers et al., 2009 & Werner and Griebeler, 2013 from median of 8(Bennett, 1986, Dickison, M.R., 2007, BC Birds - Wilson, 2003, BC Birds - Meyers et al., 2009, Werner and Griebeler, 2012, Werner and Griebeler, 2013, BC Birds - Meyers et al., 2009, BC Birds - Wilson, 2003)
+            birth_or_hatching_weight_g: Davies, S.J.J.F., 2002 from median of 3(Davies, S.J.J.F., 2002, Davies, S.J.J.F., 2002, Davies, S.J.J.F., 2002)
+            incubation_d: mean of Dickison, M.R., 2007 & BC Birds - Wilson, 2003 from median of 4(BC Birds - Meyers et al., 2009, Dickison, M.R., 2007, BC Birds - Meyers et al., 2009, BC Birds - Wilson, 2003)
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - Bennett, 1986
+            - Werner and Griebeler, 2012
+            - Werner and Griebeler, 2013
+            - BC Birds - Meyers et al., 2009
+            - BC Birds - Lambertucci,S.A., Trejo, A., Martino, S.D., et al, 2009
+            - BC Birds - Harris, T., 2009
+            - Dickison, M.R., 2007
+            - BC Birds - Wilson, 2003
+            - Davies, S.J.J.F., 2002
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 4; Scientific=Rhea pennata; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              certainty: A
+            foraging:
+              fields:
+                - ForStrat-watbelowsurf
+                - ForStrat-wataroundsurf
+                - ForStrat-ground
+                - ForStrat-understory
+                - ForStrat-midhigh
+                - ForStrat-canopy
+                - ForStrat-aerial
+              references:
+                - id: Ref_1
+                  verbatim: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              speciesLevel: "1"
+          withheldFieldGroups: []
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: sackton2019FlightLossReader
+        referenceId: ref-5bd64bcf-d144-4042-85d0-7698b80a8c94
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - sourceVersion
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Convergent regulatory evolution and loss of flight in paleognathous birds
+          url: https://doi.org/10.1126/science.aat7244
+          accessedAt: 2026-10-03
+          locator: Published main Science PDF, all main scientific text and captions; figure 1 pixels only; no supplements or rerun
+          scope:
+            zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+            en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+      - id: cloutier2019PalaeognathReader
+        referenceId: ref-21d5a78e-cddb-4430-8d22-79f8a455bf0b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - sourceVersion
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Whole-Genome Analyses Resolve the Phylogeny of Flightless Birds (Palaeognathae) in the Presence of an Empirical Anomaly Zone
+          url: https://doi.org/10.1093/sysbio/syz019
+          accessedAt: 2026-10-03
+          locator: "PMC6857515: sampling, selected marker extraction and species-tree methods, selected results, discussion paragraphs 100–109; not whole-paper review"
+          scope:
+            zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+            en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+      - id: ncbi2019PalaeognathWgsReader
+        referenceId: ref-6337e69a-f577-45e0-a7d8-aa22aed8fb47
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: NCBI GenBank WGS master records for ten extant palaeognath genomes in BioProject PRJNA433110
+          url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA433110
+          accessedAt: 2026-10-03
+          locator: "Ten GenBank WGS master records: specimen fields only; no raw sequence reanalysis"
+          scope:
+            zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+            en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+    limitations:
+      zh:
+        page: zh
+        section: s-eb587aa087
+        part: body
+      en:
+        page: en
+        section: s-0510d70422
+        part: body

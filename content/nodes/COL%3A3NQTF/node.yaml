@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius frontalis
+  displayName: Hyperolius frontalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQTF
+  sourceIndexes:
+    - name:
+        en: Hyperolius frontalis
+        zh: Hyperolius frontalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQTF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/250
+            queryName: Hyperolius frontalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-52975013ff
+      - s-aa1df2302c
+      - s-3d40bace6c
+      - s-35a82e60b6
+      - s-b554f8a0aa
+      - s-dff3c11939
+      - s-76958f06f6
+      - s-4ec4a870f4
+      - s-6a14fe7128
+      - s-3d8d22f6c5
+      - s-2c1c877c6f
+      - s-8e38650f77
+      - s-a4e13ecbc0
+      - s-7a34c1c517
+      - s-ea6c3653ee
+      - s-611eca7333
+      - s-2b3416e053
+    zh:
+      - s-6f93875488
+      - s-4f76b160f7
+      - s-3487df1fb3
+      - s-b527b30602
+      - s-15ecf585dd
+      - s-d769ec32b0
+      - s-c54bcf253d
+      - s-1044bd8c48
+      - s-c49450f970
+      - s-cf206cfc9a
+      - s-f90b9f6ca7
+      - s-88f1f6063e
+      - s-1f15a5ab36
+      - s-99c5bd0c21
+      - s-5323778447
+      - s-53aa467aed
+      - s-8b5e7858e0

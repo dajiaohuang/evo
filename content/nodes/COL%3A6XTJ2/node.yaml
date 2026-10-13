@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiopus hurterii
+  displayName: Scaphiopus hurterii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XTJ2
+  sourceIndexes:
+    - name:
+        en: Scaphiopus hurterii
+        zh: Scaphiopus hurterii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XTJ2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/2
+            queryName: Scaphiopus hurterii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/314
+            queryName: Scaphiopus holbrookii hurterii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1eed53c2be
+      - s-39a5a7a2af
+      - s-30dadb57fb
+      - s-ff117dc6a6
+      - s-abc37d2a11
+      - s-1fe6d22cf5
+      - s-bea61d5fe7
+      - s-fc87b4a999
+      - s-c4981a870b
+      - s-7c51f24b36
+      - s-4a29668ece
+      - s-728dc4e4e7
+    zh:
+      - s-3e667a4813
+      - s-082e660547
+      - s-da0fad3d9f
+      - s-91634c4422
+      - s-c319f40ec6
+      - s-5f66a27abe
+      - s-7439d0264f
+      - s-7076814ecd
+      - s-01286240dd
+      - s-ec746ae560
+      - s-40860a87f1
+      - s-ee449fa17a

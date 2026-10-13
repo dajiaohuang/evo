@@ -1,0 +1,425 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nymphargus cristinae (Ruiz-Carranza & Lynch, 1995)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nymphargus cristinae
+      zh: Nymphargus cristinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c8d09ea94e
+            part: title
+          zh:
+            page: zh
+            section: s-e17a9b6f9a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c8d09ea94e
+            part: body
+          zh:
+            page: zh
+            section: s-e17a9b6f9a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a51b332c59
+            part: title
+          zh:
+            page: zh
+            section: s-043bb1bf66
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a51b332c59
+            part: body
+          zh:
+            page: zh
+            section: s-043bb1bf66
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4f58ef3cbb
+            part: title
+          zh:
+            page: zh
+            section: s-cf37b66f5d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-4f58ef3cbb
+            part: body
+          zh:
+            page: zh
+            section: s-cf37b66f5d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a8443415b2
+            part: title
+          zh:
+            page: zh
+            section: s-ad6a9210aa
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-a8443415b2
+            part: body
+          zh:
+            page: zh
+            section: s-ad6a9210aa
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-f6f017ed86
+            part: title
+          zh:
+            page: zh
+            section: s-5c4f493578
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-f6f017ed86
+            part: body
+          zh:
+            page: zh
+            section: s-5c4f493578
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a2e0463312
+            part: title
+          zh:
+            page: zh
+            section: s-80122f0640
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-a2e0463312
+            part: body
+          zh:
+            page: zh
+            section: s-80122f0640
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-2e2bfa14c564ab6b6ad7a85408643807
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-65e7d3f619
+            part: title
+          zh:
+            page: zh
+            section: s-0dd6394275
+            part: title
+        sourceIds:
+          - primary-pmc13061190-486jh
+        text:
+          en:
+            page: en
+            section: s-65e7d3f619
+            part: body
+          zh:
+            page: zh
+            section: s-0dd6394275
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b1bc5bae3a
+            part: title
+          zh:
+            page: zh
+            section: s-26f6c3820d
+            part: title
+        sourceIds:
+          - primary-pmc13061190-486jh
+        text:
+          en:
+            page: en
+            section: s-b1bc5bae3a
+            part: body
+          zh:
+            page: zh
+            section: s-26f6c3820d
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-fc32aa7a23
+            part: title
+          zh:
+            page: zh
+            section: s-9d3ae9cf2b
+            part: title
+        sourceIds:
+          - primary-pmc13061190-486jh
+        text:
+          en:
+            page: en
+            section: s-fc32aa7a23
+            part: body
+          zh:
+            page: zh
+            section: s-9d3ae9cf2b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nymphargus cristinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/486JH
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0977; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0977 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13061190-486jh
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nymphargus cristinae: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c0f66fbdcb
+        part: body
+      zh:
+        page: zh
+        section: s-dd591beef9
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-2e2bfa14c564ab6b6ad7a85408643807
+      sourceRowId: Anf0977
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0977
+        bibliographyRowId: Anf0977
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Nymphargus cristinae
+        candidateBibliographyRowIds:
+          - Anf0977
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0345097
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        sourceKey: primary-pmc13061190-486jh
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/article.xml
+        sourceConcept: Exact frozen accepted name matched to source diagnostic comparison/sampled lineage; qualified candidates and disputed donors kept separately
+        evidenceRead: "Nymphargus cristinae: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A diagnostic comparison with the El Quimi glassfrog
+              zh: 与El Quimi玻璃蛙的鉴别比较
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-486jh
+            locator: PMC13061190 XMLsec018 paragraphs1–2 comparative diagnosis
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b940a85810
+                part: body
+              zh:
+                page: zh
+                section: s-fa33217f7f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: What the shared study can support
+              zh: 共享研究能够支持的内容
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-486jh
+            locator: PMC13061190 XMLsec004/007/008/009/012;sec027 supplementary captions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1eab9905a1
+                part: body
+              zh:
+                page: zh
+                section: s-b9203c618d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: occurrence
+            heading:
+              en: Examined specimens keep their original locality labels
+              zh: 所检标本保留原地点标签
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-486jh
+            locator: PMC13061190 pone.0345097.s003.pdf page1 printedlines13–14;sha256:d351101d5be8aa9fa37aa4cf7010e754054d2fb8cc98e34e59c8edf34452b0f6;renderedpage independentlyread
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f85cbba339
+                part: body
+              zh:
+                page: zh
+                section: s-44b7ed08fe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,411 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-9de6119b45
+      part: title
+    titleZh: 软体动物与腕足动物体制的十三个证据案例
+    dek:
+      page: en
+      section: s-9de6119b45
+      part: body
+    theme: ocean
+    durationMinutes: 21
+    featured: true
+    steps:
+      - id: kimberella-body-plan
+        title:
+          page: en
+          section: s-a1516d15e8
+          part: title
+        titleZh:
+          page: zh
+          section: s-a85c47d176
+          part: title
+        text:
+          page: en
+          section: s-a1516d15e8
+          part: body
+        textZh:
+          page: zh
+          section: s-a85c47d176
+          part: body
+        age: 556.5
+        timeRange:
+          - 558
+          - 555
+        taxonIds:
+          - molluscan-origin-dossiers
+          - kimberella
+        view: evidence
+        eventId: kimberella-white-sea-morphology
+        annotation: A named Ediacaran sample tests character homology without becoming a direct ancestor or global Mollusca first appearance.
+        claimLinks:
+          - claimId: claim:event:kimberella-white-sea-morphology
+            relation: supports
+      - id: odontogriphus-radula
+        title:
+          page: en
+          section: s-cde2412f41
+          part: title
+        titleZh:
+          page: zh
+          section: s-543ca16103
+          part: title
+        text:
+          page: en
+          section: s-cde2412f41
+          part: body
+        textZh:
+          page: zh
+          section: s-543ca16103
+          part: body
+        age: 506.5
+        timeRange:
+          - 508
+          - 505
+        taxonIds:
+          - molluscan-origin-dossiers
+          - odontogriphus
+        view: evidence
+        eventId: odontogriphus-radula-sample
+        annotation: The geometry is observed; radular homology and stem-mollusc placement remain comparative conclusions.
+        claimLinks:
+          - claimId: claim:event:odontogriphus-radula-sample
+            relation: supports
+      - id: orthrozanclus-mosaic
+        title:
+          page: en
+          section: s-9c8970c9d0
+          part: title
+        titleZh:
+          page: zh
+          section: s-d8f02056e5
+          part: title
+        text:
+          page: en
+          section: s-9c8970c9d0
+          part: body
+        textZh:
+          page: zh
+          section: s-d8f02056e5
+          part: body
+        age: 506.5
+        timeRange:
+          - 508
+          - 505
+        taxonIds:
+          - molluscan-origin-dossiers
+          - orthrozanclus
+        view: tree
+        eventId: orthrozanclus-halwaxiid-mosaic
+        annotation: Halwaxiida is a scored topology, not an observed ancestor chain or secure crown assignment.
+        claimLinks:
+          - claimId: claim:event:orthrozanclus-halwaxiid-mosaic
+            relation: supports
+      - id: pojetaia-shell
+        title:
+          page: en
+          section: s-d8280cffd0
+          part: title
+        titleZh:
+          page: zh
+          section: s-a49ceb5490
+          part: title
+        text:
+          page: en
+          section: s-d8280cffd0
+          part: body
+        textZh:
+          page: zh
+          section: s-a49ceb5490
+          part: body
+        age: 517
+        timeRange:
+          - 521
+          - 513
+        taxonIds:
+          - bivalvia
+          - pojetaia
+        view: evidence
+        eventId: pojetaia-shell-microstructure
+        annotation: Preservation and homology limit mineral interpretation; the sections do not establish every bivalve shell pathway.
+        claimLinks:
+          - claimId: claim:event:pojetaia-shell-microstructure
+            relation: supports
+      - id: nectocaris-test
+        title:
+          page: en
+          section: s-5816764d91
+          part: title
+        titleZh:
+          page: zh
+          section: s-57e0bb6528
+          part: title
+        text:
+          page: en
+          section: s-5816764d91
+          part: body
+        textZh:
+          page: zh
+          section: s-57e0bb6528
+          part: body
+        age: 506.5
+        timeRange:
+          - 508
+          - 505
+        taxonIds:
+          - molluscan-origin-dossiers
+          - nectocaris
+          - cephalopoda
+        view: tree
+        eventId: nectocaris-soft-body-cephalopod-test
+        annotation: Missing shell, siphuncle, beak and radula evidence keeps the cephalopod placement explicitly contested.
+        claimLinks:
+          - claimId: claim:event:nectocaris-soft-body-cephalopod-test
+            relation: supports
+      - id: aculifera-matrix
+        title:
+          page: en
+          section: s-d4a46f63fd
+          part: title
+        titleZh:
+          page: zh
+          section: s-c015eabab2
+          part: title
+        text:
+          page: en
+          section: s-d4a46f63fd
+          part: body
+        textZh:
+          page: zh
+          section: s-c015eabab2
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - mollusca
+          - aculifera
+          - polyplacophora
+          - aplacophora
+        view: tree
+        eventId: aculifera-phylogenomic-topology
+        annotation: Monoplacophora was absent and some alternatives were not rejected, so the result remains matrix-specific.
+        claimLinks:
+          - claimId: claim:event:aculifera-phylogenomic-topology
+            relation: supports
+      - id: all-class-matrix
+        title:
+          page: en
+          section: s-0c522537d1
+          part: title
+        titleZh:
+          page: zh
+          section: s-1febefad0e
+          part: title
+        text:
+          page: en
+          section: s-0c522537d1
+          part: body
+        textZh:
+          page: zh
+          section: s-1febefad0e
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - mollusca
+          - monoplacophora
+          - scaphopoda
+          - cephalopoda
+        view: tree
+        eventId: all-class-mollusc-phylogenomics
+        annotation: Conflicting deep nodes and corrected supplementary figures are retained rather than averaged into false certainty.
+        claimLinks:
+          - claimId: claim:event:all-class-mollusc-phylogenomics
+            relation: supports
+      - id: gastropod-nodal
+        title:
+          page: en
+          section: s-232d50f832
+          part: title
+        titleZh:
+          page: zh
+          section: s-f1c22f6dd6
+          part: title
+        text:
+          page: en
+          section: s-232d50f832
+          part: body
+        textZh:
+          page: zh
+          section: s-f1c22f6dd6
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - gastropoda
+        view: evidence
+        eventId: gastropod-nodal-chirality
+        annotation: This living experiment does not directly reconstruct fossil torsion or every gastropod coiling mechanism.
+        claimLinks:
+          - claimId: claim:event:gastropod-nodal-chirality
+            relation: supports
+      - id: octopus-genome
+        title:
+          page: en
+          section: s-05cc878960
+          part: title
+        titleZh:
+          page: zh
+          section: s-76ad7cc1a4
+          part: title
+        text:
+          page: en
+          section: s-05cc878960
+          part: body
+        textZh:
+          page: zh
+          section: s-76ad7cc1a4
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - coleoidea
+          - octopus-bimaculoides
+        view: evidence
+        eventId: octopus-genome-innovation
+        annotation: Comparative association is not a single-gene cause of arms, suckers or neural complexity; whole-genome duplication was not supported.
+        claimLinks:
+          - claimId: claim:event:octopus-genome-innovation
+            relation: supports
+      - id: micrina-reconstruction
+        title:
+          page: en
+          section: s-80f885cb40
+          part: title
+        titleZh:
+          page: zh
+          section: s-32e69470b9
+          part: title
+        text:
+          page: en
+          section: s-80f885cb40
+          part: body
+        textZh:
+          page: zh
+          section: s-32e69470b9
+          part: body
+        age: 525
+        timeRange:
+          - 530
+          - 520
+        taxonIds:
+          - brachiopod-origin-dossiers
+          - micrina
+        view: evidence
+        eventId: micrina-bivalved-reconstruction
+        annotation: Articulation and valve homology are reconstructions, not a preserved whole organism or settled stem topology.
+        claimLinks:
+          - claimId: claim:event:micrina-bivalved-reconstruction
+            relation: supports
+      - id: kutorgina-soft-parts
+        title:
+          page: en
+          section: s-10d054b13d
+          part: title
+        titleZh:
+          page: zh
+          section: s-a0da8afca4
+          part: title
+        text:
+          page: en
+          section: s-10d054b13d
+          part: body
+        textZh:
+          page: zh
+          section: s-a0da8afca4
+          part: body
+        age: 519
+        timeRange:
+          - 520
+          - 518
+        taxonIds:
+          - brachiopoda
+          - kutorgina-chengjiangensis
+        view: evidence
+        eventId: kutorgina-soft-tissue-anatomy
+        annotation: Direct anatomy informs comparison but does not make Kutorgina the ancestor of living rhynchonelliformeans.
+        claimLinks:
+          - claimId: claim:event:kutorgina-soft-tissue-anatomy
+            relation: supports
+      - id: lingula-multiomics
+        title:
+          page: en
+          section: s-412b56abba
+          part: title
+        titleZh:
+          page: zh
+          section: s-ecb5b77271
+          part: title
+        text:
+          page: en
+          section: s-412b56abba
+          part: body
+        textZh:
+          page: zh
+          section: s-ecb5b77271
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - brachiopoda
+          - lingula-anatina
+        view: evidence
+        eventId: lingula-genome-biomineralization
+        annotation: Shared genes do not imply shell identity, vertebrate bone homology or morphological stasis through the fossil record.
+        claimLinks:
+          - claimId: claim:event:lingula-genome-biomineralization
+            relation: supports
+      - id: yuganotheca-mosaic
+        title:
+          page: en
+          section: s-615d2f8fca
+          part: title
+        titleZh:
+          page: zh
+          section: s-64d1dfe21d
+          part: title
+        text:
+          page: en
+          section: s-615d2f8fca
+          part: body
+        textZh:
+          page: zh
+          section: s-64d1dfe21d
+          part: body
+        age: 519
+        timeRange:
+          - 520
+          - 518
+        taxonIds:
+          - brachiopod-origin-dossiers
+          - yuganotheca
+        view: tree
+        eventId: yuganotheca-tubular-lophophorate
+        annotation: COL26.8 routes 159,801 accepted living names here; that naming coverage cannot resolve this fossil mosaic or turn thirteen dossiers into an ancestor series.
+        claimLinks:
+          - claimId: claim:event:yuganotheca-tubular-lophophorate
+            relation: supports
+    evidenceStatus: available-with-limitations

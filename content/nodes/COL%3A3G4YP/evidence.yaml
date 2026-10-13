@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gladiolus saxatilis Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3G4YP, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3G4YP; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3G4YP
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3G4YP
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000790314-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3G4YP / WFO wfo-0000790314
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gladiolus saxatilis Goldblatt & J.C.Manning account; SANBI/WFO archive rows 98078 (Morphology), 96986 (Habitat), 94464 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 450-800 mm high. Corm depressed-globose, 20-35 mm diam.; tunics firm-papery, becoming partly fibrous. Stem erect or inclined to horizontal below, lightly flexed in upper third, unbranched. Leaves 6 to 10, lower 4 to 8 in basal fan reaching to between base and middle of spike, drooping if stem inclined, lanceolate to narrowly sword-shaped, (12-)18-35 mm wide, margins and main vein barely thickened, main vein placed asymmetrically, uppermost leaf inserted on ± middle of stem and sheathing upper part of stem usually to ± base of spike, without blade. Spike inclined, straight, 9- to 16-flowered; bracts initially grey-green, soft-textured, becoming dry and rusty brown at tips or ± entirely rust-brown, lightly folded in midline, outer 38-48 mm long, ± 2 internodes long, inner shorter, minutely forked. Flowers whitish flushed pale mauve or mauve to pink, darkening with age, lower 3 tepals each with pale mauve, linear to narrowly diamond-shaped median streak, unscented; perianth tube narrowly and obliquely funnel-shaped, 30-40 mm long, flared outward in upper 10 mm; tepals ovate, margins slightly undulate, 3 upper largest, 30-37 x 18-20 mm, dorsal inclined, upper laterals spreading outward in distal 1/2, lower tepals joined to upper laterals for ± 4 mm and together for ± 2 mm, lower lateral tepals ± 28 x 15 mm, spreading in distal 1/2, lower median ± 33 x 16 mm long. Filaments 16-24 mm long, exserted 10-15 mm from tube; anthers ± 9 mm long, yellow; pollen cream-coloured. Style arching over stamens, dividing 1-2 mm below anther apices, branches 5-6 mm long. Capsules globose, 3-lobed above, 8-10 mm long. Seeds oblong, 4-6 x ± 3 mm, unevenly and weakly winged.
+            textZh: Gladiolus saxatilis Goldblatt & J.C.Manning 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Morphology row 98078; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Recognised by its broad, moderately soft-textured leaves, (12-)18-35 mm wide and relatively large, pale pink flowers with perianth tube 30-40 mm long, and rusty red-brown bracts 38-48 mm long. The leaves lack the fine, closely set tertiary veins of species such as Gladiolus ferrugineus and G. varius.
+            textZh: SANBI 条目提供了 Gladiolus saxatilis Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94464; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sheltered or partly shaded quartzite cliffs or outcrops in peaty soil in crevices.
+            textZh: 该 SANBI 区域物种条目记录的生境：Sheltered or partly shaded quartzite cliffs or outcrops in peaty soil in crevices.
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Habitat row 96986; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

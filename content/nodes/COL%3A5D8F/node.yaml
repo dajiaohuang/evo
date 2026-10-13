@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis
+  displayName: Leptopelis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5D8F
+  sourceIndexes:
+    - name:
+        en: Leptopelis
+        zh: Leptopelis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5D8F
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/5
+            queryName: Leptopelis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1329
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2ef7cb70ff
+      - s-346dc5400c
+      - s-148fb26845
+      - s-cee716357b
+      - s-2ab56f6f82
+      - s-20f5738f0e
+      - s-c546d764ce
+      - s-5e34b70e78
+      - s-98e48204b8
+      - s-fb4ca691b4
+      - s-eaacf88649
+      - s-e09d3576cc
+      - s-c8cf9c704c
+      - s-4c73974fad
+      - s-430e01ba75
+      - s-5633d08a4c
+      - s-d177dd17cd
+      - s-cc24f6e584
+      - s-10b945f941
+      - s-79f273ca01
+      - s-f47a3159c9
+      - s-763ceb824f
+      - s-3b48294f44
+      - s-028b07aa54
+      - s-54a4f5a8f8
+      - s-4f7296a8d6
+    zh:
+      - s-ecbba8ee58
+      - s-c3b50274a4
+      - s-5f14875b63
+      - s-10d8b41f41
+      - s-ba001c588a
+      - s-2f445ef374
+      - s-890f28a7e7
+      - s-3953ad9d49
+      - s-00872e59f8
+      - s-04e0d06389
+      - s-e7255cd865
+      - s-0f925562a6
+      - s-3c82a1dd14
+      - s-b84caf41ce
+      - s-27edaccebe
+      - s-2257c0dc51
+      - s-f64eabef78
+      - s-73455174e4
+      - s-0c151b7ab6
+      - s-f44dcc803d
+      - s-bd1d332808
+      - s-3dbdb4bd3f
+      - s-28d015cee8
+      - s-d4752f0850
+      - s-9926d3eeb3
+      - s-35ec30640c

@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-f372d4d44c
+      part: title
+    titleZh:
+      page: zh
+      section: s-ba8bf42543
+      part: title
+    category: origin
+    startAge: 0
+    endAge: 0
+    regions:
+      - Global fossil and living-taxon model
+    clades:
+      - Crocodylia
+      - Gavialis
+      - Tomistoma
+    summary:
+      page: en
+      section: s-f372d4d44c
+      part: body
+    summaryZh:
+      page: zh
+      section: s-ba8bf42543
+      part: body
+    claimIds:
+      - claim:event:crocodylian-tip-dated-topology
+    evidenceItems:
+      - statement: The preferred tip-dated analysis combines 25 living and 92 extinct taxa, 278 morphological characters and 9284 molecular base pairs and recovers a Gavialis–Tomistoma clade.
+        relation: supports
+        claimIds:
+          - claim:event:crocodylian-tip-dated-topology
+        referenceLinks:
+          - referenceId: lee-yates-2018-crocodylian-tip-dating
+            relation: supports
+            pages: "20181071"
+            figure: Figures 1–4
+            quoteLocator: Morphological, molecular and stratigraphic data; Bayesian tip dating; Discussion
+    uncertaintyItems:
+      - statement: Morphology-only, parsimony and undated analyses differ; inferred divergence times and thoracosaur placement depend on model, priors, weights and sampled characters.
+        relation: contextualizes
+        claimIds:
+          - claim:event:crocodylian-tip-dated-topology
+        referenceLinks:
+          - referenceId: lee-yates-2018-crocodylian-tip-dating
+            relation: supports
+            pages: "20181071"
+            figure: Figures 1–4
+            quoteLocator: Morphological, molecular and stratigraphic data; Bayesian tip dating; Discussion
+  claims:
+    - subjectId: event:crocodylian-tip-dated-topology
+      claimKind: scientific
+      claimType: topology
+      statement: A combined tip-dated analysis of 117 living and fossil crocodyliform taxa, 278 morphological characters and 9284 molecular base pairs groups Gavialis with Tomistoma and places sampled thoracosaurs outside the living crown; alternative analyses differ, so topology and divergence times are model results.
+      confidence: medium
+      confidenceRationale: The published matrices and model are reproducible evidence, but priors, clock assumptions, homoplasy weighting and taxon sampling affect the result. No branch is a directly observed ancestor.
+      referenceLinks:
+        - referenceId: lee-yates-2018-crocodylian-tip-dating
+          relation: supports
+          pages: "20181071"
+          figure: Figures 1–4
+          quoteLocator: Morphological, molecular and stratigraphic data; Bayesian tip dating; Discussion
+  claim-rationales.zh:
+    - 公布的矩阵和模型可复现，但先验、时钟假设、同形性权重和分类取样会影响结果；没有任何分支是直接观察到的祖先。
+  claim-statements.zh:
+    - 一项结合 117 个现生与化石鳄形类、278 个形态性状和 9284 个分子碱基的尖端定年分析把恒河鳄与马来鳄归为一支，并将取样胸甲鳄置于现生冠群之外；其他分析不同，因此拓扑和分化时间是模型结果。

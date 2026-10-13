@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax nanjiangensis
+  displayName: Oreolalax nanjiangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SSJT
+  sourceIndexes:
+    - name:
+        en: Oreolalax nanjiangensis
+        zh: Oreolalax nanjiangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SSJT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/221
+            queryName: Oreolalax nanjiangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f97d58eb9a
+      - s-a2d1daabaf
+      - s-61a948d736
+      - s-30600d77cc
+      - s-4832320252
+      - s-1b20509a94
+      - s-cc68db216a
+      - s-30190aa91c
+      - s-56d109f651
+      - s-686bfec907
+      - s-46a9c602ec
+      - s-af1cbd5ff5
+      - s-848c99d3b5
+      - s-aa11d03bb8
+      - s-a915f53545
+      - s-45acd51b6d
+      - s-510c493284
+    zh:
+      - s-2ede0d7b25
+      - s-e423bd43e1
+      - s-a88b48b34b
+      - s-2a5feea1ef
+      - s-e3bda981bb
+      - s-d411048f66
+      - s-ed42d189f0
+      - s-b1f7a9acff
+      - s-4ecfc65b47
+      - s-79b66b0c62
+      - s-170dd0cae2
+      - s-41c49d93d3
+      - s-1a0cfc38cf
+      - s-e689943902
+      - s-830aca6cfb
+      - s-83aa8c0c33
+      - s-f2dd4d1ad2

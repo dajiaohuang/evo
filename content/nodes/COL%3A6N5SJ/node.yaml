@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis beddomei
+  displayName: Ichthyophis beddomei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5SJ
+  sourceIndexes:
+    - name:
+        en: Ichthyophis beddomei
+        zh: Ichthyophis beddomei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5SJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/387
+            queryName: Ichthyophis beddomei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4664e699cf
+      - s-4c7d8fd97f
+      - s-fae8554c29
+      - s-a834f4a388
+      - s-044d0f29da
+      - s-63029ce2a0
+      - s-7993c74825
+      - s-7efc3f6917
+      - s-1eae049369
+      - s-c57c1c87ed
+      - s-ea2d6da802
+      - s-f15d4dc7ee
+      - s-b69f85b421
+      - s-ca758b1917
+      - s-b78eb323d2
+      - s-7387d43bcf
+      - s-230a384dd2
+      - s-fae475c83e
+    zh:
+      - s-185920f028
+      - s-30ebd7a729
+      - s-9f457dca46
+      - s-10b23fba9c
+      - s-8a726f1d1b
+      - s-8c5b797097
+      - s-7cd0672b14
+      - s-2e42fa222c
+      - s-d8efe741e8
+      - s-2c22e762af
+      - s-73fa611161
+      - s-980e1db98e
+      - s-cc96e2c655
+      - s-6736585c8c
+      - s-b75c31e679
+      - s-a4ef91a3c0
+      - s-bf08d76fef
+      - s-5ae862d0a1

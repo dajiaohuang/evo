@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes sanjappai Garg, Suyesh, Das, Bee & Biju, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes sanjappai
+      zh: Raorchestes sanjappai
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-43d34138dc
+            part: title
+          zh:
+            page: zh
+            section: s-794101d0ff
+            part: title
+        text:
+          en:
+            page: en
+            section: s-43d34138dc
+            part: body
+          zh:
+            page: zh
+            section: s-794101d0ff
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-da8ad1166c
+            part: title
+          zh:
+            page: zh
+            section: s-b47214a59d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-da8ad1166c
+            part: body
+          zh:
+            page: zh
+            section: s-b47214a59d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-639ef3dd77
+            part: title
+          zh:
+            page: zh
+            section: s-6ad503835f
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slxbm
+        text:
+          en:
+            page: en
+            section: s-639ef3dd77
+            part: body
+          zh:
+            page: zh
+            section: s-6ad503835f
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-94374cea86
+            part: title
+          zh:
+            page: zh
+            section: s-db57c6cb1a
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slxbm
+        text:
+          en:
+            page: en
+            section: s-94374cea86
+            part: body
+          zh:
+            page: zh
+            section: s-db57c6cb1a
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-17aa9dc3a9
+            part: title
+          zh:
+            page: zh
+            section: s-01bcc42608
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slxbm
+        text:
+          en:
+            page: en
+            section: s-17aa9dc3a9
+            part: body
+          zh:
+            page: zh
+            section: s-01bcc42608
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-3abc43f2f7
+            part: title
+          zh:
+            page: zh
+            section: s-3fe011adda
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slxbm
+        text:
+          en:
+            page: en
+            section: s-3abc43f2f7
+            part: body
+          zh:
+            page: zh
+            section: s-3fe011adda
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes sanjappai
+          url: https://www.checklistbank.org/dataset/316115/taxon/SLXBM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7936570-slxbm
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes sanjappai: Three-specimen diagnosis, secondary-forest breeding-season perches, typical widely spaced pulses and sister relationship; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d2276163ad
+        part: body
+      zh:
+        page: zh
+        section: s-1d4c1b28ec
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-slxbm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes sanjappai
+        evidenceRead: "Raorchestes sanjappai: Three-specimen diagnosis, secondary-forest breeding-season perches, typical widely spaced pulses and sister relationship; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Green dorsal colour with fine spinules and a midline ridge
+              zh: 绿色背面、细刺与背中角质嵴
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slxbm
+            locator: PMC7936570 XML sec11 paragraphs 53, 58
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d93039509c
+                part: body
+              zh:
+                page: zh
+                section: s-cd6c0e1eaa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Secondary-forest perches during the breeding season
+              zh: 繁殖季节在次生林植被上的停栖记录
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slxbm
+            locator: PMC7936570 XML sec11 paragraph 60
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dfe3b0469e
+                part: body
+              zh:
+                page: zh
+                section: s-af6ee4b882
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Longer calls with widely spaced pulses
+              zh: 脉冲间距较大的较长鸣声
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slxbm
+            locator: PMC7936570 XML sec11 paragraph 59; sec7 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ef898632c7
+                part: body
+              zh:
+                page: zh
+                section: s-facfb5c29f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Sequence affinity with vellikkannan
+              zh: 与 vellikkannan 的序列亲缘关系
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slxbm
+            locator: PMC7936570 XML sec11 paragraph 52; sec4 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c56c68fb31
+                part: body
+              zh:
+                page: zh
+                section: s-0d9c36f8f5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

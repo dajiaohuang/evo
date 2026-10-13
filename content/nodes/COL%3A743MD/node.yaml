@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Myersiella microps
+  displayName: Myersiella microps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/743MD
+  sourceIndexes:
+    - name:
+        en: Myersiella microps
+        zh: Myersiella microps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 743MD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/136
+            queryName: Myersiella microps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/50
+            queryName: Engystoma microps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/51
+            queryName: Engystoma subnigrum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/52
+            queryName: Engystoma dumerili
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/53
+            queryName: Microhyla subnigra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/54
+            queryName: Microhyla microps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/55
+            queryName: Myersiella subnigra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/467
+            queryName: Gastrophryne microps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8115438671
+      - s-13198a4bd8
+      - s-7b54cf7506
+      - s-923e335893
+      - s-6a9847e3cd
+      - s-542201e373
+      - s-42d4cda133
+      - s-a4f3669fc6
+      - s-9cc74438c0
+      - s-8ee9be62ff
+      - s-5150d8b483
+      - s-2578d8656e
+      - s-77badc6fe8
+      - s-17f0b297a0
+      - s-8f090a2a30
+      - s-6fb3704995
+      - s-7122c1428c
+    zh:
+      - s-c01920f391
+      - s-bbba411590
+      - s-2216156f3c
+      - s-0297ec336c
+      - s-d783c07017
+      - s-f1c449fba1
+      - s-2c13c05bb0
+      - s-f68297f036
+      - s-daa1c3671a
+      - s-6f3011cdcb
+      - s-1eba6a4867
+      - s-515a1819e8
+      - s-ebf0eb15e7
+      - s-566c26260c
+      - s-35336f600d
+      - s-ed579d3264
+      - s-132b1e0f97

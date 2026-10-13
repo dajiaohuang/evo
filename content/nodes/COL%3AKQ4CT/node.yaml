@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Synapturanus ajuricaba
+  displayName: Synapturanus ajuricaba
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KQ4CT
+  sourceIndexes:
+    - name:
+        en: Synapturanus ajuricaba
+        zh: Synapturanus ajuricaba
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KQ4CT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/393
+            queryName: Synapturanus ajuricaba
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-55b23f5c10
+      - s-38e43f41e6
+      - s-2dfdd2f3f3
+      - s-4f903f21d8
+      - s-68f8dda515
+      - s-6254baa5b0
+    zh:
+      - s-d3e6fc666c
+      - s-791097abc6
+      - s-4e47f2906a
+      - s-aba0066f4f
+      - s-7c1b8f32fb
+      - s-d3d17a4b25

@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantidactylus olgae Rabibisoa, Welt & Raxworthy, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mantidactylus olgae
+      zh: Mantidactylus olgae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d3d5494f01
+            part: title
+          zh:
+            page: zh
+            section: s-624182ef78
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d3d5494f01
+            part: body
+          zh:
+            page: zh
+            section: s-624182ef78
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0f2da63a59
+            part: title
+          zh:
+            page: zh
+            section: s-f3093fb73e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0f2da63a59
+            part: body
+          zh:
+            page: zh
+            section: s-f3093fb73e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1599cc3a40
+            part: title
+          zh:
+            page: zh
+            section: s-3bad1b2d71
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctj
+        text:
+          en:
+            page: en
+            section: s-1599cc3a40
+            part: body
+          zh:
+            page: zh
+            section: s-3bad1b2d71
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-677fc3e8ac
+            part: title
+          zh:
+            page: zh
+            section: s-66f8e07a53
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctj
+        text:
+          en:
+            page: en
+            section: s-677fc3e8ac
+            part: body
+          zh:
+            page: zh
+            section: s-66f8e07a53
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-3b8cb5853f
+            part: title
+          zh:
+            page: zh
+            section: s-09d375b84d
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctj
+        text:
+          en:
+            page: en
+            section: s-3b8cb5853f
+            part: body
+          zh:
+            page: zh
+            section: s-09d375b84d
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-703c4eac6a
+            part: title
+          zh:
+            page: zh
+            section: s-64f1141dc8
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmctj
+        text:
+          en:
+            page: en
+            section: s-703c4eac6a
+            part: body
+          zh:
+            page: zh
+            section: s-64f1141dc8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantidactylus olgae
+          url: https://www.checklistbank.org/dataset/316115/taxon/QMCTJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10563080-qmctj
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Mantidactylus olgae: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-abadac2b3b
+        part: body
+      zh:
+        page: zh
+        section: s-21b27aeb33
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani13172800
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        sourceKey: primary-pmc10563080-qmctj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10563080/article.xml
+        sourceConcept: Mantidactylus olgae
+        evidenceRead: "Mantidactylus olgae: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Grey granulated surfaces and disc proportions are jointly diagnostic
+              zh: 灰色颗粒表面与趾盘比例共同用于鉴别
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctj
+            locator: PMC10563080 reading-sections section 13 paragraphs 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5689f17c2a
+                part: body
+              zh:
+                page: zh
+                section: s-11bd276edb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Rock-bottom waters and low vegetation supplied observed perches
+              zh: 岩底水体及低矮植被提供观察栖位
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctj
+            locator: PMC10563080 reading-sections section 13 paragraphs 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d196c66ead
+                part: body
+              zh:
+                page: zh
+                section: s-e20968421b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: distribution
+            heading:
+              en: Northern records span 600–1,700 metres in this account
+              zh: 该条目北部记录跨海拔 600–1,700 米
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctj
+            locator: PMC10563080 reading-sections section 13 paragraphs 8
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7dca2a38b1
+                part: body
+              zh:
+                page: zh
+                section: s-503eaaa5e1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Nearby Marojejy lacks confirmed material in this revision
+              zh: 该修订没有确认邻近 Marojejy 材料
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmctj
+            locator: PMC10563080 reading-sections section 13 paragraphs 9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ff7251fde2
+                part: body
+              zh:
+                page: zh
+                section: s-1bd0cb0464
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

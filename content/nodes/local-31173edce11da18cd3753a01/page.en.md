@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-619e3bd717}
+The version 3 Amphibian database lists Anomaloglossus leopardus in a source measurement table. Its classification fields read order = Anura, family = Dendrobatoidea, genus = Anomaloglossus; the linked citation is in Reference.csv row 3504. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-fa6ded82bb}
+Anura.csv rows 380, 381 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 380 (F) = 21.1, row 381 (M) = 18.8; HL: row 380 (F) = 6.98, row 381 (M) = 6.31; HW: row 380 (F) = 7.55, row 381 (M) = 6.6; other populated codes are ED, TD, IOD, IND, EN, SL, HAL, FLL, FL, TL, THL, Fin1L, … (14 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops wuyiensis
+  displayName: Amolops wuyiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DYX
+  sourceIndexes:
+    - name:
+        en: Amolops wuyiensis
+        zh: Amolops wuyiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DYX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/421
+            queryName: Amolops wuyiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 42
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/212
+            queryName: Staurois wuyiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 27
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5d0b3650e4
+      - s-b1859f2f73
+      - s-d0e4bf6b3c
+      - s-4e7c885320
+      - s-e943a24929
+      - s-ac24330daa
+      - s-c7c1ee3798
+      - s-bf44a54872
+      - s-42c18c56a3
+      - s-de8c3ba28e
+      - s-2599698f60
+      - s-a0dc45a878
+      - s-3f1deedf33
+      - s-2a5a49a1d6
+    zh:
+      - s-ba6d76a402
+      - s-687245293c
+      - s-d11e4b0a35
+      - s-cd2893391b
+      - s-fd4957b4d1
+      - s-acf89a9aef
+      - s-0a69fe92f5
+      - s-84279720c6
+      - s-ea7c3bab5d
+      - s-995cc2f97a
+      - s-23d952445d
+      - s-b8878df501
+      - s-638ffba5b0
+      - s-f6ed54c2e8

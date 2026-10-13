@@ -1,0 +1,290 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pelobatidae Bonaparte, 1850
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Pelobatidae
+      zh: Pelobatidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-041090fcc8
+            part: title
+          zh:
+            page: zh
+            section: s-0965f3657b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-041090fcc8
+            part: body
+          zh:
+            page: zh
+            section: s-0965f3657b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4f172942e3
+            part: title
+          zh:
+            page: zh
+            section: s-1b9b817545
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4f172942e3
+            part: body
+          zh:
+            page: zh
+            section: s-1b9b817545
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-d228256643
+            part: title
+          zh:
+            page: zh
+            section: s-fa43f28f50
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d228256643
+            part: body
+          zh:
+            page: zh
+            section: s-fa43f28f50
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-685f0c2cef
+            part: title
+          zh:
+            page: zh
+            section: s-78acf58957
+            part: title
+        text:
+          en:
+            page: en
+            section: s-685f0c2cef
+            part: body
+          zh:
+            page: zh
+            section: s-78acf58957
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-2da4039b0e
+            part: title
+          zh:
+            page: zh
+            section: s-aae7e1237c
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 63KTS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63KTS
+            label:
+              en: Pelobates
+              zh: Pelobates
+        text:
+          en:
+            page: en
+            section: s-2da4039b0e
+            part: body
+          zh:
+            page: zh
+            section: s-aae7e1237c
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-f0ea8f90f1
+            part: title
+          zh:
+            page: zh
+            section: s-c1092180c9
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-f0ea8f90f1
+            part: body
+          zh:
+            page: zh
+            section: s-c1092180c9
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-e26ccbafe5
+            part: body
+          zh:
+            page: zh
+            section: s-37ebe36f45
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pelobatidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/625SW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Pelobatidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Pelobatidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-77d7d9d77f
+        part: body
+      zh:
+        page: zh
+        section: s-8736a0aefa
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Pelobatidae
+      sourceRowIds:
+        - Anf4445
+        - Anf4446
+        - Anf4447
+        - Anf4448
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 4
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 4
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 4
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Pelobates cultripes
+          path: content/nodes/local-91f207189586d7fedb289b62
+      metrics:
+        - metric: CTmax
+          rows: 10
+          sourceConcepts: 1
+        - metric: CTmin
+          rows: 4
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

@@ -1,0 +1,9 @@
+## Organize fossil records by source classification {#s-adfdb8150b}
+PBDB places Alamodactylus at genus rank in the recorded classification path. This page links to 1 species-level occurrence guides. The database parent chain organizes records; it does not by itself resolve evolutionary relationships.
+
+## Compare collections, strata and age brackets {#s-0b4eb9f701}
+The linked species pages include Alamodactylus byrdi. Together, they cover 1 selected occurrence record from 1 collection, with recorded strata including Atco. Read each collection with its own age interval and citation; these counts do not estimate ancient population size.
+
+## Evidence limits {#s-0e910f99aa}
+This page is a route through selected PBDB occurrence records, not a complete species catalogue or shared ecological profile. The database hierarchy organizes names but does not settle phylogeny; collection age brackets are not exact origin or extinction dates.
+

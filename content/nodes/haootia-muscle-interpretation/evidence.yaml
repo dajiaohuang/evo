@@ -1,0 +1,99 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-139836068b
+      part: title
+    titleZh:
+      page: zh
+      section: s-5082dc3e92
+      part: title
+    category: fossil
+    startAge: 560
+    endAge: 560
+    regions:
+      - Fermeuse Formation, Bonavista Peninsula, Newfoundland, Canada
+    clades:
+      - Haootia quadriformis
+      - Staurozoa
+      - Cnidaria
+    summary:
+      page: en
+      section: s-139836068b
+      part: body
+    summaryZh:
+      page: zh
+      section: s-5082dc3e92
+      part: body
+    claimIds:
+      - claim:event:haootia-muscle-interpretation
+    evidenceItems:
+      - statement: The holotype preserves a fourfold arrangement of branches and closely aligned linear impressions around a central region and stalk-like structure.
+        relation: supports
+        claimIds:
+          - claim:event:haootia-muscle-interpretation
+        referenceLinks:
+          - referenceId: liu-2014-haootia
+            relation: supports
+            pages: "20141202"
+            figure: Figures 1–4; Supplementary Information
+            quoteLocator: Plastotype OUM ÁT.424/p and original muscular-cnidarian reconstruction
+          - referenceId: miranda-2015-haootia
+            relation: contradicts
+            pages: "20142396"
+            figure: Figure 1
+            quoteLocator: Reassessment of muscle orientation and staurozoan comparison
+          - referenceId: mcilroy-2024-haootia
+            relation: contextualizes
+            pages: "1096"
+            figure: Figures 2–8
+            quoteLocator: Holotype re-examination and crown-staurozoan hypothesis
+    uncertaintyItems:
+      - statement: Preservation does not expose histology; published authors differ on muscular correspondence and how strongly the fossil can be assigned to Staurozoa.
+        relation: contextualizes
+        claimIds:
+          - claim:event:haootia-muscle-interpretation
+        referenceLinks:
+          - referenceId: liu-2014-haootia
+            relation: supports
+            pages: "20141202"
+            figure: Figures 1–4; Supplementary Information
+            quoteLocator: Plastotype OUM ÁT.424/p and original muscular-cnidarian reconstruction
+          - referenceId: miranda-2015-haootia
+            relation: contradicts
+            pages: "20142396"
+            figure: Figure 1
+            quoteLocator: Reassessment of muscle orientation and staurozoan comparison
+          - referenceId: mcilroy-2024-haootia
+            relation: contextualizes
+            pages: "1096"
+            figure: Figures 2–8
+            quoteLocator: Holotype re-examination and crown-staurozoan hypothesis
+  claims:
+    - subjectId: event:haootia-muscle-interpretation
+      claimKind: scientific
+      claimType: morphology
+      statement: Haootia preserves repeated aligned impressions in a tetraradial body, interpreted as muscle bundles and compared with Staurozoa, but fibre identity and detailed homology have competing primary assessments.
+      confidence: contested
+      confidenceRationale: The holotype impression is direct evidence; muscle tissue, orientation and crown-staurozoan placement are interpretations with published criticism and later reassessment.
+      referenceLinks:
+        - referenceId: liu-2014-haootia
+          relation: supports
+          pages: "20141202"
+          figure: Figures 1–4; Supplementary Information
+          quoteLocator: Plastotype OUM ÁT.424/p and original muscular-cnidarian reconstruction
+        - referenceId: miranda-2015-haootia
+          relation: contradicts
+          pages: "20142396"
+          figure: Figure 1
+          quoteLocator: Reassessment of muscle orientation and staurozoan comparison
+        - referenceId: mcilroy-2024-haootia
+          relation: contextualizes
+          pages: "1096"
+          figure: Figures 2–8
+          quoteLocator: Holotype re-examination and crown-staurozoan hypothesis
+  claim-rationales.zh:
+    - 正模印痕是直接证据；肌肉组织、方向及十字水母冠群位置是具有已发表批评和后续复核的解释。
+  claim-statements.zh:
+    - Haootia 的四辐射躯体保存了重复排列的印痕，被解释为肌束并与十字水母纲比较；但纤维性质及具体同源关系在一手研究中仍有不同判断。

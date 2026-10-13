@@ -1,0 +1,226 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:147599
+    scientificName: Darwinius masillae
+    commonName: Messel adapiform
+    commonNameZh: 梅塞尔达尔文猴
+    rank: genus
+    parentName: Adapiformes
+    extinct: true
+    geography:
+      - Messel Pit
+      - Hesse
+      - Germany
+    overview:
+      page: en
+      section: s-dc08af4639
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-fdeedbfbfe
+        part: body
+      habitat:
+        page: en
+        section: s-62ad9ce37d
+        part: body
+      locomotion:
+        page: en
+        section: s-e06c1bf0db
+        part: body
+      bodySize:
+        page: en
+        section: s-b6cb64c709
+        part: body
+      guild:
+        page: en
+        section: s-5d040146e6
+        part: body
+    traits:
+      - page: en
+        section: s-272964200b
+        part: body
+      - page: en
+        section: s-016fc4185a
+        part: body
+      - page: en
+        section: s-0deab0ad01
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-5322a0e3a0
+      part: body
+    confidence: medium
+    referenceIds:
+      - franzen-2009-darwinius
+    readerSections:
+      - id: messel-holotype
+        title:
+          en:
+            page: en
+            section: s-0a8fe8e0ca
+            part: title
+          zh:
+            page: zh
+            section: s-098710047a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0a8fe8e0ca
+            part: body
+          zh:
+            page: zh
+            section: s-098710047a
+            part: body
+        sourceIds:
+          - franzen-2009-darwinius
+      - id: anatomy-and-life-history
+        title:
+          en:
+            page: en
+            section: s-fdbe210b0a
+            part: title
+          zh:
+            page: zh
+            section: s-55d03a1dcb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fdbe210b0a
+            part: body
+          zh:
+            page: zh
+            section: s-55d03a1dcb
+            part: body
+        sourceIds:
+          - franzen-2009-darwinius
+      - id: preparation-and-placement
+        title:
+          en:
+            page: en
+            section: s-e8acd1664d
+            part: title
+          zh:
+            page: zh
+            section: s-0d608e3c06
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e8acd1664d
+            part: body
+          zh:
+            page: zh
+            section: s-0d608e3c06
+            part: body
+        sourceIds:
+          - franzen-2009-darwinius
+    readerSources:
+      - id: franzen-2009-darwinius
+        referenceId: franzen-2009-darwinius
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The Messel juvenile part-and-counterpart holotype, its described anatomy, preparation disclosure and proposed paleobiology.
+            zh: 梅塞尔幼体正反模正模及其解剖描述、制备说明和古生物学解释。
+    readerLimitations:
+      en:
+        page: en
+        section: s-f2649deddd
+        part: body
+      zh:
+        page: zh
+        section: s-db4578c4c4
+        part: body
+  claims:
+    - subjectId: taxon:darwinius
+      claimType: taxonomy
+      claimKind: scientific
+      statement: PMO 214.214 and WDC-MG-210 are the two slabs of the Darwinius masillae holotype; adapiform and higher-level placement remain analysis-bounded rather than ancestral claims.
+      confidence: medium
+      confidenceRationale: The taxonomy field for darwinius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: franzen-2009-darwinius
+          relation: supports
+          pages: e5723; Figures 1–16; Tables 1–4
+    - subjectId: taxon:darwinius
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profile is restricted to the Messel Pit occurrence in Germany and does not imply a wider genus distribution.
+      confidence: medium
+      confidenceRationale: The biogeography field for darwinius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: franzen-2009-darwinius
+          relation: supports
+          pages: e5723; Figures 1–16; Tables 1–4
+    - subjectId: taxon:darwinius
+      claimType: ecology
+      claimKind: scientific
+      statement: Gut contents and limb anatomy support plant-feeding and arboreal interpretations for one juvenile, not observed lifetime behaviour for the genus.
+      confidence: medium
+      confidenceRationale: The ecology field for darwinius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: franzen-2009-darwinius
+          relation: supports
+          pages: e5723; Figures 1–16; Tables 1–4
+    - subjectId: taxon:darwinius
+      claimType: morphology
+      claimKind: scientific
+      statement: The articulated juvenile preserves a complete tail, hands, a right foot, soft-tissue outline and gut contents, with disclosed restoration on one slab.
+      confidence: medium
+      confidenceRationale: The morphology field for darwinius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: franzen-2009-darwinius
+          relation: supports
+          pages: e5723; Figures 1–16; Tables 1–4
+    - subjectId: taxon:darwinius
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 47.5 Ma display point represents the Messel holotype horizon and is not a global adapiform or primate first appearance.
+      confidence: medium
+      confidenceRationale: The fossil-range field for darwinius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: franzen-2009-darwinius
+          relation: supports
+          pages: e5723; Figures 1–16; Tables 1–4
+  claim-rationales.zh:
+    - 梅塞尔达尔文猴的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。
+    - 梅塞尔达尔文猴的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。
+    - 梅塞尔达尔文猴的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。
+    - 梅塞尔达尔文猴的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。
+    - 梅塞尔达尔文猴的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - PMO 214.214 与 WDC-MG-210 是 Darwinius masillae 正模的两块石板；其兔猴型类及更高阶元位置仍受分析限制，不能视作祖先关系。
+    - 本资料仅限于德国梅塞尔坑的产出，并不意味着该属具有更广分布。
+    - 肠内容物和肢体解剖支持一个幼体的植食与树栖解释，并非对该属终生行为的直接观察。
+    - 这件关节连接的幼体保存完整尾、双手、右足、软组织轮廓和肠内容物；其中一块石板存在已披露的修复。
+    - 4,750 万年前的展示点代表梅塞尔正模层位，并非全球兔猴型类或灵长类的首次出现。
+  ranges:
+    - entityId: darwinius
+      rangeKind: global-composite
+      taxonomicConcept: Darwinius part-and-counterpart holotype occurrence
+      geographicScope: Messel Pit, Hesse, Germany
+      olderMa: 47.5
+      youngerMa: 47.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Parts of plate B were fabricated during preparation and disclosed; sex, life history, ecology and haplorhine placement are interpretations, not direct observations or proof of crown-anthropoid ancestry.
+      evidenceBasis: Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:event:darwinius-holotype-anatomy
+        - claim:taxon:darwinius:fossil-range
+      referenceLocators:
+        - referenceId: franzen-2009-darwinius
+          locator: e5723; Figures 1–16; Tables 1–4

@@ -1,0 +1,479 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Ichthyosaurus
+    commonName: Ichthyosaurus
+    commonNameZh: 鱼龙
+    rank: genus
+    taxonId: txn:36558
+    firstAppearance: 200
+    lastAppearance: 190
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Ichthyosaurus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Ichthyosaurus
+      en: Ichthyosaurus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbIchthyosauriformesTaxonomy20261002
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2b35aebc50
+            part: body
+          en:
+            page: en
+            section: s-a060d9fc57
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b35ba70cbc
+            part: body
+          en:
+            page: en
+            section: s-30c476c5c0
+            part: body
+    sources:
+      - id: pbdbIchthyosauriformesTaxonomy20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Ichthyosaurus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36558
+          locator: Recorded PBDB parent closure beneath the already documented Ichthyosauriformes COL-compatible storage anchor.
+      - id: pbdbIchthyosauriformesOccurrences20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36558
+          readingTargets:
+            - name: Ichthyosaurus acutirostris
+              pbdbTaxonId: txn:171446
+              canonicalPath: content/nodes/PBDB%3A171446
+            - name: Ichthyosaurus anningae
+              pbdbTaxonId: txn:376491
+              canonicalPath: content/nodes/PBDB%3A376491
+            - name: Ichthyosaurus longipes
+              pbdbTaxonId: txn:267405
+              canonicalPath: content/nodes/PBDB%3A267405
+            - name: Ichthyosaurus entheciodon
+              pbdbTaxonId: txn:171439
+              canonicalPath: content/nodes/PBDB%3A171439
+            - name: Ichthyosaurus conybeari
+              pbdbTaxonId: txn:170907
+              canonicalPath: content/nodes/PBDB%3A170907
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ce82dda617
+        part: body
+      en:
+        page: en
+        section: s-5676caf2cb
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:36558
+    scientificName: Ichthyosaurus
+    commonName: Ichthyosaurus
+    commonNameZh: 鱼龙属
+    rank: genus
+    parentName: Ichthyosauria
+    extinct: true
+    geography:
+      - Europe
+      - Somerset, England
+    regionalRanges:
+      - canonicalRangeId: range:ichthyosaurus:somerset-hettangian
+        label: Somerset Hettangian sample
+    overview:
+      page: en
+      section: s-742adbf163
+      part: body
+    overviewZh:
+      page: zh
+      section: s-8e37838677
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-3b3974c86f
+        part: body
+      habitat:
+        page: en
+        section: s-ab8f020de9
+        part: body
+      locomotion:
+        page: en
+        section: s-c4caa8c1f9
+        part: body
+      bodySize:
+        page: en
+        section: s-c6bc47a345
+        part: body
+      guild:
+        page: en
+        section: s-1be9542854
+        part: body
+      dietZh:
+        page: zh
+        section: zh-7458931a035f4c
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-0ae148905a2ac3
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-2ccafd42c41908
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-3e7d6556753687
+        part: body
+      guildZh:
+        page: zh
+        section: zh-bbc90cf9c05c7c
+        part: body
+    traits:
+      - page: en
+        section: s-dfde19aa61
+        part: body
+      - page: en
+        section: s-6fd37f71be
+        part: body
+      - page: en
+        section: s-e5db28080a
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-8d010910bb
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-e4d1a6f37e
+      part: body
+    confidence: high
+    referenceIds:
+      - lomax-massare-2017-ichthyosaurus
+      - bennett-2012-ichthyosaurus-communis
+      - buchholtz-2001-jurassic-ichthyosaur-swimming
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-742adbf163
+            part: title
+          zh:
+            page: zh
+            section: s-8e37838677
+            part: title
+        text:
+          en:
+            page: en
+            section: s-742adbf163
+            part: body
+          zh:
+            page: zh
+            section: s-8e37838677
+            part: body
+        sourceIds:
+          - lomax-massare-2017-ichthyosaurus
+      - id: diagnostic-anatomy
+        title:
+          en:
+            page: en
+            section: s-890b525ec8
+            part: title
+          zh:
+            page: zh
+            section: s-17c27cce29
+            part: title
+        text:
+          en:
+            page: en
+            section: s-890b525ec8
+            part: body
+          zh:
+            page: zh
+            section: s-17c27cce29
+            part: body
+        sourceIds:
+          - lomax-massare-2017-ichthyosaurus
+      - id: gullet-evidence
+        title:
+          en:
+            page: en
+            section: s-6b57beb14b
+            part: title
+          zh:
+            page: zh
+            section: s-27adbdae79
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6b57beb14b
+            part: body
+          zh:
+            page: zh
+            section: s-27adbdae79
+            part: body
+        sourceIds:
+          - bennett-2012-ichthyosaurus-communis
+      - id: swimming-inference
+        title:
+          en:
+            page: en
+            section: s-60d547da7d
+            part: title
+          zh:
+            page: zh
+            section: s-709ad364ac
+            part: title
+        text:
+          en:
+            page: en
+            section: s-60d547da7d
+            part: body
+          zh:
+            page: zh
+            section: s-709ad364ac
+            part: body
+        sourceIds:
+          - buchholtz-2001-jurassic-ichthyosaur-swimming
+          - lomax-massare-2017-ichthyosaurus
+    readerSources:
+      - id: lomax-massare-2017-ichthyosaurus
+        referenceId: lomax-massare-2017-ichthyosaurus
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Lomax and Massare (2017), pp. 1?20, Figures 1?10: Hettangian Somerset material, species diagnoses and cranial and postcranial character combinations."
+            zh: Lomax ? Massare?2017??? 1?20 ??? 1?10????????????????????????????
+      - id: bennett-2012-ichthyosaurus-communis
+        referenceId: bennett-2012-ichthyosaurus-communis
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Bennett (2012), pp. 146?154: description of probable fish remains in the gullet of one Ichthyosaurus communis specimen."
+            zh: Bennett?2012??? 146?154 ???? Ichthyosaurus communis ???????????????
+      - id: buchholtz-2001-jurassic-ichthyosaur-swimming
+        referenceId: buchholtz-2001-jurassic-ichthyosaur-swimming
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Buchholtz (2001), pp. 61?62, Table 1: comparative vertebral anatomy used to infer Jurassic ichthyosaur swimming mode."
+            zh: Buchholtz?2001??? 61?62 ??? 1???????????????????????
+    readerLimitations:
+      en:
+        page: en
+        section: s-27fbf0bb53
+        part: body
+      zh:
+        page: zh
+        section: s-f35ddd8d2a
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-9065d43cd38ecf
+        part: body
+      - page: zh
+        section: zh-b5647e0b1a48ac
+        part: body
+      - page: zh
+        section: zh-814ae359b17fc9
+        part: body
+  claims:
+    - subjectId: taxon:ichthyosaurus
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Ichthyosaurus is a Lower Jurassic ichthyosaur genus whose Hettangian Somerset material supports diagnosable species and explicit phylogenetic tests.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:taxonomy.
+      referenceLinks:
+        - referenceId: lomax-massare-2017-ichthyosaurus
+          relation: supports
+          pages: 1–20
+          figure: Figures 1–10
+          quoteLocator: taxonomy
+    - subjectId: taxon:ichthyosaurus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 200–190 Ma genus envelope remains a legacy global composite, while the claim-linked Somerset record is restricted to the Hettangian interval of 201.4–199.5 Ma.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:fossil-range.
+      referenceLinks:
+        - referenceId: lomax-massare-2017-ichthyosaurus
+          relation: supports
+          pages: 1–20
+          figure: Figures 1–10
+          quoteLocator: fossil-range
+    - subjectId: taxon:ichthyosaurus
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profile-highlighted Ichthyosaurus specimens are from Hettangian strata of Somerset, England; this regional sample is not a global distribution map.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:biogeography.
+      referenceLinks:
+        - referenceId: lomax-massare-2017-ichthyosaurus
+          relation: supports
+          pages: 1–20
+          figure: Figures 1–10
+          quoteLocator: biogeography
+    - subjectId: taxon:ichthyosaurus
+      claimKind: scientific
+      claimType: morphology
+      statement: The Somerset Ichthyosaurus species are diagnosed from cranial and postcranial character combinations evaluated in a phylogenetic matrix.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:morphology.
+      referenceLinks:
+        - referenceId: lomax-massare-2017-ichthyosaurus
+          relation: supports
+          pages: 1–20
+          figure: Figures 1–10
+          quoteLocator: morphology
+    - subjectId: taxon:ichthyosaurus
+      claimKind: scientific
+      claimType: ecology
+      statement: One Ichthyosaurus communis specimen preserves probable fish gullet contents, and comparative vertebral anatomy including I. communis supports caudal-fluke propulsion; neither sample establishes one genus-wide diet, habitat or performance envelope.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to ichthyosaurus:ecology.
+      referenceLinks:
+        - referenceId: lomax-massare-2017-ichthyosaurus
+          relation: contextualizes
+          pages: 1–20
+          figure: Figures 1–10
+          quoteLocator: ecology
+        - referenceId: bennett-2012-ichthyosaurus-communis
+          relation: supports
+          pages: 146–154
+          quoteLocator: Abstract; probable gullet-content description
+        - referenceId: buchholtz-2001-jurassic-ichthyosaur-swimming
+          relation: supports
+          pages: 61–62
+          figure: Table 1
+          quoteLocator: Abstract; Materials and Methods
+  claim-rationales.zh:
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 ichthyosaurus:taxonomy。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 ichthyosaurus:fossil-range。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 ichthyosaurus:biogeography。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 ichthyosaurus:morphology。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 ichthyosaurus:ecology。
+  claim-statements.zh:
+    - Ichthyosaurus 是早侏罗世鱼龙属，来自萨默塞特赫唐期的材料支持可诊断物种与显式系统发育检验。
+    - 该属 2.00 亿至 1.90 亿年前的范围仍是旧版全球综合值；有主张关联的萨默塞特记录仅限 2.014 亿至 1.995 亿年前赫唐期。
+    - 档案重点标本来自英格兰萨默塞特赫唐期地层；这一地区样本不是全球分布图。
+    - 萨默塞特 Ichthyosaurus 物种依据头骨与头后骨骼性状组合诊断，并在系统矩阵中检验。
+    - 一件普通鱼龙（Ichthyosaurus communis）标本保存了可能的鱼类食道内容物，而包含该种的比较椎骨解剖支持尾鳍推进；两类样本都不能确定整个属统一的食性、栖息地或运动性能范围。
+  ranges:
+    - entityId: ichthyosaurus
+      rangeKind: global-composite
+      taxonomicConcept: Ichthyosaurus
+      geographicScope: Global or represented navigation composite
+      olderMa: 200
+      youngerMa: 190
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Legacy global envelope retained; the Hettangian Somerset sample is separately claim-linked.
+      evidenceBasis: The global display remains a composite; Lomax and Massare provide a primary-study Hettangian regional range and species sample.
+      confidence: medium
+      claimIds:
+        - claim:taxon:ichthyosaurus:fossil-range
+      referenceLocators:
+        - referenceId: lomax-massare-2017-ichthyosaurus
+          locator: pp. 1–20; Hettangian localities; Figures 1–10
+      evidenceLevel: literature-synthesized
+    - entityId: ichthyosaurus
+      rangeKind: taxon-range
+      taxonomicConcept: Ichthyosaurus species sample of Lomax and Massare 2017
+      geographicScope: Somerset, England
+      olderMa: 201.4
+      youngerMa: 199.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Stage-level envelope; it does not establish absence outside the cited study sample.
+      evidenceBasis: The Hettangian envelope is a regional sample for diagnosed Somerset species and is not substituted for the global genus range.
+      confidence: high
+      claimIds:
+        - claim:taxon:ichthyosaurus:fossil-range
+      referenceLocators:
+        - referenceId: lomax-massare-2017-ichthyosaurus
+          locator: pp. 1–20; Hettangian localities; Figures 1–10
+      evidenceLevel: literature-synthesized

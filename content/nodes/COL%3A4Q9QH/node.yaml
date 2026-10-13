@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena guibei
+  displayName: Ptychadena guibei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9QH
+  sourceIndexes:
+    - name:
+        en: Ptychadena guibei
+        zh: Ptychadena guibei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9QH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/471
+            queryName: Ptychadena guibei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/491
+            queryName: Ptychadena chrysogaster guibei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f65eb3d73a
+      - s-9647fd513a
+      - s-23437b2e43
+      - s-de6658a1bc
+      - s-40771557a2
+      - s-f72711a436
+      - s-98ce372618
+      - s-89b3ebdbaf
+      - s-1702385738
+      - s-13c7be5517
+      - s-067deb92c7
+      - s-ea1104b6c9
+      - s-db89cf9b1b
+      - s-71fd604d9c
+      - s-11472670af
+      - s-44e85c6a7c
+    zh:
+      - s-24a0291c11
+      - s-c77cfa9712
+      - s-2ae2273e3c
+      - s-c28427ee59
+      - s-b8a9b5b466
+      - s-18caf41575
+      - s-a070d76a4a
+      - s-1f12771478
+      - s-9801e7dc0b
+      - s-6b2640dce9
+      - s-cef5dcd2d1
+      - s-809ddbc719
+      - s-ba76580455
+      - s-a2c7f7308f
+      - s-726a00d9bf
+      - s-283c1d8778

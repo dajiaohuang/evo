@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gegeneophis mhadeiensis
+  displayName: Gegeneophis mhadeiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FGJM
+  sourceIndexes:
+    - name:
+        en: Gegeneophis mhadeiensis
+        zh: Gegeneophis mhadeiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FGJM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/92
+            queryName: Gegeneophis mhadeiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-467cce0a1c
+      - s-6ed941560c
+      - s-95d8cd5249
+      - s-11acfea559
+      - s-cdde4bf43e
+      - s-fe402ccbec
+      - s-27f0a14336
+      - s-a5b37f6389
+      - s-4ffa8cd491
+      - s-4077ea7420
+    zh:
+      - s-0b6b6ea143
+      - s-668358d157
+      - s-e847e75652
+      - s-d3a63d0eae
+      - s-3ddc182f34
+      - s-2ad673ba86
+      - s-a0e2e3e91a
+      - s-3c8be7ff50
+      - s-698d404a1b
+      - s-23e566aa32

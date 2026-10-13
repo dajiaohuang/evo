@@ -1,0 +1,179 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Adelomyarion vireti
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Adelomyarion vireti
+      en: Adelomyarion vireti
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ed0d63e0f0
+            part: body
+          en:
+            page: en
+            section: s-7fac76c07c
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-97aa66e605
+            part: body
+          en:
+            page: en
+            section: s-d933d0020e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a93ce64827
+            part: body
+          en:
+            page: en
+            section: s-f59525fcd8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-34f43c5d82
+            part: body
+          en:
+            page: en
+            section: s-bd6d5a7ea9
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3217e694a6
+            part: body
+          en:
+            page: en
+            section: s-4fd123da3f
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Adelomyarion vireti
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=101111&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:101111; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:101111
+          selectedOccurrenceIds:
+            - occ:386569
+            - occ:615218
+            - occ:615219
+            - occ:615220
+            - occ:636198
+            - occ:734098
+            - occ:782835
+            - occ:1348676
+            - occ:1348944
+            - occ:1436916
+            - occ:1468634
+          selectedCollectionIds:
+            - col:36876
+            - col:66105
+            - col:66109
+            - col:66111
+            - col:68420
+            - col:78744
+            - col:84364
+            - col:37208
+            - col:182805
+            - col:200438
+            - col:84606
+          sourceReferenceIds:
+            - ref:9874
+            - ref:18709
+            - ref:19701
+            - ref:26479
+            - ref:28268
+            - ref:60912
+            - ref:60953
+            - ref:68425
+            - ref:70399
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e728e4667d
+        part: body
+      en:
+        page: en
+        section: s-d8423e3d46
+        part: body

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heleioporus albopunctatus
+  displayName: Heleioporus albopunctatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3K4FB
+  sourceIndexes:
+    - name:
+        en: Heleioporus albopunctatus
+        zh: Heleioporus albopunctatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3K4FB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/249
+            queryName: Heleioporus albopunctatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5ca63d8a25
+      - s-d0d2d1a82c
+      - s-cc3b9e5134
+      - s-d228f4085b
+      - s-216d17370b
+      - s-8df4ece2ad
+      - s-7344bd5c7f
+      - s-df4ab29b94
+      - s-c9a790120d
+      - s-76a675d9f5
+    zh:
+      - s-f45f6a970a
+      - s-f73e111bff
+      - s-5eb637926a
+      - s-a01fc73085
+      - s-102b34c7fb
+      - s-631b601211
+      - s-fb951881e3
+      - s-85938fa216
+      - s-3e46bf3801
+      - s-59d3fca060

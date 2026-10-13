@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Xenophrys lancangica Lyu, Wang & Wang, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Xenophrys lancangica
+      zh: Xenophrys lancangica
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5cb87b1243
+            part: title
+          zh:
+            page: zh
+            section: s-c521f766d4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5cb87b1243
+            part: body
+          zh:
+            page: zh
+            section: s-c521f766d4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5f20f6e9f4
+            part: title
+          zh:
+            page: zh
+            section: s-333bcc54ff
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5f20f6e9f4
+            part: body
+          zh:
+            page: zh
+            section: s-333bcc54ff
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-35193227ca
+            part: title
+          zh:
+            page: zh
+            section: s-91501ac29a
+            part: title
+        sourceIds:
+          - primary-pmc11096727-tmnz5
+        text:
+          en:
+            page: en
+            section: s-35193227ca
+            part: body
+          zh:
+            page: zh
+            section: s-91501ac29a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Xenophrys lancangica
+          url: https://www.checklistbank.org/dataset/316115/taxon/TMNZ5
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11096727-tmnz5
+        referenceId: ref-963b3c84-cba5-47d1-a90b-7a90ce06d61a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Xenophrys lancangica: Species ecology paragraph; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f8ab4e66f5
+        part: body
+      zh:
+        page: zh
+        section: s-f77f964033
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.12.e122598
+        referenceId: ref-963b3c84-cba5-47d1-a90b-7a90ce06d61a
+        sourceKey: primary-pmc11096727-tmnz5
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11096727/article.xml
+        sourceConcept: Xenophrys lancangica
+        evidenceRead: "Xenophrys lancangica: Species ecology paragraph; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A tree encounter in evergreen forest
+              zh: 常绿林中的树上遭遇
+            referenceId: ref-963b3c84-cba5-47d1-a90b-7a90ce06d61a
+            sourceKey: primary-pmc11096727-tmnz5
+            locator: "Xenophrys lancangica: Species ecology paragraph; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-97587f8179
+                part: body
+              zh:
+                page: zh
+                section: s-68c0f592a6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

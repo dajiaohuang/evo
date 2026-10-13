@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella rowleyae
+  displayName: Leptobrachella rowleyae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PFRT
+  sourceIndexes:
+    - name:
+        en: Leptobrachella rowleyae
+        zh: Leptobrachella rowleyae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PFRT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/286
+            queryName: Leptobrachella rowleyae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/286
+            queryName: Leptolalax rowleyae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e2c97ee5d
+      - s-ca6cafeb01
+      - s-3fc1d13784
+      - s-8e6a0ffa72
+      - s-a862986521
+      - s-96714b028b
+      - s-5e27577e16
+      - s-e9931d5433
+      - s-51af33c175
+      - s-f4a9a79c9d
+    zh:
+      - s-65ae1299f3
+      - s-e66e374a5a
+      - s-e10fe44e84
+      - s-b691c68c5d
+      - s-d6cc4088e6
+      - s-af8e874ae0
+      - s-8f11022085
+      - s-f6e8f9c7c7
+      - s-a7017d8f53
+      - s-dde68e83eb

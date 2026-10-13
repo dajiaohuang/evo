@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis resistencia
+  displayName: Pristimantis resistencia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCGSC
+  sourceIndexes:
+    - name:
+        en: Pristimantis resistencia
+        zh: Pristimantis resistencia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCGSC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/42
+            queryName: Pristimantis resistencia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8227d0ace6
+      - s-25842afd75
+      - s-4c76cdc0dd
+      - s-f061d9ff6c
+      - s-1528abc140
+      - s-6402b82efc
+      - s-bff657eb66
+      - s-ece1d760a1
+      - s-7d93dffbcf
+    zh:
+      - s-223b901e49
+      - s-b4415641c8
+      - s-801b18bf1e
+      - s-0bb71d1834
+      - s-2196f025dc
+      - s-bd5b73b9a0
+      - s-2b307900cf
+      - s-6bc84daca2
+      - s-8c7167bbf1

@@ -1,0 +1,256 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella marina
+  displayName: Rhinella marina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7NY
+  sourceIndexes:
+    - name:
+        en: Rhinella marina
+        zh: Rhinella marina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7NY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/345
+            queryName: Rhinella marina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2443
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/242
+            queryName: Bufo marinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3602
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/361
+            queryName: Rana marina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/165
+            queryName: Bufo brasiliensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/167
+            queryName: Bufo horridus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/168
+            queryName: Bufo humeralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/169
+            queryName: Bombinator maculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/170
+            queryName: Bufo lazarus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/171
+            queryName: Bufo albicans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/173
+            queryName: Bufo pithecodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/175
+            queryName: Chaunus marinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/176
+            queryName: Rhinella marinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/388
+            queryName: Rana gigas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/389
+            queryName: Rana humerisarmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/390
+            queryName: Bombinator horridus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/391
+            queryName: Bufo maculiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/392
+            queryName: Docidophryne lazarus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/393
+            queryName: Bufo marinis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/55
+            queryName: Bufo marinus fluminensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/56
+            queryName: Bufo marinus napensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/57
+            queryName: Bufo marinus marinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-245c90ea0e
+      - s-5a42195d11
+      - s-932e03620f
+      - s-144a315e4d
+      - s-e80b54ede2
+      - s-c52c22f795
+      - s-6fa74feca2
+      - s-07697a9036
+      - s-9bc991dab9
+      - s-7ebc1715dd
+      - s-2d0a4fa813
+      - s-96d2abada9
+      - s-f685f34d1b
+      - s-93b85e690f
+      - s-a00132e40f
+      - s-ea4d9ef16a
+      - s-a8469097f1
+      - s-61e56f05da
+      - s-7cc255ff08
+      - s-a3d1ddd1f6
+      - s-cb38e83ee4
+      - s-563d8f7a0c
+      - s-12594e6876
+      - s-7bb7679e6f
+      - s-913ff50a45
+      - s-6cd337af3f
+      - s-bc699fde80
+      - s-4d7374b8b6
+      - s-93f0b22541
+      - s-73f2d720a3
+      - s-3d651d8a76
+      - s-a97d18447c
+      - s-7e6ac80ed3
+      - s-6f6b252a0e
+      - s-19aabbef6d
+      - s-29cabcdaf3
+      - s-b315935ba9
+      - s-b0ab9b4d04
+      - s-035c217b03
+      - s-58f3aa1090
+      - s-50e63fe57b
+      - s-85ad3d248e
+      - s-d7c5255a82
+      - s-bfd22effc2
+      - s-0d0e34da9c
+    zh:
+      - s-6be72f683a
+      - s-2a313337f9
+      - s-3937b894fd
+      - s-b00f4d743e
+      - s-638cf3d509
+      - s-d577e9e559
+      - s-35c7f42ac4
+      - s-0a7a8385bf
+      - s-9ae21c9975
+      - s-4f9a8d8ff6
+      - s-dff33ff8d7
+      - s-d0cd3d2946
+      - s-3e17bda3c9
+      - s-f86cb08852
+      - s-cf0a274a86
+      - s-798f352021
+      - s-54c0efab86
+      - s-2177e80c12
+      - s-de85ed8696
+      - s-65cbd7ddc6
+      - s-103e3b3aed
+      - s-4565fd1264
+      - s-0b3ffb1ead
+      - s-df3fc034d5
+      - s-f78e42f06f
+      - s-c77fe05fe2
+      - s-0e08cb767f
+      - s-a3ff1dfd5c
+      - s-cd1b01b9e0
+      - s-cff1a6c85a
+      - s-31604be210
+      - s-3f51626cf4
+      - s-26bbdcd7c6
+      - s-6363e7160d
+      - s-aabda3213a
+      - s-556e7a32cd
+      - s-0cb428a80b
+      - s-0845f3fe7c
+      - s-5526d90a0c
+      - s-0f87ec3ac4
+      - s-3b1b6bef53
+      - s-c73388144d
+      - s-63593b28db
+      - s-4c5631c18a
+      - s-3086401092

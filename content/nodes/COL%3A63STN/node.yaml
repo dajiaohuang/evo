@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scolecomorphus
+  displayName: Scolecomorphus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63STN
+  sourceIndexes:
+    - name:
+        en: Scolecomorphus
+        zh: Scolecomorphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63STN
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/255
+            queryName: Scolecomorphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 37
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aece6c5de7
+      - s-dde3d1f139
+      - s-e2a889d5aa
+      - s-2ec2d6986b
+      - s-4f477bad48
+      - s-69d4407d98
+    zh:
+      - s-cc8e39ceb1
+      - s-b45d6bc1bb
+      - s-cfe2c451ed
+      - s-f93e2a51ae
+      - s-5e9f70cff2
+      - s-efb9650d9c

@@ -1,0 +1,422 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis verrucolatus Páez & Ron, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis verrucolatus
+      zh: Pristimantis verrucolatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-170887aff4
+            part: title
+          zh:
+            page: zh
+            section: s-692d809d08
+            part: title
+        text:
+          en:
+            page: en
+            section: s-170887aff4
+            part: body
+          zh:
+            page: zh
+            section: s-692d809d08
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3dd87b4400
+            part: title
+          zh:
+            page: zh
+            section: s-388d8705da
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3dd87b4400
+            part: body
+          zh:
+            page: zh
+            section: s-388d8705da
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-daf0fcf70c
+            part: title
+          zh:
+            page: zh
+            section: s-feaf8e85cb
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-daf0fcf70c
+            part: body
+          zh:
+            page: zh
+            section: s-feaf8e85cb
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-0d7de0bf3e9fbe41cdf4b8dc
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-339cfde65e
+            part: title
+          zh:
+            page: zh
+            section: s-b6b0676d60
+            part: title
+        sourceIds:
+          - primary-pmc6687670-scc97
+        text:
+          en:
+            page: en
+            section: s-339cfde65e
+            part: body
+          zh:
+            page: zh
+            section: s-b6b0676d60
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-71edac0a9f
+            part: title
+          zh:
+            page: zh
+            section: s-e322fe1f55
+            part: title
+        sourceIds:
+          - primary-pmc6687670-scc97
+        text:
+          en:
+            page: en
+            section: s-71edac0a9f
+            part: body
+          zh:
+            page: zh
+            section: s-e322fe1f55
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cc52d3492c
+            part: title
+          zh:
+            page: zh
+            section: s-a695d1d912
+            part: title
+        sourceIds:
+          - primary-pmc7482940-scc97
+        text:
+          en:
+            page: en
+            section: s-cc52d3492c
+            part: body
+          zh:
+            page: zh
+            section: s-a695d1d912
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-06b4824a6b
+            part: title
+          zh:
+            page: zh
+            section: s-51df88e5dc
+            part: title
+        sourceIds:
+          - primary-pmc7482940-scc97
+        text:
+          en:
+            page: en
+            section: s-06b4824a6b
+            part: body
+          zh:
+            page: zh
+            section: s-51df88e5dc
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-b1d9502a64
+            part: title
+          zh:
+            page: zh
+            section: s-b17ba08e55
+            part: title
+        sourceIds:
+          - primary-pmc7482940-scc97
+        text:
+          en:
+            page: en
+            section: s-b1d9502a64
+            part: body
+          zh:
+            page: zh
+            section: s-b17ba08e55
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis verrucolatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCC97
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4841, 4842; Reference.csv rows 2060
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc6687670-scc97
+        referenceId: ref-8a6fae5b-9eb7-4a4c-a71f-6ec388ce7bd0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis verrucolatus: Species distribution and natural-history paragraph; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc7482940-scc97
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis verrucolatus: Complete S2 donor table123rows including allspecimen/locus/locality cells;S1primers andAppendixspecimen paragraphs read;S4acoustic/S5inventory cells read plus main Methods/focaltreatments/Discussion/Tables1–3;S3distance matrix scientifically unreviewed beyond headers;GenBankoriginals/audio/vouchers/alignments/figurepixels unauthenticated; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c5f970b708
+        part: body
+      zh:
+        page: zh
+        section: s-6b7f0676e7
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.868.26766
+        referenceId: ref-8a6fae5b-9eb7-4a4c-a71f-6ec388ce7bd0
+        sourceKey: primary-pmc6687670-scc97
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6687670/article.xml
+        sourceConcept: Pristimantis verrucolatus
+        evidenceRead: "Pristimantis verrucolatus: Species distribution and natural-history paragraph; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Daytime refuges and active night perches
+              zh: 日间庇护处与夜间活动栖位
+            referenceId: ref-8a6fae5b-9eb7-4a4c-a71f-6ec388ce7bd0
+            sourceKey: primary-pmc6687670-scc97
+            locator: "Pristimantis verrucolatus: Species distribution and natural-history paragraph; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-68a5bbf628
+                part: body
+              zh:
+                page: zh
+                section: s-1724fe8713
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Gravid females and a January calling record
+              zh: 怀卵雌性与一月鸣叫记录
+            referenceId: ref-8a6fae5b-9eb7-4a4c-a71f-6ec388ce7bd0
+            sourceKey: primary-pmc6687670-scc97
+            locator: "Pristimantis verrucolatus: Species distribution and natural-history paragraph; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c3612f12a0
+                part: body
+              zh:
+                page: zh
+                section: s-745cdf1694
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0238306
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        sourceKey: primary-pmc7482940-scc97
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/article.xml
+        sourceConcept: Source Pristimantis verrucolatus donor labels in2020 comparative phylogeny; frozen exact-name link only, no voucher/concept certification
+        evidenceRead: "Pristimantis verrucolatus: Complete S2 donor table123rows including allspecimen/locus/locality cells;S1primers andAppendixspecimen paragraphs read;S4acoustic/S5inventory cells read plus main Methods/focaltreatments/Discussion/Tables1–3;S3distance matrix scientifically unreviewed beyond headers;GenBankoriginals/audio/vouchers/alignments/figurepixels unauthenticated; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Reported sequence donors and their catalogue linkage
+              zh: 报告序列供体与目录链接
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-scc97
+            locator: PMC7482940 supplementaryS2 pone.0238306.s003.docx table1 rows97,98 species/voucher;sha256:044b1c360d22c2e7b01e3f8afcbfd544d9f525cc35326f73800331b54dd4717b
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c47d1233aa
+                part: body
+              zh:
+                page: zh
+                section: s-0153ace5ca
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: The three-locus matrix does not give every donor three genes
+              zh: 三基因矩阵不使每供体均有三基因
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-scc97
+            locator: PMC7482940 supplementaryS2 table1 rows97,98 locus/accession columns3–5;Methodssec006–007;S1primer table
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bf415ec47c
+                part: body
+              zh:
+                page: zh
+                section: s-1ccb179607
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Collection labels are sequence provenance, not a new range census
+              zh: 采集标签是序列来源而非新分布普查
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-scc97
+            locator: PMC7482940 supplementaryS2 table1 rows97,98 localitycolumn6;S5localinventory comparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2ebe9200c8
+                part: body
+              zh:
+                page: zh
+                section: s-8245ba4d5b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

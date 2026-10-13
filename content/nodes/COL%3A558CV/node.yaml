@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Telmatobufo australis
+  displayName: Telmatobufo australis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/558CV
+  sourceIndexes:
+    - name:
+        en: Telmatobufo australis
+        zh: Telmatobufo australis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 558CV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/485
+            queryName: Telmatobufo australis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-306db39cc7
+      - s-37bfcc9850
+      - s-9e32504a12
+      - s-cb01b20550
+      - s-6d37f63cea
+      - s-662124fe5a
+      - s-a7fba9c1cb
+      - s-23d7640eee
+      - s-1ca36e06c4
+      - s-e08d7aa24f
+      - s-b092fa813e
+      - s-a4c3cd1e43
+      - s-32a690b5a6
+      - s-1c880684fe
+      - s-7449ea6e2f
+    zh:
+      - s-0674e98e28
+      - s-e191a3844f
+      - s-88646a26ea
+      - s-c11ea8e2c1
+      - s-9cccea0d31
+      - s-00233a6ec4
+      - s-d4abd47a39
+      - s-1dfe2fba15
+      - s-9da9b896be
+      - s-d4d4fae174
+      - s-eb6483efc2
+      - s-4d07c9f484
+      - s-31be18dec2
+      - s-6cc82698f0
+      - s-9ad26bc733

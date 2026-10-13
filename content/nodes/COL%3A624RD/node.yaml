@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemiphractidae
+  displayName: Hemiphractidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/624RD
+  sourceIndexes:
+    - name:
+        en: Hemiphractidae
+        zh: Hemiphractidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 624RD
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/332
+            queryName: Hemiphractidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 86
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70fc7a8e64
+      - s-1334dcec79
+      - s-5032f80544
+      - s-5e006f6680
+      - s-c5f4e55fe6
+      - s-95fd74bd8e
+      - s-6cc03dce35
+    zh:
+      - s-64a36c36cc
+      - s-8cca3437d8
+      - s-4baa38f4cf
+      - s-f4f3e766de
+      - s-931987f38e
+      - s-96cf3cefcc
+      - s-b60586f151

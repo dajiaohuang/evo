@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachuperus
+  displayName: Batrachuperus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62F2C
+  sourceIndexes:
+    - name:
+        en: Batrachuperus
+        zh: Batrachuperus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62F2C
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/225
+            queryName: Batrachuperus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 91
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41d850aab2
+      - s-46d3184566
+      - s-dbe7895344
+      - s-e4246b1130
+      - s-faf15c07ff
+      - s-a1d9f5f4ea
+      - s-63542ad0f5
+      - s-6a643e1776
+      - s-97530daa98
+      - s-2349d7a60f
+      - s-4c2c73fbdb
+      - s-ebd7700845
+      - s-b16bf834dd
+      - s-de651e318c
+    zh:
+      - s-20b147e214
+      - s-9bda05ab90
+      - s-1e47f6887a
+      - s-87904a4a24
+      - s-b76e1410cd
+      - s-1a8c8123bd
+      - s-e9ce7e0f67
+      - s-0d53a9ac3f
+      - s-d40b95c6e1
+      - s-1bbd99ab52
+      - s-cff92d9c35
+      - s-9e18d41976
+      - s-deb8cc4b30
+      - s-4c3c4c997c

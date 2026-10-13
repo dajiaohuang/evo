@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius spinigularis
+  displayName: Hyperolius spinigularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQZC
+  sourceIndexes:
+    - name:
+        en: Hyperolius spinigularis
+        zh: Hyperolius spinigularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQZC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/337
+            queryName: Hyperolius spinigularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-21c9e67265
+      - s-73bfcea6ba
+      - s-d127407a1b
+      - s-1f41c32926
+      - s-4c0b122864
+      - s-74dd51bafd
+      - s-88112a7559
+      - s-be4a5ac7af
+      - s-dd174a46de
+      - s-972fb2c681
+      - s-5258428665
+      - s-23ab77b381
+    zh:
+      - s-bcc707656f
+      - s-3635eeafc5
+      - s-008263e4b8
+      - s-fa324d9974
+      - s-480b77022a
+      - s-4aceae1b21
+      - s-e17c676ec1
+      - s-4a6d2addb9
+      - s-11d9eb260d
+      - s-426c8bad27
+      - s-c30e3327d3
+      - s-9bd2ad406b

@@ -1,0 +1,389 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Callicebus barbarabrownae Hershkovitz, 1990
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 金发蒂蒂猴
+      en: Blond Titi Monkey
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-e82f27858c
+            part: body
+          en:
+            page: en
+            section: s-3b904fcd77
+            part: body
+        sourceIds:
+          - printes2011
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-cb017092c2
+            part: body
+          en:
+            page: en
+            section: s-4d7d1d4a2d
+            part: body
+        sourceIds:
+          - marques2020
+      - topic: classification
+        text:
+          zh:
+            page: zh
+            section: s-081a037d01
+            part: body
+          en:
+            page: en
+            section: s-ebb103571a
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - printes2011
+          - marques2020
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1056e9e1ed
+            part: body
+          en:
+            page: en
+            section: s-e4d8659edd
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-890241beba
+            part: body
+          en:
+            page: en
+            section: s-5d16c711dc
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-8f57ed7e7b
+            part: body
+          en:
+            page: en
+            section: s-3c8fad52ff
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-ba86be55ec
+            part: body
+          en:
+            page: en
+            section: s-b21bf609d6
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-c2ed13ec53
+            part: body
+          en:
+            page: en
+            section: s-d6ad9fe7dd
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-73599daa7d
+            part: body
+          en:
+            page: en
+            section: s-ef514338f7
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-cf24cc7236
+            part: body
+          en:
+            page: en
+            section: s-9da9b27679
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-619a232f3c
+            part: body
+          en:
+            page: en
+            section: s-e714cc99fd
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-acc09f232c
+            part: body
+          en:
+            page: en
+            section: s-2c0fd25728
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-756b0a02a7
+            part: body
+          en:
+            page: en
+            section: s-facd4d2751
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Callicebus barbarabrownae Hershkovitz, 1990
+          url: https://www.checklistbank.org/dataset/316115/taxon/PML2
+          scope:
+            zh: 固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。
+            en: Pinned checklist identity, authorship, rank and parent links; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-ca0637ec-90b4-848b-a7c6-5fdf0de72e37
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 本地 MDD v2.5 精确联接记录列有英文普通名“Blond Titi Monkey”；本页物种身份仍按对应 COL26.8 ID。
+            en: The locally joined MDD v2.5 record lists the English common name “Blond Titi Monkey”; taxonomic identity follows the corresponding COL26.8 ID.
+      - id: printes2011
+        referenceId: ref-3e509f90-c53b-8c63-af0e-fe29e17eff6c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 2004–2005 年 130 个野外工作日、问卷访谈、地点记录与海拔/植被描述；属于当时的调查结果。
+            en: Supports the 130 field days, interviews, locality records and elevation/vegetation descriptions from 2004–2005; these are results from that survey period.
+      - id: marques2020
+        referenceId: ref-cd3392db-df4e-8fae-a665-a39d4f68f49e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 34 个样点、9 天重复回放计数及 221 平方公里子区域的 N-mixture 群体估算；结果不外推为全分布区总量。
+            en: Supports repeated playback counts at 34 sites over nine days and the N-mixture group estimate for a 221-km² subregion; not an estimate for the full range.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12330; name Callicebus barbarabrownae; reference table row 12330; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - litter_or_clutch_size_n
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            litter_or_clutch_size_n: Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            maximum_longevity_y: Weigl, R., 2005
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 649; Scientific=Callicebus barbarabrownae; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-454b04df8f
+        part: body
+      en:
+        page: en
+        section: s-fdfcf62a21
+        part: body

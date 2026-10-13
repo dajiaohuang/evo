@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea nana
+  displayName: Eurycea nana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3HB
+  sourceIndexes:
+    - name:
+        en: Eurycea nana
+        zh: Eurycea nana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3HB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/423
+            queryName: Eurycea nana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/16
+            queryName: Eurycea neotenes nana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a192dc30ea
+      - s-93e4b1f803
+      - s-e4e44bd0b2
+      - s-1807654bf8
+      - s-9aa8c8b9c3
+      - s-b5e00ec2b8
+      - s-b3b248b111
+      - s-3fb26269f8
+      - s-0286cc7d85
+      - s-73308bad44
+      - s-82417f50f4
+    zh:
+      - s-12e987bb35
+      - s-f880b2acca
+      - s-a75b1ac1f5
+      - s-6709c32cfa
+      - s-5169d600e5
+      - s-a75aa7a409
+      - s-7707e696ac
+      - s-8b10cce48b
+      - s-b38d889465
+      - s-65a8ba188e
+      - s-94012f6916

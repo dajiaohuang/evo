@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nyctibatrachus karnatakaensis
+    name:
+      en: Nyctibatrachus karnatakaensis
+      zh: Nyctibatrachus karnatakaensis
+    sourceClassification:
+      order: Anura
+      family: Nyctibatrachidae
+      genus: Nyctibatrachus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-dff17ca8eb
+            part: body
+          zh:
+            page: zh
+            section: s-4cbef483c4
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9263329b7f
+            part: body
+          zh:
+            page: zh
+            section: s-a35b282867
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3583, 3584; Reference.csv rows 905
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3583
+        values:
+          - Nyctibatrachidae
+          - Nyctibatrachus
+          - Nyctibatrachus karnatakaensis
+          - M
+          - "58.3"
+          - "23.8"
+          - "25.4"
+          - "5.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - NA
+          - "15.7"
+          - "11"
+          - NA
+          - "26"
+          - NA
+          - "24.8"
+          - "26.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.1"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3584
+        values:
+          - Nyctibatrachidae
+          - Nyctibatrachus
+          - Nyctibatrachus karnatakaensis
+          - F
+          - "63.8"
+          - "25.4"
+          - "27"
+          - "7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.9"
+          - NA
+          - "17.8"
+          - "13.9"
+          - NA
+          - "28.5"
+          - NA
+          - "29.1"
+          - "31.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.8"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 905
+        values:
+          - Anura
+          - Nyctibatrachus_karnatakaensis
+          - "Biju, S. D., Bocxlaer, I. V., Mahony, S., Dinesh, K. P., Radhakrishnan, C., Zachariah, A., . . . Bossuyt, F. (2011). A taxonomic review of the Night Frog genus Nyctibatrachus Boulenger, 1882 in the Western Ghats, India (Anura: Nyctibatrachidae) with description of twelve new species. Zootaxa, 3029(1). https://doi.org/10.11646/zootaxa.3029.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 485G9
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

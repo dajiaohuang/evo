@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paramesotriton caudopunctatus
+  displayName: Paramesotriton caudopunctatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4D36V
+  sourceIndexes:
+    - name:
+        en: Paramesotriton caudopunctatus
+        zh: Paramesotriton caudopunctatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4D36V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/409
+            queryName: Paramesotriton caudopunctatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/23
+            queryName: Trituroides caudopunctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/24
+            queryName: Allomesotriton caudopunctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/322
+            queryName: Paramesotriton caudomaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7a8e23c883
+      - s-e99e49c33a
+      - s-53da413c32
+      - s-d82e72ab6f
+      - s-6b173e2e5c
+      - s-3b8ae557a8
+      - s-0374438b40
+      - s-db42d9bae2
+      - s-902d400d71
+      - s-8bace8f1fe
+      - s-eb630a38b4
+    zh:
+      - s-26f8dab892
+      - s-9eef5dfdb5
+      - s-97d847c9d6
+      - s-187cc52d1b
+      - s-e32ff4ee97
+      - s-b9f684bc22
+      - s-8d30ac7fb3
+      - s-90598c6993
+      - s-42fb12e931
+      - s-783ee66c8b
+      - s-497552bed6

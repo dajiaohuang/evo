@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus apalachicolae
+  displayName: Desmognathus apalachicolae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/353M8
+  sourceIndexes:
+    - name:
+        en: Desmognathus apalachicolae
+        zh: Desmognathus apalachicolae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 353M8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/460
+            queryName: Desmognathus apalachicolae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f9e769a3c3
+      - s-4b32afee05
+      - s-6cad7f843c
+      - s-41f2592d27
+      - s-d25a231781
+      - s-94f231d5bd
+      - s-e1833492d5
+      - s-cdd966b4e7
+      - s-427789b6a9
+    zh:
+      - s-987f54ca8e
+      - s-4d27a19dfc
+      - s-9d51b25b9a
+      - s-20702419c4
+      - s-8298c89c75
+      - s-139027399d
+      - s-69f51f6a6d
+      - s-3ca37232dd
+      - s-af15d951e9

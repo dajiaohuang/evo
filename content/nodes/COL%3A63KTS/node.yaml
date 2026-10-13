@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelobates
+  displayName: Pelobates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63KTS
+  sourceIndexes:
+    - name:
+        en: Pelobates
+        zh: Pelobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63KTS
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/143
+            queryName: Pelobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 364
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0182d5e872
+      - s-c133025135
+      - s-725cde5fa4
+      - s-410bd52f0f
+      - s-38c8085add
+      - s-1c5f80c03b
+      - s-d7293b377d
+      - s-f00343e48f
+      - s-92ee4d04b4
+      - s-b565113a74
+      - s-1028b1572a
+      - s-b5378dac7c
+      - s-5697560539
+      - s-07a3df1364
+    zh:
+      - s-6655b31758
+      - s-364695d2a0
+      - s-d191f8cb92
+      - s-94746f5c74
+      - s-d0e4688624
+      - s-22f87b2cad
+      - s-aad1106bfb
+      - s-ca34602892
+      - s-3c90275550
+      - s-ee24c6c9c5
+      - s-43d557e604
+      - s-725ed5c961
+      - s-9cf51a61f0
+      - s-e6d3182343

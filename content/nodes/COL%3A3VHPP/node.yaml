@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates blairi
+  displayName: Lithobates blairi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHPP
+  sourceIndexes:
+    - name:
+        en: Lithobates blairi
+        zh: Lithobates blairi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHPP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/161
+            queryName: Lithobates blairi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/211
+            queryName: Rana blairi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c3fffd3be4
+      - s-0077db60ff
+      - s-e54be4439c
+      - s-9dd3e52a55
+      - s-6b20c12cfc
+      - s-58f6119d4c
+      - s-bd020e034f
+      - s-13781e4bfb
+      - s-4e0bd03ca9
+      - s-529284c60a
+      - s-98d6c56be2
+    zh:
+      - s-12f7f2eb32
+      - s-0664b759f4
+      - s-85de554289
+      - s-98553229d8
+      - s-35041f2801
+      - s-0b35933044
+      - s-e2a53c326a
+      - s-9d893cbef4
+      - s-c69b47eead
+      - s-b891f4c33b
+      - s-4f0455ef89

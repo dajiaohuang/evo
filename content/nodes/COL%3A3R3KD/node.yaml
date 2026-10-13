@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kassinula wittei
+  displayName: Kassinula wittei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3R3KD
+  sourceIndexes:
+    - name:
+        en: Kassinula wittei
+        zh: Kassinula wittei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3R3KD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/156
+            queryName: Kassinula wittei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/408
+            queryName: Kassina wittei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dd5ee9cf74
+      - s-6a815d38f8
+      - s-05d23ab7a6
+      - s-41006a489f
+      - s-f7a7c6c23b
+      - s-214a9edbbc
+      - s-6d2980666d
+      - s-7815edc6fb
+    zh:
+      - s-5e03e6fb72
+      - s-8c9885d026
+      - s-23aa2bbb92
+      - s-93ad9d00dc
+      - s-f3add15173
+      - s-2bd2fc9a63
+      - s-56cae5e621
+      - s-3d42351120

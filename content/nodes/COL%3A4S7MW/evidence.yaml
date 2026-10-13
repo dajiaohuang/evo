@@ -1,0 +1,798 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinella dapsilis (Myers & Carvalho, 1945)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Rhinella dapsilis
+      zh: Rhinella dapsilis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-53664c6cae
+            part: title
+          zh:
+            page: zh
+            section: s-a3a1454a91
+            part: title
+        text:
+          en:
+            page: en
+            section: s-53664c6cae
+            part: body
+          zh:
+            page: zh
+            section: s-a3a1454a91
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9ca964f474
+            part: title
+          zh:
+            page: zh
+            section: s-033a8bdd67
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9ca964f474
+            part: body
+          zh:
+            page: zh
+            section: s-033a8bdd67
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-026caaef97
+            part: title
+          zh:
+            page: zh
+            section: s-657e22dc73
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-026caaef97
+            part: body
+          zh:
+            page: zh
+            section: s-657e22dc73
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3797a650b3
+            part: title
+          zh:
+            page: zh
+            section: s-2830fbdbb4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-3797a650b3
+            part: body
+          zh:
+            page: zh
+            section: s-2830fbdbb4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-9b62ebd7c7
+            part: title
+          zh:
+            page: zh
+            section: s-7c9a131f24
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-9b62ebd7c7
+            part: body
+          zh:
+            page: zh
+            section: s-7c9a131f24
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-c36590cff7
+            part: title
+          zh:
+            page: zh
+            section: s-36b3fcfc97
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-c36590cff7
+            part: body
+          zh:
+            page: zh
+            section: s-36b3fcfc97
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-47c476f49a
+            part: title
+          zh:
+            page: zh
+            section: s-198d9c1ef1
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-47c476f49a
+            part: body
+          zh:
+            page: zh
+            section: s-198d9c1ef1
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-3523dca024b112b225804a1982025b95
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-62312ebb7303007757b1ec68
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8b53df5c6a
+            part: title
+          zh:
+            page: zh
+            section: s-af646f832e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8b53df5c6a
+            part: body
+          zh:
+            page: zh
+            section: s-af646f832e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-fbc3db87d1
+            part: title
+          zh:
+            page: zh
+            section: s-5dd8f8b80b
+            part: title
+        sourceIds:
+          - primary-pmc13024529-4s7mw
+        text:
+          en:
+            page: en
+            section: s-fbc3db87d1
+            part: body
+          zh:
+            page: zh
+            section: s-5dd8f8b80b
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-73f25b9040
+            part: title
+          zh:
+            page: zh
+            section: s-9bc7240671
+            part: title
+        sourceIds:
+          - primary-pmc13024529-4s7mw
+        text:
+          en:
+            page: en
+            section: s-73f25b9040
+            part: body
+          zh:
+            page: zh
+            section: s-9bc7240671
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-180305e54c
+            part: title
+          zh:
+            page: zh
+            section: s-4af3cbe9ab
+            part: title
+        sourceIds:
+          - primary-pmc13024529-4s7mw
+        text:
+          en:
+            page: en
+            section: s-180305e54c
+            part: body
+          zh:
+            page: zh
+            section: s-4af3cbe9ab
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-64180c7026
+            part: title
+          zh:
+            page: zh
+            section: s-a427aec6fc
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4s7mw
+        text:
+          en:
+            page: en
+            section: s-64180c7026
+            part: body
+          zh:
+            page: zh
+            section: s-a427aec6fc
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-dbe3e7d168
+            part: title
+          zh:
+            page: zh
+            section: s-96a5b06e96
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4s7mw
+        text:
+          en:
+            page: en
+            section: s-dbe3e7d168
+            part: body
+          zh:
+            page: zh
+            section: s-96a5b06e96
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-5c132b4323
+            part: title
+          zh:
+            page: zh
+            section: s-b6f7611458
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4s7mw
+        text:
+          en:
+            page: en
+            section: s-5c132b4323
+            part: body
+          zh:
+            page: zh
+            section: s-b6f7611458
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b27a28ccf1
+            part: title
+          zh:
+            page: zh
+            section: s-f11dbc87af
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4s7mw
+        text:
+          en:
+            page: en
+            section: s-b27a28ccf1
+            part: body
+          zh:
+            page: zh
+            section: s-f11dbc87af
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-023528b24b
+            part: title
+          zh:
+            page: zh
+            section: s-348970c1de
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4s7mw
+        text:
+          en:
+            page: en
+            section: s-023528b24b
+            part: body
+          zh:
+            page: zh
+            section: s-348970c1de
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-c3774dc592
+            part: title
+          zh:
+            page: zh
+            section: s-822a364898
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4s7mw
+        text:
+          en:
+            page: en
+            section: s-c3774dc592
+            part: body
+          zh:
+            page: zh
+            section: s-822a364898
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhinella dapsilis
+          url: https://www.checklistbank.org/dataset/316115/taxon/4S7MW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0825; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0825 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5396; Reference.csv rows 2725
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13024529-4s7mw
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rhinella dapsilis: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12654886-4s7mw
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rhinella dapsilis: Rhinella dapsilis: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-618d1b54b5
+        part: body
+      zh:
+        page: zh
+        section: s-3fbd622681
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-3523dca024b112b225804a1982025b95
+      sourceRowId: Anf0825
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0825
+        bibliographyRowId: Anf0825
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Rhinella dapsilis
+        candidateBibliographyRowIds:
+          - Anf0825
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-62312ebb7303007757b1ec68
+        scientificName: Rhinella dapsilis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/biology15060451
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        sourceKey: primary-pmc13024529-4s7mw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13024529/article.xml
+        sourceConcept: 2013–2018 source-labelled Rhinella dapsilis nominal row in2026paper; Pristimantis identification contradiction retained where relevant, not certified vouchers/concepts
+        evidenceRead: "Rhinella dapsilis: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Historical local survey records are distinct from a current provincial census
+              zh: 历史地方调查记录区别于当前全省普查
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-4s7mw
+            locator: PMC13024529 XML Table2 bodyrow10 Rhinella dapsilis; Methods2.1–2.3; Results opening
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9654adde06
+                part: body
+              zh:
+                page: zh
+                section: s-d9ad3053f1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A source-assigned risk category retains its assessment limits
+              zh: 来源分配风险类别保留评估限制
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-4s7mw
+            locator: PMC13024529 XML Table2 bodyrow10 LC/Total columns; Methods2.5; Results3.4; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fe77f12eb0
+                part: body
+              zh:
+                page: zh
+                section: s-16673b722a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Coverage and community turnover do not prove a species trend
+              zh: 覆盖及群落更替不证明物种趋势
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-4s7mw
+            locator: PMC13024529 XML Methods2.2/2.4.1/2.4.3/2.4.5; Table1; Results3.1/3.3; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7db22bcdd9
+                part: body
+              zh:
+                page: zh
+                section: s-06c5dfed15
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-4s7mw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Regional source-labelled Rhinella dapsilis molecular-marker/specimen records plus priorinventory/treatment, no voucher/modernconcept certification
+        evidenceRead: "Rhinella dapsilis: Rhinella dapsilis: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4s7mw
+            locator: PMC12654886 S3_Table.pdf page1 speciesrow9 Rhinella dapsilis fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8e9364fd4d
+                part: body
+              zh:
+                page: zh
+                section: s-f1a9c0056f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4s7mw
+            locator: PMC12654886 S3_Table.pdf page1 speciesrow9 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e0070a3d32
+                part: body
+              zh:
+                page: zh
+                section: s-fb4ec0941c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4s7mw
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c7bdff205f
+                part: body
+              zh:
+                page: zh
+                section: s-bc6ff118b1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Specimen-linked marker availability in the regional workbook
+              zh: 区域工作簿逐标本标记可用性
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4s7mw
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows331,332,333,334,335,336 B:I; headersB4:I4; XML sec007/sec033; S3_Table.pdf exactinventoryname
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0128d38f5e
+                part: body
+              zh:
+                page: zh
+                section: s-ac9807f60c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Marker partitions and correlation labels retain their scope
+              zh: 标记分区及相关标签保留范围
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4s7mw
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows331,332,333,334,335,336 E:I; XML sec007 ASAPmethods andsec033 markercomparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d224ba2165
+                part: body
+              zh:
+                page: zh
+                section: s-2b89971b89
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: evolution
+            heading:
+              en: Shared or split marker groups are not final species boundaries
+              zh: 共享或分裂标记组不是最终物种界限
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4s7mw
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 source groupcolumns F/H cross-source-label rows; XML sec033 Pristimantis/Rhinella paragraphs
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cc0cffafa0
+                part: body
+              zh:
+                page: zh
+                section: s-f398e4705f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

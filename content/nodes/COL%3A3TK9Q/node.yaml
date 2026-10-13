@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella juliandringi
+  displayName: Leptobrachella juliandringi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TK9Q
+  sourceIndexes:
+    - name:
+        en: Leptobrachella juliandringi
+        zh: Leptobrachella juliandringi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TK9Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/243
+            queryName: Leptobrachella juliandringi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba0f79686e
+      - s-7943669d66
+      - s-7456b74ad4
+      - s-a8edc921e6
+      - s-7f79f7f136
+      - s-ea47e7701c
+      - s-48ba8974b6
+      - s-f1dfb33620
+      - s-90e247b60e
+    zh:
+      - s-b5c746666f
+      - s-d57701efa9
+      - s-900569d707
+      - s-01052d4173
+      - s-c30a1785b7
+      - s-c1a51dc76d
+      - s-bb1f71d784
+      - s-227e14ea9b
+      - s-4540470c5f

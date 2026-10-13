@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius leechii
+  displayName: Hynobius leechii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NLTW
+  sourceIndexes:
+    - name:
+        en: Hynobius leechii
+        zh: Hynobius leechii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NLTW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/174
+            queryName: Hynobius leechii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 48
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/491
+            queryName: Hynobius mantchuricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/329
+            queryName: Hynobius leechii leechii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/220
+            queryName: Hynobius kurashigei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/221
+            queryName: Hynobius manchuricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f0b77529be
+      - s-e5d45ef3f9
+      - s-793fdcab53
+      - s-770f251b9b
+      - s-1a7d78bf90
+      - s-1282dc8eb7
+      - s-8068e43c06
+      - s-a5350fcd65
+      - s-188bb449fd
+      - s-3fb99835ec
+      - s-cef198ae95
+    zh:
+      - s-cc470e63cc
+      - s-c5e2cfeeee
+      - s-6643422425
+      - s-885da00381
+      - s-a609c1d325
+      - s-7fde1363df
+      - s-8b28d55186
+      - s-7810e314f2
+      - s-28b630ee2b
+      - s-0e6cb73a49
+      - s-cb360ee7a8

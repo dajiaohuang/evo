@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla fissipes
+  displayName: Microhyla fissipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73GRF
+  sourceIndexes:
+    - name:
+        en: Microhyla fissipes
+        zh: Microhyla fissipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73GRF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/3
+            queryName: Microhyla fissipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 115
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/347
+            queryName: Microhyla eremita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-130fc1f13c
+      - s-e93db808e8
+      - s-340ee0d51d
+      - s-e4e67500ff
+      - s-f15762bcac
+      - s-08b91ac621
+      - s-b2719c4bb7
+      - s-6994f268fa
+      - s-07a2482c4e
+      - s-83fe5c7c27
+      - s-8a887f53a8
+      - s-c297a28486
+      - s-005ab26679
+      - s-105b0fc960
+      - s-08515edbeb
+      - s-260da0f836
+      - s-788928dde2
+      - s-4defdd5213
+      - s-52100c5966
+    zh:
+      - s-e5b3e34154
+      - s-3614265450
+      - s-86435c421f
+      - s-2994ee2346
+      - s-3e36cad641
+      - s-f88d34aa1f
+      - s-b549b4c759
+      - s-c7631b2b80
+      - s-984d9559e9
+      - s-3a947626b4
+      - s-23a627e72c
+      - s-7f69fa0f3d
+      - s-dbe5a66689
+      - s-ef0f34c526
+      - s-0a07f8fc25
+      - s-9b1824a259
+      - s-540e0d7140
+      - s-2a6b6b44e4
+      - s-f5fff2bb71

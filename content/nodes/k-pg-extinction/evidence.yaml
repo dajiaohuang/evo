@@ -1,0 +1,141 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-bb0eb00612
+      part: title
+    titleZh:
+      page: zh
+      section: s-6693e9dc5e
+      part: title
+    category: extinction
+    startAge: 66.1
+    endAge: 65.9
+    regions:
+      - Global
+    clades:
+      - Non-avian Dinosauria
+      - Ammonitida
+      - marine plankton
+      - Mammalia
+      - Aves
+    summary:
+      page: en
+      section: s-bb0eb00612
+      part: body
+    summaryZh:
+      page: zh
+      section: s-6693e9dc5e
+      part: body
+    claimIds:
+      - claim:event:k-pg-extinction
+      - claim:event:k-pg-chicxulub
+      - claim:event:k-pg-turnover
+    evidenceItems:
+      - statement: Iridium-rich boundary layer
+        relation: supports
+        claimIds:
+          - claim:event:k-pg-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: alvarez-1980-kpg
+            pages: 1095–1108
+      - statement: Chicxulub crater
+        relation: supports
+        claimIds:
+          - claim:event:k-pg-chicxulub
+        referenceLinks:
+          - relation: supports
+            referenceId: schulte-2010-chicxulub
+            quoteLocator: Science 327 synthesis, pp. 1214–1218
+      - statement: Abrupt fossil turnover
+        relation: supports
+        claimIds:
+          - claim:event:k-pg-turnover
+        referenceLinks:
+          - relation: supports
+            referenceId: schulte-2010-chicxulub
+            quoteLocator: Science 327 synthesis, pp. 1214–1218
+      - statement: High-precision 40Ar/39Ar ages resolve impact and boundary extinction as synchronous within about 32 kyr
+        relation: supports
+        claimIds:
+          - claim:event:k-pg-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: renne-2013-kpg-timescale
+            pages: 684–687
+            figure: Figures 1–3
+            quoteLocator: 40Ar/39Ar results and synchrony calculation
+    uncertaintyItems:
+      - statement: Deccan volcanism contributed background environmental stress
+        relation: contextualizes
+        claimIds:
+          - claim:event:k-pg-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: alvarez-1980-kpg
+            pages: 1095–1108
+      - statement: Survival and recovery patterns varied among regions and clades
+        relation: contextualizes
+        claimIds:
+          - claim:event:k-pg-extinction
+        referenceLinks:
+          - relation: supports
+            referenceId: alvarez-1980-kpg
+            pages: 1095–1108
+  claims:
+    - subjectId: event:k-pg-extinction
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Boundary clay iridium and impact ejecta support an extraterrestrial impact, while high-precision 40Ar/39Ar ages place the K–Pg boundary at 66.043 ± 0.043 Ma and resolve impact and extinction as synchronous within about 32 kyr.
+      confidence: high
+      confidenceRationale: Independent geochemical observations and high-precision radioisotopic comparison converge on impact-boundary synchrony. High confidence does not make every taxon disappearance instantaneous or eliminate regional Signor–Lipps effects.
+      referenceLinks:
+        - relation: supports
+          referenceId: alvarez-1980-kpg
+          pages: 1095–1108
+          figure: Figures 1–5
+          quoteLocator: Iridium measurements and impact hypothesis
+        - relation: supports
+          referenceId: renne-2013-kpg-timescale
+          pages: 684–687
+          figure: Figures 1–3
+          quoteLocator: 40Ar/39Ar results; synchrony calculation; supplementary materials
+    - subjectId: event:k-pg-extinction
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Multiple stratigraphic, geochemical and geophysical lines of evidence identify Chicxulub as the source crater for the K–Pg impact.
+      confidence: high
+      confidenceRationale: High confidence follows the cited synthesis linking crater age, ejecta, boundary deposits and global stratigraphy rather than retroactively attributing the crater to the 1980 iridium paper.
+      referenceLinks:
+        - relation: supports
+          referenceId: schulte-2010-chicxulub
+          pages: 1214–1218
+          figure: Figures 1–4
+          quoteLocator: Global boundary-evidence synthesis
+    - subjectId: event:k-pg-extinction
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Abrupt fossil turnover at the K–Pg boundary is temporally associated with impact ejecta and the Chicxulub event.
+      confidence: high
+      confidenceRationale: High confidence applies to the boundary-scale association documented across stratigraphic records; clade-specific extinction and recovery patterns remain heterogeneous.
+      referenceLinks:
+        - relation: supports
+          referenceId: schulte-2010-chicxulub
+          pages: 1214–1218
+          figure: Figures 1–4
+          quoteLocator: Global boundary-evidence synthesis
+        - relation: supports
+          referenceId: renne-2013-kpg-timescale
+          pages: 684–687
+          figure: Figures 1–3
+          quoteLocator: 40Ar/39Ar results; synchrony calculation; supplementary materials
+  claim-rationales.zh:
+    - 独立的边界黏土地球化学与高精度氩氩年代比较共同支持撞击—界线同步；高置信度不表示每个类群都在同一瞬间消失，也不消除区域辛格—利普斯效应。
+    - 高置信度来自综合撞击坑年代、喷出物、界线沉积与全球地层记录的研究，而不是把 1991 年后确认的撞击坑错误归入 1980 年铱异常论文。
+    - 高置信度适用于多套地层记录中界线尺度的化石更替与撞击喷出物关联；不同类群的灭绝和恢复模式仍具有异质性。
+  claim-statements.zh:
+    - 界线黏土中的铱与撞击喷出物支持地外撞击，高精度氩氩年龄则把 K–Pg 界线定为 66.043 ± 0.043 Ma，并在约 3.2 万年的分辨率内将撞击与灭绝判为同步。
+    - 多种地层学、地球化学和地球物理证据共同确认希克苏鲁伯是白垩纪—古近纪撞击事件的源陨石坑。
+    - 白垩纪—古近纪界线处骤然的化石更替，在时间上与撞击喷出物及希克苏鲁伯事件相关联。

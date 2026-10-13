@@ -1,0 +1,3 @@
+## ## Scarlet banner petals and long pods {#s-00872229a8}
+The historical Flora of Panama describes *Erythrina poeppigiana* as a large tree, often armed with spines. Its broad leaflets range from rhomboid or triangular to nearly round and are 5–18 cm long. Inflorescences may reach 35 cm. The flowers have a scarlet banner petal up to 50 mm long, smaller wing petals and a curved keel petal up to 45 mm long. The legume may reach 25 cm long; its seeds are coffee-colored and about 12 mm long. The same historical flora gives a range from Panama to Bolivia, without a sampling frame or observation date; this is not a current range inventory.
+

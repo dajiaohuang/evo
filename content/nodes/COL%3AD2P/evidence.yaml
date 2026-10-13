@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Diptera
+    rank: order
+    sourceDatasetId: "1101"
+    name:
+      zh: 双翅目
+      en: True flies
+    sections:
+      - topic: form
+        text:
+          zh:
+            page: zh
+            section: s-34d7dd24f4
+            part: body
+          en:
+            page: en
+            section: s-f422be7dac
+            part: body
+        sourceIds:
+          - account
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-7892e6a367
+            part: body
+          en:
+            page: en
+            section: s-5cfe611146
+            part: body
+        sourceIds:
+          - account
+    sources:
+      - id: account
+        referenceId: ref-caa1ed01-e7b1-88e8-a37a-a70297277aa1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 成虫翅与平衡棒、完全变态和食性差异；不继承旧亚目划分或疾病风险结论。
+            en: Adult wings and halteres, complete metamorphosis and feeding diversity; excludes older suborders and disease-risk claims.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 1101
+          url: https://www.checklistbank.org/dataset/316115/taxon/D2P
+          scope:
+            zh: 固定版本中的接受名、作者、等级及父链；保留亚属写法和未分配的来源 ID，不据名称推导生物学事实。
+            en: Pinned accepted name, authorship, rank and parent chain; subgenus notation and unassigned source IDs are retained. Names do not establish biological traits.
+    limitations:
+      zh:
+        page: zh
+        section: s-90e6cb7627
+        part: body
+      en:
+        page: en
+        section: s-241014ab4d
+        part: body

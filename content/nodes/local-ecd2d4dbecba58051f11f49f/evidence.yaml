@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Scinax pombali
+    name:
+      en: Scinax pombali
+      zh: Scinax pombali
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Scinax
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1def9dcdcd
+            part: body
+          zh:
+            page: zh
+            section: s-cf4151a0b7
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-47b4f5a2ff
+            part: body
+          zh:
+            page: zh
+            section: s-1e7729c5c1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5610, 5611; Reference.csv rows 3168
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5610
+        values:
+          - Hylidae
+          - Scinax
+          - Scinax pombali
+          - F
+          - "31.72"
+          - "12.22"
+          - "10.79"
+          - "4.63"
+          - "1.5"
+          - NA
+          - "2.36"
+          - "2.19"
+          - NA
+          - "3.5"
+          - "5.12"
+          - NA
+          - "10.12"
+          - "11.06"
+          - NA
+          - "15.68"
+          - NA
+          - "17.61"
+          - "16.54"
+          - "9.45"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5611
+        values:
+          - Hylidae
+          - Scinax
+          - Scinax pombali
+          - M
+          - "22.66"
+          - "8.85"
+          - "7.34"
+          - "3.51"
+          - "1"
+          - NA
+          - "2.39"
+          - "1.96"
+          - NA
+          - "2.45"
+          - "3.65"
+          - NA
+          - "7.24"
+          - "7.53"
+          - NA
+          - "10.82"
+          - NA
+          - "12.21"
+          - "11.36"
+          - "6.52"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3168
+        values:
+          - Anura
+          - Scinax_pombali
+          - Lourenço, A., Carvalho, A. L., Baêta, D., Pezzuti, T., & Leite, F. (2013). A new species of the Scinax catharinae group (Anura, Hylidae) from Serra da Canastra, Southwestern State of Minas Gerais, Brazil. Zootaxa, 3613, 573-588. https://doi.org/10.11646/zootaxa.3613.6.4
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

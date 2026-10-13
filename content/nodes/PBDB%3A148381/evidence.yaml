@@ -1,0 +1,385 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hatzegopteryx thambema
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hatzegopteryx thambema
+      en: Hatzegopteryx thambema
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d8866ba5bc
+            part: body
+          en:
+            page: en
+            section: s-6decbcc4f7
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-347da3514a
+            part: body
+          en:
+            page: en
+            section: s-fc13f292f5
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-30491db808
+            part: body
+          en:
+            page: en
+            section: s-b93fbbfe1b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1f5d6d5d9e
+            part: body
+          en:
+            page: en
+            section: s-c30a0ba71d
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-51f7d1a19a
+            part: body
+          en:
+            page: en
+            section: s-c4aa652ff5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hatzegopteryx thambema
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=148381&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:148381; original response record indices retained in data/sources/pterosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: bae4c11926f8cde7bd7b1b7418d63b8ba856066f5005a9181b8bdf8dcb047035
+          pbdbTaxonId: txn:148381
+          selectedOccurrenceIds:
+            - occ:818652
+          selectedCollectionIds:
+            - col:89991
+          sourceReferenceIds:
+            - ref:30139
+          originalIdentificationMappings:
+            - occurrenceId: occ:818652
+              originalIdentifiedName: Hatzegopteryx thambema n. gen. n. sp.
+              acceptedName: Hatzegopteryx thambema
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Recorded PBDB accepted identity and parent chain
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=148381&show=parent,app,attr
+          locator: P5-42 retained accepted hierarchy; oid txn:148381; ancestry below the documented Pterosauria anchor.
+          accessedAt: 2026-10-02
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    limitations:
+      zh:
+        page: zh
+        section: s-db5d819ed7
+        part: body
+      en:
+        page: en
+        section: s-fe823be30c
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:148381
+    scientificName: Hatzegopteryx thambema
+    commonName: Hatzegopteryx thambema
+    commonNameZh: Hatzegopteryx thambema
+    rank: species
+    parentName: Hatzegopteryx
+    extinct: true
+    geography: []
+    overview:
+      page: en
+      section: s-6decbcc4f7
+      part: body
+    ecology:
+      diet: Not assessed from occurrence counts or depositional setting.
+      habitat: Collection environments are not a species-wide habitat assessment.
+      locomotion: Not independently assessed.
+      bodySize: Not assessed from this occurrence batch.
+      guild: Not assessed.
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-fe823be30c
+      part: body
+    confidence: low
+    referenceIds:
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+    readerSections:
+      - id: pbdb-occurrence-1
+        title:
+          en: One occurrence at the holotype locality
+          zh: 正模地点的一条出现记录
+        text:
+          zh:
+            page: zh
+            section: s-d8866ba5bc
+            part: body
+          en:
+            page: en
+            section: s-6decbcc4f7
+            part: body
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-2
+        title:
+          en: Valioara and the Densuș-Ciula unit
+          zh: Valioara 与 Densuș-Ciula 地层单位
+        text:
+          zh:
+            page: zh
+            section: s-347da3514a
+            part: body
+          en:
+            page: en
+            section: s-fc13f292f5
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-3
+        title:
+          en: The broad age bracket
+          zh: 宽泛的年代范围
+        text:
+          zh:
+            page: zh
+            section: s-30491db808
+            part: body
+          en:
+            page: en
+            section: s-b93fbbfe1b
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-4
+        title:
+          en: A channel label describes the collection setting
+          zh: “channel”描述采集环境
+        text:
+          zh:
+            page: zh
+            section: s-1f5d6d5d9e
+            part: body
+          en:
+            page: en
+            section: s-c30a0ba71d
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-5
+        title:
+          en: The citation attached to the collection
+          zh: 采集记录附带的引文
+        text:
+          zh:
+            page: zh
+            section: s-51f7d1a19a
+            part: body
+          en:
+            page: en
+            section: s-c4aa652ff5
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+    readerSources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 261
+        usage:
+          scope:
+            zh: 仅来源所述材料和数据库记录范围。
+            en: Only material and database-record scope described by this source.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 261
+        usage:
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    readerLimitations:
+      zh:
+        page: zh
+        section: s-db5d819ed7
+        part: body
+      en:
+        page: en
+        section: s-fe823be30c
+        part: body
+    readerRelatedPages:
+      - targetId: txn:148380
+        label:
+          en: Hatzegopteryx
+          zh: Hatzegopteryx
+        context:
+          zh: 返回记录父级的阅读入口，保留各出现与采集记录的范围。
+          en: Return to the recorded parent reading route, retaining occurrence and collection scope.
+  atlas-node:
+    name: Hatzegopteryx thambema
+    commonName: Hatzegopteryx thambema
+    commonNameZh: Hatzegopteryx thambema
+    rank: species
+    taxonId: txn:148381
+    firstAppearance: 72.2
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  ranges:
+    - entityId: txn:148381
+      rangeKind: global-composite
+      taxonomicConcept: Hatzegopteryx thambema
+      geographicScope: PBDB database represented occurrences, not a complete geographic distribution
+      olderMa: 72.2
+      youngerMa: 66
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: PBDB first-occurrence bracket 72.2–66 Ma and last-occurrence bracket 72.2–66 Ma. Database summary uses all represented occurrences, while reader paragraphs explicitly use the eligible subset. Neither is a direct specimen date, origin or extinction estimate.
+      evidenceBasis: Dated accepted-taxonomy app fields retained in P5-42 source snapshots; database-derived appearance brackets.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+          locator: P5-42 accepted hierarchy oid txn:148381; fea/fla/lea/lla in retained taxa response.
+      evidenceLevel: database-derived

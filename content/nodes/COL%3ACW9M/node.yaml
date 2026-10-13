@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops assamensis
+  displayName: Amolops assamensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CW9M
+  sourceIndexes:
+    - name:
+        en: Amolops assamensis
+        zh: Amolops assamensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CW9M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/343
+            queryName: Amolops assamensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b7b90d9702
+      - s-b7fa4d2a12
+      - s-7acd2aa35f
+      - s-747731559e
+      - s-183aa8187e
+      - s-629e9fa0c6
+      - s-1c3712548c
+      - s-8e28db888a
+      - s-8febe3bbdd
+    zh:
+      - s-08bd9d6a24
+      - s-aab5984c2a
+      - s-3c16e173cc
+      - s-33f70d0e2d
+      - s-42071feb52
+      - s-6188733c82
+      - s-2be82c1ac0
+      - s-1acc8223c0
+      - s-5a9aaae8f4

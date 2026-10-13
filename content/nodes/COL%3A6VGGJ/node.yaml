@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus riograndensis
+  displayName: Physalaemus riograndensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VGGJ
+  sourceIndexes:
+    - name:
+        en: Physalaemus riograndensis
+        zh: Physalaemus riograndensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VGGJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/343
+            queryName: Physalaemus riograndensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b936a700c2
+      - s-9b72726526
+      - s-7e181a071d
+      - s-4d52f14822
+      - s-5e79fc24c2
+      - s-8da9312725
+      - s-559dfae9d0
+      - s-6af7cfca8a
+      - s-723156029a
+      - s-53ba73f7c6
+      - s-1af2c2037d
+      - s-211f8a8f67
+      - s-1c681ccc39
+    zh:
+      - s-eccfc11b9c
+      - s-88a72d0b65
+      - s-f6c2d33c65
+      - s-91352c48fc
+      - s-690494d645
+      - s-ef5cb88ec4
+      - s-b92c3c178b
+      - s-56a64c79cc
+      - s-dd9997ad63
+      - s-50cb39f980
+      - s-e7da170208
+      - s-10096d1673
+      - s-defb99359a

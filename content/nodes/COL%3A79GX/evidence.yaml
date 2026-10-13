@@ -1,0 +1,295 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhyacotriton Dunn, 1920
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Rhyacotriton
+      zh: Rhyacotriton
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6a0d858014
+            part: title
+          zh:
+            page: zh
+            section: s-81b001b572
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6a0d858014
+            part: body
+          zh:
+            page: zh
+            section: s-81b001b572
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-37ba799a51
+            part: title
+          zh:
+            page: zh
+            section: s-229f0ce6ad
+            part: title
+        text:
+          en:
+            page: en
+            section: s-37ba799a51
+            part: body
+          zh:
+            page: zh
+            section: s-229f0ce6ad
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5a347dc3da
+            part: title
+          zh:
+            page: zh
+            section: s-d4562b014f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5a347dc3da
+            part: body
+          zh:
+            page: zh
+            section: s-d4562b014f
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-0373661fe0
+            part: title
+          zh:
+            page: zh
+            section: s-2af81fbd3b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0373661fe0
+            part: body
+          zh:
+            page: zh
+            section: s-2af81fbd3b
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-702b0e82bd
+            part: title
+          zh:
+            page: zh
+            section: s-39852b0959
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4SP9K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4SP9K
+            label:
+              en: Rhyacotriton cascadae
+              zh: Rhyacotriton cascadae
+          - kind: catalogue
+            colId: 4SP9L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4SP9L
+            label:
+              en: Rhyacotriton kezeri
+              zh: Rhyacotriton kezeri
+          - kind: catalogue
+            colId: 4SP9M
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4SP9M
+            label:
+              en: Rhyacotriton olympicus
+              zh: Rhyacotriton olympicus
+          - kind: catalogue
+            colId: 4SP9N
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4SP9N
+            label:
+              en: Rhyacotriton variegatus
+              zh: Rhyacotriton variegatus
+        text:
+          en:
+            page: en
+            section: s-702b0e82bd
+            part: body
+          zh:
+            page: zh
+            section: s-39852b0959
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-94694d2e67
+            part: title
+          zh:
+            page: zh
+            section: s-ff2a7515c9
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-94694d2e67
+            part: body
+          zh:
+            page: zh
+            section: s-ff2a7515c9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhyacotriton
+          url: https://www.checklistbank.org/dataset/316115/taxon/79GX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Rhyacotriton; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Rhyacotriton; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0572327950
+        part: body
+      zh:
+        page: zh
+        section: s-be37d991eb
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Rhyacotriton
+      sourceRowIds:
+        - Anf6494
+        - Anf6495
+        - Anf6496
+        - Anf6497
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 4
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 4
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 4
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Rhyacotriton olympicus
+          path: content/nodes/local-49e0b3c468c0ed88c993a50c
+        - scientificName: Rhyacotriton variegatus
+          path: content/nodes/local-469d664ab675310debf7a1a2
+      metrics:
+        - metric: CTmax
+          rows: 3
+          sourceConcepts: 2
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cryptobatrachus ruthveni
+  displayName: Cryptobatrachus ruthveni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BKPG
+  sourceIndexes:
+    - name:
+        en: Cryptobatrachus ruthveni
+        zh: Cryptobatrachus ruthveni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BKPG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/247
+            queryName: Cryptobatrachus ruthveni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-02e4488b11
+      - s-9397e06794
+      - s-a18cda0e0f
+      - s-ce53a0c440
+      - s-17b3b7023e
+      - s-da724a2fdc
+      - s-bb921a0f09
+    zh:
+      - s-8aec07527a
+      - s-426d03f41d
+      - s-6d4d1517f5
+      - s-af2625cae7
+      - s-23fb1fa018
+      - s-0baeee7c4c
+      - s-8931d11df1

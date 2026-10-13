@@ -1,0 +1,82 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microcebus bongolavensis Olivieri, Zimmermann, Randrianambinina, Rassoloharijaona, Rakotondravony, Gsuchanski et al., 2006
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 邦戈拉瓦鼠狐猴
+      en: Bongolava Mouse Lemur
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-35a5d1f57a
+            part: body
+          en:
+            page: en
+            section: s-0cb9a44add
+            part: body
+        sourceIds:
+          - olivieri2007
+      - topic: distribution_habitat
+        text:
+          zh:
+            page: zh
+            section: s-69a22d4f93
+            part: body
+          en:
+            page: en
+            section: s-d10536c909
+            part: body
+        sourceIds:
+          - olivieri2007
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-810c1b2b91
+            part: body
+          en:
+            page: en
+            section: s-ca71d85f94
+            part: body
+        sourceIds:
+          - olivieri2007
+    sources:
+      - id: olivieri2007
+        referenceId: ref-58dbc985-8ef2-80b3-ad43-0ceeb7f146d9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持该来源报告的样点、样本、测量或分类结论；不作为现今全域分布或保育状态来源。
+            en: Supports the study sites, samples, measurements or taxonomic conclusions in the source; not a source for current full range or conservation status.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42SBG
+          scope:
+            zh: 固定版本中的接受名、作者、等级和父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent link; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-d05575b42f
+        part: body
+      en:
+        page: en
+        section: s-17c3b17486
+        part: body

@@ -1,0 +1,124 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Nemesia aurantia K.E.Steiner
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 467PM, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 467PM; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/467PM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 467PM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000744321-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 467PM / WFO wfo-0000744321
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14771_0
+        referenceId: ref-9f0ff3b1-97f7-83b9-acf2-d6d04ae0abdb
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Nemesia aurantia K.E.Steiner account; archive rows 35531 (Morphology), 40902 (Habitat), source identifier 14771.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_7170_0
+        referenceId: ref-9cdf5264-acc6-8fa3-a1fe-5d18949f22d0
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Nemesia aurantia K.E.Steiner account; archive rows 74965 (Diagnostic), source identifier 7170.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Annual, up to 400 mm tall. Leaves ovate to elliptical, margins entire. Flowers in lax racemes, calyx lobes linear to oblanceolate, acute, densely glandular pilose, corolla 13.1-18.8 mm long, upper lip orange distally and pale yellow with brownish streaks at base, lower lip deep orange with dark brown, densely villous, bilobed palate at base, base of corolla tube broadly saccate, ± 1 mm long. Capsule 3.8-8.3 x 4.5-7 mm, apex bilobed.
+            sourceIds:
+              - sanbi_14771_0
+            locator: "SANBI/WFO archive Morphology row 35531; source 14771.0; publication: Steiner, KE. 2013. Scrophulariaceae: Nemesia. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 467 - 470. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Nemesia aurantia is most closely related to N. versicolor, but has orange rather than blue or yellow flowers, lacks a conspicuous spur, and has a bilobed palate on the lower lip that is less prominent. The only other saccate Nemesia species with orange flowers is N. strumosa Benth. Plants of N. aurantia are typically shorter than N. strumosa (up to 410 mm vs up to 730 mm) with smaller flowers (corolla limb 13-19 mm vs 17-35 mm long). The sac of the corolla in N. aurantia is less than half the length, on average, of N. strumosa and the raised palate and divergent bosses on the lower lip of N. aurantia are absent in N. strumosa.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_7170_0
+            locator: "SANBI/WFO archive Diagnostic row 74965; source 7170.0; publication: Steiner, KE. 2009. Two new species of Nemesia (Scrophulariaceae) from arid areas of the Northern Cape, South Africa. Bothalia 39(1): 67 - 72. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandy slopes above river.
+            sourceIds:
+              - sanbi_14771_0
+            locator: "SANBI/WFO archive Habitat row 40902; source 14771.0; publication: Steiner, KE. 2013. Scrophulariaceae: Nemesia. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 467 - 470. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

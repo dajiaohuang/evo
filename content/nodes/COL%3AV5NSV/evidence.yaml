@@ -1,0 +1,368 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys dupanglingensis Xiao & Mo, 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys dupanglingensis
+      zh: Boulenophrys dupanglingensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7e9b0194a1
+            part: title
+          zh:
+            page: zh
+            section: s-f8343dc660
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7e9b0194a1
+            part: body
+          zh:
+            page: zh
+            section: s-f8343dc660
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-adcfce032c
+            part: title
+          zh:
+            page: zh
+            section: s-d54ba0b297
+            part: title
+        text:
+          en:
+            page: en
+            section: s-adcfce032c
+            part: body
+          zh:
+            page: zh
+            section: s-d54ba0b297
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b9dc4fb8fb
+            part: title
+          zh:
+            page: zh
+            section: s-6614113d52
+            part: title
+        sourceIds:
+          - primary-pmc11816057-v5nsv
+        text:
+          en:
+            page: en
+            section: s-b9dc4fb8fb
+            part: body
+          zh:
+            page: zh
+            section: s-6614113d52
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f1b2dbdef3
+            part: title
+          zh:
+            page: zh
+            section: s-f1b15eb462
+            part: title
+        sourceIds:
+          - primary-pmc11816057-v5nsv
+        text:
+          en:
+            page: en
+            section: s-f1b2dbdef3
+            part: body
+          zh:
+            page: zh
+            section: s-f1b15eb462
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-751a1eafef
+            part: title
+          zh:
+            page: zh
+            section: s-6be5ac3a05
+            part: title
+        sourceIds:
+          - primary-pmc11816057-v5nsv
+        text:
+          en:
+            page: en
+            section: s-751a1eafef
+            part: body
+          zh:
+            page: zh
+            section: s-6be5ac3a05
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-1ce6ddf11b
+            part: title
+          zh:
+            page: zh
+            section: s-7e485c4ccd
+            part: title
+        sourceIds:
+          - primary-pmc11816057-v5nsv
+        text:
+          en:
+            page: en
+            section: s-1ce6ddf11b
+            part: body
+          zh:
+            page: zh
+            section: s-7e485c4ccd
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f12f9223e8
+            part: title
+          zh:
+            page: zh
+            section: s-f2b59fef62
+            part: title
+        sourceIds:
+          - primary-pmc12466624-v5nsv
+        text:
+          en:
+            page: en
+            section: s-f12f9223e8
+            part: body
+          zh:
+            page: zh
+            section: s-f2b59fef62
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys dupanglingensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5NSV
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11816057-v5nsv
+        referenceId: ref-c794dbfe-19bb-455a-a67c-740e84514e6b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys dupanglingensis: Species treatment holotype, paratypes, diagnosis, live/preserved coloration, sexual size dimorphism and Distribution and habitats; sample discrepancy retained; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-v5nsv
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys dupanglingensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ce17cdca7c
+        part: body
+      zh:
+        page: zh
+        section: s-7a2e4e0953
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani15030440
+        referenceId: ref-c794dbfe-19bb-455a-a67c-740e84514e6b
+        sourceKey: primary-pmc11816057-v5nsv
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11816057/article.xml
+        sourceConcept: Boulenophrys dupanglingensis
+        evidenceRead: "Boulenophrys dupanglingensis: Species treatment holotype, paratypes, diagnosis, live/preserved coloration, sexual size dimorphism and Distribution and habitats; sample discrepancy retained; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Low-elevation forest-litter records at Dupangling
+              zh: 都庞岭低海拔林地落叶记录
+            referenceId: ref-c794dbfe-19bb-455a-a67c-740e84514e6b
+            sourceKey: primary-pmc11816057-v5nsv
+            locator: 3. Results > 3.3. Taxonomic Account > Boulenophrys dupanglingensis; Holotype, Paratypes and Distribution and habitats; reading-sections index 1, paragraphs 4, 5 and 13
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-44bdf9380f
+                part: body
+              zh:
+                page: zh
+                section: s-c97ac7b7bb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Diagnostic measurements and a separate six-male comparison
+              zh: 鉴别测量与单独六只雄性比较
+            referenceId: ref-c794dbfe-19bb-455a-a67c-740e84514e6b
+            sourceKey: primary-pmc11816057-v5nsv
+            locator: 3. Results > 3.3. Taxonomic Account > Boulenophrys dupanglingensis; Diagnosis and Sexual size dimorphism; reading-sections index 1, paragraphs 7 and 11
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-38d230b952
+                part: body
+              zh:
+                page: zh
+                section: s-e4c0f32424
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Holotype colour before and after preservation
+              zh: 正模保存前后的颜色
+            referenceId: ref-c794dbfe-19bb-455a-a67c-740e84514e6b
+            sourceKey: primary-pmc11816057-v5nsv
+            locator: 3. Results > 3.3. Taxonomic Account > Boulenophrys dupanglingensis; Coloration of holotype in life and in preservative; reading-sections index 1, paragraphs 8 and 9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-56708b94f1
+                part: body
+              zh:
+                page: zh
+                section: s-4441efb941
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: reproduction
+            heading:
+              en: Calls and mature eggs support a dated breeding inference
+              zh: 鸣声及成熟卵支持有年代限定的繁殖推测
+            referenceId: ref-c794dbfe-19bb-455a-a67c-740e84514e6b
+            sourceKey: primary-pmc11816057-v5nsv
+            locator: 3. Results > 3.3. Taxonomic Account > Boulenophrys dupanglingensis; Sexual size dimorphism and Distribution and habitats; reading-sections index 1, paragraphs 11 and 13
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9ee1b11e91
+                part: body
+              zh:
+                page: zh
+                section: s-9a78669ec0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-v5nsv
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys dupanglingensis
+        evidenceRead: "Boulenophrys dupanglingensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-v5nsv
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,35
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a77ca0d6d9
+                part: body
+              zh:
+                page: zh
+                section: s-8aeda36d3a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

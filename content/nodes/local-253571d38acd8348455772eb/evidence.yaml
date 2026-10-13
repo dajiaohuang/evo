@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Kalophrynus barioensis
+    name:
+      en: Kalophrynus barioensis
+      zh: Kalophrynus barioensis
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Kalophrynus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ccc88ee77c
+            part: body
+          zh:
+            page: zh
+            section: s-bdf821e832
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0438157245
+            part: body
+          zh:
+            page: zh
+            section: s-23d4042ff5
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2458, 2459; Reference.csv rows 553
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2458
+        values:
+          - Microhylidae
+          - Kalophrynus
+          - Kalophrynus barioensis
+          - M
+          - "18.5"
+          - "6.5305"
+          - "6.5305"
+          - "2.9415"
+          - "1.332"
+          - "0.222"
+          - "2.368"
+          - "1.739"
+          - "1.3875"
+          - "1.2765"
+          - "2.553"
+          - NA
+          - NA
+          - "10.4895"
+          - "8.4175"
+          - "6.4935"
+          - NA
+          - "7.918"
+          - NA
+          - NA
+          - "25.2895"
+          - "0.703"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2459
+        values:
+          - Microhylidae
+          - Kalophrynus
+          - Kalophrynus barioensis
+          - F
+          - "20.5"
+          - "6.1235"
+          - "6.031"
+          - "3.7925"
+          - "1.7575"
+          - "0.185"
+          - "2.0905"
+          - "1.6835"
+          - "1.6095"
+          - "1.258"
+          - "2.9415"
+          - NA
+          - NA
+          - "11.1"
+          - "8.288"
+          - "6.031"
+          - NA
+          - "8.0475"
+          - NA
+          - NA
+          - "25.16"
+          - "0.7585"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 553
+        values:
+          - Anura
+          - Kalophrynus_barioensis
+          - Matsui, M., & Nishikawa, K. (2011). A new tiny Kalophrynus (Amphibia, Anura, Microhylidae) from northern Sarawak, Malaysian Borneo. Current Herpetology, 30(2), 145-153. https://doi.org/10.3105/hsj.30.145
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6NK3B
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

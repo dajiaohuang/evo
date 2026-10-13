@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mixophyes fasciolatus
+  displayName: Mixophyes fasciolatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/43S2G
+  sourceIndexes:
+    - name:
+        en: Mixophyes fasciolatus
+        zh: Mixophyes fasciolatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 43S2G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/126
+            queryName: Mixophyes fasciolatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/133
+            queryName: Hyla fenestrata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/115
+            queryName: Mixophyes fasciolatus fasciolatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2dc46ede00
+      - s-d16d787d9c
+      - s-73ef7a3571
+      - s-8299906f9c
+      - s-5bfadc8764
+      - s-ca15b03262
+      - s-69f2a6a574
+      - s-dbeb3c56f6
+      - s-c88ff8c057
+      - s-5a50fdbb0c
+      - s-be646bd416
+    zh:
+      - s-ba68fdc377
+      - s-28d1ee3953
+      - s-e425b2a193
+      - s-466fa39bfc
+      - s-4d13458216
+      - s-cced83e804
+      - s-fe74cebf21
+      - s-e5bf99b885
+      - s-5a69edc9ce
+      - s-9d54af7909
+      - s-02204298b1

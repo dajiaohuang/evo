@@ -1,0 +1,431 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Boehmeria ulmifolia Wedd.
+    authorship: Wedd.
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 3Z6
+        scientificName: Rosales Bercht. & J.Presl
+        authorship: Bercht. & J.Presl
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: HQS
+        scientificName: Urticaceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV337
+        scientificName: Boehmerieae Gaudich.
+        authorship: Gaudich.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 3B2D
+        scientificName: Boehmeria Jacq.
+        authorship: Jacq.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: M9KH
+        scientificName: Boehmeria ulmifolia Wedd.
+        authorship: Wedd.
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage M9KH; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/M9KH
+          stableId: col:M9KH@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage M9KH; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage M9KH. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_m9kh_distribution_13306
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Boehmeria ulmifolia Wedd., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Southern Mexico to Panama, from about 1000 to 2000 m. alt., ascending higher in western Panama.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 13306
+          archiveSourceId: 7554A225-9758-4C21-88D3-1CC3047F3A97
+          archiveSourceIds:
+            - 7554A225-9758-4C21-88D3-1CC3047F3A97
+          referenceRowNumbers:
+            - 14299
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-e5277fe9-db9f-84a5-a499-e36b7631d8de
+                metadataVariant: 0
+                usage:
+                  identifier: 7554A225-9758-4C21-88D3-1CC3047F3A97
+                  referenceRowNumber: 14299
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 13306 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 13306; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:M9KH:row:13306
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 13306; field distribution; reference rows 14299.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 13306; CC BY 4.0. Citation metadata: Boehmeria ulmifolia Wedd., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_m9kh_habit_13455
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Boehmeria ulmifolia Wedd., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Shrub tree
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 13455
+          archiveSourceId: 77F83395-0C10-42C5-A2EA-4890D9879A6A
+          archiveSourceIds:
+            - 77F83395-0C10-42C5-A2EA-4890D9879A6A
+          referenceRowNumbers:
+            - 14450
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-e5277fe9-db9f-84a5-a499-e36b7631d8de
+                metadataVariant: 0
+                usage:
+                  identifier: 77F83395-0C10-42C5-A2EA-4890D9879A6A
+                  referenceRowNumber: 14450
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 13455 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 13455; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:M9KH:row:13455
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 13455; field habit; reference rows 14450.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 13455; CC BY 4.0. Citation metadata: Boehmeria ulmifolia Wedd., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_m9kh_general_13620
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Boehmeria ulmifolia Wedd., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Shrub or small tree up to 6 m. high, with slender, more or less pubescent branches; leaves serrate, thin, appressed-hispidulous above, pilosulous or puberulent beneath, those of adjacent nodes strongly dimorphic and unequal; larger leaves elliptic-ovate, 5-15 cm. long, 1.5-5 cm. wide, cuspidate-acuminate, acute or rounded at base, somewhat oblique, with slender petioles 5-20 mm. long, the smaller leaves (often soon deciduous) orbicular or subreniform, 5-10 mm. long and broad, usually emarginate at base, sessile; plants monoecious or dioecious, the flower-clusters axillary, generally unisexual; staminate perianth 4-lobed; pistillate perianth about 2 mm. long, stipitate, very slightly compressed, bidentate.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 13620
+          archiveSourceId: 7EC5E16F-EC71-49F0-8EB4-EC1A9F60C145
+          archiveSourceIds:
+            - 7EC5E16F-EC71-49F0-8EB4-EC1A9F60C145
+          referenceRowNumbers:
+            - 14616
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-e5277fe9-db9f-84a5-a499-e36b7631d8de
+                metadataVariant: 0
+                usage:
+                  identifier: 7EC5E16F-EC71-49F0-8EB4-EC1A9F60C145
+                  referenceRowNumber: 14616
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 13620 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 13620; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:M9KH:row:13620
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 13620; field general; reference rows 14616.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 13620; CC BY 4.0. Citation metadata: Boehmeria ulmifolia Wedd., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Shrub or small tree up to 6 m. high, with slender, more or less pubescent branches; leaves serrate, thin, appressed-hispidulous above, pilosulous or puberulent beneath, those of adjacent nodes strongly dimorphic and unequal; larger leaves elliptic-ovate, 5-15 cm. long, 1.5-5 cm. wide, cuspidate-acuminate, acute or rounded at base, somewhat oblique, with slender petioles 5-20 mm. long, the smaller leaves (often soon deciduous) orbicular or subreniform, 5-10 mm. long and broad, usually emarginate at base, sessile; plants monoecious or dioecious, the flower-clusters axillary, generally unisexual; staminate perianth 4-lobed; pistillate perianth about 2 mm. long, stipitate, very slightly compressed, bidentate.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_m9kh_general_13620
+            locator: "Flora of Panama general field; imported row 13620; sourceIds 7EC5E16F-EC71-49F0-8EB4-EC1A9F60C145; reference rows 14616; citations: 7EC5E16F-EC71-49F0-8EB4-EC1A9F60C145: Boehmeria ulmifolia Wedd., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 14616)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: Southern Mexico to Panama, from about 1000 to 2000 m. alt., ascending higher in western Panama.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_m9kh_distribution_13306
+            locator: "Flora of Panama distribution field; imported row 13306; sourceIds 7554A225-9758-4C21-88D3-1CC3047F3A97; reference rows 14299; citations: 7554A225-9758-4C21-88D3-1CC3047F3A97: Boehmeria ulmifolia Wedd., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 14299)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+    readerSections:
+      - id: page-8d5394c9cf
+        title:
+          en:
+            page: en
+            section: s-7fc98a9c97
+            part: title
+          zh:
+            page: zh
+            section: s-9b4c66e3c5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7fc98a9c97
+            part: body
+          zh:
+            page: zh
+            section: s-9b4c66e3c5
+            part: body
+        sourceIds:
+          - flora_panama_m9kh_general_13620

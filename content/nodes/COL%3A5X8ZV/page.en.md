@@ -1,0 +1,6 @@
+## An urn-shaped flower cup and yellow petal bases {#s-d20325e3b6}
+The Brazilian Flora 2020 v393.147 field describes slightly square, partly winged stems and no clusters of short shoots. Stalked leaves range from oval and oval-lance-shaped to round or nearly round. Branching hairs occur on the lower surface near or over veins described as winged; the upper surface is slightly blistered. The urn-shaped flower cup has faint ridges and is hairless or sparsely covered by glandular hairs. Calyx segments have smooth, untoothed edges and pointed tips. Petals are mostly red to orange with yellow bases. Ten stamens are nearly equal, with hairless filaments; the tissue joining the anther sacs is unextended and hairless. The ovary is either glandular-haired on its upper half or hairless, and has three chambers. A separate field labels the habitat “terrícola,” or terrestrial. The alternatives remain as recorded, without a measure of variation.
+
+## A terrestrial category in the habitat field {#s-42bd01de8f}
+The habitat field uses “terrícola,” meaning terrestrial. It gives no collection locality, survey date or range coverage and does not specify wild, cultivated, managed or fossil material. It adds one category to the morphological record, not a complete account of habitat.
+

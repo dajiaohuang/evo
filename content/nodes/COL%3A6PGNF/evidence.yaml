@@ -1,0 +1,599 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptodactylus paraensis Heyer, 2005
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptodactylus paraensis
+      zh: Leptodactylus paraensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6d57700f28
+            part: title
+          zh:
+            page: zh
+            section: s-a81baf8bef
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6d57700f28
+            part: body
+          zh:
+            page: zh
+            section: s-a81baf8bef
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fb1302cd37
+            part: title
+          zh:
+            page: zh
+            section: s-1d434beaa0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fb1302cd37
+            part: body
+          zh:
+            page: zh
+            section: s-1d434beaa0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-bf1bf8fadd
+            part: title
+          zh:
+            page: zh
+            section: s-d2469d075d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-bf1bf8fadd
+            part: body
+          zh:
+            page: zh
+            section: s-d2469d075d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-61af44f378
+            part: title
+          zh:
+            page: zh
+            section: s-dc2e6e1832
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+        text:
+          en:
+            page: en
+            section: s-61af44f378
+            part: body
+          zh:
+            page: zh
+            section: s-dc2e6e1832
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-079da6fa86
+            part: title
+          zh:
+            page: zh
+            section: s-4fab87faba
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-079da6fa86
+            part: body
+          zh:
+            page: zh
+            section: s-4fab87faba
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a36786c3fc
+            part: title
+          zh:
+            page: zh
+            section: s-7b883cdba3
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-a36786c3fc
+            part: body
+          zh:
+            page: zh
+            section: s-7b883cdba3
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-1c699226269fe9745fb2748431b3df0e
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-dc6d41a1e3
+            part: title
+          zh:
+            page: zh
+            section: s-829a439a3f
+            part: title
+        sourceIds:
+          - primary-pmc12654886-6pgnf
+        text:
+          en:
+            page: en
+            section: s-dc6d41a1e3
+            part: body
+          zh:
+            page: zh
+            section: s-829a439a3f
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-25a694f0d3
+            part: title
+          zh:
+            page: zh
+            section: s-2dcbdb82e5
+            part: title
+        sourceIds:
+          - primary-pmc12654886-6pgnf
+        text:
+          en:
+            page: en
+            section: s-25a694f0d3
+            part: body
+          zh:
+            page: zh
+            section: s-2dcbdb82e5
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-3d58fc284e
+            part: title
+          zh:
+            page: zh
+            section: s-dfae1cb6c0
+            part: title
+        sourceIds:
+          - primary-pmc12654886-6pgnf
+        text:
+          en:
+            page: en
+            section: s-3d58fc284e
+            part: body
+          zh:
+            page: zh
+            section: s-dfae1cb6c0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-58d17f0ad8
+            part: title
+          zh:
+            page: zh
+            section: s-af27dd0835
+            part: title
+        sourceIds:
+          - primary-pmc13215752-6pgnf
+        text:
+          en:
+            page: en
+            section: s-58d17f0ad8
+            part: body
+          zh:
+            page: zh
+            section: s-af27dd0835
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-37ce04816a
+            part: title
+          zh:
+            page: zh
+            section: s-66c48f0b33
+            part: title
+        sourceIds:
+          - primary-pmc13215752-6pgnf
+        text:
+          en:
+            page: en
+            section: s-37ce04816a
+            part: body
+          zh:
+            page: zh
+            section: s-66c48f0b33
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-f6d9cd619a
+            part: title
+          zh:
+            page: zh
+            section: s-715f6a72a5
+            part: title
+        sourceIds:
+          - primary-pmc13215752-6pgnf
+        text:
+          en:
+            page: en
+            section: s-f6d9cd619a
+            part: body
+          zh:
+            page: zh
+            section: s-715f6a72a5
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-6b871c5c01
+            part: body
+          zh:
+            page: zh
+            section: s-364a837b71
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptodactylus paraensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/6PGNF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3414; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3415 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12654886-6pgnf
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptodactylus paraensis: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc13215752-6pgnf
+        referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptodactylus paraensis: XML sec2-1 bibliographic methods, sec2-2 host nomenclature/complexes, sec2-3 geographical definitions; all sec3 numbered species headings, host/locality paragraphs, molecular metadata, citations and remarks through row333; sec4-1–sec4-3 discussion inspected. Figures only captions inspected; supplementary Table S1 not retrieved/read. Original cited reports, vouchers, sequences and experimental life-cycle studies not independently reassessed. Source totals contain internal inconsistencies; no full-article certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0a280ef4a1
+        part: body
+      zh:
+        page: zh
+        section: s-ab753f3424
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-1c699226269fe9745fb2748431b3df0e
+      sourceRowId: Anf3414
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf3414
+        bibliographyRowId: Anf3415
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Leptodactylus ochraceus
+        candidateBibliographyRowIds:
+          - Anf3415
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-6pgnf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Mixed historic/recent regional source-labelled Leptodactylus paraensis, exact-name frozenCOLcandidate notspecimen-certified concept
+        evidenceRead: "Leptodactylus paraensis: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-6pgnf
+            locator: PMC12654886 S3_Table.pdf page2 speciesrow33 Leptodactylus paraensis fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-95dd36ccfc
+                part: body
+              zh:
+                page: zh
+                section: s-51619f34bc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-6pgnf
+            locator: PMC12654886 S3_Table.pdf page2 speciesrow33 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2dde568ffb
+                part: body
+              zh:
+                page: zh
+                section: s-99a9cfe12c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-6pgnf
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7a46a75a88
+                part: body
+              zh:
+                page: zh
+                section: s-bac6b1567e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1017/S0031182025101364
+        referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+        sourceKey: primary-pmc13215752-6pgnf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13215752/article.xml
+        sourceConcept: Exact written host-name match only; compiled historical records not original-voucher/current-concept authentication
+        evidenceRead: "Leptodactylus paraensis: XML sec2-1 bibliographic methods, sec2-2 host nomenclature/complexes, sec2-3 geographical definitions; all sec3 numbered species headings, host/locality paragraphs, molecular metadata, citations and remarks through row333; sec4-1–sec4-3 discussion inspected. Figures only captions inspected; supplementary Table S1 not retrieved/read. Original cited reports, vouchers, sequences and experimental life-cycle studies not independently reassessed. Source totals contain internal inconsistencies; no full-article certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Original bilingual factual summaries of a bibliographic parasite checklist, with exact host-entry locators and historical identity limits; no source tables or figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Molineid nematodes in a regional literature checklist
+              zh: 区域文献清单中的毛圆线虫关联
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-6pgnf
+            locator: PMC13215752 XML sec3 direct-child rows 150; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8684f5dac9
+                part: body
+              zh:
+                page: zh
+                section: s-424f1be071
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Reported parasite localities and their limits
+              zh: 寄生记录地点及其限制
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-6pgnf
+            locator: PMC13215752 XML sec3 direct-child rows 150; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5a272bb23f
+                part: body
+              zh:
+                page: zh
+                section: s-cb2a1238a1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: What the bibliographic survey can establish
+              zh: 文献调查能支持什么结论
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-6pgnf
+            locator: PMC13215752 XML sec2-1–sec2-3; PMC13215752 XML sec3 direct-child rows 150; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-113fcedccc
+                part: body
+              zh:
+                page: zh
+                section: s-9c26054a0c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

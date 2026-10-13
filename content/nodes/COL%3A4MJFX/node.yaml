@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis katoptroides
+  displayName: Pristimantis katoptroides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJFX
+  sourceIndexes:
+    - name:
+        en: Pristimantis katoptroides
+        zh: Pristimantis katoptroides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJFX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/337
+            queryName: Pristimantis katoptroides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/397
+            queryName: Eleutherodactylus katoptroides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-37eecdc62b
+      - s-e2ee161699
+      - s-9fa955f5a1
+      - s-e4682806f0
+      - s-b1bad7c6a2
+      - s-12ae1ba673
+      - s-6a7b9e6092
+      - s-7240702fd0
+      - s-524c8d8d87
+      - s-9e99f5365c
+      - s-483d875cac
+      - s-5a109d8b60
+      - s-456029f04b
+      - s-5abb30eb9d
+      - s-7c9e3661ad
+      - s-2b92b9bf15
+    zh:
+      - s-39f8c903cd
+      - s-265e9a3e05
+      - s-4e0a138cfe
+      - s-a8edef9a16
+      - s-4466250048
+      - s-7c1067bfe2
+      - s-846f7a3534
+      - s-f66a5a4821
+      - s-362a5f4ca8
+      - s-73e492fc15
+      - s-75c79e6482
+      - s-f3aa8236c6
+      - s-05745b226e
+      - s-b6a50aab1f
+      - s-4e6d5455cc
+      - s-6664af846a

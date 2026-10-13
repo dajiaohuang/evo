@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhaebo haematiticus
+  displayName: Rhaebo haematiticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RY94
+  sourceIndexes:
+    - name:
+        en: Rhaebo haematiticus
+        zh: Rhaebo haematiticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RY94
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/272
+            queryName: Rhaebo haematiticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/392
+            queryName: Bufo haematiticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/137
+            queryName: Bufo melanogaster
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/138
+            queryName: Bufo caeruleocellatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/14
+            queryName: Bufo haematiticus lachrymans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de4525ed9a
+      - s-2499884440
+      - s-3a1675e501
+      - s-2947563c6b
+      - s-1f6be97b38
+      - s-1270ababbd
+      - s-68f45c27f9
+      - s-1c4c392e66
+      - s-96b80a698f
+      - s-14c7639213
+      - s-5beb42dee4
+      - s-e4dca41909
+      - s-f2d0bd6a23
+      - s-8b12fde9b2
+      - s-0f75a4a42b
+      - s-c8f6c619fd
+      - s-235e34f928
+      - s-6eae151915
+      - s-f54b95a38a
+    zh:
+      - s-1aaec826ff
+      - s-703237dde8
+      - s-88cde40d7d
+      - s-f052b1cb04
+      - s-5e5e7e8837
+      - s-d2dd77d0a5
+      - s-bf22837363
+      - s-567f99b20b
+      - s-22fcf76758
+      - s-cb45a06222
+      - s-5d81dcb32d
+      - s-d64f9e1ddd
+      - s-6e953a0833
+      - s-c71edab2fd
+      - s-3371d73c7e
+      - s-9f31a58af6
+      - s-a961cf02da
+      - s-051ba90823
+      - s-002512401e

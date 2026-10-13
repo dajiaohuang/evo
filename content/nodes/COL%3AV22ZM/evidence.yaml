@@ -1,0 +1,376 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Stefania imawari Kok, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Stefania imawari
+      zh: Stefania imawari
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-307fda6341
+            part: title
+          zh:
+            page: zh
+            section: s-223825da4a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-307fda6341
+            part: body
+          zh:
+            page: zh
+            section: s-223825da4a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-797cdf34c6
+            part: title
+          zh:
+            page: zh
+            section: s-2ab8a627d2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-797cdf34c6
+            part: body
+          zh:
+            page: zh
+            section: s-2ab8a627d2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-73cb6ec83b
+            part: title
+          zh:
+            page: zh
+            section: s-1a10c2cefc
+            part: title
+        sourceIds:
+          - primary-pmc11295383-v22zm
+        text:
+          en:
+            page: en
+            section: s-73cb6ec83b
+            part: body
+          zh:
+            page: zh
+            section: s-1a10c2cefc
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3f03405387
+            part: title
+          zh:
+            page: zh
+            section: s-2487440645
+            part: title
+        sourceIds:
+          - primary-pmc11295383-v22zm
+        text:
+          en:
+            page: en
+            section: s-3f03405387
+            part: body
+          zh:
+            page: zh
+            section: s-2487440645
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9e0cc0091e
+            part: title
+          zh:
+            page: zh
+            section: s-147fd17724
+            part: title
+        sourceIds:
+          - primary-pmc11295383-v22zm
+        text:
+          en:
+            page: en
+            section: s-9e0cc0091e
+            part: body
+          zh:
+            page: zh
+            section: s-147fd17724
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-dab22d772e
+            part: title
+          zh:
+            page: zh
+            section: s-420ccbe6dc
+            part: title
+        sourceIds:
+          - primary-pmc11295383-v22zm
+        text:
+          en:
+            page: en
+            section: s-dab22d772e
+            part: body
+          zh:
+            page: zh
+            section: s-420ccbe6dc
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-83d8a03116
+            part: title
+          zh:
+            page: zh
+            section: s-0058c69a12
+            part: title
+        sourceIds:
+          - primary-pmc11295383-v22zm
+        text:
+          en:
+            page: en
+            section: s-83d8a03116
+            part: body
+          zh:
+            page: zh
+            section: s-0058c69a12
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-3adea325c1
+            part: title
+          zh:
+            page: zh
+            section: s-755bfe6f0d
+            part: title
+        sourceIds:
+          - primary-pmc11295383-v22zm
+        text:
+          en:
+            page: en
+            section: s-3adea325c1
+            part: body
+          zh:
+            page: zh
+            section: s-755bfe6f0d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Stefania imawari
+          url: https://www.checklistbank.org/dataset/316115/taxon/V22ZM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11295383-v22zm
+        referenceId: ref-08f8663d-52c4-4e71-acc8-d26e810e74b5
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Stefania imawari: XML Specimens/Morphometrics/microCT methods, imawari and upuigmae holotype/type-series/diagnosis/comparison/variation/colour/distribution-natural-history paragraphs, upuigmae osteology, Discussion and Conclusions read; complete imawari osteology, deposited meshes, cited phylogenetic alignments and unexamined Caracas specimens not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-53896adb16
+        part: body
+      zh:
+        page: zh
+        section: s-d557469bfb
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1186/s40851-024-00237-w
+        referenceId: ref-08f8663d-52c4-4e71-acc8-d26e810e74b5
+        sourceKey: primary-pmc11295383-v22zm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11295383/article.xml
+        sourceConcept: 2024 Stefania imawari description/comparison with historical satelles labels
+        evidenceRead: "Stefania imawari: XML Specimens/Morphometrics/microCT methods, imawari and upuigmae holotype/type-series/diagnosis/comparison/variation/colour/distribution-natural-history paragraphs, upuigmae osteology, Discussion and Conclusions read; complete imawari osteology, deposited meshes, cited phylogenetic alignments and unexamined Caracas specimens not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: A dated description resolves a former satelles label
+              zh: 有日期描述解析此前 satelles 标签
+            referenceId: ref-08f8663d-52c4-4e71-acc8-d26e810e74b5
+            sourceKey: primary-pmc11295383-v22zm
+            locator: PMC11295383 XML Sec12 historicalnames; Sec3; Sec7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f1b3a46eeb
+                part: body
+              zh:
+                page: zh
+                section: s-621759c20a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: The sex and maturity of the descriptive sample matter
+              zh: 描述样本性别与成熟度须保留
+            referenceId: ref-08f8663d-52c4-4e71-acc8-d26e810e74b5
+            sourceKey: primary-pmc11295383-v22zm
+            locator: PMC11295383 XML Sec12 Holotype/type-series/diagnosis/variation; Sec4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-41674081bf
+                part: body
+              zh:
+                page: zh
+                section: s-aafeea0664
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Live and preserved colours have different evidence
+              zh: 活体与保存颜色具有不同证据
+            referenceId: ref-08f8663d-52c4-4e71-acc8-d26e810e74b5
+            sourceKey: primary-pmc11295383-v22zm
+            locator: PMC11295383 XML Sec12 colour/variation; Sec7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c83c4b9c1c
+                part: body
+              zh:
+                page: zh
+                section: s-84ebb198d9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: distribution
+            heading:
+              en: Known summit records and candidate extensions stay separate
+              zh: 已知顶峰记录与候选扩展分开
+            referenceId: ref-08f8663d-52c4-4e71-acc8-d26e810e74b5
+            sourceKey: primary-pmc11295383-v22zm
+            locator: PMC11295383 XML Sec12 Distribution and natural history
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8481880cf1
+                part: body
+              zh:
+                page: zh
+                section: s-e9fb5424bf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: reproduction
+            heading:
+              en: A short observation period does not establish absence of brooding
+              zh: 短期观察不能确定不背负繁殖
+            referenceId: ref-08f8663d-52c4-4e71-acc8-d26e810e74b5
+            sourceKey: primary-pmc11295383-v22zm
+            locator: PMC11295383 XML Sec12 final natural-history paragraphs
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dfcab5b5b6
+                part: body
+              zh:
+                page: zh
+                section: s-b29ae56ce9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: conservation
+            heading:
+              en: The 2024 CR proposal has range and threat assumptions
+              zh: 2024 年 CR 建议具有范围与威胁假设
+            referenceId: ref-08f8663d-52c4-4e71-acc8-d26e810e74b5
+            sourceKey: primary-pmc11295383-v22zm
+            locator: PMC11295383 XML Sec7 conservation paragraph; Sec8
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1686edb3ea
+                part: body
+              zh:
+                page: zh
+                section: s-e5da490556
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes verrucosus
+  displayName: Alsodes verrucosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7XF
+  sourceIndexes:
+    - name:
+        en: Alsodes verrucosus
+        zh: Alsodes verrucosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7XF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/204
+            queryName: Alsodes verrucosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/253
+            queryName: Borborocoetus verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/254
+            queryName: Borborocoetus andinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/255
+            queryName: Borborocoetes verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/256
+            queryName: Eupsophus verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c01a8cd429
+      - s-c651342130
+      - s-d8a12c1661
+      - s-edc88be4c8
+      - s-b966aee8cd
+      - s-6b858024bb
+      - s-d22c0fccaf
+      - s-3e743fe1a1
+      - s-b8f5d011af
+      - s-ecd0b662d4
+      - s-0f1c2860ce
+      - s-429a765516
+      - s-aa4d76479b
+      - s-4d6f893144
+      - s-5828cd3c0b
+      - s-f970e68ca5
+      - s-5ee8ce91a3
+      - s-90d7951209
+      - s-5ee0d9f914
+    zh:
+      - s-e691d3a89a
+      - s-4f9a8a7f3e
+      - s-be7def4c9b
+      - s-447fe5a90d
+      - s-7ee6925f2b
+      - s-f3a020e39d
+      - s-60a751ac4b
+      - s-aca5c5ad9f
+      - s-4cc66fa4d1
+      - s-236f9bf0fc
+      - s-f0c68ea5de
+      - s-a83ef0da36
+      - s-727e18e019
+      - s-8ffb24993f
+      - s-2986acc9ff
+      - s-cf7cf5dff2
+      - s-315e75872e
+      - s-c684e3de3b
+      - s-671058ce62

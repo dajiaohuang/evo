@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa nigrescens
+  displayName: Bolitoglossa nigrescens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDQX
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa nigrescens
+        zh: Bolitoglossa nigrescens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDQX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/160
+            queryName: Bolitoglossa nigrescens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/307
+            queryName: Magnadigita nigrescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/427
+            queryName: A Solution to the Large Black Salamander Problem (Genus Bolitoglossa) in Costa Rica and Panamá
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73f7c405de
+      - s-b7e0a9cc2d
+      - s-30d6043ee7
+      - s-9099d6a888
+      - s-5750c563c0
+      - s-5da894b91c
+      - s-c1b8723096
+      - s-9cd0a51935
+      - s-577bedfb1f
+      - s-fb602f75b4
+    zh:
+      - s-ce84f29d92
+      - s-d712255af9
+      - s-250c0f866f
+      - s-57d7d3fd3a
+      - s-2d9a54e2ea
+      - s-13c3dffbd2
+      - s-38a36fa4f1
+      - s-3cae1cee21
+      - s-a134293b37
+      - s-2ac7640562

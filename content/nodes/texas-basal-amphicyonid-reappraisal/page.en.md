@@ -1,0 +1,3 @@
+## Why two Texas carnivorans left “Miacis” {#s-e9e159481c}
+Two Eocene carnivorans from Texas were once placed in the catch-all genus “Miacis.” The *Gustafsonia cognita* type skull (TMM 40209-200) was digitally reconstructed from CT scans, while renewed study of *Angelarctocyon australis* used its type specimen (TMM 41850-1) and referred jaw material. Revised anatomical scoring and sampled phylogenetic trees support assigning them to separate genera and place both near the base of Amphicyonidae, the extinct family known as beardogs. Those placements depend on the study’s sampled characters and taxa; they do not establish where beardogs originated or make either animal a direct ancestor.
+

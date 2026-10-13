@@ -1,0 +1,125 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anomaloglossinae Grant, Frost, Caldwell, Gagliardo, Haddad, Kok, Means, Noonan, Schargel & Wheeler, 2006
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Anomaloglossinae
+      zh: Anomaloglossinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-049dab8542
+            part: title
+          zh:
+            page: zh
+            section: s-75046df915
+            part: title
+        text:
+          en:
+            page: en
+            section: s-049dab8542
+            part: body
+          zh:
+            page: zh
+            section: s-75046df915
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f0fc724cd3
+            part: title
+          zh:
+            page: zh
+            section: s-05671203e9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f0fc724cd3
+            part: body
+          zh:
+            page: zh
+            section: s-05671203e9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-6603afc034
+            part: title
+          zh:
+            page: zh
+            section: s-a872cb3ed8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: WS2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AWS2
+            label:
+              en: Anomaloglossus
+              zh: Anomaloglossus
+          - kind: catalogue
+            colId: 78HG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A78HG
+            label:
+              en: Rheobates
+              zh: Rheobates
+        text:
+          en:
+            page: en
+            section: s-6603afc034
+            part: body
+          zh:
+            page: zh
+            section: s-a872cb3ed8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Anomaloglossinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/J5F
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9b4b515586
+        part: body
+      zh:
+        page: zh
+        section: s-c8ae2adce4
+        part: body

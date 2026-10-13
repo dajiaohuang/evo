@@ -1,0 +1,172 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ringueletia simpsoni
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Ringueletia simpsoni
+      en: Ringueletia simpsoni
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a097cfc1bd
+            part: body
+          en:
+            page: en
+            section: s-f0b943996b
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-748412860d
+            part: body
+          en:
+            page: en
+            section: s-8ca5854479
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-29a1762f63
+            part: body
+          en:
+            page: en
+            section: s-0202b9a024
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a652627d84
+            part: body
+          en:
+            page: en
+            section: s-4e07eaee59
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-12a4a3bd0a
+            part: body
+          en:
+            page: en
+            section: s-964411b895
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Ringueletia simpsoni
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=388623&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:388623; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:388623
+          selectedOccurrenceIds:
+            - occ:1180334
+            - occ:1392549
+            - occ:1429381
+            - occ:1430063
+            - occ:1449064
+            - occ:1449077
+            - occ:1464036
+            - occ:1595588
+          selectedCollectionIds:
+            - col:152069
+            - col:191768
+            - col:198863
+            - col:199155
+            - col:202096
+            - col:202212
+            - col:204359
+            - col:225604
+          sourceReferenceIds:
+            - ref:48750
+            - ref:85650
+            - ref:67741
+            - ref:67787
+            - ref:69224
+            - ref:69291
+            - ref:70054
+            - ref:81719
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-8225069502
+        part: body
+      en:
+        page: en
+        section: s-a4509941ed
+        part: body

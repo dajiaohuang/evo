@@ -1,0 +1,369 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hesperocyon
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Hesperocyon
+      en: Hesperocyon
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f134259e22
+            part: body
+          en:
+            page: en
+            section: s-f84f6df3e8
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-14ff7a82f8
+            part: body
+          en:
+            page: en
+            section: s-27f93c5a83
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Hesperocyon
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=41217
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:41217
+          readingTargets:
+            - name: Hesperocyon coloradensis
+              pbdbTaxonId: txn:46910
+              canonicalPath: content/nodes/PBDB%3A46910
+            - name: Hesperocyon gregarius
+              pbdbTaxonId: txn:44845
+              canonicalPath: content/nodes/PBDB%3A44845
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-19b3a895bc
+        part: body
+      en:
+        page: en
+        section: s-7ee177f6a6
+        part: body
+  atlas-node:
+    name: Hesperocyon
+    commonName: Hesperocyon
+    commonNameZh: 黄昏犬
+    rank: genus
+    firstAppearance: 40
+    lastAppearance: 29
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+    taxonId: txn:41217
+  atlas-profile:
+    pbdbTaxonId: txn:41217
+    scientificName: Hesperocyon
+    commonName: Hesperocyon
+    commonNameZh: 黄昏犬
+    rank: genus
+    parentName: Canidae
+    extinct: true
+    geography:
+      - North American Hesperocyoninae localities sampled by Wang
+    overview:
+      page: en
+      section: s-3b508f73f5
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-4bb3c76e9f
+        part: body
+      habitat:
+        page: en
+        section: s-91a637d693
+        part: body
+      locomotion:
+        page: en
+        section: s-c0f99e73bd
+        part: body
+      bodySize:
+        page: en
+        section: s-5dec333c17
+        part: body
+      guild:
+        page: en
+        section: s-a31825c233
+        part: body
+      dietZh:
+        page: zh
+        section: zh-b15bd4c9742e4e
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-cd25cff68c43d1
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-af95e7ad689a3a
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-fa04a07f4308c4
+        part: body
+      guildZh:
+        page: zh
+        section: zh-d06286d8b9ceed
+        part: body
+    traits:
+      - page: en
+        section: s-e0b51d15a6
+        part: body
+      - page: en
+        section: s-64082ae2ab
+        part: body
+      - page: en
+        section: s-00adab4ec4
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-b5c9d825d2
+      part: body
+    readerSections:
+      - id: monograph-and-matrix
+        title:
+          en:
+            page: en
+            section: s-6f9608b13d
+            part: title
+          zh:
+            page: zh
+            section: s-12967a33cd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6f9608b13d
+            part: body
+          zh:
+            page: zh
+            section: s-12967a33cd
+            part: body
+        sourceIds:
+          - wang-1994-hesperocyoninae
+      - id: bounded-window
+        title:
+          en:
+            page: en
+            section: s-e2553d17a1
+            part: title
+          zh:
+            page: zh
+            section: s-3900eb951b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e2553d17a1
+            part: body
+          zh:
+            page: zh
+            section: s-3900eb951b
+            part: body
+        sourceIds:
+          - wang-1994-hesperocyoninae
+          - ics-2026-06
+    confidence: medium
+    referenceIds:
+      - wang-1994-hesperocyoninae
+    readerSources:
+      - id: wang-1994-hesperocyoninae
+        referenceId: wang-1994-hesperocyoninae
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Recorded reader-passage locators: supports; pages: 1–207; quoteLocator: Systematics of Hesperocyon; character matrix; phylogenetic analysis | supports; pages: 1–207; figure: Systematics figures and phylogenetic trees; quoteLocator: Systematics of Hesperocyon; character matrix; phylogenetic analysis | supports; pages: 1–207; quoteLocator: Introduction; geographic and stratigraphic distribution; Systematics of Hesperocyon | supports; pages: 1–207; quoteLocator: Systematics of Hesperocyon; character descriptions; character matrix | supports; pages: 1–207; quoteLocator: Study scope; systematics; character matrix; phylogenetic analysis"
+            zh: "读者段落的原始定位：supports; pages: 1–207; quoteLocator: Systematics of Hesperocyon; character matrix; phylogenetic analysis；supports; pages: 1–207; figure: Systematics figures and phylogenetic trees; quoteLocator: Systematics of Hesperocyon; character matrix; phylogenetic analysis；supports; pages: 1–207; quoteLocator: Introduction; geographic and stratigraphic distribution; Systematics of Hesperocyon；supports; pages: 1–207; quoteLocator: Systematics of Hesperocyon; character descriptions; character matrix；supports; pages: 1–207; quoteLocator: Study scope; systematics; character matrix; phylogenetic analysis"
+      - id: ics-2026-06
+        referenceId: ref-b5e61e4a-d9d2-894a-a949-8ac4abca3ec3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+          - version
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Recorded reader-passage locators: contextualizes; pages: International Chronostratigraphic Chart v2026/06; figure: Global chronostratigraphic scale; quoteLocator: Numerical boundaries for named geological stages used to bound the source sample"
+            zh: "读者段落的原始定位：contextualizes; pages: International Chronostratigraphic Chart v2026/06; figure: Global chronostratigraphic scale; quoteLocator: Numerical boundaries for named geological stages used to bound the source sample"
+  claims:
+    - subjectId: taxon:hesperocyon
+      claimKind: scientific
+      claimType: topology
+      statement: A monographic morphology analysis samples Hesperocyon within the extinct Hesperocyoninae radiation of Canidae and revises species-level relationships across that record; the genus is not treated as a demonstrated direct ancestor of later canids.
+      confidence: medium
+      confidenceRationale: The primary monograph provides extensive specimen, character and phylogenetic coverage. The claim distinguishes a basal sampled genus from direct ancestry.
+      referenceLinks:
+        - relation: supports
+          referenceId: wang-1994-hesperocyoninae
+          pages: 1–207
+          quoteLocator: Systematics of Hesperocyon; character matrix; phylogenetic analysis
+    - subjectId: taxon:hesperocyon
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Wang's monographic revision treats Hesperocyon as part of the extinct Hesperocyoninae canid sample and tests species-level relationships from scored morphology; the sampled genus is not asserted to be a direct ancestor of later canids.
+      confidence: medium
+      confidenceRationale: The primary monograph explicitly identifies the fossil canid sample and matrix, while taxonomic limits and higher relationships remain dependent on the study's characters and sampling.
+      referenceLinks:
+        - relation: supports
+          referenceId: wang-1994-hesperocyoninae
+          pages: 1–207
+          figure: Systematics figures and phylogenetic trees
+          quoteLocator: Systematics of Hesperocyon; character matrix; phylogenetic analysis
+    - subjectId: taxon:hesperocyon
+      claimKind: scientific
+      claimType: biogeography
+      statement: This profile is limited to North American Hesperocyoninae localities assembled in Wang's monograph and does not turn that curated fossil sample into a complete genus distribution or origin-centre claim.
+      confidence: medium
+      confidenceRationale: The monograph's geographic fossil sample is explicit, but its coverage is not a census of all occurrences and is not extrapolated beyond the named study.
+      referenceLinks:
+        - relation: supports
+          referenceId: wang-1994-hesperocyoninae
+          pages: 1–207
+          quoteLocator: Introduction; geographic and stratigraphic distribution; Systematics of Hesperocyon
+    - subjectId: taxon:hesperocyon
+      claimKind: scientific
+      claimType: morphology
+      statement: The Hesperocyon revision scores dental and cranial characters from named fossil material in a morphology matrix; those observed characters do not by themselves establish locomotor performance or a universal early-canid body plan.
+      confidence: medium
+      confidenceRationale: The monograph directly records its anatomical characters and systematic comparisons, but the profile preserves the limited specimen and matrix scope.
+      referenceLinks:
+        - relation: supports
+          referenceId: wang-1994-hesperocyoninae
+          pages: 1–207
+          quoteLocator: Systematics of Hesperocyon; character descriptions; character matrix
+    - subjectId: taxon:hesperocyon
+      claimKind: scientific
+      claimType: ecology
+      statement: The cited systematic monograph does not directly measure diet, habitual habitat, locomotor performance, body-size range or a single ecological guild for Hesperocyon, so those profile fields remain explicitly unresolved.
+      confidence: medium
+      confidenceRationale: "Medium confidence applies to the stated evidence boundary: the official monograph record supports a fossil systematics and morphology study rather than a direct ecological observation or performance experiment."
+      referenceLinks:
+        - relation: supports
+          referenceId: wang-1994-hesperocyoninae
+          pages: 1–207
+          quoteLocator: Study scope; systematics; character matrix; phylogenetic analysis
+    - subjectId: taxon:hesperocyon
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Hesperocyon navigation display is displayed at 40–29 Ma only as the monograph's sampled genus record, not exact global origination or extinction. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Hesperocyon navigation display uses Wang, X. (1994) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Hesperocyoninae specimens monographed by Wang; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: wang-1994-hesperocyoninae
+          pages: 1–207
+          quoteLocator: Systematics of Hesperocyon; character matrix; phylogenetic analysis
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 一手专著提供广泛标本、性状与系统发育覆盖；主张区分基干取样属和直接祖先。
+    - Hesperocyon navigation display 采用 Wang, X.（1994）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Hesperocyoninae specimens monographed by Wang；更宽泛端点保持未声明。
+    - 一手专著明确识别化石犬类样本和矩阵，而分类边界及高阶关系仍取决于该研究的性状与取样。
+    - 专著的地理化石样本有明确记录，但它不是所有出现记录的普查，也不外推到具名研究之外。
+    - 专著直接记录了解剖性状和系统比较，但档案保留标本与矩阵的有限范围。
+    - 中等置信度只适用于证据边界：官方专著记录支持化石系统学与形态研究，而非直接的生态观察或性能实验。
+  claim-statements.zh:
+    - 一项专著式形态分析把 Hesperocyon 取样于犬科灭绝的 Hesperocyoninae 辐射中，并修订该记录中的物种级关系；该属不被视为后期犬科已证实的直接祖先。
+    - Hesperocyon navigation display 仅以 40–29 Ma 展示为专著所采样的属级记录，而非精确全球起源或灭绝。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - Wang 的专著修订将 Hesperocyon 作为灭绝黄昏犬亚科犬类样本的一部分，并用评分形态检验种级关系；该取样属并未被断言为后期犬类的直系祖先。
+    - 本档案仅限于 Wang 专著汇集的北美黄昏犬亚科产地，不会把这一策展化石样本转化为完整的属级分布或起源中心主张。
+    - Hesperocyon 修订在形态矩阵中对具名化石材料的牙齿和颅骨性状进行评分；这些观察到的性状本身不能确立运动性能或普遍的早期犬类体型。
+    - 所引系统学专著没有直接测量 Hesperocyon 的食性、习性栖息地、运动性能、体型范围或单一生态功能群，因此这些档案字段明确保持未解析。
+  ranges:
+    - entityId: hesperocyon
+      rangeKind: global-composite
+      taxonomicConcept: Hesperocyon navigation display — source-bounded sample window
+      geographicScope: Hesperocyoninae specimens monographed by Wang
+      olderMa: 40
+      youngerMa: 29
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the monograph's sampled genus record, not exact global origination or extinction; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: "Phylogenetic systematics of the Hesperocyoninae (Carnivora: Canidae) directly anchors the sampled window; the display does not extrapolate it into a global taxon duration."
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:hesperocyon:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: wang-1994-hesperocyoninae
+          locator: 1–207; Systematics of Hesperocyon; character matrix; phylogenetic analysis
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries

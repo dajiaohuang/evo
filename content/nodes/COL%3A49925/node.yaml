@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon brieni
+  displayName: Ololygon brieni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49925
+  sourceIndexes:
+    - name:
+        en: Ololygon brieni
+        zh: Ololygon brieni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "49925"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/109
+            queryName: Ololygon brieni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/32
+            queryName: Scinax brieni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/376
+            queryName: Hyla brieni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/305
+            queryName: Hyla strigilata brieni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/306
+            queryName: Hyla catharinae brieni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/307
+            queryName: Ololygon catharinae brieni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-21b5daa648
+      - s-5ea15b195a
+      - s-63bf6cb0bd
+      - s-22a8a6ce97
+      - s-2629f44380
+      - s-df2bca50b4
+      - s-e969ec775f
+      - s-6958c5162e
+      - s-74db059f49
+      - s-fb97b88d9a
+      - s-5aba97b7b3
+      - s-2f7aa24a5f
+    zh:
+      - s-160ea07db9
+      - s-15273b0d68
+      - s-94579f5437
+      - s-6a091c3af0
+      - s-2177697f82
+      - s-27c9ce0b15
+      - s-ebbd34cfe3
+      - s-01a5bdc498
+      - s-8287625782
+      - s-a7dc899cfd
+      - s-cd5e9ae068
+      - s-a1fd81023d

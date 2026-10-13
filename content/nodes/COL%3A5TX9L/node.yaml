@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates fuscellus
+  displayName: Allobates fuscellus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5TX9L
+  sourceIndexes:
+    - name:
+        en: Allobates fuscellus
+        zh: Allobates fuscellus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5TX9L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/137
+            queryName: Allobates fuscellus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/93
+            queryName: Colostethus fuscellus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db835700ed
+      - s-3770991d1d
+      - s-71556495f6
+      - s-753cc111f2
+      - s-83f9f0b558
+      - s-a4f7462bca
+      - s-2ac8df4c7e
+      - s-d0cec90bf4
+      - s-8fc7dc2eea
+      - s-92f4d48345
+    zh:
+      - s-eedd9b6b97
+      - s-30398d810e
+      - s-296d3592bc
+      - s-3e5b85f784
+      - s-747b1ddbe2
+      - s-67b0f2a704
+      - s-5442754e95
+      - s-18d966fe78
+      - s-db8ace92d1
+      - s-3b04357598

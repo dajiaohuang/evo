@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stereocyclops incrassatus
+  displayName: Stereocyclops incrassatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/52DW2
+  sourceIndexes:
+    - name:
+        en: Stereocyclops incrassatus
+        zh: Stereocyclops incrassatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 52DW2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/318
+            queryName: Stereocyclops incrassatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/73
+            queryName: Emydops hypomelas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/74
+            queryName: Hypopachus incrassatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/75
+            queryName: Ribeirina hypomelas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c2e822f808
+      - s-127d0e5055
+      - s-b2a847dcad
+      - s-80524246fd
+      - s-6e4fb18fff
+      - s-ec7ea9db17
+      - s-4b90d6eb31
+      - s-08b52b7ec2
+      - s-4fe5939538
+      - s-60a5d2055a
+      - s-793cdbb715
+      - s-3321c07bfa
+      - s-9cb1763c93
+      - s-7e5402dfe8
+      - s-50a79898ec
+      - s-3191126b37
+      - s-f73711031e
+      - s-867b3055f6
+      - s-5bbc7acce9
+      - s-091df98c3e
+    zh:
+      - s-e740c24f1f
+      - s-72fc048ab8
+      - s-65f83e2e94
+      - s-9313aba606
+      - s-660c1a0b7a
+      - s-9da4eb4c2c
+      - s-e77b67345d
+      - s-d34ff75329
+      - s-4a1da1fa35
+      - s-96e600461d
+      - s-6bc498a9ea
+      - s-b967b8b52a
+      - s-74aa82789b
+      - s-73ea00a756
+      - s-64ffb0a0a9
+      - s-1383effbf6
+      - s-93901a2012
+      - s-4ed48eb234
+      - s-7f87b8b2ba
+      - s-0b0c1db007

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa medemi
+  displayName: Bolitoglossa medemi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDQK
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa medemi
+        zh: Bolitoglossa medemi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDQK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/150
+            queryName: Bolitoglossa medemi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9bafaf1c24
+      - s-48685534a8
+      - s-5d8a3a77ed
+      - s-793a109837
+      - s-64039d08a3
+      - s-678a173438
+      - s-ac0a3c2ebf
+      - s-13236afd04
+    zh:
+      - s-80ed20577f
+      - s-39289c6564
+      - s-22f3990814
+      - s-43aea41ea6
+      - s-6ceefb4838
+      - s-5913f5fb9f
+      - s-11febe7eb3
+      - s-797dff051a

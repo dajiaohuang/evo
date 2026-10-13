@@ -1,0 +1,209 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Colleeneremia Wells & Wellington, 1985
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Colleeneremia
+      zh: Colleeneremia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-aa4a4555c8
+            part: title
+          zh:
+            page: zh
+            section: s-26dca6095e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aa4a4555c8
+            part: body
+          zh:
+            page: zh
+            section: s-26dca6095e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cfa9835663
+            part: title
+          zh:
+            page: zh
+            section: s-fc5e8c9b7e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cfa9835663
+            part: body
+          zh:
+            page: zh
+            section: s-fc5e8c9b7e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-bbcfd617fa
+            part: title
+          zh:
+            page: zh
+            section: s-71cda7c97d
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5L4F
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5L4F
+            label:
+              en: Colleeneremia balatus
+              zh: Colleeneremia balatus
+          - kind: catalogue
+            colId: V58LM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV58LM
+            label:
+              en: Colleeneremia capitula
+              zh: Colleeneremia capitula
+          - kind: catalogue
+            colId: V5C7V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5C7V
+            label:
+              en: Colleeneremia congenita
+              zh: Colleeneremia congenita
+          - kind: catalogue
+            colId: V579V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV579V
+            label:
+              en: Colleeneremia dentata
+              zh: Colleeneremia dentata
+          - kind: catalogue
+            colId: V5L3G
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5L3G
+            label:
+              en: Colleeneremia electrica
+              zh: Colleeneremia electrica
+          - kind: catalogue
+            colId: V5L42
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5L42
+            label:
+              en: Colleeneremia larisonans
+              zh: Colleeneremia larisonans
+          - kind: catalogue
+            colId: V5KY2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5KY2
+            label:
+              en: Colleeneremia pygmaea
+              zh: Colleeneremia pygmaea
+          - kind: catalogue
+            colId: V5HP5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5HP5
+            label:
+              en: Colleeneremia pyrina
+              zh: Colleeneremia pyrina
+          - kind: catalogue
+            colId: V5PCG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5PCG
+            label:
+              en: Colleeneremia quadrilineata
+              zh: Colleeneremia quadrilineata
+          - kind: catalogue
+            colId: V5PHX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5PHX
+            label:
+              en: Colleeneremia quiritatus
+              zh: Colleeneremia quiritatus
+          - kind: catalogue
+            colId: X2WZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AX2WZ
+            label:
+              en: Colleeneremia rubella
+              zh: Colleeneremia rubella
+          - kind: catalogue
+            colId: V5J9P
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5J9P
+            label:
+              en: Colleeneremia rueppelli
+              zh: Colleeneremia rueppelli
+          - kind: catalogue
+            colId: V5QDB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5QDB
+            label:
+              en: Colleeneremia umbonata
+              zh: Colleeneremia umbonata
+          - kind: catalogue
+            colId: V59SG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV59SG
+            label:
+              en: Colleeneremia wisselensis
+              zh: Colleeneremia wisselensis
+        text:
+          en:
+            page: en
+            section: s-bbcfd617fa
+            part: body
+          zh:
+            page: zh
+            section: s-71cda7c97d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Colleeneremia
+          url: https://www.checklistbank.org/dataset/316115/taxon/3SBB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-08781f48b1
+        part: body
+      zh:
+        page: zh
+        section: s-d13d1e7f98
+        part: body

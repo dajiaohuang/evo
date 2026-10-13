@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Physalaemus feioi {#s-e073b6a788}
+TadpoleTraits version 4 places Physalaemus feioi in Physalaemus (Leptodactylidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Physalaemus feioi. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 1 literature row and 0 image rows {#s-028f72be19}
+TadpoleTraits version 4 links 1 literature row and 0 image rows to Physalaemus feioi. Source row numbers — literature: 3025; image: none recorded. Populated measurement fields — literature: TL, TL.sd, BL, BL.sd, BMH, BMH.sd, BMW, BMW.sd, TaL, TaL.sd, MTH, MTH.sd, TMH, TMH.sd, DFH, DFH.sd, VFH, VFH.sd, IND.a, IND.a.sd, END.b, END.b.sd, IOD.a, IOD.a.sd, E, E.sd, ES.b, ES.b.sd, N, N.sd, SL, SL.sd; image: none recorded. Literature row 3025: Stage 36. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

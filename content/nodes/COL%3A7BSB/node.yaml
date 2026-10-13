@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Salamandra
+  displayName: Salamandra
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7BSB
+  sourceIndexes:
+    - name:
+        en: Salamandra
+        zh: Salamandra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7BSB
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/239
+            queryName: Salamandra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5588
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-77cc3e66f7
+      - s-360acd34c0
+      - s-91f19ec1c2
+      - s-dff85bc515
+      - s-52b7f7eb9a
+      - s-da5c81548d
+      - s-19e7f7b180
+    zh:
+      - s-517dcab03e
+      - s-3d47a1cf56
+      - s-0317b3da99
+      - s-4d764f8e0d
+      - s-f4e27d27e0
+      - s-625b7e021e
+      - s-969e1cd38f

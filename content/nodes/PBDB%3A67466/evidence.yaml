@@ -1,0 +1,186 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudoloris parvulus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Pseudoloris parvulus
+      en: Pseudoloris parvulus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-86d360d069
+            part: body
+          en:
+            page: en
+            section: s-0f6d266c93
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2c605ce2e8
+            part: body
+          en:
+            page: en
+            section: s-55bfe9d125
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a99ec9e3e1
+            part: body
+          en:
+            page: en
+            section: s-620a71218a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5f7e62737
+            part: body
+          en:
+            page: en
+            section: s-f48a80e735
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-94867ed096
+            part: body
+          en:
+            page: en
+            section: s-e1b9f29d43
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Pseudoloris parvulus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=67466&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:67466; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:67466
+          selectedOccurrenceIds:
+            - occ:336589
+            - occ:337338
+            - occ:337365
+            - occ:337374
+            - occ:337397
+            - occ:337406
+            - occ:337524
+            - occ:337573
+            - occ:337595
+            - occ:337655
+            - occ:337665
+            - occ:474440
+            - occ:1347749
+            - occ:1356490
+            - occ:1356761
+            - occ:1356774
+          selectedCollectionIds:
+            - col:12848
+            - col:12851
+            - col:12840
+            - col:12841
+            - col:12849
+            - col:12853
+            - col:31745
+            - col:31751
+            - col:31755
+            - col:31764
+            - col:31765
+            - col:12850
+            - col:182607
+            - col:177581
+            - col:39662
+            - col:184230
+          sourceReferenceIds:
+            - ref:8517
+            - ref:7272
+            - ref:12515
+            - ref:60780
+            - ref:61550
+            - ref:61575
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-707ac3be0d
+        part: body
+      en:
+        page: en
+        section: s-41890e3ecf
+        part: body

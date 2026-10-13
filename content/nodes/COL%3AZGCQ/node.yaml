@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia flindersensis
+  displayName: Crinia flindersensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZGCQ
+  sourceIndexes:
+    - name:
+        en: Crinia flindersensis
+        zh: Crinia flindersensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZGCQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/203
+            queryName: Crinia flindersensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-336f85aca1
+      - s-cb1ca3d747
+      - s-209b101b99
+      - s-febb9af28b
+      - s-3fd52593b5
+      - s-658bd154ec
+    zh:
+      - s-d010f1b232
+      - s-c87e84c05e
+      - s-b423817127
+      - s-cfd2637a3c
+      - s-c8c3d7b84b
+      - s-58f0398d5d

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Choerophryne multisyllaba
+  displayName: Choerophryne multisyllaba
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69Z47
+  sourceIndexes:
+    - name:
+        en: Choerophryne multisyllaba
+        zh: Choerophryne multisyllaba
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69Z47
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/347
+            queryName: Choerophryne multisyllaba
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-11879072cd
+      - s-bc4a854235
+      - s-8a2eeb23c1
+      - s-678d2af349
+      - s-e6500d7637
+    zh:
+      - s-b52fef86b0
+      - s-b8d6956a3f
+      - s-da041a0318
+      - s-596014e6f3
+      - s-d11a296f86

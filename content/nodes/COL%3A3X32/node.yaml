@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ctenophryne
+  displayName: Ctenophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3X32
+  sourceIndexes:
+    - name:
+        en: Ctenophryne
+        zh: Ctenophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3X32
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/337
+            queryName: Ctenophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a17f48b8a1
+      - s-975da5b2b6
+      - s-9794d7fd78
+      - s-711479e28c
+      - s-d7af708f3b
+      - s-852e6150c0
+      - s-27cba5b0b5
+      - s-a94640ff05
+      - s-a98b48cb75
+      - s-fa753670f6
+      - s-154a2dadf4
+      - s-926c8a80df
+      - s-717c72bfce
+      - s-ef65db2541
+      - s-f0ddf9d8cf
+    zh:
+      - s-14a501bf69
+      - s-b428f30e03
+      - s-95fe459170
+      - s-1e999e64a6
+      - s-0bbf2901d4
+      - s-725a112753
+      - s-c1d883eb93
+      - s-6a96544a0f
+      - s-0af3586d2c
+      - s-42830a1927
+      - s-689b78fa40
+      - s-4e3b9584fe
+      - s-ae70f42a76
+      - s-6e3c898500
+      - s-b3223177c7

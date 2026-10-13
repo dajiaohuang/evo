@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pleurodema tucumanum
+  displayName: Pleurodema tucumanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4KBF4
+  sourceIndexes:
+    - name:
+        en: Pleurodema tucumanum
+        zh: Pleurodema tucumanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4KBF4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/33
+            queryName: Pleurodema tucumanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/356
+            queryName: Pleurodema tucumana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-391b3abc2f
+      - s-395e118403
+      - s-95dff73778
+      - s-c16fe7dfaa
+      - s-eddebda721
+      - s-348eb1c067
+      - s-ca619e5741
+    zh:
+      - s-8f6c8721d1
+      - s-82b7966113
+      - s-3fe5c79c9a
+      - s-6d34bd7fbd
+      - s-b2803ca023
+      - s-a977c660e9
+      - s-e28f056dbf

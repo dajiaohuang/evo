@@ -1,0 +1,3 @@
+## The source concept {#s-aa43428a6d}
+AmphiBIO v1 lists Hypsiboas angelicus in row Anf2372, classified in Hypsiboas (genus), Hylidae (family) and Anura (order). Its source concept follows Amphibian Species of the World (Frost 2011). The row's trait fields are recorded as missing; missing values do not mean that a category is absent. An observation in the deposited record calls H. angelicus a junior synonym of H. roraima, but the author text in that note is corrupted. This is a historical annotation, not a current taxonomic determination, and the row has no resolved match to a current COL26.8 species concept.
+

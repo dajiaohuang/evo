@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hypogeophis pti
+  displayName: Hypogeophis pti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NW6D
+  sourceIndexes:
+    - name:
+        en: Hypogeophis pti
+        zh: Hypogeophis pti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NW6D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/364
+            queryName: Hypogeophis pti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-880b41556f
+      - s-cad8c3be26
+      - s-ff2f1a9cdf
+      - s-d7f8631da3
+      - s-cf750384f8
+      - s-c53b0abeda
+      - s-2e1ae95ae7
+      - s-47ee59f985
+      - s-53045a63e2
+    zh:
+      - s-84a1d6c5cb
+      - s-642607b93c
+      - s-c8899d6209
+      - s-f67e015a66
+      - s-cdd12d2d1a
+      - s-ce89f5919d
+      - s-841b01ecb9
+      - s-9f1e66632b
+      - s-920ffd10be

@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-c181923999
+      part: title
+    titleZh:
+      page: zh
+      section: s-19288dfae4
+      part: title
+    category: morphology
+    startAge: 519
+    endAge: 518
+    regions:
+      - Chengjiang biota, Yunnan, China
+    clades:
+      - Urokodia aequalis
+      - Cheliceromorpha
+      - Chelicerata
+    summary:
+      page: en
+      section: s-c181923999
+      part: body
+    summaryZh:
+      page: zh
+      section: s-19288dfae4
+      part: body
+    claimIds:
+      - claim:event:urokodia-chelicera-book-gill
+    evidenceItems:
+      - statement: Urokodia preserves pincer-like short great appendages, overlapping exite flaps and a seven-segmented head in three dimensions.
+        relation: supports
+        claimIds:
+          - claim:event:urokodia-chelicera-book-gill
+        referenceLinks:
+          - referenceId: liu-2026-urokodia
+            relation: supports
+            pages: 653–658
+            figure: Figures 1–3; Extended Data
+            quoteLocator: Microtomographic reconstruction; Appendage homology; Phylogenetic analyses
+    uncertaintyItems:
+      - statement: Appendage homology and earliest-branching upper stem placement come from reconstruction and phylogenetic scoring and can change with competing character interpretations.
+        relation: contextualizes
+        claimIds:
+          - claim:event:urokodia-chelicera-book-gill
+        referenceLinks:
+          - referenceId: liu-2026-urokodia
+            relation: supports
+            pages: 653–658
+            figure: Figures 1–3; Extended Data
+            quoteLocator: Microtomographic reconstruction; Appendage homology; Phylogenetic analyses
+  claims:
+    - subjectId: event:urokodia-chelicera-book-gill
+      claimKind: scientific
+      claimType: topology
+      statement: Micro-CT reconstructions of Chengjiang Urokodia aequalis reveal pincer-like short great appendages, overlapping exite flaps and a seven-segmented head; their interpretation as intermediates toward chelicerae and book gills and the upper stem-chelicerate placement are morphology-matrix results.
+      confidence: medium
+      confidenceRationale: Three-dimensional appendage anatomy is directly imaged, whereas segmental homology and branch position depend on reconstruction and scoring.
+      referenceLinks:
+        - referenceId: liu-2026-urokodia
+          relation: supports
+          pages: 653–658
+          figure: Figures 1–3; Extended Data
+          quoteLocator: Microtomographic reconstruction; Appendage homology; Phylogenetic analyses
+  claim-rationales.zh:
+    - 三维附肢解剖得到直接成像，而体节同源与分支位置取决于复原和评分。
+  claim-statements.zh:
+    - 澄江 Urokodia aequalis 的显微 CT 复原揭示钳状短大附肢、重叠外叶片与七节头部；把它们解释为通向螯肢和书鳃的中间构型，以及其螯肢动物上部干群位置，均为形态矩阵结果。

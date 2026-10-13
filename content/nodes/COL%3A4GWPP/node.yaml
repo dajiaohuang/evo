@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynopus bracki
+  displayName: Phrynopus bracki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWPP
+  sourceIndexes:
+    - name:
+        en: Phrynopus bracki
+        zh: Phrynopus bracki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWPP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/212
+            queryName: Phrynopus bracki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-99b8e6d449
+      - s-7012ab4c70
+      - s-d274320483
+      - s-1d1a4d28e1
+      - s-59a658f066
+      - s-5979049967
+      - s-c1bed1a690
+      - s-49daf04a4b
+      - s-b3337a10e4
+      - s-7c4b52c16b
+      - s-8e9cb14880
+      - s-7823a18f62
+    zh:
+      - s-07778199c0
+      - s-1dce8dc9a4
+      - s-674f037265
+      - s-2eaa17f645
+      - s-0d0708f133
+      - s-c2c16e75b9
+      - s-0176781f5f
+      - s-46f6b00869
+      - s-18bda9be53
+      - s-162a82ec00
+      - s-f8006a11f0
+      - s-818601ffd6

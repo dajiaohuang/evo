@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kryptobaatar dashzevegi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Kryptobaatar dashzevegi
+      en: Kryptobaatar dashzevegi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-90f434e7bf
+            part: body
+          en:
+            page: en
+            section: s-7c4b1d6db2
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8b29e6d6f7
+            part: body
+          en:
+            page: en
+            section: s-bb4fb63621
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9209565e3f
+            part: body
+          en:
+            page: en
+            section: s-d29d754f14
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d658c7646b
+            part: body
+          en:
+            page: en
+            section: s-a90c18508f
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7b5e99d2be
+            part: body
+          en:
+            page: en
+            section: s-c2025405b2
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Kryptobaatar dashzevegi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=57298&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:57298; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:57298
+          selectedOccurrenceIds:
+            - occ:387374
+            - occ:404745
+            - occ:404837
+            - occ:990471
+            - occ:990473
+            - occ:1004048
+          selectedCollectionIds:
+            - col:37013
+            - col:22685
+            - col:119422
+            - col:13777
+          sourceReferenceIds:
+            - ref:10448
+            - ref:10465
+            - ref:38300
+            - ref:38909
+          originalIdentificationMappings:
+            - occurrenceId: occ:387374
+              originalIdentifiedName: Kryptobaatar dashzevegi n. gen. n. sp.
+              acceptedName: Kryptobaatar dashzevegi
+              difference: null
+            - occurrenceId: occ:404745
+              originalIdentifiedName: Gobibaatar parvus n. gen. n. sp.
+              acceptedName: Kryptobaatar dashzevegi
+              difference: null
+            - occurrenceId: occ:404837
+              originalIdentifiedName: Tugrigbaatar saichanensis n. gen. n. sp.
+              acceptedName: Kryptobaatar dashzevegi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7b0feb8f55
+        part: body
+      en:
+        page: en
+        section: s-78dbbe676e
+        part: body

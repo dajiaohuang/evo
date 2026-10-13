@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus plaumanni
+  displayName: Leptodactylus plaumanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN73
+  sourceIndexes:
+    - name:
+        en: Leptodactylus plaumanni
+        zh: Leptodactylus plaumanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN73
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/426
+            queryName: Leptodactylus plaumanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/420
+            queryName: Leptodactylus geminus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ad6e91aa2
+      - s-37dacfb974
+      - s-08180941d2
+      - s-9331126bf4
+      - s-ab7743586d
+      - s-f39f950d74
+      - s-8f3392de35
+      - s-7a62197aeb
+      - s-d515eb1f28
+      - s-6df1748289
+      - s-b023007019
+      - s-68aad7be7d
+      - s-740d4d27f7
+      - s-95a8b4a219
+      - s-7435b7f6f2
+      - s-0afda6820e
+      - s-fc1aac823a
+    zh:
+      - s-edbba4fa64
+      - s-583bf7df10
+      - s-ce65d001d5
+      - s-50a4e67db0
+      - s-88af64023f
+      - s-0691b7fd8f
+      - s-939d95deb7
+      - s-f2a6e73596
+      - s-e37ba98e7c
+      - s-9638faae0d
+      - s-0af21c69ca
+      - s-f676a040b3
+      - s-542cd9a53c
+      - s-66b29daef9
+      - s-17f56be7c0
+      - s-a89702fd77
+      - s-571951242f

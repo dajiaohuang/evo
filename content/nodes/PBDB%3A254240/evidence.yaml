@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nothosaurinae
+    rank: subfamily
+    sourceDatasetId: null
+    name:
+      zh: Nothosaurinae
+      en: Nothosaurinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c3f1b66390
+            part: body
+          en:
+            page: en
+            section: s-1c37e05e17
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f44555c389
+            part: body
+          en:
+            page: en
+            section: s-2e7f9f2d33
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Nothosaurinae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=254240
+          locator: Recorded PBDB parent closure beneath the already documented Sauropterygia COL-compatible storage anchor.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:254240
+          readingTargets:
+            - name: Lariosaurus teutonicus
+              pbdbTaxonId: txn:376659
+              canonicalPath: content/nodes/PBDB%3A376659
+            - name: Lariosaurus buzzii
+              pbdbTaxonId: txn:142399
+              canonicalPath: content/nodes/PBDB%3A142399
+            - name: Lariosaurus xingyiensis
+              pbdbTaxonId: txn:172057
+              canonicalPath: content/nodes/PBDB%3A172057
+            - name: Lariosaurus juvenilis
+              pbdbTaxonId: txn:177468
+              canonicalPath: content/nodes/PBDB%3A177468
+            - name: Lariosaurus curionii
+              pbdbTaxonId: txn:254276
+              canonicalPath: content/nodes/PBDB%3A254276
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-321c3ff155
+        part: body
+      en:
+        page: en
+        section: s-12a14ab993
+        part: body

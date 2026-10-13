@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Isthmohyla graceae
+  displayName: Isthmohyla graceae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QD7T
+  sourceIndexes:
+    - name:
+        en: Isthmohyla graceae
+        zh: Isthmohyla graceae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QD7T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/54
+            queryName: Isthmohyla graceae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/338
+            queryName: Hyla graceae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-77812fd656
+      - s-b8fd07ceb8
+      - s-b18a9c60eb
+      - s-a0bb9b4523
+      - s-f2ace850e3
+      - s-3502d112fc
+      - s-e359fdfc71
+      - s-02ad667f97
+      - s-2daa0ae8a1
+      - s-c13babc067
+    zh:
+      - s-80ba5c302a
+      - s-3a12f91620
+      - s-6bf99e1d5c
+      - s-e96d86efe3
+      - s-9689637d5c
+      - s-25c16577d2
+      - s-a2ac413910
+      - s-6999745a45
+      - s-289cefb072
+      - s-c0529e98c8

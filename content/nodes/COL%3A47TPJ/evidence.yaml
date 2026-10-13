@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nothoprocta perdicaria
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Nothoprocta perdicaria
+      en: Nothoprocta perdicaria
+    sections:
+      - topic: genomeMaterial
+        sourceIds:
+          - sackton2019FlightLossReader
+          - cloutier2019PalaeognathReader
+          - ncbi2019PalaeognathWgsReader
+        text:
+          zh:
+            page: zh
+            section: s-da1fe06e75
+            part: body
+          en:
+            page: en
+            section: s-9553ac2832
+            part: body
+      - topic: phylogeneticComparison
+        sourceIds:
+          - sackton2019FlightLossReader
+          - cloutier2019PalaeognathReader
+        text:
+          zh:
+            page: zh
+            section: s-a8ac4e35b1
+            part: body
+          en:
+            page: en
+            section: s-5c92b7d8a2
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-6e3069079d
+            part: body
+          en:
+            page: en
+            section: s-a64e0273a7
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-ac07229a0d
+            part: body
+          en:
+            page: en
+            section: s-78330acf44
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-1ea2f14c48
+            part: body
+          en:
+            page: en
+            section: s-629bd0ff77
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-0516bc75ea
+            part: body
+          en:
+            page: en
+            section: s-17f581b7d0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-649998f6de
+            part: body
+          en:
+            page: en
+            section: s-922198d35d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nothoprocta perdicaria
+          url: https://www.checklistbank.org/dataset/316115/taxon/47TPJ
+          locator: Pinned accepted name, rank and ancestor closure; matching names do not establish concept equivalence.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceTaxonomy
+          - externalConceptId
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET Supplementary dataset 1.xlsx; AVONET1_BirdLife; Species1=Nothoprocta perdicaria; Sequence=40; Metadata field definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 34480856
+          sourceFileMd5: 1445afdcfb6df784010c2ca034544bc8
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceTaxonomy: HBW–BirdLife version 5.0 (December 2020)
+          externalConceptId: AVIBASE-F900EE88
+          scope:
+            zh: 历史同名记录的数据导读；仅使用 Inference=NO 且至少一套完整形态测量的记录。保留体重来源和繁殖/留居地理范围限定，不推断当前分类概念等同。
+            en: Historical same-name data account, using Inference=NO records with at least one complete morphological set. Mass provenance and breeding/resident geography retained; no current taxonomic concept equivalence inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: sackton2019FlightLossReader
+        referenceId: ref-5bd64bcf-d144-4042-85d0-7698b80a8c94
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - sourceVersion
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Convergent regulatory evolution and loss of flight in paleognathous birds
+          url: https://doi.org/10.1126/science.aat7244
+          accessedAt: 2026-10-03
+          locator: Published main Science PDF, all main scientific text and captions; figure 1 pixels only; no supplements or rerun
+          scope:
+            zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+            en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+      - id: cloutier2019PalaeognathReader
+        referenceId: ref-21d5a78e-cddb-4430-8d22-79f8a455bf0b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - sourceVersion
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Whole-Genome Analyses Resolve the Phylogeny of Flightless Birds (Palaeognathae) in the Presence of an Empirical Anomaly Zone
+          url: https://doi.org/10.1093/sysbio/syz019
+          accessedAt: 2026-10-03
+          locator: "PMC6857515: sampling, selected marker extraction and species-tree methods, selected results, discussion paragraphs 100–109; not whole-paper review"
+          scope:
+            zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+            en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+      - id: ncbi2019PalaeognathWgsReader
+        referenceId: ref-6337e69a-f577-45e0-a7d8-aa22aed8fb47
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: NCBI GenBank WGS master records for ten extant palaeognath genomes in BioProject PRJNA433110
+          url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA433110
+          accessedAt: 2026-10-03
+          locator: "Ten GenBank WGS master records: specimen fields only; no raw sequence reanalysis"
+          scope:
+            zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+            en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+    limitations:
+      zh:
+        page: zh
+        section: s-de8d9cf73c
+        part: body
+      en:
+        page: en
+        section: s-1fe6050515
+        part: body

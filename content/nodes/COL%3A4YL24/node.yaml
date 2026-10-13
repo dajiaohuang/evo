@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaenorhynchus planicola
+  displayName: Sphaenorhynchus planicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YL24
+  sourceIndexes:
+    - name:
+        en: Sphaenorhynchus planicola
+        zh: Sphaenorhynchus planicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YL24
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/239
+            queryName: Sphaenorhynchus planicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/268
+            queryName: Hyla planicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/269
+            queryName: Sphoenohyla planicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/270
+            queryName: Dryomelictes planicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/349
+            queryName: Hyla aurantiaca planicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/350
+            queryName: Hyla orophila planicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c380d0dcc
+      - s-99dd9bff1b
+      - s-c5e345c90a
+      - s-08a1cc0c9e
+      - s-3bd621c246
+      - s-7ef5e9d073
+      - s-47b2972720
+      - s-c070745edf
+      - s-3d15ae0631
+      - s-7e9d8873d0
+      - s-cd0a99a21a
+      - s-132ed3dbc6
+      - s-23787f4be3
+      - s-62b05d9b5f
+      - s-5d80de484c
+    zh:
+      - s-23e67cf2ac
+      - s-f4a4726d35
+      - s-d3aec14ed7
+      - s-95025d11a4
+      - s-ffe8329e3e
+      - s-6371e54a3f
+      - s-6ba39d9925
+      - s-41723b75f5
+      - s-39b6f49f7d
+      - s-64babd0eef
+      - s-9f4ac5da45
+      - s-9150f15494
+      - s-d57cbe43a9
+      - s-f51a98542e
+      - s-eeceaae2d0

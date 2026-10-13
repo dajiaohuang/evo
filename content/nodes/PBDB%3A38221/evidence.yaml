@@ -1,0 +1,107 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chasmatosuchus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Chasmatosuchus
+      en: Chasmatosuchus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c1f00a0bbb
+            part: body
+          en:
+            page: en
+            section: s-26b14a72f6
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-54e44485c4
+            part: body
+          en:
+            page: en
+            section: s-a1ffaba2bc
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Chasmatosuchus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=38221
+          locator: Recorded PBDB parent closure beneath the already documented Reptilia COL-compatible storage anchor.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:38221
+          readingTargets:
+            - name: Chasmatosuchus rossicus
+              pbdbTaxonId: txn:162606
+              canonicalPath: content/nodes/PBDB%3A162606
+            - name: Chasmatosuchus magnus
+              pbdbTaxonId: txn:347454
+              canonicalPath: content/nodes/PBDB%3A347454
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-66d3cc19ad
+        part: body
+      en:
+        page: en
+        section: s-b77f5c57f0
+        part: body

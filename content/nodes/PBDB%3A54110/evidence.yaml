@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Petenyia hungarica
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Petenyia hungarica
+      en: Petenyia hungarica
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8ee7e80506
+            part: body
+          en:
+            page: en
+            section: s-f3fa119ffa
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1da33f3d7b
+            part: body
+          en:
+            page: en
+            section: s-adcfff0edf
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f17f197113
+            part: body
+          en:
+            page: en
+            section: s-19bdb82832
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e12ae22b86
+            part: body
+          en:
+            page: en
+            section: s-6469299ec6
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-407c374274
+            part: body
+          en:
+            page: en
+            section: s-f221b400bd
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Petenyia hungarica
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=54110&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:54110; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:54110
+          selectedOccurrenceIds:
+            - occ:340852
+            - occ:341678
+            - occ:341713
+            - occ:341771
+            - occ:342245
+            - occ:343556
+            - occ:344814
+            - occ:356184
+            - occ:364992
+            - occ:366150
+            - occ:366153
+            - occ:366155
+            - occ:366156
+            - occ:366166
+            - occ:366222
+            - occ:366223
+            - occ:370457
+            - occ:373446
+            - occ:373528
+            - occ:373579
+            - occ:374098
+            - occ:374131
+            - occ:374194
+            - occ:374238
+            - occ:374405
+            - occ:375027
+            - occ:375115
+            - occ:375159
+            - occ:375960
+            - occ:380274
+            - occ:411477
+            - occ:416570
+            - occ:421655
+            - occ:421666
+            - occ:422050
+            - occ:442886
+            - occ:489811
+            - occ:501451
+            - occ:508522
+            - occ:945349
+            - occ:2048219
+          selectedCollectionIds:
+            - col:32145
+            - col:32192
+            - col:32195
+            - col:32194
+            - col:32189
+            - col:32240
+            - col:32485
+            - col:33973
+            - col:33396
+            - col:33872
+            - col:33473
+            - col:33638
+            - col:34192
+            - col:33480
+            - col:34682
+            - col:34683
+            - col:35076
+            - col:35354
+            - col:35358
+            - col:35359
+            - col:35368
+            - col:35369
+            - col:35370
+            - col:35371
+            - col:35383
+            - col:35428
+            - col:35431
+            - col:35432
+            - col:35472
+            - col:36008
+            - col:39797
+            - col:40391
+            - col:41000
+            - col:41001
+            - col:41026
+            - col:43644
+            - col:49360
+            - col:50895
+            - col:51625
+            - col:109704
+            - col:276686
+          sourceReferenceIds:
+            - ref:8655
+            - ref:19740
+            - ref:8865
+            - ref:8762
+            - ref:9172
+            - ref:9424
+            - ref:9534
+            - ref:9672
+            - ref:10779
+            - ref:10897
+            - ref:11051
+            - ref:11054
+            - ref:13182
+            - ref:13151
+            - ref:13737
+            - ref:36257
+            - ref:93840
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-954d700c55
+        part: body
+      en:
+        page: en
+        section: s-0bf1b310b1
+        part: body

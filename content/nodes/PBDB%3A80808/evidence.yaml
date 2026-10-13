@@ -1,0 +1,159 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Protecovasaurus lucasi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Protecovasaurus lucasi
+      en: Protecovasaurus lucasi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-00776766fc
+            part: body
+          en:
+            page: en
+            section: s-6d3275073c
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-57dadb074e
+            part: body
+          en:
+            page: en
+            section: s-36a8e55a73
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-be7f619a8e
+            part: body
+          en:
+            page: en
+            section: s-f03920e969
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2c588ca34b
+            part: body
+          en:
+            page: en
+            section: s-de08f97a11
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1943798737
+            part: body
+          en:
+            page: en
+            section: s-be64adedc0
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Protecovasaurus lucasi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=80808&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:80808; original response record indices retained in data/sources/other-reptilia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:80808
+          selectedOccurrenceIds:
+            - occ:572534
+            - occ:572632
+            - occ:572673
+          selectedCollectionIds:
+            - col:22704
+            - col:13266
+            - col:48424
+          sourceReferenceIds:
+            - ref:17273
+          originalIdentificationMappings:
+            - occurrenceId: occ:572673
+              originalIdentifiedName: Protecovasaurus lucasi n. gen. n. sp.
+              acceptedName: Protecovasaurus lucasi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-14646c1b20
+        part: body
+      en:
+        page: en
+        section: s-5ce861e8d4
+        part: body

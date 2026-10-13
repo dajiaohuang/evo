@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis mallii
+  displayName: Pristimantis mallii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJHF
+  sourceIndexes:
+    - name:
+        en: Pristimantis mallii
+        zh: Pristimantis mallii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJHF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/389
+            queryName: Pristimantis mallii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aca9ed3849
+      - s-b615c45ade
+      - s-b59f15f019
+      - s-f205a854ed
+      - s-e0a588b083
+      - s-28ff67a6d9
+      - s-b4faa7b48c
+      - s-aa3be3c349
+      - s-2184421aa0
+      - s-7777651c9c
+      - s-99cfbcc2ba
+      - s-41be466f04
+      - s-3342a7d935
+      - s-5fdcf07903
+      - s-2b8e92b0c0
+    zh:
+      - s-62fe176f5a
+      - s-1df9a304a7
+      - s-1ce33d4c6e
+      - s-c5d5fc85cb
+      - s-85991bafe0
+      - s-8793d8eb20
+      - s-2f9e72eb92
+      - s-0679067a76
+      - s-4ffe124caf
+      - s-65f07598c7
+      - s-1f7af2afdc
+      - s-612ed0d39f
+      - s-1b91fcb745
+      - s-7ddf102fdf
+      - s-ad6cfbd989

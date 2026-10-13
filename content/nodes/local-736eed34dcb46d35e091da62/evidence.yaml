@@ -1,0 +1,179 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Oscaecilia elongata
+    name:
+      en: Oscaecilia elongata
+      zh: Oscaecilia elongata
+    sourceClassification:
+      order: Gymnophiona
+      family: Caeciliidae
+      genus: Oscaecilia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-157888b8aa
+            part: body
+          zh:
+            page: zh
+            section: s-8c714a07f0
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-aa0b2e5a4c
+            part: body
+          zh:
+            page: zh
+            section: s-7f2e60ae4e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 125; Reference.csv rows 4325
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 125
+        values:
+          - Caeciliidae
+          - Oscaecilia
+          - Oscaecilia elongata
+          - NA
+          - "500"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.9"
+          - NA
+          - NA
+          - "5.9"
+          - "6"
+          - "4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4325
+        values:
+          - Gymnophiona
+          - Oscaecilia_elongata
+          - Lahanas, P. N., & Savage, J. M. (1992). A new species of Caecilian from the Peninsula De Osa of Costa-Rica. Copeia(3), 703-708. https://doi.org/10.2307/1446146
+    availableTraitCodes:
+      - TOL
+      - HL
+      - BW1
+      - BW2
+      - BW3
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6SZ3K
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

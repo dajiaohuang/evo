@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paratelmatobius mantiqueira
+  displayName: Paratelmatobius mantiqueira
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7648T
+  sourceIndexes:
+    - name:
+        en: Paratelmatobius mantiqueira
+        zh: Paratelmatobius mantiqueira
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7648T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/427
+            queryName: Paratelmatobius mantiqueira
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-900a638e6b
+      - s-67f913c949
+      - s-54f87332be
+      - s-24146afed7
+      - s-bfecb9c731
+      - s-630aa50f88
+      - s-8a1302f787
+      - s-262eca7a24
+      - s-eb8283639c
+      - s-acedccf23f
+      - s-fe38be9594
+      - s-b0d39767bf
+    zh:
+      - s-85a3b71e20
+      - s-ec62ef7752
+      - s-df4ac7a03b
+      - s-7a87cbcc6f
+      - s-e1f5911f6c
+      - s-74448457bc
+      - s-119ca8dcd0
+      - s-6f0fb4bef9
+      - s-5375ebfe5a
+      - s-dc7ff27cb0
+      - s-ae881264e4
+      - s-7066e3848d

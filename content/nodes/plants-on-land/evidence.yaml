@@ -1,0 +1,75 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-cab2c67d23
+      part: title
+    titleZh:
+      page: zh
+      section: s-6bf049d765
+      part: title
+    category: transition
+    startAge: 515
+    endAge: 473
+    regions:
+      - Global molecular-clock sample
+    clades:
+      - Embryophyta
+    summary:
+      page: en
+      section: s-cab2c67d23
+      part: body
+    summaryZh:
+      page: zh
+      section: s-6bf049d765
+      part: body
+    claimIds:
+      - claim:event:plants-on-land
+    evidenceItems:
+      - statement: Bayesian relaxed molecular clock using 37 fossil calibrations
+        relation: supports
+        claimIds:
+          - claim:event:plants-on-land
+        referenceLinks:
+          - relation: supports
+            referenceId: morris-2018-land-plants
+      - statement: Middle Cambrian–Early Ordovician crown-Embryophyta estimate
+        relation: supports
+        claimIds:
+          - claim:event:plants-on-land
+        referenceLinks:
+          - relation: supports
+            referenceId: morris-2018-land-plants
+    uncertaintyItems:
+      - statement: Divergence estimates are sensitive to clock models and fossil-calibration strategy
+        relation: contextualizes
+        claimIds:
+          - claim:event:plants-on-land
+        referenceLinks:
+          - relation: supports
+            referenceId: morris-2018-land-plants
+      - statement: Modelled crown divergence is not a direct fossil first appearance or an ecosystem-expansion date
+        relation: contextualizes
+        claimIds:
+          - claim:event:plants-on-land
+        referenceLinks:
+          - relation: supports
+            referenceId: morris-2018-land-plants
+  claims:
+    - subjectId: event:plants-on-land
+      claimKind: scientific
+      claimType: divergence-time
+      statement: Bayesian relaxed-clock analyses using 37 fossil calibrations estimate crown Embryophyta to have emerged in a middle Cambrian–Early Ordovician interval, before crown tracheophytes in the Late Ordovician–Silurian; these are modelled divergence times, not direct fossil first appearances.
+      confidence: medium
+      confidenceRationale: The study integrates seven alternative bryophyte–tracheophyte topologies and a phylogenomic dataset, but its age estimates remain sensitive to clock models and calibration strategy, especially the crown-Embryophyta constraint. It cannot independently support cryptospore, macrofossil, rooting or soil-development observations.
+      referenceLinks:
+        - relation: supports
+          referenceId: morris-2018-land-plants
+          pages: E2274–E2283
+          figure: Figure 2; Table 2
+          quoteLocator: "Results: Topology, pp. E2276–E2277; Conclusions, p. E2282"
+  claim-rationales.zh:
+    - 该研究整合了七种苔藓植物—维管植物拓扑和系统基因组数据，但年龄估计仍受分子钟模型与校准策略影响，尤其依赖胚胎植物冠群约束；它不能独立支持隐孢子、大化石、根系或土壤发育观察。
+  claim-statements.zh:
+    - 采用 37 个化石校准点的贝叶斯松弛时钟分析估计，胚胎植物冠群出现于中寒武世至早奥陶世之间，早于晚奥陶世至志留纪的维管植物冠群；这些是模型估算的分化时间，并非化石直接记录的首次出现。

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis danae
+  displayName: Pristimantis danae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJCT
+  sourceIndexes:
+    - name:
+        en: Pristimantis danae
+        zh: Pristimantis danae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJCT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/231
+            queryName: Pristimantis danae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/326
+            queryName: Eleutherodactylus danae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a3f64d1d8
+      - s-36808edc72
+      - s-47e23ef173
+      - s-346a87c0e2
+      - s-df793d7486
+      - s-7197062bff
+      - s-5eac26f801
+      - s-f700d8f58d
+      - s-0182035510
+      - s-25253e1b31
+      - s-bc9f58960d
+    zh:
+      - s-23d2663c7d
+      - s-af5d9f650e
+      - s-57358f943a
+      - s-3eec4c8a14
+      - s-9eebac822a
+      - s-4056179719
+      - s-cb4a427692
+      - s-0dcd535d4d
+      - s-2c9406f289
+      - s-3434253749
+      - s-efbcaaaee9

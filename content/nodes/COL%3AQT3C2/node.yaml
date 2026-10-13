@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nidirana guangxiensis
+  displayName: Nidirana guangxiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QT3C2
+  sourceIndexes:
+    - name:
+        en: Nidirana guangxiensis
+        zh: Nidirana guangxiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QT3C2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/270
+            queryName: Nidirana guangxiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a84a535072
+      - s-cb7b848dbd
+      - s-08edb91442
+      - s-afce54b107
+      - s-b08dc05091
+      - s-799f1d780c
+    zh:
+      - s-ac2f7b1d53
+      - s-ffd6851177
+      - s-b13c0cfba0
+      - s-3669954db8
+      - s-024d29cef3
+      - s-93589a373b

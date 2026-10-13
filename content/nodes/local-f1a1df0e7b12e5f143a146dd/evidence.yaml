@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Barbourula kalimantanensis
+    name:
+      en: Barbourula kalimantanensis
+      zh: Barbourula kalimantanensis
+    sourceClassification:
+      order: Anura
+      family: Bombinatoridae
+      genus: Barbourula
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d2774a61d1
+            part: body
+          zh:
+            page: zh
+            section: s-e28b663718
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-12c119af6e
+            part: body
+          zh:
+            page: zh
+            section: s-d03c7d73d5
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 601, 602; Reference.csv rows 60
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 601
+        values:
+          - Bombinatoridae
+          - Barbourula
+          - Barbourula kalimantanensis
+          - F
+          - "77.7"
+          - "29.2"
+          - "27.9"
+          - "6.5"
+          - NA
+          - NA
+          - "8.3"
+          - NA
+          - NA
+          - "4.7"
+          - "5.1"
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "42.3"
+          - "29.3"
+          - "30"
+          - NA
+          - NA
+          - "5.2"
+          - "14.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 602
+        values:
+          - Bombinatoridae
+          - Barbourula
+          - Barbourula kalimantanensis
+          - M
+          - "68"
+          - "23.8"
+          - "25"
+          - "4.5"
+          - NA
+          - NA
+          - "5.5"
+          - NA
+          - NA
+          - "2.8"
+          - "5.2"
+          - "4.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "43.8"
+          - "27.8"
+          - "28"
+          - NA
+          - NA
+          - "5.2"
+          - "14.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 60
+        values:
+          - Anura
+          - Barbourula_kalimantanensis
+          - "Iskandar, D. T. (1995). Notes on the second specimen of Barbourula kalimantanensis (Amphibia: Anura: Discoglossidae). The Raffles Bulletin of Zoology, 43(2), 309-311."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - EN
+      - SL
+      - NS
+      - TFL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - KMPQ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

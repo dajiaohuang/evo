@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemidactylium scutatum
+  displayName: Hemidactylium scutatum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KN7D
+  sourceIndexes:
+    - name:
+        en: Hemidactylium scutatum
+        zh: Hemidactylium scutatum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KN7D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/261
+            queryName: Hemidactylium scutatum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 59
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/440
+            queryName: Salamandra frontalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/441
+            queryName: Ambystoma frontale
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/262
+            queryName: Salamandra scutata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 85
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/263
+            queryName: Salamandra melanosticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/264
+            queryName: Cotobotes scutatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/265
+            queryName: Desmodactylus scutatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/266
+            queryName: Desmodactylus melanostictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/267
+            queryName: Batrachoseps scutatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/414
+            queryName: Salamandra sinciputalbida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0304945503
+      - s-418def5993
+      - s-ccb1638a13
+      - s-c17ecfbaa9
+      - s-ec5fec084d
+      - s-4aec8b79bc
+      - s-e35e7e09a8
+      - s-cfc98e6a90
+      - s-525a33bfb6
+      - s-b9e58fcc7d
+    zh:
+      - s-90fe7cbc45
+      - s-020c1626a3
+      - s-0d1f15ce84
+      - s-90ef417272
+      - s-2334087273
+      - s-39f37405d5
+      - s-a2104948ed
+      - s-49b93648c0
+      - s-5b73531ecd
+      - s-35e16c60ff

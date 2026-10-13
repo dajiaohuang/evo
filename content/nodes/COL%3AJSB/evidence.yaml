@@ -1,0 +1,125 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Laliostominae Vences & Glaw, 2001
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Laliostominae
+      zh: Laliostominae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5f62cec74c
+            part: title
+          zh:
+            page: zh
+            section: s-77e5280bec
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5f62cec74c
+            part: body
+          zh:
+            page: zh
+            section: s-77e5280bec
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-73e25b30bd
+            part: title
+          zh:
+            page: zh
+            section: s-a9bc28f727
+            part: title
+        text:
+          en:
+            page: en
+            section: s-73e25b30bd
+            part: body
+          zh:
+            page: zh
+            section: s-a9bc28f727
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-982380773b
+            part: title
+          zh:
+            page: zh
+            section: s-d8e47b103f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: QSN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AQSN
+            label:
+              en: Aglyptodactylus
+              zh: Aglyptodactylus
+          - kind: catalogue
+            colId: 62W42
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62W42
+            label:
+              en: Laliostoma
+              zh: Laliostoma
+        text:
+          en:
+            page: en
+            section: s-982380773b
+            part: body
+          zh:
+            page: zh
+            section: s-d8e47b103f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Laliostominae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JSB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5b2b1f7e85
+        part: body
+      zh:
+        page: zh
+        section: s-68d1195204
+        part: body

@@ -1,0 +1,629 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhacophoridae Hoffman, 1932
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Rhacophoridae
+      zh: Rhacophoridae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cc78b98f3e
+            part: title
+          zh:
+            page: zh
+            section: s-ecbd8beef4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cc78b98f3e
+            part: body
+          zh:
+            page: zh
+            section: s-ecbd8beef4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-873a09c9c1
+            part: title
+          zh:
+            page: zh
+            section: s-7fbd24ba70
+            part: title
+        text:
+          en:
+            page: en
+            section: s-873a09c9c1
+            part: body
+          zh:
+            page: zh
+            section: s-7fbd24ba70
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-b7971aae9d
+            part: title
+          zh:
+            page: zh
+            section: s-caebf95882
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b7971aae9d
+            part: body
+          zh:
+            page: zh
+            section: s-caebf95882
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e75e7ec050
+            part: title
+          zh:
+            page: zh
+            section: s-99440bf840
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e75e7ec050
+            part: body
+          zh:
+            page: zh
+            section: s-99440bf840
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-c6855f5019
+            part: title
+          zh:
+            page: zh
+            section: s-72179b42e1
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: J93
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJ93
+            label:
+              en: Buergeriinae
+              zh: Buergeriinae
+          - kind: catalogue
+            colId: K9C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AK9C
+            label:
+              en: Rhacophorinae
+              zh: Rhacophorinae
+        text:
+          en:
+            page: en
+            section: s-c6855f5019
+            part: body
+          zh:
+            page: zh
+            section: s-72179b42e1
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-b0df4df0b7
+            part: title
+          zh:
+            page: zh
+            section: s-c993d34f51
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-b0df4df0b7
+            part: body
+          zh:
+            page: zh
+            section: s-c993d34f51
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhacophoridae
+          url: https://www.checklistbank.org/dataset/316115/taxon/FMX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Rhacophoridae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Rhacophoridae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-adacae3cf8
+        part: body
+      zh:
+        page: zh
+        section: s-d0ad66e72b
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Rhacophoridae
+      sourceRowIds:
+        - Anf5062
+        - Anf5063
+        - Anf5064
+        - Anf5065
+        - Anf5066
+        - Anf5067
+        - Anf5068
+        - Anf5069
+        - Anf5070
+        - Anf5071
+        - Anf5072
+        - Anf5073
+        - Anf5074
+        - Anf5075
+        - Anf5076
+        - Anf5077
+        - Anf5078
+        - Anf5079
+        - Anf5080
+        - Anf5081
+        - Anf5082
+        - Anf5083
+        - Anf5084
+        - Anf5085
+        - Anf5086
+        - Anf5087
+        - Anf5088
+        - Anf5089
+        - Anf5090
+        - Anf5091
+        - Anf5092
+        - Anf5093
+        - Anf5094
+        - Anf5095
+        - Anf5096
+        - Anf5097
+        - Anf5098
+        - Anf5099
+        - Anf5100
+        - Anf5101
+        - Anf5102
+        - Anf5103
+        - Anf5104
+        - Anf5105
+        - Anf5106
+        - Anf5107
+        - Anf5108
+        - Anf5109
+        - Anf5110
+        - Anf5111
+        - Anf5112
+        - Anf5113
+        - Anf5114
+        - Anf5115
+        - Anf5116
+        - Anf5117
+        - Anf5118
+        - Anf5119
+        - Anf5120
+        - Anf5121
+        - Anf5122
+        - Anf5123
+        - Anf5124
+        - Anf5125
+        - Anf5126
+        - Anf5127
+        - Anf5128
+        - Anf5129
+        - Anf5130
+        - Anf5131
+        - Anf5132
+        - Anf5133
+        - Anf5134
+        - Anf5135
+        - Anf5136
+        - Anf5137
+        - Anf5138
+        - Anf5139
+        - Anf5140
+        - Anf5141
+        - Anf5142
+        - Anf5143
+        - Anf5144
+        - Anf5145
+        - Anf5146
+        - Anf5147
+        - Anf5148
+        - Anf5149
+        - Anf5150
+        - Anf5151
+        - Anf5152
+        - Anf5153
+        - Anf5154
+        - Anf5155
+        - Anf5156
+        - Anf5157
+        - Anf5158
+        - Anf5159
+        - Anf5160
+        - Anf5161
+        - Anf5162
+        - Anf5163
+        - Anf5164
+        - Anf5165
+        - Anf5166
+        - Anf5167
+        - Anf5168
+        - Anf5169
+        - Anf5170
+        - Anf5171
+        - Anf5172
+        - Anf5173
+        - Anf5174
+        - Anf5175
+        - Anf5176
+        - Anf5177
+        - Anf5178
+        - Anf5179
+        - Anf5180
+        - Anf5181
+        - Anf5182
+        - Anf5183
+        - Anf5184
+        - Anf5185
+        - Anf5186
+        - Anf5187
+        - Anf5188
+        - Anf5189
+        - Anf5190
+        - Anf5191
+        - Anf5192
+        - Anf5193
+        - Anf5194
+        - Anf5195
+        - Anf5196
+        - Anf5197
+        - Anf5198
+        - Anf5199
+        - Anf5200
+        - Anf5201
+        - Anf5202
+        - Anf5203
+        - Anf5204
+        - Anf5205
+        - Anf5206
+        - Anf5207
+        - Anf5208
+        - Anf5209
+        - Anf5210
+        - Anf5211
+        - Anf5212
+        - Anf5213
+        - Anf5214
+        - Anf5215
+        - Anf5216
+        - Anf5217
+        - Anf5218
+        - Anf5219
+        - Anf5220
+        - Anf5221
+        - Anf5222
+        - Anf5223
+        - Anf5224
+        - Anf5225
+        - Anf5226
+        - Anf5227
+        - Anf5228
+        - Anf5229
+        - Anf5230
+        - Anf5231
+        - Anf5232
+        - Anf5233
+        - Anf5234
+        - Anf5235
+        - Anf5236
+        - Anf5237
+        - Anf5238
+        - Anf5239
+        - Anf5240
+        - Anf5241
+        - Anf5242
+        - Anf5243
+        - Anf5244
+        - Anf5245
+        - Anf5246
+        - Anf5247
+        - Anf5248
+        - Anf5249
+        - Anf5250
+        - Anf5251
+        - Anf5252
+        - Anf5253
+        - Anf5254
+        - Anf5255
+        - Anf5256
+        - Anf5257
+        - Anf5258
+        - Anf5259
+        - Anf5260
+        - Anf5261
+        - Anf5262
+        - Anf5263
+        - Anf5264
+        - Anf5265
+        - Anf5266
+        - Anf5267
+        - Anf5268
+        - Anf5269
+        - Anf5270
+        - Anf5271
+        - Anf5272
+        - Anf5273
+        - Anf5274
+        - Anf5275
+        - Anf5276
+        - Anf5277
+        - Anf5278
+        - Anf5279
+        - Anf5280
+        - Anf5281
+        - Anf5282
+        - Anf5283
+        - Anf5284
+        - Anf5285
+        - Anf5286
+        - Anf5287
+        - Anf5288
+        - Anf5289
+        - Anf5290
+        - Anf5291
+        - Anf5292
+        - Anf5293
+        - Anf5294
+        - Anf5295
+        - Anf5296
+        - Anf5297
+        - Anf5298
+        - Anf5299
+        - Anf5300
+        - Anf5301
+        - Anf5302
+        - Anf5303
+        - Anf5304
+        - Anf5305
+        - Anf5306
+        - Anf5307
+        - Anf5308
+        - Anf5309
+        - Anf5310
+        - Anf5311
+        - Anf5312
+        - Anf5313
+        - Anf5314
+        - Anf5315
+        - Anf5316
+        - Anf5317
+        - Anf5318
+        - Anf5319
+        - Anf5320
+        - Anf5321
+        - Anf5322
+        - Anf5323
+        - Anf5324
+        - Anf5325
+        - Anf5326
+        - Anf5327
+        - Anf5328
+        - Anf5329
+        - Anf5330
+        - Anf5331
+        - Anf5332
+        - Anf5333
+        - Anf5334
+        - Anf5335
+        - Anf5336
+        - Anf5337
+        - Anf5338
+        - Anf5339
+        - Anf5340
+        - Anf5341
+        - Anf5342
+        - Anf5343
+        - Anf5344
+        - Anf5345
+        - Anf5346
+        - Anf5347
+        - Anf5348
+        - Anf5349
+        - Anf5350
+        - Anf5351
+        - Anf5352
+        - Anf5353
+        - Anf5354
+        - Anf5355
+        - Anf5356
+        - Anf5357
+        - Anf5358
+        - Anf5359
+        - Anf5360
+        - Anf5361
+        - Anf5362
+        - Anf5363
+        - Anf5364
+        - Anf5365
+        - Anf5366
+        - Anf5367
+        - Anf5368
+        - Anf5369
+        - Anf5370
+        - Anf5371
+        - Anf5372
+        - Anf5373
+        - Anf5374
+        - Anf5375
+        - Anf5376
+        - Anf5377
+        - Anf5378
+        - Anf5379
+        - Anf5380
+        - Anf5381
+        - Anf5382
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 3
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 155
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 14
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 199
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 39
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 136
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Buergeria japonica
+          path: content/nodes/local-a55ad1dc98240cfa3e39c7ca
+        - scientificName: Kurixalus eiffingeri
+          path: content/nodes/local-16adbc65a91543c258b6c373
+        - scientificName: Zhangixalus moltrechti
+          path: content/nodes/local-b71f14433b181463f3d3c1d9
+        - scientificName: Zhangixalus prasinatus
+          path: content/nodes/local-abdbb0d40eeba36ac0198e8c
+        - scientificName: Zhangixalus taipeianus
+          path: content/nodes/local-a19521742c51140005b9dbf8
+        - scientificName: Nyctixalus pictus
+          path: content/nodes/local-5a816c98adb06f4b8b9935ed
+        - scientificName: Polypedates leucomystax
+          path: content/nodes/local-5e83d0475058221450b698f8
+        - scientificName: Polypedates braueri
+          path: content/nodes/local-60ddae7dce18cb1f7d52f1df
+        - scientificName: Philautus surdus
+          path: content/nodes/local-366bcc5a7d39dcefe8b9e2a8
+        - scientificName: Buergeria choui
+          path: content/nodes/local-317ff2675ea60aa23b7ef00e
+        - scientificName: Buergeria robusta
+          path: content/nodes/local-105b5b8c1c50a6a6d111e73f
+        - scientificName: Polypedates megacephalus
+          path: content/nodes/local-2bea10e64e130c59bc2bdeeb
+      metrics:
+        - metric: CTmax
+          rows: 38
+          sourceConcepts: 9
+        - metric: Tpref
+          rows: 12
+          sourceConcepts: 6
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

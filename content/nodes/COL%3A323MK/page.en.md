@@ -1,0 +1,33 @@
+## The material behind this genome {#s-438dd5b137}
+Sackton and colleagues (2019) added a genome for Crypturellus cinnamomeus. NCBI master record PTEZ00000000 belongs to PRJNA433110 and records sex as male; voucher MCZ:Orn:337707; recorded locality Costa Rica: Cafetal stream, Area de Conservation Guanacaste. These fields identify assembly material, not species-wide or wild-population statistics. Missing tissue or locality fields are not inferred here. The main and companion phylogenetic papers use the same genome set, not two independent population samples.
+
+## Flighted tinamous are nested within palaeognaths {#s-822298c9be}
+This species is one of four tinamous in the 2019 analyses. Sequence analyses recover tinamous as sister to little bush moa, nested among lineages traditionally called ratites. Flightless palaeognaths therefore do not form a natural group excluding tinamous. Their flighted condition informs comparisons of flight-loss history; the genome tree does not measure this species’ flight distance, frequency or field behaviour.
+
+## The 2015 life-history entry and this name {#s-893e16212a}
+Crypturellus cinnamomeus is accepted in pinned COL26.8 within Tinamidae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+
+## Different stages in the mass fields {#s-50ddef8d60}
+Historical summary values are adult body mass 423.25 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+
+## Reproduction and developmental timing {#s-28c667340b}
+Available compilation fields are offspring per litter or eggs per clutch 4.5 offspring/eggs; oviposition to hatching 16 d; age at flight capability (leaving the nest in some source material) 20 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+
+## How to trace these values to sources {#s-15a97ae999}
+The life-history rows carry labels including Dunning, 1992; Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004; and Davies, S.J.J.F., 2002. A label may identify a paper, book or another database. The row count is not a count of measured individuals, and repeated citations do not amount to independent experimental replication.
+
+## Read this historical record through food and foraging position {#s-a81998ad13}
+Crypturellus cinnamomeus is accepted in pinned COL26.8 within Tinamidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+
+## Relative weights of food categories {#s-dcc35bbb73}
+The archive’s nonzero food weights are invertebrates 30%; fruit 30%; seeds, nuts and spores included in this category 30%; reptiles and amphibians 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+
+## Foraging strata differ from whole-day activity {#s-16083708ed}
+Foraging-stratum weights flagged as species-level in the archive are ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+
+## Trace the EltonTraits fields to their source label {#s-77ecdb92e9}
+The EltonTraits fields shown here carry the label Ref_1. Diet, feeding strata and activity can draw on different material, and a matching reference number in bird and mammal tables does not identify the same source. The label points to a catalogued reference; the underlying book or paper has not been independently reviewed here, so it is not treated as a new observation.
+
+## Life-history evidence limits {#s-fd7d10cffb}
+This account combines a single added genome assembly, historical life-history summaries and EltonTraits 1.0 fields; these sources have different scope. The assembly identifies one male specimen, voucher and locality, not species-wide or population statistics. The main and companion phylogenetic papers use the same genome set, not independent population replicates. Life-history values are reported as compilation medians or averages of the two middle values, except maximum longevity, which uses the largest collected record. They are not measurements of one individual, individual ranges, mean wild lifespans or current population surveys. Historical taxa may share or inherit data; matching names, family and sparse rows support an association but do not establish equivalence with COL26.8 or remove inherited components. Wild or captive conditions are not consistently confirmed, and underlying publications have not been independently reviewed. EltonTraits food and stratum percentages are standardized from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty; mammalian ABC fields may refer to a congener considered ecologically similar by compilers. The records do not establish direct observation for every field. Genomic reading is limited to Sackton et al. (2019), its published main text, four figure captions and figure 1 pixels; selected sampling, marker-extraction, species-tree, results and discussion passages from Cloutier et al. (2019); and ten NCBI WGS master records. Other figure pixels, supplements, raw sequences and analysis code were not independently examined or rerun, and the companion paper was not reviewed paragraph by paragraph in full. Candidate regulatory acceleration, open chromatin and a single-region chicken reporter assay are distinct evidence levels, not functional validation of every accelerated element or species. Individual, seasonal and local variation, current range, behavior and conservation require other sources.
+

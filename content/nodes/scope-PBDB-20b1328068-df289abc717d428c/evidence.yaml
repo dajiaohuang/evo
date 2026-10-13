@@ -1,0 +1,178 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:117584
+    scientificName: Onychonycteris finneyi
+    commonName: Clawed early bat
+    commonNameZh: 早期爪蝠
+    rank: genus
+    parentName: Chiroptera
+    extinct: true
+    geography:
+      - Fossil Butte Member
+      - Green River Formation
+      - Wyoming, United States
+    overview:
+      page: en
+      section: s-1635c9fe4f
+      part: body
+    overviewZh:
+      page: zh
+      section: s-799b747236
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-19d0eed7d8
+        part: body
+      habitat:
+        page: en
+        section: s-f4691abd0d
+        part: body
+      locomotion:
+        page: en
+        section: s-64c2833f91
+        part: body
+      bodySize:
+        page: en
+        section: s-b27746c1fe
+        part: body
+      guild:
+        page: en
+        section: s-966ca1c114
+        part: body
+      dietZh:
+        page: zh
+        section: zh-7f8dfd9ccc94bb
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-6cf708b134bc5e
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-e1a1f783e14fa2
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-833278e5e75493
+        part: body
+      guildZh:
+        page: zh
+        section: zh-b4f201a8f3d38c
+        part: body
+    traits:
+      - page: en
+        section: s-59383ff15d
+        part: body
+      - page: en
+        section: s-ad0c7d09e1
+        part: body
+      - page: en
+        section: s-1c06042fd8
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-7a8ae3481b
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-fbcd977b4d
+      part: body
+    confidence: medium
+    referenceIds:
+      - simmons-2008-onychonycteris
+    traitsZh:
+      - page: zh
+        section: zh-882c77799f7ac3
+        part: body
+      - page: zh
+        section: zh-3eff4276fbe5c1
+        part: body
+      - page: zh
+        section: zh-67f66791fe4c7c
+        part: body
+  claims:
+    - subjectId: taxon:onychonycteris
+      claimType: taxonomy
+      claimKind: scientific
+      statement: ROM 55351A defines Onychonycteris finneyi and was placed near the bat stem in the source matrix; this is not a direct ancestor claim.
+      confidence: medium
+      confidenceRationale: The taxonomy field for onychonycteris is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: simmons-2008-onychonycteris
+          relation: supports
+          pages: 818–821; Figures 1–4; Supplementary Figures 1–10
+    - subjectId: taxon:onychonycteris
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profile represents the Fossil Butte Member occurrence in Wyoming and does not define the full range or origin centre of bats.
+      confidence: medium
+      confidenceRationale: The biogeography field for onychonycteris is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: simmons-2008-onychonycteris
+          relation: supports
+          pages: 818–821; Figures 1–4; Supplementary Figures 1–10
+    - subjectId: taxon:onychonycteris
+      claimType: ecology
+      claimKind: scientific
+      statement: Wing anatomy supports powered flight and cochlear size tests specialized echolocation, while diet, calls, flight performance and behaviour were not observed.
+      confidence: medium
+      confidenceRationale: The ecology field for onychonycteris is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: simmons-2008-onychonycteris
+          relation: supports
+          pages: 818–821; Figures 1–4; Supplementary Figures 1–10
+    - subjectId: taxon:onychonycteris
+      claimType: morphology
+      claimKind: scientific
+      statement: ROM 55351A preserves elongated wings, claws on all manual digits and a relatively small cochlea compared with sampled echolocating bats.
+      confidence: medium
+      confidenceRationale: The morphology field for onychonycteris is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: simmons-2008-onychonycteris
+          relation: supports
+          pages: 818–821; Figures 1–4; Supplementary Figures 1–10
+    - subjectId: taxon:onychonycteris
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 52.5–50.3 Ma envelope is a bounded Green River formation context, not a global bat FAD, genus LAD or flight–echolocation transition duration.
+      confidence: medium
+      confidenceRationale: The fossil-range field for onychonycteris is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: simmons-2008-onychonycteris
+          relation: supports
+          pages: 818–821; Figures 1–4; Supplementary Figures 1–10
+  claim-rationales.zh:
+    - 早期爪蝠的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。
+    - 早期爪蝠的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。
+    - 早期爪蝠的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。
+    - 早期爪蝠的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。
+    - 早期爪蝠的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - ROM 55351A 确立了 Onychonycteris finneyi，并在来源矩阵中被置于蝙蝠干群附近；这不是直接祖先主张。
+    - 本资料代表怀俄明 Fossil Butte 段的产出，并不能界定蝙蝠的完整分布或起源中心。
+    - 翼部解剖支持动力飞行，耳蜗大小用于检验特化回声定位；但食性、叫声、飞行表现和行为均未被观察。
+    - ROM 55351A 保存了加长的翼、所有手指上的爪，以及相较所取样回声定位蝙蝠较小的耳蜗。
+    - 5,250 万至 5,030 万年前的区间是有边界的绿河组背景，并非全球蝙蝠首次出现、该属末次出现或飞行—回声定位过渡持续时间。
+  ranges:
+    - entityId: onychonycteris
+      rangeKind: global-composite
+      taxonomicConcept: Onychonycteris finneyi holotype occurrence
+      geographicScope: Fossil Butte Member, Green River Formation, Wyoming, USA
+      olderMa: 52.5
+      youngerMa: 50.3
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range.
+      evidenceBasis: ROM 55351A is the nearly complete holotype from the early Eocene Fossil Butte Member.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:onychonycteris-flight-echolocation
+        - claim:taxon:onychonycteris:fossil-range
+      referenceLocators:
+        - referenceId: simmons-2008-onychonycteris
+          locator: 818–821; Figures 1–4; Holotype and locality

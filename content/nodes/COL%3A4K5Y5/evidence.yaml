@@ -1,0 +1,321 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plecturocebus discolor (I. Geoffroy Saint-Hilaire & Deville, 1848)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 杂色绢毛猴
+      en: Discolor Titi
+    sections:
+      - topic: rejectedTypeAttribution
+        sourceIds:
+          - vanDerMije2025TitiTypes
+        text:
+          zh:
+            page: zh
+            section: s-89c60d6509
+            part: body
+          en:
+            page: en
+            section: s-383d4bdf46
+            part: body
+      - topic: datedTypeReports
+        sourceIds:
+          - vanDerMije2025TitiTypes
+          - roosmalen2002DiscolorHistoricalConcept
+        text:
+          zh:
+            page: zh
+            section: s-b4f15ff332
+            part: body
+          en:
+            page: en
+            section: s-be662b809f
+            part: body
+      - topic: conceptCorrespondence
+        sourceIds:
+          - vanDerMije2025TitiTypes
+        text:
+          zh:
+            page: zh
+            section: s-e815ad505b
+            part: body
+          en:
+            page: en
+            section: s-2a2bf1287f
+            part: body
+      - topic: material
+        sourceIds:
+          - roosmalen2002DiscolorHistoricalConcept
+        text:
+          zh:
+            page: zh
+            section: s-ffae58d96a
+            part: body
+          en:
+            page: en
+            section: s-92f0b7886a
+            part: body
+      - topic: morphology
+        sourceIds:
+          - roosmalen2002DiscolorHistoricalConcept
+        text:
+          zh:
+            page: zh
+            section: s-254ce24e03
+            part: body
+          en:
+            page: en
+            section: s-051343b726
+            part: body
+      - topic: distribution
+        sourceIds:
+          - roosmalen2002DiscolorHistoricalConcept
+        text:
+          zh:
+            page: zh
+            section: s-2c9bc94fb1
+            part: body
+          en:
+            page: en
+            section: s-0306d2d4df
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - roosmalen2002DiscolorHistoricalConcept
+        text:
+          zh:
+            page: zh
+            section: s-e739a82163
+            part: body
+          en:
+            page: en
+            section: s-996593d361
+            part: body
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-15562413fe
+            part: body
+          en:
+            page: en
+            section: s-2fd9c54ff7
+            part: body
+        sourceIds:
+          - taxonomy
+          - vermeer2025
+          - mdd_v24
+          - mdd_v25
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-db52d60cb4
+            part: body
+          en:
+            page: en
+            section: s-60bedefd1b
+            part: body
+        sourceIds:
+          - carrillo2005
+          - papworth2010
+      - topic: interpretation
+        text:
+          zh:
+            page: zh
+            section: s-88e1755bd5
+            part: body
+          en:
+            page: en
+            section: s-cc082b0d01
+            part: body
+        sourceIds:
+          - carrillo2005
+          - vermeer2025
+          - mdd_v24
+      - topic: fieldStudy
+        sourceIds:
+          - snodderly2019Morning
+        text:
+          zh:
+            page: zh
+            section: s-d5ceb865e2
+            part: body
+          en:
+            page: en
+            section: s-f88b7ef472
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - snodderly2019Morning
+        text:
+          zh:
+            page: zh
+            section: s-75b808ef30
+            part: body
+          en:
+            page: en
+            section: s-ee32a94108
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Plecturocebus discolor
+          url: https://www.checklistbank.org/dataset/316115/taxon/4K5Y5
+          scope:
+            zh: 支持固定名录中的接受名、作者、等级和分类父链；不裁决不同名录采用的种界。
+            en: Supports the accepted name, authorship, rank and parent chain in the pinned catalogue; it does not adjudicate species limits used by other lists.
+      - id: carrillo2005
+        referenceId: ref-7e92f57a-d029-881f-ad33-ca64f74e1cab
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 2003–2004 年 Yasuní 一个研究群体的家域、行为和取食观察；论文使用 Callicebus discolor 这一旧组合，不能单独对应后续名录中的种界。
+            en: Supports home-range, behavior and feeding observations for one Yasuní study group in 2003–2004. The paper uses the older combination Callicebus discolor and does not alone resolve later checklist boundaries.
+      - id: papworth2010
+        referenceId: ref-9fba831e-6c1e-8939-aebb-2ae9350b6963
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Estación Científica Yasuní 周边 68 次叫声回放资料及局地距离抽样密度估计；不是全分布区普查。
+            en: Supports the 68 loud-chorus playback records and local distance-sampling density estimate around Estación Científica Yasuní; it is not a range-wide census.
+      - id: vermeer2025
+        referenceId: ref-3d645239-a7b4-8013-a535-002fd5e05deb
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持作者基于文献、实地调查和馆藏标本提出的分类与分布修订；属于该研究的分类处理，不等同于 COL26.8 的身份记录。
+            en: Supports the authors’ taxonomic and distribution revision based on literature, field inventories and museum specimens; it is that study’s treatment, not the COL26.8 identity record.
+      - id: mdd_v24
+        referenceId: ref-bce38b3d-09ae-8993-a3e8-e76e310c1dc1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 MDD v2.4 对 P. discolor 的名称变更及其所引用的 2025 年修订；仅用于显示分类处理差异。
+            en: Supports the MDD v2.4 name change for P. discolor and the cited 2025 revision; used only to document differing taxonomic treatments.
+      - id: mdd25_cupreus
+        referenceId: ref-1595c183-a8e1-82d5-a5a4-54fd3ef4b005
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持现行 MDD P. cupreus 记录将 P. discolor 列作异名；该记录不能替代 COL26.8 的固定身份。
+            en: Supports the current MDD P. cupreus record listing P. discolor as a synonym; this record does not replace the pinned COL26.8 identity.
+      - id: mdd_v25
+        referenceId: ref-6a2b0b65-a878-4ad8-8a6e-4b3e2be7841a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持核对 MDD v2.5（2026-07-28）相对 v2.4 的分类变更表；该表未列出 P. discolor 的后续替换处理。
+            en: Supports checking MDD v2.5 (2026-07-28) taxonomy changes since v2.4; that list contains no later replacement treatment for P. discolor.
+      - id: snodderly2019Morning
+        referenceId: ref-630787fc-d174-4360-810b-05c62a0133ec
+        fields:
+          - id
+          - url
+          - locator
+          - accessedAt
+          - sourceTaxonName
+          - scope
+        metadataVariant: 0
+        usage:
+          url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0210494
+          locator: "Methods: Behavioral data and First feeding bouts; Results: Movement from the sleeping tree and First feeding bouts."
+          accessedAt: 2026-10-02
+          sourceTaxonName: Plecturocebus (Callicebus) discolor
+          scope:
+            zh: Tiputini 历史名下的晨间观察；不裁决当前分类概念。
+            en: Morning observations under historical Tiputini naming; current concept assignment unresolved.
+      - id: roosmalen2002DiscolorHistoricalConcept
+        referenceId: ref-2f000fd5-6860-8219-a161-06127f0ecb71
+        fields:
+          - id
+          - title
+          - url
+          - accessedAt
+          - scope
+          - sourceTaxonName
+          - locator
+        metadataVariant: 0
+        usage:
+          title: A taxonomic review of the titi monkeys, genus Callicebus Thomas, 1903, with the description of two new species, Callicebus bernhardi and Callicebus stephennashi, from Brazilian Amazonia
+          url: https://doi.org/10.62015/np.2002.v10.503
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2002 年 Callicebus discolor 历史账户印刷页 12–13 与图 9；名称和分布均限定为该研究的历史概念。
+            en: Historical Callicebus discolor account on printed pp. 12–13 and Figure 9 in the 2002 review; naming and distribution retain that study’s historical concept.
+          sourceTaxonName: Callicebus discolor
+          locator: Complete discolor account on printed pp. 12–13, including material, locality, distribution uncertainty and diagnosis; both page images and all Figure 9 photographs/caption inspected. Not the 1848 original, all maps, current museum inventory, fresh 2025 revision or a concept-equivalence audit.
+      - id: vanDerMije2025TitiTypes
+        referenceId: ref-afacf123-823d-48a5-b102-82d3f8a8e63d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - pages
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Type specimens of recent mammals in Naturalis Biodiversity Center. Part 1 Monotremata, Didelphimorphia, Dasyuromorphia, Peramelemorphia, Diprotodontia, Afrosoricida, Macroscelidea, Hyracoidea, Proboscidea, Scandentia, Primates, Rodentia (Mammalia)
+          url: https://repository.naturalis.nl/pub/801296/Meije-2025-Type-specimens-of-recent-mammals-in-Naturalis-A.pdf
+          accessedAt: 2026-10-03
+          locator: Front matter p. 1; selected introduction/methods and taxonomic-issue discussion pp. 3–4, 6–8; cupreus/discolor/donacophilus accounts pp. 49–50 including continuation. Pixels viewed pp. 49–50. No full article or current physical inventory audit.
+          scope:
+            zh: 三种伶猴的限定类型身份、收藏／行程及命名解释；属与亚科为材料比较入口。
+            en: Bounded type identity, collection/itinerary and nomenclatural interpretations for three titi species; genus/subfamily pages offer material comparisons.
+    limitations:
+      zh:
+        page: zh
+        section: s-0dfa7e1527
+        part: body
+      en:
+        page: en
+        section: s-87cac7b487
+        part: body

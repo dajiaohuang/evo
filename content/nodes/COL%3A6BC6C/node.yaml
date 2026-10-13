@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor pozo
+  displayName: Craugastor pozo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC6C
+  sourceIndexes:
+    - name:
+        en: Craugastor pozo
+        zh: Craugastor pozo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC6C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/162
+            queryName: Craugastor pozo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/2
+            queryName: Eleutherodactylus pozo
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-34814acd9a
+      - s-4cb02e8529
+      - s-b0d3133880
+      - s-2241f561fc
+      - s-cff7c5b4e4
+      - s-9e90c8e486
+      - s-c4c07dd952
+      - s-6d16a4e3ca
+    zh:
+      - s-c8adf19d59
+      - s-2abddb06a6
+      - s-d761f91a55
+      - s-ec6ea027cf
+      - s-71bc051727
+      - s-aa3e82feb4
+      - s-0ff6541f50
+      - s-d5a0d82d68

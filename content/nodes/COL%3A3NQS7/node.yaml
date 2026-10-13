@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius chlorosteus
+  displayName: Hyperolius chlorosteus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQS7
+  sourceIndexes:
+    - name:
+        en: Hyperolius chlorosteus
+        zh: Hyperolius chlorosteus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQS7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/234
+            queryName: Hyperolius chlorosteus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/179
+            queryName: Rappia chlorostea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ff3310a689
+      - s-a653ef64df
+      - s-39073da204
+      - s-7cce4de342
+      - s-a8063f0f3c
+      - s-3c30559291
+      - s-47bd1e428f
+      - s-a1c7828e80
+      - s-59ac21b785
+      - s-55aa9bafa6
+      - s-2d2b5fa388
+    zh:
+      - s-47ca4b6ba2
+      - s-05eb76aee2
+      - s-242211a5cb
+      - s-222970f30e
+      - s-5a40d28b1c
+      - s-7bf7218759
+      - s-d4ec26f0f0
+      - s-78a301ae63
+      - s-30b6948adc
+      - s-5bc9ec1094
+      - s-e42051054f

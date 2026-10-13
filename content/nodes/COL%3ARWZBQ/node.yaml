@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phantasmarana apuana
+  displayName: Phantasmarana apuana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/RWZBQ
+  sourceIndexes:
+    - name:
+        en: Phantasmarana apuana
+        zh: Phantasmarana apuana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: RWZBQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/16
+            queryName: Phantasmarana apuana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/235
+            queryName: Megaelosia apuana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8e9af18f33
+      - s-d2433be471
+      - s-1efc4e5e42
+      - s-421c573f1b
+      - s-a37369af83
+      - s-854ce28471
+      - s-197c4479ee
+      - s-b301359189
+      - s-685ce8656b
+      - s-a4aec02dd5
+      - s-6df69154d2
+      - s-a98ece79b9
+      - s-4b53de461a
+      - s-696618e591
+      - s-84cba43d58
+      - s-ba39168c69
+      - s-4ad930c9df
+      - s-a1cb332b6c
+      - s-af71a2d06d
+      - s-7bd586d476
+      - s-6c4afbda40
+      - s-1d0aaf6a89
+      - s-28950aba80
+    zh:
+      - s-56bf383ab5
+      - s-eeb8fa83d3
+      - s-12516b563f
+      - s-a726c7a783
+      - s-2bbee35bfe
+      - s-e6e6750cd4
+      - s-f4d71057a3
+      - s-d4e42c8b68
+      - s-0a9391a1ef
+      - s-2436910aa1
+      - s-f9bd168bd3
+      - s-d2bda7bff7
+      - s-29e10afb69
+      - s-30ebd981bf
+      - s-d8e0f32a99
+      - s-f0294a0be2
+      - s-43c385a35c
+      - s-e22e672d8c
+      - s-7bf14c1f48
+      - s-6a78587a58
+      - s-29179628a5
+      - s-8e713003b5
+      - s-132266241b

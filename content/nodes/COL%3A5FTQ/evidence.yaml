@@ -1,0 +1,211 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Liua Zhao & Hu, 1983
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Liua
+      zh: Liua
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a5e8ec7653
+            part: title
+          zh:
+            page: zh
+            section: s-1f0c5ca7d9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a5e8ec7653
+            part: body
+          zh:
+            page: zh
+            section: s-1f0c5ca7d9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-001323aa4b
+            part: title
+          zh:
+            page: zh
+            section: s-7e783dfc60
+            part: title
+        text:
+          en:
+            page: en
+            section: s-001323aa4b
+            part: body
+          zh:
+            page: zh
+            section: s-7e783dfc60
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ff57aba183
+            part: title
+          zh:
+            page: zh
+            section: s-b840131177
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ff57aba183
+            part: body
+          zh:
+            page: zh
+            section: s-b840131177
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-9d511ad034
+            part: title
+          zh:
+            page: zh
+            section: s-9b69a623d3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9d511ad034
+            part: body
+          zh:
+            page: zh
+            section: s-9b69a623d3
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-5084334785
+            part: title
+          zh:
+            page: zh
+            section: s-0cb147f908
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3VNWQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3VNWQ
+            label:
+              en: Liua shihi
+              zh: Liua shihi
+          - kind: catalogue
+            colId: 3VNWR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3VNWR
+            label:
+              en: Liua tsinpaensis
+              zh: Liua tsinpaensis
+        text:
+          en:
+            page: en
+            section: s-5084334785
+            part: body
+          zh:
+            page: zh
+            section: s-0cb147f908
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Liua
+          url: https://www.checklistbank.org/dataset/316115/taxon/5FTQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Liua; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1db4c24d23
+        part: body
+      zh:
+        page: zh
+        section: s-be04da5420
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Liua
+      sourceRowIds:
+        - Anf6053
+        - Anf6054
+      foragingCounts:
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 2
+      currentConceptEquivalenceCertified: false

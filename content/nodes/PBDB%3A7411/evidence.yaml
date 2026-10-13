@@ -1,0 +1,272 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Micrina
+    commonName: Micrina
+    commonNameZh: 小米克里纳虫
+    rank: genus
+    firstAppearance: 521
+    lastAppearance: 514.5
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+    taxonId: txn:7411
+  atlas-profile:
+    pbdbTaxonId: txn:7411
+    scientificName: Micrina
+    commonName: Late Atdabanian Micrina scleritome sample
+    commonNameZh: 晚阿特达班期小米克里纳虫骨片组合样本
+    rank: genus
+    parentName: Brachiopod origin dossier route
+    extinct: true
+    geography:
+      - Wilkawillina Limestone
+      - Arrowie Basin
+      - South Australia
+    overview:
+      page: en
+      section: s-4909d4e981
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-ddb2c0ebe1
+        part: body
+      habitat:
+        page: en
+        section: s-9b5d87cb5e
+        part: body
+      locomotion:
+        page: en
+        section: s-401060ccee
+        part: body
+      bodySize:
+        page: en
+        section: s-fa2cb71b09
+        part: body
+      guild:
+        page: en
+        section: s-6cdf4383c7
+        part: body
+      dietZh:
+        page: zh
+        section: zh-4e4ac4a90366be
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-84238dbe771a2c
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-6c294e31519dd3
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-cb554d36703cf6
+        part: body
+      guildZh:
+        page: zh
+        section: zh-3773eea0b14728
+        part: body
+    traits:
+      - page: en
+        section: s-855f4abc16
+        part: body
+      - page: en
+        section: s-9dd3e58cfc
+        part: body
+      - page: en
+        section: s-3995f85456
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-9708b1864a
+      part: body
+    readerSections:
+      - id: sclerites-and-reconstruction
+        title:
+          en:
+            page: en
+            section: s-55bfcfea60
+            part: title
+          zh:
+            page: zh
+            section: s-7f3bae6d37
+            part: title
+        text:
+          en:
+            page: en
+            section: s-55bfcfea60
+            part: body
+          zh:
+            page: zh
+            section: s-7f3bae6d37
+            part: body
+        sourceIds:
+          - holmer-et-al-2008-micrina
+      - id: sample-and-age
+        title:
+          en:
+            page: en
+            section: s-3428cda47d
+            part: title
+          zh:
+            page: zh
+            section: s-a3e6a3a9ec
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3428cda47d
+            part: body
+          zh:
+            page: zh
+            section: s-a3e6a3a9ec
+            part: body
+        sourceIds:
+          - holmer-et-al-2008-micrina
+          - ics-2026-06
+    confidence: medium
+    referenceIds:
+      - holmer-et-al-2008-micrina
+    readerSources:
+      - id: holmer-et-al-2008-micrina
+        referenceId: holmer-et-al-2008-micrina
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Recorded reader-passage locators: supports; pages: 724–727; figure: Figures 2–3; quoteLocator: p. 726, Figure 2, sellate paired muscle scars and mitral apophyses; pp. 726–727, Figure 3, reconstruction and brachiopod comparison | supports; pages: 724–728; figure: Figure 1; Table 1; quoteLocator: p. 725, Wilkawillina Limestone; p. 727, Table 1, four localities in three broadly synchronous late Atdabanian carbonate units | supports; pages: 724–727; figure: Figures 2–3; Table 1; quoteLocator: p. 726, Figure 2, sclerite morphology, sellate scars and mitral apophyses; pp. 726–727, Figure 3, reconstructed scleritome and comparison | supports; pages: 724–728; figure: Figure 1; Table 1; quoteLocator: p. 725, Wilkawillina Limestone, Arrowie Basin; p. 727, Table 1, four localities in three broadly synchronous late Atdabanian carbonate units | supports; pages: 726–727; figure: Figure 3; quoteLocator: pp. 726–727, Figure 3, physical reconstruction of a sessile bivalved organism | supports; pages: 725–727; figure: Figures 2–3; quoteLocator: p. 726, Figure 2, sellate paired scars and mitral apophyses; pp. 726–727, Figure 3, physical bivalved reconstruction"
+            zh: "读者段落的原始定位：supports; pages: 724–727; figure: Figures 2–3; quoteLocator: p. 726, Figure 2, sellate paired muscle scars and mitral apophyses; pp. 726–727, Figure 3, reconstruction and brachiopod comparison；supports; pages: 724–728; figure: Figure 1; Table 1; quoteLocator: p. 725, Wilkawillina Limestone; p. 727, Table 1, four localities in three broadly synchronous late Atdabanian carbonate units；supports; pages: 724–727; figure: Figures 2–3; Table 1; quoteLocator: p. 726, Figure 2, sclerite morphology, sellate scars and mitral apophyses; pp. 726–727, Figure 3, reconstructed scleritome and comparison；supports; pages: 724–728; figure: Figure 1; Table 1; quoteLocator: p. 725, Wilkawillina Limestone, Arrowie Basin; p. 727, Table 1, four localities in three broadly synchronous late Atdabanian carbonate units；supports; pages: 726–727; figure: Figure 3; quoteLocator: pp. 726–727, Figure 3, physical reconstruction of a sessile bivalved organism；supports; pages: 725–727; figure: Figures 2–3; quoteLocator: p. 726, Figure 2, sellate paired scars and mitral apophyses; pp. 726–727, Figure 3, physical bivalved reconstruction"
+      - id: ics-2026-06
+        referenceId: ref-b5e61e4a-d9d2-894a-a949-8ac4abca3ec3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+          - version
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Recorded reader-passage locators: contextualizes; pages: International Chronostratigraphic Chart v2026/06; figure: Global chronostratigraphic scale; quoteLocator: Numerical boundaries for the named stages and periods used to bound the source sample"
+            zh: "读者段落的原始定位：contextualizes; pages: International Chronostratigraphic Chart v2026/06; figure: Global chronostratigraphic scale; quoteLocator: Numerical boundaries for the named stages and periods used to bound the source sample"
+  claims:
+    - subjectId: taxon:micrina
+      claimKind: scientific
+      claimType: topology
+      statement: Isolated Micrina sellate sclerites with paired muscle scars and mitral apophyses interpreted as muscle platforms support a reconstructed bivalved body and stem-brachiopod model; articulation, valve homology and direct ancestry are not preserved.
+      confidence: medium
+      confidenceRationale: Observed sellate scars and mitral apophyses support reconstruction, while the muscle-platform interpretation, whole-body assembly and topology remain comparative hypotheses.
+      referenceLinks:
+        - referenceId: holmer-et-al-2008-micrina
+          relation: supports
+          pages: 724–727
+          figure: Figures 2–3
+          quoteLocator: p. 726, Figure 2, sellate paired muscle scars and mitral apophyses; pp. 726–727, Figure 3, reconstruction and brachiopod comparison
+    - subjectId: taxon:micrina
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Micrina material from four localities in three broadly synchronous late Atdabanian carbonate units supports a conservative Cambrian Stage 3 study-sample envelope of 521–514.5 Ma, not a global genus range, a brachiopod origin date or a direct-ancestor sequence.
+      confidence: medium
+      confidenceRationale: The paper explicitly identifies the sampled units and relative age. Medium confidence reflects conversion to the broader modern Stage 3 envelope and the reconstructed nature of the whole body.
+      referenceLinks:
+        - relation: supports
+          referenceId: holmer-et-al-2008-micrina
+          pages: 724–728
+          figure: Figure 1; Table 1
+          quoteLocator: p. 725, Wilkawillina Limestone; p. 727, Table 1, four localities in three broadly synchronous late Atdabanian carbonate units
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for the named stages and periods used to bound the source sample
+    - subjectId: taxon:micrina
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Micrina is retained as a tommotiid genus represented by isolated mitral and sellate sclerites; sellate paired muscle scars and mitral apophyses interpreted as muscle platforms inform a reconstructed bivalved arrangement, while valve homology and phylogenetic placement remain comparative hypotheses rather than preserved articulation.
+      confidence: medium
+      confidenceRationale: Sclerite identities, sellate scars and mitral apophyses are directly documented, whereas the muscle-platform interpretation, whole-body assembly, valve homology and stem position are reconstructed and tested rather than observed in articulation.
+      referenceLinks:
+        - referenceId: holmer-et-al-2008-micrina
+          relation: supports
+          pages: 724–727
+          figure: Figures 2–3; Table 1
+          quoteLocator: p. 726, Figure 2, sclerite morphology, sellate scars and mitral apophyses; pp. 726–727, Figure 3, reconstructed scleritome and comparison
+    - subjectId: taxon:micrina
+      claimType: biogeography
+      claimKind: scientific
+      statement: The represented Micrina material includes the Lower Cambrian Wilkawillina Limestone of the Arrowie Basin, South Australia, among four localities in three broadly synchronous carbonate units; these named collections do not establish a complete geographic distribution or an origin centre.
+      confidence: high
+      confidenceRationale: The primary study identifies the Wilkawillina locality and Table 1 lists four localities in three broadly synchronous units. High confidence is limited to the stated material localities, without inferring absence elsewhere.
+      referenceLinks:
+        - referenceId: holmer-et-al-2008-micrina
+          relation: supports
+          pages: 724–728
+          figure: Figure 1; Table 1
+          quoteLocator: p. 725, Wilkawillina Limestone, Arrowie Basin; p. 727, Table 1, four localities in three broadly synchronous late Atdabanian carbonate units
+    - subjectId: taxon:micrina
+      claimType: ecology
+      claimKind: scientific
+      statement: The reconstructed Micrina body is interpreted as sessile in an Early Cambrian marine carbonate setting, but diet, locomotion, guild and whole-body dimensions are not directly preserved by the isolated sclerites.
+      confidence: medium
+      confidenceRationale: The proposed sessile habit follows the authors’ physical reconstruction and sclerite arrangement, while other ecological traits are withheld because the material is disarticulated skeletal evidence.
+      referenceLinks:
+        - referenceId: holmer-et-al-2008-micrina
+          relation: supports
+          pages: 726–727
+          figure: Figure 3
+          quoteLocator: pp. 726–727, Figure 3, physical reconstruction of a sessile bivalved organism
+    - subjectId: taxon:micrina
+      claimType: morphology
+      claimKind: scientific
+      statement: Micrina sellate phosphatic sclerites preserve paired muscle scars, whereas mitral sclerites bear apophyses interpreted as muscle platforms; their near-bilateral bivalved assembly is a reconstruction, not a fossil preserving both articulated valves.
+      confidence: medium
+      confidenceRationale: Sellate sclerite form, scars and mitral apophyses are direct observations. The muscle-platform interpretation and anatomical assembly are physically tested but remain inferences from isolated elements.
+      referenceLinks:
+        - referenceId: holmer-et-al-2008-micrina
+          relation: supports
+          pages: 725–727
+          figure: Figures 2–3
+          quoteLocator: p. 726, Figure 2, sellate paired scars and mitral apophyses; pp. 726–727, Figure 3, physical bivalved reconstruction
+  claim-rationales.zh:
+    - 已观察 sellate 肌痕与 mitral 突起支持重建，但肌肉平台解释、整体组装与拓扑仍是比较假说。
+    - 论文明确标出取样地点、单元及相对年代。中等置信度反映其被换算到更宽的现代第 3 期包络，也反映完整体制为重建结果。
+    - 骨片类型、sellate 肌痕和 mitral 突起有直接记录，但肌肉平台解释、完整躯体组合、壳瓣同源性与干群位置均是经检验的重建，而不是被观察到的关节连接。
+    - 一手研究识别了 Wilkawillina 地点，表 1 列出三个大致同时单元中的四个地点；高置信度仅限于这些具名材料地点，不据此推断其他地区缺失。
+    - 固着习性来自作者对骨片排列的物理重建；由于材料是分离的骨骼证据，其他生态性状均被保留为未解。
+    - sellate 骨片形态和肌痕以及 mitral 突起是直接观察；肌肉平台解释与解剖组合虽在主要研究中经物理检验，仍由分离元素推断。
+  claim-statements.zh:
+    - 孤立 Micrina sellate 骨片的成对肌痕，以及被解释为肌肉平台的 mitral 突起，支持双壳躯体重建与腕足动物干群模型；关节连接、壳瓣同源和直接祖先关系并未保存。
+    - 来自三个大体同期晚 Atdabanian 碳酸盐岩单元中四个地点的 Micrina 材料，支持 5.210–5.145 亿年前的保守寒武纪第 3 期研究样本包络，而非该属全球延限、腕足动物起源时间或直接祖先序列。
+    - Micrina 保留为由分离的 mitral 与 sellate 骨片代表的托莫特虫类属；sellate 的成对肌痕和被解释为肌肉平台的 mitral 突起为双壳式排列重建提供依据，而壳瓣同源性与系统发育位置仍是比较假说，并非保存下来的关节连接。
+    - 所代表的 Micrina 材料包括澳大利亚南部 Arrowie 盆地的早寒武世 Wilkawillina 石灰岩，位于三个大致同时碳酸盐岩单元中的四个地点；这些具名采集材料并不能确立完整地理分布或起源中心。
+    - 重建的 Micrina 躯体被解释为生活在早寒武世海洋碳酸盐环境中的固着型动物，但分离骨片并未直接保存食性、运动、功能群或完整躯体尺寸。
+    - Micrina 的 sellate 磷酸盐骨片保存成对肌痕，而 mitral 骨片具有被解释为肌肉平台的突起；其近两侧对称双壳式组合是重建，而不是保存两片相连壳瓣的化石。
+  ranges:
+    - entityId: micrina
+      rangeKind: global-composite
+      taxonomicConcept: Micrina — late Atdabanian study-sample window
+      geographicScope: Wilkawillina Limestone and broadly synchronous late Atdabanian carbonate units sampled by Holmer et al.
+      olderMa: 521
+      youngerMa: 514.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Cambrian Stage 3 is a conservative envelope for the cited late Atdabanian material; it is not a global genus range or an origin date for Brachiopoda.
+      evidenceBasis: Holmer et al. identify Micrina material from four localities in three broadly synchronous late Atdabanian carbonate units; ICS v2026/06 supplies the Stage 3 boundaries.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:micrina:source-bounded-range-rc50
+      referenceLocators:
+        - referenceId: holmer-et-al-2008-micrina
+          locator: pp. 725–727; p. 725, Figure 1, Lower Cambrian Wilkawillina Limestone; p. 727, Table 1, four localities in three broadly synchronous late Atdabanian carbonate units
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample

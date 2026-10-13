@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus bufonius
+  displayName: Leptodactylus bufonius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN3V
+  sourceIndexes:
+    - name:
+        en: Leptodactylus bufonius
+        zh: Leptodactylus bufonius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN3V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/373
+            queryName: Leptodactylus bufonius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d220c2295b
+      - s-d3aa3e01e1
+      - s-d383672edd
+      - s-eb21a292d6
+      - s-ce6124c182
+      - s-5aa60f051e
+      - s-0a49688258
+      - s-8ff14c303c
+      - s-d475938449
+      - s-663964174c
+      - s-1a36531620
+      - s-23e4205140
+      - s-03041e7b75
+      - s-74378a4482
+      - s-0bcef88718
+      - s-7d9b27e016
+      - s-106ba369cb
+    zh:
+      - s-d21dd8318c
+      - s-295add9f13
+      - s-52876bed83
+      - s-1f10cdd56b
+      - s-9ddd468141
+      - s-a041a90354
+      - s-0c8d3feab2
+      - s-e836f525b1
+      - s-7f7f00bfb8
+      - s-a5115c6971
+      - s-040e286d1e
+      - s-bcbaa0e46c
+      - s-3157f8175c
+      - s-60f228f941
+      - s-ff5dde9f02
+      - s-1a43a689ec
+      - s-103e00e290

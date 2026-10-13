@@ -1,0 +1,168 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trinacromerum kirki
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Trinacromerum kirki
+      en: Trinacromerum kirki
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a22854c0c2
+            part: body
+          en:
+            page: en
+            section: s-a7416584fe
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b66ef0cfee
+            part: body
+          en:
+            page: en
+            section: s-03e41be177
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bcd25aca7f
+            part: body
+          en:
+            page: en
+            section: s-3caaf89a58
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bbf1248125
+            part: body
+          en:
+            page: en
+            section: s-a4c5784619
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6dec8b041d
+            part: body
+          en:
+            page: en
+            section: s-65f33e3c2a
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Trinacromerum kirki
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=172364&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:172364; original response record indices retained in data/sources/sauropterygia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 262ff66f07b86b04952b63768d1a1ff40af059166c0f8e11f63f9ed76019c860
+          pbdbTaxonId: txn:172364
+          selectedOccurrenceIds:
+            - occ:385668
+            - occ:385679
+            - occ:907476
+          selectedCollectionIds:
+            - col:36746
+            - col:36754
+            - col:102074
+          sourceReferenceIds:
+            - ref:9799
+            - ref:34684
+          originalIdentificationMappings:
+            - occurrenceId: occ:385668
+              originalIdentifiedName: Dolichorhynchops kirki
+              acceptedName: Trinacromerum kirki
+              difference: recombined as
+            - occurrenceId: occ:385679
+              originalIdentifiedName: Dolichorhynchops kirki
+              acceptedName: Trinacromerum kirki
+              difference: recombined as
+            - occurrenceId: occ:907476
+              originalIdentifiedName: Trinacromerum kirki n. gen. n. sp.
+              acceptedName: Trinacromerum kirki
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-6f61860871
+        part: body
+      en:
+        page: en
+        section: s-a9e97d7a88
+        part: body

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis nervicus
+  displayName: Pristimantis nervicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJP
+  sourceIndexes:
+    - name:
+        en: Pristimantis nervicus
+        zh: Pristimantis nervicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/437
+            queryName: Pristimantis nervicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/453
+            queryName: Eleutherodactylus nervicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a40278ffbe
+      - s-7fc6a260c8
+      - s-c30d22e247
+      - s-51b36656b8
+      - s-a2a54b9179
+      - s-cba0733732
+      - s-d80805d01d
+      - s-7e53801f29
+      - s-bf67211b5a
+      - s-21108dcdfd
+    zh:
+      - s-f662e615f1
+      - s-56d95c6eb1
+      - s-2b8ae7359e
+      - s-c506b55f24
+      - s-67cfffa1c7
+      - s-bdf7cc9fce
+      - s-f7c85e171a
+      - s-5a90416086
+      - s-fcf9abfbd0
+      - s-fd30582e8d

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys daweimontis
+  displayName: Boulenophrys daweimontis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9J3
+  sourceIndexes:
+    - name:
+        en: Boulenophrys daweimontis
+        zh: Boulenophrys daweimontis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9J3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/339
+            queryName: Boulenophrys daweimontis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/254
+            queryName: Xenophrys daweimontis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/498
+            queryName: Megophrys daweimontis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/499
+            queryName: Panophrys daweimontis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9de0907188
+      - s-918f8f7e64
+      - s-8fe3223be0
+      - s-3231dd9194
+      - s-84a10b34e1
+      - s-2e9285d93b
+      - s-6db78374aa
+      - s-b170a1e854
+      - s-f5f3d95fc1
+      - s-039513650a
+    zh:
+      - s-c90106166b
+      - s-0514da2e3d
+      - s-f6a8ebf9bb
+      - s-cc50786d6b
+      - s-f18aea8c35
+      - s-bfd7ab0bb3
+      - s-8c9bafd653
+      - s-caa0bf7b16
+      - s-c48c567861
+      - s-ecec15686c

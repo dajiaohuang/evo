@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ansonia jeetsukumarani
+  displayName: Ansonia jeetsukumarani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5V9WN
+  sourceIndexes:
+    - name:
+        en: Ansonia jeetsukumarani
+        zh: Ansonia jeetsukumarani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5V9WN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/42
+            queryName: Ansonia jeetsukumarani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b436fb76ad
+      - s-0c88ded7f0
+      - s-38c12b425e
+      - s-3b1589fd7a
+      - s-6d89614541
+      - s-9d60a3fa4e
+      - s-f7da0a6578
+      - s-5f25f72ebb
+    zh:
+      - s-dcbb9ec607
+      - s-11900f019b
+      - s-f796619dba
+      - s-1b11233e11
+      - s-1d5fb80199
+      - s-b944d5e198
+      - s-6997f97b46
+      - s-41d01e08f0

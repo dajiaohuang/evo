@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Polypedates braueri
+  displayName: Polypedates braueri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4LD3S
+  sourceIndexes:
+    - name:
+        en: Polypedates braueri
+        zh: Polypedates braueri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4LD3S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/36
+            queryName: Polypedates braueri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/464
+            queryName: Rhacophorus braueri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/465
+            queryName: Rhacophorus baueri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/466
+            queryName: Polypedates baueri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a75b4c8ec8
+      - s-5f08d9e9a9
+      - s-29997786b3
+      - s-ddd50c430b
+      - s-e979ff5579
+      - s-3bd8bf8c5e
+      - s-d068653ece
+      - s-2059fa2254
+      - s-a25182055d
+      - s-03b55a8d7a
+      - s-ebbce3defb
+      - s-6b3633dca7
+      - s-c37f131a59
+      - s-fa55603014
+      - s-28629b8966
+    zh:
+      - s-d2c22f48a3
+      - s-07b8707b47
+      - s-b2701c6463
+      - s-9fe9bc6a39
+      - s-4aada010f4
+      - s-304c8befa4
+      - s-918d5e3c59
+      - s-60523c2394
+      - s-7da87123ae
+      - s-dd5b39180c
+      - s-98ef088b56
+      - s-816d52d1c5
+      - s-4d84b273cc
+      - s-025b5b3685
+      - s-c44462607d

@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plohophorus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Plohophorus
+      en: Plohophorus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-29f4a9ab35
+            part: body
+          en:
+            page: en
+            section: s-470663c249
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b3cc474bd3
+            part: body
+          en:
+            page: en
+            section: s-014a92e4d0
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Plohophorus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=55025
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:55025
+          readingTargets:
+            - name: Plohophorus araucanus
+              pbdbTaxonId: txn:318400
+              canonicalPath: content/nodes/PBDB%3A318400
+            - name: Plohophorus barrancalobensis
+              pbdbTaxonId: txn:389102
+              canonicalPath: content/nodes/PBDB%3A389102
+            - name: Plohophorus figuratus
+              pbdbTaxonId: txn:151097
+              canonicalPath: content/nodes/PBDB%3A151097
+            - name: Plohophorus cuneiformis
+              pbdbTaxonId: txn:318399
+              canonicalPath: content/nodes/PBDB%3A318399
+            - name: Plohophorus paranensis
+              pbdbTaxonId: txn:278344
+              canonicalPath: content/nodes/PBDB%3A278344
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-dd1043bc00
+        part: body
+      en:
+        page: en
+        section: s-d7dce5572c
+        part: body

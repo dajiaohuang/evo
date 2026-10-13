@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Trachyandra capillata (Poelln.) Oberm.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 57PNR, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 57PNR; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/57PNR
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 57PNR
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000748017-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 57PNR / WFO wfo-0000748017
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_3805_0
+        referenceId: ref-c884a6e3-3f23-8538-af97-1f1e13e5557b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Trachyandra capillata (Poelln.) Oberm. account; SANBI/WFO archive rows 84151 (Morphology), 84498 (Diagnostic), source identifier 3805.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18489_0
+        referenceId: ref-bf339ada-286a-87a2-a335-1df89ad4f547
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Trachyandra capillata (Poelln.) Oberm. account; SANBI/WFO archive rows 91965 (Habitat), source identifier 18489.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants up to 60 cm. Roots uniform, fibrous, many. Rhizome small covered with leaf fibres. Leaves linear, up to 45 cm, triquetrous, each face 6 mm wide, herbaceous, softly and patently pilose with long hairs, margins, prominent. Inflorescence branched or simple, flowers somewhat congested near the apex, many flowered, with a few scattered stipitate glands; scape terete, pilose, bracts small, subulate; pedicels patent, up to 17 mm long. Flowers with a spreading white, dark keeled, maculate perianth, segments 9 mm long, filaments swollen and retrorsely scabrid above, glabrous below, the 3 inner situated in the furrows of the triquetrous ovary; ovary with 4 ovules per cell, globose, with minute papillate glands. Capsule unknown.
+            textZh: Trachyandra capillata (Poelln.) Oberm. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_3805_0
+            locator: "SANBI/WFO archive Morphology row 84151; source identifier 3805.0; cited publication: Obermeyer, AA. 1962. A revision of the South African species of Anthericum, Chlorophytum and Trachyandra. Bothalia 7(4): 669 - 767. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Possibly a form of T. gerrardi but this cannot be decided until the capsules are known.
+            textZh: SANBI 条目提供了 Trachyandra capillata (Poelln.) Oberm. 的鉴别特征。
+            sourceIds:
+              - sanbi_3805_0
+            locator: "SANBI/WFO archive Diagnostic row 84498; source identifier 3805.0; cited publication: Obermeyer, AA. 1962. A revision of the South African species of Anthericum, Chlorophytum and Trachyandra. Bothalia 7(4): 669 - 767. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassland. Sub-Escarpment Grassland, Sub-Escarpment Savanna.
+            textZh: 该 SANBI 区域物种条目记录的生境：Grassland. Sub-Escarpment Grassland, Sub-Escarpment Savanna.
+            sourceIds:
+              - sanbi_18489_0
+            locator: "SANBI/WFO archive Habitat row 91965; source identifier 18489.0; cited publication: Klopper, RR; Smith, GF; Bayer, MB; Bredenkamp, CL. 2019. Asphodelaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1647 - 1680. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

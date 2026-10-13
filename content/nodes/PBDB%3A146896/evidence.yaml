@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cavia cabrerai
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Cavia cabrerai
+      en: Cavia cabrerai
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2595b5f86f
+            part: body
+          en:
+            page: en
+            section: s-bba7f14943
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-630761be16
+            part: body
+          en:
+            page: en
+            section: s-29a6fed02f
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9c0086abb2
+            part: body
+          en:
+            page: en
+            section: s-99f512e389
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-22b4d7b6bf
+            part: body
+          en:
+            page: en
+            section: s-f778f3c6d4
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f2e7e1b1c7
+            part: body
+          en:
+            page: en
+            section: s-446c795d52
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Cavia cabrerai
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=146896&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:146896; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:146896
+          selectedOccurrenceIds:
+            - occ:1268063
+            - occ:1268064
+            - occ:1268065
+            - occ:1384357
+          selectedCollectionIds:
+            - col:168593
+            - col:168591
+            - col:168592
+            - col:189824
+          sourceReferenceIds:
+            - ref:55158
+            - ref:63819
+          originalIdentificationMappings:
+            - occurrenceId: occ:1268063
+              originalIdentifiedName: Dugong dugong
+              acceptedName: Cavia cabrerai
+              difference: variant of
+            - occurrenceId: occ:1268064
+              originalIdentifiedName: Dugong dugong
+              acceptedName: Cavia cabrerai
+              difference: variant of
+            - occurrenceId: occ:1268065
+              originalIdentifiedName: Dugong dugong
+              acceptedName: Cavia cabrerai
+              difference: variant of
+            - occurrenceId: occ:1384357
+              originalIdentifiedName: Cavia cabrerai n. sp.
+              acceptedName: Cavia cabrerai
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-399d1fae29
+        part: body
+      en:
+        page: en
+        section: s-53134f2879
+        part: body

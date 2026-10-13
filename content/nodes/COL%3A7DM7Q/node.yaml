@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia micra
+  displayName: Uperoleia micra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DM7Q
+  sourceIndexes:
+    - name:
+        en: Uperoleia micra
+        zh: Uperoleia micra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DM7Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/200
+            queryName: Uperoleia micra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e0727af247
+      - s-671f093c41
+      - s-bdec6daf27
+      - s-17e66f0ec7
+      - s-03e8316f27
+      - s-07bfeb0c44
+      - s-69c3d1b64b
+      - s-cef8fab50f
+    zh:
+      - s-68d46b2cda
+      - s-627417eee1
+      - s-1ae034ddc8
+      - s-9e9c862804
+      - s-f54adc2ff7
+      - s-7e2fbe17c9
+      - s-5be2087f57
+      - s-60aafde740

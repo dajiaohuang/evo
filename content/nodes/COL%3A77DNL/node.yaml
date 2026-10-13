@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus pallidus
+  displayName: Phrynobatrachus pallidus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77DNL
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus pallidus
+        zh: Phrynobatrachus pallidus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77DNL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/157
+            queryName: Phrynobatrachus pallidus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-17b1a5fa91
+      - s-7327c3870a
+      - s-9bc32cb4d8
+      - s-e28e15fb46
+      - s-cc79d88dc3
+      - s-ad9fd39e02
+      - s-d68c01a7c2
+      - s-145fa0e9bf
+    zh:
+      - s-cc30fef016
+      - s-c3284af7e1
+      - s-b456546fc8
+      - s-826cadd3c1
+      - s-fa5087b096
+      - s-b83d2bf9de
+      - s-f40f714fee
+      - s-882de18935

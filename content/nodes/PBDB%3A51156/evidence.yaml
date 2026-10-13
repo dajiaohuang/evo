@@ -1,0 +1,210 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudhipparion skinneri
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Pseudhipparion skinneri
+      en: Pseudhipparion skinneri
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ee28271cdc
+            part: body
+          en:
+            page: en
+            section: s-33b1688c51
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-58b00a9aea
+            part: body
+          en:
+            page: en
+            section: s-3acf17f160
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f53c8c4811
+            part: body
+          en:
+            page: en
+            section: s-15db61e522
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cfdf21e685
+            part: body
+          en:
+            page: en
+            section: s-bb1a971823
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5f02fae53d
+            part: body
+          en:
+            page: en
+            section: s-7c3c1a41b0
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Pseudhipparion skinneri
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=51156&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:51156; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:51156
+          selectedOccurrenceIds:
+            - occ:184967
+            - occ:185644
+            - occ:185684
+            - occ:185794
+            - occ:185814
+            - occ:185824
+            - occ:185978
+            - occ:186704
+            - occ:187155
+            - occ:187416
+            - occ:187468
+            - occ:187599
+            - occ:187676
+            - occ:187730
+            - occ:187801
+            - occ:187812
+            - occ:187893
+            - occ:187950
+            - occ:188023
+            - occ:188042
+            - occ:188064
+            - occ:188110
+            - occ:188226
+            - occ:1207514
+            - occ:1227315
+            - occ:1353153
+          selectedCollectionIds:
+            - col:18130
+            - col:18214
+            - col:18218
+            - col:18226
+            - col:18227
+            - col:18231
+            - col:18245
+            - col:18333
+            - col:18425
+            - col:18458
+            - col:18468
+            - col:18496
+            - col:18510
+            - col:18521
+            - col:18539
+            - col:18540
+            - col:18554
+            - col:18560
+            - col:18568
+            - col:18571
+            - col:18574
+            - col:18581
+            - col:18601
+            - col:18687
+            - col:161381
+            - col:18135
+          sourceReferenceIds:
+            - ref:3082
+            - ref:1952
+            - ref:6294
+            - ref:6227
+            - ref:1951
+            - ref:2050
+            - ref:1953
+            - ref:51371
+            - ref:52569
+            - ref:61275
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3bdb6fd378
+        part: body
+      en:
+        page: en
+        section: s-23538675f1
+        part: body

@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-6e4cef4f5a
+      part: title
+    titleZh:
+      page: zh
+      section: s-8f68c3edd4
+      part: title
+    dek:
+      page: en
+      section: s-6e4cef4f5a
+      part: body
+    overviewZh:
+      page: zh
+      section: s-8f68c3edd4
+      part: body
+    theme: blue
+    durationMinutes: 7
+    featured: true
+    steps:
+      - id: xiushanosteus-body
+        title:
+          page: en
+          section: s-72262a4115
+          part: title
+        titleZh:
+          page: zh
+          section: s-8807251094
+          part: title
+        text:
+          page: en
+          section: s-72262a4115
+          part: body
+        textZh:
+          page: zh
+          section: s-8807251094
+          part: body
+        age: 436
+        timeRange:
+          - 436
+          - 436
+        taxonIds:
+          - placodermi
+        view: evidence
+        eventId: chongqing-xiushanosteus-complete-body
+        annotation: Articulation strengthens anatomical association; it does not convert a stem-grade taxon into a crown ancestor.
+        claimLinks:
+          - claimId: claim:event:chongqing-xiushanosteus-complete-body
+            relation: supports
+      - id: priscomyzon-disc
+        title:
+          page: en
+          section: s-8278b5a293
+          part: title
+        titleZh:
+          page: zh
+          section: s-2303b31361
+          part: title
+        text:
+          page: en
+          section: s-8278b5a293
+          part: body
+        textZh:
+          page: zh
+          section: s-2303b31361
+          part: body
+        age: 359.5
+        timeRange:
+          - 360
+          - 359
+        taxonIds:
+          - petromyzontida
+        view: evidence
+        eventId: famennian-priscomyzon-oral-disc
+        annotation: A body fossil can preserve adult-like structures while leaving lifecycle and crown-node timing unresolved.
+        claimLinks:
+          - claimId: claim:event:famennian-priscomyzon-oral-disc
+            relation: supports
+      - id: myxinikela-mosaic
+        title:
+          page: en
+          section: s-b53aba2fc6
+          part: title
+        titleZh:
+          page: zh
+          section: s-d4246d2577
+          part: title
+        text:
+          page: en
+          section: s-b53aba2fc6
+          part: body
+        textZh:
+          page: zh
+          section: s-d4246d2577
+          part: body
+        age: 308.5
+        timeRange:
+          - 310
+          - 307
+        taxonIds:
+          - myxini
+          - cyclostomata
+        view: tree
+        eventId: mazon-creek-myxinikela-stem-hagfish
+        annotation: Total-group occurrence and crown-group range are separate evidence objects.
+        claimLinks:
+          - claimId: claim:event:mazon-creek-myxinikela-stem-hagfish
+            relation: supports
+    evidenceStatus: available-with-limitations
+    dekZh:
+      page: zh
+      section: zh-8c8f376153a539
+      part: body

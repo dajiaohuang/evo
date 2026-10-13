@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptosiaphos
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Leptosiaphos
+      en: Leptosiaphos
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-848e5d2fb8
+            part: body
+          en:
+            page: en
+            section: s-58f2ba3a6e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-6c2427f363
+            part: body
+          en:
+            page: en
+            section: s-8bfaee1a14
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-20ab367da8
+            part: body
+          en:
+            page: en
+            section: s-8635db845f
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-114ca3110a
+            part: body
+          en:
+            page: en
+            section: s-4545504235
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-60bfc87d98
+            part: body
+          en:
+            page: en
+            section: s-a3ff167138
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptosiaphos
+          url: https://www.checklistbank.org/dataset/316115/taxon/5DD5
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 5 authored records grouped under Leptosiaphos by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 13 authored records grouped under Leptosiaphos by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 6PHXB
+              name: Leptosiaphos aloysiisabaudiae
+              canonicalPath: content/nodes/COL%3A6PHXB
+            - colId: 6PHXC
+              name: Leptosiaphos amieti
+              canonicalPath: content/nodes/COL%3A6PHXC
+            - colId: 6PHWW
+              name: Leptosiaphos dewittei
+              canonicalPath: content/nodes/COL%3A6PHWW
+            - colId: 6PHX8
+              name: Leptosiaphos dungeri
+              canonicalPath: content/nodes/COL%3A6PHX8
+            - colId: 6PHWX
+              name: Leptosiaphos fuhni
+              canonicalPath: content/nodes/COL%3A6PHWX
+          fieldCountDistribution:
+            "1": 4
+            "2": 4
+            "3": 5
+    limitations:
+      zh:
+        page: zh
+        section: s-f2e71633cd
+        part: body
+      en:
+        page: en
+        section: s-1af79cad4b
+        part: body

@@ -1,0 +1,307 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Bohlinosminthus parvulus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Bohlinosminthus parvulus
+      en: Bohlinosminthus parvulus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4cdec8b62e
+            part: body
+          en:
+            page: en
+            section: s-9e1bf31ceb
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b3f35898f6
+            part: body
+          en:
+            page: en
+            section: s-675700b7ce
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-62a38b5ea5
+            part: body
+          en:
+            page: en
+            section: s-0e2388e62c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-20437d3d7f
+            part: body
+          en:
+            page: en
+            section: s-687482c0dc
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a3a64c3bf1
+            part: body
+          en:
+            page: en
+            section: s-b1c5635b64
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Bohlinosminthus parvulus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=333353&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:333353; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:333353
+          selectedOccurrenceIds:
+            - occ:1307860
+            - occ:1307989
+            - occ:1307993
+            - occ:1307996
+            - occ:1308003
+            - occ:1308007
+            - occ:1310038
+            - occ:1310041
+            - occ:1310049
+            - occ:1310053
+            - occ:1310057
+            - occ:1310133
+            - occ:1310142
+            - occ:1340432
+            - occ:1349692
+            - occ:1371876
+            - occ:1371877
+            - occ:1371878
+            - occ:1371879
+            - occ:1371880
+            - occ:1371881
+            - occ:1371882
+            - occ:1371883
+            - occ:1371884
+            - occ:1371885
+            - occ:1371886
+            - occ:1371887
+            - occ:1371888
+            - occ:1371889
+            - occ:1371890
+            - occ:1371891
+            - occ:1371892
+            - occ:1371893
+            - occ:1371894
+            - occ:1371896
+            - occ:1371897
+            - occ:1371898
+            - occ:1371899
+            - occ:1371900
+            - occ:1371901
+            - occ:1371902
+            - occ:1371903
+            - occ:1381990
+            - occ:1441044
+            - occ:1441062
+            - occ:1441164
+            - occ:1441301
+            - occ:1441366
+            - occ:1441679
+          selectedCollectionIds:
+            - col:175252
+            - col:175379
+            - col:175380
+            - col:175381
+            - col:175382
+            - col:175383
+            - col:175407
+            - col:175408
+            - col:175411
+            - col:175410
+            - col:175412
+            - col:175406
+            - col:175409
+            - col:176447
+            - col:182895
+            - col:180953
+            - col:180964
+            - col:187312
+            - col:175171
+            - col:180961
+            - col:75588
+            - col:176446
+            - col:182132
+            - col:187258
+            - col:180986
+            - col:187274
+            - col:180971
+            - col:180972
+            - col:182078
+            - col:182081
+            - col:182082
+            - col:182085
+            - col:182076
+            - col:182061
+            - col:176448
+            - col:183913
+            - col:182083
+            - col:182080
+            - col:182134
+            - col:180969
+            - col:182088
+            - col:187313
+            - col:182899
+            - col:187257
+            - col:75598
+            - col:182089
+            - col:201162
+            - col:75599
+            - col:201191
+          sourceReferenceIds:
+            - ref:57322
+            - ref:57327
+            - ref:57590
+            - ref:57614
+            - ref:60145
+            - ref:61008
+            - ref:62824
+            - ref:63590
+            - ref:68908
+          originalIdentificationMappings:
+            - occurrenceId: occ:1307860
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1307989
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1307993
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1307996
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1308003
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1308007
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1310038
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1310041
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1310049
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1310053
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1310057
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1349692
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+            - occurrenceId: occ:1381990
+              originalIdentifiedName: Parasminthus parvulus
+              acceptedName: Bohlinosminthus parvulus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-df3dac5835
+        part: body
+      en:
+        page: en
+        section: s-780a4f7561
+        part: body

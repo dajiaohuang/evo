@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kassina fusca
+  displayName: Kassina fusca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3R3JM
+  sourceIndexes:
+    - name:
+        en: Kassina fusca
+        zh: Kassina fusca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3R3JM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/145
+            queryName: Kassina fusca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-728b5c3808
+      - s-2aeb36f9bb
+      - s-1f764a8d53
+      - s-75135a572c
+      - s-2115cffd88
+      - s-85ac9ec457
+      - s-785c72c019
+      - s-7f85408ec3
+      - s-1064cdce7c
+      - s-eb56c5d30a
+    zh:
+      - s-f5d2ea3bc2
+      - s-4dcee96440
+      - s-ef29668973
+      - s-44a8eda970
+      - s-b7aa493c18
+      - s-409209c297
+      - s-fe45e440b3
+      - s-320e611236
+      - s-53d5933029
+      - s-0640700b9a

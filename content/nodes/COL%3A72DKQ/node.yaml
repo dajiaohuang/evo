@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes kuhlii
+  displayName: Limnonectes kuhlii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DKQ
+  sourceIndexes:
+    - name:
+        en: Limnonectes kuhlii
+        zh: Limnonectes kuhlii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DKQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/91
+            queryName: Limnonectes kuhlii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/9
+            queryName: Rana kuhlii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/10
+            queryName: Rana palmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/11
+            queryName: Rana kuhli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/12
+            queryName: Dicroglossus kuhlii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5313918ca3
+      - s-7f5e976b97
+      - s-2b735f3ff7
+      - s-fc5b85808f
+      - s-615109d367
+      - s-5f0c345e5c
+      - s-04e99c389d
+      - s-07081a572b
+      - s-b98c3f99db
+      - s-9dab4fed8f
+      - s-690af38d8d
+    zh:
+      - s-9824977430
+      - s-f8093626be
+      - s-a06bc39cce
+      - s-1a3c4fb116
+      - s-1a420aea0e
+      - s-09ccb48375
+      - s-5da6930bd6
+      - s-02c7ca93be
+      - s-30c789ecf3
+      - s-c318887e4e
+      - s-db3195529a

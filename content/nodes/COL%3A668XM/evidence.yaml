@@ -1,0 +1,388 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Allobates juami Simões, Gagliardi-Urrutia, Rojas-Runjaic & Castroviejo-Fisher, 2018
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Allobates juami
+      zh: Allobates juami
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-42b06f49cb
+            part: title
+          zh:
+            page: zh
+            section: s-0db0d5decf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-42b06f49cb
+            part: body
+          zh:
+            page: zh
+            section: s-0db0d5decf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fe4bf6f393
+            part: title
+          zh:
+            page: zh
+            section: s-5721dcf914
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fe4bf6f393
+            part: body
+          zh:
+            page: zh
+            section: s-5721dcf914
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d2ac81df7d
+            part: title
+          zh:
+            page: zh
+            section: s-6e277fc0fb
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-d2ac81df7d
+            part: body
+          zh:
+            page: zh
+            section: s-6e277fc0fb
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-e2a83938d1b04988d2584165
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-0e27539fb9
+            part: title
+          zh:
+            page: zh
+            section: s-c06eb0f059
+            part: title
+        sourceIds:
+          - primary-pmc7648453-668xm
+        text:
+          en:
+            page: en
+            section: s-0e27539fb9
+            part: body
+          zh:
+            page: zh
+            section: s-c06eb0f059
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1757c72130
+            part: title
+          zh:
+            page: zh
+            section: s-6b28cb2027
+            part: title
+        sourceIds:
+          - primary-pmc7648453-668xm
+        text:
+          en:
+            page: en
+            section: s-1757c72130
+            part: body
+          zh:
+            page: zh
+            section: s-6b28cb2027
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c9c556c2d9
+            part: title
+          zh:
+            page: zh
+            section: s-c49753a12e
+            part: title
+        sourceIds:
+          - primary-pmc7648453-668xm
+        text:
+          en:
+            page: en
+            section: s-c9c556c2d9
+            part: body
+          zh:
+            page: zh
+            section: s-c49753a12e
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-b46fd6e48c
+            part: title
+          zh:
+            page: zh
+            section: s-d710296f56
+            part: title
+        sourceIds:
+          - primary-pmc7648453-668xm
+        text:
+          en:
+            page: en
+            section: s-b46fd6e48c
+            part: body
+          zh:
+            page: zh
+            section: s-d710296f56
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-c2c9b69624
+            part: title
+          zh:
+            page: zh
+            section: s-e0a3892c20
+            part: title
+        sourceIds:
+          - primary-pmc7648453-668xm
+        text:
+          en:
+            page: en
+            section: s-c2c9b69624
+            part: body
+          zh:
+            page: zh
+            section: s-e0a3892c20
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Allobates juami
+          url: https://www.checklistbank.org/dataset/316115/taxon/668XM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 104, 105; Reference.csv rows 3457
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc7648453-668xm
+        referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Allobates juami: Recorded main sections/allfive main tables/captions andAppendixI read;all78 donor-sheet rows and13 type-series measurement rows read preserving celltypes/addresses;allfive depositedFASTAstrings inventoried, noalignment/orientation/distance recomputation;originalGenBank/audio/vouchers/figurepixels unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-de94e2e3fa
+        part: body
+      zh:
+        page: zh
+        section: s-cbbef58db4
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.9979
+        referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+        sourceKey: primary-pmc7648453-668xm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7648453/article.xml
+        sourceConcept: Exact frozen accepted-name label in2020 comparison/table/Appendix; primary observations and reviewed comparisons explicitly distinguished; original specimens/sequence concepts not authenticated
+        evidenceRead: "Allobates juami: Recorded main sections/allfive main tables/captions andAppendixI read;all78 donor-sheet rows and13 type-series measurement rows read preserving celltypes/addresses;allfive depositedFASTAstrings inventoried, noalignment/orientation/distance recomputation;originalGenBank/audio/vouchers/figurepixels unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reported distance to velocicantus
+              zh: 所报与 velocicantus 的距离
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-668xm
+            locator: PMC7648453 article.xml Table2 row18 leftname/p/K2P cells andfootnote;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bd9fc1fb54
+                part: body
+              zh:
+                page: zh
+                section: s-5f61d87d42
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Male throat colour in a diagnostic comparison
+              zh: 鉴别比较中的雄性喉色
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-668xm
+            locator: PMC7648453 article.xml Taxonomy paragraph18;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8f3e28c5b6
+                part: body
+              zh:
+                page: zh
+                section: s-3be37dcac3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Duration and spacing in cited acoustic comparisons
+              zh: 引用声学比较中的时长与间距
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-668xm
+            locator: PMC7648453 article.xml Taxonomy paragraph23;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0f572468ce
+                part: body
+              zh:
+                page: zh
+                section: s-a89681b345
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Reported donor codes and available loci
+              zh: 所报供体编号及可得位点
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-668xm
+            locator: PMC7648453 peerj-08-9979-s001.xls sheet Table 1 rows30,31 columnsA:B/D:N;sha256:00c7e0125ff16560c661220cde9f0090003457040cbfa184e0a7c66d391c94d1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c2ea6bb4a6
+                part: body
+              zh:
+                page: zh
+                section: s-6c5f64d827
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: occurrence
+            heading:
+              en: Source locality strings remain donor-specific
+              zh: 来源地点字符串保持供体特定
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-668xm
+            locator: PMC7648453 peerj-08-9979-s001.xls same rows columnsA:C;sha256:00c7e0125ff16560c661220cde9f0090003457040cbfa184e0a7c66d391c94d1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-48d4c47742
+                part: body
+              zh:
+                page: zh
+                section: s-cbd0d50407
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

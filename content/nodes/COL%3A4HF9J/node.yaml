@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus feioi
+  displayName: Physalaemus feioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF9J
+  sourceIndexes:
+    - name:
+        en: Physalaemus feioi
+        zh: Physalaemus feioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF9J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/323
+            queryName: Physalaemus feioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-369dc6aac3
+      - s-c000723137
+      - s-9693011efc
+      - s-37235952a2
+      - s-22ef6257a0
+      - s-67e3193b44
+      - s-9f481567db
+      - s-f10a1fc690
+      - s-9e04551f75
+      - s-72a96844fd
+      - s-2e0728c657
+      - s-b1c0af366f
+    zh:
+      - s-39bdcd90c5
+      - s-bd4e3600fe
+      - s-0c369203bc
+      - s-dd3740beb6
+      - s-72641500b1
+      - s-3daaef15ff
+      - s-0b2600590f
+      - s-15d51d6815
+      - s-b794cee2f4
+      - s-a129018e4b
+      - s-69ac76797c
+      - s-b143efd298

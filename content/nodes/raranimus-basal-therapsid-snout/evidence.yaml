@@ -1,0 +1,78 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-a06b3a042f
+      part: title
+    titleZh:
+      page: zh
+      section: s-bef5a68171
+      part: title
+    category: origin
+    startAge: 274.4
+    endAge: 264.28
+    regions:
+      - Dashankou locality, Xidagou Formation, Gansu, China
+    clades:
+      - Synapsida
+      - Therapsida
+      - Raranimus dashankouensis
+    summary:
+      page: en
+      section: s-a06b3a042f
+      part: body
+    summaryZh:
+      page: zh
+      section: s-bef5a68171
+      part: body
+    claimIds:
+      - claim:event:raranimus-basal-therapsid-snout
+    evidenceItems:
+      - statement: IVPP V15424 is a roughly 100 mm partial, slightly crushed snout with a combination of cranial and dental characters; four shortest PAUP trees from the published 71-character matrix placed Raranimus immediately outside the remaining sampled Therapsida.
+        relation: supports
+        claimIds:
+          - claim:event:raranimus-basal-therapsid-snout
+        referenceLinks:
+          - referenceId: liu-2009-raranimus
+            relation: supports
+            pages: 394–398
+            figure: Figures 1–3
+            quoteLocator: Systematic palaeontology; Description; Phylogenetic analysis
+    uncertaintyItems:
+      - statement: The recovered sister position belongs to one morphology matrix and its taxon-character sampling; it is not direct observation of ancestry, and the paper's Laurasian-origin interpretation remains a biogeographic hypothesis.
+        relation: contextualizes
+        claimIds:
+          - claim:event:raranimus-basal-therapsid-snout
+        referenceLinks:
+          - referenceId: liu-2009-raranimus
+            relation: supports
+            pages: 397–399
+            figure: Figure 3
+            quoteLocator: Phylogenetic analysis; Discussion
+      - statement: The 274.4–264.28 Ma display envelope is a broad current Middle Permian stage translation; the source explicitly reports no reliable radiometric dates for the Dashankou sequence, so it cannot establish a precise therapsid first appearance.
+        relation: contextualizes
+        claimIds:
+          - claim:event:raranimus-basal-therapsid-snout
+        referenceLinks:
+          - referenceId: liu-2009-raranimus
+            relation: supports
+            pages: 393–394, 398–399
+            quoteLocator: Introduction; Geological setting; Discussion
+  claims:
+    - subjectId: event:raranimus-basal-therapsid-snout
+      claimKind: scientific
+      claimType: topology
+      statement: A 71-character morphology analysis of partial-snouted holotype IVPP V15424 recovered Raranimus as sister to the other sampled therapsids; the result is a matrix-dependent topology, not observed ancestry or a precise therapsid first appearance.
+      confidence: medium
+      confidenceRationale: The holotype, characters and four shortest trees are published, but the specimen is fragmentary, topology depends on the sampled matrix, and the authors report inadequate radiometric control for the Dashankou sequence.
+      referenceLinks:
+        - referenceId: liu-2009-raranimus
+          relation: supports
+          pages: 393–399
+          figure: Figures 1–3
+          quoteLocator: Systematic palaeontology; Description; Phylogenetic analysis; Discussion
+  claim-rationales.zh:
+    - 正模标本、性状与四棵最短树均已发表，但材料残缺，拓扑依赖所取样矩阵，而且作者指出大山口层序缺乏可靠放射性年代控制。
+  claim-statements.zh:
+    - 对残缺吻部正模 IVPP V15424 的 71 性状形态分析将 Raranimus 恢复为其余已取样兽孔类的姐妹群；该结果是依赖矩阵的拓扑，不是已观测祖先关系或精确的兽孔类首现。

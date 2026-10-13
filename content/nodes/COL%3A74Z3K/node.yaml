@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oscaecilia hypereumeces
+  displayName: Oscaecilia hypereumeces
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74Z3K
+  sourceIndexes:
+    - name:
+        en: Oscaecilia hypereumeces
+        zh: Oscaecilia hypereumeces
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74Z3K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/318
+            queryName: Oscaecilia hypereumeces
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-21c8a4eeed
+      - s-584c8c2a1d
+      - s-c8ddcb1602
+      - s-df9fec4a3f
+      - s-a6a74807be
+      - s-744da5c748
+      - s-e7ba7f7a5c
+      - s-876db96eac
+      - s-262f3a2547
+      - s-08627d15a7
+      - s-2456d3ea4f
+      - s-9ffb10f0ff
+    zh:
+      - s-230a24196b
+      - s-4b97a2ebde
+      - s-b38fee815d
+      - s-ec94a84c20
+      - s-c339a8c1db
+      - s-e376e335f3
+      - s-a9d8a8e607
+      - s-a41f4386f3
+      - s-a9abcbef68
+      - s-64cc9a3387
+      - s-b2726d72cc
+      - s-32e11047e5

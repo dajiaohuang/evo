@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Brunsvigia undulata F.M.Leight.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NG27, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NG27; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NG27
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NG27
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000762253-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NG27 / WFO wfo-0000762253
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_337_0
+        referenceId: ref-ee22e3e0-3090-8548-af67-de2d7c095c0f
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Brunsvigia undulata F.M.Leight. account; SANBI/WFO archive rows 60606 (Morphology), 59860 (Habitat), 58109 (Diagnostic), source identifier 337.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Bulb up to about 12 cm tall and 7-8 cm in diam.; the neck of old leaf bases rising slightly above ground level. Leaves arising with the inflorescence, about 15 up to 50 cm long, 4-10 cm broad, distichous, lorate, green, shining, glaucous, with undulate margins. Peduncle slightly compressed, 4-5.5 x 2-2.5 cm broad, 30-45 cm tall, glaucous, spathe-valves reddish, oblong, 9.5 cm long, 5 cm broad. Umbel 35-80 flowered. Pedicels up to about 30 cm long, 7-8 mm thick near the base, tapering above, with 6 ribs, glaucous. Perianth claret-coloured, 4.5-5.5 cm long, united into a tube for 5-7 mm at the base, lobes recurved; the three outer with few glandular hairs within apex, 5-7 mm broad; inner lobes 6-9 mm broad. Filaments red, inserted in the perianth tube, about equalling the perianth. Ovary green, inconspicuously triangular, 1.5 cm long, 8-10 mm diam. Style red, slightly shorter than the stamens.
+            textZh: Brunsvigia undulata F.M.Leight. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_337_0
+            locator: "SANBI/WFO archive Morphology row 60606; source identifier 337.0; cited publication: Dyer, RA. 1951. A review of the genus Brunsvigia Heist. Pl. Life 7(1): 45 - 64. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Unlike other members of the genus, B. undulata has fully developed undulate leaves at the time of flowering and the number of leaves is larger than is usually the case.The umbel in B. undulata is somewhat semi-globose, instead of the more usual globose form, and the ascending pedicels are remiscent of Nerine rather than Brunsvigia. The deep ruby-color of the flower, too, is unusual in the genus. A large specimen collected near Nottingham Road by Mrs. J. L. Smith had an umbel with 80 flowers. Specimens from the Estcourt district collected by J. Acocks showed considerable variability in the leaves. The margin varied from slightly undulate to markedly crisped.
+            textZh: SANBI 条目提供了 Brunsvigia undulata F.M.Leight. 的鉴别特征。
+            sourceIds:
+              - sanbi_337_0
+            locator: "SANBI/WFO archive Diagnostic row 58109; source identifier 337.0; cited publication: Dyer, RA. 1951. A review of the genus Brunsvigia Heist. Pl. Life 7(1): 45 - 64. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mountainous grassveld.
+            textZh: 该 SANBI 区域物种条目记录的生境：Mountainous grassveld.
+            sourceIds:
+              - sanbi_337_0
+            locator: "SANBI/WFO archive Habitat row 59860; source identifier 337.0; cited publication: Dyer, RA. 1951. A review of the genus Brunsvigia Heist. Pl. Life 7(1): 45 - 64. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

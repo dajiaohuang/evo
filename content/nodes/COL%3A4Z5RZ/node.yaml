@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spinomantis massi
+  displayName: Spinomantis massi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Z5RZ
+  sourceIndexes:
+    - name:
+        en: Spinomantis massi
+        zh: Spinomantis massi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Z5RZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/280
+            queryName: Spinomantis massi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/191
+            queryName: Mantidactylus massorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/24
+            queryName: Spinomantis massorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/294
+            queryName: Mantidactylus massi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-135f83cc5c
+      - s-71e944eead
+      - s-fbbb9eb393
+      - s-6380fc04aa
+      - s-3379208482
+      - s-c055af966b
+      - s-f4bc9e8b93
+      - s-99635edf37
+      - s-34518a7479
+      - s-4af416293f
+      - s-0de6f1f314
+    zh:
+      - s-9f8828dcb8
+      - s-12887402cf
+      - s-358925641f
+      - s-e5d478fb55
+      - s-276c91e189
+      - s-1180eb082d
+      - s-7a7cdb7213
+      - s-192749d32b
+      - s-4f9b453299
+      - s-c734230c9e
+      - s-29c2f25576

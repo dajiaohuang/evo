@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella mjobergi
+  displayName: Leptobrachella mjobergi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PFSB
+  sourceIndexes:
+    - name:
+        en: Leptobrachella mjobergi
+        zh: Leptobrachella mjobergi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PFSB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/261
+            queryName: Leptobrachella mjobergi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/497
+            queryName: Nesobia mjobergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-14c6fc5fb8
+      - s-5fdb4ec709
+      - s-c9bece774d
+      - s-655718e0ca
+      - s-bd9714cda2
+      - s-510a7a00a0
+      - s-8281515fae
+      - s-b470016b05
+      - s-63df968e08
+      - s-a43794fb33
+      - s-9f9d362d25
+      - s-86bdaeb0f8
+      - s-2fcc18a333
+      - s-506c4baa04
+    zh:
+      - s-635f9808bd
+      - s-cf71aceeaf
+      - s-10c9f7b0b1
+      - s-8e55858365
+      - s-ab8da8a832
+      - s-b7ad7707e5
+      - s-b2304158da
+      - s-1dce84a491
+      - s-4746ef6d9d
+      - s-ed47066594
+      - s-f0372cf3d5
+      - s-80cb725475
+      - s-83e751f04f
+      - s-6221d975e5

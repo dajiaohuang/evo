@@ -1,0 +1,226 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus boreas
+  displayName: Anaxyrus boreas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DK9W
+  sourceIndexes:
+    - name:
+        en: Anaxyrus boreas
+        zh: Anaxyrus boreas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DK9W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/430
+            queryName: Anaxyrus boreas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 199
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/235
+            queryName: Bufo boreas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 216
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/354
+            queryName: Bufo boreas boreas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 69
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/355
+            queryName: Bufo boreas halophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/413
+            queryName: Bufo politus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/108
+            queryName: Bufo halophila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6610
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/276
+            queryName: Anaxyrus boreas boreas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 42
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/277
+            queryName: Anaxyrus boreas halophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/211
+            queryName: Bufo columbiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/212
+            queryName: Bufo lamentor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/213
+            queryName: Bufo pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/214
+            queryName: Bufo halophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/378
+            queryName: Bufo lentiginosus pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/379
+            queryName: Bufo columbiensis columbiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/380
+            queryName: Bufo columbiensis halophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/381
+            queryName: Bufo halophilus columbiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/382
+            queryName: Bufo canagicus halophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/383
+            queryName: Bufo halophilus halophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/364
+            queryName: Rana canagica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/479
+            queryName: Bufo canagicus canagicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-98d664a554
+      - s-43b6609e38
+      - s-62a0748c60
+      - s-1aa5feb1e4
+      - s-84e6762cad
+      - s-18532ffe57
+      - s-a9b8c78da7
+      - s-55b93d26ec
+      - s-a87f9f3986
+      - s-657b2db95d
+      - s-c0a233efdb
+      - s-6ecfc84e15
+      - s-87c4288099
+      - s-100f4d11a4
+      - s-056b4e5a78
+      - s-8bae5c92a5
+      - s-51bd7b9c66
+      - s-b0f05fda7f
+      - s-afc74241f1
+      - s-799259527e
+      - s-e56c16d7ef
+      - s-fc8724239b
+      - s-97bfb28948
+      - s-ab222e60ec
+      - s-de98c603a8
+      - s-bd5208f291
+      - s-9d25e5a387
+      - s-d29b1c5dde
+      - s-671e4298d9
+      - s-615bbab11d
+      - s-22297a0f70
+      - s-0de9664753
+      - s-871bcc105b
+    zh:
+      - s-a0ed7db399
+      - s-245cf9aff2
+      - s-a3396091a0
+      - s-899c50528b
+      - s-4316922e4e
+      - s-14edf58067
+      - s-f84cfde6b6
+      - s-d50d530483
+      - s-dc905121f5
+      - s-6279402de8
+      - s-abd2763e2e
+      - s-f0182910c5
+      - s-a22299e22a
+      - s-eed7a02909
+      - s-3198f477ac
+      - s-1cd3941326
+      - s-7ddbadf65e
+      - s-c7a5e879fd
+      - s-fcf6e8f1ea
+      - s-bc0b88673a
+      - s-78c5bc97fc
+      - s-e723cd0b8f
+      - s-78c2795de6
+      - s-7944224427
+      - s-bbec5aa5ca
+      - s-65678143e7
+      - s-70bb76d0e9
+      - s-21575d3b10
+      - s-8787212a6a
+      - s-fbd2ed18df
+      - s-c327b45ddb
+      - s-75eb301eea
+      - s-1bfb2e0ca9

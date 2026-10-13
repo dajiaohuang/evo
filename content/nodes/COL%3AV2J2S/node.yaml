@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella albomarginata
+  displayName: Leptobrachella albomarginata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V2J2S
+  sourceIndexes:
+    - name:
+        en: Leptobrachella albomarginata
+        zh: Leptobrachella albomarginata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V2J2S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/201
+            queryName: Leptobrachella albomarginata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4a9523bdd2
+      - s-ff88da4819
+      - s-096e4b838d
+      - s-a783213ba0
+      - s-c58d4d5987
+    zh:
+      - s-e88e0dd33e
+      - s-e843dde19f
+      - s-f2fb9c279e
+      - s-933b8ee885
+      - s-0376d5b867

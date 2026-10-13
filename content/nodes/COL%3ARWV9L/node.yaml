@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paratelmatobius segallai
+  displayName: Paratelmatobius segallai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/RWV9L
+  sourceIndexes:
+    - name:
+        en: Paratelmatobius segallai
+        zh: Paratelmatobius segallai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: RWV9L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/429
+            queryName: Paratelmatobius segallai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aa6d3045f4
+      - s-aa444885c8
+      - s-d6a8850d3a
+      - s-ae43ae675e
+      - s-0155b72a28
+      - s-17a8aba961
+      - s-cc0909a6a1
+    zh:
+      - s-045d38b363
+      - s-cdb92780e7
+      - s-4cb52544f0
+      - s-908e506fd9
+      - s-3182678d01
+      - s-e74a7977dd
+      - s-2a20aa6494

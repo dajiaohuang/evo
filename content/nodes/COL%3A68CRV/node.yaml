@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Balebreviceps hillmani
+  displayName: Balebreviceps hillmani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68CRV
+  sourceIndexes:
+    - name:
+        en: Balebreviceps hillmani
+        zh: Balebreviceps hillmani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68CRV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/373
+            queryName: Balebreviceps hillmani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-54d18f29ff
+      - s-74ba96e934
+      - s-0a8cf7f860
+      - s-2aa10b712e
+      - s-a84d7a6c4f
+      - s-123d632f41
+      - s-9b077fbff2
+      - s-f2788fc16c
+      - s-e7aebe4688
+      - s-7456fd1ad8
+      - s-5f9cb77237
+    zh:
+      - s-44c010624d
+      - s-6fa9ae5694
+      - s-354e3c2e30
+      - s-6b432f822a
+      - s-3298af633d
+      - s-24d0cd2643
+      - s-41e239baed
+      - s-50b1338c4e
+      - s-f36475f96e
+      - s-8ef740495b
+      - s-c735aeb64b

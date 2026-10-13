@@ -1,0 +1,3 @@
+## ## Setae and globose flower heads {#s-a7408e211d}
+The Brazilian Flora 2020 entry records hirsute stems with spreading or incurved simple hairs, filamentous unbranched setae, capitate glandular hairs and scattered, spreading prickles; branched setae and short shoots are absent. The stipules are shed, extrafloral nectaries are absent, and projections occur between pinna pairs. The inflorescences are globose, with floral bracts longer than the flowers before opening. The flowers have four perianth parts and a membranous calyx without lobes. Corolla lobes have one to three veins and are hairless; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial,” without a locality or finer habitat description.
+

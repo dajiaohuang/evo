@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana wuyiensis
+  displayName: Rana wuyiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SKJQB
+  sourceIndexes:
+    - name:
+        en: Rana wuyiensis
+        zh: Rana wuyiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SKJQB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/92
+            queryName: Rana wuyiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-52fad3df80
+      - s-f0a5544877
+      - s-fbd1f6c102
+      - s-78b6f148e4
+      - s-3d5dc4a62a
+      - s-4b678d6a9f
+      - s-e829599dcd
+      - s-abf0dee05b
+      - s-731807a5ff
+    zh:
+      - s-bad4fc9db1
+      - s-a0ae2da974
+      - s-7197598641
+      - s-8dd7e158fb
+      - s-2f9e0faaeb
+      - s-80bdb1fe5a
+      - s-7deed62e99
+      - s-3f919eaf33
+      - s-aab0d9ef7e

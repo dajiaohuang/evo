@@ -1,0 +1,95 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nycticebus borneanus Lyon, 1906
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 婆罗洲蜂猴
+      en: Bornean Slow Loris
+    sections:
+      - topic: distribution_habitat
+        text:
+          zh:
+            page: zh
+            section: s-f5e957ab2c
+            part: body
+          en:
+            page: en
+            section: s-c2b59f2ec0
+            part: body
+        sourceIds:
+          - mdd_name
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-1f56be235f
+            part: body
+          en:
+            page: en
+            section: s-04e3ebb87c
+            part: body
+        sourceIds:
+          - munds2013
+          - blair2023
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Nycticebus borneanus Lyon, 1906
+          url: https://www.checklistbank.org/dataset/316115/taxon/485JJ
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-de103f62-583e-82b9-a7bd-eac191aab992
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 MDD 当前页面所列英文普通名、模式资料与分类注记；固定物种身份仍按 COL26.8。
+            en: Supports the English common name, type data and taxonomic notes on the current MDD page; pinned species identity remains COL26.8.
+      - id: munds2013
+        referenceId: ref-8d59f329-7ce5-81cb-a50a-000e14a3b8cb
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持对婆罗洲蜂猴面部毛色变异及地理聚类的研究和四种的形态分类提议；作者指出仍需遗传研究验证与细化。
+            en: Supports the study of facial-mask variation and geographic clustering in Bornean lorises and the morphology-based proposal of four species; the authors called for genetic work to test and refine it.
+      - id: blair2023
+        referenceId: ref-2194b82d-e5be-8727-a37a-cb71248638ef
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持研究所取样的主要遗传谱系，以及样本按毛色形态划分的命名类群未与谱系一一对应的结果；不是全分布或最终分类修订。
+            en: Supports the major genetic lineages in the sampled material and the lack of one-to-one correspondence between named pelage forms and those lineages; not a complete range or final taxonomic revision.
+    limitations:
+      zh:
+        page: zh
+        section: s-dec5692a56
+        part: body
+      en:
+        page: en
+        section: s-65095c984d
+        part: body

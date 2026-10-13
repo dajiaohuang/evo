@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton asperrimus
+  displayName: Tylototriton asperrimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLB
+  sourceIndexes:
+    - name:
+        en: Tylototriton asperrimus
+        zh: Tylototriton asperrimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/129
+            queryName: Tylototriton asperrimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/129
+            queryName: Pleurodeles asperrimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/130
+            queryName: Echinotriton asperrimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/131
+            queryName: Yaotriton asperrimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/78
+            queryName: Tylototriton asperrimus asperrimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/79
+            queryName: Echinotriton asperrimus asperrimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c53fc819eb
+      - s-f9b0c67bcd
+      - s-7a92dc58d1
+      - s-763633fea0
+      - s-a9dcfe4f21
+      - s-dea55d2e9c
+      - s-96c13d862a
+      - s-9a97403526
+      - s-d9591604b4
+      - s-a91cac100a
+      - s-d6d65e81fd
+      - s-d3ee516888
+      - s-49cf25bac5
+      - s-3954432254
+    zh:
+      - s-b07f37be4a
+      - s-d5c5a9fc69
+      - s-2d85944d43
+      - s-996ccd705b
+      - s-e592d4dc0f
+      - s-3160ca71b5
+      - s-8e6a870e89
+      - s-57631d6edf
+      - s-495801a757
+      - s-947545fe0d
+      - s-3de610b1ed
+      - s-daa03353a1
+      - s-85925c07cf
+      - s-ecfabe584b

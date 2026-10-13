@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Phyllobates terribilis
+    name:
+      en: Phyllobates terribilis
+      zh: Phyllobates terribilis
+    sourceClassification:
+      order: Anura
+      family: Dendrobatoidea
+      genus: Phyllobates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Phyllobates terribilis in the morphology deposit
+          zh: 形态数据中的 Phyllobates terribilis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6b448f0cf7
+            part: body
+          zh:
+            page: zh
+            section: s-81a2c77f21
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4302: measurement fields and sex codes"
+          zh: 第 4302 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-81a13de7b9
+            part: body
+          zh:
+            page: zh
+            section: s-0d81d87813
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4302; Reference.csv rows 3606
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4302
+        values:
+          - Dendrobatoidea
+          - Phyllobates
+          - Phyllobates terribilis
+          - M
+          - "41.6"
+          - "12.6"
+          - "18.8"
+          - "5.3"
+          - "2.5"
+          - NA
+          - "5"
+          - "5.2"
+          - NA
+          - "4.2"
+          - NA
+          - "2.3"
+          - "11.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.3"
+          - NA
+          - NA
+          - NA
+          - "1.5"
+          - "1.6"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3606
+        values:
+          - Anura
+          - Phyllobates_terribilis
+          - Myers, C. W., Daly, J. W., & Malkin, B. (1978). A dangerously toxic new frog (Phyllobates) used by Emberá Indians of western Colombia, with discussion of blowgun fabrication and dart poisoning. Bulletin of the AMNH; v. 161, article 2.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - TL
+      - Fin3DW
+      - Toe3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

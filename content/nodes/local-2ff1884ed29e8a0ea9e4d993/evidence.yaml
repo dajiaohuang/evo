@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Limnonectes kadarsani
+    name:
+      en: Limnonectes kadarsani
+      zh: Limnonectes kadarsani
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Limnonectes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-16320b145f
+            part: body
+          zh:
+            page: zh
+            section: s-89705e6215
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f8b1b04e43
+            part: body
+          zh:
+            page: zh
+            section: s-ce127596bc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2806, 2807; Reference.csv rows 3242
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2806
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes kadarsani
+          - F
+          - "86.47"
+          - "29.4"
+          - "33.36"
+          - "11.29"
+          - "6.23"
+          - "4.74"
+          - NA
+          - "7.18"
+          - NA
+          - "7.81"
+          - "10.69"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "45.04"
+          - "42.72"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2807
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes kadarsani
+          - M
+          - "94.06"
+          - "37.94"
+          - "39.66"
+          - "12.01"
+          - "6.92"
+          - "7.84"
+          - NA
+          - "7.81"
+          - NA
+          - "8.24"
+          - "11.54"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "47.49"
+          - "44.96"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3242
+        values:
+          - Anura
+          - Limnonectes_kadarsani
+          - "Iskandar, D. T., Boeadi, & Sancoyo, M. (1996). Limnonectes kadarsani (Amphibia: Anura: Ranidae), a new frog from the Nusa Tenggara Islands. Raffles Bulletin of Zoology, 44(1), 21-28."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IND
+      - EN
+      - SL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 72DL3
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

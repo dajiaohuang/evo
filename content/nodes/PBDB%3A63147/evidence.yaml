@@ -1,0 +1,220 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pakicetidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Pakicetidae
+      en: Pakicetidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ce06434ac1
+            part: body
+          en:
+            page: en
+            section: s-00171a96b0
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0faac54eed
+            part: body
+          en:
+            page: en
+            section: s-479b0625a2
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Pakicetidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=63147
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:63147
+          readingTargets:
+            - name: Nalacetus ratimitus
+              pbdbTaxonId: txn:63098
+              canonicalPath: content/nodes/PBDB%3A63098
+            - name: Pakicetus calcis
+              pbdbTaxonId: txn:69726
+              canonicalPath: content/nodes/PBDB%3A69726
+            - name: Pakicetus chittas
+              pbdbTaxonId: txn:69734
+              canonicalPath: content/nodes/PBDB%3A69734
+            - name: Pakicetus attocki
+              pbdbTaxonId: txn:53311
+              canonicalPath: content/nodes/PBDB%3A53311
+            - name: Pakicetus inachus
+              pbdbTaxonId: txn:53310
+              canonicalPath: content/nodes/PBDB%3A53310
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4c4d867962
+        part: body
+      en:
+        page: en
+        section: s-0c7b396039
+        part: body
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-64bfec7d67
+          part: title
+        zh:
+          page: zh
+          section: s-26b98d33ff
+          part: title
+      text:
+        en:
+          page: en
+          section: s-64bfec7d67
+          part: body
+        zh:
+          page: zh
+          section: s-26b98d33ff
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-4548175ff5
+          part: title
+        zh:
+          page: zh
+          section: s-ccc7de765c
+          part: title
+      text:
+        en:
+          page: en
+          section: s-4548175ff5
+          part: body
+        zh:
+          page: zh
+          section: s-ccc7de765c
+          part: body
+  atlas-node:
+    name: Pakicetidae
+    commonName: Pakicetids
+    commonNameZh: 巴基鲸科
+    rank: family
+    taxonId: txn:63147
+    firstAppearance: 50
+    lastAppearance: 47
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:pakicetidae
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Pakicetidae is reviewed as a separately sampled early Eocene cetacean family represented by incomplete and composite material; its placement helps test early whale relationships but does not make the family a direct ancestral stage for all later whales.
+      confidence: medium
+      confidenceRationale: The review supports family-level identification and comparative placement; the wording carries forward specimen and ancestry limits.
+      referenceLinks:
+        - relation: supports
+          referenceId: uhen-2010-whale-origins
+          pages: 195–200
+          quoteLocator: Earliest whales; Pakicetidae anatomical and stratigraphic discussion
+    - subjectId: taxon:pakicetidae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: pakicetidae is displayed at 50–47 Ma only as the review's sampled pakicetid interval, not a linear ancestral stage or exact endpoints. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: pakicetidae uses Uhen, M.D. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Early Eocene pakicetid sample synthesized by Uhen; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: uhen-2010-whale-origins
+          pages: 195–200
+          quoteLocator: Earliest whales; Pakicetidae anatomical and stratigraphic discussion
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 综述支持科级识别与比较位置；措辞保留标本和祖先关系限制。
+    - pakicetidae 采用 Uhen, M.D.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Early Eocene pakicetid sample synthesized by Uhen；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 巴基鲸科在综述中被视为由不完整及组合材料代表、独立取样的早始新世鲸类科；其位置有助于检验早期鲸类关系，但不使该科成为所有后期鲸类的直接祖先阶段。
+    - pakicetidae 仅以 50–47 Ma 展示为综述所采样的巴基鲸科区间，而非线性祖先阶段或精确端点。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: pakicetidae
+      rangeKind: global-composite
+      taxonomicConcept: pakicetidae — source-bounded sample window
+      geographicScope: Early Eocene pakicetid sample synthesized by Uhen
+      olderMa: 50
+      youngerMa: 47
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the review's sampled pakicetid interval, not a linear ancestral stage or exact endpoints; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:pakicetidae:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: uhen-2010-whale-origins
+          locator: 195–200; Earliest whales; Pakicetidae anatomical and stratigraphic discussion
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized

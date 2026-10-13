@@ -1,0 +1,159 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Simias Miller, 1903
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Pig-tailed langur genus
+      zh: 豚尾叶猴属
+    sections:
+      - topic: readingPath
+        text:
+          en:
+            page: en
+            section: s-a9246c561d
+            part: body
+          zh:
+            page: zh
+            section: s-c83866bc18
+            part: body
+        sourceIds:
+          - taxonomy
+          - speciesTaxonomy
+          - hadi2009
+          - hadi2012
+          - erb2012
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-14ea6d24b2
+            part: body
+          en:
+            page: en
+            section: s-2d0d2ef7f4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-7e5458a7-2fc1-87ad-aba0-7f646c7fa380
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins accepted genus ID 7GYX and its COL26.8 parent classification.
+            zh: 固定接受属 ID 7GYX 与 COL26.8 父级分类。
+      - id: speciesTaxonomy
+        referenceId: ref-ef33b03a-1b91-8f8a-a28a-8e8808dc0f08
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Links accepted species page 4XF7W into the genus reading route.
+            zh: 将接受种页面 4XF7W 接入属级阅读路径。
+      - id: hadi2009
+        referenceId: ref-06055582-b4a0-840f-ae1b-326db202ee9c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Three free-ranging groups on Siberut; group-size and adult sex-ratio observations are sample-specific.
+            zh: Siberut 的三个自由活动群体；群体规模与成年性比仅适用于该样本。
+      - id: hadi2012
+        referenceId: ref-b87daaaa-3382-8960-a92f-4b72ac25d2e2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: GPS and scan/focal observations of three Simias groups and two Presbytis groups in mixed primary forest in northern Siberut.
+            zh: 在 Siberut 北部混合原生林中，对三个 Simias 群体和两个 Presbytis 群体进行 GPS 与扫描/焦点观察。
+      - id: erb2012
+        referenceId: ref-f7f7ed0f-9208-803d-ad2d-4180d00adafc
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Eleven births in eight groups followed for two years at Pungut, Siberut; authors note the small sample.
+            zh: 在 Siberut 的 Pungut 对八个群体观察两年、记录十一例出生；作者指出样本量很小。
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 1 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 1
+            foraging: 1
+            activity: 1
+          readingTargets:
+            - name: Simias concolor
+              colId: 4XF7W
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4XF7W
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-5e70aa0d51
+        part: body
+      zh:
+        page: zh
+        section: s-fe9ad76b92
+        part: body

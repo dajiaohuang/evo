@@ -1,0 +1,127 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-9d5e8ec58d
+      part: title
+    titleZh:
+      page: zh
+      section: s-4a1c1d8d8f
+      part: title
+    category: ecological
+    startAge: 113
+    endAge: 113
+    regions:
+      - Crato Formation, Araripe Basin, Brazil
+    clades:
+      - Tupandactylus cf. imperator
+      - Pterosauria
+    summary:
+      page: en
+      section: s-9d5e8ec58d
+      part: body
+    summaryZh:
+      page: zh
+      section: s-4a1c1d8d8f
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-11d4bdb39f
+            part: title
+          zh:
+            page: zh
+            section: s-eb0bed0723
+            part: title
+        text:
+          en:
+            page: en
+            section: s-11d4bdb39f
+            part: body
+          zh:
+            page: zh
+            section: s-eb0bed0723
+            part: body
+        id: observed-material
+        sourceIds:
+          - cincotta-2022-tupandactylus-feathers
+      - title:
+          en:
+            page: en
+            section: s-14ab56bad0
+            part: title
+          zh:
+            page: zh
+            section: s-7b51986198
+            part: title
+        text:
+          en:
+            page: en
+            section: s-14ab56bad0
+            part: body
+          zh:
+            page: zh
+            section: s-7b51986198
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - cincotta-2022-tupandactylus-feathers
+    claimIds:
+      - claim:event:tupandactylus-feather-melanosomes
+    evidenceItems:
+      - statement: MCT.R.1884, preserved across five slabs, includes a partial skull and crest with monofilaments, branched feather-like structures and melanosomes in skin and filament samples.
+        relation: supports
+        claimIds:
+          - claim:event:tupandactylus-feather-melanosomes
+        referenceLinks:
+          - referenceId: cincotta-2022-tupandactylus-feathers
+            relation: supports
+            pages: 684–688
+            figure: Figures 1–2; Extended Data Figures 1–7
+            quoteLocator: Specimen description; Feather morphology; Melanosome geometry
+    uncertaintyItems:
+      - statement: Colour signalling and the ancestral state of feathers are evolutionary interpretations; the study does not directly recover exact colours or establish that every pterosaur bore the same structures.
+        relation: contextualizes
+        claimIds:
+          - claim:event:tupandactylus-feather-melanosomes
+        referenceLinks:
+          - referenceId: cincotta-2022-tupandactylus-feathers
+            relation: supports
+            pages: 686–688
+            figure: Figure 2
+            quoteLocator: Phylogenetic comparative analysis; Discussion
+    readerSources:
+      - id: cincotta-2022-tupandactylus-feathers
+        referenceId: cincotta-2022-tupandactylus-feathers
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 684–688; figure: Figures 1–2; Extended Data Figures 1–7; Specimen description; Feather morphology; Melanosome geometry; pages: 686–688; figure: Figure 2; Phylogenetic comparative analysis; Discussion"
+  claims:
+    - subjectId: event:tupandactylus-feather-melanosomes
+      claimKind: scientific
+      claimType: morphology
+      statement: Tupandactylus specimen MCT.R.1884 preserves monofilaments, branched feather-like structures and distinct melanosome geometries in cranial soft tissues; exact colours, signalling roles and a universal pterosaur covering are not directly observed.
+      confidence: medium
+      confidenceRationale: Multiple structures are documented in a named specimen using microscopy and chemical comparisons. Medium confidence keeps taphonomic, homology and phylogenetic-model uncertainty separate from the preserved morphology.
+      referenceLinks:
+        - referenceId: cincotta-2022-tupandactylus-feathers
+          relation: supports
+          pages: 684–688
+          figure: Figures 1–2; Extended Data Figures 1–7
+          quoteLocator: Results; Phylogenetic comparative analysis
+  claim-rationales.zh:
+    - 具名标本中的多种结构由显微与化学比较记录。中等置信度把埋藏、同源性和系统模型不确定性与保存形态分开。
+  claim-statements.zh:
+    - 古神翼龙标本 MCT.R.1884 的头部软组织保存单丝、分支羽状结构及不同几何形态的黑素体；精确颜色、信号功能和翼龙普遍覆盖物并未被直接观察。

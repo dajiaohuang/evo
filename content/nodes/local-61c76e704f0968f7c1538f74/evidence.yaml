@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nototriton picucha
+    name:
+      en: Nototriton picucha
+      zh: Nototriton picucha
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Nototriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8970ec8237
+            part: body
+          zh:
+            page: zh
+            section: s-a53874f784
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-be8e0c48a2
+            part: body
+          zh:
+            page: zh
+            section: s-01e45c99ca
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 233; Reference.csv rows 4109
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 233
+        values:
+          - Plethodontidae
+          - Nototriton
+          - Nototriton picucha
+          - NA
+          - NA
+          - "26.8"
+          - NA
+          - NA
+          - "5.293"
+          - "3.8592"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "30.6324"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.6548"
+          - "4.958"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4109
+        values:
+          - Caudata
+          - Nototriton_picucha
+          - "Townsend, J. H., Medina-Flores, M., Murillo, J. L., & Austin, J. D. (2011). Cryptic diversity in Chortis Highland moss salamanders (Caudata: Plethodontidae: Nototriton) revealed using mtDNA barcodes and phylogenetics, with a new species from eastern Honduras. Systematics and Biodiversity, 9(3), 275-287. https://doi.org/10.1080/14772000.2011.611188  ; Townsend, J. H. (2016). Taxonomic revision of the moss salamander Nototriton barbouri (Schmidt) (Caudata: Plethodontidae), with description of two new species from the Cordillera Nombre de Dios, Honduras. Zootaxa, 4196(4), 511-528. https://doi.org/10.11646/zootaxa.4196.4.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6SDDS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

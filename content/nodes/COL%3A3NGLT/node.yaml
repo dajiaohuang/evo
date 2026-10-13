@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylophorbus proekes
+  displayName: Hylophorbus proekes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGLT
+  sourceIndexes:
+    - name:
+        en: Hylophorbus proekes
+        zh: Hylophorbus proekes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGLT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/24
+            queryName: Hylophorbus proekes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-959f6bd866
+      - s-2dac278895
+      - s-8f39f11b1d
+      - s-37eb235ea8
+      - s-b4156e495c
+      - s-42ff59cef6
+    zh:
+      - s-f529900d7a
+      - s-c22ae768b6
+      - s-f4c8323770
+      - s-83ce075691
+      - s-ec90b570e1
+      - s-38e9ffcc0e

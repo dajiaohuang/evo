@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus kelloggi
+  displayName: Anaxyrus kelloggi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66LVB
+  sourceIndexes:
+    - name:
+        en: Anaxyrus kelloggi
+        zh: Anaxyrus kelloggi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66LVB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/440
+            queryName: Anaxyrus kelloggi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/398
+            queryName: Bufo kelloggi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/325
+            queryName: Bufo debilis kelloggi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1b00c555c7
+      - s-39fe1b186c
+      - s-d037eea8f5
+      - s-c42fe129f1
+      - s-565876f416
+      - s-bb0ca25250
+      - s-4d1fb83237
+      - s-f004eac40b
+      - s-d5f7667ce0
+      - s-6514441daa
+      - s-e69eea0237
+      - s-321cc5c9ff
+      - s-7110da3a73
+      - s-ecc4d188fe
+      - s-0bdaa876af
+      - s-1dcbdff8a1
+      - s-54ac51a4ce
+      - s-8d9e1f565e
+      - s-cf99a670df
+      - s-f4d83999f8
+      - s-d99e8ab1a2
+    zh:
+      - s-23235e6e0f
+      - s-f1665c3230
+      - s-c3fc3c26ba
+      - s-ea579c6401
+      - s-255b255d28
+      - s-881ebe837a
+      - s-d9a54e1fd4
+      - s-29f15cab79
+      - s-6c20b74a54
+      - s-9b433680bd
+      - s-6000903a3f
+      - s-cef0965e97
+      - s-51ab237c4a
+      - s-931d34a042
+      - s-f6e249c391
+      - s-dfdf48b858
+      - s-6494fb1c26
+      - s-9e901f7131
+      - s-65acf01e86
+      - s-7e107c0382
+      - s-95a0dad819

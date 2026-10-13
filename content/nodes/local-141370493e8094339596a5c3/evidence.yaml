@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Panophrys mufumontana
+    name:
+      en: Panophrys mufumontana
+      zh: Panophrys mufumontana
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Panophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-37020a1ccf
+            part: body
+          zh:
+            page: zh
+            section: s-d71302b887
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-06dbf65eae
+            part: body
+          zh:
+            page: zh
+            section: s-ac6841e7b9
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4015, 4016; Reference.csv rows 1050
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4015
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys mufumontana
+          - M
+          - "30.45"
+          - "11.75"
+          - "11.55"
+          - "3.55"
+          - "1.75"
+          - "1.75"
+          - "2.85"
+          - "3.05"
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - "8.85"
+          - "7.45"
+          - NA
+          - NA
+          - "22.35"
+          - "15.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4016
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys mufumontana
+          - F
+          - "36.3"
+          - "12.1"
+          - "12"
+          - "3.75"
+          - "2.15"
+          - "1.85"
+          - "3.25"
+          - "3.55"
+          - NA
+          - NA
+          - "3.95"
+          - NA
+          - "9.65"
+          - "8.1"
+          - NA
+          - NA
+          - "24.95"
+          - "17.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1050
+        values:
+          - Anura
+          - Panophrys_mufumontana
+          - Wang, J., Lyu, Z. T., Liu, Z. Y., Liao, C. K., Zeng, Z. C., Zhao, J., . . . Wang, Y. Y. (2019). Description of six new species of the subgenus Panophrys within the genus Megophrys (Anura, Megophryidae) from southeastern China based on molecular and morphological data. Zookeys(851), 113-164. https://doi.org/10.3897/zookeys.851.29107
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - TFL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

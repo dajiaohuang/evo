@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phantasmarana massarti
+  displayName: Phantasmarana massarti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/RWZCY
+  sourceIndexes:
+    - name:
+        en: Phantasmarana massarti
+        zh: Phantasmarana massarti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: RWZCY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/22
+            queryName: Phantasmarana massarti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/239
+            queryName: Megaelosia massarti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/250
+            queryName: Elosia massarti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-53fe830113
+      - s-5f957832f0
+      - s-a9094949bf
+      - s-58e9d9b3d6
+      - s-1ad8a1f18c
+      - s-bbd2151f2f
+      - s-44d37c9542
+      - s-0bb4e9232d
+      - s-bc70889dbf
+      - s-ed3661c4ac
+      - s-8619d30789
+      - s-2defe67e9c
+      - s-0f4a6de610
+      - s-b194b8cb43
+      - s-127efb3f9e
+      - s-9d97d61299
+      - s-94c8979518
+      - s-fcfd1567e4
+      - s-384b22ad63
+      - s-a9fb19c399
+    zh:
+      - s-0da18a31ce
+      - s-37d1f22453
+      - s-70ff38aed6
+      - s-efb2ff60f6
+      - s-d15a25ebe9
+      - s-0813129108
+      - s-a6acb36ea6
+      - s-df15791531
+      - s-c2a4c70b25
+      - s-955a716282
+      - s-82e47dcd71
+      - s-ac6d80e7c8
+      - s-c1f6e63972
+      - s-d69f2fded7
+      - s-68a5b5749b
+      - s-a2bbd8fe26
+      - s-f19427fdd7
+      - s-eca07f955b
+      - s-a95ab57379
+      - s-e537a78b01

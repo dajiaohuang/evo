@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis altamnis
+  displayName: Pristimantis altamnis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ97
+  sourceIndexes:
+    - name:
+        en: Pristimantis altamnis
+        zh: Pristimantis altamnis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ97
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/101
+            queryName: Pristimantis altamnis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f653dbaf1
+      - s-99b974c96f
+      - s-ada0a698a6
+      - s-2ceb62b427
+      - s-30007c69f2
+      - s-df03a9f8f4
+      - s-90a048b012
+    zh:
+      - s-d8a3265642
+      - s-47c22ebc06
+      - s-885601702c
+      - s-4567a7a1aa
+      - s-f884f0251c
+      - s-59c6bc8ac6
+      - s-2762ad27cd

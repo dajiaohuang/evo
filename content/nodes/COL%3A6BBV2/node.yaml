@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor obesus
+  displayName: Craugastor obesus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BBV2
+  sourceIndexes:
+    - name:
+        en: Craugastor obesus
+        zh: Craugastor obesus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BBV2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/147
+            queryName: Craugastor obesus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/457
+            queryName: Eleutherodactylus obesus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/226
+            queryName: Syrrhopus obesus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c18c0f4f46
+      - s-70b8dd4dea
+      - s-717b7a5877
+      - s-ef88edbc24
+      - s-14ee353c25
+      - s-307c86acb2
+      - s-712e1372b7
+      - s-2ca7b1bd0f
+      - s-1dd74af0db
+    zh:
+      - s-25ce1da918
+      - s-228c8f255c
+      - s-0cdfb953e2
+      - s-4c2bbc6ad5
+      - s-79b17415fb
+      - s-8dcb113c2f
+      - s-0e64600666
+      - s-c96c84ed1e
+      - s-8c21d37369

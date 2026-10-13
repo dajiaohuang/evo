@@ -1,0 +1,353 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anchitherium
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Anchitherium
+      en: Anchitherium
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-13ce3d1295
+            part: body
+          en:
+            page: en
+            section: s-6766206385
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e961cbd2fb
+            part: body
+          en:
+            page: en
+            section: s-294e64afef
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Anchitherium
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=42987
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:42987
+          readingTargets:
+            - name: Anchitherium zitteli
+              pbdbTaxonId: txn:53168
+              canonicalPath: content/nodes/PBDB%3A53168
+            - name: Anchitherium navasotae
+              pbdbTaxonId: txn:48726
+              canonicalPath: content/nodes/PBDB%3A48726
+            - name: Anchitherium aurelianense
+              pbdbTaxonId: txn:56992
+              canonicalPath: content/nodes/PBDB%3A56992
+            - name: Anchitherium clarencei
+              pbdbTaxonId: txn:44052
+              canonicalPath: content/nodes/PBDB%3A44052
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-dd1e5b2ff2
+        part: body
+      en:
+        page: en
+        section: s-b143442cb1
+        part: body
+  atlas-node:
+    name: Anchitherium
+    commonName: Three-toed Browsing Horses
+    commonNameZh: 三趾食叶马类
+    rank: genus
+    taxonId: txn:42987
+    firstAppearance: 20.4
+    lastAppearance: 9
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+  atlas-profile:
+    pbdbTaxonId: txn:42987
+    scientificName: Anchitherium
+    commonName: Three-toed browsing horse
+    commonNameZh: 安琪马
+    rank: genus
+    parentName: Equidae
+    extinct: true
+    geography:
+      - Central and western Europe (MN3–MN9 record discussed)
+    overview:
+      page: en
+      section: s-fde26febae
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-ce04df107d
+        part: body
+      habitat:
+        page: en
+        section: s-ae13ecd35c
+        part: body
+      locomotion:
+        page: en
+        section: s-8af2f00e4d
+        part: body
+      bodySize:
+        page: en
+        section: s-ba5f8a5034
+        part: body
+      guild:
+        page: en
+        section: s-60be5e0dfc
+        part: body
+      dietZh:
+        page: zh
+        section: zh-e031836be0f4a3
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-5d4cf8013cd78d
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-468cdb8e83ee00
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-2ee10b286d7371
+        part: body
+      guildZh:
+        page: zh
+        section: zh-fff51bb895716f
+        part: body
+    traits:
+      - page: en
+        section: s-005e39a214
+        part: body
+      - page: en
+        section: s-087f420087
+        part: body
+      - page: en
+        section: s-92c31b6778
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-5a589a892e
+      part: body
+    readerSections:
+      - id: tooth-wear-sample
+        title:
+          en:
+            page: en
+            section: s-98288c6933
+            part: title
+          zh:
+            page: zh
+            section: s-c019d082a0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-98288c6933
+            part: body
+          zh:
+            page: zh
+            section: s-c019d082a0
+            part: body
+        sourceIds:
+          - kaiser-2009-anchitherium-diet
+      - id: anatomy-and-regional-record
+        title:
+          en:
+            page: en
+            section: s-997e519019
+            part: title
+          zh:
+            page: zh
+            section: s-ad6f6dfa14
+            part: title
+        text:
+          en:
+            page: en
+            section: s-997e519019
+            part: body
+          zh:
+            page: zh
+            section: s-ad6f6dfa14
+            part: body
+        sourceIds:
+          - kaiser-2009-anchitherium-diet
+    confidence: high
+    referenceIds:
+      - kaiser-2009-anchitherium-diet
+      - amnh-equidae
+    readerSources:
+      - id: kaiser-2009-anchitherium-diet
+        referenceId: kaiser-2009-anchitherium-diet
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Recorded reader-passage locators: supports; pages: 131–140; figure: Figures 1–3; Table 1; quoteLocator: Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)"
+            zh: "读者段落的原始定位：supports; pages: 131–140; figure: Figures 1–3; Table 1; quoteLocator: Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)"
+    overviewZh:
+      page: zh
+      section: zh-094c4328c3e1e3
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-6ae53f6d83a228
+      part: body
+  claims:
+    - subjectId: taxon:anchitherium
+      claimKind: scientific
+      claimType: ecology
+      statement: Mesowear from 35 Anchitherium aurelianense cheek teeth at Sandelzhausen supports browse-dominated mixed feeding rather than a uniform pure-browser model.
+      confidence: medium
+      confidenceRationale: The primary study directly measures a named 35-tooth sample. High confidence applies to that species and locality and does not turn one German mesowear signal into a uniform global genus ecology.
+      referenceLinks:
+        - referenceId: kaiser-2009-anchitherium-diet
+          relation: supports
+          pages: 131–140
+          figure: Figures 1–3; Table 1
+          quoteLocator: Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)
+    - subjectId: taxon:anchitherium
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Anchitherium is treated as an equid genus, with the ecological evidence tied specifically to A. aurelianense at Sandelzhausen.
+      confidence: medium
+      confidenceRationale: The primary study identifies the type species and its local sample, avoiding a genus-wide diet claim.
+      referenceLinks:
+        - referenceId: kaiser-2009-anchitherium-diet
+          relation: supports
+          pages: 131–140
+          figure: Figures 1–3; Table 1
+          quoteLocator: Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)
+    - subjectId: taxon:anchitherium
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The atlas’s 20.4–9 Ma occurrence envelope is provisional; the cited study independently records European Anchitherium from MN3 through MN9 without claiming exact global endpoints.
+      confidence: low
+      confidenceRationale: High confidence applies to the published European biochronologic bracket; the global navigation envelope remains explicitly provisional.
+      referenceLinks:
+        - referenceId: kaiser-2009-anchitherium-diet
+          relation: supports
+          pages: 131–140
+          figure: Figures 1–3; Table 1
+          quoteLocator: Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)
+    - subjectId: taxon:anchitherium
+      claimKind: scientific
+      claimType: morphology
+      statement: Anchitherium in the cited diagnosis has low-crowned lophodont cheek teeth and a tridactyl manus with reduced fifth metacarpal; “slender limbs” is not retained as a study result.
+      confidence: medium
+      confidenceRationale: The primary paper directly lists the dental and manus characters used here.
+      referenceLinks:
+        - referenceId: kaiser-2009-anchitherium-diet
+          relation: supports
+          pages: 131–140
+          figure: Figures 1–3; Table 1
+          quoteLocator: Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)
+    - subjectId: taxon:anchitherium
+      claimKind: scientific
+      claimType: biogeography
+      statement: The evidence profile covers the central and western European MN3–MN9 record discussed in the primary study rather than asserting a complete North American–Eurasian genus distribution.
+      confidence: medium
+      confidenceRationale: The narrowed geography matches the paper’s actual regional scope.
+      referenceLinks:
+        - referenceId: kaiser-2009-anchitherium-diet
+          relation: supports
+          pages: 131–140
+          figure: Figures 1–3; Table 1
+          quoteLocator: Diagnosis and European MN3–MN9 context (pp. 131–132); 35-tooth mesowear result and discussion (pp. 133–139)
+  claim-rationales.zh:
+    - 主研究直接测量了一个具名的 35 枚牙齿样本。高置信度适用于该物种与地点，不把一个德国地点的中观磨耗信号变成全球统一的属级生态。
+    - 分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。
+    - 化石范围主张把论文直接约束的区域或样本年代与图集的临时导航端点分开，端点不被当作精确起源或灭绝时刻。
+    - 形态主张只保留引文图表或诊断直接支持的骨骼、牙齿性状，并把软组织、姿势或功能解释明确标为推断。
+    - 生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。
+  claim-statements.zh:
+    - 安琪马属按所引系统研究采用当前分类层级；导航父级仅表示分类关联，不表示直接祖先。
+    - 安琪马属的图集数值范围仍是临时导航包络；主研究只独立约束其明确讨论的区域或样本年代，端点不是精确起源或灭绝时刻。
+    - 安琪马属的形态档案仅记录所引研究直接描述或测量的牙齿、颅骨或肢骨性状，功能解释另行标注。
+    - 安琪马属的地理档案只覆盖所引研究明确讨论的区域与地点，并非完整的全球产出分布。
+    - Sandelzhausen 的 35 枚奥尔良安琪马颊齿中观磨耗支持以浏览为主的混合取食，而不是统一的纯浏览者模型。
+  ranges:
+    - entityId: anchitherium
+      rangeKind: global-composite
+      taxonomicConcept: Anchitherium numerical range withheld pending genus-wide global synthesis
+      geographicScope: No defensible global numerical scope established
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The source covers a European MN3–MN9 context and Sandelzhausen sample, not global endpoints.
+      evidenceBasis: The former 20.4–9 Ma display is withheld because the primary study directly supports European MN3–MN9 context and one Sandelzhausen species sample, not exact global genus endpoints.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: kaiser-2009-anchitherium-diet
+          locator: pp. 131–140; Figures 1–3; Table 1; European MN3–MN9 context and Sandelzhausen A. aurelianense sample
+      evidenceLevel: withheld-no-range-evidence

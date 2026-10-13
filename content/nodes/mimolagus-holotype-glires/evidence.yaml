@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-990e3bc58f
+      part: title
+    titleZh:
+      page: zh
+      section: s-39b5af9672
+      part: title
+    category: morphology
+    startAge: 47.8
+    endAge: 41.2
+    regions:
+      - Lower Irdin Manha Formation, Erlian Basin, Nei Mongol, China
+    clades:
+      - Mimolagus aurorae
+      - Glires
+      - Mimotonidae
+    summary:
+      page: en
+      section: s-990e3bc58f
+      part: body
+    summaryZh:
+      page: zh
+      section: s-39b5af9672
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-7c2efb23e1
+            part: title
+          zh:
+            page: zh
+            section: s-4545345e94
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7c2efb23e1
+            part: body
+          zh:
+            page: zh
+            section: s-4545345e94
+            part: body
+        id: observed-material
+        sourceIds:
+          - fostowicz-frelik-2015-mimolagus
+      - title:
+          en:
+            page: en
+            section: s-1f1d264b85
+            part: title
+          zh:
+            page: zh
+            section: s-aef8f24b85
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1f1d264b85
+            part: body
+          zh:
+            page: zh
+            section: s-aef8f24b85
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - fostowicz-frelik-2015-mimolagus
+    claimIds:
+      - claim:event:mimolagus-holotype-glires
+    evidenceItems:
+      - statement: Holotype right M3 IVPP V20115 and referred teeth, astragalus, calcanei and cuboid establish the anatomical sample and locality.
+        relation: supports
+        claimIds:
+          - claim:event:mimolagus-holotype-glires
+        referenceLinks:
+          - referenceId: fostowicz-frelik-2015-mimolagus
+            relation: supports
+            pages: "9394"
+            figure: Figures 1–6; Tables S1–S6
+            quoteLocator: Holotype; Referred material; Body-size model; Discussion
+    uncertaintyItems:
+      - statement: A 4.5-kilogram estimate, cursoriality and tapiroid-like niche are regression and ecomorphology inferences; the taxon is not a direct lagomorph ancestor.
+        relation: contextualizes
+        claimIds:
+          - claim:event:mimolagus-holotype-glires
+        referenceLinks:
+          - referenceId: fostowicz-frelik-2015-mimolagus
+            relation: supports
+            pages: "9394"
+            figure: Figures 1–6; Tables S1–S6
+            quoteLocator: Holotype; Referred material; Body-size model; Discussion
+    readerSources:
+      - id: fostowicz-frelik-2015-mimolagus
+        referenceId: fostowicz-frelik-2015-mimolagus
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 9394; figure: Figures 1–6; Tables S1–S6; Holotype; Referred material; Body-size model; Discussion"
+  claims:
+    - subjectId: event:mimolagus-holotype-glires
+      claimKind: scientific
+      claimType: morphology
+      statement: Mimolagus aurorae holotype right M3 IVPP V20115 and referred teeth and tarsals document a large middle-Eocene mimotonid; estimated body mass and convergence on small tapiroid ecomorphology derive from astragalar regression and functional comparison, not direct ecology or ancestry.
+      confidence: medium
+      confidenceRationale: The named specimens, locality and dental and tarsal anatomy are directly documented; body mass, cursoriality, niche and mimotonid relationships remain comparative inferences.
+      referenceLinks:
+        - referenceId: fostowicz-frelik-2015-mimolagus
+          relation: supports
+          pages: "9394"
+          figure: Figures 1–6; Supplementary Tables S1–S6
+          quoteLocator: Systematic palaeontology; Holotype and referred material; Body-size analysis; Discussion
+  claim-rationales.zh:
+    - 具名标本、产地及牙齿和跗骨解剖有直接记录；体重、奔跑性、生态位与拟兔科关系仍是比较推断。
+  claim-statements.zh:
+    - Mimolagus aurorae 的正模右上第三臼齿 IVPP V20115 及归入的牙齿和跗骨记录一类大型中始新世拟兔科动物；体重与趋同小型貘类生态形态的判断来自距骨回归和功能比较，而非直接生态或祖先关系。

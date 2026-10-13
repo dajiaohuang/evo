@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon perpusilla
+  displayName: Ololygon perpusilla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4993Z
+  sourceIndexes:
+    - name:
+        en: Ololygon perpusilla
+        zh: Ololygon perpusilla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4993Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/138
+            queryName: Ololygon perpusilla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/56
+            queryName: Scinax perpusillus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/393
+            queryName: Hyla perpusilla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/394
+            queryName: Scinax perpusilla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/308
+            queryName: Hyla perpusilla perpusilla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-380c8b2b00
+      - s-b399f80ea8
+      - s-0e410c5396
+      - s-0bc432847a
+      - s-af98e88eb6
+      - s-a296b94f00
+      - s-809c293876
+      - s-8ee051749c
+      - s-a5647ec928
+      - s-57008e4c13
+      - s-25beb789be
+      - s-c718ba6b89
+    zh:
+      - s-65d3ac3687
+      - s-8710104756
+      - s-37d9c85b63
+      - s-8692545cef
+      - s-a33aeb3116
+      - s-ef78220532
+      - s-6aad878319
+      - s-52248b7135
+      - s-450317d174
+      - s-bee76f2aa4
+      - s-e557061bb5
+      - s-0ed7713f3b

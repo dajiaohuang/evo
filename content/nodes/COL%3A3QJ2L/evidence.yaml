@@ -1,0 +1,409 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Jacaranda copaia (Aubl.) D.Don
+    authorship: (Aubl.) D.Don
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 3F4
+        scientificName: Lamiales Bromhead
+        authorship: Bromhead
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 77P
+        scientificName: Bignoniaceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KVGLS
+        scientificName: Jacarandeae Seem.
+        authorship: Seem.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 62VTV
+        scientificName: Jacaranda Juss.
+        authorship: Juss.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 3QJ2L
+        scientificName: Jacaranda copaia (Aubl.) D.Don
+        authorship: (Aubl.) D.Don
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 3QJ2L; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/3QJ2L
+          stableId: col:3QJ2L@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 3QJ2L; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3QJ2L. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_3qj2l_distribution_2336
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Jacaranda copaia (Aubl.) D.Don, Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: ranges from British Honduras to Brazil, Peru, and the Guianas.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 2336
+          archiveSourceId: 432053B4-246F-4BB0-9010-FE4F410C4658
+          archiveSourceIds:
+            - 432053B4-246F-4BB0-9010-FE4F410C4658
+          referenceRowNumbers:
+            - 1218
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-4a5e4943-c0b4-802b-aa53-f48d2a464b1d
+                metadataVariant: 0
+                usage:
+                  identifier: 432053B4-246F-4BB0-9010-FE4F410C4658
+                  referenceRowNumber: 1218
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2336 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2336; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:3QJ2L:row:2336
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2336; field distribution; reference rows 1218.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2336; CC BY 4.0. Citation metadata: Jacaranda copaia D. Don, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_3qj2l_general_2340
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Jacaranda copaia (Aubl.) D.Don, Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Tree to 45 cm d.b.h. and 45 m tall, the trunk usually unbranched for most of its length and often somewhat flattened, young trees unbranched with a cluster of giant leaves at top, bark gray, smooth; twigs lepidote, subtetragonal, drying brown or blackish, the pith large, sometimes hollowed by ants. Leaves pinnately bicompound, 15-165 cm long, with 5-20 pinnae, each pinna 5-35 cm long with essentially wingless rachis and 5-25 sessile leaflets, these 1.5-8 cm long and 0.8-2.5 cm wide, asymmetrically rhombic-elliptic, acute to acuminate, asymmetrically attenuate, membranaceous, secondary veins 3-5 on one side and 4-6 on the other, lepidote with scabrous to puberulous midvein above and be- neath; drying dark brown above, olive beneath, petiole 3.5-29 cm long, the petiolules 2.5-4 cm long, petiole and petiolules lepidote to subpuberulous as on the main and lateral rachises. Inflorescence a narrow terminal panicle, its branches lepidote and subpuberulous to puberulous. Flowers with the calyx cupular, more or less truncate with 5 subequal teeth, pubescent with simple or branched trichomes, 5-7 mm long and 3-5 mm wide, eglandular; corolla purplish- blue outside and on the lobes and abaxially on the throat inside, white adaxially on the throat inside and at the base of 2 adaxial lobes, tubular-campanulate above a 7-10 mm x 3-4 mm basal constriction, 3.2-5.0 cm long and 0.8-1.9 cm wide at the mouth, the tube 2.3-3.7 cm long, the lobes 0.3-1.4 mm long, densely puber- ulent outside with simple, forked, and mostly short dendroid trichomes, the lobes dendroid pubescent inside, the tube glabrous adaxially and pubescent with mostly simple or forked trichomes abaxially, pubescent with gland-tipped trichomes at the level of stamen insertion; stamens didynamous, the anthers 1-thecate, 1.5-2.0 mm long, the anterior filaments 1.1-1.3 cm long, the posterior filaments 0.8-1.0 cm long, inserted 7-10 mm from the base of the tube, the staminode 2.4-2.7 cm long, bifurcate at the tip, glandular-pubescent with long simple trichomes on the tip and central portion; pistil 1.5-1.8 cm long, the ovary flattened-cylindrical, 2-2.5 mm long and 2-2.5 mm wide, 1.5 mm thick, glabrous, the ovules more or less 8-seriate in each locule; disc pulvinate, 1 mm long and 2.5 mm wide. Capsule compressed-oblong, the margins straight, not wavy, 6.2-12.7 cm long and 3.3-6.0 cm wide, somewhat lepidote to glabrous, drying brown or blackish; seeds small- bodied with a surrounding suborbicular wing, 1.0-2.0 cm long and 1.7-2.8 cm wide, the body 3-5 mm long and 3-4 mm wide, the wing hyaline-membra- naceous, with radial brownish striations, clearly demarcated from the seed body.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 2340
+          archiveSourceId: 86964542-06B2-47C4-B417-35BDCC2453DC
+          archiveSourceIds:
+            - 86964542-06B2-47C4-B417-35BDCC2453DC
+          referenceRowNumbers:
+            - 2029
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-4a5e4943-c0b4-802b-aa53-f48d2a464b1d
+                metadataVariant: 0
+                usage:
+                  identifier: 86964542-06B2-47C4-B417-35BDCC2453DC
+                  referenceRowNumber: 2029
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2340 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2340; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:3QJ2L:row:2340
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2340; field general; reference rows 2029.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2340; CC BY 4.0. Citation metadata: Jacaranda copaia D. Don, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_3qj2l_habit_2341
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Jacaranda copaia (Aubl.) D.Don, Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Tree
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 2341
+          archiveSourceId: B8D14212-629F-45E5-A0CB-9654FD3C98DE
+          archiveSourceIds:
+            - B8D14212-629F-45E5-A0CB-9654FD3C98DE
+          referenceRowNumbers:
+            - 2030
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-4a5e4943-c0b4-802b-aa53-f48d2a464b1d
+                metadataVariant: 0
+                usage:
+                  identifier: B8D14212-629F-45E5-A0CB-9654FD3C98DE
+                  referenceRowNumber: 2030
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2341 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2341; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:3QJ2L:row:2341
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2341; field habit; reference rows 2030.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2341; CC BY 4.0. Citation metadata: Jacaranda copaia D. Don, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Tree to 45 cm d.b.h. and 45 m tall, the trunk usually unbranched for most of its length and often somewhat flattened, young trees unbranched with a cluster of giant leaves at top, bark gray, smooth; twigs lepidote, subtetragonal, drying brown or blackish, the pith large, sometimes hollowed by ants. Leaves pinnately bicompound, 15-165 cm long, with 5-20 pinnae, each pinna 5-35 cm long with essentially wingless rachis and 5-25 sessile leaflets, these 1.5-8 cm long and 0.8-2.5 cm wide, asymmetrically rhombic-elliptic, acute to acuminate, asymmetrically attenuate, membranaceous, secondary veins 3-5 on one side and 4-6 on the other, lepidote with scabrous to puberulous midvein above and be- neath; drying dark brown above, olive beneath, petiole 3.5-29 cm long, the petiolules 2.5-4 cm long, petiole and petiolules lepidote to subpuberulous as on the main and lateral rachises. Inflorescence a narrow terminal panicle, its branches lepidote and subpuberulous to puberulous. Flowers with the calyx cupular, more or less truncate with 5 subequal teeth, pubescent with simple or branched trichomes, 5-7 mm long and 3-5 mm wide, eglandular; corolla purplish- blue outside and on the lobes and abaxially on the throat inside, white adaxially on the throat inside and at the base of 2 adaxial lobes, tubular-campanulate above a 7-10 mm x 3-4 mm basal constriction, 3.2-5.0 cm long and 0.8-1.9 cm wide at the mouth, the tube 2.3-3.7 cm long, the lobes 0.3-1.4 mm long, densely puber- ulent outside with simple, forked, and mostly short dendroid trichomes, the lobes dendroid pubescent inside, the tube glabrous adaxially and pubescent with mostly simple or forked trichomes abaxially, pubescent with gland-tipped trichomes at the level of stamen insertion; stamens didynamous, the anthers 1-thecate, 1.5-2.0 mm long, the anterior filaments 1.1-1.3 cm long, the posterior filaments 0.8-1.0 cm long, inserted 7-10 mm from the base of the tube, the staminode 2.4-2.7 cm long, bifurcate at the tip, glandular-pubescent with long simple trichomes on the tip and central portion; pistil 1.5-1.8 cm long, the ovary flattened-cylindrical, 2-2.5 mm long and 2-2.5 mm wide, 1.5 mm thick, glabrous, the ovules more or less 8-seriate in each locule; disc pulvinate, 1 mm long and 2.5 mm wide. Capsule compressed-oblong, the margins straight, not wavy, 6.2-12.7 cm long and 3.3-6.0 cm wide, somewhat lepidote to glabrous, drying brown or blackish; seeds small- bodied with a surrounding suborbicular wing, 1.0-2.0 cm long and 1.7-2.8 cm wide, the body 3-5 mm long and 3-4 mm wide, the wing hyaline-membra- naceous, with radial brownish striations, clearly demarcated from the seed body.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_3qj2l_general_2340
+            locator: "Flora of Panama general field; imported row 2340; sourceIds 86964542-06B2-47C4-B417-35BDCC2453DC; reference rows 2029; citations: 86964542-06B2-47C4-B417-35BDCC2453DC: Jacaranda copaia D. Don, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 2029)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: ranges from British Honduras to Brazil, Peru, and the Guianas.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_3qj2l_distribution_2336
+            locator: "Flora of Panama distribution field; imported row 2336; sourceIds 432053B4-246F-4BB0-9010-FE4F410C4658; reference rows 1218; citations: 432053B4-246F-4BB0-9010-FE4F410C4658: Jacaranda copaia D. Don, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 1218)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.

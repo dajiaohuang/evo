@@ -1,0 +1,443 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arthroleptis adolfifriederici Nieden, 1911
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Arthroleptis adolfifriederici
+      zh: Arthroleptis adolfifriederici
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-dc61f1e9e9
+            part: title
+          zh:
+            page: zh
+            section: s-94e27273a8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dc61f1e9e9
+            part: body
+          zh:
+            page: zh
+            section: s-94e27273a8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-58aa65c8d5
+            part: title
+          zh:
+            page: zh
+            section: s-91c159df75
+            part: title
+        text:
+          en:
+            page: en
+            section: s-58aa65c8d5
+            part: body
+          zh:
+            page: zh
+            section: s-91c159df75
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-741d19f9c0
+            part: title
+          zh:
+            page: zh
+            section: s-917a70a11d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-741d19f9c0
+            part: body
+          zh:
+            page: zh
+            section: s-917a70a11d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-3a31fa699e4167e386d3944cc735590a
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-1b28a1d9931abab455aa1d37
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ce2388c386
+            part: title
+          zh:
+            page: zh
+            section: s-9e70e84239
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ce2388c386
+            part: body
+          zh:
+            page: zh
+            section: s-9e70e84239
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-2e1481a61d
+            part: title
+          zh:
+            page: zh
+            section: s-52fdc610e3
+            part: title
+        sourceIds:
+          - primary-pmc13072372-gypv
+        text:
+          en:
+            page: en
+            section: s-2e1481a61d
+            part: body
+          zh:
+            page: zh
+            section: s-52fdc610e3
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c742218f38
+            part: title
+          zh:
+            page: zh
+            section: s-bafdd3554c
+            part: title
+        sourceIds:
+          - primary-pmc13072372-gypv
+        text:
+          en:
+            page: en
+            section: s-c742218f38
+            part: body
+          zh:
+            page: zh
+            section: s-bafdd3554c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-e1456e47ec
+            part: title
+          zh:
+            page: zh
+            section: s-4576b7f38b
+            part: title
+        sourceIds:
+          - primary-pmc13072372-gypv
+        text:
+          en:
+            page: en
+            section: s-e1456e47ec
+            part: body
+          zh:
+            page: zh
+            section: s-4576b7f38b
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-7f2c72a5bb
+            part: title
+          zh:
+            page: zh
+            section: s-058a84bef3
+            part: title
+        sourceIds:
+          - primary-pmc13072372-gypv
+        text:
+          en:
+            page: en
+            section: s-7f2c72a5bb
+            part: body
+          zh:
+            page: zh
+            section: s-058a84bef3
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ce4f6d1719
+            part: body
+          zh:
+            page: zh
+            section: s-387ed17b0b
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Arthroleptis adolfifriederici
+          url: https://www.checklistbank.org/dataset/316115/taxon/GYPV
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 466; Reference.csv rows 2470
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0119; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0119 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13072372-gypv
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Arthroleptis adolfifriederici: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6c3df19829
+        part: body
+      zh:
+        page: zh
+        section: s-8273ed70f6
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-1b28a1d9931abab455aa1d37
+        scientificName: Arthroleptis adolfifriederici
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani16071104
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        sourceKey: primary-pmc13072372-gypv
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13072372/article.xml
+        sourceConcept: Source Arthroleptis adolfifriederici compiled2010–2023Rwanda detections andindexcategories; exactwrittenname only, no originalvoucher/currentconceptcertification
+        evidenceRead: "Arthroleptis adolfifriederici: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Occurrence counts in the assembled Rwanda sample
+              zh: 卢旺达汇总样本中的出现计数
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-gypv
+            locator: PMC13072372 XML TablesA2/A3 namedrow Arthroleptis adolfifriederici;sec2dot3;sec3dot1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c0c29f34db
+                part: body
+              zh:
+                page: zh
+                section: s-0808a1a6de
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A species score for a specified conservation framework
+              zh: 特定保护框架中的物种评分
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-gypv
+            locator: PMC13072372 XML TableA4 row1;Table1;sec2dot4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2e7302b247
+                part: body
+              zh:
+                page: zh
+                section: s-1ee444ccc3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Species Index and site index have different meanings
+              zh: 物种指数与站点指数含义不同
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-gypv
+            locator: PMC13072372 XML sec2dot4;sec3dot3;sec4dot2;TableA4 row1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f6c72a0050
+                part: body
+              zh:
+                page: zh
+                section: s-eba3a9490d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Sampling and transfer limits
+              zh: 采样与迁移应用限制
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-gypv
+            locator: PMC13072372 XML sec2dot3/5;sec3dot1/4;sec4dot1–3;TablesA1/4/7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1d9a4a7581
+                part: body
+              zh:
+                page: zh
+                section: s-5551419fd3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

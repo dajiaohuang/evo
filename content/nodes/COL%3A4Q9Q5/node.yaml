@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena bunoderma
+  displayName: Ptychadena bunoderma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9Q5
+  sourceIndexes:
+    - name:
+        en: Ptychadena bunoderma
+        zh: Ptychadena bunoderma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9Q5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/461
+            queryName: Ptychadena bunoderma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/169
+            queryName: Rana bunoderma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/170
+            queryName: Ptychadena buneli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-86cd75e613
+      - s-339b790e44
+      - s-e060e0f6e3
+      - s-2b1ed44344
+      - s-9706d1b3ff
+      - s-f623175a98
+      - s-3f4f10a6b7
+      - s-5cef5e6ca0
+    zh:
+      - s-c41ec163af
+      - s-f8231e3200
+      - s-c028864057
+      - s-7be1bcf0e8
+      - s-63504e4a5c
+      - s-8951e30792
+      - s-5f8ab0bae5
+      - s-e2d14fe154

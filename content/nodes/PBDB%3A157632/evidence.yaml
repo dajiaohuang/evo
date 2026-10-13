@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Chalcosaurus rossicus
+    rank: species
+    sourceTaxonId: txn:157632
+    name:
+      en: Chalcosaurus rossicus
+      zh: Chalcosaurus rossicus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-92feb08643
+            part: body
+          zh:
+            page: zh
+            section: s-db01b4c965
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-b682fb48f5
+            part: body
+          zh:
+            page: zh
+            section: s-ec6e455982
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Chalcosaurus rossicus
+          zh: Chalcosaurus rossicus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-05bf4ac059
+            part: body
+          zh:
+            page: zh
+            section: s-6c7edd9467
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:157632; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: H. v. Meyer. 1866. Reptilien aus dem Kupfer-Sandstein des West-Uralischen Gouvernements Orenburg. Palaeontographica 15(3):97-130
+    occurrenceEvidence:
+      - occurrenceId: occ:837523
+        collectionId: col:87039
+        acceptedTaxonId: txn:157632
+        identifiedName: Chalcosaurus rossicus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:28657
+        bibliography: "M. F. Ivakhnenko. 2008. Podklass Parareptilia.  In M. F. Ivakhnenko and E. N. Kurotchkin (eds.), Iskopaemye pozvonotchnye Rossii i sopredel'nykh stran: Iskopaemye reptilii i ptitsy, Tchast' 1 [Fossil vertebrates of Russia and adjacent countries: Fossil reptiles and birds, Part 1], GEOS, Moscow"
+        locality:
+          countryCode: RU
+          stateProvince: Orenburg
+          county: Oktyabrskoe
+        stratigraphy:
+          group: null
+          formation: Amanakskaya
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Chalcosaurus rossicus
+          zh: Chalcosaurus rossicus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-05bf4ac059
+            part: body
+          zh:
+            page: zh
+            section: s-6c7edd9467
+            part: body
+        sourceIds: []

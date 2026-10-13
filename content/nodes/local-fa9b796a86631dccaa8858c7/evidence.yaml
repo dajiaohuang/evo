@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pleurodema kriegi
+    name:
+      en: Pleurodema kriegi
+      zh: Pleurodema kriegi
+    sourceClassification:
+      order: Anura
+      family: Leptodactylidae
+      genus: Pleurodema
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b06ea37531
+            part: body
+          zh:
+            page: zh
+            section: s-629b3eb4f2
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-72468c90e4
+            part: body
+          zh:
+            page: zh
+            section: s-c42a5ffdb9
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4392; Reference.csv rows 2878
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4392
+        values:
+          - Leptodactylidae
+          - Pleurodema
+          - Pleurodema kriegi
+          - M
+          - "33.24"
+          - "12.36"
+          - "13.27"
+          - "3.55"
+          - NA
+          - NA
+          - "3.05"
+          - "2.08"
+          - NA
+          - "2.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "15.56"
+          - NA
+          - NA
+          - "15.51"
+          - "14.89"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.22"
+          - "9.08"
+          - NA
+          - NA
+          - NA
+          - "4.91"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2878
+        values:
+          - Anura
+          - Pleurodema_kriegi
+          - "Valetti, J., Salas, N., & Martino, A. (2009). A new polyploid species of Pleurodema (Anura: Leiuperidae) from Sierra de Comechingones, Córdoba, Argentina and redescription of Pleurodema kriegi (Müller, 1926). Zootaxa, 2073, 1-21. https://doi.org/10.11646/zootaxa.2073.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - EN
+      - LAL
+      - TL
+      - THL
+      - Toe3L
+      - Toe4L
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6W42G
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobius perplicatus Min & Borzée, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobius perplicatus
+      zh: Hynobius perplicatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fc982a5119
+            part: title
+          zh:
+            page: zh
+            section: s-5a1c81b092
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fc982a5119
+            part: body
+          zh:
+            page: zh
+            section: s-5a1c81b092
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a171e63526
+            part: title
+          zh:
+            page: zh
+            section: s-a616ae405b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a171e63526
+            part: body
+          zh:
+            page: zh
+            section: s-a616ae405b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fb0aa14477
+            part: title
+          zh:
+            page: zh
+            section: s-2dc1bfee94
+            part: title
+        sourceIds:
+          - primary-pmc7830202-q37xm
+        text:
+          en:
+            page: en
+            section: s-fb0aa14477
+            part: body
+          zh:
+            page: zh
+            section: s-2dc1bfee94
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d29d6fc037
+            part: title
+          zh:
+            page: zh
+            section: s-609da3a69e
+            part: title
+        sourceIds:
+          - primary-pmc7830202-q37xm
+        text:
+          en:
+            page: en
+            section: s-d29d6fc037
+            part: body
+          zh:
+            page: zh
+            section: s-609da3a69e
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-649accfcb3
+            part: title
+          zh:
+            page: zh
+            section: s-e35f75748b
+            part: title
+        sourceIds:
+          - primary-pmc7830202-q37xm
+        text:
+          en:
+            page: en
+            section: s-649accfcb3
+            part: body
+          zh:
+            page: zh
+            section: s-e35f75748b
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f53262c064
+            part: title
+          zh:
+            page: zh
+            section: s-b3362649f2
+            part: title
+        sourceIds:
+          - primary-pmc7830202-q37xm
+        text:
+          en:
+            page: en
+            section: s-f53262c064
+            part: body
+          zh:
+            page: zh
+            section: s-b3362649f2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobius perplicatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q37XM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7830202-q37xm
+        referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hynobius perplicatus: Named treatments, comparative results and conservation paragraphs; additional original XML adult methods and explicitly pooled three-species natural history; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c3406e9a01
+        part: body
+      zh:
+        page: zh
+        section: s-663b719e26
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani11010187
+        referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+        sourceKey: primary-pmc7830202-q37xm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7830202/article.xml
+        sourceConcept: Hynobius perplicatus
+        evidenceRead: "Hynobius perplicatus: Named treatments, comparative results and conservation paragraphs; additional original XML adult methods and explicitly pooled three-species natural history; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Four dated types from Uiryeong
+              zh: Uiryeong 四件有日期模式标本
+            referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+            sourceKey: primary-pmc7830202-q37xm
+            locator: PMC7830202 reading-sections section 5, paragraphs 5 and 7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-289dfdff93
+                part: body
+              zh:
+                page: zh
+                section: s-4305eb22a6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: A cryptic large-bodied comparison and repeated abbreviation
+              zh: 隐蔽大体型比较及重复缩写
+            referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+            sourceKey: primary-pmc7830202-q37xm
+            locator: PMC7830202 reading-sections section 5, paragraphs 9 and 11
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a1d0c6ae41
+                part: body
+              zh:
+                page: zh
+                section: s-94ed0b4227
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Natural history pooled across three species
+              zh: 三种合并的自然史
+            referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+            sourceKey: primary-pmc7830202-q37xm
+            locator: PMC7830202 reading-sections article.xml Results > Species Description > Natural History, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c3dd429a44
+                part: body
+              zh:
+                page: zh
+                section: s-2372339657
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Two connected sites and a threshold-based conservation proposal
+              zh: 两个相连地点及基于阈值的保护提议
+            referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+            sourceKey: primary-pmc7830202-q37xm
+            locator: PMC7830202 reading-sections section 6, paragraph 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ea086eacb8
+                part: body
+              zh:
+                page: zh
+                section: s-20fe646add
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

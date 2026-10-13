@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus aguirrei
+  displayName: Physalaemus aguirrei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF8N
+  sourceIndexes:
+    - name:
+        en: Physalaemus aguirrei
+        zh: Physalaemus aguirrei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF8N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/299
+            queryName: Physalaemus aguirrei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7a91ac145b
+      - s-c6c954fb6c
+      - s-e72565bc40
+      - s-2dca9c7c99
+      - s-7d5475d2f9
+      - s-060f4409c2
+      - s-07ba3667f9
+      - s-6aa76503f6
+      - s-6916a5fcc6
+      - s-62dc61d386
+      - s-edfa4b1fe8
+    zh:
+      - s-52cbe89460
+      - s-36c67e7845
+      - s-e0145a8b4f
+      - s-bd894c30f1
+      - s-a3f035878c
+      - s-5742bfd24a
+      - s-424319a872
+      - s-eb5b02712b
+      - s-b095c235b8
+      - s-39ca0c96c2
+      - s-4c2a44e563

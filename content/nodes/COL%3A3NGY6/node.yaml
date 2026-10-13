@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus ramosi
+  displayName: Hyloxalus ramosi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGY6
+  sourceIndexes:
+    - name:
+        en: Hyloxalus ramosi
+        zh: Hyloxalus ramosi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGY6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/127
+            queryName: Hyloxalus ramosi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/139
+            queryName: Colostethus ramosi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a23ed780a
+      - s-63793ca06a
+      - s-8e855eb86d
+      - s-72525c2dda
+      - s-e04befb95e
+      - s-4722bbbc7c
+      - s-584ad5caca
+      - s-316e529ca2
+    zh:
+      - s-81339b7769
+      - s-bc0fe3fa04
+      - s-89e5c6bd59
+      - s-0c80f818c8
+      - s-fb9bbb9c1b
+      - s-0870fa37c7
+      - s-28216c9870
+      - s-eb0440cd23

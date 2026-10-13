@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenophrys glandulosa
+  displayName: Xenophrys glandulosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CB22
+  sourceIndexes:
+    - name:
+        en: Xenophrys glandulosa
+        zh: Xenophrys glandulosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CB22
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/278
+            queryName: Xenophrys glandulosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/495
+            queryName: Megophrys glandulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/496
+            queryName: Liuophrys glandulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fd5e232768
+      - s-bb6f487898
+      - s-d97ae90b5b
+      - s-6682dea482
+      - s-cd964e7daf
+      - s-97b37fe0f3
+      - s-a7e1f88021
+      - s-9a42bf08c1
+      - s-d193d6b79c
+      - s-281336e8b9
+    zh:
+      - s-594110372d
+      - s-1a7bb1f466
+      - s-8d47c34961
+      - s-4033d3b5bf
+      - s-fbb2e03b8e
+      - s-f7d4a98dc7
+      - s-d31f373926
+      - s-e14883a99c
+      - s-9ce46df883
+      - s-a8b7357462

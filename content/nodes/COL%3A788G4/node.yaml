@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pyrrhomerus
+  displayName: Pristimantis pyrrhomerus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/788G4
+  sourceIndexes:
+    - name:
+        en: Pristimantis pyrrhomerus
+        zh: Pristimantis pyrrhomerus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 788G4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/28
+            queryName: Pristimantis pyrrhomerus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/12
+            queryName: Eleutherodactylus pyrrhomerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bb44328ab3
+      - s-513b6e5fb9
+      - s-997dfd04bb
+      - s-cbefb8617b
+      - s-4952729565
+      - s-5b0be563db
+      - s-642185f5a4
+      - s-feaaf403eb
+      - s-6d9057f452
+      - s-8660827abf
+      - s-f77750236f
+      - s-cd9e22c1cb
+      - s-f5815a8487
+      - s-6efb09e33c
+      - s-a2839d2828
+      - s-635653f0e1
+      - s-15e02558b5
+      - s-c0adcfcfca
+      - s-3d918365e0
+      - s-4c4565c959
+      - s-54e743b77c
+      - s-d696ca3009
+      - s-5490dc0707
+      - s-0c7cd81ca7
+      - s-7c2b7edba5
+      - s-4b0c205fbf
+    zh:
+      - s-e486ec8ba6
+      - s-f4709c8d0c
+      - s-26cd6cc82f
+      - s-e20a8e3693
+      - s-26c9d1e9d9
+      - s-26c3925e57
+      - s-5840bba178
+      - s-ebf8938b1d
+      - s-b94a461f25
+      - s-58c07986b0
+      - s-b29753461d
+      - s-ad42b56326
+      - s-22d3941e08
+      - s-479972fb05
+      - s-41b00d442a
+      - s-7435aa32ea
+      - s-6f593eac94
+      - s-359b0fd480
+      - s-a4d93f6393
+      - s-622a7d235c
+      - s-1523a11e4f
+      - s-41d4661198
+      - s-3441c93a8e
+      - s-510f742e8d
+      - s-3bf8487569
+      - s-ab2c7bc855

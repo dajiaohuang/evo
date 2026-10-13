@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus iberia
+  displayName: Eleutherodactylus iberia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399C8
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus iberia
+        zh: Eleutherodactylus iberia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399C8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/233
+            queryName: Eleutherodactylus iberia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/42
+            queryName: Euhyas iberia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e20a32a9f0
+      - s-d6ecb4ebec
+      - s-9723b50af8
+      - s-6e7d21c64f
+      - s-fb3f4d0f73
+      - s-d0ca117d60
+      - s-465d881733
+      - s-b68d4a9b06
+      - s-6b39c9923f
+      - s-25b5d4cb06
+    zh:
+      - s-cf496517cd
+      - s-b1e0aa20c5
+      - s-cc5d8bf66c
+      - s-819f20fa18
+      - s-6b7a5d89f9
+      - s-5e240d993f
+      - s-576d34d07d
+      - s-c3a5644827
+      - s-6ee6e51ded
+      - s-3763c9fb24

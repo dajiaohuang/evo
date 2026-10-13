@@ -1,0 +1,3 @@
+## ## Glossy, sticky leaflets and yellow flowers {#s-fbccdbbcce}
+Brazilian Flora 2020 records a xylopodium and alternate leaves with 5–13 pairs of leaflets. The leaflets range from lanceolate through oblong-elliptic to ovate, are 7–20 mm long and 3–9.5 mm wide, and have an asymmetrical, heart-shaped base. Their glandular covering is described as sticky and glossy. Terminal racemes bear yellow flowers with ten stamens and five petals of different forms. The oblong pods are 2.7–4 cm long and 0.5–0.65 cm wide, with sticky, villous and bristly hairs; seeds were not observed in this record. The dataset classifies the plant as terrestrial.
+

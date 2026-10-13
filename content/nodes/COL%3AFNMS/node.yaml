@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus eugenioi
+  displayName: Aplastodiscus eugenioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNMS
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus eugenioi
+        zh: Aplastodiscus eugenioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNMS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/87
+            queryName: Aplastodiscus eugenioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/26
+            queryName: Hyla eugenioi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e68abc6ec0
+      - s-483359f042
+      - s-063bb95029
+      - s-a5bbe493ce
+      - s-7a0e9de0cd
+      - s-85d127833f
+      - s-cdeae487db
+      - s-c7d3e98087
+      - s-0ec2639bf6
+      - s-acb442541a
+      - s-10fbb65b22
+      - s-e891a6ff8c
+      - s-1fac98a066
+      - s-5fd1e63ffc
+      - s-5b7d3c1273
+      - s-a3d90aeb04
+      - s-4fe02d1d98
+    zh:
+      - s-623800c695
+      - s-eaecc79b22
+      - s-4be02c79bd
+      - s-c369bd7ec5
+      - s-54e1f4573b
+      - s-58838b97ed
+      - s-f0f1bc2c2b
+      - s-33087904a3
+      - s-83fca71529
+      - s-7612e756af
+      - s-3acd3d2f37
+      - s-8e3143d78c
+      - s-2f0dd77200
+      - s-ae01a6b651
+      - s-2227643d33
+      - s-f05dce837a
+      - s-6b564bd503

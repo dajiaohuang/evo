@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia
+  displayName: Crinia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62P9K
+  sourceIndexes:
+    - name:
+        en: Crinia
+        zh: Crinia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62P9K
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/324
+            queryName: Crinia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 454
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ee833ab89
+      - s-2bd05b2a5e
+      - s-ee00606403
+      - s-1ff16b1767
+      - s-da1d5b6ecc
+      - s-0aae55667b
+      - s-c7faeda4c5
+    zh:
+      - s-7b2ac7198d
+      - s-838dedddfc
+      - s-3aec47f624
+      - s-cdf70fbead
+      - s-a3065ea96f
+      - s-83d9b84479
+      - s-528d9e5577

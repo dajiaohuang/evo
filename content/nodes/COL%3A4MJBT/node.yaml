@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis chiastonotus
+  displayName: Pristimantis chiastonotus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJBT
+  sourceIndexes:
+    - name:
+        en: Pristimantis chiastonotus
+        zh: Pristimantis chiastonotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJBT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/194
+            queryName: Pristimantis chiastonotus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/306
+            queryName: Eleutherodactylus chiastonotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4a3d218f00
+      - s-9ce9521ff2
+      - s-24396e8d30
+      - s-5e77250ef9
+      - s-07bf8de7bd
+      - s-c4c2220404
+      - s-a5c34874ec
+      - s-fbf4b2fa78
+      - s-afef36c193
+      - s-844412c205
+    zh:
+      - s-7ff69a6f8b
+      - s-a4ff43ffd9
+      - s-c348f4fed0
+      - s-203ba3df15
+      - s-bed0402119
+      - s-6a422120c4
+      - s-c1d609336c
+      - s-d99021b8b6
+      - s-69d1b82bfd
+      - s-fb0fa90808

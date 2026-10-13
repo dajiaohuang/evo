@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Haddadus aramunha
+    name:
+      en: Haddadus aramunha
+      zh: Haddadus aramunha
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Haddadus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Haddadus aramunha in the version 3 classification
+          zh: Haddadus aramunha 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8fbbc83c1b
+            part: body
+          zh:
+            page: zh
+            section: s-9ad4f61daa
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-708167694e
+            part: body
+          zh:
+            page: zh
+            section: s-986b69c10f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2084, 2085; Reference.csv rows 1560
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2084
+        values:
+          - Brachycephaloidea
+          - Haddadus
+          - Haddadus aramunha
+          - M
+          - "40.7"
+          - "17.75"
+          - "18.35"
+          - "6.65"
+          - "2.55"
+          - "1.6"
+          - "3.9"
+          - NA
+          - NA
+          - "5.8"
+          - NA
+          - NA
+          - "11.05"
+          - NA
+          - NA
+          - "19.6"
+          - NA
+          - "21.9"
+          - "21.3"
+          - NA
+          - NA
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2085
+        values:
+          - Brachycephaloidea
+          - Haddadus
+          - Haddadus aramunha
+          - F
+          - "77.45"
+          - "33.85"
+          - "37.95"
+          - "9.85"
+          - "4.6"
+          - "4"
+          - "8.5"
+          - NA
+          - NA
+          - "10.1"
+          - NA
+          - NA
+          - "19.95"
+          - NA
+          - NA
+          - "36.6"
+          - NA
+          - "39.55"
+          - "40.8"
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1560
+        values:
+          - Anura
+          - Haddadus_aramunha
+          - Cassimiro, J., Verdade, V. K., & Rodrigues, M. T. (2008). A large and enigmatic new eleutherodactyline frog (Anura, Strabomantidae) from Serra do Sincora, Espinhaco range, northeastern Brazil. Zootaxa, 1761, 59-68. https://doi.org/10.11646/zootaxa.1761.1.6
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - EN
+      - HAL
+      - FL
+      - TL
+      - THL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

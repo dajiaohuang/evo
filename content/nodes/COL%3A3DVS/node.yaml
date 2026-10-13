@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufotes
+  displayName: Bufotes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DVS
+  sourceIndexes:
+    - name:
+        en: Bufotes
+        zh: Bufotes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DVS
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/259
+            queryName: Bufotes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 222
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-222345d7a7
+      - s-08b7e88bf4
+      - s-fb0ae30ad5
+      - s-c3362707d7
+      - s-fc4aadc14a
+      - s-b484fe0fdb
+      - s-71172bc5cb
+      - s-68d5ebb929
+      - s-97d71be735
+      - s-d5c3395e78
+      - s-f14807f946
+      - s-14f5450985
+    zh:
+      - s-c0d65129fa
+      - s-999ff28685
+      - s-9061d13c25
+      - s-0e9fbf9d22
+      - s-2bd3f73b4d
+      - s-b7d35fa9bf
+      - s-9b413c8319
+      - s-be4237b11b
+      - s-d7ac80075a
+      - s-3e0466afbd
+      - s-7a312ec605
+      - s-38ff6ec5f1

@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dryopsophus Fitzinger, 1843
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Dryopsophus
+      zh: Dryopsophus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fe1f9f0da4
+            part: title
+          zh:
+            page: zh
+            section: s-2bd0f7236b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fe1f9f0da4
+            part: body
+          zh:
+            page: zh
+            section: s-2bd0f7236b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-24e233aa9a
+            part: title
+          zh:
+            page: zh
+            section: s-feb65d4d1a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-24e233aa9a
+            part: body
+          zh:
+            page: zh
+            section: s-feb65d4d1a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-0bb5548d24
+            part: title
+          zh:
+            page: zh
+            section: s-7b0216e691
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 37VQM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A37VQM
+            label:
+              en: Dryopsophus barringtonensis
+              zh: Dryopsophus barringtonensis
+          - kind: catalogue
+            colId: 37VQV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A37VQV
+            label:
+              en: Dryopsophus citropa
+              zh: Dryopsophus citropa
+          - kind: catalogue
+            colId: NPJFH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ANPJFH
+            label:
+              en: Dryopsophus daviesae
+              zh: Dryopsophus daviesae
+          - kind: catalogue
+            colId: V2QGW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV2QGW
+            label:
+              en: Dryopsophus kroombitensis
+              zh: Dryopsophus kroombitensis
+          - kind: catalogue
+            colId: 37VRD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A37VRD
+            label:
+              en: Dryopsophus nudidigitus
+              zh: Dryopsophus nudidigitus
+          - kind: catalogue
+            colId: 6DMJH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6DMJH
+            label:
+              en: Dryopsophus pearsonianus
+              zh: Dryopsophus pearsonianus
+          - kind: catalogue
+            colId: V5NVT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5NVT
+            label:
+              en: Dryopsophus phyllochrous
+              zh: Dryopsophus phyllochrous
+          - kind: catalogue
+            colId: 37VRJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A37VRJ
+            label:
+              en: Dryopsophus piperatus
+              zh: Dryopsophus piperatus
+          - kind: catalogue
+            colId: NPJN7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ANPJN7
+            label:
+              en: Dryopsophus spenceri
+              zh: Dryopsophus spenceri
+          - kind: catalogue
+            colId: 6DMJG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6DMJG
+            label:
+              en: Dryopsophus subglandulosus
+              zh: Dryopsophus subglandulosus
+        text:
+          en:
+            page: en
+            section: s-0bb5548d24
+            part: body
+          zh:
+            page: zh
+            section: s-7b0216e691
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dryopsophus
+          url: https://www.checklistbank.org/dataset/316115/taxon/48JL
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5cf40d8be4
+        part: body
+      zh:
+        page: zh
+        section: s-b9e33a2c1e
+        part: body

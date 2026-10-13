@@ -1,0 +1,386 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Lepidosauria
+    commonName: Lizards, snakes & tuatara
+    commonNameZh: 蜥蜴、蛇与喙头蜥
+    rank: superorder
+    taxonId: txn:95312
+    firstAppearance: 240
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Lepidosauria
+    rank: superorder
+    sourceDatasetId: null
+    name:
+      zh: Lepidosauria
+      en: Lepidosauria
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherLepidosauromorphaTaxonomy20261002
+          - pbdbOtherLepidosauromorphaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-978c683219
+            part: body
+          en:
+            page: en
+            section: s-30a1c29ea6
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherLepidosauromorphaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-571d2a7f87
+            part: body
+          en:
+            page: en
+            section: s-9b1431f177
+            part: body
+    sources:
+      - id: pbdbOtherLepidosauromorphaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Lepidosauria
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=95312
+          locator: Recorded PBDB parent closure beneath the already documented Lepidosauromorpha COL-compatible storage anchor.
+      - id: pbdbOtherLepidosauromorphaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:95312
+          readingTargets:
+            - name: Rebbanasaurus jaini
+              pbdbTaxonId: txn:251989
+              canonicalPath: content/nodes/PBDB%3A251989
+            - name: Parvosaurus harudensis
+              pbdbTaxonId: txn:499872
+              canonicalPath: content/nodes/PBDB%3A499872
+            - name: Sphenocondor gracilis
+              pbdbTaxonId: txn:248203
+              canonicalPath: content/nodes/PBDB%3A248203
+            - name: Diphydontosaurus avonis
+              pbdbTaxonId: txn:64135
+              canonicalPath: content/nodes/PBDB%3A64135
+            - name: Micromenodon pitti
+              pbdbTaxonId: txn:438184
+              canonicalPath: content/nodes/PBDB%3A438184
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b06dc0cec8
+        part: body
+      en:
+        page: en
+        section: s-a34d44f292
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:95312
+    scientificName: Lepidosauria
+    commonName: Lizards, snakes & tuatara
+    commonNameZh: 蜥蜴、蛇与喙头蜥
+    rank: superorder
+    parentName: Sauropsida
+    extinct: false
+    geography:
+      - Middle Triassic Italian Alps (Megachirella specimen PZO 628)
+      - Late Triassic Ischigualasto Formation, Argentina (Taytalura holotype PVSJ 698)
+      - Middle Jurassic Kilmaluag Formation, Isle of Skye, Scotland (Bellairsia specimen NMS G.2022.1.1)
+    overview:
+      page: en
+      section: s-e5e678a0f6
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-d900edd523
+        part: body
+      habitat:
+        page: en
+        section: s-54885111ae
+        part: body
+      locomotion:
+        page: en
+        section: s-025bc53dcb
+        part: body
+      bodySize:
+        page: en
+        section: s-ac9e047db7
+        part: body
+      guild:
+        page: en
+        section: s-66fab8b280
+        part: body
+    traits:
+      - page: en
+        section: s-21699e45f6
+        part: body
+      - page: en
+        section: s-951b809405
+        part: body
+      - page: en
+        section: s-75d6a68551
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-1f8fb280f2
+      part: body
+    confidence: medium
+    referenceIds:
+      - simoes-2018-megachirella
+      - martinez-2021-taytalura
+      - talanda-2022-bellairsia
+    readerSections:
+      - id: imaged-fossils-and-tree-positions
+        title:
+          en:
+            page: en
+            section: s-6769d247ec
+            part: title
+          zh:
+            page: zh
+            section: s-faa6819441
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6769d247ec
+            part: body
+          zh:
+            page: zh
+            section: s-faa6819441
+            part: body
+        sourceIds:
+          - simoes-2018-megachirella
+          - martinez-2021-taytalura
+          - talanda-2022-bellairsia
+    readerSources:
+      - id: simoes-2018-megachirella
+        referenceId: simoes-2018-megachirella
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: 706–709; Figures 1–2; Extended Data Figures 1–8; Geological age and specimen description; CT anatomy; combined-evidence analyses | 706–709; Figures 1–2; Extended Data Figures 1–8; Combined-evidence analyses and stem-squamate placement | 706–709; Figure 1; geological context; Italian Alps specimen PZO 628 and Middle Triassic horizon | 706–709; Figures 1–2; Extended Data Figures 1–8; CT anatomy of the skull, wrist and shoulder | 706–709; Figures 1–2; Extended Data Figures 1–8; CT anatomy and combined-evidence analysis; no taxon-wide ecology result
+          scope:
+            en: "Lepidosauria: 706–709; Figures 1–2; Extended Data Figures 1–8; Geological age and specimen description; CT anatomy; combined-evidence analyses | 706–709; Figures 1–2; Extended Data Figures 1–8; Combined-evidence analyses and stem-squamate placement | 706–709; Figure 1; geological context; Italian Alps specimen PZO 628 and Middle Triassic horizon | 706–709; Figures 1–2; Extended Data Figures 1–8; CT anatomy of the skull, wrist and shoulder | 706–709; Figures 1–2; Extended Data Figures 1–8; CT anatomy and combined-evidence analysis; no taxon-wide ecology result. Limited to the cited specimens, samples or analyses."
+            zh: Lepidosauria：原文定位 706–709; Figures 1–2; Extended Data Figures 1–8; Geological age and specimen description; CT anatomy; combined-evidence analyses | 706–709; Figures 1–2; Extended Data Figures 1–8; Combined-evidence analyses and stem-squamate placement | 706–709; Figure 1; geological context; Italian Alps specimen PZO 628 and Middle Triassic horizon | 706–709; Figures 1–2; Extended Data Figures 1–8; CT anatomy of the skull, wrist and shoulder | 706–709; Figures 1–2; Extended Data Figures 1–8; CT anatomy and combined-evidence analysis; no taxon-wide ecology result。本文仅使用所引标本、样本或分析的对应结果。
+      - id: martinez-2021-taytalura
+        referenceId: martinez-2021-taytalura
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: 235–238; Figures 1–2; Extended Data Figures 1–10; Phylogenetic analyses and early-diverging stem lepidosauromorph placement | 235–238; Figure 1; Extended Data Figure 1; Ischigualasto Formation, Argentina; holotype PVSJ 698 | 235–238; Figures 1–2; Extended Data Figures 2–7; Three-dimensional skull preservation and CT anatomy | 235–238; Figures 1–2; Extended Data Figures 1–10; Skull description and phylogenetic analyses
+          scope:
+            en: "Lepidosauria: 235–238; Figures 1–2; Extended Data Figures 1–10; Phylogenetic analyses and early-diverging stem lepidosauromorph placement | 235–238; Figure 1; Extended Data Figure 1; Ischigualasto Formation, Argentina; holotype PVSJ 698 | 235–238; Figures 1–2; Extended Data Figures 2–7; Three-dimensional skull preservation and CT anatomy | 235–238; Figures 1–2; Extended Data Figures 1–10; Skull description and phylogenetic analyses. Limited to the cited specimens, samples or analyses."
+            zh: Lepidosauria：原文定位 235–238; Figures 1–2; Extended Data Figures 1–10; Phylogenetic analyses and early-diverging stem lepidosauromorph placement | 235–238; Figure 1; Extended Data Figure 1; Ischigualasto Formation, Argentina; holotype PVSJ 698 | 235–238; Figures 1–2; Extended Data Figures 2–7; Three-dimensional skull preservation and CT anatomy | 235–238; Figures 1–2; Extended Data Figures 1–10; Skull description and phylogenetic analyses。本文仅使用所引标本、样本或分析的对应结果。
+      - id: talanda-2022-bellairsia
+        referenceId: talanda-2022-bellairsia
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: 99–104; Figures 1–4; Extended Data Figures 1–8; Synchrotron anatomy and Bayesian stem-squamate analyses | 99–104; Figure 1; Extended Data Figures 1–2; Kilmaluag Formation, Skye, Scotland; NMS G.2022.1.1 (Extended Data Fig. 1). Kirtlington elements are separate fragmentary referred comparison material in Extended Data Fig. 4. | 99–104; Figures 1–4; Extended Data Figures 1–8; ESRF ID19 synchrotron tomography and stem-lizard anatomical description | 99–104; Figures 1–4; Extended Data Figures 1–8; Synchrotron anatomy and stem-squamate analyses
+          scope:
+            en: "Lepidosauria: 99–104; Figures 1–4; Extended Data Figures 1–8; Synchrotron anatomy and Bayesian stem-squamate analyses | 99–104; Figure 1; Extended Data Figures 1–2; Kilmaluag Formation, Skye, Scotland; NMS G.2022.1.1 (Extended Data Fig. 1). Kirtlington elements are separate fragmentary referred comparison material in Extended Data Fig. 4. | 99–104; Figures 1–4; Extended Data Figures 1–8; ESRF ID19 synchrotron tomography and stem-lizard anatomical description | 99–104; Figures 1–4; Extended Data Figures 1–8; Synchrotron anatomy and stem-squamate analyses. Limited to the cited specimens, samples or analyses."
+            zh: Lepidosauria：原文定位 99–104; Figures 1–4; Extended Data Figures 1–8; Synchrotron anatomy and Bayesian stem-squamate analyses | 99–104; Figure 1; Extended Data Figures 1–2; Kilmaluag Formation, Skye, Scotland; NMS G.2022.1.1 (Extended Data Fig. 1). Kirtlington elements are separate fragmentary referred comparison material in Extended Data Fig. 4. | 99–104; Figures 1–4; Extended Data Figures 1–8; ESRF ID19 synchrotron tomography and stem-lizard anatomical description | 99–104; Figures 1–4; Extended Data Figures 1–8; Synchrotron anatomy and stem-squamate analyses。本文仅使用所引标本、样本或分析的对应结果。
+  claims:
+    - subjectId: taxon:lepidosauria
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Lepidosauria navigation envelope uses the approximately 240 Ma Megachirella specimen and its tested stem-squamate placement as the older evidence anchor and living lepidosaurs at 0 Ma as the younger edge; this does not make Megachirella a direct ancestor or establish a global lepidosaur first appearance or divergence time.
+      confidence: medium
+      confidenceRationale: The only known specimen has archived CT data and was tested in combined morphology–molecule analyses, but compression, character scoring and model settings constrain the placement. Medium confidence applies to the evidence-linked display anchor rather than a universal clade boundary.
+      referenceLinks:
+        - referenceId: simoes-2018-megachirella
+          relation: supports
+          pages: 706–709
+          figure: Figures 1–2; Extended Data Figures 1–8
+          quoteLocator: Geological age and specimen description; CT anatomy; combined-evidence analyses
+    - subjectId: taxon:lepidosauria
+      claimType: taxonomy
+      claimKind: scientific
+      statement: The cited analyses place Megachirella on the squamate stem, Taytalura as an early-diverging stem lepidosauromorph, and Bellairsia on the squamate stem; these placements are sampled analytical results and do not resolve every lepidosaur relationship.
+      confidence: medium
+      confidenceRationale: Each primary study reports an explicit matrix-based placement supported by imaged anatomy. Medium confidence preserves sensitivity to character scoring, taxon sampling and model constraints.
+      referenceLinks:
+        - referenceId: simoes-2018-megachirella
+          relation: supports
+          pages: 706–709
+          figure: Figures 1–2; Extended Data Figures 1–8
+          quoteLocator: Combined-evidence analyses and stem-squamate placement
+        - referenceId: martinez-2021-taytalura
+          relation: supports
+          pages: 235–238
+          figure: Figures 1–2; Extended Data Figures 1–10
+          quoteLocator: Phylogenetic analyses and early-diverging stem lepidosauromorph placement
+        - referenceId: talanda-2022-bellairsia
+          relation: supports
+          pages: 99–104
+          figure: Figures 1–4; Extended Data Figures 1–8
+          quoteLocator: Synchrotron anatomy and Bayesian stem-squamate analyses
+    - subjectId: taxon:lepidosauria
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profile's named lepidosaur samples come from the Middle Triassic Italian Alps (Megachirella), Late Triassic Ischigualasto Formation of Argentina (Taytalura), and the Middle Jurassic Kilmaluag Formation of Skye, Scotland (Bellairsia specimen NMS G.2022.1.1); these occurrences do not establish a global lepidosaur distribution.
+      confidence: high
+      confidenceRationale: Locality and geological context are stated in the respective primary studies. High confidence is limited to the named specimens and formations, with no inference about unsampled areas.
+      referenceLinks:
+        - referenceId: simoes-2018-megachirella
+          relation: supports
+          pages: 706–709
+          figure: Figure 1; geological context
+          quoteLocator: Italian Alps specimen PZO 628 and Middle Triassic horizon
+        - referenceId: martinez-2021-taytalura
+          relation: supports
+          pages: 235–238
+          figure: Figure 1; Extended Data Figure 1
+          quoteLocator: Ischigualasto Formation, Argentina; holotype PVSJ 698
+        - referenceId: talanda-2022-bellairsia
+          relation: supports
+          pages: 99–104
+          figure: Figure 1; Extended Data Figures 1–2
+          quoteLocator: Kilmaluag Formation, Skye, Scotland; NMS G.2022.1.1 (Extended Data Fig. 1). Kirtlington elements are separate fragmentary referred comparison material in Extended Data Fig. 4.
+    - subjectId: taxon:lepidosauria
+      claimType: morphology
+      claimKind: scientific
+      statement: "High-resolution imaging exposes complementary early lepidosaur anatomy: Megachirella contributes cranial, wrist and shoulder characters, Taytalura preserves a three-dimensionally exposed CT-resolved skull, and Bellairsia provides synchrotron-resolved stem-lizard anatomy."
+      confidence: medium
+      confidenceRationale: The specimens and imaging observations are directly reported, while comparative character scoring and their evolutionary interpretation depend on each study's matrix and reconstruction.
+      referenceLinks:
+        - referenceId: simoes-2018-megachirella
+          relation: supports
+          pages: 706–709
+          figure: Figures 1–2; Extended Data Figures 1–8
+          quoteLocator: CT anatomy of the skull, wrist and shoulder
+        - referenceId: martinez-2021-taytalura
+          relation: supports
+          pages: 235–238
+          figure: Figures 1–2; Extended Data Figures 2–7
+          quoteLocator: Three-dimensional skull preservation and CT anatomy
+        - referenceId: talanda-2022-bellairsia
+          relation: supports
+          pages: 99–104
+          figure: Figures 1–4; Extended Data Figures 1–8
+          quoteLocator: ESRF ID19 synchrotron tomography and stem-lizard anatomical description
+    - subjectId: taxon:lepidosauria
+      claimType: ecology
+      claimKind: scientific
+      statement: The cited Megachirella, Taytalura and Bellairsia studies provide locality, anatomy and phylogenetic analyses but do not establish a single Lepidosauria diet, habitat, locomotor mode, body-size distribution or ecological guild; those fields remain explicitly unassigned here.
+      confidence: medium
+      confidenceRationale: The primary evidence is anatomical and analytical, not direct observation of extinct behaviour. The profile separates specimen context from unsupported taxon-wide ecological inference.
+      referenceLinks:
+        - referenceId: simoes-2018-megachirella
+          relation: supports
+          pages: 706–709
+          figure: Figures 1–2; Extended Data Figures 1–8
+          quoteLocator: CT anatomy and combined-evidence analysis; no taxon-wide ecology result
+        - referenceId: martinez-2021-taytalura
+          relation: contextualizes
+          pages: 235–238
+          figure: Figures 1–2; Extended Data Figures 1–10
+          quoteLocator: Skull description and phylogenetic analyses
+        - referenceId: talanda-2022-bellairsia
+          relation: contextualizes
+          pages: 99–104
+          figure: Figures 1–4; Extended Data Figures 1–8
+          quoteLocator: Synchrotron anatomy and stem-squamate analyses
+  claim-rationales.zh:
+    - 唯一已知标本具有存档 CT 数据并在形态—分子联合分析中受检验，但压扁保存、性状编码和模型设置约束其位置；中等置信度适用于有证据连接的显示锚点，而不是普遍类群边界。
+    - 三项研究都给出基于矩阵的归置并有成像解剖支持；中等置信度保留性状编码、取样和模型设置的敏感性。
+    - 各研究直接说明具名标本的地点和地质背景；高置信度仅限这些化石样本，不推断未取样地区。
+    - 成像观察直接支持标本和解剖记录，但比较性状评分及其演化解释仍依赖各研究的矩阵和复原。
+    - 一手证据是解剖和分析结果而非灭绝动物的行为观察，因此不为鳞龙类臆测统一食性、生境、运动、体型分布或生态位。
+  claim-statements.zh:
+    - 所引分析将 Megachirella 置于有鳞类干群，将 Taytalura 视为早期分化的干群鳞龙形类，并将 Bellairsia 置于有鳞类干群；这些定位是基于采样的分析结果，并未解析所有鳞龙类的亲缘关系。
+    - 本档案所列鳞龙类样本分别来自意大利阿尔卑斯山区的中三叠统（Megachirella）、阿根廷晚三叠世 Ischigualasto 组（Taytalura），以及苏格兰斯凯岛中侏罗世 Kilmaluag 组（Bellairsia 标本 NMS G.2022.1.1）；这些产出记录不能确定鳞龙类的全球分布。
+    - 高分辨率成像揭示了互补的早期鳞龙类解剖信息：Megachirella 提供头骨、腕部和肩部性状，Taytalura 保留可经 CT 解析并以三维呈现的头骨，Bellairsia 则提供经同步辐射成像解析的干群蜥蜴解剖结构。
+    - 所引 Megachirella、Taytalura 和 Bellairsia 研究提供产地、解剖及系统发育分析，但不能确定鳞龙类统一的食性、生境、运动方式、体型分布或生态功能类群；这些字段在此明确暂不赋值。
+    - 鳞龙类导航范围以约 2.40 亿年前 Megachirella 标本及其经检验的有鳞类干群位置作为老端证据锚点，以 0 Ma 的现生鳞龙类作为年轻端；这不把 Megachirella 视为直系祖先，也不建立鳞龙类的全球首现或分化时间。
+  ranges:
+    - entityId: lepidosauria
+      rangeKind: global-composite
+      taxonomicConcept: Lepidosauria
+      geographicScope: Global or represented navigation composite
+      olderMa: 240
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The approximately 240 Ma older edge follows the Megachirella sample and tested stem-squamate placement; it is not a direct ancestor, divergence date or global FAD.
+      evidenceBasis: CT-resolved Megachirella and combined-evidence analyses provide a primary-study anchor for the lepidosaur navigation envelope; 0 Ma reflects living members.
+      confidence: medium
+      claimIds:
+        - claim:taxon:lepidosauria:fossil-range
+      referenceLocators:
+        - referenceId: simoes-2018-megachirella
+          locator: pp. 706–709; Figures 1–2; Extended Data Figures 1–8; geological age, CT anatomy and combined-evidence analyses
+      evidenceLevel: literature-synthesized

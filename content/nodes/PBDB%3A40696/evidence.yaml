@@ -1,0 +1,110 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Natalidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Natalidae
+      en: Natalidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bf0c1bf152
+            part: body
+          en:
+            page: en
+            section: s-8b6e6665fd
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-50b05fda55
+            part: body
+          en:
+            page: en
+            section: s-7b198ed139
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Natalidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=40696
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:40696
+          readingTargets:
+            - name: Ageina tobieni
+              pbdbTaxonId: txn:149432
+              canonicalPath: content/nodes/PBDB%3A149432
+            - name: Honrovits tsuwape
+              pbdbTaxonId: txn:145195
+              canonicalPath: content/nodes/PBDB%3A145195
+            - name: Primonatalus prattae
+              pbdbTaxonId: txn:56186
+              canonicalPath: content/nodes/PBDB%3A56186
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-66847704e1
+        part: body
+      en:
+        page: en
+        section: s-caa3383a1e
+        part: body

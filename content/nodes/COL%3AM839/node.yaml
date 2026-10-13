@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana wavrini
+  displayName: Boana wavrini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M839
+  sourceIndexes:
+    - name:
+        en: Boana wavrini
+        zh: Boana wavrini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M839
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/42
+            queryName: Boana wavrini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/496
+            queryName: Hyla wavrini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/204
+            queryName: Hypsiboas wavrini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/436
+            queryName: Hyla mirandaribeiri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6551ea1e76
+      - s-d8b515e2c8
+      - s-f2ec2ca8e6
+      - s-4da809c209
+      - s-f8c6fbccb8
+      - s-9f8863f8a1
+      - s-61a5889ef2
+      - s-c051f9afed
+      - s-df489f0ce3
+      - s-db8550aeb5
+      - s-20922a2d75
+      - s-3c5af5fb41
+    zh:
+      - s-de7fa22281
+      - s-81a0b610a9
+      - s-1cea777c44
+      - s-0501ef70bb
+      - s-62fc255f33
+      - s-85663cd288
+      - s-bc3e07301f
+      - s-962bfd4547
+      - s-b2ecab015d
+      - s-2807814ab1
+      - s-6fd8301fbd
+      - s-91621d953b

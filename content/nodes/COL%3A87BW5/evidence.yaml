@@ -1,0 +1,367 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cryptodira
+    rank: suborder
+    sourceDatasetId: "1008"
+    name:
+      zh: 曲颈龟类
+      en: Cryptodira
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-a5e4419324
+            part: body
+          en:
+            page: en
+            section: s-ed3730ab60
+            part: body
+        sourceIds:
+          - taxonomy
+        topicZh: overview
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-39a91c4c41
+            part: body
+          en:
+            page: en
+            section: s-75a5109b05
+            part: body
+        sourceIds:
+          - taxonomy
+        topicZh: overview
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-139f9bdf3f
+            part: body
+          en:
+            page: en
+            section: s-26c2d2fe92
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-d3bcc3d507
+            part: body
+          en:
+            page: en
+            section: s-dd599e98cc
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-32ed7715c8
+            part: body
+          en:
+            page: en
+            section: s-45282707a7
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-b0e13205a4
+            part: body
+          en:
+            page: en
+            section: s-bc3def73f0
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-9a83754374
+            part: body
+          en:
+            page: en
+            section: s-f1e6e19b2c
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-24462ec90f
+            part: body
+          en:
+            page: en
+            section: s-a395ba3051
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-701459563c
+            part: body
+          en:
+            page: en
+            section: s-92deb98477
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-44cb97308e
+            part: body
+          en:
+            page: en
+            section: s-60b2f1e8e9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cryptodira
+          url: https://www.checklistbank.org/dataset/316115/taxon/87BW5
+          locator: Accepted COL26.8 suborder usage and parent placement under Testudines.
+          scope:
+            zh: 固定 COL26.8 的接受亚目身份、阶元及其在 Testudines 下的父级位置；本来源绑定不表示后代读者内容已完整覆盖。
+            en: Pinned COL26.8 accepted suborder identity, rank and parent placement under Testudines. This source binding does not claim complete descendant reader coverage.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 192 authored records grouped under Cryptodira by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 28
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 152 authored same-name records placed under Cryptodira by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 64 authored records grouped under Cryptodira by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 87LYV
+              name: Actinemys pallida
+              canonicalPath: content/nodes/COL%3A87LYV
+            - colId: D8SX
+              name: Amyda ornata
+              canonicalPath: content/nodes/COL%3AD8SX
+            - colId: KVXC
+              name: Batagur affinis
+              canonicalPath: content/nodes/COL%3AKVXC
+            - colId: KVXG
+              name: Batagur dhongoka
+              canonicalPath: content/nodes/COL%3AKVXG
+            - colId: KVXR
+              name: Batagur trivittata
+              canonicalPath: content/nodes/COL%3AKVXR
+          fieldCountDistribution:
+            "1": 3
+            "2": 21
+            "3": 32
+            "4": 7
+            "5": 1
+    limitations:
+      zh:
+        page: zh
+        section: s-723abc8cda
+        part: body
+      en:
+        page: en
+        section: s-815e03a30e
+        part: body
+  atlas-node:
+    name: Cryptodira
+    commonName: Hidden-necked turtles
+    commonNameZh: 曲颈龟类
+    rank: suborder
+    taxonId: txn:37622
+    firstAppearance: 155.6
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:cryptodira
+      claimKind: scientific
+      claimType: topology
+      statement: The Cryptodira route represents the sampled crown-side turtle clade in Joyce’s morphology matrix; relationships within Cryptodira are partly unresolved, and the analysis does not supply an exact crown origin or global first appearance.
+      confidence: medium
+      confidenceRationale: The study directly scores 45 fossil and 22 living species and discusses Cryptodira explicitly. Medium confidence preserves matrix and missing-data sensitivity and withholds any age claim.
+      referenceLinks:
+        - referenceId: joyce-2007-mesozoic-turtle-phylogeny
+          relation: supports
+          pages: 3–102
+          figure: Figures 1–3; Appendices 1–3
+          quoteLocator: "pp. 3–7 methods and taxon sample; p. 67 ‘Clade 25: Cryptodira’; pp. 52–86 phylogenetic results"
+    - subjectId: taxon:cryptodira
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Joyce’s matrix defines and samples Cryptodira but does not validate 155.6 Ma as a crown-cryptodire minimum; the former borrowed display is withheld pending a node-specific calibration.
+      confidence: low
+      confidenceRationale: "Crown Cryptodira temporal range: the cited primary study or systematic review directly supports the stated sample, calibration or withholding boundary at the supplied locator. Confidence is low and does not extend to a global FAD, LAD, direct ancestor or unsampled interval."
+      referenceLinks:
+        - relation: supports
+          referenceId: joyce-2007-mesozoic-turtle-phylogeny
+          pages: 3–102
+          figure: Figures 1–3; Appendices 1–3
+          quoteLocator: "Clade 25: Cryptodira; fossil and living taxon sample; unresolved internal nodes"
+  claim-rationales.zh:
+    - 该研究直接编码了 45 个化石种和 22 个现生种，并明确讨论隐颈龟类。中等置信度保留矩阵与缺失数据敏感性，不作年代断言。
+    - Crown Cryptodira temporal range：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为低。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。
+  claim-statements.zh:
+    - 隐颈龟类路线表示 Joyce 形态矩阵中取样的龟类冠群一侧支系；隐颈龟内部部分关系仍未解决，该分析并未给出精确的冠群起源或全球首现。
+    - Joyce 的矩阵定义并采样了曲颈龟类，但不能把 1.556 亿年前验证为曲颈龟冠群下限；原先借用的显示暂缓，等待节点专属校准。
+  ranges:
+    - entityId: cryptodira
+      rangeKind: global-composite
+      taxonomicConcept: Crown Cryptodira temporal range
+      geographicScope: Crown interval pending a node-specific fossil calibration
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The broad Mesozoic turtle matrix does not provide the former 155.6 Ma edge as a validated Cryptodira minimum.
+      evidenceBasis: The former display is withheld rather than borrowing a Testudines calibration.
+      evidenceLevel: literature-synthesized
+      confidence: low
+      claimIds:
+        - claim:taxon:cryptodira:range-boundary
+      referenceLocators:
+        - referenceId: joyce-2007-mesozoic-turtle-phylogeny
+          locator: "3–102; Figures 1–3; Appendices 1–3; Clade 25: Cryptodira; fossil and living taxon sample; unresolved internal nodes"

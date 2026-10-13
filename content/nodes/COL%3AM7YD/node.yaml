@@ -1,0 +1,138 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana geographica
+  displayName: Boana geographica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7YD
+  sourceIndexes:
+    - name:
+        en: Boana geographica
+        zh: Boana geographica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7YD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/482
+            queryName: Boana geographica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/334
+            queryName: Hyla geographica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/155
+            queryName: Hypsiboas geographicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/430
+            queryName: Hypsiboas geographica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/431
+            queryName: Centrotelma geographica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/432
+            queryName: Centrotelma cryptomelan
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/433
+            queryName: Hyla cryptomelas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/434
+            queryName: Hyla cryptomelan
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/397
+            queryName: Hyla geographica geographica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4af41af58e
+      - s-793c05717f
+      - s-7a467f0aa3
+      - s-d5bf1483d4
+      - s-14c072840d
+      - s-a04cbc2c52
+      - s-ab0381ad26
+      - s-802818e460
+      - s-55f5467568
+      - s-3d806a69af
+      - s-5469bed2ef
+      - s-c118806c72
+      - s-17fb29414f
+      - s-132b0d6c67
+      - s-acb269f11a
+      - s-68874acb8f
+      - s-a728df99e4
+      - s-e2d0bc6519
+      - s-2eeb1ea08c
+      - s-eff6910f28
+      - s-96298ddaf3
+      - s-a31e5a0d72
+      - s-0cca1126f2
+      - s-3cc41b6f37
+      - s-720a5788a6
+    zh:
+      - s-7bf460a561
+      - s-362b9b2942
+      - s-71437c859f
+      - s-0eeab97c55
+      - s-4d845172f4
+      - s-97bcc0b09b
+      - s-e9e7b8ab8a
+      - s-84c9e34e08
+      - s-6ea244fbd7
+      - s-0a44ed0bf5
+      - s-b5f915da02
+      - s-65931be409
+      - s-03b665931a
+      - s-4bf8891482
+      - s-3b016a0ab0
+      - s-55e31de369
+      - s-4742a7d1c0
+      - s-701eaffe2b
+      - s-ed40df30e0
+      - s-c8ce800fc2
+      - s-5f7d14558d
+      - s-6dd96a1773
+      - s-484181f767
+      - s-3e85ee1210
+      - s-ab2b7747ff

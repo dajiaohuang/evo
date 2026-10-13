@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophryne murudensis
+  displayName: Pelophryne murudensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CG7
+  sourceIndexes:
+    - name:
+        en: Pelophryne murudensis
+        zh: Pelophryne murudensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CG7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/467
+            queryName: Pelophryne murudensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-61523667d6
+      - s-fea2ba45ca
+      - s-0f42a13aa7
+      - s-dce996103e
+      - s-0270673103
+      - s-ff1c67ea7b
+      - s-424306ba5b
+      - s-8646cabcf8
+      - s-df82f240b3
+      - s-31e860acdd
+      - s-0e45502fe9
+    zh:
+      - s-ecef54ab25
+      - s-73c6ebea87
+      - s-2bc0b1eedb
+      - s-16abe27387
+      - s-fda6d66dc9
+      - s-601095061d
+      - s-a6b1012f1d
+      - s-e0e52567b4
+      - s-344215cd0e
+      - s-77f650d8e2
+      - s-21ea06fb34

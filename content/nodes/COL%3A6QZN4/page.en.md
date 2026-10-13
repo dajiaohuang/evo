@@ -1,0 +1,6 @@
+## Three veins, leaf pouches and a five-chambered ovary {#s-e34e3eeb44}
+The Brazilian Flora 2020 v393.147 field describes stem hairs as glandular, scurfy or star-shaped. Leaves have a visible petiole, a membranous blade with an acute base and an acuminate or acute tip, and three acrodromous veins that run upward from near the base. It also records membranous pouch-like domatia on the leaves. The upright inflorescence has oblong, elliptic or spatulate bracts and oblong or spatulate bracteoles; its short stalk is at most 10 cm, or may be absent. Flowers are five-parted, with a bell-shaped or smooth hypanthium. The floral receptacle (torus) is hairless, the petals are stiff and smooth, and upward appendages occur on the stamens. The ovary has five chambers. The source groups fruit by the combined hypanthium-and-ovary length, in a short category up to 7 mm. These are source-field alternatives, not a measure of variation or a full diagnosis.
+
+## A terrestrial habitat label {#s-e6ae4f2195}
+The habitat field records “terrícola,” meaning terrestrial. It provides no collection locality, survey date or range coverage, and does not identify whether the material is wild, cultivated, managed or fossil. This is one source category, not a complete account of ecology.
+

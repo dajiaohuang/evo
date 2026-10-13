@@ -1,0 +1,3 @@
+## Stipules, keel petals and pod characters {#s-4f6ffcc751}
+The Brazilian Flora 2020 entry records prostrate or twining growth. Stipules extend below their point of insertion and have a spurred base; leaflets are lanceolate or ovate. The calyx has five laciniate segments. The corolla is yellow and asymmetric, with keel petals twisted laterally. The style does not extend beyond the stigma insertion, and the stigma is terminal or subterminal. The legume is linear and hirsute; seeds are brown. The habitat field records terrestrial. These regional fields retain alternatives and do not establish variation or a complete range.
+

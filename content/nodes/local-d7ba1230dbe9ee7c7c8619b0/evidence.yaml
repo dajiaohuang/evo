@@ -1,0 +1,366 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Taudactylus acutirostris
+    name:
+      en: Taudactylus acutirostris
+      zh: Taudactylus acutirostris
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: TadpoleTraits classification for Taudactylus acutirostris
+          zh: TadpoleTraits 对 Taudactylus acutirostris 的分类
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-c9c73000c6
+            part: body
+          zh:
+            page: zh
+            section: s-ac9136f089
+            part: body
+      - topic: morphology
+        title:
+          en: 0 literature rows and 2 image rows
+          zh: 0 条文献行与 2 条图像行
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-9cf9a0094f
+            part: body
+          zh:
+            page: zh
+            section: s-56a3e78d31
+            part: body
+      - topic: morphology
+        title:
+          en: Image proportions from row 1793
+          zh: 来源第 1793 行的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-1c239e0061
+            part: body
+          zh:
+            page: zh
+            section: s-5a3f6600b0
+            part: body
+      - topic: overview
+        title:
+          en: 4 image ratio fields flagged for review
+          zh: 4 个图像比例字段需复核
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-46df1546bd
+            part: body
+          zh:
+            page: zh
+            section: s-0583105b62
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1793, 1794; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Myobatrachidae
+      genus: Taudactylus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1793
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Ratio
+          - Color image
+          - Taudactylus acutirostris
+          - Myobatrachidae
+          - Taudactylus
+          - Taudactylus acutirostris
+          - 33
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.40233562133118
+          - 0.609094014970339
+          - 0.193465229679784
+          - 0.195546168897723
+          - 0.0978662608317545
+          - 0.0680187595117557
+          - 0.0318973817436407
+          - null
+          - null
+          - null
+          - Yongle Wang
+      - rowNumber: 1794
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Taudactylus acutirostris
+          - Myobatrachidae
+          - Taudactylus
+          - Taudactylus acutirostris
+          - 32
+          - 32.807
+          - 13.282
+          - 19.527
+          - 6.517
+          - 7.008
+          - 3.115
+          - 2.09
+          - 1.557
+          - null
+          - null
+          - null
+          - 0.44852622915841
+          - 0.5952833968364
+          - 0.19864663292316
+          - 0.213612948456122
+          - 0.949492486359618
+          - 0.6375916422761
+          - 0.474593836681196
+          - null
+          - null
+          - null
+          - Yongle Wang
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1794
+        scientificName: Taudactylus acutirostris
+        sourceField: BL/TL
+        suppliedRatio: 0.44852622915841
+        originalNumerator: 13.282
+        originalTotalLength: 32.807
+        computedRatio: 0.4048526229158411
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1794
+        scientificName: Taudactylus acutirostris
+        sourceField: TMH/TL
+        suppliedRatio: 0.949492486359618
+        originalNumerator: 3.115
+        originalTotalLength: 32.807
+        computedRatio: 0.09494924863596184
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1794
+        scientificName: Taudactylus acutirostris
+        sourceField: DFH/TL
+        suppliedRatio: 0.6375916422761
+        originalNumerator: 2.09
+        originalTotalLength: 32.807
+        computedRatio: 0.06370591642027615
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1794
+        scientificName: Taudactylus acutirostris
+        sourceField: VFH/TL
+        suppliedRatio: 0.474593836681196
+        originalNumerator: 1.557
+        originalTotalLength: 32.807
+        computedRatio: 0.0474593836681196
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.40233562133118
+        row: 1793
+        stage: 33
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.609094014970339
+        row: 1793
+        stage: 33
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.193465229679784
+        row: 1793
+        stage: 33
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.195546168897723
+        row: 1793
+        stage: 33
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.0978662608317545
+        row: 1793
+        stage: 33
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 54Z69
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus semipalmatus
+  displayName: Cycloramphus semipalmatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6C5VW
+  sourceIndexes:
+    - name:
+        en: Cycloramphus semipalmatus
+        zh: Cycloramphus semipalmatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6C5VW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/291
+            queryName: Cycloramphus semipalmatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/166
+            queryName: Iliodiscus semipalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8337a98b51
+      - s-1765186506
+      - s-38a83d3dbd
+      - s-c6b46a2b7f
+      - s-ce6f5ecc8e
+      - s-badf50c5ff
+      - s-0a841b57d1
+      - s-1788404ef8
+      - s-29e3c232a3
+    zh:
+      - s-378d8116b6
+      - s-985472df74
+      - s-85cb1b0588
+      - s-f14ccaffdc
+      - s-be23f3eda6
+      - s-6805c2032a
+      - s-b8a5ced99a
+      - s-314c96b75f
+      - s-94dea796e3

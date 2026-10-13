@@ -1,0 +1,96 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Colobus caudatus Thomas, 1885
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 乞力马扎罗疣猴
+      en: Mount Kilimanjaro Guereza
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-283a1b7944
+            part: body
+          en:
+            page: en
+            section: s-3164bf2378
+            part: body
+        sourceIds:
+          - taxonomy
+          - butynski2015
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-acaa075b0e
+            part: body
+          en:
+            page: en
+            section: s-e9d9382d31
+            part: body
+        sourceIds:
+          - butynski2015
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-62f9123c19
+            part: body
+          en:
+            page: en
+            section: s-d4781c44a0
+            part: body
+        sourceIds:
+          - butynski2015
+      - topic: classification
+        text:
+          zh:
+            page: zh
+            section: s-f6b86d58a5
+            part: body
+          en:
+            page: en
+            section: s-72f31ab4e7
+            part: body
+        sourceIds:
+          - taxonomy
+          - butynski2015
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Colobus caudatus Thomas, 1885
+          url: https://www.checklistbank.org/dataset/316115/taxon/84HZ4
+          scope:
+            zh: 固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。
+            en: Pinned checklist identity, authorship, rank and parent links; not biological evidence.
+      - id: butynski2015
+        referenceId: ref-ef05d199-9b95-8a9d-a704-31fbb786bdbe
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 来源使用 C. guereza caudatus；支持其 2014 年肯尼亚快速调查、既有地点资料汇编与该文范围制图。
+            en: The source uses C. guereza caudatus; supports its 2014 rapid Kenyan surveys, compilation of prior locality records and range mapping.
+    limitations:
+      zh:
+        page: zh
+        section: s-7e787ef712
+        part: body
+      en:
+        page: en
+        section: s-6f3487b6b0
+        part: body

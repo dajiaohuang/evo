@@ -1,0 +1,118 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Geotrypetes seraphini
+  displayName: Geotrypetes seraphini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FTNB
+  sourceIndexes:
+    - name:
+        en: Geotrypetes seraphini
+        zh: Geotrypetes seraphini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FTNB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/106
+            queryName: Geotrypetes seraphini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 89
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/140
+            queryName: Caecilia seraphini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/141
+            queryName: Hypogeophis seraphini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 82
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/142
+            queryName: Uraeotyphlus africanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/143
+            queryName: Uraeotyphlus seraphini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/144
+            queryName: Schistometopum garzonheydti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/384
+            queryName: Geotrypetes seraphini seraphini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/385
+            queryName: Geotrypetes seraphini occidentalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/197
+            queryName: Geotrypetes petersii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/466
+            queryName: Geotrypetes congoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2546a4df2b
+      - s-8e3a9e563a
+      - s-685cbd16f6
+      - s-f854565e7f
+      - s-4374102852
+      - s-ad6f0e1e3e
+      - s-2156f7460f
+      - s-238fc643b2
+      - s-b3f6384137
+      - s-92097f3790
+      - s-dbfb66f41e
+      - s-0f61f4c81d
+    zh:
+      - s-ec5d771b93
+      - s-2d6778f72c
+      - s-1d9388ed1b
+      - s-e73a2e0ced
+      - s-a47a3378e8
+      - s-faf5a9d7f0
+      - s-ccf265795d
+      - s-f65d94173e
+      - s-b46dbcff9a
+      - s-ed740d5399
+      - s-d2149184c2
+      - s-fddbe498c4

@@ -1,0 +1,636 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Canis lupus Linnaeus, 1758
+    authorship: Linnaeus, 1758
+    rank: species
+    sourceDatasetId: "2144"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: VS
+        scientificName: Carnivora Bowdich, 1821
+        authorship: Bowdich, 1821
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4CT
+        scientificName: Caniformia Kretzoi, 1938
+        authorship: Kretzoi, 1938
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: C3K84
+        scientificName: Canidae G. Fischer von Waldheim, 1817
+        authorship: G. Fischer von Waldheim, 1817
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3GTH
+        scientificName: Canis Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: QLXL
+        scientificName: Canis lupus Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 usage QLXL. Supplemental claims are bounded to small Israeli cranial specimens, regional Voyageurs wolf field research, and the published 2016 mtDNA study; they do not constitute a species-wide seven-facet assessment.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Gable et al. field study concerns free-ranging wolves in the Greater Voyageurs Ecosystem, Minnesota.
+      captive: The cited field claims do not assess captive wolves.
+      domesticated: The claims do not treat domestic dogs as gray wolves.
+      fossil: The Ersmark et al. study analyzes two Late Pleistocene wolf remains from Taimyr; this is a narrow fossil sample.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/QLXL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:QLXL@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage QLXL; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage QLXL. https://doi.org/10.48580/dgywk.
+      - id: ersmark2016WolfPhylogeography
+        referenceId: ref-075276b5-83d9-8bbf-abdf-7315d9aec408
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Copyright section states the article is distributed under the Creative Commons Attribution License and links to the CC BY 4.0 deed.
+          licenseAppliesTo: Article text; no figures, tables, or third-party material are reproduced.
+          stableId: doi:10.3389/fevo.2016.00134
+          locator: Introduction §§336–351; Materials and methods, Samples §§358–360; Discussion §§459–466; article Copyright section.
+          attribution: Ersmark E, Klütsch CFC, Chan YL, Sinding M-HS, Fain SR, Illarionova NA, Oskarsson M, Uhlén M, Zhang Y, Dalén L, Savolainen P (2016). Frontiers in Ecology and Evolution 4:134. https://doi.org/10.3389/fevo.2016.00134. CC BY 4.0. Claims paraphrased.
+          licenseAssessment: item-level-verified
+          scope: A phylogeographic analysis of contemporary and ancient mitochondrial control-region samples. The authors describe uneven geographic and temporal sampling and do not provide a current global occupancy map or formal conservation-status assessment.
+          accessedAt: 2026-09-27
+      - id: macleod2020GrayWolfCrania
+        referenceId: ref-7db515db-b094-8155-af7e-b6e6010da689
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Rights and permissions section identifies the article as open access under CC BY 4.0.
+          licenseAppliesTo: Article text; the claim paraphrases the abstract and does not reproduce cranial images or supplementary specimen data.
+          stableId: doi:10.1186/s12915-020-00832-1
+          locator: Abstract, Background, Results, and Conclusion; Rights and permissions section.
+          attribution: MacLeod N, Kolska Horwitz L (2020). BMC Biology 18:113. https://doi.org/10.1186/s12915-020-00832-1. CC BY 4.0. Claim paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Small sample of modern Israeli gray-wolf crania; no statistically significant sexual size dimorphism was found, while sex-mediated shape dimorphism was detected. This does not establish global or population-wide morphology.
+          accessedAt: 2026-09-27
+      - id: gable2023WolfProvisioningVoyageurs
+        referenceId: ref-ee297925-ab0e-8b58-a790-66644650c0bf
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article Copyright and License information identifies the article as open access under CC BY 4.0 and states the third-party-material exception.
+          licenseAppliesTo: Article text under its article-level license; no excluded third-party material is reproduced.
+          stableId: doi:10.1038/s42003-023-05419-4
+          locator: Abstract; Introduction; Methods, Study area; article Copyright and License information.
+          attribution: Gable TD, Johnson-Bice SM, Homkes AT, Bump JK (2023). Communications Biology 6:1045. https://doi.org/10.1038/s42003-023-05419-4. CC BY 4.0. Claims paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Field study of gray-wolf feeding and pup provisioning during April–August in the Greater Voyageurs Ecosystem, Minnesota, USA; results are regional and behaviorally bounded.
+          accessedAt: 2026-09-27
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: A study of a small sample of modern Israeli gray-wolf crania found no statistically significant sexual size dimorphism but did detect sex-mediated cranial shape dimorphism using outline and image analyses. The authors caution that the sample is small; this result does not describe all populations.
+            originalLanguage: en
+            sourceIds:
+              - macleod2020GrayWolfCrania
+            locator: Abstract, Background and Results; Fig. 1 description.
+            placeTimeScope: Modern cranial specimens from Israel; small sample analyzed in a 2020 study.
+            lifeStatus: Skeletal collection specimens; the claim does not classify the original living specimens as wild or captive.
+        gaps:
+          - Diagnostic external morphology, age- and sex-stratified body measurements, geographic variation, and broader population sampling have not been assessed in this dossier.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: In the Greater Voyageurs Ecosystem study, gray-wolf feeding and pup-provisioning behavior was tracked through the April–August pup-rearing season; breeding individuals changed their feeding and provisioning behavior as pups matured and prey abundance changed. The result describes one regional field study, not the full reproductive cycle or lifespan.
+            originalLanguage: en
+            sourceIds:
+              - gable2023WolfProvisioningVoyageurs
+            locator: Abstract; Introduction; Methods, Study area; Results on breeding status and ordinal day.
+            placeTimeScope: Greater Voyageurs Ecosystem, Minnesota, USA; pup-rearing seasons April–August in the study period.
+            lifeStatus: Free-ranging wolves observed through GPS collar and field investigations; captive animals were not assessed.
+        gaps:
+          - Gestation, birth outcomes, lifespan, age-specific survival, and population-wide reproductive rates are not covered.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In a southern boreal Minnesota ecosystem, gray-wolf feeding and return-to-homesite behavior varied with breeding status and prey conditions during pup rearing; the study describes deer fawns and beavers as important seasonal prey in that study system. The findings do not establish a global diet or species-wide prey relationship.
+            originalLanguage: en
+            sourceIds:
+              - gable2023WolfProvisioningVoyageurs
+            locator: Abstract; Methods, Study area; Results on prey abundance, handling time, and homesite returns.
+            placeTimeScope: Greater Voyageurs Ecosystem, Minnesota, USA; regional study during April–August.
+            lifeStatus: Free-ranging wolves and locally available wild prey in a field study.
+        gaps:
+          - Habitat use, interspecific interactions, diet across the full range, and seasonal differences outside this regional study remain unassessed.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: A worldwide mitochondrial control-region analysis found that a bottleneck scenario around the Pleistocene–Holocene boundary, approximately 12,000 years ago, was significantly supported for North American wolves; simplified Eurasian demographic histories were not similarly resolved. This is a marker- and sample-bounded demographic result, not a species-wide phylogeny.
+            originalLanguage: en
+            sourceIds:
+              - ersmark2016WolfPhylogeography
+            locator: Discussion §§459–462; study aims and sampling in §§354–360.
+            placeTimeScope: North American and Eurasian ancient and contemporary wolf mitochondrial control-region samples; the authors identify uneven ancient geographic sampling as a limitation.
+            lifeStatus: Contemporary wolf tissue and ancient wolf remains; no captive or domesticated population inference is made.
+        gaps:
+          - A complete species phylogeny, genome-wide selection history, and population-specific divergence estimates are not assessed here.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The 2016 study describes the wolf's historical Late Quaternary range as spanning most of the Northern Hemisphere and reports contemporary genetic samples from Scandinavia, Russia/Siberia, Iran, China, North America, and Greenland. These are a historical-range statement and study localities, not a current global occupancy map.
+            originalLanguage: en
+            sourceIds:
+              - ersmark2016WolfPhylogeography
+            locator: Introduction §336; Materials and methods, Samples §358.
+            placeTimeScope: Historical Late Quaternary range statement and modern sample localities reported in a 2016 study.
+            lifeStatus: Contemporary samples were from wild wolves except two captive Mexican wolf samples; the article's range statement is not a present-day survey.
+        gaps:
+          - Current distribution, extirpations, introduced or free-ranging domestic-dog populations, precise boundaries, and unsampled regions require dedicated dated range evidence.
+      fossil:
+        status: partially-supported
+        claims:
+          - text: The study analyzed two DNA-positive Late Pleistocene wolf remains recovered from permafrost sites on Siberia's Taimyr Peninsula and reported calibrated radiocarbon ages of approximately 35,000 and 42,000 years before present. These two remains do not constitute a complete fossil catalogue.
+            originalLanguage: en
+            sourceIds:
+              - ersmark2016WolfPhylogeography
+            locator: Materials and methods, Samples §359; ancient-sample analyses discussed in §§459–462.
+            placeTimeScope: Two specimens from Taimyr Peninsula permafrost, Siberia; approximately 35 and 42 thousand calibrated radiocarbon years before present.
+            lifeStatus: Ancient remains; not living animals.
+        gaps:
+          - Specimen catalogue numbers, full taxonomic reassessment, depositional contexts, and the broader fossil record across the species' range are not covered.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current formal global or national conservation assessment with assessment system, date, and population scope is included.
+  catalogue-profile:
+    scientificName: Canis lupus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Canis lupus
+      en: Canis lupus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-6dbf7f2424
+            part: body
+          en:
+            page: en
+            section: s-f1836418dc
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1d6bc224be
+            part: body
+          en:
+            page: en
+            section: s-2a88631902
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-172dc4a29b
+            part: body
+          en:
+            page: en
+            section: s-81e732f5db
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-9a20042c1f
+            part: body
+          en:
+            page: en
+            section: s-0ae8c0b9bd
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-77ef436da3
+            part: body
+          en:
+            page: en
+            section: s-51cf341f36
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-067cc24c02
+            part: body
+          en:
+            page: en
+            section: s-ad9bf0d9c7
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-a024a41a90
+            part: body
+          en:
+            page: en
+            section: s-3f9dd3cb61
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-92576685aa
+            part: body
+          en:
+            page: en
+            section: s-f58cafddca
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-832f2730ae
+            part: body
+          en:
+            page: en
+            section: s-6f21212d09
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-2a107b763e
+            part: body
+          en:
+            page: en
+            section: s-78d29004e8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Canis lupus
+          url: https://www.checklistbank.org/dataset/316115/taxon/QLXL
+          locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 10089; name Canis lupus; reference table row 10089; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: mean of Ricklefs, 2010b & Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 6(Ernest et al., 2003, de Magalhaes and Costa, 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            female_maturity_d: mean of Ricklefs, 2010b & Ernest et al., 2003 from median of 6(de Magalhaes and Costa, 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Paradiso, J.L., Nowak, R.M., 1972)
+            litter_or_clutch_size_n: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 9(Paradiso, J.L., Nowak, R.M., 1972, Paradiso, J.L., Nowak, R.M., 1972, Paradiso, J.L., Nowak, R.M., 1972, Garratt et al., 2014, Ernest et al., 2003, de Magalhaes and Costa, 2009, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            gestation_d: mean of Paradiso, J.L., Nowak, R.M., 1972 & Ernest et al., 2003 from median of 8(Paradiso, J.L., Nowak, R.M., 1972, Paradiso, J.L., Nowak, R.M., 1972, Ernest et al., 2003, de Magalhaes and Costa, 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            weaning_d: de Magalhaes and Costa, 2009 from median of 5(Garratt et al., 2014, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            birth_or_hatching_weight_g: mean of Ernest et al., 2003 & de Magalhaes and Costa, 2009 from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            maximum_longevity_y: Carey, J.R. and D.S. Judge, 2002
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Ricklefs, 2010b
+            - Paradiso, J.L., Nowak, R.M., 1972
+            - Garratt et al., 2014
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 4909; Scientific=Canis lupus; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-d0cd2149eb
+        part: body
+      en:
+        page: en
+        section: s-4c1cb9d59d
+        part: body

@@ -1,0 +1,433 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hipparionini
+    rank: tribe
+    sourceDatasetId: null
+    name:
+      zh: Hipparionini
+      en: Hipparionini
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2f993d6e50
+            part: body
+          en:
+            page: en
+            section: s-5948b98fb2
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4d3395b7aa
+            part: body
+          en:
+            page: en
+            section: s-1a317e9165
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Hipparionini
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=65579
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:65579
+          readingTargets:
+            - name: Nannippus lenticularis
+              pbdbTaxonId: txn:51018
+              canonicalPath: content/nodes/PBDB%3A51018
+            - name: Nannippus beckensis
+              pbdbTaxonId: txn:48955
+              canonicalPath: content/nodes/PBDB%3A48955
+            - name: Nannippus westoni
+              pbdbTaxonId: txn:48222
+              canonicalPath: content/nodes/PBDB%3A48222
+            - name: Nannippus peninsulatus
+              pbdbTaxonId: txn:47044
+              canonicalPath: content/nodes/PBDB%3A47044
+            - name: Nannippus morgani
+              pbdbTaxonId: txn:48963
+              canonicalPath: content/nodes/PBDB%3A48963
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-01fc583a08
+        part: body
+      en:
+        page: en
+        section: s-d73e57d0fe
+        part: body
+  atlas-node:
+    name: Hipparionini
+    commonName: Hipparionine Horses
+    commonNameZh: 三趾马族
+    rank: tribe
+    taxonId: txn:65579
+    firstAppearance: 17
+    lastAppearance: 0.6
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+  atlas-profile:
+    pbdbTaxonId: txn:65579
+    scientificName: Hipparionini
+    commonName: Hipparionine horse
+    commonNameZh: 三趾马
+    rank: tribe
+    parentName: Equidae
+    extinct: true
+    geography:
+      - North America (tribe-level history)
+      - Eurasia (Old World lineages)
+      - Africa (Old World lineages)
+    regionalRanges:
+      - canonicalRangeId: range:hipparionini:north-american-tribe-level-range
+        label: North American tribe-level range
+      - canonicalRangeId: range:hipparionini:old-world-first-dispersal
+        label: Old World first dispersal
+      - canonicalRangeId: range:hipparionini:latest-old-world-regional-records
+        label: Latest Old World regional records
+    overview:
+      page: en
+      section: s-4ebce08f0d
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-720c8a2bf5
+        part: body
+      habitat:
+        page: en
+        section: s-92c00a9029
+        part: body
+      locomotion:
+        page: en
+        section: s-213d1710d0
+        part: body
+      bodySize:
+        page: en
+        section: s-f0d4e04cb2
+        part: body
+      guild:
+        page: en
+        section: s-0cd673319d
+        part: body
+    traits:
+      - page: en
+        section: s-9985db5cc5
+        part: body
+      - page: en
+        section: s-f4808b648d
+        part: body
+      - page: en
+        section: s-92de050ff1
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-3fac1ea6e8
+      part: body
+    readerSections:
+      - id: feet-and-feeding
+        sourceIds:
+          - mc-horse-monodactyly-2019
+          - bernor-2021-hipparions
+        title:
+          en:
+            page: en
+            section: s-a40fd4370f
+            part: title
+          zh:
+            page: zh
+            section: s-40a4b3932a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a40fd4370f
+            part: body
+          zh:
+            page: zh
+            section: s-40a4b3932a
+            part: body
+      - id: regional-history
+        sourceIds:
+          - mc-horse-monodactyly-2019
+          - bernor-2021-hipparions
+        title:
+          en:
+            page: en
+            section: s-dd64941ea7
+            part: title
+          zh:
+            page: zh
+            section: s-d18eeffcee
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dd64941ea7
+            part: body
+          zh:
+            page: zh
+            section: s-d18eeffcee
+            part: body
+    confidence: medium
+    referenceIds:
+      - mc-horse-monodactyly-2019
+      - bernor-2021-hipparions
+    overviewZh:
+      page: zh
+      section: zh-1f62fef8fa8e97
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-4eede900eb575c
+      part: body
+  claims:
+    - subjectId: taxon:hipparionini
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Old World hipparionin review places first dispersal at 11.4–11.0 Ma and the latest regional records around or below 1 Ma; those dates are distinct from the broader North American tribe-level history.
+      confidence: medium
+      confidenceRationale: Two systematic reviews cover complementary North American tribe-level and Old World genus-rank ranges. Medium confidence retains regional and taxonomic heterogeneity instead of treating one endpoint as global.
+      referenceLinks:
+        - referenceId: mc-horse-monodactyly-2019
+          relation: supports
+          pages: 1–5, 10–15
+          figure: Figures 1–4
+          quoteLocator: Review of Equinae foot transformation, persistent hipparionin tridactyly and North American radiation
+        - referenceId: bernor-2021-hipparions
+          relation: supports
+          pages: 1–20
+          figure: Figures 1–13
+          quoteLocator: Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results
+    - subjectId: taxon:hipparionini
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Hipparionini is treated as a tribe of Equinae; Old World diversity is resolved into multiple genus-rank clades rather than a single broad genus Hipparion.
+      confidence: medium
+      confidenceRationale: The two systematic reviews directly support tribe context and the multi-genus Old World revision.
+      referenceLinks:
+        - referenceId: mc-horse-monodactyly-2019
+          relation: supports
+          pages: 1–5, 10–15
+          figure: Figures 1–4
+          quoteLocator: Review of Equinae foot transformation, persistent hipparionin tridactyly and North American radiation
+        - referenceId: bernor-2021-hipparions
+          relation: supports
+          pages: 1–20
+          figure: Figures 1–13
+          quoteLocator: Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results
+    - subjectId: taxon:hipparionini
+      claimKind: scientific
+      claimType: morphology
+      statement: Hipparionini remained tridactyl and many lineages were hypsodont, while body size and foot proportions varied substantially across the radiation.
+      confidence: medium
+      confidenceRationale: The foot-evolution review and Old World synthesis support the traits without treating them as uniform species diagnoses.
+      referenceLinks:
+        - referenceId: mc-horse-monodactyly-2019
+          relation: supports
+          pages: 1–5, 10–15
+          figure: Figures 1–4
+          quoteLocator: Review of Equinae foot transformation, persistent hipparionin tridactyly and North American radiation
+        - referenceId: bernor-2021-hipparions
+          relation: supports
+          pages: 1–20
+          figure: Figures 1–13
+          quoteLocator: Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results
+    - subjectId: taxon:hipparionini
+      claimKind: scientific
+      claimType: ecology
+      statement: Old World hipparionins ranged from browse-dominated and mixed feeders to grazers, with ecology varying by lineage, body size, region and time.
+      confidence: medium
+      confidenceRationale: The integrated review maps dietary preference and body mass by genus-rank lineage; medium confidence preserves heterogeneity.
+      referenceLinks:
+        - referenceId: bernor-2021-hipparions
+          relation: supports
+          pages: 1–20
+          figure: Figures 1–13
+          quoteLocator: Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results
+    - subjectId: taxon:hipparionini
+      claimKind: scientific
+      claimType: biogeography
+      statement: The represented history distinguishes a North American tribe-level radiation from an Old World dispersal at 11.4–11.0 Ma and later regional Eurasian and African records.
+      confidence: medium
+      confidenceRationale: Complementary reviews support the regional scopes and prevent Old World genus dates from being applied to the entire tribe.
+      referenceLinks:
+        - referenceId: mc-horse-monodactyly-2019
+          relation: supports
+          pages: 1–5, 10–15
+          figure: Figures 1–4
+          quoteLocator: Review of Equinae foot transformation, persistent hipparionin tridactyly and North American radiation
+        - referenceId: bernor-2021-hipparions
+          relation: supports
+          pages: 1–20
+          figure: Figures 1–13
+          quoteLocator: Abstract, genus-rank systematic review, regional occurrence synthesis and body-mass/diet results
+    - subjectId: taxon:hipparionini
+      claimType: fossil-range
+      claimKind: scientific
+      statement: "Hipparionini retains four distinct displays: a heterogeneous 17–0.6 Ma navigation composite, a 17–2 Ma North American review envelope, an 11.4–11 Ma Old World dispersal window, and a 1–0.6 Ma selected terminal regional window."
+      confidence: contested
+      confidenceRationale: Two systematic reviews directly support the separate regional markers, but their heterogeneous taxa, continents and purposes preclude one global lineage-duration interpretation.
+      referenceLinks:
+        - referenceId: mc-horse-monodactyly-2019
+          relation: supports
+          pages: 1–5, 10–15
+          figure: Figures 1–4, especially Figure 3
+          quoteLocator: North American review-matrix record from approximately 17 Ma through the Plio-Pleistocene
+        - referenceId: bernor-2021-hipparions
+          relation: supports
+          pages: 1–20
+          figure: Figures 10 and 13
+          quoteLocator: Old World first dispersal at 11.4–11 Ma and selected MQ1 terminal regional records to 0.6 Ma
+  claim-rationales.zh:
+    - 两篇系统综述分别覆盖北美族级范围和旧大陆属级范围。中等置信度保留地区与分类异质性，不把单一端点当作全球端点。
+    - 分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。
+    - 形态主张只保留引文图表或诊断直接支持的骨骼、牙齿性状，并把软组织、姿势或功能解释明确标为推断。
+    - 生态主张区分直接测得的磨耗或同位素信号与栖息地、行为推断，并保留物种、地点和时代边界。
+    - 生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。
+    - 两篇系统综述直接支持各自区域标记，但分类、洲域和用途异质，不能解释为单一全球谱系存续期。
+  claim-statements.zh:
+    - 三趾马族按所引系统研究采用当前分类层级；导航父级仅表示分类关联，不表示直接祖先。
+    - 三趾马族的形态档案仅记录所引研究直接描述或测量的牙齿、颅骨或肢骨性状，功能解释另行标注。
+    - 三趾马族的生态档案按取样物种、地点与方法限定食性和运动推断，不把局部结果推广为整个类群的固定生态。
+    - 三趾马族的地理档案只覆盖所引研究明确讨论的区域与地点，并非完整的全球产出分布。
+    - 旧大陆三趾马综述把首次扩散置于 1140–1100 万年前，把最晚区域记录置于约 100 万年前或更晚；这些年代不同于更广的北美族级历史。
+    - Hipparionini 保留四条不同记录：17–0.6 Ma 异质导航合成、17–2 Ma 北美综述包络、11.4–11 Ma 旧大陆扩散窗口，以及 1–0.6 Ma 选定区域末端窗口。
+  ranges:
+    - entityId: hipparionini
+      rangeKind: global-composite
+      taxonomicConcept: Hipparionini heterogeneous North American and Old World navigation composite
+      geographicScope: North American review matrix and selected Old World regional records
+      olderMa: 17
+      youngerMa: 0.6
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The bounds combine distinct regional syntheses and are not a single global lineage duration or exact FAD/LAD.
+      evidenceBasis: The display combines an approximately 17 Ma North American review-matrix edge with selected Old World regional records extending to approximately 0.6 Ma; its component records remain separately represented below.
+      confidence: contested
+      claimIds:
+        - claim:taxon:hipparionini:fossil-range
+      referenceLocators:
+        - referenceId: mc-horse-monodactyly-2019
+          locator: pp. 1–5 and 10–15; Figures 1–4, especially Figure 3; North American review-matrix record from approximately 17 Ma into the Plio-Pleistocene
+        - referenceId: bernor-2021-hipparions
+          locator: pp. 1–20; Figures 1–13; Old World first dispersal at 11.4–11 Ma and selected MQ1 regional records extending to 0.6 Ma
+      evidenceLevel: literature-synthesized
+    - entityId: hipparionini
+      rangeKind: taxon-range
+      taxonomicConcept: Hipparionini North American review-matrix navigation envelope
+      geographicScope: North America
+      olderMa: 17
+      youngerMa: 2
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Review-figure bounds are navigation markers, not exact tribal origination or extinction dates.
+      evidenceBasis: The North American review and its tribe-level figure place the represented hipparionin record from approximately 17 to 2 Ma; this remains a regional review-matrix envelope.
+      confidence: contested
+      claimIds:
+        - claim:taxon:hipparionini:fossil-range
+      referenceLocators:
+        - referenceId: mc-horse-monodactyly-2019
+          locator: pp. 1–5 and 10–15; Figures 1–4, especially Figure 3; North American tribe-level review matrix at approximately 17–2 Ma
+      evidenceLevel: literature-synthesized
+    - entityId: hipparionini
+      rangeKind: dispersal-window
+      taxonomicConcept: Hipparionini oldest well-supported Old World dispersal window
+      geographicScope: Eurasia
+      olderMa: 11.4
+      youngerMa: 11
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The interval is a Vienna Basin regional dispersal window, not a global lineage first appearance.
+      evidenceBasis: The oldest well-supported Old World dispersal window is represented by early Hippotherium records in the Vienna Basin.
+      confidence: medium
+      claimIds:
+        - claim:taxon:hipparionini:fossil-range
+      referenceLocators:
+        - referenceId: bernor-2021-hipparions
+          locator: Hippotherium systematic section and Figure 13; oldest Pannonian C Vienna Basin records at 11.4–11 Ma
+      evidenceLevel: literature-synthesized
+    - entityId: hipparionini
+      rangeKind: regional-last-appearance-window
+      taxonomicConcept: Hipparionini selected latest Old World regional-record window
+      geographicScope: East Asia and Africa
+      olderMa: 1
+      youngerMa: 0.6
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The interval combines selected Chinese and African terminal records and is not a global last appearance.
+      evidenceBasis: Terminal records vary by lineage and region; the review places the latest Chinese and African hipparionins around or below 1 Ma rather than at the Holocene boundary.
+      confidence: medium
+      claimIds:
+        - claim:taxon:hipparionini:fossil-range
+      referenceLocators:
+        - referenceId: bernor-2021-hipparions
+          locator: Figure 10 and MQ1 section; latest Chinese Proboscidipparion near 1 Ma, African Eurygnathohippus below 1 Ma and MQ1 extending to 0.6 Ma
+      evidenceLevel: literature-synthesized

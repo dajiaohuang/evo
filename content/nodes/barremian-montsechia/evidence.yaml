@@ -1,0 +1,74 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-fd0317d249
+      part: title
+    titleZh:
+      page: zh
+      section: s-ac46605f62
+      part: title
+    category: origin
+    startAge: 125.77
+    endAge: 121.4
+    regions:
+      - El Montsec and Las Hoyas, Spain
+    clades:
+      - Montsechia vidalii
+      - Angiospermae
+    summary:
+      page: en
+      section: s-fd0317d249
+      part: body
+    summaryZh:
+      page: zh
+      section: s-ac46605f62
+      part: body
+    claimIds:
+      - claim:event:barremian-montsechia
+    evidenceItems:
+      - statement: More than 1,000 specimens with flexible axes, thin cuticles, rare stomata and closed single-seeded fruits
+        relation: supports
+        claimIds:
+          - claim:event:barremian-montsechia
+        referenceLinks:
+          - relation: supports
+            referenceId: gomez-2015-montsechia
+            pages: 10985–10988
+            figure: Figures 1–4; Supplementary Figure S2
+    uncertaintyItems:
+      - statement: A morphology-based position near Ceratophyllum is a hypothesis and does not show that the angiosperm ancestor was aquatic
+        relation: contextualizes
+        claimIds:
+          - claim:event:barremian-montsechia
+        referenceLinks:
+          - relation: supports
+            referenceId: gomez-2015-montsechia
+            figure: Figure 4
+            quoteLocator: Discussion
+      - statement: Current Barremian boundaries are used for display; the paper reported the deposits as approximately 130–125 Ma
+        relation: contextualizes
+        claimIds:
+          - claim:event:barremian-montsechia
+        referenceLinks:
+          - relation: supports
+            referenceId: gomez-2015-montsechia
+            figure: Supplementary Figure S2
+  claims:
+    - subjectId: event:barremian-montsechia
+      claimKind: scientific
+      claimType: ecology
+      statement: More than 1,000 Montsechia vidalii specimens from Barremian freshwater limestones preserve flexible leafy axes and closed single-seeded fruits; their morphology, thin cuticle, rare stomata and sedimentary context support a submerged freshwater habit without establishing the ecology of the angiosperm ancestor.
+      confidence: medium
+      confidenceRationale: The large specimen sample and multiple independent morphological, anatomical and depositional indicators support the habit inference. Medium confidence retains uncertainty in morphology-based placement near Ceratophyllum, distinguishes current Barremian boundaries from the paper's older numerical conversion, and avoids turning one extinct plant into an ancestral-state claim.
+      referenceLinks:
+        - relation: supports
+          referenceId: gomez-2015-montsechia
+          pages: 10985–10988
+          figure: Figures 1–4; Supplementary Figure S2
+          quoteLocator: Results; Discussion; Materials and Methods
+  claim-rationales.zh:
+    - 大规模标本取样和多项相互独立的形态、解剖与沉积指标共同支持习性推断。中等置信度保留其与金鱼藻属近缘位置的形态分析不确定性，区分当前巴列姆期界线与论文旧数值换算，并避免把一种灭绝植物推成祖先状态。
+  claim-statements.zh:
+    - 巴列姆期淡水石灰岩中的一千余件 Montsechia vidalii 标本保存了柔性带叶枝轴和闭合单籽果实；其形态、薄角质层、稀少气孔与沉积背景支持淡水沉水习性，但不能据此确定被子植物祖先的生态。

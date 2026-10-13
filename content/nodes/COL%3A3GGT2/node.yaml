@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Glyphoglossus molossus
+  displayName: Glyphoglossus molossus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3GGT2
+  sourceIndexes:
+    - name:
+        en: Glyphoglossus molossus
+        zh: Glyphoglossus molossus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3GGT2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/183
+            queryName: Glyphoglossus molossus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-967a417fef
+      - s-8f5617feaf
+      - s-43bf2402e4
+      - s-be2c83d681
+      - s-d351c8790b
+      - s-57c674d205
+      - s-8b0ee31864
+      - s-b36486febf
+      - s-e3b13b4b10
+      - s-f13676de38
+      - s-0228ce2f32
+    zh:
+      - s-29cfeb503f
+      - s-f3c6ccff89
+      - s-a5024b9b5e
+      - s-d543bc3886
+      - s-6044f88976
+      - s-28b81a4b65
+      - s-63d13c4472
+      - s-e80bd3dedb
+      - s-2009eaf87d
+      - s-c12ad54850
+      - s-d2edc17b80

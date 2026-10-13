@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemiphractus helioi
+  displayName: Hemiphractus helioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KRRZ
+  sourceIndexes:
+    - name:
+        en: Hemiphractus helioi
+        zh: Hemiphractus helioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KRRZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/265
+            queryName: Hemiphractus helioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7450ad94ca
+      - s-fdbdac5e38
+      - s-10ccd59db9
+      - s-5037a792e7
+      - s-567d7c3b2d
+      - s-03c5eb0ecc
+      - s-916afca784
+      - s-aa761045a5
+      - s-83fe01d0a6
+      - s-5eb0581fcc
+    zh:
+      - s-2468d97867
+      - s-e8df579d5b
+      - s-89f8ca4f5e
+      - s-8bf291a1ef
+      - s-a0199fa595
+      - s-d62d4553e3
+      - s-25738733eb
+      - s-aff0faa588
+      - s-b4311783db
+      - s-c69ce1b1c8

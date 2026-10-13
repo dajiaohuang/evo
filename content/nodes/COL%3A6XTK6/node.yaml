@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiophryne boribory
+  displayName: Scaphiophryne boribory
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XTK6
+  sourceIndexes:
+    - name:
+        en: Scaphiophryne boribory
+        zh: Scaphiophryne boribory
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XTK6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/490
+            queryName: Scaphiophryne boribory
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-be16eca779
+      - s-0421081252
+      - s-79ea0d1d19
+      - s-cb0f0000a5
+      - s-9d9dd0497a
+      - s-6286aae389
+      - s-e82bbc030b
+      - s-2eadce9d34
+      - s-f7169ca07a
+      - s-09790076fb
+      - s-0b20f458be
+    zh:
+      - s-8835bdcfbb
+      - s-a84f49b77a
+      - s-301de1aa3d
+      - s-884c84fd7d
+      - s-1598b97210
+      - s-c67882898a
+      - s-8e52f4db8d
+      - s-345add3621
+      - s-1b0dee121f
+      - s-9d500f9b0c
+      - s-b34f2633e7

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus biporus
+  displayName: Mantidactylus biporus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWCX
+  sourceIndexes:
+    - name:
+        en: Mantidactylus biporus
+        zh: Mantidactylus biporus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWCX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/311
+            queryName: Mantidactylus biporus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/194
+            queryName: Rana bipora
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/360
+            queryName: Rana biporus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d5d162b775
+      - s-9b271128d8
+      - s-84b882ef6f
+      - s-ff89c0e15c
+      - s-a69bac03e5
+      - s-ebdaba0c44
+      - s-22d4026fc2
+      - s-4b80201908
+      - s-fcd6e2429f
+      - s-343d9dcf25
+    zh:
+      - s-8a7803dc4e
+      - s-39cf2f526f
+      - s-c29cc65e33
+      - s-55f58061e7
+      - s-254e1d4668
+      - s-e5c7227030
+      - s-2fb73915d4
+      - s-4f09cede13
+      - s-f6b1d04ffe
+      - s-54d4c7226c

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma silvense
+  displayName: Ambystoma silvense
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ57
+  sourceIndexes:
+    - name:
+        en: Ambystoma silvense
+        zh: Ambystoma silvense
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ57
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/249
+            queryName: Ambystoma silvense
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/493
+            queryName: Ambystoma silvensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a5704980f
+      - s-f075502df6
+      - s-4fbf4c6ed9
+      - s-b15207c8c3
+      - s-dcff25d4c6
+      - s-a5c89b305b
+      - s-152bc1b730
+      - s-b45b49cce2
+      - s-ef0a05a0cf
+      - s-2f1084c02f
+      - s-fd2cfe516c
+    zh:
+      - s-47614dc3d7
+      - s-006b2be1d9
+      - s-170eae8b2b
+      - s-0a541024aa
+      - s-1eccef0068
+      - s-8c06a57415
+      - s-8b0a30c371
+      - s-49a766dd1c
+      - s-d7564fc512
+      - s-41b01cd922
+      - s-413c834075

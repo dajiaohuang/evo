@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor hobartsmithi
+  displayName: Craugastor hobartsmithi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCFH
+  sourceIndexes:
+    - name:
+        en: Craugastor hobartsmithi
+        zh: Craugastor hobartsmithi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCFH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/127
+            queryName: Craugastor hobartsmithi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/103
+            queryName: Eleutherodactylus hobartsmithi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/344
+            queryName: Microbatrachylus hobartsmithi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f5ab0c8a3f
+      - s-6d8ad5d3b3
+      - s-d4849b2d69
+      - s-c27abe6c6a
+      - s-cc50207b4d
+      - s-4f0eacf817
+      - s-24968e22fa
+      - s-a0c966edc8
+      - s-5be93f5dc1
+      - s-57f44f7f0f
+      - s-1654a22758
+      - s-1b28cc8ade
+      - s-733123d5ff
+    zh:
+      - s-29d55e0619
+      - s-73747d04e6
+      - s-9bb46852ce
+      - s-3bb437bfb2
+      - s-500ca04f99
+      - s-ed4fdd7b34
+      - s-d8cbf89ed1
+      - s-c893b69a37
+      - s-57e99ba7f5
+      - s-427dbcde8d
+      - s-5b557e6da4
+      - s-20704207d4
+      - s-09df014111

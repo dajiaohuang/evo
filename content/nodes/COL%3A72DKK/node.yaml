@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes macrodon
+  displayName: Limnonectes macrodon
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DKK
+  sourceIndexes:
+    - name:
+        en: Limnonectes macrodon
+        zh: Limnonectes macrodon
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DKK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/102
+            queryName: Limnonectes macrodon
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/407
+            queryName: Rana macrodon
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 51
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/408
+            queryName: Euphlyctis macrodon
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/431
+            queryName: Rana macrodon macrodon
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3cec72db6
+      - s-864b9f4dd2
+      - s-d27f771b35
+      - s-9bf7d0bff1
+      - s-529ec5cf11
+      - s-3991cbe419
+      - s-474071deaf
+      - s-6832aa0093
+      - s-c445ad3c20
+      - s-b5cb26f28c
+    zh:
+      - s-4a56f71834
+      - s-1fc8d4fca3
+      - s-278fc54043
+      - s-ec863436c9
+      - s-ce273160ec
+      - s-2cddaa16b2
+      - s-67f7d61049
+      - s-50fd5c58c3
+      - s-6d0ed861cd
+      - s-eda92040fe

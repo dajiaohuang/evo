@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus minutus
+  displayName: Kalophrynus minutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V55BK
+  sourceIndexes:
+    - name:
+        en: Kalophrynus minutus
+        zh: Kalophrynus minutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V55BK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/107
+            queryName: Kalophrynus minutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7d2f204536
+      - s-33ea40b86a
+      - s-d850954148
+      - s-a6e0bd073f
+      - s-cec869b928
+      - s-574bf13aeb
+      - s-6a23bf6f11
+      - s-35a4764178
+      - s-53c3113211
+      - s-87d8fba0be
+      - s-8db6ff9793
+      - s-b97e6533fb
+    zh:
+      - s-00a3b8931a
+      - s-1ab0812bca
+      - s-ec2f605716
+      - s-411d9d26d8
+      - s-dfb510db81
+      - s-38b9a28553
+      - s-6aae093cd1
+      - s-3e666529d8
+      - s-c7379b2777
+      - s-9c0d4c9ab5
+      - s-d0cfcb8448
+      - s-89f697c4ae

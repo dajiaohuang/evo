@@ -1,0 +1,9 @@
+## The dataset entry {#s-93bc3b7dbb}
+The pinned AmphiTherm curated snapshot records Epidalea calamita under Bufonidae, Anura. It retains 10 thermal estimate rows across 6 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-db1015ca79}
+Source row 1274 (ID 1432; Duarte_2011) reports 36.85 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as larvae. The source population code is Epidalea_calamita_pop4. Recorded conditions include acclimation at 10 °C, medium_test_temp = water. The source reports 2.887905816 °C as its standard deviation. The source n_trait field is 31. The endpoint is OS. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-d4a6634775}
+Source row 2084 (ID 2290; Gutierrez-Pesquera_et_al_2016) reports 0.6 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as larvae. The source population code is Epidalea_calamita_pop2. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.64 °C as its standard deviation. The source n_trait field is 16. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

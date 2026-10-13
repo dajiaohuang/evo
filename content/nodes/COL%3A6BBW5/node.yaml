@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor saltuarius
+  displayName: Craugastor saltuarius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BBW5
+  sourceIndexes:
+    - name:
+        en: Craugastor saltuarius
+        zh: Craugastor saltuarius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BBW5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/181
+            queryName: Craugastor saltuarius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/41
+            queryName: Eleutherodactylus saltuarius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5f93e3b140
+      - s-e51d5fd176
+      - s-657c421bd0
+      - s-2d2972b54c
+      - s-ab88c011e7
+      - s-844c871e68
+      - s-4665ee5bf8
+      - s-de998d0a2b
+      - s-3850252313
+    zh:
+      - s-26c3eb3164
+      - s-aabeada7b6
+      - s-384487b2ff
+      - s-1a12d4e338
+      - s-97fb3360e7
+      - s-2a9f84bcf7
+      - s-4fbfedbed1
+      - s-8febf900f7
+      - s-5d9f60d7f4

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus eleutherodactylus
+  displayName: Hyloxalus eleutherodactylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGWY
+  sourceIndexes:
+    - name:
+        en: Hyloxalus eleutherodactylus
+        zh: Hyloxalus eleutherodactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGWY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/96
+            queryName: Hyloxalus eleutherodactylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/3
+            queryName: Colostethus eleutherodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-380ccd553e
+      - s-7fa37c1ae5
+      - s-6c1d37385d
+      - s-248f612bea
+      - s-80cf4ff225
+      - s-634a1b0b15
+      - s-9a4cbd0e1c
+      - s-4ae4dba0d8
+    zh:
+      - s-6a9829150d
+      - s-9baa13e0a6
+      - s-348cbf6ce2
+      - s-1152c7f2bd
+      - s-efd243c524
+      - s-1be16061ef
+      - s-4c5614e699
+      - s-d0bbafe0c2

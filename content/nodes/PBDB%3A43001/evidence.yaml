@@ -1,0 +1,113 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hippidion
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Hippidion
+      en: Hippidion
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-27b9c88b54
+            part: body
+          en:
+            page: en
+            section: s-ddd9e7b032
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d5c31d69d9
+            part: body
+          en:
+            page: en
+            section: s-7fd68f240f
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Hippidion
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=43001
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:43001
+          readingTargets:
+            - name: Hippidion principale
+              pbdbTaxonId: txn:83803
+              canonicalPath: content/nodes/PBDB%3A83803
+            - name: Hippidion devillei
+              pbdbTaxonId: txn:264342
+              canonicalPath: content/nodes/PBDB%3A264342
+            - name: Plagiohippus chapalmalensis
+              pbdbTaxonId: txn:399109
+              canonicalPath: content/nodes/PBDB%3A399109
+            - name: Parahipparion saldiasi
+              pbdbTaxonId: txn:311191
+              canonicalPath: content/nodes/PBDB%3A311191
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-cdf8cf299b
+        part: body
+      en:
+        page: en
+        section: s-a070ca5262
+        part: body

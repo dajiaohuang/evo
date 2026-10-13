@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-b55165a708
+      part: title
+    titleZh:
+      page: zh
+      section: s-6a19c89a9f
+      part: title
+    category: phylogenetic
+    startAge: 29
+    endAge: 28
+    regions:
+      - Middle Shumaysi Formation, Harrat Al Ujayfa, western Saudi Arabia
+    clades:
+      - Saadanius
+      - Catarrhini
+      - Anthropoidea
+    summary:
+      page: en
+      section: s-b55165a708
+      part: body
+    summaryZh:
+      page: zh
+      section: s-6a19c89a9f
+      part: body
+    claimIds:
+      - claim:event:saadanius-holotype-stem-catarrhine
+    evidenceItems:
+      - statement: Holotype SGS-UM 2009-002 preserves much of the face, palate and dentition and a tubular ectotympanic, documented by photographs and micro-CT sections.
+        relation: supports
+        claimIds:
+          - claim:event:saadanius-holotype-stem-catarrhine
+        referenceLinks:
+          - referenceId: zalmout-2010-saadanius
+            relation: supports
+            pages: 360–365
+            figure: Figures 1–4; Methods
+            quoteLocator: Systematic description, geological setting and 36-character phylogenetic analysis
+    uncertaintyItems:
+      - statement: The 29–28 Ma age is biochronological and the stem-catarrhine position follows a 36-character, 19-taxon matrix; it does not directly date the catarrhine crown split or identify an ancestor.
+        relation: contextualizes
+        claimIds:
+          - claim:event:saadanius-holotype-stem-catarrhine
+        referenceLinks:
+          - referenceId: zalmout-2010-saadanius
+            relation: supports
+            pages: 360–365
+            figure: Figures 1–4; Methods
+            quoteLocator: Systematic description, geological setting and 36-character phylogenetic analysis
+  claims:
+    - subjectId: event:saadanius-holotype-stem-catarrhine
+      claimKind: scientific
+      claimType: topology
+      statement: SGS-UM 2009-002 records a 29–28 Ma catarrhine with a character combination recovered on the catarrhine stem in the cited matrix, not a crown catarrhine or direct ancestor.
+      confidence: medium
+      confidenceRationale: Medium confidence distinguishes well-documented cranial anatomy from a biochronological age and a topology based on a small morphology matrix.
+      referenceLinks:
+        - referenceId: zalmout-2010-saadanius
+          relation: supports
+          pages: 360–365
+          figure: Figures 1–4; Methods
+          quoteLocator: Systematic description, geological setting and 36-character phylogenetic analysis
+  claim-rationales.zh:
+    - 中等置信度把记录充分的颅骨解剖，与生物年代学年龄及小型形态矩阵得出的拓扑分开。
+  claim-statements.zh:
+    - SGS-UM 2009-002 记录了一件 2,900 万至 2,800 万年前的狭鼻类，其性状组合在所引矩阵中被恢复于狭鼻类干群，而非狭鼻类冠群或直接祖先。

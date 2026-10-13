@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis acuminatus
+  displayName: Ichthyophis acuminatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5SP
+  sourceIndexes:
+    - name:
+        en: Ichthyophis acuminatus
+        zh: Ichthyophis acuminatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5SP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/383
+            queryName: Ichthyophis acuminatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0a4da10dc8
+      - s-b82b1dda00
+      - s-71bf858a7a
+      - s-67a067d125
+      - s-920f801372
+      - s-931d60725d
+      - s-0279666b23
+      - s-4004f7dee4
+      - s-f4b157b999
+      - s-2df7d110b9
+      - s-77a493c8d8
+      - s-af6435fd26
+      - s-67c5dea6d9
+    zh:
+      - s-adda5f9259
+      - s-fed61a4658
+      - s-b41fb10055
+      - s-62515338f4
+      - s-63b7d6b2ec
+      - s-dec158ad90
+      - s-47ebd21d8a
+      - s-1b7069d152
+      - s-6e9ccf49ca
+      - s-a998111702
+      - s-67c8781caa
+      - s-c18d0d948d
+      - s-9ae128fd45

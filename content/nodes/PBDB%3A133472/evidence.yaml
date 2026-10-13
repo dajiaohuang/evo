@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Batrachopodiscus quthingensis
+    rank: species
+    sourceTaxonId: txn:133472
+    name:
+      en: Batrachopodiscus quthingensis
+      zh: Batrachopodiscus quthingensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-a15796b539
+            part: body
+          zh:
+            page: zh
+            section: s-ea3105d9b4
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-e0db5d6f06
+            part: body
+          zh:
+            page: zh
+            section: s-99964d6e43
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Batrachopodiscus quthingensis
+          zh: Batrachopodiscus quthingensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-1f0df4057a
+            part: body
+          zh:
+            page: zh
+            section: s-b5285ae914
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:133472; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "P. Ellenberger. 1970. Les niveaux paléontologiques de première apparition des mammifères primoridaux en Afrique du Sud et leur ichnologie.  Establissement de zones stratigraphiques detaillees dans le Stormberg du Lesotho (Afrique du Sud) (Trias Supérieur à Jurassique) [The paleontological levels of the first appearance of primordial mammals in southern Africa and their ichnology.  Establishment of detailed stratigraphic zones in the Stormberg of Lesotho (southern Africa) (Upper Triassic to Jurassic). In: S. H. Haughton (ed.), Second Symposium on Gondwana Stratigraphy and Paleontology, International Union of Geological Sciences.  Council for Scientific and Industrial Research, Pretoria"
+    occurrenceEvidence:
+      - occurrenceId: occ:780866
+        collectionId: col:84066
+        acceptedTaxonId: txn:133472
+        identifiedName: Batrachopodiscus quthingensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:28154
+        bibliography: "P. Ellenberger. 1970. Les niveaux paléontologiques de première apparition des mammifères primoridaux en Afrique du Sud et leur ichnologie.  Establissement de zones stratigraphiques detaillees dans le Stormberg du Lesotho (Afrique du Sud) (Trias Supérieur à Jurassique) [The paleontological levels of the first appearance of primordial mammals in southern Africa and their ichnology.  Establishment of detailed stratigraphic zones in the Stormberg of Lesotho (southern Africa) (Upper Triassic to Jurassic). In: S. H. Haughton (ed.), Second Symposium on Gondwana Stratigraphy and Paleontology, International Union of Geological Sciences.  Council for Scientific and Industrial Research, Pretoria"
+        locality:
+          countryCode: LS
+          stateProvince: Quthing
+          county: null
+        stratigraphy:
+          group: Stormberg
+          formation: Clarens
+          member: null
+        olderAgeMa: 192.9
+        youngerAgeMa: 184.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Batrachopodiscus quthingensis
+          zh: Batrachopodiscus quthingensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-1f0df4057a
+            part: body
+          zh:
+            page: zh
+            section: s-b5285ae914
+            part: body
+        sourceIds: []

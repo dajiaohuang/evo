@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus mathiassoni
+  displayName: Dendropsophus mathiassoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S62
+  sourceIndexes:
+    - name:
+        en: Dendropsophus mathiassoni
+        zh: Dendropsophus mathiassoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S62
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/383
+            queryName: Dendropsophus mathiassoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/390
+            queryName: Hyla mathiassoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-709f5fd62e
+      - s-dd5ec40aa1
+      - s-55e70a58d7
+      - s-145794d2bf
+      - s-5bc434f6ca
+      - s-0eba63478b
+      - s-8d2ed27b68
+      - s-971190c422
+      - s-fa9d99838c
+      - s-37cef1001d
+      - s-5890f0f24b
+    zh:
+      - s-262f67968e
+      - s-bf0efeeb81
+      - s-3ddb023276
+      - s-cd3d6e1860
+      - s-bdba489ff7
+      - s-df5535651d
+      - s-e22215d64e
+      - s-de030d8a84
+      - s-60bec2e487
+      - s-fcfe6345b4
+      - s-ee22b0ea17

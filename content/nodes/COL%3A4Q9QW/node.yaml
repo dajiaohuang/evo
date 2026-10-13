@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena mapacha
+  displayName: Ptychadena mapacha
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9QW
+  sourceIndexes:
+    - name:
+        en: Ptychadena mapacha
+        zh: Ptychadena mapacha
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9QW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/478
+            queryName: Ptychadena mapacha
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-08cf21896d
+      - s-fe26231266
+      - s-539f8cb492
+      - s-4ea7f015b2
+      - s-7420ea2ce7
+      - s-7ad123222e
+      - s-8dc52a0eb0
+      - s-23576199d3
+    zh:
+      - s-5c04f213fd
+      - s-fd035f6f72
+      - s-0c00130b34
+      - s-e1b381b133
+      - s-9312dd3bef
+      - s-26786da634
+      - s-b976ac3a94
+      - s-27eefb2f31

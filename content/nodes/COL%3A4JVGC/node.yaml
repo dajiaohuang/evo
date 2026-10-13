@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platypelis barbouri
+  displayName: Platypelis barbouri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JVGC
+  sourceIndexes:
+    - name:
+        en: Platypelis barbouri
+        zh: Platypelis barbouri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JVGC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/405
+            queryName: Platypelis barbouri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/142
+            queryName: Cophyla barbouri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/143
+            queryName: Paracophyla tuberculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7d237751e
+      - s-d320101bb8
+      - s-191e43c4e7
+      - s-4f5f261427
+      - s-31e8eb264c
+      - s-58913ad478
+      - s-0589ce297f
+      - s-de510bee73
+      - s-4b6a498c55
+      - s-67c881e900
+      - s-b0a69cbaad
+      - s-8561d85f91
+      - s-810e134a1d
+    zh:
+      - s-b1e1038039
+      - s-9ca240e0cf
+      - s-6f13345656
+      - s-d9e0f0c43e
+      - s-4069a58420
+      - s-8f9c558e69
+      - s-1454924b6b
+      - s-58c45ed508
+      - s-5e9603e142
+      - s-b74d53ea8e
+      - s-bf4bf20070
+      - s-abb1800e20
+      - s-c473f40ea7

@@ -1,0 +1,124 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis unistrigatus
+  displayName: Pristimantis unistrigatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQV
+  sourceIndexes:
+    - name:
+        en: Pristimantis unistrigatus
+        zh: Pristimantis unistrigatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/151
+            queryName: Pristimantis unistrigatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/113
+            queryName: Eleutherodactylus lehmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/210
+            queryName: Eleutherodactylus unistrigatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/271
+            queryName: Syrrhophus coeruleus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/150
+            queryName: Hylodes unistrigatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/151
+            queryName: Hylodes lehmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/152
+            queryName: Prostherapis equatorialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/153
+            queryName: Phyllobates equatorialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/319
+            queryName: Syrrhopus caeruleus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/320
+            queryName: Eleutherodactylus coeruleus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/37
+            queryName: Eleutherodactylus unistrigatus unistrigatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b28e79fe81
+      - s-93bf89eca1
+      - s-9691c79e8e
+      - s-392133be9f
+      - s-91fdfa4f4a
+      - s-6f7637a0da
+      - s-fb1fdfe880
+      - s-726c77c7ab
+      - s-ce4e1cff25
+      - s-9e7dd803eb
+      - s-95b1b650a6
+      - s-aa5baba3d1
+    zh:
+      - s-1a8b0a60a2
+      - s-96a14a8fa1
+      - s-4a8b1b0ca6
+      - s-cf3ee65e97
+      - s-d42cb61495
+      - s-cafc466b2b
+      - s-f3857e1cce
+      - s-02d5374ff6
+      - s-73309f6447
+      - s-99a5fd9c08
+      - s-258316dcbb
+      - s-4e62f755b8

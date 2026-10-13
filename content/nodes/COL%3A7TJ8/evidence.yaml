@@ -1,0 +1,362 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Telmatobufo Schmidt, 1952
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Telmatobufo
+      zh: Telmatobufo
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-631a0b22be
+            part: title
+          zh:
+            page: zh
+            section: s-71a5323b13
+            part: title
+        text:
+          en:
+            page: en
+            section: s-631a0b22be
+            part: body
+          zh:
+            page: zh
+            section: s-71a5323b13
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-05678ae2c2
+            part: title
+          zh:
+            page: zh
+            section: s-26c521a17d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-05678ae2c2
+            part: body
+          zh:
+            page: zh
+            section: s-26c521a17d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-293576c3b3
+            part: title
+          zh:
+            page: zh
+            section: s-ae5e46a842
+            part: title
+        text:
+          en:
+            page: en
+            section: s-293576c3b3
+            part: body
+          zh:
+            page: zh
+            section: s-ae5e46a842
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-fb418ed34b
+            part: title
+          zh:
+            page: zh
+            section: s-433a71c81b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fb418ed34b
+            part: body
+          zh:
+            page: zh
+            section: s-433a71c81b
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-84cadda4e7
+            part: title
+          zh:
+            page: zh
+            section: s-037a56de0b
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 558CV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A558CV
+            label:
+              en: Telmatobufo australis
+              zh: Telmatobufo australis
+          - kind: catalogue
+            colId: 558CW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A558CW
+            label:
+              en: Telmatobufo bullocki
+              zh: Telmatobufo bullocki
+          - kind: catalogue
+            colId: 558CX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A558CX
+            label:
+              en: Telmatobufo ignotus
+              zh: Telmatobufo ignotus
+          - kind: catalogue
+            colId: 558CY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A558CY
+            label:
+              en: Telmatobufo venustus
+              zh: Telmatobufo venustus
+        text:
+          en:
+            page: en
+            section: s-84cadda4e7
+            part: body
+          zh:
+            page: zh
+            section: s-037a56de0b
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10968267-7tj8
+        title:
+          en:
+            page: en
+            section: s-e6ef286677
+            part: title
+          zh:
+            page: zh
+            section: s-ef1d08b311
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e6ef286677
+            part: body
+          zh:
+            page: zh
+            section: s-ef1d08b311
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10968267-7tj8
+        title:
+          en:
+            page: en
+            section: s-35f944f61e
+            part: title
+          zh:
+            page: zh
+            section: s-1563ec949f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 558CW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A558CW
+            label:
+              en: Telmatobufo bullocki
+              zh: Telmatobufo bullocki
+          - kind: catalogue
+            colId: 558CY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A558CY
+            label:
+              en: Telmatobufo venustus
+              zh: Telmatobufo venustus
+          - kind: catalogue
+            colId: 558CV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A558CV
+            label:
+              en: Telmatobufo australis
+              zh: Telmatobufo australis
+          - kind: catalogue
+            colId: 558CX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A558CX
+            label:
+              en: Telmatobufo ignotus
+              zh: Telmatobufo ignotus
+        text:
+          en:
+            page: en
+            section: s-35f944f61e
+            part: body
+          zh:
+            page: zh
+            section: s-1563ec949f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Telmatobufo
+          url: https://www.checklistbank.org/dataset/316115/taxon/7TJ8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Telmatobufo; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10968267-7tj8
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Telmatobius fronteriensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: 4 selected Chilean priority entries; source management model and cited context, not a complete genus synthesis.
+            zh: 4 个所选智利优先条目；来源管理模型及被引背景，不是全属综述。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-04de9c693a
+        part: body
+      zh:
+        page: zh
+        section: s-76c8d647e4
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Telmatobufo
+      sourceRowIds:
+        - Anf0907
+        - Anf0908
+        - Anf0909
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 3
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 3
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 3
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.3390/biology13030169
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        sourceKey: primary-direct-group-pmc10968267-7tj8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10968267/article.xml
+        sourceConcept: 2024 Chilean Telmatobufo priority rows and cited conservation context
+        evidenceRead: "Telmatobius fronteriensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Four selected species illustrate the influence of protection scoring
+              zh: 四个所选种展示保护评分影响
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-direct-group-pmc10968267-7tj8
+            locator: PMC10968267 XML Methods2.1–2.3; Tables2–4; Results; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2c72a50263
+                part: body
+              zh:
+                page: zh
+                section: s-69dc70a2ff
+                part: body
+            scope:
+              en: 4 selected Chilean priority entries; source management model and cited context, not a complete genus synthesis.
+              zh: 4 个所选智利优先条目；来源管理模型及被引背景，不是全属综述。
+    primaryResearchGroupSynthesisComplete: false

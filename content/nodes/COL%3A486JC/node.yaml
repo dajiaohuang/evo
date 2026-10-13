@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus cariticommatus
+  displayName: Nymphargus cariticommatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JC
+  sourceIndexes:
+    - name:
+        en: Nymphargus cariticommatus
+        zh: Nymphargus cariticommatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/419
+            queryName: Nymphargus cariticommatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/491
+            queryName: Cochranella cariticommata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dfe924b628
+      - s-17e9b62031
+      - s-1a090d586b
+      - s-7a41b84dcc
+      - s-5c9f303533
+      - s-0c379bb76a
+      - s-e175311919
+      - s-74ff757d2e
+      - s-5db5cf70ef
+      - s-4e80ebbbb8
+      - s-176883e4e4
+      - s-892d64c8fe
+      - s-087f5cefdc
+      - s-482d767ed1
+      - s-aa672b64c2
+      - s-03480652a1
+      - s-47193e0447
+      - s-0cc0b237a2
+      - s-8132eb6a74
+      - s-39be33e3c2
+      - s-d7dedd322a
+      - s-6bab160898
+      - s-060c5bf0b6
+      - s-92c5699238
+      - s-b585cbde9c
+      - s-a8ddf2d7ae
+    zh:
+      - s-93eca493cf
+      - s-6a39cabae7
+      - s-c99713413a
+      - s-5ce9acc354
+      - s-db41f17b45
+      - s-7ef795176d
+      - s-33525d31f1
+      - s-ab9af1fc73
+      - s-37e38d442b
+      - s-49f8a963bd
+      - s-703cff635c
+      - s-d7bd377a06
+      - s-8ce395221b
+      - s-4eb562049d
+      - s-32a25daca7
+      - s-b8e3872ae5
+      - s-94574cbf77
+      - s-1904435439
+      - s-f406820954
+      - s-50c3b9847e
+      - s-37a359a635
+      - s-ca6d3606aa
+      - s-9cf7cfa9c1
+      - s-1cc2ec0cf2
+      - s-6012ae3738
+      - s-905da928f9

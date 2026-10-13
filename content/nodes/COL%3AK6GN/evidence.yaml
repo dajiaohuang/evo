@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Babiana tritonioides G.J.Lewis
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage K6GN, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage K6GN; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/K6GN
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage K6GN
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000788198-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL K6GN / WFO wfo-0000788198
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14562_0
+        referenceId: ref-2134358d-3cd0-8c7f-ab54-aec576ea88f5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana tritonioides G.J.Lewis account; SANBI/WFO archive rows 33066 (Morphology), 39009 (Habitat), source identifier 14562.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana tritonioides G.J.Lewis account; SANBI/WFO archive rows 94947 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, mostly up to 150 mm tall, occasionally 1- or 2-branched. Leaves oblong to lanceolate, held at right angles to the sheaths, scarcely plicate, twisted above and erect, smooth. Flowers 7-10 in a horizontal spike, bilabiate, blue-mauve with yellow nectar guides, perianth tube 6-8 mm long, dorsal tepal 23-27 mm long, ovary smooth, bracts smooth, inner forked to about middle.
+            textZh: Babiana tritonioides G.J.Lewis 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14562_0
+            locator: "SANBI/WFO archive Morphology row 33066; source identifier 14562.0; cited publication: Goldblatt, P; Manning, JC. 2013. Iridaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 94 - 124. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The short floral bracts, 6-8 mm long, strongly inclined, secund spike and flowers with narrow tepals suggest that Babiana tritonioides is closely allied to the Richtersveld species, B. lobata, and the two seem somewhat isolated taxonomically within sect. Antholyzoides. The species is especially distinctive in the ± horizontal and distally twisted leaf blades, but the lower tepals have auriculate lobes above the base characteristic of the section. Based on morphology, B. lobata and B. tritonioides appear closely related and evidently represent a northern species pair of sect. Antholyzoides. The short leaves of B. tritonioides with relatively broad blades, mostly 40-60 x 6-10 mm, held nearly at right angles to the sheaths and twisted or folded back on themselves in concertina fashion, and short stature make the species easy to distinguish from the taller B. lobata, which has stems 120-250 mm high and erect, linear to narrowly sword-shaped leaves 2.5-4.0 mm wide, only lightly twisted in the upper half.
+            textZh: SANBI 条目提供了 Babiana tritonioides G.J.Lewis 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94947; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony slopes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Stony slopes.
+            sourceIds:
+              - sanbi_14562_0
+            locator: "SANBI/WFO archive Habitat row 39009; source identifier 14562.0; cited publication: Goldblatt, P; Manning, JC. 2013. Iridaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 94 - 124. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

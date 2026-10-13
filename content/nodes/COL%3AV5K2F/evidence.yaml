@@ -1,0 +1,164 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hylarana chozhai Naveen, Chandramouli, Praveenraj & Babu, 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hylarana chozhai
+      zh: Hylarana chozhai
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d5f02d4939
+            part: title
+          zh:
+            page: zh
+            section: s-27b9643b62
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d5f02d4939
+            part: body
+          zh:
+            page: zh
+            section: s-27b9643b62
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1a726a4981
+            part: title
+          zh:
+            page: zh
+            section: s-729503c121
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1a726a4981
+            part: body
+          zh:
+            page: zh
+            section: s-729503c121
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-8a2e09d705
+            part: title
+          zh:
+            page: zh
+            section: s-db41233282
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-8a2e09d705
+            part: body
+          zh:
+            page: zh
+            section: s-db41233282
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hylarana chozhai
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5K2F
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 1271535, row 975768; Distribution.tsv rows 441777; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d93562054d
+        part: body
+      zh:
+        page: zh
+        section: s-4722f31f2a
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "1271535"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1271535
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName and species rank; authorship representation normalization limited to NFC, whitespace and and/& conjunction.
+      originalSourceAuthorship: Naveen, Chandramouli, Praveenraj and Babu, 2025
+      colAuthorship: Naveen, Chandramouli, Praveenraj & Babu, 2025
+      exactAuthorship: false
+      equivalentAuthorshipRepresentation: true
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 975768
+        key: "1271535"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "1271535"
+            area: Southern Asia
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 441777
+            key: 1271535|Southern Asia|text|NULL|NULL

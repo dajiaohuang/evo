@@ -1,0 +1,154 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius argus
+  displayName: Hyperolius argus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQR4
+  sourceIndexes:
+    - name:
+        en: Hyperolius argus
+        zh: Hyperolius argus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQR4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/218
+            queryName: Hyperolius argus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/232
+            queryName: Hyperolius flavoviridis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/233
+            queryName: Hyperolius tettensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/234
+            queryName: Hyperolius cinctiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/235
+            queryName: Rappia argus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/236
+            queryName: Rappia cinctiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/237
+            queryName: Rappia flavoviridis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/238
+            queryName: Rappia platycephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/239
+            queryName: Rappia tettensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/240
+            queryName: Rappia platycephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/241
+            queryName: Hyperolius platycephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/242
+            queryName: Hyperolius ahli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/200
+            queryName: Hyperolius argus argus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/201
+            queryName: Hyperolius argus ahli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9c9b14e1d
+      - s-74c2d160dd
+      - s-5a78d340ff
+      - s-55d2348c5e
+      - s-8ce6b428f4
+      - s-a01266fe19
+      - s-6ce5d34199
+      - s-0887a97b37
+      - s-f9ec3ce50f
+      - s-95bb3e29a5
+      - s-66cb01f33a
+      - s-68a504a8d9
+      - s-01ecbf41bd
+      - s-6c9a0f8779
+      - s-fa160256b2
+      - s-326b6b81fb
+      - s-9d709087b6
+      - s-be21fdc034
+    zh:
+      - s-9a12b25e0c
+      - s-17459a777f
+      - s-2a5f245213
+      - s-d1d3ce7d28
+      - s-c9aabf13bb
+      - s-2633db5d1c
+      - s-9b6fa8da0e
+      - s-6139ad2764
+      - s-21ce58f205
+      - s-a89c1e9cca
+      - s-9526c6f371
+      - s-fb1ae66400
+      - s-b84b1d9517
+      - s-b5d1b56fe8
+      - s-14a8943447
+      - s-60102251fa
+      - s-158955105f
+      - s-0182be0e3b

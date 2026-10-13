@@ -1,0 +1,132 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Taruga Meegaskumbura, Meegaskumbura, Bowatte, Manamendra-Arachchi, Pethiyagoda, Hanken & Schneider, 2010
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Taruga
+      zh: Taruga
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c4108fca9f
+            part: title
+          zh:
+            page: zh
+            section: s-82ec1557fb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c4108fca9f
+            part: body
+          zh:
+            page: zh
+            section: s-82ec1557fb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-355d47efa9
+            part: title
+          zh:
+            page: zh
+            section: s-a98a11351c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-355d47efa9
+            part: body
+          zh:
+            page: zh
+            section: s-a98a11351c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-e7b4cacd53
+            part: title
+          zh:
+            page: zh
+            section: s-645c20a508
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 54Y8J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54Y8J
+            label:
+              en: Taruga eques
+              zh: Taruga eques
+          - kind: catalogue
+            colId: 54Y8K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54Y8K
+            label:
+              en: Taruga fastigo
+              zh: Taruga fastigo
+          - kind: catalogue
+            colId: 54Y8L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54Y8L
+            label:
+              en: Taruga longinasus
+              zh: Taruga longinasus
+        text:
+          en:
+            page: en
+            section: s-e7b4cacd53
+            part: body
+          zh:
+            page: zh
+            section: s-645c20a508
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Taruga
+          url: https://www.checklistbank.org/dataset/316115/taxon/7SWC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-299f59f271
+        part: body
+      zh:
+        page: zh
+        section: s-1d83fd3fbc
+        part: body

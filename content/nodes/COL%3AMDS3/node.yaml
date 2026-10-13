@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa schizodactyla
+  displayName: Bolitoglossa schizodactyla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDS3
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa schizodactyla
+        zh: Bolitoglossa schizodactyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDS3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/191
+            queryName: Bolitoglossa schizodactyla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a7c1036117
+      - s-323d4208fe
+      - s-a5b35400a5
+      - s-cd17bdc7d7
+      - s-a4ddd8b4cf
+      - s-a254090f00
+      - s-43ba633d9d
+      - s-0ad5635eff
+      - s-3d403315ab
+    zh:
+      - s-07e250b0c4
+      - s-0774d13e91
+      - s-6bdb004426
+      - s-d628df4780
+      - s-cd85ec8a05
+      - s-1098e43f1a
+      - s-b4e11bedc9
+      - s-4273a87fd2
+      - s-21e542453e

@@ -1,0 +1,317 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Huia Yang, 1991
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Huia
+      zh: Huia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-15acbcc96f
+            part: title
+          zh:
+            page: zh
+            section: s-55e10fa879
+            part: title
+        text:
+          en:
+            page: en
+            section: s-15acbcc96f
+            part: body
+          zh:
+            page: zh
+            section: s-55e10fa879
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1e62972237
+            part: title
+          zh:
+            page: zh
+            section: s-6c6711673c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1e62972237
+            part: body
+          zh:
+            page: zh
+            section: s-6c6711673c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ab446a6791
+            part: title
+          zh:
+            page: zh
+            section: s-abfc0d26ef
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ab446a6791
+            part: body
+          zh:
+            page: zh
+            section: s-abfc0d26ef
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-eb2c682af0
+            part: title
+          zh:
+            page: zh
+            section: s-44c50c3d3a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eb2c682af0
+            part: body
+          zh:
+            page: zh
+            section: s-44c50c3d3a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-ad13bbdaa2
+            part: title
+          zh:
+            page: zh
+            section: s-caba255bce
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3MSZQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3MSZQ
+            label:
+              en: Huia cavitympanum
+              zh: Huia cavitympanum
+        text:
+          en:
+            page: en
+            section: s-ad13bbdaa2
+            part: body
+          zh:
+            page: zh
+            section: s-caba255bce
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10629387-4z6d
+        title:
+          en:
+            page: en
+            section: s-dd965a2f36
+            part: title
+          zh:
+            page: zh
+            section: s-fc21a29e0e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dd965a2f36
+            part: body
+          zh:
+            page: zh
+            section: s-fc21a29e0e
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10629387-4z6d
+        title:
+          en:
+            page: en
+            section: s-614d77af20
+            part: title
+          zh:
+            page: zh
+            section: s-44db9dcfd6
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3MSZQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3MSZQ
+            label:
+              en: Huia cavitympanum
+              zh: Huia cavitympanum
+        text:
+          en:
+            page: en
+            section: s-614d77af20
+            part: body
+          zh:
+            page: zh
+            section: s-44db9dcfd6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Huia
+          url: https://www.checklistbank.org/dataset/316115/taxon/4Z6D
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Huia; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10629387-4z6d
+        referenceId: ref-2f4cd90d-08cb-410e-a946-a69cb12deb71
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Huia cavitympanum: XML Bioacoustic and morphometric data, Phylogenetic comparative analysis, Results Tables1–2 and figure captions, Discussion and Conclusions read; supplementary 735-species workbook unavailable, individual measurements, photos, original audio and model chains not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected anatomical and cited acoustic examples, with comparative-method limits; not a complete genus synthesis.
+            zh: 所选解剖及被引声学实例、比较方法限制；不是全属综述。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-31ae8e17e8
+        part: body
+      zh:
+        page: zh
+        section: s-af09a20ed9
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Huia
+      sourceRowIds:
+        - Anf4766
+        - Anf4767
+        - Anf4768
+        - Anf4769
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 4
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 4
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.16322
+        referenceId: ref-2f4cd90d-08cb-410e-a946-a69cb12deb71
+        sourceKey: primary-direct-group-pmc10629387-4z6d
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10629387/article.xml
+        sourceConcept: 2023 source-labelled Huia illustration, cited example or pooled acoustic regime
+        evidenceRead: "Huia cavitympanum: XML Bioacoustic and morphometric data, Phylogenetic comparative analysis, Results Tables1–2 and figure captions, Discussion and Conclusions read; supplementary 735-species workbook unavailable, individual measurements, photos, original audio and model chains not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: methods
+            heading:
+              en: An illustrated concave tympanum and a cited acoustic example
+              zh: 展示的凹陷鼓膜与被引声学实例
+            referenceId: ref-2f4cd90d-08cb-410e-a946-a69cb12deb71
+            sourceKey: primary-direct-group-pmc10629387-4z6d
+            locator: PMC10629387 XML Bioacoustic and morphometric data; Figure1 caption; Results Table2; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2a0bdb95e5
+                part: body
+              zh:
+                page: zh
+                section: s-e3bbb494cc
+                part: body
+            scope:
+              en: Selected anatomical and cited acoustic examples, with comparative-method limits; not a complete genus synthesis.
+              zh: 所选解剖及被引声学实例、比较方法限制；不是全属综述。
+    primaryResearchGroupSynthesisComplete: false

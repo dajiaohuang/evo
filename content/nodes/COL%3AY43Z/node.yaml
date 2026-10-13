@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus daymani
+  displayName: Cophixalus daymani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43Z
+  sourceIndexes:
+    - name:
+        en: Cophixalus daymani
+        zh: Cophixalus daymani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/443
+            queryName: Cophixalus daymani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-10da5b55d5
+      - s-e285c9fc90
+      - s-b2e33230e8
+      - s-d46bf426b2
+      - s-e8798dcc22
+      - s-d58659babe
+      - s-ec7ab63ce1
+    zh:
+      - s-00d43c9100
+      - s-3fd6342f70
+      - s-b2516d4686
+      - s-ca32d89f33
+      - s-9b8994b73b
+      - s-efa2309bbe
+      - s-5dceb27d90

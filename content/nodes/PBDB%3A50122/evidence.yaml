@@ -1,0 +1,209 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Peradectes protinnominatus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Peradectes protinnominatus
+      en: Peradectes protinnominatus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8163a9f71b
+            part: body
+          en:
+            page: en
+            section: s-37cb693ac8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a403972364
+            part: body
+          en:
+            page: en
+            section: s-7b87a52910
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-31714486cb
+            part: body
+          en:
+            page: en
+            section: s-f142345415
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e490483d83
+            part: body
+          en:
+            page: en
+            section: s-0be574b8f1
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-373ba28574
+            part: body
+          en:
+            page: en
+            section: s-6817cf12f3
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Peradectes protinnominatus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=50122&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:50122; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:50122
+          selectedOccurrenceIds:
+            - occ:165986
+            - occ:166511
+            - occ:166759
+            - occ:166849
+            - occ:166889
+            - occ:167042
+            - occ:167371
+            - occ:167407
+            - occ:168764
+            - occ:168830
+            - occ:168880
+            - occ:168994
+            - occ:169047
+            - occ:169135
+            - occ:171257
+            - occ:172145
+            - occ:172343
+            - occ:752577
+            - occ:752591
+            - occ:1193529
+            - occ:1193530
+            - occ:1193531
+            - occ:1687380
+          selectedCollectionIds:
+            - col:14973
+            - col:15036
+            - col:15072
+            - col:15081
+            - col:15085
+            - col:15099
+            - col:15152
+            - col:15156
+            - col:15458
+            - col:15472
+            - col:15480
+            - col:15491
+            - col:15493
+            - col:15504
+            - col:15725
+            - col:15845
+            - col:15887
+            - col:80579
+            - col:80580
+            - col:154254
+            - col:154276
+            - col:154282
+            - col:239208
+          sourceReferenceIds:
+            - ref:1536
+            - ref:2176
+            - ref:3643
+            - ref:2180
+            - ref:7530
+            - ref:1333
+            - ref:2528
+            - ref:6294
+            - ref:27112
+            - ref:49988
+            - ref:91101
+          originalIdentificationMappings:
+            - occurrenceId: occ:172343
+              originalIdentifiedName: Peradectes protinnominatus n. sp.
+              acceptedName: Peradectes protinnominatus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7f129f0eb2
+        part: body
+      en:
+        page: en
+        section: s-d0160ca2b0
+        part: body

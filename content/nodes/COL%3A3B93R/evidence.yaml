@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Erodium malacoides (L.) L'Hér.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3B93R, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3B93R; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3B93R
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3B93R
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000676957-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3B93R / WFO wfo-0000676957
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9585_0
+        referenceId: ref-2454dfea-116f-8b4b-a4df-c6dad8ba1d59
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Erodium malacoides (L.) L'Hér. account; archive rows 65541 (Morphology), 65401 (Habitat), 65130 (Diagnostic), source identifier 9585.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Annual or biennial erect to decumbent or prostrate herb. Stems up to 0.5 m long, pilose with deflexed hairs, with glandular hairs and sessile glands. Leaves alternate, sub-opposite to opposite; petiole 25-165 mm long, indumentum as on stem; stipules 2 or 4, ovate with apex acuminate, whitish; blade 35-45 x 30-40 mm, simple, broadly ovate to broadly deltate-ovate, sub-pinnately to sub-palmately veined, margin serrate and nearly entire to shallowly, lobed to rarely pinnatifid, usually soft-textured, base cordate to truncate, apex obtuse to acute, sparsely pilose with numerous sessile glands adaxially and abaxially. Inflorescence of 3-7 flowers, indumentum as on stem; peduncles 30-60 mm long; pedicels 10-16(-22) mm long; bracts 4-6, ovate, glabrous to glandular, ciliate, whitish to straw coloured. Sepals 3x2 mm, indumentum as on stem and dense, apical mucro terete and 0.6 mm long. Petals 4-5 x 2-2.5 mm, violet or white. Stamens free; fertile stamens violet, 3-4 mm long, narrowly ovate becoming terete in upper half; pollen striate interwoven to reticulate, polar diameter 66 µm; staminodes narrowly ovate, 2 mm long. Ovary 0.5 mm long with rostrum 1.5 mm long; style 0-1 mm long; stigmas 0.6 mm long. Mericarps: head 3-5 mm long, apical pit glandular with one distinct furrow below pit, tail 20-25 mm long. Seed ±3 mm long."
+            sourceIds:
+              - sanbi_9585_0
+            locator: "SANBI/WFO archive Morphology row 65541; source 9585.0; publication: Venter, HJT; Verhoeven, RL. 1990. The genus Erodium in southern Africa. S. African J. Bot. 56: 79 - 92. [Copyright held by the South African Association of Botanists (1990); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Erect to prostrate pilose and glandular herb. Leaves with petiole 25-165 mm long; lamina simple, broadly ovate to broadly deltate-ovate with base cordate to truncate, sparsely pilose with numerous sessile glands, normally soft-textured, margin serrate and usually only shallowly lobed. Petals violet or white. Mericarps with glandular pits and one furrow below pit, tail short, 20-30 mm long.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_9585_0
+            locator: "SANBI/WFO archive Diagnostic row 65130; source 9585.0; publication: Venter, HJT; Verhoeven, RL. 1990. The genus Erodium in southern Africa. S. African J. Bot. 56: 79 - 92. [Copyright held by the South African Association of Botanists (1990); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: E. malacoides seems to prefer a sandy habitat, from coastal dunes to village sidewalks, where it may become locally abundant.
+            sourceIds:
+              - sanbi_9585_0
+            locator: "SANBI/WFO archive Habitat row 65401; source 9585.0; publication: Venter, HJT; Verhoeven, RL. 1990. The genus Erodium in southern Africa. S. African J. Bot. 56: 79 - 92. [Copyright held by the South African Association of Botanists (1990); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

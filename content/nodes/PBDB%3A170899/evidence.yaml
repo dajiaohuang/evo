@@ -1,0 +1,157 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Stenopterygius megacephalus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Stenopterygius megacephalus
+      en: Stenopterygius megacephalus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbIchthyosauriformesTaxonomy20261002
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a80ac74b75
+            part: body
+          en:
+            page: en
+            section: s-6c4b3ba758
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8ccaaa1aff
+            part: body
+          en:
+            page: en
+            section: s-6618a87bd1
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a674341841
+            part: body
+          en:
+            page: en
+            section: s-9863c9744d
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d55dba606c
+            part: body
+          en:
+            page: en
+            section: s-9e4a279f09
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5d6c343953
+            part: body
+          en:
+            page: en
+            section: s-788d582e1f
+            part: body
+    sources:
+      - id: pbdbIchthyosauriformesTaxonomy20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Stenopterygius megacephalus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=170899&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbIchthyosauriformesOccurrences20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:170899; original response record indices retained in data/sources/ichthyosauriformes-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: f47f280ca897054f5bf00b8a99d8aa7b7eee1e3225ec65be651afc93d19ba812
+          pbdbTaxonId: txn:170899
+          selectedOccurrenceIds:
+            - occ:1134488
+            - occ:1134489
+            - occ:1134510
+            - occ:1134518
+          selectedCollectionIds:
+            - col:139781
+            - col:91595
+            - col:91671
+            - col:91589
+          sourceReferenceIds:
+            - ref:46688
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e20dd2237a
+        part: body
+      en:
+        page: en
+        section: s-a3bdf62efd
+        part: body

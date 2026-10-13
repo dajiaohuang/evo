@@ -1,0 +1,283 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhaebo olallai (Hoogmoed, 1985)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Rhaebo olallai
+      zh: Rhaebo olallai
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-05e98cc96b
+            part: title
+          zh:
+            page: zh
+            section: s-2f382bdc60
+            part: title
+        text:
+          en:
+            page: en
+            section: s-05e98cc96b
+            part: body
+          zh:
+            page: zh
+            section: s-2f382bdc60
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9353b1472a
+            part: title
+          zh:
+            page: zh
+            section: s-4056899eb4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9353b1472a
+            part: body
+          zh:
+            page: zh
+            section: s-4056899eb4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-52c5054ca3
+            part: title
+          zh:
+            page: zh
+            section: s-20448b4129
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-52c5054ca3
+            part: body
+          zh:
+            page: zh
+            section: s-20448b4129
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-fb421d19c2f862039c6175f7dd8f1d5d
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-70ea9ed2de
+            part: title
+          zh:
+            page: zh
+            section: s-cee80746ee
+            part: title
+        sourceIds:
+          - primary-pmc6404656-4ry99
+        text:
+          en:
+            page: en
+            section: s-70ea9ed2de
+            part: body
+          zh:
+            page: zh
+            section: s-cee80746ee
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-03b452ff73
+            part: title
+          zh:
+            page: zh
+            section: s-320dea6f4d
+            part: title
+        sourceIds:
+          - primary-pmc6404656-4ry99
+        text:
+          en:
+            page: en
+            section: s-03b452ff73
+            part: body
+          zh:
+            page: zh
+            section: s-320dea6f4d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhaebo olallai
+          url: https://www.checklistbank.org/dataset/316115/taxon/4RY99
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0418; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0418 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc6404656-4ry99
+        referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rhaebo olallai: Mainsec1–8paragraphs/Tables1–2/AppendixI andallTableS1DOCXdonorrows read;cloudDOI/license/MD5verified;originalmainfigurepixels/audio/alignments/GenBankrecords/voucheridentities unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e6edc28b8d
+        part: body
+      zh:
+        page: zh
+        section: s-358ed5da94
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.6400
+        referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+        sourceKey: primary-pmc6404656-4ry99
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6404656/article.xml
+        sourceConcept: Exact frozen-name match to selected maintext/table/Appendix labels;qualified/unnamedcandidates andhistoricalassessments remainseparate
+        evidenceRead: "Rhaebo olallai: Mainsec1–8paragraphs/Tables1–2/AppendixI andallTableS1DOCXdonorrows read;cloudDOI/license/MD5verified;originalmainfigurepixels/audio/alignments/GenBankrecords/voucheridentities unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A reserve-level reported occurrence
+              zh: 保护区层级的报告出现
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-4ry99
+            locator: PMC6404656 XMLsec5p2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5c7fac8cc7
+                part: body
+              zh:
+                page: zh
+                section: s-dcda442039
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A historical threat label at the study site
+              zh: 研究地点的历史威胁标签
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-4ry99
+            locator: PMC6404656 XMLsec5p2;sec6p1–4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7bef73cccb
+                part: body
+              zh:
+                page: zh
+                section: s-7a96a51137
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

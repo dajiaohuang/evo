@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus chrysocorallus
+  displayName: Atelopus chrysocorallus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8XZ
+  sourceIndexes:
+    - name:
+        en: Atelopus chrysocorallus
+        zh: Atelopus chrysocorallus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8XZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/243
+            queryName: Atelopus chrysocorallus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3ab61aa51
+      - s-a00e83a91a
+      - s-7d40828498
+      - s-41bd68861e
+      - s-76ce790cc8
+      - s-007e84843f
+      - s-ea87e19c45
+      - s-7f26602b8e
+      - s-fcf11da02d
+    zh:
+      - s-0025e6d6d3
+      - s-3335f54460
+      - s-3b9dd75b45
+      - s-85ff2c7ac3
+      - s-3932a10e1e
+      - s-7e0670fc61
+      - s-27749ede19
+      - s-4e8e59df79
+      - s-9a5f4747be

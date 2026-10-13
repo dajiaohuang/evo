@@ -1,0 +1,467 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eutheria
+    rank: infraclass
+    sourceDatasetId: "2144"
+    name:
+      zh: Eutheria
+      en: Eutheria
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-da16902fe4
+            part: body
+          en:
+            page: en
+            section: s-1e7159baca
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-482bd6538e
+            part: body
+          en:
+            page: en
+            section: s-887b9f82b8
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f22c93f36b
+            part: body
+          en:
+            page: en
+            section: s-4e128f3fa7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bc57b87774
+            part: body
+          en:
+            page: en
+            section: s-cf67be8b0e
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-fe9ee889e9
+            part: body
+          en:
+            page: en
+            section: s-6f4d8da0a4
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-173b270ec9
+            part: body
+          en:
+            page: en
+            section: s-c804d2147c
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-fc4b6b8f30
+            part: body
+          en:
+            page: en
+            section: s-c27e1acafd
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-ae5a2bad0c
+            part: body
+          en:
+            page: en
+            section: s-9ba5fdaab3
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-cceedbef63
+            part: body
+          en:
+            page: en
+            section: s-cb0d7b3ab5
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-1fafc0c4e5
+            part: body
+          en:
+            page: en
+            section: s-3dceb757d9
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-ee57638cb5
+            part: body
+          en:
+            page: en
+            section: s-36ba5928b6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Eutheria
+          url: https://www.checklistbank.org/dataset/316115/taxon/LG
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1078 authored entries grouped under Eutheria by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 1912 authored same-name records placed under Eutheria by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 3503 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 2993
+            foraging: 3359
+            activity: 3281
+          readingTargets:
+            - name: Geogale aurita
+              colId: 3FPQS
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3FPQS
+            - name: Microgale longicaudata
+              colId: 42WJC
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJC
+            - name: Microgale thomasi
+              colId: 42WJN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJN
+            - name: Microgale soricoides
+              colId: 42WJK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJK
+            - name: Microgale pusilla
+              colId: 42WJJ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJJ
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 272 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 2
+            foraging: 244
+            activity: 26
+          readingTargets:
+            - name: Microgale taiva
+              colId: 42WJL
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJL
+            - name: Microgale fotsifotsy
+              colId: 42WJ9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJ9
+            - name: Microgale nasoloi
+              colId: 6RGPC
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6RGPC
+            - name: Trichechus senegalensis
+              colId: "58865"
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A58865
+            - name: Spermophilus pallidicauda
+              colId: 6Z98X
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6Z98X
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - withheldComparisonFields
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 895 authored entries grouped under Eutheria by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: QQ4Y
+              name: Caperea marginata
+              canonicalPath: content/nodes/COL%3AQQ4Y
+            - colId: J8NQ
+              name: Atelerix sclateri
+              canonicalPath: content/nodes/COL%3AJ8NQ
+            - colId: J8NW
+              name: Ateles chamek
+              canonicalPath: content/nodes/COL%3AJ8NW
+            - colId: PW5Y
+              name: Callosciurus melanogaster
+              canonicalPath: content/nodes/COL%3APW5Y
+            - colId: PYKY
+              name: Calomys boliviae
+              canonicalPath: content/nodes/COL%3APYKY
+          withheldComparisonFields:
+            - colId: QQ4Y
+              field: 5-1_AdultBodyMass_g
+              reason: pending-source-review
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 616 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 5VLCR
+              name: Antilocapra americana
+              canonicalPath: content/nodes/COL%3A5VLCR
+            - colId: 652YZ
+              name: Addax nasomaculatus
+              canonicalPath: content/nodes/COL%3A652YZ
+            - colId: 64ZMM
+              name: Aepyceros melampus
+              canonicalPath: content/nodes/COL%3A64ZMM
+            - colId: 66BLJ
+              name: Ammodorcas clarkei
+              canonicalPath: content/nodes/COL%3A66BLJ
+            - colId: CVNG
+              name: Ammotragus lervia
+              canonicalPath: content/nodes/COL%3ACVNG
+          fieldAccountCounts:
+            gestation(mo): 448
+            newborn(g): 354
+            weaning(mo): 357
+            wean mass(g): 155
+            AFR(mo): 362
+            max. life(mo): 297
+            litter size: 588
+            litters/year: 313
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-e0cbc77620
+        part: body
+      en:
+        page: en
+        section: s-4bb34d5610
+        part: body

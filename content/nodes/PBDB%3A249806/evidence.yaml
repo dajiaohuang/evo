@@ -1,0 +1,564 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Latonia gigantea
+    rank: species
+    sourceTaxonId: txn:249806
+    name:
+      en: Latonia gigantea
+      zh: Latonia gigantea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-5101466f01
+            part: body
+          zh:
+            page: zh
+            section: s-44f2414019
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-cdadcc5b22
+            part: body
+          zh:
+            page: zh
+            section: s-39eb2dc76e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-64c5dd8906
+            part: body
+          zh:
+            page: zh
+            section: s-619e1aaf36
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:249806; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. Venczel and E. Stiuca. 2008. Late middle Miocene amphibians and squamate reptiles from Taut, Romania. Geodiversitas 30(4):731-763
+    occurrenceEvidence:
+      - occurrenceId: occ:650735
+        collectionId: col:69098
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:23602
+        bibliography: V. J. Sach and E. P. J. Heizmann. 2001. Stratigraphy and mammal faunas of the Brackwassermolasse in the surroundings of Ulm (Southwest Germany). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 310:1-95
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Alb-Donau
+        stratigraphy:
+          group: Molasse
+          formation: Brackwater Molasse
+          member: Kirchberg beds
+        olderAgeMa: 20.45
+        youngerAgeMa: 15.98
+      - occurrenceId: occ:1079012
+        collectionId: col:134954
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:43315
+        bibliography: M. Ivanov and M. Böhme. 2011. Snakes from Griesbeckerzell (Langhian, Early Badenian), North Alpine Foreland Basin (Germany), with comments on the evolution of snake faunas in Central Europe during the Miocene Climatic Optimum. Geodiversitas 33(3):411-449
+        locality:
+          countryCode: DE
+          stateProvince: Bavaria
+          county: Aichach-Friedberg
+        stratigraphy:
+          group: Molasse
+          formation: Upper Freshwater Molasse
+          member: Fluviatile Untere Serie
+        olderAgeMa: 15.98
+        youngerAgeMa: 13.82
+      - occurrenceId: occ:1081724
+        collectionId: col:135812
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:43465
+        bibliography: M. Venczel and E. Stiuca. 2008. Late middle Miocene amphibians and squamate reptiles from Taut, Romania. Geodiversitas 30(4):731-763
+        locality:
+          countryCode: RO
+          stateProvince: Arad
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 12.8
+        youngerAgeMa: 11.63
+      - occurrenceId: occ:1083490
+        collectionId: col:136066
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:43517
+        bibliography: M. Venczel. 2001. Anurans and squamates from the Lower Pliocene (MN 14) Osztramos 1 locality (Northern Hungary). Fragmenta Palaeontologica Hungarica 19:79-90
+        locality:
+          countryCode: HU
+          stateProvince: North Hungary
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 5.333
+        youngerAgeMa: 3.6
+      - occurrenceId: occ:1083491
+        collectionId: col:136067
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:43517
+        bibliography: M. Venczel. 2001. Anurans and squamates from the Lower Pliocene (MN 14) Osztramos 1 locality (Northern Hungary). Fragmenta Palaeontologica Hungarica 19:79-90
+        locality:
+          countryCode: HU
+          stateProvince: North Hungary
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 5.333
+        youngerAgeMa: 3.6
+      - occurrenceId: occ:1083492
+        collectionId: col:136068
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:43517
+        bibliography: M. Venczel. 2001. Anurans and squamates from the Lower Pliocene (MN 14) Osztramos 1 locality (Northern Hungary). Fragmenta Palaeontologica Hungarica 19:79-90
+        locality:
+          countryCode: HU
+          stateProvince: North Hungary
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 5.333
+        youngerAgeMa: 3.6
+      - occurrenceId: occ:1091856
+        collectionId: col:34615
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:43888
+        bibliography: M. Böhme. 2010. Ectothermic vertebrates (Actinopterygii, Allocaudata, Urodela, Anura, Crocodylia, Squamata) from the Miocene of Sandelzhausen (Germany, Bavaria) and their implications for environment reconstruction and palaeoclimate. Paläontologische Zeitschrift 84(1):3-41
+        locality:
+          countryCode: DE
+          stateProvince: Bavaria
+          county: Kelheim
+        stratigraphy:
+          group: Molasse
+          formation: Upper Freshwater Molasse
+          member: null
+        olderAgeMa: 15.98
+        youngerAgeMa: 13.82
+      - occurrenceId: occ:1260504
+        collectionId: col:167497
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:54667
+        bibliography: "E. Gál, J. Hír, and E. Kessler, J. Kókay, L. Mészáros, M. Vencel. 1999. Középs & #337;-miocén & #337;smaradványok, a Mátrasz & #337;l & #337;s , Rákóczi-kápolna alatti útbevágásból. I. A Mátrasz & #337;l & #337;s 1. lel & #337;hely [Middle miocene fossils from the road cut below the Rákóczi chapel at Mátrasz & #337;l & #337;s. I. The site Mátrasz & #337;l & #337;s 1]. Folia Historico Naturalia Musei Matraensis 23:33-78"
+        locality:
+          countryCode: HU
+          stateProvince: Nograd
+          county: Paszto
+        stratigraphy:
+          group: null
+          formation: Sajovolgyi
+          member: null
+        olderAgeMa: 13.82
+        youngerAgeMa: 11.1
+      - occurrenceId: occ:1260680
+        collectionId: col:167509
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:54667
+        bibliography: "E. Gál, J. Hír, and E. Kessler, J. Kókay, L. Mészáros, M. Vencel. 1999. Középs & #337;-miocén & #337;smaradványok, a Mátrasz & #337;l & #337;s , Rákóczi-kápolna alatti útbevágásból. I. A Mátrasz & #337;l & #337;s 1. lel & #337;hely [Middle miocene fossils from the road cut below the Rákóczi chapel at Mátrasz & #337;l & #337;s. I. The site Mátrasz & #337;l & #337;s 1]. Folia Historico Naturalia Musei Matraensis 23:33-78"
+        locality:
+          countryCode: HU
+          stateProvince: Nograd
+          county: Paszto
+        stratigraphy:
+          group: null
+          formation: Sajovolgyi
+          member: null
+        olderAgeMa: 13.82
+        youngerAgeMa: 11.1
+      - occurrenceId: occ:1260715
+        collectionId: col:167512
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:54667
+        bibliography: "E. Gál, J. Hír, and E. Kessler, J. Kókay, L. Mészáros, M. Vencel. 1999. Középs & #337;-miocén & #337;smaradványok, a Mátrasz & #337;l & #337;s , Rákóczi-kápolna alatti útbevágásból. I. A Mátrasz & #337;l & #337;s 1. lel & #337;hely [Middle miocene fossils from the road cut below the Rákóczi chapel at Mátrasz & #337;l & #337;s. I. The site Mátrasz & #337;l & #337;s 1]. Folia Historico Naturalia Musei Matraensis 23:33-78"
+        locality:
+          countryCode: HU
+          stateProvince: Nograd
+          county: Paszto
+        stratigraphy:
+          group: null
+          formation: Sajovolgyi
+          member: null
+        olderAgeMa: 13.82
+        youngerAgeMa: 11.1
+      - occurrenceId: occ:1265186
+        collectionId: col:75481
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:55045
+        bibliography: "R. L. Bernor, L. Kordos L. Rook et al. 2004. Recent Advances on Multidisciplinary Research at Rudabánya, Late Miocene (MN9), Hungary: a compendium. Palaeontographia Italica 89:3-36"
+        locality:
+          countryCode: HU
+          stateProvince: Borsod-Abaúj-Zemplén
+          county: Edelény
+        stratigraphy:
+          group: null
+          formation: Edelény
+          member: null
+        olderAgeMa: 11.1
+        youngerAgeMa: 9.67
+      - occurrenceId: occ:1266134
+        collectionId: col:168132
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:55074
+        bibliography: "M. Venczel and J. Hír. 2013. Amphibians and Squamates from the Miocene of Felsőtárkány Basin, N-Hungary. Palaeontographica, Abteilung A: Paleozoology – Stratigraphy 300(1–6):117-158"
+        locality:
+          countryCode: HU
+          stateProvince: Heves
+          county: Eger
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 12.75
+        youngerAgeMa: 11.1
+      - occurrenceId: occ:1266135
+        collectionId: col:168164
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:55074
+        bibliography: "M. Venczel and J. Hír. 2013. Amphibians and Squamates from the Miocene of Felsőtárkány Basin, N-Hungary. Palaeontographica, Abteilung A: Paleozoology – Stratigraphy 300(1–6):117-158"
+        locality:
+          countryCode: HU
+          stateProvince: Heves
+          county: Eger
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 12.75
+        youngerAgeMa: 11.1
+      - occurrenceId: occ:1266141
+        collectionId: col:168177
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:55074
+        bibliography: "M. Venczel and J. Hír. 2013. Amphibians and Squamates from the Miocene of Felsőtárkány Basin, N-Hungary. Palaeontographica, Abteilung A: Paleozoology – Stratigraphy 300(1–6):117-158"
+        locality:
+          countryCode: HU
+          stateProvince: Heves
+          county: Eger
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.1
+        youngerAgeMa: 9.67
+      - occurrenceId: occ:1266145
+        collectionId: col:168187
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:55074
+        bibliography: "M. Venczel and J. Hír. 2013. Amphibians and Squamates from the Miocene of Felsőtárkány Basin, N-Hungary. Palaeontographica, Abteilung A: Paleozoology – Stratigraphy 300(1–6):117-158"
+        locality:
+          countryCode: HU
+          stateProvince: Heves
+          county: Eger
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.1
+        youngerAgeMa: 9.67
+      - occurrenceId: occ:1266146
+        collectionId: col:168189
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:55074
+        bibliography: "M. Venczel and J. Hír. 2013. Amphibians and Squamates from the Miocene of Felsőtárkány Basin, N-Hungary. Palaeontographica, Abteilung A: Paleozoology – Stratigraphy 300(1–6):117-158"
+        locality:
+          countryCode: HU
+          stateProvince: Heves
+          county: Eger
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.1
+        youngerAgeMa: 9.67
+      - occurrenceId: occ:1266147
+        collectionId: col:168190
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:55074
+        bibliography: "M. Venczel and J. Hír. 2013. Amphibians and Squamates from the Miocene of Felsőtárkány Basin, N-Hungary. Palaeontographica, Abteilung A: Paleozoology – Stratigraphy 300(1–6):117-158"
+        locality:
+          countryCode: HU
+          stateProvince: Heves
+          county: Eger
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.1
+        youngerAgeMa: 9.67
+      - occurrenceId: occ:1266148
+        collectionId: col:168191
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:55074
+        bibliography: "M. Venczel and J. Hír. 2013. Amphibians and Squamates from the Miocene of Felsőtárkány Basin, N-Hungary. Palaeontographica, Abteilung A: Paleozoology – Stratigraphy 300(1–6):117-158"
+        locality:
+          countryCode: HU
+          stateProvince: Heves
+          county: Eger
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.1
+        youngerAgeMa: 9.67
+      - occurrenceId: occ:1309555
+        collectionId: col:175727
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:57549
+        bibliography: V. Sach. 2010. Einmal Miozän und zurück – Zeitreise am Maurerkopf bei Edelbeuren. Oberschwaben Naturnah 2010:41-45
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Wurttemberg
+          county: Biberach
+        stratigraphy:
+          group: Molasse
+          formation: Upper Freshwater Molasse
+          member: null
+        olderAgeMa: 15.98
+        youngerAgeMa: 13.82
+      - occurrenceId: occ:1388853
+        collectionId: col:69435
+        acceptedTaxonId: txn:249806
+        identifiedName: Latonia cf. gigantea
+        taxonomicDifference: null
+        referenceId: ref:64277
+        bibliography: G. L. Georgalis, A. Villa, and M. Ivanov, S. Roussiakis, P. Skandalos, M. Delfino. 2017. Early Miocene herpetofaunas from the Greek localities of Aliveri and Karydia – bridging a gap in the knowledge of amphibians and reptiles from the early Neogene of southeastern Europe. Historical Biology
+        locality:
+          countryCode: GR
+          stateProvince: Thrace
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 16.9
+        youngerAgeMa: 15.98
+      - occurrenceId: occ:1432166
+        collectionId: col:199780
+        acceptedTaxonId: txn:249806
+        identifiedName: Latonia cf. gigantea
+        taxonomicDifference: null
+        referenceId: ref:67945
+        bibliography: "D. Đurić. 2016. The Early Miocene herpetofauna (Amphibia and Squamata) from Sibnica, Serbia. Special Issue of the Natural History Museum in Belgrade: Life on the Shore - geological and palaeontological research in the Neogene of Sibnica and vicinity (Levač Basin, Central Serbia) Part 1"
+        locality:
+          countryCode: RS
+          stateProvince: Serbia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 20.45
+        youngerAgeMa: 15.98
+      - occurrenceId: occ:1432170
+        collectionId: col:199781
+        acceptedTaxonId: txn:249806
+        identifiedName: Latonia cf. gigantea
+        taxonomicDifference: null
+        referenceId: ref:67945
+        bibliography: "D. Đurić. 2016. The Early Miocene herpetofauna (Amphibia and Squamata) from Sibnica, Serbia. Special Issue of the Natural History Museum in Belgrade: Life on the Shore - geological and palaeontological research in the Neogene of Sibnica and vicinity (Levač Basin, Central Serbia) Part 1"
+        locality:
+          countryCode: RS
+          stateProvince: Serbia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 20.45
+        youngerAgeMa: 15.98
+      - occurrenceId: occ:1432178
+        collectionId: col:199782
+        acceptedTaxonId: txn:249806
+        identifiedName: Latonia cf. gigantea
+        taxonomicDifference: null
+        referenceId: ref:67945
+        bibliography: "D. Đurić. 2016. The Early Miocene herpetofauna (Amphibia and Squamata) from Sibnica, Serbia. Special Issue of the Natural History Museum in Belgrade: Life on the Shore - geological and palaeontological research in the Neogene of Sibnica and vicinity (Levač Basin, Central Serbia) Part 1"
+        locality:
+          countryCode: RS
+          stateProvince: Serbia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 20.45
+        youngerAgeMa: 15.98
+      - occurrenceId: occ:1434046
+        collectionId: col:200044
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:68035
+        bibliography: M. Venczel, J. Hír, and R. R. Huza, E. Popa D. Golban. 2005. A new middle Miocene vertebrate fauna from Subpiatrǎ (Bihor County, Romania). Nymphaea 12:23-38
+        locality:
+          countryCode: RO
+          stateProvince: Bihor
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 13.82
+        youngerAgeMa: 12.75
+      - occurrenceId: occ:1434122
+        collectionId: col:200051
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:68035
+        bibliography: M. Venczel, J. Hír, and R. R. Huza, E. Popa D. Golban. 2005. A new middle Miocene vertebrate fauna from Subpiatrǎ (Bihor County, Romania). Nymphaea 12:23-38
+        locality:
+          countryCode: RO
+          stateProvince: Bihor
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 12.75
+        youngerAgeMa: 11.1
+      - occurrenceId: occ:1468788
+        collectionId: col:205187
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:70404
+        bibliography: "J. Prieto, M. Böhme, and H. Maurer, K. Heissig, H. A. Abdul Aziz. 2009. Biostratigraphy and sedimentology of the Fluviatile Untere Serie (Early and Middle Miocene) in the central part of the North Alpine Foreland Basin: implications for palaeoenvironment and climate. International Journal of Earth Sciences 98:1767-1791"
+        locality:
+          countryCode: DE
+          stateProvince: Bavaria
+          county: Neu-Ulm
+        stratigraphy:
+          group: North Alpine Foreland Basin
+          formation: Upper Freshwater Molasse
+          member: Untere Fluviatile Serie
+        olderAgeMa: 15.98
+        youngerAgeMa: 13.82
+      - occurrenceId: occ:1469274
+        collectionId: col:37789
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:70425
+        bibliography: "P. M. Tempfer. 2005. The Herpetofauna (Amphibia: Caudata, Anura; Reptilia: Sclerogiossa) of the Upper Miocene Locality Kohfidisch (Burgenland, Austria). Beiträge zur Paläontologie von Österreich 29:145-253"
+        locality:
+          countryCode: AT
+          stateProvince: Burgenland
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 8.725
+        youngerAgeMa: 7.9
+      - occurrenceId: occ:1482007
+        collectionId: col:206345
+        acceptedTaxonId: txn:249806
+        taxonomicDifference: null
+        referenceId: ref:70899
+        bibliography: M. Bohme, N. Spassov, and J. Fuss, A. Troscher, A. S. Deane, J. Prieto, T. Lechner, D. R. Begun. 2019. A new Miocene ape and locomotion in the ancestor of great apes and humans. Nature
+        locality:
+          countryCode: DE
+          stateProvince: Bavaria
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 11.63
+        youngerAgeMa: 7.246
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-64c5dd8906
+            part: body
+          zh:
+            page: zh
+            section: s-619e1aaf36
+            part: body
+        sourceIds: []

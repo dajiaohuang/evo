@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Megaraptora
+    rank: unranked clade
+    sourceDatasetId: null
+    name:
+      zh: Megaraptora
+      en: Megaraptora
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-214ed808c9
+            part: body
+          en:
+            page: en
+            section: s-ea67b1ddc9
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-692d8e88e3
+            part: body
+          en:
+            page: en
+            section: s-bf65c45f2f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Megaraptora
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=160851
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:160851
+          readingTargets:
+            - name: Vayuraptor nongbualamphuensis
+              pbdbTaxonId: txn:387582
+              canonicalPath: content/nodes/PBDB%3A387582
+            - name: Aoniraptor libertatem
+              pbdbTaxonId: txn:345413
+              canonicalPath: content/nodes/PBDB%3A345413
+            - name: Siats meekerorum
+              pbdbTaxonId: txn:283701
+              canonicalPath: content/nodes/PBDB%3A283701
+            - name: Tratayenia rosalesi
+              pbdbTaxonId: txn:376162
+              canonicalPath: content/nodes/PBDB%3A376162
+            - name: Orkoraptor burkei
+              pbdbTaxonId: txn:122476
+              canonicalPath: content/nodes/PBDB%3A122476
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-121b7ca184
+        part: body
+      en:
+        page: en
+        section: s-0db91c72aa
+        part: body

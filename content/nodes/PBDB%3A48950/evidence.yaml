@@ -1,0 +1,169 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Namatomys lloydi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Namatomys lloydi
+      en: Namatomys lloydi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e1d7c5e8b3
+            part: body
+          en:
+            page: en
+            section: s-5f49594382
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-554c997a49
+            part: body
+          en:
+            page: en
+            section: s-9c1d281bfa
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-09d1195b13
+            part: body
+          en:
+            page: en
+            section: s-a34b518a19
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4188305dae
+            part: body
+          en:
+            page: en
+            section: s-44d38d94dd
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-094508f17e
+            part: body
+          en:
+            page: en
+            section: s-98d5d12975
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Namatomys lloydi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=48950&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:48950; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:48950
+          selectedOccurrenceIds:
+            - occ:178433
+            - occ:178453
+            - occ:178500
+            - occ:178542
+            - occ:178590
+            - occ:179035
+            - occ:179105
+          selectedCollectionIds:
+            - col:16959
+            - col:16960
+            - col:16961
+            - col:16962
+            - col:16963
+            - col:17010
+            - col:17014
+          sourceReferenceIds:
+            - ref:3359
+            - ref:1442
+            - ref:2716
+          originalIdentificationMappings:
+            - occurrenceId: occ:179035
+              originalIdentifiedName: Namatomys lloydi n. sp.
+              acceptedName: Namatomys lloydi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-868fb5b69f
+        part: body
+      en:
+        page: en
+        section: s-8de6281ca2
+        part: body

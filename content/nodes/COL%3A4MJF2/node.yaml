@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis hernandezi
+  displayName: Pristimantis hernandezi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJF2
+  sourceIndexes:
+    - name:
+        en: Pristimantis hernandezi
+        zh: Pristimantis hernandezi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJF2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/307
+            queryName: Pristimantis hernandezi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/376
+            queryName: Eleutherodactylus hernandezi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cca7f656f5
+      - s-1283503ec1
+      - s-817dd2caa5
+      - s-68758c8fa0
+      - s-92e86be509
+      - s-02cd4c7c9d
+      - s-ce2226ae71
+    zh:
+      - s-e4ed82d232
+      - s-30ac383439
+      - s-69d3c69dea
+      - s-8879850f96
+      - s-e6b8b0b277
+      - s-cbc8531060
+      - s-c682355504

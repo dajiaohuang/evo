@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus pernix
+  displayName: Brachycephalus pernix
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PYC
+  sourceIndexes:
+    - name:
+        en: Brachycephalus pernix
+        zh: Brachycephalus pernix
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PYC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/427
+            queryName: Brachycephalus pernix
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e5f5dc007c
+      - s-8fad59cc40
+      - s-79bb2277da
+      - s-2ad485d47e
+      - s-23c5f82441
+      - s-91c6a85cbd
+      - s-943c5b1170
+      - s-b2b6108434
+      - s-cddea96654
+      - s-836236343c
+      - s-060abe80ae
+      - s-3afee73d47
+      - s-264fdc6658
+      - s-9a7dac35eb
+      - s-20752ab0e9
+      - s-73e9caad57
+      - s-0b268ab370
+      - s-72b8e1342e
+    zh:
+      - s-a9a196330f
+      - s-61c628b279
+      - s-8774708a7f
+      - s-acc863ad37
+      - s-68fc1dc591
+      - s-1fba1a43a4
+      - s-7298285c7f
+      - s-6d0d5d0610
+      - s-715d66251e
+      - s-294ec0e88a
+      - s-bb20adc39b
+      - s-a427946f17
+      - s-3df454b23b
+      - s-27ad9cc251
+      - s-7bd829bb6d
+      - s-e6aa3bdf48
+      - s-a3dc37098e
+      - s-6ec1a768a2

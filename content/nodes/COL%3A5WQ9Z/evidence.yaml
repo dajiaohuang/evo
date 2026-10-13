@@ -1,0 +1,361 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephalus fuscolineatus Pie, Bornschein, Firkowski, Belmonte-Lopes & Ribeiro, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephalus fuscolineatus
+      zh: Brachycephalus fuscolineatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0be34dbb11
+            part: title
+          zh:
+            page: zh
+            section: s-7162b29fe9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0be34dbb11
+            part: body
+          zh:
+            page: zh
+            section: s-7162b29fe9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-82a8e0d6b6
+            part: title
+          zh:
+            page: zh
+            section: s-00ae05e476
+            part: title
+        text:
+          en:
+            page: en
+            section: s-82a8e0d6b6
+            part: body
+          zh:
+            page: zh
+            section: s-00ae05e476
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-89fe90ad31
+            part: title
+          zh:
+            page: zh
+            section: s-963069fb45
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-89fe90ad31
+            part: body
+          zh:
+            page: zh
+            section: s-963069fb45
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-2abee13df778df5a62cf3124
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ebd9f181f4
+            part: title
+          zh:
+            page: zh
+            section: s-6ad56315f4
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wq9z
+        text:
+          en:
+            page: en
+            section: s-ebd9f181f4
+            part: body
+          zh:
+            page: zh
+            section: s-6ad56315f4
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-2c697bea2e
+            part: title
+          zh:
+            page: zh
+            section: s-3b13a9de50
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wq9z
+        text:
+          en:
+            page: en
+            section: s-2c697bea2e
+            part: body
+          zh:
+            page: zh
+            section: s-3b13a9de50
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-ca872e9b15
+            part: title
+          zh:
+            page: zh
+            section: s-b21b8da3c8
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wq9z
+        text:
+          en:
+            page: en
+            section: s-ca872e9b15
+            part: body
+          zh:
+            page: zh
+            section: s-b21b8da3c8
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-0d974642a3
+            part: title
+          zh:
+            page: zh
+            section: s-c08907c659
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wq9z
+        text:
+          en:
+            page: en
+            section: s-0d974642a3
+            part: body
+          zh:
+            page: zh
+            section: s-c08907c659
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-d69a0c0c56
+            part: body
+          zh:
+            page: zh
+            section: s-dbb8dbb3e1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephalus fuscolineatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/5WQ9Z
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 845; Reference.csv rows 2021
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12694819-5wq9z
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus fuscolineatus: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7eb1e5fe94
+        part: body
+      zh:
+        page: zh
+        section: s-00c623776c
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0334746
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        sourceKey: primary-pmc12694819-5wq9z
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12694819/article.xml
+        sourceConcept: Brachycephalus fuscolineatus
+        evidenceRead: "Brachycephalus fuscolineatus: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY (version not explicit in XML)
+          licenseUrl: https://creativecommons.org/licenses/by/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Sex-specific measurements retain variable-specific sample counts
+              zh: 分性别测量保留各变量样本数
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wq9z
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus fuscolineatus measurement row and caption; sec004 paragraphs 0–1; sec036 paragraphs 4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9231d1f701
+                part: body
+              zh:
+                page: zh
+                section: s-42ef1cfa1a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Live and preserved colours are separate evidence
+              zh: 活体与保存颜色是不同证据
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wq9z
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus fuscolineatus live/preserved colour columns and caption; sec036 paragraphs 2,4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-edbeeb7b0a
+                part: body
+              zh:
+                page: zh
+                section: s-6d142fb66c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Advertisement-call comparisons use distinct acoustic units
+              zh: 求偶鸣声比较区分声学单位
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wq9z
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus fuscolineatus acoustic row and caption; sec007 paragraphs 0–1; sec036 paragraphs 0–1,4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c5d988d5ad
+                part: body
+              zh:
+                page: zh
+                section: s-6f0ef98ed8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: conservation
+            heading:
+              en: The 2025 assessment separates records, mapped habitat and risk
+              zh: 2025 年评估区分记录、映射生境与风险
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wq9z
+            locator: PMC12694819 XML pone.0334746.t007 Brachycephalus fuscolineatus row; sec009 paragraphs 0–4; sec038 paragraphs 2–6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4cbacc185b
+                part: body
+              zh:
+                page: zh
+                section: s-04d999ae65
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus gilli
+  displayName: Xenopus gilli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBC4
+  sourceIndexes:
+    - name:
+        en: Xenopus gilli
+        zh: Xenopus gilli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBC4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/313
+            queryName: Xenopus gilli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-346fdb210f
+      - s-5f906d65da
+      - s-9562e3e706
+      - s-477915755b
+      - s-92e5de8335
+      - s-2c01690258
+      - s-6fbdb1638d
+      - s-bd1aad3a53
+      - s-6d7f5fc747
+      - s-9b4b12c1af
+      - s-083f2b40d3
+    zh:
+      - s-b12c604507
+      - s-2226f0be6a
+      - s-136766ee57
+      - s-c360e83037
+      - s-603db4bc98
+      - s-015a91156d
+      - s-a257e31e84
+      - s-105a165811
+      - s-4d30b7b5f7
+      - s-bc00480c93
+      - s-153f0098d5

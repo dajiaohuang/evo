@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates brunneus
+  displayName: Allobates brunneus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6699K
+  sourceIndexes:
+    - name:
+        en: Allobates brunneus
+        zh: Allobates brunneus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6699K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/126
+            queryName: Allobates brunneus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/67
+            queryName: Colostethus brunneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/84
+            queryName: Prostherapis brunneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/85
+            queryName: Phyllobates brunneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d04b026a8a
+      - s-55a79fc4df
+      - s-f603507d2a
+      - s-d5b9fc803f
+      - s-0b21f3b4c2
+      - s-43e9cc6121
+      - s-7259528965
+      - s-513213bc7d
+      - s-8c0576261e
+      - s-ed043233ec
+      - s-a5769a0cb4
+      - s-01e4266b34
+      - s-d07ebc6eda
+      - s-dafb94a62a
+      - s-c48f1078e9
+      - s-093f2da635
+      - s-8dd9d1aa68
+      - s-e0aa67d6e5
+    zh:
+      - s-b1392c2a22
+      - s-ac6f3b5edc
+      - s-38237546a0
+      - s-bac9f50d92
+      - s-d0cdea36ac
+      - s-9be48ed757
+      - s-c5b32061f6
+      - s-86e69f9670
+      - s-bbad189d22
+      - s-9737d62875
+      - s-0f2a5d1d92
+      - s-b5fc48a8c5
+      - s-7adffba032
+      - s-35b16bd3d4
+      - s-743d576959
+      - s-2006735289
+      - s-e8061ffaee
+      - s-ec6c84cc41

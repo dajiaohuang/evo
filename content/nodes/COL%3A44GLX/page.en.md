@@ -1,0 +1,6 @@
+## Branching flower clusters and a five-chambered ovary {#s-f5fc20cbdd}
+The Brazilian Flora 2020 v393.147 field describes elliptic to oblong or oval-elliptic leaves. Their tips are acute or shortly tapering; bases may be heart-shaped, rounded or blunt. The upper midrib is grooved and the lower one raised and angular; the veins are conspicuous. Flower clusters grow on branches and may have one to five or more branches, one to three internodes per axis and one to five or more flowers per axis. Bracts and bracteoles may persist or fall as flowers open. The flower stalk is at least 3.1 mm long. Flowers are five-part, with sepals that may be acute, rounded or tipped by a small point; petals are white. Glands lie behind and below the anther sacs and are up to 0.6 mm long. The stamens are described as caudate and listed at 0.6–1.0 mm or 1.1–1.5 mm. The ovary has five chambers. The habitat field separately records “terrícola,” or terrestrial.
+
+## A terrestrial label for this entry {#s-0c582de4e0}
+The habitat field labels the recorded setting “terrícola,” or terrestrial. It does not supply a collection locality, survey date or range coverage and does not specify wild, cultivated, managed or fossil material. The category does not expand into a distribution record.
+

@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Callulina kreffti
+    name:
+      en: Callulina kreffti
+      zh: Callulina kreffti
+    sourceClassification:
+      order: Anura
+      family: Brevicipitidae
+      genus: Callulina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Callulina kreffti in the version 3 classification
+          zh: Callulina kreffti 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-54797765e6
+            part: body
+          zh:
+            page: zh
+            section: s-d6d9ec9970
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 13 populated trait fields
+          zh: 1 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1b1841d5ab
+            part: body
+          zh:
+            page: zh
+            section: s-2f26d9daa4
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 986; Reference.csv rows 169
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 986
+        values:
+          - Brevicipitidae
+          - Callulina
+          - Callulina kreffti
+          - NA
+          - "24.2"
+          - NA
+          - "6.3"
+          - "2.8"
+          - "1.2"
+          - "1.05"
+          - "5"
+          - NA
+          - NA
+          - "2.1"
+          - NA
+          - "1.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.55"
+          - NA
+          - "5.95"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.75"
+          - NA
+          - NA
+          - NA
+          - "3.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.2"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 169
+        values:
+          - Anura
+          - Callulina_kreffti
+          - "de Sá, R. O., Loader, S. P., & Channing, A. (2004). A new species of Callulina (Anura: Microhylidae) from the West Usambara Mountains, Tanzania. Journal of Herpetology, 38(2), 219-224. https://doi.org/10.1670/209-03a"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - EN
+      - NS
+      - TL
+      - TSL
+      - Toe4L
+      - Fin3L
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5X7CF
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

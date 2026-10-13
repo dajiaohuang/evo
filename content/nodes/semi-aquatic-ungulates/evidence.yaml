@@ -1,0 +1,107 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-f0bbf923bf
+      part: title
+    titleZh:
+      page: zh
+      section: s-c79668597a
+      part: title
+    dek:
+      page: en
+      section: s-f0bbf923bf
+      part: body
+    dekZh:
+      page: zh
+      section: s-c79668597a
+      part: body
+    theme: blue
+    durationMinutes: 6
+    featured: true
+    steps:
+      - id: anatomy
+        title:
+          page: en
+          section: s-66eb442a92
+          part: title
+        text:
+          page: en
+          section: s-66eb442a92
+          part: body
+        titleZh:
+          page: zh
+          section: s-eac4db6427
+          part: title
+        textZh:
+          page: zh
+          section: s-eac4db6427
+          part: body
+        age: 31
+        timeRange:
+          - 40
+          - 23
+        taxonIds:
+          - metamynodon
+        view: evidence
+        claimLinks:
+          - claimId: claim:taxon:metamynodon:morphology
+            relation: supports
+      - id: context
+        title:
+          page: en
+          section: s-3f82f24196
+          part: title
+        text:
+          page: en
+          section: s-3f82f24196
+          part: body
+        titleZh:
+          page: zh
+          section: s-0b891f566f
+          part: title
+        textZh:
+          page: zh
+          section: s-0b891f566f
+          part: body
+        age: 30
+        timeRange:
+          - 34
+          - 26
+        taxonIds:
+          - metamynodon
+        view: map
+        claimLinks:
+          - claimId: claim:taxon:metamynodon
+            relation: supports
+      - id: convergence
+        title:
+          page: en
+          section: s-49a08681d6
+          part: title
+        text:
+          page: en
+          section: s-49a08681d6
+          part: body
+        titleZh:
+          page: zh
+          section: s-9d410d1d43
+          part: title
+        textZh:
+          page: zh
+          section: s-9d410d1d43
+          part: body
+        age: 15
+        timeRange:
+          - 25
+          - 5
+        taxonIds:
+          - metamynodon
+        view: tree
+        claimLinks:
+          - claimId: claim:taxon:metamynodon
+            relation: contextualizes
+          - claimId: claim:taxon:teleoceras
+            relation: contextualizes
+    evidenceStatus: available-with-limitations

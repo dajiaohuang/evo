@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nototriton tapanti
+  displayName: Nototriton tapanti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SDDP
+  sourceIndexes:
+    - name:
+        en: Nototriton tapanti
+        zh: Nototriton tapanti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SDDP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/331
+            queryName: Nototriton tapanti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e0d15d1f4f
+      - s-e470562c30
+      - s-4c567ca46c
+      - s-887b9e7343
+      - s-910900c308
+      - s-44501cb897
+      - s-02db03e000
+      - s-dbf0a73216
+      - s-2c3a019979
+    zh:
+      - s-c0cb452808
+      - s-5856f37a58
+      - s-7632dafaf2
+      - s-bd693039e8
+      - s-f30da7b39e
+      - s-d1a095c3c1
+      - s-270a6149d0
+      - s-fc549b593b
+      - s-219bb9f571

@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pleurosternidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Pleurosternidae
+      en: Pleurosternidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-89285d29aa
+            part: body
+          en:
+            page: en
+            section: s-65389cc108
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1b04a248a9
+            part: body
+          en:
+            page: en
+            section: s-5eeb0220aa
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Pleurosternidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=37762
+          locator: Recorded PBDB parent closure beneath the already documented Pantestudines COL-compatible storage anchor.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:37762
+          readingTargets:
+            - name: Riodevemys inumbragigas
+              pbdbTaxonId: txn:296183
+              canonicalPath: content/nodes/PBDB%3A296183
+            - name: Glyptops ornatus
+              pbdbTaxonId: txn:96495
+              canonicalPath: content/nodes/PBDB%3A96495
+            - name: Uluops uluops
+              pbdbTaxonId: txn:57643
+              canonicalPath: content/nodes/PBDB%3A57643
+            - name: Toremys cassiopeia
+              pbdbTaxonId: txn:316768
+              canonicalPath: content/nodes/PBDB%3A316768
+            - name: Selenemys lusitanica
+              pbdbTaxonId: txn:184480
+              canonicalPath: content/nodes/PBDB%3A184480
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0b882b2964
+        part: body
+      en:
+        page: en
+        section: s-185f8cc83e
+        part: body

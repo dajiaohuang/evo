@@ -1,0 +1,74 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-f320d0aa89
+      part: title
+    titleZh:
+      page: zh
+      section: s-164b9f21f6
+      part: title
+    category: origin
+    startAge: 69.31
+    endAge: 42.88
+    regions:
+      - Global Cycas plastome sample with Palawan calibration
+    clades:
+      - Extant Cycadaceae
+      - Cycas
+    summary:
+      page: en
+      section: s-f320d0aa89
+      part: body
+    summaryZh:
+      page: zh
+      section: s-164b9f21f6
+      part: body
+    claimIds:
+      - claim:event:cycadaceae-palaeogene-crown-model
+    evidenceItems:
+      - statement: Whole-plastome phylogeny evaluated under alternative fossil, tectonic and tree-prior schemes
+        relation: supports
+        claimIds:
+          - claim:event:cycadaceae-palaeogene-crown-model
+        referenceLinks:
+          - relation: supports
+            referenceId: liu-2022-cycadaceae-palaeogene
+            pages: 217–230
+            figure: Figures 2–3; Table 2
+    uncertaintyItems:
+      - statement: Calibration scheme and tree prior substantially change the estimate, with underconstrained alternatives spanning much wider ages
+        relation: contextualizes
+        claimIds:
+          - claim:event:cycadaceae-palaeogene-crown-model
+        referenceLinks:
+          - relation: supports
+            referenceId: liu-2022-cycadaceae-palaeogene
+            figure: Table 2; Supplementary Figures S5–S6
+            quoteLocator: Molecular dating; Discussion
+      - statement: The result concerns the crown of living Cycadaceae, not all Cycadales and not a directly observed fossil first appearance
+        relation: contextualizes
+        claimIds:
+          - claim:event:cycadaceae-palaeogene-crown-model
+        referenceLinks:
+          - relation: supports
+            referenceId: liu-2022-cycadaceae-palaeogene
+            quoteLocator: Abstract and taxonomic scope
+  claims:
+    - subjectId: event:cycadaceae-palaeogene-crown-model
+      claimKind: scientific
+      claimType: divergence-time
+      statement: Under a calibration scheme combining a Cycas fossil, Palawan tectonic history and plastome data, different tree priors yielded mean crown ages of extant Cycadaceae of approximately 69.31 and 42.88 Ma; this Palaeogene-to-Late-Cretaceous model result is not a fossil first appearance for Cycadaceae or an age for all cycads.
+      confidence: medium
+      confidenceRationale: The primary study explicitly compares calibration schemes and tree priors, and its preferred combined evidence produces the stated means. Other schemes range much more widely, so the atlas retains model and calibration dependence instead of presenting the display interval as an observed range.
+      referenceLinks:
+        - relation: supports
+          referenceId: liu-2022-cycadaceae-palaeogene
+          pages: 217–230
+          figure: Figures 2–3; Table 2
+          quoteLocator: "Abstract; Molecular dating; Discussion: Not that young"
+  claim-rationales.zh:
+    - 一手研究明确比较了校准方案和树先验，其偏好的组合证据得到所列平均年龄。其他方案的结果范围宽得多，因此图谱保留模型和校准依赖性，不把显示区间当作观察延限。
+  claim-statements.zh:
+    - 在结合苏铁属化石、巴拉望构造历史与质体组数据的校准方案下，不同树先验得到现生苏铁科冠群约 69.31 Ma 与 42.88 Ma 的平均年龄；这一古近纪至晚白垩世的模型结果不是苏铁科的化石首现，也不是全部苏铁类的年龄。

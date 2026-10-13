@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adelotus brevis
+  displayName: Adelotus brevis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9YH3
+  sourceIndexes:
+    - name:
+        en: Adelotus brevis
+        zh: Adelotus brevis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9YH3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/18
+            queryName: Adelotus brevis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/199
+            queryName: Cryptotis brevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f02fee7afe
+      - s-c8cc2ffae3
+      - s-acdea35eec
+      - s-466dd96c01
+      - s-c9a298dc0c
+      - s-c2fde9e6f5
+      - s-d4827c167b
+      - s-da8ad6b886
+      - s-aa5d917021
+      - s-53c0bb648c
+    zh:
+      - s-78f533c061
+      - s-48802a39a0
+      - s-7c2a08eda6
+      - s-720437d16f
+      - s-173e8392c8
+      - s-7bfe213588
+      - s-851a93f226
+      - s-c1c7624c60
+      - s-746c4ed711
+      - s-32237c2d29

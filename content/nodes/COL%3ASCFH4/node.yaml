@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis lojanus
+  displayName: Pristimantis lojanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCFH4
+  sourceIndexes:
+    - name:
+        en: Pristimantis lojanus
+        zh: Pristimantis lojanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCFH4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/373
+            queryName: Pristimantis lojanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75727bba61
+      - s-31cdbeefc8
+      - s-3af0a48efe
+      - s-d65dc3802c
+      - s-a4f7f9344c
+      - s-ad44639df1
+      - s-91e1638542
+      - s-a1ac8d1f1f
+    zh:
+      - s-5d778c09e3
+      - s-811f71f6b5
+      - s-0d350b4b4c
+      - s-cdce130db2
+      - s-321a0bb17c
+      - s-3841a53b81
+      - s-add4f76e83
+      - s-b5ce7d6567

@@ -1,0 +1,33 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Magericyon
+  displayName: Magericyon
+  rank: genus
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=374790
+    parentSourceIdentifier: txn:56986
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=374790
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0b74c328fa
+      - s-8492a34fde
+      - s-075fe0ef70
+      - s-553bebcd9f
+      - s-4a9c785d0a
+    zh:
+      - s-a0f88eb95a
+      - s-efd2c51aa6
+      - s-86e460a505
+      - s-b2ee1ac253
+      - s-d22f9eb538

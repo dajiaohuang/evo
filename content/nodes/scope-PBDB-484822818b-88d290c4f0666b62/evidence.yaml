@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:239721
+    scientificName: Liaoconodon hui
+    commonName: Jehol eutriconodont
+    commonNameZh: 热河真三尖齿兽
+    rank: genus
+    parentName: Eutriconodonta
+    extinct: true
+    geography:
+      - Jiufotang Formation
+      - Jianchang, Liaoning
+      - China
+    overview:
+      page: en
+      section: s-fecf65d69f
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-ad98411cc5
+        part: body
+      habitat:
+        page: en
+        section: s-b8be3cd67d
+        part: body
+      locomotion:
+        page: en
+        section: s-630919a67e
+        part: body
+      bodySize:
+        page: en
+        section: s-5ab1f537b8
+        part: body
+      guild:
+        page: en
+        section: s-95249c2b91
+        part: body
+    traits:
+      - page: en
+        section: s-294c97fa2c
+        part: body
+      - page: en
+        section: s-1dbb996952
+        part: body
+      - page: en
+        section: s-7a5dffbc93
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-3e1a9c5048
+      part: body
+    confidence: medium
+    referenceIds:
+      - meng-2011-liaoconodon-middle-ear
+    readerSections:
+      - id: ear-and-jaw-connection
+        title:
+          en:
+            page: en
+            section: s-640cd37021
+            part: title
+          zh:
+            page: zh
+            section: s-7d97ac980b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-640cd37021
+            part: body
+          zh:
+            page: zh
+            section: s-7d97ac980b
+            part: body
+        sourceIds:
+          - meng-2011-liaoconodon-middle-ear
+    readerSources:
+      - id: meng-2011-liaoconodon-middle-ear
+        referenceId: meng-2011-liaoconodon-middle-ear
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: 181–185; Figures 1–4
+          scope:
+            en: "Liaoconodon hui: 181–185; Figures 1–4. Limited to the cited specimens, samples or analyses."
+            zh: Liaoconodon hui：原文定位 181–185; Figures 1–4。本文仅使用所引标本、样本或分析的对应结果。
+  claims:
+    - subjectId: taxon:liaoconodon
+      claimType: taxonomy
+      claimKind: scientific
+      statement: IVPP V16051 is the holotype of Liaoconodon hui and is treated as a eutriconodont in the source; this navigation placement does not assert direct ancestry.
+      confidence: medium
+      confidenceRationale: The taxonomy field for liaoconodon is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: meng-2011-liaoconodon-middle-ear
+          relation: supports
+          pages: 181–185; Figures 1–4
+    - subjectId: taxon:liaoconodon
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profiled occurrence is limited to the Jiufotang Formation near Jianchang in Liaoning and is not a complete geographic range for Eutriconodonta.
+      confidence: medium
+      confidenceRationale: The biogeography field for liaoconodon is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: meng-2011-liaoconodon-middle-ear
+          relation: supports
+          pages: 181–185; Figures 1–4
+    - subjectId: taxon:liaoconodon
+      claimType: ecology
+      claimKind: scientific
+      statement: Dentition supports a small faunivorous interpretation and the skeleton supports terrestrial locomotion, but diet, habitat use and performance were not observed.
+      confidence: medium
+      confidenceRationale: The ecology field for liaoconodon is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: meng-2011-liaoconodon-middle-ear
+          relation: supports
+          pages: 181–185; Figures 1–4
+    - subjectId: taxon:liaoconodon
+      claimType: morphology
+      claimKind: scientific
+      statement: The near-complete holotype preserves ectotympanic and malleus elements detached from the dentary yet linked by ossified Meckel’s cartilage.
+      confidence: medium
+      confidenceRationale: The morphology field for liaoconodon is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: meng-2011-liaoconodon-middle-ear
+          relation: supports
+          pages: 181–185; Figures 1–4
+    - subjectId: taxon:liaoconodon
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 121.4–113.2 Ma display envelope translates the Aptian formation context and is not a specimen date, global FAD, LAD or universal jaw–ear transition interval.
+      confidence: medium
+      confidenceRationale: The fossil-range field for liaoconodon is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: meng-2011-liaoconodon-middle-ear
+          relation: supports
+          pages: 181–185; Figures 1–4
+  claim-rationales.zh:
+    - 热河真三尖齿兽的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。
+    - 热河真三尖齿兽的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。
+    - 热河真三尖齿兽的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。
+    - 热河真三尖齿兽的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。
+    - 热河真三尖齿兽的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - IVPP V16051 是 Liaoconodon hui 的正模，来源研究将其视为真三尖齿兽；这里的导航归位不主张直接祖先关系。
+    - 本资料所述产出仅限于辽宁建昌附近九佛堂组，并非真三尖齿兽目的完整地理范围。
+    - 牙齿支持小型食肉动物的解释，骨架支持陆生运动；但食性、栖息地利用和运动表现均未被直接观察。
+    - 这件近完整正模保存了已脱离齿骨、但仍由骨化麦氏软骨连接的外鼓骨和锤骨。
+    - 1.214 亿至 1.132 亿年前的展示区间，是对阿普特期地层背景的换算，并非标本直接测年、全球首次或末次出现，也不是普遍适用的颌—耳过渡区间。
+  ranges:
+    - entityId: liaoconodon
+      rangeKind: global-composite
+      taxonomicConcept: Liaoconodon hui holotype occurrence
+      geographicScope: Jiufotang Formation, Jianchang, Liaoning, China
+      olderMa: 121.4
+      youngerMa: 113.2
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The Aptian envelope is a formation-level navigation translation, not a direct date on IVPP V16051 or the timing of middle-ear detachment across Mammalia.
+      evidenceBasis: Named specimen material and its explicitly bounded stratigraphic context in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:liaoconodon:fossil-range
+      referenceLocators:
+        - referenceId: meng-2011-liaoconodon-middle-ear
+          locator: 181–185; Figures 1–4

@@ -1,0 +1,737 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendropsophus triangulum (Günther, 1869)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dendropsophus triangulum
+      zh: Dendropsophus triangulum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-61a923c783
+            part: title
+          zh:
+            page: zh
+            section: s-c3de4351d9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-61a923c783
+            part: body
+          zh:
+            page: zh
+            section: s-c3de4351d9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8923baf673
+            part: title
+          zh:
+            page: zh
+            section: s-2a88bb5ad7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8923baf673
+            part: body
+          zh:
+            page: zh
+            section: s-2a88bb5ad7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-567f0b4e08
+            part: title
+          zh:
+            page: zh
+            section: s-1793f234b5
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-567f0b4e08
+            part: body
+          zh:
+            page: zh
+            section: s-1793f234b5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-37afba5458
+            part: title
+          zh:
+            page: zh
+            section: s-e7b94709ed
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-37afba5458
+            part: body
+          zh:
+            page: zh
+            section: s-e7b94709ed
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8fbfbb1b04
+            part: title
+          zh:
+            page: zh
+            section: s-75e15b2dc9
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+          - Dry_warm
+        text:
+          en:
+            page: en
+            section: s-8fbfbb1b04
+            part: body
+          zh:
+            page: zh
+            section: s-75e15b2dc9
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1180bb1db8
+            part: title
+          zh:
+            page: zh
+            section: s-e99a0c9b80
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-1180bb1db8
+            part: body
+          zh:
+            page: zh
+            section: s-e99a0c9b80
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-fcb994f746
+            part: title
+          zh:
+            page: zh
+            section: s-cdcba6aefd
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-fcb994f746
+            part: body
+          zh:
+            page: zh
+            section: s-cdcba6aefd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-27c7c2a6d8
+            part: title
+          zh:
+            page: zh
+            section: s-1c659b5500
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-27c7c2a6d8
+            part: body
+          zh:
+            page: zh
+            section: s-1c659b5500
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-174e4be433
+            part: title
+          zh:
+            page: zh
+            section: s-11d122433c
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-174e4be433
+            part: body
+          zh:
+            page: zh
+            section: s-11d122433c
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-7982dc7236492602e00903aa4c1d848c
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-150aa6327b1c0cbcaab95c5f
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-ce063061525f161a53359231
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4c7c7651bf
+            part: title
+          zh:
+            page: zh
+            section: s-4518023e33
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-4c7c7651bf
+            part: body
+          zh:
+            page: zh
+            section: s-4518023e33
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f9543352d3
+            part: title
+          zh:
+            page: zh
+            section: s-22c4ce7c9a
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f9543352d3
+            part: body
+          zh:
+            page: zh
+            section: s-22c4ce7c9a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0444fd2e92
+            part: title
+          zh:
+            page: zh
+            section: s-bca8143864
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3894"
+        text:
+          en:
+            page: en
+            section: s-0444fd2e92
+            part: body
+          zh:
+            page: zh
+            section: s-bca8143864
+            part: body
+        sourceRowNumber: 3568
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-13cbb72c0d
+            part: title
+          zh:
+            page: zh
+            section: s-3e4d75f7f1
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s7h
+        text:
+          en:
+            page: en
+            section: s-13cbb72c0d
+            part: body
+          zh:
+            page: zh
+            section: s-3e4d75f7f1
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-a7a97d8815
+            part: title
+          zh:
+            page: zh
+            section: s-16b75577c4
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s7h
+        text:
+          en:
+            page: en
+            section: s-a7a97d8815
+            part: body
+          zh:
+            page: zh
+            section: s-16b75577c4
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-1027da9602
+            part: title
+          zh:
+            page: zh
+            section: s-442518261c
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s7h
+        text:
+          en:
+            page: en
+            section: s-1027da9602
+            part: body
+          zh:
+            page: zh
+            section: s-442518261c
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-c76ea0ab6f
+            part: title
+          zh:
+            page: zh
+            section: s-56d99b1474
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s7h
+        text:
+          en:
+            page: en
+            section: s-c76ea0ab6f
+            part: body
+          zh:
+            page: zh
+            section: s-56d99b1474
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-b7d265cf9b
+            part: title
+          zh:
+            page: zh
+            section: s-379f14f77f
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s7h
+        text:
+          en:
+            page: en
+            section: s-b7d265cf9b
+            part: body
+          zh:
+            page: zh
+            section: s-379f14f77f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendropsophus triangulum
+          url: https://www.checklistbank.org/dataset/316115/taxon/34S7H
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2263; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2263 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1878, 1879, 1880, 1881, 1882, 1883, 1884, 1885, 1886; Picture measurement data rows 392; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3568, 4346; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc5332023-34s7h
+        referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dendropsophus triangulum: Clade H name assignment versus former clade C labels, diagnostic morphology, photograph-based appearance, two acoustic accounts, locality reassignment limits and historical conservation polygon; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4f88fa83e6
+        part: body
+      zh:
+        page: zh
+        section: s-13559832fe
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-7982dc7236492602e00903aa4c1d848c
+      sourceRowId: Anf2263
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf2263
+        bibliographyRowId: Anf2263
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Dendropsophus triangulum
+        candidateBibliographyRowIds:
+          - Anf2263
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-150aa6327b1c0cbcaab95c5f
+        scientificName: Dendropsophus triangulum
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-ce063061525f161a53359231
+        scientificName: Dendropsophus triangulum
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0171785
+        referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+        sourceKey: primary-pmc5332023-34s7h
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5332023/article.xml
+        sourceConcept: Dendropsophus triangulum
+        evidenceRead: "Dendropsophus triangulum: Clade H name assignment versus former clade C labels, diagnostic morphology, photograph-based appearance, two acoustic accounts, locality reassignment limits and historical conservation polygon; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Triangulum was associated with clade H rather than clade C
+              zh: triangulum 对应 H 支系，而不是旧用法中的 C 支系
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s7h
+            locator: PMC5332023 reading-sections section 8 paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1fdc2a8407
+                part: body
+              zh:
+                page: zh
+                section: s-4a0a0962a0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: An hourglass pattern can be incomplete
+              zh: 沙漏形花纹也可以只出现一半
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s7h
+            locator: PMC5332023 reading-sections section 11 paragraphs 3, 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f17b4fe25d
+                part: body
+              zh:
+                page: zh
+                section: s-0ecf0e4439
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Longer advertisement calls with secondary notes
+              zh: 带次级音符的较长广告鸣声
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s7h
+            locator: PMC5332023 reading-sections section 11 paragraphs 9–10; section 1 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-88f99e4906
+                part: body
+              zh:
+                page: zh
+                section: s-103cd281ef
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: distribution
+            heading:
+              en: Amazonian records and a questioned Bolivian report
+              zh: 亚马孙分布与受到质疑的玻利维亚记载
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s7h
+            locator: PMC5332023 reading-sections section 11 paragraphs 11–12
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b01332908e
+                part: body
+              zh:
+                page: zh
+                section: s-9b5dd92817
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: conservation
+            heading:
+              en: A historical range polygon is not occupied habitat
+              zh: 历史分布多边形不是全部已占据生境
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s7h
+            locator: PMC5332023 reading-sections section 11 paragraph 14; section 1 paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-13075cc297
+                part: body
+              zh:
+                page: zh
+                section: s-148e2422bc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

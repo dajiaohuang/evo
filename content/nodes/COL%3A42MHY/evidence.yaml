@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mico intermedius (Hershkovitz, 1977)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Rio Aripuanã Marmoset
+      zh: 阿里普阿南河绒猴
+    sections:
+      - topic: field_observations
+        text:
+          en:
+            page: en
+            section: s-ad413d03db
+            part: body
+          zh:
+            page: zh
+            section: s-e260fa0139
+            part: body
+        sourceIds:
+          - intermedius1979
+    sources:
+      - id: intermedius1979
+        referenceId: ref-9dafa45a-eb08-89c9-ae74-2672d0d94040
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports preliminary observations at Dardanelos in 1978, reported group sizes and habitat types; the paper uses a historical subspecific combination.
+            zh: 支持 1978 年 Dardanelos 初步观察、群体大小和生境类型；原文使用历史亚种组合名。
+      - id: mdd_name
+        referenceId: ref-019a2750-d807-8d0b-ae1e-4c5ec0f98576
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common name Rio Aripuanã Marmoset only; it does not support the field findings or replace the pinned COL identity.
+            zh: 仅支持英文普通名 Rio Aripuanã Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 · source 2144
+            zh: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42MHY
+          scope:
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+    limitations:
+      en:
+        page: en
+        section: s-a18047a3b9
+        part: body
+      zh:
+        page: zh
+        section: s-eac7e52e71
+        part: body

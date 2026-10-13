@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tsingymantis antitra
+  displayName: Tsingymantis antitra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/59HKN
+  sourceIndexes:
+    - name:
+        en: Tsingymantis antitra
+        zh: Tsingymantis antitra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 59HKN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/126
+            queryName: Tsingymantis antitra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-935f2fd79e
+      - s-71de46daa6
+      - s-1fa30df11f
+      - s-d80cc0468d
+      - s-21ef763204
+      - s-f945bde932
+      - s-dc54df2cdb
+      - s-0c3476c31c
+      - s-ce5f35b898
+    zh:
+      - s-f36bab86e1
+      - s-74be64c0b4
+      - s-b0f2ba3f1f
+      - s-2f503dca3f
+      - s-62d6ab4720
+      - s-533835c32c
+      - s-cbcaed11eb
+      - s-8dd0ca6b3b
+      - s-6d592d046a

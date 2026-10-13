@@ -1,0 +1,3 @@
+## What traits distinguish its underground stem and flowers? {#s-0dd3814c27}
+A xylopodium, a woody underground swelling, is present. The alternate leaves have narrowly lance-shaped, entire stipules and no petioles; their blades range from oval or elliptic to narrow elliptic, lance-shaped, oblanceolate or oblong. Tips may be pointed or blunt, and margins entire or irregularly toothed; long simple hairs are recorded. Solitary axillary flowers may be white or lilac, with a yellow mark at the base of the front petal or a purplish tone. Filiform bracteoles accompany the flowers. Nectar appendages at the anther base are inconspicuous or nodular. The style is straight or slightly S-shaped and hairless; the ovary is villous. The fruit is a leathery, ovoid capsule.
+

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus auroguttatus
+  displayName: Brachycephalus auroguttatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68Q8V
+  sourceIndexes:
+    - name:
+        en: Brachycephalus auroguttatus
+        zh: Brachycephalus auroguttatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68Q8V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/400
+            queryName: Brachycephalus auroguttatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fe03c6d990
+      - s-6bf910efae
+      - s-3b351f89e3
+      - s-fdcf69f5bf
+      - s-df941052b2
+      - s-c912fc829b
+      - s-cd70f3abe0
+      - s-986a6cd0e8
+      - s-713a3ca3cd
+      - s-d7f03206be
+      - s-1e7100a235
+      - s-36d1120451
+    zh:
+      - s-15d9a15c1f
+      - s-776961a4e8
+      - s-0588844156
+      - s-3486b4a6b3
+      - s-f84aad0d46
+      - s-4f43fde8ce
+      - s-b06ad541ef
+      - s-a89b58d98b
+      - s-7ae4aa46e4
+      - s-550489811c
+      - s-d08ecfdae1
+      - s-8f53f5f23d

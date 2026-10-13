@@ -1,0 +1,3 @@
+## Open and closed flowers on a climbing vine {#s-76adad6241}
+The archived Flora of Panama description calls Clitoria falcata an herbaceous climbing vine with hollow, threadlike stems 2–3 mm thick and three leaflets per leaf. The leaflets are 3.5–7(9) cm long and 1.5–5 cm wide, dark green and hairless above but paler and densely hairy below. Axillary clusters bear 2 or 4(6) flowers: open flowers are lavender or white, sometimes yellowing with age; closed, cleistogamous flowers are inconspicuous and lack a corolla. Pods are 3–4.5(5) cm long and 8–9 mm wide, with 5–8 seeds. The historical range field lists tropical South and Central America, the West Indies, and tropical Africa; this is not a current range survey.
+

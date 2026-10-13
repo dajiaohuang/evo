@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Taricha oligocenica
+    rank: species
+    sourceTaxonId: txn:110712
+    name:
+      en: Taricha oligocenica
+      zh: Taricha oligocenica
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-f335b32b75
+            part: body
+          zh:
+            page: zh
+            section: s-c7bfa76381
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-479bf07c03
+            part: body
+          zh:
+            page: zh
+            section: s-b58214e7e1
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-7c1b13542c
+            part: body
+          zh:
+            page: zh
+            section: s-994fff3415
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110712; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. J. Jacisin III and S. S. Hopkins. 2018. A redescription and phylogenetic analysis based on new material of the fossil newts Taricha oligocenica Van Frank, 1955 and Taricha lindoei Naylor, 1979 (Amphibia, Salamandridae) from the Oligocene of Oregon. Journal of Paleontology 92(4):713-733
+    occurrenceEvidence:
+      - occurrenceId: occ:1403554
+        collectionId: col:193698
+        acceptedTaxonId: txn:110712
+        identifiedTaxonId: var:110712
+        identifiedName: Palaeotaricha oligocenica n. gen. n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:65794
+        bibliography: J. J. Jacisin III and S. S. Hopkins. 2018. A redescription and phylogenetic analysis based on new material of the fossil newts Taricha oligocenica Van Frank, 1955 and Taricha lindoei Naylor, 1979 (Amphibia, Salamandridae) from the Oligocene of Oregon. Journal of Paleontology 92(4):713-733
+        locality:
+          countryCode: US
+          stateProvince: Oregon
+          county: Lane
+        stratigraphy:
+          group: null
+          formation: Mehama
+          member: null
+        olderAgeMa: 33.9
+        youngerAgeMa: 27.3
+      - occurrenceId: occ:1403555
+        collectionId: col:193699
+        acceptedTaxonId: txn:110712
+        taxonomicDifference: null
+        referenceId: ref:65794
+        bibliography: J. J. Jacisin III and S. S. Hopkins. 2018. A redescription and phylogenetic analysis based on new material of the fossil newts Taricha oligocenica Van Frank, 1955 and Taricha lindoei Naylor, 1979 (Amphibia, Salamandridae) from the Oligocene of Oregon. Journal of Paleontology 92(4):713-733
+        locality:
+          countryCode: US
+          stateProvince: Oregon
+          county: Linn
+        stratigraphy:
+          group: null
+          formation: Mehama
+          member: null
+        olderAgeMa: 33.9
+        youngerAgeMa: 27.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-7c1b13542c
+            part: body
+          zh:
+            page: zh
+            section: s-994fff3415
+            part: body
+        sourceIds: []

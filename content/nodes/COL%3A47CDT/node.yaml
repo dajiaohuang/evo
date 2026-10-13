@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Niceforonia nigrovittata
+  displayName: Niceforonia nigrovittata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47CDT
+  sourceIndexes:
+    - name:
+        en: Niceforonia nigrovittata
+        zh: Niceforonia nigrovittata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47CDT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/261
+            queryName: Niceforonia nigrovittata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/141
+            queryName: Eleutherodactylus nigrovittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/51
+            queryName: Hypodactylus nigrovittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/217
+            queryName: Isodactylus nigrovittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3161deb930
+      - s-efd30890a8
+      - s-678dbab411
+      - s-a8f0830515
+      - s-7941d96015
+      - s-d69c72bc0e
+      - s-0b5b9edc75
+      - s-3522973df4
+      - s-7cb775cdce
+      - s-a4cfdd4a56
+      - s-c2042d096e
+    zh:
+      - s-4433f29224
+      - s-c290489f07
+      - s-25eb608677
+      - s-d3026b69d5
+      - s-99951a8fc0
+      - s-18ca0b8d3e
+      - s-2f5e30978d
+      - s-d24de0b15d
+      - s-d35f0c43f6
+      - s-b91b995ce0
+      - s-529981765a

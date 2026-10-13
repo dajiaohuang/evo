@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax blairi
+  displayName: Scinax blairi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJV9
+  sourceIndexes:
+    - name:
+        en: Scinax blairi
+        zh: Scinax blairi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJV9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/16
+            queryName: Scinax blairi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/395
+            queryName: Hyla blairi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/396
+            queryName: Ololygon blairi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d4d716ca8e
+      - s-d7e3e943a2
+      - s-0e8a503e93
+      - s-6dabf51a3e
+      - s-69e691a066
+      - s-971df49ceb
+      - s-65d2c29be7
+      - s-8e719f570e
+      - s-e1410f8e69
+      - s-11611320d8
+      - s-7332bfb42a
+    zh:
+      - s-948abb26fe
+      - s-eb6e51673f
+      - s-4156d4eacd
+      - s-ad6956b1ed
+      - s-58e8056e74
+      - s-ac1c2524e0
+      - s-5f59322f2b
+      - s-4f34e1a655
+      - s-e862675365
+      - s-56b65fd6fd
+      - s-e798d7121d

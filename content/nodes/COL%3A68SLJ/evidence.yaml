@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Brownleea graminicola McMurtry
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 68SLJ, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 68SLJ; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/68SLJ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 68SLJ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001338641-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 68SLJ / WFO wfo-0001338641
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_8917_0
+        referenceId: ref-903e286b-6111-8df7-afea-449d66d7b671
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Brownleea graminicola McMurtry account; SANBI/WFO archive rows 73980 (Morphology), 73732 (Habitat), 73214 (Diagnostic), source identifier 8917.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Slender terrestrial, (240-)290(-340) mm tall. Leaves cauline, 3(-4), glabrous, spirally arranged, narrowly lanceolate, underside with three obvious veins, 80-110 x 18-24(29) mm. Inflorescence elongate, densely 12-25-flowered. Flowers ±10 mm in horizontal diameter, immaculate (rarely spotted) bluish to lilac to dark lilac. Dorsal sepal 7-9 x 4 mm, broadly elliptic, attenuate, galea apex recurved. Spur 19-23 x 1 mm, mouth narrowing abruptly, straight to very gently upcurved, apex subclavate. Lateral sepals 9-11 x 5-6 mm, narrowly obovate, acuminate. Lip minute, 1 x 0.1 mm, narrowly spathulate from a broad, minutely toothed base, held erect on face of stigma.
+            textZh: Brownleea graminicola McMurtry 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_8917_0
+            locator: "SANBI/WFO archive Morphology row 73980; source identifier 8917.0; cited publication: McMurtry, DM; Grobler, L; Grobler, J; Burns, S. 2008. Field guide to the orchids of northern South Africa and Swaziland. Umdaus Press, Pretoria. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Distinguished from B. caerulea by the glabrous leaves, lip with prominent base with minute triangular toothed side lobes, and stigma narrower than width of the gynostemium.
+            textZh: SANBI 条目提供了 Brownleea graminicola McMurtry 的鉴别特征。
+            sourceIds:
+              - sanbi_8917_0
+            locator: "SANBI/WFO archive Diagnostic row 73214; source identifier 8917.0; cited publication: McMurtry, DM; Grobler, L; Grobler, J; Burns, S. 2008. Field guide to the orchids of northern South Africa and Swaziland. Umdaus Press, Pretoria. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: High altitude, rocky, open sunny, sour grassland on the eastward side of the sheltering rocks and boulders.
+            textZh: 该 SANBI 区域物种条目记录的生境：High altitude, rocky, open sunny, sour grassland on the eastward side of the sheltering rocks and boulders.
+            sourceIds:
+              - sanbi_8917_0
+            locator: "SANBI/WFO archive Habitat row 73732; source identifier 8917.0; cited publication: McMurtry, DM; Grobler, L; Grobler, J; Burns, S. 2008. Field guide to the orchids of northern South Africa and Swaziland. Umdaus Press, Pretoria. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

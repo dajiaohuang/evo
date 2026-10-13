@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Huia cavitympanum
+  displayName: Huia cavitympanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3MSZQ
+  sourceIndexes:
+    - name:
+        en: Huia cavitympanum
+        zh: Huia cavitympanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3MSZQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/308
+            queryName: Huia cavitympanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/146
+            queryName: Rana cavitympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/147
+            queryName: Amolops cavitympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/431
+            queryName: "Two new Huia (Amphibia: Ranidae) from Laos and Thailand"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6843dd5fe
+      - s-a05000e03a
+      - s-40c3886c1e
+      - s-7a3acada08
+      - s-6664c59aa9
+      - s-757a2b3ed0
+      - s-10e1f91588
+      - s-92de02543e
+      - s-87030cebcf
+      - s-52b12ea4be
+      - s-5a46d71f92
+      - s-0bed1256ed
+      - s-b08ef89d7d
+      - s-c5ca83ea6c
+      - s-50162d8341
+      - s-ce7f8b5326
+      - s-bfe1d6c946
+    zh:
+      - s-b1ed6120ad
+      - s-5cf97c1cbd
+      - s-cff0c5bdff
+      - s-cd37979baf
+      - s-4f0d301d77
+      - s-69acddc6b4
+      - s-799013afad
+      - s-e6d944ca3f
+      - s-c906a9ebef
+      - s-474aa13b9f
+      - s-d8b91e55ad
+      - s-147f8dc2de
+      - s-e93b114a75
+      - s-d4613d8599
+      - s-a857411e44
+      - s-13f7515b15
+      - s-0bdf27206e

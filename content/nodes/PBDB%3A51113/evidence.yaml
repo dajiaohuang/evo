@@ -1,0 +1,187 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tritemnodon strenuus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Tritemnodon strenuus
+      en: Tritemnodon strenuus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-32444fb827
+            part: body
+          en:
+            page: en
+            section: s-ff262e7a15
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-af2cdea749
+            part: body
+          en:
+            page: en
+            section: s-8d28c545ee
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e185a49011
+            part: body
+          en:
+            page: en
+            section: s-3dd5317f5d
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2c2a29150c
+            part: body
+          en:
+            page: en
+            section: s-1cb6f62bdc
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b034ec1bf4
+            part: body
+          en:
+            page: en
+            section: s-b46a55fef2
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Tritemnodon strenuus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=51113&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:51113; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:51113
+          selectedOccurrenceIds:
+            - occ:169523
+            - occ:169563
+            - occ:169669
+            - occ:169701
+            - occ:169738
+            - occ:169757
+            - occ:169779
+            - occ:169932
+            - occ:170173
+            - occ:170245
+            - occ:170312
+            - occ:170733
+            - occ:171074
+            - occ:171101
+            - occ:171113
+            - occ:172514
+            - occ:173995
+            - occ:457618
+          selectedCollectionIds:
+            - col:15520
+            - col:15522
+            - col:15531
+            - col:15532
+            - col:15534
+            - col:15536
+            - col:15538
+            - col:15548
+            - col:15556
+            - col:15558
+            - col:15560
+            - col:15620
+            - col:15691
+            - col:15700
+            - col:15703
+            - col:15907
+            - col:16207
+            - col:15687
+          sourceReferenceIds:
+            - ref:6294
+            - ref:1666
+            - ref:11717
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-df8d6ae90d
+        part: body
+      en:
+        page: en
+        section: s-b92400d848
+        part: body

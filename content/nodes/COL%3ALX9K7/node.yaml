@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys insularis
+  displayName: Boulenophrys insularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9K7
+  sourceIndexes:
+    - name:
+        en: Boulenophrys insularis
+        zh: Boulenophrys insularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9K7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/353
+            queryName: Boulenophrys insularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/336
+            queryName: Megophrys insularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/337
+            queryName: Xenophrys insularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/296
+            queryName: Panophrys insularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-74a81a8397
+      - s-1a13c8c40f
+      - s-b29f123354
+      - s-318e91823d
+      - s-354c9f7569
+      - s-2acab7819c
+      - s-b61a5f61a9
+      - s-93e7db94af
+      - s-141aa839b1
+      - s-9cb607139e
+    zh:
+      - s-747e508676
+      - s-476fbcaa83
+      - s-d6c91d4359
+      - s-244b733ef0
+      - s-0016b37bdf
+      - s-bf986959b8
+      - s-0c04b2729b
+      - s-7381a1bc17
+      - s-e8e9eec679
+      - s-23ccf75fac

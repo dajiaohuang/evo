@@ -1,0 +1,393 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Apateon pedestris
+    rank: species
+    sourceTaxonId: txn:229308
+    name:
+      en: Apateon pedestris
+      zh: Apateon pedestris
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-b2603ecb8b
+            part: body
+          zh:
+            page: zh
+            section: s-154f2c3884
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-bb39401411
+            part: body
+          zh:
+            page: zh
+            section: s-36d539ffe7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-9332037a02
+            part: body
+          zh:
+            page: zh
+            section: s-925eb85db3
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:229308; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: H. Meyer. 1840. Phoca ambiguua, Munster. Beitrage zur Petrefacten-Kunde 3:1-11
+    occurrenceEvidence:
+      - occurrenceId: occ:297321
+        collectionId: col:28463
+        acceptedTaxonId: txn:229308
+        identifiedTaxonId: var:358775
+        identifiedName: cf. Branchiosaurus petrolei
+        taxonomicDifference: null
+        referenceId: ref:7845
+        bibliography: A. Ronchi and A. Tintori. 1997. First amphibian find in Early Permian from Sardinia (Italy). Rivista Italiana di Paleontologia e Stratigrafia 103(1):29-38
+        locality:
+          countryCode: IT
+          stateProvince: Sardinia
+          county: Ogliastra region
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 251.902
+      - occurrenceId: occ:297323
+        collectionId: col:28464
+        acceptedTaxonId: txn:229308
+        identifiedTaxonId: var:358775
+        identifiedName: cf. Branchiosaurus petrolei
+        taxonomicDifference: null
+        referenceId: ref:7845
+        bibliography: A. Ronchi and A. Tintori. 1997. First amphibian find in Early Permian from Sardinia (Italy). Rivista Italiana di Paleontologia e Stratigrafia 103(1):29-38
+        locality:
+          countryCode: IT
+          stateProvince: Sardinia
+          county: Ogliastra region
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 251.902
+      - occurrenceId: occ:297325
+        collectionId: col:28465
+        acceptedTaxonId: txn:229308
+        identifiedTaxonId: var:358775
+        identifiedName: cf. Branchiosaurus petrolei
+        taxonomicDifference: null
+        referenceId: ref:7845
+        bibliography: A. Ronchi and A. Tintori. 1997. First amphibian find in Early Permian from Sardinia (Italy). Rivista Italiana di Paleontologia e Stratigrafia 103(1):29-38
+        locality:
+          countryCode: IT
+          stateProvince: Sardinia
+          county: Ogliastra region
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 251.902
+      - occurrenceId: occ:1338623
+        collectionId: col:180798
+        acceptedTaxonId: txn:229308
+        identifiedName: Apateon pedestris n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatine
+          county: null
+        stratigraphy:
+          group: null
+          formation: Meisenheim
+          member: null
+        olderAgeMa: 303.7
+        youngerAgeMa: 293.52
+      - occurrenceId: occ:1338624
+        collectionId: col:180797
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatine
+          county: null
+        stratigraphy:
+          group: null
+          formation: Meisenheim
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 290.1
+      - occurrenceId: occ:1338625
+        collectionId: col:85451
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatinate
+          county: Kaiserslautern
+        stratigraphy:
+          group: Rotliegend
+          formation: Meisenheim
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 293.52
+      - occurrenceId: occ:1338626
+        collectionId: col:178736
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatine
+          county: Bad Kreuznach
+        stratigraphy:
+          group: Rotliegend
+          formation: Meisenheim
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 283.3
+      - occurrenceId: occ:1338627
+        collectionId: col:180796
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatinate
+          county: Kusel district
+        stratigraphy:
+          group: null
+          formation: Meisenheim
+          member: M7
+        olderAgeMa: 298.9
+        youngerAgeMa: 293.52
+      - occurrenceId: occ:1338628
+        collectionId: col:180800
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatine
+          county: Bad Kreuznach
+        stratigraphy:
+          group: null
+          formation: Meisenheim
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 290.1
+      - occurrenceId: occ:1338629
+        collectionId: col:176500
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: FR
+          stateProvince: Saone et Loire
+          county: null
+        stratigraphy:
+          group: null
+          formation: Millery Series
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 283.3
+      - occurrenceId: occ:1338630
+        collectionId: col:180801
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: FR
+          stateProvince: Burgundy
+          county: Saône-et-Loire
+        stratigraphy:
+          group: null
+          formation: Autun
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 283.3
+      - occurrenceId: occ:1338631
+        collectionId: col:180802
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatine
+          county: Bad Kreuznach
+        stratigraphy:
+          group: null
+          formation: Meisenheim
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 293.52
+      - occurrenceId: occ:1338632
+        collectionId: col:180803
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatinate
+          county: Kusel
+        stratigraphy:
+          group: null
+          formation: Quirnbach
+          member: null
+        olderAgeMa: 300.3
+        youngerAgeMa: 297.7
+      - occurrenceId: occ:1338633
+        collectionId: col:180804
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatine
+          county: Kusel
+        stratigraphy:
+          group: null
+          formation: Meisenheim
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 293.52
+      - occurrenceId: occ:1338634
+        collectionId: col:180805
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatine
+          county: null
+        stratigraphy:
+          group: null
+          formation: Meisenheim
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 293.52
+      - occurrenceId: occ:1338768
+        collectionId: col:180806
+        acceptedTaxonId: txn:229308
+        taxonomicDifference: null
+        referenceId: ref:28828
+        bibliography: R. Schoch and A. R. Milner. 2000. Stereospondyli. Handbuch der Paläoherpetologie - Encyclopedia of Paleoherpetology 3B:1-203
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Palatine
+          county: null
+        stratigraphy:
+          group: null
+          formation: Meisenheim
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 290.1
+      - occurrenceId: occ:1670655
+        collectionId: col:236920
+        acceptedTaxonId: txn:229308
+        identifiedTaxonId: var:358775
+        identifiedName: Branchiosaurus petrolei
+        taxonomicDifference: null
+        referenceId: ref:89767
+        bibliography: V. Perrier and S. Charbonnier. 2014. The Montceau-les-Mines Lagerstätte (Late Carboniferous, France). Comptes Rendus Palevol 13(5):353-367
+        locality:
+          countryCode: FR
+          stateProvince: Saône-et-Loire
+          county: null
+        stratigraphy:
+          group: null
+          formation: Great Seams
+          member: null
+        olderAgeMa: 307.4
+        youngerAgeMa: 300.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-9332037a02
+            part: body
+          zh:
+            page: zh
+            section: s-925eb85db3
+            part: body
+        sourceIds: []

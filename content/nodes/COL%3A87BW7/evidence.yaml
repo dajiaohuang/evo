@@ -1,0 +1,351 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Iguania
+    rank: suborder
+    sourceDatasetId: null
+    name:
+      zh: Iguania
+      en: Iguania
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-d63fcf0319
+            part: body
+          en:
+            page: en
+            section: s-0b7b00516d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-998f3698c9
+            part: body
+          en:
+            page: en
+            section: s-235c80e2c5
+            part: body
+        sourceIds:
+          - vertebralLaminae2016
+          - nameCorrespondence
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-9ba10cc5c6
+            part: body
+          en:
+            page: en
+            section: s-825c3eadd4
+            part: body
+        sourceIds:
+          - vertebralLaminae2016
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c273a3992b
+            part: body
+          en:
+            page: en
+            section: s-2017f4d6a2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-443ff9af53
+            part: body
+          en:
+            page: en
+            section: s-f9fdd46201
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c0ad166485
+            part: body
+          en:
+            page: en
+            section: s-841ab3bc74
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-62f8120d84
+            part: body
+          en:
+            page: en
+            section: s-039f15adab
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-ea73c28b82
+            part: body
+          en:
+            page: en
+            section: s-cbdb281a23
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-13bbd1f897
+            part: body
+          en:
+            page: en
+            section: s-72f2c97e6d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c7c8689376
+            part: body
+          en:
+            page: en
+            section: s-ff4c8a6b09
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-a5a4487557
+            part: body
+          en:
+            page: en
+            section: s-53fd642607
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Iguania
+          url: https://www.checklistbank.org/dataset/316115/taxon/87BW7
+          locator: Accepted name, rank and parent; no living-status inference.
+      - id: vertebralLaminae2016
+        referenceId: ref-21f9fcaf-7549-4654-a320-79673b011217
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Table 1; Postspinal lamina; Occurrence in Sacral and Caudal Vertebrae
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 论文原始样本名称 Agama impalearis；标本 MDHC 275。仅支持所述椎骨观察。
+            en: Original sample name Agama impalearis; specimen MDHC 275. Described vertebral observations only.
+      - id: nameCorrespondence
+        referenceId: ref-31a374c1-9b7e-41e0-b7ea-2fc7d0c057f6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Synonym list: Agama impalearis under Agama bibronii"
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅支持参考文献用名与接受名的记录对应，不代表重新鉴定标本。
+            en: Recorded bibliographic name correspondence only; not specimen reidentification.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 1669 authored records grouped under Iguania by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 4
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 179 authored same-name records placed under Iguania by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 247 authored records grouped under Iguania by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 64CL6
+              name: Acanthocercus guentherpetersi
+              canonicalPath: content/nodes/COL%3A64CL6
+            - colId: 8GNV4
+              name: Acanthocercus kiwuensis
+              canonicalPath: content/nodes/COL%3A8GNV4
+            - colId: 8H5VP
+              name: Acanthosaura murphyi
+              canonicalPath: content/nodes/COL%3A8H5VP
+            - colId: 65K22
+              name: Agama bottegi
+              canonicalPath: content/nodes/COL%3A65K22
+            - colId: C655X
+              name: Agama dodomae
+              canonicalPath: content/nodes/COL%3AC655X
+          fieldCountDistribution:
+            "1": 77
+            "2": 64
+            "3": 106
+    limitations:
+      zh:
+        page: zh
+        section: s-9092468de4
+        part: body
+      en:
+        page: en
+        section: s-963aa2a3d5
+        part: body

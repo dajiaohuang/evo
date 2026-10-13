@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nannophryne Günther, 1870
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Nannophryne
+      zh: Nannophryne
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-72aebea780
+            part: title
+          zh:
+            page: zh
+            section: s-9172037fff
+            part: title
+        text:
+          en:
+            page: en
+            section: s-72aebea780
+            part: body
+          zh:
+            page: zh
+            section: s-9172037fff
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-30bb02ff38
+            part: title
+          zh:
+            page: zh
+            section: s-833f0e9c28
+            part: title
+        text:
+          en:
+            page: en
+            section: s-30bb02ff38
+            part: body
+          zh:
+            page: zh
+            section: s-833f0e9c28
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-716f7d919d
+            part: title
+          zh:
+            page: zh
+            section: s-68f0f1da45
+            part: title
+        text:
+          en:
+            page: en
+            section: s-716f7d919d
+            part: body
+          zh:
+            page: zh
+            section: s-68f0f1da45
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f237e17383
+            part: title
+          zh:
+            page: zh
+            section: s-3999a53375
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f237e17383
+            part: body
+          zh:
+            page: zh
+            section: s-3999a53375
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-8784ec804e
+            part: title
+          zh:
+            page: zh
+            section: s-5c742e1674
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 45MMK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45MMK
+            label:
+              en: Nannophryne apolobambica
+              zh: Nannophryne apolobambica
+          - kind: catalogue
+            colId: 45MMM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45MMM
+            label:
+              en: Nannophryne cophotis
+              zh: Nannophryne cophotis
+          - kind: catalogue
+            colId: 45MMN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45MMN
+            label:
+              en: Nannophryne corynetes
+              zh: Nannophryne corynetes
+          - kind: catalogue
+            colId: 45MMR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45MMR
+            label:
+              en: Nannophryne variegata
+              zh: Nannophryne variegata
+        text:
+          en:
+            page: en
+            section: s-8784ec804e
+            part: body
+          zh:
+            page: zh
+            section: s-5c742e1674
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10968267-5xdm
+        title:
+          en:
+            page: en
+            section: s-34327a24d2
+            part: title
+          zh:
+            page: zh
+            section: s-ac9447ea15
+            part: title
+        text:
+          en:
+            page: en
+            section: s-34327a24d2
+            part: body
+          zh:
+            page: zh
+            section: s-ac9447ea15
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10968267-5xdm
+        title:
+          en:
+            page: en
+            section: s-129d3f81d1
+            part: title
+          zh:
+            page: zh
+            section: s-78024db5eb
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 45MMR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45MMR
+            label:
+              en: Nannophryne variegata
+              zh: Nannophryne variegata
+        text:
+          en:
+            page: en
+            section: s-129d3f81d1
+            part: body
+          zh:
+            page: zh
+            section: s-78024db5eb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nannophryne
+          url: https://www.checklistbank.org/dataset/316115/taxon/5XDM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Nannophryne; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10968267-5xdm
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Telmatobius fronteriensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 selected Chilean priority entries; source management model and cited context, not a complete genus synthesis.
+            zh: 1 个所选智利优先条目；来源管理模型及被引背景，不是全属综述。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b06c393e74
+        part: body
+      zh:
+        page: zh
+        section: s-c9701b6690
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Nannophryne
+      sourceRowIds:
+        - Anf0697
+        - Anf0698
+        - Anf0699
+        - Anf0700
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 4
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.3390/biology13030169
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        sourceKey: primary-direct-group-pmc10968267-5xdm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10968267/article.xml
+        sourceConcept: 2024 Chilean Nannophryne priority rows and cited conservation context
+        evidenceRead: "Telmatobius fronteriensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A non-priority score is not evidence of no decline
+              zh: 非优先评分不是无下降证据
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-direct-group-pmc10968267-5xdm
+            locator: PMC10968267 XML Methods2.1–2.3; Tables2–4; Results; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e63427b71f
+                part: body
+              zh:
+                page: zh
+                section: s-c91a34230f
+                part: body
+            scope:
+              en: 1 selected Chilean priority entries; source management model and cited context, not a complete genus synthesis.
+              zh: 1 个所选智利优先条目；来源管理模型及被引背景，不是全属综述。
+    primaryResearchGroupSynthesisComplete: false

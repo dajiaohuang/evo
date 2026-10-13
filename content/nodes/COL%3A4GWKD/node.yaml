@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynoidis juxtasper
+  displayName: Phrynoidis juxtasper
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWKD
+  sourceIndexes:
+    - name:
+        en: Phrynoidis juxtasper
+        zh: Phrynoidis juxtasper
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWKD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/194
+            queryName: Phrynoidis juxtasper
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/348
+            queryName: Bufo juxtasper
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/496
+            queryName: Phrynoidis juxtaspera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-52d98d9f76
+      - s-f15d87d46c
+      - s-a5e9e0688c
+      - s-ee85fbb5d8
+      - s-333fff011a
+      - s-06f79010c4
+      - s-b3fd6dc936
+      - s-97be856b2e
+      - s-526ca5daa4
+      - s-7cffc5bb46
+      - s-bb111c71ab
+      - s-54a1831fc4
+      - s-f449b93a03
+      - s-92242a3f11
+    zh:
+      - s-dc4e4a5132
+      - s-054152344e
+      - s-777b20e7ab
+      - s-1b83dcadfa
+      - s-9daa03e2ff
+      - s-b200a82182
+      - s-65a1d9042f
+      - s-a3fd628ad9
+      - s-8c651f9970
+      - s-9ad6f25b0d
+      - s-c9bf6e2897
+      - s-cb9bf5afa9
+      - s-70891bdfbd
+      - s-57971d3ffd

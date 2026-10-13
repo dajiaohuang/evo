@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Limnonectes hikidai
+    name:
+      en: Limnonectes hikidai
+      zh: Limnonectes hikidai
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Limnonectes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Limnonectes hikidai in the version 3 classification
+          zh: Limnonectes hikidai 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f43b7c5635
+            part: body
+          zh:
+            page: zh
+            section: s-60b4d3f44b
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 18 populated trait fields
+          zh: 2 条测量行与 18 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-520280e382
+            part: body
+          zh:
+            page: zh
+            section: s-7cb80df998
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2802, 2803; Reference.csv rows 3240
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2802
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes hikidai
+          - M
+          - "34.3"
+          - "14.6461"
+          - "14.3031"
+          - "4.0131"
+          - "0"
+          - "0"
+          - "3.3271"
+          - "3.2242"
+          - "2.6068"
+          - NA
+          - "4.9735"
+          - NA
+          - NA
+          - NA
+          - "15.0577"
+          - "17.5273"
+          - NA
+          - "17.6302"
+          - NA
+          - NA
+          - NA
+          - "2.5039"
+          - "4.2875"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.8706"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.686"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9261"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2803
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes hikidai
+          - F
+          - "36.7"
+          - "14.9002"
+          - "14.313"
+          - "4.2205"
+          - "0"
+          - "0"
+          - "3.5232"
+          - "3.3397"
+          - "2.7158"
+          - NA
+          - "5.4316"
+          - NA
+          - NA
+          - NA
+          - "16.6618"
+          - "18.8638"
+          - NA
+          - "19.1207"
+          - NA
+          - NA
+          - NA
+          - "2.6424"
+          - "4.6242"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.3582"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.6973"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.0276"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3240
+        values:
+          - Anura
+          - Limnonectes_hikidai
+          - Matsui, M., & Nishikawa, K. (2014). Description of a new species of Limnonectes from Sarawak, Malaysian Borneo (Dicroglossidae, Anura). Current Herpetology, 33, 135-147. https://doi.org/10.5358/hsj.33.135
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - LAL
+      - FL
+      - TL
+      - IMT
+      - Toe1L
+      - Fin1L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6QDL6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

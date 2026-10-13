@@ -1,0 +1,18 @@
+## 这个名称对应哪些化石记录 {#s-c4eafaae49}
+Hesperosaurus mjosi 在固定 PBDB 恐龙及其鸟类分支工作名录中为接受种，数据库父级为 Hesperosaurus。本页导读 6 条可用种级出现记录，涉及 6 个采集记录和 5 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。其中 2 条保留旧鉴定名称或名称组合与数据库接受名的对应，原字符串另存，不把重组名当作新的独立发现。
+
+## 从具名采集地和地层开始 {#s-1fef43cd7b}
+采集记录 Howe-Stephens Quarry（Wyoming），地区代码 US，地层名称 Morrison；数据库年代范围 154.8–149.2 Ma，早端地质时段 Kimmeridgian。采集记录 Meilyn Quarry, Flat Top Anticline（Wyoming），地区代码 US，地层名称 Morrison；数据库年代范围 154.8–149.2 Ma，早端地质时段 Kimmeridgian。采集记录 Buffalo Quarry, Smith Ranch（Wyoming），地区代码 US，地层名称 Morrison；数据库年代范围 154.8–149.2 Ma，早端地质时段 Kimmeridgian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+
+## 这些记录的年代边界 {#s-4105bc70b7}
+本页所选出现记录的年代外包区间为 157.9–143.1 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
+
+## 保存环境与生活环境分开阅读 {#s-1f285028ae}
+Howe-Stephens Quarry 的采集环境标签为 fine channel fill；集合保存方式标签为 实体化石、模印或印痕、软组织、原磷酸盐成分、硅质置换（body,mold/impression,soft parts,original phosphate,replaced with silica）。Meilyn Quarry, Flat Top Anticline 的采集环境标签为 河道沉积环境，来源带引号（"channel"）；集合保存方式标签为 实体化石、模印或印痕、软组织（body,mold/impression,soft parts）。Buffalo Quarry, Smith Ranch 的采集环境标签为 陆相沉积环境，类型未定（terrestrial indet.）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+
+## 沿采集记录追到文献 {#s-2d1bc6b072}
+Howe-Stephens Quarry 的数据库引文署名为 Maidment et al.（2008），编号 ref:29301。Meilyn Quarry, Flat Top Anticline 的数据库引文署名为 Saitta（2015），编号 ref:74175。Buffalo Quarry, Smith Ranch 的数据库引文署名为 Carpenter et al.（2001），编号 ref:14843。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+
+## 资料边界 {#s-5af17c0045}
+本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 3538 项恐龙及其鸟类分支工作名录中，当前名称一致、父链可追到已记录 Dinosauria 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+

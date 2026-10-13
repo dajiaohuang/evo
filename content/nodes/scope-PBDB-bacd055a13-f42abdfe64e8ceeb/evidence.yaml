@@ -1,0 +1,178 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:146163
+    scientificName: Puijila darwini
+    commonName: Arctic semiaquatic pinnipedimorph
+    commonNameZh: 北极半水生鳍足形类
+    rank: genus
+    parentName: Pinnipedimorpha
+    extinct: true
+    geography:
+      - Haughton Formation
+      - Devon Island, Nunavut
+      - Canada
+    overview:
+      page: en
+      section: s-32b570a510
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-8fb98f28cc
+        part: body
+      habitat:
+        page: en
+        section: s-81bb8a6156
+        part: body
+      locomotion:
+        page: en
+        section: s-63d0b85dee
+        part: body
+      bodySize:
+        page: en
+        section: s-e9c607786e
+        part: body
+      guild:
+        page: en
+        section: s-d94918001e
+        part: body
+      dietZh:
+        page: zh
+        section: s-50990ee285
+        part: body
+      habitatZh:
+        page: zh
+        section: s-34823e17b5
+        part: body
+      locomotionZh:
+        page: zh
+        section: s-5fcc570c3a
+        part: body
+      bodySizeZh:
+        page: zh
+        section: s-36ad5c83a5
+        part: body
+      guildZh:
+        page: zh
+        section: s-62a4fe8d04
+        part: body
+    traits:
+      - page: en
+        section: s-0aa6cd69b7
+        part: body
+      - page: en
+        section: s-87e4a5d193
+        part: body
+      - page: en
+        section: s-25da390a03
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-d9d492309d
+      part: body
+    confidence: medium
+    referenceIds:
+      - rybczynski-2009-puijila
+    overviewZh:
+      page: zh
+      section: s-f659651dfc
+      part: body
+    traitsZh:
+      - page: zh
+        section: s-69703e434a
+        part: body
+      - page: zh
+        section: s-2c4cd92acc
+        part: body
+      - page: zh
+        section: s-30526d20fa
+        part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-52d47e36f3
+      part: body
+  claims:
+    - subjectId: taxon:puijila
+      claimType: taxonomy
+      claimKind: scientific
+      statement: NUFV 405 was placed within Pinnipedimorpha by the source matrix; the result does not make Puijila a direct ancestor of seals.
+      confidence: medium
+      confidenceRationale: The taxonomy field for puijila is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: rybczynski-2009-puijila
+          relation: supports
+          pages: 1021–1024; Figures 1–4; Supplementary Information
+    - subjectId: taxon:puijila
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profile represents one Haughton Formation lake occurrence on Devon Island and does not establish a complete Arctic dispersal route.
+      confidence: medium
+      confidenceRationale: The biogeography field for puijila is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: rybczynski-2009-puijila
+          relation: supports
+          pages: 1021–1024; Figures 1–4; Supplementary Information
+    - subjectId: taxon:puijila
+      claimType: ecology
+      claimKind: scientific
+      statement: Dentition and limb proportions support predatory and semiaquatic interpretations, but freshwater use and swimming behaviour were not directly observed.
+      confidence: medium
+      confidenceRationale: The ecology field for puijila is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: rybczynski-2009-puijila
+          relation: supports
+          pages: 1021–1024; Figures 1–4; Supplementary Information
+    - subjectId: taxon:puijila
+      claimType: morphology
+      claimKind: scientific
+      statement: NUFV 405 preserves roughly 65% of an associated skeleton, including skull, vertebrae and substantial fore- and hind limbs.
+      confidence: medium
+      confidenceRationale: The morphology field for puijila is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: rybczynski-2009-puijila
+          relation: supports
+          pages: 1021–1024; Figures 1–4; Supplementary Information
+    - subjectId: taxon:puijila
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 24–20 Ma envelope is a broad early Miocene formation translation for NUFV 405, not a pinnipedimorph FAD, genus LAD or transition duration.
+      confidence: medium
+      confidenceRationale: The fossil-range field for puijila is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: rybczynski-2009-puijila
+          relation: supports
+          pages: 1021–1024; Figures 1–4; Supplementary Information
+  claim-rationales.zh:
+    - 北极半水生鳍足形类的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。
+    - 北极半水生鳍足形类的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。
+    - 北极半水生鳍足形类的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。
+    - 北极半水生鳍足形类的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。
+    - 北极半水生鳍足形类的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - 来源矩阵将 NUFV 405 置于鳍足形类；这一结果不使 Puijila 成为海豹的直接祖先。
+    - 本资料代表德文岛 Haughton 组的一处湖相产出，不能确立完整的北极扩散路线。
+    - 牙齿和肢体比例支持捕食性和半水生解释，但淡水利用与游泳行为并未被直接观察。
+    - NUFV 405 保存了约 65% 的关联骨架，包括颅骨、椎骨以及相当部分的前、后肢。
+    - 2,400 万至 2,000 万年前的区间是 NUFV 405 所在早中新世地层的宽泛换算，并非鳍足形类首次出现、该属末次出现或过渡持续时间。
+  ranges:
+    - entityId: puijila
+      rangeKind: global-composite
+      taxonomicConcept: Puijila darwini holotype occurrence
+      geographicScope: Haughton Formation, Nunavut, Canada
+      olderMa: 24
+      youngerMa: 20
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance.
+      evidenceBasis: Holotype NUFV 405 preserves roughly 65% of one skeleton, including skull, dentition, vertebrae and substantial fore- and hind limbs from an early Miocene lake deposit.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:puijila-holotype-locomotor-mosaic
+        - claim:taxon:puijila:fossil-range
+      referenceLocators:
+        - referenceId: rybczynski-2009-puijila
+          locator: 1021–1024; Figures 1–4; Supplementary Information; Holotype; Locomotor anatomy; Phylogenetic analysis

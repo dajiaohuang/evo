@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gephyromantis malagasius
+    name:
+      en: Gephyromantis malagasius
+      zh: Gephyromantis malagasius
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Gephyromantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e3745f5edc
+            part: body
+          zh:
+            page: zh
+            section: s-ac199bdcf9
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a03f942952
+            part: body
+          zh:
+            page: zh
+            section: s-5491527d56
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1978, 1979; Reference.csv rows 442
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1978
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis malagasius
+          - F
+          - "24.72"
+          - "9.58"
+          - "9.28"
+          - "2.98"
+          - "1.46"
+          - NA
+          - NA
+          - "2.125"
+          - NA
+          - "2.78"
+          - NA
+          - "1.84"
+          - "8.24"
+          - NA
+          - "17.48"
+          - "11.56"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "40.08"
+          - "0.875"
+          - "2.125"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1979
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis malagasius
+          - M
+          - "22.61111111"
+          - "8.877777778"
+          - "8.744444444"
+          - "3.011111111"
+          - "1.411111111"
+          - NA
+          - NA
+          - "2.066666667"
+          - NA
+          - "2.466666667"
+          - NA
+          - "1.622222222"
+          - "7.855555556"
+          - NA
+          - "16.37777778"
+          - "11.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "38.67777778"
+          - "1.133333333"
+          - "2.122222222"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 442
+        values:
+          - Anura
+          - Gephyromantis_malagasius
+          - Vences, M., Glaw, F., Andreone, F., Jesu, R., & Schimmenti, G. (2002). Systematic revision of the enigmatic Malagasy broad-headed frogs (Laurentomantis Dubois, 1980), and their phylogenetic position within the endemic mantellid radiation of Madagascar. Contributions to Zoology, 70(4), 191-212. https://doi.org/10.1163/18759866-07004001
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+      - IMT
+      - Toe1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6KCZ7
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella pulchra
+  displayName: Mantella pulchra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7S
+  sourceIndexes:
+    - name:
+        en: Mantella pulchra
+        zh: Mantella pulchra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/298
+            queryName: Mantella pulchra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/186
+            queryName: Mantella cowani pulchra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d087b62cc5
+      - s-adb3f45ffa
+      - s-fcf81c5c89
+      - s-7a865e781d
+      - s-920ced1dd9
+      - s-9335e142dc
+      - s-b934c236f6
+      - s-f914d8cfe8
+      - s-56ca0cb27a
+      - s-75b1494e29
+      - s-69d0297f77
+      - s-b8d5b9a744
+    zh:
+      - s-9af2797a09
+      - s-4c02fe4537
+      - s-8350a509be
+      - s-87cb8d58c8
+      - s-f8febc88c1
+      - s-27b4613384
+      - s-9cac2be315
+      - s-8bfa7b6d0d
+      - s-e7d624f088
+      - s-7485b8f65c
+      - s-75d9e20ea9
+      - s-914a546bed

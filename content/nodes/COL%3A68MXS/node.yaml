@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla carvalhoi
+  displayName: Bokermannohyla carvalhoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68MXS
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla carvalhoi
+        zh: Bokermannohyla carvalhoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68MXS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/50
+            queryName: Bokermannohyla carvalhoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/296
+            queryName: Hyla carvalhoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/334
+            queryName: Boana carvalhoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0783615b5e
+      - s-524888f422
+      - s-000c6557d4
+      - s-ba306bd7de
+      - s-47388f14e0
+      - s-d1d4f85b25
+      - s-6deb875fc7
+      - s-c55aeafef4
+      - s-505b66426d
+      - s-3c1867d15d
+      - s-46ac9597c6
+      - s-94bfbad813
+      - s-85f4dcb83f
+      - s-48b650d2fa
+      - s-ac722756b0
+    zh:
+      - s-f316737205
+      - s-ec63da59dd
+      - s-461e8c45d2
+      - s-7108526361
+      - s-0c1271639c
+      - s-51d700e340
+      - s-c504fce0ff
+      - s-84a98762cd
+      - s-33246a6b01
+      - s-4f5a373983
+      - s-505f67fb43
+      - s-735cd69d5a
+      - s-895fa568f4
+      - s-0500ef1876
+      - s-0d62530e8f

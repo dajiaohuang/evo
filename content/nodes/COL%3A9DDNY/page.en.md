@@ -1,0 +1,3 @@
+## ## Variable leaflet counts and lax inflorescences {#s-72b98538dd}
+The Brazilian Flora 2020 entry records plants 1.5–10 m tall, with hairy young branches and three, five or seven leaflets per leaf. The leaflets are listed as oval-elliptic, elliptic-obovate or elliptic. The lax inflorescences are shorter than the leaves; their pedicel bracteoles have secretory cavities, are shed and bear hairs. Pedicellate flowers have at least three developed calyx lobes, a punctate purple corolla and a callus on the standard. The androecium is pseudomonadelphous, and the anthers are hairy. The fruit is a hairy, subwoody to woody, samaroid legume; the seeds are kidney-shaped. The habitat field says “terrestrial” without identifying a locality.
+

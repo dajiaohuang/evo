@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:161964
+    scientificName: Holothuroidea
+    commonName: Sea cucumbers
+    commonNameZh: 海参
+    rank: class
+    parentName: Echinodermata
+    extinct: false
+    geography:
+      - Llandrindod, Wales, United Kingdom (source-bounded Holothurian Bed record)
+    overview:
+      page: en
+      section: s-16722a8cba
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-a69f646c79
+        part: body
+      habitat:
+        page: en
+        section: s-12c6f20d91
+        part: body
+      locomotion:
+        page: en
+        section: s-dba35575ce
+        part: body
+      bodySize:
+        page: en
+        section: s-e4832fd521
+        part: body
+      guild:
+        page: en
+        section: s-49e349906f
+        part: body
+      dietZh:
+        page: zh
+        section: zh-93fc95315f956e
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-efed9e6b8668ac
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-e4ddef26eae7e6
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-0770c649d55f39
+        part: body
+    traits:
+      - page: en
+        section: s-2db7e912c9
+        part: body
+      - page: en
+        section: s-d641db5f7b
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-1290a8af92
+      part: body
+    readerSections:
+      - id: articulated-specimen
+        title:
+          en:
+            page: en
+            section: s-f3c93592f3
+            part: title
+          zh:
+            page: zh
+            section: s-bb7b9db80c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f3c93592f3
+            part: body
+          zh:
+            page: zh
+            section: s-bb7b9db80c
+            part: body
+        sourceIds:
+          - botting-muir-2012-holothurian-bed
+          - pbdb-api-2016
+        confidence: high
+    confidence: high
+    referenceIds:
+      - botting-muir-2012-holothurian-bed
+      - pbdb-api-2016
+    readerSources:
+      - id: botting-muir-2012-holothurian-bed
+        referenceId: botting-muir-2012-holothurian-bed
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Recorded reader-passage locators: supports; figure: Figure 9; holotype Figure 9.1; quoteLocator: Systematic palaeontology: Class Holothuroidea and Oesolcucumaria; Remarks; Holotype; Occurrence | supports; figure: Figure 9; holotype Figure 9.1; quoteLocator: Systematic palaeontology: Class Holothuroidea and Oesolcucumaria | supports; quoteLocator: Holothurian Bed locality, Holotype and Occurrence sections | supports; quoteLocator: Fauna and ecology scope; Systematic palaeontology and occurrence sections | supports; figure: Figure 9; holotype Figure 9.1; quoteLocator: Oesolcucumaria remarks, holotype and occurrence"
+            zh: "读者段落的原始定位：supports; figure: Figure 9; holotype Figure 9.1; quoteLocator: Systematic palaeontology: Class Holothuroidea and Oesolcucumaria; Remarks; Holotype; Occurrence；supports; figure: Figure 9; holotype Figure 9.1; quoteLocator: Systematic palaeontology: Class Holothuroidea and Oesolcucumaria；supports; quoteLocator: Holothurian Bed locality, Holotype and Occurrence sections；supports; quoteLocator: Fauna and ecology scope; Systematic palaeontology and occurrence sections；supports; figure: Figure 9; holotype Figure 9.1; quoteLocator: Oesolcucumaria remarks, holotype and occurrence"
+      - id: pbdb-api-2016
+        referenceId: ref-5ac4e425-3ec8-8e68-a1eb-6d246673f9eb
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Recorded reader-passage locators: contextualizes; quoteLocator: Rejected endpoint candidate: PBDB occ:801180, Holothuroidea <indet. A>, Burgess Shale Stage 4, reference ref:28283"
+            zh: "读者段落的原始定位：contextualizes; quoteLocator: Rejected endpoint candidate: PBDB occ:801180, Holothuroidea <indet. A>, Burgess Shale Stage 4, reference ref:28283"
+  claims:
+    - subjectId: taxon:holothuroidea
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Oesolcucumaria eostre from the late Darriwilian Holothurian Bed of Wales is the oldest articulated holothurian used here, and its calcareous ring provides an unequivocal class assignment; a disputed Cambrian PBDB identification is not used as the range endpoint.
+      confidence: high
+      confidenceRationale: The holotype and paratypes preserve the diagnostic calcareous ring and an explicit late Darriwilian occurrence. PBDB's Stage 4 class-level first appearance is driven by one indeterminate Burgess Shale census record without a dedicated diagnostic revision, while the cited systematic paper treats proposed Cambrian holothurians as doubtful.
+      referenceLinks:
+        - relation: supports
+          referenceId: botting-muir-2012-holothurian-bed
+          figure: Figure 9; holotype Figure 9.1
+          quoteLocator: "Systematic palaeontology: Class Holothuroidea and Oesolcucumaria; Remarks; Holotype; Occurrence"
+        - relation: contextualizes
+          referenceId: pbdb-api-2016
+          quoteLocator: "Rejected endpoint candidate: PBDB occ:801180, Holothuroidea <indet. A>, Burgess Shale Stage 4, reference ref:28283"
+    - subjectId: taxon:holothuroidea
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Oesolcucumaria eostre is assigned to Holothuroidea in the cited systematic study by articulated anatomy including a diagnostic calcareous ring; disputed Cambrian material is not used as an equivalent class record.
+      confidence: high
+      confidenceRationale: The holotype and paratypes preserve the diagnostic structure described by the primary study, while the rejected Cambrian candidate lacks an equivalent dedicated revision.
+      referenceLinks:
+        - referenceId: botting-muir-2012-holothurian-bed
+          relation: supports
+          figure: Figure 9; holotype Figure 9.1
+          quoteLocator: "Systematic palaeontology: Class Holothuroidea and Oesolcucumaria"
+    - subjectId: taxon:holothuroidea
+      claimKind: scientific
+      claimType: biogeography
+      statement: The cited articulated Oesolcucumaria record is from the late Darriwilian Holothurian Bed at Llandrindod, Wales; it does not establish global holothurian distribution or an origin centre.
+      confidence: high
+      confidenceRationale: The study reports a named locality and horizon directly, but one articulated bed cannot stand in for complete class biogeography.
+      referenceLinks:
+        - referenceId: botting-muir-2012-holothurian-bed
+          relation: supports
+          quoteLocator: Holothurian Bed locality, Holotype and Occurrence sections
+    - subjectId: taxon:holothuroidea
+      claimKind: scientific
+      claimType: ecology
+      statement: The articulated Holothurian Bed record does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Holothuroidea; the profile retains only its marine depositional context.
+      confidence: high
+      confidenceRationale: The study includes fauna and ecology at a fossil-bed scale, not a whole-class reconstruction; unsupported ecological generalizations remain withheld.
+      referenceLinks:
+        - referenceId: botting-muir-2012-holothurian-bed
+          relation: supports
+          quoteLocator: Fauna and ecology scope; Systematic palaeontology and occurrence sections
+    - subjectId: taxon:holothuroidea
+      claimKind: scientific
+      claimType: morphology
+      statement: Oesolcucumaria eostre preserves an articulated body and diagnostic calcareous ring in the cited Holothurian Bed material; these observations remain specimen- and locality-bounded.
+      confidence: high
+      confidenceRationale: The cited figure, holotype and systematic description directly document the anatomical basis, while the profile does not treat one fossil assemblage as all holothurian morphology.
+      referenceLinks:
+        - referenceId: botting-muir-2012-holothurian-bed
+          relation: supports
+          figure: Figure 9; holotype Figure 9.1
+          quoteLocator: Oesolcucumaria remarks, holotype and occurrence
+  claim-rationales.zh:
+    - 正模和副模保存了具诊断意义的石灰环并具有明确的晚达瑞威尔期层位；PBDB 的第四阶首次出现仅由一个缺少专门诊断修订的伯吉斯页岩未定种群落记录驱动，不能作为端点。
+    - 正模与副模的石灰环和关节相连解剖为海参纲归属提供直接依据；缺少同等专门修订的有争议寒武纪材料不作为等价记录。
+    - 一手研究直接报告了威尔士 Llandrindod 晚达瑞威尔期 Holothurian Bed；一处化石层不能代表海参纲全球分布或起源中心。
+    - 该研究在化石层尺度讨论动物群和生态，而非重建全纲生态；未获支持的饮食、偏好栖息地、运动、体型和营养类群保持未解。
+    - 图 9、正模和系统描述直接记录 Oesolcucumaria 的石灰环与关节相连解剖，但一个地点的材料不能代表所有海参纲形态。
+  claim-statements.zh:
+    - 所引保存关节连接的 Oesolcucumaria 记录来自威尔士 Llandrindod 的晚达瑞威尔期海参层，不能据此确定海参类的全球分布或起源中心。
+    - 海参层中保存关节连接的记录不能确定整个海参纲的食性、生境偏好、运动性能、体型分布或生态功能群；本档案仅保留其海相沉积背景。
+    - 所引海参层材料中的 Oesolcucumaria eostre 保存了保持连接的身体及具有诊断意义的钙质环；这些观察仍限定于相应标本和产地。
+    - 所引分类研究根据保存关节连接的解剖结构，包括具有诊断意义的钙质环，将 Oesolcucumaria eostre 归入海参纲；有争议的寒武纪材料不被用作同等的纲级记录。
+    - 威尔士晚达瑞威尔期海参层的 Oesolcucumaria eostre 是本图谱采用的最老关节保存海参，其石灰环支持无歧义的纲级鉴定；有争议的寒武纪 PBDB 鉴定不用于设定范围端点。
+  ranges:
+    - entityId: holothuroidea
+      rangeKind: global-composite
+      taxonomicConcept: Holothuroidea — articulated body-fossil record (PBDB txn:161964)
+      geographicScope: Global articulated body-fossil record
+      olderMa: 460
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 1.8
+        youngerMa: 0.0117
+        note: The endpoint is rounded from the late Darriwilian articulated record. PBDB's Stage 4 value is driven by disputed occurrence occ:801180 and is explicitly rejected as the range endpoint.
+      evidenceBasis: Oesolcucumaria eostre preserves a diagnostic calcareous ring and articulated anatomy in the late Darriwilian Holothurian Bed. Proposed Cambrian holothurians lack comparable diagnostic support.
+      confidence: high
+      claimIds:
+        - claim:taxon:holothuroidea:darriwilian-articulated-record
+      referenceLocators:
+        - referenceId: botting-muir-2012-holothurian-bed
+          locator: "Systematic palaeontology: Oesolcucumaria; Remarks; Figure 9; Holotype and Occurrence"
+        - referenceId: pbdb-api-2016
+          locator: Rejected endpoint candidate occ:801180, Holothuroidea <indet. A>, Burgess Shale Stage 4, ref:28283
+      evidenceLevel: literature-synthesized

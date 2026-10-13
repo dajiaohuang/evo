@@ -1,0 +1,89 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyalinobatrachium mashpi Guayasamin, Brunner, Valencia-Aguilar, Franco-Mena, Ringler, Medina Armijos, Morochz et al., 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyalinobatrachium mashpi
+      zh: Hyalinobatrachium mashpi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0d6a96d04f
+            part: title
+          zh:
+            page: zh
+            section: s-d1b4c7eacd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0d6a96d04f
+            part: body
+          zh:
+            page: zh
+            section: s-d1b4c7eacd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ae4b1b1ffc
+            part: title
+          zh:
+            page: zh
+            section: s-84f2045c12
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ae4b1b1ffc
+            part: body
+          zh:
+            page: zh
+            section: s-84f2045c12
+            part: body
+        sourceIds:
+          - taxonomy
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyalinobatrachium mashpi
+          url: https://www.checklistbank.org/dataset/316115/taxon/PP4W7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0fc0e61750
+        part: body
+      zh:
+        page: zh
+        section: s-c65d87de88
+        part: body

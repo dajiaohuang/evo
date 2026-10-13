@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa guaramacalensis
+  displayName: Bolitoglossa guaramacalensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDPQ
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa guaramacalensis
+        zh: Bolitoglossa guaramacalensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDPQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/126
+            queryName: Bolitoglossa guaramacalensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-574ab61c11
+      - s-9aaaa05b85
+      - s-d4b8944728
+      - s-2698c7e010
+      - s-847b673e55
+      - s-f310ea9fe7
+      - s-2a8a269f99
+      - s-c2a025542a
+    zh:
+      - s-83cd316399
+      - s-26b280d37f
+      - s-01f08ecf1d
+      - s-b2246a42e3
+      - s-44874b557a
+      - s-f56183e21a
+      - s-400b1cd226
+      - s-4329cce98a

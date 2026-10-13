@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctanolis pernix
+  displayName: Nyctanolis pernix
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/484XJ
+  sourceIndexes:
+    - name:
+        en: Nyctanolis pernix
+        zh: Nyctanolis pernix
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 484XJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/334
+            queryName: Nyctanolis pernix
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ef1dee8251
+      - s-86ede4574c
+      - s-21206fe96c
+      - s-238768204e
+      - s-e12ba9c263
+      - s-f128caa7e0
+      - s-55b1af51e3
+      - s-abde82459b
+      - s-8bbf185399
+      - s-edbd0806d3
+      - s-b447aca166
+      - s-d6cce21a7d
+      - s-3d478233a2
+      - s-5fdd366c29
+      - s-4831851771
+      - s-307e6a620d
+    zh:
+      - s-727d3925e1
+      - s-8730889988
+      - s-0ca9b9b2f8
+      - s-b7d22faf38
+      - s-12d768b91b
+      - s-2fc8ff8e1c
+      - s-99755215cc
+      - s-3908fbe75b
+      - s-e667b0c04d
+      - s-590a78f530
+      - s-32621a7751
+      - s-1cf7ce994b
+      - s-d5bde10a92
+      - s-2a81c1574d
+      - s-66c150d64b
+      - s-6d19b5a30b

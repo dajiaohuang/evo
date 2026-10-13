@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana guentheri
+  displayName: Hylarana guentheri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MN53
+  sourceIndexes:
+    - name:
+        en: Hylarana guentheri
+        zh: Hylarana guentheri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MN53
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/419
+            queryName: Hylarana guentheri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 95
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/112
+            queryName: Rana guentheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/293
+            queryName: Sylvirana guentheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 89
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/294
+            queryName: Rana elegans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/295
+            queryName: Limnodytes elegans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/296
+            queryName: Boulengerana guentheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e5c47ccf43
+      - s-92c3193217
+      - s-46c2756868
+      - s-2045f79dc7
+      - s-0128b6c02d
+      - s-f1dec0352a
+      - s-72fb66b67c
+      - s-c120eac4bc
+      - s-097830c119
+      - s-cd41fe8928
+      - s-409b68f681
+      - s-61276dd7ef
+      - s-05f323ee27
+      - s-e229cf1b94
+      - s-24886cb80b
+      - s-bc4a9ed128
+      - s-3cd49f7034
+      - s-2ec88c283e
+    zh:
+      - s-f0ac126898
+      - s-8debf8b277
+      - s-91e33f9bc6
+      - s-b8a4a0fa07
+      - s-627ce936c8
+      - s-0214aea3a0
+      - s-27221c5244
+      - s-b2085d7e19
+      - s-328ebb2dc5
+      - s-73e13c1dc1
+      - s-162660ed4d
+      - s-b7ee2ad22a
+      - s-7d65de5b1e
+      - s-5b2e4ac8cf
+      - s-7fcf8e2be5
+      - s-5de836d8f8
+      - s-8274463b96
+      - s-da2f79234f

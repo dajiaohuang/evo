@@ -1,0 +1,130 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Selago baurii (Hiern) Hilliard
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4WCSQ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4WCSQ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4WCSQ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4WCSQ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000495891-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4WCSQ / WFO wfo-0000495891
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_10810_0
+        referenceId: ref-a6b1e281-a9fe-82d0-a086-f53ea631080a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Selago baurii (Hiern) Hilliard account; archive rows 45447 (Morphology), 46332 (Habitat), 46634 (Diagnostic), source identifier 10810.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Shrubby, twiggy, up to c. 1 m tall, stems pubescent, hairs patent, up to 0.3-0.8 mm long, closely leafy. Leaves alternate, fascicled, primary leaves up to 8-12 x 2.3-3.5 mm, elliptic tapering to a short petiolar part, apex acute, upper margins with 1-3 pairs of tiny teeth, smaller leaves often entire, glandular-punctate, upper surface glabrous, upward-pointing hairs c. 0.15 mm long on margins, to 0.4 mm long on midline of lower surface. Inflorescences big leafy panicle, flowers eventually distant. Bract adnate to pedicel and calyx tube, part free from pedicel up to c. 3-3.5 x 0.5-1 mm, lanceolate, entire, hairy as leaves. Pedicel (lowermost) 3-4.5 mm long. Calyx 2-2.5 mm long on anticous side, two anticous lobes much broader than the posticous one, often notched, sometimes entire, thus lobes 3 or 5, keeled, minutely gland-dotted, hairs to c. 0.2 mm long on margins. Corolla tube 3.3-4 mm long, funnel-shaped, limb 4.7-5.5 mm across lateral lobes, posticous lobes 2-2.5 x 1.4-1.6 mm, anticous lobe 2.6-3 x 1.3-1.7 mm, all lobes suborbicular or broadly elliptic, pale mauve. Stamens: posticous filaments 1.2-1.8 mm long, anthers in throat; anticous filaments 2.2-2.4 mm long, anthers shortly exerted. Stigma and style c. 4-4.4 mm long, style minutely puberulous. Ovary c. 0.8 x 0.3 mm. Cocci c. 2.5 x 1 mm, slightly rugulose, light brown, the pair separating only tardily."
+            sourceIds:
+              - sanbi_10810_0
+            locator: "SANBI/WFO archive Morphology row 45447; source 10810.0; publication: Hilliard, OM. 1999. The Tribe Selagineae (Scrophulariaceae). Royal Botanic Garden, Edinburgh. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: The affinity of S. baurii seems to lie with S. longipedicellata, S. immersa and S. innata (similar bract, pedicel, disposition of anthers, and cocci), but the calyx, irregularly 3-54obed, is distinctive but approaching that of S. longiflora.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_10810_0
+            locator: "SANBI/WFO archive Diagnostic row 46634; source 10810.0; publication: Hilliard, OM. 1999. The Tribe Selagineae (Scrophulariaceae). Royal Botanic Garden, Edinburgh. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The plants were plentiful in the scrub at the upper limit of the forest.
+            sourceIds:
+              - sanbi_10810_0
+            locator: "SANBI/WFO archive Habitat row 46332; source 10810.0; publication: Hilliard, OM. 1999. The Tribe Selagineae (Scrophulariaceae). Royal Botanic Garden, Edinburgh. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-354d440cde
+        title:
+          en:
+            page: en
+            section: s-49b3c3aef9
+            part: title
+          zh:
+            page: zh
+            section: s-b41f7b6978
+            part: title
+        text:
+          en:
+            page: en
+            section: s-49b3c3aef9
+            part: body
+          zh:
+            page: zh
+            section: s-b41f7b6978
+            part: body
+        sourceIds:
+          - sanbi_10810_0

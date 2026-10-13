@@ -1,0 +1,6 @@
+## Fine leaf-edge teeth and compact flower clusters {#s-7ce1e1da67}
+In a Brazilian Flora 2020 v393.147 field, simple hairs on young stems accompany leaves that may be elliptic, ovate or obovate. The tips narrow gradually, the bases are wedge-shaped, and the margins are described as scalloped, fringed with hairs or minutely toothed. Three or five main veins are listed above the base, with two faint veins just inside the edge. The underside has sparse to moderate simple hairs. Flowers form dense, compact clusters. The bell-shaped flower cup bears a persistent calyx with distinct lobes; each flower has five petals. The tissue joining the anther's pollen sacs is not prolonged and lacks an appendage. White anthers have one small pore, and the ovary bears hairs. The vein and margin alternatives remain as the source records them; their occurrence across plants is not specified.
+
+## A terrestrial habitat label alongside morphology {#s-f35880c7b4}
+The dataset's habitat field labels this record “terrícola,” or terrestrial. It does not identify a collection locality or survey date, establish range coverage, or state whether the material is wild, cultivated, managed or fossil. It should be read as a single label alongside the morphology entry.
+

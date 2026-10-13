@@ -1,0 +1,171 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pseudoeurycea tenchalli
+    name:
+      en: Pseudoeurycea tenchalli
+      zh: Pseudoeurycea tenchalli
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Pseudoeurycea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3474d97bb4
+            part: body
+          zh:
+            page: zh
+            section: s-70dad9af0d
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ebd32c579a
+            part: body
+          zh:
+            page: zh
+            section: s-524fdb2e4e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 323; Reference.csv rows 4247
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 323
+        values:
+          - Plethodontidae
+          - Pseudoeurycea
+          - Pseudoeurycea tenchalli
+          - M
+          - NA
+          - "41.6"
+          - NA
+          - "22.8"
+          - "10"
+          - "7.3"
+          - "2.2"
+          - "1.7"
+          - NA
+          - "1.9"
+          - "2.5"
+          - "3.4"
+          - "34.6"
+          - "3"
+          - NA
+          - "3.3"
+          - NA
+          - "11.3"
+          - "10.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.5"
+          - "3.8"
+          - "3"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4247
+        values:
+          - Caudata
+          - Pseudoeurycea_tenchalli
+          - "Adler, K. (1996). The salamanders of Guerrero, Mexico, with descriptions of five new species of Pseudoeurycea (Caudata: Plethodontidae). Occasional papers of the Natural History Museum, the University of Kansas, Lawrence, Kansas, 177, 1-28.  Retrieved from https://www.biodiversitylibrary.org/part/36811"
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TAH
+      - FLL
+      - HLL
+      - SF
+      - VL
+      - ELL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4NWS8
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

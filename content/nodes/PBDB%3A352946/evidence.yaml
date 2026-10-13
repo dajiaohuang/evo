@@ -1,0 +1,189 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Siamotragulus songhorensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Siamotragulus songhorensis
+      en: Siamotragulus songhorensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4bf0bdfd1e
+            part: body
+          en:
+            page: en
+            section: s-58d9b73bc4
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8acc3b87b9
+            part: body
+          en:
+            page: en
+            section: s-58c30d9b3a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-063793671e
+            part: body
+          en:
+            page: en
+            section: s-e237518732
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-663ed0d85c
+            part: body
+          en:
+            page: en
+            section: s-fcbf1101c0
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-954fa82b00
+            part: body
+          en:
+            page: en
+            section: s-d2ba775d91
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Siamotragulus songhorensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=352946&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:352946; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:352946
+          selectedOccurrenceIds:
+            - occ:292609
+            - occ:292666
+            - occ:297064
+            - occ:802828
+            - occ:1668223
+            - occ:1668226
+          selectedCollectionIds:
+            - col:27856
+            - col:27858
+            - col:28441
+            - col:87341
+            - col:21726
+            - col:236791
+          sourceReferenceIds:
+            - ref:7625
+            - ref:7832
+            - ref:29413
+            - ref:89718
+            - ref:89719
+          originalIdentificationMappings:
+            - occurrenceId: occ:292609
+              originalIdentifiedName: Dorcatherium songhorensis
+              acceptedName: Siamotragulus songhorensis
+              difference: recombined as
+            - occurrenceId: occ:292666
+              originalIdentifiedName: Dorcatherium songhorensis
+              acceptedName: Siamotragulus songhorensis
+              difference: recombined as
+            - occurrenceId: occ:297064
+              originalIdentifiedName: Dorcatherium songhorensis
+              acceptedName: Siamotragulus songhorensis
+              difference: recombined as
+            - occurrenceId: occ:802828
+              originalIdentifiedName: Dorcatherium songhorensis
+              acceptedName: Siamotragulus songhorensis
+              difference: recombined as
+            - occurrenceId: occ:1668223
+              originalIdentifiedName: Dorcatherium songhorensis
+              acceptedName: Siamotragulus songhorensis
+              difference: recombined as
+            - occurrenceId: occ:1668226
+              originalIdentifiedName: Dorcatherium songhorensis
+              acceptedName: Siamotragulus songhorensis
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ec0e46c516
+        part: body
+      en:
+        page: en
+        section: s-aa476c6b64
+        part: body

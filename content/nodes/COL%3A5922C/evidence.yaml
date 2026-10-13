@@ -1,0 +1,80 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Triraphis schinzii Hack.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 5922C, name, authorship, rank and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted-name-and-authorship to wfo-0000904879.
+      scope: Triraphis schinzii Hack. as represented by COL26.8 usage 5922C. SANBI claims remain attributed to the southern African treatment and its taxonomic concept; exact nomenclatural mapping alone does not prove full circumscription equivalence.
+    lifeStatusScope:
+      wild: Claims describe observations in a regional flora treatment; source wording does not consistently distinguish native wild from naturalised populations.
+      domesticated: Cultivation and domestication are not covered by the cited material; no conclusion about either is made.
+      fossil: No fossil claim is made; fossil occurrence has not been assessed.
+    sources:
+      - id: col-wfo-crosswalk
+        referenceId: ref-b7a0da64-36cd-8130-ab0c-cf9d69929170
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 3
+        usage:
+          title: COL26.8 accepted usage and pinned WFO plant crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000904879-2026-06
+          version: COL26.8 released 2026-08-20; WFO 2026-06 snapshot; local crosswalk record 5922C
+          locator: COL ID 5922C; exact accepted-name-and-authorship mapping to WFO wfo-0000904879
+          scope: Exact accepted identity for Triraphis schinzii Hack.; mapping does not by itself establish full species-concept equivalence.
+      - id: sanbi-grasses
+        referenceId: ref-8df2e3e0-d3d3-8b08-aeb1-59f9ee8269be
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Strelitzia 36 (2015), species account pp. 728–729; SANBI archive Morphology row 80471 and Habitat row 80191, source identifier 15590.0. Archive citation preserves the publication page range.
+          scope: Southern African grass flora treatment. Its regional ranges and ecological accounts are not represented as global or exhaustive.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The account describes an erect, tufted perennial 700–1,400 mm tall with a short rhizome, an open panicle and a central lemma awn longer than the lemma.
+            textZh: 該条目将其描述为直立丛生多年生草本，高 700–1,400 mm，具短根茎、疏松圆锥花序，外稃中央芒长于外稃。
+            sourceIds:
+              - sanbi-grasses
+            locator: Strelitzia 36 (2015), species account pp. 728–729; SANBI archive Morphology row 80471 and Habitat row 80191, source identifier 15590.0.
+            placeTimeScope: Regional southern African grass treatment published in 2015; morphology statements are limited to the printed species account and do not imply global coverage.
+            lifeStatus: Regional flora account; it does not consistently distinguish native wild and naturalised populations, and does not cover cultivation.
+        gaps:
+          - Population, developmental, sexual, geographic and diagnostic variation have not been comprehensively reviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The account records sandy grassland or bushveld, deep sand on dunes or river banks, and forest margins.
+            textZh: 该条目记载其生境包括沙质草地或灌丛草原、沙丘或河岸深沙土以及森林边缘。
+            sourceIds:
+              - sanbi-grasses
+            locator: Strelitzia 36 (2015), species account pp. 728–729; SANBI archive Morphology row 80471 and Habitat row 80191, source identifier 15590.0.
+            placeTimeScope: Regional southern African grass treatment published in 2015; habitat statements are limited to the printed species account and do not imply global coverage.
+            lifeStatus: Regional flora account; it does not consistently distinguish native wild and naturalised populations, and does not cover cultivation.
+        gaps:
+          - Seasonal use, measured environmental conditions, species interactions and populations beyond these regional accounts remain unreviewed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

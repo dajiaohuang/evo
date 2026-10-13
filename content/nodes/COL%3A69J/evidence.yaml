@@ -1,0 +1,341 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ambystomatidae Gray, 1850
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Ambystomatidae
+      zh: Ambystomatidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7d26a546f9
+            part: title
+          zh:
+            page: zh
+            section: s-ae8b042c29
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7d26a546f9
+            part: body
+          zh:
+            page: zh
+            section: s-ae8b042c29
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-24486eea5d
+            part: title
+          zh:
+            page: zh
+            section: s-fb48e31507
+            part: title
+        text:
+          en:
+            page: en
+            section: s-24486eea5d
+            part: body
+          zh:
+            page: zh
+            section: s-fb48e31507
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-176b344d20
+            part: title
+          zh:
+            page: zh
+            section: s-8776ade130
+            part: title
+        text:
+          en:
+            page: en
+            section: s-176b344d20
+            part: body
+          zh:
+            page: zh
+            section: s-8776ade130
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-3bbf0335c4
+            part: title
+          zh:
+            page: zh
+            section: s-f16f5ebc3c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3bbf0335c4
+            part: body
+          zh:
+            page: zh
+            section: s-f16f5ebc3c
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-1c257764e6
+            part: title
+          zh:
+            page: zh
+            section: s-e9dafb83b7
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: TMC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ATMC
+            label:
+              en: Ambystoma
+              zh: Ambystoma
+          - kind: catalogue
+            colId: 44GP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A44GP
+            label:
+              en: Dicamptodon
+              zh: Dicamptodon
+        text:
+          en:
+            page: en
+            section: s-1c257764e6
+            part: body
+          zh:
+            page: zh
+            section: s-e9dafb83b7
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-385832780b
+            part: title
+          zh:
+            page: zh
+            section: s-760b04c11f
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-385832780b
+            part: body
+          zh:
+            page: zh
+            section: s-760b04c11f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ambystomatidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/69J
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Ambystomatidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Ambystomatidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ef8dc6dc81
+        part: body
+      zh:
+        page: zh
+        section: s-b44e268881
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Ambystomatidae
+      sourceRowIds:
+        - Anf5972
+        - Anf5973
+        - Anf5974
+        - Anf5975
+        - Anf5976
+        - Anf5977
+        - Anf5978
+        - Anf5979
+        - Anf5980
+        - Anf5981
+        - Anf5982
+        - Anf5983
+        - Anf5984
+        - Anf5985
+        - Anf5986
+        - Anf5987
+        - Anf5988
+        - Anf5989
+        - Anf5990
+        - Anf5991
+        - Anf5992
+        - Anf5993
+        - Anf5994
+        - Anf5995
+        - Anf5996
+        - Anf5997
+        - Anf5998
+        - Anf5999
+        - Anf6000
+        - Anf6001
+        - Anf6002
+        - Anf6003
+        - Anf6004
+        - Anf6005
+        - Anf6006
+        - Anf6007
+        - Anf6008
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 15
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 30
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 33
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 11
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 34
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Ambystoma jeffersonianum
+          path: content/nodes/local-fffb70ca3d9ca447566e75fd
+        - scientificName: Ambystoma tigrinum
+          path: content/nodes/local-7c90f22a5208a600bd41df1d
+        - scientificName: Ambystoma californiense
+          path: content/nodes/local-6c5c24fde4530f9a2ed72364
+        - scientificName: Ambystoma mavortium
+          path: content/nodes/local-f490e216acbce9bf8fdf6567
+        - scientificName: Ambystoma maculatum
+          path: content/nodes/local-ba428cd3955f0487706d8360
+        - scientificName: Ambystoma macrodactylum
+          path: content/nodes/local-ff4752e7a55172d07ff3aad8
+        - scientificName: Ambystoma laterale
+          path: content/nodes/local-db5757ee4af2efc853dba626
+        - scientificName: Ambystoma mabeei
+          path: content/nodes/local-858c9f8bffe1ed10126ba3f3
+        - scientificName: Ambystoma opacum
+          path: content/nodes/local-7dcd9a706d229d6abefee74b
+        - scientificName: Ambystoma talpoideum
+          path: content/nodes/local-62d8abaa6505d3b916b36d74
+        - scientificName: Ambystoma texanum
+          path: content/nodes/local-1a33e85563fa1c927eea9326
+        - scientificName: Ambystoma mexicanum
+          path: content/nodes/local-d998bb2516b9a5e9f7b0ab97
+      metrics:
+        - metric: CTmax
+          rows: 103
+          sourceConcepts: 11
+        - metric: Tpref
+          rows: 30
+          sourceConcepts: 3
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aquarana septentrionalis
+  displayName: Aquarana septentrionalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V2QHS
+  sourceIndexes:
+    - name:
+        en: Aquarana septentrionalis
+        zh: Aquarana septentrionalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V2QHS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/102
+            queryName: Aquarana septentrionalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/223
+            queryName: Rana septentrionalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 148
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/401
+            queryName: Lithobates septentrionalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/172
+            queryName: Rana sinuata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-675f4e466a
+      - s-3222d83ce1
+      - s-82a0483b4e
+      - s-34590e99fc
+      - s-ccebd4458f
+      - s-54f64b3909
+      - s-1381ef3fb7
+      - s-1c20b9f68a
+      - s-82b0be3e39
+      - s-8252480918
+      - s-f9cc453322
+      - s-996e8a9184
+      - s-f53c48fe56
+      - s-478af9fa58
+      - s-72211c698a
+      - s-41dadc339c
+      - s-c50b6cbd8f
+      - s-507387c3e2
+      - s-56b0ac5ea8
+    zh:
+      - s-f196b7e396
+      - s-098a101206
+      - s-3fbfcd1ebb
+      - s-c94fd6e7e3
+      - s-5fe71d5917
+      - s-0eb7a620be
+      - s-b6e40ba279
+      - s-54111e4f77
+      - s-d5bb175b10
+      - s-44ce1d8975
+      - s-1ee0c20c75
+      - s-b066fe90ac
+      - s-67c352496a
+      - s-e24096eaaa
+      - s-64bdd70b54
+      - s-be1e5fd7e1
+      - s-50d337bd16
+      - s-202fc1922b
+      - s-e8b870761a

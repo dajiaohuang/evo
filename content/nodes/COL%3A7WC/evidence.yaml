@@ -1,0 +1,309 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ceratobatrachidae Boulenger, 1884
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Ceratobatrachidae
+      zh: Ceratobatrachidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d8fba833c2
+            part: title
+          zh:
+            page: zh
+            section: s-96f1f99a8a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d8fba833c2
+            part: body
+          zh:
+            page: zh
+            section: s-96f1f99a8a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2dfbe17e74
+            part: title
+          zh:
+            page: zh
+            section: s-a8bec2b067
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2dfbe17e74
+            part: body
+          zh:
+            page: zh
+            section: s-a8bec2b067
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-95923b603c
+            part: title
+          zh:
+            page: zh
+            section: s-b8d274cc8f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-95923b603c
+            part: body
+          zh:
+            page: zh
+            section: s-b8d274cc8f
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-7f7a93f392
+            part: title
+          zh:
+            page: zh
+            section: s-28b4ad1e8e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7f7a93f392
+            part: body
+          zh:
+            page: zh
+            section: s-28b4ad1e8e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-f566af33ac
+            part: title
+          zh:
+            page: zh
+            section: s-40aa092434
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: J4B
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJ4B
+            label:
+              en: Alcalinae
+              zh: Alcalinae
+          - kind: catalogue
+            colId: 626TR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A626TR
+            label:
+              en: Ceratobatrachinae
+              zh: Ceratobatrachinae
+          - kind: catalogue
+            colId: JTY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJTY
+            label:
+              en: Liuraninae
+              zh: Liuraninae
+        text:
+          en:
+            page: en
+            section: s-f566af33ac
+            part: body
+          zh:
+            page: zh
+            section: s-40aa092434
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ceratobatrachidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/7WC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Ceratobatrachidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3c54b0dc3b
+        part: body
+      zh:
+        page: zh
+        section: s-14f4a9aa91
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Ceratobatrachidae
+      sourceRowIds:
+        - Anf1056
+        - Anf1057
+        - Anf1058
+        - Anf1059
+        - Anf1060
+        - Anf1061
+        - Anf1062
+        - Anf1063
+        - Anf1064
+        - Anf1065
+        - Anf1066
+        - Anf1067
+        - Anf1068
+        - Anf1069
+        - Anf1070
+        - Anf1071
+        - Anf1072
+        - Anf1073
+        - Anf1074
+        - Anf1075
+        - Anf1076
+        - Anf1077
+        - Anf1078
+        - Anf1079
+        - Anf1080
+        - Anf1081
+        - Anf1082
+        - Anf1083
+        - Anf1084
+        - Anf1085
+        - Anf1086
+        - Anf1087
+        - Anf1088
+        - Anf1089
+        - Anf1090
+        - Anf1091
+        - Anf1092
+        - Anf1093
+        - Anf1094
+        - Anf1095
+        - Anf1096
+        - Anf1097
+        - Anf1098
+        - Anf1099
+        - Anf1100
+        - Anf1101
+        - Anf1102
+        - Anf1103
+        - Anf1104
+        - Anf1105
+        - Anf1106
+        - Anf1107
+        - Anf1108
+        - Anf1109
+        - Anf1110
+        - Anf1111
+        - Anf1112
+        - Anf1113
+        - Anf1114
+        - Anf1115
+        - Anf1116
+        - Anf1117
+        - Anf1118
+        - Anf1119
+        - Anf1120
+        - Anf1121
+        - Anf1122
+        - Anf1123
+        - Anf1124
+        - Anf1125
+        - Anf1126
+        - Anf1127
+        - Anf1128
+        - Anf1129
+        - Anf1130
+        - Anf1131
+        - Anf1132
+        - Anf1133
+        - Anf1134
+        - Anf1135
+        - Anf1136
+        - Anf1137
+        - Anf1138
+        - Anf1139
+        - Anf1140
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 72
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 45
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 35
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 79
+      currentConceptEquivalenceCertified: false

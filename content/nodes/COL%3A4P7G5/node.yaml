@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne covacevichae
+  displayName: Pseudophryne covacevichae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P7G5
+  sourceIndexes:
+    - name:
+        en: Pseudophryne covacevichae
+        zh: Pseudophryne covacevichae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P7G5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/436
+            queryName: Pseudophryne covacevichae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-63ca21ca8a
+      - s-2e5138dc7f
+      - s-aa746f6013
+      - s-cee47885de
+      - s-fbe62f2624
+      - s-6aff15905c
+      - s-d7c93a8b39
+      - s-4b27fea796
+      - s-403fc4b1ec
+      - s-370a5a69e9
+    zh:
+      - s-3cb2998aaf
+      - s-fb03a63a45
+      - s-9d0c78d7c1
+      - s-8a35a13d80
+      - s-d7b2e99f71
+      - s-da279aad93
+      - s-7ff04107a2
+      - s-a2e92dea76
+      - s-50b0ca6702
+      - s-c3e08b0714

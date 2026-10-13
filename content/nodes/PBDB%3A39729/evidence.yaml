@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Palaeospheniscus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Palaeospheniscus
+      en: Palaeospheniscus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-85e90e35f7
+            part: body
+          en:
+            page: en
+            section: s-a8e61e5615
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-35dff805a2
+            part: body
+          en:
+            page: en
+            section: s-1bc7fc79ce
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Palaeospheniscus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=39729
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:39729
+          readingTargets:
+            - name: Palaeospheniscus biloculata
+              pbdbTaxonId: txn:173488
+              canonicalPath: content/nodes/PBDB%3A173488
+            - name: Palaeospheniscus huxleyorum
+              pbdbTaxonId: txn:106290
+              canonicalPath: content/nodes/PBDB%3A106290
+            - name: Palaeospheniscus patagonicus
+              pbdbTaxonId: txn:105847
+              canonicalPath: content/nodes/PBDB%3A105847
+            - name: Palaeospheniscus bergi
+              pbdbTaxonId: txn:53344
+              canonicalPath: content/nodes/PBDB%3A53344
+            - name: Chubutodyptes biloculata
+              pbdbTaxonId: txn:106258
+              canonicalPath: content/nodes/PBDB%3A106258
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-448526aadf
+        part: body
+      en:
+        page: en
+        section: s-dd6ca23050
+        part: body

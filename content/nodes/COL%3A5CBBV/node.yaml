@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus clivii
+  displayName: Xenopus clivii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBBV
+  sourceIndexes:
+    - name:
+        en: Xenopus clivii
+        zh: Xenopus clivii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBBV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/308
+            queryName: Xenopus clivii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 64
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ff1780c64b
+      - s-e58651ffd3
+      - s-c8cdc6cbaa
+      - s-94360dff28
+      - s-89cb518bb3
+      - s-62cc1ef83f
+      - s-559326f4c0
+    zh:
+      - s-bd5a2b8853
+      - s-d1947d4d1e
+      - s-76dfa4f38b
+      - s-cff68b2d7d
+      - s-aec10c1cb2
+      - s-ec93b52ad8
+      - s-28bc125240

@@ -1,0 +1,384 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Crypturellus cinnamomeus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Crypturellus cinnamomeus
+      en: Crypturellus cinnamomeus
+    sections:
+      - topic: genomeMaterial
+        sourceIds:
+          - sackton2019FlightLossReader
+          - cloutier2019PalaeognathReader
+          - ncbi2019PalaeognathWgsReader
+        text:
+          zh:
+            page: zh
+            section: s-2f8aa71206
+            part: body
+          en:
+            page: en
+            section: s-438dd5b137
+            part: body
+      - topic: phylogeneticComparison
+        sourceIds:
+          - sackton2019FlightLossReader
+          - cloutier2019PalaeognathReader
+        text:
+          zh:
+            page: zh
+            section: s-c139e9a725
+            part: body
+          en:
+            page: en
+            section: s-822298c9be
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-e231f2c348
+            part: body
+          en:
+            page: en
+            section: s-893e16212a
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1fd5742393
+            part: body
+          en:
+            page: en
+            section: s-50ddef8d60
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-2b567dbc23
+            part: body
+          en:
+            page: en
+            section: s-28c667340b
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-a1d8a1e98c
+            part: body
+          en:
+            page: en
+            section: s-15a97ae999
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bcd846c4f1
+            part: body
+          en:
+            page: en
+            section: s-a81998ad13
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-b9099039bb
+            part: body
+          en:
+            page: en
+            section: s-dcc35bbb73
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-0086f1cdf5
+            part: body
+          en:
+            page: en
+            section: s-16083708ed
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-043993c997
+            part: body
+          en:
+            page: en
+            section: s-77ecdb92e9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Crypturellus cinnamomeus
+          url: https://www.checklistbank.org/dataset/316115/taxon/323MK
+          locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 9731; name Crypturellus cinnamomeus; reference table row 9731; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - litter_or_clutch_size_n
+            - incubation_d
+            - fledging_age_d
+          originalReferenceStrings:
+            adult_body_mass_g: mean of Dunning, 1992 and Dunning, 1992
+            litter_or_clutch_size_n: Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004 from median of 3(Davies, S.J.J.F., 2002, Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004, Davies, S.J.J.F., 2002)
+            incubation_d: Davies, S.J.J.F., 2002
+            fledging_age_d: Davies, S.J.J.F., 2002
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004
+            - Davies, S.J.J.F., 2002
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 25; Scientific=Crypturellus cinnamomeus; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              certainty: A
+            foraging:
+              fields:
+                - ForStrat-watbelowsurf
+                - ForStrat-wataroundsurf
+                - ForStrat-ground
+                - ForStrat-understory
+                - ForStrat-midhigh
+                - ForStrat-canopy
+                - ForStrat-aerial
+              references:
+                - id: Ref_1
+                  verbatim: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              speciesLevel: "1"
+          withheldFieldGroups: []
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: sackton2019FlightLossReader
+        referenceId: ref-5bd64bcf-d144-4042-85d0-7698b80a8c94
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - sourceVersion
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Convergent regulatory evolution and loss of flight in paleognathous birds
+          url: https://doi.org/10.1126/science.aat7244
+          accessedAt: 2026-10-03
+          locator: Published main Science PDF, all main scientific text and captions; figure 1 pixels only; no supplements or rerun
+          scope:
+            zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+            en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+      - id: cloutier2019PalaeognathReader
+        referenceId: ref-21d5a78e-cddb-4430-8d22-79f8a455bf0b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - sourceVersion
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Whole-Genome Analyses Resolve the Phylogeny of Flightless Birds (Palaeognathae) in the Presence of an Empirical Anomaly Zone
+          url: https://doi.org/10.1093/sysbio/syz019
+          accessedAt: 2026-10-03
+          locator: "PMC6857515: sampling, selected marker extraction and species-tree methods, selected results, discussion paragraphs 100–109; not whole-paper review"
+          scope:
+            zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+            en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+      - id: ncbi2019PalaeognathWgsReader
+        referenceId: ref-6337e69a-f577-45e0-a7d8-aa22aed8fb47
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: NCBI GenBank WGS master records for ten extant palaeognath genomes in BioProject PRJNA433110
+          url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA433110
+          accessedAt: 2026-10-03
+          locator: "Ten GenBank WGS master records: specimen fields only; no raw sequence reanalysis"
+          scope:
+            zh: 所指物种的材料与跨支系比较；实验角色分别保留。
+            en: Named species material and cross-lineage comparisons; experimental roles remain separate.
+    limitations:
+      zh:
+        page: zh
+        section: s-7465960ea2
+        part: body
+      en:
+        page: en
+        section: s-fd7d10cffb
+        part: body

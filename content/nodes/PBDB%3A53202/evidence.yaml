@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Volgosuchus cornutus
+    rank: species
+    sourceTaxonId: txn:53202
+    name:
+      en: Volgosuchus cornutus
+      zh: Volgosuchus cornutus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-422877e3f7
+            part: body
+          zh:
+            page: zh
+            section: s-e0b3131c24
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-44c75e00f7
+            part: body
+          zh:
+            page: zh
+            section: s-cb61e9a997
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-bba723d555
+            part: body
+          zh:
+            page: zh
+            section: s-c04fb1ef1e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:53202; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. A. Efremov. 1940. Predvaritel'noye opisaniye novykh form permskoy i triasovoy fauny nazemnykh pozvonochnykh SSSR [Preliminary description of new forms from the Permian and Triassic terrestrial vertebrate fauna of the USSR]. Trudy Paleontologicheskogo Instituta Akademiy Nauk SSSR 10(2):1-140
+    occurrenceEvidence:
+      - occurrenceId: occ:297332
+        collectionId: col:28467
+        acceptedTaxonId: txn:53202
+        identifiedName: Volgosuchus cornutus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:7854
+        bibliography: J. A. Efremov. 1940. Predvaritel'noye opisaniye novykh form permskoy i triasovoy fauny nazemnykh pozvonochnykh SSSR [Preliminary description of new forms from the Permian and Triassic terrestrial vertebrate fauna of the USSR]. Trudy Paleontologicheskogo Instituta Akademiy Nauk SSSR 10(2):1-140
+        locality:
+          countryCode: RU
+          stateProvince: Ivanovo
+          county: null
+        stratigraphy:
+          group: null
+          formation: Vetlugian Series
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-bba723d555
+            part: body
+          zh:
+            page: zh
+            section: s-c04fb1ef1e
+            part: body
+        sourceIds: []

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops jinjiangensis
+  displayName: Amolops jinjiangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DY9
+  sourceIndexes:
+    - name:
+        en: Amolops jinjiangensis
+        zh: Amolops jinjiangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DY9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/373
+            queryName: Amolops jinjiangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/255
+            queryName: Staurois mantzorum jinjiangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-044c9432f8
+      - s-5f01f9e381
+      - s-b9f91a4d9f
+      - s-59bc4e8bf8
+      - s-71a0db064e
+      - s-5fb58c1faf
+      - s-150200a211
+      - s-f3230b688c
+      - s-3f450d2487
+      - s-8044813ef8
+      - s-b3962f4405
+      - s-7f1d02a0e8
+      - s-6c438249a9
+      - s-c50d7c1d2a
+      - s-a62fe32818
+    zh:
+      - s-c7ac43dc32
+      - s-ae60488380
+      - s-d253894258
+      - s-ac9772ceb0
+      - s-e13bdc97ff
+      - s-8291db3f23
+      - s-8ba9cae0b9
+      - s-e0faf656a9
+      - s-24241548aa
+      - s-2bdf5b3f4b
+      - s-8125024683
+      - s-a397919043
+      - s-394a3c91a2
+      - s-4f185a01a1
+      - s-7452d30e3e

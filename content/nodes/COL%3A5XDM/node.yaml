@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nannophryne
+  displayName: Nannophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5XDM
+  sourceIndexes:
+    - name:
+        en: Nannophryne
+        zh: Nannophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5XDM
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/66
+            queryName: Nannophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72aebea780
+      - s-30bb02ff38
+      - s-716f7d919d
+      - s-f237e17383
+      - s-8784ec804e
+      - s-34327a24d2
+      - s-129d3f81d1
+      - s-b06c393e74
+      - s-e63427b71f
+    zh:
+      - s-9172037fff
+      - s-833f0e9c28
+      - s-68f0f1da45
+      - s-3999a53375
+      - s-5c742e1674
+      - s-ac9447ea15
+      - s-78024db5eb
+      - s-c9701b6690
+      - s-c91a34230f

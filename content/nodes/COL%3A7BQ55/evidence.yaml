@@ -1,0 +1,446 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Telmatobius chusmisensis Formas, Cuevas & Nuñez, 2006
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Telmatobius chusmisensis
+      zh: Telmatobius chusmisensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ec4c29b8f3
+            part: title
+          zh:
+            page: zh
+            section: s-091f2c3e14
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ec4c29b8f3
+            part: body
+          zh:
+            page: zh
+            section: s-091f2c3e14
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e7a008e625
+            part: title
+          zh:
+            page: zh
+            section: s-6a57f07bdd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e7a008e625
+            part: body
+          zh:
+            page: zh
+            section: s-6a57f07bdd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-90741c21eb
+            part: title
+          zh:
+            page: zh
+            section: s-6f2371928c
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-90741c21eb
+            part: body
+          zh:
+            page: zh
+            section: s-6f2371928c
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-cd2efedf66928655aeef2ac05df1d660
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-7cc87f7dc287f5641cc11588
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-f46c9d6f497ae624c81dd463
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2d9d819b1c
+            part: title
+          zh:
+            page: zh
+            section: s-f0d3dc47d6
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-2d9d819b1c
+            part: body
+          zh:
+            page: zh
+            section: s-f0d3dc47d6
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1e02a6570d
+            part: title
+          zh:
+            page: zh
+            section: s-59ae9c94ca
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1e02a6570d
+            part: body
+          zh:
+            page: zh
+            section: s-59ae9c94ca
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4fa4b37321
+            part: title
+          zh:
+            page: zh
+            section: s-e795daca81
+            part: title
+        sourceIds:
+          - primary-pmc10968267-7bq55
+        text:
+          en:
+            page: en
+            section: s-4fa4b37321
+            part: body
+          zh:
+            page: zh
+            section: s-e795daca81
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b5303ac625
+            part: title
+          zh:
+            page: zh
+            section: s-8877cf49fc
+            part: title
+        sourceIds:
+          - primary-pmc10968267-7bq55
+        text:
+          en:
+            page: en
+            section: s-b5303ac625
+            part: body
+          zh:
+            page: zh
+            section: s-8877cf49fc
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-abcc25b4a4
+            part: title
+          zh:
+            page: zh
+            section: s-7db41211bc
+            part: title
+        sourceIds:
+          - primary-pmc10968267-7bq55
+        text:
+          en:
+            page: en
+            section: s-abcc25b4a4
+            part: body
+          zh:
+            page: zh
+            section: s-7db41211bc
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Telmatobius chusmisensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/7BQ55
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 5204, 5205, 5206, 5207, 5208, 5209, 5210, 5211; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5865, 5866; Reference.csv rows 2287
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1176; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1176 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10968267-7bq55
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Telmatobius chusmisensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4cbfdc1757
+        part: body
+      zh:
+        page: zh
+        section: s-d0e58a0c17
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-7cc87f7dc287f5641cc11588
+        scientificName: Telmatobius chusmisensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-f46c9d6f497ae624c81dd463
+        scientificName: Telmatobius chusmisensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/biology13030169
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        sourceKey: primary-pmc10968267-7bq55
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10968267/article.xml
+        sourceConcept: 2024 Chile literature-assessed Telmatobius chusmisensis; source-selected taxonomic concepts, not independent current-status certification
+        evidenceRead: "Telmatobius chusmisensis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A dated multicriteria conservation priority
+              zh: 有日期的多准则保育优先级
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-7bq55
+            locator: PMC10968267 XML Methods2.1–2.3; Results Table4 row Telmatobius chusmisensis
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-83937c6557
+                part: body
+              zh:
+                page: zh
+                section: s-cf0fc3367c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: The population and protection scores retain their source limits
+              zh: 种群及保护评分保留来源限制
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-7bq55
+            locator: PMC10968267 XML Methods2.2/Table2; Results Table3 row Telmatobius chusmisensis; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-638550b51b
+                part: body
+              zh:
+                page: zh
+                section: s-997c752ed6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: The proposed protection actions are recommendations, not completed recovery
+              zh: 拟议保护行动是建议，不是已完成恢复
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-7bq55
+            locator: PMC10968267 XML Discussion high-priority Telmatobius and Alto Loa paragraphs
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-074a1a4117
+                part: body
+              zh:
+                page: zh
+                section: s-86a6f86074
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

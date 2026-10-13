@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophylax
+  displayName: Pelophylax
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KDF
+  sourceIndexes:
+    - name:
+        en: Pelophylax
+        zh: Pelophylax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KDF
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/149
+            queryName: Pelophylax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1405
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ddbe527040
+      - s-c344fc53dd
+      - s-9ca003e2ab
+      - s-fab7f4026d
+      - s-a3bf733003
+      - s-d7714bdcc4
+      - s-945a552469
+      - s-c9bf4b48a8
+      - s-4688e80545
+      - s-16337cb822
+      - s-72004bc651
+      - s-538334f164
+      - s-8c59487917
+      - s-81d0a3a579
+      - s-424c38967f
+    zh:
+      - s-257fffb688
+      - s-fd5c2ead45
+      - s-374d55361c
+      - s-301c3527a1
+      - s-03bf47aafb
+      - s-790ec2ae6e
+      - s-a3015c21f2
+      - s-1a5291b0e0
+      - s-e94d499247
+      - s-718914968d
+      - s-2dc67c45e4
+      - s-41425c1d2d
+      - s-cc46a566f5
+      - s-d6c40f8233
+      - s-56f934df87

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella dushanensis
+  displayName: Leptobrachella dushanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q9Z64
+  sourceIndexes:
+    - name:
+        en: Leptobrachella dushanensis
+        zh: Leptobrachella dushanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q9Z64
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/224
+            queryName: Leptobrachella dushanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-58e7f81ee5
+      - s-d8094af01a
+      - s-ef643525f4
+      - s-a424363f76
+      - s-59bd6015a1
+      - s-3682d209c5
+      - s-b3888545ac
+      - s-8e24f8003d
+      - s-2b2365fb2c
+    zh:
+      - s-3b7e52652c
+      - s-847954cecb
+      - s-d66269dc9e
+      - s-e77b9c26da
+      - s-fdb8185c24
+      - s-893008be89
+      - s-8e78db9fa0
+      - s-ff9695af54
+      - s-07f40eed2b

@@ -1,0 +1,20 @@
+schemaVersion: 1
+identity:
+  kind: topic
+  scientificName: Otis agilis
+  displayName: Otis agilis
+  sourceIdentity:
+    authority: PBDB
+    oid: txn:370793
+    snapshot: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+  placementStatus: unresolved-navigation-topic
+  sourceIndexes:
+    - scientificName: Otis agilis
+      sourceIdentity: PBDB:txn:370793
+      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+      sourceLocators: []
+relationships: []
+structure:
+  sections:
+    en: []
+    zh: []

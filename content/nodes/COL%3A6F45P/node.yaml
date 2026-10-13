@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus richmondi
+  displayName: Eleutherodactylus richmondi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F45P
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus richmondi
+        zh: Eleutherodactylus richmondi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F45P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/310
+            queryName: Eleutherodactylus richmondi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/106
+            queryName: Hylodes richmondi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/107
+            queryName: Euhyas richmondi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/498
+            queryName: Eleutherodactylus lentus richmondi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b67beb049d
+      - s-92ae47b74b
+      - s-f6ca827934
+      - s-3ea4d9b941
+      - s-fba28c45e7
+      - s-afe5124ce8
+      - s-e4ee0db23d
+      - s-e540d1ffcc
+      - s-bd6f717228
+      - s-0f2647add4
+      - s-01b1139fdb
+    zh:
+      - s-ef3da46915
+      - s-2d9ec13648
+      - s-b9b29274b6
+      - s-5e1aedf245
+      - s-c3ac3cd8a3
+      - s-551570051a
+      - s-4ad12b1a50
+      - s-2c6c52b1ad
+      - s-6875df6a8c
+      - s-11502421c7
+      - s-fe361562df

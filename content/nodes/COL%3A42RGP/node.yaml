@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Micrixalus fuscus
+  displayName: Micrixalus fuscus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42RGP
+  sourceIndexes:
+    - name:
+        en: Micrixalus fuscus
+        zh: Micrixalus fuscus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42RGP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/453
+            queryName: Micrixalus fuscus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/403
+            queryName: Ixalus fuscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/404
+            queryName: Staurois fuscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2edb285c17
+      - s-a0e261ac0e
+      - s-2ea6dc8f7f
+      - s-85ad765a46
+      - s-67e7277118
+      - s-9ca9b5b45e
+      - s-1138ffbabc
+      - s-a725d7bc0c
+      - s-72282f125d
+      - s-2eaddfa16a
+    zh:
+      - s-c0a22d8d31
+      - s-5c74816e13
+      - s-e224449ea4
+      - s-738413976e
+      - s-6e8469701b
+      - s-09314264dd
+      - s-490e51e224
+      - s-27e23b6f04
+      - s-50b6e63d01
+      - s-2b5cc78b75

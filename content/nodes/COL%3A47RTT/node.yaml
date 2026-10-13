@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Notaden bennettii
+  displayName: Notaden bennettii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47RTT
+  sourceIndexes:
+    - name:
+        en: Notaden bennettii
+        zh: Notaden bennettii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47RTT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/300
+            queryName: Notaden bennettii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fbe8b3894c
+      - s-d0e35e73d1
+      - s-b56e99dc52
+      - s-4b392ad3d4
+      - s-ff12154d4b
+      - s-84d91c179c
+      - s-deb4c3842e
+      - s-edc709b720
+      - s-54ef136765
+    zh:
+      - s-8edb2bf02f
+      - s-3fadfce184
+      - s-9121c18630
+      - s-d7753c45c8
+      - s-fb1ef3e5b2
+      - s-4013d1d79d
+      - s-bc6d18a382
+      - s-471f698f75
+      - s-c2e6fbe7fd

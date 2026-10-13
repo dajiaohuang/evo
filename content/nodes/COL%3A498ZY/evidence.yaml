@@ -1,0 +1,428 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ololygon belloni (Faivovich, Gasparini & Haddad, 2010)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ololygon belloni
+      zh: Ololygon belloni
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8bf194e020
+            part: title
+          zh:
+            page: zh
+            section: s-ba0a270189
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8bf194e020
+            part: body
+          zh:
+            page: zh
+            section: s-ba0a270189
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fbb9dec581
+            part: title
+          zh:
+            page: zh
+            section: s-c05ea31303
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fbb9dec581
+            part: body
+          zh:
+            page: zh
+            section: s-c05ea31303
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-84e64d2bd4
+            part: title
+          zh:
+            page: zh
+            section: s-500e3a849c
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-84e64d2bd4
+            part: body
+          zh:
+            page: zh
+            section: s-500e3a849c
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-d4ca81ec99a7b90a898b34c0
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-922fa8cb9ccc109ea5a77732
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-df61262d65
+            part: title
+          zh:
+            page: zh
+            section: s-193a86b651
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-df61262d65
+            part: body
+          zh:
+            page: zh
+            section: s-193a86b651
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d38bbc6dc1
+            part: title
+          zh:
+            page: zh
+            section: s-34bcd5e8a6
+            part: title
+        sourceIds:
+          - primary-pmc10688756-498zy
+        text:
+          en:
+            page: en
+            section: s-d38bbc6dc1
+            part: body
+          zh:
+            page: zh
+            section: s-34bcd5e8a6
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-aa55c1370e
+            part: title
+          zh:
+            page: zh
+            section: s-6283494522
+            part: title
+        sourceIds:
+          - primary-pmc10688756-498zy
+        text:
+          en:
+            page: en
+            section: s-aa55c1370e
+            part: body
+          zh:
+            page: zh
+            section: s-6283494522
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-084c8b73f1
+            part: title
+          zh:
+            page: zh
+            section: s-ac4d690018
+            part: title
+        sourceIds:
+          - primary-pmc10688756-498zy
+        text:
+          en:
+            page: en
+            section: s-084c8b73f1
+            part: body
+          zh:
+            page: zh
+            section: s-ac4d690018
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-be91432cde
+            part: title
+          zh:
+            page: zh
+            section: s-96e692eeba
+            part: title
+        sourceIds:
+          - primary-pmc10688756-498zy
+          - primary-pmc10688756-498zy-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-be91432cde
+            part: body
+          zh:
+            page: zh
+            section: s-96e692eeba
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ololygon belloni
+          url: https://www.checklistbank.org/dataset/316115/taxon/498ZY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2077; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5554, 5555; Reference.csv rows 3137
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10688756-498zy
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ololygon belloni: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10688756-498zy-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: "COL26.8 dataset316115; Scinax belloni: usage4VJV5 accepted498ZY; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json"
+          scope:
+            en: Explicit nomenclatural accepted-links only; biological-concept equivalence and original specimen identity uncertified.
+            zh: 仅明确命名接受名链接；生物学概念等同性及原标本身份未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc10688756-498zy-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e1e7c22777
+        part: body
+      zh:
+        page: zh
+        section: s-7e325e5969
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-d4ca81ec99a7b90a898b34c0
+        scientificName: Ololygon belloni
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-498zy
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 source workbook names Scinax belloni linked through explicit frozen COL26.8 nomenclatural records; original row concepts retained, not certified specimen identity
+        evidenceRead: "Ololygon belloni: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax belloni: development and oviposition coding"
+              zh: 工作簿记录 Scinax belloni：发育及产卵编码
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-498zy
+            locator: PMC10688756 S3 Traits row396 Scinax_belloni; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-768402617f
+                part: body
+              zh:
+                page: zh
+                section: s-d8adb22d34
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax belloni: juvenile habitat and egg sites"
+              zh: 工作簿记录 Scinax belloni：幼体生境及卵位点
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-498zy
+            locator: PMC10688756 S3 Traits row396 Scinax_belloni; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read habitat/S1–S7 columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-41a0678919
+                part: body
+              zh:
+                page: zh
+                section: s-76007ddedf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: "Workbook record Scinax belloni: inference and length limits"
+              zh: 工作簿记录 Scinax belloni：推断及长度限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-498zy
+            locator: PMC10688756 S3 Traits row396 Scinax_belloni; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read length/Observation columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-605bd6ae12
+                part: body
+              zh:
+                page: zh
+                section: s-ba0d7bd5a3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: "Workbook record Scinax belloni: an explicit frozen catalogue accepted-link"
+              zh: 工作簿记录 Scinax belloni：明确冻结目录接受名链接
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-498zy
+            locator: PMC10688756 S3 Traits row396 Scinax_belloni; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read; COL26.8 usage4VJV5 accepted498ZY; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json Scinax belloni
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d1f134053e
+                part: body
+              zh:
+                page: zh
+                section: s-b2593f7df4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

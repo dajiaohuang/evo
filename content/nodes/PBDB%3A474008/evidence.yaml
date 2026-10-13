@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Panpinnipedia
+    rank: unranked clade
+    sourceDatasetId: null
+    name:
+      zh: Panpinnipedia
+      en: Panpinnipedia
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a0d1382531
+            part: body
+          en:
+            page: en
+            section: s-620c512af6
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cecc996ae0
+            part: body
+          en:
+            page: en
+            section: s-763f056b96
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Panpinnipedia
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=474008
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:474008
+          readingTargets:
+            - name: Semantor macrurus
+              pbdbTaxonId: txn:359584
+              canonicalPath: content/nodes/PBDB%3A359584
+            - name: Pteronarctos goedertae
+              pbdbTaxonId: txn:71885
+              canonicalPath: content/nodes/PBDB%3A71885
+            - name: Puijila darwini
+              pbdbTaxonId: txn:146165
+              canonicalPath: content/nodes/PBDB%3A146165
+            - name: Neotherium mirum
+              pbdbTaxonId: txn:72018
+              canonicalPath: content/nodes/PBDB%3A72018
+            - name: Archaeodobenus akamatsui
+              pbdbTaxonId: txn:326680
+              canonicalPath: content/nodes/PBDB%3A326680
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-44ba418e35
+        part: body
+      en:
+        page: en
+        section: s-b1ddc5df2c
+        part: body

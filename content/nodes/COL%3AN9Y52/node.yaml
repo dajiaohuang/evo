@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus tapacurensis
+  displayName: Dendropsophus tapacurensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N9Y52
+  sourceIndexes:
+    - name:
+        en: Dendropsophus tapacurensis
+        zh: Dendropsophus tapacurensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N9Y52
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/428
+            queryName: Dendropsophus tapacurensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2af0a46f7e
+      - s-587c5f0bb2
+      - s-5c766308db
+      - s-541809333c
+      - s-216fb72f22
+      - s-b5c1ca3353
+      - s-9ad9016d1e
+      - s-4b03e613da
+      - s-6c8fcb44c3
+      - s-a861e287ba
+      - s-b0b2624150
+      - s-15fd01a32c
+      - s-577eb489ac
+      - s-286c5df3dd
+      - s-804ea6dba4
+      - s-72de5372ff
+      - s-1a19d4c309
+    zh:
+      - s-05b6d781cd
+      - s-9bcd4455ba
+      - s-85db07944c
+      - s-b5f2855f0d
+      - s-4680f7e1d3
+      - s-cbe3fc1756
+      - s-d1aa4056f5
+      - s-c4769d9778
+      - s-0a97da7fba
+      - s-093a816b7e
+      - s-3bc2e17861
+      - s-15d14800f1
+      - s-ca6fe3eb8f
+      - s-efa6eb9e2c
+      - s-24b7677fb2
+      - s-a717613348
+      - s-4c334d541c

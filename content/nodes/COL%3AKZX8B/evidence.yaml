@@ -1,0 +1,87 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-d350e17140
+          part: title
+        zh:
+          page: zh
+          section: s-0ae67f3ffe
+          part: title
+      text:
+        en:
+          page: en
+          section: s-d350e17140
+          part: body
+        zh:
+          page: zh
+          section: s-0ae67f3ffe
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-1c0309cbe5
+          part: title
+        zh:
+          page: zh
+          section: s-a6c92cdf55
+          part: title
+      text:
+        en:
+          page: en
+          section: s-1c0309cbe5
+          part: body
+        zh:
+          page: zh
+          section: s-a6c92cdf55
+          part: body
+  atlas-node:
+    name: Crustacea
+    commonName: Crustaceans
+    commonNameZh: 甲壳类
+    rank: subphylum
+    taxonId: txn:82629
+    firstAppearance: 510
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:crustacea
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Crustacea root display uses a rounded 520–0 Ma sampled envelope from Lower Cambrian Yicaris material to living crustaceans; Yicaris crown-eucrustacean placement is a character interpretation and the number is not a crustacean origin date.
+      confidence: medium
+      confidenceRationale: Several growth stages directly preserve the relevant limb anatomy in a biostratigraphically constrained Lower Cambrian horizon, but eucrustacean placement and conversion of that horizon to one rounded number remain interpretive. The range does not imply continuous sampling.
+      referenceLinks:
+        - referenceId: zhang-2007-yicaris
+          relation: supports
+          pages: 595–598
+          figure: Figures 1–3
+          quoteLocator: Yu'anshan Formation and late Atdabanian correlation; topotype growth series; reconstruction and phylogenetic assignment
+  claim-rationales.zh:
+    - 多个生长阶段在具有生物地层约束的下寒武统层位保存关键附肢结构，但真甲壳类位置及单一取整数值仍属解释；该范围不暗示连续采样。
+  claim-statements.zh:
+    - 甲壳动物根节点采用取整后的 5.20 亿年前至今采样包络，从下寒武统 Yicaris 材料延伸到现生甲壳动物；Yicaris 的冠群真甲壳类位置属于性状解释，该数值不是甲壳动物起源时间。
+  ranges:
+    - entityId: crustacea
+      rangeKind: global-composite
+      taxonomicConcept: Crustacea under the sampled Yicaris eucrustacean hypothesis
+      geographicScope: Lower Cambrian Yu'anshan Formation sample to living crustaceans
+      olderMa: 520
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 10
+        youngerMa: 0
+        note: The older endpoint rounds a Lower Cambrian biostratigraphic context; eucrustacean placement is a character interpretation, not an origin date.
+      evidenceBasis: Phosphatized Yicaris growth stages preserve limb anatomy used to place the taxon within Eucrustacea in the sampled analysis.
+      confidence: medium
+      claimIds:
+        - claim:taxon:crustacea:root-range-rc39
+      referenceLocators:
+        - referenceId: zhang-2007-yicaris
+          locator: pp. 595–598; Figures 1–3; Yu'anshan and late Atdabanian context
+      evidenceLevel: literature-synthesized

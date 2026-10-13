@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Stupendemys geographica
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Stupendemys geographica
+      en: Stupendemys geographica
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-104a78a045
+            part: body
+          en:
+            page: en
+            section: s-631521e805
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6edfafbe8e
+            part: body
+          en:
+            page: en
+            section: s-4616b09d71
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-789076f8ca
+            part: body
+          en:
+            page: en
+            section: s-59457591db
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1569947b55
+            part: body
+          en:
+            page: en
+            section: s-512a57e8c2
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-45176ef631
+            part: body
+          en:
+            page: en
+            section: s-a63f0221a7
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Stupendemys geographica
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=172422&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:172422; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:172422
+          selectedOccurrenceIds:
+            - occ:896124
+            - occ:896125
+            - occ:896126
+            - occ:896127
+            - occ:1546238
+            - occ:1546296
+            - occ:1546549
+            - occ:1585074
+            - occ:1585075
+          selectedCollectionIds:
+            - col:99401
+            - col:99402
+            - col:99403
+            - col:99404
+            - col:136714
+            - col:217818
+            - col:217878
+            - col:224005
+            - col:224006
+          sourceReferenceIds:
+            - ref:34172
+            - ref:75568
+            - ref:78962
+          originalIdentificationMappings:
+            - occurrenceId: occ:896124
+              originalIdentifiedName: Stupendemys geographicus n. gen. n. sp.
+              acceptedName: Stupendemys geographica
+              difference: corrected to
+            - occurrenceId: occ:896125
+              originalIdentifiedName: Stupendemys geographicus
+              acceptedName: Stupendemys geographica
+              difference: corrected to
+            - occurrenceId: occ:896126
+              originalIdentifiedName: Stupendemys geographicus
+              acceptedName: Stupendemys geographica
+              difference: corrected to
+            - occurrenceId: occ:896127
+              originalIdentifiedName: Stupendemys geographicus
+              acceptedName: Stupendemys geographica
+              difference: corrected to
+            - occurrenceId: occ:1546238
+              originalIdentifiedName: Stupendemys geographicus
+              acceptedName: Stupendemys geographica
+              difference: corrected to
+            - occurrenceId: occ:1546296
+              originalIdentifiedName: Stupendemys geographicus
+              acceptedName: Stupendemys geographica
+              difference: corrected to
+            - occurrenceId: occ:1546549
+              originalIdentifiedName: Stupendemys geographicus
+              acceptedName: Stupendemys geographica
+              difference: corrected to
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-bc52733e0a
+        part: body
+      en:
+        page: en
+        section: s-e55ece16d0
+        part: body

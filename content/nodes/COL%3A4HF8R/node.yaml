@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus angrensis
+  displayName: Physalaemus angrensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF8R
+  sourceIndexes:
+    - name:
+        en: Physalaemus angrensis
+        zh: Physalaemus angrensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF8R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/302
+            queryName: Physalaemus angrensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0f2d3c6a16
+      - s-84609533f7
+      - s-b4ba6c8922
+      - s-ac4d23d64d
+      - s-b1f2fe62c7
+      - s-88450900ad
+    zh:
+      - s-c717ae5843
+      - s-8eb6970c65
+      - s-f617a275da
+      - s-079a01b474
+      - s-7469f79b86
+      - s-f9c85d9a08

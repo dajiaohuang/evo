@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Allobates nidicola
+    name:
+      en: Allobates nidicola
+      zh: Allobates nidicola
+    sourceClassification:
+      order: Anura
+      family: Dendrobatoidea
+      genus: Allobates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-432cf9e160
+            part: body
+          zh:
+            page: zh
+            section: s-ba15fd7af8
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-00e86f921b
+            part: body
+          zh:
+            page: zh
+            section: s-b6042ab12e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 115, 116; Reference.csv rows 3463
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 115
+        values:
+          - Dendrobatoidea
+          - Allobates
+          - Allobates nidicola
+          - M
+          - "19.6"
+          - "7.5"
+          - "6.7"
+          - "2.7"
+          - "1.1"
+          - NA
+          - "4.6"
+          - "2.7"
+          - NA
+          - "2.1"
+          - "3.5"
+          - NA
+          - "4.5"
+          - "4.4"
+          - NA
+          - NA
+          - NA
+          - "8.5"
+          - "7.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 116
+        values:
+          - Dendrobatoidea
+          - Allobates
+          - Allobates nidicola
+          - F
+          - "20.2"
+          - "7.7"
+          - "6.7"
+          - "2.7"
+          - "1"
+          - NA
+          - "4.7"
+          - "2.8"
+          - NA
+          - "2.1"
+          - "3.7"
+          - NA
+          - "4.3"
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - "8.5"
+          - "7.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3463
+        values:
+          - Anura
+          - Allobates_nidicola
+          - "Caldwell, J., & Lima, A. (2003). A new Amazonian species of Colostethus (Anura: Dendrobatidae) with a nidicolous tadpole. Herpetologica, 59, 219-234. https://doi.org/10.1655/0018-0831(2003)059[0219:ANASOC]2.0.CO;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

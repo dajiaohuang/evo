@@ -1,0 +1,62 @@
+## Accepted name and placement {#s-7775fbe05b}
+COL26.8 accepts Caecilia tentaculata Linnaeus, 1758 as a species. Its recorded classification places it along Gymnophiona (order) → Caeciliidae (family) → Caecilia (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-692138808f}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Foraging strata — AmphiBIO source {#s-30f51763b6}
+Historical source concept: Caecilia tentaculata, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags fossorial; terrestrial; aquatic as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Seasonal activity — AmphiBIO source {#s-d14b899053}
+Historical source concept: Caecilia tentaculata, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags dry and warm as present categories. Seasonal categories compare conditions during activity with the local annual climate; they are not fixed calendar months worldwide.
+
+## Compiled adult dimensions — AmphiBIO source {#s-ea93fb56db}
+Historical source concept: Caecilia tentaculata, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum adult body length: 987 mm. Body length means snout–vent length for Anura and total length for Caudata and Gymnophiona. These are compiled maximum adult values, not measurements of every individual.
+
+## Compiled life history — AmphiBIO source {#s-8cf07df11e}
+Historical source concept: Caecilia tentaculata, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum reproductive events per year: 1 events/year. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+
+## Related source records and datasets {#s-54d809b880}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Caecilia tentaculata](../../../../../../../../../../../../../topics/research/AmphiBIO/Gymnophiona/Caeciliidae/Caecilia/Caecilia_tentaculata/page.en.md)
+- [CaecilianTraits v4: Caecilia tentaculata](../../../../../../../../../../../../../topics/research/CaecilianTraits/Caeciliidae/Caecilia/Caecilia_tentaculata/page.en.md)
+- [Amphibian morphology v3: Caecilia tentaculata](../../../../../../../../../../../../../topics/research/AmphibianMorphology/Gymnophiona/Caeciliidae/Caecilia/Caecilia_tentaculata/page.en.md)
+- [AmphiBIO v1: Caecilia pressula](../../../../../../../../../../../../../topics/research/AmphiBIO/Gymnophiona/Caeciliidae/Caecilia/Caecilia_pressula/page.en.md)
+
+## Measurement material — CaecilianTraits source {#s-a5f0d087fe}
+Deposited source concept: Caecilia tentaculata, in CaecilianTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The source contains 25 measurement rows for this source concept: 20 individual rows, 5 population rows, 0 species rows. Row count is not an estimate of population size or a count of unique specimens. Original specimen identifiers, sex codes and references are retained per row. Fresh, preserved and summary measurements must be distinguished before comparing body dimensions.
+
+## Compiled habitat categories — CaecilianTraits source {#s-afa4c03785}
+Deposited source concept: Caecilia tentaculata, in CaecilianTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The source classifies its broad habitat as Terrestrial and its microhabitat as Fossorial. These categorical labels summarize the compilation and do not specify the frequency of habitat use or a complete geographic range.
+
+## Compiled anatomical counts — CaecilianTraits source {#s-e462cfd2f0}
+Deposited source concept: Caecilia tentaculata, in CaecilianTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The species-level row reports primary fold count: 124.6; secondary fold count: 35.6; annuli interrupted by the vent: 2.2. These are deposited species-level values, which may be summaries rather than integer measurements of one animal; they do not establish invariant diagnostic counts for every individual.
+
+## Sex-specific measurement material — Amphibian morphology source {#s-81e452397e}
+Deposited source concept: Caecilia tentaculata, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 1 rows and 11 populated trait columns for this source concept. Recorded sex codes are NA: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
+
+## Deposited annulus counts — Amphibian morphology source {#s-1bf72946a5}
+Deposited source concept: Caecilia tentaculata, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The deposited rows report row 28 (NA): annuli counted dorsally 119.7. F/M denote recorded female/male categories, J juvenile material and NA unspecified sex. These compiled row values can include summaries and do not establish fixed diagnostic counts for every individual. Dorsal, ventral and post-vent counts remain distinct; missing fields are not zero.
+
+## Regional occurrence cells retain their evidence sources {#s-5be6ec6257}
+Supplementary S3 Table lists source-labelled Caecilia tentaculata as follows: Carajás Mosaic: MPEG collection data and literature records (codes 2,3); Ourilândia do Norte/São Félix do Xingu: literature records (codes 3). The numbers identify record source, not specimen counts, abundance classes or habitat scores. A blank area cell is absence from this compiled table, not demonstrated biological absence. The inventory combines September2021–September2022 expeditions in three surrounding areas with historical museum and literature material, so these rows cannot all be dated to the project’s recent fieldwork or certified as current occupancy. Each accepted-name match is a candidate link to frozen COL26.8, not an independently inspected voucher or certified taxonomic-concept equivalence.
+
+## Compiled habitat and threat labels are bounded descriptions {#s-2de8479b49}
+The Caecilia tentaculata row prints habitat F,O and IUCN LC. The source defines F as forest, O as open vegetation and Pa as perianthropic; these are compiled habitat categories, not measured habitat preference, breeding-site selection or demonstrated tolerance of pollution/mining. The printed F Pa spacing in some rows is retained without silently substituting a different classification. LC means the source’s Least Concern label, DD Data Deficient, and a dash remains an unassigned table status rather than a certified absence of threats. The table does not provide an assessment date for each species, and these labels are not a current IUCN refresh. They do not measure local population change or the effectiveness of protected areas.
+
+## Unequal field, museum and genetic effort limits interpretation {#s-c307afd078}
+S5 File Table1 reports zero project expeditions and sampling days in Carajás Mosaic; its richness derives from other sources, including more than3,500 available amphibian vouchers and six incorporated surveys. The other areas each have two expeditions, with19 days for Conceição,19 for Ourilândia/São Félix and23 for São Geraldo. These are aggregate effort summaries, not this species’ independent encounter counts. Museum, literature and genetic species totals overlap and must not be summed as unique richness. The regional barcode library covers only part of the amphibian inventory; inclusion in S3 Table does not by itself establish a barcode, recorded call or successful phylogenetic diagnosis for this row. Qualifiers cf., aff., gr. and sp. on other rows remain unresolved rather than being stripped to accepted species.
+
+## catalogue-profile / limitations {#s-f38d2d1ad7}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-f325484657}
+Supplementary S3 Table lists source-labelled Caecilia tentaculata as follows: Carajás Mosaic: MPEG collection data and literature records (codes 2,3); Ourilândia do Norte/São Félix do Xingu: literature records (codes 3). The numbers identify record source, not specimen counts, abundance classes or habitat scores. A blank area cell is absence from this compiled table, not demonstrated biological absence. The inventory combines September2021–September2022 expeditions in three surrounding areas with historical museum and literature material, so these rows cannot all be dated to the project’s recent fieldwork or certified as current occupancy. Each accepted-name match is a candidate link to frozen COL26.8, not an independently inspected voucher or certified taxonomic-concept equivalence.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-85d701f4ed}
+The Caecilia tentaculata row prints habitat F,O and IUCN LC. The source defines F as forest, O as open vegetation and Pa as perianthropic; these are compiled habitat categories, not measured habitat preference, breeding-site selection or demonstrated tolerance of pollution/mining. The printed F Pa spacing in some rows is retained without silently substituting a different classification. LC means the source’s Least Concern label, DD Data Deficient, and a dash remains an unassigned table status rather than a certified absence of threats. The table does not provide an assessment date for each species, and these labels are not a current IUCN refresh. They do not measure local population change or the effectiveness of protected areas.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-2ea21a1929}
+S5 File Table1 reports zero project expeditions and sampling days in Carajás Mosaic; its richness derives from other sources, including more than3,500 available amphibian vouchers and six incorporated surveys. The other areas each have two expeditions, with19 days for Conceição,19 for Ourilândia/São Félix and23 for São Geraldo. These are aggregate effort summaries, not this species’ independent encounter counts. Museum, literature and genetic species totals overlap and must not be summed as unique richness. The regional barcode library covers only part of the amphibian inventory; inclusion in S3 Table does not by itself establish a barcode, recorded call or successful phylogenetic diagnosis for this row. Qualifiers cf., aff., gr. and sp. on other rows remain unresolved rather than being stripped to accepted species.
+

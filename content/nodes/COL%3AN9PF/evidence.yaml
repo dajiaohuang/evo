@@ -1,0 +1,401 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Breviceps namaquensis Power, 1926
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Breviceps namaquensis
+      zh: Breviceps namaquensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a9763df0c7
+            part: title
+          zh:
+            page: zh
+            section: s-92ed522873
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a9763df0c7
+            part: body
+          zh:
+            page: zh
+            section: s-92ed522873
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8728f7cb36
+            part: title
+          zh:
+            page: zh
+            section: s-f25f67bde5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8728f7cb36
+            part: body
+          zh:
+            page: zh
+            section: s-f25f67bde5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-94b5a5d9df
+            part: title
+          zh:
+            page: zh
+            section: s-0504329e89
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-94b5a5d9df
+            part: body
+          zh:
+            page: zh
+            section: s-0504329e89
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b4157f9d7c
+            part: title
+          zh:
+            page: zh
+            section: s-363feee1ae
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-b4157f9d7c
+            part: body
+          zh:
+            page: zh
+            section: s-363feee1ae
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3ad546122b
+            part: title
+          zh:
+            page: zh
+            section: s-b45e683df3
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_cold
+        text:
+          en:
+            page: en
+            section: s-3ad546122b
+            part: body
+          zh:
+            page: zh
+            section: s-b45e683df3
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7fb936b746
+            part: title
+          zh:
+            page: zh
+            section: s-af9be5c023
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-7fb936b746
+            part: body
+          zh:
+            page: zh
+            section: s-af9be5c023
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-11fa0a5388
+            part: title
+          zh:
+            page: zh
+            section: s-cf93144ce4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-11fa0a5388
+            part: body
+          zh:
+            page: zh
+            section: s-cf93144ce4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-41d99cd8fc
+            part: title
+          zh:
+            page: zh
+            section: s-a5b1e24c57
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-41d99cd8fc
+            part: body
+          zh:
+            page: zh
+            section: s-a5b1e24c57
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6442ebe7ef
+            part: title
+          zh:
+            page: zh
+            section: s-046ad220fc
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-6442ebe7ef
+            part: body
+          zh:
+            page: zh
+            section: s-046ad220fc
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-01be9d0ad2e33be47c1b79de97a6a54b
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-c154f6684c8c8c40c78eaef8
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9a3b8e406b
+            part: title
+          zh:
+            page: zh
+            section: s-1f717a6b2d
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9a3b8e406b
+            part: body
+          zh:
+            page: zh
+            section: s-1f717a6b2d
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Breviceps namaquensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/N9PF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0327; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0327 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 881; Reference.csv rows 156
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-93ccf8c318
+        part: body
+      zh:
+        page: zh
+        section: s-3e6f1fcec1
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-01be9d0ad2e33be47c1b79de97a6a54b
+      sourceRowId: Anf0327
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0327
+        bibliographyRowId: Anf0327
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Breviceps namaquensis
+        candidateBibliographyRowIds:
+          - Anf0327
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-c154f6684c8c8c40c78eaef8
+        scientificName: Breviceps namaquensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis nigrogriseus
+  displayName: Pristimantis nigrogriseus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJS
+  sourceIndexes:
+    - name:
+        en: Pristimantis nigrogriseus
+        zh: Pristimantis nigrogriseus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/440
+            queryName: Pristimantis nigrogriseus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/140
+            queryName: Eleutherodactylus nigrogriseus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/345
+            queryName: Pseudohyla nigrogrisea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-56338e6a59
+      - s-26798da1c3
+      - s-bfca066e0f
+      - s-7e2762530c
+      - s-0c0bfdb96f
+      - s-5e28816bc1
+      - s-06baa6374d
+      - s-b8717bf623
+      - s-28c2ecbc52
+      - s-e84c2cd7b9
+      - s-2d411113a0
+      - s-992b00f140
+      - s-e12be60771
+      - s-2d154cd7ae
+      - s-a49deb9a76
+      - s-6e5c11b521
+      - s-8c01d91142
+    zh:
+      - s-63373f7835
+      - s-081d92123f
+      - s-0e9de4e8a3
+      - s-9bb5fb8c75
+      - s-03b7a225c4
+      - s-1ef7947fa6
+      - s-0d20be43aa
+      - s-a2ff18394b
+      - s-a55f154a8f
+      - s-4b3b3ffb99
+      - s-d738ad0ee6
+      - s-86ef80717e
+      - s-e4527cecc8
+      - s-46bb21d3ff
+      - s-4588aacb14
+      - s-028035a0b3
+      - s-b75364f61f

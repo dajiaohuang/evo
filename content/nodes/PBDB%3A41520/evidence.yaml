@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Protospermophilus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Protospermophilus
+      en: Protospermophilus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-24290d0461
+            part: body
+          en:
+            page: en
+            section: s-85a99f9213
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c145c9ea66
+            part: body
+          en:
+            page: en
+            section: s-cd1943ec33
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Protospermophilus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=41520
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:41520
+          readingTargets:
+            - name: Protospermophilus minimus
+              pbdbTaxonId: txn:520163
+              canonicalPath: content/nodes/PBDB%3A520163
+            - name: Protospermophilus vortmani
+              pbdbTaxonId: txn:51503
+              canonicalPath: content/nodes/PBDB%3A51503
+            - name: Protospermophilus kelloggi
+              pbdbTaxonId: txn:51099
+              canonicalPath: content/nodes/PBDB%3A51099
+            - name: Protospermophilus malheurensis
+              pbdbTaxonId: txn:51488
+              canonicalPath: content/nodes/PBDB%3A51488
+            - name: Protospermophilus angusticeps
+              pbdbTaxonId: txn:51477
+              canonicalPath: content/nodes/PBDB%3A51477
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-27bc55b1bc
+        part: body
+      en:
+        page: en
+        section: s-4f70ce23a2
+        part: body

@@ -1,0 +1,439 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hapalemur I. Geoffroy Saint-Hilaire, 1851
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: 竹狐猴属
+      en: Bamboo Lemurs
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-adb9ae3c4c
+            part: body
+          en:
+            page: en
+            section: s-0c08f2504f
+            part: body
+        sourceIds:
+          - taxonomy
+          - taxonomy_prolemur
+          - fausser2002
+          - yamashita2010
+          - eppley2011
+          - mutschler2001
+          - patel2008
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-8bc304a2a7
+            part: body
+          en:
+            page: en
+            section: s-bf1db9b47d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-1e633fdd47
+            part: body
+          en:
+            page: en
+            section: s-c866d49f02
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-c3fe6ae8e5
+            part: body
+          en:
+            page: en
+            section: s-aba4add518
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-c947edb66a
+            part: body
+          en:
+            page: en
+            section: s-c0c4853e4c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-4560887635
+            part: body
+          en:
+            page: en
+            section: s-12fb5e765d
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-75ba9c8223
+            part: body
+          en:
+            page: en
+            section: s-2d9b7b541c
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-f8246496bc
+            part: body
+          en:
+            page: en
+            section: s-87ff97d5c2
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-427aea18b8
+            part: body
+          en:
+            page: en
+            section: s-b9749f1a47
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Hapalemur
+          url: https://www.checklistbank.org/dataset/316115/taxon/6363J
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: taxonomy_prolemur
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Prolemur
+          url: https://www.checklistbank.org/dataset/316115/taxon/6WMC
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: fausser2002
+        referenceId: ref-30269060-4c51-897c-aa06-8465f690c9fc
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 115 只动物、六次调查和论文当时的样本分类；不替代 COL26.8 的当前接受种列表。
+            en: Supports the 115 animals, six surveys and sample taxonomy used by the paper; it does not replace the current COL26.8 accepted-species list.
+      - id: yamashita2010
+        referenceId: ref-84609833-521f-8eaf-aa92-f8c1b0bf8a29
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Ranomafana 三种同域类群的有限样品检测；不支持全属的食性或生理概述。
+            en: Supports limited sample tests of three sympatric taxa at Ranomafana; not a genus-wide diet or physiology account.
+      - id: eppley2011
+        referenceId: ref-0449a488-af56-8131-a251-f37758a60223
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Mandena 单地冬季取食样本；不代表全属生态。
+            en: Supports a winter feeding sample at Mandena only; not genus-wide ecology.
+      - id: mutschler2001
+        referenceId: ref-a2276cf4-c15f-82b5-af6f-9199d50408f7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Alaotra 1994/1999 历史舟行调查方法与估算边界。
+            en: Supports the methods and estimate boundaries of the historical 1994/1999 canoe surveys at Alaotra.
+      - id: patel2008
+        referenceId: ref-77f7959c-ecae-85bd-a512-c5f115793489
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Masoala 半岛 Fampotobe 的短期单群体观察；不代表全属生态。
+            en: Supports short single-group observations at Fampotobe on the Masoala Peninsula; not genus-wide ecology.
+      - id: overdorff1997
+        referenceId: ref-d1fe1e38-07b0-8f87-a8f2-05335ddcbfb5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Seasonal observations of one wild group in southeastern Madagascar, 1994–1996.
+            zh: 1994–1996 年对马达加斯加东南部一个野生群体的季节观察。
+      - id: grassi2006
+        referenceId: ref-5c8b05df-efae-86de-aeab-f4ab26887a9c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Comparison of three groups at two sites in Ranomafana; local findings.
+            zh: Ranomafana 两处地点三群比较；结果为局地发现。
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Hapalemur by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 4 authored same-name records placed under Hapalemur by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 4 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 4
+            foraging: 4
+            activity: 4
+          readingTargets:
+            - name: Hapalemur alaotrensis
+              colId: 3JK9Y
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3JK9Y
+            - name: Hapalemur occidentalis
+              colId: 6LBH8
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6LBH8
+            - name: Hapalemur griseus
+              colId: 6LC7M
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6LC7M
+            - name: Hapalemur aureus
+              colId: 3JK9Z
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3JK9Z
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 1 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 3JK9Z
+              name: Hapalemur aureus
+              canonicalPath: content/nodes/COL%3A3JK9Z
+          fieldAccountCounts:
+            gestation(mo): 0
+            newborn(g): 0
+            weaning(mo): 0
+            wean mass(g): 0
+            AFR(mo): 0
+            max. life(mo): 0
+            litter size: 0
+            litters/year: 1
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-f116886ace
+        part: body
+      en:
+        page: en
+        section: s-faf522e9cc
+        part: body

@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Conraua crassipes
+  displayName: Conraua crassipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/XV4X
+  sourceIndexes:
+    - name:
+        en: Conraua crassipes
+        zh: Conraua crassipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: XV4X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/419
+            queryName: Conraua crassipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/239
+            queryName: Rana crassipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/240
+            queryName: Rana perpalmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/241
+            queryName: Paleorana crassipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/242
+            queryName: Paleorana perpalmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/24
+            queryName: Conraua crassipes crassipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2e95dcff39
+      - s-743d78e456
+      - s-1a947db9a5
+      - s-f1973ffc6b
+      - s-bea9758e69
+      - s-3a5966fbec
+      - s-bab1eecf39
+      - s-d9f93acebd
+      - s-b8ea963298
+      - s-5de1829d19
+      - s-7eba1b5e81
+      - s-7eda13194b
+      - s-3148e19d6f
+      - s-049b7da020
+    zh:
+      - s-4274116aea
+      - s-0dc786dfde
+      - s-6188d00e6a
+      - s-e7b987daf8
+      - s-b280019754
+      - s-31bef738a5
+      - s-1b73f85cf4
+      - s-a39e1b3a02
+      - s-11db000dce
+      - s-5b7143b0d2
+      - s-2a20cd9fb8
+      - s-335e508cea
+      - s-29cf5d16ec
+      - s-2efd527f93

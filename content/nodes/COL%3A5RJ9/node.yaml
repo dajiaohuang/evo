@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microcaecilia
+  displayName: Microcaecilia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5RJ9
+  sourceIndexes:
+    - name:
+        en: Microcaecilia
+        zh: Microcaecilia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5RJ9
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/51
+            queryName: Microcaecilia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 124
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8e6ab3a3be
+      - s-370c84210f
+      - s-75997e8725
+      - s-35a91afc0f
+      - s-7bb79b7f05
+      - s-e8a65d93c5
+      - s-c5ee2f7540
+      - s-1346b74d5c
+      - s-8c116413a4
+      - s-16766d105d
+      - s-e0fde056f7
+      - s-ed4e8ff419
+      - s-366e0186b6
+      - s-3f16bb3e2d
+      - s-f98b7ef5b5
+    zh:
+      - s-0148da41b9
+      - s-616d5436b1
+      - s-42c50faf64
+      - s-7b23c7252a
+      - s-ad150ccdc4
+      - s-6653ece573
+      - s-493de545a9
+      - s-03f915f73f
+      - s-aa715e790d
+      - s-354b9952fd
+      - s-73d5f4de14
+      - s-fdac6f13be
+      - s-c1cf8d7b6e
+      - s-a354a6f288
+      - s-96c0fb5a4a

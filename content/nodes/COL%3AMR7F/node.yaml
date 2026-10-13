@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys wushanensis
+  displayName: Boulenophrys wushanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MR7F
+  sourceIndexes:
+    - name:
+        en: Boulenophrys wushanensis
+        zh: Boulenophrys wushanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MR7F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/388
+            queryName: Boulenophrys wushanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/269
+            queryName: Xenophrys wushanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/421
+            queryName: Megophrys wushanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/319
+            queryName: Panophrys wushanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7371e664e
+      - s-e544b09e17
+      - s-d2d3cf85df
+      - s-41b76d929e
+      - s-42bb2ca3bd
+      - s-1bbb9dbeda
+      - s-8de8d68e0a
+      - s-920111c037
+      - s-d745741ff0
+      - s-55a4b3970e
+      - s-4978f5275b
+      - s-3f324ebf78
+      - s-3736fb2733
+    zh:
+      - s-4d78f263fc
+      - s-c45d89d27d
+      - s-8d97d5bae0
+      - s-e54656be5e
+      - s-0ae8340ed9
+      - s-d77dfd5785
+      - s-f67a9c9f90
+      - s-179c870be5
+      - s-d5b12ff33a
+      - s-050e821b13
+      - s-72422ac271
+      - s-c5532c30ab
+      - s-0408380886

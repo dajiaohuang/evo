@@ -1,0 +1,202 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella diptycha
+  displayName: Rhinella diptycha
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7MX
+  sourceIndexes:
+    - name:
+        en: Rhinella diptycha
+        zh: Rhinella diptycha
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7MX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/316
+            queryName: Rhinella diptycha
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 56
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/380
+            queryName: Bufo diptychus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/410
+            queryName: Bufo paracnemis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 80
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/418
+            queryName: Bufo schneideri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/346
+            queryName: Bufo jimi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/20
+            queryName: Rhinella jimi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 72
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/22
+            queryName: Rhinella schneideri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 86
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/185
+            queryName: Chaunus schneideri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/319
+            queryName: Bufo marinus paracnemis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/410
+            queryName: Bufo pisanoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/411
+            queryName: Chaunus diptychus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/447
+            queryName: Chaunus jimi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c542eab663
+      - s-4b3d10a7e9
+      - s-95a5eaf7bc
+      - s-d0ae1916fb
+      - s-04b41b8f35
+      - s-23e9fe6525
+      - s-78f3188f55
+      - s-7189f987c5
+      - s-e0f52bd88b
+      - s-6947595a7a
+      - s-1b25f40ea9
+      - s-397cdb3f14
+      - s-4ab39f8d1b
+      - s-117e165f74
+      - s-9252e47f3d
+      - s-36119eb562
+      - s-2d84e30c15
+      - s-36c22d83b6
+      - s-8ff118c589
+      - s-8f0e9b741f
+      - s-7ef3bff55b
+      - s-2b37f10f9b
+      - s-4ce7b0955b
+      - s-91737dc4b8
+      - s-9446006e54
+      - s-e56ba5b45d
+      - s-9a61d18add
+      - s-b8b3623350
+      - s-f522593db7
+      - s-849f11714b
+      - s-00e71f8f82
+      - s-5828d9b37c
+      - s-e2656e9138
+      - s-45cb31cab1
+      - s-4f08f0dc19
+      - s-8e618e4e73
+      - s-786906d1bf
+      - s-059b73a9c6
+      - s-9862538ffd
+      - s-dcc9a67d5b
+      - s-9c078df1c5
+      - s-2e3388b1ff
+      - s-d3a84f72ff
+      - s-9d959573fd
+      - s-e225e7da12
+      - s-e7b0f3fece
+      - s-6f718cd313
+      - s-01744f7cd9
+    zh:
+      - s-ebaeeb2544
+      - s-f7d535ad54
+      - s-10bde9c957
+      - s-3e3aa6e824
+      - s-8c4811eaf6
+      - s-d5ae55ac8b
+      - s-55eaac57dc
+      - s-5d38e078e6
+      - s-50bbc6d949
+      - s-57c5662866
+      - s-e04fe150e0
+      - s-c7eacedfc0
+      - s-9055fdc2e8
+      - s-8a15b5dee6
+      - s-e6c0e10d54
+      - s-18545863e8
+      - s-2045f6d067
+      - s-3b548b0405
+      - s-8ebe05df93
+      - s-8d9c1af432
+      - s-b5511f0e89
+      - s-427a1a7db9
+      - s-1237455d5c
+      - s-f1279e49b1
+      - s-988a31d01e
+      - s-2f06b12b30
+      - s-52947b3ae5
+      - s-a2b34b63f1
+      - s-6e1f57539e
+      - s-5153aa43d1
+      - s-d9f14f5aa7
+      - s-3f5b6e4be0
+      - s-06dc380c15
+      - s-28a87641f2
+      - s-d8ac23d09c
+      - s-abe70bd342
+      - s-07f24fdfad
+      - s-23ce489f78
+      - s-d77d29d1dc
+      - s-5dc93e5ee0
+      - s-c28df7a06f
+      - s-a969bb1de4
+      - s-2c7bf672cc
+      - s-0b2cd07352
+      - s-be118b4567
+      - s-76fb037d41
+      - s-ebe5f7a20e
+      - s-e3c739699f

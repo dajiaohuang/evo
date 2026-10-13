@@ -1,0 +1,123 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    readerSummary:
+      page: en
+      section: s-e25404cd4a
+      part: body
+    readerSummaryZh:
+      page: zh
+      section: s-62654220c5
+      part: body
+    scientificName: Neurospora crassa Shear & B.O. Dodge
+    rank: species
+    sourceDatasetId: "2073"
+    identity:
+      method: Exact COL26.8 accepted usage, verbatim scientific name including authorship, rank, status, sourceDatasetId, and Fungi classification were checked in the pinned registry release.
+      scope: Nominal accepted usage 47BC7. Biological evidence is limited to one 2025 controlled substrate-decay study and does not describe all natural populations or the complete species concept.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The cited experiment used controlled single-strain microcosms with sterilized plant substrates; it does not establish wild population performance.
+      domesticated: No domestication or cultivation history is assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 28
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; underlying fungal source dataset 2073
+          url: https://www.checklistbank.org/dataset/316115/taxon/47BC7
+          stableId: col:47BC7@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage 47BC7; name and authorship; rank species; sourceDatasetId 2073; Fungi classification
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, status, sourceDatasetId, and classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 47BC7. https://doi.org/10.48580/dgywk
+      - id: simpsonSchilling2025
+        referenceId: ref-889b5c8a-51f1-838f-a6b9-c071b8e8dca9
+        fields:
+          - id
+          - title
+          - url
+          - rightsEvidenceUrl
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text under CC BY 4.0; no figures or third-party material are reproduced.
+          stableId: doi:10.1111/1462-2920.70132
+          rightsEvidenceUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC12186714/
+          accessedAt: 2026-09-24
+          locator: Abstract; Experimental Procedures, sections 2.1–2.2; Results on mass loss of wood and grass substrates
+          licenseAssessment: item-level-verified
+          scope: Original controlled substrate-decay study; only the named N. crassa strain and tested microcosm substrates are described.
+          attribution: Simpson HJ, Schilling JS (2025). Saprotrophic Capabilities of Neurospora crassa on Charred Plant Biomass. Environmental Microbiology 27(6):e70132. https://doi.org/10.1111/1462-2920.70132. Claims paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+        gaps:
+          - The cited study does not provide a species-level morphological assessment.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - The microcosm study does not assess reproduction or a complete developmental life history.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In controlled assays, N. crassa did not show enhanced decay of pyrolyzed wood or grass relative to the tested non-fire-associated fungi; it degraded untreated grass substrates by more than 20% mass loss but struggled to degrade wood, with less than 6% mass loss. These are results for the tested strain and lab microcosms, not measurements of its field performance after fires.
+            originalLanguage: en
+            sourceIds:
+              - simpsonSchilling2025
+            locator: Abstract; Results, decay mass loss for wood and grass substrates; Experimental Procedures, single-strain microcosm design
+            placeTimeScope: Laboratory microcosm assays using untreated and pyrolyzed substrates, including 225°C and 350°C heat treatments; the claim is limited to the study's experimental conditions.
+            lifeStatus: A controlled cultured strain was assessed; the study does not characterize wild population abundance, seasonal activity, or field colonization.
+        gaps:
+          - The article tests substrate decay in controlled microcosms; natural post-fire colonization, population dynamics, broader substrate use, and interactions in field communities remain unassessed.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level evolutionary or population-genomic analysis is used for this dossier.
+      distribution:
+        status: not-assessed
+        gaps:
+          - The experiment is not a georeferenced distribution survey.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil or paleontological search was performed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No formal conservation assessment or population-trend review was performed.

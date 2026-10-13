@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Regalerpeton weichangensis
+    rank: species
+    sourceTaxonId: txn:156378
+    name:
+      en: Regalerpeton weichangensis
+      zh: Regalerpeton weichangensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-5f803435fb
+            part: body
+          zh:
+            page: zh
+            section: s-2dd594c1e4
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 3 PBDB occurrence rows and collection fields
+          zh: 3 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-d93cf4690a
+            part: body
+          zh:
+            page: zh
+            section: s-4efee8dd6e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Regalerpeton weichangensis
+          zh: Regalerpeton weichangensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-e225531ffd
+            part: body
+          zh:
+            page: zh
+            section: s-a156df77a7
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:156378; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: G. Zhang, Y. Wang, and M. E. H. Jones, S. E. Evans. 2009. A new Early Cretaceous salamander (Regalerpeton weichangensis gen. et sp. nov.) from the Huajiying Formation of northeastern China. Cretaceous Research 30(3):551-558
+    occurrenceEvidence:
+      - occurrenceId: occ:831965
+        collectionId: col:92074
+        acceptedTaxonId: txn:156378
+        identifiedName: Regalerpeton weichangensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30990
+        bibliography: G. Zhang, Y. Wang, and M. E. H. Jones, S. E. Evans. 2009. A new Early Cretaceous salamander (Regalerpeton weichangensis gen. et sp. nov.) from the Huajiying Formation of northeastern China. Cretaceous Research 30(3):551-558
+        locality:
+          countryCode: CN
+          stateProvince: Hebei
+          county: Weichang
+        stratigraphy:
+          group: null
+          formation: Huajiying
+          member: null
+        olderAgeMa: 125.77
+        youngerAgeMa: 113.2
+      - occurrenceId: occ:1403618
+        collectionId: col:193736
+        acceptedTaxonId: txn:156378
+        taxonomicDifference: null
+        referenceId: ref:65797
+        bibliography: "Y.-F. Rong. 2018. Restudy of Regalerpeton weichangensis (Amphibia: Urodela) from the Lower Cretaceous of Hebei, China. Vertebrata PalAsiatica 56(2):121-136"
+        locality:
+          countryCode: CN
+          stateProvince: Hebei
+          county: Weichang
+        stratigraphy:
+          group: null
+          formation: Dabeigou
+          member: null
+        olderAgeMa: 132.6
+        youngerAgeMa: 125.77
+      - occurrenceId: occ:1403619
+        collectionId: col:193737
+        acceptedTaxonId: txn:156378
+        taxonomicDifference: null
+        referenceId: ref:65797
+        bibliography: "Y.-F. Rong. 2018. Restudy of Regalerpeton weichangensis (Amphibia: Urodela) from the Lower Cretaceous of Hebei, China. Vertebrata PalAsiatica 56(2):121-136"
+        locality:
+          countryCode: CN
+          stateProvince: Hebei
+          county: Weichang
+        stratigraphy:
+          group: null
+          formation: Dabeigou
+          member: null
+        olderAgeMa: 132.6
+        youngerAgeMa: 125.77
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Regalerpeton weichangensis
+          zh: Regalerpeton weichangensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-e225531ffd
+            part: body
+          zh:
+            page: zh
+            section: s-a156df77a7
+            part: body
+        sourceIds: []

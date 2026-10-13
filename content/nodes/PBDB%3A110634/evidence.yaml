@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Bufo hibbardi
+    rank: species
+    sourceTaxonId: txn:110634
+    name:
+      en: Bufo hibbardi
+      zh: Bufo hibbardi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-7fe0b340ec
+            part: body
+          zh:
+            page: zh
+            section: s-53c70606cc
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-e6eaf99658
+            part: body
+          zh:
+            page: zh
+            section: s-a619c4f723
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-20537f7cdc
+            part: body
+          zh:
+            page: zh
+            section: s-66c002d22d
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110634; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Estes and J. A. Tihen. 1964. Lower vertebrates from the Valentine Formation of Nebraska. American Midland Naturalist 72(2):453-472
+    occurrenceEvidence:
+      - occurrenceId: occ:286991
+        collectionId: col:18284
+        acceptedTaxonId: txn:110634
+        identifiedName: Bufo cf. hibbardi
+        taxonomicDifference: null
+        referenceId: ref:7565
+        bibliography: R. Estes and J. A. Tihen. 1964. Lower vertebrates from the Valentine Formation of Nebraska. American Midland Naturalist 72(2):453-472
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Brown
+        stratigraphy:
+          group: Ogallala
+          formation: Valentine
+          member: Cornell Dam
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:287355
+        collectionId: col:18165
+        acceptedTaxonId: txn:110634
+        identifiedName: Bufo cf. hibbardi
+        taxonomicDifference: null
+        referenceId: ref:7565
+        bibliography: R. Estes and J. A. Tihen. 1964. Lower vertebrates from the Valentine Formation of Nebraska. American Midland Naturalist 72(2):453-472
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Cherry
+        stratigraphy:
+          group: null
+          formation: Valentine
+          member: Crookston Bridge
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:288104
+        collectionId: col:18225
+        acceptedTaxonId: txn:110634
+        identifiedName: Bufo cf. hibbardi
+        taxonomicDifference: null
+        referenceId: ref:7579
+        bibliography: D. Parmley. 1992. Frogs in Hemphillian deposits of Nebraska, with the description of a new species of Bufo. Journal of Herpetology 26(3):274-281
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Keith
+        stratigraphy:
+          group: null
+          formation: Ash Hollow
+          member: null
+        olderAgeMa: 9.4
+        youngerAgeMa: 4.7
+      - occurrenceId: occ:288810
+        collectionId: col:18450
+        acceptedTaxonId: txn:110634
+        taxonomicDifference: null
+        referenceId: ref:7593
+        bibliography: "J. A. Holman. 1975. Herpetofauna of the WaKeeney local fauna (lower Pliocene: Clarendonian) of Trego County, Kansas. University of Michigan Papers on Paleontology 12:49-66"
+        locality:
+          countryCode: US
+          stateProvince: Kansas
+          county: Trego
+        stratigraphy:
+          group: null
+          formation: Ogallala
+          member: null
+        olderAgeMa: 12.5
+        youngerAgeMa: 9.4
+      - occurrenceId: occ:289377
+        collectionId: col:18141
+        acceptedTaxonId: txn:110634
+        identifiedName: Bufo cf. hibbardi
+        taxonomicDifference: null
+        referenceId: ref:705
+        bibliography: J. A. Holman. 1973. Reptiles of the Egelhoff local fauna (Upper Miocene) of Nebraska. Contributions from the Museum of Paleontology, University of Michigan 24(12):125-134
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Brown
+        stratigraphy:
+          group: Ogallala
+          formation: Valentine
+          member: Cornell Dam
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:1108129
+        collectionId: col:18208
+        acceptedTaxonId: txn:110634
+        identifiedName: Bufo (cf. Bufo) hibbardi
+        taxonomicDifference: variant of
+        referenceId: ref:781
+        bibliography: "M. R. Voorhies, J. A. Holman, and X.-X. Xu . 1987. The Hottell Ranch rhino quarries (basal Ogallala: medial Barstovian), Banner County, Nebraska. Part I: Geologic setting, faunal lists, lower vertebrates. Contributions to Geology, University of Wyoming 25(1):55-69"
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Banner
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:1425312
+        collectionId: col:18140
+        acceptedTaxonId: txn:110634
+        identifiedTaxonId: txn:379330
+        identifiedName: Bufo arenarius
+        taxonomicDifference: null
+        referenceId: ref:1842
+        bibliography: C. W. Hibbard. 1939. Notes on Additional Fauna of Edson Quarry of the Middle Pliocene of Kansas. Transactions of the Kansas Academy of Sciences 42:457-462
+        locality:
+          countryCode: US
+          stateProvince: Kansas
+          county: Sherman
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 9.4
+        youngerAgeMa: 4.7
+      - occurrenceId: occ:1425313
+        collectionId: col:18140
+        acceptedTaxonId: txn:110634
+        taxonomicDifference: null
+        referenceId: ref:1842
+        bibliography: C. W. Hibbard. 1939. Notes on Additional Fauna of Edson Quarry of the Middle Pliocene of Kansas. Transactions of the Kansas Academy of Sciences 42:457-462
+        locality:
+          countryCode: US
+          stateProvince: Kansas
+          county: Sherman
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 9.4
+        youngerAgeMa: 4.7
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-20537f7cdc
+            part: body
+          zh:
+            page: zh
+            section: s-66c002d22d
+            part: body
+        sourceIds: []

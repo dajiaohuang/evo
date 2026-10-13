@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus laticeps
+  displayName: Leptodactylus laticeps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN5L
+  sourceIndexes:
+    - name:
+        en: Leptodactylus laticeps
+        zh: Leptodactylus laticeps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN5L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/400
+            queryName: Leptodactylus laticeps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cfcefd123a
+      - s-773663b718
+      - s-25b04025e8
+      - s-6959c5c6de
+      - s-b362ce7943
+      - s-c03124f14b
+      - s-fc9f1a1685
+      - s-45631400c0
+      - s-3b19e44f1f
+      - s-8371187d86
+    zh:
+      - s-9c1174b698
+      - s-50b2d2965f
+      - s-9654930e50
+      - s-84f303f26d
+      - s-ca5cb9e866
+      - s-58a72b6bfc
+      - s-90e1217867
+      - s-9f37ae5441
+      - s-0216963964
+      - s-37d7050a4a

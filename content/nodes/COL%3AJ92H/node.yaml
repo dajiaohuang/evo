@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus reticulatus
+  displayName: Atelopus reticulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J92H
+  sourceIndexes:
+    - name:
+        en: Atelopus reticulatus
+        zh: Atelopus reticulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J92H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/312
+            queryName: Atelopus reticulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dd5fb4a15a
+      - s-72ddce905c
+      - s-310630b0c0
+      - s-d48e1232de
+      - s-acaf8fc884
+      - s-fb199f4313
+      - s-f586402457
+      - s-4fee7e5c71
+      - s-d771b950ec
+      - s-b2fec290fa
+      - s-f577a56475
+    zh:
+      - s-37a220ac79
+      - s-eec32f8701
+      - s-47f9697ef6
+      - s-07be0d3a5f
+      - s-e76f64c94d
+      - s-7ad3d0ebfb
+      - s-d5a0948c4d
+      - s-cf1958862c
+      - s-cd71d0c572
+      - s-82ad4aaf7e
+      - s-2d25ce9416

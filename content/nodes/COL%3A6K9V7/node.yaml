@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca aureomaculata
+  displayName: Gastrotheca aureomaculata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6K9V7
+  sourceIndexes:
+    - name:
+        en: Gastrotheca aureomaculata
+        zh: Gastrotheca aureomaculata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6K9V7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/20
+            queryName: Gastrotheca aureomaculata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/238
+            queryName: Gastrotheca mertensi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c57958542
+      - s-1de8bb01c3
+      - s-54d9f8e164
+      - s-721f771e93
+      - s-62cdbbc17e
+      - s-f249d3b9da
+      - s-79bd3a1fe4
+      - s-144cade7bd
+      - s-248d46dc8c
+    zh:
+      - s-a1537f0fc8
+      - s-9df67e5c16
+      - s-b3c24d4c3e
+      - s-edc5f78d49
+      - s-f3b7a2e24f
+      - s-80ce365933
+      - s-df728b63ce
+      - s-cd7789bc73
+      - s-ad143a528b

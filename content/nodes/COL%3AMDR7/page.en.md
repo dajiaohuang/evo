@@ -1,0 +1,86 @@
+## Accepted name and placement {#s-a0e36b9c5f}
+COL26.8 accepts Bolitoglossa occidentalis Taylor, 1941 as a species. Its recorded classification places it along Caudata (order) → Plethodontidae (family) → Bolitoglossa (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-ed1755ae73}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Recorded geographic labels {#s-43c3670979}
+The pinned ITIS source lists Middle America for Bolitoglossa occidentalis. The connection uses the exact ITIS TSN 208403 supplied by COL26.8, with the scientific name and authorship checked against the archived source Name row. These are textual geographic labels rather than precise range boundaries, local observation dates or population measurements. The distribution-status field is unspecified, so native versus introduced status cannot be assigned from these rows.
+
+## Foraging strata — AmphiBIO source {#s-374fd67986}
+Historical source concept: Bolitoglossa occidentalis, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags terrestrial; aquatic as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Activity periods — AmphiBIO source {#s-cf399c5066}
+Historical source concept: Bolitoglossa occidentalis, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags night as present categories. These are overall activity categories rather than a continuous behavioural time series.
+
+## Compiled adult dimensions — AmphiBIO source {#s-862a943ad9}
+Historical source concept: Bolitoglossa occidentalis, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum adult body length: 115 mm. Body length means snout–vent length for Anura and total length for Caudata and Gymnophiona. These are compiled maximum adult values, not measurements of every individual.
+
+## Compiled life history — AmphiBIO source {#s-320cc69bdd}
+Historical source concept: Bolitoglossa occidentalis, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum reproductive events per year: 1 events/year. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+
+## Developmental strategy — AmphiBIO source {#s-278caf2342}
+Historical source concept: Bolitoglossa occidentalis, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The deposited record flags direct development. These source categories do not by themselves describe parental care, breeding location or seasonal timing.
+
+## Related source records and datasets {#s-288cbd84d9}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Bolitoglossa occidentalis](../../../../../../../../../../../../../../topics/research/AmphiBIO/Caudata/Plethodontidae/Bolitoglossa/Bolitoglossa_occidentalis/page.en.md)
+
+## One named mitochondrial voucher in the chinanteca comparison {#s-fc0627c3d5}
+The methods sequenced occidentalis specimen MVZ 194259 for mitochondrial 16S and cytochrome b and compared it with other Nanotriton samples. The maximum-likelihood analysis recovered occidentalis and the newly described chinanteca as sisters with bootstrap support 99. This is a sampled maternal-gene relationship, not an independent genome-wide species tree, a test of all occidentalis populations or proof of current range-wide concept equivalence.
+
+## A high misclassification count in one reduced analysis {#s-d09e903896}
+In the female discriminant analysis based on three principal components, 23 of 46 assigned occidentalis individuals were classified as other groups: 12 as nympha and 11 as rufescens. The study also reported male–female differences in selected body measures and maxillary tooth counts. These sample results illustrate overlap under that analysis; they do not mean that 23 museum vouchers were formally reidentified or establish a universal diagnostic error rate. The name assignments retain the study’s geographical and prior-allozyme basis.
+
+## Two mitochondrial markers and one nuclear locus define this study {#s-e8c7b66865}
+The 2012 study combined fieldwork from 2005–2011 with museum tissues, reporting ninety-six individuals from fifty-seven localities across its studied Nanotriton sample. Alignments were 522 bases for 16S, 772 for cytochrome b and 481 for nuclear POMC. POMC alleles were computationally phased; two distinct alleles from one animal are not two independent animals. Separate mitochondrial and nuclear gene trees generally supported four named lineages, but neither an individual locus nor this historical sample certifies every contemporary population or catalogue concept. Contact-zone sampling found no cross-species POMC-allele pairs or mitochondrial–POMC assignment discordance; this is no detected hybrid signature, not proof that hybridization is impossible.
+
+## Geographic lineages and a rejected Honduras identification {#s-186cef1b0b}
+The sampled occidentalis mitochondrial tree contained geographically distinct groups from Pacific Chiapas/Guatemala, Caribbean-draining Sierra Madre de Chiapas, Sierra de los Chimalapas and other northern/central Chiapas sites. Maximum reported GTR distances were 0.043 for 16S and 0.10 for cytochrome b, involving different sample pairs and markers. Material near the historical bilineata type locality nested within occidentalis in mitochondrial and POMC analyses; the authors found no support for treating that sampled material as distinct. A Honduras Caribbean-side specimen previously called occidentalis was instead judged a juvenile of another subgenus. These are historical identification results, not permission to transfer every old record or to revise the pinned catalogue automatically.
+
+## An inferred Caribbean-draining origin remains sampling-dependent {#s-b57190a640}
+Phylomapper found a significant association of phylogenetic and geographic distances and estimated an ancestral location on the eastern side of Sierra Madre de Chiapas. Its estimate differed from the range centre (p = 0.045), with several tested alternatives less likely. AMOVA also supported structure among the sampled geographic populations. These analytical results do not directly observe an ancestor, identify an exact natal site or measure current dispersal speed. The authors explicitly note that additional populations on either side of the mountains could alter the inference. A present Pacific–Caribbean divide is not by itself proof of the initial speciation mechanism.
+
+## Plantation encounters do not demonstrate disturbance tolerance {#s-cc50aea3cb}
+The 2012 sampling overview describes many animals collected in banana trunks or coffee groves, with others in bromeliads, beneath cover or on vegetation at night. Those pooled encounters cover four studied species and are not a controlled occidentalis habitat-selection or land-use experiment. The source describes its historical range from extreme eastern Oaxaca toward Pacific Guatemala after excluding the questionable Honduras specimen. This is a study-bounded distribution interpretation, not a current complete map. Agricultural occurrence does not establish reproduction, survival or population stability in plantations.
+
+## One sequenced individual and a separate DNA-content estimate {#s-e59e521286}
+The study extracted liver DNA from one Bolitoglossa occidentalis specimen as part of a sixteen-species, three-genus comparison, targeting ten gigabases of short-read data per species. Repeat analysis randomly sampled merged reads at roughly 0.1-fold coverage. Table 1 gives a genome C-value estimate of 56.1 picograms, based on blood-smear densitometry and species means from earlier genome-size work. Picograms of DNA are not gigabases, body mass or a complete genome assembly; the sequenced individual and the species-mean DNA-content estimate have different evidence roles. The sample does not determine variation among sexes, populations or ages.
+
+## Detected repeat abundance is a method-dependent lower estimate {#s-1345b0fd31}
+Table 1 reports 58.6% detectable repeat abundance for Bolitoglossa occidentalis, including uncategorized repeats. Table 2 reports LTRs at 17.67%, and Table 3 separates ERV at 7.762% from Ty3/Gypsy at 9.906%. These are percentages of sampled bases identified by the study's repeat library, not percentages of animals, newly inserted elements or measured gene expression. Mutation can degrade repeats beyond recognition; the authors regard short-read masking as likely underestimating true repetitive content. Rounded table categories need not sum exactly, and uncategorized repeats should not be silently assigned to a known TE superfamily.
+
+## Repeat divergence suggests relative expansion histories {#s-555b2a46ec}
+The study places this species among four Bolitoglossa with ERV peaks at Kimura distances of 11–13, lower than the main peaks in the six larger-genome Bolitoglossa. Their Gypsy/Ty3 profiles have lower, broader peaks extending to smaller distances; rufescens has a reported additional low-distance peak. These are relative sequence-divergence histories, not absolute dates or direct observed insertion rates. The study could not distinguish element deletion from more effective silencing.
+
+## catalogue-profile / limitations {#s-25c483d334}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-bcee92e2f4}
+The methods sequenced occidentalis specimen MVZ 194259 for mitochondrial 16S and cytochrome b and compared it with other Nanotriton samples. The maximum-likelihood analysis recovered occidentalis and the newly described chinanteca as sisters with bootstrap support 99. This is a sampled maternal-gene relationship, not an independent genome-wide species tree, a test of all occidentalis populations or proof of current range-wide concept equivalence.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-5b1de1407c}
+In the female discriminant analysis based on three principal components, 23 of 46 assigned occidentalis individuals were classified as other groups: 12 as nympha and 11 as rufescens. The study also reported male–female differences in selected body measures and maxillary tooth counts. These sample results illustrate overlap under that analysis; they do not mean that 23 museum vouchers were formally reidentified or establish a universal diagnostic error rate. The name assignments retain the study’s geographical and prior-allozyme basis.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-3ffc48a56e}
+The 2012 study combined fieldwork from 2005–2011 with museum tissues, reporting ninety-six individuals from fifty-seven localities across its studied Nanotriton sample. Alignments were 522 bases for 16S, 772 for cytochrome b and 481 for nuclear POMC. POMC alleles were computationally phased; two distinct alleles from one animal are not two independent animals. Separate mitochondrial and nuclear gene trees generally supported four named lineages, but neither an individual locus nor this historical sample certifies every contemporary population or catalogue concept. Contact-zone sampling found no cross-species POMC-allele pairs or mitochondrial–POMC assignment discordance; this is no detected hybrid signature, not proof that hybridization is impossible.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-800f7bd3b3}
+The sampled occidentalis mitochondrial tree contained geographically distinct groups from Pacific Chiapas/Guatemala, Caribbean-draining Sierra Madre de Chiapas, Sierra de los Chimalapas and other northern/central Chiapas sites. Maximum reported GTR distances were 0.043 for 16S and 0.10 for cytochrome b, involving different sample pairs and markers. Material near the historical bilineata type locality nested within occidentalis in mitochondrial and POMC analyses; the authors found no support for treating that sampled material as distinct. A Honduras Caribbean-side specimen previously called occidentalis was instead judged a juvenile of another subgenus. These are historical identification results, not permission to transfer every old record or to revise the pinned catalogue automatically.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-9d6403d8a1}
+Phylomapper found a significant association of phylogenetic and geographic distances and estimated an ancestral location on the eastern side of Sierra Madre de Chiapas. Its estimate differed from the range centre (p = 0.045), with several tested alternatives less likely. AMOVA also supported structure among the sampled geographic populations. These analytical results do not directly observe an ancestor, identify an exact natal site or measure current dispersal speed. The authors explicitly note that additional populations on either side of the mountains could alter the inference. A present Pacific–Caribbean divide is not by itself proof of the initial speciation mechanism.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-7e0bf796a8}
+The 2012 sampling overview describes many animals collected in banana trunks or coffee groves, with others in bromeliads, beneath cover or on vegetation at night. Those pooled encounters cover four studied species and are not a controlled occidentalis habitat-selection or land-use experiment. The source describes its historical range from extreme eastern Oaxaca toward Pacific Guatemala after excluding the questionable Honduras specimen. This is a study-bounded distribution interpretation, not a current complete map. Agricultural occurrence does not establish reproduction, survival or population stability in plantations.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-bfe41f8971}
+The study extracted liver DNA from one Bolitoglossa occidentalis specimen as part of a sixteen-species, three-genus comparison, targeting ten gigabases of short-read data per species. Repeat analysis randomly sampled merged reads at roughly 0.1-fold coverage. Table 1 gives a genome C-value estimate of 56.1 picograms, based on blood-smear densitometry and species means from earlier genome-size work. Picograms of DNA are not gigabases, body mass or a complete genome assembly; the sequenced individual and the species-mean DNA-content estimate have different evidence roles. The sample does not determine variation among sexes, populations or ages.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-f587e5e845}
+Table 1 reports 58.6% detectable repeat abundance for Bolitoglossa occidentalis, including uncategorized repeats. Table 2 reports LTRs at 17.67%, and Table 3 separates ERV at 7.762% from Ty3/Gypsy at 9.906%. These are percentages of sampled bases identified by the study's repeat library, not percentages of animals, newly inserted elements or measured gene expression. Mutation can degrade repeats beyond recognition; the authors regard short-read masking as likely underestimating true repetitive content. Rounded table categories need not sum exactly, and uncategorized repeats should not be silently assigned to a known TE superfamily.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-0cc0df5e7a}
+The study places this species among four Bolitoglossa with ERV peaks at Kimura distances of 11–13, lower than the main peaks in the six larger-genome Bolitoglossa. Their Gypsy/Ty3 profiles have lower, broader peaks extending to smaller distances; rufescens has a reported additional low-distance peak. These are relative sequence-divergence histories, not absolute dates or direct observed insertion rates. The study could not distinguish element deletion from more effective silencing.
+

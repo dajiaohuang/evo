@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllonastes
+  displayName: Phyllonastes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PPL
+  sourceIndexes:
+    - name:
+        en: Phyllonastes
+        zh: Phyllonastes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PPL
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/170
+            queryName: Phyllonastes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 50
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-248ee38e35
+      - s-189a56e4c4
+      - s-70187fcdb5
+      - s-86a44ea927
+      - s-0d830abe02
+      - s-225a0a8bc3
+      - s-b13ab72ce1
+      - s-69f9fa22d0
+      - s-31376bcfa5
+      - s-dfe0fda9cd
+      - s-a7f5a0f283
+      - s-82293c9be5
+      - s-0ea60a5d97
+      - s-cee9313023
+      - s-6b14f2ec84
+      - s-6af282e194
+      - s-9d18239eca
+      - s-4b99594234
+      - s-9b29bfaa80
+      - s-bfff769bb7
+    zh:
+      - s-3974a893c0
+      - s-4146095dc8
+      - s-90f2ac5e9f
+      - s-15baddc9b6
+      - s-7df4474702
+      - s-a6153c9f25
+      - s-7d38d387fa
+      - s-3f6ad05756
+      - s-7f2fc06d0b
+      - s-f008524bb9
+      - s-ca778a463c
+      - s-179b1dbb7d
+      - s-fe55594687
+      - s-05673aaae7
+      - s-68da13728b
+      - s-d9c9926463
+      - s-0f0896386b
+      - s-86ad799fe7
+      - s-c7df604564
+      - s-8d15731015

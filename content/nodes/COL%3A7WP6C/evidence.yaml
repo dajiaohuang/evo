@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Psilopogon javensis
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Psilopogon javensis
+      en: Psilopogon javensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetPsilopogonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-643d737c08
+            part: body
+          en:
+            page: en
+            section: s-bf8930f836
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetPsilopogonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-fbd498c208
+            part: body
+          en:
+            page: en
+            section: s-300493ab6c
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetPsilopogonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-358bfe1d36
+            part: body
+          en:
+            page: en
+            section: s-c8203afeb1
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetPsilopogonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-a059eb6d63
+            part: body
+          en:
+            page: en
+            section: s-f9b42c757d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetPsilopogonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-985bfe2659
+            part: body
+          en:
+            page: en
+            section: s-94c9707932
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Psilopogon javensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/7WP6C
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetPsilopogonHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Psilopogon historical rows
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 17 selected AVONET1_BirdLife rows within 9676–9707, with corresponding BirdLife–eBird and BirdLife–BirdTree rows individually recorded in the receipt; relevant Metadata definitions.
+          scope:
+            zh: 仅本批 17 条历史行与对应名称表；形态采样、文献体重与类别分开，不计属内全部种或完整自然史。
+            en: Only these 17 historical rows and associated crosswalks; measured samples, compiled mass and categories kept separate, without full genus coverage or complete natural histories.
+    limitations:
+      zh:
+        page: zh
+        section: s-736ae90a18
+        part: body
+      en:
+        page: en
+        section: s-19ebfb4bd8
+        part: body

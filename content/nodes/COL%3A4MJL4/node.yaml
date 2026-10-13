@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis permixtus
+  displayName: Pristimantis permixtus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJL4
+  sourceIndexes:
+    - name:
+        en: Pristimantis permixtus
+        zh: Pristimantis permixtus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJL4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/488
+            queryName: Pristimantis permixtus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/487
+            queryName: Eleutherodactylus permixtus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bfd789cbfa
+      - s-18d291c6cc
+      - s-f30964f586
+      - s-bade6fa5e2
+      - s-49d9004549
+      - s-e1f0c70e0e
+      - s-6e95716420
+      - s-2556c52b7f
+      - s-dd32db0f4b
+      - s-efa41d4475
+      - s-4eb15f558e
+      - s-6f08e78dcb
+      - s-34020eba54
+      - s-9b91ada1d8
+      - s-fd7c9eee86
+      - s-3f9f011228
+      - s-1f075a22fe
+      - s-2a9ff63a79
+      - s-b88721d6ec
+      - s-79d01f0c16
+      - s-f944ae5bd0
+      - s-5763ca790a
+      - s-e031e6a3f1
+      - s-8d52b7aa6e
+      - s-b8c989aeee
+      - s-38ac120d1a
+    zh:
+      - s-fc028b35d7
+      - s-7527d763e3
+      - s-49ed069a95
+      - s-b96216d322
+      - s-8d94eeecca
+      - s-d494b035b3
+      - s-85124d0b15
+      - s-3637302e4d
+      - s-dbc85389c2
+      - s-da47adfbaa
+      - s-796901acfe
+      - s-7db7656b79
+      - s-a863ef12b1
+      - s-b06a35a832
+      - s-14731f83a6
+      - s-1e8e3a34fb
+      - s-eb20ddfc3c
+      - s-016fc4ad5e
+      - s-363c98b492
+      - s-8012fb7c5b
+      - s-f3ffb477c3
+      - s-87f900b5b2
+      - s-f393de88d1
+      - s-256ba1a91f
+      - s-4102e5f704
+      - s-b91bfbe5c3

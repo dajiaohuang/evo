@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa orestes
+  displayName: Bolitoglossa orestes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDRB
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa orestes
+        zh: Bolitoglossa orestes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDRB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/170
+            queryName: Bolitoglossa orestes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/364
+            queryName: Bolitoglossa spongai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-68dfdf2dd5
+      - s-7c2c1c7365
+      - s-3126c82baa
+      - s-79ec42cc64
+      - s-65beb0b3a2
+      - s-42d7a8cd1e
+      - s-bd0a9e7b79
+      - s-83e2abf098
+      - s-17f449f47f
+    zh:
+      - s-f90a86b68e
+      - s-e17430cfaf
+      - s-da6914d4d8
+      - s-957ae3338a
+      - s-99d816caee
+      - s-597e9d428a
+      - s-1e185b6258
+      - s-f5cebbf7ce
+      - s-4fee7cf1e3

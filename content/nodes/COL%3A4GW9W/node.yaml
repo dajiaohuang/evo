@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus mababiensis
+  displayName: Phrynobatrachus mababiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW9W
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus mababiensis
+        zh: Phrynobatrachus mababiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW9W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/146
+            queryName: Phrynobatrachus mababiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 315
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/106
+            queryName: Phrynobatrachus vanrooyeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/107
+            queryName: Phrynobatrachus chitialaensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/108
+            queryName: Phrynobatrachus broomi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/111
+            queryName: Phrynobatrachus ukingensis mababiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73f52990a6
+      - s-1a7a25914b
+      - s-497adbdc66
+      - s-a0f14041bd
+      - s-8f99971c55
+      - s-53edd55fe1
+      - s-6df480c267
+      - s-f60f9a4f9b
+      - s-fea9612ad4
+      - s-a956569d87
+      - s-434ca8e020
+      - s-baa8cc7758
+      - s-babc7b217a
+      - s-cb780d62c8
+      - s-55b8f6dd5b
+      - s-da012e5161
+    zh:
+      - s-3e66e66184
+      - s-cf4fda519a
+      - s-cae07e8e70
+      - s-4ee1d2d800
+      - s-2728e5ef64
+      - s-7532466134
+      - s-b537ae2e27
+      - s-5a99e4776c
+      - s-bc9d31d33f
+      - s-f4ad1c7bd3
+      - s-a4635fef6b
+      - s-1899cfa480
+      - s-b4fa035e8b
+      - s-1166aeb197
+      - s-a6a95af42f
+      - s-d5de57dbce

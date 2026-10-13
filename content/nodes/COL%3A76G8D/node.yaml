@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Peltophryne empusa
+  displayName: Peltophryne empusa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76G8D
+  sourceIndexes:
+    - name:
+        en: Peltophryne empusa
+        zh: Peltophryne empusa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76G8D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/488
+            queryName: Peltophryne empusa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 35
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/381
+            queryName: Bufo empusus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/53
+            queryName: Otaspis empusa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/2
+            queryName: Bufo taladai jaumei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/325
+            queryName: Peltaphryne empusa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd59ac3efa
+      - s-6e2260b847
+      - s-e096d855ef
+      - s-d4c538a194
+      - s-c7bd82e730
+      - s-3905cffb13
+      - s-680f4799aa
+      - s-6e02ac98e1
+      - s-6e9ea56d25
+      - s-ae09037712
+      - s-646a0cdf8c
+      - s-86df7b1fa4
+      - s-27f7dfb5e6
+      - s-facd465ca5
+    zh:
+      - s-b59f124353
+      - s-34cdee8784
+      - s-9bfa456066
+      - s-57e245e05c
+      - s-b5c838037f
+      - s-ee6f82a6f7
+      - s-c8dd8a7e81
+      - s-e305b3250c
+      - s-660e2f7878
+      - s-5bbdbd699f
+      - s-83d2e1dc5b
+      - s-89de3fc1b4
+      - s-18619ba6bb
+      - s-0d310863cf

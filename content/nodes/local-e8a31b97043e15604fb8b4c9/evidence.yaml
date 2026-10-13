@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Phasmahyla spectabilis
+    name:
+      en: Phasmahyla spectabilis
+      zh: Phasmahyla spectabilis
+    sourceClassification:
+      order: Anura
+      family: Phyllomedusidae
+      genus: Phasmahyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Phasmahyla spectabilis in the morphology deposit
+          zh: 形态数据中的 Phasmahyla spectabilis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-829eb11cde
+            part: body
+          zh:
+            page: zh
+            section: s-5c08a17081
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4169, 4170: measurement fields and sex codes"
+          zh: 第 4169, 4170 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1673e8e60a
+            part: body
+          zh:
+            page: zh
+            section: s-917f12ab8a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4169, 4170; Reference.csv rows 2903
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4169
+        values:
+          - Phyllomedusidae
+          - Phasmahyla
+          - Phasmahyla spectabilis
+          - M
+          - "35.5"
+          - "12.7"
+          - "12.2"
+          - "3.9"
+          - "1.8"
+          - NA
+          - "4.4"
+          - "2.6"
+          - "3.2"
+          - "3.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18"
+          - "17.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4170
+        values:
+          - Phyllomedusidae
+          - Phasmahyla
+          - Phasmahyla spectabilis
+          - F
+          - "45.6"
+          - "15.4"
+          - "15.1"
+          - "4.7"
+          - "2.1"
+          - NA
+          - "5.4"
+          - "2.9"
+          - "3.5"
+          - "3.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "22.2"
+          - "21.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2903
+        values:
+          - Anura
+          - Phasmahyla_spectabilis
+          - "Cruz, C., Feio, R., & Nascimento, L. (2008). A new species of Phasmahyla Cruz, 1990 (Anura: Hylidae) from the Atlantic Rain Forest of the States of Minas Gerais and Bahia, Brazil. Amphibia-Reptilia, 29, 311-318. https://doi.org/10.1163/156853808785111995"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4FWXH
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

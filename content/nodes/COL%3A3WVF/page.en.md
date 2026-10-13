@@ -1,0 +1,33 @@
+## Tinamous provide flighted comparison lineages {#s-f73b496183}
+The two 2019 papers use four tinamous: Crypturellus cinnamomeus, Eudromia elegans, Nothoprocta perdicaria and Tinamus guttatus. The first three are added assemblies; the last is an existing genome. They inform the moa–tinamou relationship and flight-loss history in other lineages, without sampling every tinamou species. An E. elegans candidate regulatory sequence also enters a chicken-embryo reporter assay; expression in that experimental host is not natural tinamou flight performance.
+
+## Read by material, tree model and experimental level {#s-0f12ae9850}
+Study species directly represented at this entry are [Crypturellus cinnamomeus](Crypturellus_cinnamomeus/page.en.md). First distinguish added, reused and reference-mapped genomes, then compare species trees with gene trees. For a cross-lineage functional comparison, turn to the chicken reporter assays on [Rhea americana](../../../Rheiformes/Rheidae/Rhea/Rhea_americana/page.en.md) and [Eudromia elegans](../Eudromia/Eudromia_elegans/page.en.md); one candidate region cannot validate every accelerated element. Return to existing morphology, life history or fossil occurrences with their own units and samples. This route is neither exhaustive group sampling nor a complete descendant catalogue.
+
+## Measured species pages {#s-051c99df57}
+Eighteen represented Crypturellus species have measured records, including Crypturellus atrocapillus, Crypturellus bartletti, Crypturellus berlepschi, Crypturellus boucardi and Crypturellus brevirostris. The route follows pinned COL26.8, while biological values retain AVONET v7 historical names and sampling scope.
+
+## Differences between records {#s-94232d40b1}
+Among the represented measured records, compiled mean mass runs from 198.99 g in Crypturellus parvirostris to 564.42 g in Crypturellus undulatus. Forest, Shrubland and Woodland habitats, and the Omnivore trophic-niche category, occur among these records. They help compare accounts; they are not shared traits of every descendant or a complete species list.
+
+## Choose comparison pages by life-history fields {#s-d00a459c79}
+Six represented Crypturellus entries have historical life-history accounts, including Crypturellus boucardi, Crypturellus cinnamomeus, Crypturellus obsoletus, Crypturellus soui and Crypturellus tataupa. Adult body mass, offspring per litter or eggs per clutch, and oviposition-to-hatching time are recorded in all six; age at flight capability (which some sources define as leaving the nest) appears in two. These counts describe available accounts, not the full accepted-species denominator. Check each field’s event, unit and provenance before comparing values.
+
+## Compare food, feeding positions and activity periods {#s-c2d1701b4a}
+Ten represented historical entries have at least two usable ecological field groups, including Crypturellus cinereus, Crypturellus soui, Crypturellus obsoletus, Crypturellus cinnamomeus and Crypturellus undulatus. All ten record food-category weights and foraging strata; none has a readable mammalian activity-period field. These source-specific categories and estimates are not traits established for the whole genus, and they do not cover every accepted species.
+
+## A record with a foraging stratum only {#s-f339b13435}
+Crypturellus erythropus is the represented historical entry with exactly one usable ecological field group: a foraging stratum. It has no readable food-category weights or mammalian activity-period field. This source-specific entry does not establish a genus-wide activity pattern or cover every accepted species.
+
+## Evidence limits {#s-6591bdbe26}
+The route presents 18 measured species records, six historical life-history accounts, ten entries with at least two usable ecological field groups, one with a foraging stratum alone, and two limited ecology accounts. These groups use different inclusion rules and are not a complete Crypturellus catalogue. Mass endpoints compare compiled means across records, not the individual extremes of one species. Life-history summaries retain their median or midpoint-average method, maximum-record rule and possible inheritance across historical taxa; a genus-level route does not imply shared reproductive modes or life histories. Ecological categories and weights are source-dependent, not traits of the genus as a whole. Genome discussion is bounded to Sackton et al. (2019), including its published main text, four figure captions and figure 1 pixels; the sampled material, marker extraction, species-tree methods and selected results and discussion passages of Cloutier et al. (2019); and ten NCBI WGS master records. Companion papers share material rather than independent population replicates. Other figure pixels, supplements, raw sequences and analysis code were not independently examined or rerun, and the companion paper was not reviewed paragraph by paragraph in full. Candidate regulatory acceleration, open chromatin and a single-region chicken reporter assay are distinct evidence levels, not functional validation across all species. The available sources do not provide a complete account of the genus’s biology or current status.
+
+## Start with the limited ecology records {#s-65cae03762}
+Two represented Crypturellus species have a limited ecology account: [Crypturellus kerriae](Crypturellus_kerriae/page.en.md) and [Crypturellus ptaritepui](Crypturellus_ptaritepui/page.en.md). This count describes the available pages, not all accepted species; navigation follows pinned COL26.8.
+
+## What is readable and what remains uninterpreted {#s-d0614f6ca1}
+In the two limited ecology accounts, habitat, feeding niche, primary lifestyle and migration are each recorded for both species. Read these categories with their source definitions and distinguish them from historical maps and individual observations. Shared labels do not establish a lifestyle for every descendant. Beak, wing, tarsus, tail and mass fields remain uninterpreted here and do not establish a genus-level body-size comparison.
+
+## Limits of these historical data {#s-06305c6bb7}
+These limited ecology accounts are historical and do not cover every accepted Crypturellus descendant. COL26.8 navigation, same-name and same-family matching, and two one-to-one crosswalks associate records but do not remove later differences in species concepts. Coarse categories are not independent behavioral observations, and historical maps are not current occupancy or conservation assessments. The source’s morphology-inference and mass notes remain attached to those fields; they are not treated here as direct measurements of each species.
+

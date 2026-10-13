@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oscaecilia ochrocephala
+  displayName: Oscaecilia ochrocephala
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SZ3L
+  sourceIndexes:
+    - name:
+        en: Oscaecilia ochrocephala
+        zh: Oscaecilia ochrocephala
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SZ3L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/320
+            queryName: Oscaecilia ochrocephala
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/397
+            queryName: Coecilia ochrocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/398
+            queryName: Herpele ochrocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/399
+            queryName: Caecilia sabogae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a8280bf1f
+      - s-422eeefb54
+      - s-345b15b66b
+      - s-003d587955
+      - s-89434fa2c1
+      - s-22751cfdcf
+      - s-db23fc3246
+      - s-6f59a1d487
+      - s-d642097917
+      - s-b3d23003c0
+      - s-9b72573812
+      - s-ecdc0feeec
+    zh:
+      - s-0807c38226
+      - s-795a7788f0
+      - s-bcf1844f75
+      - s-ebb63a0d1d
+      - s-7d9cafdebc
+      - s-a3c2426bfc
+      - s-820c8a9dd1
+      - s-5c67946908
+      - s-05ddadf07e
+      - s-2d90f8962b
+      - s-b690b8782e
+      - s-c0c2dd16d5

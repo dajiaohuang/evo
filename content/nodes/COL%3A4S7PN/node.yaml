@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella rubescens
+  displayName: Rhinella rubescens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7PN
+  sourceIndexes:
+    - name:
+        en: Rhinella rubescens
+        zh: Rhinella rubescens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7PN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/366
+            queryName: Rhinella rubescens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/417
+            queryName: Bufo rufus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/405
+            queryName: Bufo rubescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/182
+            queryName: Chaunus rubescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5869a29bab
+      - s-93ff5399b0
+      - s-86f81c15b0
+      - s-dc57ab237c
+      - s-931a71b286
+      - s-e0dceab568
+      - s-74262ca97b
+      - s-36a8f83343
+      - s-ee44b532c3
+      - s-1cfe019b02
+      - s-76befb61b4
+      - s-6efa5395d8
+      - s-206abc6213
+      - s-388c5b159a
+      - s-634cb37188
+      - s-1e94ca52de
+    zh:
+      - s-f37e2b12fa
+      - s-11ebada9b0
+      - s-0139ace674
+      - s-f84d286ba2
+      - s-4181251384
+      - s-9f691c3b75
+      - s-06d1474b48
+      - s-21040ea046
+      - s-c5b52b0fdb
+      - s-06f27416f6
+      - s-d2fbf3bb48
+      - s-52c509727c
+      - s-2e0eb44ccd
+      - s-d9e40f1ca5
+      - s-92a9a4aa7c
+      - s-9c74894d03

@@ -1,0 +1,3 @@
+## ## A shrub with long terminal racemes {#s-a2ae3bd5a3}
+The historical Flora of Panama describes *Crotalaria maypurensis* as a shrub or suffrutescent herb up to 1.5 m tall. Its terminal racemes may bear up to 20 yellow flowers. The three leaflets are narrow elliptic to elliptic, with cuneate bases and acute, acuminate or mucronulate tips; the terminal leaflet is 4.5–5.5 cm long. The inflated, strigulose pod is 2.5–3.1 cm long and contains about 20 brown, obliquely heart-shaped seeds. The same historical source describes it as native to South America, reaching its northernmost reported locality in Panama; its sampling frame and observation date are unspecified, so this is not a current range inventory.
+

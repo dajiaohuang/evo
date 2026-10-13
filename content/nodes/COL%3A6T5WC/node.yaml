@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne geislerorum
+  displayName: Oreophryne geislerorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T5WC
+  sourceIndexes:
+    - name:
+        en: Oreophryne geislerorum
+        zh: Oreophryne geislerorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T5WC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/265
+            queryName: Oreophryne geislerorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/423
+            queryName: Cophixalus geislerorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-07b110a000
+      - s-234a4bee10
+      - s-34c76b2de7
+      - s-c925792205
+      - s-4fcee10242
+      - s-7b5ebe9246
+      - s-583a641189
+      - s-5531bfa121
+      - s-d69c2f91b7
+      - s-5677ed3750
+      - s-4361d35b5a
+    zh:
+      - s-e9f6443cdf
+      - s-9d2b3f9b52
+      - s-10cfd9767a
+      - s-63e9f1922d
+      - s-02328490cd
+      - s-3e212616e8
+      - s-90b3343619
+      - s-db6710a8ee
+      - s-c710595760
+      - s-c0daab56eb
+      - s-5796b5e079

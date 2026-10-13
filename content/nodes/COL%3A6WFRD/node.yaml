@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudohynobius flavomaculatus
+  displayName: Pseudohynobius flavomaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6WFRD
+  sourceIndexes:
+    - name:
+        en: Pseudohynobius flavomaculatus
+        zh: Pseudohynobius flavomaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6WFRD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/321
+            queryName: Pseudohynobius flavomaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/361
+            queryName: Ranodon flavomaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/262
+            queryName: Hynobius flavomaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fcb4063c48
+      - s-6753df5498
+      - s-6642c2a86a
+      - s-91f72f9f1e
+      - s-540abcc647
+      - s-b320799a7f
+      - s-dfa4fbfddf
+      - s-dd3e59e985
+      - s-0cb53d0a86
+    zh:
+      - s-f727869c17
+      - s-a289798e5e
+      - s-adcc7fe467
+      - s-03e0573bd5
+      - s-bf5f48896f
+      - s-1076e864d0
+      - s-cd0ed4fc6c
+      - s-482c81a77f
+      - s-e07c391350

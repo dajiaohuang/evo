@@ -1,0 +1,390 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phrynobatrachus horsti Rödel, Burger, Zassi-Boufou, Emmrich, Penner & Barej, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phrynobatrachus horsti
+      zh: Phrynobatrachus horsti
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5e5bb5e301
+            part: title
+          zh:
+            page: zh
+            section: s-d58bed7622
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5e5bb5e301
+            part: body
+          zh:
+            page: zh
+            section: s-d58bed7622
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7849ebf360
+            part: title
+          zh:
+            page: zh
+            section: s-f3f737f9ce
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7849ebf360
+            part: body
+          zh:
+            page: zh
+            section: s-f3f737f9ce
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6d21f4f60c
+            part: title
+          zh:
+            page: zh
+            section: s-24b2ef5fab
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-6d21f4f60c
+            part: body
+          zh:
+            page: zh
+            section: s-24b2ef5fab
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-be586943c12e2c80f0ea298f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8ac92546f9
+            part: title
+          zh:
+            page: zh
+            section: s-3b8cf49e78
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8ac92546f9
+            part: body
+          zh:
+            page: zh
+            section: s-3b8cf49e78
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-b5410b81d2
+            part: title
+          zh:
+            page: zh
+            section: s-78147a21dc
+            part: title
+        sourceIds:
+          - primary-pmc5683629-4gw9c
+        text:
+          en:
+            page: en
+            section: s-b5410b81d2
+            part: body
+          zh:
+            page: zh
+            section: s-78147a21dc
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6fc3de5a55
+            part: title
+          zh:
+            page: zh
+            section: s-f65bf00900
+            part: title
+        sourceIds:
+          - primary-pmc5683629-4gw9c
+        text:
+          en:
+            page: en
+            section: s-6fc3de5a55
+            part: body
+          zh:
+            page: zh
+            section: s-f65bf00900
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-f71d1224ab
+            part: title
+          zh:
+            page: zh
+            section: s-8df0f5f967
+            part: title
+        sourceIds:
+          - primary-pmc5683629-4gw9c
+        text:
+          en:
+            page: en
+            section: s-f71d1224ab
+            part: body
+          zh:
+            page: zh
+            section: s-8df0f5f967
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-d35aad1a65
+            part: title
+          zh:
+            page: zh
+            section: s-464676d70c
+            part: title
+        sourceIds:
+          - primary-pmc5683629-4gw9c
+        text:
+          en:
+            page: en
+            section: s-d35aad1a65
+            part: body
+          zh:
+            page: zh
+            section: s-464676d70c
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-354a1b9570
+            part: body
+          zh:
+            page: zh
+            section: s-bdeae650a7
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phrynobatrachus horsti
+          url: https://www.checklistbank.org/dataset/316115/taxon/4GW9C
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4223, 4224; Reference.csv rows 2353
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc5683629-4gw9c
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phrynobatrachus horsti: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Phrynobatrachus horsti accountsec039. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5593e52c86
+        part: body
+      zh:
+        page: zh
+        section: s-4ce795044e
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-be586943c12e2c80f0ea298f
+        scientificName: Phrynobatrachus horsti
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-pmc5683629-4gw9c
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: 2017 workinglabelPhrynobatrachus horsti; exactsource accepted-name candidate; originalvoucher/currentconcept uncertified
+        evidenceRead: "Phrynobatrachus horsti: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Phrynobatrachus horsti accountsec039. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Sampled records preserve source localities and names
+              zh: 取样记录保留来源地点与名称
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-4gw9c
+            locator: PMC5683629 XML sec039 literalPhrynobatrachus horsti locality/voucher account; sec003/004/007
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d86a011bf4
+                part: body
+              zh:
+                page: zh
+                section: s-6a0982efee
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Working identification and reference conflicts remain explicit
+              zh: 工作鉴定及参考冲突保持明确
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-4gw9c
+            locator: PMC5683629 XML sec039 literalPhrynobatrachus horsti marker/reference/identification account; Table2 relevantrows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3afd10632e
+                part: body
+              zh:
+                page: zh
+                section: s-ff953145aa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Two mitochondrial markers and uneven references limit inference
+              zh: 两线粒体标记及不均参考限制推断
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-4gw9c
+            locator: PMC5683629 XML sec004/006–012 methods/reference/limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5bfc2f29ff
+                part: body
+              zh:
+                page: zh
+                section: s-a004fd7ba2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Study counts and identification scope are not population estimates
+              zh: 研究计数及鉴定范围不是种群估计
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-4gw9c
+            locator: PMC5683629 XML sec004/007 collectioncounts; sec015 andTable1 total/source-locality rows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6ad9cb7f24
+                part: body
+              zh:
+                page: zh
+                section: s-97d703a913
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

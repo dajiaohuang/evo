@@ -1,0 +1,325 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Enaliarctos
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Enaliarctos
+      en: Enaliarctos
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0b52a49c92
+            part: body
+          en:
+            page: en
+            section: s-7ca91bba9a
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2f47849fbc
+            part: body
+          en:
+            page: en
+            section: s-d2af5334d7
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Enaliarctos
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36916
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36916
+          readingTargets:
+            - name: Enaliarctos mealsi
+              pbdbTaxonId: txn:71871
+              canonicalPath: content/nodes/PBDB%3A71871
+            - name: Enaliarctos emlongi
+              pbdbTaxonId: txn:71880
+              canonicalPath: content/nodes/PBDB%3A71880
+            - name: Enaliarctos barnesi
+              pbdbTaxonId: txn:71881
+              canonicalPath: content/nodes/PBDB%3A71881
+            - name: Enaliarctos tedfordi
+              pbdbTaxonId: txn:71882
+              canonicalPath: content/nodes/PBDB%3A71882
+            - name: Enaliarctos mitchelli
+              pbdbTaxonId: txn:71883
+              canonicalPath: content/nodes/PBDB%3A71883
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-6187cf32b7
+        part: body
+      en:
+        page: en
+        section: s-3d60c744bd
+        part: body
+  atlas-node:
+    name: Enaliarctos
+    commonName: Enaliarctos
+    commonNameZh: 始海豹
+    rank: genus
+    firstAppearance: 23
+    lastAppearance: 23
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+    taxonId: txn:36916
+  atlas-profile:
+    pbdbTaxonId: txn:36916
+    scientificName: Enaliarctos
+    commonName: Enaliarctos
+    commonNameZh: 始海豹
+    rank: genus
+    parentName: Pinnipedimorpha
+    extinct: true
+    geography:
+      - Pyramid Hill Sandstone Member, Jewett Sand
+      - Central California, United States
+    overview:
+      page: en
+      section: s-e0a660e166
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-e8785228ac
+        part: body
+      habitat:
+        page: en
+        section: s-441075e171
+        part: body
+      locomotion:
+        page: en
+        section: s-5fb2915771
+        part: body
+      bodySize:
+        page: en
+        section: s-dbd090d08c
+        part: body
+      guild:
+        page: en
+        section: s-9daef067f2
+        part: body
+    traits:
+      - page: en
+        section: s-28343eac32
+        part: body
+      - page: en
+        section: s-96e8f4f173
+        part: body
+      - page: en
+        section: s-f17609e952
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-c349e36691
+      part: body
+    readerSections:
+      - id: anatomical-evidence
+        sourceIds:
+          - berta-ray-1990-enaliarctos
+          - berta-ray-wyss-1989-enaliarctos
+        title:
+          en:
+            page: en
+            section: s-5c054fdf1d
+            part: title
+          zh:
+            page: zh
+            section: s-74112413ec
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5c054fdf1d
+            part: body
+          zh:
+            page: zh
+            section: s-74112413ec
+            part: body
+      - id: capability-vs-behavior
+        sourceIds:
+          - berta-ray-1990-enaliarctos
+          - berta-ray-wyss-1989-enaliarctos
+        title:
+          en:
+            page: en
+            section: s-3d30539e1a
+            part: title
+          zh:
+            page: zh
+            section: s-e76f4955ca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3d30539e1a
+            part: body
+          zh:
+            page: zh
+            section: s-e76f4955ca
+            part: body
+    confidence: medium
+    referenceIds:
+      - berta-ray-1990-enaliarctos
+      - berta-ray-wyss-1989-enaliarctos
+  claims:
+    - subjectId: taxon:enaliarctos
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Enaliarctos profile is anchored by the virtually complete Enaliarctos mealsi skeleton LACM 4321 from the Jewett Sand at an explicitly approximate age of 23 Ma; its swimming and terrestrial capabilities are comparative models, not a global genus range or direct pinniped ancestor claim.
+      confidence: medium
+      confidenceRationale: The named skeleton and formation are direct; locomotor reconstruction remains inferential and is excluded from the temporal bound.
+      referenceLinks:
+        - relation: supports
+          referenceId: berta-ray-1990-enaliarctos
+          pages: 141–157
+          figure: Figures 1–8
+          quoteLocator: Skeletal description; locality; limb proportions
+        - relation: supports
+          referenceId: berta-ray-wyss-1989-enaliarctos
+          pages: 60–62
+          quoteLocator: "Abstract: nearly complete skeleton from California rocks, approximately 23 million years old"
+    - subjectId: taxon:enaliarctos
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Berta and Ray describe LACM 4321 as Enaliarctos mealsi and test pinniped relationships from its skeletal anatomy; their sampled topology is not a direct-ancestor assertion or a universal pinniped phylogeny.
+      confidence: medium
+      confidenceRationale: The named skeleton and the study's comparative analysis are explicit, whereas the broader phylogenetic interpretation remains model- and taxon-sample-dependent.
+      referenceLinks:
+        - relation: supports
+          referenceId: berta-ray-1990-enaliarctos
+          pages: 141–157
+          figure: Figures 1–8; Tables 1–6
+          quoteLocator: Skeletal description; systematic comparison; locomotor capabilities
+    - subjectId: taxon:enaliarctos
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profiled Enaliarctos mealsi skeleton comes from the Pyramid Hill Sandstone Member of the Jewett Sand in central California; this occurrence does not establish a genus-wide Pacific distribution or pinniped dispersal route.
+      confidence: high
+      confidenceRationale: The member and central-California occurrence are directly reported for LACM 4321; the claim does not extend one locality into an inferred distribution.
+      referenceLinks:
+        - relation: supports
+          referenceId: berta-ray-1990-enaliarctos
+          pages: 141–157
+          figure: Figure 1
+          quoteLocator: Locality and geological setting; Pyramid Hill Sandstone Member of the Jewett Sand
+    - subjectId: taxon:enaliarctos
+      claimKind: scientific
+      claimType: morphology
+      statement: LACM 4321 preserves a virtually complete skeleton, including lumbar vertebrae and flipper-like limbs with developed bony processes and muscle-attachment areas documented in the anatomical description.
+      confidence: high
+      confidenceRationale: The preserved skeletal elements and comparative descriptions are directly documented for the named specimen; functional consequences are kept separate.
+      referenceLinks:
+        - relation: supports
+          referenceId: berta-ray-1990-enaliarctos
+          pages: 141–157
+          figure: Figures 1–8; Tables 1–6
+          quoteLocator: Skeletal description; vertebral column; forelimb and hindlimb morphology
+    - subjectId: taxon:enaliarctos
+      claimKind: scientific
+      claimType: ecology
+      statement: Comparative axial and limb morphology is used to infer aquatic and terrestrial locomotor capability for LACM 4321, but the study does not directly observe diet, habitual habitat, swimming strokes or a feeding guild.
+      confidence: medium
+      confidenceRationale: The skeletal measurements support a bounded functional comparison, while behaviour and ecology are not directly preserved and remain unassigned.
+      referenceLinks:
+        - relation: supports
+          referenceId: berta-ray-1990-enaliarctos
+          pages: 141–157
+          figure: Figures 4–8; Tables 3–6
+          quoteLocator: Locomotor capabilities; limb proportions; vertebral-column comparison
+  claim-rationales.zh:
+    - 具名骨架与地层属于直接证据；运动复原仍属推断，不进入时间边界。
+    - 具名骨架和研究的比较分析均有明确记录，但更宽泛的系统发育解释仍取决于模型与类群取样。
+    - LACM 4321 的地层段与加利福尼亚中部出现记录均有直接报告；本主张不把单一产地外推为推断分布。
+    - 所保存的骨骼构件及其比较性描述直接记录于具名标本；功能后果另行保留。
+    - 骨骼测量支持有界的功能比较，但行为与生态并未直接保存，因此保持未赋值。
+  claim-statements.zh:
+    - Enaliarctos 档案由 Jewett Sand 的近乎完整 Enaliarctos mealsi 骨架 LACM 4321 锚定，其年龄明确仅为约 2300 万年前；游泳与陆地能力属于比较模型，不是全球属级范围或鳍足类直接祖先主张。
+    - Berta 与 Ray 将 LACM 4321 描述为 Enaliarctos mealsi，并以其骨骼解剖检验鳍足类关系；该研究的取样拓扑不是直系祖先断言，也不是普遍的鳍足类系统树。
+    - 档案中的 Enaliarctos mealsi 骨架来自加利福尼亚中部 Jewett Sand 的 Pyramid Hill Sandstone Member；这一出现记录不能确立属级的太平洋分布或鳍足类扩散路线。
+    - LACM 4321 保存了一具近乎完整的骨架，包括腰椎以及在解剖描述中记录的、具有发达骨突和肌肉附着区的鳍状肢。
+    - 研究以轴骨和肢骨的比较形态推断 LACM 4321 的水生与陆生运动能力，但并未直接观察食性、习性栖息地、游泳动作或摄食功能群。
+  ranges:
+    - entityId: enaliarctos
+      rangeKind: global-composite
+      taxonomicConcept: Enaliarctos mealsi skeleton occurrence
+      geographicScope: Jewett Sand, California, USA
+      olderMa: 23
+      youngerMa: 23
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The source reports approximately 23 Ma; this rounded specimen age is not a precise radiometric date, direct ancestry date, or guaranteed global first or last appearance.
+      evidenceBasis: The primary report places the nearly complete LACM 4321 skeleton at approximately 23 Ma; the detailed study describes its virtually complete anatomy and bounded locomotor comparisons.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:enaliarctos:fossil-range
+      referenceLocators:
+        - referenceId: berta-ray-1990-enaliarctos
+          locator: 141–157; Figures 1–8; Tables 1–6; Skeletal description; Limb proportions; Locomotor interpretation
+        - referenceId: berta-ray-wyss-1989-enaliarctos
+          locator: "60–62; abstract: nearly complete skeleton from California rocks, approximately 23 million years old"

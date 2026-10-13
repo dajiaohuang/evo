@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudopaludicola pocoto
+  displayName: Pseudopaludicola pocoto
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P5QP
+  sourceIndexes:
+    - name:
+        en: Pseudopaludicola pocoto
+        zh: Pseudopaludicola pocoto
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P5QP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/349
+            queryName: Pseudopaludicola pocoto
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7d9c093cc2
+      - s-5ba8a876f8
+      - s-ffa680126a
+      - s-25621149de
+      - s-7a31efd780
+      - s-82b6db1c0f
+      - s-39ea93a09c
+    zh:
+      - s-1e5e1107e7
+      - s-790412f98b
+      - s-ae4840cb7d
+      - s-15751f8311
+      - s-03770ec2f8
+      - s-06bc9edf2a
+      - s-4a5f7eb594

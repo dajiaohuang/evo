@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla pseudopseudis
+  displayName: Bokermannohyla pseudopseudis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WMXW
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla pseudopseudis
+        zh: Bokermannohyla pseudopseudis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WMXW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/69
+            queryName: Bokermannohyla pseudopseudis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/438
+            queryName: Hyla pseudopseudis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/474
+            queryName: Hyla pseudopseudis pseudopseudis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2c6e5e9136
+      - s-30631d120f
+      - s-076767fc9a
+      - s-b2a53d5216
+      - s-65226cc675
+      - s-7d0dc3dec2
+      - s-8a8e69c6b9
+      - s-32397fefc0
+      - s-a61165c907
+      - s-431629c49b
+    zh:
+      - s-b90a81703f
+      - s-a36a910f58
+      - s-e3775b0e4b
+      - s-5c932c49d0
+      - s-9a07290082
+      - s-b03865a2da
+      - s-2fcaf55e29
+      - s-2cac28dbd1
+      - s-b0a1b83fd4
+      - s-5a14dac3af

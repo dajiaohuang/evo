@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis turumiquirensis
+  displayName: Pristimantis turumiquirensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQT
+  sourceIndexes:
+    - name:
+        en: Pristimantis turumiquirensis
+        zh: Pristimantis turumiquirensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/148
+            queryName: Pristimantis turumiquirensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/208
+            queryName: Eleutherodactylus turumiquirensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f63278a358
+      - s-c70ccfa1ae
+      - s-2a4587cfbe
+      - s-6c536dc744
+      - s-0d0bce270c
+      - s-ebb6cf6634
+      - s-1f6df7bb8c
+      - s-b1b6f03cc8
+    zh:
+      - s-1d070eb75e
+      - s-68b583d549
+      - s-82dd0c9963
+      - s-7fe594a2d6
+      - s-b31d1e7238
+      - s-f19ed014c0
+      - s-34df3f4fb7
+      - s-86fac1d815

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus malabaricus
+  displayName: Rhacophorus malabaricus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXGZ
+  sourceIndexes:
+    - name:
+        en: Rhacophorus malabaricus
+        zh: Rhacophorus malabaricus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXGZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/238
+            queryName: Rhacophorus malabaricus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f08fb5ea47
+      - s-181cc9c2a4
+      - s-792a8abd8c
+      - s-b8f72c8e93
+      - s-3b5051457d
+      - s-2ef4e57344
+      - s-639ffcb9f6
+      - s-0b8e8a5d67
+      - s-656b884a5b
+      - s-7992c1bf8d
+    zh:
+      - s-8cfe057ae3
+      - s-4875aeda55
+      - s-c4bfeff47f
+      - s-5ac175c875
+      - s-f86e950f75
+      - s-6ed3023266
+      - s-5db064a500
+      - s-09e879dd94
+      - s-80460d0961
+      - s-4c54fcbc58

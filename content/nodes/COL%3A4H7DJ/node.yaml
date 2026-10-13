@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes brevirostris
+  displayName: Phyllodytes brevirostris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7DJ
+  sourceIndexes:
+    - name:
+        en: Phyllodytes brevirostris
+        zh: Phyllodytes brevirostris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7DJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/253
+            queryName: Phyllodytes brevirostris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-13f58f8ea9
+      - s-ec9ba0bc3e
+      - s-d529d5902d
+      - s-6039a31aa3
+      - s-cc9e5c5121
+      - s-e514993985
+      - s-1e80ad4007
+      - s-5bb619c537
+    zh:
+      - s-8d5744d70f
+      - s-60bcc2fe5c
+      - s-f2a0fda20b
+      - s-6feea87c64
+      - s-a47ff531da
+      - s-0950168a3c
+      - s-b1bdec4e00
+      - s-a9587ba42e

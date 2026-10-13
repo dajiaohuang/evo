@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus stuhlmanni
+  displayName: Afrixalus stuhlmanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65FVB
+  sourceIndexes:
+    - name:
+        en: Afrixalus stuhlmanni
+        zh: Afrixalus stuhlmanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65FVB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/86
+            queryName: Afrixalus stuhlmanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/479
+            queryName: Megalixalus stuhlmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/243
+            queryName: Hyperolius unicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/204
+            queryName: Afrixalus stuhlmanni stuhlmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-28ac3345eb
+      - s-f0991855f2
+      - s-8703bbb68a
+      - s-c28fe5ffaa
+      - s-87b5a1320c
+      - s-9d9e12fe83
+      - s-116ddef6a2
+      - s-832af00d9b
+      - s-31602206e4
+    zh:
+      - s-af4e510206
+      - s-c349828cfe
+      - s-bbcfba538c
+      - s-306745bffa
+      - s-91d9593231
+      - s-3acdcd1547
+      - s-c6177276ad
+      - s-30c7c8db62
+      - s-37dd5e1622

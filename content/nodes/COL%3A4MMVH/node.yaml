@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys strussmannae
+  displayName: Proceratophrys strussmannae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMVH
+  sourceIndexes:
+    - name:
+        en: Proceratophrys strussmannae
+        zh: Proceratophrys strussmannae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMVH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/242
+            queryName: Proceratophrys strussmannae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cebdb9770a
+      - s-cec3b5ecc3
+      - s-c1abbc19db
+      - s-06b0cf7577
+      - s-bcc701fd98
+      - s-5210443126
+      - s-5f173741a8
+      - s-dc01e48030
+      - s-638085e8a6
+      - s-d1d8116478
+      - s-7516f456fa
+      - s-5ab89ae76c
+      - s-079c407833
+    zh:
+      - s-681e332488
+      - s-392a1e5031
+      - s-f9b1811787
+      - s-7bdff2a4b4
+      - s-0b9f187eda
+      - s-49975e13ac
+      - s-28b880ac46
+      - s-f6039261fd
+      - s-0db3d35ad5
+      - s-c853faf677
+      - s-2db66a36f7
+      - s-acebb2d0ea
+      - s-77eea9b42c

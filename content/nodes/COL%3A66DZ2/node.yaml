@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops formosus
+  displayName: Amolops formosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DZ2
+  sourceIndexes:
+    - name:
+        en: Amolops formosus
+        zh: Amolops formosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DZ2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/361
+            queryName: Amolops formosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/205
+            queryName: Polypedates formosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/206
+            queryName: Rana formosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/110
+            queryName: Amolops gyirongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-955c0c9ab3
+      - s-eb9c8169e4
+      - s-1689a2889d
+      - s-04517e0a79
+      - s-f1082809b4
+      - s-4d6f98a2ff
+      - s-229d5d53e2
+      - s-5b1af648a6
+      - s-2402d171e3
+      - s-dcf6a00006
+      - s-8d4c838d52
+      - s-353252bd23
+      - s-9c67ad4a0f
+    zh:
+      - s-caf16bb2c4
+      - s-56035b8917
+      - s-69a36f9407
+      - s-bb3e7ac828
+      - s-a5f6e1447a
+      - s-202350d02d
+      - s-a2d05f923d
+      - s-de59ddd626
+      - s-bfa59825e3
+      - s-7f85ddda1a
+      - s-c0ab481b13
+      - s-13be6873ae
+      - s-530a3574ac

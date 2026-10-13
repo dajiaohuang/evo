@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrophryniscus organensis
+  displayName: Dendrophryniscus organensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34RLN
+  sourceIndexes:
+    - name:
+        en: Dendrophryniscus organensis
+        zh: Dendrophryniscus organensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34RLN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/329
+            queryName: Dendrophryniscus organensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-66f405e6fa
+      - s-22a4510c53
+      - s-c75851df25
+      - s-d5c6a0111b
+      - s-44cd51ae33
+      - s-fb043c8cc3
+    zh:
+      - s-ba95015930
+      - s-b5790b05f5
+      - s-72915840f8
+      - s-1f038be201
+      - s-2caf35e786
+      - s-0fe2659eb7

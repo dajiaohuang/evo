@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anodonthyla montana
+  displayName: Anodonthyla montana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5V687
+  sourceIndexes:
+    - name:
+        en: Anodonthyla montana
+        zh: Anodonthyla montana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5V687
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/494
+            queryName: Anodonthyla montana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/139
+            queryName: Anodontohyla montana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-15ea0d47ea
+      - s-a61a946ff2
+      - s-e0d6cc7cbf
+      - s-7a1dd163f9
+      - s-b44a7a02ed
+      - s-14f7d5a192
+      - s-d8dbf93964
+      - s-4833856e0a
+      - s-ac0d3add3f
+      - s-d9e31cb5a1
+    zh:
+      - s-dc50b80026
+      - s-223343cb44
+      - s-6ac82aa6df
+      - s-738be6355a
+      - s-a971e5e0eb
+      - s-a015bd6315
+      - s-ac79e209ac
+      - s-b80b3d1509
+      - s-d60ec3c8bc
+      - s-5256bc0d76

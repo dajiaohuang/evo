@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachoseps nigriventris
+  displayName: Batrachoseps nigriventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZQR
+  sourceIndexes:
+    - name:
+        en: Batrachoseps nigriventris
+        zh: Batrachoseps nigriventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZQR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/402
+            queryName: Batrachoseps nigriventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0bf03ae4cf
+      - s-ed4c496d1a
+      - s-d178a6e512
+      - s-3af85f7e9b
+      - s-d04c6c70df
+      - s-07282333aa
+      - s-c2759b5645
+      - s-5a81374570
+      - s-55407591b4
+    zh:
+      - s-33c7b02110
+      - s-2e3a75b319
+      - s-a4f6d01869
+      - s-445c1cef39
+      - s-eed7f54950
+      - s-21c5881f5a
+      - s-45547db800
+      - s-a5a92315b7
+      - s-3e9c2e6482

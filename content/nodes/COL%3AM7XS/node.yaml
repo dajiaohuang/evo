@@ -1,0 +1,124 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana cinerascens
+  displayName: Boana cinerascens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7XS
+  sourceIndexes:
+    - name:
+        en: Boana cinerascens
+        zh: Boana cinerascens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7XS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/465
+            queryName: Boana cinerascens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/305
+            queryName: Hyla cinerascens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/142
+            queryName: Hypsiboas cinerascens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/385
+            queryName: Hyla granosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/386
+            queryName: Hyla inornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/387
+            queryName: Hypsiboas granosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/388
+            queryName: Boana granosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e5c9f3998
+      - s-f78235f519
+      - s-6059b1175a
+      - s-610d77520c
+      - s-b921d6226e
+      - s-e15fc398db
+      - s-9005ecdb0a
+      - s-cd0c345f74
+      - s-b1ad84a58c
+      - s-b754e1b6b0
+      - s-740da45f58
+      - s-ddaf5c29e8
+      - s-841b37bdc8
+      - s-8efa89834f
+      - s-4afb4d8d14
+      - s-c5bc75f06c
+      - s-85aa867d44
+      - s-a604e626fc
+      - s-1b88cb3616
+      - s-bc0f3ce43f
+      - s-df83b0dd30
+      - s-2a73263c11
+      - s-c70599dae7
+      - s-a4da4932ef
+    zh:
+      - s-761635cab5
+      - s-00bb9c930d
+      - s-1d748e1776
+      - s-65d4a3d70a
+      - s-c8b2854ed3
+      - s-9e82e2e3bc
+      - s-5de62de3e1
+      - s-2a30fa408a
+      - s-6a8f5ad656
+      - s-df5137ee8d
+      - s-1dd5ebd4ef
+      - s-c2b15d47b9
+      - s-56aed2281c
+      - s-3c43f061f1
+      - s-664f0772a6
+      - s-f3a88173e5
+      - s-794fbd0b37
+      - s-ed465cd810
+      - s-84560c879f
+      - s-215e4f2e73
+      - s-00fd6fda51
+      - s-2d3d6c42fd
+      - s-8295e5603e
+      - s-edb666f2d0

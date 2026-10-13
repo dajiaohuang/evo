@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis museosus
+  displayName: Pristimantis museosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJH
+  sourceIndexes:
+    - name:
+        en: Pristimantis museosus
+        zh: Pristimantis museosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/427
+            queryName: Pristimantis museosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/447
+            queryName: Eleutherodactylus museosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/339
+            queryName: Eleutherodactylus museous
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b15fbe1179
+      - s-3933ee336c
+      - s-7efdaca183
+      - s-a447890849
+      - s-af08f41ff3
+      - s-63d2083f2b
+      - s-996c004283
+      - s-be22415557
+      - s-a9215d630f
+      - s-20a64176b8
+    zh:
+      - s-401fe1be24
+      - s-cf865a04a5
+      - s-5060894e8e
+      - s-f86d5a51cd
+      - s-9389b14af7
+      - s-30f5a04e12
+      - s-1933c7cc8e
+      - s-faac63d4e4
+      - s-64633019c1
+      - s-da7ece0c7b

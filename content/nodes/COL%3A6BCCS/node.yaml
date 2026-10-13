@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor batrachylus
+  displayName: Craugastor batrachylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCCS
+  sourceIndexes:
+    - name:
+        en: Craugastor batrachylus
+        zh: Craugastor batrachylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCCS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/90
+            queryName: Craugastor batrachylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/31
+            queryName: Eleutherodactylus batrachylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b14e0c9a48
+      - s-5eaa8adb41
+      - s-948b0a0144
+      - s-d3be15cfef
+      - s-2db0042459
+      - s-4bfd7a664d
+      - s-1eb0283348
+    zh:
+      - s-a8e8b656f6
+      - s-beaeb4c4c3
+      - s-a370e50f62
+      - s-d9d05b580b
+      - s-5a0bb9de49
+      - s-1cbb335557
+      - s-1e08906921

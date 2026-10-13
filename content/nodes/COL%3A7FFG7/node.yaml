@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vandijkophrynus angusticeps
+  displayName: Vandijkophrynus angusticeps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FFG7
+  sourceIndexes:
+    - name:
+        en: Vandijkophrynus angusticeps
+        zh: Vandijkophrynus angusticeps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FFG7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/224
+            queryName: Vandijkophrynus angusticeps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/283
+            queryName: Bufo angusticeps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-04126a7c86
+      - s-0daaee9cb3
+      - s-5ee4a62167
+      - s-674015a4f7
+      - s-532d1f679b
+      - s-cb295abb7d
+      - s-68582ed255
+      - s-1b1531875a
+      - s-1bdc4b367b
+      - s-7810249258
+    zh:
+      - s-6e1a4db4e1
+      - s-f8093fd7f4
+      - s-1e4054f1cd
+      - s-7f710b9df6
+      - s-b08eb3eb4a
+      - s-b231b7f373
+      - s-4fe55fd9ea
+      - s-09330f94b9
+      - s-6ea13fce1c
+      - s-bfef042e86

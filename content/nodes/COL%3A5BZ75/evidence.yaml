@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Willdenowia pilleata H.P.Linder
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 5BZ75, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 5BZ75; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/5BZ75
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 5BZ75
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000920553-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 5BZ75 / WFO wfo-0000920553
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7478_0
+        referenceId: ref-da1ef52d-96d1-83c8-a531-cadf2c316073
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Willdenowia pilleata H.P.Linder account; SANBI/WFO archive rows 80696 (Morphology), 80404 (Habitat), 79787 (Diagnostic), source identifier 7478.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants tufted or tangled, 0.3-0.4 m tall, compact. Fertile culms branching, striate, olivaceous, 0.3-0.4 m tall, diameter at apex 0.5-0.7 mm. Sheaths loosely convoluted, 12-20 mm long, brown, upper 1/3 in color and texture abruptly different from the base, and soon decaying. Male inflorescence 13-22 x 4-6 mm; spathes caducous, taller than spikelets, cartilaginous; flowers not aggregated into spikelets; bracts taller than flowers, 8-12 mm long, linear, acute, lax, chartaceous or membranous. Male flower 3-4 mm long; tepals all the same, chartaceous or membranous, linear, glabrous; anthers 1.6-2.1 mm long; pistillode absent. Female inflorescence with 1 spikelet; spathes shorter than the spikelet, persistent, coriaceous; spikelet obovate, apex rounded, 15-20 mm long, with 1 flower and 4-6 sterile bracts; bracts taller than flowers, 10-15 mm long, oblong, acuminate, cartilaginous. Female flower without a fleshy pedicel; tepals all the same, oblong, truncate to rounded, membranous, glabrous and smooth; outer whorl 1.5-2 mm long; inner whorl 1-1.5 mm long; staminodes absent; styles 2, plumose, seated on a stylopodium; ovary unilocular, indehiscent. Nut 4-5 x 3-3.5 mm, oblong, in transect rounded, brown, pitted, cap four-lobed, or with two large lobes and two incisions, almost as tall as the nut itself; perianth persistent, membranous, shorter than nut; elaiosome absent.
+            textZh: Willdenowia pilleata H.P.Linder 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_7478_0
+            locator: "SANBI/WFO archive Morphology row 80696; source identifier 7478.0; cited publication: Linder, HP. 2011. New species and combinations in the African Restionaceae. S. African J. Bot. 77: 415 - 424. [Copyright held by the South African Association of Botanists (2011); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The new species is much smaller than the widespread W. incurvata, and also lacking the rhizome so typical of the common species. Secondly, the male flowers of the new species are longer (3-4 mm instead of 2-2.5 mm). Finally, the nut is smaller (3-3.5 x 4-5 mm instead of 5-6 x 7-9 mm), and has a massive four-lobed cap. W. incurvata flowers in winter (April to June) while the new species flowers in summer (February to March). These differences are too big to include within one species, hence the new species status.
+            textZh: SANBI 条目提供了 Willdenowia pilleata H.P.Linder 的鉴别特征。
+            sourceIds:
+              - sanbi_7478_0
+            locator: "SANBI/WFO archive Diagnostic row 79787; source identifier 7478.0; cited publication: Linder, HP. 2011. New species and combinations in the African Restionaceae. S. African J. Bot. 77: 415 - 424. [Copyright held by the South African Association of Botanists (2011); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The species is found on deep, sandy soils. It occurs near a streamline and a shallow lake, most likely the water table is quite shallow.
+            textZh: 该 SANBI 区域物种条目记录的生境：The species is found on deep, sandy soils. It occurs near a streamline and a shallow lake, most likely the water table is quite shallow.
+            sourceIds:
+              - sanbi_7478_0
+            locator: "SANBI/WFO archive Habitat row 80404; source identifier 7478.0; cited publication: Linder, HP. 2011. New species and combinations in the African Restionaceae. S. African J. Bot. 77: 415 - 424. [Copyright held by the South African Association of Botanists (2011); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

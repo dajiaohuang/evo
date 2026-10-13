@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:65583
+    scientificName: Pojetaia runnegari
+    commonName: Cambrian Pojetaia shell sample
+    commonNameZh: 寒武纪波杰塔贝壳样本
+    rank: species
+    parentName: Bivalvia
+    extinct: true
+    geography:
+      - Ajax Limestone, South Australia
+      - Erkeket Formation, South Australia
+    overview:
+      page: en
+      section: s-edcbc284f1
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-5f123d0913
+        part: body
+      habitat:
+        page: en
+        section: s-c574165757
+        part: body
+      locomotion:
+        page: en
+        section: s-ed70d86c73
+        part: body
+      bodySize:
+        page: en
+        section: s-8be82e546d
+        part: body
+      guild:
+        page: en
+        section: s-53340491b2
+        part: body
+    traits:
+      - page: en
+        section: s-ab197a96cf
+        part: body
+      - page: en
+        section: s-8941d1d640
+        part: body
+      - page: en
+        section: s-31a8e0423d
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-5596a48eb2
+      part: body
+    confidence: medium
+    referenceIds:
+      - vendrasco-et-al-2011-pojetaia
+    readerSections:
+      - id: shell-microstructure
+        title:
+          en:
+            page: en
+            section: s-740f12c93f
+            part: title
+          zh:
+            page: zh
+            section: s-0f7d1fd3b7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-740f12c93f
+            part: body
+          zh:
+            page: zh
+            section: s-0f7d1fd3b7
+            part: body
+        sourceIds:
+          - vendrasco-et-al-2011-pojetaia
+      - id: regional-age-window
+        title:
+          en:
+            page: en
+            section: s-dae7e721ed
+            part: title
+          zh:
+            page: zh
+            section: s-ab8f2d55fd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dae7e721ed
+            part: body
+          zh:
+            page: zh
+            section: s-ab8f2d55fd
+            part: body
+        sourceIds:
+          - vendrasco-et-al-2011-pojetaia
+          - ics-2026-06
+      - id: limits-of-shell-evidence
+        title:
+          en:
+            page: en
+            section: s-b4f6b16a1b
+            part: title
+          zh:
+            page: zh
+            section: s-32cadea5b4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b4f6b16a1b
+            part: body
+          zh:
+            page: zh
+            section: s-32cadea5b4
+            part: body
+        sourceIds:
+          - vendrasco-et-al-2011-pojetaia
+    readerSources:
+      - id: vendrasco-et-al-2011-pojetaia
+        referenceId: vendrasco-et-al-2011-pojetaia
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The paper documents Pojetaia shell sections and their inner laminar fabrics. Its comparison with foliated aragonite and discussion of nacre evolution are interpretations tied to the examined material, not a direct record of feeding or a complete bivalve history.
+            zh: 该论文记录 Pojetaia 贝壳切片及其层状内织构。与叶片状霰石的比较和有关珍珠层演化的讨论都限于所检材料，是解释而非摄食行为或双壳类完整演化史的直接记录。
+      - id: ics-2026-06
+        referenceId: ref-365f71a0-f8c0-8159-af47-08a2f1449e9d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The v2026/06 chart supplies numerical boundaries for the named Cambrian interval. It bounds the cited shell sample under its qualified Botomian correlations; it does not turn that regional sample into a global first or last appearance.
+            zh: v2026/06 年代地层表为所用寒武纪时段提供数值界线。它依据带有限定语的 Botomian 对比界定所引贝壳样本的年代范围，并不会将区域样本转化为全球首现或末现。
+  claims:
+    - subjectId: taxon:pojetaia
+      claimKind: scientific
+      claimType: morphology
+      statement: Pojetaia runnegari shell sections preserve laminar inner fabric comparable to foliated aragonite, while undisputed nacre and broader evolutionary precursors remain interpretive.
+      confidence: medium
+      confidenceRationale: The named shell material supports morphology directly, while diagenesis and comparative homology bound the inference.
+      referenceLinks:
+        - referenceId: vendrasco-et-al-2011-pojetaia
+          relation: supports
+          pages: 825–850
+          figure: Figures 1–12; Tables 1–2
+          quoteLocator: Pojetaia material; shell microstructure; discussion of foliated aragonite and nacre
+    - subjectId: taxon:pojetaia
+      claimKind: scientific
+      claimType: fossil-range
+      statement: More than fifty Pojetaia specimens from probably Botomian Ajax Limestone and lowermost Botomian Erkeket Formation units support a Cambrian Stage 4 sample envelope of 514.5–506.5 Ma; this is not an exhaustive global genus FAD or LAD.
+      confidence: medium
+      confidenceRationale: The paper directly documents the shell material and qualified regional correlations. Medium confidence is limited to the conservative Stage 4 envelope because one correlation is explicitly probable.
+      referenceLinks:
+        - relation: supports
+          referenceId: vendrasco-et-al-2011-pojetaia
+          pages: 825–850
+          figure: Plate 1
+          quoteLocator: pp. 826–829, Materials and methods; more than 50 UNEL 1872 specimens; Botomian unit correlations
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for the named stages and periods used to bound the source sample
+    - subjectId: taxon:pojetaia
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Vendrasco et al. treat the studied shell material as Pojetaia runnegari; the profile retains that species-level identification while keeping bivalve-wide evolutionary placement conditional.
+      confidence: medium
+      confidenceRationale: The named shell material and systematic assignment are reported in the primary study, while higher placement and evolutionary implications are comparative.
+      referenceLinks:
+        - referenceId: vendrasco-et-al-2011-pojetaia
+          relation: supports
+          pages: 825–850
+          figure: Figures 1–12; Tables 1–2
+          quoteLocator: Systematic palaeontology and description of Pojetaia runnegari shell material
+    - subjectId: taxon:pojetaia
+      claimKind: scientific
+      claimType: biogeography
+      statement: The documented Pojetaia runnegari shell sample is bounded to the Ajax Limestone and Erkeket Formation of South Australia; these localities do not establish the complete geographic distribution of the genus.
+      confidence: medium
+      confidenceRationale: The named formations and regional setting are reported for the studied material, whereas a complete distribution would require additional occurrences.
+      referenceLinks:
+        - referenceId: vendrasco-et-al-2011-pojetaia
+          relation: supports
+          pages: 826–829
+          figure: Figure 1; Plate 1
+          quoteLocator: Locality and stratigraphic context for Pojetaia material; Ajax Limestone and Erkeket Formation
+    - subjectId: taxon:pojetaia
+      claimKind: scientific
+      claimType: ecology
+      statement: Pojetaia shell sections document mineralized shell microstructure but do not directly preserve feeding, locomotion, body size or ecological guild; any shallow-marine setting is limited to the sampled formations.
+      confidence: medium
+      confidenceRationale: The primary paper describes shell material and its depositional units, but isolated shell sections do not directly resolve organismal behaviour or ecology.
+      referenceLinks:
+        - referenceId: vendrasco-et-al-2011-pojetaia
+          relation: supports
+          pages: 825–850
+          figure: Figures 1–12
+          quoteLocator: Shell-material description and discussion; no direct feeding or locomotion evidence
+  claim-rationales.zh:
+    - 具名贝壳材料直接支持形态观察，但成岩作用和比较同源性限制了推断。
+    - 论文直接记录壳体材料及带限定语的区域对比。由于其中一项对比明确为“可能”，中等置信度仅适用于保守的第 4 期包络。
+    - 具名贝壳材料及其系统分类由主论文报告；更高阶位置和演化含义属于比较推断。
+    - 论文直接报告取样地层和区域环境；完整地理分布需要更多产出，不能由这些地点外推。
+    - 主论文描述贝壳材料和沉积地层，但孤立贝壳切片不能直接解析个体行为或生态，因此保持有界表述。
+  claim-statements.zh:
+    - Pojetaia runnegari 贝壳切片保存可与叶片状霰石比较的层状内织构，而无争议珍珠层及更广演化前体仍属解释。
+    - 来自“可能为 Botomian”的 Ajax 石灰岩与最下部 Botomian Erkeket 组的 50 余件 Pojetaia 标本，支持 5.145–5.065 亿年前的寒武纪第 4 期样本包络；这不是该属穷尽性的全球首现或末现。
+    - Vendrasco 等将所研究的贝壳材料归入 Pojetaia runnegari；本档案保留该物种级鉴定，同时将双壳纲范围的演化位置保持为有条件的比较结论。
+    - 有文献记录的 Pojetaia runnegari 贝壳样本限定于南澳大利亚的 Ajax 石灰岩和 Erkeket 组；这些地点不能确立该属的完整地理分布。
+    - Pojetaia 贝壳切片记录了矿化贝壳的微结构，但没有直接保存摄食、运动、体型或生态类群；任何浅海环境判断都限定于取样地层。
+  ranges:
+    - entityId: pojetaia
+      rangeKind: global-composite
+      taxonomicConcept: Pojetaia runnegari — Botomian shell-material window
+      geographicScope: Ajax Limestone and Erkeket Formation shell sections represented by Vendrasco et al.
+      olderMa: 514.5
+      youngerMa: 506.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This Cambrian Stage 4 envelope is limited to the cited shell material and its qualified Botomian correlations; it is not an exhaustive global genus FAD or LAD.
+      evidenceBasis: The study documents more than fifty Pojetaia specimens from probably Botomian and lowermost Botomian units; ICS v2026/06 supplies the conservative Stage 4 bounds.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:pojetaia:source-bounded-range-rc50
+      referenceLocators:
+        - referenceId: vendrasco-et-al-2011-pojetaia
+          locator: 825–850; pp. 826–829, Materials and methods; more than 50 UNEL 1872 specimens; Ajax Limestone probably Botomian and Erkeket Formation lowermost Botomian; Plate 1
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample

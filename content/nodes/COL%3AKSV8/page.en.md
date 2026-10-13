@@ -1,0 +1,3 @@
+## Leaf characters in Flora of North America {#s-3601fff79d}
+COL26.8 accepts *Bartramia stricta* Brid. in Bartramiaceae. A 2015 Flora of North America account linked through WFO describes the leaves as “Leaves stiffly erect-appressed when dry, erect-spreading when moist, narrowly lanceolate, 2.5-4 mm”. In reader terms, the description contrasts leaf posture when dry and moist, then records a narrow-lanceolate shape and length. The regional account excerpt gives no observation locality, sampling frame, or date; the COL-to-WFO name link does not establish full concept equivalence across checklist versions.
+

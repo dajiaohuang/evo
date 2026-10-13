@@ -1,0 +1,221 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Micrixalidae Dubois, Ohler & Biju, 2001
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Micrixalidae
+      zh: Micrixalidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2dbf21fe20
+            part: title
+          zh:
+            page: zh
+            section: s-0bfd343a1e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2dbf21fe20
+            part: body
+          zh:
+            page: zh
+            section: s-0bfd343a1e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cdf4e11ca6
+            part: title
+          zh:
+            page: zh
+            section: s-1e878c7288
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cdf4e11ca6
+            part: body
+          zh:
+            page: zh
+            section: s-1e878c7288
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-61472e97b6
+            part: title
+          zh:
+            page: zh
+            section: s-b1e4aed1a7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-61472e97b6
+            part: body
+          zh:
+            page: zh
+            section: s-b1e4aed1a7
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e5c42cc84c
+            part: title
+          zh:
+            page: zh
+            section: s-999265c43f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e5c42cc84c
+            part: body
+          zh:
+            page: zh
+            section: s-999265c43f
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b1f061b2ef
+            part: title
+          zh:
+            page: zh
+            section: s-96a7ccfdd5
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5RFS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5RFS
+            label:
+              en: Micrixalus
+              zh: Micrixalus
+        text:
+          en:
+            page: en
+            section: s-b1f061b2ef
+            part: body
+          zh:
+            page: zh
+            section: s-96a7ccfdd5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Micrixalidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/CQF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Micrixalidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f389d7ebc8
+        part: body
+      zh:
+        page: zh
+        section: s-14937662b5
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Micrixalidae
+      sourceRowIds:
+        - Anf3844
+        - Anf3845
+        - Anf3846
+        - Anf3847
+        - Anf3848
+        - Anf3849
+        - Anf3850
+        - Anf3851
+        - Anf3852
+        - Anf3853
+        - Anf3854
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 10
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 6
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 11
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 11
+      currentConceptEquivalenceCertified: false

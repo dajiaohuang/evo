@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachoseps gregarius
+  displayName: Batrachoseps gregarius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZQJ
+  sourceIndexes:
+    - name:
+        en: Batrachoseps gregarius
+        zh: Batrachoseps gregarius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZQJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/396
+            queryName: Batrachoseps gregarius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9aea793178
+      - s-4a36dd7b21
+      - s-9ec49786dd
+      - s-e5730bbc59
+      - s-cd45722541
+      - s-5e3add3b3d
+      - s-bc9ed117ee
+      - s-a1e790ef77
+      - s-0ec192459d
+    zh:
+      - s-efb080361d
+      - s-74ea22043e
+      - s-6848298b32
+      - s-98fe3c03e1
+      - s-433e7b98fb
+      - s-eddb37a5a9
+      - s-2d0c77617f
+      - s-a4f12fabb4
+      - s-32c6fc8ca1

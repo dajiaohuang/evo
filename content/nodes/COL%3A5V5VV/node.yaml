@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anodonthyla moramora
+  displayName: Anodonthyla moramora
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5V5VV
+  sourceIndexes:
+    - name:
+        en: Anodonthyla moramora
+        zh: Anodonthyla moramora
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5V5VV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/495
+            queryName: Anodonthyla moramora
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a274edc36
+      - s-bf745696bb
+      - s-c027b52299
+      - s-9ba16a7c29
+      - s-c37067d9b0
+      - s-3805d8fbb4
+      - s-4be3481d6c
+      - s-a5239ecf4b
+    zh:
+      - s-aea4142c5b
+      - s-2d45eb7354
+      - s-5902334c3a
+      - s-3855733dc3
+      - s-f1a09767f7
+      - s-cb25ac86e8
+      - s-70cbfa6a3e
+      - s-05770bb736

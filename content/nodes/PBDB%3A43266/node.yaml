@@ -1,0 +1,33 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mammuthus
+  displayName: Mammuthus
+  rank: genus
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=43266
+    parentSourceIdentifier: txn:157625
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=43266
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-61df2e51eb
+      - s-c7013b6a5a
+      - s-d41ae6cc3b
+      - s-4a70be76f2
+      - s-156e034794
+    zh:
+      - s-0a39404de1
+      - s-21b8607818
+      - s-48bbb8459c
+      - s-411180aabf
+      - s-bc02b7a17d

@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus brimleyorum
+  displayName: Desmognathus brimleyorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/353MD
+  sourceIndexes:
+    - name:
+        en: Desmognathus brimleyorum
+        zh: Desmognathus brimleyorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 353MD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/465
+            queryName: Desmognathus brimleyorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/472
+            queryName: Desmognathus fuscus brimleyorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-49bd79377c
+      - s-fcae1a0050
+      - s-513f14985a
+      - s-fb44e68ea1
+      - s-c457f701b1
+      - s-55bc4db312
+      - s-554c3ab828
+      - s-541a55e757
+      - s-4d200f1923
+      - s-c9f8059f37
+      - s-5abe6dc1f7
+      - s-9cbfcc210a
+      - s-49c99c96cd
+      - s-16a0dad9f0
+      - s-ac1e1cb4ab
+      - s-3004137445
+      - s-19f46e5be0
+      - s-e666060608
+    zh:
+      - s-c0f4681078
+      - s-5d33c3361e
+      - s-79ae276e34
+      - s-cda20d3b22
+      - s-9726d3109f
+      - s-93855cca6d
+      - s-eb1880350a
+      - s-f6aac08275
+      - s-14d1426c23
+      - s-1ba7bb654c
+      - s-8d60d08c7d
+      - s-b1d6326705
+      - s-9c4c682aed
+      - s-60d6d3e64b
+      - s-822e433af6
+      - s-581c29ff44
+      - s-271975bf99
+      - s-cffe5391fe

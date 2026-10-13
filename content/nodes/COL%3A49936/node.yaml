@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon heyeri
+  displayName: Ololygon heyeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49936
+  sourceIndexes:
+    - name:
+        en: Ololygon heyeri
+        zh: Ololygon heyeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "49936"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/122
+            queryName: Ololygon heyeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/42
+            queryName: Scinax heyeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-179d4486b6
+      - s-e08481d9ff
+      - s-469ddeb6e5
+      - s-c248491c81
+      - s-78b0608c29
+      - s-e949faa199
+      - s-abdb2b70d0
+      - s-402283b57c
+      - s-6656fc142a
+      - s-93a75f75ab
+      - s-94054acf05
+      - s-aca08f6fe4
+      - s-b077adee8b
+    zh:
+      - s-f7790bdd49
+      - s-70c6dff937
+      - s-4f1f82de53
+      - s-53bd0df3e0
+      - s-141a87219a
+      - s-66122b3321
+      - s-dea50ed92a
+      - s-2b6ad05653
+      - s-1222ebb46b
+      - s-1ee7d2d7d4
+      - s-d4a3c54ed2
+      - s-b0dfb4cbff
+      - s-c8b086d2e9

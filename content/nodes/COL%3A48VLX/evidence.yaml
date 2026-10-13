@@ -1,0 +1,135 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Oedera squarrosa (L.) Anderb. & K.Bremer
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 48VLX, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 48VLX; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/48VLX
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 48VLX
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000008866-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 48VLX / WFO wfo-0000008866
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14184_0
+        referenceId: ref-de81487b-8d7f-80c3-a667-aa278b233f07
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Oedera squarrosa (L.) Anderb. & K.Bremer account; archive rows 10745 (Morphology), 26291 (Habitat), source identifier 14184.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_4992_0
+        referenceId: ref-ff784279-b833-86fb-a035-cc4bc1ba9420
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Oedera squarrosa (L.) Anderb. & K.Bremer account; archive rows 66211 (Diagnostic), source identifier 4992.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-7b8084d918
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-9e7c99e0f8
+          part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Similar to O. genistifolia but leaves obovate, recurved and mucronate at tips, young leaves 4-ranked.
+            sourceIds:
+              - sanbi_14184_0
+            locator: "SANBI/WFO archive Morphology row 10745; source 14184.0; publication: Manning, JC; Goldblatt, P. 2012. Asteraceae: Oedera L. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 399 - 400. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: This species is closely allied to R. genistifolia. Specimens of R. squarrosa are usually distinguished from the former in the typically squar-rose-recurved, elliptic, larger leaves and the campanulate, wider involucres, which often have a distinctly spotted appearance. Furthermore, young vegetative shoots often have a decussate leaf-arrangement, not expressed in R. genistifolia. Specimens without the last character and spreading, more irregularly bent leaves and uniformly coloured involucres might look very similar to R. genistifolia. They can be distinguished by the more slender achenes with shorter pappus, less than 1/5 of the length of the achene. Lastly, achenes of ray-florets are almost always glabrous, only occasionally pilose and then much more sparsely than in R. genistifolia. Another closely related species is R. conferta, which however is smaller and easily distinguished. As evident from the description this species varies considerably in foliage. Only in one case is this correlated with distribution. Specimens from Piketberg and even more noticeably just north thereof, have wider, almost orbicular leaves.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_4992_0
+            locator: "SANBI/WFO archive Diagnostic row 66211; source 4992.0; publication: Bremer, K. 1976. The genus Relhania (Compositae). Opera Bot. 40: 1 - 85. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony sand or clay slopes and flats.
+            sourceIds:
+              - sanbi_14184_0
+            locator: "SANBI/WFO archive Habitat row 26291; source 14184.0; publication: Manning, JC; Goldblatt, P. 2012. Asteraceae: Oedera L. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 399 - 400. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,655 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyla sanchiangensis Pope, 1929
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyla sanchiangensis
+      zh: Hyla sanchiangensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-83b7fd8b78
+            part: title
+          zh:
+            page: zh
+            section: s-82261d5aa4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-83b7fd8b78
+            part: body
+          zh:
+            page: zh
+            section: s-82261d5aa4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-74d6254bd8
+            part: title
+          zh:
+            page: zh
+            section: s-293bb7a8d3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-74d6254bd8
+            part: body
+          zh:
+            page: zh
+            section: s-293bb7a8d3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-98fa7ce0e9
+            part: title
+          zh:
+            page: zh
+            section: s-39d3d59fe5
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-98fa7ce0e9
+            part: body
+          zh:
+            page: zh
+            section: s-39d3d59fe5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4947bc1e7a
+            part: title
+          zh:
+            page: zh
+            section: s-5bb1f1b9e4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-4947bc1e7a
+            part: body
+          zh:
+            page: zh
+            section: s-5bb1f1b9e4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-34c9325c0b
+            part: title
+          zh:
+            page: zh
+            section: s-aaa5c6985b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-34c9325c0b
+            part: body
+          zh:
+            page: zh
+            section: s-aaa5c6985b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-95df9ce8f8
+            part: title
+          zh:
+            page: zh
+            section: s-bfd4be87f5
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-95df9ce8f8
+            part: body
+          zh:
+            page: zh
+            section: s-bfd4be87f5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-adeb17716c
+            part: title
+          zh:
+            page: zh
+            section: s-41d60d4e7d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-adeb17716c
+            part: body
+          zh:
+            page: zh
+            section: s-41d60d4e7d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-680affa6e002766893003da423bebb08
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-e662308be00c44344d7cab03
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-76ef5a5e946469b98041f4cd
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a29fff0ed9
+            part: title
+          zh:
+            page: zh
+            section: s-1a81cd0d71
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-a29fff0ed9
+            part: body
+          zh:
+            page: zh
+            section: s-1a81cd0d71
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-92e1f52de8
+            part: title
+          zh:
+            page: zh
+            section: s-1c232e67f3
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-92e1f52de8
+            part: body
+          zh:
+            page: zh
+            section: s-1c232e67f3
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-ef5d8b17d5
+            part: title
+          zh:
+            page: zh
+            section: s-9fde5f1db8
+            part: title
+        sourceIds:
+          - primary-pmc10215353-6mm7p
+        text:
+          en:
+            page: en
+            section: s-ef5d8b17d5
+            part: body
+          zh:
+            page: zh
+            section: s-9fde5f1db8
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3910a7b107
+            part: title
+          zh:
+            page: zh
+            section: s-d5f3213dff
+            part: title
+        sourceIds:
+          - primary-pmc10215353-6mm7p
+        text:
+          en:
+            page: en
+            section: s-3910a7b107
+            part: body
+          zh:
+            page: zh
+            section: s-d5f3213dff
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-36de529d80
+            part: title
+          zh:
+            page: zh
+            section: s-34661f394d
+            part: title
+        sourceIds:
+          - primary-pmc10215353-6mm7p
+        text:
+          en:
+            page: en
+            section: s-36de529d80
+            part: body
+          zh:
+            page: zh
+            section: s-34661f394d
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-8d8df1e592
+            part: title
+          zh:
+            page: zh
+            section: s-24b35309ba
+            part: title
+        sourceIds:
+          - primary-pmc10215353-6mm7p
+        text:
+          en:
+            page: en
+            section: s-8d8df1e592
+            part: body
+          zh:
+            page: zh
+            section: s-24b35309ba
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-937682d50f
+            part: title
+          zh:
+            page: zh
+            section: s-21e4db9370
+            part: title
+        sourceIds:
+          - primary-pmc10215353-6mm7p
+        text:
+          en:
+            page: en
+            section: s-937682d50f
+            part: body
+          zh:
+            page: zh
+            section: s-21e4db9370
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyla sanchiangensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/6MM7P
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2326; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2326 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1922; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2165, 2166; Reference.csv rows 3048
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10215353-6mm7p
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hyla sanchiangensis: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4c0b895ae2
+        part: body
+      zh:
+        page: zh
+        section: s-79757f3e22
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-680affa6e002766893003da423bebb08
+      sourceRowId: Anf2326
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf2326
+        bibliographyRowId: Anf2326
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Hyla sanchiangensis
+        candidateBibliographyRowIds:
+          - Anf2326
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-e662308be00c44344d7cab03
+        scientificName: Hyla sanchiangensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-76ef5a5e946469b98041f4cd
+        scientificName: Hyla sanchiangensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani13101593
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        sourceKey: primary-pmc10215353-6mm7p
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10215353/article.xml
+        sourceConcept: Hyla sanchiangensis
+        evidenceRead: "Hyla sanchiangensis: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Two incomplete mitochondrial sequences
+              zh: 两条不完整线粒体序列
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-6mm7p
+            locator: PMC10215353 XML sec2dot1 paragraph1; sec3dot1 paragraphs1–2; Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-58e5883b96
+                part: body
+              zh:
+                page: zh
+                section: s-02bece6cb8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Site and accession labels conflict between sections
+              zh: 不同章节的地点与序列号对应冲突
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-6mm7p
+            locator: PMC10215353 XML sec3dot1 paragraph1; sec3dot5 paragraph1; Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a019507c3d
+                part: body
+              zh:
+                page: zh
+                section: s-8d332ef252
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Distance heterogeneity suggests a question, not new accepted species
+              zh: 距离差异提出问题，不产生新接受物种
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-6mm7p
+            locator: PMC10215353 XML sec3dot5 paragraph1; sec4dot2 paragraph1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5df75021e6
+                part: body
+              zh:
+                page: zh
+                section: s-66347222ef
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Within-name branching order is inconsistent in the text
+              zh: 名称内分支次序在正文不一致
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-6mm7p
+            locator: PMC10215353 XML sec3dot6 paragraph1; sec4dot2 paragraph2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a76bcae17f
+                part: body
+              zh:
+                page: zh
+                section: s-6722537063
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Branch-site candidates do not prove cold adaptation
+              zh: 分支位点候选不证明冷适应
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-6mm7p
+            locator: PMC10215353 XML sec2dot6 paragraphs1–2; sec3dot7 paragraph1; sec4dot3 paragraphs1–4; Table4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a7a20bf795
+                part: body
+              zh:
+                page: zh
+                section: s-b648e9611a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

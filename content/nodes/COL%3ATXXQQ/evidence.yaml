@@ -1,0 +1,253 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Wijayarana Arifin, Chan, Smart, Hertwig, Smith, Iskandar & Haas, 2021
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Wijayarana
+      zh: Wijayarana
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5c13b1d63c
+            part: title
+          zh:
+            page: zh
+            section: s-289e6e101d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5c13b1d63c
+            part: body
+          zh:
+            page: zh
+            section: s-289e6e101d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-453d182b37
+            part: title
+          zh:
+            page: zh
+            section: s-762418caf2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-453d182b37
+            part: body
+          zh:
+            page: zh
+            section: s-762418caf2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-34a275070f
+            part: title
+          zh:
+            page: zh
+            section: s-6ac41e8c86
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5FJ7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5FJ7
+            label:
+              en: Wijayarana javana
+              zh: Wijayarana javana
+          - kind: catalogue
+            colId: TXXQT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ATXXQT
+            label:
+              en: Wijayarana masonii
+              zh: Wijayarana masonii
+          - kind: catalogue
+            colId: TXXQW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ATXXQW
+            label:
+              en: Wijayarana melasma
+              zh: Wijayarana melasma
+          - kind: catalogue
+            colId: TXXQY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ATXXQY
+            label:
+              en: Wijayarana modiglianii
+              zh: Wijayarana modiglianii
+          - kind: catalogue
+            colId: V4HC3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV4HC3
+            label:
+              en: Wijayarana sumatrana
+              zh: Wijayarana sumatrana
+        text:
+          en:
+            page: en
+            section: s-34a275070f
+            part: body
+          zh:
+            page: zh
+            section: s-6ac41e8c86
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10629387-txxqq
+        title:
+          en:
+            page: en
+            section: s-2e81484ec5
+            part: title
+          zh:
+            page: zh
+            section: s-b5d12573d5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2e81484ec5
+            part: body
+          zh:
+            page: zh
+            section: s-b5d12573d5
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10629387-txxqq
+        title:
+          en:
+            page: en
+            section: s-8b65b5bd13
+            part: title
+          zh:
+            page: zh
+            section: s-370fb5a345
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: TXXQT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ATXXQT
+            label:
+              en: Wijayarana masonii
+              zh: Wijayarana masonii
+        text:
+          en:
+            page: en
+            section: s-8b65b5bd13
+            part: body
+          zh:
+            page: zh
+            section: s-370fb5a345
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Wijayarana
+          url: https://www.checklistbank.org/dataset/316115/taxon/TXXQQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-direct-group-pmc10629387-txxqq
+        referenceId: ref-2f4cd90d-08cb-410e-a946-a69cb12deb71
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Huia cavitympanum: XML Bioacoustic and morphometric data, Phylogenetic comparative analysis, Results Tables1–2 and figure captions, Discussion and Conclusions read; supplementary 735-species workbook unavailable, individual measurements, photos, original audio and model chains not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected anatomical and cited acoustic examples, with comparative-method limits; not a complete genus synthesis.
+            zh: 所选解剖及被引声学实例、比较方法限制；不是全属综述。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-32b9dd345b
+        part: body
+      zh:
+        page: zh
+        section: s-3c9ecd6c78
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.16322
+        referenceId: ref-2f4cd90d-08cb-410e-a946-a69cb12deb71
+        sourceKey: primary-direct-group-pmc10629387-txxqq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10629387/article.xml
+        sourceConcept: 2023 source-labelled Wijayarana illustration, cited example or pooled acoustic regime
+        evidenceRead: "Huia cavitympanum: XML Bioacoustic and morphometric data, Phylogenetic comparative analysis, Results Tables1–2 and figure captions, Discussion and Conclusions read; supplementary 735-species workbook unavailable, individual measurements, photos, original audio and model chains not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: methods
+            heading:
+              en: Masonii is a cited communication example with explicit naming
+              zh: Masonii 是名称明确的被引交流实例
+            referenceId: ref-2f4cd90d-08cb-410e-a946-a69cb12deb71
+            sourceKey: primary-direct-group-pmc10629387-txxqq
+            locator: PMC10629387 XML Bioacoustic and morphometric data; Figure1 caption; Results Table2; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2e90457e7c
+                part: body
+              zh:
+                page: zh
+                section: s-b17e1374d8
+                part: body
+            scope:
+              en: Selected anatomical and cited acoustic examples, with comparative-method limits; not a complete genus synthesis.
+              zh: 所选解剖及被引声学实例、比较方法限制；不是全属综述。
+    primaryResearchGroupSynthesisComplete: false

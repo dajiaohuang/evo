@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Copiula fistulans
+  displayName: Copiula fistulans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y4X2
+  sourceIndexes:
+    - name:
+        en: Copiula fistulans
+        zh: Copiula fistulans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y4X2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/8
+            queryName: Copiula fistulans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7aad28c89
+      - s-ece3ccce63
+      - s-0720fc575e
+      - s-ddaaa0397d
+      - s-f8d1b3af07
+      - s-925edbbade
+      - s-4c4c17c216
+      - s-31b278e64b
+      - s-09b85a7663
+      - s-3c46c180bd
+      - s-6802635a6d
+    zh:
+      - s-1c439d6fc7
+      - s-2d4d874d04
+      - s-93038ae3ee
+      - s-6c8626764a
+      - s-b62178eea0
+      - s-0bfd3bff5a
+      - s-93f9903d12
+      - s-228c90fa20
+      - s-7aeef6c181
+      - s-7afa78f687
+      - s-a88c36d474

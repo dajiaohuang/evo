@@ -1,0 +1,262 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Indirana brachytarsus
+    name:
+      en: Indirana brachytarsus
+      zh: Indirana brachytarsus
+    sourceClassification:
+      order: Anura
+      family: Ranixalidae
+      genus: Indirana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9ec655b6fe
+            part: body
+          zh:
+            page: zh
+            section: s-5ffa8ff4ad
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-32864a90be
+            part: body
+          zh:
+            page: zh
+            section: s-e2e8213400
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2360, 2361; Reference.csv rows 541
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2360
+        values:
+          - Ranixalidae
+          - Indirana
+          - Indirana brachytarsus
+          - F
+          - NA
+          - "12.80952381"
+          - "10.91428571"
+          - "3.623809524"
+          - "2.538095238"
+          - NA
+          - "3.10952381"
+          - "3.266666667"
+          - "2.357142857"
+          - "3.171428571"
+          - "5.619047619"
+          - "2.276190476"
+          - "8.147619048"
+          - "6.847619048"
+          - NA
+          - "17.56666667"
+          - "25.56190476"
+          - "19.62857143"
+          - "17.33333333"
+          - "9.033333333"
+          - NA
+          - NA
+          - "2.60952381"
+          - "3.514285714"
+          - "5.9"
+          - "10"
+          - "5.652380952"
+          - "2.747619048"
+          - "2.704761905"
+          - "4.442857143"
+          - "3.3"
+          - NA
+          - NA
+          - "1.047619048"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.152380952"
+          - NA
+          - "6.171428571"
+          - "31.7"
+      - rowNumber: 2361
+        values:
+          - Ranixalidae
+          - Indirana
+          - Indirana brachytarsus
+          - M
+          - NA
+          - "9.6"
+          - "8.333333333"
+          - "2.733333333"
+          - "1.933333333"
+          - NA
+          - "2.666666667"
+          - "2.5"
+          - "1.966666667"
+          - "2.266666667"
+          - "3.9"
+          - "1.766666667"
+          - "5.466666667"
+          - "5.2"
+          - NA
+          - "12.26666667"
+          - "18.13333333"
+          - "13.56666667"
+          - "12.5"
+          - "6.4"
+          - NA
+          - NA
+          - "1.6"
+          - "2.2"
+          - "3.666666667"
+          - "6.533333333"
+          - "3.733333333"
+          - "1.933333333"
+          - "1.833333333"
+          - "3.2"
+          - "2.733333333"
+          - NA
+          - NA
+          - "0.833333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.866666667"
+          - NA
+          - "4.566666667"
+          - "23.96666667"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 541
+        values:
+          - Anura
+          - Indirana_brachytarsus
+          - "Molur, S., Padhye, A., Krutha, K., Modak, N., DAHANUKAR, N., & Nameer, P. (2016). Leaping frogs (Anura: Ranixalidae) of the Western Ghats of India: An integrated taxonomic review. Journal of Threatened Taxa, 8(10):9221-9288. https://doi.org/10.11609/jott.2532.8.10.9221-9288"
+    availableTraitCodes:
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin3DW
+      - Toe4DW
+      - UAL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3PMW6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

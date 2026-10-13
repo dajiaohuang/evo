@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea gigandra L.Bolus
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 44C5Z, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000784959.
+      scope: Moraea as represented by COL26.8 usage 44C5Z. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/44C5Z
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 44C5Z
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784959-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 44C5Z / WFO wfo-0000784959
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-20d0ec4d-c325-85a0-a01a-cecb4d7f1682
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 6927 (Morphology), 29403 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 94277 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 20-40 cm. Leaf solitary, linear, channelled, hairy beneath. Flowers blue, rarely white or orange, inner tepals trifid with a long, straight, central cusp.
+            textZh: Moraea gigandra L.Bolus 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Morphology row 6927, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: With one of the largest and most striking flowers in the genus, Moraea gigandra has dark blue-purple, or rarely white or orange flowers with broad, shortly clawed outer tepals up to 45 mm long and 30-35 mm wide, the limbs spreading horizontally and with dark blue to turquoise, crescent-shaped nectar guides. The flowers are distinctive not only in size but also for their extraordinarily long anthers, 13-15 mm long and exceeding the style branches. The style crests are barely developed and are about as long as the stigmatic lobes. The single, channelled leaf is usually hairy on the abaxial surface and the stems are velvety. Like other species in the M. villosa alliance the inner tepals are 3-lobed, with an elongate spreading to trailing central lobe. The species is comparatively late-flowering. Moraea gigandra was evidently once common north of the Berg River but is now on the verge of extinction.
+            textZh: SANBI 条目提供了 Moraea gigandra L.Bolus 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94277, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Clay soils.
+            textZh: SANBI 区域植物志将 Moraea gigandra L.Bolus 的生境记为：Clay soils.
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Habitat row 29403, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-082e5d1964
+            part: title
+          zh:
+            page: zh
+            section: s-1f55ecd17a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-082e5d1964
+            part: body
+          zh:
+            page: zh
+            section: s-1f55ecd17a
+            part: body
+        sourceIds:
+          - sanbi_13878_0
+          - sanbi_18638_0
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-34aae7440e
+            part: title
+          zh:
+            page: zh
+            section: s-78ef69e0d2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-34aae7440e
+            part: body
+          zh:
+            page: zh
+            section: s-78ef69e0d2
+            part: body
+        sourceIds:
+          - sanbi_13878_0

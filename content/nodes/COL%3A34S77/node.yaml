@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus sartori
+  displayName: Dendropsophus sartori
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S77
+  sourceIndexes:
+    - name:
+        en: Dendropsophus sartori
+        zh: Dendropsophus sartori
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S77
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/420
+            queryName: Dendropsophus sartori
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/202
+            queryName: Hyla sartori
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/368
+            queryName: Hyla microcephala sartori
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3308f7dd2e
+      - s-b0dc2f3038
+      - s-cab3c8e5f3
+      - s-9373ace7a6
+      - s-c4280b0ff4
+      - s-ccf14304c6
+      - s-bed5b7a4b3
+      - s-0e18f136e5
+      - s-f2fc618e68
+      - s-30cf73fea4
+      - s-41300114e6
+    zh:
+      - s-0aaed0016b
+      - s-50acdacd37
+      - s-1104ca3dca
+      - s-3b3bc0e009
+      - s-06ce69b48c
+      - s-a23dd7b699
+      - s-ed09cabf13
+      - s-e145dfef37
+      - s-8e578dd881
+      - s-782583330e
+      - s-008d16a157

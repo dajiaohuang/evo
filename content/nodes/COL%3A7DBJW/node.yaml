@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton vietnamensis
+  displayName: Tylototriton vietnamensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBJW
+  sourceIndexes:
+    - name:
+        en: Tylototriton vietnamensis
+        zh: Tylototriton vietnamensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBJW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/165
+            queryName: Tylototriton vietnamensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/107
+            queryName: Yaotriton vietnamensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0113ba8aac
+      - s-ed9694d627
+      - s-74396d0c5f
+      - s-605fa8b405
+      - s-99d4706b41
+      - s-6b80709bb1
+      - s-b790f54872
+      - s-36c143189e
+      - s-63eb2972ce
+      - s-a6480d228b
+      - s-d5b98ada2c
+      - s-1ac3eba990
+      - s-4bd5e37ad5
+      - s-2b45d5f647
+      - s-0956db168d
+    zh:
+      - s-1026172e71
+      - s-8f3cf1a994
+      - s-7f71e9cfa7
+      - s-05de36e4f0
+      - s-df519ddc60
+      - s-7b547a1677
+      - s-0c40ffd6cb
+      - s-79679f91cb
+      - s-c5ab7dbdad
+      - s-3bca5e913d
+      - s-9c65187b42
+      - s-0a13444191
+      - s-59da122694
+      - s-ffaf4db40b
+      - s-2a6a6e70df

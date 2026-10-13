@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Alcidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Alcidae
+      en: Alcidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-51f389d8bb
+            part: body
+          en:
+            page: en
+            section: s-7d4f392f1f
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4da5744291
+            part: body
+          en:
+            page: en
+            section: s-ed2d3a43cf
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Alcidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=39605
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:39605
+          readingTargets:
+            - name: Fratercula dowi
+              pbdbTaxonId: txn:206173
+              canonicalPath: content/nodes/PBDB%3A206173
+            - name: Pseudocepphus teres
+              pbdbTaxonId: txn:147620
+              canonicalPath: content/nodes/PBDB%3A147620
+            - name: Uria paleohesperis
+              pbdbTaxonId: txn:145754
+              canonicalPath: content/nodes/PBDB%3A145754
+            - name: Uria onoi
+              pbdbTaxonId: txn:420124
+              canonicalPath: content/nodes/PBDB%3A420124
+            - name: Uria brodkorbi
+              pbdbTaxonId: txn:211202
+              canonicalPath: content/nodes/PBDB%3A211202
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-fc0b62ff6e
+        part: body
+      en:
+        page: en
+        section: s-1ec4f7b378
+        part: body

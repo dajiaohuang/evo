@@ -1,0 +1,402 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Acris crepitans
+    name:
+      en: Acris crepitans
+      zh: Acris crepitans
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-b8d205147f
+            part: body
+          zh:
+            page: zh
+            section: s-680ad8e96d
+            part: body
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-a7fe412943
+            part: body
+          zh:
+            page: zh
+            section: s-05fc90372d
+            part: body
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-52e0b9c1bd
+            part: body
+          zh:
+            page: zh
+            section: s-5af4164db9
+            part: body
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-018035a706
+            part: body
+          zh:
+            page: zh
+            section: s-21b1c239b3
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 4, 5; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Hylidae
+      genus: Acris
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 4
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Black-and-white image
+          - Acris crepitans
+          - Hylidae
+          - Acris
+          - Acris crepitans
+          - 36
+          - 36
+          - 11.169
+          - 25.034
+          - 5.685
+          - 7.087
+          - 3.49
+          - 2.693
+          - 1.396
+          - null
+          - null
+          - null
+          - 0.3125
+          - 0.695388888888889
+          - 0.157916666666667
+          - 0.196861111111111
+          - 0.969444444444444
+          - 0.74855555555556
+          - 0.387777777777778
+          - null
+          - null
+          - null
+          - Yanfang Song
+      - rowNumber: 5
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Color image
+          - Acris crepitans
+          - Hylidae
+          - Acris
+          - Acris crepitans
+          - 36
+          - 38
+          - 12.156
+          - 25.872
+          - 7.182
+          - 6.792
+          - 3.789
+          - 2.224
+          - 1.828
+          - null
+          - null
+          - null
+          - 0.31989473684215
+          - 0.6884215263158
+          - 0.189
+          - 0.17873684215263
+          - 0.99715263157895
+          - 0.585263157894737
+          - 0.48152631578947
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 4
+        scientificName: Acris crepitans
+        sourceField: BL/TL
+        suppliedRatio: 0.3125
+        originalNumerator: 11.169
+        originalTotalLength: 36
+        computedRatio: 0.31025
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 4
+        scientificName: Acris crepitans
+        sourceField: TMH/TL
+        suppliedRatio: 0.969444444444444
+        originalNumerator: 3.49
+        originalTotalLength: 36
+        computedRatio: 0.09694444444444444
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 4
+        scientificName: Acris crepitans
+        sourceField: DFH/TL
+        suppliedRatio: 0.74855555555556
+        originalNumerator: 2.693
+        originalTotalLength: 36
+        computedRatio: 0.07480555555555556
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 4
+        scientificName: Acris crepitans
+        sourceField: VFH/TL
+        suppliedRatio: 0.387777777777778
+        originalNumerator: 1.396
+        originalTotalLength: 36
+        computedRatio: 0.03877777777777777
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 5
+        scientificName: Acris crepitans
+        sourceField: TaL/TL
+        suppliedRatio: 0.6884215263158
+        originalNumerator: 25.872
+        originalTotalLength: 38
+        computedRatio: 0.6808421052631579
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 5
+        scientificName: Acris crepitans
+        sourceField: TMH/TL
+        suppliedRatio: 0.99715263157895
+        originalNumerator: 3.789
+        originalTotalLength: 38
+        computedRatio: 0.09971052631578947
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 5
+        scientificName: Acris crepitans
+        sourceField: DFH/TL
+        suppliedRatio: 0.585263157894737
+        originalNumerator: 2.224
+        originalTotalLength: 38
+        computedRatio: 0.05852631578947369
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 5
+        scientificName: Acris crepitans
+        sourceField: VFH/TL
+        suppliedRatio: 0.48152631578947
+        originalNumerator: 1.828
+        originalTotalLength: 38
+        computedRatio: 0.04810526315789474
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.695388888888889
+        row: 4
+        stage: 36
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.157916666666667
+        row: 4
+        stage: 36
+        type: Measurement
+        imageType: Black-and-white image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.196861111111111
+        row: 4
+        stage: 36
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.31989473684215
+        row: 5
+        stage: 36
+        type: Measurement
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.189
+        row: 5
+        stage: 36
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 9KKJ
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

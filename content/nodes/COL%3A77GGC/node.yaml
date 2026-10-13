@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus nattereri
+  displayName: Physalaemus nattereri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77GGC
+  sourceIndexes:
+    - name:
+        en: Physalaemus nattereri
+        zh: Physalaemus nattereri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77GGC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/339
+            queryName: Physalaemus nattereri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 55
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/320
+            queryName: Eupemphix nattereri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/430
+            queryName: Paludicola edentula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/191
+            queryName: Eupemphix marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/194
+            queryName: Eupomplyx marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73cdf69050
+      - s-7d54eb4618
+      - s-509842d3b1
+      - s-887cfc8c0c
+      - s-eccf967c55
+      - s-62a6b818d3
+      - s-c8137bec05
+      - s-1f00b72ca1
+      - s-7a9533b919
+      - s-da225d87c9
+      - s-5009c238e8
+      - s-c69bfafeb2
+    zh:
+      - s-5c6ddc9623
+      - s-e97fb2b795
+      - s-cddfa40f8a
+      - s-4d48aeec5b
+      - s-6a3eb1edc2
+      - s-6e7991c6bb
+      - s-a8c84e2b8a
+      - s-aa7288729c
+      - s-0c39c1e408
+      - s-08198cea36
+      - s-1e2352c62e
+      - s-e827acef8a

@@ -1,0 +1,124 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Notobubon striatum (Thunb.) Magee
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 47V7J, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 47V7J; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/47V7J
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 47V7J
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000509855-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 47V7J / WFO wfo-0000509855
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14097_0
+        referenceId: ref-ac5db2e6-14c1-873d-ab0b-9a10a59f59d1
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Notobubon striatum (Thunb.) Magee account; archive rows 9308 (Morphology), 24849 (Habitat), source identifier 14097.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_15329_0
+        referenceId: ref-06653e65-57ee-85a2-aa01-046c73752193
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Notobubon striatum (Thunb.) Magee account; archive rows 84475 (Diagnostic), source identifier 15329.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Well-branched shrublet, to 40 cm. Leaves bipinnate, < 20 mm long, leaflets 2- or 3-lobed, with recurved apices. Flowers yellow, in small, compound, flat-topped umbels, peduncle long, sepals relatively large. Fruit elliptic, mericarps dorsally compressed, dorsally ribbed, marginally winged, homomorphic, vittae present, without additional rib vittae, rib oil ducts inconspicuous.
+            sourceIds:
+              - sanbi_14097_0
+            locator: "SANBI/WFO archive Morphology row 9308; source 14097.0; publication: Magee, AR; Manning, JC; van Wyk, B-E; Tilney, PM. 2012. Apiaceae: Notobubon Magee. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 329 - 330. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: The strong anise-scent, which becomes immediately discernible as one nears the plant, is a very notable characteristic of this species. It can be attributed to the presence of estragole as the dominant compound (78-97%), found only within this species in the genus. It is most closely related to N. collinum with which is shares the 2- or 3-cleft or 2-lobed ultimate leaflet segments, scabrous umbels, and fruit with narrow commissural vittae and no additional vittae under the ribs. It is however readily distinguished by the much larger habit, ca. 1 m tall (0.2-0.4 m in N. collinum), the subterete leaf lobes (flattened in N. collinum), the longer, more divided leaves with 4 to 6 pairs of lateral pinnules along the rachis (only 2 or 3 pairs of lateral pinnules along the rachis in N. collinum) and the small sepals (relatively large in N. collinum).
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_15329_0
+            locator: "SANBI/WFO archive Diagnostic row 84475; source 15329.0; publication: Magee, AR; Curtis, O; van Wyk, B-E. 2016. A refined circumscription of Notobubon striatum and the resurrection of Dregea collina Ecklon & Zeyher (Apiaceae, Apioideae). Phytotaxa 266(1): 27 - 32. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Clay slopes in renosterveld.
+            sourceIds:
+              - sanbi_14097_0
+            locator: "SANBI/WFO archive Habitat row 24849; source 14097.0; publication: Magee, AR; Manning, JC; van Wyk, B-E; Tilney, PM. 2012. Apiaceae: Notobubon Magee. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 329 - 330. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

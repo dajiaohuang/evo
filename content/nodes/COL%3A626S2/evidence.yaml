@@ -1,0 +1,491 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Troglodytidae
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      zh: Troglodytidae
+      en: Troglodytidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetCantorchilusHistoricalV7
+          - avonetV7
+          - amnioteLifeHistory2015
+          - eltonTraits2014
+          - eltonTraitsSingleField2014
+          - avonetEcologyOnlyV7
+          - avonetPheugopediusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-10b33d0109
+            part: body
+          en:
+            page: en
+            section: s-d3ce467da7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - avonetCantorchilusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-a04ddbd2c0
+            part: body
+          en:
+            page: en
+            section: s-27a5b1db8b
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetPheugopediusHistoricalV7
+          - avonetV7
+          - amnioteLifeHistory2015
+          - eltonTraits2014
+          - eltonTraitsSingleField2014
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-da60d07365
+            part: body
+          en:
+            page: en
+            section: s-9ed8e9583a
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - avonetPheugopediusHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-e7394c4f40
+            part: body
+          en:
+            page: en
+            section: s-a08e32bf93
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-03569d8319
+            part: body
+          en:
+            page: en
+            section: s-34333ec7cf
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-c00d9c53c2
+            part: body
+          en:
+            page: en
+            section: s-fa855658a3
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f9e4101ae8
+            part: body
+          en:
+            page: en
+            section: s-321a5752f4
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8116950c39
+            part: body
+          en:
+            page: en
+            section: s-30338e9487
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-5a03a5479d
+            part: body
+          en:
+            page: en
+            section: s-10d7fc90fb
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-1adc257627
+            part: body
+          en:
+            page: en
+            section: s-2306183395
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-8b5b27acd9
+            part: body
+          en:
+            page: en
+            section: s-e411e86672
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-045c761a76
+            part: body
+          en:
+            page: en
+            section: s-eb9e2fcb9d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Troglodytidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/626S2
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 43 selected measured records placed under Troglodytidae in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 14 authored same-name records placed under Troglodytidae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 36 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 36
+            foraging: 36
+            activity: 0
+          readingTargets:
+            - name: Campylorhynchus brunneicapillus
+              colId: QHS3
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AQHS3
+            - name: Campylorhynchus jocosus
+              colId: 699PH
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A699PH
+            - name: Campylorhynchus chiapensis
+              colId: QHS5
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AQHS5
+            - name: Campylorhynchus griseus
+              colId: QHS7
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AQHS7
+            - name: Campylorhynchus rufinucha
+              colId: QHSD
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AQHSD
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 14 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 4
+            foraging: 10
+            activity: 0
+          readingTargets:
+            - name: Campylorhynchus gularis
+              colId: QHS8
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AQHS8
+            - name: Campylorhynchus yucatanicus
+              colId: QHSF
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AQHSF
+            - name: Campylorhynchus megalopterus
+              colId: QHSB
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AQHSB
+            - name: Campylorhynchus nuchalis
+              colId: QHSC
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AQHSC
+            - name: Hylorchilus navai
+              colId: 3NGNX
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3NGNX
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 3 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: VLG6
+              name: Cistothorus meridae
+              canonicalPath: content/nodes/COL%3AVLG6
+            - colId: 3DYLW
+              name: Ferminia cerverai
+              canonicalPath: content/nodes/COL%3A3DYLW
+            - colId: 3NGNX
+              name: Hylorchilus navai
+              canonicalPath: content/nodes/COL%3A3NGNX
+          fieldAccountCounts:
+            Habitat: 3
+            Trophic.Niche: 3
+            Primary.Lifestyle: 3
+            Migration: 3
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+      - id: avonetPheugopediusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Pheugopedius historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 8481–8490; each eBird and BirdTree crosswalk, phe/th COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：旧 Thryothorus 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Eight historical rows: retain older Thryothorus combinations, morphology samples, separately compiled mass and ecological categories."
+      - id: avonetCantorchilusHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Cantorchilus historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 8443–8451; each eBird and BirdTree crosswalk, can/th COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Thryothorus 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Thryothorus combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-608a63e02c
+        part: body
+      en:
+        page: en
+        section: s-7ba354e184
+        part: body

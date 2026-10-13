@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chalcites meyerii
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Chalcites meyerii
+      en: Chalcites meyerii
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-5d0f501699
+            part: body
+          en:
+            page: en
+            section: s-2ec6e48131
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-27414df3ae
+            part: body
+          en:
+            page: en
+            section: s-0d732b3240
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-45f59aeab9
+            part: body
+          en:
+            page: en
+            section: s-d6acc3bc48
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-0e7bc45dde
+            part: body
+          en:
+            page: en
+            section: s-bfd8da1b95
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-6a734c78ce
+            part: body
+          en:
+            page: en
+            section: s-b546a05711
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chalcites meyerii
+          url: https://www.checklistbank.org/dataset/316115/taxon/CNJV8
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetChalcitesHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Chalcites historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 6 selected AVONET1_BirdLife rows within 2090–2097; full eBird and BirdTree crosswalks, fourteen related COL cha/chr/rh name records and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 六条历史行：Chrysococcyx／Rhamphomantis 组合、单只雌或雄鸟、独立体重与生态类别分开。
+            en: "Six historical rows: separate Chrysococcyx/Rhamphomantis names, single female or male birds, compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-7e15169f90
+        part: body
+      en:
+        page: en
+        section: s-ae44020d77
+        part: body

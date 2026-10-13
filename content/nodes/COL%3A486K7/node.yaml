@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus ruizi
+  displayName: Nymphargus ruizi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486K7
+  sourceIndexes:
+    - name:
+        en: Nymphargus ruizi
+        zh: Nymphargus ruizi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486K7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/450
+            queryName: Nymphargus ruizi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/21
+            queryName: Cochranella ruizi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-826cd01de3
+      - s-495c2eeb6f
+      - s-0e531c75eb
+      - s-0aaf54d068
+      - s-93ea0598d1
+      - s-f0c035bf67
+      - s-b894f1f25f
+      - s-9ae910a6b7
+    zh:
+      - s-e3824d6b32
+      - s-1b6733c0a8
+      - s-5ca9087e8d
+      - s-72a9f3bd8c
+      - s-3e5359c523
+      - s-1d4700e1fe
+      - s-aed7ab386e
+      - s-b79b889bbd

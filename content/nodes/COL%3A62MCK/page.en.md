@@ -1,0 +1,71 @@
+## Accepted name and placement {#s-b0b9fd6ee6}
+In COL26.8, Cornufer is an accepted genus below Ceratobatrachinae. The complete accepted-species query contains 58 species beneath this recorded classification path. This is a dated catalogue count, with distinct names and concepts retained in their recorded hierarchy.
+
+## Reading route {#s-1fa3a704ce}
+Read from this genus to its subordinate groups and species. Compare accepted names within the same release before consulting species research. The hierarchy provides a route through the catalogue; it does not establish shared traits or a biological history for every descendant.
+
+## Continue through the recorded tree {#s-17342e5c8e}
+The following materialized child pages follow the pinned classification. Source-specific biological accounts keep their own identity and review boundaries.
+
+- [Cornufer acrochordus](Cornufer_acrochordus/page.en.md)
+- [Cornufer aculeodactylus](Cornufer_aculeodactylus/page.en.md)
+- [Cornufer adiastolus](Cornufer_adiastolus/page.en.md)
+- [Cornufer admiraltiensis](Cornufer_admiraltiensis/page.en.md)
+- [Cornufer akarithymus](Cornufer_akarithymus/page.en.md)
+- [Cornufer batantae](Cornufer_batantae/page.en.md)
+- [Cornufer bimaculatus](Cornufer_bimaculatus/page.en.md)
+- [Cornufer boulengeri](Cornufer_boulengeri/page.en.md)
+- [Cornufer browni](Cornufer_browni/page.en.md)
+- [Cornufer bufoniformis](Cornufer_bufoniformis/page.en.md)
+- [Cornufer bufonulus](Cornufer_bufonulus/page.en.md)
+- [Cornufer caesiops](Cornufer_caesiops/page.en.md)
+- [Cornufer cheesmanae](Cornufer_cheesmanae/page.en.md)
+- [Cornufer citrinospilus](Cornufer_citrinospilus/page.en.md)
+- [Cornufer cryptotis](Cornufer_cryptotis/page.en.md)
+- [Cornufer custos](Cornufer_custos/page.en.md)
+- [Cornufer desticans](Cornufer_desticans/page.en.md)
+- [Cornufer elegans](Cornufer_elegans/page.en.md)
+- [Cornufer exedrus](Cornufer_exedrus/page.en.md)
+- [Cornufer gigas](Cornufer_gigas/page.en.md)
+- [Cornufer gilliardi](Cornufer_gilliardi/page.en.md)
+- [Cornufer guentheri](Cornufer_guentheri/page.en.md)
+- [Cornufer guppyi](Cornufer_guppyi/page.en.md)
+- [Cornufer hedigeri](Cornufer_hedigeri/page.en.md)
+- [Cornufer heffernani](Cornufer_heffernani/page.en.md)
+- [Cornufer latro](Cornufer_latro/page.en.md)
+- [Cornufer macrops](Cornufer_macrops/page.en.md)
+- [Cornufer macrosceles](Cornufer_macrosceles/page.en.md)
+- [Cornufer magnus](Cornufer_magnus/page.en.md)
+- [Cornufer malukuna](Cornufer_malukuna/page.en.md)
+- [Cornufer mamusiorum](Cornufer_mamusiorum/page.en.md)
+- [Cornufer manus](Cornufer_manus/page.en.md)
+- [Cornufer mediodiscus](Cornufer_mediodiscus/page.en.md)
+- [Cornufer mimicus](Cornufer_mimicus/page.en.md)
+- [Cornufer minutus](Cornufer_minutus/page.en.md)
+- [Cornufer montanus](Cornufer_montanus/page.en.md)
+- [Cornufer myersi](Cornufer_myersi/page.en.md)
+- [Cornufer nakanaiorum](Cornufer_nakanaiorum/page.en.md)
+- [Cornufer neckeri](Cornufer_neckeri/page.en.md)
+- [Cornufer nexipus](Cornufer_nexipus/page.en.md)
+- [Cornufer opisthodon](Cornufer_opisthodon/page.en.md)
+- [Cornufer paepkei](Cornufer_paepkei/page.en.md)
+- [Cornufer papuensis](Cornufer_papuensis/page.en.md)
+- [Cornufer parilis](Cornufer_parilis/page.en.md)
+- [Cornufer parkeri](Cornufer_parkeri/page.en.md)
+- [Cornufer pelewensis](Cornufer_pelewensis/page.en.md)
+- [Cornufer punctatus](Cornufer_punctatus/page.en.md)
+- [Cornufer schmidti](Cornufer_schmidti/page.en.md)
+- [Cornufer solomonis](Cornufer_solomonis/page.en.md)
+- [Cornufer sulcatus](Cornufer_sulcatus/page.en.md)
+- [Cornufer trossulus](Cornufer_trossulus/page.en.md)
+- [Cornufer vertebralis](Cornufer_vertebralis/page.en.md)
+- [Cornufer vitianus](Cornufer_vitianus/page.en.md)
+- [Cornufer vitiensis](Cornufer_vitiensis/page.en.md)
+- [Cornufer vogti](Cornufer_vogti/page.en.md)
+- [Cornufer weberi](Cornufer_weberi/page.en.md)
+- [Cornufer wolfi](Cornufer_wolfi/page.en.md)
+- [Cornufer wuenscheorum](Cornufer_wuenscheorum/page.en.md)
+
+## catalogue-profile / limitations {#s-14e1908b0a}
+Taxonomic and source-bounded group introduction. Historical source subsets are not assumed equivalent to the entire current group; unrepresented biological evidence remains to be reviewed. This reader is.
+

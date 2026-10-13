@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kaloula mediolineata
+  displayName: Kaloula mediolineata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QZKX
+  sourceIndexes:
+    - name:
+        en: Kaloula mediolineata
+        zh: Kaloula mediolineata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QZKX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/131
+            queryName: Kaloula mediolineata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/164
+            queryName: Callula mediolineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e983403012
+      - s-f8dcaaf9d5
+      - s-9bb0b46beb
+      - s-8a695aada8
+      - s-340cc0b7c6
+      - s-8280caa3af
+      - s-bc456ae578
+      - s-5bed36eb33
+      - s-900f68a891
+      - s-a05065937f
+    zh:
+      - s-222006c5a4
+      - s-ac601e1d31
+      - s-cd1d2737ac
+      - s-a84d13f5ee
+      - s-dd29021325
+      - s-2e2d1daa6c
+      - s-262983131d
+      - s-cd151485fe
+      - s-ac5c6ca0af
+      - s-984345b8d4

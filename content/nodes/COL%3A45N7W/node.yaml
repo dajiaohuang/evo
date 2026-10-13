@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana unculuanus
+  displayName: Nanorana unculuanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7W
+  sourceIndexes:
+    - name:
+        en: Nanorana unculuanus
+        zh: Nanorana unculuanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/190
+            queryName: Nanorana unculuanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/425
+            queryName: Chaparana unculuanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/33
+            queryName: Rana unculuanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/34
+            queryName: Rana unculuana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/35
+            queryName: Paa unculuana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/36
+            queryName: Paa unculuanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/37
+            queryName: Unculurana unculuanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5aadb759c8
+      - s-0c3b7711b6
+      - s-62648ca222
+      - s-6d99283ad9
+      - s-8a09e9b399
+      - s-750f399c7f
+      - s-264076309e
+      - s-034d05b6af
+      - s-0407d813b0
+      - s-f7e1e72804
+      - s-44a88b020d
+      - s-d414614dea
+      - s-16e9e63532
+    zh:
+      - s-216c907d7d
+      - s-42c445f426
+      - s-b1e0b17a0b
+      - s-ffc471b5c4
+      - s-609d7f89be
+      - s-469725193a
+      - s-f336ed3d7f
+      - s-b6496468c3
+      - s-dcd8274396
+      - s-0f5795b935
+      - s-621d1fb819
+      - s-b5affb2faf
+      - s-c9aa07cdb5

@@ -1,0 +1,223 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Occidozyga shiwandashanensis Chen, Peng, Liu, Huang, Liao & Mo, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Occidozyga shiwandashanensis
+      zh: Occidozyga shiwandashanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-257ce7e864
+            part: title
+          zh:
+            page: zh
+            section: s-039cc62bfb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-257ce7e864
+            part: body
+          zh:
+            page: zh
+            section: s-039cc62bfb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3bbf584fbe
+            part: title
+          zh:
+            page: zh
+            section: s-eccb7c1637
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3bbf584fbe
+            part: body
+          zh:
+            page: zh
+            section: s-eccb7c1637
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-6183ac170c
+            part: title
+          zh:
+            page: zh
+            section: s-aff025d4f4
+            part: title
+        sourceIds:
+          - primary-pmc10589760-qt6br
+        text:
+          en:
+            page: en
+            section: s-6183ac170c
+            part: body
+          zh:
+            page: zh
+            section: s-aff025d4f4
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ff5a08f66e
+            part: title
+          zh:
+            page: zh
+            section: s-a02148606a
+            part: title
+        sourceIds:
+          - primary-pmc10589760-qt6br
+        text:
+          en:
+            page: en
+            section: s-ff5a08f66e
+            part: body
+          zh:
+            page: zh
+            section: s-a02148606a
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-c057d78000
+            part: body
+          zh:
+            page: zh
+            section: s-7d49be4d3d
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Occidozyga shiwandashanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/QT6BR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10589760-qt6br
+        referenceId: ref-d8a4a2bb-7770-4e98-a052-359af016e8b3
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Occidozyga shiwandashanensis: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-523136bf75
+        part: body
+      zh:
+        page: zh
+        section: s-8845ebd771
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.11.e109726
+        referenceId: ref-d8a4a2bb-7770-4e98-a052-359af016e8b3
+        sourceKey: primary-pmc10589760-qt6br
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10589760/article.xml
+        sourceConcept: Occidozyga shiwandashanensis
+        evidenceRead: "Occidozyga shiwandashanensis: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: A Vietnamese record beyond the Chinese type locality
+              zh: 中国模式地点之外的越南记录
+            referenceId: ref-d8a4a2bb-7770-4e98-a052-359af016e8b3
+            sourceKey: primary-pmc10589760-qt6br
+            locator: "Occidozyga shiwandashanensis: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e13143f1e5
+                part: body
+              zh:
+                page: zh
+                section: s-f9906aa269
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Ponds, streams and ground at night
+              zh: 夜间水池、溪流与地面
+            referenceId: ref-d8a4a2bb-7770-4e98-a052-359af016e8b3
+            sourceKey: primary-pmc10589760-qt6br
+            locator: "Occidozyga shiwandashanensis: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2c2099ad0f
+                part: body
+              zh:
+                page: zh
+                section: s-081b28ab02
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

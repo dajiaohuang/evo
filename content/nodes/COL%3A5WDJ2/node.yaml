@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Barygenys parvula
+  displayName: Barygenys parvula
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WDJ2
+  sourceIndexes:
+    - name:
+        en: Barygenys parvula
+        zh: Barygenys parvula
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WDJ2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/386
+            queryName: Barygenys parvula
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0fabe7940b
+      - s-5c2811327f
+      - s-1041652752
+      - s-9921c62b3d
+      - s-b8625d2bef
+      - s-341195c901
+      - s-a9e9d6c5d8
+      - s-e2d39cc206
+      - s-9235e49efd
+      - s-24078a7997
+    zh:
+      - s-c0bcc52e7b
+      - s-498fa43b0c
+      - s-e0de66554f
+      - s-93a8f7f0a0
+      - s-484568a8c8
+      - s-798cb0514b
+      - s-10ae6dd594
+      - s-b4dab03642
+      - s-7eaadb382b
+      - s-174d84214f

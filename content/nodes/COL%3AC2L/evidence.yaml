@@ -1,0 +1,305 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Coleoptera
+    rank: order
+    sourceDatasetId: "290628"
+    name:
+      zh: 鞘翅目
+      en: Beetles
+    sections:
+      - topic: form
+        text:
+          en:
+            page: en
+            section: s-df502f9bb0
+            part: body
+          zh:
+            page: zh
+            section: s-95edd5f5bd
+            part: body
+        sourceIds:
+          - account
+        title:
+          en:
+            page: en
+            section: s-df502f9bb0
+            part: title
+          zh:
+            page: zh
+            section: s-95edd5f5bd
+            part: title
+      - topic: ecology
+        text:
+          en:
+            page: en
+            section: s-ea5eb71e28
+            part: body
+          zh:
+            page: zh
+            section: s-40b04fd1ff
+            part: body
+        sourceIds:
+          - account
+        title:
+          en:
+            page: en
+            section: s-ea5eb71e28
+            part: title
+          zh:
+            page: zh
+            section: s-40b04fd1ff
+            part: title
+    sources:
+      - id: account
+        referenceId: ref-ea806bb7-f105-8ccc-a132-8a642e69e25c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 目级形态、变态与食性概览；不采用教材中的旧物种总数和科级分类。
+            en: Order-level morphology, development and feeding; excludes older species totals and family classification.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 290628
+          url: https://www.checklistbank.org/dataset/316115/taxon/C2L
+          scope:
+            zh: 固定版本中的接受名、作者、等级及父链；保留亚属写法和未分配的来源 ID，不据名称推导生物学事实。
+            en: Pinned accepted name, authorship, rank and parent chain; subgenus notation and unassigned source IDs are retained. Names do not establish biological traits.
+    limitations:
+      en:
+        page: en
+        section: s-4da5387d5a
+        part: body
+      zh:
+        page: zh
+        section: s-2635d1bd15
+        part: body
+  atlas-node:
+    name: Coleoptera
+    commonName: Beetles
+    commonNameZh: 甲虫
+    rank: order
+    taxonId: txn:69148
+    firstAppearance: 299
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: txn:69148
+    scientificName: Coleoptera
+    commonName: Beetles
+    commonNameZh: 甲虫
+    rank: order
+    parentName: Insecta
+    extinct: false
+    geography:
+      - Permian–Triassic beetle fossil localities sampled by Zhao et al.
+      - "McKenna et al. phylogenomic sample: 373 beetle species spanning approximately 67% of families"
+    overview:
+      page: en
+      section: s-83643af121
+      part: body
+    overviewZh:
+      page: zh
+      section: s-b8bf20db70
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-6e86e16fdc
+        part: body
+      habitat:
+        page: en
+        section: s-24ab08d1c8
+        part: body
+      locomotion:
+        page: en
+        section: s-6adc912b61
+        part: body
+      bodySize:
+        page: en
+        section: s-f5b9cdaa4f
+        part: body
+      guild:
+        page: en
+        section: s-5c28def86b
+        part: body
+      dietZh:
+        page: zh
+        section: zh-7cd872fdb5ebfc
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-1a7d8022086093
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-35b3da457acf7a
+        part: body
+      guildZh:
+        page: zh
+        section: zh-44c1782dcdbec2
+        part: body
+    traits:
+      - page: en
+        section: s-67b809b3df
+        part: body
+      - page: en
+        section: s-abac51422e
+        part: body
+      - page: en
+        section: s-2bef5599e8
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-18d0f4366a
+      part: body
+    evidenceSummaryZh: Zhao 等人将化石鞘翅形态变化与二叠纪末的植被转替联系起来；McKenna 等人依据广泛但不完整的现生样本推断亲缘关系。两项研究都不能单独解决全目生态、完整系统树或全球分布。
+    confidence: medium
+    referenceIds:
+      - zhao-2021-beetle-evolution
+      - mckenna-2019-beetle-diversity
+    readerLimitations:
+      en:
+        page: en
+        section: s-e8ca08f166
+        part: body
+      zh:
+        page: zh
+        section: s-4384d33ce0
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-82e81fd5da81bb
+        part: body
+      - page: zh
+        section: zh-df4e1998e936a2
+        part: body
+      - page: zh
+        section: zh-4f1c222a39ab7e
+        part: body
+  claims:
+    - subjectId: taxon:coleoptera
+      claimKind: scientific
+      claimType: morphology
+      statement: Beetle elytra are hardened forewings that chiefly protect the hindwings and underlying body. Zhao et al. use these commonly preserved fossil structures to compare morphological disparity in Permian and Triassic beetles; this sampled comparison does not establish a single ecology for living Coleoptera.
+      confidence: high
+      confidenceRationale: The primary study explicitly defines elytra and explains their selection for disparity analysis. Confidence applies to that anatomical description and study design, not to classifying all living beetle ecologies.
+      referenceLinks:
+        - referenceId: zhao-2021-beetle-evolution
+          relation: supports
+          pages: e72692
+          quoteLocator: "Morphological disparity: paragraph explaining three reasons for selecting beetle elytra"
+    - subjectId: taxon:coleoptera
+      claimKind: scientific
+      claimType: topology
+      statement: A broad beetle phylogeny links sampled genomic changes and plant associations to diversification across Coleoptera. The calibrated tree is a model of sampled lineages, not a direct fossil date for beetle origin or a complete order history.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond the calibrated tree is a model of sampled lineages, not a direct fossil date for beetle origin or a complete order history.
+      referenceLinks:
+        - relation: supports
+          referenceId: mckenna-2019-beetle-diversity
+          pages: 24729–24737
+          figure: Figures 1–4; supplementary phylogenies
+          quoteLocator: Taxon and gene sampling; phylogeny; diversification analyses
+    - subjectId: taxon:coleoptera
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 298–0 Ma Coleoptera display begins at the standardized Asselian bin containing the earliest definite beetles and is not an inferred order-origin date.
+      confidence: medium
+      confidenceRationale: The integrated fossil dataset identifies Tshekardocoleidae as the earliest definite beetles and exposes the 298 Ma binning method used for the display edge.
+      referenceLinks:
+        - referenceId: zhao-2021-beetle-evolution
+          relation: supports
+          pages: Article e72692
+          figure: Figure 2 and source data
+          quoteLocator: Discussion on earliest definite beetles and Methods Diversity analysis with Asselian bins beginning at 298 Ma
+    - subjectId: taxon:coleoptera
+      claimKind: scientific
+      claimType: biogeography
+      statement: Zhao et al. compare Permian and Triassic beetle elytra from a bounded fossil sample, while McKenna et al. sample 373 living beetles spanning about 67% of families; these records do not constitute a complete geographic distribution for Coleoptera.
+      confidence: medium
+      confidenceRationale: The two studies report their fossil localities and taxon sampling directly, but neither study surveys geographic presence and absence across the order.
+      referenceLinks:
+        - referenceId: zhao-2021-beetle-evolution
+          relation: supports
+          pages: 10:e72692
+          figure: Figure 1 and source data
+          quoteLocator: Fossil taxon sampling, localities and Permian–Triassic elytra dataset
+        - referenceId: mckenna-2019-beetle-diversity
+          relation: supports
+          figure: Figures 1–2; supplementary taxon sampling
+          quoteLocator: 373 sampled beetle species representing approximately 67% of families
+    - subjectId: taxon:coleoptera
+      claimKind: scientific
+      claimType: ecology
+      statement: Zhao et al. link Permian–Triassic beetle disparity changes to vegetation turnover after end-Permian deforestation and discuss plant associations in the sampled lineages; this is a historical ecological interpretation, not direct behaviour or a uniform ecology for living beetles.
+      confidence: medium
+      confidenceRationale: The study explicitly tests vegetation and beetle-disparity associations, while the ecological mechanism is reconstructed from fossils and sampled comparisons rather than observed behaviour.
+      referenceLinks:
+        - referenceId: zhao-2021-beetle-evolution
+          relation: supports
+          pages: 10:e72692
+          figure: Figures 2–4
+          quoteLocator: Discussion of end-Permian deforestation, vegetation turnover, disparity and plant associations
+    - subjectId: taxon:coleoptera
+      claimKind: scientific
+      claimType: taxonomy
+      statement: McKenna et al. use a 373-taxon genomic sample to test beetle relationships and diversification, while Zhao et al. add a fossil elytral sample; the resulting classification is a sampled hypothesis rather than a complete or final Coleoptera taxonomy.
+      confidence: medium
+      confidenceRationale: Both primary studies report explicit taxon and character sampling, but unsampled families, missing data and alternative analyses limit order-wide taxonomic resolution.
+      referenceLinks:
+        - referenceId: mckenna-2019-beetle-diversity
+          relation: supports
+          pages: 24729–24737
+          figure: Figures 1–4; supplementary phylogenies
+          quoteLocator: Beetle taxon sampling, genomic phylogeny and diversification analysis
+        - referenceId: zhao-2021-beetle-evolution
+          relation: supports
+          pages: 10:e72692
+          figure: Figure 2 and source data
+          quoteLocator: Fossil beetle sampling and elytral disparity dataset
+  claim-rationales.zh:
+    - 主研究明确解释了鞘翅及其被选用于形态差异度分析的原因。置信度适用于该解剖描述和研究设计，不表示能够统一归类所有现生甲虫的生态。
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - 整合化石数据集标识最早明确甲虫，并公开图集 298 Ma 边界所用的时间箱方法。
+    - 两项研究分别报告化石地点与现生采样范围，但都不是对鞘翅目全球存在和缺失的完整普查。
+    - 研究明确检验植被变化与甲虫形态差异的关联，但生态机制来自化石和样本比较，并非直接行为观察。
+    - 两项一手研究都明确报告了取样类群和性状，但未取样科、缺失数据与替代分析限制了鞘翅目的整体分类解析度。
+  claim-statements.zh:
+    - 甲虫的鞘翅是硬化的前翅，主要保护后翅及下方身体。Zhao 等利用这些常见的化石保存结构比较二叠纪与三叠纪甲虫的形态差异度；这一采样比较不能确定现生鞘翅目统一的生态类型。
+    - 广泛的甲虫系统树把所抽样基因组变化和植物关联与鞘翅目多样化联系起来。经校准的树是抽样谱系的模型，不是甲虫起源的直接化石日期，也不是全目的完整历史。
+    - 298–0 Ma 的鞘翅目显示从包含最早明确甲虫的标准化 Asselian 时间箱开始，并非推断的目级起源日期。
+  ranges:
+    - entityId: coleoptera
+      rangeKind: global-composite
+      taxonomicConcept: Coleoptera earliest-definite-fossil-to-living navigation envelope
+      geographicScope: Reviewed global fossil dataset and living representatives
+      olderMa: 298
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 298 Ma edge is the standardized Asselian time-bin boundary for the earliest definite beetles, not an origination date.
+      evidenceBasis: An integrated fossil dataset identifies Early Permian Tshekardocoleidae as the earliest definite beetles and assigns their first standardized bin an older edge of 298 Ma; living beetles extend the envelope to the present.
+      confidence: medium
+      claimIds:
+        - claim:taxon:coleoptera:fossil-range
+      referenceLocators:
+        - referenceId: zhao-2021-beetle-evolution
+          locator: Results Figure 2 and source data; Discussion paragraph on the earliest definite beetles; Methods, Diversity analysis, Asselian–Ladinian bins beginning at 298 Ma
+      evidenceLevel: literature-synthesized

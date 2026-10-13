@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sarcohyla hapsa
+  displayName: Sarcohyla hapsa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XM63
+  sourceIndexes:
+    - name:
+        en: Sarcohyla hapsa
+        zh: Sarcohyla hapsa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XM63
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/476
+            queryName: Sarcohyla hapsa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0d01ddc8e2
+      - s-2ebf2dc0a7
+      - s-59b345bbb5
+      - s-eaacce3693
+      - s-be914a8380
+      - s-6f3e5a1add
+      - s-0767b6695d
+      - s-427c7e7c51
+      - s-3ee8e48809
+      - s-0c9a3fa085
+      - s-5a12039ad7
+      - s-5e7695e0a1
+    zh:
+      - s-ac8f8630e0
+      - s-4a1c88fa5f
+      - s-2f625b17c5
+      - s-51987dad97
+      - s-ba0eb9d61a
+      - s-1c95521b29
+      - s-8d530863da
+      - s-1d44a2301e
+      - s-153cfcaa40
+      - s-5ebc37229a
+      - s-0efd31e630
+      - s-e9f699424a

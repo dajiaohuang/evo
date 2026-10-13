@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis mossambicus
+  displayName: Leptopelis mossambicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSN3
+  sourceIndexes:
+    - name:
+        en: Leptopelis mossambicus
+        zh: Leptopelis mossambicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSN3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/493
+            queryName: Leptopelis mossambicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a08162c58
+      - s-19c7c93bff
+      - s-65acd303dc
+      - s-c3b16d0a01
+      - s-03e0e67365
+      - s-97961983d5
+      - s-9194ffd6ea
+      - s-9b0e49517f
+      - s-13ea906099
+      - s-f2bbd1af25
+      - s-403e4759bd
+      - s-0585971965
+      - s-d43cbb06cf
+    zh:
+      - s-13c7fa0ce6
+      - s-99a87a4fbd
+      - s-aef3e1476f
+      - s-a65e4323d9
+      - s-efb582e352
+      - s-ee8873fc11
+      - s-62b9c6bc1e
+      - s-70b2b3e63e
+      - s-9afc548780
+      - s-d5232701d8
+      - s-08dd4b5fd6
+      - s-b6d97f1406
+      - s-6a6eeb2e52

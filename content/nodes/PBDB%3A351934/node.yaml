@@ -1,0 +1,31 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Angelarctocyon
+  displayName: Angelarctocyon
+  rank: genus
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=351934
+    parentSourceIdentifier: txn:41266
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=351934
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e18fa943b
+      - s-e5410a300e
+      - s-1e88bf7912
+      - s-c31f928d96
+    zh:
+      - s-7e50bc3ecf
+      - s-d34df8cf74
+      - s-b77a719035
+      - s-be614bea48

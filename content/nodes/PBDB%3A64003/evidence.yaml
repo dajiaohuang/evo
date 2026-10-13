@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aulophyseter mediatlanticus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Aulophyseter mediatlanticus
+      en: Aulophyseter mediatlanticus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f0a9172246
+            part: body
+          en:
+            page: en
+            section: s-ca23712ddb
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ab2d918c20
+            part: body
+          en:
+            page: en
+            section: s-3aad1fb603
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-49326a6c6c
+            part: body
+          en:
+            page: en
+            section: s-00c1860e41
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-01fa6ef4f4
+            part: body
+          en:
+            page: en
+            section: s-6808a09ddc
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cfd8b81ccf
+            part: body
+          en:
+            page: en
+            section: s-98814c6e3e
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Aulophyseter mediatlanticus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=64003&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:64003; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:64003
+          selectedOccurrenceIds:
+            - occ:535229
+            - occ:1536896
+          selectedCollectionIds:
+            - col:55395
+            - col:45455
+          sourceReferenceIds:
+            - ref:12331
+            - ref:11890
+          originalIdentificationMappings:
+            - occurrenceId: occ:535229
+              originalIdentifiedName: Paracetus mediatlanticus n. sp.
+              acceptedName: Aulophyseter mediatlanticus
+              difference: recombined as
+            - occurrenceId: occ:1536896
+              originalIdentifiedName: Diaphorocetus mediatlanticus
+              acceptedName: Aulophyseter mediatlanticus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-c1434eec77
+        part: body
+      en:
+        page: en
+        section: s-f1a01ca4b1
+        part: body

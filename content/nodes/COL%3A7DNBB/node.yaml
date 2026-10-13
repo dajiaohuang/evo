@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uraeotyphlus oxyurus
+  displayName: Uraeotyphlus oxyurus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DNBB
+  sourceIndexes:
+    - name:
+        en: Uraeotyphlus oxyurus
+        zh: Uraeotyphlus oxyurus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DNBB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/220
+            queryName: Uraeotyphlus oxyurus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/22
+            queryName: Caecilia oxyura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c7b690bcd8
+      - s-2f39895646
+      - s-4914807b37
+      - s-ccd8f8ac1c
+      - s-f0f3431fff
+      - s-ea234e3d4b
+      - s-80d5ed8140
+      - s-9fab6035ab
+      - s-f31bccd8bf
+      - s-89fa97e052
+      - s-79304c94c5
+      - s-bc6bfe5ab8
+      - s-a9d69c9836
+    zh:
+      - s-7725e4843f
+      - s-3ed7adc6bb
+      - s-38d1d22297
+      - s-2a255c4b3f
+      - s-6ad6f5d51d
+      - s-496d68856b
+      - s-fea866531c
+      - s-2c8e15d4b9
+      - s-c2d38e4953
+      - s-1c7077d401
+      - s-c6c2c2ec06
+      - s-c42813cbd3
+      - s-afb313be8f

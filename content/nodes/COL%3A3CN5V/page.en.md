@@ -1,0 +1,9 @@
+## What structures define Euphorbia bruynsii? {#s-1e95182f14}
+This unarmed succulent perennial grows from a spherical to nearly cylindrical tuberous root up to 35 mm wide and a long underground stem or neck. Its slender, usually simple stem rises above ground; spaced conical teeth on spiral rows of tubercles make it look slightly zigzagged. Deciduous, hairless leaves are succulent and up to 15 × 3 mm, with a narrow translucent margin; they grow from the tubercles and often sit below a ruby-colored axillary bud. The terminal flower unit is a bisexual cyathium, followed by paired bracts and branching cymes that shorten with each fork. The cup-shaped involucre is hairy inside and smooth outside; it has five nectar glands with curved reddish margins and five fringed lobes densely covered in white hairs. Male flowers have pale pink filaments and yellow-orange pollen. Female flowers have a glabrous ovary; their styles join for about half their length, then spread into short, two-lobed tips. The cream capsule has three lobes and is about 6 mm across. Seeds are smooth and finely powdery, cream to brownish toward the base.
+
+## How does the source compare it with related species? {#s-6f643928d2}
+The account says its closest relationship probably lies with Euphorbia gariepina, citing similarities in the tuberculate stem, leaves, and inflorescence; it notes that the bisexual flower unit and seeds are especially similar. It also compares the stem with unusually elongated cultivated branches of E. tridentata but says the resemblance ends there. The account distinguishes E. bruynsii as a small tuberous-rooted plant, usually with one slender stem, unlike its more densely branched and succulent relative.
+
+## What site observation accompanies the record? {#s-219c777522}
+A note attributed to Bruyns says it was found with the shelter and support of small shrubs on a low conglomerate hill.
+

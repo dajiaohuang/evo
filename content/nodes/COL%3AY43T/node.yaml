@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus concinnus
+  displayName: Cophixalus concinnus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43T
+  sourceIndexes:
+    - name:
+        en: Cophixalus concinnus
+        zh: Cophixalus concinnus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/439
+            queryName: Cophixalus concinnus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-806ee328b2
+      - s-92983beb0f
+      - s-41937c0dee
+      - s-15315b1206
+      - s-7de8305287
+      - s-15a85f1a30
+      - s-3fa0933b37
+      - s-4178163a8f
+      - s-622d16caee
+      - s-c2e5addfc0
+      - s-c1e6e1ea45
+      - s-2ca3652e2d
+      - s-adc5ab4b42
+      - s-832506bdc7
+    zh:
+      - s-9fb657a604
+      - s-243ae6144b
+      - s-e47b4b40c5
+      - s-0fea64b1a3
+      - s-8f50399237
+      - s-688a244b78
+      - s-ba1ccd155a
+      - s-81f9f881a4
+      - s-a40087269c
+      - s-f29ec027c8
+      - s-586f952097
+      - s-c9e45b6a3f
+      - s-69face574a
+      - s-daacb52a90

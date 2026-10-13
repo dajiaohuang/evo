@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops spinapectoralis
+  displayName: Amolops spinapectoralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CWBH
+  sourceIndexes:
+    - name:
+        en: Amolops spinapectoralis
+        zh: Amolops spinapectoralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CWBH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/406
+            queryName: Amolops spinapectoralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-465900c2a4
+      - s-41292215c3
+      - s-ba727176aa
+      - s-f3e2a52424
+      - s-5952cef42f
+      - s-1df6e0800d
+      - s-85c4c3d0ac
+      - s-aff598076e
+      - s-093945a7a5
+      - s-3ec5b38514
+      - s-e8b7e4c827
+      - s-3943aa14db
+    zh:
+      - s-98e467980b
+      - s-baf42f3774
+      - s-68851c9cee
+      - s-832aa02b7a
+      - s-4774941b6b
+      - s-b54865a4d0
+      - s-c40a06a4c5
+      - s-281db9f66e
+      - s-d0885f1437
+      - s-c85001b6d4
+      - s-e524078ea7
+      - s-65ed127307

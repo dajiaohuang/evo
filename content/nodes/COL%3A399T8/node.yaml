@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus tonyi
+  displayName: Eleutherodactylus tonyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399T8
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus tonyi
+        zh: Eleutherodactylus tonyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399T8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/338
+            queryName: Eleutherodactylus tonyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/13
+            queryName: Euhyas tonyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01a611adc0
+      - s-df0631ad6a
+      - s-313e2d84f3
+      - s-b91a873397
+      - s-e099275e60
+      - s-b7e941c9d8
+      - s-8f59c482c8
+      - s-5bae61109b
+      - s-4410ce5a35
+    zh:
+      - s-f3b208ec76
+      - s-2d2b731480
+      - s-878572f0b2
+      - s-375f8ca05a
+      - s-9ba644213e
+      - s-2d59b4a217
+      - s-4709b1f2ee
+      - s-d64961ce10
+      - s-0e6ea5ca8d

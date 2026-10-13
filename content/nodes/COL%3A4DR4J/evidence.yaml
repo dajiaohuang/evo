@@ -1,0 +1,301 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Paroedura bastardi (Mocquard, 1900)
+    rank: species
+    sourceDatasetId: "1008"
+    identity:
+      method: Exact COL26.8 accepted species usage, verbatim scientific name, rank, status, sourceDatasetId and Reptilia classification verified against the pinned registry search record; external crosswalk exact-matches the name to valid ITIS TSN 819024.
+      scope: COL26.8 accepted usage 4DR4J. Biological evidence is restricted to the populations, samples, loci and publication scope of Miralles et al. (2021); the revision's earlier broad usage of P. bastardi is not treated as equivalent to the current restricted concept without qualification.
+      sourceIds:
+        - col
+        - itis
+    lifeStatusScope:
+      wild: The source article analyzes field-collected specimens and localities; claims retain its sampling and locality limits.
+      domesticated: Domestication and captive history have not been assessed.
+      fossil: Fossil evidence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 8
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008
+          url: https://www.checklistbank.org/dataset/316115/taxon/4DR4J
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:4DR4J@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage 4DR4J; sourceDatasetId 1008; Reptilia classification
+          licenseAssessment: identity-only
+          scope: "Identity only: accepted name, authorship, rank, status, sourceDatasetId and classification in the pinned COL26.8 registry."
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4DR4J.
+      - id: itis
+        referenceId: ref-fe53ca65-1ead-8f49-abe4-ce5df4e21e6b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: ITIS taxonomic database records.
+          stableId: ITIS TSN 819024
+          accessedAt: 2026-09-24
+          locator: Valid species record, Paroedura bastardi; exact crosswalk from COL usage 4DR4J
+          licenseAssessment: identity-only
+          scope: Independent identity crosswalk only; ITIS taxonomic metadata is not biological evidence in this dossier.
+          attribution: Integrated Taxonomic Information System (ITIS), dataset export 2026-08-26, TSN 819024.
+      - id: miralles2021
+        referenceId: ref-9b21bf4d-e440-812d-a5da-b1f1d0fc8a73
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Published article text on pages 27-47; supplementary datasets have separate Open Database License notices and are not reused.
+          stableId: doi:10.3897/vz.71.e59495
+          accessedAt: 2026-09-24
+          locator: Abstract; Morphological comparisons, pp. 34-35; Integrative species delimitation, pp. 35-37; lectotype designation and discussion of P. bastardi, pp. 38-43
+          licenseAssessment: item-level-verified
+          scope: Integrative revision of the sampled Paroedura bastardi complex in Madagascar using mitochondrial and nuclear loci and morphological comparisons; the claims here are paraphrased and retain the paper's lineage and sampling qualifications. Figures and separately licensed supplementary datasets are not reused.
+          attribution: "Miralles A, Bruy T, Crottini A, Rakotoarison A, Ratsoavina FM, Scherz MD, Schmidt R, Köhler J, Glaw F, Vences M (2021). Completing a taxonomic puzzle: integrative review of geckos of the Paroedura bastardi species complex (Squamata, Gekkonidae). Vertebrate Zoology 71:27-48. https://doi.org/10.3897/vz.71.e59495. Claims are paraphrased; article CC BY 4.0."
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: In the sampled adult and subadult comparisons, measured body-size values overlapped among lineages and the authors found that no single reported ratio was unambiguously diagnostic for each species. They caution that the ratios have limited value for reliable field identification.
+            sourceIds:
+              - miralles2021
+            locator: Morphological comparisons, pp. 34-35
+            placeTimeScope: Morphological comparison in the 2021 study, using its sampled adult and subadult specimens; it is not a complete species-wide diagnosis.
+            lifeStatus: Adult and subadult specimens; juvenile morphology and unmeasured variation are not inferred.
+            originalLanguage: en
+        gaps:
+          - The study reports overlapping measurements and limited sampling; it does not provide a complete account of morphology or variation across the accepted species concept.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - No life-cycle, reproductive, growth, survival or longevity evidence was assessed.
+      ecology:
+        status: not-assessed
+        gaps:
+          - The source is an integrative taxonomic revision and does not provide a bounded ecological assessment for the currently restricted accepted species concept.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: The authors recovered multiple distinct P. bastardi lineages from their mitochondrial and nuclear analyses and report syntopic occurrences without genetic admixture or morphological intermediates as evidence supporting reproductive isolation among sampled lineages. The lineage-level result does not imply that all historically assigned P. bastardi populations belong to the currently accepted species concept.
+            sourceIds:
+              - miralles2021
+            locator: Abstract; Integrative species delimitation, pp. 35-37
+            placeTimeScope: Multilocus analyses and sampled sympatric localities in Madagascar reported in 2021; interpretation is limited to sampled lineages and markers.
+            lifeStatus: Wild collected specimens; no broader population-wide inference is made.
+            originalLanguage: en
+        gaps:
+          - The authors note that denser phylogenomic study is needed; evolutionary history outside the sampled complex and accepted concept remains unassessed.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: After designating a lectotype, the authors restrict P. bastardi sensu stricto to the extreme south-east of Madagascar. This is the range conclusion of the 2021 revision and is not presented as a current exhaustive range inventory.
+            sourceIds:
+              - miralles2021
+            locator: Abstract; lectotype designation and discussion of P. bastardi, pp. 38-43
+            placeTimeScope: Madagascar records examined for the 2021 taxonomic revision; no post-publication range survey is represented.
+            lifeStatus: Wild locality records reviewed by the authors.
+            originalLanguage: en
+        gaps:
+          - No current, exhaustive occurrence-data or range-boundary assessment was conducted.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil evidence or bounded fossil-literature search was assessed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No dated conservation assessment or population-trend analysis was reviewed; no risk category is inferred.
+  catalogue-profile:
+    scientificName: Paroedura bastardi
+    rank: species
+    sourceDatasetId: "1008"
+    name:
+      zh: Paroedura bastardi
+      en: Paroedura bastardi
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-fae23f81d5
+            part: body
+          en:
+            page: en
+            section: s-dc6d519301
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-5371e40544
+            part: body
+          en:
+            page: en
+            section: s-e22b6af65a
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-5ea43dfe20
+            part: body
+          en:
+            page: en
+            section: s-74460bb990
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-ab153bd50b
+            part: body
+          en:
+            page: en
+            section: s-0a0e87a42b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Paroedura bastardi
+          url: https://www.checklistbank.org/dataset/316115/taxon/4DR4J
+          locator: Pinned accepted name, family and recorded ancestry; historical concept equivalence not assumed.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceClassification
+          - sourceCitationByField
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits dataset v1-2.xlsx; Data row 8623; Species=Paroedura bastardi; Sources of individual trait val for the same species; Trait definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 45408133
+          sourceFileMd5: a00be695740e752db2654537bbb0814c
+          sourceFileSha256: 74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a
+          sourceClassification: Reptile Database 2023 as recorded in workbook
+          sourceCitationByField:
+            Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm): Meiri 2018
+            Microhabitat: Meiri 2018
+            Diet: Meiri 2018
+            Active time: Meiri 2018
+            Reproductive mode: Zimin et al. 2022
+            Mean number of offspring per litter or number of eggs per clutch: Meiri et al. 2020
+            Smallest clutch size: Meiri 2018
+            Largest clutch size: Meiri 2018
+          scope:
+            zh: 尺寸、活动、取食与繁殖的已引性状资料；不外推体重、幼体长度、毒性、保护或当前分布。
+            en: Cited size, activity, feeding and reproductive traits; no mass, juvenile-length, venom, conservation or current-range inference.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+    limitations:
+      zh:
+        page: zh
+        section: s-e4487a5804
+        part: body
+      en:
+        page: en
+        section: s-b362127ab7
+        part: body

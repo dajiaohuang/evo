@@ -1,0 +1,6 @@
+## Four petals in the recorded flower {#s-973458e2bc}
+The Brazilian Flora 2020 v393.147 description counts four petals in each flower. It also records star-shaped hairs on young stems and elliptic or oblong leaves with tips that narrow gradually or extend like a tail. The leaf base is wedge-shaped or blunt, and the margin may be entire, wavy or without fringe-like hairs. Three main veins arise at the base, with two faint veins just inside the edge; the underside is hairless or sparsely covered by star-shaped hairs attached directly to it. Flowers branch in pairs. The bell-shaped flower cup bears a calyx that falls away and has distinct lobes. The tissue connecting the anther's pollen sacs is prolonged but has no appendage; white anthers have one medium-sized pore, and the ovary bears hairs. Four is the count given in this field; it is not a claim about every flower or population.
+
+## A terrestrial habitat entry {#s-2c3af5003c}
+A separate habitat row calls the recorded setting “terrícola,” meaning terrestrial. It names no locality, survey date or range coverage and does not specify wild, cultivated, managed or fossil material. This field contributes a category, not a complete ecological profile.
+

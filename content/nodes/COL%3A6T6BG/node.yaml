@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax xiangchengensis
+  displayName: Oreolalax xiangchengensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T6BG
+  sourceIndexes:
+    - name:
+        en: Oreolalax xiangchengensis
+        zh: Oreolalax xiangchengensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T6BG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/231
+            queryName: Oreolalax xiangchengensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/150
+            queryName: Oreolalax xiangchengensis xiangchengensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/151
+            queryName: Oreolalax xiangchengensis deqenicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c915a27317
+      - s-5b8bf0bd21
+      - s-c9b1f380d9
+      - s-905cdd1856
+      - s-7cd8eb2389
+      - s-fe073e692d
+      - s-f85b652fea
+      - s-74a2548c29
+      - s-b67ffce243
+      - s-dad25b490e
+    zh:
+      - s-bdbb579e64
+      - s-8dc34971dc
+      - s-8adc16e3c9
+      - s-a984c49cae
+      - s-42e3028f66
+      - s-5b43ce6da2
+      - s-6f0460c2e3
+      - s-ab638d6de9
+      - s-75797e7b71
+      - s-02d427f075

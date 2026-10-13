@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Kimberella quadrata
+    commonName: Kimberella
+    commonNameZh: 金伯拉虫
+    rank: species
+    firstAppearance: 558
+    lastAppearance: 555
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+    parentRelationshipKind: navigation-parent
+    taxonId: txn:151846
+  atlas-profile:
+    pbdbTaxonId: txn:151846
+    scientificName: Kimberella quadrata
+    commonName: White Sea Kimberella sample
+    commonNameZh: 白海金伯拉虫样本
+    rank: species
+    parentName: Molluscan origin dossier route
+    extinct: true
+    geography:
+      - White Sea region
+      - Arkhangelsk Oblast
+      - Russia
+    overview:
+      page: en
+      section: s-7ce7735b2e
+      part: body
+    overviewZh:
+      page: zh
+      section: s-c7bfd97b39
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-4d34c4dd89
+        part: body
+      habitat:
+        page: en
+        section: s-5370412b6c
+        part: body
+      locomotion:
+        page: en
+        section: s-427ff4113e
+        part: body
+      bodySize:
+        page: en
+        section: s-5f9b01c096
+        part: body
+      guild:
+        page: en
+        section: s-fd04a65273
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-de5bb452fdaba2
+        part: body
+      guildZh:
+        page: zh
+        section: zh-2a909215e38597
+        part: body
+    traits:
+      - page: en
+        section: s-83e735064d
+        part: body
+      - page: en
+        section: s-0a91518977
+        part: body
+      - page: en
+        section: s-837f6224b2
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-70a82f66be
+      part: body
+    evidenceSummaryZh: 白海样本支持对身体结构和可能海底活动方式的重建。化石没有保存齿舌，不能确定其属于冠群软体动物或是现生类群的直接祖先，也不能代表完整的地理分布。
+    confidence: medium
+    referenceIds:
+      - fedonkin-waggoner-1997-kimberella
+    readerLimitations:
+      en:
+        page: en
+        section: s-e692bb6d77
+        part: body
+      zh:
+        page: zh
+        section: s-c03b2a9418
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-568488360e2321
+        part: body
+      - page: zh
+        section: zh-ecccd759e3b7a6
+        part: body
+      - page: zh
+        section: zh-add9448c5bc30b
+        part: body
+  claims:
+    - subjectId: taxon:kimberella
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Kimberella quadrata shows mollusc-like characters in the White Sea sample, but the profile does not assign crown-Mollusca membership or direct ancestry.
+      confidence: medium
+      confidenceRationale: The taxonomy field is bounded to Kimberella quadrata, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: fedonkin-waggoner-1997-kimberella
+          relation: supports
+          pages: 868–871; Figures 1–3; Description and reconstruction
+    - subjectId: taxon:kimberella
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profile is restricted to the cited White Sea assemblage and does not treat it as the complete distribution of Kimberella.
+      confidence: medium
+      confidenceRationale: The biogeography field is bounded to Kimberella quadrata, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: fedonkin-waggoner-1997-kimberella
+          relation: supports
+          pages: 868–871; Figures 1–3; Description and reconstruction
+    - subjectId: taxon:kimberella
+      claimKind: scientific
+      claimType: ecology
+      statement: A mobile benthic feeding mode is inferred from body form and associated surfaces; diet and a radular feeding mechanism are not directly preserved.
+      confidence: medium
+      confidenceRationale: The ecology field is bounded to Kimberella quadrata, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: fedonkin-waggoner-1997-kimberella
+          relation: supports
+          pages: 868–871; Figures 1–3; Description and reconstruction
+    - subjectId: taxon:kimberella
+      claimKind: scientific
+      claimType: morphology
+      statement: More than 35 specimens document a bilateral body, broad foot-like region and non-mineralized dorsal cover.
+      confidence: medium
+      confidenceRationale: The morphology field is bounded to Kimberella quadrata, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: fedonkin-waggoner-1997-kimberella
+          relation: supports
+          pages: 868–871; Figures 1–3; Description and reconstruction
+    - subjectId: taxon:kimberella
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 558–555 Ma envelope represents the cited White Sea sample, not a global species duration or molluscan first appearance.
+      confidence: medium
+      confidenceRationale: The fossil-range field is bounded to Kimberella quadrata, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: fedonkin-waggoner-1997-kimberella
+          relation: supports
+          pages: 868–871; Figures 1–3; Description and reconstruction
+  claim-rationales.zh:
+    - 白海金伯拉虫样本的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。
+    - 白海金伯拉虫样本的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。
+    - 白海金伯拉虫样本的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。
+    - 白海金伯拉虫样本的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。
+    - 白海金伯拉虫样本的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - 白海样本中的 Kimberella quadrata 显示出软体动物样特征，但本档案不据此判定其属于冠群软体动物或具有直系祖先关系。
+    - 本档案限于所引白海化石组合，不将其视为 Kimberella 的完整分布。
+    - 移动底栖摄食方式是根据体形及相关表面推断的；食物和齿舌摄食机制并未直接保存。
+    - 超过 35 件标本记录了两侧对称的身体、宽阔的足样区域及未矿化的背部覆盖层。
+    - 558–555 Ma 包络代表所引白海样本，并非该物种的全球延续时长或软体动物首现。
+  ranges:
+    - entityId: kimberella
+      rangeKind: global-composite
+      taxonomicConcept: Kimberella quadrata White Sea sample
+      geographicScope: White Sea, Russia
+      olderMa: 558
+      youngerMa: 555
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 558–555 Ma envelope represents the cited White Sea sample, not a global species duration or molluscan first appearance.
+      evidenceBasis: More than 35 late Ediacaran body fossils test a mollusc-like interpretation without preserving a crown diagnosis.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:kimberella-white-sea-morphology
+        - claim:taxon:kimberella:fossil-range
+      referenceLocators:
+        - referenceId: fedonkin-waggoner-1997-kimberella
+          locator: 868–871; Figures 1–3; description and reconstruction

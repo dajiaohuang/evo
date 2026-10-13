@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Alcalus baluensis
+    name:
+      en: Alcalus baluensis
+      zh: Alcalus baluensis
+    sourceClassification:
+      order: Anura
+      family: Ceratobatrachidae
+      genus: Alcalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Alcalus baluensis in the version 3 classification
+          zh: Alcalus baluensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-50f32dca99
+            part: body
+          zh:
+            page: zh
+            section: s-e664b0c903
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 20 populated trait fields
+          zh: 1 条测量行与 20 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f6df3ad084
+            part: body
+          zh:
+            page: zh
+            section: s-d433e32b18
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 79; Reference.csv rows 14
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 79
+        values:
+          - Ceratobatrachidae
+          - Alcalus
+          - Alcalus baluensis
+          - NA
+          - "23.45"
+          - "11.26"
+          - "10.65"
+          - "3.91"
+          - "2.3"
+          - "0.61"
+          - "2.29"
+          - "2.69"
+          - NA
+          - "2.1"
+          - "3.92"
+          - "1.59"
+          - "6.61"
+          - "5.2"
+          - NA
+          - NA
+          - NA
+          - "12.24"
+          - "13.46"
+          - NA
+          - NA
+          - "1.63"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.08"
+          - NA
+          - NA
+          - NA
+          - "1"
+          - NA
+          - NA
+          - "1.23"
+          - NA
+          - "6.4"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 14
+        values:
+          - Anura
+          - Alcalus_baluensis
+          - Iskandar, D. T., Bickford, D. P., & Arifin, U. (2011). A new Ingerana (Anura, Dicroglossidae) with no external tympanum from Borneo, Indonesia. Raffles Bulletin of Zoology, 59(2), 213-218.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - TL
+      - THL
+      - IMT
+      - Fin1DW
+      - Toe1DW
+      - Toe4DW
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - BH3B
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

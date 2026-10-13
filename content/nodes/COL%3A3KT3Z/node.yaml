@@ -1,0 +1,138 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemisus marmoratus
+  displayName: Hemisus marmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KT3Z
+  sourceIndexes:
+    - name:
+        en: Hemisus marmoratus
+        zh: Hemisus marmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KT3Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/275
+            queryName: Hemisus marmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/368
+            queryName: Engystoma marmoratum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/369
+            queryName: Kakophrynus sudanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/370
+            queryName: Hemisus sudanense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/371
+            queryName: Hemisus taitanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/372
+            queryName: Hemisus marmoratum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/433
+            queryName: Hemisus marmoratum marmoratum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/434
+            queryName: Hemisus marmoratus marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/435
+            queryName: Hemisus marmoratus ingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/436
+            queryName: Hemisus marmoratus loveridgei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/437
+            queryName: Hemisus marmoratus sudanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d9acfa3b3a
+      - s-9222edb937
+      - s-23af9f02d3
+      - s-a805d99090
+      - s-a8b39a1a23
+      - s-b25ca59fc5
+      - s-30079ea05a
+      - s-66eb0564de
+      - s-04311cc364
+      - s-2234170f4b
+      - s-332ba6431b
+      - s-00f7f31c11
+      - s-05765cdd7a
+      - s-fc39a81571
+      - s-9fb212dec9
+      - s-5c18065acb
+      - s-862e5de2cc
+      - s-22fdcf7f32
+      - s-8dd682fbb2
+    zh:
+      - s-98708f9721
+      - s-061a7a773e
+      - s-7e2f0c9f5b
+      - s-f9ed821d45
+      - s-f92c769a39
+      - s-eefa976342
+      - s-7b2c67d1ce
+      - s-1fc762476c
+      - s-1c5bcf9381
+      - s-7f1cd5335e
+      - s-2575bcf616
+      - s-a352661d11
+      - s-a04f9bd24a
+      - s-daf0d37652
+      - s-0b693e43cf
+      - s-fd4dcda106
+      - s-2209553ded
+      - s-33acc990c4
+      - s-250f6df299

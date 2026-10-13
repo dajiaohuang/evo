@@ -1,0 +1,130 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana raniceps
+  displayName: Boana raniceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M82G
+  sourceIndexes:
+    - name:
+        en: Boana raniceps
+        zh: Boana raniceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M82G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/25
+            queryName: Boana raniceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 44
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/444
+            queryName: Hyla raniceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/189
+            queryName: Hypsiboas raniceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 60
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/446
+            queryName: Hyla spegazzinii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/447
+            queryName: Hyla goodfellowi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/448
+            queryName: Hyla roeschmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd953b079c
+      - s-7ebd7cf357
+      - s-33069a08a2
+      - s-e71fba32e0
+      - s-791f91b153
+      - s-b71520fb26
+      - s-5ca33ba83f
+      - s-98a6d1ee5b
+      - s-01014435f1
+      - s-4a76abf317
+      - s-c582aac98f
+      - s-78869f5c86
+      - s-511303b1b2
+      - s-ada01c3041
+      - s-ec9bb9e5c2
+      - s-ff7bc14d21
+      - s-5f7045f8d1
+      - s-c6bbddc8ba
+      - s-760e373075
+      - s-6f5d5b8272
+      - s-3ba2b66012
+      - s-1ee4a17b00
+      - s-22f8fcec13
+      - s-8a59863d9e
+      - s-1c24da6418
+      - s-f9ac374fd3
+      - s-bf9c89cd4f
+      - s-ed23b55932
+      - s-846c547913
+      - s-29dec50147
+    zh:
+      - s-7a1738a7f3
+      - s-0ecd52e067
+      - s-1a3c11aa1d
+      - s-a9a9a35dda
+      - s-858a16d8db
+      - s-73680d3e09
+      - s-85cec60bda
+      - s-8142df67fb
+      - s-50644b8adc
+      - s-e6bd45734d
+      - s-bf40703104
+      - s-75fa754230
+      - s-a296634cda
+      - s-fbd1a7628f
+      - s-8385099936
+      - s-4676d337a4
+      - s-5e983b4605
+      - s-5ba9f12e14
+      - s-a63d6c74b2
+      - s-69b927a471
+      - s-3bcf1e4dcf
+      - s-56239fd0b1
+      - s-77e6bed768
+      - s-f0c66e90e2
+      - s-0d06ce058d
+      - s-9e22cdeeec
+      - s-7879ec11de
+      - s-6d23bf224a
+      - s-f9d5d41555
+      - s-62729e279d

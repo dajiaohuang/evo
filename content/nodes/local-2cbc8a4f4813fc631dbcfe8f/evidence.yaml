@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Megophrys wushanensis
+    name:
+      en: Megophrys wushanensis
+      zh: Megophrys wushanensis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Megophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-97fd56b246
+            part: body
+          zh:
+            page: zh
+            section: s-c3597e3cf1
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-96b4ba5938
+            part: body
+          zh:
+            page: zh
+            section: s-a2b8c861b9
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3170, 3171; Reference.csv rows 817
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3170
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys wushanensis
+          - M
+          - "32.9"
+          - "11.3"
+          - "11.3"
+          - "4.5"
+          - "2.2"
+          - NA
+          - "3.1"
+          - "4.2"
+          - "3"
+          - NA
+          - "4.6"
+          - NA
+          - "8.2"
+          - "7.9"
+          - "16.1"
+          - "14.9"
+          - NA
+          - "15.8"
+          - NA
+          - "8.2"
+          - "51.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3171
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys wushanensis
+          - F
+          - "38.4"
+          - "12.8"
+          - "12.6"
+          - "5.1"
+          - "2.6"
+          - NA
+          - "3.4"
+          - "4.3"
+          - "3.1"
+          - NA
+          - "5.1"
+          - NA
+          - "10.4"
+          - "7.8"
+          - "18.2"
+          - "18.6"
+          - NA
+          - "18"
+          - NA
+          - "9.6"
+          - "63"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 817
+        values:
+          - Anura
+          - Megophrys_wushanensis
+          - Ye, C. Y., Fei, L. (1995) Taxonomic study of the small Megophrys in China and description of its new species (New subspecies). Acta Herpetologica Sinica, 72-80.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

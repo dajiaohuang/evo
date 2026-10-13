@@ -1,0 +1,125 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinodermatidae Bonaparte, 1850
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Rhinodermatidae
+      zh: Rhinodermatidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3b5f56e9a3
+            part: title
+          zh:
+            page: zh
+            section: s-c8ddc61aae
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3b5f56e9a3
+            part: body
+          zh:
+            page: zh
+            section: s-c8ddc61aae
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-37744f5ab8
+            part: title
+          zh:
+            page: zh
+            section: s-59c16642bf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-37744f5ab8
+            part: body
+          zh:
+            page: zh
+            section: s-59c16642bf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-5f5a03e637
+            part: title
+          zh:
+            page: zh
+            section: s-ce7b0d6cb8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 54KM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54KM
+            label:
+              en: Insuetophrynus
+              zh: Insuetophrynus
+          - kind: catalogue
+            colId: 78PP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A78PP
+            label:
+              en: Rhinoderma
+              zh: Rhinoderma
+        text:
+          en:
+            page: en
+            section: s-5f5a03e637
+            part: body
+          zh:
+            page: zh
+            section: s-ce7b0d6cb8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhinodermatidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/FNZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-533877721f
+        part: body
+      zh:
+        page: zh
+        section: s-1c15ef6a8f
+        part: body

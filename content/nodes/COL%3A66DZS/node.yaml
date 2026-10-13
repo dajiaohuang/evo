@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops minutus
+  displayName: Amolops minutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DZS
+  sourceIndexes:
+    - name:
+        en: Amolops minutus
+        zh: Amolops minutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/388
+            queryName: Amolops minutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/111
+            queryName: Amolops ottorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f9a71cd015
+      - s-282b135cd7
+      - s-e485b0db25
+      - s-ffef60aa38
+      - s-dbcf8843c9
+      - s-0a91bd0589
+      - s-10f0227e09
+      - s-8c76f5d4ba
+      - s-3f6024288f
+      - s-16a7f2799f
+      - s-bb01ac72e3
+      - s-0eaef83083
+      - s-42d409f830
+      - s-cd158da9c0
+      - s-902a5e7d28
+      - s-f0c0c06a4d
+      - s-00276fa8e6
+      - s-9fcd8d7652
+      - s-66558896b4
+      - s-b6448befd4
+      - s-ec10dc5761
+    zh:
+      - s-986ba5779c
+      - s-d46fdd4009
+      - s-c6550e23b7
+      - s-b7f1492d0f
+      - s-e3dbb8a047
+      - s-b84c0ceecf
+      - s-f70f332aa1
+      - s-947396a2ac
+      - s-e2a84a4029
+      - s-6ce8ac1ca9
+      - s-403c53e6ed
+      - s-4868a2c1d6
+      - s-e7f6df76db
+      - s-e3736c61a4
+      - s-20152fe0d8
+      - s-da20b387d6
+      - s-ab8271c662
+      - s-5898eab209
+      - s-e7813e1337
+      - s-1411cf00f5
+      - s-3799492ccf

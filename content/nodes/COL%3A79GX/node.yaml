@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhyacotriton
+  displayName: Rhyacotriton
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/79GX
+  sourceIndexes:
+    - name:
+        en: Rhyacotriton
+        zh: Rhyacotriton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 79GX
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/233
+            queryName: Rhyacotriton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 144
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6a0d858014
+      - s-37ba799a51
+      - s-5a347dc3da
+      - s-0373661fe0
+      - s-702b0e82bd
+      - s-94694d2e67
+      - s-0572327950
+    zh:
+      - s-81b001b572
+      - s-229f0ce6ad
+      - s-d4562b014f
+      - s-2af81fbd3b
+      - s-39852b0959
+      - s-ff2a7515c9
+      - s-be37d991eb

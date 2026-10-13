@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ghatixalus magnus
+  displayName: Ghatixalus magnus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FYHW
+  sourceIndexes:
+    - name:
+        en: Ghatixalus magnus
+        zh: Ghatixalus magnus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FYHW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/169
+            queryName: Ghatixalus magnus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-215d1d2dc2
+      - s-6458553c7d
+      - s-fc1e4127b4
+      - s-17bff2ca45
+      - s-52dbfb0be5
+      - s-6a05fdf75e
+      - s-8fb7039ae1
+    zh:
+      - s-4f691d148c
+      - s-f211ec97ea
+      - s-ed4bd8c30b
+      - s-ab61f8278c
+      - s-993e444965
+      - s-8d41a1a147
+      - s-71aeccb6af

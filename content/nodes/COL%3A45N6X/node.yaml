@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana chayuensis
+  displayName: Nanorana chayuensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N6X
+  sourceIndexes:
+    - name:
+        en: Nanorana chayuensis
+        zh: Nanorana chayuensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N6X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/168
+            queryName: Nanorana chayuensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/485
+            queryName: Paa chayuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/234
+            queryName: Chaparana chayuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/347
+            queryName: Rana maculosa chayuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/41
+            queryName: Maculopaa chayuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4036acf4b2
+      - s-a3540ddec1
+      - s-a5cd528d7b
+      - s-cbd91a5f30
+      - s-857089ab5d
+      - s-c8b55c948a
+      - s-007edb1bb1
+      - s-051db8f460
+      - s-541f92e760
+      - s-7a0763b21d
+    zh:
+      - s-3775463de4
+      - s-ce6631644f
+      - s-e6ec9119bf
+      - s-03147f7ef2
+      - s-c4173e2864
+      - s-f31bdff01a
+      - s-d3a0098dd6
+      - s-b345fe9209
+      - s-d1cee2ca5a
+      - s-72eb56f1cc

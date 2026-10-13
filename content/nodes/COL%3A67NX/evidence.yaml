@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oligodon
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Oligodon
+      en: Oligodon
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-25b2801f2c
+            part: body
+          en:
+            page: en
+            section: s-d5ab344d09
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-b3d8f6657a
+            part: body
+          en:
+            page: en
+            section: s-e9ba9125d7
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c069a1887f
+            part: body
+          en:
+            page: en
+            section: s-df8e87b797
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-63834bb8c2
+            part: body
+          en:
+            page: en
+            section: s-37aa91b4cd
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-2b735025ea
+            part: body
+          en:
+            page: en
+            section: s-8302d56c13
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-20796098f1
+            part: body
+          en:
+            page: en
+            section: s-707a4de191
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Oligodon
+          url: https://www.checklistbank.org/dataset/316115/taxon/67NX
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 17 authored records grouped under Oligodon by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 10
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 57 authored records grouped under Oligodon by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 495Z2
+              name: Oligodon affinis
+              canonicalPath: content/nodes/COL%3A495Z2
+            - colId: 495Z6
+              name: Oligodon ancorus
+              canonicalPath: content/nodes/COL%3A495Z6
+            - colId: 495Z7
+              name: Oligodon annamensis
+              canonicalPath: content/nodes/COL%3A495Z7
+            - colId: 495ZC
+              name: Oligodon barroni
+              canonicalPath: content/nodes/COL%3A495ZC
+            - colId: 495ZF
+              name: Oligodon bitorquatus
+              canonicalPath: content/nodes/COL%3A495ZF
+          fieldCountDistribution:
+            "1": 5
+            "2": 17
+            "3": 35
+    limitations:
+      zh:
+        page: zh
+        section: s-41e4a0ff19
+        part: body
+      en:
+        page: en
+        section: s-e27fb8d746
+        part: body

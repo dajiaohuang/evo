@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia fusca
+  displayName: Uperoleia fusca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DLW4
+  sourceIndexes:
+    - name:
+        en: Uperoleia fusca
+        zh: Uperoleia fusca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DLW4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/191
+            queryName: Uperoleia fusca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b653451393
+      - s-1279121661
+      - s-7ab9c1e31d
+      - s-d4a82d0977
+      - s-abd93847cc
+      - s-d53cf50c56
+      - s-1e0a6615d9
+      - s-892668a5f7
+      - s-4c785c4cf1
+      - s-f15cddd305
+      - s-5e3fc8d0b8
+    zh:
+      - s-97c4f68561
+      - s-20d7a7847c
+      - s-cdc4cdb4f9
+      - s-1b88e09fcd
+      - s-c54f7fc315
+      - s-6985bd7436
+      - s-1851f14160
+      - s-9295fab515
+      - s-4a6da3e861
+      - s-964ad76e2a
+      - s-62b34bdabb

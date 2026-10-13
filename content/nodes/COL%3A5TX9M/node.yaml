@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates humilis
+  displayName: Allobates humilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5TX9M
+  sourceIndexes:
+    - name:
+        en: Allobates humilis
+        zh: Allobates humilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5TX9M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/144
+            queryName: Allobates humilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/98
+            queryName: Colostethus humilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-63817c01f2
+      - s-8702ec1ea1
+      - s-5c3c7debe3
+      - s-7faea05f0f
+      - s-e44f61bfd8
+      - s-d3779c2d06
+      - s-e530a1ddcb
+      - s-c06376649e
+      - s-d9361989cc
+      - s-b6500b6568
+      - s-b666ec933d
+      - s-b1de06cb36
+      - s-d94f7d115b
+      - s-329c440447
+    zh:
+      - s-a8deacfbdd
+      - s-7ca8280cfb
+      - s-96999a4b9b
+      - s-9add7fcf64
+      - s-f8dcbd0885
+      - s-8e8732de71
+      - s-a4ff000128
+      - s-01777ebe77
+      - s-ee723720b0
+      - s-39a7d0c515
+      - s-b24477cf41
+      - s-2678a11a7b
+      - s-8789e7669f
+      - s-479ab089a1

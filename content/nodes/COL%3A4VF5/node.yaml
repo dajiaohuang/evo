@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemisus
+  displayName: Hemisus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VF5
+  sourceIndexes:
+    - name:
+        en: Hemisus
+        zh: Hemisus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VF5
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/424
+            queryName: Hemisus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 65
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd47d13cb1
+      - s-84b3035383
+      - s-6ed5836ef8
+      - s-edfdc45d60
+      - s-5745f92db9
+      - s-28a06c6069
+      - s-181a082d85
+      - s-5c63c80f3e
+      - s-4e9cde06a3
+      - s-75c6e90879
+      - s-b77b0c1a8e
+      - s-a0e9aab0b5
+      - s-9859e5a222
+      - s-6d1321ab43
+      - s-d2bb54bb89
+      - s-4656835d56
+      - s-d4ee4cfc17
+      - s-97bdbddf5f
+    zh:
+      - s-7af02b7e81
+      - s-1c085d462f
+      - s-f8b47611ec
+      - s-3fba4e9396
+      - s-a77b6779c0
+      - s-21e3e75e2d
+      - s-9247801aa3
+      - s-8aee0b6f39
+      - s-783308f4c7
+      - s-68aa946c55
+      - s-80b19f8759
+      - s-636c8f7e54
+      - s-62e60e13ab
+      - s-061a9ff8b6
+      - s-ed4d26b9e5
+      - s-d3e98ca12d
+      - s-906f03f515
+      - s-9dfd9049c7

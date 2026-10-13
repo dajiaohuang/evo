@@ -1,0 +1,3 @@
+## Solitary or racemose flowers and a pear-shaped fruit {#s-db1b7ef89b}
+A Brazilian Flora 2020 v393.147 field describes linear or narrowly elliptic, papery leaves with wedge-shaped bases and tips that are acute or rounded. Their flat margins lack a hard, cartilage-like edge. The upper midrib, or main leaf vein, is grooved, with one or two veins near the leaf edge. Flowers may be solitary or form a raceme, a cluster of stalked flowers along a main axis; bracts fall away, as do the smaller bracteoles beside the flowers. The smooth flower cup bears hairs; its calyx is open in bud, with four sepals and four petals. The fruit is pear-shaped and smooth, and its bracteoles fall away. One seed is recorded, with fused cotyledons (the seed leaves) in the embryo.
+

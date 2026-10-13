@@ -1,0 +1,404 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Hylarana supragrisea
+    name:
+      en: Hylarana supragrisea
+      zh: Hylarana supragrisea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The name and scope of this tadpole record
+          zh: 这份蝌蚪记录的名称与范围
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-86691512d6
+            part: body
+          zh:
+            page: zh
+            section: s-b1b1b22f3d
+            part: body
+      - topic: morphology
+        title:
+          en: Stage labels and the fields attached to them
+          zh: 阶段标签及对应字段
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-083d71a59e
+            part: body
+          zh:
+            page: zh
+            section: s-228f2409d5
+            part: body
+      - topic: morphology
+        title:
+          en: Dimensionless proportions in image records
+          zh: 图像记录中的无量纲比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-bcd133f030
+            part: body
+          zh:
+            page: zh
+            section: s-892d732aee
+            part: body
+      - topic: overview
+        title:
+          en: A ratio that conflicts with its source row
+          zh: 与来源行不一致的比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-9767e2fddd
+            part: body
+          zh:
+            page: zh
+            section: s-be9a8e858f
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4659; Picture measurement data rows 548; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Ranidae
+      genus: Hylarana
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 4659
+        values:
+          - Kraus, F. & Allison, A. (2007).  TAXONOMIC NOTES ON FROGS OF THE GENUS RANA FROM MILNE BAY PROVINCE, PAPUA NEW GUINEA. Herpetological Monographs, 21, 33.
+          - Papurana supragrisea
+          - Ranidae
+          - Hylarana
+          - Hylarana supragrisea
+          - 1
+          - 25
+          - 47.5
+          - null
+          - 17.5
+          - null
+          - 8.3
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 30
+          - null
+          - 11.2
+          - null
+          - 7.9
+          - null
+          - 6.2
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.8
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.1
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.2
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows:
+      - rowNumber: 548
+        values:
+          - Kraus, F. & Allison, A. (2007). TAXONOMIC NOTES ON FROGS OF THE GENUS RANA FROM MILNE BAY PROVINCE, PAPUA NEW GUINEA. Herpetological Monographs, 21, 33.
+          - Measurement
+          - Hand-drawn picture
+          - Rana supragrisea
+          - Ranidae
+          - Hylarana
+          - Hylarana supragrisea
+          - 25
+          - 40.366
+          - 15.151
+          - 25.707
+          - 7.89
+          - 9.726
+          - 4.77
+          - 3.579
+          - 2.385
+          - null
+          - null
+          - 3.76
+          - 0.3753463326164
+          - 0.636847842243472
+          - 0.19546152727697
+          - 0.24945354769
+          - 0.118168755883664
+          - 0.886637268988753
+          - 0.59843779418322
+          - null
+          - null
+          - 0.931476985581925
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 548
+        scientificName: Hylarana supragrisea
+        sourceField: MTH/TL
+        suppliedRatio: 0.24945354769
+        originalNumerator: 9.726
+        originalTotalLength: 40.366
+        computedRatio: 0.24094535004706935
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 548
+        scientificName: Hylarana supragrisea
+        sourceField: DFH/TL
+        suppliedRatio: 0.886637268988753
+        originalNumerator: 3.579
+        originalTotalLength: 40.366
+        computedRatio: 0.08866372689887529
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 548
+        scientificName: Hylarana supragrisea
+        sourceField: VFH/TL
+        suppliedRatio: 0.59843779418322
+        originalNumerator: 2.385
+        originalTotalLength: 40.366
+        computedRatio: 0.05908437794183223
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 548
+        scientificName: Hylarana supragrisea
+        sourceField: OD/TL
+        suppliedRatio: 0.931476985581925
+        originalNumerator: 3.76
+        originalTotalLength: 40.366
+        computedRatio: 0.09314769855819253
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.3753463326164
+        row: 548
+        stage: 25
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.636847842243472
+        row: 548
+        stage: 25
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.19546152727697
+        row: 548
+        stage: 25
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.118168755883664
+        row: 548
+        stage: 25
+        type: Measurement
+        imageType: Hand-drawn picture
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6MMTH
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

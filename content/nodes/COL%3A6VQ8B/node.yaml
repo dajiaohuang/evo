@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodontohyla brevipes
+  displayName: Plethodontohyla brevipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VQ8B
+  sourceIndexes:
+    - name:
+        en: Plethodontohyla brevipes
+        zh: Plethodontohyla brevipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VQ8B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/7
+            queryName: Plethodontohyla brevipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fd5019c4d5
+      - s-bd04d80c20
+      - s-229d0609a3
+      - s-2b17627e0b
+      - s-fae4b6c834
+      - s-d41bbddd4a
+      - s-ef467a0892
+      - s-21757e3aec
+      - s-fa61eda4ce
+    zh:
+      - s-c4c49c3130
+      - s-71979b79f0
+      - s-db1909e51f
+      - s-ca55853458
+      - s-27df6410da
+      - s-7c6f2519a6
+      - s-421e460de9
+      - s-17794d912c
+      - s-800650e72f

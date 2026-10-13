@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus
+  displayName: Xenopus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/88X8
+  sourceIndexes:
+    - name:
+        en: Xenopus
+        zh: Xenopus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 88X8
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/332
+            queryName: Xenopus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 136128
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5d5c19210d
+      - s-d2f45a2d4c
+      - s-e5e7e212e3
+      - s-ae43a99ffc
+      - s-1f704e50d4
+      - s-95fceab103
+      - s-3180d0f271
+      - s-0e45d7d1cd
+      - s-81845be58f
+      - s-a44e50083c
+      - s-890e8a54d7
+      - s-dd18bfc032
+      - s-1a0e57092a
+      - s-b7756cdf21
+      - s-6f2462ac05
+      - s-14f7e283c9
+      - s-3f09e94019
+      - s-026fb184f5
+      - s-ff70c708bb
+      - s-7aebfca414
+      - s-a208984110
+      - s-07b0e73342
+      - s-19bbc304b3
+      - s-8dca73a21f
+      - s-e2da909014
+      - s-f67c79daa4
+      - s-771cad6f25
+      - s-f03584bd00
+      - s-4173f67804
+      - s-857c4ad2c3
+      - s-a693a38c8f
+      - s-b0bc799bdc
+      - s-8986b3b97b
+      - s-719b040071
+      - s-b269bf7c3d
+      - s-38c8cb23d0
+      - s-aa7f942e64
+      - s-c4bf07ed5a
+    zh:
+      - s-ad9b03289f
+      - s-456e08709a
+      - s-bd4b216dae
+      - s-edf80aaaed
+      - s-413d629f22
+      - s-f27d102771
+      - s-f1da4960d4
+      - s-3219d820b6
+      - s-5636e332e6
+      - s-4b4e88bc9a
+      - s-3bd1db3bcc
+      - s-2ddd08f929
+      - s-91e70b9aac
+      - s-0a595d3d2e
+      - s-d91501675b
+      - s-b2d0ac2393
+      - s-c1b63daaa9
+      - s-fd8a7793b4
+      - s-79578ee35f
+      - s-c0161e3c19
+      - s-f95e18da92
+      - s-c98a038668
+      - s-b4db9f9ab5
+      - s-13144d22fb
+      - s-6091527495
+      - s-ee3005c6b5
+      - s-8294a90908
+      - s-9622878f60
+      - s-5b92e4d09b
+      - s-8949c0557a
+      - s-bab6b41974
+      - s-efbddc06c0
+      - s-4301070b55
+      - s-8fea49c35e
+      - s-d82475cbd4
+      - s-f3445b73f6
+      - s-365fc4298e
+      - s-b7448b6165

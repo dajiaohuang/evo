@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops daiyunensis
+  displayName: Amolops daiyunensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DZ5
+  sourceIndexes:
+    - name:
+        en: Amolops daiyunensis
+        zh: Amolops daiyunensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DZ5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/358
+            queryName: Amolops daiyunensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/195
+            queryName: Staurois daiyunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b39efe386a
+      - s-04e0c79bed
+      - s-97732e977e
+      - s-106695a5e7
+      - s-713b31e919
+      - s-7dc856165f
+      - s-24ca634a68
+      - s-d9f892eaf4
+      - s-fbd85dc99a
+      - s-00f1593b33
+      - s-ddc3c61f50
+      - s-ee04c5cc3f
+      - s-b6497e73ac
+      - s-94b4ca1069
+    zh:
+      - s-cae0f9a2eb
+      - s-2e3322706b
+      - s-eb6ace5f21
+      - s-aaa2f6583f
+      - s-d14ee2b35d
+      - s-61b6b1a518
+      - s-18c3f9748c
+      - s-f0a659bbbb
+      - s-773a272a32
+      - s-9a2de19baf
+      - s-9d8e528ea5
+      - s-a69f018519
+      - s-101d9904ac
+      - s-c1b669f774

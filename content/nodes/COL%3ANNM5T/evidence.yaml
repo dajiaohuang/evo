@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eleutherodactylus humboldti Devitt, Tseng, Taylor-Adair, Koganti, Timugura & Cannatella, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Eleutherodactylus humboldti
+      zh: Eleutherodactylus humboldti
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fad9ac8bcb
+            part: title
+          zh:
+            page: zh
+            section: s-838415cd5c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fad9ac8bcb
+            part: body
+          zh:
+            page: zh
+            section: s-838415cd5c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f5591b5753
+            part: title
+          zh:
+            page: zh
+            section: s-a1456007ed
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f5591b5753
+            part: body
+          zh:
+            page: zh
+            section: s-a1456007ed
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-27d87fb9b6
+            part: title
+          zh:
+            page: zh
+            section: s-703074af98
+            part: title
+        sourceIds:
+          - primary-pmc10007972-nnm5t
+        text:
+          en:
+            page: en
+            section: s-27d87fb9b6
+            part: body
+          zh:
+            page: zh
+            section: s-703074af98
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-38c69ede01
+            part: title
+          zh:
+            page: zh
+            section: s-c434857c29
+            part: title
+        sourceIds:
+          - primary-pmc10007972-nnm5t
+        text:
+          en:
+            page: en
+            section: s-38c69ede01
+            part: body
+          zh:
+            page: zh
+            section: s-c434857c29
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-77b122c410
+            part: title
+          zh:
+            page: zh
+            section: s-628ba188c6
+            part: title
+        sourceIds:
+          - primary-pmc10007972-nnm5t
+        text:
+          en:
+            page: en
+            section: s-77b122c410
+            part: body
+          zh:
+            page: zh
+            section: s-628ba188c6
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-02e1bdb372
+            part: title
+          zh:
+            page: zh
+            section: s-b2e4e23f1d
+            part: title
+        sourceIds:
+          - primary-pmc10007972-nnm5t
+        text:
+          en:
+            page: en
+            section: s-02e1bdb372
+            part: body
+          zh:
+            page: zh
+            section: s-b2e4e23f1d
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-3a7d7ea9aa
+            part: title
+          zh:
+            page: zh
+            section: s-877163adad
+            part: title
+        sourceIds:
+          - primary-pmc10007972-nnm5t
+        text:
+          en:
+            page: en
+            section: s-3a7d7ea9aa
+            part: body
+          zh:
+            page: zh
+            section: s-877163adad
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Eleutherodactylus humboldti
+          url: https://www.checklistbank.org/dataset/316115/taxon/NNM5T
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10007972-nnm5t
+        referenceId: ref-65a11e25-ff67-4e1b-a1f4-3ec347b1b9b6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Eleutherodactylus humboldti: Article XML sec20–21, sec23–28, call methods sec9 and retained phylogeny/call results/discussion; no tables, figures or audio reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7752cba26d
+        part: body
+      zh:
+        page: zh
+        section: s-c639d27d8e
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.14985
+        referenceId: ref-65a11e25-ff67-4e1b-a1f4-3ec347b1b9b6
+        sourceKey: primary-pmc10007972-nnm5t
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10007972/article.xml
+        sourceConcept: Eleutherodactylus humboldti
+        evidenceRead: "Eleutherodactylus humboldti: Article XML sec20–21, sec23–28, call methods sec9 and retained phylogeny/call results/discussion; no tables, figures or audio reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A male holotype and three male paratypes
+              zh: 雄性正模及三只雄性副模
+            referenceId: ref-65a11e25-ff67-4e1b-a1f4-3ec347b1b9b6
+            sourceKey: primary-pmc10007972-nnm5t
+            locator: Article XML Results > Holotype sec20 paragraph 0; Paratypes sec21 paragraph 0; Measurements sec24 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b049bf2f80
+                part: body
+              zh:
+                page: zh
+                section: s-70bc48c940
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Live orange surfaces fade in preservative
+              zh: 活体橙色面在保存后褪色
+            referenceId: ref-65a11e25-ff67-4e1b-a1f4-3ec347b1b9b6
+            sourceKey: primary-pmc10007972-nnm5t
+            locator: Article XML Results > Coloration in life sec25 paragraph 0; Coloration in preservative sec26 paragraph 0; Diagnosis sec23 paragraphs 1–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4305981def
+                part: body
+              zh:
+                page: zh
+                section: s-a38b6bdb62
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Calls from three males compared with four maurus males
+              zh: 三只雄性鸣声与四只 maurus 雄性比较
+            referenceId: ref-65a11e25-ff67-4e1b-a1f4-3ec347b1b9b6
+            sourceKey: primary-pmc10007972-nnm5t
+            locator: Article XML Methods > Call analysis sec9 paragraph 0; reading-sections index 2, Results > Call analysis sec18 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fbbeba27bc
+                part: body
+              zh:
+                page: zh
+                section: s-3a84ba639c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Thunderstorm encounters in a disturbed pine–oak clearing
+              zh: 受扰松栎林空地的雷雨遭遇
+            referenceId: ref-65a11e25-ff67-4e1b-a1f4-3ec347b1b9b6
+            sourceKey: primary-pmc10007972-nnm5t
+            locator: Article XML Results > Distribution and natural history sec28 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-adb0327feb
+                part: body
+              zh:
+                page: zh
+                section: s-c394bf4f28
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: A mitochondrial sister relationship within the sampled analysis
+              zh: 采样分析中的线粒体姐妹关系
+            referenceId: ref-65a11e25-ff67-4e1b-a1f4-3ec347b1b9b6
+            sourceKey: primary-pmc10007972-nnm5t
+            locator: Reading-sections index 1, Results > Phylogeny sec14 paragraph 3; index 5, Discussion sec39 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cdd6758fe7
+                part: body
+              zh:
+                page: zh
+                section: s-300a27ae91
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,262 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Jingophrys vegrandis (Mahony, Teeling & Biju, 2013)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Jingophrys vegrandis
+      zh: Jingophrys vegrandis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9b92cbd768
+            part: title
+          zh:
+            page: zh
+            section: s-9979cdcd3a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9b92cbd768
+            part: body
+          zh:
+            page: zh
+            section: s-9979cdcd3a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f134d8fbfe
+            part: title
+          zh:
+            page: zh
+            section: s-1c4b7da243
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f134d8fbfe
+            part: body
+          zh:
+            page: zh
+            section: s-1c4b7da243
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8ae24aced2
+            part: title
+          zh:
+            page: zh
+            section: s-de27b1078e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-8ae24aced2
+            part: body
+          zh:
+            page: zh
+            section: s-de27b1078e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-f0a524825902a02d631e9066
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-54319ab53e
+            part: title
+          zh:
+            page: zh
+            section: s-2457329211
+            part: title
+        sourceIds:
+          - primary-pmc10083232-q32xm
+        text:
+          en:
+            page: en
+            section: s-54319ab53e
+            part: body
+          zh:
+            page: zh
+            section: s-2457329211
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-01441cd75d
+            part: title
+          zh:
+            page: zh
+            section: s-761582cea3
+            part: title
+        sourceIds:
+          - primary-pmc10083232-q32xm
+        text:
+          en:
+            page: en
+            section: s-01441cd75d
+            part: body
+          zh:
+            page: zh
+            section: s-761582cea3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Jingophrys vegrandis
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q32XM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3165; Reference.csv rows 814
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10083232-q32xm
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Jingophrys vegrandis: Named Jingophrys species types, diagnosis, examined specimens, distribution and applicable remarks; historical diagnosis attribution retained; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1ffc96d168
+        part: body
+      zh:
+        page: zh
+        section: s-e5ffc32f64
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-q32xm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Jingophrys vegrandis
+        evidenceRead: "Jingophrys vegrandis: Named Jingophrys species types, diagnosis, examined specimens, distribution and applicable remarks; historical diagnosis attribution retained; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Confirmed locality kept separate from an expected range
+              zh: 已认可地点与预期范围分开保留
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-q32xm
+            locator: RESULTS > Jingophrys vegrandis; Holotype and Distribution; reading-sections index 10, section s03.24
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-30859c2a30
+                part: body
+              zh:
+                page: zh
+                section: s-d7d695d2ac
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Original-description male diagnosis
+              zh: 原始描述的雄性鉴别
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-q32xm
+            locator: RESULTS > Jingophrys vegrandis; Holotype, Paratypes and Diagnosis characters 1, 4, 7, 9 and 11; reading-sections index 10, section s03.24
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4f06d82805
+                part: body
+              zh:
+                page: zh
+                section: s-8ef5576a20
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

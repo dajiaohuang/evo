@@ -1,0 +1,238 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Caecilia museugoeldi
+    name:
+      en: Caecilia museugoeldi
+      zh: Caecilia museugoeldi
+    sourceClassification:
+      order: Gymnophiona
+      family: Caeciliidae
+      genus: Caecilia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c90bb8f847
+            part: body
+          zh:
+            page: zh
+            section: s-7e370ae672
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-21e97e6c78
+            part: body
+          zh:
+            page: zh
+            section: s-86a132c203
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Deposited annulus counts
+          zh: 存档的环褶计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-6da1722473
+            part: body
+          zh:
+            page: zh
+            section: s-a8bd67f7eb
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 24; Reference.csv rows 4323
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 24
+        values:
+          - Caeciliidae
+          - Caecilia
+          - Caecilia museugoeldi
+          - M
+          - "548"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "152"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.3"
+          - "8.5"
+          - NA
+          - NA
+          - "8.4"
+          - "6.1"
+          - "2.3"
+          - NA
+          - NA
+          - "5.4"
+          - NA
+          - "3.5"
+          - "4.5"
+          - "1.2"
+          - NA
+          - NA
+          - "7.5"
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4323
+        values:
+          - Gymnophiona
+          - Caecilia_museugoeldi
+          - "Maciel, A., & Hoogmoed, M. (2018). A new species of Caecilia Linnaeus, 1758 (Amphibia: Gymnophiona: Caeciliidae) from French Guiana. Boletim do Museu Paraense Emílio Goeldi - Ciências Naturais, 13(1), 13-18. https://doi.org/10.46357/bcnaturais.v13i1.97"
+    availableTraitCodes:
+      - TOL
+      - TA1
+      - HL
+      - HW1
+      - BW2
+      - BW3
+      - IND
+      - IOD
+      - ITD
+      - TE
+      - TN
+      - TJ
+      - EJ
+      - VA
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - P7SZ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

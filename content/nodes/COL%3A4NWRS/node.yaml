@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea orchimelas
+  displayName: Pseudoeurycea orchimelas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWRS
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea orchimelas
+        zh: Pseudoeurycea orchimelas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWRS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/308
+            queryName: Pseudoeurycea orchimelas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/367
+            queryName: Lineatriton orchimelas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/220
+            queryName: Pseudoeurycea orchimela
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a84d0e2e71
+      - s-d391921e89
+      - s-ded9350d40
+      - s-d101c47c07
+      - s-55487e91e5
+      - s-2eed1ba1b6
+      - s-201d176447
+      - s-9c82b2dcc5
+    zh:
+      - s-d21a4fd757
+      - s-2d3c63b52e
+      - s-21526dfc19
+      - s-88a6aca27d
+      - s-51c22bd820
+      - s-65d5f968fd
+      - s-27b2a3dc5d
+      - s-999f3e5f23

@@ -1,0 +1,169 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Orenburgia concinna
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Orenburgia concinna
+      en: Orenburgia concinna
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-21dab5cc1c
+            part: body
+          en:
+            page: en
+            section: s-b57a9990c4
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-844b29f94c
+            part: body
+          en:
+            page: en
+            section: s-82aced837c
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c084ee27bd
+            part: body
+          en:
+            page: en
+            section: s-20746d2ee8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e4cc30d10b
+            part: body
+          en:
+            page: en
+            section: s-3f18b587a4
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9c0e7d41d2
+            part: body
+          en:
+            page: en
+            section: s-bf4df53773
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Orenburgia concinna
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=161152&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:161152; original response record indices retained in data/sources/other-reptilia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:161152
+          selectedOccurrenceIds:
+            - occ:840353
+            - occ:841374
+            - occ:847011
+          selectedCollectionIds:
+            - col:93201
+            - col:93276
+            - col:94236
+          sourceReferenceIds:
+            - ref:28844
+            - ref:31491
+            - ref:32050
+          originalIdentificationMappings:
+            - occurrenceId: occ:840353
+              originalIdentifiedName: Orenburgia concinna n. sp.
+              acceptedName: Orenburgia concinna
+              difference: null
+            - occurrenceId: occ:841374
+              originalIdentifiedName: Lestanshoria massiva n. gen. n. sp.
+              acceptedName: Orenburgia concinna
+              difference: null
+            - occurrenceId: occ:847011
+              originalIdentifiedName: Insulophon morachovskayae n. gen. n. sp.
+              acceptedName: Orenburgia concinna
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-fcba977e7f
+        part: body
+      en:
+        page: en
+        section: s-8a6df87af3
+        part: body

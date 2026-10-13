@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pauridia pusilla (Snijman) Snijman & Kocyan
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6TVBP, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6TVBP; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6TVBP
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6TVBP
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001420878-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6TVBP / WFO wfo-0001420878
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13877_0
+        referenceId: ref-57048583-5353-8f0b-a70d-aae9850c37fa
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pauridia pusilla (Snijman) Snijman & Kocyan account; SANBI/WFO archive rows 7543 (Morphology), 28968 (Habitat), source identifier 13877.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_15172_0
+        referenceId: ref-e97a6c82-af79-875a-a072-ef81915016f7
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pauridia pusilla (Snijman) Snijman & Kocyan account; SANBI/WFO archive rows 58367 (Diagnostic), source identifier 15172.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Slender, delicate, cormous geophyte to 30 cm, corm tunics soft, brown. Leaves 2-6, suberect, narrow, thin-textured. Flowers 2(3), stellate, small, yellow or white, tepals usually 4, ± reflexed, ovary beaked, filaments adnate to thickened style, stigma branches dark red, bracts 2(3).
+            textZh: Pauridia pusilla (Snijman) Snijman & Kocyan 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13877_0
+            locator: "SANBI/WFO archive Morphology row 7543; source identifier 13877.0; cited publication: Snijman, DA. 2012. Hypoxidaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 115 - 119. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: "Pauridia pusilla bears a striking resemblance to P. nana in that both are shade-loving plants with delicate, narrow, pale green leaves and small flowers, but several unusual floral characters make the plants of P. pusilla unmistakable. The filaments are fused to the style forming a gynostemium, the anther connectives and stigma branches are reddish and the ovary is topped by a short beak, 0.5-1.0 mm long. Other species having flowers with a gynostemium are P. maximiliani and the more distantly related and well- known P. minuta and P. longituba. P. maximiliani is similar to P. pusilla in having all the filaments adnate to the style, whereas in P. minuta and P. longituba the inner whorl of fertile stamens is inserted in the perigone throat and only the outer whorl of `pseudostigmatic staminodes', as described by Burtt, is fused to the style, thereby suggesting the independent origin of these structures within Pauridia. Variation: Flower colour in Pauridia pusilla varies to some extent throughout its range, although the dark colouring of the anther connectives and stigmatic branches remains constant. The populations on the Matsikamma Mountain and Gifberg invariably have yellow tepals, whereas those in the northern Cederberg have white or cream tepals. Variation in the number of floral parts is also known. Both tetramerous and hexamerous flowers are frequently found within the same population and occasionally on the same plant. Only very rarely have pentamerous flowers been noted. This condition is not unique to the genus, however, and is also known within Hypoxis and Empodium."
+            textZh: SANBI 条目提供了 Pauridia pusilla (Snijman) Snijman & Kocyan 的鉴别特征。
+            sourceIds:
+              - sanbi_15172_0
+            locator: "SANBI/WFO archive Diagnostic row 58367; source identifier 15172.0; cited publication: Snijman, DA. 2014. A taxonomic revision of the genus Pauridia (Hypoxidaceae) in southern Africa. Phytotaxa 182(1): 1 - 114. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Damp, shaded, sandstone pavements.
+            textZh: 该 SANBI 区域物种条目记录的生境：Damp, shaded, sandstone pavements.
+            sourceIds:
+              - sanbi_13877_0
+            locator: "SANBI/WFO archive Habitat row 28968; source identifier 13877.0; cited publication: Snijman, DA. 2012. Hypoxidaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 115 - 119. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

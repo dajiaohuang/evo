@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis balionotus
+  displayName: Pristimantis balionotus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VWGZ
+  sourceIndexes:
+    - name:
+        en: Pristimantis balionotus
+        zh: Pristimantis balionotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VWGZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/136
+            queryName: Pristimantis balionotus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/275
+            queryName: Eleutherodactylus balionotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c73052f610
+      - s-76020aa70d
+      - s-756f27eaa9
+      - s-5ee3484d52
+      - s-896e16931b
+      - s-73e4694b9f
+      - s-e19429ca85
+      - s-efaccc6984
+      - s-dce41b078c
+      - s-dd23815771
+      - s-3ac5fd9328
+      - s-f2cea731b5
+      - s-60dce6c2e9
+      - s-cc7ec8cc9a
+      - s-613e21d531
+      - s-ed2f3eac27
+      - s-136580250e
+      - s-6352fe0911
+      - s-90a71cb7bc
+      - s-5d05f900db
+      - s-9803d25fe3
+      - s-15962434d5
+      - s-1cde69d381
+      - s-b9694f6885
+      - s-3de005a250
+      - s-5039908829
+      - s-70b7d9f58c
+      - s-f5ba069350
+      - s-d50748fa13
+      - s-659a9983d5
+      - s-855a4acfcd
+    zh:
+      - s-b46034bcb1
+      - s-f2c589e95f
+      - s-7959399988
+      - s-00dac38224
+      - s-9d8fea33a7
+      - s-a0da613e8b
+      - s-79c3f80063
+      - s-7969eb1414
+      - s-670d8303b7
+      - s-082300b9d2
+      - s-5d50288897
+      - s-9716e4e9e7
+      - s-4a2c799052
+      - s-bfe86c292e
+      - s-7b4290cbfa
+      - s-79d25e94d9
+      - s-031c179637
+      - s-9dd069400d
+      - s-69d4eeb7d2
+      - s-0620d64014
+      - s-b98caebf44
+      - s-fd847044b8
+      - s-a842b1c5a8
+      - s-63d488a2cf
+      - s-63462add28
+      - s-2d54699426
+      - s-2dec21a542
+      - s-e3e85e2033
+      - s-7de45468c7
+      - s-cd2befeb15
+      - s-7bb37709ce

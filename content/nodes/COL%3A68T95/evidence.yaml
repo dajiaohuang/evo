@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Caerostris darwini Kuntner & Agnarsson, 2010
+    rank: species
+    sourceDatasetId: "56185"
+    identity:
+      method: Exact COL26.8 accepted species usage was verified by COL ID, verbatim scientific name, authorship, rank, accepted status, sourceDatasetId, and every accepted parent node in the pinned hierarchy.
+      scope: Nominal species as represented by COL26.8 usage 68T95. The biological claim is comparative genome and transcriptome evidence from the source study sample; it does not establish a complete species account.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: RT
+        scientificName: Arthropoda
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: KZWYC
+        scientificName: Chelicerata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: CCQKT
+        scientificName: Arachnida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: RN
+        scientificName: Araneae
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "56185"
+      - id: CTR7N
+        scientificName: Araneidae Clerck, 1757
+        authorship: Clerck, 1757
+        rank: family
+        status: accepted
+        sourceDatasetId: "56185"
+      - id: CTT7G
+        scientificName: Caerostris Thorell, 1868
+        authorship: Thorell, 1868
+        rank: genus
+        status: accepted
+        sourceDatasetId: "56185"
+      - id: 68T95
+        scientificName: Caerostris darwini Kuntner & Agnarsson, 2010
+        authorship: Kuntner & Agnarsson, 2010
+        rank: species
+        status: accepted
+        sourceDatasetId: "56185"
+    lifeStatusScope:
+      wild: The genomic and transcriptomic materials came from wild-caught adult Caerostris darwini from Andasibe-Mantadia National Park, Madagascar; sample-level findings are not population frequency estimates.
+      domesticated: Domestication and captive populations have not been assessed; no captive or domesticated specimens support the claim.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 56185
+          url: https://www.checklistbank.org/dataset/316115/taxon/68T95
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:68T95@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: Accepted species usage 68T95; exact name Caerostris darwini Kuntner & Agnarsson, 2010; species rank; sourceDatasetId 56185; accepted parent chain includes Araneae, Araneidae, and Caerostris.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 accepted-name identity and classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 68T95. https://doi.org/10.48580/dgywk
+      - id: babb2022
+        referenceId: ref-3be81ea8-1236-8d0d-a5ce-40757ffc485e
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article copyright notice; publisher page links the Creative Commons Attribution License to the CC BY 4.0 canonical deed.
+          licenseAppliesTo: Published article text; separately credited third-party material and article images are not reused. Claims here paraphrase findings and do not redistribute sequence data.
+          stableId: doi:10.1371/journal.pone.0268660
+          accessedAt: 2026-09-28
+          locator: Abstract; Results, 'Characterization of the spidroin sequences in the C. darwini genome' and 'A catalog of spidroin repetitive motifs and cassettes in C. darwini'; Methods, 'Spider specimens'.
+          licenseAssessment: item-level-verified
+          scope: Original comparative genome and silk-gland transcriptome study of Caerostris darwini; the biological claim is bounded to the paper's wild-caught adult sample and reported analyses.
+          attribution: Babb PL, Gregorič M, Lahens NF, Nicholson DN, Hayashi CY, Higgins L, et al. (2022). Characterization of the genome and silk-gland transcriptomes of Darwin's bark spider (Caerostris darwini). PLOS ONE 17(6):e0268660. https://doi.org/10.1371/journal.pone.0268660. Findings paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: not-assessed
+      evolution:
+        status: partially-supported
+        claims:
+          - text: Using draft genome and silk-gland transcriptome assemblies for Caerostris darwini, the study reported at least 31 putative spidroin genes and expansions of several spidroin gene classes relative to Trichonephila clavipes. It also detected sex- and gland-specific expression patterns in the sampled tissues. The proposed connection between these patterns and exceptional dragline-silk toughness is presented by the authors as a hypothesis, not as a demonstrated causal result.
+            sourceIds:
+              - babb2022
+            locator: Abstract; Results, 'Characterization of the spidroin sequences in the C. darwini genome', especially the comparison with T. clavipes; see also the abstract's expression-analysis summary.
+            placeTimeScope: Wild-caught adult Caerostris darwini from Andasibe-Mantadia National Park, Madagascar. Methods report genome-sequencing DNA from two females, RNA-sequencing material from three further females, and qPCR validation material from three further females and three males. The article does not state specimen-collection dates, so the sampling time is unknown; the version of record was published 2022-06-06.
+            lifeStatus: Specimen-derived genomic and transcriptomic evidence from wild-caught adults. The study does not use captive, domesticated, or fossil specimens and does not report field population frequencies.
+            originalLanguage: en
+        gaps:
+          - This is one study-specific genome and transcriptome analysis; within-species population variation, independent population replication, and broader phylogenomic context remain unassessed in this dossier.
+          - The proposed contribution of expression or protein composition to silk toughness is a hypothesis in the source and is not treated as a demonstrated mechanism here.
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-80d5d594d5
+            part: title
+          zh:
+            page: zh
+            section: s-f921e03bb1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-80d5d594d5
+            part: body
+          zh:
+            page: zh
+            section: s-f921e03bb1
+            part: body
+        sourceIds:
+          - babb2022

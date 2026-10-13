@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis schilfi
+  displayName: Gephyromantis schilfi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KCZZ
+  sourceIndexes:
+    - name:
+        en: Gephyromantis schilfi
+        zh: Gephyromantis schilfi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KCZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/155
+            queryName: Gephyromantis schilfi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/205
+            queryName: Mantidactylus schilfi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f3375c6777
+      - s-64a95aee7b
+      - s-e8c5e19ec1
+      - s-0feca1aeb1
+      - s-8d636b32b2
+      - s-8eb10edd1c
+      - s-5933565a0e
+      - s-7c19599676
+      - s-7c210a0216
+      - s-d4515cce0b
+    zh:
+      - s-f0b69183bb
+      - s-3fc692bc79
+      - s-12fb4baff5
+      - s-d2dfa651ae
+      - s-9c95cb4aa5
+      - s-08f0127c4d
+      - s-db8fbdd0e1
+      - s-d3e7848ad9
+      - s-2695d4d5d8
+      - s-37aa324b1e

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophryne brevipes
+  displayName: Pelophryne brevipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CG3
+  sourceIndexes:
+    - name:
+        en: Pelophryne brevipes
+        zh: Pelophryne brevipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CG3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/461
+            queryName: Pelophryne brevipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/438
+            queryName: Hylaplesia brevipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-636cecceb6
+      - s-65a50f8a3b
+      - s-951742b470
+      - s-f0313ad421
+      - s-e9379d59db
+      - s-65e348a53b
+      - s-7035f987db
+      - s-70181e6257
+      - s-5c01aa94e8
+      - s-e91cdbebb3
+      - s-0d842657fc
+    zh:
+      - s-8c91e370f9
+      - s-de3bd504bd
+      - s-427939bdc7
+      - s-29af2e5784
+      - s-478c44270e
+      - s-a2b8df3300
+      - s-09ce92089d
+      - s-ab4c2345aa
+      - s-87f554bf11
+      - s-77f6918433
+      - s-ce86036843

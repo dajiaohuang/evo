@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Copiula minor
+  displayName: Copiula minor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y4X6
+  sourceIndexes:
+    - name:
+        en: Copiula minor
+        zh: Copiula minor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y4X6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/12
+            queryName: Copiula minor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-76137e86b5
+      - s-c852ba149d
+      - s-5725d8321d
+      - s-c972dbc28e
+      - s-1d4cf8e9fb
+      - s-3f27910543
+      - s-1be1839ed6
+      - s-1fa8a5cb1e
+      - s-aca3eec6e6
+      - s-a3238688e0
+    zh:
+      - s-010d947df1
+      - s-6f554cd71c
+      - s-de6b0126b9
+      - s-193880c141
+      - s-b88c704763
+      - s-2415982fad
+      - s-0cc00b3910
+      - s-d44c098b4d
+      - s-1f1e49d627
+      - s-59e22d60f1

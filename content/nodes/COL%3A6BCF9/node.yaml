@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor loki
+  displayName: Craugastor loki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCF9
+  sourceIndexes:
+    - name:
+        en: Craugastor loki
+        zh: Craugastor loki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCF9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/132
+            queryName: Craugastor loki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/118
+            queryName: Eleutherodactylus loki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/188
+            queryName: Eleutherodactylus sanmartinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba1ce181ef
+      - s-72716214b9
+      - s-9ea5628924
+      - s-441610814c
+      - s-9a8b5b2019
+      - s-9b03e4d7f3
+      - s-2fd06d92ae
+      - s-55d7f2f5b7
+      - s-99065d5dbf
+      - s-20903c0941
+      - s-98f85c08b6
+      - s-ab20f372b5
+      - s-b808aa5545
+      - s-1881be4241
+      - s-96483d0df3
+      - s-6230ca30bd
+      - s-743dda066f
+      - s-1d1f4dfc14
+      - s-f91124d8ac
+    zh:
+      - s-2acbf6bac8
+      - s-8324140167
+      - s-0e256853c7
+      - s-a0e2faa903
+      - s-2d5f77e400
+      - s-e42da5520d
+      - s-9f0f590c24
+      - s-2d0382bb97
+      - s-eb54e9cf4a
+      - s-d9e91ca593
+      - s-eb335a1024
+      - s-7b4cf5703a
+      - s-6fff11c559
+      - s-6645a44d3e
+      - s-e6ace81491
+      - s-f22331d817
+      - s-e80c69dc74
+      - s-8b54c8066e
+      - s-ebfff8b93d

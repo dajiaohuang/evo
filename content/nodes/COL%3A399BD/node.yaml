@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus guantanamera
+  displayName: Eleutherodactylus guantanamera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399BD
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus guantanamera
+        zh: Eleutherodactylus guantanamera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399BD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/225
+            queryName: Eleutherodactylus guantanamera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a09c90e36a
+      - s-6d506098e5
+      - s-ee5d5b81a5
+      - s-3d2e489c7a
+      - s-157aab5ee1
+      - s-5ab1af4e34
+      - s-594b9ef5a3
+      - s-f0d2ddcc2b
+      - s-f96e084af5
+    zh:
+      - s-e1a1fba7c2
+      - s-b42e7101ca
+      - s-fed002ca44
+      - s-936deae540
+      - s-1a35ff3eb6
+      - s-3a5d5625c2
+      - s-281329da17
+      - s-663ec640bf
+      - s-079ddd9fa0

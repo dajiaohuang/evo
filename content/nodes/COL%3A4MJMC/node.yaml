@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis quaquaversus
+  displayName: Pristimantis quaquaversus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJMC
+  sourceIndexes:
+    - name:
+        en: Pristimantis quaquaversus
+        zh: Pristimantis quaquaversus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJMC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/30
+            queryName: Pristimantis quaquaversus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/14
+            queryName: Eleutherodactylus quaquaversus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-121e3e7d8e
+      - s-65d02ff530
+      - s-e2f22499ae
+      - s-174b369310
+      - s-5d2218084b
+      - s-05bb69f89c
+      - s-f33d60c021
+      - s-e474812b7d
+      - s-5d7188a908
+      - s-db7880c897
+      - s-3d518e98a9
+      - s-c68e70af4e
+      - s-aeccd24acd
+      - s-624a386556
+      - s-1fc9c89969
+      - s-e99f3f84ee
+      - s-341b7ee1b8
+      - s-cf3b5212ff
+      - s-2b8c32223f
+      - s-99c6ace6d2
+      - s-6cc7d1abaa
+    zh:
+      - s-0ed2b686d0
+      - s-c6b95c096b
+      - s-a6c4f76a43
+      - s-4be6c0e72f
+      - s-7a0bee9d61
+      - s-7c03fa5434
+      - s-aa040e7d6e
+      - s-bd1d636ef6
+      - s-98b9e569c8
+      - s-22beed3659
+      - s-caa4306dd3
+      - s-cd5b786b51
+      - s-cc376e9321
+      - s-37b2cc7796
+      - s-9e5fdb80e3
+      - s-7d15d3bca1
+      - s-20334dc06e
+      - s-9de9210ea4
+      - s-a0170b240b
+      - s-4965062582
+      - s-d0908e76a8

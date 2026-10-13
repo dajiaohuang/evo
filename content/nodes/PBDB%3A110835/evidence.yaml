@@ -1,0 +1,178 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Pseudobranchus robustus
+    rank: species
+    sourceTaxonId: txn:110835
+    name:
+      en: Pseudobranchus robustus
+      zh: Pseudobranchus robustus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-dd4d246825
+            part: body
+          zh:
+            page: zh
+            section: s-5eaf2d9597
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-55ef41ed57
+            part: body
+          zh:
+            page: zh
+            section: s-05a43c1909
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-e84c5d94be
+            part: body
+          zh:
+            page: zh
+            section: s-31e8dbb20d
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110835; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: C. J. Goin and W. Auffenberg. 1955. The fossil salamanders of the family Sirenidae. Bulletin of the Museum of Comparative Zoology 113(7):497-514
+    occurrenceEvidence:
+      - occurrenceId: occ:709005
+        collectionId: col:20573
+        acceptedTaxonId: txn:110835
+        identifiedName: Pseudobranchus cf. robustus
+        taxonomicDifference: null
+        referenceId: ref:25711
+        bibliography: J. D. Lynch. 1965. The Pleistocene amphibians of Pit II, Arredondo, Florida. Copeia 1965(1):72-77
+        locality:
+          countryCode: US
+          stateProvince: Florida
+          county: Alachua
+        stratigraphy:
+          group: null
+          formation: Wicomico
+          member: Arredondo
+        olderAgeMa: 0.129
+        youngerAgeMa: 0.0117
+      - occurrenceId: occ:1083762
+        collectionId: col:20491
+        acceptedTaxonId: txn:110835
+        taxonomicDifference: null
+        referenceId: ref:43539
+        bibliography: H. J. Gut and C. E. Ray. 1963. The Pleistocene vertebrate fauna of Reddick, Florida. Quaterly Journal of the Florida Academy of Sciences 26(4):315-328
+        locality:
+          countryCode: US
+          stateProvince: Florida
+          county: Marion
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 0.21
+        youngerAgeMa: 0.014
+      - occurrenceId: occ:1200530
+        collectionId: col:20593
+        acceptedTaxonId: txn:110835
+        identifiedName: Pseudobranchus robustus n. sp.
+        taxonomicDifference: null
+        referenceId: ref:50692
+        bibliography: C. J. Goin and W. Auffenberg. 1955. The fossil salamanders of the family Sirenidae. Bulletin of the Museum of Comparative Zoology 113(7):497-514
+        locality:
+          countryCode: US
+          stateProvince: Florida
+          county: Alachua
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 0.129
+        youngerAgeMa: 0.0117
+      - occurrenceId: occ:1200541
+        collectionId: col:155347
+        acceptedTaxonId: txn:110835
+        taxonomicDifference: null
+        referenceId: ref:50692
+        bibliography: C. J. Goin and W. Auffenberg. 1955. The fossil salamanders of the family Sirenidae. Bulletin of the Museum of Comparative Zoology 113(7):497-514
+        locality:
+          countryCode: US
+          stateProvince: Florida
+          county: Alachua
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 0.129
+        youngerAgeMa: 0.0117
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-e84c5d94be
+            part: body
+          zh:
+            page: zh
+            section: s-31e8dbb20d
+            part: body
+        sourceIds: []

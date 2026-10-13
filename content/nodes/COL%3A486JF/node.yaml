@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus chancas
+  displayName: Nymphargus chancas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JF
+  sourceIndexes:
+    - name:
+        en: Nymphargus chancas
+        zh: Nymphargus chancas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/422
+            queryName: Nymphargus chancas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/494
+            queryName: Cochranella chancas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-52d8fbcdf4
+      - s-b7d315f058
+      - s-f606455e12
+      - s-ecbf74d5e3
+      - s-8245efb0ce
+      - s-3517155806
+      - s-4d005d3d49
+      - s-077a49b158
+      - s-a6aa9b3da5
+      - s-0c9f9ce30e
+      - s-af591a6fb4
+      - s-0b83fca0d4
+      - s-e700e47a45
+      - s-a93f6c4b09
+    zh:
+      - s-5a32da7196
+      - s-dca6efaa5f
+      - s-7bf89c57ba
+      - s-0778d1bccc
+      - s-4cec0daad9
+      - s-425b1a0312
+      - s-84e8cfdc97
+      - s-ee51355c6d
+      - s-9d0786dd7c
+      - s-7fae62c561
+      - s-5a946a2f11
+      - s-6da228474b
+      - s-43dbbd87bf
+      - s-0b3b99d880

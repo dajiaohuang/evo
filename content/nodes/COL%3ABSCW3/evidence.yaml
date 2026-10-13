@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tamarinus mystax (Spix, 1823)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 髭狨
+      en: Mustached Tamarin
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-98d6ebbb46
+            part: body
+          en:
+            page: en
+            section: s-094786d394
+            part: body
+        sourceIds:
+          - taxonomy
+          - lopes2023_peerj
+      - topic: socialBehavior
+        text:
+          zh:
+            page: zh
+            section: s-69c5367409
+            part: body
+          en:
+            page: en
+            section: s-e2d9764e56
+            part: body
+        sourceIds:
+          - heymann2000
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tamarinus Trouessart, 1904
+          url: https://www.checklistbank.org/dataset/316115/taxon/7S9R
+          scope:
+            zh: 固定版本中的名称、作者、等级和父子关系；不提供生物学证据。
+            en: Pinned names, authorship, ranks and parent links; not biological evidence.
+      - id: lopes2023_peerj
+        referenceId: ref-ac5326e9-12f6-85ab-a71d-cfc7cdcc52b3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 髭狨类群野外取样、分类假设检验及新种描述；用于分类边界，不替代各物种的生态调查。
+            en: Field sampling, taxonomic hypothesis tests and description of a new species in the moustached-tamarin group; taxonomic evidence, not a substitute for species ecology.
+      - id: heymann2000
+        referenceId: ref-b0700bb0-f265-888b-a2ea-259823f47098
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 比较四个野生群体家域中的气味标记分布；不推断全种社会行为。
+            en: Compares scent-mark distributions within four wild-group home ranges; does not establish species-wide social behavior.
+    limitations:
+      zh:
+        page: zh
+        section: s-bc1df2fa62
+        part: body
+      en:
+        page: en
+        section: s-917ea8aafe
+        part: body

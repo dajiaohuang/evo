@@ -1,0 +1,227 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Wolterstorffina Mertens, 1939
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Wolterstorffina
+      zh: Wolterstorffina
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4ffc476e72
+            part: title
+          zh:
+            page: zh
+            section: s-3143404ba8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4ffc476e72
+            part: body
+          zh:
+            page: zh
+            section: s-3143404ba8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e2f9ba359f
+            part: title
+          zh:
+            page: zh
+            section: s-21190c961c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e2f9ba359f
+            part: body
+          zh:
+            page: zh
+            section: s-21190c961c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-4baf928cd6
+            part: title
+          zh:
+            page: zh
+            section: s-132c466b37
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4baf928cd6
+            part: body
+          zh:
+            page: zh
+            section: s-132c466b37
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-7a87902bda
+            part: title
+          zh:
+            page: zh
+            section: s-417112592e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7a87902bda
+            part: body
+          zh:
+            page: zh
+            section: s-417112592e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-52578fc872
+            part: title
+          zh:
+            page: zh
+            section: s-0d53acec5e
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5C33P
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5C33P
+            label:
+              en: Wolterstorffina chirioi
+              zh: Wolterstorffina chirioi
+          - kind: catalogue
+            colId: 5C33Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5C33Q
+            label:
+              en: Wolterstorffina mirei
+              zh: Wolterstorffina mirei
+          - kind: catalogue
+            colId: 5C33S
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5C33S
+            label:
+              en: Wolterstorffina parvipalmata
+              zh: Wolterstorffina parvipalmata
+        text:
+          en:
+            page: en
+            section: s-52578fc872
+            part: body
+          zh:
+            page: zh
+            section: s-0d53acec5e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Wolterstorffina
+          url: https://www.checklistbank.org/dataset/316115/taxon/886Q
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Wolterstorffina; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5537093992
+        part: body
+      zh:
+        page: zh
+        section: s-e4c0ee9c2e
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Wolterstorffina
+      sourceRowIds:
+        - Anf0901
+        - Anf0902
+        - Anf0903
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 3
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 3
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 2
+      currentConceptEquivalenceCertified: false

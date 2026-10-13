@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulengerula taitana
+  displayName: Boulengerula taitana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MR72
+  sourceIndexes:
+    - name:
+        en: Boulengerula taitana
+        zh: Boulengerula taitana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MR72
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/320
+            queryName: Boulengerula taitana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/89
+            queryName: Boulengerula taitanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/90
+            queryName: Afrocaecilia taitana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73a351635e
+      - s-db47704432
+      - s-cff9260cd9
+      - s-685e6568ee
+      - s-a0878451a5
+      - s-5462b1480c
+      - s-fede2059ca
+      - s-70941080cf
+      - s-48fb135076
+      - s-497288276e
+      - s-f9718d0ae3
+    zh:
+      - s-7a073a148c
+      - s-238ae5f199
+      - s-7cb9649ffd
+      - s-eb5fc05e83
+      - s-4cfc3b0c6a
+      - s-69cccc4d5d
+      - s-bdc427b92a
+      - s-d6f3d4493e
+      - s-997844313c
+      - s-2bc638a7a8
+      - s-6ccb888767

@@ -1,0 +1,3 @@
+## ## Hooked branch prickles and a shallowly split leaf {#s-95d03b2464}
+The Brazilian Flora 2020 row records hook-shaped prickles on the branches and leaves divided shallowly into two lobes. It describes leaf bases as truncate, heart-shaped or notched, and tips as pointed or blunt; the upper surface may be glabrescent or hairless, while the lower surface bears short, appressed hairs. Narrowly lance-shaped flower buds and ten anthers are listed, and the legume is described as opening elastically. These are regional row descriptors; their alternatives do not establish the species’ full variation.
+

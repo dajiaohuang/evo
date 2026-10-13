@@ -1,0 +1,375 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyperolius rwandae Dehling, Sinsch, Rodel & Channing in Channing, Hillers, Lötters, Rödel, Schick et al., 2013
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyperolius rwandae
+      zh: Hyperolius rwandae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3aca14bc22
+            part: title
+          zh:
+            page: zh
+            section: s-c8c718d1ef
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3aca14bc22
+            part: body
+          zh:
+            page: zh
+            section: s-c8c718d1ef
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d0c4e80e66
+            part: title
+          zh:
+            page: zh
+            section: s-9149856453
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d0c4e80e66
+            part: body
+          zh:
+            page: zh
+            section: s-9149856453
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1f95626ccb
+            part: title
+          zh:
+            page: zh
+            section: s-1367084c3e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1f95626ccb
+            part: body
+          zh:
+            page: zh
+            section: s-1367084c3e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-f63afd37fd2a992110b5e55e
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cc316758c8
+            part: title
+          zh:
+            page: zh
+            section: s-4e870a92f7
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cc316758c8
+            part: body
+          zh:
+            page: zh
+            section: s-4e870a92f7
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-1bb890bd47
+            part: title
+          zh:
+            page: zh
+            section: s-e787e895b0
+            part: title
+        sourceIds:
+          - primary-pmc13072372-3nqys
+        text:
+          en:
+            page: en
+            section: s-1bb890bd47
+            part: body
+          zh:
+            page: zh
+            section: s-e787e895b0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c20aaacf38
+            part: title
+          zh:
+            page: zh
+            section: s-b2b6d1ee78
+            part: title
+        sourceIds:
+          - primary-pmc13072372-3nqys
+        text:
+          en:
+            page: en
+            section: s-c20aaacf38
+            part: body
+          zh:
+            page: zh
+            section: s-b2b6d1ee78
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-8a4bbd7a7e
+            part: title
+          zh:
+            page: zh
+            section: s-243234d4db
+            part: title
+        sourceIds:
+          - primary-pmc13072372-3nqys
+        text:
+          en:
+            page: en
+            section: s-8a4bbd7a7e
+            part: body
+          zh:
+            page: zh
+            section: s-243234d4db
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-4e625e2ea6
+            part: title
+          zh:
+            page: zh
+            section: s-dc157ffbeb
+            part: title
+        sourceIds:
+          - primary-pmc13072372-3nqys
+        text:
+          en:
+            page: en
+            section: s-4e625e2ea6
+            part: body
+          zh:
+            page: zh
+            section: s-dc157ffbeb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyperolius rwandae
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NQYS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2315, 2316; Reference.csv rows 2339
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc13072372-3nqys
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hyperolius rwandae: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f00ada474b
+        part: body
+      zh:
+        page: zh
+        section: s-c358074507
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-f63afd37fd2a992110b5e55e
+        scientificName: Hyperolius rwandae
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani16071104
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        sourceKey: primary-pmc13072372-3nqys
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13072372/article.xml
+        sourceConcept: Source Hyperolius rwandae compiled2010–2023Rwanda detections andindexcategories; exactwrittenname only, no originalvoucher/currentconceptcertification
+        evidenceRead: "Hyperolius rwandae: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Occurrence counts in the assembled Rwanda sample
+              zh: 卢旺达汇总样本中的出现计数
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-3nqys
+            locator: PMC13072372 XML TablesA2/A3 namedrow Hyperolius rwandae;sec2dot3;sec3dot1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8a02101363
+                part: body
+              zh:
+                page: zh
+                section: s-81161a820c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A species score for a specified conservation framework
+              zh: 特定保护框架中的物种评分
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-3nqys
+            locator: PMC13072372 XML TableA4 row26;Table1;sec2dot4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a5f0acb902
+                part: body
+              zh:
+                page: zh
+                section: s-71b21d54f6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Species Index and site index have different meanings
+              zh: 物种指数与站点指数含义不同
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-3nqys
+            locator: PMC13072372 XML sec2dot4;sec3dot3;sec4dot2;TableA4 row26
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f6b21b0a95
+                part: body
+              zh:
+                page: zh
+                section: s-b3888a2fb7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Sampling and transfer limits
+              zh: 采样与迁移应用限制
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-3nqys
+            locator: PMC13072372 XML sec2dot3/5;sec3dot1/4;sec4dot1–3;TablesA1/4/7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-873c44f8a7
+                part: body
+              zh:
+                page: zh
+                section: s-f94f06b565
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

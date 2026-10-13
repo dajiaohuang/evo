@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus anataliasiasi
+  displayName: Dendropsophus anataliasiasi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S4C
+  sourceIndexes:
+    - name:
+        en: Dendropsophus anataliasiasi
+        zh: Dendropsophus anataliasiasi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S4C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/335
+            queryName: Dendropsophus anataliasiasi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/257
+            queryName: Hyla anataliasiasi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e569c3b372
+      - s-b6104bc8eb
+      - s-e6210796c0
+      - s-0ce5b0521a
+      - s-d52c81810e
+      - s-3a65fa8c61
+      - s-0d909f4601
+      - s-e9e59cb613
+      - s-217654f8c4
+      - s-89fefa985c
+      - s-8a47a26d67
+      - s-f3fbf3e8ec
+      - s-c2ed55b4fe
+      - s-3d50975ad1
+      - s-e0edde38dd
+      - s-58284f8b18
+      - s-4d599c091a
+      - s-5d07d2ff20
+      - s-20a5475dc0
+      - s-d253ecd7c9
+      - s-73271a472c
+      - s-48422ddc56
+      - s-f0f1844acd
+      - s-601c50faa3
+      - s-30be8fe721
+      - s-91f0ea09d0
+      - s-a1b85285c0
+      - s-9a5908f1d9
+    zh:
+      - s-7ef2a932e8
+      - s-32bc591a19
+      - s-5e49d204fb
+      - s-4a989794b1
+      - s-33cf9f52a6
+      - s-222568fcd7
+      - s-f90c1560af
+      - s-d970266fb1
+      - s-1b7e28701c
+      - s-53f3914284
+      - s-dd5ca570c2
+      - s-83a2659bf7
+      - s-1eaa2fff23
+      - s-d7191057c8
+      - s-31b4a80faa
+      - s-058f8b580d
+      - s-f51fa368bd
+      - s-46d58eb022
+      - s-055adc810d
+      - s-3701c76703
+      - s-1347036e05
+      - s-18b06e52b4
+      - s-e2209d39a5
+      - s-3ffab8c539
+      - s-fd51ed60a3
+      - s-f4c52e751d
+      - s-46ea2e57a0
+      - s-82d02c5efe

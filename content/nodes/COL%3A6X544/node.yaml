@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes munnarensis
+  displayName: Raorchestes munnarensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X544
+  sourceIndexes:
+    - name:
+        en: Raorchestes munnarensis
+        zh: Raorchestes munnarensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X544
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/178
+            queryName: Raorchestes munnarensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/335
+            queryName: Philautus munnarensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/336
+            queryName: Pseudophilautus munnarensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0742d3daf1
+      - s-5d884caad1
+      - s-362e7a4cbd
+      - s-01e9e06419
+      - s-99d6d1dfa0
+      - s-e7770f7a3f
+      - s-a355c3aaf4
+      - s-f31f385718
+      - s-7cd306a5a2
+    zh:
+      - s-5904b561be
+      - s-a90bf2896c
+      - s-3617bb3c1b
+      - s-584583a094
+      - s-ee6a8612b0
+      - s-8c73067208
+      - s-26fcc9420c
+      - s-22aa665266
+      - s-70182870a0

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana absita
+  displayName: Odorrana absita
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74GXT
+  sourceIndexes:
+    - name:
+        en: Odorrana absita
+        zh: Odorrana absita
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74GXT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/491
+            queryName: Odorrana absita
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/422
+            queryName: Huia absita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4f8b50c706
+      - s-35c810cc3f
+      - s-3da3bf6853
+      - s-1599b27424
+      - s-25d96ca8d9
+      - s-b9f8a38623
+      - s-bf18d876d2
+      - s-a786ddb89a
+    zh:
+      - s-db87b45804
+      - s-a49ba658d5
+      - s-9ae36cfe69
+      - s-3680f0747a
+      - s-83904ec94b
+      - s-c3c7183c3d
+      - s-d725eb6a41
+      - s-826e20d0c8

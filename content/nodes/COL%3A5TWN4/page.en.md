@@ -1,0 +1,44 @@
+## The 2015 life-history entry and this name {#s-1504a41151}
+Allocricetulus curtatus is accepted in pinned COL26.8 within Cricetidae. This page compares the same-name historical life-history entry using 5 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+
+## Different stages in the mass fields {#s-0f98fefe84}
+Historical summary values are adult body mass 30.7 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+
+## Reproduction and developmental timing {#s-a4f490dacb}
+Available compilation fields are offspring per litter or eggs per clutch 5.19 offspring/eggs; conception or fertilization to birth 13.46 d; age of dependence on food other than maternal milk 24.5 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+
+## A longest record differs from usual lifespan {#s-8823db7dd8}
+The archive’s maximum_longevity_y value is 2.41 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+
+## How to trace these values to sources {#s-31d8fdbad9}
+Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; Ernest et al., 2003; BC mammals - Savage et al., 2004; Weigl, R., 2005. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+
+## What one ecological field can tell us {#s-e45011aa6f}
+Allocricetulus curtatus is accepted in pinned COL26.8 within Cricetidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+
+## Mammalian foraging-stratum assignment {#s-50550369ae}
+The entry is assigned G: ground category (the source definition includes some aquatic foraging); code A records compiler confidence in source and assignment. Metadata collectively attributes mammalian stratum assignments to Nowak (1999). This is a category assignment, not a percentage of time among strata, and does not mean the species acts only there.
+
+## Trace each field group to its source labels {#s-8591ff68fa}
+The used groups carry labels metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+
+## Evidence limits {#s-c181e7c1d4}
+This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+This page interprets one supported ecological field group; it does not fill the remaining diet, activity or stratum fields. This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
+This page withholds diet (source code D2); activity periods (source code D2) because of interpolation, certainty or source-link limits. Specific reasons and original values remain in the source archive; they do not fill definite ecological conclusions.
+
+## Name and historical material {#s-e4143bd49f}
+Allocricetulus curtatus is accepted in pinned COL26.8 within Cricetidae. This page uses the PanTHERIA 1.0 MSW05 entry from the August 2008 table, whose biological data gathering ended in June 2004. The name association does not resolve later taxonomic changes.
+
+## Reproductive and developmental timing {#s-189cc6a7b6}
+Available historical fields are offspring per litter 5.19 offspring. Fractional offspring counts are summaries rather than literal non-integer litters. Relevant fields retain the original treatment of measurement definitions; summaries are not a timetable shared by every population.
+
+## Home range and mapped distribution {#s-cedcb083fe}
+Area derived from historical range maps is 974905.89 km²; mapped latitude endpoints are 41.29° to 53.75°. Map area does not imply occupation throughout it, and latitude endpoints are not a locality list. These values do not provide current distribution or population estimates.
+
+## Limits of these historical data {#s-07dc2e5a3e}
+This batch supplements limited historical records outside the earlier multiple-field threshold, without counting complete life history or ecology. This account paraphrases the historical PanTHERIA 1.0 WR05/2008 entry. Continuous traits generally use consolidated medians, sometimes after GLM adjustment for sex, definitions or methods. Missing values are not filled from *_EXT extrapolations. Input scope can include wild, captive, provisioned or unspecified conditions, and primary, secondary or extrapolated sources, with inclusion rules specific to each variable. Values are not individual ranges, population censuses or species diagnoses. One-to-one MSW93/MSW05 same-name correspondence and a matching COL name and family establish an association, not equivalent species concepts after later splits or lumps. Current distribution, survival and conservation status require other sources.
+
+## Gaps in focal life-history fields {#s-fb5718733f}
+Among this batch’s ten focal fields, one has a usable positive historical value. Uninterpreted focal fields: adult body mass; adult head–body length; adult forearm length; active fetal-growth interval; weaning-age measure; sexual-maturity age; interbirth interval; social-group size; individual home-range area. These are gaps in this historical table, not evidence that the species lacks the traits. Extrapolated fields and relatives do not supply replacements. Other activity or historical-map sections retain their own source scope.
+

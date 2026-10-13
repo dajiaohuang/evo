@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus devincenzii
+  displayName: Melanophryniscus devincenzii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9LL
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus devincenzii
+        zh: Melanophryniscus devincenzii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9LL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/387
+            queryName: Melanophryniscus devincenzii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6fc9dbde87
+      - s-28e8c8a1e3
+      - s-652592202a
+      - s-b7ae3d6796
+      - s-2ecd1b6190
+      - s-67af071264
+      - s-7d9e93b1d4
+      - s-4b4fc96f09
+      - s-91b3387612
+      - s-f849fc6518
+      - s-069dc8ca1e
+      - s-2270c2f68c
+      - s-877459118f
+      - s-2990524565
+      - s-2d2e4fd781
+      - s-bef447ab3f
+      - s-ab2ad1133e
+      - s-6bc6833843
+    zh:
+      - s-0220594c72
+      - s-4ea1003253
+      - s-08957e5a16
+      - s-9644aaae95
+      - s-799d4f151f
+      - s-5bdbcf77f5
+      - s-cb4baaf091
+      - s-c8d1fc6cd6
+      - s-aba8030d48
+      - s-035432e349
+      - s-66cbd7695e
+      - s-2a5df71b89
+      - s-bfcb60f883
+      - s-a6714f8c78
+      - s-f0ced1079d
+      - s-f72b8e67cb
+      - s-15c7d5692c
+      - s-a78940b058

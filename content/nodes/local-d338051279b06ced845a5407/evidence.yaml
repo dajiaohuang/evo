@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Tylototriton panhai
+    name:
+      en: Tylototriton panhai
+      zh: Tylototriton panhai
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Tylototriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-66ffd4c68f
+            part: body
+          zh:
+            page: zh
+            section: s-cc4e2d5989
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5ea9c7acc6
+            part: body
+          zh:
+            page: zh
+            section: s-6d9b548319
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 389, 390; Reference.csv rows 4297
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 389
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton panhai
+          - F
+          - NA
+          - "71.6"
+          - "53.9864"
+          - "36.516"
+          - "17.6136"
+          - "16.8976"
+          - "7.5896"
+          - "2.9356"
+          - "3.8664"
+          - "2.506"
+          - "5.37"
+          - "7.3748"
+          - "63.2944"
+          - "5.8712"
+          - NA
+          - "8.8784"
+          - "3.8664"
+          - "20.1912"
+          - "22.4108"
+          - "3.222"
+          - "3.5084"
+          - "6.0144"
+          - NA
+          - NA
+          - "3.0072"
+          - NA
+          - NA
+      - rowNumber: 390
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton panhai
+          - M
+          - NA
+          - "73.8"
+          - "54.3537"
+          - "36.3834"
+          - "19.4463"
+          - "17.3799"
+          - "6.642"
+          - "3.8007"
+          - "4.9077"
+          - "2.7675"
+          - "5.2029"
+          - "7.5645"
+          - "68.265"
+          - "5.4981"
+          - NA
+          - "9.5571"
+          - "3.2472"
+          - "23.3577"
+          - "27.6012"
+          - "4.3173"
+          - "5.1291"
+          - "7.0848"
+          - NA
+          - NA
+          - "1.3284"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4297
+        values:
+          - Caudata
+          - Tylototriton_panhai
+          - "Nishikawa, K., Khonsue, W., Pomchote, P., & Matsui, M. (2013). Two new species of Tylototriton from Thailand (Amphibia: Urodela: Salamandridae). Zootaxa, 3737(3), 261-279. https://doi.org/10.11646/zootaxa.3737.3.5"
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - VL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7DBLT
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

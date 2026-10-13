@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychohyla zophodes
+  displayName: Ptychohyla zophodes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78NBW
+  sourceIndexes:
+    - name:
+        en: Ptychohyla zophodes
+        zh: Ptychohyla zophodes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78NBW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/14
+            queryName: Ptychohyla zophodes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/473
+            queryName: Hyla zophodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/474
+            queryName: Ptychohyla zaphodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d1546ea61d
+      - s-0fcc8d8dd7
+      - s-7a4311a87c
+      - s-33be627d40
+      - s-ca02401bf4
+      - s-2d4caf3dd8
+      - s-bcb3a0f1be
+      - s-1f2c99c76b
+      - s-6e23bb21c4
+      - s-45762467b5
+      - s-ac673f5d9c
+      - s-d5016c32bb
+      - s-eeb83d568f
+      - s-81d23b8c2a
+    zh:
+      - s-0b70a1b5ec
+      - s-e907040a38
+      - s-b5cd64a268
+      - s-a5f92f00d1
+      - s-a6d24a5628
+      - s-a76cb44325
+      - s-5cba7aca23
+      - s-2b57ab6fcd
+      - s-04e62f0462
+      - s-f2fbf21e50
+      - s-dfee30289c
+      - s-4883db9470
+      - s-961903d7bf
+      - s-a5b2c5b84f

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eupsophus contulmoensis
+  displayName: Eupsophus contulmoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CYHB
+  sourceIndexes:
+    - name:
+        en: Eupsophus contulmoensis
+        zh: Eupsophus contulmoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CYHB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/400
+            queryName: Eupsophus contulmoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c69469d306
+      - s-e6631c9690
+      - s-f76886a883
+      - s-28432c3e0d
+      - s-a5632399f6
+      - s-7852e59b5a
+      - s-bfbdf8f45b
+      - s-21a90d0310
+      - s-1f875a76af
+    zh:
+      - s-c219ac1785
+      - s-0498984561
+      - s-7442895a9f
+      - s-06d11eb64e
+      - s-e1ce086658
+      - s-220e259f3e
+      - s-032ca105f1
+      - s-c1c8e0c668
+      - s-7ebdf3e635

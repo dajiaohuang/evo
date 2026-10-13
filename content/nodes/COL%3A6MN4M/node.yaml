@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana latouchii
+  displayName: Hylarana latouchii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MN4M
+  sourceIndexes:
+    - name:
+        en: Hylarana latouchii
+        zh: Hylarana latouchii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MN4M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/431
+            queryName: Hylarana latouchii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 43
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/137
+            queryName: Rana latouchii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/405
+            queryName: Hylorana latouchii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/406
+            queryName: Sylvirana latouchii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 47
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-83f7c03252
+      - s-3f060999e0
+      - s-d8dd4c5333
+      - s-20d7bd89e7
+      - s-da9f6c930b
+      - s-10a218387b
+      - s-53e39cdf4b
+      - s-cf87423858
+      - s-b0158880b5
+      - s-d475c9974e
+      - s-5888cd7a6a
+      - s-16ddecf2da
+      - s-09d4854fc4
+    zh:
+      - s-d596910e48
+      - s-a46f89a5d7
+      - s-78dc2f7f3c
+      - s-9c6a356a27
+      - s-bb4ea086e9
+      - s-d025903f03
+      - s-905983c173
+      - s-8be26a0a7f
+      - s-e24593a48a
+      - s-aec8dbcf8e
+      - s-5c4370a263
+      - s-83a8b937a7
+      - s-d78c48d67e

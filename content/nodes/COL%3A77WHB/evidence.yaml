@@ -1,0 +1,210 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis bellae Reyes-Puig & Yánez-Muñoz, 2012
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis bellae
+      zh: Pristimantis bellae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-49af96c1fa
+            part: title
+          zh:
+            page: zh
+            section: s-53343fcb89
+            part: title
+        text:
+          en:
+            page: en
+            section: s-49af96c1fa
+            part: body
+          zh:
+            page: zh
+            section: s-53343fcb89
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ce67059588
+            part: title
+          zh:
+            page: zh
+            section: s-1af650adeb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ce67059588
+            part: body
+          zh:
+            page: zh
+            section: s-1af650adeb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fde8e3c791
+            part: title
+          zh:
+            page: zh
+            section: s-eb17d1e65d
+            part: title
+        sourceIds:
+          - primary-pmc8763828-77whb
+        text:
+          en:
+            page: en
+            section: s-fde8e3c791
+            part: body
+          zh:
+            page: zh
+            section: s-eb17d1e65d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7fe7fed7fc
+            part: title
+          zh:
+            page: zh
+            section: s-5a5c2eb9f3
+            part: title
+        sourceIds:
+          - primary-pmc8763828-77whb
+        text:
+          en:
+            page: en
+            section: s-7fe7fed7fc
+            part: body
+          zh:
+            page: zh
+            section: s-5a5c2eb9f3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis bellae
+          url: https://www.checklistbank.org/dataset/316115/taxon/77WHB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc8763828-77whb
+        referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - authorMetadataEvidence
+          - authorsAsRecordedInXml
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis bellae: Named species Remarks with four specimen records; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-db77b1a3ff
+        part: body
+      zh:
+        page: zh
+        section: s-c6f303f363
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1081.71488
+        referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+        sourceKey: primary-pmc8763828-77whb
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8763828/article.xml
+        sourceConcept: Pristimantis bellae
+        evidenceRead: "Pristimantis bellae: Named species Remarks with four specimen records; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Four sexed specimens and a combined diagnostic pattern
+              zh: 四只分性别标本与组合鉴别纹理
+            referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+            sourceKey: primary-pmc8763828-77whb
+            locator: Species accounts > Pristimantis bellae > Remarks; reading-sections index 8, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-75081d7a86
+                part: body
+              zh:
+                page: zh
+                section: s-4188336d6d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Low leaf records in the Machay montane forest
+              zh: Machay 山地林中的低叶位记录
+            referenceId: ref-812b7e58-a124-4a70-a334-c0e3ae490b2a
+            sourceKey: primary-pmc8763828-77whb
+            locator: Species accounts > Pristimantis bellae > Remarks; reading-sections index 8, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e9f7f1f177
+                part: body
+              zh:
+                page: zh
+                section: s-3ffd719757
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

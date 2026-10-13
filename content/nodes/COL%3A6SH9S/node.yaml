@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana margaretae
+  displayName: Odorrana margaretae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SH9S
+  sourceIndexes:
+    - name:
+        en: Odorrana margaretae
+        zh: Odorrana margaretae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SH9S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/34
+            queryName: Odorrana margaretae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 58
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/153
+            queryName: Rana margaretae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 46
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/412
+            queryName: Rana margaratae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/413
+            queryName: Huia margaretae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5cdd449b06
+      - s-5649cb96ab
+      - s-9f470a4819
+      - s-71d99bbdc3
+      - s-d9bc85fb1a
+      - s-9c4051e637
+      - s-22990979ab
+      - s-92413d489b
+      - s-2dc1c45256
+      - s-d20eb7c7b7
+      - s-6995495247
+      - s-2e702c8710
+      - s-798594d896
+      - s-88fbcdbe09
+      - s-2b7fb5adf9
+      - s-4e36bcad12
+      - s-7ebb56a5ce
+      - s-914572c3e7
+      - s-7597caec60
+    zh:
+      - s-ffd759ba21
+      - s-9ef44da70c
+      - s-f8958463c8
+      - s-7f8b067a0f
+      - s-aab82321d4
+      - s-7b0a443eeb
+      - s-b7ca60d199
+      - s-d52172c652
+      - s-86297a8d96
+      - s-974cd75884
+      - s-373ec9c0d6
+      - s-a520148628
+      - s-cc4f42cfc0
+      - s-1737a95fb6
+      - s-6223fd5b3c
+      - s-b504ccae7a
+      - s-f7df90f9f1
+      - s-2cbf3205b6
+      - s-f5d3ae8be6

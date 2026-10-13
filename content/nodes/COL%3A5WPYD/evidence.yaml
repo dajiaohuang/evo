@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephalus mirissimus Pie, Ribeiro, Confetti, Nadaline & Bornschein, 2018
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephalus mirissimus
+      zh: Brachycephalus mirissimus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-99333d5c0d
+            part: title
+          zh:
+            page: zh
+            section: s-3a0a6b8fb6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-99333d5c0d
+            part: body
+          zh:
+            page: zh
+            section: s-3a0a6b8fb6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5d858fafd9
+            part: title
+          zh:
+            page: zh
+            section: s-117167760f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5d858fafd9
+            part: body
+          zh:
+            page: zh
+            section: s-117167760f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-164c4f4527
+            part: title
+          zh:
+            page: zh
+            section: s-3aa75d678f
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wpyd
+        text:
+          en:
+            page: en
+            section: s-164c4f4527
+            part: body
+          zh:
+            page: zh
+            section: s-3aa75d678f
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-8f8a1e3c53
+            part: title
+          zh:
+            page: zh
+            section: s-cb6b772497
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wpyd
+        text:
+          en:
+            page: en
+            section: s-8f8a1e3c53
+            part: body
+          zh:
+            page: zh
+            section: s-cb6b772497
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-5d810eb197
+            part: title
+          zh:
+            page: zh
+            section: s-c6530e9145
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wpyd
+        text:
+          en:
+            page: en
+            section: s-5d810eb197
+            part: body
+          zh:
+            page: zh
+            section: s-c6530e9145
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-2d915ce2bf
+            part: title
+          zh:
+            page: zh
+            section: s-f19d1cd838
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wpyd
+        text:
+          en:
+            page: en
+            section: s-2d915ce2bf
+            part: body
+          zh:
+            page: zh
+            section: s-f19d1cd838
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephalus mirissimus
+          url: https://www.checklistbank.org/dataset/316115/taxon/5WPYD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12694819-5wpyd
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus mirissimus: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-724779c2a6
+        part: body
+      zh:
+        page: zh
+        section: s-b4a1687770
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0334746
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        sourceKey: primary-pmc12694819-5wpyd
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12694819/article.xml
+        sourceConcept: Brachycephalus mirissimus
+        evidenceRead: "Brachycephalus mirissimus: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY (version not explicit in XML)
+          licenseUrl: https://creativecommons.org/licenses/by/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Sex-specific measurements retain variable-specific sample counts
+              zh: 分性别测量保留各变量样本数
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wpyd
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus mirissimus measurement row and caption; sec004 paragraphs 0–1; sec036 paragraphs 4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6934df7159
+                part: body
+              zh:
+                page: zh
+                section: s-f961a9062a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Live and preserved colours are separate evidence
+              zh: 活体与保存颜色是不同证据
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wpyd
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus mirissimus live/preserved colour columns and caption; sec036 paragraphs 2,4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-464755a99c
+                part: body
+              zh:
+                page: zh
+                section: s-96ceba52a4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Advertisement-call comparisons use distinct acoustic units
+              zh: 求偶鸣声比较区分声学单位
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wpyd
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus mirissimus acoustic row and caption; sec007 paragraphs 0–1; sec036 paragraphs 0–1,4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a67b13f21a
+                part: body
+              zh:
+                page: zh
+                section: s-281dd301d9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: conservation
+            heading:
+              en: The 2025 assessment separates records, mapped habitat and risk
+              zh: 2025 年评估区分记录、映射生境与风险
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wpyd
+            locator: PMC12694819 XML pone.0334746.t007 Brachycephalus mirissimus row; sec009 paragraphs 0–4; sec038 paragraphs 2–6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1e64e01479
+                part: body
+              zh:
+                page: zh
+                section: s-43fd6602b0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

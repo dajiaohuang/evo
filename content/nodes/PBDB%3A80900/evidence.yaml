@@ -1,0 +1,158 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gracilisuchus stipanicicorum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Gracilisuchus stipanicicorum
+      en: Gracilisuchus stipanicicorum
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherArchosauriaTaxonomy20261002
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5a2bbd3c5c
+            part: body
+          en:
+            page: en
+            section: s-3a93c6b765
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6af80aaba7
+            part: body
+          en:
+            page: en
+            section: s-f4cc386278
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6d01f19d04
+            part: body
+          en:
+            page: en
+            section: s-c3df7cea8c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-964535e436
+            part: body
+          en:
+            page: en
+            section: s-d29f33d65c
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1344945784
+            part: body
+          en:
+            page: en
+            section: s-ea2c7f26d0
+            part: body
+    sources:
+      - id: pbdbArchosauriaTaxonomy20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Gracilisuchus stipanicicorum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=80900&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherArchosauriaOccurrences20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:80900; original response record indices retained in data/sources/other-archosauria-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 95c66a034ee801effe8e70dd0e2d80f080cfb92730dab8e60a52bf5d4a379a25
+          pbdbTaxonId: txn:80900
+          selectedOccurrenceIds:
+            - occ:272325
+            - occ:573788
+          selectedCollectionIds:
+            - col:26092
+            - col:60293
+          sourceReferenceIds:
+            - ref:7234
+            - ref:17320
+          originalIdentificationMappings:
+            - occurrenceId: occ:573788
+              originalIdentifiedName: Gracilisuchus stipanicicorum n. gen. n. sp.
+              acceptedName: Gracilisuchus stipanicicorum
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-06cbb806c5
+        part: body
+      en:
+        page: en
+        section: s-e6211ffc9d
+        part: body

@@ -1,0 +1,126 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-652d13e4fc
+      part: title
+    titleZh:
+      page: zh
+      section: s-28af044c76
+      part: title
+    category: adaptation
+    startAge: 200.5
+    endAge: 195
+    regions:
+      - Elliot Formation, Free State, South Africa
+    clades:
+      - Sauropodomorpha
+    summary:
+      page: en
+      section: s-652d13e4fc
+      part: body
+    summaryZh:
+      page: zh
+      section: s-28af044c76
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-d17dede423
+            part: title
+          zh:
+            page: zh
+            section: s-6c4785843b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d17dede423
+            part: body
+          zh:
+            page: zh
+            section: s-6c4785843b
+            part: body
+        id: observed-material
+        sourceIds:
+          - mcphee-2018-ledumahadi
+      - title:
+          en:
+            page: en
+            section: s-0a2f18519e
+            part: title
+          zh:
+            page: zh
+            section: s-b9bf36f45b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0a2f18519e
+            part: body
+          zh:
+            page: zh
+            section: s-b9bf36f45b
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - mcphee-2018-ledumahadi
+    claimIds:
+      - claim:event:ledumahadi-body-mass-quadrupedality-model
+    evidenceItems:
+      - statement: Holotype BP/1/7120 is a partial postcranial skeleton whose limb histology indicates an adult and whose circumference-based model estimates about 12 tonnes with habitual quadrupedality despite flexed, non-columnar limbs; mass and posture are comparative model outputs.
+        relation: supports
+        claimIds:
+          - claim:event:ledumahadi-body-mass-quadrupedality-model
+        referenceLinks:
+          - referenceId: mcphee-2018-ledumahadi
+            relation: supports
+            pages: 3143–3151
+            figure: Figures 1–4; STAR Methods; Supplemental Information
+            quoteLocator: Holotype; Osteohistology; Body mass; Quadrupedality analyses
+    uncertaintyItems:
+      - statement: The specimen is incomplete and the earliest-Jurassic interval is formation-bounded; it is not a universal threshold or ancestor for sauropod gigantism.
+        relation: contextualizes
+        claimIds:
+          - claim:event:ledumahadi-body-mass-quadrupedality-model
+        referenceLinks:
+          - referenceId: mcphee-2018-ledumahadi
+            relation: supports
+            pages: 3143–3151
+            figure: Figures 1–4; STAR Methods; Supplemental Information
+            quoteLocator: Holotype; Osteohistology; Body mass; Quadrupedality analyses
+    readerSources:
+      - id: mcphee-2018-ledumahadi
+        referenceId: mcphee-2018-ledumahadi
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 3143–3151; figure: Figures 1–4; STAR Methods; Supplemental Information; Holotype; Osteohistology; Body mass; Quadrupedality analyses"
+  claims:
+    - subjectId: event:ledumahadi-body-mass-quadrupedality-model
+      claimKind: scientific
+      claimType: morphology
+      statement: Holotype BP/1/7120 is a partial postcranial skeleton whose limb histology indicates an adult and whose circumference-based model estimates about 12 tonnes with habitual quadrupedality despite flexed, non-columnar limbs; mass and posture are comparative model outputs.
+      confidence: medium
+      confidenceRationale: The named partial skeleton and histology are direct inputs, while age, body mass and quadrupedality depend on growth marks, scaling regressions and comparative limb metrics.
+      referenceLinks:
+        - referenceId: mcphee-2018-ledumahadi
+          relation: supports
+          pages: 3143–3151
+          figure: Figures 1–4; STAR Methods; Supplemental Information
+          quoteLocator: Holotype; Osteohistology; Body mass; Quadrupedality analyses
+  claim-rationales.zh:
+    - 具名不完整骨架和组织学是直接输入，而年龄、体重与四足性依赖生长线、尺度回归及比较肢骨指标。
+  claim-statements.zh:
+    - 正模 BP/1/7120 是一件不完整颅后骨架，肢骨组织学指示成年；基于骨围的模型估计约 12 吨并支持习惯性四足行走，尽管四肢弯曲而非柱状；体重与姿态均为比较模型输出。

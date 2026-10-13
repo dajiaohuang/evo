@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys palpebralespinosa
+  displayName: Boulenophrys palpebralespinosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9MF
+  sourceIndexes:
+    - name:
+        en: Boulenophrys palpebralespinosa
+        zh: Boulenophrys palpebralespinosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9MF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/373
+            queryName: Boulenophrys palpebralespinosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/264
+            queryName: Xenophrys palpebralespinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/446
+            queryName: Megophrys latidactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/447
+            queryName: Xenophrys latidactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/139
+            queryName: Megophrys palpebralespinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/140
+            queryName: Panophrys palpebralespinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-459898e84c
+      - s-bf7d570780
+      - s-5af027404b
+      - s-46d449a8f1
+      - s-cefe9f86de
+      - s-dce01c8445
+      - s-f3b5acf943
+      - s-740069b324
+      - s-56d37e6e41
+      - s-98c440e010
+      - s-dea05671aa
+      - s-2067e9b5d8
+      - s-6c2eff6b4e
+    zh:
+      - s-7ba224cc8f
+      - s-2ce0f6f693
+      - s-121d6eafd0
+      - s-5c0784cfa7
+      - s-63062d1b11
+      - s-3bd779024c
+      - s-6f1caafc3e
+      - s-e78c408ce1
+      - s-681ba6696e
+      - s-e7ae459cd8
+      - s-2643318635
+      - s-1ef0491412
+      - s-af57cd35aa

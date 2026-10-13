@@ -1,0 +1,813 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Alanqa saharica
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Alanqa saharica
+      en: Alanqa saharica
+    sections:
+      - topic: typeReinterpretation
+        sourceIds:
+          - smith2023KemKemJawRevision
+        text:
+          zh:
+            page: zh
+            section: s-280f46164f
+            part: body
+          en:
+            page: en
+            section: s-0ed3b7d26a
+            part: body
+      - topic: referredMaterialRevision
+        sourceIds:
+          - smith2023KemKemJawRevision
+        text:
+          zh:
+            page: zh
+            section: s-f8ba619cd3
+            part: body
+          en:
+            page: en
+            section: s-8bdd17689e
+            part: body
+      - topic: classificationDiscussion
+        sourceIds:
+          - smith2023KemKemJawRevision
+        text:
+          zh:
+            page: zh
+            section: s-645e0edc68
+            part: body
+          en:
+            page: en
+            section: s-4ccee4c237
+            part: body
+      - topic: typeMaterial
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+        text:
+          zh:
+            page: zh
+            section: s-4c7c247064
+            part: body
+          en:
+            page: en
+            section: s-3182defbb4
+            part: body
+      - topic: preservation
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+        text:
+          zh:
+            page: zh
+            section: s-dcc619fcbe
+            part: body
+          en:
+            page: en
+            section: s-9dff8d8ee9
+            part: body
+      - topic: morphology
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+        text:
+          zh:
+            page: zh
+            section: s-448b4d4c73
+            part: body
+          en:
+            page: en
+            section: s-312d3b0ece
+            part: body
+      - topic: referredMaterial
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+        text:
+          zh:
+            page: zh
+            section: s-b6619d3aae
+            part: body
+          en:
+            page: en
+            section: s-4b9112edba
+            part: body
+      - topic: postcranialAttribution
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+        text:
+          zh:
+            page: zh
+            section: s-fdd7274347
+            part: body
+          en:
+            page: en
+            section: s-d798a1cf0b
+            part: body
+      - topic: dimensionEstimates
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+        text:
+          zh:
+            page: zh
+            section: s-3462ab2119
+            part: body
+          en:
+            page: en
+            section: s-d691ea1c84
+            part: body
+      - topic: classificationScope
+        sourceIds:
+          - ibrahim2020AlanqaRostrumRevision
+        text:
+          zh:
+            page: zh
+            section: s-503315b1ba
+            part: body
+          en:
+            page: en
+            section: s-655e36132c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+        text:
+          zh:
+            page: zh
+            section: s-650ddefe0c
+            part: body
+          en:
+            page: en
+            section: s-1181aa59cf
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8f5d2a2130
+            part: body
+          en:
+            page: en
+            section: s-2d89a9e2ac
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ee7515a49e
+            part: body
+          en:
+            page: en
+            section: s-1687118070
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-10009e4228
+            part: body
+          en:
+            page: en
+            section: s-c2f6f9d2c9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7e7b6f3d41
+            part: body
+          en:
+            page: en
+            section: s-5b3d5c72ca
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+        text:
+          zh:
+            page: zh
+            section: s-7692a05dda
+            part: body
+          en:
+            page: en
+            section: s-995b10645e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Alanqa saharica
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=167135&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:167135; original response record indices retained in data/sources/pterosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: bae4c11926f8cde7bd7b1b7418d63b8ba856066f5005a9181b8bdf8dcb047035
+          pbdbTaxonId: txn:167135
+          selectedOccurrenceIds:
+            - occ:819572
+            - occ:867574
+            - occ:867575
+          selectedCollectionIds:
+            - col:90076
+            - col:96222
+            - col:96223
+          sourceReferenceIds:
+            - ref:32662
+          originalIdentificationMappings:
+            - occurrenceId: occ:867575
+              originalIdentifiedName: Alanqa saharica n. gen. n. sp.
+              acceptedName: Alanqa saharica
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Recorded PBDB accepted identity and parent chain
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=167135&show=parent,app,attr
+          locator: P5-42 retained accepted hierarchy; oid txn:167135; ancestry below the documented Pterosauria anchor.
+          accessedAt: 2026-10-02
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+      - id: ibrahim2010AlanqaTypeMaterial
+        referenceId: ref-a3f9b631-da8b-4b37-908a-c1549719457c
+        fields:
+          - id
+          - doi
+          - title
+          - authors
+          - publishedOnline
+          - journal
+          - volume
+          - issue
+          - articleNumber
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: "A New Pterosaur (Pterodactyloidea: Azhdarchidae) from the Upper Cretaceous of Morocco"
+          url: https://doi.org/10.1371/journal.pone.0010875
+          accessedAt: 2026-10-03
+          locator: "Official fullTextXML PMC2877115: front citation, Methods, selected Results systematic/type/referred-material/description paragraphs and cervical material account. Discussion nomenclatural notice read; selected historical dimensions, not a full paper/figure audit."
+          scope:
+            zh: 2010 年正模、归入颌部材料、无齿形态与有条件的颈椎／尺寸解释。
+            en: 2010 type and referred jaw material, toothless morphology and conditional cervical/dimension interpretations.
+      - id: ibrahim2020AlanqaRostrumRevision
+        referenceId: ref-b9c479a9-9eec-4b54-ba38-2be663f696b1
+        fields:
+          - id
+          - doi
+          - title
+          - authors
+          - publishedOnline
+          - journal
+          - volume
+          - pages
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Geology and paleontology of the Upper Cretaceous Kem Kem Group of eastern Morocco
+          url: https://doi.org/10.3897/zookeys.928.47517
+          accessedAt: 2026-10-03
+          locator: "Official fullTextXML PMC7188693: front citation; pterosaur overview concerning Alanqa, entire Alanqa account, associated Figure 98 textual caption and selected Xericeps comparison paragraph. Other 2020 groups, specimens and figures not audited."
+          scope:
+            zh: 2020 年正模改释为吻部、头后材料归属限制、比较分类与未决异名观点。
+            en: 2020 reinterpretation of the type as a rostrum, postcranial attribution limits, comparative classification and unresolved synonymy.
+      - id: smith2023KemKemJawRevision
+        referenceId: ref-c993aed1-b20c-4888-8062-b4c51ccd80fc
+        fields:
+          - id
+          - title
+          - doi
+          - authors
+          - publishedOnline
+          - volume
+          - pages
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: The pterosaurs of the Cretaceous Kem Kem Group of Morocco
+          url: https://doi.org/10.1007/s12542-022-00642-6
+          accessedAt: 2026-10-03
+          locator: Published PDF, printed pp. 531–533, 540, selected jaw-comparison passages on p. 558 and classification discussion on p. 559; front matter and licence on p. 563. Not the whole article, figure pixels, supplements, specimens or a phylogenetic rerun.
+          scope:
+            zh: 2023 年 Alanqa 与 Xericeps 的颌部归属、材料修订及分类讨论选段。
+            en: Selected 2023 passages on Alanqa and Xericeps jaw identity, referred material and classification.
+    limitations:
+      zh:
+        page: zh
+        section: s-2c6f8d2029
+        part: body
+      en:
+        page: en
+        section: s-e717f658a1
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:167135
+    scientificName: Alanqa saharica
+    commonName: Alanqa saharica
+    commonNameZh: Alanqa saharica
+    rank: species
+    parentName: Alanqa
+    extinct: true
+    geography: []
+    overview:
+      page: en
+      section: s-2d89a9e2ac
+      part: body
+    ecology:
+      diet: Not assessed from occurrence counts or depositional setting.
+      habitat: Collection environments are not a species-wide habitat assessment.
+      locomotion: Not independently assessed.
+      bodySize: Not assessed from this occurrence batch.
+      guild: Not assessed.
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-e717f658a1
+      part: body
+    confidence: low
+    referenceIds:
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+    readerSections:
+      - id: kemkem-revision-reader-0
+        title:
+          zh: 同一正模的三种颌骨解释
+          en: One holotype, three interpretations of its jaw
+        text:
+          zh:
+            page: zh
+            section: s-280f46164f
+            part: body
+          en:
+            page: en
+            section: s-0ed3b7d26a
+            part: body
+        sourceIds:
+          - smith2023KemKemJawRevision
+      - id: kemkem-revision-reader-1
+        title:
+          zh: 颌部碎片与孤立身体骨骼的归属不同
+          en: Jaw fragments and isolated body bones have different certainty
+        text:
+          zh:
+            page: zh
+            section: s-f8ba619cd3
+            part: body
+          en:
+            page: en
+            section: s-8bdd17689e
+            part: body
+        sourceIds:
+          - smith2023KemKemJawRevision
+      - id: kemkem-revision-reader-2
+        title:
+          zh: 分开的骨突改变颌部比较
+          en: A split ridge changes how jaws are compared
+        text:
+          zh:
+            page: zh
+            section: s-645e0edc68
+            part: body
+          en:
+            page: en
+            section: s-4ccee4c237
+            part: body
+        sourceIds:
+          - smith2023KemKemJawRevision
+      - id: alanqa-material-reader-0
+        title:
+          zh: 一件正模，先后被读作下颌和吻部
+          en: The same type was read as a jaw and a rostrum
+        text:
+          zh:
+            page: zh
+            section: s-4c7c247064
+            part: body
+          en:
+            page: en
+            section: s-3182defbb4
+            part: body
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+      - id: alanqa-material-reader-1
+        title:
+          zh: 三块碎片仍缺失部分颌骨
+          en: Three fragments preserve only part of the jaw
+        text:
+          zh:
+            page: zh
+            section: s-dcc619fcbe
+            part: body
+          en:
+            page: en
+            section: s-9dff8d8ee9
+            part: body
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+      - id: alanqa-material-reader-2
+        title:
+          zh: 无齿颌缘与有争议的中央突起
+          en: Toothless margins and a disputed central boss
+        text:
+          zh:
+            page: zh
+            section: s-448b4d4c73
+            part: body
+          en:
+            page: en
+            section: s-312d3b0ece
+            part: body
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+      - id: alanqa-material-reader-3
+        title:
+          zh: 其他归入碎片来自不同地点
+          en: Other referred fragments come from separate places
+        text:
+          zh:
+            page: zh
+            section: s-b6619d3aae
+            part: body
+          en:
+            page: en
+            section: s-4b9112edba
+            part: body
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+      - id: alanqa-material-reader-4
+        title:
+          zh: 一段颈椎尚未归到具体种
+          en: A neck vertebra remains unassigned to species
+        text:
+          zh:
+            page: zh
+            section: s-fdd7274347
+            part: body
+          en:
+            page: en
+            section: s-d798a1cf0b
+            part: body
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+      - id: alanqa-material-reader-5
+        title:
+          zh: 体型估算借用了其他翼龙的比例
+          en: Size estimates borrow proportions from other pterosaurs
+        text:
+          zh:
+            page: zh
+            section: s-3462ab2119
+            part: body
+          en:
+            page: en
+            section: s-d691ea1c84
+            part: body
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+      - id: alanqa-material-reader-6
+        title:
+          zh: 翼龙科级位置与可能异名仍有争议
+          en: Azhdarchid placement and possible synonymy remain debated
+        text:
+          zh:
+            page: zh
+            section: s-503315b1ba
+            part: body
+          en:
+            page: en
+            section: s-655e36132c
+            part: body
+        sourceIds:
+          - ibrahim2020AlanqaRostrumRevision
+      - id: alanqa-material-reader-7
+        title:
+          zh: 从正模解剖读到其他材料
+          en: Follow the type from anatomy to locality
+        text:
+          zh:
+            page: zh
+            section: s-650ddefe0c
+            part: body
+          en:
+            page: en
+            section: s-1181aa59cf
+            part: body
+        sourceIds:
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+      - id: pbdb-occurrence-1
+        title:
+          en: Three selected records, three collections
+          zh: 三条所选记录，三个采集地
+        text:
+          zh:
+            page: zh
+            section: s-8f5d2a2130
+            part: body
+          en:
+            page: en
+            section: s-2d89a9e2ac
+            part: body
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-2
+        title:
+          en: Three localities in Drâa-Tafilalet
+          zh: Drâa-Tafilalet 的三个具名地点
+        text:
+          zh:
+            page: zh
+            section: s-ee7515a49e
+            part: body
+          en:
+            page: en
+            section: s-1687118070
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-3
+        title:
+          en: The outer age bracket of the selected records
+          zh: 所选记录的年代外界
+        text:
+          zh:
+            page: zh
+            section: s-10009e4228
+            part: body
+          en:
+            page: en
+            section: s-c2f6f9d2c9
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-4
+        title:
+          en: Collection labels do not describe a way of life
+          zh: 采集标签不等于生活方式
+        text:
+          zh:
+            page: zh
+            section: s-7e7b6f3d41
+            part: body
+          en:
+            page: en
+            section: s-5b3d5c72ca
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-5
+        title:
+          en: Citations for the records and anatomical interpretations
+          zh: 采集记录与解剖解释对应不同文献
+        text:
+          zh:
+            page: zh
+            section: s-7692a05dda
+            part: body
+          en:
+            page: en
+            section: s-995b10645e
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - ibrahim2010AlanqaTypeMaterial
+          - ibrahim2020AlanqaRostrumRevision
+    readerSources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 225
+        usage:
+          scope:
+            zh: 仅来源所述材料和数据库记录范围。
+            en: Only material and database-record scope described by this source.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 225
+        usage:
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+      - id: ibrahim2010AlanqaTypeMaterial
+        referenceId: ref-a3f9b631-da8b-4b37-908a-c1549719457c
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 2010 年正模、归入颌部材料、无齿形态与有条件的颈椎／尺寸解释。
+            en: 2010 type and referred jaw material, toothless morphology and conditional cervical/dimension interpretations.
+      - id: ibrahim2020AlanqaRostrumRevision
+        referenceId: ref-b9c479a9-9eec-4b54-ba38-2be663f696b1
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 2020 年正模改释为吻部、头后材料归属限制、比较分类与未决异名观点。
+            en: 2020 reinterpretation of the type as a rostrum, postcranial attribution limits, comparative classification and unresolved synonymy.
+      - id: smith2023KemKemJawRevision
+        referenceId: ref-c993aed1-b20c-4888-8062-b4c51ccd80fc
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 2023 年 Alanqa 与 Xericeps 的颌部归属、材料修订及分类讨论选段。
+            en: Selected 2023 passages on Alanqa and Xericeps jaw identity, referred material and classification.
+    readerLimitations:
+      zh:
+        page: zh
+        section: s-2c6f8d2029
+        part: body
+      en:
+        page: en
+        section: s-e717f658a1
+        part: body
+    readerRelatedPages:
+      - targetId: txn:167134
+        label:
+          en: Alanqa
+          zh: Alanqa
+        context:
+          zh: 返回记录父级的阅读入口，保留各出现与采集记录的范围。
+          en: Return to the recorded parent reading route, retaining occurrence and collection scope.
+  atlas-node:
+    name: Alanqa saharica
+    commonName: Alanqa saharica
+    commonNameZh: Alanqa saharica
+    rank: species
+    taxonId: txn:167135
+    firstAppearance: 100.5
+    lastAppearance: 93.9
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  ranges:
+    - entityId: txn:167135
+      rangeKind: global-composite
+      taxonomicConcept: Alanqa saharica
+      geographicScope: PBDB database represented occurrences, not a complete geographic distribution
+      olderMa: 100.5
+      youngerMa: 93.9
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: PBDB first-occurrence bracket 100.5–93.9 Ma and last-occurrence bracket 100.5–93.9 Ma. Database summary uses all represented occurrences, while reader paragraphs explicitly use the eligible subset. Neither is a direct specimen date, origin or extinction estimate.
+      evidenceBasis: Dated accepted-taxonomy app fields retained in P5-42 source snapshots; database-derived appearance brackets.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+          locator: P5-42 accepted hierarchy oid txn:167135; fea/fla/lea/lla in retained taxa response.
+      evidenceLevel: database-derived

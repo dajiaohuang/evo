@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Acris blanchardi
+  displayName: Acris blanchardi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9KKH
+  sourceIndexes:
+    - name:
+        en: Acris blanchardi
+        zh: Acris blanchardi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9KKH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/2
+            queryName: Acris blanchardi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 51
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/267
+            queryName: Acris crepitans blanchardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/457
+            queryName: Acris crepitans paludicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/359
+            queryName: Acris gryllus blanchardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/360
+            queryName: Hyla ocularis blanchardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/361
+            queryName: Acris gryllus paludicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0670472eb5
+      - s-3498f2789a
+      - s-2e1ba7d233
+      - s-8ce139c5ed
+      - s-766a21634e
+      - s-a324c697df
+      - s-ab536c091a
+      - s-72ecbbf891
+      - s-099a24ff32
+      - s-2e918aba15
+      - s-411d5c00bf
+      - s-e0cf1b0d0f
+      - s-ab33d5a3d9
+      - s-99c30634e6
+      - s-e9cee4f43a
+      - s-25b1fb813c
+      - s-066812ae9d
+    zh:
+      - s-5754dd581a
+      - s-6a478e8e0a
+      - s-8dd6647c4a
+      - s-789858c5da
+      - s-ed2502415c
+      - s-16f1883e71
+      - s-fa094215c9
+      - s-cd409da48d
+      - s-19ddd32fff
+      - s-276cf2b8f2
+      - s-9395527d87
+      - s-99af014bfd
+      - s-86283615ef
+      - s-6763295306
+      - s-a9f75172fc
+      - s-dbfc0df3f1
+      - s-b5d4c548f1

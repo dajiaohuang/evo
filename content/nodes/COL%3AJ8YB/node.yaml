@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus eusebianus
+  displayName: Atelopus eusebianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8YB
+  sourceIndexes:
+    - name:
+        en: Atelopus eusebianus
+        zh: Atelopus eusebianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8YB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/252
+            queryName: Atelopus eusebianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a790d3abe0
+      - s-ddc4c2606a
+      - s-3f878b1528
+      - s-259f2a2ff2
+      - s-b58e5c73cf
+      - s-a0a160352f
+      - s-ad5fbab1e8
+      - s-c557fff635
+      - s-762944247b
+    zh:
+      - s-55b54e7cc5
+      - s-cbd1d789eb
+      - s-9f7c37dbf3
+      - s-d77ec3569c
+      - s-1e68220652
+      - s-b33f57861a
+      - s-f1b4db355d
+      - s-600c256167
+      - s-0efbbbb984

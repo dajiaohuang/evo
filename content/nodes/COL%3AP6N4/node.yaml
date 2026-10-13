@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum rhythmum
+  displayName: Cacosternum rhythmum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6N4
+  sourceIndexes:
+    - name:
+        en: Cacosternum rhythmum
+        zh: Cacosternum rhythmum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6N4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/49
+            queryName: Cacosternum rhythmum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72809f2b8e
+      - s-de08de1bb5
+      - s-9d54d5a8fb
+      - s-e0a921f58a
+      - s-a78ee25376
+    zh:
+      - s-e3d95ec5ff
+      - s-fa0ed50ae9
+      - s-ad7e2afb9e
+      - s-40985eba12
+      - s-f466e98f58

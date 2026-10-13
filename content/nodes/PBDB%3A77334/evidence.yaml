@@ -1,0 +1,178 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hexaprotodon sivalensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hexaprotodon sivalensis
+      en: Hexaprotodon sivalensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-eab12067c8
+            part: body
+          en:
+            page: en
+            section: s-882b1aff68
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-da86cac45a
+            part: body
+          en:
+            page: en
+            section: s-b998310aa8
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ffc3a16a20
+            part: body
+          en:
+            page: en
+            section: s-057c5a9b4e
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ed4c96186b
+            part: body
+          en:
+            page: en
+            section: s-c8b7891157
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3560244b54
+            part: body
+          en:
+            page: en
+            section: s-c54f319dc0
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hexaprotodon sivalensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=77334&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:77334; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:77334
+          selectedOccurrenceIds:
+            - occ:160748
+            - occ:384358
+            - occ:502645
+            - occ:502675
+            - occ:502697
+            - occ:842439
+            - occ:842472
+            - occ:842486
+            - occ:1384358
+            - occ:1662857
+            - occ:1678965
+          selectedCollectionIds:
+            - col:14150
+            - col:36574
+            - col:51101
+            - col:51104
+            - col:51106
+            - col:93520
+            - col:93522
+            - col:93523
+            - col:189825
+            - col:236037
+            - col:237975
+          sourceReferenceIds:
+            - ref:6256
+            - ref:9787
+            - ref:13624
+            - ref:13626
+            - ref:31625
+            - ref:63820
+            - ref:89436
+            - ref:90230
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-9f1db5fcce
+        part: body
+      en:
+        page: en
+        section: s-53f9bd8478
+        part: body

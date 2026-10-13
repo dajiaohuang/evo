@@ -1,0 +1,369 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Scotiophryne pustulosa
+    rank: species
+    sourceTaxonId: txn:63611
+    name:
+      en: Scotiophryne pustulosa
+      zh: Scotiophryne pustulosa
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-cd097ceffa
+            part: body
+          zh:
+            page: zh
+            section: s-00538746e6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-d1e77cd51b
+            part: body
+          zh:
+            page: zh
+            section: s-f0cdf125e0
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-28647531a9
+            part: body
+          zh:
+            page: zh
+            section: s-ae45baaa74
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:63611; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Estes. 1969. A new fossil discoglossid frog from Montana and Wyoming. Breviora 328:1-7
+    occurrenceEvidence:
+      - occurrenceId: occ:149316
+        collectionId: col:13142
+        acceptedTaxonId: txn:63611
+        identifiedName: Scotiophryne pustulosa n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:4381
+        bibliography: R. Estes, P. Berberian, and C. A. M. Meszoely. 1969. Lower vertebrates from the Late Cretaceous Hell Creek Formation, McCone County, Montana. Breviora 337:1-33
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: McCone County
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:382973
+        collectionId: col:36449
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:9765
+        bibliography: J. G. Armstrong-Ziegler. 1978. An aniliid snake and associated vertebrates from the Campanian of New Mexico. Journal of Paleontology 52(2):480-483
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: San Juan
+        stratigraphy:
+          group: null
+          formation: Fruitland
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:464132
+        collectionId: col:14585
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:12168
+        bibliography: R. Estes. 1969. A new fossil discoglossid frog from Montana and Wyoming. Breviora 328:1-7
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:488216
+        collectionId: col:14568
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:820
+        bibliography: L. J. Bryant. 1989. Non-dinosaurian lower vertebrates across the Cretaceous-Tertiary boundary in northeastern Montana. University of California Publications in Geological Sciences 134:1-107
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1147400
+        collectionId: col:14655
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:1535
+        bibliography: R. C. Fox. 1989. The Wounded Knee local fauna and mammalian evolution near the Cretaceous-Tertiary boundary, Saskatchewan, Canada. Palaeontographica Abteilung A 208(1-3):11-59
+        locality:
+          countryCode: CA
+          stateProvince: Saskatchewan
+          county: null
+        stratigraphy:
+          group: null
+          formation: Frenchman
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1358898
+        collectionId: col:14430
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:61882
+        bibliography: A. L. Titus, J. G. Eaton, and J. J. W. Sertich. 2016. Late Cretaceous stratigraphy and vertebrate faunas of the Markagunt, Paunsaugunt, and Kaiparowits plateaus, southern Utah. Geology of the Intermountain West 3:229-291
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Iron
+        stratigraphy:
+          group: null
+          formation: Wahweap
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1385900
+        collectionId: col:14458
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:64015
+        bibliography: "J. D. Gardner, C. M. Redman, and R. L. Cifelli. 2016. The hopping dead: Late Cretaceous frogs from the middle-late Campanian (Judithian) of western North America. Fossil Imprint 72(1-2):78-107"
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Natrona
+        stratigraphy:
+          group: null
+          formation: Mesaverde
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1385902
+        collectionId: col:14467
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:64015
+        bibliography: "J. D. Gardner, C. M. Redman, and R. L. Cifelli. 2016. The hopping dead: Late Cretaceous frogs from the middle-late Campanian (Judithian) of western North America. Fossil Imprint 72(1-2):78-107"
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Kaiparowits
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1385903
+        collectionId: col:75846
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:64015
+        bibliography: "J. D. Gardner, C. M. Redman, and R. L. Cifelli. 2016. The hopping dead: Late Cretaceous frogs from the middle-late Campanian (Judithian) of western North America. Fossil Imprint 72(1-2):78-107"
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Kaiparowits
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1385909
+        collectionId: col:61844
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:64015
+        bibliography: "J. D. Gardner, C. M. Redman, and R. L. Cifelli. 2016. The hopping dead: Late Cretaceous frogs from the middle-late Campanian (Judithian) of western North America. Fossil Imprint 72(1-2):78-107"
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: null
+        stratigraphy:
+          group: null
+          formation: Wahweap
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1385927
+        collectionId: col:190353
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:64015
+        bibliography: "J. D. Gardner, C. M. Redman, and R. L. Cifelli. 2016. The hopping dead: Late Cretaceous frogs from the middle-late Campanian (Judithian) of western North America. Fossil Imprint 72(1-2):78-107"
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: null
+        stratigraphy:
+          group: null
+          formation: Wahweap
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1385928
+        collectionId: col:190354
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:64015
+        bibliography: "J. D. Gardner, C. M. Redman, and R. L. Cifelli. 2016. The hopping dead: Late Cretaceous frogs from the middle-late Campanian (Judithian) of western North America. Fossil Imprint 72(1-2):78-107"
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: null
+        stratigraphy:
+          group: null
+          formation: Fruitland
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1395795
+        collectionId: col:192250
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1395856
+        collectionId: col:75836
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Kane
+        stratigraphy:
+          group: null
+          formation: Kaiparowits
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1395887
+        collectionId: col:181388
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Straight Cliffs
+          member: John Henry
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1395918
+        collectionId: col:192261
+        acceptedTaxonId: txn:63611
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: null
+        stratigraphy:
+          group: null
+          formation: Wahweap
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-28647531a9
+            part: body
+          zh:
+            page: zh
+            section: s-ae45baaa74
+            part: body
+        sourceIds: []

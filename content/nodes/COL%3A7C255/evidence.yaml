@@ -1,0 +1,470 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Telmatobius cirrhacelis Trueb, 1979
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Telmatobius cirrhacelis
+      zh: Telmatobius cirrhacelis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ac96548ff3
+            part: title
+          zh:
+            page: zh
+            section: s-fec1002fa2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ac96548ff3
+            part: body
+          zh:
+            page: zh
+            section: s-fec1002fa2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3f9133806a
+            part: title
+          zh:
+            page: zh
+            section: s-119ab626cd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3f9133806a
+            part: body
+          zh:
+            page: zh
+            section: s-119ab626cd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-dfe02197d9
+            part: title
+          zh:
+            page: zh
+            section: s-4ac119a4a3
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-dfe02197d9
+            part: body
+          zh:
+            page: zh
+            section: s-4ac119a4a3
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-f8e4b5ecb9fa691134064c79b688a252
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-7ebcb52ab25019f573c7c064
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2ac816d5bd
+            part: title
+          zh:
+            page: zh
+            section: s-d3111c8de5
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2ac816d5bd
+            part: body
+          zh:
+            page: zh
+            section: s-d3111c8de5
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7b3996a5b1
+            part: title
+          zh:
+            page: zh
+            section: s-b951bad87d
+            part: title
+        sourceIds:
+          - primary-pmc7482940-7c255
+        text:
+          en:
+            page: en
+            section: s-7b3996a5b1
+            part: body
+          zh:
+            page: zh
+            section: s-b951bad87d
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-d119885125
+            part: title
+          zh:
+            page: zh
+            section: s-1422bf5500
+            part: title
+        sourceIds:
+          - primary-pmc7482940-7c255
+        text:
+          en:
+            page: en
+            section: s-d119885125
+            part: body
+          zh:
+            page: zh
+            section: s-1422bf5500
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6b87fd9df1
+            part: title
+          zh:
+            page: zh
+            section: s-03b5da5426
+            part: title
+        sourceIds:
+          - primary-pmc7482940-7c255
+        text:
+          en:
+            page: en
+            section: s-6b87fd9df1
+            part: body
+          zh:
+            page: zh
+            section: s-03b5da5426
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-95e293cc91
+            part: title
+          zh:
+            page: zh
+            section: s-cf06a40ddb
+            part: title
+        sourceIds:
+          - primary-pmc7482940-7c255
+        text:
+          en:
+            page: en
+            section: s-95e293cc91
+            part: body
+          zh:
+            page: zh
+            section: s-cf06a40ddb
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-e1ed411362
+            part: title
+          zh:
+            page: zh
+            section: s-cb44212a36
+            part: title
+        sourceIds:
+          - primary-pmc7482940-7c255
+        text:
+          en:
+            page: en
+            section: s-e1ed411362
+            part: body
+          zh:
+            page: zh
+            section: s-cb44212a36
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Telmatobius cirrhacelis
+          url: https://www.checklistbank.org/dataset/316115/taxon/7C255
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5867; Reference.csv rows 2312
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1177; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1177 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc7482940-7c255
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Telmatobius cirrhacelis: Complete Methods and named focal/other treatments plus Discussion and allmainTables1–3; allnonemptyS4 acoustic andS5inventory cells independently read; DOCXappendix/S1primers/S2accessions andS3distance cells extracted but not scientifically authenticated; originalaudio/sequencealignments/voucher specimens/figurepixels unreviewed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1a377ac2d7
+        part: body
+      zh:
+        page: zh
+        section: s-49f04f49eb
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-7ebcb52ab25019f573c7c064
+        scientificName: Telmatobius cirrhacelis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0238306
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        sourceKey: primary-pmc7482940-7c255
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/article.xml
+        sourceConcept: 2020 Telmatobius cirrhacelis revision; historical specimen records, new encounters and provisional population identities retained separately
+        evidenceRead: "Telmatobius cirrhacelis: Complete Methods and named focal/other treatments plus Discussion and allmainTables1–3; allnonemptyS4 acoustic andS5inventory cells independently read; DOCXappendix/S1primers/S2accessions andS3distance cells extracted but not scientifically authenticated; originalaudio/sequencealignments/voucher specimens/figurepixels unreviewed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Historical type citations
+              zh: 历史模式引用
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-7c255
+            locator: PMC7482940 XMLsec015 Telmatobius cirrhacelis named treatment
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d635535732
+                part: body
+              zh:
+                page: zh
+                section: s-dacde8daad
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: A1984 last-sighting statement at another locality
+              zh: 另一地点1984年最后目击陈述
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-7c255
+            locator: PMC7482940 XMLsec015 Telmatobius cirrhacelis named treatment
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cfea2428c3
+                part: body
+              zh:
+                page: zh
+                section: s-084ca76311
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Probably extinct remains a2020 source judgement
+              zh: 可能灭绝保留为2020年来源判断
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-7c255
+            locator: PMC7482940 XMLsec015 Telmatobius cirrhacelis named treatment
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-64e72d145d
+                part: body
+              zh:
+                page: zh
+                section: s-64c8c45894
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Keep original datasets outside the present reading claim
+              zh: 原数据不纳入本次核读声明
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-7c255
+            locator: PMC7482940 XMLsec004–008;Tables1–3 footnotes;sec019; supporting-file captions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-68fa0bd148
+                part: body
+              zh:
+                page: zh
+                section: s-dbbc39f080
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: range
+            heading:
+              en: The supplementary inventory retains its2020 scope
+              zh: 补充名录保留2020年范围
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-7c255
+            locator: PMC7482940 supplementaryS5 pone.0238306.s006.xlsx sheet Abra de Zamora species B29:F29;sha256:c64b782eab38c2f0dc00773213d31df57d5e0f8c9c2c0c1697b6064ab4a82da4;main treatmentTelmatobius cirrhacelis
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b34e83e16e
+                part: body
+              zh:
+                page: zh
+                section: s-7a4052ebc1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,59 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Mandibulate evidence route
+    commonName: Mandibulate fossil dossiers
+    commonNameZh: 有颚肢类化石证据档案
+    rank: navigation group
+    taxonId: ""
+    firstAppearance: 508
+    lastAppearance: 0
+    extinct: false
+    entityKind: navigation-group
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:mandibulate-evidence-route
+      claimKind: scientific
+      claimType: topology
+      statement: The Mandibulate evidence route navigation entity is source-linked only to the named specimen, dataset and analysis dossiers already cited by its range ledger. Its displayed span is a study-bounded route or sample envelope, not a biological taxon, ancestor sequence, global FAD/LAD or exact origin interval.
+      confidence: medium
+      confidenceRationale: "Mandibulate fossil dossiers: Medium confidence applies to the existence and documented scope of the linked dossiers and their concrete locators. The navigation grouping and displayed envelope are editorial organization, so no biological ancestry or global endpoint is inferred."
+      referenceLinks:
+        - referenceId: aria-caron-2017-tokummia
+          relation: supports
+          pages: 89–92
+          figure: Figures 1–4; Extended Data Figures 1–5
+          quoteLocator: Diagnosis; Mandibles and maxillipeds; Phylogenetic results
+        - referenceId: vannier-2018-waptia
+          relation: supports
+          pages: 1–34
+          figure: Figures 2, 8–10, 23–24
+          quoteLocator: Material; Mandibles; Phylogenetic position; Palaeoecology
+  claim-rationales.zh:
+    - 有颚肢类化石证据档案：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+  claim-statements.zh:
+    - 有颚肢类化石证据档案导航实体在此仅链接到延限账本已经引用的具名标本、数据集和分析档案；其显示跨度是研究限定的路线或样本包络，不是生物分类单元、祖先序列、全球首末出现或精确起源区间。
+  ranges:
+    - entityId: mandibulate-evidence-route
+      rangeKind: global-composite
+      taxonomicConcept: Mandibulate fossil dossier navigation route
+      geographicScope: Represented Cambrian fossil samples and living context
+      olderMa: 508
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Navigation envelope only; it is not a crown age, lineage duration or global FAD.
+      evidenceBasis: Browse envelope spans the represented Tokummia and Waptia dossiers to living mandibulate context.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:tokummia-mandibulate-anatomy
+        - claim:event:waptia-mandibulate-series
+      referenceLocators:
+        - referenceId: aria-caron-2017-tokummia
+          locator: 89–92; Figures 1–4
+        - referenceId: vannier-2018-waptia
+          locator: 1–34; Figures 8–10, 23–24

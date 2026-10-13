@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina blumi
+  displayName: Austrochaperina blumi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JVZP
+  sourceIndexes:
+    - name:
+        en: Austrochaperina blumi
+        zh: Austrochaperina blumi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JVZP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/348
+            queryName: Austrochaperina blumi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2951bf4349
+      - s-a2511f3724
+      - s-39d0e6110c
+      - s-31fac3ddd2
+      - s-48bd5f604d
+      - s-45ba3d081f
+      - s-f2c2abeb6d
+      - s-35739a45b1
+      - s-bf4499c3ad
+      - s-c6a2bb80f4
+      - s-8482ab69db
+    zh:
+      - s-16d1fe5b2a
+      - s-00468e1ac9
+      - s-d2c5ca4c27
+      - s-ec11e9e477
+      - s-1e9b7ca772
+      - s-066b6c05fa
+      - s-d4fb9db8dd
+      - s-d9bf549e53
+      - s-c335525c51
+      - s-de5a0997bd
+      - s-339cd11b65

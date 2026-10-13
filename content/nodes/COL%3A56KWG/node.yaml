@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thoropa taophora
+  displayName: Thoropa taophora
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KWG
+  sourceIndexes:
+    - name:
+        en: Thoropa taophora
+        zh: Thoropa taophora
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KWG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/69
+            queryName: Thoropa taophora
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/106
+            queryName: Ololigon abbreviatus taophora
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-319b21914e
+      - s-a30f4b3fae
+      - s-9cbbbbb966
+      - s-9b3bf67ba9
+      - s-d552dab679
+      - s-6f5c1689e6
+      - s-b28134fd87
+      - s-c6f7cd7a23
+      - s-1621bd3b81
+      - s-42e1f7bcbf
+      - s-590ffa940b
+      - s-a28c192431
+      - s-ba02cb1386
+      - s-296a670a4b
+      - s-d238f2fc16
+      - s-898c2b4f4b
+      - s-64ef4b4194
+      - s-68ff955565
+      - s-ce782fa5bc
+      - s-04824d63db
+      - s-98cad94ac9
+      - s-7980f10516
+      - s-6e00227587
+      - s-ef3e50d6cc
+    zh:
+      - s-64fb15af00
+      - s-8c72624207
+      - s-a22aa82786
+      - s-2dd3d317ae
+      - s-4dec62f919
+      - s-9e3cce24a5
+      - s-3779ba5b7c
+      - s-7ff9403d85
+      - s-2cb62f5f7d
+      - s-14d433fd63
+      - s-659c29459d
+      - s-33fa25d67f
+      - s-5071c6dfad
+      - s-1daf31b3d1
+      - s-a4a0b2b5e5
+      - s-9f64564d31
+      - s-db7df1dac8
+      - s-9b646c9d3c
+      - s-bf067702a5
+      - s-480d01701d
+      - s-672bddc3e5
+      - s-02701c1c56
+      - s-4467ab607d
+      - s-40a9e196e8

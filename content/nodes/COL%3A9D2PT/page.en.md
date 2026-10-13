@@ -1,0 +1,3 @@
+## ## A medium-sized tree with lilac flowers {#s-e1c86462e8}
+Brazilian Flora 2020 records a tree 8–10 m tall with glabrous branches. Its leaves have five elliptic to oval-elliptic leaflets with brochidodromous venation, in which side veins form loops near the margins; the leaflets are opaque and dotted, and the stipules persist. Loose inflorescences have glabrous axes and more than three flowers on the secondary axes. The bell-shaped calyx is dotted, the corolla is lilac, and the standard petal is curved. The fruit is a glabrous, winged samaroid legume, and the seed is flat. These are regional character fields, not a population survey.
+

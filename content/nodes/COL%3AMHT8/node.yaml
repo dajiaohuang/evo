@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis erythrodactylus
+  displayName: Boophis erythrodactylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHT8
+  sourceIndexes:
+    - name:
+        en: Boophis erythrodactylus
+        zh: Boophis erythrodactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHT8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/250
+            queryName: Boophis erythrodactylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/331
+            queryName: Hyperolius erythrodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8aeb346c69
+      - s-1c529803b0
+      - s-aafca9df55
+      - s-e9aba37715
+      - s-db3d24989e
+      - s-7f348d6bb4
+      - s-71eff76b0f
+      - s-477a4cc076
+      - s-3b0a02ed3e
+      - s-b51b9c4f96
+    zh:
+      - s-f7285bc263
+      - s-fe9c3ba628
+      - s-4e16eb673e
+      - s-a00ce9887b
+      - s-fef31ed54a
+      - s-a203d6df9b
+      - s-d890d80cb1
+      - s-7a905544ee
+      - s-a2bd23a69d
+      - s-4370bff8a3

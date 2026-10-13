@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates magnaocularis
+  displayName: Lithobates magnaocularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQC
+  sourceIndexes:
+    - name:
+        en: Lithobates magnaocularis
+        zh: Lithobates magnaocularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/180
+            queryName: Lithobates magnaocularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/221
+            queryName: Rana magnaocularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9841ac5908
+      - s-1a82a4327b
+      - s-0e372bb5ff
+      - s-4d3c434ed1
+      - s-ceeb1f0f9f
+      - s-a40861917f
+      - s-0742dabee5
+      - s-0121a09bbc
+      - s-9abd7f279e
+      - s-f01061b42e
+      - s-ff168abc3b
+      - s-d6a683aac9
+      - s-13f22860d1
+      - s-94876050bc
+      - s-0ebcce1cad
+      - s-c1c0742aff
+    zh:
+      - s-3e80380794
+      - s-f1110a11fb
+      - s-a4f30c7e7d
+      - s-efa8c285a4
+      - s-e6b65db0d8
+      - s-cf8da57003
+      - s-60c5ee3577
+      - s-b4282aac33
+      - s-be8143c44c
+      - s-5f7a5a7502
+      - s-49bb4a07fb
+      - s-f1e5ce7dde
+      - s-e26cb7c562
+      - s-3ef882232d
+      - s-f4fc4c0e96
+      - s-1ecb5afdce

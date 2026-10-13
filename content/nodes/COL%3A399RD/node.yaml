@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus simulans
+  displayName: Eleutherodactylus simulans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399RD
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus simulans
+        zh: Eleutherodactylus simulans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399RD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/327
+            queryName: Eleutherodactylus simulans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/411
+            queryName: Euhyas simulans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-feaf56c59f
+      - s-258f4e839b
+      - s-cc5fa921e6
+      - s-5cb604a69d
+      - s-d55aa6f2fd
+      - s-b6495e89d1
+      - s-49478859a3
+      - s-b984f5dca9
+      - s-b177ae81cb
+      - s-ed93ab1ca1
+    zh:
+      - s-d9c05a0df1
+      - s-9e0958bf32
+      - s-340037bf8f
+      - s-1dfa282b21
+      - s-b81c200131
+      - s-442a0813b7
+      - s-3e94117947
+      - s-331b51d375
+      - s-812800afc7
+      - s-b92f049f1a

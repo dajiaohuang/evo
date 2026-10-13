@@ -1,0 +1,212 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Pliobatrachus langhae
+    rank: species
+    sourceTaxonId: txn:409723
+    name:
+      en: Pliobatrachus langhae
+      zh: Pliobatrachus langhae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-743fd0b149
+            part: body
+          zh:
+            page: zh
+            section: s-c293a77d95
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 6 PBDB occurrence rows and collection fields
+          zh: 6 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-3f7e60062b
+            part: body
+          zh:
+            page: zh
+            section: s-c1ae887ffd
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Pliobatrachus langhae
+          zh: Pliobatrachus langhae 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-30c615a0d5
+            part: body
+          zh:
+            page: zh
+            section: s-d320a600e9
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:409723; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: B. Sanchiz. 1998. Salientia. Handbuch der Palaoherpetologie 4
+    occurrenceEvidence:
+      - occurrenceId: occ:351306
+        collectionId: col:33396
+        acceptedTaxonId: txn:409723
+        taxonomicDifference: null
+        referenceId: ref:8882
+        bibliography: M. Mlynarski. 1962. Notes on the amphibian and reptilian fauna of the Polish Pliocene and Early Pleistocene. Acta Zoologica Cracoviensia 7(2):177-194
+        locality:
+          countryCode: PL
+          stateProvince: null
+          county: Siedlce
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 4.16
+        youngerAgeMa: 3.55
+      - occurrenceId: occ:351364
+        collectionId: col:33473
+        acceptedTaxonId: txn:409723
+        taxonomicDifference: null
+        referenceId: ref:8882
+        bibliography: M. Mlynarski. 1962. Notes on the amphibian and reptilian fauna of the Polish Pliocene and Early Pleistocene. Acta Zoologica Cracoviensia 7(2):177-194
+        locality:
+          countryCode: PL
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 3.55
+        youngerAgeMa: 2.245
+      - occurrenceId: occ:374301
+        collectionId: col:35374
+        acceptedTaxonId: txn:409723
+        identifiedName: Pliobatrachus cf. langhae
+        taxonomicDifference: null
+        referenceId: ref:9534
+        bibliography: D. Janossy. 1986. Pleistocene vertebrate faunas of Hungary. Developments in Palaeontology and Stratigraphy, 8. Elsevier, Amsterdam
+        locality:
+          countryCode: HU
+          stateProvince: Fejer
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 3.55
+        youngerAgeMa: 1.8
+      - occurrenceId: occ:375661
+        collectionId: col:35459
+        acceptedTaxonId: txn:409723
+        identifiedName: "? Pliobatrachus langhae"
+        taxonomicDifference: null
+        referenceId: ref:9534
+        bibliography: D. Janossy. 1986. Pleistocene vertebrate faunas of Hungary. Developments in Palaeontology and Stratigraphy, 8. Elsevier, Amsterdam
+        locality:
+          countryCode: HU
+          stateProvince: Barany
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 2.58
+        youngerAgeMa: 0.774
+      - occurrenceId: occ:1083494
+        collectionId: col:136066
+        acceptedTaxonId: txn:409723
+        identifiedName: Pliobatrachus cf. langhae
+        taxonomicDifference: null
+        referenceId: ref:43517
+        bibliography: M. Venczel. 2001. Anurans and squamates from the Lower Pliocene (MN 14) Osztramos 1 locality (Northern Hungary). Fragmenta Palaeontologica Hungarica 19:79-90
+        locality:
+          countryCode: HU
+          stateProvince: North Hungary
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 5.333
+        youngerAgeMa: 3.6
+      - occurrenceId: occ:1413203
+        collectionId: col:195226
+        acceptedTaxonId: txn:409723
+        identifiedName: Pliobatrachus cf. langhae
+        taxonomicDifference: null
+        referenceId: ref:66368
+        bibliography: "J. A. Holman. 1998. Pleistocene Amphibians and Reptiles in Britain and Europe. Oxford Monographs on Geology and Geophysics. Oxford: Oxford University Press."
+        locality:
+          countryCode: PL
+          stateProvince: null
+          county: Sieradz
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 2.58
+        youngerAgeMa: 0.0117
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Pliobatrachus langhae
+          zh: Pliobatrachus langhae 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-30c615a0d5
+            part: body
+          zh:
+            page: zh
+            section: s-d320a600e9
+            part: body
+        sourceIds: []

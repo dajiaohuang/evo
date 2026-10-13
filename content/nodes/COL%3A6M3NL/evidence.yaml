@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hesperantha longituba (Klatt) Baker
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6M3NL, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6M3NL; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6M3NL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6M3NL
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000782800-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6M3NL / WFO wfo-0000782800
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_16273_0
+        referenceId: ref-fc612226-11c8-8b48-a677-ba6e517f0928
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Hesperantha longituba (Klatt) Baker account; SANBI/WFO archive rows 71835 (Morphology), 69475 (Habitat), source identifier 16273.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Hesperantha longituba (Klatt) Baker account; SANBI/WFO archive rows 94840 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Cormous geophyte, up to 220 mm high. Leaves with blade broad, leathery, glabrous, margins and midrib prominent. Flowers: open late afternoon and close after dark; stamens erect, filaments 3-6 mm long, anthers 3-9 mm long, yellow to whitish; style branches ascending to spreading, as long as or longer than stamens; perianth with tube 14-22 mm long, segments 15-20 mm long, white; Aug.-Oct."
+            textZh: Hesperantha longituba (Klatt) Baker 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_16273_0
+            locator: "SANBI/WFO archive Morphology row 71835; source identifier 16273.0; cited publication: Retief, E; Meyer, NL. 2017. Iridaceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 934 - 956. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Recognised by the relatively large white flowers that open in the late afternoon and close after dark, Hesperantha longituba has tepals 15-22 mm long and a perianth tube usually 14-22 mm long. The leaves are broad and leathery with prominent, raised margins and midrib. The large corms, up to 18 mm diam., have overlapping tunics notched into segments below, like those of several western Karoo species, including H. cucullata, H. humilis and H. vaginata and on this basis H. longituba appears allied to these species rather than to those of eastern southern Africa. Hesperantha longituba is sometimes confused with a second spring-flowering species from eastern southern Africa, H. candida, and has at times been included in that species. The two differ mainly in the length of the perianth tube, mostly 14-22 mm long in H. longituba vs. 10-12 mm long in H. candida. The flowers of the latter, as far as are known, are diurnal (confirmed by notes on some herbarium collections) whereas those of H. longituba are crepuscular. Plants from the Aliwal North and Stutterheim areas of Eastern Cape are intermediate in perianth tube length and make the distinction between the two species sometimes seem arbitrary but those from further west, at Cradock, Somerset East, and Graaff-Reinet always have a longer perianth tube, up to or even exceeding 22 mm.
+            textZh: SANBI 条目提供了 Hesperantha longituba (Klatt) Baker 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94840; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dry Grassland. Dolerite ridges.
+            textZh: 该 SANBI 区域物种条目记录的生境：Dry Grassland. Dolerite ridges.
+            sourceIds:
+              - sanbi_16273_0
+            locator: "SANBI/WFO archive Habitat row 69475; source identifier 16273.0; cited publication: Retief, E; Meyer, NL. 2017. Iridaceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 934 - 956. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

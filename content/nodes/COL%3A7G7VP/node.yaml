@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina gigantea
+  displayName: Xenorhina gigantea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7G7VP
+  sourceIndexes:
+    - name:
+        en: Xenorhina gigantea
+        zh: Xenorhina gigantea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7G7VP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/341
+            queryName: Xenorhina gigantea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/278
+            queryName: Xenobatrachus giganteus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/29
+            queryName: Xenobatrachus gigantea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-67adc5d520
+      - s-f77cc1cd54
+      - s-1128f4351a
+      - s-d770f2f7ed
+      - s-68a2693eaf
+      - s-6d62d01991
+      - s-e976381cd9
+      - s-bc7df0911b
+      - s-00a1ab623a
+      - s-c5eaef8c59
+    zh:
+      - s-2348ee5b11
+      - s-3f651477ab
+      - s-0f66b426f9
+      - s-7059e52a9b
+      - s-ce9d93582c
+      - s-efa0c04271
+      - s-3b7880deb3
+      - s-4580831ef6
+      - s-320ecf3a6f
+      - s-6c2c6cb262

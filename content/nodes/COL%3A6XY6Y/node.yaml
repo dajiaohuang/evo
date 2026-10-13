@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scolecomorphus uluguruensis
+  displayName: Scolecomorphus uluguruensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XY6Y
+  sourceIndexes:
+    - name:
+        en: Scolecomorphus uluguruensis
+        zh: Scolecomorphus uluguruensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XY6Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/135
+            queryName: Scolecomorphus uluguruensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/88
+            queryName: Scolecomorphus attenuatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e52f95f00e
+      - s-eab2f4bc4a
+      - s-35f8457434
+      - s-73662ccbff
+      - s-9faf554946
+      - s-352d04f088
+      - s-886cc8e909
+      - s-0f5735c3f2
+      - s-4871b3de32
+    zh:
+      - s-fdbe5cccc1
+      - s-c677c68298
+      - s-9ce1317eb3
+      - s-cf6f5064e9
+      - s-0f8340f363
+      - s-6d17517eea
+      - s-0b2ec22c88
+      - s-859436962d
+      - s-5ecb7c8bd4

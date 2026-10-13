@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena robeensis
+  displayName: Ptychadena robeensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SMLLJ
+  sourceIndexes:
+    - name:
+        en: Ptychadena robeensis
+        zh: Ptychadena robeensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SMLLJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/495
+            queryName: Ptychadena robeensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-863178585b
+      - s-a6019f3136
+      - s-e551428a28
+      - s-9607bb8ec1
+      - s-7d91b87a05
+      - s-f160d35102
+      - s-2b59aaa13c
+      - s-1d81359dd0
+      - s-59d63c78d5
+      - s-b0ba580207
+      - s-030b928f21
+      - s-7d5cf753f6
+      - s-afa6dbad76
+      - s-721b2c0bec
+      - s-5418b662f1
+      - s-9b50878048
+      - s-de76affac6
+      - s-5f853ad620
+      - s-f49aff5d7f
+      - s-e1b6df078a
+      - s-60afde09a6
+      - s-8c948e1716
+      - s-97b7f6948e
+    zh:
+      - s-09308c2266
+      - s-9a9554d8af
+      - s-44602b2b27
+      - s-89cbc64145
+      - s-2ff1599e58
+      - s-8ddfa453c5
+      - s-cd45a55f7e
+      - s-9a589bd22d
+      - s-68ef8f2841
+      - s-a538cb2081
+      - s-3f1cbd9983
+      - s-49476f1608
+      - s-c6b771ed02
+      - s-0284b9df93
+      - s-7ae35e5702
+      - s-02ac7e780b
+      - s-a1944514ca
+      - s-9dfdf92845
+      - s-1be192a166
+      - s-3d3e163773
+      - s-650e7a6722
+      - s-9ded6d6b33
+      - s-e1e646ec8b

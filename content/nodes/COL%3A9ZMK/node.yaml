@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera diptyx
+  displayName: Adenomera diptyx
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZMK
+  sourceIndexes:
+    - name:
+        en: Adenomera diptyx
+        zh: Adenomera diptyx
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZMK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/33
+            queryName: Adenomera diptyx
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/327
+            queryName: Leptodactylus diptyx
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/224
+            queryName: Leptodactylus glandulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/225
+            queryName: Leptodactylus diptix
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c46847648b
+      - s-f2855a6b64
+      - s-3536a4621f
+      - s-e68d9f3442
+      - s-43d28ded4a
+      - s-72231cf7d2
+      - s-f65cececbd
+      - s-ebe6dd4113
+      - s-0d131a10d4
+      - s-db7c6b097b
+      - s-f27b6db812
+    zh:
+      - s-2c02479215
+      - s-e95f30973f
+      - s-ec51c4ed3a
+      - s-faa954f2eb
+      - s-c2cf9aab39
+      - s-4d4cf87fd4
+      - s-75f67a8732
+      - s-c4c7e4f013
+      - s-f08978eafb
+      - s-f960088794
+      - s-8452a9e557

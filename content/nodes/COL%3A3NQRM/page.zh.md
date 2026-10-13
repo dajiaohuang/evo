@@ -1,0 +1,24 @@
+## 接受名称与分类位置 {#s-67a6715c93}
+COL26.8（Catalogue of Life 数据集 316115，2026 年 8 月 20 日发布）将 *Hyperolius bocagei* 记录为接受的种，分类路径为 Anura (order) → Hyperoliidae (family) → Hyperolius (genus)。这是该版分类目录中的位置；名称与分类本身并不是生物性状观察。
+
+## 阅读路线 {#s-ea8f5a352b}
+除目录分类外，本记录还整理了下列研究与数据集中的观察。每项结果都限于相应来源所列的分类概念、样本、地点、日期与方法；名称相同本身不能证明来源概念与当前分类相同。这些材料并未覆盖该类群的每个成员或生物学的所有方面。
+
+## 觅食层位——AmphiBIO 来源 {#s-a9fce92521}
+AmphiBIO 的历史资料依据 Frost 2011 分类使用名称 Hyperolius bocagei。该来源概念不能仅凭名称视为与 COL26.8 当前接受分类完全相同。汇编把 陆栖；水栖；树栖 列为报告类别。这些是概括性的觅食类别；汇编没有详细区分季节变化或发育阶段变化。后续 TetrapodTraits 修订报告纠正了从早期汇编传播的部分两栖动物体重与微栖地记录。此处尚未取得受影响行的逐项比对；这些存档历史值或类别在再利用前需要核对。没有推断替代值，本说明也不把每条原记录判为错误。
+
+## 汇编的成体尺寸——AmphiBIO 来源 {#s-2b4a3d71ed}
+AmphiBIO 的历史资料依据 Frost 2011 分类使用名称 Hyperolius bocagei。该来源概念不能仅凭名称视为与 COL26.8 当前接受分类完全相同。AmphiBIO 记载 最大成体体长：27 mm。体长在无尾目指吻肛长，在有尾目和蚓螈目指全长。这些是汇编的最大成体值，不是每一个体的测量值。
+
+## 相关来源记录与数据集 {#s-15acf19568}
+这些链接依据记录的接受名称或存档异名路径建立，便于查看各来源自己的观察；名称链接本身不能证明分类概念相同，也不会把性状自动转移到此记录。
+
+- [AmphiBIO v1: Hyperolius bocagei](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Hyperoliidae/Hyperolius/Hyperolius_bocagei/page.zh.md)
+- [AmphiBIO v1: Hyperolius seabrai](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Hyperoliidae/Hyperolius/Hyperolius_seabrai/page.zh.md)
+
+## catalogue-profile / limitations {#s-6bdf4326da}
+所述来源记录具有选择性并受其范围限制，不能确立该类群的全部性状、种群或地点。
+
+## 现有证据的范围 {#s-a32dfb3ad5}
+上文呈现的是具名来源中的有限观察。其样本与分类标签不能确立物种全部变异、完整分布或该类群生物学的各个方面；未报告某性状或地点不等于证明其不存在。
+

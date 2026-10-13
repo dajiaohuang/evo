@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hymenochirus
+  displayName: Hymenochirus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5276
+  sourceIndexes:
+    - name:
+        en: Hymenochirus
+        zh: Hymenochirus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "5276"
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/450
+            queryName: Hymenochirus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 180
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b737f89728
+      - s-63e6f526dd
+      - s-8d0ebe56dd
+      - s-8b008d7848
+      - s-4134562e98
+      - s-b86b2dc4a8
+      - s-b142d00ee7
+      - s-8b1cb6617e
+      - s-b9091773e5
+      - s-ae28685892
+      - s-68525b5e23
+      - s-1530eccc4f
+      - s-d1bf8118d2
+      - s-b524622895
+      - s-dcdcf0c685
+      - s-69d0e51291
+      - s-0297484114
+      - s-f0ddef871e
+      - s-958fa85301
+      - s-7aa68b6af9
+    zh:
+      - s-4a86f74a27
+      - s-17b565267c
+      - s-0655ad22bf
+      - s-21c5b10173
+      - s-2e7b01c48f
+      - s-976edb49f3
+      - s-5f745988ed
+      - s-6545e351c1
+      - s-2f32924031
+      - s-9fcb08a686
+      - s-2e01dbc9e5
+      - s-5d918b0620
+      - s-4e36dabad3
+      - s-dfd9f074a6
+      - s-018daaf3a8
+      - s-89b92df6a4
+      - s-c395316abb
+      - s-3dcee6ebf6
+      - s-28387904cc
+      - s-fa0930b63f

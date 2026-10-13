@@ -1,0 +1,235 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nannophrys Günther, 1869
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Nannophrys
+      zh: Nannophrys
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fff7a76672
+            part: title
+          zh:
+            page: zh
+            section: s-745aaf184c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fff7a76672
+            part: body
+          zh:
+            page: zh
+            section: s-745aaf184c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fa951bbe1c
+            part: title
+          zh:
+            page: zh
+            section: s-579f7ddac6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fa951bbe1c
+            part: body
+          zh:
+            page: zh
+            section: s-579f7ddac6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-8ea1e2360f
+            part: title
+          zh:
+            page: zh
+            section: s-fddfd8bf67
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8ea1e2360f
+            part: body
+          zh:
+            page: zh
+            section: s-fddfd8bf67
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-3a16e83499
+            part: title
+          zh:
+            page: zh
+            section: s-91ff6c0ad5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3a16e83499
+            part: body
+          zh:
+            page: zh
+            section: s-91ff6c0ad5
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-747e9672cc
+            part: title
+          zh:
+            page: zh
+            section: s-c83899ed00
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 45MMT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45MMT
+            label:
+              en: Nannophrys ceylonensis
+              zh: Nannophrys ceylonensis
+          - kind: catalogue
+            colId: 73SK7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A73SK7
+            label:
+              en: Nannophrys guentheri
+              zh: Nannophrys guentheri
+          - kind: catalogue
+            colId: 45MMV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45MMV
+            label:
+              en: Nannophrys marmorata
+              zh: Nannophrys marmorata
+          - kind: catalogue
+            colId: 45MMW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A45MMW
+            label:
+              en: Nannophrys naeyakai
+              zh: Nannophrys naeyakai
+        text:
+          en:
+            page: en
+            section: s-747e9672cc
+            part: body
+          zh:
+            page: zh
+            section: s-c83899ed00
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nannophrys
+          url: https://www.checklistbank.org/dataset/316115/taxon/5XDN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Nannophrys; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ca0f7083df
+        part: body
+      zh:
+        page: zh
+        section: s-fb8ca600f1
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Nannophrys
+      sourceRowIds:
+        - Anf1731
+        - Anf1732
+        - Anf1733
+        - Anf1734
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 4
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 4
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 4
+      currentConceptEquivalenceCertified: false

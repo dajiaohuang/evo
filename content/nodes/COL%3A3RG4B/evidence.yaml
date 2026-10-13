@@ -1,0 +1,427 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kurixalus baliogaster (Inger, Orlov & Darevsky, 1999)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Kurixalus baliogaster
+      zh: Kurixalus baliogaster
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fa30e0fba9
+            part: title
+          zh:
+            page: zh
+            section: s-04a28bd540
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fa30e0fba9
+            part: body
+          zh:
+            page: zh
+            section: s-04a28bd540
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-163ec0aa24
+            part: title
+          zh:
+            page: zh
+            section: s-4c9be99ad0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-163ec0aa24
+            part: body
+          zh:
+            page: zh
+            section: s-4c9be99ad0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-773c940d2a
+            part: title
+          zh:
+            page: zh
+            section: s-b5abd76796
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-773c940d2a
+            part: body
+          zh:
+            page: zh
+            section: s-b5abd76796
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-094015302d
+            part: title
+          zh:
+            page: zh
+            section: s-69409a09a7
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-094015302d
+            part: body
+          zh:
+            page: zh
+            section: s-69409a09a7
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-3077eccb48
+            part: title
+          zh:
+            page: zh
+            section: s-32d88889a3
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-3077eccb48
+            part: body
+          zh:
+            page: zh
+            section: s-32d88889a3
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-215a49d297
+            part: title
+          zh:
+            page: zh
+            section: s-3942990fec
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-215a49d297
+            part: body
+          zh:
+            page: zh
+            section: s-3942990fec
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4d25f28618
+            part: title
+          zh:
+            page: zh
+            section: s-d42e421598
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-4d25f28618
+            part: body
+          zh:
+            page: zh
+            section: s-d42e421598
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-a20a1f18816f81ce9c3a2b8e32c30068
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-fcd6ebe104613a122870016e
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c7685a2a3c
+            part: title
+          zh:
+            page: zh
+            section: s-3ed371c2f6
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-c7685a2a3c
+            part: body
+          zh:
+            page: zh
+            section: s-3ed371c2f6
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6382a5c02b
+            part: title
+          zh:
+            page: zh
+            section: s-314f8e505b
+            part: title
+        sourceIds:
+          - primary-pmc10486437-3rg4b
+        text:
+          en:
+            page: en
+            section: s-6382a5c02b
+            part: body
+          zh:
+            page: zh
+            section: s-314f8e505b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kurixalus baliogaster
+          url: https://www.checklistbank.org/dataset/316115/taxon/3RG4B
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5092; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5095 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4863, 4864, 4865, 4866; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10486437-3rg4b
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kurixalus baliogaster: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a257fcc858
+        part: body
+      zh:
+        page: zh
+        section: s-fabf084822
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-a20a1f18816f81ce9c3a2b8e32c30068
+      sourceRowId: Anf5092
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5092
+        bibliographyRowId: Anf5095
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Gracixalus quyeti
+        candidateBibliographyRowIds:
+          - Anf5095
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-fcd6ebe104613a122870016e
+        scientificName: Kurixalus baliogaster
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani13172754
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        sourceKey: primary-pmc10486437-3rg4b
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10486437/article.xml
+        sourceConcept: 2023 Table2 Kurixalus baliogaster sequence row
+        evidenceRead: "Kurixalus baliogaster: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Marker availability in the 2023 island-origin comparison
+              zh: 2023 年岛屿起源比较的标记覆盖
+            referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+            sourceKey: primary-pmc10486437-3rg4b
+            locator: PMC10486437 XML Methods2.1/Table2; Results3.1/Table3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5758d57690
+                part: body
+              zh:
+                page: zh
+                section: s-0ecbf27d70
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

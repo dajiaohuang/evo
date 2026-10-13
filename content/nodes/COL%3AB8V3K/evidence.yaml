@@ -1,0 +1,88 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-69822667fa
+          part: title
+        zh:
+          page: zh
+          section: s-54a92af8f4
+          part: title
+      text:
+        en:
+          page: en
+          section: s-69822667fa
+          part: body
+        zh:
+          page: zh
+          section: s-54a92af8f4
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-c63bb09d20
+          part: title
+        zh:
+          page: zh
+          section: s-030d201b8b
+          part: title
+      text:
+        en:
+          page: en
+          section: s-c63bb09d20
+          part: body
+        zh:
+          page: zh
+          section: s-030d201b8b
+          part: body
+  atlas-node:
+    name: Brachiopoda
+    commonName: Lamp Shells
+    commonNameZh: 腕足动物
+    rank: phylum
+    taxonId: txn:26322
+    firstAppearance: 540
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:brachiopoda
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Brachiopoda root display replaces the legacy 540 Ma bound with a rounded 520–0 Ma total-group navigation envelope anchored by Early Cambrian Micrina sclerites reconstructed as a stem brachiopod; it is not a crown-brachiopod FAD.
+      confidence: medium
+      confidenceRationale: Micrina sclerites and muscle scars are direct observations, but the bivalved reconstruction and valve homologies are comparative hypotheses. The rounded numeric endpoint represents the Early Cambrian sampled interval rather than an exact origination date.
+      referenceLinks:
+        - referenceId: holmer-et-al-2008-micrina
+          relation: supports
+          pages: 724–728
+          figure: Figures 1–3
+          quoteLocator: Early Cambrian Micrina material; sclerite articulation, muscle scars and stem-brachiopod comparison
+  claim-rationales.zh:
+    - Micrina 骨片和肌痕是直接观察，而双壳复原及壳瓣同源性属于比较假说；取整端点表示早寒武世采样区间，不是精确起源时间。
+  claim-statements.zh:
+    - 腕足动物门根节点以取整后的 5.20 亿年前至今总群导航包络替代旧 5.40 亿年前边界，锚点是被复原为干群腕足动物的早寒武世 Micrina 骨片；它不是冠群腕足动物首现。
+  ranges:
+    - entityId: brachiopoda
+      rangeKind: global-composite
+      taxonomicConcept: Total-group Brachiopoda under the Micrina stem-group reconstruction
+      geographicScope: Early Cambrian Micrina sample to living brachiopods
+      olderMa: 520
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 10
+        youngerMa: 0
+        note: The older endpoint is a rounded Early Cambrian sample; the whole-body reconstruction and stem placement remain comparative hypotheses.
+      evidenceBasis: Mitral and sellate Micrina sclerites with muscle scars support a bivalved stem-brachiopod reconstruction without setting crown age.
+      confidence: medium
+      claimIds:
+        - claim:taxon:brachiopoda:root-range-rc39
+      referenceLocators:
+        - referenceId: holmer-et-al-2008-micrina
+          locator: pp. 724–728; Figures 1–3
+      evidenceLevel: literature-synthesized

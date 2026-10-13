@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis rubicundus
+  displayName: Pristimantis rubicundus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJN8
+  sourceIndexes:
+    - name:
+        en: Pristimantis rubicundus
+        zh: Pristimantis rubicundus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJN8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/62
+            queryName: Pristimantis rubicundus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/184
+            queryName: Eleutherodactylus rubicundus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/234
+            queryName: Hylodes rubicundus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/235
+            queryName: Eleutherodactylus rubricundus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91745f95a3
+      - s-2e381f0489
+      - s-69ba43c2b0
+      - s-13a9941569
+      - s-765d5ba912
+      - s-35809827be
+      - s-8653c45fec
+      - s-16a947f320
+      - s-a66be667e7
+    zh:
+      - s-848739d2ff
+      - s-9f5f77c678
+      - s-4a1dc1cb02
+      - s-0f8e88d580
+      - s-fc19e3308f
+      - s-535ca48f31
+      - s-7ebdda9f5d
+      - s-ab0e806211
+      - s-b1233505a8

@@ -1,0 +1,3 @@
+## *Xyris straminea*: tiny spikes above rocky seeps {#s-39b73417c0}
+The South African regional account describes an annual that forms small tufts. Its narrow, hairless leaves are usually 4–8 cm long, sometimes reaching 15 cm, and may be slightly rough near the base. A flowering stalk can reach 35 cm and carries a narrow oval spike only 4.5–6.5 mm long. The side sepals have a strong keel; the third sepal forms a hood over the flower bud. Seeds are broadly ellipsoid, with 14–20 lengthwise ridges. The account records shallow soil over rock, wet seepage areas, and seasonal swamps among grass tussocks at 900–2,400 m.
+

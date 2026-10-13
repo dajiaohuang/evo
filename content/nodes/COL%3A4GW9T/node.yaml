@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus liberiensis
+  displayName: Phrynobatrachus liberiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW9T
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus liberiensis
+        zh: Phrynobatrachus liberiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW9T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/145
+            queryName: Phrynobatrachus liberiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-236447c348
+      - s-31a3f8f1dc
+      - s-6ae22e5988
+      - s-664153d189
+      - s-0b1cccf1c4
+      - s-b3a71220d3
+      - s-f4f9ab0917
+      - s-ed785cbb11
+      - s-15c653e236
+      - s-c9990b08a6
+    zh:
+      - s-09f8f08cd2
+      - s-14685357a0
+      - s-cabd030f3b
+      - s-dda7474e38
+      - s-3e5ccf50ef
+      - s-fa2423cb52
+      - s-4b840c8f2b
+      - s-4b2a6351da
+      - s-7eda2b0544
+      - s-7fb5f4db39

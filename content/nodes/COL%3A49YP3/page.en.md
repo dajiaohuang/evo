@@ -1,0 +1,3 @@
+## Ophionella arcuata {#s-13443703dd}
+COL26.8 (released 2026-08-20) lists *Ophionella arcuata* as an accepted species. A regional account describes upward-facing flowers with a cream-pink exterior, a maroon interior, and a yellow corona (a crown-like floral structure); a detailed description gives corollas 6–12 mm across, while another says they rarely exceed 8–10 mm. The account also notes east–west variation in tube and lobe shape. It says *Pectinaria arcuata* and *P. mirkinii* are not clearly separable as discrete taxa, yet recognizes them at subspecies rank based on partial geographic separation. The habitat source records low valley flats or gravelly slopes beneath small karroid bushes. These are source-specific regional descriptions and taxonomic treatment.
+

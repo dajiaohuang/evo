@@ -1,0 +1,206 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Andrias japonicus
+  displayName: Andrias japonicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DTJR
+  sourceIndexes:
+    - name:
+        en: Andrias japonicus
+        zh: Andrias japonicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DTJR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/471
+            queryName: Andrias japonicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 87
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/309
+            queryName: Andrias davidianus japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/75
+            queryName: Triton japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 93
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/76
+            queryName: Megalobatrachus sieboldi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/77
+            queryName: Salamandra maxima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/78
+            queryName: Cryptobranchus japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/79
+            queryName: Hydrosalamandra siboldi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/80
+            queryName: Hydrosalamandra japonica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/81
+            queryName: Sieboldia maxima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/82
+            queryName: Salamandra gigas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/83
+            queryName: Tritomegas sieboldii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/84
+            queryName: Tritomegas sieboldtii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/85
+            queryName: Megalobatrachus maximus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/86
+            queryName: Cryptobranchus maximus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/87
+            queryName: Megalobatrachus japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/88
+            queryName: Sieboldiana maxima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/89
+            queryName: Cryptobranchus sieboldia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/357
+            queryName: Megalobatrachus japonicus japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/358
+            queryName: Andrias scheuchzeri japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/281
+            queryName: Onycopus sieboldii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e799008220
+      - s-a6cb0ae670
+      - s-1755166e2c
+      - s-ce65ac7ac2
+      - s-53ba382705
+      - s-59d84376c9
+      - s-45bb6f2cbb
+      - s-e12791eb2c
+      - s-050bde7078
+      - s-0c71d29f1f
+      - s-5f6eea1189
+      - s-2ae1b0fd96
+      - s-334deb95a5
+      - s-a909adfb35
+      - s-91e5dd8b76
+      - s-e9e4f4d4c3
+      - s-f2adc5efb3
+      - s-0b66599673
+      - s-f030d0a253
+      - s-23d1e0e0ac
+      - s-ada1a41883
+      - s-fc5d53ea50
+      - s-0628e781b0
+      - s-b8beb28fb3
+      - s-425cd564db
+      - s-ef2a779a9f
+    zh:
+      - s-239d15240a
+      - s-39f763c11a
+      - s-afcef19397
+      - s-da1fd12a8f
+      - s-dab5a43b11
+      - s-2b89cad57b
+      - s-4ef331a436
+      - s-b88e5b3553
+      - s-1381d104d6
+      - s-7db3c2e5ee
+      - s-dc808e8b07
+      - s-3079703788
+      - s-e4907a8a66
+      - s-10feea7b3a
+      - s-b6a36bb56f
+      - s-364507a0b8
+      - s-66a98627bb
+      - s-dae80e9b0b
+      - s-03ef2b8403
+      - s-fb0e2d2f6b
+      - s-3e149ad86e
+      - s-b546b378d5
+      - s-8138029be3
+      - s-021ddb8aee
+      - s-d12c09c5a2
+      - s-bd750c2784

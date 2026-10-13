@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hesperantha helmei Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3L48S, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3L48S; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3L48S
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3L48S
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000835753-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3L48S / WFO wfo-0000835753
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18505_0
+        referenceId: ref-509bad8f-f571-82c4-af46-04f0017508fd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Hesperantha helmei Goldblatt & J.C.Manning account; SANBI/WFO archive rows 91014 (Morphology), 92305 (Habitat), source identifier 18505.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Hesperantha helmei Goldblatt & J.C.Manning account; SANBI/WFO archive rows 94823 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Perennial herb, geophyte, 180-250 mm high; corm globose, ± 9 mm in diam., asymmetric with concentric tunics. Leaves 3, lower 2 terete and finely ribbed, blades 8-15 x 1.2 mm, uppermost leaf scale-like, sheathing lower 1/2-2/3 of stem. Inflorescence a 1- or 2-flowered spike, bracts green; flowers relatively small, pale mauve; perianth tube 6-8 mm long, tepals narrow ± 8.0 x 2.5 mm. Stamens with filaments exserted ± 2 mm from tube; anthers ± 4 mm long. Ovary ovoid, ± 2 mm long; style dividing at mouth of perianth tube, branches ± 3.5 mm long. Flowering time Nov., Dec.?.
+            textZh: Hesperantha helmei Goldblatt & J.C.Manning 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18505_0
+            locator: "SANBI/WFO archive Morphology row 91014; source identifier 18505.0; cited publication: Bredenkamp, CL; Magwaza, ZL. 2019. Iridaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1821 - 1882. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Distinctive in its terete, finely ribbed, smooth leaves, and relatively small, pale mauve flowers with a perianth tube 6-8 mm long and narrow tepals ± 8.0 x 2.5 mm. Another unusual attribute of the species is the small sheathing scale-like leaf in the upper part of the stem, a characteristic feature of a small group of species allied to H. pilosa. Among these species H. helmei is perhaps most closely related to H. teretifolia, which also has terete, prominently ridged leaves, the grooves lined with fine ciliate hairs, a feature lacking in H. helmei. The flowers of H. teretifolia are creamy white and larger than those of H. helmei, with a perianth tube ± 8 mm long and tepals ± 10 mm long but the two species are broadly similar in general appearance. The scale-like bract of H. helmei is 8-10 mm long vs. 2-4 mm in H. teretifolia.
+            textZh: SANBI 条目提供了 Hesperantha helmei Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94823; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: High elevations in regularly burned, rocky grassland, covered in snow during winter. Dry Highveld Grassland.
+            textZh: 该 SANBI 区域物种条目记录的生境：High elevations in regularly burned, rocky grassland, covered in snow during winter. Dry Highveld Grassland.
+            sourceIds:
+              - sanbi_18505_0
+            locator: "SANBI/WFO archive Habitat row 92305; source identifier 18505.0; cited publication: Bredenkamp, CL; Magwaza, ZL. 2019. Iridaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1821 - 1882. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

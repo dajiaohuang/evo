@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Amolops nyingchiensis
+    name:
+      en: Amolops nyingchiensis
+      zh: Amolops nyingchiensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Amolops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b98d41c1fc
+            part: body
+          zh:
+            page: zh
+            section: s-ef4945163f
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-069175c33e
+            part: body
+          zh:
+            page: zh
+            section: s-0664eda98b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 289, 290; Reference.csv rows 3768
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 289
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops nyingchiensis
+          - F
+          - "66.1"
+          - "23.3"
+          - "22.6"
+          - "9.3"
+          - "2.9"
+          - NA
+          - "5.8"
+          - "7.7"
+          - "5.6"
+          - NA
+          - "9"
+          - NA
+          - "20.2"
+          - "13.5"
+          - NA
+          - "37"
+          - "56.4"
+          - "43.3"
+          - "37.7"
+          - "19.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 290
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops nyingchiensis
+          - M
+          - "55.8"
+          - "19.3"
+          - "18.5"
+          - "7.9"
+          - "2.5"
+          - NA
+          - "4.7"
+          - "6.8"
+          - "4.8"
+          - NA
+          - "7.6"
+          - NA
+          - "16.8"
+          - "12.2"
+          - NA
+          - "32.3"
+          - "49"
+          - "37.6"
+          - "33"
+          - "16.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3768
+        values:
+          - Anura
+          - Amolops_nyingchiensis
+          - "Jiang, K., Kai, W., Fang, Y., Jiang, X., Da-Hu, Z., Wu-Lin, L., . . . Jing, C. (2016). A new species of the genus Amolops (Amphibia: Ranidae) from southeastern Tibet, China. Zoological Research, 37(1), 31."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - CWB7
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

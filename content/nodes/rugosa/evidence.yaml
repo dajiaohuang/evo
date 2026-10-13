@@ -1,0 +1,107 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-d5d4f063e9
+          part: title
+        zh:
+          page: zh
+          section: s-ccdc030cc2
+          part: title
+      text:
+        en:
+          page: en
+          section: s-d5d4f063e9
+          part: body
+        zh:
+          page: zh
+          section: s-ccdc030cc2
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-f449b030b0
+          part: title
+        zh:
+          page: zh
+          section: s-884033d2de
+          part: title
+      text:
+        en:
+          page: en
+          section: s-f449b030b0
+          part: body
+        zh:
+          page: zh
+          section: s-884033d2de
+          part: body
+  atlas-node:
+    name: Rugosa
+    commonName: Horn Corals
+    commonNameZh: 四射珊瑚
+    rank: order
+    taxonId: ""
+    firstAppearance: 488
+    lastAppearance: 252
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:rugosa
+      claimKind: scientific
+      claimType: taxonomy
+      statement: A systematic review shows that morphological variation and homoplasy complicate Paleozoic coral, including rugose-coral, classification; Rugosa is therefore retained as a fossil systematic unit without claiming exact ancestry or endpoints.
+      confidence: medium
+      confidenceRationale: The synthesis documents recurring systematic problems directly, so confidence applies to the cautionary classification claim rather than one definitive tree.
+      referenceLinks:
+        - referenceId: webb-1996-paleozoic-corals
+          relation: supports
+          pages: 135–157
+          quoteLocator: Sections on variation, homoplasy and rugose-coral systematics
+    - subjectId: taxon:rugosa
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Rugosa is displayed at 471.3–251.9 Ma as Oliver’s review-bounded Middle Ordovician–end-Permian fossil record; the numerical conversion is not a specimen-level FAD/LAD or a claim of uninterrupted global occupancy.
+      confidence: medium
+      confidenceRationale: Oliver (1996), p. 107 and the opening synthesis, explicitly states the Middle Ordovician to end-Permian range. Medium confidence reflects conversion from named intervals rather than directly dated boundary specimens.
+      referenceLinks:
+        - relation: supports
+          referenceId: oliver-1996-paleozoic-corals
+          pages: 107–110
+          figure: Opening range synthesis
+          quoteLocator: Abstract; Rugosa range statement
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for the named intervals
+  claim-rationales.zh:
+    - 综述直接记录了反复出现的系统学问题，因此置信度适用于谨慎的分类陈述，而不是某一棵确定系统树。
+    - Oliver（1996）第 107 页及开篇综述明确给出中奥陶世至二叠纪末的范围。中等置信度反映该范围由命名地层区间换算，而非直接测年的边界标本。
+  claim-statements.zh:
+    - 系统综述表明形态变异和趋同会干扰古生代珊瑚（包括四射珊瑚）分类；因此这里只把四射珊瑚保留为化石系统单元，不主张精确祖先或端点。
+    - Rugosa 的 471.3–251.9 Ma 展示限定于 Oliver 综述中的中奥陶世—二叠纪末化石记录；数值换算不是标本级首末现，也不表示连续全球占据。
+  ranges:
+    - entityId: rugosa
+      rangeKind: global-composite
+      taxonomicConcept: Rugosa review-bounded fossil record
+      geographicScope: Global fossil record synthesized from Middle Ordovician through end-Permian
+      olderMa: 471.3
+      youngerMa: 251.9
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Numerical endpoints translate the source's named Middle Ordovician and end-Permian boundaries using ICS v2026/06; they are not specimen-level dates.
+      evidenceBasis: Oliver synthesizes an essentially continuous Middle Ordovician–end-Permian rugose-coral record; ICS supplies only the numerical stage conversion.
+      confidence: medium
+      claimIds:
+        - claim:taxon:rugosa:range-boundary-rc50
+      referenceLocators:
+        - referenceId: oliver-1996-paleozoic-corals
+          locator: p. 107 Abstract; pp. 107–110; Middle Ordovician to end-Permian Rugosa synthesis
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical boundaries
+      evidenceLevel: literature-synthesized

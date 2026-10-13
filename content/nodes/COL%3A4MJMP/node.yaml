@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis restrepoi
+  displayName: Pristimantis restrepoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJMP
+  sourceIndexes:
+    - name:
+        en: Pristimantis restrepoi
+        zh: Pristimantis restrepoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJMP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/43
+            queryName: Pristimantis restrepoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/23
+            queryName: Eleutherodactylus restrepoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b607bdfdc3
+      - s-1cb64b2217
+      - s-802f2d42ee
+      - s-38b906f7ec
+      - s-2842c41ab1
+      - s-190d86f8c1
+      - s-fca32d7a72
+    zh:
+      - s-fc5139bffd
+      - s-2441e987fc
+      - s-e21ae1083b
+      - s-21113b7555
+      - s-5a3e2651f5
+      - s-5a2c62858c
+      - s-2dba3c1cfd

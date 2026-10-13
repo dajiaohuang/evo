@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scotobleps
+  displayName: Scotobleps
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/644VH
+  sourceIndexes:
+    - name:
+        en: Scotobleps
+        zh: Scotobleps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 644VH
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/256
+            queryName: Scotobleps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f9c04e7ef6
+      - s-10aafec933
+      - s-42bd03cd20
+      - s-a35dd04792
+      - s-4851f4d233
+      - s-bad8f48d62
+      - s-6de28b5feb
+      - s-db544ce186
+      - s-65724e1969
+      - s-a6c0fd53ce
+      - s-27fc68ce94
+      - s-3ab65ea1fd
+      - s-5bef6a14c3
+      - s-785342efca
+    zh:
+      - s-490a661545
+      - s-28d0517ea5
+      - s-acdcbe1878
+      - s-4e884ba8c6
+      - s-8bb4def571
+      - s-bd44caef8d
+      - s-75c4c0b8ad
+      - s-464e71f8bf
+      - s-de6f0535cd
+      - s-68b823df69
+      - s-7a02458391
+      - s-018cc1081b
+      - s-701205c637
+      - s-6ae64ff821

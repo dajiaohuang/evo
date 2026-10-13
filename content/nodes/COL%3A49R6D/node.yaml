@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Onychodactylus japonicus
+  displayName: Onychodactylus japonicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49R6D
+  sourceIndexes:
+    - name:
+        en: Onychodactylus japonicus
+        zh: Onychodactylus japonicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 49R6D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/157
+            queryName: Onychodactylus japonicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 37
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/289
+            queryName: Salamandra japonica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 47
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/290
+            queryName: Lacerta japonica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/291
+            queryName: Lacerta thunbergii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/292
+            queryName: Salamandra japonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/293
+            queryName: Molge striata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/294
+            queryName: Salamandra unguiculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/295
+            queryName: Onychodactylus schlegeli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ab1e07790
+      - s-628474213d
+      - s-36deaff315
+      - s-59dd35eefe
+      - s-0b1d70a963
+      - s-ba99775e84
+      - s-3198fb0d9b
+      - s-aadfd2f8b9
+      - s-d7e274b7e9
+    zh:
+      - s-28f465cd15
+      - s-002e6e4768
+      - s-2d00e7d6ee
+      - s-9f85e38328
+      - s-7d990febae
+      - s-1e179f4bf9
+      - s-23e20abba8
+      - s-1f51615e58
+      - s-415f3c1ca6

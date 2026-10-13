@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus ayarzaguenai
+  displayName: Anomaloglossus ayarzaguenai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66V4J
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus ayarzaguenai
+        zh: Anomaloglossus ayarzaguenai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66V4J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/2
+            queryName: Anomaloglossus ayarzaguenai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/59
+            queryName: Colostethus ayarzaguenai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b467df4915
+      - s-202d3f319d
+      - s-0cc4b8e716
+      - s-a077c98c77
+      - s-b1dc810fc7
+      - s-22a85b399d
+    zh:
+      - s-8b7eba1829
+      - s-77070a5176
+      - s-3ba5e09081
+      - s-ad7ae75fdf
+      - s-95e5883166
+      - s-9f52565848

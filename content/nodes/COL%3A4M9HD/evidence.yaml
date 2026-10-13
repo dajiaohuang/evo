@@ -1,0 +1,318 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Praslinia cooperi Boulenger, 1909
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Praslinia cooperi
+      zh: Praslinia cooperi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-36fde04f47
+            part: title
+          zh:
+            page: zh
+            section: s-3e10f78721
+            part: title
+        text:
+          en:
+            page: en
+            section: s-36fde04f47
+            part: body
+          zh:
+            page: zh
+            section: s-3e10f78721
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8295e23b2b
+            part: title
+          zh:
+            page: zh
+            section: s-1fe7e20b17
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8295e23b2b
+            part: body
+          zh:
+            page: zh
+            section: s-1fe7e20b17
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d5363ea799
+            part: title
+          zh:
+            page: zh
+            section: s-91cbb1c32d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - caeciliantraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-d5363ea799
+            part: body
+          zh:
+            page: zh
+            section: s-91cbb1c32d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-546c970a45bb92e107be4fe5747dd99f
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-0cec87a3dddfded9d80fac9b
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e96df42d41
+            part: title
+          zh:
+            page: zh
+            section: s-f61b500e76
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-e96df42d41
+            part: body
+          zh:
+            page: zh
+            section: s-f61b500e76
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a30f4abd43
+            part: title
+          zh:
+            page: zh
+            section: s-184d321d32
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-a30f4abd43
+            part: body
+          zh:
+            page: zh
+            section: s-184d321d32
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-d63d2fecb5
+            part: title
+          zh:
+            page: zh
+            section: s-1551359a2f
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-d63d2fecb5
+            part: body
+          zh:
+            page: zh
+            section: s-1551359a2f
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6042e950e7
+            part: title
+          zh:
+            page: zh
+            section: s-a0091fb8c6
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-6042e950e7
+            part: body
+          zh:
+            page: zh
+            section: s-a0091fb8c6
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en:
+            page: en
+            section: s-e5473db267
+            part: title
+          zh:
+            page: zh
+            section: s-ac1def993a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e5473db267
+            part: body
+          zh:
+            page: zh
+            section: s-ac1def993a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Praslinia cooperi
+          url: https://www.checklistbank.org/dataset/316115/taxon/4M9HD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 92; Individual level data rows 1017, 1018; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6688; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6683 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e8355c7be7
+        part: body
+      zh:
+        page: zh
+        section: s-beea02be7d
+        part: body
+    additionalTraitSources:
+      - kind: caecilian-traits-reader
+        path: content/nodes/local-0cec87a3dddfded9d80fac9b
+        scientificName: Praslinia cooperi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 5

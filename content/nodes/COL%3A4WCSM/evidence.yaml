@@ -1,0 +1,269 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Selago atherstonei Rolfe
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4WCSM, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4WCSM; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4WCSM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4WCSM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001137833-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4WCSM / WFO wfo-0001137833
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 2
+        usage:
+          locator: Selago atherstonei Rolfe account; archive rows 3450 (Morphology), 15744 (Habitat), source identifier 11118.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_10810_0
+        referenceId: ref-a6b1e281-a9fe-82d0-a086-f53ea631080a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Selago atherstonei Rolfe account; archive rows 46627 (Diagnostic), source identifier 10810.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Herb, up to 400 mm tall. Stems pubescent. Leaves lanceolate or oblong-lanceolate. Heads sessile, dense, not solitary, terminal and lateral at summit of branches. Flowers white or brick-pink.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Morphology row 3450; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: "Among its close allies, the distinguishing features of S. atherstonei are its stems clad in simple acute patent hairs often underlain by minute glandular ones, short hairy fascicled leaves in which only the midrib is clearly visible, bracts scarcely longer than the calyx, calyx 2-3 mm long. In his key to the species of Selago, Rolfe (1901) distinguished S. muddiiirom S. atherstonei by 'heads solitary' versus 'heads not solitary'. The solitude of the heads depends on the age of the stem carrying the inflorescence: in young stems such as those sprouting anew from the caudex, heads are initially solitary, but subsequent branching eventually produces loosely panicled heads. Only S. procera has stems with patent hairs like those of S. atherstonei. It is easily distinguished by its much larger primary leaves with the 3-5 main veins clearly visible, its large profusely branched panicle, at least the lowermost bracts in each raceme far exceeding the calyx, and often longer calyx (3-4.4 mm). The area of S. atherstonei lies wholly within that of S. procera. Selago atherstonei is very closely allied to S. lydenburgensis with which it may hybridize."
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_10810_0
+            locator: "SANBI/WFO archive Diagnostic row 46627; source 10810.0; publication: Hilliard, OM. 1999. The Tribe Selagineae (Scrophulariaceae). Royal Botanic Garden, Edinburgh. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mountain grassland.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Habitat row 15744; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Selago atherstonei Rolfe
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Selago atherstonei
+      zh: Selago atherstonei
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4WCSM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4WCSM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001137833-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4WCSM / WFO wfo-0001137833
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 2
+        usage:
+          locator: Selago atherstonei Rolfe account; archive rows 3450 (Morphology), 15744 (Habitat), source identifier 11118.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_10810_0
+        referenceId: ref-a6b1e281-a9fe-82d0-a086-f53ea631080a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Selago atherstonei Rolfe account; archive rows 46627 (Diagnostic), source identifier 10810.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4005b158c0
+            part: title
+          zh:
+            page: zh
+            section: s-76f73a1ea4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4005b158c0
+            part: body
+          zh:
+            page: zh
+            section: s-76f73a1ea4
+            part: body
+        sourceIds:
+          - sanbi_11118_0
+        locator: "SANBI/WFO archive Morphology row 3450; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e9bf5240ef
+            part: title
+          zh:
+            page: zh
+            section: s-e9401d3e79
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e9bf5240ef
+            part: body
+          zh:
+            page: zh
+            section: s-e9401d3e79
+            part: body
+        sourceIds:
+          - sanbi_10810_0
+        locator: "SANBI/WFO archive Diagnostic row 46627; source 10810.0; publication: Hilliard, OM. 1999. The Tribe Selagineae (Scrophulariaceae). Royal Botanic Garden, Edinburgh. [All rights reserved]"
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-bfd9d7b837
+            part: title
+          zh:
+            page: zh
+            section: s-8286d8a31d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bfd9d7b837
+            part: body
+          zh:
+            page: zh
+            section: s-8286d8a31d
+            part: body
+        sourceIds:
+          - sanbi_11118_0
+        locator: "SANBI/WFO archive Habitat row 15744; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"

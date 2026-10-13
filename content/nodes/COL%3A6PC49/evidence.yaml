@@ -1,0 +1,84 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lepilemur randrianasoloi Andriaholinirina, Fausser, Roos, Zinner, Thalmann, Rabarivola, Ravaoarimanana et al., 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 兰德里亚纳索洛运动狐猴
+      en: Randrianasolo's Sportive Lemur
+    sections:
+      - topic: morphology and field description
+        text:
+          zh:
+            page: zh
+            section: s-352e311921
+            part: body
+          en:
+            page: en
+            section: s-90f6b958dc
+            part: body
+        sourceIds:
+          - andriaholinirina2017_dumerilia
+      - topic: known locality and limits
+        text:
+          zh:
+            page: zh
+            section: s-fe0ef60348
+            part: body
+          en:
+            page: en
+            section: s-c8ab736a12
+            part: body
+        sourceIds:
+          - andriaholinirina2017_dumerilia
+    sources:
+      - id: andriaholinirina2017_dumerilia
+        referenceId: ref-a95db228-0b0a-876f-a2e7-e51467fdbca2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持正式纸本更正后的有效名称、模式材料/地点、有限测量及作者列出的局部记录；不是现今分布调查。
+            en: Supports the formally printed corrected names, type material/localities, limited measurements, and stated local records; not a current range survey.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/6PC49
+          scope:
+            zh: 固定版本接受名、作者、等级与分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-2bf9990c-3387-8e39-abbd-adfd2a348d20
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅用于英文普通名标签；分类身份采用 COL26.8，中文标签为编辑翻译。
+            en: Used only for the English common-name label; taxonomy follows COL26.8 and the Chinese name is an editorial translation.
+    limitations:
+      zh:
+        page: zh
+        section: s-1edd3c848d
+        part: body
+      en:
+        page: en
+        section: s-5e77cbe00a
+        part: body

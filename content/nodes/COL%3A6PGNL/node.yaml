@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus jolyi
+  displayName: Leptodactylus jolyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PGNL
+  sourceIndexes:
+    - name:
+        en: Leptodactylus jolyi
+        zh: Leptodactylus jolyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PGNL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/395
+            queryName: Leptodactylus jolyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/332
+            queryName: Leptodactylus sertanejo
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8e73dc7403
+      - s-4b85f833ec
+      - s-dfdabe6f6d
+      - s-d9c8375757
+      - s-e94d8b3488
+      - s-f124544e59
+      - s-e25eb17b2b
+      - s-f170f37882
+      - s-4787456cd9
+      - s-cd33f2f6d4
+      - s-5428d37574
+      - s-42e2becfb9
+      - s-7c40f982cf
+      - s-b1ea945cd0
+      - s-10b767469e
+      - s-29751040d4
+      - s-3ae9f17006
+      - s-1f4ac49b46
+      - s-0d57250e3d
+      - s-0a36fa21f4
+      - s-2a5aa3d440
+      - s-4921eae3ab
+      - s-d5ff653a7e
+      - s-fcd6be7e22
+      - s-c460f8b019
+    zh:
+      - s-534bae765a
+      - s-d5eb846ff8
+      - s-6a57070d86
+      - s-a9f8524c09
+      - s-048903cf85
+      - s-c90febcf38
+      - s-3b65314a55
+      - s-3169dd5a1f
+      - s-dd89b78719
+      - s-02730f56f8
+      - s-321157ca60
+      - s-0c732599b0
+      - s-fa2d14a92e
+      - s-8180752de8
+      - s-e55cf1f238
+      - s-e550e15297
+      - s-92bf3d7be9
+      - s-16a484084b
+      - s-16e459031d
+      - s-3dc55254d0
+      - s-de2e6cd255
+      - s-841730bbb2
+      - s-106cd99102
+      - s-34a4c03757
+      - s-b35f7a2e89

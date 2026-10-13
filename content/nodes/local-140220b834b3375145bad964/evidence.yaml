@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Allobates amissibilis
+    name:
+      en: Allobates amissibilis
+      zh: Allobates amissibilis
+    sourceClassification:
+      order: Anura
+      family: Dendrobatoidea
+      genus: Allobates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9ce3594f0a
+            part: body
+          zh:
+            page: zh
+            section: s-f8757ce32f
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a8ac1107e1
+            part: body
+          zh:
+            page: zh
+            section: s-2c2ed3b5c0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 85, 86; Reference.csv rows 3446
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 85
+        values:
+          - Dendrobatoidea
+          - Allobates
+          - Allobates amissibilis
+          - M
+          - "16.9"
+          - "5.18"
+          - "5.52"
+          - "2.28"
+          - "0.94"
+          - NA
+          - "1.9"
+          - "2.14"
+          - NA
+          - "1.48"
+          - "2.78"
+          - NA
+          - NA
+          - "3.86"
+          - NA
+          - "6.54"
+          - NA
+          - "7.88"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.16"
+          - "2.86"
+          - "3.9"
+          - "2.42"
+          - NA
+          - NA
+          - "0.42"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.62"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 86
+        values:
+          - Dendrobatoidea
+          - Allobates
+          - Allobates amissibilis
+          - F
+          - "17.8"
+          - "5.2"
+          - "5.8"
+          - "2.4"
+          - "1"
+          - NA
+          - "2"
+          - "2.2"
+          - NA
+          - "1.7"
+          - "2.9"
+          - NA
+          - NA
+          - "3.9"
+          - NA
+          - "6.7"
+          - NA
+          - "8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - "2.7"
+          - "3.8"
+          - "2.3"
+          - NA
+          - NA
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3446
+        values:
+          - Anura
+          - Allobates_amissibilis
+          - "Kok, P. J., Hölting, M., & Ernst, R. (2013). A third microendemic to the Iwokrama Mountains of central Guyana: a new “cryptic” species of Allobates Zimmerman and Zimmerman, 1988 (Anura: Aromobatidae). Organisms Diversity & Evolution, 13(4), 621-638. https://doi.org/10.1007/s13127-013-0144-4 "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - FLL
+      - FL
+      - TL
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

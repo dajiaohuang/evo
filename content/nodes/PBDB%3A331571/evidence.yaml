@@ -1,0 +1,293 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Latonia ragei
+    rank: species
+    sourceTaxonId: txn:331571
+    name:
+      en: Latonia ragei
+      zh: Latonia ragei
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-436587b15d
+            part: body
+          zh:
+            page: zh
+            section: s-ff2448f422
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 11 PBDB occurrence rows and collection fields
+          zh: 11 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-83da2387ff
+            part: body
+          zh:
+            page: zh
+            section: s-f3e471e05b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Latonia ragei
+          zh: Latonia ragei 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-1e47b06940
+            part: body
+          zh:
+            page: zh
+            section: s-0788b6f129
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:331571; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: S. Hossini. 1993. A new species of Latonia (Anura, Discoglossidae) from the lower Miocene of France. Amphibia-Reptilia 14:237-245
+    occurrenceEvidence:
+      - occurrenceId: occ:1089635
+        collectionId: col:136919
+        acceptedTaxonId: txn:331571
+        identifiedName: Latonia aff. ragei
+        taxonomicDifference: null
+        referenceId: ref:43777
+        bibliography: J.-C. Rage and S. Bailon. 2005. Amphibians and squamate reptiles from the late early Miocene (MN 4) of Béon 1 (Montréal-du-Gers, southwestern France). Geodiversitas 27(3):413-441
+        locality:
+          countryCode: FR
+          stateProvince: Midi-Pyrenees
+          county: Gers
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 16.9
+        youngerAgeMa: 15.98
+      - occurrenceId: occ:1091801
+        collectionId: col:48325
+        acceptedTaxonId: txn:331571
+        taxonomicDifference: null
+        referenceId: ref:43885
+        bibliography: R. Böttcher, E. P. J. Heizmann, and M. W. Rasser, R. Ziegler. 2009. Biostratigraphy and palaeoecology of a Middle Miocene (Karpathian, MN 5) fauna from the northern margin of the North Alpine Foreland Basin (Oggenhausen 2, SW' Germany). Neues Jahrbuch für Geologie und Paläontologie, Abhandlungen 254(1/2):237-260
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Heidenheim
+        stratigraphy:
+          group: Molasse
+          formation: Upper Freshwater Molasse
+          member: null
+        olderAgeMa: 15.98
+        youngerAgeMa: 13.82
+      - occurrenceId: occ:1302380
+        collectionId: col:174065
+        acceptedTaxonId: txn:331571
+        taxonomicDifference: null
+        referenceId: ref:56762
+        bibliography: M. Böhme. 2002. Lower Vertebrates (Teleostei, Amphibia, Sauria) from the Karpatian of the Korneuburg Basin - Paleoecological, environmental and paleoclimatical implications. Beiträge Paläontologie 27:339-353
+        locality:
+          countryCode: AT
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Laa
+          member: null
+        olderAgeMa: 15.98
+        youngerAgeMa: 13.82
+      - occurrenceId: occ:1302392
+        collectionId: col:174066
+        acceptedTaxonId: txn:331571
+        taxonomicDifference: null
+        referenceId: ref:56762
+        bibliography: M. Böhme. 2002. Lower Vertebrates (Teleostei, Amphibia, Sauria) from the Karpatian of the Korneuburg Basin - Paleoecological, environmental and paleoclimatical implications. Beiträge Paläontologie 27:339-353
+        locality:
+          countryCode: AT
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Laa
+          member: null
+        olderAgeMa: 15.98
+        youngerAgeMa: 13.82
+      - occurrenceId: occ:1302396
+        collectionId: col:174067
+        acceptedTaxonId: txn:331571
+        taxonomicDifference: null
+        referenceId: ref:56762
+        bibliography: M. Böhme. 2002. Lower Vertebrates (Teleostei, Amphibia, Sauria) from the Karpatian of the Korneuburg Basin - Paleoecological, environmental and paleoclimatical implications. Beiträge Paläontologie 27:339-353
+        locality:
+          countryCode: AT
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Laa
+          member: null
+        olderAgeMa: 15.98
+        youngerAgeMa: 13.82
+      - occurrenceId: occ:1304479
+        collectionId: col:136755
+        acceptedTaxonId: txn:331571
+        identifiedName: Latonia ragei n. sp.
+        taxonomicDifference: null
+        referenceId: ref:56985
+        bibliography: S. Hossini. 1993. A new species of Latonia (Anura, Discoglossidae) from the lower Miocene of France. Amphibia-Reptilia 14:237-245
+        locality:
+          countryCode: FR
+          stateProvince: Aquitaine
+          county: Lot-et-Garonne
+        stratigraphy:
+          group: null
+          formation: Agenais Limestone
+          member: null
+        olderAgeMa: 22.4
+        youngerAgeMa: 20
+      - occurrenceId: occ:1304480
+        collectionId: col:125333
+        acceptedTaxonId: txn:331571
+        taxonomicDifference: null
+        referenceId: ref:56985
+        bibliography: S. Hossini. 1993. A new species of Latonia (Anura, Discoglossidae) from the lower Miocene of France. Amphibia-Reptilia 14:237-245
+        locality:
+          countryCode: FR
+          stateProvince: Auvergne
+          county: Allier
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 23.04
+        youngerAgeMa: 20.45
+      - occurrenceId: occ:1469275
+        collectionId: col:37789
+        acceptedTaxonId: txn:331571
+        taxonomicDifference: null
+        referenceId: ref:70425
+        bibliography: "P. M. Tempfer. 2005. The Herpetofauna (Amphibia: Caudata, Anura; Reptilia: Sclerogiossa) of the Upper Miocene Locality Kohfidisch (Burgenland, Austria). Beiträge zur Paläontologie von Österreich 29:145-253"
+        locality:
+          countryCode: AT
+          stateProvince: Burgenland
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 8.725
+        youngerAgeMa: 7.9
+      - occurrenceId: occ:1663346
+        collectionId: col:31907
+        acceptedTaxonId: txn:331571
+        identifiedName: Latonia cf. ragei
+        taxonomicDifference: null
+        referenceId: ref:89503
+        bibliography: G. Georgalis, A. Villa, and M. Ivanov, M. Delfino. 2024. New diverse amphibian and reptile assemblages from the late Neogene of northern Greece provide novel insights into the emergence of extant herpetofaunas of the southern Balkans. Swiss Journal of Palaeontology 143(34):1-91
+        locality:
+          countryCode: GR
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Spilia
+          member: null
+        olderAgeMa: 5.09
+        youngerAgeMa: 3.55
+      - occurrenceId: occ:1663354
+        collectionId: col:31229
+        acceptedTaxonId: txn:331571
+        identifiedName: Latonia cf. ragei
+        taxonomicDifference: null
+        referenceId: ref:89503
+        bibliography: G. Georgalis, A. Villa, and M. Ivanov, M. Delfino. 2024. New diverse amphibian and reptile assemblages from the late Neogene of northern Greece provide novel insights into the emergence of extant herpetofaunas of the southern Balkans. Swiss Journal of Palaeontology 143(34):1-91
+        locality:
+          countryCode: GR
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Spilia
+          member: null
+        olderAgeMa: 5.09
+        youngerAgeMa: 3.55
+      - occurrenceId: occ:1663363
+        collectionId: col:31900
+        acceptedTaxonId: txn:331571
+        identifiedName: Latonia cf. ragei
+        taxonomicDifference: null
+        referenceId: ref:89503
+        bibliography: G. Georgalis, A. Villa, and M. Ivanov, M. Delfino. 2024. New diverse amphibian and reptile assemblages from the late Neogene of northern Greece provide novel insights into the emergence of extant herpetofaunas of the southern Balkans. Swiss Journal of Palaeontology 143(34):1-91
+        locality:
+          countryCode: GR
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Spilia
+          member: null
+        olderAgeMa: 5.09
+        youngerAgeMa: 3.55
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Latonia ragei
+          zh: Latonia ragei 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-1e47b06940
+            part: body
+          zh:
+            page: zh
+            section: s-0788b6f129
+            part: body
+        sourceIds: []

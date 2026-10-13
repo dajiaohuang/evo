@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis sumatranus
+  displayName: Ichthyophis sumatranus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTRW
+  sourceIndexes:
+    - name:
+        en: Ichthyophis sumatranus
+        zh: Ichthyophis sumatranus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTRW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/427
+            queryName: Ichthyophis sumatranus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93d45f3ff8
+      - s-b196b8033c
+      - s-78983783b9
+      - s-06151ab9a1
+      - s-a86ae700ba
+      - s-cb14f6b724
+      - s-bf3c18f320
+      - s-cd10d33927
+      - s-8e28329714
+      - s-69f5ae36b7
+      - s-9b21b922f2
+    zh:
+      - s-c1a9fa2250
+      - s-df7a63f702
+      - s-8d5d147a32
+      - s-54f93f7067
+      - s-958925f482
+      - s-012022c5ab
+      - s-79bf018b2a
+      - s-be5ce915bf
+      - s-047de8ca2d
+      - s-81959783d0
+      - s-c69fc8b9c7

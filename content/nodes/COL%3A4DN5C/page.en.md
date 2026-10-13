@@ -1,0 +1,3 @@
+## Leaflets, flowers and fruit in the source record {#s-71789e633b}
+The Brazilian Flora 2020 entry describes alternate leaves with rounded leaflet tips and auriculate bases; both leaflet surfaces are recorded as smooth. It also records spherical axillary inflorescences on erect peduncles. The flowers have fused sepals and petals, and the yellow anthers are dorsifixed with stalked glands. Fertile stamens are listed as cream-coloured, while staminodes and nectaries are marked absent. The fruit is indehiscent, glabrous and woody, and the habitat field says terrestrial. These are regional dataset fields; they do not establish variation or a complete range.
+

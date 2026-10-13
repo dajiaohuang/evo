@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis pulcher
+  displayName: Guibemantis pulcher
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3HKMG
+  sourceIndexes:
+    - name:
+        en: Guibemantis pulcher
+        zh: Guibemantis pulcher
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3HKMG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/224
+            queryName: Guibemantis pulcher
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/199
+            queryName: Mantidactylus pulcher
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/146
+            queryName: Rhacophorus pulcher
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/147
+            queryName: Gephyromantis pulcher
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b3e3d04855
+      - s-708e43f7a9
+      - s-ba770a6c68
+      - s-a035a98364
+      - s-e1d981595f
+      - s-23405d32cf
+      - s-9a71008e9f
+      - s-cff06afc96
+      - s-aa052a7e83
+      - s-ad21c38d57
+      - s-4b30293b37
+      - s-14a461705e
+      - s-1b81c2032a
+    zh:
+      - s-fa272d6d7c
+      - s-da99c1bf3a
+      - s-3c736e06c7
+      - s-8471f7711b
+      - s-3ea9b40200
+      - s-d8f79731b3
+      - s-afc863d48c
+      - s-97db1785d1
+      - s-3b70cfb6d3
+      - s-7d3e7601f4
+      - s-37627374f4
+      - s-69b70908c4
+      - s-7e6dfb1e7b

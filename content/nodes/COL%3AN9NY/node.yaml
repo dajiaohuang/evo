@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Breviceps adspersus
+  displayName: Breviceps adspersus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N9NY
+  sourceIndexes:
+    - name:
+        en: Breviceps adspersus
+        zh: Breviceps adspersus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N9NY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/455
+            queryName: Breviceps adspersus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/139
+            queryName: Breviceps pretoriensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/328
+            queryName: Breviceps mossambicus occidentalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/329
+            queryName: Breviceps adspersus adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/330
+            queryName: Breviceps mossambicus adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ceaf2d9e66
+      - s-fa1301356d
+      - s-bdb6ca9b89
+      - s-edd71f6bad
+      - s-519d3d0e99
+      - s-730bb192b8
+      - s-c1480e0bdb
+      - s-d481bac44b
+      - s-ced20adae4
+      - s-21c78e49d3
+      - s-4f9b0f87c7
+      - s-5b82f3bdca
+      - s-5dc31b732f
+      - s-6b290e3971
+      - s-3f51ba3c6e
+      - s-98ad6e28ec
+      - s-811220fe34
+    zh:
+      - s-311901b1d7
+      - s-b8dcdb6f33
+      - s-97cec68bed
+      - s-0f8effb393
+      - s-f9c125cae0
+      - s-2c7d98b7e9
+      - s-6eb693b046
+      - s-35e77aed73
+      - s-e70f52057f
+      - s-efe82e750d
+      - s-950dd09349
+      - s-68e70b7e69
+      - s-790c9c6321
+      - s-139781dc9e
+      - s-9d8018e175
+      - s-2b358c6b99
+      - s-377f2b1fbe

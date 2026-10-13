@@ -1,0 +1,3 @@
+## ## Retrorse prickles and globose heads {#s-e8c9a5e7a3}
+The Brazilian Flora 2020 entry lists pubescent or hispid stems with spreading simple hairs and unbranched, thread-like setae; branched setae and glandular hairs are absent. Prickles are retrorse, either scattered or between nodes, and short shoots are absent. The stipules persist; extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose, but bract form is unknown. The flowers have four perianth parts, a membranous calyx without lobes, and hairless corolla lobes with one to three veins. The androecium is isostemonous, with pink filaments. This regional entry does not quantify species-wide variation.
+

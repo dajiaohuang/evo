@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates mayorgai
+  displayName: Aromobates mayorgai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GTRQ
+  sourceIndexes:
+    - name:
+        en: Aromobates mayorgai
+        zh: Aromobates mayorgai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GTRQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/122
+            queryName: Aromobates mayorgai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/230
+            queryName: Nephelobates mayorgai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/159
+            queryName: Colostethus mayorgai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-63503b9a60
+      - s-6138aee422
+      - s-cb24525ca1
+      - s-e1ddb19126
+      - s-7f58b705d7
+      - s-902cf9543e
+      - s-5a326e79d7
+      - s-f594f8d631
+      - s-d8776e8906
+      - s-667e5be190
+      - s-62c43cebc6
+      - s-78447a0076
+      - s-02fe8ed20b
+      - s-8f5e42e436
+      - s-b43be685ec
+      - s-981d0fcdbc
+      - s-ad96388a40
+    zh:
+      - s-6a2fae452b
+      - s-394089e8da
+      - s-a22d40ae31
+      - s-83250180cd
+      - s-05f5d3f045
+      - s-dea8fc334d
+      - s-2c13ecac6c
+      - s-32a30fece8
+      - s-28ea7a6e77
+      - s-73aad6bb1f
+      - s-36a5e4bfcc
+      - s-248fb642fe
+      - s-f1319298ab
+      - s-c2811ef97c
+      - s-81d8645e9c
+      - s-3147cc8c47
+      - s-37e28b5b61

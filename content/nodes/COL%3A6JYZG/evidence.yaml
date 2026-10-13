@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Geissorhiza demissa Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6JYZG, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6JYZG; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6JYZG
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6JYZG
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000917872-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6JYZG / WFO wfo-0000917872
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-375142dc-c61a-8d8c-ac7c-81b393e51f3e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Geissorhiza demissa Goldblatt & J.C.Manning account; SANBI/WFO archive rows 6832 (Morphology), 29096 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Geissorhiza demissa Goldblatt & J.C.Manning account; SANBI/WFO archive rows 94725 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Delicate, cormous geophyte to 12 cm, tunics woody, imbricate, stem puberulous below, rarely branched. Leaves linear-falcate, margins and central vein narrowly winged, smooth. Flowers in a 1- or 2-flowered spike, white, veins tinged blue below, outer tepals flushed blue outside, stamens symmetrical, filaments unequal.
+            textZh: Geissorhiza demissa Goldblatt & J.C.Manning 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Morphology row 6832; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Closely allied to the common and widespread Geissorhiza aspera, G. demissa is a smaller plant rarely reaching 120 mm in height. It has the plane leaves with margins and main vein only lightly thickened, puberulous stem, and unequal stamens consistent with G. aspera but the smaller flowers have tepals only 7-10 mm long and anthers 2-3 mm long. The variable G. aspera typically has dark blue to violet flowers although northern populations from the Cederberg and Gifberg have white or bicoloured white and blue flowers. Geissorhiza aspera is typically larger in all respects and almost invariably branched, with leaf blades 2-7 mm wide, 2- to 7-flowered spikes, and stems that are puberulous up to the base of the spike, even in the northern, white-flowered populations. The unbranched stems of G. demissa are subglabrous below the spike and the leaves are never more than 1 mm wide. The flowers of the two species are similar in shape, but those of G. aspera are larger and nodding with horizontally oriented stamens and tepals 11-15 x 4-6 mm and anthers 2-5 mm long.
+            textZh: SANBI 条目提供了 Geissorhiza demissa Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94725; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Seasonally damp sheltered sites on rocky slopes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Seasonally damp sheltered sites on rocky slopes.
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Habitat row 29096; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-760d4e20c8
+        title:
+          en:
+            page: en
+            section: s-1a60659a90
+            part: title
+          zh:
+            page: zh
+            section: s-4d1074f9ca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1a60659a90
+            part: body
+          zh:
+            page: zh
+            section: s-4d1074f9ca
+            part: body
+        sourceIds:
+          - sanbi_13878_0
+      - id: page-46432bf31c
+        title:
+          en:
+            page: en
+            section: s-643f32b16c
+            part: title
+          zh:
+            page: zh
+            section: s-1a9606f2f5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-643f32b16c
+            part: body
+          zh:
+            page: zh
+            section: s-1a9606f2f5
+            part: body
+        sourceIds:
+          - sanbi_18638_0
+      - id: page-32ab622d19
+        title:
+          en:
+            page: en
+            section: s-fb4f2f29e2
+            part: title
+          zh:
+            page: zh
+            section: s-d7f9ad59de
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fb4f2f29e2
+            part: body
+          zh:
+            page: zh
+            section: s-d7f9ad59de
+            part: body
+        sourceIds:
+          - sanbi_13878_0

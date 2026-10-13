@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton melipona
+  displayName: Chiropterotriton melipona
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MFQ4Y
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton melipona
+        zh: Chiropterotriton melipona
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MFQ4Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/300
+            queryName: Chiropterotriton melipona
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e730c09a0f
+      - s-ac5db53f4c
+      - s-d16c843e12
+      - s-eea39c7a27
+      - s-3ebc2b4790
+      - s-bf9c17b099
+      - s-789bb716b4
+      - s-50d2e5413a
+      - s-4e13300980
+      - s-13064cd099
+      - s-99eba7e23e
+      - s-19589eec79
+      - s-dc635a65c7
+    zh:
+      - s-791e28fe6a
+      - s-e430b9c335
+      - s-212d98ac40
+      - s-b3cbd5beca
+      - s-da67758328
+      - s-f840cfbdec
+      - s-a9f77c514d
+      - s-0bac3fb535
+      - s-edb7312b44
+      - s-f4bbfa69a8
+      - s-4c899167e1
+      - s-2c4dba90da
+      - s-d8a13d8b32

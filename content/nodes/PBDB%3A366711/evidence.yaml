@@ -1,0 +1,190 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Canis mosbachensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Canis mosbachensis
+      en: Canis mosbachensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-18f99dcc85
+            part: body
+          en:
+            page: en
+            section: s-b88c922c02
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-106f7ff7eb
+            part: body
+          en:
+            page: en
+            section: s-11dc130fd4
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4f2952e4a5
+            part: body
+          en:
+            page: en
+            section: s-b038942310
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-09fb4fcb02
+            part: body
+          en:
+            page: en
+            section: s-2c82a6c556
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4ead9c71da
+            part: body
+          en:
+            page: en
+            section: s-39ea428f64
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Canis mosbachensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=366711&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:366711; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:366711
+          selectedOccurrenceIds:
+            - occ:356272
+            - occ:357127
+            - occ:357185
+            - occ:357217
+            - occ:360258
+            - occ:368589
+            - occ:369171
+            - occ:369192
+            - occ:374161
+            - occ:375632
+            - occ:489590
+            - occ:1420477
+            - occ:1420481
+            - occ:1420771
+            - occ:1425147
+            - occ:1708182
+          selectedCollectionIds:
+            - col:33974
+            - col:33975
+            - col:34009
+            - col:34010
+            - col:34127
+            - col:34872
+            - col:34920
+            - col:34925
+            - col:35369
+            - col:35457
+            - col:49239
+            - col:197075
+            - col:40988
+            - col:197163
+            - col:197939
+            - col:242160
+          sourceReferenceIds:
+            - ref:8655
+            - ref:8650
+            - ref:9345
+            - ref:9534
+            - ref:85451
+            - ref:67164
+            - ref:67165
+            - ref:67193
+            - ref:67460
+            - ref:92927
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e82f2e8241
+        part: body
+      en:
+        page: en
+        section: s-b798004d3c
+        part: body

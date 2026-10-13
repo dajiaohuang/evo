@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-fb65b8fce0
+      part: title
+    titleZh:
+      page: zh
+      section: s-ef8aeb8ba3
+      part: title
+    category: morphology
+    startAge: 208.5
+    endAge: 201.3
+    regions:
+      - "'Siltstone member', Chinle Group, Ghost Ranch, New Mexico, USA"
+    clades:
+      - Effigia okeeffeae
+      - Suchia
+    summary:
+      page: en
+      section: s-fb65b8fce0
+      part: body
+    summaryZh:
+      page: zh
+      section: s-ef8aeb8ba3
+      part: body
+    claimIds:
+      - claim:event:effigia-convergent-body-plan
+    evidenceItems:
+      - statement: AMNH FR 30587 preserves the skull and much of the postcranium; the reported matrix places Effigia among suchians rather than theropod dinosaurs.
+        relation: supports
+        claimIds:
+          - claim:event:effigia-convergent-body-plan
+        referenceLinks:
+          - referenceId: nesbitt-norell-2006-effigia-convergence
+            relation: supports
+            pages: 1045–1048
+            figure: Figures 1–2
+            quoteLocator: Holotype; Description; Phylogenetic analysis
+    uncertaintyItems:
+      - statement: Convergence is a comparative and phylogenetic interpretation; the specimen does not directly measure gait, diet or ecological equivalence and is not a crocodylomorph ancestor.
+        relation: contextualizes
+        claimIds:
+          - claim:event:effigia-convergent-body-plan
+        referenceLinks:
+          - referenceId: nesbitt-norell-2006-effigia-convergence
+            relation: supports
+            pages: 1045–1048
+            figure: Figures 1–2
+            quoteLocator: Holotype; Description; Phylogenetic analysis
+  claims:
+    - subjectId: event:effigia-convergent-body-plan
+      claimKind: scientific
+      claimType: topology
+      statement: AMNH FR 30587 preserves a nearly complete edentulous, gracile archosaur skeleton that the published character analysis places within Suchia; resemblance to ornithomimid theropods is interpreted as convergence, not shared ancestry or identical ecology.
+      confidence: medium
+      confidenceRationale: The named skeleton and scored anatomy are direct evidence. Medium confidence keeps the matrix placement and convergence diagnosis distinct from unmeasured locomotion, diet and ancestry.
+      referenceLinks:
+        - referenceId: nesbitt-norell-2006-effigia-convergence
+          relation: supports
+          pages: 1045–1048
+          figure: Figures 1–2
+          quoteLocator: Holotype; Description; Phylogenetic analysis
+  claim-rationales.zh:
+    - 具名骨架和评分解剖是直接证据。中等置信度把矩阵位置和趋同诊断与未测量的运动、食性及祖先关系分开。
+  claim-statements.zh:
+    - AMNH FR 30587 保存了近完整、无齿且体态纤细的主龙类骨架；论文的性状分析将其置于伪鳄类，和似鸟龙类兽脚类的相似性被解释为趋同，而非共同直系祖先或相同生态。

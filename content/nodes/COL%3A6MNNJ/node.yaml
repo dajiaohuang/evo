@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes vanzolinii
+  displayName: Hylodes vanzolinii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNNJ
+  sourceIndexes:
+    - name:
+        en: Hylodes vanzolinii
+        zh: Hylodes vanzolinii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNNJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/12
+            queryName: Hylodes vanzolinii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-10d88b3d4c
+      - s-a2d5b3b214
+      - s-eecf258ff1
+      - s-826424ac9a
+      - s-ba10be18f6
+      - s-1bcc0a13e4
+      - s-fa11a48761
+      - s-40ea4ab56c
+      - s-522a7ebd81
+    zh:
+      - s-240caee1a5
+      - s-f145e210ed
+      - s-4e0dceb63e
+      - s-40e954174a
+      - s-7340f7c01b
+      - s-50a3f00465
+      - s-31fa7b789a
+      - s-4cf105f600
+      - s-551238f541

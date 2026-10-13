@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis parvillus
+  displayName: Pristimantis parvillus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJKQ
+  sourceIndexes:
+    - name:
+        en: Pristimantis parvillus
+        zh: Pristimantis parvillus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJKQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/475
+            queryName: Pristimantis parvillus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/475
+            queryName: Eleutherodactylus parvillus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd993c3a50
+      - s-74b6a9b3d9
+      - s-0f748591fd
+      - s-45b69d0deb
+      - s-236a0e6e2e
+      - s-366bac8638
+      - s-57fc57d0a2
+      - s-35bf33892d
+      - s-9cbf6f0e69
+    zh:
+      - s-02ee0bba18
+      - s-7cd9fea66a
+      - s-29db22b8e7
+      - s-6898ba6c96
+      - s-92ed02075e
+      - s-7b4862af21
+      - s-095da7c336
+      - s-f518d07e72
+      - s-c4f460b614

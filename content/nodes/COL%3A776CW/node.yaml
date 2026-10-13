@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Petropedetes juliawurstnerae
+  displayName: Petropedetes juliawurstnerae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/776CW
+  sourceIndexes:
+    - name:
+        en: Petropedetes juliawurstnerae
+        zh: Petropedetes juliawurstnerae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 776CW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/9
+            queryName: Petropedetes juliawurstnerae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c0e30da421
+      - s-a6dadd9add
+      - s-3c8ca7077a
+      - s-b318d0eb58
+      - s-74848255ec
+      - s-0f215b101c
+      - s-a13f218cd3
+    zh:
+      - s-e10b6ba233
+      - s-d4f73b6228
+      - s-37fa4e40bc
+      - s-8a0999dadc
+      - s-5ce0bcf94c
+      - s-5465c79551
+      - s-b5ce8c6748

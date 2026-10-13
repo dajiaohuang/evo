@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus deccanensis
+  displayName: Nyctibatrachus deccanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485FZ
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus deccanensis
+        zh: Nyctibatrachus deccanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485FZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/343
+            queryName: Nyctibatrachus deccanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/359
+            queryName: Nyctibatrachus sholai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ecd9469b5b
+      - s-63b9abf733
+      - s-af30697526
+      - s-7f91c3dbdd
+      - s-9c52ae03b9
+      - s-ea5c1c8357
+      - s-fffac874e3
+      - s-b007d61b02
+      - s-dde449b78b
+    zh:
+      - s-614bcb6a4b
+      - s-e97eb2f611
+      - s-c112a82363
+      - s-72de3e7be0
+      - s-89f7953d78
+      - s-44bd032b9a
+      - s-893814338a
+      - s-29544f77b3
+      - s-bd8fb27a57

@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Symmetrodonta
+    rank: order
+    sourceDatasetId: null
+    name:
+      zh: Symmetrodonta
+      en: Symmetrodonta
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cc2cac7e8b
+            part: body
+          en:
+            page: en
+            section: s-151cba3057
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-78e882a115
+            part: body
+          en:
+            page: en
+            section: s-118ed42493
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Symmetrodonta
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=39862
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:39862
+          readingTargets:
+            - name: Acinacodus tagaricus
+              pbdbTaxonId: txn:216769
+              canonicalPath: content/nodes/PBDB%3A216769
+            - name: Nakunodon paikasiensis
+              pbdbTaxonId: txn:212339
+              canonicalPath: content/nodes/PBDB%3A212339
+            - name: Amphidon superstes
+              pbdbTaxonId: txn:206726
+              canonicalPath: content/nodes/PBDB%3A206726
+            - name: Amphidon aequicrurius
+              pbdbTaxonId: txn:206733
+              canonicalPath: content/nodes/PBDB%3A206733
+            - name: Trishulotherium kotaensis
+              pbdbTaxonId: txn:212338
+              canonicalPath: content/nodes/PBDB%3A212338
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d474b4658c
+        part: body
+      en:
+        page: en
+        section: s-7d96050b9a
+        part: body

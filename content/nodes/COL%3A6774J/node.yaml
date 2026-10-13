@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus beebei
+  displayName: Anomaloglossus beebei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6774J
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus beebei
+        zh: Anomaloglossus beebei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6774J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/4
+            queryName: Anomaloglossus beebei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/60
+            queryName: Colostethus beebei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/129
+            queryName: Hyloxalus beebei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 25
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3dfeec23d6
+      - s-b4ad5a82dd
+      - s-9d1a995d5c
+      - s-d60d07b7cd
+      - s-6cfcb6abd8
+      - s-7e0a88a2b2
+      - s-3cf23ed8cc
+      - s-a47df09ef9
+    zh:
+      - s-5acc3d4f04
+      - s-cd28bdf66f
+      - s-013a058657
+      - s-c0ef6b862c
+      - s-5c5a744745
+      - s-28ace83209
+      - s-d4ae33fdac
+      - s-5cf8f0d5e3

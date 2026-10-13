@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hildebrandtia macrotympanum
+  displayName: Hildebrandtia macrotympanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3LWWW
+  sourceIndexes:
+    - name:
+        en: Hildebrandtia macrotympanum
+        zh: Hildebrandtia macrotympanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3LWWW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/293
+            queryName: Hildebrandtia macrotympanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/59
+            queryName: Pyxicephalus macrotympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/60
+            queryName: Rana macrotympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/61
+            queryName: Tomopterna scorteccii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca1d41250c
+      - s-d782ac63d6
+      - s-b24bedf225
+      - s-c7087daec0
+      - s-d309651605
+      - s-b42d378d61
+      - s-d4da8683e5
+      - s-a63223d082
+      - s-9d40a9c31c
+      - s-1027dc3375
+      - s-f7a44d369d
+    zh:
+      - s-ab0a37911d
+      - s-8cf533f637
+      - s-8c78cdcc4b
+      - s-0f9bbefab4
+      - s-3bc8d70521
+      - s-67e953c27b
+      - s-69c96da793
+      - s-5485f4145a
+      - s-ae76b50f62
+      - s-7030138c46
+      - s-177b6f5e83

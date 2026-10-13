@@ -1,0 +1,13 @@
+## Read tracking samples before group ecology {#s-d0731e76d0}
+Compare the two-site group study and capture-method paper on [S. cucullatus](Sapajus_cucullatus/page.en.md): the latter collared one adult female in each of three groups, with no successful capture in the fourth. Shared sites and group backgrounds prevent treating the papers as independent additive samples. Counts of collared individuals, groups and forest sites also remain distinct.
+
+## From a receiver signal to seeing an animal {#s-3ab1cb88dd}
+Read the selection of adult females and which groups received collars, then observation days per month, equipment limits in rain and situations where animals remained unseen. Return to the two-site ecological comparison to assess which groups and periods were covered. The study used the historical subspecies name S. nigritus cucullatus; this methods route does not settle its full correspondence to the pinned COL26.8 species concept.
+
+## Overview {#s-bdc94b6c65}
+This reading path connects the six Sapajus species entries in the fixed COL26.8 roster. Begin with feeding and home-range use by crested capuchins across protected forest and cultivated plots, then compare dietary shifts among hooded capuchin groups in Paraguayan forest fragments. Continue with blond capuchins feeding in sugarcane fields and group competition, the Cerrado diet and seed trials for bearded capuchins, and the long-term Bahia landscape survey of yellow-breasted capuchins. Finish with the cucullatus capuchin’s Rio Grande do Sul occurrence compilation and two-site Misiones forest comparison, read alongside the disagreement between COL26.8, the 2020 IUCN assessment, and the 2024 species-level review. Sites, samples and questions differ; this is a selective reading route, not a genus-wide ecological average.
+
+## Scope of the evidence {#s-3347dcc413}
+Source-linked selective genus reading path;. The six-species roster is fixed to COL26.8; cited studies differ in sample, period and question and do not constitute a complete taxonomic, ecological or geographic review.
+This pass read the 2024 capture-and-collaring paper’s main methods, results and discussion, adding the design of two sites, four groups and three successfully collared adult females. Table I individual measurements, figure pixels and underlying genetic samples were not examined, and analyses were not rerun; this is not a capture or veterinary procedure guide. The “in each group” wording remains distinguished from the explicit count of three events. The study used the historical subspecies name S. nigritus cucullatus; sites and study association do not independently prove equivalence to the pinned species concept. The 84J8Q correspondence gap remains open.
+

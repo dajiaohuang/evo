@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epipedobates currulao
+  displayName: Epipedobates currulao
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V2FYC
+  sourceIndexes:
+    - name:
+        en: Epipedobates currulao
+        zh: Epipedobates currulao
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V2FYC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/374
+            queryName: Epipedobates currulao
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6e58f016a
+      - s-1d94b4a844
+      - s-a0f8101f87
+      - s-bc2f60f5a7
+      - s-76ae43d5b0
+      - s-ebb5b55902
+      - s-706e98e180
+      - s-ff566c3bda
+      - s-3e1f2b6dc0
+      - s-838952fa0b
+      - s-1152109250
+      - s-94fdd93f00
+      - s-b5a26a7eed
+      - s-3179e71093
+      - s-5a3bb56988
+    zh:
+      - s-252e4396e6
+      - s-1910bcfa5b
+      - s-21d4b16979
+      - s-e71ec22f03
+      - s-5b90de6696
+      - s-0941e43284
+      - s-85daa4f883
+      - s-58f75b869f
+      - s-3acf5b08d4
+      - s-27c013b917
+      - s-5610557b2a
+      - s-3058c42268
+      - s-7b63ef51da
+      - s-52ea7d18c5
+      - s-b4c7ede99f

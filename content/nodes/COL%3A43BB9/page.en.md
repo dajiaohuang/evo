@@ -1,0 +1,3 @@
+## *Mikania hoehnei*: five-veined leaves and interpetiolar stipules {#s-66b9bb8158}
+The Brazilian Flora 2020 regional field records opposite, egg-shaped leaves with heart-shaped bases, long tapering tips, and five strong veins from the base. A pair of interpetiolar stipules—small appendages between opposite leaf stalks—exceeds 2 mm. The leaf margins are entire or rolled under, and the lower surface may be hairless or gland-dotted. Corymb-like clusters carry stalked heads; the corolla is tubular to funnel-shaped, with glandular lobes. The fruitlets are glandular. These are alternatives listed in a regional morphology field.
+

@@ -1,0 +1,81 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Placentalia
+    commonName: Placental Mammals
+    commonNameZh: 胎盘类哺乳动物
+    rank: infraclass
+    taxonId: ""
+    firstAppearance: 100
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:placentalia
+      claimKind: scientific
+      claimType: fossil-range
+      statement: "The 100–0 Ma Placentalia route is a model envelope: a molecular analysis estimated a roughly 103 Ma deep placental split, whereas the phenomic combined analysis placed sampled crown diversification after K–Pg; neither model is a fossil FAD or ancestor observation."
+      confidence: contested
+      confidenceRationale: Both primary datasets and their model assumptions are inspectable, but they produce materially different chronologies. The rounded route deliberately exposes the model boundary instead of selecting one date as fact.
+      referenceLinks:
+        - referenceId: murphy-2001-placental-bayesian
+          relation: supports
+          pages: 2348–2351
+          figure: Figures 1–2
+          quoteLocator: Bayesian phylogeny; molecular divergence estimates; Gondwanan scenario
+        - referenceId: oleary-2013-placental-ancestor-model
+          relation: contextualizes
+          pages: 662–667
+          figure: Figures 1–2; Table 1; Tables S1–S8
+          quoteLocator: Combined phenomic–molecular analysis; ghost-lineage chronology; ancestral reconstruction
+  claim-rationales.zh:
+    - 两套一手数据及模型假设均可核查，但产生显著不同的时间框架；取整路线明确暴露模型边界，而不把任一日期当作事实。
+  claim-statements.zh:
+    - 100–0 Ma 的胎盘类路线是模型包络：分子分析估计了约 103 Ma 的深层胎盘类分裂，而表型—分子联合分析把所取样冠群辐射置于 K–Pg 之后；两种模型都不是化石首现或祖先观察。
+  ranges:
+    - entityId: placentalia
+      rangeKind: global-composite
+      taxonomicConcept: Placentalia molecular and phenomic model envelope
+      geographicScope: Globally sampled living and fossil model inputs
+      olderMa: 100
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The rounded 100 Ma display ceiling contextualizes an approximately 103 Ma molecular estimate and a conflicting post-K–Pg phenomic chronology; it is not a fossil occurrence.
+      evidenceBasis: Two primary combined-data analyses bracket substantially different model chronologies, so the route exposes model dependence instead of selecting a fossil FAD.
+      confidence: contested
+      claimIds:
+        - claim:taxon:placentalia:root-range
+      referenceLocators:
+        - referenceId: murphy-2001-placental-bayesian
+          locator: pp. 2348–2351; Figures 1–2; molecular divergence estimates
+        - referenceId: oleary-2013-placental-ancestor-model
+          locator: pp. 662–667; Figures 1–2; Table 1; Tables S1–S8
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    sections:
+      - topic: phylogeny
+        title:
+          en:
+            page: en
+            section: s-556b77f3d7
+            part: title
+          zh:
+            page: zh
+            section: s-53c149c460
+            part: title
+        sourceIds:
+          - murphy-2001-placental-bayesian
+          - oleary-2013-placental-ancestor-model
+        text:
+          en:
+            page: en
+            section: s-556b77f3d7
+            part: body
+          zh:
+            page: zh
+            section: s-53c149c460
+            part: body

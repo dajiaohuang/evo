@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus cupreuscapularis
+  displayName: Melanophryniscus cupreuscapularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9LK
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus cupreuscapularis
+        zh: Melanophryniscus cupreuscapularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9LK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/386
+            queryName: Melanophryniscus cupreuscapularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fe97e04aad
+      - s-0a0292d844
+      - s-d00eea9cdf
+      - s-d0f6e24088
+      - s-6a273b43c4
+      - s-89bc02c269
+      - s-a1f2f1b13a
+      - s-2099ecf4ec
+    zh:
+      - s-46902f9881
+      - s-a0e229b18b
+      - s-2046f194e5
+      - s-11abeaf107
+      - s-fc19c477b8
+      - s-cdc25a038e
+      - s-105901ae92
+      - s-246ab6627a

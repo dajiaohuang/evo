@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Astylosternus
+  displayName: Astylosternus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34QG
+  sourceIndexes:
+    - name:
+        en: Astylosternus
+        zh: Astylosternus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34QG
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/197
+            queryName: Astylosternus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-31424a5eb5
+      - s-34286f14f3
+      - s-705d952296
+      - s-77c0fd767a
+      - s-c02140832e
+      - s-494a321a7c
+      - s-7886f3c79d
+      - s-2d5ff60258
+      - s-734f3e4703
+      - s-867564ea78
+      - s-b6336ac997
+      - s-e052310081
+      - s-55743979dc
+      - s-7564c022da
+    zh:
+      - s-561997fdcc
+      - s-0c975376d4
+      - s-d4c915797c
+      - s-04847bba25
+      - s-3618698ed5
+      - s-95f49064cf
+      - s-6f7e5d1196
+      - s-453f303921
+      - s-5328219aae
+      - s-98804519bf
+      - s-ad9fd6319b
+      - s-a9d1670d64
+      - s-f9b45226da
+      - s-45b4dd477a

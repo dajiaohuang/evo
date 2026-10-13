@@ -1,0 +1,6 @@
+## Dense leaf hairs and flowers along one side {#s-a09a41f22f}
+A Brazilian Flora 2020 v393.147 description records star-shaped hairs on young stems. The leaves are oblong or lance-shaped, taper to a point, and have rounded bases with entire edges lacking fringe-like hairs. Three main veins begin above the base, with two faint veins just inside the margin. The underside is densely covered by star-shaped hairs, either attached directly or carried on short stalks. Flowers are arranged along one side of the cluster axis. The bell-shaped flower cup bears a persistent calyx with distinct lobes; each flower has five petals. The tissue joining the pollen sacs is prolonged, and its appendage is recorded as two lower-side lobes or one back-facing tooth. White anthers have one small pore, and the ovary is hairless. The alternatives remain as listed in the field; it does not show how they vary among plants.
+
+## A terrestrial label without a location {#s-08a57a528e}
+The separate habitat field says “terrícola,” or terrestrial. No locality, survey date or range coverage accompanies that label, and wild, cultivated, managed or fossil status is not specified. It is a category rather than a mapped or complete habitat description.
+

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes otavioi
+  displayName: Hylodes otavioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG92
+  sourceIndexes:
+    - name:
+        en: Hylodes otavioi
+        zh: Hylodes otavioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG92
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/4
+            queryName: Hylodes otavioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c4039aa748
+      - s-ee90059a37
+      - s-752e7e4270
+      - s-f95b6333ab
+      - s-e4f1174f4e
+      - s-14cdba33a7
+      - s-e2aa7d8359
+      - s-65a142820e
+      - s-c09d2eb656
+      - s-900f839bbe
+      - s-7aba76e3af
+      - s-6b9f95932b
+      - s-a8b670173e
+      - s-5d31027d7b
+      - s-5e25f5a621
+      - s-0c481ebaef
+      - s-3980a77907
+    zh:
+      - s-a66e576c7e
+      - s-fee1a256a0
+      - s-a1ff7cf0e6
+      - s-9ca7065dbb
+      - s-d495fd46f3
+      - s-5de1cafeb2
+      - s-6c106bf97a
+      - s-22b569a8a0
+      - s-446c2b3d6c
+      - s-163097a895
+      - s-2651c4ae5b
+      - s-dc04cacbcb
+      - s-6f8b6efc86
+      - s-06ec44cb20
+      - s-b8d4cf6e56
+      - s-aaec3418b4
+      - s-bc4b4ddd33

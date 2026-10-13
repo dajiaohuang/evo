@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes perere
+  displayName: Hylodes perere
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNMM
+  sourceIndexes:
+    - name:
+        en: Hylodes perere
+        zh: Hylodes perere
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNMM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/5
+            queryName: Hylodes perere
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f1f9fee067
+      - s-0112e207ee
+      - s-84efc2d17b
+      - s-4d9babf52f
+      - s-f6a959a1f4
+      - s-9d9807f110
+      - s-9300e556ff
+      - s-4effa2494a
+      - s-a941895583
+      - s-0ab137145c
+      - s-5820e6e4b0
+      - s-a63aef77f2
+      - s-ea6c0986be
+      - s-641f397316
+      - s-f38f783b3a
+      - s-b3f3386484
+      - s-5f4c5fb088
+      - s-7db406bdb0
+      - s-133486fa76
+      - s-5bab926431
+      - s-d3d3b73e4a
+      - s-42d7a16c16
+    zh:
+      - s-5e9d6d9be0
+      - s-b5628339de
+      - s-203dde244b
+      - s-0aee21f77f
+      - s-660398498b
+      - s-8d60e90314
+      - s-f286c8c4af
+      - s-6a5b5b3d6f
+      - s-8a672eb1c6
+      - s-6f61cde41c
+      - s-a6afcebe71
+      - s-b1522a323d
+      - s-579e775a26
+      - s-14973620c3
+      - s-9913fe1340
+      - s-f245d9e32c
+      - s-7a01ba0793
+      - s-43b0e41d63
+      - s-a45f6798ca
+      - s-834f48ac54
+      - s-eb8c943290
+      - s-92d0569c76

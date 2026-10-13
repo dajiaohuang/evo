@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bryophryne
+  displayName: Bryophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DNN
+  sourceIndexes:
+    - name:
+        en: Bryophryne
+        zh: Bryophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DNN
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/254
+            queryName: Bryophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 21
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-23ffa8ee50
+      - s-1869643323
+      - s-06773b466e
+      - s-343d8874b2
+      - s-e7dac1548c
+      - s-afd87349c4
+      - s-7f3ac9d12e
+      - s-bdd575d965
+    zh:
+      - s-a7c7b9caa6
+      - s-d7f674211e
+      - s-21c6ec1ffa
+      - s-0c745b7e81
+      - s-6aa99195e5
+      - s-aec81d3e7c
+      - s-9fd7dda078
+      - s-33732c555d

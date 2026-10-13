@@ -1,0 +1,230 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anteosaurus magnificus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Anteosaurus magnificus
+      en: Anteosaurus magnificus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ad105c3cfe
+            part: body
+          en:
+            page: en
+            section: s-d453481dc9
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3d39b3afd5
+            part: body
+          en:
+            page: en
+            section: s-c7623b2eab
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e7efaaf518
+            part: body
+          en:
+            page: en
+            section: s-765780e926
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c67a2f3903
+            part: body
+          en:
+            page: en
+            section: s-19d020c0eb
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-80ae5a19e5
+            part: body
+          en:
+            page: en
+            section: s-86c8b4fc7a
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Anteosaurus magnificus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=362285&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:362285; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:362285
+          selectedOccurrenceIds:
+            - occ:1340463
+            - occ:1340595
+            - occ:1428377
+            - occ:1428487
+            - occ:1428523
+            - occ:1428703
+            - occ:1428819
+            - occ:1428840
+            - occ:1428844
+            - occ:1428845
+            - occ:1428853
+            - occ:1428960
+            - occ:1428978
+            - occ:1428992
+            - occ:1429001
+          selectedCollectionIds:
+            - col:86388
+            - col:176355
+            - col:93084
+            - col:93097
+            - col:198675
+            - col:198694
+            - col:198697
+            - col:93096
+            - col:176314
+            - col:198714
+            - col:198715
+            - col:198720
+            - col:198723
+          sourceReferenceIds:
+            - ref:27216
+            - ref:67683
+          originalIdentificationMappings:
+            - occurrenceId: occ:1428377
+              originalIdentifiedName: Anteosaurus magnificus n. gen. n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428487
+              originalIdentifiedName: Anteosaurus abeli
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428523
+              originalIdentifiedName: Anteosaurus acutirostris n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428703
+              originalIdentifiedName: Anteosaurus minor n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428819
+              originalIdentifiedName: Titanognathus lotzi n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428840
+              originalIdentifiedName: Anteosaurus crassifrons
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428844
+              originalIdentifiedName: Paranteosaurus primus n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428845
+              originalIdentifiedName: Anteosaurus levops n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428853
+              originalIdentifiedName: Anteosaurus abeli
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428960
+              originalIdentifiedName: Anteosaurus abeli n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428978
+              originalIdentifiedName: Anteosaurus cruentus n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1428992
+              originalIdentifiedName: Dinosuchus vorsteri n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+            - occurrenceId: occ:1429001
+              originalIdentifiedName: Anteosaurus laticeps n. sp.
+              acceptedName: Anteosaurus magnificus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-976a500820
+        part: body
+      en:
+        page: en
+        section: s-223976dcb0
+        part: body

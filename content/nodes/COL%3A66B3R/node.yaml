@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega pongoensis
+  displayName: Ameerega pongoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66B3R
+  sourceIndexes:
+    - name:
+        en: Ameerega pongoensis
+        zh: Ameerega pongoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66B3R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/275
+            queryName: Ameerega pongoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/219
+            queryName: Epipedobates pongoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-74c44c110d
+      - s-77c87a4c94
+      - s-87ecb73b2d
+      - s-a99419e815
+      - s-55535e0d5a
+      - s-ae8096dfb3
+      - s-b3c3c78537
+    zh:
+      - s-93b5c666ca
+      - s-6f81e5a2e4
+      - s-604d121161
+      - s-bc89f96a3c
+      - s-c9760d4b29
+      - s-fef28f0b9a
+      - s-fa19ba959e

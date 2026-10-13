@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Merxmuellera stereophylla (J.G.Anderson) Conert
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6RB2M, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6RB2M; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6RB2M
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6RB2M
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000879770-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6RB2M / WFO wfo-0000879770
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_16277_0
+        referenceId: ref-77597c15-1d6b-8776-a68f-e68ced69facb
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Merxmuellera stereophylla (J.G.Anderson) Conert account; SANBI/WFO archive rows 72141 (Morphology), 59048 (Habitat), source identifier 16277.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Perennial; 0.8 m high; tufted. Leaf blades up to 360 x 1.5 mm; rigid; erect; do not break off. Flowers: panicle contracted; shortly branched; up to 180 mm long; spikelets up to 20 mm long; including awns; 3-5-flowered; glumes 11-18 mm long; 1-nerved; lemmas 10-16 mm long; including 5-7 mm long lobes free from central awn; lemma backs glabrous with only margins fringed with short hairs from base to middle; fringe terminating in marginal tuft of white hairs; central awn 13-18 mm long; geniculate close to base; twisted basally; apical portion much longer than base and protruding from spikelets for some length."
+            textZh: Merxmuellera stereophylla (J.G.Anderson) Conert 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_16277_0
+            locator: "SANBI/WFO archive Morphology row 72141; source identifier 16277.0; cited publication: Retief, E; Meyer, NL. 2017. Poaceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 987 - 1107. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mesic Grassland. Xeric alpine grasslands and crevices in basaltic cliffs of the Drakensberg.
+            textZh: 该 SANBI 区域物种条目记录的生境：Mesic Grassland. Xeric alpine grasslands and crevices in basaltic cliffs of the Drakensberg.
+            sourceIds:
+              - sanbi_16277_0
+            locator: "SANBI/WFO archive Habitat row 59048; source identifier 16277.0; cited publication: Retief, E; Meyer, NL. 2017. Poaceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 987 - 1107. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

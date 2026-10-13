@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Engystomops pustulatus
+  displayName: Engystomops pustulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39TTX
+  sourceIndexes:
+    - name:
+        en: Engystomops pustulatus
+        zh: Engystomops pustulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 39TTX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/359
+            queryName: Engystomops pustulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/297
+            queryName: Physalaemus pustulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/229
+            queryName: Edalorhina pustulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f76b3707bb
+      - s-ad438d832a
+      - s-dea665f109
+      - s-62257689d7
+      - s-8f3175e884
+      - s-38f1541814
+      - s-49a3cdf2ec
+      - s-8c3e19f7cc
+      - s-088a533d25
+      - s-e9727c50c9
+      - s-c1ba776fcd
+      - s-80bb8398bf
+      - s-1110e37066
+      - s-67f13efa73
+      - s-0b5d2908d9
+      - s-49deb60ad3
+    zh:
+      - s-b6deda3b53
+      - s-1b02159f9f
+      - s-69cb8b5001
+      - s-d7135bd179
+      - s-800e3d57df
+      - s-9002ca2bba
+      - s-fc9d7355a5
+      - s-2bee065165
+      - s-09e8aa181d
+      - s-43e54889bc
+      - s-d13ded5332
+      - s-cbe5680e10
+      - s-2567696f19
+      - s-9c97d622ce
+      - s-bbda1ec7bd
+      - s-ca9586b365

@@ -1,0 +1,470 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phrynomedusa appendiculata (Lutz, 1925)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phrynomedusa appendiculata
+      zh: Phrynomedusa appendiculata
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-22572cf40e
+            part: title
+          zh:
+            page: zh
+            section: s-6231473391
+            part: title
+        text:
+          en:
+            page: en
+            section: s-22572cf40e
+            part: body
+          zh:
+            page: zh
+            section: s-6231473391
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-998326fec2
+            part: title
+          zh:
+            page: zh
+            section: s-ec36c48d5c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-998326fec2
+            part: body
+          zh:
+            page: zh
+            section: s-ec36c48d5c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-be69762dd8
+            part: title
+          zh:
+            page: zh
+            section: s-b543d303d5
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-be69762dd8
+            part: body
+          zh:
+            page: zh
+            section: s-b543d303d5
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-2c9b1cbf73ada0a7d8bfce48858fb12e
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-a371337a26bcf35dfb498cb0
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-90909368c5
+            part: title
+          zh:
+            page: zh
+            section: s-20237e0e82
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-90909368c5
+            part: body
+          zh:
+            page: zh
+            section: s-20237e0e82
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3a7724797a
+            part: title
+          zh:
+            page: zh
+            section: s-1565ad7b88
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4gwlq
+        text:
+          en:
+            page: en
+            section: s-3a7724797a
+            part: body
+          zh:
+            page: zh
+            section: s-1565ad7b88
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4ed9570949
+            part: title
+          zh:
+            page: zh
+            section: s-a27ff72784
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4gwlq
+        text:
+          en:
+            page: en
+            section: s-4ed9570949
+            part: body
+          zh:
+            page: zh
+            section: s-a27ff72784
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-2d8c407a85
+            part: title
+          zh:
+            page: zh
+            section: s-36ea02e782
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4gwlq
+        text:
+          en:
+            page: en
+            section: s-2d8c407a85
+            part: body
+          zh:
+            page: zh
+            section: s-36ea02e782
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-7befda1791
+            part: title
+          zh:
+            page: zh
+            section: s-4d281911b7
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4gwlq
+        text:
+          en:
+            page: en
+            section: s-7befda1791
+            part: body
+          zh:
+            page: zh
+            section: s-4d281911b7
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-f8e2db5308
+            part: title
+          zh:
+            page: zh
+            section: s-95efa22d9a
+            part: title
+        sourceIds:
+          - primary-pmc6746222-4gwlq
+        text:
+          en:
+            page: en
+            section: s-f8e2db5308
+            part: body
+          zh:
+            page: zh
+            section: s-95efa22d9a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phrynomedusa appendiculata
+          url: https://www.checklistbank.org/dataset/316115/taxon/4GWLQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4256; Reference.csv rows 2905
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2977; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2977 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc6746222-4gwlq
+        referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phrynomedusa appendiculata: Complete sec2Methods including Table1; complete sec3 twenty namedResults accounts andfigurecaptions, sec4Discussion subsections sec5–17 inspected. Sourceconflicts retained; no figurepixels/rawaudio/supplementalTableS1/originalvouchers independentreview or acousticanalysis.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7bd98a97f7
+        part: body
+      zh:
+        page: zh
+        section: s-1d0259ca87
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-a371337a26bcf35dfb498cb0
+        scientificName: Phrynomedusa appendiculata
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.7612
+        referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+        sourceKey: primary-pmc6746222-4gwlq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6746222/article.xml
+        sourceConcept: Source Phrynomedusa appendiculata historic archive recordings; exact writtenname or explicit frozenusage link only
+        evidenceRead: "Phrynomedusa appendiculata: Complete sec2Methods including Table1; complete sec3 twenty namedResults accounts andfigurecaptions, sec4Discussion subsections sec5–17 inspected. Sourceconflicts retained; no figurepixels/rawaudio/supplementalTableS1/originalvouchers independentreview or acousticanalysis.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Organization of the recorded vocalization
+              zh: 录音中的鸣声组织
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4gwlq
+            locator: PMC6746222 XML sec3 direct-child rows54–55; Table1 tbody row24
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ef19bc366a
+                part: body
+              zh:
+                page: zh
+                section: s-9e9d668d60
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Temporal and spectral measurements retain their samples
+              zh: 时间与频谱测量保留样本范围
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4gwlq
+            locator: PMC6746222 XML sec3 direct-child rows54–55; Table1 tbody row24
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8292c042a5
+                part: body
+              zh:
+                page: zh
+                section: s-6d3a0facb5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Archive recordings preserve locality and identification scope
+              zh: 档案录音保留地点和鉴定范围
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4gwlq
+            locator: PMC6746222 XML Table1 tbody row24;sec2 identification
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4bac349165
+                part: body
+              zh:
+                page: zh
+                section: s-97c23d9d55
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Filtering and energy-defined frequencies
+              zh: 滤波与按能量定义的频率
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4gwlq
+            locator: PMC6746222 XML sec2 audioanalysis methods; Table1 row24; figurecaption rows56
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-68e85b1bc1
+                part: body
+              zh:
+                page: zh
+                section: s-0296c94f2d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Environmental and historical limits
+              zh: 环境与历史限制
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-4gwlq
+            locator: PMC6746222 XML sec2/Table1/sec3 namedaccount;sec3 opening inventory;sec4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7f9c0eb5bd
+                part: body
+              zh:
+                page: zh
+                section: s-643caf1617
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

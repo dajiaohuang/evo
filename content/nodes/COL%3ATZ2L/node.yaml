@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis royi
+  displayName: Chiasmocleis royi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ2L
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis royi
+        zh: Chiasmocleis royi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ2L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/261
+            queryName: Chiasmocleis royi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-76bdda2b9e
+      - s-10e99c19ca
+      - s-4ed2b5b519
+      - s-dd30d89485
+      - s-c1ad4ddfe4
+      - s-c83dc8bf93
+      - s-1834d7757c
+      - s-7cd6578e6a
+    zh:
+      - s-267ca7f04a
+      - s-a4adea5778
+      - s-a593307f3e
+      - s-6aa767172a
+      - s-3f8b43fc6a
+      - s-066b9b29ab
+      - s-35914c8e5d
+      - s-5ea4d0681d

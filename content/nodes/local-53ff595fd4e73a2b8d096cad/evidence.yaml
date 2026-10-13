@@ -1,0 +1,236 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Amolops himalayanus
+    name:
+      en: Amolops himalayanus
+      zh: Amolops himalayanus
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Amolops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Amolops himalayanus in the version 3 classification
+          zh: Amolops himalayanus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-92d030ac31
+            part: body
+          zh:
+            page: zh
+            section: s-348c4ba5a3
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 4 populated trait fields
+          zh: 2 条测量行与 4 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1e478da6ac
+            part: body
+          zh:
+            page: zh
+            section: s-0fcec5ddb6
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 261, 262; Reference.csv rows 3753
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 261
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops himalayanus
+          - F
+          - "85.475"
+          - "26.925"
+          - "28.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "50.675"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 262
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops himalayanus
+          - M
+          - "74.15"
+          - "25.025"
+          - "25.925"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "46.875"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3753
+        values:
+          - Anura
+          - Amolops_himalayanus
+          - "Tshering Nidup, D. G. P. S. D., & Pearch, M. J. (2016). The first record of Amolops himalayanus (Anura: Ranidae) from Bhutan. The Herpetological Bulletin, 13-18."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 66DXW
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

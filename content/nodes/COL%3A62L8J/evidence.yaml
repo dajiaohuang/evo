@@ -1,0 +1,222 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Clinotarsus Mivart, 1869
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Clinotarsus
+      zh: Clinotarsus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-57793b4b99
+            part: title
+          zh:
+            page: zh
+            section: s-95a2466d20
+            part: title
+        text:
+          en:
+            page: en
+            section: s-57793b4b99
+            part: body
+          zh:
+            page: zh
+            section: s-95a2466d20
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c88379dadc
+            part: title
+          zh:
+            page: zh
+            section: s-d2385b9283
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c88379dadc
+            part: body
+          zh:
+            page: zh
+            section: s-d2385b9283
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-96ecf258e8
+            part: title
+          zh:
+            page: zh
+            section: s-1c566013e9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-96ecf258e8
+            part: body
+          zh:
+            page: zh
+            section: s-1c566013e9
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-cfa6e3782f
+            part: title
+          zh:
+            page: zh
+            section: s-0a0d807966
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cfa6e3782f
+            part: body
+          zh:
+            page: zh
+            section: s-0a0d807966
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-9f1c4a7586
+            part: title
+          zh:
+            page: zh
+            section: s-f1bf107e22
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: W73H
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AW73H
+            label:
+              en: Clinotarsus alticola
+              zh: Clinotarsus alticola
+          - kind: catalogue
+            colId: W73J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AW73J
+            label:
+              en: Clinotarsus curtipes
+              zh: Clinotarsus curtipes
+          - kind: catalogue
+            colId: W73K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AW73K
+            label:
+              en: Clinotarsus penelope
+              zh: Clinotarsus penelope
+        text:
+          en:
+            page: en
+            section: s-9f1c4a7586
+            part: body
+          zh:
+            page: zh
+            section: s-f1bf107e22
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Clinotarsus
+          url: https://www.checklistbank.org/dataset/316115/taxon/62L8J
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Clinotarsus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7eb6eee568
+        part: body
+      zh:
+        page: zh
+        section: s-dcef0a88a3
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Clinotarsus
+      sourceRowIds:
+        - Anf4760
+        - Anf4761
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 2
+      currentConceptEquivalenceCertified: false

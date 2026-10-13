@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella achalensis
+  displayName: Rhinella achalensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7M3
+  sourceIndexes:
+    - name:
+        en: Rhinella achalensis
+        zh: Rhinella achalensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7M3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/288
+            queryName: Rhinella achalensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/276
+            queryName: Bufo achalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/89
+            queryName: Chaunus achalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-06f5043db8
+      - s-1d4fd42306
+      - s-c576e31246
+      - s-16c8b1cfdb
+      - s-e1cbd1856a
+      - s-f2ed74443f
+      - s-8b6ab66f7d
+      - s-8a795e6e20
+      - s-b5e3584f97
+    zh:
+      - s-64ca3c729c
+      - s-165e354324
+      - s-f2b354f5f7
+      - s-02176ef410
+      - s-2f8e562b84
+      - s-819001374e
+      - s-46e419ef07
+      - s-a29132d713
+      - s-6c0be0c943

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus awa
+  displayName: Hyloxalus awa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGWH
+  sourceIndexes:
+    - name:
+        en: Hyloxalus awa
+        zh: Hyloxalus awa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGWH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/82
+            queryName: Hyloxalus awa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/58
+            queryName: Colostethus awa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5d7c3d9ea3
+      - s-085f6c157f
+      - s-ca71ffe322
+      - s-81876a5b0a
+      - s-7a24d5de78
+      - s-40787baef9
+      - s-c4864bec18
+      - s-6601a1e40a
+      - s-017b781afc
+      - s-08a59f29fe
+      - s-7f786fc02f
+      - s-63791f90cd
+      - s-b9e2cfc59b
+      - s-310d717720
+      - s-cf2c012741
+      - s-34b29f0422
+      - s-af3423f67c
+    zh:
+      - s-995f60b8ba
+      - s-0edcb4d98a
+      - s-c8a17fbb19
+      - s-b02b0d0588
+      - s-4a102a8934
+      - s-6458998295
+      - s-8f13b4e95a
+      - s-9970821df7
+      - s-60c258c2df
+      - s-844f2f8b00
+      - s-fd96117028
+      - s-e0b4da816a
+      - s-7ced3d0290
+      - s-5cfb781a0c
+      - s-54aec63bb3
+      - s-196434a4ad
+      - s-cc072e051e

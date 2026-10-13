@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Micrixalus kurichiyari
+  displayName: Micrixalus kurichiyari
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73FXT
+  sourceIndexes:
+    - name:
+        en: Micrixalus kurichiyari
+        zh: Micrixalus kurichiyari
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73FXT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/458
+            queryName: Micrixalus kurichiyari
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b0cc8a2f2
+      - s-a893bf96bb
+      - s-b95cd8644b
+      - s-f83174d16a
+      - s-6cdd4e0623
+      - s-8680ace705
+    zh:
+      - s-9f6bf2dd3b
+      - s-4cb4a98518
+      - s-40117d91a4
+      - s-9b589532d9
+      - s-9fafc1330a
+      - s-a66bd4dc78

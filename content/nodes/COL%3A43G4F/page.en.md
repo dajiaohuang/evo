@@ -1,0 +1,3 @@
+## ## Globose flower heads and stem prickles {#s-6d5621602f}
+The Brazilian Flora 2020 entry records pubescent to pilose stems with spreading or forward-appressed simple hairs and capitate glandular hairs. Prickles are absent or retrorse and between nodes; short shoots and setae are absent. Persistent stipules, absent extrafloral nectaries and a projection between pinna pairs are recorded. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four or five perianth parts, a membranous calyx with triangular lobes, and hairy corolla lobes with one to three veins. The androecium is diplostemonous, with white filaments. These regional character fields do not describe the species’ full variation.
+

@@ -1,0 +1,127 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-d2e38a61dc
+      part: title
+    titleZh:
+      page: zh
+      section: s-78c6c9bde0
+      part: title
+    category: ecology
+    startAge: 466
+    endAge: 463
+    regions:
+      - Šárka Formation, Prague Basin, Czech Republic
+    clades:
+      - Bohemolichas incola
+      - Trilobita
+    summary:
+      page: en
+      section: s-d2e38a61dc
+      part: body
+    summaryZh:
+      page: zh
+      section: s-78c6c9bde0
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-87a84f5fc3
+            part: title
+          zh:
+            page: zh
+            section: s-7ad3de6579
+            part: title
+        text:
+          en:
+            page: en
+            section: s-87a84f5fc3
+            part: body
+          zh:
+            page: zh
+            section: s-7ad3de6579
+            part: body
+        id: observed-material
+        sourceIds:
+          - kraft-2023-trilobite-gut
+      - title:
+          en:
+            page: en
+            section: s-e31c44b7dc
+            part: title
+          zh:
+            page: zh
+            section: s-3830899fde
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e31c44b7dc
+            part: body
+          zh:
+            page: zh
+            section: s-3830899fde
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - kraft-2023-trilobite-gut
+    claimIds:
+      - claim:event:bohemolichas-gut-contents
+    evidenceItems:
+      - statement: Synchrotron microtomography maps ostracod valves, hyolith material and stylophoran plates through inventory specimen 8 at 11.35-micrometre voxel size.
+        relation: supports
+        claimIds:
+          - claim:event:bohemolichas-gut-contents
+        referenceLinks:
+          - referenceId: kraft-2023-trilobite-gut
+            relation: supports
+            pages: 545–551
+            figure: Figures 1–4; Extended Data
+            quoteLocator: Specimen inventory no. 8; Gut-content mapping; Palaeophysiological interpretation
+    uncertaintyItems:
+      - statement: Rapid indiscriminate feeding and a neutral-to-alkaline gut are inferences from one biased shelly meal; soft food and population variation are not preserved.
+        relation: contextualizes
+        claimIds:
+          - claim:event:bohemolichas-gut-contents
+        referenceLinks:
+          - referenceId: kraft-2023-trilobite-gut
+            relation: supports
+            pages: 545–551
+            figure: Figures 1–4; Extended Data
+            quoteLocator: Specimen inventory no. 8; Gut-content mapping; Palaeophysiological interpretation
+    readerSources:
+      - id: kraft-2023-trilobite-gut
+        referenceId: kraft-2023-trilobite-gut
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 545–551; figure: Figures 1–4; Extended Data; Specimen inventory no. 8; Gut-content mapping; Palaeophysiological interpretation"
+  claims:
+    - subjectId: event:bohemolichas-gut-contents
+      claimKind: scientific
+      claimType: ecology
+      statement: Synchrotron microtomography of Bohemolichas incola inventory specimen 8 maps ostracod, hyolith and stylophoran remains through the gut; prey identity is direct fossil content, while feeding rate, selectivity and neutral-to-alkaline chemistry are bounded inferences from one meal.
+      confidence: high
+      confidenceRationale: The itemized gut fill is directly imaged, but physiology and habitual diet cannot be generalized from one taphonomically filtered specimen.
+      referenceLinks:
+        - referenceId: kraft-2023-trilobite-gut
+          relation: supports
+          pages: 545–551
+          figure: Figures 1–4; Extended Data
+          quoteLocator: Specimen inventory no. 8; Gut-content mapping; Palaeophysiological interpretation
+  claim-rationales.zh:
+    - 逐项胃内容物得到直接成像，但不能从一件受埋藏过滤的标本推广生理和惯常食性。
+  claim-statements.zh:
+    - 对 Bohemolichas incola 编号 8 标本的同步辐射显微断层成像绘制了贯穿肠道的介形类、软舌螺和海林檎遗骸；猎物身份是直接化石内容，而取食速率、选择性和中性至碱性化学环境是从一顿食物作出的有限推断。

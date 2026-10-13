@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amazophrynella teko
+  displayName: Amazophrynella teko
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CKMB
+  sourceIndexes:
+    - name:
+        en: Amazophrynella teko
+        zh: Amazophrynella teko
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CKMB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/224
+            queryName: Amazophrynella teko
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bcd777aaa9
+      - s-324a84da12
+      - s-d955d8a2b8
+      - s-d55c34a490
+      - s-9072d71318
+      - s-53eb6437fd
+    zh:
+      - s-6e02432755
+      - s-0c8294578b
+      - s-7d2b375359
+      - s-4a80210ae3
+      - s-288d2a2b54
+      - s-89ff7a3f32

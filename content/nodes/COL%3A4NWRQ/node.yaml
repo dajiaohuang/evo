@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea orchileucos
+  displayName: Pseudoeurycea orchileucos
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWRQ
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea orchileucos
+        zh: Pseudoeurycea orchileucos
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWRQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/307
+            queryName: Pseudoeurycea orchileucos
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/366
+            queryName: Lineatriton orchileucos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/412
+            queryName: Pseudoeurycea orchileuca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-59d11e5eec
+      - s-81cae07845
+      - s-c847bb1b87
+      - s-46aba6c03f
+      - s-e37cb4568f
+      - s-b5be4e23f0
+      - s-cbe84d462b
+      - s-1f4f44dbe6
+      - s-b655bb09d6
+      - s-99511d83ba
+      - s-540efa9414
+      - s-86a4aa6f45
+      - s-06311665ca
+      - s-a52afd65dd
+      - s-169f03a910
+      - s-2b3034c565
+    zh:
+      - s-fbf35bef68
+      - s-371a9da71d
+      - s-332161e15e
+      - s-dc8b545517
+      - s-7981a86042
+      - s-86ac063798
+      - s-5e04ef2722
+      - s-9f1a500cbc
+      - s-1b40e16714
+      - s-266eafc49b
+      - s-100fa6dc83
+      - s-966c7b4b2b
+      - s-2b86d18908
+      - s-e307d229a3
+      - s-3fe1f95b65
+      - s-5b41978858

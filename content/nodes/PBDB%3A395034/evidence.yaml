@@ -1,0 +1,165 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Heterocricetodon serbicus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Heterocricetodon serbicus
+      en: Heterocricetodon serbicus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d8777ae034
+            part: body
+          en:
+            page: en
+            section: s-86c81d19a2
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6710f67fc2
+            part: body
+          en:
+            page: en
+            section: s-229613d441
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f2e99e9067
+            part: body
+          en:
+            page: en
+            section: s-d4a1ab83b7
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-947cf301b9
+            part: body
+          en:
+            page: en
+            section: s-ff28ed2d5c
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-568a9789df
+            part: body
+          en:
+            page: en
+            section: s-d3984ae45b
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Heterocricetodon serbicus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=395034&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:395034; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:395034
+          selectedOccurrenceIds:
+            - occ:1419614
+            - occ:1464997
+            - occ:1465001
+            - occ:1465002
+            - occ:1465003
+            - occ:1465004
+          selectedCollectionIds:
+            - col:196838
+            - col:190736
+            - col:204501
+            - col:196840
+            - col:196836
+            - col:196837
+          sourceReferenceIds:
+            - ref:70117
+          originalIdentificationMappings:
+            - occurrenceId: occ:1464997
+              originalIdentifiedName: Heterocricetodon serbicus n. sp.
+              acceptedName: Heterocricetodon serbicus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0bb691c1ec
+        part: body
+      en:
+        page: en
+        section: s-52fdba2f67
+        part: body

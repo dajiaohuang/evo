@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lynchius nebulanastes
+  displayName: Lynchius nebulanastes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3WSFM
+  sourceIndexes:
+    - name:
+        en: Lynchius nebulanastes
+        zh: Lynchius nebulanastes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3WSFM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/249
+            queryName: Lynchius nebulanastes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/123
+            queryName: Phrynopus nebulanastes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/429
+            queryName: Eleutherodactylus nebulanastes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-30be60fd7b
+      - s-e8214c4911
+      - s-96205cf715
+      - s-2482758c35
+      - s-1841a836f0
+      - s-419bb72c22
+      - s-16469e1a7a
+      - s-0ad81a4c10
+      - s-024e944063
+      - s-c8729c7f75
+      - s-954c714b1f
+      - s-7552ca990c
+      - s-ff803b9754
+      - s-f843e0db68
+      - s-bbe98ecd96
+      - s-0b236be888
+      - s-24c5c67c6a
+      - s-33d0077a08
+      - s-0a0fa927cf
+    zh:
+      - s-7654a52315
+      - s-d33b6af48e
+      - s-8ab2f43a1e
+      - s-04ff26b2cf
+      - s-977d518054
+      - s-d3332927ef
+      - s-46cef58d7f
+      - s-c57b4256a9
+      - s-a572ea6612
+      - s-8900c37fe0
+      - s-a69b9cf17c
+      - s-4d2bac5ee2
+      - s-d348fc6e2f
+      - s-c5dc704371
+      - s-b9219c14e2
+      - s-4d91aefdb8
+      - s-3f0eb414de
+      - s-f9102fcb38
+      - s-160cf9e77a

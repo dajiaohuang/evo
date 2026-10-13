@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Telmatobufo bullocki
+  displayName: Telmatobufo bullocki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/558CW
+  sourceIndexes:
+    - name:
+        en: Telmatobufo bullocki
+        zh: Telmatobufo bullocki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 558CW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/486
+            queryName: Telmatobufo bullocki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-901eb181fd
+      - s-71b54253af
+      - s-17d12e9197
+      - s-d05630cae5
+      - s-09cd8fe869
+      - s-e3a551be0a
+      - s-a16f199d1f
+      - s-7f9665f9f5
+      - s-6ee9a2fff1
+      - s-190da45be9
+      - s-d4430d70e6
+      - s-5608244e33
+      - s-770933946c
+      - s-aadf8a5868
+      - s-585b129560
+    zh:
+      - s-26491ba706
+      - s-c8fbaf0222
+      - s-7b462904d5
+      - s-90ccb3e35c
+      - s-cada07227c
+      - s-12e59c4f74
+      - s-ed783ad419
+      - s-bcd351473b
+      - s-0199ac7d98
+      - s-e42321702f
+      - s-3de13adc68
+      - s-cb45ed3fa8
+      - s-98c7d5a1c8
+      - s-49d353c226
+      - s-5736b73ded

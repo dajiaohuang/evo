@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Phylica tysonii Pillans
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4GZGP, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4GZGP; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4GZGP
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4GZGP
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001131184-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4GZGP / WFO wfo-0001131184
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_2884_0
+        referenceId: ref-7175cdcf-a8cf-834a-a617-68f5bf877cc2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Phylica tysonii Pillans account; archive rows 81981 (Morphology), source identifier 2884.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_18399_0
+        referenceId: ref-b0b1fa9b-3a9a-8a0c-a70b-1f397b879f58
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Phylica tysonii Pillans account; archive rows 101242 (Habitat), source identifier 18399.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "A much branched shrub about 40 cm high, with ascending, wiry branches. Branchlets slender, clothed with short, grey pubescence. Leaves closely set, 0.6-1 cm long: lamina erect-spreading, linear, subacute or obtuse, rounded at base, with closely re volute margins covering the lower surface; upper surface minutely tuberculate-scabrid, pubescent, becoming glabrous: petiole 1.5-2 mm long. Capitula solitary, 6-8 mm wide, hemisphaeric, subtended by several leaves with enlarged petioles. Bracts about 5 mm long, lanceolate, densely villous on the lower half of the outer surface, leaf-like above. Bracteoles 2, 1-2.5 mm long, linear, densely tomentose. Flowers 2.75-3.5 mm long, on a hirsute stipe: calyx-tube about 1 mm deep, cyathiform, glabrous on the lower half of the outer surface, tomentose on the upper: sepals 1.5 mm long, ovate-lanceolate, tomentose on the outer surface, glabrous on the inner, rounded-convex in the lower half, acutely convex in the upper. Petals inserted half way up the tube, 0.5 mm long: lamina elliptic-rotundate, incurved-cucullate: claw as long, linear-cuneate. Anthers reniform, 1-celled. Ovary obconic, glabrous. Stigma shortly 3-lobed, on a short, columnar style. Fruit 4-5 mm long, elliptic-rotundate, subtrigonous, smooth, with a small calyx-area."
+            sourceIds:
+              - sanbi_2884_0
+            locator: "SANBI/WFO archive Morphology row 81981; source 2884.0; publication: Pillans, NS. 1942. The genus Phylica, Linn. J. S. African Bot. 8(1): 1 - 164. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mountain summit plateau; Sub-Escarpment Grassland, Drakensberg Grassland.
+            sourceIds:
+              - sanbi_18399_0
+            locator: "SANBI/WFO archive Habitat row 101242; source 18399.0; publication: Bredenkamp, CL. 2019. Rhamnaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(2): 1373 - 1381. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-8b04d1f46b
+        title:
+          en:
+            page: en
+            section: s-dc2961198a
+            part: title
+          zh:
+            page: zh
+            section: s-18d21f838c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dc2961198a
+            part: body
+          zh:
+            page: zh
+            section: s-18d21f838c
+            part: body
+        sourceIds:
+          - sanbi_2884_0

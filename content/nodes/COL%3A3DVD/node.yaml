@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufoides
+  displayName: Bufoides
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DVD
+  sourceIndexes:
+    - name:
+        en: Bufoides
+        zh: Bufoides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DVD
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/258
+            queryName: Bufoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a8c0374436
+      - s-183d0cd584
+      - s-52ffe970e8
+      - s-e2759fba38
+      - s-bbe72f9aa7
+      - s-79429ef92c
+      - s-4ad6e9881a
+      - s-c4d6237d41
+      - s-ca31afa6c1
+      - s-3f35cd1222
+      - s-38d6d2adbd
+      - s-8e66b2bb89
+      - s-6c6bc7eb10
+    zh:
+      - s-0856a92b7c
+      - s-7136762653
+      - s-cd70637523
+      - s-a6df9e320b
+      - s-308ae373a0
+      - s-416ef12af7
+      - s-c66bc834fb
+      - s-29b7328f3a
+      - s-825ef8e903
+      - s-286d1b0a94
+      - s-19b8a68583
+      - s-f8cc555af9
+      - s-7a69e97ac2

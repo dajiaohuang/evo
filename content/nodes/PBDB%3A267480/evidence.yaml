@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Paranecturus garbanii
+    rank: species
+    sourceTaxonId: txn:267480
+    name:
+      en: Paranecturus garbanii
+      zh: Paranecturus garbanii
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-305335b2f0
+            part: body
+          zh:
+            page: zh
+            section: s-297597762e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-d6e38d94b0
+            part: body
+          zh:
+            page: zh
+            section: s-480b243308
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-0c74a6a285
+            part: body
+          zh:
+            page: zh
+            section: s-79c3d5254e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:267480; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: D. G. DeMar, Jr. 2013. A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A. Journal of Vertebrate Paleontology 33(3):588-598
+    occurrenceEvidence:
+      - occurrenceId: occ:1134675
+        collectionId: col:144499
+        acceptedTaxonId: txn:267480
+        identifiedName: Paranecturus garbanii n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:46719
+        bibliography: D. G. DeMar, Jr. 2013. A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A. Journal of Vertebrate Paleontology 33(3):588-598
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1134681
+        collectionId: col:144500
+        acceptedTaxonId: txn:267480
+        taxonomicDifference: null
+        referenceId: ref:46719
+        bibliography: D. G. DeMar, Jr. 2013. A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A. Journal of Vertebrate Paleontology 33(3):588-598
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: Montana
+          formation: Hell Creek
+          member: Lower
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1134682
+        collectionId: col:144501
+        acceptedTaxonId: txn:267480
+        taxonomicDifference: null
+        referenceId: ref:46719
+        bibliography: D. G. DeMar, Jr. 2013. A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A. Journal of Vertebrate Paleontology 33(3):588-598
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1134683
+        collectionId: col:144502
+        acceptedTaxonId: txn:267480
+        taxonomicDifference: null
+        referenceId: ref:46719
+        bibliography: D. G. DeMar, Jr. 2013. A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A. Journal of Vertebrate Paleontology 33(3):588-598
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: Montana
+          formation: Hell Creek
+          member: Lower
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1134684
+        collectionId: col:144503
+        acceptedTaxonId: txn:267480
+        taxonomicDifference: null
+        referenceId: ref:46719
+        bibliography: D. G. DeMar, Jr. 2013. A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A. Journal of Vertebrate Paleontology 33(3):588-598
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1134685
+        collectionId: col:144504
+        acceptedTaxonId: txn:267480
+        taxonomicDifference: null
+        referenceId: ref:46719
+        bibliography: D. G. DeMar, Jr. 2013. A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A. Journal of Vertebrate Paleontology 33(3):588-598
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1134686
+        collectionId: col:144505
+        acceptedTaxonId: txn:267480
+        taxonomicDifference: null
+        referenceId: ref:46719
+        bibliography: D. G. DeMar, Jr. 2013. A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A. Journal of Vertebrate Paleontology 33(3):588-598
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1134687
+        collectionId: col:144506
+        acceptedTaxonId: txn:267480
+        taxonomicDifference: null
+        referenceId: ref:46719
+        bibliography: D. G. DeMar, Jr. 2013. A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A. Journal of Vertebrate Paleontology 33(3):588-598
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-0c74a6a285
+            part: body
+          zh:
+            page: zh
+            section: s-79c3d5254e
+            part: body
+        sourceIds: []

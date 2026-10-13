@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Megophrys montana
+    name:
+      en: Megophrys montana
+      zh: Megophrys montana
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Megophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7a80663d17
+            part: body
+          zh:
+            page: zh
+            section: s-9e49ab61c5
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-33b9a7404a
+            part: body
+          zh:
+            page: zh
+            section: s-6de324568e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3126, 3127; Reference.csv rows 791
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3126
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys montana
+          - M
+          - "44.8"
+          - "17.6"
+          - "20.9"
+          - "6.6"
+          - "1.8"
+          - "3.5"
+          - "6.6"
+          - "4.6"
+          - "4.1"
+          - "2.7"
+          - "5.6"
+          - "1.9"
+          - "12.3"
+          - "18.7"
+          - NA
+          - "19.6"
+          - NA
+          - "19.3"
+          - "21.1"
+          - "10.2"
+          - "66"
+          - "2.9"
+          - "2.8"
+          - NA
+          - "6.3"
+          - "11.4"
+          - "5.2"
+          - NA
+          - "4"
+          - "6.7"
+          - "4.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3127
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys montana
+          - F
+          - "74.2"
+          - "29.6"
+          - "35.5"
+          - "9.6"
+          - "2.6"
+          - "7"
+          - "11"
+          - "6.5"
+          - "6.1"
+          - "4.6"
+          - "8.6"
+          - "3.1"
+          - "18.7"
+          - "26.3"
+          - NA
+          - "30.4"
+          - NA
+          - "29.9"
+          - "33"
+          - "15.2"
+          - "99.7"
+          - "6"
+          - "4.1"
+          - NA
+          - "9.6"
+          - "16.4"
+          - "7.7"
+          - NA
+          - "5.9"
+          - "9.9"
+          - "7.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 791
+        values:
+          - Anura
+          - Megophrys_montana
+          - "Munir, M., Hamidy, A., Farajallah, A., & Smith, E. N. (2018). A new Megophrys Kuhl and Van Hasselt (Amphibia: Megophryidae) from southwestern Sumatra, Indonesia. Zootaxa, 4442(3), 389-412. https://doi.org/ 10.11646/zootaxa.4442.3.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3Z2BR
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

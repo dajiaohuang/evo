@@ -1,0 +1,147 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Scaphiopus (Spea) alexanderi
+    rank: species
+    sourceTaxonId: txn:99656
+    name:
+      en: Scaphiopus (Spea) alexanderi
+      zh: Scaphiopus (Spea) alexanderi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-6a90275fb3
+            part: body
+          zh:
+            page: zh
+            section: s-7a262007a7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-91d280080f
+            part: body
+          zh:
+            page: zh
+            section: s-97f5538b54
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-443ed1db99
+            part: body
+          zh:
+            page: zh
+            section: s-be877b4571
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:99656; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. G. Zweifel. 1956. Two pelobatid frogs from the Tertiary of North America and their relationships to fossil and recent forms. American Museum Novitates 1762:1-45
+    occurrenceEvidence:
+      - occurrenceId: occ:148359
+        collectionId: col:18888
+        acceptedTaxonId: txn:99656
+        identifiedTaxonId: var:99656
+        identifiedName: Scaphiopus alexanderi n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:4366
+        bibliography: R. G. Zweifel. 1956. Two pelobatid frogs from the Tertiary of North America and their relationships to fossil and recent forms. American Museum Novitates 1762:1-45
+        locality:
+          countryCode: US
+          stateProvince: Nevada
+          county: Esmeralda
+        stratigraphy:
+          group: null
+          formation: Esmeralda
+          member: null
+        olderAgeMa: 12.5
+        youngerAgeMa: 9.4
+      - occurrenceId: occ:1108024
+        collectionId: col:18759
+        acceptedTaxonId: txn:99656
+        identifiedName: Scaphiopus (cf. Scaphiopus) alexanderi
+        taxonomicDifference: recombined as
+        referenceId: ref:15074
+        bibliography: J. A. Holman. 1970. Herpetofauna of the Wood Mountain Formation (Upper Miocene) of Saskatchewan. Canadian Journal of Earth Sciences 7:1317-1325
+        locality:
+          countryCode: CA
+          stateProvince: Saskatchewan
+          county: null
+        stratigraphy:
+          group: null
+          formation: Wood Mountain
+          member: null
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-443ed1db99
+            part: body
+          zh:
+            page: zh
+            section: s-be877b4571
+            part: body
+        sourceIds: []

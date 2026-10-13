@@ -1,0 +1,6 @@
+## Distribution records {#s-a63b27cd5e}
+The study overlaid IUCN range maps on ten major Brazilian Amazon interfluves and listed Cacajao hosomi in 1 areas: Pantepui-Duida. Here, occurrence means a region-level map overlap; it does not confirm animals at every site in those areas and is not a population count or complete range assessment.
+
+## Evidence limits {#s-5c53f64060}
+The abstract and methods describe 80 species, while main-text Table 2 occupancy classes sum to 81 and report the 46 single-interfluve species as 57%, unlike the 58% stated in the text. The named areas and counts here come from Supplementary Table S1. They are range-map overlaps, not point-level field confirmations, population counts or complete range assessments. Chinese common names are editorial translations.
+

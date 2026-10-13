@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arthroleptis formosus Rödel, Kouamé, Doumbia & Sandberger, 2011
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Arthroleptis formosus
+      zh: Arthroleptis formosus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-de884ad792
+            part: title
+          zh:
+            page: zh
+            section: s-3275c2a12d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-de884ad792
+            part: body
+          zh:
+            page: zh
+            section: s-3275c2a12d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-57357da8da
+            part: title
+          zh:
+            page: zh
+            section: s-d689586be1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-57357da8da
+            part: body
+          zh:
+            page: zh
+            section: s-d689586be1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-0a9cb46c67
+            part: body
+          zh:
+            page: zh
+            section: s-70fdc35254
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Arthroleptis formosus
+          url: https://www.checklistbank.org/dataset/316115/taxon/GYQR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5b109ac3ce
+        part: body
+      zh:
+        page: zh
+        section: s-5946252f97
+        part: body

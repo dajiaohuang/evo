@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Kutorgina chengjiangensis
+    commonName: Chengjiang Kutorgina
+    commonNameZh: 澄江顾脱贝
+    rank: species
+    firstAppearance: 520
+    lastAppearance: 518
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+    taxonId: txn:354121
+  atlas-profile:
+    pbdbTaxonId: txn:354121
+    scientificName: Kutorgina chengjiangensis
+    commonName: Chengjiang Kutorgina sample
+    commonNameZh: 澄江顾脱贝样本
+    rank: species
+    parentName: Brachiopod origin dossier route
+    extinct: true
+    geography:
+      - Chengjiang Lagerstätte
+      - Yunnan, China
+      - Early Cambrian calcareous beds
+    overview:
+      page: en
+      section: s-a617dc0f73
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-4c9249fef3
+        part: body
+      habitat:
+        page: en
+        section: s-866ade05ba
+        part: body
+      locomotion:
+        page: en
+        section: s-e2210139cf
+        part: body
+      bodySize:
+        page: en
+        section: s-0e48d08c99
+        part: body
+      guild:
+        page: en
+        section: s-c111f3cd8d
+        part: body
+    traits:
+      - page: en
+        section: s-dbe051d753
+        part: body
+      - page: en
+        section: s-dcf9fe923c
+        part: body
+      - page: en
+        section: s-fb1ac767b0
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-d34049979e
+      part: body
+    readerSections:
+      - id: preserved-anatomy
+        sourceIds:
+          - zhang-et-al-2007-kutorgina
+        title:
+          en:
+            page: en
+            section: s-03bb92ff9a
+            part: title
+          zh:
+            page: zh
+            section: s-7985af7c3c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-03bb92ff9a
+            part: body
+          zh:
+            page: zh
+            section: s-7985af7c3c
+            part: body
+      - id: formation-sample
+        sourceIds:
+          - zhang-et-al-2007-kutorgina
+        title:
+          en:
+            page: en
+            section: s-e58e3aa513
+            part: title
+          zh:
+            page: zh
+            section: s-3ae8ca20bf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e58e3aa513
+            part: body
+          zh:
+            page: zh
+            section: s-3ae8ca20bf
+            part: body
+    confidence: medium
+    referenceIds:
+      - zhang-et-al-2007-kutorgina
+  claims:
+    - subjectId: taxon:kutorgina-chengjiangensis
+      claimKind: scientific
+      claimType: morphology
+      statement: Chengjiang Kutorgina specimens preserve paired valves with lophophore, digestive tract and pedicle anatomy; this formation-scale sample documents one early rhynchonelliformean, not the global origin of brachiopods.
+      confidence: high
+      confidenceRationale: Named material directly preserves multiple anatomical regions, while broader ancestral-state and first-appearance interpretations remain separate.
+      referenceLinks:
+        - referenceId: zhang-et-al-2007-kutorgina
+          relation: supports
+          pages: 1391–1402
+          figure: Text-figures 1–8
+          quoteLocator: Material and preservation; systematic palaeontology; lophophore, digestive tract and pedicle
+    - subjectId: taxon:kutorgina-chengjiangensis
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Zhang et al. establish Kutorgina chengjiangensis from Chengjiang material and describe its articulated brachiopod anatomy; the species-level diagnosis is distinct from any claim that it is a direct brachiopod ancestor.
+      confidence: high
+      confidenceRationale: The primary study provides a named species diagnosis and illustrated material; ancestral-state implications remain comparative and are not promoted into the taxonomic observation.
+      referenceLinks:
+        - referenceId: zhang-et-al-2007-kutorgina
+          relation: supports
+          pages: 1391–1402
+          figure: Text-figures 1–8
+          quoteLocator: Systematic palaeontology; diagnosis and comparison of Kutorgina chengjiangensis
+    - subjectId: taxon:kutorgina-chengjiangensis
+      claimKind: scientific
+      claimType: biogeography
+      statement: The Kutorgina chengjiangensis occurrence documented here is restricted to the Chengjiang Lagerstätte in Yunnan, South China; it does not establish the complete geographic range of the species or brachiopods.
+      confidence: high
+      confidenceRationale: The locality and stratigraphic setting are explicitly reported for the named material, while wider distribution is outside this occurrence study.
+      referenceLinks:
+        - referenceId: zhang-et-al-2007-kutorgina
+          relation: supports
+          pages: 1391–1393
+          figure: Text-figure 1
+          quoteLocator: Locality and stratigraphy; Chengjiang Lagerstätte, Yunnan, South China
+    - subjectId: taxon:kutorgina-chengjiangensis
+      claimKind: scientific
+      claimType: ecology
+      statement: The preserved lophophore and pedicle support a suspension-feeding, attached functional interpretation for the sampled Kutorgina chengjiangensis anatomy; feeding behaviour and habitat use remain inferred rather than directly observed.
+      confidence: medium
+      confidenceRationale: The anatomical regions are directly described, but functional ecology is an interpretation of fossil anatomy and preservation rather than an observation of behaviour.
+      referenceLinks:
+        - referenceId: zhang-et-al-2007-kutorgina
+          relation: supports
+          pages: 1394–1400
+          figure: Text-figures 2–8
+          quoteLocator: Lophophore, digestive tract and pedicle preservation; functional interpretation bounded to the fossils
+    - subjectId: taxon:kutorgina-chengjiangensis
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Kutorgina chengjiangensis material in the Chengjiang Lagerstätte supports a 520–518 Ma Early Cambrian formation-scale study window; this bounded occurrence is not a global brachiopod FAD, LAD or continuous lineage range.
+      confidence: medium
+      confidenceRationale: The Early Cambrian occurrence and stratigraphic setting are directly documented, while the numerical envelope is a conservative synthesis and cannot represent a global range.
+      referenceLinks:
+        - referenceId: zhang-et-al-2007-kutorgina
+          relation: supports
+          pages: 1391–1393
+          figure: Text-figure 1
+          quoteLocator: Early Cambrian Chengjiang Lagerstätte occurrence and stratigraphic context
+  claim-rationales.zh:
+    - 具名材料直接保存多个解剖区域，但更广祖先状态和首现解释仍需分开。
+    - 主论文给出具名物种诊断和图示材料；祖先状态含义属于比较解释，不改写为直接祖先观察。
+    - 论文明确给出具名材料的地点和地层背景；更广泛分布不在该产出研究的直接证据范围内。
+    - 解剖区域由化石直接描述，但功能生态是对化石解剖和保存的解释，并非行为观察。
+    - 早寒武世产出和地层背景有直接证据；数值窗口是保守综合，不能代表全球范围。
+  claim-statements.zh:
+    - 澄江顾脱贝标本保存成对壳瓣以及触手冠、消化道和肉茎解剖；这一组级样本记录一个早期有铰型腕足动物，而非腕足动物全球起源。
+    - Zhang 等依据澄江材料建立 Kutorgina chengjiangensis 并描述其关节相连的腕足动物解剖；物种级诊断不同于其为腕足动物直接祖先的任何主张。
+    - 本档案记录的 Kutorgina chengjiangensis 产出限定于中国南部云南澄江生物群；它不能确立该物种或腕足动物的完整地理范围。
+    - 保存的触手冠和肉茎支持对所取样 Kutorgina chengjiangensis 解剖作悬浮摄食、附着生活的功能解释；摄食行为和栖息地利用仍属推断而非直接观察。
+    - 澄江生物群中的 Kutorgina chengjiangensis 材料支持一个 520–518 Ma 的早寒武世地层尺度研究窗口；这一有界产出不是全球腕足动物 FAD、LAD 或连续谱系范围。
+  ranges:
+    - entityId: kutorgina-chengjiangensis
+      rangeKind: global-composite
+      taxonomicConcept: Kutorgina chengjiangensis Chengjiang occurrence
+      geographicScope: Chengjiang Lagerstätte, Yunnan, China
+      olderMa: 520
+      youngerMa: 518
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Formation-scale envelope, not a direct date or global rhynchonelliformean first appearance.
+      evidenceBasis: Early Cambrian calcareous valves occur with a lophophore, gut and pedicle in exceptional preservation.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:taxon:kutorgina-chengjiangensis:fossil-range
+      referenceLocators:
+        - referenceId: zhang-et-al-2007-kutorgina
+          locator: 1391–1402; Text-figures 1–8

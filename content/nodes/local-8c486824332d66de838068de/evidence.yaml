@@ -1,0 +1,251 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptopelis parkeri
+    name:
+      en: Leptopelis parkeri
+      zh: Leptopelis parkeri
+    sourceClassification:
+      order: Anura
+      family: Arthroleptidae
+      genus: Leptopelis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-868d84fc3d
+            part: body
+          zh:
+            page: zh
+            section: s-42ab89555f
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9c79df40d8
+            part: body
+          zh:
+            page: zh
+            section: s-2d2970e77c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2772, 2773; Reference.csv rows 2501
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2772
+        values:
+          - Arthroleptidae
+          - Leptopelis
+          - Leptopelis parkeri
+          - F
+          - "42.2"
+          - "13.5"
+          - "16.2"
+          - "6"
+          - "1.9"
+          - "1.9"
+          - "5.3"
+          - "4.5"
+          - "4.4"
+          - "3.8"
+          - "5.5"
+          - NA
+          - NA
+          - "8.7"
+          - NA
+          - NA
+          - NA
+          - "21.9"
+          - "20"
+          - "12.2"
+          - NA
+          - "2.3"
+          - "5.1"
+          - NA
+          - NA
+          - "17.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2773
+        values:
+          - Arthroleptidae
+          - Leptopelis
+          - Leptopelis parkeri
+          - M
+          - "39.1"
+          - "12.9"
+          - "15.6"
+          - "5.2"
+          - "2.1"
+          - "1.6"
+          - "4.5"
+          - "3.3"
+          - "4"
+          - "3.6"
+          - "4.7"
+          - NA
+          - NA
+          - "8.9"
+          - NA
+          - NA
+          - NA
+          - "19.5"
+          - "18.9"
+          - "10.7"
+          - NA
+          - "2"
+          - "4.9"
+          - NA
+          - NA
+          - "15.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2501
+        values:
+          - Anura
+          - Leptopelis_parkeri
+          - Gvozdik, V., Tillack, F., Menegon, M., & Loader, S. P. (2014). The status of Leptopelis barbouri Ahl, 1929 and eleven other nomina of the current tree-frog genus Leptopelis (Arthroleptidae) described from East Africa, with a redescription of Leptopelis grandiceps Ahl, 1929. Zootaxa, 3793(1), 165-187. <Go to ISI>://WOS:000334912400008
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - FLL
+      - TL
+      - THL
+      - TSL
+      - IMT
+      - Toe1L
+      - Toe4L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TSNF
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

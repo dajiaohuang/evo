@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius adspersus
+  displayName: Hyperolius adspersus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQQN
+  sourceIndexes:
+    - name:
+        en: Hyperolius adspersus
+        zh: Hyperolius adspersus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQQN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/216
+            queryName: Hyperolius adspersus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/286
+            queryName: Rappia adspersa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/287
+            queryName: Rappia granulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/288
+            queryName: Rappia nobrei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/289
+            queryName: Hyperolius granulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/290
+            queryName: Hyperolius nobrei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/59
+            queryName: Hyperolius nasutus adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7cf0693cae
+      - s-0de1f67dfb
+      - s-86e9b6b6a5
+      - s-18c9db27e0
+      - s-b4d05c4c20
+      - s-41dcc5ab50
+      - s-cde81d7115
+      - s-8aeb5adee6
+      - s-f6636733a9
+      - s-0946f521af
+      - s-668ee7460d
+      - s-4ce1ebf697
+      - s-a3aaf490a1
+      - s-25686931bd
+      - s-ebf2c76bd2
+      - s-e3e977505c
+    zh:
+      - s-1566eb158d
+      - s-4745fba3e2
+      - s-9ef9b3e1ea
+      - s-eab94cab21
+      - s-90fc2d11f1
+      - s-06705e34c4
+      - s-142e918864
+      - s-1b06d6af11
+      - s-2479a138ac
+      - s-4547788c85
+      - s-467252d4cc
+      - s-4731b93921
+      - s-4a2efdf33b
+      - s-7f19b593ca
+      - s-969aeb31c0
+      - s-f20d583b0f

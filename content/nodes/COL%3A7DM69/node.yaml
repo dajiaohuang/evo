@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia stridera
+  displayName: Uperoleia stridera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DM69
+  sourceIndexes:
+    - name:
+        en: Uperoleia stridera
+        zh: Uperoleia stridera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DM69
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/209
+            queryName: Uperoleia stridera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1000d39a56
+      - s-01a413165a
+      - s-2702fc65d5
+      - s-28fa10ba0d
+      - s-2033903471
+      - s-0e774b3078
+    zh:
+      - s-0eb0e1f284
+      - s-41d90477aa
+      - s-9dd86fb7ad
+      - s-aef4824e8e
+      - s-1d75112dc1
+      - s-56ed561bab

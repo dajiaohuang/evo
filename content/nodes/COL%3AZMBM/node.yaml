@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylodes izecksohni
+  displayName: Crossodactylodes izecksohni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMBM
+  sourceIndexes:
+    - name:
+        en: Crossodactylodes izecksohni
+        zh: Crossodactylodes izecksohni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMBM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/219
+            queryName: Crossodactylodes izecksohni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-634ab2f269
+      - s-7d70548351
+      - s-2b5d3784f7
+      - s-102cc77f81
+      - s-010ec74fe0
+      - s-9e0d88892c
+      - s-e22bac9960
+      - s-ae51ed9ce1
+      - s-4f9ea29cbc
+      - s-484339f5f6
+      - s-cbd65d5994
+    zh:
+      - s-48114b8b5d
+      - s-885222a95a
+      - s-1491a77e57
+      - s-2fe093e044
+      - s-d7fb937f41
+      - s-e7bbcb6df4
+      - s-cd67b17148
+      - s-4cb26076f0
+      - s-fdc5e5fea8
+      - s-8dad2d6212
+      - s-8c78865cbb

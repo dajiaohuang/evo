@@ -1,0 +1,365 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lithobates brownorum (Sanders, 1973)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Lithobates brownorum
+      zh: Lithobates brownorum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f411ddafb1
+            part: title
+          zh:
+            page: zh
+            section: s-2539874126
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f411ddafb1
+            part: body
+          zh:
+            page: zh
+            section: s-2539874126
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f838231e0a
+            part: title
+          zh:
+            page: zh
+            section: s-5e065a74bd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f838231e0a
+            part: body
+          zh:
+            page: zh
+            section: s-5e065a74bd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fa7bb7f300
+            part: title
+          zh:
+            page: zh
+            section: s-0ce264a762
+            part: title
+        sourceIds:
+          - amphibio
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-fa7bb7f300
+            part: body
+          zh:
+            page: zh
+            section: s-0ce264a762
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-d05ba10e71b35f4451cec524006b9fb4
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-85ca201f05de0ab95ea83881
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-661a1601a2
+            part: title
+          zh:
+            page: zh
+            section: s-5c90107242
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-661a1601a2
+            part: body
+          zh:
+            page: zh
+            section: s-5c90107242
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-250f142161
+            part: title
+          zh:
+            page: zh
+            section: s-f23c3dc4b8
+            part: title
+        sourceIds:
+          - primary-pmc13215752-3vhpq
+        text:
+          en:
+            page: en
+            section: s-250f142161
+            part: body
+          zh:
+            page: zh
+            section: s-f23c3dc4b8
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-871be0439a
+            part: title
+          zh:
+            page: zh
+            section: s-02271ea164
+            part: title
+        sourceIds:
+          - primary-pmc13215752-3vhpq
+        text:
+          en:
+            page: en
+            section: s-871be0439a
+            part: body
+          zh:
+            page: zh
+            section: s-02271ea164
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-cad4a3f0f0
+            part: title
+          zh:
+            page: zh
+            section: s-2d848545c1
+            part: title
+        sourceIds:
+          - primary-pmc13215752-3vhpq
+        text:
+          en:
+            page: en
+            section: s-cad4a3f0f0
+            part: body
+          zh:
+            page: zh
+            section: s-2d848545c1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Lithobates brownorum
+          url: https://www.checklistbank.org/dataset/316115/taxon/3VHPQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4862; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4865 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2845; Reference.csv rows 3831
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc13215752-3vhpq
+        referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Lithobates brownorum: XML sec2-1 bibliographic methods, sec2-2 host nomenclature/complexes, sec2-3 geographical definitions; all sec3 numbered species headings, host/locality paragraphs, molecular metadata, citations and remarks through row333; sec4-1–sec4-3 discussion inspected. Figures only captions inspected; supplementary Table S1 not retrieved/read. Original cited reports, vouchers, sequences and experimental life-cycle studies not independently reassessed. Source totals contain internal inconsistencies; no full-article certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-15a396fe18
+        part: body
+      zh:
+        page: zh
+        section: s-e6bf7e94be
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-85ca201f05de0ab95ea83881
+        scientificName: Lithobates brownorum
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1017/S0031182025101364
+        referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+        sourceKey: primary-pmc13215752-3vhpq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13215752/article.xml
+        sourceConcept: Exact written host-name match only; compiled historical records not original-voucher/current-concept authentication
+        evidenceRead: "Lithobates brownorum: XML sec2-1 bibliographic methods, sec2-2 host nomenclature/complexes, sec2-3 geographical definitions; all sec3 numbered species headings, host/locality paragraphs, molecular metadata, citations and remarks through row333; sec4-1–sec4-3 discussion inspected. Figures only captions inspected; supplementary Table S1 not retrieved/read. Original cited reports, vouchers, sequences and experimental life-cycle studies not independently reassessed. Source totals contain internal inconsistencies; no full-article certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Original bilingual factual summaries of a bibliographic parasite checklist, with exact host-entry locators and historical identity limits; no source tables or figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Molineid nematodes in a regional literature checklist
+              zh: 区域文献清单中的毛圆线虫关联
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-3vhpq
+            locator: PMC13215752 XML sec3 direct-child rows 243; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fd809cf9a0
+                part: body
+              zh:
+                page: zh
+                section: s-9181cc9efb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Reported parasite localities and their limits
+              zh: 寄生记录地点及其限制
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-3vhpq
+            locator: PMC13215752 XML sec3 direct-child rows 243; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-12125f9720
+                part: body
+              zh:
+                page: zh
+                section: s-00b3a5f4d5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: What the bibliographic survey can establish
+              zh: 文献调查能支持什么结论
+            referenceId: ref-e7c596a4-eac8-4ec7-aca0-0efa7af005e1
+            sourceKey: primary-pmc13215752-3vhpq
+            locator: PMC13215752 XML sec2-1–sec2-3; PMC13215752 XML sec3 direct-child rows 243; associated parasite headings and remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-33b1ad4777
+                part: body
+              zh:
+                page: zh
+                section: s-39bcd275c1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

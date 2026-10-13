@@ -1,0 +1,219 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Euproctus Gené, 1839
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Euproctus
+      zh: Euproctus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c9d8435b2d
+            part: title
+          zh:
+            page: zh
+            section: s-b534e6890b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c9d8435b2d
+            part: body
+          zh:
+            page: zh
+            section: s-b534e6890b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b691db5ad4
+            part: title
+          zh:
+            page: zh
+            section: s-9ad1161a00
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b691db5ad4
+            part: body
+          zh:
+            page: zh
+            section: s-9ad1161a00
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-aeca24e4e0
+            part: title
+          zh:
+            page: zh
+            section: s-c597cb74ad
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aeca24e4e0
+            part: body
+          zh:
+            page: zh
+            section: s-c597cb74ad
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-cbbbb20013
+            part: title
+          zh:
+            page: zh
+            section: s-2ea957e64e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cbbbb20013
+            part: body
+          zh:
+            page: zh
+            section: s-2ea957e64e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-6b0c5fc192
+            part: title
+          zh:
+            page: zh
+            section: s-01a532442e
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3CY47
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3CY47
+            label:
+              en: Euproctus montanus
+              zh: Euproctus montanus
+          - kind: catalogue
+            colId: 3CY49
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3CY49
+            label:
+              en: Euproctus platycephalus
+              zh: Euproctus platycephalus
+        text:
+          en:
+            page: en
+            section: s-6b0c5fc192
+            part: body
+          zh:
+            page: zh
+            section: s-01a532442e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Euproctus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4GG2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Euproctus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b589dd0baa
+        part: body
+      zh:
+        page: zh
+        section: s-5bc1ece2ee
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Euproctus
+      sourceRowIds:
+        - Anf6504
+        - Anf6505
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 2
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 2
+      currentConceptEquivalenceCertified: false

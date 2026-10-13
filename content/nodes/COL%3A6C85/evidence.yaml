@@ -1,0 +1,232 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paedophryne Kraus, 2010
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Paedophryne
+      zh: Paedophryne
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9512712086
+            part: title
+          zh:
+            page: zh
+            section: s-f0b6249de1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9512712086
+            part: body
+          zh:
+            page: zh
+            section: s-f0b6249de1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-838ff9f68c
+            part: title
+          zh:
+            page: zh
+            section: s-5253637789
+            part: title
+        text:
+          en:
+            page: en
+            section: s-838ff9f68c
+            part: body
+          zh:
+            page: zh
+            section: s-5253637789
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-bb743adc9e
+            part: title
+          zh:
+            page: zh
+            section: s-574af48ce7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bb743adc9e
+            part: body
+          zh:
+            page: zh
+            section: s-574af48ce7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-9a296c2126
+            part: title
+          zh:
+            page: zh
+            section: s-ecd79cde09
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4BY2G
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4BY2G
+            label:
+              en: Paedophryne amauensis
+              zh: Paedophryne amauensis
+          - kind: catalogue
+            colId: 4BY2H
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4BY2H
+            label:
+              en: Paedophryne dekot
+              zh: Paedophryne dekot
+          - kind: catalogue
+            colId: 4BY2J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4BY2J
+            label:
+              en: Paedophryne kathismaphlox
+              zh: Paedophryne kathismaphlox
+          - kind: catalogue
+            colId: 4BY2K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4BY2K
+            label:
+              en: Paedophryne oyatabu
+              zh: Paedophryne oyatabu
+          - kind: catalogue
+            colId: 4BY2L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4BY2L
+            label:
+              en: Paedophryne swiftorum
+              zh: Paedophryne swiftorum
+          - kind: catalogue
+            colId: 4BY2M
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4BY2M
+            label:
+              en: Paedophryne titan
+              zh: Paedophryne titan
+          - kind: catalogue
+            colId: 4BY2N
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4BY2N
+            label:
+              en: Paedophryne verrucosa
+              zh: Paedophryne verrucosa
+        text:
+          en:
+            page: en
+            section: s-9a296c2126
+            part: body
+          zh:
+            page: zh
+            section: s-ecd79cde09
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1469d41d55
+            part: body
+          zh:
+            page: zh
+            section: s-434b60c38b
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Paedophryne
+          url: https://www.checklistbank.org/dataset/316115/taxon/6C85
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Paedophryne; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ab63b4b008
+        part: body
+      zh:
+        page: zh
+        section: s-d4588039ae
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Paedophryne
+      sourceRowIds:
+        - Anf4087
+        - Anf4088
+      foragingCounts: []
+      developmentCounts: []
+      currentConceptEquivalenceCertified: false

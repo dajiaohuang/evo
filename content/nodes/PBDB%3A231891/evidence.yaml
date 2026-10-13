@@ -1,0 +1,257 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Euclastes wielandi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Euclastes wielandi
+      en: Euclastes wielandi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4981cb5b0e
+            part: body
+          en:
+            page: en
+            section: s-6c93208806
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e232083211
+            part: body
+          en:
+            page: en
+            section: s-db7a2a1ec8
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-446bd6796b
+            part: body
+          en:
+            page: en
+            section: s-d0f4f0aac0
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5004d0d9ff
+            part: body
+          en:
+            page: en
+            section: s-48cf7bf857
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-420f90c56c
+            part: body
+          en:
+            page: en
+            section: s-4e5b2fa82e
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Euclastes wielandi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=231891&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:231891; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:231891
+          selectedOccurrenceIds:
+            - occ:281678
+            - occ:281679
+            - occ:558018
+            - occ:1034917
+            - occ:1034918
+            - occ:1034919
+            - occ:1034921
+            - occ:1058853
+            - occ:1093835
+            - occ:1093836
+            - occ:1093844
+            - occ:1193103
+            - occ:1259175
+            - occ:1261006
+            - occ:1261008
+            - occ:1263246
+            - occ:1264126
+            - occ:1419473
+            - occ:1443731
+            - occ:1443753
+            - occ:1626286
+            - occ:1704193
+          selectedCollectionIds:
+            - col:26819
+            - col:48725
+            - col:60967
+            - col:61147
+            - col:84046
+            - col:88034
+            - col:83311
+            - col:137838
+            - col:137839
+            - col:87947
+            - col:167186
+            - col:87902
+            - col:167780
+            - col:48570
+            - col:180790
+            - col:201600
+            - col:241484
+          sourceReferenceIds:
+            - ref:34331
+            - ref:67648
+            - ref:54671
+            - ref:731
+            - ref:17161
+            - ref:41174
+            - ref:49983
+            - ref:54562
+            - ref:35435
+            - ref:787
+            - ref:14442
+            - ref:68976
+            - ref:41178
+            - ref:92562
+          originalIdentificationMappings:
+            - occurrenceId: occ:281678
+              originalIdentifiedName: Toxochelys atlantica
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:558018
+              originalIdentifiedName: Dollochelys atlantica
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1034917
+              originalIdentifiedName: Osteopygis roundsi n. sp.
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1034918
+              originalIdentifiedName: Osteopygis roundsi
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1034919
+              originalIdentifiedName: Osteopygis roundsi
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1034921
+              originalIdentifiedName: Dollochelys coatesi n. sp.
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1058853
+              originalIdentifiedName: Catapleura ponderosa n. sp.
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1193103
+              originalIdentifiedName: Dollochelys casieri n. gen. n. sp.
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1261006
+              originalIdentifiedName: Erquelinnesia molaria n. sp.
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1261008
+              originalIdentifiedName: Lytoloma angusta n. sp.
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1263246
+              originalIdentifiedName: Toxochelys atlantica n. sp.
+              acceptedName: Euclastes wielandi
+              difference: null
+            - occurrenceId: occ:1264126
+              originalIdentifiedName: Lytoloma wielandi n. sp.
+              acceptedName: Euclastes wielandi
+              difference: recombined as
+            - occurrenceId: occ:1419473
+              originalIdentifiedName: Lytoloma wielandi
+              acceptedName: Euclastes wielandi
+              difference: recombined as
+            - occurrenceId: occ:1626286
+              originalIdentifiedName: Osteopygis repandus n. sp.
+              acceptedName: Euclastes wielandi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d63f1e31b3
+        part: body
+      en:
+        page: en
+        section: s-9173d4fbd7
+        part: body

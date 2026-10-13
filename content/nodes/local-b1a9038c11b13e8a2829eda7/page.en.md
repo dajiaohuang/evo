@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-54d0056f1e}
+The version 3 Amphibian database lists Microhyla achatina in a source measurement table. Its classification fields read order = Anura, family = Microhylidae, genus = Microhyla; the linked citation is in Reference.csv row 842. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-f9d3deac7c}
+Anura.csv rows 3263, 3264 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 3263 (F) = 24.57, row 3264 (M) = 22.47; HL: row 3263 (F) = 6.464367, row 3264 (M) = 6.716283; HW: row 3263 (F) = 7.267806, row 3264 (M) = 7.12299; other populated codes are ED, IOD, IND, UEW, EN, SL, FLL, LAL, FL, TL, HLL, IMT. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

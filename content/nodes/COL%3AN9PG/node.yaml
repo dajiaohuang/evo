@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Breviceps passmorei
+  displayName: Breviceps passmorei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N9PG
+  sourceIndexes:
+    - name:
+        en: Breviceps passmorei
+        zh: Breviceps passmorei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N9PG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/467
+            queryName: Breviceps passmorei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e9b816685
+      - s-88a458b411
+      - s-4bf36a4ab4
+      - s-e45b6a9e23
+      - s-62ec67339a
+      - s-ed3ba9f0ab
+      - s-dd526d2ba9
+      - s-45907da6b8
+      - s-747aca5598
+      - s-8fecb5a9a6
+      - s-917f2bd20e
+    zh:
+      - s-2f478b3139
+      - s-379a2625bd
+      - s-931ed2f1ff
+      - s-ea297e2f02
+      - s-941fb69153
+      - s-fbe6b6c8b8
+      - s-7badd30f16
+      - s-c588d945cd
+      - s-22ed9452a8
+      - s-607cebc74f
+      - s-b9231ad734

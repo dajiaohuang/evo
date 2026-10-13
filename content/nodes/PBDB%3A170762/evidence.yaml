@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Parvinatator wapitiensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Parvinatator wapitiensis
+      en: Parvinatator wapitiensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbIchthyosauriformesTaxonomy20261002
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5af267b7b6
+            part: body
+          en:
+            page: en
+            section: s-c89d4f1d16
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b42966ed2d
+            part: body
+          en:
+            page: en
+            section: s-8c5a2ec806
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7c3eebc381
+            part: body
+          en:
+            page: en
+            section: s-71bfa6118c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-df04f886da
+            part: body
+          en:
+            page: en
+            section: s-7e73a7aa18
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-83efd84745
+            part: body
+          en:
+            page: en
+            section: s-7ce0a8f878
+            part: body
+    sources:
+      - id: pbdbIchthyosauriformesTaxonomy20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Parvinatator wapitiensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=170762&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbIchthyosauriformesOccurrences20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:170762; original response record indices retained in data/sources/ichthyosauriformes-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: f47f280ca897054f5bf00b8a99d8aa7b7eee1e3225ec65be651afc93d19ba812
+          pbdbTaxonId: txn:170762
+          selectedOccurrenceIds:
+            - occ:1420149
+          selectedCollectionIds:
+            - col:196984
+          sourceReferenceIds:
+            - ref:33848
+          originalIdentificationMappings:
+            - occurrenceId: occ:1420149
+              originalIdentifiedName: Parvinatator wapitiensis n. gen. n. sp.
+              acceptedName: Parvinatator wapitiensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-386e97ea58
+        part: body
+      en:
+        page: en
+        section: s-f286bf721f
+        part: body

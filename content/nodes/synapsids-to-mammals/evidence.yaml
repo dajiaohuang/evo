@@ -1,0 +1,103 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-c7a3daadbf
+      part: title
+    titleZh:
+      page: zh
+      section: s-31b9b115e7
+      part: title
+    dek:
+      page: en
+      section: s-c7a3daadbf
+      part: body
+    dekZh:
+      page: zh
+      section: s-31b9b115e7
+      part: body
+    theme: copper
+    durationMinutes: 8
+    featured: false
+    steps:
+      - id: split
+        title:
+          page: en
+          section: s-bcdd573ea1
+          part: title
+        titleZh:
+          page: zh
+          section: s-a8a6858f1f
+          part: title
+        text:
+          page: en
+          section: s-bcdd573ea1
+          part: body
+        textZh:
+          page: zh
+          section: s-a8a6858f1f
+          part: body
+        age: 312
+        timeRange:
+          - 320
+          - 300
+        taxonIds:
+          - synapsida
+          - sauropsida
+        view: tree
+        eventId: amniote-divergence
+        claimLinks:
+          - claimId: claim:event:amniote-divergence
+            relation: supports
+      - id: therapsids
+        title:
+          page: en
+          section: s-40553d898d
+          part: title
+        titleZh:
+          page: zh
+          section: s-df7701d37b
+          part: title
+        text:
+          page: en
+          section: s-40553d898d
+          part: body
+        textZh:
+          page: zh
+          section: s-df7701d37b
+          part: body
+        age: 255
+        timeRange:
+          - 280
+          - 230
+        taxonIds:
+          - synapsida
+        view: evidence
+        claimLinks: []
+      - id: mammals
+        title:
+          page: en
+          section: s-730f141a4a
+          part: title
+        titleZh:
+          page: zh
+          section: s-51050e5dac
+          part: title
+        text:
+          page: en
+          section: s-730f141a4a
+          part: body
+        textZh:
+          page: zh
+          section: s-51050e5dac
+          part: body
+        age: 205
+        timeRange:
+          - 225
+          - 180
+        taxonIds:
+          - mammalia
+        view: tree
+        claimLinks: []
+    evidenceStatus: blocked-pending-step-evidence

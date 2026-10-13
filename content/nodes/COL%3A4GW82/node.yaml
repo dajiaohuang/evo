@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus batesii
+  displayName: Phrynobatrachus batesii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW82
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus batesii
+        zh: Phrynobatrachus batesii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW82
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/105
+            queryName: Phrynobatrachus batesii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/224
+            queryName: Arthroleptis batesii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/225
+            queryName: Pseudarthroleptis batesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/226
+            queryName: Phrynobatrachus batesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-776eafbc27
+      - s-6a2ea207a6
+      - s-fbcf5bcb18
+      - s-f3e0a397db
+      - s-04c330ba4e
+      - s-6e05fd6277
+      - s-1086bdd9ea
+      - s-51114313a4
+      - s-8bb79ad8b2
+      - s-87e37bf97f
+      - s-e645d821b2
+      - s-468bd52499
+      - s-07ffc2aa40
+      - s-6a8b381f2e
+      - s-632a5442ce
+      - s-bf48ed52e2
+    zh:
+      - s-3272cf1a3d
+      - s-c73d3e0f27
+      - s-450c7859dc
+      - s-9dd9f3e29b
+      - s-973a6f584c
+      - s-e55372b344
+      - s-20db1b6b9c
+      - s-93232acd69
+      - s-b3af7f1ec3
+      - s-a00f7502a6
+      - s-f1358cb021
+      - s-55428f7b34
+      - s-05baa6e1b5
+      - s-851ac5e39f
+      - s-af9a1db5a0
+      - s-f76b3b5624

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantophryne lateralis
+  displayName: Mantophryne lateralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XX3D
+  sourceIndexes:
+    - name:
+        en: Mantophryne lateralis
+        zh: Mantophryne lateralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XX3D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/366
+            queryName: Mantophryne lateralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/375
+            queryName: Phrynomantis lateralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-46341948aa
+      - s-23f113c6a5
+      - s-c52b99b77f
+      - s-fc35a198fc
+      - s-6c43ac705e
+      - s-9ca6aaf467
+      - s-8e6b921ad6
+      - s-870f4b8204
+      - s-dc7a13be80
+      - s-a7b0fb8159
+      - s-4f8adf136c
+    zh:
+      - s-d45bd5e682
+      - s-61bc1696b6
+      - s-6118a30f5c
+      - s-9907cb6571
+      - s-a9c7f08f94
+      - s-e5743b0114
+      - s-9e10caaf33
+      - s-befa6ab2a8
+      - s-29a44e0279
+      - s-e92869faee
+      - s-8aa31fb11c

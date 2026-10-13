@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus pardalis
+  displayName: Rhacophorus pardalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXJC
+  sourceIndexes:
+    - name:
+        en: Rhacophorus pardalis
+        zh: Rhacophorus pardalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXJC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/248
+            queryName: Rhacophorus pardalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/83
+            queryName: Rhacophorus rizali
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/84
+            queryName: Rhacophorus pulchellus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/85
+            queryName: Polypedates pardalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/86
+            queryName: Rhacophorus rhyssocephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/475
+            queryName: Rhacophorus pardalis pardalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/476
+            queryName: Rhacophorus pardalis pulchellus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/477
+            queryName: Rhacophorus pardalis rhyssocephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-184a862b17
+      - s-f8adfc7a39
+      - s-f52dcfac2a
+      - s-0bfde49110
+      - s-5b0f66ebda
+      - s-f8fa08ef3d
+      - s-70a5468058
+      - s-90947d7e15
+      - s-ff7f390f2d
+      - s-c126da9291
+      - s-af3dcf07e7
+      - s-c4df205fda
+      - s-6105cc4d89
+      - s-f3822c6456
+      - s-ea5f5411fc
+    zh:
+      - s-12b46bb4e9
+      - s-e3ff91a92c
+      - s-86dc518bad
+      - s-8728c42804
+      - s-58ea6e5fed
+      - s-e371695b94
+      - s-b345d78bc9
+      - s-329c7f27f1
+      - s-d2f5fe293a
+      - s-d5d9895644
+      - s-649672ae78
+      - s-1bd996349c
+      - s-2edf46c692
+      - s-4d7d8cdd67
+      - s-f8e6a8e315

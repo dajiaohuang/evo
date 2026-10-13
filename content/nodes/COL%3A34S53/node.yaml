@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus decipiens
+  displayName: Dendropsophus decipiens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S53
+  sourceIndexes:
+    - name:
+        en: Dendropsophus decipiens
+        zh: Dendropsophus decipiens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S53
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/357
+            queryName: Dendropsophus decipiens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/317
+            queryName: Hyla decipiens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/443
+            queryName: Hyla decipiens decipiens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2847f6d386
+      - s-8cd220fa22
+      - s-f5b8176ddd
+      - s-37815174ca
+      - s-163272a3e2
+      - s-cd363050cf
+      - s-3f2e5b69fe
+      - s-5081b20b9e
+      - s-45510e99ac
+      - s-33c8167a23
+      - s-436b3a3179
+      - s-b3adbff7d6
+      - s-5a5ad598f3
+      - s-abd98b5195
+      - s-92af9a2c69
+      - s-37aeaebf07
+      - s-835c3a6b65
+      - s-01d16223c0
+      - s-c7f37f71b1
+      - s-750451c516
+    zh:
+      - s-194ab0c638
+      - s-435ddb2e9a
+      - s-a06f5a540e
+      - s-f9b760861a
+      - s-6cf8ec2174
+      - s-bf848a83e0
+      - s-93172f3821
+      - s-9ab6c3acc6
+      - s-8a826d53af
+      - s-e4997d6aae
+      - s-7403ca2aea
+      - s-a0294fba37
+      - s-459a25ecf5
+      - s-fbcd9307ee
+      - s-be5c7fe2d6
+      - s-72b1cd230a
+      - s-42bf30e84a
+      - s-2e67be3a7b
+      - s-ca7d4674b9
+      - s-53333aa588

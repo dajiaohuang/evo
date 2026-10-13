@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella cerradensis
+  displayName: Rhinella cerradensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7MQ
+  sourceIndexes:
+    - name:
+        en: Rhinella cerradensis
+        zh: Rhinella cerradensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7MQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/309
+            queryName: Rhinella cerradensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/59
+            queryName: Chaunus cerradensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-222ac3b669
+      - s-4c4b7609ac
+      - s-ddfa541524
+      - s-39eb04dc79
+      - s-aa0254aec9
+      - s-3513ac6d62
+      - s-fbfe8457b6
+      - s-9fed4b7c8c
+      - s-5de8bdecac
+      - s-9162bd11c9
+    zh:
+      - s-3a72bbda69
+      - s-7311600c58
+      - s-280ddfa43d
+      - s-b16b8c5467
+      - s-6452050bef
+      - s-a4201da781
+      - s-cad9a9f6b4
+      - s-6196fe0a09
+      - s-2c3207f585
+      - s-3a241fc4d1

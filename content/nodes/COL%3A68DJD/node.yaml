@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Barygenys flavigularis
+  displayName: Barygenys flavigularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68DJD
+  sourceIndexes:
+    - name:
+        en: Barygenys flavigularis
+        zh: Barygenys flavigularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68DJD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/383
+            queryName: Barygenys flavigularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6a55ebfab6
+      - s-4096437a5a
+      - s-2149ec9a6d
+      - s-3c69ce9766
+      - s-729d55eb26
+      - s-630e5077e0
+      - s-f76e7b31c6
+      - s-e9358568c4
+      - s-ef151c1749
+    zh:
+      - s-f1990d0f72
+      - s-4b44fe199a
+      - s-61dc5e2a79
+      - s-55a3533c75
+      - s-fc9865d751
+      - s-bc32802f96
+      - s-ace6501bae
+      - s-48ba5cce03
+      - s-ad74f0600f

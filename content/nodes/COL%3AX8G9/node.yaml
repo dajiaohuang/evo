@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Colostethus pratti
+  displayName: Colostethus pratti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/X8G9
+  sourceIndexes:
+    - name:
+        en: Colostethus pratti
+        zh: Colostethus pratti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: X8G9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/413
+            queryName: Colostethus pratti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/5
+            queryName: Phyllobates pratti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c60f11ab15
+      - s-ce5234f11b
+      - s-0349e90815
+      - s-060c64afac
+      - s-a08746f998
+      - s-1108b9af29
+      - s-506628d181
+      - s-b4c16522f9
+      - s-67d612197a
+    zh:
+      - s-8a38d4874a
+      - s-f29bd76e3f
+      - s-330844bc27
+      - s-e22200abc7
+      - s-d967ca7af8
+      - s-fbca4341c5
+      - s-6eef94d2cb
+      - s-c7f94f0562
+      - s-66394bcc1c

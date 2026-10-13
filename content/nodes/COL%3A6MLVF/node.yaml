@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla savignyi
+  displayName: Hyla savignyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MLVF
+  sourceIndexes:
+    - name:
+        en: Hyla savignyi
+        zh: Hyla savignyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MLVF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/370
+            queryName: Hyla savignyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 34
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/382
+            queryName: Hyla arborea savignyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e721ae924
+      - s-77781c7d70
+      - s-35f3c887ac
+      - s-272aaf5d36
+      - s-1ade135756
+      - s-ae2d4b3eaf
+      - s-bceb45509e
+      - s-b1e31fdf83
+      - s-59e9d5d0f2
+      - s-59752c8e8a
+      - s-ee18c03eea
+    zh:
+      - s-9ed257f0d3
+      - s-54a92fe642
+      - s-4e134acb29
+      - s-9a850caffc
+      - s-d1fdb051ce
+      - s-93dcfe5845
+      - s-d2e471e5a9
+      - s-1054a3c53f
+      - s-2727a7e2d3
+      - s-0781dcd8e8
+      - s-dd91cd157d

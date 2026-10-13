@@ -1,0 +1,85 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tamarinus pileatus (I. Geoffroy Saint-Hilaire & Deville, 1848)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 红冠髭狨
+      en: Red-cap Mustached Tamarin
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-c6c758a47f
+            part: body
+          en:
+            page: en
+            section: s-ec7abcea76
+            part: body
+        sourceIds:
+          - taxonomy
+          - peres1993
+          - lopes2023_peerj
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-8bf4fa1ceb
+            part: body
+          en:
+            page: en
+            section: s-83d7398103
+            part: body
+        sourceIds:
+          - peres1993
+          - lopes2023_peerj
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tamarinus Trouessart, 1904
+          url: https://www.checklistbank.org/dataset/316115/taxon/7S9R
+          scope:
+            zh: 固定版本中的名称、作者、等级和父子关系；不提供生物学证据。
+            en: Pinned names, authorship, ranks and parent links; not biological evidence.
+      - id: peres1993
+        referenceId: ref-b211a37b-0fcd-8db7-ad85-aaaf836630cd
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 上 Urucu 河单个混群的取食和觅食研究；使用旧组合 *Saguinus mystax pileatus*。
+            en: Feeding and foraging study of one mixed-species group on the Upper Urucu River; uses the older combination *Saguinus mystax pileatus*.
+      - id: lopes2023_peerj
+        referenceId: ref-ac5326e9-12f6-85ab-a71d-cfc7cdcc52b3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 重审 mystax、pileatus 与 kulina 相关的分类假设；不把每条旧名记录自动重分配。
+            en: Reassesses taxonomic hypotheses concerning mystax, pileatus and kulina; does not automatically reassign every old-name record.
+    limitations:
+      zh:
+        page: zh
+        section: s-16f1f17b03
+        part: body
+      en:
+        page: en
+        section: s-d9825ecc79
+        part: body

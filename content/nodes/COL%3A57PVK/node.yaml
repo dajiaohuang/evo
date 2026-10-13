@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus dibernardoi
+  displayName: Trachycephalus dibernardoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PVK
+  sourceIndexes:
+    - name:
+        en: Trachycephalus dibernardoi
+        zh: Trachycephalus dibernardoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PVK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/97
+            queryName: Trachycephalus dibernardoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a55d98ebd
+      - s-4a8063c7c8
+      - s-a5dbf3617e
+      - s-353e4b211a
+      - s-fa9ff7f1ce
+      - s-fc5c0e57cf
+      - s-4012096866
+      - s-873620ccca
+      - s-34b98cf4f5
+      - s-986993f9c8
+      - s-16a84e4401
+      - s-9a06960484
+      - s-1432b1e083
+      - s-f25ce73dc0
+      - s-a8beabb384
+      - s-67125aa0aa
+    zh:
+      - s-5acc889c1b
+      - s-c55e475b3e
+      - s-0416e4b72f
+      - s-838ecc016d
+      - s-84017e9e6d
+      - s-aac2a54797
+      - s-671bc00559
+      - s-6261ec6f79
+      - s-a562adb433
+      - s-165725b32b
+      - s-8ebf995ddc
+      - s-4b2be60134
+      - s-719d12522b
+      - s-c8a76c0dfd
+      - s-e268e6e058
+      - s-fd09590732

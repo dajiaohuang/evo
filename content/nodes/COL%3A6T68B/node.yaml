@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne insulana
+  displayName: Oreophryne insulana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T68B
+  sourceIndexes:
+    - name:
+        en: Oreophryne insulana
+        zh: Oreophryne insulana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T68B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/272
+            queryName: Oreophryne insulana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3d8918066e
+      - s-dabb305fce
+      - s-c37a1e68db
+      - s-510793a1e5
+      - s-7f84f661f4
+      - s-350301265f
+      - s-8ce747b477
+      - s-c0f48bbb5b
+    zh:
+      - s-6d35208753
+      - s-78185e3e5b
+      - s-ebd297cf91
+      - s-21caf60feb
+      - s-07266aa3ca
+      - s-7a24c14c59
+      - s-0e7aad98f9
+      - s-37125b2cce

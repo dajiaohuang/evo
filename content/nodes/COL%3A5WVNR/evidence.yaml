@@ -1,0 +1,96 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Callithrix kuhlii Coimbra-Filho, 1985
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Wied’s Marmoset
+      zh: 维德绒猴
+    sections:
+      - topic: feeding
+        sourceIds:
+          - sotodacosta2026kuhlii
+        text:
+          zh:
+            page: zh
+            section: s-eb10939626
+            part: body
+          en:
+            page: en
+            section: s-eef090be7d
+            part: body
+      - topic: movement
+        sourceIds:
+          - rylands1989kuhlii
+        text:
+          zh:
+            page: zh
+            section: s-97cc01e5d9
+            part: body
+          en:
+            page: en
+            section: s-e20cea7d9e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Callithrix kuhlii Coimbra-Filho, 1985
+            zh: 生命名录 COL26.8 — Callithrix kuhlii Coimbra-Filho, 1985
+          url: https://www.checklistbank.org/dataset/316115/taxon/5WVNR
+          scope:
+            en: Pinned accepted name, rank and genus link; not biological evidence.
+            zh: 固定接受名、等级和属级父链；不作为生物学证据。
+      - id: mdd_name
+        referenceId: ref-6f0f9c1d-443b-83fa-a84c-bb6264bc639b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the selected English common name only; not occurrence, ecology or a complete range.
+            zh: 仅支持所选英文普通名；不支持出现记录、生态或完整分布。
+      - id: sotodacosta2026kuhlii
+        referenceId: ref-6c8a4826-1425-800b-a23b-6d2d50291af3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Hair isotope samples from 107 individuals in 30 groups across 14 municipalities in southern Bahia during 2023–2024; mixing models used six sites with dietary-resource baselines.
+            zh: 支持 2023—2024 年巴伊亚南部 14 个市镇、30 个群体中 107 只个体的毛发同位素样本；食物混合模型使用其中六处地点的资源基线。
+      - id: rylands1989kuhlii
+        referenceId: ref-3cf57751-f01d-8d3f-a2dc-a4d4874245a4
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Three months of observations on each of two groups in a coastal Atlantic Forest remnant during 1980; the article uses the spelling C. kuhli.
+            zh: 支持 1980 年在一片大西洋沿岸森林残片对两个群体各进行三个月的观察；文章使用拼法 C. kuhli。
+    limitations:
+      en:
+        page: en
+        section: s-74ab148934
+        part: body
+      zh:
+        page: zh
+        section: s-ad94acfe06
+        part: body

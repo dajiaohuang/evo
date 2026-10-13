@@ -1,0 +1,235 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Centrolene lynchi
+    name:
+      en: Centrolene lynchi
+      zh: Centrolene lynchi
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Centrolene
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Centrolene lynchi in the version 3 classification
+          zh: Centrolene lynchi 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e86ca4fabb
+            part: body
+          zh:
+            page: zh
+            section: s-f1d5648655
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 3 populated trait fields
+          zh: 2 条测量行与 3 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5024c55fc3
+            part: body
+          zh:
+            page: zh
+            section: s-5072a2e1a5
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1039, 1040; Reference.csv rows 204
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1039
+        values:
+          - Centrolenidae
+          - Centrolene
+          - Centrolene lynchi
+          - M
+          - "24.7"
+          - NA
+          - "8.6203"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.8902"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1040
+        values:
+          - Centrolenidae
+          - Centrolene
+          - Centrolene lynchi
+          - F
+          - "24.9"
+          - NA
+          - "8.6901"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 204
+        values:
+          - Anura
+          - Centrolene_lynchi
+          - "Duellman, W. E. (1980). The identity of Centrolenella grandisonae Cochran and Goin (Anura: Centrolenidae). Transactions of the Kansas Academy of Science (1903), 26-32. https://doi.org/10.2307/3627268"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - S9YN
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

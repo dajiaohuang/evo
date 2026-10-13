@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachytarsophrys Tian & Hu, 1983
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Brachytarsophrys
+      zh: Brachytarsophrys
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-60a9b453cc
+            part: title
+          zh:
+            page: zh
+            section: s-523164744b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-60a9b453cc
+            part: body
+          zh:
+            page: zh
+            section: s-523164744b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-72e13f9f84
+            part: title
+          zh:
+            page: zh
+            section: s-ba40b8ca62
+            part: title
+        text:
+          en:
+            page: en
+            section: s-72e13f9f84
+            part: body
+          zh:
+            page: zh
+            section: s-ba40b8ca62
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e682d2eed0
+            part: title
+          zh:
+            page: zh
+            section: s-4152c01071
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e682d2eed0
+            part: body
+          zh:
+            page: zh
+            section: s-4152c01071
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f22d87fb08
+            part: title
+          zh:
+            page: zh
+            section: s-d85fc0c677
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f22d87fb08
+            part: body
+          zh:
+            page: zh
+            section: s-d85fc0c677
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-a6751d3570
+            part: title
+          zh:
+            page: zh
+            section: s-d76d0be1a0
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: N2QR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AN2QR
+            label:
+              en: Brachytarsophrys carinense
+              zh: Brachytarsophrys carinense
+          - kind: catalogue
+            colId: N2QS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AN2QS
+            label:
+              en: Brachytarsophrys chuannanensis
+              zh: Brachytarsophrys chuannanensis
+          - kind: catalogue
+            colId: N2QT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AN2QT
+            label:
+              en: Brachytarsophrys feae
+              zh: Brachytarsophrys feae
+          - kind: catalogue
+            colId: V4L6M
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV4L6M
+            label:
+              en: Brachytarsophrys guilinensis
+              zh: Brachytarsophrys guilinensis
+          - kind: catalogue
+            colId: 68RLD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A68RLD
+            label:
+              en: Brachytarsophrys intermedius
+              zh: Brachytarsophrys intermedius
+          - kind: catalogue
+            colId: M2KCL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AM2KCL
+            label:
+              en: Brachytarsophrys orientalis
+              zh: Brachytarsophrys orientalis
+          - kind: catalogue
+            colId: N2QW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AN2QW
+            label:
+              en: Brachytarsophrys platyparietus
+              zh: Brachytarsophrys platyparietus
+          - kind: catalogue
+            colId: N2QX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AN2QX
+            label:
+              en: Brachytarsophrys popei
+              zh: Brachytarsophrys popei
+          - kind: catalogue
+            colId: V5MWR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5MWR
+            label:
+              en: Brachytarsophrys qiannanensis
+              zh: Brachytarsophrys qiannanensis
+          - kind: catalogue
+            colId: M2KF2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AM2KF2
+            label:
+              en: Brachytarsophrys wenshanensis
+              zh: Brachytarsophrys wenshanensis
+        text:
+          en:
+            page: en
+            section: s-a6751d3570
+            part: body
+          zh:
+            page: zh
+            section: s-d76d0be1a0
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ea6adf9361
+            part: body
+          zh:
+            page: zh
+            section: s-c6a674ca91
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachytarsophrys
+          url: https://www.checklistbank.org/dataset/316115/taxon/3CLX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Brachytarsophrys; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-76c9c89b4d
+        part: body
+      zh:
+        page: zh
+        section: s-fef6b6896b
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Brachytarsophrys
+      sourceRowIds:
+        - Anf3689
+        - Anf3690
+        - Anf3691
+        - Anf3692
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 3
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 4
+      currentConceptEquivalenceCertified: false

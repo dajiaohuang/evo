@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Itapotihyla langsdorffii
+  displayName: Itapotihyla langsdorffii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QDRW
+  sourceIndexes:
+    - name:
+        en: Itapotihyla langsdorffii
+        zh: Itapotihyla langsdorffii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QDRW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/71
+            queryName: Itapotihyla langsdorffii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/9
+            queryName: Osteocephalus langsdorffii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/100
+            queryName: Hyla langsdorffii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/101
+            queryName: Hypsiboas langsdorffii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-34a3d277e1
+      - s-61027cf7d5
+      - s-250fe13cf7
+      - s-a5835b9076
+      - s-0417b2e41e
+      - s-f0aa042276
+      - s-b947ab6ae0
+      - s-320835cb73
+      - s-cf5225a612
+      - s-1d847276a1
+      - s-021c19a585
+      - s-355ffa47da
+      - s-090ca39df7
+      - s-0f9c5e967b
+      - s-ed55265cd4
+      - s-87969b4046
+      - s-38213fe121
+    zh:
+      - s-27b2156be8
+      - s-c164318b7f
+      - s-f3784846e9
+      - s-4f2c6ea3b0
+      - s-464e9e1fb2
+      - s-9faf21809d
+      - s-619ce200cf
+      - s-18fc052ab1
+      - s-c82d306f31
+      - s-ea6da368f9
+      - s-613b7c9448
+      - s-1b65478e2e
+      - s-e21c8cf743
+      - s-afeb1c4fed
+      - s-b1d449cc2b
+      - s-9154a7fdd4
+      - s-58d65d81a6

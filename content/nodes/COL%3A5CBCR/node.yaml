@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus wittei
+  displayName: Xenopus wittei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBCR
+  sourceIndexes:
+    - name:
+        en: Xenopus wittei
+        zh: Xenopus wittei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBCR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/330
+            queryName: Xenopus wittei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-709588d176
+      - s-f8bf573097
+      - s-b579eff300
+      - s-cbb6a97524
+      - s-341d2498ab
+      - s-46fe87a3c0
+      - s-c45596feee
+      - s-f9118dd98c
+      - s-5eb3ed0fbc
+      - s-1eef98b393
+      - s-884ab58831
+      - s-45e7aca145
+      - s-fc241341b6
+      - s-16e81cadeb
+      - s-696c9ed786
+      - s-0590c524f5
+      - s-f17d858af4
+      - s-7889b9ef9a
+      - s-782fb5f208
+      - s-3ec8180257
+    zh:
+      - s-5a27cc6315
+      - s-bca3b3979e
+      - s-3533a10261
+      - s-784c90fef1
+      - s-6aea3b571f
+      - s-cd32c6b18a
+      - s-040c4bb1ab
+      - s-ba8a1cbe78
+      - s-459c253bab
+      - s-914ff178ca
+      - s-5243118fa0
+      - s-bf56ef9cd9
+      - s-7c0939811e
+      - s-ae7268d481
+      - s-1b0ed13aad
+      - s-58518efe74
+      - s-8f92bee888
+      - s-d093bad343
+      - s-a38fb57316
+      - s-af49622b34

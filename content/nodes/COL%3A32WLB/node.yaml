@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus stejnegeri
+  displayName: Cycloramphus stejnegeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WLB
+  sourceIndexes:
+    - name:
+        en: Cycloramphus stejnegeri
+        zh: Cycloramphus stejnegeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WLB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/292
+            queryName: Cycloramphus stejnegeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/317
+            queryName: Craspedoglossa stejnegeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/155
+            queryName: Borborocoetes stejnegeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/156
+            queryName: Zachaenus stejnegeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-35209d451c
+      - s-5a3019fd6e
+      - s-eb55c61b03
+      - s-561823f8ef
+      - s-83dd157fd7
+      - s-3dc8340895
+      - s-7461ca259a
+      - s-ad6b786858
+      - s-a430739507
+      - s-c1e4d37c6f
+      - s-25a6ce8937
+      - s-ac6bc84632
+      - s-64d6ef79b0
+      - s-61abd3e485
+      - s-eb90d3a0aa
+      - s-952616a551
+      - s-4b01f92e67
+    zh:
+      - s-50184a5233
+      - s-05c94f17df
+      - s-1abc675135
+      - s-13f134551a
+      - s-bc7ff3607f
+      - s-6f67a3a4f2
+      - s-d36eb9ae0d
+      - s-d1086e0282
+      - s-89b1f832be
+      - s-3cdc72e069
+      - s-a56b97810c
+      - s-bacf323ba5
+      - s-676f981a60
+      - s-7d057bec14
+      - s-e25ddfe2cc
+      - s-3849d25e78
+      - s-1102c13b61

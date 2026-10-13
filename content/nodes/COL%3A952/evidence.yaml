@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dermophiidae Taylor, 1969
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Dermophiidae
+      zh: Dermophiidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e84bd80a23
+            part: title
+          zh:
+            page: zh
+            section: s-92c05d50e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e84bd80a23
+            part: body
+          zh:
+            page: zh
+            section: s-92c05d50e3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f6be9eb664
+            part: title
+          zh:
+            page: zh
+            section: s-9de6491fbc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f6be9eb664
+            part: body
+          zh:
+            page: zh
+            section: s-9de6491fbc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-745c949955
+            part: title
+          zh:
+            page: zh
+            section: s-176d7b2660
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62PMK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62PMK
+            label:
+              en: Dermophis
+              zh: Dermophis
+          - kind: catalogue
+            colId: 4N3L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4N3L
+            label:
+              en: Geotrypetes
+              zh: Geotrypetes
+          - kind: catalogue
+            colId: 4RW5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4RW5
+            label:
+              en: Gymnopis
+              zh: Gymnopis
+          - kind: catalogue
+            colId: 7DH3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7DH3
+            label:
+              en: Schistometopum
+              zh: Schistometopum
+        text:
+          en:
+            page: en
+            section: s-745c949955
+            part: body
+          zh:
+            page: zh
+            section: s-176d7b2660
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dermophiidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/952
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c9128cadab
+        part: body
+      zh:
+        page: zh
+        section: s-6a136e0f37
+        part: body

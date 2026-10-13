@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus arsyecue
+  displayName: Atelopus arsyecue
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8XF
+  sourceIndexes:
+    - name:
+        en: Atelopus arsyecue
+        zh: Atelopus arsyecue
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8XF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/229
+            queryName: Atelopus arsyecue
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a45e01e780
+      - s-3956ebd765
+      - s-2138e9313a
+      - s-a3291ae963
+      - s-7300ecf866
+      - s-48127a937d
+      - s-1840716ed6
+      - s-760b790aee
+      - s-4e4ebd2b5c
+    zh:
+      - s-0c55d78d8a
+      - s-ad49e64a3d
+      - s-eb95ad81ad
+      - s-53bd97967d
+      - s-95ea2f3dfe
+      - s-51d123bd05
+      - s-076de91146
+      - s-06dce22e4e
+      - s-608bd3607f

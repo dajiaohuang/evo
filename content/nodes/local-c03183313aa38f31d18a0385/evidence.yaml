@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Melanophryniscus admirabilis
+    name:
+      en: Melanophryniscus admirabilis
+      zh: Melanophryniscus admirabilis
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Melanophryniscus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5a6c7ae1d0
+            part: body
+          zh:
+            page: zh
+            section: s-648df3fb3b
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-65650de974
+            part: body
+          zh:
+            page: zh
+            section: s-f3b30f5bad
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3173; Reference.csv rows 2656
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3173
+        values:
+          - Bufonidae
+          - Melanophryniscus
+          - Melanophryniscus admirabilis
+          - NA
+          - "35.53"
+          - "10.56"
+          - "10.4"
+          - "3.95"
+          - NA
+          - NA
+          - "6.05"
+          - "3.14"
+          - NA
+          - NA
+          - "4.78"
+          - NA
+          - NA
+          - "8.54"
+          - NA
+          - NA
+          - NA
+          - "13.04"
+          - "13.91"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.65"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2656
+        values:
+          - Anura
+          - Melanophryniscus_admirabilis
+          - "Di-Bernardo, M., Grilo, H., & Maneyro, R. (2006). New Species of Melanophryniscus (Anura: Bufonidae) from Rio Grande do Sul, Southern Brazil. Journal of Herpetology, 40, 261-266. https://doi.org/10.1670/05-008.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - SL
+      - FLL
+      - TL
+      - THL
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6R9KK
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

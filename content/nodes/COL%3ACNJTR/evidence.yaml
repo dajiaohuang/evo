@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chalcites basalis
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Chalcites basalis
+      en: Chalcites basalis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-d43a1a9c11
+            part: body
+          en:
+            page: en
+            section: s-b3c4baec3c
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-b9f9409f97
+            part: body
+          en:
+            page: en
+            section: s-352d03de75
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-eafb106f17
+            part: body
+          en:
+            page: en
+            section: s-06858af9c2
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-24e2b9ead3
+            part: body
+          en:
+            page: en
+            section: s-e5289b2e66
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetChalcitesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-52d3158527
+            part: body
+          en:
+            page: en
+            section: s-95e14cd993
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chalcites basalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/CNJTR
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetChalcitesHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Chalcites historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 6 selected AVONET1_BirdLife rows within 2090–2097; full eBird and BirdTree crosswalks, fourteen related COL cha/chr/rh name records and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 六条历史行：Chrysococcyx／Rhamphomantis 组合、单只雌或雄鸟、独立体重与生态类别分开。
+            en: "Six historical rows: separate Chrysococcyx/Rhamphomantis names, single female or male birds, compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-889cd938de
+        part: body
+      en:
+        page: en
+        section: s-d997d5aee9
+        part: body

@@ -1,0 +1,219 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sooglossus Boulenger, 1906
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Sooglossus
+      zh: Sooglossus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-884d0b28c5
+            part: title
+          zh:
+            page: zh
+            section: s-4d3f056590
+            part: title
+        text:
+          en:
+            page: en
+            section: s-884d0b28c5
+            part: body
+          zh:
+            page: zh
+            section: s-4d3f056590
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4567eaefab
+            part: title
+          zh:
+            page: zh
+            section: s-d8a1d94981
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4567eaefab
+            part: body
+          zh:
+            page: zh
+            section: s-d8a1d94981
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-dd4d75eb78
+            part: title
+          zh:
+            page: zh
+            section: s-e9ca6937c6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dd4d75eb78
+            part: body
+          zh:
+            page: zh
+            section: s-e9ca6937c6
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-7f875bda55
+            part: title
+          zh:
+            page: zh
+            section: s-05159501c8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7f875bda55
+            part: body
+          zh:
+            page: zh
+            section: s-05159501c8
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-65d6d0bdda
+            part: title
+          zh:
+            page: zh
+            section: s-09cf377f32
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4Y9ZP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4Y9ZP
+            label:
+              en: Sooglossus sechellensis
+              zh: Sooglossus sechellensis
+          - kind: catalogue
+            colId: 4Y9ZQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4Y9ZQ
+            label:
+              en: Sooglossus thomasseti
+              zh: Sooglossus thomasseti
+        text:
+          en:
+            page: en
+            section: s-65d6d0bdda
+            part: body
+          zh:
+            page: zh
+            section: s-09cf377f32
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Sooglossus
+          url: https://www.checklistbank.org/dataset/316115/taxon/7JP7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Sooglossus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-64bb4fb5a3
+        part: body
+      zh:
+        page: zh
+        section: s-dcdbf351bf
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Sooglossus
+      sourceRowIds:
+        - Anf5393
+        - Anf5394
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 1
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false

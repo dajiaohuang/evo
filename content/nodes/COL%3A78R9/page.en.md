@@ -1,0 +1,10 @@
+## Compare food, feeding positions and activity periods {#s-184e68e53c}
+This batch’s Rhinomyias route includes 6 historical entries; start with Rhinomyias oscillans, Rhinomyias brunneatus, Rhinomyias olivaceus, Rhinomyias ruficauda, Rhinomyias gularis. Food-category weights are available in 6, foraging strata in 6, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
+
+## Compare food, feeding positions and activity periods {#s-0b5a6b4157}
+This batch’s Rhinomyias route includes 5 historical entries; start with Rhinomyias additus, Rhinomyias umbratilis, Rhinomyias colonus, Rhinomyias insignis, Rhinomyias goodfellowi. Food-category weights are available in 0, foraging strata in 5, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
+
+## Evidence limits {#s-eed760f30b}
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+

@@ -1,0 +1,147 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea venenata Dinter
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 44CD3, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000784939.
+      scope: Moraea as represented by COL26.8 usage 44CD3. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/44CD3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 44CD3
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784939-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 44CD3 / WFO wfo-0000784939
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 97838 (Morphology), 96749 (Habitat), 94198 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants medium to large, 200-300 mm high. Corm globose, 20-35 mm diam.; tunics of hard, dark medium-textured to coarse fibres. Stem several-branched, with green to partly to completely dry, attenuate sheathing leaves at upper nodes 30-50 mm long. Foliage leaves 3 to 6, lanceolate to linear, channelled to ± flat, as long or longer than stem, falcate, usually trailing distally, 8-30 mm wide, margins often thickened, hyaline. Rhipidial spathes green or turning brown and dry above, long attenuate, with broad, translucent margins, inner mostly 40-60 mm long, outer almost as long, margins free nearly to base. Flowers fugaceous, blue-violet, outer tepal limbs with yellow to orange nectar guides at bases, reflexed up to ± 40º; outer tepals mostly 45-60 x 18-25 mm, claws ± 22 mm long, inner 35-50 x 9-12 mm, evidently ± erect. Filaments 10-15 mm long, united in lower 2/3; anthers 8-9 mm long. Ovary ± cylindric, mostly 15-20 mm long, sometimes veined red, usually included; style branches ± 12 mm long, crests up to 15 mm long. Capsules narrowly obovoid, 16-20 mm long, nodding when mature. Seeds angular, ± 2 mm long.
+            textZh: Moraea venenata Dinter 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Morphology row 97838, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: Moraea venenata has the several leaves, a branched stem, and blue-violet flowers much like those of M. polystachya, but is a more robust species, although often not as tall. The flowers have outer tepals 40-60 mm long with the claws 22-30 mm long, and as far as known the inner tepals are erect. The widest of the several leaves are up to 30 mm wide near the middle [vs. 6-12(-20) mm in M. polystachya] and the outer spathes are up to 60 mm long and the inner about half as long but with unusually broad, translucent margins, free almost to the base, an unusual feature among the southern African members of the genus.
+            textZh: SANBI 条目提供了 Moraea venenata Dinter 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94198, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dry stony ground, sometimes with limestone substrate.
+            textZh: SANBI 区域植物志将 Moraea venenata Dinter 的生境记为：Dry stony ground, sometimes with limestone substrate.
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Habitat row 96749, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-140749d6d8
+            part: title
+          zh:
+            page: zh
+            section: s-afe8e640ab
+            part: title
+        text:
+          en:
+            page: en
+            section: s-140749d6d8
+            part: body
+          zh:
+            page: zh
+            section: s-afe8e640ab
+            part: body
+        sourceIds:
+          - sanbi_18638_0
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b77e3f4745
+            part: title
+          zh:
+            page: zh
+            section: s-d5230aaca5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b77e3f4745
+            part: body
+          zh:
+            page: zh
+            section: s-d5230aaca5
+            part: body
+        sourceIds:
+          - sanbi_18638_0

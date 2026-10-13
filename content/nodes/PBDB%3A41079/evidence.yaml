@@ -1,0 +1,219 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Smilodon
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Smilodon
+      en: Smilodon
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ada63867d9
+            part: body
+          en:
+            page: en
+            section: s-f3f3598174
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a24d346c57
+            part: body
+          en:
+            page: en
+            section: s-ff217757ae
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Smilodon
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=41079
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:41079
+          readingTargets:
+            - name: Smilodon gracilis
+              pbdbTaxonId: txn:51615
+              canonicalPath: content/nodes/PBDB%3A51615
+            - name: Smilodon populator
+              pbdbTaxonId: txn:51618
+              canonicalPath: content/nodes/PBDB%3A51618
+            - name: Smilodon riggii
+              pbdbTaxonId: txn:270462
+              canonicalPath: content/nodes/PBDB%3A270462
+            - name: Smilodon fatalis
+              pbdbTaxonId: txn:46515
+              canonicalPath: content/nodes/PBDB%3A46515
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-8a37368a4b
+        part: body
+      en:
+        page: en
+        section: s-ed78a4a3dc
+        part: body
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-1a578e2e2e
+          part: title
+        zh:
+          page: zh
+          section: s-fce7082997
+          part: title
+      text:
+        en:
+          page: en
+          section: s-1a578e2e2e
+          part: body
+        zh:
+          page: zh
+          section: s-fce7082997
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-ea205c458a
+          part: title
+        zh:
+          page: zh
+          section: s-8ecb578656
+          part: title
+      text:
+        en:
+          page: en
+          section: s-ea205c458a
+          part: body
+        zh:
+          page: zh
+          section: s-8ecb578656
+          part: body
+  atlas-node:
+    name: Smilodon
+    commonName: Saber-toothed Cat
+    commonNameZh: 剑齿虎
+    rank: genus
+    taxonId: txn:41079
+    firstAppearance: 2.5
+    lastAppearance: 0.01
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:smilodon
+      claimKind: scientific
+      claimType: topology
+      statement: A partial mitochondrial genome from one Smilodon populator specimen places the sampled lineage with Homotherium in a well-supported machairodont clade within Felidae, distinct from sampled living felid lineages; one Smilodon sample and mitochondrial inheritance limit broader species-level inference.
+      confidence: medium
+      confidenceRationale: The primary ancient-mitogenomic analysis directly supports the sampled placement. The claim retains its single-specimen, mitochondrial and extinct-taxon sampling limits.
+      referenceLinks:
+        - relation: supports
+          referenceId: paijmans-2017-sabertooth-mitogenomics
+          pages: 3330–3336.e5
+          figure: Figure 2
+          quoteLocator: "Summary; Results: phylogenetic analyses of partial mitogenomes"
+    - subjectId: taxon:smilodon
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Smilodon is displayed at 0.012–0.01 Ma only as the dated ancient-DNA specimen window, not the full genus range. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Smilodon uses Paijmans, J.L.A.; Barnett, R.; Gilbert, M.T.P.; Zepeda-Mendoza, M.L.; Reumer, J.W.F.; de Vos, J.; Zazula, G.; Nagel, D.; Baryshnikov, G.F.; Leonard, J.A.; Rohland, N.; Westbury, M.V.; Barlow, A.; Hofreiter, M. (2017) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Late Pleistocene Smilodon populator mitogenomic sample in Paijmans et al.; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: paijmans-2017-sabertooth-mitogenomics
+          pages: 3330–3336.e5
+          figure: Figure 2
+          quoteLocator: "Summary; Results: phylogenetic analyses of partial mitogenomes"
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 一手古线粒体基因组分析直接支持该取样位置；主张保留单标本、线粒体遗传以及灭绝类群取样方面的限制。
+    - Smilodon 采用 Paijmans, J.L.A.; Barnett, R.; Gilbert, M.T.P.; Zepeda-Mendoza, M.L.; Reumer, J.W.F.; de Vos, J.; Zazula, G.; Nagel, D.; Baryshnikov, G.F.; Leonard, J.A.; Rohland, N.; Westbury, M.V.; Barlow, A.; Hofreiter, M.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Late Pleistocene Smilodon populator mitogenomic sample in Paijmans et al.；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 一件 Smilodon populator 标本的部分线粒体基因组，把该取样谱系与 Homotherium 一同置于猫科内部支持良好、区别于取样现生猫科各支的剑齿虎类分支；仅一件 Smilodon 样本且证据来自线粒体，限制了更广泛的物种级推断。
+    - Smilodon 仅以 0.012–0.01 Ma 展示为古 DNA 标本的测年窗口，而非该属完整范围。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: smilodon
+      rangeKind: global-composite
+      taxonomicConcept: Smilodon — source-bounded sample window
+      geographicScope: Late Pleistocene Smilodon populator mitogenomic sample in Paijmans et al.
+      olderMa: 0.012
+      youngerMa: 0.01
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the dated ancient-DNA specimen window, not the full genus range; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: Evolutionary History of Saber-Toothed Cats Based on Ancient Mitogenomics directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:smilodon:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: paijmans-2017-sabertooth-mitogenomics
+          locator: "3330–3336.e5; Summary; Results: phylogenetic analyses of partial mitogenomes"
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized

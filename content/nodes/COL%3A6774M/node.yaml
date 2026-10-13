@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus apiau
+  displayName: Anomaloglossus apiau
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6774M
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus apiau
+        zh: Anomaloglossus apiau
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6774M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/1
+            queryName: Anomaloglossus apiau
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-37a5060868
+      - s-323c1f5b11
+      - s-1d583c4517
+      - s-14efa4b1f2
+      - s-b21d335f18
+      - s-0799cf9a8c
+      - s-b3f8c97fb5
+      - s-cac689ec93
+      - s-20b3a32cb9
+      - s-ce1ab2ede8
+      - s-3bf39688ef
+      - s-9812fea18e
+    zh:
+      - s-dde7e9b4c7
+      - s-5714edf3e2
+      - s-6588ef252b
+      - s-d153600f05
+      - s-38b1b08528
+      - s-2d2746b86f
+      - s-87bbcc7f83
+      - s-01e356d66a
+      - s-b94f01ee7c
+      - s-94b31c73cf
+      - s-4bcbd94310
+      - s-c9746c501b

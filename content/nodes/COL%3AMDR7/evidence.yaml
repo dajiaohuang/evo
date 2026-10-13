@@ -1,0 +1,866 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Bolitoglossa occidentalis Taylor, 1941
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Bolitoglossa occidentalis
+      zh: Bolitoglossa occidentalis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a0e36b9c5f
+            part: title
+          zh:
+            page: zh
+            section: s-843a2a03fa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a0e36b9c5f
+            part: body
+          zh:
+            page: zh
+            section: s-843a2a03fa
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ed1755ae73
+            part: title
+          zh:
+            page: zh
+            section: s-d4f2398380
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ed1755ae73
+            part: body
+          zh:
+            page: zh
+            section: s-d4f2398380
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-43c3670979
+            part: title
+          zh:
+            page: zh
+            section: s-9974c80696
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-43c3670979
+            part: body
+          zh:
+            page: zh
+            section: s-9974c80696
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-374fd67986
+            part: title
+          zh:
+            page: zh
+            section: s-1f11075612
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-374fd67986
+            part: body
+          zh:
+            page: zh
+            section: s-1f11075612
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cf399c5066
+            part: title
+          zh:
+            page: zh
+            section: s-1e01960471
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-cf399c5066
+            part: body
+          zh:
+            page: zh
+            section: s-1e01960471
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-862a943ad9
+            part: title
+          zh:
+            page: zh
+            section: s-1c829d2ab6
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-862a943ad9
+            part: body
+          zh:
+            page: zh
+            section: s-1c829d2ab6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-320cc69bdd
+            part: title
+          zh:
+            page: zh
+            section: s-c214364be3
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-320cc69bdd
+            part: body
+          zh:
+            page: zh
+            section: s-c214364be3
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-278caf2342
+            part: title
+          zh:
+            page: zh
+            section: s-c2bd71f41d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-278caf2342
+            part: body
+          zh:
+            page: zh
+            section: s-c2bd71f41d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-288cbd84d9
+            part: title
+          zh:
+            page: zh
+            section: s-54883851cc
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-288cbd84d9
+            part: body
+          zh:
+            page: zh
+            section: s-54883851cc
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-ed435b3e139bdeef1f46afedc7f37ad3
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-fc0627c3d5
+            part: title
+          zh:
+            page: zh
+            section: s-df2db5ca43
+            part: title
+        sourceIds:
+          - primary-pmc3345794-mdr7
+        text:
+          en:
+            page: en
+            section: s-fc0627c3d5
+            part: body
+          zh:
+            page: zh
+            section: s-df2db5ca43
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d09e903896
+            part: title
+          zh:
+            page: zh
+            section: s-ec20ff6efe
+            part: title
+        sourceIds:
+          - primary-pmc3345794-mdr7
+        text:
+          en:
+            page: en
+            section: s-d09e903896
+            part: body
+          zh:
+            page: zh
+            section: s-ec20ff6efe
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-e8c7b66865
+            part: title
+          zh:
+            page: zh
+            section: s-f132261fdf
+            part: title
+        sourceIds:
+          - primary-pmc3556321-mdr7
+        text:
+          en:
+            page: en
+            section: s-e8c7b66865
+            part: body
+          zh:
+            page: zh
+            section: s-f132261fdf
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-186cef1b0b
+            part: title
+          zh:
+            page: zh
+            section: s-129a38823c
+            part: title
+        sourceIds:
+          - primary-pmc3556321-mdr7
+        text:
+          en:
+            page: en
+            section: s-186cef1b0b
+            part: body
+          zh:
+            page: zh
+            section: s-129a38823c
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-b57190a640
+            part: title
+          zh:
+            page: zh
+            section: s-cbdaaaf239
+            part: title
+        sourceIds:
+          - primary-pmc3556321-mdr7
+        text:
+          en:
+            page: en
+            section: s-b57190a640
+            part: body
+          zh:
+            page: zh
+            section: s-cbdaaaf239
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cc50aea3cb
+            part: title
+          zh:
+            page: zh
+            section: s-4c6b3f54c2
+            part: title
+        sourceIds:
+          - primary-pmc3556321-mdr7
+        text:
+          en:
+            page: en
+            section: s-cc50aea3cb
+            part: body
+          zh:
+            page: zh
+            section: s-4c6b3f54c2
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-e59e521286
+            part: title
+          zh:
+            page: zh
+            section: s-a2cbb799d9
+            part: title
+        sourceIds:
+          - primary-pmc11562844-mdr7
+        text:
+          en:
+            page: en
+            section: s-e59e521286
+            part: body
+          zh:
+            page: zh
+            section: s-a2cbb799d9
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-1345b0fd31
+            part: title
+          zh:
+            page: zh
+            section: s-2431cc6ad1
+            part: title
+        sourceIds:
+          - primary-pmc11562844-mdr7
+        text:
+          en:
+            page: en
+            section: s-1345b0fd31
+            part: body
+          zh:
+            page: zh
+            section: s-2431cc6ad1
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-555b2a46ec
+            part: title
+          zh:
+            page: zh
+            section: s-f210a96823
+            part: title
+        sourceIds:
+          - primary-pmc11562844-mdr7
+        text:
+          en:
+            page: en
+            section: s-555b2a46ec
+            part: body
+          zh:
+            page: zh
+            section: s-f210a96823
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Bolitoglossa occidentalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/MDR7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 208403, row 277409; Distribution.tsv rows 69567; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6160; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6155 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc3345794-mdr7
+        referenceId: ref-f70ff0be-1268-4591-ab49-c2c858d2c993
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Bolitoglossa occidentalis: Main article comparative methods, results and discussion; tentative population assignments retained; no tables or figures reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc3556321-mdr7
+        referenceId: ref-88d61643-7bcc-49ad-a4e8-c9588eb138e5
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Bolitoglossa occidentalis: Background, Results and Discussion, Study-system/sample-collection, raw XML sequencing/phylogeny and hybrid-detection methods read; 2012 four-species Nanotriton concepts, gene-specific alignments and inferred POMC alleles, alternative geographic histories and rate-based dating separately scoped; no original supplementary locality/sequence files independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc11562844-mdr7
+        referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Bolitoglossa occidentalis: Results and Tables 1–3, genome-size and sequencing methods, four-species assembly/library construction, repeat masking/diversity methods, abundance/size/activity results, genome-size and repeat-history discussion read; no original reads/assemblies or supplementary voucher/landscape matrices independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-25c483d334
+        part: body
+      zh:
+        page: zh
+        section: s-16a95762df
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "208403"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=208403
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 277409
+        key: "208403"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "208403"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 69567
+            key: 208403|Middle America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-ed435b3e139bdeef1f46afedc7f37ad3
+      sourceRowId: Anf6160
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6160
+        bibliographyRowId: Anf6155
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Bolitoglossa pacaya
+        candidateBibliographyRowIds:
+          - Anf6155
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.185.1146
+        referenceId: ref-f70ff0be-1268-4591-ab49-c2c858d2c993
+        sourceKey: primary-pmc3345794-mdr7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC3345794/article.xml
+        sourceConcept: Bolitoglossa occidentalis
+        evidenceRead: "Bolitoglossa occidentalis: Main article comparative methods, results and discussion; tentative population assignments retained; no tables or figures reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 3.0
+          licenseUrl: https://creativecommons.org/licenses/by/3.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: One named mitochondrial voucher in the chinanteca comparison
+              zh: chinanteca 比较中的一件确定线粒体凭证
+            referenceId: ref-f70ff0be-1268-4591-ab49-c2c858d2c993
+            sourceKey: primary-pmc3345794-mdr7
+            locator: Reading-sections index 1, Materials and methods, paragraph 5; index 2, Results, paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bcee92e2f4
+                part: body
+              zh:
+                page: zh
+                section: s-c67ad8b6ea
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: A high misclassification count in one reduced analysis
+              zh: 一项降维分析中的较高误分类数量
+            referenceId: ref-f70ff0be-1268-4591-ab49-c2c858d2c993
+            sourceKey: primary-pmc3345794-mdr7
+            locator: Reading-sections index 2, Results, paragraphs 0–1; index 5, Discussion, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5b1de1407c
+                part: body
+              zh:
+                page: zh
+                section: s-59f42cf97e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1186/1471-2148-12-255
+        referenceId: ref-88d61643-7bcc-49ad-a4e8-c9588eb138e5
+        sourceKey: primary-pmc3556321-mdr7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC3556321/article.xml
+        sourceConcept: Bolitoglossa occidentalis
+        evidenceRead: "Bolitoglossa occidentalis: Background, Results and Discussion, Study-system/sample-collection, raw XML sequencing/phylogeny and hybrid-detection methods read; 2012 four-species Nanotriton concepts, gene-specific alignments and inferred POMC alleles, alternative geographic histories and rate-based dating separately scoped; no original supplementary locality/sequence files independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 2.0
+          licenseUrl: https://creativecommons.org/licenses/by/2.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Two mitochondrial markers and one nuclear locus define this study
+              zh: 两个线粒体标记及一个核位点限定研究
+            referenceId: ref-88d61643-7bcc-49ad-a4e8-c9588eb138e5
+            sourceKey: primary-pmc3556321-mdr7
+            locator: PMC3556321 section 4 paragraphs 0–1; XML sec10 paragraphs 0–2; sec11 paragraph 0; section 1 paragraphs 0, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3ffc48a56e
+                part: body
+              zh:
+                page: zh
+                section: s-ad7db243f3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Geographic lineages and a rejected Honduras identification
+              zh: 地理支系与被否定的 Honduras 鉴定
+            referenceId: ref-88d61643-7bcc-49ad-a4e8-c9588eb138e5
+            sourceKey: primary-pmc3556321-mdr7
+            locator: PMC3556321 section 1 paragraphs 1, 4; section 4 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-800f7bd3b3
+                part: body
+              zh:
+                page: zh
+                section: s-085ebdfb68
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: An inferred Caribbean-draining origin remains sampling-dependent
+              zh: 推断加勒比流域起源依赖采样
+            referenceId: ref-88d61643-7bcc-49ad-a4e8-c9588eb138e5
+            sourceKey: primary-pmc3556321-mdr7
+            locator: PMC3556321 section 1 paragraphs 6–8; section 2 paragraph 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9d6403d8a1
+                part: body
+              zh:
+                page: zh
+                section: s-fd9dace7c2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Plantation encounters do not demonstrate disturbance tolerance
+              zh: 种植园遭遇不证明干扰耐受
+            referenceId: ref-88d61643-7bcc-49ad-a4e8-c9588eb138e5
+            sourceKey: primary-pmc3556321-mdr7
+            locator: PMC3556321 section 0 paragraphs 4–5; section 4 paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7e0bf796a8
+                part: body
+              zh:
+                page: zh
+                section: s-e183264a9e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1093/molbev/msae225
+        referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+        sourceKey: primary-pmc11562844-mdr7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11562844/article.xml
+        sourceConcept: Bolitoglossa occidentalis
+        evidenceRead: "Bolitoglossa occidentalis: Results and Tables 1–3, genome-size and sequencing methods, four-species assembly/library construction, repeat masking/diversity methods, abundance/size/activity results, genome-size and repeat-history discussion read; no original reads/assemblies or supplementary voucher/landscape matrices independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: One sequenced individual and a separate DNA-content estimate
+              zh: 一个测序个体与另行估计的 DNA 含量
+            referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+            sourceKey: primary-pmc11562844-mdr7
+            locator: PMC11562844 XML msae225-T1 named species row; msae225-s5.1 paragraph 0; msae225-s5.2 paragraph 0; msae225-s5.4 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bfe41f8971
+                part: body
+              zh:
+                page: zh
+                section: s-1d0adada43
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: Detected repeat abundance is a method-dependent lower estimate
+              zh: 可检出重复丰度是依赖方法的偏低估计
+            referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+            sourceKey: primary-pmc11562844-mdr7
+            locator: PMC11562844 XML msae225-T1, T2, T3 named species rows; msae225-s2 paragraph 2; msae225-s3.1 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f587e5e845
+                part: body
+              zh:
+                page: zh
+                section: s-26b1944624
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Repeat divergence suggests relative expansion histories
+              zh: 重复分化提示相对扩张历史
+            referenceId: ref-0f6da793-bdba-42f9-a75c-d8663b17d66e
+            sourceKey: primary-pmc11562844-mdr7
+            locator: PMC11562844 XML msae225-s2.4 paragraphs 0–1; msae225-s3.2 paragraphs 0–1; msae225-s5.4 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0cc0df5e7a
+                part: body
+              zh:
+                page: zh
+                section: s-de227ae886
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

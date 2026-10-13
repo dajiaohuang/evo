@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Micrixalus herrei
+  displayName: Micrixalus herrei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42RGR
+  sourceIndexes:
+    - name:
+        en: Micrixalus herrei
+        zh: Micrixalus herrei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42RGR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/455
+            queryName: Micrixalus herrei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-89056d3226
+      - s-31a5f76be4
+      - s-441359ef1a
+      - s-923256889b
+      - s-2634b84f21
+      - s-e08e66c20f
+    zh:
+      - s-ad5636812d
+      - s-20a10f8a58
+      - s-ec7097ac45
+      - s-a236dee62c
+      - s-4041700706
+      - s-c88408e2ab

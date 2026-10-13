@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Uintacyon
+    commonName: Uintacyon
+    commonNameZh: 尤因塔犬兽
+    rank: genus
+    firstAppearance: 55.8
+    lastAppearance: 42
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+    taxonId: txn:40989
+  claims:
+    - subjectId: taxon:uintacyon
+      claimKind: scientific
+      claimType: topology
+      statement: The same morphology analysis samples Uintacyon and recovers a limited Uintacyon–Vassacyon relationship while emphasizing weak resolution among early “miacids”; the result does not identify Uintacyon as a crown carnivoran ancestor.
+      confidence: medium
+      confidenceRationale: The source supports sampled genus-level placement and explicitly reports unresolved surrounding nodes.
+      referenceLinks:
+        - relation: supports
+          referenceId: heinrich-1997-early-miacids
+          pages: 1172–1178
+          quoteLocator: Cladistic results for Uintacyon, Vassacyon and other early miacids
+  claim-rationales.zh:
+    - 来源支持取样属级位置，并明确报告周围节点未解。
+  claim-statements.zh:
+    - 同一形态分析取样 Uintacyon，并恢复有限的 Uintacyon—Vassacyon 关系，同时强调早期“细齿兽类”之间解析度低；该结果不把 Uintacyon 认定为冠群食肉类祖先。
+  ranges:
+    - entityId: uintacyon
+      rangeKind: global-composite
+      taxonomicConcept: Uintacyon navigation display — numerical range withheld — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former navigation numbers are withdrawn because the available cladistic study samples Uintacyon but does not document auditable numerical genus endpoints. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: "A source audit of Referral of Miacis jepseni Guthrie to Oödectes Wortman, and an assessment of phylogenetic relationships among early Eocene Miacidae (Mammalia: Carnivora) found relationship or taxonomic evidence but no range-fit support for the former numerical display."
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: heinrich-1997-early-miacids
+          locator: 1172–1178; Cladistic results for Uintacyon, Vassacyon and other early miacids
+  catalogue-profile:
+    scientificName: Uintacyon
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Uintacyon
+      en: Uintacyon
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-93f42c03b1
+            part: body
+          en:
+            page: en
+            section: s-43a2039ad9
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-16aadb270f
+            part: body
+          en:
+            page: en
+            section: s-51bd1e8644
+            part: body
+      - topic: phylogeny
+        title:
+          en:
+            page: en
+            section: s-73cafa7578
+            part: title
+          zh:
+            page: zh
+            section: s-5aa229b155
+            part: title
+        sourceIds:
+          - heinrich-1997-early-miacids
+        text:
+          en:
+            page: en
+            section: s-73cafa7578
+            part: body
+          zh:
+            page: zh
+            section: s-5aa229b155
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Uintacyon
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=40989
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:40989
+          readingTargets:
+            - name: Uintacyon hookeri
+              pbdbTaxonId: txn:347301
+              canonicalPath: content/nodes/PBDB%3A347301
+            - name: Uintacyon massetericus
+              pbdbTaxonId: txn:45730
+              canonicalPath: content/nodes/PBDB%3A45730
+            - name: Uintacyon acutus
+              pbdbTaxonId: txn:52550
+              canonicalPath: content/nodes/PBDB%3A52550
+            - name: Uintacyon asodes
+              pbdbTaxonId: txn:52551
+              canonicalPath: content/nodes/PBDB%3A52551
+            - name: Uintacyon gingerichi
+              pbdbTaxonId: txn:288526
+              canonicalPath: content/nodes/PBDB%3A288526
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-2a3b00a246
+        part: body
+      en:
+        page: en
+        section: s-d364f313ae
+        part: body

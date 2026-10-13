@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus etheridgei
+  displayName: Eleutherodactylus etheridgei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39997
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus etheridgei
+        zh: Eleutherodactylus etheridgei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "39997"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/200
+            queryName: Eleutherodactylus etheridgei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/55
+            queryName: Euhyas etheridgei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0715a31319
+      - s-6b6b3b0134
+      - s-e16870dee1
+      - s-c13f4b1192
+      - s-dc2402b354
+      - s-260804c705
+      - s-d9f5c191d2
+      - s-a378d6a059
+      - s-a64d233c7f
+      - s-eb08b4783d
+      - s-d80a65f602
+    zh:
+      - s-f2c912f3e5
+      - s-069e16b214
+      - s-489fd9358b
+      - s-7b0bcec334
+      - s-98d1df339b
+      - s-0324103dd7
+      - s-fed635fd6b
+      - s-f82af97f54
+      - s-5bc8776c87
+      - s-f7d44a4e5d
+      - s-e751a080aa

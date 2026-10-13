@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana guentheri
+  displayName: Boana guentheri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7YJ
+  sourceIndexes:
+    - name:
+        en: Boana guentheri
+        zh: Boana guentheri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7YJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/487
+            queryName: Boana guentheri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/341
+            queryName: Hyla guentheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/157
+            queryName: Hypsiboas guentheri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/359
+            queryName: Hyla leucotaenia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8eb1b7d4b1
+      - s-9535fe5f51
+      - s-5328d1b5e0
+      - s-3839ab2203
+      - s-2bcf6a98f4
+      - s-f3866469d9
+      - s-9ed0c72757
+      - s-a8af1c63e3
+      - s-dfdf3cd52c
+      - s-39f98f58f9
+      - s-9fd270e484
+      - s-a0e1ff58ff
+      - s-b79ffd9345
+      - s-07101a3393
+      - s-e6bdbc8612
+      - s-d61f59f6af
+      - s-61fa7b1880
+      - s-ceb7af9044
+      - s-a1c8ed1e5e
+      - s-661642484e
+      - s-e0f239b6ef
+    zh:
+      - s-8674b8ba5a
+      - s-a081903396
+      - s-ce812bd9c4
+      - s-9f641230f2
+      - s-eadc611b1a
+      - s-468cf778be
+      - s-91782b831f
+      - s-2a647a7fea
+      - s-bd44ead4db
+      - s-72a112f93c
+      - s-6b75ff3bec
+      - s-a7ae954920
+      - s-816d0f7e2d
+      - s-1e5cfe6a81
+      - s-82b47574ac
+      - s-88902a3757
+      - s-28ba80dee6
+      - s-06dcb55edc
+      - s-7976c74507
+      - s-6e74c143d0
+      - s-117d0b4441

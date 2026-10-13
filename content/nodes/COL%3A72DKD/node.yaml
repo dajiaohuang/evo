@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes megastomias
+  displayName: Limnonectes megastomias
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DKD
+  sourceIndexes:
+    - name:
+        en: Limnonectes megastomias
+        zh: Limnonectes megastomias
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DKD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/107
+            queryName: Limnonectes megastomias
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b4b8617d6e
+      - s-346094fa52
+      - s-2f52c4a9bf
+      - s-5b719f991b
+      - s-7660248004
+      - s-de12a36b5f
+      - s-d106befd6c
+      - s-3862b3196c
+      - s-7f93dfdbe0
+      - s-ec976a627a
+    zh:
+      - s-3d3173b43c
+      - s-3d152f2220
+      - s-4edf97e99e
+      - s-7a1ac68e92
+      - s-6dfb537027
+      - s-5aacf06c75
+      - s-124af19ffa
+      - s-9456523dbf
+      - s-ac760542b8
+      - s-d15bff9675

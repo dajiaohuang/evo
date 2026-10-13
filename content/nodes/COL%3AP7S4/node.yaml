@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia armata
+  displayName: Caecilia armata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7S4
+  sourceIndexes:
+    - name:
+        en: Caecilia armata
+        zh: Caecilia armata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7S4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/56
+            queryName: Caecilia armata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ec13a6ec09
+      - s-6dffe17644
+      - s-c2aa3b6966
+      - s-e1230abbc5
+      - s-7751526677
+      - s-cc1fee6bd4
+      - s-86a2c0ab73
+      - s-4f0bcd157e
+      - s-ebc1824390
+    zh:
+      - s-3b005830f9
+      - s-2ffacebb89
+      - s-69e4b5a9bd
+      - s-502d934de8
+      - s-2665049591
+      - s-e39b75f7a1
+      - s-1b70e3c9ce
+      - s-446901a87b
+      - s-b41ca4c314

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor azueroensis
+  displayName: Craugastor azueroensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCDF
+  sourceIndexes:
+    - name:
+        en: Craugastor azueroensis
+        zh: Craugastor azueroensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCDF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/89
+            queryName: Craugastor azueroensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/271
+            queryName: Eleutherodactylus azueroensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd42ccb523
+      - s-156f2a58dd
+      - s-a3123daf10
+      - s-df7aa8aad4
+      - s-6d4c630f49
+      - s-737f717b71
+      - s-047c7a7581
+      - s-dd10fd8469
+      - s-4d0ada0618
+      - s-122e2a3fe3
+    zh:
+      - s-6c9a4c2ba6
+      - s-396f736245
+      - s-a13aec7807
+      - s-db76e44bc0
+      - s-8271bad4a7
+      - s-0f2bbdfca5
+      - s-9b691f2acf
+      - s-2fd7726f0a
+      - s-19574913e6
+      - s-db5cf7b8a1

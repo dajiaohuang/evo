@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adelophryne maranguapensis
+  displayName: Adelophryne maranguapensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9XZ4
+  sourceIndexes:
+    - name:
+        en: Adelophryne maranguapensis
+        zh: Adelophryne maranguapensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9XZ4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/11
+            queryName: Adelophryne maranguapensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4ff3a26201
+      - s-1e97f82ba5
+      - s-cce8a75138
+      - s-6a6cdab09c
+      - s-a6ff1dc249
+      - s-47c73d6af4
+      - s-cf45c49b9a
+      - s-faa1561ef5
+      - s-922975b3cc
+      - s-214f46c54b
+    zh:
+      - s-cfb3c7e657
+      - s-1c5b112384
+      - s-c6d965b041
+      - s-8120492fac
+      - s-20358d018a
+      - s-d5c7c8bd0f
+      - s-57c85f9eaa
+      - s-ab7508703e
+      - s-865014640b
+      - s-16986d69b7

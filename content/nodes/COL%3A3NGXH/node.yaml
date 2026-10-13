@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus lehmanni
+  displayName: Hyloxalus lehmanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGXH
+  sourceIndexes:
+    - name:
+        en: Hyloxalus lehmanni
+        zh: Hyloxalus lehmanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGXH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/110
+            queryName: Hyloxalus lehmanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/106
+            queryName: Colostethus lehmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b36cb0023c
+      - s-c8c9bff210
+      - s-2df69e93da
+      - s-12927b95c9
+      - s-ed9e15faa7
+      - s-abc1923f8c
+      - s-b2d0ad8899
+      - s-c7599b4cd7
+      - s-6fcede6368
+    zh:
+      - s-ff0ce5f2a3
+      - s-18deab518e
+      - s-a1871153cf
+      - s-468a18233d
+      - s-4923600721
+      - s-228e3e84f1
+      - s-369db005db
+      - s-76413569f0
+      - s-d5e4c913ec

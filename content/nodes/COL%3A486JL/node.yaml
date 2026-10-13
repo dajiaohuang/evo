@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus griffithsi
+  displayName: Nymphargus griffithsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JL
+  sourceIndexes:
+    - name:
+        en: Nymphargus griffithsi
+        zh: Nymphargus griffithsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/428
+            queryName: Nymphargus griffithsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/1
+            queryName: Cochranella griffithsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/56
+            queryName: Centrolenella griffithsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0acbccb273
+      - s-cfc58f950f
+      - s-cc62313ad0
+      - s-7d3644af47
+      - s-9df8c3b7c3
+      - s-a843420102
+      - s-b760a3c1ab
+      - s-66b26f4967
+      - s-a8cf4cd2e9
+      - s-ac30cecce7
+      - s-2351884546
+      - s-d70b5d3e3f
+      - s-2376eaa015
+      - s-ab9932215a
+      - s-e4990c553f
+      - s-f71d3bdf3c
+      - s-04f806ab31
+      - s-059077ae06
+      - s-4884aa35a3
+      - s-504aeb987d
+      - s-2c5f1a9d14
+      - s-7c8b65bc77
+      - s-2ac54e0a88
+      - s-d64c53c981
+      - s-e8a8265107
+      - s-c08d5f94d4
+      - s-6efae4103f
+      - s-a0c735bcdf
+      - s-bbc4c561fd
+    zh:
+      - s-9d9d870e39
+      - s-a342f8b301
+      - s-8c923704c5
+      - s-aa909685ac
+      - s-7a1e3a172e
+      - s-f7d1104f0a
+      - s-44959df319
+      - s-ab5659404d
+      - s-719bfe109d
+      - s-589edcf4ff
+      - s-ffc61e38f4
+      - s-1ebe45ce5a
+      - s-6a00b47b97
+      - s-2da4238fdd
+      - s-a878ae8ba3
+      - s-82f5a7acd1
+      - s-b48c4f7142
+      - s-1279329ce3
+      - s-f87f174ce2
+      - s-8736baa9f1
+      - s-ad84d7af8c
+      - s-8f95a08540
+      - s-3977d4187d
+      - s-bc57a3ff51
+      - s-a9ce25870d
+      - s-b990e17bc2
+      - s-d0f5abaae5
+      - s-6aacdbcc01
+      - s-de2ba82296

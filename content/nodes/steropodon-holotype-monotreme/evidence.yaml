@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-43a2bf9344
+      part: title
+    titleZh:
+      page: zh
+      section: s-9a148c4ae3
+      part: title
+    category: morphology
+    startAge: 110
+    endAge: 100
+    regions:
+      - Griman Creek Formation, Lightning Ridge, New South Wales, Australia
+    clades:
+      - Steropodon galmani
+      - Monotremata
+    summary:
+      page: en
+      section: s-43a2bf9344
+      part: body
+    summaryZh:
+      page: zh
+      section: s-9a148c4ae3
+      part: body
+    claimIds:
+      - claim:event:steropodon-holotype-monotreme
+    evidenceItems:
+      - statement: AM F66763 preserves a right dentary fragment and three molars whose morphology was compared with monotreme and tribosphenic conditions.
+        relation: supports
+        claimIds:
+          - claim:event:steropodon-holotype-monotreme
+        referenceLinks:
+          - referenceId: archer-1985-steropodon
+            relation: supports
+            pages: 363–366
+            figure: Figures 1–2
+            quoteLocator: Diagnosis; Description; Comparisons
+    uncertaintyItems:
+      - statement: Dental homology and affinity are interpretations; one jaw cannot establish a direct ancestor, a complete body plan or an immutable global first occurrence.
+        relation: contextualizes
+        claimIds:
+          - claim:event:steropodon-holotype-monotreme
+        referenceLinks:
+          - referenceId: archer-1985-steropodon
+            relation: supports
+            pages: 363–366
+            figure: Figures 1–2
+            quoteLocator: Diagnosis; Description; Comparisons
+  claims:
+    - subjectId: event:steropodon-holotype-monotreme
+      claimKind: scientific
+      claimType: morphology
+      statement: AM F66763 is a right dentary fragment with three tribosphenic molars from the Griman Creek Formation; its monotreme affinity rests on published dental comparison and does not make Steropodon a direct ancestor or establish a universal monotreme first appearance.
+      confidence: medium
+      confidenceRationale: The named jaw and teeth are direct specimen evidence, whereas molar homology, phylogenetic affinity and record priority depend on comparison and sampling.
+      referenceLinks:
+        - referenceId: archer-1985-steropodon
+          relation: supports
+          pages: 363–366
+          figure: Figures 1–2
+          quoteLocator: Diagnosis; Description; Comparisons
+  claim-rationales.zh:
+    - 具名下颌与牙齿是直接标本证据；臼齿同源性、系统亲缘和记录优先性取决于比较与取样。
+  claim-statements.zh:
+    - AM F66763 是来自 Griman Creek 组、保存三枚兽齿型臼齿的右齿骨残片；其单孔类亲缘依据已发表的牙齿比较，不能据此把 Steropodon 当作直系祖先或普遍的单孔类首现。

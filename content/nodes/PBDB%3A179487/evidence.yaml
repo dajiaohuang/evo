@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Mastodonsaurus cappelensis
+    rank: species
+    sourceTaxonId: txn:179487
+    name:
+      en: Mastodonsaurus cappelensis
+      zh: Mastodonsaurus cappelensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-b15728865e
+            part: body
+          zh:
+            page: zh
+            section: s-0adb0a73d6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 5 PBDB occurrence rows and collection fields
+          zh: 5 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-3875b3c933
+            part: body
+          zh:
+            page: zh
+            section: s-26e21c9e57
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Mastodonsaurus cappelensis
+          zh: Mastodonsaurus cappelensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-cb527e69ec
+            part: body
+          zh:
+            page: zh
+            section: s-05f0dc4e77
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:179487; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+    occurrenceEvidence:
+      - occurrenceId: occ:1418701
+        collectionId: col:196545
+        acceptedTaxonId: txn:179487
+        identifiedName: Mastodonsaurus cappelensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30411
+        bibliography: M. Moser and R. Schoch. 2007. Revision of the type material and nomenclature of Mastodonsaurus giganteus (Jaeger) (Temnospondyli) from the Middle Triassic of Germany. Palaeontology 50(5):1245-1266
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: null
+        stratigraphy:
+          group: Upper Buntsandstein
+          formation: null
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 241.464
+      - occurrenceId: occ:1419634
+        collectionId: col:196846
+        acceptedTaxonId: txn:179487
+        identifiedTaxonId: var:179491
+        identifiedName: Heptasaurus cappelensis
+        taxonomicDifference: recombined as
+        referenceId: ref:67041
+        bibliography: R. R. Schoch and R. Werneburg. 1999. The Triassic labyrinthodonts from Germany. Zentralblatt für Geologie und Paläontologie Teil I 7-8:629-650
+        locality:
+          countryCode: DE
+          stateProvince: Schwarzwald
+          county: null
+        stratigraphy:
+          group: null
+          formation: Upper Buntsandstein
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 241.464
+      - occurrenceId: occ:1419635
+        collectionId: col:109490
+        acceptedTaxonId: txn:179487
+        identifiedTaxonId: var:179491
+        identifiedName: Heptasaurus cappelensis
+        taxonomicDifference: recombined as
+        referenceId: ref:67041
+        bibliography: R. R. Schoch and R. Werneburg. 1999. The Triassic labyrinthodonts from Germany. Zentralblatt für Geologie und Paläontologie Teil I 7-8:629-650
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Waldshut
+        stratigraphy:
+          group: Upper Buntsandstein
+          formation: Röt
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 244.4
+      - occurrenceId: occ:1419641
+        collectionId: col:196847
+        acceptedTaxonId: txn:179487
+        identifiedTaxonId: txn:377658
+        identifiedName: Mastodonsaurus ingens
+        taxonomicDifference: null
+        referenceId: ref:67041
+        bibliography: R. R. Schoch and R. Werneburg. 1999. The Triassic labyrinthodonts from Germany. Zentralblatt für Geologie und Paläontologie Teil I 7-8:629-650
+        locality:
+          countryCode: DE
+          stateProvince: Bavaria
+          county: null
+        stratigraphy:
+          group: null
+          formation: Upper Buntsandstein
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 241.464
+      - occurrenceId: occ:1423654
+        collectionId: col:197719
+        acceptedTaxonId: txn:179487
+        identifiedTaxonId: txn:377659
+        identifiedName: Cyclotosaurus mechernichensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30410
+        bibliography: "R. J. Damiani. 2001. A systematic revision and phylogenetic analysis of Triassic mastodonsauroids (Temnospondyli: Stereospondyli). Zoological Journal of the Linnean Society 133(4):379-482"
+        locality:
+          countryCode: DE
+          stateProvince: Nordrhein-Westfalen
+          county: null
+        stratigraphy:
+          group: Buntsandstein
+          formation: null
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 241.464
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Mastodonsaurus cappelensis
+          zh: Mastodonsaurus cappelensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-cb527e69ec
+            part: body
+          zh:
+            page: zh
+            section: s-05f0dc4e77
+            part: body
+        sourceIds: []

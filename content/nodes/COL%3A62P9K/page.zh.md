@@ -1,0 +1,39 @@
+## 接受名称与分类位置 {#s-7b2ac7198d}
+COL26.8 将 Crinia 接受为 Myobatrachidae 下的属级记录。完整接受种查询在这条分类路径下收录 17 种。这是有版本日期的目录计数，各名称和分类概念保留在来源记载的层级中。
+
+## 阅读路线 {#s-838dedddfc}
+从本属进入下级类群和物种，先在同一版本内比较接受名称，再查阅物种研究。分类层级提供目录阅读路线，但不能据此确定全部后代的共有性状或生物学历史。
+
+## 历史汇编中的觅食层位 {#s-3aec47f624}
+AmphiBIO 在 Frost 2011 来源分类的 Crinia 下保留 16 条记录。觅食类别的正值计数为陆栖 16 条、水栖 16 条；同一记录可以同时属于多个类别，未报告值仍为未知。这些计数描述汇编中有代表的历史概念，不表示当前类群所有物种的性状比例。
+
+## 所记发育类别 {#s-cdf70fbead}
+在同一历史来源子集中，正值代码记载直接发育 1 条、幼体发育 14 条。代码记录不是独立种群样本；缺失类别不能推断为不存在。种级读本保留原值和汇编范围。
+
+## 沿所记分类树继续阅读 {#s-a3065ea96f}
+以下已编写子页面遵循固定分类。限定来源的生物学记录保留各自身份和审阅边界。
+
+- [Crinia bilingua](Crinia_bilingua/page.zh.md)
+- [Crinia deserticola](Crinia_deserticola/page.zh.md)
+- [Crinia fimbriata](Crinia_fimbriata/page.zh.md)
+- [Crinia flindersensis](Crinia_flindersensis/page.zh.md)
+- [Crinia georgiana](Crinia_georgiana/page.zh.md)
+- [Crinia glauerti](Crinia_glauerti/page.zh.md)
+- [Crinia insignifera](Crinia_insignifera/page.zh.md)
+- [Crinia nimbus](Crinia_nimbus/page.zh.md)
+- [Crinia parinsignifera](Crinia_parinsignifera/page.zh.md)
+- [Crinia pseudinsignifera](Crinia_pseudinsignifera/page.zh.md)
+- [Crinia remota](Crinia_remota/page.zh.md)
+- [Crinia riparia](Crinia_riparia/page.zh.md)
+- [Crinia signifera](Crinia_signifera/page.zh.md)
+- [Crinia sloanei](Crinia_sloanei/page.zh.md)
+- [Crinia subinsignifera](Crinia_subinsignifera/page.zh.md)
+- [Crinia tasmaniensis](Crinia_tasmaniensis/page.zh.md)
+- [Crinia tinnula](Crinia_tinnula/page.zh.md)
+
+## 已取得的热生理证据 {#s-83d9b84479}
+在固定清理版本的 AmphiTherm 来源分类中，名称 Crinia 匹配 2 个存档物种概念与 33 条估计行。所记指标：CTmax，33 行、涉及 2 个来源概念。CTmax、CTmin 涉及临界温度限，LT50_hot、LT50_cold 为致死限实验，Tpref 为温度偏好。各指标来自不同实验，不能合并为一个耐受范围；指标间概念重叠，计数不能直接相加为独立物种数或动物数。来源发育阶段代码为 adults。这些有年代限定的材料说明研究覆盖，不代表每个当前成员的生理特征；来源的 2018 年分类与当代类群范围分别保留。
+
+## catalogue-profile / limitations {#s-528d9e5577}
+本页为分类与限定来源范围的类群介绍；不将历史来源子集视为整个当前类群的等同物。尚未代表的生物学证据仍需核对。
+

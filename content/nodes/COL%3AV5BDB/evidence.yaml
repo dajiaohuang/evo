@@ -1,0 +1,380 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys obesa (Wang, Li & Zhao in Li, Jin, Zhao, Liu, Wang & Pang, 2014)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys obesa
+      zh: Boulenophrys obesa
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8147479083
+            part: title
+          zh:
+            page: zh
+            section: s-138a547eb3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8147479083
+            part: body
+          zh:
+            page: zh
+            section: s-138a547eb3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4d1decf613
+            part: title
+          zh:
+            page: zh
+            section: s-0e2591466f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4d1decf613
+            part: body
+          zh:
+            page: zh
+            section: s-0e2591466f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cfd9a18cd9
+            part: title
+          zh:
+            page: zh
+            section: s-0f1cce7287
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-cfd9a18cd9
+            part: body
+          zh:
+            page: zh
+            section: s-0f1cce7287
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-bb46f8658465cdd465706650
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-f6408c9d25
+            part: title
+          zh:
+            page: zh
+            section: s-6bcb9f6225
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5bdb
+        text:
+          en:
+            page: en
+            section: s-f6408c9d25
+            part: body
+          zh:
+            page: zh
+            section: s-6bcb9f6225
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-42f7c1fc34
+            part: title
+          zh:
+            page: zh
+            section: s-0fcc87fa4f
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5bdb
+        text:
+          en:
+            page: en
+            section: s-42f7c1fc34
+            part: body
+          zh:
+            page: zh
+            section: s-0fcc87fa4f
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-818612941d
+            part: title
+          zh:
+            page: zh
+            section: s-cc450a2911
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5bdb
+        text:
+          en:
+            page: en
+            section: s-818612941d
+            part: body
+          zh:
+            page: zh
+            section: s-cc450a2911
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6214edd68a
+            part: title
+          zh:
+            page: zh
+            section: s-1a5b0d1cbc
+            part: title
+        sourceIds:
+          - primary-pmc12466624-v5bdb
+        text:
+          en:
+            page: en
+            section: s-6214edd68a
+            part: body
+          zh:
+            page: zh
+            section: s-1a5b0d1cbc
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys obesa
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5BDB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3133, 3134; Reference.csv rows 795
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10083232-v5bdb
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys obesa: Named species type material, examined specimens, distribution, diagnosis and remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-v5bdb
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys obesa: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-411ef3c451
+        part: body
+      zh:
+        page: zh
+        section: s-4deac676d7
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v5bdb
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys obesa
+        evidenceRead: "Boulenophrys obesa: Named species type material, examined specimens, distribution, diagnosis and remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Heishiding type-locality records
+              zh: 黑石顶模式地点记录
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5bdb
+            locator: RESULTS > Boulenophrys obesa; Holotype and Distribution; reading-sections index 65, section s03.81
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-24085d1aaa
+                part: body
+              zh:
+                page: zh
+                section: s-db93e1e81d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Measurements retain the uneven sex sample
+              zh: 测量保留不均衡的性别样本
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5bdb
+            locator: RESULTS > Boulenophrys obesa; Specimens examined and Diagnosis character 1; reading-sections index 65, section s03.81
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c52a62b2f1
+                part: body
+              zh:
+                page: zh
+                section: s-fd9264bfaf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Diagnostic limbs, skin and oral characters
+              zh: 四肢、皮肤及口腔鉴别特征
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5bdb
+            locator: RESULTS > Boulenophrys obesa; Diagnosis characters 4, 5, 8, 9 and 11; reading-sections index 65, section s03.81
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4b1e148440
+                part: body
+              zh:
+                page: zh
+                section: s-7c26ad0afe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-v5bdb
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys obesa
+        evidenceRead: "Boulenophrys obesa: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-v5bdb
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,37
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-20265b3a24
+                part: body
+              zh:
+                page: zh
+                section: s-fb5e097e19
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

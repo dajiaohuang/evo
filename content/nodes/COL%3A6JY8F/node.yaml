@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca litonedis
+  displayName: Gastrotheca litonedis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JY8F
+  sourceIndexes:
+    - name:
+        en: Gastrotheca litonedis
+        zh: Gastrotheca litonedis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JY8F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/48
+            queryName: Gastrotheca litonedis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fe7b4e696b
+      - s-a2c004d74c
+      - s-08bdcc7ecf
+      - s-963e911149
+      - s-47a9367a3d
+      - s-7e52d810d2
+      - s-c458406a14
+      - s-ddb4b9212c
+      - s-4bd368bc37
+      - s-30b019a158
+      - s-e62942719b
+    zh:
+      - s-ecd30c7224
+      - s-d5d402e2b0
+      - s-ca6e148567
+      - s-75e43b3e6b
+      - s-2d9ffd6abd
+      - s-8b4f4084c8
+      - s-2e9b031077
+      - s-8d2d483de9
+      - s-f19cbc492f
+      - s-a39e9c8135
+      - s-7cfa6772ae

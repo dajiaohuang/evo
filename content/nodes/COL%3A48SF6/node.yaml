@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana aureola
+  displayName: Odorrana aureola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SF6
+  sourceIndexes:
+    - name:
+        en: Odorrana aureola
+        zh: Odorrana aureola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SF6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/496
+            queryName: Odorrana aureola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7c1f857311
+      - s-25e4de90cc
+      - s-a6f3531735
+      - s-5df9d50d4a
+      - s-bf3c451ff0
+      - s-4128592f61
+      - s-0589d57cc2
+      - s-24d88830c5
+      - s-747fad87f5
+      - s-c71477d6ee
+    zh:
+      - s-70ac98ef4f
+      - s-8e884415f9
+      - s-bb7a674f6b
+      - s-2d3e25eab0
+      - s-edfdc00916
+      - s-18e72138fb
+      - s-617cf07bbd
+      - s-8150554162
+      - s-751740353a
+      - s-faf21ef761

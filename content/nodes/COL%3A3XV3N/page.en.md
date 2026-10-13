@@ -1,0 +1,3 @@
+## What distinguishes Manihot debilis in the record? {#s-d44879c94a}
+The roots are not tuberous and no xylopodium is recorded. The smooth, upright, hairless stems are under 0.45 m tall and exude white latex. Leaves have cylindrical stalks and simple, hairless blades that may be lobed or three-lobed, with oblong main lobes, short side lobes, and oblanceolate forms recorded. Threadlike stipules are about 1 cm long. Terminal bisexual racemes have female flowers at the base; their stalks are under 2 cm. Involucral bracts are bristle-like, hairless, and about 0.1 cm wide. Male buds are obovate and hairless; female buds are hairless. The capsule is cylindrical, smooth, hairless, and unribbed. Seeds are elliptic, smooth, and have a prominent caruncle.
+

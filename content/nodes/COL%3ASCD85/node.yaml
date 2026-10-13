@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis chocoensis
+  displayName: Pristimantis chocoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCD85
+  sourceIndexes:
+    - name:
+        en: Pristimantis chocoensis
+        zh: Pristimantis chocoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCD85
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/198
+            queryName: Pristimantis chocoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36776be831
+      - s-dd5da03573
+      - s-5a9915efd4
+      - s-c0b9557ec7
+      - s-c837f11849
+      - s-a88ae89ed1
+      - s-10262b349c
+      - s-164428ac0b
+      - s-de6c7db4a0
+      - s-1bb71b1992
+      - s-ae1910ce45
+    zh:
+      - s-eb794a38ce
+      - s-704e7565c3
+      - s-d9c2afec89
+      - s-fcf6a60bb3
+      - s-208fcc3128
+      - s-fd77516edc
+      - s-048bdb9a84
+      - s-adf6e965c5
+      - s-00c56540cd
+      - s-37e2fb6357
+      - s-0719786b14

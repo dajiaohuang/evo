@@ -1,0 +1,360 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Gerobatrachus hottoni
+    rank: species
+    sourceTaxonId: txn:153288
+    name:
+      en: Gerobatrachus hottoni
+      zh: Gerobatrachus hottoni
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-301bcba875
+            part: body
+          zh:
+            page: zh
+            section: s-9bc99ea8c2
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-33dd406b7d
+            part: body
+          zh:
+            page: zh
+            section: s-5a662a8b1a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-a78d9970d5
+            part: body
+          zh:
+            page: zh
+            section: s-e0590483a8
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:153288; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. S. Anderson, R. R. Reisz, and D. Scott, N. B. Fröbisch, S. S. Sumida. 2008. A stem batrachian from the Early Permian of Texas and the origin of frogs and salamanders. Nature 453:515-518
+    occurrenceEvidence:
+      - occurrenceId: occ:825943
+        collectionId: col:91038
+        acceptedTaxonId: txn:153288
+        identifiedName: Gerobatrachus hottoni n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30637
+        bibliography: J. S. Anderson, R. R. Reisz, and D. Scott, N. B. Fröbisch, S. S. Sumida. 2008. A stem batrachian from the Early Permian of Texas and the origin of frogs and salamanders. Nature 453:515-518
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Baylor
+        stratigraphy:
+          group: Clear Fork
+          formation: Arroyo or Vale
+          member: null
+        olderAgeMa: 283.3
+        youngerAgeMa: 274.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-a78d9970d5
+            part: body
+          zh:
+            page: zh
+            section: s-e0590483a8
+            part: body
+        sourceIds: []
+  atlas-node:
+    name: Gerobatrachus hottoni
+    commonName: Permian stem batrachian
+    commonNameZh: 二叠纪蛙螈干群
+    rank: species
+    taxonId: txn:153288
+    firstAppearance: 283.3
+    lastAppearance: 274.4
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:153288
+    scientificName: Gerobatrachus hottoni
+    commonName: Permian stem batrachian
+    commonNameZh: 二叠纪蛙螈干群
+    rank: species
+    parentName: Amphibian fossil evidence route
+    extinct: true
+    geography:
+      - Baylor County
+      - Texas
+      - United States
+    overview:
+      page: en
+      section: s-3c3f98b4e6
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-386c1c9dac
+        part: body
+      habitat:
+        page: en
+        section: s-2ac60cea51
+        part: body
+      locomotion:
+        page: en
+        section: s-3ff81585c2
+        part: body
+      bodySize:
+        page: en
+        section: s-e2d656c972
+        part: body
+      guild:
+        page: en
+        section: s-8b9a565aad
+        part: body
+      dietZh:
+        page: zh
+        section: zh-e7a6230a984f4e
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-76220918a8faf3
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-7fcfb949584746
+        part: body
+      guildZh:
+        page: zh
+        section: zh-b9edab1f5e7dcc
+        part: body
+    traits:
+      - page: en
+        section: s-f81082944c
+        part: body
+      - page: en
+        section: s-b0997383f7
+        part: body
+      - page: en
+        section: s-33c11f48f8
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-e421c18d41
+      part: body
+    readerSections:
+      - id: anatomical-mosaic
+        title:
+          en:
+            page: en
+            section: s-a8d564b91c
+            part: title
+          zh:
+            page: zh
+            section: s-b462a70499
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a8d564b91c
+            part: body
+          zh:
+            page: zh
+            section: s-b462a70499
+            part: body
+        sourceIds:
+          - anderson-2008-gerobatrachus
+      - id: matrix-placement
+        title:
+          en:
+            page: en
+            section: s-0e0542ad55
+            part: title
+          zh:
+            page: zh
+            section: s-3fedd9a205
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0e0542ad55
+            part: body
+          zh:
+            page: zh
+            section: s-3fedd9a205
+            part: body
+        sourceIds:
+          - anderson-2008-gerobatrachus
+    confidence: medium
+    referenceIds:
+      - anderson-2008-gerobatrachus
+    readerSources:
+      - id: anderson-2008-gerobatrachus
+        referenceId: anderson-2008-gerobatrachus
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Recorded reader-passage locators: supports; pages: 515–518; figure: Figures 1–4; quoteLocator: Systematic palaeontology; locality; anatomical description and phylogenetic analysis"
+            zh: "读者段落的原始定位：supports; pages: 515–518; figure: Figures 1–4; quoteLocator: Systematic palaeontology; locality; anatomical description and phylogenetic analysis"
+  claims:
+    - subjectId: taxon:gerobatrachus
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Gerobatrachus hottoni is known from the sole holotype USNM 489135 and was recovered as a stem batrachian in the original analysis, not as crown Batrachia or a direct ancestor.
+      confidence: medium
+      confidenceRationale: "Gerobatrachus hottoni: Named material and a published systematic or phylogenetic treatment support this bounded identification. Confidence remains medium because the profile does not turn a sampled placement into direct ancestry or universal consensus."
+      referenceLinks:
+        - referenceId: anderson-2008-gerobatrachus
+          relation: supports
+          pages: 515–518
+          figure: Figures 1–4
+          quoteLocator: Systematic palaeontology; locality; anatomical description and phylogenetic analysis
+    - subjectId: taxon:gerobatrachus
+      claimType: biogeography
+      claimKind: scientific
+      statement: USNM 489135 comes from the Clear Fork Group at a named Baylor County locality in Texas; one occurrence does not establish a global distribution.
+      confidence: medium
+      confidenceRationale: "Gerobatrachus hottoni: The primary study reports the named locality and horizon directly. Confidence is medium because one study sample cannot establish absence, endemism or a global geographic range."
+      referenceLinks:
+        - referenceId: anderson-2008-gerobatrachus
+          relation: supports
+          pages: 515–518
+          figure: Figures 1–4
+          quoteLocator: Systematic palaeontology; locality; anatomical description and phylogenetic analysis
+    - subjectId: taxon:gerobatrachus
+      claimType: ecology
+      claimKind: scientific
+      statement: The articulated skeleton permits functional discussion, but diet, prey choice, habitat preference and locomotor performance were not directly observed.
+      confidence: medium
+      confidenceRationale: "Gerobatrachus hottoni: The evidence boundary is explicit: depositional or anatomical context is retained while unsupported behaviour and niche claims are withheld. Medium confidence applies to that bounded negative statement, not to a reconstructed ecology."
+      referenceLinks:
+        - referenceId: anderson-2008-gerobatrachus
+          relation: supports
+          pages: 515–518
+          figure: Figures 1–4
+          quoteLocator: Systematic palaeontology; locality; anatomical description and phylogenetic analysis
+    - subjectId: taxon:gerobatrachus
+      claimType: morphology
+      claimKind: scientific
+      statement: USNM 489135 preserves a frog-like and salamander-like character mosaic in an articulated small tetrapod skeleton.
+      confidence: medium
+      confidenceRationale: "Gerobatrachus hottoni: The cited figures and descriptions directly document the named anatomical observations. Confidence is medium rather than universal because preservation and specimen sampling limit character completeness and variation."
+      referenceLinks:
+        - referenceId: anderson-2008-gerobatrachus
+          relation: supports
+          pages: 515–518
+          figure: Figures 1–4
+          quoteLocator: Systematic palaeontology; locality; anatomical description and phylogenetic analysis
+    - subjectId: taxon:gerobatrachus
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 283.3–274.4 Ma interval is the Kungurian envelope for the sole Gerobatrachus occurrence and is not a global lissamphibian FAD.
+      confidence: medium
+      confidenceRationale: "Gerobatrachus hottoni: The primary source and concrete locator support the displayed sample interval. Confidence is medium because the envelope is explicitly specimen- or locality-scoped and not a global first or last appearance."
+      referenceLinks:
+        - referenceId: anderson-2008-gerobatrachus
+          relation: supports
+          pages: 515–518
+          figure: Figures 1–4
+          quoteLocator: Systematic palaeontology; locality; anatomical description and phylogenetic analysis
+  claim-rationales.zh:
+    - Gerobatrachus hottoni：具名材料和已发表的系统或系统发育处理支持这一有限鉴定。置信度保持中等，因为画像不会把取样位置转化为直接祖先或普遍共识。
+    - Gerobatrachus hottoni：一手研究直接报告了具名地点与层位。置信度为中等，因为单一研究样本不能确定缺失、特有性或全球地理范围。
+    - Gerobatrachus hottoni：证据边界是明确的：保留沉积或解剖背景，同时不填补无依据的行为与生态位。中等置信度针对这一有限的否定性陈述，而非重建生态。
+    - Gerobatrachus hottoni：所引图件与描述直接记录了具名解剖观察。由于保存与标本取样限制了性状完整性和变异，置信度为中等而非普遍结论。
+    - Gerobatrachus hottoni：一手来源与具体定位符支持显示的样本区间。置信度为中等，因为该包络明确限定于标本或地点，而非全球首现或末现。
+  claim-statements.zh:
+    - Gerobatrachus hottoni 仅由正模 USNM 489135 所知，在原始分析中位于蛙螈干群，而非蛙螈冠群或直接祖先。
+    - USNM 489135 来自美国得克萨斯州贝勒县具名地点的 Clear Fork 群；单一记录不能确定全球分布。
+    - 关节连接骨架可用于功能讨论，但食性、猎物选择、栖息地偏好与运动性能均未被直接观察。
+    - USNM 489135 在一具关节连接的小型四足动物骨架中保存了蛙类与蝾螈类性状镶嵌。
+    - 显示的 283.3–274.4 Ma 区间是唯一 Gerobatrachus 记录的空谷期包络，并非现生两栖类全球首现。
+  ranges:
+    - entityId: gerobatrachus
+      rangeKind: global-composite
+      taxonomicConcept: Gerobatrachus hottoni represented study sample
+      geographicScope: Clear Fork Group, Baylor County, Texas, United States
+      olderMa: 283.3
+      youngerMa: 274.4
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Kungurian stage envelope; the original stem-batrachian placement depends on the analysed matrix.
+      evidenceBasis: The sole holotype USNM 489135 anchors the Kungurian occurrence; the stage envelope is not a global batrachian or lissamphibian range.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:gerobatrachus:fossil-range
+      referenceLocators:
+        - referenceId: anderson-2008-gerobatrachus
+          locator: 515–518; Figures 1–4; Systematic palaeontology; locality; anatomical description and phylogenetic analysis

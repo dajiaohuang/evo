@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Crocodylomorpha
+    commonName: Crocodilians
+    commonNameZh: 鳄形类
+    rank: superorder
+    taxonId: ""
+    firstAppearance: 231
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:crocodylomorpha
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Crocodylomorpha route uses the Carnian Carnufex holotype as an early sampled occurrence and living crocodylian descendants as the navigation endpoint; neither edge is an exact clade origin, global FAD or direct ancestor chain.
+      confidence: medium
+      confidenceRationale: The Carnian specimen and crocodylomorph placement are directly analyzed. Medium confidence keeps the fossil sample separate from the extant navigation continuation.
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: 5:9276
+          figure: Figures 1–2; Table S2
+          quoteLocator: Systematic palaeontology—Holotype; geological context; phylogenetic results
+  claim-rationales.zh:
+    - 卡尼期标本及其鳄形类位置有直接分析。中等置信度把化石样本与现生导航延续分开。
+  claim-statements.zh:
+    - 鳄形类路线以卡尼期 Carnufex 正模作为早期取样记录，并以现生鳄类后裔作为导航端点；两端都不是精确支系起源、全球首现或直接祖先链。
+  ranges:
+    - entityId: crocodylomorpha
+      rangeKind: global-composite
+      taxonomicConcept: Crocodylomorpha
+      geographicScope: Global or represented navigation composite
+      olderMa: 231
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The older endpoint follows the bounded Carnufex occurrence used for navigation, not a guaranteed global first appearance; the living endpoint follows the extant clade route.
+      evidenceBasis: The Carnufex holotype supplies a Carnian early-crocodylomorph occurrence while the living endpoint is retained from the extant navigation route; neither endpoint asserts direct ancestry.
+      confidence: medium
+      claimIds:
+        - claim:taxon:carnufex
+      referenceLocators:
+        - referenceId: zanno-2015-carnufex
+          locator: Article 9276; Figures 1–2; Systematic palaeontology and Discussion
+        - referenceId: open-tree
+          locator: https://opentreeoflife.github.io/use
+        - referenceId: pbdb-api-2016
+          locator: doi:10.1017/pab.2015.39
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    sections:
+      - topic: fossil-record
+        title:
+          en:
+            page: en
+            section: s-d838be7d46
+            part: title
+          zh:
+            page: zh
+            section: s-2252952d02
+            part: title
+        sourceIds:
+          - zanno-2015-carnufex
+          - open-tree
+          - pbdb-api-2016
+        text:
+          en:
+            page: en
+            section: s-d838be7d46
+            part: body
+          zh:
+            page: zh
+            section: s-2252952d02
+            part: body

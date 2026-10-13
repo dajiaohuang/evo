@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ranitomeya amazonica
+  displayName: Ranitomeya amazonica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78T2V
+  sourceIndexes:
+    - name:
+        en: Ranitomeya amazonica
+        zh: Ranitomeya amazonica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78T2V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/97
+            queryName: Ranitomeya amazonica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/169
+            queryName: Dendrobates amazonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-649882ada1
+      - s-da0fd9a3bb
+      - s-60e61b8106
+      - s-e6a1d1b9c0
+      - s-d80f103630
+      - s-961ab1aaf2
+      - s-e4cde6ac7c
+      - s-63a5f66e43
+      - s-5ea3411959
+      - s-f67fe2d928
+      - s-8f9bb85b2d
+    zh:
+      - s-9eb34b64c5
+      - s-fcd869da50
+      - s-7b022f69af
+      - s-1a9ec5f315
+      - s-c36060fca6
+      - s-96040ba94f
+      - s-caddc711da
+      - s-a1533090b4
+      - s-96865ebf85
+      - s-1ba2f6dddc
+      - s-6212b0c19e

@@ -1,0 +1,240 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Buergeria japonica
+    name:
+      en: Buergeria japonica
+      zh: Buergeria japonica
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Buergeria
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Buergeria japonica in the version 3 classification
+          zh: Buergeria japonica 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0962f9dbd1
+            part: body
+          zh:
+            page: zh
+            section: s-a2d684417b
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 8 populated trait fields
+          zh: 2 条测量行与 8 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-530923740a
+            part: body
+          zh:
+            page: zh
+            section: s-a758065d28
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 911, 912; Reference.csv rows 161
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 911
+        values:
+          - Rhacophoridae
+          - Buergeria
+          - Buergeria japonica
+          - F
+          - "36"
+          - "13.2"
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16.5"
+          - NA
+          - NA
+          - "18.5"
+          - "21.7"
+          - "9.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 912
+        values:
+          - Rhacophoridae
+          - Buergeria
+          - Buergeria japonica
+          - M
+          - "28.6"
+          - "10.7"
+          - "9.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.2"
+          - NA
+          - NA
+          - "14.4"
+          - "17.4"
+          - "8.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 161
+        values:
+          - Anura
+          - Buergeria_japonica
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006) Fauna of China, Class Amphibia (Middle Volume) Anura. Science Press, Beijing.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - LAL
+      - TL
+      - THL
+      - TSL
+      - Toe4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5X3ZL
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

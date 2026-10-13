@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenohyla
+  displayName: Xenohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63XJ8
+  sourceIndexes:
+    - name:
+        en: Xenohyla
+        zh: Xenohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63XJ8
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/330
+            queryName: Xenohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 30
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ae26ebe82e
+      - s-591ca2bba8
+      - s-3bb8a60da2
+      - s-b747b4fac2
+      - s-c1ade351df
+      - s-f9286f1d4b
+      - s-8bda67cd4d
+      - s-d3ebafaf73
+      - s-d8f7760777
+      - s-0a90f2d8b3
+      - s-fdaf97b981
+      - s-40620fdaa5
+    zh:
+      - s-3630b9472a
+      - s-cf2fbda4d8
+      - s-f37104be0a
+      - s-c24dca4e58
+      - s-bca0dfc37b
+      - s-75b480c96d
+      - s-b6bd50b1cb
+      - s-92438172e3
+      - s-a886c9bb0c
+      - s-a52be30d53
+      - s-57852d8753
+      - s-45030e6d2c

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena superciliaris
+  displayName: Ptychadena superciliaris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9RP
+  sourceIndexes:
+    - name:
+        en: Ptychadena superciliaris
+        zh: Ptychadena superciliaris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9RP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/1
+            queryName: Ptychadena superciliaris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/139
+            queryName: Rana superciliaris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ed66e0f1a9
+      - s-a86a643cb9
+      - s-19fa0b5ab1
+      - s-a59c12939f
+      - s-241d27543d
+      - s-30dc3240e8
+      - s-cf2b4dec81
+      - s-03a5c6e28a
+    zh:
+      - s-7bbe0e5a18
+      - s-56a86b0329
+      - s-db1490bc2e
+      - s-f545abb9b4
+      - s-8f31e095cc
+      - s-b38e6ee375
+      - s-c0e8b74fd1
+      - s-f07b2f743f

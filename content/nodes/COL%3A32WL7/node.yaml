@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus organensis
+  displayName: Cycloramphus organensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WL7
+  sourceIndexes:
+    - name:
+        en: Cycloramphus organensis
+        zh: Cycloramphus organensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WL7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/288
+            queryName: Cycloramphus organensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-35a8e6305e
+      - s-f6a5c619b1
+      - s-75c47a56dc
+      - s-f638111f3d
+      - s-7e7567fd97
+      - s-8ab8004ced
+      - s-2e98555ccf
+      - s-bb0becb4da
+      - s-d6f1780430
+      - s-4a62e05fd0
+    zh:
+      - s-2d7a5c58ef
+      - s-44ff018cc2
+      - s-140a8d83d2
+      - s-8fab0df486
+      - s-4b2382ef5c
+      - s-cd6a28b39e
+      - s-820364ecf6
+      - s-6737a4536e
+      - s-3098bfce1f
+      - s-6bc09698f9

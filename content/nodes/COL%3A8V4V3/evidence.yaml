@@ -1,0 +1,88 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-66422e5489
+          part: title
+        zh:
+          page: zh
+          section: s-e0d078af48
+          part: title
+      text:
+        en:
+          page: en
+          section: s-66422e5489
+          part: body
+        zh:
+          page: zh
+          section: s-e0d078af48
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-73226c585e
+          part: title
+        zh:
+          page: zh
+          section: s-beaf75ffe8
+          part: title
+      text:
+        en:
+          page: en
+          section: s-73226c585e
+          part: body
+        zh:
+          page: zh
+          section: s-beaf75ffe8
+          part: body
+  atlas-node:
+    name: Vertebrata
+    commonName: Vertebrates
+    commonNameZh: 脊椎动物
+    rank: subphylum
+    taxonId: txn:67149
+    firstAppearance: 520
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:vertebrata
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 520–0 Ma Vertebrata route uses a rounded Cambrian navigation ceiling, while Lower Cambrian Chengjiang Myllokunmingia and Haikouichthys material at approximately 518 Ma supplies its direct fossil anchor; neither value dates crown Vertebrata or establishes a global FAD.
+      confidence: medium
+      confidenceRationale: The primary description figures the named fossils and reports the morphology matrix. The 520 Ma ceiling keeps nested Cambrian routes navigable, whereas the direct fossil evidence is approximately 518 Ma; soft-tissue interpretation and basal placement remain sample- and matrix-bounded.
+      referenceLinks:
+        - referenceId: shu-1999-chengjiang-vertebrates
+          relation: supports
+          pages: 42–46
+          figure: Figures 1–5
+          quoteLocator: Descriptions of Myllokunmingia and Haikouichthys; phylogenetic analysis; Supplementary Information
+  claim-rationales.zh:
+    - 一手研究给出具名化石图版及形态矩阵。5.20 亿年上限用于容纳嵌套的寒武纪导航路线，直接化石证据则约为 5.18 亿年；软组织解释和基干位置仍受样本与矩阵约束。
+  claim-statements.zh:
+    - 脊椎动物 5.20 亿年至今的路线采用取整后的寒武纪导航上限，而约 5.18 亿年前的澄江 Myllokunmingia 与 Haikouichthys 材料构成直接化石锚点；两者都不等于脊椎动物冠群年代或全球首现。
+  ranges:
+    - entityId: vertebrata
+      rangeKind: global-composite
+      taxonomicConcept: Vertebrata navigation span anchored by Chengjiang fossil material
+      geographicScope: Chengjiang Lagerstätte, Yunnan, China; living global continuation
+      olderMa: 520
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: 520 Ma is a rounded Cambrian navigation ceiling; the directly described Chengjiang vertebrate material is approximately 518 Ma and does not define a crown node or global FAD.
+      evidenceBasis: Myllokunmingia and Haikouichthys specimens and a sampled morphology matrix provide the approximately 518 Ma fossil anchor; the older display ceiling preserves nested Cambrian navigation and living vertebrates extend the route to the present.
+      confidence: medium
+      claimIds:
+        - claim:taxon:vertebrata:root-range
+      referenceLocators:
+        - referenceId: shu-1999-chengjiang-vertebrates
+          locator: pp. 42–46; Figures 1–5; descriptions, phylogenetic analysis and Supplementary Information
+      evidenceLevel: literature-synthesized

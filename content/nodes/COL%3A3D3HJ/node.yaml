@@ -1,0 +1,138 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea quadridigitata
+  displayName: Eurycea quadridigitata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3HJ
+  sourceIndexes:
+    - name:
+        en: Eurycea quadridigitata
+        zh: Eurycea quadridigitata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3HJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/429
+            queryName: Eurycea quadridigitata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/20
+            queryName: Salamandra quadridigitata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/21
+            queryName: Manculus quadridigitatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/181
+            queryName: Manculus remifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/365
+            queryName: Batrachoseps quadridigitatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/460
+            queryName: Manculus quadridigitatus quadridigitatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/461
+            queryName: Manculus quadridigitatus remifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/128
+            queryName: Batrachoseps quadridigitata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/246
+            queryName: Manculus quadridigitata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/498
+            queryName: Eurycea quadridigitata quadridigitata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/499
+            queryName: Eurycea quadridigitata remifera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-583cee3732
+      - s-1d118bf491
+      - s-af56dcfdb6
+      - s-fb26b51b26
+      - s-9d57f03c66
+      - s-3b9d799c46
+      - s-7ffe7b3c8d
+      - s-a505c479c1
+      - s-d1a67d0754
+      - s-a7ec9028f1
+      - s-1cbcd988bc
+      - s-da0963bdf9
+      - s-4d376bc86e
+      - s-3f6f2715d9
+      - s-d1607a7b91
+      - s-665b3562cf
+      - s-8510ada4ba
+      - s-057b3a8bde
+      - s-50aa26d261
+    zh:
+      - s-7efabe7ae9
+      - s-256b84a01e
+      - s-f8b398864f
+      - s-8d394c1ed8
+      - s-df2fba7b26
+      - s-96f752e47c
+      - s-1480fa06b0
+      - s-cbe59c8792
+      - s-76aa7e41dd
+      - s-492f3e8748
+      - s-28d5ceec18
+      - s-02e0f53d9e
+      - s-fe019d590a
+      - s-8c8809bb75
+      - s-ae706ef403
+      - s-3d76928c38
+      - s-96d7e97c6d
+      - s-f3bb7ed592
+      - s-a7df7cbee3

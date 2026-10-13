@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hamptophryne boliviana
+  displayName: Hamptophryne boliviana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3JJK4
+  sourceIndexes:
+    - name:
+        en: Hamptophryne boliviana
+        zh: Hamptophryne boliviana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3JJK4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/248
+            queryName: Hamptophryne boliviana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/246
+            queryName: Chiasmocleis boliviana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-970de76ef6
+      - s-4e0243216f
+      - s-773384e3d4
+      - s-bfece020c6
+      - s-22186870b9
+      - s-ae44c947da
+      - s-574e944762
+      - s-dad36e4087
+      - s-a0484d6348
+      - s-07547462e5
+      - s-36aa601827
+      - s-99e8662bba
+      - s-6218eb1696
+      - s-9dfe8c7bda
+      - s-8a0f36696a
+      - s-2859842ebb
+      - s-533853ce81
+      - s-e57cbc82ee
+      - s-f4177d07b6
+    zh:
+      - s-12403e9dc0
+      - s-e617bf75b4
+      - s-635387cc45
+      - s-4fd80e1c40
+      - s-a7d6175ad8
+      - s-657fe2c0d9
+      - s-cbff70357b
+      - s-0b8a7888da
+      - s-42d87229ea
+      - s-2f845f26fe
+      - s-0dcaab10b7
+      - s-1a163b0f8b
+      - s-1c53c6684f
+      - s-11666bef9d
+      - s-2821918c0b
+      - s-4f514d3812
+      - s-ada64dd59c
+      - s-d60c60fece
+      - s-20eb8dbab0

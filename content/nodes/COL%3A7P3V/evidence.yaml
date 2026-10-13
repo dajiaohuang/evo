@@ -1,0 +1,131 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Strauchbufo Fei, Ye & Jiang, 2012
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Strauchbufo
+      zh: Strauchbufo
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0461cb201e
+            part: title
+          zh:
+            page: zh
+            section: s-57cd9fec1c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0461cb201e
+            part: body
+          zh:
+            page: zh
+            section: s-57cd9fec1c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-741fb79d91
+            part: title
+          zh:
+            page: zh
+            section: s-ba3d0046eb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-741fb79d91
+            part: body
+          zh:
+            page: zh
+            section: s-ba3d0046eb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-0aa70f57bd
+            part: title
+          zh:
+            page: zh
+            section: s-a24f6a1164
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 52WPG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A52WPG
+            label:
+              en: Strauchbufo raddei
+              zh: Strauchbufo raddei
+        text:
+          en:
+            page: en
+            section: s-0aa70f57bd
+            part: body
+          zh:
+            page: zh
+            section: s-a24f6a1164
+            part: body
+      - topic: limitations
+        title: What the archived name search found 存档名称检索的范围
+        text:
+          en:
+            page: en
+            section: s-6db2c6c839
+            part: body
+          zh:
+            page: zh
+            section: s-bc7ee13c63
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Strauchbufo
+          url: https://www.checklistbank.org/dataset/316115/taxon/7P3V
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1249b5d0b6
+        part: body
+      zh:
+        page: zh
+        section: s-12abb2bada
+        part: body

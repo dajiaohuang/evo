@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne moluccensis
+  displayName: Oreophryne moluccensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6STXY
+  sourceIndexes:
+    - name:
+        en: Oreophryne moluccensis
+        zh: Oreophryne moluccensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6STXY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/282
+            queryName: Oreophryne moluccensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/70
+            queryName: Oreophryne senckenbergiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/148
+            queryName: Microhyla achatina moluccensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eb503037e3
+      - s-587f3be427
+      - s-5ccf33f2f4
+      - s-c9e659695f
+      - s-a0473e697b
+      - s-ee57aadc69
+      - s-2b3abff94a
+      - s-1aa8b07218
+    zh:
+      - s-ec8f0f5aae
+      - s-a4704ce556
+      - s-a99b1825bf
+      - s-a8c29a029c
+      - s-1cef508b35
+      - s-387d71e49b
+      - s-6596c45666
+      - s-155813e8ef

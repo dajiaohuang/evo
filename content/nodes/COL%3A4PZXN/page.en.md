@@ -1,0 +1,3 @@
+## *Pteronia punctata*: black-dotted leaves and swollen bracts {#s-be96fde872}
+The regional account describes a small shrub with young whitish, finely hairy branchlets that become hairless with age. Its leaves are usually opposite, sometimes alternate near the tips; they are flat, hairless, and dotted with black marks, with fine bristles along the edges. Solitary flower heads sit directly at the ends of branches and are about 1.5–1.7 cm long. Their overlapping bracts are packed in five to seven rows and bulge conspicuously below the tip. The fruits are densely covered in close-lying hairs, with a pale straw-coloured pappus as long as the corolla. The account records dry grassland, dwarf Karoo shrubland, hillsides, river flats, and wetland flats.
+

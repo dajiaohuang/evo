@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella azarai
+  displayName: Rhinella azarai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7MF
+  sourceIndexes:
+    - name:
+        en: Rhinella azarai
+        zh: Rhinella azarai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7MF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/301
+            queryName: Rhinella azarai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/58
+            queryName: Bufo granulosus azarai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e00ba86a95
+      - s-2cf811290f
+      - s-e1c04f93c2
+      - s-fd9148ce9e
+      - s-48e6d1daaf
+      - s-a3590ea9b6
+      - s-975260a37f
+      - s-5c670b145f
+      - s-d8a8e80dcd
+      - s-aa316e2193
+      - s-0d8d1c372f
+      - s-860e811285
+      - s-5519136f9a
+    zh:
+      - s-a9fc8e2a72
+      - s-2d7c970715
+      - s-c56783bd9d
+      - s-8536fb50e5
+      - s-c6ac036e5c
+      - s-4c2799e718
+      - s-3cf12682fa
+      - s-3034404b3b
+      - s-e8344f447e
+      - s-a7eeb6ab19
+      - s-0a3d31ebff
+      - s-322510eef6
+      - s-6d09d8fd25

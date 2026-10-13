@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Thamnophis
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Thamnophis
+      en: Thamnophis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-719e46fae6
+            part: body
+          en:
+            page: en
+            section: s-eacd7ef674
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-20e8b078cb
+            part: body
+          en:
+            page: en
+            section: s-138368cbb1
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-acfad9ae5e
+            part: body
+          en:
+            page: en
+            section: s-6ee5578065
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-cd6d88ef31
+            part: body
+          en:
+            page: en
+            section: s-e2a83dc612
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-ff033187f2
+            part: body
+          en:
+            page: en
+            section: s-a8f8c2b876
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-2c3430f4ce
+            part: body
+          en:
+            page: en
+            section: s-94fdaef343
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Thamnophis
+          url: https://www.checklistbank.org/dataset/316115/taxon/646HS
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 22 authored records grouped under Thamnophis by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 5
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 13 authored records grouped under Thamnophis by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 563K7
+              name: Thamnophis bogerti
+              canonicalPath: content/nodes/COL%3A563K7
+            - colId: 563KC
+              name: Thamnophis chrysocephalus
+              canonicalPath: content/nodes/COL%3A563KC
+            - colId: C8GJT
+              name: Thamnophis copei
+              canonicalPath: content/nodes/COL%3AC8GJT
+            - colId: 8992R
+              name: Thamnophis errans
+              canonicalPath: content/nodes/COL%3A8992R
+            - colId: 563KN
+              name: Thamnophis exsul
+              canonicalPath: content/nodes/COL%3A563KN
+          fieldCountDistribution:
+            "1": 1
+            "2": 2
+            "3": 10
+    limitations:
+      zh:
+        page: zh
+        section: s-137af2d245
+        part: body
+      en:
+        page: en
+        section: s-53d3dc55ba
+        part: body

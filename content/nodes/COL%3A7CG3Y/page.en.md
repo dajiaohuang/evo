@@ -1,0 +1,3 @@
+## Recorded stem, leaf, flower, and fruit characters {#s-b9cfc98c3d}
+The Brazilian Flora 2020 morphology field records stems as terete or flattened toward the tip, with a striated surface; the indumentum is listed as glabrous, glabrescent, or hirsute. Leaves are scattered along the internodes, stalked, elliptic, smooth, olive to greenish or yellowish, and pilose; domatia are listed as absent. Erect, lateral inflorescences are crowded along the stems and corymb-like, with linear bracts. The flowers have a crown-shaped calyx, are sessile, and have acute corolla lobes and an obconic ovary. Fruits are globose, with indumentum listed as glabrous or pilose. These alternatives come from one regional description field.
+

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor chrysozetetes
+  displayName: Craugastor chrysozetetes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCD7
+  sourceIndexes:
+    - name:
+        en: Craugastor chrysozetetes
+        zh: Craugastor chrysozetetes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCD7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/104
+            queryName: Craugastor chrysozetetes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/308
+            queryName: Eleutherodactylus chrysozetetes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/357
+            queryName: Eleutherodactylus chrysozetes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-408b084d10
+      - s-9dffb42cbf
+      - s-1134459fc7
+      - s-7b8308a9c8
+      - s-106994c53e
+      - s-3defad0094
+      - s-bdaa8357b1
+      - s-359dab8657
+      - s-2e131420d2
+      - s-3d77099706
+    zh:
+      - s-1d426601b9
+      - s-723960a9da
+      - s-b81deeb069
+      - s-a4be94bdca
+      - s-2046c2d799
+      - s-67d41bbbd3
+      - s-7858d35f0e
+      - s-9fc9170d57
+      - s-b228820683
+      - s-d53f8b834f

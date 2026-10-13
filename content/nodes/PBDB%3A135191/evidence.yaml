@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudopus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Pseudopus
+      en: Pseudopus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4c98360bfc
+            part: body
+          en:
+            page: en
+            section: s-454c69b3cc
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e2af8e5177
+            part: body
+          en:
+            page: en
+            section: s-12908481cb
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Pseudopus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=135191
+          locator: Recorded PBDB parent closure beneath the already documented Squamata COL-compatible storage anchor.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:135191
+          readingTargets:
+            - name: Pseudopus confertus
+              pbdbTaxonId: txn:387805
+              canonicalPath: content/nodes/PBDB%3A387805
+            - name: Pseudopus pannonicus
+              pbdbTaxonId: txn:335218
+              canonicalPath: content/nodes/PBDB%3A335218
+            - name: Pseudopus laurillardi
+              pbdbTaxonId: txn:253016
+              canonicalPath: content/nodes/PBDB%3A253016
+            - name: Pseudopus moguntinus
+              pbdbTaxonId: txn:342173
+              canonicalPath: content/nodes/PBDB%3A342173
+            - name: Pseudopus ahnikoviensis
+              pbdbTaxonId: txn:317256
+              canonicalPath: content/nodes/PBDB%3A317256
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ef6456237e
+        part: body
+      en:
+        page: en
+        section: s-42ddd40964
+        part: body

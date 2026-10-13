@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mannophryne trujillensis
+  displayName: Mannophryne trujillensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XVQD
+  sourceIndexes:
+    - name:
+        en: Mannophryne trujillensis
+        zh: Mannophryne trujillensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XVQD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/279
+            queryName: Mannophryne trujillensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0960de00a7
+      - s-5e294cd956
+      - s-972e5d85c9
+      - s-441514817e
+      - s-afbfa6fdef
+      - s-036dce1036
+      - s-9bc9ddd27f
+      - s-a9dc74584b
+      - s-9030fd367e
+      - s-45d712587e
+    zh:
+      - s-7d2e0c48e7
+      - s-c29bc82f51
+      - s-361546600f
+      - s-d971b7f87c
+      - s-ba9e7cd59d
+      - s-9fc4126cfd
+      - s-eee92a3c85
+      - s-b32ca3bd28
+      - s-38442d8e03
+      - s-7ccc4a9241

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Natalobatrachus bonebergi
+  displayName: Natalobatrachus bonebergi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45T9X
+  sourceIndexes:
+    - name:
+        en: Natalobatrachus bonebergi
+        zh: Natalobatrachus bonebergi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45T9X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/206
+            queryName: Natalobatrachus bonebergi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/98
+            queryName: Phrynobatrachus bonebergi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ab127ab1b3
+      - s-cba5a03101
+      - s-99cdb2a8b0
+      - s-4987f36145
+      - s-341f12a74a
+      - s-aaeb0ed3b6
+      - s-5056c84d8c
+      - s-9319dffdd9
+      - s-2a83181b21
+      - s-95a8ccd13f
+      - s-49e2765102
+      - s-a9922b88a9
+      - s-aa606c3971
+      - s-eed8ef8f1c
+      - s-109cbddc3d
+      - s-f48301acfe
+    zh:
+      - s-070e4fac4f
+      - s-21ecc8c772
+      - s-d3a1428e13
+      - s-36ddc0d3d1
+      - s-f03eadd04e
+      - s-31389f72d6
+      - s-06b8c89e5c
+      - s-9f6630e3d2
+      - s-b14ab5b575
+      - s-a060d75b8f
+      - s-4438e5b1cf
+      - s-b0fbc71a7c
+      - s-3daa7fe42d
+      - s-174d6936a8
+      - s-c5de821bdc
+      - s-d2db006f34

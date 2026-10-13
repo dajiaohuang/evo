@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelodytes caucasicus
+  displayName: Pelodytes caucasicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CRQ
+  sourceIndexes:
+    - name:
+        en: Pelodytes caucasicus
+        zh: Pelodytes caucasicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CRQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/456
+            queryName: Pelodytes caucasicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/213
+            queryName: Pelodytopsis caucasica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/498
+            queryName: Pelodytes punctatus caucasicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70b4a38033
+      - s-50053437d5
+      - s-10e2f63474
+      - s-7a56c73b80
+      - s-593e965fac
+      - s-8f3c9d9e7e
+      - s-ee67e5ca12
+      - s-c5aa16478f
+    zh:
+      - s-2b321f66fc
+      - s-ab3fed58ed
+      - s-a7a2a0021f
+      - s-13f23b4927
+      - s-0e4f949e98
+      - s-6fd6515d73
+      - s-7fcec8742d
+      - s-eb2c08a0b1

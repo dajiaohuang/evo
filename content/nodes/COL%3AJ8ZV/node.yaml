@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus oxyrhynchus
+  displayName: Atelopus oxyrhynchus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8ZV
+  sourceIndexes:
+    - name:
+        en: Atelopus oxyrhynchus
+        zh: Atelopus oxyrhynchus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8ZV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/296
+            queryName: Atelopus oxyrhynchus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/418
+            queryName: Atelopus oxyrhynchus oxyrhynchus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ef290da8e
+      - s-52b50346fb
+      - s-f8352e02f6
+      - s-530414a9d7
+      - s-2ea79538b3
+      - s-1e2d570442
+      - s-4cb1d5de78
+      - s-bb4544d9ee
+      - s-841e02b7ba
+      - s-af65096815
+      - s-f0b353440e
+      - s-cad0297913
+      - s-f61313b301
+      - s-4abd6be7e4
+      - s-c3d0da75ce
+      - s-f54dccaff9
+    zh:
+      - s-905186e4d4
+      - s-cca204592f
+      - s-b48b5b1963
+      - s-5b5a94584f
+      - s-d8ea1cde55
+      - s-734967cb5f
+      - s-4a4c60d27f
+      - s-bdb3f83ec1
+      - s-343618664d
+      - s-3bde567216
+      - s-6fb2adc49b
+      - s-c826df46d5
+      - s-793d6e4b8e
+      - s-18165dbc37
+      - s-9926d9196c
+      - s-8ae1f65e59

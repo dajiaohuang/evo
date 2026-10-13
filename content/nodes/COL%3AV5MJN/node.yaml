@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys mufumontana
+  displayName: Boulenophrys mufumontana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5MJN
+  sourceIndexes:
+    - name:
+        en: Boulenophrys mufumontana
+        zh: Boulenophrys mufumontana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5MJN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/367
+            queryName: Boulenophrys mufumontana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/293
+            queryName: Megophrys mufumontana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/304
+            queryName: Panophrys mufumontana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8339089cd8
+      - s-e4deb665ca
+      - s-3ff6893afc
+      - s-f57584708c
+      - s-f31ce4bc58
+      - s-cb7080eb26
+      - s-08271dec01
+      - s-c84bdae466
+      - s-5f29ef0664
+      - s-726da4625a
+      - s-468d24e50b
+      - s-efbe2d2986
+    zh:
+      - s-9bbdaf2461
+      - s-a0804017dd
+      - s-47f47e068c
+      - s-4e181c3622
+      - s-2645371814
+      - s-96e8c73982
+      - s-fae8aee6bd
+      - s-bdd0e840bb
+      - s-52bc6716b7
+      - s-4bd32c6999
+      - s-fcad140e2a
+      - s-59466a8b55

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osteocephalus mutabor
+  displayName: Osteocephalus mutabor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6TBN7
+  sourceIndexes:
+    - name:
+        en: Osteocephalus mutabor
+        zh: Osteocephalus mutabor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6TBN7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/352
+            queryName: Osteocephalus mutabor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c787080ab
+      - s-a6cf4b3f0a
+      - s-4ed0bfbab6
+      - s-f751d79fad
+      - s-7605cadfc3
+      - s-8c868ab014
+      - s-4d8aa1bd03
+      - s-768bc9273a
+      - s-6237e47a00
+      - s-cef5de3e8e
+    zh:
+      - s-6fc20e6aac
+      - s-bcd9475565
+      - s-38adf6a681
+      - s-ac7e6b570b
+      - s-0b8631ef66
+      - s-b3e77b605b
+      - s-e24be7ad50
+      - s-70fcead59b
+      - s-4f47da1fff
+      - s-19817bc5fe

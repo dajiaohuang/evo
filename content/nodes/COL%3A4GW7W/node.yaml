@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus annulatus
+  displayName: Phrynobatrachus annulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW7W
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus annulatus
+        zh: Phrynobatrachus annulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW7W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/100
+            queryName: Phrynobatrachus annulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/272
+            queryName: Phrynobatrachus cornutus annulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-879a541e7c
+      - s-bfc80df197
+      - s-ea0d164c59
+      - s-0ae5c23c7d
+      - s-7e251fe483
+      - s-9ca7b0c3d0
+      - s-3b8eb991e7
+    zh:
+      - s-4affcfefb8
+      - s-752e62e0b1
+      - s-b389edcd6f
+      - s-c0da3728f9
+      - s-3541d57b70
+      - s-3056e8529f
+      - s-7ba2176a22

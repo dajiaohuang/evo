@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax baumgardneri
+  displayName: Scinax baumgardneri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJV4
+  sourceIndexes:
+    - name:
+        en: Scinax baumgardneri
+        zh: Scinax baumgardneri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJV4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/15
+            queryName: Scinax baumgardneri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/176
+            queryName: Hyla baumgardneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/177
+            queryName: Ololygon baumgardneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c3bad005ae
+      - s-09dd011450
+      - s-33dbc90e00
+      - s-6d4d6a5ea5
+      - s-3f4a35d9a7
+      - s-06763f3875
+      - s-779867d175
+      - s-32a1e65931
+    zh:
+      - s-794f17ae25
+      - s-3d2ec4fc50
+      - s-bed0ed04bb
+      - s-277a247fbb
+      - s-f30525c56f
+      - s-3726f4497c
+      - s-ce969839ac
+      - s-665ec73b43

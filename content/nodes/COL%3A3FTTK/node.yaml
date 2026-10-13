@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis decaryi
+  displayName: Gephyromantis decaryi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FTTK
+  sourceIndexes:
+    - name:
+        en: Gephyromantis decaryi
+        zh: Gephyromantis decaryi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FTTK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/119
+            queryName: Gephyromantis decaryi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/170
+            queryName: Mantidactylus decaryi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/192
+            queryName: Gephyromantis decaryi decaryi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c2b2150ee
+      - s-f508b0261c
+      - s-c82f3c99c7
+      - s-f1726fe932
+      - s-ed9093fd85
+      - s-8204dab7b3
+      - s-0249ec5e4f
+      - s-d6259f6e77
+      - s-11641bfb0c
+      - s-2d065aa6ba
+    zh:
+      - s-c1d448998d
+      - s-c80148dd20
+      - s-eca93aec15
+      - s-d84c9db289
+      - s-94ed716c31
+      - s-4eb5460bf8
+      - s-254db4bef8
+      - s-27ef77d366
+      - s-9f3a3d0665
+      - s-be858c62c1

@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Boophis tasymena {#s-b1cc09495a}
+TadpoleTraits version 4 places Boophis tasymena in Boophis (Mantellidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Boophis tasymena. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 3 literature rows and 0 image rows {#s-a47343401c}
+TadpoleTraits version 4 links 3 literature rows and 0 image rows to Boophis tasymena. Source row numbers — literature: 3279, 3280, 3281; image: none recorded. Populated measurement fields — literature: TL, BL, BMH, BMW, TaL, MTH, TMH, TMW, IOD.a, E, SSD.a; image: none recorded. Literature row 3279: Stage 25; Literature row 3280: Stage 25; Literature row 3281: Stage 25. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

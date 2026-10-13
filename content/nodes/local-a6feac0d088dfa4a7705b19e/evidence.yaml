@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Elachistocleis skotogaster
+    name:
+      en: Elachistocleis skotogaster
+      zh: Elachistocleis skotogaster
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Elachistocleis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Elachistocleis skotogaster in the version 3 classification
+          zh: Elachistocleis skotogaster 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2f7cee5e87
+            part: body
+          zh:
+            page: zh
+            section: s-32f259a618
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-db5d538f6f
+            part: body
+          zh:
+            page: zh
+            section: s-0912879ce4
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1632, 1633; Reference.csv rows 417
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1632
+        values:
+          - Microhylidae
+          - Elachistocleis
+          - Elachistocleis skotogaster
+          - M
+          - "28.11666667"
+          - "4.583333333"
+          - "6.7"
+          - "1.8"
+          - NA
+          - NA
+          - "3.933333333"
+          - "1.516666667"
+          - NA
+          - "2.8"
+          - NA
+          - NA
+          - "5.55"
+          - "4.733333333"
+          - NA
+          - "10.43333333"
+          - NA
+          - "8.783333333"
+          - "9.383333333"
+          - NA
+          - NA
+          - "0.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1633
+        values:
+          - Microhylidae
+          - Elachistocleis
+          - Elachistocleis skotogaster
+          - F
+          - "31.86666667"
+          - "4.8"
+          - "7.8"
+          - "2.133333333"
+          - NA
+          - NA
+          - "4.2"
+          - "1.866666667"
+          - NA
+          - "3.2"
+          - NA
+          - NA
+          - "6.5"
+          - "5.766666667"
+          - NA
+          - "11.93333333"
+          - NA
+          - "10.63333333"
+          - "10.73333333"
+          - NA
+          - NA
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 417
+        values:
+          - Anura
+          - Elachistocleis_skotogaster
+          - "Ferrari, L., Vaira, M., & Lavilla. (2003). A new species of Elachistocleis (Anura: Microhylidae) from the Andean Yungas of Argentina, with comments on the Elachistocleis ovalis - E. bicolor controversy. Amphibia-Reptilia, 24(3), 269-284. https://doi.org/10.1163/156853803322440754"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 38X3K
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

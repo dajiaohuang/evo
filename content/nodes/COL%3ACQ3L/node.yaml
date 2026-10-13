@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma californiense
+  displayName: Ambystoma californiense
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ3L
+  sourceIndexes:
+    - name:
+        en: Ambystoma californiense
+        zh: Ambystoma californiense
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ3L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/234
+            queryName: Ambystoma californiense
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 74
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/426
+            queryName: Ambystoma tigrinum californiense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/470
+            queryName: Amblystoma californicum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-38e9c88876
+      - s-43b5faaaf3
+      - s-4e02a4ebfc
+      - s-2637acfbbd
+      - s-1bef2cca8c
+      - s-a2630c4138
+      - s-0af61cb166
+      - s-3af4aa5b9f
+      - s-40cc7f5059
+      - s-7c39483233
+    zh:
+      - s-d0c030b7cd
+      - s-7b5bce56a2
+      - s-830c5745b0
+      - s-a26dc17e9e
+      - s-a8dee18296
+      - s-d6c26c7df4
+      - s-f960acbd53
+      - s-0613b94b13
+      - s-e4406bd896
+      - s-3631e0a957

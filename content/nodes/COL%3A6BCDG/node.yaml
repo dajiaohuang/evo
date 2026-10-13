@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor aurilegulus
+  displayName: Craugastor aurilegulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCDG
+  sourceIndexes:
+    - name:
+        en: Craugastor aurilegulus
+        zh: Craugastor aurilegulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCDG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/88
+            queryName: Craugastor aurilegulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/268
+            queryName: Eleutherodactylus aurilegulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8f78c9e6f2
+      - s-13028311a0
+      - s-55199c8014
+      - s-bc42eb0bf5
+      - s-721e954c17
+      - s-5460cf47f7
+      - s-20c6ba55e2
+      - s-be7fc8caaf
+      - s-460e22d321
+    zh:
+      - s-ee70b14c31
+      - s-ae9f4be06b
+      - s-3bb79ab4b9
+      - s-ec989331f0
+      - s-812b43ef78
+      - s-6440fe21ba
+      - s-fcdb897257
+      - s-8b12a430d9
+      - s-36faf0700b

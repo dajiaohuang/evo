@@ -1,0 +1,3 @@
+## ## Recurved hairs and silky corolla lobes {#s-6bc511f1b3}
+The Brazilian Flora 2020 entry records pilose or tomentose stems with recurved simple hairs and unbranched, thread-like setae; branched setae, glandular hairs, prickles and short shoots are absent. The stipules persist, extrafloral nectaries are absent, and projections between pinna pairs are absent. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a paleaceous calyx with pappus-like lobes. Corolla lobes are silky and have one to three veins; the androecium is isostemonous, with pink filaments. The habitat field says “terrestrial,” without specifying a locality or finer habitat.
+

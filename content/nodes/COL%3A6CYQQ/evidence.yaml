@@ -1,0 +1,115 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Disa rungweensis Schltr.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6CYQQ, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6CYQQ; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6CYQQ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6CYQQ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000944542-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6CYQQ / WFO wfo-0000944542
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_12703_0
+        referenceId: ref-b11f5452-eb75-8026-ac76-9fbcf4bdd358
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Disa rungweensis Schltr. account; SANBI/WFO archive rows 104706 (Morphology), 104660 (Habitat), 104589 (Diagnostic), source identifier 12703.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: A terrestrial herb 0.5-3.5 dm high, glabrous except for the roots; tubers ellipsoid or ovoid, 8-20 mm long, 5-10 mm in diameter, densely and shortly tomentose; roots slender, flexuous, pubescent. Stem erect, slender, terete, leafy throughout its length. Leaves 10-15, the lowest sheath-like, the next 5-7 in a bunch just above the base of the stem, suberect or spreading, linear to oblong-lanceolate, acute, the largest 1.5-9 cm long and 2-15 mm broad, tinged reddish or purplish, the remainder erect, ± adpressed to the stem with only the tips spreading, lanceolate, acute, decreasing in size up the stem. Inflorescence narrowly cylindrical, 1.5-6.5 cm long, 1-1.5 cm in diameter, loosely to rather densely 3- to many-flowered. Bracts lanceolate, acuminate, 5-15 mm long, the lower ones sometimes overtopping the flowers. Flowers suberect, greenish-white, pale pink, lilac or purple; pedicel with ovary straight, 5-8 mm long. Dorsal sepal erect, elliptical or almost orbicular, very convex, spurred at the back towards the base, 3-4.5 mm. long and nearly as broad when spread out, the spur horizontal or curved upwards, narrow in the lower part, swollen at the apex, 2.5-3.5 mm long; laterals projecting forwards, elliptical or oblong-elliptical, rounded, 2.5-3.5 mm. long, ± 2 mm broad. Petals erect, inside the dorsal sepal, very obliquely quadrate-obovate from a narrow base, rounded at the top and much widened on the outer side, 2-3 mm long, 1.5-2 mm broad. Lip projecting forwards, linear-ligulate, rounded, ± 2 mm long and 0.5 mm broad. Column erect, very short; anther horizontal or nearly so, 0.75 mm long; stigma in front of anther, ± orbicular or transversely elliptical, 0.6 mm in diameter.
+            textZh: Disa rungweensis Schltr. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_12703_0
+            locator: "SANBI/WFO archive Morphology row 104706; source identifier 12703.0; cited publication: Summerhayes, VS. 1968. Orchidaceae. In: E Milne-Redhead & RM Polhill (eds), Fl. Trop. E. Africa(1): 1 - 236. Crown Agents, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Subsp. rhodesiaca (Summerh.) Summerh. is a larger plant with longer and broader leaves and many-flowered inflorescences of lilac or purple flowers.
+            textZh: SANBI 条目提供了 Disa rungweensis Schltr. 的鉴别特征。
+            sourceIds:
+              - sanbi_12703_0
+            locator: "SANBI/WFO archive Diagnostic row 104589; source identifier 12703.0; cited publication: Summerhayes, VS. 1968. Orchidaceae. In: E Milne-Redhead & RM Polhill (eds), Fl. Trop. E. Africa(1): 1 - 236. Crown Agents, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Steep rocky slopes, among lava or pumice.
+            textZh: 该 SANBI 区域物种条目记录的生境：Steep rocky slopes, among lava or pumice.
+            sourceIds:
+              - sanbi_12703_0
+            locator: "SANBI/WFO archive Habitat row 104660; source identifier 12703.0; cited publication: Summerhayes, VS. 1968. Orchidaceae. In: E Milne-Redhead & RM Polhill (eds), Fl. Trop. E. Africa(1): 1 - 236. Crown Agents, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-1135881f4a
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-4697cd54a2
+          part: body

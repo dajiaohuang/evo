@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Serranobatrachus Arroyo, Targino, Rueda-Solano, Daza-R. & Grant, 2022
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Serranobatrachus
+      zh: Serranobatrachus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9a956dff89
+            part: title
+          zh:
+            page: zh
+            section: s-26a3c0bbbb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9a956dff89
+            part: body
+          zh:
+            page: zh
+            section: s-26a3c0bbbb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a4590380e8
+            part: title
+          zh:
+            page: zh
+            section: s-ea6e6f27bb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a4590380e8
+            part: body
+          zh:
+            page: zh
+            section: s-ea6e6f27bb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-040ba242df
+            part: title
+          zh:
+            page: zh
+            section: s-a36be82e1a
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: SRC7F
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASRC7F
+            label:
+              en: Serranobatrachus carmelitae
+              zh: Serranobatrachus carmelitae
+          - kind: catalogue
+            colId: SRC7G
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASRC7G
+            label:
+              en: Serranobatrachus cristinae
+              zh: Serranobatrachus cristinae
+          - kind: catalogue
+            colId: SRC7L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASRC7L
+            label:
+              en: Serranobatrachus delicatus
+              zh: Serranobatrachus delicatus
+          - kind: catalogue
+            colId: SRC7M
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASRC7M
+            label:
+              en: Serranobatrachus insignitus
+              zh: Serranobatrachus insignitus
+          - kind: catalogue
+            colId: SRC7N
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASRC7N
+            label:
+              en: Serranobatrachus megalops
+              zh: Serranobatrachus megalops
+          - kind: catalogue
+            colId: SRC7P
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASRC7P
+            label:
+              en: Serranobatrachus ruthveni
+              zh: Serranobatrachus ruthveni
+          - kind: catalogue
+            colId: SRC7Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASRC7Q
+            label:
+              en: Serranobatrachus sanctaemartae
+              zh: Serranobatrachus sanctaemartae
+        text:
+          en:
+            page: en
+            section: s-040ba242df
+            part: body
+          zh:
+            page: zh
+            section: s-a36be82e1a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Serranobatrachus
+          url: https://www.checklistbank.org/dataset/316115/taxon/SRC7C
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-02d8e73ae6
+        part: body
+      zh:
+        page: zh
+        section: s-f81028633a
+        part: body

@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Glandirana rugosa
+  displayName: Glandirana rugosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3G58B
+  sourceIndexes:
+    - name:
+        en: Glandirana rugosa
+        zh: Glandirana rugosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3G58B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/174
+            queryName: Glandirana rugosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 109
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/222
+            queryName: Rana rugosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 270
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/182
+            queryName: Rugosa rugosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4094876e68
+      - s-5860bbfafb
+      - s-badf3eec6f
+      - s-b935e79be5
+      - s-ab55592232
+      - s-b5d8d90270
+      - s-aeaf01b276
+      - s-4d65cdc6a9
+      - s-cfb35b03e7
+      - s-17c804aa05
+      - s-6c032aa6ba
+      - s-c7f0a45c0a
+      - s-6eba81d291
+      - s-70187978ae
+      - s-c1954a6c39
+      - s-b30c2cf6ab
+      - s-f3caca13bc
+      - s-64ab6bd697
+      - s-728cf3354e
+      - s-ff08d8d267
+      - s-7e94a9bcb8
+      - s-c3eb9a4fe8
+    zh:
+      - s-fe2e578ae3
+      - s-9b6be71a8e
+      - s-ba7f6e5992
+      - s-7e3998f287
+      - s-6584193dcd
+      - s-d74364c040
+      - s-66b1662b82
+      - s-970e2a5833
+      - s-7910763e28
+      - s-67e550e10d
+      - s-2e5dc90877
+      - s-d1d0724248
+      - s-6fd4b40d4b
+      - s-c8bf02a8c3
+      - s-0e1400aaa2
+      - s-12012cd485
+      - s-96dc9314a9
+      - s-1df7082569
+      - s-9a91ad4ab6
+      - s-f250864a6d
+      - s-bf3a4c5fe7
+      - s-b02af61d55

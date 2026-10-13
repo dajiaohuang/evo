@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Peltophryne
+  displayName: Peltophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KH6
+  sourceIndexes:
+    - name:
+        en: Peltophryne
+        zh: Peltophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KH6
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/150
+            queryName: Peltophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 100
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-717a41d63a
+      - s-5f7ec22108
+      - s-5a221d60d9
+      - s-a0c0b94062
+      - s-e3ebfcc1f8
+      - s-030e686bf8
+      - s-3a14d58f22
+      - s-9d6254dd94
+      - s-76c798945a
+      - s-b6e6ada029
+      - s-2c6ccb312c
+      - s-51cdbf2f14
+      - s-62723bb698
+    zh:
+      - s-5cc3c567d6
+      - s-5543883a49
+      - s-8d55b4cf8b
+      - s-a18f4b748c
+      - s-3c4b2af615
+      - s-fe0bba530f
+      - s-b1aff3f6d8
+      - s-bb17bd292b
+      - s-1918809d1a
+      - s-6f8f99d872
+      - s-4f66284bef
+      - s-8c8b552f46
+      - s-add7a316ed

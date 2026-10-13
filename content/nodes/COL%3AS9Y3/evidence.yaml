@@ -1,0 +1,273 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Centrolene geckoidea Jiménez de la Espada, 1872
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Centrolene geckoidea
+      zh: Centrolene geckoidea
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fdb65b3209
+            part: title
+          zh:
+            page: zh
+            section: s-7035c4d6f4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fdb65b3209
+            part: body
+          zh:
+            page: zh
+            section: s-7035c4d6f4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fced3723f7
+            part: title
+          zh:
+            page: zh
+            section: s-3c1e8a7261
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fced3723f7
+            part: body
+          zh:
+            page: zh
+            section: s-3c1e8a7261
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2c31764066
+            part: title
+          zh:
+            page: zh
+            section: s-0457ee42cc
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-2c31764066
+            part: body
+          zh:
+            page: zh
+            section: s-0457ee42cc
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-398cdcc566d9943e902bf59e1ddef9a8
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-25305a9fe508766eb40576ac
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-78944eb3b3
+            part: title
+          zh:
+            page: zh
+            section: s-9874392883
+            part: title
+        sourceIds:
+          - primary-pmc10178282-s9y3
+        text:
+          en:
+            page: en
+            section: s-78944eb3b3
+            part: body
+          zh:
+            page: zh
+            section: s-9874392883
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Centrolene geckoidea
+          url: https://www.checklistbank.org/dataset/316115/taxon/S9Y3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0923; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0923 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 825; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10178282-s9y3
+        referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Centrolene geckoidea: XML fieldwork sec6; phylogenetic results sec11; species descriptions sec12 paragraphs 8–11,16–19,21,29–31,36–38,40; all discussion sec13 paragraphs 1–5; original recordings unavailable and supplementary/raw sequence data not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-003872b692
+        part: body
+      zh:
+        page: zh
+        section: s-87bcc79834
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.15195
+        referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+        sourceKey: primary-pmc10178282-s9y3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10178282/article.xml
+        sourceConcept: Centrolene geckoidea
+        evidenceRead: "Centrolene geckoidea: XML fieldwork sec6; phylogenetic results sec11; species descriptions sec12 paragraphs 8–11,16–19,21,29–31,36–38,40; all discussion sec13 paragraphs 1–5; original recordings unavailable and supplementary/raw sequence data not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Placement in a limited reference phylogeny
+              zh: 有限参考系统树中的位置
+            referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+            sourceKey: primary-pmc10178282-s9y3
+            locator: PMC10178282 XML sec11 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fe887ccf51
+                part: body
+              zh:
+                page: zh
+                section: s-1451dbbd47
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

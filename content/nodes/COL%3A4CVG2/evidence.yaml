@@ -1,0 +1,121 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paragalago granti (Thomas & Wroughton, 1907)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 格兰特矮伽拉戈
+      en: Mozambique Dwarf Galago
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-f1d9bdbfe3
+            part: body
+          en:
+            page: en
+            section: s-9f9a38857d
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - butynski2006
+          - pozzi2020
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-d4fbb1446b
+            part: body
+          en:
+            page: en
+            section: s-ddf6cf6f7e
+            part: body
+        sourceIds:
+          - genin2016
+      - topic: vocalization
+        text:
+          zh:
+            page: zh
+            section: s-f72547f8ea
+            part: body
+          en:
+            page: en
+            section: s-c8897d5a36
+            part: body
+        sourceIds:
+          - genin2016
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4CVG2
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-5d21477d-b686-8830-a88d-a25a5ba36114
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 用于参照 MDD v2.5 的英文普通名；不替代固定 COL 身份，也不支持生态结论。
+            en: Used to reference the English common name in MDD v2.5; it does not replace the pinned COL identity or support ecological claims.
+      - id: genin2016
+        referenceId: ref-cf9c66da-b0fb-8210-a62a-9870a0b11d3d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Tembe 与 Tshanini 的调查日期、睡眠点、栖地与叫声观察；不是全分布区调查。
+            en: Supports survey dates, sleeping sites, habitat and vocal observations at Tembe and Tshanini; it is not a range-wide survey.
+      - id: butynski2006
+        referenceId: ref-57d7080a-1818-860c-ab91-877230f4c921
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 回顾南坦桑尼亚至莫桑比克南部的历史分类与区域分布；不替代本页所引局地观察。
+            en: Reviews historical taxonomy and regional distribution from southern Tanzania toward southern Mozambique; it does not replace the local observations cited here.
+      - id: pozzi2020
+        referenceId: ref-72d9cc25-12b5-8b1c-a9be-450e4e1c7f42
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 粒线体与核基因资料及多种物种界定分析支持三个独立谱系；支持分类讨论，不是生态或族群调查。
+            en: Mitochondrial and nuclear data with multiple delimitation methods support three independent lineages; this informs taxonomy, not ecology or population size.
+    limitations:
+      zh:
+        page: zh
+        section: s-501cc47fa1
+        part: body
+      en:
+        page: en
+        section: s-d2f595eb97
+        part: body

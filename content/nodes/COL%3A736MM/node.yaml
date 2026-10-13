@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus melanopleura
+  displayName: Mantidactylus melanopleura
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/736MM
+  sourceIndexes:
+    - name:
+        en: Mantidactylus melanopleura
+        zh: Mantidactylus melanopleura
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 736MM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/344
+            queryName: Mantidactylus melanopleura
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/253
+            queryName: Rhacophorus melanopleura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/184
+            queryName: Mantidactylus opiparis melanopleura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cca017e211
+      - s-a3119da41f
+      - s-d8b732d9d3
+      - s-c0a744c526
+      - s-3593edad73
+      - s-fd712467d7
+      - s-39d6e1e295
+      - s-2b27f545d3
+      - s-4b50f82c0b
+      - s-5293f77bf8
+      - s-22ac3b7fc3
+    zh:
+      - s-a39312d3a0
+      - s-b24d523d4c
+      - s-c15816b43b
+      - s-7b5a24cf64
+      - s-014dce3878
+      - s-8decbe4f39
+      - s-828f16afe6
+      - s-ba11636fec
+      - s-6f36f661a5
+      - s-0b56ac7e9a
+      - s-5db03d4493

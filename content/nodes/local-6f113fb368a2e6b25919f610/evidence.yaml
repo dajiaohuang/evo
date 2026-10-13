@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachium leucops
+    name:
+      en: Leptobrachium leucops
+      zh: Leptobrachium leucops
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Leptobrachium leucops in the version 3 classification
+          zh: Leptobrachium leucops 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-74d23a5add
+            part: body
+          zh:
+            page: zh
+            section: s-a21a2964de
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 14 populated trait fields
+          zh: 2 条测量行与 14 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-02ea769297
+            part: body
+          zh:
+            page: zh
+            section: s-b46fe95660
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2678, 2679; Reference.csv rows 681
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2678
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium leucops
+          - F
+          - "40.35"
+          - "17.8"
+          - "16.8"
+          - "6.75"
+          - NA
+          - NA
+          - "5.35"
+          - "4.25"
+          - NA
+          - NA
+          - "6.9"
+          - NA
+          - "10.45"
+          - "13.7"
+          - "24.15"
+          - "15.95"
+          - NA
+          - "15.9"
+          - "18.05"
+          - NA
+          - NA
+          - "2.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2679
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium leucops
+          - M
+          - "43.2"
+          - "20.1"
+          - "19.7"
+          - "7.3"
+          - NA
+          - NA
+          - "5.5"
+          - "4.2"
+          - NA
+          - NA
+          - "7.4"
+          - NA
+          - "10.1"
+          - "13.4"
+          - "23.5"
+          - "15.6"
+          - NA
+          - "15"
+          - "18.4"
+          - NA
+          - NA
+          - "2.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 681
+        values:
+          - Anura
+          - Leptobrachium_leucops
+          - "Stuart, B. L., Rowley, J. J. L., Dao, T. A. T., Duong, T. T. L., & Hoang, H. D. (2011). The Leptobrachium (Anura: Megophryidae) of the Langbian Plateau, southern Vietnam, with description of a new species. Zootaxa(2804), 25-40. https://doi.org/10.11646/zootaxa.2804.1.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - THL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6PFRS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

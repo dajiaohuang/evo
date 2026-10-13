@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adelophryne baturitensis
+  displayName: Adelophryne baturitensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9XYZ
+  sourceIndexes:
+    - name:
+        en: Adelophryne baturitensis
+        zh: Adelophryne baturitensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9XYZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/8
+            queryName: Adelophryne baturitensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a66204b97a
+      - s-3b22042c4f
+      - s-4a601d1a9e
+      - s-9ef5e38971
+      - s-893ae42442
+      - s-39cfc92876
+      - s-461dada894
+      - s-affd5b8161
+      - s-bdfd27412d
+      - s-eb525d9850
+      - s-948d559eb3
+      - s-7390ea0d81
+      - s-fdbf4c1d50
+      - s-83b54b2d0e
+      - s-f28d46baa9
+      - s-b60d4d09af
+    zh:
+      - s-191956d58a
+      - s-49aba08960
+      - s-253f036415
+      - s-640b83032f
+      - s-22eb23168e
+      - s-27e6a3d78e
+      - s-2ca16de4f6
+      - s-65612fcd75
+      - s-3a32a0dfb7
+      - s-822618384d
+      - s-64dc69ee81
+      - s-104d9f5b3e
+      - s-b6208ebd21
+      - s-b75f7d3a05
+      - s-0930fc3c21
+      - s-17b2ebc00d

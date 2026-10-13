@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Graptolithina
+    commonName: Graptolites
+    commonNameZh: 笔石类
+    rank: class
+    taxonId: ""
+    firstAppearance: 510
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:graptolithina
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Graptolithina root display uses 516–0 Ma as a sampled envelope from diagnostic Yunotubus material in the approximately 516 Ma Hongjingshao Formation to living rhabdopleurid graptolites; it is not a graptolite origin date.
+      confidence: medium
+      confidenceRationale: Five associated specimens preserve tubes, zooids and a connecting stolon in a dated Lagerstätte, while pterobranch placement depends on a finite morphology matrix. Living rhabdopleurids justify the present endpoint without implying an uninterrupted sampled record.
+      referenceLinks:
+        - referenceId: yang-2025-yunotubus
+          relation: supports
+          figure: Figures 1–5
+          quoteLocator: Geological setting; Systematic palaeontology; tube-and-stolon association; phylogenetic analyses
+  claim-rationales.zh:
+    - 五件相连标本在有年代约束的化石库中保存管、个员和连接匍匐茎，但翼鳃类位置依赖有限的形态矩阵；现生杆壁虫支持到现在的端点，却不代表连续化石记录。
+  claim-statements.zh:
+    - 笔石纲根节点采用 5.16 亿年前至今的采样包络，从洪井哨组约 5.16 亿年前具有鉴别特征的 Yunotubus 材料延伸到现生杆壁虫类笔石；它不是笔石起源时间。
+  ranges:
+    - entityId: graptolithina
+      rangeKind: global-composite
+      taxonomicConcept: Graptolithina including living rhabdopleurid graptolites
+      geographicScope: Hongjingshao Formation Yunotubus sample to living rhabdopleurids
+      olderMa: 516
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 2
+        youngerMa: 0
+        note: The older endpoint is the approximate age of one diagnostic Lagerstätte sample, not a graptolite origin date.
+      evidenceBasis: Five Yunotubus specimens preserve tubes, zooids and a connecting stolon used in a sampled pterobranch analysis; living rhabdopleurids support the present endpoint.
+      confidence: medium
+      claimIds:
+        - claim:taxon:graptolithina:root-range-rc39
+      referenceLocators:
+        - referenceId: yang-2025-yunotubus
+          locator: Figures 1–5; Geological setting; Systematic palaeontology; phylogenetic analyses
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    sections:
+      - topic: fossil-record
+        title:
+          en:
+            page: en
+            section: s-eb30e997f4
+            part: title
+          zh:
+            page: zh
+            section: s-d623110245
+            part: title
+        sourceIds:
+          - yang-2025-yunotubus
+        text:
+          en:
+            page: en
+            section: s-eb30e997f4
+            part: body
+          zh:
+            page: zh
+            section: s-d623110245
+            part: body

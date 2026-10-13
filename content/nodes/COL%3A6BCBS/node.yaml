@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor alfredi
+  displayName: Craugastor alfredi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCBS
+  sourceIndexes:
+    - name:
+        en: Craugastor alfredi
+        zh: Craugastor alfredi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCBS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/81
+            queryName: Craugastor alfredi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/22
+            queryName: Eleutherodactylus alfredi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/268
+            queryName: Hylodes alfredi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/269
+            queryName: Eleutherodactylus conspicuus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/48
+            queryName: Eleutherodactylus alfredi conspicuus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-545fb8b0a2
+      - s-dd0d2bf339
+      - s-c54de6c310
+      - s-bbd2a1cf1a
+      - s-2826ba0436
+      - s-0f43558d92
+      - s-a4d1f02325
+      - s-9197f5b87c
+      - s-07ab64a35b
+      - s-f6850d227d
+    zh:
+      - s-cc541c65fc
+      - s-cf2f46a5b5
+      - s-cff7c9b0f4
+      - s-ad2dedb8f9
+      - s-1f74148bf0
+      - s-4ab7d29f50
+      - s-9d8e20fe6b
+      - s-bc66a67bab
+      - s-54888fe155
+      - s-f88730f12f

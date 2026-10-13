@@ -1,0 +1,150 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sciurocheirus Gray, 1872
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Squirrel galagos
+      zh: 松鼠婴猴属
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-14b583cb87
+            part: body
+          zh:
+            page: zh
+            section: s-9372c7cd3d
+            part: body
+        sourceIds:
+          - taxonomy
+          - ambrose2003
+          - ambrose2013
+          - mdd_alleni
+      - topic: readingPath
+        text:
+          en:
+            page: en
+            section: s-9d449dc37d
+            part: body
+          zh:
+            page: zh
+            section: s-245f5c4a0a
+            part: body
+        sourceIds:
+          - ambrose2003
+          - ambrose2013
+          - charles1977
+      - topic: interpretation
+        text:
+          en:
+            page: en
+            section: s-094223db9f
+            part: body
+          zh:
+            page: zh
+            section: s-b6deb1f1e7
+            part: body
+        sourceIds:
+          - ambrose2003
+          - ambrose2013
+          - charles1977
+          - mdd_alleni
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Sciurocheirus
+          url: https://www.checklistbank.org/dataset/316115/taxon/63TBK
+          scope:
+            en: Pins the accepted genus ID and source authorship.
+            zh: 固定接受属级 ID 与来源作者信息。
+      - id: ambrose2003
+        referenceId: ref-21bfa785-e10e-8c7d-adca-61a25368924a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Primary ten-location call and morphology comparison.
+            zh: 十地点叫声与形态原始比较。
+      - id: ambrose2013
+        referenceId: ref-ec947ea7-7a89-8207-adc4-8ae19faa8e2a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Species account formalizing the Makandé form.
+            zh: 正式命名 Makandé 型的物种条目。
+      - id: charles1977
+        referenceId: ref-02927465-f7ab-855b-a501-6a093831f870
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Historical field work at Makokou under a broad pre-split name.
+            zh: 拆分前广义名称下在 Makokou 开展的历史野外研究。
+      - id: mdd_alleni
+        referenceId: ref-d1390a50-4358-878c-a049-3af3fbbe84cd
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Current MDD name-associated taxonomy note for cameronensis.
+            zh: MDD 对 cameronensis 的当前名称与分类注记。
+      - id: mdd_gabonensis
+        referenceId: ref-71257824-da70-8c2f-a765-248d26c6e0de
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Current MDD English display name.
+            zh: MDD 当前英文显示名。
+      - id: mdd_makandensis
+        referenceId: ref-1765489d-a2f9-8498-a6a2-cae1f18c4e2b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Current MDD English display name and type-locality record.
+            zh: MDD 当前英文显示名及模式地点记录。
+    limitations:
+      en:
+        page: en
+        section: s-6f62af5bbe
+        part: body
+      zh:
+        page: zh
+        section: s-0bdc6654ff
+        part: body

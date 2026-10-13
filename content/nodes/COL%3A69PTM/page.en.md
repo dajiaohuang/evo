@@ -1,0 +1,3 @@
+## ## Many pairs of small leaflets {#s-a70f3bd039}
+Brazilian Flora 2020 records a xylopodium and leaves with 18–40 pairs of leaflets, rarely 44 pairs. The leaflets are usually obovate or elliptic with blunt tips, less often ovate and acute or deltoid; they are 3–18 mm long and may have heart-shaped or nearly heart-shaped bases. The yellow flowers have ten stamens and petals of different forms. The pods are 3.5–5.5 cm long and 0.6–0.75 cm wide, with yellowish, villous and weakly bristly hairs. The glossy, dark-brown seeds are 4.6–5.3 mm long and 3–3.7 mm wide. The dataset classifies the plant as terrestrial.
+

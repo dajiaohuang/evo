@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys congjiangensis
+  displayName: Boulenophrys congjiangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5DG7
+  sourceIndexes:
+    - name:
+        en: Boulenophrys congjiangensis
+        zh: Boulenophrys congjiangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5DG7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/336
+            queryName: Boulenophrys congjiangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/291
+            queryName: Panophrys congjiangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7c1bf46a06
+      - s-75fb010163
+      - s-f25638d524
+      - s-1b2321f2e7
+      - s-144a8adbc0
+      - s-a337970350
+      - s-df555788e0
+      - s-c124897c79
+      - s-94cc0210f0
+    zh:
+      - s-443e5372fc
+      - s-28dff18e85
+      - s-222489a8f4
+      - s-b6bd6cc352
+      - s-761b842a3d
+      - s-a2608293fd
+      - s-77ccd266f7
+      - s-cfbced79ae
+      - s-cb1b9dc426

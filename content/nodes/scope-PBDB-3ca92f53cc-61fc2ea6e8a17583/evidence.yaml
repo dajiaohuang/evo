@@ -1,0 +1,273 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:40764
+    scientificName: Notharctus (AMNH 143612 and AMNH 143640 foot)
+    commonName: Bridger Formation adapiform foot sample
+    commonNameZh: 布里杰组北猴足部样本
+    rank: genus
+    parentName: Adapiformes
+    extinct: true
+    geography:
+      - Bridger Formation
+      - Wyoming
+      - United States
+    overview:
+      page: en
+      section: s-244836c9a4
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-29c1b25fb3
+        part: body
+      habitat:
+        page: en
+        section: s-e5d88cce24
+        part: body
+      locomotion:
+        page: en
+        section: s-6158874829
+        part: body
+      bodySize:
+        page: en
+        section: s-d354a1ae6e
+        part: body
+      guild:
+        page: en
+        section: s-22eb8a50ad
+        part: body
+      dietZh:
+        page: zh
+        section: zh-2b83905090938b
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-04d16810c362ed
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-741e1b46447771
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-7cb4588ba391d2
+        part: body
+      guildZh:
+        page: zh
+        section: zh-d642fa08ade231
+        part: body
+    traits:
+      - page: en
+        section: s-132218076d
+        part: body
+      - page: en
+        section: s-5edded64ec
+        part: body
+      - page: en
+        section: s-54042a66f2
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-0b471d25e0
+      part: body
+    confidence: medium
+    referenceIds:
+      - maiolino-2012-notharctus
+    readerSections:
+      - id: bridger-foot
+        title:
+          en:
+            page: en
+            section: s-b90dd2c4a7
+            part: title
+          zh:
+            page: zh
+            section: s-9e854a7cd7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b90dd2c4a7
+            part: body
+          zh:
+            page: zh
+            section: s-9e854a7cd7
+            part: body
+        sourceIds:
+          - maiolino-2012-notharctus
+      - id: digit-two-test
+        title:
+          en:
+            page: en
+            section: s-3c2fd18b90
+            part: title
+          zh:
+            page: zh
+            section: s-4122033dc9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3c2fd18b90
+            part: body
+          zh:
+            page: zh
+            section: s-4122033dc9
+            part: body
+        sourceIds:
+          - maiolino-2012-notharctus
+      - id: function-and-generalization
+        title:
+          en:
+            page: en
+            section: s-b000868bfd
+            part: title
+          zh:
+            page: zh
+            section: s-cf9e349b74
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b000868bfd
+            part: body
+          zh:
+            page: zh
+            section: s-cf9e349b74
+            part: body
+        sourceIds:
+          - maiolino-2012-notharctus
+    readerSources:
+      - id: maiolino-2012-notharctus
+        referenceId: maiolino-2012-notharctus
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Ray-specific comparisons of the named Notharctus foot material AMNH 143612/143640; functional interpretation, not observed grooming.
+            zh: 针对具名 Notharctus 足部标本 AMNH 143612/143640 的分趾比较；结论属于功能解释，不是梳理行为观察。
+    readerLimitations:
+      en:
+        page: en
+        section: s-89e269336a
+        part: body
+      zh:
+        page: zh
+        section: s-353d437663
+        part: body
+    overviewZh:
+      page: zh
+      section: zh-b468701e11b0e2
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-2466c6556de26c
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-76be27fa492b57
+        part: body
+      - page: zh
+        section: zh-70b9f6c13ff510
+        part: body
+      - page: zh
+        section: zh-d3991b186dfb68
+        part: body
+  claims:
+    - subjectId: taxon:notharctus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Notharctus is bounded here by the semi-articulated AMNH 143612/143640 foot from Bridger B, Wyoming, within an approximately 50–48.5 Ma locality interval; its digit-two anatomy does not establish a global genus range or crown-anthropoid ancestry.
+      confidence: high
+      confidenceRationale: The named associated foot and stratigraphic setting are direct evidence; functional and higher-topology implications remain comparative.
+      referenceLinks:
+        - relation: supports
+          referenceId: maiolino-2012-notharctus
+          pages: Article e29135
+          figure: Figures 1–16
+          quoteLocator: Specimen association; anatomical comparisons; phylogenetic tests
+    - subjectId: taxon:notharctus
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Maiolino and colleagues treat the semi-articulated AMNH 143612 and AMNH 143640 foot as Notharctus for a ray-specific phalangeal comparison; this attribution and comparison do not establish crown-primate membership or direct ancestry.
+      confidence: medium
+      confidenceRationale: The named foot and comparative assignment are directly documented, while higher-level placement and ancestry are not tested by specimen association alone.
+      referenceLinks:
+        - referenceId: maiolino-2012-notharctus
+          relation: supports
+          pages: e29135
+          figure: Figures 3–10; Table 2
+          quoteLocator: Materials and Methods; Notharctus specimen association and ray-specific phalangeal comparisons
+    - subjectId: taxon:notharctus
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profiled Notharctus foot is bounded to AMNH 143612 and AMNH 143640 from the Bridger Formation in Wyoming; this specimen provenance does not establish a complete genus distribution.
+      confidence: high
+      confidenceRationale: The primary study directly identifies the specimens and formation context, while no global presence or absence survey is part of the anatomical comparison.
+      referenceLinks:
+        - referenceId: maiolino-2012-notharctus
+          relation: supports
+          pages: e29135
+          figure: Figures 3–4
+          quoteLocator: Materials and Methods; AMNH 143612 and AMNH 143640; Bridger Formation provenance
+    - subjectId: taxon:notharctus
+      claimKind: scientific
+      claimType: ecology
+      statement: The cited Notharctus foot study tests phalangeal function rather than diet, habitual habitat, observed locomotion, population body size or ecological guild; those fields therefore remain unresolved in this profile.
+      confidence: high
+      confidenceRationale: The study's evidence is a bounded anatomical and functional comparison, so withholding unobserved ecological attributes follows directly from its scope.
+      referenceLinks:
+        - referenceId: maiolino-2012-notharctus
+          relation: supports
+          pages: e29135
+          figure: Figures 3–10; Table 2
+          quoteLocator: Materials and Methods; Results and Discussion delimit the dataset to foot anatomy and functional comparison
+    - subjectId: taxon:notharctus
+      claimKind: scientific
+      claimType: morphology
+      statement: AMNH 143612 and AMNH 143640 preserve a semi-articulated foot with ray-specific proximal and intermediate phalanges used to infer a digit-two grooming claw; grooming behaviour itself is not observed.
+      confidence: medium
+      confidenceRationale: The bones and ray assignments are illustrated directly, whereas grooming-claw function is a comparative inference and cannot demonstrate behaviour in the fossil animal.
+      referenceLinks:
+        - referenceId: maiolino-2012-notharctus
+          relation: supports
+          pages: e29135
+          figure: Figures 3–10; Table 2
+          quoteLocator: Ray-specific phalangeal identification and digit-two grooming-claw functional discussion
+  claim-rationales.zh:
+    - 具名关联足部与地层背景属于直接证据；功能与高阶拓扑含义仍属比较推断。
+    - 具名足部及其比较归属有直接记录，但仅凭标本关联不能检验更高阶位置或祖先关系。
+    - 一手研究直接标明标本及地层背景；该解剖比较并非全球存在—缺失调查。
+    - 研究证据限于解剖和功能比较，因此保留未观察到的生态属性符合其证据范围。
+    - 骨骼和逐趾归属得到直接图示；理毛爪功能是比较推断，不能证明化石动物的实际行为。
+  claim-statements.zh:
+    - 此处 Notharctus 由怀俄明 Bridger B 的半关节连接足部 AMNH 143612/143640 约束，处于约 5000 万—4850 万年前的地点区间；其第二趾解剖不建立全球属级范围或冠群类人猿祖先关系。
+    - Maiolino 等人将半关节连接的 AMNH 143612 与 AMNH 143640 足部材料归入北猴属，用于逐趾比较趾骨；这种归属和比较并不能确立灵长类冠群成员身份或直接祖先关系。
+    - 本档案中的北猴属足部仅限于来自怀俄明州布里杰组的 AMNH 143612 与 AMNH 143640；这些标本的产状不能确立该属的完整分布。
+    - 所引北猴属足部研究检验的是趾骨功能，而非食性、惯常栖息地、已观察运动、种群体型或生态类群；因此这些字段在本档案中仍属未定。
+    - AMNH 143612 与 AMNH 143640 保存了一套半关节连接的足部，包括可逐趾识别的近节和中节趾骨，并被用于推断第二趾的理毛爪；理毛行为本身并未被观察到。
+  ranges:
+    - entityId: notharctus
+      rangeKind: global-composite
+      taxonomicConcept: Notharctus digit-two grooming phalanx occurrence
+      geographicScope: Grizzly Buttes, Bridger B, Bridger Formation, Wyoming, USA
+      olderMa: 50
+      youngerMa: 48.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Grooming-claw function and tree effects are comparative and matrix-based; the specimen does not make Notharctus a crown anthropoid, direct ancestor or global first occurrence.
+      evidenceBasis: Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:event:notharctus-grooming-claw-foot
+      referenceLocators:
+        - referenceId: maiolino-2012-notharctus
+          locator: e29135; Figures 1–16; Tables 2–8; Tables S1–S6

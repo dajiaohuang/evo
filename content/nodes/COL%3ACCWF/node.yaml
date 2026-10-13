@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alytes dickhilleni
+  displayName: Alytes dickhilleni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CCWF
+  sourceIndexes:
+    - name:
+        en: Alytes dickhilleni
+        zh: Alytes dickhilleni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CCWF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/210
+            queryName: Alytes dickhilleni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fb2c9bedca
+      - s-a4dd78aebb
+      - s-8cc75a676e
+      - s-269f001afd
+      - s-e3f248aefa
+      - s-28b2e18a96
+      - s-853cbee7bc
+      - s-324ea39b13
+      - s-4c25c30010
+      - s-13e3f46046
+      - s-6096d6c652
+      - s-be2046a7dc
+      - s-66a23fb571
+    zh:
+      - s-0685bcff41
+      - s-0514720826
+      - s-4388e70904
+      - s-95e5ef851d
+      - s-f2d52e7c30
+      - s-1fde2eefe3
+      - s-07bdbc6ed2
+      - s-1bf66b2e58
+      - s-a9532ca544
+      - s-99f942cdce
+      - s-e5d8e96753
+      - s-d5272c62d8
+      - s-24d075ec0d

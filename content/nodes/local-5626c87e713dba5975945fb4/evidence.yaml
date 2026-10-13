@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gastrotheca phalarosa
+    name:
+      en: Gastrotheca phalarosa
+      zh: Gastrotheca phalarosa
+    sourceClassification:
+      order: Anura
+      family: Hemiphractidae
+      genus: Gastrotheca
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Gastrotheca phalarosa in the version 3 classification
+          zh: Gastrotheca phalarosa 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c67cceef86
+            part: body
+          zh:
+            page: zh
+            section: s-da9367b135
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 14 populated trait fields
+          zh: 1 条测量行与 14 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b69f34593f
+            part: body
+          zh:
+            page: zh
+            section: s-2a6046c6c2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1917; Reference.csv rows 3693
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1917
+        values:
+          - Hemiphractidae
+          - Gastrotheca
+          - Gastrotheca phalarosa
+          - M
+          - "43.3"
+          - "15.7"
+          - "16.4"
+          - "4.3"
+          - "2.2"
+          - NA
+          - "4.3"
+          - "4"
+          - "4"
+          - "4.3"
+          - NA
+          - "3.5"
+          - NA
+          - NA
+          - NA
+          - "15.7"
+          - NA
+          - "18.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.4"
+          - NA
+          - NA
+          - NA
+          - "1.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3693
+        values:
+          - Anura
+          - Gastrotheca_phalarosa
+          - "Duellman, W., & Venegas, P. (2005). Marsupial frogs (Anura : Hylidae : Gastrotheca) from the Andes of northern Peru with descriptions of two new species. Herpetologica, 61, 295-307. doi:10.1655/04-105.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - FL
+      - TL
+      - Fin3L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6JXWB
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,9 @@
+## The dataset entry {#s-5f14254549}
+The pinned AmphiTherm curated snapshot records Pleurodema bufoninum under Leptodactylidae, Anura. It retains 5 thermal estimate rows across 3 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-aa84816f35}
+Source row 166 (ID 206; Bonino_et_al_2020) reports 38.47 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as larvae. The source population code is Pleurodema_bufoninum_pop2. Recorded conditions include acclimation at 12.5 °C, medium_test_temp = water. The source reports 0.07 °C as its standard error. The source n_trait field is 10. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-26b334ab67}
+Source row 172 (ID 212; Bonino_et_al_2020) reports 0.31 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as larvae. The source population code is Pleurodema_bufoninum_pop2. Recorded conditions include acclimation at 12.5 °C, medium_test_temp = water. The source reports 0.03 °C as its standard error. The source n_trait field is 10. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

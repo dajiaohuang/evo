@@ -1,0 +1,42 @@
+## 接受名称与分类位置 {#s-cea679be56}
+COL26.8 接受 Bolitoglossa adspersa (Peters, 1863) 为种级记录，所记分类路径为 Caudata（目） → Plethodontidae（科） → Bolitoglossa（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+
+## 阅读路线 {#s-3292ad340d}
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+
+## 觅食层位——AmphiBIO 来源 {#s-f8a32fd4bf}
+历史来源概念：Bolitoglossa adspersa，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。来源将 陆栖；水栖 标记为已记录的类别。这些是概括性的觅食类别；汇编没有详细区分季节变化或发育阶段变化。后续 TetrapodTraits 修订报告纠正了从早期汇编传播的部分两栖动物体重与微栖地记录。此处尚未取得受影响行的逐项比对；这些存档历史值或类别在再利用前需要核对。没有推断替代值，本说明也不把每条原记录判为错误。
+
+## 汇编的成体尺寸——AmphiBIO 来源 {#s-a3b5ed0803}
+历史来源概念：Bolitoglossa adspersa，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。AmphiBIO 记载 最大成体体长：66 mm。体长在无尾目指吻肛长，在有尾目和蚓螈目指全长。这些是汇编的最大成体值，不是每一个体的测量值。
+
+## 汇编的生活史——AmphiBIO 来源 {#s-d0b7487ee9}
+历史来源概念：Bolitoglossa adspersa，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。AmphiBIO 记载 每窝后代或卵的最小数量：10 个/枚；每窝后代或卵的最大数量：10 个/枚；每年最多繁殖次数：1 次/年；后代或卵的最小尺寸：3.7 mm；后代或卵的最大尺寸：3.7 mm。数据集从文献汇编极值和计数；本行没有逐值区分性别、种群、测量日期或野生与圈养条件。后代尺寸字段可能指后代或卵。
+
+## 发育方式——AmphiBIO 来源 {#s-13ad581b1a}
+历史来源概念：Bolitoglossa adspersa，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。存档记录标记 直接发育。这些来源类别本身不足以说明亲代照料、繁殖地点或季节时序。
+
+## 相关来源记录与数据集 {#s-d827b71868}
+以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
+
+- [AmphiBIO v1: Bolitoglossa adspersa](../../../../../../../../../../../../../../topics/research/AmphiBIO/Caudata/Plethodontidae/Bolitoglossa/Bolitoglossa_adspersa/page.zh.md)
+- [Amphibian morphology v3: Bolitoglossa adspersa](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Caudata/Plethodontidae/Bolitoglossa/Bolitoglossa_adspersa/page.zh.md)
+
+## 按性别保留的测量材料——Amphibian morphology 来源 {#s-021c2e7e4c}
+存档来源概念：Amphibian morphology 中的 Bolitoglossa adspersa。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。汇编为这一来源概念保留 2 行，4 个性状列含有非空记录。性别代码为 F、M：F、M 分别为来源中的雌性、雄性类别，J 为幼体材料，NA 为未指定类别。汇编行数不是去重的标本数；不同性别、发育阶段和文献的值不能合并成一个鉴别尺寸。缺失单元格也不代表相应解剖结构不存在。
+
+## 2023 年 muisca 描述中的比较系列 {#s-57ce5eaefd}
+B. muisca 描述比较二十六件 B. adspersa，SVL 范围 30.7—66.3 毫米、均值 45.0 毫米。描述适度蹼、但少于所采 B. muisca，指趾尖超出蹼缘，尾相对细长。未确认定义前不将印刷误差项标为标准差。比较观察属于研究所归类标本，不是完整 adspersa 再描述、全物种范围或全部历史鉴定独立核对。
+
+## Bogotá 样本作为 muisca 姊妹谱系 {#s-7b0f289b52}
+研究多位点树中，来自模式地点 Bogotá 及附近的 B. adspersa 样本形成 B. muisca 姊妹谱系，超快速自展 98、后验概率 0.99。报告两谱系未校正线粒体距离为 16S 的 2.1%、cyt b 的 7.0%。量值属于所采标记及谱系，不是全基因组分化、成种时间或测量生殖隔离。支持分离不解决每个历史称 adspersa 的种群。
+
+## catalogue-profile / limitations {#s-d4b97ba641}
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-3e6df4eb16}
+B. muisca 描述比较二十六件 B. adspersa，SVL 范围 30.7—66.3 毫米、均值 45.0 毫米。描述适度蹼、但少于所采 B. muisca，指趾尖超出蹼缘，尾相对细长。未确认定义前不将印刷误差项标为标准差。比较观察属于研究所归类标本，不是完整 adspersa 再描述、全物种范围或全部历史鉴定独立核对。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-294d79c7ed}
+研究多位点树中，来自模式地点 Bogotá 及附近的 B. adspersa 样本形成 B. muisca 姊妹谱系，超快速自展 98、后验概率 0.99。报告两谱系未校正线粒体距离为 16S 的 2.1%、cyt b 的 7.0%。量值属于所采标记及谱系，不是全基因组分化、成种时间或测量生殖隔离。支持分离不解决每个历史称 adspersa 的种群。
+

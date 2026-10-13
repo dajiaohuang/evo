@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera nana
+  displayName: Adenomera nana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZMV
+  sourceIndexes:
+    - name:
+        en: Adenomera nana
+        zh: Adenomera nana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZMV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/48
+            queryName: Adenomera nana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/331
+            queryName: Leptodactylus nanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-61d5633eba
+      - s-4862230666
+      - s-8cce321ff8
+      - s-12b0f69166
+      - s-2c66185535
+      - s-cb3e0f88d4
+      - s-e276b3673e
+      - s-765394908e
+      - s-6344344adf
+      - s-ae9f9aa66f
+    zh:
+      - s-f447958872
+      - s-3a862b5596
+      - s-bc829a8909
+      - s-713f868542
+      - s-40488ac320
+      - s-a16e7788a6
+      - s-fc481472b9
+      - s-925def58ce
+      - s-b2c1e74e04
+      - s-762c0bdecd

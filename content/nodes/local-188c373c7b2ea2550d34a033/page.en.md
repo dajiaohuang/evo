@@ -1,0 +1,9 @@
+## The dataset entry {#s-d59d5f2641}
+The pinned AmphiTherm curated snapshot records Limnodynastes tasmaniensis under Myobatrachidae, Anura. It retains 13 thermal estimate rows across 4 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-ee9e722a7e}
+Source row 481 (ID 564; Brattstrom_1970) reports 34.9 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Limnodynastes_tasmaniensis_pop1. Recorded conditions include acclimation at 25 °C, medium_test_temp = body. The source n_trait field is 38. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## thermal preference estimate {#s-f9e3361040}
+Source row 4192 (ID 4663; Whitehead_et_al_1989) reports 23.9 °C for the thermal preference estimate (metric code Tpref). The tested stage is recorded as adults. The source population code is Limnodynastes_tasmaniensis_pop3. Recorded conditions include acclimation at 30 °C, medium_test_temp = body, rate_measurement = 1. The source reports 0.7 °C as its standard error. The source n_trait field is 10. The source row does not state an endpoint. Sex is recorded as mixed. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

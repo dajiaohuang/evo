@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes perplicatus
+  displayName: Hylodes perplicatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG9B
+  sourceIndexes:
+    - name:
+        en: Hylodes perplicatus
+        zh: Hylodes perplicatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG9B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/6
+            queryName: Hylodes perplicatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/329
+            queryName: Elosia perplicata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d345dc2c3b
+      - s-90d1065d3c
+      - s-cf80dc293c
+      - s-68423d21c6
+      - s-ce4d9cefdf
+      - s-af919ffee9
+      - s-67b5a5f0ec
+      - s-fbec78d614
+      - s-03209cad25
+      - s-1528f1747a
+      - s-d3d587e3e0
+      - s-48b5176bcf
+      - s-62524d1232
+      - s-c684cfaad5
+      - s-dc37cb6176
+      - s-e546d71bea
+      - s-9f3eaea6f3
+      - s-e06c86c94d
+      - s-822b5f0f46
+      - s-796201428a
+      - s-38c0bb17f0
+      - s-d2e05afe8c
+      - s-3f61198fab
+      - s-1d63e77d1f
+      - s-511f9a4879
+    zh:
+      - s-93eb6d964b
+      - s-e3023692f8
+      - s-75673754d3
+      - s-e41ed04ae6
+      - s-d9f166ab34
+      - s-53e4b843cf
+      - s-aef67e61b8
+      - s-47ced2746e
+      - s-ac86756cca
+      - s-2bd2bacf64
+      - s-55060353ef
+      - s-363fe6c278
+      - s-46d8aea847
+      - s-9ab9628b33
+      - s-a9e5f81716
+      - s-41864a2a00
+      - s-af5c2f7e8b
+      - s-e2886969c5
+      - s-b06e50fa9e
+      - s-d16f2bc793
+      - s-9e73642c33
+      - s-1f52588008
+      - s-5ec5fbb56e
+      - s-5f04a284e3
+      - s-28cbabdd7b

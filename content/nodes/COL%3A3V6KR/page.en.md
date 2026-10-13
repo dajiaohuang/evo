@@ -1,0 +1,15 @@
+## Which record these facts describe {#s-cc8f46a356}
+The pinned COL26.8 checklist accepts Liolaemus pictus in the family Liolaemidae. The traits below come from its ReptTraits v1-2 row, which follows the Reptile Database's 2023 name framework and cites sources by trait. That row describes the compilation, not every population as if it were identical.
+
+## What the length numbers measure {#s-1f9e343f79}
+The row reports a maximum snout–vent length (SVL) of 104 mm and a female maximum of 60 mm. SVL measures from the snout to the vent and excludes the tail. These compiled maxima are neither typical sizes nor biological ceilings. The two sex-specific values may come from different studies or places; by themselves they do not measure how much males and females differ within one population.
+
+## Three microhabitat labels, food, and foraging {#s-508f7399ff}
+The microhabitat field lists Arboreal, Saxicolous, and Terrestrial: tree-associated, rock-associated, and ground-associated categories. The row also classifies its diet as omnivorous, or including plant and animal material, and its activity as diurnal, or active by day. The foraging mode is AMB, meaning ambush: waiting for prey rather than actively searching for it. These labels do not identify particular sites or prey, and the one-row summary does not show how traits vary among places, seasons, or life stages.
+
+## What the litter and annual figures mean {#s-f1b1462e27}
+The source labels the reproductive mode viviparous, or live-bearing. It gives a consolidated litter-or-clutch mean of 3.95, with reported-mean endpoints of 1 and 8, and a compiled mean of 0.42 litters or clutches per year. ReptTraits may calculate the litter summary from the midpoint of published means, or use the midpoint of reported extremes when means are missing; 3.95 is not a count from one observed litter. The low and high fields mark endpoints of reported means, not guaranteed smallest and largest individual litters. The annual figure is also a dataset average, not a schedule for each animal. These labels do not tell us how embryos are nourished or establish that every population shares the same reproductive pattern.
+
+## Limits of this account {#s-fc21897814}
+This page paraphrases the same-name ReptTraits v1-2 row and keeps its 2023 name framework and trait-specific citations. A single row compresses differences in sex, age, locality, and population; the same name and family do not prove that a historical record matches every later taxonomic concept. A reported maximum is not an absolute size limit, and the compiled litter mean is not a fixed count in every litter. ReptTraits also includes mass estimates derived from length equations; they are not presented here as measured mass. Juvenile-length fields have differing headers and definitions, so they are not used as conclusions. This page does not update conservation status, venom, current distribution, or population trends. The citation labels retain the dataset's source chain; they do not mean this project independently rechecked every original study.
+

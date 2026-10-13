@@ -1,0 +1,120 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Roella glomerata A.DC.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4T99L, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4T99L; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4T99L
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4T99L
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000818132-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4T99L / WFO wfo-0000818132
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_914_0
+        referenceId: ref-50530c8e-c845-8249-a33e-481b2dc29c9a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Roella glomerata A.DC. account; archive rows 82002 (Morphology), 81426 (Habitat), source identifier 914.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Stems up to 50 cm. high, glabrous, ridged, woody below, erect, branched mostly from the base. Leaves numerous but not crowded, 0-5-1-5 cm. long, 2-4 mm. wide, soft, flat, spreading or ascending, entire or with occasional teeth, ciliate at the extreme base otherwise glabrous, with or without axillary fascicles of small leaves. Flowers in dense heads, on the main stem and on long or short lateral branches, many-flowered, 1-5-3 cm. long and about as wide. Bracts broad, clasping, glabrous, acutely 3-7-toothed or lobed at the top, slightly thickened at the edges, the outer with the central lobe longer than the others, the inner with almost equal teeth. Calyx lobes longer than the bracts, glabrous, acute or acuminate, about half as long as the corolla. Corolla white, pale blue, mauve or pinkish, 1-2 cm. long, the lobes longer than the tube. Ovary glabrous.
+            sourceIds:
+              - sanbi_914_0
+            locator: "SANBI/WFO archive Morphology row 82002; source 914.0; publication: Adamson, RS. 1951. A revision of the genera Prismatocarpus and Roella. J. S. African Bot. 17: 93 - 166. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassy places at low altitudes in the eastern districts. Most often on sand and near the coast.
+            sourceIds:
+              - sanbi_914_0
+            locator: "SANBI/WFO archive Habitat row 81426; source 914.0; publication: Adamson, RS. 1951. A revision of the genera Prismatocarpus and Roella. J. S. African Bot. 17: 93 - 166. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-ad4f7e7633
+            part: title
+          zh:
+            page: zh
+            section: s-6c0053912d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ad4f7e7633
+            part: body
+          zh:
+            page: zh
+            section: s-6c0053912d
+            part: body

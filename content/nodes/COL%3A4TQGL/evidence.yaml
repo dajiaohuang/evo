@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rungwecebus kipunji (Ehardt, Butynski, Jones & Davenport in Jones, Ehardt, Butynski, Davenport, Mpunga et al., 2005)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Kipunji
+      zh: 基彭吉
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-fd7a466559
+            part: body
+          zh:
+            page: zh
+            section: s-0133ed90a4
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_label
+      - topic: populationSurvey
+        text:
+          en:
+            page: en
+            section: s-8072824894
+            part: body
+          zh:
+            page: zh
+            section: s-60711c7b0f
+            part: body
+        sourceIds:
+          - davenport2008
+          - davenport2022
+      - topic: udzungwaSurvey
+        text:
+          en:
+            page: en
+            section: s-1513a1532b
+            part: body
+          zh:
+            page: zh
+            section: s-8c953f2a13
+            part: body
+        sourceIds:
+          - mcharo2026
+    sources:
+      - id: taxonomy
+        referenceId: ref-009d11b1-2364-8ed6-a285-ab77b82b12b3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins accepted identity, authorship, rank and parent genus.
+            zh: 固定接受身份、作者、等级与父属。
+      - id: mdd_label
+        referenceId: ref-9b4ad608-51a8-8f4a-ad9a-6595c1a5d20c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supplies the English display name; COL26.8 remains the page identity.
+            zh: 提供英文显示名；页面身份仍按 COL26.8 固定。
+      - id: davenport2008
+        referenceId: ref-132c00a4-cdb7-8f69-aaf8-d3cf564966ee
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Initial distribution surveys and total counts across the two known population centers at that time.
+            zh: 记录当时两个已知种群中心的初期分布调查与总量清点。
+      - id: davenport2022
+        referenceId: ref-d9216816-a081-8c76-a81c-da58e84109d5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Complete-count reassessment of three Southern Highlands forests; values are not a new census of Udzungwa.
+            zh: 对南部高地三片森林进行完整清点；该研究没有重新清点 Udzungwa。
+      - id: mcharo2026
+        referenceId: ref-e9cd1894-2716-8199-a974-59d55ddfc05e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Three standardized sweep censuses of the Ndundulu population between 2013 and 2024; minimum counts remain local.
+            zh: 2013 至 2024 年对 Ndundulu 种群进行三次标准化扫查清点；最低数量只对应当地。
+    limitations:
+      en:
+        page: en
+        section: s-b9597e39a7
+        part: body
+      zh:
+        page: zh
+        section: s-e7b6d1c555
+        part: body

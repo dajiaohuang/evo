@@ -1,0 +1,74 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Primatomorpha
+    commonName: Primates and Plesiadapiform Kin
+    commonNameZh: 灵长形类
+    rank: clade
+    taxonId: txn:132602
+    firstAppearance: 79.2
+    lastAppearance: 0
+    extinct: false
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:primatomorpha
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 79.2–0 Ma Primatomorpha route is a navigation-model envelope borrowed from the cited crown-Primates relaxed-clock interval and living continuation; it does not date the Primatomorpha node or provide a fossil FAD.
+      confidence: low
+      confidenceRationale: The molecular analysis explicitly reports model- and calibration-sensitive crown-Primate intervals, not a Primatomorpha estimate. The atlas retains that distinction and uses the value only as a visibly model-bounded browsing ceiling.
+      referenceLinks:
+        - referenceId: dos-reis-2018-primate-clock
+          relation: supports
+          pages: 594–615
+          figure: Figures 1–5; Table 3; Supplementary spreadsheet
+          quoteLocator: Timeline of primate evolution; calibration-strategy and relaxed-clock sensitivity analyses
+  claim-rationales.zh:
+    - 分子分析明确报告的是受模型与校准影响的灵长目冠群区间，并非 Primatomorpha 估计；图谱保留这一区别，仅把该数值作为显式受模型约束的浏览上限。
+  claim-statements.zh:
+    - 79.2–0 Ma 的灵长形类路线是导航模型包络，借用所引灵长目冠群松弛钟区间并延续到现生；它不测定 Primatomorpha 节点，也不提供化石首现。
+  ranges:
+    - entityId: primatomorpha
+      rangeKind: global-composite
+      taxonomicConcept: Primatomorpha navigation-model envelope
+      geographicScope: Globally sampled phylogenomic model and living continuation
+      olderMa: 79.2
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: 79.2 Ma is the older limit of a cited crown-Primates clock interval, not a Primatomorpha-node estimate, fossil occurrence or global FAD.
+      evidenceBasis: A calibration-sensitive crown-Primates relaxed-clock interval is retained only as a clearly labelled browsing ceiling for the wider navigation parent.
+      confidence: low
+      claimIds:
+        - claim:taxon:primatomorpha:root-range
+      referenceLocators:
+        - referenceId: dos-reis-2018-primate-clock
+          locator: pp. 594–615; Figures 1–5; Table 3; Supplementary spreadsheet
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    sections:
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-d7084ef816
+            part: title
+          zh:
+            page: zh
+            section: s-6c096167bf
+            part: title
+        sourceIds:
+          - dos-reis-2018-primate-clock
+        text:
+          en:
+            page: en
+            section: s-d7084ef816
+            part: body
+          zh:
+            page: zh
+            section: s-6c096167bf
+            part: body

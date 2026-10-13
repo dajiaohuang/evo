@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Jingophrys pachyproctus
+  displayName: Jingophrys pachyproctus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q32XK
+  sourceIndexes:
+    - name:
+        en: Jingophrys pachyproctus
+        zh: Jingophrys pachyproctus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q32XK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/75
+            queryName: Jingophrys pachyproctus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/263
+            queryName: Xenophrys pachyproctus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/115
+            queryName: Megophrys pachyproctus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/116
+            queryName: Megophrys pachyprocta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/117
+            queryName: Panophrys pachyproctus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-047a3fb60f
+      - s-18420746a2
+      - s-8b906815a5
+      - s-5412b263b7
+      - s-8dd9bec0b9
+      - s-d43ac4a1b8
+      - s-450323204d
+      - s-c12fad257b
+      - s-57f3ccb8a0
+      - s-a2635e6380
+      - s-f5f714e904
+      - s-f09c85c9df
+    zh:
+      - s-f83f6e7e62
+      - s-345ad96b41
+      - s-804a102790
+      - s-83df7312da
+      - s-00508bf4d8
+      - s-2477c98324
+      - s-e3aa544737
+      - s-e7cf100710
+      - s-7aa24b60c1
+      - s-54f80b2bb9
+      - s-46b30c434b
+      - s-615f050afe

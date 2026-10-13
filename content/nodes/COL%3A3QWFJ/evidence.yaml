@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Justicia guerkeana Schinz
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3QWFJ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3QWFJ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3QWFJ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3QWFJ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001044714-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3QWFJ / WFO wfo-0001044714
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_1111_0
+        referenceId: ref-50a258d9-a228-86dc-ab37-2c4c103ef3fb
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Justicia guerkeana Schinz account; archive rows 78073 (Morphology), 77626 (Habitat), source identifier 1111.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Shrub 0.3-2.0 m high. Bark pale grey to yellowish. Leaves glabrous or with a few minute hairs on margin, ovate, oblong-ovate, narrowly lanceolate or obovate, 10-52 x 4-22 mm, apex acute to obtuse, base slightly cordate, 3-or 5-veined from the base, often yellowish; petiole up to 2 mm long. Inflorescence of scattered axillary, many-flowered cymes. Bract and bracteoles subequal, broadly obovate to oblanceolate, 4.5-13.0 x 5-13 mm, apex truncate or acute, with a recurved apiculus, with broad membranous margins. Calyx lobes with apices recurved, with broad membranous margins. Corolla 8-12 mm long, white, palate with yellow and mauve markings. Pollen 2-colporate, 35-45 µm long, with entire margocolpus. Capsule 1(2)-seeded, clavate, hard, dark-coloured, up to 13 mm long.
+            sourceIds:
+              - sanbi_1111_0
+            locator: "SANBI/WFO archive Morphology row 78073; source 1111.0; publication: Immelman, KL. 1995. 5. Justicia. In: OA Leistner (ed.), Fl. S. Africa 30(3,1): 18 - 46. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Growing in flat areas or riverbeds, usually in calcareous soils.
+            sourceIds:
+              - sanbi_1111_0
+            locator: "SANBI/WFO archive Habitat row 77626; source 1111.0; publication: Immelman, KL. 1995. 5. Justicia. In: OA Leistner (ed.), Fl. S. Africa 30(3,1): 18 - 46. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

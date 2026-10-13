@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnomedusa macroglossa
+  displayName: Limnomedusa macroglossa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DJ6
+  sourceIndexes:
+    - name:
+        en: Limnomedusa macroglossa
+        zh: Limnomedusa macroglossa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DJ6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/46
+            queryName: Limnomedusa macroglossa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/346
+            queryName: Limnomedusa misionis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/281
+            queryName: Cystignathus macroglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/282
+            queryName: Litopleura maritimum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/69
+            queryName: Rana macroglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/70
+            queryName: Leptodactylus novateutoniae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-528337976b
+      - s-c540a03636
+      - s-44a92da2ef
+      - s-a60a69de74
+      - s-c2f727bdab
+      - s-b4352fb6fc
+      - s-9ab0f979e4
+      - s-08bb78cdf2
+      - s-481394fa8e
+      - s-bdfffcdd64
+      - s-585e713b7b
+      - s-9f935d7581
+      - s-5d986c4ae8
+      - s-7fb39ffe90
+      - s-5e4499b682
+      - s-5a50554b15
+      - s-d52133711e
+      - s-c3878669c5
+      - s-c45fecbad0
+      - s-ef7698265d
+    zh:
+      - s-8c689b6df2
+      - s-4e160dbfe6
+      - s-f16b1fa0eb
+      - s-081c826287
+      - s-fc76963ef9
+      - s-4a6e7c3608
+      - s-c3ff6f139c
+      - s-450f690e09
+      - s-5b634ab678
+      - s-4c0d04860b
+      - s-1e46b2ce9a
+      - s-9749f91e39
+      - s-51472db80e
+      - s-34ba506da7
+      - s-c06f3c83c5
+      - s-2a24f2ecc4
+      - s-da9532826c
+      - s-c8b6c7e815
+      - s-790847bdbd
+      - s-9eec76b7b2

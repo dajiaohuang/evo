@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Telmatobius pinguiculus
+  displayName: Telmatobius pinguiculus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/558BY
+  sourceIndexes:
+    - name:
+        en: Telmatobius pinguiculus
+        zh: Telmatobius pinguiculus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 558BY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/466
+            queryName: Telmatobius pinguiculus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-29528dd971
+      - s-041b3b892a
+      - s-513f47ee5a
+      - s-1c3a1eab05
+      - s-60baeb3f26
+    zh:
+      - s-30bdcc0580
+      - s-4bf5f3d484
+      - s-c6133eedca
+      - s-6aca96a7f3
+      - s-fc64690bf9

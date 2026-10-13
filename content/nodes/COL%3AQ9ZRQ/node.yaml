@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella suiyangensis
+  displayName: Leptobrachella suiyangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q9ZRQ
+  sourceIndexes:
+    - name:
+        en: Leptobrachella suiyangensis
+        zh: Leptobrachella suiyangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q9ZRQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/295
+            queryName: Leptobrachella suiyangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5460bf05b
+      - s-eb3c61d7d6
+      - s-bb03d94b7e
+      - s-1b83508256
+      - s-39c8850737
+      - s-46b368a562
+      - s-3fa9c55244
+    zh:
+      - s-b0c97de80e
+      - s-298a4f8a74
+      - s-daa29ee957
+      - s-37a5598c3d
+      - s-86eeedda6b
+      - s-f06b6c2ead
+      - s-d04043f28e

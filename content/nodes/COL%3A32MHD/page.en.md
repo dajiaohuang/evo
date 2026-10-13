@@ -1,0 +1,6 @@
+## A single stem above several basal tubers {#s-96e4a9d6dc}
+The 1973 South African account describes *Cussonia arenicola* as a shrub with a single stem, 1–2 m tall, rising from a rounded, egg-shaped or top-shaped tuber. Several tubers may be spaced along one root; a basal tuber can reach 14 cm across and 25 cm long. The twice-divided leaves have a finger-like first division and usually 4–7 leaflets, sometimes 12. At the stem tip, an umbel—a cluster whose stalks radiate from one point—carries dense cylindrical flower spikes. The flowers are white to greenish cream. The barrel-shaped fruit is about 4 mm across and usually contains two seeds, occasionally one. These are details from a regional account; it gives no dated sampling frame or population frequency.
+
+## Coastal dunes and occasional inland sand forest {#s-1611d18bd1}
+The same account says the species is mainly found on the coastal dunes of northern Natal, but sometimes farther inland in sand forest. This is a habitat description, not a set of collection localities or a complete range. The account gives no dated sampling frame or population frequency and does not specify whether the described plants were wild, cultivated or managed.
+

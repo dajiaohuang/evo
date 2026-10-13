@@ -1,0 +1,3 @@
+## ## Eight to sixteen pairs of leaflets {#s-2fc94cf86f}
+The Brazilian Flora 2020 entry records paripinnate leaves with a winged rachis and eight to 16 pairs of leaflets; the stipules are shed or absent. The oblong leaflets have asymmetric bases, blunt tips that may be notched, and no punctures on the lower surface. Racemes have a hairy rachis. The floral record lists a clawed, obovate petal, three stamens with hairy filaments and a hairy ovary; the hypanthium may be hairless, hairy or becoming hairless, and the calyx states include free sepals or a joined pair. The fruit is recorded as a legume or unobserved, and seed shape was not observed. These source fields do not describe a complete specimen or quantify variation.
+

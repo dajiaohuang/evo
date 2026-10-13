@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Staurois latopalmatus
+  displayName: Staurois latopalmatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZMC2
+  sourceIndexes:
+    - name:
+        en: Staurois latopalmatus
+        zh: Staurois latopalmatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZMC2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/288
+            queryName: Staurois latopalmatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/310
+            queryName: Ixalus latopalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/311
+            queryName: Staurois latopalmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/312
+            queryName: Simomantis latopalmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-095584ea0f
+      - s-d0d2d5c233
+      - s-13cc7a7a4b
+      - s-9df28d3eaf
+      - s-ac99499726
+      - s-747c8e384c
+      - s-502cba50df
+      - s-40e016e035
+      - s-1786c31411
+    zh:
+      - s-559b3f25d4
+      - s-c6665e3377
+      - s-b913b2b304
+      - s-d7bea697d0
+      - s-6b38ff9f85
+      - s-045e94a0f5
+      - s-c9a632c1f8
+      - s-591ffca4be
+      - s-0458bf3a3c

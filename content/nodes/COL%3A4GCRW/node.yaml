@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philoria frosti
+  displayName: Philoria frosti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GCRW
+  sourceIndexes:
+    - name:
+        en: Philoria frosti
+        zh: Philoria frosti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GCRW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/84
+            queryName: Philoria frosti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a64b1442c3
+      - s-ab1c0efdd3
+      - s-c3ae9fc3c6
+      - s-afe44b80d0
+      - s-908daefa13
+      - s-a81fc3c7c8
+      - s-63acce4237
+      - s-b35a31128f
+      - s-c7e717bf4f
+      - s-4312413d9f
+    zh:
+      - s-058d2b6391
+      - s-6e3c517c9d
+      - s-9153a86e04
+      - s-f7ccf4fcbf
+      - s-5115006032
+      - s-31ef782f81
+      - s-25da08bf8e
+      - s-29f897c9c7
+      - s-4695860511
+      - s-8a0a054531

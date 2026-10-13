@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Silverstoneia erasmios
+  displayName: Silverstoneia erasmios
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Z289
+  sourceIndexes:
+    - name:
+        en: Silverstoneia erasmios
+        zh: Silverstoneia erasmios
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Z289
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/188
+            queryName: Silverstoneia erasmios
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/83
+            queryName: Colostethus erasmios
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7dbc4d5729
+      - s-704f871122
+      - s-223a3c67ec
+      - s-ffc098d5d8
+      - s-2c993d01d8
+      - s-521d7d0022
+      - s-9b23075787
+      - s-04c0575c56
+      - s-8860a0b031
+      - s-80c2000ffc
+      - s-aafdc6cb97
+      - s-a34b79d3f7
+      - s-c3ed7f7df1
+      - s-65a10e9eac
+      - s-f6973a6dd8
+      - s-dcb6307d10
+      - s-d0622e720f
+      - s-cd06446279
+      - s-fc65f29f39
+      - s-3d453f7573
+      - s-a7f38bf6b4
+      - s-ae20f414b8
+      - s-38c619d852
+      - s-dffab9864b
+      - s-60c66b8135
+    zh:
+      - s-d6c20618a8
+      - s-1cec14fc26
+      - s-5e735efda5
+      - s-8b2ae35d62
+      - s-df56f37f2d
+      - s-5b2ecebf55
+      - s-718dd48ba0
+      - s-76944ff8c8
+      - s-8ac800eaad
+      - s-aac0c7e4c1
+      - s-1e1042df66
+      - s-d7afa7b30b
+      - s-948e7823f9
+      - s-b48d01db7e
+      - s-339a718134
+      - s-8149114cf8
+      - s-379d130104
+      - s-35544a4d7f
+      - s-100eac2176
+      - s-43e0d4e73d
+      - s-7c1044eb8d
+      - s-3f83f6fd70
+      - s-c61b1e5a77
+      - s-be56f36f39
+      - s-1aa3d23cd4

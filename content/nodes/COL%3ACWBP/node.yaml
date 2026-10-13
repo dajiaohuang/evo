@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops tuberodepressus
+  displayName: Amolops tuberodepressus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CWBP
+  sourceIndexes:
+    - name:
+        en: Amolops tuberodepressus
+        zh: Amolops tuberodepressus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CWBP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/415
+            queryName: Amolops tuberodepressus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b98cfeba2b
+      - s-f84bfb21d0
+      - s-a204d55a4f
+      - s-86262d3ff8
+      - s-636c3e9e3c
+      - s-cc66e212ff
+      - s-e0a47e1d6f
+      - s-888aebdaa9
+      - s-bdc0b97fa1
+      - s-740f03f3e7
+      - s-c21b67afd3
+      - s-8187e95699
+      - s-abfc77f44f
+      - s-7af8aac225
+      - s-d9a1d44529
+      - s-9165c6bdb8
+      - s-3e86e38fc5
+    zh:
+      - s-d331f4a8e8
+      - s-9f282f87b8
+      - s-0ea7cbf97b
+      - s-095a588d7c
+      - s-69fe33a2a0
+      - s-23092601b4
+      - s-6f20ba8d54
+      - s-16dd139632
+      - s-ba907c1a55
+      - s-95f22edf26
+      - s-5951b2bdf9
+      - s-a4ba92b126
+      - s-d4831c213c
+      - s-899ca140fb
+      - s-1b0ba192a9
+      - s-3e69e83592
+      - s-9f05b7e8ec

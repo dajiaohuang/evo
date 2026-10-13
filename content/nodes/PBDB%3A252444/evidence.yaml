@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Edops craigi
+    rank: species
+    sourceTaxonId: txn:252444
+    name:
+      en: Edops craigi
+      zh: Edops craigi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-0c4359c0a3
+            part: body
+          zh:
+            page: zh
+            section: s-53ff5c3f1f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 4 PBDB occurrence rows and collection fields
+          zh: 4 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-b079bae5ea
+            part: body
+          zh:
+            page: zh
+            section: s-ea1db124db
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Edops craigi
+          zh: Edops craigi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-cc7132c563
+            part: body
+          zh:
+            page: zh
+            section: s-4407ad4bc2
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:252444; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. S. Romer. 1936. Studies on American Permo-Carboniferous reptiles. Problems of Paleontology 1:85-93
+    occurrenceEvidence:
+      - occurrenceId: occ:1315229
+        collectionId: col:176495
+        acceptedTaxonId: txn:252444
+        identifiedName: Edops craigi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:43841
+        bibliography: "A. S. Romer. 1936. Studies on American Permo-Carboniferous reptiles. Problems of Paleontology. Moscow: Moscow University Laboratory of Palaeontology. 1:85-93"
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Young County
+        stratigraphy:
+          group: Bowie
+          formation: Archer City
+          member: null
+        olderAgeMa: 303.7
+        youngerAgeMa: 286
+      - occurrenceId: occ:1315230
+        collectionId: col:176438
+        acceptedTaxonId: txn:252444
+        taxonomicDifference: null
+        referenceId: ref:58099
+        bibliography: A. S. Romer and R. V. Witter. 1942. Edops, a primitive rhachitomous amphibian from the Texas Red Beds. Journal of Geology 50:925-960
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Archer
+        stratigraphy:
+          group: Bowie
+          formation: Archer City
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1315231
+        collectionId: col:132661
+        acceptedTaxonId: txn:252444
+        taxonomicDifference: null
+        referenceId: ref:58099
+        bibliography: A. S. Romer and R. V. Witter. 1942. Edops, a primitive rhachitomous amphibian from the Texas Red Beds. Journal of Geology 50:925-960
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Archer
+        stratigraphy:
+          group: Wichita
+          formation: Archer City
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 293.52
+      - occurrenceId: occ:1315232
+        collectionId: col:176496
+        acceptedTaxonId: txn:252444
+        taxonomicDifference: null
+        referenceId: ref:58099
+        bibliography: A. S. Romer and R. V. Witter. 1942. Edops, a primitive rhachitomous amphibian from the Texas Red Beds. Journal of Geology 50:925-960
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Jack Couty
+        stratigraphy:
+          group: null
+          formation: Pueblo
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 293.52
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Edops craigi
+          zh: Edops craigi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-cc7132c563
+            part: body
+          zh:
+            page: zh
+            section: s-4407ad4bc2
+            part: body
+        sourceIds: []

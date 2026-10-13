@@ -1,0 +1,3 @@
+## Creeping stems and rounded leaflet tips {#s-563504e515}
+The Brazilian Flora 2020 v393.147 morphology field describes creeping stems and leaflets that are round or obovate, with rounded or notched tips. It records pink flowers and axillary flower clusters. Pods are listed as laterally compressed or inflated; their surface is hairless and they open at maturity. A separate habitat field uses the terrestrial category. The alternatives in the source remain alternatives rather than one fixed form; the record gives no sampling frame, locality, date, or wild/cultivated status and does not establish a complete range.
+

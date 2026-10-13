@@ -1,0 +1,392 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brasilotyphlus Taylor, 1968
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Brasilotyphlus
+      zh: Brasilotyphlus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2cced0c9a0
+            part: title
+          zh:
+            page: zh
+            section: s-795ce9f47f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2cced0c9a0
+            part: body
+          zh:
+            page: zh
+            section: s-795ce9f47f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2b74bcf755
+            part: title
+          zh:
+            page: zh
+            section: s-4fc08c6eb0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2b74bcf755
+            part: body
+          zh:
+            page: zh
+            section: s-4fc08c6eb0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f69915f56d
+            part: title
+          zh:
+            page: zh
+            section: s-37e3b04ea1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f69915f56d
+            part: body
+          zh:
+            page: zh
+            section: s-37e3b04ea1
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-c2f9bd6e1c
+            part: title
+          zh:
+            page: zh
+            section: s-b82f5d02a3
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: N7NC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AN7NC
+            label:
+              en: Brasilotyphlus braziliensis
+              zh: Brasilotyphlus braziliensis
+          - kind: catalogue
+            colId: N7ND
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AN7ND
+            label:
+              en: Brasilotyphlus dubium
+              zh: Brasilotyphlus dubium
+          - kind: catalogue
+            colId: 693CT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A693CT
+            label:
+              en: Brasilotyphlus guarantanus
+              zh: Brasilotyphlus guarantanus
+        text:
+          en:
+            page: en
+            section: s-c2f9bd6e1c
+            part: body
+          zh:
+            page: zh
+            section: s-b82f5d02a3
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc12654886-3cvz
+        title:
+          en:
+            page: en
+            section: s-f03dc7c1d5
+            part: title
+          zh:
+            page: zh
+            section: s-110ce6197f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f03dc7c1d5
+            part: body
+          zh:
+            page: zh
+            section: s-110ce6197f
+            part: body
+      - topic: occurrence
+        sourceIds:
+          - primary-direct-group-pmc12654886-3cvz
+        title:
+          en:
+            page: en
+            section: s-efa01d2116
+            part: title
+          zh:
+            page: zh
+            section: s-1215a876da
+            part: title
+        text:
+          en:
+            page: en
+            section: s-efa01d2116
+            part: body
+          zh:
+            page: zh
+            section: s-1215a876da
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc12654886-3cvz
+        title:
+          en:
+            page: en
+            section: s-e7b2bbe69a
+            part: title
+          zh:
+            page: zh
+            section: s-05fc53e984
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e7b2bbe69a
+            part: body
+          zh:
+            page: zh
+            section: s-05fc53e984
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc12654886-3cvz
+        title:
+          en:
+            page: en
+            section: s-236a41ad19
+            part: title
+          zh:
+            page: zh
+            section: s-9ddbd3e4cb
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 693CT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A693CT
+            label:
+              en: Brasilotyphlus guarantanus
+              zh: Brasilotyphlus guarantanus
+        text:
+          en:
+            page: en
+            section: s-236a41ad19
+            part: body
+          zh:
+            page: zh
+            section: s-9ddbd3e4cb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brasilotyphlus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3CVZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Brasilotyphlus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc12654886-3cvz
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Adenomera saci: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 source rows, 1 exact-name species routes and 0 unresolved source labels.
+            zh: 1 个来源行、1 个精确名物种路径、0 个未解决来源标签。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6504473edb
+        part: body
+      zh:
+        page: zh
+        section: s-e0335d8f23
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Brasilotyphlus
+      sourceRowIds:
+        - Anf6598
+        - Anf6599
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts: []
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-direct-group-pmc12654886-3cvz
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Regional genus subset including explicitly unresolved qualified/unidentified rows; exact species routes only
+        evidenceRead: "Adenomera saci: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Named routes and unresolved identifications remain distinct
+              zh: 命名路径与未解决鉴定保持区分
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-direct-group-pmc12654886-3cvz
+            locator: PMC12654886 S3_Table.pdf genusBrasilotyphlus rows3:22; XML sec004 qualifierdefinitions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ac9c3fcf41
+                part: body
+              zh:
+                page: zh
+                section: s-5dcb520f63
+                part: body
+            scope:
+              en: 1 source rows, 1 exact-name species routes and 0 unresolved source labels.
+              zh: 1 个来源行、1 个精确名物种路径、0 个未解决来源标签。
+          - sectionOrdinal: 1
+            topic: occurrence
+            heading:
+              en: Area totals refer to source rows and overlapping evidence
+              zh: 地区总数涉及来源行及重叠证据
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-direct-group-pmc12654886-3cvz
+            locator: PMC12654886 S3_Table.pdf selectedgenus area/sourcecells andlegend; S5_File.pdf page1 effort
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a6c61c9c4e
+                part: body
+              zh:
+                page: zh
+                section: s-45fcf82350
+                part: body
+            scope:
+              en: 1 source rows, 1 exact-name species routes and 0 unresolved source labels.
+              zh: 1 个来源行、1 个精确名物种路径、0 个未解决来源标签。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Habitat labels and barcode coverage are not experimental functions
+              zh: 生境标签与条形码覆盖不是实验功能
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-direct-group-pmc12654886-3cvz
+            locator: PMC12654886 S3_Table.pdf habitat/IUCNlegend; XML sec007/sec033; earliernamedtreatments
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1776f075b9
+                part: body
+              zh:
+                page: zh
+                section: s-20ea385e2f
+                part: body
+            scope:
+              en: 1 source rows, 1 exact-name species routes and 0 unresolved source labels.
+              zh: 1 个来源行、1 个精确名物种路径、0 个未解决来源标签。
+    primaryResearchGroupSynthesisComplete: false

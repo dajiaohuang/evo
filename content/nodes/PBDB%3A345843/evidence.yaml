@@ -1,0 +1,130 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Lysipterygium risinense
+    rank: species
+    sourceTaxonId: txn:345843
+    name:
+      en: Lysipterygium risinense
+      zh: Lysipterygium risinense
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-c1fe20df95
+            part: body
+          zh:
+            page: zh
+            section: s-469f902110
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-e73664cbe2
+            part: body
+          zh:
+            page: zh
+            section: s-67fd852287
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Lysipterygium risinense
+          zh: Lysipterygium risinense 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-f21f07c00a
+            part: body
+          zh:
+            page: zh
+            section: s-5a44611258
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:345843; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: C. C. Branson. 1935. A labyrinthodont from the lower Gondwana of Kashmir and a new edestid from the Permian of the Salt range. Memoirs of the Connecticut Academy of Arts & Sciences 9:19-26
+    occurrenceEvidence:
+      - occurrenceId: occ:1338762
+        collectionId: col:27263
+        acceptedTaxonId: txn:345843
+        identifiedTaxonId: var:345843
+        identifiedName: Actinodon risinensis n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:28828
+        bibliography: R. Schoch and A. R. Milner. 2000. Stereospondyli. Handbuch der Paläoherpetologie - Encyclopedia of Paleoherpetology 3B:1-203
+        locality:
+          countryCode: IN
+          stateProvince: Kashmir
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: Vihi
+        olderAgeMa: 298.9
+        youngerAgeMa: 290.1
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Lysipterygium risinense
+          zh: Lysipterygium risinense 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-f21f07c00a
+            part: body
+          zh:
+            page: zh
+            section: s-5a44611258
+            part: body
+        sourceIds: []

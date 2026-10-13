@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana ornativentris
+  displayName: Rana ornativentris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78QTX
+  sourceIndexes:
+    - name:
+        en: Rana ornativentris
+        zh: Rana ornativentris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78QTX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/75
+            queryName: Rana ornativentris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 68
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/222
+            queryName: Rana japonica ornativentris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/223
+            queryName: Rana temporaria montana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/224
+            queryName: Rana temporaria ornativentris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f33032fad7
+      - s-88420079d1
+      - s-6fbb8a8384
+      - s-4af345db47
+      - s-cef745cead
+      - s-25cdf03057
+      - s-fe958b780d
+      - s-c4d35705f9
+      - s-e26d8af50d
+    zh:
+      - s-b97f6567e8
+      - s-4e17bcd431
+      - s-c82efd009d
+      - s-cb981aee5c
+      - s-f72f990865
+      - s-26d260b230
+      - s-b030f72d20
+      - s-030fcab1d1
+      - s-94d3d6de13

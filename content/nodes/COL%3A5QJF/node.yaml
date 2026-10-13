@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Metaphryniscus
+  displayName: Metaphryniscus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5QJF
+  sourceIndexes:
+    - name:
+        en: Metaphryniscus
+        zh: Metaphryniscus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5QJF
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/47
+            queryName: Metaphryniscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-891a3d44eb
+      - s-d59eca4f80
+      - s-0e24d31374
+      - s-eed5668ed4
+      - s-a15b072132
+      - s-117d5b5f3a
+      - s-cf6420df73
+    zh:
+      - s-a8b298611f
+      - s-469090647c
+      - s-116b8d0874
+      - s-911d618365
+      - s-202065c3c0
+      - s-0ce03ae229
+      - s-fb826fdf29

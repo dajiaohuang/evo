@@ -1,0 +1,391 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microhyla fodiens Poyarkov, Gorin, Zaw, Kretova, Gogoleva, Pawangkhanant & Che, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Microhyla fodiens
+      zh: Microhyla fodiens
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-be85c4df32
+            part: title
+          zh:
+            page: zh
+            section: s-d198b39d70
+            part: title
+        text:
+          en:
+            page: en
+            section: s-be85c4df32
+            part: body
+          zh:
+            page: zh
+            section: s-d198b39d70
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-82cb2687ec
+            part: title
+          zh:
+            page: zh
+            section: s-898e03ad8d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-82cb2687ec
+            part: body
+          zh:
+            page: zh
+            section: s-898e03ad8d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-dd455cab6b
+            part: title
+          zh:
+            page: zh
+            section: s-b1b88eeda4
+            part: title
+        sourceIds:
+          - primary-pmc6680123-73h3f
+        text:
+          en:
+            page: en
+            section: s-dd455cab6b
+            part: body
+          zh:
+            page: zh
+            section: s-b1b88eeda4
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-19a3d5b3db
+            part: title
+          zh:
+            page: zh
+            section: s-bc3875a396
+            part: title
+        sourceIds:
+          - primary-pmc6680123-73h3f
+        text:
+          en:
+            page: en
+            section: s-19a3d5b3db
+            part: body
+          zh:
+            page: zh
+            section: s-bc3875a396
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-93500a94b2
+            part: title
+          zh:
+            page: zh
+            section: s-0f9e4d7858
+            part: title
+        sourceIds:
+          - primary-pmc6680123-73h3f
+        text:
+          en:
+            page: en
+            section: s-93500a94b2
+            part: body
+          zh:
+            page: zh
+            section: s-0f9e4d7858
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-d0da575c4b
+            part: title
+          zh:
+            page: zh
+            section: s-a31ba61d41
+            part: title
+        sourceIds:
+          - primary-pmc6680123-73h3f
+        text:
+          en:
+            page: en
+            section: s-d0da575c4b
+            part: body
+          zh:
+            page: zh
+            section: s-a31ba61d41
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ace8558c46
+            part: title
+          zh:
+            page: zh
+            section: s-3bd8a662a7
+            part: title
+        sourceIds:
+          - primary-pmc6680123-73h3f
+        text:
+          en:
+            page: en
+            section: s-ace8558c46
+            part: body
+          zh:
+            page: zh
+            section: s-3bd8a662a7
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-9394230f49
+            part: title
+          zh:
+            page: zh
+            section: s-49c139b59a
+            part: title
+        sourceIds:
+          - primary-pmc6680123-73h3f
+        text:
+          en:
+            page: en
+            section: s-9394230f49
+            part: body
+          zh:
+            page: zh
+            section: s-49c139b59a
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-4a6974788a
+            part: body
+          zh:
+            page: zh
+            section: s-c08f5aef6b
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Microhyla fodiens
+          url: https://www.checklistbank.org/dataset/316115/taxon/73H3F
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc6680123-73h3f
+        referenceId: ref-a7339c3a-f584-462a-a71a-384b8ab471cf
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Microhyla fodiens: Individually read type, diagnosis, appearance, variation, natural-history, distribution and conservation paragraphs and selected taxonomic genealogy; repeated acoustic units and captive egg observations kept distinct; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-566ef354c7
+        part: body
+      zh:
+        page: zh
+        section: s-9af3540c4a
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2019.044
+        referenceId: ref-a7339c3a-f584-462a-a71a-384b8ab471cf
+        sourceKey: primary-pmc6680123-73h3f
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6680123/article.xml
+        sourceConcept: Microhyla fodiens
+        evidenceRead: "Microhyla fodiens: Individually read type, diagnosis, appearance, variation, natural-history, distribution and conservation paragraphs and selected taxonomic genealogy; repeated acoustic units and captive egg observations kept distinct; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Adult and subadult sizes retain a holotype discrepancy
+              zh: 成年与亚成年体长保留模式数值差异
+            referenceId: ref-a7339c3a-f584-462a-a71a-384b8ab471cf
+            sourceKey: primary-pmc6680123-73h3f
+            locator: PMC6680123 reading-sections section 3 paragraphs 6–7, 13–14
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-18ed203365
+                part: body
+              zh:
+                page: zh
+                section: s-c1604e61ed
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Live markings differ with individual and developmental stage
+              zh: 活体斑纹随个体及发育阶段不同
+            referenceId: ref-a7339c3a-f584-462a-a71a-384b8ab471cf
+            sourceKey: primary-pmc6680123-73h3f
+            locator: PMC6680123 reading-sections section 3 paragraphs 11, 14
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b43a334233
+                part: body
+              zh:
+                page: zh
+                section: s-5202e41bfe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Sheltered nighttime encounters support only an apparent burrowing habit
+              zh: 隐蔽夜间遇见仅支持似具穴居习性
+            referenceId: ref-a7339c3a-f584-462a-a71a-384b8ab471cf
+            sourceKey: primary-pmc6680123-73h3f
+            locator: PMC6680123 reading-sections section 3 paragraphs 3, 15–16
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e388579e2d
+                part: body
+              zh:
+                page: zh
+                section: s-9224ef6417
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: distribution
+            heading:
+              en: Kan Pauk is confirmed; wider arid-valley occurrence is anticipated
+              zh: Kan Pauk 已确认，更广干旱河谷出现属预期
+            referenceId: ref-a7339c3a-f584-462a-a71a-384b8ab471cf
+            sourceKey: primary-pmc6680123-73h3f
+            locator: PMC6680123 reading-sections section 3 paragraphs 16, 18
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ff3f225f5b
+                part: body
+              zh:
+                page: zh
+                section: s-3c750de955
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: taxonomy
+            heading:
+              en: Mitochondrial evidence supports a distinct examined lineage
+              zh: 线粒体证据支持受检独立谱系
+            referenceId: ref-a7339c3a-f584-462a-a71a-384b8ab471cf
+            sourceKey: primary-pmc6680123-73h3f
+            locator: PMC6680123 reading-sections section 2 paragraphs 2–3; section 3 paragraph 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b637d11d10
+                part: body
+              zh:
+                page: zh
+                section: s-41d949d995
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: conservation
+            heading:
+              en: Missing biological information underlies the dated Data Deficient proposal
+              zh: 生物学信息缺口支持有日期的数据缺乏建议
+            referenceId: ref-a7339c3a-f584-462a-a71a-384b8ab471cf
+            sourceKey: primary-pmc6680123-73h3f
+            locator: PMC6680123 reading-sections section 3 paragraphs 16, 19
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1e9028085f
+                part: body
+              zh:
+                page: zh
+                section: s-61ac3cc075
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

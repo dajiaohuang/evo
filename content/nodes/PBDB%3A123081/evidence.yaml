@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Amphibamidae
+    rank: family
+    sourceTaxonId: txn:123081
+    name:
+      en: Amphibamidae
+      zh: Amphibamidae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-08dc09f834
+            part: body
+          zh:
+            page: zh
+            section: s-5d5dd97572
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Material in the captured fossil roster
+          zh: 捕获化石名录中的材料
+        text:
+          en:
+            page: en
+            section: s-0c6ef7ce7f
+            part: body
+          zh:
+            page: zh
+            section: s-d9887f0033
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-e194748ded
+            part: body
+          zh:
+            page: zh
+            section: s-485f1d4440
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-5e5ad432fd
+            part: body
+          zh:
+            page: zh
+            section: s-81df76eae1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:123081; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. L. Moodie. 1912. The Pennsylvanic Amphibia of the Mazon Creek, Illinois, Shales. Kansas University Science Bulletin 6(2):232-259
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:229305
+        - txn:193400
+        - txn:140536
+        - txn:255226
+        - txn:391929
+        - txn:229338
+        - txn:345466
+        - txn:344178
+      exactOccurrenceCount: 24
+      datedOccurrenceCount: 24
+      collectionIntervalBoundsMa:
+        older: 309.8
+        younger: 247
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-5e5ad432fd
+            part: body
+          zh:
+            page: zh
+            section: s-81df76eae1
+            part: body
+        sourceIds: []

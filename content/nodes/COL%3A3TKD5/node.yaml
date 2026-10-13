@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium xanthospilum
+  displayName: Leptobrachium xanthospilum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKD5
+  sourceIndexes:
+    - name:
+        en: Leptobrachium xanthospilum
+        zh: Leptobrachium xanthospilum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKD5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/351
+            queryName: Leptobrachium xanthospilum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b6aa635850
+      - s-10e378b1bf
+      - s-c43baf930d
+      - s-3f2a91e7c3
+      - s-19414f30b8
+      - s-a2e6f57a16
+      - s-93bf006bdb
+      - s-0ca157796d
+    zh:
+      - s-78ff4339ef
+      - s-3e4149f034
+      - s-4eb5958032
+      - s-894ad3956a
+      - s-d207dd6481
+      - s-eabae82fd2
+      - s-10a5032fe3
+      - s-03ac6bc1f1

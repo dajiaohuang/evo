@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla saxicola
+  displayName: Bokermannohyla saxicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68MY8
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla saxicola
+        zh: Bokermannohyla saxicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68MY8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/73
+            queryName: Bokermannohyla saxicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/463
+            queryName: Hyla saxicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/477
+            queryName: Hyla pseudopseudis saxicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a7b7dc456
+      - s-a8c92b4f31
+      - s-4cd170e08f
+      - s-993f1b4cae
+      - s-d169abb970
+      - s-3d88c03a05
+      - s-84d72df8f2
+      - s-122591dcfe
+      - s-94efcb7bb4
+      - s-8205921ee4
+      - s-2fb932d8ae
+      - s-1bc081c21d
+      - s-6791c7c78c
+      - s-bbc22fa271
+      - s-6ed7a8ac3e
+      - s-32c37fc870
+    zh:
+      - s-6d034be31f
+      - s-9032abf6a9
+      - s-748ba3848b
+      - s-1b223aed06
+      - s-0ad5f5e97f
+      - s-1e4fd1b93c
+      - s-5b0a953dc3
+      - s-3c785fed5a
+      - s-45e13e60dd
+      - s-8a728af62e
+      - s-b891877d68
+      - s-11e932f9f9
+      - s-af27aef944
+      - s-7519c0fc6a
+      - s-9ca3adbf4d
+      - s-ec4bcaedc9

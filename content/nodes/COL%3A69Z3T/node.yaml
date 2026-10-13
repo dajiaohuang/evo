@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Choerophryne burtoni
+  displayName: Choerophryne burtoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69Z3T
+  sourceIndexes:
+    - name:
+        en: Choerophryne burtoni
+        zh: Choerophryne burtoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69Z3T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/332
+            queryName: Choerophryne burtoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a42fba28ee
+      - s-0c4a6471a6
+      - s-15b3a8d1b6
+      - s-21a4e85038
+      - s-1de7044767
+      - s-ca70e2c756
+      - s-e290d32e7e
+      - s-3fdaa5540f
+      - s-b2e1490d02
+      - s-93e8dd6b2e
+      - s-abe026a046
+    zh:
+      - s-baa4d58605
+      - s-525f635520
+      - s-2d65dd0cf3
+      - s-7e4b08bf28
+      - s-0f16bc7706
+      - s-aa8334102c
+      - s-1a75a0c66a
+      - s-a2b1d51b7d
+      - s-4443e9a9ea
+      - s-00111a66bb
+      - s-0687fba271

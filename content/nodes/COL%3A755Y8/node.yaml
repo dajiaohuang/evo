@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne waira
+  displayName: Oreophryne waira
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/755Y8
+  sourceIndexes:
+    - name:
+        en: Oreophryne waira
+        zh: Oreophryne waira
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 755Y8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/303
+            queryName: Oreophryne waira
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-954063d2e8
+      - s-db4689ff88
+      - s-e6d2914c2e
+      - s-89bc64af5c
+      - s-f88c066df5
+      - s-e29acabdbe
+      - s-2360d77db0
+    zh:
+      - s-b0600bcb98
+      - s-56e093bed3
+      - s-f7a62b4992
+      - s-a6192cccce
+      - s-10bc039193
+      - s-e3d913e9fa
+      - s-a1960a04fe

@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cornufer browni
+    name:
+      en: Cornufer browni
+      zh: Cornufer browni
+    sourceClassification:
+      order: Anura
+      family: Ceratobatrachidae
+      genus: Cornufer
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Cornufer browni in the version 3 classification
+          zh: Cornufer browni 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f95bbb9430
+            part: body
+          zh:
+            page: zh
+            section: s-144294a4d1
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c66f33e4df
+            part: body
+          zh:
+            page: zh
+            section: s-e00bb0dbb4
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1310, 1311; Reference.csv rows 364
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1310
+        values:
+          - Ceratobatrachidae
+          - Cornufer
+          - Cornufer browni
+          - F
+          - "23.8"
+          - NA
+          - "9.996"
+          - "3.332"
+          - "1.7612"
+          - NA
+          - "2.856"
+          - "2.38"
+          - "2.3086"
+          - "2.618"
+          - "4.046"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.186"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.284"
+          - NA
+          - NA
+          - NA
+          - "1.1424"
+          - NA
+          - NA
+          - NA
+          - "0.7378"
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1311
+        values:
+          - Ceratobatrachidae
+          - Cornufer
+          - Cornufer browni
+          - M
+          - "20.7"
+          - NA
+          - "8.487"
+          - "3.105"
+          - "1.5939"
+          - NA
+          - "2.484"
+          - "2.277"
+          - "1.9872"
+          - "2.277"
+          - "3.519"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.729"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.312"
+          - NA
+          - NA
+          - NA
+          - "0.8073"
+          - NA
+          - NA
+          - NA
+          - "0.5589"
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 364
+        values:
+          - Anura
+          - Cornufer_browni
+          - "Allison, A., Kraus, F., & Price, A. H. (2001). New species of Platymantis(Anura: Ranidae) from New Ireland. Copeia, 2001(1), 194-202. https://doi.org/10.1643/0045-8511(2001)001[0194:Nsopar]2.0.Co;2"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - TL
+      - Fin3L
+      - Fin3DW
+      - Toe3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6B4K5
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

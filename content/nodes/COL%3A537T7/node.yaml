@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stumpffia pygmaea
+  displayName: Stumpffia pygmaea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/537T7
+  sourceIndexes:
+    - name:
+        en: Stumpffia pygmaea
+        zh: Stumpffia pygmaea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 537T7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/380
+            queryName: Stumpffia pygmaea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4d8f4dd8dd
+      - s-6e7c767195
+      - s-bf24a44aab
+      - s-977770a780
+      - s-0a5a01b61c
+      - s-58ab7adb8d
+      - s-4f920fdd5a
+      - s-31c0b99370
+      - s-9e36e02b1c
+      - s-e355d1aed7
+      - s-c40ed93d70
+    zh:
+      - s-bbd845ba8e
+      - s-58582f7c17
+      - s-cd6a422564
+      - s-edc0042745
+      - s-32e4447ed1
+      - s-f20b48ebaf
+      - s-a1d9289da2
+      - s-c9bedbe864
+      - s-2667d7555d
+      - s-1d24d5cccc
+      - s-031d41999b

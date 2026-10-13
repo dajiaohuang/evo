@@ -1,0 +1,564 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aplastodiscus weygoldti (Cruz & Peixoto, 1987)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Aplastodiscus weygoldti
+      zh: Aplastodiscus weygoldti
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-51b086e1e2
+            part: title
+          zh:
+            page: zh
+            section: s-a9f36b6f29
+            part: title
+        text:
+          en:
+            page: en
+            section: s-51b086e1e2
+            part: body
+          zh:
+            page: zh
+            section: s-a9f36b6f29
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-42815a5d00
+            part: title
+          zh:
+            page: zh
+            section: s-7f4f8def0c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-42815a5d00
+            part: body
+          zh:
+            page: zh
+            section: s-7f4f8def0c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1aadf7655c
+            part: title
+          zh:
+            page: zh
+            section: s-e74b91cf92
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-1aadf7655c
+            part: body
+          zh:
+            page: zh
+            section: s-e74b91cf92
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-368681cd1e
+            part: title
+          zh:
+            page: zh
+            section: s-e251eeb852
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-368681cd1e
+            part: body
+          zh:
+            page: zh
+            section: s-e251eeb852
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3a015380ed
+            part: title
+          zh:
+            page: zh
+            section: s-a937dafe6b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-3a015380ed
+            part: body
+          zh:
+            page: zh
+            section: s-a937dafe6b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-7f9817eca7
+            part: title
+          zh:
+            page: zh
+            section: s-3005eb3101
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-7f9817eca7
+            part: body
+          zh:
+            page: zh
+            section: s-3005eb3101
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-d41801ce0e
+            part: title
+          zh:
+            page: zh
+            section: s-a91a673094
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-d41801ce0e
+            part: body
+          zh:
+            page: zh
+            section: s-a91a673094
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bb81589d8c
+            part: title
+          zh:
+            page: zh
+            section: s-296779c92d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-bb81589d8c
+            part: body
+          zh:
+            page: zh
+            section: s-296779c92d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-4baa7692dc2a60913aab680e14b0b120
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-b70988d6dc518bb014e6ae35
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-783c479b69
+            part: title
+          zh:
+            page: zh
+            section: s-343b1f4f4b
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3189"
+        text:
+          en:
+            page: en
+            section: s-783c479b69
+            part: body
+          zh:
+            page: zh
+            section: s-343b1f4f4b
+            part: body
+        sourceRowNumber: 2878
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f0cee0c8dd
+            part: title
+          zh:
+            page: zh
+            section: s-d9c4fc233d
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3225"
+        text:
+          en:
+            page: en
+            section: s-f0cee0c8dd
+            part: body
+          zh:
+            page: zh
+            section: s-d9c4fc233d
+            part: body
+        sourceRowNumber: 2914
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fbf4ab212b
+            part: title
+          zh:
+            page: zh
+            section: s-d5bc151103
+            part: title
+        sourceIds:
+          - primary-pmc10688756-fnn2
+        text:
+          en:
+            page: en
+            section: s-fbf4ab212b
+            part: body
+          zh:
+            page: zh
+            section: s-d5bc151103
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2e2f0183b6
+            part: title
+          zh:
+            page: zh
+            section: s-04aa5b87d7
+            part: title
+        sourceIds:
+          - primary-pmc10688756-fnn2
+        text:
+          en:
+            page: en
+            section: s-2e2f0183b6
+            part: body
+          zh:
+            page: zh
+            section: s-04aa5b87d7
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-559fe9d6db
+            part: title
+          zh:
+            page: zh
+            section: s-bc6cb43caf
+            part: title
+        sourceIds:
+          - primary-pmc10688756-fnn2
+        text:
+          en:
+            page: en
+            section: s-559fe9d6db
+            part: body
+          zh:
+            page: zh
+            section: s-bc6cb43caf
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Aplastodiscus weygoldti
+          url: https://www.checklistbank.org/dataset/316115/taxon/FNN2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2138; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2138 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 2878, 2914, 3068, 3069; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc10688756-fnn2
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Aplastodiscus weygoldti: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0e4a8a8333
+        part: body
+      zh:
+        page: zh
+        section: s-e5c341ce81
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-4baa7692dc2a60913aab680e14b0b120
+      sourceRowId: Anf2138
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf2138
+        bibliographyRowId: Anf2138
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Aplastodiscus weygoldti
+        candidateBibliographyRowIds:
+          - Anf2138
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-b70988d6dc518bb014e6ae35
+        scientificName: Aplastodiscus weygoldti
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-fnn2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Aplastodiscus_weygoldti, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Aplastodiscus weygoldti: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-fnn2
+            locator: PMC10688756 S3 File Traits row 29 Aplastodiscus_weygoldti; XML Functional diversity; upstream reference numbers 1, 2, 3, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f29d7575c7
+                part: body
+              zh:
+                page: zh
+                section: s-588d385406
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-fnn2
+            locator: PMC10688756 S3 File Traits row 29 Aplastodiscus_weygoldti habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c1695a94d0
+                part: body
+              zh:
+                page: zh
+                section: s-3a5a3863b1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-fnn2
+            locator: PMC10688756 S3 File Traits row 29 Aplastodiscus_weygoldti length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6a90442d97
+                part: body
+              zh:
+                page: zh
+                section: s-8139e7edd2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

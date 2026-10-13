@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis trachyblepharis
+  displayName: Pristimantis trachyblepharis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQL
+  sourceIndexes:
+    - name:
+        en: Pristimantis trachyblepharis
+        zh: Pristimantis trachyblepharis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/141
+            queryName: Pristimantis trachyblepharis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/206
+            queryName: Eleutherodactylus trachyblepharis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/352
+            queryName: Hylodes trachyblepharis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-019af8a423
+      - s-eb8e0779c1
+      - s-a3858d7248
+      - s-b89f988744
+      - s-542f6e5257
+      - s-83e3054393
+      - s-8ace6cd217
+      - s-1e2973cc36
+      - s-4c5bd69c97
+      - s-3233939cf3
+      - s-46105a0d60
+      - s-9a83466276
+      - s-d7d105498d
+      - s-01fa4fb6f3
+      - s-e741feec90
+      - s-a756f8cb6d
+      - s-7f63ee413d
+      - s-29a54e30d0
+      - s-90ba327c15
+      - s-5b88350643
+    zh:
+      - s-ae9bfc172e
+      - s-a43a1e79ec
+      - s-78f78b9394
+      - s-5fabc9f762
+      - s-84a141a8d9
+      - s-0c9f1adb95
+      - s-00000cd070
+      - s-e22ebe496c
+      - s-5607dfd60c
+      - s-63f0540f57
+      - s-a13ae20a3f
+      - s-cf1df24ff2
+      - s-17ee212d9d
+      - s-8d2b66ba5d
+      - s-fb4a42a497
+      - s-46a13b7f16
+      - s-179c4eb391
+      - s-87eea8f6a0
+      - s-147e2d962a
+      - s-6c1b5c6419

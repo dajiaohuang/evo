@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachium pullum
+    name:
+      en: Leptobrachium pullum
+      zh: Leptobrachium pullum
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-119f8450a1
+            part: body
+          zh:
+            page: zh
+            section: s-1a188d7fd8
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4b08270ee2
+            part: body
+          zh:
+            page: zh
+            section: s-884ff30997
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2697, 2698; Reference.csv rows 691
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2697
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium pullum
+          - F
+          - "52.4"
+          - "22.8"
+          - "21.5"
+          - "8.1"
+          - NA
+          - NA
+          - "6.9"
+          - "4.4"
+          - NA
+          - NA
+          - "10.1"
+          - NA
+          - "12.8"
+          - "16.1"
+          - "28.9"
+          - "18.9"
+          - NA
+          - "18.1"
+          - "20.7"
+          - NA
+          - NA
+          - "3.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2698
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium pullum
+          - M
+          - "46.1"
+          - "19.6"
+          - "19.4"
+          - "7.2"
+          - NA
+          - NA
+          - "6"
+          - "4.2"
+          - NA
+          - NA
+          - "8.2"
+          - NA
+          - "10.6"
+          - "13"
+          - "23.6"
+          - "16.4"
+          - NA
+          - "15.3"
+          - "17.8"
+          - NA
+          - NA
+          - "2.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 691
+        values:
+          - Anura
+          - Leptobrachium_pullum
+          - "Lathrop, A., Murphy, R. W., Orlov, N. L., & Cuc, T. H. (1998). Two new species of Leptobrachium (Anura: Megophryidae) from the central highlands of Vietnam with a redescription of Leptobrachium chapaense. Russian Journal of Herpetology, 5(1), 51-60."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - THL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

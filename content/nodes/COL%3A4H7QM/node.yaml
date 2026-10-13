@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllomedusa bahiana
+  displayName: Phyllomedusa bahiana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7QM
+  sourceIndexes:
+    - name:
+        en: Phyllomedusa bahiana
+        zh: Phyllomedusa bahiana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7QM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/267
+            queryName: Phyllomedusa bahiana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/35
+            queryName: Pithecopus bahiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/118
+            queryName: Pithecopus burmeisteri bahiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/119
+            queryName: Phyllomedusa burmeisteri bahiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2bf324650f
+      - s-be4a0b766e
+      - s-b9a57d98b7
+      - s-d07da121c1
+      - s-d14340f875
+      - s-2e8e0c8890
+      - s-47a1662798
+      - s-f45c943c28
+      - s-f130410459
+      - s-2a36a3d6fe
+      - s-4028142b4d
+      - s-e76f42f808
+      - s-f4e3d2b7cd
+      - s-2c27db74ae
+      - s-dadfc7d854
+      - s-288e9202c8
+      - s-312b11cfab
+      - s-7810eefd0f
+      - s-98fe3b82f4
+      - s-35ea3bbe37
+    zh:
+      - s-c30635e626
+      - s-3e5e1a7f58
+      - s-d0d33e2afd
+      - s-c29ac3ec75
+      - s-84c852f0f9
+      - s-0c96fdd0e3
+      - s-828074c364
+      - s-47d5231ec1
+      - s-9021d3d394
+      - s-ed3b193ef1
+      - s-ab5fa4d4b2
+      - s-ffdeae5eb0
+      - s-3a5c595cc4
+      - s-025e968596
+      - s-d859ed79f7
+      - s-d929e187ac
+      - s-240ef1ea9e
+      - s-90dbb90e6b
+      - s-e91e5756dc
+      - s-ee236f6435

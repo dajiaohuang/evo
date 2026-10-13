@@ -1,0 +1,211 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hemisotidae Cope, 1867
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Hemisotidae
+      zh: Hemisotidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6ccf431df6
+            part: title
+          zh:
+            page: zh
+            section: s-02f4eecd14
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6ccf431df6
+            part: body
+          zh:
+            page: zh
+            section: s-02f4eecd14
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cfa71a4361
+            part: title
+          zh:
+            page: zh
+            section: s-898ac80740
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cfa71a4361
+            part: body
+          zh:
+            page: zh
+            section: s-898ac80740
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ab74bf211d
+            part: title
+          zh:
+            page: zh
+            section: s-227679c52f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ab74bf211d
+            part: body
+          zh:
+            page: zh
+            section: s-227679c52f
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-92eef0424e
+            part: title
+          zh:
+            page: zh
+            section: s-57bd61579a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-92eef0424e
+            part: body
+          zh:
+            page: zh
+            section: s-57bd61579a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-be6eda8800
+            part: title
+          zh:
+            page: zh
+            section: s-51854ca508
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4VF5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4VF5
+            label:
+              en: Hemisus
+              zh: Hemisus
+        text:
+          en:
+            page: en
+            section: s-be6eda8800
+            part: body
+          zh:
+            page: zh
+            section: s-51854ca508
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hemisotidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/624SL
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Hemisotidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0e561109e2
+        part: body
+      zh:
+        page: zh
+        section: s-a54a83cf75
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Hemisotidae
+      sourceRowIds:
+        - Anf2103
+        - Anf2104
+        - Anf2105
+        - Anf2106
+        - Anf2107
+        - Anf2108
+        - Anf2109
+        - Anf2110
+        - Anf2111
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 9
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 9
+      currentConceptEquivalenceCertified: false

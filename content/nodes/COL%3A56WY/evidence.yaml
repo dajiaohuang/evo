@@ -1,0 +1,358 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Julianus Duellman, Marion & Hedges, 2016
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Julianus
+      zh: Julianus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-53e61e732f
+            part: title
+          zh:
+            page: zh
+            section: s-c5c8018e78
+            part: title
+        text:
+          en:
+            page: en
+            section: s-53e61e732f
+            part: body
+          zh:
+            page: zh
+            section: s-c5c8018e78
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e432109bc7
+            part: title
+          zh:
+            page: zh
+            section: s-b9e2f17f66
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e432109bc7
+            part: body
+          zh:
+            page: zh
+            section: s-b9e2f17f66
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-0d7a556a62
+            part: title
+          zh:
+            page: zh
+            section: s-e26a250fdd
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: Q4H2L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AQ4H2L
+            label:
+              en: Julianus camposseabrai
+              zh: Julianus camposseabrai
+          - kind: catalogue
+            colId: Q4H2Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AQ4H2Q
+            label:
+              en: Julianus fontanarrosai
+              zh: Julianus fontanarrosai
+          - kind: catalogue
+            colId: 3QS6K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QS6K
+            label:
+              en: Julianus pinimus
+              zh: Julianus pinimus
+          - kind: catalogue
+            colId: 3QS6L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QS6L
+            label:
+              en: Julianus uruguayus
+              zh: Julianus uruguayus
+        text:
+          en:
+            page: en
+            section: s-0d7a556a62
+            part: body
+          zh:
+            page: zh
+            section: s-e26a250fdd
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10688756-56wy
+        title:
+          en:
+            page: en
+            section: s-7f58b7b57d
+            part: title
+          zh:
+            page: zh
+            section: s-4e491667d2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7f58b7b57d
+            part: body
+          zh:
+            page: zh
+            section: s-4e491667d2
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10688756-56wy
+        title:
+          en:
+            page: en
+            section: s-b59fea0b90
+            part: title
+          zh:
+            page: zh
+            section: s-9195135a1b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b59fea0b90
+            part: body
+          zh:
+            page: zh
+            section: s-9195135a1b
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc10688756-56wy
+          - primary-direct-group-pmc10688756-56wy-catalogue-alias
+        title:
+          en:
+            page: en
+            section: s-94f4137c42
+            part: title
+          zh:
+            page: zh
+            section: s-1ba7d742ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-94f4137c42
+            part: body
+          zh:
+            page: zh
+            section: s-1ba7d742ba
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10688756-56wy
+        title:
+          en:
+            page: en
+            section: s-481a3984cb
+            part: title
+          zh:
+            page: zh
+            section: s-df648173ce
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: Q4H2L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AQ4H2L
+            label:
+              en: Julianus camposseabrai
+              zh: Julianus camposseabrai
+          - kind: catalogue
+            colId: 3QS6L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QS6L
+            label:
+              en: Julianus uruguayus
+              zh: Julianus uruguayus
+        text:
+          en:
+            page: en
+            section: s-481a3984cb
+            part: body
+          zh:
+            page: zh
+            section: s-df648173ce
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Julianus
+          url: https://www.checklistbank.org/dataset/316115/taxon/56WY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-direct-group-pmc10688756-56wy
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: 2 source workbook rows linked to 2 distinct accepted species pages; row traits and limits, not complete genus biology.
+            zh: 2 个来源工作簿行链接 2 个不同接受种页面；行性状及限制，不是全属生物学。
+      - id: primary-direct-group-pmc10688756-56wy-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: "COL26.8 dataset316115; Scinax camposseabrai: usage4VJVG acceptedQ4H2L; Scinax uruguayus: usage4VJZQ accepted3QS6L; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json"
+          scope:
+            en: Exact recorded nomenclatural accepted-links only; biological concept identity remains uncertified.
+            zh: 仅精确所记命名接受名链接；生物学概念身份仍未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-direct-group-pmc10688756-56wy-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c0d2a05499
+        part: body
+      zh:
+        page: zh
+        section: s-3d29501028
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-direct-group-pmc10688756-56wy
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: Source-labelled Atlantic Forest workbook rows grouped through fixed exact names or explicit catalogue accepted-links; duplicate destinations retained, not biological identity certification
+        evidenceRead: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Reproduction and juvenile habitats retain source-row denominators
+              zh: 繁殖及幼体生境保留来源行分母
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-56wy
+            locator: PMC10688756 S3 Traits rows 400, 442; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e62a1b6497
+                part: body
+              zh:
+                page: zh
+                section: s-f76b16013f
+                part: body
+            scope:
+              en: 2 source workbook rows linked to 2 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 2 个来源工作簿行链接 2 个不同接受种页面；行性状及限制，不是全属生物学。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Inference flags and community associations have limited scope
+              zh: 推断标记及群落关联具有有限范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-56wy
+            locator: PMC10688756 S3 Traits rows 400, 442; XML Functional diversity length/Observation columns; Results/Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c0b5c4b892
+                part: body
+              zh:
+                page: zh
+                section: s-5c4a4a1c6b
+                part: body
+            scope:
+              en: 2 source workbook rows linked to 2 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 2 个来源工作簿行链接 2 个不同接受种页面；行性状及限制，不是全属生物学。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: Historical combinations follow recorded catalogue links
+              zh: 历史组合跟随所记目录链接
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-56wy
+            locator: "PMC10688756 S3 Traits rows 400, 442; XML Functional diversity; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json; Scinax camposseabrai: usage4VJVG acceptedQ4H2L; Scinax uruguayus: usage4VJZQ accepted3QS6L"
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9d140a6fda
+                part: body
+              zh:
+                page: zh
+                section: s-e9563df7e8
+                part: body
+            scope:
+              en: 2 source workbook rows linked to 2 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 2 个来源工作簿行链接 2 个不同接受种页面；行性状及限制，不是全属生物学。
+    primaryResearchGroupSynthesisComplete: false

@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes kakkayamensis Garg, Suyesh, Das, Bee & Biju, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes kakkayamensis
+      zh: Raorchestes kakkayamensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-10e0e3ba49
+            part: title
+          zh:
+            page: zh
+            section: s-f60402d4e1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-10e0e3ba49
+            part: body
+          zh:
+            page: zh
+            section: s-f60402d4e1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3ed6449f28
+            part: title
+          zh:
+            page: zh
+            section: s-a4f0a69fc4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3ed6449f28
+            part: body
+          zh:
+            page: zh
+            section: s-a4f0a69fc4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-22571b20b0
+            part: title
+          zh:
+            page: zh
+            section: s-59b6fb5fe7
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slx78
+        text:
+          en:
+            page: en
+            section: s-22571b20b0
+            part: body
+          zh:
+            page: zh
+            section: s-59b6fb5fe7
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3c64a4e11b
+            part: title
+          zh:
+            page: zh
+            section: s-e682d322b9
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slx78
+        text:
+          en:
+            page: en
+            section: s-3c64a4e11b
+            part: body
+          zh:
+            page: zh
+            section: s-e682d322b9
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-aaa812e631
+            part: title
+          zh:
+            page: zh
+            section: s-ca139a54f9
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slx78
+        text:
+          en:
+            page: en
+            section: s-aaa812e631
+            part: body
+          zh:
+            page: zh
+            section: s-ca139a54f9
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-ffe87b2fdd
+            part: title
+          zh:
+            page: zh
+            section: s-9a34c428f2
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slx78
+        text:
+          en:
+            page: en
+            section: s-ffe87b2fdd
+            part: body
+          zh:
+            page: zh
+            section: s-9a34c428f2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes kakkayamensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/SLX78
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7936570-slx78
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes kakkayamensis: Diagnostic morphology and six-specimen variation, single-locality habitat, typical-call properties and sequence relationship; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-99c9c4404b
+        part: body
+      zh:
+        page: zh
+        section: s-210ba03ec8
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-slx78
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes kakkayamensis
+        evidenceRead: "Raorchestes kakkayamensis: Diagnostic morphology and six-specimen variation, single-locality habitat, typical-call properties and sequence relationship; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A small species with a male humeral projection
+              zh: 雄性具有肱骨突起的小型蛙
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slx78
+            locator: PMC7936570 XML sec11 paragraphs 23, 29
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b93c83c915
+                part: body
+              zh:
+                page: zh
+                section: s-525f88f04c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Leaf litter and elevated vegetation in the same locality
+              zh: 同一地点的落叶层与较高植被记录
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slx78
+            locator: PMC7936570 XML sec11 paragraph 31
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3b97089a93
+                part: body
+              zh:
+                page: zh
+                section: s-d63ef3bd9f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: A short, usually single-pulse call
+              zh: 短促、通常只有一个脉冲的鸣声
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slx78
+            locator: PMC7936570 XML sec11 paragraph 30; sec7 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eb3362fbd5
+                part: body
+              zh:
+                page: zh
+                section: s-0050a88876
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Close sequence affinity does not replace the full diagnosis
+              zh: 序列亲缘接近不能替代完整鉴别
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slx78
+            locator: PMC7936570 XML sec11 paragraph 22; sec4 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-68aab58585
+                part: body
+              zh:
+                page: zh
+                section: s-954883d1c7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

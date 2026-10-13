@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenophrys himalayana
+  displayName: Xenophrys himalayana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TMNXV
+  sourceIndexes:
+    - name:
+        en: Xenophrys himalayana
+        zh: Xenophrys himalayana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TMNXV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/279
+            queryName: Xenophrys himalayana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/209
+            queryName: Megophrys himalayana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0f9c790977
+      - s-640e7f3fcf
+      - s-d90f4446ce
+      - s-fb32bd9678
+      - s-228810a8f1
+      - s-c3c4e8591c
+      - s-67b80ea4c0
+      - s-9d08a69ae7
+      - s-071fbc0e8e
+      - s-a7d28a9ea8
+    zh:
+      - s-98fc0e4cef
+      - s-84c26954b4
+      - s-bea34d7d15
+      - s-6ba71e7c4b
+      - s-c9ad35a095
+      - s-22f85c9053
+      - s-72e328b657
+      - s-c6347abe19
+      - s-f81ccb1401
+      - s-1fbe85a370

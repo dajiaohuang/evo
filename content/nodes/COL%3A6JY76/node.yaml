@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca bufona
+  displayName: Gastrotheca bufona
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JY76
+  sourceIndexes:
+    - name:
+        en: Gastrotheca bufona
+        zh: Gastrotheca bufona
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JY76
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/21
+            queryName: Gastrotheca bufona
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e62f89f198
+      - s-26ed30a8ff
+      - s-bafa460ad7
+      - s-3e7af52091
+      - s-5424adbd5f
+      - s-949604704b
+      - s-b59c5e77d2
+      - s-ced44ec501
+      - s-70d06645b3
+    zh:
+      - s-c608aee108
+      - s-691bfcdd18
+      - s-5d822aec51
+      - s-8d2620557c
+      - s-1f1d058954
+      - s-3c935a0f72
+      - s-1f96c8ad92
+      - s-7b332169fb
+      - s-a86ed1c200

@@ -1,0 +1,119 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Eriocephalus karooicus M.A.N.Müll.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3B3J4, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3B3J4; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3B3J4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3B3J4
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000129018-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3B3J4 / WFO wfo-0000129018
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_6083_0
+        referenceId: ref-fddf39ec-35b4-8c28-a24b-fad7bbbcbec5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Eriocephalus karooicus M.A.N.Müll. account; archive rows 50613 (Morphology), 56188 (Habitat), 51824 (Diagnostic), source identifier 6083.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-c0055bbd8d
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-b178d62339
+          part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Many-stemmed, much-branched, spinescent, aromatic shrubs, 150-450 mm tall, spreading. Old stems displaying anomalous secondary growth, dark grey; young shoots yellow-brown, shortly sericeous; older shoots brown-grey to dark grey, terminally spinescent, 10-22 mm long. Leaves 1-4 mm long, always decussate, sessile on cushion-like thickenings, entire, permanently silver-to green-grey sericeous, adaxially proximally concave, distally flattened, abaxially semiterete, apex acute, base semi-amplexicaul, bases of two opposite leaves connate, leaves on brachyblasts obtuse-triangular to lanceolate, densely imbricate, those on young shoots linear to linear-lanceolate. Capitula heterogamous radiate, 2-4.5 mm long, sessile, solitary, terminal on brachyblasts or spicate on dolichoblasts, almost hidden among subtending leaves. Involncral bracts 4, 3.2-4.0 x 0.8-1.4 mm, 2 slightly keeled with margins overlapping, other 2 flattened; each with central thickened green to purple part and transparent margin, abaxially appressed sericeous, adaxially smooth. Paleae: those of marginal florets free, oblong-ovate, 3.5 x 1.2 mm, hardened, keeled, abaxially lanate, hairs septate, enveloping female florets; those of disc florets narrowly oblong to lanceolate, becoming narrower towards centre, 3.8 x 1.0-3.6 x 0.2 mm, with membranous margins, abaxially lanate. Ray florets 2 or 3, 2.5-2.8 mm long; corolla white with distinct 1.3-2.2 mm long lamina. Style branches linear, as long as or shorter than ray, rarely longer. Ovary (and cypsela) oblong, slightly flattened, densely lanate. Seed 2-3 mm long, obovoid, slightly flattened. Disc florets 4-10, 2.5-3.0 mm long, functionally male with sterile ovary; corolla trumpet-shaped, 5-lobed, white to pale yellow to yellow with red-purple lobes. Stamens 5, exserted at maturity. Style unbranched, apex truncate, with sweeping hairs. Receptacle after anthesis white-lanate between involucral bracts and marginal paleae. Flowering time: December to March in summer, July to September in winter."
+            sourceIds:
+              - sanbi_6083_0
+            locator: "SANBI/WFO archive Morphology row 50613; source 6083.0; publication: Muller, MAN; Herman, PPJ; Kolberg, HH. 2001. Eriocephalus and Lasiospermum, Fl. S. Africa 33(4,1): 1 - 75. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209557#page/1/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: This species is closely related to E. spinescens. These delicate, spinescent shrublets are very similar to E. ericoides during the active growing period. They differ from that species by the green-grey to silver-grey, small, imbricate leaves looking remarkably like a feather.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_6083_0
+            locator: "SANBI/WFO archive Diagnostic row 51824; source 6083.0; publication: Muller, MAN; Herman, PPJ; Kolberg, HH. 2001. Eriocephalus and Lasiospermum, Fl. S. Africa 33(4,1): 1 - 75. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209557#page/1/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: "Veld types: False Karoo, Cymbopogon-Themeda Veld, Transitional Cymbopogon-Themeda Veld, mainly on heavy soils, and the Themeda Veld to Cymbopogon-Themeda Veld Transition."
+            sourceIds:
+              - sanbi_6083_0
+            locator: "SANBI/WFO archive Habitat row 56188; source 6083.0; publication: Muller, MAN; Herman, PPJ; Kolberg, HH. 2001. Eriocephalus and Lasiospermum, Fl. S. Africa 33(4,1): 1 - 75. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209557#page/1/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

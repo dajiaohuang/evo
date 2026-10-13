@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus novaisi
+  displayName: Dendropsophus novaisi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S6H
+  sourceIndexes:
+    - name:
+        en: Dendropsophus novaisi
+        zh: Dendropsophus novaisi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S6H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/398
+            queryName: Dendropsophus novaisi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/409
+            queryName: Hyla novaisi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/438
+            queryName: Hyla senicula novaisi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6c115acce
+      - s-26365fa174
+      - s-e6e773f421
+      - s-3e4cf68904
+      - s-f5f934227a
+      - s-9d18a95b25
+      - s-35bc6e97db
+      - s-c0bb499d21
+      - s-358f07673c
+      - s-f0d649d922
+      - s-f307a27603
+      - s-b76bae547e
+      - s-4529debbcd
+      - s-f71593d409
+      - s-d99f0d5022
+      - s-d186ef0059
+      - s-d9f4db45c1
+      - s-2aac06f789
+      - s-0d43d2d642
+    zh:
+      - s-9c2f52d62b
+      - s-a4bacd6b58
+      - s-558be42511
+      - s-d6ab8dbdba
+      - s-7e30659f6a
+      - s-30cc718434
+      - s-8bff7fd5ba
+      - s-a47c06898e
+      - s-38d4a49e05
+      - s-3669b05b28
+      - s-1b558e8745
+      - s-e1fe9f23ff
+      - s-aa9cab2c62
+      - s-d1248804aa
+      - s-0a3fc33f28
+      - s-5e0df12e4d
+      - s-290b655968
+      - s-79c8fbf976
+      - s-ce21a56eba

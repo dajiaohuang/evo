@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis lucasi
+  displayName: Pristimantis lucasi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJH4
+  sourceIndexes:
+    - name:
+        en: Pristimantis lucasi
+        zh: Pristimantis lucasi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJH4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/377
+            queryName: Pristimantis lucasi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b3fa701a30
+      - s-1d5dff4bc8
+      - s-7c3962d190
+      - s-53027fa249
+      - s-f4544bfb4c
+      - s-c3b3cac326
+      - s-295f6df006
+      - s-b29863f9e8
+      - s-1fcaa8653b
+    zh:
+      - s-d40eaf7752
+      - s-e27fb499c6
+      - s-88d78bb3f6
+      - s-eac93d5a9e
+      - s-5f15d8938f
+      - s-4473b6c4df
+      - s-e803cf96fd
+      - s-3d948cf898
+      - s-dea6d053db

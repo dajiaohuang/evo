@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis guentheri
+  displayName: Platymantis guentheri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSPZ
+  sourceIndexes:
+    - name:
+        en: Platymantis guentheri
+        zh: Platymantis guentheri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSPZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/379
+            queryName: Platymantis guentheri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/222
+            queryName: Cornufer ingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/303
+            queryName: Platymantis ingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c51db2611
+      - s-05e369b42d
+      - s-252370b0d8
+      - s-e8e41cc839
+      - s-d32960e1a0
+      - s-01dc056406
+      - s-9d0941b721
+      - s-1bbfb13e4b
+      - s-682863b04c
+      - s-05956af175
+      - s-b855fbb2b7
+      - s-505c436ebf
+    zh:
+      - s-4a333322b5
+      - s-12c23d4653
+      - s-6cdd5160ac
+      - s-560c3934b2
+      - s-66fbd21133
+      - s-32f11dc497
+      - s-78b0740451
+      - s-d5db2929ca
+      - s-f8257da84f
+      - s-d61bb846d8
+      - s-bd41b2b975
+      - s-56d4fbfec2

@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Adenomera albarena {#s-cee1cfc76d}
+TadpoleTraits version 4 places Adenomera albarena in Adenomera (Leptodactylidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Adenomera albarena. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 2 literature rows and 0 image rows {#s-a2380669ce}
+TadpoleTraits version 4 links 2 literature rows and 0 image rows to Adenomera albarena. Source row numbers — literature: 2814, 2815; image: none recorded. Populated measurement fields — literature: TL, TL.sd, BL, BL.sd, BMH, BMH.sd, BMW, BMW.sd, BWE, BWE.sd, TaL, TaL.sd, MTH, MTH.sd, TMH, TMH.sd, TMW, TMW.sd, IND.a, IND.a.sd, END.b, END.b.sd, IOD.a, IOD.a.sd, E, E.sd, OD, OD.sd, VTL, VTL.sd; image: none recorded. Literature row 2814: Stage 35; Literature row 2815: Stage 41. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

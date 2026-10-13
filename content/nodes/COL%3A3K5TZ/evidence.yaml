@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Helianthus argophyllus Torr. & A.Gray
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3K5TZ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3K5TZ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3K5TZ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3K5TZ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000116726-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3K5TZ / WFO wfo-0000116726
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_11711_0
+        referenceId: ref-53e67598-88ba-80fa-a609-8659d2fb5e54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Helianthus argophyllus Torr. & A.Gray account; archive rows 47693 (Morphology), 48022 (Habitat), source identifier 11711.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Annual herb up to c. 4 m tall, stems usually solitary, silky-silvery villous at least in the upper part. Leaves opposite or alternate below, alternate above, lamina up to c. 12 x 6 cm, ovate, apex acuminate, base broadly cuneate or cordate in the lower leaves, silky-silvery villous on both surfaces, petiole up to c. 4 cm long. Heads solitary and terminal, about 8 cm across the expanded rays. Involucral bracts triseriate, ovate, abruptly acuminate, silvery silky-villous. Rays yellow, disc blackish. Achenes c. 5 mm long, oblong-obovate, somewhat compressed, thinly hispid on the margins and at the apex. Pappus of 2 small narrow scales, soon caducous.
+            sourceIds:
+              - sanbi_11711_0
+            locator: "SANBI/WFO archive Morphology row 47693; source 11711.0; publication: Hilliard, OM. 1977. Compositae in Natal. Univ. Natal, Pietermaritzburg. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: A weed on the Natal coast, being very common along sandy roadsides and on waste ground particularly in the industrial areas at the head of Durban Bay and at least as far south as Port Shepstone. Also on sand dunes in Lourenço Marques district of Moçambique.
+            sourceIds:
+              - sanbi_11711_0
+            locator: "SANBI/WFO archive Habitat row 48022; source 11711.0; publication: Hilliard, OM. 1977. Compositae in Natal. Univ. Natal, Pietermaritzburg. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

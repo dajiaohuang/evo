@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pithecopus ayeaye
+  displayName: Pithecopus ayeaye
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JBP9
+  sourceIndexes:
+    - name:
+        en: Pithecopus ayeaye
+        zh: Pithecopus ayeaye
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JBP9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/360
+            queryName: Pithecopus ayeaye
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/392
+            queryName: Phyllomedusa ayeaye
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/318
+            queryName: Phyllomedusa itacolomi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e9ea57a1df
+      - s-3bebecee02
+      - s-73225d996d
+      - s-57ec3428e6
+      - s-f00a67da2e
+      - s-6deaa671c2
+      - s-72cd6636a5
+      - s-6c3d3c0320
+      - s-f66c0507e5
+      - s-10faf97e61
+      - s-ea9a7f9941
+      - s-7f7ca40c8a
+    zh:
+      - s-d3f711e6f9
+      - s-67250e8cb3
+      - s-951f5075fc
+      - s-39a079e9fb
+      - s-f564ea7b7d
+      - s-1713618efd
+      - s-69f01a8eef
+      - s-96cbe4407a
+      - s-243cf93997
+      - s-fcbff9c6e4
+      - s-c63f7a5dc0
+      - s-ed0a4e309b

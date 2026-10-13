@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Boophis marojezensis
+    name:
+      en: Boophis marojezensis
+      zh: Boophis marojezensis
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Boophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e5b205401e
+            part: body
+          zh:
+            page: zh
+            section: s-3a2b7a9b52
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-96ab75adaa
+            part: body
+          zh:
+            page: zh
+            section: s-2bd5bcf288
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 778, 779; Reference.csv rows 113
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 778
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis marojezensis
+          - M
+          - "23.24146341"
+          - "8.563414634"
+          - "8.441463415"
+          - "3.136585366"
+          - "1.263414634"
+          - NA
+          - NA
+          - "2.246341463"
+          - NA
+          - "1.795121951"
+          - NA
+          - "1.812195122"
+          - "7.443902439"
+          - NA
+          - "15.12195122"
+          - "9.987804878"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "40.59756098"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 779
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis marojezensis
+          - F
+          - "32.4"
+          - "11.7"
+          - "11.7"
+          - "3.85"
+          - "1.75"
+          - NA
+          - NA
+          - "3.1"
+          - NA
+          - "2.55"
+          - NA
+          - "2.6"
+          - "10.35"
+          - NA
+          - "20.3"
+          - "14.15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "54.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 113
+        values:
+          - Anura
+          - Boophis_marojezensis
+          - "Glaw, F. (2001). Revision of the Boophis majori group (Amphibia: Mantellidae) from Madagascar, with descriptions of five new species. Zoological Journal of the Linnean Society, 133(4), 495-529. https://doi.org/10.1006/zjls.2001.0301"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - MHTY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

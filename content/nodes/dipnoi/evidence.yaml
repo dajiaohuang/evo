@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-7d4b120929
+          part: title
+        zh:
+          page: zh
+          section: s-a2ab937490
+          part: title
+      text:
+        en:
+          page: en
+          section: s-7d4b120929
+          part: body
+        zh:
+          page: zh
+          section: s-a2ab937490
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-bb52059f67
+          part: title
+        zh:
+          page: zh
+          section: s-65bffb435f
+          part: title
+      text:
+        en:
+          page: en
+          section: s-bb52059f67
+          part: body
+        zh:
+          page: zh
+          section: s-65bffb435f
+          part: body
+  atlas-node:
+    name: Dipnoi
+    commonName: Lungfish
+    commonNameZh: 肺鱼类
+    rank: subclass
+    taxonId: ""
+    firstAppearance: 409
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:dipnoi
+      claimKind: scientific
+      claimType: topology
+      statement: Lungfish EST sequences contribute an explicit phylogenomic test of living lungfish placement among jawed vertebrates. The EST sample neither dates the lungfish fossil record nor establishes an exact Dipnoi origin or direct ancestry.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond the EST sample neither dates the lungfish fossil record nor establishes an exact Dipnoi origin or direct ancestry.
+      referenceLinks:
+        - relation: supports
+          referenceId: hallstrom-janke-2009-lungfish-est
+          pages: 463–471
+          figure: Figures 1–4; supplementary alignments
+          quoteLocator: EST dataset; phylogenomic analyses; topology tests
+    - subjectId: taxon:dipnoi
+      claimKind: scientific
+      claimType: divergence-time
+      statement: The calibrated bony-fish clock placed the lineage containing living lungfishes and tetrapods on the 409 Ma side of the coelacanth split; the 409 Ma–present route is model-based, not a Dipnoi fossil range.
+      confidence: medium
+      confidenceRationale: "Living lungfish lineage divergence model: the cited primary study or systematic review directly supports the stated sample, calibration or withholding boundary at the supplied locator. Confidence is medium and does not extend to a global FAD, LAD, direct ancestor or unsampled interval."
+      referenceLinks:
+        - relation: supports
+          referenceId: broughton-2013-bony-fish-tempo
+          pages: Article 2ca8041495ffafd0c92756e75247483e
+          figure: Figures 1–3; time-calibrated phylogeny
+          quoteLocator: Timescale of bony-fish evolution; crown Sarcopterygii split
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - Living lungfish lineage divergence model：所引一手研究或高质量系统综述在给定页码、图表或章节处直接支持此处的样本、校准或暂缓边界。置信度为中等。该置信度不外推至全球首现、全球末现、直接祖先或未采样区间。
+  claim-statements.zh:
+    - 肺鱼 EST 序列为现生肺鱼在有颌脊椎动物中的位置提供了明确系统基因组检验。EST 样本既不给肺鱼化石记录定年，也不能确立肺鱼类精确起源或直接祖先。
+    - 校准后的硬骨鱼分子钟把包含现生肺鱼和四足动物的谱系置于约 4.09 亿年前腔棘鱼分化的一侧；4.09 亿年前至今的路线基于模型，不是肺鱼类化石延限。
+  ranges:
+    - entityId: dipnoi
+      rangeKind: global-composite
+      taxonomicConcept: Living lungfish lineage divergence model
+      geographicScope: Twenty-four-calibration bony-fish relaxed-clock analysis
+      olderMa: 409
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: 409 Ma is the model estimate for the coelacanth versus lungfish-plus-tetrapod split, not a Dipnoi fossil FAD.
+      evidenceBasis: The route preserves the model boundary and living endpoint without claiming a complete lungfish record.
+      confidence: medium
+      claimIds:
+        - claim:taxon:dipnoi:range-boundary
+      referenceLocators:
+        - referenceId: broughton-2013-bony-fish-tempo
+          locator: Article 2ca8041495ffafd0c92756e75247483e; Figures 1–3; time-calibrated phylogeny; Timescale of bony-fish evolution; crown Sarcopterygii split
+      evidenceLevel: literature-synthesized

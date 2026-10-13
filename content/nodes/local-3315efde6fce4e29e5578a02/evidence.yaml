@@ -1,0 +1,402 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Pseudacris cadaverina
+    name:
+      en: Pseudacris cadaverina
+      zh: Pseudacris cadaverina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: TadpoleTraits classification for Pseudacris cadaverina
+          zh: TadpoleTraits 对 Pseudacris cadaverina 的分类
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-3529c13a99
+            part: body
+          zh:
+            page: zh
+            section: s-90deb15e4d
+            part: body
+      - topic: morphology
+        title:
+          en: 0 literature rows and 2 image rows
+          zh: 0 条文献行与 2 条图像行
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-37624d3908
+            part: body
+          zh:
+            page: zh
+            section: s-45a45279d1
+            part: body
+      - topic: morphology
+        title:
+          en: Image proportions from row 1326
+          zh: 来源第 1326 行的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-e106699315
+            part: body
+          zh:
+            page: zh
+            section: s-65acda5fd4
+            part: body
+      - topic: overview
+        title:
+          en: 8 image ratio fields flagged for review
+          zh: 8 个图像比例字段需复核
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-e8899eef51
+            part: body
+          zh:
+            page: zh
+            section: s-a90947c65b
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1326, 1327; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Hylidae
+      genus: Pseudacris
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1326
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Black-and-white image
+          - Pseudacris cadaverina
+          - Hylidae
+          - Pseudacris
+          - Pseudacris cadaverina
+          - 31
+          - 34.7
+          - 11.178
+          - 24.022
+          - 7.37
+          - 7.514
+          - 3.336
+          - 2.836
+          - 2.335
+          - 7.771
+          - 2.784
+          - null
+          - 0.322132564841499
+          - 0.6922766576519
+          - 0.21239193835735
+          - 0.216541786743516
+          - 0.96138328532594
+          - 0.81729166282421
+          - 0.6729166282427
+          - 0.22394812681153
+          - 0.823547554323
+          - null
+          - Yanfang Song
+      - rowNumber: 1327
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Color image
+          - Pseudacris cadaverina
+          - Hylidae
+          - Pseudacris
+          - Pseudacris cadaverina
+          - 37
+          - 32
+          - 10.406
+          - 21.805
+          - 5.092
+          - 6.419
+          - 2.435
+          - 2.213
+          - 1.439
+          - null
+          - null
+          - null
+          - 0.3251875
+          - 0.6814625
+          - 0.159125
+          - 0.259375
+          - 0.769375
+          - 0.6915625
+          - 0.4496875
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1326
+        scientificName: Pseudacris cadaverina
+        sourceField: TMH/TL
+        suppliedRatio: 0.96138328532594
+        originalNumerator: 3.336
+        originalTotalLength: 34.7
+        computedRatio: 0.09613832853025936
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1326
+        scientificName: Pseudacris cadaverina
+        sourceField: DFH/TL
+        suppliedRatio: 0.81729166282421
+        originalNumerator: 2.836
+        originalTotalLength: 34.7
+        computedRatio: 0.08172910662824207
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1326
+        scientificName: Pseudacris cadaverina
+        sourceField: VFH/TL
+        suppliedRatio: 0.6729166282427
+        originalNumerator: 2.335
+        originalTotalLength: 34.7
+        computedRatio: 0.06729106628242074
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1326
+        scientificName: Pseudacris cadaverina
+        sourceField: TMW/TL
+        suppliedRatio: 0.823547554323
+        originalNumerator: 2.784
+        originalTotalLength: 34.7
+        computedRatio: 0.08023054755043227
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1327
+        scientificName: Pseudacris cadaverina
+        sourceField: MTH/TL
+        suppliedRatio: 0.259375
+        originalNumerator: 6.419
+        originalTotalLength: 32
+        computedRatio: 0.20059375
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1327
+        scientificName: Pseudacris cadaverina
+        sourceField: TMH/TL
+        suppliedRatio: 0.769375
+        originalNumerator: 2.435
+        originalTotalLength: 32
+        computedRatio: 0.07609375
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1327
+        scientificName: Pseudacris cadaverina
+        sourceField: DFH/TL
+        suppliedRatio: 0.6915625
+        originalNumerator: 2.213
+        originalTotalLength: 32
+        computedRatio: 0.06915625
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1327
+        scientificName: Pseudacris cadaverina
+        sourceField: VFH/TL
+        suppliedRatio: 0.4496875
+        originalNumerator: 1.439
+        originalTotalLength: 32
+        computedRatio: 0.04496875
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.322132564841499
+        row: 1326
+        stage: 31
+        type: Measurement
+        imageType: Black-and-white image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.6922766576519
+        row: 1326
+        stage: 31
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.21239193835735
+        row: 1326
+        stage: 31
+        type: Measurement
+        imageType: Black-and-white image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.216541786743516
+        row: 1326
+        stage: 31
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.22394812681153
+        row: 1326
+        stage: 31
+        type: Measurement
+        imageType: Black-and-white image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4NH9C
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

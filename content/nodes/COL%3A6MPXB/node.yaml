@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius nasicus
+  displayName: Hyperolius nasicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MPXB
+  sourceIndexes:
+    - name:
+        en: Hyperolius nasicus
+        zh: Hyperolius nasicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MPXB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/296
+            queryName: Hyperolius nasicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/53
+            queryName: Hyperolius nasutus nasicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d94f83bf05
+      - s-bcd3176073
+      - s-57d0ed917b
+      - s-565bce6d74
+      - s-9af4b4a484
+      - s-b91a6e4646
+      - s-a437cc171f
+      - s-4b4d008d88
+    zh:
+      - s-d80cef879e
+      - s-490f0d522c
+      - s-617dffcd53
+      - s-25b280f16e
+      - s-819943bd9f
+      - s-9fe847fd70
+      - s-f4f0a1332c
+      - s-445abc2145

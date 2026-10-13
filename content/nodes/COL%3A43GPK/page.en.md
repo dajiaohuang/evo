@@ -1,0 +1,3 @@
+## ## Retrorse prickles and hairy corolla lobes {#s-ad15bddd2c}
+The Brazilian Flora 2020 entry lists stems as glabrous or pilose, with spreading simple hairs and capitate glandular hairs. Prickles are retrorse, either scattered or between nodes; setae and short shoots are absent. The stipules are shed, extrafloral nectaries are absent, and projections between pinna pairs may be present or absent. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four or five perianth parts, a membranous calyx with triangular lobes, and hairy corolla lobes with one to three veins. The androecium is diplostemonous, with white filaments. The habitat field says “terrestrial” but gives no locality or finer habitat description.
+

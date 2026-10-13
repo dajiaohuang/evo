@@ -1,0 +1,278 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gegeneophis orientalis
+    name:
+      en: Gegeneophis orientalis
+      zh: Gegeneophis orientalis
+    sourceClassification:
+      order: Gymnophiona
+      family: Grandisoniidae
+      genus: Gegeneophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1581414674
+            part: body
+          zh:
+            page: zh
+            section: s-6a4cd0a1d5
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-155ca338ab
+            part: body
+          zh:
+            page: zh
+            section: s-a3e039cb47
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Deposited annulus counts
+          zh: 存档的环褶计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-c04c93b400
+            part: body
+          zh:
+            page: zh
+            section: s-5322da9b57
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 57, 58; Reference.csv rows 4407
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 57
+        values:
+          - Grandisoniidae
+          - Gegeneophis
+          - Gegeneophis orientalis
+          - M
+          - "192"
+          - "1.416666667"
+          - NA
+          - NA
+          - "7.242857143"
+          - NA
+          - NA
+          - "104.7142857"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.714285714"
+          - NA
+          - NA
+          - "5.885714286"
+          - NA
+          - "1.242857143"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.757142857"
+          - NA
+          - "1.4"
+          - NA
+          - "2.157142857"
+          - NA
+          - NA
+          - NA
+          - "5.157142857"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 58
+        values:
+          - Grandisoniidae
+          - Gegeneophis
+          - Gegeneophis orientalis
+          - F
+          - "193"
+          - "1.45"
+          - NA
+          - NA
+          - "6.6"
+          - NA
+          - NA
+          - "105.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.05"
+          - NA
+          - NA
+          - "5.25"
+          - NA
+          - "1.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.45"
+          - NA
+          - "1.35"
+          - NA
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - "4.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4407
+        values:
+          - Gymnophiona
+          - Gegeneophis_orientalis
+          - "Agarwal, I., Wilkinson, M., Mohapatra, P. P., Dutta, S. K., Giri, V. B., & Gower, D. J. (2013). The first teresomatan caecilian (Amphibia: Gymnophiona) from the Eastern Ghats of India-a new species of Gegeneophis Peters, 1880. Zootaxa, 3693(4), 534-546. https://doi.org/10.11646/zootaxa.3693.4.7"
+    availableTraitCodes:
+      - TOL
+      - TL
+      - STFG
+      - TA1
+      - HW1
+      - BW2
+      - IND
+      - ITD
+      - TN
+      - TS
+      - SJ
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3FGJQ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

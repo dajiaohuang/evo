@@ -1,0 +1,270 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tepuihyla Ayarzagüena, Señaris & Gorzula, 1993
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Tepuihyla
+      zh: Tepuihyla
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-35becc9ad0
+            part: title
+          zh:
+            page: zh
+            section: s-5eaa22cdca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-35becc9ad0
+            part: body
+          zh:
+            page: zh
+            section: s-5eaa22cdca
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4c262847da
+            part: title
+          zh:
+            page: zh
+            section: s-700ef6e949
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4c262847da
+            part: body
+          zh:
+            page: zh
+            section: s-700ef6e949
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-80dbcd938c
+            part: title
+          zh:
+            page: zh
+            section: s-526ef6d7e8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-80dbcd938c
+            part: body
+          zh:
+            page: zh
+            section: s-526ef6d7e8
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-1ded20ecb1
+            part: title
+          zh:
+            page: zh
+            section: s-10a14bc396
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1ded20ecb1
+            part: body
+          zh:
+            page: zh
+            section: s-10a14bc396
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-bd1aecf7b0
+            part: title
+          zh:
+            page: zh
+            section: s-5d5732554e
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 7BQD5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7BQD5
+            label:
+              en: Tepuihyla aecii
+              zh: Tepuihyla aecii
+          - kind: catalogue
+            colId: 7C2D5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7C2D5
+            label:
+              en: Tepuihyla edelcae
+              zh: Tepuihyla edelcae
+          - kind: catalogue
+            colId: 7BQCQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7BQCQ
+            label:
+              en: Tepuihyla exophthalma
+              zh: Tepuihyla exophthalma
+          - kind: catalogue
+            colId: 7C2D2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7C2D2
+            label:
+              en: Tepuihyla luteolabris
+              zh: Tepuihyla luteolabris
+          - kind: catalogue
+            colId: 7BQCR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7BQCR
+            label:
+              en: Tepuihyla obscura
+              zh: Tepuihyla obscura
+          - kind: catalogue
+            colId: 7C2D3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7C2D3
+            label:
+              en: Tepuihyla rodriguezi
+              zh: Tepuihyla rodriguezi
+          - kind: catalogue
+            colId: 7BQCP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7BQCP
+            label:
+              en: Tepuihyla shushupe
+              zh: Tepuihyla shushupe
+          - kind: catalogue
+            colId: 7BQCM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7BQCM
+            label:
+              en: Tepuihyla tuberculosa
+              zh: Tepuihyla tuberculosa
+          - kind: catalogue
+            colId: 7C2CM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7C2CM
+            label:
+              en: Tepuihyla warreni
+              zh: Tepuihyla warreni
+        text:
+          en:
+            page: en
+            section: s-bd1aecf7b0
+            part: body
+          zh:
+            page: zh
+            section: s-5d5732554e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tepuihyla
+          url: https://www.checklistbank.org/dataset/316115/taxon/7TXG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Tepuihyla; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7942df5f13
+        part: body
+      zh:
+        page: zh
+        section: s-5f27a5819b
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Tepuihyla
+      sourceRowIds:
+        - Anf2731
+        - Anf2732
+        - Anf2733
+        - Anf2734
+        - Anf2735
+        - Anf2736
+        - Anf2737
+        - Anf2738
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 7
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 6
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 8
+      currentConceptEquivalenceCertified: false

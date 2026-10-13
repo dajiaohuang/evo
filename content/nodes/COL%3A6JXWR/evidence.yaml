@@ -1,0 +1,477 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gastrotheca elicioi Carvajal-Endara, Coloma, Morales-Mite, Guayasamin, Székely & Duellman, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Gastrotheca elicioi
+      zh: Gastrotheca elicioi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-54102cfe82
+            part: title
+          zh:
+            page: zh
+            section: s-17138270d1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-54102cfe82
+            part: body
+          zh:
+            page: zh
+            section: s-17138270d1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4d1135342a
+            part: title
+          zh:
+            page: zh
+            section: s-1de669f4c1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4d1135342a
+            part: body
+          zh:
+            page: zh
+            section: s-1de669f4c1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a2447e0029
+            part: title
+          zh:
+            page: zh
+            section: s-68eb53b509
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-a2447e0029
+            part: body
+          zh:
+            page: zh
+            section: s-68eb53b509
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-1ac8a7264462deafc2310b35
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-052ec213066da9d40103ffca
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e0a4cd7843
+            part: title
+          zh:
+            page: zh
+            section: s-8997eec25c
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-e0a4cd7843
+            part: body
+          zh:
+            page: zh
+            section: s-8997eec25c
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-83aee57a47
+            part: title
+          zh:
+            page: zh
+            section: s-dd3cf04d05
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-83aee57a47
+            part: body
+          zh:
+            page: zh
+            section: s-dd3cf04d05
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2be211cf6e
+            part: title
+          zh:
+            page: zh
+            section: s-c5fc839a2e
+            part: title
+        sourceIds:
+          - primary-pmc7482940-6jxwr
+        text:
+          en:
+            page: en
+            section: s-2be211cf6e
+            part: body
+          zh:
+            page: zh
+            section: s-c5fc839a2e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ff841d2906
+            part: title
+          zh:
+            page: zh
+            section: s-0454716273
+            part: title
+        sourceIds:
+          - primary-pmc7482940-6jxwr
+        text:
+          en:
+            page: en
+            section: s-ff841d2906
+            part: body
+          zh:
+            page: zh
+            section: s-0454716273
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-7f21982dfc
+            part: title
+          zh:
+            page: zh
+            section: s-b8c1c4a3fd
+            part: title
+        sourceIds:
+          - primary-pmc7482940-6jxwr
+        text:
+          en:
+            page: en
+            section: s-7f21982dfc
+            part: body
+          zh:
+            page: zh
+            section: s-b8c1c4a3fd
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-4ad4b6d84f
+            part: title
+          zh:
+            page: zh
+            section: s-3d0b650b67
+            part: title
+        sourceIds:
+          - primary-pmc7482940-6jxwr
+        text:
+          en:
+            page: en
+            section: s-4ad4b6d84f
+            part: body
+          zh:
+            page: zh
+            section: s-3d0b650b67
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-14a075b0de
+            part: title
+          zh:
+            page: zh
+            section: s-94887b81c8
+            part: title
+        sourceIds:
+          - primary-pmc7482940-6jxwr
+        text:
+          en:
+            page: en
+            section: s-14a075b0de
+            part: body
+          zh:
+            page: zh
+            section: s-94887b81c8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gastrotheca elicioi
+          url: https://www.checklistbank.org/dataset/316115/taxon/6JXWR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1515, 1516, 1517, 1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525, 1526, 1527; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1888, 1889; Reference.csv rows 3675
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc7482940-6jxwr
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Gastrotheca elicioi: Complete Methods and named focal/other treatments plus Discussion and allmainTables1–3; allnonemptyS4 acoustic andS5inventory cells independently read; DOCXappendix/S1primers/S2accessions andS3distance cells extracted but not scientifically authenticated; originalaudio/sequencealignments/voucher specimens/figurepixels unreviewed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-35142050d6
+        part: body
+      zh:
+        page: zh
+        section: s-d4c7f013d1
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-1ac8a7264462deafc2310b35
+        scientificName: Gastrotheca elicioi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-052ec213066da9d40103ffca
+        scientificName: Gastrotheca elicioi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0238306
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        sourceKey: primary-pmc7482940-6jxwr
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/article.xml
+        sourceConcept: 2020 Abra de Zamora treatment under Gastrotheca elicioi; exact frozen-name match is not full concept authentication
+        evidenceRead: "Gastrotheca elicioi: Complete Methods and named focal/other treatments plus Discussion and allmainTables1–3; allnonemptyS4 acoustic andS5inventory cells independently read; DOCXappendix/S1primers/S2accessions andS3distance cells extracted but not scientifically authenticated; originalaudio/sequencealignments/voucher specimens/figurepixels unreviewed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A local comparison with lojana
+              zh: 与lojana的当地比较
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-6jxwr
+            locator: PMC7482940 XMLsec016 Gastrotheca elicioi identification/type account
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e13a2db579
+                part: body
+              zh:
+                page: zh
+                section: s-21b6cb8843
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Short notes precede the longer pulsed notes
+              zh: 短音在较长脉冲音之前
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-6jxwr
+            locator: PMC7482940 XMLsec016 Gastrotheca elicioi remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-575e218ccd
+                part: body
+              zh:
+                page: zh
+                section: s-3e1c46e187
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Western-slope forest and nearby Loja
+              zh: 西坡森林及Loja附近
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-6jxwr
+            locator: PMC7482940 XMLsec016 Gastrotheca elicioi scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-06513c5388
+                part: body
+              zh:
+                page: zh
+                section: s-dd1e89059b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: How the local encounters were recorded
+              zh: 当地遇见如何记录
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-6jxwr
+            locator: PMC7482940 XMLsec004 fieldwork/detection definitions; sec019 regional threats
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d1360dfbee
+                part: body
+              zh:
+                page: zh
+                section: s-67261d1208
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: range
+            heading:
+              en: The supplementary inventory retains its2020 scope
+              zh: 补充名录保留2020年范围
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-6jxwr
+            locator: PMC7482940 supplementaryS5 pone.0238306.s006.xlsx sheet Abra de Zamora species B7:F7;sha256:c64b782eab38c2f0dc00773213d31df57d5e0f8c9c2c0c1697b6064ab4a82da4;main treatmentGastrotheca elicioi
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a2c48752ee
+                part: body
+              zh:
+                page: zh
+                section: s-893930fca5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

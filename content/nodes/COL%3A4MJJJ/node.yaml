@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis mutabilis
+  displayName: Pristimantis mutabilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJJ
+  sourceIndexes:
+    - name:
+        en: Pristimantis mutabilis
+        zh: Pristimantis mutabilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/428
+            queryName: Pristimantis mutabilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-68d37fa691
+      - s-78b49203fe
+      - s-4e9b70bef1
+      - s-7ed181875f
+      - s-e2410d2d4d
+      - s-137f4e80e8
+      - s-ee37bc5a91
+      - s-8990893331
+      - s-955c3eeb3f
+      - s-ec2da07494
+      - s-d269baad26
+      - s-4671373118
+      - s-11efe6cb30
+      - s-3ee058f2be
+      - s-78d10ee78f
+      - s-8ce31ef23e
+      - s-72fb12485f
+      - s-6d64a6fc76
+      - s-0a9cad45c7
+      - s-53d9bef0d8
+      - s-5a7e0e5626
+    zh:
+      - s-6eb595a47c
+      - s-c88dea83a2
+      - s-3601785e91
+      - s-ff0e7fb3c9
+      - s-594f9411b2
+      - s-5fe6d661bb
+      - s-1d1b913342
+      - s-1498825208
+      - s-6afdf1bd23
+      - s-a1ecdf31be
+      - s-8820495c32
+      - s-5bcc7b0696
+      - s-fca4e599e5
+      - s-8dc03842d2
+      - s-76f292c4e5
+      - s-fc29ef47f4
+      - s-dbfc326123
+      - s-024e0a839e
+      - s-7f79c51f52
+      - s-35344b673a
+      - s-cf6d2ef2de

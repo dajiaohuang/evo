@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana blanfordii
+  displayName: Nanorana blanfordii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6S4LH
+  sourceIndexes:
+    - name:
+        en: Nanorana blanfordii
+        zh: Nanorana blanfordii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6S4LH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/167
+            queryName: Nanorana blanfordii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/482
+            queryName: Paa blanfordii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/306
+            queryName: Rana blanfordii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/307
+            queryName: Rana yadongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/224
+            queryName: Chaparana blanfordii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/225
+            queryName: Paa yadongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/272
+            queryName: Nanorana blandfordii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6875436339
+      - s-ae7aee1c05
+      - s-518f289cb0
+      - s-b2f4ca2803
+      - s-c1c780e7b4
+      - s-46dca144c5
+      - s-7deb48c605
+      - s-774e68375a
+      - s-2663a91dea
+      - s-3079d3b21d
+      - s-6f6da56fe3
+      - s-4a69b0b215
+      - s-3bb53647d6
+    zh:
+      - s-0cd4e95b7e
+      - s-ab38556ff4
+      - s-ab9c7a3c0d
+      - s-081b63ea25
+      - s-020d6b185f
+      - s-cf4dbd47d5
+      - s-a8407c7478
+      - s-c5a0c83bb9
+      - s-2edd710510
+      - s-78483f2e31
+      - s-003f03e6d7
+      - s-000ff77be3
+      - s-9323081bb2

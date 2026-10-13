@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus longipes
+  displayName: Xenopus longipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBCC
+  sourceIndexes:
+    - name:
+        en: Xenopus longipes
+        zh: Xenopus longipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBCC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/319
+            queryName: Xenopus longipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 29
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da74650f5b
+      - s-4fc0c91171
+      - s-f0698dbbda
+      - s-59e89203f5
+      - s-a56e112629
+      - s-92285aaad1
+      - s-f7db4f0c8f
+      - s-aa32171e96
+      - s-845b1eb2cb
+    zh:
+      - s-9074478a63
+      - s-2909f1818e
+      - s-79d543b4e6
+      - s-314ee3e4cc
+      - s-97baba82e7
+      - s-c906ee6f69
+      - s-e5f10e672c
+      - s-f9f444c584
+      - s-06a76b4ae3

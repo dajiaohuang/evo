@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Nigerpeton ricqlesi
+    rank: species
+    sourceTaxonId: txn:91477
+    name:
+      en: Nigerpeton ricqlesi
+      zh: Nigerpeton ricqlesi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-87d97ab9ff
+            part: body
+          zh:
+            page: zh
+            section: s-155d146e27
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-86948cc54f
+            part: body
+          zh:
+            page: zh
+            section: s-174e31a830
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-40b4177dc1
+            part: body
+          zh:
+            page: zh
+            section: s-dca6852e3d
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:91477; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: C. A. Sidor, F. R. O'Keefe, and R. Damiani, J. S. Steyer, R. M. H. Smith, H. C. E. Larsson, P. C. Sereno, O. Ide, A. Maga. 2005. Permian tetrapods from the Sahara show climate-controlled endemism in Pangaea. Nature 434:886-889
+    occurrenceEvidence:
+      - occurrenceId: occ:632372
+        collectionId: col:68054
+        acceptedTaxonId: txn:91477
+        identifiedName: Nigerpeton ricqlesi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:28482
+        bibliography: "J. S. Steyer, R. Damiani, and C. A. Sidor, F. R. O.'Keefe, H. C. E. Larsson, A. Maga, O. Ide. 2006. The Vertebrate Fauna of the Upper Permian of Niger. IV. Nigerpeton ricqlesi (Temnospondyli: Cochleosauridae), and the Edopoid Colonization of Gondwana. Journal of Vertebrate Paleontology 26(1):18-28"
+        locality:
+          countryCode: NE
+          stateProvince: Agadez
+          county: Arlit
+        stratigraphy:
+          group: Izégouandane
+          formation: Moradi
+          member: null
+        olderAgeMa: 254.14
+        youngerAgeMa: 251.902
+      - occurrenceId: occ:789101
+        collectionId: col:68053
+        acceptedTaxonId: txn:91477
+        taxonomicDifference: null
+        referenceId: ref:28482
+        bibliography: "J. S. Steyer, R. Damiani, and C. A. Sidor, F. R. O.'Keefe, H. C. E. Larsson, A. Maga, O. Ide. 2006. The Vertebrate Fauna of the Upper Permian of Niger. IV. Nigerpeton ricqlesi (Temnospondyli: Cochleosauridae), and the Edopoid Colonization of Gondwana. Journal of Vertebrate Paleontology 26(1):18-28"
+        locality:
+          countryCode: NE
+          stateProvince: Agadez
+          county: Arlit
+        stratigraphy:
+          group: Izégouandane
+          formation: Moradi
+          member: null
+        olderAgeMa: 254.14
+        youngerAgeMa: 251.902
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-40b4177dc1
+            part: body
+          zh:
+            page: zh
+            section: s-dca6852e3d
+            part: body
+        sourceIds: []

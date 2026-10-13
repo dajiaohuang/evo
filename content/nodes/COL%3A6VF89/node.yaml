@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllobates terribilis
+  displayName: Phyllobates terribilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VF89
+  sourceIndexes:
+    - name:
+        en: Phyllobates terribilis
+        zh: Phyllobates terribilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VF89
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/249
+            queryName: Phyllobates terribilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 64
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b34aec7173
+      - s-07127e0af7
+      - s-b4c4a7f972
+      - s-9d4be13472
+      - s-f385bd8cf2
+      - s-fa325b3360
+      - s-7b95e31688
+      - s-89aa99cfe4
+      - s-0c9134041d
+      - s-795969274b
+      - s-39a1da96a8
+      - s-f8b6da2222
+    zh:
+      - s-09f46e4570
+      - s-6ca90f6179
+      - s-056d2f8684
+      - s-775c427a7b
+      - s-109d34af9e
+      - s-b14e9ea4ed
+      - s-ec5aeafde4
+      - s-c2783a55e8
+      - s-262b9fe6e6
+      - s-642df13793
+      - s-f459992f9a
+      - s-91c9402593

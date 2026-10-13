@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne parkopanorum
+  displayName: Oreophryne parkopanorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6STXX
+  sourceIndexes:
+    - name:
+        en: Oreophryne parkopanorum
+        zh: Oreophryne parkopanorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6STXX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/287
+            queryName: Oreophryne parkopanorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0b88254011
+      - s-8ef21d5068
+      - s-b8b1da81f5
+      - s-10450344a1
+      - s-7d05fdcdb9
+      - s-3b5f716b04
+      - s-8cf2a06a96
+    zh:
+      - s-07b614559e
+      - s-b16560b106
+      - s-80a17334a5
+      - s-3be14ea79b
+      - s-a49343ded7
+      - s-de77611088
+      - s-1746b4b1e7

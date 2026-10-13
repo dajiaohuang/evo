@@ -1,0 +1,55 @@
+## Accepted name and placement {#s-c9a3b13c36}
+COL26.8 accepts Cacosternum boettgeri (Boulenger, 1882) as a species. Its recorded classification places it along Anura (order) → Pyxicephalidae (family) → Cacosternum (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-1a91271829}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Foraging strata — AmphiBIO source {#s-0782b5ba22}
+Historical source concept: Cacosternum boettgeri, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags terrestrial; aquatic; arboreal as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Compiled adult dimensions — AmphiBIO source {#s-7e6e2de6c0}
+Historical source concept: Cacosternum boettgeri, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum adult body length: 26 mm. Body length means snout–vent length for Anura and total length for Caudata and Gymnophiona. These are compiled maximum adult values, not measurements of every individual.
+
+## Compiled life history — AmphiBIO source {#s-41a3aba0ce}
+Historical source concept: Cacosternum boettgeri, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports minimum number of offspring or eggs per clutch: 250 individuals/eggs; maximum number of offspring or eggs per clutch: 250 individuals/eggs; maximum reproductive events per year: 1 events/year. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+
+## Developmental strategy — AmphiBIO source {#s-325dc74023}
+Historical source concept: Cacosternum boettgeri, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The deposited record flags a larval stage. These source categories do not by themselves describe parental care, breeding location or seasonal timing.
+
+## Related source records and datasets {#s-8b49e1c0a4}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Cacosternum boettgeri](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Pyxicephalidae/Cacosternum/Cacosternum_boettgeri/page.en.md)
+- [TadpoleTraits v4: Cacosternum boettgeri](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Pyxicephalidae/Cacosternum/Cacosternum_boettgeri/page.en.md)
+- [Amphibian morphology v3: Cacosternum boettgeri](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Pyxicephalidae/Cacosternum/Cacosternum_boettgeri/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-c95e04b40d}
+Deposited source concept: Cacosternum boettgeri, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 0 literature-derived rows and 1 image-derived rows for this source concept. Supplied stage entries are 27 (Judging based on the picture). Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Selected image-derived proportions — TadpoleTraits source {#s-8c03b200e9}
+Deposited source concept: Cacosternum boettgeri, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The image-data source reports body length / total length = 0.364088 (source row 212, stage 27 (Judging based on the picture)); tail length / total length = 0.639614 (source row 212, stage 27 (Judging based on the picture)); maximum body height / total length = 0.198702 (source row 212, stage 27 (Judging based on the picture)); maximum tail height / total length = 0.225918 (source row 212, stage 27 (Judging based on the picture)); tail muscle height / total length = 0.0545874 (source row 212, stage 27 (Judging based on the picture)). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+
+## Sex-specific measurement material — Amphibian morphology source {#s-35bacd8a06}
+Deposited source concept: Cacosternum boettgeri, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 1 rows and 9 populated trait columns for this source concept. Recorded sex codes are NA: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
+
+## A published isiZulu name and its provenance {#s-3aaaad6440}
+Table1 pairs Cacosternum boettgeri with the isiZulu name “Isele elithambile elijwayelekile”. Within this study's compilation, it is one of the 30 names the authors formulated by expanding the documented naming vocabulary. This is a published vernacular naming proposal or revision. It is not evidence that workshop participants already used this exact species-specific phrase, nor a scientific synonym governed by zoological nomenclature. Spelling is retained from the table, with its superscript provenance marker kept separate from the name.
+
+## Workshop vocabulary and later species naming {#s-ec5e985b7d}
+The underlying workshop used an opportunity sample of 13 volunteer native isiZulu speakers, aged18–55, from five Zululand areas: ten participants on28November and three on1December2016 at Tembe Elephant Park. Participants viewed frog photographs and discussed names collectively, resolving disagreements by discussion. The six broad names elicited during the workshop did not individually distinguish all58 species. Species-level names were assigned afterwards with Bongani Mkhize, combining this vocabulary with earlier published names and naming guidelines. These group discussions do not supply independent per-person frequencies, dialect-wide agreement, or a test of recognition accuracy for Cacosternum boettgeri.
+
+## What a local naming category can establish {#s-9d8782abf9}
+The study distinguishes broad folk categories from the scientific species labels used in the compilation. Several folk categories span multiple scientific genera or families; their correspondence was assessed within this regional set, not across all African amphibians. Names referring to habitat, appearance, locality or calls are linguistic choices in this naming exercise. Their wording alone is not a new measurement of habitat preference, coloration, acoustic behavior or geographic restriction for Cacosternum boettgeri. The2019 table is also not a current occupancy survey or an exhaustive present-day Zululand checklist. No independent linguistic validation or current community-usage survey is claimed here.
+
+## catalogue-profile / limitations {#s-f18099d4e6}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-8926d4cd3f}
+Table1 pairs Cacosternum boettgeri with the isiZulu name “Isele elithambile elijwayelekile”. Within this study's compilation, it is one of the 30 names the authors formulated by expanding the documented naming vocabulary. This is a published vernacular naming proposal or revision. It is not evidence that workshop participants already used this exact species-specific phrase, nor a scientific synonym governed by zoological nomenclature. Spelling is retained from the table, with its superscript provenance marker kept separate from the name.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-bf4ba50443}
+The underlying workshop used an opportunity sample of 13 volunteer native isiZulu speakers, aged18–55, from five Zululand areas: ten participants on28November and three on1December2016 at Tembe Elephant Park. Participants viewed frog photographs and discussed names collectively, resolving disagreements by discussion. The six broad names elicited during the workshop did not individually distinguish all58 species. Species-level names were assigned afterwards with Bongani Mkhize, combining this vocabulary with earlier published names and naming guidelines. These group discussions do not supply independent per-person frequencies, dialect-wide agreement, or a test of recognition accuracy for Cacosternum boettgeri.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-2183924a8c}
+The study distinguishes broad folk categories from the scientific species labels used in the compilation. Several folk categories span multiple scientific genera or families; their correspondence was assessed within this regional set, not across all African amphibians. Names referring to habitat, appearance, locality or calls are linguistic choices in this naming exercise. Their wording alone is not a new measurement of habitat preference, coloration, acoustic behavior or geographic restriction for Cacosternum boettgeri. The2019 table is also not a current occupancy survey or an exhaustive present-day Zululand checklist. No independent linguistic validation or current community-usage survey is claimed here.
+

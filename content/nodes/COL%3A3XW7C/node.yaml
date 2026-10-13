@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella bernhardi
+  displayName: Mantella bernhardi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7C
+  sourceIndexes:
+    - name:
+        en: Mantella bernhardi
+        zh: Mantella bernhardi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/286
+            queryName: Mantella bernhardi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b2fd993e2
+      - s-c9705d3c04
+      - s-998e03df77
+      - s-e6264e323c
+      - s-c463af0ed0
+      - s-da87cb8728
+      - s-ca552ac1ea
+      - s-6c713d9f3e
+      - s-c6b7eec9da
+      - s-37f0f188ee
+      - s-00165d8584
+      - s-377bd542ff
+    zh:
+      - s-2eeefc4335
+      - s-7dc1b7e77c
+      - s-f23c804279
+      - s-f780bc354b
+      - s-e675587a6a
+      - s-6eb030f594
+      - s-fb9365fb7a
+      - s-d547bf0edc
+      - s-dfe5073b03
+      - s-e15697e9fa
+      - s-8941ff9a87
+      - s-a228e87672

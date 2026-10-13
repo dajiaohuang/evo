@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oscaecilia polyzona
+  displayName: Oscaecilia polyzona
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74Z3L
+  sourceIndexes:
+    - name:
+        en: Oscaecilia polyzona
+        zh: Oscaecilia polyzona
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74Z3L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/322
+            queryName: Oscaecilia polyzona
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/387
+            queryName: Caecilia polyzona
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c4c4b7b82e
+      - s-3397e37a05
+      - s-39fa59b890
+      - s-58584b174f
+      - s-2654e2effe
+      - s-8a246cfc6e
+      - s-c6faa5bfd5
+      - s-20a3c6e8c5
+    zh:
+      - s-86d1e78bc8
+      - s-4d35bdad49
+      - s-39b00f20fd
+      - s-d6e9116bd7
+      - s-501d0845cc
+      - s-7b124bb1f9
+      - s-24880326cd
+      - s-3b9be4c97a

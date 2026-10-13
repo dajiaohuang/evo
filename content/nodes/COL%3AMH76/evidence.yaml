@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bonatea porrecta (Bolus) Summerh.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage MH76, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage MH76; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/MH76
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage MH76
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000349917-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL MH76 / WFO wfo-0000349917
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          locator: Bonatea porrecta (Bolus) Summerh. account; SANBI/WFO archive rows 536 (Morphology), 12965 (Habitat), source identifier 11118.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_6866_0
+        referenceId: ref-e60d1981-ead2-80ef-a85e-27877776447d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bonatea porrecta (Bolus) Summerh. account; SANBI/WFO archive rows 76901 (Diagnostic), source identifier 6866.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: A fairly robust, leafy herb, up to 0.65 m high. Leaves withered at flowering time in midwinter, narrowly oblong, up to 110 mm long. Spur swollen towards apex, 30-35 mm long. Flowers green and white.
+            textZh: Bonatea porrecta (Bolus) Summerh. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Morphology row 536; source identifier 11118.0; cited publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: B. porrecta was found to be embedded within the B. speciosa complex (traditionally comprising Bonatea antennifera Rolfe, B. boltonii and B. speciosa). B. porrecta is sympatric with all three taxa but differs in having the leaves withered at flowering time. B. porrecta resembles B. boltonii in flower size, the horizontally spreading lower petal lobes, and spur morphology (both species average 35 mm for total spur length and 11 mm for the clavate apex). The rostellum in B. porrecta is however diminutive (2-5 mm vs 5-9 mm), with the free portion of the rostellum lateral lobes 2.0-5.5 mm (vs 2.0-3.5 mm for B. boltonii) and generally >/= the length of the rostellum median lobe. The stigmatic processes are also predominantly clavate for B. porrecta and spathulate for B. boltonii. B. porrecta can also be confused with B. saundersioides, which has a similar perianth and may also have the leaves dry at flowering. It differs in the erect (vs sub-erect) dorsal sepal, straight spur with a clavate apex 1/4-1/3 of spur length (vs curved spur with clavate apex 1/2-2/3 of spur length). In addition, the rostellum lateral lobes of B. saundersioides are shorter than the median rostellum lobe.
+            textZh: SANBI 条目提供了 Bonatea porrecta (Bolus) Summerh. 的鉴别特征。
+            sourceIds:
+              - sanbi_6866_0
+            locator: "SANBI/WFO archive Diagnostic row 76901; source identifier 6866.0; cited publication: Ponsie, ME; Edwards, TJ; Johnson, SD. 2007. A taxonomic revision of Bonatea Willd. (Orchidaceae: Orchidoideae: Habenariinae). S. African J. Bot. 73: 1 - 21. [Copyright held by the South African Association of Botanists (2007); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassland and scrub.
+            textZh: 该 SANBI 区域物种条目记录的生境：Grassland and scrub.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Habitat row 12965; source identifier 11118.0; cited publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

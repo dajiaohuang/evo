@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gegeneophis orientalis
+  displayName: Gegeneophis orientalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FGJQ
+  sourceIndexes:
+    - name:
+        en: Gegeneophis orientalis
+        zh: Gegeneophis orientalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FGJQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/93
+            queryName: Gegeneophis orientalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a7cb6c3cf2
+      - s-8525150053
+      - s-f2f6cd011c
+      - s-c3f91f13f0
+      - s-54f1cc8eda
+      - s-1b3d8f167d
+      - s-507044580b
+      - s-f5ff1fc6bf
+      - s-e61ced508d
+      - s-84fe8eaba9
+    zh:
+      - s-4dde53f66b
+      - s-1f35504a4b
+      - s-9a88ff2893
+      - s-b3f596b102
+      - s-a8ceb171e0
+      - s-67a2937cd2
+      - s-2e3946f29e
+      - s-77c1c5dfd2
+      - s-e58571a43f
+      - s-55c67632c6

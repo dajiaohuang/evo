@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus chami
+  displayName: Nymphargus chami
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74D2M
+  sourceIndexes:
+    - name:
+        en: Nymphargus chami
+        zh: Nymphargus chami
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74D2M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/421
+            queryName: Nymphargus chami
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/493
+            queryName: Cochranella chami
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-024fbc46b6
+      - s-c06baeb3cf
+      - s-93a0186028
+      - s-5d98531d0f
+      - s-33cf28805e
+      - s-34cbc10255
+      - s-1de87c452f
+      - s-39f5465e30
+      - s-700c2f41d7
+      - s-31188d7ab4
+      - s-a4c386857f
+      - s-7be1aed256
+      - s-f95d5f8ee5
+    zh:
+      - s-8a51b2816e
+      - s-8f99458f9d
+      - s-e489a86ae0
+      - s-575cbb6e17
+      - s-c398329077
+      - s-de39cd9a41
+      - s-ccfef88149
+      - s-bf3808ce53
+      - s-097a3dff3b
+      - s-d63eb00c19
+      - s-0ada997dfd
+      - s-7c51441b85
+      - s-b10be7a263

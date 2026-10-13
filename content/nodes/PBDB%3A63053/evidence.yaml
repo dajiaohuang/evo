@@ -1,0 +1,154 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Albanerpetontidae
+    rank: family
+    sourceTaxonId: txn:63053
+    name:
+      en: Albanerpetontidae
+      zh: Albanerpetontidae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-7da0b4d8a2
+            part: body
+          zh:
+            page: zh
+            section: s-3e7029e85b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Material in the captured fossil roster
+          zh: 捕获化石名录中的材料
+        text:
+          en:
+            page: en
+            section: s-db1ac8d0f6
+            part: body
+          zh:
+            page: zh
+            section: s-ec43a23788
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-e245214554
+            part: body
+          zh:
+            page: zh
+            section: s-0a805ff958
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-ae80b7466a
+            part: body
+          zh:
+            page: zh
+            section: s-fb85b3233f
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:63053; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. C. Fox and B. G. Naylor. 1982. A reconsideration of the relationships of the fossil amphibian Albanerpeton. Canadian Journal of Earth Sciences 19:118-128
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:94182
+        - txn:94183
+        - txn:244724
+        - txn:156363
+        - txn:366952
+        - txn:156365
+        - txn:156366
+        - txn:114403
+        - txn:114401
+        - txn:254990
+        - txn:500579
+        - txn:114402
+        - txn:67753
+        - txn:246330
+        - txn:245182
+        - txn:173490
+        - txn:428409
+      exactOccurrenceCount: 125
+      datedOccurrenceCount: 125
+      collectionIntervalBoundsMa:
+        older: 168.2
+        younger: 1.8
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ae80b7466a
+            part: body
+          zh:
+            page: zh
+            section: s-fb85b3233f
+            part: body
+        sourceIds: []

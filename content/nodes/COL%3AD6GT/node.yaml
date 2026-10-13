@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amphiuma pholeter
+  displayName: Amphiuma pholeter
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/D6GT
+  sourceIndexes:
+    - name:
+        en: Amphiuma pholeter
+        zh: Amphiuma pholeter
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: D6GT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/426
+            queryName: Amphiuma pholeter
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-869db00871
+      - s-5993a0e0a3
+      - s-c3853653dd
+      - s-5d5ce2d0a7
+      - s-95f3ef66fb
+      - s-4559b70cb3
+      - s-ee1e3c921b
+      - s-f8e6b6306b
+      - s-06fc8a92dd
+      - s-35ba8d43ec
+      - s-18dadced88
+    zh:
+      - s-287caddc2c
+      - s-63726d0a8a
+      - s-0bb5c21077
+      - s-2737dec84d
+      - s-97d1aa1ecf
+      - s-b267f7f277
+      - s-acbc40673f
+      - s-cd566dc326
+      - s-7d2989e1b7
+      - s-a1cb436e07
+      - s-5ea08fd202

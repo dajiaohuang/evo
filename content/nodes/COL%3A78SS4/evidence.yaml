@@ -1,0 +1,483 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes ochlandrae (Gururaja, Dinesh, Palot, Radhakrishnan & Ramachandra, 2007)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes ochlandrae
+      zh: Raorchestes ochlandrae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a9078b814d
+            part: title
+          zh:
+            page: zh
+            section: s-07af226336
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a9078b814d
+            part: body
+          zh:
+            page: zh
+            section: s-07af226336
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-45351aeb8c
+            part: title
+          zh:
+            page: zh
+            section: s-d02188e1a0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-45351aeb8c
+            part: body
+          zh:
+            page: zh
+            section: s-d02188e1a0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1d6856e0c2
+            part: title
+          zh:
+            page: zh
+            section: s-4878b0d9c3
+            part: title
+        sourceIds:
+          - amphibio
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1d6856e0c2
+            part: body
+          zh:
+            page: zh
+            section: s-4878b0d9c3
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-19e237839995088562ba3a4387a0d40f
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-58f7ae8bdf02d59d5c2e1713
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-510860e5dd
+            part: title
+          zh:
+            page: zh
+            section: s-fb5151f83e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-510860e5dd
+            part: body
+          zh:
+            page: zh
+            section: s-fb5151f83e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-6c0f7c15b2
+            part: title
+          zh:
+            page: zh
+            section: s-a44cdea724
+            part: title
+        sourceIds:
+          - primary-pmc7936570-78ss4
+        text:
+          en:
+            page: en
+            section: s-6c0f7c15b2
+            part: body
+          zh:
+            page: zh
+            section: s-a44cdea724
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6c382f8e1b
+            part: title
+          zh:
+            page: zh
+            section: s-bd00069e5b
+            part: title
+        sourceIds:
+          - primary-pmc7936570-78ss4
+        text:
+          en:
+            page: en
+            section: s-6c382f8e1b
+            part: body
+          zh:
+            page: zh
+            section: s-bd00069e5b
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8a8e729956
+            part: title
+          zh:
+            page: zh
+            section: s-4d145fee42
+            part: title
+        sourceIds:
+          - primary-pmc10480065-78ss4
+        text:
+          en:
+            page: en
+            section: s-8a8e729956
+            part: body
+          zh:
+            page: zh
+            section: s-4d145fee42
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-42e48c6989
+            part: title
+          zh:
+            page: zh
+            section: s-339138bad6
+            part: title
+        sourceIds:
+          - primary-pmc10480065-78ss4
+        text:
+          en:
+            page: en
+            section: s-42e48c6989
+            part: body
+          zh:
+            page: zh
+            section: s-339138bad6
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-5d8c557fd4
+            part: title
+          zh:
+            page: zh
+            section: s-59cb404f1a
+            part: title
+        sourceIds:
+          - primary-pmc10480065-78ss4
+        text:
+          en:
+            page: en
+            section: s-5d8c557fd4
+            part: body
+          zh:
+            page: zh
+            section: s-59cb404f1a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes ochlandrae
+          url: https://www.checklistbank.org/dataset/316115/taxon/78SS4
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5274; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5277 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5312, 5313; Reference.csv rows 1284
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc7936570-78ss4
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes ochlandrae: Individually read species-specific acoustic comparison and table 2 species row 27, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10480065-78ss4
+        referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes ochlandrae: XML Sampling, CT processing, all Analysis, Results and Discussion paragraphs and Conclusions read; original meshes, landmark coordinates, supplementary specimen table and cited primary natural-history studies not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d23f828901
+        part: body
+      zh:
+        page: zh
+        section: s-9f44dca185
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-58f7ae8bdf02d59d5c2e1713
+        scientificName: Raorchestes ochlandrae
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-78ss4
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes ochlandrae
+        evidenceRead: "Raorchestes ochlandrae: Individually read species-specific acoustic comparison and table 2 species row 27, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: behavior
+            heading:
+              en: Species-specific call structure in the 2021 comparison
+              zh: 2021 年比较中的物种专属鸣声结构
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-78ss4
+            locator: PMC7936570 XML sec13 paragraph 25; table-2 species row 27 and adjacent rows for additional call types; sec7 paragraphs 1–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4a38e03f8f
+                part: body
+              zh:
+                page: zh
+                section: s-88439853bf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Reported calling height is an observation range
+              zh: 报告的鸣叫高度是观察范围
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-78ss4
+            locator: PMC7936570 XML table-2 species row 27; caption and calling-height column
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aab029e4f9
+                part: body
+              zh:
+                page: zh
+                section: s-351f7e587b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1002/ece3.10493
+        referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+        sourceKey: primary-pmc10480065-78ss4
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10480065/article.xml
+        sourceConcept: Raorchestes ochlandrae
+        evidenceRead: "Raorchestes ochlandrae: XML Sampling, CT processing, all Analysis, Results and Discussion paragraphs and Conclusions read; original meshes, landmark coordinates, supplementary specimen table and cited primary natural-history studies not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Bamboo-clade skulls in a single-male comparative sample
+              zh: 单雄比较样本中的竹栖支系头骨
+            referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+            sourceKey: primary-pmc10480065-78ss4
+            locator: PMC10480065 XML Sampling paragraph1; CT processing paragraph1; Analysis paragraphs1–2; Results paragraphs4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fd21d505c0
+                part: body
+              zh:
+                page: zh
+                section: s-03b344f8ee
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: A clade-specific history and model-dependent rate shift
+              zh: 支系特定历史及模型依赖速率转变
+            referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+            sourceKey: primary-pmc10480065-78ss4
+            locator: PMC10480065 XML Analysis paragraph3; Results paragraph7; Discussion paragraphs2,5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5657886fbc
+                part: body
+              zh:
+                page: zh
+                section: s-f5276c2e93
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Bamboo breeding context is cited rather than newly observed here
+              zh: 竹内繁殖背景为引用而非本研究新观察
+            referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+            sourceKey: primary-pmc10480065-78ss4
+            locator: PMC10480065 XML Results paragraph6; Discussion paragraphs1–3,7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7f0666169d
+                part: body
+              zh:
+                page: zh
+                section: s-5beafeb356
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

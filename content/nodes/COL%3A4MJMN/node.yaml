@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis repens
+  displayName: Pristimantis repens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJMN
+  sourceIndexes:
+    - name:
+        en: Pristimantis repens
+        zh: Pristimantis repens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJMN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/41
+            queryName: Pristimantis repens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/22
+            queryName: Eleutherodactylus repens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a4dfdb8eb
+      - s-f88c3ddab1
+      - s-7fdedbb801
+      - s-82b1433aa0
+      - s-55e78b201f
+      - s-d2f70b4a32
+      - s-b4764c783c
+      - s-a2315b3da6
+      - s-be803a4b0a
+      - s-02d2f17712
+      - s-c832c55d4f
+      - s-16c5b81e5c
+      - s-0351d6529b
+      - s-b1d6011e72
+      - s-4287fdd8d7
+      - s-1b2d685c41
+      - s-f0bc7c7bce
+      - s-fcf53c449c
+    zh:
+      - s-91be455f4f
+      - s-708fe44894
+      - s-f35c08db70
+      - s-2618516a78
+      - s-9a954586c4
+      - s-eef32775e3
+      - s-dc457685f9
+      - s-0a2b19f30a
+      - s-9d835750ac
+      - s-46ed43c9f2
+      - s-fa5863f544
+      - s-bf338a4c6e
+      - s-dfad66002c
+      - s-4d0f1af674
+      - s-52f131b762
+      - s-d1d34e082b
+      - s-7e97ca3959
+      - s-77fe21c7a6

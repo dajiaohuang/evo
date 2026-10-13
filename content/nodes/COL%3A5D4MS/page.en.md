@@ -1,0 +1,44 @@
+## Accepted name and placement {#s-7f491c9dc4}
+COL26.8 accepts Zhangixalus schlegelii (Günther, 1858) as a species. Its recorded classification places it along Anura (order) → Rhacophoridae (family) → Zhangixalus (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-6917edb129}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-94ec1bfbe1}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Rhacophorus schlegelii](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Rhacophoridae/Rhacophorus/Rhacophorus_schlegelii/page.en.md)
+
+## The source’s Rhacophorus name and detected sites retain context {#s-7808eb33d6}
+The study uses Rhacophorus schlegelii, while the pinned catalogue reader is Zhangixalus schlegelii; the source name is retained in evidence without an independently completed concept-mapping audit. Calling was detected at 35 of 104 sites in 2022 and 46 of 102 in 2023 in the three surveyed Japanese cities. Night visits at 19:00–24:00 lasted up to ten minutes and stopped early after detection; silence was coded absent. These are site-level detected calls, not frog abundance or confirmed breeding success. Two-year site and point changes, and unequal seasonal coverage, prevent treating the totals as repeated census of one fixed independent sample.
+
+## A hundred-metre forest buffer is an analysis scale {#s-6daa0c88bd}
+The landscape model reports positive association of calling occurrence with forest area within a 100 m radius, compared with 50 m for the other focal species. This is a selected spatial predictor, not a directly measured dispersal distance, home range or minimum forest strip. Models incorporated spatial correlation and a year random effect, and assessed competing forest/paddy variable combinations. The authors interpret forest proximity as linking breeding paddies to other habitat needs. That interpretation does not demonstrate individual commuting routes, causation by a planted forest patch or success of a specific conservation intervention.
+
+## Soil channels and water are correlated habitat features {#s-9ab8984193}
+The microhabitat results associate soil channels and retained water with calling occurrence, explicitly describing this association in 2023. The discussion interprets exposed soil and access to water as important reproductive habitat and discusses possible difficulty with concrete channels using earlier work. Neither the survey nor the fitted association randomly tests concrete climbing, larval movement or a soil-channel removal treatment. Soil levees and concrete channels were excluded as explanatory variables in the stated model setup, so nonselection cannot be read as proof that they have no biological effect. Exact habitat requirements and causal contributions remain unmeasured here.
+
+## Soil egg placement is an attributed earlier account {#s-13757aed61}
+The paper cites earlier studies for breeding in paddies and irrigation ponds, use of levees outside breeding, and a spring-to-early-summer period described as May–June. Its discussion cites soil egg placement and routes for larvae to enter water to explain the soil-channel association. These are background evidence, not newly observed nests or followed larvae in this call survey. No clutch size, nest depth, foam properties, guarding or hatch-success estimate is supplied by the selected study. A calling-site record alone does not confirm oviposition or establish a universal season across the species range.
+
+## Urban vulnerability is interpreted, not experimentally isolated {#s-46f04e2800}
+The authors interpret dependence on both water and soil channels as making this frog more vulnerable to urban habitat change than the other focal species. The study is observational and cannot isolate development, fallowing, irrigation or detection changes as a measured cause of population decline. Detection increased from 35 to 46 surveyed sites between unequal seasons; this is neither verified population growth nor proof against vulnerability. The authors acknowledge one main visit per year, changed sites, shorter 2023 coverage and access restrictions. Their conservation interpretation is not a new current Red List category or demonstrated recovery after habitat management.
+
+## catalogue-profile / limitations {#s-850023a787}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-bd1cb777a2}
+The study uses Rhacophorus schlegelii, while the pinned catalogue reader is Zhangixalus schlegelii; the source name is retained in evidence without an independently completed concept-mapping audit. Calling was detected at 35 of 104 sites in 2022 and 46 of 102 in 2023 in the three surveyed Japanese cities. Night visits at 19:00–24:00 lasted up to ten minutes and stopped early after detection; silence was coded absent. These are site-level detected calls, not frog abundance or confirmed breeding success. Two-year site and point changes, and unequal seasonal coverage, prevent treating the totals as repeated census of one fixed independent sample.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-9d2b4a2e42}
+The landscape model reports positive association of calling occurrence with forest area within a 100 m radius, compared with 50 m for the other focal species. This is a selected spatial predictor, not a directly measured dispersal distance, home range or minimum forest strip. Models incorporated spatial correlation and a year random effect, and assessed competing forest/paddy variable combinations. The authors interpret forest proximity as linking breeding paddies to other habitat needs. That interpretation does not demonstrate individual commuting routes, causation by a planted forest patch or success of a specific conservation intervention.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-b265f0223a}
+The microhabitat results associate soil channels and retained water with calling occurrence, explicitly describing this association in 2023. The discussion interprets exposed soil and access to water as important reproductive habitat and discusses possible difficulty with concrete channels using earlier work. Neither the survey nor the fitted association randomly tests concrete climbing, larval movement or a soil-channel removal treatment. Soil levees and concrete channels were excluded as explanatory variables in the stated model setup, so nonselection cannot be read as proof that they have no biological effect. Exact habitat requirements and causal contributions remain unmeasured here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-88a6b33af8}
+The paper cites earlier studies for breeding in paddies and irrigation ponds, use of levees outside breeding, and a spring-to-early-summer period described as May–June. Its discussion cites soil egg placement and routes for larvae to enter water to explain the soil-channel association. These are background evidence, not newly observed nests or followed larvae in this call survey. No clutch size, nest depth, foam properties, guarding or hatch-success estimate is supplied by the selected study. A calling-site record alone does not confirm oviposition or establish a universal season across the species range.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-46e6c85dab}
+The authors interpret dependence on both water and soil channels as making this frog more vulnerable to urban habitat change than the other focal species. The study is observational and cannot isolate development, fallowing, irrigation or detection changes as a measured cause of population decline. Detection increased from 35 to 46 surveyed sites between unequal seasons; this is neither verified population growth nor proof against vulnerability. The authors acknowledge one main visit per year, changed sites, shorter 2023 coverage and access restrictions. Their conservation interpretation is not a new current Red List category or demonstrated recovery after habitat management.
+

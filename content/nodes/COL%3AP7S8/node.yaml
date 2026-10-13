@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia bokermanni
+  displayName: Caecilia bokermanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7S8
+  sourceIndexes:
+    - name:
+        en: Caecilia bokermanni
+        zh: Caecilia bokermanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7S8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/59
+            queryName: Caecilia bokermanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c9c716d6b8
+      - s-6ebdfa944b
+      - s-1d643f0e3d
+      - s-52e5ca3148
+      - s-8956ce992e
+      - s-b89e0ab519
+      - s-dad0cf0555
+      - s-baafd25265
+      - s-ce4fc4b4a4
+      - s-bbd8697c4b
+      - s-3a445be299
+    zh:
+      - s-492082b7c4
+      - s-076dda6cf0
+      - s-21d16f5390
+      - s-777f4c0455
+      - s-c9e1d1314d
+      - s-b9e890b946
+      - s-be61517605
+      - s-4ea97b4ca6
+      - s-cf0905a9de
+      - s-32414e767e
+      - s-593f8fcab9

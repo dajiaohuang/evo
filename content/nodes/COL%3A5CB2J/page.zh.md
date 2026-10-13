@@ -1,0 +1,43 @@
+## 接受名称与分类位置 {#s-43c1d8ff8f}
+COL26.8 接受 Xenophrys mangshanensis (Fei & Ye in Fei, Ye & Huang, 1990) 为种级记录，所记分类路径为 Anura（目） → Megophryidae（科） → Xenophrys（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+
+## 阅读路线 {#s-1aff2b65c9}
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+
+## 觅食层位——AmphiBIO 来源 {#s-71c7970d5e}
+历史来源概念：Xenophrys mangshanensis，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。来源将 陆栖；水栖；树栖 标记为已记录的类别。这些是概括性的觅食类别；汇编没有详细区分季节变化或发育阶段变化。后续 TetrapodTraits 修订报告纠正了从早期汇编传播的部分两栖动物体重与微栖地记录。此处尚未取得受影响行的逐项比对；这些存档历史值或类别在再利用前需要核对。没有推断替代值，本说明也不把每条原记录判为错误。
+
+## 汇编的成体尺寸——AmphiBIO 来源 {#s-79d9900904}
+历史来源概念：Xenophrys mangshanensis，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。AmphiBIO 记载 最大成体体长：73 mm。体长在无尾目指吻肛长，在有尾目和蚓螈目指全长。这些是汇编的最大成体值，不是每一个体的测量值。
+
+## 汇编的生活史——AmphiBIO 来源 {#s-d3635725ef}
+历史来源概念：Xenophrys mangshanensis，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。AmphiBIO 记载 每年最多繁殖次数：1 次/年。数据集从文献汇编极值和计数；本行没有逐值区分性别、种群、测量日期或野生与圈养条件。后代尺寸字段可能指后代或卵。
+
+## 发育方式——AmphiBIO 来源 {#s-aebbf4a4bd}
+历史来源概念：Xenophrys mangshanensis，采用汇编的 Frost 2011 分类；与当前物种概念的等同性仍未核定。存档记录标记 具有幼体阶段。这些来源类别本身不足以说明亲代照料、繁殖地点或季节时序。
+
+## 相关来源记录与数据集 {#s-69000c7701}
+以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
+
+- [AmphiBIO v1: Xenophrys mangshanensis](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Megophryidae/Xenophrys/Xenophrys_mangshanensis/page.zh.md)
+- [TadpoleTraits v4: Xenophrys mangshanensis](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Megophryidae/Xenophrys/Xenophrys_mangshanensis/page.zh.md)
+- [Amphibian morphology v3: Megophrys mangshanensis](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Megophryidae/Megophrys/Megophrys_mangshanensis/page.zh.md)
+
+## 发育阶段材料——TadpoleTraits 来源 {#s-22954c2a7b}
+存档来源概念：TadpoleTraits 中的 Xenophrys mangshanensis。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。汇编为该来源概念保留 1 条文献数据行和 0 条图像数据行，提供的阶段条目为 NA。阶段值及其相伴不确定性按来源标签保留；由图像推断的阶段不视为直接记录的发育观察。数据行数不等于去重的动物数量，各研究的样本量字段也不跨研究相加。
+
+## 南岭及大瑶山记录 {#s-1ea1cbf0df}
+雌性正模 CIB 66000（原 CIB 75I0689）来自湖南宜章莽山自然保护区海拔 1000 米。检查材料包括广东及广西地点，从石门台约 370 米到大瑶山约 1200 米。更广综合将本种列于江西、湖南、广东及广西一带的南岭与大瑶山地点海拔 350—1200 米。论文虽称其常见，该处理未提供种群普查；地点综合不是量化丰度估计。
+
+## 十五只检查成体与无蹼趾 {#s-514c4e6fea}
+鉴别报告十只成年雄性吻肛长 60.4—71.6 毫米、五只雌性 62.0—77.9 毫米。描述有犁骨棱及齿，背面皮肤光滑并散有颗粒，下颌有小型黑色粗突，趾无蹼及侧缘。繁殖雄性第一及第二指基部背侧具密集棕色婚刺，并有咽下声囊。这些测量对应检查样本，而非每个种群或另列历史模式标本。
+
+## catalogue-profile / limitations {#s-63783c1055}
+部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-8d148d10f1}
+雌性正模 CIB 66000（原 CIB 75I0689）来自湖南宜章莽山自然保护区海拔 1000 米。检查材料包括广东及广西地点，从石门台约 370 米到大瑶山约 1200 米。更广综合将本种列于江西、湖南、广东及广西一带的南岭与大瑶山地点海拔 350—1200 米。论文虽称其常见，该处理未提供种群普查；地点综合不是量化丰度估计。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-9c39f571bb}
+鉴别报告十只成年雄性吻肛长 60.4—71.6 毫米、五只雌性 62.0—77.9 毫米。描述有犁骨棱及齿，背面皮肤光滑并散有颗粒，下颌有小型黑色粗突，趾无蹼及侧缘。繁殖雄性第一及第二指基部背侧具密集棕色婚刺，并有咽下声囊。这些测量对应检查样本，而非每个种群或另列历史模式标本。
+

@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ichthyophis monochrous
+    name:
+      en: Ichthyophis monochrous
+      zh: Ichthyophis monochrous
+    sourceClassification:
+      order: Gymnophiona
+      family: Ichthyophiidae
+      genus: Ichthyophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ebd7964176
+            part: body
+          zh:
+            page: zh
+            section: s-62ab07b503
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-641d91da79
+            part: body
+          zh:
+            page: zh
+            section: s-903e6d5a00
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Counts kept separate by row
+          zh: 按行分别记录的计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-afeb4b99cd
+            part: body
+          zh:
+            page: zh
+            section: s-9ded157fda
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 90; Reference.csv rows 4361
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 90
+        values:
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis monochrous
+          - J
+          - "197.64"
+          - "4.81"
+          - "3.14"
+          - "6.09"
+          - "9.05"
+          - "11.62857143"
+          - "14.83"
+          - "321.3"
+          - NA
+          - "5.4"
+          - "197.5"
+          - NA
+          - NA
+          - "7.37"
+          - "8.43"
+          - NA
+          - "9.1"
+          - NA
+          - "2.35"
+          - NA
+          - "2.87"
+          - "4.14"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.79"
+          - NA
+          - NA
+          - "4.82"
+          - "3.185714286"
+          - "3.714285714"
+          - "1.77"
+          - "4.2"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4361
+        values:
+          - Gymnophiona
+          - Ichthyophis_monochrous
+          - "Nishikawa, K., Matsui, M., & Yambun, P. (2012). A new unstriped Ichthyophis (Amphibia: Gymnophiona: Ichthyophiidae) from Mt. Kinabalu, Sabah, Malaysia. Current Herpetology, 31(2), 67-77. https://doi.org/10.5358/hsj.31.67"
+    availableTraitCodes:
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - PVA
+      - TRL
+      - HW1
+      - HW2
+      - BW2
+      - IND
+      - EN
+      - IOD
+      - EJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6N5RY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

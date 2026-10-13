@@ -1,0 +1,3 @@
+## *Baccharis alleluia*: varied leaf forms and flower-head clusters {#s-9bbfa120ff}
+Brazilian Flora 2020 accepts this species name. Its regional morphology field records developed, stalked leaves with pinnate veins; it lists narrow-at-the-base, egg-shaped, or inversely egg-shaped leaf blades, with either smooth or toothed margins. It also lists tight groups or flatter-topped clusters of flower heads. The field describes heads as either all tubular male-flowered or all threadlike female-flowered. These are listed alternatives in a regional dataset field, not a single combined description. The same record carries rock-associated and soil-associated substrate labels without a collection locality.
+

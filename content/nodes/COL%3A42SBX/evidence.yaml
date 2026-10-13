@@ -1,0 +1,572 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microcebus murinus (J. F. Miller, 1777)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 灰鼠狐猴
+      en: Gray mouse lemur
+    sections:
+      - topic: lifeHistory
+        text:
+          zh:
+            page: zh
+            section: s-ae0d592233
+            part: body
+          en:
+            page: en
+            section: s-cf57de80c3
+            part: body
+        sourceIds:
+          - royo2019
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-5e0b6ad02d
+            part: body
+          en:
+            page: en
+            section: s-e39e9533d2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-178c37cd4c
+            part: body
+          en:
+            page: en
+            section: s-221e886c7d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-23f77dda6b
+            part: body
+          en:
+            page: en
+            section: s-05bd1d08c9
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-e18c792c21
+            part: body
+          en:
+            page: en
+            section: s-41830b7434
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-7b6083cdd3
+            part: body
+          en:
+            page: en
+            section: s-43c46583de
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f2446bc708
+            part: body
+          en:
+            page: en
+            section: s-3a43c2db53
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-6f5de43603
+            part: body
+          en:
+            page: en
+            section: s-f12ce404cc
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-cd96a16a11
+            part: body
+          en:
+            page: en
+            section: s-fa96032e31
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-45192eec19
+            part: body
+          en:
+            page: en
+            section: s-fb64ff7c62
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1560abaaf6
+            part: body
+          en:
+            page: en
+            section: s-fb33bc1571
+            part: body
+    sources:
+      - id: royo2019
+        referenceId: ref-9d5ba2ad-6930-89d3-a71e-2af13cb83be2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 法国 Brunoy 的实验室鼠狐猴群；六只雄性动物中四只维持 24–26°C，两只在 10°C 处理 17 天，低温对照结论限于 n=2。
+            en: A laboratory colony in Brunoy, France; four of six males remained at 24–26°C and two received 17 days at 10°C, so low-temperature comparisons are limited to n=2.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42SBX
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12231; name Microcebus murinus; reference table row 12231; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: mean of Ricklefs, 2010b & Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 6(Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            female_maturity_d: mean of Ricklefs, 2010b & Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            litter_or_clutch_size_n: Ernest et al., 2003 from median of 5(Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            gestation_d: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 5(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            weaning_d: mean of Ernest et al., 2003 & Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 6(Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            birth_or_hatching_weight_g: mean of de Magalhaes and Costa, 2009 & Ricklefs, 2010b from median of 6(Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            maximum_longevity_y: Ricklefs, 2010b
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Ricklefs, 2010b
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 475; Scientific=Microcebus murinus; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-34ded07647
+        part: body
+      en:
+        page: en
+        section: s-368539728c
+        part: body
+  catalogue-dossier:
+    scientificName: Microcebus murinus (J. F. Miller, 1777)
+    authorship: (J. F. Miller, 1777)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact pinned COL26.8 accepted usage 42SBX verified for verbatim name, authorship, species rank, accepted status, and sourceDatasetId 2144; each accepted parent node was followed by ID through the pinned hierarchy registry to the root.
+      scope: COL26.8 accepted nomenclatural usage; biological evidence concerns the captive study sample and protocol stated in each claim.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4FM
+        scientificName: Strepsirrhini É. Geoffroy Saint-Hilaire, 1812
+        authorship: É. Geoffroy Saint-Hilaire, 1812
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4LN
+        scientificName: Lemuriformes Gray, 1821
+        authorship: Gray, 1821
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4XL
+        scientificName: Cheirogaleoidea Gray, 1873
+        authorship: Gray, 1873
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: "834"
+        scientificName: Cheirogaleidae Gray, 1873
+        authorship: Gray, 1873
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 63B2M
+        scientificName: Microcebus É. Geoffroy Saint-Hilaire, 1834
+        authorship: É. Geoffroy Saint-Hilaire, 1834
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 42SBX
+        scientificName: Microcebus murinus (J. F. Miller, 1777)
+        authorship: (J. F. Miller, 1777)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    lifeStatusScope:
+      wild: Wild populations were not assessed by the cited experiment; no wild behavioral conclusion is drawn.
+      domesticated: Domesticated populations were not assessed.
+      captive: "The cited biological evidence concerns six captive laboratory-born and laboratory-raised males: n=4 maintained at 24–26°C and n=2 exposed to 10°C; low-temperature sleep and <21°C EEG-isoelectric findings apply only to the n=2 subset."
+      fossil: No fossil occurrence claims were assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 10
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42SBX
+          stableId: col:42SBX@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage 42SBX; exact name, authorship, species rank, accepted status, sourceDatasetId 2144; complete accepted parent chain resolved to root.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 42SBX. https://doi.org/10.48580/dgywk
+      - id: royo2019
+        referenceId: ref-333a8c90-7ad2-8052-a487-cf991fdab056
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: The original research article text. Third-party figures, datasets, and referenced content are not reused.
+          stableId: doi:10.3389/fnana.2019.00087
+          accessedAt: 2026-09-24
+          locator: Results, Effects of Torpor on Behavioral States; Figure 2C and its <21°C EEG-isoelectric threshold; Figure 3A and Table 1 for 10°C (n=2) versus 25°C/control behavioral-state distributions; Tables 2–3 for low-temperature comparisons and Tb_min correlations. Methods, Experimental Protocol, establishes the four-animal 25°C cohort and two-animal 10°C cohort.
+          licenseAssessment: item-level-verified
+          attribution: Royo J, Aujard F, Pifferi F (2019). Front. Neuroanat. 13:87. doi:10.3389/fnana.2019.00087.
+          scope: "Original research article on laboratory EEG observations in six captive male Microcebus murinus: four animals remained at 24–26°C and two were exposed to 10°C; the low-temperature findings apply to the n=2 subset. Third-party content is excluded."
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No taxon-specific morphology or diagnosis was assessed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: "The study included six captive, laboratory-born male gray mouse lemurs: four were maintained at 24–26°C and two were acclimated at 25°C before 17 days at 10°C. In the 10°C subset (n=2), sleep-wake rhythms persisted during torpor, mostly as NREM sleep; when body temperature fell below 21°C, EEG became isoelectric. Group comparisons for this same n=2 subset found reduced NREM2 and increased isoelectric state at 10°C. These results are limited to the studied captive animals and protocol, and do not establish a species-wide threshold or wild-population pattern."
+            originalLanguage: en
+            sourceIds:
+              - royo2019
+            locator: Results, Effects of Torpor on Behavioral States; Figure 2C and its <21°C EEG-isoelectric threshold; Figure 3A and Table 1 for 10°C (n=2) versus 25°C/control behavioral-state distributions; Tables 2–3 for low-temperature comparisons and Tb_min correlations. Methods, Experimental Protocol, establishes the four-animal 25°C cohort and two-animal 10°C cohort.
+            placeTimeScope: Six laboratory-born and laboratory-raised males from the UMR 7179 CNRS/MNHN colony in Brunoy, France; short-day 10:14 light:dark photoperiod. Four animals remained at 24–26°C; two were acclimated for 5 days at 25°C then exposed to 10°C for 17 days. The <21°C EEG-isoelectric observation and low-temperature sleep comparisons apply only to the 10°C n=2 subset. Figure 2C illustrates an individual animal, so the threshold is not asserted as a species-wide constant.
+            lifeStatus: Captive laboratory animals; no wild-population behavior is inferred.
+        gaps:
+          - Evidence comes from a small captive male sample under a specific laboratory photoperiod and temperature protocol; other life-history and behavioral facets were not assessed.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No systematic wild habitat, diet, or species-interaction evidence was assessed.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No phylogenetic or comparative evolutionary evidence was assessed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No distribution search was performed; no range or locality claim is asserted.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil or paleontological search was performed; no fossil presence or absence is claimed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current formal conservation assessment was verified; no current threat category is asserted.

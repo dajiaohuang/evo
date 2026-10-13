@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vandijkophrynus robinsoni
+  displayName: Vandijkophrynus robinsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FFG5
+  sourceIndexes:
+    - name:
+        en: Vandijkophrynus robinsoni
+        zh: Vandijkophrynus robinsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FFG5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/228
+            queryName: Vandijkophrynus robinsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/403
+            queryName: Bufo robinsoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a868c0c85a
+      - s-c48367cb10
+      - s-273c5aaad3
+      - s-db98f293b8
+      - s-5446051749
+      - s-b534c81cf2
+      - s-d619ef0c30
+      - s-9196e58f86
+      - s-fa3ed21cd9
+      - s-7e8623aa1c
+      - s-c2b7cc7622
+      - s-e48e7fe9ed
+      - s-9e3c4c2b43
+      - s-fd791ca2c2
+      - s-1e68753c51
+      - s-92334fa020
+      - s-94f3997ea8
+    zh:
+      - s-137cebbbc0
+      - s-92e73271ab
+      - s-b51ddf2908
+      - s-c633fb971a
+      - s-326fc10896
+      - s-07fd792b20
+      - s-142430e532
+      - s-6b269a0010
+      - s-b1f23c32c0
+      - s-aca067fc7c
+      - s-1b5f8affe2
+      - s-2e836361a0
+      - s-5afd01dbca
+      - s-1e7c90ef16
+      - s-04f76caf2e
+      - s-3ef569b5a2
+      - s-0d907869a2

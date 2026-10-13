@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus bifurcus
+  displayName: Dendropsophus bifurcus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S4L
+  sourceIndexes:
+    - name:
+        en: Dendropsophus bifurcus
+        zh: Dendropsophus bifurcus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S4L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/341
+            queryName: Dendropsophus bifurcus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/273
+            queryName: Hyla bifurca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3b97048ceb
+      - s-ddfbeaba06
+      - s-e6de87c06a
+      - s-557e1f909f
+      - s-e17a4ef712
+      - s-db7ffee5fc
+      - s-fab144153a
+      - s-650edcf423
+      - s-e82179556f
+      - s-80d030f8f7
+      - s-5c43fb8746
+      - s-685d25ebef
+      - s-168e1f9c31
+      - s-8f8837e4c0
+      - s-1725751d15
+      - s-bddc8f0ad8
+      - s-34a8c5a39e
+      - s-9f6560da2c
+      - s-0909fd8922
+      - s-82d6655de0
+      - s-bb3e70fef2
+      - s-0c69da01c6
+    zh:
+      - s-b00df6efea
+      - s-f89fe300b9
+      - s-0c82ac0e6f
+      - s-179a0a8611
+      - s-348d86489d
+      - s-eca0708dca
+      - s-c90a69f53a
+      - s-0dda45a91e
+      - s-6e5460840f
+      - s-f9b967da8b
+      - s-76f455b14f
+      - s-e29f620d18
+      - s-5842b6d0b7
+      - s-892631c56f
+      - s-5965863a66
+      - s-31336da85f
+      - s-bbbd30447a
+      - s-504873c532
+      - s-d8d2c3b8a5
+      - s-6052e9b8f8
+      - s-f8890d33ef
+      - s-d764eeb7ad

@@ -1,0 +1,410 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leontopithecus rosalia (Linnaeus, 1766)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 金狮狨
+      en: Golden lion tamarin
+    sections:
+      - topic: conservation
+        text:
+          zh:
+            page: zh
+            section: s-bd09bb1ce0
+            part: body
+          en:
+            page: en
+            section: s-393f707d40
+            part: body
+        sourceIds:
+          - ruizmiranda2019
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-1bff8d3931
+            part: body
+          en:
+            page: en
+            section: s-f57aa52aca
+            part: body
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-99edaa5769
+            part: body
+          en:
+            page: en
+            section: s-268fc49a8b
+            part: body
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-31a0e1a456
+            part: body
+          en:
+            page: en
+            section: s-46d265691a
+            part: body
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-e117b93b3b
+            part: body
+          en:
+            page: en
+            section: s-274b348ea1
+            part: body
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-7776db3199
+            part: body
+          en:
+            page: en
+            section: s-9cbc78263d
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-8f269b671a
+            part: body
+          en:
+            page: en
+            section: s-14b90b7789
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-994837aa60
+            part: body
+          en:
+            page: en
+            section: s-c04a44685e
+            part: body
+    sources:
+      - id: ruizmiranda2019
+        referenceId: ref-cac372bb-4fde-85c2-aeb7-952c91916db9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 巴西里约热内卢州金狮狨分布区的七个管理单元；2013 年 8 月至 2014 年 1 月播放调查，估计对应 2014 年。
+            en: Seven management units across the golden lion tamarin range in Rio de Janeiro state, Brazil; playback surveys ran from August 2013 to January 2014, and estimates refer to 2014.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/3T6ZV
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - sourceVersion
+          - sourceFileSha256
+          - sourceRecordName
+          - originalReferenceNumbers
+          - availableFocalFields
+          - uninterpretedFocalFields
+          - withheldFields
+          - historicalCrosswalk
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Mammal_lifehistories_v2.txt: Leontopithecus rosalia; original refs=1,2,16,22,23,24,29; metadata Class II B data collection and variable definitions; Class IV units and reference list."
+          sourceVersion: Ecological Archives E084-093-D1; 2003 v2
+          sourceFileSha256: 9b7a4ef7082c7b37ab76b922cfd5c86fd3e49444fa2db180439cfbe051fef6b9
+          sourceRecordName: Leontopithecus rosalia
+          originalReferenceNumbers:
+            - "1"
+            - "2"
+            - "16"
+            - "22"
+            - "23"
+            - "24"
+            - "29"
+          availableFocalFields:
+            - gestation(mo)
+            - newborn(g)
+            - weaning(mo)
+            - wean mass(g)
+            - AFR(mo)
+            - max. life(mo)
+            - litter size
+            - litters/year
+          uninterpretedFocalFields: []
+          withheldFields:
+            - mass(g)
+          historicalCrosswalk:
+            MSW93Binomial: Leontopithecus rosalia
+            MSW05Binomial: Leontopithecus rosalia
+            mapping: one-to-one same-name MSW93/MSW05 in separate PanTHERIA supplied SppSynonymID1.0 table; not equivalence to COL
+            sourceConceptEquivalenceToCOL: not established
+          accessedAt: 2026-10-03
+          licenseAssessment: archived-no-restrictions-attributed-factual-summary
+          scope:
+            zh: 历史生活史汇总：一般等权平均，最高寿命取记录最大值；成年体重不在本批解读，底层物种文献未逐条读取。
+            en: "Historical life-history summaries: generally equally weighted averages, maximum lifespan as a record maximum; adult mass not interpreted in this batch, underlying species literature not individually read."
+    limitations:
+      zh:
+        page: zh
+        section: s-1c507afc7f
+        part: body
+      en:
+        page: en
+        section: s-ab5e2609b5
+        part: body
+  catalogue-dossier:
+    scientificName: Leontopithecus rosalia (Linnaeus, 1766)
+    authorship: (Linnaeus, 1766)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact COL26.8 accepted species usage verified against the pinned search and hierarchy registries, including verbatim name, authorship, rank, sourceDatasetId and every accepted parent node.
+      scope: Nominal species as represented by COL26.8 usage 3T6ZV. The cited census reports a historical 2014 estimate across seven management units in Rio de Janeiro state; it is not a current abundance estimate or complete species account.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4DT
+        scientificName: Haplorrhini Pocock, 1918
+        authorship: Pocock, 1918
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4PM
+        scientificName: Simiiformes Haeckel, 1866
+        authorship: Haeckel, 1866
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 7KR
+        scientificName: Callitrichidae Gray, 1821
+        authorship: Gray, 1821
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 5CBY
+        scientificName: Leontopithecus Lesson, 1840
+        authorship: Lesson, 1840
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3T6ZV
+        scientificName: Leontopithecus rosalia (Linnaeus, 1766)
+        authorship: (Linnaeus, 1766)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    lifeStatusScope:
+      wild: The population evidence is from free-ranging golden lion tamarins surveyed across management units in Atlantic Forest, Rio de Janeiro state, Brazil.
+      domesticated: Domestication has not been assessed; the cited study concerns wild population management and does not provide evidence of domestication.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 5
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/3T6ZV
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:3T6ZV@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage 3T6ZV; verbatim scientificName Leontopithecus rosalia (Linnaeus, 1766); sourceDatasetId 2144; accepted parent chain includes order Primates (3W7)
+          licenseAssessment: identity-only
+          scope: "Identity only: accepted name, authorship, rank, status, sourceDatasetId and parent classification in pinned COL26.8 registry."
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3T6ZV. https://doi.org/10.48580/dgywk
+      - id: ruizmiranda2019
+        referenceId: ref-4a55d21e-0816-86ec-ac7d-8d6d9fe625da
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text under the item-level Creative Commons Attribution License notice; separately credited third-party material is excluded.
+          stableId: doi:10.1371/journal.pone.0216664
+          accessedAt: 2026-09-24
+          locator: Abstract; Methods section Censusing GLTs throughout their geographic range; Results, population estimate paragraph and Table 2
+          licenseAssessment: item-level-verified
+          scope: Original point-transect-with-lures field census of golden lion tamarins across seven management units in Rio de Janeiro state, Brazil, based on surveys from August 2013 to January 2014. Only paraphrased study results are used; figures and third-party material are excluded.
+          attribution: Ruiz-Miranda CR, de Morais MM Jr, Dietz LA, Rocha Alexandre B, Martins AF, Ferraz LP, et al. (2019). PLoS ONE 14(6):e0216664. https://doi.org/10.1371/journal.pone.0216664. Claims paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+        gaps:
+          - No morphology evidence was assessed in this batch.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - Reproduction, development, lifespan and other life-history traits have not been assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The point-transect-with-lures census estimated 3,706 golden lion tamarins (95% CI 1,863–5,383) in 2014. The authors estimated approximately 59% (2,176) were from remnant wild populations, 34% (1,281) descendants of captive-born reintroduced animals, and 7% (249) descendants of translocated wild groups; these are survey-based historical estimates, not direct counts or current abundance.
+            sourceIds:
+              - ruizmiranda2019
+            locator: Results, paragraph reporting 3,706 individuals and population origins; Table 2; Methods section Censusing GLTs throughout their geographic range
+            placeTimeScope: Seven management units across golden lion tamarin range in Rio de Janeiro state, Brazil; geographic distribution sampled using playback surveys from August 2013 to January 2014; abundance estimate refers to 2014.
+            lifeStatus: Wild metapopulation estimate includes remnant wild populations, descendants of captive-born reintroduced animals, and descendants of wild translocated groups; no currently captive animals are counted.
+            originalLanguage: en
+        gaps:
+          - The estimate is specific to the 2014 survey and its seven management-unit design; it does not establish current population size or subsequent trend.
+          - Other ecology, range completeness, demographic rates and independently assessed conservation status were not evaluated in this batch.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No phylogenetic or evolutionary evidence was assessed.
+      distribution:
+        status: not-assessed
+        gaps:
+          - A current or historical range inventory was not assessed; the census sampling extent is not a complete distribution account.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil evidence or geological age was assessed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No threat status, trend or range-wide conservation assessment was assessed.

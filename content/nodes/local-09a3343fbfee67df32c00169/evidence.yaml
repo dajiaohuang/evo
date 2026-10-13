@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella laui
+    name:
+      en: Leptobrachella laui
+      zh: Leptobrachella laui
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-837d607393
+            part: body
+          zh:
+            page: zh
+            section: s-acebf090e2
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-655a780625
+            part: body
+          zh:
+            page: zh
+            section: s-d2174cdcaa
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2580, 2581; Reference.csv rows 624
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2580
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella laui
+          - F
+          - "28.1"
+          - "10.7"
+          - "10.6"
+          - "4"
+          - "2"
+          - "1.6"
+          - "3.2"
+          - NA
+          - NA
+          - NA
+          - "3.9"
+          - NA
+          - "7"
+          - NA
+          - NA
+          - "13.1"
+          - NA
+          - "13.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.7"
+          - "5.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2581
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella laui
+          - M
+          - "25.78181818"
+          - "9.545454545"
+          - "9.4"
+          - "3.527272727"
+          - "1.572727273"
+          - "1.127272727"
+          - "2.890909091"
+          - NA
+          - NA
+          - NA
+          - "3.845454545"
+          - NA
+          - "6.536363636"
+          - NA
+          - NA
+          - "10.84545455"
+          - NA
+          - "12.27272727"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.918181818"
+          - "5.036363636"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 624
+        values:
+          - Anura
+          - Leptobrachella_laui
+          - "Sung, Y., Yang, J. H., & Wang, Y. Y. (2014). A new species of Leptolalax (Anura: Megophryidae) from Southern China. Asian Herpetological Research, 5(2), 80-90. https://doi.org/10.3724/Sp.J.1245.2014.00080"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - SL
+      - HAL
+      - FL
+      - TL
+      - Fin2L
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TK9W
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

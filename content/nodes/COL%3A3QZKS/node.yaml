@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kaloula kokacii
+  displayName: Kaloula kokacii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QZKS
+  sourceIndexes:
+    - name:
+        en: Kaloula kokacii
+        zh: Kaloula kokacii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QZKS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/128
+            queryName: Kaloula kokacii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c15dba31c8
+      - s-efbce50b63
+      - s-d40d826ab0
+      - s-5f42ddd7fd
+      - s-7c7bd3d4ee
+      - s-e30e0a3db1
+      - s-df0428d089
+      - s-83d4d5f8d7
+    zh:
+      - s-397a0c41c2
+      - s-22d06c2067
+      - s-6ac8f9a2bd
+      - s-ffd62baa4a
+      - s-b4864b2f66
+      - s-c32fb350ac
+      - s-f80eedabdc
+      - s-70024340f2

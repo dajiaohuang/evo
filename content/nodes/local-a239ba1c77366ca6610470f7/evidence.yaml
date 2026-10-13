@@ -1,0 +1,256 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Polypedates ranwellai
+    name:
+      en: Polypedates ranwellai
+      zh: Polypedates ranwellai
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Polypedates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7f015b902c
+            part: body
+          zh:
+            page: zh
+            section: s-99d0526f9e
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c73f15aec6
+            part: body
+          zh:
+            page: zh
+            section: s-ed356fa130
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4409, 4410; Reference.csv rows 1139
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4409
+        values:
+          - Rhacophoridae
+          - Polypedates
+          - Polypedates ranwellai
+          - F
+          - "64.9"
+          - "25.1"
+          - "27.3"
+          - "7.3"
+          - NA
+          - "2.3"
+          - "10.3"
+          - "6"
+          - "6.2"
+          - "6.8"
+          - "11"
+          - NA
+          - "17.6"
+          - "12.5"
+          - NA
+          - "41.8"
+          - NA
+          - "32.9"
+          - "32.9"
+          - "18.5"
+          - NA
+          - "2.6"
+          - "5.4"
+          - NA
+          - "9.9"
+          - "13.9"
+          - "10.6"
+          - NA
+          - "6.9"
+          - "10.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.7"
+          - NA
+      - rowNumber: 4410
+        values:
+          - Rhacophoridae
+          - Polypedates
+          - Polypedates ranwellai
+          - M
+          - "43.26"
+          - "17.24"
+          - "16.78"
+          - "6.14"
+          - NA
+          - "1.6"
+          - "6.48"
+          - "4.48"
+          - "4.5"
+          - "5.4"
+          - "7.56"
+          - NA
+          - "12.14"
+          - "8.54"
+          - NA
+          - "28.44"
+          - NA
+          - "23.44"
+          - "21.98"
+          - "13.12"
+          - NA
+          - "2.38"
+          - "3.2"
+          - NA
+          - "6.12"
+          - "9.42"
+          - "7.06"
+          - NA
+          - "4.1"
+          - "7.04"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.36"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1139
+        values:
+          - Anura
+          - Polypedates_ranwellai
+          - Wickramasinghe, L. J. M., Munindradasa, D. A. I., & Fernando, P. (2012). A new species of Polypedates Tschudi (Amphibia, Anura, Rhacophoridae) from Sri Lanka. Zootaxa(3498), 63-80. https://doi.org/10.11646/zootaxa.3498.1.4
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - IMT
+      - Toe1L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin2L
+      - Fin3L
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4LD63
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanohyla petrigena
+  displayName: Nanohyla petrigena
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QMTBW
+  sourceIndexes:
+    - name:
+        en: Nanohyla petrigena
+        zh: Nanohyla petrigena
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QMTBW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/161
+            queryName: Nanohyla petrigena
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/349
+            queryName: Microhyla petrigena
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-25adfc64bd
+      - s-4de0d65fdf
+      - s-7570442947
+      - s-cc79c29266
+      - s-f650152311
+      - s-e3b85ec321
+      - s-1a4de8cfb2
+      - s-469a4da3b2
+      - s-f8ddc30bbd
+      - s-8e226c9dc6
+    zh:
+      - s-373a6380ab
+      - s-3f2d63afa2
+      - s-7f65ea137c
+      - s-9c64387725
+      - s-e560f7aa2e
+      - s-43d22bd85f
+      - s-75d4481a02
+      - s-8bb5e1d670
+      - s-b1313d4c4c
+      - s-31107f9f21

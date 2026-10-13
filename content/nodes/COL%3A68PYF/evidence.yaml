@@ -1,0 +1,361 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephalus mariaeterezae Bornschein, Morato, Firkowski, Ribeiro & Pie, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephalus mariaeterezae
+      zh: Brachycephalus mariaeterezae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f84e5bca35
+            part: title
+          zh:
+            page: zh
+            section: s-d20af39750
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f84e5bca35
+            part: body
+          zh:
+            page: zh
+            section: s-d20af39750
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7da3dda4f0
+            part: title
+          zh:
+            page: zh
+            section: s-4a1a2fa92c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7da3dda4f0
+            part: body
+          zh:
+            page: zh
+            section: s-4a1a2fa92c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-caedfe4032
+            part: title
+          zh:
+            page: zh
+            section: s-c67ab0a425
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-caedfe4032
+            part: body
+          zh:
+            page: zh
+            section: s-c67ab0a425
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-126aef368cbbf2de938683ee
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e0a58e7696
+            part: title
+          zh:
+            page: zh
+            section: s-ff55b6a3fd
+            part: title
+        sourceIds:
+          - primary-pmc12694819-68pyf
+        text:
+          en:
+            page: en
+            section: s-e0a58e7696
+            part: body
+          zh:
+            page: zh
+            section: s-ff55b6a3fd
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-e8242059c0
+            part: title
+          zh:
+            page: zh
+            section: s-ac3d70e32b
+            part: title
+        sourceIds:
+          - primary-pmc12694819-68pyf
+        text:
+          en:
+            page: en
+            section: s-e8242059c0
+            part: body
+          zh:
+            page: zh
+            section: s-ac3d70e32b
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-2fa1f93029
+            part: title
+          zh:
+            page: zh
+            section: s-e5e0968a1d
+            part: title
+        sourceIds:
+          - primary-pmc12694819-68pyf
+        text:
+          en:
+            page: en
+            section: s-2fa1f93029
+            part: body
+          zh:
+            page: zh
+            section: s-e5e0968a1d
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-2b04c6b4a7
+            part: title
+          zh:
+            page: zh
+            section: s-7f051e5d73
+            part: title
+        sourceIds:
+          - primary-pmc12694819-68pyf
+        text:
+          en:
+            page: en
+            section: s-2b04c6b4a7
+            part: body
+          zh:
+            page: zh
+            section: s-7f051e5d73
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-63158f8738
+            part: body
+          zh:
+            page: zh
+            section: s-c6810239eb
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephalus mariaeterezae
+          url: https://www.checklistbank.org/dataset/316115/taxon/68PYF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 849; Reference.csv rows 2023
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12694819-68pyf
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus mariaeterezae: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fea78ddf44
+        part: body
+      zh:
+        page: zh
+        section: s-a300614111
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0334746
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        sourceKey: primary-pmc12694819-68pyf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12694819/article.xml
+        sourceConcept: Brachycephalus mariaeterezae
+        evidenceRead: "Brachycephalus mariaeterezae: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY (version not explicit in XML)
+          licenseUrl: https://creativecommons.org/licenses/by/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Sex-specific measurements retain variable-specific sample counts
+              zh: 分性别测量保留各变量样本数
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-68pyf
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus mariaeterezae measurement row and caption; sec004 paragraphs 0–1; sec036 paragraphs 4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-366ed395f6
+                part: body
+              zh:
+                page: zh
+                section: s-3f970fb5d5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Live and preserved colours are separate evidence
+              zh: 活体与保存颜色是不同证据
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-68pyf
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus mariaeterezae live/preserved colour columns and caption; sec036 paragraphs 2,4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-985d431989
+                part: body
+              zh:
+                page: zh
+                section: s-00d4efe642
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Advertisement-call comparisons use distinct acoustic units
+              zh: 求偶鸣声比较区分声学单位
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-68pyf
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus mariaeterezae acoustic row and caption; sec007 paragraphs 0–1; sec036 paragraphs 0–1,4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9b8fec1e26
+                part: body
+              zh:
+                page: zh
+                section: s-d68a4d94c4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: conservation
+            heading:
+              en: The 2025 assessment separates records, mapped habitat and risk
+              zh: 2025 年评估区分记录、映射生境与风险
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-68pyf
+            locator: PMC12694819 XML pone.0334746.t007 Brachycephalus mariaeterezae row; sec009 paragraphs 0–4; sec038 paragraphs 2–6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6b14b50025
+                part: body
+              zh:
+                page: zh
+                section: s-27cbfc5458
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

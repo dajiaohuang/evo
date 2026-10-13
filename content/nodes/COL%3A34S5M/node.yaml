@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus juliani
+  displayName: Dendropsophus juliani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S5M
+  sourceIndexes:
+    - name:
+        en: Dendropsophus juliani
+        zh: Dendropsophus juliani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S5M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/373
+            queryName: Dendropsophus juliani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-818925c923
+      - s-a03bad0afd
+      - s-4c8c12bf16
+      - s-defe780cde
+      - s-d3d3301e1a
+      - s-8e463cacf9
+      - s-3a68167aa8
+      - s-ca87bfd8fa
+      - s-89af69dd1c
+      - s-0d9bd6369a
+    zh:
+      - s-a42d88eb3d
+      - s-5ecccb177e
+      - s-856d3e280b
+      - s-d0b93a3409
+      - s-dd0fa71921
+      - s-6a98bfc396
+      - s-f310ac0cd2
+      - s-166ad42681
+      - s-479c99c163
+      - s-3b967f21d8

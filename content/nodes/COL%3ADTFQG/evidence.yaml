@@ -1,0 +1,265 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leucocarbo bougainvilliorum (R. P. Lesson, 1837)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 瓜奈鸬鹚
+      en: Guanay Cormorant
+    sections:
+      - topic: sampling window
+        text:
+          zh:
+            page: zh
+            section: s-78d056f384
+            part: body
+          en:
+            page: en
+            section: s-67d724a017
+            part: body
+        sourceIds:
+          - taxonomy
+          - estrada2025guanay
+        topicZh: sampling window
+      - topic: prey composition
+        text:
+          zh:
+            page: zh
+            section: s-af7c3971fe
+            part: body
+          en:
+            page: en
+            section: s-bf4f75595c
+            part: body
+        sourceIds:
+          - estrada2025guanay
+        topicZh: prey composition
+      - topic: interpretation limits
+        text:
+          zh:
+            page: zh
+            section: s-9380b4df53
+            part: body
+          en:
+            page: en
+            section: s-9e82f23e61
+            part: body
+        sourceIds:
+          - estrada2025guanay
+        topicZh: interpretation limits
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: 生命名录 COL26.8 — Leucocarbo bougainvilliorum
+            en: Catalogue of Life COL26.8 — Leucocarbo bougainvilliorum
+          url: https://www.checklistbank.org/dataset/316115/taxon/DTFQG
+          scope:
+            zh: 固定 COL26.8 接受名录身份与分类元数据。
+            en: Pinned COL26.8 accepted-name identity and classification metadata.
+      - id: estrada2025guanay
+        referenceId: ref-e60e8c0a-ec5a-8334-ad96-e4f9a20b000d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 秘鲁一个野生繁殖群、油污事件前后吐出食团的原始西班牙语研究；结论限于样本群体、采集时期和论文报告数值。
+            en: Original Spanish-language study of regurgitated food boluses collected at one wild colony before and after an oil spill; claims are limited to the sampled colony, collection periods, and values as reported.
+    limitations:
+      zh:
+        page: zh
+        section: s-e539d54b70
+        part: body
+      en:
+        page: en
+        section: s-b6581a30d8
+        part: body
+  catalogue-dossier:
+    scientificName: Leucocarbo bougainvilliorum (R. P. Lesson, 1837)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact COL26.8 accepted species usage was verified by COL ID, verbatim scientific name, authorship, rank, accepted status, sourceDatasetId, and every accepted parent node in the pinned hierarchy.
+      scope: The source supports a pellet-based diet observation from one wild colony on Grande Pescadores Island in Peru, sampled before and after the January 2022 Ventanilla oil spill; it does not establish a species-wide diet or a causal spill effect.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: V2
+        scientificName: Aves
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 46J
+        scientificName: Suliformes
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: "62694"
+        scientificName: Phalacrocoracidae Reichenbach, 1849
+        authorship: Reichenbach, 1849
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 638ZH
+        scientificName: Leucocarbo Bonaparte, 1856
+        authorship: Bonaparte, 1856
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: DTFQG
+        scientificName: Leucocarbo bougainvilliorum (R. P. Lesson, 1837)
+        authorship: (R. P. Lesson, 1837)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    lifeStatusScope:
+      wild: Food boluses were collected from a wild guanay cormorant colony on Grande Pescadores Island; individual birds were not tracked or identified.
+      domesticated: Domesticated or captive populations have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; pinned source checklist
+          url: https://www.checklistbank.org/dataset/316115/taxon/DTFQG
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:DTFQG@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: Accepted species usage DTFQG; exact accepted name, authorship, species rank, sourceDatasetId 2144, and accepted parent chain verified in the pinned hierarchy.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 accepted-name identity and classification metadata only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage DTFQG. https://doi.org/10.48580/dgywk
+      - id: estrada2025guanay
+        referenceId: ref-e60e8c0a-ec5a-8334-ad96-e4f9a20b000d
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: The publisher article record identifies CC BY 4.0 International as the article license.
+          licenseAppliesTo: Published article text; this dossier translates and paraphrases findings and does not reproduce figures, tables, or separately credited material.
+          stableId: doi:10.21142/SS-0601-2025-e121
+          accessedAt: 2026-09-28
+          locator: SciELO Methods §§2.1-2.3 (lines 120-128); Results and Table 1 (lines 154-172); Discussion (lines 175-177); publisher article record for 2025-05-13 publication date and license; SciELO record for 2025-06-30 ePub date.
+          licenseAssessment: item-level-verified
+          scope: Original Spanish-language study of regurgitated food boluses collected at one wild colony before and after an oil spill; claims are limited to the sampled colony, collection periods, and values as reported.
+          attribution: Estrada-Grossmann H, Zavalaga C, Diaz-Santibanez I. (2025). Diet of the guanay cormorant Leucocarbo bougainvilliorum (Lesson, 1837) on Pescadores Island after the Ventanilla oil spill in January 2022. South Sustainability 6(1):e121. https://doi.org/10.21142/SS-0601-2025-e121. Findings translated and paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: "At the wild Grande Pescadores Island colony, the study's pre-spill (2018) and post-spill (2022) food-bolus analysis identified Peruvian anchoveta (Engraulis ringens) as the predominant prey in both periods. Table 1 reports numerical proportions of 99.736% before and 99.168% after the spill, and occurrence proportions of 98.165% and 99.881%, respectively. The post-spill denominator is inconsistent within the article: Methods and Results report 998 boluses, whereas Table 1 reports N = 837; the percentages are transcribed as printed and not recalculated. This comparison does not establish a causal oil-spill effect."
+            sourceIds:
+              - estrada2025guanay
+            locator: SciELO Methods §§2.3 and 2.6 (lines 126-138); Results (lines 154-159); Table 1 (lines 160-172); Discussion on limits (lines 175-177).
+            placeTimeScope: Grande Pescadores Island, Peru (-11.775277 S, -77.264166 W), about 7 km offshore from the coast near Ancon. The pre-spill sample was collected in November 2018; post-spill collections occurred in 2022 between August and November, 7-11 months after the January 2022 spill.
+            lifeStatus: Regurgitated food boluses collected at a wild breeding colony; individual birds and their age or sex were not identified.
+            originalLanguage: es
+        gaps:
+          - "The post-spill sample total conflicts within the article: the Methods and Results state 998 boluses, while Table 1 states N = 837; Table 2 monthly counts also do not exactly reconcile with 998."
+          - Only one pre-spill collection month and three post-spill collection months from one colony were compared, and no samples were collected immediately after the spill; the design does not establish causality.
+          - Morphology, life history, broader ecology, evolution, distribution, fossils, conservation, systematic search, remain unassessed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

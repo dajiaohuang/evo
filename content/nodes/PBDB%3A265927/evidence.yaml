@@ -1,0 +1,279 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Fukangichthys longidorsalis
+    commonName: Triassic scanilepiform
+    commonNameZh: 三叠纪斯堪尼勒鱼类
+    rank: species
+    taxonId: txn:265927
+    firstAppearance: 247
+    lastAppearance: 241.464
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:265927
+    scientificName: Fukangichthys longidorsalis
+    commonName: Triassic scanilepiform
+    commonNameZh: 三叠纪斯堪尼勒鱼类
+    rank: species
+    parentName: Early actinopterygian evidence route
+    extinct: true
+    geography:
+      - Kelamayi Formation
+      - Xinjiang
+      - China
+    overview:
+      page: en
+      section: s-be83c3ae55
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-d54094cb7a
+        part: body
+      habitat:
+        page: en
+        section: s-49909a5247
+        part: body
+      locomotion:
+        page: en
+        section: s-3966953f7f
+        part: body
+      bodySize:
+        page: en
+        section: s-fb5b2087b0
+        part: body
+      guild:
+        page: en
+        section: s-82d7c3086d
+        part: body
+      dietZh:
+        page: zh
+        section: zh-d72b2370321419
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-291a25548fb8a9
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-797522467930ba
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-3cbce0a11edf77
+        part: body
+      guildZh:
+        page: zh
+        section: zh-d6e67c7d7bc129
+        part: body
+    traits:
+      - page: en
+        section: s-7c7018800e
+        part: body
+      - page: en
+        section: s-3a91c68945
+        part: body
+      - page: en
+        section: s-e175e7997d
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-83aaa68aee
+      part: body
+    confidence: medium
+    referenceIds:
+      - giles-2017-ray-fin-timescale
+      - xu-2014-fukangichthys-revision
+    overviewZh:
+      page: zh
+      section: s-f62b9c67e5
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-e0247865cf
+      part: body
+    readerSources:
+      - id: giles-2017-ray-fin-timescale
+        referenceId: giles-2017-ray-fin-timescale
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Giles et al. (2017), pp. 265–268, Figures 1–3 and supplementary methods/matrices: CT-informed placement and the topology-dependent ray-fin crown calibration."
+            zh: Giles 等（2017），第 265–268 页、图 1–3 与补充方法／矩阵：CT 参与的系统位置分析及依赖拓扑的辐鳍鱼冠群校准。
+      - id: xu-2014-fukangichthys-revision
+        referenceId: xu-2014-fukangichthys-revision
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Xu et al. (2014), pp. 747–759, Figures 1–9: specimen revision, systematic palaeontology, locality and horizon for Fukangichthys longidorsalis."
+            zh: Xu 等（2014），第 747–759 页、图 1–9：Fukangichthys longidorsalis 的标本修订、系统古生物学描述、产地与层位。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-be83c3ae55
+            part: title
+          zh:
+            page: zh
+            section: s-f62b9c67e5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-be83c3ae55
+            part: body
+          zh:
+            page: zh
+            section: s-f62b9c67e5
+            part: body
+        sourceIds:
+          - giles-2017-ray-fin-timescale
+          - xu-2014-fukangichthys-revision
+      - id: fukangichthys-evidence
+        title:
+          en:
+            page: en
+            section: s-83aaa68aee
+            part: title
+          zh:
+            page: zh
+            section: s-e0247865cf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-83aaa68aee
+            part: body
+          zh:
+            page: zh
+            section: s-e0247865cf
+            part: body
+        sourceIds:
+          - giles-2017-ray-fin-timescale
+          - xu-2014-fukangichthys-revision
+    traitsZh:
+      - page: zh
+        section: zh-34e0e438b1df5d
+        part: body
+      - page: zh
+        section: zh-e2437f32cfc236
+        part: body
+      - page: zh
+        section: zh-9ebaddaffc82f9
+        part: body
+  claims:
+    - subjectId: taxon:fukangichthys
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Fukangichthys longidorsalis is a scanilepiform whose CT-informed analysis placed it on the polypterid stem; that placement is a sampled topology, not direct ancestry.
+      confidence: medium
+      confidenceRationale: "Fukangichthys longidorsalis: Named material and a published systematic or phylogenetic treatment support this bounded identification. Confidence remains medium because the profile does not turn a sampled placement into direct ancestry or universal consensus."
+      referenceLinks:
+        - referenceId: giles-2017-ray-fin-timescale
+          relation: supports
+          pages: 265–268
+          figure: Figures 1–3
+          quoteLocator: Main text; Methods; Supplementary Methods and character matrices
+    - subjectId: taxon:fukangichthys
+      claimType: biogeography
+      claimKind: scientific
+      statement: The named Fukangichthys specimens come from the Middle Triassic Kelamayi Formation of Xinjiang, China; this sample does not establish global distribution.
+      confidence: medium
+      confidenceRationale: "Fukangichthys longidorsalis: The primary study reports the named locality and horizon directly. Confidence is medium because one study sample cannot establish absence, endemism or a global geographic range."
+      referenceLinks:
+        - referenceId: giles-2017-ray-fin-timescale
+          relation: supports
+          pages: 265–268
+          figure: Figures 1–3
+          quoteLocator: Main text; Methods; Supplementary Methods and character matrices
+    - subjectId: taxon:fukangichthys
+      claimType: ecology
+      claimKind: scientific
+      statement: The cited studies focus on anatomy and topology and do not directly establish diet, habitat preference, swimming performance or trophic guild.
+      confidence: medium
+      confidenceRationale: "Fukangichthys longidorsalis: The evidence boundary is explicit: depositional or anatomical context is retained while unsupported behaviour and niche claims are withheld. Medium confidence applies to that bounded negative statement, not to a reconstructed ecology."
+      referenceLinks:
+        - referenceId: giles-2017-ray-fin-timescale
+          relation: supports
+          pages: 265–268
+          figure: Figures 1–3
+          quoteLocator: Main text; Methods; Supplementary Methods and character matrices
+    - subjectId: taxon:fukangichthys
+      claimType: morphology
+      claimKind: scientific
+      statement: CT and comparative anatomy of IVPP V4096.6 and IVPP V4096.13 supply endoskeletal and external characters used to revise scanilepiform placement.
+      confidence: medium
+      confidenceRationale: "Fukangichthys longidorsalis: The cited figures and descriptions directly document the named anatomical observations. Confidence is medium rather than universal because preservation and specimen sampling limit character completeness and variation."
+      referenceLinks:
+        - referenceId: giles-2017-ray-fin-timescale
+          relation: supports
+          pages: 265–268
+          figure: Figures 1–3
+          quoteLocator: Main text; Methods; Supplementary Methods and character matrices
+    - subjectId: taxon:fukangichthys
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 247–241.464 Ma interval is a Middle Triassic Kelamayi Formation envelope and is separate from the topology-dependent crown-actinopterygian calibration.
+      confidence: medium
+      confidenceRationale: "Fukangichthys longidorsalis: The primary source and concrete locator support the displayed sample interval. Confidence is medium because the envelope is explicitly specimen- or locality-scoped and not a global first or last appearance."
+      referenceLinks:
+        - referenceId: giles-2017-ray-fin-timescale
+          relation: supports
+          pages: 265–268
+          figure: Figures 1–3
+          quoteLocator: Main text; Methods; Supplementary Methods and character matrices
+        - referenceId: xu-2014-fukangichthys-revision
+          relation: supports
+          pages: 747–759
+          figure: Figures 1–9
+          quoteLocator: Systematic palaeontology; locality and horizon; specimen revision
+  claim-rationales.zh:
+    - Fukangichthys longidorsalis：具名材料和已发表的系统或系统发育处理支持这一有限鉴定。置信度保持中等，因为画像不会把取样位置转化为直接祖先或普遍共识。
+    - Fukangichthys longidorsalis：一手研究直接报告了具名地点与层位。置信度为中等，因为单一研究样本不能确定缺失、特有性或全球地理范围。
+    - Fukangichthys longidorsalis：证据边界是明确的：保留沉积或解剖背景，同时不填补无依据的行为与生态位。中等置信度针对这一有限的否定性陈述，而非重建生态。
+    - Fukangichthys longidorsalis：所引图件与描述直接记录了具名解剖观察。由于保存与标本取样限制了性状完整性和变异，置信度为中等而非普遍结论。
+    - Fukangichthys longidorsalis：一手来源与具体定位符支持显示的样本区间。置信度为中等，因为该包络明确限定于标本或地点，而非全球首现或末现。
+  claim-statements.zh:
+    - Fukangichthys longidorsalis 是斯堪尼勒鱼类，CT 支持的分析将其置于多鳍鱼干群；该位置是取样拓扑而非直接祖先关系。
+    - 具名 Fukangichthys 标本来自中国新疆中三叠世 Kelamayi 组；该样本不能确定全球分布。
+    - 所引研究聚焦解剖与拓扑，不能直接确定食性、栖息地偏好、游泳性能或营养行会。
+    - IVPP V4096.6 与 IVPP V4096.13 的 CT 和比较解剖提供了用于修订斯堪尼勒鱼类位置的内骨骼与外部性状。
+    - 显示的 247–241.464 Ma 区间是中三叠世 Kelamayi 组包络，与依赖拓扑的辐鳍鱼冠群校准相互独立。
+  ranges:
+    - entityId: fukangichthys
+      rangeKind: global-composite
+      taxonomicConcept: Fukangichthys longidorsalis represented study sample
+      geographicScope: Kelamayi Formation, Xinjiang, China
+      olderMa: 247
+      youngerMa: 241.464
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Formation-scale Middle Triassic envelope; specimen occurrence and topology-dependent calibration remain distinct.
+      evidenceBasis: The named Fukangichthys sample occurs in Middle Triassic Kelamayi Formation strata; the display interval is locality-scoped and does not encode the modelled crown recalibration.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:fukangichthys:fossil-range
+      referenceLocators:
+        - referenceId: giles-2017-ray-fin-timescale
+          locator: 265–268; Figures 1–3; Main text; Methods; Supplementary Methods and character matrices
+        - referenceId: xu-2014-fukangichthys-revision
+          locator: pp. 747–759; Figs. 1–9; Systematic palaeontology, locality and horizon

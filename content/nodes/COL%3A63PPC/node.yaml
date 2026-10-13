@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Poyntonophrynus
+  displayName: Poyntonophrynus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63PPC
+  sourceIndexes:
+    - name:
+        en: Poyntonophrynus
+        zh: Poyntonophrynus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63PPC
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/188
+            queryName: Poyntonophrynus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8b150592f1
+      - s-67e171439f
+      - s-2da6fb676b
+      - s-1b80f0b06c
+      - s-fb8b10f314
+      - s-6fbd598124
+      - s-d44dfd6067
+      - s-8424ca1d0b
+      - s-f58369355f
+      - s-7e84c73c5a
+      - s-62beb4ac78
+    zh:
+      - s-90900b4986
+      - s-1e728f5dfa
+      - s-e278d46f2e
+      - s-0f95a44d6d
+      - s-1435e9e929
+      - s-179cad7bc6
+      - s-79d54f8a59
+      - s-47d51f5402
+      - s-cff422f1a8
+      - s-b8cf53375c
+      - s-830dab44fd

@@ -1,0 +1,179 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Palaeoryx pallasi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Palaeoryx pallasi
+      en: Palaeoryx pallasi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-441e5c6bc8
+            part: body
+          en:
+            page: en
+            section: s-4b3fc03535
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-aa6972b6d8
+            part: body
+          en:
+            page: en
+            section: s-34b4d956d5
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c80ad8a008
+            part: body
+          en:
+            page: en
+            section: s-6706e37ca7
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8f669f5d4c
+            part: body
+          en:
+            page: en
+            section: s-4710843099
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9434f1fc4d
+            part: body
+          en:
+            page: en
+            section: s-4c640ddba5
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Palaeoryx pallasi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=379945&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:379945; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:379945
+          selectedOccurrenceIds:
+            - occ:157949
+            - occ:427957
+            - occ:706326
+            - occ:1348592
+            - occ:1348608
+            - occ:1423391
+            - occ:1452834
+            - occ:1488748
+            - occ:1488756
+            - occ:1488795
+            - occ:1705334
+          selectedCollectionIds:
+            - col:13998
+            - col:41746
+            - col:75796
+            - col:182745
+            - col:182748
+            - col:197642
+            - col:202630
+            - col:202215
+            - col:202216
+            - col:207135
+            - col:241687
+          sourceReferenceIds:
+            - ref:6183
+            - ref:11169
+            - ref:24838
+            - ref:60908
+            - ref:67382
+            - ref:69436
+            - ref:71312
+            - ref:61193
+            - ref:92682
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-c681b69038
+        part: body
+      en:
+        page: en
+        section: s-d1fd3c87df
+        part: body

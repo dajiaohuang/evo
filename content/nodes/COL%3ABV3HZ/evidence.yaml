@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Xanthonycticebus intermedius (Dao Van Tien, 1960)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 北部倭蜂猴
+      en: Northern Pygmy Slow Loris
+    sections:
+      - topic: taxonomyAndLineage
+        text:
+          zh:
+            page: zh
+            section: s-36feaf6df0
+            part: body
+          en:
+            page: en
+            section: s-5643283291
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - blair2023
+      - topic: regionalFieldEvidence
+        text:
+          zh:
+            page: zh
+            section: s-e3fedbdede
+            part: body
+          en:
+            page: en
+            section: s-ca05f7697f
+            part: body
+        sourceIds:
+          - yang2026
+      - topic: evidenceLimits
+        text:
+          zh:
+            page: zh
+            section: s-f8f3353666
+            part: body
+          en:
+            page: en
+            section: s-8291fb55e4
+            part: body
+        sourceIds:
+          - yang2026
+          - blair2023
+          - mdd_name
+    sources:
+      - id: taxonomy
+        referenceId: ref-36e765bd-004c-8c86-a605-45557c54a951
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 固定接受名、作者、种级等级和属级父链；不提供生物学证据。
+            en: Pins the accepted name, authorship, species rank, and genus parent; it is not biological evidence.
+      - id: mdd_name
+        referenceId: ref-4937d4c2-6ddf-851b-a164-6db1d38941b8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 提供英文普通名、国家分布和所列 IUCN 类别等版本化汇总字段；中文名为编辑译名。
+            en: Provides version-specific summary fields including the English common name, country listing, and displayed IUCN category; the Chinese name is editorial.
+      - id: blair2023
+        referenceId: ref-2194b82d-e5be-8727-a37a-cb71248638ef
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 以历史博物馆标本及分子数据研究蜂猴类群谱系和分类；不提供现存种群普查。
+            en: Uses historical museum specimens and molecular data to study loris lineages and taxonomy; it is not a census of living populations.
+      - id: yang2026
+        referenceId: ref-6bf95f2e-bcce-8fb4-a36a-aa414cb6698a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 报告 2025 年 6—10 月广西四县夜间灯照调查及 98 只个体记录；是局地调查，不是全分布区普查。
+            en: Reports a June–October 2025 nighttime spotlight survey in four Guangxi counties and 98 individuals; this is a local survey, not a range-wide census.
+    limitations:
+      zh:
+        page: zh
+        section: s-3d991ae2bc
+        part: body
+      en:
+        page: en
+        section: s-120319246d
+        part: body

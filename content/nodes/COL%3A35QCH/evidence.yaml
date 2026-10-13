@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Diclis stellarioides Hiern
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 35QCH, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 35QCH; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/35QCH
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 35QCH
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000646108-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 35QCH / WFO wfo-0000646108
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_931_0
+        referenceId: ref-0985f5f9-c242-848c-a3e4-ce6ee6f9178d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Diclis stellarioides Hiern account; archive rows 81504 (Morphology), 81334 (Habitat), source identifier 931.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: A weak herb, very slender, annual, shining, minutely glandular-pilose, ascending or suberect, 5-12 in. high; stem tetragonal, inconspicuously furrowed, simple or sparingly branched; internodes exceeding the leaves; leaves opposite, ovate, elliptic or lanceolate, obtuse at the apex, more or less narrowed, sometimes abruptly so at the base, petiolate or the uppermost pair in some cases sessile, thinly membranous, translucent, 1/5-2/3 in. long, 1/8-1/3 in. broad, subentire or few-toothed; petioles ranging up to 1/6 in. long; racemes terminal, few-flowered, lax, 3/4-2 in. long; bracts alternate, lanceolate, obtuse, sessile, entire, smaller than the leaves, recurved in fruit; pedicels 1/5-3/5 in. long; calyx-segments linear-oval or sublinear, obtuse, minutely puberulous and ciliolate, 1/12-1/9 in. long; corolla 2/5 in. long and broad; lower corolla-lip trifid, 1/4-1/3 in. long; lobes ovate-oblong, rounded, and emarginate at the apex, 1/5 in. long; upper corolla-lip nearly as long as the lower, broad, bifid; palate nearly glabrous; umbo marked with orange-coloured papillae; spur conical, subsaccate, obtuse, about 1/12 in. long; stamens 4; anthers small; pollen very small, spheroidal, marked with about 6 longitudinal furrows, smooth; capsule subquadrate, broadly excised at the apex, unequally rounded or subtruncate at the base, glabrous, pallid, 1/4 in. long, not quite as broad; seeds broadly winged, including the wing 1/12 in. long, 1/20 in. broad, oval-oblong and emarginate at both ends, the body sublinear, pale yellowish-green and tuberculate, wings white and marked with approximate parallel minute ribs transverse to the body of the seed.
+            sourceIds:
+              - sanbi_931_0
+            locator: "SANBI/WFO archive Morphology row 81504; source 931.0; publication: Hiern, WP. 1904. XCV. Scrophulariaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 4(1-3): 121 - 420. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15241#page/129/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Among shrubs in a deep valley.
+            sourceIds:
+              - sanbi_931_0
+            locator: "SANBI/WFO archive Habitat row 81334; source 931.0; publication: Hiern, WP. 1904. XCV. Scrophulariaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 4(1-3): 121 - 420. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15241#page/129/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Diclis stellarioides Hiern
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Diclis stellarioides
+      zh: Diclis stellarioides
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/35QCH
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 35QCH
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000646108-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 35QCH / WFO wfo-0000646108
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_931_0
+        referenceId: ref-0985f5f9-c242-848c-a3e4-ce6ee6f9178d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Diclis stellarioides Hiern account; archive rows 81504 (Morphology), 81334 (Habitat), source identifier 931.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e56d8ed47d
+            part: title
+          zh:
+            page: zh
+            section: s-5ba7de26cb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e56d8ed47d
+            part: body
+          zh:
+            page: zh
+            section: s-5ba7de26cb
+            part: body
+        sourceIds:
+          - sanbi_931_0
+        locator: "SANBI/WFO archive Morphology row 81504; source 931.0; publication: Hiern, WP. 1904. XCV. Scrophulariaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 4(1-3): 121 - 420. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15241#page/129/mode/1up]. [All rights reserved]"
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4cd188b898
+            part: title
+          zh:
+            page: zh
+            section: s-0f105221ca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4cd188b898
+            part: body
+          zh:
+            page: zh
+            section: s-0f105221ca
+            part: body
+        sourceIds:
+          - sanbi_931_0
+        locator: "SANBI/WFO archive Habitat row 81334; source 931.0; publication: Hiern, WP. 1904. XCV. Scrophulariaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 4(1-3): 121 - 420. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15241#page/129/mode/1up]. [All rights reserved]"

@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus bipunctatus
+  displayName: Rhacophorus bipunctatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXCK
+  sourceIndexes:
+    - name:
+        en: Rhacophorus bipunctatus
+        zh: Rhacophorus bipunctatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXCK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/221
+            queryName: Rhacophorus bipunctatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/227
+            queryName: Chirixalus cherrapunjiae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/424
+            queryName: Chiromantis cherrapunjiae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/5
+            queryName: Rhacophorus htunwini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/229
+            queryName: Philautus cherrapunjiae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/368
+            queryName: Rhacophorus reinwardtii bipunctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-015c5266a8
+      - s-bcc055d907
+      - s-b01eb7d4a4
+      - s-a88f934a4b
+      - s-5f1229f4f0
+      - s-4bd9d40be9
+      - s-5f383b479e
+      - s-2d8733adaf
+      - s-0f8a6c531a
+      - s-21572990dd
+    zh:
+      - s-fb99f2d38e
+      - s-35b91ac871
+      - s-ef2761a050
+      - s-a290a0ce75
+      - s-8cb33032df
+      - s-b8f559616b
+      - s-408aec34bc
+      - s-83da125753
+      - s-61586c257e
+      - s-8377320ec3

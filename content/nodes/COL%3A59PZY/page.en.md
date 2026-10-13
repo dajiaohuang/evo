@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Turnera vallisii? {#s-38c736d76e}
+Petiolate leaves are obovate, ovate, elliptic or nearly circular, with scalloped margins and woolly hairs on both surfaces. Extrafloral nectaries may be present or absent; stipules may be reduced to glands. Inflorescences may be racemes or a single flower on the leaf surface. Peduncles and bracteoles are present, but pedicels are absent. Corolla color is unknown; there is no corona, and filaments join the floral tube at the base. Styles are heterostylous. The fruit exocarp is smooth. Seeds are net-veined, with smooth or papillose outer layers and a prominent chalaza.
+

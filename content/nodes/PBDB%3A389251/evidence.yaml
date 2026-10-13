@@ -1,0 +1,140 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Panthasaurus
+    rank: genus
+    sourceTaxonId: txn:389251
+    name:
+      en: Panthasaurus
+      zh: Panthasaurus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-bbad7f4d71
+            part: body
+          zh:
+            page: zh
+            section: s-da143996d8
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Material in the captured fossil roster
+          zh: 捕获化石名录中的材料
+        text:
+          en:
+            page: en
+            section: s-d4f383bdf2
+            part: body
+          zh:
+            page: zh
+            section: s-d1fb21781d
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-b30ef5d77c
+            part: body
+          zh:
+            page: zh
+            section: s-ca48d92d42
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-1c781a75c2
+            part: body
+          zh:
+            page: zh
+            section: s-3a56a1fc3c
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:389251; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: |-
+      S. Chakravorti and D. P. Sengupta. 2018. Taxonomy, morphometry and morphospace of cranial bones
+      of Panthasaurus gen. nov. maleriensis from the Late Triassic of India. Journal of Iberian Geology
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:251933
+      exactOccurrenceCount: 4
+      datedOccurrenceCount: 4
+      collectionIntervalBoundsMa:
+        older: 237
+        younger: 205.7
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1c781a75c2
+            part: body
+          zh:
+            page: zh
+            section: s-3a56a1fc3c
+            part: body
+        sourceIds: []

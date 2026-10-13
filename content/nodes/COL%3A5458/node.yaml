@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Incilius
+  displayName: Incilius
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5458
+  sourceIndexes:
+    - name:
+        en: Incilius
+        zh: Incilius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "5458"
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/460
+            queryName: Incilius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 186
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b32f1a3f3e
+      - s-cd5edaf4fb
+      - s-4f9e104b80
+      - s-2ca4eaf609
+      - s-d1ab1fbac9
+      - s-2f5c754992
+      - s-0c177aec28
+      - s-c307796163
+      - s-a79edf9a25
+      - s-88a162de8d
+      - s-c734378da9
+      - s-d13645f659
+      - s-9c3baf2ae9
+      - s-c01bae7073
+      - s-9e9c9cc895
+      - s-6a7e4cfd3a
+      - s-dd169fa5b1
+      - s-85bcace76e
+      - s-29ec5faa51
+      - s-36454acb91
+      - s-d1143d785f
+      - s-b1d62787d9
+      - s-c04a8f32e1
+      - s-96d790df60
+      - s-9c249cbba0
+      - s-41275dce14
+      - s-780073238c
+      - s-78281703b4
+      - s-7d5ef06745
+    zh:
+      - s-e601c2d000
+      - s-35e096ddab
+      - s-130bf701a8
+      - s-ee897b22b0
+      - s-5fa088b927
+      - s-6d7610a819
+      - s-56806ba420
+      - s-5bf41aa422
+      - s-5c3f7db440
+      - s-5ebb625346
+      - s-358026333f
+      - s-0dacb061fc
+      - s-a939071ce7
+      - s-3b75af66f4
+      - s-b6d5681f21
+      - s-fbbbccddb5
+      - s-018355eec8
+      - s-e9ab9c1c61
+      - s-21fef10859
+      - s-bafaac1fd2
+      - s-56c5b9c92e
+      - s-82285890d7
+      - s-997c3c32ca
+      - s-2aeb655c39
+      - s-a4b6c83440
+      - s-81b270fcb2
+      - s-2d70c50842
+      - s-238e2f6c09
+      - s-96074cf624

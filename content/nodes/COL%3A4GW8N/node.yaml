@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus cryptotis
+  displayName: Phrynobatrachus cryptotis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW8N
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus cryptotis
+        zh: Phrynobatrachus cryptotis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW8N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/117
+            queryName: Phrynobatrachus cryptotis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0fad497fd0
+      - s-8514f46c4d
+      - s-c5da4713eb
+      - s-e86f1bd3a0
+      - s-3be0a4aef7
+      - s-5456779219
+      - s-1951d515d2
+      - s-7a3e12efac
+    zh:
+      - s-c6ee303c9e
+      - s-799a2b5856
+      - s-2736a9e748
+      - s-3a1b764d1c
+      - s-a8ebc4fc09
+      - s-83b9ab7251
+      - s-9112be9fb9
+      - s-bebe8ee636

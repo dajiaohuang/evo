@@ -1,0 +1,437 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis mallii Reyes-Puig, Reyes-Puig, Velarde-Garcéz, Dávalos, Mancero, Navarrete, Yánez-Muñoz et al., 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis mallii
+      zh: Pristimantis mallii
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-aca9ed3849
+            part: title
+          zh:
+            page: zh
+            section: s-62fe176f5a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aca9ed3849
+            part: body
+          zh:
+            page: zh
+            section: s-62fe176f5a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b615c45ade
+            part: title
+          zh:
+            page: zh
+            section: s-1df9a304a7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b615c45ade
+            part: body
+          zh:
+            page: zh
+            section: s-1df9a304a7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b59f15f019
+            part: title
+          zh:
+            page: zh
+            section: s-1ce33d4c6e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b59f15f019
+            part: body
+          zh:
+            page: zh
+            section: s-1ce33d4c6e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-384f55d21574a9bcbbe0c19e
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-f205a854ed
+            part: title
+          zh:
+            page: zh
+            section: s-c5d5fc85cb
+            part: title
+        sourceIds:
+          - primary-pmc6435602-4mjhf
+        text:
+          en:
+            page: en
+            section: s-f205a854ed
+            part: body
+          zh:
+            page: zh
+            section: s-c5d5fc85cb
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e0a588b083
+            part: title
+          zh:
+            page: zh
+            section: s-85991bafe0
+            part: title
+        sourceIds:
+          - primary-pmc6435602-4mjhf
+        text:
+          en:
+            page: en
+            section: s-e0a588b083
+            part: body
+          zh:
+            page: zh
+            section: s-85991bafe0
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-28ff67a6d9
+            part: title
+          zh:
+            page: zh
+            section: s-8793d8eb20
+            part: title
+        sourceIds:
+          - primary-pmc6435602-4mjhf
+        text:
+          en:
+            page: en
+            section: s-28ff67a6d9
+            part: body
+          zh:
+            page: zh
+            section: s-8793d8eb20
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-b4faa7b48c
+            part: title
+          zh:
+            page: zh
+            section: s-2f9e72eb92
+            part: title
+        sourceIds:
+          - primary-pmc10348306-4mjhf
+        text:
+          en:
+            page: en
+            section: s-b4faa7b48c
+            part: body
+          zh:
+            page: zh
+            section: s-2f9e72eb92
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-aa3be3c349
+            part: title
+          zh:
+            page: zh
+            section: s-0679067a76
+            part: title
+        sourceIds:
+          - primary-pmc10348306-4mjhf
+        text:
+          en:
+            page: en
+            section: s-aa3be3c349
+            part: body
+          zh:
+            page: zh
+            section: s-0679067a76
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-2b8e92b0c0
+            part: body
+          zh:
+            page: zh
+            section: s-ad6cfbd989
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis mallii
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MJHF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4647, 4648; Reference.csv rows 1712
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc6435602-4mjhf
+        referenceId: ref-bf5bb846-661b-4372-a055-6c66fb921617
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis mallii: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10348306-4mjhf
+        referenceId: ref-f541a688-07cc-4b92-a1e2-0431d4f1f2b0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis mallii: XML Study site, Fieldwork, Filtration, Specimen processing, Molecular assays, Reference database, Bioinformatics, Results and Discussion sections read; original supplementary detection tables, deposited reads, presence–absence matrices and scripts not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2184421aa0
+        part: body
+      zh:
+        page: zh
+        section: s-4ffe124caf
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.832.30874
+        referenceId: ref-bf5bb846-661b-4372-a055-6c66fb921617
+        sourceKey: primary-pmc6435602-4mjhf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6435602/article.xml
+        sourceConcept: Pristimantis mallii
+        evidenceRead: "Pristimantis mallii: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Río Zuñag cloud-forest records
+              zh: Río Zuñag 云雾林记录
+            referenceId: ref-bf5bb846-661b-4372-a055-6c66fb921617
+            sourceKey: primary-pmc6435602-4mjhf
+            locator: "Pristimantis mallii: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7777651c9c
+                part: body
+              zh:
+                page: zh
+                section: s-65f07598c7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Several vegetation substrates above the ground
+              zh: 离地的数种植被基质
+            referenceId: ref-bf5bb846-661b-4372-a055-6c66fb921617
+            sourceKey: primary-pmc6435602-4mjhf
+            locator: "Pristimantis mallii: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-99cfbcc2ba
+                part: body
+              zh:
+                page: zh
+                section: s-1f7af2afdc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Amplexus and egg deposition after capture
+              zh: 抱对与捕获后产卵
+            referenceId: ref-bf5bb846-661b-4372-a055-6c66fb921617
+            sourceKey: primary-pmc6435602-4mjhf
+            locator: "Pristimantis mallii: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-41be466f04
+                part: body
+              zh:
+                page: zh
+                section: s-612ed0d39f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.15455
+        referenceId: ref-f541a688-07cc-4b92-a1e2-0431d4f1f2b0
+        sourceKey: primary-pmc10348306-4mjhf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10348306/article.xml
+        sourceConcept: 2023 source-labelled Pristimantis mallii in Tena microbasin monitoring or reference-database assessment
+        evidenceRead: "Pristimantis mallii: XML Study site, Fieldwork, Filtration, Specimen processing, Molecular assays, Reference database, Bioinformatics, Results and Discussion sections read; original supplementary detection tables, deposited reads, presence–absence matrices and scripts not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A downstream molecular signal is not a local range extension
+              zh: 下游分子信号不等于地方分布扩张
+            referenceId: ref-f541a688-07cc-4b92-a1e2-0431d4f1f2b0
+            sourceKey: primary-pmc10348306-4mjhf
+            locator: PMC10348306 XML Results eDNA vs. VES comparison; Study site; Discussion eDNA vs. VES; Benefits and limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3342a7d935
+                part: body
+              zh:
+                page: zh
+                section: s-1b91fcb745
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Transport and contamination remain different explanations
+              zh: 迁移与污染是不同解释
+            referenceId: ref-f541a688-07cc-4b92-a1e2-0431d4f1f2b0
+            sourceKey: primary-pmc10348306-4mjhf
+            locator: PMC10348306 XML Bioinformatics and statistical analysis; Discussion eDNA vs. VES
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5fdcf07903
+                part: body
+              zh:
+                page: zh
+                section: s-7ddf102fdf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

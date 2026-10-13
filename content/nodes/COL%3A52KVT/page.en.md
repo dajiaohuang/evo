@@ -1,0 +1,6 @@
+## What vine, flower and fruit traits are recorded for Stigmaphyllon hypargyreum? {#s-a7ce330ab4}
+This vine has smooth-to-dense silky hairs on branches, petioles, flower stalks and sepals. Opposite leaves are broad ovate or oblong-ovate, 8–13(–15) × 5–9(–10) cm, with pointed tips and rounded, flat or shallowly heart-shaped bases. The upper surface is hairless except along the midrib; the lower is densely silky-haired. Margins are entire or irregularly scalloped, with seven or eight pairs of prominent ascending veins. Petioles are 1–7 cm long and have two sessile glands near the tip. Terminal or axillary pseudo-umbels bear 10–16 flowers. The showy flowers have five sepals, all but one glandular, and five clawed yellow petals, some with orange below; three petals are reduced and orange to red. Six stamens are long, with styles partly covering the anthers; pollen is sticky. There are three styles. The fruit splits into three winged samaras; each has a hairy, angular-tubercled body and a dorsal wing that widens toward its tip.
+
+## What distribution does the source report? {#s-b49e3dcf1c}
+The source reports the species in tropical moist-forest regions of Panama and Colombia. This is the distribution statement in the cited account, not a current range survey.
+

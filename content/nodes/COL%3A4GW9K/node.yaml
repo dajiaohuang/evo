@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus kakamikro
+  displayName: Phrynobatrachus kakamikro
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW9K
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus kakamikro
+        zh: Phrynobatrachus kakamikro
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW9K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/139
+            queryName: Phrynobatrachus kakamikro
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e561f17d6e
+      - s-4e7c46d3a7
+      - s-81483a7c8a
+      - s-f1e59a084e
+      - s-d9b5331b60
+      - s-dd0f4796d1
+      - s-4222fc1981
+      - s-a02430a689
+      - s-fe5f172f53
+      - s-74112bbf26
+      - s-bf534bf578
+      - s-36246c53cb
+      - s-c2d80222c7
+      - s-47df3f4280
+      - s-44a8442b7d
+      - s-f6948447a5
+      - s-5ba54eac28
+    zh:
+      - s-fc24a093d0
+      - s-ce45dc7942
+      - s-decf280c38
+      - s-fc40666201
+      - s-c9fbc0275d
+      - s-2111e49e74
+      - s-f555525200
+      - s-de2cacdfe7
+      - s-0f0cd2efba
+      - s-993e38403b
+      - s-b58ead767e
+      - s-4e42f77766
+      - s-9428bc9069
+      - s-b8c2f6f7a3
+      - s-e2d0ce9664
+      - s-bc65ee4e3e
+      - s-06037a814d

@@ -1,0 +1,3 @@
+## ## Large bracts before the flowers open {#s-6993e8cade}
+The Brazilian Flora 2020 entry records strigose stems with incurved or forward-appressed simple hairs and unbranched, thread-like setae. Branched setae, glandular hairs, prickles and short shoots are absent. The stipules are shed, and extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose; before the flowers open, the floral bracts are longer than the flowers. The flowers have four perianth parts and a paleaceous calyx with pappus-like lobes. Corolla lobes are pubescent and have one to three veins; the androecium is isostemonous, with pink filaments. A habitat field says “terrestrial,” without specifying a locality or finer habitat.
+

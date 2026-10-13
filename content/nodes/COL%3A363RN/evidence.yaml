@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Digitaria rukwae Clayton
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 363RN, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 363RN; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/363RN
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 363RN
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000864345-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 363RN / WFO wfo-0000864345
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_15456_0
+        referenceId: ref-6c17bd60-2b09-89fe-a398-8f747e0e594e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Digitaria rukwae Clayton account; SANBI/WFO archive rows 62484 (Morphology), 63824 (Habitat), 61707 (Diagnostic), source identifier 15456.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Loosely tufted perennial 250-1200 mm high; rhizomes scaly; basal sheaths glabrous or silky hairy; culm nodes dark, glabrous. Leaf blade 50-300 x 2-7 mm. Inflorescence of 6-25 racemes 20-110 mm long, borne irregularly or in untidy whorls upon an elongated axis 40-200 mm long; rachis triquetrous, narrowly winged, glabrous to scaberulous, margins scaberulous; pedicel apex scaberulous; spikelets paired. Spikelet 2.0-2.9 x 0.8 mm; lower glume ovate-triangular, margins often membranous; upper glume 3/4 as long to equalling spikelet but narrower, 3-nerved, hairy; internode absent; lower lemma as long as spikelet, hairs slender and adpressed, 7-nerved, widest spacing either side of midrib, hairy especially between outer lateral nerves for the entire length of lemma; upper lemma ellipsoid, shorter than spikelet, partly exposed, light to dark brown; anthers 1.2-1.4 mm long.
+            textZh: Digitaria rukwae Clayton 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_15456_0
+            locator: "SANBI/WFO archive Morphology row 62484; source identifier 15456.0; cited publication: Fish, L; Moeaha, MJ. 2015. Digitaria Haller. In: L Fish, AC Mashau, MJ Moeaha & MT Nembudani (eds), Identification guide to the southern Africa grasses. An identification manual with keys, descriptions and distributions, Strelitzia 36: 208 - 231. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Close to D. gazensis, which has the upper floret pale grey or yellowish to dark purplish-grey and culm nodes hairy.
+            textZh: SANBI 条目提供了 Digitaria rukwae Clayton 的鉴别特征。
+            sourceIds:
+              - sanbi_15456_0
+            locator: "SANBI/WFO archive Diagnostic row 61707; source identifier 15456.0; cited publication: Fish, L; Moeaha, MJ. 2015. Digitaria Haller. In: L Fish, AC Mashau, MJ Moeaha & MT Nembudani (eds), Identification guide to the southern Africa grasses. An identification manual with keys, descriptions and distributions, Strelitzia 36: 208 - 231. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Flood plains and alluvial soils.
+            textZh: 该 SANBI 区域物种条目记录的生境：Flood plains and alluvial soils.
+            sourceIds:
+              - sanbi_15456_0
+            locator: "SANBI/WFO archive Habitat row 63824; source identifier 15456.0; cited publication: Fish, L; Moeaha, MJ. 2015. Digitaria Haller. In: L Fish, AC Mashau, MJ Moeaha & MT Nembudani (eds), Identification guide to the southern Africa grasses. An identification manual with keys, descriptions and distributions, Strelitzia 36: 208 - 231. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Boophis xerophilus {#s-5070aa333d}
+TadpoleTraits version 4 places Boophis xerophilus in Boophis (Mantellidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Boophis xerophilus. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 4 literature rows and 0 image rows {#s-d5535ffdfb}
+TadpoleTraits version 4 links 4 literature rows and 0 image rows to Boophis xerophilus. Source row numbers — literature: 3293, 3294, 3295, 3296; image: none recorded. Populated measurement fields — literature: TL, TL.sd, BL, BL.sd, BMH, TaL, MTH, MTH.sd, TMH, TMW, TMW.sd, END.a, END.a.sd, IOD.a, E, E.sd, OD; image: none recorded. Literature row 3293: Stage 25; Literature row 3294: Stage 27-31; Literature row 3295: Stage 37-41; Literature row 3296: Stage 27-31. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

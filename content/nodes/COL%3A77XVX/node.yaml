@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys branti
+  displayName: Proceratophrys branti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77XVX
+  sourceIndexes:
+    - name:
+        en: Proceratophrys branti
+        zh: Proceratophrys branti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77XVX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/211
+            queryName: Proceratophrys branti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e72f440b47
+      - s-5e6217059b
+      - s-43bf104df2
+      - s-fe4c13caf0
+      - s-215a537cf7
+      - s-f108bf3693
+      - s-7e9f97f493
+      - s-6935fcf5bc
+      - s-e804235ded
+    zh:
+      - s-cd63974d5c
+      - s-641b42ea39
+      - s-4e48862210
+      - s-48e7ba71fd
+      - s-8eee4ebf03
+      - s-570d142eb2
+      - s-de66e6dbe9
+      - s-fa5bce766f
+      - s-1fab1f9050

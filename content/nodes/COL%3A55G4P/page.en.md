@@ -1,0 +1,3 @@
+## What leaf and flower characters are recorded? {#s-093dd31e00}
+The Flora do Brasil 2020 field describes obovate to elliptic-oblong leaves with rounded or blunt tips and narrowly wedge-shaped bases. The blades are somewhat leathery to papery, with a netted vein pattern; the surface may be hairy or become nearly hairless, and small hair tufts occur in some vein axils. Glands are absent. Elongated spikes occur in leaf axils or at branch tips and bear bisexual flowers. The lower floral cup is rusty and densely woolly-haired, the upper part cup-shaped, and the calyx lobes inconspicuous. Ten stamens occur in two whorls; the style is hairless. No fruit wings are recorded. This is a regional database field and does not establish global variation.
+

@@ -1,0 +1,340 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Beiyanerpeton
+    rank: genus
+    sourceTaxonId: txn:242131
+    name:
+      en: Beiyanerpeton
+      zh: Beiyanerpeton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-19d98e9516
+            part: body
+          zh:
+            page: zh
+            section: s-fda29c0e44
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Material in the captured fossil roster
+          zh: 捕获化石名录中的材料
+        text:
+          en:
+            page: en
+            section: s-afc3b1b2b1
+            part: body
+          zh:
+            page: zh
+            section: s-8f84c8377e
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-c0b5fdb604
+            part: body
+          zh:
+            page: zh
+            section: s-c1946cbcf4
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-ffc22297f1
+            part: body
+          zh:
+            page: zh
+            section: s-69bc0c4eff
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:242131; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: K. -Q. Gao and N. H. Shubin. 2012. Late Jurassic salamandroid from western Liaoning, China. Proceedings of the National Academy of Sciences 109(15):5767-5772
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:242132
+      exactOccurrenceCount: 1
+      datedOccurrenceCount: 1
+      collectionIntervalBoundsMa:
+        older: 161.5
+        younger: 159
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ffc22297f1
+            part: body
+          zh:
+            page: zh
+            section: s-69bc0c4eff
+            part: body
+        sourceIds: []
+  atlas-node:
+    name: Beiyanerpeton
+    commonName: Jurassic salamandroid
+    commonNameZh: 侏罗纪蝾螈总科成员
+    rank: genus
+    taxonId: txn:242131
+    firstAppearance: 160
+    lastAppearance: 154
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:242131
+    scientificName: Beiyanerpeton
+    commonName: Jurassic salamandroid
+    commonNameZh: 侏罗纪蝾螈总科成员
+    rank: genus
+    parentName: Amphibian fossil evidence route
+    extinct: true
+    geography:
+      - Hengdaozi
+      - Liaoning
+      - China
+    overview:
+      page: en
+      section: s-617f7f4ad0
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-e824f79aaf
+        part: body
+      habitat:
+        page: en
+        section: s-d9da900ff7
+        part: body
+      locomotion:
+        page: en
+        section: s-fd8fb67e92
+        part: body
+      bodySize:
+        page: en
+        section: s-9819403e60
+        part: body
+      guild:
+        page: en
+        section: s-a7c7f8e4b4
+        part: body
+    traits:
+      - page: en
+        section: s-dcb02f0e9a
+        part: body
+      - page: en
+        section: s-60e96da13b
+        part: body
+      - page: en
+        section: s-397ed8ad98
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-2139cb6c60
+      part: body
+    readerSections:
+      - id: specimens-and-development
+        sourceIds:
+          - gao-2012-beiyanerpeton
+        title:
+          en:
+            page: en
+            section: s-01a76b0662
+            part: title
+          zh:
+            page: zh
+            section: s-a0514ddafd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-01a76b0662
+            part: body
+          zh:
+            page: zh
+            section: s-a0514ddafd
+            part: body
+      - id: age-and-placement
+        sourceIds:
+          - gao-2012-beiyanerpeton
+        title:
+          en:
+            page: en
+            section: s-d920cc99bb
+            part: title
+          zh:
+            page: zh
+            section: s-5cde4367bc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d920cc99bb
+            part: body
+          zh:
+            page: zh
+            section: s-5cde4367bc
+            part: body
+    confidence: medium
+    referenceIds:
+      - gao-2012-beiyanerpeton
+  claims:
+    - subjectId: taxon:beiyanerpeton
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Beiyanerpeton is represented by holotype PKUP V0601 and referred specimens PKUP V0602–V0606 and was recovered within Salamandroidea in the published matrix.
+      confidence: medium
+      confidenceRationale: "Beiyanerpeton: Named material and a published systematic or phylogenetic treatment support this bounded identification. Confidence remains medium because the profile does not turn a sampled placement into direct ancestry or universal consensus."
+      referenceLinks:
+        - referenceId: gao-2012-beiyanerpeton
+          relation: supports
+          pages: 5767–5772
+          figure: Figures 1–4
+          quoteLocator: Geological setting; holotype and referred material; description and phylogenetic results
+    - subjectId: taxon:beiyanerpeton
+      claimType: biogeography
+      claimKind: scientific
+      statement: The six represented Beiyanerpeton specimens come from the Tiaojishan Formation at Hengdaozi in western Liaoning, China; no global range is inferred.
+      confidence: medium
+      confidenceRationale: "Beiyanerpeton: The primary study reports the named locality and horizon directly. Confidence is medium because one study sample cannot establish absence, endemism or a global geographic range."
+      referenceLinks:
+        - referenceId: gao-2012-beiyanerpeton
+          relation: supports
+          pages: 5767–5772
+          figure: Figures 1–4
+          quoteLocator: Geological setting; holotype and referred material; description and phylogenetic results
+    - subjectId: taxon:beiyanerpeton
+      claimType: ecology
+      claimKind: scientific
+      statement: Larval structures inform developmental interpretation, but diet, precise habitat preference, locomotor performance and trophic guild remain unavailable.
+      confidence: medium
+      confidenceRationale: "Beiyanerpeton: The evidence boundary is explicit: depositional or anatomical context is retained while unsupported behaviour and niche claims are withheld. Medium confidence applies to that bounded negative statement, not to a reconstructed ecology."
+      referenceLinks:
+        - referenceId: gao-2012-beiyanerpeton
+          relation: supports
+          pages: 5767–5772
+          figure: Figures 1–4
+          quoteLocator: Geological setting; holotype and referred material; description and phylogenetic results
+    - subjectId: taxon:beiyanerpeton
+      claimType: morphology
+      claimKind: scientific
+      statement: The articulated Beiyanerpeton series preserves salamandroid anatomy and larval structures interpreted as evidence of neoteny.
+      confidence: medium
+      confidenceRationale: "Beiyanerpeton: The cited figures and descriptions directly document the named anatomical observations. Confidence is medium rather than universal because preservation and specimen sampling limit character completeness and variation."
+      referenceLinks:
+        - referenceId: gao-2012-beiyanerpeton
+          relation: supports
+          pages: 5767–5772
+          figure: Figures 1–4
+          quoteLocator: Geological setting; holotype and referred material; description and phylogenetic results
+    - subjectId: taxon:beiyanerpeton
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 160–154 Ma interval bounds the Oxfordian sample; the 157 ± 3 Ma zircon date comes from overlying rock rather than directly from a skeleton.
+      confidence: medium
+      confidenceRationale: "Beiyanerpeton: The primary source and concrete locator support the displayed sample interval. Confidence is medium because the envelope is explicitly specimen- or locality-scoped and not a global first or last appearance."
+      referenceLinks:
+        - referenceId: gao-2012-beiyanerpeton
+          relation: supports
+          pages: 5767–5772
+          figure: Figures 1–4
+          quoteLocator: Geological setting; holotype and referred material; description and phylogenetic results
+  claim-rationales.zh:
+    - Beiyanerpeton：具名材料和已发表的系统或系统发育处理支持这一有限鉴定。置信度保持中等，因为画像不会把取样位置转化为直接祖先或普遍共识。
+    - Beiyanerpeton：一手研究直接报告了具名地点与层位。置信度为中等，因为单一研究样本不能确定缺失、特有性或全球地理范围。
+    - Beiyanerpeton：证据边界是明确的：保留沉积或解剖背景，同时不填补无依据的行为与生态位。中等置信度针对这一有限的否定性陈述，而非重建生态。
+    - Beiyanerpeton：所引图件与描述直接记录了具名解剖观察。由于保存与标本取样限制了性状完整性和变异，置信度为中等而非普遍结论。
+    - Beiyanerpeton：一手来源与具体定位符支持显示的样本区间。置信度为中等，因为该包络明确限定于标本或地点，而非全球首现或末现。
+  claim-statements.zh:
+    - Beiyanerpeton 由正模 PKUP V0601 与标本 PKUP V0602–V0606 代表，在已发表矩阵中位于蝾螈总科内部。
+    - 六件 Beiyanerpeton 标本来自中国辽西横道子 Tiaojishan 组；不据此推断全球延限。
+    - 幼体结构可用于发育解释，但食性、精确栖息地偏好、运动性能与营养行会仍无直接证据。
+    - 关节连接的 Beiyanerpeton 标本系列保存了蝾螈总科解剖与被解释为幼态延续证据的幼体结构。
+    - 显示的 160–154 Ma 区间限定牛津期样本；157 ± 3 Ma 锆石年龄来自上覆岩层而非骨架本身。
+  ranges:
+    - entityId: beiyanerpeton
+      rangeKind: global-composite
+      taxonomicConcept: Beiyanerpeton represented study sample
+      geographicScope: Tiaojishan Formation, Hengdaozi, western Liaoning, China
+      olderMa: 160
+      youngerMa: 154
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Displayed 160–154 Ma envelope encompasses the formation context; it is not a direct date on each skeleton or a global salamandroid range.
+      evidenceBasis: Six articulated specimens from the represented locality anchor the Oxfordian sample; the cited 157 ± 3 Ma zircon age is from overlying rock.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:beiyanerpeton:fossil-range
+      referenceLocators:
+        - referenceId: gao-2012-beiyanerpeton
+          locator: 5767–5772; Figures 1–4; Geological setting; holotype and referred material; description and phylogenetic results

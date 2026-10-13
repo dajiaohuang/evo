@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius tokyoensis
+  displayName: Hynobius tokyoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N2KR
+  sourceIndexes:
+    - name:
+        en: Hynobius tokyoensis
+        zh: Hynobius tokyoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N2KR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/203
+            queryName: Hynobius tokyoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/492
+            queryName: Hynobius tokyoesis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/493
+            queryName: Hynobius tokyoeusis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-989b3bff67
+      - s-302722e17e
+      - s-e5f7592f60
+      - s-ee7713abb3
+      - s-3d087594e9
+      - s-1833b80738
+      - s-88a66f3796
+      - s-2a762f26a4
+      - s-eac194f351
+    zh:
+      - s-8aa4ca74aa
+      - s-91cbdd1621
+      - s-f4a9a50ce7
+      - s-a3f9ff15a8
+      - s-272c30500a
+      - s-29a8b853a2
+      - s-e311106b49
+      - s-7918d22c8d
+      - s-4034350bad

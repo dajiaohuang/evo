@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eupsophus emiliopugini
+  displayName: Eupsophus emiliopugini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CYHD
+  sourceIndexes:
+    - name:
+        en: Eupsophus emiliopugini
+        zh: Eupsophus emiliopugini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CYHD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/401
+            queryName: Eupsophus emiliopugini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-88e9c888c3
+      - s-d0e18e59ee
+      - s-c1ef331b66
+      - s-feaefc236d
+      - s-c5eed37dc3
+      - s-c52bf851a8
+      - s-52c8cf500b
+      - s-7fc84a1d63
+      - s-c7f3269431
+      - s-10132b6114
+      - s-f3836f678f
+      - s-9707078df4
+      - s-b681a27b87
+      - s-513985ac35
+      - s-f30597b8a9
+      - s-b466fd76ba
+      - s-552f986a9f
+    zh:
+      - s-08984d7d63
+      - s-51a5416fb1
+      - s-544f28fdb3
+      - s-bb30844ab8
+      - s-30cf544e6e
+      - s-2fd3cad5b9
+      - s-db178fd8fd
+      - s-164f188287
+      - s-6b5beb06d6
+      - s-cd2a53a759
+      - s-4d0f994c97
+      - s-c26111168f
+      - s-f0a98d6244
+      - s-c38318f016
+      - s-8ffad795b7
+      - s-eff5a32ba4
+      - s-83866eccff

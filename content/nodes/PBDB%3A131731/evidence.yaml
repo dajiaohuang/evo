@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Glirudinus glirulus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Glirudinus glirulus
+      en: Glirudinus glirulus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-020f0c0e1b
+            part: body
+          en:
+            page: en
+            section: s-71e2f22ad8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bcf979a26e
+            part: body
+          en:
+            page: en
+            section: s-f434f10475
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1bfe23615e
+            part: body
+          en:
+            page: en
+            section: s-df51616983
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-33bc289eed
+            part: body
+          en:
+            page: en
+            section: s-b459036508
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a4c36d9dae
+            part: body
+          en:
+            page: en
+            section: s-a75fa91e45
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Glirudinus glirulus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=131731&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:131731; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:131731
+          selectedOccurrenceIds:
+            - occ:615329
+            - occ:615330
+            - occ:615331
+            - occ:615332
+            - occ:782821
+            - occ:1353728
+            - occ:1353741
+            - occ:1353745
+            - occ:1353747
+            - occ:1353750
+            - occ:1353761
+            - occ:1355414
+            - occ:1468626
+          selectedCollectionIds:
+            - col:66110
+            - col:66111
+            - col:66109
+            - col:66105
+            - col:84364
+            - col:36716
+            - col:179146
+            - col:183542
+            - col:36712
+            - col:36715
+            - col:183543
+            - col:37208
+            - col:84606
+          sourceReferenceIds:
+            - ref:18709
+            - ref:28268
+            - ref:61321
+            - ref:60953
+            - ref:70399
+          originalIdentificationMappings:
+            - occurrenceId: occ:615329
+              originalIdentifiedName: '"Glirudinus" glirulus'
+              acceptedName: Glirudinus glirulus
+              difference: null
+            - occurrenceId: occ:615330
+              originalIdentifiedName: '"Glirudinus" glirulus'
+              acceptedName: Glirudinus glirulus
+              difference: null
+            - occurrenceId: occ:615331
+              originalIdentifiedName: '"Glirudinus" glirulus'
+              acceptedName: Glirudinus glirulus
+              difference: null
+            - occurrenceId: occ:615332
+              originalIdentifiedName: '"Glirudinus" glirulus'
+              acceptedName: Glirudinus glirulus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-92fbcb4b6c
+        part: body
+      en:
+        page: en
+        section: s-0d10c3d770
+        part: body

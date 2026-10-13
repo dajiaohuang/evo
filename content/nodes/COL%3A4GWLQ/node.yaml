@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynomedusa appendiculata
+  displayName: Phrynomedusa appendiculata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWLQ
+  sourceIndexes:
+    - name:
+        en: Phrynomedusa appendiculata
+        zh: Phrynomedusa appendiculata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWLQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/201
+            queryName: Phrynomedusa appendiculata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/497
+            queryName: Phyllomedusa appendiculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-22572cf40e
+      - s-998326fec2
+      - s-be69762dd8
+      - s-90909368c5
+      - s-3a7724797a
+      - s-4ed9570949
+      - s-2d8c407a85
+      - s-7befda1791
+      - s-f8e2db5308
+      - s-7bd98a97f7
+      - s-ef19bc366a
+      - s-8292c042a5
+      - s-4bac349165
+      - s-68e85b1bc1
+      - s-7f9c0eb5bd
+    zh:
+      - s-6231473391
+      - s-ec36c48d5c
+      - s-b543d303d5
+      - s-20237e0e82
+      - s-1565ad7b88
+      - s-a27ff72784
+      - s-36ea02e782
+      - s-4d281911b7
+      - s-95efa22d9a
+      - s-1d0259ca87
+      - s-9e9d668d60
+      - s-6d3a0facb5
+      - s-97c23d9d55
+      - s-0296c94f2d
+      - s-643caf1617

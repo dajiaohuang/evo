@@ -1,0 +1,3 @@
+## Character alternatives in the regional record {#s-4c1c6675de}
+The Brazilian Flora 2020 morphology field lists multiple states for *Prepusa dibotrya*: stems may be unbranched or branch only at the base, with colour recorded as green, vinaceous, or brown. Leaves are described as crowded near the stem base or in rosettes, with rounded or blunt tips. Bracts are joined only at their bases. The calyx is green or yellowish, with triangular lobes and a winged lower face; the funnel-shaped corolla is listed as cream, yellow, greenish, vinaceous, or brown. The record preserves these alternatives without identifying a single form or explaining their scope.
+

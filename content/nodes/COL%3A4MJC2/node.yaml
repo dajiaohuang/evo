@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis colomai
+  displayName: Pristimantis colomai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJC2
+  sourceIndexes:
+    - name:
+        en: Pristimantis colomai
+        zh: Pristimantis colomai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJC2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/207
+            queryName: Pristimantis colomai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/312
+            queryName: Eleutherodactylus colomai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-95be5a73b1
+      - s-b4c5663fa1
+      - s-25fc80d677
+      - s-78f030b02c
+      - s-f236f1d127
+      - s-9ad0911d12
+      - s-4ee6a997d3
+      - s-9d9c0134db
+      - s-40f0def4fa
+    zh:
+      - s-b8fa97f803
+      - s-76278d3909
+      - s-298ffbbad6
+      - s-eab7474527
+      - s-588efb0314
+      - s-547b2c198d
+      - s-568b70f274
+      - s-c348ffc964
+      - s-d429a0f435

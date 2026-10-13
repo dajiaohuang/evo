@@ -1,0 +1,23 @@
+## Find seven historical rows through Basileuterus combinations {#s-3e766dc234}
+Seven guides follow COL26.8 Myiothlypis (VHF9Q) and Parulidae (626BR). Seven eBird names match BirdLife with matching respective Avibase IDs and one-to-one types. Seven BirdTree Basileuterus combinations each have an exact synonym pointing to this batch’s accepted ID. Older endings are leucoblepharus, nigrocristatus, flaveolus, coronatus and signatus for leucoblephara, nigrocristata, flaveola, coronata and signata; fraseri and leucophrys keep their endings. An additional Myiodioctes coronatus catalogue synonym is not an actual crosswalk name. The genus has 18 immediate catalogue children; the earlier fulvicauda life-history route remains separate. Seven pages do not complete genus content.
+
+## More total birds need not mean more complete sets {#s-2daeeed2fe}
+coronata has 78 birds (11 female, nine male, 58 unsexed), 18 complete sets; signata 51 (11 female, ten male, 30 unsexed), 24 complete. The former has more total birds but fewer complete sets, without establishing sampling quality or individual field sample sizes. flaveola has 21 (eight female, nine male, four unsexed), nigrocristata 13 (five female, six male, two unsexed), leucoblephara nine (three female, five male, one unsexed) and fraseri six (two female, two male, two unsexed), each with four complete sets. leucophrys has four birds, two female and two male, all complete. Dunning mass remains independent: 11.3–18.1 g is only this batch’s compiled mean endpoints, without morphology counts as weighing denominators or sex/individual mass bounds.
+
+## Three lifestyles within a shared food niche {#s-dd37e12d76}
+All seven retain separate Invertivore/Carnivore and migration 1 codes: the first two use 60% and 70% category thresholds rather than measured diets; migration 1 is sedentary without implying lifelong immobility. Two Terrestrial records at leucoblephara/leucophrys mean most time on the ground obtaining food while walking or hopping. Four Insessorial records at fraseri/nigrocristata/coronata/signata mean much time perching on raised substrates. Generalist at flaveola means no primary lifestyle rather than omnivory. Five Forest records include four density 1 and nigrocristata density 2; two Woodland records have density 1 at flaveola and 2 at fraseri. Habitat does not replace density, density does not mean bird abundance, and codes do not supply precise foraging height, social behavior, breeding or current maps.
+
+## Begin with two denominators at coronata and signata {#s-cb282931ba}
+Compare total, complete and unsexed counts at coronata (78/18) and signata (51/24), then four all-complete birds at leucophrys and nine/four at leucoblephara. Compare Woodland density 1/2 and Generalist/Insessorial at flaveola/fraseri. Return to seven older Basileuterus combinations and changed endings. The earlier fulvicauda life-history entry retains its events and compilation definitions rather than becoming morphology or food evidence for this batch.
+
+Group 1: [Myiothlypis leucoblephara](Myiothlypis_leucoblephara/page.en.md), [Myiothlypis fraseri](Myiothlypis_fraseri/page.en.md), [Myiothlypis nigrocristata](Myiothlypis_nigrocristata/page.en.md), [Myiothlypis flaveola](Myiothlypis_flaveola/page.en.md)
+
+Group 2: [Myiothlypis coronata](Myiothlypis_coronata/page.en.md), [Myiothlypis leucophrys](Myiothlypis_leucophrys/page.en.md), [Myiothlypis signata](Myiothlypis_signata/page.en.md)
+
+## Choose comparison pages by life-history fields {#s-29ce368b7b}
+This batch’s Myiothlypis route includes 1 historical life-history account; start with Myiothlypis fulvicauda. More frequently represented fields include adult body mass (1 entry), offspring per litter or eggs per clutch (1 entry), oviposition to hatching (1 entry), age at flight capability (leaving the nest in some source material) (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
+
+## Life-history evidence limits {#s-ca63446f74}
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+Seven added Basileuterus guides separate total, complete and unsexed counts from independent mass. Three lifestyle codes do not supply direct behavioral observations; complete content for 18 catalogue children, current maps remain unfinished.
+

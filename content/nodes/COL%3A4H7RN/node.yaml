@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllomedusa iheringii
+  displayName: Phyllomedusa iheringii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7RN
+  sourceIndexes:
+    - name:
+        en: Phyllomedusa iheringii
+        zh: Phyllomedusa iheringii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7RN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/275
+            queryName: Phyllomedusa iheringii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/7
+            queryName: Pithecopus iheringii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/112
+            queryName: Phyllomedusa burmeisteri iheringii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/113
+            queryName: Pithecopus burmeisteri iheringii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-385512a779
+      - s-e57202be34
+      - s-ebcf17ea6b
+      - s-0ae195900a
+      - s-7ab3efccce
+      - s-c0e338b9c2
+      - s-3102f04312
+      - s-b59a21a332
+      - s-acd61b8889
+      - s-2d3ae04097
+      - s-fa59257d1a
+      - s-3c0f1ee0d6
+      - s-3cc7e73ca6
+      - s-d1c4c74955
+      - s-4b1d0d6f1a
+      - s-7398f208c1
+      - s-607e3f6443
+      - s-a3a2d63539
+      - s-5638c2ec96
+      - s-7cd4f8f3bc
+    zh:
+      - s-c7a6a330f3
+      - s-aad1acde4c
+      - s-6930baca45
+      - s-04a0021ddf
+      - s-c5fb41edc5
+      - s-f4a9d0b478
+      - s-e435f33adc
+      - s-ad7d4c49cd
+      - s-1414ff2a55
+      - s-64e0af30f7
+      - s-32d8c6d0c0
+      - s-340d1b5100
+      - s-9bd6cf5623
+      - s-6062365c5b
+      - s-79aefbe105
+      - s-a169b36ffa
+      - s-2c7b0eb800
+      - s-96813cf36e
+      - s-038d6ea9ba
+      - s-c91070a1f9

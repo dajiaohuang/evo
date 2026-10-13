@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Macrogenioglottus alipioi
+  displayName: Macrogenioglottus alipioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3X53L
+  sourceIndexes:
+    - name:
+        en: Macrogenioglottus alipioi
+        zh: Macrogenioglottus alipioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3X53L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/255
+            queryName: Macrogenioglottus alipioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6b8b354e38
+      - s-9168d3a924
+      - s-d7a2f6de66
+      - s-b8bf2d323b
+      - s-f04b6bf3a4
+      - s-24c26cf80d
+      - s-e4751aff27
+      - s-9462b95c83
+      - s-e6ad36215b
+      - s-26d2dc3ecb
+      - s-bfb20a5e41
+      - s-ea3444e43a
+      - s-8bf5434d5c
+      - s-d6b22bbfa7
+      - s-79fedf1c21
+      - s-1fe2f5fa8a
+      - s-56af4742d5
+      - s-9234612ffb
+      - s-499368b655
+    zh:
+      - s-cfc4a3bf2b
+      - s-f2d2de3533
+      - s-afef0bd367
+      - s-9522ed41bd
+      - s-60e9f0a847
+      - s-6ca771a6a4
+      - s-03810b4e9b
+      - s-573225631e
+      - s-1fc9ffc47a
+      - s-a663d1ac58
+      - s-6a60befd00
+      - s-19842ad889
+      - s-bd0632a272
+      - s-953737d2af
+      - s-f096f1b13e
+      - s-fcaece386f
+      - s-7f7f91a27f
+      - s-bf75ae75a9
+      - s-48a2c00f41

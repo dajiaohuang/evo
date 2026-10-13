@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenophrys serchhipii
+  displayName: Xenophrys serchhipii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CB35
+  sourceIndexes:
+    - name:
+        en: Xenophrys serchhipii
+        zh: Xenophrys serchhipii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CB35
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/295
+            queryName: Xenophrys serchhipii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/21
+            queryName: Megophrys serchhipii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1106fceb2a
+      - s-3403dc6fcf
+      - s-46e6c926b6
+      - s-c354962ed8
+      - s-5ccd79b09e
+      - s-05a32b9ded
+      - s-1a071310d1
+      - s-1d123396a6
+      - s-af9de65f55
+    zh:
+      - s-561a42b86c
+      - s-03e556702e
+      - s-bd421acd09
+      - s-3bb511765a
+      - s-0177d20fa9
+      - s-6fe0c79d08
+      - s-318ca64cc5
+      - s-bb08d1ca8c
+      - s-7e7b1473eb

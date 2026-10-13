@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates chiricahuensis
+  displayName: Lithobates chiricahuensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHPV
+  sourceIndexes:
+    - name:
+        en: Lithobates chiricahuensis
+        zh: Lithobates chiricahuensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHPV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/166
+            queryName: Lithobates chiricahuensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 43
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/214
+            queryName: Rana chiricahuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 46
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/99
+            queryName: Rana subaquavocalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/319
+            queryName: Lithobates subaquavocalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-34ba731605
+      - s-7a5fbfd58d
+      - s-0035302d19
+      - s-a9e66a1561
+      - s-38b25b51c5
+      - s-844f36dfae
+      - s-4466337246
+      - s-049771e583
+      - s-76f2821cf5
+      - s-300154cf14
+      - s-6ce8cd3f28
+      - s-966f74d9d5
+      - s-5bd2ec63e7
+      - s-021bfd327c
+      - s-844724f1ae
+      - s-40b2bc2cca
+      - s-92ea0347b2
+      - s-13f3914bdf
+      - s-fa60d533aa
+      - s-27eeb2996f
+    zh:
+      - s-ebf4abc30e
+      - s-19ba61596f
+      - s-dcd04f0196
+      - s-066e551bc1
+      - s-71cee7e06d
+      - s-61ae1e9e0f
+      - s-cbedea7ed0
+      - s-d03f4a0863
+      - s-04840c9881
+      - s-7236cb9be5
+      - s-9afd2e5ef1
+      - s-91d1decca6
+      - s-72b507be66
+      - s-2a2e7e0126
+      - s-7f01b0749b
+      - s-cce3d11301
+      - s-d1140ade28
+      - s-e1a68128df
+      - s-d1ed6db939
+      - s-16d3ef721b

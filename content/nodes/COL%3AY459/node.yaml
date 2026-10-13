@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus shellyi
+  displayName: Cophixalus shellyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y459
+  sourceIndexes:
+    - name:
+        en: Cophixalus shellyi
+        zh: Cophixalus shellyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y459
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/483
+            queryName: Cophixalus shellyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eaa12c54b0
+      - s-60d2a9f43a
+      - s-2eef6361bb
+      - s-25e8fe6a48
+      - s-51919af2be
+      - s-312d888ff0
+      - s-c3666b2688
+      - s-6b806f2288
+      - s-7144d682dd
+    zh:
+      - s-224e59d37f
+      - s-79caa1a8cd
+      - s-a572800df6
+      - s-05e3ec3467
+      - s-beac3558fb
+      - s-330f40cbcd
+      - s-92eff988d3
+      - s-1e42b4187c
+      - s-b9728c994b

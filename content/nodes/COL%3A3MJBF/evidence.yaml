@@ -1,0 +1,265 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hoolock leuconedys (Groves, 1967)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 东部白眉长臂猿
+      en: Eastern hoolock gibbon
+    sections:
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-bd45e7e0fc
+            part: body
+          en:
+            page: en
+            section: s-4bde4cdf0f
+            part: body
+        sourceIds:
+          - roy2015hoolock
+    sources:
+      - id: roy2015hoolock
+        referenceId: ref-d9205b17-ea02-8fa6-aff2-91191a73ddfb
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 印度 Arunachal Pradesh 的 Mehao 野生动物保护区；2012 年 2—5 月对 Sally Lake 两群和 20 Kilo 一群放归后群体进行约两个月观察。
+            en: Mehao Wildlife Sanctuary, Arunachal Pradesh, India; three post-release groups at Sally Lake and 20 Kilo were observed for about two months each from February to May 2012.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/3MJBF
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-bdcb5464c6
+        part: body
+      en:
+        page: en
+        section: s-aca36f0e12
+        part: body
+  catalogue-dossier:
+    scientificName: Hoolock leuconedys (Groves, 1967)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact COL26.8 accepted species usage was verified by COL ID, verbatim scientific name, authorship, rank, accepted status, sourceDatasetId, and every accepted parent node in the pinned hierarchy.
+      scope: Evidence comes from a short preliminary post-release activity and feeding study of three family groups at Mehao Wildlife Sanctuary in India; it does not establish the species' usual diet or behavior across its range.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4DT
+        scientificName: Haplorrhini Pocock, 1918
+        authorship: Pocock, 1918
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4PM
+        scientificName: Simiiformes Haeckel, 1866
+        authorship: Haeckel, 1866
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 58L
+        scientificName: Hominoidea Gray, 1825
+        authorship: Gray, 1825
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: B9K
+        scientificName: Hylobatidae Gray, 1871
+        authorship: Gray, 1871
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4YHR
+        scientificName: Hoolock Mootnick & Groves, 2005
+        authorship: Mootnick & Groves, 2005
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3MJBF
+        scientificName: Hoolock leuconedys (Groves, 1967)
+        authorship: (Groves, 1967)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    lifeStatusScope:
+      wild: The study observed free-ranging post-release family groups that had been translocated after rescue; they were not a representative sample of wild-born populations.
+      domesticated: Captive populations have not been assessed as a separate group.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; pinned source checklist
+          url: https://www.checklistbank.org/dataset/316115/taxon/3MJBF
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:3MJBF@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: Accepted species usage 3MJBF; exact accepted name, authorship, species rank, sourceDatasetId 2144, and accepted parent chain verified in the pinned hierarchy.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 accepted-name identity and classification metadata only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3MJBF. https://doi.org/10.48580/dgywk
+      - id: roy2015hoolock
+        referenceId: ref-198255ee-f0e8-85c7-aaf2-2f3535213531
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: The article's copyright statement on PDF line 18 identifies CC BY 4.0 International.
+          licenseAppliesTo: Published article text; this dossier paraphrases findings and does not reproduce figures, tables, or separately credited material.
+          stableId: doi:10.11609/jott.o3869.7862-9
+          accessedAt: 2026-09-28
+          locator: Abstract (PDF lines 29-32); study context and groups (lines 47-65); diet observations (lines 90-96); study limitations (lines 104-110); article copyright/license notice (line 18).
+          licenseAssessment: item-level-verified
+          scope: Original preliminary activity-budget study of translocated post-release Eastern Hoolock Gibbon family groups at Mehao Wildlife Sanctuary; findings are limited to the observed groups and short study period.
+          attribution: "Roy K, Nautiyal H, Dasgupta S. (2015). A preliminary study on the activity budget of post released Eastern Hoolock Gibbon Hoolock leuconedys (Mammalia: Primates: Hylobatidae) in Mehao Wildlife Sanctuary, Arunachal Pradesh, India. Journal of Threatened Taxa 7(12):7862-7869. https://doi.org/10.11609/JoTT.o3869.7862-9. Findings paraphrased."
+    facets:
+      morphology:
+        status: not-assessed
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In a short 2012 post-release study at Mehao Wildlife Sanctuary, feeding observations of three Eastern Hoolock Gibbon family groups recorded fruits and flowers at the Sally Lake groups; the 20 Kilo group also had leaves and animal matter recorded. These observations describe only those groups during the preliminary survey and do not establish the species' usual or range-wide diet.
+            sourceIds:
+              - roy2015hoolock
+            locator: Study groups and sites (PDF lines 47-65); diet observations (PDF lines 90-96); authors' limits (PDF lines 104-110).
+            placeTimeScope: Mehao Wildlife Sanctuary, Arunachal Pradesh, India, February-May 2012; the claim covers two post-release family groups at Sally Lake and one at 20 Kilo, monitored for approximately two months per group.
+            lifeStatus: Free-ranging post-release groups from rescued/translocated families; the paper does not establish diet for wild-born or captive populations.
+            originalLanguage: en
+        gaps:
+          - The study was preliminary and short-term, with three post-release family groups at one sanctuary.
+          - The authors note that detailed vegetation and phenology data were not collected; feeding observations do not establish habitat causes or usual species-wide diet.
+          - Morphology, life history, other ecology, evolution, broader distribution, fossils, conservation, systematic search, remain unassessed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

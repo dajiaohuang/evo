@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis ixalus
+  displayName: Pristimantis ixalus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJFL
+  sourceIndexes:
+    - name:
+        en: Pristimantis ixalus
+        zh: Pristimantis ixalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJFL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/324
+            queryName: Pristimantis ixalus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/388
+            queryName: Eleutherodactylus ixalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-31c137053d
+      - s-da57ae3ca7
+      - s-4944188cbc
+      - s-99bb0d4ecf
+      - s-dab2533622
+      - s-ca82b35ac0
+      - s-8b08063aeb
+    zh:
+      - s-80b339d516
+      - s-b1a7d9b3c9
+      - s-1dc868bfb9
+      - s-a3d31fdeb6
+      - s-db872a90b4
+      - s-ff684be61b
+      - s-ec92ec4020

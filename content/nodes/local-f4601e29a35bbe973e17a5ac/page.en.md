@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-815f6c62d1}
+The version 3 Amphibian database lists Microhyla fissipes in a source measurement table. Its classification fields read order = Anura, family = Microhylidae, genus = Microhyla; the linked citation is in Reference.csv row 850. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-c2c89eccae}
+Anura.csv rows 3275, 3276 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 3275 (M) = 21.8, row 3276 (F) = 22.2; HL: row 3275 (M) = 5.2, row 3276 (F) = 5.1; HW: row 3275 (M) = 6.7, row 3276 (F) = 6.4; other populated codes are ED, IOD, IND, UEW, EN, NS, HAL, FLL, FL, TL, TSL, HLL, … (19 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

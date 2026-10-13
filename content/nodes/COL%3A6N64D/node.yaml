@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis laosensis
+  displayName: Ichthyophis laosensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N64D
+  sourceIndexes:
+    - name:
+        en: Ichthyophis laosensis
+        zh: Ichthyophis laosensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N64D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/409
+            queryName: Ichthyophis laosensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c5f8ab86d1
+      - s-92368c90f8
+      - s-e695695c94
+      - s-8fff2caf8d
+      - s-661ce1b353
+      - s-9a4bc6704c
+      - s-d145d94455
+      - s-3f9961a7af
+      - s-e3e59ed09f
+      - s-79ab65a0ec
+      - s-5f3fb6b15f
+      - s-68f8a494db
+    zh:
+      - s-b168b65f62
+      - s-f3c4521662
+      - s-3011242f84
+      - s-cf247fd1ad
+      - s-f8cbab34f2
+      - s-89ebf4dc1a
+      - s-14e85a8eab
+      - s-1f244c64da
+      - s-5788b02108
+      - s-265bea97e1
+      - s-0f86528d9f
+      - s-2944f91e74

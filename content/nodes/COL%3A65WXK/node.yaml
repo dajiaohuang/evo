@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates amissibilis
+  displayName: Allobates amissibilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65WXK
+  sourceIndexes:
+    - name:
+        en: Allobates amissibilis
+        zh: Allobates amissibilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65WXK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/123
+            queryName: Allobates amissibilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-128aa9fa6b
+      - s-7fee1f4651
+      - s-4014953d88
+      - s-a670dc6fd7
+      - s-8f4d835946
+      - s-dcb7ab0288
+      - s-c43fa8654c
+      - s-d7c3bc9b80
+      - s-2280cd4176
+      - s-06009c2483
+    zh:
+      - s-d35c7c8487
+      - s-37a23bd6f5
+      - s-caa6c3f5bd
+      - s-e4f808bfe9
+      - s-3aeafa58e4
+      - s-ff87f7e7f9
+      - s-149dbea041
+      - s-b2597cf26b
+      - s-0c84092c49
+      - s-38eb7f31a6

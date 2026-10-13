@@ -1,0 +1,209 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tinimomys graybulliensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Tinimomys graybulliensis
+      en: Tinimomys graybulliensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-724a375701
+            part: body
+          en:
+            page: en
+            section: s-9a9cc8e793
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-95dbe4707d
+            part: body
+          en:
+            page: en
+            section: s-397a4824d5
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2c58410322
+            part: body
+          en:
+            page: en
+            section: s-0f38e0abab
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4e67253b4a
+            part: body
+          en:
+            page: en
+            section: s-d352d92ce4
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-726169b9a4
+            part: body
+          en:
+            page: en
+            section: s-0ca7157f2c
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Tinimomys graybulliensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=52321&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:52321; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:52321
+          selectedOccurrenceIds:
+            - occ:166857
+            - occ:166899
+            - occ:166959
+            - occ:169008
+            - occ:169062
+            - occ:169123
+            - occ:169267
+            - occ:169403
+            - occ:171317
+            - occ:171405
+            - occ:172319
+            - occ:172549
+            - occ:172550
+            - occ:173244
+            - occ:173282
+            - occ:462567
+            - occ:1376243
+          selectedCollectionIds:
+            - col:15081
+            - col:15085
+            - col:15090
+            - col:15491
+            - col:15493
+            - col:15503
+            - col:15510
+            - col:15515
+            - col:15729
+            - col:15738
+            - col:15883
+            - col:15912
+            - col:16039
+            - col:16055
+            - col:15586
+            - col:188084
+          sourceReferenceIds:
+            - ref:1656
+            - ref:2159
+            - ref:2963
+            - ref:1112
+            - ref:2953
+            - ref:3021
+            - ref:1042
+            - ref:2962
+            - ref:6294
+            - ref:2926
+            - ref:11717
+            - ref:63098
+          originalIdentificationMappings:
+            - occurrenceId: occ:172319
+              originalIdentifiedName: Tinimomys loomisi
+              acceptedName: Tinimomys graybulliensis
+              difference: null
+            - occurrenceId: occ:172549
+              originalIdentifiedName: Tinimomys loomisi
+              acceptedName: Tinimomys graybulliensis
+              difference: null
+            - occurrenceId: occ:462567
+              originalIdentifiedName: Tinimomys graybullensis
+              acceptedName: Tinimomys graybulliensis
+              difference: misspelling of
+            - occurrenceId: occ:1376243
+              originalIdentifiedName: Tinimomys graybulliensis n. gen. n. sp.
+              acceptedName: Tinimomys graybulliensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-eb9f0fe531
+        part: body
+      en:
+        page: en
+        section: s-b09a834f9b
+        part: body

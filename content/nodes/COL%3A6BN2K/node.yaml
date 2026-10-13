@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ctenophryne geayi
+  displayName: Ctenophryne geayi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BN2K
+  sourceIndexes:
+    - name:
+        en: Ctenophryne geayi
+        zh: Ctenophryne geayi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BN2K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/262
+            queryName: Ctenophryne geayi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/343
+            queryName: Ctenophryne geagi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2fc9d60e97
+      - s-5bbc62c236
+      - s-0d4f587002
+      - s-721c63de7b
+      - s-65ae94e226
+      - s-aa8294ea08
+      - s-6aa7fb348f
+      - s-45ae2669c8
+      - s-7e16cdca52
+      - s-f2e184e6d0
+      - s-8e55aa0446
+      - s-92c071e60a
+      - s-54d717a83a
+      - s-9201f0df7c
+      - s-047b8ce08d
+      - s-8aff17b869
+      - s-5f7f77af1c
+      - s-5b412134b4
+      - s-c73674f06c
+      - s-573d2c08ca
+      - s-800c8f8a30
+    zh:
+      - s-bd309138fb
+      - s-25c2f0f969
+      - s-fe0a1e1840
+      - s-5dfd868677
+      - s-226a0ff979
+      - s-9c68ad1e69
+      - s-1a3639303b
+      - s-a3b6f32153
+      - s-5fef23c8ac
+      - s-46aaa35c5d
+      - s-d3e3237a09
+      - s-802d62e843
+      - s-264ce1f441
+      - s-34e207f464
+      - s-a02eec0998
+      - s-9a79de04b3
+      - s-f7cbda8eac
+      - s-ba994edeff
+      - s-726d23409b
+      - s-1d434e0b76
+      - s-6a81963040

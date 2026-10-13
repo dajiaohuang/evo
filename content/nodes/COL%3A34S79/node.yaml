@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus seniculus
+  displayName: Dendropsophus seniculus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S79
+  sourceIndexes:
+    - name:
+        en: Dendropsophus seniculus
+        zh: Dendropsophus seniculus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S79
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/422
+            queryName: Dendropsophus seniculus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/469
+            queryName: Hyla senicula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/293
+            queryName: Hyla burmeisteri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/294
+            queryName: Hyla dasynotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/407
+            queryName: Hyla marmorata senicula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e16421fc8f
+      - s-80df53d758
+      - s-c54093022b
+      - s-6d7d485b22
+      - s-2b2f03db40
+      - s-026a08bd7a
+      - s-497957fad7
+      - s-59c4beebae
+      - s-65d43c309f
+      - s-b9d0b12746
+      - s-88ebb9d892
+      - s-7c8510398a
+      - s-1b4220a57d
+      - s-af11d4b450
+      - s-a2cb3a263b
+      - s-f5d3a0f74d
+    zh:
+      - s-5db294fc32
+      - s-7894a2327a
+      - s-b41f15902d
+      - s-6e2d96cd8a
+      - s-e54d951630
+      - s-d20661be0b
+      - s-513eee703c
+      - s-d17f7774c0
+      - s-eb1df8da5b
+      - s-fea6134aa9
+      - s-f345bb700a
+      - s-51655b285a
+      - s-3d670a83c0
+      - s-db7cc8763c
+      - s-aea3eb9c1a
+      - s-71ac58de7a

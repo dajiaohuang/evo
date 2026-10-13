@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates sevosus
+  displayName: Lithobates sevosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72KVV
+  sourceIndexes:
+    - name:
+        en: Lithobates sevosus
+        zh: Lithobates sevosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72KVV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/193
+            queryName: Lithobates sevosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/333
+            queryName: Rana capito sevosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/189
+            queryName: Rana sevosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/427
+            queryName: Rana areolata sevosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-788d23ac57
+      - s-39f467758d
+      - s-4bc55cd873
+      - s-cb1325da9c
+      - s-08b269c3c7
+      - s-4f8eae037f
+      - s-a4e726fefa
+      - s-a71184cf42
+      - s-599848e111
+      - s-2b897db321
+      - s-3230888b3a
+      - s-13127ad388
+      - s-7c80db1cae
+      - s-257401c59d
+    zh:
+      - s-50c8d503ab
+      - s-ed4109010c
+      - s-dfd30fb8f7
+      - s-77226ed70f
+      - s-6e0902c6e0
+      - s-be0c865b9d
+      - s-bfbed905eb
+      - s-bee30f7444
+      - s-09289376e4
+      - s-485aab5255
+      - s-7f0fdcf448
+      - s-e59e1e3f48
+      - s-5dcba75b43
+      - s-2f1024b5cf

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phantasmarana jordanensis
+  displayName: Phantasmarana jordanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/RWZCG
+  sourceIndexes:
+    - name:
+        en: Phantasmarana jordanensis
+        zh: Phantasmarana jordanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: RWZCG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/20
+            queryName: Phantasmarana jordanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/234
+            queryName: Cycloramphus jordanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/309
+            queryName: Megaelosia jordanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51d03ed230
+      - s-78b647c2b5
+      - s-a968e3fce6
+      - s-cfe652d447
+      - s-d5f9598bb4
+      - s-e9c95c1f74
+      - s-531a0422e8
+      - s-2629d0739d
+      - s-6398d11e87
+      - s-e4824a8372
+      - s-d9466eb727
+      - s-b05251c574
+    zh:
+      - s-f9210afdc2
+      - s-d94080abfc
+      - s-3bf02cf1ba
+      - s-ca8764f899
+      - s-04f83b2004
+      - s-94948ae343
+      - s-de3ec4b59b
+      - s-8934e495f7
+      - s-e9e9d97aee
+      - s-5af0a45cd3
+      - s-1306c166e2
+      - s-789126ba71

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophryne linanitensis
+  displayName: Pelophryne linanitensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CFT
+  sourceIndexes:
+    - name:
+        en: Pelophryne linanitensis
+        zh: Pelophryne linanitensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CFT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/465
+            queryName: Pelophryne linanitensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c5ef379a13
+      - s-557eca4f66
+      - s-304b61e3fc
+      - s-42a2771763
+      - s-2d7f46cd58
+      - s-e9ea8e7ae2
+      - s-9593ece789
+      - s-345816d4e2
+      - s-3165bdb976
+      - s-8c4f122e0b
+      - s-4719efcb1d
+      - s-ccfc4f0807
+    zh:
+      - s-73f1f39638
+      - s-da9d098242
+      - s-d527015016
+      - s-fc93f9d084
+      - s-a2f36707f4
+      - s-71d42da53d
+      - s-78c7e4adf2
+      - s-dfdab3a23e
+      - s-0300d77816
+      - s-488f334a95
+      - s-a772fad7a1
+      - s-27c1411252

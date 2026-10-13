@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Proteus Laurenti, 1768
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Proteus
+      zh: Proteus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-08d6668910
+            part: title
+          zh:
+            page: zh
+            section: s-35baf3dfad
+            part: title
+        text:
+          en:
+            page: en
+            section: s-08d6668910
+            part: body
+          zh:
+            page: zh
+            section: s-35baf3dfad
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-94f7c3684b
+            part: title
+          zh:
+            page: zh
+            section: s-0f80cd3551
+            part: title
+        text:
+          en:
+            page: en
+            section: s-94f7c3684b
+            part: body
+          zh:
+            page: zh
+            section: s-0f80cd3551
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-9d6cfeb2cb
+            part: title
+          zh:
+            page: zh
+            section: s-c69feef1b1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9d6cfeb2cb
+            part: body
+          zh:
+            page: zh
+            section: s-c69feef1b1
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-a8899da7bd
+            part: title
+          zh:
+            page: zh
+            section: s-88a1c666f0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a8899da7bd
+            part: body
+          zh:
+            page: zh
+            section: s-88a1c666f0
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-cd8321aeb0
+            part: title
+          zh:
+            page: zh
+            section: s-9bfc298567
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4N3XG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4N3XG
+            label:
+              en: Proteus anguinus
+              zh: Proteus anguinus
+        text:
+          en:
+            page: en
+            section: s-cd8321aeb0
+            part: body
+          zh:
+            page: zh
+            section: s-9bfc298567
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Proteus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6XHY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Proteus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2eb9e4c6bb
+        part: body
+      zh:
+        page: zh
+        section: s-964f00b471
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Proteus
+      sourceRowIds:
+        - Anf6493
+      foragingCounts:
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false

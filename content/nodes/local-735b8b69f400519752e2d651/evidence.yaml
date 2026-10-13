@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis kelephus
+    name:
+      en: Pristimantis kelephus
+      zh: Pristimantis kelephus
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6ac4eab48a
+            part: body
+          zh:
+            page: zh
+            section: s-3f8a0ec4ab
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ac2422a685
+            part: body
+          zh:
+            page: zh
+            section: s-25df6130e3
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4609, 4610; Reference.csv rows 1564
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4609
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis kelephus
+          - F
+          - "28.5"
+          - "11.33"
+          - "10.72"
+          - "3.84"
+          - "1.15"
+          - "1.25"
+          - "2.84"
+          - NA
+          - "2.44"
+          - "3.65"
+          - NA
+          - NA
+          - NA
+          - "6.52"
+          - NA
+          - NA
+          - NA
+          - "16.35"
+          - "14.69"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4610
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis kelephus
+          - M
+          - "19.69"
+          - "7.57"
+          - "7.25"
+          - "2.92"
+          - "0.79"
+          - "0.82"
+          - "1.95"
+          - NA
+          - "1.74"
+          - "2.43"
+          - NA
+          - NA
+          - NA
+          - "4.34"
+          - NA
+          - NA
+          - NA
+          - "11.07"
+          - "10.23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1564
+        values:
+          - Anura
+          - Pristimantis_kelephus
+          - "Garcia-R, J. C., Mendoza, Á. M., Ospina, O., Cardenas, H., & Castro, F. (2014). A morphometric and molecular approach to define three closely related species of frogs of the Genus Pristimantis(Anura: Craugastoridae) from the Cordillera Occidental in Colombia. Journal of Herpetology, 48(2), 220-227. https://doi.org/10.1670/12-091"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - UEW
+      - EN
+      - FLL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

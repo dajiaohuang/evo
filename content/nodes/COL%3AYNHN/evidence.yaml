@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Corvus culminatus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Corvus culminatus
+      en: Corvus culminatus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-0127d01735
+            part: body
+          en:
+            page: en
+            section: s-e0feb5b022
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-67b6405b7a
+            part: body
+          en:
+            page: en
+            section: s-3177639a99
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1c0cabbb8d
+            part: body
+          en:
+            page: en
+            section: s-0a173fd813
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-0ff6c49fa3
+            part: body
+          en:
+            page: en
+            section: s-03cb1de7c5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Corvus culminatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/YNHN
+          locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 3260; name Corvus culminatus; reference table row 3260; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - litter_or_clutch_size_n
+            - incubation_d
+            - fledging_age_d
+          originalReferenceStrings:
+            adult_body_mass_g: mean of Bennett, 1986 & Dunning, 1992 from median of 4(Dunning, 1992, Dunning, 1992, Boback and Guyer, 2003, Bennett, 1986)
+            litter_or_clutch_size_n: Jetz, Sekercioglu, and Bohning-Gaese, 2008 from median of 3(Bennett, 1986, Jetz, Sekercioglu, and Bohning-Gaese, 2008, Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009)
+            incubation_d: Bennett, 1986
+            fledging_age_d: Bennett, 1986
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - Boback and Guyer, 2003
+            - Bennett, 1986
+            - Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009
+            - Jetz, Sekercioglu, and Bohning-Gaese, 2008
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+    limitations:
+      zh:
+        page: zh
+        section: s-bc77e819be
+        part: body
+      en:
+        page: en
+        section: s-3165378c92
+        part: body

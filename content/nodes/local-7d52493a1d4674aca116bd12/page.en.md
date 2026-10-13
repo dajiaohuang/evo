@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Pseudorana weiningensis {#s-8826f821a6}
+TadpoleTraits version 4 places Pseudorana weiningensis in Pseudorana (Ranidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Rana weiningensis. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 3 literature rows and 0 image rows {#s-05ac530b7b}
+TadpoleTraits version 4 links 3 literature rows and 0 image rows to Pseudorana weiningensis. Source row numbers — literature: 4729, 4730, 4731; image: none recorded. Populated measurement fields — literature: BL, BMH, BMW, TaL, MTH, OD; image: none recorded. Literature row 4729: Stage 36-38; Literature row 4730: Stage 39-40; Literature row 4731: Stage 42-43. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

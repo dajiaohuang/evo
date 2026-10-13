@@ -1,0 +1,573 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Epipedobates tricolor (Boulenger, 1899)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Epipedobates tricolor
+      zh: Epipedobates tricolor
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a88bbcef1e
+            part: title
+          zh:
+            page: zh
+            section: s-531623b13f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a88bbcef1e
+            part: body
+          zh:
+            page: zh
+            section: s-531623b13f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e1d212954a
+            part: title
+          zh:
+            page: zh
+            section: s-b9a5259a70
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e1d212954a
+            part: body
+          zh:
+            page: zh
+            section: s-b9a5259a70
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6a66b0fe5e
+            part: title
+          zh:
+            page: zh
+            section: s-9e8e4ef44c
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-6a66b0fe5e
+            part: body
+          zh:
+            page: zh
+            section: s-9e8e4ef44c
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c91309f1bc
+            part: title
+          zh:
+            page: zh
+            section: s-1c49c27e1b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-c91309f1bc
+            part: body
+          zh:
+            page: zh
+            section: s-1c49c27e1b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-3f358ea1fd
+            part: title
+          zh:
+            page: zh
+            section: s-f92040102f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-3f358ea1fd
+            part: body
+          zh:
+            page: zh
+            section: s-f92040102f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-e1588af688
+            part: title
+          zh:
+            page: zh
+            section: s-cd137f3bc7
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-e1588af688
+            part: body
+          zh:
+            page: zh
+            section: s-cd137f3bc7
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e213d6b1a7
+            part: title
+          zh:
+            page: zh
+            section: s-36c030ef6e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e213d6b1a7
+            part: body
+          zh:
+            page: zh
+            section: s-36c030ef6e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-648f85b6a25c42128d92249b6017211a
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-a96b5e6db52014a73415c3b7
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-d8f50aebca6760095ad1dda1
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0337824c8a
+            part: title
+          zh:
+            page: zh
+            section: s-1561bcaf56
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1967"
+        text:
+          en:
+            page: en
+            section: s-0337824c8a
+            part: body
+          zh:
+            page: zh
+            section: s-1561bcaf56
+            part: body
+        sourceRowNumber: 1774
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-13dd5d0920
+            part: title
+          zh:
+            page: zh
+            section: s-932bf9af56
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "2053"
+        text:
+          en:
+            page: en
+            section: s-13dd5d0920
+            part: body
+          zh:
+            page: zh
+            section: s-932bf9af56
+            part: body
+        sourceRowNumber: 1859
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2eb6e4ad99
+            part: title
+          zh:
+            page: zh
+            section: s-8f6cf82f3e
+            part: title
+        sourceIds:
+          - primary-pmc11677230-6fvnm
+        text:
+          en:
+            page: en
+            section: s-2eb6e4ad99
+            part: body
+          zh:
+            page: zh
+            section: s-8f6cf82f3e
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-af7e3160ca
+            part: title
+          zh:
+            page: zh
+            section: s-f955ba352d
+            part: title
+        sourceIds:
+          - primary-pmc11677230-6fvnm
+        text:
+          en:
+            page: en
+            section: s-af7e3160ca
+            part: body
+          zh:
+            page: zh
+            section: s-f955ba352d
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-fa42ec2cbc
+            part: title
+          zh:
+            page: zh
+            section: s-e9cab9c678
+            part: title
+        sourceIds:
+          - primary-pmc11677230-6fvnm
+        text:
+          en:
+            page: en
+            section: s-fa42ec2cbc
+            part: body
+          zh:
+            page: zh
+            section: s-e9cab9c678
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Epipedobates tricolor
+          url: https://www.checklistbank.org/dataset/316115/taxon/6FVNM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1510; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1510 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1819; Reference.csv rows 3541
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 1774, 1859, 3576; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc11677230-6fvnm
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Epipedobates tricolor: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6fe06d8a66
+        part: body
+      zh:
+        page: zh
+        section: s-5a605a7c30
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-648f85b6a25c42128d92249b6017211a
+      sourceRowId: Anf1510
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf1510
+        bibliographyRowId: Anf1510
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Epipedobates tricolor
+        candidateBibliographyRowIds:
+          - Anf1510
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-d8f50aebca6760095ad1dda1
+        scientificName: Epipedobates tricolor
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.7554/eLife.100011
+        referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+        sourceKey: primary-pmc11677230-6fvnm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11677230/article.xml
+        sourceConcept: Exactfixed source name Epipedobates tricolor; 2 sampledanimals/GC-MS, no originalvoucher/currentconcept authentication
+        evidenceRead: "Epipedobates tricolor: XML s1-1/s1-3 conceptual definitions and hypothesis, table1 all32 source rows/twoheaders/caption, s2-1 diet discussion, s2-2 direct paragraphs and s2-2-1 throughs2-2-5 sampledclade accounts, s2-3-1/2/3 predictions, s2-6/s2-7 limitations/conclusion, s3-1 throughs3-4 methods/analyses inspected. Figures captions read, images not visually inspected. Publisher returned client-challenge HTML; PMC supplementary links returned challenge/403; files1/3/4 notdownloaded/read. No original citedexperiments/raw chromatograms or supplemental individualrecords independentlyreproduced.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Original bilingual factual synthesis of sampled skin chemistry and explicitly labelled mechanistic hypotheses; no figures or raw datasets reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Skin alkaloid measurements retain individuals and assay scope
+              zh: 皮肤生物碱测量保留个体及检测范围
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-6fvnm
+            locator: PMC11677230 XML table1 row20 exactEpipedobates tricolor; tablecaption/footnote; s1-1 definitions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7e6ce5b893
+                part: body
+              zh:
+                page: zh
+                section: s-f5ac86e77a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Collection and chemical interpretation limits
+              zh: 取样与化学解读限制
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-6fvnm
+            locator: PMC11677230 XML s3-1 collection; s3-2 assay; s3-4 analyses; s2-6 limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d640d66792
+                part: body
+              zh:
+                page: zh
+                section: s-19c3c122f9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Passive accumulation remains a mechanistic hypothesis
+              zh: 被动积累仍是机制假说
+            referenceId: ref-831851df-3532-43a7-ae52-576df7f39372
+            sourceKey: primary-pmc11677230-6fvnm
+            locator: PMC11677230 XML s1-3 passive-accumulation definition/model; s2-3-2 elimination prediction; s2-3-3 transport/storage prediction; s2-7 conclusion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-30984497d9
+                part: body
+              zh:
+                page: zh
+                section: s-b1d17818dc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

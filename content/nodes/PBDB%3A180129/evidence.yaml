@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Hyperokynodon keuperinus
+    rank: species
+    sourceTaxonId: txn:180129
+    name:
+      en: Hyperokynodon keuperinus
+      zh: Hyperokynodon keuperinus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-c7c612811d
+            part: body
+          zh:
+            page: zh
+            section: s-64349562ca
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-78b451679d
+            part: body
+          zh:
+            page: zh
+            section: s-24fef7cc0a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-3870c9b90f
+            part: body
+          zh:
+            page: zh
+            section: s-c5c636a0c1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:180129; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. R. Schoch, A. R. Milner, and H. Hellrung. 2002. The last trematosaurid amphibian Hyperokynodon keuperinus revisited. Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie 321:1-9
+    occurrenceEvidence:
+      - occurrenceId: occ:930389
+        collectionId: col:106459
+        acceptedTaxonId: txn:180129
+        identifiedName: Hyperokynodon keuperinus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:35542
+        bibliography: R. R. Schoch, A. R. Milner, and H. Hellrung. 2002. The last trematosaurid amphibian Hyperokynodon keuperinus revisited. Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie 321:1-9
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Heilbronn
+        stratigraphy:
+          group: Keuper
+          formation: Stuttgart
+          member: Schilfsandstein
+        olderAgeMa: 237
+        youngerAgeMa: 227.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-3870c9b90f
+            part: body
+          zh:
+            page: zh
+            section: s-c5c636a0c1
+            part: body
+        sourceIds: []

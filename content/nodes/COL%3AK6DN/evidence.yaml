@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Babiana fimbriata (Klatt) Baker
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage K6DN, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage K6DN; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/K6DN
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage K6DN
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000788078-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL K6DN / WFO wfo-0000788078
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14562_0
+        referenceId: ref-2134358d-3cd0-8c7f-ab54-aec576ea88f5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana fimbriata (Klatt) Baker account; SANBI/WFO archive rows 33058 (Morphology), 39001 (Habitat), source identifier 14562.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana fimbriata (Klatt) Baker account; SANBI/WFO archive rows 94942 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 120-200 mm tall. Leaves nearly linear, cobwebby at base, pleated, loosely twisted, margins undulate, sparsely hairy. Flowers 5-10 in a dense, suberect spike, bilabiate, mauve marked with violet and cream, rose-scented, perianth tube 10-12 mm long, dorsal tepal 18-25 mm long, ovary smooth, bracts smooth, inner forked in upper third. July-mid Sept.
+            textZh: Babiana fimbriata (Klatt) Baker 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14562_0
+            locator: "SANBI/WFO archive Morphology row 33058; source identifier 14562.0; cited publication: Goldblatt, P; Manning, JC. 2013. Iridaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 94 - 124. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Distinguished by the hairless or nearly hairless stem and the woolly or cobwebby cataphylls and bases of the leaf sheaths, Babiana fimbriata has leaves 3-4 mm wide with the blades slightly twisted. The dark purple to almost brown flowers have greenish yellow lower lateral tepals with prominent auriculate lobes at the limb bases. The upper lateral tepals of B. fimbriata are directed forward or are slightly curved inward in the proximal half, a feature unique in the genus. Babiana spiralis, which has been confused with B. fimbriata, has smooth cataphylls and leaf sheaths, a velvety stem, and bright pink or blue flowers, also with auriculate lobes on the lower tepal limbs. The upper lateral tepals of B. spiralis curve outward shortly above the base in conventional subpatent orientation.
+            textZh: SANBI 条目提供了 Babiana fimbriata (Klatt) Baker 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94942; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky slopes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Rocky slopes.
+            sourceIds:
+              - sanbi_14562_0
+            locator: "SANBI/WFO archive Habitat row 39001; source identifier 14562.0; cited publication: Goldblatt, P; Manning, JC. 2013. Iridaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 94 - 124. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-f941499d1f
+        title:
+          en:
+            page: en
+            section: s-70832602ca
+            part: title
+          zh:
+            page: zh
+            section: s-de00add3e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-70832602ca
+            part: body
+          zh:
+            page: zh
+            section: s-de00add3e3
+            part: body
+        sourceIds:
+          - sanbi_14562_0
+      - id: page-962befca3d
+        title:
+          en:
+            page: en
+            section: s-d20d98ec16
+            part: title
+          zh:
+            page: zh
+            section: s-ccd0214ce4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d20d98ec16
+            part: body
+          zh:
+            page: zh
+            section: s-ccd0214ce4
+            part: body
+        sourceIds:
+          - sanbi_18638_0
+      - id: page-928f548ba7
+        title:
+          en:
+            page: en
+            section: s-340e3c3a24
+            part: title
+          zh:
+            page: zh
+            section: s-9208a976f5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-340e3c3a24
+            part: body
+          zh:
+            page: zh
+            section: s-9208a976f5
+            part: body
+        sourceIds:
+          - sanbi_14562_0

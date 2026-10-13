@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pipidae
+  displayName: Pipidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/625NM
+  sourceIndexes:
+    - name:
+        en: Pipidae
+        zh: Pipidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 625NM
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/448
+            queryName: Pipidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 464
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0930278001
+      - s-4471b09941
+      - s-3706107b5e
+      - s-f18a03a3ea
+      - s-a68d5e6a3e
+      - s-9ce8937129
+      - s-30735bf73d
+    zh:
+      - s-4cd39e79c3
+      - s-fa117d6db8
+      - s-243ae2ffbe
+      - s-114a8a2c7c
+      - s-d229ef43e9
+      - s-b56ade16f0
+      - s-7b396450b2

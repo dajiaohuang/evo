@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Discoglossus
+  displayName: Discoglossus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/46Q9
+  sourceIndexes:
+    - name:
+        en: Discoglossus
+        zh: Discoglossus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 46Q9
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/356
+            queryName: Discoglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 538
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8dfd6f4dbb
+      - s-854b896fda
+      - s-ac0891019c
+      - s-c67a223caf
+      - s-f313e2a8b2
+      - s-79ae25104d
+      - s-2724f50c44
+      - s-6dc81e8c0f
+      - s-1fa2513a5b
+      - s-58cb6e4034
+      - s-f41266c45e
+      - s-bd92d7d34a
+      - s-06b1d16d7d
+      - s-689b9cb62f
+      - s-b7b8b4954a
+    zh:
+      - s-7046319226
+      - s-330603b1b6
+      - s-eafe453abf
+      - s-1a5b0a835d
+      - s-e8b7de62d1
+      - s-cb29201ec8
+      - s-ac6a1e321d
+      - s-883188e471
+      - s-4caaa9541e
+      - s-381b7fdf89
+      - s-6ff10f066b
+      - s-e3093b3b60
+      - s-116f323af4
+      - s-1f9a8c63ea
+      - s-d269b70531

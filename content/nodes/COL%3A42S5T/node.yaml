@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microcaecilia unicolor
+  displayName: Microcaecilia unicolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42S5T
+  sourceIndexes:
+    - name:
+        en: Microcaecilia unicolor
+        zh: Microcaecilia unicolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42S5T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/489
+            queryName: Microcaecilia unicolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 99
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/92
+            queryName: Rhinatrema unicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 72
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/93
+            queryName: Rhinatrema concolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/94
+            queryName: Gymnopis unicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f4b2581c29
+      - s-1b1f861420
+      - s-8bedf41552
+      - s-929115f2af
+      - s-a7764924be
+      - s-a2abab0b04
+      - s-b1d8562e06
+      - s-ea4e3a62c6
+      - s-0850783e29
+    zh:
+      - s-354d5cdabc
+      - s-1b77800e95
+      - s-af6c36ff48
+      - s-14e248e481
+      - s-e3c5eb3b01
+      - s-5de558511f
+      - s-804cb96cf2
+      - s-3d5d6ca00f
+      - s-8bb73c9463

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina gracilipes
+  displayName: Austrochaperina gracilipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JVZT
+  sourceIndexes:
+    - name:
+        en: Austrochaperina gracilipes
+        zh: Austrochaperina gracilipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JVZT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/353
+            queryName: Austrochaperina gracilipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/432
+            queryName: Sphenophryne gracilipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-263f9aaaf7
+      - s-2378914a90
+      - s-3558e514c2
+      - s-bab3552f83
+      - s-12c4950c2d
+      - s-316c1e27af
+      - s-e5bec493cc
+      - s-b97ca1939e
+      - s-6c03c999f7
+      - s-e5f7277fd1
+      - s-f6747e0a44
+      - s-78b2258097
+    zh:
+      - s-96480e2da5
+      - s-f0dea0ed89
+      - s-5371171027
+      - s-aec382929c
+      - s-cf59914516
+      - s-ee38413c21
+      - s-9a2d29ff6d
+      - s-05a6f774dc
+      - s-4c1a233d19
+      - s-bad04b5d41
+      - s-aa35b94521
+      - s-3489d2098b

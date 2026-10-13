@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnodynastes tasmaniensis
+  displayName: Limnodynastes tasmaniensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DH9
+  sourceIndexes:
+    - name:
+        en: Limnodynastes tasmaniensis
+        zh: Limnodynastes tasmaniensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DH9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/44
+            queryName: Limnodynastes tasmaniensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 61
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/190
+            queryName: Limnodynastes affinis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/191
+            queryName: Limnodynastes platycephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/192
+            queryName: Limnodynastes tasmanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/164
+            queryName: Limnodynastes peronii tasmaniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/165
+            queryName: Limnodynastes peronii rugulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/166
+            queryName: Limnodynastes tasmaniensis platycephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b4ba4e4c7d
+      - s-2441d8e08a
+      - s-4ba038de8f
+      - s-800116b3c6
+      - s-5503cede6e
+      - s-796b450ac9
+      - s-8180081e11
+      - s-fbc74a3243
+      - s-a483a173c4
+      - s-59f96da96a
+    zh:
+      - s-74c0669d49
+      - s-d9ef9bf35d
+      - s-1bfe6fc0d1
+      - s-f74679ae5e
+      - s-b8a78eb738
+      - s-7b533469cc
+      - s-a6975dd7a5
+      - s-c0c1045794
+      - s-9b3422cffd
+      - s-f0524fd8b6

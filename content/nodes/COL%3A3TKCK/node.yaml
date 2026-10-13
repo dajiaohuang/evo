@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium mouhoti
+  displayName: Leptobrachium mouhoti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKCK
+  sourceIndexes:
+    - name:
+        en: Leptobrachium mouhoti
+        zh: Leptobrachium mouhoti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKCK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/338
+            queryName: Leptobrachium mouhoti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93ec7ef844
+      - s-27ccd69200
+      - s-4283a13a26
+      - s-d8a9f50737
+      - s-81d2715a36
+      - s-5ebab3df8c
+      - s-5cfbed62f0
+      - s-03db345f7e
+      - s-e10902a01b
+    zh:
+      - s-cd7c118576
+      - s-332e17bc54
+      - s-b98ae0c1b4
+      - s-0f6418ee5c
+      - s-5c42cc864e
+      - s-2fe3256907
+      - s-df05a99b02
+      - s-57fc7beb96
+      - s-14790a98f6

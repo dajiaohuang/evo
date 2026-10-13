@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Limnonectes bagoensis Köhler, Zwitzers, Than & Thammachoti, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Limnonectes bagoensis
+      zh: Limnonectes bagoensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fcba0c78b7
+            part: title
+          zh:
+            page: zh
+            section: s-15e59dab28
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fcba0c78b7
+            part: body
+          zh:
+            page: zh
+            section: s-15e59dab28
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-69c6a2c798
+            part: title
+          zh:
+            page: zh
+            section: s-38546bc281
+            part: title
+        text:
+          en:
+            page: en
+            section: s-69c6a2c798
+            part: body
+          zh:
+            page: zh
+            section: s-38546bc281
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: limitations
+        title:
+          en: Limits of name-matched references
+          zh: 名称检索文献的适用范围
+        text:
+          en:
+            page: en
+            section: s-afe44a27ee
+            part: body
+          zh:
+            page: zh
+            section: s-e67f65b85f
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Limnonectes bagoensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q7R7H
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b30d428eb8
+        part: body
+      zh:
+        page: zh
+        section: s-07d63f9040
+        part: body

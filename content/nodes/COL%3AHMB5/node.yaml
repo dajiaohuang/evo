@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Assa darlingtoni
+  displayName: Assa darlingtoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/HMB5
+  sourceIndexes:
+    - name:
+        en: Assa darlingtoni
+        zh: Assa darlingtoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: HMB5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/197
+            queryName: Assa darlingtoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/402
+            queryName: Crinia darlingtoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3fd981e076
+      - s-dc40b11077
+      - s-abb0877351
+      - s-21095a37a6
+      - s-ee13445105
+      - s-737132d680
+      - s-eb37733960
+      - s-27487e3b89
+      - s-1000bb11c2
+      - s-869a0c056b
+      - s-5c8482d65a
+      - s-126c55fb3c
+      - s-bb3dee9cad
+    zh:
+      - s-4be6abde21
+      - s-57915110a9
+      - s-1e4a3e1862
+      - s-4e513fb60b
+      - s-a887f0bbae
+      - s-cf9103dd66
+      - s-deda2dad8c
+      - s-065e5d27ca
+      - s-a8f500137a
+      - s-84dbcf10e1
+      - s-ff5fbd57d8
+      - s-3401ce4d43
+      - s-5e3b0a410f

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis anolirex
+  displayName: Pristimantis anolirex
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ9F
+  sourceIndexes:
+    - name:
+        en: Pristimantis anolirex
+        zh: Pristimantis anolirex
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ9F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/112
+            queryName: Pristimantis anolirex
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/258
+            queryName: Eleutherodactylus anolirex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-630d566e11
+      - s-2a0fbee018
+      - s-a81d2f0039
+      - s-a9f201b4d7
+      - s-b05baba53a
+      - s-de00d36411
+      - s-1e819f2358
+      - s-867683985a
+    zh:
+      - s-851952969a
+      - s-11ed146482
+      - s-6f5d391e38
+      - s-f356ce33ba
+      - s-cd0692fd74
+      - s-3e91d23b0b
+      - s-7ec1ae8a08
+      - s-a9f787ee20

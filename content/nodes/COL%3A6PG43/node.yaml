@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium gunungense
+  displayName: Leptobrachium gunungense
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PG43
+  sourceIndexes:
+    - name:
+        en: Leptobrachium gunungense
+        zh: Leptobrachium gunungense
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PG43
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/322
+            queryName: Leptobrachium gunungense
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/469
+            queryName: Leptobrachium gunungensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-641852a3d3
+      - s-7d25c7de87
+      - s-401de7a393
+      - s-f4c0a1b718
+      - s-9e55fb2695
+      - s-0e46f26554
+      - s-42dbfd605d
+      - s-531ab1a5e2
+      - s-60012ee2e2
+      - s-1459eeb6ec
+      - s-01d46bc94e
+    zh:
+      - s-7ee5d00b96
+      - s-8ff2d16773
+      - s-0a9eb69210
+      - s-219513a11b
+      - s-126a76d7aa
+      - s-ea657b66b8
+      - s-7c2808bf7b
+      - s-db18b69cfc
+      - s-d484601018
+      - s-d5a81df25c
+      - s-3bf95edb40

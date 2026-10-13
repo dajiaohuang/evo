@@ -1,0 +1,710 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gastrophryne olivacea (Hallowell, 1856)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Gastrophryne olivacea
+      zh: Gastrophryne olivacea
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a4a1eaee84
+            part: title
+          zh:
+            page: zh
+            section: s-7a84642df0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a4a1eaee84
+            part: body
+          zh:
+            page: zh
+            section: s-7a84642df0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-67613e72c4
+            part: title
+          zh:
+            page: zh
+            section: s-1acaac20f9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-67613e72c4
+            part: body
+          zh:
+            page: zh
+            section: s-1acaac20f9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-d1b9efef36
+            part: title
+          zh:
+            page: zh
+            section: s-6bf7052586
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-d1b9efef36
+            part: body
+          zh:
+            page: zh
+            section: s-6bf7052586
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-dc08e3b766
+            part: title
+          zh:
+            page: zh
+            section: s-31c9d241c1
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-dc08e3b766
+            part: body
+          zh:
+            page: zh
+            section: s-31c9d241c1
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f649991693
+            part: title
+          zh:
+            page: zh
+            section: s-a74e5440ed
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-f649991693
+            part: body
+          zh:
+            page: zh
+            section: s-a74e5440ed
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-06df89ba7a
+            part: title
+          zh:
+            page: zh
+            section: s-be89b5a5f7
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-06df89ba7a
+            part: body
+          zh:
+            page: zh
+            section: s-be89b5a5f7
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fd25e93dbf
+            part: title
+          zh:
+            page: zh
+            section: s-be699c8ee1
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-fd25e93dbf
+            part: body
+          zh:
+            page: zh
+            section: s-be699c8ee1
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0da6dad2f5
+            part: title
+          zh:
+            page: zh
+            section: s-b7edd8d8bc
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-0da6dad2f5
+            part: body
+          zh:
+            page: zh
+            section: s-b7edd8d8bc
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-316a552562
+            part: title
+          zh:
+            page: zh
+            section: s-a01e95a054
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-316a552562
+            part: body
+          zh:
+            page: zh
+            section: s-a01e95a054
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-4ab94bf9fd
+            part: title
+          zh:
+            page: zh
+            section: s-7c713a44dd
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-4ab94bf9fd
+            part: body
+          zh:
+            page: zh
+            section: s-7c713a44dd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e645e36c05
+            part: title
+          zh:
+            page: zh
+            section: s-98eb8ef5ca
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e645e36c05
+            part: body
+          zh:
+            page: zh
+            section: s-98eb8ef5ca
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-4b61b66c126d65a4ac1b267d087ffb28
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-ec24ad69a153d846ce8e7f12
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-04f1df2701
+            part: title
+          zh:
+            page: zh
+            section: s-9f6ded155f
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-04f1df2701
+            part: body
+          zh:
+            page: zh
+            section: s-9f6ded155f
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-55fbe8bc34
+            part: title
+          zh:
+            page: zh
+            section: s-be2f3bee33
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-55fbe8bc34
+            part: body
+          zh:
+            page: zh
+            section: s-be2f3bee33
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2d48f3d162
+            part: title
+          zh:
+            page: zh
+            section: s-38d3775ea8
+            part: title
+        sourceIds:
+          - primary-pmc10658874-3fdvy
+        text:
+          en:
+            page: en
+            section: s-2d48f3d162
+            part: body
+          zh:
+            page: zh
+            section: s-38d3775ea8
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-7082aef209
+            part: title
+          zh:
+            page: zh
+            section: s-ce6c0f909c
+            part: title
+        sourceIds:
+          - primary-pmc10658874-3fdvy
+        text:
+          en:
+            page: en
+            section: s-7082aef209
+            part: body
+          zh:
+            page: zh
+            section: s-ce6c0f909c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b7175059cb
+            part: title
+          zh:
+            page: zh
+            section: s-356630971c
+            part: title
+        sourceIds:
+          - primary-pmc10658874-3fdvy
+        text:
+          en:
+            page: en
+            section: s-b7175059cb
+            part: body
+          zh:
+            page: zh
+            section: s-356630971c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gastrophryne olivacea
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FDVY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 173468, row 249733; Distribution.tsv rows 54866, 54867; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4226; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4227 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 440; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10658874-3fdvy
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Gastrophryne olivacea: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-28a1f76dee
+        part: body
+      zh:
+        page: zh
+        section: s-e90a116e1b
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "173468"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=173468
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 249733
+        key: "173468"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "173468"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 54866
+            key: 173468|Middle America|text|NULL|NULL
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "173468"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 54867
+            key: 173468|North America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-4b61b66c126d65a4ac1b267d087ffb28
+      sourceRowId: Anf4226
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4226
+        bibliographyRowId: Anf4227
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Gastrophryne elegans
+        candidateBibliographyRowIds:
+          - Anf4227
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-ec24ad69a153d846ce8e7f12
+        scientificName: Gastrophryne olivacea
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1645/23-6
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        sourceKey: primary-pmc10658874-3fdvy
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10658874/article.xml
+        sourceConcept: Historical compiled hostlabel Gastrophryne olivacea; exact pinned-name link only, not originalvoucher/currentconcept authentication
+        evidenceRead: "Gastrophryne olivacea: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Original bilingual factual summaries of a compiled literature checklist; no source prose, tables, identification key or illustrations reproduced, adapted or translated.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Adult tapeworm associations in a historical North American checklist
+              zh: 北美历史清单中的成体绦虫关联
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-3fdvy
+            locator: PMC10658874 XML s3j direct-child rows70,71; s3c direct-child row24 namedGastrophryne olivacea
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a2d1f6646d
+                part: body
+              zh:
+                page: zh
+                section: s-59e42ec965
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Reported parasite localities retain their historical scope
+              zh: 寄生记录地点保留历史范围
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-3fdvy
+            locator: PMC10658874 XML s3j direct-child rows70,71; s3c direct-child row24 namedGastrophryne olivacea
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7dd09e467a
+                part: body
+              zh:
+                page: zh
+                section: s-2032a333a5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: How to interpret the compiled parasite evidence
+              zh: 如何理解汇编的寄生证据
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-3fdvy
+            locator: PMC10658874 XML s2 methods; s3a introduction; s3j introduction/Amphibia hostlabels; s5 source totals
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-48f2a1c5b3
+                part: body
+              zh:
+                page: zh
+                section: s-674460b67c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

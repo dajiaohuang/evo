@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Schismaderma
+  displayName: Schismaderma
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DFN
+  sourceIndexes:
+    - name:
+        en: Schismaderma
+        zh: Schismaderma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DFN
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/251
+            queryName: Schismaderma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 26
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-96f3e1b87a
+      - s-02a4dd0d41
+      - s-987f5b8472
+      - s-f8b42ee886
+      - s-83b3f48b6d
+      - s-09061fcb75
+      - s-68ff710e65
+      - s-46d153eeb3
+      - s-48600c4ec2
+      - s-4ce71762ae
+      - s-e0bb452197
+      - s-4cc4f0ea02
+      - s-04ecfb6031
+      - s-f1c7a0727a
+      - s-fc2cc32de5
+      - s-9a5b943f74
+    zh:
+      - s-056ca83cb7
+      - s-9b95711030
+      - s-5bd54d1ee1
+      - s-b4f41dd73b
+      - s-1bdbef612c
+      - s-516b4532aa
+      - s-1d373e294b
+      - s-107c473baa
+      - s-b6fab15375
+      - s-4f45b0616b
+      - s-9dd1f30a7a
+      - s-868db93f16
+      - s-753201a850
+      - s-995bea29a5
+      - s-8ccaa72f3a
+      - s-2bdbefbb84

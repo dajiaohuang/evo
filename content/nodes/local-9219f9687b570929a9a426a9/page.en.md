@@ -1,0 +1,12 @@
+## TadpoleTraits classification for Mannophryne venezuelensis {#s-55976182e3}
+TadpoleTraits version 4 places Mannophryne venezuelensis in Mannophryne (Dendrobatidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names none recorded. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 0 literature rows and 1 image row {#s-0c4fb30865}
+TadpoleTraits version 4 links 0 literature rows and 1 image row to Mannophryne venezuelensis. Source row numbers — literature: none recorded; image: 1005. Populated measurement fields — literature: none recorded; image: TL, BL, TaL, BMH, MTH, TMH, DFH, VFH, BL/TL, TaL/TL, BMH/TL, MTH/TL, TMH/TL, DFH/TL, VFH/TL. Literature rows have no Stage value. Image row 1005: Stage 29 (Judging based on the picture). Stage is the source developmental-stage label. A parenthetical note that a stage was judged from a picture is an image-based judgment, not a direct observation. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+
+## Image proportions from row 1005 {#s-b944c33a1f}
+Selected image entries: BL/TL (body length / total length) = 0.343379 (source row 1005; Stage 29 (Judging based on the picture); type Measurement; image type Hand-drawn picture); MTH/TL (maximum tail height / total length) = 0.184113 (source row 1005; Stage 29 (Judging based on the picture); type Measurement; image type Hand-drawn picture). Each is a dimensionless ratio of the labelled feature to total length, displayed to six decimal places. Recorded image types: Hand-drawn picture. These values describe proportions in the listed source images, not variation across a wild population.
+
+## 5 image ratio fields flagged for review {#s-46aae5b47e}
+TadpoleTraits version 4 flags 5 image-ratio fields: each supplied ratio differs by more than 0.001 from the same row’s numerator divided by total length. Flagged fields: TaL/TL (row 1005), BMH/TL (row 1005), TMH/TL (row 1005), DFH/TL (row 1005), VFH/TL (row 1005). The source cells remain unchanged; these ratios are unresolved and are not used as reader measurements pending source review.
+

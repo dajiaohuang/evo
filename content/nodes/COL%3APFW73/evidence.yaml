@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gracixalus truongi Tran, Pham, Le, Nguyen, Ziegler & Pham, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Gracixalus truongi
+      zh: Gracixalus truongi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9a8386a283
+            part: title
+          zh:
+            page: zh
+            section: s-338de96fba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9a8386a283
+            part: body
+          zh:
+            page: zh
+            section: s-338de96fba
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7612f03ede
+            part: title
+          zh:
+            page: zh
+            section: s-54110e99f6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7612f03ede
+            part: body
+          zh:
+            page: zh
+            section: s-54110e99f6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e6e1c57ac2
+            part: title
+          zh:
+            page: zh
+            section: s-3cdf4fa20e
+            part: title
+        sourceIds:
+          - primary-pmc10208806-pfw73
+        text:
+          en:
+            page: en
+            section: s-e6e1c57ac2
+            part: body
+          zh:
+            page: zh
+            section: s-3cdf4fa20e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a342bf9cf0
+            part: title
+          zh:
+            page: zh
+            section: s-19d78a2f96
+            part: title
+        sourceIds:
+          - primary-pmc10208806-pfw73
+        text:
+          en:
+            page: en
+            section: s-a342bf9cf0
+            part: body
+          zh:
+            page: zh
+            section: s-19d78a2f96
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gracixalus truongi
+          url: https://www.checklistbank.org/dataset/316115/taxon/PFW73
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10208806-pfw73
+        referenceId: ref-1810992b-cd49-4249-acf5-a98ab89d1c57
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Gracixalus truongi: Diagnosis, distribution and ecological notes; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6d31042cfb
+        part: body
+      zh:
+        page: zh
+        section: s-fedb24f4af
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1153.93566
+        referenceId: ref-1810992b-cd49-4249-acf5-a98ab89d1c57
+        sourceKey: primary-pmc10208806-pfw73
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10208806/article.xml
+        sourceConcept: Gracixalus truongi
+        evidenceRead: "Gracixalus truongi: Diagnosis, distribution and ecological notes; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Lengths in the diagnostic material
+              zh: 鉴别材料中的体长
+            referenceId: ref-1810992b-cd49-4249-acf5-a98ab89d1c57
+            sourceKey: primary-pmc10208806-pfw73
+            locator: "Gracixalus truongi: Diagnosis, distribution and ecological notes; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-637d01e31b
+                part: body
+              zh:
+                page: zh
+                section: s-b02efcdaf2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Night-time karst-forest collections
+              zh: 夜间喀斯特林采集
+            referenceId: ref-1810992b-cd49-4249-acf5-a98ab89d1c57
+            sourceKey: primary-pmc10208806-pfw73
+            locator: "Gracixalus truongi: Diagnosis, distribution and ecological notes; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7e8b017b46
+                part: body
+              zh:
+                page: zh
+                section: s-31c36907ff
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

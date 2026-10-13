@@ -1,0 +1,13 @@
+## Aloe greatheadii: spotted rosettes and variable flower colour {#s-98154ccd3e}
+A South African regional account describes plants that are usually stemless and solitary, though old, robust plants may have short stems. They stand 150–300 mm tall, excluding the inflorescence. Each rosette has about 12 leaves, 160–470 × 60–120 mm. The upper leaf surface is channelled, dark green and marked with many pale spots in irregular crosswise bands; the lower surface is convex, pale green and lineate. The inflorescence has 3–8 terminal branches and reaches 1.0–1.75 m tall. Dense racemes are head-shaped to nearly so. Narrowly triangular, taper-pointed bracts measure 10–20 × 2–4 mm and have three to many veins. Flowers are dull flesh-pink to nearly white, often with paler lengthwise stripes, and 22–35 mm long. Their outer segments are free for 7–10 mm; the inner segments are attached to the outer ones. Pedicels are 12–25 mm long, lengthening to about 30 mm in fruit. Anthers project 1–2 mm and the style 2–3 mm. The green ovary measures 5.0–7.0 × 1.5–3.0 mm. Fruit is pinkish grey, 19–32 × 9–15 mm; the deep grey-maroon seeds are about 4.0 × 2.5 × 1.0 mm, with a small or absent wing.
+
+These characters and measurements come from a regional South African flora account cited to a 2000 publication. The excerpt gives no dated sampling frame or population frequency and does not establish variation across the full range. It does not independently classify the material as native, naturalised, cultivated or domesticated.
+
+The account says *A. greatheadii* closely resembles *A. zebrina* and *A. parvibracteata*, but has a dense, conical to nearly head-shaped terminal raceme. Its leaf sap dries golden yellow, unlike the usually purple sap of *A. parvibracteata*. Peak flowering is reported in winter (July), rather than autumn (March) as in *A. zebrina*. The account says these species intergrade in southern tropical Africa.
+
+These comparisons come from a regional South African flora account cited to a 2000 publication. The excerpt gives no dated sampling frame or population frequency and does not establish variation across the full range. It does not independently classify the material as native, naturalised, cultivated or domesticated.
+
+At the southern end of the range, the account records rocky outcrops in Highveld grassland. Farther north, the species appears to favour termite mounds; populations on deep turf soil are also described as not uncommon.
+
+This regional habitat account gives no dated sampling frame or population frequency and does not establish habitat use across the full range.
+

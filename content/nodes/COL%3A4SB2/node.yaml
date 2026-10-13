@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Haddadus
+  displayName: Haddadus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4SB2
+  sourceIndexes:
+    - name:
+        en: Haddadus
+        zh: Haddadus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4SB2
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/415
+            queryName: Haddadus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 30
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cedbb1b55c
+      - s-22ef96d0e6
+      - s-9c4e76b8e4
+      - s-25104bb233
+      - s-c77c809952
+      - s-b0f33af863
+      - s-b7127ad024
+      - s-b71c3f090f
+      - s-29e7abe782
+      - s-3809891c27
+      - s-d873dc5114
+      - s-851b0d4894
+      - s-da23c7b7e1
+      - s-21a3d96590
+      - s-a53cbb8be6
+      - s-3bddd3617d
+      - s-b76c74c0a6
+      - s-0d28421fda
+      - s-46cccee75e
+    zh:
+      - s-362ba35b46
+      - s-68367a9f72
+      - s-41dba5d93d
+      - s-3388e5ac9a
+      - s-bdc36aa8b5
+      - s-dc57a35692
+      - s-9b24c8ddaa
+      - s-12192c1967
+      - s-58b7cbe3ad
+      - s-c5b7431e96
+      - s-0c910079ba
+      - s-f51d2c5c85
+      - s-74cfc100fa
+      - s-6a839287be
+      - s-55e534210c
+      - s-2348d105aa
+      - s-5c5ba8c652
+      - s-dd672342c0
+      - s-0920e5e237

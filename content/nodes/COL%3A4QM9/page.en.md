@@ -1,0 +1,9 @@
+## Local data reading route {#s-a8fcb57811}
+This batch’s Grallaricula route includes 6 measured species records. Start with Grallaricula cucullata, Grallaricula flavirostris, Grallaricula lineifrons, Grallaricula loricata, Grallaricula ochraceifrons. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
+
+## Differences between records {#s-d1f2765868}
+Compiled mean mass endpoints in this batch are Grallaricula flavirostris at 17.7 g and Grallaricula ochraceifrons at 23.14 g. Represented habitat categories include Forest; trophic niches include Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
+
+## Evidence limits {#s-d870e8452b}
+This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
+

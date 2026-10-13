@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Staurois parvus Inger & Haile, 1959
+  displayName: Staurois parvus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZMCC
+  sourceIndexes:
+    - name:
+        en: Staurois parvus
+        zh: Staurois parvus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZMCC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/291
+            queryName: Staurois parvus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 37
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-519dd60a18
+      - s-09ba823710
+      - s-cc7e9f089d
+      - s-aef084768f
+      - s-3902f52837
+      - s-6e4a8b95dd
+      - s-b58dca2ac1
+      - s-27ce9599c6
+      - s-c066e84aee
+      - s-b0f7c38fd9
+      - s-9d4a12b334
+      - s-e1f5e9d53a
+      - s-3d02c891d3
+      - s-9836848e70
+      - s-b89174986b
+      - s-fcc4aa32f0
+      - s-bf9fe8d9af
+      - s-1514ddff3e
+      - s-125e9f0c1d
+      - s-16a1a86560
+      - s-edeeadbc26
+    zh:
+      - s-e2dc40d329
+      - s-a5545ad8a8
+      - s-8ace87e180
+      - s-cd600cf5ea
+      - s-14916f8782
+      - s-01f7f8286d
+      - s-c546559497
+      - s-05c8fc2239
+      - s-7d1e8c18b5
+      - s-21e914b10b
+      - s-011190418a
+      - s-cbc4404b47
+      - s-18090a7d68
+      - s-dabc3cfaf9
+      - s-03cb72f8ee
+      - s-999cab527a
+      - s-bd8029a645
+      - s-a5acb3cf45
+      - s-c12b21dde1
+      - s-3032a1be56
+      - s-6bd762a97f

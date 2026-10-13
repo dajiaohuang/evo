@@ -1,0 +1,258 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Megophrys nasuta
+    name:
+      en: Megophrys nasuta
+      zh: Megophrys nasuta
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Megophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-55dc9879ce
+            part: body
+          zh:
+            page: zh
+            section: s-47b132f286
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c32c312c53
+            part: body
+          zh:
+            page: zh
+            section: s-99bc5b30d7
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3131, 3132; Reference.csv rows 794
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3131
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys nasuta
+          - M
+          - "79"
+          - "33.1"
+          - "38.4"
+          - "11.6"
+          - "4.2"
+          - "8.2"
+          - "14.3"
+          - "6.9"
+          - "7.1"
+          - "5.4"
+          - "9.7"
+          - "3.9"
+          - "20.9"
+          - "30"
+          - NA
+          - "28.8"
+          - NA
+          - "30.4"
+          - "34"
+          - "16.4"
+          - "101.2"
+          - "5"
+          - "4.1"
+          - NA
+          - "9"
+          - "14.3"
+          - "7"
+          - NA
+          - "6.2"
+          - "10.2"
+          - "7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3132
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys nasuta
+          - F
+          - "83.5"
+          - "36.7"
+          - "42.2"
+          - "11.4"
+          - "4"
+          - "9.6"
+          - "15.5"
+          - "7.2"
+          - "6.4"
+          - "5.7"
+          - "10.5"
+          - "4"
+          - "21.2"
+          - "31.4"
+          - NA
+          - "29.2"
+          - NA
+          - "30.5"
+          - "33.7"
+          - "16.5"
+          - "101.3"
+          - "4.8"
+          - "4"
+          - NA
+          - "8.7"
+          - "14.8"
+          - "6.9"
+          - NA
+          - "6.5"
+          - "10.6"
+          - "7.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 794
+        values:
+          - Anura
+          - Megophrys_nasuta
+          - "Munir, M., Hamidy, A., Farajallah, A., & Smith, E. N. (2018). A new Megophrys Kuhl and Van Hasselt (Amphibia: Megophryidae) from southwestern Sumatra, Indonesia. Zootaxa, 4442(3), 389-412. https://doi.org/ 10.11646/zootaxa.4442.3.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

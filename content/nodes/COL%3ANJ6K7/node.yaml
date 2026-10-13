@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus carvalhoi
+  displayName: Cycloramphus carvalhoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NJ6K7
+  sourceIndexes:
+    - name:
+        en: Cycloramphus carvalhoi
+        zh: Cycloramphus carvalhoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NJ6K7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/270
+            queryName: Cycloramphus carvalhoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/240
+            queryName: Zachaenus carvalhoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-89d66087ae
+      - s-3d657f800a
+      - s-5d6223b043
+      - s-0b68c0dd1b
+      - s-912ec35f2b
+      - s-d42125815e
+      - s-8f57f1f792
+      - s-51d2fc97d9
+      - s-d0f0585b04
+      - s-20a46cbbe8
+      - s-7763b56c6b
+      - s-ecc8b1c802
+      - s-a79867f7c7
+      - s-cd5329b64a
+      - s-1cfbcd8f9b
+      - s-e242831afb
+      - s-f4a7b32997
+      - s-5389afd37b
+      - s-2a4a656799
+      - s-4e1b6986cb
+      - s-5704c92e45
+      - s-951d4f422f
+      - s-8c2513f9f7
+      - s-341452b08e
+    zh:
+      - s-036b79ecfe
+      - s-0dc9084ee5
+      - s-b53de9abcb
+      - s-0381fcc0dd
+      - s-2339edc265
+      - s-81fa2e222a
+      - s-a61dc28c3e
+      - s-4beeffa2cb
+      - s-10c52f32a5
+      - s-93fdf58806
+      - s-9b1b6d19da
+      - s-0cf360771f
+      - s-5114828db4
+      - s-77c593bf86
+      - s-dacc8620f7
+      - s-3dfa5e7522
+      - s-14a2a90e46
+      - s-9e17665d7a
+      - s-f7bc7d4081
+      - s-c8f3c58f4f
+      - s-e2f490fe32
+      - s-8a54bdadb8
+      - s-28bb3f4741
+      - s-265ce37a88

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osteocephalus planiceps
+  displayName: Osteocephalus planiceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/75BMW
+  sourceIndexes:
+    - name:
+        en: Osteocephalus planiceps
+        zh: Osteocephalus planiceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 75BMW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/355
+            queryName: Osteocephalus planiceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/11
+            queryName: Trachycephalus planiceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eff58423a9
+      - s-f3799233bd
+      - s-a068905c5b
+      - s-f706afe108
+      - s-5e29117ae2
+      - s-ec9c7ebe3d
+      - s-49c2251009
+      - s-5b9d6cb0c7
+      - s-8113cf090b
+      - s-e8c5517265
+      - s-ee314a5592
+      - s-65d03d75d0
+    zh:
+      - s-e25530737e
+      - s-5cdc0440fd
+      - s-61412e1f90
+      - s-7c24921d1e
+      - s-b86a46b684
+      - s-86fc84bed9
+      - s-7b9dfd52d6
+      - s-684e6df9ae
+      - s-1d9e026052
+      - s-4927c15111
+      - s-6b437baab4
+      - s-bd36aa8349

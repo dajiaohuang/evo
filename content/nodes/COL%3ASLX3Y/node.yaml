@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes drutaahu
+  displayName: Raorchestes drutaahu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SLX3Y
+  sourceIndexes:
+    - name:
+        en: Raorchestes drutaahu
+        zh: Raorchestes drutaahu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SLX3Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/139
+            queryName: Raorchestes drutaahu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-82ce90dce1
+      - s-a94228f657
+      - s-0a6d6fdea5
+      - s-f9d26ebc81
+      - s-e991720aae
+      - s-b1998aa470
+      - s-c98e9ae5fb
+      - s-bbfcc0eb37
+      - s-b5abcebfc2
+      - s-1f017a9347
+      - s-3d9c075e08
+    zh:
+      - s-9b5d0a75b1
+      - s-5574f22a34
+      - s-22019b8cf5
+      - s-18945e5cb4
+      - s-7d1c421ed1
+      - s-a903f5c79c
+      - s-900c327c37
+      - s-c005fcf49c
+      - s-6ca4c34bf5
+      - s-1862131042
+      - s-72697dad92

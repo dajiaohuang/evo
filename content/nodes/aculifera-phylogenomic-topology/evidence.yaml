@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-2a7a638496
+      part: title
+    titleZh:
+      page: zh
+      section: s-bb4ae3a732
+      part: title
+    category: radiation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Transcriptome and genome sample across living Mollusca
+    clades:
+      - Mollusca
+      - Aculifera
+      - Polyplacophora
+      - Aplacophora
+    summary:
+      page: en
+      section: s-2a7a638496
+      part: body
+    summaryZh:
+      page: zh
+      section: s-bb4ae3a732
+      part: body
+    claimIds:
+      - claim:event:aculifera-phylogenomic-topology
+    evidenceItems:
+      - statement: Sampled chitons group with a monophyletic Aplacophora, while gastropods and bivalves form a supported clade in the reported analyses.
+        relation: supports
+        claimIds:
+          - claim:event:aculifera-phylogenomic-topology
+        referenceLinks:
+          - referenceId: kocot-et-al-2011-mollusca
+            relation: supports
+            pages: 452–456
+            figure: Figures 1–3; Supplementary Figures 1–16
+            quoteLocator: Phylogenomic analyses and topology tests
+    uncertaintyItems:
+      - statement: Monoplacophora was unsampled and several conchiferan alternatives were not rejected; support belongs to the published matrices and models.
+        relation: contextualizes
+        claimIds:
+          - claim:event:aculifera-phylogenomic-topology
+        referenceLinks:
+          - referenceId: kocot-et-al-2011-mollusca
+            relation: supports
+            pages: 452–456
+            figure: Supplementary Tables 1–7
+            quoteLocator: Taxon sampling and approximately unbiased tests
+  claims:
+    - subjectId: event:aculifera-phylogenomic-topology
+      claimKind: scientific
+      claimType: topology
+      statement: The Kocot et al. transcriptome–genome matrices recover sampled Polyplacophora with monophyletic Aplacophora as Aculifera and recover a gastropod–bivalve clade, while excluding Monoplacophora and leaving some conchiferan alternatives statistically unresolved.
+      confidence: medium
+      confidenceRationale: Dense gene sampling and reported support stabilize several nodes, but missing Monoplacophora, model choice, matrix construction and alternative tests bound the topology.
+      referenceLinks:
+        - referenceId: kocot-et-al-2011-mollusca
+          relation: supports
+          pages: 452–456
+          figure: Figures 1–3; Supplementary Figures 1–16 and Tables 1–7
+          quoteLocator: Taxon and gene sampling; phylogenomic analyses; approximately unbiased tests
+  claim-rationales.zh:
+    - 密集基因采样稳定若干节点，但单板纲缺失、模型、矩阵构建和替代检验限定其拓扑结论。
+  claim-statements.zh:
+    - Kocot 等人的转录组—基因组矩阵恢复出多板纲与单系的无板类共同组成双神经类，并恢复出腹足纲—双壳纲支系；但研究未取样单板纲，部分有壳类替代拓扑在统计上也未解决。

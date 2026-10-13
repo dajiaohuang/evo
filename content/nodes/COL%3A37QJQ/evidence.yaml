@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Drosanthemum dipageae H.E.K.Hartmann
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 37QJQ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 37QJQ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/37QJQ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 37QJQ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000656896-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 37QJQ / WFO wfo-0000656896
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_18549_0
+        referenceId: ref-c9526f5f-d741-835e-af0a-90486be982a4
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Drosanthemum dipageae H.E.K.Hartmann account; archive rows 93603 (Morphology), 93431 (Habitat), source identifier 18549.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Shrubs with erect branches, to 60 cm high and 50 cm in diameter. Long shoots with brown internodes up to 8 mm long, short shoots with internodes at most to 2 mm long, each with four prickles, one pair derived from the central veins of the opposite leaf-pair, the second, decussate pair of prickles derived from tissue separating the two leaves as part of the basal leaf sheath; prickles persisting for many years. Leaves trigonous to triquetrous, 8 mm long, 2 mm wide, 6 mm thick, thickest at the prominently truncate apex. Flowers solitary, 6 subequal calyx lobes, diameter 17-20 mm, petals 30-40, purple inside, the outside chalky-white suffused, filamentous staminodes 3-10, together with the stamens at first in a column, spreading widely later and developing into a stamen-carpet flower; stamens 50-75. Pedicels of the ripe fruit stout, turning woody after the capsules proper have fallen off, the capsule base broadly funnel-shaped, 5-6 mm in diameter, 6 locules.
+            sourceIds:
+              - sanbi_18549_0
+            locator: "SANBI/WFO archive Morphology row 93603; source 18549.0; publication: Rust, S; Bruckmann, C; Hartmann, HEK. 2002. The flowers of Drosanthemum Schwantes (Ruschioideae, Aizoaceae). Bradleya 20: 121 - 147. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In much-grazed openings among grass on gravel between islands of thickets of the “Valley Bushveld” type.
+            sourceIds:
+              - sanbi_18549_0
+            locator: "SANBI/WFO archive Habitat row 93431; source 18549.0; publication: Rust, S; Bruckmann, C; Hartmann, HEK. 2002. The flowers of Drosanthemum Schwantes (Ruschioideae, Aizoaceae). Bradleya 20: 121 - 147. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

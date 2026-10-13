@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Petropedetes johnstoni
+  displayName: Petropedetes johnstoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6V6D8
+  sourceIndexes:
+    - name:
+        en: Petropedetes johnstoni
+        zh: Petropedetes johnstoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6V6D8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/8
+            queryName: Petropedetes johnstoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/346
+            queryName: Cornufer johnstoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ad7811bcd9
+      - s-c36c29e982
+      - s-92c8ef3a8a
+      - s-0bbbc3ed80
+      - s-e6540c6aae
+      - s-418350a9b9
+      - s-49cf79dca4
+      - s-2481746fc3
+      - s-f7bc66556e
+      - s-57a9ef67fa
+    zh:
+      - s-66dc2e8fc5
+      - s-937e9979e3
+      - s-fcdfb439f1
+      - s-76b39cb08b
+      - s-59e4e5e76c
+      - s-18a1ddc28e
+      - s-dd9c3c378a
+      - s-9c213f4063
+      - s-9e304c216d
+      - s-ccaa510f6a

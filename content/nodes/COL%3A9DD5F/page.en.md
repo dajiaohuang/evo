@@ -1,0 +1,3 @@
+## ## Recurved hairs and globose inflorescences {#s-3df9f6c1f9}
+The Brazilian Flora 2020 entry lists stems as glabrous or pilose, with recurved simple hairs and unbranched, thread-like setae; branched setae, glandular hairs, prickles and short shoots are absent. The stipules persist, extrafloral nectaries are absent, and projections between pinna pairs are absent. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts, a membranous calyx without lobes, and hairless corolla lobes with one to three veins. The androecium is isostemonous, with pink filaments. A habitat field says “terrestrial” but gives no locality or finer habitat description.
+

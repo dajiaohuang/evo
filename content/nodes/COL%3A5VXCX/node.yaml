@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina yelaensis
+  displayName: Austrochaperina yelaensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5VXCX
+  sourceIndexes:
+    - name:
+        en: Austrochaperina yelaensis
+        zh: Austrochaperina yelaensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5VXCX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/369
+            queryName: Austrochaperina yelaensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9590b54137
+      - s-e53983cd47
+      - s-94a4847e7d
+      - s-a39866291c
+      - s-79c496317e
+      - s-7ba95f59af
+      - s-1af763ad30
+      - s-5d32f54e0f
+      - s-ee9ac1c7db
+      - s-0b89e2ad83
+    zh:
+      - s-c5632dd6de
+      - s-13f9d5bad8
+      - s-8464d83595
+      - s-97342f8685
+      - s-6342120aa1
+      - s-580747f6a6
+      - s-c6c35fb78d
+      - s-06dc497eeb
+      - s-2628b53f82
+      - s-e6b6d47c1b

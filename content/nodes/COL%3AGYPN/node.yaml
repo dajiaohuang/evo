@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptella rugosa
+  displayName: Arthroleptella rugosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYPN
+  sourceIndexes:
+    - name:
+        en: Arthroleptella rugosa
+        zh: Arthroleptella rugosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYPN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/140
+            queryName: Arthroleptella rugosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fd8f9407a1
+      - s-e4557c5b87
+      - s-26e62083ea
+      - s-ad4421df42
+      - s-a37112aaa2
+      - s-b54f6c5b7f
+      - s-e0c53ee060
+    zh:
+      - s-08b401c4db
+      - s-76b7a3de80
+      - s-96a2a93fd3
+      - s-42167da4ce
+      - s-f5057071ba
+      - s-7d519a7160
+      - s-f2927d297d

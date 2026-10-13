@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    sections:
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-442071988a
+            part: title
+          zh:
+            page: zh
+            section: s-35a8810c07
+            part: title
+        text:
+          en:
+            page: en
+            section: s-442071988a
+            part: body
+          zh:
+            page: zh
+            section: s-35a8810c07
+            part: body
+        claimIds:
+          - claim:taxon:cnidaria:root-range-rc39
+    scientificName: Cnidaria
+    name:
+      en: Cnidaria
+      zh: Cnidaria
+    rank: phylum
+  atlas-node:
+    name: Cnidaria
+    commonName: Corals & Jellyfish
+    commonNameZh: 珊瑚与水母
+    rank: phylum
+    taxonId: txn:4524
+    firstAppearance: 580
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:cnidaria
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Cnidaria root display uses 562–0 Ma as a sampled navigation envelope from the older bound of the 562–557 Ma Auroralumina horizon to living cnidarians; the fossil's crown placement is a morphology-analysis result, not the observed origin of Cnidaria.
+      confidence: medium
+      confidenceRationale: The named horizon and preserved polypoid anatomy are directly documented, while the medusozoan stem placement and resulting crown-Cnidaria minimum remain character- and matrix-dependent. The range therefore preserves the sampled boundary and its uncertainty.
+      referenceLinks:
+        - referenceId: dunn-2022-auroralumina
+          relation: supports
+          pages: 1095–1104
+          figure: Figures 1–5; Extended Data Figures 1–8
+          quoteLocator: Bed B horizon and 557–562 Ma age; holotype anatomy; phylogenetic position
+  claim-rationales.zh:
+    - 具名层位和保存的水螅体解剖可直接核实，但干群水母类位置及其冠群最小年龄仍依赖性状和矩阵；范围保留采样边界及其不确定性。
+  claim-statements.zh:
+    - 刺胞动物门根节点采用 5.62 亿年前至今的采样导航包络，从 5.62–5.57 亿年前 Auroralumina 层位的较老边界延伸到现生刺胞动物；该化石的冠群位置是形态分析结果，不是刺胞动物起源的直接观察。
+  ranges:
+    - entityId: cnidaria
+      rangeKind: global-composite
+      taxonomicConcept: Cnidaria under the sampled Auroralumina morphology hypothesis
+      geographicScope: Charnwood Forest Bed B sample to living cnidarians
+      olderMa: 562
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 5
+        youngerMa: 0
+        note: The fossil horizon is bracketed at 562–557 Ma; medusozoan-stem placement is a matrix result, not an observed origin.
+      evidenceBasis: Auroralumina preserves polypoid anatomy in a dated horizon and is recovered as a stem medusozoan within crown Cnidaria in the sampled analysis.
+      confidence: medium
+      claimIds:
+        - claim:taxon:cnidaria:root-range-rc39
+      referenceLocators:
+        - referenceId: dunn-2022-auroralumina
+          locator: pp. 1095–1104; Figures 1–5 and Extended Data Figures 1–8
+      evidenceLevel: literature-synthesized

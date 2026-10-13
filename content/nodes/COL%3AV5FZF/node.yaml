@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryadobates
+  displayName: Dryadobates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5FZF
+  sourceIndexes:
+    - name:
+        en: Dryadobates
+        zh: Dryadobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5FZF
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/358
+            queryName: Dryadobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-82db4a0bb7
+      - s-a54cb09b23
+      - s-66f5f5a765
+      - s-725cfd81e7
+      - s-78c286626d
+      - s-04b62b5105
+      - s-8f212989a5
+      - s-e480f837ea
+      - s-3811524311
+      - s-acdf9c5158
+      - s-0c0f183ea2
+      - s-2c2eb9a527
+      - s-0e1c2a4718
+      - s-c860f5d451
+      - s-2828df8ff0
+      - s-1b5c0b4aa5
+      - s-1173b5dbb9
+      - s-39a6f159fe
+      - s-9a2d711361
+      - s-c1c26d2c6e
+    zh:
+      - s-bc7897101b
+      - s-6ffacdcbf2
+      - s-f459b4a278
+      - s-2441c629dc
+      - s-84972cad25
+      - s-a665b1cf0e
+      - s-2c97f18db2
+      - s-da978267ca
+      - s-821a03c840
+      - s-915e4d8da0
+      - s-d4c9dd7504
+      - s-3583be958a
+      - s-aad8698d42
+      - s-18c0b3d223
+      - s-ec04260e3d
+      - s-30d3c6932f
+      - s-c1039dbecc
+      - s-58f69b12d7
+      - s-eff001fdef
+      - s-6907f76e32

@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus dubius
+  displayName: Cycloramphus dubius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WKN
+  sourceIndexes:
+    - name:
+        en: Cycloramphus dubius
+        zh: Cycloramphus dubius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WKN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/274
+            queryName: Cycloramphus dubius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/203
+            queryName: Iliodiscus dubius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/204
+            queryName: Grypiscus dubius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b240faffb6
+      - s-228f63a9c7
+      - s-b2b2a0e1f2
+      - s-97c36ec0a1
+      - s-608b870ce7
+      - s-b6fb9f8b02
+      - s-69ace30680
+      - s-cf5101ff48
+      - s-1707d18895
+      - s-b8cefabf42
+      - s-c59ce66cd0
+      - s-9783d1490c
+      - s-845bdfcdb2
+      - s-5a03bcdd81
+      - s-faa0059ab2
+      - s-2001fc3e0c
+      - s-006cca2f6c
+      - s-e014562529
+    zh:
+      - s-d12876a603
+      - s-0bd34daf53
+      - s-0f717139c7
+      - s-167d0fb445
+      - s-d92c4d2d77
+      - s-c93a99be87
+      - s-c4c781efdc
+      - s-0a5c0aa907
+      - s-705435bfd4
+      - s-60e71368cf
+      - s-006883df56
+      - s-cff5fa0609
+      - s-e15fb04957
+      - s-fa040c58c4
+      - s-cd9df8b726
+      - s-1a338cb735
+      - s-2d5626c9a4
+      - s-b014558d77

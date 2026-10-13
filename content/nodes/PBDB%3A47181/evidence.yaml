@@ -1,0 +1,295 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyopsodus paulus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hyopsodus paulus
+      en: Hyopsodus paulus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-65e68c6620
+            part: body
+          en:
+            page: en
+            section: s-2f55cebb0a
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-46c5848a82
+            part: body
+          en:
+            page: en
+            section: s-70bf385f06
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3eb4243ebc
+            part: body
+          en:
+            page: en
+            section: s-9ed4741cc4
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-890f2accf8
+            part: body
+          en:
+            page: en
+            section: s-5761747aeb
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d39ab3e976
+            part: body
+          en:
+            page: en
+            section: s-e81f8666fe
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hyopsodus paulus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=47181&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:47181; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:47181
+          selectedOccurrenceIds:
+            - occ:172464
+            - occ:172482
+            - occ:173349
+            - occ:173396
+            - occ:173789
+            - occ:173791
+            - occ:173792
+            - occ:173794
+            - occ:173795
+            - occ:173796
+            - occ:173797
+            - occ:173800
+            - occ:173813
+            - occ:173823
+            - occ:173834
+            - occ:173838
+            - occ:173841
+            - occ:173842
+            - occ:173845
+            - occ:173846
+            - occ:173912
+            - occ:173945
+            - occ:173952
+            - occ:174011
+            - occ:174041
+            - occ:174079
+            - occ:174099
+            - occ:174135
+            - occ:174172
+            - occ:174218
+            - occ:174309
+            - occ:174333
+            - occ:174368
+            - occ:174398
+            - occ:174407
+            - occ:174413
+            - occ:174445
+            - occ:174487
+            - occ:174617
+            - occ:174652
+            - occ:174664
+            - occ:174969
+            - occ:175047
+            - occ:175067
+            - occ:175086
+            - occ:175105
+            - occ:175146
+            - occ:175242
+            - occ:175245
+            - occ:175285
+            - occ:175294
+            - occ:175299
+            - occ:175429
+            - occ:175463
+            - occ:175891
+            - occ:175908
+            - occ:175911
+            - occ:176091
+            - occ:176166
+            - occ:176390
+            - occ:176445
+            - occ:176465
+            - occ:1314852
+            - occ:1314904
+          selectedCollectionIds:
+            - col:15901
+            - col:15903
+            - col:16073
+            - col:16078
+            - col:16142
+            - col:16144
+            - col:16145
+            - col:16146
+            - col:16147
+            - col:16148
+            - col:16149
+            - col:16151
+            - col:16162
+            - col:16170
+            - col:16180
+            - col:16183
+            - col:16184
+            - col:16185
+            - col:16188
+            - col:16189
+            - col:16201
+            - col:16204
+            - col:16205
+            - col:16207
+            - col:16208
+            - col:16216
+            - col:16218
+            - col:16219
+            - col:16225
+            - col:16228
+            - col:16236
+            - col:16239
+            - col:16240
+            - col:16241
+            - col:16242
+            - col:16243
+            - col:16246
+            - col:16254
+            - col:16284
+            - col:16291
+            - col:16295
+            - col:16388
+            - col:16396
+            - col:16397
+            - col:16402
+            - col:16408
+            - col:16415
+            - col:16439
+            - col:16440
+            - col:16448
+            - col:16449
+            - col:16451
+            - col:16500
+            - col:16506
+            - col:16586
+            - col:16587
+            - col:16588
+            - col:16614
+            - col:16623
+            - col:16647
+            - col:16651
+            - col:16654
+            - col:118482
+            - col:15673
+          sourceReferenceIds:
+            - ref:3329
+            - ref:3603
+            - ref:3606
+            - ref:7017
+            - ref:6223
+            - ref:1441
+            - ref:3596
+            - ref:6294
+            - ref:2921
+            - ref:1749
+            - ref:2182
+            - ref:3605
+            - ref:2495
+            - ref:2173
+            - ref:58065
+          originalIdentificationMappings:
+            - occurrenceId: occ:173912
+              originalIdentifiedName: Hyopsodus paulus n. sp.
+              acceptedName: Hyopsodus paulus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-340bae8266
+        part: body
+      en:
+        page: en
+        section: s-392e6424fe
+        part: body

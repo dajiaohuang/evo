@@ -1,0 +1,3 @@
+## How Panthera blytheae entered the pantherine tree {#s-727817ffda}
+The adult partial cranium that names *Panthera blytheae* (IVPP V18788.1), with a jaw fragment and partial premaxilla, anchors a fossil sample from Tibet's Zanda Basin. The study placed the locality's record between 5.95 and 4.10 million years ago using magnetic patterns in the rocks. It combined fossil anatomy with molecular data to infer the species' position among pantherines; its proposed snow-leopard affinity and broader Asian history are analytical conclusions. The age range describes the locality sample, not a universal first appearance, and the placement can change with later analyses.
+

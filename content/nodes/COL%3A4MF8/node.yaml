@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca
+  displayName: Gastrotheca
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MF8
+  sourceIndexes:
+    - name:
+        en: Gastrotheca
+        zh: Gastrotheca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MF8
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/400
+            queryName: Gastrotheca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 182
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9bda0e6b2b
+      - s-b29c6bb9a0
+      - s-a578fb2b46
+      - s-064848a9d1
+      - s-4a559fb1c4
+      - s-bd08a75192
+      - s-6108a72b81
+      - s-d2fc736b22
+      - s-096d3db935
+      - s-b937c47df7
+      - s-6877160afe
+      - s-269284d4c8
+      - s-203889578d
+      - s-4b7f713fe9
+      - s-91465edc2c
+      - s-a6b00c84a2
+      - s-a2a4633e76
+      - s-ce9a7fdfa0
+      - s-7ee7a70671
+      - s-715f77fe04
+      - s-8fac5e7b6f
+      - s-eba125bc22
+      - s-8fb121c304
+      - s-29fc26ecd7
+      - s-1bab3e0770
+      - s-c11913af45
+    zh:
+      - s-772c1c4dd8
+      - s-9cbcbff77f
+      - s-afe1e4d3f5
+      - s-c4b11e8198
+      - s-333d585192
+      - s-c1072d8846
+      - s-628e2b989d
+      - s-afc1b0e623
+      - s-cb22dbf251
+      - s-5f33b74b32
+      - s-4180f1a727
+      - s-1137dbaf54
+      - s-30bc8e0f00
+      - s-6f49ddc49d
+      - s-ca6f47e798
+      - s-0b85129544
+      - s-9b4714167f
+      - s-56e79ce3bf
+      - s-fad372d902
+      - s-b2eb09ba4c
+      - s-602b956784
+      - s-924b67fe82
+      - s-63a9568194
+      - s-7421a830fc
+      - s-916d01a707
+      - s-d6c306150a

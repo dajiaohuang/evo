@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius discodactylus
+  displayName: Hyperolius discodactylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQST
+  sourceIndexes:
+    - name:
+        en: Hyperolius discodactylus
+        zh: Hyperolius discodactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQST
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/245
+            queryName: Hyperolius discodactylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/330
+            queryName: Hyperolius alticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5073c6336d
+      - s-24624ed375
+      - s-67ea934734
+      - s-9f0e8891d5
+      - s-1742437468
+      - s-a6ddc1d26c
+      - s-d7ca5a3fd6
+      - s-8af20b5bc9
+      - s-757471df0a
+      - s-31c617cde1
+      - s-da38546c96
+      - s-45055a18c5
+      - s-8bc0c76c17
+      - s-a8fa88e231
+      - s-52c33ebd3f
+      - s-93796a8c5a
+      - s-ff3f3d962e
+    zh:
+      - s-ca8fd5719d
+      - s-ce791065ad
+      - s-6fc52c5eb6
+      - s-bcccbe9c12
+      - s-bbc0204f5e
+      - s-e2af91c831
+      - s-2fea296587
+      - s-b5337b972b
+      - s-f877ebda6a
+      - s-d9321a9ab5
+      - s-9c219a6ff6
+      - s-558b1c302f
+      - s-de60b85420
+      - s-9614ed1394
+      - s-68981f9d89
+      - s-0d701f3e2e
+      - s-48331eea3e

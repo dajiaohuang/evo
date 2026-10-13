@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelognathus nitoi
+  displayName: Atelognathus nitoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8TT
+  sourceIndexes:
+    - name:
+        en: Atelognathus nitoi
+        zh: Atelognathus nitoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8TT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/221
+            queryName: Atelognathus nitoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/141
+            queryName: Atelognathus ceii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/143
+            queryName: Atelognathus salai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/60
+            queryName: Atelognathus jeinimenensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/34
+            queryName: Telmatobius nitoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-97e9fd92d9
+      - s-6b2d8fe847
+      - s-37fae33c12
+      - s-d3588d6151
+      - s-f9a2b5e88b
+      - s-339216a803
+      - s-721308efe6
+      - s-564470f71e
+      - s-b686721efb
+      - s-f5f34ef559
+      - s-9fde030d3c
+      - s-34d24c8394
+      - s-ac0dfd8af3
+      - s-1d796db984
+      - s-f826ea959a
+      - s-dceba675de
+      - s-6442908dd5
+      - s-8301d8857e
+    zh:
+      - s-f8ef27bc71
+      - s-907b6cbb3d
+      - s-54e58e207f
+      - s-81fd063f9d
+      - s-04bb688d1a
+      - s-810667957c
+      - s-056f5ffe90
+      - s-0602c33186
+      - s-c8a1f8252d
+      - s-7fac18da4c
+      - s-1eb1f63ab4
+      - s-fd75929961
+      - s-bae98ee80a
+      - s-7130fd6580
+      - s-74026e682d
+      - s-a86eb440cb
+      - s-e349e3c228
+      - s-1bc206c742

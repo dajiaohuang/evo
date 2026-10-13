@@ -1,0 +1,165 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Tertremoides madagascariensis
+    rank: species
+    sourceTaxonId: txn:266660
+    name:
+      en: Tertremoides madagascariensis
+      zh: Tertremoides madagascariensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-b8fe45c455
+            part: body
+          zh:
+            page: zh
+            section: s-2912afcdbe
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-a54de7fcd8
+            part: body
+          zh:
+            page: zh
+            section: s-f4eb6577e1
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-51be0a71c8
+            part: body
+          zh:
+            page: zh
+            section: s-70c462837e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:266660; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J.-P. Lehman. 1966. Nouveaux Stégocéphales de Madagascar. Annales de Paléontologie (Vertébrés) 52:117-139
+    occurrenceEvidence:
+      - occurrenceId: occ:1132149
+        collectionId: col:144081
+        acceptedTaxonId: txn:266660
+        identifiedTaxonId: var:266660
+        identifiedName: Trematosaurus madagascariensis n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:46587
+        bibliography: J.-P. Lehman. 1966. Nouveaux Stégocéphales de Madagascar. Annales de Paléontologie (Vertébrés) 52:117-139
+        locality:
+          countryCode: MG
+          stateProvince: Diana
+          county: Ambilobe
+        stratigraphy:
+          group: Sakamena
+          formation: Middle Sakamena
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1132152
+        collectionId: col:144090
+        acceptedTaxonId: txn:266660
+        identifiedTaxonId: txn:266662
+        identifiedName: Tertremoides ambilobensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:46588
+        bibliography: "J.-P. Lehman. 1979. Nouveaux trematosaures de Madagascar: les stégocéphales Malgaches et leur paleoecologie. Annales de Paléontologie (Vertébrés) 65:35-49"
+        locality:
+          countryCode: MG
+          stateProvince: Diana
+          county: Ambilobe
+        stratigraphy:
+          group: Sakamena
+          formation: Middle Sakamena
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1132252
+        collectionId: col:144100
+        acceptedTaxonId: txn:266660
+        identifiedName: cf. Tertremoides madagascariensis
+        taxonomicDifference: null
+        referenceId: ref:46594
+        bibliography: S. Maganuco and G. Pasini. 2009. A new specimen of trematosaurian temnospondyl from the Lower Triassic of NW Madagascar, with remarks on palatal anatomy and taxonomic affinities. Atti della Societa Italiana di Scienze Naturali e del Museo Civico di Storia Naturale di Milano 150:91-112
+        locality:
+          countryCode: MG
+          stateProvince: Diana
+          county: Ambilobe
+        stratigraphy:
+          group: Sakamena
+          formation: Middle Sakamena
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 248.6
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-51be0a71c8
+            part: body
+          zh:
+            page: zh
+            section: s-70c462837e
+            part: body
+        sourceIds: []

@@ -1,0 +1,325 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella jinshaensis Cheng, Shi, Li, Liu, Li & Wang, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella jinshaensis
+      zh: Leptobrachella jinshaensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-264665c550
+            part: title
+          zh:
+            page: zh
+            section: s-1a7918e9fa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-264665c550
+            part: body
+          zh:
+            page: zh
+            section: s-1a7918e9fa
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-92ec3f2882
+            part: title
+          zh:
+            page: zh
+            section: s-382edfdb18
+            part: title
+        text:
+          en:
+            page: en
+            section: s-92ec3f2882
+            part: body
+          zh:
+            page: zh
+            section: s-382edfdb18
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a85656006a
+            part: title
+          zh:
+            page: zh
+            section: s-1d92883228
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-a85656006a
+            part: body
+          zh:
+            page: zh
+            section: s-1d92883228
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-fc06d1c405da5664c9a0a712
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-140ab8501e
+            part: title
+          zh:
+            page: zh
+            section: s-9c76597584
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-140ab8501e
+            part: body
+          zh:
+            page: zh
+            section: s-9c76597584
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e609032067
+            part: title
+          zh:
+            page: zh
+            section: s-8af24a54f0
+            part: title
+        sourceIds:
+          - primary-pmc7943530-q9z98
+        text:
+          en:
+            page: en
+            section: s-e609032067
+            part: body
+          zh:
+            page: zh
+            section: s-8af24a54f0
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b88136c1a6
+            part: title
+          zh:
+            page: zh
+            section: s-a49e8254c2
+            part: title
+        sourceIds:
+          - primary-pmc12627998-q9z98
+        text:
+          en:
+            page: en
+            section: s-b88136c1a6
+            part: body
+          zh:
+            page: zh
+            section: s-a49e8254c2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella jinshaensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q9Z98
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2568; Reference.csv rows 617
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc7943530-q9z98
+        referenceId: ref-8bb86bf7-a6cc-4980-a699-3fc9f35ea5a9
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella jinshaensis: Species ecology account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12627998-q9z98
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella jinshaensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f966e6434e
+        part: body
+      zh:
+        page: zh
+        section: s-9387e686ce
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-fc06d1c405da5664c9a0a712
+        scientificName: Leptobrachella jinshaensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1021.60729
+        referenceId: ref-8bb86bf7-a6cc-4980-a699-3fc9f35ea5a9
+        sourceKey: primary-pmc7943530-q9z98
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7943530/article.xml
+        sourceConcept: Leptobrachella jinshaensis
+        evidenceRead: "Leptobrachella jinshaensis: Species ecology account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Reed-covered streams and rock shelters
+              zh: 芦苇覆盖溪流与岩下庇护处
+            referenceId: ref-8bb86bf7-a6cc-4980-a699-3fc9f35ea5a9
+            sourceKey: primary-pmc7943530-q9z98
+            locator: "Leptobrachella jinshaensis: Species ecology account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a7b190b3a5
+                part: body
+              zh:
+                page: zh
+                section: s-b6033857a5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-q9z98
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella jinshaensis
+        evidenceRead: "Leptobrachella jinshaensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A selected trait in the kungfu comparison
+              zh: kungfu 比较中的所选性状
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-q9z98
+            locator: PMC12627998 XML sec17 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e65876cb9f
+                part: body
+              zh:
+                page: zh
+                section: s-0e1e7f6d86
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

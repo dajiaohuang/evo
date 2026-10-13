@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus variabilis
+  displayName: Cophixalus variabilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y45K
+  sourceIndexes:
+    - name:
+        en: Cophixalus variabilis
+        zh: Cophixalus variabilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y45K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/491
+            queryName: Cophixalus variabilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b10d68d4a4
+      - s-5297e53377
+      - s-6771b40270
+      - s-eda36128c9
+      - s-416e2c69d8
+      - s-65249392be
+      - s-ff202aa8d4
+      - s-19279673e7
+      - s-3f1dfdb7aa
+      - s-caaa88a3e8
+      - s-d4a783014a
+    zh:
+      - s-ac5e074fe9
+      - s-cec5a3c690
+      - s-0d43934299
+      - s-7cf120ef2e
+      - s-c566c0a1a5
+      - s-f4b40597d2
+      - s-8914e50c73
+      - s-bb90d09058
+      - s-d0ce226a0b
+      - s-f5210eb4e3
+      - s-46113453b1

@@ -1,0 +1,110 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Meiolania
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Meiolania
+      en: Meiolania
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-db1eb3311d
+            part: body
+          en:
+            page: en
+            section: s-9837a1cda5
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-700ad8f0a9
+            part: body
+          en:
+            page: en
+            section: s-fea3ab5854
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Meiolania
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=37643
+          locator: Recorded PBDB parent closure beneath the already documented Pantestudines COL-compatible storage anchor.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:37643
+          readingTargets:
+            - name: Meiolania platyceps
+              pbdbTaxonId: txn:253379
+              canonicalPath: content/nodes/PBDB%3A253379
+            - name: Meiolania brevicollis
+              pbdbTaxonId: txn:352018
+              canonicalPath: content/nodes/PBDB%3A352018
+            - name: Meiolania mackayi
+              pbdbTaxonId: txn:352111
+              canonicalPath: content/nodes/PBDB%3A352111
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5cf3b13f87
+        part: body
+      en:
+        page: en
+        section: s-d16e3ff00c
+        part: body

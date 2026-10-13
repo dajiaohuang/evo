@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius maoershanensis
+  displayName: Hynobius maoershanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MQLB
+  sourceIndexes:
+    - name:
+        en: Hynobius maoershanensis
+        zh: Hynobius maoershanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MQLB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/176
+            queryName: Hynobius maoershanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-92446286eb
+      - s-2065356833
+      - s-1c8d55417f
+      - s-b048ed3c16
+      - s-b9952cc760
+      - s-5245ac217d
+      - s-414e9973c7
+      - s-73242a1d21
+      - s-c8b95faf4e
+      - s-b447e308f2
+      - s-8239017d05
+    zh:
+      - s-af4fbb81cb
+      - s-12fb5f4d24
+      - s-e9042fb315
+      - s-2fad91f8dd
+      - s-dc24e72a3a
+      - s-542d052c2a
+      - s-7ed823d144
+      - s-15d3420b45
+      - s-2ad7ce37f8
+      - s-fd13137c3c
+      - s-446191a1fe

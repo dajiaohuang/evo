@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Kurixalus banaensis
+    name:
+      en: Kurixalus banaensis
+      zh: Kurixalus banaensis
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Kurixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ef243b096d
+            part: body
+          zh:
+            page: zh
+            section: s-788508222d
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8bb4ffcf67
+            part: body
+          zh:
+            page: zh
+            section: s-2dbfe3a267
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2493, 2494; Reference.csv rows 571
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2493
+        values:
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus banaensis
+          - M
+          - "29.7"
+          - "11.9097"
+          - "12.177"
+          - "4.3065"
+          - "1.7226"
+          - "0.4158"
+          - "3.3561"
+          - "2.9997"
+          - "3.5046"
+          - "2.7324"
+          - "4.6926"
+          - NA
+          - NA
+          - "18.0279"
+          - "14.4639"
+          - "12.6225"
+          - NA
+          - "14.9688"
+          - NA
+          - NA
+          - "46.6884"
+          - "1.4256"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2494
+        values:
+          - Rhacophoridae
+          - Kurixalus
+          - Kurixalus banaensis
+          - F
+          - "33.9"
+          - "13.1532"
+          - "13.2549"
+          - "4.6782"
+          - "2.0679"
+          - "0.5763"
+          - "3.729"
+          - "3.4578"
+          - "3.7968"
+          - "2.9154"
+          - "5.085"
+          - NA
+          - NA
+          - "20.2044"
+          - "15.7635"
+          - "14.2041"
+          - NA
+          - "17.1195"
+          - NA
+          - NA
+          - "52.9518"
+          - "1.8306"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 571
+        values:
+          - Anura
+          - Kurixalus_banaensis
+          - "Tao, N. T., Matsui, M., & Eto, K. (2014). A new cryptic tree frog species allied to Kurixalus banaensis (Anura: Rhacophoridae) from Vietnam. Russian Journal of Herpetology, 21(4), 295-302."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3RG4C
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

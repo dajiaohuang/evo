@@ -1,0 +1,67 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-298b23bfbe
+      part: title
+    titleZh:
+      page: zh
+      section: s-7d51157969
+      part: title
+    category: origin
+    startAge: 210
+    endAge: 201.3
+    regions:
+      - Lower Elliot Formation, South Africa
+    clades:
+      - Ornithischia
+    summary:
+      page: en
+      section: s-298b23bfbe
+      part: body
+    summaryZh:
+      page: zh
+      section: s-7d51157969
+      part: body
+    claimIds:
+      - claim:event:eocursor-holotype-ornithischian-test
+    evidenceItems:
+      - statement: Holotype SAM-PK-K8025 preserves a partial skull, vertebrae and limb elements from the Lower Elliot Formation; its early ornithischian placement is a morphology-matrix result and does not make the specimen a direct ancestor or a global first appearance.
+        relation: supports
+        claimIds:
+          - claim:event:eocursor-holotype-ornithischian-test
+        referenceLinks:
+          - referenceId: butler-2007-eocursor
+            relation: supports
+            pages: 2041–2046
+            figure: Figures 1–3; Electronic Supplementary Material
+            quoteLocator: Systematic palaeontology; Phylogenetic analysis
+    uncertaintyItems:
+      - statement: The broad display interval follows formation-level correlation and must not be read as a direct specimen date or a global ornithischian FAD.
+        relation: contextualizes
+        claimIds:
+          - claim:event:eocursor-holotype-ornithischian-test
+        referenceLinks:
+          - referenceId: butler-2007-eocursor
+            relation: supports
+            pages: 2041–2046
+            figure: Figures 1–3; Electronic Supplementary Material
+            quoteLocator: Systematic palaeontology; Phylogenetic analysis
+  claims:
+    - subjectId: event:eocursor-holotype-ornithischian-test
+      claimKind: scientific
+      claimType: topology
+      statement: Holotype SAM-PK-K8025 preserves a partial skull, vertebrae and limb elements from the Lower Elliot Formation; its early ornithischian placement is a morphology-matrix result and does not make the specimen a direct ancestor or a global first appearance.
+      confidence: medium
+      confidenceRationale: The specimen inventory is direct, but incomplete preservation, formation age and early ornithischian placement retain stratigraphic and matrix uncertainty.
+      referenceLinks:
+        - referenceId: butler-2007-eocursor
+          relation: supports
+          pages: 2041–2046
+          figure: Figures 1–3; Electronic Supplementary Material
+          quoteLocator: Systematic palaeontology; Phylogenetic analysis
+  claim-rationales.zh:
+    - 标本清单是直接观察，但不完整保存、地层年龄与早期鸟臀类位置仍有地层和矩阵不确定性。
+  claim-statements.zh:
+    - 正模 SAM-PK-K8025 保存来自下埃利奥特组的部分头骨、椎骨与肢骨；其早期鸟臀类位置是形态矩阵结果，并不使该标本成为直系祖先或全球首现。

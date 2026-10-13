@@ -1,0 +1,96 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mico saterei (Silva Jr. & Noronha, 1998)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Sateré Marmoset
+      zh: 萨特雷绒猴
+    sections:
+      - topic: distribution
+        text:
+          en:
+            page: en
+            section: s-c69d336a75
+            part: body
+          zh:
+            page: zh
+            section: s-93cf1b12aa
+            part: body
+        sourceIds:
+          - saterei2025
+      - topic: habitat_and_conservation
+        text:
+          en:
+            page: en
+            section: s-8ff0417eb1
+            part: body
+          zh:
+            page: zh
+            section: s-ebf9d5d853
+            part: body
+        sourceIds:
+          - saterei2025
+    sources:
+      - id: saterei2025
+        referenceId: ref-ce2358e4-575d-8acb-a796-6b19dd60e4b3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports the dated Brazilian assessment, river-bounded description, separate distribution measures, habitat notes and research needs; assessment date is 27 September 2019.
+            zh: 支持有日期的巴西评估、河流边界描述、不同分布指标、生境说明和研究需求；评估日期是 2019 年 9 月 27 日。
+      - id: saterei1998
+        referenceId: ref-8aa696e7-51c4-8f43-a559-d538c8927401
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Original description under Callithrix saterei; supports type material and locality cited by the assessment.
+            zh: 以 Callithrix saterei 发表的原始描述；支持评估卡引用的模式标本和地点。
+      - id: mdd_name
+        referenceId: ref-fa1f443f-b448-8cc1-ac8b-b27b6afc6e91
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common name Sateré Marmoset only; it does not support the field findings or replace the pinned COL identity.
+            zh: 仅支持英文普通名 Sateré Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 · source 2144
+            zh: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42MJ8
+          scope:
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+    limitations:
+      en:
+        page: en
+        section: s-eec3cbeac9
+        part: body
+      zh:
+        page: zh
+        section: s-b93ceb6712
+        part: body

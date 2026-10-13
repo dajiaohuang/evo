@@ -1,0 +1,527 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylototriton anguliceps Le, Nguyen, Nishikawa, Nguyen, Pham, Matsui, Bernardes & Nguyen, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Tylototriton anguliceps
+      zh: Tylototriton anguliceps
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-63ea9b7e6e
+            part: title
+          zh:
+            page: zh
+            section: s-a4249a365e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-63ea9b7e6e
+            part: body
+          zh:
+            page: zh
+            section: s-a4249a365e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bffda591b4
+            part: title
+          zh:
+            page: zh
+            section: s-7b39f39e0b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bffda591b4
+            part: body
+          zh:
+            page: zh
+            section: s-7b39f39e0b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-da5381d6bb
+            part: title
+          zh:
+            page: zh
+            section: s-5e7e67250a
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-da5381d6bb
+            part: body
+          zh:
+            page: zh
+            section: s-5e7e67250a
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-d14b0c397c999d14c87dee6b
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4a8db0e4e9
+            part: title
+          zh:
+            page: zh
+            section: s-0417e375d2
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4a8db0e4e9
+            part: body
+          zh:
+            page: zh
+            section: s-0417e375d2
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8227513bc2
+            part: title
+          zh:
+            page: zh
+            section: s-8f33a74a95
+            part: title
+        sourceIds:
+          - primary-pmc6591163-7dblc
+        text:
+          en:
+            page: en
+            section: s-8227513bc2
+            part: body
+          zh:
+            page: zh
+            section: s-8f33a74a95
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1d254c52ba
+            part: title
+          zh:
+            page: zh
+            section: s-f5abab66e7
+            part: title
+        sourceIds:
+          - primary-pmc13084263-7dblc
+        text:
+          en:
+            page: en
+            section: s-1d254c52ba
+            part: body
+          zh:
+            page: zh
+            section: s-f5abab66e7
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-026718fea4
+            part: title
+          zh:
+            page: zh
+            section: s-471942dc6f
+            part: title
+        sourceIds:
+          - primary-pmc12776023-7dblc
+        text:
+          en:
+            page: en
+            section: s-026718fea4
+            part: body
+          zh:
+            page: zh
+            section: s-471942dc6f
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-2934b85e1e
+            part: title
+          zh:
+            page: zh
+            section: s-16254336c6
+            part: title
+        sourceIds:
+          - primary-pmc12776023-7dblc
+        text:
+          en:
+            page: en
+            section: s-2934b85e1e
+            part: body
+          zh:
+            page: zh
+            section: s-16254336c6
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-fde70f8a0d
+            part: title
+          zh:
+            page: zh
+            section: s-329183b82d
+            part: title
+        sourceIds:
+          - primary-pmc12776023-7dblc
+        text:
+          en:
+            page: en
+            section: s-fde70f8a0d
+            part: body
+          zh:
+            page: zh
+            section: s-329183b82d
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-ce38678253
+            part: title
+          zh:
+            page: zh
+            section: s-565fe85684
+            part: title
+        sourceIds:
+          - primary-pmc12776023-7dblc
+        text:
+          en:
+            page: en
+            section: s-ce38678253
+            part: body
+          zh:
+            page: zh
+            section: s-565fe85684
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylototriton anguliceps
+          url: https://www.checklistbank.org/dataset/316115/taxon/7DBLC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 366, 367; Reference.csv rows 4089
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc6591163-7dblc
+        referenceId: ref-7f571444-c19b-4d82-a773-2fb7e5bb044d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton anguliceps: Named kachinorum taxonomy and explicitly assigned comparative paragraphs, with unresolved unit and marker conflicts; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc13084263-7dblc
+        referenceId: ref-26262c1e-b191-4163-a6f6-cafa613089f5
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton anguliceps: Explicitly assigned comparator characters and morphological-results limitations, read from indexed sections and original XML; no figures or tables reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12776023-7dblc
+        referenceId: ref-382af65e-5f55-44d3-a0c5-2a887ebf2d31
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton anguliceps: Sampling, raw XML sequencing/assembly/tree methods and protein-coding results, extracted genome organization/RNA/control-region/phylogeny results and discussion read; one individual per newly sequenced species; published assembly/accession labels only, no independent sequence retrieval, assembly validation or population/genus completeness; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f3725a999c
+        part: body
+      zh:
+        page: zh
+        section: s-7399fe9a59
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-d14b0c397c999d14c87dee6b
+        scientificName: Tylototriton anguliceps
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2019.043
+        referenceId: ref-7f571444-c19b-4d82-a773-2fb7e5bb044d
+        sourceKey: primary-pmc6591163-7dblc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6591163/article.xml
+        sourceConcept: Tylototriton anguliceps
+        evidenceRead: "Tylototriton anguliceps: Named kachinorum taxonomy and explicitly assigned comparative paragraphs, with unresolved unit and marker conflicts; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 3.0
+          licenseUrl: https://creativecommons.org/licenses/by/3.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A comparative head-ridge and nodule description
+              zh: 比较头脊及结节描述
+            referenceId: ref-7f571444-c19b-4d82-a773-2fb7e5bb044d
+            sourceKey: primary-pmc6591163-7dblc
+            locator: RESULTS > Taxonomy; reading-sections index 0, paragraphs 29
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7a8a6b672c
+                part: body
+              zh:
+                page: zh
+                section: s-5ed2d89ff8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1276.173848
+        referenceId: ref-26262c1e-b191-4163-a6f6-cafa613089f5
+        sourceKey: primary-pmc13084263-7dblc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13084263/article.xml
+        sourceConcept: Tylototriton anguliceps
+        evidenceRead: "Tylototriton anguliceps: Explicitly assigned comparator characters and morphological-results limitations, read from indexed sections and original XML; no figures or tables reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Another source-bounded head and colour comparison
+              zh: 另一受来源限定的头及颜色比较
+            referenceId: ref-26262c1e-b191-4163-a6f6-cafa613089f5
+            sourceKey: primary-pmc13084263-7dblc
+            locator: PMC13084263 article.xml Results > Taxonomic account > Morphological comparisons, section id sec22, paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1c705b9c5c
+                part: body
+              zh:
+                page: zh
+                section: s-f3685f8af3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1265.171020
+        referenceId: ref-382af65e-5f55-44d3-a0c5-2a887ebf2d31
+        sourceKey: primary-pmc12776023-7dblc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12776023/article.xml
+        sourceConcept: Tylototriton anguliceps
+        evidenceRead: "Tylototriton anguliceps: Sampling, raw XML sequencing/assembly/tree methods and protein-coding results, extracted genome organization/RNA/control-region/phylogeny results and discussion read; one individual per newly sequenced species; published assembly/accession labels only, no independent sequence retrieval, assembly validation or population/genus completeness; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A single Vietnamese specimen yielded the reported mitogenome
+              zh: 一个越南标本产生所报告线粒体组装
+            referenceId: ref-382af65e-5f55-44d3-a0c5-2a887ebf2d31
+            sourceKey: primary-pmc12776023-7dblc
+            locator: PMC12776023 section 1 paragraph 0; section 2 paragraph 0; section 5 paragraph 3; XML SECID0ECFAE paragraphs 0–1; SECID0EOFAE paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2b28a8c9f1
+                part: body
+              zh:
+                page: zh
+                section: s-06c16eea24
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: A conventional mitochondrial gene complement in one assembly
+              zh: 一个组装中的常见线粒体基因组成
+            referenceId: ref-382af65e-5f55-44d3-a0c5-2a887ebf2d31
+            sourceKey: primary-pmc12776023-7dblc
+            locator: PMC12776023 section 2 paragraph 0; section 3 paragraphs 1–2; section 5 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-95575a5b70
+                part: body
+              zh:
+                page: zh
+                section: s-f9f875d57d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Marker-dependent placement within a sparsely sampled genus
+              zh: 属内采样有限且依标记而异的系统位置
+            referenceId: ref-382af65e-5f55-44d3-a0c5-2a887ebf2d31
+            sourceKey: primary-pmc12776023-7dblc
+            locator: PMC12776023 section 4 paragraphs 0–3; section 5 paragraph 1; XML SECID0EMGAE paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2d9e25baa2
+                part: body
+              zh:
+                page: zh
+                section: s-5405aaa4e3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: conservation
+            heading:
+              en: Assembly resources support future assays rather than validated monitoring
+              zh: 组装资源支持未来检测，并非已验证监测
+            referenceId: ref-382af65e-5f55-44d3-a0c5-2a887ebf2d31
+            sourceKey: primary-pmc12776023-7dblc
+            locator: PMC12776023 section 5 paragraphs 2–4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6bda48c791
+                part: body
+              zh:
+                page: zh
+                section: s-6cbed8401b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

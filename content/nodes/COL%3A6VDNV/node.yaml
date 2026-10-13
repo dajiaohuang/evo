@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus sandersoni
+  displayName: Phrynobatrachus sandersoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VDNV
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus sandersoni
+        zh: Phrynobatrachus sandersoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VDNV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/171
+            queryName: Phrynobatrachus sandersoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/383
+            queryName: Phrynodon sandersoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3bbf08ee32
+      - s-fa4f585d7a
+      - s-7c0a7babdd
+      - s-09c469855b
+      - s-90e2991f6e
+      - s-7a265b96c3
+      - s-726ffdd0b8
+      - s-47100b0c5e
+      - s-f6fa6a9fcd
+      - s-0ddc1f6fed
+    zh:
+      - s-822d6bba0b
+      - s-7b50b27b38
+      - s-460b794090
+      - s-269e2e4f12
+      - s-eba8f4153f
+      - s-c85cbe4d1f
+      - s-579ce54603
+      - s-444386f18c
+      - s-ab1ceeecb4
+      - s-a3c7ad52ab

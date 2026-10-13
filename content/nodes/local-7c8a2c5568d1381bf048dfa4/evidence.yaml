@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odorrana tiannanensis
+    name:
+      en: Odorrana tiannanensis
+      zh: Odorrana tiannanensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Odorrana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b1b07bfee3
+            part: body
+          zh:
+            page: zh
+            section: s-f570b5325e
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f80932ce37
+            part: body
+          zh:
+            page: zh
+            section: s-c085a5aa8e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3802, 3803; Reference.csv rows 3933
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3802
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana tiannanensis
+          - M
+          - "52.3"
+          - "28"
+          - "18.5"
+          - "4.1"
+          - "4.7"
+          - "1.7"
+          - "5"
+          - "5"
+          - "5.1"
+          - NA
+          - "8.7"
+          - NA
+          - "15.2"
+          - NA
+          - "26.8"
+          - "29.9"
+          - "43.3"
+          - "32.7"
+          - NA
+          - NA
+          - "102.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3803
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana tiannanensis
+          - F
+          - "100.3"
+          - "45.1"
+          - "35.2"
+          - "10.2"
+          - "5.3"
+          - "4.7"
+          - "8.8"
+          - "9.9"
+          - "7.9"
+          - NA
+          - "14.8"
+          - NA
+          - "25.2"
+          - NA
+          - "46.4"
+          - "55.8"
+          - "81.7"
+          - "63"
+          - NA
+          - NA
+          - "195"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3933
+        values:
+          - Anura
+          - Odorrana_tiannanensis
+          - "Bain, R., Lathrop, A., Murphy, R., Orlov, N., & Cuc, H. O. (2003). Cryptic species of a cascade frog from Southeast Asia: taxonomic revisions and descriptions of six new species. American Museum Novitates, 3417, 1-60. https://doi.org/10.1206/0003-0082(2003)417<0001:CSOACF>2.0.CO;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - HLL
+      - Fin2L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48SGV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

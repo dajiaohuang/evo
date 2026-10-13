@@ -1,0 +1,88 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-8897c011a6
+          part: title
+        zh:
+          page: zh
+          section: s-7a62ad8721
+          part: title
+      text:
+        en:
+          page: en
+          section: s-8897c011a6
+          part: body
+        zh:
+          page: zh
+          section: s-7a62ad8721
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-599162c052
+          part: title
+        zh:
+          page: zh
+          section: s-06fcf380f3
+          part: title
+      text:
+        en:
+          page: en
+          section: s-599162c052
+          part: body
+        zh:
+          page: zh
+          section: s-06fcf380f3
+          part: body
+  atlas-node:
+    name: Pteridophyta
+    commonName: Ferns & Horsetails
+    commonNameZh: 蕨类与木贼类
+    rank: phylum
+    taxonId: txn:54828
+    firstAppearance: 385
+    lastAppearance: 0
+    extinct: false
+    entityKind: historical-grade
+    contentLevel: dossier
+    parentRelationshipKind: historical-grade-membership
+  claims:
+    - subjectId: taxon:pteridophyta
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Pteridophyta atlas root retains a 385–0 Ma navigation envelope anchored by the Middle Devonian Wattieza–Eospermatopteris cladoxylopsid reconstruction; the fern-like body plan is not a crown-fern, crown-horsetail or direct-ancestor claim.
+      confidence: medium
+      confidenceRationale: Attached crown and trunk material directly supports a Middle Devonian cladoxylopsid tree reconstruction. Its relationship to living fern and horsetail lineages is not resolved by that specimen, so the atlas records an historical pteridophyte-grade exemplar rather than a clade FAD.
+      referenceLinks:
+        - referenceId: stein-2007-wattieza
+          relation: supports
+          pages: 904–907
+          figure: Figures 1–3
+          quoteLocator: Attached Wattieza crowns and Eospermatopteris trunks; reconstruction and affinity discussion
+  claim-rationales.zh:
+    - 相连的树冠和树干材料直接支持中泥盆世枝蕨类树木复原，但该标本不能解决它与现生真蕨和木贼的关系，因此这里只记录历史上的蕨类级代表。
+  claim-statements.zh:
+    - 蕨类植物图集根节点保留 3.85 亿年前至今的导航包络，以中泥盆世 Wattieza–Eospermatopteris 枝蕨类复原为锚点；蕨状体型不等于冠群真蕨、冠群木贼或直系祖先主张。
+  ranges:
+    - entityId: pteridophyta
+      rangeKind: global-composite
+      taxonomicConcept: Atlas Pteridophyta navigation concept; cladoxylopsid exemplar is not crown ferns or horsetails
+      geographicScope: Gilboa–Schoharie Middle Devonian sample to living fern and horsetail lineages
+      olderMa: 385
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 5
+        youngerMa: 0
+        note: The 385 Ma endpoint is a rounded Middle Devonian cladoxylopsid exemplar, not a crown-fern or crown-horsetail first appearance.
+      evidenceBasis: Attached Wattieza crowns and Eospermatopteris trunks directly reconstruct a fern-like cladoxylopsid tree while leaving crown relationships unresolved.
+      confidence: medium
+      claimIds:
+        - claim:taxon:pteridophyta:root-range-rc39
+      referenceLocators:
+        - referenceId: stein-2007-wattieza
+          locator: pp. 904–907; Figures 1–3
+      evidenceLevel: literature-synthesized

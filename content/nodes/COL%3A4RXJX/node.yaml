@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus pseudomalabaricus
+  displayName: Rhacophorus pseudomalabaricus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXJX
+  sourceIndexes:
+    - name:
+        en: Rhacophorus pseudomalabaricus
+        zh: Rhacophorus pseudomalabaricus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXJX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/250
+            queryName: Rhacophorus pseudomalabaricus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c032fcfe6a
+      - s-a2ba7869e2
+      - s-c089eb0b79
+      - s-0c0dcd19cb
+      - s-b04f994abc
+      - s-7ba6f3d1ec
+      - s-6c06382c63
+      - s-271a68d400
+      - s-95efc88675
+    zh:
+      - s-3550725e21
+      - s-ccc429ba1b
+      - s-6e9b81b572
+      - s-de77978213
+      - s-4997b83b2d
+      - s-1f8851e837
+      - s-5d58228990
+      - s-ec92d5a998
+      - s-ec4b76c278

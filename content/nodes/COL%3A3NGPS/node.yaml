@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus charazani
+  displayName: Hyloscirtus charazani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGPS
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus charazani
+        zh: Hyloscirtus charazani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGPS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/41
+            queryName: Hyloscirtus charazani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/302
+            queryName: Hyla charazani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/356
+            queryName: Boana charazani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/357
+            queryName: Colomascirtus charazani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ae6c9d1844
+      - s-2c4cd3c44e
+      - s-413a460f62
+      - s-7755a46111
+      - s-0a51d6a511
+      - s-aac34cf25a
+      - s-a09517a90b
+      - s-1f10d02bff
+      - s-d18ecc806a
+    zh:
+      - s-7c98a88835
+      - s-d520364c84
+      - s-0602718fdd
+      - s-fd404b724d
+      - s-f4a51b72b4
+      - s-2cf795009c
+      - s-b51a1b47d7
+      - s-4bb8168d57
+      - s-f0eee31bc7

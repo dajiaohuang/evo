@@ -1,0 +1,387 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Buriolestes schultzi
+    commonName: Buriolestes
+    commonNameZh: 布氏盗龙
+    rank: species
+    taxonId: txn:347522
+    firstAppearance: 0
+    lastAppearance: 0
+    rangeEvidenceLevel: withheld-no-range-evidence
+    extinct: true
+    parentRelationshipKind: taxonomic-parent
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Buriolestes schultzi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Buriolestes schultzi
+      en: Buriolestes schultzi
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5b909ffdd
+            part: body
+          en:
+            page: en
+            section: s-02f191d5a3
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-eeccba1b53
+            part: body
+          en:
+            page: en
+            section: s-479a94f8d4
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-da80975bb9
+            part: body
+          en:
+            page: en
+            section: s-16c64a06dd
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ba091185d1
+            part: body
+          en:
+            page: en
+            section: s-5f2b0d64f0
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-059179bc78
+            part: body
+          en:
+            page: en
+            section: s-daecc6c96d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Buriolestes schultzi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=347522&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:347522; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:347522
+          selectedOccurrenceIds:
+            - occ:1347762
+          selectedCollectionIds:
+            - col:175578
+          sourceReferenceIds:
+            - ref:60786
+          originalIdentificationMappings:
+            - occurrenceId: occ:1347762
+              originalIdentifiedName: Buriolestes schultzi n. gen. n. sp.
+              acceptedName: Buriolestes schultzi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-505556368c
+        part: body
+      en:
+        page: en
+        section: s-885044218b
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:347522
+    scientificName: Buriolestes schultzi
+    commonName: Buriolestes
+    commonNameZh: 布氏盗龙
+    rank: species
+    parentName: Buriolestes
+    extinct: true
+    geography:
+      - Candelária Sequence, Santa Maria Formation, Rio Grande do Sul, Brazil
+    overview:
+      page: en
+      section: s-f73761d3e7
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-8a37ad4b2e
+        part: body
+      habitat:
+        page: en
+        section: s-5c2921d90a
+        part: body
+      locomotion:
+        page: en
+        section: s-ff4f699c72
+        part: body
+      bodySize:
+        page: en
+        section: s-a0da66d47d
+        part: body
+      guild:
+        page: en
+        section: s-7d58a252a0
+        part: body
+      dietZh:
+        page: zh
+        section: zh-ad44a842815474
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-d55de0d0d9428c
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-3bad32dba0f4fe
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-757cc282fa0011
+        part: body
+      guildZh:
+        page: zh
+        section: zh-e9c64a326d282e
+        part: body
+    traits:
+      - page: en
+        section: s-41a2694591
+        part: body
+      - page: en
+        section: s-42e9e40b25
+        part: body
+      - page: en
+        section: s-03421e3759
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-6c8a4aceed
+      part: body
+    readerSections:
+      - id: holotype-and-teeth
+        title:
+          en:
+            page: en
+            section: s-522cc73111
+            part: title
+          zh:
+            page: zh
+            section: s-947c99d2a1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-522cc73111
+            part: body
+          zh:
+            page: zh
+            section: s-947c99d2a1
+            part: body
+        sourceIds:
+          - buriolestes-2016
+      - id: placement-and-locality
+        title:
+          en:
+            page: en
+            section: s-b1732fb9c7
+            part: title
+          zh:
+            page: zh
+            section: s-b74b92ed4b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b1732fb9c7
+            part: body
+          zh:
+            page: zh
+            section: s-b74b92ed4b
+            part: body
+        sourceIds:
+          - buriolestes-2016
+    readerSources:
+      - id: buriolestes-2016
+        referenceId: cabreira-2016-buriolestes
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Holotype ULBRA-PVT280, the Candelária Sequence locality, dental description and sampled morphology analysis; pages 3090–3095, Figures 1–3 and Figure S3. The source supports specimen anatomy and the study's comparative diet and phylogenetic results, not a direct-ancestor claim or a complete global range.
+            zh: 正模 ULBRA-PVT280、Candelária 层序地点、牙齿描述和取样形态分析；第 3090–3095 页、图 1–3 与图 S3。该来源支持标本解剖及研究中的比较食性和系统发育结果，不支持直接祖先断言或完整全球分布。
+    confidence: medium
+    referenceIds:
+      - cabreira-2016-buriolestes
+    overviewZh:
+      page: zh
+      section: zh-e6e1c73cdae51b
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-36efe5d4f3760f
+      part: body
+  claims:
+    - subjectId: taxon:buriolestes_schultzi
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Buriolestes schultzi is based on articulated holotype ULBRA-PVT280, and the study recovers it among sauropodomorphs in its sampled morphology matrix; the matrix placement is not evidence of direct ancestry.
+      confidence: medium
+      confidenceRationale: "The holotype is directly documented, while phylogenetic placement depends on character coding, taxon sampling and analysis settings. Buriolestes schultzi: For the species-level page, this assessment applies to the named species and its cited diagnosis; it does not imply a broader genus sample."
+      referenceLinks:
+        - referenceId: cabreira-2016-buriolestes
+          relation: supports
+          pages: 3090–3095
+          figure: Figures 1–2; Figure S3
+          quoteLocator: Systematic palaeontology; phylogenetic analysis
+    - subjectId: taxon:buriolestes_schultzi
+      claimType: biogeography
+      claimKind: scientific
+      statement: This profile's geographic statement is limited to the Candelária Sequence of the Santa Maria Formation in Rio Grande do Sul, Brazil, where the holotype was collected; it does not assert a global distribution.
+      confidence: high
+      confidenceRationale: "The locality and formation of the holotype are recorded directly, but a single source-bounded occurrence cannot establish genus-wide distribution. Buriolestes schultzi: For the species-level page, this assessment covers the cited occurrence or localities only and does not estimate a complete range."
+      referenceLinks:
+        - referenceId: cabreira-2016-buriolestes
+          relation: supports
+          pages: 3090–3095
+          figure: Figure 1; Figure S1
+          quoteLocator: Locality, geological setting and holotype description
+    - subjectId: taxon:buriolestes_schultzi
+      claimType: morphology
+      claimKind: scientific
+      statement: Holotype ULBRA-PVT280 includes a partial skull, axial skeleton, forelimb and nearly complete left hind limb, and preserves recurved, serrated teeth; these observations are limited to the named specimen.
+      confidence: high
+      confidenceRationale: "The specimen inventory and dental morphology are described and illustrated directly in the primary study. Buriolestes schultzi: For the species-level page, this assessment covers the characters observed in the cited specimens; unsampled variation remains outside it."
+      referenceLinks:
+        - referenceId: cabreira-2016-buriolestes
+          relation: supports
+          pages: 3090–3095
+          figure: Figures 1 and 3; Supplemental Experimental Procedures
+          quoteLocator: Systematic palaeontology; tooth morphology and dietary character coding
+    - subjectId: taxon:buriolestes_schultzi
+      claimType: ecology
+      claimKind: scientific
+      statement: The recurved, serrated teeth of ULBRA-PVT280 are compatible with faunivory in the study's character-based reconstruction; habitat, locomotion, body size and guild remain bounded comparative interpretations rather than observed behaviour.
+      confidence: medium
+      confidenceRationale: "Dental morphology is directly documented, while diet and the remaining ecological fields depend on comparative coding, reconstruction and the sampled topology. Buriolestes schultzi: For the species-level page, this assessment covers only ecological inferences tied to the cited specimens; unmeasured fields remain unassigned."
+      referenceLinks:
+        - referenceId: cabreira-2016-buriolestes
+          relation: supports
+          pages: 3090–3095
+          figure: Figure 3; Supplemental Experimental Procedures
+          quoteLocator: Tooth morphology; character-state and diet reconstruction
+  claim-rationales.zh:
+    - 正模有直接记录，而系统位置依赖性状编码、类群取样和分析设定。 Buriolestes schultzi：本种级页面的判断仅适用于所引材料中的该种及其描述，不表示存在更广泛的属级样本。
+    - 正模的地点和地层有直接记录，但单一受限出现不能建立属级的全球分布。 Buriolestes schultzi：本种级页面的判断仅覆盖所引化石记录或地点，不据此估算完整分布。
+    - 论文直接描述并图示了标本组成和牙齿形态。 Buriolestes schultzi：本种级页面的判断仅覆盖所引标本中观察到的性状；未取样的种内变异不在此结论内。
+    - 牙齿形态有直接记录，而食性及其余生态字段依赖比较编码、重建和所采样的系统树。 Buriolestes schultzi：本种级页面的判断仅覆盖与所引标本相关的生态推断；未测量字段继续保持未指定。
+  claim-statements.zh:
+    - Buriolestes schultzi 以关节相连的正模标本 ULBRA-PVT280 为基础，研究在所采样的形态矩阵中将其恢复为蜥脚形类成员；该矩阵定位不是直接祖先关系的证据。
+    - 正模标本 ULBRA-PVT280 包含部分头骨、中轴骨骼、前肢和近乎完整的左后肢，并保留后弯且具锯齿的牙齿；这些观察仅限于该标本。
+    - 本档案的地理说明仅限于正模标本采集地——巴西南里奥格兰德州 Santa Maria 组的 Candelária 层序，不代表全球分布。
+    - 在该研究基于性状的重建中，ULBRA-PVT280 后弯且具锯齿的牙齿与取食动物相符；生境、运动方式、体型和生态功能类群仍属于受研究范围限定的比较解释，而非直接观察到的行为。
+  ranges:
+    - entityId: buriolestes_schultzi
+      rangeKind: global-composite
+      taxonomicConcept: PBDB accepted fossil species txn:347522 (Buriolestes schultzi); profile scope is the cited specimen record, not a global range synthesis
+      geographicScope: Named source locality only; no complete global geographic-temporal range is assigned
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; the cited specimen study does not establish a complete global first and last appearance range.
+      evidenceBasis: The frozen PBDB roster supports accepted name, rank, OID and immediate parent. The selected literature supports the described specimen evidence, not a complete global range for Buriolestes schultzi.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: cabreira-2016-buriolestes
+          locator: Cited named specimen and locality; no complete global range is claimed.
+  field-claim-overrides:
+    - firstAppearance:
+        status: not-assessed
+      lastAppearance:
+        status: not-assessed

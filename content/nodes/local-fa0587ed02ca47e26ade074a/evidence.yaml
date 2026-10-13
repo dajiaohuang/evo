@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bokermannohyla capra
+    name:
+      en: Bokermannohyla capra
+      zh: Bokermannohyla capra
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Bokermannohyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5446d446e1
+            part: body
+          zh:
+            page: zh
+            section: s-546805be60
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1fc1494bcf
+            part: body
+          zh:
+            page: zh
+            section: s-80869243ce
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 692, 693; Reference.csv rows 2957
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 692
+        values:
+          - Hylidae
+          - Bokermannohyla
+          - Bokermannohyla capra
+          - F
+          - "61.5"
+          - "21.3"
+          - "21"
+          - "5.9"
+          - "3.5"
+          - NA
+          - "6.7"
+          - "3.8"
+          - "4.5"
+          - "5.7"
+          - NA
+          - "3.5"
+          - NA
+          - NA
+          - NA
+          - "6"
+          - NA
+          - "29.6"
+          - "6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 693
+        values:
+          - Hylidae
+          - Bokermannohyla
+          - Bokermannohyla capra
+          - M
+          - "51.4"
+          - "18.5"
+          - "17.8"
+          - "5.4"
+          - "3"
+          - NA
+          - "6"
+          - "3.4"
+          - "4.3"
+          - "5"
+          - NA
+          - "3"
+          - NA
+          - NA
+          - NA
+          - "35.8"
+          - NA
+          - "26.1"
+          - "26.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2957
+        values:
+          - Anura
+          - Bokermannohyla_capra
+          - "Napoli, M., & Pimenta, B. (2009). A new species of the Bokermannohyla circumdata Group (Anura: Hylidae) from the coastal forests of Bahia, northeastern Brazil. Copeia, 2009, 674-683. https://doi.org/10.1643/CH-08-224"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5WMY4
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

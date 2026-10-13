@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius magnipes
+  displayName: Thorius magnipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KSZ
+  sourceIndexes:
+    - name:
+        en: Thorius magnipes
+        zh: Thorius magnipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KSZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/46
+            queryName: Thorius magnipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 37
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1219dbf039
+      - s-20b2e2edd3
+      - s-7e704a4803
+      - s-2c001c4035
+      - s-9a8bddc8c4
+      - s-72b0ad910b
+      - s-3001878a53
+      - s-6afe7dec92
+    zh:
+      - s-18d6608b47
+      - s-5a5f6f3357
+      - s-0338e8c3b8
+      - s-1e158ec5e3
+      - s-29655be921
+      - s-75d78b9b90
+      - s-937dd2a9b7
+      - s-ba650cb4f4

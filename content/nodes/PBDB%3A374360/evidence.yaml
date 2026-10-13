@@ -1,0 +1,180 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Palaeotherium magnum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Palaeotherium magnum
+      en: Palaeotherium magnum
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f63a117b88
+            part: body
+          en:
+            page: en
+            section: s-5a8f1eec7c
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1145bb3734
+            part: body
+          en:
+            page: en
+            section: s-5aa17b0a8a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a178ccdf6e
+            part: body
+          en:
+            page: en
+            section: s-37813aebb8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-55dac115d5
+            part: body
+          en:
+            page: en
+            section: s-5369b1416e
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a37d1ee5ab
+            part: body
+          en:
+            page: en
+            section: s-469ba802c6
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Palaeotherium magnum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=374360&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:374360; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:374360
+          selectedOccurrenceIds:
+            - occ:405638
+            - occ:405641
+            - occ:405642
+            - occ:427087
+            - occ:447635
+            - occ:474450
+            - occ:1118570
+            - occ:1346158
+            - occ:1352358
+            - occ:1359345
+            - occ:1359351
+            - occ:1359356
+          selectedCollectionIds:
+            - col:39012
+            - col:39013
+            - col:39015
+            - col:41652
+            - col:31747
+            - col:12850
+            - col:31751
+            - col:182272
+            - col:143459
+            - col:184758
+            - col:184759
+            - col:184761
+          sourceReferenceIds:
+            - ref:10430
+            - ref:11154
+            - ref:11568
+            - ref:7272
+            - ref:46140
+            - ref:60629
+            - ref:61227
+            - ref:61794
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-95dbd294d9
+        part: body
+      en:
+        page: en
+        section: s-a63333648b
+        part: body

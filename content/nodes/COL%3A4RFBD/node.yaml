@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ranitomeya uakarii
+  displayName: Ranitomeya uakarii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RFBD
+  sourceIndexes:
+    - name:
+        en: Ranitomeya uakarii
+        zh: Ranitomeya uakarii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RFBD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/109
+            queryName: Ranitomeya uakarii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/96
+            queryName: Dendrobates uakarii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e96fdfb296
+      - s-effcc7799a
+      - s-afac2b569f
+      - s-b2df7e0807
+      - s-ddd7cd4d89
+      - s-e94e6f831b
+      - s-d0b4233271
+      - s-5793beafcd
+      - s-67695565a7
+      - s-83ec3f52e4
+    zh:
+      - s-848aca2c73
+      - s-966705c6fd
+      - s-69ac573385
+      - s-39abc7fa3f
+      - s-5225e5b922
+      - s-e9169abca2
+      - s-bf3e01d9ea
+      - s-fbb5525ae4
+      - s-c3ac240ce4
+      - s-2846a2917c

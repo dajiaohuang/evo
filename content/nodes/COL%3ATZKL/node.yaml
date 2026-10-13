@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chikila alcocki
+  displayName: Chikila alcocki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZKL
+  sourceIndexes:
+    - name:
+        en: Chikila alcocki
+        zh: Chikila alcocki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZKL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/269
+            queryName: Chikila alcocki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75110c6cdb
+      - s-785d364b0b
+      - s-1c0e44501b
+      - s-a4079ec0e2
+      - s-77ff3943c0
+      - s-157ad5db72
+      - s-3a1ce1b09b
+      - s-03206db09b
+      - s-3603c0b29c
+      - s-4f30b29401
+      - s-94693de4ea
+    zh:
+      - s-8703d5b248
+      - s-baa1881423
+      - s-429238b5b4
+      - s-fbf047c4f2
+      - s-f2295c9bbe
+      - s-76ed01bbff
+      - s-58c129523d
+      - s-aea1ada48c
+      - s-e1369e0750
+      - s-9cd83f4d96
+      - s-802f596c5a

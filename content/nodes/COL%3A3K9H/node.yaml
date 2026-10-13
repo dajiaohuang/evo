@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene
+  displayName: Centrolene
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3K9H
+  sourceIndexes:
+    - name:
+        en: Centrolene
+        zh: Centrolene
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3K9H
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/281
+            queryName: Centrolene
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 151
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7182c883be
+      - s-c22c751d74
+      - s-57c81ae2e1
+      - s-450aaf479f
+      - s-684e2a46b1
+      - s-5c611db764
+      - s-51d7bf0e39
+      - s-d5400a70b0
+      - s-0a3d785340
+      - s-8efdfb90f2
+      - s-2bdc70daea
+      - s-6c3e718688
+      - s-9eeb355c09
+      - s-028a29daf4
+      - s-ea3b02a254
+      - s-846ec007da
+      - s-b18ba99935
+      - s-899f393158
+    zh:
+      - s-55223b91b9
+      - s-54de1a8fbf
+      - s-e85291714d
+      - s-caf6f833bb
+      - s-6a821c3a9a
+      - s-ac9952b0c9
+      - s-1b927b2e59
+      - s-b5befc234f
+      - s-7e3a5f6575
+      - s-8081f7805e
+      - s-9394d29d61
+      - s-6b9e9838d6
+      - s-3b02d7fc28
+      - s-23b1cacc87
+      - s-149573e531
+      - s-24d776969c
+      - s-34646a0c66
+      - s-961a8bbdde

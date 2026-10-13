@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis capixaba
+  displayName: Chiasmocleis capixaba
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TYZY
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis capixaba
+        zh: Chiasmocleis capixaba
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TYZY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/242
+            queryName: Chiasmocleis capixaba
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6262db946c
+      - s-75903967f4
+      - s-0009409551
+      - s-15d916805c
+      - s-cdba884d8e
+      - s-2e9a581e98
+      - s-19084a86fc
+      - s-0ce24286ac
+      - s-4874e374bf
+      - s-50ab75c889
+      - s-60b1b266e2
+      - s-8e97f82299
+      - s-2b3c560602
+      - s-a1270e8728
+      - s-c69d96b2e9
+      - s-381591c90a
+      - s-6373216cc6
+      - s-58122bbe7b
+    zh:
+      - s-5676f000ec
+      - s-a9b5796a0d
+      - s-a18ddcb7b7
+      - s-fd0c5a0e52
+      - s-28c4be32fa
+      - s-d55b679db9
+      - s-3486f44d59
+      - s-29b88a329c
+      - s-9e0038626a
+      - s-3662139b32
+      - s-5a4f0c04c2
+      - s-dadf29abca
+      - s-5411e16fcb
+      - s-07c25c4ae0
+      - s-efbf950157
+      - s-b9ebffd21a
+      - s-6c0afc9658
+      - s-057cb3b67d

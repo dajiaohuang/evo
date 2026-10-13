@@ -1,0 +1,66 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-30657c0b22
+      part: title
+    titleZh:
+      page: zh
+      section: s-19327bcc24
+      part: title
+    category: transition
+    startAge: 375
+    endAge: 375
+    regions:
+      - Fram Formation, southern Ellesmere Island, Nunavut, Canada
+    clades:
+      - Tiktaalik roseae
+      - Elpistostegalia
+    summary:
+      page: en
+      section: s-30657c0b22
+      part: body
+    summaryZh:
+      page: zh
+      section: s-19327bcc24
+      part: body
+    claimIds:
+      - claim:event:tiktaalik-pectoral-fin
+    evidenceItems:
+      - statement: The pectoral-fin endoskeleton includes a robust humerus, radius and ulna, wrist-like joints and distal radials while retaining lepidotrichial fin rays
+        relation: supports
+        claimIds:
+          - claim:event:tiktaalik-pectoral-fin
+        referenceLinks:
+          - relation: supports
+            referenceId: shubin-2006-tiktaalik-pectoral-fin
+            pages: 764–771
+            figure: Figures 1–4; Supplementary Figures 1–4
+    uncertaintyItems:
+      - statement: Load transmission inferred from joint geometry is a functional interpretation; the appendage remains a fin and does not preserve free digits or a witnessed gait
+        relation: contextualizes
+        claimIds:
+          - claim:event:tiktaalik-pectoral-fin
+        referenceLinks:
+          - relation: supports
+            referenceId: shubin-2006-tiktaalik-pectoral-fin
+            pages: 764–771
+            quoteLocator: Pectoral-fin description and functional discussion
+  claims:
+    - subjectId: event:tiktaalik-pectoral-fin
+      claimKind: scientific
+      claimType: morphology
+      statement: The Tiktaalik pectoral-fin endoskeleton contains a robust humerus, radius and ulna, wrist-like joints and distal radials capable of transmitting load while retaining lepidotrichial fin rays; it is a fin, not a free-digit limb or a recorded walking trace.
+      confidence: high
+      confidenceRationale: The articulated fin skeleton and joint surfaces are directly described and illustrated in multiple specimens. High confidence is confined to preserved anatomy; load transmission is a functional inference, and the retained fin rays prevent the evidence from being rewritten as a digit-bearing terrestrial limb.
+      referenceLinks:
+        - relation: supports
+          referenceId: shubin-2006-tiktaalik-pectoral-fin
+          pages: 764–771
+          figure: Figures 1–4; Supplementary Figures 1–4
+          quoteLocator: Pectoral-fin description; functional interpretation; discussion
+  claim-rationales.zh:
+    - 关节保存的鳍内骨骼和关节面在多件标本中被直接描述。高置信度只针对保存的解剖结构；负荷传递属于功能推断，保留鳍条则防止将证据改写为具自由指的陆生肢。
+  claim-statements.zh:
+    - Tiktaalik 胸鳍内骨骼含有粗壮的肱骨、桡骨和尺骨、腕样关节及可传递负荷的远端辐骨，同时保留鳍条；它仍是鳍，不是具自由指的肢，也不是已记录的行走足迹。

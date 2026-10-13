@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Triprion petasatus
+  displayName: Triprion petasatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7CV8R
+  sourceIndexes:
+    - name:
+        en: Triprion petasatus
+        zh: Triprion petasatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7CV8R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/111
+            queryName: Triprion petasatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/105
+            queryName: Pharyngodon petasatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/106
+            queryName: Hyla petasata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-94578b4cc2
+      - s-b5a5f5e934
+      - s-0caf5cf308
+      - s-fcad93cac8
+      - s-88425e8be7
+      - s-cff1fb64ae
+      - s-f74ed3660a
+      - s-3dd17eff5a
+      - s-14b80431f7
+      - s-9ca1c15c25
+      - s-6c933620f8
+      - s-0f893ae734
+    zh:
+      - s-800d9337b9
+      - s-88dab13643
+      - s-ddc330e8e0
+      - s-60bfb727ed
+      - s-5636451fd2
+      - s-e05aa54aed
+      - s-c5c34bba4c
+      - s-c0f0a48f7d
+      - s-c36c11e155
+      - s-5027ea7d52
+      - s-1d11cbc6b8
+      - s-72545fcdc8

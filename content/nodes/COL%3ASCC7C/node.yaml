@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis chomskyi
+  displayName: Pristimantis chomskyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCC7C
+  sourceIndexes:
+    - name:
+        en: Pristimantis chomskyi
+        zh: Pristimantis chomskyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCC7C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/200
+            queryName: Pristimantis chomskyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-078f42a342
+      - s-fca0a0ba7c
+      - s-b34e78a73b
+      - s-9e4f0b7070
+      - s-f63b6295c1
+      - s-cc73cf5e67
+      - s-14025288e7
+      - s-b213e2c702
+      - s-401b82bb3b
+      - s-1ceceac5d1
+      - s-e500dd4298
+      - s-f62d348e4f
+      - s-89ed42b64e
+      - s-f67e65b88a
+    zh:
+      - s-12b5517ce0
+      - s-d84232e0fa
+      - s-98876b140e
+      - s-7d3418e5fe
+      - s-158c87f043
+      - s-8c725c606f
+      - s-e626143d44
+      - s-13f61ea123
+      - s-f3dd5c2226
+      - s-05c7d16445
+      - s-8e4b7af75c
+      - s-6cd706d349
+      - s-dab0bb7382
+      - s-cdfa8687b3

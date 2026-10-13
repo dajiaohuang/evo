@@ -1,0 +1,355 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Yinlong downsi
+    commonName: Yinlong
+    commonNameZh: 隐龙
+    rank: species
+    taxonId: txn:90118
+    firstAppearance: 0
+    lastAppearance: 0
+    rangeEvidenceLevel: withheld-no-range-evidence
+    extinct: true
+    parentRelationshipKind: taxonomic-parent
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Yinlong downsi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Yinlong downsi
+      en: Yinlong downsi
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-106d8e36bf
+            part: body
+          en:
+            page: en
+            section: s-9119922f79
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-28ea0f13bd
+            part: body
+          en:
+            page: en
+            section: s-3c6a1e235f
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-88f3a4f4aa
+            part: body
+          en:
+            page: en
+            section: s-6681cfe3c4
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-286ab84b21
+            part: body
+          en:
+            page: en
+            section: s-70ca02b311
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-30a7bd0eed
+            part: body
+          en:
+            page: en
+            section: s-faa665cdc5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Yinlong downsi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=90118&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:90118; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:90118
+          selectedOccurrenceIds:
+            - occ:668657
+          selectedCollectionIds:
+            - col:72107
+          sourceReferenceIds:
+            - ref:19282
+          originalIdentificationMappings:
+            - occurrenceId: occ:668657
+              originalIdentifiedName: Yinlong downsi n. gen. n. sp.
+              acceptedName: Yinlong downsi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-86a142f3be
+        part: body
+      en:
+        page: en
+        section: s-c67c85af97
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:90118
+    scientificName: Yinlong downsi
+    commonName: Yinlong
+    commonNameZh: 隐龙
+    rank: species
+    parentName: Yinlong downsi
+    extinct: true
+    geography:
+      - Wucaiwan, Junggar Basin, Xinjiang, China
+      - Upper Shishugou Formation holotype locality
+    overview:
+      page: en
+      section: s-ca57494388
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-e5162b1f7f
+        part: body
+      habitat:
+        page: en
+        section: s-d47b0ad84e
+        part: body
+      locomotion:
+        page: en
+        section: s-1d14276c28
+        part: body
+      bodySize:
+        page: en
+        section: s-0362198230
+        part: body
+      guild:
+        page: en
+        section: s-c7c4a593a2
+        part: body
+    traits:
+      - page: en
+        section: s-4dd0aa3dfc
+        part: body
+      - page: en
+        section: s-6819f6f020
+        part: body
+      - page: en
+        section: s-2c6d85736e
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-9419411f4a
+      part: body
+    readerSections:
+      - id: holotype-anatomy
+        sourceIds:
+          - xu-2006-yinlong
+        title:
+          en:
+            page: en
+            section: s-c3569ac4d4
+            part: title
+          zh:
+            page: zh
+            section: s-b37ba16c00
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c3569ac4d4
+            part: body
+          zh:
+            page: zh
+            section: s-b37ba16c00
+            part: body
+      - id: interpretation-and-placement
+        sourceIds:
+          - xu-2006-yinlong
+        title:
+          en:
+            page: en
+            section: s-10aed7123d
+            part: title
+          zh:
+            page: zh
+            section: s-66c058f4ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-10aed7123d
+            part: body
+          zh:
+            page: zh
+            section: s-66c058f4ba
+            part: body
+    confidence: medium
+    referenceIds:
+      - xu-2006-yinlong
+    overviewZh:
+      page: zh
+      section: zh-2405dc0f397867
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-16c361beb9fb84
+      part: body
+  claims:
+    - subjectId: taxon:yinlong_downsi
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Yinlong downsi is based on holotype IVPP V14530, and the study recovers the taxon as a basal ceratopsian in its sampled character matrix; that analysis is not evidence of an uncontested relationship or direct ancestry.
+      confidence: medium
+      confidenceRationale: "The holotype and diagnosis are directly documented, whereas its broader placement depends on character scoring, taxon sampling and analysis settings. Yinlong downsi: For the species-level page, this assessment applies to the named species and its cited diagnosis; it does not imply a broader genus sample."
+      referenceLinks:
+        - referenceId: xu-2006-yinlong
+          relation: supports
+          pages: 2135–2140
+          figure: Figures 1–3; Electronic Supplementary Material
+          quoteLocator: Systematic palaeontology; Phylogenetic analysis; Discussion
+    - subjectId: taxon:yinlong_downsi
+      claimKind: scientific
+      claimType: biogeography
+      statement: This profile's geographic statement is limited to Wucaiwan in the Junggar Basin, Xinjiang, China, and the upper Shishugou Formation horizon reported for IVPP V14530; it does not establish a global distribution.
+      confidence: high
+      confidenceRationale: "The locality and horizon are stated directly for the holotype, but one locality-level occurrence cannot establish the genus-wide distribution. Yinlong downsi: For the species-level page, this assessment covers the cited occurrence or localities only and does not estimate a complete range."
+      referenceLinks:
+        - referenceId: xu-2006-yinlong
+          relation: supports
+          pages: "2135"
+          figure: Figure 1
+          quoteLocator: "Systematic palaeontology: Locality and horizon"
+    - subjectId: taxon:yinlong_downsi
+      claimKind: scientific
+      claimType: morphology
+      statement: Holotype IVPP V14530 is a nearly complete skeleton missing only the distal tail; the primary description records its broad post-orbital skull region, shallow pre-orbital region and diagnostic cranial features, all limited to the named specimen.
+      confidence: high
+      confidenceRationale: "The holotype inventory, diagnosis and described cranial anatomy are directly reported and illustrated in the primary study. Yinlong downsi: For the species-level page, this assessment covers the characters observed in the cited specimens; unsampled variation remains outside it."
+      referenceLinks:
+        - referenceId: xu-2006-yinlong
+          relation: supports
+          pages: 2135–2137
+          figure: Figures 1–2; Electronic Supplementary Figures 1–2
+          quoteLocator: "Systematic palaeontology: Holotype, Diagnosis and Description"
+    - subjectId: taxon:yinlong_downsi
+      claimKind: scientific
+      claimType: ecology
+      statement: The primary description estimates the IVPP V14530 individual at about 120 cm and interprets its short forelimbs and robust hindlimbs as compatible with bipedality; diet, habitat preference, guild and observed behaviour are not directly resolved by this anatomy and matrix study.
+      confidence: medium
+      confidenceRationale: "Body proportions and the size estimate are reported for the holotype, while bipedality is an anatomical interpretation and the remaining ecological fields are not direct observations. Yinlong downsi: For the species-level page, this assessment covers only ecological inferences tied to the cited specimens; unmeasured fields remain unassigned."
+      referenceLinks:
+        - referenceId: xu-2006-yinlong
+          relation: supports
+          pages: 2135–2137
+          figure: Figures 1–2
+          quoteLocator: "Systematic palaeontology: Description; limb proportions and estimated body length"
+  claim-rationales.zh:
+    - 正模和诊断有直接记录，而更广泛的位置依赖性状评分、类群取样和分析设定。 Yinlong downsi：本种级页面的判断仅适用于所引材料中的该种及其描述，不表示存在更广泛的属级样本。
+    - 正模的地点和层位有直接记录，但单一地点级出现不能建立完整属级分布。 Yinlong downsi：本种级页面的判断仅覆盖所引化石记录或地点，不据此估算完整分布。
+    - 一手论文直接记录并图示正模清单、诊断和颅骨解剖。 Yinlong downsi：本种级页面的判断仅覆盖所引标本中观察到的性状；未取样的种内变异不在此结论内。
+    - 体型估计和肢骨比例针对正模有直接记录；两足性是解剖解释，其余生态字段不是直接观察。 Yinlong downsi：本种级页面的判断仅覆盖与所引标本相关的生态推断；未测量字段继续保持未指定。
+  claim-statements.zh:
+    - Yinlong downsi 依据正模 IVPP V14530 建立；研究在其取样性状矩阵中将该类群恢复为基干角龙类，但这一分析不能证明无争议的亲缘关系或直系祖先关系。
+    - 正模 IVPP V14530 是一具仅缺尾部远端的近完整骨骼；一手描述记录了其宽阔的眶后头骨区、低浅的眶前区和诊断性头骨特征，所有观察均限定于该具名标本。
+    - 本档案的地理陈述限定于中国新疆准噶尔盆地五彩湾以及 IVPP V14530 所报道的石树沟组上部层位；它不能确立全球分布。
+    - 一手描述估计 IVPP V14530 个体全长约 120 厘米，并将其较短前肢和粗壮后肢解释为与两足性相容；该解剖与矩阵研究并未直接解决食性、生境偏好、生态功能群或观察到的行为。
+  ranges:
+    - entityId: yinlong_downsi
+      rangeKind: global-composite
+      taxonomicConcept: PBDB accepted fossil species txn:90118 (Yinlong downsi); profile scope is the cited specimen record, not a global range synthesis
+      geographicScope: Named source locality only; no complete global geographic-temporal range is assigned
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; the cited specimen study does not establish a complete global first and last appearance range.
+      evidenceBasis: The frozen PBDB roster supports accepted name, rank, OID and immediate parent. The selected literature supports the described specimen evidence, not a complete global range for Yinlong downsi.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: xu-2006-yinlong
+          locator: Cited named specimen and locality; no complete global range is claimed.
+  field-claim-overrides:
+    - firstAppearance:
+        status: not-assessed
+      lastAppearance:
+        status: not-assessed

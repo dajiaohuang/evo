@@ -1,0 +1,169 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Stigmochelys crassa
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Stigmochelys crassa
+      en: Stigmochelys crassa
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-90e43edbe5
+            part: body
+          en:
+            page: en
+            section: s-03700789d0
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c21a89ef2a
+            part: body
+          en:
+            page: en
+            section: s-2cb617b082
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6636055425
+            part: body
+          en:
+            page: en
+            section: s-63acd6ebb8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7b1a6fc3a2
+            part: body
+          en:
+            page: en
+            section: s-6efa687ec0
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cdbfdb274f
+            part: body
+          en:
+            page: en
+            section: s-5e723bfa2a
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Stigmochelys crassa
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=203525&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:203525; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:203525
+          selectedOccurrenceIds:
+            - occ:212209
+            - occ:1362166
+            - occ:1639872
+          selectedCollectionIds:
+            - col:21336
+            - col:146600
+            - col:232486
+          sourceReferenceIds:
+            - ref:4924
+            - ref:62155
+            - ref:86649
+          originalIdentificationMappings:
+            - occurrenceId: occ:212209
+              originalIdentifiedName: Geochelone crassa
+              acceptedName: Stigmochelys crassa
+              difference: recombined as
+            - occurrenceId: occ:1362166
+              originalIdentifiedName: Testudo crassa n. sp.
+              acceptedName: Stigmochelys crassa
+              difference: recombined as
+            - occurrenceId: occ:1639872
+              originalIdentifiedName: Geochelone crassa
+              acceptedName: Stigmochelys crassa
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-68d8b538dc
+        part: body
+      en:
+        page: en
+        section: s-b972ce154b
+        part: body

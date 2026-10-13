@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon albagula
+  displayName: Plethodon albagula
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77PW4
+  sourceIndexes:
+    - name:
+        en: Plethodon albagula
+        zh: Plethodon albagula
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77PW4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/448
+            queryName: Plethodon albagula
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/492
+            queryName: Plethodon glutinosus albagula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e1fb8784b
+      - s-041d519636
+      - s-42a5f4b5f0
+      - s-01d8fa6a9b
+      - s-fb8e5e0666
+      - s-12ac32a40f
+      - s-90ba9ebafc
+      - s-4eb44ddeb1
+      - s-8c9bc9cd88
+      - s-9da080fe7b
+      - s-cfa9740570
+      - s-ec21e5d242
+      - s-c6530568d0
+      - s-eae93f7b4f
+      - s-f9b37b176e
+      - s-7e3b55caf5
+    zh:
+      - s-8a61050559
+      - s-413431eb1b
+      - s-c5701a4765
+      - s-c5f4e8c3f9
+      - s-c8a7b3c3cf
+      - s-2eb6fd8628
+      - s-997a5c6498
+      - s-c2c8b66af7
+      - s-fed568c36b
+      - s-e94d63275a
+      - s-72751e3cac
+      - s-38501c064c
+      - s-0e1f8a105e
+      - s-562f76733f
+      - s-0b0a5b2a5f
+      - s-36ac735fbf

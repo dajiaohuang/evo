@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia
+  displayName: Caecilia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62JCW
+  sourceIndexes:
+    - name:
+        en: Caecilia
+        zh: Caecilia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62JCW
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/262
+            queryName: Caecilia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 493
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0d91357e5c
+      - s-5463a01075
+      - s-d1130ec9a0
+      - s-763d9b5e37
+      - s-3e12c09ccb
+      - s-8485d5bd82
+      - s-43e7b9965b
+      - s-8c5b0c06dd
+      - s-78e332eb2a
+      - s-7d1aa7045b
+      - s-3f9c628945
+      - s-6c7e9291ca
+      - s-b13f7e9d4b
+      - s-dc5645428f
+      - s-18ea5a8a9c
+      - s-3ea9cb8f53
+      - s-620d9bd7e7
+      - s-8dc8ebbf8f
+      - s-7ac7500e31
+      - s-7cd292c154
+    zh:
+      - s-4e621aadd9
+      - s-1cfe69352c
+      - s-17cc255883
+      - s-68edeba3a4
+      - s-a6900d3970
+      - s-48602b6d57
+      - s-749194ffcd
+      - s-6c6cd12d9b
+      - s-0d33ead6cf
+      - s-535a5e697f
+      - s-9a92db8c1f
+      - s-b5976b219f
+      - s-c7ae4e505e
+      - s-051060bd37
+      - s-a06f932b4f
+      - s-97fc8a0b6e
+      - s-2924760bbc
+      - s-ecfce210c7
+      - s-2ed1fe5442
+      - s-2dcbc182e2

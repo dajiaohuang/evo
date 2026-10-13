@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Protictis haydenianus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Protictis haydenianus
+      en: Protictis haydenianus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-312adffa40
+            part: body
+          en:
+            page: en
+            section: s-03e2492ac2
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-21cbc18854
+            part: body
+          en:
+            page: en
+            section: s-a8eeeceaf6
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3ba97df305
+            part: body
+          en:
+            page: en
+            section: s-7381491844
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7aec9a2e34
+            part: body
+          en:
+            page: en
+            section: s-3446b1cc3b
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-aa494af229
+            part: body
+          en:
+            page: en
+            section: s-e872a84dc4
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Protictis haydenianus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45728&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45728; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45728
+          selectedOccurrenceIds:
+            - occ:164577
+            - occ:164599
+            - occ:164656
+            - occ:164685
+            - occ:164772
+            - occ:164790
+            - occ:164813
+            - occ:164837
+            - occ:164925
+            - occ:165011
+            - occ:165099
+            - occ:165101
+            - occ:165167
+            - occ:165363
+            - occ:165424
+          selectedCollectionIds:
+            - col:14812
+            - col:14815
+            - col:14819
+            - col:14824
+            - col:14830
+            - col:14832
+            - col:14833
+            - col:14835
+            - col:14865
+            - col:14873
+            - col:14886
+            - col:14893
+            - col:14906
+            - col:14912
+          sourceReferenceIds:
+            - ref:2385
+            - ref:3375
+            - ref:6294
+            - ref:3649
+            - ref:3436
+            - ref:2905
+            - ref:2953
+          originalIdentificationMappings:
+            - occurrenceId: occ:165099
+              originalIdentifiedName: Prolimnocyon macfaddeni n. sp.
+              acceptedName: Protictis haydenianus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-9f150ada21
+        part: body
+      en:
+        page: en
+        section: s-3b5d0723e1
+        part: body

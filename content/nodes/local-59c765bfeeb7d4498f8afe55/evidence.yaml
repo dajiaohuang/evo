@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Limnonectes kiziriani
+    name:
+      en: Limnonectes kiziriani
+      zh: Limnonectes kiziriani
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Limnonectes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Limnonectes kiziriani in the version 3 classification
+          zh: Limnonectes kiziriani 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e1112b1449
+            part: body
+          zh:
+            page: zh
+            section: s-97a95dbf0e
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 16 populated trait fields
+          zh: 1 条测量行与 16 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ed602e7434
+            part: body
+          zh:
+            page: zh
+            section: s-e25bf89276
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2810; Reference.csv rows 3244
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2810
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes kiziriani
+          - F
+          - "54.1"
+          - "25.8"
+          - "25.1"
+          - "6.4"
+          - NA
+          - NA
+          - "5.5"
+          - "4.7"
+          - "3"
+          - "3.7"
+          - "7.8"
+          - "4.2"
+          - NA
+          - "22.7"
+          - NA
+          - "33.4"
+          - NA
+          - "23.8"
+          - "25.4"
+          - NA
+          - NA
+          - "3.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.2"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3244
+        values:
+          - Anura
+          - Limnonectes_kiziriani
+          - "Pham, C., Do, D., Le, M., Ngo, H., Nguyen, L., Ziegler, T., & Nguyen, T. (2020). A new species of Limnonectes (Amphibia: Anura: Dicroglossidae) from Vietnam. Zootaxa, 4894, 387-402. https://doi.org/10.11646/zootaxa.4894.3.5"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 72DKP
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

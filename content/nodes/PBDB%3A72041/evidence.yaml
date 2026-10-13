@@ -1,0 +1,165 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Thalassocnus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Thalassocnus
+      en: Thalassocnus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-72ff8c3c0a
+            part: body
+          en:
+            page: en
+            section: s-ead5c00974
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a230ab47f1
+            part: body
+          en:
+            page: en
+            section: s-81363217da
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Thalassocnus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=72041
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:72041
+          readingTargets:
+            - name: Thalassocnus carolomartini
+              pbdbTaxonId: txn:72046
+              canonicalPath: content/nodes/PBDB%3A72046
+            - name: Thalassocnus littoralis
+              pbdbTaxonId: txn:72045
+              canonicalPath: content/nodes/PBDB%3A72045
+            - name: Thalassocnus antiquus
+              pbdbTaxonId: txn:72044
+              canonicalPath: content/nodes/PBDB%3A72044
+            - name: Thalassocnus yaucensis
+              pbdbTaxonId: txn:134632
+              canonicalPath: content/nodes/PBDB%3A134632
+            - name: Thalassocnus natans
+              pbdbTaxonId: txn:72042
+              canonicalPath: content/nodes/PBDB%3A72042
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-2394cbc7f1
+        part: body
+      en:
+        page: en
+        section: s-75c91f5911
+        part: body
+  atlas-node:
+    name: Thalassocnus
+    commonName: Aquatic sloths
+    commonNameZh: 海懒兽
+    rank: genus
+    taxonId: txn:72041
+    firstAppearance: 8
+    lastAppearance: 3
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:thalassocnus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Thalassocnus is bounded by five named species sampled from successive Pisco Formation horizons over an approximately 8–3 Ma envelope; the sequence supports comparative bone-density change but is not a global genus duration, continuous population or direct ancestor series.
+      confidence: medium
+      confidenceRationale: The specimens and successive horizons are documented. Functional adaptation and lineage continuity remain interpretations.
+      referenceLinks:
+        - relation: supports
+          referenceId: amson-2014-thalassocnus-bone-density
+          pages: Article 20140192
+          figure: Figures 1–4
+          quoteLocator: Species and horizon sampling; Tables S3–S7
+  claim-rationales.zh:
+    - 标本与连续层位有记录；功能适应与谱系连续性仍属解释。
+  claim-statements.zh:
+    - Thalassocnus 由 Pisco 组连续层位中取样的五个具名物种约束，覆盖约 800 万—300 万年前；该序列支持骨密度变化比较，但不是全球属级延续、连续种群或直接祖先序列。
+  ranges:
+    - entityId: thalassocnus
+      rangeKind: global-composite
+      taxonomicConcept: Thalassocnus sampled species series
+      geographicScope: Neogene Pisco Formation, Peru
+      olderMa: 8
+      youngerMa: 3
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range.
+      evidenceBasis: Five named species occur in successive Pisco Formation horizons used for the compactness comparison.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:thalassocnus-bone-density-series
+      referenceLocators:
+        - referenceId: amson-2014-thalassocnus-bone-density
+          locator: 20140192; Figures 1–4; Tables S3–S7

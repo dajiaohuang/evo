@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus muelleri
+  displayName: Xenopus muelleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7G89H
+  sourceIndexes:
+    - name:
+        en: Xenopus muelleri
+        zh: Xenopus muelleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7G89H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/321
+            queryName: Xenopus muelleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 68
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/461
+            queryName: Dactylethra muelleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a7e816868
+      - s-3685f85285
+      - s-8af654b9e4
+      - s-193a4676fe
+      - s-34b63c6c36
+      - s-a24d255e2f
+      - s-37ca2cfec2
+      - s-50dfaa1917
+      - s-1a7c817af0
+      - s-d64eb1a452
+      - s-3ae2604e98
+      - s-1e5b11c9ad
+      - s-8cc1302474
+      - s-f62be16ae5
+      - s-1f35abffc9
+      - s-dab44394d2
+      - s-53f4f74efc
+      - s-b2a92809b0
+      - s-4203521d6d
+      - s-fee1a6bd8b
+      - s-7534c62867
+      - s-828efd1e47
+      - s-36c3b101bd
+      - s-3dad5d1501
+      - s-f3fda9fbb7
+      - s-0115365d55
+    zh:
+      - s-a16c072a3e
+      - s-5325f8828a
+      - s-acbd15ef60
+      - s-7eb5d3ab55
+      - s-9e6e7d9148
+      - s-72d655f9d7
+      - s-70de2b785f
+      - s-a8fd1b42a2
+      - s-7c30e4f428
+      - s-b5239491ca
+      - s-d0277c209d
+      - s-8ad4abe3dd
+      - s-18fca0ef8f
+      - s-b309df7b91
+      - s-b09175babd
+      - s-c33e09ad5b
+      - s-f8486cd94f
+      - s-c002b72ff3
+      - s-eb6522b3ad
+      - s-df53bba937
+      - s-05f7422ee0
+      - s-c5749196dc
+      - s-5b0759ba68
+      - s-87921803b3
+      - s-7defb7a99e
+      - s-0545c81659

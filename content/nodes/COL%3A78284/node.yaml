@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon aureolus
+  displayName: Plethodon aureolus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78284
+  sourceIndexes:
+    - name:
+        en: Plethodon aureolus
+        zh: Plethodon aureolus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "78284"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/452
+            queryName: Plethodon aureolus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91d05716bf
+      - s-2019252b90
+      - s-f7c4ba31ba
+      - s-2f4c0f3fd1
+      - s-ef91b83677
+      - s-528ae75385
+      - s-55603aa919
+      - s-8cf7ad87c6
+      - s-c9da230136
+    zh:
+      - s-69146e083d
+      - s-71864ac5f9
+      - s-1b30d56be7
+      - s-d09d34ac0c
+      - s-6f2ff1577a
+      - s-b4c0ed1f07
+      - s-1a75a2ce28
+      - s-44734f9d8b
+      - s-50f5d2813f

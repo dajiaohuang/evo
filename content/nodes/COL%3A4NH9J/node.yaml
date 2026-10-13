@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris fouquettei
+  displayName: Pseudacris fouquettei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NH9J
+  sourceIndexes:
+    - name:
+        en: Pseudacris fouquettei
+        zh: Pseudacris fouquettei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NH9J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/255
+            queryName: Pseudacris fouquettei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9d72bd7dd6
+      - s-f6fa0ed2ce
+      - s-5f1d4c6e37
+      - s-d876cd9fd0
+      - s-c016bdaeaf
+      - s-1ac5fad288
+      - s-4e078ba36d
+      - s-a6a2c2401f
+      - s-6a209dafd8
+      - s-704d4b21e3
+      - s-50be45e8fb
+      - s-a3efb650ea
+      - s-b78b61d850
+      - s-16eda8f7d8
+      - s-9df4048847
+      - s-0325577321
+      - s-8e152ef6b5
+    zh:
+      - s-703c7e6238
+      - s-59068d6f7f
+      - s-826295ae28
+      - s-758e7788bf
+      - s-3883923c91
+      - s-a0e46a8bf7
+      - s-21bc482bfa
+      - s-81720a01c2
+      - s-2fbd0777cd
+      - s-83c59b658c
+      - s-fba24ff032
+      - s-23a916d4b6
+      - s-3746da226f
+      - s-cb02eb45f6
+      - s-769778aa25
+      - s-95534bea37
+      - s-fc848997ca

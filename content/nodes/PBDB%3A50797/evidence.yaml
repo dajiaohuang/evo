@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Prolimnocyon haematus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Prolimnocyon haematus
+      en: Prolimnocyon haematus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b26f18839f
+            part: body
+          en:
+            page: en
+            section: s-af0e7273b6
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ef6a36460f
+            part: body
+          en:
+            page: en
+            section: s-17b1cf9aac
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-188127c9b0
+            part: body
+          en:
+            page: en
+            section: s-aa73f1e70f
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-af6a1336f8
+            part: body
+          en:
+            page: en
+            section: s-b485a37fbb
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9d675edb48
+            part: body
+          en:
+            page: en
+            section: s-cbcf1a140b
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Prolimnocyon haematus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=50797&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:50797; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:50797
+          selectedOccurrenceIds:
+            - occ:168896
+            - occ:168951
+            - occ:169088
+            - occ:171300
+            - occ:171379
+            - occ:171396
+            - occ:171539
+            - occ:171615
+            - occ:171633
+            - occ:171712
+            - occ:171756
+            - occ:171768
+            - occ:171811
+            - occ:171835
+            - occ:171873
+            - occ:171969
+            - occ:172541
+            - occ:172759
+            - occ:173180
+            - occ:173277
+          selectedCollectionIds:
+            - col:15480
+            - col:15485
+            - col:15493
+            - col:15727
+            - col:15733
+            - col:15736
+            - col:15756
+            - col:15762
+            - col:15765
+            - col:15779
+            - col:15787
+            - col:15788
+            - col:15792
+            - col:15793
+            - col:15796
+            - col:15813
+            - col:15912
+            - col:15932
+            - col:16021
+            - col:16055
+          sourceReferenceIds:
+            - ref:2785
+            - ref:1666
+          originalIdentificationMappings:
+            - occurrenceId: occ:171539
+              originalIdentifiedName: Prolimnocyon haematus n. sp.
+              acceptedName: Prolimnocyon haematus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7319ea0e7e
+        part: body
+      en:
+        page: en
+        section: s-db0e8740e6
+        part: body

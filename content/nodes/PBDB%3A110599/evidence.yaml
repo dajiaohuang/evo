@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Cryptobranchus guildayi
+    rank: species
+    sourceTaxonId: txn:110599
+    name:
+      en: Cryptobranchus guildayi
+      zh: Cryptobranchus guildayi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-a7ef7946ca
+            part: body
+          zh:
+            page: zh
+            section: s-6d86b44864
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-5a933ec358
+            part: body
+          zh:
+            page: zh
+            section: s-09f6b66dc4
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-eec5231917
+            part: body
+          zh:
+            page: zh
+            section: s-c196ba5b4a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110599; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. A. Holman. 1977. The Pleistocene (Kansan) herpetofauna of Cumberland Cave, Maryland. Annals of Carnegie Museum 46(11):157-172
+    occurrenceEvidence:
+      - occurrenceId: occ:1033611
+        collectionId: col:124319
+        acceptedTaxonId: txn:110599
+        taxonomicDifference: null
+        referenceId: ref:41082
+        bibliography: J. A. Holman. 1982. The Pleistocene (Kansan) herpetofauna of Trout Cave, West Virginia. Annals of Carnegie Museum 51(20):391-404
+        locality:
+          countryCode: US
+          stateProvince: West Virginia
+          county: Pendleton
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 2.58
+        youngerAgeMa: 0.0117
+      - occurrenceId: occ:1034211
+        collectionId: col:20302
+        acceptedTaxonId: txn:110599
+        identifiedName: Cryptobranchus guildayi n. sp.
+        taxonomicDifference: null
+        referenceId: ref:41081
+        bibliography: J. A. Holman. 1977. The Pleistocene (Kansan) herpetofauna of Cumberland Cave, Maryland. Annals of Carnegie Museum 46(11):157-172
+        locality:
+          countryCode: US
+          stateProvince: Maryland
+          county: Allegany
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 1.4
+        youngerAgeMa: 0.21
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-eec5231917
+            part: body
+          zh:
+            page: zh
+            section: s-c196ba5b4a
+            part: body
+        sourceIds: []

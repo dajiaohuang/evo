@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-702098f7dd}
+This record shows how TadpoleTraits files tadpoles under Edalorhina perezi. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Edalorhina perezi in Edalorhina and Leptodactylidae. In the literature table, rows 2831, 2832, 2833, 2834, 2835, 2836, 2837, 2838, 2839, 2840 list Edalorhina perezi in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-b4c4b77edb}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 10 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 34 (rows 2831, 2839); 39 (row 2832); 38 (rows 2833, 2834); 35 (row 2835); 33 (row 2836); 31 (row 2837); 37 (row 2838); 36 (row 2840). Sample size is populated in 10 rows, with source values from 1 to 3; the entries remain row-specific. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

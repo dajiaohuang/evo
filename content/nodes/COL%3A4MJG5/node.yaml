@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis kuri
+  displayName: Pristimantis kuri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJG5
+  sourceIndexes:
+    - name:
+        en: Pristimantis kuri
+        zh: Pristimantis kuri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJG5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/347
+            queryName: Pristimantis kuri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9fa201545
+      - s-45c3bf02d8
+      - s-f3cf02fe6f
+      - s-eb065eb7f6
+      - s-13806f3c6d
+      - s-492a8a5e8f
+      - s-d7f8927bca
+      - s-b5b23708dd
+      - s-68a29b5b09
+    zh:
+      - s-f7788774e8
+      - s-849396d47e
+      - s-ed58201961
+      - s-25000ac4d9
+      - s-e6ec1dfa21
+      - s-df153e5e7a
+      - s-ca847d4e3a
+      - s-23c8c92954
+      - s-8bd91b4f90

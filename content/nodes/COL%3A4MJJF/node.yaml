@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis muricatus
+  displayName: Pristimantis muricatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJF
+  sourceIndexes:
+    - name:
+        en: Pristimantis muricatus
+        zh: Pristimantis muricatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/425
+            queryName: Pristimantis muricatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/445
+            queryName: Eleutherodactylus muricatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cf82e6ba30
+      - s-ecf560aafc
+      - s-c492b07576
+      - s-1b397501e1
+      - s-92d0f97c89
+      - s-d3cf3ce79c
+      - s-97211f4d6a
+      - s-9a7caa0460
+      - s-7caadf833c
+      - s-4a19f36cc1
+      - s-374ca92481
+      - s-6f63ffff3d
+      - s-c353167d62
+      - s-29464e1a22
+      - s-2c277d4ba9
+      - s-fbfd00eb0c
+    zh:
+      - s-0acd160dfa
+      - s-5fe747ab99
+      - s-2dbe071ac5
+      - s-6c30e508de
+      - s-091992123c
+      - s-66b253b11a
+      - s-9aff918533
+      - s-889163df8d
+      - s-0d50eb8873
+      - s-b109aba18c
+      - s-accf48505d
+      - s-6e3a65c374
+      - s-e4eec3b660
+      - s-0ec0b7b8e8
+      - s-53b36c27bb
+      - s-d938b04cc9

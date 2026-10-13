@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus flavescens
+  displayName: Eleutherodactylus flavescens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3999Q
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus flavescens
+        zh: Eleutherodactylus flavescens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3999Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/203
+            queryName: Eleutherodactylus flavescens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-105e5fd80d
+      - s-7423871c41
+      - s-f9f58b9761
+      - s-f1c4e9f592
+      - s-2be4dae56c
+      - s-4241953250
+      - s-91d6223b5b
+      - s-4ceaae54a0
+      - s-cdbe80fe87
+    zh:
+      - s-6360eed829
+      - s-a682af4842
+      - s-e161ada5bb
+      - s-911992d34e
+      - s-bbf192795e
+      - s-cdcdedb4b4
+      - s-f874f03602
+      - s-cb95bc8732
+      - s-5982c1c176

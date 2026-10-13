@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duellmanohyla lythrodes
+  displayName: Duellmanohyla lythrodes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37ZH9
+  sourceIndexes:
+    - name:
+        en: Duellmanohyla lythrodes
+        zh: Duellmanohyla lythrodes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37ZH9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/68
+            queryName: Duellmanohyla lythrodes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/295
+            queryName: Hyla lythrodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bea033b47b
+      - s-d983ea5346
+      - s-458dd3dff7
+      - s-26a0106d93
+      - s-7541b22291
+      - s-5d3f7cee73
+      - s-841db25c66
+      - s-fc4cf3fe0b
+    zh:
+      - s-2d1a082007
+      - s-42e42881d4
+      - s-9a587355f7
+      - s-53d2fdda1f
+      - s-a290f9f7ee
+      - s-3d7a22ebb2
+      - s-bc9a62f567
+      - s-85393fe863

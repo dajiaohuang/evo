@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctixalus
+  displayName: Nyctixalus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/662C
+  sourceIndexes:
+    - name:
+        en: Nyctixalus
+        zh: Nyctixalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 662C
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/100
+            queryName: Nyctixalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 24
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9db989949a
+      - s-f0577f611f
+      - s-cda06569aa
+      - s-03390fbd0c
+      - s-0101462990
+      - s-4574f6f07d
+      - s-8444180bb9
+    zh:
+      - s-bf0a1ac35d
+      - s-28a0058215
+      - s-39e85db759
+      - s-769ff44797
+      - s-317c5d361e
+      - s-06db9f685b
+      - s-29859fc425

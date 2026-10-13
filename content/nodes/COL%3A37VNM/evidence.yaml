@@ -1,0 +1,639 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dryophytes japonicus (Günther, 1859)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dryophytes japonicus
+      zh: Dryophytes japonicus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-19442edd4e
+            part: title
+          zh:
+            page: zh
+            section: s-7012ff3fa1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-19442edd4e
+            part: body
+          zh:
+            page: zh
+            section: s-7012ff3fa1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-23fe9c73bd
+            part: title
+          zh:
+            page: zh
+            section: s-6f033cc071
+            part: title
+        text:
+          en:
+            page: en
+            section: s-23fe9c73bd
+            part: body
+          zh:
+            page: zh
+            section: s-6f033cc071
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e9c1c8fc21
+            part: title
+          zh:
+            page: zh
+            section: s-24eb28bd8a
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e9c1c8fc21
+            part: body
+          zh:
+            page: zh
+            section: s-24eb28bd8a
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-6702d3acf77fa6d2cc753383
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-de722971025bf93f2727d448
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-8bec1102ba78dcfb8041a2244abf99e9
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-528320f94907be038d245d4e
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ccd274766f
+            part: title
+          zh:
+            page: zh
+            section: s-12a812c225
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-ccd274766f
+            part: body
+          zh:
+            page: zh
+            section: s-12a812c225
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f39a2ad0ea
+            part: title
+          zh:
+            page: zh
+            section: s-e6dd3a839a
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f39a2ad0ea
+            part: body
+          zh:
+            page: zh
+            section: s-e6dd3a839a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-32836adaee
+            part: title
+          zh:
+            page: zh
+            section: s-7e496b8578
+            part: title
+        sourceIds:
+          - primary-pmc12789193-37vnm
+        text:
+          en:
+            page: en
+            section: s-32836adaee
+            part: body
+          zh:
+            page: zh
+            section: s-7e496b8578
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-89f0a4280d
+            part: title
+          zh:
+            page: zh
+            section: s-3f7326c78d
+            part: title
+        sourceIds:
+          - primary-pmc12789193-37vnm
+        text:
+          en:
+            page: en
+            section: s-89f0a4280d
+            part: body
+          zh:
+            page: zh
+            section: s-3f7326c78d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-67e2bf83d4
+            part: title
+          zh:
+            page: zh
+            section: s-1ad72f0395
+            part: title
+        sourceIds:
+          - primary-pmc12789193-37vnm
+        text:
+          en:
+            page: en
+            section: s-67e2bf83d4
+            part: body
+          zh:
+            page: zh
+            section: s-1ad72f0395
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-dc5b54fc2a
+            part: title
+          zh:
+            page: zh
+            section: s-66609431e9
+            part: title
+        sourceIds:
+          - primary-pmc12789193-37vnm
+        text:
+          en:
+            page: en
+            section: s-dc5b54fc2a
+            part: body
+          zh:
+            page: zh
+            section: s-66609431e9
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-6f8880bc62
+            part: title
+          zh:
+            page: zh
+            section: s-5b913b5653
+            part: title
+        sourceIds:
+          - primary-pmc12789193-37vnm
+        text:
+          en:
+            page: en
+            section: s-6f8880bc62
+            part: body
+          zh:
+            page: zh
+            section: s-5b913b5653
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-edb3c8e691
+            part: title
+          zh:
+            page: zh
+            section: s-8f37a8ba1b
+            part: title
+        sourceIds:
+          - primary-pmc10215353-37vnm
+        text:
+          en:
+            page: en
+            section: s-edb3c8e691
+            part: body
+          zh:
+            page: zh
+            section: s-8f37a8ba1b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dryophytes japonicus
+          url: https://www.checklistbank.org/dataset/316115/taxon/37VNM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1888, 1889; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1578; Reference.csv rows 3027
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2321; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2321 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 88, 89; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc12789193-37vnm
+        referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dryophytes japonicus: Selected raw XML urban paddy-call survey methods, results and discussion in Machida, Yokohama and Kawasaki; source names Dryophytes japonica and Rhacophorus schlegelii retained in evidence, mapped to pinned catalogue reader names without independent molecular concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10215353-37vnm
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dryophytes japonicus: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3618312835
+        part: body
+      zh:
+        page: zh
+        section: s-7870b0ea19
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-6702d3acf77fa6d2cc753383
+        scientificName: Dryophytes japonicus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-de722971025bf93f2727d448
+        scientificName: Dryophytes japonicus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1002/ece3.72845
+        referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+        sourceKey: primary-pmc12789193-37vnm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12789193/article.xml
+        sourceConcept: Dryophytes japonicus
+        evidenceRead: "Dryophytes japonicus: Selected raw XML urban paddy-call survey methods, results and discussion in Machida, Yokohama and Kawasaki; source names Dryophytes japonica and Rhacophorus schlegelii retained in evidence, mapped to pinned catalogue reader names without independent molecular concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: behavior
+            heading:
+              en: Urban call detections count paddies, not frogs
+              zh: 城市鸣声检出计数田块，而非蛙
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-37vnm
+            locator: PMC12789193 XML ece372845-sec-0003 paragraph 0; ece372845-sec-0005 paragraphs 0–2; ece372845-sec-0008 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9630588c48
+                part: body
+              zh:
+                page: zh
+                section: s-a2879803d7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Nearby forest area is associated with detected calling
+              zh: 邻近森林面积与检出鸣叫关联
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-37vnm
+            locator: PMC12789193 XML ece372845-sec-0006 paragraph 0; ece372845-sec-0007 paragraphs 0–1; ece372845-sec-0008 paragraph 1; ece372845-sec-0009 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ae630554cc
+                part: body
+              zh:
+                page: zh
+                section: s-e1e7db7bb2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Retained paddy water predicts detection within the fitted study
+              zh: 在拟合研究内保持田水与检出相关
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-37vnm
+            locator: PMC12789193 XML ece372845-sec-0007 paragraph 2; ece372845-sec-0008 paragraphs 2–3; ece372845-sec-0009 paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1639d8377f
+                part: body
+              zh:
+                page: zh
+                section: s-510c820581
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: reproduction
+            heading:
+              en: Egg-substrate and seasonal information is cited background
+              zh: 卵基质和季节信息是引述背景
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-37vnm
+            locator: PMC12789193 XML ece372845-sec-0004 paragraph 0; ece372845-sec-0009 paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0bb0148e44
+                part: body
+              zh:
+                page: zh
+                section: s-4036c88f6c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: conservation
+            heading:
+              en: Two unequal survey seasons cannot establish long-term stability
+              zh: 两个不等调查季不能确定长期稳定
+            referenceId: ref-a5874be9-dd52-46f2-a4e9-c6f14a6abf8c
+            sourceKey: primary-pmc12789193-37vnm
+            locator: PMC12789193 XML ece372845-sec-0005 paragraphs 0–2; ece372845-sec-0009 paragraphs 1, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ce7661ce78
+                part: body
+              zh:
+                page: zh
+                section: s-0cabac1354
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani13101593
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        sourceKey: primary-pmc10215353-37vnm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10215353/article.xml
+        sourceConcept: Hyla japonica in Table1
+        evidenceRead: "Dryophytes japonicus: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Scope of a mitochondrial reference placement
+              zh: 线粒体参考定位的范围
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-37vnm
+            locator: PMC10215353 XML sec3dot6 paragraph1; sec4dot2 paragraph2; Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-737828efc6
+                part: body
+              zh:
+                page: zh
+                section: s-4805b5f223
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

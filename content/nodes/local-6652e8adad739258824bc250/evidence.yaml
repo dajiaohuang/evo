@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Amnirana fonensis
+    name:
+      en: Amnirana fonensis
+      zh: Amnirana fonensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Amnirana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Amnirana fonensis in the version 3 classification
+          zh: Amnirana fonensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-84b943adc1
+            part: body
+          zh:
+            page: zh
+            section: s-18dabc382f
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 12 populated trait fields
+          zh: 2 条测量行与 12 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-eeda29aa38
+            part: body
+          zh:
+            page: zh
+            section: s-2d6690ab23
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 210, 211; Reference.csv rows 3725
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 210
+        values:
+          - Ranidae
+          - Amnirana
+          - Amnirana fonensis
+          - M
+          - "61.2"
+          - "21.2"
+          - "17.4"
+          - "7"
+          - "6.7"
+          - NA
+          - "7.5"
+          - NA
+          - NA
+          - "6.1"
+          - "10.3"
+          - "3.4"
+          - NA
+          - NA
+          - NA
+          - "47.5"
+          - NA
+          - "33.1"
+          - "30.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 211
+        values:
+          - Ranidae
+          - Amnirana
+          - Amnirana fonensis
+          - F
+          - "76.6"
+          - "24.6"
+          - "21.4"
+          - "8.6"
+          - "5.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.7"
+          - "11.2"
+          - "4.8"
+          - NA
+          - NA
+          - NA
+          - "55.9"
+          - NA
+          - "39.2"
+          - "31.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3725
+        values:
+          - Anura
+          - Amnirana_fonensis
+          - Rödel, M. O., & Bangoura, M. A. (2004). A conservation assessment of amphibians in the Forêt Classée du Pic de Fon, Simandou Range, southeastern Republic of Guinea, with the description of a new Amnirana species (Amphibia Anura Ranidae). Tropical Zoology, 17(2), 201-232. https://doi.org/10.1080/03946975.2004.10531206
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - EN
+      - SL
+      - NS
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

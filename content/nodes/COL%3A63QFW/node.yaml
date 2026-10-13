@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Quasipaa
+  displayName: Quasipaa
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63QFW
+  sourceIndexes:
+    - name:
+        en: Quasipaa
+        zh: Quasipaa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63QFW
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/211
+            queryName: Quasipaa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 200
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c4cd9fc7b7
+      - s-97d680e48a
+      - s-1bc2a224df
+      - s-b626d17b5f
+      - s-d59fc9d52d
+      - s-1cb0e19f7e
+      - s-ff8978c0ad
+      - s-96e038053f
+      - s-16948a0c32
+      - s-980daf8e55
+      - s-522c4c0496
+      - s-e81cb7d72e
+      - s-65f8644e33
+      - s-b69c42b9bd
+    zh:
+      - s-b6d9f160cd
+      - s-d92fea2f19
+      - s-e5c3947f4e
+      - s-90896a52f6
+      - s-75be4a33f3
+      - s-904ee0cdef
+      - s-63d31caed0
+      - s-d5f9376438
+      - s-765ad7d2fc
+      - s-4c5a87593b
+      - s-e9a350fa20
+      - s-62b44cd5b4
+      - s-c21753ca31
+      - s-48c0a20d27

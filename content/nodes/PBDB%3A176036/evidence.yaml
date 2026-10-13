@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Pangerpeton sinensis
+    rank: species
+    sourceTaxonId: txn:176036
+    name:
+      en: Pangerpeton sinensis
+      zh: Pangerpeton sinensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-a4854307d3
+            part: body
+          zh:
+            page: zh
+            section: s-f1eaa984ae
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-6fe3c5b5c8
+            part: body
+          zh:
+            page: zh
+            section: s-6051659e87
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-d5d2c0420f
+            part: body
+          zh:
+            page: zh
+            section: s-e36be3c3c8
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:176036; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: Y. Wang and S. E. Evans. 2006. A new short-bodied salamander from the Upper Jurassic/Lower Cretaceous of China. Acta Palaeontologica Polonica 51(1):127-130
+    occurrenceEvidence:
+      - occurrenceId: occ:914336
+        collectionId: col:103743
+        acceptedTaxonId: txn:176036
+        identifiedName: Pangerpeton sinensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:34986
+        bibliography: Y. Wang and S. E. Evans. 2006. A new short-bodied salamander from the Upper Jurassic/Lower Cretaceous of China. Acta Palaeontologica Polonica 51(1):127-130
+        locality:
+          countryCode: CN
+          stateProvince: Liaoning
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 161.5
+        youngerAgeMa: 143.1
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-d5d2c0420f
+            part: body
+          zh:
+            page: zh
+            section: s-e36be3c3c8
+            part: body
+        sourceIds: []

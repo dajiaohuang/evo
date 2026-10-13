@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylophorbus wondiwoi
+  displayName: Hylophorbus wondiwoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGM4
+  sourceIndexes:
+    - name:
+        en: Hylophorbus wondiwoi
+        zh: Hylophorbus wondiwoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGM4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/31
+            queryName: Hylophorbus wondiwoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9d944c00cb
+      - s-0b854d7eb0
+      - s-a92e1c4e19
+      - s-43f5930d9a
+      - s-72451cc9b5
+      - s-362bc8bf1e
+      - s-c2f8f1fe5e
+    zh:
+      - s-57b29e2ac2
+      - s-854ab8114f
+      - s-bc8670b76d
+      - s-8fb8bbe28a
+      - s-45441dd4b5
+      - s-ebc71d1810
+      - s-d33d0fec76

@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-9b51246e29}
+This record shows how TadpoleTraits files tadpoles under Ophryophryne microstoma. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Ophryophryne microstoma in Ophryophryne and Megophryidae. In the literature table, rows 3674 list source Species Megophrys (Ophryophryne) microstoma → Species (ASTW) Ophryophryne microstoma; rows 3675, 3676, 3677, 5329 list source Species Pphryophryne microstoma → Species (ASTW) Ophryophryne microstoma. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-7025aed12e}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 5 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 27-29 (row 3674); 35 (row 3675); 37 (rows 3676, 5329); 38 (row 3677). Sample size is entered by row (row 3674: n=10; row 3675: n=1; row 3676: n=1; row 3677: n=1; row 5329: n=1). These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudis limellum
+  displayName: Pseudis limellum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NNNP
+  sourceIndexes:
+    - name:
+        en: Pseudis limellum
+        zh: Pseudis limellum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NNNP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/272
+            queryName: Pseudis limellum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/6
+            queryName: Lysapsus limellum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/488
+            queryName: Podonectes palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/489
+            queryName: Lisapsus limellum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/490
+            queryName: Lysapsus limellus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2e42cb5bd3
+      - s-42f7ae227b
+      - s-3627372bf9
+      - s-5e7b65db19
+      - s-1424f3733a
+      - s-200f6bdfdc
+      - s-dabceb34ea
+      - s-2905f4b0f5
+      - s-9f27bdf233
+      - s-b9b9b0ebd3
+      - s-dc516a8be5
+      - s-d8a73bfabc
+      - s-6392042bd7
+    zh:
+      - s-15e4108c60
+      - s-2c8ffeb0a9
+      - s-8a1042487f
+      - s-ae20e93b38
+      - s-705c262eef
+      - s-f3e91b7980
+      - s-cd579715f1
+      - s-211d771df2
+      - s-92a49fbd3e
+      - s-61556f7909
+      - s-f73ab072fc
+      - s-40c7d8e3bd
+      - s-1e539a7962

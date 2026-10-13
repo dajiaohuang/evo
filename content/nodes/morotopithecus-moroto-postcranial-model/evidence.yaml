@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-a881f7f04d
+      part: title
+    titleZh:
+      page: zh
+      section: s-2d6564ae36
+      part: title
+    category: ecological
+    startAge: 21
+    endAge: 20.6
+    regions:
+      - Moroto I and Moroto II, Karamoja District, Uganda
+    clades:
+      - Morotopithecus
+      - Hominoidea
+      - Catarrhini
+    summary:
+      page: en
+      section: s-a881f7f04d
+      part: body
+    summaryZh:
+      page: zh
+      section: s-2d6564ae36
+      part: body
+    claimIds:
+      - claim:event:morotopithecus-moroto-postcranial-model
+    evidenceItems:
+      - statement: MUZM 60 is a glenoid fragment from Moroto I; MUZM 80 comprises six right and left femoral fragments attributed to one individual from Moroto II and illustrated in Figures 2–5.
+        relation: supports
+        claimIds:
+          - claim:event:morotopithecus-moroto-postcranial-model
+        referenceLinks:
+          - referenceId: maclatchy-2000-morotopithecus
+            relation: supports
+            pages: 159–183
+            figure: Figures 1–12; Tables 1–10
+            quoteLocator: Discovery and geochronology; descriptions of MUZM 60 and MUZM 80; functional discussion
+    uncertaintyItems:
+      - statement: The two specimens are not one skeleton, their attribution is locality-comparative, and vertical climbing, suspension and crown-hominoid affinity are functional or phylogenetic interpretations.
+        relation: contextualizes
+        claimIds:
+          - claim:event:morotopithecus-moroto-postcranial-model
+        referenceLinks:
+          - referenceId: maclatchy-2000-morotopithecus
+            relation: supports
+            pages: 159–183
+            figure: Figures 1–12; Tables 1–10
+            quoteLocator: Discovery and geochronology; descriptions of MUZM 60 and MUZM 80; functional discussion
+  claims:
+    - subjectId: event:morotopithecus-moroto-postcranial-model
+      claimKind: scientific
+      claimType: ecology
+      statement: MUZM 60 and MUZM 80 preserve separate early Miocene shoulder and femoral anatomies used to reconstruct a mixed arboreal locomotor repertoire; they are not one individual or direct crown-hominoid ancestor.
+      confidence: medium
+      confidenceRationale: Medium confidence reflects detailed measurements and comparisons while preserving cross-locality association, taxonomic attribution and functional reconstruction as separate inference steps.
+      referenceLinks:
+        - referenceId: maclatchy-2000-morotopithecus
+          relation: supports
+          pages: 159–183
+          figure: Figures 1–12; Tables 1–10
+          quoteLocator: Discovery and geochronology; descriptions of MUZM 60 and MUZM 80; functional discussion
+  claim-rationales.zh:
+    - 中等置信度反映细致的测量和比较，同时把跨地点关联、分类归属和功能复原保留为不同推断步骤。
+  claim-statements.zh:
+    - MUZM 60 与 MUZM 80 分别保存早中新世肩部和股骨解剖，被用于重建混合型树栖运动方式；它们并非同一个体，也不是人猿总科冠群的直接祖先。

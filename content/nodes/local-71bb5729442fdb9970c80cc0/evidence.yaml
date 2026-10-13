@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Phrynobatrachus scheffleri
+    name:
+      en: Phrynobatrachus scheffleri
+      zh: Phrynobatrachus scheffleri
+    sourceClassification:
+      order: Anura
+      family: Phrynobatrachidae
+      genus: Phrynobatrachus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Phrynobatrachus scheffleri in the morphology deposit
+          zh: 形态数据中的 Phrynobatrachus scheffleri 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5e76ecc2b3
+            part: body
+          zh:
+            page: zh
+            section: s-68e4f5fe87
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4249 and 4250: measurement fields and sex codes"
+          zh: 第 4249、4250 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-93bdf90574
+            part: body
+          zh:
+            page: zh
+            section: s-535a9368fa
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4249, 4250; Reference.csv rows 2325
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4249
+        values:
+          - Phrynobatrachidae
+          - Phrynobatrachus
+          - Phrynobatrachus scheffleri
+          - F
+          - "15.1"
+          - NA
+          - "4.9"
+          - "1.3"
+          - NA
+          - NA
+          - "2.7"
+          - "1.8"
+          - NA
+          - "1.1"
+          - "2.3"
+          - "1.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - "6.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4250
+        values:
+          - Phrynobatrachidae
+          - Phrynobatrachus
+          - Phrynobatrachus scheffleri
+          - M
+          - "12.9"
+          - NA
+          - "4.3"
+          - "1.5"
+          - NA
+          - NA
+          - "2.4"
+          - "1.5"
+          - NA
+          - "1"
+          - "2.2"
+          - "1.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7"
+          - "6.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2325
+        values:
+          - Anura
+          - Phrynobatrachus_scheffleri
+          - "Schick, S., Zimkus, B. M., Channing, A., Kohler, J., & Lotters, S. (2010). Systematics of 'Little Brown Frogs' from East Africa: recognition of Phrynobatrachus scheffleri and description of a new species from the Kakamega Forest, Kenya (Amphibia: Phrynobatrachidae). Salamandra, 46(1), 24-36. <Go to ISI>://WOS:000276337900004"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - EN
+      - SL
+      - NS
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6VDNY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

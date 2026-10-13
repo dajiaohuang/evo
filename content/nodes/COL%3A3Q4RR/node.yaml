@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema henselii
+  displayName: Ischnocnema henselii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4RR
+  sourceIndexes:
+    - name:
+        en: Ischnocnema henselii
+        zh: Ischnocnema henselii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4RR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/20
+            queryName: Ischnocnema henselii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/206
+            queryName: Hylodes henselii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/207
+            queryName: Eleutherodactylus henselii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91f26626b1
+      - s-c7259390eb
+      - s-d4c4bc4a88
+      - s-c050e499bd
+      - s-b8c9083cce
+      - s-61be368f6d
+      - s-1cc6a92c8a
+      - s-6656866756
+      - s-fc34630565
+      - s-e0486d507e
+      - s-6c26306094
+      - s-dc7f9d37e6
+      - s-10e58a32ce
+    zh:
+      - s-2a7f96351e
+      - s-1f608ea7e3
+      - s-e2f51df96a
+      - s-bb324a6e6e
+      - s-c0637d1393
+      - s-01eb7ee3fe
+      - s-2d2c31604a
+      - s-a0ace95e18
+      - s-1a1412049a
+      - s-fa60c52074
+      - s-bbcc392f3f
+      - s-a057d05d16
+      - s-8874cd8c6b

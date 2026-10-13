@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Gobiatoides parvus
+    rank: species
+    sourceTaxonId: txn:202829
+    name:
+      en: Gobiatoides parvus
+      zh: Gobiatoides parvus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-a57ad081ba
+            part: body
+          zh:
+            page: zh
+            section: s-8d88835a8e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-ce1ff43e3b
+            part: body
+          zh:
+            page: zh
+            section: s-7d7654b666
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-07333eb277
+            part: body
+          zh:
+            page: zh
+            section: s-c3cd2f2c47
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:202829; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: Z. Ročec and L. A. Nessov. 1993. Cretaceous anurans from Central Asia. Palaeontographica Abteilung A 226:1-54
+    occurrenceEvidence:
+      - occurrenceId: occ:985876
+        collectionId: col:58168
+        acceptedTaxonId: txn:202829
+        identifiedName: Gobiatoides parvus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:18862
+        bibliography: Z. Ročec and L. A. Nessov. 1993. Cretaceous anurans from Central Asia. Palaeontographica Abteilung A 226:1-54
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-07333eb277
+            part: body
+          zh:
+            page: zh
+            section: s-c3cd2f2c47
+            part: body
+        sourceIds: []

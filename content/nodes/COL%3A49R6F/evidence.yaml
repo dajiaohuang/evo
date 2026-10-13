@@ -1,0 +1,417 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Onychodactylus koreanus Min, Poyarkov & Vieites, 2012
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Onychodactylus koreanus
+      zh: Onychodactylus koreanus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2076c963b2
+            part: title
+          zh:
+            page: zh
+            section: s-5c3e997588
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2076c963b2
+            part: body
+          zh:
+            page: zh
+            section: s-5c3e997588
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3e5acd21a5
+            part: title
+          zh:
+            page: zh
+            section: s-b82ccf6e16
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3e5acd21a5
+            part: body
+          zh:
+            page: zh
+            section: s-b82ccf6e16
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-03f8562535
+            part: title
+          zh:
+            page: zh
+            section: s-a5c89f70c1
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-03f8562535
+            part: body
+          zh:
+            page: zh
+            section: s-a5c89f70c1
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-6d1255014cfc0190203e33e0
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fda41487db
+            part: title
+          zh:
+            page: zh
+            section: s-a6dbbd0a77
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fda41487db
+            part: body
+          zh:
+            page: zh
+            section: s-a6dbbd0a77
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-84878c3377
+            part: title
+          zh:
+            page: zh
+            section: s-0b1b2ee9b5
+            part: title
+        sourceIds:
+          - primary-pmc12875514-49r6f
+        text:
+          en:
+            page: en
+            section: s-84878c3377
+            part: body
+          zh:
+            page: zh
+            section: s-0b1b2ee9b5
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-0fa9e1d7f4
+            part: title
+          zh:
+            page: zh
+            section: s-e6a0f23536
+            part: title
+        sourceIds:
+          - primary-pmc12875514-49r6f
+        text:
+          en:
+            page: en
+            section: s-0fa9e1d7f4
+            part: body
+          zh:
+            page: zh
+            section: s-e6a0f23536
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-5753c96126
+            part: title
+          zh:
+            page: zh
+            section: s-6486223098
+            part: title
+        sourceIds:
+          - primary-pmc12875514-49r6f
+        text:
+          en:
+            page: en
+            section: s-5753c96126
+            part: body
+          zh:
+            page: zh
+            section: s-6486223098
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-449dc03e20
+            part: title
+          zh:
+            page: zh
+            section: s-eae5dcdafa
+            part: title
+        sourceIds:
+          - primary-pmc12875514-49r6f
+        text:
+          en:
+            page: en
+            section: s-449dc03e20
+            part: body
+          zh:
+            page: zh
+            section: s-eae5dcdafa
+            part: body
+      - topic: development
+        title:
+          en:
+            page: en
+            section: s-3de59d256b
+            part: title
+          zh:
+            page: zh
+            section: s-146945243d
+            part: title
+        sourceIds:
+          - primary-pmc12875514-49r6f
+        text:
+          en:
+            page: en
+            section: s-3de59d256b
+            part: body
+          zh:
+            page: zh
+            section: s-146945243d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Onychodactylus koreanus
+          url: https://www.checklistbank.org/dataset/316115/taxon/49R6F
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 251, 252; Reference.csv rows 4190
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12875514-49r6f
+        referenceId: ref-13b711e2-df91-4c85-aa21-64eb9d4fcd9e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Onychodactylus koreanus: Hwanseongul 2024–2025 field methods, population and egg observations, eDNA results and breeding inference; individual reproduction frequency unmeasured; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b8e7e984eb
+        part: body
+      zh:
+        page: zh
+        section: s-c3b062d52c
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-6d1255014cfc0190203e33e0
+        scientificName: Onychodactylus koreanus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0342469
+        referenceId: ref-13b711e2-df91-4c85-aa21-64eb9d4fcd9e
+        sourceKey: primary-pmc12875514-49r6f
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12875514/article.xml
+        sourceConcept: Onychodactylus koreanus
+        evidenceRead: "Onychodactylus koreanus: Hwanseongul 2024–2025 field methods, population and egg observations, eDNA results and breeding inference; individual reproduction frequency unmeasured; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: reproduction
+            heading:
+              en: Two inferred population breeding windows at one cave
+              zh: 一洞穴种群的两个推定繁殖窗口
+            referenceId: ref-13b711e2-df91-4c85-aa21-64eb9d4fcd9e
+            sourceKey: primary-pmc12875514-49r6f
+            locator: PMC12875514 XML sec003 paragraphs 0–2; sec009 paragraphs 0–1; reading-sections section 3, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0afb604591
+                part: body
+              zh:
+                page: zh
+                section: s-3cd6541fe0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Winter clutches and a differing July visit date
+              zh: 冬季卵窝及不同七月访问日期
+            referenceId: ref-13b711e2-df91-4c85-aa21-64eb9d4fcd9e
+            sourceKey: primary-pmc12875514-49r6f
+            locator: PMC12875514 XML sec009 paragraph 2; reading-sections section 3, paragraphs 1 and 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ef37991f22
+                part: body
+              zh:
+                page: zh
+                section: s-f9cc80c25b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Individual seasonal participation and isolation remain open questions
+              zh: 个体季节参与及隔离仍为未解决问题
+            referenceId: ref-13b711e2-df91-4c85-aa21-64eb9d4fcd9e
+            sourceKey: primary-pmc12875514-49r6f
+            locator: PMC12875514 reading-sections section 3, paragraphs 4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-67805b07ba
+                part: body
+              zh:
+                page: zh
+                section: s-1b350f5bd9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Water DNA signals are conditional indicators rather than animal counts
+              zh: 水 DNA 信号是有条件指标而非动物计数
+            referenceId: ref-13b711e2-df91-4c85-aa21-64eb9d4fcd9e
+            sourceKey: primary-pmc12875514-49r6f
+            locator: PMC12875514 reading-sections section 2, paragraphs 1–3; section 3, paragraphs 2–3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0f743bd3e1
+                part: body
+              zh:
+                page: zh
+                section: s-486b27e86c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: development
+            heading:
+              en: Size classes and yolk observations do not fix larval ages
+              zh: 体长组及卵黄观察不固定幼体年龄
+            referenceId: ref-13b711e2-df91-4c85-aa21-64eb9d4fcd9e
+            sourceKey: primary-pmc12875514-49r6f
+            locator: PMC12875514 XML sec003 paragraph 2; sec009 paragraphs 0 and 2; sec011 paragraph 0; reading-sections section 3, paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-800542cc63
+                part: body
+              zh:
+                page: zh
+                section: s-6e1b03a375
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,180 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Palaeothentes intermedius
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Palaeothentes intermedius
+      en: Palaeothentes intermedius
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7644c43598
+            part: body
+          en:
+            page: en
+            section: s-733798db98
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cd4a5df5b5
+            part: body
+          en:
+            page: en
+            section: s-52a59a3840
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a83b002ea6
+            part: body
+          en:
+            page: en
+            section: s-07f4086dfb
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-184989ee5e
+            part: body
+          en:
+            page: en
+            section: s-a70862a315
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8127a3407c
+            part: body
+          en:
+            page: en
+            section: s-565953fe40
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Palaeothentes intermedius
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=243781&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:243781; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:243781
+          selectedOccurrenceIds:
+            - occ:667048
+            - occ:1106027
+            - occ:1315697
+            - occ:1315703
+            - occ:1315709
+            - occ:1315719
+            - occ:1315737
+            - occ:1479021
+            - occ:1512695
+            - occ:1512706
+            - occ:1514747
+            - occ:1514748
+            - occ:1514749
+          selectedCollectionIds:
+            - col:71843
+            - col:139845
+            - col:176563
+            - col:176565
+            - col:176566
+            - col:176570
+            - col:176594
+            - col:176571
+            - col:210638
+            - col:210786
+            - col:59333
+            - col:144940
+            - col:176590
+          sourceReferenceIds:
+            - ref:24282
+            - ref:44988
+            - ref:58179
+            - ref:70760
+            - ref:72910
+            - ref:73037
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-284ee4f1fd
+        part: body
+      en:
+        page: en
+        section: s-00a7fc230e
+        part: body

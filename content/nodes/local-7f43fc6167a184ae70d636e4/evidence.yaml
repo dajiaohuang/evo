@@ -1,0 +1,239 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pristimantis caryophyllaceus
+    name:
+      en: Pristimantis caryophyllaceus
+      zh: Pristimantis caryophyllaceus
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Pristimantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-bf96e9114c
+            part: body
+          zh:
+            page: zh
+            section: s-fbe15c674c
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8a9092f4ec
+            part: body
+          zh:
+            page: zh
+            section: s-a112d68702
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4496, 4497; Reference.csv rows 1994
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4496
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis caryophyllaceus
+          - M
+          - "17.7"
+          - "7.5"
+          - "6.7"
+          - "2.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.7"
+          - "3.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.7"
+          - NA
+          - NA
+          - "18.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4497
+        values:
+          - Brachycephaloidea
+          - Pristimantis
+          - Pristimantis caryophyllaceus
+          - F
+          - "21.5"
+          - "9.2"
+          - "8.2"
+          - "3.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.2"
+          - "4.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.5"
+          - NA
+          - NA
+          - "21.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1994
+        values:
+          - Anura
+          - Pristimantis_caryophyllaceus
+          - "Ryan, M. J., Lips, K. R., & Giermakowski, J. T. (2010). New species of Pristimantis (Anura: Terrarana: Strabomantinae) from lower central America. Journal of Herpetology, 44(2), 193-200. https://doi.org/10.1670/08-280.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - EN
+      - SL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

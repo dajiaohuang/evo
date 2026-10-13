@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax cuspidatus
+  displayName: Scinax cuspidatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJW3
+  sourceIndexes:
+    - name:
+        en: Scinax cuspidatus
+        zh: Scinax cuspidatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJW3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/30
+            queryName: Scinax cuspidatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/373
+            queryName: Hyla cuspidata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/374
+            queryName: Ololygon cuspidata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/375
+            queryName: Scinax cuspidata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b518a4c267
+      - s-f024ac8e40
+      - s-94a9136ae1
+      - s-682126c31a
+      - s-78008b2bdf
+      - s-42f47a25f0
+      - s-717c7edfff
+      - s-d4719cf3d3
+      - s-aac54570f7
+      - s-2287a59f1f
+      - s-3ae31b599c
+      - s-53ef7f4fff
+      - s-93d7838a4a
+      - s-177e8d913a
+      - s-af83b50656
+      - s-7dbaeec6d1
+      - s-4b1da63485
+    zh:
+      - s-90023e81b3
+      - s-694199e849
+      - s-ca919127c2
+      - s-e0ca60f23f
+      - s-f51e0e4e0a
+      - s-ce2a8174d6
+      - s-ba41b93e76
+      - s-135d0dc328
+      - s-9ddababf67
+      - s-1cf84e423a
+      - s-c413116be7
+      - s-58bb0547bc
+      - s-18d8408165
+      - s-f419249e01
+      - s-af45ad37a4
+      - s-b08e04e7c1
+      - s-231db375ee

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis klemmeri
+  displayName: Gephyromantis klemmeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KCZ6
+  sourceIndexes:
+    - name:
+        en: Gephyromantis klemmeri
+        zh: Gephyromantis klemmeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KCZ6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/130
+            queryName: Gephyromantis klemmeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/184
+            queryName: Mantidactylus klemmeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ee3f707286
+      - s-bb1789db37
+      - s-63a673ea9a
+      - s-e697d577de
+      - s-656b802987
+      - s-60aa0a0d7d
+      - s-c590f37303
+      - s-be2bc2f8e2
+      - s-bbfbd84122
+      - s-510d42d05a
+    zh:
+      - s-2d9ef4eaea
+      - s-0ece6ef77e
+      - s-01c6c0ac3a
+      - s-03bf55b177
+      - s-9adae4579b
+      - s-489eee0343
+      - s-aa405ce325
+      - s-22378d4ad5
+      - s-e485425823
+      - s-78967c203c

@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachiinae Dubois, 1980
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachiinae
+      zh: Leptobrachiinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-357300da58
+            part: title
+          zh:
+            page: zh
+            section: s-60fff900d4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-357300da58
+            part: body
+          zh:
+            page: zh
+            section: s-60fff900d4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f311970090
+            part: title
+          zh:
+            page: zh
+            section: s-4a566b5131
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f311970090
+            part: body
+          zh:
+            page: zh
+            section: s-4a566b5131
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-3af13d17f8
+            part: title
+          zh:
+            page: zh
+            section: s-b28ced342c
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62X9V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62X9V
+            label:
+              en: Leptobrachella
+              zh: Leptobrachella
+          - kind: catalogue
+            colId: 638Y7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A638Y7
+            label:
+              en: Leptobrachium
+              zh: Leptobrachium
+          - kind: catalogue
+            colId: 63HFW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63HFW
+            label:
+              en: Oreolalax
+              zh: Oreolalax
+          - kind: catalogue
+            colId: 6459Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6459Y
+            label:
+              en: Scutiger
+              zh: Scutiger
+        text:
+          en:
+            page: en
+            section: s-3af13d17f8
+            part: body
+          zh:
+            page: zh
+            section: s-b28ced342c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachiinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5PHP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a14dec484d
+        part: body
+      zh:
+        page: zh
+        section: s-f8fcd17099
+        part: body

@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ololygon skuki (Lima, Cruz & Azevedo, 2011)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ololygon skuki
+      zh: Ololygon skuki
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c29141c794
+            part: title
+          zh:
+            page: zh
+            section: s-985464b19b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c29141c794
+            part: body
+          zh:
+            page: zh
+            section: s-985464b19b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-446d706374
+            part: title
+          zh:
+            page: zh
+            section: s-aced8a91d4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-446d706374
+            part: body
+          zh:
+            page: zh
+            section: s-aced8a91d4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b7f2356dc2
+            part: title
+          zh:
+            page: zh
+            section: s-85915cc759
+            part: title
+        sourceIds:
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b7f2356dc2
+            part: body
+          zh:
+            page: zh
+            section: s-85915cc759
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-0af9a9c8782a6c75718d2b3b
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-43844753be
+            part: title
+          zh:
+            page: zh
+            section: s-aa8e4624a7
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-43844753be
+            part: body
+          zh:
+            page: zh
+            section: s-aa8e4624a7
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a63150f3e0
+            part: title
+          zh:
+            page: zh
+            section: s-ae84d359a4
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-a63150f3e0
+            part: body
+          zh:
+            page: zh
+            section: s-ae84d359a4
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ololygon skuki
+          url: https://www.checklistbank.org/dataset/316115/taxon/4994B
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2196, 2197, 2198, 2199, 2200, 2201, 2202, 2203; Picture measurement data rows 1187; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ae8ec590ca
+        part: body
+      zh:
+        page: zh
+        section: s-1211a5696f
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-0af9a9c8782a6c75718d2b3b
+        scientificName: Ololygon skuki
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2

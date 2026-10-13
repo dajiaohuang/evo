@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Thorius pinicola Parra-Olea, Rovito, García-París, Maisano, Wake & Hanken, 2016
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Thorius pinicola
+      zh: Thorius pinicola
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-49dbadd472
+            part: title
+          zh:
+            page: zh
+            section: s-32bc160a41
+            part: title
+        text:
+          en:
+            page: en
+            section: s-49dbadd472
+            part: body
+          zh:
+            page: zh
+            section: s-32bc160a41
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-78a5f268be
+            part: title
+          zh:
+            page: zh
+            section: s-27ad37b4d1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-78a5f268be
+            part: body
+          zh:
+            page: zh
+            section: s-27ad37b4d1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-23f368141a
+            part: title
+          zh:
+            page: zh
+            section: s-60bcdc769e
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56ktb
+        text:
+          en:
+            page: en
+            section: s-23f368141a
+            part: body
+          zh:
+            page: zh
+            section: s-60bcdc769e
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b273a98d5f
+            part: title
+          zh:
+            page: zh
+            section: s-22e4f2458b
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56ktb
+        text:
+          en:
+            page: en
+            section: s-b273a98d5f
+            part: body
+          zh:
+            page: zh
+            section: s-22e4f2458b
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ae26ead948
+            part: title
+          zh:
+            page: zh
+            section: s-5f9ab91b3b
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56ktb
+        text:
+          en:
+            page: en
+            section: s-ae26ead948
+            part: body
+          zh:
+            page: zh
+            section: s-5f9ab91b3b
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-18ccdb1eab
+            part: title
+          zh:
+            page: zh
+            section: s-e00cb3fd2c
+            part: title
+        sourceIds:
+          - primary-pmc5119241-56ktb
+        text:
+          en:
+            page: en
+            section: s-18ccdb1eab
+            part: body
+          zh:
+            page: zh
+            section: s-e00cb3fd2c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Thorius pinicola
+          url: https://www.checklistbank.org/dataset/316115/taxon/56KTB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc5119241-56ktb
+        referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Thorius pinicola: Named species type material, diagnosis and variation, live/preserved colour, distribution/ecology and conservation recommendation paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8a7a919e92
+        part: body
+      zh:
+        page: zh
+        section: s-801c207c57
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.2694
+        referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+        sourceKey: primary-pmc5119241-56ktb
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5119241/article.xml
+        sourceConcept: Thorius pinicola
+        evidenceRead: "Thorius pinicola: Named species type material, diagnosis and variation, live/preserved colour, distribution/ecology and conservation recommendation paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Minute adults measured to the posterior vent angle
+              zh: 量至泄殖腔后角的微小成体
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56ktb
+            locator: Results > Thorius pinicola; reading-sections index 2, paragraphs 1–3 and 5–7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a6c6a07978
+                part: body
+              zh:
+                page: zh
+                section: s-8b6a4a6423
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Dated live notes and fading in preserved specimens
+              zh: 有日期活体笔记及保存标本褪色
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56ktb
+            locator: Results > Thorius pinicola; reading-sections index 2, paragraphs 8–9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aafe292adb
+                part: body
+              zh:
+                page: zh
+                section: s-62346fb071
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Moist log refuges and conflicting elevation summaries
+              zh: 湿润枯木庇护及冲突海拔综合
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56ktb
+            locator: Results > Thorius pinicola; reading-sections index 2, paragraphs 2 and 15–17
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-51a0b09d0b
+                part: body
+              zh:
+                page: zh
+                section: s-e13412a93a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: A 2016 Critically Endangered recommendation
+              zh: 2016 年极危提议
+            referenceId: ref-1426582b-27c9-47db-a6b5-694c9478604a
+            sourceKey: primary-pmc5119241-56ktb
+            locator: Results > Thorius pinicola; reading-sections index 2, paragraphs 20
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0584fd6f21
+                part: body
+              zh:
+                page: zh
+                section: s-7c23a1c9c0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

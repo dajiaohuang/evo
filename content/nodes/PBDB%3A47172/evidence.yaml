@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyopsodus lepidus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hyopsodus lepidus
+      en: Hyopsodus lepidus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-56def3577a
+            part: body
+          en:
+            page: en
+            section: s-6abc787f7e
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-23f512c493
+            part: body
+          en:
+            page: en
+            section: s-ae1c11c349
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-73c108dfc6
+            part: body
+          en:
+            page: en
+            section: s-9a26c273b8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4f505481a5
+            part: body
+          en:
+            page: en
+            section: s-1ac168be57
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9fe68a2dcc
+            part: body
+          en:
+            page: en
+            section: s-e8e906adb0
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hyopsodus lepidus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=47172&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:47172; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:47172
+          selectedOccurrenceIds:
+            - occ:173822
+            - occ:173833
+            - occ:174297
+            - occ:174425
+            - occ:174638
+            - occ:175177
+            - occ:175209
+            - occ:175217
+            - occ:175220
+            - occ:1370241
+          selectedCollectionIds:
+            - col:16169
+            - col:16180
+            - col:16235
+            - col:16244
+            - col:16287
+            - col:16418
+            - col:16431
+            - col:16432
+            - col:16433
+            - col:93087
+          sourceReferenceIds:
+            - ref:3603
+            - ref:7017
+            - ref:2523
+            - ref:2640
+            - ref:62704
+          originalIdentificationMappings:
+            - occurrenceId: occ:174297
+              originalIdentifiedName: Hyopsodus lepidus n. sp.
+              acceptedName: Hyopsodus lepidus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-8db8bba681
+        part: body
+      en:
+        page: en
+        section: s-7583bba53c
+        part: body

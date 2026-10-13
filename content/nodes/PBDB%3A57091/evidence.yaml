@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Archosauriformes
+    rank: unranked clade
+    sourceDatasetId: null
+    name:
+      zh: Archosauriformes
+      en: Archosauriformes
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f24b2d1cff
+            part: body
+          en:
+            page: en
+            section: s-f8130b6a45
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7e37ab8a96
+            part: body
+          en:
+            page: en
+            section: s-db58e3b341
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Archosauriformes
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=57091
+          locator: Recorded PBDB parent closure beneath the already documented Reptilia COL-compatible storage anchor.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:57091
+          readingTargets:
+            - name: Litorosuchus somnii
+              pbdbTaxonId: txn:347471
+              canonicalPath: content/nodes/PBDB%3A347471
+            - name: Heteropelta boboi
+              pbdbTaxonId: txn:444940
+              canonicalPath: content/nodes/PBDB%3A444940
+            - name: Graoullyodon hacheti
+              pbdbTaxonId: txn:90676
+              canonicalPath: content/nodes/PBDB%3A90676
+            - name: Barberenasuchus brasiliensis
+              pbdbTaxonId: txn:172336
+              canonicalPath: content/nodes/PBDB%3A172336
+            - name: Fugusuchus hejiapanensis
+              pbdbTaxonId: txn:174042
+              canonicalPath: content/nodes/PBDB%3A174042
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0f09f9d12e
+        part: body
+      en:
+        page: en
+        section: s-d1022f3b04
+        part: body

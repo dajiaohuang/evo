@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gracixalus sapaensis
+    name:
+      en: Gracixalus sapaensis
+      zh: Gracixalus sapaensis
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Gracixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Gracixalus sapaensis in the version 3 classification
+          zh: Gracixalus sapaensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f9abfea1fa
+            part: body
+          zh:
+            page: zh
+            section: s-ee6749522b
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 27 populated trait fields
+          zh: 2 条测量行与 27 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-98f7fa6204
+            part: body
+          zh:
+            page: zh
+            section: s-14584b143b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2047, 2048; Reference.csv rows 478
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2047
+        values:
+          - Rhacophoridae
+          - Gracixalus
+          - Gracixalus sapaensis
+          - M
+          - "29.2"
+          - "10.7456"
+          - "10.7748"
+          - "4.3216"
+          - "1.8688"
+          - "0.73"
+          - "2.9492"
+          - "2.8324"
+          - "2.628"
+          - "2.044"
+          - "4.38"
+          - NA
+          - NA
+          - NA
+          - "15.6804"
+          - NA
+          - NA
+          - "14.4832"
+          - "13.432"
+          - NA
+          - "44.384"
+          - "1.1096"
+          - "2.9784"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.5696"
+          - NA
+          - NA
+          - NA
+          - "0.9928"
+          - "1.46"
+          - "1.7812"
+          - "1.5476"
+          - "0.9636"
+          - "1.168"
+          - "1.2848"
+          - "1.3432"
+          - "1.3724"
+          - NA
+          - NA
+      - rowNumber: 2048
+        values:
+          - Rhacophoridae
+          - Gracixalus
+          - Gracixalus sapaensis
+          - F
+          - "35.1"
+          - "12.5658"
+          - "13.0572"
+          - "4.6332"
+          - "2.2815"
+          - "0.702"
+          - "3.9663"
+          - "3.4398"
+          - "3.3345"
+          - "2.3517"
+          - "5.0544"
+          - NA
+          - NA
+          - NA
+          - "19.1997"
+          - NA
+          - NA
+          - "17.3043"
+          - "16.5672"
+          - NA
+          - "55.0368"
+          - "1.5795"
+          - "4.4577"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.7908"
+          - NA
+          - NA
+          - NA
+          - "1.0881"
+          - "1.8252"
+          - "2.0709"
+          - "2.0007"
+          - "1.1583"
+          - "1.4742"
+          - "1.5444"
+          - "1.6848"
+          - "1.6497"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 478
+        values:
+          - Anura
+          - Gracixalus_sapaensis
+          - Matsui, M., Ohler, A., Eto, K., & Tao, N. T. (2016). Distinction of Gracixalus carinensis from Vietnam and Myanmar, with description of a new species. Alytes(33), 25-37.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - LAL
+      - TL
+      - THL
+      - HLL
+      - IMT
+      - Toe1L
+      - Fin1L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3H5CN
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

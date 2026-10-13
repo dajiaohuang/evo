@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Amolops xinduqiao
+    name:
+      en: Amolops xinduqiao
+      zh: Amolops xinduqiao
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Amolops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Amolops xinduqiao in the version 3 classification
+          zh: Amolops xinduqiao 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-888cbaf7c4
+            part: body
+          zh:
+            page: zh
+            section: s-7fe61638b7
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 16 populated trait fields
+          zh: 2 条测量行与 16 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-23327a13ce
+            part: body
+          zh:
+            page: zh
+            section: s-15a747ed11
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 318, 319; Reference.csv rows 3785
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 318
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops xinduqiao
+          - F
+          - "52.5"
+          - "17.4"
+          - "17.7"
+          - "6.7"
+          - "2.2"
+          - NA
+          - "4.7"
+          - "5.6"
+          - "4.3"
+          - NA
+          - "7.5"
+          - NA
+          - "15.8"
+          - "10.8"
+          - NA
+          - "29"
+          - "41.4"
+          - "29.5"
+          - NA
+          - "12.4"
+          - "92.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 319
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops xinduqiao
+          - M
+          - "43.9"
+          - "15"
+          - "15.4"
+          - "6.3"
+          - "2.3"
+          - NA
+          - "4.1"
+          - "5"
+          - "3.7"
+          - NA
+          - "6.2"
+          - NA
+          - "13.5"
+          - "8.9"
+          - NA
+          - "24.6"
+          - "35.6"
+          - "25.3"
+          - NA
+          - "11"
+          - "78.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3785
+        values:
+          - Anura
+          - Amolops_xinduqiao
+          - "Fei, L., Ye, C.-Y., Wang, Y.-F., & Jiang, K. (2017). A new species of the genus Amolops (Anura: Ranidae) from high-altitude Sichuan, southwestern China, with a discussion on the taxonomic status of Amolops kangtingensis. Zoological Research, 38, 138-145. https://doi.org/10.24272/j.issn.2095-8137.2017.022"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TFL
+      - TL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

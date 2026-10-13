@@ -1,0 +1,284 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella dayaoshanensis Chen, Yu, Meng & Qin, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella dayaoshanensis
+      zh: Leptobrachella dayaoshanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8d3a916fc6
+            part: title
+          zh:
+            page: zh
+            section: s-969dd24844
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8d3a916fc6
+            part: body
+          zh:
+            page: zh
+            section: s-969dd24844
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b02db76ee6
+            part: title
+          zh:
+            page: zh
+            section: s-35f94d8cb3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b02db76ee6
+            part: body
+          zh:
+            page: zh
+            section: s-35f94d8cb3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-f9ca6cf0a2
+            part: title
+          zh:
+            page: zh
+            section: s-c734996dcb
+            part: title
+        sourceIds:
+          - primary-pmc11618101-tzptt
+        text:
+          en:
+            page: en
+            section: s-f9ca6cf0a2
+            part: body
+          zh:
+            page: zh
+            section: s-c734996dcb
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-50f2dd17e0
+            part: title
+          zh:
+            page: zh
+            section: s-d2d44858e3
+            part: title
+        sourceIds:
+          - primary-pmc11618101-tzptt
+        text:
+          en:
+            page: en
+            section: s-50f2dd17e0
+            part: body
+          zh:
+            page: zh
+            section: s-d2d44858e3
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8c8946405a
+            part: title
+          zh:
+            page: zh
+            section: s-96ef276dc3
+            part: title
+        sourceIds:
+          - primary-pmc12627998-tzptt
+        text:
+          en:
+            page: en
+            section: s-8c8946405a
+            part: body
+          zh:
+            page: zh
+            section: s-96ef276dc3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella dayaoshanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/TZPTT
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11618101-tzptt
+        referenceId: ref-12856bab-24a8-4efd-aa40-acbde0afb95e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella dayaoshanensis: Ecology and distribution account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12627998-tzptt
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella dayaoshanensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-73dd0f9580
+        part: body
+      zh:
+        page: zh
+        section: s-d3cf2ee4b2
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1219.121027
+        referenceId: ref-12856bab-24a8-4efd-aa40-acbde0afb95e
+        sourceKey: primary-pmc11618101-tzptt
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11618101/article.xml
+        sourceConcept: Leptobrachella dayaoshanensis
+        evidenceRead: "Leptobrachella dayaoshanensis: Ecology and distribution account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Evergreen forest in Dayaoshan
+              zh: 大瑶山常绿林
+            referenceId: ref-12856bab-24a8-4efd-aa40-acbde0afb95e
+            sourceKey: primary-pmc11618101-tzptt
+            locator: "Leptobrachella dayaoshanensis: Ecology and distribution account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7e24398a88
+                part: body
+              zh:
+                page: zh
+                section: s-d114a4dd1e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Calling observations in March and April
+              zh: 三月至四月的鸣叫观察
+            referenceId: ref-12856bab-24a8-4efd-aa40-acbde0afb95e
+            sourceKey: primary-pmc11618101-tzptt
+            locator: "Leptobrachella dayaoshanensis: Ecology and distribution account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cbc747b6e1
+                part: body
+              zh:
+                page: zh
+                section: s-92eaacc4d8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-tzptt
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella dayaoshanensis
+        evidenceRead: "Leptobrachella dayaoshanensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A selected trait in the kungfu comparison
+              zh: kungfu 比较中的所选性状
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-tzptt
+            locator: PMC12627998 XML sec17 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f2cba46194
+                part: body
+              zh:
+                page: zh
+                section: s-4c1267de8a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

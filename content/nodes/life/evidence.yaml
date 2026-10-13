@@ -1,0 +1,90 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-6ab36b11ca
+            part: title
+          zh:
+            page: zh
+            section: s-4867c69ceb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6ab36b11ca
+            part: body
+          zh:
+            page: zh
+            section: s-4867c69ceb
+            part: body
+        claimIds:
+          - claim:taxon:life:fossil-range
+    scientificName: Life
+    name:
+      en: Life
+      zh: Life
+  atlas-node:
+    name: Life
+    commonName: Life on Earth
+    commonNameZh: 地球生命
+    rank: ""
+    taxonId: ""
+    firstAppearance: 3700
+    lastAppearance: 0
+    extinct: false
+    entityKind: navigation-group
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:life
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Life navigation envelope begins at 3.7 Ga as a conservative sampled biosignature boundary supported by biogenic-graphite evidence and extends to living Earth life at 0 Ma; 3.7 Ga is a minimum age by which life is evidenced, not a precise date for abiogenesis, LUCA or the origin of every lineage.
+      confidence: medium
+      confidenceRationale: The primary study combines field context, carbon isotopes and graphite nanostructure to argue for biogenic carbon in 3.7 Ga Isua metasediments, while the synthesis separates the approximately 3.7 Ga biosignature boundary from a much less certain earlier habitability boundary. Metamorphism, preservation and competing abiotic interpretations limit the claim to a conservative evidence minimum.
+      referenceLinks:
+        - referenceId: ohtomo-2014-isua-biogenic-graphite
+          relation: supports
+          pages: 25–28
+          figure: Figures 3–4
+          quoteLocator: p. 25 abstract; carbon-isotope analyses; graphite nanostructure; p. 28 conclusion
+        - referenceId: pearce-2018-origin-life-window
+          relation: contextualizes
+          pages: 343–364
+          figure: Figure 1; Table 1
+          quoteLocator: "Abstract and Introduction: habitability and biosignature boundaries; Discussion: origin interval and uncertainty"
+  claim-rationales.zh:
+    - 一手研究结合野外背景、碳同位素和石墨纳米结构，论证 37 亿年前 Isua 变沉积岩中的碳具有生物成因；综合研究则把约 37 亿年前的生物标志边界与更早且不确定性更大的宜居边界分开。变质作用、保存偏差和非生物替代解释使该主张只能作为保守的证据最低年龄。
+  claim-statements.zh:
+    - 生命导航范围从 37 亿年前开始，这是由生物成因石墨证据支持的保守采样生物标志边界，并延续到 0 Ma 的现存地球生命；37 亿年前表示已有生命证据的最低年龄，不是生命自然发生、最后普遍共同祖先或每条谱系起源的精确日期。
+  ranges:
+    - entityId: life
+      rangeKind: global-composite
+      taxonomicConcept: Life on Earth sampled biosignature-to-living navigation envelope
+      geographicScope: Isua Supracrustal Belt, western Greenland; living global biosphere
+      olderMa: 3700
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: 3.7 Ga is a conservative sampled biosignature boundary, not a measured date for abiogenesis or LUCA. The sparse, metamorphosed early rock record and alternative abiotic interpretations prevent a precise origin endpoint; 0 Ma denotes that life persists.
+      evidenceBasis: Carbon-isotope, geological and graphite-nanostructure analyses of 3.7 Ga Isua metasediments support a biogenic interpretation; an interdisciplinary review separates this biosignature boundary from the earlier and less certain habitability boundary.
+      confidence: medium
+      claimIds:
+        - claim:taxon:life:fossil-range
+      referenceLocators:
+        - referenceId: ohtomo-2014-isua-biogenic-graphite
+          locator: pp. 25–28; p. 25 abstract; Figures 3–4; p. 28 conclusion on isotope and graphite-nanostructure evidence
+        - referenceId: pearce-2018-origin-life-window
+          locator: pp. 343–364; Abstract and Introduction; Figure 1; Table 1; habitability versus biosignature boundaries
+      evidenceLevel: literature-synthesized
+  classification-support:
+    - support: contextual
+      groupingBasis: Root-level navigation scaffold spanning major living and fossil groups.
+      conflicts: The displayed 3.7 Ga boundary represents sampled biosignature evidence, not a resolved date for the origin of life or LUCA.
+      references:
+        - open-tree

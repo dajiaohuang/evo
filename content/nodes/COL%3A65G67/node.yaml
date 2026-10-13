@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus quadrivittatus
+  displayName: Afrixalus quadrivittatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G67
+  sourceIndexes:
+    - name:
+        en: Afrixalus quadrivittatus
+        zh: Afrixalus quadrivittatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G67
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/82
+            queryName: Afrixalus quadrivittatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/209
+            queryName: Megalixalus leptosomus quadrivittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7873b27ba5
+      - s-f43c9dee64
+      - s-5888d3949f
+      - s-af996c2549
+      - s-935bec1f09
+      - s-cf989d617c
+      - s-c58a7e76af
+      - s-99fe537a0c
+      - s-bbc1da4e7a
+      - s-dfad0afda5
+      - s-e451f5e5dd
+      - s-30591cc2c9
+      - s-21df4a80d0
+      - s-4f7ddd91d1
+      - s-ad610d67cb
+      - s-0a1921c237
+      - s-e6296348d1
+      - s-dbfaa0ac1d
+    zh:
+      - s-4e06817868
+      - s-6a374187ef
+      - s-1e6892e1b8
+      - s-c27fa14190
+      - s-146fb87716
+      - s-db021577ca
+      - s-f04850ca80
+      - s-5627a2d4f7
+      - s-6f5698be07
+      - s-592e1ae9ea
+      - s-afbc67c0b3
+      - s-d2d48d5238
+      - s-9487e9767c
+      - s-c75d67e4e0
+      - s-bc8d5cd211
+      - s-57ea45de5a
+      - s-9c6adb538f
+      - s-e74a5c2636

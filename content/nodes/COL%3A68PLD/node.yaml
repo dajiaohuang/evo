@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis rufioculis
+  displayName: Boophis rufioculis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PLD
+  sourceIndexes:
+    - name:
+        en: Boophis rufioculis
+        zh: Boophis rufioculis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PLD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/294
+            queryName: Boophis rufioculis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5ddf4056d
+      - s-b945a1c647
+      - s-e2be0e12c3
+      - s-363c21168a
+      - s-752260a872
+      - s-c038f7bc01
+      - s-ca40101d42
+      - s-b0880617c1
+      - s-c142d894a3
+    zh:
+      - s-6cadece18a
+      - s-248c7de082
+      - s-9976665794
+      - s-55c7c524cc
+      - s-95e3b9565b
+      - s-fac909ac37
+      - s-ea4f8411b1
+      - s-055c4a90ae
+      - s-6961458a52

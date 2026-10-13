@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax altae
+  displayName: Scinax altae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XXY7
+  sourceIndexes:
+    - name:
+        en: Scinax altae
+        zh: Scinax altae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XXY7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/12
+            queryName: Scinax altae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/410
+            queryName: Hyla altae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/309
+            queryName: Hyla staufferi altae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-59ed1cf0bf
+      - s-e811ddeb58
+      - s-0c2cf01650
+      - s-8f0321c3cf
+      - s-d8ee79ace2
+      - s-fd590d1be3
+      - s-8a4b4a3b44
+      - s-aa67c44a21
+      - s-e58e0b988f
+    zh:
+      - s-a8f9e879a8
+      - s-3b8684e5b7
+      - s-ec6b1b2bec
+      - s-af3a65ba04
+      - s-cc72a80008
+      - s-6e58c30d67
+      - s-8c0d4475aa
+      - s-84ba87a14f
+      - s-94d9cfb1dd

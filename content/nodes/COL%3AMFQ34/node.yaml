@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton ceronorum
+  displayName: Chiropterotriton ceronorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MFQ34
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton ceronorum
+        zh: Chiropterotriton ceronorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MFQ34
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/290
+            queryName: Chiropterotriton ceronorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-42ab7d8608
+      - s-75c8f69ea9
+      - s-8782dd3950
+      - s-70d0293bd7
+      - s-0fe79b2fd1
+      - s-ad112ee8e5
+      - s-520b3e5d47
+      - s-ce9c74d8da
+      - s-2a95ed05d6
+      - s-f7d9dd3a05
+      - s-6d819e513a
+    zh:
+      - s-03aeaf2480
+      - s-8610297585
+      - s-2d7742a9b5
+      - s-1bbe8275f6
+      - s-b40d6040b3
+      - s-2f10f8b87a
+      - s-effbf29730
+      - s-f919652619
+      - s-6d842fe49f
+      - s-b2a9c7f7e4
+      - s-83d3d3b590

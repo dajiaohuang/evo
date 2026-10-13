@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes uthamani
+  displayName: Raorchestes uthamani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RJBC
+  sourceIndexes:
+    - name:
+        en: Raorchestes uthamani
+        zh: Raorchestes uthamani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RJBC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/199
+            queryName: Raorchestes uthamani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e33946df90
+      - s-75c3d8d8f0
+      - s-2cadce04f1
+      - s-298e5a0738
+      - s-d4a49d15bd
+      - s-a04c3b89ae
+      - s-5bdb87e90d
+      - s-43e109657d
+      - s-dabeb0349f
+      - s-d24636f53f
+      - s-21301cf815
+      - s-c3179497d0
+      - s-6b3816eb30
+    zh:
+      - s-18e03777cd
+      - s-63f9a99cb8
+      - s-9ea12a1d78
+      - s-59d1447ca0
+      - s-d6f197eda9
+      - s-0e65b1c4f2
+      - s-3119734539
+      - s-789cae63e6
+      - s-d3a6892b37
+      - s-6acb80305b
+      - s-dba7a755dc
+      - s-5352aaa999
+      - s-51ed130113

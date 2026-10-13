@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Engystomops coloradorum
+  displayName: Engystomops coloradorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39TTR
+  sourceIndexes:
+    - name:
+        en: Engystomops coloradorum
+        zh: Engystomops coloradorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 39TTR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/354
+            queryName: Engystomops coloradorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/133
+            queryName: Physalaemus coloradorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0c09a36136
+      - s-3d57281d6c
+      - s-84c692be5b
+      - s-345193d870
+      - s-5881991f92
+      - s-5fbc75098b
+      - s-9879c5748f
+    zh:
+      - s-24a1cd673e
+      - s-3a70798faa
+      - s-879e16b07c
+      - s-b8954159c5
+      - s-f67b98f968
+      - s-e8e4e4c431
+      - s-4c10590b77

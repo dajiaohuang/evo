@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates flaviventris
+  displayName: Allobates flaviventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6699N
+  sourceIndexes:
+    - name:
+        en: Allobates flaviventris
+        zh: Allobates flaviventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6699N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/135
+            queryName: Allobates flaviventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da260197c4
+      - s-b8f72b1d64
+      - s-59caaaaa12
+      - s-fc4559ff7f
+      - s-29d6410b0b
+      - s-3b7adadc31
+      - s-1ac58281c3
+      - s-44dc4f15b4
+      - s-24cba09bbf
+      - s-ddfe416432
+      - s-195034299f
+      - s-d92b081e62
+      - s-1bba2a2fd1
+      - s-ab392b9a9a
+    zh:
+      - s-ea07f6f913
+      - s-1ae2a191b6
+      - s-ff5d22f1e6
+      - s-8b2808e111
+      - s-e69e3c10f8
+      - s-cd19443ced
+      - s-3c54f0ad50
+      - s-90c8552a5e
+      - s-962297c17f
+      - s-0ce291569a
+      - s-0639af2a12
+      - s-9ab1cbfa89
+      - s-a9bf59f411
+      - s-9db8c37a1d

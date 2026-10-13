@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates serranus
+  displayName: Aromobates serranus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GTRX
+  sourceIndexes:
+    - name:
+        en: Aromobates serranus
+        zh: Aromobates serranus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GTRX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/129
+            queryName: Aromobates serranus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/234
+            queryName: Nephelobates serranus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/142
+            queryName: Colostethus serranus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6c69dcb066
+      - s-a7ec28e4b5
+      - s-e3efd19c37
+      - s-54029ce2be
+      - s-9bf80e64ea
+      - s-5d3781142b
+      - s-37df6550aa
+      - s-e8295b8703
+      - s-14889e872f
+      - s-a0a913c0b6
+      - s-43cde6515a
+    zh:
+      - s-7c88dd3703
+      - s-8078c9bcb5
+      - s-cc446f8b63
+      - s-7f96c527b6
+      - s-fa625a10d6
+      - s-71f246f5ac
+      - s-51bbf781f9
+      - s-eaf07edc36
+      - s-ddee6d16ea
+      - s-51dc7e8eb1
+      - s-c29d840379

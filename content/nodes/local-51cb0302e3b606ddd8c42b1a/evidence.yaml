@@ -1,0 +1,197 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Spinomantis beckei
+    name:
+      en: Spinomantis beckei
+      zh: Spinomantis beckei
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Spinomantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Spinomantis beckei in the morphology deposit
+          zh: 形态数据中的 Spinomantis beckei 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a0a7cf6102
+            part: body
+          zh:
+            page: zh
+            section: s-5fd6524209
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5749: measurement fields and sex codes"
+          zh: 第 5749 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a5634f7870
+            part: body
+          zh:
+            page: zh
+            section: s-026f9591c4
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5749; Reference.csv rows 1390
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5749
+        values:
+          - Mantellidae
+          - Spinomantis
+          - Spinomantis beckei
+          - F
+          - "23.43333333"
+          - "8.6"
+          - "6.833333333"
+          - "3.133333333"
+          - "1.966666667"
+          - NA
+          - NA
+          - "2.6"
+          - NA
+          - "2"
+          - NA
+          - "1.566666667"
+          - "7.366666667"
+          - NA
+          - "16.4"
+          - "11"
+          - NA
+          - NA
+          - "11.9"
+          - NA
+          - "37.66666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1390
+        values:
+          - Anura
+          - Spinomantis_beckei
+          - "Vences, M., KÖHler, J., & Glaw, F. (2017). A new species of smooth-skinned Spinomantis frog (Anura: Mantellidae) from south-eastern Madagascar. Zootaxa, 4317(2). https://doi.org/10.11646/zootaxa.4317.2.12"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - THL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4Z5RT
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

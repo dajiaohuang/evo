@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crotaphatrema tchabalmbaboensis
+  displayName: Crotaphatrema tchabalmbaboensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZPDX
+  sourceIndexes:
+    - name:
+        en: Crotaphatrema tchabalmbaboensis
+        zh: Crotaphatrema tchabalmbaboensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZPDX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/239
+            queryName: Crotaphatrema tchabalmbaboensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0c04d96c85
+      - s-c1e0972d1e
+      - s-04db7ef6de
+      - s-6b0428f7c3
+      - s-62955ba80d
+      - s-1312eee0f0
+      - s-281a5c36b9
+      - s-a6fe38fae9
+      - s-59541bf01e
+    zh:
+      - s-262f91d3ae
+      - s-d7bb3bef73
+      - s-95dad30c16
+      - s-d8fe24c70e
+      - s-8bd84c9f96
+      - s-ec1c882f09
+      - s-218f7a0f18
+      - s-7df42880ee
+      - s-644d030250

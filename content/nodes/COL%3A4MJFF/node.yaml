@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis incomptus
+  displayName: Pristimantis incomptus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJFF
+  sourceIndexes:
+    - name:
+        en: Pristimantis incomptus
+        zh: Pristimantis incomptus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJFF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/319
+            queryName: Pristimantis incomptus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/385
+            queryName: Eleutherodactylus incomptus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-76c8b5d414
+      - s-8f11b2e051
+      - s-57138eae6e
+      - s-ffbf19f61d
+      - s-0495eacd04
+      - s-313e19756f
+      - s-3323d4a20e
+      - s-b41d76f3d8
+      - s-e3c1b2b937
+      - s-f2edf9a114
+      - s-7d3bc11c30
+      - s-a12dbd7df9
+      - s-e2deefb73e
+      - s-22abb34c1d
+      - s-b7251296d7
+      - s-2131176bc7
+      - s-001e10fccc
+      - s-8d97a4cd23
+    zh:
+      - s-7595289020
+      - s-cb9d078d80
+      - s-6eec8c2e88
+      - s-b97935bbb3
+      - s-6d32ae4a45
+      - s-56b0fd0077
+      - s-674de92fdc
+      - s-097b5928d1
+      - s-5747692828
+      - s-8756d88d77
+      - s-eeb78cf065
+      - s-b0ac8cfd97
+      - s-31d8eccc87
+      - s-20de89569b
+      - s-bb9837f8df
+      - s-6f9ceb3a6f
+      - s-27b56f7a65
+      - s-0754ec095f

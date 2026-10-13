@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus posadae
+  displayName: Nymphargus posadae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486K3
+  sourceIndexes:
+    - name:
+        en: Nymphargus posadae
+        zh: Nymphargus posadae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486K3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/447
+            queryName: Nymphargus posadae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/16
+            queryName: Cochranella posadae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-496e1efe73
+      - s-a2ff5c1b03
+      - s-a6624c186b
+      - s-84ab0cadaf
+      - s-67f62c5780
+      - s-e7a8347c5e
+      - s-1014a228e9
+      - s-1d82ce8bd8
+      - s-be1aa2bbee
+      - s-45739ecf38
+      - s-9240288a3a
+      - s-08cd5892e9
+      - s-deabf6c797
+      - s-07329659c0
+      - s-17ec0acf69
+      - s-b46a141a00
+      - s-c963be25af
+      - s-9e8db1c655
+      - s-1505470510
+      - s-b8fb81236f
+      - s-8dcce53515
+      - s-6b91eb3a7a
+    zh:
+      - s-c343b7b8f4
+      - s-584cd50d00
+      - s-0e8c5272d1
+      - s-6af317f34b
+      - s-4af26e02a9
+      - s-3e69c7121d
+      - s-c23ed701d9
+      - s-83fa817332
+      - s-aced729d73
+      - s-43de691eb9
+      - s-92135cdf54
+      - s-81c239a71f
+      - s-148c49e3cd
+      - s-6eaa33986b
+      - s-c3b3bbc119
+      - s-be0c396ef6
+      - s-57655d1559
+      - s-2c897b52d3
+      - s-ac6a94743f
+      - s-98843fb6e9
+      - s-44f493454e
+      - s-6889fe8873

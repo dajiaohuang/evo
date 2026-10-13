@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Osornophryne puruanta
+    name:
+      en: Osornophryne puruanta
+      zh: Osornophryne puruanta
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Osornophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Osornophryne puruanta in the morphology deposit
+          zh: 形态数据中的 Osornophryne puruanta 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0599afb711
+            part: body
+          zh:
+            page: zh
+            section: s-8498846ee3
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 3951: measurement fields and sex codes"
+          zh: 第 3951 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f8d8121531
+            part: body
+          zh:
+            page: zh
+            section: s-b1f9815ac0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3951; Reference.csv rows 2691
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3951
+        values:
+          - Bufonidae
+          - Osornophryne
+          - Osornophryne puruanta
+          - F
+          - "43.4375"
+          - "11.9375"
+          - "13.8625"
+          - "3.375"
+          - NA
+          - NA
+          - "6.5375"
+          - "3.7625"
+          - "3.025"
+          - "2.475"
+          - NA
+          - "2.5125"
+          - NA
+          - NA
+          - NA
+          - "15.225"
+          - NA
+          - "13.35"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2691
+        values:
+          - Anura
+          - Osornophryne_puruanta
+          - "Gluesenkamp, A., & Guayasamin, J. (2008). A new species of Osornophryne (Anura: Bufonidae) from the Andean highlands of northern Ecuador. Zootaxa, 1828, 18-28. https://doi.org/10.11646/zootaxa.1828.1.2 "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 75C5J
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

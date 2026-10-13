@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus pachyrhynus
+  displayName: Melanophryniscus pachyrhynus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9LY
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus pachyrhynus
+        zh: Melanophryniscus pachyrhynus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9LY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/400
+            queryName: Melanophryniscus pachyrhynus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/439
+            queryName: Melanophryniscus orejasmirandai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/351
+            queryName: Atelopus pachyrhynus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e1d3e263bf
+      - s-94ce9864a8
+      - s-b8d467b696
+      - s-bac7d9fafc
+      - s-5598545e13
+      - s-34e042fe9d
+      - s-db1b15c8dd
+    zh:
+      - s-7d9c663ce1
+      - s-4e50d6ede1
+      - s-85bda44b6b
+      - s-c99de6ef24
+      - s-5e4ef7eba1
+      - s-f0ab93b035
+      - s-150e18d7fc

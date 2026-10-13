@@ -1,0 +1,164 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Cacops aspidephorus
+    rank: species
+    sourceTaxonId: txn:56737
+    name:
+      en: Cacops aspidephorus
+      zh: Cacops aspidephorus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-3aaacc622c
+            part: body
+          zh:
+            page: zh
+            section: s-1ab877f3d8
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 3 PBDB occurrence rows and collection fields
+          zh: 3 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-7049102625
+            part: body
+          zh:
+            page: zh
+            section: s-119c6c5516
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Cacops aspidephorus
+          zh: Cacops aspidephorus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-472a742fcf
+            part: body
+          zh:
+            page: zh
+            section: s-e2b4977642
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:56737; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: S. W. Williston. 1910. Cacops, Desmospondylus; new genera of Permian vertebrates. Geological Society America Bulletin 21:249-284
+    occurrenceEvidence:
+      - occurrenceId: occ:296056
+        collectionId: col:28264
+        acceptedTaxonId: txn:56737
+        identifiedName: Cacops aspidephorus n. sp.
+        taxonomicDifference: null
+        referenceId: ref:9272
+        bibliography: S. W. Williston. 1910. Cacops, Desmospondylus; new genera of Permian vertebrates. Geological Society America Bulletin 21:249-284
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Baylor
+        stratigraphy:
+          group: Clear Fork
+          formation: Arroyo
+          member: null
+        olderAgeMa: 283.3
+        youngerAgeMa: 274.4
+      - occurrenceId: occ:384336
+        collectionId: col:36571
+        acceptedTaxonId: txn:56737
+        identifiedName: Cacops cf. aspidephorus
+        taxonomicDifference: null
+        referenceId: ref:7821
+        bibliography: "A. R. Milner. 1985. On the identity of Trematopsis seltini (Amphibia: Temnospondyli) from the Lower Permian of Texas. Neues Jahrbuch fuer Geologie und Palaeontologie. Monatshefte, Stuttgart : E. Schweizerbart'sche Verlagsbuchhandlung 1985(6):357-367"
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Baylor
+        stratigraphy:
+          group: Clear Fork
+          formation: Vale
+          member: null
+        olderAgeMa: 283.3
+        youngerAgeMa: 274.4
+      - occurrenceId: occ:1429175
+        collectionId: col:67735
+        acceptedTaxonId: txn:56737
+        identifiedTaxonId: txn:56734
+        identifiedName: Trematopsis seltini
+        taxonomicDifference: null
+        referenceId: ref:59144
+        bibliography: "E. C. Olson and J. G. Mead. 1982. The Vale Formation (Lower Permian): Its Vertebrates and Paleoecology. Texas Memorial Museum Bulletin 29"
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Taylor
+        stratigraphy:
+          group: null
+          formation: Vale
+          member: null
+        olderAgeMa: 283.3
+        youngerAgeMa: 274.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Cacops aspidephorus
+          zh: Cacops aspidephorus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-472a742fcf
+            part: body
+          zh:
+            page: zh
+            section: s-e2b4977642
+            part: body
+        sourceIds: []

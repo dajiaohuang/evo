@@ -1,0 +1,6 @@
+## A pointed leaf and four-petalled flower {#s-711d46b9ad}
+The Brazilian Flora 2020 v393.147 field describes star-shaped or tree-like hairs on young stems. Leaf blades may be elliptic, oblong or lance-shaped; their tips acuminate or tailed, bases heart-shaped, rounded or blunt, and margins fringed, toothed, finely serrate or minutely toothed. Three main veins and two faint veins near the edge are recorded. The lower surface has sparse to moderate hairs, listed as absent, star-shaped and sessile (attached directly), or tree-like. Flowers form compact clusters. Their hypanthium is bell-shaped; the calyx persists and closes over the bud, with irregular lobes. Each flower has four petals. The connective is not prolonged and lacks appendages; yellow anthers have one small pore, and the ovary is hairy. The source lists alternatives without saying how they relate to individuals or populations, so they should not be read as a measure of variation.
+
+## A terrestrial habitat record {#s-10b2d9d5c5}
+The habitat field records “terrícola,” or terrestrial. It gives no collection locality, survey date or range coverage and does not identify wild, cultivated, managed or fossil material. The entry is one source category rather than a complete ecological account.
+

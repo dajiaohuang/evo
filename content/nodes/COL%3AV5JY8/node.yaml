@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys chishuiensis
+  displayName: Boulenophrys chishuiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5JY8
+  sourceIndexes:
+    - name:
+        en: Boulenophrys chishuiensis
+        zh: Boulenophrys chishuiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5JY8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/335
+            queryName: Boulenophrys chishuiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/251
+            queryName: Megophrys chishuiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9644d60496
+      - s-9ad129bd4f
+      - s-7bed95936e
+      - s-8d33c0d930
+      - s-d201adbd52
+      - s-7dc25a91c9
+      - s-74ebde0bcd
+      - s-5fdb7a6248
+      - s-e98d32044a
+      - s-df8fe92ab1
+      - s-48d85f4db3
+    zh:
+      - s-bfa5c38bac
+      - s-da076ef9f5
+      - s-71e2ba1774
+      - s-a1bcf7d8a0
+      - s-62dc52f7ec
+      - s-8e60daea82
+      - s-41363a45ef
+      - s-21cf81572d
+      - s-2bbb046cd7
+      - s-edfa9c478f
+      - s-813ed656f7

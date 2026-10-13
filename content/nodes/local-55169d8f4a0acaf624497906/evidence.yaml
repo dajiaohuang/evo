@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Yunganastes bisignatus
+    name:
+      en: Yunganastes bisignatus
+      zh: Yunganastes bisignatus
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Yunganastes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Yunganastes bisignatus in the morphology deposit
+          zh: 形态数据中的 Yunganastes bisignatus 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-08534a4d5a
+            part: body
+          zh:
+            page: zh
+            section: s-0ee6ab0f97
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 6093 and 6094: measurement fields and sex codes"
+          zh: 第 6093、6094 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-264c9294f0
+            part: body
+          zh:
+            page: zh
+            section: s-2d468bee1d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 6093, 6094; Reference.csv rows 2062
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 6093
+        values:
+          - Brachycephaloidea
+          - Yunganastes
+          - Yunganastes bisignatus
+          - F
+          - "47.1"
+          - "17.6"
+          - "17.5"
+          - "5.7"
+          - "3.2"
+          - NA
+          - NA
+          - "4.6"
+          - NA
+          - "5.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "24.6"
+          - NA
+          - "25.9"
+          - "24.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.8"
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - "1.8"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 6094
+        values:
+          - Brachycephaloidea
+          - Yunganastes
+          - Yunganastes bisignatus
+          - M
+          - "31.6"
+          - "12.4"
+          - "12.6"
+          - "4.4"
+          - "1.9"
+          - NA
+          - NA
+          - "3.1"
+          - NA
+          - "3.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16.9"
+          - NA
+          - "19"
+          - "17.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.1"
+          - "1.1"
+          - NA
+          - NA
+          - NA
+          - "1.1"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2062
+        values:
+          - Anura
+          - Yunganastes_bisignatus
+          - "Padial, J. M., Castroviejo-Fisher, S., Kohler, J., Domic, E., & De la Riva, I. (2007). Systematics of the Eleutherodactylus fraudator species group (Anura : Brachycephalidae). Herpetological Monographs, 21, 213-240. https://doi.org/10.1655/06-007.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+      - Fin4DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

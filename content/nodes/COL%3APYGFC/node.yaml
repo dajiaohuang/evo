@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leucostethus siapida
+  displayName: Leucostethus siapida
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PYGFC
+  sourceIndexes:
+    - name:
+        en: Leucostethus siapida
+        zh: Leucostethus siapida
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PYGFC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/31
+            queryName: Leucostethus siapida
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8cff584a4a
+      - s-d73611b4ab
+      - s-9458c11465
+      - s-acee8fd04e
+      - s-5fb5683c7f
+      - s-ee2879fabf
+      - s-0c1cb61a6a
+      - s-44047d786a
+      - s-2d1086521c
+      - s-bef293b6f4
+      - s-8f4ef83e07
+      - s-09618342f3
+      - s-b934832990
+      - s-858d0692d3
+      - s-b609c356ac
+      - s-021a5c1769
+      - s-c1ffc4bdd7
+    zh:
+      - s-721d87b64f
+      - s-570b0adb45
+      - s-741992345d
+      - s-1df78746ce
+      - s-c0e34e28a6
+      - s-86220e381d
+      - s-43e23f8ef4
+      - s-e9ba70e76f
+      - s-88cd48fe36
+      - s-1ea7d32291
+      - s-8b7fa904b1
+      - s-6beb963324
+      - s-09e2acaaf2
+      - s-606f897a2c
+      - s-8a64d1d5a2
+      - s-c4886825f7
+      - s-d865c8d045

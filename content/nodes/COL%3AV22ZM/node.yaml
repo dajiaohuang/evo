@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stefania imawari
+  displayName: Stefania imawari
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V22ZM
+  sourceIndexes:
+    - name:
+        en: Stefania imawari
+        zh: Stefania imawari
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V22ZM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/300
+            queryName: Stefania imawari
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-307fda6341
+      - s-797cdf34c6
+      - s-73cb6ec83b
+      - s-3f03405387
+      - s-9e0cc0091e
+      - s-dab22d772e
+      - s-83d8a03116
+      - s-3adea325c1
+      - s-53896adb16
+      - s-f1b3a46eeb
+      - s-41674081bf
+      - s-c83c4b9c1c
+      - s-8481880cf1
+      - s-dfcab5b5b6
+      - s-1686edb3ea
+    zh:
+      - s-223825da4a
+      - s-2ab8a627d2
+      - s-1a10c2cefc
+      - s-2487440645
+      - s-147fd17724
+      - s-420ccbe6dc
+      - s-0058c69a12
+      - s-755bfe6f0d
+      - s-d557469bfb
+      - s-621759c20a
+      - s-aafeea0664
+      - s-84ebb198d9
+      - s-e9fb5424bf
+      - s-b29ae56ce9
+      - s-e5da490556

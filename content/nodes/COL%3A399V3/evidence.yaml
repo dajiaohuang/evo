@@ -1,0 +1,304 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eleutherodactylus wixarika Reyes-Velasco, Ahumada-Carrillo, Burkhardt & Devitt, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Eleutherodactylus wixarika
+      zh: Eleutherodactylus wixarika
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-37981d6c94
+            part: title
+          zh:
+            page: zh
+            section: s-28538c2b8d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-37981d6c94
+            part: body
+          zh:
+            page: zh
+            section: s-28538c2b8d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-18e67ffadc
+            part: title
+          zh:
+            page: zh
+            section: s-c5aaecbb52
+            part: title
+        text:
+          en:
+            page: en
+            section: s-18e67ffadc
+            part: body
+          zh:
+            page: zh
+            section: s-c5aaecbb52
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-386844ee7e
+            part: title
+          zh:
+            page: zh
+            section: s-5eb302dd44
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-386844ee7e
+            part: body
+          zh:
+            page: zh
+            section: s-5eb302dd44
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-356379f5434c6c86fe0fc2bb
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-ff3b362008
+            part: title
+          zh:
+            page: zh
+            section: s-ca08c7ab96
+            part: title
+        sourceIds:
+          - primary-pmc12070909-399v3
+        text:
+          en:
+            page: en
+            section: s-ff3b362008
+            part: body
+          zh:
+            page: zh
+            section: s-ca08c7ab96
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-4ae8f16ca0
+            part: title
+          zh:
+            page: zh
+            section: s-a62466f4ee
+            part: title
+        sourceIds:
+          - primary-pmc12070909-399v3
+        text:
+          en:
+            page: en
+            section: s-4ae8f16ca0
+            part: body
+          zh:
+            page: zh
+            section: s-a62466f4ee
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b0cd82994d
+            part: title
+          zh:
+            page: zh
+            section: s-ab1722a867
+            part: title
+        sourceIds:
+          - primary-pmc12070909-399v3
+        text:
+          en:
+            page: en
+            section: s-b0cd82994d
+            part: body
+          zh:
+            page: zh
+            section: s-ab1722a867
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Eleutherodactylus wixarika
+          url: https://www.checklistbank.org/dataset/316115/taxon/399V3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1804; Reference.csv rows 2201
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12070909-399v3
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Eleutherodactylus wixarika: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c7198beb4f
+        part: body
+      zh:
+        page: zh
+        section: s-d9022280b1
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-pmc12070909-399v3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 source-labelled Eleutherodactylus wixarika Reyes-Velasco, Ahumada-Carrillo, Burkhardt, & Devitt, 2015; exact accepted-name candidate, not independently certified biological equivalence
+        evidenceRead: "Eleutherodactylus wixarika: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A source-listed native regional occurrence
+              zh: 来源名册列出的区域原生出现
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-399v3
+            locator: PMC12070909 XML Table1 body row 30 Eleutherodactylus wixarika Reyes-Velasco, Ahumada-Carrillo, Burkhardt, & Devitt, 2015; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1fe8d77510
+                part: body
+              zh:
+                page: zh
+                section: s-4f73dfcb8e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: Distribution categories are dated checklist assignments
+              zh: 分布类别是有日期的名册分配
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-399v3
+            locator: PMC12070909 XML Table1 row 30 Global/Total columns and caption; Methods2.1; Results3.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-736d09900c
+                part: body
+              zh:
+                page: zh
+                section: s-23aadab296
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Three conservation systems retain distinct dates and meanings
+              zh: 三套保育体系保留不同日期与含义
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-399v3
+            locator: PMC12070909 XML Table1 row 30 IUCN/EVS/Mx columns and caption; Methods2.2; Results3.4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ca76f905a9
+                part: body
+              zh:
+                page: zh
+                section: s-0a55ad9ec8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

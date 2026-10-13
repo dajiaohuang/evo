@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-76e853b3d9
+      part: title
+    titleZh:
+      page: zh
+      section: s-d021913557
+      part: title
+    category: morphology
+    startAge: 193
+    endAge: 191
+    regions:
+      - Charmouth Mudstone Formation, Dorset, England
+    clades:
+      - Ornithischia
+      - Thyreophora
+    summary:
+      page: en
+      section: s-76e853b3d9
+      part: body
+    summaryZh:
+      page: zh
+      section: s-d021913557
+      part: body
+    claimIds:
+      - claim:event:scelidosaurus-r1111-dermal-skeleton
+    evidenceItems:
+      - statement: Lectotype NHMUK R1111 preserves skull, jaws, much of the postcranium and associated osteoderms; armour arrangement is directly constrained where association survives, whereas a keratinous covering, biology and stem-ankylosaur placement are comparative interpretations.
+        relation: supports
+        claimIds:
+          - claim:event:scelidosaurus-r1111-dermal-skeleton
+        referenceLinks:
+          - referenceId: norman-2021-scelidosaurus
+            relation: supports
+            pages: 1–86
+            figure: Figures 1–34; phylogenetic figures and appendices
+            quoteLocator: Lectotype; Dermal skeleton; Biology; Phylogenetic relationships
+    uncertaintyItems:
+      - statement: Missing armour and preparation history prevent a complete in-place map; placement is one analysis rather than an uncontested thyreophoran topology.
+        relation: contextualizes
+        claimIds:
+          - claim:event:scelidosaurus-r1111-dermal-skeleton
+        referenceLinks:
+          - referenceId: norman-2021-scelidosaurus
+            relation: supports
+            pages: 1–86
+            figure: Figures 1–34; phylogenetic figures and appendices
+            quoteLocator: Lectotype; Dermal skeleton; Biology; Phylogenetic relationships
+  claims:
+    - subjectId: event:scelidosaurus-r1111-dermal-skeleton
+      claimKind: scientific
+      claimType: morphology
+      statement: Lectotype NHMUK R1111 preserves skull, jaws, much of the postcranium and associated osteoderms; armour arrangement is directly constrained where association survives, whereas a keratinous covering, biology and stem-ankylosaur placement are comparative interpretations.
+      confidence: medium
+      confidenceRationale: The lectotype and associated osteoderms are well documented, but preparation losses, referred material, soft-tissue inference and matrix placement require explicit limits.
+      referenceLinks:
+        - referenceId: norman-2021-scelidosaurus
+          relation: supports
+          pages: 1–86
+          figure: Figures 1–34; phylogenetic figures and appendices
+          quoteLocator: Lectotype; Dermal skeleton; Biology; Phylogenetic relationships
+  claim-rationales.zh:
+    - 选模与伴生皮内骨记录充分，但制备损失、归入材料、软组织推断与矩阵位置必须保留明确边界。
+  claim-statements.zh:
+    - 选模 NHMUK R1111 保存头骨、下颌、大部分颅后骨架及伴生皮内骨；甲片排列在关联保存处有直接约束，而角质覆盖、生活方式与甲龙干群位置属于比较解释。

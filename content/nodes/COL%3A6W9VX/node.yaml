@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys bigibbosa
+  displayName: Proceratophrys bigibbosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W9VX
+  sourceIndexes:
+    - name:
+        en: Proceratophrys bigibbosa
+        zh: Proceratophrys bigibbosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W9VX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/209
+            queryName: Proceratophrys bigibbosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/308
+            queryName: Ceratophrys bigibbosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/401
+            queryName: Proceratophrys cristinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bde67a9774
+      - s-cec05dde6f
+      - s-1ad5c79387
+      - s-98dc3154bb
+      - s-bba9f6e85c
+      - s-5f88fdc86d
+      - s-6528708afe
+      - s-486eb77846
+      - s-c38bd1c0d6
+      - s-33a5e207f0
+      - s-3761fd4782
+      - s-b97165ddd1
+      - s-b551a7202e
+      - s-20b3c38c6a
+      - s-d3fb07c489
+      - s-ca5da7e064
+      - s-fc4a08413f
+      - s-b44f53f030
+      - s-32da3c1142
+      - s-4b089d4fe4
+    zh:
+      - s-c1a1b124c2
+      - s-a64af8587c
+      - s-3e3842a768
+      - s-d9a10c7c02
+      - s-c1ff9f859e
+      - s-2f21c199fd
+      - s-d2fc9826a5
+      - s-c746d78978
+      - s-1011317df0
+      - s-217a1d770d
+      - s-e3a022fa9a
+      - s-3612e1bf0e
+      - s-0bf799fc1e
+      - s-cf045d8f9e
+      - s-acce0c2df9
+      - s-2bf13e44d6
+      - s-d253f767ce
+      - s-66fb64db3a
+      - s-73ec016d86
+      - s-0357102810

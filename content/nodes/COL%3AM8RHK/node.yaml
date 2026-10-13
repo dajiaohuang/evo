@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa awajun
+  displayName: Bolitoglossa awajun
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M8RHK
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa awajun
+        zh: Bolitoglossa awajun
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M8RHK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/83
+            queryName: Bolitoglossa awajun
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6aa3d80990
+      - s-f8a1aa7cf3
+      - s-4086a8d8d1
+      - s-c82a3ea88c
+      - s-73240bdbbc
+    zh:
+      - s-7796252b8a
+      - s-13071152d7
+      - s-6fc60933b4
+      - s-9f956a3e1f
+      - s-7c9eed92d3

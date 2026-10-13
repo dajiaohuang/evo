@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mertensophryne micranotis
+  displayName: Mertensophryne micranotis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6RB3J
+  sourceIndexes:
+    - name:
+        en: Mertensophryne micranotis
+        zh: Mertensophryne micranotis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6RB3J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/436
+            queryName: Mertensophryne micranotis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/419
+            queryName: Bufo micranotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/240
+            queryName: Bufo micranotis micranotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/241
+            queryName: Bufo micranotis rondoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/242
+            queryName: Mertensophryne micranotis micranotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/243
+            queryName: Mertensophryne micranotis rondoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8cc76b86c7
+      - s-8b5ebe1902
+      - s-b4b29333d0
+      - s-b95d9a33c8
+      - s-2a09946c53
+      - s-5e360dd575
+      - s-05193944a9
+      - s-6daf4d0758
+      - s-5a5893d42d
+      - s-88d11f0104
+      - s-01c636a7b8
+      - s-e3e377e966
+      - s-d6a79c7945
+      - s-231cc718f5
+      - s-da66b93ec9
+      - s-9343d58996
+      - s-f104488660
+    zh:
+      - s-2df5e78cbf
+      - s-ac30959920
+      - s-c58abe623f
+      - s-0376d90d72
+      - s-70421a3d4d
+      - s-1675847e97
+      - s-62ec24f8e7
+      - s-f5742cb7e2
+      - s-7c3beacca6
+      - s-482a0e5da5
+      - s-49d6521783
+      - s-32050a0e82
+      - s-366f155852
+      - s-7da2839ce3
+      - s-829cce7ce9
+      - s-37bbd7a9e0
+      - s-0e150fee51

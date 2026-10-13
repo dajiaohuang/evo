@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes phuyenensis
+  displayName: Limnonectes phuyenensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q7RS8
+  sourceIndexes:
+    - name:
+        en: Limnonectes phuyenensis
+        zh: Limnonectes phuyenensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q7RS8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/126
+            queryName: Limnonectes phuyenensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6bb44438dc
+      - s-d1f4dadd90
+      - s-49603869aa
+      - s-a65c75021b
+      - s-66b638a579
+      - s-5b9d130b53
+      - s-56e6f5bdfc
+    zh:
+      - s-94ef74624f
+      - s-930062b49b
+      - s-1dfd1da148
+      - s-6df58c3005
+      - s-c985071163
+      - s-65fe17dac7
+      - s-f86c686db9

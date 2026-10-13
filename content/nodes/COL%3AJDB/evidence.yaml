@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cophylinae Cope, 1889
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Cophylinae
+      zh: Cophylinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7b974abb0c
+            part: title
+          zh:
+            page: zh
+            section: s-70cb052658
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7b974abb0c
+            part: body
+          zh:
+            page: zh
+            section: s-70cb052658
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3c50373f1c
+            part: title
+          zh:
+            page: zh
+            section: s-9fb41a46dd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3c50373f1c
+            part: body
+          zh:
+            page: zh
+            section: s-9fb41a46dd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-1f783864eb
+            part: title
+          zh:
+            page: zh
+            section: s-bed56706a8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62BDW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62BDW
+            label:
+              en: Anilany
+              zh: Anilany
+          - kind: catalogue
+            colId: 62BHW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62BHW
+            label:
+              en: Anodonthyla
+              zh: Anodonthyla
+          - kind: catalogue
+            colId: 3TP7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TP7
+            label:
+              en: Cophyla
+              zh: Cophyla
+          - kind: catalogue
+            colId: 5JXB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5JXB
+            label:
+              en: Madecassophryne
+              zh: Madecassophryne
+          - kind: catalogue
+            colId: 5TB5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5TB5
+            label:
+              en: Mini
+              zh: Mini
+          - kind: catalogue
+            colId: 6RYP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6RYP
+            label:
+              en: Platypelis
+              zh: Platypelis
+          - kind: catalogue
+            colId: 6SP2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6SP2
+            label:
+              en: Plethodontohyla
+              zh: Plethodontohyla
+          - kind: catalogue
+            colId: 63QCT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63QCT
+            label:
+              en: Rhombophryne
+              zh: Rhombophryne
+          - kind: catalogue
+            colId: 7PL8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7PL8
+            label:
+              en: Stumpffia
+              zh: Stumpffia
+        text:
+          en:
+            page: en
+            section: s-1f783864eb
+            part: body
+          zh:
+            page: zh
+            section: s-bed56706a8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cophylinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JDB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-73bf22fde9
+        part: body
+      zh:
+        page: zh
+        section: s-33c68d08e6
+        part: body

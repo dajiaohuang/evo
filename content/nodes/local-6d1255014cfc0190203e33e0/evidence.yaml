@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Onychodactylus koreanus
+    name:
+      en: Onychodactylus koreanus
+      zh: Onychodactylus koreanus
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Onychodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d365723eee
+            part: body
+          zh:
+            page: zh
+            section: s-5fa23e41e5
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-02ee196b6a
+            part: body
+          zh:
+            page: zh
+            section: s-76da66e6cf
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 251, 252; Reference.csv rows 4190
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 251
+        values:
+          - Hynobiidae
+          - Onychodactylus
+          - Onychodactylus koreanus
+          - M
+          - NA
+          - "66.5"
+          - NA
+          - "37.0405"
+          - "16.359"
+          - "11.2385"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "85.5855"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.0215"
+          - "21.28"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 252
+        values:
+          - Hynobiidae
+          - Onychodactylus
+          - Onychodactylus koreanus
+          - F
+          - NA
+          - "58.2"
+          - NA
+          - "27.9942"
+          - "12.8622"
+          - "9.1956"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "60.528"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.7934"
+          - "16.3542"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4190
+        values:
+          - Caudata
+          - Onychodactylus_koreanus
+          - "Poyarkov, J. N. A., Che, J., Min, M.-S., Kuro-O, M., Yan, F., Li, C., . . . Vieites, D. R. (2012). Review of the systematics, morphology and distribution of Asian Clawed Salamanders, genus Onychodactylus (Amphibia, Caudata: Hynobiidae), with the description of four new species. Zootaxa, 3465(1), 1-106. https://doi.org/10.11646/zootaxa.3465.1.1"
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 49R6F
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

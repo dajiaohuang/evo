@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Piliocolobus lulindicus Matschie, 1914
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ulindi River Red Colobus
+      zh: 乌林迪河红疣猴
+    sections:
+      - topic: nameBearingMaterial
+        sourceIds:
+          - turni2024RedColobusTypes
+        text:
+          zh:
+            page: zh
+            section: s-99b303370b
+            part: body
+          en:
+            page: en
+            section: s-24bfdc3026
+            part: body
+      - topic: additionalMaterialStatus
+        sourceIds:
+          - turni2024RedColobusTypes
+        text:
+          zh:
+            page: zh
+            section: s-d70385522e
+            part: body
+          en:
+            page: en
+            section: s-018e1eabcf
+            part: body
+      - topic: conceptCorrespondence
+        sourceIds:
+          - turni2024RedColobusTypes
+        text:
+          zh:
+            page: zh
+            section: s-4d73dfac10
+            part: body
+          en:
+            page: en
+            section: s-c60c72450e
+            part: body
+      - topic: taxonomy
+        text:
+          en:
+            page: en
+            section: s-341035976c
+            part: body
+          zh:
+            page: zh
+            section: s-3bbb9188e5
+            part: body
+        sourceIds:
+          - taxonomy
+          - lulindicus2020
+          - mdd_foai
+      - topic: distribution and habitat
+        text:
+          en:
+            page: en
+            section: s-98d66380be
+            part: body
+          zh:
+            page: zh
+            section: s-7b8bb5ce24
+            part: body
+        sourceIds:
+          - lulindicus2020
+        topicZh: distribution and habitat
+      - topic: population evidence in the 2020 assessment
+        text:
+          en:
+            page: en
+            section: s-6c0fddce79
+            part: body
+          zh:
+            page: zh
+            section: s-41952e3d6e
+            part: body
+        sourceIds:
+          - lulindicus2020
+        topicZh: population evidence in the 2020 assessment
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Piliocolobus lulindicus Matschie, 1914
+          url: https://www.checklistbank.org/dataset/316115/taxon/4HTQS
+          scope:
+            en: Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.
+            zh: 固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。
+      - id: lulindicus2020
+        referenceId: ref-b9d59fca-4510-8466-a9bc-968419593267
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Global 2020 Red List assessment under a separate-species treatment. It summarizes historical range boundaries, habitat observations, survey reports, threats, and an inferred decline; some cited 2018 survey data were unpublished, and its taxonomic concept is not resolved against the current MDD treatment or pinned COL26.8 ID.
+            zh: 以独立种处理该名称的 2020 年全球《红色名录》评估。评估汇总了历史分布界限、栖地观察、调查报告、威胁和下降推断；部分 2018 年调查数据未发表，其分类概念与当前 MDD 处理及固定 COL26.8 ID 的关系尚未解决。
+      - id: mdd_foai
+        referenceId: ref-5f129834-d83a-8638-a32d-de034fb5bfc4
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Current crosswalk source listing lulindicus among names treated under P. foai; this documents a classification difference from the pinned COL26.8 species record.
+            zh: 当前名称交叉表将 lulindicus 列在 P. foai 的相关名称中；此处用于记录它与固定 COL26.8 种级条目的分类差异。
+      - id: turni2024RedColobusTypes
+        referenceId: ref-fb75c3a3-0864-4560-8710-e3fee33c755d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Type specimens of Primates (Mammalia) in the collections of the Museum für Naturkunde Berlin
+          url: https://mapress.com/zt/article/download/zootaxa.5543.2.1/54941/69264
+          accessedAt: 2026-10-03
+          locator: PDF pp. 1–3 front matter/collector table/methods; red-colobus accounts PDF pp. 27–28, printed pp. 177–178. Layouts viewed pp. 27–28. No full 44-page or current physical inventory audit.
+          scope:
+            zh: 六种红疣猴的限定模式身份、历史原名归属与材料边界；属与族为比较入口。
+            en: Bounded type identity, historical-name placement and material limits for six red-colobus species; genus and tribe offer comparisons.
+    limitations:
+      en:
+        page: en
+        section: s-558d3a7327
+        part: body
+      zh:
+        page: zh
+        section: s-a41a872990
+        part: body

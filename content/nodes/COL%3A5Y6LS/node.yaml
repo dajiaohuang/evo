@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton magnipes
+  displayName: Chiropterotriton magnipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6LS
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton magnipes
+        zh: Chiropterotriton magnipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6LS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/299
+            queryName: Chiropterotriton magnipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0e55d14d0b
+      - s-2181f469ec
+      - s-1299783d38
+      - s-736ba8cc5e
+      - s-d552c6c599
+      - s-902243bb68
+      - s-d2af5dce07
+      - s-fc01bdbe85
+      - s-c5b74e3732
+      - s-85f59ccdf2
+      - s-8879cd1be8
+      - s-c38029f5f9
+      - s-f31f70a33a
+      - s-c7b26a3864
+      - s-5e042cb64a
+      - s-7cbd0bb9c2
+      - s-336ad79fdb
+      - s-6feee3bce9
+      - s-e814cf9d66
+      - s-987b76760d
+      - s-e835fed62b
+      - s-177b1ebda0
+      - s-839337ae39
+      - s-543108ac8e
+      - s-009faec3bd
+      - s-67b2c3fb1b
+      - s-931d82764a
+    zh:
+      - s-1e38b1f5de
+      - s-4902891eb1
+      - s-a7fb527d55
+      - s-1dd0c2d805
+      - s-4303e06589
+      - s-9b57f8846f
+      - s-9a6352904e
+      - s-410cd31b1f
+      - s-a26c26e1e4
+      - s-57f39bb914
+      - s-bb9cff98d6
+      - s-ca9642a7b1
+      - s-72cb0ad7d1
+      - s-09926203dc
+      - s-cac9c7fb09
+      - s-5321d7f5bc
+      - s-84ef4d6bef
+      - s-704884e6bf
+      - s-ba30df204e
+      - s-dbb635798e
+      - s-280b75654d
+      - s-7dd831f071
+      - s-324a8765b8
+      - s-3965702385
+      - s-9059aff396
+      - s-ea1e3ed089
+      - s-671a4c7028

@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius riggenbachi
+  displayName: Hyperolius riggenbachi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQYH
+  sourceIndexes:
+    - name:
+        en: Hyperolius riggenbachi
+        zh: Hyperolius riggenbachi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQYH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/328
+            queryName: Hyperolius riggenbachi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/326
+            queryName: Rappia riggenbachi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/327
+            queryName: Hyperolius hieroglyphicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/328
+            queryName: Hyperolius benueensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/72
+            queryName: Hyperolius riggenbachi riggenbachi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/73
+            queryName: Hyperolius riggenbachi hieroglyphicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-323cab67e0
+      - s-a3d39b39d1
+      - s-0f3cfb3ef9
+      - s-da59606818
+      - s-1cbeba3575
+      - s-26b99f6ae5
+      - s-ab8c7b54df
+      - s-d31ae94c71
+      - s-c0e33e41a9
+      - s-2e6d6c0676
+      - s-58b7074750
+      - s-0f85bb18fd
+      - s-e93e144490
+      - s-8d01f58642
+      - s-a3f5e87b3f
+      - s-74a9816932
+      - s-888adb6be2
+      - s-90d1378360
+      - s-0ff80dacdf
+    zh:
+      - s-234287fbf5
+      - s-13c5b3bb49
+      - s-c6372f1dab
+      - s-ea772d0fbc
+      - s-81f8226d02
+      - s-615cce4637
+      - s-f0f71a33b3
+      - s-6010524ada
+      - s-92424e2e9a
+      - s-32336fb4eb
+      - s-0e038ac599
+      - s-6e61b68422
+      - s-19414635b5
+      - s-7760e203ab
+      - s-7944fdd45e
+      - s-514291f6f0
+      - s-ca1682babd
+      - s-9cd40933e2
+      - s-c7dce51201

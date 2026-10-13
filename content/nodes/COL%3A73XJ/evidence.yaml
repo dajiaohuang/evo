@@ -1,0 +1,439 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudotriton Tschudi, 1838
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Pseudotriton
+      zh: Pseudotriton
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4a82bd8381
+            part: title
+          zh:
+            page: zh
+            section: s-d81a8635fe
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4a82bd8381
+            part: body
+          zh:
+            page: zh
+            section: s-d81a8635fe
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-640f47c257
+            part: title
+          zh:
+            page: zh
+            section: s-241535858a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-640f47c257
+            part: body
+          zh:
+            page: zh
+            section: s-241535858a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-15910c6604
+            part: title
+          zh:
+            page: zh
+            section: s-f5b7e0716b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-15910c6604
+            part: body
+          zh:
+            page: zh
+            section: s-f5b7e0716b
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c30a04e6eb
+            part: title
+          zh:
+            page: zh
+            section: s-6596eaa011
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c30a04e6eb
+            part: body
+          zh:
+            page: zh
+            section: s-6596eaa011
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-4ff270f31d
+            part: title
+          zh:
+            page: zh
+            section: s-df40171437
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6WHM7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6WHM7
+            label:
+              en: Pseudotriton diastictus
+              zh: Pseudotriton diastictus
+          - kind: catalogue
+            colId: 78HM7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A78HM7
+            label:
+              en: Pseudotriton flavissimus
+              zh: Pseudotriton flavissimus
+          - kind: catalogue
+            colId: 6WHM9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6WHM9
+            label:
+              en: Pseudotriton montanus
+              zh: Pseudotriton montanus
+          - kind: catalogue
+            colId: 6WHLW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6WHLW
+            label:
+              en: Pseudotriton ruber
+              zh: Pseudotriton ruber
+        text:
+          en:
+            page: en
+            section: s-4ff270f31d
+            part: body
+          zh:
+            page: zh
+            section: s-df40171437
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-6a31b2817c
+            part: title
+          zh:
+            page: zh
+            section: s-775493c43c
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-6a31b2817c
+            part: body
+          zh:
+            page: zh
+            section: s-775493c43c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10658874-73xj
+        title:
+          en:
+            page: en
+            section: s-29d853dd96
+            part: title
+          zh:
+            page: zh
+            section: s-fc2c3d0bf5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-29d853dd96
+            part: body
+          zh:
+            page: zh
+            section: s-fc2c3d0bf5
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10658874-73xj
+        title:
+          en:
+            page: en
+            section: s-38506bedbd
+            part: title
+          zh:
+            page: zh
+            section: s-4a67b749f4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-38506bedbd
+            part: body
+          zh:
+            page: zh
+            section: s-4a67b749f4
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10658874-73xj
+        title:
+          en:
+            page: en
+            section: s-74a46b2dfa
+            part: title
+          zh:
+            page: zh
+            section: s-af75290801
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6WHLW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6WHLW
+            label:
+              en: Pseudotriton ruber
+              zh: Pseudotriton ruber
+        text:
+          en:
+            page: en
+            section: s-74a46b2dfa
+            part: body
+          zh:
+            page: zh
+            section: s-af75290801
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pseudotriton
+          url: https://www.checklistbank.org/dataset/316115/taxon/73XJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Pseudotriton; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Pseudotriton; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-direct-group-pmc10658874-73xj
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pseudotriton ruber: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Historical adult parasite records for Pseudotriton ruber; no current voucherconcept equivalence certified
+            zh: Pseudotriton ruber 历史成体寄生虫记录；未认证当前凭证概念等价
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-51a4fd7a73
+        part: body
+      zh:
+        page: zh
+        section: s-0386f62e61
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Pseudotriton
+      sourceRowIds:
+        - Anf6483
+        - Anf6484
+        - Anf6485
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 2
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Pseudotriton montanus
+          path: content/nodes/local-22f44ab98f46f76ada3f9270
+        - scientificName: Pseudotriton ruber
+          path: content/nodes/local-cec4524f216da45c1b75bb09
+      metrics:
+        - metric: CTmax
+          rows: 2
+          sourceConcepts: 2
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true
+    primaryStudyScopes:
+      - doi: 10.1645/23-6
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        sourceKey: primary-direct-group-pmc10658874-73xj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10658874/article.xml
+        sourceConcept: Selected historical Pseudotriton hostlabels exactfixedname links; notgenus-wide biologicalsynthesis
+        evidenceRead: "Pseudotriton ruber: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Original bilingual factual summaries of a compiled literature checklist; no source prose, tables, identification key or illustrations reproduced, adapted or translated.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Historical adult cestode records in selected genus members
+              zh: 部分属成员的历史成体绦虫记录
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-direct-group-pmc10658874-73xj
+            locator: PMC10658874 XML s3j Pseudotriton hostentries and s3a/s3c–s3i numberedparasite entries; s2 scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8f0fc91fcb
+                part: body
+              zh:
+                page: zh
+                section: s-8211ec6cff
+                part: body
+            scope:
+              en: Historical adult parasite records for Pseudotriton ruber; no current voucherconcept equivalence certified
+              zh: Pseudotriton ruber 历史成体寄生虫记录；未认证当前凭证概念等价
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Historical host labels and reading scope
+              zh: 历史宿主标签与阅读范围
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-direct-group-pmc10658874-73xj
+            locator: PMC10658874 XML s3j named/unresolved Pseudotriton entries; s2/s3a methods and s5 conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9f65e83258
+                part: body
+              zh:
+                page: zh
+                section: s-0c036ffc16
+                part: body
+            scope:
+              en: Historical adult parasite records for Pseudotriton ruber; no current voucherconcept equivalence certified
+              zh: Pseudotriton ruber 历史成体寄生虫记录；未认证当前凭证概念等价
+    primaryResearchGroupSynthesisComplete: false

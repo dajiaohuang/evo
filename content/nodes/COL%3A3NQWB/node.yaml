@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius nasutus
+  displayName: Hyperolius nasutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQWB
+  sourceIndexes:
+    - name:
+        en: Hyperolius nasutus
+        zh: Hyperolius nasutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQWB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/297
+            queryName: Hyperolius nasutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/207
+            queryName: Hyperolius punctulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/170
+            queryName: Rappia nasuta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/171
+            queryName: Rappia punctulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/152
+            queryName: Hyperolius nasutus nasutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-473d2dc742
+      - s-18973aa0d2
+      - s-0bbfeb075c
+      - s-48dd0eb804
+      - s-2387a80e60
+      - s-5ef7f4531d
+      - s-45077fccb8
+      - s-267135c7b0
+      - s-27d59d8de7
+      - s-50e967fde9
+      - s-98460c5c32
+      - s-535eb5bf0c
+    zh:
+      - s-7ea250d4bb
+      - s-a344bf9141
+      - s-ab238e4ccb
+      - s-34d4187690
+      - s-4fd15bd0e7
+      - s-08cfd455e0
+      - s-045b18c6c3
+      - s-757d2fe00c
+      - s-25d6ba7d8a
+      - s-be00a9ed42
+      - s-9de8b52e02
+      - s-fadbf4fe03

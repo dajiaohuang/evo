@@ -1,0 +1,296 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phrynobatrachidae Laurent, 1941
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Phrynobatrachidae
+      zh: Phrynobatrachidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-98d9012e9d
+            part: title
+          zh:
+            page: zh
+            section: s-380bc6b3a1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-98d9012e9d
+            part: body
+          zh:
+            page: zh
+            section: s-380bc6b3a1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cebcbf4cec
+            part: title
+          zh:
+            page: zh
+            section: s-b70cffa0fa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cebcbf4cec
+            part: body
+          zh:
+            page: zh
+            section: s-b70cffa0fa
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c5c3e9ed9a
+            part: title
+          zh:
+            page: zh
+            section: s-e4eedce30c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c5c3e9ed9a
+            part: body
+          zh:
+            page: zh
+            section: s-e4eedce30c
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-76bdf55c2f
+            part: title
+          zh:
+            page: zh
+            section: s-8a3433bf9b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-76bdf55c2f
+            part: body
+          zh:
+            page: zh
+            section: s-8a3433bf9b
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-5a6dc0ed6e
+            part: title
+          zh:
+            page: zh
+            section: s-96f34202f1
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6PC3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6PC3
+            label:
+              en: Phrynobatrachus
+              zh: Phrynobatrachus
+        text:
+          en:
+            page: en
+            section: s-5a6dc0ed6e
+            part: body
+          zh:
+            page: zh
+            section: s-96f34202f1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phrynobatrachidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/625ZZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Phrynobatrachidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-94d887e75c
+        part: body
+      zh:
+        page: zh
+        section: s-eb62ec9f53
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Phrynobatrachidae
+      sourceRowIds:
+        - Anf4470
+        - Anf4471
+        - Anf4472
+        - Anf4473
+        - Anf4474
+        - Anf4475
+        - Anf4476
+        - Anf4477
+        - Anf4478
+        - Anf4479
+        - Anf4480
+        - Anf4481
+        - Anf4482
+        - Anf4483
+        - Anf4484
+        - Anf4485
+        - Anf4486
+        - Anf4487
+        - Anf4488
+        - Anf4489
+        - Anf4490
+        - Anf4491
+        - Anf4492
+        - Anf4493
+        - Anf4494
+        - Anf4495
+        - Anf4496
+        - Anf4497
+        - Anf4498
+        - Anf4499
+        - Anf4500
+        - Anf4501
+        - Anf4502
+        - Anf4503
+        - Anf4504
+        - Anf4505
+        - Anf4506
+        - Anf4507
+        - Anf4508
+        - Anf4509
+        - Anf4510
+        - Anf4511
+        - Anf4512
+        - Anf4513
+        - Anf4514
+        - Anf4515
+        - Anf4516
+        - Anf4517
+        - Anf4518
+        - Anf4519
+        - Anf4520
+        - Anf4521
+        - Anf4522
+        - Anf4523
+        - Anf4524
+        - Anf4525
+        - Anf4526
+        - Anf4527
+        - Anf4528
+        - Anf4529
+        - Anf4530
+        - Anf4531
+        - Anf4532
+        - Anf4533
+        - Anf4534
+        - Anf4535
+        - Anf4536
+        - Anf4537
+        - Anf4538
+        - Anf4539
+        - Anf4540
+        - Anf4541
+        - Anf4542
+        - Anf4543
+        - Anf4544
+        - Anf4545
+        - Anf4546
+        - Anf4547
+        - Anf4548
+        - Anf4549
+        - Anf4550
+        - Anf4551
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 78
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 69
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 3
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 1
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 69
+      currentConceptEquivalenceCertified: false

@@ -1,0 +1,238 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Daptocephalus leoniceps
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Daptocephalus leoniceps
+      en: Daptocephalus leoniceps
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1cb4a85743
+            part: body
+          en:
+            page: en
+            section: s-8555b76c53
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7bbb001cec
+            part: body
+          en:
+            page: en
+            section: s-f2eac60502
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1ef5ce32f2
+            part: body
+          en:
+            page: en
+            section: s-dd890deb8f
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-71efeee930
+            part: body
+          en:
+            page: en
+            section: s-d477565b90
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2fbae1c435
+            part: body
+          en:
+            page: en
+            section: s-28737ec8e4
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Daptocephalus leoniceps
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=56867&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:56867; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:56867
+          selectedOccurrenceIds:
+            - occ:1304577
+            - occ:1308694
+            - occ:1310107
+            - occ:1310110
+            - occ:1314056
+            - occ:1314299
+            - occ:1315266
+            - occ:1316957
+            - occ:1317926
+            - occ:1317947
+            - occ:1317949
+            - occ:1318075
+            - occ:1318076
+            - occ:1318077
+            - occ:1320334
+            - occ:1320335
+            - occ:1320445
+            - occ:1320446
+            - occ:1320668
+            - occ:1320669
+            - occ:1329020
+            - occ:1329039
+            - occ:1332770
+            - occ:1338341
+            - occ:1338351
+            - occ:1338441
+            - occ:1343639
+          selectedCollectionIds:
+            - col:174623
+            - col:175567
+            - col:80219
+            - col:176319
+            - col:80174
+            - col:80223
+            - col:80216
+            - col:177004
+            - col:175553
+            - col:177038
+            - col:177039
+            - col:177542
+            - col:176312
+            - col:177604
+            - col:86258
+            - col:178872
+            - col:179592
+            - col:80176
+            - col:177563
+            - col:180724
+            - col:181802
+          sourceReferenceIds:
+            - ref:27216
+            - ref:37442
+            - ref:58107
+            - ref:29040
+            - ref:51786
+            - ref:58370
+          originalIdentificationMappings:
+            - occurrenceId: occ:1310110
+              originalIdentifiedName: Dicynodon watsoni n. sp.
+              acceptedName: Daptocephalus leoniceps
+              difference: null
+            - occurrenceId: occ:1315266
+              originalIdentifiedName: Dicynodon daptocephaloides n. sp.
+              acceptedName: Daptocephalus leoniceps
+              difference: null
+            - occurrenceId: occ:1317949
+              originalIdentifiedName: Dicynodon osborni
+              acceptedName: Daptocephalus leoniceps
+              difference: null
+            - occurrenceId: occ:1318075
+              originalIdentifiedName: Dicynodon leoniceps n. sp.
+              acceptedName: Daptocephalus leoniceps
+              difference: recombined as
+            - occurrenceId: occ:1318077
+              originalIdentifiedName: Dicynodon leontocephalus n. sp.
+              acceptedName: Daptocephalus leoniceps
+              difference: null
+            - occurrenceId: occ:1320335
+              originalIdentifiedName: Dicynodon leontops n. sp.
+              acceptedName: Daptocephalus leoniceps
+              difference: null
+            - occurrenceId: occ:1320446
+              originalIdentifiedName: Dicynodon lissops n. sp.
+              acceptedName: Daptocephalus leoniceps
+              difference: null
+            - occurrenceId: occ:1320669
+              originalIdentifiedName: Dicynodon osborni n. sp.
+              acceptedName: Daptocephalus leoniceps
+              difference: null
+            - occurrenceId: occ:1338341
+              originalIdentifiedName: Dicynodon lissops
+              acceptedName: Daptocephalus leoniceps
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4f75864e16
+        part: body
+      en:
+        page: en
+        section: s-6661cb8b6e
+        part: body

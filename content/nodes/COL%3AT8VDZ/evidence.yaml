@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Stumpffia lynnae Mullin, Rakotomanga, Dawson, Glaw, Rakotoarison, Orozco-terWengel & Scherz, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Stumpffia lynnae
+      zh: Stumpffia lynnae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a180a6c455
+            part: title
+          zh:
+            page: zh
+            section: s-b959fb28fc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a180a6c455
+            part: body
+          zh:
+            page: zh
+            section: s-b959fb28fc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9861097d04
+            part: title
+          zh:
+            page: zh
+            section: s-b42dee2697
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9861097d04
+            part: body
+          zh:
+            page: zh
+            section: s-b42dee2697
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2aa616293f
+            part: title
+          zh:
+            page: zh
+            section: s-4f9f978f5b
+            part: title
+        sourceIds:
+          - primary-pmc9848859-t8vdz
+        text:
+          en:
+            page: en
+            section: s-2aa616293f
+            part: body
+          zh:
+            page: zh
+            section: s-4f9f978f5b
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-646b85121c
+            part: title
+          zh:
+            page: zh
+            section: s-afda9905a8
+            part: title
+        sourceIds:
+          - primary-pmc9848859-t8vdz
+        text:
+          en:
+            page: en
+            section: s-646b85121c
+            part: body
+          zh:
+            page: zh
+            section: s-afda9905a8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Stumpffia lynnae
+          url: https://www.checklistbank.org/dataset/316115/taxon/T8VDZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9848859-t8vdz
+        referenceId: ref-c466ee74-0e67-44ff-a91f-13ba045a464a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Stumpffia lynnae: Species distribution and natural-history accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-92d82e8728
+        part: body
+      zh:
+        page: zh
+        section: s-ff2fe51fca
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1104.82396
+        referenceId: ref-c466ee74-0e67-44ff-a91f-13ba045a464a
+        sourceKey: primary-pmc9848859-t8vdz
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9848859/article.xml
+        sourceConcept: Stumpffia lynnae
+        evidenceRead: "Stumpffia lynnae: Species distribution and natural-history accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Wet-season forest-floor records
+              zh: 湿季林地面记录
+            referenceId: ref-c466ee74-0e67-44ff-a91f-13ba045a464a
+            sourceKey: primary-pmc9848859-t8vdz
+            locator: "Stumpffia lynnae: Species distribution and natural-history accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a3fa0ead8c
+                part: body
+              zh:
+                page: zh
+                section: s-9e40227e1b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: An attributed bamboo-cavity egg record
+              zh: 归属本种的竹腔卵记录
+            referenceId: ref-c466ee74-0e67-44ff-a91f-13ba045a464a
+            sourceKey: primary-pmc9848859-t8vdz
+            locator: "Stumpffia lynnae: Species distribution and natural-history accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0a4eca2e7c
+                part: body
+              zh:
+                page: zh
+                section: s-b7498111b9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

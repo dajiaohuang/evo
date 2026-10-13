@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllomedusa sauvagii
+  displayName: Phyllomedusa sauvagii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7SG
+  sourceIndexes:
+    - name:
+        en: Phyllomedusa sauvagii
+        zh: Phyllomedusa sauvagii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7SG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/277
+            queryName: Phyllomedusa sauvagii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 92
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/15
+            queryName: Phyllomedusa rickettsii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/16
+            queryName: Pithecopus sauvagii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/114
+            queryName: Phyllomedusa sauvagii rickettsii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/115
+            queryName: Phyllomedusa sauvagii sauvagii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a168eb2258
+      - s-956de69f15
+      - s-af8e8b2eae
+      - s-0bc0aa2f88
+      - s-a90b6af03b
+      - s-10073373f7
+      - s-a292e9bea0
+      - s-7528bab2e8
+      - s-0d8c4ebe53
+      - s-a37a7b6051
+      - s-5096ff439f
+    zh:
+      - s-7dab458c5f
+      - s-067551ff7a
+      - s-6f7526f889
+      - s-651d008c49
+      - s-ce6e99c158
+      - s-7f1c3b6b3f
+      - s-f104c8baf2
+      - s-78e03cc9ea
+      - s-0f55d9f187
+      - s-568fb02bbe
+      - s-c21ddc8dec

@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus buenaventura
+  displayName: Nymphargus buenaventura
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JB
+  sourceIndexes:
+    - name:
+        en: Nymphargus buenaventura
+        zh: Nymphargus buenaventura
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/418
+            queryName: Nymphargus buenaventura
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/37
+            queryName: Cochranella buenaventura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d75008e70b
+      - s-a941e83680
+      - s-b3face990f
+      - s-b3c8c9b144
+      - s-5db4b9bbac
+      - s-f3ffcfa239
+      - s-f8a1f4d75f
+      - s-70d765d678
+      - s-661787d99c
+      - s-d12ea964e4
+      - s-3bdfda7e4e
+      - s-326aa1ab56
+      - s-7af433712d
+      - s-f750dcf90f
+      - s-6b66187757
+      - s-b5c47b89c0
+      - s-2fedc62bbe
+      - s-33136f1d8d
+      - s-5c0ee5b100
+      - s-ed861a6568
+      - s-5cabfe0da7
+      - s-296c93631f
+      - s-ad8e263c96
+      - s-d2544fd541
+    zh:
+      - s-3664743f82
+      - s-5b1d1787be
+      - s-063e0afbd1
+      - s-5cb3d7b40f
+      - s-62b1916d2e
+      - s-47a403d1a4
+      - s-6fa62489e5
+      - s-a3f5f42a42
+      - s-d185878d81
+      - s-7c9f6822d9
+      - s-90433bfafb
+      - s-856ebabbed
+      - s-1a4d5cc676
+      - s-f4b9cf230e
+      - s-d9ea08b022
+      - s-0b7aa2f231
+      - s-39745fb9b4
+      - s-43b1b5341a
+      - s-fa2cda78b9
+      - s-7e26821b58
+      - s-0d68e39a55
+      - s-78355b214e
+      - s-b57be87e4d
+      - s-9a27aa4320

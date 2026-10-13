@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Tylototriton vietnamensis
+    name:
+      en: Tylototriton vietnamensis
+      zh: Tylototriton vietnamensis
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Tylototriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9a0892ac3a
+            part: body
+          zh:
+            page: zh
+            section: s-09740e2bbf
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-10a696f415
+            part: body
+          zh:
+            page: zh
+            section: s-00c2c0e9f8
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 404; Reference.csv rows 4080
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 404
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton vietnamensis
+          - M
+          - "118.4"
+          - "50.66666667"
+          - NA
+          - NA
+          - "17.16666667"
+          - NA
+          - NA
+          - NA
+          - "4.133333333"
+          - NA
+          - "5.666666667"
+          - NA
+          - "63.13333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.16666667"
+          - "20.66666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4080
+        values:
+          - Caudata
+          - Tylototriton_vietnamensis
+          - "Böhme, W., Schöttler, T., Nguyen, T., & Köhler, J. (2005). A new species of salamander, genus Tylototriton (Urodela: Salamandridae), from northern Vietnam. Salamandra, 41, 215-220."
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - HL
+      - EN
+      - IND
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7DBJW
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

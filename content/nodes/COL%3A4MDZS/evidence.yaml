@@ -1,0 +1,143 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Printzia nutans (Bolus) Leins
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4MDZS, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4MDZS; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MDZS
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4MDZS
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000070274-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4MDZS / WFO wfo-0000070274
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_3208_0
+        referenceId: ref-2829a97c-03c0-8764-a50b-c59d637903c0
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Printzia nutans (Bolus) Leins account; archive rows 44529 (Morphology), 45170 (Diagnostic), source identifier 3208.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_16098_0
+        referenceId: ref-8087ee2c-ef43-8777-a5f4-779c0c682807
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Printzia nutans (Bolus) Leins account; archive rows 70019 (Habitat), source identifier 16098.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Ein meist einstengeliges, 40-60 cm grosses, ausdauerndes Kraut mit mehreren nickenden Köpfchen. Stengel bräunlich-grün, behaart, dicht beblättert, kaum verzweigt. Blätter verkehrt eiförmig, bis 20 x 8 cm, sitzend, geöhrt, beiderseits behaart (Drüsenhaare, fädige Gliederhaare), Rand flachbuchtig gezähnt. Köpfchen bis zu 5, an bis 4 cm langen, leicht gekrümmten Köpfchenstielen. Involucrum halbkugelig, 4- bis 5-reihig, 11-16 mm hoch, wenig kompakt erscheinend. Hüllschuppen blassgrün, krautig, ± stark behaart (Drüsenhaare, fädige Gliederhaare, ± steife Haare), die äussersten schmal dreieckig, 5 x 1.4 mm, vom Mittelnerv ± deutlich Seitennerven abzweigend, die inneren und innersten linealisch-lanzettlich, 12.8 x 1 mm und 12 x 0.8 mm, Rand hyalin, zerschlitzt, Spitzen gefranst, rotbraun. Zungenblüten 10-18, Ligula löffelförmig, 2.5 x 1.5 mm, blassgrün, 2- bis 3-zähnig oder 3-zipfelig, 4- bis 5-nervig, unterseits behaart (Drüsenhaare, steife Haare), stets Staminodien, gelegentlich Kronzipfelrudimente vorhanden - oder als Randblüten zygomorphe Röhrenblüten, 5-zipfelig, mit zurückgebildeten, funktionslosen Antheren. Scheibenblüten 36-69, Krone 8.30-11 mm lang, blassgrün, behaart (Haarformen der Zungenblüten). Pappus bestehend aus 38-45, bis 10.1 mm langen, barbellaten Borstenhaaren in 2-3 Kreisen, Borsten des äusseren Kreises teilweise kürzer und schwächer, zerschlitzt bis gezähnt. Achänen (noch nicht ganz reif) länglich, zylindrisch, 4.2 x 0.9 mm, braun, mit 9-10 Rippen, mit Drüsenhaaren und steifen Zwillingshaaren besetzt.
+            sourceIds:
+              - sanbi_3208_0
+            locator: "SANBI/WFO archive Morphology row 44529; source 3208.0; publication: Kroner, G. 1980. Systematische studien im umkreis von Athrixia Ker-Gawler (Asteraceae). Mitt. Bot. Staatssamml. München 16: 1 - 268. [http://www.biodiversitylibrary.org/item/52055#page/17/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: P. nutans ist das einzige Kraut der Gattung, ausserdem fällt die Pflanze durch die grossen, weichen Blätter sowie durch die Randblüten auf, die eine löffelförmige Ligula haben oder röhrenförmig und schwach zygomorph sind.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_3208_0
+            locator: "SANBI/WFO archive Diagnostic row 45170; source 3208.0; publication: Kroner, G. 1980. Systematische studien im umkreis von Athrixia Ker-Gawler (Asteraceae). Mitt. Bot. Staatssamml. München 16: 1 - 268. [http://www.biodiversitylibrary.org/item/52055#page/17/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mesic Grassland. Grassy mountain slopes, in shelter of rock outcrops.
+            sourceIds:
+              - sanbi_16098_0
+            locator: "SANBI/WFO archive Habitat row 70019; source 16098.0; publication: Herman, PPJ; Retief, E; Meyer, NL. 2017. Asteraceae. In: E Retief & NL Meyer (eds), Plants of the Free State: Inventory and identification guide, Strelitzia 38: 249 - 413. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-a37cceb5d9
+            part: title
+          zh:
+            page: zh
+            section: s-ec93e084d9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a37cceb5d9
+            part: body
+          zh:
+            page: zh
+            section: s-ec93e084d9
+            part: body

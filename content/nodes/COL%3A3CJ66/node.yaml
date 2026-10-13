@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Euparkerella brasiliensis
+  displayName: Euparkerella brasiliensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3CJ66
+  sourceIndexes:
+    - name:
+        en: Euparkerella brasiliensis
+        zh: Euparkerella brasiliensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3CJ66
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/387
+            queryName: Euparkerella brasiliensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/319
+            queryName: Sminthillus brasiliensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/320
+            queryName: Noblella brasiliensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-00c2e7100e
+      - s-bd2b1b06b6
+      - s-6914bae484
+      - s-087f30445a
+      - s-5ba590da17
+      - s-f05e94ed01
+      - s-44a54bcce2
+      - s-a7b548009c
+      - s-d4f9e68554
+      - s-ccb8e8765f
+      - s-eda133cf3f
+      - s-3d39afd6e6
+      - s-cdb6ecf39a
+      - s-a8ec353c1e
+      - s-6f7090b19c
+      - s-301a4eca57
+    zh:
+      - s-fc27423bc5
+      - s-da3e7499d0
+      - s-2032d49f16
+      - s-fac51bad5a
+      - s-fbe49a1a08
+      - s-025940c731
+      - s-4b49473611
+      - s-2d146b917b
+      - s-70714e803a
+      - s-c90b6558e3
+      - s-d2a0e09d5b
+      - s-68c5a00e90
+      - s-127e618652
+      - s-f8c6400bdb
+      - s-801279bc78
+      - s-6c98be6eed

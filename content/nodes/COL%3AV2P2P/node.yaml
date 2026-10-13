@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus maycu
+  displayName: Hyloscirtus maycu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V2P2P
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus maycu
+        zh: Hyloscirtus maycu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V2P2P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/59
+            queryName: Hyloscirtus maycu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d63651e473
+      - s-1fa4abf698
+      - s-dd71dff918
+      - s-b2362778bf
+      - s-b74d726fb3
+      - s-a73c9d6685
+      - s-fcd670a768
+      - s-b68534e005
+      - s-e531d78817
+    zh:
+      - s-d833e128c4
+      - s-599e9c7141
+      - s-31f5da7147
+      - s-80d1d916fa
+      - s-0a9d80a732
+      - s-e62cb8baff
+      - s-205a807653
+      - s-3c38f018e3
+      - s-3ad988c0a4

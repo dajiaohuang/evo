@@ -1,0 +1,254 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Megophrys robusta
+    name:
+      en: Megophrys robusta
+      zh: Megophrys robusta
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Megophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-409ffea6a3
+            part: body
+          zh:
+            page: zh
+            section: s-95a45f58a4
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f397eb0253
+            part: body
+          zh:
+            page: zh
+            section: s-ea7f40bf9b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3151, 3152; Reference.csv rows 806
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3151
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys robusta
+          - M
+          - "96.125"
+          - "37.475"
+          - "39.125"
+          - "10.1"
+          - "5.925"
+          - "9.2"
+          - "12.325"
+          - "11.925"
+          - "8.425"
+          - "5.55"
+          - "12.875"
+          - "6.6"
+          - "25.1"
+          - "22.95"
+          - "48.05"
+          - "45.43333333"
+          - NA
+          - "50"
+          - "47.325"
+          - "22.36666667"
+          - NA
+          - "5.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.45"
+          - "16.55"
+          - "10.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3152
+        values:
+          - Megophryidae
+          - Megophrys
+          - Megophrys robusta
+          - F
+          - "79.61666667"
+          - "30.78333333"
+          - "31.08333333"
+          - "9.8"
+          - "4.466666667"
+          - "6.766666667"
+          - "9.683333333"
+          - "9.65"
+          - "7.8"
+          - "5.016666667"
+          - "10.93333333"
+          - "6.216666667"
+          - "21.46666667"
+          - "17.96666667"
+          - "39.43333333"
+          - "37.96666667"
+          - NA
+          - "41.23333333"
+          - "38.68333333"
+          - "18.8"
+          - NA
+          - "5.04"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.783333333"
+          - "14.23333333"
+          - "9.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 806
+        values:
+          - Anura
+          - Megophrys_robusta
+          - "Mahony, S., Kamei, R. G., Teeling, E. C., & Biju, S. D. (2018). Cryptic diversity within the Megophrys major species group (Amphibia: Megophryidae) of the Asian Horned Frogs: Phylogenetic perspectives and a taxonomic revision of South Asian taxa, with descriptions of four new species. Zootaxa, 4523(1), 1-96. https://doi.org/10.11646/zootaxa.4523.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - IMT
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

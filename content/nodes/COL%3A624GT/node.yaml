@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphidae
+  displayName: Cycloramphidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/624GT
+  sourceIndexes:
+    - name:
+        en: Cycloramphidae
+        zh: Cycloramphidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 624GT
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/338
+            queryName: Cycloramphidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 65
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb16f976aa
+      - s-f0b6859b21
+      - s-e1ad022661
+      - s-c45c60aab7
+      - s-d8888c2437
+      - s-61b74612e5
+      - s-e8a9268c72
+    zh:
+      - s-34a9759b77
+      - s-51c599f11b
+      - s-cbd2738ebf
+      - s-f3eae37d76
+      - s-30edd2d421
+      - s-dba94386a2
+      - s-18d79f92aa

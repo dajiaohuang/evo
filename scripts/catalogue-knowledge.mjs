@@ -3,16 +3,71 @@ import assert from 'node:assert/strict'
 // Build one sparse, release-specific index. No invented species descriptions and
 // no need to retain millions of species nodes in memory while rolling up coverage.
 const DOSSIER_FACETS = ['morphology', 'lifeHistory', 'ecology', 'evolution', 'distribution', 'fossil', 'conservation']
-const FACET_STATUSES = ['supported', 'partially-supported', 'searched-no-evidence', 'conflicted', 'not-assessed']
+const FACET_STATUSES = ['supported', 'partially-supported', 'conflicted', 'not-assessed']
 const isNonEmptyText = value => typeof value === 'string' && value.trim().length > 0
 const isCalendarDate = value => {
   if (typeof value !== 'string' || value.length !== 10 || value[4] !== '-' || value[7] !== '-') return false
   const parsed = new Date(`${value}T00:00:00Z`)
   return !Number.isNaN(parsed.getTime()) && parsed.toISOString().slice(0, 10) === value
 }
-const hasReproducibleSearch = search => isCalendarDate(search?.date)
-  && ['scope', 'method', 'queryOrPath', 'inclusionCriteria', 'exclusionCriteria', 'searcher'].every(key => isNonEmptyText(search?.[key]))
+const isPublicationDate = value => {
+  if (value === 'undated') return true
+  if (typeof value !== 'string' || !/^[1-9]\d{3}(?:-(?:0[1-9]|1[0-2])(?:-\d{2})?)?$/.test(value)) return false
+  return value.length < 10 || isCalendarDate(value)
+}
 const isLanguageTag = value => typeof value === 'string' && /^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$/.test(value)
+const assertNoRetiredFields = (record, fields, label) => {
+  for (const field of fields) assert.ok(!Object.hasOwn(record, field), `Retired ${label} field ${field}`)
+}
+const RETIRED_PROFILE_FIELDS = ['checkedAt']
+const RETIRED_DOSSIER_FIELDS = ['checkedAt', 'completeness', 'systematicSearch']
+
+export function validateCatalogueDossier(dossier) {
+  assertNoRetiredFields(dossier, RETIRED_DOSSIER_FIELDS, 'dossier')
+  assert.ok(dossier.colId, 'Dossier is missing a COL identity')
+  assert.ok(dossier.identity?.method && dossier.identity?.scope, `Dossier identity method and scope required: ${dossier.colId}`)
+  assert.ok(dossier.lifeStatusScope?.wild && dossier.lifeStatusScope?.domesticated && dossier.lifeStatusScope?.fossil, `Dossier life-status scope required: ${dossier.colId}`)
+  assert.deepEqual(Object.keys(dossier.facets).sort(), [...DOSSIER_FACETS].sort(), `Dossier must assess all seven facets: ${dossier.colId}`)
+
+  const sourceIds = new Set(dossier.sources.map(source => source.id))
+  assert.equal(sourceIds.size, dossier.sources.length, `Duplicate dossier source ${dossier.colId}`)
+  for (const source of dossier.sources) {
+    assert.ok(isNonEmptyText(source.id), `Dossier source ID required: ${dossier.colId}`)
+    assert.match(source.url, /^https:\/\//, `Dossier source URL required: ${dossier.colId}`)
+    assert.ok(source.version && source.locator && source.license && source.scope, `Dossier source provenance incomplete: ${dossier.colId}/${source.id}`)
+    if (source.publishedAt !== undefined) assert.ok(isPublicationDate(source.publishedAt), `Invalid recorded publication date: ${dossier.colId}/${source.id}`)
+    if (source.accessedAt !== undefined) assert.ok(isCalendarDate(source.accessedAt), `Invalid recorded access date: ${dossier.colId}/${source.id}`)
+    if (source.licenseAssessment !== undefined) {
+      assert.ok(['item-level-verified', 'aggregate-declaration-only', 'identity-only', 'unknown'].includes(source.licenseAssessment), `Invalid source license assessment: ${dossier.colId}/${source.id}`)
+    }
+    if (source.licenseAssessment === 'item-level-verified') {
+      const recordedLicense = isNonEmptyText(source.license) && !/^(?:unknown|not[- ](?:assessed|recorded))\b/i.test(source.license.trim())
+      assert.ok(recordedLicense && isNonEmptyText(source.title), `Item-level rights metadata incomplete: ${dossier.colId}/${source.id}`)
+      for (const field of ['rightsHolder', 'licenseVersion', 'licenseAppliesTo', 'attribution']) {
+        if (source[field] !== undefined) assert.ok(isNonEmptyText(source[field]), `Invalid recorded rights field ${field}: ${dossier.colId}/${source.id}`)
+      }
+      if (source.licenseUrl !== undefined) assert.match(source.licenseUrl, /^https:\/\//, `Invalid recorded license URL: ${dossier.colId}/${source.id}`)
+    }
+  }
+  if (dossier.identity.sourceIds !== undefined) {
+    assert.ok(Array.isArray(dossier.identity.sourceIds) && dossier.identity.sourceIds.every(id => sourceIds.has(id)), `Unresolved dossier identity source: ${dossier.colId}`)
+  }
+  for (const [facet, assessment] of Object.entries(dossier.facets)) {
+    assertNoRetiredFields(assessment, ['search'], `facet ${facet}`)
+    assert.ok(FACET_STATUSES.includes(assessment.status), `Invalid ${facet} status in ${dossier.colId}`)
+    for (const claim of assessment.claims ?? []) {
+      assertNoRetiredFields(claim, ['translationStatus'], `claim in ${facet}`)
+      const hasEnglishText = isNonEmptyText(claim.text)
+      const hasChineseText = isNonEmptyText(claim.textZh)
+      assert.ok((hasEnglishText || hasChineseText) && claim.locator && claim.placeTimeScope && claim.lifeStatus, `Claim scope/locator/text incomplete: ${dossier.colId}/${facet}`)
+      if (claim.originalLanguage !== undefined) assert.ok(isLanguageTag(claim.originalLanguage), `Invalid original source language: ${dossier.colId}/${facet}`)
+      assert.ok(Array.isArray(claim.sourceIds) && claim.sourceIds.length > 0 && claim.sourceIds.every(id => sourceIds.has(id)), `Unresolved dossier source: ${dossier.colId}/${facet}`)
+    }
+    if (assessment.status === 'supported' || assessment.status === 'conflicted') assert.ok(assessment.claims?.length, `Evidence claims required for ${dossier.colId}/${facet}`)
+    if (assessment.status === 'partially-supported') assert.ok(assessment.claims?.length && assessment.gaps?.length, `Partial facet must disclose evidence and gaps: ${dossier.colId}/${facet}`)
+  }
+  return sourceIds
+}
 // Only source-declared field labels with a stable, narrow meaning are projected.
 // Generic "general", "description", "biology", and diagnostic fields stay unmapped.
 const SOURCE_TYPE_FACETS = new Map([
@@ -44,6 +99,7 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
     }
   }
   for (const profile of profiles.records) {
+    assertNoRetiredFields(profile, RETIRED_PROFILE_FIELDS, 'profile')
     const record = recordFor(profile.colId)
     assert.ok(!record.profile, `Duplicate profile ${profile.colId}`)
     assert.ok(profile.sections.length > 0 && profile.sources.length > 0)
@@ -56,53 +112,9 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
     record.profile = profile
   }
   for (const dossier of dossiers.records) {
-    assert.ok(dossier.colId, 'Dossier is missing a COL identity')
-    assert.ok(isCalendarDate(dossier.checkedAt), `Dossier checkedAt must be a real ISO calendar date: ${dossier.colId}`)
+    validateCatalogueDossier(dossier)
     const record = recordFor(dossier.colId)
     assert.ok(!record.dossier, `Duplicate dossier ${dossier.colId}`)
-    assert.ok(dossier.identity?.method && dossier.identity?.scope, `Dossier identity method and scope required: ${dossier.colId}`)
-    assert.ok(dossier.lifeStatusScope?.wild && dossier.lifeStatusScope?.domesticated && dossier.lifeStatusScope?.fossil, `Dossier life-status scope required: ${dossier.colId}`)
-    assert.deepEqual(Object.keys(dossier.facets).sort(), [...DOSSIER_FACETS].sort(), `Dossier must assess all seven facets: ${dossier.colId}`)
-    const sourceIds = new Set(dossier.sources.map(source => source.id))
-    assert.equal(sourceIds.size, dossier.sources.length, `Duplicate dossier source ${dossier.colId}`)
-    for (const source of dossier.sources) {
-      assert.match(source.url, /^https:\/\//, `Dossier source URL required: ${dossier.colId}`)
-      assert.ok(source.version && source.locator && source.license && source.scope, `Dossier source provenance incomplete: ${dossier.colId}/${source.id}`)
-      if (source.licenseAssessment !== undefined) assert.ok(['item-level-verified', 'aggregate-declaration-only', 'identity-only', 'unknown'].includes(source.licenseAssessment), `Invalid source license assessment: ${dossier.colId}/${source.id}`)
-    }
-    for (const [facet, assessment] of Object.entries(dossier.facets)) {
-      assert.ok(FACET_STATUSES.includes(assessment.status), `Invalid ${facet} status in ${dossier.colId}`)
-      for (const claim of assessment.claims ?? []) {
-        const hasChineseTranslation = typeof claim.textZh === 'string' && claim.textZh.trim().length > 0
-        assert.ok(claim.text && (hasChineseTranslation || claim.translationStatus === 'untranslated') && claim.locator && claim.placeTimeScope && claim.lifeStatus, `Claim scope/locator/translation incomplete: ${dossier.colId}/${facet}`)
-        if (claim.translationStatus === 'untranslated') assert.ok(!hasChineseTranslation, `Untranslated claim must not carry placeholder text: ${dossier.colId}/${facet}`)
-        if (claim.translationStatus === 'verified') assert.ok(hasChineseTranslation, `Verified translation is missing: ${dossier.colId}/${facet}`)
-        assert.ok(claim.sourceIds.length && claim.sourceIds.every(id => sourceIds.has(id)), `Unresolved dossier source: ${dossier.colId}/${facet}`)
-      }
-      if (assessment.status === 'supported' || assessment.status === 'conflicted') assert.ok(assessment.claims?.length, `Evidence claims required for ${dossier.colId}/${facet}`)
-      if (assessment.status === 'partially-supported') assert.ok(assessment.claims?.length && assessment.gaps?.length, `Partial facet must disclose evidence and gaps: ${dossier.colId}/${facet}`)
-      if (assessment.status === 'searched-no-evidence') assert.ok(hasReproducibleSearch(assessment.search), `Reproducible search protocol required for ${dossier.colId}/${facet}`)
-    }
-    assert.ok(['incomplete', 'complete'].includes(dossier.completeness?.status), `Dossier completeness status required: ${dossier.colId}`)
-    if (dossier.completeness.status === 'complete') {
-      assert.ok(DOSSIER_FACETS.every(facet => ['supported', 'searched-no-evidence', 'conflicted'].includes(dossier.facets[facet].status)), `Incomplete facet cannot count as complete: ${dossier.colId}`)
-      assert.ok(!DOSSIER_FACETS.some(facet => (dossier.facets[facet].claims ?? []).some(claim => claim.translationStatus === 'untranslated')), `Untranslated claims cannot count as complete: ${dossier.colId}`)
-      assert.ok(Array.isArray(dossier.identity.sourceIds) && dossier.identity.sourceIds.length > 0 && dossier.identity.sourceIds.every(id => sourceIds.has(id)), `Complete dossier identity must cite resolvable source IDs: ${dossier.colId}`)
-      const claimSourceIds = new Set(DOSSIER_FACETS.flatMap(facet => (dossier.facets[facet].claims ?? []).flatMap(claim => claim.sourceIds)))
-      assert.ok(claimSourceIds.size > 0, `Complete dossier must include source-linked biological claims: ${dossier.colId}`)
-      for (const facet of DOSSIER_FACETS) {
-        for (const claim of dossier.facets[facet].claims ?? []) {
-          assert.ok(isLanguageTag(claim.originalLanguage), `Complete claim must identify its source language: ${dossier.colId}/${facet}`)
-        }
-      }
-      for (const sourceId of claimSourceIds) {
-        const source = dossier.sources.find(item => item.id === sourceId)
-        assert.equal(source?.licenseAssessment, 'item-level-verified', `Claim source license is not verified at item level: ${dossier.colId}/${sourceId}`)
-        assert.ok(isNonEmptyText(source.stableId) && (source.publishedAt === 'undated' || isCalendarDate(source.publishedAt)) && isCalendarDate(source.accessedAt), `Claim source stable identity and publication/access dates required: ${dossier.colId}/${sourceId}`)
-        assert.ok(isNonEmptyText(source.rightsHolder) && isNonEmptyText(source.licenseVersion) && /^https:\/\//.test(source.licenseUrl ?? '') && isNonEmptyText(source.licenseAppliesTo) && isNonEmptyText(source.attribution), `Claim source item-level rights and attribution record required: ${dossier.colId}/${sourceId}`)
-      }
-      assert.ok(hasReproducibleSearch(dossier.systematicSearch), `Complete dossier requires a reproducible systematic search record: ${dossier.colId}`)
-    }
     record.dossier = dossier
   }
   const expected = new Set(records.keys())
@@ -113,11 +125,10 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
   const sourceFacetCounts = Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, 0]))
   let describedSpecies = 0
   let dossierSpecies = 0
-  let completeDossierSpecies = 0
   const facetCounts = Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}]))
   const add = (id, field, value = 1) => {
     if (!id) return
-    if (!direct.has(id)) direct.set(id, { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, completeDossierSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])), sourceFacetEvidenceSpecies: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, 0])) })
+    if (!direct.has(id)) direct.set(id, { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])), sourceFacetEvidenceSpecies: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, 0])) })
     direct.get(id)[field] += value
   }
   const addFacet = (id, facet, status) => {
@@ -154,7 +165,6 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
         assert.equal(node.rank, 'species', `Dossier rank ${node.id}`)
         assert.equal(node.status, 'accepted', `Dossier status ${node.id}`)
         dossierSpecies++
-        if (record.dossier.completeness.status === 'complete') completeDossierSpecies++
         for (const facet of DOSSIER_FACETS) {
           const status = record.dossier.facets[facet].status
           facetCounts[facet][status] = (facetCounts[facet][status] ?? 0) + 1
@@ -172,7 +182,6 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
       }
       if (record?.dossier) {
         add(node.parentId, 'dossierSpecies')
-        if (record.dossier.completeness.status === 'complete') add(node.parentId, 'completeDossierSpecies')
         for (const facet of DOSSIER_FACETS) addFacet(node.parentId, facet, record.dossier.facets[facet].status)
       }
     } else higher.set(node.id, node)
@@ -189,10 +198,10 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
     if (completed.has(id)) return records.get(id).subtree
     assert.ok(!visiting.has(id), `Hierarchy cycle at ${id}`)
     visiting.add(id)
-    const total = { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, completeDossierSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])), sourceFacetEvidenceSpecies: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, 0])), ...direct.get(id) }
+    const total = { acceptedSpecies: 0, describedSpecies: 0, profiledSpecies: 0, dossierSpecies: 0, dossierFacets: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, {}])), sourceFacetEvidenceSpecies: Object.fromEntries(DOSSIER_FACETS.map(facet => [facet, 0])), ...direct.get(id) }
     for (const childId of children.get(id) ?? []) {
       const child = rollup(childId)
-      for (const key of ['acceptedSpecies', 'describedSpecies', 'profiledSpecies', 'dossierSpecies', 'completeDossierSpecies']) total[key] += child[key]
+      for (const key of ['acceptedSpecies', 'describedSpecies', 'profiledSpecies', 'dossierSpecies']) total[key] += child[key]
       for (const facet of DOSSIER_FACETS) total.sourceFacetEvidenceSpecies[facet] += child.sourceFacetEvidenceSpecies[facet]
       // "not-assessed" is derived at this node from its accepted-species total.
       // Summing children's derived gaps here would count them as assessed twice.
@@ -212,12 +221,12 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
   }
   for (const id of higher.keys()) rollup(id)
   for (const facet of DOSSIER_FACETS) {
-    const assessed = Object.values(facetCounts[facet]).reduce((sum, count) => sum + count, 0)
+    const assessed = Object.entries(facetCounts[facet]).reduce((sum, [status, count]) => sum + (status === 'not-assessed' ? 0 : count), 0)
     assert.ok(assessed <= (ranks.species ?? 0), `Facet count exceeds accepted species for ${facet}`)
     facetCounts[facet]['not-assessed'] = (ranks.species ?? 0) - assessed
   }
   return {
     records: [...records.values()].map(record => ({ ...record, descriptionCollections: record.descriptionCollections.sort() })).sort((a, b) => a.colId.localeCompare(b.colId)),
-    counts: { hierarchyNodes: Object.values(ranks).reduce((a, b) => a + b, 0), ranks, describedSpecies, profilesByRank, sourceFacetEvidenceSpecies: sourceFacetCounts, dossierSpecies, completeDossierSpecies, dossierFacets: facetCounts },
+    counts: { hierarchyNodes: Object.values(ranks).reduce((a, b) => a + b, 0), ranks, describedSpecies, profilesByRank, sourceFacetEvidenceSpecies: sourceFacetCounts, dossierSpecies, dossierFacets: facetCounts },
   }
 }

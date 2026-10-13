@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhombophryne
+  displayName: Rhombophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63QCT
+  sourceIndexes:
+    - name:
+        en: Rhombophryne
+        zh: Rhombophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63QCT
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/230
+            queryName: Rhombophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 171
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fff2e3756b
+      - s-c5e4efcaec
+      - s-9247d8200b
+      - s-f2486be1b1
+      - s-a405c99d69
+      - s-dd879de192
+      - s-e45ed0c27d
+    zh:
+      - s-ef18fe8279
+      - s-818007c4a9
+      - s-fdbe901fee
+      - s-a3acd9dca7
+      - s-8779b2a64d
+      - s-f8447e78ff
+      - s-887086d983

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus leali
+  displayName: Dendropsophus leali
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S5S
+  sourceIndexes:
+    - name:
+        en: Dendropsophus leali
+        zh: Dendropsophus leali
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S5S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/376
+            queryName: Dendropsophus leali
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/373
+            queryName: Hyla leali
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-420bab90bb
+      - s-d9e1259cb3
+      - s-2faa9aa5eb
+      - s-b815bb49c4
+      - s-ebf40b4608
+      - s-7bfbe069ef
+      - s-09b62e432c
+      - s-905e6f9f3a
+      - s-7c6607b5df
+      - s-e4b2304a49
+    zh:
+      - s-534113dea8
+      - s-53fc9bccb5
+      - s-fd24e84ef0
+      - s-04b24c0d14
+      - s-dadc6b8ccc
+      - s-1d6fca760f
+      - s-a6d0fa6e76
+      - s-813ecb8d03
+      - s-b0c183dce9
+      - s-66fc7fe90f

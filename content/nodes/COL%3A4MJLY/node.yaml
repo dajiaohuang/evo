@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pseudoacuminatus
+  displayName: Pristimantis pseudoacuminatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJLY
+  sourceIndexes:
+    - name:
+        en: Pristimantis pseudoacuminatus
+        zh: Pristimantis pseudoacuminatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJLY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/18
+            queryName: Pristimantis pseudoacuminatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/167
+            queryName: Eleutherodactylus pseudoacuminatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-30a3840c87
+      - s-241bb8109c
+      - s-9b5cfd4d76
+      - s-fdbe21f2f9
+      - s-5aa8a4990e
+      - s-4ffa545bd3
+      - s-d8a4fc310a
+      - s-db5eb152f4
+      - s-1b3bc5a917
+      - s-dc54f311b2
+      - s-9fc96259ed
+    zh:
+      - s-708abc83e7
+      - s-1785c05a6e
+      - s-186eab53c3
+      - s-da2bc25722
+      - s-d622209da7
+      - s-2928c4000f
+      - s-a05682b108
+      - s-7cb155482c
+      - s-dfc0d4dbdb
+      - s-6ad1d9b36f
+      - s-675fbaf654

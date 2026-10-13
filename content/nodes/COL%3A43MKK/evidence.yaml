@@ -1,0 +1,105 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mirza zaza Kappeler & Roos in Kappeler, Rasoloarison, Razafimanantsoa, Walter & Roos, 2005
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Northern Giant Mouse Lemur
+      zh: 北部巨鼠狐猴
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-671a13fee7
+            part: body
+          zh:
+            page: zh
+            section: s-540324b1f0
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_label
+      - topic: nestGroups
+        text:
+          en:
+            page: en
+            section: s-478c51672c
+            part: body
+          zh:
+            page: zh
+            section: s-aa603de7e7
+            part: body
+        sourceIds:
+          - rode2013
+      - topic: localDensity
+        text:
+          en:
+            page: en
+            section: s-aeb49f3a76
+            part: body
+          zh:
+            page: zh
+            section: s-7d5a7aae48
+            part: body
+        sourceIds:
+          - hending2024
+    sources:
+      - id: taxonomy
+        referenceId: ref-35a4cdc4-9dc4-8f29-aea4-d52c913f53a6
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins the accepted COL26.8 species identity, authorship, rank and parent genus.
+            zh: 固定 COL26.8 接受种身份、作者、等级与父属。
+      - id: mdd_label
+        referenceId: ref-e0f92e87-be0d-8182-a256-a94848390b91
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supplies the English display name; COL26.8 remains the page identity.
+            zh: 提供英文显示名；页面身份仍按 COL26.8 固定。
+      - id: rode2013
+        referenceId: ref-18ceac68-0eeb-88f2-a9bb-78b4400e81e1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Radio-tracking and nest observations of eight animals at Ankarafa Forest during 2.5 dry-season months.
+            zh: 在 Ankarafa 森林对八只动物进行 2.5 个月旱季无线电跟踪与巢点观察。
+      - id: hending2024
+        referenceId: ref-bdee28a2-752e-8157-ac9b-35d552f9dd2a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Transect-based local density estimates from two Sahamalaza forests, March 2019–May 2022; repeated detections may occur.
+            zh: 2019 年 3 月至 2022 年 5 月对 Sahamalaza 两片森林进行样线密度估算；可能重复记录同一动物。
+    limitations:
+      en:
+        page: en
+        section: s-f5a3c848e6
+        part: body
+      zh:
+        page: zh
+        section: s-59da8547ff
+        part: body

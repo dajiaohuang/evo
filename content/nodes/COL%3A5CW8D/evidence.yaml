@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Zantedeschia odorata P.L.Perry
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 5CW8D, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 5CW8D; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/5CW8D
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 5CW8D
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000335172-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 5CW8D / WFO wfo-0000335172
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_2964_0
+        referenceId: ref-8a74163e-fc21-8df9-a183-19e8213e9713
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Zantedeschia odorata P.L.Perry account; SANBI/WFO archive rows 79509 (Morphology), 79038 (Habitat), 78199 (Diagnostic), source identifier 2964.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Deciduous perennial herb up to 0.75 m tall. Rhizome tuberous, erect, ovoid to pyriform; up to 40 mm long and 25 mm wide; skin light fawn-coloured with thin chestnut-brown scales, cream-coloured internally; lateral buds give rise to daughter tubers. Roots numerous arising from the lower half of the rhizome, more basal ones becoming contractile towards the end of the growing season. Leaves erect, 2-3, up to 600 mm long; petiole up to 280 mm long and 10 mm wide, winged and partially sheathing for about 100 mm at the base, semi-terete above, light green, spongy; lamina broadly ovate- cordate up to 270 mm from petiole insertion to apex and 350 mm from lobes to apex, 80-160 mm wide, apex obtuse or acute, often ending in a curved apiculus about 15 mm long, green, immaculate, conspicuously veined. Peduncle erect, up to 550 mm long and 15 mm wide at the base, roughly triangular in cross section, light green, spongy, upper part becoming flaccid as fruit ripens and bending to the ground. Spathe up to 125 mm long and 80 mm wide, ovate, basally folded from below the insertion of the spadix with edges slightly overlapping for about 40 mm, spreading above, green abaxially shading to milk- white towards the apex, milk-white adaxially with a curved green apiculus about 20 mm long; margins somewhat undulate. Spadix shortly cylindrical up to 35 mm long on a stout stipe 8-10 mm long and 5-6 mm diameter. Male zone apical up to 25 mm long and about 12 mm wide towards the base tapering to 7 mm apically. Anthers yellow, about 1.5 mm in diameter with two pores producing strings of white pollen. Female zone basal, about 10 mm long and 13 mm wide. Ovaries broadly ovoid to globose about 3 mm long and wide, pale green, interspersed with staminodes. Style 0.75 mm long, white. Stigma rounded, white, becoming brown with age. Ovules up to 12 in 3 locules, pear-shaped, about 1 mm long, soft, white. Fruits up to 35 in a cluster about 75 mm long and 40 mm wide partially surrounded by the spathe remains; each fruit about 13 mm in diameter, firm, green, with a persistent style 1-2 mm long; becoming fawn and soft as they wither on the ground. Seed irregularly ovoid, 4-5 mm long and 3-4 mm wide, light chestnut-brown, 3-4 per fruit.
+            textZh: Zantedeschia odorata P.L.Perry 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_2964_0
+            locator: "SANBI/WFO archive Morphology row 79509; source identifier 2964.0; cited publication: Perry, PL. 1989. A new species of Zantedeschia (Araceae) from the western Cape. S. African J. Bot. 55(4): 447 - 451. [Copyright held by the South African Association of Botanists (1989); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Z. odorata may be separated from Z. aethiopica, the only other species occurring in the Cape, by the comparatively narrow, undulate spathe, the considerably shorter spadix borne on a distinct stipe and the larger green fruits which bend to the ground on ripening. It also has a much shorter flowering season.
+            textZh: SANBI 条目提供了 Zantedeschia odorata P.L.Perry 的鉴别特征。
+            sourceIds:
+              - sanbi_2964_0
+            locator: "SANBI/WFO archive Diagnostic row 78199; source identifier 2964.0; cited publication: Perry, PL. 1989. A new species of Zantedeschia (Araceae) from the western Cape. S. African J. Bot. 55(4): 447 - 451. [Copyright held by the South African Association of Botanists (1989); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Koppies are formed of large doleritic boulders which break down to form a red clay soil which retains water well in the rainy season. The plants grow in the crevices between the boulders, where the lower part of the plant at least is in cool shade. The roots are in seasonally very wet soil or sometimes in standing water.
+            textZh: 该 SANBI 区域物种条目记录的生境：Koppies are formed of large doleritic boulders which break down to form a red clay soil which retains water well in the rainy season. The plants grow in the crevices between the boulders, where the lower part of the plant at least is in cool shade. The roots are in seasonally very wet soil or sometimes in standing water.
+            sourceIds:
+              - sanbi_2964_0
+            locator: "SANBI/WFO archive Habitat row 79038; source identifier 2964.0; cited publication: Perry, PL. 1989. A new species of Zantedeschia (Araceae) from the western Cape. S. African J. Bot. 55(4): 447 - 451. [Copyright held by the South African Association of Botanists (1989); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

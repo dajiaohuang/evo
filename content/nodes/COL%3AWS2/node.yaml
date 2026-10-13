@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus
+  displayName: Anomaloglossus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/WS2
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus
+        zh: Anomaloglossus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: WS2
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/167
+            queryName: Anomaloglossus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 53
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c07deb1ae1
+      - s-7c29d613a0
+      - s-6d0e7f295a
+      - s-96c6e66bff
+      - s-d4fd41cd79
+      - s-5d3366a351
+      - s-51f6ce8d34
+      - s-84fe2d9c4b
+      - s-25d9fa4bfc
+      - s-b70532d939
+      - s-2008cffdde
+      - s-7ad3606406
+      - s-35ecd2a66f
+      - s-630c08ce41
+      - s-99c15f28d2
+      - s-b97fd0cc7a
+      - s-e06fdadd85
+      - s-69d030e6fa
+    zh:
+      - s-8f7f575175
+      - s-3a5a8dbf56
+      - s-9a7f21a31d
+      - s-47a513ec42
+      - s-7236e04d73
+      - s-b238d086ff
+      - s-d0caa719eb
+      - s-fdfb741321
+      - s-2649c69615
+      - s-50efcadfd3
+      - s-34684b01b1
+      - s-86c7335ada
+      - s-f23838472e
+      - s-40779b8ba5
+      - s-c15698d3b2
+      - s-e4b73ed92d
+      - s-3ab00a0d17
+      - s-ae3d118ebe

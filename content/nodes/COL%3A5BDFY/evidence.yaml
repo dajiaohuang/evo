@@ -1,0 +1,459 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Vietnamophryne occidentalis Poyarkov, Suwannapoom, Pawangkhanant, Aksornneam, Duong, Korost & Che, 2018
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Vietnamophryne occidentalis
+      zh: Vietnamophryne occidentalis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-841f8c4a15
+            part: title
+          zh:
+            page: zh
+            section: s-b8e912f1bd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-841f8c4a15
+            part: body
+          zh:
+            page: zh
+            section: s-b8e912f1bd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-44664aa86f
+            part: title
+          zh:
+            page: zh
+            section: s-dbc48b64a5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-44664aa86f
+            part: body
+          zh:
+            page: zh
+            section: s-dbc48b64a5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cf20462d03
+            part: title
+          zh:
+            page: zh
+            section: s-60e56872bf
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-cf20462d03
+            part: body
+          zh:
+            page: zh
+            section: s-60e56872bf
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-f305018ae44c69c28372e242
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-010c9f1024
+            part: title
+          zh:
+            page: zh
+            section: s-5aacd3c682
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-010c9f1024
+            part: body
+          zh:
+            page: zh
+            section: s-5aacd3c682
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cc4ed3a482
+            part: title
+          zh:
+            page: zh
+            section: s-290aeb919e
+            part: title
+        sourceIds:
+          - primary-pmc5968859-5bdfy
+        text:
+          en:
+            page: en
+            section: s-cc4ed3a482
+            part: body
+          zh:
+            page: zh
+            section: s-290aeb919e
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-e3978bf090
+            part: title
+          zh:
+            page: zh
+            section: s-bc1cd6c3de
+            part: title
+        sourceIds:
+          - primary-pmc5968859-5bdfy
+        text:
+          en:
+            page: en
+            section: s-e3978bf090
+            part: body
+          zh:
+            page: zh
+            section: s-bc1cd6c3de
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1320cee070
+            part: title
+          zh:
+            page: zh
+            section: s-83e5f20ba2
+            part: title
+        sourceIds:
+          - primary-pmc5968859-5bdfy
+        text:
+          en:
+            page: en
+            section: s-1320cee070
+            part: body
+          zh:
+            page: zh
+            section: s-83e5f20ba2
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-964c11b5cf
+            part: title
+          zh:
+            page: zh
+            section: s-8275d8cfe0
+            part: title
+        sourceIds:
+          - primary-pmc5968859-5bdfy
+        text:
+          en:
+            page: en
+            section: s-964c11b5cf
+            part: body
+          zh:
+            page: zh
+            section: s-8275d8cfe0
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-5cbf5fb6c3
+            part: title
+          zh:
+            page: zh
+            section: s-2e8382d310
+            part: title
+        sourceIds:
+          - primary-pmc5968859-5bdfy
+        text:
+          en:
+            page: en
+            section: s-5cbf5fb6c3
+            part: body
+          zh:
+            page: zh
+            section: s-2e8382d310
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e0ce474e15
+            part: title
+          zh:
+            page: zh
+            section: s-40ebc282cc
+            part: title
+        sourceIds:
+          - primary-pmc5968859-5bdfy
+        text:
+          en:
+            page: en
+            section: s-e0ce474e15
+            part: body
+          zh:
+            page: zh
+            section: s-40ebc282cc
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Vietnamophryne occidentalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/5BDFY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 6006; Reference.csv rows 1483
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc5968859-5bdfy
+        referenceId: ref-6a2f8e02-ac6c-4742-a277-1e544482a13e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Vietnamophryne occidentalis: Selected original species diagnoses, individual live colours, type labels, natural-history encounters, distribution and dated conservation proposals; selected genus mitochondrial placement; no full article, figure or supplementary-data reproduction; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c19094b435
+        part: body
+      zh:
+        page: zh
+        section: s-28af1d2232
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-f305018ae44c69c28372e242
+        scientificName: Vietnamophryne occidentalis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2018.019
+        referenceId: ref-6a2f8e02-ac6c-4742-a277-1e544482a13e
+        sourceKey: primary-pmc5968859-5bdfy
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5968859/article.xml
+        sourceConcept: Vietnamophryne occidentalis
+        evidenceRead: "Vietnamophryne occidentalis: Selected original species diagnoses, individual live colours, type labels, natural-history encounters, distribution and dated conservation proposals; selected genus mitochondrial placement; no full article, figure or supplementary-data reproduction; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY (version not specified in article XML)
+          licenseUrl: https://creativecommons.org/licenses/by/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Twenty-point-five millimetres is the single preserved male
+              zh: 20.5 毫米来自唯一保存雄性
+            referenceId: ref-6a2f8e02-ac6c-4742-a277-1e544482a13e
+            sourceKey: primary-pmc5968859-5bdfy
+            locator: PMC5968859 reading-sections section 1 paragraphs 60–61
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-559e925c17
+                part: body
+              zh:
+                page: zh
+                section: s-5109967393
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: The live holotype has a bright orange-red underside
+              zh: 活体正模具有鲜橙红腹面
+            referenceId: ref-6a2f8e02-ac6c-4742-a277-1e544482a13e
+            sourceKey: primary-pmc5968859-5bdfy
+            locator: PMC5968859 reading-sections section 1 paragraphs 66
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b1dd70e29c
+                part: body
+              zh:
+                page: zh
+                section: s-f2da3e2940
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Daytime encounters after rain do not establish a fixed daily schedule
+              zh: 雨后白天遇见不确定固定昼夜日程
+            referenceId: ref-6a2f8e02-ac6c-4742-a277-1e544482a13e
+            sourceKey: primary-pmc5968859-5bdfy
+            locator: PMC5968859 reading-sections section 1 paragraphs 60, 68, 70
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b9cbe6e4de
+                part: body
+              zh:
+                page: zh
+                section: s-5a5cb68123
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: distribution
+            heading:
+              en: Doi Tung records do not confirm adjacent Myanmar occupancy
+              zh: Doi Tung 记录不确认邻近 Myanmar 占据
+            referenceId: ref-6a2f8e02-ac6c-4742-a277-1e544482a13e
+            sourceKey: primary-pmc5968859-5bdfy
+            locator: PMC5968859 reading-sections section 1 paragraphs 73–74
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0bece06f2a
+                part: body
+              zh:
+                page: zh
+                section: s-e545909759
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: conservation
+            heading:
+              en: One voucher and one encounter underpin a dated proposal
+              zh: 一个凭证与一次遇见支持有日期建议
+            referenceId: ref-6a2f8e02-ac6c-4742-a277-1e544482a13e
+            sourceKey: primary-pmc5968859-5bdfy
+            locator: PMC5968859 reading-sections section 1 paragraphs 70, 74
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bda5099d26
+                part: body
+              zh:
+                page: zh
+                section: s-a741bb5532
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: taxonomy
+            heading:
+              en: Genus placement is a mitochondrial and morphological hypothesis
+              zh: 属级位置属于线粒体及形态假说
+            referenceId: ref-6a2f8e02-ac6c-4742-a277-1e544482a13e
+            sourceKey: primary-pmc5968859-5bdfy
+            locator: PMC5968859 reading-sections section 1 paragraphs 0, 9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6ba017294a
+                part: body
+              zh:
+                page: zh
+                section: s-67110ece3a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

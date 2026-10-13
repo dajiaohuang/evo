@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Elachistocleis erythrogaster
+  displayName: Elachistocleis erythrogaster
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38X37
+  sourceIndexes:
+    - name:
+        en: Elachistocleis erythrogaster
+        zh: Elachistocleis erythrogaster
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38X37
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/129
+            queryName: Elachistocleis erythrogaster
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-686ad89d1c
+      - s-6f4ac766e2
+      - s-9ed9488fdd
+      - s-656e6dc5ce
+      - s-6bcedb7656
+      - s-8ca8c1236a
+      - s-ce8583cd25
+      - s-91017bf363
+      - s-61cbe5f5e4
+      - s-66edf7a8c4
+      - s-ffb7a3d688
+      - s-47e4874eca
+      - s-22a61a74ee
+    zh:
+      - s-982396ef8d
+      - s-530c95abe7
+      - s-a2cfc5ec9c
+      - s-9ad86572ab
+      - s-fb7a09fdb1
+      - s-d0349bc208
+      - s-29563f9de2
+      - s-ca55a3fc5f
+      - s-fba98eae92
+      - s-98ea02205c
+      - s-45c2a81cf5
+      - s-e7f4861e00
+      - s-91c1d4c061

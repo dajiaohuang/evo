@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylototriton yangi Hou, Zhang, Zhou, Li & Lu, 2012
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Tylototriton yangi
+      zh: Tylototriton yangi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-337a44bade
+            part: title
+          zh:
+            page: zh
+            section: s-a8f038a863
+            part: title
+        text:
+          en:
+            page: en
+            section: s-337a44bade
+            part: body
+          zh:
+            page: zh
+            section: s-a8f038a863
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-de459f0c3f
+            part: title
+          zh:
+            page: zh
+            section: s-1ae3f5dfd5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-de459f0c3f
+            part: body
+          zh:
+            page: zh
+            section: s-1ae3f5dfd5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c7179442e5
+            part: title
+          zh:
+            page: zh
+            section: s-5aacee231a
+            part: title
+        sourceIds:
+          - primary-pmc7369190-7dbjx
+        text:
+          en:
+            page: en
+            section: s-c7179442e5
+            part: body
+          zh:
+            page: zh
+            section: s-5aacee231a
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1149a4d02f
+            part: title
+          zh:
+            page: zh
+            section: s-13a454ec5d
+            part: title
+        sourceIds:
+          - primary-pmc7369190-7dbjx
+        text:
+          en:
+            page: en
+            section: s-1149a4d02f
+            part: body
+          zh:
+            page: zh
+            section: s-13a454ec5d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylototriton yangi
+          url: https://www.checklistbank.org/dataset/316115/taxon/7DBJX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7369190-7dbjx
+        referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton yangi: Table 1 and footnotes, methods/landmark/statistical sections, lateral/dorsal and comparative shape/size results, ecological discussion read; no independent supplementary-matrix or original scan analysis; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-42247bdbdf
+        part: body
+      zh:
+        page: zh
+        section: s-f8fea1d4c8
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1111/joa.13201
+        referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+        sourceKey: primary-pmc7369190-7dbjx
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7369190/article.xml
+        sourceConcept: Tylototriton yangi
+        evidenceRead: "Tylototriton yangi: Table 1 and footnotes, methods/landmark/statistical sections, lateral/dorsal and comparative shape/size results, ecological discussion read; no independent supplementary-matrix or original scan analysis; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Only live specimens supplied external-head evidence
+              zh: 仅活体标本提供外部头部证据
+            referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+            sourceKey: primary-pmc7369190-7dbjx
+            locator: PMC7369190 XML joa13201-tbl-0001 with footnotes; joa13201-sec-0002–0004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a65fd3aeaa
+                part: body
+              zh:
+                page: zh
+                section: s-32eef1ee99
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Lateral cranial size differed from taliangensis
+              zh: 侧面头部大小与 taliangensis 不同
+            referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+            sourceKey: primary-pmc7369190-7dbjx
+            locator: PMC7369190 XML joa13201-sec-0009 paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b3ff1a2254
+                part: body
+              zh:
+                page: zh
+                section: s-b2db7336fd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

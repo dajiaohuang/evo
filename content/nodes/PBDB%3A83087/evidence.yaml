@@ -1,0 +1,251 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Homo neanderthalensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Homo neanderthalensis
+      en: Homo neanderthalensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b5b7ab67c5
+            part: body
+          en:
+            page: en
+            section: s-b50ff8f8d9
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b49e0b5476
+            part: body
+          en:
+            page: en
+            section: s-fbe51f8bb5
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cae3a3d6e5
+            part: body
+          en:
+            page: en
+            section: s-3f8011378b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5e3e3b09ae
+            part: body
+          en:
+            page: en
+            section: s-1d002e2d22
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5ced436d7c
+            part: body
+          en:
+            page: en
+            section: s-61bd672d64
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Homo neanderthalensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=83087&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:83087; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:83087
+          selectedOccurrenceIds:
+            - occ:339569
+            - occ:442717
+            - occ:1356824
+            - occ:1494552
+            - occ:1627409
+          selectedCollectionIds:
+            - col:32059
+            - col:43631
+            - col:184245
+            - col:207778
+            - col:230380
+          sourceReferenceIds:
+            - ref:71674
+            - ref:11457
+            - ref:61580
+            - ref:71675
+            - ref:85041
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f39544aea0
+        part: body
+      en:
+        page: en
+        section: s-3772929065
+        part: body
+  atlas-node:
+    name: Homo neanderthalensis
+    commonName: Neanderthals
+    commonNameZh: 尼安德特人
+    rank: species
+    taxonId: txn:83087
+    firstAppearance: 0.4
+    lastAppearance: 0.04
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:homo_neanderthalensis
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Homo neanderthalensis is anchored here by Vindija 33.19, which yielded a high-coverage genome and a greater-than-45.5 ka radiocarbon result within an approximately 55–45.5 ka sample envelope; modelled age and relationships do not define the species’ full range.
+      confidence: high
+      confidenceRationale: The specimen and laboratory result are direct, whereas the approximately 52 ka estimate and demographic tree are models.
+      referenceLinks:
+        - relation: supports
+          referenceId: prufer-2017-vindija
+          pages: 655–658
+          figure: Figures 1–4
+          quoteLocator: Specimen dating; genome coverage; demographic analyses
+    - subjectId: taxon:homo_neanderthalensis
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Homo neanderthalensis is displayed at 0.055–0.0455 Ma only as the dated Vindija specimen envelope, not the complete duration of Neanderthals. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Homo neanderthalensis uses Prüfer, K.; de Filippo, C.; Grote, S.; Mafessoni, F.; Korlević, P.; Hajdinjak, M.; Vernot, B.; Skov, L.; Hsieh, P.; Peyrégne, S.; et al. (2017) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Vindija 33.19 specimen age envelope, Croatia; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: prufer-2017-vindija
+          pages: 655–658
+          figure: Figures 1–4
+          quoteLocator: Specimen dating; genome coverage; demographic analyses
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 标本与实验室结果属于直接证据，而约 5.2 万年前估计和种群树属于模型。
+    - Homo neanderthalensis 采用 Prüfer, K.; de Filippo, C.; Grote, S.; Mafessoni, F.; Korlević, P.; Hajdinjak, M.; Vernot, B.; Skov, L.; Hsieh, P.; Peyrégne, S.; et al.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Vindija 33.19 specimen age envelope, Croatia；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 此处 Homo neanderthalensis 由 Vindija 33.19 锚定，该标本产生高覆盖基因组和大于 4.55 万年的放射性碳结果，处于约 5.5 万—4.55 万年前的样本区间；模型年龄与关系不定义物种完整范围。
+    - Homo neanderthalensis 仅以 0.055–0.0455 Ma 展示为有测年约束的温迪亚标本包络，而非尼安德特人的完整存续期。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: homo_neanderthalensis
+      rangeKind: taxon-range
+      taxonomicConcept: Homo neanderthalensis — source-bounded sample window
+      geographicScope: Vindija 33.19 specimen age envelope, Croatia
+      olderMa: 0.055
+      youngerMa: 0.0455
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the dated Vindija specimen envelope, not the complete duration of Neanderthals; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: A high-coverage Neandertal genome from Vindija Cave in Croatia directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:homo_neanderthalensis:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: prufer-2017-vindija
+          locator: 655–658; Specimen dating; genome coverage; demographic analyses
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized
+    - entityId: homo_neanderthalensis
+      rangeKind: global-composite
+      taxonomicConcept: Vindija 33.19 high-coverage Neanderthal genome occurrence
+      geographicScope: Vindija Cave, Croatia
+      olderMa: 0.055
+      youngerMa: 0.0455
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The approximately 52 ka branch-shortening age, population splits and introgression proportions are model outputs; they do not directly date all Neanderthals or define species taxonomy.
+      evidenceBasis: Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:event:vindija-3319-neanderthal-genome
+      referenceLocators:
+        - referenceId: prufer-2017-vindija
+          locator: 655–658; Figures 1–4; Supplementary Materials

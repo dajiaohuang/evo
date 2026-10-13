@@ -1,0 +1,421 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ololygon agilis (Cruz & Peixoto, 1983)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ololygon agilis
+      zh: Ololygon agilis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5e3bc6312d
+            part: title
+          zh:
+            page: zh
+            section: s-7336b3cf3f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5e3bc6312d
+            part: body
+          zh:
+            page: zh
+            section: s-7336b3cf3f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8dd0396aee
+            part: title
+          zh:
+            page: zh
+            section: s-e039a11892
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8dd0396aee
+            part: body
+          zh:
+            page: zh
+            section: s-e039a11892
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f78371d5b9
+            part: title
+          zh:
+            page: zh
+            section: s-d9bedfac73
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-f78371d5b9
+            part: body
+          zh:
+            page: zh
+            section: s-d9bedfac73
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-e01f96e19cccd69d3cfcbe8acddc80ec
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-19598d1e980844c43b8c9cf2
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-51334ca741
+            part: title
+          zh:
+            page: zh
+            section: s-6808431dc0
+            part: title
+        sourceIds:
+          - primary-pmc10688756-498zk
+        text:
+          en:
+            page: en
+            section: s-51334ca741
+            part: body
+          zh:
+            page: zh
+            section: s-6808431dc0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1d07b0c5d7
+            part: title
+          zh:
+            page: zh
+            section: s-d25f8ef973
+            part: title
+        sourceIds:
+          - primary-pmc10688756-498zk
+        text:
+          en:
+            page: en
+            section: s-1d07b0c5d7
+            part: body
+          zh:
+            page: zh
+            section: s-d25f8ef973
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-1a0a13f001
+            part: title
+          zh:
+            page: zh
+            section: s-2f1fc857a6
+            part: title
+        sourceIds:
+          - primary-pmc10688756-498zk
+        text:
+          en:
+            page: en
+            section: s-1a0a13f001
+            part: body
+          zh:
+            page: zh
+            section: s-2f1fc857a6
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-916472924a
+            part: title
+          zh:
+            page: zh
+            section: s-e95894f3b3
+            part: title
+        sourceIds:
+          - primary-pmc10688756-498zk
+          - primary-pmc10688756-498zk-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-916472924a
+            part: body
+          zh:
+            page: zh
+            section: s-e95894f3b3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ololygon agilis
+          url: https://www.checklistbank.org/dataset/316115/taxon/498ZK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2608; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2608 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 2064, 2109, 2944; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc10688756-498zk
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ololygon agilis: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10688756-498zk-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: "COL26.8 dataset316115; Scinax agilis: usage6Y9XY accepted498ZK; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json"
+          scope:
+            en: Explicit nomenclatural accepted-links only; biological-concept equivalence and original specimen identity uncertified.
+            zh: 仅明确命名接受名链接；生物学概念等同性及原标本身份未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc10688756-498zk-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9c16e65584
+        part: body
+      zh:
+        page: zh
+        section: s-661bb8aabf
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-498zk
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 source workbook names Scinax agilis linked through explicit frozen COL26.8 nomenclatural records; original row concepts retained, not certified specimen identity
+        evidenceRead: "Ololygon agilis: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax agilis: development and oviposition coding"
+              zh: 工作簿记录 Scinax agilis：发育及产卵编码
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-498zk
+            locator: PMC10688756 S3 Traits row388 Scinax_agilis; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a8fa906630
+                part: body
+              zh:
+                page: zh
+                section: s-6368c252ba
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax agilis: juvenile habitat and egg sites"
+              zh: 工作簿记录 Scinax agilis：幼体生境及卵位点
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-498zk
+            locator: PMC10688756 S3 Traits row388 Scinax_agilis; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read habitat/S1–S7 columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-24c0efc640
+                part: body
+              zh:
+                page: zh
+                section: s-a2f3149750
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: "Workbook record Scinax agilis: inference and length limits"
+              zh: 工作簿记录 Scinax agilis：推断及长度限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-498zk
+            locator: PMC10688756 S3 Traits row388 Scinax_agilis; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read length/Observation columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bd7766632f
+                part: body
+              zh:
+                page: zh
+                section: s-6baba007f2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: "Workbook record Scinax agilis: an explicit frozen catalogue accepted-link"
+              zh: 工作簿记录 Scinax agilis：明确冻结目录接受名链接
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-498zk
+            locator: PMC10688756 S3 Traits row388 Scinax_agilis; XML Functional diversity; upstream reference numbers 1, 2, 3, 4; original upstream sources not independently read; COL26.8 usage6Y9XY accepted498ZK; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json Scinax agilis
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5369386444
+                part: body
+              zh:
+                page: zh
+                section: s-5f30cd93c2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

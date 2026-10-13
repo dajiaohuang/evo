@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus pakenhami
+  displayName: Phrynobatrachus pakenhami
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VDNL
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus pakenhami
+        zh: Phrynobatrachus pakenhami
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VDNL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/156
+            queryName: Phrynobatrachus pakenhami
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/355
+            queryName: Phrynobatrachus nigripes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d1518a0540
+      - s-87018fe717
+      - s-a16cff847c
+      - s-dd4b3ed86f
+      - s-2d532914a8
+      - s-ea42597a6f
+      - s-01a7806a42
+      - s-789afcd586
+    zh:
+      - s-93c122749e
+      - s-abbd361cf1
+      - s-c5c4af12c1
+      - s-14173670b5
+      - s-20fb440288
+      - s-bbaf272055
+      - s-2d067618da
+      - s-28ffd2832f

@@ -1,0 +1,142 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys appendiculata
+  displayName: Proceratophrys appendiculata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77Y7Y
+  sourceIndexes:
+    - name:
+        en: Proceratophrys appendiculata
+        zh: Proceratophrys appendiculata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77Y7Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/204
+            queryName: Proceratophrys appendiculata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/307
+            queryName: Ceratophrys appendiculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/443
+            queryName: Ceratophrys cafferi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/444
+            queryName: Stombus appendiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/218
+            queryName: Stombus appendiculatus appendiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/219
+            queryName: Stombus appendiculatus unicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/220
+            queryName: Stombus appendiculatus incolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93172346f1
+      - s-e8773adff7
+      - s-1d111f6edd
+      - s-72000469e5
+      - s-6da57ad9cc
+      - s-feadf4cc17
+      - s-0abeb7f66e
+      - s-0650ffabc7
+      - s-c7049c844b
+      - s-f81d2ca5df
+      - s-7057702307
+      - s-c1480994c2
+      - s-3335c061d4
+      - s-e2d06e2614
+      - s-5435024647
+      - s-faac33787a
+      - s-6ebad70e5f
+      - s-305b9c1e82
+      - s-04802c6be8
+      - s-3e8d38cb98
+      - s-c5df1ac776
+      - s-cd19bc7393
+      - s-b1f7178c8a
+      - s-c81f1d04b4
+      - s-f3d9fbe1d1
+      - s-a6f7a3776a
+      - s-6c18040df8
+      - s-05a5f78682
+      - s-06d8b19efd
+      - s-4ebc09d3a2
+    zh:
+      - s-581e1c50e5
+      - s-5708824bb8
+      - s-c6e4e8c875
+      - s-8039712f73
+      - s-5127080cb9
+      - s-dca8102ee0
+      - s-fb35d065f6
+      - s-da7a2168c0
+      - s-94b69875d7
+      - s-ca471d3f83
+      - s-6cdc9dd2c8
+      - s-c5f5c3bab5
+      - s-d3645ab38b
+      - s-f2f726233b
+      - s-36bf071ccd
+      - s-5489aea571
+      - s-4947f8c445
+      - s-ea4bb50765
+      - s-0ffa082819
+      - s-f722ebec69
+      - s-8298530eec
+      - s-f2367989f0
+      - s-47d6b7756e
+      - s-ef3f977c20
+      - s-3be5f0ea18
+      - s-60634cb68d
+      - s-85acb068bd
+      - s-c75f894e75
+      - s-4006ce81bb
+      - s-27ce239625

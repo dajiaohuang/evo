@@ -1,0 +1,179 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paedotherium typicum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Paedotherium typicum
+      en: Paedotherium typicum
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e8e3cd5c4f
+            part: body
+          en:
+            page: en
+            section: s-6040e38438
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6756f0ad9a
+            part: body
+          en:
+            page: en
+            section: s-7bb3009745
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ad17f2f0ff
+            part: body
+          en:
+            page: en
+            section: s-c14c5f153c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-db38f27fa9
+            part: body
+          en:
+            page: en
+            section: s-be2470bd02
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-580735da68
+            part: body
+          en:
+            page: en
+            section: s-df242d0d56
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Paedotherium typicum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=240081&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:240081; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:240081
+          selectedOccurrenceIds:
+            - occ:751913
+            - occ:1180343
+            - occ:1180466
+            - occ:1180476
+            - occ:1180531
+            - occ:1180585
+            - occ:1429318
+            - occ:1449069
+            - occ:1514839
+            - occ:1595699
+          selectedCollectionIds:
+            - col:79631
+            - col:152073
+            - col:152081
+            - col:152084
+            - col:152085
+            - col:152088
+            - col:198863
+            - col:202096
+            - col:200444
+            - col:198844
+          sourceReferenceIds:
+            - ref:26701
+            - ref:48758
+            - ref:48790
+            - ref:67741
+            - ref:69224
+            - ref:68167
+            - ref:81723
+          originalIdentificationMappings:
+            - occurrenceId: occ:1595699
+              originalIdentifiedName: Paedotherium chapadmalense
+              acceptedName: Paedotherium typicum
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-77f8c271f8
+        part: body
+      en:
+        page: en
+        section: s-26c8d8194d
+        part: body

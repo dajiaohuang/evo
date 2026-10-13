@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cyanella aquatica Oberm. ex G.Scott
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6C4PF, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6C4PF; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6C4PF
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6C4PF
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000764839-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6C4PF / WFO wfo-0000764839
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14659_0
+        referenceId: ref-115aeff9-f040-83d7-a47c-13ba6c7e4a5d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cyanella aquatica Oberm. ex G.Scott account; SANBI/WFO archive rows 33565 (Morphology), 39417 (Habitat), source identifier 14659.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_7651_0
+        referenceId: ref-acc13522-6a67-829d-ac12-fe682f741c66
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cyanella aquatica Oberm. ex G.Scott account; SANBI/WFO archive rows 47566 (Diagnostic), source identifier 7651.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 250-400 mm tall. Leaves linear-lanceolate, glabrous. Flowers on ± horizontally spreading pedicels in a lax raceme, bracteoles always ± basal, orange, zygomorphic, fragrant, tepals 8-10 mm; anthers yellow, 5 upper and 1 larger lower, filaments connate ± halfway.
+            textZh: Cyanella aquatica Oberm. ex G.Scott 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14659_0
+            locator: "SANBI/WFO archive Morphology row 33565; source identifier 14659.0; cited publication: Manning, JC. 2013. Tecophilaeaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 161 - 162. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Distinguished by the lax, sparsely branched racemes, ± basal bracteoles on sharply sigmoid pedicels, and bright orange flowers. In general form the species is most similar to Cyanella hyacinthoides, which also has a 5 + 1 arrangement of stamens with the filaments connate for ± half their length or more but which differs in its fibrous corm tunics and dense racemes of white or pink to blue flowers with the bracteoles usually inserted near the middle of the pedicels or above, only rarely near the base. The two taxa are ecologically separated, with C. hyacinthoides favouring better drained, sandy or gritty soils. In perianth colour C. aquatica might be confused with yellow-flowered C. lutea but that species has suberect pedicels with the bracteoles inserted ± midway along, filaments that are ± free to the base, and a laterally deflexed style. C. lutea is also ecologically separated, favouring fine-grained clay soils in renosterveld or drier karroid vegetation.
+            textZh: SANBI 条目提供了 Cyanella aquatica Oberm. ex G.Scott 的鉴别特征。
+            sourceIds:
+              - sanbi_7651_0
+            locator: "SANBI/WFO archive Diagnostic row 47566; source identifier 7651.0; cited publication: Goldblatt, P; Manning, JC. 2012. A revision of Tecophilaeaceae subfam. Tecophilaeoideae in Africa. Bothalia 42(1): 21 - 41. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Seasonally waterlogged dolerite among rocks.
+            textZh: 该 SANBI 区域物种条目记录的生境：Seasonally waterlogged dolerite among rocks.
+            sourceIds:
+              - sanbi_14659_0
+            locator: "SANBI/WFO archive Habitat row 39417; source identifier 14659.0; cited publication: Manning, JC. 2013. Tecophilaeaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 161 - 162. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,469 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nymphargus laurae Cisneros-Heredia & McDiarmid, 2007
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nymphargus laurae
+      zh: Nymphargus laurae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1806ca553a
+            part: title
+          zh:
+            page: zh
+            section: s-f038e45a8b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1806ca553a
+            part: body
+          zh:
+            page: zh
+            section: s-f038e45a8b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f99ae179a6
+            part: title
+          zh:
+            page: zh
+            section: s-cc61a41dd1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f99ae179a6
+            part: body
+          zh:
+            page: zh
+            section: s-cc61a41dd1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fd371cdb19
+            part: title
+          zh:
+            page: zh
+            section: s-adf7ec75fb
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-fd371cdb19
+            part: body
+          zh:
+            page: zh
+            section: s-adf7ec75fb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c7e1ae01a5
+            part: title
+          zh:
+            page: zh
+            section: s-7c86f04353
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-c7e1ae01a5
+            part: body
+          zh:
+            page: zh
+            section: s-7c86f04353
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-1320a31ad8
+            part: title
+          zh:
+            page: zh
+            section: s-a00d7ae369
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-1320a31ad8
+            part: body
+          zh:
+            page: zh
+            section: s-a00d7ae369
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-daa8adf57b
+            part: title
+          zh:
+            page: zh
+            section: s-da0cc50637
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-daa8adf57b
+            part: body
+          zh:
+            page: zh
+            section: s-da0cc50637
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1c5e46ae0a
+            part: title
+          zh:
+            page: zh
+            section: s-db6b373d66
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1c5e46ae0a
+            part: body
+          zh:
+            page: zh
+            section: s-db6b373d66
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-b9f5380dedb645d144035634fc55736c
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-53e22e2a31dfa8dd949934ed
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f7ae0afa0c
+            part: title
+          zh:
+            page: zh
+            section: s-6ed5450bee
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f7ae0afa0c
+            part: body
+          zh:
+            page: zh
+            section: s-6ed5450bee
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-c20909490f
+            part: title
+          zh:
+            page: zh
+            section: s-e0de5fb59e
+            part: title
+        sourceIds:
+          - primary-pmc13061190-486jp
+        text:
+          en:
+            page: en
+            section: s-c20909490f
+            part: body
+          zh:
+            page: zh
+            section: s-e0de5fb59e
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b2ed699a25
+            part: title
+          zh:
+            page: zh
+            section: s-8ef548d470
+            part: title
+        sourceIds:
+          - primary-pmc13061190-486jp
+        text:
+          en:
+            page: en
+            section: s-b2ed699a25
+            part: body
+          zh:
+            page: zh
+            section: s-8ef548d470
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nymphargus laurae
+          url: https://www.checklistbank.org/dataset/316115/taxon/486JP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0982; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0982 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3678; Reference.csv rows 938
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13061190-486jp
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nymphargus laurae: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9378ebf3b9
+        part: body
+      zh:
+        page: zh
+        section: s-48660e04e5
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-b9f5380dedb645d144035634fc55736c
+      sourceRowId: Anf0982
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0982
+        bibliographyRowId: Anf0982
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Nymphargus laurae
+        candidateBibliographyRowIds:
+          - Anf0982
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-53e22e2a31dfa8dd949934ed
+        scientificName: Nymphargus laurae
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0345097
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        sourceKey: primary-pmc13061190-486jp
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/article.xml
+        sourceConcept: Exact frozen accepted name matched to examined-specimen Appendix label; historical type designations retained, not new specimen authentication
+        evidenceRead: "Nymphargus laurae: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Examined specimens keep their original locality labels
+              zh: 所检标本保留原地点标签
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-486jp
+            locator: PMC13061190 pone.0345097.s003.pdf page1 printedlines17;sha256:d351101d5be8aa9fa37aa4cf7010e754054d2fb8cc98e34e59c8edf34452b0f6;renderedpage independentlyread
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ec294f03d0
+                part: body
+              zh:
+                page: zh
+                section: s-595d84e8d4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: A specimen citation has a limited biological scope
+              zh: 标本引用具有有限生物学范围
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-486jp
+            locator: PMC13061190 pone.0345097.s003.pdf page1 printedline17;XMLsec006 comparative-study scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fbf9ff1d02
+                part: body
+              zh:
+                page: zh
+                section: s-d9bc184ecd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

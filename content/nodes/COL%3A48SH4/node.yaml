@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana yentuensis
+  displayName: Odorrana yentuensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SH4
+  sourceIndexes:
+    - name:
+        en: Odorrana yentuensis
+        zh: Odorrana yentuensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SH4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/56
+            queryName: Odorrana yentuensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b3fc9da0ee
+      - s-27593dc506
+      - s-0fdb6b2479
+      - s-be614f7f4a
+      - s-a09b4e1f2c
+      - s-8fdeb74874
+      - s-cf6dbb023b
+      - s-061ce64674
+      - s-203ccc3b48
+      - s-269827ab97
+    zh:
+      - s-e528017639
+      - s-e663d2f95d
+      - s-263ee1bd2e
+      - s-3a05805e62
+      - s-5c470ca3d1
+      - s-624eb5b48e
+      - s-c1f17c2c39
+      - s-80d1072184
+      - s-45aa0f7b7d
+      - s-d81e88aba6

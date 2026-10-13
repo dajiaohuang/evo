@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus microscaphus
+  displayName: Anaxyrus microscaphus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66M7C
+  sourceIndexes:
+    - name:
+        en: Anaxyrus microscaphus
+        zh: Anaxyrus microscaphus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66M7C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/442
+            queryName: Anaxyrus microscaphus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/243
+            queryName: Bufo microscaphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/362
+            queryName: Bufo microscaphus microscaphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/370
+            queryName: Bufo lentiginosus microscaphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/371
+            queryName: Bufo woodhousii microscaphus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2db1bed164
+      - s-b612764f25
+      - s-46adfc2603
+      - s-c1e51050ca
+      - s-3d94619de5
+      - s-89e9439a34
+      - s-e890f8c166
+      - s-40d272665f
+      - s-81f474e952
+      - s-207e6d18a0
+      - s-6c0cc49af4
+      - s-3cd5766e54
+      - s-a6fca839ea
+      - s-c336e5ce4d
+      - s-586f5f859f
+      - s-e087073ace
+      - s-cbc0ba92e3
+      - s-8021f250fb
+    zh:
+      - s-8ce5459cf8
+      - s-303cb953c0
+      - s-e94bed7e78
+      - s-b7ed636ace
+      - s-6e69088ecf
+      - s-537c7ba648
+      - s-0f4cc3de5c
+      - s-3f7fd1ef88
+      - s-d4f3be550b
+      - s-30194eef6b
+      - s-2b3d96bfb7
+      - s-fdba930bfb
+      - s-2b890eb011
+      - s-b0806499b4
+      - s-d77a88e8ce
+      - s-ea1dc8433e
+      - s-68fc837404
+      - s-9181b36a42

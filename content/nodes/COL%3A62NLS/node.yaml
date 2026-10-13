@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Corythomantis
+  displayName: Corythomantis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62NLS
+  sourceIndexes:
+    - name:
+        en: Corythomantis
+        zh: Corythomantis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62NLS
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/321
+            queryName: Corythomantis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 30
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e61cbce484
+      - s-d3054e7440
+      - s-a3cb1db5f2
+      - s-c1b0e5d6c6
+      - s-320a3ce811
+      - s-3d5a76d230
+      - s-120b0828b9
+      - s-3bcd0af22e
+      - s-9219fe8251
+      - s-5e406b4212
+      - s-e0e70c35c0
+    zh:
+      - s-514265c204
+      - s-627e4e5567
+      - s-18f1cce297
+      - s-de190e4d5a
+      - s-245ea9357d
+      - s-40acecd5a0
+      - s-5e12124ce6
+      - s-0be1a7c56f
+      - s-b413fb10ec
+      - s-1b56822ed4
+      - s-8997b9b35e

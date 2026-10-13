@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus natalensis
+  displayName: Leptodactylus natalensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN6F
+  sourceIndexes:
+    - name:
+        en: Leptodactylus natalensis
+        zh: Leptodactylus natalensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN6F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/415
+            queryName: Leptodactylus natalensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-03143e1280
+      - s-4182920c89
+      - s-9a96d51766
+      - s-905d0dc25d
+      - s-ac8265cbf5
+      - s-1cfae4d6ed
+      - s-e39600c53d
+      - s-da6c318b98
+      - s-3697d6cdf1
+      - s-ad0eaf5427
+      - s-5aec3d8324
+      - s-288fb4e109
+      - s-bc8dfc1cdc
+      - s-f5e3a9f66e
+      - s-ba62bc0412
+      - s-81259ad5b2
+      - s-c189afab9a
+      - s-3fc5ab2f51
+      - s-1583a10ec7
+    zh:
+      - s-88d240fdd5
+      - s-fc078a4524
+      - s-85537a3013
+      - s-84beae18e2
+      - s-89d2ddff33
+      - s-1f392a4fc6
+      - s-38c5005bd9
+      - s-7b273ba4aa
+      - s-d0df8b8ae2
+      - s-9a72a4ccc0
+      - s-aff91eb528
+      - s-485d1bdadc
+      - s-75d725553b
+      - s-0d01ed31ec
+      - s-c488378612
+      - s-005d99e6c5
+      - s-ceaf9549d9
+      - s-fc6e097da0
+      - s-7deb1083a1

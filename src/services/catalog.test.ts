@@ -15,6 +15,7 @@ describe('catalog', () => {
 
   it('searches events and offers featured stories for an empty query', () => {
     expect(searchCatalog('大灭绝').some((result) => result.kind === 'event')).toBe(true)
+    expect(searchCatalog('富铱界线黏土').some(result => result.kind === 'event' && result.id === 'k-pg-extinction')).toBe(true)
     expect(searchCatalog('').every((result) => result.kind === 'story')).toBe(true)
   })
 

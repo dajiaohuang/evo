@@ -1,0 +1,107 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-2608db9776
+      part: title
+    titleZh:
+      page: zh
+      section: s-7fcb62a1ec
+      part: title
+    category: topology
+    startAge: 205.7
+    endAge: 201.4
+    regions:
+      - Slickstones Quarry fissure fill, Gloucestershire, England; competing morphology matrices
+    clades:
+      - Neodiapsida
+      - Pan-Squamata
+      - Cryptovaranoides microlanius
+    summary:
+      page: en
+      section: s-2608db9776
+      part: body
+    summaryZh:
+      page: zh
+      section: s-7fcb62a1ec
+      part: body
+    claimIds:
+      - claim:event:cryptovaranoides-competing-topologies
+    evidenceItems:
+      - statement: NHMUK PV R36822 is a partially articulated skeleton in a multi-individual block; the 2022 description and 2024 response identify a suite of squamate characters and recover crown placement in their matrices.
+        relation: supports
+        claimIds:
+          - claim:event:cryptovaranoides-competing-topologies
+        referenceLinks:
+          - referenceId: whiteside-2022-cryptovaranoides
+            relation: supports
+            pages: eabq8274
+            figure: Figures 1–6; Supplementary materials
+            quoteLocator: Systematic palaeontology; Phylogenetic analyses
+          - referenceId: whiteside-2024-cryptovaranoides-response
+            relation: supports
+            pages: "231874"
+            figure: Figures 1–8
+            quoteLocator: Holotype-restricted scoring; Phylogenetic analysis
+      - statement: The 2023 and 2025 reanalyses dispute several anatomical identities and referrals and recover Cryptovaranoides outside Squamata, as an archosauromorph or an unresolved neodiapsid under tested matrices.
+        relation: contradicts
+        claimIds:
+          - claim:event:cryptovaranoides-competing-topologies
+        referenceLinks:
+          - referenceId: brownstein-2023-cryptovaranoides
+            relation: contradicts
+            pages: "230968"
+            figure: Figures 1–8
+            quoteLocator: Revised diagnosis; Character scoring; Phylogenetic analyses
+          - referenceId: caldwell-2025-cryptovaranoides
+            relation: contradicts
+            pages: RP107021
+            figure: Figures 1–9
+            quoteLocator: Results; Anatomical reinterpretations; Phylogenetic analyses
+    uncertaintyItems:
+      - statement: Because element identity, referral of isolated bones and matrix scorings remain actively disputed, this package assigns contested confidence and does not use Cryptovaranoides as a crown-Squamata FAD, clock calibration or proof of Triassic diversification of living lineages.
+        relation: contextualizes
+        claimIds:
+          - claim:event:cryptovaranoides-competing-topologies
+        referenceLinks:
+          - referenceId: whiteside-2024-cryptovaranoides-response
+            relation: contextualizes
+            pages: "231874"
+            quoteLocator: Discussion
+          - referenceId: caldwell-2025-cryptovaranoides
+            relation: contextualizes
+            pages: RP107021
+            quoteLocator: Discussion; Conclusions
+  claims:
+    - subjectId: event:cryptovaranoides-competing-topologies
+      claimKind: scientific
+      claimType: topology
+      statement: Cryptovaranoides holotype NHMUK PV R36822 and disputed referred bones currently support incompatible published placements because element identity, referral and character scoring differ; this package does not treat the taxon as a secure crown-squamate first appearance.
+      confidence: contested
+      confidenceRationale: Both research teams publish specimen-based anatomical arguments and explicit matrices, but repeated reanalysis has not converged on character identity, referability or topology. A contested label is more faithful than selecting one tree as fact.
+      referenceLinks:
+        - referenceId: whiteside-2022-cryptovaranoides
+          relation: supports
+          pages: eabq8274
+          figure: Figures 1–6
+          quoteLocator: article eabq8274, Figs. 1–6 and Supplementary materials; Systematic palaeontology and Phylogenetic analyses
+        - referenceId: brownstein-2023-cryptovaranoides
+          relation: contradicts
+          pages: "230968"
+          figure: Figures 1–8
+          quoteLocator: article 230968, Figs. 1–8; Revised diagnosis, Character scoring and Phylogenetic analyses
+        - referenceId: whiteside-2024-cryptovaranoides-response
+          relation: supports
+          pages: "231874"
+          figure: Figures 1–8
+          quoteLocator: article 231874, Figs. 1–8; Holotype-restricted scoring, Phylogenetic analysis and Discussion
+        - referenceId: caldwell-2025-cryptovaranoides
+          relation: contradicts
+          pages: RP107021
+          figure: Figures 1–9
+          quoteLocator: article RP107021, Figs. 1–9; Anatomical reinterpretations, Phylogenetic analyses and Conclusions
+  claim-rationales.zh:
+    - 双方都发表了基于标本的解剖论证和显式矩阵，但重复分析尚未在性状鉴定、可归入性或拓扑上收敛；争议标签比选择一棵树作为事实更忠实。
+  claim-statements.zh:
+    - 由于骨骼要素鉴定、归入关系和性状评分存在差异，Cryptovaranoides 正模 NHMUK PV R36822 与有争议的归入骨骼目前支持彼此不相容的已发表位置；本包不把该类群视为可靠的有鳞类冠群首现。

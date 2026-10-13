@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger feiliangi
+  displayName: Scutiger feiliangi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5KVQ
+  sourceIndexes:
+    - name:
+        en: Scutiger feiliangi
+        zh: Scutiger feiliangi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5KVQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/145
+            queryName: Scutiger feiliangi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0921ad7b09
+      - s-3541cf8aec
+      - s-f96001bfa1
+      - s-73ef5d74a2
+      - s-e08a2c148c
+      - s-23a1566032
+    zh:
+      - s-8da86a99f2
+      - s-faa7a3e1a0
+      - s-b297ca539e
+      - s-ac870aff8c
+      - s-5afd0decdb
+      - s-506af40acf

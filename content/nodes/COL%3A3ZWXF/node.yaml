@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mertensophryne taitana
+  displayName: Mertensophryne taitana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3ZWXF
+  sourceIndexes:
+    - name:
+        en: Mertensophryne taitana
+        zh: Mertensophryne taitana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3ZWXF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/441
+            queryName: Mertensophryne taitana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/421
+            queryName: Bufo taitanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/399
+            queryName: Bufo katanganus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/400
+            queryName: Bufo ushoranus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/401
+            queryName: Mertensophryne ushoranus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/237
+            queryName: Bufo taitanus taitanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2e20cbd1c6
+      - s-7a4f6c3fcd
+      - s-51bd3598e6
+      - s-394dc9ae29
+      - s-e457d1a8bf
+      - s-0369d14ea9
+      - s-893f30b85a
+      - s-e9458ffaa3
+      - s-0f7199fc2d
+      - s-1cbfc0a7a0
+      - s-d1751b68c5
+      - s-2955945a38
+    zh:
+      - s-9f96332cfa
+      - s-84f6c15868
+      - s-7dc1c62795
+      - s-c195bf4ba3
+      - s-94c38b89fd
+      - s-b75eaf3315
+      - s-61f478f0b2
+      - s-a32f948a9e
+      - s-d1bb42fb1d
+      - s-3a4b78ebe1
+      - s-bd280a92a8
+      - s-4a0a0b84e2

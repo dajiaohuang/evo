@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Peltophryne fustiger
+  displayName: Peltophryne fustiger
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76G8G
+  sourceIndexes:
+    - name:
+        en: Peltophryne fustiger
+        zh: Peltophryne fustiger
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76G8G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/491
+            queryName: Peltophryne fustiger
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/330
+            queryName: Bufo fustiger
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/294
+            queryName: Bufo peltacephalus fustiger
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f117ba845b
+      - s-60f641a3f7
+      - s-13c57573b2
+      - s-2672b06d8d
+      - s-147ebc4229
+      - s-ce7a8ca65e
+      - s-2a8b85e411
+      - s-4f4a409a70
+      - s-58861205e9
+      - s-b94cf8b68a
+      - s-0567c79247
+      - s-1c47964f01
+      - s-5095ffab0c
+      - s-56247d9488
+      - s-1b253ce64e
+      - s-22483f390a
+    zh:
+      - s-9c714c6b80
+      - s-86b030bbe6
+      - s-8ddbf1836d
+      - s-b47a8201a6
+      - s-64bf7d43ce
+      - s-aa70dd9d7f
+      - s-6f3f7cf9b2
+      - s-d59722fe74
+      - s-b9ddf5f8ac
+      - s-6601a9238d
+      - s-e099d3890e
+      - s-efec700266
+      - s-274b9249d5
+      - s-eaf9cb9010
+      - s-b77140d6a7
+      - s-5e0b542dd0

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum
+  displayName: Cacosternum
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62K57
+  sourceIndexes:
+    - name:
+        en: Cacosternum
+        zh: Cacosternum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62K57
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/260
+            queryName: Cacosternum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 25
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6a1581d30d
+      - s-5b01cab8f9
+      - s-7b34d4722a
+      - s-ac5905d5ab
+      - s-0ebb634251
+      - s-e5459ccd6a
+      - s-43c18c65e3
+      - s-f76947372d
+      - s-9954a2af0c
+      - s-e34d175696
+      - s-da020557de
+      - s-7b3b121e19
+      - s-9ffb620545
+      - s-f9728c84c0
+      - s-a9727cc370
+      - s-f0de0b35ad
+      - s-ce3051919d
+      - s-ee211c2521
+    zh:
+      - s-229fb7ac81
+      - s-2c4d40abf9
+      - s-acd09bb2a4
+      - s-209ac28e70
+      - s-b47c156c30
+      - s-e490c55cf3
+      - s-509ffcb802
+      - s-18bc8965c6
+      - s-6e4bc2ce78
+      - s-0a2750bdaa
+      - s-2cd64fa8bf
+      - s-8164059651
+      - s-de1a4820fd
+      - s-abb62bb333
+      - s-4f44160155
+      - s-77a0cdb2ba
+      - s-fd493b439d
+      - s-31b1088fc5

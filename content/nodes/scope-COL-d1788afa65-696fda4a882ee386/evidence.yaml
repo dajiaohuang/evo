@@ -1,0 +1,424 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: null
+    scientificName: Papio anubis
+    commonName: Olive Baboon
+    commonNameZh: 橄榄狒狒
+    rank: species
+    parentName: Papio
+    extinct: false
+    geography:
+      - Lake Manyara National Park, Tanzania (wild road-transect study, 2011–2019)
+      - Gombe National Park, Tanzania (wild reproductive records, 1972–2002)
+      - CNRS Primatology Station, Rousset-sur-Arc, France (captive longitudinal cohort)
+    overview:
+      page: en
+      section: s-d4e9c8af2b
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-e75884ec67
+        part: body
+      habitat:
+        page: en
+        section: s-2042d71e6e
+        part: body
+      locomotion:
+        page: en
+        section: s-6d3a3841de
+        part: body
+      bodySize:
+        page: en
+        section: s-42e6f52873
+        part: body
+      guild:
+        page: en
+        section: s-1208f21776
+        part: body
+    traits:
+      - page: en
+        section: s-12abf68987
+        part: body
+    traitsAssessmentStatus: assessed
+    evidenceSummary:
+      page: en
+      section: s-5351bc6593
+      part: body
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-0b10a0860a
+            part: title
+          zh:
+            page: zh
+            section: s-a6ee62a534
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-a6ee62a534
+            part: body
+          en:
+            page: en
+            section: s-0b10a0860a
+            part: body
+        sourceIds:
+          - druelle2017
+          - bailey2021
+          - kiffner2022
+      - id: identity-and-scope
+        title:
+          en:
+            page: en
+            section: s-77a6db01a5
+            part: title
+          zh:
+            page: zh
+            section: s-252a6ddb82
+            part: title
+        text:
+          en:
+            page: en
+            section: s-77a6db01a5
+            part: body
+          zh:
+            page: zh
+            section: s-252a6ddb82
+            part: body
+        sourceIds:
+          - col
+          - druelle2017
+          - bailey2021
+          - kiffner2022
+      - id: captive-growth
+        title:
+          en:
+            page: en
+            section: s-a90f02f286
+            part: title
+          zh:
+            page: zh
+            section: s-0ad7c7c1a4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a90f02f286
+            part: body
+          zh:
+            page: zh
+            section: s-0ad7c7c1a4
+            part: body
+        sourceIds:
+          - druelle2017
+      - id: gombe-reproduction
+        title:
+          en:
+            page: en
+            section: s-7a693fa852
+            part: title
+          zh:
+            page: zh
+            section: s-f69f0938c2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7a693fa852
+            part: body
+          zh:
+            page: zh
+            section: s-f69f0938c2
+            part: body
+        sourceIds:
+          - bailey2021
+      - id: manyara-survey-method
+        title:
+          en:
+            page: en
+            section: s-80abe58c41
+            part: title
+          zh:
+            page: zh
+            section: s-51d608b05e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-80abe58c41
+            part: body
+          zh:
+            page: zh
+            section: s-51d608b05e
+            part: body
+        sourceIds:
+          - kiffner2022
+      - id: comparative-genomics
+        title:
+          en:
+            page: en
+            section: s-c727b40afd
+            part: title
+          zh:
+            page: zh
+            section: s-ecdc04c083
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c727b40afd
+            part: body
+          zh:
+            page: zh
+            section: s-ecdc04c083
+            part: body
+        sourceIds:
+          - jordan2018
+      - id: remaining-questions
+        title:
+          en:
+            page: en
+            section: s-b09d76f209
+            part: title
+          zh:
+            page: zh
+            section: s-a33508556d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b09d76f209
+            part: body
+          zh:
+            page: zh
+            section: s-a33508556d
+            part: body
+        sourceIds:
+          - col
+          - druelle2017
+          - bailey2021
+          - kiffner2022
+          - jordan2018
+    readerSources:
+      - id: col
+        referenceId: ref-ab4fe3e2-5f4e-8db8-a130-e3c2a8c5023a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Pinned taxonomy and accepted name only; not an assessment of range or threat status.
+            zh: 仅用于固定版本分类与接受名，不是分布或受威胁状态评估。
+      - id: druelle2017
+        referenceId: ref-a56ee373-86a8-8368-a2f9-79eec6740e4b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Seven-year captive cohort of 30 animals followed from infancy to adulthood.
+            zh: 对 30 只圈养个体开展七年跟踪，从幼年观察至成年。
+      - id: bailey2021
+        referenceId: ref-2f897c86-ca3f-88a5-a581-6dac57394f29
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Observational reproductive records for one Gombe population, 1972–2002.
+            zh: 贡贝一个种群 1972–2002 年的观察性生殖记录。
+      - id: kiffner2022
+        referenceId: ref-78e2d8c2-c996-844e-a0de-cff6cf13ae16
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Method comparison at one Tanzanian site during 2011–2019; not a total population census.
+            zh: 2011–2019 年坦桑尼亚一个地点的方法比较，不是种群总量普查。
+      - id: jordan2018
+        referenceId: ref-fb78b50c-67bd-8a0e-a3e2-011fac110c1c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            en: Two individuals per sampled extant species, 12 total; indicator loci are panel- and method-defined.
+            zh: 每个受采样现生种两只个体，共 12 只；指示位点由面板和方法定义。
+    readerRelatedPages:
+      - targetId: homo_sapiens
+        label:
+          en: Modern humans
+          zh: 现代人类
+        context:
+          en: Continue with another featured primate species page.
+          zh: 继续阅读另一篇精选灵长类物种页。
+      - targetId: pan_troglodytes
+        label:
+          en: Chimpanzee
+          zh: 黑猩猩
+        context:
+          en: Continue with another featured primate species page.
+          zh: 继续阅读另一篇精选灵长类物种页。
+    readerLimitations:
+      en:
+        page: en
+        section: s-40c85cb4fb
+        part: body
+      zh:
+        page: zh
+        section: s-dc5802892d
+        part: body
+    confidence: medium
+    referenceIds:
+      - col-2026-checklistbank-316115
+      - kiffner-2022-lake-manyara-baboon-distance
+      - druelle-2017-olive-baboon-growth
+      - bailey-2021-gombe-baboon-reproduction
+    overviewZh:
+      page: zh
+      section: zh-c1cd1e576852c3
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-16fd325499c5c9
+      part: body
+  claims:
+    - subjectId: taxon:papio_anubis
+      claimType: taxonomy
+      claimKind: scientific
+      statement: COL26.8 dataset 316115 records accepted species usage 6TM9B as Papio anubis (Lesson, 1827), with Papio usage 6DGR as its immediate parent. This records checklist identity and classification only.
+      confidence: medium
+      confidenceRationale: The pinned accepted usage and immediate parent are explicitly recorded in COL26.8. This statement is limited to checklist identity and classification.
+      referenceLinks:
+        - referenceId: col-2026-checklistbank-316115
+          relation: supports
+          pages: Accepted species usage 6TM9B; immediate parent Papio usage 6DGR; parent chain through Papionini L4C and Primates 3W7
+    - subjectId: taxon:papio_anubis
+      claimType: biogeography
+      claimKind: scientific
+      statement: The selected studies sampled a captive cohort at the CNRS Primatology Station in Rousset-sur-Arc, France, wild baboons at Gombe National Park, Tanzania, and road-transect populations at Lake Manyara National Park, Tanzania. These study locations do not define the species’ geographic range.
+      confidence: high
+      confidenceRationale: Each cited primary study directly identifies its sampled location and captive or wild study status. The statement explicitly does not infer a geographic range.
+      referenceLinks:
+        - referenceId: druelle-2017-olive-baboon-growth
+          relation: supports
+          quoteLocator: Materials and methods, Study site and subjects
+        - referenceId: bailey-2021-gombe-baboon-reproduction
+          relation: supports
+          quoteLocator: Methods, Study area and population
+        - referenceId: kiffner-2022-lake-manyara-baboon-distance
+          relation: supports
+          quoteLocator: Methods, Study site
+    - subjectId: taxon:papio_anubis
+      claimType: morphology
+      claimKind: scientific
+      statement: In a seven-year longitudinal study of 14 female and 16 male captive olive baboons at the CNRS Primatology Station in Rousset-sur-Arc, France, measured size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while measured body shape remained similar. This result is limited to that cohort, not wild populations.
+      confidence: medium
+      confidenceRationale: The source describes its captive cohort, seven-year longitudinal design, measured segment morphometrics, and age- and sex-related results directly. The conclusion is restricted to that cohort.
+      referenceLinks:
+        - referenceId: druelle-2017-olive-baboon-growth
+          relation: supports
+          pages: Abstract; Materials and methods, Study site and subjects; Results, Changes in morphotypes with age; Discussion, Sex-related differences
+    - subjectId: taxon:papio_anubis
+      claimType: ecology
+      claimKind: scientific
+      statement: At Lake Manyara National Park, Tanzania, road-transect distance sampling from 2011–2019 produced an abundance estimate more than three times the upper-limit estimate derived from sleeping-site counts and average group size. The authors identify baboons’ use of roads as a possible source of bias and caution against inferring density from constrained road transects; this is a site- and method-specific result, not a species-wide density estimate.
+      confidence: medium
+      confidenceRationale: The paper reports the survey years, constrained road design, sleeping-site comparison, and possible road-use bias. It reports poor detection-model fit, so this selected result remains method- and site-specific.
+      referenceLinks:
+        - referenceId: kiffner-2022-lake-manyara-baboon-distance
+          relation: supports
+          pages: Abstract; Methods, Line distance surveys and abundance maximum; Results and Discussion; Tables 1–3
+    - subjectId: taxon:papio_anubis
+      claimType: ecology
+      claimKind: scientific
+      statement: In Gombe National Park, Tanzania, records from 1972–2002 covered 732 pregnancies among 175 females of known rank, including 65 miscarriages. In a time-dependent analysis, higher-ranking pregnant females exposed to immigrant males that reached top rank within a year had higher miscarriage hazards outside drought conditions; the rank pattern largely disappeared when two-year mean rainfall was below about 1,100 mm. Exposure to new immigrants overall did not show the same association. This conditional result from one wild population is not a species-wide rate or proof of deliberate male-caused pregnancy loss.
+      confidence: medium
+      confidenceRationale: The primary study reports the Gombe observation period, pregnancy sample, rank and rainfall interaction, and difference between rapid-rising males and immigrant males overall. It is observational and conditional; it does not show a species-wide rate or prove deliberate causation.
+      referenceLinks:
+        - referenceId: bailey-2021-gombe-baboon-reproduction
+          relation: supports
+          pages: Abstract; Results, rank, rainfall and miscarriage interaction; Methods, Study area and population and Miscarriage data and analyses
+    - subjectId: taxon:papio_anubis
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The selected COL26.8 checklist and the cited living-population studies do not estimate geographic-range limits or temporal fossil-range endpoints for Papio anubis; numerical ranges remain withheld.
+      confidence: medium
+      confidenceRationale: The checklist establishes identity and classification, while the selected biological papers concern living populations and do not estimate a complete geographic range or temporal fossil endpoints. Those ranges therefore remain withheld.
+      referenceLinks:
+        - referenceId: col-2026-checklistbank-316115
+          relation: supports
+          pages: Accepted species usage 6TM9B; identity and classification only
+        - referenceId: druelle-2017-olive-baboon-growth
+          relation: contextualizes
+          quoteLocator: Captive living-cohort morphometry study; no range endpoint estimate
+        - referenceId: bailey-2021-gombe-baboon-reproduction
+          relation: contextualizes
+          quoteLocator: Wild Gombe reproductive study; no range endpoint estimate
+        - referenceId: kiffner-2022-lake-manyara-baboon-distance
+          relation: contextualizes
+          quoteLocator: Wild Lake Manyara monitoring study; no range endpoint estimate
+  claim-rationales.zh:
+    - 固定版 COL26.8 明确记录该接受用名及直接父级。此陈述仅限清单身份与分类。
+    - 所引一手研究均直接列出其取样地点与圈养或野生研究状态；陈述明确不推断完整地理分布。
+    - 来源直接说明圈养群体、七年纵向设计、测量的身体分段形态及年龄和性别相关结果。结论限定于该研究群体。
+    - 论文报告调查年份、受道路限制的设计、夜宿地点比较及道路使用可能造成的偏差。检测模型拟合较差，因此该结果保留地点和方法范围。
+    - 一手研究报告贡贝观察时段、妊娠样本、等级与降雨交互，以及快速升至最高等级的移入雄性与一般移入雄性的差异。研究为观察性且有条件，不能证明全物种流产率或故意因果。
+    - 清单仅支持身份和分类；所选生物学论文研究现生种群，没有估计完整地理分布或化石年代端点，因此数值范围保持隐藏。
+  claim-statements.zh:
+    - COL26.8 数据集 316115 将接受的种级用名 6TM9B 记录为 Papio anubis（Lesson, 1827），其直接父级为 Papio 用名 6DGR。此陈述仅记录清单身份和分类位置。
+    - 所选研究分别采样了法国鲁塞特-苏尔-阿克 CNRS 灵长类研究站的圈养群体、坦桑尼亚贡贝国家公园的野生狒狒，以及坦桑尼亚曼雅拉湖国家公园道路样线上的种群。这些研究地点不能界定该物种的地理分布。
+    - 在法国鲁塞特-苏尔-阿克 CNRS 灵长类研究站开展的一项为期七年的纵向研究中，14 只雌性和 16 只雄性圈养橄榄狒狒出生时的测量体型与身体形状相近；此后生长速度和持续时间不同，形成明显体型差异，而测量的身体形状仍相近。该结果仅适用于该研究群体，不代表野外种群。
+    - 在坦桑尼亚曼雅拉湖国家公园，2011 至 2019 年道路样线距离抽样所得数量估计值，超过按夜宿地点计数和平均群体规模推得的数量上限三倍。作者指出，狒狒使用道路可能造成偏差，并提醒不要直接用受道路约束的样线推断密度；这是特定地点和方法的结果，不是物种层面的密度估计。
+    - 在坦桑尼亚贡贝国家公园，1972—2002 年的记录涵盖 175 只已知等级雌性的 732 次妊娠，其中 65 次以流产告终。时变分析显示，在非干旱条件下，接触到移入后一年内升至群体最高等级雄性的高等级孕雌，其流产风险较高；两年平均降雨量低于约 1,100 毫米时，这种等级相关模式基本消失。一般移入雄性的接触未显示相同关联。这是单一野生种群中的条件性结果，不代表全物种流产率，也不能证明雄性有意造成妊娠损失。
+    - 所选 COL26.8 清单和所引现生种群研究均未估计 Papio anubis 的地理分布边界或化石年代范围端点；数值范围继续隐藏。
+  ranges:
+    - entityId: papio_anubis
+      rangeKind: global-composite
+      taxonomicConcept: Papio anubis accepted COL26.8 usage 6TM9B; numerical temporal and geographic range withheld
+      geographicScope: No numerical geographic-temporal range exposed; selected study sites do not define the taxon range
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; the pinned checklist and selected population studies do not establish fossil endpoints or a complete wild-distribution inventory.
+      evidenceBasis: COL26.8 supports accepted identity and classification of Papio anubis; selected living-population studies do not estimate a temporal fossil range or complete geographic range.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: col-2026-checklistbank-316115
+          locator: COL26.8 dataset 316115; accepted usage 6TM9B, with Papio parent classification (identity and classification only)
+  field-claim-overrides:
+    - ecology.diet:
+        status: not-assessed
+      ecology.habitat:
+        claimId: claim:taxon:papio_anubis:ecology
+      ecology.locomotion:
+        status: not-assessed
+      ecology.bodySize:
+        claimId: claim:taxon:papio_anubis:morphology
+      ecology.guild:
+        status: not-assessed

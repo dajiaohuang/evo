@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Geokichla sibirica
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Geokichla sibirica
+      en: Geokichla sibirica
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetGeokichlaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-9e8578dd49
+            part: body
+          en:
+            page: en
+            section: s-84a15c61cd
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetGeokichlaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-085913e70f
+            part: body
+          en:
+            page: en
+            section: s-9faa76e214
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetGeokichlaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-bcb40cc775
+            part: body
+          en:
+            page: en
+            section: s-cc14d077af
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetGeokichlaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-e4c5db4a6d
+            part: body
+          en:
+            page: en
+            section: s-72d82cf9ea
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetGeokichlaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-488286483d
+            part: body
+          en:
+            page: en
+            section: s-7d08e374f5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Geokichla sibirica
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FPZQ
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetGeokichlaHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Geokichla historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 14 selected AVONET1_BirdLife rows within 8546–8566; corresponding BirdLife–eBird and BirdLife–BirdTree rows individually recorded in receipt, with relevant Metadata definitions.
+          scope:
+            zh: 仅本批十四条历史资料；样本、文献体重、食性与活动类别分开，旧组合拼写差异保留。
+            en: Only these fourteen historical records; samples, compiled mass, food and lifestyle categories kept separate, with the older-combination spelling discrepancy retained.
+    limitations:
+      zh:
+        page: zh
+        section: s-73e6beae08
+        part: body
+      en:
+        page: en
+        section: s-ce8efe04c0
+        part: body

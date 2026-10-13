@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tyto balearica
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Tyto balearica
+      en: Tyto balearica
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-414a7ab28c
+            part: body
+          en:
+            page: en
+            section: s-fd4721a996
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2d0f4a84c4
+            part: body
+          en:
+            page: en
+            section: s-828a421495
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-df7697a06f
+            part: body
+          en:
+            page: en
+            section: s-0ae9380bf8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0e1d0343e4
+            part: body
+          en:
+            page: en
+            section: s-5845a1dbbd
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ea7fe059b8
+            part: body
+          en:
+            page: en
+            section: s-8ef6e8e85f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Tyto balearica
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=94154&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:94154; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:94154
+          selectedOccurrenceIds:
+            - occ:639305
+            - occ:639306
+            - occ:639310
+            - occ:641097
+            - occ:1085602
+            - occ:1529329
+            - occ:1576616
+            - occ:1576617
+          selectedCollectionIds:
+            - col:68814
+            - col:68812
+            - col:68813
+            - col:69062
+            - col:136227
+            - col:214536
+            - col:78572
+            - col:35339
+          sourceReferenceIds:
+            - ref:19858
+            - ref:19913
+            - ref:43576
+            - ref:73990
+            - ref:78374
+          originalIdentificationMappings:
+            - occurrenceId: occ:639306
+              originalIdentifiedName: Tyto balearica n. sp.
+              acceptedName: Tyto balearica
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-75de4a2465
+        part: body
+      en:
+        page: en
+        section: s-c57e2d0aa4
+        part: body

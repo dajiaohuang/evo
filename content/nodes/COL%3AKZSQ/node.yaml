@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachuperus pinchonii
+  displayName: Batrachuperus pinchonii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZSQ
+  sourceIndexes:
+    - name:
+        en: Batrachuperus pinchonii
+        zh: Batrachuperus pinchonii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZSQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/414
+            queryName: Batrachuperus pinchonii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/354
+            queryName: Batrachuperus cochranae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/170
+            queryName: Salamandrella sinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/45
+            queryName: Dermodactylus pinchonii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/46
+            queryName: Desmodactylus pinchonii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/47
+            queryName: Batrachuperus sinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/48
+            queryName: Batrachyperus sinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6aecf43b92
+      - s-bacc823cfe
+      - s-59119ec62e
+      - s-9da2f4891f
+      - s-a094216995
+      - s-906fa2d5d1
+      - s-3df94d02c9
+      - s-3807defe77
+      - s-ac7c799a13
+      - s-bc7cb7a9d5
+      - s-b328403712
+      - s-144bb407fa
+      - s-11a2075454
+      - s-016cae6b86
+      - s-0acddc10e0
+      - s-e90eeeee5f
+      - s-58c165514f
+    zh:
+      - s-ae9e79b3da
+      - s-be9394ef3e
+      - s-96d8050929
+      - s-63fb8b4f9d
+      - s-5c4b0d8d9a
+      - s-e1e537af38
+      - s-f512a96802
+      - s-fda794e481
+      - s-47c38afaaf
+      - s-25421832f1
+      - s-c067b76edc
+      - s-c7093e85b0
+      - s-c072b9b483
+      - s-5f4dc6614a
+      - s-edc3e7a4e1
+      - s-ac9eb14f34
+      - s-286e960801

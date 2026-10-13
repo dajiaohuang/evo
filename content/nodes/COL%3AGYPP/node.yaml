@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptella subvoce
+  displayName: Arthroleptella subvoce
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYPP
+  sourceIndexes:
+    - name:
+        en: Arthroleptella subvoce
+        zh: Arthroleptella subvoce
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYPP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/141
+            queryName: Arthroleptella subvoce
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c15ef15565
+      - s-986402bd28
+      - s-f984fe0c7a
+      - s-3931d15216
+      - s-31bd9f4b92
+      - s-2e38efdbb2
+      - s-0afaa21486
+      - s-c492e79284
+      - s-b278547718
+    zh:
+      - s-359598d7e8
+      - s-27df39f52f
+      - s-11f1997187
+      - s-142e024c44
+      - s-3b737efd42
+      - s-1ef201db3f
+      - s-e1813a0e3a
+      - s-eb49caf44f
+      - s-2a27a5c497

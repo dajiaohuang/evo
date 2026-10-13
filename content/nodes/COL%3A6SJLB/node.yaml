@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oedipina paucidentata
+  displayName: Oedipina paucidentata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SJLB
+  sourceIndexes:
+    - name:
+        en: Oedipina paucidentata
+        zh: Oedipina paucidentata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SJLB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/84
+            queryName: Oedipina paucidentata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2e01504de9
+      - s-3282225719
+      - s-312ccc9b43
+      - s-0ac532e09e
+      - s-4cc681f135
+      - s-68bae26bf6
+      - s-8a55f3561f
+      - s-fecee941bd
+    zh:
+      - s-701590421a
+      - s-0e77f112dc
+      - s-aa10bf4092
+      - s-e4be23f28f
+      - s-65d2f6c70e
+      - s-0667161538
+      - s-6b147971ac
+      - s-611587ee0c

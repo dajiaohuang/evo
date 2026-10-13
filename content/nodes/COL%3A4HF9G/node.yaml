@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus erythros
+  displayName: Physalaemus erythros
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF9G
+  sourceIndexes:
+    - name:
+        en: Physalaemus erythros
+        zh: Physalaemus erythros
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF9G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/321
+            queryName: Physalaemus erythros
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4d3f90c7e1
+      - s-da91b368ed
+      - s-6ac6f1405c
+      - s-bec3206573
+      - s-8d41df9b8e
+      - s-3ee2de27dc
+      - s-dba2675696
+      - s-ebc79cb9fb
+      - s-f521e53fc9
+      - s-b5f2096843
+      - s-3e99de23ba
+      - s-65a3665da9
+    zh:
+      - s-aa5c7b3dda
+      - s-bdcc9584b0
+      - s-5d1e092099
+      - s-b7278225a3
+      - s-45942e71da
+      - s-c716e5acd3
+      - s-00ba583e24
+      - s-f6d2dd9be9
+      - s-c5bf2f92d6
+      - s-80e3abd7af
+      - s-ed2d3aef36
+      - s-cdf4d70afc

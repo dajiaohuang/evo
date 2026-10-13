@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenophrys parva
+  displayName: Xenophrys parva
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CB2Z
+  sourceIndexes:
+    - name:
+        en: Xenophrys parva
+        zh: Xenophrys parva
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CB2Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/292
+            queryName: Xenophrys parva
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/89
+            queryName: Megophrys parva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/90
+            queryName: Leptobrachium parvum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/91
+            queryName: Megalophrys parva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/92
+            queryName: Panophrys parva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-04ec1334ec
+      - s-06369d9dca
+      - s-706bbd21f2
+      - s-d20f4a05e8
+      - s-2a1c873453
+      - s-e0999919ea
+      - s-2c8c76a492
+      - s-edac9c0144
+      - s-9c4ede54b4
+      - s-b61f352144
+      - s-e6b14afb69
+    zh:
+      - s-5240fca458
+      - s-b2f083d7a0
+      - s-0c82214489
+      - s-3b5713fa23
+      - s-d7304fc6dd
+      - s-49b312f050
+      - s-5ed5581c6b
+      - s-dd981954bc
+      - s-ca85feff17
+      - s-e7a799e5ab
+      - s-746fc5f6a9

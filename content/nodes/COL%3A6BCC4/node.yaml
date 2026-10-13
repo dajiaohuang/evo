@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor amniscola
+  displayName: Craugastor amniscola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCC4
+  sourceIndexes:
+    - name:
+        en: Craugastor amniscola
+        zh: Craugastor amniscola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCC4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/82
+            queryName: Craugastor amniscola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/252
+            queryName: Eleutherodactylus amniscola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8ce19b1699
+      - s-7fb6ec24fb
+      - s-7ca6f4b6b0
+      - s-e4633b20ee
+      - s-7f870f1c50
+      - s-1999c40f5a
+      - s-ffd1922e1b
+    zh:
+      - s-563aebdb46
+      - s-471a3d8af1
+      - s-79c335bf26
+      - s-4aae39b972
+      - s-0f9b87e47c
+      - s-622e5a8647
+      - s-dc926be157

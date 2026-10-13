@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctanolis
+  displayName: Nyctanolis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65YG
+  sourceIndexes:
+    - name:
+        en: Nyctanolis
+        zh: Nyctanolis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65YG
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/94
+            queryName: Nyctanolis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 19
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-54cb6e016d
+      - s-3486e84916
+      - s-53b2bf4a8a
+      - s-87110121ca
+      - s-b3088a0912
+      - s-f4b118864b
+      - s-8ad5296908
+      - s-186b0d8a2e
+      - s-7a645ea386
+      - s-d77959df04
+      - s-d8ab3d72db
+      - s-b87c718b24
+      - s-c026f0b98b
+    zh:
+      - s-c3a211c3d3
+      - s-8b86fc61f5
+      - s-3871a63424
+      - s-6edd73dfc5
+      - s-fe9edd6986
+      - s-26496a393d
+      - s-973eef02c8
+      - s-8bc4f237c9
+      - s-278aa82df6
+      - s-325e98f93b
+      - s-bdcaeb5927
+      - s-7830ca6001
+      - s-fb093a2c25

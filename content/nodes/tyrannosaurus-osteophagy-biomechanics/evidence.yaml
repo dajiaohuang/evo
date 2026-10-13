@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-fb5beea563
+      part: title
+    titleZh:
+      page: zh
+      section: s-6586c59e69
+      part: title
+    category: behavior
+    startAge: 68
+    endAge: 66
+    regions:
+      - Hell Creek Formation and comparative adult T. rex sample
+    clades:
+      - Tyrannosauridae
+      - Tyrannosaurus
+      - Ceratopsia
+    summary:
+      page: en
+      section: s-fb5beea563
+      part: body
+    summaryZh:
+      page: zh
+      section: s-6586c59e69
+      part: body
+    claimIds:
+      - claim:event:tyrannosaurus-osteophagy-biomechanics
+    evidenceItems:
+      - statement: Approximately eighty tooth traces on Triceratops ilium MOR 799 and bone in coprolite SMNH P2609.1 directly document bone interaction and ingestion; bite forces of 8,526–34,522 newtons and tooth pressures are muscle-and-lever model results using BHI 3033 and six other adult skulls.
+        relation: supports
+        claimIds:
+          - claim:event:tyrannosaurus-osteophagy-biomechanics
+        referenceLinks:
+          - referenceId: gignac-2017-tyrannosaurus-osteophagy
+            relation: supports
+            pages: 7:2012
+            figure: Figures 1–4; Datasets 1–2
+            quoteLocator: Specimen examination; Jaw-muscle reconstruction; Bite-force and tooth-pressure models
+    uncertaintyItems:
+      - statement: The models test capability rather than observe a feeding event; MOR 799 and the coprolite do not identify every individual or every feeding context.
+        relation: contextualizes
+        claimIds:
+          - claim:event:tyrannosaurus-osteophagy-biomechanics
+        referenceLinks:
+          - referenceId: gignac-2017-tyrannosaurus-osteophagy
+            relation: supports
+            pages: 7:2012
+            figure: Figures 1–4; Datasets 1–2
+            quoteLocator: Specimen examination; Jaw-muscle reconstruction; Bite-force and tooth-pressure models
+  claims:
+    - subjectId: event:tyrannosaurus-osteophagy-biomechanics
+      claimKind: scientific
+      claimType: ecology
+      statement: Approximately eighty tooth traces on Triceratops ilium MOR 799 and bone in coprolite SMNH P2609.1 directly document bone interaction and ingestion; bite forces of 8,526–34,522 newtons and tooth pressures are muscle-and-lever model results using BHI 3033 and six other adult skulls.
+      confidence: medium
+      confidenceRationale: Trace fossils and ingested bone directly support osteophagy, while force, pressure and carcass-processing performance depend on anatomical reconstruction and mechanical assumptions.
+      referenceLinks:
+        - referenceId: gignac-2017-tyrannosaurus-osteophagy
+          relation: supports
+          pages: 7:2012
+          figure: Figures 1–4; Datasets 1–2
+          quoteLocator: Specimen examination; Jaw-muscle reconstruction; Bite-force and tooth-pressure models
+  claim-rationales.zh:
+    - 痕迹化石与摄入骨骼直接支持食骨行为，而咬合力、压力与尸体处理性能依赖解剖重建和力学假设。
+  claim-statements.zh:
+    - 三角龙髂骨 MOR 799 上约八十处齿痕与粪化石 SMNH P2609.1 中的骨骼，直接记录啃骨与摄入；8,526–34,522 牛顿咬合力和齿压则是以 BHI 3033 及另六件成年头骨建立的肌肉—杠杆模型结果。

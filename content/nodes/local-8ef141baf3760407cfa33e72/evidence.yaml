@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius mikawaensis
+    name:
+      en: Hynobius mikawaensis
+      zh: Hynobius mikawaensis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-34454cc8f2
+            part: body
+          zh:
+            page: zh
+            section: s-ea7443224e
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ead98a99c2
+            part: body
+          zh:
+            page: zh
+            section: s-8ea4cb9664
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 162, 163; Reference.csv rows 4060
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 162
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius mikawaensis
+          - M
+          - NA
+          - "54.8"
+          - "41.4836"
+          - "27.674"
+          - "13.3164"
+          - "10.3572"
+          - "3.2332"
+          - "2.9044"
+          - NA
+          - "1.644"
+          - "3.1784"
+          - "3.7812"
+          - "38.3052"
+          - "5.3156"
+          - "6.85"
+          - "5.754"
+          - "3.7812"
+          - "13.5356"
+          - "16.4948"
+          - "2.466"
+          - "2.2468"
+          - "3.8908"
+          - "1.2604"
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 163
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius mikawaensis
+          - F
+          - NA
+          - "56.1"
+          - "43.2531"
+          - "29.2842"
+          - "12.8469"
+          - "10.1541"
+          - "3.3099"
+          - "2.9733"
+          - NA
+          - "1.5147"
+          - "2.9172"
+          - "3.5904"
+          - "36.0723"
+          - "4.9368"
+          - "5.7783"
+          - "5.049"
+          - "3.4221"
+          - "12.7908"
+          - "16.269"
+          - "2.4123"
+          - "2.244"
+          - "3.7587"
+          - "1.3464"
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4060
+        values:
+          - Caudata
+          - Hynobius_mikawaensis
+          - Matsui, M., Misawa, Y., Nishikawa, K., & Shimada, T. (2017). A new species of lentic breeding salamander (Amphibia, Caudata) from central Japan. Current Herpetology, 36(2), 116-126. https://doi.org/10.5358/hsj.36.11
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6MQLD
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius tuberculatus
+  displayName: Hyperolius tuberculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NR26
+  sourceIndexes:
+    - name:
+        en: Hyperolius tuberculatus
+        zh: Hyperolius tuberculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NR26
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/348
+            queryName: Hyperolius tuberculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 57
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/274
+            queryName: Rappia tuberculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/37
+            queryName: Hyperolius tuberculatus tuberculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3c73e9a4c8
+      - s-b20c2830a5
+      - s-c1c78ab5f9
+      - s-de857a1c94
+      - s-15ce22530f
+      - s-5bda11c151
+      - s-14cbb5ac13
+      - s-e9f6544d69
+      - s-c56267a78d
+      - s-71d820a463
+      - s-7ccf5021c6
+      - s-3ae6fbdff2
+      - s-51f0f180b9
+      - s-9df8e5a9f7
+      - s-c6dd06d4d0
+      - s-36af4998ea
+      - s-c35512fd12
+      - s-3d276a8785
+      - s-f73d4d7c5f
+      - s-70c627bc4b
+    zh:
+      - s-714fdc537d
+      - s-2ba2f8c03b
+      - s-605954a07c
+      - s-d972ec12ed
+      - s-8e3882cf08
+      - s-856deb8be7
+      - s-8fbda511c3
+      - s-094709a7fa
+      - s-4f6bcf6c4a
+      - s-63b7f31713
+      - s-4039b2add0
+      - s-2feec28567
+      - s-b57a331301
+      - s-d44a4c9b9e
+      - s-279280bdd4
+      - s-e89c7f9202
+      - s-29bab693b2
+      - s-b233d62668
+      - s-3d0da2a90c
+      - s-3f11ce588f

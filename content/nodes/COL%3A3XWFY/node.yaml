@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus zipperi
+  displayName: Mantidactylus zipperi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWFY
+  sourceIndexes:
+    - name:
+        en: Mantidactylus zipperi
+        zh: Mantidactylus zipperi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWFY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/362
+            queryName: Mantidactylus zipperi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8753e3f889
+      - s-9f61f52f02
+      - s-cad8730bd1
+      - s-0e41eb2811
+      - s-32505083c9
+      - s-f2e3ffda44
+      - s-a11c571b28
+      - s-dd4be218eb
+      - s-e3750b4548
+      - s-c204d3e6f7
+      - s-b1000f2d20
+    zh:
+      - s-68844c59e4
+      - s-7b283482aa
+      - s-714037dec8
+      - s-e750861b9a
+      - s-53fbbb999b
+      - s-d5b4bc0add
+      - s-12716af09c
+      - s-39dcb4b956
+      - s-c846cddbb9
+      - s-a45fea045e
+      - s-ed6dc0a81f

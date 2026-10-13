@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla hallowellii
+  displayName: Hyla hallowellii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NCVW
+  sourceIndexes:
+    - name:
+        en: Hyla hallowellii
+        zh: Hyla hallowellii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NCVW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/361
+            queryName: Hyla hallowellii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/465
+            queryName: Hyla hallowelli hallowelli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/466
+            queryName: Hyla hallowelli schmidti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6660db312d
+      - s-6ed4134a6b
+      - s-dbc12cc998
+      - s-29c5c57307
+      - s-c97b7de659
+      - s-8752bdb224
+      - s-8b492ae60b
+      - s-7c07b9a416
+    zh:
+      - s-277b3bfd13
+      - s-fdbf031a4c
+      - s-ff2f563bb5
+      - s-ed18a7491e
+      - s-c05e8a1051
+      - s-25d2b496f8
+      - s-5c4305c085
+      - s-cbaa49118b

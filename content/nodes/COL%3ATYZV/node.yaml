@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis bassleri
+  displayName: Chiasmocleis bassleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TYZV
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis bassleri
+        zh: Chiasmocleis bassleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TYZV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/240
+            queryName: Chiasmocleis bassleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/224
+            queryName: Syncope bassleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-25e399e02c
+      - s-5cc8857e2d
+      - s-7b033baa67
+      - s-55af5b70e3
+      - s-f8376dcfa8
+      - s-ffb9ffa66a
+      - s-2644022147
+      - s-b8a83997ee
+      - s-3eaf91bf27
+      - s-034c4a6443
+      - s-8aeb6de001
+      - s-dd226d3b14
+    zh:
+      - s-5753f8d7ea
+      - s-86a8b98250
+      - s-70ad0c29ad
+      - s-281ca98e1e
+      - s-c1bd54a140
+      - s-bfb2753e91
+      - s-e577b03d3a
+      - s-bb5dc617e2
+      - s-f3fc28f6e2
+      - s-a43abbb5d9
+      - s-082d448d8f
+      - s-167b765a9b

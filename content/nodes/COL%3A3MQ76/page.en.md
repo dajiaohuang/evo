@@ -1,0 +1,18 @@
+## Find rows through older Cettia combinations {#s-6de98db288}
+Pinned COL26.8 organizes this page at Horornis diphone (3MQ76). BirdLife 2020 row 7414 and eBird 2021 row 4903 share the name and Avibase ID AVIBASE-7D1FD35D, with type 1BL to 1eBird; BirdTree row 4880 gives Cettia diphone, with type 1BL to 1BT. Catalogue synonym 69MPL, read in this batch, points to this accepted ID. Source family Scotocercidae and current COL Cettiidae remain separate; genus and ending changes locate sources without establishing identical species boundaries across dates.
+
+## Separate total birds from complete sets {#s-f35e2bad10}
+Morphology comprises 5 birds: 0 female, 2 male and 3 unsexed; 4 complete sets. Nostril-to-tip beak length 8.3 mm, tarsus 25 mm, unflattened wing 60.6 mm, tail 59.8 mm and hand-wing index 14.3 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. No sexed female is present, but unsexed birds remain; an all-male sample or sex comparison is unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.
+
+## Mass comes from a separate compilation {#s-8bf920964e}
+Mass=13.31 g with Mass.Source=Dunning is a compiled species-average body mass incorporating both sexes; the 5 morphology birds are not a verified independent weighing denominator. The original book, weighed individuals, localities and dates were not read, leaving sex, seasonal and regional mass ranges unsupported. Mass and beak length do not establish feeding mechanics.
+
+## Terrestrial invertebrate niche and trophic level {#s-f006544c4e}
+Trophic.Niche=Invertivore is defined as at least 60% of food resources from invertebrates in terrestrial systems; Trophic.Level=Carnivore as at least 70% from live invertebrate or vertebrate animals. These are separate category thresholds, not measured diet proportions for this species. Underlying diet papers were not read; insect groups, seasonal diets, foraging strata and prey handling remain unsupported.
+
+## Diet does not replace primary lifestyle {#s-0ba1354c0b}
+Primary.Lifestyle=Generalist means time across lifestyle classes, without one primary category in the source definition. Habitat=Shrubland; density code 1 denotes dense vegetation, not bird abundance. Migration=1 is the sedentary category without implying lifelong immobility. A shared food niche does not establish shared foraging strata, social activity or seasonal movements. Historical map fields are uninterpreted here and do not supply current range-wide distributions or movement routes.
+
+## Evidence limits {#s-6ae8fbd908}
+This page uses one of seven selected historical AVONET v7 rows, same-name eBird and older Cettia BirdTree links, relevant definitions and COL ho/ce name shards. Six exact older-combination synonyms supply correspondence; the read shards give only a Horeites synonym at brunnescens, without exact Cettia brunnescens. These name links do not prove identical historical and current species boundaries. Morphology totals, complete sets and Dunning compiled mass retain separate denominators. Original specimens, Dunning’s book, the whole workbook and a new full methods-paper reading were not examined. Food niche, trophic level, lifestyle, vegetation density and migration codes remain separate without invented causes for their combinations. Measured diet, seed or prey lists, handling actions, plumage, calls, breeding, current range and migration routes are unsupported. Complete natural history are not counted.
+

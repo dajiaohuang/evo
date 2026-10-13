@@ -1,0 +1,3 @@
+## A field cage on newly placed reef surfaces {#s-6d1682ffd8}
+At Conch Reef in the Florida Keys, a first-year experiment placed redband parrotfish in cages over new cinderblock substrates from November 2003 through August 2004. Algal cover and biomass in the parrotfish-only treatment were similar to herbivore-exclusion controls. Among the measured algal groups, the study found no significant treatment effect except for Dictyota spp.; the evidence summary does not state the direction of that exception. This is a one-site, caged experiment on new surfaces, not a range-wide estimate of grazing by free-ranging fish.
+

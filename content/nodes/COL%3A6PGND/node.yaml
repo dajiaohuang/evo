@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus rhodomerus
+  displayName: Leptodactylus rhodomerus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PGND
+  sourceIndexes:
+    - name:
+        en: Leptodactylus rhodomerus
+        zh: Leptodactylus rhodomerus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PGND
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/430
+            queryName: Leptodactylus rhodomerus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb0d89e81d
+      - s-a2c5c9e775
+      - s-f3154c9723
+      - s-723805c6fa
+      - s-1bbf666808
+      - s-e61333d2ed
+      - s-1351bcfcea
+    zh:
+      - s-88fda2f0b3
+      - s-0d9a0941de
+      - s-8c40a8e7dc
+      - s-ff3a4dd180
+      - s-498a7be1c2
+      - s-7a072929cf
+      - s-720e1d4d1d

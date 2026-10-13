@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes hekouensis Du, Xu, Liu & Yu, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes hekouensis
+      zh: Raorchestes hekouensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-48ae38957e
+            part: title
+          zh:
+            page: zh
+            section: s-ae413cb2ca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-48ae38957e
+            part: body
+          zh:
+            page: zh
+            section: s-ae413cb2ca
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-eebc965b7f
+            part: title
+          zh:
+            page: zh
+            section: s-e764f8ad2f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eebc965b7f
+            part: body
+          zh:
+            page: zh
+            section: s-e764f8ad2f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-ec2e172549
+            part: title
+          zh:
+            page: zh
+            section: s-33c43a4212
+            part: title
+        sourceIds:
+          - primary-pmc10905625-slx5r
+        text:
+          en:
+            page: en
+            section: s-ec2e172549
+            part: body
+          zh:
+            page: zh
+            section: s-33c43a4212
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-d23ddc9f76
+            part: title
+          zh:
+            page: zh
+            section: s-65a28adef5
+            part: title
+        sourceIds:
+          - primary-pmc10905625-slx5r
+        text:
+          en:
+            page: en
+            section: s-d23ddc9f76
+            part: body
+          zh:
+            page: zh
+            section: s-65a28adef5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes hekouensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/SLX5R
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10905625-slx5r
+        referenceId: ref-fba6d45c-47cc-4adc-ae95-d9b76ba6505c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes hekouensis: Species distribution and habitat accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ef6738f6e9
+        part: body
+      zh:
+        page: zh
+        section: s-8928401edd
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1192.106013
+        referenceId: ref-fba6d45c-47cc-4adc-ae95-d9b76ba6505c
+        sourceKey: primary-pmc10905625-slx5r
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10905625/article.xml
+        sourceConcept: Raorchestes hekouensis
+        evidenceRead: "Raorchestes hekouensis: Species distribution and habitat accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Yunnan and northern Vietnamese records
+              zh: 云南与越南北部记录
+            referenceId: ref-fba6d45c-47cc-4adc-ae95-d9b76ba6505c
+            sourceKey: primary-pmc10905625-slx5r
+            locator: "Raorchestes hekouensis: Species distribution and habitat accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e716d25030
+                part: body
+              zh:
+                page: zh
+                section: s-e4bf2442ab
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: March and April survey contrast
+              zh: 三月与四月调查的差别
+            referenceId: ref-fba6d45c-47cc-4adc-ae95-d9b76ba6505c
+            sourceKey: primary-pmc10905625-slx5r
+            locator: "Raorchestes hekouensis: Species distribution and habitat accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0072ab623b
+                part: body
+              zh:
+                page: zh
+                section: s-6e4e947640
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

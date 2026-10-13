@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella viridis
+  displayName: Mantella viridis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7T
+  sourceIndexes:
+    - name:
+        en: Mantella viridis
+        zh: Mantella viridis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/299
+            queryName: Mantella viridis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da8b829dd9
+      - s-ef500d0e11
+      - s-50df36e7ea
+      - s-1f53390195
+      - s-1860d0b498
+      - s-8bf3301934
+      - s-5f724d2a4a
+      - s-08be3a8c35
+      - s-fd1a257d1f
+      - s-e9102d596a
+      - s-c71284a80e
+      - s-509276fdee
+      - s-e46c6a5014
+    zh:
+      - s-c3b17f22f7
+      - s-501ad7cfe0
+      - s-4008369c3a
+      - s-56a65e7ef3
+      - s-69f8d658eb
+      - s-05cbe2282f
+      - s-a21ac66512
+      - s-c21f03b35a
+      - s-324ac28107
+      - s-de71130c21
+      - s-3d3f0c4edc
+      - s-b20cfb919d
+      - s-a3da8d9601

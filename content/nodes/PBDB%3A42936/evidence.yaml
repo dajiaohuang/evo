@@ -1,0 +1,205 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Basilosauridae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Basilosauridae
+      en: Basilosauridae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bddd97a835
+            part: body
+          en:
+            page: en
+            section: s-bc93607b37
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9463d6cfa4
+            part: body
+          en:
+            page: en
+            section: s-0c46a90eb8
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-698070baff
+            part: title
+          zh:
+            page: zh
+            section: s-fc62ad61cf
+            part: title
+        sourceIds:
+          - uhen-2010-whale-origins
+          - ics-2026-06
+        text:
+          en:
+            page: en
+            section: s-698070baff
+            part: body
+          zh:
+            page: zh
+            section: s-fc62ad61cf
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Basilosauridae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=42936
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:42936
+          readingTargets:
+            - name: Bartoncetus wanklyni
+              pbdbTaxonId: txn:54015
+              canonicalPath: content/nodes/PBDB%3A54015
+            - name: Perucetus colossus
+              pbdbTaxonId: txn:475541
+              canonicalPath: content/nodes/PBDB%3A475541
+            - name: Saghacetus osiris
+              pbdbTaxonId: txn:62982
+              canonicalPath: content/nodes/PBDB%3A62982
+            - name: Supayacetus muizoni
+              pbdbTaxonId: txn:199245
+              canonicalPath: content/nodes/PBDB%3A199245
+            - name: Platyosphys aithai
+              pbdbTaxonId: txn:334116
+              canonicalPath: content/nodes/PBDB%3A334116
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e5af1892fc
+        part: body
+      en:
+        page: en
+        section: s-4dd65bbf4c
+        part: body
+  atlas-node:
+    name: Basilosauridae
+    commonName: Basilosaurids
+    commonNameZh: 龙王鲸类
+    rank: family
+    taxonId: txn:42936
+    firstAppearance: 41
+    lastAppearance: 34
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:basilosauridae
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Basilosauridae is synthesized as a sampled late Eocene radiation of fully aquatic archaeocetes with several distinct genera; the family grouping does not imply that every basilosaurid lies on the direct ancestry of Neoceti.
+      confidence: medium
+      confidenceRationale: The systematic review supports family-level anatomy and diversity while separating the sampled side branches from direct ancestry.
+      referenceLinks:
+        - relation: supports
+          referenceId: uhen-2010-whale-origins
+          pages: 207–212
+          quoteLocator: Basilosauridae and late Eocene whale synthesis
+    - subjectId: taxon:basilosauridae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Basilosauridae is displayed at 41–34 Ma only as the review's sampled late-Eocene radiation, not exact family FAD/LAD. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Basilosauridae uses Uhen, M.D. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Late Eocene basilosaurid fossil sample synthesized by Uhen; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: uhen-2010-whale-origins
+          pages: 207–212
+          quoteLocator: Basilosauridae and late Eocene whale synthesis
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 系统综述支持科级解剖与多样性，同时将取样旁支与直接祖先关系区分开。
+    - Basilosauridae 采用 Uhen, M.D.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Late Eocene basilosaurid fossil sample synthesized by Uhen；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 综述将龙王鲸科概括为晚始新世完全水生古鲸类的一个取样辐射，包含多个不同属；该科级组合不表示每一种龙王鲸科成员都位于新鲸类的直接祖线上。
+    - Basilosauridae 仅以 41–34 Ma 展示为综述所采样的晚始新世辐射，而非精确科级首末现。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: basilosauridae
+      rangeKind: global-composite
+      taxonomicConcept: Basilosauridae — source-bounded sample window
+      geographicScope: Late Eocene basilosaurid fossil sample synthesized by Uhen
+      olderMa: 41
+      youngerMa: 34
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to the review's sampled late-Eocene radiation, not exact family FAD/LAD; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: The Origin(s) of Whales directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:basilosauridae:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: uhen-2010-whale-origins
+          locator: 207–212; Basilosauridae and late Eocene whale synthesis
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized

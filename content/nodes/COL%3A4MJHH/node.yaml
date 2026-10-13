@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis marcoreyesi
+  displayName: Pristimantis marcoreyesi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJHH
+  sourceIndexes:
+    - name:
+        en: Pristimantis marcoreyesi
+        zh: Pristimantis marcoreyesi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJHH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/391
+            queryName: Pristimantis marcoreyesi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7d3cb7b8e8
+      - s-c8ee931fdb
+      - s-908f027e06
+      - s-cca44ae981
+      - s-cb0faf8f66
+      - s-d5fd0d1b5f
+      - s-5a611bd047
+    zh:
+      - s-60dcb15b2d
+      - s-f15648f90f
+      - s-d400210b1f
+      - s-975d082618
+      - s-1fa286f05a
+      - s-8f37f762f6
+      - s-f413647761

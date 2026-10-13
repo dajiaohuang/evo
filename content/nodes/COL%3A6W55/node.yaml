@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Probreviceps
+  displayName: Probreviceps
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W55
+  sourceIndexes:
+    - name:
+        en: Probreviceps
+        zh: Probreviceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W55
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/191
+            queryName: Probreviceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-527d44c7ee
+      - s-eb57735ad4
+      - s-f7351b961e
+      - s-31a8bdd866
+      - s-0ea3e69e55
+      - s-d6986b7496
+      - s-d00f334880
+    zh:
+      - s-2f53673faa
+      - s-fad7435238
+      - s-4e19476e35
+      - s-087ef66b3f
+      - s-7642ea2569
+      - s-a223b61e29
+      - s-4e1a345f54

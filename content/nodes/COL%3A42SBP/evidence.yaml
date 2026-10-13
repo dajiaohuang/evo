@@ -1,0 +1,106 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microcebus jollyae Louis Jr., Coles, Andriantompohavana, Sommer, Engberg, Zaonarivelo, Mayor & Brenneman, 2006
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 乔莉鼠狐猴
+      en: Jolly's Mouse Lemur
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-77bcab07d5
+            part: body
+          en:
+            page: en
+            section: s-eeb8fa4b13
+            part: body
+        sourceIds:
+          - louis2006
+      - topic: distribution_habitat
+        text:
+          zh:
+            page: zh
+            section: s-58502711f8
+            part: body
+          en:
+            page: en
+            section: s-4f65cc97d4
+            part: body
+        sourceIds:
+          - louis2006
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-322100bdea
+            part: body
+          en:
+            page: en
+            section: s-bc5cda9bed
+            part: body
+        sourceIds:
+          - mdd_taxonomy
+    sources:
+      - id: louis2006
+        referenceId: ref-371d4ad4-73c3-81d5-a010-5a5b7e66d490
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 支持该来源报告的样点、样本、测量或分类结论；不作为现今全域分布或保育状态来源。
+            en: Supports the study sites, samples, measurements or taxonomic conclusions in the source; not a source for current full range or conservation status.
+      - id: mdd_taxonomy
+        referenceId: ref-71fa79e3-7d75-8290-a342-0c5423da6f2c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 记录 MDD 当前页面列出的 Marohita 名称及其分类说明；固定 COL26.8 接受名仍单独标示。
+            en: Records the Marohita name and taxonomic note on the current MDD page; the pinned COL26.8 accepted name is shown separately.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42SBP
+          scope:
+            zh: 固定版本中的接受名、作者、等级和父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent link; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-71fa79e3-7d75-8290-a342-0c5423da6f2c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 支持页面所用英语普通名“Jolly's Mouse Lemur”；生物学正文限于所引研究。
+            en: Supports the English common name used on this page; biological claims remain limited to the cited studies.
+    limitations:
+      zh:
+        page: zh
+        section: s-e3fdd2b0ac
+        part: body
+      en:
+        page: en
+        section: s-13d37f7412
+        part: body

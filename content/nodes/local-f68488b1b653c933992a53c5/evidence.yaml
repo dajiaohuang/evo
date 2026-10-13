@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gephyromantis salegy
+    name:
+      en: Gephyromantis salegy
+      zh: Gephyromantis salegy
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Gephyromantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Gephyromantis salegy in the version 3 classification
+          zh: Gephyromantis salegy 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-91eb9ca7bd
+            part: body
+          zh:
+            page: zh
+            section: s-32e64b2abf
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 12 populated trait fields
+          zh: 2 条测量行与 12 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3d5ed87338
+            part: body
+          zh:
+            page: zh
+            section: s-1fc46d5a16
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1988, 1989; Reference.csv rows 448
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1988
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis salegy
+          - F
+          - "46.86"
+          - "17.54"
+          - "15.66"
+          - "5.775"
+          - "2.66"
+          - NA
+          - NA
+          - "4.28"
+          - NA
+          - "4.94"
+          - NA
+          - "2.575"
+          - "14.34"
+          - NA
+          - "26.02"
+          - "26.26"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "90.24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1989
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis salegy
+          - M
+          - "46.86666667"
+          - "17.23333333"
+          - "15.73333333"
+          - "5.466666667"
+          - "2.833333333"
+          - NA
+          - NA
+          - "4.366666667"
+          - NA
+          - "4.933333333"
+          - NA
+          - "2.5"
+          - "14.03333333"
+          - NA
+          - "29.7"
+          - "25.96666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "86.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 448
+        values:
+          - Anura
+          - Gephyromantis_salegy
+          - Andreone, F., Aprea, G., Vences, M., & Odierna, G. (2003). A new frog of the genus Mantidactylus from the rainforests of north-eastern Madagascar, and its karyological affinities. Amphibia-Reptilia, 24(3), 285-303. https://doi.org/10.1163/156853803322440763
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6KCZX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea lazulina Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 44C7K, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0001338470.
+      scope: Moraea as represented by COL26.8 usage 44C7K. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/44C7K
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 44C7K
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001338470-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 44C7K / WFO wfo-0001338470
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 97849 (Morphology), 96759 (Habitat), 94209 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 160-350 mm high. Corm ± conical, 12-18 mm at widest diam., with numerous small cormlets round base; tunics of medium-textured, matted, dark grey fibres. Stem flexuose, 1- to 5-branched, rarely simple, bearing sheathing leaves 32-38 mm long. Foliage leaf solitary, linear, longer than stem, erect to falcate, narrowly channelled, 2-3 mm wide opened flat. Rhipidial spathes with brown, attenuate tips, inner 33-45 mm long, outer ± half as long. Flowers fugaceous, blue, outer tepal limbs with white nectar guides at bases sometimes edged with dark blue, limbs of both whorls ± half reflexed, inner often more so than outer, unscented; outer tepals ± lanceolate, 22-27 x 8-9 mm, limbs 15-18 mm long, claws 7-8 mm long, inner tepals 17-20 x 5-7 mm. Filaments ± 8 mm long, united in lower half; anthers ± 5 mm long, grey-blue; pollen white or pale blue. Ovary ± cylindric, 5-6 mm long; style branches ± 7 x 5 mm, crests narrowly wedge-shaped, 7-8 mm long. Capsules and seeds unknown.
+            textZh: Moraea lazulina Goldblatt & J.C.Manning 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Morphology row 97849, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: Resembling a second Little Karoo species, Moraea exiliflora, also with a solitary, narrowly channelled basal leaf, M. lazulina has significantly larger flowers and is typically a taller plant, usually with a moderately branched stem. The flowers are always blue with large, white nectar guides on the outer tepals, 22-27 x 8-9 mm, whereas Moraea exiliflora has smaller, pale blue, mauve or white flowers with yellow (or white) nectar guides and outer tepals 14-17 x 4.5-6.0 mm. Other features of M. lazulina are likewise larger than in M. exiliflora. The shape of the flowers also differs to some extent, the tepal limbs of M. lazulina being reflexed more than 45º, the inner sometimes more so than the outer whereas the tepal limbs of M. exiliflora are laxly spreading to reflexed up to 30º.
+            textZh: SANBI 条目提供了 Moraea lazulina Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94209, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky sandstone ground, sometimes on limestone slopes near the Cango Caves.
+            textZh: SANBI 区域植物志将 Moraea lazulina Goldblatt & J.C.Manning 的生境记为：Rocky sandstone ground, sometimes on limestone slopes near the Cango Caves.
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Habitat row 96759, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

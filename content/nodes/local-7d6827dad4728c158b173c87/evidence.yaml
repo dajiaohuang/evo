@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Afrixalus delicatus
+    name:
+      en: Afrixalus delicatus
+      zh: Afrixalus delicatus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The name and scope of this tadpole record
+          zh: 这份蝌蚪记录的名称与范围
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-8d65d98121
+            part: body
+          zh:
+            page: zh
+            section: s-7aa656a2c4
+            part: body
+      - topic: morphology
+        title:
+          en: Stage labels and the fields attached to them
+          zh: 阶段标签及对应字段
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-857799283e
+            part: body
+          zh:
+            page: zh
+            section: s-4d4c50a72e
+            part: body
+      - topic: morphology
+        title:
+          en: Dimensionless proportions in image records
+          zh: 图像记录中的无量纲比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-07cee8a165
+            part: body
+          zh:
+            page: zh
+            section: s-09229856d7
+            part: body
+      - topic: overview
+        title:
+          en: A ratio that conflicts with its source row
+          zh: 与来源行不一致的比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0f0a5d7725
+            part: body
+          zh:
+            page: zh
+            section: s-81b8845908
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 17; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Hyperoliidae
+      genus: Afrixalus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 17
+        values:
+          - "Pickergill, M. (1984). Three new Afrixalus (Anura: Hyperoliidae) from south-eastern Africa. Durban Museum Novitates, 13(17), 203-220."
+          - Measurement
+          - Hand-drawn picture
+          - Afrixalus delicatus
+          - Hyperoliidae
+          - Afrixalus
+          - Afrixalus delicatus
+          - 34 (Judging based on the picture)
+          - 30.595
+          - 8.638
+          - 21.966
+          - 4.417
+          - 4.766
+          - 2.675
+          - 1.979
+          - 1.863
+          - 6.16
+          - 2.208
+          - null
+          - 0.282333714659258
+          - 0.717964515494
+          - 0.14436999597238
+          - 0.15577787759438
+          - 0.8743258724235
+          - 0.646837718581468
+          - 0.689232663834
+          - 0.213488249714
+          - 0.7216865589884
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 17
+        scientificName: Afrixalus delicatus
+        sourceField: TMH/TL
+        suppliedRatio: 0.8743258724235
+        originalNumerator: 2.675
+        originalTotalLength: 30.595
+        computedRatio: 0.08743258702402353
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 17
+        scientificName: Afrixalus delicatus
+        sourceField: DFH/TL
+        suppliedRatio: 0.646837718581468
+        originalNumerator: 1.979
+        originalTotalLength: 30.595
+        computedRatio: 0.06468377185814676
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 17
+        scientificName: Afrixalus delicatus
+        sourceField: VFH/TL
+        suppliedRatio: 0.689232663834
+        originalNumerator: 1.863
+        originalTotalLength: 30.595
+        computedRatio: 0.06089230266383396
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 17
+        scientificName: Afrixalus delicatus
+        sourceField: BMW/TL
+        suppliedRatio: 0.213488249714
+        originalNumerator: 6.16
+        originalTotalLength: 30.595
+        computedRatio: 0.20134008824971403
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 17
+        scientificName: Afrixalus delicatus
+        sourceField: TMW/TL
+        suppliedRatio: 0.7216865589884
+        originalNumerator: 2.208
+        originalTotalLength: 30.595
+        computedRatio: 0.0721686550089884
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.282333714659258
+        row: 17
+        stage: 34 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.717964515494
+        row: 17
+        stage: 34 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.14436999597238
+        row: 17
+        stage: 34 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.15577787759438
+        row: 17
+        stage: 34 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 65FTT
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

@@ -1,0 +1,3 @@
+## Leaflet alternatives and an indehiscent legume {#s-cd0dfe4efd}
+The Brazilian Flora 2020 entry lists stems as glabrous, spiny or pubescent. Stipules are linear or falcate; the petiole is under 5 cm and rachis length is 6–10 cm or 11–20 cm. Sessile, obovate or pear shaped extrafloral nectaries occur between all leaflet pairs. Leaflet counts are four pairs or 6–10 pairs; leaflets are oblong or ovate with cuspidate tips. The raceme has lanceolate bracts. Flowers are zygomorphic, with an oblong central adaxial petal and seven fertile stamens. The legume is indehiscent and erect, linear and externally depressed between seeds; seeds are arranged in one series. No habitat field is included, so the entry does not establish habitat or range.
+

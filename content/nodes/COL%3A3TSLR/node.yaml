@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis aubryioides
+  displayName: Leptopelis aubryioides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSLR
+  sourceIndexes:
+    - name:
+        en: Leptopelis aubryioides
+        zh: Leptopelis aubryioides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSLR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/467
+            queryName: Leptopelis aubryioides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/227
+            queryName: Leptopelis omissus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/278
+            queryName: Hylambates rufus aubryioides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/279
+            queryName: Leptopelis omissus omissus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9cb9a040ec
+      - s-fee56e0b18
+      - s-4e71db7b95
+      - s-df61fb1fb8
+      - s-d04929cd6f
+      - s-5ab7e4588f
+      - s-5dea20a4e9
+      - s-76c897b2fb
+      - s-cf6515f4e4
+      - s-60642721b4
+      - s-45468bcde5
+      - s-55b68431af
+      - s-267af75704
+      - s-2caf0e716a
+    zh:
+      - s-8c9b12c8bc
+      - s-686741e8c5
+      - s-4a0c1d4243
+      - s-4acb878ab5
+      - s-37a3f23168
+      - s-f37d28847f
+      - s-c59ff05bd0
+      - s-79c4b8e906
+      - s-295720f2ca
+      - s-69b5b24678
+      - s-1f037fa606
+      - s-9ca342713f
+      - s-586b0d87ea
+      - s-c28339fdce

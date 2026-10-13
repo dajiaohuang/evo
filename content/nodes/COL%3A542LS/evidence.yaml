@@ -1,0 +1,138 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Syringodea saxatilis M.P.de Vos
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 542LS, name, authorship, rank, and source dataset 2232; exact accepted-name-and-authorship WFO 2026-06 crosswalk to wfo-0000786216.
+      scope: Syringodea saxatilis M.P.de Vos as represented by COL26.8 usage 542LS; biological claims retain the cited South African regional scope.
+    lifeStatusScope:
+      wild: Claims concern wild populations described by the cited regional flora or national assessment.
+      domesticated: Cultivation is not covered by cited claims; no domestication claim is made.
+      fossil: No fossil occurrence claim is made; fossil evidence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 21
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/542LS
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted taxon usage 542LS
+          scope: Accepted name, authorship, rank, status, and source dataset only.
+      - id: wfo
+        referenceId: ref-b7a0da64-36cd-8130-ab0c-cf9d69929170
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000786216-2026-06
+          version: WFO 2026-06, issued 2026-06-21; DOI 10.5281/zenodo.20782718
+          locator: Exact accepted COL 542LS / WFO wfo-0000786216 crosswalk
+          scope: Identity-link evidence only, not biological evidence.
+      - id: sanbi-archive
+        referenceId: ref-240f872a-55ec-83ef-ae4f-5731c9346cae
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          locator: Morphology row 98949; diagnostic row 95198; habitat row 97660
+          scope: South African flora morphology, diagnostic, and habitat fields only.
+      - id: redlist
+        referenceId: ref-cd7976e5-9609-80fc-a81c-fa49783c4445
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: National status, criteria, assessment date, range, and population/habitat fields where cited
+          scope: South African national assessment only; not a global status.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "The SANBI e-Flora morphology field describes Syringodea saxatilis M.P.de Vos: plants 40–80 mm high, with a solitary falcate leaf that is unifacial and subcylindrical distally but bifacial and folded basally; flowers pale to deep violet."
+            textZh: SANBI e-Flora 形态字段记载 Syringodea saxatilis M.P.de Vos：株高 40–80 mm，具一枚镰形叶，叶片远端单面、近圆柱形，基部双面并对折；花浅紫至深紫。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, morphology row 98949
+            placeTimeScope: SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.
+            lifeStatus: Wild regional-flora evidence; cultivated status is not assessed.
+          - text: The archive identifies it as unique in the genus for its solitary falcate leaf; juvenile plants have an entirely unifacial, terete leaf.
+            textZh: 档案指出其在属内独特地具一枚镰形叶；幼株叶片完全为单面、圆柱形。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, diagnostic row 95198
+            placeTimeScope: SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.
+            lifeStatus: Wild regional-flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of morphology has not been completed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony washes on low quartzite or sandstone outcrops.
+            textZh: SANBI e-Flora 生境字段记载：低矮石英岩或砂岩露头上的多石冲沟。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, habitat row 97660
+            placeTimeScope: SANBI e-Flora source 18638.0 in the South African flora archive; a regional descriptive field, not a global synthesis or current-population estimate.
+            lifeStatus: Wild regional-flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of ecology has not been completed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The 2022 SANBI national assessment places it around Ladismith and along the southern foothills of the Anysberg in the Western Cape; it is described as a small, cryptic, autumn-flowering species.
+            textZh: SANBI 2022 年南非国家评估记载其分布于西开普 Ladismith 周边及 Anysberg 南麓；页面称其为体型小、隐蔽、秋季开花的种。
+            sourceIds:
+              - redlist
+            locator: South African national distribution and geographic range fields
+            placeTimeScope: SANBI national assessment 2022-10-03; distribution within South Africa only.
+            lifeStatus: Wild regional-flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of distribution has not been completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: partially-supported
+        claims:
+          - text: The SANBI national assessment lists Vulnerable (VU) B1ab(ii,iii)+2ab(ii,iii), assessed 2022-10-03; it estimates six known locations and notes uncertainty that additional subpopulations may exist. This is a South African national status, not global.
+            textZh: SANBI 南非国家评估列为易危（VU）B1ab(ii,iii)+2ab(ii,iii)，评估日期 2022-10-03；评估估计已知 6 个地点，并指出可能还存在其他亚种群的不确定性。这是南非国家等级，不代表全球。
+            sourceIds:
+              - redlist
+            locator: National category, criteria, assessment date, scope, and stated caveats.
+            placeTimeScope: SANBI South African national assessment dated 2022-10-03; not global.
+            lifeStatus: Wild South African populations within the national assessment scope.
+        gaps:
+          - Regional evidence is partial; a scope-complete review of conservation has not been completed.

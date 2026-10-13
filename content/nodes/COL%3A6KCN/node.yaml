@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelodytes
+  displayName: Pelodytes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KCN
+  sourceIndexes:
+    - name:
+        en: Pelodytes
+        zh: Pelodytes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KCN
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/147
+            queryName: Pelodytes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 84
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6db4a21e0
+      - s-0b46ccfc26
+      - s-5c83837fd4
+      - s-5fdbc3fea8
+      - s-b2f5337520
+      - s-3022b7983f
+      - s-dec8c71cc7
+      - s-fbac10ff9d
+      - s-1e1f9044dc
+      - s-e29fac27c0
+      - s-7b2660cb13
+      - s-4fd3d07a80
+      - s-2724d8b6df
+      - s-f974c75c9e
+    zh:
+      - s-a3661dccdd
+      - s-228315fca5
+      - s-f5058e35be
+      - s-3979587350
+      - s-dc6a7deba6
+      - s-29fe020bb3
+      - s-53ba12bcac
+      - s-e56755c25f
+      - s-1da7444f6f
+      - s-e0f4dcca1e
+      - s-1b37367f99
+      - s-7ddeafbac5
+      - s-cac8e3a5d5
+      - s-309ddae8cd

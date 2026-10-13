@@ -1,0 +1,172 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gephyromantis hintelmannae Wollenberg, Glaw & Vences, 2012
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Gephyromantis hintelmannae
+      zh: Gephyromantis hintelmannae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2595f1001e
+            part: title
+          zh:
+            page: zh
+            section: s-ec6aee38aa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2595f1001e
+            part: body
+          zh:
+            page: zh
+            section: s-ec6aee38aa
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4b2d4b6489
+            part: title
+          zh:
+            page: zh
+            section: s-2afe94aff0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4b2d4b6489
+            part: body
+          zh:
+            page: zh
+            section: s-2afe94aff0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e5a6149cc6
+            part: title
+          zh:
+            page: zh
+            section: s-85be42c983
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e5a6149cc6
+            part: body
+          zh:
+            page: zh
+            section: s-85be42c983
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-f2f587c0885625c62d238777
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7a4a429873
+            part: title
+          zh:
+            page: zh
+            section: s-a639dd6902
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7a4a429873
+            part: body
+          zh:
+            page: zh
+            section: s-a639dd6902
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gephyromantis hintelmannae
+          url: https://www.checklistbank.org/dataset/316115/taxon/3FTTS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1970; Reference.csv rows 437
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e06a98c307
+        part: body
+      zh:
+        page: zh
+        section: s-998a195309
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-f2f587c0885625c62d238777
+        scientificName: Gephyromantis hintelmannae
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

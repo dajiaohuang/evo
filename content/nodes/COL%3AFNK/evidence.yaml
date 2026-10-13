@@ -1,0 +1,235 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinatrematidae Nussbaum, 1977
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Rhinatrematidae
+      zh: Rhinatrematidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cd55240927
+            part: title
+          zh:
+            page: zh
+            section: s-5d6b1cb5a6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cd55240927
+            part: body
+          zh:
+            page: zh
+            section: s-5d6b1cb5a6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-93d9cbcb66
+            part: title
+          zh:
+            page: zh
+            section: s-4a4f4c7cbf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-93d9cbcb66
+            part: body
+          zh:
+            page: zh
+            section: s-4a4f4c7cbf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ae0e418b76
+            part: title
+          zh:
+            page: zh
+            section: s-d8b17de1e0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ae0e418b76
+            part: body
+          zh:
+            page: zh
+            section: s-d8b17de1e0
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-7246ac1b1f
+            part: title
+          zh:
+            page: zh
+            section: s-cdb434730f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7246ac1b1f
+            part: body
+          zh:
+            page: zh
+            section: s-cdb434730f
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-5194e633c3
+            part: title
+          zh:
+            page: zh
+            section: s-0b7b30b87a
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: L7RBZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AL7RBZ
+            label:
+              en: Amazops
+              zh: Amazops
+          - kind: catalogue
+            colId: 4D25
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4D25
+            label:
+              en: Epicrionops
+              zh: Epicrionops
+          - kind: catalogue
+            colId: 78M6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A78M6
+            label:
+              en: Rhinatrema
+              zh: Rhinatrema
+        text:
+          en:
+            page: en
+            section: s-5194e633c3
+            part: body
+          zh:
+            page: zh
+            section: s-0b7b30b87a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhinatrematidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/FNK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Rhinatrematidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2a75af7210
+        part: body
+      zh:
+        page: zh
+        section: s-e9fe85fd19
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Rhinatrematidae
+      sourceRowIds:
+        - Anf6766
+        - Anf6767
+        - Anf6768
+        - Anf6769
+        - Anf6770
+        - Anf6771
+        - Anf6772
+        - Anf6773
+        - Anf6774
+        - Anf6775
+        - Anf6776
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 11
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 11
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 11
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 9
+      currentConceptEquivalenceCertified: false

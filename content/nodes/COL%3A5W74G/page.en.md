@@ -1,0 +1,3 @@
+## A grooved-branch record with a smooth fruit {#s-381b2d2102}
+The Brazilian Flora 2020 description records white latex, alternate, loosely spaced leaves, and cylindrical branches. It gives the branches' bark thickness as either unthickened or slightly thickened, so the field preserves both states. The inflorescences are terminal or subterminal corymb-like cymes. Sepals are nearly equal, and the ovary is hairless. The fruit is smooth, with a stalk and inconspicuous lenticels; its ribs are recorded as not evident. The corolla lobes are listed as longer than or equal to the tube, again without separating the alternatives. These are the contents of one regional dataset field, not a population-wide comparison.
+

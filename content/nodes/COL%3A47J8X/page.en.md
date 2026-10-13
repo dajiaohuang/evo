@@ -1,0 +1,3 @@
+## ## Five leaflets and a samaroid fruit {#s-1784b0d098}
+The Brazilian Flora 2020 entry records five leaflets and stipules 2–6 mm long, without stipular glands. Inflorescences are listed as fascicled, racemose or paniculate. The bracts are recorded as 2 or 3 mm long; the calyx bears covering glandular hairs, and the standard may be hairy or hairless. The fruit is samaroid and flattened, with a stipe and a wing on its terminal article. A habitat field says “terrestrial,” but does not identify a locality or more specific habitat. These listed alternatives are not a quantified account of variation.
+

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis subterrestris
+  displayName: Platymantis subterrestris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSRY
+  sourceIndexes:
+    - name:
+        en: Platymantis subterrestris
+        zh: Platymantis subterrestris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSRY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/401
+            queryName: Platymantis subterrestris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/231
+            queryName: Cornufer subterrestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-670dbe6a90
+      - s-45dbaff099
+      - s-bd0c8445f1
+      - s-8a0528ae9f
+      - s-afc9c7cb42
+      - s-9044c4be9f
+      - s-0b1d088464
+    zh:
+      - s-ec0f3ec263
+      - s-681237d80d
+      - s-e8c6ccbcff
+      - s-b7327ce545
+      - s-cf85612c71
+      - s-54cd114646
+      - s-a7e3cc751f

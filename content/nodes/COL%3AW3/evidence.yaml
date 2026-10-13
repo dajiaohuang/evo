@@ -1,0 +1,1149 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caudata
+    rank: order
+    sourceDatasetId: "2144"
+    name:
+      en: Caudata
+      zh: Caudata
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cc3470db26
+            part: title
+          zh:
+            page: zh
+            section: s-4a851b9598
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cc3470db26
+            part: body
+          zh:
+            page: zh
+            section: s-4a851b9598
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5220322a18
+            part: title
+          zh:
+            page: zh
+            section: s-02c83b61f2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5220322a18
+            part: body
+          zh:
+            page: zh
+            section: s-02c83b61f2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-065e2e93ef
+            part: title
+          zh:
+            page: zh
+            section: s-bdba4fc14d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-065e2e93ef
+            part: body
+          zh:
+            page: zh
+            section: s-bdba4fc14d
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f9f219faae
+            part: title
+          zh:
+            page: zh
+            section: s-5725028b5b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f9f219faae
+            part: body
+          zh:
+            page: zh
+            section: s-5725028b5b
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-74a6357f57
+            part: title
+          zh:
+            page: zh
+            section: s-d708f1c0f7
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 69J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A69J
+            label:
+              en: Ambystomatidae
+              zh: Ambystomatidae
+          - kind: catalogue
+            colId: 6233Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6233Y
+            label:
+              en: Amphiumidae
+              zh: Amphiumidae
+          - kind: catalogue
+            colId: 8Q8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A8Q8
+            label:
+              en: Cryptobranchidae
+              zh: Cryptobranchidae
+          - kind: catalogue
+            colId: 6256C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6256C
+            label:
+              en: Hynobiidae
+              zh: Hynobiidae
+          - kind: catalogue
+            colId: 625RT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A625RT
+            label:
+              en: Plethodontidae
+              zh: Plethodontidae
+          - kind: catalogue
+            colId: F4L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AF4L
+            label:
+              en: Proteidae
+              zh: Proteidae
+          - kind: catalogue
+            colId: FR9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AFR9
+            label:
+              en: Rhyacotritonidae
+              zh: Rhyacotritonidae
+          - kind: catalogue
+            colId: 626WX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A626WX
+            label:
+              en: Salamandridae
+              zh: Salamandridae
+          - kind: catalogue
+            colId: GC3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGC3
+            label:
+              en: Sirenidae
+              zh: Sirenidae
+        text:
+          en:
+            page: en
+            section: s-74a6357f57
+            part: body
+          zh:
+            page: zh
+            section: s-d708f1c0f7
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-4b194714e7
+            part: title
+          zh:
+            page: zh
+            section: s-ba94458eb3
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-4b194714e7
+            part: body
+          zh:
+            page: zh
+            section: s-ba94458eb3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Caudata
+          url: https://www.checklistbank.org/dataset/316115/taxon/W3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Order = Caudata; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Caudata; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1023b12e27
+        part: body
+      zh:
+        page: zh
+        section: s-996ad0d618
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Order
+      sourceName: Caudata
+      sourceRowIds:
+        - Anf5972
+        - Anf5973
+        - Anf5974
+        - Anf5975
+        - Anf5976
+        - Anf5977
+        - Anf5978
+        - Anf5979
+        - Anf5980
+        - Anf5981
+        - Anf5982
+        - Anf5983
+        - Anf5984
+        - Anf5985
+        - Anf5986
+        - Anf5987
+        - Anf5988
+        - Anf5989
+        - Anf5990
+        - Anf5991
+        - Anf5992
+        - Anf5993
+        - Anf5994
+        - Anf5995
+        - Anf5996
+        - Anf5997
+        - Anf5998
+        - Anf5999
+        - Anf6000
+        - Anf6001
+        - Anf6002
+        - Anf6003
+        - Anf6004
+        - Anf6005
+        - Anf6006
+        - Anf6007
+        - Anf6008
+        - Anf6009
+        - Anf6010
+        - Anf6011
+        - Anf6012
+        - Anf6013
+        - Anf6014
+        - Anf6015
+        - Anf6016
+        - Anf6017
+        - Anf6018
+        - Anf6019
+        - Anf6020
+        - Anf6021
+        - Anf6022
+        - Anf6023
+        - Anf6024
+        - Anf6025
+        - Anf6026
+        - Anf6027
+        - Anf6028
+        - Anf6029
+        - Anf6030
+        - Anf6031
+        - Anf6032
+        - Anf6033
+        - Anf6034
+        - Anf6035
+        - Anf6036
+        - Anf6037
+        - Anf6038
+        - Anf6039
+        - Anf6040
+        - Anf6041
+        - Anf6042
+        - Anf6043
+        - Anf6044
+        - Anf6045
+        - Anf6046
+        - Anf6047
+        - Anf6048
+        - Anf6049
+        - Anf6050
+        - Anf6051
+        - Anf6052
+        - Anf6053
+        - Anf6054
+        - Anf6055
+        - Anf6056
+        - Anf6057
+        - Anf6058
+        - Anf6059
+        - Anf6060
+        - Anf6061
+        - Anf6062
+        - Anf6063
+        - Anf6064
+        - Anf6065
+        - Anf6066
+        - Anf6067
+        - Anf6068
+        - Anf6069
+        - Anf6070
+        - Anf6071
+        - Anf6072
+        - Anf6073
+        - Anf6074
+        - Anf6075
+        - Anf6076
+        - Anf6077
+        - Anf6078
+        - Anf6079
+        - Anf6080
+        - Anf6081
+        - Anf6082
+        - Anf6083
+        - Anf6084
+        - Anf6085
+        - Anf6086
+        - Anf6087
+        - Anf6088
+        - Anf6089
+        - Anf6090
+        - Anf6091
+        - Anf6092
+        - Anf6093
+        - Anf6094
+        - Anf6095
+        - Anf6096
+        - Anf6097
+        - Anf6098
+        - Anf6099
+        - Anf6100
+        - Anf6101
+        - Anf6102
+        - Anf6103
+        - Anf6104
+        - Anf6105
+        - Anf6106
+        - Anf6107
+        - Anf6108
+        - Anf6109
+        - Anf6110
+        - Anf6111
+        - Anf6112
+        - Anf6113
+        - Anf6114
+        - Anf6115
+        - Anf6116
+        - Anf6117
+        - Anf6118
+        - Anf6119
+        - Anf6120
+        - Anf6121
+        - Anf6122
+        - Anf6123
+        - Anf6124
+        - Anf6125
+        - Anf6126
+        - Anf6127
+        - Anf6128
+        - Anf6129
+        - Anf6130
+        - Anf6131
+        - Anf6132
+        - Anf6133
+        - Anf6134
+        - Anf6135
+        - Anf6136
+        - Anf6137
+        - Anf6138
+        - Anf6139
+        - Anf6140
+        - Anf6141
+        - Anf6142
+        - Anf6143
+        - Anf6144
+        - Anf6145
+        - Anf6146
+        - Anf6147
+        - Anf6148
+        - Anf6149
+        - Anf6150
+        - Anf6151
+        - Anf6152
+        - Anf6153
+        - Anf6154
+        - Anf6155
+        - Anf6156
+        - Anf6157
+        - Anf6158
+        - Anf6159
+        - Anf6160
+        - Anf6161
+        - Anf6162
+        - Anf6163
+        - Anf6164
+        - Anf6165
+        - Anf6166
+        - Anf6167
+        - Anf6168
+        - Anf6169
+        - Anf6170
+        - Anf6171
+        - Anf6172
+        - Anf6173
+        - Anf6174
+        - Anf6175
+        - Anf6176
+        - Anf6177
+        - Anf6178
+        - Anf6179
+        - Anf6180
+        - Anf6181
+        - Anf6182
+        - Anf6183
+        - Anf6184
+        - Anf6185
+        - Anf6186
+        - Anf6187
+        - Anf6188
+        - Anf6189
+        - Anf6190
+        - Anf6191
+        - Anf6192
+        - Anf6193
+        - Anf6194
+        - Anf6195
+        - Anf6196
+        - Anf6197
+        - Anf6198
+        - Anf6199
+        - Anf6200
+        - Anf6201
+        - Anf6202
+        - Anf6203
+        - Anf6204
+        - Anf6205
+        - Anf6206
+        - Anf6207
+        - Anf6208
+        - Anf6209
+        - Anf6210
+        - Anf6211
+        - Anf6212
+        - Anf6213
+        - Anf6214
+        - Anf6215
+        - Anf6216
+        - Anf6217
+        - Anf6218
+        - Anf6219
+        - Anf6220
+        - Anf6221
+        - Anf6222
+        - Anf6223
+        - Anf6224
+        - Anf6225
+        - Anf6226
+        - Anf6227
+        - Anf6228
+        - Anf6229
+        - Anf6230
+        - Anf6231
+        - Anf6232
+        - Anf6233
+        - Anf6234
+        - Anf6235
+        - Anf6236
+        - Anf6237
+        - Anf6238
+        - Anf6239
+        - Anf6240
+        - Anf6241
+        - Anf6242
+        - Anf6243
+        - Anf6244
+        - Anf6245
+        - Anf6246
+        - Anf6247
+        - Anf6248
+        - Anf6249
+        - Anf6250
+        - Anf6251
+        - Anf6252
+        - Anf6253
+        - Anf6254
+        - Anf6255
+        - Anf6256
+        - Anf6257
+        - Anf6258
+        - Anf6259
+        - Anf6260
+        - Anf6261
+        - Anf6262
+        - Anf6263
+        - Anf6264
+        - Anf6265
+        - Anf6266
+        - Anf6267
+        - Anf6268
+        - Anf6269
+        - Anf6270
+        - Anf6271
+        - Anf6272
+        - Anf6273
+        - Anf6274
+        - Anf6275
+        - Anf6276
+        - Anf6277
+        - Anf6278
+        - Anf6279
+        - Anf6280
+        - Anf6281
+        - Anf6282
+        - Anf6283
+        - Anf6284
+        - Anf6285
+        - Anf6286
+        - Anf6287
+        - Anf6288
+        - Anf6289
+        - Anf6290
+        - Anf6291
+        - Anf6292
+        - Anf6293
+        - Anf6294
+        - Anf6295
+        - Anf6296
+        - Anf6297
+        - Anf6298
+        - Anf6299
+        - Anf6300
+        - Anf6301
+        - Anf6302
+        - Anf6303
+        - Anf6304
+        - Anf6305
+        - Anf6306
+        - Anf6307
+        - Anf6308
+        - Anf6309
+        - Anf6310
+        - Anf6311
+        - Anf6312
+        - Anf6313
+        - Anf6314
+        - Anf6315
+        - Anf6316
+        - Anf6317
+        - Anf6318
+        - Anf6319
+        - Anf6320
+        - Anf6321
+        - Anf6322
+        - Anf6323
+        - Anf6324
+        - Anf6325
+        - Anf6326
+        - Anf6327
+        - Anf6328
+        - Anf6329
+        - Anf6330
+        - Anf6331
+        - Anf6332
+        - Anf6333
+        - Anf6334
+        - Anf6335
+        - Anf6336
+        - Anf6337
+        - Anf6338
+        - Anf6339
+        - Anf6340
+        - Anf6341
+        - Anf6342
+        - Anf6343
+        - Anf6344
+        - Anf6345
+        - Anf6346
+        - Anf6347
+        - Anf6348
+        - Anf6349
+        - Anf6350
+        - Anf6351
+        - Anf6352
+        - Anf6353
+        - Anf6354
+        - Anf6355
+        - Anf6356
+        - Anf6357
+        - Anf6358
+        - Anf6359
+        - Anf6360
+        - Anf6361
+        - Anf6362
+        - Anf6363
+        - Anf6364
+        - Anf6365
+        - Anf6366
+        - Anf6367
+        - Anf6368
+        - Anf6369
+        - Anf6370
+        - Anf6371
+        - Anf6372
+        - Anf6373
+        - Anf6374
+        - Anf6375
+        - Anf6376
+        - Anf6377
+        - Anf6378
+        - Anf6379
+        - Anf6380
+        - Anf6381
+        - Anf6382
+        - Anf6383
+        - Anf6384
+        - Anf6385
+        - Anf6386
+        - Anf6387
+        - Anf6388
+        - Anf6389
+        - Anf6390
+        - Anf6391
+        - Anf6392
+        - Anf6393
+        - Anf6394
+        - Anf6395
+        - Anf6396
+        - Anf6397
+        - Anf6398
+        - Anf6399
+        - Anf6400
+        - Anf6401
+        - Anf6402
+        - Anf6403
+        - Anf6404
+        - Anf6405
+        - Anf6406
+        - Anf6407
+        - Anf6408
+        - Anf6409
+        - Anf6410
+        - Anf6411
+        - Anf6412
+        - Anf6413
+        - Anf6414
+        - Anf6415
+        - Anf6416
+        - Anf6417
+        - Anf6418
+        - Anf6419
+        - Anf6420
+        - Anf6421
+        - Anf6422
+        - Anf6423
+        - Anf6424
+        - Anf6425
+        - Anf6426
+        - Anf6427
+        - Anf6428
+        - Anf6429
+        - Anf6430
+        - Anf6431
+        - Anf6432
+        - Anf6433
+        - Anf6434
+        - Anf6435
+        - Anf6436
+        - Anf6437
+        - Anf6438
+        - Anf6439
+        - Anf6440
+        - Anf6441
+        - Anf6442
+        - Anf6443
+        - Anf6444
+        - Anf6445
+        - Anf6446
+        - Anf6447
+        - Anf6448
+        - Anf6449
+        - Anf6450
+        - Anf6451
+        - Anf6452
+        - Anf6453
+        - Anf6454
+        - Anf6455
+        - Anf6456
+        - Anf6457
+        - Anf6458
+        - Anf6459
+        - Anf6460
+        - Anf6461
+        - Anf6462
+        - Anf6463
+        - Anf6464
+        - Anf6465
+        - Anf6466
+        - Anf6467
+        - Anf6468
+        - Anf6469
+        - Anf6470
+        - Anf6471
+        - Anf6472
+        - Anf6473
+        - Anf6474
+        - Anf6475
+        - Anf6476
+        - Anf6477
+        - Anf6478
+        - Anf6479
+        - Anf6480
+        - Anf6481
+        - Anf6482
+        - Anf6483
+        - Anf6484
+        - Anf6485
+        - Anf6486
+        - Anf6487
+        - Anf6488
+        - Anf6489
+        - Anf6490
+        - Anf6491
+        - Anf6492
+        - Anf6493
+        - Anf6494
+        - Anf6495
+        - Anf6496
+        - Anf6497
+        - Anf6498
+        - Anf6499
+        - Anf6500
+        - Anf6501
+        - Anf6502
+        - Anf6503
+        - Anf6504
+        - Anf6505
+        - Anf6506
+        - Anf6507
+        - Anf6508
+        - Anf6509
+        - Anf6510
+        - Anf6511
+        - Anf6512
+        - Anf6513
+        - Anf6514
+        - Anf6515
+        - Anf6516
+        - Anf6517
+        - Anf6518
+        - Anf6519
+        - Anf6520
+        - Anf6521
+        - Anf6522
+        - Anf6523
+        - Anf6524
+        - Anf6525
+        - Anf6526
+        - Anf6527
+        - Anf6528
+        - Anf6529
+        - Anf6530
+        - Anf6531
+        - Anf6532
+        - Anf6533
+        - Anf6534
+        - Anf6535
+        - Anf6536
+        - Anf6537
+        - Anf6538
+        - Anf6539
+        - Anf6540
+        - Anf6541
+        - Anf6542
+        - Anf6543
+        - Anf6544
+        - Anf6545
+        - Anf6546
+        - Anf6547
+        - Anf6548
+        - Anf6549
+        - Anf6550
+        - Anf6551
+        - Anf6552
+        - Anf6553
+        - Anf6554
+        - Anf6555
+        - Anf6556
+        - Anf6557
+        - Anf6558
+        - Anf6559
+        - Anf6560
+        - Anf6561
+        - Anf6562
+        - Anf6563
+        - Anf6564
+        - Anf6565
+        - Anf6566
+        - Anf6567
+        - Anf6568
+        - Anf6569
+        - Anf6570
+        - Anf6571
+        - Anf6572
+        - Anf6573
+        - Anf6574
+        - Anf6575
+        - Anf6576
+        - Anf6577
+        - Anf6578
+        - Anf6579
+        - Anf6580
+        - Anf6581
+        - Anf6582
+        - Anf6583
+        - Anf6584
+        - Anf6585
+        - Anf6586
+        - Anf6587
+        - Anf6588
+        - Anf6589
+        - Anf6590
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 145
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 505
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 500
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 103
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 319
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 203
+        - key: Viv
+          en: viviparity
+          zh: 胎生
+          count: 15
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Ichthyosaura alpestris
+          path: content/nodes/local-e5d0a1e69fbaa673cb838fc1
+        - scientificName: Lissotriton vulgaris
+          path: content/nodes/local-05038dcbee049d6600e6f0d5
+        - scientificName: Eurycea nana
+          path: content/nodes/local-9443aa62b359cf61a906c016
+        - scientificName: Notophthalmus viridescens
+          path: content/nodes/local-787fd3ece139744d80c0ead0
+        - scientificName: Lissotriton helveticus
+          path: content/nodes/local-7f8a62ee1ee45b8bf323e8a8
+        - scientificName: Salamandra salamandra
+          path: content/nodes/local-c5e38913aab66d183605dbd8
+        - scientificName: Plethodon dorsalis
+          path: content/nodes/local-aaee71d4f2201e2fc3651981
+        - scientificName: Ambystoma jeffersonianum
+          path: content/nodes/local-fffb70ca3d9ca447566e75fd
+        - scientificName: Ambystoma tigrinum
+          path: content/nodes/local-7c90f22a5208a600bd41df1d
+        - scientificName: Aneides ferreus
+          path: content/nodes/local-ca6a8945b86f92d888ac8ed0
+        - scientificName: Ensatina eschscholtzii
+          path: content/nodes/local-152b01b9d2d008ea57c22a82
+        - scientificName: Plethodon dunni
+          path: content/nodes/local-a6328b101a159e427ca3a785
+        - scientificName: Plethodon vehiculum
+          path: content/nodes/local-9283d3ae29cb2abd417e3f9e
+        - scientificName: Rhyacotriton olympicus
+          path: content/nodes/local-49e0b3c468c0ed88c993a50c
+        - scientificName: Chiropterotriton multidentatus
+          path: content/nodes/local-366bfaee7a59bec1eeeea8d5
+        - scientificName: Plethodon cinereus
+          path: content/nodes/local-0cf3daf2b0a79bac7effc407
+        - scientificName: Dicamptodon tenebrosus
+          path: content/nodes/local-a99065ce7459169ace705131
+        - scientificName: Rhyacotriton variegatus
+          path: content/nodes/local-469d664ab675310debf7a1a2
+        - scientificName: Desmognathus quadramaculatus
+          path: content/nodes/local-b0ed4b7342fb5e717680938d
+        - scientificName: Calotriton arnoldi
+          path: content/nodes/local-0fa877f61beb89c87bcbd3a9
+        - scientificName: Ambystoma californiense
+          path: content/nodes/local-6c5c24fde4530f9a2ed72364
+        - scientificName: Ambystoma mavortium
+          path: content/nodes/local-f490e216acbce9bf8fdf6567
+        - scientificName: Eurycea sosorum
+          path: content/nodes/local-5e490f8e8cc9495ba9096ece
+        - scientificName: Lissotriton boscai
+          path: content/nodes/local-9ff169530ac0b33bc19bf8f5
+        - scientificName: Pleurodeles waltl
+          path: content/nodes/local-3e253dc8bdfb95018a5ecea2
+        - scientificName: Triturus cristatus
+          path: content/nodes/local-cde5f4b1ccbe3f220c40d6dd
+        - scientificName: Triturus pygmaeus
+          path: content/nodes/local-91a12778330514ac5fdae26e
+        - scientificName: Plethodon chlorobryonis
+          path: content/nodes/local-5c688caac428156ef602b72c
+        - scientificName: Plethodon cylindraceus
+          path: content/nodes/local-a0550f726e4db9670070cc85
+        - scientificName: Plethodon glutinosus
+          path: content/nodes/local-4c2dbdbf9eb94e921397dc29
+        - scientificName: Plethodon grobmani
+          path: content/nodes/local-5f1c435ed10da4e2367f3d8b
+        - scientificName: Plethodon ocmulgee
+          path: content/nodes/local-e4dbd8a2281820adca90e9ee
+        - scientificName: Plethodon variolatus
+          path: content/nodes/local-40d2df932f61812f64e645d3
+        - scientificName: Necturus maculosus
+          path: content/nodes/local-d7abb7abe72bd5962b18a51b
+        - scientificName: Amphiuma tridactylum
+          path: content/nodes/local-f3787131ed49d819461ee89a
+        - scientificName: Bolitoglossa ramosi
+          path: content/nodes/local-af4870de70bb5edcd902e3dd
+        - scientificName: Ambystoma maculatum
+          path: content/nodes/local-ba428cd3955f0487706d8360
+        - scientificName: Triturus dobrogicus
+          path: content/nodes/local-da3eb1af93fa39ca3bf45b5b
+        - scientificName: Triturus carnifex
+          path: content/nodes/local-1fea05945bb86a53a46429c3
+        - scientificName: Cynops orientalis
+          path: content/nodes/local-acdd0c6436226c946b0de445
+        - scientificName: Lissotriton montandoni
+          path: content/nodes/local-b6054f7b9696406f95bf5723
+        - scientificName: Triturus karelinii
+          path: content/nodes/local-393ebb66d18ad544ac1722d5
+        - scientificName: Ambystoma macrodactylum
+          path: content/nodes/local-ff4752e7a55172d07ff3aad8
+        - scientificName: Aneides aeneus
+          path: content/nodes/local-5ccd31c55a1e9841b6901799
+        - scientificName: Eurycea longicauda
+          path: content/nodes/local-2dd030c56270addb7da01f18
+        - scientificName: Eurycea lucifuga
+          path: content/nodes/local-b9b9dcbd31c6b616b0d727e6
+        - scientificName: Ambystoma laterale
+          path: content/nodes/local-db5757ee4af2efc853dba626
+        - scientificName: Ambystoma mabeei
+          path: content/nodes/local-858c9f8bffe1ed10126ba3f3
+        - scientificName: Ambystoma opacum
+          path: content/nodes/local-7dcd9a706d229d6abefee74b
+        - scientificName: Ambystoma talpoideum
+          path: content/nodes/local-62d8abaa6505d3b916b36d74
+        - scientificName: Desmognathus fuscus
+          path: content/nodes/local-2d1f2f44fd6fb80a0b3a0c13
+        - scientificName: Desmognathus monticola
+          path: content/nodes/local-a19f802c6562b64796fb7b17
+        - scientificName: Desmognathus ochrophaeus
+          path: content/nodes/local-4d6179d064782a4d6b5b1129
+        - scientificName: Eurycea bislineata
+          path: content/nodes/local-61b7281e2dad35fa6fd50ac8
+        - scientificName: Eurycea quadridigitata
+          path: content/nodes/local-939bee8996c7a07d45461158
+        - scientificName: Gyrinophilus porphyriticus
+          path: content/nodes/local-2ce44354ebf16af613c4a919
+        - scientificName: Hemidactylium scutatum
+          path: content/nodes/local-e0ef51b33918155095477a09
+        - scientificName: Plethodon jordani
+          path: content/nodes/local-4a968e4b6101dc285a529f14
+        - scientificName: Plethodon wehrlei
+          path: content/nodes/local-3f3d10a2d3f23a10aab1ce54
+        - scientificName: Pseudotriton montanus
+          path: content/nodes/local-22f44ab98f46f76ada3f9270
+        - scientificName: Taricha granulosa
+          path: content/nodes/local-0b391a0e3f7d22a3ee1b3b19
+        - scientificName: Cryptobranchus alleganiensis
+          path: content/nodes/local-a69a5925834b6c3e4cdbfda6
+        - scientificName: Batrachuperus tibetanus
+          path: content/nodes/local-e68e643048b64105dd5a0f3b
+        - scientificName: Batrachuperus yenyuanensis
+          path: content/nodes/local-1e29ac80148e17a47d06a7d3
+        - scientificName: Paramesotriton chinensis
+          path: content/nodes/local-f02427e6dd026eef08c8dbd3
+        - scientificName: Paramesotriton labiatus
+          path: content/nodes/local-b49fc7e810b911f0b95d4006
+        - scientificName: Tylototriton kweichowensis
+          path: content/nodes/local-14f1ce71b3acd6cb0457581e
+        - scientificName: Ambystoma texanum
+          path: content/nodes/local-1a33e85563fa1c927eea9326
+        - scientificName: Lyciasalamandra helverseni
+          path: content/nodes/local-8787b86e09dd6a9b9e31a03b
+        - scientificName: Plethodon ouachitae
+          path: content/nodes/local-601903dd88c52be488bd4f4e
+        - scientificName: Plethodon richmondi
+          path: content/nodes/local-1d5699d781fc6329d064ee01
+        - scientificName: Desmognathus carolinensis
+          path: content/nodes/local-3777ad749f3b7a2279c77d25
+        - scientificName: Desmognathus ocoee
+          path: content/nodes/local-9345bbc985dc483182ec1acb
+        - scientificName: Desmognathus orestes
+          path: content/nodes/local-80bb82f131dcb16bc16b7ce0
+        - scientificName: Desmognathus santeetlah
+          path: content/nodes/local-510398a2b6084289978c3721
+        - scientificName: Plethodon hubrichti
+          path: content/nodes/local-3d290d3d98205f77b08ebcb1
+        - scientificName: Plethodon montanus
+          path: content/nodes/local-c41be9bef1f191b72cf1b1d9
+        - scientificName: Plethodon punctatus
+          path: content/nodes/local-803828144acf12665519051f
+        - scientificName: Plethodon sherando
+          path: content/nodes/local-8053ea543bcd7efbd7d28557
+        - scientificName: Plethodon teyahalee
+          path: content/nodes/local-9da248ae4b3f94c012cf42ac
+        - scientificName: Plethodon virginia
+          path: content/nodes/local-498bdf8aab4237af845bb494
+        - scientificName: Aquiloeurycea cafetalera
+          path: content/nodes/local-6b7352ea1565568b783750c7
+        - scientificName: Ambystoma mexicanum
+          path: content/nodes/local-d998bb2516b9a5e9f7b0ab97
+        - scientificName: Eurycea multiplicata
+          path: content/nodes/local-8925122238624b11dfcae856
+        - scientificName: Plethodon caddoensis
+          path: content/nodes/local-bdb71e6985a8ab21918cf29e
+        - scientificName: Plethodon serratus
+          path: content/nodes/local-cc268f5bca85bc03304901b3
+        - scientificName: Plethodon yonahlossee
+          path: content/nodes/local-76db48fb487f0027c4df3285
+        - scientificName: Desmognathus brimleyorum
+          path: content/nodes/local-076d67fa4a87a6f5e242e52f
+        - scientificName: Plethodon albagula
+          path: content/nodes/local-7a56127d50532773e5debba2
+        - scientificName: Plethodon angusticlavius
+          path: content/nodes/local-a9f7e8f217719d6f770e82a8
+        - scientificName: Eurycea cirrigera
+          path: content/nodes/local-67af04b019ec72d73206a7ba
+        - scientificName: Eurycea wilderae
+          path: content/nodes/local-ca01503a9c9c316acce0b878
+        - scientificName: Calotriton asper
+          path: content/nodes/local-bccff1ca124bcd9cbe188e30
+        - scientificName: Hynobius fuca
+          path: content/nodes/local-581d6b3aabc963cb1c7031f6
+        - scientificName: Pseudotriton ruber
+          path: content/nodes/local-cec4524f216da45c1b75bb09
+      metrics:
+        - metric: Tpref
+          rows: 232
+          sourceConcepts: 48
+        - metric: CTmax
+          rows: 519
+          sourceConcepts: 78
+        - metric: CTmin
+          rows: 105
+          sourceConcepts: 26
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Telmatobius halli
+  displayName: Telmatobius halli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/558B2
+  sourceIndexes:
+    - name:
+        en: Telmatobius halli
+        zh: Telmatobius halli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 558B2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/444
+            queryName: Telmatobius halli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/144
+            queryName: Telmatobius dankoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/147
+            queryName: Telmatobius vilamensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/396
+            queryName: Telmatobius halli halli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-635eb67ee2
+      - s-062c9b8027
+      - s-74bde21caf
+      - s-c789f8535d
+      - s-00a1016d66
+      - s-270e7a07e5
+      - s-fb48ad6b78
+      - s-14555e4ad4
+      - s-e96aa7bb23
+      - s-8c262d1bf6
+      - s-e0a0300f10
+      - s-b3a848007c
+    zh:
+      - s-e7fce8691a
+      - s-ae65f1fde8
+      - s-9728603dad
+      - s-1ca15f7900
+      - s-759bb66cff
+      - s-74b4d8da72
+      - s-010f6688a8
+      - s-8ab2793a7e
+      - s-4185f65b9b
+      - s-8eff2b5f8f
+      - s-f4f56a34d0
+      - s-70aaf2286c

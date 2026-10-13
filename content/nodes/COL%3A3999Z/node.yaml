@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus fowleri
+  displayName: Eleutherodactylus fowleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3999Z
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus fowleri
+        zh: Eleutherodactylus fowleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3999Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/205
+            queryName: Eleutherodactylus fowleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-abf172bdd4
+      - s-82ff6e9abf
+      - s-4f2134dc65
+      - s-fdc720a4a6
+      - s-ba964d3b5e
+      - s-a79fe9adf2
+      - s-91de4a77d9
+      - s-fb950e79dc
+      - s-88193e72c9
+    zh:
+      - s-c86f430fb0
+      - s-ae9320b4f7
+      - s-c644022b8c
+      - s-eb2ebef382
+      - s-270077dce9
+      - s-cbd3a569f3
+      - s-dbce499dc9
+      - s-8e3c4fed43
+      - s-4e13e1e4aa

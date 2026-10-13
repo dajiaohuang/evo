@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana kangxianensis
+  displayName: Nanorana kangxianensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N79
+  sourceIndexes:
+    - name:
+        en: Nanorana kangxianensis
+        zh: Nanorana kangxianensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N79
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/174
+            queryName: Nanorana kangxianensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/43
+            queryName: Feirana kangxianensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fb4661e188
+      - s-4a4bc78780
+      - s-15387f2753
+      - s-e2855c0868
+      - s-19113ea7e3
+      - s-a3f889e951
+      - s-4af1505337
+      - s-7b0dd89e75
+      - s-87c32763aa
+      - s-4dbc15580b
+    zh:
+      - s-3d446be112
+      - s-f4e644b80a
+      - s-4bf83cb6f7
+      - s-1783ddb362
+      - s-8e0ee86860
+      - s-a9bd69563e
+      - s-49406a5bcf
+      - s-8b47a5faf9
+      - s-af7d42c490
+      - s-fd6dbffb14

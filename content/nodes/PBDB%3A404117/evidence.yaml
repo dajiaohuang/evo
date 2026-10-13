@@ -1,0 +1,78 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Parioscorpio
+    commonName: Parioscorpio (affinity unresolved)
+    commonNameZh: Parioscorpio（亲缘未定）
+    rank: genus
+    taxonId: txn:404117
+    firstAppearance: 437.5
+    lastAppearance: 436.5
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:parioscorpio
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Parioscorpio venator is documented from the Silurian Waukesha Lagerstatte in Wisconsin, including holotype UWGM 2162 and paratype UWGM 2163. Its 2021 redescription rejected the scorpion interpretation while leaving exact arthropod affinities unresolved; this occurrence does not date scorpion origins.
+      confidence: medium
+      confidenceRationale: The named fossils establish a local occurrence. The original scorpion interpretation was rejected in a subsequent redescription; exact arthropod placement remains unresolved, so the occurrence is not a scorpion-origin calibration.
+      referenceLinks:
+        - referenceId: wendruff-2020-parioscorpio
+          relation: supports
+          pages: "14"
+          figure: Figures 1–4; Supplementary Figures
+          quoteLocator: UWGM 2162 and 2163; specimen locality and original description
+        - referenceId: anderson-2021-parioscorpio-reassessment
+          relation: supports
+          quoteLocator: Redescription and phylogenetic conclusions; alternative character codings archived with the study
+  claim-rationales.zh:
+    - 具名化石证明局部产出。后续重新描述否定了最初的蝎类解释；确切节肢动物亲缘位置仍未确定，不能用该产出校准蝎类起源。
+  claim-statements.zh:
+    - Parioscorpio venator 见于威斯康星州志留纪沃基肖化石库，包括正模 UWGM 2162 和副模 UWGM 2163。2021 年重新描述否定了蝎类解释，但其在节肢动物中的确切亲缘位置仍未确定；这一产出不能用于蝎类起源定年。
+  ranges:
+    - entityId: parioscorpio
+      rangeKind: global-composite
+      taxonomicConcept: Parioscorpio venator type occurrence
+      geographicScope: Brandon Bridge Formation, Wisconsin, USA
+      olderMa: 437.5
+      youngerMa: 436.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Conodont-bounded locality age, not a direct date on either specimen or proof of habitat.
+      evidenceBasis: The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.
+      evidenceLevel: literature-synthesized
+      confidence: contested
+      claimIds:
+        - claim:event:parioscorpio-terrestrialization
+      referenceLocators:
+        - referenceId: wendruff-2020-parioscorpio
+          locator: 14; Figures 1–4; Supplementary Figures; UWGM 2162 and 2163; Internal anatomy; Depositional and terrestrialization discussion
+  catalogue-profile:
+    sections:
+      - topic: specimen
+        title:
+          en:
+            page: en
+            section: s-b51c573d30
+            part: title
+          zh:
+            page: zh
+            section: s-f8047d7ea8
+            part: title
+        sourceIds:
+          - wendruff-2020-parioscorpio
+          - anderson-2021-parioscorpio-reassessment
+        text:
+          en:
+            page: en
+            section: s-b51c573d30
+            part: body
+          zh:
+            page: zh
+            section: s-f8047d7ea8
+            part: body

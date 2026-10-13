@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinocerotoidea
+    rank: superfamily
+    sourceDatasetId: null
+    name:
+      zh: Rhinocerotoidea
+      en: Rhinocerotoidea
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-310b9cc341
+            part: body
+          en:
+            page: en
+            section: s-da513c66da
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-04ba561d32
+            part: body
+          en:
+            page: en
+            section: s-e56457ecf7
+            part: body
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-7a1e501a9b
+            part: title
+          zh:
+            page: zh
+            section: s-6ab91778ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7a1e501a9b
+            part: body
+          zh:
+            page: zh
+            section: s-6ab91778ba
+            part: body
+        claimIds:
+          - claim:taxon:rhinocerotoidea:topology
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Rhinocerotoidea
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=43140
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:43140
+          readingTargets:
+            - name: Toxotherium hunteri
+              pbdbTaxonId: txn:52406
+              canonicalPath: content/nodes/PBDB%3A52406
+            - name: Siamolophus krabiense
+              pbdbTaxonId: txn:91806
+              canonicalPath: content/nodes/PBDB%3A91806
+            - name: Proeggysodon qiui
+              pbdbTaxonId: txn:336048
+              canonicalPath: content/nodes/PBDB%3A336048
+            - name: Eggysodon cadibonense
+              pbdbTaxonId: txn:371073
+              canonicalPath: content/nodes/PBDB%3A371073
+            - name: Eggysodon osborni
+              pbdbTaxonId: txn:347632
+              canonicalPath: content/nodes/PBDB%3A347632
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-8b67489539
+        part: body
+      en:
+        page: en
+        section: s-12eabdd88d
+        part: body
+  atlas-node:
+    name: Rhinocerotoidea
+    commonName: Rhinos and Relatives
+    commonNameZh: 犀牛及其近亲
+    rank: superfamily
+    taxonId: txn:43140
+    firstAppearance: 54
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:rhinocerotoidea
+      claimKind: scientific
+      claimType: topology
+      statement: New early Eocene material and a broad ceratomorph matrix place several sampled taxa within or near Rhinocerotoidea, while parsimony and Bayesian trees differ at basal nodes; the result does not make any one specimen the group’s ancestor or global first occurrence.
+      confidence: medium
+      confidenceRationale: Named specimens and matrices directly support the sampled placements; medium confidence reflects the reported criterion-dependent basal topology.
+      referenceLinks:
+        - relation: supports
+          referenceId: bai-2020-ceratomorpha
+          pages: Article 509
+          figure: Figures 6–8
+          quoteLocator: Systematic palaeontology; The phylogenetic analysis
+  claim-rationales.zh:
+    - 具名标本与矩阵直接支持取样位置；中等置信度反映论文报告的准则依赖基干拓扑。
+  claim-statements.zh:
+    - 新的早始新世材料与广泛的 Ceratomorpha 矩阵把若干取样类群置于犀总科之内或附近，但简约树与贝叶斯树在基干节点存在差异；该结果不把任何单件标本视为该群祖先或全球首现。
+  ranges:
+    - entityId: rhinocerotoidea
+      rangeKind: global-composite
+      taxonomicConcept: Rhinocerotoidea numerical range withheld pending a direct global range synthesis
+      geographicScope: No defensible global numerical scope established
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The cited systematic and phylogenetic study does not establish the former 54 Ma global edge.
+      evidenceBasis: The former 54–0 Ma display is withheld because the primary study revises early rhinocerotoids and tests their topology rather than auditing the complete superfamily fossil range.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: bai-2020-ceratomorpha
+          locator: Article 509; Figures 6–8; Systematic palaeontology and phylogeny; no complete global range ledger
+      evidenceLevel: withheld-no-range-evidence

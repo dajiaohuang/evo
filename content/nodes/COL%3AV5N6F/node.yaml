@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys jingdongensis
+  displayName: Boulenophrys jingdongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5N6F
+  sourceIndexes:
+    - name:
+        en: Boulenophrys jingdongensis
+        zh: Boulenophrys jingdongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5N6F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/355
+            queryName: Boulenophrys jingdongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/256
+            queryName: Xenophrys jingdongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/27
+            queryName: Megophrys jingdongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/409
+            queryName: Megophrys omeimontis jingdongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/138
+            queryName: Xenophrys omeimontis jingdongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/297
+            queryName: Panophrys jingdongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6cb3659d05
+      - s-826e09d895
+      - s-7cff7dffff
+      - s-60323fb57d
+      - s-ed5b3dbdab
+      - s-03ef2094b6
+      - s-d09110cbf2
+      - s-dd87bb9b2f
+      - s-77891f0e40
+      - s-4eb187cb04
+      - s-6e2d926a08
+    zh:
+      - s-228b8f43af
+      - s-cb868a0b8b
+      - s-a8ce2f5542
+      - s-a1efee7860
+      - s-8b88ccd0f8
+      - s-ea2ca2834f
+      - s-3081247d24
+      - s-7e82242f30
+      - s-ed0c2b67c9
+      - s-9fde4cb424
+      - s-4f8ecb2b30

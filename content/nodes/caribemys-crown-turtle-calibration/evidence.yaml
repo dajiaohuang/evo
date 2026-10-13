@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-991c255e42
+      part: title
+    titleZh:
+      page: zh
+      section: s-970f3cdcff
+      part: title
+    category: calibration
+    startAge: 161.5
+    endAge: 155.6
+    regions:
+      - Jagua Formation, Cuba; Bayesian relaxed-clock model
+    clades:
+      - Testudines
+      - Pleurodira
+      - Caribemys oxfordiensis
+    summary:
+      page: en
+      section: s-991c255e42
+      part: body
+    summaryZh:
+      page: zh
+      section: s-970f3cdcff
+      part: body
+    claimIds:
+      - claim:event:caribemys-crown-turtle-calibration
+    evidenceItems:
+      - statement: MNHNCu P-3209, the holotype of Caribemys oxfordiensis from the Oxfordian Jagua Formation, was treated as a total-group pleurodire inside crown Testudines and used to set a 155.6 Ma hard minimum for Node 1.
+        relation: supports
+        claimIds:
+          - claim:event:caribemys-crown-turtle-calibration
+        referenceLinks:
+          - referenceId: joyce-2013-turtle-calibrations
+            relation: supports
+            pages: 615–617
+            figure: Figures 1–2; Table 1
+            quoteLocator: "Results: Calibration constraints, Testudines (Node 1)"
+    uncertaintyItems:
+      - statement: The 194.90–231.41 Ma posterior interval and 212.33 Ma mean are relaxed-clock outputs under stated priors and topology, not dates measured from MNHNCu P-3209; the analysis explicitly could not resolve whether the turtle crown originated in the Triassic or Jurassic.
+        relation: contextualizes
+        claimIds:
+          - claim:event:caribemys-crown-turtle-calibration
+        referenceLinks:
+          - referenceId: joyce-2013-turtle-calibrations
+            relation: supports
+            pages: 614–617, 626–629
+            figure: Table 1; Figure 5
+            quoteLocator: Materials and Methods; Age of the crown Testudines; Conclusions
+  claims:
+    - subjectId: event:caribemys-crown-turtle-calibration
+      claimKind: scientific
+      claimType: divergence-time
+      statement: Caribemys holotype MNHNCu P-3209 supports a 155.6 Ma hard minimum for crown Testudines in the cited calibration scheme, whereas the older posterior crown interval is conditional on topology, molecular data, priors and clock model.
+      confidence: medium
+      confidenceRationale: The fossil identity and calibration logic are explicitly justified, but minimum age is not crown origin and posterior estimates change with analytical assumptions; the paper does not resolve a Triassic versus Jurassic crown origin.
+      referenceLinks:
+        - referenceId: joyce-2013-turtle-calibrations
+          relation: supports
+          pages: 614–617, 626–629
+          figure: Figures 1–2 and 5; Table 1
+          quoteLocator: pp. 615–617 and 626–629, Table 1 and Figs. 1–2, 5; Testudines (Node 1), Age of the crown Testudines and Conclusions
+  claim-rationales.zh:
+    - 化石身份与校准逻辑得到明确论证，但最小年龄并非冠群起源，后验估计随分析假设变化；论文没有解决冠群起源于三叠纪还是侏罗纪。
+  claim-statements.zh:
+    - Caribemys 正模 MNHNCu P-3209 在所引校准方案中支持龟类冠群 1.556 亿年前的硬最小年龄；更老的冠群后验区间则取决于拓扑、分子数据、先验和时钟模型。

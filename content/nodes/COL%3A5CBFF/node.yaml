@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina zweifeli
+  displayName: Xenorhina zweifeli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBFF
+  sourceIndexes:
+    - name:
+        en: Xenorhina zweifeli
+        zh: Xenorhina zweifeli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBFF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/371
+            queryName: Xenorhina zweifeli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/291
+            queryName: Xenobatrachus zweifeli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb62d8f668
+      - s-b7140f8d05
+      - s-797c19e1a8
+      - s-af406b3c9d
+      - s-9fd473b710
+      - s-e53a36a009
+      - s-3f4fadb5cf
+      - s-67e877ebb6
+      - s-4be1548058
+      - s-0562309d4c
+    zh:
+      - s-44604289c7
+      - s-bde338793f
+      - s-0221848851
+      - s-1a0fa01f7c
+      - s-6d0342e8e8
+      - s-e4ff7fc5e8
+      - s-441f430398
+      - s-7fc2b7b99b
+      - s-54b88ca3a2
+      - s-ffa264e4a4

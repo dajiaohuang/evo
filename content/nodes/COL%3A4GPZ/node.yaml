@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea
+  displayName: Eurycea
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GPZ
+  sourceIndexes:
+    - name:
+        en: Eurycea
+        zh: Eurycea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GPZ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/387
+            queryName: Eurycea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1917
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41f5d0bc74
+      - s-06cb670a44
+      - s-b52e8d32e2
+      - s-7a59b8cd91
+      - s-f9395a06f7
+      - s-9730426b91
+      - s-aa6c35b059
+      - s-e5150c2f84
+      - s-86f75a6b18
+      - s-0cd8c7e763
+      - s-e4edd46642
+      - s-cb41382d16
+    zh:
+      - s-490f2949ad
+      - s-96cec67e6b
+      - s-4bb5cb88a5
+      - s-99afadb97d
+      - s-7a748a6a23
+      - s-2d9ea939ce
+      - s-c9c5371d1e
+      - s-4e12d6b42e
+      - s-c9ecc5e094
+      - s-1d9b1b6e9c
+      - s-d5e4f22578
+      - s-3ae49a09f9

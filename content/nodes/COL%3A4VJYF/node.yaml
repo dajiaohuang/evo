@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax perereca
+  displayName: Scinax perereca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJYF
+  sourceIndexes:
+    - name:
+        en: Scinax perereca
+        zh: Scinax perereca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJYF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/63
+            queryName: Scinax perereca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e32a37b17f
+      - s-e11d4f8a4a
+      - s-38ed3284c2
+      - s-b3992e4cbe
+      - s-3a7f657eca
+      - s-e678b5692e
+      - s-c91dad3403
+      - s-6730c334c0
+      - s-1121b28e35
+      - s-1773867ce1
+      - s-f5773fddba
+      - s-beec3970d0
+      - s-68b53a0918
+      - s-f77b81381c
+      - s-f71ae671d5
+      - s-e406f2df93
+      - s-af39d9d437
+    zh:
+      - s-02f919ae46
+      - s-71c519e7d7
+      - s-b8501d04d6
+      - s-26df2dd623
+      - s-bc7e57edfd
+      - s-5e6a8c327f
+      - s-de52b16e71
+      - s-4b527d02e8
+      - s-57eca23552
+      - s-e96bc8fea4
+      - s-ac65b66557
+      - s-a4ee55d70f
+      - s-7c9b687bcb
+      - s-fd5735b306
+      - s-cadb6131c9
+      - s-85df878809
+      - s-079e0e1d99

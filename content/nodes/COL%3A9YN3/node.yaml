@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adelphobates castaneoticus
+  displayName: Adelphobates castaneoticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9YN3
+  sourceIndexes:
+    - name:
+        en: Adelphobates castaneoticus
+        zh: Adelphobates castaneoticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9YN3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/19
+            queryName: Adelphobates castaneoticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/175
+            queryName: Dendrobates castaneoticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-765b370e59
+      - s-868fa40f59
+      - s-531fb1ad66
+      - s-62097dfc92
+      - s-a77a15030a
+      - s-76dd536dd2
+      - s-ed60261d6f
+      - s-6681937e47
+      - s-f8e855f336
+      - s-f4b24c5daa
+      - s-42f3b4e3d9
+    zh:
+      - s-d922da8575
+      - s-53aa9402dd
+      - s-4e753c53e4
+      - s-627111fd1a
+      - s-9b9edc49da
+      - s-1186ff8150
+      - s-c1e7449a5b
+      - s-722b768391
+      - s-4af995cfb1
+      - s-44dd709f7c
+      - s-4b8ebfa1c7

@@ -1,0 +1,3 @@
+## Two flower-cluster forms and unknown fruit fields {#s-e61c8e52e1}
+The Brazilian Flora 2020 v393.147 field lists lance-shaped, obovate or oblong leaves with wedge-shaped bases and acute or tapering tips. The leaves are papery; their margins are flat or roll under, without a hard, cartilage-like edge. The upper midrib, or main leaf vein, is grooved, with two veins near the leaf edge. Flowers may grow in compact clusters called fascicles or occur singly. Their supporting bracts and smaller bracteoles beside flowers fall away. The flower cup is smooth but bears hairs; its calyx is open in bud, with four sepals and four petals. Fruit shape and surface, fruit bracteole status, seed number and embryo are marked unknown.
+

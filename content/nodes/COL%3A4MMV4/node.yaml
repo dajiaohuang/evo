@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys moratoi
+  displayName: Proceratophrys moratoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMV4
+  sourceIndexes:
+    - name:
+        en: Proceratophrys moratoi
+        zh: Proceratophrys moratoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMV4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/230
+            queryName: Proceratophrys moratoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/231
+            queryName: Odontophrynus moratoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-adb74c0dc8
+      - s-4fa2af80a2
+      - s-16dd3e4894
+      - s-c8a96e1fbf
+      - s-3acbbd63bf
+      - s-773b473359
+      - s-21ecd01800
+      - s-d30eeab07b
+      - s-0c9c2bd0cf
+      - s-0ca7440f76
+      - s-592258baa5
+      - s-ee518b39dc
+      - s-4c64876943
+      - s-fbb58f5a4e
+      - s-20224e75ef
+      - s-9f25eb37cb
+      - s-4bd058aff3
+      - s-8c7a827431
+      - s-ec289187ea
+      - s-cc3b939894
+      - s-133b82b68f
+      - s-27cbd336b4
+      - s-f81889d4ac
+      - s-15936f09ca
+      - s-c2f989a846
+      - s-b128599349
+      - s-318acc51e7
+      - s-f4c8aed7f2
+      - s-3f9c2b27e7
+      - s-4b726a30ca
+    zh:
+      - s-3644a006bb
+      - s-6d8b842c79
+      - s-faa353e0aa
+      - s-783cbdc743
+      - s-bafea2419d
+      - s-dbee1e4a5c
+      - s-7aa07cb466
+      - s-5fdd1d482b
+      - s-0a323613f8
+      - s-273b7634c7
+      - s-6e72f1f5a6
+      - s-3e0aee5d72
+      - s-41dfec60ec
+      - s-f0df014530
+      - s-165df1f134
+      - s-8d196b969b
+      - s-1b7df63b05
+      - s-8e4fa8b1ef
+      - s-b8378b2aa5
+      - s-adfeb4f6c5
+      - s-b86e0ebd49
+      - s-d660c5a886
+      - s-8ebbd7ae2d
+      - s-b84c1446f8
+      - s-24620b281b
+      - s-06508a5cf2
+      - s-aa707a43f7
+      - s-343af988c9
+      - s-28cc9e4f5c
+      - s-0f97d5a724

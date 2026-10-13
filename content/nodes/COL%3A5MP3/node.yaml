@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Megaelosia
+  displayName: Megaelosia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5MP3
+  sourceIndexes:
+    - name:
+        en: Megaelosia
+        zh: Megaelosia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5MP3
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/32
+            queryName: Megaelosia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36621ddba4
+      - s-79e45870f9
+      - s-54fe180a9e
+      - s-e4c72295dd
+      - s-72cc8475e4
+      - s-7c058c8b3e
+      - s-feb5d5f6c0
+      - s-d8b4236e29
+      - s-5ed72eacd2
+      - s-a60d19b8b1
+      - s-6bdd516bc4
+      - s-a30e97a2b4
+      - s-420a8634d7
+      - s-570baf704a
+      - s-a8e5d88771
+    zh:
+      - s-09452447ab
+      - s-09cac652af
+      - s-9b874c9bbc
+      - s-7c12e916ac
+      - s-43791aebdd
+      - s-921a4faf81
+      - s-df0f59d75a
+      - s-0bd7f449a4
+      - s-f0781e8479
+      - s-50d88dcff4
+      - s-e90c03024a
+      - s-d9f6a6086e
+      - s-c4713ec590
+      - s-66c4819775
+      - s-e68eab130f

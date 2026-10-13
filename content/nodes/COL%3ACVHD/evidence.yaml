@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ammospiza maritima
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Ammospiza maritima
+      en: Ammospiza maritima
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetAmmospizaOneToOneV7
+        text:
+          zh:
+            page: zh
+            section: s-eb9685d2c4
+            part: body
+          en:
+            page: en
+            section: s-3e109f3413
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetAmmospizaOneToOneV7
+        text:
+          zh:
+            page: zh
+            section: s-fb0616a3d2
+            part: body
+          en:
+            page: en
+            section: s-8ab673415b
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetAmmospizaOneToOneV7
+        text:
+          zh:
+            page: zh
+            section: s-7b82ae8835
+            part: body
+          en:
+            page: en
+            section: s-d252409b81
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetAmmospizaOneToOneV7
+        text:
+          zh:
+            page: zh
+            section: s-6e7db23e0d
+            part: body
+          en:
+            page: en
+            section: s-baa3c4b26a
+            part: body
+      - topic: migration
+        sourceIds:
+          - avonetAmmospizaOneToOneV7
+        text:
+          zh:
+            page: zh
+            section: s-c5c3c55b17
+            part: body
+          en:
+            page: en
+            section: s-79a19c6553
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ammospiza maritima
+          url: https://www.checklistbank.org/dataset/316115/taxon/CVHD
+          locator: Pinned accepted name and recorded ancestry; historical synonym records remain distinct.
+      - id: avonetAmmospizaOneToOneV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET dataset version 7 — four Ammospiza historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: AVONET1_BirdLife rows6373–6376; Metadata definitions; BirdLife–eBird rows504–507; BirdLife–BirdTree rows507–510.
+          scope:
+            zh: 四个同名 BirdLife 2020／eBird 2021 数据行与原表旧属名一对一映射；不证明各年代分类概念完全相同。
+            en: Four same-name BirdLife 2020/eBird 2021 rows and the workbook’s one-to-one older-genus crosswalk; not proof of identical concepts across dates.
+    limitations:
+      zh:
+        page: zh
+        section: s-93293f7380
+        part: body
+      en:
+        page: en
+        section: s-b79ceb8633
+        part: body

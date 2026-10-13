@@ -1,0 +1,438 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Taricha Gray, 1850
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Taricha
+      zh: Taricha
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-47bae0863d
+            part: title
+          zh:
+            page: zh
+            section: s-c079a712ae
+            part: title
+        text:
+          en:
+            page: en
+            section: s-47bae0863d
+            part: body
+          zh:
+            page: zh
+            section: s-c079a712ae
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c0f47ebac9
+            part: title
+          zh:
+            page: zh
+            section: s-eb7dac4fbb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c0f47ebac9
+            part: body
+          zh:
+            page: zh
+            section: s-eb7dac4fbb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-adc978c5b0
+            part: title
+          zh:
+            page: zh
+            section: s-2419665d5d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-adc978c5b0
+            part: body
+          zh:
+            page: zh
+            section: s-2419665d5d
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-82602f22c3
+            part: title
+          zh:
+            page: zh
+            section: s-9404341691
+            part: title
+        text:
+          en:
+            page: en
+            section: s-82602f22c3
+            part: body
+          zh:
+            page: zh
+            section: s-9404341691
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-3f517a0541
+            part: title
+          zh:
+            page: zh
+            section: s-680eb49d30
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 54XQM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54XQM
+            label:
+              en: Taricha granulosa
+              zh: Taricha granulosa
+          - kind: catalogue
+            colId: 54XQQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54XQQ
+            label:
+              en: Taricha rivularis
+              zh: Taricha rivularis
+          - kind: catalogue
+            colId: 54XQR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54XQR
+            label:
+              en: Taricha sierrae
+              zh: Taricha sierrae
+          - kind: catalogue
+            colId: 54XQS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54XQS
+            label:
+              en: Taricha torosa
+              zh: Taricha torosa
+        text:
+          en:
+            page: en
+            section: s-3f517a0541
+            part: body
+          zh:
+            page: zh
+            section: s-680eb49d30
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-f63e461723
+            part: title
+          zh:
+            page: zh
+            section: s-ac45d6276a
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-f63e461723
+            part: body
+          zh:
+            page: zh
+            section: s-ac45d6276a
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10658874-7stj
+        title:
+          en:
+            page: en
+            section: s-87e2d01259
+            part: title
+          zh:
+            page: zh
+            section: s-b6860d0109
+            part: title
+        text:
+          en:
+            page: en
+            section: s-87e2d01259
+            part: body
+          zh:
+            page: zh
+            section: s-b6860d0109
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10658874-7stj
+        title:
+          en:
+            page: en
+            section: s-f16395a6ee
+            part: title
+          zh:
+            page: zh
+            section: s-67451f97d3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f16395a6ee
+            part: body
+          zh:
+            page: zh
+            section: s-67451f97d3
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10658874-7stj
+        title:
+          en:
+            page: en
+            section: s-c4f558ac67
+            part: title
+          zh:
+            page: zh
+            section: s-8dc862b2db
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 54XQS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54XQS
+            label:
+              en: Taricha torosa
+              zh: Taricha torosa
+        text:
+          en:
+            page: en
+            section: s-c4f558ac67
+            part: body
+          zh:
+            page: zh
+            section: s-8dc862b2db
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Taricha
+          url: https://www.checklistbank.org/dataset/316115/taxon/7STJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Taricha; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Taricha; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-direct-group-pmc10658874-7stj
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Taricha torosa: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Historical adult parasite records for Taricha torosa; no current voucherconcept equivalence certified
+            zh: Taricha torosa 历史成体寄生虫记录；未认证当前凭证概念等价
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8aaa46b92b
+        part: body
+      zh:
+        page: zh
+        section: s-49aa37ef23
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Taricha
+      sourceRowIds:
+        - Anf6549
+        - Anf6550
+        - Anf6551
+        - Anf6552
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 3
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Taricha granulosa
+          path: content/nodes/local-0b391a0e3f7d22a3ee1b3b19
+      metrics:
+        - metric: CTmax
+          rows: 1
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true
+    primaryStudyScopes:
+      - doi: 10.1645/23-6
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        sourceKey: primary-direct-group-pmc10658874-7stj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10658874/article.xml
+        sourceConcept: Selected historical Taricha hostlabels exactfixedname links; notgenus-wide biologicalsynthesis
+        evidenceRead: "Taricha torosa: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Original bilingual factual summaries of a compiled literature checklist; no source prose, tables, identification key or illustrations reproduced, adapted or translated.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Historical adult cestode records in selected genus members
+              zh: 部分属成员的历史成体绦虫记录
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-direct-group-pmc10658874-7stj
+            locator: PMC10658874 XML s3j Taricha hostentries and s3a/s3c–s3i numberedparasite entries; s2 scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fa52cf0d2b
+                part: body
+              zh:
+                page: zh
+                section: s-4a1dae0eb2
+                part: body
+            scope:
+              en: Historical adult parasite records for Taricha torosa; no current voucherconcept equivalence certified
+              zh: Taricha torosa 历史成体寄生虫记录；未认证当前凭证概念等价
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Historical host labels and reading scope
+              zh: 历史宿主标签与阅读范围
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-direct-group-pmc10658874-7stj
+            locator: PMC10658874 XML s3j named/unresolved Taricha entries; s2/s3a methods and s5 conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ac4f7d637d
+                part: body
+              zh:
+                page: zh
+                section: s-b597c120d4
+                part: body
+            scope:
+              en: Historical adult parasite records for Taricha torosa; no current voucherconcept equivalence certified
+              zh: Taricha torosa 历史成体寄生虫记录；未认证当前凭证概念等价
+    primaryResearchGroupSynthesisComplete: false

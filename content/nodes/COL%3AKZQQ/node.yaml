@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachoseps minor
+  displayName: Batrachoseps minor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZQQ
+  sourceIndexes:
+    - name:
+        en: Batrachoseps minor
+        zh: Batrachoseps minor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZQQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/401
+            queryName: Batrachoseps minor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3d2af93a57
+      - s-9c2e61437b
+      - s-81aae96540
+      - s-6fbd4fffa8
+      - s-6747432568
+      - s-b57ab07755
+      - s-64a541c44b
+      - s-f8c806d3fb
+      - s-06ddafe549
+    zh:
+      - s-874a156e39
+      - s-0c1d70706b
+      - s-f17fbf2a38
+      - s-9e33358f2d
+      - s-1285bded77
+      - s-5468b78d4f
+      - s-ede422ab6a
+      - s-4dee3fc76f
+      - s-aec13c0c4e

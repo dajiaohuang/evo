@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus delormei
+  displayName: Mantidactylus delormei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWDH
+  sourceIndexes:
+    - name:
+        en: Mantidactylus delormei
+        zh: Mantidactylus delormei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWDH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/321
+            queryName: Mantidactylus delormei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd9c4788e8
+      - s-41311a2657
+      - s-3cfcc11889
+      - s-79dc74fa93
+      - s-b945d67022
+      - s-b78d9ec778
+      - s-2e6288a7c7
+      - s-9452a09db2
+      - s-c648a224e3
+      - s-4fa97775e6
+      - s-d997cd5a23
+    zh:
+      - s-496965dd25
+      - s-2ec7691773
+      - s-375fcc81e8
+      - s-4ae1afb572
+      - s-a5468df089
+      - s-8111f74e8b
+      - s-c922833ed9
+      - s-d998449a80
+      - s-2b17a75321
+      - s-ea23bfa29b
+      - s-fa3fc03741

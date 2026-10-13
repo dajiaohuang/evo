@@ -1,0 +1,122 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Saguinus Hoffmannsegg, 1807
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: 绢毛猴属
+      en: Tamarins
+    sections:
+      - topic: readingPath
+        text:
+          zh:
+            page: zh
+            section: s-a6c4983d12
+            part: body
+          en:
+            page: en
+            section: s-5ec84efd3b
+            part: body
+        sourceIds:
+          - taxonomy
+          - ursulaTaxonomy
+          - ursulaRevalidation
+          - mourthe2022
+      - topic: overview
+        sourceIds:
+          - gurupi2017
+        text:
+          zh:
+            page: zh
+            section: s-aa1e74bdef
+            part: body
+          en:
+            page: en
+            section: s-ff4d5e3b8c
+            part: body
+    sources:
+      - id: mourthe2022
+        referenceId: ref-5f64b6aa-f75e-8d8d-a879-cb95aedb6f6e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 研究使用 IUCN 范围图比较巴西亚马逊十个主要间河区的灵长类组合；补充表 S1 列出范围图与各间河区的相交矩阵。支持区域范围图叠置摘要，不是现场出现点记录、丰度估计或完整分布评估。
+            en: The study compares primate assemblages across ten major Brazilian Amazon interfluves using IUCN range maps; Supplementary Table S1 gives the range-map overlap matrix for each interfluve. It supports regional map-overlay summaries, not field occurrence points, abundance estimates or complete range assessments.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/7BP7
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: ursulaTaxonomy
+        referenceId: ref-96ff0cbf-6f4d-86cc-a344-00d00820c0f3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Connects accepted species ID 4TZC8 under genus ID 7BP7.
+            zh: 将接受种 ID 4TZC8 接入属级 ID 7BP7。
+      - id: ursulaRevalidation
+        referenceId: ref-5ad95798-60b8-899e-ac36-7677f3716b61
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Taxonomic comparison of ursula and niger based on sampled pelage and molecular evidence; not a genus-wide ecological study.
+            zh: 基于毛色与分子资料比较 ursula 和 niger 的分类研究；不是属级生态调查。
+      - id: gurupi2017
+        referenceId: ref-ea17ddb7-feef-49a5-87f5-977cbeb63dda
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - samplingUnits
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: Printed pp51–53, tables 1–3; PDF pages 5–7.
+          accessedAt: 2026-10-03
+          samplingUnits: 32 encounter records; 27 group-size records; 31 density records, not distinct individual animals.
+          scope:
+            zh: Gurupi 一次局地样线调查的方法导读，不概括全属生态。
+            en: Methods guide to one Gurupi survey, without genus-wide ecological inference.
+          readingTargets:
+            - colId: 4TZC8
+              name: Saguinus ursula
+              canonicalPath: content/nodes/COL%3A4TZC8
+    limitations:
+      zh:
+        page: zh
+        section: s-547a850de6
+        part: body
+      en:
+        page: en
+        section: s-18c3c7eb2f
+        part: body

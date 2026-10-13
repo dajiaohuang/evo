@@ -1,0 +1,255 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cophyla Boettger, 1880
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Cophyla
+      zh: Cophyla
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4011e8464f
+            part: title
+          zh:
+            page: zh
+            section: s-06760f2262
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4011e8464f
+            part: body
+          zh:
+            page: zh
+            section: s-06760f2262
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-96c1d70a24
+            part: title
+          zh:
+            page: zh
+            section: s-50b2bdbbc0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-96c1d70a24
+            part: body
+          zh:
+            page: zh
+            section: s-50b2bdbbc0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-3e750acdfb
+            part: title
+          zh:
+            page: zh
+            section: s-0d2dba3166
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3e750acdfb
+            part: body
+          zh:
+            page: zh
+            section: s-0d2dba3166
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-3aae63116d
+            part: title
+          zh:
+            page: zh
+            section: s-4f3b1aa9f3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3aae63116d
+            part: body
+          zh:
+            page: zh
+            section: s-4f3b1aa9f3
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-a1b6f69848
+            part: title
+          zh:
+            page: zh
+            section: s-f2c041bfcd
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: Y4D7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AY4D7
+            label:
+              en: Cophyla berara
+              zh: Cophyla berara
+          - kind: catalogue
+            colId: N4YS3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AN4YS3
+            label:
+              en: Cophyla fortuna
+              zh: Cophyla fortuna
+          - kind: catalogue
+            colId: Y4DB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AY4DB
+            label:
+              en: Cophyla maharipeo
+              zh: Cophyla maharipeo
+          - kind: catalogue
+            colId: 5ZZ34
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5ZZ34
+            label:
+              en: Cophyla noromalalae
+              zh: Cophyla noromalalae
+          - kind: catalogue
+            colId: Y4DG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AY4DG
+            label:
+              en: Cophyla occultans
+              zh: Cophyla occultans
+          - kind: catalogue
+            colId: Y4DJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AY4DJ
+            label:
+              en: Cophyla phyllodactyla
+              zh: Cophyla phyllodactyla
+          - kind: catalogue
+            colId: Y4DL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AY4DL
+            label:
+              en: Cophyla puellarum
+              zh: Cophyla puellarum
+        text:
+          en:
+            page: en
+            section: s-a1b6f69848
+            part: body
+          zh:
+            page: zh
+            section: s-f2c041bfcd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cophyla
+          url: https://www.checklistbank.org/dataset/316115/taxon/3TP7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Cophyla; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-59b9511aaa
+        part: body
+      zh:
+        page: zh
+        section: s-c04de8abae
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Cophyla
+      sourceRowIds:
+        - Anf4133
+        - Anf4134
+        - Anf4135
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 3
+      currentConceptEquivalenceCertified: false

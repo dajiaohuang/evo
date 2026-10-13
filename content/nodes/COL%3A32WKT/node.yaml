@@ -1,0 +1,136 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus fuliginosus
+  displayName: Cycloramphus fuliginosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WKT
+  sourceIndexes:
+    - name:
+        en: Cycloramphus fuliginosus
+        zh: Cycloramphus fuliginosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WKT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/278
+            queryName: Cycloramphus fuliginosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/319
+            queryName: Cycloramphus fulginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/321
+            queryName: Cycloramphus umbrinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/159
+            queryName: Pithecopsis fuliginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/160
+            queryName: Grypiscus umbrinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/161
+            queryName: Cyclorhamphus fuliginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/162
+            queryName: Iliodiscus lutzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/163
+            queryName: Grypiscus fuliginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/165
+            queryName: Grypsicus scleromeris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-10daf61b57
+      - s-cae46309d0
+      - s-ade2004776
+      - s-df9babd7bc
+      - s-694edd8c14
+      - s-77ab4f93a0
+      - s-596d29607c
+      - s-96852fe09d
+      - s-f31ef6e631
+      - s-6d88685b69
+      - s-6d278c93c5
+      - s-0937bd6b2b
+      - s-89a0b5f2fc
+      - s-f9f366c003
+      - s-fdfafbbbb5
+      - s-90b65cabc1
+      - s-c17e8a1863
+      - s-48f3ba45de
+      - s-1cc6451b9f
+      - s-ba44fd94c1
+      - s-9bf6f72d8c
+      - s-ba59a90b0a
+      - s-697871910b
+      - s-c038eaf676
+    zh:
+      - s-be465a0be7
+      - s-6ecf83cbe3
+      - s-20f578b4ac
+      - s-da34a83468
+      - s-b98d0a3308
+      - s-029f4d2254
+      - s-f3bbaf8126
+      - s-1fca7b888e
+      - s-53e5972f97
+      - s-e1e272ced7
+      - s-fe5ff1d4ad
+      - s-afa0c54d64
+      - s-a00d6bd3fd
+      - s-c165412b56
+      - s-c79461697f
+      - s-025e59a696
+      - s-c193494dce
+      - s-df5a6f8f86
+      - s-b10b8e7628
+      - s-9ad82f323a
+      - s-912180870d
+      - s-2e5b10ffac
+      - s-ce0a7fd399
+      - s-5c485444a7

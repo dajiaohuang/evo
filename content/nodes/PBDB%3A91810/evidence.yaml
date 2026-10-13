@@ -1,0 +1,221 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Deinogalerix intermedius
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Deinogalerix intermedius
+      en: Deinogalerix intermedius
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-aa71ebf6b8
+            part: body
+          en:
+            page: en
+            section: s-cc5131d661
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5d91c919bf
+            part: body
+          en:
+            page: en
+            section: s-bfcec89fec
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-546e00b6d1
+            part: body
+          en:
+            page: en
+            section: s-40beccd8c2
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a3168195ab
+            part: body
+          en:
+            page: en
+            section: s-1b9366e7a8
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-afa4151e4a
+            part: body
+          en:
+            page: en
+            section: s-d3c2e405d9
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Deinogalerix intermedius
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=91810&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:91810; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:91810
+          selectedOccurrenceIds:
+            - occ:349225
+            - occ:349265
+            - occ:349274
+            - occ:349372
+            - occ:349693
+            - occ:349695
+            - occ:349697
+            - occ:349699
+            - occ:349800
+            - occ:349801
+            - occ:349814
+            - occ:349815
+            - occ:349846
+            - occ:349856
+            - occ:349857
+            - occ:349858
+            - occ:349859
+            - occ:349860
+            - occ:349861
+            - occ:349862
+            - occ:349863
+            - occ:349864
+            - occ:349865
+            - occ:349866
+            - occ:349867
+            - occ:349868
+            - occ:349869
+            - occ:349870
+            - occ:349871
+            - occ:349872
+            - occ:349873
+            - occ:349874
+            - occ:349875
+            - occ:349876
+          selectedCollectionIds:
+            - col:32948
+            - col:33224
+            - col:32950
+            - col:33239
+            - col:32969
+            - col:33287
+            - col:32964
+            - col:33289
+            - col:33296
+            - col:33297
+            - col:32954
+            - col:33299
+            - col:33300
+            - col:32955
+            - col:32962
+            - col:33301
+            - col:32953
+            - col:32951
+            - col:33302
+            - col:33303
+            - col:32958
+            - col:33304
+            - col:33305
+            - col:33306
+            - col:32956
+            - col:32970
+            - col:33307
+            - col:33308
+            - col:33309
+            - col:32946
+            - col:33310
+            - col:33311
+            - col:33312
+            - col:32947
+          sourceReferenceIds:
+            - ref:8828
+          originalIdentificationMappings:
+            - occurrenceId: occ:349274
+              originalIdentifiedName: Deinogalerix intermedius n. sp.
+              acceptedName: Deinogalerix intermedius
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e47dbb8606
+        part: body
+      en:
+        page: en
+        section: s-0aa4d679d3
+        part: body

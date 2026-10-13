@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton broadoridgus
+  displayName: Tylototriton broadoridgus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLM
+  sourceIndexes:
+    - name:
+        en: Tylototriton broadoridgus
+        zh: Tylototriton broadoridgus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/130
+            queryName: Tylototriton broadoridgus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/109
+            queryName: Yaotriton broadoridgus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ed1676ce39
+      - s-42b178c1f7
+      - s-f7e9580cd3
+      - s-db34825d2a
+      - s-4184d9a048
+      - s-047835291c
+      - s-9832423e53
+      - s-80b2485c25
+      - s-8db5d74cb3
+      - s-694a527e29
+      - s-5704794866
+    zh:
+      - s-27419bbb0c
+      - s-0a180f7aa7
+      - s-d5b65f89d4
+      - s-c19eece993
+      - s-37e84c64eb
+      - s-212e96b393
+      - s-82a6f31816
+      - s-0cbedd1eee
+      - s-7b0752f78a
+      - s-d0eab18379
+      - s-cd6e5b32cc

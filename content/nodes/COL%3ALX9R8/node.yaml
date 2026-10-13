@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys xuefengmontis
+  displayName: Boulenophrys xuefengmontis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9R8
+  sourceIndexes:
+    - name:
+        en: Boulenophrys xuefengmontis
+        zh: Boulenophrys xuefengmontis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9R8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/391
+            queryName: Boulenophrys xuefengmontis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-277f725fdf
+      - s-aacde14abc
+      - s-1c9e416b07
+      - s-e8958aaf90
+      - s-7233a53711
+      - s-3aaf2a096c
+      - s-ea0f99e2b3
+      - s-9a2785d992
+      - s-733d57c27f
+    zh:
+      - s-c869a3d08d
+      - s-70b3f6cc82
+      - s-a4e8b10a09
+      - s-b0c30cd8b0
+      - s-18ee7d3128
+      - s-5837048f55
+      - s-c14041702a
+      - s-34b1fab26d
+      - s-5f6fa1ce8f

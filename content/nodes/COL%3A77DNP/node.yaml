@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus phyllophilus
+  displayName: Phrynobatrachus phyllophilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77DNP
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus phyllophilus
+        zh: Phrynobatrachus phyllophilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77DNP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/162
+            queryName: Phrynobatrachus phyllophilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5c39816b8
+      - s-451bb72e4c
+      - s-a13ad34614
+      - s-f687e6618b
+      - s-59f06a5f1c
+      - s-6398767573
+      - s-536f0ce9b4
+      - s-0cbd00e9e5
+      - s-117d7e6579
+      - s-eedfa91d09
+      - s-7fff1dad27
+      - s-48d80535d7
+    zh:
+      - s-666d4c43be
+      - s-e6a822d0ad
+      - s-bbf250e39e
+      - s-d61cd07a6d
+      - s-438f5d316c
+      - s-6c61677d1f
+      - s-60df65f003
+      - s-755b4d0fec
+      - s-1e75916e65
+      - s-a12d0ec169
+      - s-ecceaed8b2
+      - s-c28c98086e

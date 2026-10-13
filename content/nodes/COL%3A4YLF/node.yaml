@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hoplobatrachus
+  displayName: Hoplobatrachus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YLF
+  sourceIndexes:
+    - name:
+        en: Hoplobatrachus
+        zh: Hoplobatrachus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YLF
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/430
+            queryName: Hoplobatrachus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 353
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c34e9817b1
+      - s-08f1656183
+      - s-1fd2c1f15a
+      - s-f2206e4243
+      - s-9afbf90ee9
+      - s-964cfa4aff
+      - s-4abdbbe84e
+      - s-abb7edd362
+      - s-3dfa5dd1d0
+      - s-769383c494
+      - s-b066375902
+      - s-5513ebe52d
+      - s-0a4ba6ad8e
+      - s-8c00fc17ad
+      - s-eced486323
+      - s-bd5270fb8d
+      - s-a95ea89116
+      - s-fa538e830e
+      - s-e32e58afda
+      - s-3aeb79acb4
+      - s-7463caae05
+    zh:
+      - s-ec2f249224
+      - s-6250d74288
+      - s-605ebb77fa
+      - s-a2f2a51e6b
+      - s-1d549448d1
+      - s-a3b6f002f9
+      - s-549164400c
+      - s-ba11c56c41
+      - s-cdd8d2cea9
+      - s-95c32c8e6d
+      - s-9a9d2e8bc8
+      - s-8939aad761
+      - s-59e8ddf8a8
+      - s-e42fe3cf2c
+      - s-17b288c88c
+      - s-8bfa6691d9
+      - s-4dbe2d842e
+      - s-c754ec1304
+      - s-978637e48a
+      - s-3fa10c9912
+      - s-b9c75818e9

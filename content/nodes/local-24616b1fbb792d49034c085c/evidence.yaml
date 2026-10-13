@@ -1,0 +1,316 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Alytes maurus
+    name:
+      en: Alytes maurus
+      zh: Alytes maurus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Which source name is assigned to this tadpole record?
+          zh: 这条蝌蚪记录采用什么来源名称？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-cfbddd2bfd
+            part: body
+          zh:
+            page: zh
+            section: s-97ae8ba464
+            part: body
+      - topic: morphology
+        title:
+          en: What do the rows actually report?
+          zh: 数据行实际记录了什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-a1209d6279
+            part: body
+          zh:
+            page: zh
+            section: s-d75efc4c5a
+            part: body
+      - topic: morphology
+        title:
+          en: What can the image measurements show?
+          zh: 图像测量能说明什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-4c9720eff4
+            part: body
+          zh:
+            page: zh
+            section: s-294bda3f8e
+            part: body
+      - topic: overview
+        title:
+          en: Where do the supplied ratios disagree?
+          zh: 哪些来源比例存在差异？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-eede6997c7
+            part: body
+          zh:
+            page: zh
+            section: s-2f344076e3
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 37; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Alytidae
+      genus: Alytes
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 37
+        values:
+          - Beukema, W., De Pous, P., Donaire-Barroso, D., Boaerts, S., Garcia-Porta, J., Escoriza, D., . . . Carranza, S. (2013). Review of the systematics, distribution, biogeography and natural history of Moroccan amphibians. Zootaxa, 3661, 1-60.
+          - Measurement
+          - Hand-drawn picture
+          - Alytes (Baleaphryne) maurus
+          - Alytidae
+          - Alytes
+          - Alytes maurus
+          - 36 (Judging based on the picture)
+          - 37.254
+          - 13.854
+          - 23.493
+          - 8.554
+          - 9.518
+          - 4.459
+          - 2.771
+          - 3.373
+          - null
+          - null
+          - null
+          - 0.37187952971493
+          - 0.63616846513126
+          - 0.22961292747876
+          - 0.25548934342629
+          - 0.11969184517988
+          - 0.74381274494141
+          - 0.954613885274
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 37
+        scientificName: Alytes maurus
+        sourceField: TaL/TL
+        suppliedRatio: 0.63616846513126
+        originalNumerator: 23.493
+        originalTotalLength: 37.254
+        computedRatio: 0.6306168465131261
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 37
+        scientificName: Alytes maurus
+        sourceField: DFH/TL
+        suppliedRatio: 0.74381274494141
+        originalNumerator: 2.771
+        originalTotalLength: 37.254
+        computedRatio: 0.07438127449401406
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 37
+        scientificName: Alytes maurus
+        sourceField: VFH/TL
+        suppliedRatio: 0.954613885274
+        originalNumerator: 3.373
+        originalTotalLength: 37.254
+        computedRatio: 0.09054061308852741
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.37187952971493
+        row: 37
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.22961292747876
+        row: 37
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.25548934342629
+        row: 37
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.11969184517988
+        row: 37
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - CCWH
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

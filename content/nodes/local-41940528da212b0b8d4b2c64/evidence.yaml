@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Plethodontohyla brevipes
+    name:
+      en: Plethodontohyla brevipes
+      zh: Plethodontohyla brevipes
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Plethodontohyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Plethodontohyla brevipes in the morphology deposit
+          zh: 形态数据中的 Plethodontohyla brevipes 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-21cc699303
+            part: body
+          zh:
+            page: zh
+            section: s-5cb443b701
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4385: measurement fields and sex codes"
+          zh: 第 4385 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-de5fe93703
+            part: body
+          zh:
+            page: zh
+            section: s-332e4a0d49
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4385; Reference.csv rows 1125
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4385
+        values:
+          - Microhylidae
+          - Plethodontohyla
+          - Plethodontohyla brevipes
+          - M
+          - "29.9"
+          - "7.5"
+          - "11.5"
+          - "2.4"
+          - "1.5"
+          - NA
+          - NA
+          - "2.6"
+          - NA
+          - "2.1"
+          - NA
+          - "1.3"
+          - "6.9"
+          - "15.2"
+          - NA
+          - "12.2"
+          - NA
+          - "12.4"
+          - NA
+          - "6.6"
+          - "43.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.2"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1125
+        values:
+          - Anura
+          - Plethodontohyla_brevipes
+          - Bellati, A., Scherz, M. D., Megson, S., Hyde Roberts, S., Andreone, F., Rosa, G. M., . . . Crottini, A. (2018). Resurrection and re-description of Plethodontohyla laevis (Boettger, 1913) and transfer of Rhombophryne alluaudi (Mocquard, 1901) to the genus Plethodontohyla (Amphibia, Microhylidae, Cophylinae). Zoosystematics and Evolution, 94(1), 109-135. https://doi.org/10.3897/zse.94.14698
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - TSL
+      - HLL
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6VQ8B
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

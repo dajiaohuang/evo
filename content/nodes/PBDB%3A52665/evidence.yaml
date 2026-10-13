@@ -1,0 +1,180 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Viverravus lutosus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Viverravus lutosus
+      en: Viverravus lutosus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-82403e7039
+            part: body
+          en:
+            page: en
+            section: s-5c671169c4
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9e6382f521
+            part: body
+          en:
+            page: en
+            section: s-f417bb4741
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0f28f6ea83
+            part: body
+          en:
+            page: en
+            section: s-4fc418f1df
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9ae65e5359
+            part: body
+          en:
+            page: en
+            section: s-b3266eb0f0
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-958b60445b
+            part: body
+          en:
+            page: en
+            section: s-7250a40561
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Viverravus lutosus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=52665&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:52665; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:52665
+          selectedOccurrenceIds:
+            - occ:167806
+            - occ:168705
+            - occ:170521
+            - occ:170910
+            - occ:171143
+            - occ:172584
+            - occ:172646
+            - occ:172973
+            - occ:173344
+            - occ:173885
+            - occ:174000
+            - occ:175138
+          selectedCollectionIds:
+            - col:15225
+            - col:15454
+            - col:15576
+            - col:15662
+            - col:15710
+            - col:15915
+            - col:15917
+            - col:15964
+            - col:16073
+            - col:16198
+            - col:16207
+            - col:16415
+          sourceReferenceIds:
+            - ref:2078
+            - ref:19815
+            - ref:6214
+            - ref:1616
+            - ref:3329
+            - ref:3336
+            - ref:1760
+            - ref:1618
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-c16edda764
+        part: body
+      en:
+        page: en
+        section: s-095bacacf7
+        part: body

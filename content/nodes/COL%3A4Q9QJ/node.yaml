@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena harenna
+  displayName: Ptychadena harenna
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9QJ
+  sourceIndexes:
+    - name:
+        en: Ptychadena harenna
+        zh: Ptychadena harenna
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9QJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/472
+            queryName: Ptychadena harenna
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-95e816fe5d
+      - s-6047518730
+      - s-6c26495ed0
+      - s-27af1e01c1
+      - s-de97ef1f4b
+      - s-343216b904
+      - s-2d670da508
+      - s-6956e2bb9c
+      - s-4d9e3b03f4
+      - s-25940c4569
+      - s-f148b51fed
+      - s-7afb171137
+      - s-4ebfbf2c67
+      - s-de234f660a
+      - s-4e0b938cf4
+    zh:
+      - s-65f8bf83bb
+      - s-9df993951a
+      - s-4737f21a5a
+      - s-0d9895b0f4
+      - s-2dc14c46ca
+      - s-09c25d4b14
+      - s-43c3fa96fe
+      - s-367ff987ea
+      - s-59d5d61a0b
+      - s-a0b8cc3e38
+      - s-68c63061f1
+      - s-3a458935d5
+      - s-7367481857
+      - s-6d6aef83f7
+      - s-4153afb9c2

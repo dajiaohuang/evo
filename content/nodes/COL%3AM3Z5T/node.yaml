@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia goweri
+  displayName: Caecilia goweri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M3Z5T
+  sourceIndexes:
+    - name:
+        en: Caecilia goweri
+        zh: Caecilia goweri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M3Z5T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/68
+            queryName: Caecilia goweri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4af452620b
+      - s-2bba6b4e1b
+      - s-c0b978bb69
+      - s-3c59eb38bd
+      - s-1d758d8f77
+      - s-cd19088b6f
+    zh:
+      - s-4527d36015
+      - s-2986f14b70
+      - s-b22196a4f9
+      - s-e267d9e1e5
+      - s-3de5b47148
+      - s-251a16ff11

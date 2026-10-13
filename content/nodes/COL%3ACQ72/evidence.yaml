@@ -1,0 +1,220 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ameerega munduruku Neves, Silva, Akieda, Cabrera, Koroiva & Santana, 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ameerega munduruku
+      zh: Ameerega munduruku
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-46a4db4574
+            part: title
+          zh:
+            page: zh
+            section: s-fcacbeb37b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-46a4db4574
+            part: body
+          zh:
+            page: zh
+            section: s-fcacbeb37b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e4d55af141
+            part: title
+          zh:
+            page: zh
+            section: s-441d9e705f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e4d55af141
+            part: body
+          zh:
+            page: zh
+            section: s-441d9e705f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-08c214abfe
+            part: title
+          zh:
+            page: zh
+            section: s-ffdaa44153
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-08c214abfe
+            part: body
+          zh:
+            page: zh
+            section: s-ffdaa44153
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-efab38fdd955ff2b12af9dbd
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-ce07aca1ca
+            part: title
+          zh:
+            page: zh
+            section: s-96ecbcc84e
+            part: title
+        sourceIds:
+          - primary-pmc8436961-cq72
+        text:
+          en:
+            page: en
+            section: s-ce07aca1ca
+            part: body
+          zh:
+            page: zh
+            section: s-96ecbcc84e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ameerega munduruku
+          url: https://www.checklistbank.org/dataset/316115/taxon/CQ72
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 182, 183; Reference.csv rows 3479
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc8436961-cq72
+        referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ameerega munduruku: Proceratophrys korekore: Introduction,Fieldwork,Morphology,Bioacoustics,Phylogenetic inference,Nomenclatural acts,Results,Discussion and31Appendix specimen paragraphs read;allthree main tables andeightfigure captions read. ArticleCCBY4link verified. Figurepixels,rawsounds,originalGenBank/alignment,DocumentS1/S2,museumobjects not independently read/authenticated.; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c4db49ace2
+        part: body
+      zh:
+        page: zh
+        section: s-fb51bfdfc1
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.12012
+        referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+        sourceKey: primary-pmc8436961-cq72
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8436961/article.xml
+        sourceConcept: Exact named comparator, Appendix row, outgroup or sympatric record in the2021korekore study; not new complete species description
+        evidenceRead: "Ameerega munduruku: Proceratophrys korekore: Introduction,Fieldwork,Morphology,Bioacoustics,Phylogenetic inference,Nomenclatural acts,Results,Discussion and31Appendix specimen paragraphs read;allthree main tables andeightfigure captions read. ArticleCCBY4link verified. Figurepixels,rawsounds,originalGenBank/alignment,DocumentS1/S2,museumobjects not independently read/authenticated.; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Named sympatry in the Teles Pires observations
+              zh: Teles Pires观察的具名同域
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-cq72
+            locator: PMC8436961 article.xml sec8p17;sec9p3;proceratophrys-korekore-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-49c2531566
+                part: body
+              zh:
+                page: zh
+                section: s-1ecdb01cec
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Adenomera chicomendesi
+    name:
+      en: Adenomera chicomendesi
+      zh: Adenomera chicomendesi
+    sourceClassification:
+      order: Anura
+      family: Leptodactylidae
+      genus: Adenomera
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-18232a45ea
+            part: body
+          zh:
+            page: zh
+            section: s-bb9f2d10a3
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b377f4b4dd
+            part: body
+          zh:
+            page: zh
+            section: s-c6002c98d5
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 32, 33; Reference.csv rows 2794
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 32
+        values:
+          - Leptodactylidae
+          - Adenomera
+          - Adenomera chicomendesi
+          - M
+          - "22.7"
+          - "7.6"
+          - "8.4"
+          - "2.1"
+          - "1.4"
+          - NA
+          - NA
+          - "2.2"
+          - NA
+          - "1.9"
+          - NA
+          - NA
+          - "5.3"
+          - NA
+          - NA
+          - "12.1"
+          - NA
+          - "11"
+          - "10.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 33
+        values:
+          - Leptodactylidae
+          - Adenomera
+          - Adenomera chicomendesi
+          - F
+          - "23.2"
+          - "7.5"
+          - "8.5"
+          - "1.8"
+          - "1.5"
+          - NA
+          - NA
+          - "2.3"
+          - NA
+          - "1.9"
+          - NA
+          - NA
+          - "5.4"
+          - NA
+          - NA
+          - "12.1"
+          - NA
+          - "11.3"
+          - "10.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2794
+        values:
+          - Anura
+          - Adenomera_chicomendesi
+          - De Carvalho, T., Angulo, A., Kokubum, M., Barrera, D., Souza, M., Haddad, C., & Giaretta, A. (2019). A New Cryptic Species of the Adenomera andreae Clade from Southwestern Amazonia (Anura, Leptodactylidae). Herpetologica, 75, 233. https://doi.org/10.1655/D-18-00049
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - HAL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - L5M5S
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

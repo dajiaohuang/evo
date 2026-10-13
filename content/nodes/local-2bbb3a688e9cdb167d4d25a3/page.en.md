@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-e29171f8b3}
+This record shows how TadpoleTraits files tadpoles under Scutiger occidentalis. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Scutiger occidentalis in Scutiger and Megophryidae. In the literature table, rows 3718, 3719, 3720, 3721, 3722, 3723, 3724, 3725, 3726, 3727 list Scutiger occidentalis in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-5fae64f5bf}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 10 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 26 (rows 3718, 3719); 27 (row 3720); 28 (row 3721); 31 (row 3722); 33 (row 3723); 37 (rows 3724, 3726); 35 (row 3725); 38 (row 3727). Sample size is populated in 10 rows, with source values from 1 to 1; the entries remain row-specific. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

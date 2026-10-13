@@ -1,0 +1,132 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sclerophrys regularis
+  displayName: Sclerophrys regularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VQ95
+  sourceIndexes:
+    - name:
+        en: Sclerophrys regularis
+        zh: Sclerophrys regularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VQ95
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/122
+            queryName: Sclerophrys regularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/402
+            queryName: Bufo regularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 176
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/477
+            queryName: Amietophrynus regularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/439
+            queryName: Bufo nubicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/440
+            queryName: Rana mosaica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/441
+            queryName: Bufo guineensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/442
+            queryName: Bufo amoenus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/443
+            queryName: Bufo sauvagei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/444
+            queryName: Bufo buccinator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/445
+            queryName: Bufo neglectus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/256
+            queryName: Bufo regularis regularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2c56721487
+      - s-b1faa843dc
+      - s-e9dfe1cbd8
+      - s-3d59fcbb7e
+      - s-5ae3e6cf7f
+      - s-4baf478329
+      - s-528c7ffe33
+      - s-3f907ec91f
+      - s-1b6a1e7f06
+      - s-ba00eeb486
+      - s-3c976e7d0b
+      - s-d85a448561
+      - s-5354e125a2
+      - s-3b01e60b8e
+      - s-3c35c2aa41
+      - s-f0442e13c7
+    zh:
+      - s-b8e99d115b
+      - s-a6757dc3d7
+      - s-9a8bbc7b8f
+      - s-954861d989
+      - s-c2e9d8c4e1
+      - s-50039ee28e
+      - s-4c75aea250
+      - s-c8afe63b4e
+      - s-82ec5a5652
+      - s-496b29cad2
+      - s-00acd3dbe8
+      - s-8e6ef83688
+      - s-0cab51cf70
+      - s-f94ce2bdb8
+      - s-49537e3e92
+      - s-1276009d04

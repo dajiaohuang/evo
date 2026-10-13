@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-be22536e24
+      part: title
+    titleZh:
+      page: zh
+      section: s-6abe60b337
+      part: title
+    category: morphology
+    startAge: 411
+    endAge: 407
+    regions:
+      - Willwerath Lagerstätte, Rhineland-Palatinate, Germany
+    clades:
+      - Jaekelopterus rhenaniae
+      - Eurypterida
+    summary:
+      page: en
+      section: s-be22536e24
+      part: body
+    summaryZh:
+      page: zh
+      section: s-6abe60b337
+      part: body
+    claimIds:
+      - claim:event:jaekelopterus-giant-chelicera
+    evidenceItems:
+      - statement: The free ramus and associated cuticle directly establish a giant pterygotid chelicera from the Early Devonian Willwerath sample.
+        relation: supports
+        claimIds:
+          - claim:event:jaekelopterus-giant-chelicera
+        referenceLinks:
+          - referenceId: braddy-2008-jaekelopterus
+            relation: supports
+            pages: 106–109
+            figure: Figures 1–2
+            quoteLocator: Willwerath chelicera; Body-length scaling; Assumptions
+    uncertaintyItems:
+      - statement: The approximately 2.5-metre body length assumes comparable chelicera-to-body proportions and limited positive allometry; it is not a complete skeleton measurement.
+        relation: contextualizes
+        claimIds:
+          - claim:event:jaekelopterus-giant-chelicera
+        referenceLinks:
+          - referenceId: braddy-2008-jaekelopterus
+            relation: supports
+            pages: 106–109
+            figure: Figures 1–2
+            quoteLocator: Willwerath chelicera; Body-length scaling; Assumptions
+  claims:
+    - subjectId: event:jaekelopterus-giant-chelicera
+      claimKind: scientific
+      claimType: morphology
+      statement: The Willwerath Jaekelopterus rhenaniae fixed ramus preserves 36.4 cm; its complete length was estimated at 45.5 cm. The approximately 2.5-metre body length is a separate estimate based on related pterygotid proportions, with possible positive claw allometry remaining a source of uncertainty.
+      confidence: medium
+      confidenceRationale: Claw dimensions are direct and reproducible; whole-body gigantism depends on extrapolation from related taxa and scaling assumptions.
+      referenceLinks:
+        - referenceId: braddy-2008-jaekelopterus
+          relation: supports
+          pages: 106–109
+          figure: Figures 1–2
+          quoteLocator: Willwerath chelicera; Body-length scaling; Assumptions
+  claim-rationales.zh:
+    - 螯肢尺寸直接且可复核；整身巨型化依赖近亲外推和尺度假设。
+  claim-statements.zh:
+    - Willwerath 出土的 Jaekelopterus rhenaniae 螯肢固定支保存长 36.4 厘米，完整长度估算为 45.5 厘米。约 2.5 米体长是另据近缘翼肢鲎比例作出的估算，螯肢可能存在的正异速生长仍是不确定性来源。

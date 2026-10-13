@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Glyphoglossus minutus
+    name:
+      en: Glyphoglossus minutus
+      zh: Glyphoglossus minutus
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Glyphoglossus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6049a63dbc
+            part: body
+          zh:
+            page: zh
+            section: s-826ed99055
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b6f4a88884
+            part: body
+          zh:
+            page: zh
+            section: s-32505eda7e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2024, 2025; Reference.csv rows 465
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2024
+        values:
+          - Microhylidae
+          - Glyphoglossus
+          - Glyphoglossus minutus
+          - M
+          - "30.9"
+          - "6.6"
+          - "10.9"
+          - "4.8"
+          - "1.8"
+          - "1.6"
+          - "4.7"
+          - "2.3"
+          - "1.9"
+          - "1.9"
+          - "3.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2025
+        values:
+          - Microhylidae
+          - Glyphoglossus
+          - Glyphoglossus minutus
+          - F
+          - "25.5"
+          - "6"
+          - "9.3"
+          - "2.8"
+          - "0.8"
+          - "1"
+          - "4.1"
+          - "2.2"
+          - "1.5"
+          - "1.8"
+          - "3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 465
+        values:
+          - Anura
+          - Glyphoglossus_minutus
+          - "Das, I., Yaakob, N., & Liat, L. B. (2004). New species of Calluella Stoliczka, 1872 (Anura : Microhylidae) from Taman Negara, Pahang State, Peninsular Malaysia. Raffles Bulletin of Zoology, 52(1), 257-260."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3GGSZ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

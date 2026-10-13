@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-f115b4634f
+      part: title
+    titleZh:
+      page: zh
+      section: s-fd83142627
+      part: title
+    category: innovation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Kasari Bay, Amami Island, Japan; laboratory multi-omics sample
+    clades:
+      - Brachiopoda
+      - Lingula anatina
+    summary:
+      page: en
+      section: s-f115b4634f
+      part: body
+    summaryZh:
+      page: zh
+      section: s-fd83142627
+      part: body
+    claimIds:
+      - claim:event:lingula-genome-biomineralization
+    evidenceItems:
+      - statement: The 425-Mb assembly, staged RNA data and shell proteome identify expanded chitin-synthase families, shared regulatory components and lineage-specific matrix proteins.
+        relation: supports
+        claimIds:
+          - claim:event:lingula-genome-biomineralization
+        referenceLinks:
+          - referenceId: luo-et-al-2015-lingula-genome
+            relation: supports
+            pages: Article 8301
+            figure: Figures 1–5; Supplementary Notes and Tables
+            quoteLocator: Genome; phylogenomics; shell matrix and biomineralization
+    uncertaintyItems:
+      - statement: Shared genes do not make brachiopod shell identical to molluscan shell or vertebrate bone; lineage-specific combinations support independent biomineralization histories.
+        relation: contextualizes
+        claimIds:
+          - claim:event:lingula-genome-biomineralization
+        referenceLinks:
+          - referenceId: luo-et-al-2015-lingula-genome
+            relation: supports
+            pages: Article 8301
+            figure: Figures 4–5
+            quoteLocator: Comparative biomineralization discussion
+  claims:
+    - subjectId: event:lingula-genome-biomineralization
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: The 425-Mb Lingula anatina genome, embryonic and adult transcriptomes and shell proteome identify chitin-synthase and BMP-related components alongside lineage-specific shell proteins. BMP activity at larval mantle margins suggests a shared biomineralization mechanism, but its functional role requires further testing; the shell toolkit differs from vertebrate bone.
+      confidence: high
+      confidenceRationale: Genome, transcriptome and proteome datasets directly support gene and protein inventories; pathway recruitment and independent biomineralization are comparative evolutionary inferences, not fossil observations.
+      referenceLinks:
+        - referenceId: luo-et-al-2015-lingula-genome
+          relation: supports
+          pages: Article 8301
+          figure: Figures 1–5; Supplementary Notes and Tables
+          quoteLocator: Genome sequencing and assembly; shell transcriptome and proteome; Figure 5 and BMP signalling discussion, including the need for further functional analyses
+  claim-rationales.zh:
+    - 基因组、转录组和蛋白组直接支持成分清单；通路征用和独立生物矿化是比较演化推断。
+  claim-statements.zh:
+    - 鸭嘴海豆芽的 4.25 亿碱基对基因组、胚胎和成体转录组及壳蛋白组识别出几丁质合酶、BMP 相关组分与谱系特异壳蛋白。幼体外套膜边缘的 BMP 活性提示可能共享生物矿化机制，但其功能仍需进一步检验；这套成壳组分不同于脊椎动物骨骼。

@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Schizosaccharomyces pombe Lindner
+    rank: species
+    sourceDatasetId: "2073"
+    sections:
+      - topic: ecology
+        sourceIds:
+          - bryschHerzberg2022
+        text:
+          en:
+            page: en
+            section: s-1f19f7913b
+            part: body
+          zh:
+            page: zh
+            section: s-dfd5d10c91
+            part: body
+    identity:
+      method: Exact COL26.8 accepted usage, verbatim scientific name including authorship, rank, status, sourceDatasetId, and Fungi classification were checked in the pinned registry release.
+      scope: Nominal species usage 4VCRL in COL26.8. The biological evidence below concerns honey samples and isolation methods in Brysch-Herzberg et al. (2022), not all strains or the full accepted species concept.
+      sourceIds:
+        - col
+        - bryschHerzberg2022
+    lifeStatusScope:
+      wild: The study sampled honeys from many countries but does not consistently identify whether the source bees were wild or managed; no wild-population status is inferred.
+      domesticated: No domestication claim is made for the yeast; sampled honey may come from managed or wild bees.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 27
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; underlying fungal source dataset 2073
+          url: https://www.checklistbank.org/dataset/316115/taxon/4VCRL
+          stableId: col:4VCRL@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Accepted species usage 4VCRL; accepted scientific name and authorship; rank species; sourceDatasetId 2073; Fungi classification
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, status, sourceDatasetId, and classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4VCRL. https://doi.org/10.48580/dgywk
+      - id: bryschHerzberg2022
+        referenceId: ref-3e2cf5fb-bd62-8159-af84-a9cb0c16b1c7
+        fields:
+          - id
+          - title
+          - url
+          - rightsEvidenceUrl
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text under CC BY 4.0; third-party items may retain separate terms. No figures or tables are reproduced.
+          stableId: doi:10.1007/s10482-022-01720-0
+          rightsEvidenceUrl: https://link.springer.com/article/10.1007/s10482-022-01720-0
+          accessedAt: 2026-09-24
+          locator: Abstract; Results, Honey; Discussion, Schizosaccharomyces pombe and Honey
+          licenseAssessment: item-level-verified
+          scope: Original study of isolation from natural and artificial substrates; this dossier uses only its honey-sample results and stated interpretive limits.
+          attribution: Brysch-Herzberg M, Jia GS, Seidel M, et al. (2022). Antonie van Leeuwenhoek 115:661–695. https://doi.org/10.1007/s10482-022-01720-0. Claims paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+        gaps:
+          - The cited study does not provide a species-level morphological assessment.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - The cited ecological sampling study does not directly establish a complete reproductive or developmental life history.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In the study's honey series, S. pombe was isolated from 49 of 386 honey samples (12.7%) collected from 43 countries. The authors discuss honeybee honey as a likely primary habitat, while the observed frequency varied among countries and depends on the study's sampling and enrichment methods; the result is not a universal habitat or prevalence estimate.
+            originalLanguage: en
+            sourceIds:
+              - bryschHerzberg2022
+            locator: Results, Honey; Discussion, Schizosaccharomyces pombe—Honey; Abstract
+            placeTimeScope: The study's honey collection represented 43 countries; the claim is limited to the analyzed samples and study methods, with no country-level occupancy inferred from the aggregate count.
+            lifeStatus: Honey samples are the sampled substrate; the paper does not consistently resolve wild versus managed bee sources, and no host relationship or causal interaction is claimed.
+        gaps:
+          - The sample series is not a probability survey of honey or yeast occurrence; country-level frequencies, unsampled regions, natural population dynamics, and habitat dependence require separate assessment.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level evolutionary history or phylogenetic analysis is used for this dossier.
+      distribution:
+        status: not-assessed
+        gaps:
+          - The aggregated honey sample result does not provide a complete, georeferenced range or country-level occurrence map.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil or paleontological search was performed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No formal conservation assessment or population-trend review was performed.

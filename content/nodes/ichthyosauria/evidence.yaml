@@ -1,0 +1,73 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Ichthyosauria
+    commonName: Ichthyosaurs
+    commonNameZh: 鱼龙类
+    rank: order
+    taxonId: ""
+    firstAppearance: 248
+    lastAppearance: 90
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:ichthyosauria
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Ichthyosauria navigation envelope starts at the approximately 248 Ma Chaohusaurus specimen from the Procolumbites Zone and retains 90 Ma as a rounded younger composite; the sampled occurrence is not an exact global first appearance, complete lineage duration or direct ancestor.
+      confidence: medium
+      confidenceRationale: A named articulated maternal specimen and its biostratigraphic setting directly support an Early Triassic ichthyosaur occurrence. Medium confidence retains the approximate formation-level age and the unsourced precision of a global younger endpoint.
+      referenceLinks:
+        - referenceId: motani-2014-chaohusaurus-viviparity
+          relation: supports
+          pages: 9(2):e88640
+          figure: Figure 1; Supplementary stratigraphic information
+          quoteLocator: Geological setting; specimen description and Results
+  claim-rationales.zh:
+    - 具名关节相连母体标本及其生物地层背景直接支持早三叠世鱼龙记录；中等置信度保留近似的组级年龄和全球年轻端点缺乏精确来源的问题。
+  claim-statements.zh:
+    - 鱼龙类导航范围从约 2.48 亿年前 Procolumbites 带的 Chaohusaurus 标本开始，并保留 0.90 亿年前作为取整的年轻端综合边界；该样本记录不是精确全球首现、完整谱系时长或直系祖先。
+  ranges:
+    - entityId: ichthyosauria
+      rangeKind: global-composite
+      taxonomicConcept: Ichthyosauria
+      geographicScope: Global or represented navigation composite
+      olderMa: 248
+      youngerMa: 90
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The approximately 248 Ma older edge follows a Chaohusaurus specimen and biostratigraphic assignment; 90 Ma remains a rounded composite younger boundary.
+      evidenceBasis: The named Chaohusaurus maternal specimen and Procolumbites Zone context provide a primary-study Early Triassic anchor without asserting a global FAD, complete duration or direct ancestor.
+      confidence: medium
+      claimIds:
+        - claim:taxon:ichthyosauria:fossil-range
+      referenceLocators:
+        - referenceId: motani-2014-chaohusaurus-viviparity
+          locator: PLOS ONE 9(2):e88640; Figure 1; geological setting, specimen description and Results
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    sections:
+      - topic: fossil-record
+        title:
+          en:
+            page: en
+            section: s-99f9352efe
+            part: title
+          zh:
+            page: zh
+            section: s-46a99edef8
+            part: title
+        sourceIds:
+          - motani-2014-chaohusaurus-viviparity
+        text:
+          en:
+            page: en
+            section: s-99f9352efe
+            part: body
+          zh:
+            page: zh
+            section: s-46a99edef8
+            part: body

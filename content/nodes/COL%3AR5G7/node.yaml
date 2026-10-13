@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cardioglossa congolia
+  displayName: Cardioglossa congolia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/R5G7
+  sourceIndexes:
+    - name:
+        en: Cardioglossa congolia
+        zh: Cardioglossa congolia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: R5G7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/151
+            queryName: Cardioglossa congolia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-82c59e62ef
+      - s-5561d2180e
+      - s-97874e06e0
+      - s-4ab8ad2624
+      - s-adf480902d
+      - s-2ec5540c94
+    zh:
+      - s-6dae9061a1
+      - s-486b612d08
+      - s-3c7799de94
+      - s-3b76a51225
+      - s-19e2c89e7e
+      - s-4b19171413

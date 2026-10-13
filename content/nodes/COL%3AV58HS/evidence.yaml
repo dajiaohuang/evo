@@ -1,0 +1,397 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Occidozyga myanhessei (Köhler, Vargas, Than & Thammachoti in Köhler et al., 2021)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Occidozyga myanhessei
+      zh: Occidozyga myanhessei
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f144e14f4e
+            part: title
+          zh:
+            page: zh
+            section: s-f4f2c07e0c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f144e14f4e
+            part: body
+          zh:
+            page: zh
+            section: s-f4f2c07e0c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6880a41244
+            part: title
+          zh:
+            page: zh
+            section: s-3f8c1689dc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6880a41244
+            part: body
+          zh:
+            page: zh
+            section: s-3f8c1689dc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-ab97b9e177
+            part: title
+          zh:
+            page: zh
+            section: s-744a370a5e
+            part: title
+        sourceIds:
+          - primary-pmc12822217-v58hs
+        text:
+          en:
+            page: en
+            section: s-ab97b9e177
+            part: body
+          zh:
+            page: zh
+            section: s-744a370a5e
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-1190f006db
+            part: title
+          zh:
+            page: zh
+            section: s-714ff68b10
+            part: title
+        sourceIds:
+          - primary-pmc12822217-v58hs
+        text:
+          en:
+            page: en
+            section: s-1190f006db
+            part: body
+          zh:
+            page: zh
+            section: s-714ff68b10
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-a96c89b6f4
+            part: title
+          zh:
+            page: zh
+            section: s-479d5ec981
+            part: title
+        sourceIds:
+          - primary-pmc12822217-v58hs
+        text:
+          en:
+            page: en
+            section: s-a96c89b6f4
+            part: body
+          zh:
+            page: zh
+            section: s-479d5ec981
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-d1f5caf3a1
+            part: title
+          zh:
+            page: zh
+            section: s-bd8a85b444
+            part: title
+        sourceIds:
+          - primary-pmc12822217-v58hs
+        text:
+          en:
+            page: en
+            section: s-d1f5caf3a1
+            part: body
+          zh:
+            page: zh
+            section: s-bd8a85b444
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-6260fb8e94
+            part: title
+          zh:
+            page: zh
+            section: s-e092770e71
+            part: title
+        sourceIds:
+          - primary-pmc12822217-v58hs
+        text:
+          en:
+            page: en
+            section: s-6260fb8e94
+            part: body
+          zh:
+            page: zh
+            section: s-e092770e71
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6ca6160848
+            part: title
+          zh:
+            page: zh
+            section: s-0343a5e17f
+            part: title
+        sourceIds:
+          - primary-pmc12822217-v58hs
+          - primary-pmc12822217-v58hs-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-6ca6160848
+            part: body
+          zh:
+            page: zh
+            section: s-0343a5e17f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Occidozyga myanhessei
+          url: https://www.checklistbank.org/dataset/316115/taxon/V58HS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12822217-v58hs
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Occidozyga myanhessei: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12822217-v58hs-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 usageRQDZP acceptedV58HS
+          scope:
+            en: Exact nomenclatural link Phrynoglossus myanhessei to Occidozyga myanhessei; no genome or specimen identity certification
+            zh: Phrynoglossus myanhessei 至 Occidozyga myanhessei 的精确命名链接；无基因组或标本身份认证
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc12822217-v58hs-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-910f4d1085
+        part: body
+      zh:
+        page: zh
+        section: s-70989d2ded
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1186/s12864-025-12414-y
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        sourceKey: primary-pmc12822217-v58hs
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/article.xml
+        sourceConcept: Table1source Phrynoglossus myanhessei listedassemblyGCA_038501925.1; conflictingS1quantitativeassignments withheld, no rawgenomeauthentication
+        evidenceRead: "Occidozyga myanhessei: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reference assembly in a comparative genome study
+              zh: 比较基因组研究中的参考组装
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-v58hs
+            locator: PMC12822217 XML Tab1 tbody row16 sourcePhrynoglossus myanhessei accessionGCA_038501925.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ed29ce0879
+                part: body
+              zh:
+                page: zh
+                section: s-7adb47dd5a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Assembly metadata has limits
+              zh: 组装元数据有其限制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-v58hs
+            locator: PMC12822217 XML Tab1 tbody row16 sourcePhrynoglossus myanhessei accessionGCA_038501925.1;Tab1caption;Sec3assemblyfilter
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-318b428bc6
+                part: body
+              zh:
+                page: zh
+                section: s-6461e8138b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Repeat annotations are computational observations
+              zh: 重复序列注释是计算观察
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-v58hs
+            locator: PMC12822217 XML Sec3 repeatannotation
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3f30aee113
+                part: body
+              zh:
+                page: zh
+                section: s-a011ffe63e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Across-species correlations do not prove this species mechanism
+              zh: 跨物种相关性不能证明本种机制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-v58hs
+            locator: PMC12822217 XML Sec5–8/Sec11–15/Sec17–20
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f7b25699f3
+                part: body
+              zh:
+                page: zh
+                section: s-74de5fa061
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Conflicting source identifiers prevent a repeat-data assignment
+              zh: 来源编号冲突阻止重复数据归属
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-v58hs
+            locator: PMC12822217 XML Tab1 tbody row16 sourcePhrynoglossus myanhessei accessionGCA_038501925.1; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/12864_2025_12414_MOESM1_ESM.xlsx Table S1 A3:B3; TableS2/S3headers
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2417d06fdc
+                part: body
+              zh:
+                page: zh
+                section: s-2e4ff5249a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: taxonomy
+            heading:
+              en: Frozen nomenclature preserves the assembly source name
+              zh: 冻结命名对应保留组装来源名
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-v58hs
+            locator: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/col26.8-name-bridges.json usageRQDZP acceptedV58HS
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e2ab049353
+                part: body
+              zh:
+                page: zh
+                section: s-483c07674e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor cruzi
+  displayName: Craugastor cruzi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCD5
+  sourceIndexes:
+    - name:
+        en: Craugastor cruzi
+        zh: Craugastor cruzi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCD5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/107
+            queryName: Craugastor cruzi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/320
+            queryName: Eleutherodactylus cruzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-32b9e65198
+      - s-9ec9baa649
+      - s-cc3e48eeed
+      - s-74019fa890
+      - s-948d0241f5
+      - s-12f760e46b
+      - s-79705ac15e
+      - s-ba143563d8
+      - s-62bdf010d0
+    zh:
+      - s-a45aceaa7e
+      - s-14b47e83a5
+      - s-b302bb5df7
+      - s-b36db32913
+      - s-7708daef52
+      - s-b84e78420e
+      - s-0e29d7d139
+      - s-835356279e
+      - s-97b7d6b2bc

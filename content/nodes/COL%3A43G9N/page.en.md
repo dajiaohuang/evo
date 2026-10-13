@@ -1,0 +1,3 @@
+## ## Ellipsoid heads and lance-shaped calyx lobes {#s-7ecace9ac7}
+The Brazilian Flora 2020 entry records strigose stems with forward-appressed hairs and dorsiventrally flattened, unbranched setae. Branched setae, glandular hairs, prickles and short shoots are absent. The stipules persist; extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are ellipsoid, with floral bracts longer than the flowers before opening. The flowers have four perianth parts and a paleaceous calyx with lance-shaped lobes. Corolla lobes have one to three veins and silky hairs; the androecium is isostemonous, with pink filaments. The habitat field says “terrestrial,” without identifying a locality or more specific habitat.
+

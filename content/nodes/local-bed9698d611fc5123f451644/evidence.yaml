@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptopelis vermiculatus
+    name:
+      en: Leptopelis vermiculatus
+      zh: Leptopelis vermiculatus
+    sourceClassification:
+      order: Anura
+      family: Arthroleptidae
+      genus: Leptopelis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Leptopelis vermiculatus in the version 3 classification
+          zh: Leptopelis vermiculatus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9bab2a6068
+            part: body
+          zh:
+            page: zh
+            section: s-8f70f0dd61
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 19 populated trait fields
+          zh: 1 条测量行与 19 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c392b6de36
+            part: body
+          zh:
+            page: zh
+            section: s-ba9835fa17
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2776; Reference.csv rows 2503
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2776
+        values:
+          - Arthroleptidae
+          - Leptopelis
+          - Leptopelis vermiculatus
+          - M
+          - "42.1"
+          - "12.95"
+          - "16.8"
+          - "6.15"
+          - "3"
+          - "1.05"
+          - "4.8"
+          - "4.05"
+          - "4.35"
+          - "3.25"
+          - "4.75"
+          - NA
+          - NA
+          - "8.5"
+          - NA
+          - NA
+          - NA
+          - "19.35"
+          - "19.75"
+          - "9.95"
+          - NA
+          - "2.35"
+          - "4.45"
+          - NA
+          - NA
+          - "16.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2503
+        values:
+          - Anura
+          - Leptopelis_vermiculatus
+          - Gvozdik, V., Tillack, F., Menegon, M., & Loader, S. P. (2014). The status of Leptopelis barbouri Ahl, 1929 and eleven other nomina of the current tree-frog genus Leptopelis (Arthroleptidae) described from East Africa, with a redescription of Leptopelis grandiceps Ahl, 1929. Zootaxa, 3793(1), 165-187. <Go to ISI>://WOS:000334912400008
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - FLL
+      - TL
+      - THL
+      - TSL
+      - IMT
+      - Toe1L
+      - Toe4L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TSNX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea helicoidea Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 44C6K, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0001343245.
+      scope: Moraea as represented by COL26.8 usage 44C6K. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/44C6K
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 44C6K
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001343245-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 44C6K / WFO wfo-0001343245
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 84368 (Morphology), 96788 (Habitat), 94239 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants ± 50-150 mm high. Corm ± globose, 7-10 mm diam.; tunics of pale brown, netted fibres. Stem consisting of 2 aerial internodes, simple or 1-branched from aerial node, solitary sheathing leaf green with dry, brown apices, 9-15 mm long, sometimes reaching almost to base of inflorescence, with cataphylls forming collar around base. Foliage leaves 2, subequal, inserted at base, suberect, exceeding stem, blades narrow, apparently terete with narrow adaxial groove, ± 1 mm diam. when opened flat, distal half of blade loosely coiled to almost straight in shade. Rhipidial spathes green with dry brown, acute tips, inner 16-25 mm long, outer entirely sheathing, ± half as long. Flowers long-lived, largely white, speckled outside with brown spots, outer tepal limbs spreading, with large yellow nectar guide at bases and brown inner tepals, with light, fruity scent; tepals unequal, outer ± 16-18 mm long, limb ± broadly obovate-orbicular, 10 x 10 mm, claws suberect, ± 7 mm long, inner 8-9 mm long, limbs much reduced, ± 4 mm long, ± deltoid to obscurely 3-lobed with longer central lobe curving inward. Filaments ± 4.5 mm long, united in lower 3 mm in a cylindric column enclosing style, free and diverging above; anthers ± 3 mm long, pale mauve; pollen white. Ovary ellipsoid, ± 5 mm long; style branches 4.5-5.0 mm long, suberect, crests erect, ± 5 mm long. Capsules ± ellipsoid, 7-8 x 5 mm. Seeds unknown.
+            textZh: Moraea helicoidea Goldblatt & J.C.Manning 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Morphology row 84368, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: Immediately distinguished in subg. Vieusseuxia by the presence of two subequal foliage leaves inserted near the base and loosely coiled in corkscrew fashion. More than one foliage leaf is rare in the subgenus and consistent only in M. fergusoniae, which has three to six foliage leaves, the blades channelled, shorter than the stem and 3-10 mm wide, slightly twisted and with undulate, minutely ciliate margins. Moraea tripetala subsp. violacea sometimes has two foliage leaves but very different flowers with inner tepals represented by minute cusps. Flowers of M. helicoidea are predominantly white with outer tepals bearing large, deep yellow nectar guides at the limb bases and with small dark spots on the reverse. The brown inner tepals have reduced, 3-lobed limbs, common in the subgenus, and are comparable in shape to those of M. fergusoniae which has either pale blue or white flowers. Branching in M. fergusoniae is usually basal whereas branches in M. helicoidea, when present, are cauline, borne at the first aerial node.
+            textZh: SANBI 条目提供了 Moraea helicoidea Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 94239, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: A transition zone between the Witteberg- and Dwyka geological groups, in renosterveld.
+            textZh: SANBI 区域植物志将 Moraea helicoidea Goldblatt & J.C.Manning 的生境记为：A transition zone between the Witteberg- and Dwyka geological groups, in renosterveld.
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Habitat row 96788, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

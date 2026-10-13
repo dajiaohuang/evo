@@ -1,0 +1,212 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Ruedersdorfia berlinensis
+    commonName: Anisian stem teleosteomorph
+    commonNameZh: 安尼期真骨鱼总群干群鱼
+    rank: species
+    taxonId: txn:481460
+    firstAppearance: 244
+    lastAppearance: 244
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:481460
+    scientificName: Ruedersdorfia berlinensis
+    commonName: Anisian stem teleosteomorph
+    commonNameZh: 安尼期真骨鱼总群干群鱼
+    rank: species
+    parentName: Early actinopterygian evidence route
+    extinct: true
+    geography:
+      - Rüdersdorf quarry
+      - Brandenburg
+      - Germany
+    overview:
+      page: en
+      section: s-7f22ff980b
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-f9af3f96fa
+        part: body
+      habitat:
+        page: en
+        section: s-93cdf2861c
+        part: body
+      locomotion:
+        page: en
+        section: s-12fe10385a
+        part: body
+      bodySize:
+        page: en
+        section: s-89cae2b645
+        part: body
+      guild:
+        page: en
+        section: s-36aa9891c8
+        part: body
+    traits:
+      - page: en
+        section: s-b46e93db34
+        part: body
+      - page: en
+        section: s-4d4f06326e
+        part: body
+      - page: en
+        section: s-b616c41737
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-dc0d5dad50
+      part: body
+    readerSections:
+      - id: skull-roof
+        sourceIds:
+          - arratia-schultze-2024-triassic-teleosteomorphs
+        title:
+          en:
+            page: en
+            section: s-ea23106724
+            part: title
+          zh:
+            page: zh
+            section: s-859826080f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ea23106724
+            part: body
+          zh:
+            page: zh
+            section: s-859826080f
+            part: body
+      - id: placement-and-age
+        sourceIds:
+          - arratia-schultze-2024-triassic-teleosteomorphs
+        title:
+          en:
+            page: en
+            section: s-fe559130f0
+            part: title
+          zh:
+            page: zh
+            section: s-c66915453a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fe559130f0
+            part: body
+          zh:
+            page: zh
+            section: s-c66915453a
+            part: body
+    confidence: medium
+    referenceIds:
+      - arratia-schultze-2024-triassic-teleosteomorphs
+    overviewZh:
+      page: zh
+      section: zh-c89f3339a6dace
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-294b8cea1c302a
+      part: body
+  claims:
+    - subjectId: taxon:ruedersdorfia-berlinensis
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Ruedersdorfia berlinensis is a named stem teleosteomorph placed as Teleosteomorpha incertae sedis, based on holotype MB.f.19910 and paratypes MB.f.14888 and MB.f.19911.
+      confidence: medium
+      confidenceRationale: The primary description provides a species diagnosis, type material and explicitly states that its position among stem teleosts is unknown and is treated as Teleosteomorpha incertae sedis. Confidence retains that qualified placement.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 44–46
+          figure: Figure 11; Table 1
+          quoteLocator: Systematic palaeontology; diagnosis; type material; phylogenetic and taxonomic comparisons
+    - subjectId: taxon:ruedersdorfia-berlinensis
+      claimType: biogeography
+      claimKind: scientific
+      statement: The Ruedersdorfia berlinensis type and referred skull roofs come from the Rüdersdorf opencast mine in the Central European (Germanic) Basin, Germany; this occurrence does not establish global distribution.
+      confidence: medium
+      confidenceRationale: The primary study reports the named mine and basin for all type material. Confidence is medium because the locality and three skull roofs cannot establish absence, endemism or a global range.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 29–30, 45
+          figure: Scheme 1; Figure 11
+          quoteLocator: Geological site; stratigraphy; provenience
+    - subjectId: taxon:ruedersdorfia-berlinensis
+      claimType: ecology
+      claimKind: scientific
+      statement: Ruedersdorfia berlinensis is associated with the study's marine restricted-basin fossil setting, but the skull-roof-only sample does not establish diet, locomotion or a trophic guild.
+      confidence: medium
+      confidenceRationale: The source documents the depositional setting but preserves no body outline or feeding apparatus sufficient for a species-specific ecological reconstruction. Medium confidence marks the explicit limitation.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 44–46, 47–49
+          figure: Figure 11; Table 1
+          quoteLocator: Type material; description; size and body shape; marine versus freshwater environments
+    - subjectId: taxon:ruedersdorfia-berlinensis
+      claimType: morphology
+      claimKind: scientific
+      statement: Ruedersdorfia berlinensis has a fused skull roof with a nearly equal orbital and postorbital region, a short nasal region and middle pitline, and characteristic ganoine ornamentation.
+      confidence: medium
+      confidenceRationale: The diagnosis, Table 1 and Figure 11 directly document the proportions, pitline and ornamentation of the named skull-roof sample. Confidence is medium because body anatomy is not preserved and the canals are obscured in the holotype.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 44–46
+          figure: Figure 11; Table 1
+          quoteLocator: Diagnosis; description; skull roof plate and ornamentation
+    - subjectId: taxon:ruedersdorfia-berlinensis
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed approximately 244 Ma point bounds the lower Anisian Rüdersdorf sample of Ruedersdorfia berlinensis and is not a global teleosteomorph or teleost first appearance.
+      confidence: medium
+      confidenceRationale: The primary paper places the type and referred skull roofs in the lower Middle Triassic, lower Anisian middle Muschelkalk at about 244 Ma. Confidence is medium because this is one locality sample, not a global range endpoint.
+      referenceLinks:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          relation: supports
+          pages: 30, 45, 50–51
+          figure: Scheme 1; Figure 11
+          quoteLocator: Stratigraphy; type material and age; age and oldest teleosteomorphs
+  claim-rationales.zh:
+    - Ruedersdorfia berlinensis：一手描述提供种的诊断与模式材料，并明确指出其在真骨鱼总群干群中的位置未知、暂列分类未定。置信度保留这一限定性位置。
+    - Ruedersdorfia berlinensis：研究为全部模式材料报告德国 Rüdersdorf 露天矿和中欧盆地背景。三个头盖不能确立缺失、特有性或全球延限。
+    - Ruedersdorfia berlinensis：来源记录沉积环境，但只保存头盖，没有足够躯体或摄食结构重建本种生态；置信度针对这一明确限制。
+    - Ruedersdorfia berlinensis：诊断、表 1 与图 11 直接记录头盖比例、中部陷线和饰纹。躯体未保存且正模中的感觉管被饰纹遮蔽，因此置信度为中等。
+    - Ruedersdorfia berlinensis：一手论文把模式和归入头盖置于约 244 Ma 的 Rüdersdorf 下安尼期中部 Muschelkalk。置信度为中等，因为这是单地点样本而非全球边界。
+  claim-statements.zh:
+    - Ruedersdorfia berlinensis 是具名的真骨鱼总群干群成员，依据正模 MB.f.19910 和副模 MB.f.14888、MB.f.19911 被置于真骨鱼总群分类未定。
+    - Ruedersdorfia berlinensis 的模式与归入头盖来自德国中欧（Germanic）盆地的 Rüdersdorf 露天矿；该出现记录不能确立全球分布。
+    - Ruedersdorfia berlinensis 与该研究的受限海相盆地化石环境相关，但仅有头盖的取样不能确立食性、运动方式或营养级群。
+    - Ruedersdorfia berlinensis 具有融合的头盖，其眶区与眶后区近等长，并具短鼻区、短中部陷线和特征性的珐琅质饰纹。
+    - 显示的约 244 Ma 点界定了 Ruedersdorfia berlinensis 在 Rüdersdorf 下安尼期的取样，不是全球真骨鱼总群或真骨鱼首现。
+  ranges:
+    - entityId: ruedersdorfia-berlinensis
+      rangeKind: global-composite
+      taxonomicConcept: Ruedersdorfia berlinensis represented study sample
+      geographicScope: Rüdersdorf quarry, lower middle Muschelkalk, Central European (Germanic) Basin, Germany
+      olderMa: 244
+      youngerMa: 244
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Approximately 244 Ma lower Anisian locality point; this is a represented study sample, not a global lineage range.
+      evidenceBasis: The holotype and paratypes were collected from the lower middle Muschelkalk Fischmergel at Rüdersdorf, dated in the paper to the middle Anisian at about 244 Ma; the point is not a global teleosteomorph first appearance.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:ruedersdorfia-berlinensis:fossil-range
+      referenceLocators:
+        - referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          locator: pp. 30, 45; Scheme 1; Figure 11; Stratigraphy; type material and age

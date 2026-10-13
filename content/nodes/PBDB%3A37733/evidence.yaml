@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ptychogaster
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Ptychogaster
+      en: Ptychogaster
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-81bbd742b8
+            part: body
+          en:
+            page: en
+            section: s-9254ffe21f
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ddf76804c6
+            part: body
+          en:
+            page: en
+            section: s-f6ca321bfe
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Ptychogaster
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=37733
+          locator: Recorded PBDB parent closure beneath the already documented Pantestudines COL-compatible storage anchor.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:37733
+          readingTargets:
+            - name: Ptychogaster pomeli
+              pbdbTaxonId: txn:235296
+              canonicalPath: content/nodes/PBDB%3A235296
+            - name: Ptychogaster cayluxensis
+              pbdbTaxonId: txn:58731
+              canonicalPath: content/nodes/PBDB%3A58731
+            - name: Ptychogaster emydoides
+              pbdbTaxonId: txn:235295
+              canonicalPath: content/nodes/PBDB%3A235295
+            - name: Ptychogaster (Temnoclemmys) bardenensis
+              pbdbTaxonId: txn:331594
+              canonicalPath: content/nodes/PBDB%3A331594
+            - name: Temnoclemmys mazedonica
+              pbdbTaxonId: txn:350831
+              canonicalPath: content/nodes/PBDB%3A350831
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-adf3e871fe
+        part: body
+      en:
+        page: en
+        section: s-3b83cced4b
+        part: body

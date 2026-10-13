@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus cochranae
+  displayName: Aplastodiscus cochranae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNMQ
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus cochranae
+        zh: Aplastodiscus cochranae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNMQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/85
+            queryName: Aplastodiscus cochranae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/456
+            queryName: Hyla cochranae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-21f0d97f6f
+      - s-893e09ac4b
+      - s-222f992593
+      - s-cfcfcb5a8f
+      - s-fb9575fbd3
+      - s-629d60393d
+      - s-7e159d1d38
+      - s-a6ad63f32c
+      - s-2c15ab613a
+      - s-beb29bbd9b
+      - s-235179c182
+      - s-8512036491
+      - s-cd8eab1ba8
+      - s-41010fc53b
+      - s-c5db322f95
+      - s-1300fa950b
+    zh:
+      - s-1175273e38
+      - s-4375952193
+      - s-e9e913297f
+      - s-e4bbfc8d6d
+      - s-883ee3dca8
+      - s-6ad852bbfe
+      - s-ba129e0d99
+      - s-a1c94318f1
+      - s-415980a44f
+      - s-3cddb8444f
+      - s-92973656a4
+      - s-a012865a31
+      - s-d8454631d6
+      - s-aff8659486
+      - s-f0e9900587
+      - s-751835a420

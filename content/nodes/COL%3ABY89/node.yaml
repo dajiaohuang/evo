@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allophryne ruthveni
+  displayName: Allophryne ruthveni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BY89
+  sourceIndexes:
+    - name:
+        en: Allophryne ruthveni
+        zh: Allophryne ruthveni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BY89
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/186
+            queryName: Allophryne ruthveni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/8
+            queryName: Sphaenorhynchus seabrai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/259
+            queryName: Sphoenohyla seabrai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/265
+            queryName: Dryomelictes seabrai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/266
+            queryName: Sphaenorhynchus scabrai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e06e9ca05b
+      - s-5abb862f98
+      - s-e88601d259
+      - s-59521970a7
+      - s-f98cfbfcda
+      - s-ffce0ae916
+      - s-bb06819d4f
+      - s-624877b9ca
+      - s-bdaf3bfb18
+      - s-27d464df79
+      - s-09f152391c
+      - s-0bdd80442e
+      - s-d8a863b914
+      - s-b9f16e5878
+      - s-d9110d3238
+      - s-a104e6cc09
+      - s-0c6db98cff
+      - s-2452de685a
+      - s-91b2b65d47
+      - s-79c148ae37
+      - s-1d0c7be38e
+      - s-15d38c5052
+    zh:
+      - s-95091ac30f
+      - s-971bd53483
+      - s-1a48f7175b
+      - s-81d3705746
+      - s-626db49f10
+      - s-5cc8e413ae
+      - s-4bae9fc44f
+      - s-e373fe873b
+      - s-b88a886e6f
+      - s-440c5a0b10
+      - s-4e718cd302
+      - s-00500eb196
+      - s-9f61639435
+      - s-9cb714ac63
+      - s-a2e5ac6a7f
+      - s-d05de7f308
+      - s-79c8049a7e
+      - s-746709b02c
+      - s-f271251c99
+      - s-d6e26c0ad7
+      - s-c68ad07393
+      - s-f9ec0e0105

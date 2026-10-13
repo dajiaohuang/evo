@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Australerpeton cosgriffi
+    rank: species
+    sourceTaxonId: txn:255235
+    name:
+      en: Australerpeton cosgriffi
+      zh: Australerpeton cosgriffi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-fccff99838
+            part: body
+          zh:
+            page: zh
+            section: s-c7bae672be
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-072f8d52c7
+            part: body
+          zh:
+            page: zh
+            section: s-e84c740522
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-a89bf1dfbf
+            part: body
+          zh:
+            page: zh
+            section: s-5595f23c9f
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:255235; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "R. R. Schoch. 2013. The evolution of major temnospondyl clades: an inclusive phylogenetic analysis. Journal of Systematic Palaeontology"
+    occurrenceEvidence:
+      - occurrenceId: occ:1364550
+        collectionId: col:185753
+        acceptedTaxonId: txn:255235
+        identifiedName: Australerpeton cosgriffi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:28828
+        bibliography: R. Schoch and A. R. Milner. 2000. Stereospondyli. Handbuch der Paläoherpetologie - Encyclopedia of Paleoherpetology 3B:1-203
+        locality:
+          countryCode: BR
+          stateProvince: Paraná
+          county: Ortigueira
+        stratigraphy:
+          group: Passa Dois
+          formation: Rio do Rasto
+          member: Serrinha/Morro Pelado
+        olderAgeMa: 266.9
+        youngerAgeMa: 254.14
+      - occurrenceId: occ:1368853
+        collectionId: col:186658
+        acceptedTaxonId: txn:255235
+        taxonomicDifference: null
+        referenceId: ref:62289
+        bibliography: "E. Eltink and M. C. Langer. 2014. A new specimen of the temnospondyl Australerpeton cosgriffi from the late Permian of Brazil (Rio do Rasto Formation, Parana Basin): comparative anatomy and phylogenetic relationships. Journal of Vertebrate Paleontology 34(3):524-538"
+        locality:
+          countryCode: BR
+          stateProvince: Paraná
+          county: null
+        stratigraphy:
+          group: Passa Dois
+          formation: Rio do Rasto
+          member: Morro Pelado
+        olderAgeMa: 266.9
+        youngerAgeMa: 254.14
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-a89bf1dfbf
+            part: body
+          zh:
+            page: zh
+            section: s-5595f23c9f
+            part: body
+        sourceIds: []

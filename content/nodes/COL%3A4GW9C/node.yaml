@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus horsti
+  displayName: Phrynobatrachus horsti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW9C
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus horsti
+        zh: Phrynobatrachus horsti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW9C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/133
+            queryName: Phrynobatrachus horsti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e5bb5e301
+      - s-7849ebf360
+      - s-6d21f4f60c
+      - s-8ac92546f9
+      - s-b5410b81d2
+      - s-6fc3de5a55
+      - s-f71d1224ab
+      - s-d35aad1a65
+      - s-5593e52c86
+      - s-d86a011bf4
+      - s-3afd10632e
+      - s-5bfc2f29ff
+      - s-6ad9cb7f24
+      - s-354a1b9570
+    zh:
+      - s-d58bed7622
+      - s-f3f737f9ce
+      - s-24b2ef5fab
+      - s-3b8cf49e78
+      - s-78147a21dc
+      - s-f65bf00900
+      - s-8df0f5f967
+      - s-464676d70c
+      - s-4ce795044e
+      - s-6a0982efee
+      - s-ff953145aa
+      - s-a004fd7ba2
+      - s-97d703a913
+      - s-bdeae650a7

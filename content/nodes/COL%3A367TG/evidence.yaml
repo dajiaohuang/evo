@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Dimorphotheca barberae Harv.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 367TG, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 367TG; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/367TG
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 367TG
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000112999-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 367TG / WFO wfo-0000112999
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_11107_0
+        referenceId: ref-4aa4706b-1145-8c7f-a33f-4d099d29782a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Dimorphotheca barberae Harv. account; archive rows 56372 (Morphology), 57528 (Habitat), 57293 (Diagnostic), source identifier 11107.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Herba perennis 2-6 dm alta; caules erecti vel adscendentes striati glanduloso-puberuli (exsiccati hirti) glabrescentes basi lignescentes 2-5 mm crassi simplices vel sparsim ramos laterales emittentes. Folia alterna membranacea glanduloso-puberula (exsiccata hirta) plerumque glabrescentia margine scabra remote denticulata(-dentata). dentibus calloso-mucronatis, vel pauca integerrima, inferiora conferta oblanceolata vulgo obtusa mucronata basin versus in petiolum semiamplexicaulem angustata petiolo incluso usque 10 cm longa usque 2 cm lata, cetera sessilia oblanceolata-lineari-oblonga acuta vel rarius obtusa mucronata. Capitula in apicibus caulis et ramorum solitaria pedunculata; pedunculi dense glanduloso-puberuli muricati nudi c. 1-2 dm longi. Involucri squamae c. 20 subbiseriatae lanceolatae 10-12 mm longae 2-3 mm latae acuminatae per medium dorsum virides minutissime glanduloso-puberulae margine albido-scariosae ciliatae. Flores radii involucri squamas numero aequantes; ligulae supra purpureae infra purpureae-lilacinae; staminodia 4 vulgo adsunt. Flores disci c. 50 involucro fere 2-6 mm breviores; corollae superne purpureae- lilacinae dimorphae, exteriores lobis patulis apice extus barbatis, interiores lobis inflato-cucullatis triangularibus glabris. Achaenia laevia (triangularia?).
+            sourceIds:
+              - sanbi_11107_0
+            locator: "SANBI/WFO archive Morphology row 56372; source 11107.0; publication: Norlindh, NT. 1943. Studies in the Calenduleae: 1. Monograph of the genera Dimorphotheca, Castalis, Osteospermum, Gibbaria & Chrysanthemoides. C.W.K. Gleerup, Lund. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Differs from D. caulescens by the upper surface of the ray flowers not being white but bright purple, and by the lobes of the outer disc flowers being bearded on the outside and the lobes of the inner disc flowers being inflated or cap-like. It differs from D. jucunda chiefly by the bearded corolla lobes of the outer disc flowers. D. barberae and D. jucunda seem besides to have somewhat different distribution areas.The styles of the disc flowers in D. barberae are cleft to a distance very slightly below the ring of pollen-sweeping hairs.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_11107_0
+            locator: "SANBI/WFO archive Diagnostic row 57293; source 11107.0; publication: Norlindh, NT. 1943. Studies in the Calenduleae: 1. Monograph of the genera Dimorphotheca, Castalis, Osteospermum, Gibbaria & Chrysanthemoides. C.W.K. Gleerup, Lund. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassy slopes down by the sea-coast as well as inland, where it ascends to an altitude of c. 500 metres.
+            sourceIds:
+              - sanbi_11107_0
+            locator: "SANBI/WFO archive Habitat row 57528; source 11107.0; publication: Norlindh, NT. 1943. Studies in the Calenduleae: 1. Monograph of the genera Dimorphotheca, Castalis, Osteospermum, Gibbaria & Chrysanthemoides. C.W.K. Gleerup, Lund. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

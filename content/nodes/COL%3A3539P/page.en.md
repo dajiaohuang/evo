@@ -1,0 +1,3 @@
+## ## Lilac panicles and elliptical fruit segments {#s-502607b82c}
+Brazilian Flora 2020 records no xylopodium and erect, cylindrical branches with hooked hairs. The alternate leaves have three leaflets, ranging from ovate and rhomboid to oblong and elliptic; their side veins tend to fade before reaching the margin. Panicles bear lilac flowers with a pseudo-monadelphous androecium, in which the stamens are partly joined. The fruit is a loment, a segmented legume; its elliptical articles have an off-center constriction, do not twist and bear hooked hairs. The dataset classifies the plant as terrestrial.
+

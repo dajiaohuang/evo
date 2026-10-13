@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus wightmanae
+  displayName: Eleutherodactylus wightmanae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F3T7
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus wightmanae
+        zh: Eleutherodactylus wightmanae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F3T7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/350
+            queryName: Eleutherodactylus wightmanae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e250688a8b
+      - s-f099cb2480
+      - s-ad5b58c962
+      - s-adf8d9b9dd
+      - s-08687f9078
+      - s-528e4ffead
+      - s-c0fa5a9951
+      - s-0f74af031a
+      - s-1d9495e1a0
+      - s-1027f760f1
+      - s-c2fa350af4
+    zh:
+      - s-7fccc4c439
+      - s-25800abec3
+      - s-29720bc9ea
+      - s-b9c4796d06
+      - s-f56bbfafcb
+      - s-c4f6c38173
+      - s-8510a2983a
+      - s-7038a9a161
+      - s-47df0adbd8
+      - s-c781a67fc1
+      - s-11baeeb58f

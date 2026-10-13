@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes melanomystax
+  displayName: Phyllodytes melanomystax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7DS
+  sourceIndexes:
+    - name:
+        en: Phyllodytes melanomystax
+        zh: Phyllodytes melanomystax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7DS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/262
+            queryName: Phyllodytes melanomystax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb950b3d95
+      - s-e063e5931c
+      - s-5471411bd5
+      - s-7ca9274aed
+      - s-7001347470
+      - s-dc75305423
+      - s-4e11200fdd
+      - s-b9f3811bca
+      - s-ae6b8bea07
+      - s-b12003e2dd
+      - s-e2e6bddc85
+      - s-328a995122
+      - s-ff1779c906
+      - s-2d25897b46
+      - s-bcf3cc24a8
+      - s-7371de4b2b
+      - s-9eb54287b6
+      - s-c0bc06eb08
+    zh:
+      - s-5ffe03dafd
+      - s-4d29202648
+      - s-e806204590
+      - s-e287c2450a
+      - s-25e7cab1b4
+      - s-4eb650fa0f
+      - s-f2c1894f74
+      - s-a2173da47e
+      - s-30af5f6da8
+      - s-9af3641f36
+      - s-f6a8527db6
+      - s-9c17f2118e
+      - s-8da7831c2b
+      - s-930971ea43
+      - s-d05dd8f672
+      - s-ec90f88111
+      - s-e4ff520d52
+      - s-98f62babcf

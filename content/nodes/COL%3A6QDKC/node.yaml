@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes microtympanum
+  displayName: Limnonectes microtympanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDKC
+  sourceIndexes:
+    - name:
+        en: Limnonectes microtympanum
+        zh: Limnonectes microtympanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDKC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/111
+            queryName: Limnonectes microtympanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/135
+            queryName: Rana microtympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/136
+            queryName: Dicroglossus microtympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/137
+            queryName: Euphlyctis microtympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-544edaa368
+      - s-92b47445a3
+      - s-b58dcd9bf0
+      - s-8632ef84fd
+      - s-75611a42bc
+      - s-d52f4b11f2
+      - s-35109e2bf7
+      - s-8d2ae03f93
+      - s-b68ec597a9
+      - s-18b8a1ad3d
+      - s-0cdf2d5ebd
+    zh:
+      - s-ad7aea3167
+      - s-07846e203d
+      - s-f5c81e9255
+      - s-3fe25a2a3f
+      - s-c85e25bf71
+      - s-7d91821f71
+      - s-6861265db0
+      - s-874b8c3373
+      - s-09dae642ef
+      - s-84a1020dc1
+      - s-c0a35dc58f

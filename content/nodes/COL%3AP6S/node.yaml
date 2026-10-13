@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomus
+  displayName: Adenomus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6S
+  sourceIndexes:
+    - name:
+        en: Adenomus
+        zh: Adenomus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6S
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/114
+            queryName: Adenomus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-848210c65e
+      - s-ebb50d9174
+      - s-39d9cbd7b8
+      - s-525ccce2b3
+      - s-b2ff1aa2eb
+      - s-1d4990d519
+      - s-5b86ccfd5b
+      - s-580e3003ad
+      - s-3ebb21cea7
+      - s-fdcbf795b7
+      - s-cb5846ea7b
+    zh:
+      - s-411e7cdbf1
+      - s-f2d16d2959
+      - s-3d1e8e5c43
+      - s-8295449146
+      - s-0db39377e7
+      - s-feb1109f0b
+      - s-0fd5784d7f
+      - s-a8208aaa60
+      - s-8375df9385
+      - s-93ddff17c6
+      - s-ff1338c4da

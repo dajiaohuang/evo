@@ -1,0 +1,651 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Chelonia mydas (Linnaeus, 1758)
+    authorship: (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "1008"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: RP
+        scientificName: Reptilia Laurenti, 1768
+        authorship: Laurenti, 1768
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: "477"
+        scientificName: Testudines Batsch, 1788
+        authorship: Batsch, 1788
+        rank: order
+        status: accepted
+        sourceDatasetId: null
+      - id: 87BW5
+        scientificName: Cryptodira
+        authorship: null
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "1008"
+      - id: 87BWH
+        scientificName: Chelonioidea
+        authorship: null
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "1008"
+      - id: 83J
+        scientificName: Cheloniidae
+        authorship: null
+        rank: family
+        status: accepted
+        sourceDatasetId: "1008"
+      - id: 3MPC
+        scientificName: Chelonia
+        authorship: null
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1008"
+      - id: TVGD
+        scientificName: Chelonia mydas (Linnaeus, 1758)
+        authorship: (Linnaeus, 1758)
+        rank: species
+        status: accepted
+        sourceDatasetId: "1008"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 species usage TVGD. The biological evidence concerns nesting green turtles observed at Rose Atoll National Wildlife Refuge, American Samoa, during 2012–2019; it is not a species-wide abundance or distribution estimate.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The claim concerns free-living nesting females at Rose Atoll during 2012–2019.
+      domesticated: No domesticated population was studied.
+      captive: No captive population was studied.
+      fossil: Fossil occurrence and geological age were not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1008
+          url: https://www.checklistbank.org/dataset/316115/taxon/TVGD
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:TVGD@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage TVGD; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage TVGD. https://doi.org/10.48580/dgywk.
+      - id: murakawa2024roseatollgreen-turtle
+        referenceId: ref-51508512-cbd2-8783-a448-2222e3d3fda9
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: "Article copyright statement: © 2024 Murakawa et al.; Creative Commons Attribution License (CC BY), linking to CC BY 4.0."
+          licenseAppliesTo: The article text under its item-level CC BY 4.0 notice; claim paraphrased and no table, figure, or supplementary dataset is reproduced.
+          stableId: doi:10.3389/fmars.2024.1403240
+          locator: Abstract; §§2.1–2.2, 4; copyright and license statement.
+          attribution: Murakawa SK, Gaos AR, Johnson DS, Peck B, MacDonald M, Sachs E, Pendleton F, Allen CD, Staman MK, Ishimaru S, Van Houtan KS, Liusamoa A, Jones TT, Martin SL (2024). Abundance, production, and migrations of nesting green turtles at Rose Atoll, American Samoa, a regionally important rookery in the Central South Pacific Ocean. Front. Mar. Sci. 11:1403240. https://doi.org/10.3389/fmars.2024.1403240. CC BY 4.0. Claim paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Minimum count of nesting females at Rose Atoll over eight survey seasons; not a global abundance estimate or complete reproductive-life-history account.
+          accessedAt: 2026-09-25
+      - id: johnson2017greenturtlegrazingcarbon
+        referenceId: ref-17682f52-99a5-8967-ac55-31f5dfe57f84
+        fields:
+          - id
+          - title
+          - url
+          - rightsEvidenceUrl
+          - rightsEvidenceLocator
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text under the item-level CC BY 4.0 notice. Dossier statements paraphrase the article; no figure, table, or supplementary dataset is reproduced.
+          stableId: doi:10.1038/s41598-017-13142-4
+          rightsEvidenceUrl: https://pmc.ncbi.nlm.nih.gov/articles/PMC5648853/
+          accessedAt: 2026-09-27
+          locator: Abstract; Methods, experimental clipping and naturally grazed areas; Results and Table 1; Discussion.
+          licenseAssessment: item-level-verified
+          scope: A 2016 in situ clipping experiment and nearby naturally grazed areas in one tropical Thalassia testudinum meadow at Little Cayman, Cayman Islands. The simulated clipping treatment represents green-turtle grazing effects on the meadow; it is not an experiment on turtle populations. Results concern measured ecosystem metabolism and do not directly inventory sediment carbon stocks or establish species-wide effects.
+          attribution: Johnson RA, Gulick AG, Bolten AB, Bjorndal KA (2017). Blue carbon stores in tropical seagrass meadows maintained under green turtle grazing. Scientific Reports 7, 13545. https://doi.org/10.1038/s41598-017-13142-4. Claims paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected nesting-abundance result does not document diagnostic morphology or species-level anatomical variation.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: Rapid nesting surveys at Rose Atoll National Wildlife Refuge in American Samoa from 2012 through 2019 recorded 218 total female green turtles, with a minimum of 138 unique nesting females confirmed by permanent tags. The authors treat 138 as a minimum because annual surveys averaged 7.6 days and limited survey time could miss nesters. This describes the nesting population at this rookery during those eight seasons, not the species globally.
+            textZh: 2012 至 2019 年间，在美属萨摩亚玫瑰环礁国家野生动物保护区开展的快速筑巢调查记录了 218 只雌性绿海龟；永久标记至少确认其中有 138 只不同的筑巢雌龟。作者将 138 只视为最低数量，因为每年平均调查 7.6 天，有限的调查时间可能漏掉部分筑巢个体。该结果描述的是这八个繁殖季中该筑巢地的种群，不代表全球物种数量。
+            originalLanguage: en
+            sourceIds:
+              - murakawa2024roseatollgreen-turtle
+            locator: Abstract; §2.2.1–2.2.2 for rapid survey effort and tagging; §4 Discussion for the minimum count and detection limitations.
+            placeTimeScope: Rose Atoll National Wildlife Refuge, American Samoa; nesting seasons from 2012 through 2019; free-living nesting females.
+            lifeStatus: Wild nesting females at one rookery; captive, domesticated, and fossil evidence was not assessed.
+        gaps:
+          - An eight-season rapid-survey minimum at one rookery does not establish the full reproductive life history, lifetime fecundity, population trend, or species-wide nesting abundance.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: At a Thalassia testudinum meadow in Little Cayman, experimentally clipped plots used to simulate green-turtle grazing had mean net ecosystem production (NEP) 79% lower than unclipped reference plots (24.7 versus 119.5 mmol C m−2 d−1); the 12-week mean remained positive, although clipped plots were slightly heterotrophic (NEP < 0) on weeks one and nine when overcast sampling days lowered gross primary production. Nearby areas continuously grazed by juvenile green turtles for at least a year had NEP 92% lower than adjacent ungrazed areas on average. The production-to-respiration ratio did not differ significantly among treatments (ANOVA, p = 0.16). These measurements describe one meadow; they do not directly quantify sediment carbon stocks or establish a population-wide effect.
+            textZh: 在开曼群岛小开曼岛一处 Thalassia testudinum 海草床中，为模拟绿海龟取食而实验性剪除海草的样地，其平均净生态系统生产力（NEP）比未剪除对照低 79%（24.7 对 119.5 mmol C m−2 d−1）；12 周的平均 NEP 仍为正值，但第 1 周和第 9 周阴天测量时，因总初级生产力较低，剪除样地曾略呈异养（NEP < 0）。附近由幼年绿海龟连续取食至少一年维持的区域，其 NEP 平均比相邻未取食区域低 92%。不同处理间的生产/呼吸比没有显著差异（方差分析，p = 0.16）。这些测量只描述一处海草床；研究没有直接量化沉积物碳储量，也不能证明整个物种或种群的普遍效应。
+            originalLanguage: en
+            sourceIds:
+              - johnson2017greenturtlegrazingcarbon
+            locator: Abstract; Results, Table 1, the overcast-day exceptions in weeks one and nine, and naturally grazed areas; Discussion.
+            placeTimeScope: Little Cayman, Cayman Islands, in 2016, at a tropical Thalassia testudinum meadow. Five clipped and five reference plots were measured weekly during a 12-week experiment. Nearby areas had been naturally and continuously grazed by juvenile green turtles for at least one year. Results are specific to this meadow, experimental period, and comparison; they are not a range-wide estimate.
+            lifeStatus: Wild green turtles maintained the nearby natural grazing areas; experimental clipping simulated grazing in seagrass plots and was not itself a turtle-population experiment.
+        gaps:
+          - The selected claim is a rookery-specific nesting count and does not establish diet, habitat relationships, or ecological interactions.
+          - One 2016 meadow study does not establish global or population-wide effects, responses in other seagrass species or sites, or long-term changes in sediment carbon stocks.
+          - The experimentally clipped plots simulate grazing; the natural-grazing comparison is local to Little Cayman and does not establish a general dose-response across turtle populations.
+          - The study does not establish green turtle diet composition, full habitat use, distribution, demographic trends, or conservation status.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected study does not analyze phylogeny or evolutionary history.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - One nesting site does not establish the species' global or regional distribution.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected study does not assess fossil occurrences or geological age.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected local nesting count is not a species-wide or population-unit conservation assessment.
+  catalogue-profile:
+    scientificName: Chelonia mydas (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "1008"
+    name:
+      zh: 绿海龟
+      en: Green turtle
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-6fe4292396
+            part: body
+          en:
+            page: en
+            section: s-de3f997fd9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: lifeHistory
+        text:
+          zh:
+            page: zh
+            section: s-b06c16a690
+            part: body
+          en:
+            page: en
+            section: s-5da460ac3a
+            part: body
+        sourceIds:
+          - murakawa2024roseatollgreen-turtle
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-dd81604c5c
+            part: body
+          en:
+            page: en
+            section: s-ba12745f76
+            part: body
+        sourceIds:
+          - johnson2017greenturtlegrazingcarbon
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-f4e11a4260
+            part: body
+          en:
+            page: en
+            section: s-94cec49c60
+            part: body
+        sourceIds:
+          - murakawa2024roseatollgreen-turtle
+          - johnson2017greenturtlegrazingcarbon
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-952b291889
+            part: body
+          en:
+            page: en
+            section: s-d5085db238
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-8a71256b80
+            part: body
+          en:
+            page: en
+            section: s-928f4c8df0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-ebb5cbffa9
+            part: body
+          en:
+            page: en
+            section: s-c8d4c787b1
+            part: body
+      - topic: ecology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c9272a9419
+            part: body
+          en:
+            page: en
+            section: s-8e90b832d4
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-cb15b7ef9f
+            part: body
+          en:
+            page: en
+            section: s-0f1f43275a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-7fca7dd0f7
+            part: body
+          en:
+            page: en
+            section: s-36a9f6e801
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-013e5174ef
+            part: body
+          en:
+            page: en
+            section: s-a8307e1021
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-d12c79d10d
+            part: body
+          en:
+            page: en
+            section: s-0561dbbd5c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-8cff891705
+            part: body
+          en:
+            page: en
+            section: s-e15a2bac0a
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-64e384a77d
+            part: body
+          en:
+            page: en
+            section: s-ce26343737
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chelonia mydas
+          url: https://www.checklistbank.org/dataset/316115/taxon/TVGD
+          scope:
+            zh: 固定 COL26.8（2026-08-20）中的接受名、等级、父链和全部严格接受种后代；分类身份与阅读索引资料，没有现生标志，不是生物学或 PBDB 同名概念等同的证据。
+            en: Pinned COL26.8 (2026-08-20) accepted name, rank, parent chain and all strict accepted-species descendants. Supports catalogue identity and the reading index; has no extant flag and does not establish biological claims or equivalence to matching PBDB names.
+      - id: murakawa2024roseatollgreen-turtle
+        referenceId: ref-51508512-cbd2-8783-a448-2222e3d3fda9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 美属萨摩亚玫瑰环礁 2012–2019 年八个筑巢季的快速调查与永久标记确认；支持该筑巢地雌龟最低确认数及调查时间限制，不支持全种数量、种群趋势或完整繁殖生活史。正文转述，未复制图表。
+            en: Rapid surveys and permanent-tag confirmation at Rose Atoll, American Samoa, during eight nesting seasons in 2012–2019. Supports a minimum confirmed nesting-female count and survey-effort limits at this rookery, not global abundance, population trends or a complete reproductive life history. Reader prose is paraphrased; no figures or tables are reproduced.
+      - id: johnson2017greenturtlegrazingcarbon
+        referenceId: ref-17682f52-99a5-8967-ac55-31f5dfe57f84
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 2016 年开曼群岛小开曼岛一处 Thalassia testudinum 海草床：五个剪除样地与五个对照的 12 周实验，以及附近由幼龟持续取食至少一年的区域。支持该地点的生态系统代谢测量；剪除模拟取食，不是龟种群实验，也没有直接测量沉积物碳储量。正文转述，未复制图表。
+            en: "One Thalassia testudinum meadow at Little Cayman, Cayman Islands, in 2016: a 12-week experiment with five clipped and five reference plots, plus nearby areas grazed continuously by juvenile turtles for at least one year. Supports local ecosystem-metabolism measurements; clipping simulated grazing and was not a turtle-population experiment, and sediment carbon stocks were not directly measured. Reader prose is paraphrased; no figures or tables are reproduced."
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceClassification
+          - sourceCitationByField
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits dataset v1-2.xlsx; Data row 2515; Species=Chelonia mydas; Sources of individual trait val for the same species; Trait definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 45408133
+          sourceFileMd5: a00be695740e752db2654537bbb0814c
+          sourceFileSha256: 74eb6fd0e2626c75bdbeacb50a08b1762eee42e2b3cfda4a0f1134b84971718a
+          sourceClassification: Reptile Database 2023 as recorded in workbook
+          sourceCitationByField:
+            Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm): Dorling 2005
+            Microhabitat: Stark et al. 2018
+            Diet: Bernard 2000
+            Active time: Stark et al. 2018
+            Foraging mode: Bernard 2000
+            Reproductive mode: Zimin et al. 2022
+            Sex-determining mechanism (GSD or TSD): Nemesházi & Bókony 2023
+            Mean number of offspring per litter or number of eggs per clutch: Iverson et al. 1993
+            Smallest clutch size: Bonin 2006
+            Largest clutch size: Bonin 2006
+            Egg length (mm): Obst 1986
+            Egg width (mm): Obst 1986
+          scope:
+            zh: 尺寸、活动、取食与繁殖的已引性状资料；不外推体重、幼体长度、毒性、保护或当前分布。
+            en: Cited size, activity, feeding and reproductive traits; no mass, juvenile-length, venom, conservation or current-range inference.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+          - readerAvailableFields
+          - readerFieldCautions
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 21092; name Chelonia mydas; reference table row 21092; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - birth_or_hatching_weight_g
+            - incubation_d
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: de Magalhaes and Costa, 2009 from median of 5(Seymour, 1979, BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013, BC Reptiles - Meyers et al., 2009, Iverson, J., Balgooyen, C., Byrd, K. et al., 1993, de Magalhaes and Costa, 2009)
+            female_maturity_d: mean of BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013 and de Magalhaes and Costa, 2009
+            litter_or_clutch_size_n: mean of Iverson, J., Balgooyen, C., Byrd, K. et al., 1993 & van Buskirk, J., Crowder, L.B., 1994 from median of 36(van Buskirk, J., Crowder, L.B., 1994, Marquez-M., 1994, Iverson, J., Balgooyen, C., Byrd, K. et al., 1993, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, BC Reptiles - Wilson, 2003, van Buskirk, J., Crowder, L.B., 1994, Behler, J.L., King, F.W., 1979, Stebbins, R.C., 2003, Reptile Incubation book, van Buskirk, J., Crowder, L.B., 1994, Seymour, 1979, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, Iverson, J., Balgooyen, C., Byrd, K. et al., 1993, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, Stebbins, R.C., 2003, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, BC Reptiles - Wilson, 2003, van Buskirk, J., Crowder, L.B., 1994, BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013, Reptile Incubation book, de Magalhaes and Costa, 2009)
+            gestation_d: de Magalhaes and Costa, 2009
+            birth_or_hatching_weight_g: van Buskirk, J., Crowder, L.B., 1994 from median of 11(van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994)
+            incubation_d: mean of BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013 & van Buskirk, J., Crowder, L.B., 1994 from median of 18(van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013, van Buskirk, J., Crowder, L.B., 1994, Behler, J.L., King, F.W., 1979, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, van Buskirk, J., Crowder, L.B., 1994, Birchard, G. and D. Marcellini, 1996, Reptile Incubation book, Reptile Incubation book)
+            maximum_longevity_y: BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013
+          sameNameSourceLabels:
+            - de Magalhaes and Costa, 2009
+            - Seymour, 1979
+            - Iverson, J., Balgooyen, C., Byrd, K. et al., 1993
+            - BC Reptiles - Meyers et al., 2009
+            - BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013
+            - Marquez-M., 1994
+            - Reptile Incubation book
+            - Behler, J.L., King, F.W., 1979
+            - van Buskirk, J., Crowder, L.B., 1994
+            - Stebbins, R.C., 2003
+            - BC Reptiles - Wilson, 2003
+            - Birchard, G. and D. Marcellini, 1996
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+          readerAvailableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - birth_or_hatching_weight_g
+            - incubation_d
+            - maximum_longevity_y
+          readerFieldCautions:
+            - fields:
+                - gestation_d
+              originalValues:
+                gestation_d: "59"
+              reason: Supplemental Table 9 declares gestation/weaning for Mammalia, incubation for Aves/Reptilia, fledging for Aves. Source values outside those class scopes retained but not interpreted as corresponding species events without original-source review.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+    limitations:
+      zh:
+        page: zh
+        section: s-c0936b007a
+        part: body
+      en:
+        page: en
+        section: s-35f4d57b64
+        part: body

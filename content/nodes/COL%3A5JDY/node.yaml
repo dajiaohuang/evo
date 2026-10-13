@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Macrogenioglottus
+  displayName: Macrogenioglottus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5JDY
+  sourceIndexes:
+    - name:
+        en: Macrogenioglottus
+        zh: Macrogenioglottus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5JDY
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/25
+            queryName: Macrogenioglottus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9bf99174e2
+      - s-42153afd64
+      - s-7ad0bcf4c9
+      - s-252983f9f0
+      - s-1cd70d9df6
+      - s-7bd8b1a992
+      - s-f618542f6c
+      - s-1b25612c26
+      - s-85d448c2de
+      - s-31ea770d19
+      - s-87497c8866
+      - s-3b51223a12
+      - s-fff2aced42
+      - s-714dc02248
+      - s-cc2aae308b
+      - s-79c755af8e
+      - s-0a3c7e5742
+      - s-b7ec45c2a6
+    zh:
+      - s-51d111c74b
+      - s-c5a63aee1c
+      - s-c520f10cf8
+      - s-8cfbb3a901
+      - s-e01360b1f0
+      - s-88c5c2e0d4
+      - s-a52295a3cc
+      - s-94bfb9240a
+      - s-682b17ddd7
+      - s-a3d33f8dd1
+      - s-9b39a9e32e
+      - s-bf37407d8d
+      - s-345f93667b
+      - s-1c24ad7059
+      - s-298fb5585b
+      - s-2325bc51f0
+      - s-52086f666a
+      - s-e3eb4cdd73

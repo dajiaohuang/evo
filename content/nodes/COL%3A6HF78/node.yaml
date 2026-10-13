@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea chamberlaini
+  displayName: Eurycea chamberlaini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6HF78
+  sourceIndexes:
+    - name:
+        en: Eurycea chamberlaini
+        zh: Eurycea chamberlaini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6HF78
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/412
+            queryName: Eurycea chamberlaini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ce7e4b5e7
+      - s-44726356d9
+      - s-44a9aa77dc
+      - s-13e746ac6a
+      - s-afe236a6d6
+      - s-86bc46eb5c
+      - s-284256d76b
+      - s-6e4afe7d49
+      - s-c7e7999f88
+      - s-6133cceeed
+      - s-2c433f46df
+    zh:
+      - s-5bc805f139
+      - s-50329eaa61
+      - s-07201f49f6
+      - s-52521969a3
+      - s-ef6f143e61
+      - s-e5ab19bd02
+      - s-d71c17f55c
+      - s-3daa49aef6
+      - s-f8cdef736d
+      - s-40cc9b9eac
+      - s-21c2d2fca8

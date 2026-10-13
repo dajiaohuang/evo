@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Colostethus latinasus
+  displayName: Colostethus latinasus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5ZMJG
+  sourceIndexes:
+    - name:
+        en: Colostethus latinasus
+        zh: Colostethus latinasus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5ZMJG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/409
+            queryName: Colostethus latinasus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/3
+            queryName: Phyllobates latinasus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/4
+            queryName: Colostethus latinosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-343677ef54
+      - s-6e60b3f7a3
+      - s-358f0245e7
+      - s-92460e6730
+      - s-3108de6ad5
+      - s-99698ec756
+      - s-201aebb3b5
+      - s-c5d4485266
+      - s-d0b2ce2180
+      - s-ce89a951ce
+    zh:
+      - s-9946f5285f
+      - s-8bf97068ff
+      - s-832141666a
+      - s-af3fe35fbd
+      - s-5dcfe48c79
+      - s-bb06b70f1a
+      - s-8a3c3accb4
+      - s-d0af624de8
+      - s-903b91040b
+      - s-cc36ed6473

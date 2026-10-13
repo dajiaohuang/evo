@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ansonia kraensis
+    name:
+      en: Ansonia kraensis
+      zh: Ansonia kraensis
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Ansonia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fed9c1a070
+            part: body
+          zh:
+            page: zh
+            section: s-c71be742c3
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c5b3c8d0bb
+            part: body
+          zh:
+            page: zh
+            section: s-2df4c06646
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 413, 414; Reference.csv rows 2530
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 413
+        values:
+          - Bufonidae
+          - Ansonia
+          - Ansonia kraensis
+          - F
+          - "25.3"
+          - "7.6153"
+          - "7.1599"
+          - "2.4288"
+          - "1.4674"
+          - "0.3795"
+          - "2.6565"
+          - "2.3782"
+          - "1.9228"
+          - NA
+          - "3.1878"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.373"
+          - NA
+          - "12.0428"
+          - NA
+          - NA
+          - "39.5186"
+          - "1.1891"
+          - "1.771"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.5433"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.6072"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 414
+        values:
+          - Bufonidae
+          - Ansonia
+          - Ansonia kraensis
+          - M
+          - "21.3"
+          - "7.0716"
+          - "6.3261"
+          - "2.1726"
+          - "1.2993"
+          - "0.3408"
+          - "2.6625"
+          - "2.2791"
+          - "1.6188"
+          - NA
+          - "2.8968"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.6904"
+          - NA
+          - "10.65"
+          - NA
+          - NA
+          - "33.3132"
+          - "1.065"
+          - "1.4058"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.1715"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.5538"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2530
+        values:
+          - Anura
+          - Ansonia_kraensis
+          - Matsui, M., Khonsue, W., & Nabhitabhata, J. (2005). A New Ansonia from the Isthmus of Kra, Thailand (Amphibia, Anura, Bufonidae). Zoological science, 22, 809-814. https://doi.org/10.2108/zsj.22.809
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - FL
+      - TL
+      - HLL
+      - IMT
+      - Toe1L
+      - Fin1L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 679WN
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

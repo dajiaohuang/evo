@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-58cf5d31d0
+      part: title
+    titleZh:
+      page: zh
+      section: s-5728efcb97
+      part: title
+    category: radiation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Ninety transcriptomes and fifteen genomes across Pancrustacea
+    clades:
+      - Pancrustacea
+      - Malacostraca
+      - Allotriocarida
+    summary:
+      page: en
+      section: s-58cf5d31d0
+      part: body
+    summaryZh:
+      page: zh
+      section: s-5728efcb97
+      part: body
+    claimIds:
+      - claim:event:pancrustacea-taxon-sampling-sensitivity
+    evidenceItems:
+      - statement: The final 105-taxon matrix includes 90 transcriptomes, 15 genomes and 576 protein-coding genes, compared with a 98-taxon alternative assembled through the same pipeline.
+        relation: supports
+        claimIds:
+          - claim:event:pancrustacea-taxon-sampling-sensitivity
+        referenceLinks:
+          - referenceId: bernot-2023-pancrustacea-sampling
+            relation: supports
+            pages: msad175
+            figure: Figures 2–4; Table 1
+            quoteLocator: Dataset comparison and results
+    uncertaintyItems:
+      - statement: Rejected and recovered clades differ among sampled matrices and models; divergence estimates use thirteen vetted calibrations but remain clock outputs.
+        relation: contextualizes
+        claimIds:
+          - claim:event:pancrustacea-taxon-sampling-sensitivity
+        referenceLinks:
+          - referenceId: bernot-2023-pancrustacea-sampling
+            relation: supports
+            pages: msad175
+            figure: Figures 3–4
+            quoteLocator: Topological comparisons and divergence-time analysis
+  claims:
+    - subjectId: event:pancrustacea-taxon-sampling-sensitivity
+      claimKind: scientific
+      claimType: topology
+      statement: Using identical ortholog-selection methods, 98- and 105-taxon pancrustacean matrices yield materially different deep topologies; 90 transcriptomes, 15 genomes and 576 protein-coding genes therefore demonstrate sampling sensitivity rather than a final universal crustacean tree.
+      confidence: high
+      confidenceRationale: The compared matrices, occupancies and alternative analyses are directly reported and support the methodological boundary.
+      referenceLinks:
+        - referenceId: bernot-2023-pancrustacea-sampling
+          relation: supports
+          pages: msad175
+          figure: Figures 2–4; Table 1; Supplementary Tables S1–S4
+          quoteLocator: Data set comparison; Taxon sampling experiments; Results
+  claim-rationales.zh:
+    - 两套类群矩阵、直系同源基因占有率与替代分析可直接比较，足以支持取样敏感性而非唯一最终树。
+  claim-statements.zh:
+    - 采用相同直系同源基因筛选方法，含 98 与 105 个分类单元的泛甲壳类矩阵得到实质不同的深层拓扑；因此，90 个转录组、15 个基因组和 576 个蛋白编码基因展示的是取样敏感性，而非最终通用的甲壳类系统树。

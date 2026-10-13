@@ -1,0 +1,291 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobius setoi Matsui, Tanabe & Misawa, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobius setoi
+      zh: Hynobius setoi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a1761cf0e5
+            part: title
+          zh:
+            page: zh
+            section: s-0df173d18d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a1761cf0e5
+            part: body
+          zh:
+            page: zh
+            section: s-0df173d18d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-205721d911
+            part: title
+          zh:
+            page: zh
+            section: s-631007f3f4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-205721d911
+            part: body
+          zh:
+            page: zh
+            section: s-631007f3f4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7622eeea5a
+            part: title
+          zh:
+            page: zh
+            section: s-b1f7f9a976
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-7622eeea5a
+            part: body
+          zh:
+            page: zh
+            section: s-b1f7f9a976
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-c5497dd5741b67f5465f1b1e
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3ca39ad149
+            part: title
+          zh:
+            page: zh
+            section: s-bbcd788bf2
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3ca39ad149
+            part: body
+          zh:
+            page: zh
+            section: s-bbcd788bf2
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-ee600c8f26
+            part: title
+          zh:
+            page: zh
+            section: s-3702bc5f19
+            part: title
+        sourceIds:
+          - primary-pmc8388460-6mql9
+        text:
+          en:
+            page: en
+            section: s-ee600c8f26
+            part: body
+          zh:
+            page: zh
+            section: s-3702bc5f19
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-de020511b7
+            part: title
+          zh:
+            page: zh
+            section: s-60bb4515ed
+            part: title
+        sourceIds:
+          - primary-pmc8388460-6mql9
+        text:
+          en:
+            page: en
+            section: s-de020511b7
+            part: body
+          zh:
+            page: zh
+            section: s-60bb4515ed
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobius setoi
+          url: https://www.checklistbank.org/dataset/316115/taxon/6MQL9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 175; Reference.csv rows 4214
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc8388460-6mql9
+        referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hynobius setoi: Named species account and explicitly assigned comparison, molecular-results or discussion paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d63fb0337e
+        part: body
+      zh:
+        page: zh
+        section: s-6ef136da10
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-c5497dd5741b67f5465f1b1e
+        scientificName: Hynobius setoi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani11082187
+        referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+        sourceKey: primary-pmc8388460-6mql9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8388460/article.xml
+        sourceConcept: Hynobius setoi
+        evidenceRead: "Hynobius setoi: Named species account and explicitly assigned comparison, molecular-results or discussion paragraphs; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A geographically sampled haplotype boundary
+              zh: 地理采样单倍型边界
+            referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+            sourceKey: primary-pmc8388460-6mql9
+            locator: PMC8388460 reading-sections section 2, paragraph 0; section 4, paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5612527caf
+                part: body
+              zh:
+                page: zh
+                section: s-844e5cba3c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Tail stripes do not alone distinguish setoi from kunibiki
+              zh: 尾带本身不能区分 setoi 与 kunibiki
+            referenceId: ref-7b454784-ba5f-4da6-a283-625143ef020e
+            sourceKey: primary-pmc8388460-6mql9
+            locator: PMC8388460 reading-sections section 3, paragraph 4; section 4, paragraphs 2 and 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-59d26fc8d9
+                part: body
+              zh:
+                page: zh
+                section: s-483790f22e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

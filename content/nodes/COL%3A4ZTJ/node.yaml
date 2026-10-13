@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hydromantes
+  displayName: Hydromantes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZTJ
+  sourceIndexes:
+    - name:
+        en: Hydromantes
+        zh: Hydromantes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZTJ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/437
+            queryName: Hydromantes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 140
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-82a73ab20c
+      - s-1d059460b6
+      - s-4029f86712
+      - s-35e0688bdb
+      - s-6c03b37f2d
+      - s-8f5c92a5c3
+    zh:
+      - s-899b1ae928
+      - s-8d7a5bd99e
+      - s-ad17edc917
+      - s-5640f158eb
+      - s-910a4b777e
+      - s-8aacf14d8d

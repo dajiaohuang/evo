@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Oreolalax popei
+    name:
+      en: Oreolalax popei
+      zh: Oreolalax popei
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Oreolalax
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Oreolalax popei in the version 3 classification
+          zh: Oreolalax popei 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ce83410102
+            part: body
+          zh:
+            page: zh
+            section: s-7213812094
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 15 populated trait fields
+          zh: 2 条测量行与 15 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6808ff7509
+            part: body
+          zh:
+            page: zh
+            section: s-6ecb3568e1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3867, 3868; Reference.csv rows 977
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3867
+        values:
+          - Megophryidae
+          - Oreolalax
+          - Oreolalax popei
+          - M
+          - "65.2"
+          - "24.9"
+          - "24.4"
+          - "7.9"
+          - NA
+          - NA
+          - "6"
+          - "6.6"
+          - "6.2"
+          - NA
+          - "11"
+          - NA
+          - "16.7"
+          - "15"
+          - "31.7"
+          - "32.3"
+          - NA
+          - "32.5"
+          - NA
+          - "16.3"
+          - "106.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3868
+        values:
+          - Megophryidae
+          - Oreolalax
+          - Oreolalax popei
+          - F
+          - "61.9"
+          - "23.8"
+          - "23.1"
+          - "7.5"
+          - NA
+          - NA
+          - "5.7"
+          - "6.2"
+          - "6.2"
+          - NA
+          - "10.3"
+          - NA
+          - "16.5"
+          - "15.4"
+          - "31.9"
+          - "30.4"
+          - NA
+          - "30.7"
+          - NA
+          - "15.1"
+          - "100.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 977
+        values:
+          - Anura
+          - Oreolalax_popei
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006) Fauna of China, Class Amphibia (Middle Volume) Anura. Science Press, Beijing.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6T4K5
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

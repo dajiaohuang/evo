@@ -1,0 +1,326 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella pallida (Rowley, Tran, Le, Dau, Peloso, Nguyen, Hoang, Nguyen & Ziegler, 2016)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella pallida
+      zh: Leptobrachella pallida
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8a90934d73
+            part: title
+          zh:
+            page: zh
+            section: s-4f605910df
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8a90934d73
+            part: body
+          zh:
+            page: zh
+            section: s-4f605910df
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ff19b6064e
+            part: title
+          zh:
+            page: zh
+            section: s-fe09cb1239
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ff19b6064e
+            part: body
+          zh:
+            page: zh
+            section: s-fe09cb1239
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-69f7da9d9d
+            part: title
+          zh:
+            page: zh
+            section: s-8282d89687
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-69f7da9d9d
+            part: body
+          zh:
+            page: zh
+            section: s-8282d89687
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-329b131f01488b63dfbf48e0
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f6849941b9
+            part: title
+          zh:
+            page: zh
+            section: s-0913912ea1
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f6849941b9
+            part: body
+          zh:
+            page: zh
+            section: s-0913912ea1
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e05126d782
+            part: title
+          zh:
+            page: zh
+            section: s-5f9b3c271d
+            part: title
+        sourceIds:
+          - primary-pmc12848511-6pg3x
+        text:
+          en:
+            page: en
+            section: s-e05126d782
+            part: body
+          zh:
+            page: zh
+            section: s-5f9b3c271d
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-122e99d86f
+            part: title
+          zh:
+            page: zh
+            section: s-068ba67a23
+            part: title
+        sourceIds:
+          - primary-pmc12627998-6pg3x
+          - primary-pmc12848511-6pg3x
+        text:
+          en:
+            page: en
+            section: s-122e99d86f
+            part: body
+          zh:
+            page: zh
+            section: s-068ba67a23
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella pallida
+          url: https://www.checklistbank.org/dataset/316115/taxon/6PG3X
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2610; Reference.csv rows 641
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12848511-6pg3x
+        referenceId: ref-90cc5189-aacb-42d2-aae0-f31de66172ec
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella pallida: XML Sampling, molecular phylogenetic results, types, diagnosis, holotype description, variation, distribution/ecology, all 16 Comparison paragraphs and all four Discussion paragraphs; comparisons explicitly cited literature, supplementary data and independent sequences not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12627998-6pg3x
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella pallida: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-434502f311
+        part: body
+      zh:
+        page: zh
+        section: s-28378c83e2
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-329b131f01488b63dfbf48e0
+        scientificName: Leptobrachella pallida
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1267.177118
+        referenceId: ref-90cc5189-aacb-42d2-aae0-f31de66172ec
+        sourceKey: primary-pmc12848511-6pg3x
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12848511/article.xml
+        sourceConcept: Leptobrachella pallida
+        evidenceRead: "Leptobrachella pallida: XML Sampling, molecular phylogenetic results, types, diagnosis, holotype description, variation, distribution/ecology, all 16 Comparison paragraphs and all four Discussion paragraphs; comparisons explicitly cited literature, supplementary data and independent sequences not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Traits cited in the Deo Ca comparison
+              zh: Deo Ca 比较中引用的性状
+            referenceId: ref-90cc5189-aacb-42d2-aae0-f31de66172ec
+            sourceKey: primary-pmc12848511-6pg3x
+            locator: PMC12848511 XML Comparisons paragraph 1 and paragraph 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d7fc59db96
+                part: body
+              zh:
+                page: zh
+                section: s-1dc1372eeb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-6pg3x
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella pallida
+        evidenceRead: "Leptobrachella pallida: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Conflicting comparator descriptions remain unresolved
+              zh: 有冲突的比较描述仍未解决
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-6pg3x
+            locator: PMC12627998 XML sec17 paragraph 4; comparison also PMC12848511 XML Comparisons paragraph 6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-def1bc8361
+                part: body
+              zh:
+                page: zh
+                section: s-891cc177b7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

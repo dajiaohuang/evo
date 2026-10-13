@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina novaebritanniae
+  displayName: Austrochaperina novaebritanniae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JW23
+  sourceIndexes:
+    - name:
+        en: Austrochaperina novaebritanniae
+        zh: Austrochaperina novaebritanniae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JW23
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/360
+            queryName: Austrochaperina novaebritanniae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ee2915a52a
+      - s-89a5b58ffd
+      - s-3ad7f8b36d
+      - s-8cbae0bdad
+      - s-ccb99ee199
+      - s-e43fae8bf0
+      - s-c4dbc5adc8
+      - s-16bcca8adf
+      - s-8aa4ab4c5c
+      - s-291f7eca4d
+    zh:
+      - s-2b2c048533
+      - s-6d92ab859a
+      - s-64180d43aa
+      - s-9a6bcd3e9b
+      - s-5601453c22
+      - s-8dc04157cb
+      - s-7e90287040
+      - s-058af86daf
+      - s-002b6f98e8
+      - s-c68d99a3d3

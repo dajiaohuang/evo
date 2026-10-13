@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa striatula
+  displayName: Bolitoglossa striatula
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDSC
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa striatula
+        zh: Bolitoglossa striatula
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDSC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/198
+            queryName: Bolitoglossa striatula
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/296
+            queryName: Oedipus striatulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de94379b1f
+      - s-ca3623ae05
+      - s-a6cfa71685
+      - s-1f5316e0e7
+      - s-855638d64b
+      - s-c8ea3b4742
+      - s-c5ec585040
+      - s-4e5c4668cd
+      - s-6349581982
+    zh:
+      - s-bc4abe7bb6
+      - s-c2fd443acb
+      - s-725c97be6b
+      - s-40ee31bcf8
+      - s-2ec3942558
+      - s-bdea84ab0a
+      - s-670f1adad1
+      - s-05bfb7943d
+      - s-b157c6aada

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius polli
+  displayName: Hyperolius polli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQXP
+  sourceIndexes:
+    - name:
+        en: Hyperolius polli
+        zh: Hyperolius polli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQXP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/316
+            queryName: Hyperolius polli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-825f3233bd
+      - s-da886614ce
+      - s-c65d30da6f
+      - s-821f9fead7
+      - s-f3f817a251
+      - s-fd0cf908ce
+      - s-417d0e8bba
+    zh:
+      - s-1c18732dd0
+      - s-1f7cf8a5b4
+      - s-867f902ac1
+      - s-dc729ef3cf
+      - s-ab3a78da4e
+      - s-98f9a1641a
+      - s-0563bae43c

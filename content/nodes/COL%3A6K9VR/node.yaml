@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca walkeri
+  displayName: Gastrotheca walkeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6K9VR
+  sourceIndexes:
+    - name:
+        en: Gastrotheca walkeri
+        zh: Gastrotheca walkeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6K9VR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/82
+            queryName: Gastrotheca walkeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b9fbb2b153
+      - s-e8ab25fd03
+      - s-9d89ab785e
+      - s-16c3ae23da
+      - s-23e1b461a7
+      - s-42f5921715
+      - s-f49ff2c0d6
+      - s-e5b90d8f11
+    zh:
+      - s-59ba41b574
+      - s-8cdc9a6b4b
+      - s-ca9437a02c
+      - s-7e4e35ed77
+      - s-1160b336d4
+      - s-e941ebdf15
+      - s-3e117eedb9
+      - s-3de1dfad7d

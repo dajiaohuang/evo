@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Funcusvermis gilmorei
+  displayName: Funcusvermis gilmorei
+  rank: species
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/pbdb-taxon-resolution.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=471966
+    placement: PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted
+  subjectPath: content/nodes/PBDB%3A471966
+  scopeRecord: atlas-profile
+  packagePath: data/packages/vertebrata/amphibia
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=471966
+      placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Funcusvermis gilmorei
+        zh: Funcusvermis gilmorei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: txn:471966
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00018.json.gz
+            field: /records/352
+            queryName: Funcusvermis gilmorei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d46db78290
+      - s-d9e8c88495
+      - s-e45ff2ad68
+      - s-7d547c7550
+      - s-31a4ded48f
+      - s-a4d7eab331
+      - s-86fb5d4dcb
+      - s-8790872c35
+      - s-d353a444a3
+      - s-2de19f2b8a
+      - s-dfeda284ae
+      - s-e7e272b11c
+      - s-1d36a36561
+      - s-27e2bdc975
+    zh:
+      - s-2ac4b823bd
+      - s-71a047af5b
+      - s-6fafb82ac5
+      - s-87abafc01a
+      - s-feb38db8d5
+      - zh-1697f3c260a8bd
+      - zh-45b99c36e003ba
+      - zh-2133f32de2268e
+      - zh-7a414e2e5b0af8
+      - zh-fd6ce8d0be3f4a
+      - zh-c5a06e8065478b
+      - zh-bd9ddc55ed9c18

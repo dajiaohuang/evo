@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis diadematus
+  displayName: Pristimantis diadematus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJD3
+  sourceIndexes:
+    - name:
+        en: Pristimantis diadematus
+        zh: Pristimantis diadematus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJD3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/239
+            queryName: Pristimantis diadematus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/50
+            queryName: Eleutherodactylus bufonius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/75
+            queryName: Eleutherodactylus diadematus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/132
+            queryName: Hylodes diadematus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3ff352811
+      - s-c87d4fca2e
+      - s-558eb98eb7
+      - s-9a5ba04310
+      - s-0383989a2d
+      - s-96a7ad7ada
+      - s-1160698304
+      - s-cbc2b40048
+      - s-10b046e6cd
+      - s-5cf5d0a928
+      - s-0085457f30
+      - s-ff04166b30
+      - s-cb19256f1b
+      - s-7c4ba607ea
+      - s-35dda3fec3
+      - s-bfd03e5a0f
+      - s-8cbda4ce8a
+      - s-cb188b9d33
+      - s-dd7acd6ef3
+      - s-dd2529bf6c
+      - s-4f58213992
+      - s-344a2fa748
+      - s-856028806f
+      - s-5027772913
+      - s-aba7c71cef
+      - s-9fad5ba2d2
+      - s-a97886d0f5
+    zh:
+      - s-cbf8728813
+      - s-096c31e810
+      - s-c7894145ac
+      - s-758396a94f
+      - s-ff299b871f
+      - s-4eee21df67
+      - s-4c5997e9da
+      - s-f578a13cd4
+      - s-eb06b508ae
+      - s-3330591bf4
+      - s-5f133eab65
+      - s-6a0e395a77
+      - s-20d9b69c3f
+      - s-dad2ab9acd
+      - s-783da55b71
+      - s-7d0c5d028b
+      - s-f801f64197
+      - s-41c1c4300c
+      - s-aee67bf47c
+      - s-c69446efba
+      - s-846a35de8f
+      - s-21a59ca3c2
+      - s-a8f4c9abfb
+      - s-51fa4455a4
+      - s-0970c9d3a6
+      - s-287523a5fa
+      - s-7a0c74bf3b

@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa peruviana
+  displayName: Bolitoglossa peruviana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDRH
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa peruviana
+        zh: Bolitoglossa peruviana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDRH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/175
+            queryName: Bolitoglossa peruviana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/250
+            queryName: Spelerpes peruvianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/251
+            queryName: Oedipus peruvianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-597f42d1ba
+      - s-e32563f3b6
+      - s-d443e8f970
+      - s-48838aa777
+      - s-a87c37f29d
+      - s-3b5c95418b
+      - s-28fea1cd70
+      - s-ee67a37cc7
+      - s-30415081dc
+      - s-5e436698f9
+      - s-77bae359ff
+      - s-c5ccca4d8d
+      - s-11bd02d6bc
+      - s-8517a20c98
+      - s-bcebe61bbe
+      - s-9584c3bc75
+      - s-11b5964f51
+      - s-3e230b2af8
+    zh:
+      - s-9e1c9d2659
+      - s-5c08366286
+      - s-23c8b4a02c
+      - s-f23fc33e14
+      - s-e9177830ee
+      - s-1399f09f6f
+      - s-b862369d98
+      - s-2104770112
+      - s-40e46642de
+      - s-8787f707c4
+      - s-1f44bfa850
+      - s-020e692835
+      - s-f5e36e3aa0
+      - s-1e4486f300
+      - s-3a6c464734
+      - s-7da2ddef21
+      - s-2a8d0c23ed
+      - s-ed15fdc800

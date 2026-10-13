@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus anamallaiensis
+  displayName: Nyctibatrachus anamallaiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74CQG
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus anamallaiensis
+        zh: Nyctibatrachus anamallaiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74CQG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/338
+            queryName: Nyctibatrachus anamallaiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/85
+            queryName: Nannobatrachus anamallaiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c6733a76e4
+      - s-74142ba49c
+      - s-fe82d45a79
+      - s-8dc67293e0
+      - s-82502e5c90
+      - s-192fbd841c
+    zh:
+      - s-380122a9c4
+      - s-a90625e782
+      - s-3c6aa3aa5d
+      - s-5a561f0d59
+      - s-c4b9721317
+      - s-610b5dbb1e

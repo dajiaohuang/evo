@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus sauli
+  displayName: Hyloxalus sauli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGYB
+  sourceIndexes:
+    - name:
+        en: Hyloxalus sauli
+        zh: Hyloxalus sauli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGYB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/131
+            queryName: Hyloxalus sauli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/146
+            queryName: Colostethus sauli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b9ecebf23
+      - s-3097c2d140
+      - s-cc4a0fbe9d
+      - s-a533818b73
+      - s-dd09a8bb00
+      - s-63689ef6b0
+      - s-a456584f13
+      - s-4035b3eeed
+      - s-d6fb8abe90
+      - s-5a6dff3790
+    zh:
+      - s-1901535a3b
+      - s-262a3bbc74
+      - s-ee83a574bf
+      - s-480da8ed45
+      - s-095734d0e1
+      - s-bafa0da97c
+      - s-f55fad9392
+      - s-6bbba91b75
+      - s-b6db8d8aa6
+      - s-2cc56338dc

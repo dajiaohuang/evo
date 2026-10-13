@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-74648e2995}
+The version 3 Amphibian database lists Chiasmocleis papachibe in a source measurement table. Its classification fields read order = Anura, family = Microhylidae, genus = Chiasmocleis; the linked citation is in Reference.csv row 231. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-883c2b270b}
+Anura.csv rows 1113, 1114 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1113 (M) = 24.8, row 1114 (F) = 30.7; HW: row 1113 (M) = 5.3, row 1114 (F) = 7.15; ED: row 1113 (M) = 1.8, row 1114 (F) = 1.85; other populated codes are IOD, IND, EN, TL, THL, Toe4DW. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

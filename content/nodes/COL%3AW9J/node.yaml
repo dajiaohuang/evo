@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anhydrophryne
+  displayName: Anhydrophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/W9J
+  sourceIndexes:
+    - name:
+        en: Anhydrophryne
+        zh: Anhydrophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: W9J
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/162
+            queryName: Anhydrophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-71e98fde48
+      - s-cb5bc56f05
+      - s-7444041291
+      - s-1010fc1ba3
+      - s-f326184df7
+      - s-ed5889e695
+      - s-dcf1441d2b
+    zh:
+      - s-db67d41bbb
+      - s-d0fa1b4c7f
+      - s-17f141e912
+      - s-3b96c3716c
+      - s-144c15bebd
+      - s-fa3ad69e73
+      - s-8ec2d5ff06

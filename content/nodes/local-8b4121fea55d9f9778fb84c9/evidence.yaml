@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius oyamai
+    name:
+      en: Hynobius oyamai
+      zh: Hynobius oyamai
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d008179936
+            part: body
+          zh:
+            page: zh
+            section: s-dc614dd629
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8e9bcdef16
+            part: body
+          zh:
+            page: zh
+            section: s-2ba29d14fc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 169, 170; Reference.csv rows 4265
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 169
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius oyamai
+          - M
+          - NA
+          - "74.6"
+          - "57.5166"
+          - "39.7618"
+          - "17.0834"
+          - "13.3534"
+          - "4.1776"
+          - "4.1776"
+          - NA
+          - "2.3872"
+          - "4.3268"
+          - "5.0728"
+          - "55.0548"
+          - "8.5044"
+          - "8.5044"
+          - "7.6092"
+          - "5.8188"
+          - "17.9786"
+          - "22.38"
+          - "3.2824"
+          - "3.0586"
+          - "5.0728"
+          - "1.9396"
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 170
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius oyamai
+          - F
+          - NA
+          - "77.3"
+          - "59.7529"
+          - "41.5874"
+          - "17.5471"
+          - "13.3729"
+          - "4.0969"
+          - "4.1742"
+          - NA
+          - "2.3963"
+          - "4.0969"
+          - "5.0245"
+          - "52.9505"
+          - "7.9619"
+          - "7.5754"
+          - "7.0343"
+          - "5.3337"
+          - "17.1606"
+          - "22.1851"
+          - "3.092"
+          - "2.8601"
+          - "5.2564"
+          - "1.9325"
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4265
+        values:
+          - Caudata
+          - Hynobius_oyamai
+          - Tominaga, A., Matsui, M., & Nishikawa, K. (2019). Two new species of lotic breeding salamanders (Amphibia, Caudata, Hynobiidae) from western Japan. Zootaxa, 4550(4), 525-544. https://doi.org/10.11646/zootaxa.4550.4.3
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6MQKV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

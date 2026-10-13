@@ -1,0 +1,514 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aplastodiscus arildae (Cruz & Peixoto, 1987)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Aplastodiscus arildae
+      zh: Aplastodiscus arildae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-825d2cb171
+            part: title
+          zh:
+            page: zh
+            section: s-afa7eceac0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-825d2cb171
+            part: body
+          zh:
+            page: zh
+            section: s-afa7eceac0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0b1c8ab1c7
+            part: title
+          zh:
+            page: zh
+            section: s-1e836031c2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0b1c8ab1c7
+            part: body
+          zh:
+            page: zh
+            section: s-1e836031c2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5603cb227b
+            part: title
+          zh:
+            page: zh
+            section: s-c8b70ed8ee
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-5603cb227b
+            part: body
+          zh:
+            page: zh
+            section: s-c8b70ed8ee
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-52fb104134
+            part: title
+          zh:
+            page: zh
+            section: s-1b95d82ef7
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-52fb104134
+            part: body
+          zh:
+            page: zh
+            section: s-1b95d82ef7
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b93407f00a
+            part: title
+          zh:
+            page: zh
+            section: s-a586df207f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-b93407f00a
+            part: body
+          zh:
+            page: zh
+            section: s-a586df207f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-96baabbeea
+            part: title
+          zh:
+            page: zh
+            section: s-34a3ca222c
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-96baabbeea
+            part: body
+          zh:
+            page: zh
+            section: s-34a3ca222c
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-230425c109
+            part: title
+          zh:
+            page: zh
+            section: s-92218c07b9
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-230425c109
+            part: body
+          zh:
+            page: zh
+            section: s-92218c07b9
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-3132131346
+            part: title
+          zh:
+            page: zh
+            section: s-98dc649b23
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-3132131346
+            part: body
+          zh:
+            page: zh
+            section: s-98dc649b23
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-45938d0de3
+            part: title
+          zh:
+            page: zh
+            section: s-cb161b09fd
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-45938d0de3
+            part: body
+          zh:
+            page: zh
+            section: s-cb161b09fd
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-fbd775226b5d62ab18cd9e1e35f26136
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9d0ce7ef96
+            part: title
+          zh:
+            page: zh
+            section: s-b258872654
+            part: title
+        sourceIds:
+          - primary-pmc10688756-fnmm
+        text:
+          en:
+            page: en
+            section: s-9d0ce7ef96
+            part: body
+          zh:
+            page: zh
+            section: s-b258872654
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-efb74294cd
+            part: title
+          zh:
+            page: zh
+            section: s-5dd9c901f9
+            part: title
+        sourceIds:
+          - primary-pmc10688756-fnmm
+        text:
+          en:
+            page: en
+            section: s-efb74294cd
+            part: body
+          zh:
+            page: zh
+            section: s-5dd9c901f9
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-13d254e582
+            part: title
+          zh:
+            page: zh
+            section: s-ab8ca20d61
+            part: title
+        sourceIds:
+          - primary-pmc10688756-fnmm
+        text:
+          en:
+            page: en
+            section: s-13d254e582
+            part: body
+          zh:
+            page: zh
+            section: s-ab8ca20d61
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Aplastodiscus arildae
+          url: https://www.checklistbank.org/dataset/316115/taxon/FNMM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2126; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2126 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10688756-fnmm
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Aplastodiscus arildae: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-429e02eaff
+        part: body
+      zh:
+        page: zh
+        section: s-6069b4b3ab
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-fbd775226b5d62ab18cd9e1e35f26136
+      sourceRowId: Anf2126
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf2126
+        bibliographyRowId: Anf2126
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Aplastodiscus arildae
+        candidateBibliographyRowIds:
+          - Anf2126
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-fnmm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Aplastodiscus_arildae, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Aplastodiscus arildae: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-fnmm
+            locator: PMC10688756 S3 File Traits row 19 Aplastodiscus_arildae; XML Functional diversity; upstream reference numbers 1, 2, 3, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-43a8131ad0
+                part: body
+              zh:
+                page: zh
+                section: s-78de493ead
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-fnmm
+            locator: PMC10688756 S3 File Traits row 19 Aplastodiscus_arildae habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-51b07b4567
+                part: body
+              zh:
+                page: zh
+                section: s-d63f5cb69c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-fnmm
+            locator: PMC10688756 S3 File Traits row 19 Aplastodiscus_arildae length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1dffd1d37f
+                part: body
+              zh:
+                page: zh
+                section: s-5b180251a0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

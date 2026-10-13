@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis viridicans
+  displayName: Pristimantis viridicans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJRH
+  sourceIndexes:
+    - name:
+        en: Pristimantis viridicans
+        zh: Pristimantis viridicans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJRH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/173
+            queryName: Pristimantis viridicans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/98
+            queryName: Eleutherodactylus viridicans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf9c77ffd9
+      - s-c77ba6b8e1
+      - s-bc4aa2827a
+      - s-2e30a8e84b
+      - s-95fe4dfa62
+      - s-0322b2f82d
+      - s-d54368e66d
+    zh:
+      - s-7da6917c23
+      - s-d5c8d718a7
+      - s-5c86289274
+      - s-5ae63bfd58
+      - s-c478646fe0
+      - s-02e8db694d
+      - s-0d9ba4f65e

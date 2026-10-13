@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Andinobates minutus
+  displayName: Andinobates minutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DQDX
+  sourceIndexes:
+    - name:
+        en: Andinobates minutus
+        zh: Andinobates minutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DQDX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/462
+            queryName: Andinobates minutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/187
+            queryName: Dendrobates minutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/88
+            queryName: Ranitomeya minuta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 70
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/288
+            queryName: Dendrobates shrevei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/289
+            queryName: Minyobates minutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/344
+            queryName: Dendrobates minutus minutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f2bf82041
+      - s-0fd483f8c7
+      - s-8b7c213b31
+      - s-8f27c826ea
+      - s-785b76e9af
+      - s-380ccdf43a
+      - s-a9c831bf87
+      - s-5127d2d89d
+      - s-08759f1b00
+      - s-467519379b
+      - s-b08df75df9
+      - s-9b03e41197
+      - s-ec1b923e7e
+      - s-0e8f381c90
+    zh:
+      - s-5e2f3f959c
+      - s-be37a621ba
+      - s-e24fc6ac82
+      - s-193748a5b5
+      - s-bc1e446790
+      - s-77e20b85f2
+      - s-cfbfea1a9c
+      - s-ec341ec083
+      - s-fd59087a5a
+      - s-8258310597
+      - s-1a4a17d8d8
+      - s-05b8f128c1
+      - s-79736e92df
+      - s-02df59bb5a

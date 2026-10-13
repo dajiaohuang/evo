@@ -1,0 +1,80 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    sections:
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-ea538795ef
+            part: title
+          zh:
+            page: zh
+            section: s-c3d8268d29
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ea538795ef
+            part: body
+          zh:
+            page: zh
+            section: s-c3d8268d29
+            part: body
+        claimIds:
+          - claim:taxon:triarthrus
+    scientificName: Triarthrus
+    name:
+      en: Triarthrus
+      zh: Triarthrus
+    rank: genus
+    sourceDatasetId: "268676"
+  atlas-node:
+    name: Triarthrus
+    commonName: Triarthrus
+    commonNameZh: 三节虫属
+    rank: genus
+    taxonId: txn:21015
+    firstAppearance: 450
+    lastAppearance: 443
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:triarthrus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Triarthrus eatoni is bounded here by the cited respiratory-appendage sample from Beecher's Trilobite Bed, New York, USA; this named locality sample is not a genus-wide distribution or exact complete range.
+      confidence: medium
+      confidenceRationale: "Triarthrus: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary."
+      referenceLinks:
+        - referenceId: hou-2021-trilobite-gill
+          relation: supports
+          pages: eabe7377
+          figure: Figures 1–5; Supplementary materials
+          quoteLocator: Beecher's Trilobite Bed Triarthrus eatoni sample
+  claim-rationales.zh:
+    - 三节虫属：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+  claim-statements.zh:
+    - Triarthrus eatoni 在此由所引美国纽约州 Beecher 三叶虫层的呼吸附肢样本约束；这一具名地点样本不是整个属的分布或精确完整延限。
+  ranges:
+    - entityId: triarthrus
+      rangeKind: global-composite
+      taxonomicConcept: Triarthrus respiratory-appendage sample
+      geographicScope: Beecher’s Trilobite Bed, New York, USA
+      olderMa: 450
+      youngerMa: 443
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Broad Upper Ordovician sample envelope, not a direct specimen date or global range.
+      evidenceBasis: The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:trilobite-upper-limb-gill
+      referenceLocators:
+        - referenceId: hou-2021-trilobite-gill
+          locator: eabe7377; Figures 1–5; Supplementary materials; Triarthrus imaging; Olenoides articulation; Functional comparison

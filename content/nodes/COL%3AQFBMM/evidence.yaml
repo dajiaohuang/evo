@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptopelis xeniae Goutte, Reyes-Velasco, Kassie Teme & Boissinot, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptopelis xeniae
+      zh: Leptopelis xeniae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-39243692e0
+            part: title
+          zh:
+            page: zh
+            section: s-eed45945dd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-39243692e0
+            part: body
+          zh:
+            page: zh
+            section: s-eed45945dd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0c8f49a551
+            part: title
+          zh:
+            page: zh
+            section: s-82cba3927a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0c8f49a551
+            part: body
+          zh:
+            page: zh
+            section: s-82cba3927a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-4596cb5918
+            part: title
+          zh:
+            page: zh
+            section: s-b74bd36c5f
+            part: title
+        sourceIds:
+          - primary-pmc9836736-qfbmm
+        text:
+          en:
+            page: en
+            section: s-4596cb5918
+            part: body
+          zh:
+            page: zh
+            section: s-b74bd36c5f
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-aaf13deff6
+            part: title
+          zh:
+            page: zh
+            section: s-5e180890f0
+            part: title
+        sourceIds:
+          - primary-pmc9836736-qfbmm
+        text:
+          en:
+            page: en
+            section: s-aaf13deff6
+            part: body
+          zh:
+            page: zh
+            section: s-5e180890f0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptopelis xeniae
+          url: https://www.checklistbank.org/dataset/316115/taxon/QFBMM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9836736-qfbmm
+        referenceId: ref-16256384-1681-45d4-ad15-7a3d96993f39
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptopelis xeniae: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f3efa3e9b0
+        part: body
+      zh:
+        page: zh
+        section: s-68a70674f9
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1128.82176
+        referenceId: ref-16256384-1681-45d4-ad15-7a3d96993f39
+        sourceKey: primary-pmc9836736-qfbmm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9836736/article.xml
+        sourceConcept: Leptopelis xeniae
+        evidenceRead: "Leptopelis xeniae: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Forested areas near Kibre Mengist and Kofele
+              zh: Kibre Mengist 与 Kofele 附近林区
+            referenceId: ref-16256384-1681-45d4-ad15-7a3d96993f39
+            sourceKey: primary-pmc9836736-qfbmm
+            locator: "Leptopelis xeniae: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0e7984f1ad
+                part: body
+              zh:
+                page: zh
+                section: s-9ffc29517d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Calling without observed eggs or tadpoles
+              zh: 鸣叫记录及未观察到的卵、蝌蚪
+            referenceId: ref-16256384-1681-45d4-ad15-7a3d96993f39
+            sourceKey: primary-pmc9836736-qfbmm
+            locator: "Leptopelis xeniae: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-04ea74d693
+                part: body
+              zh:
+                page: zh
+                section: s-a6a2999261
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

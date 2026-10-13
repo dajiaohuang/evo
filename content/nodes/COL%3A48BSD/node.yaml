@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Occidozyga celebensis
+  displayName: Occidozyga celebensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48BSD
+  sourceIndexes:
+    - name:
+        en: Occidozyga celebensis
+        zh: Occidozyga celebensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48BSD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/460
+            queryName: Occidozyga celebensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/208
+            queryName: Ooeidozyga celebensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/209
+            queryName: Phrynoglossus celebensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-29f96c6f15
+      - s-fa82941d83
+      - s-56c55705ae
+      - s-101f285fb0
+      - s-ed002cf277
+      - s-0fad4068bb
+      - s-bb729a1e57
+      - s-79e119e9ea
+    zh:
+      - s-fb32688195
+      - s-a0c9e70a09
+      - s-d8686b0f19
+      - s-c96eac684a
+      - s-e932a0c25a
+      - s-32f9af5511
+      - s-5aa26240e9
+      - s-ca3202a487

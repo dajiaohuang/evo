@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nannophrys guentheri
+  displayName: Nannophrys guentheri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73SK7
+  sourceIndexes:
+    - name:
+        en: Nannophrys guentheri
+        zh: Nannophrys guentheri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73SK7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/150
+            queryName: Nannophrys guentheri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8ae52cb66c
+      - s-441fc4fc93
+      - s-f7ec2f9bbe
+      - s-5b89f1da3c
+      - s-4f23fc1cd3
+      - s-962dc7fc7a
+      - s-bd414fb337
+      - s-be35cfb06f
+    zh:
+      - s-0055b8aa6f
+      - s-ff702716e9
+      - s-7a0c32ddd9
+      - s-45681375e8
+      - s-4ac8e91b99
+      - s-9cc463a31c
+      - s-d3a15b196b
+      - s-2a70e8abe3

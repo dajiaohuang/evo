@@ -1,0 +1,595 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Albanerpeton nexuosus
+    rank: species
+    sourceTaxonId: txn:67753
+    name:
+      en: Albanerpeton nexuosus
+      zh: Albanerpeton nexuosus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-0a6c984300
+            part: body
+          zh:
+            page: zh
+            section: s-a42932b285
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-69cbc27f79
+            part: body
+          zh:
+            page: zh
+            section: s-b857c77ad6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-46d0f38233
+            part: body
+          zh:
+            page: zh
+            section: s-1914c29ee2
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:67753; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Estes. 1981. Handbuch der Paläoherpetologie/Encyclopedia of Paleoherpetology. Part 2. Gymnophiona, Caudata. Gustav Fischer Verlag, Stuttgart
+    occurrenceEvidence:
+      - occurrenceId: occ:247985
+        collectionId: col:14399
+        acceptedTaxonId: txn:67753
+        identifiedName: Albanerpeton cf. nexuosus
+        taxonomicDifference: null
+        referenceId: ref:6845
+        bibliography: J. D. Gardner. 1999. New albanerpetontid amphibians from the Albian to Coniacian of Utah, USA—bridging the gap. Journal of Vertebrate Paleontology 19(4):632-638
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Emery
+        stratigraphy:
+          group: Dakota
+          formation: Cedar Mountain
+          member: Mussentuchit
+        olderAgeMa: 100.5
+        youngerAgeMa: 93.9
+      - occurrenceId: occ:247986
+        collectionId: col:14396
+        acceptedTaxonId: txn:67753
+        identifiedName: Albanerpeton cf. nexuosus
+        taxonomicDifference: null
+        referenceId: ref:6845
+        bibliography: J. D. Gardner. 1999. New albanerpetontid amphibians from the Albian to Coniacian of Utah, USA—bridging the gap. Journal of Vertebrate Paleontology 19(4):632-638
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Emery
+        stratigraphy:
+          group: Dakota
+          formation: Cedar Mountain
+          member: Mussentuchit
+        olderAgeMa: 100.5
+        youngerAgeMa: 93.9
+      - occurrenceId: occ:291026
+        collectionId: col:14640
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Colorado
+          county: Weld
+        stratigraphy:
+          group: null
+          formation: Laramie
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:972213
+        collectionId: col:45437
+        acceptedTaxonId: txn:67753
+        identifiedTaxonId: var:300575
+        identifiedName: Albanerpeton aff. nexuosum
+        taxonomicDifference: variant of
+        referenceId: ref:37367
+        bibliography: H.-A. Blain, J.-I. Canudo, and G. Cuenca-Bescós, N. López-Martínez. 2010. Amphibians and squamate reptiles from the latest Maastrichtian (Upper Cretaceous) of Blasi 2 (Huesca, Spain). Cretaceous Research 31(4):433-446
+        locality:
+          countryCode: ES
+          stateProvince: Aragón
+          county: Huesca
+        stratigraphy:
+          group: Tremp
+          formation: La Posa
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1070825
+        collectionId: col:14585
+        acceptedTaxonId: txn:67753
+        identifiedName: Albanerpeton nexuosus n. sp.
+        taxonomicDifference: null
+        referenceId: ref:42765
+        bibliography: R. Estes. 1981. Handbuch der Paläoherpetologie/Encyclopedia of Paleoherpetology. Part 2. Gymnophiona, Caudata. Gustav Fischer Verlag, Stuttgart
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1070826
+        collectionId: col:45566
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Lower
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070827
+        collectionId: col:14466
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Kane
+        stratigraphy:
+          group: null
+          formation: Kaiparowits
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070828
+        collectionId: col:75846
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Kaiparowits
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070829
+        collectionId: col:14489
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Brewster
+        stratigraphy:
+          group: null
+          formation: Aguja
+          member: Alto Shale
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070830
+        collectionId: col:56627
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: San Juan
+        stratigraphy:
+          group: null
+          formation: Fruitland/Kirtland
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070834
+        collectionId: col:14519
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1070837
+        collectionId: col:14514
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Sweetwater
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1146991
+        collectionId: col:14422
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1146993
+        collectionId: col:14423
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1146996
+        collectionId: col:14425
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1146997
+        collectionId: col:14426
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1146999
+        collectionId: col:14427
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1147001
+        collectionId: col:14428
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1147004
+        collectionId: col:13142
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: McCone County
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1292590
+        collectionId: col:146190
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: County of Warner
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1350445
+        collectionId: col:183109
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:61095
+        bibliography: "T. S. Kelly. 2014. Preliminary report on the mammals form Lane's Little Jaw Site Quarry: a latest Cretaceous (earliest Puercan?) local fauna, Hell Creek Formation, southeastern Montana. Paludicola 10(1):50-91"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Powder River
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1390584
+        collectionId: col:47794
+        acceptedTaxonId: txn:67753
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1395755
+        collectionId: col:144499
+        acceptedTaxonId: txn:67753
+        identifiedTaxonId: var:300575
+        identifiedName: Albanerpeton nexuosum
+        taxonomicDifference: variant of
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1395767
+        collectionId: col:144505
+        acceptedTaxonId: txn:67753
+        identifiedTaxonId: var:300575
+        identifiedName: Albanerpeton nexuosum
+        taxonomicDifference: variant of
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1395768
+        collectionId: col:144506
+        acceptedTaxonId: txn:67753
+        identifiedTaxonId: var:300575
+        identifiedName: Albanerpeton nexuosum
+        taxonomicDifference: variant of
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1395862
+        collectionId: col:14489
+        acceptedTaxonId: txn:67753
+        identifiedTaxonId: var:300575
+        identifiedName: Albanerpeton nexuosum
+        taxonomicDifference: variant of
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Brewster
+        stratigraphy:
+          group: null
+          formation: Aguja
+          member: Alto Shale
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1395863
+        collectionId: col:14385
+        acceptedTaxonId: txn:67753
+        identifiedTaxonId: var:300575
+        identifiedName: cf. Albanerpeton nexuosum
+        taxonomicDifference: variant of
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Naturita
+          member: null
+        olderAgeMa: 100.5
+        youngerAgeMa: 93.9
+      - occurrenceId: occ:1395882
+        collectionId: col:181388
+        acceptedTaxonId: txn:67753
+        identifiedTaxonId: var:300575
+        identifiedName: cf. Albanerpeton nexuosum
+        taxonomicDifference: variant of
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Straight Cliffs
+          member: John Henry
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1592201
+        collectionId: col:200385
+        acceptedTaxonId: txn:67753
+        identifiedTaxonId: var:300575
+        identifiedName: Albanerpeton nexuosum
+        taxonomicDifference: variant of
+        referenceId: ref:81443
+        bibliography: S. L. Wick. 2021. Albanerpetontids (Lissamphibia, Albanerpetontidae) from the Aguja Formation (lower Campanian) of West Texas, USA. Canadian Journal of Earth Sciences 58(2)
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Brewster
+        stratigraphy:
+          group: null
+          formation: Aguja
+          member: Abajo Shale
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-46d0f38233
+            part: body
+          zh:
+            page: zh
+            section: s-1914c29ee2
+            part: body
+        sourceIds: []

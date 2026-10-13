@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema nigriventris
+  displayName: Ischnocnema nigriventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4S4
+  sourceIndexes:
+    - name:
+        en: Ischnocnema nigriventris
+        zh: Ischnocnema nigriventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4S4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/31
+            queryName: Ischnocnema nigriventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/455
+            queryName: Eleutherodactylus nigriventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/208
+            queryName: Hylaplesia nigriventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/209
+            queryName: Basanitia nigriventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4d61669e33
+      - s-9c7628ae7d
+      - s-e6e70fd9d3
+      - s-224cef03f6
+      - s-9993f2789d
+      - s-e2bbf534a3
+      - s-263994f649
+      - s-191af2d6d3
+      - s-fe75f48b19
+      - s-384b36837e
+      - s-4fa42451eb
+      - s-69632c5677
+      - s-38db7c6422
+      - s-fe2e913e82
+    zh:
+      - s-2dba1bb50e
+      - s-e8bad10266
+      - s-40445779ee
+      - s-1567c78ffe
+      - s-16dd4493c5
+      - s-14b9b9d844
+      - s-68bb0b7a48
+      - s-4485d3c630
+      - s-9a8322cbf4
+      - s-787aeee96b
+      - s-1486dd5ab4
+      - s-9b2bbc127d
+      - s-5b5ff1a3cb
+      - s-0fea773642

@@ -1,0 +1,751 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ikrandraco avatar
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Ikrandraco avatar
+      en: Ikrandraco avatar
+    sections:
+      - topic: nomenclature
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+          - wang2020IkrandracoNameCorrection
+        text:
+          zh:
+            page: zh
+            section: s-7007a3081e
+            part: body
+          en:
+            page: en
+            section: s-b2714d12a0
+            part: body
+      - topic: material
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+        text:
+          zh:
+            page: zh
+            section: s-6febb611db
+            part: body
+          en:
+            page: en
+            section: s-85a4bc8894
+            part: body
+      - topic: preservation
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+        text:
+          zh:
+            page: zh
+            section: s-a8076f225e
+            part: body
+          en:
+            page: en
+            section: s-20d7b921ed
+            part: body
+      - topic: morphology
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+        text:
+          zh:
+            page: zh
+            section: s-bda0e9bb0a
+            part: body
+          en:
+            page: en
+            section: s-0528b771bf
+            part: body
+      - topic: dentition
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+        text:
+          zh:
+            page: zh
+            section: s-ac86294784
+            part: body
+          en:
+            page: en
+            section: s-a0b0d6f461
+            part: body
+      - topic: morphology
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+        text:
+          zh:
+            page: zh
+            section: s-40d99f66f8
+            part: body
+          en:
+            page: en
+            section: s-a1017e967c
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+        text:
+          zh:
+            page: zh
+            section: s-ff32885ef8
+            part: body
+          en:
+            page: en
+            section: s-a44a0a3665
+            part: body
+      - topic: feeding
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+        text:
+          zh:
+            page: zh
+            section: s-61e59f76a4
+            part: body
+          en:
+            page: en
+            section: s-97638a8f12
+            part: body
+      - topic: phylogeny
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+        text:
+          zh:
+            page: zh
+            section: s-16eacd2bdb
+            part: body
+          en:
+            page: en
+            section: s-73524141ab
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+        text:
+          zh:
+            page: zh
+            section: s-f32e98e05a
+            part: body
+          en:
+            page: en
+            section: s-698fb3ee3c
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7e85bcf825
+            part: body
+          en:
+            page: en
+            section: s-8373aae624
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a632b5465f
+            part: body
+          en:
+            page: en
+            section: s-21e5eaba30
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9b03ec0ed2
+            part: body
+          en:
+            page: en
+            section: s-b50f8d27cc
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-29848b1326
+            part: body
+          en:
+            page: en
+            section: s-8aed91e896
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - wang2014IkrandracoAnatomy
+          - wang2020IkrandracoNameCorrection
+        text:
+          zh:
+            page: zh
+            section: s-5bfe8c60da
+            part: body
+          en:
+            page: en
+            section: s-2e8c21b474
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Ikrandraco avatar
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=340925&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:340925; original response record indices retained in data/sources/pterosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: bae4c11926f8cde7bd7b1b7418d63b8ba856066f5005a9181b8bdf8dcb047035
+          pbdbTaxonId: txn:340925
+          selectedOccurrenceIds:
+            - occ:1328956
+            - occ:1328957
+          selectedCollectionIds:
+            - col:105772
+            - col:135798
+          sourceReferenceIds:
+            - ref:59181
+          originalIdentificationMappings:
+            - occurrenceId: occ:1328956
+              originalIdentifiedName: Ikrandraco avatar n. gen. n. sp.
+              acceptedName: Ikrandraco avatar
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Recorded PBDB accepted identity and parent chain
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=340925&show=parent,app,attr
+          locator: P5-42 retained accepted hierarchy; oid txn:340925; ancestry below the documented Pterosauria anchor.
+          accessedAt: 2026-10-02
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+      - id: wang2014IkrandracoAnatomy
+        referenceId: ref-8eb6ee94-1e19-4319-ac83-7363766ae86e
+        fields:
+          - id
+          - doi
+          - title
+          - authors
+          - publishedYear
+          - publishedAt
+          - volume
+          - pages
+          - license
+          - url
+          - accessedAt
+          - scope
+          - locator
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          title: An Early Cretaceous pterosaur with an unusual mandibular crest from China and a potential novel feeding strategy
+          url: https://doi.org/10.1038/srep06329
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2014 年两件标本的系统古生物学、形态、表 1–2、讨论与分析方法；摄食为作者假说。
+            en: 2014 systematic account, anatomy, Tables 1–2, discussion and analytical methods for two specimens; feeding remains the authors’ hypothesis.
+          locator: "PMC5385874 / Europe PMC fullTextXML: front, abstract and introductory context; complete Results, Discussion and Methods text including Tables 1–2 and textual captions. No figure pixels, supplements, specimens or phylogenetic rerun."
+          readingTargets:
+            - name: Ikrandraco avatar
+              pbdbTaxonId: txn:340925
+              canonicalPath: content/nodes/PBDB%3A340925
+      - id: wang2020IkrandracoNameCorrection
+        referenceId: ref-de2e4f70-2f1a-4198-a63b-681ab3327a69
+        fields:
+          - id
+          - doi
+          - title
+          - authors
+          - publishedYear
+          - publishedAt
+          - volume
+          - pages
+          - license
+          - url
+          - accessedAt
+          - scope
+          - locator
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          title: "Author Correction: An Early Cretaceous pterosaur with an unusual mandibular crest from China and a potential novel feeding strategy"
+          url: https://doi.org/10.1038/s41598-020-70506-z
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2020 年名称可用性、ZooBank 注册与重述模式材料及诊断。
+            en: 2020 name availability, ZooBank registration and restated type material and diagnosis.
+          locator: "PMC7421578 / Europe PMC fullTextXML: entire correction body and publication metadata; source ZooBank publication and nomenclatural-act LSIDs retained without independent registry audit."
+          readingTargets:
+            - name: Ikrandraco avatar
+              pbdbTaxonId: txn:340925
+              canonicalPath: content/nodes/PBDB%3A340925
+    limitations:
+      zh:
+        page: zh
+        section: s-33a7b3b7b1
+        part: body
+      en:
+        page: en
+        section: s-cb40ed5821
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:340925
+    scientificName: Ikrandraco avatar
+    commonName: Ikrandraco avatar
+    commonNameZh: Ikrandraco avatar
+    rank: species
+    parentName: Ikrandraco
+    extinct: true
+    geography: []
+    overview:
+      page: en
+      section: s-8373aae624
+      part: body
+    ecology:
+      diet: Not assessed from occurrence counts or depositional setting.
+      habitat: Collection environments are not a species-wide habitat assessment.
+      locomotion: Not independently assessed.
+      bodySize: Not assessed from this occurrence batch.
+      guild: Not assessed.
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-cb40ed5821
+      part: body
+    confidence: low
+    referenceIds:
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+      - ref-8eb6ee94-1e19-4319-ac83-7363766ae86e
+      - ref-de2e4f70-2f1a-4198-a63b-681ab3327a69
+    readerSections:
+      - id: ikrandraco-anatomy-0
+        title:
+          zh: 2014 年形态描述与 2020 年名称更正
+          en: The 2014 anatomical account and 2020 name correction
+        text:
+          zh:
+            page: zh
+            section: s-7007a3081e
+            part: body
+          en:
+            page: en
+            section: s-b2714d12a0
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+          - wang2020IkrandracoNameCorrection
+      - id: ikrandraco-anatomy-1
+        title:
+          zh: 两件标本保存的身体范围不同
+          en: The two specimens preserve different parts of the body
+        text:
+          zh:
+            page: zh
+            section: s-6febb611db
+            part: body
+          en:
+            page: en
+            section: s-85a4bc8894
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+      - id: ikrandraco-anatomy-2
+        title:
+          zh: 侧向压扁与未知层位限制比较
+          en: Lateral flattening and unknown horizons limit comparison
+        text:
+          zh:
+            page: zh
+            section: s-a8076f225e
+            part: body
+          en:
+            page: en
+            section: s-20d7b921ed
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+      - id: ikrandraco-anatomy-3
+        title:
+          zh: 低长头部与深下颌骨冠
+          en: A low elongated head and deep mandibular crest
+        text:
+          zh:
+            page: zh
+            section: s-bda0e9bb0a
+            part: body
+          en:
+            page: en
+            section: s-0528b771bf
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+      - id: ikrandraco-anatomy-4
+        title:
+          zh: 小牙列支持比较，不直接记录食谱
+          en: Small teeth support comparisons without recording a diet
+        text:
+          zh:
+            page: zh
+            section: s-ac86294784
+            part: body
+          en:
+            page: en
+            section: s-a0b0d6f461
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+      - id: ikrandraco-anatomy-5
+        title:
+          zh: 关联双翼与气孔提供骨骼线索
+          en: Associated wings and foramina provide skeletal evidence
+        text:
+          zh:
+            page: zh
+            section: s-40d99f66f8
+            part: body
+          en:
+            page: en
+            section: s-a1017e967c
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+      - id: ikrandraco-anatomy-6
+        title:
+          zh: 融合支持成体解释，测量仍属于个体
+          en: Fusion supports adult interpretation while measurements remain individual
+        text:
+          zh:
+            page: zh
+            section: s-ff32885ef8
+            part: body
+          en:
+            page: en
+            section: s-a44a0a3665
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+      - id: ikrandraco-anatomy-7
+        title:
+          zh: 临时掠水与喉囊都是摄食假说
+          en: Temporary skimming and a throat pouch are feeding hypotheses
+        text:
+          zh:
+            page: zh
+            section: s-61e59f76a4
+            part: body
+          en:
+            page: en
+            section: s-97638a8f12
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+      - id: ikrandraco-anatomy-8
+        title:
+          zh: 系统树是 2014 年矩阵的分析结果
+          en: The tree is a result from the 2014 matrix
+        text:
+          zh:
+            page: zh
+            section: s-16eacd2bdb
+            part: body
+          en:
+            page: en
+            section: s-73524141ab
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+      - id: ikrandraco-anatomy-9
+        title:
+          zh: 对读下颌骨冠与大型比较头部
+          en: Compare mandibular crests with a large comparative skull
+        text:
+          zh:
+            page: zh
+            section: s-f32e98e05a
+            part: body
+          en:
+            page: en
+            section: s-698fb3ee3c
+            part: body
+        sourceIds:
+          - wang2014IkrandracoAnatomy
+      - id: pbdb-occurrence-1
+        title:
+          en: Which fossil records this name represents
+          zh: 这个名称对应哪些化石记录
+        text:
+          zh:
+            page: zh
+            section: s-7e85bcf825
+            part: body
+          en:
+            page: en
+            section: s-8373aae624
+            part: body
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-2
+        title:
+          en: Begin with named collections and strata
+          zh: 从具名采集地和地层开始
+        text:
+          zh:
+            page: zh
+            section: s-a632b5465f
+            part: body
+          en:
+            page: en
+            section: s-21e5eaba30
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-3
+        title:
+          en: Age bounds of these records
+          zh: 这些记录的年代边界
+        text:
+          zh:
+            page: zh
+            section: s-9b03ec0ed2
+            part: body
+          en:
+            page: en
+            section: s-b50f8d27cc
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-4
+        title:
+          en: Read preservation setting separately from living habitat
+          zh: 保存环境与生活环境分开阅读
+        text:
+          zh:
+            page: zh
+            section: s-29848b1326
+            part: body
+          en:
+            page: en
+            section: s-8aed91e896
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-5
+        title:
+          en: Follow collection records back to references
+          zh: 沿采集记录追到文献
+        text:
+          zh:
+            page: zh
+            section: s-5bfe8c60da
+            part: body
+          en:
+            page: en
+            section: s-2e8c21b474
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - wang2014IkrandracoAnatomy
+          - wang2020IkrandracoNameCorrection
+    readerSources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 743
+        usage:
+          scope:
+            zh: 仅来源所述材料和数据库记录范围。
+            en: Only material and database-record scope described by this source.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 743
+        usage:
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+      - id: wang2014IkrandracoAnatomy
+        referenceId: ref-8eb6ee94-1e19-4319-ac83-7363766ae86e
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 2014 年两件标本的系统古生物学、形态、表 1–2、讨论与分析方法；摄食为作者假说。
+            en: 2014 systematic account, anatomy, Tables 1–2, discussion and analytical methods for two specimens; feeding remains the authors’ hypothesis.
+      - id: wang2020IkrandracoNameCorrection
+        referenceId: ref-de2e4f70-2f1a-4198-a63b-681ab3327a69
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 2020 年名称可用性、ZooBank 注册与重述模式材料及诊断。
+            en: 2020 name availability, ZooBank registration and restated type material and diagnosis.
+    readerLimitations:
+      zh:
+        page: zh
+        section: s-33a7b3b7b1
+        part: body
+      en:
+        page: en
+        section: s-cb40ed5821
+        part: body
+    readerRelatedPages:
+      - targetId: txn:340924
+        label:
+          en: Ikrandraco
+          zh: Ikrandraco
+        context:
+          zh: 返回记录父级的阅读入口，保留各出现与采集记录的范围。
+          en: Return to the recorded parent reading route, retaining occurrence and collection scope.
+  atlas-node:
+    name: Ikrandraco avatar
+    commonName: Ikrandraco avatar
+    commonNameZh: Ikrandraco avatar
+    rank: species
+    taxonId: txn:340925
+    firstAppearance: 121.4
+    lastAppearance: 113.2
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  ranges:
+    - entityId: txn:340925
+      rangeKind: global-composite
+      taxonomicConcept: Ikrandraco avatar
+      geographicScope: PBDB database represented occurrences, not a complete geographic distribution
+      olderMa: 121.4
+      youngerMa: 113.2
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: PBDB first-occurrence bracket 121.4–113.2 Ma and last-occurrence bracket 121.4–113.2 Ma. Database summary uses all represented occurrences, while reader paragraphs explicitly use the eligible subset. Neither is a direct specimen date, origin or extinction estimate.
+      evidenceBasis: Dated accepted-taxonomy app fields retained in P5-42 source snapshots; database-derived appearance brackets.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+          locator: P5-42 accepted hierarchy oid txn:340925; fea/fla/lea/lla in retained taxa response.
+      evidenceLevel: database-derived

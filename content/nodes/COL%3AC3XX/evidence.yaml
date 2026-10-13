@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloe petrophila Pillans
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage C3XX, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage C3XX; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/C3XX
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage C3XX
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000758660-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL C3XX / WFO wfo-0000758660
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13236_0
+        referenceId: ref-4e1f793f-f50b-865d-ac17-a11eeda46a6e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe petrophila Pillans account; SANBI/WFO archive rows 79361 (Morphology), 78833 (Habitat), source identifier 13236.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Plants small, acaulescent, rarely 5-8 cm caulescent, solitary, or with a few offsets from base forming small groups. Leaves 10-20, densely rosulate, spreading, slightly recurved towards apex, 20-25 cm long, 5-6 cm broad, oblong-lanceolate, acuminate; upper surface rather flat in lower half, slightly concave upwards, bright green with scattered elongated 'H' shaped dull white spots, and linear greenish-white lines; lower surface convex, pale green with numerous pale green specks and linear green lines; margins sinuate-dentate, the teeth 3-5 mm long, spreading, deltoid, pungent, dark brown, 8-12 mm distant. Inflorescence a branched more or less corymbose panicle, 3-6-branched usually above the middle, mostly 50 cm high, sometimes reaching 75 cm, the branches and branchlets arcuate-ascending, the lowest branches subtended at base by a lanceolate-attenuate papery bract 5-8 cm long. Peduncle reddish-green, covered with a waxy bloom. Racemes densely capitate, corymbose (flat topped), about 20-30-flowered, 4-8 cm long, 5-6 cm diam.; the buds white striped with greenish tips, the mature flowers coral-pink. Bracts lanceolate-acuminate, very thin, dry, white, about 7 mm long, 3-5-nerved, Pedicels lowest of terminal racemes up to 15 mm long. Perianth mostly 28 mm long, with 7 mm diam. sub-globose basal swelling, constricted above the ovary to 4 mm, thence slightly decurved and enlarging towards the throat, distinctly compressed laterally; outer segments free for 8 mm, with whitish margins, obscurely 3-nerved, the nerves greenish at apex; inner segments dorsally adnate to the outer for their greater length, obscurely 3-nerved, broader and with more obtuse apices than the outer. Filaments the 3 inner narrower and lengthening in advance of the 3 outer, pale lemon. Anthers the 3 inner and 3 outer in turn exserted 1-3 mm Style deeper lemon coloured than the filaments. Stigma exserted 1-3 mm. Ovary 5.5 mm long, 2-7 mm diam., finely 6-grooved, green. Note: The leaf sap is greenish, and does not change colour after drying for a few days."
+            textZh: Aloe petrophila Pillans 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Morphology row 79361; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: This 'rock loving' species is fittingly named since its natural home is on vertical rock faces. It grows in scanty soil, mostly in rock crevices, or in shallow pockets. Under these conditions, plants are rather small and appear to be starved.
+            textZh: 该 SANBI 区域物种条目记录的生境：This 'rock loving' species is fittingly named since its natural home is on vertical rock faces. It grows in scanty soil, mostly in rock crevices, or in shallow pockets. Under these conditions, plants are rather small and appear to be starved.
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Habitat row 78833; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Zentrygon albifacies
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Zentrygon albifacies
+      en: Zentrygon albifacies
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetZentrygonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-119e09619e
+            part: body
+          en:
+            page: en
+            section: s-7e7103cedb
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetZentrygonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-e8bd9b9e53
+            part: body
+          en:
+            page: en
+            section: s-8ae2211e48
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetZentrygonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-2452583d91
+            part: body
+          en:
+            page: en
+            section: s-9c4fdd7587
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetZentrygonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-47845c7c06
+            part: body
+          en:
+            page: en
+            section: s-ba229844ea
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetZentrygonHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-bc47d6b772
+            part: body
+          en:
+            page: en
+            section: s-516f832615
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Zentrygon albifacies
+          url: https://www.checklistbank.org/dataset/316115/taxon/5D2LT
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetZentrygonHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Zentrygon historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 1849–1856; each eBird and BirdTree crosswalk, ze/ge COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：旧 Geotrygon 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Eight historical rows: retain older Geotrygon combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-c7515e4c47
+        part: body
+      en:
+        page: en
+        section: s-9047158fd0
+        part: body

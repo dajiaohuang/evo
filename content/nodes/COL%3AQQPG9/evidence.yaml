@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nymphargus lindae Guayasamin, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nymphargus lindae
+      zh: Nymphargus lindae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d4e848d957
+            part: title
+          zh:
+            page: zh
+            section: s-47aea45513
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d4e848d957
+            part: body
+          zh:
+            page: zh
+            section: s-47aea45513
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5b993ccd57
+            part: title
+          zh:
+            page: zh
+            section: s-12b9ae906b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5b993ccd57
+            part: body
+          zh:
+            page: zh
+            section: s-12b9ae906b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2502cf9391
+            part: title
+          zh:
+            page: zh
+            section: s-fd670bf55c
+            part: title
+        sourceIds:
+          - primary-pmc13061190-qqpg9
+        text:
+          en:
+            page: en
+            section: s-2502cf9391
+            part: body
+          zh:
+            page: zh
+            section: s-fd670bf55c
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-db286f9b98
+            part: title
+          zh:
+            page: zh
+            section: s-254d1e490e
+            part: title
+        sourceIds:
+          - primary-pmc13061190-qqpg9
+        text:
+          en:
+            page: en
+            section: s-db286f9b98
+            part: body
+          zh:
+            page: zh
+            section: s-254d1e490e
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-e57fdb6b7e
+            part: title
+          zh:
+            page: zh
+            section: s-3565920972
+            part: title
+        sourceIds:
+          - primary-pmc13061190-qqpg9
+        text:
+          en:
+            page: en
+            section: s-e57fdb6b7e
+            part: body
+          zh:
+            page: zh
+            section: s-3565920972
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nymphargus lindae
+          url: https://www.checklistbank.org/dataset/316115/taxon/QQPG9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc13061190-qqpg9
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nymphargus lindae: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c0e8c4bb46
+        part: body
+      zh:
+        page: zh
+        section: s-b2894b2aca
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0345097
+        referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+        sourceKey: primary-pmc13061190-qqpg9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13061190/article.xml
+        sourceConcept: Exact frozen accepted name matched to source diagnostic comparison/sampled lineage; qualified candidates and disputed donors kept separately
+        evidenceRead: "Nymphargus lindae: MainXMLparagraphs/Tables1–2/captions;S1TablePDFallcells andS1AppendixPDFbothpages visuallyread;S1nuclear-tree originalpixels/donorlabels/selectednodevalues inspected;mainfigurepixels/rawdatasets/audio/museumvouchersunreviewed;no fullarticle orfullbiologicalreadercertification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A diagnostic comparison with the El Quimi glassfrog
+              zh: 与El Quimi玻璃蛙的鉴别比较
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-qqpg9
+            locator: PMC13061190 XMLsec018 paragraphs1–2 comparative diagnosis
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-86a3c99a93
+                part: body
+              zh:
+                page: zh
+                section: s-91cf132c1c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: The sampled relationship retains support and label limits
+              zh: 采样关系保留支持与标签限制
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-qqpg9
+            locator: PMC13061190 XMLsec012/026;Fig1/2 captions;S1Fig caption (pixels not inspected)
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-95f8448748
+                part: body
+              zh:
+                page: zh
+                section: s-3a9a47a829
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: What the shared study can support
+              zh: 共享研究能够支持的内容
+            referenceId: ref-c9ff55b3-dec7-4a27-aa43-85dfc45f7682
+            sourceKey: primary-pmc13061190-qqpg9
+            locator: PMC13061190 XMLsec004/007/008/009/012;sec027 supplementary captions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a49d8e201a
+                part: body
+              zh:
+                page: zh
+                section: s-09309dd4d0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

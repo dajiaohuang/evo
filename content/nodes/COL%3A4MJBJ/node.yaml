@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis carvalhoi
+  displayName: Pristimantis carvalhoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJBJ
+  sourceIndexes:
+    - name:
+        en: Pristimantis carvalhoi
+        zh: Pristimantis carvalhoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJBJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/184
+            queryName: Pristimantis carvalhoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/56
+            queryName: Eleutherodactylus carvalhoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e8394e55c
+      - s-518b5cf90e
+      - s-47a1b279f0
+      - s-d68692357d
+      - s-81e57d701a
+      - s-8a425d2e06
+      - s-07ce969cbe
+      - s-98616d24a5
+      - s-390f3503b8
+      - s-7e2bb9cc2c
+      - s-82e71ffeef
+      - s-3d0ab3e28a
+      - s-55fc8279a8
+      - s-1bc056a565
+      - s-c8131f0ddd
+      - s-1a60b5d9b9
+      - s-2cbd7271e1
+      - s-c2f5ead866
+      - s-88045eb27d
+      - s-356dbb9691
+      - s-5e395ac1b7
+    zh:
+      - s-1da7d64690
+      - s-19caf33295
+      - s-aa2f0c0bb0
+      - s-dd404b8c0d
+      - s-1bcee737c2
+      - s-316ac9a53e
+      - s-64d81218c5
+      - s-7af04e9841
+      - s-fda39a14f4
+      - s-cef5f815b4
+      - s-ee2f3b9965
+      - s-9e6064821b
+      - s-9ab8700ae5
+      - s-48d62eb1e5
+      - s-1379a159bd
+      - s-d6d22d7a8c
+      - s-f54ccff3cb
+      - s-4c0bb71473
+      - s-61b526b3a6
+      - s-47af24d831
+      - s-c7c904803d

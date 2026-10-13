@@ -1,0 +1,323 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caecilia museugoeldi Maciel & Hoogmoed, 2018
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Caecilia museugoeldi
+      zh: Caecilia museugoeldi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-adf811c5a6
+            part: title
+          zh:
+            page: zh
+            section: s-00f0a1adf2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-adf811c5a6
+            part: body
+          zh:
+            page: zh
+            section: s-00f0a1adf2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-46861fcb0a
+            part: title
+          zh:
+            page: zh
+            section: s-971428a0ec
+            part: title
+        text:
+          en:
+            page: en
+            section: s-46861fcb0a
+            part: body
+          zh:
+            page: zh
+            section: s-971428a0ec
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ed17480339
+            part: title
+          zh:
+            page: zh
+            section: s-50e8e753e3
+            part: title
+        sourceIds:
+          - caeciliantraits
+          - amphibian-morphology
+          - huang-2023-methods
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-ed17480339
+            part: body
+          zh:
+            page: zh
+            section: s-50e8e753e3
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-f7fa2b9327823afeb7dcd6f9
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-779a0496ef04f6fba64fd45d
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ef8d69655b
+            part: title
+          zh:
+            page: zh
+            section: s-921f3779e8
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-ef8d69655b
+            part: body
+          zh:
+            page: zh
+            section: s-921f3779e8
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1a79bb8539
+            part: title
+          zh:
+            page: zh
+            section: s-3cbeff4d20
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-1a79bb8539
+            part: body
+          zh:
+            page: zh
+            section: s-3cbeff4d20
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2d68136acf
+            part: title
+          zh:
+            page: zh
+            section: s-10627c7b7e
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-2d68136acf
+            part: body
+          zh:
+            page: zh
+            section: s-10627c7b7e
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-38c41c6487
+            part: title
+          zh:
+            page: zh
+            section: s-306b4a56c2
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-38c41c6487
+            part: body
+          zh:
+            page: zh
+            section: s-306b4a56c2
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        sourceReaderKind: additional-deposited-traits
+        title:
+          en:
+            page: en
+            section: s-dacdc50b2d
+            part: title
+          zh:
+            page: zh
+            section: s-b46d6bb443
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-dacdc50b2d
+            part: body
+          zh:
+            page: zh
+            section: s-b46d6bb443
+            part: body
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Caecilia museugoeldi
+          url: https://www.checklistbank.org/dataset/316115/taxon/P7SZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 26; Individual level data rows 1413; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 24; Reference.csv rows 4323
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e879673cd3
+        part: body
+      zh:
+        page: zh
+        section: s-7ceabd5446
+        part: body
+    additionalTraitSources:
+      - kind: caecilian-traits-reader
+        path: content/nodes/local-f7fa2b9327823afeb7dcd6f9
+        scientificName: Caecilia museugoeldi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 3
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-779a0496ef04f6fba64fd45d
+        scientificName: Caecilia museugoeldi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2

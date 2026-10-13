@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrophryniscus carvalhoi
+  displayName: Dendrophryniscus carvalhoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34RLF
+  sourceIndexes:
+    - name:
+        en: Dendrophryniscus carvalhoi
+        zh: Dendrophryniscus carvalhoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34RLF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/318
+            queryName: Dendrophryniscus carvalhoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ee529f87a4
+      - s-0cce47f50e
+      - s-77f8d2f5b2
+      - s-94fd1eedf7
+      - s-cd0850f659
+      - s-e32693fb3a
+      - s-20345c2b05
+      - s-9fa79c125a
+      - s-72375a0ae9
+      - s-79cc370fad
+      - s-0719a3c4d8
+      - s-f8e6f5d631
+      - s-4081f329ef
+      - s-f32ed99cb7
+    zh:
+      - s-33a1b3e9cb
+      - s-f78a047d45
+      - s-e534f0989d
+      - s-ed635d1dd6
+      - s-9ed184aa10
+      - s-dc1cc9c4fa
+      - s-01efa34e10
+      - s-da54acbab0
+      - s-1da216907f
+      - s-213a4f78cb
+      - s-1abdbf3371
+      - s-dcdaabe367
+      - s-70a8024d53
+      - s-f4bc0acdbe

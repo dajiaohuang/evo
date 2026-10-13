@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus riveroi
+  displayName: Leptodactylus riveroi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN7J
+  sourceIndexes:
+    - name:
+        en: Leptodactylus riveroi
+        zh: Leptodactylus riveroi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN7J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/433
+            queryName: Leptodactylus riveroi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0a09c8f392
+      - s-2a0e3b175b
+      - s-2adf6471c6
+      - s-0c86cb1d7b
+      - s-e5a0052b07
+      - s-c7a616aa8e
+      - s-313d978275
+      - s-1df5419c86
+      - s-3fdfe65cfa
+      - s-8c433389f9
+      - s-e3be55b582
+      - s-430e4db38e
+      - s-793bc58139
+      - s-0816f9fbca
+    zh:
+      - s-d9ff41419c
+      - s-4b9d691ba2
+      - s-015829391b
+      - s-0641dbee1c
+      - s-8310d08569
+      - s-5e09984022
+      - s-c979579fd3
+      - s-4193aa8194
+      - s-b9f137be4f
+      - s-62946b06af
+      - s-fde40dd338
+      - s-94f2a80a45
+      - s-bf52d30232
+      - s-2594d97c8f

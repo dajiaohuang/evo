@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sachatamia ilex
+  displayName: Sachatamia ilex
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4TXDP
+  sourceIndexes:
+    - name:
+        en: Sachatamia ilex
+        zh: Sachatamia ilex
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4TXDP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/427
+            queryName: Sachatamia ilex
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/472
+            queryName: Centrolene ilex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/113
+            queryName: Centrolenella ilex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-52a2914f79
+      - s-fc8a82bedc
+      - s-d00e6a3efe
+      - s-92f576c8b1
+      - s-323463be36
+      - s-69849ebcdd
+      - s-19d4545228
+      - s-d8c58d98e5
+      - s-7bec4867c3
+    zh:
+      - s-2499620ddc
+      - s-772478b310
+      - s-7f60320001
+      - s-3920fb31bc
+      - s-282bbdbaba
+      - s-cb64424715
+      - s-96b4d3a716
+      - s-20925938f5
+      - s-782c9a6099

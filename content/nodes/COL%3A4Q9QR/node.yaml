@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena longirostris
+  displayName: Ptychadena longirostris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9QR
+  sourceIndexes:
+    - name:
+        en: Ptychadena longirostris
+        zh: Ptychadena longirostris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9QR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/476
+            queryName: Ptychadena longirostris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/4
+            queryName: Rana longirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/5
+            queryName: Rana leonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/6
+            queryName: Rana guerzea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/7
+            queryName: Rana leonnensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ec29d26c5
+      - s-c81645fea5
+      - s-a0cbe0cfab
+      - s-373005781e
+      - s-c01b150070
+      - s-0920c1d699
+      - s-0c19c74fda
+      - s-f0e068aac3
+      - s-2320871b6f
+      - s-847e80ed14
+      - s-9db97e1150
+    zh:
+      - s-363a923d68
+      - s-06e9c5fb2b
+      - s-831265a941
+      - s-304b4abf39
+      - s-e77c47ec87
+      - s-fcbffca0f1
+      - s-2691a5620f
+      - s-cf32f98bfc
+      - s-f3eda9b5f3
+      - s-f70cb576f0
+      - s-443702049b

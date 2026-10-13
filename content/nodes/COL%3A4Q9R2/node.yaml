@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena nana
+  displayName: Ptychadena nana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9R2
+  sourceIndexes:
+    - name:
+        en: Ptychadena nana
+        zh: Ptychadena nana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9R2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/482
+            queryName: Ptychadena nana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/26
+            queryName: Rana nana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-438e676127
+      - s-e114fd6ef2
+      - s-c37f3e999a
+      - s-952f1dc2c3
+      - s-8e220daf78
+      - s-424e4f77c8
+      - s-cf75b66a97
+      - s-0a9eda026a
+      - s-cc09625e6c
+      - s-0de7be8bf2
+      - s-a13085903c
+      - s-8e0b404319
+      - s-9c8479d302
+      - s-550e3befb7
+      - s-cb1f297c24
+      - s-ecbd0ea8f3
+      - s-0f888ba87b
+      - s-937b838137
+      - s-4e615c801b
+    zh:
+      - s-3aef1feec8
+      - s-915b8bc2da
+      - s-49548f9907
+      - s-eee61bae3b
+      - s-110d064ddd
+      - s-23eb1c05da
+      - s-108723e901
+      - s-76c41fd8d7
+      - s-5c9d05d91c
+      - s-9f2e05159d
+      - s-48580df79e
+      - s-163595ea44
+      - s-540b401544
+      - s-46a90497dd
+      - s-b4d4f2050f
+      - s-25fd6b40c7
+      - s-00e380d6ab
+      - s-bdd925b233
+      - s-0b6193a362

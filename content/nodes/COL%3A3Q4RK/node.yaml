@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema erythromera
+  displayName: Ischnocnema erythromera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4RK
+  sourceIndexes:
+    - name:
+        en: Ischnocnema erythromera
+        zh: Ischnocnema erythromera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4RK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/14
+            queryName: Ischnocnema erythromera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/349
+            queryName: Eleutherodactylus erythromerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-07c0ef06be
+      - s-5add7af616
+      - s-0a86b9c7f7
+      - s-c5ec2f9362
+      - s-bef63ed9a8
+      - s-dd27f27578
+      - s-d5066904d7
+      - s-f1c21905e1
+      - s-590db6ed6f
+      - s-1b4c0de33a
+      - s-eaf2e0a102
+      - s-44d94713f1
+    zh:
+      - s-d9763eded6
+      - s-9034bcdb86
+      - s-92136d5271
+      - s-55aade68cf
+      - s-0400fd5e29
+      - s-4a3a65676c
+      - s-26e34133e6
+      - s-8d1c14477a
+      - s-0ca741a22d
+      - s-63a2c3981f
+      - s-2300ece1b4
+      - s-2102478ebd

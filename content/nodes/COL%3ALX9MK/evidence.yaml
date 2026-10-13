@@ -1,0 +1,326 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys puningensis Wang, Zeng, Lyu, Xiao & Wang, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys puningensis
+      zh: Boulenophrys puningensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e83f2b30bc
+            part: title
+          zh:
+            page: zh
+            section: s-96a4ea398e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e83f2b30bc
+            part: body
+          zh:
+            page: zh
+            section: s-96a4ea398e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a26487908c
+            part: title
+          zh:
+            page: zh
+            section: s-6b4f7b866b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a26487908c
+            part: body
+          zh:
+            page: zh
+            section: s-6b4f7b866b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-bb317f892d
+            part: title
+          zh:
+            page: zh
+            section: s-3e660eb8ad
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9mk
+        text:
+          en:
+            page: en
+            section: s-bb317f892d
+            part: body
+          zh:
+            page: zh
+            section: s-3e660eb8ad
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b45621448c
+            part: title
+          zh:
+            page: zh
+            section: s-e32358c91e
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9mk
+        text:
+          en:
+            page: en
+            section: s-b45621448c
+            part: body
+          zh:
+            page: zh
+            section: s-e32358c91e
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-27211f656f
+            part: title
+          zh:
+            page: zh
+            section: s-f8f76f450f
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9mk
+        text:
+          en:
+            page: en
+            section: s-27211f656f
+            part: body
+          zh:
+            page: zh
+            section: s-f8f76f450f
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d0efea83d9
+            part: title
+          zh:
+            page: zh
+            section: s-6843cf45d5
+            part: title
+        sourceIds:
+          - primary-pmc12466624-lx9mk
+        text:
+          en:
+            page: en
+            section: s-d0efea83d9
+            part: body
+          zh:
+            page: zh
+            section: s-6843cf45d5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys puningensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/LX9MK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10083232-lx9mk
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys puningensis: Named species type material, specimens examined, diagnosis, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-lx9mk
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys puningensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-15b1c058ca
+        part: body
+      zh:
+        page: zh
+        section: s-1fe4442981
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-lx9mk
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys puningensis
+        evidenceRead: "Boulenophrys puningensis: Named species type material, specimens examined, diagnosis, distribution and applicable remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Longkeng type-locality records
+              zh: 龙坑模式地点记录
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9mk
+            locator: RESULTS > Boulenophrys puningensis; Holotype and Distribution; reading-sections index 67, section s03.83
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-552ea45057
+                part: body
+              zh:
+                page: zh
+                section: s-0856182dc1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Six examined adults
+              zh: 六只检查成体
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9mk
+            locator: RESULTS > Boulenophrys puningensis; Specimens examined and Diagnosis character 1; reading-sections index 67, section s03.83
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7bdcc94c0b
+                part: body
+              zh:
+                page: zh
+                section: s-bb16247dac
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Spiny tubercles and male nuptial pads
+              zh: 具刺疣粒与雄性婚垫
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9mk
+            locator: RESULTS > Boulenophrys puningensis; Diagnosis characters 4, 5, 9 and 11; reading-sections index 67, section s03.83
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e672f8c5d2
+                part: body
+              zh:
+                page: zh
+                section: s-ef28eb808a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-lx9mk
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys puningensis
+        evidenceRead: "Boulenophrys puningensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-lx9mk
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,36
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6f7a04b212
+                part: body
+              zh:
+                page: zh
+                section: s-6400536f54
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

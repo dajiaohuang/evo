@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paramesotriton zhijinensis
+  displayName: Paramesotriton zhijinensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4D37C
+  sourceIndexes:
+    - name:
+        en: Paramesotriton zhijinensis
+        zh: Paramesotriton zhijinensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4D37C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/422
+            queryName: Paramesotriton zhijinensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d0683c6c19
+      - s-f305d7a003
+      - s-2a14be4dcf
+      - s-b6b4ff7623
+      - s-b05cfc106b
+      - s-4ea58c7137
+      - s-aac111ae9e
+      - s-3bc4a5f117
+      - s-04563c6f05
+    zh:
+      - s-6fcd0268c4
+      - s-54cb7c7cca
+      - s-1067b73926
+      - s-df35e9b68b
+      - s-89a1fbcd63
+      - s-edcd9f4947
+      - s-b631d39015
+      - s-185c09cec3
+      - s-1c632c6049

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paratelmatobius
+  displayName: Paratelmatobius
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6H4F
+  sourceIndexes:
+    - name:
+        en: Paratelmatobius
+        zh: Paratelmatobius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6H4F
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/137
+            queryName: Paratelmatobius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e0bed60d8
+      - s-e4303196cd
+      - s-5a43d769ff
+      - s-fb230b854d
+      - s-af474876e6
+      - s-541703b6d4
+      - s-014cc25a27
+      - s-beef1e2554
+      - s-27db1f8943
+      - s-3c4f3b6d00
+      - s-cee6c185b9
+    zh:
+      - s-516aef8f41
+      - s-026443dfcc
+      - s-c656019208
+      - s-6688765e92
+      - s-109d4905c5
+      - s-8b565389a7
+      - s-3c697df2d6
+      - s-a6d41d75a8
+      - s-3a232cc4cd
+      - s-9106f72f74
+      - s-9f90e23a8e

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus aporostegus
+  displayName: Eleutherodactylus aporostegus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39922
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus aporostegus
+        zh: Eleutherodactylus aporostegus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "39922"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/155
+            queryName: Eleutherodactylus aporostegus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/3
+            queryName: Eleutherodactylus ruthae aporostegus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a5de93cb12
+      - s-5b7f4256b1
+      - s-0668cbcd0d
+      - s-da94885b0d
+      - s-9ce0b71da7
+      - s-f5573f5c52
+      - s-aa163c74f2
+      - s-4face69844
+    zh:
+      - s-93fe8e625d
+      - s-e37689f57a
+      - s-8a731b1b15
+      - s-4f1438fe20
+      - s-be692acde1
+      - s-8a9c071fbf
+      - s-e872d760ab
+      - s-7a83388b7c

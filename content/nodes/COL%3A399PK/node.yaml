@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus ronaldi
+  displayName: Eleutherodactylus ronaldi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399PK
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus ronaldi
+        zh: Eleutherodactylus ronaldi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399PK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/315
+            queryName: Eleutherodactylus ronaldi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e82425de32
+      - s-9ab4e472b8
+      - s-e452ba73e4
+      - s-5038a2af94
+      - s-f71b0684eb
+      - s-a7c8559820
+      - s-0f68ed4501
+      - s-72f34caeb3
+      - s-73693486da
+      - s-c5b0d9cfa1
+    zh:
+      - s-30fb53ac09
+      - s-7ab2cf275e
+      - s-f1e4b9559c
+      - s-26e2c64805
+      - s-7c18402868
+      - s-fb19b68d15
+      - s-617c1ecdf8
+      - s-1c13dcbfd3
+      - s-d0813f86f1
+      - s-bfa199d48a

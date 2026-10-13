@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Occidozyga baluensis
+  displayName: Occidozyga baluensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48BSB
+  sourceIndexes:
+    - name:
+        en: Occidozyga baluensis
+        zh: Occidozyga baluensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48BSB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/458
+            queryName: Occidozyga baluensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/160
+            queryName: Oreobatrachus baluensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/161
+            queryName: Phrynoglossus baluensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/162
+            queryName: Ooeidozyga baluensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5f38ff8e09
+      - s-209fb76aa6
+      - s-06d2fd32d5
+      - s-b27c881e66
+      - s-5ca72b8a58
+      - s-0d18a85a63
+      - s-01a0bd748e
+      - s-7c404919aa
+      - s-1da5f645d4
+      - s-9592ade784
+    zh:
+      - s-79fa0519d8
+      - s-c6ef6d44fd
+      - s-a8f49fe48a
+      - s-454ea25147
+      - s-f01db05596
+      - s-168e633e60
+      - s-3ca4c9dc29
+      - s-85776be214
+      - s-91bbed910e
+      - s-437ef2da10

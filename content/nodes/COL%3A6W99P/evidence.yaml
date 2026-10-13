@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Presbytis bicolor Aimi & Bakar, 1992
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 黑白叶猴
+      en: Black-and-white Langur
+    sections:
+      - topic: distribution_habitat
+        text:
+          zh:
+            page: zh
+            section: s-a4401484c4
+            part: body
+          en:
+            page: en
+            section: s-99cbdb0759
+            part: body
+        sourceIds:
+          - taxonomy
+          - iqbal2023
+      - topic: feeding
+        text:
+          zh:
+            page: zh
+            section: s-a272781c6a
+            part: body
+          en:
+            page: en
+            section: s-4c40c5b79f
+            part: body
+        sourceIds:
+          - iqbal2023
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Presbytis bicolor Aimi & Bakar, 1992
+          url: https://www.checklistbank.org/dataset/316115/taxon/6W99P
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-bcaf4ffc-7837-8a24-af34-f46c5db227b2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页采用的英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine the COL26.8 accepted classification.
+      - id: iqbal2023
+        referenceId: ref-e9b67f9d-3088-84db-ab62-51e78370a664
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持作者汇总的 2016—2022 年历史地点、观察记录和局地取食观察；不代表持续监测或全种食谱。
+            en: Supports historical localities, observations and local feeding records compiled by the authors for 2016–2022; not continuous monitoring or a species-wide diet.
+    limitations:
+      zh:
+        page: zh
+        section: s-524704d07a
+        part: body
+      en:
+        page: en
+        section: s-48a8b6cfb0
+        part: body

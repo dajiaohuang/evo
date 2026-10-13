@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis bottae
+  displayName: Boophis bottae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PLT
+  sourceIndexes:
+    - name:
+        en: Boophis bottae
+        zh: Boophis bottae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PLT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/241
+            queryName: Boophis bottae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-02631da03c
+      - s-67839b868f
+      - s-763d1b9f0c
+      - s-e0489989e9
+      - s-5779d40e0f
+      - s-cd13ff40e0
+      - s-9da260754b
+      - s-7d55882899
+      - s-1bbf088565
+      - s-17a2532b78
+      - s-8437d6aaf0
+      - s-8112ef965d
+      - s-1e814a41ee
+      - s-c1b2fe9f7f
+      - s-49b522a83e
+    zh:
+      - s-6e6ccb76c1
+      - s-5573b06ced
+      - s-bca369ad98
+      - s-8b2308130d
+      - s-28392d5646
+      - s-789c31b63c
+      - s-92d5239025
+      - s-7c9d17dd60
+      - s-ecd6dcd3a0
+      - s-d1b8d42fb3
+      - s-2df7cf6bfd
+      - s-5385c487f1
+      - s-4edf76c55f
+      - s-fbe3823226
+      - s-a0b16f33b5

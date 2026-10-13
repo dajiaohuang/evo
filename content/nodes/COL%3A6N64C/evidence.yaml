@@ -1,0 +1,444 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ichthyophis javanicus Taylor, 1960
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ichthyophis javanicus
+      zh: Ichthyophis javanicus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cf22285def
+            part: title
+          zh:
+            page: zh
+            section: s-8c87d36344
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cf22285def
+            part: body
+          zh:
+            page: zh
+            section: s-8c87d36344
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c829a3a432
+            part: title
+          zh:
+            page: zh
+            section: s-108261c03d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c829a3a432
+            part: body
+          zh:
+            page: zh
+            section: s-108261c03d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f4fe286426
+            part: title
+          zh:
+            page: zh
+            section: s-de390d3655
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-f4fe286426
+            part: body
+          zh:
+            page: zh
+            section: s-de390d3655
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e52c12d5a1
+            part: title
+          zh:
+            page: zh
+            section: s-bcb4891cc4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-e52c12d5a1
+            part: body
+          zh:
+            page: zh
+            section: s-bcb4891cc4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d8da23644b
+            part: title
+          zh:
+            page: zh
+            section: s-7ca6983932
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-d8da23644b
+            part: body
+          zh:
+            page: zh
+            section: s-7ca6983932
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ebdee0c892
+            part: title
+          zh:
+            page: zh
+            section: s-62d4609228
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-ebdee0c892
+            part: body
+          zh:
+            page: zh
+            section: s-62d4609228
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3fea5a273e
+            part: title
+          zh:
+            page: zh
+            section: s-abf5c8729b
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - caeciliantraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3fea5a273e
+            part: body
+          zh:
+            page: zh
+            section: s-abf5c8729b
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-01aa80ea08ce376760bc5359f81b1d2f
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-687816eec871b4c34bea65c0
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bfed0eb6df
+            part: title
+          zh:
+            page: zh
+            section: s-966bc2c6d8
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-bfed0eb6df
+            part: body
+          zh:
+            page: zh
+            section: s-966bc2c6d8
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-95d63aef4a
+            part: title
+          zh:
+            page: zh
+            section: s-5921f7c1f3
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-95d63aef4a
+            part: body
+          zh:
+            page: zh
+            section: s-5921f7c1f3
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-a141a73198
+            part: title
+          zh:
+            page: zh
+            section: s-64fd368cab
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-a141a73198
+            part: body
+          zh:
+            page: zh
+            section: s-64fd368cab
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b118d5709a
+            part: title
+          zh:
+            page: zh
+            section: s-3578940280
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-b118d5709a
+            part: body
+          zh:
+            page: zh
+            section: s-3578940280
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en:
+            page: en
+            section: s-333f1cf2b0
+            part: title
+          zh:
+            page: zh
+            section: s-11e847cd26
+            part: title
+        text:
+          en:
+            page: en
+            section: s-333f1cf2b0
+            part: body
+          zh:
+            page: zh
+            section: s-11e847cd26
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ichthyophis javanicus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6N64C
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6739; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6734 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 126; Individual level data rows 472; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-955aae6889
+        part: body
+      zh:
+        page: zh
+        section: s-80fdeff113
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-01aa80ea08ce376760bc5359f81b1d2f
+      sourceRowId: Anf6739
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6739
+        bibliographyRowId: Anf6734
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Ichthyophis longicephalus
+        candidateBibliographyRowIds:
+          - Anf6734
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: caecilian-traits-reader
+        path: content/nodes/local-687816eec871b4c34bea65c0
+        scientificName: Ichthyophis javanicus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 5

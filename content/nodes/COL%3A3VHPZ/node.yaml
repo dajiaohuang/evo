@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates forreri
+  displayName: Lithobates forreri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHPZ
+  sourceIndexes:
+    - name:
+        en: Lithobates forreri
+        zh: Lithobates forreri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHPZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/171
+            queryName: Lithobates forreri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/218
+            queryName: Rana forreri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/297
+            queryName: Rana halecina forreri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/298
+            queryName: Rana berlandieri forreri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d0f3d5d66d
+      - s-b7126561af
+      - s-b763c6c93d
+      - s-001bdfd39e
+      - s-046d97622d
+      - s-4c39c343f2
+      - s-20ebeca762
+      - s-670b3b2de8
+      - s-8924b93d7c
+      - s-d9445eaeb2
+      - s-36baf11ed9
+      - s-1c5f6adf6f
+      - s-345f49458c
+      - s-214ea31abd
+      - s-5a36725e04
+      - s-eb2f60cb56
+      - s-0de8138cf6
+    zh:
+      - s-a2e952fba1
+      - s-5b89aa97fe
+      - s-4551d6ef57
+      - s-2629bc4306
+      - s-2a97b46d72
+      - s-0ad455dff7
+      - s-308a19b7ba
+      - s-4f71f81e4c
+      - s-fa5a958573
+      - s-b2c0f9855f
+      - s-6e740b8309
+      - s-8ad7ad37f2
+      - s-df72a40bcc
+      - s-e52dbc5e5c
+      - s-b1adc5d427
+      - s-3cdea385d6
+      - s-49ff64fb21

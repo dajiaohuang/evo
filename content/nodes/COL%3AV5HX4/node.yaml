@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllonastes arutam
+  displayName: Phyllonastes arutam
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5HX4
+  sourceIndexes:
+    - name:
+        en: Phyllonastes arutam
+        zh: Phyllonastes arutam
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5HX4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/283
+            queryName: Phyllonastes arutam
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/274
+            queryName: Noblella arutam
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6219bd84c8
+      - s-a736190559
+      - s-50f004d01f
+      - s-9189533d9d
+      - s-63433467aa
+      - s-04754853dd
+      - s-808a80b4ff
+      - s-0c82de6ee3
+      - s-bf6af47228
+      - s-d0fcec2987
+      - s-48fe7ae452
+      - s-0b1e7048e7
+      - s-75f76e02ea
+      - s-00b0b6cecf
+      - s-adaa6d719e
+      - s-282969bfc1
+      - s-8827979703
+      - s-dc1c3fa8df
+      - s-b2f453a5cf
+      - s-7164dfc488
+    zh:
+      - s-12d02e6bc0
+      - s-99a3732b63
+      - s-c7b64911de
+      - s-16e1a73d21
+      - s-e628b399cc
+      - s-dbdc1662f0
+      - s-a8a209c233
+      - s-64983d7787
+      - s-29d04e6ee3
+      - s-c752e77e22
+      - s-fdcaf72ab0
+      - s-975c57a28f
+      - s-0dc726ae1f
+      - s-4615afb65b
+      - s-3c97057af0
+      - s-aae2966046
+      - s-ed8c8a3ffa
+      - s-f62c850697
+      - s-21577ee774
+      - s-f39060d4d9

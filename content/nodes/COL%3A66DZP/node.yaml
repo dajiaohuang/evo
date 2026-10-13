@@ -1,0 +1,132 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops mantzorum
+  displayName: Amolops mantzorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DZP
+  sourceIndexes:
+    - name:
+        en: Amolops mantzorum
+        zh: Amolops mantzorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DZP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/383
+            queryName: Amolops mantzorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 45
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/407
+            queryName: Amolops kangtingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/238
+            queryName: Polypedates mantzorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/239
+            queryName: Rana jugans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/240
+            queryName: Staurois jugans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/241
+            queryName: Staurois mantzorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/242
+            queryName: Staurois kangtingensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 29
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/250
+            queryName: Amolops xinduqiao
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/276
+            queryName: Staurois mantzorum mantzorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d07447face
+      - s-85f2be889c
+      - s-5e2c18a1ce
+      - s-778a49f50b
+      - s-eaf5069f2e
+      - s-c85e84b6bf
+      - s-e64114e0c7
+      - s-e7fbb861c8
+      - s-09781572da
+      - s-85e5f26600
+      - s-16e32eaa63
+      - s-47977f4b0c
+      - s-97dc820d02
+      - s-b5fe42e067
+      - s-73b1c2d42b
+      - s-cd12ee0a12
+      - s-a26fb0fb9b
+      - s-0d3ec01c1e
+      - s-809f101cac
+      - s-c261a70853
+      - s-942018b2ff
+      - s-f4f18f407a
+    zh:
+      - s-9e046d9f78
+      - s-6e9833007f
+      - s-5be212c1b5
+      - s-455f743596
+      - s-4ba912e94b
+      - s-566d96decb
+      - s-a735e29dff
+      - s-975ebddc6a
+      - s-9acb726d82
+      - s-6fd4889927
+      - s-5222a6cd6f
+      - s-b73c35c59f
+      - s-34e5eb61a2
+      - s-328ce22f21
+      - s-8fa69cb9b2
+      - s-e51812a814
+      - s-7a25a1f3a7
+      - s-1b02050660
+      - s-190dade278
+      - s-848496052b
+      - s-84178c999f
+      - s-3ac9999ba9

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon aromothyella
+  displayName: Ololygon aromothyella
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74KHJ
+  sourceIndexes:
+    - name:
+        en: Ololygon aromothyella
+        zh: Ololygon aromothyella
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74KHJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/105
+            queryName: Ololygon aromothyella
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/235
+            queryName: Scinax aromothyella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-901794326a
+      - s-a5877911b1
+      - s-ece1347498
+      - s-859b1ef4cd
+      - s-b6c8e8be30
+      - s-b55c5fd1c3
+      - s-fee82255be
+      - s-74bbc5cbf5
+      - s-f8b81f5fe3
+      - s-d2c88e47ca
+      - s-79406c4669
+      - s-f56bf4089f
+      - s-e2ca264f3d
+    zh:
+      - s-0e8b3ebf29
+      - s-7cd714b873
+      - s-95e4a72041
+      - s-800ee97ad2
+      - s-e3d1bc680c
+      - s-48d7959af7
+      - s-403870a078
+      - s-35ec466123
+      - s-a16304163b
+      - s-5108050668
+      - s-75250fc461
+      - s-6c22d61a57
+      - s-eb146d5df0

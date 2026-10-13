@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius pickersgilli
+  displayName: Hyperolius pickersgilli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MPYX
+  sourceIndexes:
+    - name:
+        en: Hyperolius pickersgilli
+        zh: Hyperolius pickersgilli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MPYX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/312
+            queryName: Hyperolius pickersgilli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-561133bb7c
+      - s-18d3305a6d
+      - s-7cb09eddc5
+      - s-a0b939f6a5
+      - s-2930bbda2b
+      - s-f1c50bda91
+      - s-8a3661e5eb
+      - s-b7cfd3db85
+      - s-c5aaa8070b
+      - s-72a29528b7
+      - s-c44c0b0716
+      - s-8d6820ea73
+      - s-5ce007b1e3
+      - s-4c8a03ebbe
+      - s-1aee120e03
+    zh:
+      - s-c88b96a35b
+      - s-3f70a8ccc4
+      - s-e2683211c7
+      - s-67b1a59d7a
+      - s-c3cca55a11
+      - s-0275b04ddc
+      - s-3cd98b9d33
+      - s-cbf1c831d7
+      - s-905c9fcc66
+      - s-b908360ab2
+      - s-01f87ae9b6
+      - s-f050466a00
+      - s-871f62fe5f
+      - s-acfa4610cf
+      - s-cd3ef3097b

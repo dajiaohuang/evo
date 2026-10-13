@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Indirana brachytarsus
+  displayName: Indirana brachytarsus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PMW6
+  sourceIndexes:
+    - name:
+        en: Indirana brachytarsus
+        zh: Indirana brachytarsus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PMW6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/477
+            queryName: Indirana brachytarsus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/409
+            queryName: Polypedates brachytarsus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/410
+            queryName: Rana brachytarsus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/411
+            queryName: Ranixalus brachytarsus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c28906ac25
+      - s-9f2cb9e0bf
+      - s-5491d51e56
+      - s-a7dbb47d6b
+      - s-71807078a9
+      - s-c6c6488018
+      - s-fed5ec90e6
+      - s-9e3730bda0
+      - s-d6947be4f6
+    zh:
+      - s-186e5cdfed
+      - s-8f90e38621
+      - s-6182539326
+      - s-dc0737b93f
+      - s-f00f961150
+      - s-e43249580a
+      - s-bffa2321b0
+      - s-791e44b3a5
+      - s-c17a3523b2

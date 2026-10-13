@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-e99a848414
+      part: title
+    titleZh:
+      page: zh
+      section: s-4c01494911
+      part: title
+    category: ecological
+    startAge: 248
+    endAge: 248
+    regions:
+      - Majiashan Quarry, Chaohu, Anhui, China; Procolumbites Zone
+    clades:
+      - Chaohusaurus
+      - Ichthyosauromorpha
+    summary:
+      page: en
+      section: s-e99a848414
+      part: body
+    summaryZh:
+      page: zh
+      section: s-4c01494911
+      part: body
+    claimIds:
+      - claim:event:chaohusaurus-maternal-specimen
+    evidenceItems:
+      - statement: AGM I-1 contains a maternal skeleton, two embryos within the body and a neonate adjacent to the pelvis; one embryo is positioned head-first in the pelvic region.
+        relation: supports
+        claimIds:
+          - claim:event:chaohusaurus-maternal-specimen
+        referenceLinks:
+          - referenceId: motani-2014-chaohusaurus-viviparity
+            relation: supports
+            pages: e88640, Results
+            figure: Figures 1–3
+            quoteLocator: Maternal specimen AGM I-1; Embryonic identification
+    uncertaintyItems:
+      - statement: Head-first delivery and a terrestrial origin of viviparity are comparative interpretations of orientation and topology rather than behaviours or ancestral states directly observed in AGM I-1.
+        relation: contextualizes
+        claimIds:
+          - claim:event:chaohusaurus-maternal-specimen
+        referenceLinks:
+          - referenceId: motani-2014-chaohusaurus-viviparity
+            relation: supports
+            pages: e88640, Discussion
+            figure: Figure 4
+            quoteLocator: Evolution of reproductive strategy
+  claims:
+    - subjectId: event:chaohusaurus-maternal-specimen
+      claimKind: scientific
+      claimType: ecology
+      statement: Maternal specimen AGM I-1 directly documents pregnancy in Chaohusaurus through two embryos and an adjacent neonate, while head-first delivery and a terrestrial origin of viviparity remain orientation- and topology-based interpretations.
+      confidence: medium
+      confidenceRationale: Embryonic association and skeletal maturity criteria are described for a named specimen. Medium confidence separates those observations from broader reconstruction of birth mode and the ancestral setting of viviparity.
+      referenceLinks:
+        - referenceId: motani-2014-chaohusaurus-viviparity
+          relation: supports
+          pages: e88640
+          figure: Figures 1–4
+          quoteLocator: Results; Discussion
+  claim-rationales.zh:
+    - 具名标本的胚胎关联与骨骼成熟度标准均有描述。中等置信度把这些观察与对分娩方式及胎生祖先环境的更广泛重建分开。
+  claim-statements.zh:
+    - 巢湖鱼龙母体标本 AGM I-1 以两个胚胎和一个相邻新生个体直接记录妊娠；头先娩出及胎生的陆生起源仍是基于朝向与拓扑的解释。

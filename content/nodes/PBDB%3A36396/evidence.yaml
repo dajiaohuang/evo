@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Globidens
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Globidens
+      en: Globidens
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-728727e4f4
+            part: body
+          en:
+            page: en
+            section: s-757f5f5bc7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-eda8d69fd0
+            part: body
+          en:
+            page: en
+            section: s-69d43e9c18
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Globidens
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36396
+          locator: Recorded PBDB parent closure beneath the already documented Squamata COL-compatible storage anchor.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36396
+          readingTargets:
+            - name: Globidens phosphaticus
+              pbdbTaxonId: txn:199958
+              canonicalPath: content/nodes/PBDB%3A199958
+            - name: Globidens simplex
+              pbdbTaxonId: txn:476553
+              canonicalPath: content/nodes/PBDB%3A476553
+            - name: Globidens alabamensis
+              pbdbTaxonId: txn:128705
+              canonicalPath: content/nodes/PBDB%3A128705
+            - name: Globidens dakotensis
+              pbdbTaxonId: txn:216782
+              canonicalPath: content/nodes/PBDB%3A216782
+            - name: Globidens schurmanni
+              pbdbTaxonId: txn:216781
+              canonicalPath: content/nodes/PBDB%3A216781
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e735b519d7
+        part: body
+      en:
+        page: en
+        section: s-01d6ad9b7c
+        part: body

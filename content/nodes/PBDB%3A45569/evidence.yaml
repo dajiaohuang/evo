@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Turgidodon praesagus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Turgidodon praesagus
+      en: Turgidodon praesagus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-24270371ba
+            part: body
+          en:
+            page: en
+            section: s-a5bffa98f8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3d8be6919e
+            part: body
+          en:
+            page: en
+            section: s-7b2608e12e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e3221316f7
+            part: body
+          en:
+            page: en
+            section: s-cbf50a21a8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-32284b1406
+            part: body
+          en:
+            page: en
+            section: s-20aa96611d
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f8ca781946
+            part: body
+          en:
+            page: en
+            section: s-4a08c1e883
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Turgidodon praesagus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45569&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45569; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45569
+          selectedOccurrenceIds:
+            - occ:162745
+            - occ:162770
+            - occ:162887
+            - occ:162923
+            - occ:162938
+            - occ:464572
+            - occ:464581
+            - occ:464589
+            - occ:464644
+            - occ:1382893
+          selectedCollectionIds:
+            - col:14446
+            - col:14451
+            - col:14470
+            - col:14476
+            - col:14482
+            - col:45670
+            - col:45564
+            - col:45567
+            - col:45893
+            - col:189514
+          sourceReferenceIds:
+            - ref:3008
+            - ref:4218
+            - ref:2602
+            - ref:1515
+            - ref:11931
+            - ref:1517
+          originalIdentificationMappings:
+            - occurrenceId: occ:162745
+              originalIdentifiedName: Alphadon praesagus
+              acceptedName: Turgidodon praesagus
+              difference: recombined as
+            - occurrenceId: occ:162887
+              originalIdentifiedName: Alphadon praesagus
+              acceptedName: Turgidodon praesagus
+              difference: recombined as
+            - occurrenceId: occ:162923
+              originalIdentifiedName: Alphadon praesagus
+              acceptedName: Turgidodon praesagus
+              difference: recombined as
+            - occurrenceId: occ:162938
+              originalIdentifiedName: Alphadon praesagus
+              acceptedName: Turgidodon praesagus
+              difference: recombined as
+            - occurrenceId: occ:1382893
+              originalIdentifiedName: Alphadon praesagus
+              acceptedName: Turgidodon praesagus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-2838b96d61
+        part: body
+      en:
+        page: en
+        section: s-5d43281830
+        part: body

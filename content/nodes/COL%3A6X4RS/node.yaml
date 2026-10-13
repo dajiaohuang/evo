@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes manohari
+  displayName: Raorchestes manohari
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X4RS
+  sourceIndexes:
+    - name:
+        en: Raorchestes manohari
+        zh: Raorchestes manohari
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X4RS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/174
+            queryName: Raorchestes manohari
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b340ccd6a
+      - s-62f9809309
+      - s-ab55f38740
+      - s-287dfbba57
+      - s-e22c4f3488
+      - s-90f8fa6a77
+      - s-899a1d1d01
+      - s-67dfedd5f9
+      - s-46e513fd41
+      - s-c4689e3045
+      - s-b0201bfcb6
+      - s-5c041276da
+      - s-e5508d88a7
+    zh:
+      - s-df5d40bc18
+      - s-bd8fa88036
+      - s-8488852a89
+      - s-202a788910
+      - s-b01e608bf9
+      - s-c47dd1a37b
+      - s-53be3ab199
+      - s-c7a2766694
+      - s-9c7f1190f9
+      - s-dcd262e262
+      - s-0a00b27c49
+      - s-8c3f9f2cee
+      - s-3710a98644

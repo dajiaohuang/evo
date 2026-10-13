@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duellmanohyla salvavida
+  displayName: Duellmanohyla salvavida
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37ZHB
+  sourceIndexes:
+    - name:
+        en: Duellmanohyla salvavida
+        zh: Duellmanohyla salvavida
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37ZHB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/71
+            queryName: Duellmanohyla salvavida
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/298
+            queryName: Hyla salvavida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/299
+            queryName: Ptychohyla salvavida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-90d3dab8f6
+      - s-cd03544266
+      - s-45b04d7407
+      - s-9a5c2944bc
+      - s-73169e9b78
+      - s-0ea0806c6f
+      - s-e032c3e539
+      - s-30acf96d89
+      - s-20656919c2
+    zh:
+      - s-f82651ada5
+      - s-bcd534792e
+      - s-8ddd0bc11c
+      - s-2d7b1b1390
+      - s-368666761d
+      - s-cee4d9a0ab
+      - s-efb33651ac
+      - s-819ae0d300
+      - s-22bec1b927

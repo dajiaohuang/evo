@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon argyreornata
+  displayName: Ololygon argyreornata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/498ZS
+  sourceIndexes:
+    - name:
+        en: Ololygon argyreornata
+        zh: Ololygon argyreornata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 498ZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/103
+            queryName: Ololygon argyreornata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/30
+            queryName: Eleutherodactylus argyreornatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/122
+            queryName: Scinax argyreornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/28
+            queryName: Scinax argyreornatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/363
+            queryName: Hylodes argyreornatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/364
+            queryName: Hyla argyreornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f2e0321e6f
+      - s-9684c521e7
+      - s-5341f99cde
+      - s-0cb3232c53
+      - s-112b6d8ff0
+      - s-5a66e6785f
+      - s-1553e39c70
+      - s-b42166bc4a
+      - s-e57e6cd93d
+      - s-0e3fbae2dd
+      - s-05eeaa3294
+      - s-20b4c73525
+      - s-3e0fe2de30
+      - s-8e1008b556
+    zh:
+      - s-7996490df7
+      - s-2c0cd8c55c
+      - s-4ac2950681
+      - s-0f64683f49
+      - s-d53a01d76a
+      - s-d9a0c55e2c
+      - s-fd148d78ec
+      - s-e862b0b150
+      - s-ca38969f00
+      - s-cd019dcde5
+      - s-1d6af58f7d
+      - s-92b0c484a1
+      - s-34b26ee4b4
+      - s-1f26046b3b

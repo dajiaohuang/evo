@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus aerumnalis
+  displayName: Mantidactylus aerumnalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWCG
+  sourceIndexes:
+    - name:
+        en: Mantidactylus aerumnalis
+        zh: Mantidactylus aerumnalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWCG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/300
+            queryName: Mantidactylus aerumnalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/249
+            queryName: Rana aerumnalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-018f780896
+      - s-c34057f106
+      - s-2db559f18a
+      - s-3ed9e8f752
+      - s-e826d9317c
+      - s-1f6d59d23b
+      - s-ac46c0b544
+      - s-6dd3d2d5d6
+      - s-39569875ba
+      - s-5195e9f6a5
+      - s-94c6a1d956
+      - s-038376f267
+      - s-fed1f3d735
+    zh:
+      - s-4918d6b43e
+      - s-559f70b94a
+      - s-fec5dfe9fd
+      - s-88ab6f854c
+      - s-bbecb1f07e
+      - s-22cbb46b15
+      - s-866d24d930
+      - s-e1482c90d7
+      - s-05732dd24a
+      - s-b21beb0272
+      - s-28260d51b1
+      - s-655df5cb87
+      - s-d1cf74dd9d

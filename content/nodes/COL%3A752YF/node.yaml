@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ophryophryne gerti
+  displayName: Ophryophryne gerti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/752YF
+  sourceIndexes:
+    - name:
+        en: Ophryophryne gerti
+        zh: Ophryophryne gerti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 752YF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/179
+            queryName: Ophryophryne gerti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/38
+            queryName: Megophrys gerti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70fcb30052
+      - s-af7e62973a
+      - s-5c45b17e88
+      - s-1725a83f25
+      - s-c3693e1394
+      - s-829cdeeffb
+      - s-04616b6daa
+      - s-8810cf6a85
+    zh:
+      - s-b98bd125cc
+      - s-4d45821c10
+      - s-0706a8818a
+      - s-e09dd31ddf
+      - s-79c99bd23a
+      - s-5643ae6e51
+      - s-2ab1854819
+      - s-207cb14908

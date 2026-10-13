@@ -1,0 +1,190 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Aneides niger
+    name:
+      en: Aneides niger
+      zh: Aneides niger
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Aneides
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-459967fea4
+            part: body
+          zh:
+            page: zh
+            section: s-9abfeb4079
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7562309c7f
+            part: body
+          zh:
+            page: zh
+            section: s-6d7bc674e6
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 21, 22; Reference.csv rows 4224
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 21
+        values:
+          - Plethodontidae
+          - Aneides
+          - Aneides niger
+          - F
+          - NA
+          - "68.6"
+          - NA
+          - NA
+          - NA
+          - "10.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "54.88"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 22
+        values:
+          - Plethodontidae
+          - Aneides
+          - Aneides niger
+          - M
+          - NA
+          - "69.2"
+          - NA
+          - NA
+          - NA
+          - "12.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "55.36"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4224
+        values:
+          - Caudata
+          - Aneides_niger
+          - "Reilly, S. B., & Wake, D. B. (2019). Taxonomic revision of black salamanders of the Aneides flavipunctatus complex (Caudata: Plethodontidae). PeerJ, 7, e7370. https://doi.org/10.7717/peerj.7370"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - DW5D
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

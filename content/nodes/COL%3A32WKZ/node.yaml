@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus lutzorum
+  displayName: Cycloramphus lutzorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WKZ
+  sourceIndexes:
+    - name:
+        en: Cycloramphus lutzorum
+        zh: Cycloramphus lutzorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WKZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/284
+            queryName: Cycloramphus lutzorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9f2a57b997
+      - s-f3886ed23b
+      - s-268e0f71ce
+      - s-2f51e57b2b
+      - s-407a6671b2
+      - s-22895c1a6b
+      - s-0c1841325f
+      - s-64cb511d2c
+      - s-2095191aee
+      - s-aeb7243ba9
+      - s-b20826d986
+      - s-db28f6fca1
+      - s-7664a5e2e3
+      - s-715bec3039
+      - s-848e5e8106
+      - s-f36f4eb474
+      - s-b5939f201a
+      - s-51ab5b9169
+      - s-ed4e0261db
+      - s-31e2a1d895
+      - s-ad365baa96
+      - s-d1e15de165
+      - s-858b6e400d
+      - s-3300d61c5f
+      - s-90a588851b
+    zh:
+      - s-ae249bc5be
+      - s-cb2c36547e
+      - s-07598f8164
+      - s-f7732191e1
+      - s-15b78694ad
+      - s-89fe3f9c8c
+      - s-4b6a356945
+      - s-c0da2579e3
+      - s-110780e69b
+      - s-24dc060b2d
+      - s-1c3d6a8d7d
+      - s-e001ab6ca3
+      - s-008ee5e93f
+      - s-47cec785b6
+      - s-ac274a8c36
+      - s-c4e308ee7b
+      - s-d07c4fbe64
+      - s-1a2e514b31
+      - s-278c907352
+      - s-4e086aa31d
+      - s-907c973e9b
+      - s-298d7df7aa
+      - s-ec0989eeaa
+      - s-4f6311790b
+      - s-755730da64

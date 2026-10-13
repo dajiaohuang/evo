@@ -1,0 +1,20 @@
+## Accepted name and placement {#s-c4624704cb}
+COL26.8 accepts Pseudophilautus viridis (Manamendra-Arachchi & Pethiyagoda, 2005) as a species. Its recorded classification places it along Anura (order) → Rhacophoridae (family) → Pseudophilautus (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-c9a917d513}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-9ac5782628}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Pseudophilautus viridis](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Rhacophoridae/Pseudophilautus/Pseudophilautus_viridis/page.en.md)
+- [Amphibian morphology v3: Pseudophilautus viridis](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Rhacophoridae/Pseudophilautus/Pseudophilautus_viridis/page.en.md)
+- [AmphiBIO v1: Pseudophilautus pardus](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Rhacophoridae/Pseudophilautus/Pseudophilautus_pardus/page.en.md)
+- [Amphibian morphology v3: Pseudophilautus pardus](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Rhacophoridae/Pseudophilautus/Pseudophilautus_pardus/page.en.md)
+
+## Sex-specific measurement material — Amphibian morphology source {#s-4fc208e5dd}
+Deposited source concept: Pseudophilautus viridis, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 2 rows and 27 populated trait columns for this source concept. Recorded sex codes are F, M: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
+
+## catalogue-profile / limitations {#s-60f99f38f2}
+Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. This reader is.
+

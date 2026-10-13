@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-c67e7aac07}
+The version 3 Amphibian database lists Leptodactylus mystacinus in a source measurement table. Its classification fields read order = Anura, family = Leptodactylidae, genus = Leptodactylus; the linked citation is in Reference.csv row 2840. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-8276a59e8b}
+Anura.csv rows 2735, 2736 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 2735 (F) = 56.25, row 2736 (M) = 51.57; HL: row 2735 (F) = 20.61, row 2736 (M) = 19.44; HW: row 2735 (F) = 19.82, row 2736 (M) = 18.06; other populated codes are ED, TD, IOD, IND, EN, HAL, FLL, FL, TL, THL, TSL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

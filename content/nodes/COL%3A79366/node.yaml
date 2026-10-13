@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana latastei
+  displayName: Rana latastei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/79366
+  sourceIndexes:
+    - name:
+        en: Rana latastei
+        zh: Rana latastei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "79366"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/65
+            queryName: Rana latastei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 62
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2bbe444ed7
+      - s-1cf7dd13c7
+      - s-b4dee1b8f8
+      - s-f1ef26f225
+      - s-0ebb48fcd1
+      - s-e5d2af8ce7
+      - s-5b5bee5c5f
+      - s-bde69a5ff6
+      - s-8e95af1b28
+      - s-fd5ac41416
+      - s-fce2ee6f1e
+    zh:
+      - s-c6c7c3fb3a
+      - s-5b5f6788d0
+      - s-5b5b3bb90f
+      - s-f7fff7e663
+      - s-c5f84e4d51
+      - s-d3eb7b5cb9
+      - s-bf3807dbbb
+      - s-7b2443f05c
+      - s-c05aeaec05
+      - s-b91990f7d0
+      - s-81a3fb93c9

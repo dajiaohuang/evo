@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Gobiates sosedkoi
+    rank: species
+    sourceTaxonId: txn:202238
+    name:
+      en: Gobiates sosedkoi
+      zh: Gobiates sosedkoi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-72ff122ab0
+            part: body
+          zh:
+            page: zh
+            section: s-28c11e6415
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 4 PBDB occurrence rows and collection fields
+          zh: 4 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-c190a2722d
+            part: body
+          zh:
+            page: zh
+            section: s-a51e06d231
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Gobiates sosedkoi
+          zh: Gobiates sosedkoi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-08330eb16c
+            part: body
+          zh:
+            page: zh
+            section: s-676d0ad1c1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:202238; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: L. A. Nessov. 1988. Late Mesozoic amphibians and lizards of Soviet Middle Asia. Acta Zoologica Cracoviensia 31(14):475-486
+    occurrenceEvidence:
+      - occurrenceId: occ:985860
+        collectionId: col:58179
+        acceptedTaxonId: txn:202238
+        identifiedName: Gobiates sosedkoi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:18862
+        bibliography: Z. Ročec and L. A. Nessov. 1993. Cretaceous anurans from Central Asia. Palaeontographica Abteilung A 226:1-54
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+      - occurrenceId: occ:985862
+        collectionId: col:118246
+        acceptedTaxonId: txn:202238
+        identifiedName: Gobiates cf. sosedkoi
+        taxonomicDifference: null
+        referenceId: ref:18862
+        bibliography: Z. Ročec and L. A. Nessov. 1993. Cretaceous anurans from Central Asia. Palaeontographica Abteilung A 226:1-54
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+      - occurrenceId: occ:1437959
+        collectionId: col:58164
+        acceptedTaxonId: txn:202238
+        identifiedTaxonId: var:202238
+        identifiedName: Eopelobates sosedkoi
+        taxonomicDifference: recombined as
+        referenceId: ref:38127
+        bibliography: L. A. Nessov. 1982. Drevneishie mlekopitaiushchie SSSR [Ancient mammals of the USSR]. Palyentologicheskogo Obshchyestva 25:228-243
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+      - occurrenceId: occ:1437977
+        collectionId: col:58179
+        acceptedTaxonId: txn:202238
+        identifiedTaxonId: var:202238
+        identifiedName: Eopelobates sosedkoi
+        taxonomicDifference: recombined as
+        referenceId: ref:38127
+        bibliography: L. A. Nessov. 1982. Drevneishie mlekopitaiushchie SSSR [Ancient mammals of the USSR]. Palyentologicheskogo Obshchyestva 25:228-243
+        locality:
+          countryCode: UZ
+          stateProvince: Navoi
+          county: null
+        stratigraphy:
+          group: null
+          formation: Bissekty
+          member: null
+        olderAgeMa: 93.9
+        youngerAgeMa: 89.8
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Gobiates sosedkoi
+          zh: Gobiates sosedkoi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-08330eb16c
+            part: body
+          zh:
+            page: zh
+            section: s-676d0ad1c1
+            part: body
+        sourceIds: []

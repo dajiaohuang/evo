@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ixia sarmentosa Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3QFRM, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3QFRM; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3QFRM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3QFRM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001345638-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3QFRM / WFO wfo-0001345638
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ixia sarmentosa Goldblatt & J.C.Manning account; SANBI/WFO archive rows 98830 (Morphology), 97539 (Habitat), 95045 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants mostly 250-500 mm high. Corm ± globose, mostly 8-10 mm diam., often with stolons from base or cormlets virtually sessile; tunics of fine, soft fibres or ± membranous to papery layers. Stem usually with 1 or 2(3) short, rigid, spreading branches. Leaves mostly 4 to 6, all with expanded blades, ± 2/3 to nearly as long as stem, linear to narrowly sword-shaped, mostly 2-5 mm wide, main vein and margins hyaline when alive (appearing thickened when dry). Spike closely 3- to 6(-8)-flowered, branches mostly 2- or 3-flowered; bracts membranous, translucent, sometimes dark at tips, 5.5-7.0 mm long, outer with only central vein prominent, 1-toothed or with a small tooth lateral to central tooth, inner 2-veined, acutely 2-toothed. Flowers upright, rotate, sulphur-yellow to white, rarely pale pink, with green to brown central zone up to ± 1/3 length of tepals, flushed red outside, unscented; perianth tube 5-9 mm long, filiform; tepals united basally for up to 1 mm, obovate, (12-)16-22 x (5-)7-10 mm, spreading ± horizontally when fully open. Filaments ± 2 mm long, ± coherent, usually dark green to brownish purple, rarely yellow; anthers 5-8 mm long, remaining erect or suberect, linear, yellow; pollen yellow. Style dividing opposite base to middle of filaments, green or yellow, branches 3.0-3.5 mm long, emerging between filaments.
+            textZh: Ixia sarmentosa Goldblatt & J.C.Manning 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Morphology row 98830; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Distinguished by the narrow leaves, small corms with particularly soft tunics, either membranous or composed of fine, soft fibres and usually bearing slender stolons with a single terminal cormlet. The relatively short, stiff branches spread at a wide angle from the main stem and bear few flowers. Branches, usually produced in I. polystachya, in which collections of I. sarmentosa were often included (sometimes as var. lutea), are more-or-less upright and bear numerous flowers. The flowers of I. sarmentosa also consistently have short filaments, ± 2 mm long, and the style, pale green to pale yellow, divides opposite the base to middle of the short filaments, the style branches then extending outward between the filaments. Ixia polystachya has larger corms with well-developed fibrous tunics and does not produce stolons Flowers of Ixia sarmentosa are relatively large, especially in northern populations, the tepals mostly 17-22 x 8-10 mm, but in populations from the mountains around Stellenbosch and Somerset West the tepals are 12-16 x 5-7 mm. Other than the smaller flowers there appears to be no difference between these and the larger flowered plants.
+            textZh: SANBI 条目提供了 Ixia sarmentosa Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 95045; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Seasonally wet habitats at the foot of mountains, usually in loamy, sandy ground.
+            textZh: 该 SANBI 区域物种条目记录的生境：Seasonally wet habitats at the foot of mountains, usually in loamy, sandy ground.
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Habitat row 97539; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

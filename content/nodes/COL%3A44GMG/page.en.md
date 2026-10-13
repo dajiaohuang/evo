@@ -1,0 +1,6 @@
+## Variable flower stalks and a fused bud calyx {#s-0e31d4cbc5}
+A Brazilian Flora 2020 v393.147 field describes elliptic, elliptic-oblong or oval-elliptic leaves. Their tips may be acute, rounded or mucronate (ending in a short sharp point); the bases are heart-shaped or rounded. The upper midrib is slightly rounded, the lower one raised and angular, and the venation is conspicuous. Flower clusters may be axillary or on branches, with one to five or more branches, one to four internodes per axis and one to five or more flowers per axis. Bracts and bracteoles fall as the flowers open. Flower stalks are listed in three ranges: 1.1–2 mm, 2.1–3 mm or at least 3.1 mm. Flowers are five-part; the calyx is fully fused in the bud and opens regularly, and the sepals have acute tips. Petals may be yellow or white. Glands behind and below the anther sacs are up to 0.6 mm; caudate stamens are listed at 1.6 mm or longer. The ovary has two, three, four or five chambers. The habitat field says “terrícola,” or terrestrial.
+
+## A terrestrial category, separate from distribution {#s-6d11e8beba}
+The habitat field records “terrícola,” meaning terrestrial. It does not identify localities or survey dates, establish range coverage, or distinguish wild, cultivated, managed or fossil material. No distribution claim follows from this category alone.
+

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium pellucidum
+  displayName: Hyalinobatrachium pellucidum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MGTN
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium pellucidum
+        zh: Hyalinobatrachium pellucidum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MGTN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/335
+            queryName: Hyalinobatrachium pellucidum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/44
+            queryName: Hyalinobatrachium lemur
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/455
+            queryName: Centrolenella pellucida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9bd3f7eb3a
+      - s-b844ec3df7
+      - s-e595e2461e
+      - s-4809f870c7
+      - s-79856b23d8
+      - s-76c8f51e90
+      - s-210836745d
+      - s-6366a7ea3d
+      - s-c9dca37779
+      - s-c440aa9592
+    zh:
+      - s-ae40a1accf
+      - s-c3c217bc88
+      - s-0e8a1b8f91
+      - s-b5ac3ff775
+      - s-ae25283187
+      - s-b5fbddc86a
+      - s-c434772294
+      - s-1bd395932c
+      - s-f0e6bbc088
+      - s-482968fddc

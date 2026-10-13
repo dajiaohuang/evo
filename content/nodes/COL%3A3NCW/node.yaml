@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton
+  displayName: Chiropterotriton
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NCW
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton
+        zh: Chiropterotriton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NCW
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/299
+            queryName: Chiropterotriton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 115
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c826b2320f
+      - s-4957d7bf04
+      - s-83d1fb60b5
+      - s-6e762bce7b
+      - s-002d4e7ce7
+      - s-5620ba81fd
+      - s-325e2c6c8e
+      - s-49d45fa0a3
+      - s-512d833585
+      - s-cdc1f0a2b0
+      - s-a11672dfc8
+      - s-f2e869f809
+      - s-b46753fffb
+      - s-8a8c8c99c3
+      - s-abe6746c49
+      - s-4bbe865dbb
+      - s-e3cc31a7ad
+      - s-5fd9e3eb93
+      - s-d79bc6e940
+    zh:
+      - s-6d5361a4e7
+      - s-d02ebaf45f
+      - s-6b007b5ea2
+      - s-d4e9e21449
+      - s-4caf167df2
+      - s-81a284af09
+      - s-746f2c7fe7
+      - s-dee5f581cb
+      - s-ee0def13d0
+      - s-ea9bc62ca2
+      - s-7700366e95
+      - s-9118847de8
+      - s-81862af5e6
+      - s-8bddf30e60
+      - s-db91d8085a
+      - s-8093493b9d
+      - s-eed8a08db5
+      - s-486f06d7c4
+      - s-afe5fd7be1

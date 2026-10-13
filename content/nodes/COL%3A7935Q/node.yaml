@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana dalmatina
+  displayName: Rana dalmatina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7935Q
+  sourceIndexes:
+    - name:
+        en: Rana dalmatina
+        zh: Rana dalmatina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7935Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/51
+            queryName: Rana dalmatina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 263
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/461
+            queryName: Rana agilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/357
+            queryName: Rana agiloides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/375
+            queryName: Rana muelleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/50
+            queryName: Rana temporaria agilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0a686337e3
+      - s-e24d66bdc1
+      - s-a9ca6dd37e
+      - s-fa3a44b5c1
+      - s-b221f3d9a1
+      - s-fc3cfcafee
+      - s-aa49d3b6de
+      - s-9f8b45299a
+      - s-971266e7f7
+      - s-ba65200b0b
+    zh:
+      - s-547097be53
+      - s-1046bbce05
+      - s-09c16896b7
+      - s-be310d6b80
+      - s-beb42392ac
+      - s-fd1c6c55cb
+      - s-1382910df8
+      - s-48b3cb0608
+      - s-093ebe185b
+      - s-fa62cf9ad5

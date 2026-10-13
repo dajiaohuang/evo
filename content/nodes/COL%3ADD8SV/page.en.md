@@ -1,0 +1,18 @@
+## The accepted name and its historical links {#s-9ab553ad26}
+Pinned COL26.8 organizes this page at Hydrobates tethys (DD8SV). BirdLife 2020 row 10071 and eBird 2021 row 4929 share the name and Avibase ID AVIBASE-7BE70E1F, with type 1BL to 1eBird; BirdTree row 4906 gives Oceanodroma tethys, with type 1BL to 1BT. Read catalogue synonym 48C4G points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+
+## Five sampled birds and their complete measurement sets {#s-f6acb2daef}
+Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8.3 mm, tarsus 21.8 mm, unflattened wing 129.8 mm, tail 58.8 mm and hand-wing index 59.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.
+
+## Body mass comes from a separate source {#s-acf1389d6c}
+Mass=22.6 g with Mass.Source=Dunning is a compiled species-average body mass incorporating both sexes; the 5 morphology birds are not a verified independent weighing denominator. The original book, weighed individuals, localities and dates were not read, leaving sex, seasonal and regional mass ranges unsupported. Mass and beak length do not establish feeding mechanics.
+
+## Aquatic prey and trophic level describe different things {#s-efb113aa7c}
+Trophic.Niche=Aquatic predator is defined by at least 60% of food resources from vertebrate and invertebrate animals in aquatic systems. Fish, crustaceans and molluscs are examples in the definition, not a measured prey list for this species. Trophic.Level=Carnivore means at least 70% of resources from live invertebrate or vertebrate animals. The fields describe resource sets and trophic level separately, supplying neither seasonal diets nor a specific prey percentage. Aquatic food does not establish diving behavior, dive depth or particular surface-feeding actions.
+
+## Marine habitat and aerial lifestyle are separate categories {#s-8fabe0b91f}
+Habitat=Marine includes pelagic waters, sea near coasts and associated near-sea breeding environments in the definition, without locating this row’s measured birds or breeding island. Habitat.Density=3 denotes open habitat, including open water, not bird abundance. Primary.Lifestyle=Aerial means much time in flight and hunting or foraging predominantly on the wing; aquatic food does not turn this lifestyle field into Aquatic. Migration=3 denotes a majority undertaking long-distance migration. Categories supply no departure dates, distances, tracked birds or routes; hand-wing index also does not replace measured flight speed. Historical map fields are uninterpreted here.
+
+## Evidence limits {#s-8c7dce3990}
+The accepted name links to BirdLife 2020 and eBird 2021 records under Hydrobates tethys and to a BirdTree record under Oceanodroma tethys. Those crosswalks locate historical records but do not prove identical species boundaries across dates. Five birds were measured and four had complete sets; the 22.6 g Dunning mass estimate is a separate source. The original specimens, Dunning book and complete workbook were not examined. Aquatic-predator niche, Carnivore trophic level and Aerial lifestyle are distinct categories. This record supplies no measured prey list, dive depth, flight speed, migration route, plumage, calls, breeding account, current distribution or conservation status. Historical map fields are not interpreted here, so this is not a complete natural-history account.
+

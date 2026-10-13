@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis catlocensis
+  displayName: Ichthyophis catlocensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5SL
+  sourceIndexes:
+    - name:
+        en: Ichthyophis catlocensis
+        zh: Ichthyophis catlocensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5SL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/393
+            queryName: Ichthyophis catlocensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9618b9914e
+      - s-ce00a0c1af
+      - s-f005ade026
+      - s-2911df82fd
+      - s-c4e180ea32
+      - s-9a5f2e6ed0
+      - s-ff9b58de45
+      - s-0b5ad8bd7a
+      - s-98f42a4b1a
+      - s-62feb959d1
+      - s-5b8f60d2b0
+    zh:
+      - s-173a7e29bb
+      - s-2ebeb362c1
+      - s-8558a7e589
+      - s-2985a69425
+      - s-0c03833751
+      - s-6bfac101ee
+      - s-499578f391
+      - s-69079af251
+      - s-07847bce58
+      - s-f978a66b7b
+      - s-12e09d8395

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis cremnobates
+  displayName: Pristimantis cremnobates
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJCD
+  sourceIndexes:
+    - name:
+        en: Pristimantis cremnobates
+        zh: Pristimantis cremnobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJCD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/218
+            queryName: Pristimantis cremnobates
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/317
+            queryName: Eleutherodactylus cremnobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ea72e8df7d
+      - s-8b43c454a2
+      - s-39e0f4b6a6
+      - s-76ebb102f7
+      - s-311164e1d3
+      - s-cf302f2134
+      - s-5e60a713e2
+      - s-c5d9c13b6b
+      - s-756f9dd029
+      - s-1c40c2989d
+      - s-a60b890f81
+      - s-38e7673463
+      - s-6a0fc06e55
+      - s-2b15c47ab5
+      - s-3a9974814e
+      - s-2de6360807
+      - s-30cf635de3
+    zh:
+      - s-df009512e3
+      - s-cc51044c17
+      - s-c0845766c3
+      - s-3cb50eda18
+      - s-2e8073c16a
+      - s-49c3f818ad
+      - s-67ecebd9bd
+      - s-b3851136e2
+      - s-e0a0c19a6d
+      - s-f4719634ce
+      - s-161a353ea0
+      - s-3538f80599
+      - s-8cdb710072
+      - s-e26b4cc272
+      - s-2a466fdcfb
+      - s-a2b67f3b94
+      - s-cc86e418d5

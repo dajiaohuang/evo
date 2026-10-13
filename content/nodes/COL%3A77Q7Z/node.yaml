@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon yonahlossee
+  displayName: Plethodon yonahlossee
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77Q7Z
+  sourceIndexes:
+    - name:
+        en: Plethodon yonahlossee
+        zh: Plethodon yonahlossee
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77Q7Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/4
+            queryName: Plethodon yonahlossee
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/458
+            queryName: Plethodon longicrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3f7179f0be
+      - s-333d937f00
+      - s-67e77686df
+      - s-ed5813d4e2
+      - s-fd5da6bd7b
+      - s-c1ccda809d
+      - s-92d223f389
+      - s-2c5f18af70
+      - s-e1b6a83648
+      - s-68e76ce216
+      - s-6ea5145d3e
+    zh:
+      - s-0b4335937d
+      - s-c481f51ad8
+      - s-209c12b864
+      - s-dcfec1889b
+      - s-bc95cbe92e
+      - s-79f675c4d6
+      - s-5885c60cd0
+      - s-b39e7c4178
+      - s-97ad33315f
+      - s-35f7fc87fb
+      - s-af2f23f9b5

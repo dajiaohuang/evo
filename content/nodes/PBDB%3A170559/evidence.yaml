@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pistosauroidea
+    rank: suborder
+    sourceDatasetId: null
+    name:
+      zh: Pistosauroidea
+      en: Pistosauroidea
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-840e25659e
+            part: body
+          en:
+            page: en
+            section: s-bd5821f0be
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5fb89c6a0f
+            part: body
+          en:
+            page: en
+            section: s-ab974e008e
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Pistosauroidea
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=170559
+          locator: Recorded PBDB parent closure beneath the already documented Sauropterygia COL-compatible storage anchor.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:170559
+          readingTargets:
+            - name: Wangosaurus brevirostris
+              pbdbTaxonId: txn:375156
+              canonicalPath: content/nodes/PBDB%3A375156
+            - name: Chinchenia sungi
+              pbdbTaxonId: txn:100426
+              canonicalPath: content/nodes/PBDB%3A100426
+            - name: Cymatosaurus multidentatus
+              pbdbTaxonId: txn:254219
+              canonicalPath: content/nodes/PBDB%3A254219
+            - name: Cymatosaurus gracilis
+              pbdbTaxonId: txn:176572
+              canonicalPath: content/nodes/PBDB%3A176572
+            - name: Cymatosaurus fridericianus
+              pbdbTaxonId: txn:100041
+              canonicalPath: content/nodes/PBDB%3A100041
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-eaca4c3419
+        part: body
+      en:
+        page: en
+        section: s-374115b014
+        part: body

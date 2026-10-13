@@ -1,0 +1,132 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes luteolus
+  displayName: Phyllodytes luteolus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7DP
+  sourceIndexes:
+    - name:
+        en: Phyllodytes luteolus
+        zh: Phyllodytes luteolus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7DP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/258
+            queryName: Phyllodytes luteolus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/483
+            queryName: Amphodus piperatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/418
+            queryName: Hyla luteola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/419
+            queryName: Lophyohyla piperata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/37
+            queryName: Hylaplesia luteola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/38
+            queryName: Hypsiboas luteolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/39
+            queryName: Hyla luteolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/40
+            queryName: Lophiohyla piperata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/41
+            queryName: Amphodus luteolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0384782dee
+      - s-074f2deac2
+      - s-2036a9f652
+      - s-ed3750002b
+      - s-eb23426762
+      - s-da37afe3f8
+      - s-9bb8b8fd12
+      - s-33e3adbb47
+      - s-34a0c1d055
+      - s-24e1426e7c
+      - s-7a1cbe9228
+      - s-542abdc8cf
+      - s-63db25a296
+      - s-175126c453
+      - s-dcb1fd86ff
+      - s-88de358a53
+      - s-58b9484a40
+      - s-214ff68c83
+      - s-0530dd67c8
+    zh:
+      - s-5aad37d7fc
+      - s-f73b6ec55a
+      - s-c0f8a07f96
+      - s-d96f3d557b
+      - s-19663be732
+      - s-51398ec54a
+      - s-5778861037
+      - s-5af0daaca9
+      - s-abc6ab7bff
+      - s-9f7b5fccf7
+      - s-d6ae7c5b4c
+      - s-c15bc0c615
+      - s-bc09ec6c2f
+      - s-77cea0c499
+      - s-b5d6d74a3d
+      - s-8c6fa91316
+      - s-7aa5768db2
+      - s-e3912a5a60
+      - s-4c9f0797fd

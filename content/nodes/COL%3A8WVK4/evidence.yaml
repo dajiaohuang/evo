@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ficinia arnoldii Tshiila & Muasya
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 8WVK4, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 8WVK4; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/8WVK4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 8WVK4
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001347801-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 8WVK4 / WFO wfo-0001347801
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_15604_0
+        referenceId: ref-1b755e67-7fe0-8fd2-a73d-cde631bb7dc3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ficinia arnoldii Tshiila & Muasya account; SANBI/WFO archive rows 83876 (Morphology), 83677 (Habitat), 83311 (Diagnostic), source identifier 15604.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Tufted perennial, short rhizome to 8.0-10.0 mm diameter. Culm 240-980 mm tall, 0.9-1.2 mm thick, but ca. 2.0 mm thick across the rim of the leaf sheath, glabrous. Leaf sheath 30-125 mm long, glabrous, not papery, wine-red. Leaf blade 40-300 mm long, glabrous, canaliculate. Involucral bract 3-5, leaf-like, 11-60 mm long, glabrous. Inflorescence capitate, 8.0-10.0 mm diameter, each with over 10 spikelets. Spikelets 2.8-5.8 x 1.0-3.1 mm, terete, dark brown, florets bisexual. Glumes 1.8-5.0 x 1.0-2.1 mm, boat-shaped with a mucro 0.5 mm long, margins entire. Stamens 3, anthers crested. Style trifid. Nutlets 1.0-2.5 x 0.5-2.0 mm, dark brown, minutely papillose; hypogynous disc to 0.5 mm long, cupular, 6-9-lobed.
+            textZh: Ficinia arnoldii Tshiila & Muasya 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_15604_0
+            locator: "SANBI/WFO archive Morphology row 83876; source identifier 15604.0; cited publication: Tshiila, AA; Chimphango, SBM; Viljoen, J-A; Muasya, AM. 2017. Two new species in the Ficinia indica complex (Cyperaceae, tribe Cypereae) from South Africa. Phytotaxa 295(1): 49 - 59. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Similar to Ficinia indica, differing in being tufted with surculose to short rhizomes (vs. stolons), and occurring in clay-rich renosterveld vegetation type (vs. deep sandy fynbos vegetation). Both F. arnoldii and F. laevis are restricted to renosterveld vegetation and do not overlap with the fynbos F. indica. with F. arnoldii occurring in the SW whereas F. laevis is found in the NW area of Western Cape and further north into the Northern Cape.
+            textZh: SANBI 条目提供了 Ficinia arnoldii Tshiila & Muasya 的鉴别特征。
+            sourceIds:
+              - sanbi_15604_0
+            locator: "SANBI/WFO archive Diagnostic row 83311; source identifier 15604.0; cited publication: Tshiila, AA; Chimphango, SBM; Viljoen, J-A; Muasya, AM. 2017. Two new species in the Ficinia indica complex (Cyperaceae, tribe Cypereae) from South Africa. Phytotaxa 295(1): 49 - 59. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Widespread in the renosterveld vegetation type. The renosterveld is floristically and physiognomically distinct from fynbos and occupies richer (mainly shale-derived) soils.
+            textZh: 该 SANBI 区域物种条目记录的生境：Widespread in the renosterveld vegetation type. The renosterveld is floristically and physiognomically distinct from fynbos and occupies richer (mainly shale-derived) soils.
+            sourceIds:
+              - sanbi_15604_0
+            locator: "SANBI/WFO archive Habitat row 83677; source identifier 15604.0; cited publication: Tshiila, AA; Chimphango, SBM; Viljoen, J-A; Muasya, AM. 2017. Two new species in the Ficinia indica complex (Cyperaceae, tribe Cypereae) from South Africa. Phytotaxa 295(1): 49 - 59. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

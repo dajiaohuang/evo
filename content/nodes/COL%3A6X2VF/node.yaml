@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana zhenhaiensis
+  displayName: Rana zhenhaiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X2VF
+  sourceIndexes:
+    - name:
+        en: Rana zhenhaiensis
+        zh: Rana zhenhaiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X2VF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/94
+            queryName: Rana zhenhaiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-165f3d6e37
+      - s-a446b203fe
+      - s-3cf16b25ad
+      - s-b0536bce3d
+      - s-3300da746d
+      - s-0d00227d20
+      - s-e4a9cd5a56
+      - s-1e4fab0c18
+      - s-0a58c99ade
+      - s-485216e692
+    zh:
+      - s-9113b1247a
+      - s-e950b53493
+      - s-2c7e0cdf94
+      - s-0b450a2796
+      - s-359f0c844b
+      - s-67f7ed9a05
+      - s-c4a7d78718
+      - s-91ac199f5e
+      - s-0be9cd4f5a
+      - s-60c86d02ed

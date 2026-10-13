@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Turnera angelicae? {#s-b2406fdb05}
+The stems have simple hairs and tiny glandular hairs with rounded heads. Petiolate leaves have small stipules, sometimes reduced to glands, and extrafloral nectaries. Blades are ovate, elliptic or nearly circular, with scalloped margins; the upper surface is sparsely hairy and the lower densely hairy. Inflorescences may be racemes or a single flower borne on a leaf. Floral stalks and bracteoles are present, but pedicels are absent. The corolla is yellow, without a corona; the outer filament surface joins the base of the floral tube. Styles are heterostylous. The exocarp is smooth; seeds are net-veined and papillose, with a blunt or slightly raised chalaza.
+

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oedipina complex
+  displayName: Oedipina complex
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SJLM
+  sourceIndexes:
+    - name:
+        en: Oedipina complex
+        zh: Oedipina complex
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SJLM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/66
+            queryName: Oedipina complex
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/307
+            queryName: Oedipus complex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1435
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/308
+            queryName: Oedopinola complex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72ed65ec6b
+      - s-0cf96dba03
+      - s-03aff00977
+      - s-1575c2fda3
+      - s-cef037c466
+      - s-6a623daf46
+      - s-f827987997
+    zh:
+      - s-638a2d1546
+      - s-1044a62f39
+      - s-e5c6c2e340
+      - s-85c437a720
+      - s-111667110b
+      - s-6fc5cd6e84
+      - s-301ea35116

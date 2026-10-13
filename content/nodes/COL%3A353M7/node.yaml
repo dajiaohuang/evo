@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus aeneus
+  displayName: Desmognathus aeneus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/353M7
+  sourceIndexes:
+    - name:
+        en: Desmognathus aeneus
+        zh: Desmognathus aeneus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 353M7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/457
+            queryName: Desmognathus aeneus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/335
+            queryName: Desmognathus chermocki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/447
+            queryName: Desmognathus aeneus aeneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/448
+            queryName: Desmognathus aeneus chermocki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd921de4f4
+      - s-3ff4781973
+      - s-c0ec318b7d
+      - s-faf1d478a4
+      - s-1123b4d7c4
+      - s-dc200346d6
+      - s-58b2256ed9
+      - s-39a662f22e
+      - s-8c92159b9f
+    zh:
+      - s-7d2a2e5973
+      - s-e3e4b56c29
+      - s-660b35b278
+      - s-0838c98be8
+      - s-7e36afff79
+      - s-67e56b9c9d
+      - s-8d81a04a17
+      - s-0b6ef029ea
+      - s-564880ec75

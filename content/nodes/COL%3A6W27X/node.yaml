@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon stormi
+  displayName: Plethodon stormi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W27X
+  sourceIndexes:
+    - name:
+        en: Plethodon stormi
+        zh: Plethodon stormi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W27X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/494
+            queryName: Plethodon stormi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/451
+            queryName: Plethodon elongatus stormi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b39f8702b7
+      - s-d8390a2739
+      - s-df5c42ae30
+      - s-13d76ba207
+      - s-fee98a0392
+      - s-8b75452cec
+      - s-9663291953
+      - s-8c2c2f76f0
+      - s-9740bfc16e
+      - s-ac10e3842c
+    zh:
+      - s-e5240edaa1
+      - s-cbad4e610a
+      - s-d764ff1950
+      - s-635d8100f9
+      - s-02fa0b48ab
+      - s-903119294d
+      - s-86220c2cf1
+      - s-5d72d812ae
+      - s-db22fbb257
+      - s-457d965b5c

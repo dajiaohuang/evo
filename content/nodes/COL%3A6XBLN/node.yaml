@@ -1,0 +1,166 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Salamandrella keyserlingii
+  displayName: Salamandrella keyserlingii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XBLN
+  sourceIndexes:
+    - name:
+        en: Salamandrella keyserlingii
+        zh: Salamandrella keyserlingii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XBLN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/437
+            queryName: Salamandrella keyserlingii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 74
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/314
+            queryName: Isodactylium wosnessenskyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/315
+            queryName: Salamandrella wosnessenskyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/316
+            queryName: Hynobius keyserlingii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/317
+            queryName: Salamandrella cristata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/318
+            queryName: Hynobius doii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/319
+            queryName: Hynobius cristatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/320
+            queryName: Hynobius michnoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/321
+            queryName: Turanomolge keyserlingii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/395
+            queryName: Salamandrella keyserlingii keyserlingii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/416
+            queryName: Salamandrella skvorzovii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/417
+            queryName: Salamandrella uralensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/63
+            queryName: Salamandrella keyserlingii dilutiores
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/64
+            queryName: Salamandrella keyserlingii kostini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/65
+            queryName: Salamandrella keyserlingii sodeicampi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/66
+            queryName: Salamandrella keyserlingii stvorzovi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/67
+            queryName: Salamandrella keyserlingiii austeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf88687453
+      - s-1dc9ff6b2d
+      - s-9ef603d873
+      - s-68f1ffb02e
+      - s-6987ca49ff
+      - s-2861cc537f
+      - s-319e2f57d8
+      - s-39e831586f
+      - s-ba2aa90593
+      - s-61b4dae3c7
+      - s-7c4660eed5
+      - s-3cd44e7e51
+      - s-adce771137
+      - s-a0b21c3875
+      - s-2ecaf212e6
+    zh:
+      - s-d7422d9a7a
+      - s-18b84f598c
+      - s-c1f27c047e
+      - s-f8a1a94ab0
+      - s-4493319660
+      - s-3efa0b30cf
+      - s-7fbe4c2d65
+      - s-4bb9c5682a
+      - s-6fbe603d77
+      - s-739e45aa0a
+      - s-a6ebd536b5
+      - s-3a3a820c54
+      - s-88cf9ec115
+      - s-fa739b3a49
+      - s-0e02791221

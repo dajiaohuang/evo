@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus kaindiensis
+  displayName: Cophixalus kaindiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44C
+  sourceIndexes:
+    - name:
+        en: Cophixalus kaindiensis
+        zh: Cophixalus kaindiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/455
+            queryName: Cophixalus kaindiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f5420b4de5
+      - s-6a28b95a9c
+      - s-61b14d6f60
+      - s-4d57e040a2
+      - s-2bc61bf132
+      - s-2a9c8d3eeb
+      - s-f684d02ea7
+      - s-951ec89334
+      - s-c8ef0afc6a
+      - s-85bc66aa39
+      - s-e2ae5e64c8
+    zh:
+      - s-017a4299f0
+      - s-3ac6ebd567
+      - s-14a76fdab2
+      - s-d491e05de3
+      - s-edfe04f2ad
+      - s-576c614d1e
+      - s-95592d45c0
+      - s-d69b38f69c
+      - s-2683375f36
+      - s-a4818741c3
+      - s-3cc4630069

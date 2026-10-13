@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ingerophrynus philippinicus
+  displayName: Ingerophrynus philippinicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PQ62
+  sourceIndexes:
+    - name:
+        en: Ingerophrynus philippinicus
+        zh: Ingerophrynus philippinicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PQ62
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/3
+            queryName: Ingerophrynus philippinicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/392
+            queryName: Bufo philippinicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/270
+            queryName: Bufo biporcatus philippinicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cf13234b25
+      - s-0275bcec2e
+      - s-282519d286
+      - s-613b80c45e
+      - s-71bbbc5b45
+      - s-0d32e41ade
+      - s-d7ba69ee3a
+      - s-c572a0c5cf
+    zh:
+      - s-02ccb7921f
+      - s-a4b25e3fbc
+      - s-0f06c78e2a
+      - s-88123d2e86
+      - s-c32508ac7f
+      - s-e32802584f
+      - s-97f2da6f88
+      - s-287e783cbc

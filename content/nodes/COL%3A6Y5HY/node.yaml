@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiophryne menabensis
+  displayName: Scaphiophryne menabensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Y5HY
+  sourceIndexes:
+    - name:
+        en: Scaphiophryne menabensis
+        zh: Scaphiophryne menabensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Y5HY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/497
+            queryName: Scaphiophryne menabensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/432
+            queryName: A New Species of Scaphiophryne from Western Madagascar
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e6ac64616
+      - s-7c097ef0b9
+      - s-ffcb4f19b7
+      - s-2b83a4fcfd
+      - s-4c48c2b736
+      - s-d9bbe4d595
+      - s-f521e40ca0
+      - s-c3ceb1f353
+      - s-2db0f360aa
+      - s-036eaabfd2
+      - s-1b78c0d7c4
+      - s-586a1fd7f6
+      - s-8ebbe2eb27
+      - s-7219fdd723
+    zh:
+      - s-d39bf7e16e
+      - s-110ddd2e7f
+      - s-4523a5ef4f
+      - s-d23279edae
+      - s-580fa413f8
+      - s-6f9dc1e65d
+      - s-77ea08fea0
+      - s-4021b9ffa6
+      - s-afca0c0d4f
+      - s-0ae8dca0d9
+      - s-cc364bcb48
+      - s-f8d6e9135a
+      - s-25525bcab8
+      - s-902ac3bab5

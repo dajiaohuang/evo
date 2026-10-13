@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stereocyclops parkeri
+  displayName: Stereocyclops parkeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/52DW4
+  sourceIndexes:
+    - name:
+        en: Stereocyclops parkeri
+        zh: Stereocyclops parkeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 52DW4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/320
+            queryName: Stereocyclops parkeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/251
+            queryName: Hypopachus parkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7e5b6aa4c
+      - s-82986b7cc0
+      - s-61eb4e1ecf
+      - s-4581779e92
+      - s-22463bd357
+      - s-989a00c72b
+      - s-4b4dfebdd0
+      - s-284b626055
+      - s-191c7ea27b
+      - s-0297df3ceb
+      - s-820266b798
+      - s-17165d37a0
+      - s-88f208536d
+      - s-d1a41f280f
+    zh:
+      - s-4b90dfe246
+      - s-706450e6b4
+      - s-c52f5c48c5
+      - s-f7b7134b17
+      - s-52bd9553c0
+      - s-61e2adbc64
+      - s-22a1b07fe6
+      - s-9dee48b0b8
+      - s-13bf254042
+      - s-a77dc43cf6
+      - s-b9af1e5515
+      - s-22ea7f1088
+      - s-619705106f
+      - s-0b89f56fc2

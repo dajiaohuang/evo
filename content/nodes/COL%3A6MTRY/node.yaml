@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis mindanaoensis
+  displayName: Ichthyophis mindanaoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTRY
+  sourceIndexes:
+    - name:
+        en: Ichthyophis mindanaoensis
+        zh: Ichthyophis mindanaoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTRY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/412
+            queryName: Ichthyophis mindanaoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd7c7c64c8
+      - s-fdb846165c
+      - s-bb713fdd8f
+      - s-f2a6e4a041
+      - s-d4ef91ec0d
+      - s-8c0c3e5214
+      - s-3b3e1e396e
+      - s-75e4d0807e
+      - s-19e0a4eac5
+      - s-80486d2af0
+      - s-a35172a35e
+      - s-1751c02a15
+      - s-94454c4ea4
+      - s-c4d86bfa2b
+      - s-06047efc4e
+      - s-4bd1f0a56b
+      - s-1e7ee95c54
+    zh:
+      - s-d10ef7cd74
+      - s-4bdaf2edeb
+      - s-ed61d395ec
+      - s-815cd28b13
+      - s-d7bab37907
+      - s-dbe9f51e34
+      - s-95bbea2e3a
+      - s-88fde6442a
+      - s-f7c8e2ff6c
+      - s-99581340c5
+      - s-d1c9cc9779
+      - s-75b792cbb9
+      - s-59570fc9b2
+      - s-93dd12f43a
+      - s-485b2b1aeb
+      - s-7861fa217f
+      - s-179040e4af

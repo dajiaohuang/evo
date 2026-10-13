@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cosoryx furcatus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Cosoryx furcatus
+      en: Cosoryx furcatus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ad7b9214df
+            part: body
+          en:
+            page: en
+            section: s-daeb34976a
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-12b547c66c
+            part: body
+          en:
+            page: en
+            section: s-1c584f6014
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6fd014895a
+            part: body
+          en:
+            page: en
+            section: s-c19a473ffe
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-50b9933870
+            part: body
+          en:
+            page: en
+            section: s-e4bccc4964
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7c1dd8fcbb
+            part: body
+          en:
+            page: en
+            section: s-0627ca80a0
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Cosoryx furcatus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45321&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45321; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45321
+          selectedOccurrenceIds:
+            - occ:184280
+            - occ:184472
+            - occ:184478
+            - occ:184513
+            - occ:184517
+            - occ:184519
+            - occ:184564
+            - occ:184773
+            - occ:184861
+            - occ:185073
+            - occ:185113
+            - occ:185140
+            - occ:185287
+            - occ:185320
+            - occ:185500
+            - occ:185616
+            - occ:185666
+            - occ:185854
+            - occ:185857
+            - occ:185894
+            - occ:185944
+            - occ:186067
+            - occ:186169
+            - occ:186361
+            - occ:186708
+            - occ:187103
+            - occ:187106
+            - occ:187299
+            - occ:187404
+            - occ:187515
+            - occ:187527
+            - occ:190353
+            - occ:190750
+            - occ:1347574
+            - occ:1644158
+          selectedCollectionIds:
+            - col:18060
+            - col:18077
+            - col:18078
+            - col:18082
+            - col:18084
+            - col:18085
+            - col:18087
+            - col:18106
+            - col:18122
+            - col:18144
+            - col:18157
+            - col:18159
+            - col:18176
+            - col:18183
+            - col:18204
+            - col:18210
+            - col:18217
+            - col:18233
+            - col:18234
+            - col:18238
+            - col:18243
+            - col:18260
+            - col:18270
+            - col:18294
+            - col:18334
+            - col:18413
+            - col:18414
+            - col:18443
+            - col:18456
+            - col:18481
+            - col:18483
+            - col:19035
+            - col:19088
+            - col:182562
+          sourceReferenceIds:
+            - ref:3564
+            - ref:6294
+            - ref:6222
+            - ref:3176
+            - ref:5714
+            - ref:1706
+            - ref:60736
+          originalIdentificationMappings:
+            - occurrenceId: occ:187299
+              originalIdentifiedName: Merycodus furcatus
+              acceptedName: Cosoryx furcatus
+              difference: recombined as
+            - occurrenceId: occ:187515
+              originalIdentifiedName: Merycodus furcatus
+              acceptedName: Cosoryx furcatus
+              difference: recombined as
+            - occurrenceId: occ:187527
+              originalIdentifiedName: Merycodus furcatus
+              acceptedName: Cosoryx furcatus
+              difference: recombined as
+            - occurrenceId: occ:1347574
+              originalIdentifiedName: Merycodus furcatus
+              acceptedName: Cosoryx furcatus
+              difference: recombined as
+            - occurrenceId: occ:1644158
+              originalIdentifiedName: Cosoryx (Paracosoryx) burgensis n. sp.
+              acceptedName: Cosoryx furcatus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5f76c44434
+        part: body
+      en:
+        page: en
+        section: s-c08ef759cd
+        part: body

@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Quasipaa binhi Pham, Nguyen, Hoang, Ziegler, Phan, Pham & Nguyen, 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Quasipaa binhi
+      zh: Quasipaa binhi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f59a857f97
+            part: title
+          zh:
+            page: zh
+            section: s-b4cb8a1fb1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f59a857f97
+            part: body
+          zh:
+            page: zh
+            section: s-b4cb8a1fb1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-71f55cab11
+            part: title
+          zh:
+            page: zh
+            section: s-09429fcd6a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-71f55cab11
+            part: body
+          zh:
+            page: zh
+            section: s-09429fcd6a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-3b516cc684
+            part: title
+          zh:
+            page: zh
+            section: s-65402791b7
+            part: title
+        sourceIds:
+          - primary-pmc12163431-v3tm5
+        text:
+          en:
+            page: en
+            section: s-3b516cc684
+            part: body
+          zh:
+            page: zh
+            section: s-65402791b7
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d49a84ffdb
+            part: title
+          zh:
+            page: zh
+            section: s-9cb08df2f6
+            part: title
+        sourceIds:
+          - primary-pmc12163431-v3tm5
+        text:
+          en:
+            page: en
+            section: s-d49a84ffdb
+            part: body
+          zh:
+            page: zh
+            section: s-9cb08df2f6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Quasipaa binhi
+          url: https://www.checklistbank.org/dataset/316115/taxon/V3TM5
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12163431-v3tm5
+        referenceId: ref-fd808df8-a166-4c27-a764-ab873aa36e50
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Quasipaa binhi: Species ecological notes and distribution account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7874f90387
+        part: body
+      zh:
+        page: zh
+        section: s-d7e25538c3
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1240.147337
+        referenceId: ref-fd808df8-a166-4c27-a764-ab873aa36e50
+        sourceKey: primary-pmc12163431-v3tm5
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12163431/article.xml
+        sourceConcept: Quasipaa binhi
+        evidenceRead: "Quasipaa binhi: Species ecological notes and distribution account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Vietnamese field records and a sequence-based Lao lead
+              zh: 越南野外记录及老挝序列线索
+            referenceId: ref-fd808df8-a166-4c27-a764-ab873aa36e50
+            sourceKey: primary-pmc12163431-v3tm5
+            locator: "Quasipaa binhi: Species ecological notes and distribution account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e73ce942cc
+                part: body
+              zh:
+                page: zh
+                section: s-a0b4897496
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Rocky headwaters at night
+              zh: 夜间岩石溪流源头
+            referenceId: ref-fd808df8-a166-4c27-a764-ab873aa36e50
+            sourceKey: primary-pmc12163431-v3tm5
+            locator: "Quasipaa binhi: Species ecological notes and distribution account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0d2a4dc271
+                part: body
+              zh:
+                page: zh
+                section: s-5a463964fa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

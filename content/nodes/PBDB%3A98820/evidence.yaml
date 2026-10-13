@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Apterygimorphae
+    rank: superorder
+    sourceDatasetId: null
+    name:
+      zh: Apterygimorphae
+      en: Apterygimorphae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d46d5fe823
+            part: body
+          en:
+            page: en
+            section: s-4640409dbd
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2ece6b39f1
+            part: body
+          en:
+            page: en
+            section: s-29f0b86696
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Apterygimorphae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=98820
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:98820
+          readingTargets:
+            - name: Megalapteryx didinus
+              pbdbTaxonId: txn:369701
+              canonicalPath: content/nodes/PBDB%3A369701
+            - name: Pachyornis australis
+              pbdbTaxonId: txn:401554
+              canonicalPath: content/nodes/PBDB%3A401554
+            - name: Pachyornis elephantopus
+              pbdbTaxonId: txn:143730
+              canonicalPath: content/nodes/PBDB%3A143730
+            - name: Euryapteryx geranoides
+              pbdbTaxonId: txn:143733
+              canonicalPath: content/nodes/PBDB%3A143733
+            - name: Anomalopteryx didiformis
+              pbdbTaxonId: txn:335241
+              canonicalPath: content/nodes/PBDB%3A335241
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-6e3fd1aaab
+        part: body
+      en:
+        page: en
+        section: s-6cfbe44ecb
+        part: body

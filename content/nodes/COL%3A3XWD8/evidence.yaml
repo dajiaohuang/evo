@@ -1,0 +1,307 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantidactylus catalai Angel, 1935
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mantidactylus catalai
+      zh: Mantidactylus catalai
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f7d19ff22e
+            part: title
+          zh:
+            page: zh
+            section: s-fff483a856
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f7d19ff22e
+            part: body
+          zh:
+            page: zh
+            section: s-fff483a856
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c9f0c64ba2
+            part: title
+          zh:
+            page: zh
+            section: s-b96e9d7bfd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c9f0c64ba2
+            part: body
+          zh:
+            page: zh
+            section: s-b96e9d7bfd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-29328f116f
+            part: title
+          zh:
+            page: zh
+            section: s-3eb15e257a
+            part: title
+        sourceIds:
+          - primary-pmc10563080-3xwd8
+        text:
+          en:
+            page: en
+            section: s-29328f116f
+            part: body
+          zh:
+            page: zh
+            section: s-3eb15e257a
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1d65344707
+            part: title
+          zh:
+            page: zh
+            section: s-186f436c7e
+            part: title
+        sourceIds:
+          - primary-pmc10563080-3xwd8
+        text:
+          en:
+            page: en
+            section: s-1d65344707
+            part: body
+          zh:
+            page: zh
+            section: s-186f436c7e
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-ec303fefde
+            part: title
+          zh:
+            page: zh
+            section: s-3996dfd992
+            part: title
+        sourceIds:
+          - primary-pmc10563080-3xwd8
+        text:
+          en:
+            page: en
+            section: s-ec303fefde
+            part: body
+          zh:
+            page: zh
+            section: s-3996dfd992
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-359ff7e6b8
+            part: title
+          zh:
+            page: zh
+            section: s-7067a1a494
+            part: title
+        sourceIds:
+          - primary-pmc10563080-3xwd8
+        text:
+          en:
+            page: en
+            section: s-359ff7e6b8
+            part: body
+          zh:
+            page: zh
+            section: s-7067a1a494
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-6e21b78c3a
+            part: body
+          zh:
+            page: zh
+            section: s-cafbf8ee2a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantidactylus catalai
+          url: https://www.checklistbank.org/dataset/316115/taxon/3XWD8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10563080-3xwd8
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Mantidactylus catalai: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8833026c88
+        part: body
+      zh:
+        page: zh
+        section: s-e4aad0369f
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani13172800
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        sourceKey: primary-pmc10563080-3xwd8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10563080/article.xml
+        sourceConcept: Mantidactylus catalai
+        evidenceRead: "Mantidactylus catalai: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A pointed snout and flattened head distinguish the examined material
+              zh: 检查材料具有突出尖吻和扁平头部
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-3xwd8
+            locator: PMC10563080 reading-sections section 8 paragraphs 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9a6db08a45
+                part: body
+              zh:
+                page: zh
+                section: s-ac0f388e80
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Water-edge holes and rocks were used by day and night
+              zh: 白昼与夜间利用水边孔穴及岩石
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-3xwd8
+            locator: PMC10563080 reading-sections section 8 paragraphs 9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-689834a314
+                part: body
+              zh:
+                page: zh
+                section: s-eb1af57192
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: distribution
+            heading:
+              en: The revision places confirmed records in southeastern rainforest
+              zh: 修订将确认记录置于东南部雨林
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-3xwd8
+            locator: PMC10563080 reading-sections section 8 paragraphs 10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f09b3ce3f0
+                part: body
+              zh:
+                page: zh
+                section: s-0ea389e1e0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Resurrection includes a specific historical sequence reassignment
+              zh: 恢复种名包含特定历史序列的重新归属
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-3xwd8
+            locator: PMC10563080 reading-sections section 8 paragraphs 1, 11; section 7 paragraph 0; section 1 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8e3fdc7398
+                part: body
+              zh:
+                page: zh
+                section: s-1f9c373ba5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Plemmyradytes shintoni
+    rank: species
+    sourceTaxonId: txn:344178
+    name:
+      en: Plemmyradytes shintoni
+      zh: Plemmyradytes shintoni
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-8b38d8016d
+            part: body
+          zh:
+            page: zh
+            section: s-f54e501662
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-6b95f14292
+            part: body
+          zh:
+            page: zh
+            section: s-e7e4245609
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-744887f46f
+            part: body
+          zh:
+            page: zh
+            section: s-d3d2dac8c8
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:344178; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "A. K. Huttenlocker, J. D. Pardo, and B. K. Small. 2007. Plemmyradytes shintoni, gen. et sp. nov., an Early Permian amphibian (Temnospondyli: Dissorophoidea) from the Eskridge Formation, Nebraska. Journal of Vertebrate Paleontology 27:316-328"
+    occurrenceEvidence:
+      - occurrenceId: occ:1333888
+        collectionId: col:179620
+        acceptedTaxonId: txn:344178
+        identifiedName: Plemmyradytes shintoni n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:59594
+        bibliography: "A. K. Huttenlocker, J. D. Pardo, and B. K. Small. 2007. Plemmyradytes shintoni, gen. et sp. nov., an Early Permian amphibian (Temnospondyli: Dissorophoidea) from the Eskridge Formation, Nebraska. Journal of Vertebrate Paleontology 27:316-328"
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Richardson
+        stratigraphy:
+          group: Council Grove
+          formation: Eskridge
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 293.52
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-744887f46f
+            part: body
+          zh:
+            page: zh
+            section: s-d3d2dac8c8
+            part: body
+        sourceIds: []

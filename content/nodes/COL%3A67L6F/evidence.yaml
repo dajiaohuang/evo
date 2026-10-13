@@ -1,0 +1,82 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aotus griseimembra Elliot, 1912
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Gray-legged Night Monkey
+      zh: 灰腿夜猴
+    sections:
+      - topic: study-site
+        text:
+          en:
+            page: en
+            section: s-e417d9c470
+            part: body
+          zh:
+            page: zh
+            section: s-422246d44f
+            part: body
+        sourceIds:
+          - griseimembra2021
+      - topic: feeding-and-space
+        text:
+          en:
+            page: en
+            section: s-5d108d6e7e
+            part: body
+          zh:
+            page: zh
+            section: s-4c27f6df56
+            part: body
+        sourceIds:
+          - griseimembra2021
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Aotus griseimembra Elliot, 1912
+          url: https://www.checklistbank.org/dataset/316115/taxon/67L6F
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent identity; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-0b1f66c4-837f-817e-aab1-2e54600e4bfc
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common-name crosswalk; not occurrence, ecology or a complete range.
+            zh: 支持英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: griseimembra2021
+        referenceId: ref-2840108f-f1e7-8c29-ad88-228ea02ce169
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 2018–2019 study of three A. lemurinus groups and one A. griseimembra group at three Colombian sites; supports the site-specific observations and group estimates stated here.
+            zh: 2018—2019 年在哥伦比亚三个地点研究三群 A. lemurinus 和一群 A. griseimembra；支持本页所述局地观察和群体估算。
+    limitations:
+      en:
+        page: en
+        section: s-5091b653fc
+        part: body
+      zh:
+        page: zh
+        section: s-da6b014d6b
+        part: body

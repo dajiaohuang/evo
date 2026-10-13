@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ophryophryne hansi
+  displayName: Ophryophryne hansi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SQZZ
+  sourceIndexes:
+    - name:
+        en: Ophryophryne hansi
+        zh: Ophryophryne hansi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SQZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/180
+            queryName: Ophryophryne hansi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/85
+            queryName: Megophrys hansi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7735d5a735
+      - s-3c54b60d27
+      - s-6b39015c1c
+      - s-37c1b0aad1
+      - s-71aa65b242
+      - s-170385e2e0
+      - s-610dd70be8
+      - s-2d7ee28863
+    zh:
+      - s-58971a2908
+      - s-1ec4350f5b
+      - s-81479137be
+      - s-f99ce6df03
+      - s-4557b6a2ee
+      - s-d7dbe791fa
+      - s-d4b9f2c64f
+      - s-701fcb8ed9

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon canastrensis
+  displayName: Ololygon canastrensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49927
+  sourceIndexes:
+    - name:
+        en: Ololygon canastrensis
+        zh: Ololygon canastrensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "49927"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/111
+            queryName: Ololygon canastrensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/33
+            queryName: Scinax canastrensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/458
+            queryName: Hyla canastrensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b43e998b52
+      - s-56109a1789
+      - s-d5818eb4bc
+      - s-3cf2b700a7
+      - s-136626f06f
+      - s-1089cbd7ca
+      - s-5b0424836e
+      - s-e1f38f835c
+      - s-37c2582992
+      - s-722584e248
+      - s-b2fa0f414b
+      - s-e08f867bdf
+      - s-6cd18256c5
+    zh:
+      - s-7af6f1590e
+      - s-24edb3ced7
+      - s-67b7a94ad9
+      - s-4953f32298
+      - s-cd56744a5a
+      - s-eefe23d83c
+      - s-e3d26c985e
+      - s-7d319810a1
+      - s-cf95bf5cd8
+      - s-579024ecad
+      - s-537ef8d9a7
+      - s-410a5afae5
+      - s-e3945302f6

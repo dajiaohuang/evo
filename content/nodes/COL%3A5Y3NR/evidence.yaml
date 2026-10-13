@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cheirogaleus andysabini Lei et al., 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 安布尔山侏狐猴
+      en: Montagne d'Ambre Dwarf Lemur
+    sections:
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-875463ff00
+            part: body
+          en:
+            page: en
+            section: s-ad5530a65a
+            part: body
+        sourceIds:
+          - lei2015
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Cheirogaleus andysabini
+          url: https://www.checklistbank.org/dataset/316115/taxon/5Y3NR
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-358d8674-bbfe-89c8-a2ea-0f0b20bff955
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页所用英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine COL26.8 accepted classification.
+      - id: lei2015
+        referenceId: ref-d28c3387-26e5-8ed1-a48d-ce2413d8cbe1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Montagne d'Ambre 2005 年调查和 2015 年补充采样后的遗传、形态描述；分布结论受已采集地点限制。
+            en: Supports the genetic and morphological description following the 2005 Montagne d'Ambre survey and additional 2015 sampling; distribution conclusions are limited to sampled localities.
+    limitations:
+      zh:
+        page: zh
+        section: s-7804f714fd
+        part: body
+      en:
+        page: en
+        section: s-e1ab1cf1a0
+        part: body

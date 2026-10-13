@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla sagorum
+  displayName: Plectrohyla sagorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5CW
+  sourceIndexes:
+    - name:
+        en: Plectrohyla sagorum
+        zh: Plectrohyla sagorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5CW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/444
+            queryName: Plectrohyla sagorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/7
+            queryName: Hyla sagorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f6be1e7b42
+      - s-12fc769705
+      - s-ae89a96837
+      - s-286c2e23c9
+      - s-9c59c13de4
+      - s-cfc4f31fe5
+      - s-4127a14242
+      - s-dfc9a0ff34
+      - s-1d55e1fba8
+      - s-dbc5b4c2cd
+      - s-92ccb0963a
+    zh:
+      - s-f66f3bf116
+      - s-21c89e31db
+      - s-6fa07f6836
+      - s-a09dc84294
+      - s-3749ba2518
+      - s-63a2887274
+      - s-0f232faf76
+      - s-2021ee31ab
+      - s-5e177b8d5b
+      - s-d7cac9981c
+      - s-bd5199afd8

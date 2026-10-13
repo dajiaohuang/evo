@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cophixalus variabilis
+    name:
+      en: Cophixalus variabilis
+      zh: Cophixalus variabilis
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Cophixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Cophixalus variabilis in the version 3 classification
+          zh: Cophixalus variabilis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-91c3e2f69b
+            part: body
+          zh:
+            page: zh
+            section: s-3cf77e0374
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a1fa3ca167
+            part: body
+          zh:
+            page: zh
+            section: s-09bbfddd7d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1264, 1265; Reference.csv rows 332
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1264
+        values:
+          - Microhylidae
+          - Cophixalus
+          - Cophixalus variabilis
+          - NA
+          - "15.5"
+          - "5.115"
+          - "6.045"
+          - "2.015"
+          - "0.837"
+          - NA
+          - "1.5345"
+          - "1.3175"
+          - NA
+          - "7.285"
+          - "2.015"
+          - NA
+          - "4.34"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.06"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9145"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.744"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1265
+        values:
+          - Microhylidae
+          - Cophixalus
+          - Cophixalus variabilis
+          - NA
+          - "16.8"
+          - "5.376"
+          - "6.216"
+          - "2.016"
+          - "1.008"
+          - NA
+          - "1.6128"
+          - "1.3776"
+          - NA
+          - "8.064"
+          - "2.184"
+          - NA
+          - "4.704"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.736"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.0416"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.8232"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 332
+        values:
+          - Anura
+          - Cophixalus_variabilis
+          - "Kraus, F., & Allison, A. (2006). Three new species of Cophixalus (Anura: Microhylidae) from southeastern New Guinea. Herpetologica, 62(2), 202-220. https://doi.org/10.1655/05-09.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - HAL
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - Y45K
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis conspicillatus
+  displayName: Pristimantis conspicillatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJC7
+  sourceIndexes:
+    - name:
+        en: Pristimantis conspicillatus
+        zh: Pristimantis conspicillatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJC7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/212
+            queryName: Pristimantis conspicillatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/61
+            queryName: Eleutherodactylus conspicillatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/367
+            queryName: Hylodes conspicillatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/368
+            queryName: Lithodytes conspicillatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/116
+            queryName: Eleutherodactylus conspicillatus conspicillatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d00a39af98
+      - s-8429a8c136
+      - s-15f85d89c0
+      - s-89f5e4cbad
+      - s-7fa4ed9fa3
+      - s-0d10fd4c61
+      - s-e960136e83
+      - s-955fbd24df
+      - s-5bdb75d6e7
+      - s-c3e83d0208
+      - s-7fd1b4693f
+      - s-05450a3656
+      - s-05d80acc00
+      - s-9847865cdd
+      - s-d76a012dcc
+      - s-b1f395e0e7
+      - s-a6896611e8
+      - s-e0777c37ec
+    zh:
+      - s-95f4bdaef8
+      - s-959d16939b
+      - s-d5c5b109b7
+      - s-0cb57dd0c7
+      - s-1136dca44d
+      - s-08a6c733fb
+      - s-1bccc218e9
+      - s-75f176d3e7
+      - s-a30b091cce
+      - s-3507838f78
+      - s-a91caad571
+      - s-9f1d45a345
+      - s-5ae9f85b2a
+      - s-560de7eabe
+      - s-4b547602a1
+      - s-7e4f696948
+      - s-d26af9fe44
+      - s-1b4b2e6204

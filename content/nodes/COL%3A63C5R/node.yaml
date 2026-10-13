@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mixophyes
+  displayName: Mixophyes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63C5R
+  sourceIndexes:
+    - name:
+        en: Mixophyes
+        zh: Mixophyes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63C5R
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/59
+            queryName: Mixophyes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 73
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ec3e8e400
+      - s-b598f7fa9f
+      - s-1c9165faf9
+      - s-37f4f02050
+      - s-bea9e294fd
+      - s-3777b7077c
+      - s-fd9a15cf74
+      - s-79100e7284
+      - s-44a4275e2f
+      - s-6f05fe8a24
+      - s-6a588b4c40
+      - s-144c824bfc
+      - s-15f93732fe
+      - s-5da69c510f
+      - s-5df81f8073
+      - s-72c1e854c0
+      - s-5039ca2ce4
+      - s-f04c8650da
+      - s-d7d945177c
+      - s-ffe85d6ad0
+    zh:
+      - s-88479d67bd
+      - s-740f6dcda8
+      - s-65d55821e1
+      - s-4117dddb66
+      - s-717f03aa9e
+      - s-7e1c7c8ca6
+      - s-0a506bc10d
+      - s-05b4de9c72
+      - s-69785ead84
+      - s-ee7d07bdad
+      - s-6dd66da294
+      - s-10767f949e
+      - s-d759f4f1b3
+      - s-e1bc540a85
+      - s-cd0058b950
+      - s-6c83246bb1
+      - s-8ca94ba991
+      - s-607b6cd653
+      - s-51848542e4
+      - s-e8c7b1033c

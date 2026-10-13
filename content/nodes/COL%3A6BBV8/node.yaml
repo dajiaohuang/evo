@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor persimilis
+  displayName: Craugastor persimilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BBV8
+  sourceIndexes:
+    - name:
+        en: Craugastor persimilis
+        zh: Craugastor persimilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BBV8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/156
+            queryName: Craugastor persimilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/488
+            queryName: Eleutherodactylus persimilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/236
+            queryName: Microbatrachyls persimilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4670337f99
+      - s-ff0f71d198
+      - s-55ae3e9377
+      - s-414a1a6c4d
+      - s-43df6756df
+      - s-8dc1169aef
+      - s-a25faed62f
+      - s-cdacd208ff
+    zh:
+      - s-ad6fa6d4a0
+      - s-7a6047b070
+      - s-65dfb722d6
+      - s-f130a0fff1
+      - s-ef8bed767b
+      - s-7d212c2cd5
+      - s-60630fa64b
+      - s-1f9a43b7ff

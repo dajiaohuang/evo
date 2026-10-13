@@ -1,0 +1,12 @@
+## Which source name is assigned to this tadpole record? {#s-2d576c4775}
+This record shows how TadpoleTraits files tadpoles under Limnodynastes lignarius. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Limnodynastes lignarius in Limnodynastes and Limnodynastidae. No literature rows are present. In the image-measurement table, rows 727, 728, 729, 730, 731, 732, 733 list Limnodynastes lignarius in both the source Species and ASTW assignment fields; rows 734, 735 list source Species Megistolotis lignarius → Species (ASTW) Limnodynastes lignarius. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-c630c2bd6a}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 0 literature rows and 9 image-measurement rows for this source record. No literature rows are present; the image rows are the only measurements in this entry. Image-table Stage values are 28 (row 727); 39 (row 728); 35 (row 729); 36 (rows 730, 732, 733); 37 (row 731); 29 (row 734); 26 (row 735); Type labels are Ratio, Measurement and image types are Color image, Hand-drawn picture, Black-and-white image. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-d8e284264c}
+The image-derived records support these source proportions: body length / total length = 0.363988 (image row 727, stage 28, Color image); tail length / total length = 0.632768 (image row 727, stage 28, Color image); maximum body height / total length = 0.145592 (image row 727, stage 28, Color image); maximum tail height / total length = 0.142601 (image row 727, stage 28, Color image); tail muscle height / total length = 0.077260 (image row 727, stage 28, Color image). Each value describes only its cited image row; it is not a species-wide estimate.
+
+## Where do the supplied ratios disagree? {#s-c09f10340a}
+The source ratio cells in image rows 730, 731, 732, 733, 734 contain 14 discrepancies from the quotient of the same-row numerator and total length, including fields TaL/TL, TMH/TL, DFH/TL, VFH/TL, TMW/TL, MTH/TL. Their original values remain in the evidence record; no correction is substituted and these cells are not used as proportions.
+

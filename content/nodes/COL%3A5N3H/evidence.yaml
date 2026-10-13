@@ -1,0 +1,235 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Megastomatohyla Faivovich, Haddad, Garcia, Frost, Campbell & Wheeler, 2005
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Megastomatohyla
+      zh: Megastomatohyla
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-01c20139b1
+            part: title
+          zh:
+            page: zh
+            section: s-a361feb195
+            part: title
+        text:
+          en:
+            page: en
+            section: s-01c20139b1
+            part: body
+          zh:
+            page: zh
+            section: s-a361feb195
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a03097e3ae
+            part: title
+          zh:
+            page: zh
+            section: s-04bdbb957a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a03097e3ae
+            part: body
+          zh:
+            page: zh
+            section: s-04bdbb957a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-2cfd54ee10
+            part: title
+          zh:
+            page: zh
+            section: s-56ca962341
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2cfd54ee10
+            part: body
+          zh:
+            page: zh
+            section: s-56ca962341
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-dd8e176c40
+            part: title
+          zh:
+            page: zh
+            section: s-49be1b9515
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dd8e176c40
+            part: body
+          zh:
+            page: zh
+            section: s-49be1b9515
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-077012cf5a
+            part: title
+          zh:
+            page: zh
+            section: s-3953305ecf
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3YZH9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3YZH9
+            label:
+              en: Megastomatohyla mixe
+              zh: Megastomatohyla mixe
+          - kind: catalogue
+            colId: 6R9LY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6R9LY
+            label:
+              en: Megastomatohyla mixomaculata
+              zh: Megastomatohyla mixomaculata
+          - kind: catalogue
+            colId: 3YZHB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3YZHB
+            label:
+              en: Megastomatohyla nubicola
+              zh: Megastomatohyla nubicola
+          - kind: catalogue
+            colId: 3YZHC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3YZHC
+            label:
+              en: Megastomatohyla pellita
+              zh: Megastomatohyla pellita
+        text:
+          en:
+            page: en
+            section: s-077012cf5a
+            part: body
+          zh:
+            page: zh
+            section: s-3953305ecf
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Megastomatohyla
+          url: https://www.checklistbank.org/dataset/316115/taxon/5N3H
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Megastomatohyla; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-32890c7cb8
+        part: body
+      zh:
+        page: zh
+        section: s-9df75d1680
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Megastomatohyla
+      sourceRowIds:
+        - Anf2470
+        - Anf2471
+        - Anf2472
+        - Anf2473
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 3
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 4
+      currentConceptEquivalenceCertified: false

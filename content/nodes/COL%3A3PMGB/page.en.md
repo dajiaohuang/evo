@@ -1,0 +1,6 @@
+## Leaflets, flowers and fruit {#s-d8c850b0b4}
+The historical Flora of Panama account describes a much-branched shrub up to 2.5 m tall. Its slender stems ascend; young stems have faint lines extending from the nodes and later become round. Close-lying hairs cover the plant. Leaves bear 7–19 leaflets, usually 11–15. The narrowly elliptic to obovate leaflets have rounded, short-pointed tips and rounded or broadly wedge-shaped bases. The smallest lower leaflets are about 10 × 3 mm; the largest reach 24 × 8 mm, while middle leaflets are typically 15–17 × 5–7 mm. They are greener and less densely hairy above. Dense axillary racemes are about 4 cm long, reaching 5 cm in fruit and remaining shorter than the largest mature leaves. Flowers are dull red and about 5 mm long. Fruits are straight or slightly curved, 15–20 mm long, strongly pinched between seeds and taper to a short beak; each has 2–4 seeds. Seeds are smooth, dull brown and 2–3 mm long. This historical regional account gives no sampling frame or observation date and is not a current or global description.
+
+## A historical range statement {#s-edd7a30e61}
+The same Flora of Panama source describes the species as endemic to Panama. This is a historical regional statement, not a current global range; the source does not classify the records as native, introduced, cultivated, escaped or wild.
+

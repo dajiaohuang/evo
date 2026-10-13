@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis nangaritza
+  displayName: Pristimantis nangaritza
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCC8G
+  sourceIndexes:
+    - name:
+        en: Pristimantis nangaritza
+        zh: Pristimantis nangaritza
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCC8G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/431
+            queryName: Pristimantis nangaritza
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6c2318ad53
+      - s-d1da701175
+      - s-123049d80f
+      - s-11deb51f5c
+      - s-3f884ec0e1
+      - s-cf18fd7601
+      - s-96a91b5ac0
+      - s-25fcf88437
+      - s-bc7bc0847f
+      - s-731414d837
+      - s-905e711463
+      - s-1e517ed12d
+    zh:
+      - s-70b539bfdd
+      - s-102c70e682
+      - s-49cf3706a7
+      - s-eb0ed3bd34
+      - s-66864c83c7
+      - s-8e6c9d195d
+      - s-e32606f054
+      - s-c324102a4c
+      - s-fad261d5f8
+      - s-254a9939e9
+      - s-a72e5676ad
+      - s-acaa86bf1c

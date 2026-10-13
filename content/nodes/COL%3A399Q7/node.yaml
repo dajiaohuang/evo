@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus ruthae
+  displayName: Eleutherodactylus ruthae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399Q7
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus ruthae
+        zh: Eleutherodactylus ruthae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399Q7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/320
+            queryName: Eleutherodactylus ruthae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/52
+            queryName: Pelorius ruthae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/489
+            queryName: Eleutherodactylus ruthae ruthae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c4eed2ae9
+      - s-7a43f8abb2
+      - s-e26fd6786f
+      - s-62f32c84a9
+      - s-5ea70b792f
+      - s-531d277eaa
+      - s-34f85796c7
+      - s-31d9f178d3
+      - s-ff5825cc5f
+      - s-97323fcfd0
+    zh:
+      - s-eb34c01115
+      - s-7312800982
+      - s-29979519b1
+      - s-be5d573dbf
+      - s-24d555ee78
+      - s-a3b97f8e09
+      - s-1f2a680d30
+      - s-d515367e8d
+      - s-a8978415d9
+      - s-2be03efe04

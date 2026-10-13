@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cryptothylax greshoffii
+  displayName: Cryptothylax greshoffii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BNBW
+  sourceIndexes:
+    - name:
+        en: Cryptothylax greshoffii
+        zh: Cryptothylax greshoffii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BNBW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/249
+            queryName: Cryptothylax greshoffii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/145
+            queryName: Hylambates greshoffii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-782b9eb88d
+      - s-4b2a98109b
+      - s-4f5621468f
+      - s-6891792b8e
+      - s-a4e2c6debb
+      - s-ea7dcacaa1
+      - s-50ace12e82
+      - s-87bd756019
+      - s-da63ddf95d
+      - s-909b4c8fb3
+      - s-1ef4c0a950
+      - s-05660bda25
+      - s-fb8d0371bc
+      - s-8e5c4ec0d4
+      - s-6c3227639a
+      - s-cad64eeacf
+      - s-e763c9cea0
+      - s-eb19fe0f4d
+      - s-c4310815c6
+    zh:
+      - s-85585decd2
+      - s-63a0dfdbd3
+      - s-afb379a3d9
+      - s-d25f781b3f
+      - s-ccaeae6808
+      - s-4f365bedf9
+      - s-3538ca0e42
+      - s-35bcfa8c76
+      - s-129fc73a68
+      - s-93c3dfd0cf
+      - s-9038907873
+      - s-6a991d4ec8
+      - s-ea09a16eee
+      - s-7a982bed02
+      - s-30e03167f8
+      - s-3ce20023ae
+      - s-d99838afb5
+      - s-865951e15f
+      - s-9f890020af

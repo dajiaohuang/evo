@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina parkeri
+  displayName: Austrochaperina parkeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JW26
+  sourceIndexes:
+    - name:
+        en: Austrochaperina parkeri
+        zh: Austrochaperina parkeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JW26
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/362
+            queryName: Austrochaperina parkeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9e938e0d67
+      - s-ce1b6fabba
+      - s-2f4786a912
+      - s-a34edf4e34
+      - s-7c73319b26
+      - s-9a33b71638
+      - s-308be08a3a
+      - s-e7e269c6ae
+      - s-6a3c962aab
+    zh:
+      - s-0e5597d757
+      - s-a4fb33ea64
+      - s-d0148abed2
+      - s-c6bf3b21f5
+      - s-f92da57fd3
+      - s-f8fa6ab155
+      - s-4670e7100b
+      - s-b161c910bd
+      - s-35f9d51550

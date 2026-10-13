@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne bibronii
+  displayName: Pseudophryne bibronii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P7FX
+  sourceIndexes:
+    - name:
+        en: Pseudophryne bibronii
+        zh: Pseudophryne bibronii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P7FX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/433
+            queryName: Pseudophryne bibronii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/102
+            queryName: Pseudophryne barkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/158
+            queryName: Bufo proteus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c627b05448
+      - s-7f97cf835c
+      - s-0dc8d0a908
+      - s-fd98d31bed
+      - s-67b6a87dee
+      - s-d673d07195
+      - s-8a958dc904
+      - s-7603d8d80f
+      - s-c2a413d5fd
+      - s-a0bec228a2
+      - s-3a203a2ec9
+      - s-589d1ab4a5
+    zh:
+      - s-b049365497
+      - s-37e34ca111
+      - s-67b40d5b1b
+      - s-d82d00939a
+      - s-f0ce2bbd14
+      - s-48d5ca868a
+      - s-4571e629f2
+      - s-d0c1ae8f88
+      - s-b9e9e794ac
+      - s-780114eef5
+      - s-afb37e7088
+      - s-77d458e46e

@@ -1,0 +1,138 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-95fb426f2d
+          part: title
+        zh:
+          page: zh
+          section: s-c310746dcb
+          part: title
+      text:
+        en:
+          page: en
+          section: s-95fb426f2d
+          part: body
+        zh:
+          page: zh
+          section: s-c310746dcb
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-e050966449
+          part: title
+        zh:
+          page: zh
+          section: s-f2c7fdc1aa
+          part: title
+      text:
+        en:
+          page: en
+          section: s-e050966449
+          part: body
+        zh:
+          page: zh
+          section: s-f2c7fdc1aa
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-fa8f53ca5a
+          part: title
+        zh:
+          page: zh
+          section: s-8e73c9f92a
+          part: title
+      text:
+        en:
+          page: en
+          section: s-fa8f53ca5a
+          part: body
+        zh:
+          page: zh
+          section: s-8e73c9f92a
+          part: body
+  atlas-node:
+    name: Equisetopsida
+    commonName: Horsetails
+    commonNameZh: 木贼类
+    rank: class
+    taxonId: txn:54758
+    firstAppearance: 375
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:equisetopsida
+      claimKind: scientific
+      claimType: morphology
+      statement: In the phylogeny recovered by Elgorriaga and colleagues, the lineage containing Equisetaceae and Neocalamites shows a proposed trend toward smaller size and more compact strobili; combinations resembling modern horsetail traits were present by the Jurassic. This trend depends on that branching hypothesis and does not describe every member of Equisetopsida.
+      confidence: medium
+      confidenceRationale: The authors present the trend as an implication of their recovered branching pattern and describe size reduction tentatively.
+      referenceLinks:
+        - referenceId: elgorriaga-2018-horsetails
+          relation: supports
+          figure: Figure 3
+          quoteLocator: "Discussion immediately before Age of the Equisetum crown group: contrasting Calamitaceae and Equisetaceae plus Neocalamites trajectories"
+    - subjectId: taxon:equisetopsida
+      claimKind: scientific
+      claimType: topology
+      statement: A character analysis combining living and fossil forms places Equisetum within the sampled sphenopsids and reconstructs transitions among horsetails. This placement depends on the study's character matrix; it is not a date for the origin of Equisetopsida.
+      confidence: medium
+      confidenceRationale: Including living and fossil terminals broadens the comparison, while incomplete fossils and character coding leave the deeper branching pattern dependent on the model.
+      referenceLinks:
+        - referenceId: elgorriaga-2018-horsetails
+          relation: supports
+          pages: 1286–1303
+          quoteLocator: Materials and methods; Figures 2–5; phylogenetic results
+    - subjectId: taxon:equisetopsida
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The displayed range 372.2–0 Ma is a broad Sphenopsida/Equisetopsida navigation lineage, from the Devonian record to living horsetails. It is not the origin date of crown Equisetum, a chain of direct ancestors, or evidence that one species persisted throughout.
+      confidence: medium
+      confidenceRationale: Elgorriaga et al. (2018) describe a Devonian fossil history for Sphenopsida and analyze fossil and living horsetails; the ICS chart supplies the Famennian numerical boundary. The medium confidence rating applies only to this broad navigation concept and its named-interval conversion.
+      referenceLinks:
+        - relation: supports
+          referenceId: elgorriaga-2018-horsetails
+          pages: 105:1286–1303
+          figure: Table 1; Figure 3
+          quoteLocator: Premise and fossil-inclusive Sphenopsida analysis
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Famennian numerical boundary
+  claim-rationales.zh:
+    - 讨论明确将该趋势作为所恢复拓扑的推论，并对体型缩小采用试探性措辞。
+    - 现生与化石末端扩大了比较范围，但性状编码和不完整化石使深层分支格局仍依赖模型。
+    - Elgorriaga 等（2018）明确描述楔叶类具有泥盆纪化石史，并分析化石与现生木贼。中等置信度仅限于这一宽泛导航概念及命名区间换算。
+  claim-statements.zh:
+    - 在 Elgorriaga 等人恢复的系统发育关系中，包含木贼科与 Neocalamites 的谱系呈现体型缩小、孢子穗趋于紧凑的推断趋势；到侏罗纪，已出现近似现代木贼的性状组合。该趋势依赖这一分支假说，不代表所有木贼类共有的体制。
+    - 将现生与化石性状合并分析后，木贼属被放在取样的楔叶类之中，分析也重建了木贼类内部的形态转变。这个位置取决于所用的性状矩阵，并不表示木贼类的起源年代。
+    - 这里显示的 372.2–0 Ma 是广义楔叶类／木贼类从泥盆纪记录到现生类群的导航谱系范围；它不是冠群木贼属的起源日期、直接祖先链，也不表示同一物种持续存在。
+  ranges:
+    - entityId: equisetopsida
+      rangeKind: global-composite
+      taxonomicConcept: Sphenopsida / Equisetopsida Devonian-to-living navigation lineage
+      geographicScope: Famennian sphenopsid record through living Equisetum
+      olderMa: 372.2
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The display follows the broad Sphenopsida concept used in the source, not crown Equisetum; 372.2 Ma is a named-interval conversion rather than a specimen-level date.
+      evidenceBasis: Elgorriaga et al. synthesize a Devonian sphenopsid fossil history and sample fossil and living horsetails; ICS supplies the Famennian numerical boundary.
+      confidence: medium
+      claimIds:
+        - claim:taxon:equisetopsida:range-boundary-rc50
+      referenceLocators:
+        - referenceId: elgorriaga-2018-horsetails
+          locator: 1286–1303; premise; Table 1; Figure 3; Devonian Sphenopsida record and fossil-inclusive matrix
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; Famennian boundary
+      evidenceLevel: literature-synthesized

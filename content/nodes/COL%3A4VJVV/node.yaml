@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax crospedospilus
+  displayName: Scinax crospedospilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJVV
+  sourceIndexes:
+    - name:
+        en: Scinax crospedospilus
+        zh: Scinax crospedospilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJVV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/27
+            queryName: Scinax crospedospilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/390
+            queryName: Hyla crospedospila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/391
+            queryName: Ololygon crospedospila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/392
+            queryName: Scinax crospedospila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-47737ffde3
+      - s-a90f6cc3ec
+      - s-4e3988bca1
+      - s-8d9698c9ce
+      - s-ac6ffd8f82
+      - s-787fc3c5de
+      - s-c478a07081
+      - s-6a6861ae1f
+      - s-735b867109
+      - s-6822009050
+      - s-73fcf8f92e
+      - s-369297c50f
+      - s-697f66cbcc
+      - s-f5d9b36b02
+    zh:
+      - s-6ab51b8896
+      - s-3aa0ec309b
+      - s-363c222d90
+      - s-f375cbbe66
+      - s-e1ff318db8
+      - s-d03a25d910
+      - s-a6f5b5daf4
+      - s-8c54c70753
+      - s-8e5cfbbc72
+      - s-ff448b3495
+      - s-648bffcd52
+      - s-ecb0c2c3f9
+      - s-b1e49a686e
+      - s-4ba59e1a3a

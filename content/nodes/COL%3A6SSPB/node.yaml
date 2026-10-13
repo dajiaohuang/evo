@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreobates saxatilis
+  displayName: Oreobates saxatilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SSPB
+  sourceIndexes:
+    - name:
+        en: Oreobates saxatilis
+        zh: Oreobates saxatilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SSPB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/209
+            queryName: Oreobates saxatilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/112
+            queryName: Ischnocnema saxatilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-288f1eb65a
+      - s-b1892568ab
+      - s-cf54e1e2cb
+      - s-67a473a752
+      - s-aecd6fc625
+      - s-c002c5d4c3
+      - s-5c421bac89
+      - s-8d5168675e
+      - s-58306117b3
+      - s-636e397cc4
+      - s-57a3c95bcf
+    zh:
+      - s-5aa6b32a80
+      - s-1864725ca3
+      - s-ae8f9e26e2
+      - s-027b8fb848
+      - s-626a650b20
+      - s-abc3cd7159
+      - s-462fb514a0
+      - s-07f94964a8
+      - s-259e8671a9
+      - s-992b401a8c
+      - s-d40ad60628

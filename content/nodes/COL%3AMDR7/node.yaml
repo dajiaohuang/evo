@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa occidentalis
+  displayName: Bolitoglossa occidentalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDR7
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa occidentalis
+        zh: Bolitoglossa occidentalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDR7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/166
+            queryName: Bolitoglossa occidentalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/239
+            queryName: Bolitoglossa bilineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a0e36b9c5f
+      - s-ed1755ae73
+      - s-43c3670979
+      - s-374fd67986
+      - s-cf399c5066
+      - s-862a943ad9
+      - s-320cc69bdd
+      - s-278caf2342
+      - s-288cbd84d9
+      - s-fc0627c3d5
+      - s-d09e903896
+      - s-e8c7b66865
+      - s-186cef1b0b
+      - s-b57190a640
+      - s-cc50aea3cb
+      - s-e59e521286
+      - s-1345b0fd31
+      - s-555b2a46ec
+      - s-25c483d334
+      - s-bcee92e2f4
+      - s-5b1de1407c
+      - s-3ffc48a56e
+      - s-800f7bd3b3
+      - s-9d6403d8a1
+      - s-7e0bf796a8
+      - s-bfe41f8971
+      - s-f587e5e845
+      - s-0cc0df5e7a
+    zh:
+      - s-843a2a03fa
+      - s-d4f2398380
+      - s-9974c80696
+      - s-1f11075612
+      - s-1e01960471
+      - s-1c829d2ab6
+      - s-c214364be3
+      - s-c2bd71f41d
+      - s-54883851cc
+      - s-df2db5ca43
+      - s-ec20ff6efe
+      - s-f132261fdf
+      - s-129a38823c
+      - s-cbdaaaf239
+      - s-4c6b3f54c2
+      - s-a2cbb799d9
+      - s-2431cc6ad1
+      - s-f210a96823
+      - s-16a95762df
+      - s-c67ad8b6ea
+      - s-59f42cf97e
+      - s-ad7db243f3
+      - s-085ebdfb68
+      - s-fd9dace7c2
+      - s-e183264a9e
+      - s-1d0adada43
+      - s-26b1944624
+      - s-de227ae886

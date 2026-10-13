@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis citriogaster
+  displayName: Pristimantis citriogaster
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJBY
+  sourceIndexes:
+    - name:
+        en: Pristimantis citriogaster
+        zh: Pristimantis citriogaster
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJBY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/204
+            queryName: Pristimantis citriogaster
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/309
+            queryName: Eleutherodactylus citriogaster
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-95c877b9bf
+      - s-487178be8a
+      - s-827d202d43
+      - s-9660982fec
+      - s-66d38b2ac6
+      - s-9d06cf5393
+      - s-32eb1ce2a0
+      - s-825e166f27
+      - s-3d50517ad2
+    zh:
+      - s-c7b70262c1
+      - s-e0f424f74f
+      - s-e3589e8507
+      - s-11198b6991
+      - s-57ac243f9b
+      - s-6e238e2b9f
+      - s-425e1bc953
+      - s-373e9d521e
+      - s-b880a7a9dc

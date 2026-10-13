@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Commelina imberbis Ehrenb. ex Hassk.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage XFL3, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage XFL3; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/XFL3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage XFL3
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000359473-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL XFL3 / WFO wfo-0000359473
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_3099_0
+        referenceId: ref-d4177342-6887-85a8-a668-90df768efb9d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Commelina imberbis Ehrenb. ex Hassk. account; SANBI/WFO archive rows 49576 (Morphology), 55458 (Habitat), source identifier 3099.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Weedy annuals with long, straggling stems rooting at the nodes, usually glabrous. Leaves broadly linear-acuminate, cordate and amplexicaul at the base, 50-90 x 10-15 mm, pale green, margins often crenulate, minutely and sparsely setaceous with the setae appressed to the leaf-surface. Spathes pedunculate, short and broad, free or fused basally, acute, c. 20 x 10 mm. Upper cyme 0 or represented by a peduncle. Flowers with blue petals. Capsule quadrate with the dorsal locule aborted or rarely 1-seeded; seeds cylindric-ellipsoid, 3 mm long, smooth, farinose with a short thick hilum, slightly marbled.
+            textZh: Commelina imberbis Ehrenb. ex Hassk. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_3099_0
+            locator: "SANBI/WFO archive Morphology row 49576; source identifier 3099.0; cited publication: Obermeyer, AA; Faden, RB. 1985. Commelinaceae, Fl. S. Africa 4(2): 23 - 60. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Weed-like in behaviour. Said to be weed-killer resistant.
+            textZh: 该 SANBI 区域物种条目记录的生境：Weed-like in behaviour. Said to be weed-killer resistant.
+            sourceIds:
+              - sanbi_3099_0
+            locator: "SANBI/WFO archive Habitat row 55458; source identifier 3099.0; cited publication: Obermeyer, AA; Faden, RB. 1985. Commelinaceae, Fl. S. Africa 4(2): 23 - 60. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

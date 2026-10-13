@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis albopunctata
+  displayName: Chiasmocleis albopunctata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TYZP
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis albopunctata
+        zh: Chiasmocleis albopunctata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TYZP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/234
+            queryName: Chiasmocleis albopunctata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/316
+            queryName: Engystoma albopunctatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/317
+            queryName: Gastrophryne albopunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-66653cbba3
+      - s-5cfa139ac4
+      - s-484a924f5c
+      - s-39f6cd863c
+      - s-71c4ad9d78
+      - s-af913c02f7
+      - s-d5fd714c4c
+      - s-e4a8145e65
+      - s-449349bfca
+      - s-1d88d486a2
+      - s-31ea422e9f
+      - s-44558ea054
+      - s-7ede6e8a13
+      - s-b308de237c
+      - s-45fb5760c8
+      - s-e3fabd28d6
+      - s-8b1ddfeef2
+      - s-f52478ab17
+      - s-0ec030ebe1
+    zh:
+      - s-98062b3543
+      - s-211180d51a
+      - s-d11e1364af
+      - s-ad8f475717
+      - s-726838bdb1
+      - s-dbe2edc1cb
+      - s-b616cbc918
+      - s-f5f543d1db
+      - s-08e03e25ca
+      - s-6ff50fd13e
+      - s-c12ad98c36
+      - s-bb5ac145c0
+      - s-70ea9fb219
+      - s-b099c21048
+      - s-638f192f01
+      - s-49a22ecf93
+      - s-dd7229814e
+      - s-cb886232f7
+      - s-379a35e62a

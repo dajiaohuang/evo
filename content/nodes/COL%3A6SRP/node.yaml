@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pleurodeles
+  displayName: Pleurodeles
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SRP
+  sourceIndexes:
+    - name:
+        en: Pleurodeles
+        zh: Pleurodeles
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SRP
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/183
+            queryName: Pleurodeles
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1528
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bdece7e14b
+      - s-f5d28f41dc
+      - s-ca50a27fe8
+      - s-da4d98eaf3
+      - s-f1495136d5
+      - s-800afe3ef1
+      - s-4b402c6a8f
+    zh:
+      - s-ed9935e80d
+      - s-db0e2a21e6
+      - s-2e8b7592d7
+      - s-a8b3cb6258
+      - s-83ef66aca4
+      - s-ef9d75760b
+      - s-611fbbc467

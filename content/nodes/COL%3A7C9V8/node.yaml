@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius schmidti
+  displayName: Thorius schmidti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7C9V8
+  sourceIndexes:
+    - name:
+        en: Thorius schmidti
+        zh: Thorius schmidti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7C9V8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/58
+            queryName: Thorius schmidti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1bca181e3e
+      - s-d5bfeda16e
+      - s-c31098f45c
+      - s-5dd7cd6d0d
+      - s-f4ac00e4c1
+      - s-66cb0a0295
+      - s-5ffc900c35
+      - s-beb4da0867
+      - s-5cb2a1b522
+    zh:
+      - s-cd8951a819
+      - s-49c60fc124
+      - s-98024a7ef5
+      - s-f8a3004e9c
+      - s-bfb6f5c60c
+      - s-af95b55c89
+      - s-5107b9f459
+      - s-d3f27b7b89
+      - s-dee8d397af

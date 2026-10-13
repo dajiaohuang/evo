@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Branchierpeton saberi
+    rank: species
+    sourceTaxonId: txn:397940
+    name:
+      en: Branchierpeton saberi
+      zh: Branchierpeton saberi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-e0434328cb
+            part: body
+          zh:
+            page: zh
+            section: s-7356408803
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-31b7bdba83
+            part: body
+          zh:
+            page: zh
+            section: s-4a57a06446
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-238fbceaf2
+            part: body
+          zh:
+            page: zh
+            section: s-18fe091bbb
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:397940; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Werneburg, J. W. Schneider, and S. Voigt, A. Belahmira. 2019. First African record of micromelerpetid amphibians (Temnospondyli, Dissorophoidea). Journal of African Earth Sciences
+    occurrenceEvidence:
+      - occurrenceId: occ:1475019
+        collectionId: col:205838
+        acceptedTaxonId: txn:397940
+        identifiedName: Branchierpeton saberi n. sp.
+        taxonomicDifference: null
+        referenceId: ref:70603
+        bibliography: R. Werneburg, J. W. Schneider, and S. Voigt, A. Belahmira. 2019. First African record of micromelerpetid amphibians (Temnospondyli, Dissorophoidea). Journal of African Earth Sciences
+        locality:
+          countryCode: MA
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: El Menizla
+          member: null
+        olderAgeMa: 305
+        youngerAgeMa: 300.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-238fbceaf2
+            part: body
+          zh:
+            page: zh
+            section: s-18fe091bbb
+            part: body
+        sourceIds: []

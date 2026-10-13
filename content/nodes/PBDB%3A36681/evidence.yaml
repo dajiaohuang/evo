@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Basilosaurus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Basilosaurus
+      en: Basilosaurus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b2e746866d
+            part: body
+          en:
+            page: en
+            section: s-4df3a9c4d2
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-84cfa81b45
+            part: body
+          en:
+            page: en
+            section: s-bd59a49079
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Basilosaurus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36681
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36681
+          readingTargets:
+            - name: Basilosaurus isis
+              pbdbTaxonId: txn:62984
+              canonicalPath: content/nodes/PBDB%3A62984
+            - name: Basilosaurus cetoides
+              pbdbTaxonId: txn:63132
+              canonicalPath: content/nodes/PBDB%3A63132
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-9839d7c04a
+        part: body
+      en:
+        page: en
+        section: s-7ed6950b79
+        part: body
+  atlas-node:
+    name: Basilosaurus
+    commonName: Basilosaurus
+    commonNameZh: 龙王鲸属
+    rank: genus
+    taxonId: txn:36681
+    firstAppearance: 37.7
+    lastAppearance: 35
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:basilosaurus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The atlas bounds Basilosaurus only with the sampled Basilosaurus isis material from the Birket Qarun Formation, including named hind-limb specimen UM 93231 within a broad approximately 37.7–35 Ma formation envelope; this is not a global genus range.
+      confidence: medium
+      confidenceRationale: The primary paper directly describes the Egyptian specimens. Medium confidence reflects a formation-level composite rather than a direct date on UM 93231.
+      referenceLinks:
+        - relation: supports
+          referenceId: gingerich-1990-basilosaurus-hind-limbs
+          pages: 154–157
+          figure: Figures 1–3
+          quoteLocator: Specimen and stratigraphic descriptions
+  claim-rationales.zh:
+    - 一手论文直接描述埃及标本；中等置信度反映这是组级组合区间，而非 UM 93231 的直接测年。
+  claim-statements.zh:
+    - 图谱仅以 Birket Qarun 组取样的 Basilosaurus isis 材料约束该属，其中包括处于约 3770 万—3500 万年前宽泛组级区间的具名后肢标本 UM 93231；这不是全球属级范围。
+  ranges:
+    - entityId: basilosaurus
+      rangeKind: global-composite
+      taxonomicConcept: Basilosaurus isis Egyptian hind-limb sample
+      geographicScope: Birket Qarun Formation, Wadi Al Hitan, Egypt
+      olderMa: 37.7
+      youngerMa: 35
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The broad late-Eocene formation envelope combines specimens and is not a direct date on UM 93231 or a global genus range.
+      evidenceBasis: Named specimen or explicitly bounded specimen assemblage and its stratigraphic placement in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:basilosaurus-hind-limb-specimens
+      referenceLocators:
+        - referenceId: gingerich-1990-basilosaurus-hind-limbs
+          locator: pp. 154–157; Figures 1–3

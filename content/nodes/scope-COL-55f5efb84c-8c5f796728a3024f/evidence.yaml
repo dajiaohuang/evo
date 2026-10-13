@@ -1,0 +1,458 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:83088
+    scientificName: Homo sapiens
+    commonName: Modern Humans
+    commonNameZh: 现代人类
+    rank: species
+    parentName: Homo
+    extinct: false
+    geography:
+      - Archaeological sample sites south of the Limpopo River across central and southern South Africa; 28 sampled individuals date to 10,200–150 calibrated years before present.
+      - Tam Pà Ling cave, northern Laos; TPL 6 and TPL 7 are associated with sediment-age models, not direct fossil dates.
+      - Ilsenhöhle at Ranis, Germany; a cave diet study analyzed 10 human remains alongside 52 animal remains.
+      - Ust’-Ishim, western Siberia; one directly dated femur and its genome do not delimit the species range.
+    overview:
+      page: en
+      section: s-3d15332921
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-b3d215cc6c
+        part: body
+      habitat:
+        page: en
+        section: s-a8b05e57e8
+        part: body
+      locomotion:
+        page: en
+        section: s-9b6b1d8c28
+        part: body
+      bodySize:
+        page: en
+        section: s-fb3db95290
+        part: body
+      guild:
+        page: en
+        section: s-e0f18584ee
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-49817ca250bc86
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-4c9b7abfc99d47
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-e7d28a23d7df3b
+        part: body
+      guildZh:
+        page: zh
+        section: zh-e7a2e05e0ef91f
+        part: body
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-f6a6685769
+      part: body
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-f531560279
+            part: title
+          zh:
+            page: zh
+            section: s-16473eea27
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-16473eea27
+            part: body
+          en:
+            page: en
+            section: s-f531560279
+            part: body
+        sourceIds:
+          - freidline2023
+          - smith2024
+          - fu2014
+          - jakobsson2026
+      - id: scope-and-identity
+        title:
+          en:
+            page: en
+            section: s-6b30405a0f
+            part: title
+          zh:
+            page: zh
+            section: s-a92923ba89
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6b30405a0f
+            part: body
+          zh:
+            page: zh
+            section: s-a92923ba89
+            part: body
+        sourceIds:
+          - col
+          - freidline2023
+          - smith2024
+          - jakobsson2026
+          - fu2014
+      - id: tam-pa-ling
+        title:
+          en:
+            page: en
+            section: s-37c18714c4
+            part: title
+          zh:
+            page: zh
+            section: s-95e9e8b075
+            part: title
+        text:
+          en:
+            page: en
+            section: s-37c18714c4
+            part: body
+          zh:
+            page: zh
+            section: s-95e9e8b075
+            part: body
+        sourceIds:
+          - freidline2023
+      - id: ranis-isotopes
+        title:
+          en:
+            page: en
+            section: s-322a3eb93f
+            part: title
+          zh:
+            page: zh
+            section: s-0b8b3f0221
+            part: title
+        text:
+          en:
+            page: en
+            section: s-322a3eb93f
+            part: body
+          zh:
+            page: zh
+            section: s-0b8b3f0221
+            part: body
+        sourceIds:
+          - smith2024
+      - id: southern-african-genomes
+        title:
+          en:
+            page: en
+            section: s-20b7d2059e
+            part: title
+          zh:
+            page: zh
+            section: s-bf415de5a6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-20b7d2059e
+            part: body
+          zh:
+            page: zh
+            section: s-bf415de5a6
+            part: body
+        sourceIds:
+          - jakobsson2026
+      - id: ust-ishim
+        title:
+          en:
+            page: en
+            section: s-c8e859803a
+            part: title
+          zh:
+            page: zh
+            section: s-d2e804628d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c8e859803a
+            part: body
+          zh:
+            page: zh
+            section: s-d2e804628d
+            part: body
+        sourceIds:
+          - fu2014
+      - id: different-questions
+        title:
+          en:
+            page: en
+            section: s-eafe524fba
+            part: title
+          zh:
+            page: zh
+            section: s-d81a9905e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eafe524fba
+            part: body
+          zh:
+            page: zh
+            section: s-d81a9905e3
+            part: body
+        sourceIds:
+          - freidline2023
+          - smith2024
+          - jakobsson2026
+          - fu2014
+    readerSources:
+      - id: col
+        referenceId: ref-ab4fe3e2-5f4e-8db8-a130-e3c2a8c5023a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 4
+        usage:
+          scope:
+            en: Accepted-name and classification metadata only; it does not substantiate the ancient biological evidence.
+            zh: 仅用于接受名和分类元数据，不作为古代生物学证据的来源。
+      - id: freidline2023
+        referenceId: ref-22217cd3-309c-83b2-a41d-d8b0e8de0f1c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: TPL 6 and TPL 7 morphology and sediment-age context; the fossil remains were not directly dated by the reported model.
+            zh: TPL 6、TPL 7 的形态与沉积年代背景；论文所述模型并未直接测定化石本身。
+      - id: smith2024
+        referenceId: ref-22892d94-d6b7-81d0-ab11-fff1b982e9f8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: "One cave assemblage: 10 human and 52 animal remains; layer ages are contextual, not individual direct dates."
+            zh: 一处洞穴组合：10 份人类与 52 份动物遗骸；地层年代是背景年龄，不是个体直接测年。
+      - id: jakobsson2026
+        referenceId: ref-ea4f447c-f249-8bd8-a864-61209cb993d7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: 28 ancient individuals and a study-defined modern comparison panel; conclusions are sample- and model-bounded.
+            zh: 28 名古代个体与研究定义的现代比较面板；结论受样本和模型范围限制。
+      - id: fu2014
+        referenceId: fu-2014-ust-ishim
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: One directly dated western Siberian femur and its genome; not a species origin or range boundary.
+            zh: 一根经直接测年的西西伯利亚股骨及其基因组，不代表物种起源或分布边界。
+    readerRelatedPages:
+      - targetId: pan_troglodytes
+        label:
+          en: Chimpanzee
+          zh: 黑猩猩
+        context:
+          en: Continue with another featured primate species page.
+          zh: 继续阅读另一篇精选灵长类物种页。
+      - targetId: papio_anubis
+        label:
+          en: Olive baboon
+          zh: 橄榄狒狒
+        context:
+          en: Continue with another featured primate species page.
+          zh: 继续阅读另一篇精选灵长类物种页。
+    readerLimitations:
+      en:
+        page: en
+        section: s-851d15b5f8
+        part: body
+      zh:
+        page: zh
+        section: s-89e37f7a3e
+        part: body
+    confidence: medium
+    referenceIds:
+      - col-2026-checklistbank-316115
+      - jakobsson-2026-southern-african-ancient-genomes
+      - smith-2024-ranis-early-human-diet
+  claims:
+    - subjectId: taxon:homo_sapiens
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Homo sapiens is anchored here by the directly dated Ust’-Ishim 1 femur at 46,880–43,210 cal BP (95.4% probability) and its genome; this is one individual’s calibrated age, not the species’ range or origin, and this western Siberian individual does not establish the species’ complete geographic range or every dispersal.
+      confidence: high
+      confidenceRationale: The named specimen, direct date and genome are explicit. Species-wide history and admixture geography are excluded.
+      referenceLinks:
+        - relation: supports
+          referenceId: fu-2014-ust-ishim
+          pages: 445–449
+          figure: Figures 1–4
+          quoteLocator: Direct dating; genome methods; Extended Data Figures 1–9
+    - subjectId: taxon:homo_sapiens
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Homo sapiens is displayed at 0.04688–0.04321 Ma only as one directly dated individual, not the origin or complete range of Homo sapiens. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Homo sapiens uses Fu, Q.; Li, H.; Moorjani, P.; Jay, F.; Slepchenko, S.M.; Bondarev, A.A.; Johnson, P.L.F.; Aximu-Petri, A.; Prüfer, K.; de Filippo, C.; et al. (2014) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Directly dated Ust'-Ishim 1 individual, western Siberia; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: fu-2014-ust-ishim
+          pages: 445–449
+          figure: Figures 1–4
+          quoteLocator: Direct dating; genome methods; Extended Data Figures 1–9
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+    - subjectId: taxon:homo_sapiens
+      claimKind: scientific
+      claimType: taxonomy
+      statement: COL26.8 dataset 316115 records accepted species usage 6MB3T as Homo sapiens (Linnaeus, 1758), with sourceDatasetId 2144 in the Primates classification. This statement records the pinned checklist identity only.
+      confidence: medium
+      confidenceRationale: The pinned COL26.8 checklist records accepted species usage 6MB3T, its authorship, rank, sourceDatasetId and Primates classification. This is a nomenclatural identity claim only.
+      referenceLinks:
+        - referenceId: col-2026-checklistbank-316115
+          relation: supports
+          pages: Accepted species usage 6MB3T; sourceDatasetId 2144; Primates classification
+    - subjectId: taxon:homo_sapiens
+      claimKind: scientific
+      claimType: evolution
+      statement: In the study comparison, ancient southern African individuals dated to more than 1,400 calibrated years before present fell outside the range of genetic variation in the modern-day human comparison sample and carried many variants the authors classify as Homo sapiens-specific. This finding is limited to the sampled individuals, comparison panel and the authors’ operational variant classification; it does not describe all human populations or a separate taxonomic unit.
+      confidence: medium
+      confidenceRationale: The peer-reviewed whole-genome study reports the sample dates, comparison result and operational variant classification. The result is bounded to the 28 ancient southern African individuals and specified comparison panel, not a species-wide sample.
+      referenceLinks:
+        - referenceId: jakobsson-2026-southern-african-ancient-genomes
+          relation: supports
+          quoteLocator: Abstract; Results, Unique ancient southern African ancestry
+    - subjectId: taxon:homo_sapiens
+      claimKind: scientific
+      claimType: biogeography
+      statement: The study sequenced 28 ancient individuals from archaeological sites south of the Limpopo River across central and southern South Africa. These sample localities cover individuals dated 10,200–150 calibrated years before present and do not delimit the current range of Homo sapiens.
+      confidence: medium
+      confidenceRationale: The article explicitly describes its archaeological sampling south of the Limpopo River and across central and southern South Africa. These are study localities and cannot define a modern or complete species range.
+      referenceLinks:
+        - referenceId: jakobsson-2026-southern-african-ancient-genomes
+          relation: supports
+          quoteLocator: Main, sampling description; Figure 1
+    - subjectId: taxon:homo_sapiens
+      claimKind: scientific
+      claimType: ecology
+      statement: Stable-isotope analysis of collagen from 10 human remains, interpreted with 52 animal remains at Ilsenhöhle in Ranis, indicated a homogeneous dietary signal based on large terrestrial mammals in a cold steppe–tundra setting. This claim applies to the sampled early Homo sapiens and this cave assemblage; it does not describe the diet of Homo sapiens generally.
+      confidence: medium
+      confidenceRationale: The primary article reports the isotope sample sizes and directly states the large-terrestrial-mammal diet inference. The evidence is limited to the sampled early humans and one archaeological cave context.
+      referenceLinks:
+        - referenceId: smith-2024-ranis-early-human-diet
+          relation: supports
+          quoteLocator: Abstract; Main, Ranis and LRJ layers 9–8; stable-isotope summary for 52 animal and 10 human remains
+  claim-rationales.zh:
+    - 具名标本、直接年代与基因组均明确；主张排除物种整体历史和混合地理外推。
+    - Homo sapiens 采用 Fu, Q.; Li, H.; Moorjani, P.; Jay, F.; Slepchenko, S.M.; Bondarev, A.A.; Johnson, P.L.F.; Aximu-Petri, A.; Prüfer, K.; de Filippo, C.; et al.（2014）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Directly dated Ust'-Ishim 1 individual, western Siberia；更宽泛端点保持未声明。
+    - 固定版 COL26.8 清单直接记录了接受用名 6MB3T、作者、种级等级、sourceDatasetId 和 Primates 分类。本主张仅记录命名身份。
+    - 同行评审的全基因组研究报告了样本年代、比较结果及作者的操作性变异分类。结论严格限于 28 名南部非洲古代个体和论文指定的比较组，不外推至整个物种。
+    - 论文明确描述了林波波河以南、南非中部和南部的考古采样地点。它们是研究采样位置，不能界定现代或完整物种分布。
+    - 原始论文直接报告了同位素样本量及大型陆生哺乳动物饮食推断。证据仅限于被采样的早期人类个体和一个洞穴考古背景。
+  claim-statements.zh:
+    - 此处 Homo sapiens 由直接测年的 Ust’-Ishim 1 股骨及其基因组锚定；该个体的校准年代为 46,880–43,210 cal BP（95.4% 概率），不是物种范围或起源的年代；这一西西伯利亚个体也不建立 Homo sapiens 的完整地理范围或每一次扩散。
+    - Homo sapiens 仅以 0.04688–0.04321 Ma 展示为一个直接测年的个体，而非智人的起源或完整范围。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - COL26.8 数据集 316115 将接受用名 6MB3T 记录为 Homo sapiens（Linnaeus, 1758），来源清单 sourceDatasetId 为 2144，分类路径归入 Primates。本主张仅记录固定版清单身份。
+    - 在该研究的比较中，距今超过 1,400 个校准年的南部非洲古代个体，其遗传组成落在该研究现生人类比较样本的变异范围之外，并携带多种作者归类为 Homo sapiens-specific 的变异。该结果仅适用于所采样个体、比较组和作者的操作性变异分类；它不代表所有人群，也不指向独立分类单元。
+    - 该研究对来自林波波河以南、南非中部和南部考古地点的 28 名古代个体进行了测序。样本年代为距今 10,200–150 个校准年；这些采样地点不能界定 Homo sapiens 的现今分布范围。
+    - 对 Ilsenhöhle 的 10 份人类遗骸胶原蛋白进行稳定同位素分析，并结合 52 份动物遗骸，研究指出当地早期 Homo sapiens 的饮食信号较为同质，主要来自大型陆生哺乳动物，环境为寒冷草原／苔原。此主张仅适用于该洞穴考古组合及被采样个体，不代表 Homo sapiens 的普遍饮食。
+  ranges:
+    - entityId: homo_sapiens
+      rangeKind: taxon-range
+      taxonomicConcept: Homo sapiens — source-bounded sample window
+      geographicScope: Directly dated Ust'-Ishim 1 individual, western Siberia
+      olderMa: 0.04688
+      youngerMa: 0.04321
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This display is limited to one directly dated individual, not the origin or complete range of Homo sapiens; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: Genome sequence of a 45,000-year-old modern human from western Siberia directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: medium
+      claimIds:
+        - claim:taxon:homo_sapiens:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: fu-2014-ust-ishim
+          locator: 445–449; Direct dating; genome methods; Extended Data Figures 1–9
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized
+    - entityId: homo_sapiens
+      rangeKind: global-composite
+      taxonomicConcept: Ust’-Ishim 1 genome and admixture-tract model occurrence
+      geographicScope: Irtysh River near Ust’-Ishim, western Siberia, Russia
+      olderMa: 0.04688
+      youngerMa: 0.04321
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Segment length supports an admixture interval 7,000–13,000 years before this individual under the paper’s recombination model; it does not identify a contact place, exact event count or all modern-human dispersals.
+      evidenceBasis: Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:event:ust-ishim-genome-admixture-model
+      referenceLocators:
+        - referenceId: fu-2014-ust-ishim
+          locator: 445 (95.4% calibrated age); Figure 1 (dating); Figure 6 (admixture model); Supplementary Information sections 1 (calibrated age) and 18 (admixture model)
+  field-claim-overrides:
+    - firstAppearance:
+        status: not-assessed
+      lastAppearance:
+        status: not-assessed
+      geography:
+        claimId: claim:taxon:homo_sapiens:sampled-archaeological-localities
+      overview:
+        claimId: claim:taxon:homo_sapiens:taxonomy-col26-8-identity
+      evidenceSummary:
+        claimId: claim:taxon:homo_sapiens:ancient-south-african-genomes
+      confidence:
+        claimId: claim:taxon:homo_sapiens:ancient-south-african-genomes
+      ecology.diet:
+        claimId: claim:taxon:homo_sapiens:ranis-isotope-diet
+      ecology.habitat:
+        status: not-assessed
+      ecology.locomotion:
+        status: not-assessed
+      ecology.bodySize:
+        status: not-assessed
+      ecology.guild:
+        status: not-assessed

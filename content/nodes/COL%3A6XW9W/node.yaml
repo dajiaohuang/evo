@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scarthyla goinorum
+  displayName: Scarthyla goinorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XW9W
+  sourceIndexes:
+    - name:
+        en: Scarthyla goinorum
+        zh: Scarthyla goinorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XW9W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/3
+            queryName: Scarthyla goinorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/479
+            queryName: Hyla goinorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/480
+            queryName: Ololygon goinorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/481
+            queryName: Scarthyla ostinodactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/482
+            queryName: Scinax goinorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7938a733d6
+      - s-1c07eccb4b
+      - s-df364fdf73
+      - s-98ee2b9ef3
+      - s-88581fa85c
+      - s-e1e65d9bd8
+      - s-188888de51
+      - s-68ca0f03d1
+      - s-a13934e489
+      - s-adb18f3062
+      - s-7169deeeb4
+      - s-61d7c6214c
+      - s-cb32ea2ca6
+      - s-807f591dd2
+    zh:
+      - s-b4df2f8037
+      - s-92ed9ad833
+      - s-f3126ee967
+      - s-7554f01b4c
+      - s-b25c14a403
+      - s-9846cb8de9
+      - s-3884f8b3e7
+      - s-8f7504b2f4
+      - s-935e276326
+      - s-8d1d43fabb
+      - s-5664a71e03
+      - s-b1c957e14c
+      - s-02b0fc13b9
+      - s-f98ba12b23

@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes ochlandrae
+  displayName: Raorchestes ochlandrae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78SS4
+  sourceIndexes:
+    - name:
+        en: Raorchestes ochlandrae
+        zh: Raorchestes ochlandrae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78SS4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/180
+            queryName: Raorchestes ochlandrae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/468
+            queryName: Philautus ochlandrae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/361
+            queryName: Pseudophilautus ochlandrae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9078b814d
+      - s-45351aeb8c
+      - s-1d6856e0c2
+      - s-510860e5dd
+      - s-6c0f7c15b2
+      - s-6c382f8e1b
+      - s-8a8e729956
+      - s-42e48c6989
+      - s-5d8c557fd4
+      - s-d23f828901
+      - s-4a38e03f8f
+      - s-aab029e4f9
+      - s-fd21d505c0
+      - s-5657886fbc
+      - s-7f0666169d
+    zh:
+      - s-07af226336
+      - s-d02188e1a0
+      - s-4878b0d9c3
+      - s-fb5151f83e
+      - s-a44cdea724
+      - s-bd00069e5b
+      - s-4d145fee42
+      - s-339138bad6
+      - s-59cb404f1a
+      - s-9f44dca185
+      - s-88439853bf
+      - s-351f7e587b
+      - s-03b344f8ee
+      - s-f5276c2e93
+      - s-5beafeb356

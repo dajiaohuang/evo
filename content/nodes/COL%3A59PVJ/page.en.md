@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Turnera foliosa? {#s-5d3f0d825a}
+The branches have simple hairs. Linear or lance-shaped leaves may have petioles and small stipules reduced to glands; extrafloral nectaries are present. Leaf margins are entire, with both surfaces hairless. Inflorescences may be racemes or a single flower borne on a leaf; peduncles and bracteoles are present, but pedicels are absent. The yellow corolla lacks a corona, and filaments join the floral tube at the base. Styles are heterostylous. The fruit exocarp is smooth; seeds are net-veined and papillose, with a blunt or slightly raised chalaza.
+

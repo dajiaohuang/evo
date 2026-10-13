@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus oliveirai
+  displayName: Dendropsophus oliveirai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S6J
+  sourceIndexes:
+    - name:
+        en: Dendropsophus oliveirai
+        zh: Dendropsophus oliveirai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S6J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/399
+            queryName: Dendropsophus oliveirai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/410
+            queryName: Hyla oliveirai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-af62d6a19b
+      - s-cef7274d2a
+      - s-9f8908dc47
+      - s-17153bccf7
+      - s-1333d7ef26
+      - s-f7465b612b
+      - s-9fa76239b5
+      - s-ae64001930
+      - s-904b1f64e6
+      - s-b68fb70d88
+      - s-9d54c0fc77
+      - s-6fbc0e70bf
+      - s-1e454a7b0d
+      - s-9af68f9d00
+      - s-410400f50c
+      - s-5035f0db2c
+      - s-8a22f75bf8
+      - s-6a0e5f88c9
+      - s-d13bf0f80a
+      - s-d87afb2043
+    zh:
+      - s-c3d6eddd3c
+      - s-d75ca8b6d5
+      - s-afe0783295
+      - s-3a3dc9c4b2
+      - s-9617f82a57
+      - s-556042bee0
+      - s-bb80ff0c6c
+      - s-b170ff3331
+      - s-412c1b5cbc
+      - s-fa795ff65b
+      - s-b7f103e7dd
+      - s-bf33e5ba7a
+      - s-9dbb0953fd
+      - s-06cd4fa560
+      - s-91a6173319
+      - s-7f86697f65
+      - s-56f768993f
+      - s-b3657a20f5
+      - s-16b6eeab4c
+      - s-e8aaf2debb

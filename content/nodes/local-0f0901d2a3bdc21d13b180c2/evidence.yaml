@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Onychodactylus tsukubaensis
+    name:
+      en: Onychodactylus tsukubaensis
+      zh: Onychodactylus tsukubaensis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Onychodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Onychodactylus tsukubaensis in the morphology deposit
+          zh: 形态数据中的 Onychodactylus tsukubaensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2843d1ca34
+            part: body
+          zh:
+            page: zh
+            section: s-60fdba55c5
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 255 and 256: measurement fields and sex codes"
+          zh: 第 255、256 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-67acc99509
+            part: body
+          zh:
+            page: zh
+            section: s-d6ccd71318
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 255, 256; Reference.csv rows 4047
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 255
+        values:
+          - Hynobiidae
+          - Onychodactylus
+          - Onychodactylus tsukubaensis
+          - F
+          - NA
+          - "66.9"
+          - NA
+          - "35.0556"
+          - "15.5877"
+          - "10.4364"
+          - NA
+          - "4.1478"
+          - NA
+          - NA
+          - "4.9506"
+          - NA
+          - "60.4776"
+          - "6.0879"
+          - "5.6196"
+          - "5.8203"
+          - "4.3485"
+          - "17.6616"
+          - "20.4045"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 256
+        values:
+          - Hynobiidae
+          - Onychodactylus
+          - Onychodactylus tsukubaensis
+          - M
+          - NA
+          - "69.5"
+          - NA
+          - "35.862"
+          - "15.9155"
+          - "10.703"
+          - NA
+          - "4.309"
+          - NA
+          - NA
+          - "5.0735"
+          - NA
+          - "71.0985"
+          - "6.3245"
+          - "5.3515"
+          - "5.6295"
+          - "4.17"
+          - "18.487"
+          - "21.6145"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4047
+        values:
+          - Caudata
+          - Onychodactylus_tsukubaensis
+          - Yoshikawa, N., & Matsui, M. (2013). A new salamander of the genus Onychodactylus from Tsukuba Mountains, Eastern Honshu, Japan (Amphibia, Caudata, Hynobiidae). Current Herpetology, 32(1), 9-25. https://doi.org/10.5358/hsj.32.9
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - ED
+      - IND
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 49R6L
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

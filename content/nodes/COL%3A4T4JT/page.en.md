@@ -1,0 +1,3 @@
+## A twining perennial with variable cordate leaves {#s-48b8300bb2}
+The regional flora describes a perennial herb with a slightly woody rootstock producing fibrous or subfleshy roots. Its twining stem reaches 1 m or more and has fine hairs in one or two rows. Petioles reach about 40 mm; the cordate-ovate, acuminate leaf blades are very variable in size, up to about 80 mm long, and thinly puberulous or becoming nearly glabrous. The account records it twining in tall grassland, over shrubs or among vegetation between boulders, at 0–1,000 m. It also lists Albany Thicket, Eastern Fynbos-Renosterveld and Sub-Escarpment Savanna. These regional account fields do not establish the full range.
+

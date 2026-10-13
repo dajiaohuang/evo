@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus cambaraensis
+  displayName: Melanophryniscus cambaraensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9LJ
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus cambaraensis
+        zh: Melanophryniscus cambaraensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9LJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/385
+            queryName: Melanophryniscus cambaraensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f3b24ee390
+      - s-164727326f
+      - s-cb4053554f
+      - s-1791e808e1
+      - s-b4c303593e
+      - s-caef9a1983
+      - s-11687253b7
+      - s-46ec7d040b
+      - s-7ae0139ff4
+      - s-696e8bcb5b
+      - s-11cf1f95b5
+      - s-78d3070e50
+      - s-1a4b98902d
+    zh:
+      - s-e4adcea15c
+      - s-e117db8129
+      - s-047115cf36
+      - s-6d924807a3
+      - s-a470bfa7d2
+      - s-71e3e49bb1
+      - s-b0452d6a75
+      - s-57b5ced998
+      - s-1ca691841a
+      - s-4121165289
+      - s-7d89d485e9
+      - s-fc74b424dc
+      - s-87ab3ce0ab

@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Kurixalus appendiculatus {#s-7ec43cdbca}
+TadpoleTraits version 4 places Kurixalus appendiculatus in Kurixalus (Rhacophoridae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Kurixalus appendiculatus. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 4 literature rows and 0 image rows {#s-58a65e36d5}
+TadpoleTraits version 4 links 4 literature rows and 0 image rows to Kurixalus appendiculatus. Source row numbers — literature: 5273, 5274, 5275, 5276; image: none recorded. Populated measurement fields — literature: TL; image: none recorded. Literature row 5273: Stage 35; Literature row 5274: Stage 37; Literature row 5275: Stage 39; Literature row 5276: Stage 41. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

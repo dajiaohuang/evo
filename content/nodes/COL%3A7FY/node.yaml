@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufonidae Gray, 1825
+  displayName: Bufonidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FY
+  sourceIndexes:
+    - name:
+        en: Bufonidae
+        zh: Bufonidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FY
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/113
+            queryName: Bufonidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4507
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9a55c1fbe1
+      - s-381caa7503
+      - s-7f6acf7a2b
+      - s-661b2aeaba
+      - s-dbf7c80edc
+      - s-e33e69c3d8
+      - s-d31ba6d740
+      - s-e0d72e5cdd
+    zh:
+      - s-d9dac4a3e8
+      - s-c6de4b0a72
+      - s-e31de7bdd6
+      - s-5328be59b9
+      - s-2a9ec2e460
+      - s-c2fb69db2f
+      - s-aa411f04ea
+      - s-e5f1bba71d

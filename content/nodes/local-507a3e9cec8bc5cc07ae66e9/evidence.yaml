@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Lyciasalamandra billae
+    name:
+      en: Lyciasalamandra billae
+      zh: Lyciasalamandra billae
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Lyciasalamandra
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b2c22e23a1
+            part: body
+          zh:
+            page: zh
+            section: s-6031cdc797
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1f36dab48e
+            part: body
+          zh:
+            page: zh
+            section: s-d2e3add79b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 209; Reference.csv rows 4161
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 209
+        values:
+          - Salamandridae
+          - Lyciasalamandra
+          - Lyciasalamandra billae
+          - F
+          - "130"
+          - "74"
+          - "49.87"
+          - "41.75"
+          - "16.88"
+          - "11.13"
+          - NA
+          - "4.57"
+          - "3.27"
+          - NA
+          - "4.94"
+          - NA
+          - "56"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "22.54"
+          - "27.29"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4161
+        values:
+          - Caudata
+          - Lyciasalamandra_billae
+          - "Göçmen, B., & Akman, B. (2012). Lyciasalamandra arikani n. sp. & L. Yehudahi n. Sp. (Amphibia, Salamandridae), two new lycian salamanders from Southwestern Anatolia. North-Western Journal of Zoology, 8, 181-194. "
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - ED
+      - EN
+      - IND
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 72PDP
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

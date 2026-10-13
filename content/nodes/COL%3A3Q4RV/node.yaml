@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema juipoca
+  displayName: Ischnocnema juipoca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4RV
+  sourceIndexes:
+    - name:
+        en: Ischnocnema juipoca
+        zh: Ischnocnema juipoca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4RV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/24
+            queryName: Ischnocnema juipoca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/395
+            queryName: Eleutherodactylus juipoca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70ef9ceb89
+      - s-b795a61330
+      - s-e9db447c48
+      - s-5f5710cf1b
+      - s-19068ac8dd
+      - s-db363fbe30
+      - s-0e49625aa8
+      - s-619439eba0
+      - s-a8daff5f66
+      - s-535ad55e91
+      - s-86c9c5ab46
+      - s-c985cb18a8
+      - s-172b0a7f21
+      - s-f439ddb488
+      - s-316c675375
+      - s-d1222882cd
+    zh:
+      - s-270c45024c
+      - s-6f23fa9352
+      - s-48d9924d56
+      - s-fcddcc72ce
+      - s-e7f88208f5
+      - s-bd7c38c370
+      - s-490b47f177
+      - s-8d29a440a0
+      - s-9b90c553cb
+      - s-f77b200679
+      - s-7b7f24f5a7
+      - s-2ab469779b
+      - s-3899202758
+      - s-068ba816c2
+      - s-54980cffd5
+      - s-fdea6a2dea

@@ -1,0 +1,222 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus laevis
+  displayName: Xenopus laevis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBC9
+  sourceIndexes:
+    - name:
+        en: Xenopus laevis
+        zh: Xenopus laevis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBC9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/316
+            queryName: Xenopus laevis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 66597
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/474
+            queryName: Bufo laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/475
+            queryName: Pipa laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/476
+            queryName: Pipa bufonia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/477
+            queryName: Engystoma laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/478
+            queryName: Xenopus boiei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/479
+            queryName: Dactylethra bufonia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/480
+            queryName: Dactylethra laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/481
+            queryName: Dactylethra capensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/482
+            queryName: Tremeropugus typicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/483
+            queryName: Xenopus bojei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/484
+            queryName: Leptopus oxydactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/485
+            queryName: Pipa africana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/486
+            queryName: Dactylethera boiei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/487
+            queryName: Dactylethra levis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/488
+            queryName: Dactylethra delalandii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/489
+            queryName: Dactylethera laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/232
+            queryName: Xenopus laevis laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 951
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6c9099691
+      - s-2ab52ba760
+      - s-1a486cb1a5
+      - s-ca96d9825d
+      - s-bcb69eba8b
+      - s-14b34c7f86
+      - s-8282d59851
+      - s-1fe29ad7e3
+      - s-ef864b58e0
+      - s-16dc70c95c
+      - s-ade7cbca13
+      - s-63afb3bc39
+      - s-837ba797da
+      - s-7d11ba8217
+      - s-b8f1a8116f
+      - s-bfa9823ec6
+      - s-259c2ad46e
+      - s-ccd1364e00
+      - s-0967c6bd14
+      - s-af5141a6bb
+      - s-b811a6a94e
+      - s-e79f3a1ea4
+      - s-d100ac2a08
+      - s-adfbb3a693
+      - s-cac3ca8b59
+      - s-8aa70c4653
+      - s-7c2509fe34
+      - s-015f5bf32a
+      - s-29d37f2410
+      - s-9a8c5fdbc8
+      - s-e986def065
+      - s-2a0da82a9f
+      - s-0259ef7b77
+      - s-45e2440e8b
+      - s-ee365506b6
+      - s-0b7969cd23
+      - s-dd336f225b
+      - s-92deee0b90
+      - s-34b08e2092
+      - s-ee4d400350
+    zh:
+      - s-8a4e7a5378
+      - s-9be7a69add
+      - s-68d29fc6c6
+      - s-9ebd8cb785
+      - s-a545f123cf
+      - s-822af4d14f
+      - s-ceb0c06882
+      - s-18c53583de
+      - s-3ee61d5913
+      - s-79579b0a6c
+      - s-f82a87d3cc
+      - s-4b8a1c8a48
+      - s-0aa10699bb
+      - s-ed6e26fe63
+      - s-505a851761
+      - s-3b5911e4bb
+      - s-caeda6a63e
+      - s-22e1731a0e
+      - s-65026f377b
+      - s-d0c014d59b
+      - s-fd2c26857c
+      - s-9f66660013
+      - s-39907163f3
+      - s-5bb98ee79f
+      - s-ef007b5916
+      - s-c796a09eb1
+      - s-54ca63ce09
+      - s-fb1d2ed52a
+      - s-45256aaa2f
+      - s-6e8a6ab0b7
+      - s-2df401653f
+      - s-8952d95c7a
+      - s-3c8150c533
+      - s-63ef15b571
+      - s-a891e2d7ce
+      - s-527f95de3f
+      - s-ba5a6e6dc0
+      - s-df2036f1f1
+      - s-798b5fc949
+      - s-84e020dd88

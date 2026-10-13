@@ -1,0 +1,78 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-a817daf60c
+      part: title
+    titleZh:
+      page: zh
+      section: s-e67b520cd9
+      part: title
+    category: transition
+    startAge: 121.4
+    endAge: 113.2
+    regions:
+      - Jiufotang Formation, Jianchang, Liaoning, China
+    clades:
+      - Mammaliaformes
+      - Eutriconodonta
+      - Liaoconodon hui
+    summary:
+      page: en
+      section: s-a817daf60c
+      part: body
+    summaryZh:
+      page: zh
+      section: s-e67b520cd9
+      part: body
+    claimIds:
+      - claim:event:liaoconodon-ossified-meckel-link
+    evidenceItems:
+      - statement: The near-complete articulated holotype IVPP V16051 preserves the ectotympanic and malleus without direct dentary attachment but connected to the dentary through an ossified Meckel's cartilage.
+        relation: supports
+        claimIds:
+          - claim:event:liaoconodon-ossified-meckel-link
+        referenceLinks:
+          - referenceId: meng-2011-liaoconodon-middle-ear
+            relation: supports
+            pages: 181–184
+            figure: Figures 1–3
+            quoteLocator: Description; Middle ear morphology
+    uncertaintyItems:
+      - statement: A proposed stabilizing role for the ossified Meckelian cartilage is a functional hypothesis from one fossil configuration; it does not make Liaoconodon a universal stage or a direct ancestor of living mammals.
+        relation: contextualizes
+        claimIds:
+          - claim:event:liaoconodon-ossified-meckel-link
+        referenceLinks:
+          - referenceId: meng-2011-liaoconodon-middle-ear
+            relation: supports
+            pages: 183–185
+            figure: Figure 4
+            quoteLocator: Comparison and Discussion
+      - statement: The Aptian display envelope is a navigation translation of the formation-level Early Cretaceous occurrence, not a direct date on IVPP V16051 or evidence that all mammalian middle ears detached then.
+        relation: contextualizes
+        claimIds:
+          - claim:event:liaoconodon-ossified-meckel-link
+        referenceLinks:
+          - referenceId: meng-2011-liaoconodon-middle-ear
+            relation: supports
+            pages: 181–182
+            quoteLocator: Systematic palaeontology; Locality and horizon
+  claims:
+    - subjectId: event:liaoconodon-ossified-meckel-link
+      claimKind: scientific
+      claimType: morphology
+      statement: Near-complete holotype IVPP V16051 preserves ectotympanic and malleus elements detached from direct dentary contact but linked through ossified Meckel's cartilage, without making Liaoconodon a universal stage or direct ancestor.
+      confidence: medium
+      confidenceRationale: The articulated holotype directly preserves the relevant bones and connection. Medium confidence retains single-specimen and taphonomic limits and treats stabilization and auditory consequences as hypotheses rather than measured performance.
+      referenceLinks:
+        - referenceId: meng-2011-liaoconodon-middle-ear
+          relation: supports
+          pages: 181–185
+          figure: Figures 1–4
+          quoteLocator: Description; Middle ear morphology; Comparison and Discussion
+  claim-rationales.zh:
+    - 关节相连的正模直接保存了相关骨骼和连接。中等置信度保留单标本与埋藏学限制，并把稳定作用和听觉后果视为假说而非实测性能。
+  claim-statements.zh:
+    - 近完整正模 IVPP V16051 保存了脱离齿骨直接接触、但仍由骨化麦氏软骨连接的外鼓骨与锤骨；这并不使 Liaoconodon 成为普遍阶段或直接祖先。

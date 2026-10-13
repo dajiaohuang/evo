@@ -1,0 +1,495 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Atelopus limosus Ibáñez, Jaramillo & Solís, 1995
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Atelopus limosus
+      zh: Atelopus limosus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ab759c58fc
+            part: title
+          zh:
+            page: zh
+            section: s-2327c7e8db
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ab759c58fc
+            part: body
+          zh:
+            page: zh
+            section: s-2327c7e8db
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d82a23abe2
+            part: title
+          zh:
+            page: zh
+            section: s-6f74fe8a65
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d82a23abe2
+            part: body
+          zh:
+            page: zh
+            section: s-6f74fe8a65
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d198ad329f
+            part: title
+          zh:
+            page: zh
+            section: s-6aa970b686
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-d198ad329f
+            part: body
+          zh:
+            page: zh
+            section: s-6aa970b686
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ca0aa0101d
+            part: title
+          zh:
+            page: zh
+            section: s-b89cd1d8fc
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+        text:
+          en:
+            page: en
+            section: s-ca0aa0101d
+            part: body
+          zh:
+            page: zh
+            section: s-b89cd1d8fc
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-00d86793b8
+            part: title
+          zh:
+            page: zh
+            section: s-0161e9985d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-00d86793b8
+            part: body
+          zh:
+            page: zh
+            section: s-0161e9985d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-7291a93050
+            part: title
+          zh:
+            page: zh
+            section: s-733d0fc5ff
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-7291a93050
+            part: body
+          zh:
+            page: zh
+            section: s-733d0fc5ff
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-02d8e0e056
+            part: title
+          zh:
+            page: zh
+            section: s-abe2921a1d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-02d8e0e056
+            part: body
+          zh:
+            page: zh
+            section: s-abe2921a1d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1075922bb4
+            part: title
+          zh:
+            page: zh
+            section: s-6abea434fb
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1075922bb4
+            part: body
+          zh:
+            page: zh
+            section: s-6abea434fb
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-45cc84250060ce4e885a46d1909e3a43
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-fa28a2f37d9e680d71ee6140
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-155e017ede
+            part: title
+          zh:
+            page: zh
+            section: s-8e252758b7
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1957"
+        text:
+          en:
+            page: en
+            section: s-155e017ede
+            part: body
+          zh:
+            page: zh
+            section: s-8e252758b7
+            part: body
+        sourceRowNumber: 1764
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-809ce4dbc1
+            part: title
+          zh:
+            page: zh
+            section: s-87144d2409
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1986"
+        text:
+          en:
+            page: en
+            section: s-809ce4dbc1
+            part: body
+          zh:
+            page: zh
+            section: s-87144d2409
+            part: body
+        sourceRowNumber: 1793
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-30da6aef0d
+            part: title
+          zh:
+            page: zh
+            section: s-e96219b7cc
+            part: title
+        sourceIds:
+          - primary-pmc10548314-j8z3
+        text:
+          en:
+            page: en
+            section: s-30da6aef0d
+            part: body
+          zh:
+            page: zh
+            section: s-e96219b7cc
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-c971e23bc7
+            part: body
+          zh:
+            page: zh
+            section: s-c7589f8438
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Atelopus limosus
+          url: https://www.checklistbank.org/dataset/316115/taxon/J8Z3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0484; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0484 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 1764, 1793, 1854; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc10548314-j8z3
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Atelopus limosus: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7815328e80
+        part: body
+      zh:
+        page: zh
+        section: s-6a03f766aa
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-45cc84250060ce4e885a46d1909e3a43
+      sourceRowId: Anf0484
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0484
+        bibliographyRowId: Anf0484
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Atelopus limosus
+        candidateBibliographyRowIds:
+          - Anf0484
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-fa28a2f37d9e680d71ee6140
+        scientificName: Atelopus limosus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1093/molbev/msad206
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        sourceKey: primary-pmc10548314-j8z3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10548314/article.xml
+        sourceConcept: 2023 source-labelled Atelopus limosus; cited observations distinguished from new genomic analyses
+        evidenceRead: "Atelopus limosus: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A complex branch-site signal is not a demonstrated amino acid change
+              zh: 复杂分枝—位点信号不是已证实氨基酸变化
+            referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+            sourceKey: primary-pmc10548314-j8z3
+            locator: PMC10548314 XML Results1.2 final paragraph/Table2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dd1cf0a87a
+                part: body
+              zh:
+                page: zh
+                section: s-b7f5b04579
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

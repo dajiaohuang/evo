@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis maculosus
+  displayName: Pristimantis maculosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJHD
+  sourceIndexes:
+    - name:
+        en: Pristimantis maculosus
+        zh: Pristimantis maculosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJHD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/387
+            queryName: Pristimantis maculosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/425
+            queryName: Eleutherodactylus maculosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73faf161d6
+      - s-6e8752c0f6
+      - s-1387b8d18a
+      - s-47c098305c
+      - s-8d29886fb5
+      - s-48e8d6d139
+      - s-8d5cafd1b0
+      - s-31eac3ab1f
+      - s-f0610bb55b
+      - s-1c8b447c26
+      - s-bad8f4d4bd
+      - s-2b2f2226a9
+      - s-87cf54b0db
+      - s-2d6174c744
+    zh:
+      - s-af6f2118bb
+      - s-efe0e219e7
+      - s-0daa24bdca
+      - s-c2b3c59c89
+      - s-e664d92faa
+      - s-c8b9c8159a
+      - s-14c61c7603
+      - s-fa6a28e8f1
+      - s-e1a7071dfd
+      - s-2cafa0a31a
+      - s-7457258143
+      - s-83272e9957
+      - s-22e072eb44
+      - s-a1fa5bea46

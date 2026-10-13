@@ -1,0 +1,342 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hadromophryne Van Dijk, 2008
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Hadromophryne
+      zh: Hadromophryne
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-bd923582a8
+            part: title
+          zh:
+            page: zh
+            section: s-1edcabca18
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bd923582a8
+            part: body
+          zh:
+            page: zh
+            section: s-1edcabca18
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c1d4159c18
+            part: title
+          zh:
+            page: zh
+            section: s-f73b32bbe1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c1d4159c18
+            part: body
+          zh:
+            page: zh
+            section: s-f73b32bbe1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-6c5a7a90a8
+            part: title
+          zh:
+            page: zh
+            section: s-2e3b06edaa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6c5a7a90a8
+            part: body
+          zh:
+            page: zh
+            section: s-2e3b06edaa
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-df98a81df7
+            part: title
+          zh:
+            page: zh
+            section: s-23ea96ddd7
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3J75W
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3J75W
+            label:
+              en: Hadromophryne natalensis
+              zh: Hadromophryne natalensis
+        text:
+          en:
+            page: en
+            section: s-df98a81df7
+            part: body
+          zh:
+            page: zh
+            section: s-23ea96ddd7
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc6434812-4sdd
+        title:
+          en:
+            page: en
+            section: s-dabaa4bf22
+            part: title
+          zh:
+            page: zh
+            section: s-31e8593d19
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dabaa4bf22
+            part: body
+          zh:
+            page: zh
+            section: s-31e8593d19
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc6434812-4sdd
+        title:
+          en:
+            page: en
+            section: s-d0a3fea5af
+            part: title
+          zh:
+            page: zh
+            section: s-1e195ad020
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d0a3fea5af
+            part: body
+          zh:
+            page: zh
+            section: s-1e195ad020
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc6434812-4sdd
+        title:
+          en:
+            page: en
+            section: s-093065392e
+            part: title
+          zh:
+            page: zh
+            section: s-997110514d
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3J75W
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3J75W
+            label:
+              en: Hadromophryne natalensis
+              zh: Hadromophryne natalensis
+        text:
+          en:
+            page: en
+            section: s-093065392e
+            part: body
+          zh:
+            page: zh
+            section: s-997110514d
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-540652c0d9
+            part: body
+          zh:
+            page: zh
+            section: s-7ecac7f441
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hadromophryne
+          url: https://www.checklistbank.org/dataset/316115/taxon/4SDD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Hadromophryne; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc6434812-4sdd
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hadromophryne natalensis: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected published isiZulu naming proposals, provenance and workshop limits for Hadromophryne; not biological trait synthesis
+            zh: 选定 Hadromophryne 已发表 isiZulu 赋名、来源及工作坊限制；非生物学性状综合
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ae38c22a77
+        part: body
+      zh:
+        page: zh
+        section: s-1313c8c5cb
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Hadromophryne
+      sourceRowIds:
+        - Anf2002
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+      developmentCounts: []
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1186/s13002-019-0294-3
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        sourceKey: primary-direct-group-pmc6434812-4sdd
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6434812/article.xml
+        sourceConcept: Selected Hadromophryne nomenclatural/ethnotaxonomic labels inregional2019table; no genus-wide biologicaltraitassignment
+        evidenceRead: "Hadromophryne natalensis: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Selected isiZulu names in the regional compilation
+              zh: 地区汇编中的选定 isiZulu 名称
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-direct-group-pmc6434812-4sdd
+            locator: PMC6434812 XML Tab1 tbody rows18; Sec6 andfootnotes
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-acefb74320
+                part: body
+              zh:
+                page: zh
+                section: s-c7b5378e5f
+                part: body
+            scope:
+              en: Selected published isiZulu naming proposals, provenance and workshop limits for Hadromophryne; not biological trait synthesis
+              zh: 选定 Hadromophryne 已发表 isiZulu 赋名、来源及工作坊限制；非生物学性状综合
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Collective elicitation and scope of correspondence
+              zh: 集体词汇采集与对应范围
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-direct-group-pmc6434812-4sdd
+            locator: PMC6434812 XML Sec2Methods; Sec4–7; Sec9–10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-373c4cddd6
+                part: body
+              zh:
+                page: zh
+                section: s-74977c00c4
+                part: body
+            scope:
+              en: Selected published isiZulu naming proposals, provenance and workshop limits for Hadromophryne; not biological trait synthesis
+              zh: 选定 Hadromophryne 已发表 isiZulu 赋名、来源及工作坊限制；非生物学性状综合
+    primaryResearchGroupSynthesisComplete: false

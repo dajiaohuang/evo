@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachoseps campi
+  displayName: Batrachoseps campi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZQC
+  sourceIndexes:
+    - name:
+        en: Batrachoseps campi
+        zh: Batrachoseps campi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZQC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/392
+            queryName: Batrachoseps campi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b55123e63d
+      - s-49c0965ad8
+      - s-0d8bba6e3e
+      - s-2a46a1ce62
+      - s-af1f0ca606
+      - s-aa82399b6f
+      - s-7b965fea87
+      - s-0f8e46fa4c
+      - s-5328fb17d2
+      - s-09d66c30fc
+    zh:
+      - s-81b8a09cd3
+      - s-bf50dbcb4e
+      - s-1bb4347479
+      - s-7af1a12244
+      - s-f77bf41415
+      - s-40e018a243
+      - s-807872f062
+      - s-aaf28e3325
+      - s-43a1f5af17
+      - s-c74284bf10

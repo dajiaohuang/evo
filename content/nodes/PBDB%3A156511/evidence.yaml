@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Notobatrachus reigi
+    rank: species
+    sourceTaxonId: txn:156511
+    name:
+      en: Notobatrachus reigi
+      zh: Notobatrachus reigi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-bc3c101b8c
+            part: body
+          zh:
+            page: zh
+            section: s-fc204e4e02
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-d2b5334883
+            part: body
+          zh:
+            page: zh
+            section: s-80eee5a082
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-406ebcc915
+            part: body
+          zh:
+            page: zh
+            section: s-ff147e4d60
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:156511; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. M. Báez and L. Nicoli. 2008. A new species of Notobatrachus (Amphibia, Salientia) from the Middle Jurassic of northwestern Patagonia. Journal of Paleontology 82(2):372-376
+    occurrenceEvidence:
+      - occurrenceId: occ:832127
+        collectionId: col:92115
+        acceptedTaxonId: txn:156511
+        identifiedName: Notobatrachus reigi n. sp.
+        taxonomicDifference: null
+        referenceId: ref:31021
+        bibliography: A. M. Báez and L. Nicoli. 2008. A new species of Notobatrachus (Amphibia, Salientia) from the Middle Jurassic of northwestern Patagonia. Journal of Paleontology 82(2):372-376
+        locality:
+          countryCode: AR
+          stateProvince: Chubut
+          county: null
+        stratigraphy:
+          group: Sierra de Olte
+          formation: Cañadón Asfalto
+          member: Las Chacritas
+        olderAgeMa: 180.4
+        youngerAgeMa: 168.6
+      - occurrenceId: occ:1572584
+        collectionId: col:67434
+        acceptedTaxonId: txn:156511
+        taxonomicDifference: null
+        referenceId: ref:69796
+        bibliography: I. H. Escapa, J. Sterli, and D. Pol, L. Nicoli. 2008. Jurassic tetrapods and flora of Cañadón Asfalto Formation in Cerro Cóndor area, Chubut Province. Revista de la Asociación Geológica Argentina 63(4):613-624
+        locality:
+          countryCode: AR
+          stateProvince: Chubut
+          county: null
+        stratigraphy:
+          group: Sierra de Olte
+          formation: Cañadón Asfalto
+          member: null
+        olderAgeMa: 182.9
+        youngerAgeMa: 174.7
+      - occurrenceId: occ:1572585
+        collectionId: col:211359
+        acceptedTaxonId: txn:156511
+        taxonomicDifference: null
+        referenceId: ref:69796
+        bibliography: I. H. Escapa, J. Sterli, and D. Pol, L. Nicoli. 2008. Jurassic tetrapods and flora of Cañadón Asfalto Formation in Cerro Cóndor area, Chubut Province. Revista de la Asociación Geológica Argentina 63(4):613-624
+        locality:
+          countryCode: AR
+          stateProvince: Chubut
+          county: Departamento Paso de Indios
+        stratigraphy:
+          group: null
+          formation: Cañadón Asfalto
+          member: null
+        olderAgeMa: 184.2
+        youngerAgeMa: 170.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-406ebcc915
+            part: body
+          zh:
+            page: zh
+            section: s-ff147e4d60
+            part: body
+        sourceIds: []

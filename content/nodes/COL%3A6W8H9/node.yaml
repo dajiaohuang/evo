@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis atratus
+  displayName: Pristimantis atratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W8H9
+  sourceIndexes:
+    - name:
+        en: Pristimantis atratus
+        zh: Pristimantis atratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W8H9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/126
+            queryName: Pristimantis atratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/266
+            queryName: Eleutherodactylus atratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0c13ad455c
+      - s-a43c104beb
+      - s-fb4376c34e
+      - s-db7009c0ce
+      - s-f9efe505d7
+      - s-dad6ef6277
+      - s-2de174c4d5
+      - s-77f389e3dd
+      - s-364d7be441
+      - s-8aa0cba35b
+      - s-25fe3e7a1f
+      - s-9c5e6b5ac1
+      - s-6e4a7948df
+      - s-fda905c4af
+      - s-4e99843a42
+      - s-a370da101f
+      - s-15068f932b
+      - s-d5b8a9ccb0
+      - s-d9c420cb14
+      - s-da1b7d7e3d
+      - s-2b51cf8267
+      - s-c72a0d27ec
+      - s-31ef7c05cc
+      - s-134e67644f
+    zh:
+      - s-f773345d78
+      - s-f75b3ac407
+      - s-e6b8e7d121
+      - s-49814d325c
+      - s-443b715084
+      - s-d78f8bbecb
+      - s-1f33118dd9
+      - s-deaad6ca16
+      - s-5c5e0e11d2
+      - s-d67b9d1983
+      - s-bb70c32df5
+      - s-d43b7c3fa6
+      - s-5b397d373d
+      - s-2cc95023da
+      - s-28bcbd17f0
+      - s-dbbcef1fbf
+      - s-801f3b9299
+      - s-aba706ac33
+      - s-573662b1ea
+      - s-3d2e8bbf89
+      - s-251a1651d6
+      - s-4c965c12f3
+      - s-3545b587f4
+      - s-c56ff14187

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adelphobates
+  displayName: Adelphobates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P4M
+  sourceIndexes:
+    - name:
+        en: Adelphobates
+        zh: Adelphobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P4M
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/109
+            queryName: Adelphobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 35
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a43b6d1c8
+      - s-6f42e17620
+      - s-a632ba447c
+      - s-12c61f35d7
+      - s-6628315fa5
+      - s-fa32106dbc
+      - s-9ac123c831
+      - s-b4005b2d54
+      - s-48c6e08a20
+      - s-f0473dba1c
+      - s-7b46cfc1ff
+      - s-344c3b6843
+      - s-126c54847b
+      - s-db17c21e40
+      - s-e39eeb48df
+      - s-d6ece5b880
+      - s-f0ebd80d92
+    zh:
+      - s-64c7fb93d0
+      - s-a45d7acefa
+      - s-0e83b68311
+      - s-4c1cf0384a
+      - s-bf8f3d4208
+      - s-e7853b85d1
+      - s-5822f383d2
+      - s-8e675283f2
+      - s-8169253245
+      - s-0651475d04
+      - s-6340ef5e06
+      - s-f35d49b235
+      - s-351e27137e
+      - s-ef314f8bd9
+      - s-e2d1f8a524
+      - s-f4a9d8cf42
+      - s-05ac37b00e

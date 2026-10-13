@@ -1,0 +1,147 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gladiolus cruentus T.Moore
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3G4L4, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3G4L4; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3G4L4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3G4L4
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000789761-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3G4L4 / WFO wfo-0000789761
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gladiolus cruentus T.Moore account; SANBI/WFO archive rows 98103 (Morphology), 97010 (Habitat), 94488 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 500-700 mm long, usually arching horizontally from cliffs. Corm globose, 15-20 mm diam.; tunics of medium textured fibres. Stem inclined to drooping below horizontal, usually arching upward in upper part, unbranched. Leaves 7 or 8, lower 4 or 5 ± basal and usually slightly longer than spike but trailing, sword-shaped, 10-15 mm wide, main vein moderately thickened, margins not raised, all except uppermost cauline leaf with long blades. Spike arching upward and inclined or nearly erect, straight, 4- to 9-flowered; bracts with outer 40-60(-80) mm long, usually ± 2 internodes long, inner shorter, forked, often lightly 2-keeled. Flowers bright scarlet, lower tepals each with transverse white chevron at limb base, lower part of lower tepals and upper part of tube speckled red on white, unscented; perianth tube ± cylindric, ± 28 mm long, flaring in upper ± 6 mm long; tepals lanceolate, dorsal lightly inclined over stamens, ± 60 x 30 mm, remaining tepals patent, upper laterals ± 55 x 27 mm, lower 3 tepals united basally for 2-3 mm, narrowed and ascending below for ± 15 mm long, limbs patent, ± 33 x 19 mm. Filaments arcuate, ± 40 mm long, exserted ± 35 mm from tube; anthers ± 12 mm long, diverging, dark purple; pollen whitish. Style arching over stamens, dividing at or shortly beyond anther apices, branches ± 5 mm long. Capsules oblong, rounded to retuse apically, 18-25 mm long. Seeds narrowly oblong, 7-9 x ± 4 mm, wing unevenly developed, longest at micropylar end.
+            textZh: Gladiolus cruentus T.Moore 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Morphology row 98103; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Recognised by its relatively soft-textured leaves, trailing stems and large, scarlet flowers with white transverse chevrons near the base of the lower tepals, the dorsal tepal horizontal but the others ± spreading from a narrow perianth tube ± 28 mm long. The filaments are ± 40 mm long and well exserted.
+            textZh: SANBI 条目提供了 Gladiolus cruentus T.Moore 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94488; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Damp sandstone cliffs.
+            textZh: 该 SANBI 区域物种条目记录的生境：Damp sandstone cliffs.
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Habitat row 97010; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4f9c1a5e94
+            part: title
+          zh:
+            page: zh
+            section: s-12621dd41b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4f9c1a5e94
+            part: body
+          zh:
+            page: zh
+            section: s-12621dd41b
+            part: body
+        sourceIds:
+          - sanbi_18638_0
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-aac5d944d2
+            part: title
+          zh:
+            page: zh
+            section: s-a35420db28
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aac5d944d2
+            part: body
+          zh:
+            page: zh
+            section: s-a35420db28
+            part: body
+        sourceIds:
+          - sanbi_18638_0

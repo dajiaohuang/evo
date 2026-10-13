@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bokermannohyla napolii
+    name:
+      en: Bokermannohyla napolii
+      zh: Bokermannohyla napolii
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Bokermannohyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Bokermannohyla napolii in the version 3 classification
+          zh: Bokermannohyla napolii 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6df9fc6496
+            part: body
+          zh:
+            page: zh
+            section: s-059c631343
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 10 populated trait fields
+          zh: 2 条测量行与 10 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-471b0f30ed
+            part: body
+          zh:
+            page: zh
+            section: s-6e0894e034
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 708, 709; Reference.csv rows 2967
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 708
+        values:
+          - Hylidae
+          - Bokermannohyla
+          - Bokermannohyla napolii
+          - M
+          - "53.1"
+          - "19.3"
+          - "20.1"
+          - "4.8"
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.3"
+          - NA
+          - NA
+          - "18.7"
+          - NA
+          - NA
+          - "24.6"
+          - NA
+          - "29.6"
+          - "28.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 709
+        values:
+          - Hylidae
+          - Bokermannohyla
+          - Bokermannohyla napolii
+          - F
+          - "52.3"
+          - "18.5"
+          - "18.9"
+          - "4.5"
+          - "4.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.1"
+          - NA
+          - NA
+          - "17.1"
+          - NA
+          - NA
+          - "23.7"
+          - NA
+          - "28.8"
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2967
+        values:
+          - Anura
+          - Bokermannohyla_napolii
+          - "De Carvalho, T., Giaretta, A., & Magrini, L. (2012). A new species of the Bokermannohyla circumdata group (Anura: Hylidae) from southeastern Brazil, with bioacoustic data on seven species of the genus. Zootaxa, 3321, 37-55. https://doi.org/10.11646/zootaxa.3321.1.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - EN
+      - HAL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 68MY9
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

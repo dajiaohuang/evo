@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Andinobates daleswansoni
+  displayName: Andinobates daleswansoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DQDT
+  sourceIndexes:
+    - name:
+        en: Andinobates daleswansoni
+        zh: Andinobates daleswansoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DQDT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/458
+            queryName: Andinobates daleswansoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/81
+            queryName: Ranitomeya daleswansoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/23
+            queryName: Dendrobates daleswansoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2013015873
+      - s-e6cc3412c6
+      - s-cced66f670
+      - s-9dbf2296a8
+      - s-c9f1da44f3
+      - s-8f1ade3fa7
+      - s-21d75d3027
+      - s-0bb7c3dd6f
+      - s-c38fe305e9
+      - s-ed0fefb2d2
+      - s-0af6827533
+      - s-7ef38539f7
+      - s-a474f24803
+    zh:
+      - s-6935874f04
+      - s-de8272bcaf
+      - s-878f4929a2
+      - s-b4b92a694c
+      - s-4dc340f060
+      - s-2aa26ef4c4
+      - s-d34af29350
+      - s-98b5d761f4
+      - s-f87d3ff471
+      - s-3663755a60
+      - s-ff9ef8c8de
+      - s-25a608a0e7
+      - s-897ced0bbd

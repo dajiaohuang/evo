@@ -1,0 +1,546 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eupsophus septentrionalis Ibarra-Vidal, Ortiz & Torres-Pérez, 2004
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Eupsophus septentrionalis
+      zh: Eupsophus septentrionalis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b6742c6aaa
+            part: title
+          zh:
+            page: zh
+            section: s-705f51dba8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b6742c6aaa
+            part: body
+          zh:
+            page: zh
+            section: s-705f51dba8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5c271dda76
+            part: title
+          zh:
+            page: zh
+            section: s-eb1fb8badc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5c271dda76
+            part: body
+          zh:
+            page: zh
+            section: s-eb1fb8badc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cab760381a
+            part: title
+          zh:
+            page: zh
+            section: s-2ab5166049
+            part: title
+        sourceIds:
+          - amphibio
+          - tadpoletraits
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-cab760381a
+            part: body
+          zh:
+            page: zh
+            section: s-2ab5166049
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-e6139ab0ac9800e10c8a5328d487d150
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-a4b0a89696d99b7299b404c7
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4b90f3529e
+            part: title
+          zh:
+            page: zh
+            section: s-ab04b38a11
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-4b90f3529e
+            part: body
+          zh:
+            page: zh
+            section: s-ab04b38a11
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8ed9fa9966
+            part: title
+          zh:
+            page: zh
+            section: s-1ad32373bf
+            part: title
+        sourceIds:
+          - primary-pmc10968267-3cyj4
+        text:
+          en:
+            page: en
+            section: s-8ed9fa9966
+            part: body
+          zh:
+            page: zh
+            section: s-1ad32373bf
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-56a6b419a6
+            part: title
+          zh:
+            page: zh
+            section: s-33e8d51e97
+            part: title
+        sourceIds:
+          - primary-pmc10968267-3cyj4
+        text:
+          en:
+            page: en
+            section: s-56a6b419a6
+            part: body
+          zh:
+            page: zh
+            section: s-33e8d51e97
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-45095bca8f
+            part: title
+          zh:
+            page: zh
+            section: s-d9f25bcf11
+            part: title
+        sourceIds:
+          - primary-pmc11117230-3cyj4
+        text:
+          en:
+            page: en
+            section: s-45095bca8f
+            part: body
+          zh:
+            page: zh
+            section: s-d9f25bcf11
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-5595884bc6
+            part: title
+          zh:
+            page: zh
+            section: s-e1b4cfdc6f
+            part: title
+        sourceIds:
+          - primary-pmc11117230-3cyj4
+        text:
+          en:
+            page: en
+            section: s-5595884bc6
+            part: body
+          zh:
+            page: zh
+            section: s-e1b4cfdc6f
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-214fefb722
+            part: title
+          zh:
+            page: zh
+            section: s-44bb3d4c17
+            part: title
+        sourceIds:
+          - primary-pmc11117230-3cyj4
+        text:
+          en:
+            page: en
+            section: s-214fefb722
+            part: body
+          zh:
+            page: zh
+            section: s-44bb3d4c17
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-04b4dc93ea
+            part: title
+          zh:
+            page: zh
+            section: s-0dd96f920f
+            part: title
+        sourceIds:
+          - primary-pmc11117230-3cyj4
+        text:
+          en:
+            page: en
+            section: s-04b4dc93ea
+            part: body
+          zh:
+            page: zh
+            section: s-0dd96f920f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Eupsophus septentrionalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/3CYJ4
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 46; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1371; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1371 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10968267-3cyj4
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Eupsophus septentrionalis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc11117230-3cyj4
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Eupsophus septentrionalis: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-cb0efd9ada
+        part: body
+      zh:
+        page: zh
+        section: s-604e524003
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-a4b0a89696d99b7299b404c7
+        scientificName: Eupsophus septentrionalis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/biology13030169
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        sourceKey: primary-pmc10968267-3cyj4
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10968267/article.xml
+        sourceConcept: 2024 Chile literature-assessed Eupsophus septentrionalis; source-selected taxonomic concepts, not independent current-status certification
+        evidenceRead: "Eupsophus septentrionalis: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A dated multicriteria conservation priority
+              zh: 有日期的多准则保育优先级
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-3cyj4
+            locator: PMC10968267 XML Methods2.1–2.3; Results Table4 row Eupsophus septentrionalis
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8c69badddd
+                part: body
+              zh:
+                page: zh
+                section: s-d1b6996cdf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: The population and protection scores retain their source limits
+              zh: 种群及保护评分保留来源限制
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-3cyj4
+            locator: PMC10968267 XML Methods2.2/Table2; Results Table3 row Eupsophus septentrionalis; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0f50602119
+                part: body
+              zh:
+                page: zh
+                section: s-4f26b2cc37
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani14101406
+        referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+        sourceKey: primary-pmc11117230-3cyj4
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11117230/article.xml
+        sourceConcept: 2024 TableS1 exact-name Eupsophus septentrionalis paired-stage image/literature compilation; vouchers and cross-revision biological identity not independently certified
+        evidenceRead: "Eupsophus septentrionalis: XML Methods2.1–2.2, Results3.1–3.3, Tables1–2, Discussion and Conclusions read; publisher supplementary ZIP acquired with SHA256, TableS1 all83rows on pages1–3 visually checked and coordinate-extracted, TableS2/S3 single-page tables visually checked. Original148upstreamstudies, vouchers, landmark/measurement matrices, fitted phylogenies, morphospace figures and supplementary figures not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A larval image record with explicit provenance
+              zh: 具有明确来源的幼体图像记录
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-3cyj4
+            locator: PMC11117230 supplementary TableS1 PDF page2 row21 Eupsophus septentrionalis tadpoleSource/Voucher columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-90efecef16
+                part: body
+              zh:
+                page: zh
+                section: s-cd3a1d7a46
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Adult measurements preserve source type and sex limits
+              zh: 成体测量保留来源类型及性别限制
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-3cyj4
+            locator: PMC11117230 supplementary TableS1 PDF page2 row21 adultSource/Voucher/Sex columns; XML Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c3a688afdf
+                part: body
+              zh:
+                page: zh
+                section: s-960c4629ec
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Larval guild and adult ecomorph are separate source categories
+              zh: 幼体功能群及成体生态型是分开来源类别
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-3cyj4
+            locator: PMC11117230 supplementary TableS1 PDF page2 row21 Guild/Ecomorph; page1 caption; XML Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9dbcf4f0c7
+                part: body
+              zh:
+                page: zh
+                section: s-d249f9e028
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Paired-stage comparisons do not establish complete developmental independence
+              zh: 配对阶段比较不确立完全发育独立
+            referenceId: ref-e6a7192c-7eda-4751-ade5-d84942ccf07a
+            sourceKey: primary-pmc11117230-3cyj4
+            locator: PMC11117230 XML Results3.2–3.3; Tables1–2; Discussion; supplementary TableS2/S3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bbd0374600
+                part: body
+              zh:
+                page: zh
+                section: s-6949f8848a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -14,7 +14,7 @@
       "Prague Basin",
       "Czech Republic"
     ],
-    "overview": "Inventory specimen 8 preserves an alimentary tract packed with identifiable shelly prey, offering a rare specimen-level dietary observation.",
+    "overview": "Synchrotron microtomography maps an alimentary tract in Bohemolichas incola inventory specimen 8, with identifiable ostracods, hyoliths and stylophorans preserved as one meal.",
     "ecology": {
       "diet": "Ostracods, hyoliths and stylophorans preserved in the gut",
       "habitat": "Marine benthos inferred from formation and prey",
@@ -27,11 +27,42 @@
       "Identifiable shelly prey remains",
       "Synchrotron-mapped digestive tract"
     ],
-    "evidenceSummary": "Prey identity is directly fossilized in one individual; feeding rate, selectivity, gut chemistry and genus-wide diet remain bounded inferences.",
+    "evidenceSummary": "The prey remains are direct evidence from a single Šárka Formation specimen. They do not establish prey choice, feeding rate or a genus-wide diet, and the 466–463 Ma interval is formation context rather than a global range.",
+    "readerSections": [
+      {
+        "id": "gut-contents",
+        "sourceIds": [
+          "kraft-2023-trilobite-gut"
+        ],
+        "title": {
+          "en": "The gut preserves an identifiable meal",
+          "zh": "肠道中保存了一餐可辨认的食物"
+        },
+        "text": {
+          "en": "Synchrotron microtomography, a three-dimensional X-ray imaging method, reveals the alimentary tract in inventory specimen 8. Inside it are remains identified as ostracods, hyoliths and stylophorans. These fossils record what was present in this one meal and make a rare specimen-level dietary observation; they do not show how often the trilobite fed or which prey it usually selected.",
+          "zh": "同步辐射显微断层成像是一种三维 X 射线成像方法，它显示了馆藏编号 8 标本的消化道。其内部保存着被鉴定为介形虫、软舌螺和腕足形动物的残骸。这是一次罕见的个体层面食性观察，记录了这一餐中的内容；它没有说明三叶虫多久进食一次或通常选择哪些猎物。"
+        }
+      },
+      {
+        "id": "sample-and-taxonomy",
+        "sourceIds": [
+          "kraft-2023-trilobite-gut"
+        ],
+        "title": {
+          "en": "One specimen has a narrow geographic and taxonomic scope",
+          "zh": "一个标本的地理与分类范围有限"
+        },
+        "text": {
+          "en": "The animal comes from the Šárka Formation in the Prague Basin, with a formation-level interval of 466–463 Ma. The profile retains the specimen’s identification as Bohemolichas incola while noting that PBDB treats Bohemolichas as a subjective synonym of Uralichas. The gut contents do not settle that broader naming question or establish a genus-wide distribution.",
+          "zh": "这件标本来自布拉格盆地的 Šárka 组，地层背景年代为 466–463 Ma。本页保留标本鉴定为 Bohemolichas incola，同时说明 PBDB 将 Bohemolichas 视作 Uralichas 的主观异名。肠道内容物无法裁决更广的命名问题，也不能确定整个属的分布。"
+        }
+      }
+    ],
     "confidence": "high",
     "referenceIds": [
       "kraft-2023-trilobite-gut"
     ],
+    "evidenceSummaryZh": "猎物残留是来自一件 Šárka 组标本的直接证据。它们不能确定猎物选择、摄食率或属级食性；466–463 Ma 是该组的地层背景，不代表全球分布时段。",
     "firstAppearance": 466,
     "lastAppearance": 463,
     "rangeEvidenceLevel": "literature-synthesized",
@@ -51,7 +82,7 @@
       "Burgess Shale",
       "British Columbia, Canada"
     ],
-    "overview": "A partly preserved upper limb branch in Olenoides serratus provides the Burgess Shale comparison for a trilobite respiratory-function test.",
+    "overview": "A partly preserved upper branch of the Olenoides serratus limb lets researchers compare its attachment and filaments with structures proposed to have respiratory roles in trilobites.",
     "ecology": {
       "diet": "Diet is not resolved by the cited appendage sample",
       "habitat": "Marine Burgess Shale setting",
@@ -64,10 +95,82 @@
       "Body-wall attachment comparable to lamellate respiratory branches",
       "Filament-bearing branch included in an ESEM and micro-CT comparison"
     ],
-    "evidenceSummary": "The attachment and branch morphology are fossil observations; gill function, haemolymph flow and limb-branch homology are functional interpretations, not measured gas exchange or an ancestry claim.",
+    "evidenceSummary": "The fossil preserves the branch and its body-wall attachment. Gill function, haemolymph flow and homology with other limb branches are interpretations from morphology and imaging; gas exchange was not measured, and the comparison does not establish ancestry.",
     "confidence": "medium",
     "referenceIds": [
       "hou-2021-trilobite-gill"
+    ],
+    "readerSections": [
+      {
+        "id": "reading-introduction",
+        "title": {
+          "en": "Research overview",
+          "zh": "研究概述"
+        },
+        "text": {
+          "en": "A partly preserved upper branch of the Olenoides serratus limb lets researchers compare its attachment and filaments with structures proposed to have respiratory roles in trilobites.",
+          "zh": "一段保存不完整的 Olenoides serratus 肢体上支，使研究者能够比较其连接方式和丝状结构，并与三叶虫中被提出具有呼吸作用的结构对照。"
+        },
+        "sourceIds": [
+          "hou-2021-trilobite-gill"
+        ]
+      },
+      {
+        "id": "body-observations",
+        "title": {
+          "en": "A branch examined in images",
+          "zh": "成像研究中的肢体上支"
+        },
+        "text": {
+          "en": "The upper limb branch is incompletely preserved. Its attachment to the body wall can be compared with lamellate respiratory branches.\n\nThe filament-bearing branch was included in comparisons using environmental scanning electron microscopy (ESEM) and micro-CT.",
+          "zh": "保存不完整的肢体上支。\n\n体壁连接方式可与片状呼吸支作比较。\n\n带丝状结构的肢支纳入环境扫描电镜和微型 CT 比较。"
+        },
+        "sourceIds": [
+          "hou-2021-trilobite-gill"
+        ]
+      },
+      {
+        "id": "ecology-context",
+        "title": {
+          "en": "A marine deposit is not a full life record",
+          "zh": "海相沉积记录不等于完整生活史"
+        },
+        "text": {
+          "en": "The appendage comes from a marine Burgess Shale setting. The cited limb study does not resolve diet, locomotor performance or body size; its respiratory interpretation comes from morphology and imaging rather than a measurement of gas exchange.",
+          "zh": "这件附肢材料来自海相布尔吉斯页岩沉积环境。所引研究没有确定食性、运动表现或体型；其呼吸功能解释来自形态与成像，而非气体交换测量。"
+        },
+        "sourceIds": [
+          "hou-2021-trilobite-gill"
+        ]
+      },
+      {
+        "id": "interpretation-boundary",
+        "title": {
+          "en": "What this evidence can establish",
+          "zh": "证据能说明什么"
+        },
+        "text": {
+          "en": "The fossil preserves the branch and its body-wall attachment. Gill function, haemolymph flow and homology with other limb branches are interpretations from morphology and imaging; gas exchange was not measured, and the comparison does not establish ancestry.",
+          "zh": "化石保存了肢支及其与体壁的连接。鳃功能、血淋巴流动和肢支同源关系均由形态与成像作出解释；研究没有测量气体交换，也没有证明祖先关系。"
+        },
+        "sourceIds": [
+          "hou-2021-trilobite-gill"
+        ]
+      }
+    ],
+    "readerSources": [
+      {
+        "id": "hou-2021-trilobite-gill",
+        "title": {
+          "en": "The trilobite upper limb branch is a well-developed gill",
+          "zh": "The trilobite upper limb branch is a well-developed gill"
+        },
+        "url": "https://doi.org/10.1126/sciadv.abe7377",
+        "scope": {
+          "en": "ESEM and micro-CT compare trilobite upper limb branches; respiratory function is inferred from structure, not measured as gas exchange.",
+          "zh": "研究通过环境扫描电镜与微型 CT 比较三叶虫肢体上支；呼吸功能由结构推断，并非气体交换实测。"
+        }
+      }
     ],
     "firstAppearance": 509,
     "lastAppearance": 505,
@@ -89,24 +192,36 @@
       "Yu’anshan Member",
       "Yunnan, China"
     ],
-    "overview": "Micro-CT reconstructions expose pincer-like short great appendages, overlapping exite flaps and a seven-segmented head used in a stem-chelicerate test.",
+    "overview": "Micro-CT reconstructions of the Chengjiang fossil show short, pincer-like great appendages, overlapping exite flaps and a head interpreted as seven segments. Researchers use these features to test a stem-chelicerate placement; segment count and anatomical homologies are comparative interpretations.",
     "ecology": {
-      "diet": "Feeding mode unresolved beyond pincer-like appendages",
-      "habitat": "Marine Chengjiang setting",
-      "locomotion": "Walking or swimming performance unresolved",
-      "bodySize": "Small articulated arthropod",
-      "guild": "Ecological guild unresolved"
+      "diet": "The pincers are preserved, but the fossils do not establish what Urokodia ate.",
+      "habitat": "The fossils come from the marine Chengjiang setting. Depositional context does not by itself show how the animal lived.",
+      "locomotion": "The available anatomy does not measure walking or swimming performance.",
+      "bodySize": "The material preserves a small, articulated arthropod; no precise body-size estimate is provided.",
+      "guild": "Its ecological role remains unresolved.",
+      "dietZh": "钳状结构有保存，但现有化石没有表明 Urokodia 吃什么。",
+      "habitatZh": "化石来自澄江海相沉积环境；沉积背景不能单独说明动物生前如何生活。",
+      "locomotionZh": "现有形态资料不足以测定它的行走或游泳能力。",
+      "bodySizeZh": "材料保存了一种小型、关节连接的节肢动物；现有记录没有提供精确体型估计。",
+      "guildZh": "现有证据尚不能确定它在生态系统中的角色。"
     },
     "traits": [
-      "Pincer-like short great appendages",
-      "Overlapping exite flaps",
-      "Seven-segmented head interpretation"
+      "The short great appendages end in pincer-like structures.",
+      "Overlapping exite flaps are preserved along the appendages.",
+      "A seven-segmented head is an interpretation of the preserved anatomy."
     ],
-    "evidenceSummary": "Tomography directly documents appendages and segments; chelicera and book-gill homology and upper stem-chelicerate placement are matrix results.",
+    "evidenceSummary": "Tomography documents the structures; chelicera and book-gill homologies and an upper stem-chelicerate position come from comparative analyses. These findings do not identify a direct ancestor of living chelicerates.",
     "confidence": "medium",
     "referenceIds": [
       "liu-2026-urokodia"
     ],
+    "overviewZh": "对澄江化石进行微型 CT 重建，显示短而钳状的大附肢、相互覆盖的外肢片（exite），以及被解释为由七节组成的头部。研究者用这些特征检验其在螯肢动物干群中的位置；头节数和解剖同源关系仍是形态比较的解释。",
+    "traitsZh": [
+      "短小的大附肢末端呈钳状。",
+      "附肢上保存有彼此覆盖的外肢片。",
+      "将头部划分为七节，是对保存形态的解释。"
+    ],
+    "evidenceSummaryZh": "断层成像直接显示了这些结构；螯肢和书鳃的同源关系，以及其位于螯肢动物干群较上部的位置，来自比较分析。这些结果没有证明它是现生螯肢动物的直接祖先。",
     "firstAppearance": 519,
     "lastAppearance": 518,
     "rangeEvidenceLevel": "literature-synthesized",
@@ -144,6 +259,39 @@
     "referenceIds": [
       "lerosey-aubril-ortega-2026-megachelicerax"
     ],
+    "readerSections": [
+      {
+        "id": "appendages-and-placement",
+        "title": {
+          "en": "What the large chelicerae show",
+          "zh": "大型螯肢展示了哪些结构？"
+        },
+        "text": {
+          "en": "Part and counterpart KUMIP 314091a,b from Utah’s Drumian Wheeler Formation preserve the paired front appendages, or chelicerae, with three segments each. Behind them are five pairs of prosomal limbs with two branches, followed by posterior appendages carrying plate-like lamellae. Read together, these parts make the holotype’s body plan more concrete than the label “Cambrian arthropod.”\n\nThe massive chelicerae support a predatory interpretation, but the holotype preserves no prey and does not record an attack. Published matrices place Megachelicerax among stem chelicerates, between sampled habeliid and synziphosurine groups; that is a conditional tree position, not a demonstrated ancestor–descendant sequence.",
+          "zh": "来自犹他州鼓阶惠勒组的正反模 KUMIP 314091a、b，保存了一对各分为三节的前部附肢，即螯肢。其后有五对分为两支的前体附肢，再往后则是带片状薄片的后体附肢。把这些部位合起来看，才能具体理解这件寒武纪正模的身体结构。\n\n巨大的螯肢支持捕食者这一解释，但正模没有保存猎物，也没有记录攻击行为。已发表的矩阵把 Megachelicerax 放在螯肢类干群，位于所取样的 habeliid 与 synziphosurine 类群之间；这是依赖分析的系统位置，并非已证实的祖先—后代序列。"
+        },
+        "sourceIds": [
+          "lerosey-aubril-ortega-2026-megachelicerax"
+        ]
+      }
+    ],
+    "readerSources": [
+      {
+        "id": "lerosey-aubril-ortega-2026-megachelicerax",
+        "referenceId": "lerosey-aubril-ortega-2026-megachelicerax",
+        "title": {
+          "en": "A chelicera-bearing arthropod reveals the Cambrian origin of chelicerates",
+          "zh": "A chelicera-bearing arthropod reveals the Cambrian origin of chelicerates"
+        },
+        "url": "https://doi.org/10.1038/s41586-026-10284-2",
+        "doi": "10.1038/s41586-026-10284-2",
+        "locator": "931–937; Figure 1; Extended Data Figures 1–2; Figure 1; Extended Data Figures 1–2; Megachelicerax cousteaui holotype KUMIP 314091a,b | 931–937; Figure 1; Figure 1; Cambrian Drumian Wheeler Formation of Utah | 931–937; Figures 1–2; Extended Data Figure 3; Figures 1–2; Extended Data Figure 3; Massive chelicerae and inferred predatory body plan | 931–937; Figures 1–2; Extended Data Figures 1–5; Figures 1–2; Extended Data Figures 1–5; Holotype external morphology and appendage anatomy | 931–937; Figure 3; Supplementary Information; Figure 3; Supplementary Information; Bayesian and parsimony phylogenetic analyses | 931–937; Figures 1–3; Extended Data; Cambrian Drumian Wheeler Formation of Utah",
+        "scope": {
+          "en": "Megachelicerax cousteaui: 931–937; Figure 1; Extended Data Figures 1–2; Figure 1; Extended Data Figures 1–2; Megachelicerax cousteaui holotype KUMIP 314091a,b | 931–937; Figure 1; Figure 1; Cambrian Drumian Wheeler Formation of Utah | 931–937; Figures 1–2; Extended Data Figure 3; Figures 1–2; Extended Data Figure 3; Massive chelicerae and inferred predatory body plan | 931–937; Figures 1–2; Extended Data Figures 1–5; Figures 1–2; Extended Data Figures 1–5; Holotype external morphology and appendage anatomy | 931–937; Figure 3; Supplementary Information; Figure 3; Supplementary Information; Bayesian and parsimony phylogenetic analyses | 931–937; Figures 1–3; Extended Data; Cambrian Drumian Wheeler Formation of Utah. Limited to the cited specimens, samples or analyses.",
+          "zh": "Megachelicerax cousteaui：原文定位 931–937; Figure 1; Extended Data Figures 1–2; Figure 1; Extended Data Figures 1–2; Megachelicerax cousteaui holotype KUMIP 314091a,b | 931–937; Figure 1; Figure 1; Cambrian Drumian Wheeler Formation of Utah | 931–937; Figures 1–2; Extended Data Figure 3; Figures 1–2; Extended Data Figure 3; Massive chelicerae and inferred predatory body plan | 931–937; Figures 1–2; Extended Data Figures 1–5; Figures 1–2; Extended Data Figures 1–5; Holotype external morphology and appendage anatomy | 931–937; Figure 3; Supplementary Information; Figure 3; Supplementary Information; Bayesian and parsimony phylogenetic analyses | 931–937; Figures 1–3; Extended Data; Cambrian Drumian Wheeler Formation of Utah。本文仅使用所引标本、样本或分析的对应结果。"
+        }
+      }
+    ],
     "firstAppearance": 504.5,
     "lastAppearance": 500.5,
     "rangeEvidenceLevel": "literature-synthesized",
@@ -163,25 +311,87 @@
       "Burgess Shale",
       "British Columbia, Canada"
     ],
-    "overview": "Carbonaceous films in two specimens preserve optic nerves, a possible cephalic synganglion and a segmental ventral nerve cord in a contested stem-chelicerate context.",
+    "overview": "Two Burgess Shale specimens preserve optic nerves, a possible compact head ganglion and a segmented ventral nerve cord. Elemental mapping supports a nervous-tissue interpretation, while the animal's broader arthropod placement remains disputed.",
     "ecology": {
-      "diet": "Unknown for the profiled M. symmetrica; M. plenovenatrix supports micropredation only for that species",
-      "habitat": "Marine Burgess Shale setting in the cited samples",
-      "locomotion": "Walking legs documented in M. plenovenatrix; performance unknown for the profiled M. symmetrica",
-      "bodySize": "Centimetre-scale in the cited fossil samples",
-      "guild": "Benthic micropredator for M. plenovenatrix; unresolved for the profiled M. symmetrica"
+      "diet": "Not established for the profiled M. symmetrica. Micropredation is supported for the separate species M. plenovenatrix and should not be transferred to this sample.",
+      "habitat": "The cited specimens come from the marine Burgess Shale setting.",
+      "locomotion": "Locomotor performance is unknown for M. symmetrica. Walking legs are documented in M. plenovenatrix, a different species.",
+      "bodySize": "The cited fossil samples are centimetre-scale; this does not provide a complete body-size range for the genus.",
+      "guild": "Unresolved for M. symmetrica. The benthic-micropredator interpretation applies to M. plenovenatrix only.",
+      "dietZh": "对所描述的 M. symmetrica 而言，食性尚未确定。微型捕食的证据针对另一物种 M. plenovenatrix，不应移用于该样本。",
+      "locomotionZh": "M. symmetrica 的运动能力未知。不同种 M. plenovenatrix 有行走足的记录。",
+      "bodySizeZh": "所引化石标本为厘米级；这不能提供该属完整的体型范围。",
+      "guildZh": "M. symmetrica 的生态类群尚未确定。底栖微型捕食者的解释仅适用于 M. plenovenatrix。"
     },
     "traits": [
       "Preserved optic nerves",
       "Possible compact cephalic synganglion",
       "Segmental ventral nerve cord"
     ],
-    "evidenceSummary": "Elemental mapping supports nervous-tissue interpretation, but incomplete preservation and conflicting appendicular signal keep ancestral organization and placement contested.",
+    "evidenceSummary": "Elemental maps support identifying the carbon films as nervous tissue. The remains are incomplete, and other anatomical signals have led to competing placement hypotheses; these specimens do not establish an ancestral chelicerate nervous system.",
+    "readerSections": [
+      {
+        "id": "nervous-tissue",
+        "title": {
+          "en": "Nervous tissue preserved as carbon films",
+          "zh": "碳质薄膜保存的神经组织"
+        },
+        "text": {
+          "en": "Two Burgess Shale specimens, MCZ 1811 and USNM 305093, preserve carbonaceous films interpreted as optic nerves, a possible compact synganglion in the head, and a segmented ventral nerve cord. Elemental mapping supports identifying the films as nervous tissue. The possible head ganglion is an interpretation, so it is useful to keep that qualification beside the anatomical description.",
+          "zh": "两件布尔吉斯页岩标本 MCZ 1811 和 USNM 305093 保存了碳质薄膜，研究者将其解释为视神经、可能的紧凑头部联合神经节，以及分节的腹神经索。元素分布分析支持这些薄膜属于神经组织；头部神经节仍是可能的解释，因此描述中需要保留这一限定。"
+        },
+        "sourceIds": [
+          "mollisonia-neuroanatomy"
+        ]
+      },
+      {
+        "id": "sample-and-interpretation-limits",
+        "title": {
+          "en": "A specimen-level result, not a complete life history",
+          "zh": "标本证据的范围"
+        },
+        "text": {
+          "en": "The neural fossils and appendicular evidence have supported competing views of Mollisonia's position among arthropods, so this material does not settle the ancestral organization of chelicerates. It also does not establish diet or locomotion for M. symmetrica: a benthic-micropredator interpretation comes from the separate species M. plenovenatrix. The 508.1–505 Ma interval describes the cited Burgess Shale sample, not the genus's full duration or a chelicerate divergence date.",
+          "zh": "神经化石与附肢证据曾支持不同的节肢动物位置解释，因此这些材料没有解决螯肢动物祖先的神经组织方式。它们也不能确定 M. symmetrica 的食性或运动方式：底栖微型捕食者的解释来自另一个物种 M. plenovenatrix。508.1–505 Ma 是所引布尔吉斯页岩样本的年代包络，不是该属的完整延续时间，也不是螯肢类分化年代。"
+        },
+        "sourceIds": [
+          "mollisonia-neuroanatomy",
+          "mollisonia-plenovenatrix"
+        ]
+      }
+    ],
+    "readerSources": [
+      {
+        "id": "mollisonia-neuroanatomy",
+        "title": {
+          "en": "Ortega-Hernández et al. (2022), Mollisonia nervous tissues",
+          "zh": "Ortega-Hernández 等（2022），莫里逊虫神经组织"
+        },
+        "url": "https://doi.org/10.1038/s41467-022-28054-9",
+        "scope": {
+          "en": "MCZ 1811 and USNM 305093, carbon films, elemental mapping, Figures 1–5 and supplementary figures. The source supports the described neural structures and discusses competing neuroanatomical and appendicular signals; it does not establish a direct ancestor or genus-wide life history.",
+          "zh": "MCZ 1811 与 USNM 305093、碳质薄膜、元素分析、图 1–5 及补充图版。该来源支持所述神经结构，并讨论相互竞争的神经解剖与附肢信号；它不能确立直系祖先或该属完整的生活史。"
+        }
+      },
+      {
+        "id": "mollisonia-plenovenatrix",
+        "title": {
+          "en": "Aria and Caron (2019), Mollisonia plenovenatrix anatomy",
+          "zh": "Aria 与 Caron（2019），Mollisonia plenovenatrix 解剖"
+        },
+        "url": "https://doi.org/10.1038/s41586-019-1525-4",
+        "scope": {
+          "en": "The anatomy and ecological interpretation of M. plenovenatrix, Figures 1–4 and pages 586–589. Its benthic-micropredator interpretation applies to that species, not to the M. symmetrica neuroanatomy sample.",
+          "zh": "M. plenovenatrix 的解剖与生态解释，图 1–4 及第 586–589 页。底栖微型捕食者的解释只适用于该物种，不适用于 M. symmetrica 神经解剖样本。"
+        }
+      }
+    ],
     "confidence": "contested",
     "referenceIds": [
       "ortega-hernandez-2022-mollisonia-neuroanatomy",
       "aria-caron-2019-mollisonia-plenovenatrix"
     ],
+    "evidenceSummaryZh": "元素分布图支持将碳质薄膜鉴定为神经组织。遗骸并不完整，其他解剖信号也引出了相互竞争的系统位置假说；这些标本不能确定螯肢动物祖先的神经系统。",
     "firstAppearance": 508.1,
     "lastAppearance": 505,
     "rangeEvidenceLevel": "literature-synthesized",
@@ -201,7 +411,7 @@
       "Carboniferous and younger spider fossil localities reviewed by Selden and Penney",
       "Broad living-spider target-gene sampling in Wheeler et al."
     ],
-    "overview": "Araneae is represented by a fossil-origin review, a Carboniferous arachnid comparison and an extensive living-spider target-gene phylogeny; the combined record remains sampled and revisable.",
+    "overview": "Three kinds of evidence shape this account of spiders: a review of the fossil record, a Carboniferous arachnid comparison, and a broad target-gene study of living species. Each addresses a different part of spider history, so together they remain a sampled picture rather than one complete, final tree.",
     "ecology": {
       "diet": "Not assigned by the cited phylogenetic and fossil-origin studies",
       "habitat": "Fossil localities and living samples provide context, not a complete habitat map",
@@ -214,12 +424,100 @@
       "Carboniferous Idmonarachne comparison lacking true-spider spinnerets",
       "Extensive target-gene sampling of living spiders"
     ],
-    "evidenceSummary": "Wheeler et al. provide a sampled living-spider topology while Garwood et al. and the fossil review bound early spider evidence; ecological fields remain intentionally unassigned.",
+    "evidenceSummary": "Wheeler et al. infer relationships among the living spiders included in their gene sample. Garwood et al. and the fossil-origin review help define what the early fossil record can support; none of these sources supplies a complete ecological account of the order.",
     "confidence": "medium",
     "referenceIds": [
       "wheeler-2017-spider-tree",
       "garwood-2016-idmonarachne",
       "selden-penney-2010-spider-fossil-record"
+    ],
+    "readerSections": [
+      {
+        "id": "reading-introduction",
+        "title": {
+          "en": "Research overview",
+          "zh": "研究概述"
+        },
+        "text": {
+          "en": "Three kinds of evidence shape this account of spiders: a review of the fossil record, a Carboniferous arachnid comparison, and a broad target-gene study of living species. Each addresses a different part of spider history, so together they remain a sampled picture rather than one complete, final tree.",
+          "zh": "三类证据共同构成这份蜘蛛目记录：化石记录综述、对石炭纪蛛形类的比较，以及对现生种类开展的广泛目标基因研究。每类材料回答的问题不同；合起来仍是受取样限制的图景，不是完整且最终定论的系统树。"
+        },
+        "sourceIds": [
+          "wheeler-2017-spider-tree",
+          "garwood-2016-idmonarachne",
+          "selden-penney-2010-spider-fossil-record"
+        ]
+      },
+      {
+        "id": "body-observations",
+        "title": {
+          "en": "Spinnerets, fossils and sampled relationships",
+          "zh": "纺器、化石与取样到的亲缘关系"
+        },
+        "text": {
+          "en": "Abdominal spinnerets control how spiders deploy silk.\n\nThe Carboniferous arachnid *Idmonarachne* provides a comparison relevant to spider origins, but its preserved underside lacks the spinnerets that distinguish true spiders. Its spider-like appearance alone does not place it within Araneae.\n\nWheeler et al.'s extensive target-gene sampling supports relationships among the living spiders represented in their study. Selden and Penney's fossil review addresses a different part of the record; with Garwood et al.'s *Idmonarachne* comparison, these sources give a sampled, revisable picture rather than a complete, final tree of Araneae.",
+          "zh": "腹部纺器控制丝的释放。\n\n石炭纪 Idmonarachne 的比较材料没有保存真蜘蛛具有的纺器。\n\n现生蜘蛛的目标基因取样范围广。"
+        },
+        "sourceIds": [
+          "wheeler-2017-spider-tree",
+          "garwood-2016-idmonarachne",
+          "selden-penney-2010-spider-fossil-record"
+        ]
+      },
+      {
+        "id": "interpretation-boundary",
+        "title": {
+          "en": "What this evidence can establish",
+          "zh": "证据能说明什么"
+        },
+        "text": {
+          "en": "Wheeler et al. infer relationships among the living spiders included in their gene sample. Garwood et al. and the fossil-origin review help define what the early fossil record can support; none of these sources supplies a complete ecological account of the order.",
+          "zh": "Wheeler 等人推断其基因样本中现生蜘蛛之间的关系。Garwood 等人及化石起源综述有助于界定早期化石记录能支持什么；这些来源都没有提供蜘蛛目完整的生态描述。"
+        },
+        "sourceIds": [
+          "wheeler-2017-spider-tree",
+          "garwood-2016-idmonarachne",
+          "selden-penney-2010-spider-fossil-record"
+        ]
+      }
+    ],
+    "readerSources": [
+      {
+        "id": "wheeler-2017-spider-tree",
+        "title": {
+          "en": "The spider tree of life: phylogeny of Araneae based on target-gene analyses from an extensive taxon sampling",
+          "zh": "The spider tree of life: phylogeny of Araneae based on target-gene analyses from an extensive taxon sampling"
+        },
+        "url": "https://doi.org/10.1111/cla.12182",
+        "scope": {
+          "en": "The study infers relationships among living spiders in its target-gene sample; it does not establish fossil ages or direct ancestry.",
+          "zh": "该研究依据目标基因样本推断现生蜘蛛之间的关系；不能由此确定化石年代或直接祖先关系。"
+        }
+      },
+      {
+        "id": "garwood-2016-idmonarachne",
+        "title": {
+          "en": "Almost a spider: a 305-million-year-old fossil arachnid and spider origins",
+          "zh": "Almost a spider: a 305-million-year-old fossil arachnid and spider origins"
+        },
+        "url": "https://doi.org/10.1098/rspb.2016.0125",
+        "scope": {
+          "en": "The paper distinguishes the 305 Ma stem-like Idmonarachne from true spiders and discusses an approximately 315 Ma origin for Araneae.",
+          "zh": "研究将约 3.05 亿年前的干群蛛形动物 Idmonarachne 与真蜘蛛区分，并讨论蜘蛛目约 3.15 亿年前的起源。"
+        }
+      },
+      {
+        "id": "selden-penney-2010-spider-fossil-record",
+        "title": {
+          "en": "Fossil spiders",
+          "zh": "Fossil spiders"
+        },
+        "url": "https://doi.org/10.1111/j.1469-185X.2009.00099.x",
+        "scope": {
+          "en": "The review supports a Carboniferous spider fossil record while retaining taxonomic and sampling limits.",
+          "zh": "化石记录综述支持石炭纪蜘蛛记录，同时保留分类鉴定与取样方面的限制。"
+        }
+      }
     ],
     "firstAppearance": 315,
     "lastAppearance": 0,
@@ -240,24 +538,40 @@
       "Siluro-Devonian Phacopidae material and ontogenetic series in Crônier et al.",
       "Sampled trilobite systematics reviewed by Fortey"
     ],
-    "overview": "Phacopida is represented by a Siluro-Devonian Phacopidae morphology and ontogeny study plus a systematic review; the classification remains a sampled, revisable order-level hypothesis.",
+    "overview": "The evidence here centres on a Silurian–Devonian Phacopidae sample: researchers compare morphology and growth stages to delimit species, alongside a broader review of trilobite systematics. That family-level sample cannot resolve every phacopid lineage or set global endpoints for Phacopida.",
+    "overviewZh": "这里的证据集中于志留纪—泥盆纪的 Phacopidae（镜眼虫科）样本：研究者比较形态与生长阶段以区分物种，并结合更广泛的三叶虫系统分类综述。这个科级样本不能厘清镜眼目每条谱系，也不能确定全目的全球首末现时间。",
     "ecology": {
-      "diet": "Not assigned by the cited taxonomic studies",
-      "habitat": "Regional fossil localities provide context, not a complete habitat distribution",
-      "locomotion": "Exoskeletal morphology is documented, but locomotor performance is not measured",
-      "bodySize": "Not assigned as a complete comparative body-size dataset",
-      "guild": "No order-wide ecological guild is assigned from the cited evidence"
+      "diet": "The cited taxonomic studies do not assign a feeding mode to the order.",
+      "habitat": "Regional fossil localities provide context, not a complete distribution of habitats.",
+      "locomotion": "Exoskeletal form is described; locomotor performance was not measured.",
+      "bodySize": "No complete comparative body-size dataset is supplied.",
+      "guild": "No order-wide ecological guild is assigned by these sources.",
+      "dietZh": "所引分类学研究没有为该目指定摄食方式。",
+      "habitatZh": "区域化石地点提供背景信息，并不构成完整的生境分布。",
+      "locomotionZh": "研究描述了外骨骼形态，但未测量运动能力。",
+      "bodySizeZh": "未提供完整的比较性体型数据集。",
+      "guildZh": "这些来源没有为整个目指定统一的生态类群。"
     },
     "traits": [
-      "Morphological criteria for phacopid species delimitation",
-      "Ontogenetic series used in Siluro-Devonian comparisons",
-      "Facial and exoskeletal characters scored in trilobite systematics"
+      "Morphological criteria used to distinguish phacopid species",
+      "Ontogenetic series compared across Siluro-Devonian material",
+      "Facial and exoskeletal characters used in trilobite systematics"
     ],
-    "evidenceSummary": "Crônier et al. provide a bounded Phacopidae morphology and ontogeny sample while Fortey reviews broader trilobite systematics; ecology and global range remain unassigned.",
+    "evidenceSummary": "Crônier and colleagues document a bounded Phacopidae morphology and ontogeny sample, while Fortey reviews broader trilobite systematics. These sources do not establish order-wide first and last occurrences, a complete geographic range or a uniform ecology.",
+    "readerLimitations": {
+      "en": "The evidence is taxonomic and morphological, not a survey of all Phacopida. It leaves diet, habitat use, locomotion, body-size variation, global range and order-wide temporal endpoints unassigned.",
+      "zh": "证据侧重分类与形态，并未覆盖全部镜眼目。现有材料无法确定食性、生境利用、运动方式、体型变化、全球分布或全目的时间端点。"
+    },
     "confidence": "medium",
     "referenceIds": [
       "cronier-2011-phacopidae-species",
       "fortey-2001-trilobite-systematics"
+    ],
+    "evidenceSummaryZh": "Crônier 等人记录了范围有限的 Phacopidae 形态与个体发育样本，Fortey 则综述了更广泛的三叶虫系统学。这些来源无法确定整个目级类群的最早和最晚出现时间、完整地理分布或统一的生态特征。",
+    "traitsZh": [
+      "用于区分 Phacopida 各物种的形态学标准。",
+      "比较了志留纪—泥盆纪材料中的个体发育序列。",
+      "用于三叶虫系统学研究的面部及外骨骼特征。"
     ],
     "firstAppearance": 0,
     "lastAppearance": 0,
@@ -278,25 +592,41 @@
       "Upper Tremadocian Fezouata Formation, Morocco (Van Roy et al.)",
       "Late Permian Russian occurrence reviewed by Tetlie"
     ],
-    "overview": "Eurypterida is represented by an early Ordovician Fezouata occurrence, a reviewed late Permian record and morphology matrices; the combined history is a sampled fossil envelope rather than a complete origin-to-extinction sequence.",
+    "overview": "The sampled record spans about 479–250 Ma, from unequivocal Fezouata eurypterids to a reviewed late Permian occurrence. It combines local fossil records with morphology matrices; these endpoints describe the material assembled here, not the order’s exact origin and extinction.",
+    "overviewZh": "这里汇集的化石记录约跨 479–250 Ma：从明确的 Fezouata（费祖阿塔）海蝎材料，到经综述确认的晚二叠世记录。资料结合了不同地点的化石和形态矩阵；这些端点描述的是当前汇集到的样本，并非该目的精确起源或灭绝时间。",
     "ecology": {
-      "diet": "Predatory function is not assigned as an order-wide observation from the cited studies",
-      "habitat": "Fezouata and Russian deposits provide depositional context, not a complete habitat map",
-      "locomotion": "Appendages are described in sampled fossils, but locomotor performance is not measured",
-      "bodySize": "Not assigned as a complete comparative body-size dataset",
-      "guild": "No order-wide ecological guild is assigned from the cited evidence"
+      "diet": "The cited studies do not establish one feeding mode for the order; predation is not assigned as a shared observation.",
+      "habitat": "Fezouata and Russian deposits provide settings for particular samples, not a complete habitat map.",
+      "locomotion": "Appendages are described in sampled fossils, but locomotor performance is not measured.",
+      "bodySize": "The cited material is not a complete comparative body-size dataset.",
+      "guild": "These occurrence and morphology studies do not support an order-wide ecological guild.",
+      "dietZh": "所引研究未能确定该目统一的摄食方式；掠食也未被列为该目成员共有的观察结果。",
+      "habitatZh": "Fezouata 和俄罗斯的沉积层为特定样本提供环境背景，并非完整的生境图谱。",
+      "locomotionZh": "研究描述了所取样化石的附肢，但未测量其运动能力。",
+      "bodySizeZh": "所引材料并非完整的比较性体型数据集。",
+      "guildZh": "这些分布与形态研究不足以支持为整个目指定统一的生态类群。"
     },
     "traits": [
-      "Fezouata eurypterids included in a morphology matrix",
-      "Chelicerae and prosomal appendages documented in sampled sea scorpions",
-      "Fossil distribution reviewed from Ordovician to Permian records"
+      "Fezouata specimens included in a eurypterid morphology matrix",
+      "Chelicerae and prosomal appendages documented in sampled fossils",
+      "Fossil distribution reviewed across Ordovician-to-Permian records"
     ],
-    "evidenceSummary": "Van Roy et al. anchor an unequivocal Fezouata sea-scorpion occurrence, while Tetlie reviews later distribution; morphology, ecology and range remain source-bounded.",
+    "evidenceSummary": "Van Roy and colleagues document an unequivocal Fezouata occurrence and score sampled morphology; Tetlie reviews later distribution. The combined 479–250 Ma envelope is a reviewed fossil record, not an exact biological lifespan or a complete tree.",
+    "readerLimitations": {
+      "en": "The anatomical and geographic claims apply to the cited samples. The evidence does not provide an order-wide diet, habitat map, locomotor-performance dataset or complete body-size comparison.",
+      "zh": "解剖与地理结论只适用于所引样本。现有证据没有提供整个目的统一食性、完整生境分布图、运动表现数据或全面体型比较。"
+    },
     "confidence": "medium",
     "referenceIds": [
       "van-roy-2025-fezouata-eurypterids",
       "tetlie-2007-eurypterid-history",
       "lamsdell-2015-pentecopterus-eurypterid"
+    ],
+    "evidenceSummaryZh": "Van Roy 等人记录了明确无疑的 Fezouata 产出，并对取样形态进行编码；Tetlie 综述了之后的分布记录。合并所得的 479–250 Ma 时间范围来自经综述的化石记录，并非精确的生物存续期，也不代表完整的系统树。",
+    "traitsZh": [
+      "纳入广翅鲎形态矩阵分析的 Fezouata 标本。",
+      "取样化石中记录了螯肢和前体部附肢。",
+      "对奥陶纪至二叠纪化石记录中分布的综述。"
     ],
     "firstAppearance": 479,
     "lastAppearance": 250,

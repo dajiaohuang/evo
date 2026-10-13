@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus ornatus
+  displayName: Cophixalus ornatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44R
+  sourceIndexes:
+    - name:
+        en: Cophixalus ornatus
+        zh: Cophixalus ornatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/469
+            queryName: Cophixalus ornatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/498
+            queryName: Austrochaperina ornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/499
+            queryName: Phrynixalus reginae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/0
+            queryName: Sphenophryne ornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/1
+            queryName: Phrynomantis ornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5b5585f844
+      - s-0a7cee43f8
+      - s-eda971fae0
+      - s-86e94a31b3
+      - s-7d919bd37c
+      - s-33956e6232
+      - s-064c2fb327
+      - s-3069f513ff
+      - s-3f3179417e
+      - s-eaa7c9d0ac
+      - s-42671c9120
+      - s-acce9aa0c0
+    zh:
+      - s-01a8c1ab6a
+      - s-0652d208b3
+      - s-03b46d56e5
+      - s-41d8b9d135
+      - s-271ff729e9
+      - s-e0649a6652
+      - s-a00f9c2f4f
+      - s-47ff7f5355
+      - s-2cb4fd2580
+      - s-8f4d943351
+      - s-6fca2a03f2
+      - s-870ab9bcdd

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachoseps robustus
+  displayName: Batrachoseps robustus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZQW
+  sourceIndexes:
+    - name:
+        en: Batrachoseps robustus
+        zh: Batrachoseps robustus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZQW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/406
+            queryName: Batrachoseps robustus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5b81be2397
+      - s-9545439bd2
+      - s-5a49a45f46
+      - s-a88320f7f0
+      - s-9603476f69
+      - s-6bc4a68714
+      - s-603070b20d
+      - s-18b378b91e
+    zh:
+      - s-17cfe66654
+      - s-3cfedfcc7a
+      - s-6c561db62a
+      - s-4fdd668a39
+      - s-d39d7efcbf
+      - s-40eb8d1053
+      - s-7839077617
+      - s-1a01bde9d5

@@ -1,0 +1,284 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Berthasaura leopoldinae
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Berthasaura leopoldinae
+      en: Berthasaura leopoldinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - souza2021BerthasauraDescription
+        text:
+          zh:
+            page: zh
+            section: s-267f7a0cde
+            part: body
+          en:
+            page: en
+            section: s-7955b03ab4
+            part: body
+      - topic: morphology
+        sourceIds:
+          - souza2021BerthasauraDescription
+        text:
+          zh:
+            page: zh
+            section: s-a70b770b22
+            part: body
+          en:
+            page: en
+            section: s-952baeaa76
+            part: body
+      - topic: evidence
+        sourceIds:
+          - souza2021BerthasauraDescription
+          - pierossi2025BerthasauraDentaryAbstract
+        text:
+          zh:
+            page: zh
+            section: s-60759cbea4
+            part: body
+          en:
+            page: en
+            section: s-d88e09e133
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - souza2021BerthasauraDescription
+        text:
+          zh:
+            page: zh
+            section: s-d35e07e655
+            part: body
+          en:
+            page: en
+            section: s-4a60df4555
+            part: body
+      - topic: morphology
+        sourceIds:
+          - souza2021BerthasauraDescription
+        text:
+          zh:
+            page: zh
+            section: s-f06ea2cfa6
+            part: body
+          en:
+            page: en
+            section: s-0f3765fab0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - souza2021BerthasauraDescription
+        text:
+          zh:
+            page: zh
+            section: s-7daf90be81
+            part: body
+          en:
+            page: en
+            section: s-b6c53589ce
+            part: body
+      - topic: phylogeny
+        sourceIds:
+          - souza2021BerthasauraDescription
+        text:
+          zh:
+            page: zh
+            section: s-ddf3c6c8ed
+            part: body
+          en:
+            page: en
+            section: s-8a9cc8fd99
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-60d1296dfa
+            part: body
+          en:
+            page: en
+            section: s-e96dd7ea16
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-99a5314888
+            part: body
+          en:
+            page: en
+            section: s-ca6e969bbd
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4b9aed0a8f
+            part: body
+          en:
+            page: en
+            section: s-76df7a25a6
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-df41b7889a
+            part: body
+          en:
+            page: en
+            section: s-3dcd75b157
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - souza2021BerthasauraDescription
+          - pierossi2025BerthasauraDentaryAbstract
+        text:
+          zh:
+            page: zh
+            section: s-22287faa61
+            part: body
+          en:
+            page: en
+            section: s-ed7d8af4b5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Berthasaura leopoldinae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=444934&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:444934; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:444934
+          selectedOccurrenceIds:
+            - occ:1583175
+          selectedCollectionIds:
+            - col:160057
+          sourceReferenceIds:
+            - ref:78692
+          originalIdentificationMappings:
+            - occurrenceId: occ:1583175
+              originalIdentifiedName: Berthasaura leopoldinae n. gen. n. sp.
+              acceptedName: Berthasaura leopoldinae
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: souza2021BerthasauraDescription
+        referenceId: ref-d58112e9-253e-4d0d-9758-2edce6a2d59c
+        fields:
+          - id
+          - title
+          - authors
+          - publishedOnline
+          - doi
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: The first edentulous ceratosaur from South America
+          url: https://doi.org/10.1038/s41598-021-01312-4
+          accessedAt: 2026-10-03
+          locator: "Official Europe PMC PMC8602317 XML: selected front metadata; complete Introduction, Discussion, Methods, Systematic paleontology, Ontogenetic assessment and Phylogenetic analysis; first 14500 characters of Description and comparisons, covering size, cranial anatomy, mandible and selected vertebrae. Remaining postcranial text, images, raw CT and supplements not read."
+          scope:
+            zh: 2021 年原始描述的正模、无齿颌、部分骨骼、成熟与食性推断；全部头后正文及补充资料未读齐。
+            en: 2021 original-description guide to the holotype, toothless jaws, selected anatomy, maturity and diet inference; remaining postcranial text and supplements unread.
+      - id: pierossi2025BerthasauraDentaryAbstract
+        referenceId: ref-107f19dd-9c69-4211-9330-05742ad52aaf
+        fields:
+          - id
+          - title
+          - authors
+          - publishedOnline
+          - doi
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Convergent evolution among non-carnivorous, desert-dwelling theropods as revealed by the dentary of the noasaurid Berthasaura leopoldinae (Cretaceous of Brazil)
+          url: https://doi.org/10.1111/pala.70014
+          accessedAt: 2026-10-03
+          locator: Publisher article front metadata and complete abstract only. Read the full text link returned the abstract page. Full article, specimen identifier, methods, images and supplementary data not inspected.
+          scope:
+            zh: 仅出版商摘要中的新齿骨与发育失齿解释短提示；不是后续研究全文或独立鉴定。
+            en: Short notice of the new dentary and developmental tooth-loss interpretation in the publisher abstract only; not full-paper reading or independent identification.
+    limitations:
+      zh:
+        page: zh
+        section: s-b813d51afa
+        part: body
+      en:
+        page: en
+        section: s-5e25442dc0
+        part: body

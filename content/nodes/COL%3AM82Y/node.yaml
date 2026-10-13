@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana steinbachi
+  displayName: Boana steinbachi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M82Y
+  sourceIndexes:
+    - name:
+        en: Boana steinbachi
+        zh: Boana steinbachi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M82Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/36
+            queryName: Boana steinbachi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/409
+            queryName: Hyla steinbachi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/165
+            queryName: Hypsiboas steinbachi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca0a3c1eeb
+      - s-fd586e90f9
+      - s-af2732cdf0
+      - s-e0daae7eb2
+      - s-275a14f6d7
+      - s-4bb10f10a1
+      - s-01dc959032
+      - s-b1fdd1b411
+      - s-5629ca1276
+      - s-96b2782a32
+      - s-0202606747
+      - s-e95ec4e050
+      - s-d4e9cf8e2c
+      - s-845a50c49b
+      - s-d2080337b0
+    zh:
+      - s-564ab831b0
+      - s-4debd97a33
+      - s-314d50719e
+      - s-b7fb72f8ff
+      - s-ef501b93fe
+      - s-111b51d194
+      - s-adf4fefc7e
+      - s-e412134335
+      - s-9c594bbd0e
+      - s-d8089c4f60
+      - s-49172ae7a3
+      - s-f0e998e50f
+      - s-2570f4d67e
+      - s-3123f591a2
+      - s-184d61a077

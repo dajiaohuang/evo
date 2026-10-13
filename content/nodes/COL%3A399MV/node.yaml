@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus probolaeus
+  displayName: Eleutherodactylus probolaeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399MV
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus probolaeus
+        zh: Eleutherodactylus probolaeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399MV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/308
+            queryName: Eleutherodactylus probolaeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/53
+            queryName: Eleutherodactylus proboleus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/54
+            queryName: Euhyas probolaea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/491
+            queryName: Eleutherodactylus pictissimus probolaeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9f31080243
+      - s-7b8b107f40
+      - s-cd5554110f
+      - s-ffce822a10
+      - s-24556a312d
+      - s-23a2c8f87a
+      - s-c3fba92187
+      - s-0e106840ee
+      - s-4ace409c21
+    zh:
+      - s-b593f82c2a
+      - s-0c285c30e4
+      - s-82fd66e616
+      - s-ccf590d317
+      - s-bb47e617c2
+      - s-158c76b53f
+      - s-888a15f755
+      - s-4f54e4e19d
+      - s-d838cd946b

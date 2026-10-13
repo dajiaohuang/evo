@@ -1,0 +1,3 @@
+## When does the egg's outer envelope form? {#s-ce3b990c41}
+In a 2019 laboratory study, cultured animals came from the National Institute of Environmental Research in Incheon, South Korea. In parthenogenetic eggs of *Daphnia magna*—eggs that develop without fertilization—the vitelline envelope, the egg's outer covering, began forming about 20 minutes after oviposition (egg laying) and took about 20 minutes to complete. These timings apply to the observed laboratory eggs, not wild populations, other egg types or other reproductive modes. The study did not compare genotypes, populations or environments, and it is not a complete life-history account.
+

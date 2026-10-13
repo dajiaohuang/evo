@@ -1,0 +1,3 @@
+## A hanging raceme and a reported fifty-centimetre pod {#s-d525595000}
+The archived Flora of Panama description presents Cassia fistula as a tree up to 20 m tall, with normally 4–8 pairs of leaflets measuring 8–20 cm long and up to 8 cm wide. Its hanging racemes bear yellow flowers with petals about 2 cm long or longer. The source reports a cylindrical pod about 50 cm long, indehiscent, with horizontal seeds. A separate historical distribution entry lists Central America, the West Indies, and northern South America, and gives Asia as the native region. These are historical regional source statements, not a current population or range survey.
+

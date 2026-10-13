@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis paucidentulus
+  displayName: Ichthyophis paucidentulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTS6
+  sourceIndexes:
+    - name:
+        en: Ichthyophis paucidentulus
+        zh: Ichthyophis paucidentulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTS6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/420
+            queryName: Ichthyophis paucidentulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/403
+            queryName: Caudacaecilia paucidentula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-14a3d24be4
+      - s-a2e34c8612
+      - s-5a524ebcf2
+      - s-fb484ba394
+      - s-a7a3ad8926
+      - s-e9f58a3973
+      - s-47339b128f
+      - s-9ca3cf744a
+      - s-872021b101
+    zh:
+      - s-91c15a0481
+      - s-0ba6277295
+      - s-a579bb3d80
+      - s-84b2e54530
+      - s-9598a7f0b4
+      - s-82eb005f39
+      - s-a57490f73b
+      - s-3dc4c74b71
+      - s-8b4e088ec3

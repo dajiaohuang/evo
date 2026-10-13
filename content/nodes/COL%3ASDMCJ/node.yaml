@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Quasipaa taoi
+  displayName: Quasipaa taoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SDMCJ
+  sourceIndexes:
+    - name:
+        en: Quasipaa taoi
+        zh: Quasipaa taoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SDMCJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/35
+            queryName: Quasipaa taoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b53722b959
+      - s-e4e25b9485
+      - s-1fe649707f
+      - s-6a2f5acd83
+      - s-538b219f80
+      - s-7bdb280e44
+      - s-17c53fdbc9
+    zh:
+      - s-25a35aed49
+      - s-c9a22281b5
+      - s-2315752642
+      - s-1885caea22
+      - s-81251e967c
+      - s-bd7de5035d
+      - s-9d62fca781

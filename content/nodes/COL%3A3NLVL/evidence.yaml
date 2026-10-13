@@ -1,0 +1,269 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hyobanche sanguinea L.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3NLVL, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3NLVL; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NLVL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3NLVL
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001138113-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3NLVL / WFO wfo-0001138113
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14369_0
+        referenceId: ref-377ec2be-9e54-8e7f-a3c1-253806cf19da
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hyobanche sanguinea L. account; archive rows 6074 (Morphology), 30257 (Habitat), source identifier 14369.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_931_0
+        referenceId: ref-0985f5f9-c242-848c-a3e4-ce6ee6f9178d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hyobanche sanguinea L. account; archive rows 74388 (Diagnostic), source identifier 931.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Root parasite with scale-like leaves, bracteoles obtuse. Flowers crimson or pink, hooded, densely hairy, tube subcylindrical, stamens included.
+            sourceIds:
+              - sanbi_14369_0
+            locator: "SANBI/WFO archive Morphology row 6074; source 14369.0; publication: Manning, JC; Goldblatt, P. 2012. Orobanchaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 630 - 633. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Excellent ink may be made from this plant; the farmers in the Queenstown district call it ' Ink-plant' (Boioker). Sometimes the calyx-lobes are connate two and three together for some distance so as to make the calyx sub-bilabiate. The hairs of the pubescence are moniliform, as is the case in other species of the genus. There is in the British Museum a coloured drawing made by Masson at the Cape of Good Hope in 1775.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_931_0
+            locator: "SANBI/WFO archive Diagnostic row 74388; source 931.0; publication: Hiern, WP. 1904. XCV. Scrophulariaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 4(1-3): 121 - 420. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15241#page/129/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandy slopes and flats.
+            sourceIds:
+              - sanbi_14369_0
+            locator: "SANBI/WFO archive Habitat row 30257; source 14369.0; publication: Manning, JC; Goldblatt, P. 2012. Orobanchaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 630 - 633. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Hyobanche sanguinea L.
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Hyobanche sanguinea
+      zh: Hyobanche sanguinea
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NLVL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3NLVL
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001138113-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3NLVL / WFO wfo-0001138113
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14369_0
+        referenceId: ref-377ec2be-9e54-8e7f-a3c1-253806cf19da
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hyobanche sanguinea L. account; archive rows 6074 (Morphology), 30257 (Habitat), source identifier 14369.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_931_0
+        referenceId: ref-0985f5f9-c242-848c-a3e4-ce6ee6f9178d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hyobanche sanguinea L. account; archive rows 74388 (Diagnostic), source identifier 931.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8d5a721902
+            part: title
+          zh:
+            page: zh
+            section: s-5f0f79786e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8d5a721902
+            part: body
+          zh:
+            page: zh
+            section: s-5f0f79786e
+            part: body
+        sourceIds:
+          - sanbi_14369_0
+        locator: "SANBI/WFO archive Morphology row 6074; source 14369.0; publication: Manning, JC; Goldblatt, P. 2012. Orobanchaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 630 - 633. South African National Biodiversity Institute, Pretoria. [CC BY]"
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5c9992a0c0
+            part: title
+          zh:
+            page: zh
+            section: s-62dda713a6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5c9992a0c0
+            part: body
+          zh:
+            page: zh
+            section: s-62dda713a6
+            part: body
+        sourceIds:
+          - sanbi_14369_0
+        locator: "SANBI/WFO archive Habitat row 30257; source 14369.0; publication: Manning, JC; Goldblatt, P. 2012. Orobanchaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 630 - 633. South African National Biodiversity Institute, Pretoria. [CC BY]"
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a13853fa68
+            part: title
+          zh:
+            page: zh
+            section: s-ca3e3078cf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a13853fa68
+            part: body
+          zh:
+            page: zh
+            section: s-ca3e3078cf
+            part: body
+        sourceIds:
+          - sanbi_931_0
+        locator: "SANBI/WFO archive Diagnostic row 74388; source 931.0; publication: Hiern, WP. 1904. XCV. Scrophulariaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 4(1-3): 121 - 420. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15241#page/129/mode/1up]. [All rights reserved]"

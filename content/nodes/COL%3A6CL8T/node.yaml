@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus nanus
+  displayName: Dendropsophus nanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6CL8T
+  sourceIndexes:
+    - name:
+        en: Dendropsophus nanus
+        zh: Dendropsophus nanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6CL8T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/395
+            queryName: Dendropsophus nanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 51
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/406
+            queryName: Hyla nana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 45
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/402
+            queryName: Sphoenohyla nana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1470a345db
+      - s-5cbdf131cd
+      - s-1590fd2400
+      - s-65b1a280ae
+      - s-500f0dd341
+      - s-4ba60b1346
+      - s-e4d5099050
+      - s-f7b997545e
+      - s-7c7502d630
+      - s-5856da4071
+      - s-048fb7296b
+      - s-73976f5c76
+      - s-9417c14357
+      - s-187b445e11
+      - s-3451aad6a7
+      - s-a773b5e98e
+      - s-525e6f3343
+      - s-47feaec38c
+    zh:
+      - s-83c7c92028
+      - s-895100d106
+      - s-c7ab2424a5
+      - s-32b66b95db
+      - s-82a39b7389
+      - s-6aa7240581
+      - s-4b2cf16cc9
+      - s-83237f5e35
+      - s-ca074e3369
+      - s-1a134acee2
+      - s-7f7952c066
+      - s-774cb934d6
+      - s-6cf525168e
+      - s-43589a268e
+      - s-9f4f2bfcf3
+      - s-843967fb88
+      - s-ee63d31391
+      - s-f807e31162

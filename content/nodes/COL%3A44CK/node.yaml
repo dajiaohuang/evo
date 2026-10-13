@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Diasporus
+  displayName: Diasporus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/44CK
+  sourceIndexes:
+    - name:
+        en: Diasporus
+        zh: Diasporus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 44CK
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/352
+            queryName: Diasporus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 30
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c9d92b5027
+      - s-560d3c1dd3
+      - s-907d180e03
+      - s-043f55b7a4
+      - s-748502739f
+      - s-12ce92ac54
+      - s-c1b0b868fa
+      - s-ee4109bdfb
+      - s-595a6d110b
+      - s-bbe1dce65a
+      - s-5281330413
+      - s-b2c066273d
+      - s-536bf4d726
+    zh:
+      - s-10cfbfbe60
+      - s-b58f9db29a
+      - s-fb206bec62
+      - s-c57a6b9888
+      - s-e5829c2751
+      - s-abc3de7804
+      - s-b2fc5d5296
+      - s-51b63a225a
+      - s-df13aaa599
+      - s-f3787c2041
+      - s-6ebe99ad44
+      - s-b3a327c1a7
+      - s-b08f02a367

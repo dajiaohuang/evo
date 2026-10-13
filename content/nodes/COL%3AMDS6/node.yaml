@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa sima
+  displayName: Bolitoglossa sima
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDS6
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa sima
+        zh: Bolitoglossa sima
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDS6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/194
+            queryName: Bolitoglossa sima
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/327
+            queryName: Spelerpes simus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-545ca36eca
+      - s-5417c6727f
+      - s-29624e933b
+      - s-c97dd9d5b3
+      - s-b484a99cda
+      - s-3f6459637a
+      - s-f7c80b1e12
+    zh:
+      - s-f8ee141f1e
+      - s-028704e36d
+      - s-53ee463125
+      - s-2cdf092cd0
+      - s-0ae73fc751
+      - s-0db2c88dcc
+      - s-33fd77cc06

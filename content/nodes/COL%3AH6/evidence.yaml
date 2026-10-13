@@ -1,0 +1,73 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Insecta
+    commonName: Insects
+    commonNameZh: 昆虫
+    rank: class
+    taxonId: txn:56637
+    firstAppearance: 410
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:insecta
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Insecta root display replaces the unsupported 410 Ma value with a 324–0 Ma sampled navigation envelope anchored by the Paskov Archaeorthoptera wing and living insects; it is not the origin of insects or flight.
+      confidence: medium
+      confidenceRationale: The part-and-counterpart wing and its lowermost Namurian horizon are directly described, while higher placement and a rounded numerical age remain bounded interpretations. A younger secure sample is preferred over an older contested mandibular fragment.
+      referenceLinks:
+        - referenceId: prokop-2005-paskov-wing
+          relation: supports
+          pages: 383–387
+          figure: Figures 1–2
+          quoteLocator: Paskov drill-core horizon; part and counterpart; venation description and Archaeorthoptera attribution
+  claim-rationales.zh:
+    - 翅片正模与反模及其最下部纳缪尔期层位可直接核实，但更高阶分类和取整年代仍有边界；宁用较年轻的可靠样本，也不用更古老但有争议的颚部碎片。
+  claim-statements.zh:
+    - 昆虫纲根节点以 3.24 亿年前至今的采样导航包络替代缺乏支持的 4.10 亿年前数值，锚点是 Paskov 的古直翅类翅片和现生昆虫；它不是昆虫或飞行的起源时间。
+  ranges:
+    - entityId: insecta
+      rangeKind: global-composite
+      taxonomicConcept: Insecta sampled body-fossil envelope
+      geographicScope: Paskov Archaeorthoptera wing sample to living insects
+      olderMa: 324
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 3
+        youngerMa: 0
+        note: The secure sampled wing replaces an older contested fragment; it is not an insect or flight origin date.
+      evidenceBasis: A lowermost Namurian wing part and counterpart preserve venation attributed to Archaeorthoptera; living insects provide the present endpoint.
+      confidence: medium
+      claimIds:
+        - claim:taxon:insecta:root-range-rc39
+      referenceLocators:
+        - referenceId: prokop-2005-paskov-wing
+          locator: pp. 383–387; Figures 1–2
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    sections:
+      - topic: fossil-record
+        title:
+          en:
+            page: en
+            section: s-5d0a7d1163
+            part: title
+          zh:
+            page: zh
+            section: s-0a6ea58adf
+            part: title
+        sourceIds:
+          - prokop-2005-paskov-wing
+        text:
+          en:
+            page: en
+            section: s-5d0a7d1163
+            part: body
+          zh:
+            page: zh
+            section: s-0a6ea58adf
+            part: body

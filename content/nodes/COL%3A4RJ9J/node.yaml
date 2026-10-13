@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes beddomii
+  displayName: Raorchestes beddomii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RJ9J
+  sourceIndexes:
+    - name:
+        en: Raorchestes beddomii
+        zh: Raorchestes beddomii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RJ9J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/128
+            queryName: Raorchestes beddomii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/241
+            queryName: Philautus beddomii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/89
+            queryName: Ixalus beddomii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/90
+            queryName: Rhacophorus beddomii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/91
+            queryName: Pseudophilautus beddomii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-37857b8dc4
+      - s-9013334b25
+      - s-c1866af1f5
+      - s-af07a18b44
+      - s-2bc7fae626
+      - s-18f3228a78
+      - s-ef1f918e08
+      - s-d550a0171a
+      - s-fbc35fdf12
+      - s-9fbdfb95e3
+    zh:
+      - s-5450f7ecd1
+      - s-c145deb2f9
+      - s-a3ad94e090
+      - s-41f960b48d
+      - s-0ea68071c0
+      - s-40cca3ac41
+      - s-7719f0abf0
+      - s-e0aa99a483
+      - s-0d9cb6dc35
+      - s-329ffb44c8

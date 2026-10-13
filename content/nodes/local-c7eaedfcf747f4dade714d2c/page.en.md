@@ -1,0 +1,9 @@
+## The dataset entry {#s-4349bb57a4}
+The pinned AmphiTherm curated snapshot records Rhinella margaritifera under Bufonidae, Anura. It retains 6 thermal estimate rows across 5 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-898ac175cd}
+Source row 1788 (ID 1981; Gutierrez-Pesquera_2015) reports 38.5 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as larvae. The source population code is Rhinella_margaritifera_pop4. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.1 °C as its standard error. The source n_trait field is 7. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as unclear. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-e4827f6eb7}
+Source row 1867 (ID 2062; Gutierrez-Pesquera_2016) reports 4.7 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as larvae. The source population code is Rhinella_margaritifera_pop4. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.1 °C as its standard error. The source n_trait field is 8. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella wumingensis Chen, Peng, Li & Yu, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella wumingensis
+      zh: Leptobrachella wumingensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-61700527a8
+            part: title
+          zh:
+            page: zh
+            section: s-029bd10fe0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-61700527a8
+            part: body
+          zh:
+            page: zh
+            section: s-029bd10fe0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-70f52fcdcb
+            part: title
+          zh:
+            page: zh
+            section: s-5f8cd99d3f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-70f52fcdcb
+            part: body
+          zh:
+            page: zh
+            section: s-5f8cd99d3f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e9eb477f9c
+            part: title
+          zh:
+            page: zh
+            section: s-259c020946
+            part: title
+        sourceIds:
+          - primary-pmc12627998-q9zv3
+        text:
+          en:
+            page: en
+            section: s-e9eb477f9c
+            part: body
+          zh:
+            page: zh
+            section: s-259c020946
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella wumingensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q9ZV3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12627998-q9zv3
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella wumingensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-678bdfefa8
+        part: body
+      zh:
+        page: zh
+        section: s-a33d0ab668
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-q9zv3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella wumingensis
+        evidenceRead: "Leptobrachella wumingensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A selected trait in the kungfu comparison
+              zh: kungfu 比较中的所选性状
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-q9zv3
+            locator: PMC12627998 XML sec17 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-80a156394f
+                part: body
+              zh:
+                page: zh
+                section: s-cbb1a1d59d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

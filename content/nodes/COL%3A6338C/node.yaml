@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryophytes
+  displayName: Dryophytes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6338C
+  sourceIndexes:
+    - name:
+        en: Dryophytes
+        zh: Dryophytes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6338C
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/360
+            queryName: Dryophytes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 214
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-65951b5cea
+      - s-c3f270caeb
+      - s-b05648f501
+      - s-befdebcac8
+      - s-a05aad1947
+      - s-80bce1525e
+      - s-07c0558bd6
+      - s-c7c7ca2489
+      - s-983063ccf1
+      - s-863e575e57
+      - s-f2418f6ea7
+      - s-556e1ff755
+      - s-fb52dd6e79
+      - s-67b41b679d
+      - s-88b6a1a02a
+      - s-547e62b217
+      - s-e9bb68cff1
+      - s-1df8db8f56
+      - s-704efeb09c
+      - s-00ebfed1ff
+      - s-4f65f5e648
+      - s-7f60f1c6e6
+      - s-3424d8ee4a
+      - s-2014fbf081
+    zh:
+      - s-0d44bcf747
+      - s-a6f67cf9a8
+      - s-3b9dc031d4
+      - s-1c1c417673
+      - s-44ac20d36c
+      - s-11afc0bb9b
+      - s-ad691d7e06
+      - s-b0ef834b95
+      - s-ccf2727987
+      - s-bc75b7d69d
+      - s-72c25186a0
+      - s-472fc85740
+      - s-176db31de9
+      - s-888d8475d6
+      - s-6dddbb6bd1
+      - s-ac2e4529c2
+      - s-063e354872
+      - s-7f69c51848
+      - s-7322c83261
+      - s-e9b72877c2
+      - s-c6a27256c8
+      - s-27701904bc
+      - s-a1f245e2fb
+      - s-770bb39bb2

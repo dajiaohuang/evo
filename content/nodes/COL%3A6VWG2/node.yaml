@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis gutturalis
+  displayName: Pristimantis gutturalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VWG2
+  sourceIndexes:
+    - name:
+        en: Pristimantis gutturalis
+        zh: Pristimantis gutturalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VWG2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/302
+            queryName: Pristimantis gutturalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/371
+            queryName: Eleutherodactylus gutturalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73d5ff07ff
+      - s-53b8731ab3
+      - s-452b22be13
+      - s-1bbe18764b
+      - s-091581ed5b
+      - s-f5d72c4096
+      - s-4c37b597dc
+      - s-a9de9ff3e6
+      - s-a22592161c
+      - s-9eb8ee15f1
+    zh:
+      - s-52acce3647
+      - s-b7ce165075
+      - s-39a8195fcf
+      - s-7eeb8268c6
+      - s-514f0cb26a
+      - s-c388921ed4
+      - s-4d28833e6f
+      - s-2e490e3325
+      - s-6f7b625678
+      - s-11b864790a

@@ -1,0 +1,388 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amietia nutti (Boulenger, 1896)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amietia nutti
+      zh: Amietia nutti
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-684055d82a
+            part: title
+          zh:
+            page: zh
+            section: s-41a7dc249d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-684055d82a
+            part: body
+          zh:
+            page: zh
+            section: s-41a7dc249d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6b29da80cc
+            part: title
+          zh:
+            page: zh
+            section: s-782cae07f8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6b29da80cc
+            part: body
+          zh:
+            page: zh
+            section: s-782cae07f8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7822b17731
+            part: title
+          zh:
+            page: zh
+            section: s-134b38d8b6
+            part: title
+        sourceIds:
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-7822b17731
+            part: body
+          zh:
+            page: zh
+            section: s-134b38d8b6
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-2aff0585802dbaebd8886c3341168760
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-477b17669f
+            part: title
+          zh:
+            page: zh
+            section: s-198ab8e48e
+            part: title
+        sourceIds:
+          - primary-pmc13072372-66bvq
+        text:
+          en:
+            page: en
+            section: s-477b17669f
+            part: body
+          zh:
+            page: zh
+            section: s-198ab8e48e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-45e432617f
+            part: title
+          zh:
+            page: zh
+            section: s-5e69903369
+            part: title
+        sourceIds:
+          - primary-pmc13072372-66bvq
+        text:
+          en:
+            page: en
+            section: s-45e432617f
+            part: body
+          zh:
+            page: zh
+            section: s-5e69903369
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-4687b9fcc3
+            part: title
+          zh:
+            page: zh
+            section: s-882b05dfa1
+            part: title
+        sourceIds:
+          - primary-pmc13072372-66bvq
+        text:
+          en:
+            page: en
+            section: s-4687b9fcc3
+            part: body
+          zh:
+            page: zh
+            section: s-882b05dfa1
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-6b1f20e12d
+            part: title
+          zh:
+            page: zh
+            section: s-112656def9
+            part: title
+        sourceIds:
+          - primary-pmc13072372-66bvq
+        text:
+          en:
+            page: en
+            section: s-6b1f20e12d
+            part: body
+          zh:
+            page: zh
+            section: s-112656def9
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-db735c0d1d
+            part: title
+          zh:
+            page: zh
+            section: s-8e276c322c
+            part: title
+        sourceIds:
+          - primary-pmc13072372-66bvq
+        text:
+          en:
+            page: en
+            section: s-db735c0d1d
+            part: body
+          zh:
+            page: zh
+            section: s-8e276c322c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amietia nutti
+          url: https://www.checklistbank.org/dataset/316115/taxon/66BVQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4645; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4647 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: primary-pmc13072372-66bvq
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amietia nutti: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-086530fd29
+        part: body
+      zh:
+        page: zh
+        section: s-ff593a73d2
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani16071104
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        sourceKey: primary-pmc13072372-66bvq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13072372/article.xml
+        sourceConcept: Source Amietia nutti compiled2010–2023Rwanda detections andindexcategories; exactwrittenname only, no originalvoucher/currentconceptcertification
+        evidenceRead: "Amietia nutti: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Occurrence counts in the assembled Rwanda sample
+              zh: 卢旺达汇总样本中的出现计数
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-66bvq
+            locator: PMC13072372 XML TablesA2/A3 namedrow Amietia nutti;sec2dot3;sec3dot1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-48545ee73b
+                part: body
+              zh:
+                page: zh
+                section: s-e14a14da55
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A species score for a specified conservation framework
+              zh: 特定保护框架中的物种评分
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-66bvq
+            locator: PMC13072372 XML TableA4 row52;Table1;sec2dot4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-39d9e01c53
+                part: body
+              zh:
+                page: zh
+                section: s-cef68a26a2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Species Index and site index have different meanings
+              zh: 物种指数与站点指数含义不同
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-66bvq
+            locator: PMC13072372 XML sec2dot4;sec3dot3;sec4dot2;TableA4 row52
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-34937ce6de
+                part: body
+              zh:
+                page: zh
+                section: s-0029483a13
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Sampling and transfer limits
+              zh: 采样与迁移应用限制
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-66bvq
+            locator: PMC13072372 XML sec2dot3/5;sec3dot1/4;sec4dot1–3;TablesA1/4/7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f8a9e217dc
+                part: body
+              zh:
+                page: zh
+                section: s-5ad3597fc0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Unresolved numerical differences in the source
+              zh: 来源中未解决的数值差异
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-66bvq
+            locator: PMC13072372 XML sec3dot1;TableA2/A3/A4 namedrow;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-94dceda72d
+                part: body
+              zh:
+                page: zh
+                section: s-e8e5f142b7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

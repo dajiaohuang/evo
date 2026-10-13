@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Turnera incana? {#s-bcc34c8cb6}
+The branches have simple hairs and minute glandular hairs. Petiolate leaves bear stipules and extrafloral nectaries. Their ovate to elliptic blades have doubly toothed or scalloped margins, dense hairs above and woolly hairs below. Inflorescences may be racemes or single flowers borne on leaves; peduncles and bracteoles are present, but pedicels are absent. Corolla color varies; there is no corona, and the filaments join the floral tube at the base. Styles are heterostylous. The fruit exocarp is smooth; seeds are net-veined and papillose, with a prominent chalaza.
+

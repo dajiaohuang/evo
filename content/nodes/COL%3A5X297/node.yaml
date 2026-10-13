@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus alipioi
+  displayName: Brachycephalus alipioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X297
+  sourceIndexes:
+    - name:
+        en: Brachycephalus alipioi
+        zh: Brachycephalus alipioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X297
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/399
+            queryName: Brachycephalus alipioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ea317d6c3b
+      - s-49ae40ab3e
+      - s-aacce1e15c
+      - s-d61700b551
+      - s-59427241ce
+      - s-7e1aa82c19
+      - s-c7b8422238
+      - s-54355be983
+      - s-46fe8893a0
+      - s-2f122d3710
+      - s-6a85674f1e
+      - s-ee344baa2a
+      - s-2f2f54d8a2
+      - s-ae36cf4eae
+      - s-5cdd3368a1
+    zh:
+      - s-60bd505f5e
+      - s-cb142fa669
+      - s-fc8bfee04f
+      - s-11e4242d06
+      - s-8d0869fd0f
+      - s-0b4899f2ae
+      - s-d5f2735dda
+      - s-fcae1ae906
+      - s-5035b31093
+      - s-725c1b7175
+      - s-2942e947cb
+      - s-746c6568df
+      - s-a885324cd8
+      - s-d8d72c8b68
+      - s-3619c7272f

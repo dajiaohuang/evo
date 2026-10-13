@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus nicefori
+  displayName: Atelopus nicefori
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8ZQ
+  sourceIndexes:
+    - name:
+        en: Atelopus nicefori
+        zh: Atelopus nicefori
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8ZQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/291
+            queryName: Atelopus nicefori
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bdca148b6d
+      - s-2e14af842f
+      - s-ee329a4f84
+      - s-5e20fb7c33
+      - s-dcc4f90dbe
+      - s-25612a307c
+      - s-5b282cdb0e
+      - s-cc247f54f9
+      - s-57b583faef
+      - s-6f144a07bf
+    zh:
+      - s-6ecb4a3073
+      - s-ced7c25fe8
+      - s-9e712c696e
+      - s-9a97318c9d
+      - s-8ae3523767
+      - s-8cc91d77c8
+      - s-a2a4706e25
+      - s-bbbfe6ea3d
+      - s-2b1bc57bd5
+      - s-538d11290c

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes
+  displayName: Limnonectes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62YKN
+  sourceIndexes:
+    - name:
+        en: Limnonectes
+        zh: Limnonectes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62YKN
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/10
+            queryName: Limnonectes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 250
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c4ae1252b
+      - s-8fe6d01123
+      - s-625dedfb26
+      - s-7415fae481
+      - s-ab880cf314
+      - s-8bc5ea643f
+      - s-54042e0815
+      - s-1c5139a102
+      - s-ed21223aa5
+      - s-676159030d
+    zh:
+      - s-2f669d93dc
+      - s-0458cefe61
+      - s-225893ce88
+      - s-d7ba532008
+      - s-4b2212bc97
+      - s-ef077511bb
+      - s-efe68c38d6
+      - s-47868564cf
+      - s-cf6a9a4c6c
+      - s-3479139d53

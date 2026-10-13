@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana crepitans
+  displayName: Boana crepitans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7XX
+  sourceIndexes:
+    - name:
+        en: Boana crepitans
+        zh: Boana crepitans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7XX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/471
+            queryName: Boana crepitans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/453
+            queryName: Hyla crepitans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/145
+            queryName: Hypsiboas crepitans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/339
+            queryName: Auletris crepitans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3cb042bea7
+      - s-75500bda4c
+      - s-7f6b708377
+      - s-916d9e5b70
+      - s-6d17356db3
+      - s-8290127df6
+      - s-3877c7c0ec
+      - s-39aa83609c
+      - s-527cf5bcb5
+      - s-43eafdc28f
+      - s-719583a603
+      - s-5adaa00315
+    zh:
+      - s-0cf768764a
+      - s-ac40ce2c5f
+      - s-58420aa590
+      - s-cf82657a9b
+      - s-c4575f8b8d
+      - s-8a0f2cba0c
+      - s-8aa0359895
+      - s-eeaf1ee721
+      - s-c68b7f4348
+      - s-e1f41c3736
+      - s-f699f61e04
+      - s-f353c6dff0

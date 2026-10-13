@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax funereus
+  displayName: Scinax funereus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJWN
+  sourceIndexes:
+    - name:
+        en: Scinax funereus
+        zh: Scinax funereus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJWN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/37
+            queryName: Scinax funereus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/24
+            queryName: Scytopis funereus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/25
+            queryName: Hyla funerea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/26
+            queryName: Hyla depressiceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/27
+            queryName: Phyllomedusa funereus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/28
+            queryName: Ololygon funerea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/29
+            queryName: Scinax funerea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/333
+            queryName: Hyla rubra inconspicua
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5586119fc
+      - s-fd7e22fde3
+      - s-9e8f4ec4fc
+      - s-20b43d6d90
+      - s-4e3b3b566c
+      - s-4a8cf0feff
+      - s-243d8a3349
+      - s-6ffa950347
+      - s-e9c93e260f
+      - s-f94fb23f61
+      - s-55dba87b07
+      - s-c66ee0f267
+      - s-19dc390627
+      - s-ce906cee9c
+      - s-ea813390bc
+      - s-373f58d029
+      - s-22558406fb
+      - s-71ebfeffba
+      - s-01b472e9dc
+    zh:
+      - s-5abd2fe647
+      - s-19fa6c9c9b
+      - s-1062d098fa
+      - s-c30303b512
+      - s-37ccf23340
+      - s-5d54c9972d
+      - s-526b54278d
+      - s-ebad389958
+      - s-db8f256616
+      - s-c313a3b24d
+      - s-367ffb0998
+      - s-110dc10211
+      - s-a5f9f06a68
+      - s-079c7072a9
+      - s-3f3e8176c6
+      - s-0515ca7b55
+      - s-ca0bb5ca52
+      - s-56a52d0dad
+      - s-6519608f24

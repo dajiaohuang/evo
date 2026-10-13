@@ -1,0 +1,6 @@
+## Roots, leaves and spore characters in the flora description {#s-e86d3ac834}
+The Brazilian Flora 2020 description records dichotomously divided roots and a stem described as globose or short and vertically elongated, with two lobes. Leaves are linear and ascending; their distal cross-section is circular or semicircular, their tips taper, and wings occur only at the base. Sporangia sit at the leaf bases and are partly covered by a velum. The source describes them as hyaline to light brown, concolorous, and elliptic to oblong. Megaspores are trilete, with reticulate proximal and distal surfaces; microspores are monolete, and the distal perispore is smooth. This is one regional-flora field; it does not establish a global description or sampling coverage, and its completeness, population variation, and diagnostic scope have not been assessed.
+
+## Two habitat categories, without a locality {#s-39b3f5ef10}
+The Brazilian Flora 2020 dataset lists two habitat categories for this taxon: aquatic and terrestrial. These are category values rather than site records: neither row supplies a collection locality, survey date, or complete range. The fields also do not state whether the observations concern wild, cultivated, managed, or fossil material.
+

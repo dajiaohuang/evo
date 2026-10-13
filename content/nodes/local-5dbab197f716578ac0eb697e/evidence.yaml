@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odontophrynus americanus
+    name:
+      en: Odontophrynus americanus
+      zh: Odontophrynus americanus
+    sourceClassification:
+      order: Anura
+      family: Odontophrynidae
+      genus: Odontophrynus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1abe9ff6b8
+            part: body
+          zh:
+            page: zh
+            section: s-5a43ef495e
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8c318a866e
+            part: body
+          zh:
+            page: zh
+            section: s-8fc1134e67
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3716, 3717; Reference.csv rows 958
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3716
+        values:
+          - Odontophrynidae
+          - Odontophrynus
+          - Odontophrynus americanus
+          - M
+          - "41.64"
+          - "15.93"
+          - "18.69"
+          - "5.01"
+          - NA
+          - NA
+          - "7.76"
+          - "2.58"
+          - "6.43"
+          - "3.11"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "20.95"
+          - NA
+          - NA
+          - "14.01"
+          - "17.99"
+          - NA
+          - NA
+          - "4.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3717
+        values:
+          - Odontophrynidae
+          - Odontophrynus
+          - Odontophrynus americanus
+          - F
+          - "44.4"
+          - "16.4"
+          - "19.15"
+          - "4.65"
+          - NA
+          - NA
+          - "7.79"
+          - "2.78"
+          - "6.38"
+          - "3.19"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "20.58"
+          - NA
+          - NA
+          - "14.8"
+          - "16.39"
+          - NA
+          - NA
+          - "4.51"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 958
+        values:
+          - Anura
+          - Odontophrynus_americanus
+          - Savage, J. M., & Cei, J. M. (1965). A review of the leptodactylid frog genus, Odontophrynus. Herpetologica, 21(3), 178-195.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - LAL
+      - TL
+      - THL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48R2W
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

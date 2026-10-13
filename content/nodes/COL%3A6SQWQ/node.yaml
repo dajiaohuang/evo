@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Opisthothylax immaculatus
+  displayName: Opisthothylax immaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SQWQ
+  sourceIndexes:
+    - name:
+        en: Opisthothylax immaculatus
+        zh: Opisthothylax immaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SQWQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/185
+            queryName: Opisthothylax immaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/209
+            queryName: Megalixalus immaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/210
+            queryName: Heterixalus immaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f5a733f66b
+      - s-2bf5d3ee82
+      - s-2b1ffba12e
+      - s-40f6c79603
+      - s-ea07ffe50e
+      - s-786dc286e9
+      - s-a65e207d3e
+      - s-255ab3e70b
+      - s-2956571827
+      - s-1be7c888a3
+    zh:
+      - s-f76209149d
+      - s-071c3cac29
+      - s-2325aaa43b
+      - s-1c3b34678d
+      - s-6debe639bc
+      - s-ddc5575dd3
+      - s-7cae567a08
+      - s-e479a4e679
+      - s-029d20027e
+      - s-ebe2f87372

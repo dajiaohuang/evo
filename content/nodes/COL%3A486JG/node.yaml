@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus cochranae
+  displayName: Nymphargus cochranae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JG
+  sourceIndexes:
+    - name:
+        en: Nymphargus cochranae
+        zh: Nymphargus cochranae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/423
+            queryName: Nymphargus cochranae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/495
+            queryName: Cochranella cochranae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/26
+            queryName: Centrolenella cochranae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6b523d15f1
+      - s-89a2128bd0
+      - s-e08063fa0c
+      - s-50ed1ad1de
+      - s-d62ef87030
+      - s-f00ec0bc4e
+      - s-5231e775ba
+      - s-769251c3b1
+      - s-fce3266c48
+      - s-3bb2f35267
+      - s-74a033a9c2
+      - s-c36c7d17c9
+      - s-8aa2788c34
+      - s-f8b14fb796
+      - s-4422ada715
+      - s-d40d70acf5
+      - s-61c4da7ba8
+      - s-f4842eb069
+      - s-59fbbb6355
+      - s-3a67161331
+      - s-c489885a8c
+      - s-6b9df37fde
+      - s-e0a293193c
+      - s-4cdfb06251
+      - s-da8118813f
+      - s-d99afae93c
+      - s-2e5b865ccb
+      - s-9f0cf2c724
+    zh:
+      - s-cafd0c9863
+      - s-21f445a7db
+      - s-eac17f1460
+      - s-915405ab84
+      - s-0d1f266879
+      - s-d2f691ef33
+      - s-a4f48ef37f
+      - s-2eec545160
+      - s-869ab4a7c3
+      - s-13d235ab49
+      - s-f9569ddacd
+      - s-c0d3f1d805
+      - s-de4b8dd152
+      - s-8ee7ad1832
+      - s-652b38669d
+      - s-b0ded3787f
+      - s-111e5f4272
+      - s-50407db762
+      - s-02c8cd5e31
+      - s-17cb0985ef
+      - s-d5f4f4ae03
+      - s-2ec9ce69f2
+      - s-267b8ddd49
+      - s-93f7be488a
+      - s-aa99ccf28e
+      - s-e06d13166b
+      - s-eaaac61339
+      - s-83f74cc893

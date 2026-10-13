@@ -1,0 +1,168 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mahonabatrachus Wells & Wellington, 1985
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Mahonabatrachus
+      zh: Mahonabatrachus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a5a8b141e4
+            part: title
+          zh:
+            page: zh
+            section: s-c96231a4b4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a5a8b141e4
+            part: body
+          zh:
+            page: zh
+            section: s-c96231a4b4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-47d34ace09
+            part: title
+          zh:
+            page: zh
+            section: s-5f7e31d29e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-47d34ace09
+            part: body
+          zh:
+            page: zh
+            section: s-5f7e31d29e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-f1d5e127d7
+            part: title
+          zh:
+            page: zh
+            section: s-ef37b02a22
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5HJG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5HJG
+            label:
+              en: Mahonabatrachus aurifer
+              zh: Mahonabatrachus aurifer
+          - kind: catalogue
+            colId: V5NFD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5NFD
+            label:
+              en: Mahonabatrachus dorsalis
+              zh: Mahonabatrachus dorsalis
+          - kind: catalogue
+            colId: V5Q4H
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5Q4H
+            label:
+              en: Mahonabatrachus longirostris
+              zh: Mahonabatrachus longirostris
+          - kind: catalogue
+            colId: V5NPR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5NPR
+            label:
+              en: Mahonabatrachus meirianus
+              zh: Mahonabatrachus meirianus
+          - kind: catalogue
+            colId: V5LXR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5LXR
+            label:
+              en: Mahonabatrachus microbelos
+              zh: Mahonabatrachus microbelos
+          - kind: catalogue
+            colId: V5KLB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5KLB
+            label:
+              en: Mahonabatrachus timidus
+              zh: Mahonabatrachus timidus
+        text:
+          en:
+            page: en
+            section: s-f1d5e127d7
+            part: body
+          zh:
+            page: zh
+            section: s-ef37b02a22
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-6258888c70
+            part: body
+          zh:
+            page: zh
+            section: s-038c447dee
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mahonabatrachus
+          url: https://www.checklistbank.org/dataset/316115/taxon/5K8F
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-722a699b3a
+        part: body
+      zh:
+        page: zh
+        section: s-bd2223debd
+        part: body

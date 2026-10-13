@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gyrinophilus gulolineatus
+  displayName: Gyrinophilus gulolineatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3HYSS
+  sourceIndexes:
+    - name:
+        en: Gyrinophilus gulolineatus
+        zh: Gyrinophilus gulolineatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3HYSS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/239
+            queryName: Gyrinophilus gulolineatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/40
+            queryName: Gyrinophilus palleucus gulolineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/124
+            queryName: Gyrinophilus porphyriticus gulolineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9e2224e95c
+      - s-ab85615ecc
+      - s-1b075a1561
+      - s-b41978dcd5
+      - s-9aa5cac103
+      - s-df1b929bb6
+      - s-7507b9ad9a
+      - s-745376e7ca
+      - s-4a35128eaf
+    zh:
+      - s-e72eed40be
+      - s-7b22827bc4
+      - s-b7fd13f8de
+      - s-a756986dfe
+      - s-a3cc96c346
+      - s-c71d7f3304
+      - s-aadd237627
+      - s-91cad17cf2
+      - s-42667cf474

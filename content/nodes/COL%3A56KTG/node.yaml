@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius spilogaster
+  displayName: Thorius spilogaster
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KTG
+  sourceIndexes:
+    - name:
+        en: Thorius spilogaster
+        zh: Thorius spilogaster
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KTG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/60
+            queryName: Thorius spilogaster
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a84a173281
+      - s-a2c747d820
+      - s-9cbd52d1b5
+      - s-1950593399
+      - s-2f294f1c8b
+      - s-e728d39d06
+      - s-18c21d9d59
+      - s-6fabdf3b8a
+      - s-b498c3d45d
+      - s-4b1796f51b
+      - s-dd6e0d80db
+      - s-0385a9ccb6
+      - s-23c897c24e
+      - s-b138571291
+    zh:
+      - s-5947f95138
+      - s-3b3cace54e
+      - s-dd2479ae56
+      - s-bd2c1fcc76
+      - s-754ca86974
+      - s-763d8760a4
+      - s-a52d3ddc31
+      - s-c363c70df2
+      - s-3e1974fe15
+      - s-986be9879a
+      - s-490e0d849f
+      - s-32e82c6d38
+      - s-de618c8c7a
+      - s-a61a5729c0

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufo cryptotympanicus
+  displayName: Bufo cryptotympanicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NP4B
+  sourceIndexes:
+    - name:
+        en: Bufo cryptotympanicus
+        zh: Bufo cryptotympanicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NP4B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/499
+            queryName: Bufo cryptotympanicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/251
+            queryName: Torrentophryne cryptotympanica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/252
+            queryName: Torrentophryne cryptotympanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb4a7a0c36
+      - s-ade8e2182e
+      - s-0cc333c2fd
+      - s-5a53a3db7d
+      - s-b1c9a00615
+      - s-15aa7a31c6
+      - s-fb7779b64d
+      - s-e7e677f4b2
+    zh:
+      - s-ebb9f183de
+      - s-696992c018
+      - s-956148c908
+      - s-4126ec1e83
+      - s-fcc8917fa5
+      - s-70a49036d2
+      - s-c5f2863a3d
+      - s-d685824b5c

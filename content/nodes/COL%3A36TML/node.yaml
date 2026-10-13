@@ -1,0 +1,158 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Discoglossus pictus
+  displayName: Discoglossus pictus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/36TML
+  sourceIndexes:
+    - name:
+        en: Discoglossus pictus
+        zh: Discoglossus pictus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 36TML
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/20
+            queryName: Discoglossus pictus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 345
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/101
+            queryName: Pseudis picta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/102
+            queryName: Pseudes pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/103
+            queryName: Colodactylus coerulescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/104
+            queryName: Discoglossus algirus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/105
+            queryName: Colodactylus caerulescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/106
+            queryName: Discoglossus auritus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/308
+            queryName: Discoglossus pictus picta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/309
+            queryName: Discoglossus pictus vittata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/310
+            queryName: Discoglossus pictus ocellata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/311
+            queryName: Discoglossus pictus pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/312
+            queryName: Discoglossus pictus auritus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72a8700f7b
+      - s-4dd7e8b05c
+      - s-3fc23d77eb
+      - s-cc8aa43e2a
+      - s-d61bb5e83e
+      - s-7ff5af7f1d
+      - s-81507bb477
+      - s-ed2ab75939
+      - s-3d1e34d7fa
+      - s-dd18d3e466
+      - s-a258723806
+      - s-c2974e6416
+      - s-38de66f374
+      - s-3b522a03b7
+      - s-f795e990e5
+      - s-6bc6f50269
+      - s-e051c6a776
+      - s-f3f10bdae0
+      - s-56fa12e49f
+      - s-4cb37e8c9b
+      - s-30c9bd811d
+      - s-e55f648ab4
+      - s-fa1c263b35
+      - s-974476a9f1
+      - s-5948126167
+      - s-e9750525e1
+    zh:
+      - s-e3f7f65550
+      - s-9940a78a91
+      - s-5e8c40a67f
+      - s-793cc34f72
+      - s-cffcdd6b57
+      - s-800a58fbdb
+      - s-c6661e1802
+      - s-c6a77f1ccd
+      - s-9b2346b1d9
+      - s-ae11ab5780
+      - s-01fa2a7446
+      - s-69c8c7af24
+      - s-e2c407ff29
+      - s-727db7600a
+      - s-72ded9f9c8
+      - s-98cb018ba4
+      - s-6cf7d847ea
+      - s-ccab8e7832
+      - s-e40d5e828c
+      - s-c4891f738e
+      - s-12e3a1f876
+      - s-20e93cabe2
+      - s-64e0a7089b
+      - s-175128ec6f
+      - s-0140f3b1af
+      - s-e238b5c73b

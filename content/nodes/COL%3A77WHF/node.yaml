@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis boulengeri
+  displayName: Pristimantis boulengeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77WHF
+  sourceIndexes:
+    - name:
+        en: Pristimantis boulengeri
+        zh: Pristimantis boulengeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77WHF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/154
+            queryName: Pristimantis boulengeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/284
+            queryName: Eleutherodactylus boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-590b0a4e88
+      - s-7f1d334b0a
+      - s-a83f730a3f
+      - s-945f3530fb
+      - s-a6bc1666a0
+      - s-e1af607483
+      - s-9bc037a67a
+      - s-971e4e1be8
+      - s-92ac439555
+      - s-bda8d6174b
+      - s-cfbe967e28
+      - s-54bf3a92de
+      - s-d26f8ff76a
+      - s-ec0cadb7d1
+      - s-34e9579379
+      - s-1c88d0027d
+      - s-48261cb0a3
+    zh:
+      - s-743705e72f
+      - s-f40157b51b
+      - s-1cbfb09c58
+      - s-ea5260cba5
+      - s-c6779a8697
+      - s-4200fd1f8f
+      - s-b4047ce3bc
+      - s-7799da8db7
+      - s-3fa860536f
+      - s-8cbdbc0443
+      - s-252e9a22d5
+      - s-b270ff75ff
+      - s-2d7d9bbf89
+      - s-1a4dc4d5d9
+      - s-7d894f046c
+      - s-e60f2f1022
+      - s-1075798997

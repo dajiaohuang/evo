@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bonatea speciosa (L.f.) Willd.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage MH7C, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage MH7C; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/MH7C
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage MH7C
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000349984-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL MH7C / WFO wfo-0000349984
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13882_0
+        referenceId: ref-caac74ec-4991-8bb9-a744-a565810e92c5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bonatea speciosa (L.f.) Willd. account; SANBI/WFO archive rows 10009 (Morphology), 30074 (Habitat), source identifier 13882.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_6866_0
+        referenceId: ref-e60d1981-ead2-80ef-a85e-27877776447d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bonatea speciosa (L.f.) Willd. account; SANBI/WFO archive rows 76905 (Diagnostic), source identifier 6866.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Robust, tuberous geophyte to 1 m. Leaves oblong to broadly lanceolate. Flowers usually many in a lax to dense raceme, usually many-flowered, green and white, petals bilobed, lip 3-fid, spur 25-47 mm long, stigmas ± 25 mm long.
+            textZh: Bonatea speciosa (L.f.) Willd. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13882_0
+            locator: "SANBI/WFO archive Morphology row 10009; source identifier 13882.0; cited publication: Kurzweil, H. 2012. Orchidaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 177 - 197. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: B. speciosa is a morphologically variable species with an extended flowering period. The variation in spurs length within the species (20-57 mm long) may be the result of local adaptation to different pollinators across its geographic range. Populations of B. speciosa and B. antennifera from northern KwaZulu-Natal and southern Mozambique flower between June and July, and have relatively few (5-7 and 7-20, respectively), large flowers and lax inflorescence. In these populations of B. speciosa the rostellum lateral lobes are atypical, being sub-erect to 45o rather than projecting forwards and the spur length falls within the maximum range for the species (45-57 mm). Similarly, populations of B. antennifera from the area have atypical rostellum lateral lobes, and spurs 51-58 mm long (typically 27-44 mm). This geographic trend of accentuated spur lengths also occurs in B. lamprophylla, B. pulchella and B. steudneri (92-131 mm, 53-70 mm and 75-230 mm in length, respectively).
+            textZh: SANBI 条目提供了 Bonatea speciosa (L.f.) Willd. 的鉴别特征。
+            sourceIds:
+              - sanbi_6866_0
+            locator: "SANBI/WFO archive Diagnostic row 76905; source identifier 6866.0; cited publication: Ponsie, ME; Edwards, TJ; Johnson, SD. 2007. A taxonomic revision of Bonatea Willd. (Orchidaceae: Orchidoideae: Habenariinae). S. African J. Bot. 73: 1 - 21. [Copyright held by the South African Association of Botanists (2007); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Coastal scrub and forest margins.
+            textZh: 该 SANBI 区域物种条目记录的生境：Coastal scrub and forest margins.
+            sourceIds:
+              - sanbi_13882_0
+            locator: "SANBI/WFO archive Habitat row 30074; source identifier 13882.0; cited publication: Kurzweil, H. 2012. Orchidaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 177 - 197. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

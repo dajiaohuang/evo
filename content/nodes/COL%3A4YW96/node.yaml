@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphenophryne cornuta
+  displayName: Sphenophryne cornuta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4YW96
+  sourceIndexes:
+    - name:
+        en: Sphenophryne cornuta
+        zh: Sphenophryne cornuta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4YW96
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/256
+            queryName: Sphenophryne cornuta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/217
+            queryName: Chaperina ceratophthalmus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e92d624685
+      - s-cd557d0c85
+      - s-88c4b25614
+      - s-5d575c6470
+      - s-ab9ccc535f
+      - s-b81de8333d
+      - s-65d7dafdc4
+      - s-ab45a3af2a
+      - s-72e12c9b73
+      - s-e5f0ecb9f0
+      - s-d9f4820397
+    zh:
+      - s-547db177a0
+      - s-4886b7eb37
+      - s-faa6f9b016
+      - s-82e2eb8a4a
+      - s-918a27b7ca
+      - s-2dcabfacea
+      - s-2e929e9205
+      - s-08f90e8965
+      - s-4412a0d792
+      - s-4d6d1095bd
+      - s-f1dd3da363

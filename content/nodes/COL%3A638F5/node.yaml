@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hypopachus
+  displayName: Hypopachus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/638F5
+  sourceIndexes:
+    - name:
+        en: Hypopachus
+        zh: Hypopachus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 638F5
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/454
+            queryName: Hypopachus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 28
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-79457623d6
+      - s-6d35308ad0
+      - s-7357546dd9
+      - s-d84fa27876
+      - s-f4f6a05120
+      - s-679ff60479
+      - s-74ad6b5003
+      - s-fe417da1f3
+      - s-83d6983639
+      - s-ed4ce84395
+      - s-815a5634f8
+    zh:
+      - s-2904e119b7
+      - s-d656cf2ccb
+      - s-455e4e69ed
+      - s-a5eb6f2936
+      - s-6dc8bf1be1
+      - s-b1254ab887
+      - s-60cec8e572
+      - s-814e3e0e99
+      - s-9b90b96381
+      - s-70bd068f77
+      - s-fccd14ce45

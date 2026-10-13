@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus longibrachius
+  displayName: Atelopus longibrachius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8Z5
+  sourceIndexes:
+    - name:
+        en: Atelopus longibrachius
+        zh: Atelopus longibrachius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8Z5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/274
+            queryName: Atelopus longibrachius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f07f917119
+      - s-42c543f71e
+      - s-3190e26061
+      - s-e4ff642bdc
+      - s-43683b7753
+      - s-d97744547d
+      - s-d7626aee33
+      - s-9361109403
+      - s-c07f92ddb4
+      - s-075d52260c
+    zh:
+      - s-37964c5b21
+      - s-d36ad76312
+      - s-0c01794d95
+      - s-95040c8efc
+      - s-18a103e18c
+      - s-83eabc1f94
+      - s-cbd30a869f
+      - s-34a0a2c661
+      - s-921850a31e
+      - s-c03d49cee8

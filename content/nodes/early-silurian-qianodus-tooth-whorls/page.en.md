@@ -1,0 +1,3 @@
+## Qianodus tooth whorls from the late Aeronian {#s-8dfcdfe61d}
+Twenty-three isolated tooth whorls of Qianodus duplicis, including holotype IVPP V26641, come from the late Aeronian Ozarkodina guizhouensis biozone of the Rongxi Formation, about 439 Ma. Their teeth were added in offset rows from the tongue side, preserving a close-up record of jawed-vertebrate dentition. The whorls support a stem-chondrichthyan occurrence, but no articulated body or jaw is known; scales and spines found nearby cannot be assigned to Qianodus. This is not a crown-shark body, the origin of jaws, or a global first-appearance date.
+

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla chrysopleura
+  displayName: Plectrohyla chrysopleura
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5C2
+  sourceIndexes:
+    - name:
+        en: Plectrohyla chrysopleura
+        zh: Plectrohyla chrysopleura
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5C2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/430
+            queryName: Plectrohyla chrysopleura
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/384
+            queryName: Hyla chrysopleura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d760acb841
+      - s-c68adfef6d
+      - s-02423b51d9
+      - s-85a54bdaeb
+      - s-bad928d4af
+      - s-5fb4416b8f
+      - s-d854235e97
+      - s-e1b3041662
+      - s-257d58f14b
+    zh:
+      - s-f75ff1c5a1
+      - s-fb9565c45a
+      - s-1eb76146ab
+      - s-403a0c4ee9
+      - s-17e7ac0beb
+      - s-b607428efe
+      - s-bd1ecb6152
+      - s-88771c5ec6
+      - s-161eb04077

@@ -1,0 +1,325 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nanohyla perparva (Inger & Frogner, 1979)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nanohyla perparva
+      zh: Nanohyla perparva
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-73439a20c0
+            part: title
+          zh:
+            page: zh
+            section: s-9eef7cfd57
+            part: title
+        text:
+          en:
+            page: en
+            section: s-73439a20c0
+            part: body
+          zh:
+            page: zh
+            section: s-9eef7cfd57
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-409db8747d
+            part: title
+          zh:
+            page: zh
+            section: s-9b169ffccf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-409db8747d
+            part: body
+          zh:
+            page: zh
+            section: s-9b169ffccf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bf49b889ef
+            part: title
+          zh:
+            page: zh
+            section: s-83a3dd7389
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-bf49b889ef
+            part: body
+          zh:
+            page: zh
+            section: s-83a3dd7389
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-4da5f5ff72d72d743506c92a
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-3f3746e221030ff8f2543817a1ea3f97
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f5e13b5673
+            part: title
+          zh:
+            page: zh
+            section: s-9f913aadd8
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f5e13b5673
+            part: body
+          zh:
+            page: zh
+            section: s-9f913aadd8
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c75805e931
+            part: title
+          zh:
+            page: zh
+            section: s-7629138203
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-c75805e931
+            part: body
+          zh:
+            page: zh
+            section: s-7629138203
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-f920c4cf9a
+            part: title
+          zh:
+            page: zh
+            section: s-cf0f2b48b5
+            part: title
+        sourceIds:
+          - primary-pmc10415765-qmtbr
+        text:
+          en:
+            page: en
+            section: s-f920c4cf9a
+            part: body
+          zh:
+            page: zh
+            section: s-cf0f2b48b5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nanohyla perparva
+          url: https://www.checklistbank.org/dataset/316115/taxon/QMTBR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1075; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4302; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4303 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10415765-qmtbr
+        referenceId: ref-73d48402-3477-4c57-a096-10f292777bb5
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nanohyla perparva: All extracted letter, taxonomic-account and nomenclatural paragraphs read; type observations, compared reference phylogeny and cited acoustics distinguished; original supplementary specimen/recording/statistical tables not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5f1b7affc8
+        part: body
+      zh:
+        page: zh
+        section: s-f90b659c34
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-4da5f5ff72d72d743506c92a
+        scientificName: Nanohyla perparva
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2023.029
+        referenceId: ref-73d48402-3477-4c57-a096-10f292777bb5
+        sourceKey: primary-pmc10415765-qmtbr
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10415765/article.xml
+        sourceConcept: Nanohyla perparva
+        evidenceRead: "Nanohyla perparva: All extracted letter, taxonomic-account and nomenclatural paragraphs read; type observations, compared reference phylogeny and cited acoustics distinguished; original supplementary specimen/recording/statistical tables not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Sampled phylogenetic placement retains support limits
+              zh: 所采系统位置保留支持限制
+            referenceId: ref-73d48402-3477-4c57-a096-10f292777bb5
+            sourceKey: primary-pmc10415765-qmtbr
+            locator: PMC10415765 XML s01 paragraphs 4–6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-88738997f8
+                part: body
+              zh:
+                page: zh
+                section: s-b5198a7d38
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

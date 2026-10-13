@@ -1,0 +1,440 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Centrolenidae Taylor, 1951
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Centrolenidae
+      zh: Centrolenidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c016ad4d27
+            part: title
+          zh:
+            page: zh
+            section: s-d4c130545b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c016ad4d27
+            part: body
+          zh:
+            page: zh
+            section: s-d4c130545b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6da195f479
+            part: title
+          zh:
+            page: zh
+            section: s-fe882804cf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6da195f479
+            part: body
+          zh:
+            page: zh
+            section: s-fe882804cf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-929646fb2d
+            part: title
+          zh:
+            page: zh
+            section: s-742c4c83be
+            part: title
+        text:
+          en:
+            page: en
+            section: s-929646fb2d
+            part: body
+          zh:
+            page: zh
+            section: s-742c4c83be
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-d9b1f12040
+            part: title
+          zh:
+            page: zh
+            section: s-7a2b49b440
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d9b1f12040
+            part: body
+          zh:
+            page: zh
+            section: s-7a2b49b440
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-0a4610ac62
+            part: title
+          zh:
+            page: zh
+            section: s-f9c1d44c70
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6275N
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6275N
+            label:
+              en: Centroleninae
+              zh: Centroleninae
+          - kind: catalogue
+            colId: JPW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJPW
+            label:
+              en: Hyalinobatrachinae
+              zh: Hyalinobatrachinae
+          - kind: catalogue
+            colId: 53SG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A53SG
+            label:
+              en: Ikakogi
+              zh: Ikakogi
+        text:
+          en:
+            page: en
+            section: s-0a4610ac62
+            part: body
+          zh:
+            page: zh
+            section: s-f9c1d44c70
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-f596bd325f
+            part: title
+          zh:
+            page: zh
+            section: s-b1efdbec8a
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-f596bd325f
+            part: body
+          zh:
+            page: zh
+            section: s-b1efdbec8a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Centrolenidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/622LM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Centrolenidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Centrolenidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4cff09210f
+        part: body
+      zh:
+        page: zh
+        section: s-590cb560b0
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Centrolenidae
+      sourceRowIds:
+        - Anf0910
+        - Anf0911
+        - Anf0912
+        - Anf0913
+        - Anf0914
+        - Anf0915
+        - Anf0916
+        - Anf0917
+        - Anf0918
+        - Anf0919
+        - Anf0920
+        - Anf0921
+        - Anf0922
+        - Anf0923
+        - Anf0924
+        - Anf0925
+        - Anf0926
+        - Anf0927
+        - Anf0928
+        - Anf0929
+        - Anf0930
+        - Anf0931
+        - Anf0932
+        - Anf0933
+        - Anf0934
+        - Anf0935
+        - Anf0936
+        - Anf0937
+        - Anf0938
+        - Anf0939
+        - Anf0940
+        - Anf0941
+        - Anf0942
+        - Anf0943
+        - Anf0944
+        - Anf0945
+        - Anf0946
+        - Anf0947
+        - Anf0948
+        - Anf0949
+        - Anf0950
+        - Anf0951
+        - Anf0952
+        - Anf0953
+        - Anf0954
+        - Anf0955
+        - Anf0956
+        - Anf0957
+        - Anf0958
+        - Anf0959
+        - Anf0960
+        - Anf0961
+        - Anf0962
+        - Anf0963
+        - Anf0964
+        - Anf0965
+        - Anf0966
+        - Anf0967
+        - Anf0968
+        - Anf0969
+        - Anf0970
+        - Anf0971
+        - Anf0972
+        - Anf0973
+        - Anf0974
+        - Anf0975
+        - Anf0976
+        - Anf0977
+        - Anf0978
+        - Anf0979
+        - Anf0980
+        - Anf0981
+        - Anf0982
+        - Anf0983
+        - Anf0984
+        - Anf0985
+        - Anf0986
+        - Anf0987
+        - Anf0988
+        - Anf0989
+        - Anf0990
+        - Anf0991
+        - Anf0992
+        - Anf0993
+        - Anf0994
+        - Anf0995
+        - Anf0996
+        - Anf0997
+        - Anf0998
+        - Anf0999
+        - Anf1000
+        - Anf1001
+        - Anf1002
+        - Anf1003
+        - Anf1004
+        - Anf1005
+        - Anf1006
+        - Anf1007
+        - Anf1008
+        - Anf1009
+        - Anf1010
+        - Anf1011
+        - Anf1012
+        - Anf1013
+        - Anf1014
+        - Anf1015
+        - Anf1016
+        - Anf1017
+        - Anf1018
+        - Anf1019
+        - Anf1020
+        - Anf1021
+        - Anf1022
+        - Anf1023
+        - Anf1024
+        - Anf1025
+        - Anf1026
+        - Anf1027
+        - Anf1028
+        - Anf1029
+        - Anf1030
+        - Anf1031
+        - Anf1032
+        - Anf1033
+        - Anf1034
+        - Anf1035
+        - Anf1036
+        - Anf1037
+        - Anf1038
+        - Anf1039
+        - Anf1040
+        - Anf1041
+        - Anf1042
+        - Anf1043
+        - Anf1044
+        - Anf1045
+        - Anf1046
+        - Anf1047
+        - Anf1048
+        - Anf1049
+        - Anf1050
+        - Anf1051
+        - Anf1052
+        - Anf1053
+        - Anf1054
+        - Anf1055
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 118
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 58
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 135
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 102
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Hyalinobatrachium fleischmanni
+          path: content/nodes/local-ede607415ebf72ee3d30b2de
+        - scientificName: Chimerella mariaelenae
+          path: content/nodes/local-c4ac2a9d516c359ce741678b
+        - scientificName: Espadarana callistomma
+          path: content/nodes/local-e52a81dde512d448fd6f0b90
+        - scientificName: Espadarana prosoblepon
+          path: content/nodes/local-9629edc2b6301465acb6edd5
+      metrics:
+        - metric: CTmin
+          rows: 6
+          sourceConcepts: 4
+        - metric: CTmax
+          rows: 9
+          sourceConcepts: 4
+        - metric: LT50_hot
+          rows: 2
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

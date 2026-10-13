@@ -1,0 +1,113 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-6787f9803c
+      part: title
+    titleZh:
+      page: zh
+      section: s-4236d33228
+      part: title
+    dek:
+      page: en
+      section: s-6787f9803c
+      part: body
+    theme: sage
+    durationMinutes: 7
+    featured: true
+    steps:
+      - id: eocene
+        title:
+          page: en
+          section: s-fe471a6f82
+          part: title
+        titleZh:
+          page: zh
+          section: s-0c29e4fd2c
+          part: title
+        text:
+          page: en
+          section: s-fe471a6f82
+          part: body
+        textZh:
+          page: zh
+          section: s-0c29e4fd2c
+          part: body
+        age: 45
+        timeRange:
+          - 55
+          - 38
+        taxonIds:
+          - brontotheriidae
+          - palaeotherium
+        view: map
+        claimLinks:
+          - claimId: claim:taxon:brontotheriidae:ecology
+            relation: contextualizes
+      - id: transition
+        title:
+          page: en
+          section: s-6fc334ce14
+          part: title
+        titleZh:
+          page: zh
+          section: s-c8c1352b87
+          part: title
+        text:
+          page: en
+          section: s-6fc334ce14
+          part: body
+        textZh:
+          page: zh
+          section: s-c8c1352b87
+          part: body
+        age: 34
+        timeRange:
+          - 36
+          - 32
+        taxonIds:
+          - perissodactyla
+        view: diversity
+        eventId: eocene-oligocene-transition
+        claimLinks:
+          - claimId: claim:event:eocene-oligocene-transition
+            relation: supports
+      - id: miocene
+        title:
+          page: en
+          section: s-ace484851d
+          part: title
+        titleZh:
+          page: zh
+          section: s-d7b96bb33f
+          part: title
+        text:
+          page: en
+          section: s-ace484851d
+          part: body
+        textZh:
+          page: zh
+          section: s-d7b96bb33f
+          part: body
+        age: 12
+        timeRange:
+          - 20
+          - 5
+        taxonIds:
+          - anchitherium
+          - hipparionini
+          - teleoceras
+        view: evidence
+        claimLinks:
+          - claimId: claim:taxon:anchitherium
+            relation: contextualizes
+          - claimId: claim:taxon:hipparionini:ecology
+            relation: contextualizes
+          - claimId: claim:taxon:teleoceras
+            relation: contextualizes
+    evidenceStatus: available-with-limitations
+    dekZh:
+      page: zh
+      section: s-4236d33228
+      part: body

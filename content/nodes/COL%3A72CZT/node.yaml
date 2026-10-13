@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes palavanensis
+  displayName: Limnonectes palavanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72CZT
+  sourceIndexes:
+    - name:
+        en: Limnonectes palavanensis
+        zh: Limnonectes palavanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72CZT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/121
+            queryName: Limnonectes palavanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/401
+            queryName: Rana palavanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/402
+            queryName: Euphlyctis palavanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/428
+            queryName: Rana microdisca palavanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c49ad17a49
+      - s-067c20e419
+      - s-ac70bc42b0
+      - s-5c5f696498
+      - s-7b56bdcbc2
+      - s-0647114fbf
+      - s-91361f47cf
+      - s-0b57636a48
+      - s-25a3f80937
+      - s-13d8b8b07a
+      - s-f697e12d55
+    zh:
+      - s-3dcd2f9dc2
+      - s-361c64cba6
+      - s-66bffa43ad
+      - s-446cf8c35e
+      - s-7c4caaa10f
+      - s-7401ea0247
+      - s-c86fe13c08
+      - s-da37bb2497
+      - s-10a8b90857
+      - s-5d70ab7925
+      - s-0e637aec2e

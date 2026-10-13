@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis ventrimaculata
+  displayName: Chiasmocleis ventrimaculata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ2V
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis ventrimaculata
+        zh: Chiasmocleis ventrimaculata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ2V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/267
+            queryName: Chiasmocleis ventrimaculata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/307
+            queryName: Engystoma ventrimaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf2bdc5bd7
+      - s-491e39d657
+      - s-154d25a1c5
+      - s-0bd9058783
+      - s-f607001a54
+      - s-ca808913ea
+      - s-883697c4b0
+      - s-2f36253d31
+      - s-3f63c2650e
+      - s-2b8626275c
+      - s-13a6039c9c
+      - s-30e3c0cad7
+      - s-f0e5a1a38c
+    zh:
+      - s-0445ad5c8a
+      - s-c61771cb34
+      - s-d7fe818b97
+      - s-08cdffcfe6
+      - s-cac17c206f
+      - s-58b56d92d3
+      - s-ee9135d7f0
+      - s-da0978dc6f
+      - s-6dffd6f8c5
+      - s-32409ce81a
+      - s-c25b8fdd2e
+      - s-01c4f03390
+      - s-a506a4d18f

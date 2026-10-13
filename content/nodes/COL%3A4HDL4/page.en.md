@@ -1,0 +1,9 @@
+## Finely divided leaves and yellow flower heads {#s-eac9af9b0c}
+A 2016 taxonomic treatment describes *Phymaspermum pinnatifidum* as a densely leafy shrub 25–50 cm high. Its narrow leaves, 5–32 mm long and 0.2–1 mm wide, are cut almost to the midrib into 7–9 slender lobes and bear soft silvery hairs on both surfaces. At branch tips, groups of 5–30 flower heads form branched clusters; each head contains 38–44 yellow disc florets. The small dry fruits are about 3.5 × 0.7 mm and have 12 ribs. The treatment records flowering usually in spring, from August to October, while early fires can bring flowering earlier. These are observations in one regional species account, which supplies no population frequency or sampling frame.
+
+## How the treatment distinguishes similar species {#s-b63388e52d}
+The same treatment distinguishes *P. pinnatifidum* from *P. acerosum* and *P. woodii* by a combination of flowering time and flower-head and fruit characters. It records resin canals in the ribs of its cypselae—the small dry fruits—instead of the genus’s mucilage-producing hairs. Compared with *P. acerosum*, it flowers earlier, stays below 0.5 m, has thin herbaceous stems and broader, funnel- or cup-shaped involucres, the rings of bracts around the flower heads. Compared with *P. woodii*, those involucres are broader and not narrowed at the tip, and their bracts lie loosely against one another. The treatment also notes a prominent thin, membranous crown at the fruit tip and the absence of mucilage-producing hairs.
+
+## Grassland on Natal Group sandstone {#s-236ec0ef30}
+The same treatment places the species on Natal Group sandstone and says it occurs mostly in grasslands at 450–920 m. This is a habitat and elevation description, not a complete distribution boundary. The regional account gives no dated sampling frame or population frequency and does not state the life status of the observed plants.
+

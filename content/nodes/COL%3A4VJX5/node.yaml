@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax imbegue
+  displayName: Scinax imbegue
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJX5
+  sourceIndexes:
+    - name:
+        en: Scinax imbegue
+        zh: Scinax imbegue
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJX5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/45
+            queryName: Scinax imbegue
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf3dc0647c
+      - s-c5a53a1c1b
+      - s-1ed02d3d61
+      - s-c2ea35d677
+      - s-7ab10f15f2
+      - s-8653246217
+      - s-58a497e6d8
+      - s-45b1862846
+      - s-4eb4368aef
+      - s-83769aebb1
+      - s-c5bf087939
+    zh:
+      - s-9ad009727c
+      - s-8a0bf29c72
+      - s-39a4d277cd
+      - s-a5869d6d41
+      - s-a4926fb1fd
+      - s-aaa7586f8a
+      - s-46f6bfca1e
+      - s-da1fcbb8c5
+      - s-18d81ef179
+      - s-dffa0daf73
+      - s-109d514c1a

@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Duttaphrynus himalayanus
+    name:
+      en: Duttaphrynus himalayanus
+      zh: Duttaphrynus himalayanus
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Duttaphrynus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Duttaphrynus himalayanus in the version 3 classification
+          zh: Duttaphrynus himalayanus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7bfa3db446
+            part: body
+          zh:
+            page: zh
+            section: s-3c2f079e22
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 14 populated trait fields
+          zh: 2 条测量行与 14 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-06a2dd9ce9
+            part: body
+          zh:
+            page: zh
+            section: s-f9e869b444
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1587, 1588; Reference.csv rows 2624
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1587
+        values:
+          - Bufonidae
+          - Duttaphrynus
+          - Duttaphrynus himalayanus
+          - M
+          - "87.8"
+          - "28.3"
+          - "36.2"
+          - "10.6"
+          - NA
+          - NA
+          - "9.1"
+          - "5.7"
+          - "7"
+          - NA
+          - "8.6"
+          - NA
+          - "24.1"
+          - NA
+          - "44"
+          - "41.4"
+          - NA
+          - "38.1"
+          - NA
+          - NA
+          - "121.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1588
+        values:
+          - Bufonidae
+          - Duttaphrynus
+          - Duttaphrynus himalayanus
+          - F
+          - "95.8"
+          - "28.5"
+          - "36.7"
+          - "10.4"
+          - "3.1"
+          - NA
+          - "10.9"
+          - "6.1"
+          - "6.6"
+          - NA
+          - "11.1"
+          - NA
+          - "24.8"
+          - NA
+          - "47.3"
+          - "40.8"
+          - NA
+          - "37.7"
+          - NA
+          - NA
+          - "124.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2624
+        values:
+          - Anura
+          - Duttaphrynus_himalayanus
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006) Fauna of China, Class Amphibia (Middle Volume) Anura. Science Press, Beijing.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6DQ3R
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

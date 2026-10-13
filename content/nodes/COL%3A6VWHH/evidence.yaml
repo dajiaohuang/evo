@@ -1,0 +1,307 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis brevicrus (Andersson, 1945)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis brevicrus
+      zh: Pristimantis brevicrus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d9aaa3f30d
+            part: title
+          zh:
+            page: zh
+            section: s-0653111d51
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d9aaa3f30d
+            part: body
+          zh:
+            page: zh
+            section: s-0653111d51
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-98535e9ef8
+            part: title
+          zh:
+            page: zh
+            section: s-a588e08884
+            part: title
+        text:
+          en:
+            page: en
+            section: s-98535e9ef8
+            part: body
+          zh:
+            page: zh
+            section: s-a588e08884
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-04751de9b4
+            part: title
+          zh:
+            page: zh
+            section: s-1eec150a9e
+            part: title
+        sourceIds:
+          - primary-pmc13024529-6vwhh
+        text:
+          en:
+            page: en
+            section: s-04751de9b4
+            part: body
+          zh:
+            page: zh
+            section: s-1eec150a9e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cf28e47902
+            part: title
+          zh:
+            page: zh
+            section: s-586e5c014a
+            part: title
+        sourceIds:
+          - primary-pmc13024529-6vwhh
+        text:
+          en:
+            page: en
+            section: s-cf28e47902
+            part: body
+          zh:
+            page: zh
+            section: s-586e5c014a
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-889d794487
+            part: title
+          zh:
+            page: zh
+            section: s-7dba006348
+            part: title
+        sourceIds:
+          - primary-pmc13024529-6vwhh
+        text:
+          en:
+            page: en
+            section: s-889d794487
+            part: body
+          zh:
+            page: zh
+            section: s-7dba006348
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-06fb0823c1
+            part: title
+          zh:
+            page: zh
+            section: s-97e1034eb8
+            part: title
+        sourceIds:
+          - primary-pmc13024529-6vwhh
+        text:
+          en:
+            page: en
+            section: s-06fb0823c1
+            part: body
+          zh:
+            page: zh
+            section: s-97e1034eb8
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-bbb7bd9cb8
+            part: body
+          zh:
+            page: zh
+            section: s-6903dee000
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis brevicrus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6VWHH
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc13024529-6vwhh
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis brevicrus: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-47a2922d86
+        part: body
+      zh:
+        page: zh
+        section: s-caaca070f6
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/biology15060451
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        sourceKey: primary-pmc13024529-6vwhh
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13024529/article.xml
+        sourceConcept: 2013–2018 source-labelled Pristimantis brevicrus nominal row in2026paper; Pristimantis identification contradiction retained where relevant, not certified vouchers/concepts
+        evidenceRead: "Pristimantis brevicrus: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Historical local survey records are distinct from a current provincial census
+              zh: 历史地方调查记录区别于当前全省普查
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-6vwhh
+            locator: PMC13024529 XML Table2 bodyrow20 Pristimantis brevicrus; Methods2.1–2.3; Results opening
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-24e5a709ab
+                part: body
+              zh:
+                page: zh
+                section: s-afd465365c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A source-assigned risk category retains its assessment limits
+              zh: 来源分配风险类别保留评估限制
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-6vwhh
+            locator: PMC13024529 XML Table2 bodyrow20 LC/Total columns; Methods2.5; Results3.4; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f05f890c95
+                part: body
+              zh:
+                page: zh
+                section: s-44160db7e6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Coverage and community turnover do not prove a species trend
+              zh: 覆盖及群落更替不证明物种趋势
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-6vwhh
+            locator: PMC13024529 XML Methods2.2/2.4.1/2.4.3/2.4.5; Table1; Results3.1/3.3; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-01dc0e710c
+                part: body
+              zh:
+                page: zh
+                section: s-81eed77fbd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Species-labelled rows conflict with a genus-only identification statement
+              zh: 物种标签行与仅属级鉴定陈述冲突
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-6vwhh
+            locator: PMC13024529 XML Methods2.3; Table2 row20 and fivePristimantis sp.rows; Results3.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-60f28a9b11
+                part: body
+              zh:
+                page: zh
+                section: s-acbe961a3e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

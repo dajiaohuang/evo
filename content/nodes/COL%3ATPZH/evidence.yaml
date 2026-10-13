@@ -1,0 +1,304 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chasiempis sandwichensis
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Chasiempis sandwichensis
+      en: Chasiempis sandwichensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-df0a62ef61
+            part: body
+          en:
+            page: en
+            section: s-cbd91e836e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f1a252d361
+            part: body
+          en:
+            page: en
+            section: s-dabbf45a9f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-dfa8a3f8e8
+            part: body
+          en:
+            page: en
+            section: s-bf970e7831
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-9b5578735d
+            part: body
+          en:
+            page: en
+            section: s-703bc5d93e
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-088d7f864d
+            part: body
+          en:
+            page: en
+            section: s-6102769748
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-7f745fcc4c
+            part: body
+          en:
+            page: en
+            section: s-a503446b73
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-fc65da5cd9
+            part: body
+          en:
+            page: en
+            section: s-ccf950b025
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-fe094ae4ba
+            part: body
+          en:
+            page: en
+            section: s-ee129c92dd
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-cdbd124ab6
+            part: body
+          en:
+            page: en
+            section: s-81b735c964
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chasiempis sandwichensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/TPZH
+          locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 5097; name Chasiempis sandwichensis; reference table row 5097; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - incubation_d
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Dunning, 1992 from median of 8(Dunning, 1992, Dunning, 1992, Dunning, 1992, Dunning, 1992, Dunning, 1992, BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013, Dunning, 1992, de Magalhaes and Costa, 2009)
+            female_maturity_d: mean of BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013 and de Magalhaes and Costa, 2009
+            litter_or_clutch_size_n: BC Birds - Wilson, 2003 from median of 7(BC Birds - Wilson, 2003, Jetz, Sekercioglu, and Bohning-Gaese, 2008, BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013, BC Birds - van Riper III, C., 1995, BC Birds - Wilson, 2003, BC Birds - Wilson, 2003, de Magalhaes and Costa, 2009)
+            incubation_d: mean of BC Birds - Wilson, 2003 & BC Birds - van Riper III, C., 1995 from median of 6(BC Birds - van Riper III, C., 1995, BC Birds - Wilson, 2003, BC Birds - van Riper III, C., 1995, BC Birds - Wilson, 2003, BC Birds - van Riper III, C., 1995, BC Birds - Wilson, 2003)
+            maximum_longevity_y: Lutmerding, J.A. and A.S. Love, 2013
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - de Magalhaes and Costa, 2009
+            - BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013
+            - Jetz, Sekercioglu, and Bohning-Gaese, 2008
+            - BC Birds - Wilson, 2003
+            - BC Birds - van Riper III, C., 1995
+            - Lutmerding, J.A. and A.S. Love, 2013
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: BirdFuncDat.txt logical TSV row 5946; Scientific=Chasiempis sandwichensis; BirdFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 97216eb1797da077169ebb1ebea275db293b09fc62f8bb8911f9beb98c50d321
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_11
+                  verbatim: Handbook of the Birds of the World vol.11.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              certainty: A
+            foraging:
+              fields:
+                - ForStrat-watbelowsurf
+                - ForStrat-wataroundsurf
+                - ForStrat-ground
+                - ForStrat-understory
+                - ForStrat-midhigh
+                - ForStrat-canopy
+                - ForStrat-aerial
+              references:
+                - id: Ref_11
+                  verbatim: Handbook of the Birds of the World vol.11.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona
+              speciesLevel: "1"
+          withheldFieldGroups: []
+          sourceRecordComment: ""
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-b4e924e2c1
+        part: body
+      en:
+        page: en
+        section: s-172f66dcca
+        part: body

@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Astylosternus batesi
+  displayName: Astylosternus batesi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J63Y
+  sourceIndexes:
+    - name:
+        en: Astylosternus batesi
+        zh: Astylosternus batesi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J63Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/208
+            queryName: Astylosternus batesi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/312
+            queryName: Gampsosteonyx batesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/313
+            queryName: Dilobates platycephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cab9679ddd
+      - s-535e567bab
+      - s-086b2e2e33
+      - s-9e1c1555a3
+      - s-c2bdb660b2
+      - s-30d0833a76
+      - s-59d0e650c9
+      - s-1b41970aa4
+      - s-a2c40806e0
+      - s-c2edb682d2
+      - s-56542c3bbe
+      - s-83493951ae
+      - s-8dc09b9756
+      - s-5bb019f21e
+      - s-0ae3345197
+    zh:
+      - s-24f3f852b4
+      - s-95c0e59a1f
+      - s-4961f9d4fe
+      - s-847a8cfea7
+      - s-022a4caf49
+      - s-e9b9d905a0
+      - s-59d2cd96be
+      - s-f6721813d2
+      - s-f3ee32b265
+      - s-abc71f87c8
+      - s-e28797fe28
+      - s-bfc56e1eee
+      - s-88755ebffb
+      - s-f43f71fbdb
+      - s-8590bc7b92

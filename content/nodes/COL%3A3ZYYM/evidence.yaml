@@ -1,0 +1,127 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Mesembryanthemum neglectum (S.M.Pierce & Gerbaulet) Klak
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3ZYYM, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3ZYYM; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3ZYYM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3ZYYM
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000507621-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3ZYYM / WFO wfo-0000507621
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_3482_0
+        referenceId: ref-4f6b2866-4a17-8cc2-a279-c8770b3dd8ed
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Mesembryanthemum neglectum (S.M.Pierce & Gerbaulet) Klak account; archive rows 104698 (Morphology), 104655 (Habitat), 104581 (Diagnostic), source identifier 3482.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Dwarf shrub, erect, up to 400 mm tall, diam. c. 700 mm, with a tangled habit. Branches articulated, cortex green and succulent but not persistent on older internodes, falling off to reveal dark bark. Internodes cylindrical to rounded, epidermal bladder cells xeromorphic, isodiametric (equal-sided), in longitudinal rows, in cross-section, cells tall, distinguishable as a thick white layer around the green cortex. Leaves semi-cylindrical, shortly connate when young, with mesomorphic epidermal bladder cells, sometimes with microscopic cilia at the base, deciduous. Inflorescences are few-flowered dichasia, diam. 5-10 mm. Calyx with 4 lobes, lobes shortly connate and erect during anthesis. Flowers Petaloid staminodes ('petals') white, free (not joined), some longer ones recurving over calyx lobes, filamentous staminodes absent. Ovary semi-inferior, placentation axile. Fruit a hygrochastic capsule with 4 locules, diam. 2-3 mm, valve wings in-flexed over the expanded valves, expanding keels connate in pairs, without seed bags, seeds D-shaped, cream-coloured or light brown with a darker rim.
+            sourceIds:
+              - sanbi_3482_0
+            locator: "SANBI/WFO archive Morphology row 104698; source 3482.0; publication: Pierce, SM; Gerbaulet, M. 1997. Brownanthus Schwantes (Mesembryanthemoideae, Aizoaceae): Two new species and a new combination from the Richtersveld and southwestern Namibia. Aloe 34(1-2): 42 - 44. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Brownanthus neglectus is similar to B.arenosus (Schinz) Ihlenf. & Bittrich in lacking conspicuous cilia at the leaf bases and having young leaves connate or joined at the base. However, B. neglectus differs in being much more finely branched and tangled in appearance, and the succulent green cortex does not persist for long, with the result that older branches have a dark, blackish bark. The 4-locular capsule lacks seed bags.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_3482_0
+            locator: "SANBI/WFO archive Diagnostic row 104581; source 3482.0; publication: Pierce, SM; Gerbaulet, M. 1997. Brownanthus Schwantes (Mesembryanthemoideae, Aizoaceae): Two new species and a new combination from the Richtersveld and southwestern Namibia. Aloe 34(1-2): 42 - 44. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Winter rainfall region of the northern Richtersveld and southern Namibia; in plains or foothills.
+            sourceIds:
+              - sanbi_3482_0
+            locator: "SANBI/WFO archive Habitat row 104655; source 3482.0; publication: Pierce, SM; Gerbaulet, M. 1997. Brownanthus Schwantes (Mesembryanthemoideae, Aizoaceae): Two new species and a new combination from the Richtersveld and southwestern Namibia. Aloe 34(1-2): 42 - 44. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-e2e517a117
+            part: title
+          zh:
+            page: zh
+            section: s-29ccb80057
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e2e517a117
+            part: body
+          zh:
+            page: zh
+            section: s-29ccb80057
+            part: body

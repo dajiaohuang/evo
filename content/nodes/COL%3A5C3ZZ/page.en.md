@@ -1,0 +1,3 @@
+## Leathery leaves on a rock-growing tree {#s-3f2d5ff753}
+The record describes thick, fissured bark and grey, cylindrical or knobbly branches that become nearly smooth. Simple, alternate or whorled leaves range from broadly elliptic to obovate; their upper surfaces may be glaucous and woolly or smooth, while the lower surfaces are woolly. Solitary or clustered terminal heads have several rows of tough bracts and a paleate receptacle. Cream, funnel-shaped florets are followed by silky, five-ribbed fruits with a seven-row pappus joined into a ring at the base. The habitat field identifies it as rock-growing.
+

@@ -1,0 +1,3 @@
+## What leaf, flower and fruit traits are recorded? {#s-0e5ac42edb}
+The stems lack short shoots and have conspicuous green lengthwise stripes. Leaf-stalk segments exceed 2 cm; there are five or seven leaflets, hairless beneath. Each inflorescence bears one flower. The receptacle has glands, and the outside of the calyx is hairless. Petals are at least 7 cm long and brown outside. The staminal tube is hairy and bears up to 250 stamens, not arranged in bundles. The ovary is hairless except for tiny scales. The fruit is cylindrical in cross-section, over 4 cm wide, and has a brown outer wall. The seeds are spotted.
+

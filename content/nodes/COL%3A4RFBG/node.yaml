@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ranitomeya ventrimaculata
+  displayName: Ranitomeya ventrimaculata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RFBG
+  sourceIndexes:
+    - name:
+        en: Ranitomeya ventrimaculata
+        zh: Ranitomeya ventrimaculata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RFBG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/112
+            queryName: Ranitomeya ventrimaculata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/177
+            queryName: Dendrobates duellmani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/199
+            queryName: Dendrobates ventrimaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/83
+            queryName: Ranitomeya duellmani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/345
+            queryName: Dendrobates minutus ventrimaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e076eef4e
+      - s-22459410f7
+      - s-7c247d3083
+      - s-1db822b64e
+      - s-63b4f858a2
+      - s-de0bad8e88
+      - s-ab64723d70
+      - s-324b216e66
+      - s-fa1c56b794
+      - s-4d15eb4818
+    zh:
+      - s-46a57a704b
+      - s-8ad3ef5ca2
+      - s-e34d17b51b
+      - s-21cf3f4ec3
+      - s-7e1ba223eb
+      - s-9ab9b04f9a
+      - s-552995c48a
+      - s-7f1f679535
+      - s-18efdcf542
+      - s-6c2e18e930

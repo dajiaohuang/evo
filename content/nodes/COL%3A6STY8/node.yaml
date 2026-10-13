@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne sibilans
+  displayName: Oreophryne sibilans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6STY8
+  sourceIndexes:
+    - name:
+        en: Oreophryne sibilans
+        zh: Oreophryne sibilans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6STY8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/298
+            queryName: Oreophryne sibilans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba53719df4
+      - s-0f5566a07d
+      - s-ef20143090
+      - s-fa1487c18c
+      - s-0ad58ae41b
+      - s-f38041fa38
+      - s-99fe68fcb8
+      - s-2426b381e9
+      - s-29ed3eeb5b
+    zh:
+      - s-1eac35380f
+      - s-13cb0677e9
+      - s-708eab683a
+      - s-703ab8f3bf
+      - s-e5f384d27b
+      - s-34588e5466
+      - s-c6186ec94e
+      - s-910a4c2f50
+      - s-4609b50189

@@ -1,0 +1,342 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paraceratherium
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Paraceratherium
+      en: Paraceratherium
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fdd6ca049c
+            part: body
+          en:
+            page: en
+            section: s-a40f194109
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d9d52e1a60
+            part: body
+          en:
+            page: en
+            section: s-9638948198
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Paraceratherium
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=43161
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:43161
+          readingTargets:
+            - name: Paraceratherium asiaticum
+              pbdbTaxonId: txn:348095
+              canonicalPath: content/nodes/PBDB%3A348095
+            - name: Paraceratherium lepidum
+              pbdbTaxonId: txn:348092
+              canonicalPath: content/nodes/PBDB%3A348092
+            - name: Paraceratherium huangheense
+              pbdbTaxonId: txn:362110
+              canonicalPath: content/nodes/PBDB%3A362110
+            - name: Paraceratherium grangeri
+              pbdbTaxonId: txn:104760
+              canonicalPath: content/nodes/PBDB%3A104760
+            - name: Paraceratherium prohoroui
+              pbdbTaxonId: txn:348100
+              canonicalPath: content/nodes/PBDB%3A348100
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b44049e418
+        part: body
+      en:
+        page: en
+        section: s-867376f8c9
+        part: body
+  atlas-node:
+    name: Paraceratherium
+    commonName: Giant Rhinos
+    commonNameZh: 巨犀类
+    rank: genus
+    taxonId: txn:43161
+    firstAppearance: 34
+    lastAppearance: 20
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+  atlas-profile:
+    pbdbTaxonId: txn:43161
+    scientificName: Paraceratherium
+    commonName: Giant rhino
+    commonNameZh: 副巨犀
+    rank: genus
+    parentName: Paraceratheriidae
+    extinct: true
+    geography:
+      - Mongolian Plateau
+      - Northwestern China
+      - Kazakhstan
+      - Pakistan
+    overview:
+      page: en
+      section: s-c48ac4df9a
+      part: body
+    overviewZh:
+      page: zh
+      section: s-afcfa1f897
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-c4266e9ee1
+        part: body
+      habitat:
+        page: en
+        section: s-54c83c95a5
+        part: body
+      locomotion:
+        page: en
+        section: s-76b018a21a
+        part: body
+      bodySize:
+        page: en
+        section: s-38720b0303
+        part: body
+      guild:
+        page: en
+        section: s-3828229f19
+        part: body
+      dietZh:
+        page: zh
+        section: zh-2fe670d06e3f92
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-c84caa05799512
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-cc5b463a140eef
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-e9193608cc2115
+        part: body
+      guildZh:
+        page: zh
+        section: zh-45c3d5058fc97d
+        part: body
+    traits:
+      - page: en
+        section: s-1b3a4616f7
+        part: body
+      - page: en
+        section: s-d73f2081d7
+        part: body
+      - page: en
+        section: s-c2f6ffe4ef
+        part: body
+      - page: en
+        section: s-9d81df2e62
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-a262b90a9d
+      part: body
+    readerLimitations:
+      en:
+        page: en
+        section: s-2c03ebf3ad
+        part: body
+      zh:
+        page: zh
+        section: s-c3bc524564
+        part: body
+    confidence: high
+    referenceIds:
+      - deng-2021-paraceratherium
+    evidenceSummaryZh:
+      page: zh
+      section: zh-69d8d250649db3
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-ec1fcd22f794eb
+        part: body
+      - page: zh
+        section: zh-c902fa85efff52
+        part: body
+      - page: zh
+        section: zh-aab0ad9bcfc08c
+        part: body
+      - page: zh
+        section: zh-8cdf70fa6476c8
+        part: body
+  claims:
+    - subjectId: taxon:paraceratherium
+      claimKind: scientific
+      claimType: topology
+      statement: A 155-character analysis places the 26.5 Ma Paraceratherium linxiaense as a derived member of a monophyletic Oligocene Paraceratherium clade, with detailed within-genus relationships remaining analysis-dependent.
+      confidence: high
+      confidenceRationale: The primary study provides the dated specimen, matrix and single most-parsimonious tree. High confidence applies to the published analysis, while the wording retains its model dependence rather than treating the topology as observed ancestry.
+      referenceLinks:
+        - referenceId: deng-2021-paraceratherium
+          relation: supports
+          pages: 1–10
+          figure: Figures 1–7; Supplementary Tables 1–6
+          quoteLocator: Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion
+    - subjectId: taxon:paraceratherium
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Paraceratherium is treated as an Oligocene paraceratheriid genus; the six sampled species form a monophyletic clade in the cited 155-character analysis.
+      confidence: medium
+      confidenceRationale: The primary paper provides a genus diagnosis, species sample and explicit cladistic result.
+      referenceLinks:
+        - referenceId: deng-2021-paraceratherium
+          relation: supports
+          pages: 1–10
+          figure: Figures 1–7; Supplementary Tables 1–6
+          quoteLocator: Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion
+    - subjectId: taxon:paraceratherium
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The atlas displays the 26.5 Ma Paraceratherium linxiaense LX1808 occurrence as a point sample and does not treat it as a genus-wide first or last appearance.
+      confidence: medium
+      confidenceRationale: Faunal correlation and palaeomagnetic placement directly support the sampled age, while the point-range wording prevents extrapolation to global genus endpoints.
+      referenceLinks:
+        - referenceId: deng-2021-paraceratherium
+          relation: supports
+          pages: 1–10
+          figure: Figures 1–7; Supplementary Tables 1–6
+          quoteLocator: Abstract, Type locality and horizon, Age section and Figure 5; LX1808 placed in middle C8r at approximately 26.5 Ma
+    - subjectId: taxon:paraceratherium
+      claimKind: scientific
+      claimType: morphology
+      statement: P. linxiaense preserves a giant skull, mandible and cervical vertebrae consistent with a large body and long flexible neck; the study does not support elephant-like stubby graviportal limbs.
+      confidence: medium
+      confidenceRationale: The diagnosis, measurements and vertebral comparisons directly support the revised morphology and remove an unsupported locomotor analogy.
+      referenceLinks:
+        - referenceId: deng-2021-paraceratherium
+          relation: supports
+          pages: 1–10
+          figure: Figures 1–7; Supplementary Tables 1–6
+          quoteLocator: Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion
+    - subjectId: taxon:paraceratherium
+      claimKind: scientific
+      claimType: ecology
+      statement: Paraceratherium is represented as a giant terrestrial herbivore associated in the cited study with Oligocene Asian woodland–grassland mosaics; high feeding reach is an anatomical inference, not observed behavior.
+      confidence: medium
+      confidenceRationale: Medium confidence distinguishes fossil anatomy and faunal context from inferred feeding height and does not prescribe one habitat for every species.
+      referenceLinks:
+        - referenceId: deng-2021-paraceratherium
+          relation: supports
+          pages: 1–10
+          figure: Figures 1–7; Supplementary Tables 1–6
+          quoteLocator: Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion
+    - subjectId: taxon:paraceratherium
+      claimKind: scientific
+      claimType: biogeography
+      statement: The cited phylogeny and occurrence map place Paraceratherium species across the Mongolian Plateau, northwestern China, Kazakhstan and Pakistan and infer dispersal through the Tibetan region.
+      confidence: medium
+      confidenceRationale: The geographic records are direct, whereas routes and palaeoelevation are model-based; the statement keeps that distinction explicit.
+      referenceLinks:
+        - referenceId: deng-2021-paraceratherium
+          relation: supports
+          pages: 1–10
+          figure: Figures 1–7; Supplementary Tables 1–6
+          quoteLocator: Age and diagnosis; 155-character analysis; Oligocene Asian distribution and dispersal discussion
+  claim-rationales.zh:
+    - 主研究提供测年标本、字符矩阵和单一最简约树。高置信度适用于已发表分析；措辞仍保留模型依赖性，不把拓扑当作直接观察到的祖先关系。
+    - 分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。
+    - 动物群对比与古地磁位置直接支持该样本年龄；点范围措辞阻止将其外推为全球属级端点。
+    - 形态主张只保留引文图表或诊断直接支持的骨骼、牙齿性状，并把软组织、姿势或功能解释明确标为推断。
+    - 生态主张区分直接测得的磨耗或同位素信号与栖息地、行为推断，并保留物种、地点和时代边界。
+    - 生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。
+  claim-statements.zh:
+    - 副巨犀属按所引系统研究采用当前分类层级；导航父级仅表示分类关联，不表示直接祖先。
+    - 副巨犀属的形态档案仅记录所引研究直接描述或测量的牙齿、颅骨或肢骨性状，功能解释另行标注。
+    - 副巨犀属的生态档案按取样物种、地点与方法限定食性和运动推断，不把局部结果推广为整个类群的固定生态。
+    - 副巨犀属的地理档案只覆盖所引研究明确讨论的区域与地点，并非完整的全球产出分布。
+    - 一项包含 155 个字符的分析将距今 2650 万年的临夏副巨犀置于渐新世单系副巨犀支系的衍生成员位置；属内更细的关系仍取决于该分析。
+    - 图集将 26.5 Ma 的临夏副巨犀 LX1808 记录显示为点样本，不将其视为该属的全球首现或末现。
+  ranges:
+    - entityId: paraceratherium
+      rangeKind: global-composite
+      taxonomicConcept: Paraceratherium linxiaense LX1808 dated occurrence
+      geographicScope: Linxia Basin, China
+      olderMa: 26.5
+      youngerMa: 26.5
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This point range is the dated LX1808 sample and does not represent a genus-wide first or last appearance.
+      evidenceBasis: Faunal correlation and palaeomagnetic placement date the Paraceratherium linxiaense LX1808 material to the middle of chron C8r at approximately 26.5 Ma.
+      confidence: medium
+      claimIds:
+        - claim:taxon:paraceratherium:fossil-range
+      referenceLocators:
+        - referenceId: deng-2021-paraceratherium
+          locator: pp. 1–10; Abstract; Type locality and horizon; Age section; Figure 5; LX1808 dated to middle C8r at approximately 26.5 Ma
+      evidenceLevel: literature-synthesized

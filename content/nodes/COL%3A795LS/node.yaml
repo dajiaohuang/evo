@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella manu
+  displayName: Rhinella manu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/795LS
+  sourceIndexes:
+    - name:
+        en: Rhinella manu
+        zh: Rhinella manu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 795LS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/343
+            queryName: Rhinella manu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e29216b6de
+      - s-0df28597d7
+      - s-f11cc4e925
+      - s-b0477d2205
+      - s-3c54de026d
+      - s-82d8d7a9a1
+      - s-76108c468e
+      - s-5cae264de3
+      - s-8d2a1e8a4a
+      - s-b4963398aa
+    zh:
+      - s-8e9038c5ea
+      - s-ec47b884e1
+      - s-986e390bcf
+      - s-729d25bb4d
+      - s-b0b3880051
+      - s-d7746001f1
+      - s-dc3b028498
+      - s-e14ea6d3e3
+      - s-f9306a3c53
+      - s-133ad412ff

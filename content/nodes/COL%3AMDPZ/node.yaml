@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa indio
+  displayName: Bolitoglossa indio
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDPZ
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa indio
+        zh: Bolitoglossa indio
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDPZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/134
+            queryName: Bolitoglossa indio
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7ec934b9bd
+      - s-c454a6be8a
+      - s-50e0ddb350
+      - s-7b6c30c593
+      - s-8003892422
+      - s-873e294606
+      - s-0b9f149fde
+      - s-4a8073b865
+    zh:
+      - s-b4deece6f9
+      - s-dcd953ab1d
+      - s-e69a7db324
+      - s-7ad0e586eb
+      - s-4d7ce9b0f5
+      - s-b42e7155e6
+      - s-09243c5e6d
+      - s-db5219df4b

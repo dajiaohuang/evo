@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops cremnobatus
+  displayName: Amolops cremnobatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CW9Y
+  sourceIndexes:
+    - name:
+        en: Amolops cremnobatus
+        zh: Amolops cremnobatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CW9Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/355
+            queryName: Amolops cremnobatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-316a5b18d1
+      - s-0fb84c2f5e
+      - s-b441ca87fb
+      - s-bcddb2833f
+      - s-414c650822
+      - s-bc932747eb
+      - s-b360f58377
+      - s-4d78780cdc
+      - s-25d54f78d8
+      - s-484ccda6f2
+      - s-f34a96754d
+      - s-c9d0ad170c
+      - s-6c0699a520
+      - s-02942c571f
+      - s-8c6d503111
+      - s-3ba04392b5
+    zh:
+      - s-4a7cca8253
+      - s-6e815c909d
+      - s-d70920837b
+      - s-ea5190b7f3
+      - s-406c56a7ca
+      - s-19dcc2edd5
+      - s-203172c758
+      - s-27332d7ebe
+      - s-d18111eb28
+      - s-f80abeb4af
+      - s-bfd79503bc
+      - s-3079c2921c
+      - s-60f5cedc47
+      - s-64a20c8231
+      - s-593f5f5d7c
+      - s-5cdb5e9ef2

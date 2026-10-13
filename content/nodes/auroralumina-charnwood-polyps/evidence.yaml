@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-c7c80f3686
+      part: title
+    titleZh:
+      page: zh
+      section: s-d9c8e50ab7
+      part: title
+    category: fossil
+    startAge: 562
+    endAge: 557
+    regions:
+      - Charnwood Forest, Leicestershire, United Kingdom
+    clades:
+      - Auroralumina attenboroughii
+      - Cnidaria
+    summary:
+      page: en
+      section: s-c7c80f3686
+      part: body
+    summaryZh:
+      page: zh
+      section: s-d9c8e50ab7
+      part: body
+    claimIds:
+      - claim:event:auroralumina-charnwood-polyps
+    evidenceItems:
+      - statement: BGS GSM 105875 records densely packed tentacles extending from two bifurcating tubes enclosed by a rigid polyhedral organic skeleton.
+        relation: supports
+        claimIds:
+          - claim:event:auroralumina-charnwood-polyps
+        referenceLinks:
+          - referenceId: dunn-2022-auroralumina
+            relation: supports
+            pages: 1095–1104
+            figure: Figures 1–4; Extended Data Figures 1–8
+            quoteLocator: Specimen BGS GSM 105875, stratigraphy and morphology matrix
+    uncertaintyItems:
+      - statement: Tentacles, periderm and matrix position are interpretations of a single surface; the fossil is not a measured feeding event, direct ancestor or permanent global FAD.
+        relation: contextualizes
+        claimIds:
+          - claim:event:auroralumina-charnwood-polyps
+        referenceLinks:
+          - referenceId: dunn-2022-auroralumina
+            relation: supports
+            pages: 1095–1104
+            figure: Figures 1–4; Extended Data Figures 1–8
+            quoteLocator: Specimen BGS GSM 105875, stratigraphy and morphology matrix
+  claims:
+    - subjectId: event:auroralumina-charnwood-polyps
+      claimKind: scientific
+      claimType: topology
+      statement: Auroralumina preserves two bifurcating polyps in a rigid organic skeleton with tentacle impressions; a morphology analysis places it within crown Cnidaria.
+      confidence: medium
+      confidenceRationale: The bedding-plane morphology and dated volcanic succession are documented, while crown placement depends on preserved-character interpretation and matrix sampling.
+      referenceLinks:
+        - referenceId: dunn-2022-auroralumina
+          relation: supports
+          pages: 1095–1104
+          figure: Figures 1–4; Extended Data Figures 1–8
+          quoteLocator: Specimen BGS GSM 105875, stratigraphy and morphology matrix
+  claim-rationales.zh:
+    - 层面形态和火山地层年代有记录，但冠群位置取决于保存性状解释及矩阵取样。
+  claim-statements.zh:
+    - Auroralumina 保存了刚性有机骨骼中的两个分叉水螅体及触手印痕；形态分析将其置于刺胞动物冠群。

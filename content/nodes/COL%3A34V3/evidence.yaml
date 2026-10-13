@@ -1,0 +1,374 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ateles É. Geoffroy Saint-Hilaire, 1806
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Spider Monkeys
+      zh: 蜘蛛猴属
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-91fd147826
+            part: body
+          zh:
+            page: zh
+            section: s-3d92b0df47
+            part: body
+        sourceIds:
+          - taxonomy
+          - manabi2016
+          - diet2012
+          - network2015
+      - topic: readingPath
+        text:
+          en:
+            page: en
+            section: s-d3e34dc42c
+            part: body
+          zh:
+            page: zh
+            section: s-5d3a3ae184
+            part: body
+        sourceIds:
+          - manabi2016
+          - diet2012
+          - network2015
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-b1c05bcb00
+            part: body
+          en:
+            page: en
+            section: s-2e72418004
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-ec02692446
+            part: body
+          en:
+            page: en
+            section: s-eca5e9c978
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-685145ba95
+            part: body
+          en:
+            page: en
+            section: s-38d6a3e037
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-193b7448cb
+            part: body
+          en:
+            page: en
+            section: s-d4dbe3f335
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f6e4ee578b
+            part: body
+          en:
+            page: en
+            section: s-a35b096f7e
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-7e3c432a09
+            part: body
+          en:
+            page: en
+            section: s-ae85591eb5
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-3bf7de1c8e
+            part: body
+          en:
+            page: en
+            section: s-e496295113
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Ateles
+          url: https://www.checklistbank.org/dataset/316115/taxon/34V3
+          scope:
+            en: Pins the accepted genus identity and authorship.
+            zh: 固定属级接受身份与作者。
+      - id: manabi2016
+        referenceId: ref-42c0d4ec-e219-8d0e-a34f-2d0f7546c7e6
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports the Ecuadorian fragment-survey example and its limits.
+            zh: 支持厄瓜多尔森林残片调查案例及其边界。
+      - id: diet2012
+        referenceId: ref-3260ca10-c7c2-8f22-ab25-621b886db237
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports the local feeding-study reading path.
+            zh: 支持局地取食研究阅读路径。
+      - id: network2015
+        referenceId: ref-f569732e-95b5-8a4f-a2c1-954d28e9c486
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports the local contact-network reading path without implying infection prevalence.
+            zh: 支持局地接触网络阅读路径，不表示实测感染率。
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Ateles by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 7 authored same-name records placed under Ateles by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 7 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 6
+            foraging: 7
+            activity: 7
+          readingTargets:
+            - name: Ateles paniscus
+              colId: J8PD
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AJ8PD
+            - name: Ateles geoffroyi
+              colId: J8P6
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AJ8P6
+            - name: Ateles hybridus
+              colId: J8P7
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AJ8P7
+            - name: Ateles fusciceps
+              colId: J8P5
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AJ8P5
+            - name: Ateles marginatus
+              colId: J8P9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AJ8P9
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Ateles by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: J8NW
+              name: Ateles chamek
+              canonicalPath: content/nodes/COL%3AJ8NW
+    limitations:
+      en:
+        page: en
+        section: s-5e0248508f
+        part: body
+      zh:
+        page: zh
+        section: s-0173974a6f
+        part: body

@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hyalinobatrachium yaku
+    name:
+      en: Hyalinobatrachium yaku
+      zh: Hyalinobatrachium yaku
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Hyalinobatrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2072ce2523
+            part: body
+          zh:
+            page: zh
+            section: s-24639bd855
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e6bd72f037
+            part: body
+          zh:
+            page: zh
+            section: s-cc57f39c44
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2145, 2146; Reference.csv rows 518
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2145
+        values:
+          - Centrolenidae
+          - Hyalinobatrachium
+          - Hyalinobatrachium yaku
+          - F
+          - "21.1"
+          - "6.7"
+          - "7.7"
+          - "1.6"
+          - "0.9"
+          - NA
+          - "2.4"
+          - "1.6"
+          - "1.3"
+          - NA
+          - "2.6"
+          - NA
+          - "4.8"
+          - "4.3"
+          - NA
+          - "8.9"
+          - NA
+          - "12.4"
+          - "12.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.9"
+          - "3.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2146
+        values:
+          - Centrolenidae
+          - Hyalinobatrachium
+          - Hyalinobatrachium yaku
+          - M
+          - "21.43333333"
+          - "7"
+          - "7.7"
+          - "2.4"
+          - "0.933333333"
+          - NA
+          - "2.266666667"
+          - "1.6"
+          - "1.733333333"
+          - NA
+          - "3.133333333"
+          - NA
+          - "5.966666667"
+          - "4.366666667"
+          - NA
+          - "9.833333333"
+          - NA
+          - "12.16666667"
+          - "11.63333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.233333333"
+          - "3.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.133333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.933333333"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 518
+        values:
+          - Anura
+          - Hyalinobatrachium_yaku
+          - Guayasamin, J. M., Cisneros-Heredia, D. F., Maynard, R. J., Lynch, R. L., Culebras, J., & Hamilton, P. S. (2017). A marvelous new glassfrog (Centrolenidae, Hyalinobatrachium) from Amazonian Ecuador. Zookeys(673), 1-20. https://doi.org/10.3897/zookeys.673.12108
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Fin1L
+      - Fin2L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3MW2T
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus insulatus
+  displayName: Hyloxalus insulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNSP
+  sourceIndexes:
+    - name:
+        en: Hyloxalus insulatus
+        zh: Hyloxalus insulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNSP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/106
+            queryName: Hyloxalus insulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/183
+            queryName: Colostethus insulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7c5c00882f
+      - s-cdb9c32afa
+      - s-e4c3710781
+      - s-d200d971c1
+      - s-bc630cf617
+      - s-6370d12ed3
+      - s-701a69197f
+      - s-2412d9a2c8
+      - s-a316e24a0e
+    zh:
+      - s-e255b13ec9
+      - s-eaa784fac4
+      - s-fbb9202ba4
+      - s-ba032770e2
+      - s-15f9884c07
+      - s-dce6534d92
+      - s-a850273833
+      - s-f89b6471cf
+      - s-6e35c0f3fe

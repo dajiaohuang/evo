@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius sylvaticus
+  displayName: Hyperolius sylvaticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQZP
+  sourceIndexes:
+    - name:
+        en: Hyperolius sylvaticus
+        zh: Hyperolius sylvaticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQZP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/342
+            queryName: Hyperolius sylvaticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/150
+            queryName: Hyperolius sylvaticus sylvaticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/151
+            queryName: Hyperolius sylvaticus ivorensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-446f82eaf1
+      - s-c73b546e94
+      - s-41add3053c
+      - s-b2f041b07a
+      - s-918d36a7e6
+      - s-954c5dfe20
+      - s-6890b3ad05
+      - s-4fe2aa9692
+      - s-f71b4955f7
+      - s-15f09ce133
+    zh:
+      - s-07017e18f4
+      - s-92f338ee39
+      - s-12d57f9f33
+      - s-997b263878
+      - s-327243f24c
+      - s-e46c89a6c3
+      - s-33607e654d
+      - s-e7eaa56e1a
+      - s-42b6b0d487
+      - s-1a7a5f8cce

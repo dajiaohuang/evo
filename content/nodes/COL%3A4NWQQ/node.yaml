@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea aurantia
+  displayName: Pseudoeurycea aurantia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWQQ
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea aurantia
+        zh: Pseudoeurycea aurantia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWQQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/285
+            queryName: Pseudoeurycea aurantia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-02487c74fc
+      - s-fd5b5486ea
+      - s-d9b31bd1b2
+      - s-2bd8b0a220
+      - s-68466b9f29
+      - s-dc40671758
+      - s-859b968d48
+    zh:
+      - s-9a94293b08
+      - s-be9d7a1cc9
+      - s-7ddde2757a
+      - s-491b4bf02d
+      - s-38e71f1898
+      - s-38128a5ff3
+      - s-f977dfbbdd

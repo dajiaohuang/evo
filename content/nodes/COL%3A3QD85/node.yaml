@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Isthmohyla xanthosticta
+  displayName: Isthmohyla xanthosticta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QD85
+  sourceIndexes:
+    - name:
+        en: Isthmohyla xanthosticta
+        zh: Isthmohyla xanthosticta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QD85
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/62
+            queryName: Isthmohyla xanthosticta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/499
+            queryName: Hyla xanthosticta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9a013de08f
+      - s-75d925b337
+      - s-46e6ff4e70
+      - s-2f65412edb
+      - s-896f059954
+      - s-7e22d6a943
+      - s-79e85d3a9d
+      - s-077caf7d67
+      - s-f3f99a9d17
+    zh:
+      - s-00ab8cbaf9
+      - s-59e4094ad9
+      - s-b946c1819a
+      - s-d58940c73a
+      - s-ad22a41232
+      - s-352dfbee66
+      - s-134ee24758
+      - s-bb2b277f10
+      - s-61051e1dd2

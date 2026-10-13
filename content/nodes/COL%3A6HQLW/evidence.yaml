@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ferraria ferrariola (Jacq.) Willd.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6HQLW, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6HQLW; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6HQLW
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6HQLW
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000789461-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6HQLW / WFO wfo-0000789461
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-375142dc-c61a-8d8c-ac7c-81b393e51f3e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ferraria ferrariola (Jacq.) Willd. account; SANBI/WFO archive rows 7487 (Morphology), 29058 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ferraria ferrariola (Jacq.) Willd. account; SANBI/WFO archive rows 95228 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Slender, cormous geophyte, 15-60 cm, stems partly exposed, spotted with red below. Lower leaves with long, linear blades. Flowers greenish, blue or yellow, sweet or spicy scented, anther lobes eventually diverging, capsules beaked.
+            textZh: Ferraria ferrariola (Jacq.) Willd. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Morphology row 7487; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Readily recognised by the linear basal leaves, quite different from the shorter cauline leaves, the stem usually partly exposed, and with red-flushed and white-speckled cataphylls and lowermost leaf sheath. The large flowers have a deep and relatively narrow floral cup, 17-20 mm deep and ± 12 mm wide at the mouth. The flowers are usually shades of turquoise-grey to pale slate-blue with a pale yellow nectar guide lightly speckled with darker colour on the limbs of the outer tepals. The flowers have a faint sweet odour, often with spicy overtones of almond, cinnamon or vanilla, unique in the genus. Ferraria ferrariola has been confused with F. parva, which has flowers of similar shape with a narrow floral cup but much smaller, with a floral cup ± 6 mm deep and outer tepals 18-22 mm long compared to (30-)35-40 mm in F. ferrariola. The sheaths and cataphylls of F. parva also lack the red flush and white speckling characteristic of F. ferrariola.
+            textZh: SANBI 条目提供了 Ferraria ferrariola (Jacq.) Willd. 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 95228; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Granite and sandstone slopes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Granite and sandstone slopes.
+            sourceIds:
+              - sanbi_13878_0
+            locator: "SANBI/WFO archive Habitat row 29058; source identifier 13878.0; cited publication: Manning, JC; Goldblatt, P. 2012. Iridaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 119 - 176. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-d8f27d3bd8
+        title:
+          en:
+            page: en
+            section: s-35e30851cf
+            part: title
+          zh:
+            page: zh
+            section: s-16265a980f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-35e30851cf
+            part: body
+          zh:
+            page: zh
+            section: s-16265a980f
+            part: body
+        sourceIds:
+          - sanbi_13878_0
+      - id: page-cd29d26b3e
+        title:
+          en:
+            page: en
+            section: s-542a4866e4
+            part: title
+          zh:
+            page: zh
+            section: s-8c55cf10bb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-542a4866e4
+            part: body
+          zh:
+            page: zh
+            section: s-8c55cf10bb
+            part: body
+        sourceIds:
+          - sanbi_18638_0
+      - id: page-196971bafc
+        title:
+          en:
+            page: en
+            section: s-961b5ede76
+            part: title
+          zh:
+            page: zh
+            section: s-c56ca85df9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-961b5ede76
+            part: body
+          zh:
+            page: zh
+            section: s-c56ca85df9
+            part: body
+        sourceIds:
+          - sanbi_13878_0

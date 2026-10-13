@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana culaiensis
+  displayName: Rana culaiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDMX
+  sourceIndexes:
+    - name:
+        en: Rana culaiensis
+        zh: Rana culaiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDMX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/49
+            queryName: Rana culaiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0c693e72b8
+      - s-54ce9b5a09
+      - s-78218ecfe3
+      - s-ccdf5e562e
+      - s-692053c56b
+      - s-c9c08014c6
+      - s-72e391ddc4
+      - s-630518a13c
+    zh:
+      - s-3a6eecb255
+      - s-7ef71453dc
+      - s-2c24f9db29
+      - s-024d855e94
+      - s-e661bbd460
+      - s-e0f2c5ed65
+      - s-b53ef80cee
+      - s-333c503968

@@ -1,0 +1,170 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chroicocephalus genei
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Chroicocephalus genei
+      en: Chroicocephalus genei
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-26f3fb40ae
+            part: body
+          en:
+            page: en
+            section: s-8b0acddaca
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-14cb45c811
+            part: body
+          en:
+            page: en
+            section: s-5d9924681d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f918007291
+            part: body
+          en:
+            page: en
+            section: s-2a9dafaabe
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-4f10530d00
+            part: body
+          en:
+            page: en
+            section: s-c05f0eaade
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-41a052ba22
+            part: body
+          en:
+            page: en
+            section: s-ed236693a1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chroicocephalus genei
+          url: https://www.checklistbank.org/dataset/316115/taxon/5YGFP
+          locator: Pinned accepted name, rank and ancestry; concept equivalence not established.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 1196; name Chroicocephalus genei; reference table row 1196; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: mean of de Magalhaes and Costa, 2009 & Dunning, 1992 from median of 6(Wasser, D.E. and P.W. Sherman, 2010, BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013, Dunning, 1992, Dunning, 1992, Szekely, Lislevand, and Figuerola, 2007, de Magalhaes and Costa, 2009)
+            female_maturity_d: mean of BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013 and de Magalhaes and Costa, 2009
+            litter_or_clutch_size_n: mean of Szekely, Lislevand, and Figuerola, 2007 and Jetz, Sekercioglu, and Bohning-Gaese, 2008
+            maximum_longevity_y: BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - Szekely, Lislevand, and Figuerola, 2007
+            - de Magalhaes and Costa, 2009
+            - Wasser, D.E. and P.W. Sherman, 2010
+            - BC Birds - Tacutu, R., T. Craig, A. Budovsky et al. 2013
+            - Jetz, Sekercioglu, and Bohning-Gaese, 2008
+            - Fransson, T., Kolehmainen, T., Kroon, C. et al., 2010
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+    limitations:
+      zh:
+        page: zh
+        section: s-c83a252807
+        part: body
+      en:
+        page: en
+        section: s-46f0684514
+        part: body

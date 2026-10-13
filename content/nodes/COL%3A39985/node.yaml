@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus dolomedes
+  displayName: Eleutherodactylus dolomedes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39985
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus dolomedes
+        zh: Eleutherodactylus dolomedes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "39985"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/193
+            queryName: Eleutherodactylus dolomedes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/45
+            queryName: Euhyas dolomedes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a63ff68824
+      - s-5123bf20cb
+      - s-d9df54f8ad
+      - s-8fab155347
+      - s-7a543f1500
+      - s-5414c08e5c
+      - s-99454b3cc8
+      - s-7bd928e8c8
+      - s-345d9c11c3
+    zh:
+      - s-e9a95d107f
+      - s-8ef150dcb6
+      - s-4403e44d50
+      - s-d4d64857b6
+      - s-0ee77f9fff
+      - s-39d33dffd4
+      - s-e44ada5398
+      - s-f62041c701
+      - s-219e7eb9a3

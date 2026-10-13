@@ -1,0 +1,29 @@
+## 本地数据阅读路径 {#s-a39f87d29f}
+这里整理的 AVONET v7 资料包含 114 种鹦鹉科鸟类的测量记录，使用来源中的历史名称。例子有 Amazona aestiva、A. agilis、A. albifrons、A. amazonica 和 A. arausiaca。页面层级按固定 COL26.8 组织，生物学数值仍保留原来源名称与采样范围。
+
+## 记录之间有什么差别 {#s-ae4270aebf}
+所列物种的体重汇编均值从 Forpus passerinus 的 23 g 到 Anodorhynchus hyacinthinus 的 1331 g。资料中有灌丛、森林、疏林及林缘、草地等栖地类别，以及以果实为主、利用多类食物、没有单一主导食性和以种子或坚果为主等食性类别。这些是数据集中的例子，不代表科内共同特征，也不是完整后代清单。
+
+## 按生活史字段选择对读页面 {#s-e93dac09a8}
+这里整理了 80 条历史生活史记录，包括 Amazona aestiva、A. albifrons、A. amazonica、A. auropalliata 和 A. autumnalis。成年体重与每窝幼体数或每窝卵数在 80 条记录中均有；最长寿命记录见于 71 条，产卵至孵化时间见于 29 条。这些计数描述现有记录覆盖，不是接受种总数。比较数值前，应核对每个字段所指事件、单位和出处。
+
+## 沿食物、取食位置和活动时段对读 {#s-d7dae33002}
+111 条历史生态记录同时有食物类别权重与取食层位资料，包括 Psittacus erithacus，以及 Poicephalus robustus、P. gulielmi、P. senegalus 和 P. crassus。没有记录提供哺乳类活动时段字段。食物权重和层位都是有各自来源限制的粗略估计；计数不代表整个接受科的分母或共同生态。
+
+## 只有一类生态字段的条目 {#s-a7283590c2}
+另有 15 条历史生态记录仅有一类可用字段：14 条有食物类别权重，1 条有取食层位。例子包括 Poicephalus rueppellii、Primolius maracana、Guaruba guarouba、Aratinga jandaya 和 Leptosittaca branickii。没有记录提供哺乳类活动时段字段。这些计数只描述本组资料，不代表全科或共同生态。
+
+## 证据边界 {#s-af11c6e858}
+这里整理的 AVONET 测量资料涵盖 114 种，不是鹦鹉科全部接受种名册。体重端点比较的是物种汇编均值，不是个体最轻与最重值。各物种页保留分类对应、采样与其他生物学限制。
+生活史阅读路径有 80 条同名、同科且至少三个焦点字段有来源支持的历史记录，不是完整后代名册。汇编摘要、最长寿命记录和历史分类继承仍受来源限制；科级入口不表示繁殖或生活史相同。
+两字段生态组有 111 条同时包含食物和取食层位资料的历史记录；单字段组有 15 条，其中 14 条有食物资料、1 条有层位资料。两组均非完整后代名册，也不能据此推断科内共有特征。半定量转换、历史分类与可能借用同属材料的限制仍逐页适用。
+
+## 从有限生态资料开始 {#s-7ac2788b5c}
+这里有 13 个有限生态资料页，包括 [Alipiopsitta xanthops](Alipiopsitta/Alipiopsitta_xanthops/page.zh.md)、[Amazona kawalli](Amazona/Amazona_kawalli/page.zh.md)、[Poicephalus crassus](Poicephalus/Poicephalus_crassus/page.zh.md)、[Pyrilia aurantiocephala](Pyrilia/Pyrilia_aurantiocephala/page.zh.md) 和 [Pyrilia pyrilia](Pyrilia/Pyrilia_pyrilia/page.zh.md)。页面沿固定 COL26.8 分类组织；这只是已写资料的数量，不是全部接受种数。
+
+## 哪些内容可读，哪些仍未解读 {#s-7d35a50a85}
+13 个有限生态资料页均记录了栖地、取食生态位、主导活动方式和迁移类别。这些是来源定义的分类，不是个体观察，也不能证明所有后代具有相同生活方式。喙、翼、跗蹠、尾与体重字段在这里仍未解读，不能用于建立科级体型比较。
+
+## 这组历史数据的边界 {#s-d0f84946c1}
+这 13 个资料页概括有限的历史生态记录，并不覆盖所有接受种。COL26.8 导航、历史同名同科关系和两张同名一对一表都不能消除后来物种概念的差异。粗生态分类不是独立行为观察，历史地图不是当前占域或保护评估；原有形态推算与体重来源仍予保留，但不解释为本物种的直接测量。
+

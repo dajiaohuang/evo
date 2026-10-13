@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodontidae
+  displayName: Plethodontidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/625RT
+  sourceIndexes:
+    - name:
+        en: Plethodontidae
+        zh: Plethodontidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 625RT
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/159
+            queryName: Plethodontidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 923
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1fd2441094
+      - s-9f3f0d6fb4
+      - s-c5431d431d
+      - s-63d4a2b69c
+      - s-6d553347d4
+      - s-e9382a7aef
+      - s-53065b6efa
+    zh:
+      - s-9ef7f27287
+      - s-9c42ff9096
+      - s-229dd19146
+      - s-074a96f3e1
+      - s-dcfa66dd5d
+      - s-ca00bed08b
+      - s-db36e5ad5f

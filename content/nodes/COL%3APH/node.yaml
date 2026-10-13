@@ -1,0 +1,61 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amphibia
+  displayName: Amphibia
+  rank: class
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PH
+  sourceIndexes:
+    - name:
+        en: Amphibia
+        zh: Amphibia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PH
+          rank: class
+        - authority: PBDB snapshot2026-10-02
+          id: null
+          rank: group
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/89
+            queryName: Amphibia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9133
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e2723a413d
+      - s-fac0e6332d
+      - s-a2531a93b6
+      - s-edcba3682f
+      - s-682b3323a8
+      - s-e8b9ec0ab6
+      - s-bc7719613e
+      - s-4603073670
+      - s-7b99a40431
+    zh:
+      - s-1beaffe99c
+      - s-27842adb8c
+      - s-5a8ef88799
+      - s-1ae9f37ab0
+      - s-72e9f5309c
+      - s-6bcfe9a47a
+      - s-f711be2ffd
+      - s-69ed0ce209
+      - s-23926dd5d0

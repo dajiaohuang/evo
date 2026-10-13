@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Microhyla fissipes {#s-321b9abe18}
+TadpoleTraits version 4 places Microhyla fissipes in Microhyla (Microhylidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Microhyla fissipes, Microhyla fissipes. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 2 literature rows and 0 image rows {#s-42326db159}
+TadpoleTraits version 4 links 2 literature rows and 0 image rows to Microhyla fissipes. Source row numbers — literature: 3848, 3849; image: none recorded. Populated measurement fields — literature: TL, BL, BL.sd, BMH, BMH.sd, BMW, BMW.sd, TaL, TaL.sd, MTH, TMH, TMH.sd, TMW, TMW.sd, DFH, DFH.sd, VFH, VFH.sd, IND.a, IND.a.sd, E, E.sd, NS.a, NS.a.sd, ES.b, OD; image: none recorded. Literature row 3848: Stage 28-30; Literature row 3849: Stage 41. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

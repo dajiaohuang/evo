@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantophryne axanthogaster
+  displayName: Mantophryne axanthogaster
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6R6C6
+  sourceIndexes:
+    - name:
+        en: Mantophryne axanthogaster
+        zh: Mantophryne axanthogaster
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6R6C6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/364
+            queryName: Mantophryne axanthogaster
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5b04a6831d
+      - s-43f0db65a7
+      - s-e87cb178a2
+      - s-0d29d546d8
+      - s-336ae9c718
+      - s-1b54655262
+      - s-9143dd2297
+      - s-e46d14a43a
+      - s-f7273db2b3
+      - s-f067e3e2d7
+    zh:
+      - s-871bb4af98
+      - s-7acda90a95
+      - s-a94d01bfeb
+      - s-ff0b8a7010
+      - s-d7f33a8814
+      - s-040ff1c8e3
+      - s-4fd7253229
+      - s-f2ad744061
+      - s-b30963efc8
+      - s-5e0e173fcb

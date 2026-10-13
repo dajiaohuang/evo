@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella mirandaribeiroi
+  displayName: Rhinella mirandaribeiroi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7P3
+  sourceIndexes:
+    - name:
+        en: Rhinella mirandaribeiroi
+        zh: Rhinella mirandaribeiroi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7P3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/348
+            queryName: Rhinella mirandaribeiroi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 750
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/55
+            queryName: Bufo granulosus mirandaribeiroi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/56
+            queryName: Bufo granulosus lutzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-023c2c1b24
+      - s-12bd603612
+      - s-a095355f93
+      - s-a53a56e47a
+      - s-588d964321
+      - s-95b20208f7
+      - s-3c956ef22c
+      - s-cbe12b9413
+      - s-646c1fa0d8
+      - s-b947026afa
+      - s-1bd47adaa7
+      - s-8509fe6043
+      - s-1a573efb19
+      - s-a71470433b
+      - s-e2499b7771
+      - s-ad02320fb3
+    zh:
+      - s-9834a1cd89
+      - s-77ecbe07a8
+      - s-d190d2a961
+      - s-3899d02a10
+      - s-5c33dc3fd4
+      - s-366e2887db
+      - s-9d4a84f793
+      - s-26a4abda28
+      - s-175b6acf31
+      - s-4d6c07d5e1
+      - s-60eeadab2e
+      - s-e56c2abf4b
+      - s-8c495b0384
+      - s-ed8ab880c1
+      - s-9e6344f64c
+      - s-64db27eb80

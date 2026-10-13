@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana livida
+  displayName: Odorrana livida
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SG7
+  sourceIndexes:
+    - name:
+        en: Odorrana livida
+        zh: Odorrana livida
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SG7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/31
+            queryName: Odorrana livida
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 52
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/143
+            queryName: Rana livida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/392
+            queryName: Polypedates lividus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/393
+            queryName: Hylorana livida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/394
+            queryName: Huia livida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5030eaadbd
+      - s-40beee5585
+      - s-7ae2605847
+      - s-482a9c8c81
+      - s-0a9260d33d
+      - s-6765a32da7
+      - s-3ac03960b1
+      - s-97a91f6af0
+    zh:
+      - s-eceaad8750
+      - s-7e4cd585cb
+      - s-e31f9ef107
+      - s-7dc5dd5035
+      - s-24b0e393e1
+      - s-5aa7cb8e0c
+      - s-80c5585242
+      - s-2634086314

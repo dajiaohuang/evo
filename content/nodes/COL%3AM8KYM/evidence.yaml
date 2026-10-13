@@ -1,0 +1,133 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Caligophryne Fouquet, Kok, Recoder, Prates, Camacho, Marques-Souza, Ghellere, McDiarmid & Rodrigues, 2023
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Caligophryne
+      zh: Caligophryne
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1fae9e4102
+            part: title
+          zh:
+            page: zh
+            section: s-a11eb0715f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1fae9e4102
+            part: body
+          zh:
+            page: zh
+            section: s-a11eb0715f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c138b2e4f7
+            part: title
+          zh:
+            page: zh
+            section: s-f88df0b62d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c138b2e4f7
+            part: body
+          zh:
+            page: zh
+            section: s-f88df0b62d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-4fa270bb91
+            part: title
+          zh:
+            page: zh
+            section: s-9feb6ee5c1
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: M8KYQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AM8KYQ
+            label:
+              en: Caligophryne doylei
+              zh: Caligophryne doylei
+        text:
+          en:
+            page: en
+            section: s-4fa270bb91
+            part: body
+          zh:
+            page: zh
+            section: s-9feb6ee5c1
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-b5bb1283b0
+            part: body
+          zh:
+            page: zh
+            section: s-21aa1ed81e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Caligophryne
+          url: https://www.checklistbank.org/dataset/316115/taxon/M8KYM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ff58a1e63c
+        part: body
+      zh:
+        page: zh
+        section: s-6797122ec3
+        part: body

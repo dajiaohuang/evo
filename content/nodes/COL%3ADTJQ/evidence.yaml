@@ -1,0 +1,1533 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Andrias davidianus (Blanchard, 1871)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Andrias davidianus
+      zh: Andrias davidianus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1323355fca
+            part: title
+          zh:
+            page: zh
+            section: s-daed5b98db
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1323355fca
+            part: body
+          zh:
+            page: zh
+            section: s-daed5b98db
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e9903dbc55
+            part: title
+          zh:
+            page: zh
+            section: s-654606810b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e9903dbc55
+            part: body
+          zh:
+            page: zh
+            section: s-654606810b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-89cefb2dd9
+            part: title
+          zh:
+            page: zh
+            section: s-2721220cb1
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-89cefb2dd9
+            part: body
+          zh:
+            page: zh
+            section: s-2721220cb1
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4328af4fd8
+            part: title
+          zh:
+            page: zh
+            section: s-6f26c811b5
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-4328af4fd8
+            part: body
+          zh:
+            page: zh
+            section: s-6f26c811b5
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-733e953431
+            part: title
+          zh:
+            page: zh
+            section: s-2fb48bd0e9
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-733e953431
+            part: body
+          zh:
+            page: zh
+            section: s-2fb48bd0e9
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-ef54323b1f
+            part: title
+          zh:
+            page: zh
+            section: s-75dea02c60
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Size_at_maturity_min_mm
+          - Size_at_maturity_max_mm
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-ef54323b1f
+            part: body
+          zh:
+            page: zh
+            section: s-75dea02c60
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-336dd86c17
+            part: title
+          zh:
+            page: zh
+            section: s-3a5b058eac
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-336dd86c17
+            part: body
+          zh:
+            page: zh
+            section: s-3a5b058eac
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ffe0bd9daa
+            part: title
+          zh:
+            page: zh
+            section: s-77f8b14542
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-ffe0bd9daa
+            part: body
+          zh:
+            page: zh
+            section: s-77f8b14542
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-c7ab45ab25cf6e468ea3564ec8006b4d
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-b39b1093f1080baba9abcb66
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d91cb447d2
+            part: title
+          zh:
+            page: zh
+            section: s-d4374f8915
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d91cb447d2
+            part: body
+          zh:
+            page: zh
+            section: s-d4374f8915
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-adad3dfa15
+            part: title
+          zh:
+            page: zh
+            section: s-da74341742
+            part: title
+        sourceIds:
+          - primary-pmc10705805-dtjq
+        text:
+          en:
+            page: en
+            section: s-adad3dfa15
+            part: body
+          zh:
+            page: zh
+            section: s-da74341742
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-3c9a7d9bc1
+            part: title
+          zh:
+            page: zh
+            section: s-0804a73216
+            part: title
+        sourceIds:
+          - primary-pmc10705805-dtjq
+        text:
+          en:
+            page: en
+            section: s-3c9a7d9bc1
+            part: body
+          zh:
+            page: zh
+            section: s-0804a73216
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-0c25da1c72
+            part: title
+          zh:
+            page: zh
+            section: s-0f2bed69e3
+            part: title
+        sourceIds:
+          - primary-pmc10705805-dtjq
+        text:
+          en:
+            page: en
+            section: s-0c25da1c72
+            part: body
+          zh:
+            page: zh
+            section: s-0f2bed69e3
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-518719d5b7
+            part: title
+          zh:
+            page: zh
+            section: s-f1f1c8163e
+            part: title
+        sourceIds:
+          - primary-pmc10705805-dtjq
+        text:
+          en:
+            page: en
+            section: s-518719d5b7
+            part: body
+          zh:
+            page: zh
+            section: s-f1f1c8163e
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-adb73a116e
+            part: title
+          zh:
+            page: zh
+            section: s-ed3b307ca0
+            part: title
+        sourceIds:
+          - primary-pmc10705805-dtjq
+        text:
+          en:
+            page: en
+            section: s-adb73a116e
+            part: body
+          zh:
+            page: zh
+            section: s-ed3b307ca0
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-94af6fe2a0
+            part: title
+          zh:
+            page: zh
+            section: s-5f768a8ae6
+            part: title
+        sourceIds:
+          - primary-pmc10705805-dtjq
+        text:
+          en:
+            page: en
+            section: s-94af6fe2a0
+            part: body
+          zh:
+            page: zh
+            section: s-5f768a8ae6
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6641f357a1
+            part: title
+          zh:
+            page: zh
+            section: s-0df2cc5c12
+            part: title
+        sourceIds:
+          - primary-pmc10705805-dtjq
+        text:
+          en:
+            page: en
+            section: s-6641f357a1
+            part: body
+          zh:
+            page: zh
+            section: s-0df2cc5c12
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-14d1034e0d
+            part: title
+          zh:
+            page: zh
+            section: s-fb71560ba9
+            part: title
+        sourceIds:
+          - primary-pmc10705805-dtjq
+        text:
+          en:
+            page: en
+            section: s-14d1034e0d
+            part: body
+          zh:
+            page: zh
+            section: s-fb71560ba9
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-905e48411d
+            part: title
+          zh:
+            page: zh
+            section: s-61ef39e48b
+            part: title
+        sourceIds:
+          - primary-pmc10831114-dtjq
+        text:
+          en:
+            page: en
+            section: s-905e48411d
+            part: body
+          zh:
+            page: zh
+            section: s-61ef39e48b
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8a03b4db3c
+            part: title
+          zh:
+            page: zh
+            section: s-40bc08605d
+            part: title
+        sourceIds:
+          - primary-pmc10831114-dtjq
+        text:
+          en:
+            page: en
+            section: s-8a03b4db3c
+            part: body
+          zh:
+            page: zh
+            section: s-40bc08605d
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-7bc29c40a2
+            part: title
+          zh:
+            page: zh
+            section: s-9ed60dd287
+            part: title
+        sourceIds:
+          - primary-pmc12189923-dtjq
+        text:
+          en:
+            page: en
+            section: s-7bc29c40a2
+            part: body
+          zh:
+            page: zh
+            section: s-9ed60dd287
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-af4a7ecd07
+            part: title
+          zh:
+            page: zh
+            section: s-b6e0689246
+            part: title
+        sourceIds:
+          - primary-pmc12189923-dtjq
+        text:
+          en:
+            page: en
+            section: s-af4a7ecd07
+            part: body
+          zh:
+            page: zh
+            section: s-b6e0689246
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-d2840ffd8f
+            part: title
+          zh:
+            page: zh
+            section: s-94dd685840
+            part: title
+        sourceIds:
+          - primary-pmc12189923-dtjq
+        text:
+          en:
+            page: en
+            section: s-d2840ffd8f
+            part: body
+          zh:
+            page: zh
+            section: s-94dd685840
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-41abfad356
+            part: title
+          zh:
+            page: zh
+            section: s-6cacae312a
+            part: title
+        sourceIds:
+          - primary-pmc12189923-dtjq
+        text:
+          en:
+            page: en
+            section: s-41abfad356
+            part: body
+          zh:
+            page: zh
+            section: s-6cacae312a
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-71d4961477
+            part: title
+          zh:
+            page: zh
+            section: s-caa2ecb3d2
+            part: title
+        sourceIds:
+          - primary-pmc12153857-dtjq
+        text:
+          en:
+            page: en
+            section: s-71d4961477
+            part: body
+          zh:
+            page: zh
+            section: s-caa2ecb3d2
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-454882972b
+            part: title
+          zh:
+            page: zh
+            section: s-e1f2bb86fa
+            part: title
+        sourceIds:
+          - primary-pmc12153857-dtjq
+        text:
+          en:
+            page: en
+            section: s-454882972b
+            part: body
+          zh:
+            page: zh
+            section: s-e1f2bb86fa
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-1332d3d00c
+            part: title
+          zh:
+            page: zh
+            section: s-043b322628
+            part: title
+        sourceIds:
+          - primary-pmc12153857-dtjq
+        text:
+          en:
+            page: en
+            section: s-1332d3d00c
+            part: body
+          zh:
+            page: zh
+            section: s-043b322628
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c05642931c
+            part: title
+          zh:
+            page: zh
+            section: s-9175871919
+            part: title
+        sourceIds:
+          - primary-pmc12153857-dtjq
+        text:
+          en:
+            page: en
+            section: s-c05642931c
+            part: body
+          zh:
+            page: zh
+            section: s-9175871919
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9500ddac0d
+            part: title
+          zh:
+            page: zh
+            section: s-f9b147eff3
+            part: title
+        sourceIds:
+          - primary-pmc12153857-dtjq
+        text:
+          en:
+            page: en
+            section: s-9500ddac0d
+            part: body
+          zh:
+            page: zh
+            section: s-f9b147eff3
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-db466c5c4a
+            part: title
+          zh:
+            page: zh
+            section: s-cad66e860c
+            part: title
+        sourceIds:
+          - primary-pmc12153857-dtjq
+        text:
+          en:
+            page: en
+            section: s-db466c5c4a
+            part: body
+          zh:
+            page: zh
+            section: s-cad66e860c
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-59a54b1999
+            part: title
+          zh:
+            page: zh
+            section: s-c967ddb340
+            part: title
+        sourceIds:
+          - primary-pmc12153857-dtjq
+        text:
+          en:
+            page: en
+            section: s-59a54b1999
+            part: body
+          zh:
+            page: zh
+            section: s-c967ddb340
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-4bc6ae789d
+            part: title
+          zh:
+            page: zh
+            section: s-b241ae1c06
+            part: title
+        sourceIds:
+          - primary-pmc12149308-dtjq
+        text:
+          en:
+            page: en
+            section: s-4bc6ae789d
+            part: body
+          zh:
+            page: zh
+            section: s-b241ae1c06
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Andrias davidianus
+          url: https://www.checklistbank.org/dataset/316115/taxon/DTJQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 202085, row 272367; Distribution.tsv rows 69063; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6012; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6007 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 14, 15; Reference.csv rows 4118
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10705805-dtjq
+        referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Andrias davidianus: Source-labelled captive adults at one Hunan ecological breeding base; subjects, video-sampling protocol, observed PAE repertoire, breeding and parental-care descriptions, cave setting and measured water conditions; no independent genetic concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10831114-dtjq
+        referenceId: ref-af599cab-da09-4ad2-ac64-9bbc99affaad
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Andrias davidianus: XML Results Samples/Tables1–2, mtDNA/microsatellite/sex/morphology sections, Discussion and Online methods Samples/mtDNA/microsatellite/sex/morphology read; original sequences, genotypes, supplementary distances, historical newspaper records and cited type studies not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12189923-dtjq
+        referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Andrias davidianus: XML Introduction, Methods2.1–2.5, Results3.1–3.5, Table1 habitat rows, Table2 indices, Discussion4.1–4.5 and Conclusions read; exact frozen catalogue links for two historical names retained. SupplementS1/S2/S3, figure elevations, raw individual records, historical surveys, current assessments and causal conservation mechanisms not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12153857-dtjq
+        referenceId: ref-70442f62-1d10-4b30-ac75-051abeb062f4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Andrias davidianus: XML Animals, Experiments, Statistical Analysis, Results3.1–3.3, Tables1–2, Figure captions4, Discussion4.1–4.2 and Conclusions read. Raw reflectance/time series, images, code and genetic provenance not independently inspected; no full-article certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12149308-dtjq
+        referenceId: ref-e7a32340-bde0-4f75-ad19-bc168331e38f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Andrias davidianus: XML Introduction, bone identification Sec2, dating/phylogeny Sec3, Methods Sec5–Sec9 and Table1 read. Independently written factual synthesis, no source translation/images. Bone/sequence/raw AMS data, calibration distribution, figure support and GenBank records not independently inspected.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6804297225
+        part: body
+      zh:
+        page: zh
+        section: s-3fd16cf63c
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "202085"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=202085
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 272367
+        key: "202085"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "202085"
+            area: Southern Asia
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 69063
+            key: 202085|Southern Asia|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-c7ab45ab25cf6e468ea3564ec8006b4d
+      sourceRowId: Anf6012
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6012
+        bibliographyRowId: Anf6007
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Batrachuperus pinchonii
+        candidateBibliographyRowIds:
+          - Anf6007
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-b39b1093f1080baba9abcb66
+        scientificName: Andrias davidianus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani13233632
+        referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+        sourceKey: primary-pmc10705805-dtjq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10705805/article.xml
+        sourceConcept: Andrias davidianus
+        evidenceRead: "Andrias davidianus: Source-labelled captive adults at one Hunan ecological breeding base; subjects, video-sampling protocol, observed PAE repertoire, breeding and parental-care descriptions, cave setting and measured water conditions; no independent genetic concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Eight source-labelled captive adults at one breeding base
+              zh: 一个繁殖基地的八只来源标签成体
+            referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+            sourceKey: primary-pmc10705805-dtjq
+            locator: PMC10705805 XML sec2dot1-animals-13-03632 paragraphs 0–2; sec2dot2-animals-13-03632 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-23fb73661b
+                part: body
+              zh:
+                page: zh
+                section: s-286924a13d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: behavior
+            heading:
+              en: An ethogram distinguishes postures, actions and settings
+              zh: 行为谱区分姿态、动作及环境
+            referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+            sourceKey: primary-pmc10705805-dtjq
+            locator: PMC10705805 XML sec2dot3-animals-13-03632 paragraphs 0–1; sec3dot4-animals-13-03632 paragraphs 0–1; sec5-animals-13-03632 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2bfdee91f4
+                part: body
+              zh:
+                page: zh
+                section: s-7d39a0d533
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: The monitored breeding period differs from the spawning peak
+              zh: 受监测繁殖期与产卵高峰不同
+            referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+            sourceKey: primary-pmc10705805-dtjq
+            locator: PMC10705805 XML sec2dot1-animals-13-03632 paragraph 1; sec3dot4-animals-13-03632 paragraph 1; sec4dot3-animals-13-03632 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-03a329a19c
+                part: body
+              zh:
+                page: zh
+                section: s-fcd4b0cacc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: behavior
+            heading:
+              en: Gravel displacement and flowing-water exposure were observed
+              zh: 观察到推移砂砾与接受流水冲淋
+            referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+            sourceKey: primary-pmc10705805-dtjq
+            locator: PMC10705805 XML sec3dot4-animals-13-03632 paragraph 0; sec4dot1-animals-13-03632 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-08f3bcdc57
+                part: body
+              zh:
+                page: zh
+                section: s-b032f4a29b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: reproduction
+            heading:
+              en: Physical contact was coded during courtship and oviposition
+              zh: 求偶与产卵期间编码了身体接触
+            referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+            sourceKey: primary-pmc10705805-dtjq
+            locator: PMC10705805 XML sec3dot4-animals-13-03632 paragraph 0; sec4dot1-animals-13-03632 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-94649a8b5c
+                part: body
+              zh:
+                page: zh
+                section: s-8a79f65ba0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: reproduction
+            heading:
+              en: Male egg care includes movement and egg consumption
+              zh: 雄性卵照料包含运动及食卵
+            referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+            sourceKey: primary-pmc10705805-dtjq
+            locator: PMC10705805 XML sec3dot4-animals-13-03632 paragraph 0; sec4dot1-animals-13-03632 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a36045bd8d
+                part: body
+              zh:
+                page: zh
+                section: s-2d676a3663
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 6
+            topic: ecology
+            heading:
+              en: Artificial caves describe the study setting, not universal requirements
+              zh: 人工洞穴尺寸描述研究环境，而非普遍需求
+            referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+            sourceKey: primary-pmc10705805-dtjq
+            locator: PMC10705805 XML sec4dot3-animals-13-03632 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5e1fef14a0
+                part: body
+              zh:
+                page: zh
+                section: s-7622bdf030
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 7
+            topic: ecology
+            heading:
+              en: Measured water conditions are not thermal or chemical tolerance limits
+              zh: 实测水条件不是温度或化学耐受界限
+            referenceId: ref-4c15e5da-81ac-48ac-aac3-b6658e677709
+            sourceKey: primary-pmc10705805-dtjq
+            locator: PMC10705805 XML sec2dot2-animals-13-03632 paragraph 0; sec4dot3-animals-13-03632 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-18f20da560
+                part: body
+              zh:
+                page: zh
+                section: s-0b83325d76
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1038/s41598-024-52907-6
+        referenceId: ref-af599cab-da09-4ad2-ac64-9bbc99affaad
+        sourceKey: primary-pmc10831114-dtjq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10831114/article.xml
+        sourceConcept: 2024 Andrias davidianus source-labelled sample/reference; unknown native origins and dated status retained
+        evidenceRead: "Andrias davidianus: XML Results Samples/Tables1–2, mtDNA/microsatellite/sex/morphology sections, Discussion and Online methods Samples/mtDNA/microsatellite/sex/morphology read; original sequences, genotypes, supplementary distances, historical newspaper records and cited type studies not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Microsatellites classify a sampled Japanese hybrid assemblage
+              zh: 微卫星划分取样日本杂交组合
+            referenceId: ref-af599cab-da09-4ad2-ac64-9bbc99affaad
+            sourceKey: primary-pmc10831114-dtjq
+            locator: PMC10831114 XML Sec5/Table2; Sec12
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2b622d1687
+                part: body
+              zh:
+                page: zh
+                section: s-2426657177
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Reference groups and maternal lineages answer different questions
+              zh: 参考组与母系谱系回答不同问题
+            referenceId: ref-af599cab-da09-4ad2-ac64-9bbc99affaad
+            sourceKey: primary-pmc10831114-dtjq
+            locator: PMC10831114 XML Sec4–5; Discussion genetic/taxonomic paragraphs
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f37b787ce0
+                part: body
+              zh:
+                page: zh
+                section: s-5fb244fe2a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/biology14060614
+        referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+        sourceKey: primary-pmc12189923-dtjq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12189923/article.xml
+        sourceConcept: 2025 Tangjiahe source-labelled Andrias davidianus, mixed contemporary and historical inventory; not certified specimen/lineage equivalence
+        evidenceRead: "Andrias davidianus: XML Introduction, Methods2.1–2.5, Results3.1–3.5, Table1 habitat rows, Table2 indices, Discussion4.1–4.5 and Conclusions read; exact frozen catalogue links for two historical names retained. SupplementS1/S2/S3, figure elevations, raw individual records, historical surveys, current assessments and causal conservation mechanisms not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A mixed field-and-literature inventory in northern Sichuan
+              zh: 四川北部混合野外与文献名册
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-dtjq
+            locator: PMC12189923 XML Table1 row25 Andrias davidianus; Results3.1; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-743a6a82db
+                part: body
+              zh:
+                page: zh
+                section: s-fa555aeb6f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Local habitat assignments are broader than a breeding diagnosis
+              zh: 地方生境分配宽于繁殖诊断
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-dtjq
+            locator: PMC12189923 XML Table1 row25 habitat columns/caption; Results3.3; Discussion4.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bed81208b6
+                part: body
+              zh:
+                page: zh
+                section: s-7a6745469d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Regional gradients and survey gains do not certify recovery
+              zh: 区域梯度及名册增加不认证恢复
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-dtjq
+            locator: PMC12189923 XML Methods2.1/2.2/2.5; Results3.1/3.4/3.5; Discussion4.1/4.4/4.5; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fc29adf8f7
+                part: body
+              zh:
+                page: zh
+                section: s-4481200cfb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Historical conservation claims do not identify genetic lineage
+              zh: 历史保育陈述不鉴定遗传谱系
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-dtjq
+            locator: PMC12189923 XML Methods2.3; Results3.2; Discussion4.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3efe3b7176
+                part: body
+              zh:
+                page: zh
+                section: s-22e85b99e1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15111526
+        referenceId: ref-70442f62-1d10-4b30-ac75-051abeb062f4
+        sourceKey: primary-pmc12153857-dtjq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12153857/article.xml
+        sourceConcept: Breeder-identified single-family captive juvenile A. davidianus, not genetically certified modern lineage assignment
+        evidenceRead: "Andrias davidianus: XML Animals, Experiments, Statistical Analysis, Results3.1–3.3, Tables1–2, Figure captions4, Discussion4.1–4.2 and Conclusions read. Raw reflectance/time series, images, code and genetic provenance not independently inspected; no full-article certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: A single captive family under a breeder identification
+              zh: 繁育场鉴定下的单一圈养家系
+            referenceId: ref-70442f62-1d10-4b30-ac75-051abeb062f4
+            sourceKey: primary-pmc12153857-dtjq
+            locator: PMC12153857 XML Methods2.1; Introduction species-complex paragraph
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8c48465ef2
+                part: body
+              zh:
+                page: zh
+                section: s-3b43e10345
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Forty juveniles and four artificial light schedules
+              zh: 四十只幼体与四种人工光周期
+            referenceId: ref-70442f62-1d10-4b30-ac75-051abeb062f4
+            sourceKey: primary-pmc12153857-dtjq
+            locator: PMC12153857 XML Methods2.1–2.2; Table1 n labels
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b5572696bb
+                part: body
+              zh:
+                page: zh
+                section: s-7b7855ca3d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Reflectance measurements and repeated observation units
+              zh: 反射率测量与重复观察单位
+            referenceId: ref-70442f62-1d10-4b30-ac75-051abeb062f4
+            sourceKey: primary-pmc12153857-dtjq
+            locator: PMC12153857 XML Methods2.1–2.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-040f63a789
+                part: body
+              zh:
+                page: zh
+                section: s-0b815b14d4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: morphology
+            heading:
+              en: Daytime darkening in a spectral rather than pigment assay
+              zh: 光谱测定中的白昼变暗
+            referenceId: ref-70442f62-1d10-4b30-ac75-051abeb062f4
+            sourceKey: primary-pmc12153857-dtjq
+            locator: PMC12153857 XML Results3.1–3.2; Methods2.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-55b6c65359
+                part: body
+              zh:
+                page: zh
+                section: s-566c0a085d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: ecology
+            heading:
+              en: Fitted daily rhythms do not independently estimate free-running period
+              zh: 拟合日节律不独立估计自由运行周期
+            referenceId: ref-70442f62-1d10-4b30-ac75-051abeb062f4
+            sourceKey: primary-pmc12153857-dtjq
+            locator: PMC12153857 XML Results3.3; Table1 footnote; Methods2.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-baa86c118c
+                part: body
+              zh:
+                page: zh
+                section: s-5d7219bb08
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: ecology
+            heading:
+              en: Printed brightness parameters and an unresolved treatment-label conflict
+              zh: 印出亮度参数与未解决处理标注冲突
+            referenceId: ref-70442f62-1d10-4b30-ac75-051abeb062f4
+            sourceKey: primary-pmc12153857-dtjq
+            locator: PMC12153857 XML Table1–2; Results3.3; Figure4 caption; Discussion4.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0cea1d79f5
+                part: body
+              zh:
+                page: zh
+                section: s-a64e41156c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 6
+            topic: ecology
+            heading:
+              en: Proposed mechanisms and functions remain unmeasured
+              zh: 所提机制与功能仍未测量
+            referenceId: ref-70442f62-1d10-4b30-ac75-051abeb062f4
+            sourceKey: primary-pmc12153857-dtjq
+            locator: PMC12153857 XML Discussion4.1–4.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5260b595f9
+                part: body
+              zh:
+                page: zh
+                section: s-6c7d46bde9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1038/s41598-025-03496-5
+        referenceId: ref-e7a32340-bde0-4f75-ad19-bc168331e38f
+        sourceKey: primary-pmc12149308-dtjq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12149308/article.xml
+        sourceConcept: Previously published modern reference sequence in Ehime fossil comparison, not new fossil DNA of this species
+        evidenceRead: "Andrias davidianus: XML Introduction, bone identification Sec2, dating/phylogeny Sec3, Methods Sec5–Sec9 and Table1 read. Independently written factual synthesis, no source translation/images. Bone/sequence/raw AMS data, calibration distribution, figure support and GenBank records not independently inspected.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Reference-marker role in a Japanese ancient-DNA comparison
+              zh: 日本古 DNA 比较中的参考标记角色
+            referenceId: ref-e7a32340-bde0-4f75-ad19-bc168331e38f
+            sourceKey: primary-pmc12149308-dtjq
+            locator: PMC12149308 XML Table1 Andrias davidianus accessionrows; Sec8 comparatorlist; Sec3 fossilassignment
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-15b924a574
+                part: body
+              zh:
+                page: zh
+                section: s-a2dd988c1b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

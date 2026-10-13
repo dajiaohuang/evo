@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus nelsoni
+  displayName: Anaxyrus nelsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66LVH
+  sourceIndexes:
+    - name:
+        en: Anaxyrus nelsoni
+        zh: Anaxyrus nelsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66LVH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/444
+            queryName: Anaxyrus nelsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/356
+            queryName: Bufo boreas nelsoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/98
+            queryName: Bufo nelsoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/282
+            queryName: Bufo halophilus nelsoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-45c4ab5f31
+      - s-47a1f3f8fa
+      - s-2ec90592e5
+      - s-dd5cb54a8b
+      - s-96ad94b588
+      - s-296e7a40d1
+      - s-b6f857d708
+      - s-a6da473cc3
+      - s-e76a7e2e6b
+      - s-984830590e
+      - s-40a9e94c28
+      - s-9993405301
+      - s-9d6b2131de
+    zh:
+      - s-cba4994fcb
+      - s-a866e299b4
+      - s-fa8780f8b0
+      - s-4352022a1c
+      - s-7ffd23a356
+      - s-75f4d71c56
+      - s-761238ecad
+      - s-5a3e0be6fa
+      - s-52b6ef463c
+      - s-8d19a92b26
+      - s-b6dcb328cc
+      - s-da15bb5a9d
+      - s-1aaa03fe5c

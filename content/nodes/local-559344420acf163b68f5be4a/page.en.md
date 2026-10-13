@@ -1,0 +1,9 @@
+## The dataset entry {#s-eef998724f}
+The pinned AmphiTherm curated snapshot records Physalaemus cuvieri under Leptodactylidae, Anura. It retains 13 thermal estimate rows across 3 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-29f123d996}
+Source row 188 (ID 228; Bovo_2015) reports 34.91038769 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Physalaemus_cuvieri_pop2. Recorded conditions include acclimation at 24.5 °C, medium_test_temp = body. The source reports 3.235240812 °C as its standard deviation. The source n_trait field is 6. The endpoint is LRR. Sex is recorded as mixed. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-2f77846c67}
+Source row 210 (ID 250; Bovo_2015) reports 9.656862745 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as adults. The source population code is Physalaemus_cuvieri_pop2. Recorded conditions include acclimation at 24.5 °C, medium_test_temp = body. The source reports 1.764705882 °C as its standard deviation. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

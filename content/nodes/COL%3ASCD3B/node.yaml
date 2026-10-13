@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis cajanuma
+  displayName: Pristimantis cajanuma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCD3B
+  sourceIndexes:
+    - name:
+        en: Pristimantis cajanuma
+        zh: Pristimantis cajanuma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCD3B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/171
+            queryName: Pristimantis cajanuma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c5a2ae2471
+      - s-779a1d9ad1
+      - s-5e55e6b012
+      - s-d50d920e5c
+      - s-b05be7f6b2
+      - s-6901a38632
+      - s-3a3559ffc7
+      - s-ba754743b3
+      - s-ee865a53dc
+      - s-e3f0b5c7e2
+      - s-e09aaf8bb7
+      - s-25fc8481bc
+    zh:
+      - s-17f75fa575
+      - s-c2e06223f6
+      - s-beed25a574
+      - s-d279c74589
+      - s-84d057b8ae
+      - s-de499f7e8b
+      - s-88a6fafd91
+      - s-682f746f01
+      - s-83ad060db2
+      - s-a678f5fdb7
+      - s-a42eb70fc6
+      - s-d5b87d47d4

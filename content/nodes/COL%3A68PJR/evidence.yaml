@@ -1,0 +1,115 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bonatea steudneri (Rchb.f.) T.Durand & Schinz
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 68PJR, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 68PJR; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/68PJR
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 68PJR
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000350017-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 68PJR / WFO wfo-0000350017
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_6866_0
+        referenceId: ref-e60d1981-ead2-80ef-a85e-27877776447d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bonatea steudneri (Rchb.f.) T.Durand & Schinz account; SANBI/WFO archive rows 77912 (Morphology), 77566 (Habitat), 76904 (Diagnostic), source identifier 6866.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Erect, decumbent or scandent terrestrial herbs, 415-981 mm tall; tubers 1-6, spreading, elongate-oblong, tomentose. Stem robust, 405-976 x 4.0-15.5 mm. Leaves 7-20, lax to dense, cauline, lower sheathing, blades reduced, oblong-lanceolate to ovate-elliptical, acuminate, margins entire, smooth to undulate, 56-154 x 16-56 mm. Inflorescence cylindrical, 92-304 x 120-289 mm, lax, 5-35-flowered; bracts sometimes withered at flowering, similar to upper leaves, sheathing, lanceolate to ovate-lanceolate, apiculate, 24.5-50.5 x 5.5-15.0 mm. Flowers spreading, green and white, pedicel and ovary, sub-erect, 4480 mm long. Dorsal sepal green, erect, narrowly-elliptical, galeate, acute to acuminate, 19-25 x 5.5-9.0 mm; lateral sepals green, projecting forwards, weakly to strongly deflexed, ovate-lanceolate, acuminate to apiculate, base oblique, margins weakly to strongly revolute with acute tooth on lower margin, 17.5-27.5 x 8.5-12.5 mm, adnate to lip and stigmatic processes for 7.0-17.5 mm. Petals upper lobe green, erect, linear, acute to acuminate, 18-26 x 0.5-2.0 mm, adnate to dorsal sepal, lower lobe white with green tip, spreading horizontally, strongly deflexed, linear-falcate, acuminate to apiculate, 39-75 x 0.5-2.0 mm, adnate to claw of lip for 5.0-15.5 mm. Lip green, claw 14.0-36.5 mm, median lobe descending, geniculate, apically recurved, linear-lanceolate to narrowly-oblong, acute to acuminate, 22-43 x 1.0-2.5 mm, lateral lobes descending, diverging, linear-falcate, tips curved, acuminate, 35.5-60.0 x 0.5-2.0 mm; spur toothed, 75-230 mm long, clavate apex 22-49 mm long. Anther erect, acute, 7.5-11.5 mm long, canals slender, 18.5-26.0 mm long. Stigmatic processes clavate, projecting forwards and deflexed, sub-parallel, 24.5-33.5 mm long, base adnate to lip. Rostellum 3-lobed, base auriculate, median lobe cucullate, apex incurved, apiculate, margin ciliate, 6-10 mm long, lateral lobes linear, fused to anther canals, projecting forwards to sub-erect 45°, sub-parallel, 6.0-15.5 mm long.
+            textZh: Bonatea steudneri (Rchb.f.) T.Durand & Schinz 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_6866_0
+            locator: "SANBI/WFO archive Morphology row 77912; source identifier 6866.0; cited publication: Ponsie, ME; Edwards, TJ; Johnson, SD. 2007. A taxonomic revision of Bonatea Willd. (Orchidaceae: Orchidoideae: Habenariinae). S. African J. Bot. 73: 1 - 21. [Copyright held by the South African Association of Botanists (2007); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The species is variable in the length of the perianth segments, especially the petal- and lip-lobes, and of the spur, which varies from 75-230 mm across its wide geographic range. The basal fusion of the lip with the stigmatic processes, lateral sepals and lower petal lobes is also variable, ranging between 7.0 and 17.5 mm. In northern KwaZulu-Natal, South Africa, the species is most likely to be confused with B. lamprophylla, which has spurs of comparable length, 92-131 mm long, and similar cucullate rostellum median lobe with incurved apex and ciliate margins. However B. steudneri has slightly smaller flowers and differs in its forward projecting, strongly deflexed lateral sepals and shorter lip lateral lobes (35.5-60.0 mm vs 106-135 mm).
+            textZh: SANBI 条目提供了 Bonatea steudneri (Rchb.f.) T.Durand & Schinz 的鉴别特征。
+            sourceIds:
+              - sanbi_6866_0
+            locator: "SANBI/WFO archive Diagnostic row 76904; source identifier 6866.0; cited publication: Ponsie, ME; Edwards, TJ; Johnson, SD. 2007. A taxonomic revision of Bonatea Willd. (Orchidaceae: Orchidoideae: Habenariinae). S. African J. Bot. 73: 1 - 21. [Copyright held by the South African Association of Botanists (2007); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: A variety of habitats, in grassland, savannah, thicket and forest margins.
+            textZh: 该 SANBI 区域物种条目记录的生境：A variety of habitats, in grassland, savannah, thicket and forest margins.
+            sourceIds:
+              - sanbi_6866_0
+            locator: "SANBI/WFO archive Habitat row 77566; source identifier 6866.0; cited publication: Ponsie, ME; Edwards, TJ; Johnson, SD. 2007. A taxonomic revision of Bonatea Willd. (Orchidaceae: Orchidoideae: Habenariinae). S. African J. Bot. 73: 1 - 21. [Copyright held by the South African Association of Botanists (2007); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-e448cca0d1
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-9724b7a607
+          part: body

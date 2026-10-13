@@ -1,0 +1,402 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Albanerpeton galaktion
+    rank: species
+    sourceTaxonId: txn:114403
+    name:
+      en: Albanerpeton galaktion
+      zh: Albanerpeton galaktion
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-51d4910350
+            part: body
+          zh:
+            page: zh
+            section: s-bbaac271b1
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-fbd7f1cbd3
+            part: body
+          zh:
+            page: zh
+            section: s-5631877f3b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-1797a4d598
+            part: body
+          zh:
+            page: zh
+            section: s-b856791d7b
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:114403; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. C. Fox and B. G. Naylor. 1982. A reconsideration of the relationships of the fossil amphibian Albanerpeton. Canadian Journal of Earth Sciences 19:118-128
+    occurrenceEvidence:
+      - occurrenceId: occ:1008654
+        collectionId: col:14425
+        acceptedTaxonId: txn:114403
+        identifiedName: Albanerpeton galaktion n. sp.
+        taxonomicDifference: null
+        referenceId: ref:39274
+        bibliography: R. C. Fox and B. G. Naylor. 1982. A reconsideration of the relationships of the fossil amphibian Albanerpeton. Canadian Journal of Earth Sciences 19:118-128
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1070838
+        collectionId: col:45566
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Lower
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070839
+        collectionId: col:45567
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Lower
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070840
+        collectionId: col:45674
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Upper
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070842
+        collectionId: col:45893
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: Upper
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070843
+        collectionId: col:14466
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Kane
+        stratigraphy:
+          group: null
+          formation: Kaiparowits
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1070845
+        collectionId: col:14514
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Sweetwater
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1146992
+        collectionId: col:14422
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1146994
+        collectionId: col:14423
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1146998
+        collectionId: col:14426
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1147000
+        collectionId: col:14427
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1147002
+        collectionId: col:14428
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1292591
+        collectionId: col:146190
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: County of Warner
+        stratigraphy:
+          group: null
+          formation: Milk River
+          member: Deadhorse Coulee
+        olderAgeMa: 85.7
+        youngerAgeMa: 83.6
+      - occurrenceId: occ:1390585
+        collectionId: col:47794
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:42675
+        bibliography: J. D. Gardner. 2000. Albanerpetontid amphibians from the Upper Cretaceous (Campanian and Maastrichtian) of North America. Geodiversitas 22(3):349-388
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1395756
+        collectionId: col:144499
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1395769
+        collectionId: col:144502
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: Montana
+          formation: Hell Creek
+          member: Lower
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1518490
+        collectionId: col:212186
+        acceptedTaxonId: txn:114403
+        taxonomicDifference: null
+        referenceId: ref:73277
+        bibliography: H. Montgomery and S. Clark. 2016. Paleoecology of the Gaddis Site in the Upper Cretaceous Aguja Formation, Terlingua, Texas. Palaios 31:341-357
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Brewster
+        stratigraphy:
+          group: null
+          formation: Aguja
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1592202
+        collectionId: col:200385
+        acceptedTaxonId: txn:114403
+        identifiedName: Albanerpeton cf. galaktion
+        taxonomicDifference: null
+        referenceId: ref:81443
+        bibliography: S. L. Wick. 2021. Albanerpetontids (Lissamphibia, Albanerpetontidae) from the Aguja Formation (lower Campanian) of West Texas, USA. Canadian Journal of Earth Sciences 58(2)
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Brewster
+        stratigraphy:
+          group: null
+          formation: Aguja
+          member: Abajo Shale
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1797a4d598
+            part: body
+          zh:
+            page: zh
+            section: s-b856791d7b
+            part: body
+        sourceIds: []

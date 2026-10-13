@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea aquatica
+  displayName: Pseudoeurycea aquatica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWQP
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea aquatica
+        zh: Pseudoeurycea aquatica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWQP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/284
+            queryName: Pseudoeurycea aquatica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-66484fea9e
+      - s-f5b4170cd4
+      - s-39ec6c0d88
+      - s-02dfb68d13
+      - s-2bb53202d5
+      - s-4be51a879f
+      - s-e205f81f0e
+    zh:
+      - s-b323503027
+      - s-b5881ec40f
+      - s-e2e71dc6a6
+      - s-695a7ffc36
+      - s-39e24fad37
+      - s-02e36897c6
+      - s-d724d72417

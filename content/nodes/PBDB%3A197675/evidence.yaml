@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Paralatonia transylvanica
+    rank: species
+    sourceTaxonId: txn:197675
+    name:
+      en: Paralatonia transylvanica
+      zh: Paralatonia transylvanica
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-6fb3a935fb
+            part: body
+          zh:
+            page: zh
+            section: s-6f7d7f35a6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-ea30c3e6c2
+            part: body
+          zh:
+            page: zh
+            section: s-2480995acc
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-457a8a2e9f
+            part: body
+          zh:
+            page: zh
+            section: s-3d888a27c9
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:197675; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. Venczel and Z. Csiki. 2003. New frogs from the latest Cretaceous of Haţeg Basin, Romania. Acta Palaeontologica Polonica 48(4):609-616
+    occurrenceEvidence:
+      - occurrenceId: occ:484188
+        collectionId: col:48445
+        acceptedTaxonId: txn:197675
+        taxonomicDifference: null
+        referenceId: ref:65862
+        bibliography: M. Venczel, J. D. Gardner, and V. A. Codrea, Z. Csiki-Sava, S. Vasile, A. A. Solomon. 2016. New insights into Europe’s most diverse Late Cretaceous anuran assemblage from the Maastrichtian of western Romania. Palaeobiodiversity and Palaeoenvironments 96(1):61-95
+        locality:
+          countryCode: RO
+          stateProvince: Hunedoara
+          county: null
+        stratigraphy:
+          group: null
+          formation: Pui Beds
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:629034
+        collectionId: col:67818
+        acceptedTaxonId: txn:197675
+        identifiedName: Paralatonia transylvanica n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:37254
+        bibliography: Z. Csiki, A. Ionescu, and D. Grigorescu. 2008. The Budurone microvertebrate site from the Maastrichtian of the Hateg Basin – flora, fauna, taphonomy and paleoenvironment. Acta Palaeontologica Romaniae 6:49-66
+        locality:
+          countryCode: RO
+          stateProvince: Hunedoara
+          county: null
+        stratigraphy:
+          group: null
+          formation: Densuș-Ciula
+          member: Middle
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1404577
+        collectionId: col:193942
+        acceptedTaxonId: txn:197675
+        taxonomicDifference: null
+        referenceId: ref:65862
+        bibliography: M. Venczel, J. D. Gardner, and V. A. Codrea, Z. Csiki-Sava, S. Vasile, A. A. Solomon. 2016. New insights into Europe’s most diverse Late Cretaceous anuran assemblage from the Maastrichtian of western Romania. Palaeobiodiversity and Palaeoenvironments 96(1):61-95
+        locality:
+          countryCode: RO
+          stateProvince: Hunedoara
+          county: null
+        stratigraphy:
+          group: null
+          formation: Densuș-Ciula
+          member: Middle
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1404585
+        collectionId: col:67808
+        acceptedTaxonId: txn:197675
+        taxonomicDifference: null
+        referenceId: ref:65862
+        bibliography: M. Venczel, J. D. Gardner, and V. A. Codrea, Z. Csiki-Sava, S. Vasile, A. A. Solomon. 2016. New insights into Europe’s most diverse Late Cretaceous anuran assemblage from the Maastrichtian of western Romania. Palaeobiodiversity and Palaeoenvironments 96(1):61-95
+        locality:
+          countryCode: RO
+          stateProvince: Hunedoara
+          county: null
+        stratigraphy:
+          group: null
+          formation: Pui Beds
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1404589
+        collectionId: col:193945
+        acceptedTaxonId: txn:197675
+        taxonomicDifference: null
+        referenceId: ref:65862
+        bibliography: M. Venczel, J. D. Gardner, and V. A. Codrea, Z. Csiki-Sava, S. Vasile, A. A. Solomon. 2016. New insights into Europe’s most diverse Late Cretaceous anuran assemblage from the Maastrichtian of western Romania. Palaeobiodiversity and Palaeoenvironments 96(1):61-95
+        locality:
+          countryCode: RO
+          stateProvince: Hunedoara
+          county: null
+        stratigraphy:
+          group: null
+          formation: Pui Beds
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1404590
+        collectionId: col:193946
+        acceptedTaxonId: txn:197675
+        taxonomicDifference: null
+        referenceId: ref:65862
+        bibliography: M. Venczel, J. D. Gardner, and V. A. Codrea, Z. Csiki-Sava, S. Vasile, A. A. Solomon. 2016. New insights into Europe’s most diverse Late Cretaceous anuran assemblage from the Maastrichtian of western Romania. Palaeobiodiversity and Palaeoenvironments 96(1):61-95
+        locality:
+          countryCode: RO
+          stateProvince: Hunedoara
+          county: null
+        stratigraphy:
+          group: null
+          formation: Pui Beds
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1404592
+        collectionId: col:115074
+        acceptedTaxonId: txn:197675
+        taxonomicDifference: null
+        referenceId: ref:65862
+        bibliography: M. Venczel, J. D. Gardner, and V. A. Codrea, Z. Csiki-Sava, S. Vasile, A. A. Solomon. 2016. New insights into Europe’s most diverse Late Cretaceous anuran assemblage from the Maastrichtian of western Romania. Palaeobiodiversity and Palaeoenvironments 96(1):61-95
+        locality:
+          countryCode: RO
+          stateProvince: Alba
+          county: null
+        stratigraphy:
+          group: null
+          formation: Şard
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1553470
+        collectionId: col:219177
+        acceptedTaxonId: txn:197675
+        taxonomicDifference: null
+        referenceId: ref:65862
+        bibliography: M. Venczel, J. D. Gardner, and V. A. Codrea, Z. Csiki-Sava, S. Vasile, A. A. Solomon. 2016. New insights into Europe’s most diverse Late Cretaceous anuran assemblage from the Maastrichtian of western Romania. Palaeobiodiversity and Palaeoenvironments 96(1):61-95
+        locality:
+          countryCode: RO
+          stateProvince: Hunedoara
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-457a8a2e9f
+            part: body
+          zh:
+            page: zh
+            section: s-3d888a27c9
+            part: body
+        sourceIds: []

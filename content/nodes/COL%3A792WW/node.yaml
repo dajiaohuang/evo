@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana tsushimensis
+  displayName: Rana tsushimensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/792WW
+  sourceIndexes:
+    - name:
+        en: Rana tsushimensis
+        zh: Rana tsushimensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 792WW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/89
+            queryName: Rana tsushimensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/190
+            queryName: Rana temporaria tsushimensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/191
+            queryName: Rana amurensis tsushimensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-77f7c133e3
+      - s-9475be74e0
+      - s-a077f19ed0
+      - s-b7c8aac3e7
+      - s-b5d963eb3a
+      - s-bd4272b561
+      - s-7ddbeb9637
+      - s-1ae69e761e
+      - s-73d705330a
+    zh:
+      - s-d728152cf6
+      - s-8b858e6d06
+      - s-e55df6c6f5
+      - s-b3d914ef6c
+      - s-d0d6fb3e5c
+      - s-d607b80de6
+      - s-caf3980fe8
+      - s-ba0e76f98f
+      - s-f4b2e2429e

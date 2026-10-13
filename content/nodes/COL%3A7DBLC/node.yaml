@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton anguliceps
+  displayName: Tylototriton anguliceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLC
+  sourceIndexes:
+    - name:
+        en: Tylototriton anguliceps
+        zh: Tylototriton anguliceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/127
+            queryName: Tylototriton anguliceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-63ea9b7e6e
+      - s-bffda591b4
+      - s-da5381d6bb
+      - s-4a8db0e4e9
+      - s-8227513bc2
+      - s-1d254c52ba
+      - s-026718fea4
+      - s-2934b85e1e
+      - s-fde70f8a0d
+      - s-ce38678253
+      - s-f3725a999c
+      - s-7a8a6b672c
+      - s-1c705b9c5c
+      - s-2b28a8c9f1
+      - s-95575a5b70
+      - s-2d9e25baa2
+      - s-6bda48c791
+    zh:
+      - s-a4249a365e
+      - s-7b39f39e0b
+      - s-5e7e67250a
+      - s-0417e375d2
+      - s-8f33a74a95
+      - s-f5abab66e7
+      - s-471942dc6f
+      - s-16254336c6
+      - s-329183b82d
+      - s-565fe85684
+      - s-7399fe9a59
+      - s-5ed2d89ff8
+      - s-f3685f8af3
+      - s-06c16eea24
+      - s-f9f875d57d
+      - s-5405aaa4e3
+      - s-6cbed8401b

@@ -1,0 +1,209 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sandyrana Wells & Wellington, 1985
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Sandyrana
+      zh: Sandyrana
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5f861e6ec6
+            part: title
+          zh:
+            page: zh
+            section: s-2a232f2d54
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5f861e6ec6
+            part: body
+          zh:
+            page: zh
+            section: s-2a232f2d54
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a1b11e7e21
+            part: title
+          zh:
+            page: zh
+            section: s-c67eec15fd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a1b11e7e21
+            part: body
+          zh:
+            page: zh
+            section: s-c67eec15fd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-2d333d85e6
+            part: title
+          zh:
+            page: zh
+            section: s-35ba4015ac
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5H6F
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5H6F
+            label:
+              en: Sandyrana azuroscelis
+              zh: Sandyrana azuroscelis
+          - kind: catalogue
+            colId: V5LYL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5LYL
+            label:
+              en: Sandyrana dux
+              zh: Sandyrana dux
+          - kind: catalogue
+            colId: V5JYQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5JYQ
+            label:
+              en: Sandyrana graminea
+              zh: Sandyrana graminea
+          - kind: catalogue
+            colId: V5N5N
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5N5N
+            label:
+              en: Sandyrana hunti
+              zh: Sandyrana hunti
+          - kind: catalogue
+            colId: 79HNV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A79HNV
+            label:
+              en: Sandyrana infrafrenata
+              zh: Sandyrana infrafrenata
+          - kind: catalogue
+            colId: V5KCD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5KCD
+            label:
+              en: Sandyrana lubisi
+              zh: Sandyrana lubisi
+          - kind: catalogue
+            colId: V5KK8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5KK8
+            label:
+              en: Sandyrana multicolor
+              zh: Sandyrana multicolor
+          - kind: catalogue
+            colId: V5RP4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5RP4
+            label:
+              en: Sandyrana nullicedens
+              zh: Sandyrana nullicedens
+          - kind: catalogue
+            colId: V5C7P
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5C7P
+            label:
+              en: Sandyrana pallidofemora
+              zh: Sandyrana pallidofemora
+          - kind: catalogue
+            colId: V5CD8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5CD8
+            label:
+              en: Sandyrana pterodactyla
+              zh: Sandyrana pterodactyla
+          - kind: catalogue
+            colId: V5FN2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5FN2
+            label:
+              en: Sandyrana purpureolata
+              zh: Sandyrana purpureolata
+          - kind: catalogue
+            colId: V5MVR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5MVR
+            label:
+              en: Sandyrana sanguinolenta
+              zh: Sandyrana sanguinolenta
+          - kind: catalogue
+            colId: V5MV7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5MV7
+            label:
+              en: Sandyrana sauroni
+              zh: Sandyrana sauroni
+          - kind: catalogue
+            colId: V5KJT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5KJT
+            label:
+              en: Sandyrana tenuigranulata
+              zh: Sandyrana tenuigranulata
+        text:
+          en:
+            page: en
+            section: s-2d333d85e6
+            part: body
+          zh:
+            page: zh
+            section: s-35ba4015ac
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Sandyrana
+          url: https://www.checklistbank.org/dataset/316115/taxon/7C6S
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-bccdf67200
+        part: body
+      zh:
+        page: zh
+        section: s-14174d68dd
+        part: body

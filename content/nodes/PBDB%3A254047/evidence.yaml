@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Iberobatrachus angelae
+    rank: species
+    sourceTaxonId: txn:254047
+    name:
+      en: Iberobatrachus angelae
+      zh: Iberobatrachus angelae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-2fa6e54b47
+            part: body
+          zh:
+            page: zh
+            section: s-d7bca4d46e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-8d72337499
+            part: body
+          zh:
+            page: zh
+            section: s-d319872733
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-125a30b568
+            part: body
+          zh:
+            page: zh
+            section: s-fc09fb5ce5
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:254047; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "A. M. Baez. 2013. Anurans from the Early Cretaceous Lagerstätte of Las Hoyas, Spain: New evidence on the Mesozoic diversification of crown-clade Anura. Cretaceous Research 41:90-106"
+    occurrenceEvidence:
+      - occurrenceId: occ:1094488
+        collectionId: col:28006
+        acceptedTaxonId: txn:254047
+        identifiedName: Iberobatrachus angelae n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:44133
+        bibliography: "A. M. Baez. 2013. Anurans from the Early Cretaceous Lagerstätte of Las Hoyas, Spain: New evidence on the Mesozoic diversification of crown-clade Anura. Cretaceous Research 41:90-106"
+        locality:
+          countryCode: ES
+          stateProvince: Castilla-La Mancha
+          county: Cuenca
+        stratigraphy:
+          group: null
+          formation: La Huérguina
+          member: null
+        olderAgeMa: 125.77
+        youngerAgeMa: 121.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-125a30b568
+            part: body
+          zh:
+            page: zh
+            section: s-fc09fb5ce5
+            part: body
+        sourceIds: []

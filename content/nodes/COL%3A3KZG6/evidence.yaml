@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hermannia fruticulosa K.Schum. ex Schinz
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3KZG6, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3KZG6; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3KZG6
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3KZG6
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001140931-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3KZG6 / WFO wfo-0001140931
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_815_0
+        referenceId: ref-dd7e7a98-4a75-8b51-a3b3-6553366b90ec
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia fruticulosa K.Schum. ex Schinz account; archive rows 74056 (Morphology), 73790 (Habitat), 73271 (Diagnostic), source identifier 815.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Suffrutex, virgate, 40-60 cm tall, stems with grey or brown bark, branches becoming woody and leafless, often glutinous, with numerous minute papillae, otherwise glabrous, ultimate flowering branchlets short and congested with leaves and flowers, minutely papillose. Stipules terete, blunt, usually just under 1 mm long, papillose. Leaves shortly petiolate; blade oblong-cuneate, 5-10 mm long, 3-8 mm broad, broadest at or near apex, dentate in upper part, teeth usually thickened with glands, upper and lower surface papillate and sparsely stellate-pubescent (hairs appressed), nerves prominent beneath; petiole 1-3 mm long. Inflorescence of 1-flowered, solitary cymes, usually in axils of leaves on short congested shoots; peduncle usually very short, about 1.5 mm long (rarely on same plant one up to 2.5 mm long), glabrous; pedicels up to 5 mm long, papillose and sparsely stellate-pubescent, thickening towards apex; bracts minute, ±0.5 mm. Calyx usually lobed to beyond the middle, 4-6 mm long, obscurely papillose with a few appressed stellate hairs without, ciliate on margin and pubescent on inner face. Petals broadly oblong-cuneate, about 8 mm long, 4 mm broad near apex, claw with narrowly inrolled margin, not thickened, appearing glabrous. Stamens with obtrullate, hyaline filaments (appearing glabrous), about 3 mm long; anthers 3, ciliate. Ovary densely hispid, stipitate (stipe ±1.25 mm), about 1.5 mm long; styles about 4 mm long. Capsule from about 4-5 mm long, with 5 laterally compressed carpels, 2.5 mm broad, papillate on surfaces, sometimes stellate-pubescent too, setose along sutures, with 10 diverging, pilose horns which are up to 8 mm long.
+            sourceIds:
+              - sanbi_815_0
+            locator: "SANBI/WFO archive Morphology row 74056; source 815.0; publication: Verdoorn, IC. 1980. Revision of Hermannia subgenus Hermannia in southern Africa. Bothalia 13(1&2): 1 - 63. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: "Distinguishing features are: abbreviated, slender, congested shoots bearing small, persistent bracts in lower half, and leaves and flowers above; long, indurated branchlets, minutely papillose (not stellate- pubescent) becoming glutinose; peduncle short, persistent; pedicels longer and stellate-pubescent; petals longer than calyx, margins inrolled on claw, not thickened, glabrous on inner face; capsule with five laterally compressed carpels free to the axis; horns 10, long, pilose, spreading and recurved."
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_815_0
+            locator: "SANBI/WFO archive Diagnostic row 73271; source 815.0; publication: Verdoorn, IC. 1980. Revision of Hermannia subgenus Hermannia in southern Africa. Bothalia 13(1&2): 1 - 63. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Broken veld, on shaly, quartz or granite hills and plateaux or frequently in water-courses.
+            sourceIds:
+              - sanbi_815_0
+            locator: "SANBI/WFO archive Habitat row 73790; source 815.0; publication: Verdoorn, IC. 1980. Revision of Hermannia subgenus Hermannia in southern Africa. Bothalia 13(1&2): 1 - 63. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Liuraninae Fei, Ye & Jiang, 2010
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Liuraninae
+      zh: Liuraninae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ce0f066126
+            part: title
+          zh:
+            page: zh
+            section: s-14a2d2cad1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ce0f066126
+            part: body
+          zh:
+            page: zh
+            section: s-14a2d2cad1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0844af5fd9
+            part: title
+          zh:
+            page: zh
+            section: s-5f48dc981c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0844af5fd9
+            part: body
+          zh:
+            page: zh
+            section: s-5f48dc981c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-148848334f
+            part: title
+          zh:
+            page: zh
+            section: s-6710f0faa7
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 639YY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A639YY
+            label:
+              en: Liurana
+              zh: Liurana
+        text:
+          en:
+            page: en
+            section: s-148848334f
+            part: body
+          zh:
+            page: zh
+            section: s-6710f0faa7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Liuraninae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JTY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8713a20e7a
+        part: body
+      zh:
+        page: zh
+        section: s-e36530b3a6
+        part: body

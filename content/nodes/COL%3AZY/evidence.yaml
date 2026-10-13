@@ -1,0 +1,78 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    sections:
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: s-752290c877
+            part: title
+          zh:
+            page: zh
+            section: s-e125bf2989
+            part: title
+        text:
+          en:
+            page: en
+            section: s-752290c877
+            part: body
+          zh:
+            page: zh
+            section: s-e125bf2989
+            part: body
+        claimIds:
+          - claim:taxon:corynexochida
+    scientificName: Corynexochida
+    name:
+      en: Corynexochida
+      zh: Corynexochida
+    rank: order
+    sourceDatasetId: "268676"
+  atlas-node:
+    name: Corynexochida
+    commonName: Corynexochids
+    commonNameZh: 栉虫类
+    rank: order
+    taxonId: txn:19472
+    firstAppearance: 516
+    lastAppearance: 393
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:corynexochida
+      claimKind: scientific
+      claimType: topology
+      statement: A cladistic revision of Missisquoiidae provides a documented family-level sample nested within Corynexochida. The family sample does not resolve every corynexochid relationship or establish the order's origin and extinction boundaries.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond the family sample does not resolve every corynexochid relationship or establish the order's origin and extinction boundaries.
+      referenceLinks:
+        - relation: supports
+          referenceId: lee-2008-missisquoiidae-revision
+          pages: 315–341
+          figure: Figures 1–8; cladograms
+          quoteLocator: Material, character matrix, cladistic results and systematic revision
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+  claim-statements.zh:
+    - 对 Missisquoiidae 的支序修订提供了一个归入裂肋虫目的科级样本。这一科级样本不能解决裂肋虫目的全部关系，也不能确定该目的起源与灭绝边界。
+  ranges:
+    - entityId: corynexochida
+      rangeKind: global-composite
+      taxonomicConcept: Corynexochida numerical range withheld pending order-wide synthesis
+      geographicScope: No defensible global numerical scope established
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The cited revision is limited to Missisquoiidae and cannot establish order-wide endpoints.
+      evidenceBasis: The former 516–393 Ma display is withheld because the available cladistic revision covers one family and does not audit the complete temporal extent of Corynexochida.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: lee-2008-missisquoiidae-revision
+          locator: pp. 315–341; Figures 1–8; family-level Missisquoiidae revision and cladograms
+      evidenceLevel: withheld-no-range-evidence

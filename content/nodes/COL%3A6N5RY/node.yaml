@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis monochrous
+  displayName: Ichthyophis monochrous
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5RY
+  sourceIndexes:
+    - name:
+        en: Ichthyophis monochrous
+        zh: Ichthyophis monochrous
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5RY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/413
+            queryName: Ichthyophis monochrous
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/190
+            queryName: Epicrium monochrous
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-847250cbc3
+      - s-717e0563a6
+      - s-84a9676e91
+      - s-6f8811e918
+      - s-7948a543d8
+      - s-f26eb92789
+      - s-d3b097e1ca
+      - s-a1037be727
+      - s-e764c96551
+      - s-12229608d7
+      - s-772a414cfe
+      - s-68000683cc
+      - s-2df911f812
+    zh:
+      - s-92f3f91f99
+      - s-0d8cfb7b3d
+      - s-811c6fa611
+      - s-aa17f9222f
+      - s-7486c3cd1c
+      - s-f5b2cf65ab
+      - s-9f49522150
+      - s-fe9708e9fb
+      - s-eb4b326619
+      - s-e69b24ba72
+      - s-4e7f25e0ad
+      - s-b3a1ff9313
+      - s-e36d59ea07

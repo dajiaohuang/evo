@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius kihangensis
+  displayName: Hyperolius kihangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MPXG
+  sourceIndexes:
+    - name:
+        en: Hyperolius kihangensis
+        zh: Hyperolius kihangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MPXG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/272
+            queryName: Hyperolius kihangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-44621daf1f
+      - s-96b159e150
+      - s-bc683afec5
+      - s-e92fe6454e
+      - s-50faf9fb44
+      - s-062fb30a5e
+      - s-36b3b86b7c
+      - s-2bfb2bb420
+      - s-8c22336c02
+    zh:
+      - s-322fc1247c
+      - s-63fcac89a3
+      - s-19128f9779
+      - s-3907d6547d
+      - s-7deaf9e215
+      - s-c01fb94a21
+      - s-7592c503d3
+      - s-51497c2dbe
+      - s-6401fb5921

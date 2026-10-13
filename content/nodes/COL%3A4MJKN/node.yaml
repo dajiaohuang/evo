@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis parectatus
+  displayName: Pristimantis parectatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJKN
+  sourceIndexes:
+    - name:
+        en: Pristimantis parectatus
+        zh: Pristimantis parectatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJKN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/473
+            queryName: Pristimantis parectatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/474
+            queryName: Eleutherodactylus parectatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b161c7e19
+      - s-8a84116cd0
+      - s-5df34fb77a
+      - s-c7731925f0
+      - s-c1172425f9
+      - s-2ced120c2d
+      - s-0b1ea1d0fc
+      - s-5f8fcffffb
+      - s-d0bb9cd0bb
+      - s-96e8be511f
+      - s-2e9c3c1618
+      - s-7fda887c81
+      - s-255b5103b6
+      - s-1a9860d2d0
+    zh:
+      - s-54c95fc819
+      - s-968d38dbc5
+      - s-b164ff9da2
+      - s-73175cc242
+      - s-0e7dc634a7
+      - s-4703ae10f2
+      - s-cdfa2b254d
+      - s-5a1730c0a6
+      - s-a8248fae70
+      - s-9cc0458e38
+      - s-be696e9ca9
+      - s-4151ac97fc
+      - s-49012651de
+      - s-af1b966eb5

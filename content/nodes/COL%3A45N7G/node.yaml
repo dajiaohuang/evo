@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana parkeri
+  displayName: Nanorana parkeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7G
+  sourceIndexes:
+    - name:
+        en: Nanorana parkeri
+        zh: Nanorana parkeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/181
+            queryName: Nanorana parkeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 317
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/22
+            queryName: Altirana parkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/23
+            queryName: Rana parkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-05135a48a7
+      - s-336045bafc
+      - s-bc758a8ded
+      - s-1dfb6bcde2
+      - s-49c03045b7
+      - s-a07331c959
+      - s-fcf064f188
+      - s-d903c63b48
+      - s-ea235c7ec7
+      - s-2e2f8a17f0
+      - s-b7b203a362
+      - s-afeb041e55
+      - s-ff7215fb9d
+      - s-0a81393397
+      - s-791737dd52
+      - s-0ceb87a2d2
+      - s-f0e83050c7
+      - s-c28baf58cd
+      - s-6f0f608cfe
+      - s-e8a07a224b
+      - s-4b345d9df7
+      - s-19e8372078
+      - s-83cce10780
+      - s-d163272777
+      - s-5b73870434
+    zh:
+      - s-00529aa4e6
+      - s-d10191e4a7
+      - s-b08ebf5056
+      - s-9cee6bdcf7
+      - s-d79d77201a
+      - s-d044d14117
+      - s-6b3d8e1f0d
+      - s-32741388c9
+      - s-8e55d17a2c
+      - s-07fa8b6322
+      - s-5e12f77a00
+      - s-bedf1c9b14
+      - s-cf2512410b
+      - s-b5174234f5
+      - s-06e12ef869
+      - s-a354077dd3
+      - s-dddb35c884
+      - s-0b0f7bccb2
+      - s-1fc33b679b
+      - s-3b5292fd22
+      - s-fa8d8acda6
+      - s-4334784b3c
+      - s-31e5c4fb38
+      - s-e1bb609f0a
+      - s-dcae91d698

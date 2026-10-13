@@ -1,0 +1,392 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cisticolidae
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      zh: Cisticolidae
+      en: Cisticolidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-5b223dee26
+            part: body
+          en:
+            page: en
+            section: s-945ada7b66
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-d0cf71cafb
+            part: body
+          en:
+            page: en
+            section: s-716bb6255c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-7173ed603f
+            part: body
+          en:
+            page: en
+            section: s-0036acd214
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-5f7957345b
+            part: body
+          en:
+            page: en
+            section: s-658543a8c5
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-fa3c39a35a
+            part: body
+          en:
+            page: en
+            section: s-adfc6e67b5
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-bad9cc6f89
+            part: body
+          en:
+            page: en
+            section: s-77618f6ac8
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-6bf2d005ef
+            part: body
+          en:
+            page: en
+            section: s-eeea1e7979
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-5bd2e07afc
+            part: body
+          en:
+            page: en
+            section: s-cf2226d979
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cisticolidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/89S
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 108 selected measured records placed under Cisticolidae in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 9 authored same-name records placed under Cisticolidae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 98 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 98
+            foraging: 98
+            activity: 0
+          readingTargets:
+            - name: Cisticola erythrops
+              colId: 5YWF8
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5YWF8
+            - name: Cisticola cantans
+              colId: VLDW
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AVLDW
+            - name: Cisticola lateralis
+              colId: 5Z8FB
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5Z8FB
+            - name: Cisticola anonymus
+              colId: VLDP
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AVLDP
+            - name: Cisticola woosnami
+              colId: VLFG
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AVLFG
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 5 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 5
+            foraging: 0
+            activity: 0
+          readingTargets:
+            - name: Cisticola melanurus
+              colId: 5YWGK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5YWGK
+            - name: Prinia hypoxantha
+              colId: 4MDWN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4MDWN
+            - name: Apalis fuscigularis
+              colId: F6MN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MN
+            - name: Apalis lynesi
+              colId: F6MT
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MT
+            - name: Apalis argentea
+              colId: F6MD
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MD
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 6 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: F6MD
+              name: Apalis argentea
+              canonicalPath: content/nodes/COL%3AF6MD
+            - colId: 67L5L
+              name: Apalis bamendae
+              canonicalPath: content/nodes/COL%3A67L5L
+            - colId: F6MH
+              name: Apalis chariessa
+              canonicalPath: content/nodes/COL%3AF6MH
+            - colId: F6MP
+              name: Apalis goslingi
+              canonicalPath: content/nodes/COL%3AF6MP
+            - colId: VLDN
+              name: Cisticola angusticauda
+              canonicalPath: content/nodes/COL%3AVLDN
+          fieldAccountCounts:
+            Habitat: 6
+            Trophic.Niche: 6
+            Primary.Lifestyle: 6
+            Migration: 6
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+    limitations:
+      zh:
+        page: zh
+        section: s-1302b12157
+        part: body
+      en:
+        page: en
+        section: s-d95da7ad4e
+        part: body

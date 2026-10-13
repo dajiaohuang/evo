@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs'
 import { isAbsolute, resolve, sep } from 'node:path'
 import { brotliDecompressSync } from 'node:zlib'
 import { readJson, rootDir } from './data-lib.mjs'
+import { validateCatalogueDossier } from './catalogue-knowledge.mjs'
 
 const sha256 = bytes => createHash('sha256').update(bytes).digest('hex')
 
@@ -35,5 +36,6 @@ export function readCatalogueDossiers() {
     shardRecordCount += lines.length
   }
   if (shardRecordCount !== index.recordCount) throw new Error(`Catalogue dossier total mismatch: ${shardRecordCount} != ${index.recordCount}`)
+  for (const record of records) validateCatalogueDossier(record)
   return { ...base, records }
 }

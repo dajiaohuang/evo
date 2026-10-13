@@ -1,0 +1,48 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rawlinsonia
+  displayName: Rawlinsonia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77BW
+  sourceIndexes:
+    - name:
+        en: Rawlinsonia
+        zh: Rawlinsonia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77BW
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/218
+            queryName: Rawlinsonia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 49
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f0e6f9898c
+      - s-66ebe9cbd1
+      - s-909a9164e6
+      - s-d1d525210e
+    zh:
+      - s-4a83afa984
+      - s-253e3f2bdb
+      - s-02789c3679
+      - s-144d023cb8

@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes heyeri
+  displayName: Hylodes heyeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG7P
+  sourceIndexes:
+    - name:
+        en: Hylodes heyeri
+        zh: Hylodes heyeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG7P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/496
+            queryName: Hylodes heyeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b50168c489
+      - s-dd8b012941
+      - s-12de62dea5
+      - s-c348e6df0f
+      - s-493ea72dbe
+      - s-7dc637e4dd
+      - s-efcccfbe7a
+      - s-9fec6532a3
+      - s-09ea94a31a
+      - s-610495d83a
+      - s-a4d3354499
+      - s-7685c7f155
+      - s-b163d49b0b
+      - s-ee3d0386b6
+      - s-7bdc4e69b6
+      - s-0fbc506b8f
+      - s-d653a75c39
+      - s-b81baaa3c6
+      - s-4537e14c44
+      - s-15289a9354
+      - s-acf0c8b12d
+      - s-fea442d94f
+      - s-4b2d1d0bb0
+      - s-038979b3f9
+      - s-e83c37a3e4
+    zh:
+      - s-178842f1df
+      - s-ea4739183b
+      - s-e3ecb21fe3
+      - s-c7978ddb82
+      - s-7420aa405c
+      - s-94b9eff73b
+      - s-60e4308104
+      - s-c3f8cf45dc
+      - s-1343420150
+      - s-75bcb3d1a9
+      - s-a0582edf3b
+      - s-d16aba208a
+      - s-9527402233
+      - s-ef916adca9
+      - s-a67f0398e6
+      - s-cf52631a0c
+      - s-85b2cf80d2
+      - s-279ddf70c8
+      - s-7fbe2c6627
+      - s-b8caf22944
+      - s-87187b5431
+      - s-cb0571d793
+      - s-243e335b71
+      - s-dc8139a646
+      - s-38cda5bf4d

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus lucioi
+  displayName: Eleutherodactylus lucioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399FC
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus lucioi
+        zh: Eleutherodactylus lucioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399FC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/259
+            queryName: Eleutherodactylus lucioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/104
+            queryName: Euhyas lucioi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c399ff50bb
+      - s-eeb1e789b3
+      - s-486524b753
+      - s-306800040e
+      - s-5d8e93d739
+      - s-9edfe04ef9
+      - s-62ec013a13
+      - s-4e45b39bce
+      - s-59c3470740
+    zh:
+      - s-6b987e4af0
+      - s-87d19d46fc
+      - s-734991370b
+      - s-9792240781
+      - s-a68b8f80a2
+      - s-d3f56cdf74
+      - s-8d9f49a095
+      - s-2798edcf48
+      - s-6da60dcb7d

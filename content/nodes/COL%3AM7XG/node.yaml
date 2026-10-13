@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana calcarata
+  displayName: Boana calcarata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7XG
+  sourceIndexes:
+    - name:
+        en: Boana calcarata
+        zh: Boana calcarata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7XG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/462
+            queryName: Boana calcarata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/288
+            queryName: Hyla calcarata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/140
+            queryName: Hypsiboas calcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/105
+            queryName: Hyla leptoscelis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c22dc21033
+      - s-725320e497
+      - s-29b2b131ca
+      - s-59c84cf27a
+      - s-acd9481873
+      - s-c2a08481ac
+      - s-20ac77874b
+      - s-4b37db0177
+      - s-ef0ee22f5d
+      - s-c52b1c2729
+      - s-f16b978ab3
+      - s-7eed078e06
+      - s-469d2d0146
+      - s-e2acf82828
+      - s-d3c5c46f97
+    zh:
+      - s-ac9a985a1f
+      - s-e37d23bcf7
+      - s-c3c7e2a9ad
+      - s-38030f7117
+      - s-613c50f5a9
+      - s-d82c3493fb
+      - s-743ea8a896
+      - s-a793b849ef
+      - s-2f4c8a4c2a
+      - s-1e7c25c5fb
+      - s-c588083dbd
+      - s-3e04cd4724
+      - s-8860f97b8a
+      - s-23322ed6dd
+      - s-e2d0eaacdf

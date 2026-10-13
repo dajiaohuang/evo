@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus pituinus
+  displayName: Eleutherodactylus pituinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F45K
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus pituinus
+        zh: Eleutherodactylus pituinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F45K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/302
+            queryName: Eleutherodactylus pituinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9ed47a1a13
+      - s-faf5f8f56b
+      - s-afab3b5b2b
+      - s-3bbdb8cb8e
+      - s-4ca4703486
+      - s-5153658c9d
+      - s-34f011c48f
+      - s-6067d543e1
+    zh:
+      - s-377f3d7cca
+      - s-906c276fed
+      - s-4c67f079be
+      - s-a2c154ec1d
+      - s-fc4031131f
+      - s-09d7833974
+      - s-a95709f56d
+      - s-0be62eef19

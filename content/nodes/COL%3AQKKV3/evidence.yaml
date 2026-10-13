@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microhyla ninhthuanensis Hoang, Nguyen, Ninh, Luong, Pham, Nguyen, Orlov, Chen, Wang, Ziegler & Jiang, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Microhyla ninhthuanensis
+      zh: Microhyla ninhthuanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-697f5b532f
+            part: title
+          zh:
+            page: zh
+            section: s-e04cb5a5ab
+            part: title
+        text:
+          en:
+            page: en
+            section: s-697f5b532f
+            part: body
+          zh:
+            page: zh
+            section: s-e04cb5a5ab
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1d63b9791a
+            part: title
+          zh:
+            page: zh
+            section: s-298500bfd7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1d63b9791a
+            part: body
+          zh:
+            page: zh
+            section: s-298500bfd7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-47a50ff2e0
+            part: title
+          zh:
+            page: zh
+            section: s-e9891fbe19
+            part: title
+        sourceIds:
+          - primary-pmc8116321-qkkv3
+        text:
+          en:
+            page: en
+            section: s-47a50ff2e0
+            part: body
+          zh:
+            page: zh
+            section: s-e9891fbe19
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d7cedc12dd
+            part: title
+          zh:
+            page: zh
+            section: s-8efe92c71e
+            part: title
+        sourceIds:
+          - primary-pmc8116321-qkkv3
+        text:
+          en:
+            page: en
+            section: s-d7cedc12dd
+            part: body
+          zh:
+            page: zh
+            section: s-8efe92c71e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Microhyla ninhthuanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/QKKV3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc8116321-qkkv3
+        referenceId: ref-9640a6ed-babf-4bcb-a42a-d392ba96748c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Microhyla ninhthuanensis: Species natural-history and distribution accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-db0c96ba5d
+        part: body
+      zh:
+        page: zh
+        section: s-2b8f61d980
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1036.56919
+        referenceId: ref-9640a6ed-babf-4bcb-a42a-d392ba96748c
+        sourceKey: primary-pmc8116321-qkkv3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8116321/article.xml
+        sourceConcept: Microhyla ninhthuanensis
+        evidenceRead: "Microhyla ninhthuanensis: Species natural-history and distribution accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: The Phuoc Binh type-locality sample
+              zh: Phuoc Binh 模式地点样本
+            referenceId: ref-9640a6ed-babf-4bcb-a42a-d392ba96748c
+            sourceKey: primary-pmc8116321-qkkv3
+            locator: "Microhyla ninhthuanensis: Species natural-history and distribution accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-878345506a
+                part: body
+              zh:
+                page: zh
+                section: s-9ce444b883
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Night-time ground collections
+              zh: 夜间地面采集
+            referenceId: ref-9640a6ed-babf-4bcb-a42a-d392ba96748c
+            sourceKey: primary-pmc8116321-qkkv3
+            locator: "Microhyla ninhthuanensis: Species natural-history and distribution accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7d2cf861db
+                part: body
+              zh:
+                page: zh
+                section: s-10c412b8e0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

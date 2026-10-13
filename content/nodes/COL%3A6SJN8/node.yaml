@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oedipina taylori
+  displayName: Oedipina taylori
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SJN8
+  sourceIndexes:
+    - name:
+        en: Oedipina taylori
+        zh: Oedipina taylori
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SJN8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/93
+            queryName: Oedipina taylori
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-facb5442be
+      - s-9e08213fda
+      - s-52d9da8174
+      - s-c470c307ee
+      - s-00d32fe9a8
+      - s-1c3132e597
+      - s-c5ac7a2c4d
+      - s-24e4f2efb3
+    zh:
+      - s-125ff23fd4
+      - s-ff30a45fb0
+      - s-6a70535efc
+      - s-28b148dc39
+      - s-9c9495cb5b
+      - s-e772ffbf31
+      - s-33589f32c5
+      - s-38908b4929

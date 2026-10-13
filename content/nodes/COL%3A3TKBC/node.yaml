@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium ailaonicum
+  displayName: Leptobrachium ailaonicum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKBC
+  sourceIndexes:
+    - name:
+        en: Leptobrachium ailaonicum
+        zh: Leptobrachium ailaonicum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKBC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/314
+            queryName: Leptobrachium ailaonicum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/244
+            queryName: Vibrissaphora ailaonica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/246
+            queryName: Vibrissaphora echinata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/25
+            queryName: Leptobrachium echinatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8bfb814178
+      - s-9ed8f53458
+      - s-eff6872650
+      - s-201260f6c7
+      - s-29a10495fb
+      - s-38ef3369f7
+      - s-a8963abc47
+      - s-bd1695c6eb
+      - s-09885f5db7
+      - s-d16d5ed34a
+      - s-5559c08eee
+      - s-74032c105a
+      - s-aa70d845ce
+      - s-8dce8bceb1
+      - s-d4d4453ff3
+      - s-173a4ebe26
+      - s-0170364f69
+      - s-7346c4895f
+      - s-a0eec9a216
+      - s-56f7ec633a
+    zh:
+      - s-1508324b3c
+      - s-ce73f6c4da
+      - s-49281dad76
+      - s-d5ed35f91d
+      - s-23ddc88758
+      - s-a5ac9e98c9
+      - s-51726c9642
+      - s-3cead12fa7
+      - s-40ea162723
+      - s-ca9e1d0a8d
+      - s-40474580b1
+      - s-101bd02855
+      - s-48a68d68d0
+      - s-9ee32f6c33
+      - s-68349959b6
+      - s-86bb071848
+      - s-7a55b7cf64
+      - s-bbb4d1a06d
+      - s-c4c67912f1
+      - s-4ac3be8149

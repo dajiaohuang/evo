@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:401055
+    scientificName: Aegicetus gehennae
+    commonName: Late Eocene protocetid
+    commonNameZh: 晚始新世原鲸科成员
+    rank: genus
+    parentName: Protocetidae
+    extinct: true
+    geography:
+      - Lower Gehannam Formation
+      - Wadi Al Hitan
+      - Egypt
+    overview:
+      page: en
+      section: s-6cd91b73f2
+      part: body
+    overviewZh:
+      page: zh
+      section: s-3f07473667
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-9402bb7dc3
+        part: body
+      habitat:
+        page: en
+        section: s-72ede8e472
+        part: body
+      locomotion:
+        page: en
+        section: s-1a6e4fd217
+        part: body
+      bodySize:
+        page: en
+        section: s-66c49ad630
+        part: body
+      guild:
+        page: en
+        section: s-d2b2789431
+        part: body
+      dietZh:
+        page: zh
+        section: zh-013ae428cea087
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-a4ab453c782bb7
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-49cf53099f47e0
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-41cf652fb4246a
+        part: body
+      guildZh:
+        page: zh
+        section: zh-cd4db8b74d16ac
+        part: body
+    traits:
+      - page: en
+        section: s-05eae8d7ca
+        part: body
+      - page: en
+        section: s-863774e90a
+        part: body
+      - page: en
+        section: s-206e701127
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-1d69733212
+      part: body
+    readerLimitations:
+      en:
+        page: en
+        section: s-82768f5b55
+        part: body
+      zh:
+        page: zh
+        section: s-0f0439a878
+        part: body
+    confidence: medium
+    referenceIds:
+      - gingerich-2019-aegicetus
+      - plos-2020-aegicetus-correction
+    evidenceSummaryZh:
+      page: zh
+      section: zh-fffd6f500c8fe6
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-0fadc1d4fa603c
+        part: body
+      - page: zh
+        section: zh-dcd6cdcc7bf190
+        part: body
+      - page: zh
+        section: zh-b1230e096bac46
+        part: body
+  claims:
+    - subjectId: taxon:aegicetus
+      claimType: taxonomy
+      claimKind: scientific
+      statement: CGM 60584 defines Aegicetus gehennae and is routed under Protocetidae through Georgiacetinae; this classification is not a direct ancestor statement.
+      confidence: medium
+      confidenceRationale: The taxonomy field for aegicetus is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: gingerich-2019-aegicetus
+          relation: supports
+          pages: e0225391; Figures 2–18 and 22; Tables 1–6
+        - referenceId: plos-2020-aegicetus-correction
+          relation: contextualizes
+          pages: e0230596
+          quoteLocator: Corrected table and figure material
+    - subjectId: taxon:aegicetus
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profile represents lower Gehannam Formation material from Wadi Al Hitan and does not establish the full range of Aegicetus.
+      confidence: medium
+      confidenceRationale: The biogeography field for aegicetus is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: gingerich-2019-aegicetus
+          relation: supports
+          pages: e0225391; Figures 2–18 and 22; Tables 1–6
+        - referenceId: plos-2020-aegicetus-correction
+          relation: contextualizes
+          pages: e0230596
+          quoteLocator: Corrected table and figure material
+    - subjectId: taxon:aegicetus
+      claimType: ecology
+      claimKind: scientific
+      statement: Marine predation and tail-driven swimming are anatomical inferences; prey, performance and a tail fluke were not directly preserved.
+      confidence: medium
+      confidenceRationale: The ecology field for aegicetus is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: gingerich-2019-aegicetus
+          relation: supports
+          pages: e0225391; Figures 2–18 and 22; Tables 1–6
+        - referenceId: plos-2020-aegicetus-correction
+          relation: contextualizes
+          pages: e0230596
+          quoteLocator: Corrected table and figure material
+    - subjectId: taxon:aegicetus
+      claimType: morphology
+      claimKind: scientific
+      statement: CGM 60584 preserves much associated postcranium with an elongate trunk, unfused sacrals, reduced limbs and no weight-bearing sacroiliac joint.
+      confidence: medium
+      confidenceRationale: The morphology field for aegicetus is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: gingerich-2019-aegicetus
+          relation: supports
+          pages: e0225391; Figures 2–18 and 22; Tables 1–6
+        - referenceId: plos-2020-aegicetus-correction
+          relation: contextualizes
+          pages: e0230596
+          quoteLocator: Corrected table and figure material
+    - subjectId: taxon:aegicetus
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 37.71 Ma display point exposes a boundary translation amid conflicting stratigraphic evidence and is not an exact specimen date, FAD or LAD.
+      confidence: medium
+      confidenceRationale: The fossil-range field for aegicetus is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: gingerich-2019-aegicetus
+          relation: supports
+          pages: e0225391; Figures 2–18 and 22; Tables 1–6
+        - referenceId: plos-2020-aegicetus-correction
+          relation: contextualizes
+          pages: e0230596
+          quoteLocator: Corrected table and figure material
+  claim-rationales.zh:
+    - 晚始新世原鲸科成员的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。
+    - 晚始新世原鲸科成员的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。
+    - 晚始新世原鲸科成员的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。
+    - 晚始新世原鲸科成员的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。
+    - 晚始新世原鲸科成员的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - CGM 60584 确立了 Aegicetus gehennae，并经 Georgiacetinae 在导航中归入 Protocetidae；这一分类不表示直接祖先。
+    - 本资料代表 Wadi Al Hitan 下部 Gehannam 组材料，并不能确定 Aegicetus 的完整分布。
+    - 海洋捕食和尾驱游泳属于解剖推断；猎物、运动表现和尾鳍均未被直接保存。
+    - CGM 60584 保存了大量关联的躯后骨骼，包括加长的躯干、未融合的荐椎、缩小的四肢以及缺乏承重骶髂关节。
+    - 3,771 万年前的展示点是在相互冲突的地层证据下作出的界线换算，并非标本精确年龄、首次出现或末次出现。
+  ranges:
+    - entityId: aegicetus
+      rangeKind: global-composite
+      taxonomicConcept: Aegicetus gehennae type occurrence
+      geographicScope: Lower Gehannam Formation, Wadi Al Hitan, Egypt
+      olderMa: 37.71
+      youngerMa: 37.71
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The display uses the current Bartonian–Priabonian boundary while the source reports conflicting micropalaeontological and sequence-stratigraphic evidence.
+      evidenceBasis: Named specimen or explicitly bounded specimen assemblage and its stratigraphic placement in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:aegicetus-holotype-tail-propulsion
+        - claim:taxon:aegicetus:fossil-range
+      referenceLocators:
+        - referenceId: gingerich-2019-aegicetus
+          locator: Geological setting and age; Figures 2–4

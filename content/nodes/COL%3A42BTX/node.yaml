@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Metaphrynella sundana
+  displayName: Metaphrynella sundana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42BTX
+  sourceIndexes:
+    - name:
+        en: Metaphrynella sundana
+        zh: Metaphrynella sundana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42BTX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/447
+            queryName: Metaphrynella sundana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/312
+            queryName: Calohyla sundana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/313
+            queryName: Callula sundana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/314
+            queryName: Nectophryne sundana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/315
+            queryName: Kaloula sundana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f9ceeeac99
+      - s-86e7433e18
+      - s-1f2e5726b0
+      - s-48ac336632
+      - s-a407c6174d
+      - s-b829496b32
+      - s-a2ea1951ff
+      - s-204dbef971
+      - s-aab88c19b6
+      - s-492c7f56d5
+      - s-a1b150b875
+      - s-56c9b4eae4
+    zh:
+      - s-81f40b9f0a
+      - s-00f987ae00
+      - s-6c39b078e1
+      - s-ca61519b23
+      - s-56ffc7a1d1
+      - s-ca4e3cc056
+      - s-1f8b868977
+      - s-70e314164b
+      - s-bdc4197283
+      - s-2b034cc293
+      - s-d919d958e8
+      - s-1088d340f2

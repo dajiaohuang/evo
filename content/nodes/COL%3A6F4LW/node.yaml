@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus cooki
+  displayName: Eleutherodactylus cooki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4LW
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus cooki
+        zh: Eleutherodactylus cooki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4LW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/180
+            queryName: Eleutherodactylus cooki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/423
+            queryName: Checklist of Vertebrates of the United States, the U.S. Territories, and Canada
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-60b0fecb83
+      - s-6a38cde12d
+      - s-0a881658f3
+      - s-4c83ac0d47
+      - s-717aa8ce77
+      - s-e94efdd816
+      - s-0840428a7b
+      - s-18aa860585
+      - s-6d4edf03ec
+      - s-cbc0ff3743
+      - s-fdaa9cd77a
+      - s-d4d2d94a15
+    zh:
+      - s-003e351258
+      - s-75859bab0b
+      - s-8acd8e844a
+      - s-03a4ad63ed
+      - s-f00e44e4b1
+      - s-9b055d2a3f
+      - s-9f1550e425
+      - s-bca2cbe802
+      - s-27d39e1b67
+      - s-44f537650e
+      - s-6c07d110cb
+      - s-b4c7220b2e

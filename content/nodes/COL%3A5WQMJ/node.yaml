@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulengerula boulengeri
+  displayName: Boulengerula boulengeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WQMJ
+  sourceIndexes:
+    - name:
+        en: Boulengerula boulengeri
+        zh: Boulengerula boulengeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WQMJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/313
+            queryName: Boulengerula boulengeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ee1acfb2cd
+      - s-14092bf4bb
+      - s-ab87296561
+      - s-63b7c7c67b
+      - s-7f3467be81
+      - s-fd5a1d915d
+      - s-0127e4d29e
+      - s-2f61c07cbe
+      - s-5bcc38762d
+      - s-3de29d5df9
+      - s-431ba5a94b
+      - s-b17f6afa0e
+    zh:
+      - s-881c7e750c
+      - s-9b1199f080
+      - s-5a14e51290
+      - s-cab91711ae
+      - s-75019c1e52
+      - s-35c46f7e58
+      - s-04b30cb3dd
+      - s-64d97179b0
+      - s-e0fe872107
+      - s-28ddb1c510
+      - s-f92851211e
+      - s-29096aaa33

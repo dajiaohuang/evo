@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Oedipina nimaso
+    name:
+      en: Oedipina nimaso
+      zh: Oedipina nimaso
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Oedipina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-433b83c920
+            part: body
+          zh:
+            page: zh
+            section: s-8c956356f3
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-93edbc99ac
+            part: body
+          zh:
+            page: zh
+            section: s-c392902eea
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 239; Reference.csv rows 4203
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 239
+        values:
+          - Plethodontidae
+          - Oedipina
+          - Oedipina nimaso
+          - M
+          - NA
+          - "30.8"
+          - NA
+          - "20"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.2"
+          - "6.9"
+          - NA
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.8"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4203
+        values:
+          - Caudata
+          - Oedipina_nimaso
+          - "Boza-Oviedo, E., Rovito, S. M., Chaves, G., Garcia-Rodriguez, A., Artavia, L. G., Bolanos, F., & Wake, D. B. (2012). Salamanders from the eastern Cordillera de Talamanca, Costa Rica, with descriptions of five new species (Plethodontidae: Bolitoglossa, Nototriton, and Oedipina) and natural history notes from recent expeditions. Zootaxa(3309), 36-61. https://doi.org/10.11646/zootaxa.3309.1.2"
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - FLL
+      - HLL
+      - T3L
+      - SG
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 74JLD
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

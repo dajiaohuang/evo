@@ -1,0 +1,154 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus labyrinthicus
+  displayName: Leptodactylus labyrinthicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN5K
+  sourceIndexes:
+    - name:
+        en: Leptodactylus labyrinthicus
+        zh: Leptodactylus labyrinthicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN5K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/399
+            queryName: Leptodactylus labyrinthicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 40
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/237
+            queryName: Leptodactylus bufo
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/2
+            queryName: Rana labyrinthica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 35
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/3
+            queryName: Leptodactylus wuchereri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/406
+            queryName: Leptodactylus pentadactylus mattogrossensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/238
+            queryName: Cystignathus labyrinthicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/239
+            queryName: Pleurodema labyrinthicum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/240
+            queryName: Gnathophysa labyrinthica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/241
+            queryName: Rana marginata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/179
+            queryName: Leptodactylus pentadactylus labyrinthicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/180
+            queryName: Leptodactylus pentadactylus matogrossensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-706895848a
+      - s-f5a86fdca0
+      - s-e60ce13e3e
+      - s-d9bd623c3f
+      - s-2af7f40956
+      - s-776c123632
+      - s-50b9731b25
+      - s-7c716ec468
+      - s-374ddda91c
+      - s-7f223c21e7
+      - s-60f872b174
+      - s-b8c825e886
+      - s-be58ae85df
+      - s-2b3d61644a
+      - s-bfd72b7109
+      - s-5800e1bb94
+      - s-abf7710975
+      - s-2686d298a9
+      - s-e40dddbab6
+      - s-6b3928c7e3
+      - s-220fa59a76
+      - s-2bcb41398c
+      - s-94186d13b7
+      - s-9bd3ab1e9c
+    zh:
+      - s-298e528f1e
+      - s-321236dbc1
+      - s-c7dc7ce7ac
+      - s-7e717b7934
+      - s-789ca714cc
+      - s-f2d3a7147c
+      - s-97103475ae
+      - s-502d7fcef3
+      - s-d28f19e15f
+      - s-16f51dacb2
+      - s-0647cda32e
+      - s-de55229bd8
+      - s-938567d13b
+      - s-7bde6a8460
+      - s-86880018d6
+      - s-c91e0b9e84
+      - s-bb4ca88b0a
+      - s-806380fa40
+      - s-4ddcb6f141
+      - s-978d3f2d17
+      - s-68fe8f06ef
+      - s-53985ad374
+      - s-0ba98c788e
+      - s-cce8b9c877

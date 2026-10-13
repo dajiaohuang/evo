@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cheirogaleus grovesi McLain, Lei, Frasier, Taylor, Bailey, Roberts, Nash, Randriamanana, Mittermeier & Louis Jr., 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 格罗夫斯侏狐猴
+      en: Groves's Dwarf Lemur
+    sections:
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-4f65a35cbe
+            part: body
+          en:
+            page: en
+            section: s-719640cca4
+            part: body
+        sourceIds:
+          - mclain2017
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Cheirogaleus grovesi
+          url: https://www.checklistbank.org/dataset/316115/taxon/84JK2
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-aa548873-026a-839a-a62e-ce23609c373d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页所用英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine COL26.8 accepted classification.
+      - id: mclain2017
+        referenceId: ref-45109adb-cc41-8954-a745-b8b800497f5c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Ranomafana 和 Andringitra 的采样，以及结合遗传与形态结果建立新种的原始描述；不代表穷尽调查。
+            en: Supports sampling in Ranomafana and Andringitra and the original description based on combined genetic and morphological results; it is not an exhaustive survey.
+    limitations:
+      zh:
+        page: zh
+        section: s-86b44ca895
+        part: body
+      en:
+        page: en
+        section: s-788df0078e
+        part: body

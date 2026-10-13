@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-b0d93f31bf
+      part: title
+    titleZh:
+      page: zh
+      section: s-4d1582eb5e
+      part: title
+    category: phylogenetic
+    startAge: 0
+    endAge: 0
+    regions:
+      - Comparative genomes of sampled living cetartiodactyls
+    clades:
+      - Whippomorpha
+      - Hippopotamidae
+      - Cetacea
+    summary:
+      page: en
+      section: s-b0d93f31bf
+      part: body
+    summaryZh:
+      page: zh
+      section: s-4d1582eb5e
+      part: body
+    claimIds:
+      - claim:event:whale-hippo-retroposon-topology
+    evidenceItems:
+      - statement: The study isolated 10 additional loci, characterized 16 independent retropositional events and analysed 20 informative events in the combined matrix; four loci support a whale–hippo clade.
+        relation: supports
+        claimIds:
+          - claim:event:whale-hippo-retroposon-topology
+        referenceLinks:
+          - referenceId: nikaido-1999-cetartiodactyl-retroposons
+            relation: supports
+            pages: 10261–10266
+            figure: Figures 1–3 and 7
+            quoteLocator: Locus assays; Phylogenetic analysis; Discussion
+    uncertaintyItems:
+      - statement: This is a topology test on sampled living genomes, not a fossil occurrence, a direct observation of an ancestor, a divergence-time estimate or a Catalogue of Life naming authority.
+        relation: contextualizes
+        claimIds:
+          - claim:event:whale-hippo-retroposon-topology
+        referenceLinks:
+          - referenceId: nikaido-1999-cetartiodactyl-retroposons
+            relation: supports
+            pages: 10261–10266
+            figure: Figures 1 and 7
+            quoteLocator: Taxon sampling; Character matrix; Phylogenetic conclusions
+  claims:
+    - subjectId: event:whale-hippo-retroposon-topology
+      claimKind: scientific
+      claimType: topology
+      statement: Retroposon presence-and-absence data from sampled living cetartiodactyls support Hippopotamidae as the extant sister group of Cetacea; this topology is not a fossil age, a direct ancestor or a nomenclatural catalogue decision.
+      confidence: high
+      confidenceRationale: Multiple independent insertion loci support the same sampled topology with an explicit character matrix. High confidence is limited to that extant relationship and does not date the split or place every fossil taxon.
+      referenceLinks:
+        - referenceId: nikaido-1999-cetartiodactyl-retroposons
+          relation: supports
+          pages: 10261–10266
+          figure: Figures 1–3 and 7
+          quoteLocator: Locus evidence; Combined matrix; Phylogenetic analysis
+  claim-rationales.zh:
+    - 多个独立插入位点对同一取样拓扑提供支持，性状矩阵明确。高置信度仅限该现生关系，不用于测定分化时间或放置所有化石类群。
+  claim-statements.zh:
+    - 取样现生鲸偶蹄类的反转录转座子有无数据支持河马科为鲸类的现生姊妹群；该拓扑不是化石年代、直系祖先或命名目录决定。

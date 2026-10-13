@@ -1,0 +1,422 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Desmodium affine Schltdl.
+    authorship: Schltdl.
+    rank: species
+    sourceDatasetId: "2304"
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-05b7d5a5b9
+            part: title
+          zh:
+            page: zh
+            section: s-1f451c8b8f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-05b7d5a5b9
+            part: body
+          zh:
+            page: zh
+            section: s-1f451c8b8f
+            part: body
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: "383"
+        scientificName: Fabales Bromhead
+        authorship: Bromhead
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 623QT
+        scientificName: Fabaceae
+        authorship: null
+        rank: family
+        status: accepted
+        sourceDatasetId: "2304"
+      - id: 9CKK7
+        scientificName: Desmodium Desv.
+        authorship: Desv.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2304"
+      - id: 352Z8
+        scientificName: Desmodium affine Schltdl.
+        authorship: Schltdl.
+        rank: species
+        status: accepted
+        sourceDatasetId: "2304"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 352Z8; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/352Z8
+          stableId: col:352Z8@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 352Z8; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 352Z8. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_352z8_general_5273
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Desmodium affine Schltdl., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Procumbent woody herb with erect peduncles; stem uncinulate puberulent and moderately long spreading pilose. Leaves trifoliolate, stipulate, petiolate; stipules obliquely ovate acuminate, striate, puberulent on abaxial surface, ciliate, persistent, 4-6.5 mm long, 2-2.5 mm wide; petioles sulcate on adaxial surface; pubescence similar to that of stem, 2.6-3.2-cm long; the leaf rachis similar, 1/4 or less the length of petiole; stipels lance attenuate, striate, puberulent and ciliate, persistent, 2.5-4 mm long; petiolules stouter than the leaf rachis, densely spread- ing pilose, 1-2.5 mm long; leaflets thin, uncinulate puberulent and sparsely scat- tered pilose on adaxial surface, paler and with veins more prominent on the sparsely uncinulate puberulent and pilose abaxial surface, the margins ciliate at least near base, the terminal leaflet ovate, acute to obtuse, the base rounded to deltoid, 3.6-4.8 cm long, 2.3-3.2 cm wide, lateral leaflets obliquely oval, acute, 2.9-4 cm long, 1.7-2.5 cm wide. Inflorescences axillary and terminal; the rachis angulate, uncinulate puberulent, remotely if at all pilose; primary bracts ovate acuminate, striate, puberulent and ciliate, not long persistent, 1.5-3 mm long, 1 mm wide; secondary bracts similar, 1-1.5 mm long, 0.5 mm wide; pedicels borne singly, each subtended by 1 primary bract and 2 secondary bracts (borne later- ally), densely uncinulate puberulent, 8-11 mm long. Flowers with the calyx bi- labiate, uncinulate puberulent, pilose on the teeth of both lobes, the teeth of lower lobe acuminate, almost equal, 3.5-4 mm long, the upper bifid lobe 3.5-4 mm long; corolla somewhat longer than the calyx, standard obovate, narrowly cuneate at base, 5.5 mm long, 4 mm wide, wings oblong, unguiculate, 6 mm long, 1.5 mm wide, keel petals oblong to remotely scythe shaped, long unguiculate, 5.5-6 mm long, 1.5-2 mm wide. Loments short stipitate, the stipe 1.5-2 mm long, to 5-articulate, articles oblong, the upper suture straight, the lower curved, con- stricted at the isthmi, articles densely uncinulate puberulent, 5.5-6 mm long, 2.5- 3 mm wide; seed transversely elliptical, 3 mm long, 1.5 mm wide, the funicle short.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 5273
+          archiveSourceId: C03897A3-6A87-46BA-8C2B-AB07F6A1DFE4
+          archiveSourceIds:
+            - C03897A3-6A87-46BA-8C2B-AB07F6A1DFE4
+          referenceRowNumbers:
+            - 6112
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-ae5b8fec-a2c5-8fff-aa38-6997cb800506
+                metadataVariant: 0
+                usage:
+                  identifier: C03897A3-6A87-46BA-8C2B-AB07F6A1DFE4
+                  referenceRowNumber: 6112
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 5273 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 5273; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:352Z8:row:5273
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 5273; field general; reference rows 6112.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 5273; CC BY 4.0. Citation metadata: Desmodium affine Schltdl., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_352z8_habit_5274
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Desmodium affine Schltdl., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: herb
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 5274
+          archiveSourceId: D2B51608-A309-49F1-A6B0-1FCA4C2DA8E1
+          archiveSourceIds:
+            - D2B51608-A309-49F1-A6B0-1FCA4C2DA8E1
+          referenceRowNumbers:
+            - 6113
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-ae5b8fec-a2c5-8fff-aa38-6997cb800506
+                metadataVariant: 0
+                usage:
+                  identifier: D2B51608-A309-49F1-A6B0-1FCA4C2DA8E1
+                  referenceRowNumber: 6113
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 5274 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 5274; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:352Z8:row:5274
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 5274; field habit; reference rows 6113.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 5274; CC BY 4.0. Citation metadata: Desmodium affine Schltdl., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_352z8_distribution_5275
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Desmodium affine Schltdl., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: occurs in southern Mexico, Central America, the West Indies, and the northern half of South America.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 5275
+          archiveSourceId: 1323E58D-4F21-442B-83AB-A50A99735D07
+          archiveSourceIds:
+            - 1323E58D-4F21-442B-83AB-A50A99735D07
+          referenceRowNumbers:
+            - 6114
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-ae5b8fec-a2c5-8fff-aa38-6997cb800506
+                metadataVariant: 0
+                usage:
+                  identifier: 1323E58D-4F21-442B-83AB-A50A99735D07
+                  referenceRowNumber: 6114
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 5275 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 5275; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:352Z8:row:5275
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 5275; field distribution; reference rows 6114.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 5275; CC BY 4.0. Citation metadata: Desmodium affine Schltdl., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Procumbent woody herb with erect peduncles; stem uncinulate puberulent and moderately long spreading pilose. Leaves trifoliolate, stipulate, petiolate; stipules obliquely ovate acuminate, striate, puberulent on abaxial surface, ciliate, persistent, 4-6.5 mm long, 2-2.5 mm wide; petioles sulcate on adaxial surface; pubescence similar to that of stem, 2.6-3.2-cm long; the leaf rachis similar, 1/4 or less the length of petiole; stipels lance attenuate, striate, puberulent and ciliate, persistent, 2.5-4 mm long; petiolules stouter than the leaf rachis, densely spread- ing pilose, 1-2.5 mm long; leaflets thin, uncinulate puberulent and sparsely scat- tered pilose on adaxial surface, paler and with veins more prominent on the sparsely uncinulate puberulent and pilose abaxial surface, the margins ciliate at least near base, the terminal leaflet ovate, acute to obtuse, the base rounded to deltoid, 3.6-4.8 cm long, 2.3-3.2 cm wide, lateral leaflets obliquely oval, acute, 2.9-4 cm long, 1.7-2.5 cm wide. Inflorescences axillary and terminal; the rachis angulate, uncinulate puberulent, remotely if at all pilose; primary bracts ovate acuminate, striate, puberulent and ciliate, not long persistent, 1.5-3 mm long, 1 mm wide; secondary bracts similar, 1-1.5 mm long, 0.5 mm wide; pedicels borne singly, each subtended by 1 primary bract and 2 secondary bracts (borne later- ally), densely uncinulate puberulent, 8-11 mm long. Flowers with the calyx bi- labiate, uncinulate puberulent, pilose on the teeth of both lobes, the teeth of lower lobe acuminate, almost equal, 3.5-4 mm long, the upper bifid lobe 3.5-4 mm long; corolla somewhat longer than the calyx, standard obovate, narrowly cuneate at base, 5.5 mm long, 4 mm wide, wings oblong, unguiculate, 6 mm long, 1.5 mm wide, keel petals oblong to remotely scythe shaped, long unguiculate, 5.5-6 mm long, 1.5-2 mm wide. Loments short stipitate, the stipe 1.5-2 mm long, to 5-articulate, articles oblong, the upper suture straight, the lower curved, con- stricted at the isthmi, articles densely uncinulate puberulent, 5.5-6 mm long, 2.5- 3 mm wide; seed transversely elliptical, 3 mm long, 1.5 mm wide, the funicle short.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_352z8_general_5273
+            locator: "Flora of Panama general field; imported row 5273; sourceIds C03897A3-6A87-46BA-8C2B-AB07F6A1DFE4; reference rows 6112; citations: C03897A3-6A87-46BA-8C2B-AB07F6A1DFE4: Desmodium affine Schltdl., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 6112)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: occurs in southern Mexico, Central America, the West Indies, and the northern half of South America.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_352z8_distribution_5275
+            locator: "Flora of Panama distribution field; imported row 5275; sourceIds 1323E58D-4F21-442B-83AB-A50A99735D07; reference rows 6114; citations: 1323E58D-4F21-442B-83AB-A50A99735D07: Desmodium affine Schltdl., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 6114)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.

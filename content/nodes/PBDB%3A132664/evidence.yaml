@@ -1,0 +1,183 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Afrotragulus parvus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Afrotragulus parvus
+      en: Afrotragulus parvus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e2c94e61dd
+            part: body
+          en:
+            page: en
+            section: s-4ba05b1389
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3d25fc854a
+            part: body
+          en:
+            page: en
+            section: s-4f385e60e8
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7a2ea25d0c
+            part: body
+          en:
+            page: en
+            section: s-73c85ab018
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7ccf8683d4
+            part: body
+          en:
+            page: en
+            section: s-dd41b8e8cd
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f24c39675e
+            part: body
+          en:
+            page: en
+            section: s-1e1dda1005
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Afrotragulus parvus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=132664&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:132664; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:132664
+          selectedOccurrenceIds:
+            - occ:220290
+            - occ:400252
+            - occ:779641
+            - occ:1149241
+            - occ:1394790
+          selectedCollectionIds:
+            - col:21340
+            - col:38060
+            - col:83629
+            - col:122454
+            - col:192070
+          sourceReferenceIds:
+            - ref:4655
+            - ref:10163
+            - ref:28050
+            - ref:47354
+            - ref:64938
+          originalIdentificationMappings:
+            - occurrenceId: occ:220290
+              originalIdentifiedName: Dorcatherium parvum
+              acceptedName: Afrotragulus parvus
+              difference: recombined as
+            - occurrenceId: occ:400252
+              originalIdentifiedName: Dorcatherium parvum
+              acceptedName: Afrotragulus parvus
+              difference: recombined as
+            - occurrenceId: occ:779641
+              originalIdentifiedName: Dorcatherium parvum
+              acceptedName: Afrotragulus parvus
+              difference: recombined as
+            - occurrenceId: occ:1149241
+              originalIdentifiedName: Dorcatherium parvum
+              acceptedName: Afrotragulus parvus
+              difference: recombined as
+            - occurrenceId: occ:1394790
+              originalIdentifiedName: Dorcatherium parvum
+              acceptedName: Afrotragulus parvus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-8e1371a734
+        part: body
+      en:
+        page: en
+        section: s-b28d948f32
+        part: body

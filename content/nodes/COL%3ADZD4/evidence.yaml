@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Angiopteris fokiensis Hieron.
+    rank: species
+    sourceDatasetId: "1140"
+    identity:
+      method: Exact COL26.8 accepted species usage was verified by COL ID, verbatim scientific name, authorship, rank, accepted status, sourceDatasetId, and every accepted parent node in the pinned hierarchy.
+      scope: The source supports a genetic-marker survey of ten sampled wild populations in Guangdong, China; results are limited to those sampled populations and do not establish nationwide or species-wide population structure.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: GV
+        scientificName: Polypodiopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 623CP
+        scientificName: Marattiales Link
+        authorship: Link
+        rank: order
+        status: accepted
+        sourceDatasetId: "1140"
+      - id: 624K6
+        scientificName: Marattiaceae Kaulf.
+        authorship: Kaulf.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1140"
+      - id: W5R
+        scientificName: Angiopteris Hoffm.
+        authorship: Hoffm.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1140"
+      - id: DZD4
+        scientificName: Angiopteris fokiensis Hieron.
+        authorship: Hieron.
+        rank: species
+        status: accepted
+        sourceDatasetId: "1140"
+    lifeStatusScope:
+      wild: The paper reports leaf samples from ten wild populations in Guangdong Province; precise collection dates were not reported in the audited methods.
+      domesticated: Cultivated populations have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; pinned source checklist
+          url: https://www.checklistbank.org/dataset/316115/taxon/DZD4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:DZD4@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: Accepted species usage DZD4; exact accepted name, authorship, species rank, sourceDatasetId 1140, and accepted parent chain verified in the pinned hierarchy.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 accepted-name identity and classification metadata only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage DZD4. https://doi.org/10.48580/dgywk
+      - id: zhou2025angiopteris
+        referenceId: ref-dae295d8-ff77-84f6-a55c-1d2faa53aa56
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: PMC article license statement at lines 133-134 identifies CC BY 4.0 and links to the canonical license.
+          licenseAppliesTo: Published article text; this dossier paraphrases findings and does not reproduce figures, tables, or separately credited third-party material.
+          stableId: doi:10.3390/biom15121649
+          accessedAt: 2026-09-28
+          locator: Methods §2.1 (PMC lines 157-159); Figure 1 caption (line 164); Results Figure 4 caption (line 263) and §3.6 (lines 270-272); item-level license notice (lines 133-134).
+          licenseAssessment: item-level-verified
+          scope: Original genomic SSR marker survey using young-leaf samples from ten wild populations in Guangdong, China; findings are limited to the sampled sites and marker set.
+          attribution: Zhou et al. (2025). Unveiling the Genetic Diversity and Population Structure of the Endangered Fern Angiopteris fokiensis Through Genome Survey and Genomic SSR Markers. Biomolecules 15(12):1649. https://doi.org/10.3390/biom15121649. Findings paraphrased.
+    facets:
+      morphology:
+        status: not-assessed
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: not-assessed
+      evolution:
+        status: partially-supported
+        claims:
+          - text: A genomic SSR survey analyzed 96 young-leaf samples from ten wild Angiopteris fokiensis populations in Guangdong Province using 15 markers. In the reported Mantel test, genetic distance was not significantly associated with geographic distance (r = -0.1287, p = 0.4033). This is a result for the sampled populations and markers, not evidence that isolation by distance is absent throughout the species.
+            sourceIds:
+              - zhou2025angiopteris
+            locator: Methods §2.1 (PMC lines 157-159) for the 96 samples and ten populations; Figure 4 caption (line 263) for the 15-marker panel; Results §3.6 (lines 270-272) for the Mantel test.
+            placeTimeScope: Ten wild populations in Guangdong Province, China; the paper does not report the field sampling dates. The Mantel result applies to the sampled populations and marker panel only.
+            lifeStatus: Young leaves sampled from wild populations; cultivated plants, other regions, and fossils were not assessed.
+            originalLanguage: en
+        gaps:
+          - The survey covers ten populations in one Chinese province and does not establish genetic structure throughout the species range.
+          - The Mantel test did not detect a significant association in this sample; this is not proof of no geographic genetic structure, particularly given the authors' discussion of statistical power.
+          - Morphology, life history, ecology, distribution, fossils, conservation, systematic search, remain unassessed.
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

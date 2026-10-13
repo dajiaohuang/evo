@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa compacta
+  displayName: Bolitoglossa compacta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WMX4
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa compacta
+        zh: Bolitoglossa compacta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WMX4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/103
+            queryName: Bolitoglossa compacta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7eb738ac30
+      - s-00e5b59649
+      - s-0510a62237
+      - s-aceaff8d39
+      - s-a92ab09507
+      - s-1925ec8071
+      - s-d2b53c17be
+      - s-f468018c7c
+      - s-631d4e8362
+      - s-1a3137e679
+    zh:
+      - s-441b860906
+      - s-536b409f44
+      - s-4f3a9375e8
+      - s-faa3af3958
+      - s-e60a6a0b7c
+      - s-2c42d9c052
+      - s-60599982ee
+      - s-c9539355ad
+      - s-5b59e88091
+      - s-12435a5619

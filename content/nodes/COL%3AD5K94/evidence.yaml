@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leucocarbo magellanicus
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Leucocarbo magellanicus
+      en: Leucocarbo magellanicus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetLeucocarboHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-787bf708b8
+            part: body
+          en:
+            page: en
+            section: s-382a1a911c
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetLeucocarboHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-b789273b58
+            part: body
+          en:
+            page: en
+            section: s-438d4e9e3d
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetLeucocarboHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-7761260bd9
+            part: body
+          en:
+            page: en
+            section: s-e7cfdd7c96
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetLeucocarboHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-f4749aafad
+            part: body
+          en:
+            page: en
+            section: s-f84201ba66
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetLeucocarboHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-52ac459aa9
+            part: body
+          en:
+            page: en
+            section: s-58ce4ddfbd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leucocarbo magellanicus
+          url: https://www.checklistbank.org/dataset/316115/taxon/D5K94
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetLeucocarboHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Leucocarbo historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 10927–10933; each eBird and BirdTree crosswalk, leu/pha COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Phalacrocorax 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Phalacrocorax combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-93293db3db
+        part: body
+      en:
+        page: en
+        section: s-1d8c9fcbb8
+        part: body

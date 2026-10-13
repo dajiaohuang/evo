@@ -209,6 +209,26 @@
         "guild": {
           "type": "string",
           "minLength": 1
+        },
+        "dietZh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "habitatZh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locomotionZh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bodySizeZh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "guildZh": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },
@@ -230,30 +250,6 @@
       "type": "string",
       "minLength": 20
     },
-    "readerLanguageStatus": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "en",
-        "zh"
-      ],
-      "properties": {
-        "en": {
-          "enum": [
-            "draft-ready",
-            "translation-needed",
-            "not-started"
-          ]
-        },
-        "zh": {
-          "enum": [
-            "draft-ready",
-            "translation-needed",
-            "not-started"
-          ]
-        }
-      }
-    },
     "readerSections": {
       "type": "array",
       "items": {
@@ -262,8 +258,7 @@
         "required": [
           "id",
           "title",
-          "text",
-          "sourceIds"
+          "text"
         ],
         "properties": {
           "id": {
@@ -283,6 +278,14 @@
               "type": "string",
               "minLength": 1
             }
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "contested"
+            ]
           }
         }
       }
@@ -304,7 +307,15 @@
             "minLength": 1
           },
           "title": {
-            "$ref": "#/$defs/bilingualText"
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "$ref": "#/$defs/bilingualText"
+              }
+            ]
           },
           "url": {
             "type": "string",
@@ -320,6 +331,18 @@
           "sourceFileSha256": {
             "type": "string",
             "pattern": "^[a-f0-9]{64}$"
+          },
+          "doi": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1
           }
         }
       }
@@ -362,6 +385,22 @@
     "referenceIds": {
       "type": "array",
       "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "overviewZh": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidenceSummaryZh": {
+      "type": "string",
+      "minLength": 1
+    },
+    "traitsZh": {
+      "type": "array",
+      "minItems": 0,
       "items": {
         "type": "string",
         "minLength": 1

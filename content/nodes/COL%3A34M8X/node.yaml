@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrobates leucomelas
+  displayName: Dendrobates leucomelas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34M8X
+  sourceIndexes:
+    - name:
+        en: Dendrobates leucomelas
+        zh: Dendrobates leucomelas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34M8X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/312
+            queryName: Dendrobates leucomelas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c9526805e
+      - s-914b900738
+      - s-219efbde4d
+      - s-f949d1662d
+      - s-f826492e2a
+      - s-82d0425491
+      - s-5a024ac156
+      - s-3e4907b923
+      - s-cf64ad44eb
+      - s-7dae327afe
+    zh:
+      - s-5076481f61
+      - s-9567292b4f
+      - s-726af608cb
+      - s-3b32a64715
+      - s-f0296eade2
+      - s-e6fb470524
+      - s-7ba690389c
+      - s-b898504e39
+      - s-8b95bb38b2
+      - s-997857b1de

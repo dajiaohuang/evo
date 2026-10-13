@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis biangularis
+  displayName: Ichthyophis biangularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTSM
+  sourceIndexes:
+    - name:
+        en: Ichthyophis biangularis
+        zh: Ichthyophis biangularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTSM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/390
+            queryName: Ichthyophis biangularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e0976d7f3
+      - s-36dd02af3e
+      - s-b55d727814
+      - s-889e72b44c
+      - s-09d6b14dc0
+      - s-906f68e1b5
+      - s-d24df4c420
+      - s-9fe77939a9
+      - s-a6ea34e9d9
+      - s-74e9f4eb30
+      - s-9ce889e475
+      - s-695dc21481
+      - s-5894813ebe
+    zh:
+      - s-752f4dd367
+      - s-da861c24a8
+      - s-06af7d8ac0
+      - s-62fce0d64e
+      - s-ae4750e96e
+      - s-76e64d8fa9
+      - s-fc198d1318
+      - s-ae2247b807
+      - s-63c1adde28
+      - s-e5b61c1291
+      - s-8512d7fe60
+      - s-6c5f581705
+      - s-56166a37b9

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis anaiae
+  displayName: Pristimantis anaiae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCCM2
+  sourceIndexes:
+    - name:
+        en: Pristimantis anaiae
+        zh: Pristimantis anaiae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCCM2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/105
+            queryName: Pristimantis anaiae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-213d4ce389
+      - s-e67ac912f0
+      - s-a834b2bce4
+      - s-875ecc2f01
+      - s-c2baa53a74
+      - s-cb867b2ee9
+      - s-0c86ad9772
+      - s-0009e6b156
+      - s-87beaac66a
+      - s-8adfef678c
+    zh:
+      - s-066451b96d
+      - s-9af50f8663
+      - s-1e961e420d
+      - s-453ceb4b9a
+      - s-ebe1faf3f7
+      - s-2a26f690af
+      - s-7adc97ceaa
+      - s-7a7472c73b
+      - s-a7bc273a34
+      - s-d6bf348d06

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Geocrinia
+  displayName: Geocrinia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62T6R
+  sourceIndexes:
+    - name:
+        en: Geocrinia
+        zh: Geocrinia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62T6R
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/404
+            queryName: Geocrinia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 36
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8f2c13dce0
+      - s-cf96582b23
+      - s-17e58484c8
+      - s-80b10d27fa
+      - s-baa04cba01
+      - s-17060bc79e
+      - s-93bd20e015
+    zh:
+      - s-9cca7ace8b
+      - s-707c5211de
+      - s-58b3f56070
+      - s-70bcc055bc
+      - s-321500d890
+      - s-228fae193c
+      - s-6bafef0c62

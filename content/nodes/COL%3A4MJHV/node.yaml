@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis mendax
+  displayName: Pristimantis mendax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJHV
+  sourceIndexes:
+    - name:
+        en: Pristimantis mendax
+        zh: Pristimantis mendax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJHV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/404
+            queryName: Pristimantis mendax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/435
+            queryName: Eleutherodactylus mendax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bda7d1967c
+      - s-16e7eea697
+      - s-4a254454d8
+      - s-04df35b5d5
+      - s-b9345e2dce
+      - s-bc4c7a8d1c
+      - s-83f24de85d
+      - s-b7f0efa0bc
+      - s-58bf5ad1c8
+    zh:
+      - s-3f17f9f618
+      - s-27e3a2bd46
+      - s-8ba97c83d7
+      - s-53571492b9
+      - s-5e893b45f0
+      - s-033f82a6b2
+      - s-bca6f9e18f
+      - s-239b193b3b
+      - s-e582a1afcf

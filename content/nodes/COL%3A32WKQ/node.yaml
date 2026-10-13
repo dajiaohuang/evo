@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus eleutherodactylus
+  displayName: Cycloramphus eleutherodactylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WKQ
+  sourceIndexes:
+    - name:
+        en: Cycloramphus eleutherodactylus
+        zh: Cycloramphus eleutherodactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WKQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/276
+            queryName: Cycloramphus eleutherodactylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/142
+            queryName: Iliodiscus eleutherodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/143
+            queryName: Grypiscus eleutherodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/144
+            queryName: Cyclorhamphus eleutherodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/98
+            queryName: Cyclorhamphus eleutherodactylus variegata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/99
+            queryName: Cyclorhamphus eleutherodactylus strigilata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2c7c76ebcc
+      - s-ac0d254466
+      - s-14262c68a0
+      - s-c774464615
+      - s-badead375c
+      - s-44909acff9
+      - s-442b03179b
+      - s-0f4f68bf69
+      - s-58f0c910a3
+      - s-0875532135
+      - s-367c9a8445
+      - s-2adc5f7232
+      - s-3d1f8b766b
+      - s-255c8a8280
+      - s-a7c1588df1
+      - s-c8880b04fe
+      - s-4908f99e34
+      - s-4751d1ca6e
+      - s-9fe5909374
+      - s-97eea885fe
+      - s-f76916759e
+      - s-d033ff85bf
+    zh:
+      - s-af94244786
+      - s-43f075a045
+      - s-f1d6fd1ef7
+      - s-2921f5a8d0
+      - s-c6a1c4c1ad
+      - s-e7699bbd21
+      - s-0d857b5415
+      - s-7d58d9f0ae
+      - s-1e34cc25cc
+      - s-1127c17a63
+      - s-4017d2ede9
+      - s-6a18decd41
+      - s-d04d08befa
+      - s-075f19103b
+      - s-5ae297afa6
+      - s-127c41961b
+      - s-831ad4d6aa
+      - s-355fd16664
+      - s-6dc24145e9
+      - s-26697324a2
+      - s-86a81a1c9a
+      - s-ebb00619c8

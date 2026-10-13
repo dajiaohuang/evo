@@ -1,0 +1,111 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Piliocolobus langi (J. A. Allen, 1925)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Lang's Red Colobus
+      zh: 朗氏红疣猴
+    sections:
+      - topic: survey
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - langi_rapid2020
+        text:
+          en:
+            page: en
+            section: s-fc0ba94824
+            part: body
+          zh:
+            page: zh
+            section: s-988f6b2433
+            part: body
+      - topic: assessment scope
+        sourceIds:
+          - langi_rapid2020
+        text:
+          en:
+            page: en
+            section: s-cb93e9ea79
+            part: body
+          zh:
+            page: zh
+            section: s-1aecae0b58
+            part: body
+        topicZh: assessment scope
+      - topic: range boundary
+        sourceIds:
+          - langi_rapid2020
+        text:
+          en:
+            page: en
+            section: s-8e759c3d22
+            part: body
+          zh:
+            page: zh
+            section: s-7accc1e954
+            part: body
+        topicZh: range boundary
+      - topic: threats
+        sourceIds:
+          - langi_rapid2020
+        text:
+          en:
+            page: en
+            section: s-96ae7d2ded
+            part: body
+          zh:
+            page: zh
+            section: s-9f07b4abbb
+            part: body
+        topicZh: threats
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Piliocolobus langi (J. A. Allen, 1925)
+          url: https://www.checklistbank.org/dataset/316115/taxon/4HTQR
+          scope:
+            en: Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.
+            zh: 固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-3f17728e-e20f-8f4e-ab81-4db1c00c355f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.
+            zh: 支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: langi_rapid2020
+        referenceId: ref-f40ad38f-be3f-8287-a227-3d3ffa438481
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 2019 regional rapid assessment combining interviews and reconnaissance. Its broad “Kisangani red colobus” totals include both *P. langi* and other forms; species-level phenotype assignments, field observations and threat context retain the report's site, method and taxonomy boundaries.
+            zh: 2019 年基桑加尼区域快速评估，结合访谈与森林漫查；“基桑加尼红疣猴”总量包括 *P. langi* 和其他形式，种级表型归属、现场记录与威胁背景均限于报告的地点、方法和分类口径。
+    limitations:
+      en:
+        page: en
+        section: s-e54b3115e9
+        part: body
+      zh:
+        page: zh
+        section: s-c34134947c
+        part: body

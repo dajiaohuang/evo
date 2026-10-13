@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus mariaeterezae
+  displayName: Brachycephalus mariaeterezae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PYF
+  sourceIndexes:
+    - name:
+        en: Brachycephalus mariaeterezae
+        zh: Brachycephalus mariaeterezae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PYF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/422
+            queryName: Brachycephalus mariaeterezae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f84e5bca35
+      - s-7da3dda4f0
+      - s-caedfe4032
+      - s-e0a58e7696
+      - s-e8242059c0
+      - s-2fa1f93029
+      - s-2b04c6b4a7
+      - s-fea78ddf44
+      - s-366ed395f6
+      - s-985d431989
+      - s-9b8fec1e26
+      - s-6b14b50025
+      - s-63158f8738
+    zh:
+      - s-d20af39750
+      - s-4a1a2fa92c
+      - s-c67ab0a425
+      - s-ff55b6a3fd
+      - s-ac3d70e32b
+      - s-e5e0968a1d
+      - s-7f051e5d73
+      - s-a300614111
+      - s-3f970fb5d5
+      - s-00d4efe642
+      - s-d68a4d94c4
+      - s-27cbfc5458
+      - s-c6810239eb

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufo tibetanus
+  displayName: Bufo tibetanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NPFX
+  sourceIndexes:
+    - name:
+        en: Bufo tibetanus
+        zh: Bufo tibetanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NPFX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/13
+            queryName: Bufo tibetanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0bc3f65fd8
+      - s-71c7484452
+      - s-8ff05fe42c
+      - s-72c3d5282d
+      - s-c546b4f9fe
+      - s-e3cbf4c1fe
+      - s-e8f5ef96d2
+      - s-8c483975b0
+    zh:
+      - s-924766cc50
+      - s-717abc5a5d
+      - s-d6c367305a
+      - s-a41b663e93
+      - s-c7b88cdf12
+      - s-77d5000f0a
+      - s-2133f7d10f
+      - s-b972748781

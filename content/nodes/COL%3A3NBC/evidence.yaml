@@ -1,0 +1,153 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chirixalus Boulenger, 1893
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Chirixalus
+      zh: Chirixalus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-96cc0da6cd
+            part: title
+          zh:
+            page: zh
+            section: s-5301013e76
+            part: title
+        text:
+          en:
+            page: en
+            section: s-96cc0da6cd
+            part: body
+          zh:
+            page: zh
+            section: s-5301013e76
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-984a18ac29
+            part: title
+          zh:
+            page: zh
+            section: s-bf80533ec2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-984a18ac29
+            part: body
+          zh:
+            page: zh
+            section: s-bf80533ec2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-d0edcfb228
+            part: title
+          zh:
+            page: zh
+            section: s-23e0fd5792
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 5Y4SS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5Y4SS
+            label:
+              en: Chirixalus doriae
+              zh: Chirixalus doriae
+          - kind: catalogue
+            colId: 5Y4T4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5Y4T4
+            label:
+              en: Chirixalus dudhwaensis
+              zh: Chirixalus dudhwaensis
+          - kind: catalogue
+            colId: 69T54
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A69T54
+            label:
+              en: Chirixalus nongkhorensis
+              zh: Chirixalus nongkhorensis
+          - kind: catalogue
+            colId: MCT8Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMCT8Q
+            label:
+              en: Chirixalus pantaiselatan
+              zh: Chirixalus pantaiselatan
+          - kind: catalogue
+            colId: 5Y4T5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5Y4T5
+            label:
+              en: Chirixalus simus
+              zh: Chirixalus simus
+          - kind: catalogue
+            colId: MCT9T
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMCT9T
+            label:
+              en: Chirixalus trilaksonoi
+              zh: Chirixalus trilaksonoi
+        text:
+          en:
+            page: en
+            section: s-d0edcfb228
+            part: body
+          zh:
+            page: zh
+            section: s-23e0fd5792
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chirixalus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NBC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-aeda5397ae
+        part: body
+      zh:
+        page: zh
+        section: s-a761cce6f8
+        part: body

@@ -1,0 +1,409 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Nectandra globosa (Aubl.) Mez
+    authorship: (Aubl.) Mez
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 3F8
+        scientificName: Laurales Juss. ex Bercht. & J.Presl
+        authorship: Juss. ex Bercht. & J.Presl
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: BTB
+        scientificName: Lauraceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV6CJ
+        scientificName: Cinnamomeae Nees
+        authorship: Nees
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 5Y73
+        scientificName: Nectandra Rol. ex Rottb.
+        authorship: Rol. ex Rottb.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 747FV
+        scientificName: Nectandra globosa (Aubl.) Mez
+        authorship: (Aubl.) Mez
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 747FV; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/747FV
+          stableId: col:747FV@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 747FV; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 747FV. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_747fv_distribution_2874
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Nectandra globosa (Aubl.) Mez, Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Widespread through the tropics of America, from the West Indies, Mexico and Central America
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 2874
+          archiveSourceId: FF320ED1-0AE6-4AF9-A7E9-F6F252C7D79E
+          archiveSourceIds:
+            - FF320ED1-0AE6-4AF9-A7E9-F6F252C7D79E
+          referenceRowNumbers:
+            - 3027
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-c6ee925b-2dd9-81f3-a991-fb483122f98d
+                metadataVariant: 0
+                usage:
+                  identifier: FF320ED1-0AE6-4AF9-A7E9-F6F252C7D79E
+                  referenceRowNumber: 3027
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2874 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2874; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:747FV:row:2874
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2874; field distribution; reference rows 3027.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2874; CC BY 4.0. Citation metadata: Nectandra globosa Mez, Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_747fv_general_6805
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Nectandra globosa (Aubl.) Mez, Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Tree 4.5-15 m., or shrub 3-6 m. high; branchlets closely and minutely sub- ferruginous-pubescent, in the early stages angled and flattened at the nodes, later becoming reddish brown, striate, and glabrous. Leaves alternate; petioles stout, minutely pubescent to glabrous, canaliculate, to 1.5 cm. long; blades early minutely pubescent, becoming glabrescent to glabrous, coriaceous, usually shining above, dull beneath, elliptic to oblong-elliptic, 14-16 (-24) cm. long and 4-5 (-10) cm. broad, the base rounded or sharply cuneate, the latter appearance due to the lower half centimeter or so of the leaf-blade being recurved, the apex long- acuminate, penninerved, the costa slightly impressed above, rather conspicuous and elevated beneath, the nerves 8-12 pairs, inconspicuous above and elevated beneath, diverging from the costa at an angle of 30-450, axillary pubescent glands fre- quently present, the reticulation obscure. Inflorescence axillary, rarely subtermi- nal, paniculate, to 12-15 (-20) cm. long, minutely subferruginous-pubescent to glabrescent, many-flowered, stout, usually wide-branching, the peduncle variable, from extremely short to 8 cm. long. Flowers, large and conspicuous, white, to 12 mm. in diameter, the perianth-lobes elliptic or obovate-elliptic, acutish or obtuse, the inner often more narrow than the outer, reflexed, very fleshy, papillose within, pubescent without, 4-5 mm. long; stamens of ser. I & II 1.25 (-1.5) mm. long, the anthers sessile or subsessile, rounded or broadly rounded-ovate, the fleshy papillose connective often one-third the entire length; those of ser. III to 1.7 mm. long, the anthers broad, narrowing slightly into the thick filaments almost one- half their length, the glands conspicuous, spreading, sessile, almost the length of the anthers; staminodia triquetrous, to 1 mm. long, the thick stipe nearly one-half the entire length; gynaecium glabrous, to 1.7 mm. long, the ovary subglobose, two-thirds the entire length, the style short, the stigma subsessile, triangular- discoid or occasionally obtuse. Fruit globose, apiculate, about 1 cm. in diameter, the subtending cupule very shallow, up to 2 mm. long, 8 mm. in diameter and 2 mm. deep, the margin usually entire and thin, the pedicel to 5 mm. long, expanded to 3 mm. in diameter at the apex.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 6805
+          archiveSourceId: CDDCF128-0CB6-47A7-8F27-A6FFD36CE467
+          archiveSourceIds:
+            - CDDCF128-0CB6-47A7-8F27-A6FFD36CE467
+          referenceRowNumbers:
+            - 7665
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-c6ee925b-2dd9-81f3-a991-fb483122f98d
+                metadataVariant: 0
+                usage:
+                  identifier: CDDCF128-0CB6-47A7-8F27-A6FFD36CE467
+                  referenceRowNumber: 7665
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 6805 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 6805; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:747FV:row:6805
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 6805; field general; reference rows 7665.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 6805; CC BY 4.0. Citation metadata: Nectandra globosa Mez, Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_747fv_habit_6806
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Nectandra globosa (Aubl.) Mez, Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Tree
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 6806
+          archiveSourceId: 044863E6-890F-4195-B6FA-57314F5262D0
+          archiveSourceIds:
+            - 044863E6-890F-4195-B6FA-57314F5262D0
+          referenceRowNumbers:
+            - 7666
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-c6ee925b-2dd9-81f3-a991-fb483122f98d
+                metadataVariant: 0
+                usage:
+                  identifier: 044863E6-890F-4195-B6FA-57314F5262D0
+                  referenceRowNumber: 7666
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 6806 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 6806; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:747FV:row:6806
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 6806; field habit; reference rows 7666.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 6806; CC BY 4.0. Citation metadata: Nectandra globosa Mez, Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Tree 4.5-15 m., or shrub 3-6 m. high; branchlets closely and minutely sub- ferruginous-pubescent, in the early stages angled and flattened at the nodes, later becoming reddish brown, striate, and glabrous. Leaves alternate; petioles stout, minutely pubescent to glabrous, canaliculate, to 1.5 cm. long; blades early minutely pubescent, becoming glabrescent to glabrous, coriaceous, usually shining above, dull beneath, elliptic to oblong-elliptic, 14-16 (-24) cm. long and 4-5 (-10) cm. broad, the base rounded or sharply cuneate, the latter appearance due to the lower half centimeter or so of the leaf-blade being recurved, the apex long- acuminate, penninerved, the costa slightly impressed above, rather conspicuous and elevated beneath, the nerves 8-12 pairs, inconspicuous above and elevated beneath, diverging from the costa at an angle of 30-450, axillary pubescent glands fre- quently present, the reticulation obscure. Inflorescence axillary, rarely subtermi- nal, paniculate, to 12-15 (-20) cm. long, minutely subferruginous-pubescent to glabrescent, many-flowered, stout, usually wide-branching, the peduncle variable, from extremely short to 8 cm. long. Flowers, large and conspicuous, white, to 12 mm. in diameter, the perianth-lobes elliptic or obovate-elliptic, acutish or obtuse, the inner often more narrow than the outer, reflexed, very fleshy, papillose within, pubescent without, 4-5 mm. long; stamens of ser. I & II 1.25 (-1.5) mm. long, the anthers sessile or subsessile, rounded or broadly rounded-ovate, the fleshy papillose connective often one-third the entire length; those of ser. III to 1.7 mm. long, the anthers broad, narrowing slightly into the thick filaments almost one- half their length, the glands conspicuous, spreading, sessile, almost the length of the anthers; staminodia triquetrous, to 1 mm. long, the thick stipe nearly one-half the entire length; gynaecium glabrous, to 1.7 mm. long, the ovary subglobose, two-thirds the entire length, the style short, the stigma subsessile, triangular- discoid or occasionally obtuse. Fruit globose, apiculate, about 1 cm. in diameter, the subtending cupule very shallow, up to 2 mm. long, 8 mm. in diameter and 2 mm. deep, the margin usually entire and thin, the pedicel to 5 mm. long, expanded to 3 mm. in diameter at the apex.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_747fv_general_6805
+            locator: "Flora of Panama general field; imported row 6805; sourceIds CDDCF128-0CB6-47A7-8F27-A6FFD36CE467; reference rows 7665; citations: CDDCF128-0CB6-47A7-8F27-A6FFD36CE467: Nectandra globosa Mez, Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 7665)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: Widespread through the tropics of America, from the West Indies, Mexico and Central America
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_747fv_distribution_2874
+            locator: "Flora of Panama distribution field; imported row 2874; sourceIds FF320ED1-0AE6-4AF9-A7E9-F6F252C7D79E; reference rows 3027; citations: FF320ED1-0AE6-4AF9-A7E9-F6F252C7D79E: Nectandra globosa Mez, Flora of Panama (WFO),Tropicos.org, 2012 Accessed February 2018. (reference row 3027)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stefania percristata
+  displayName: Stefania percristata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZN22
+  sourceIndexes:
+    - name:
+        en: Stefania percristata
+        zh: Stefania percristata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZN22
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/306
+            queryName: Stefania percristata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a978cbb6d7
+      - s-6251e4a739
+      - s-469378c88f
+      - s-64c6f3cd08
+      - s-83c1452f68
+      - s-23ff1808ce
+      - s-dc6dd0ec75
+    zh:
+      - s-790330adc5
+      - s-b767328a04
+      - s-2fb4ef5958
+      - s-35f08ba1dc
+      - s-ee6eb3b0aa
+      - s-985a02e3a9
+      - s-69f3ac4566

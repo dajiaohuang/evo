@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mertensophryne usambarae
+  displayName: Mertensophryne usambarae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3ZWXG
+  sourceIndexes:
+    - name:
+        en: Mertensophryne usambarae
+        zh: Mertensophryne usambarae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3ZWXG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/442
+            queryName: Mertensophryne usambarae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/459
+            queryName: Stephopaedes usambarae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-048cbf46ad
+      - s-537472ea73
+      - s-4d496e6dd9
+      - s-7c7a295fc5
+      - s-4aa8cf0fd1
+      - s-a41c4a47e2
+      - s-1945039e57
+      - s-bd7e4aa56d
+      - s-972f1cb74f
+    zh:
+      - s-9e8d1e304f
+      - s-4fd886a72d
+      - s-decae0d75d
+      - s-35266849c1
+      - s-598039ed9b
+      - s-b78f76c584
+      - s-cb593b49ef
+      - s-0785610131
+      - s-ab3e786f3f

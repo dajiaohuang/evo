@@ -1,0 +1,235 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phyllonastes naturetrekii (Reyes-Puig, Reyes-Puig, Ron, Ortega, Guayasamin, Goodrum, Recalde, Vieira, Koch et al., 2019)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phyllonastes naturetrekii
+      zh: Phyllonastes naturetrekii
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-aee88b6cda
+            part: title
+          zh:
+            page: zh
+            section: s-5e1eb4574a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aee88b6cda
+            part: body
+          zh:
+            page: zh
+            section: s-5e1eb4574a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b9e692b9c7
+            part: title
+          zh:
+            page: zh
+            section: s-bdca3c93aa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b9e692b9c7
+            part: body
+          zh:
+            page: zh
+            section: s-bdca3c93aa
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fc46538468
+            part: title
+          zh:
+            page: zh
+            section: s-693a457947
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-fc46538468
+            part: body
+          zh:
+            page: zh
+            section: s-693a457947
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-9abc269fa2387dbc39709d2b
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-17ce6e84b2
+            part: title
+          zh:
+            page: zh
+            section: s-00f97c2d55
+            part: title
+        sourceIds:
+          - primary-pmc11453160-v234s
+        text:
+          en:
+            page: en
+            section: s-17ce6e84b2
+            part: body
+          zh:
+            page: zh
+            section: s-00f97c2d55
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-6a3f05b888
+            part: body
+          zh:
+            page: zh
+            section: s-03e1fb5f38
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phyllonastes naturetrekii
+          url: https://www.checklistbank.org/dataset/316115/taxon/V234S
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3538, 3539; Reference.csv rows 1711
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc11453160-v234s
+        referenceId: ref-96df7750-1fd2-49f9-a661-99a52e08ae26
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phyllonastes naturetrekii: XML taxonomic sampling sec5, fieldwork sec6, osteology and molecular assay sec8, phylogenetic results sec11, systematic account sec12, skull sec13, all postcranial/natural-history/risk paragraphs sec14 and discussion/conclusions sec15–16; no independent supplemental raw measurements or sequences reanalysis; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7885828fe1
+        part: body
+      zh:
+        page: zh
+        section: s-3cd10a0f64
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.17939
+        referenceId: ref-96df7750-1fd2-49f9-a661-99a52e08ae26
+        sourceKey: primary-pmc11453160-v234s
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11453160/article.xml
+        sourceConcept: Noblella naturetrekii
+        evidenceRead: "Phyllonastes naturetrekii: XML taxonomic sampling sec5, fieldwork sec6, osteology and molecular assay sec8, phylogenetic results sec11, systematic account sec12, skull sec13, all postcranial/natural-history/risk paragraphs sec14 and discussion/conclusions sec15–16; no independent supplemental raw measurements or sequences reanalysis; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Original-concept characters in a later comparison
+              zh: 后续比较中的原始概念性状
+            referenceId: ref-96df7750-1fd2-49f9-a661-99a52e08ae26
+            sourceKey: primary-pmc11453160-v234s
+            locator: PMC11453160 XML sec5 paragraph 1; sec12 paragraph 10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e1a3e22c96
+                part: body
+              zh:
+                page: zh
+                section: s-abb95dcd78
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus soaresi
+  displayName: Physalaemus soaresi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VGGN
+  sourceIndexes:
+    - name:
+        en: Physalaemus soaresi
+        zh: Physalaemus soaresi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VGGN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/347
+            queryName: Physalaemus soaresi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-57ba786242
+      - s-2f600767dd
+      - s-60156156f5
+      - s-ad5c017b74
+      - s-3ce9572e90
+      - s-a79a197342
+      - s-5d581785fd
+      - s-94dd20be3a
+      - s-bbb1d2da91
+      - s-9ad552fa3e
+      - s-d9c14f359c
+    zh:
+      - s-5456b4b17a
+      - s-48434f14ec
+      - s-6dfe65e114
+      - s-b807cb5183
+      - s-7161beab2e
+      - s-9f48ec9736
+      - s-780b885bd3
+      - s-4338fa8a4c
+      - s-ac920f7269
+      - s-876f81f6c9
+      - s-8958984767

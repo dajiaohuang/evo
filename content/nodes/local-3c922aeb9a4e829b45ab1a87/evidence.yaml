@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius maoershanensis
+    name:
+      en: Hynobius maoershanensis
+      zh: Hynobius maoershanensis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hynobius maoershanensis in the morphology deposit
+          zh: 形态数据中的 Hynobius maoershanensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b1b3f39ee8
+            part: body
+          zh:
+            page: zh
+            section: s-934c2de0c0
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 160 and 161: measurement fields and sex codes"
+          zh: 第 160、161 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7781660219
+            part: body
+          zh:
+            page: zh
+            section: s-fee9451992
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 160, 161; Reference.csv rows 4134
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 160
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius maoershanensis
+          - F
+          - "145.5"
+          - "76"
+          - NA
+          - "39.8"
+          - "19.1"
+          - "16.5"
+          - "5.7"
+          - "3.8"
+          - NA
+          - NA
+          - NA
+          - "5.2"
+          - "68.2"
+          - "8.7"
+          - "8.9"
+          - NA
+          - NA
+          - "26.5"
+          - "28.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 161
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius maoershanensis
+          - M
+          - "159.3"
+          - "86.8"
+          - NA
+          - "45.8"
+          - "20.8"
+          - "16"
+          - "4.3"
+          - "4"
+          - NA
+          - NA
+          - NA
+          - "5.3"
+          - "72.5"
+          - "9"
+          - "10.8"
+          - NA
+          - NA
+          - "25.5"
+          - "28.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4134
+        values:
+          - Caudata
+          - Hynobius_maoershanensis
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006). Fauna Sinica, Amphibia, Urodela. Science Press, Beijing.
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - SL
+      - TL
+      - TW
+      - TH
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6MQLB
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

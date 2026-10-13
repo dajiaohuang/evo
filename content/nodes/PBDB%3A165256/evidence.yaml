@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Cyclotosauridae
+    rank: family
+    sourceTaxonId: txn:165256
+    name:
+      en: Cyclotosauridae
+      zh: Cyclotosauridae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-10ff9f7f64
+            part: body
+          zh:
+            page: zh
+            section: s-d283b0ea15
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-718ebdbd0b
+            part: body
+          zh:
+            page: zh
+            section: s-6fc8f76479
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-b358b28050
+            part: body
+          zh:
+            page: zh
+            section: s-3fe404bde9
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-94f90e5044
+            part: body
+          zh:
+            page: zh
+            section: s-308f6cc9b0
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:165256; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "R. R. Schoch. 2000. The status and osteology of two new cyclotosaurid amphibians from the Upper Moenkopi Formation of Arizona (Amphibia: Temnospondyli; Middle Triassic). Neues Jahrbuch für Geologie und Paläontologie Abhandlungen 216(3):387-411"
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:367485
+        - txn:358664
+        - txn:81760
+        - txn:57083
+        - txn:180131
+        - txn:57082
+        - txn:57081
+        - txn:57084
+        - txn:165258
+      exactOccurrenceCount: 19
+      datedOccurrenceCount: 19
+      collectionIntervalBoundsMa:
+        older: 247
+        younger: 201.4
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-94f90e5044
+            part: body
+          zh:
+            page: zh
+            section: s-308f6cc9b0
+            part: body
+        sourceIds: []

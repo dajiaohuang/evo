@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Indotyphlus battersbyi
+  displayName: Indotyphlus battersbyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PNWW
+  sourceIndexes:
+    - name:
+        en: Indotyphlus battersbyi
+        zh: Indotyphlus battersbyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PNWW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/489
+            queryName: Indotyphlus battersbyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8f91ab22be
+      - s-6e0df5500a
+      - s-eba2ab4861
+      - s-7a5ce95d67
+      - s-70705e53e7
+      - s-82f69183c3
+      - s-7e7e20d0f8
+      - s-a8d080a0dc
+      - s-5197b55f9d
+      - s-14a5acf272
+    zh:
+      - s-6ce5c801d2
+      - s-e2d180ccfd
+      - s-90149aab50
+      - s-b262de1906
+      - s-4702c31b0b
+      - s-70251278cd
+      - s-974282a0ff
+      - s-2cc8b72eac
+      - s-3a774eef4a
+      - s-f33c4112de

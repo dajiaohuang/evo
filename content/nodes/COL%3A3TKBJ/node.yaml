@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium boringii
+  displayName: Leptobrachium boringii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKBJ
+  sourceIndexes:
+    - name:
+        en: Leptobrachium boringii
+        zh: Leptobrachium boringii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKBJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/318
+            queryName: Leptobrachium boringii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/245
+            queryName: Vibrissaphora boringii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/13
+            queryName: Vibrissaphora boringiae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/14
+            queryName: Leptobrachium boringiae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e5b7d8a6f
+      - s-034d9d021c
+      - s-a3597eeed0
+      - s-4b3262a187
+      - s-2fcaad5b11
+      - s-98e87c17b2
+      - s-4edb1dd33a
+      - s-f12eb3fd80
+      - s-ffc68ec9f4
+      - s-c0829dc22a
+      - s-ab072d9f68
+      - s-5494cd7191
+    zh:
+      - s-b289a86dd4
+      - s-afbfd146e6
+      - s-232080bdbd
+      - s-e1b3d5d227
+      - s-cf79eeab41
+      - s-d09f14e7c8
+      - s-53e52e10c5
+      - s-414a6c344f
+      - s-1e0169ee80
+      - s-b8ab7900d5
+      - s-774352a2be
+      - s-ae640ca160

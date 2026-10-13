@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus salli
+  displayName: Dendropsophus salli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S74
+  sourceIndexes:
+    - name:
+        en: Dendropsophus salli
+        zh: Dendropsophus salli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S74
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/417
+            queryName: Dendropsophus salli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aeb1ccf62c
+      - s-18c421e7ae
+      - s-dedcc7747e
+      - s-e94b66f824
+      - s-a3620107a1
+      - s-5fa579fe17
+      - s-5272df6d8b
+      - s-4d04676076
+      - s-42d57e96a6
+      - s-2f71890c7d
+    zh:
+      - s-61582a87bf
+      - s-4491289be4
+      - s-20a957837c
+      - s-c786dd8772
+      - s-e407eca369
+      - s-d1d0e568e2
+      - s-23fd90cf3f
+      - s-7ac97bab5d
+      - s-ad342adc44
+      - s-2fe6be0505

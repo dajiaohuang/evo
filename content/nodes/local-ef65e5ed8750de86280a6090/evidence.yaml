@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Tylototriton liuyangensis
+    name:
+      en: Tylototriton liuyangensis
+      zh: Tylototriton liuyangensis
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Tylototriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e9f8e75e0c
+            part: body
+          zh:
+            page: zh
+            section: s-e541a050e3
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a5857b3a3e
+            part: body
+          zh:
+            page: zh
+            section: s-1cd00ce4d0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 383, 384; Reference.csv rows 4087
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 383
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton liuyangensis
+          - M
+          - "127.6"
+          - "69.4"
+          - NA
+          - "35.4"
+          - "16.5"
+          - "16.1"
+          - "8.6"
+          - "4"
+          - NA
+          - NA
+          - NA
+          - "5.9"
+          - "58.2"
+          - "7.8"
+          - "7.5"
+          - NA
+          - NA
+          - "19.9"
+          - "19.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 384
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton liuyangensis
+          - F
+          - "145.2"
+          - "84"
+          - NA
+          - "44.5"
+          - "19.5"
+          - "19.2"
+          - "9.6"
+          - "4.7"
+          - NA
+          - NA
+          - NA
+          - "6.6"
+          - "61.9"
+          - "9.6"
+          - "8.6"
+          - NA
+          - NA
+          - "22.8"
+          - "23.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4087
+        values:
+          - Caudata
+          - Tylototriton_liuyangensis
+          - "Yang, D. D., Jiang, J. P., Shen, Y. H., & Fei, D. B. (2014). A new species of the genus Tylototriton (Urodela: Salamandridae) from northeastern Hunan Province, China. Asian Herpetological Research, 5(1), 1-11. https://doi.org/10.3724/Sp.J.1245.2014.00001"
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - SL
+      - TL
+      - TW
+      - TH
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7DBLV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Telmatobius rubigo
+  displayName: Telmatobius rubigo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/558C8
+  sourceIndexes:
+    - name:
+        en: Telmatobius rubigo
+        zh: Telmatobius rubigo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 558C8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/471
+            queryName: Telmatobius rubigo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9773050fe0
+      - s-5f340fb2eb
+      - s-6fe53436a9
+      - s-f850bfbe91
+      - s-c95d9e3f20
+      - s-7f3dd0630f
+    zh:
+      - s-5e3a6ba3b8
+      - s-e429ef8efc
+      - s-a256fb2a57
+      - s-b865b8692c
+      - s-734207f752
+      - s-b63823c470

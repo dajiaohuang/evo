@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hessea tenuipedicellata Snijman
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3L68M, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3L68M; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3L68M
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3L68M
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000658408-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3L68M / WFO wfo-0000658408
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14528_0
+        referenceId: ref-7a6c70aa-af86-8893-a14a-3f36cc5a9892
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Hessea tenuipedicellata Snijman account; SANBI/WFO archive rows 32848 (Morphology), 38757 (Habitat), source identifier 14528.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_5666_0
+        referenceId: ref-eff39fbd-368c-80a0-a44c-509a065eb91e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Hessea tenuipedicellata Snijman account; SANBI/WFO archive rows 44924 (Diagnostic), source identifier 5666.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Bulbous geophyte, 180-200 mm tall. Leaves 2, dry at flowering, spreading, linear, smooth. Flowers somewhat stellate, glistening white, in a laxly spreading cluster, tepals occasionally with undulate edges, stamens shorter than tepals.
+            textZh: Hessea tenuipedicellata Snijman 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14528_0
+            locator: "SANBI/WFO archive Morphology row 32848; source identifier 14528.0; cited publication: Snijman, DA. 2013. Amaryllidaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 33 - 42. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Most species of Hessea have straight, rigid pedicels at anthesis, and flowers that vary from pink to white with dark pink to red markings. In contrast, H. tenuipedicellata is easily recognized by its long, slender, pliant, upwardly curved pedicels, and glistening white flowers that lack pink markings.Furthermore, the substellate flowers have channeled, narrow tepals, and each flower opens at one-to four-day intervals so that few reach anthesis simultaneously. The only other known Hessea species with similar slender green pedicels, a sequential flowering pattern, and channeled, narrow, whitish tepals is H. stenosiphon. The flowers in H. tenuipedicellata are substellate and short-tubed (1 mm long), with widely spreading filaments and a well-exserted style. In contrast, the hypocrateriform flowers of H. stenosiphon have a style hidden within a narrow, 8-12-mm-long perigone tube, and outer anthers that occlude the perigone throat.
+            textZh: SANBI 条目提供了 Hessea tenuipedicellata Snijman 的鉴别特征。
+            sourceIds:
+              - sanbi_5666_0
+            locator: "SANBI/WFO archive Diagnostic row 44924; source identifier 5666.0; cited publication: Snijman, DA. 1999. A new species, notes on subgeneric taxa, and new synonyms in Hessea (Amaryllidaceae: Amaryllideae) from South Africa. Novon 9(1): 107 - 110. [https://doi.org/10.2307/3392133]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Soil pockets on granite domes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Soil pockets on granite domes.
+            sourceIds:
+              - sanbi_14528_0
+            locator: "SANBI/WFO archive Habitat row 38757; source identifier 14528.0; cited publication: Snijman, DA. 2013. Amaryllidaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 33 - 42. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

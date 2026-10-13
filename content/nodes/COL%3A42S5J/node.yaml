@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microcaecilia marvaleewakeae
+  displayName: Microcaecilia marvaleewakeae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42S5J
+  sourceIndexes:
+    - name:
+        en: Microcaecilia marvaleewakeae
+        zh: Microcaecilia marvaleewakeae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42S5J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/480
+            queryName: Microcaecilia marvaleewakeae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e363d91524
+      - s-986af0b5ab
+      - s-464f19b6eb
+      - s-31abe1bdb0
+      - s-b514311288
+      - s-c0f56b90e8
+      - s-4c0c4f3ffb
+      - s-92c99257d1
+      - s-32b6210df3
+    zh:
+      - s-ae8ac55450
+      - s-1acaeb0f84
+      - s-1c1693072a
+      - s-b973c96903
+      - s-399c6e32a0
+      - s-e80ab48789
+      - s-339d90a54e
+      - s-4d0ffb9720
+      - s-2c79a263a6

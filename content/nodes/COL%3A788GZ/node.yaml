@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis baryecuus
+  displayName: Pristimantis baryecuus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/788GZ
+  sourceIndexes:
+    - name:
+        en: Pristimantis baryecuus
+        zh: Pristimantis baryecuus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 788GZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/139
+            queryName: Pristimantis baryecuus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/276
+            queryName: Eleutherodactylus baryecuus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e44b35548b
+      - s-43d619cb3d
+      - s-f46e3a7afd
+      - s-3b800ccc8d
+      - s-bd51849b57
+      - s-b7a78f0672
+      - s-fc6c41f45d
+      - s-b699e7b326
+    zh:
+      - s-e2c25c8466
+      - s-2933ec0109
+      - s-b96bc1c76e
+      - s-15717dc92d
+      - s-1447f19a90
+      - s-f942c2a5ad
+      - s-beee696e5f
+      - s-e3f6b65d86

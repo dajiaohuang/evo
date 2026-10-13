@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes chotta
+  displayName: Raorchestes chotta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RJ9R
+  sourceIndexes:
+    - name:
+        en: Raorchestes chotta
+        zh: Raorchestes chotta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RJ9R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/135
+            queryName: Raorchestes chotta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/380
+            queryName: Philautus chotta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/381
+            queryName: Pseudophilautus chotta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-27d536d3b5
+      - s-a7fccf0bca
+      - s-8bf1d4471a
+      - s-9b622bdd92
+      - s-eca4cd8f9d
+      - s-a58302d9da
+      - s-15f7fc4a91
+      - s-99343f81c9
+      - s-27e4a6703b
+    zh:
+      - s-0ae76e0afd
+      - s-a871b0a7d2
+      - s-7d10a26a22
+      - s-8ae86a0d51
+      - s-83a7b9ad64
+      - s-826f18b808
+      - s-da9e08253c
+      - s-3f96d13cf3
+      - s-a0499f6c6e

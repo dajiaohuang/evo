@@ -1,0 +1,205 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Panophrys frigida
+    name:
+      en: Panophrys frigida
+      zh: Panophrys frigida
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Panophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Panophrys frigida in the morphology deposit
+          zh: 形态数据中的 Panophrys frigida 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-61435bf447
+            part: body
+          zh:
+            page: zh
+            section: s-3273e9073c
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4005: measurement fields and sex codes"
+          zh: 第 4005 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0721a8b521
+            part: body
+          zh:
+            page: zh
+            section: s-1955f37526
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4005; Reference.csv rows 1044
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4005
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys frigida
+          - M
+          - "31.125"
+          - "11.225"
+          - "11.5"
+          - "3.625"
+          - "2.825"
+          - "1.775"
+          - "3.675"
+          - "3.425"
+          - "3.475"
+          - "2.2"
+          - "4.35"
+          - "1.9"
+          - "9"
+          - "7.375"
+          - NA
+          - "15.675"
+          - NA
+          - "16.95"
+          - "15.8"
+          - NA
+          - NA
+          - "2.425"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.325"
+          - "3.75"
+          - "5.9"
+          - "3.875"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1044
+        values:
+          - Anura
+          - Panophrys_frigida
+          - "Tapley, B., Cutajar, T., Nguyen, L. T., Portway, C., Mahony, S., Nguyen, C. T., . . . Rowley, J. J. L. (2020). A new potentially Endangered species of Megophrys (Amphibia: Megophryidae) from Mount Ky Quan San, north-west Vietnam. Journal of Natural History, 54(39-40), 2543-2575. https://doi.org/10.1080/00222933.2020.1856952"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

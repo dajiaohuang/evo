@@ -12,7 +12,7 @@ describe('undated imported reference leads', () => {
     }
   })
   it('retains an undated imported database locator without assigning a global version', () => {
-    expect(isRecordedUndatedLead({ ...lead, type: 'web-resource', sourceRole: 'taxonomic-database', authorsStatus: 'unresolved', fitnessFor: ['taxonomy', 'range'], metadataStatus: 'imported-without-bibliographic-enrichment', importedSourceMetadata: [{ title: 'Original database taxon page', url: 'https://example.org/taxon/1' }] })).toBe(true)
+    expect(isRecordedUndatedLead({ ...lead, type: 'web-resource', sourceRole: 'taxonomic-database', authorsStatus: 'unresolved', fitnessFor: ['taxonomy', 'range'], metadataStatus: 'imported-without-bibliographic-enrichment', metadataVariants: [{ title: 'Original database taxon page', url: 'https://example.org/taxon/1' }] })).toBe(true)
   })
   it('requires a DOI or an actual recorded HTTPS locator for a paper', () => {
     expect(hasRecordedPaperLocator({ doi: '10.1234/example' })).toBe(true)

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana wuchuanensis
+  displayName: Odorrana wuchuanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SH3
+  sourceIndexes:
+    - name:
+        en: Odorrana wuchuanensis
+        zh: Odorrana wuchuanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SH3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/55
+            queryName: Odorrana wuchuanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/217
+            queryName: Rana wuchuanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/367
+            queryName: Huia wuchuanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/280
+            queryName: Odorrana wuchanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d712da74aa
+      - s-dba01b0524
+      - s-b6e1445ffc
+      - s-3a28faf78b
+      - s-fbd6db77ca
+      - s-8248add8a0
+      - s-14ba8b3b9c
+      - s-f41b17c070
+      - s-0ee811ec78
+      - s-44a390cc6b
+      - s-c62af37385
+    zh:
+      - s-cf3e1f0b0d
+      - s-a34efa30e1
+      - s-df66ac5b05
+      - s-02a0c9e9fe
+      - s-70db6f8658
+      - s-6646592cb5
+      - s-fdbc839119
+      - s-b12f745eda
+      - s-6fb5588ec2
+      - s-f986669db1
+      - s-da8858a88b

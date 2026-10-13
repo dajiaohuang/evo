@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomus kandianus
+  displayName: Adenomus kandianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZN8
+  sourceIndexes:
+    - name:
+        en: Adenomus kandianus
+        zh: Adenomus kandianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZN8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/54
+            queryName: Adenomus kandianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/266
+            queryName: Adenomus dasi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/386
+            queryName: Bufo kandianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/387
+            queryName: Bufo dasi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-351125af19
+      - s-9efecd6117
+      - s-c6bf707931
+      - s-1233b8bfe9
+      - s-ea38205481
+      - s-c2b7863ff9
+      - s-efc25d78d8
+      - s-a934802680
+      - s-f28d6ba6af
+      - s-00a37904e9
+      - s-9b64fb69cd
+      - s-0c47f59bcc
+      - s-691fcd7b37
+      - s-d6be5a9fe3
+      - s-5ad8d018b8
+    zh:
+      - s-b5c6f34e3c
+      - s-ba15064b47
+      - s-b175bc73e7
+      - s-a8ee0e9e96
+      - s-0cacc0ba02
+      - s-9e82559018
+      - s-fd9a9b5dcf
+      - s-1cbfc548b5
+      - s-a5f94e9709
+      - s-aca64e0cce
+      - s-35bb39e105
+      - s-5ed481c21e
+      - s-d3f16dae2c
+      - s-0be5c9b304
+      - s-84c1894452

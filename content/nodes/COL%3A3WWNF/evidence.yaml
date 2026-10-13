@@ -1,0 +1,589 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Macaca fuscata (Blyth, 1875)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 日本猕猴
+      en: Japanese macaque
+    sections:
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-af858c33e1
+            part: body
+          en:
+            page: en
+            section: s-89d1d23a37
+            part: body
+        sourceIds:
+          - arnaud2016
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-bbc2493c9d
+            part: body
+          en:
+            page: en
+            section: s-850ec6d8cf
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1a2ea673f4
+            part: body
+          en:
+            page: en
+            section: s-1f489a1c87
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-7e3314934b
+            part: body
+          en:
+            page: en
+            section: s-535f0fe639
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1cdc59dab0
+            part: body
+          en:
+            page: en
+            section: s-f2557ef159
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-291aa53007
+            part: body
+          en:
+            page: en
+            section: s-154f7240c0
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-41fe18f4ad
+            part: body
+          en:
+            page: en
+            section: s-b21d18e569
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bf2c637867
+            part: body
+          en:
+            page: en
+            section: s-80558cf604
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-fa2e349559
+            part: body
+          en:
+            page: en
+            section: s-c89f1cf3c2
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-0e2a8abb2c
+            part: body
+          en:
+            page: en
+            section: s-dfbceaa749
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-2785a03744
+            part: body
+          en:
+            page: en
+            section: s-42b174e502
+            part: body
+    sources:
+      - id: arnaud2016
+        referenceId: ref-f6a997cd-0eb0-8993-a7e7-967050b7a687
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 日本 Koshima 岛 2013 年冬春开展的新奇物体与食物测试；条目只转述该群体在测试中的反应重复性。
+            en: Novel-object and food tests at Koshima Island, Japan, during winter and spring 2013; this account uses only response-repeatability results from that population.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/3WWNF
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12142; name Macaca fuscata; reference table row 12142; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Ricklefs, 2010b from median of 7(Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            female_maturity_d: mean of de Magalhaes and Costa, 2009 & Ricklefs, 2010b from median of 4(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            litter_or_clutch_size_n: mean of Ernest et al., 2003 & de Magalhaes and Costa, 2009 from median of 4(Garratt et al., 2014, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            gestation_d: Ricklefs, 2010b from median of 5(Garratt et al., 2014, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            weaning_d: de Magalhaes and Costa, 2009 from median of 5(Garratt et al., 2014, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            birth_or_hatching_weight_g: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 5(Garratt et al., 2014, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003)
+            maximum_longevity_y: Ricklefs, 2010b
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Ricklefs, 2010b
+            - Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000
+            - Garratt et al., 2014
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 704; Scientific=Macaca fuscata; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-7faad2fc83
+        part: body
+      en:
+        page: en
+        section: s-961a557400
+        part: body
+  catalogue-dossier:
+    scientificName: Macaca fuscata (Blyth, 1875)
+    authorship: (Blyth, 1875)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: COL26.8 accepted species usage 3WWNF. The cited behavioral study supports results for one habituated and provisioned field population, not a species-wide behavioral estimate.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The study describes a free-ranging population on Koshima Island, Japan, habituated to observers and provisioned.
+      domesticated: Domestication was not studied.
+      captive: The macaques were not a captive population; no captive animals were tested.
+      fossil: No fossil evidence or geological age was assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/3WWNF
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:3WWNF@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 3WWNF; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 3WWNF. https://doi.org/10.48580/dgywk
+      - id: arnaud2016
+        referenceId: ref-eea1322b-79e2-8ae8-a314-d02d4a1fb4b0
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - licenseVersion
+          - licenseUrl
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Rights and permissions section, lines 318–320.
+          licenseAppliesTo: Article text; separately credited third-party material is excluded. No figures or tables are reused.
+          stableId: doi:10.1007/s10329-016-0572-9
+          locator: Abstract; Methods, Study population and behavioral tests; Results, Tables 2 and 4 and accompanying text.
+          attribution: Arnaud C.M., Suzumura T., Inoue E., Adams M.J. et al. (2017). Primates 58:103–113. https://doi.org/10.1007/s10329-016-0572-9. CC BY 4.0. Claims paraphrased; no figures or tables reused.
+          accessedAt: 2026-09-25
+          licenseAssessment: item-level-verified
+          scope: One primary source supports a bounded claim only; article text is paraphrased and no figures or tables are reused.
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for morphology.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for lifeHistory.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: For the Koshima population tested in winter and spring 2013, the novel-object caution component had modest but non-significant repeatability, while the novel-food consummatory and caution components had moderate, significant repeatability. These results describe the tested population and protocol, not a species-wide behavioral estimate.
+            locator: Abstract; Methods, Study population and behavioral-test descriptions; Results, Tables 2 and 4 and accompanying text.
+            placeTimeScope: Koshima Island, southern Japan (31°N, 131°E); 70 macaques were tested during winter and spring 2013. Test participation differed by protocol; the study population was habituated and provisioned.
+            lifeStatus: Free-ranging wild macaques from a habituated and provisioned island population; no captive animals were tested.
+            sourceIds:
+              - arnaud2016
+            originalLanguage: en
+        gaps:
+          - One habituated and provisioned population and a defined behavioral protocol do not establish species-wide behavior or environmental interactions across populations.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for evolution.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for distribution.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for fossil.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This focused source review did not establish evidence for conservation.
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4DT
+        scientificName: Haplorrhini Pocock, 1918
+        authorship: Pocock, 1918
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4PM
+        scientificName: Simiiformes Haeckel, 1866
+        authorship: Haeckel, 1866
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4X9
+        scientificName: Cercopithecoidea Gray, 1821
+        authorship: Gray, 1821
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 7X9
+        scientificName: Cercopithecidae Gray, 1821
+        authorship: Gray, 1821
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: JB3
+        scientificName: Cercopithecinae Gray, 1821
+        authorship: Gray, 1821
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: L4C
+        scientificName: Papionini
+        authorship: null
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 5HYC
+        scientificName: Macaca Lacépède, 1799
+        authorship: Lacépède, 1799
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3WWNF
+        scientificName: Macaca fuscata (Blyth, 1875)
+        authorship: (Blyth, 1875)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"

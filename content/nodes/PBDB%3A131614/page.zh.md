@@ -1,0 +1,18 @@
+## 这个名称对应哪些化石记录 {#s-8ff5ae0a90}
+固定 PBDB 名录将 Eudimorphodon ranzii 记为 Eudimorphodon 下的接受用名。本页选取 3 条可用种级出现记录，涉及 3 个采集地和 3 个引文编号；三者分别统计出现、地点和引文，并非标本或个体数量。
+
+## 从具名采集地和地层开始 {#s-4d229edec9}
+本页所选出现记录涉及 3 个采集地，应分开阅读各地记录：采集记录 Ponte Giurino, Valle Imagna (MSNB collection)（Lombardia），地区代码 IT，地层名称 Argilliti di Riva di Solto；数据库年代范围 211.18–205.7 Ma，早端地质时段 Sevatian。采集记录 Cene, Seriana Valley（Lombardia），地区代码 IT，地层名称 Zorzino Limestone；数据库年代范围 215.38–211.18 Ma，早端地质时段 Alaunian。采集记录 Endenna cave（Lombardia），地区代码 IT，地层名称 Zorzino Limestone；数据库年代范围 215.38–211.18 Ma，早端地质时段 Alaunian。 每个地点和地层都有各自的来源背景；合并列表不是连续分布图，没有记录的地方也不等于没有本种。
+
+## 这些记录的年代边界 {#s-bcc2a50dcf}
+这些记录合并后的年代外界为 215.38–205.7 Ma。它把最早端的早界与最晚端的晚界并列起来，不表示连续存在，也不是物种实际起源、灭绝或个体寿命的日期。每个采集地仍保留各自的宽年代范围；这里不缩窄或改写来源测年。
+
+## 保存环境与生活环境分开阅读 {#s-a13309d62c}
+Ponte Giurino, Valle Imagna (MSNB collection) 的采集环境标签为 潟湖或受限浅潮下沉积环境（lagoonal/restricted shallow subtidal）；集合保存方式标签为 实体化石、压印保存、软组织（body,adpression,soft parts）。Cene, Seriana Valley 的采集环境标签为 盆地沉积环境，碳酸盐类（basinal (carbonate)）；集合保存方式标签为 实体化石、压印保存（body,adpression）。Endenna cave 的采集环境标签为 shallow subtidal indet.；集合保存方式标签为 实体化石、压印保存、软组织（body,adpression,soft parts）。 这些是采集层级的沉积与保存标签，用来描述化石背景；它们不能决定动物生前的食性或栖地，也不表示每件标本都保存了所列特征。来源空缺字段继续留空。
+
+## 沿采集记录追到文献 {#s-d797a43f87}
+Ponte Giurino, Valle Imagna (MSNB collection) 的数据库引文署名为 Wild（1994），编号 ref:32007。Cene, Seriana Valley 的数据库引文署名为 Zambelli（1973），编号 ref:32008。Endenna cave 的数据库引文署名为 Renesto（1993），编号 ref:32011。 这些是数据库里的简略来源署名，不是完整作者表，也不能证明每条引文都是最初描述。采集编号和完整来源行仍保存在来源档案中；本页没有重新逐篇复核论文或标本。
+
+## 资料边界 {#s-4d3815e7e4}
+本页是截至 2026-10-02 的 PBDB 出现记录导读，不是物种专论。条目来自固定的 276 项翼龙工作名录，保留当前一致的名称、通向 Pterosauria 存储锚点的完整父级路径，并只纳入没有疑问鉴定限定词的可用种级记录。数据库将旧名称组合连到接受名，并不能裁定标本身份、解决所有分类争议，也不会把同名 COL 概念合并进来。地点、地层、年代范围、沉积环境和采集层级的保存方式是不同信息；它们不能确定完整分布、实际起源或灭绝时间、生态、数量，或每件标本的保存状况。本页未综合原始描述与后续修订。
+

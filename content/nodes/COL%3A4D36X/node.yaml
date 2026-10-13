@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paramesotriton deloustali
+  displayName: Paramesotriton deloustali
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4D36X
+  sourceIndexes:
+    - name:
+        en: Paramesotriton deloustali
+        zh: Paramesotriton deloustali
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4D36X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/411
+            queryName: Paramesotriton deloustali
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/27
+            queryName: Mesotriton deloustali
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/28
+            queryName: Pachytriton deloustali
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-47c5f53e20
+      - s-9f8ba18cef
+      - s-7736b3b58a
+      - s-c1019c312c
+      - s-283dd1fb25
+      - s-e0abe99c50
+      - s-45d9ffdd36
+    zh:
+      - s-d306d353fe
+      - s-a59d208db9
+      - s-d5ac67d4ae
+      - s-db48a96c6f
+      - s-04018ced6c
+      - s-55b7ce085a
+      - s-97eb37b7fd

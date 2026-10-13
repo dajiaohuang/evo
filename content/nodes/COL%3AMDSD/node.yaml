@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa stuarti
+  displayName: Bolitoglossa stuarti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDSD
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa stuarti
+        zh: Bolitoglossa stuarti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDSD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/199
+            queryName: Bolitoglossa stuarti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a006832651
+      - s-69d793c746
+      - s-8aab07dd7b
+      - s-c83ecea187
+      - s-1b5fb41524
+      - s-e360f117f3
+      - s-269ae431b5
+      - s-9f85bfe9e9
+      - s-ed9a8a8a56
+      - s-d8a2cccd87
+      - s-b8c013f6fb
+      - s-6be82be8b3
+      - s-ec0c84fa5f
+      - s-9401256271
+      - s-e75c04fcbe
+      - s-b8616210ae
+    zh:
+      - s-28dbe14eb8
+      - s-1329d647ec
+      - s-961bb22783
+      - s-7241acf220
+      - s-7908c174b8
+      - s-23573563cc
+      - s-dba8a08293
+      - s-6b0c43d6ae
+      - s-55a9875eb5
+      - s-5b2e967d4a
+      - s-6fca42dcec
+      - s-92b445b667
+      - s-6503cfbb02
+      - s-e44f0ac91a
+      - s-42ca7e6bb8
+      - s-2b55e1830d

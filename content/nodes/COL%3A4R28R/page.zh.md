@@ -1,0 +1,50 @@
+## 接受名称与分类位置 {#s-9206f4fea7}
+COL26.8 接受 Quasipaa spinosa (David, 1875) 为无尾目 Anura、叉舌蛙科 Dicroglossidae、Quasipaa 属中的一个种。这是 2026 年 8 月 20 日版本所记的分类。
+
+## 阅读路线 {#s-97f78a12e0}
+下文的来源包括历史性状汇编、一项热耐受估计和一项防御素序列比较。每项研究只回答有限问题；这些材料不能构成本种完整的生态或种群变异描述。
+
+## AmphiBIO 记录的觅食类别 {#s-6e3bc24945}
+AmphiBIO 按其 Frost 2011 分类记录 Quasipaa spinosa；该历史概念是否对应本页采用的物种概念尚未确定。记录同时标有陆栖和水栖觅食类别，但没有说明季节或发育阶段变化。后续 TetrapodTraits 修订报告称，早期汇编中的部分两栖动物微栖地记录曾被更正；现有证据未说明本行是否受影响。因此，这些标签应理解为历史来源类别，而非本种行为的已核定描述。
+
+## AmphiBIO 记录的活动时段 {#s-21bdf46403}
+同一 Frost 2011 历史来源概念下，AmphiBIO 将 Quasipaa spinosa 标记为白天和夜间都有活动。该概念是否对应本页采用的物种概念尚未确定；这些类别也不是跨昼夜或全年连续记录的行为序列。
+
+## AmphiBIO 记录的成体测量值 {#s-13b1978dcc}
+按 AmphiBIO 的 Frost 2011 历史概念，Quasipaa spinosa 的成体最大体重为 161 g，最大体长为 101 mm；该概念是否对应本页采用的物种概念尚未确定。蛙类体长按吻肛长测量，即从吻端到泄殖孔。这些是汇编最大值，并非每个个体都应达到的数值。后续 TetrapodTraits 修订报告指出早期汇编中的部分体重记录曾被更正，但现有证据未说明本行是否受影响；因此这些数值仍是历史来源记录，而非针对当前物种概念核实的测量。
+
+## AmphiBIO 记录的繁殖测量值 {#s-d5885b20e8}
+在 Frost 2011 的历史概念下，AmphiBIO 为 Quasipaa spinosa 汇编了每窝 76–600 个后代或卵、每年最多一次繁殖事件，以及 3.2–4.3 mm 的后代或卵尺寸。该概念是否对应本页采用的物种概念尚未确定。这些是文献中的极值汇总；本行未注明每个数值对应的性别、种群、日期或野生与圈养条件，尺寸字段也可能指后代或卵。
+
+## AmphiBIO 记录的幼体阶段 {#s-fe74a63093}
+AmphiBIO 的 Frost 2011 记录为 Quasipaa spinosa 标记了幼体阶段；该历史记录是否对应本页采用的物种概念尚未确定。此标签本身不能说明亲代照料、繁殖地点或季节时序。
+
+## 相关来源记录与数据集 {#s-dcc78e1479}
+这些链接通向数个两栖动物性状数据集中以相同或历史相关名称记录的条目，可用于比较各来源实际记录了什么；但不能据此认定来源采用相同物种概念，或其中所有性状都适用于此目录条目。
+
+- [AmphiBIO v1: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.zh.md)
+- [TadpoleTraits v4: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.zh.md)
+- [Amphibian morphology v3: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.zh.md)
+- [AmphiTherm curated snapshot: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.zh.md)
+
+## TadpoleTraits 中的发育阶段 {#s-23c7b1d591}
+TadpoleTraits 在 Quasipaa spinosa 这一存档来源概念下有 1 条文献数据行、没有图像数据行；它是否对应本页采用的物种概念尚未确定。来源给出的发育阶段范围为 34–38。这是数据集标签，不是蝌蚪数量或覆盖整个物种的发育序列。
+
+## 两栖动物形态数据集中的性别记录 {#s-30d02f6c09}
+两栖动物形态数据集为 Quasipaa spinosa 保留 2 行，其中 12 个性状列有值。性别代码区分雌性 F 与雄性 M；J 表示幼体材料，NA 表示来源未指定类别。这些是汇编行数，不是去重标本数。不同性别、发育阶段或文献的测量不应合并成一个鉴别尺寸；空白单元格也不能证明某结构缺失。
+
+## AmphiTherm 的一项临界最高温度估计 {#s-5f20035220}
+AmphiTherm 在来源第 4284 行（ID 4757，Zhang_and_Liu_2010）为成体记录 42.1 °C 的 CTmax（临界最高温度）；本次测量以青蛙失去翻正能力为终点。记录的实验前驯化温度为 19 °C，升温或降温速率为每分钟 0.5 °C。来源 n_trait 字段为 8；重复批次不是合并后的种群数量。测试温度介质记为 body，性别为 mixed，动物来源为 wild；化学物质、激素、感染和病原体处理均标为 NA，即未报告而非证明未处理。存档标准差为 1.9 °C。此单项汇编实验估计不是全物种的耐热界限、环境温度范围或饲养建议；AmphiTherm 来源概念与当前目录概念也未被证实等同。
+
+## 防御素序列匹配不等于活性相同 {#s-5339238049}
+研究报告 australis MA-BD2 与 Quasipaa spinosa 的一种 β-防御素序列一致性为 64.15%，在所比较候选中最高。序列相似不代表抗菌活性相等或表达相同；论文没有新测 spinosa 肽的活性。防御素基因树支持较弱，也限制了演化解释；这一比较本身不能确立物种级姐妹关系。
+
+## catalogue-profile / limitations {#s-a988d14c46}
+历史性状与热耐受记录均有来源范围限制；防御素研究比较的是序列，并未测量 spinosa 肽的活性。这些材料不能证明种群整体的生态、耐热界限或变异。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-3b9d07ecde}
+研究报告 australis MA-BD2 与 Quasipaa spinosa 的一种 β-防御素序列一致性为 64.15%，在所比较候选中最高。序列相似不代表抗菌活性相等或表达相同；论文没有新测 spinosa 肽的活性。防御素基因树支持较弱，也限制了演化解释；这一比较本身不能确立物种级姐妹关系。
+
+## 材料与适用范围 {#s-a9ab76b8ee}
+现有来源报告了历史性状值、汇编测量、一项热耐受实验估计和一项序列比较，但不足以完整说明本种生态、种群范围的热耐受或保护状况。
+

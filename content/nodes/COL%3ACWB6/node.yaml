@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops nidorbellus
+  displayName: Amolops nidorbellus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CWB6
+  sourceIndexes:
+    - name:
+        en: Amolops nidorbellus
+        zh: Amolops nidorbellus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CWB6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/391
+            queryName: Amolops nidorbellus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-937b26723d
+      - s-a3b0b52660
+      - s-97d470d2a2
+      - s-8651d21b3e
+      - s-71fd419c41
+      - s-f7efd1c65e
+      - s-23fee09e79
+      - s-fc1660cbd1
+      - s-4b44774b32
+    zh:
+      - s-3b84c5ff96
+      - s-cb30fc698e
+      - s-be6ac23604
+      - s-5992f64ebb
+      - s-32e30d4275
+      - s-f41ab091df
+      - s-c62f0001bd
+      - s-f0e3b0158a
+      - s-60942497d9

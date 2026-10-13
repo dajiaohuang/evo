@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops medogensis
+  displayName: Amolops medogensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DZN
+  sourceIndexes:
+    - name:
+        en: Amolops medogensis
+        zh: Amolops medogensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DZN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/385
+            queryName: Amolops medogensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a987716bf
+      - s-ace0be9e2f
+      - s-b53375ea38
+      - s-2213189ae0
+      - s-48b28d6eee
+      - s-379e9cf644
+      - s-4cf5bdc6f8
+      - s-b93476063d
+      - s-8f6d6f5d2c
+      - s-7bae19657a
+      - s-4fe401b493
+      - s-0b619ea558
+      - s-14ca68db09
+    zh:
+      - s-8854e04e8e
+      - s-a3484b7697
+      - s-24b3d9ea5b
+      - s-edce27e0af
+      - s-a732a4a321
+      - s-7ae879d9bd
+      - s-827fb2ccf2
+      - s-115ed0fd37
+      - s-db676837a1
+      - s-80b3d30b67
+      - s-0ba75529b5
+      - s-f58d167dc6
+      - s-928e826b79

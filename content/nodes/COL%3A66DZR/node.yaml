@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops mengyangensis
+  displayName: Amolops mengyangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DZR
+  sourceIndexes:
+    - name:
+        en: Amolops mengyangensis
+        zh: Amolops mengyangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DZR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/387
+            queryName: Amolops mengyangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36e6af31f7
+      - s-282c010e94
+      - s-463c6b60fd
+      - s-c2f661fe2a
+      - s-3f569e0cac
+      - s-48d9cbdea9
+      - s-73f669cce6
+      - s-bb57e0a2be
+      - s-7886be5945
+      - s-b1c86b8353
+    zh:
+      - s-c5a992d088
+      - s-b9a9a9b268
+      - s-f830f7f88d
+      - s-882d24191c
+      - s-a257df4b95
+      - s-18aa04b7fe
+      - s-8e2d2e1ece
+      - s-39308dc0fe
+      - s-f2fc0726ee
+      - s-2ba4f740c5

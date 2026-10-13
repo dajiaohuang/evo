@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa oresbia
+  displayName: Bolitoglossa oresbia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WMWR
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa oresbia
+        zh: Bolitoglossa oresbia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WMWR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/169
+            queryName: Bolitoglossa oresbia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-990da190df
+      - s-017b404b7b
+      - s-b88c7a4651
+      - s-c62f812530
+      - s-556f7c091d
+      - s-673128422e
+      - s-8cfd942e75
+      - s-bb85ed5256
+      - s-1adb412bff
+    zh:
+      - s-96bdff1544
+      - s-e2cc112367
+      - s-25228652f6
+      - s-6f62c25e55
+      - s-5f66253c15
+      - s-6ff7266291
+      - s-ef082921f0
+      - s-a03eef5f37
+      - s-4d48e70d65

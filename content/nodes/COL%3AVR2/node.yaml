@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Andinobates
+  displayName: Andinobates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/VR2
+  sourceIndexes:
+    - name:
+        en: Andinobates
+        zh: Andinobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: VR2
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/156
+            queryName: Andinobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 45
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a518142ffe
+      - s-960121c0d4
+      - s-1709c1115c
+      - s-8342a99e93
+      - s-992f6f2144
+      - s-53d45075db
+      - s-1de8b48a46
+      - s-d38194dcdd
+      - s-f273afdff4
+      - s-4c00fed4ef
+      - s-b931f002f2
+      - s-64ae3fe40f
+      - s-01dc85ae12
+      - s-155de51ab2
+      - s-284b6d1fe4
+      - s-0892289ae5
+      - s-631c727248
+      - s-1ff1589eb3
+    zh:
+      - s-fc27f55be5
+      - s-6d7dcf8003
+      - s-59e27bd58c
+      - s-dc207a04b6
+      - s-b896d3b17d
+      - s-01b0aa2fcb
+      - s-ac3f396d64
+      - s-f80bb81fd4
+      - s-9ea30fe481
+      - s-de1cdcd16c
+      - s-d0f1a8a58e
+      - s-a169b3e79d
+      - s-2cd7f2573c
+      - s-d7e9d88115
+      - s-9a7d5f789d
+      - s-d56da4f624
+      - s-2f80747687
+      - s-f988877db8

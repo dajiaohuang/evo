@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton orculus
+  displayName: Chiropterotriton orculus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6LG
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton orculus
+        zh: Chiropterotriton orculus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6LG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/305
+            queryName: Chiropterotriton orculus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/206
+            queryName: Spelerpes orculus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b493f7d67d
+      - s-018170a1d1
+      - s-96dd9090e2
+      - s-60e900cfe7
+      - s-bcc22d7a19
+      - s-318d0c10a3
+      - s-9607c2363b
+      - s-cd7cc9f42e
+      - s-dee88f1bb5
+      - s-68dd4caffc
+      - s-bddcb9c1ca
+      - s-e9604f1779
+      - s-e40ef44748
+      - s-e1f2e97476
+    zh:
+      - s-9f21c83b95
+      - s-4ff469d2d6
+      - s-d1a8f2527d
+      - s-9ad1f86eeb
+      - s-caacc4a069
+      - s-b8060e731b
+      - s-a1cd2aa810
+      - s-aa6321cd07
+      - s-7849963035
+      - s-176909cb48
+      - s-60ed80680d
+      - s-5631bfc3d1
+      - s-7a132153d3
+      - s-7505f49b6e

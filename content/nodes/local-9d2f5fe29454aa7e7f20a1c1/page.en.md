@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Blommersia angolafa {#s-c4ae744d76}
+TadpoleTraits version 4 places Blommersia angolafa in Blommersia (Mantellidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Blommersia angolafa. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 5 literature rows and 0 image rows {#s-20e43749dd}
+TadpoleTraits version 4 links 5 literature rows and 0 image rows to Blommersia angolafa. Source row numbers — literature: 3130, 3131, 3132, 3133, 3134; image: none recorded. Populated measurement fields — literature: TL, BL, BMH, BMW, TaL, MTH, TMH, END.a, IOD.a, NS.a; image: none recorded. Literature row 3130: Stage 25; Literature row 3131: Stage 25; Literature row 3132: Stage 25; Literature row 3133: Stage 39; Literature row 3134: Stage 39. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

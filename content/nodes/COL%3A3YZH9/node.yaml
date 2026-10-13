@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Megastomatohyla mixe
+  displayName: Megastomatohyla mixe
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3YZH9
+  sourceIndexes:
+    - name:
+        en: Megastomatohyla mixe
+        zh: Megastomatohyla mixe
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3YZH9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/370
+            queryName: Megastomatohyla mixe
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/189
+            queryName: Hyla mixe
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d0e6b3a8a1
+      - s-f57a9bd8a0
+      - s-25f61ff072
+      - s-d0cb84b565
+      - s-c0d95a28bc
+      - s-d9f3449df3
+      - s-6b2bc8078e
+      - s-7c008c604d
+      - s-6ceaa4292e
+      - s-94d07cd2b3
+    zh:
+      - s-2bb5802f05
+      - s-345ae53a08
+      - s-9c011071bd
+      - s-e15dfa876a
+      - s-db29ef1bd0
+      - s-1b399e6123
+      - s-fb126ae0a2
+      - s-b1e2de524e
+      - s-9d51b598de
+      - s-accb3b5cda

@@ -1,0 +1,316 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Leptodactylus insularum
+    name:
+      en: Leptodactylus insularum
+      zh: Leptodactylus insularum
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-8c8af832e6
+            part: body
+          zh:
+            page: zh
+            section: s-9f61d984bd
+            part: body
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0d5de27077
+            part: body
+          zh:
+            page: zh
+            section: s-bfb1e2600e
+            part: body
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-a8a31b9b86
+            part: body
+          zh:
+            page: zh
+            section: s-dded8284a6
+            part: body
+      - topic: overview
+        title:
+          en: Unresolved source ratios
+          zh: 未解决的来源比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-2e4a3d94d4
+            part: body
+          zh:
+            page: zh
+            section: s-504efe7ed2
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 644; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Leptodactylidae
+      genus: Leptodactylus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 644
+        values:
+          - "Heyer, W. R., & De Sá, R. O. (2011). Variation, Systematics, and Relationships of the Leptodactylus BolivianusComplex (Amphibia: Anura: Leptodactylidae)."
+          - Measurement
+          - Hand-drawn picture
+          - Leptodactylus insularum
+          - Leptodactylidae
+          - Leptodactylus
+          - Leptodactylus insularum
+          - 36 (Judging based on the picture)
+          - 28.83
+          - 11.35
+          - 17.527
+          - 5.914
+          - 6.872
+          - 2.87
+          - 2.393
+          - 2.609
+          - null
+          - null
+          - null
+          - 0.39368713146284
+          - 0.6794311481961
+          - 0.25133541449879
+          - 0.23836281651579
+          - 0.9954988185917
+          - 0.8338154699965
+          - 0.949611995491
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 644
+        scientificName: Leptodactylus insularum
+        sourceField: TaL/TL
+        suppliedRatio: 0.6794311481961
+        originalNumerator: 17.527
+        originalTotalLength: 28.83
+        computedRatio: 0.6079431148109609
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 644
+        scientificName: Leptodactylus insularum
+        sourceField: BMH/TL
+        suppliedRatio: 0.25133541449879
+        originalNumerator: 5.914
+        originalTotalLength: 28.83
+        computedRatio: 0.2051335414498786
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 644
+        scientificName: Leptodactylus insularum
+        sourceField: TMH/TL
+        suppliedRatio: 0.9954988185917
+        originalNumerator: 2.87
+        originalTotalLength: 28.83
+        computedRatio: 0.09954908081859175
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 644
+        scientificName: Leptodactylus insularum
+        sourceField: DFH/TL
+        suppliedRatio: 0.8338154699965
+        originalNumerator: 2.393
+        originalTotalLength: 28.83
+        computedRatio: 0.08300381546999652
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 644
+        scientificName: Leptodactylus insularum
+        sourceField: VFH/TL
+        suppliedRatio: 0.949611995491
+        originalNumerator: 2.609
+        originalTotalLength: 28.83
+        computedRatio: 0.09049601109954909
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.39368713146284
+        row: 644
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.23836281651579
+        row: 644
+        stage: 36 (Judging based on the picture)
+        type: Measurement
+        imageType: Hand-drawn picture
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TN5C
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

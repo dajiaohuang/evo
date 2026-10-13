@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon ocmulgee
+  displayName: Plethodon ocmulgee
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W287
+  sourceIndexes:
+    - name:
+        en: Plethodon ocmulgee
+        zh: Plethodon ocmulgee
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W287
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/482
+            queryName: Plethodon ocmulgee
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/426
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, with Comments Regarding Confidence in Our Understanding
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5ae7c037db
+      - s-93093de460
+      - s-b870378373
+      - s-b737755874
+      - s-1fe6e4a3cb
+      - s-8d851f5f50
+      - s-89db8446c6
+      - s-ecbe5bfd35
+      - s-0c5c526b8d
+      - s-eeeb15f3ff
+      - s-41ed022ba5
+    zh:
+      - s-63c4af0cee
+      - s-4612d29de5
+      - s-1e90c0fb74
+      - s-eba98f5b32
+      - s-35f1058556
+      - s-142dcd4574
+      - s-f5fa73d37c
+      - s-99c18325ee
+      - s-926f37fee1
+      - s-01364e24dd
+      - s-1f6388e5b1

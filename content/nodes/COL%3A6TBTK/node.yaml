@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Osornophryne simpsoni
+  displayName: Osornophryne simpsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6TBTK
+  sourceIndexes:
+    - name:
+        en: Osornophryne simpsoni
+        zh: Osornophryne simpsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6TBTK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/332
+            queryName: Osornophryne simpsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 38
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-82fb417bf0
+      - s-61e01e0ec1
+      - s-7bb691bf11
+      - s-bed0367fba
+      - s-97765da1f1
+      - s-6a173bb983
+      - s-bd3c2c6e9f
+      - s-342b35cd1f
+      - s-b9d506b869
+      - s-1a483f2d34
+      - s-bdf0815d73
+      - s-f3c8be4960
+      - s-8495d055ea
+      - s-47d1cc51f0
+      - s-6aded92e9e
+    zh:
+      - s-33b3ca4279
+      - s-c2db190857
+      - s-35fa7ec28d
+      - s-d429171522
+      - s-972674d64d
+      - s-83b21a53ae
+      - s-cfc523f95b
+      - s-4cdd8b8bf0
+      - s-a1d4532675
+      - s-49304dfe79
+      - s-fe43f2e42f
+      - s-b1fbadf5b1
+      - s-e7289b5995
+      - s-49a2d8954e
+      - s-48b03db0d4

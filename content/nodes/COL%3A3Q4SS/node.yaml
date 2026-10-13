@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema vizottoi
+  displayName: Ischnocnema vizottoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4SS
+  sourceIndexes:
+    - name:
+        en: Ischnocnema vizottoi
+        zh: Ischnocnema vizottoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4SS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/45
+            queryName: Ischnocnema vizottoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3bc524f82f
+      - s-637c4de803
+      - s-67ec2a52ef
+      - s-cc557dc56d
+      - s-12e72e9935
+      - s-5fbaa98c6c
+      - s-e5c5a59959
+    zh:
+      - s-b6ebfeb846
+      - s-0c78cbd408
+      - s-9bf0ad0fb2
+      - s-b180a118bd
+      - s-ae0b5e9b79
+      - s-d52ee0b84d
+      - s-1bd453dbd5

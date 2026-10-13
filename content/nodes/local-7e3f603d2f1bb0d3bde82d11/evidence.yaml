@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Mantidactylus brevipalmatus
+    name:
+      en: Mantidactylus brevipalmatus
+      zh: Mantidactylus brevipalmatus
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Mantidactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-86d671a1e7
+            part: body
+          zh:
+            page: zh
+            section: s-04fd3f2d7a
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3cb2ee3191
+            part: body
+          zh:
+            page: zh
+            section: s-c7d679c79c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3010, 3011; Reference.csv rows 729
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3010
+        values:
+          - Mantellidae
+          - Mantidactylus
+          - Mantidactylus brevipalmatus
+          - M
+          - "33.1"
+          - "13"
+          - "10.8"
+          - "3.8"
+          - "4.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - NA
+          - "2.4"
+          - "10"
+          - NA
+          - "20.4"
+          - "22.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "66"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3011
+        values:
+          - Mantellidae
+          - Mantidactylus
+          - Mantidactylus brevipalmatus
+          - F
+          - "41.6"
+          - "15.6"
+          - "13.2"
+          - "4.5"
+          - "3.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.4"
+          - NA
+          - "2.9"
+          - "11.9"
+          - NA
+          - "25"
+          - "27"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "80.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 729
+        values:
+          - Anura
+          - Mantidactylus_brevipalmatus
+          - "Vences, M., & Glaw, F. (2004). Revision of the subgenus Chonomantis(Anura: Mantellidae:Mantidactylus) from Madagascar, with description of two new species. Journal of Natural History, 38(1), 77-118. https://doi.org/10.1080/0022293021000010331"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3XWD5
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

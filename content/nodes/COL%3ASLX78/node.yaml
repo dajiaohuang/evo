@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes kakkayamensis
+  displayName: Raorchestes kakkayamensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SLX78
+  sourceIndexes:
+    - name:
+        en: Raorchestes kakkayamensis
+        zh: Raorchestes kakkayamensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SLX78
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/163
+            queryName: Raorchestes kakkayamensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-10e0e3ba49
+      - s-3ed6449f28
+      - s-22571b20b0
+      - s-3c64a4e11b
+      - s-aaa812e631
+      - s-ffe87b2fdd
+      - s-99c9c4404b
+      - s-b93c83c915
+      - s-3b97089a93
+      - s-eb3362fbd5
+      - s-68aab58585
+    zh:
+      - s-f60402d4e1
+      - s-a4f0a69fc4
+      - s-59b6fb5fe7
+      - s-e682d322b9
+      - s-ca139a54f9
+      - s-9a34c428f2
+      - s-210ba03ec8
+      - s-525f88f04c
+      - s-d63ef3bd9f
+      - s-0050a88876
+      - s-954883d1c7

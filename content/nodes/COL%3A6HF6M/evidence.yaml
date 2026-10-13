@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eurycea nerea (Bishop, 1944)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Eurycea nerea
+      zh: Eurycea nerea
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-702c6f9eaf
+            part: title
+          zh:
+            page: zh
+            section: s-a4b66cd7ec
+            part: title
+        text:
+          en:
+            page: en
+            section: s-702c6f9eaf
+            part: body
+          zh:
+            page: zh
+            section: s-a4b66cd7ec
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fecf6673e8
+            part: title
+          zh:
+            page: zh
+            section: s-0e27b873ab
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fecf6673e8
+            part: body
+          zh:
+            page: zh
+            section: s-0e27b873ab
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8dd24fc708
+            part: title
+          zh:
+            page: zh
+            section: s-5d904b7e1f
+            part: title
+        sourceIds:
+          - primary-pmc10658874-6hf6m
+        text:
+          en:
+            page: en
+            section: s-8dd24fc708
+            part: body
+          zh:
+            page: zh
+            section: s-5d904b7e1f
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-41076498a7
+            part: title
+          zh:
+            page: zh
+            section: s-82ae318cb7
+            part: title
+        sourceIds:
+          - primary-pmc10658874-6hf6m
+        text:
+          en:
+            page: en
+            section: s-41076498a7
+            part: body
+          zh:
+            page: zh
+            section: s-82ae318cb7
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-ffc2f83f75
+            part: title
+          zh:
+            page: zh
+            section: s-ea752116e7
+            part: title
+        sourceIds:
+          - primary-pmc10658874-6hf6m
+        text:
+          en:
+            page: en
+            section: s-ffc2f83f75
+            part: body
+          zh:
+            page: zh
+            section: s-ea752116e7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Eurycea nerea
+          url: https://www.checklistbank.org/dataset/316115/taxon/6HF6M
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10658874-6hf6m
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Eurycea nerea: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6e91d9b6ea
+        part: body
+      zh:
+        page: zh
+        section: s-ca357a58e6
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1645/23-6
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        sourceKey: primary-pmc10658874-6hf6m
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10658874/article.xml
+        sourceConcept: Historical compiled hostlabel Eurycea nerea; exact pinned-name link only, not originalvoucher/currentconcept authentication
+        evidenceRead: "Eurycea nerea: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Original bilingual factual summaries of a compiled literature checklist; no source prose, tables, identification key or illustrations reproduced, adapted or translated.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Adult tapeworm associations in a historical North American checklist
+              zh: 北美历史清单中的成体绦虫关联
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-6hf6m
+            locator: PMC10658874 XML s3j direct-child rows163,164; s3a direct-child row10 namedEurycea nerea
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3e73db9f51
+                part: body
+              zh:
+                page: zh
+                section: s-0bb6971a48
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Reported parasite localities retain their historical scope
+              zh: 寄生记录地点保留历史范围
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-6hf6m
+            locator: PMC10658874 XML s3j direct-child rows163,164; s3a direct-child row10 namedEurycea nerea
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0a43b775e3
+                part: body
+              zh:
+                page: zh
+                section: s-091f8a56de
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: How to interpret the compiled parasite evidence
+              zh: 如何理解汇编的寄生证据
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-6hf6m
+            locator: PMC10658874 XML s2 methods; s3a introduction; s3j introduction/Amphibia hostlabels; s5 source totals
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c2f1907bcd
+                part: body
+              zh:
+                page: zh
+                section: s-71e56fd112
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

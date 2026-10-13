@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Breviceps mossambicus
+  displayName: Breviceps mossambicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X3H9
+  sourceIndexes:
+    - name:
+        en: Breviceps mossambicus
+        zh: Breviceps mossambicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X3H9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/464
+            queryName: Breviceps mossambicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/148
+            queryName: Engystoma granosum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/149
+            queryName: Bufo granosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/150
+            queryName: Systoma granosum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/151
+            queryName: Breviceps mitchelli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/331
+            queryName: Breviceps mossambicus mossambicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-adb0a760ae
+      - s-374b315e5b
+      - s-36a817621d
+      - s-651011dfa3
+      - s-551ee94d99
+      - s-5d34269151
+      - s-89cd90e4fb
+      - s-734a43e22f
+      - s-139dae691a
+      - s-08127c400a
+      - s-34d887e81c
+      - s-cd545d0774
+      - s-334205615c
+      - s-407f88cebb
+      - s-3789831bee
+      - s-c317fefb48
+    zh:
+      - s-cf810ccd6b
+      - s-2232b210ec
+      - s-c6f7bddbac
+      - s-eadc14900a
+      - s-8d775d9767
+      - s-e9acb96ac8
+      - s-789cd38348
+      - s-0c49246169
+      - s-f978f0ca4c
+      - s-ba2bc3c0a8
+      - s-d132e60e22
+      - s-760b1bfc86
+      - s-2d8e2acfb0
+      - s-e5f22b6102
+      - s-ece3400d49
+      - s-a5716bd48c

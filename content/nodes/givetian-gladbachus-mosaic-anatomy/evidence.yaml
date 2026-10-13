@@ -1,0 +1,86 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-3938a33aab
+      part: title
+    titleZh:
+      page: zh
+      section: s-f072ebb3d7
+      part: title
+    category: innovation
+    startAge: 385
+    endAge: 385
+    regions:
+      - Lower Plattenkalk, Unterthal, Bergisch Gladbach, Germany
+    clades:
+      - Gladbachus adentatus
+      - stem Chondrichthyes
+    summary:
+      page: en
+      section: s-3938a33aab
+      part: body
+    summaryZh:
+      page: zh
+      section: s-f072ebb3d7
+      part: body
+    claimIds:
+      - claim:event:givetian-gladbachus-mosaic-anatomy
+    evidenceItems:
+      - statement: UMZC 2000.32 preserves portions of the neurocranium, jaws, hyoid and gill arches, pectoral girdle, cartilage, scales and teeth in the Upper Givetian Lower Plattenkalk
+        relation: supports
+        claimIds:
+          - claim:event:givetian-gladbachus-mosaic-anatomy
+        referenceLinks:
+          - relation: supports
+            referenceId: coates-2018-gladbachus
+            pages: 2–7
+            figure: Figures 1–2; Supplementary Figure S1
+            quoteLocator: "Material and methods: Specimens; Results: specimen description"
+      - statement: The study's phylogenetic analysis recovers Gladbachus on the chondrichthyan stem despite its anatomically incongruent character combination
+        relation: supports
+        claimIds:
+          - claim:event:givetian-gladbachus-mosaic-anatomy
+        referenceLinks:
+          - relation: supports
+            referenceId: coates-2018-gladbachus
+            pages: 7–10
+            figure: Figures 3–4
+            quoteLocator: Phylogenetic results; Discussion; Conclusion
+    uncertaintyItems:
+      - statement: The caudal region is missing and the fossil is dorsoventrally compressed, so total body length and suspension-feeding ecology are reconstructions rather than direct observations
+        relation: contextualizes
+        claimIds:
+          - claim:event:givetian-gladbachus-mosaic-anatomy
+        referenceLinks:
+          - relation: supports
+            referenceId: coates-2018-gladbachus
+            pages: 2–9
+            figure: Supplementary Figure S1
+            quoteLocator: Specimen condition; anatomical reconstruction; Discussion of feeding
+      - statement: The event documents one stem chondrichthyan and cannot date the crown group, a shark-like body-plan origin or a global first appearance
+        relation: contextualizes
+        claimIds:
+          - claim:event:givetian-gladbachus-mosaic-anatomy
+        referenceLinks:
+          - relation: supports
+            referenceId: coates-2018-gladbachus
+            quoteLocator: Introduction and Conclusion
+  claims:
+    - subjectId: event:givetian-gladbachus-mosaic-anatomy
+      claimKind: scientific
+      claimType: morphology
+      statement: CT and histology of the single dorsoventrally compressed Gladbachus adentatus specimen UMZC 2000.32 from the Upper Givetian Lower Plattenkalk at approximately 385 Ma reveal a stem chondrichthyan with a mosaic neurocranium, jaws, branchial skeleton, cartilage, scales and teeth; the specimen documents disparity, not a crown-shark ancestor or body-plan FAD.
+      confidence: medium
+      confidenceRationale: The accessioned specimen, geological unit and preserved anatomical systems are directly documented and imaged. Medium confidence retains compression, the missing caudal region, reconstructed total length and feeding interpretation, and avoids treating one analysis-sensitive stem taxon as the crown condition.
+      referenceLinks:
+        - relation: supports
+          referenceId: coates-2018-gladbachus
+          pages: 1–10, especially Material section 2a and Results
+          figure: Figures 1–4; Supplementary Figure S1
+          quoteLocator: Specimens; anatomical results; phylogenetic results; Discussion and Conclusion
+  claim-rationales.zh:
+    - 一手研究直接记录并成像了标本编号、地层单元和保存的解剖系统。中等置信度保留压扁、尾区缺失、总长复原和摄食方式解释等限制，也避免把单个系统位置敏感的干群类群视为冠群状态。
+  claim-statements.zh:
+    - 对约 385 Ma 上吉维特期下板状灰岩中唯一背腹压扁的 Gladbachus adentatus 标本 UMZC 2000.32 进行 CT 与组织学研究，揭示了一种在脑颅、颌、鳃骨架、软骨、鳞片和牙齿上呈镶嵌组合的软骨鱼干群；该标本记录形态差异，而不是冠群鲨类祖先或体制首现。

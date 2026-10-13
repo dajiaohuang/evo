@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rana hanluica
+    name:
+      en: Rana hanluica
+      zh: Rana hanluica
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Rana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Rana hanluica in the morphology deposit
+          zh: 形态数据中的 Rana hanluica 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f91152db68
+            part: body
+          zh:
+            page: zh
+            section: s-8c5ade2f3e
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5172: measurement fields and sex codes"
+          zh: 第 5172 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-aa69b23b81
+            part: body
+          zh:
+            page: zh
+            section: s-2e99b57c28
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5172; Reference.csv rows 3993
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5172
+        values:
+          - Ranidae
+          - Rana
+          - Rana hanluica
+          - NA
+          - "58.97"
+          - "18.54"
+          - "18.62"
+          - "5.71"
+          - "4.83"
+          - NA
+          - "7.85"
+          - "4.25"
+          - "4.5"
+          - NA
+          - "9.5"
+          - NA
+          - NA
+          - "26.35"
+          - NA
+          - "33.06"
+          - NA
+          - "38.43"
+          - "36.51"
+          - NA
+          - NA
+          - NA
+          - "3.52"
+          - NA
+          - "10.8"
+          - "19.47"
+          - "12.08"
+          - NA
+          - "5.93"
+          - "8.94"
+          - "5.83"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3993
+        values:
+          - Anura
+          - Rana_hanluica
+          - "Shen, Y., Jiang, J., & Yang, D. (2007). A new species of the genus Rana-Rana hanluica sp. nov. from Hunan Province, China (Anura: Ranidae). Acta Zoologica Sinica, 53(3), 481-488."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Toe1L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4RDRY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus amieti
+  displayName: Xenopus amieti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBBL
+  sourceIndexes:
+    - name:
+        en: Xenopus amieti
+        zh: Xenopus amieti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBBL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/303
+            queryName: Xenopus amieti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 33
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ff8b976320
+      - s-57f47af7b3
+      - s-53157efc92
+      - s-795fcfcf2c
+      - s-0abb2b9443
+      - s-ee421c764e
+      - s-58716878e4
+      - s-f2f6aec0f4
+      - s-583d80298d
+      - s-667c358b8d
+      - s-1edfd85a24
+      - s-b398e79dd1
+      - s-b53e077481
+    zh:
+      - s-b9ab06a92c
+      - s-9d5f8cbcbd
+      - s-a3dd0e620b
+      - s-2d154610dd
+      - s-830cdb9589
+      - s-cfb2f54cbc
+      - s-7f8c234895
+      - s-28f04f8abb
+      - s-043bb80273
+      - s-781885347a
+      - s-5c9765fccc
+      - s-c3742e47a6
+      - s-22f031f19b

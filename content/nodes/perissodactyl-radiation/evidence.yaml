@@ -1,0 +1,87 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-dbcf21e371
+      part: title
+    titleZh:
+      page: zh
+      section: s-e951cfb9f7
+      part: title
+    category: radiation
+    startAge: 56
+    endAge: 45
+    regions:
+      - Asia
+      - Europe
+      - North America
+    clades:
+      - Perissodactyla
+      - Equoidea
+      - Ceratomorpha
+      - Brontotheriidae
+    summary:
+      page: en
+      section: s-dbcf21e371
+      part: body
+    summaryZh:
+      page: zh
+      section: s-e951cfb9f7
+      part: body
+    claimIds:
+      - claim:event:perissodactyl-radiation
+    evidenceItems:
+      - statement: Rapid early Eocene occurrence expansion
+        relation: supports
+        claimIds:
+          - claim:event:perissodactyl-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: pnas-2026-perissodactyls
+      - statement: Diverse dental and locomotor morphologies
+        relation: supports
+        claimIds:
+          - claim:event:perissodactyl-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: pnas-2026-perissodactyls
+      - statement: Intercontinental first appearances
+        relation: supports
+        claimIds:
+          - claim:event:perissodactyl-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: pnas-2026-perissodactyls
+    uncertaintyItems:
+      - statement: The precise ancestral group and relationships of early branches remain debated
+        relation: contextualizes
+        claimIds:
+          - claim:event:perissodactyl-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: pnas-2026-perissodactyls
+      - statement: First appearances reflect sampling as well as evolution
+        relation: contextualizes
+        claimIds:
+          - claim:event:perissodactyl-radiation
+        referenceLinks:
+          - relation: supports
+            referenceId: pnas-2026-perissodactyls
+  claims:
+    - subjectId: event:perissodactyl-radiation
+      claimKind: scientific
+      claimType: biogeography
+      statement: The earliest sampled perissodactyls occur during the PETM and imply rapid dispersal among northern landmasses, but sparse sampling and analysis-dependent stem placements leave the order’s place of origin unresolved.
+      confidence: medium
+      confidenceRationale: Tissier and Smith directly analyze 71 terminals, 102 characters and calibrated early occurrences. Medium confidence preserves their unresolved-origin conclusion and avoids turning sampled first records into origination dates.
+      referenceLinks:
+        - referenceId: pnas-2026-perissodactyls
+          relation: supports
+          pages: 1–6 of 8
+          figure: Figures 1 and 3; Dataset S2
+          quoteLocator: Abstract and Introduction (p. 1), stem placements (p. 4), occurrence calibration and unresolved origin (p. 6)
+  claim-rationales.zh:
+    - Tissier 与 Smith 直接分析了 71 个末端、102 个形态字符和校准后的早期记录。中等置信度保留了论文关于起源未决的结论，也避免把最早取样记录当作起源时间。
+  claim-statements.zh:
+    - 目前取样到的最早奇蹄类出现于古新世—始新世界线事件期间，提示它们在北方大陆间快速扩散；但取样稀疏且干群位置随分析而变，奇蹄目的起源地仍未解决。

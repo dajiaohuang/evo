@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis nyctophylax
+  displayName: Pristimantis nyctophylax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJV
+  sourceIndexes:
+    - name:
+        en: Pristimantis nyctophylax
+        zh: Pristimantis nyctophylax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/446
+            queryName: Pristimantis nyctophylax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/456
+            queryName: Eleutherodactylus nyctophylax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-20318512fe
+      - s-148feca4ae
+      - s-52503d548a
+      - s-5f9be95947
+      - s-9f7f32824d
+      - s-d356784936
+      - s-e18499cd25
+      - s-9c4e4012f0
+      - s-7106029bdc
+      - s-3f57833680
+      - s-f4f56ae922
+      - s-6d21578cea
+      - s-3cccaa0731
+      - s-4901b448d8
+      - s-ee0ff5b497
+    zh:
+      - s-4218d60ca4
+      - s-7ae29ac6c1
+      - s-5a54e0330d
+      - s-a3340b82e1
+      - s-0f56398462
+      - s-effe03438f
+      - s-f3e1b98380
+      - s-df7dfc16f9
+      - s-6b6eed6df1
+      - s-847bb7a46b
+      - s-70a7170482
+      - s-56b96857e9
+      - s-9c110b29f1
+      - s-b745957084
+      - s-639dad65e4

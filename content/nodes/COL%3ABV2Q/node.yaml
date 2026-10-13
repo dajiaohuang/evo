@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates trilineatus
+  displayName: Allobates trilineatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV2Q
+  sourceIndexes:
+    - name:
+        en: Allobates trilineatus
+        zh: Allobates trilineatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV2Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/177
+            queryName: Allobates trilineatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/157
+            queryName: Colostethus trilineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/23
+            queryName: Phyllobates trilineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1dfe68aa50
+      - s-ec51cc80af
+      - s-3bd84eaae0
+      - s-ce7b0bb440
+      - s-ecda0dd54e
+      - s-820fded478
+      - s-7a9050f08b
+      - s-7bf9f3b59b
+      - s-98a7bd5695
+      - s-d5236993af
+      - s-08290ba12e
+      - s-7f42c6e508
+      - s-70e3ab3dc9
+      - s-d2edb53739
+      - s-6e1b1ded11
+      - s-e30f3d5a84
+      - s-1ddab1867d
+      - s-ed3b80c456
+      - s-a2d871e6d1
+      - s-70dead3234
+      - s-bd140e3601
+      - s-9a00a6308f
+      - s-8fa4fb5683
+      - s-af1275ddee
+      - s-ca77f8e0cf
+      - s-e8d08d7fc5
+      - s-19e712c3c1
+      - s-f70e5d5c07
+      - s-1e51375df9
+    zh:
+      - s-413979b45c
+      - s-ef55b9b52a
+      - s-04986f47a1
+      - s-eb3ed52e87
+      - s-9791b8a2a8
+      - s-1190b497f7
+      - s-06e27282e9
+      - s-81374931f7
+      - s-e9c860d5d0
+      - s-c0e291f05a
+      - s-2f7665402c
+      - s-9d391a6cf0
+      - s-8fdae26102
+      - s-af3aa2678b
+      - s-88170be2e8
+      - s-962ec9ad7a
+      - s-6e55545145
+      - s-1decf8ab52
+      - s-50e2343a2c
+      - s-e8ee91e822
+      - s-5bcca459fd
+      - s-eb2b9ff83b
+      - s-b4c2fa47c6
+      - s-0d461e1e7f
+      - s-b3157208b2
+      - s-ac97a95f39
+      - s-63d91bb924
+      - s-a74bd294e3
+      - s-e099a32d45

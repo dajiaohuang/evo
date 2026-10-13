@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amietia nutti
+  displayName: Amietia nutti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66BVQ
+  sourceIndexes:
+    - name:
+        en: Amietia nutti
+        zh: Amietia nutti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66BVQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/300
+            queryName: Amietia nutti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/366
+            queryName: Amietia lubrica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/312
+            queryName: Rana nutti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/313
+            queryName: Rana aberdariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/314
+            queryName: Rana lubrica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/399
+            queryName: Rana fuscigula nutti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-684055d82a
+      - s-6b29da80cc
+      - s-7822b17731
+      - s-477b17669f
+      - s-45e432617f
+      - s-4687b9fcc3
+      - s-6b1f20e12d
+      - s-db735c0d1d
+      - s-086530fd29
+      - s-48545ee73b
+      - s-39d9e01c53
+      - s-34937ce6de
+      - s-f8a9e217dc
+      - s-94dceda72d
+    zh:
+      - s-41a7dc249d
+      - s-782cae07f8
+      - s-134b38d8b6
+      - s-198ab8e48e
+      - s-5e69903369
+      - s-882b05dfa1
+      - s-112656def9
+      - s-8e276c322c
+      - s-ff593a73d2
+      - s-e14a14da55
+      - s-cef68a26a2
+      - s-0029483a13
+      - s-5ad3597fc0
+      - s-e8e5f142b7

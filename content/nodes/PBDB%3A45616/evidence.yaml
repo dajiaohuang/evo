@@ -1,0 +1,176 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Adunator meizon
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Adunator meizon
+      en: Adunator meizon
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-61e94d94cc
+            part: body
+          en:
+            page: en
+            section: s-f713f1ce01
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b5a883252b
+            part: body
+          en:
+            page: en
+            section: s-494a46855b
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-95f9a71c0b
+            part: body
+          en:
+            page: en
+            section: s-8fdbf4ebc9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-73653007cc
+            part: body
+          en:
+            page: en
+            section: s-15a381565b
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9520fe3f9c
+            part: body
+          en:
+            page: en
+            section: s-0531c4e452
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Adunator meizon
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45616&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45616; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45616
+          selectedOccurrenceIds:
+            - occ:165568
+            - occ:165592
+            - occ:166198
+            - occ:166347
+          selectedCollectionIds:
+            - col:14934
+            - col:14936
+            - col:14995
+            - col:15017
+          sourceReferenceIds:
+            - ref:1534
+            - ref:1731
+            - ref:1536
+            - ref:1652
+          originalIdentificationMappings:
+            - occurrenceId: occ:165568
+              originalIdentifiedName: Diacocherus meizon
+              acceptedName: Adunator meizon
+              difference: recombined as
+            - occurrenceId: occ:165592
+              originalIdentifiedName: Diacocherus meizon
+              acceptedName: Adunator meizon
+              difference: recombined as
+            - occurrenceId: occ:166198
+              originalIdentifiedName: Diacocherus meizon
+              acceptedName: Adunator meizon
+              difference: recombined as
+            - occurrenceId: occ:166347
+              originalIdentifiedName: Diacocherus meizon n. sp.
+              acceptedName: Adunator meizon
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0f3759fd2e
+        part: body
+      en:
+        page: en
+        section: s-0ccc7a92e4
+        part: body

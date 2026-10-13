@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrophryniscus proboscideus
+  displayName: Dendrophryniscus proboscideus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34RLP
+  sourceIndexes:
+    - name:
+        en: Dendrophryniscus proboscideus
+        zh: Dendrophryniscus proboscideus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34RLP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/330
+            queryName: Dendrophryniscus proboscideus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/437
+            queryName: Atelopus proboscideus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/102
+            queryName: Rhamphophryne proboscidea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/17
+            queryName: Rhinella boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/147
+            queryName: Phryniscus proboscideus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6f159d826
+      - s-eb141773d9
+      - s-64cfba7f0a
+      - s-c33528eb6a
+      - s-cf1907fb92
+      - s-fa0a08e32a
+      - s-b193997b74
+      - s-1ce9beb961
+      - s-222206fa11
+      - s-717b651303
+    zh:
+      - s-5b3316df5f
+      - s-e1fed0aeb8
+      - s-4c96a64887
+      - s-b515753365
+      - s-e7c6489e38
+      - s-6379ad0dce
+      - s-533937a293
+      - s-109929f5ad
+      - s-57aab88dbd
+      - s-39a595ab69

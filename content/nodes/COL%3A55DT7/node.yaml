@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Teratohyla amelie
+  displayName: Teratohyla amelie
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/55DT7
+  sourceIndexes:
+    - name:
+        en: Teratohyla amelie
+        zh: Teratohyla amelie
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 55DT7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/499
+            queryName: Teratohyla amelie
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/31
+            queryName: Cochranella amelie
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-542b304618
+      - s-1a0dfd910d
+      - s-cfb4874dfb
+      - s-0191ab7354
+      - s-e5e551596d
+      - s-3c437354cd
+      - s-4345e822da
+    zh:
+      - s-aa427b5927
+      - s-c75b45d204
+      - s-ed7451e265
+      - s-f9ded5cb8b
+      - s-ec7fd78748
+      - s-59e0775ca8
+      - s-69d293cc59

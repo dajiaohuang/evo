@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microcebus ganzhorni Hotaling, Foley, Lawrence, Bocanegra, Blanco et al., 2016
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 甘茨霍恩鼠狐猴
+      en: Ganzhorn's Mouse Lemur
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-9f5be473b9
+            part: body
+          en:
+            page: en
+            section: s-7c701de8f8
+            part: body
+        sourceIds:
+          - hotaling2016
+      - topic: distribution_habitat
+        text:
+          zh:
+            page: zh
+            section: s-2e904ce597
+            part: body
+          en:
+            page: en
+            section: s-05a9af8722
+            part: body
+        sourceIds:
+          - hotaling2016
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-c23e2ecc9b
+            part: body
+          en:
+            page: en
+            section: s-f50364950d
+            part: body
+        sourceIds:
+          - hotaling2016
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-5edd908df0
+            part: body
+          en:
+            page: en
+            section: s-0562a6d854
+            part: body
+        sourceIds:
+          - hotaling2016
+          - mdd_taxonomy
+          - taxonomy
+    sources:
+      - id: hotaling2016
+        referenceId: ref-3a8cc2d2-35e1-88ff-abfb-b3d8087fb7e6
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持该来源报告的样点、样本、测量或分类结论；不作为现今全域分布或保育状态来源。
+            en: Supports the study sites, samples, measurements or taxonomic conclusions in the source; not a source for current full range or conservation status.
+      - id: mdd_taxonomy
+        referenceId: ref-c636ae67-79c4-8e4d-ac98-5086244bc30c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: MDD 当前灰鼠狐猴条目注明纳入甘茨霍恩鼠狐猴；COL26.8 仍接受独立 ID。
+            en: The current MDD gray mouse lemur entry includes ganzhorni; COL26.8 retains a separate accepted ID.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42SBL
+          scope:
+            zh: 固定版本中的接受名、作者、等级和父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent link; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-82f00bf6e8
+        part: body
+      en:
+        page: en
+        section: s-cf90b07b46
+        part: body

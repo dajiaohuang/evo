@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis infraguttatus
+  displayName: Pristimantis infraguttatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJFG
+  sourceIndexes:
+    - name:
+        en: Pristimantis infraguttatus
+        zh: Pristimantis infraguttatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJFG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/320
+            queryName: Pristimantis infraguttatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/386
+            queryName: Eleutherodactylus infraguttatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f21996c7b
+      - s-cb489fd59d
+      - s-00724b8dfb
+      - s-ec162f018e
+      - s-6536631eb0
+      - s-2cf8c236fd
+      - s-c6d3d4d8d4
+      - s-ac23c2f1fe
+    zh:
+      - s-26e57197c4
+      - s-9967ff98a9
+      - s-f384316236
+      - s-e1c4918370
+      - s-c1b172bc90
+      - s-783a6b1998
+      - s-cb59515050
+      - s-b7958125a2

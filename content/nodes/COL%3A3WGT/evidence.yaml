@@ -1,0 +1,414 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cryptobranchus Leuckart, 1821
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Cryptobranchus
+      zh: Cryptobranchus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-521065b764
+            part: title
+          zh:
+            page: zh
+            section: s-f1a05cf662
+            part: title
+        text:
+          en:
+            page: en
+            section: s-521065b764
+            part: body
+          zh:
+            page: zh
+            section: s-f1a05cf662
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2503cb2394
+            part: title
+          zh:
+            page: zh
+            section: s-a581b9e00f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2503cb2394
+            part: body
+          zh:
+            page: zh
+            section: s-a581b9e00f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-de627041ed
+            part: title
+          zh:
+            page: zh
+            section: s-ef43a4e56f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-de627041ed
+            part: body
+          zh:
+            page: zh
+            section: s-ef43a4e56f
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-2257dfbbac
+            part: title
+          zh:
+            page: zh
+            section: s-70cba6eb1a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2257dfbbac
+            part: body
+          zh:
+            page: zh
+            section: s-70cba6eb1a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-ccb3e1b1ac
+            part: title
+          zh:
+            page: zh
+            section: s-7ca9ed755a
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6BKKP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BKKP
+            label:
+              en: Cryptobranchus alleganiensis
+              zh: Cryptobranchus alleganiensis
+        text:
+          en:
+            page: en
+            section: s-ccb3e1b1ac
+            part: body
+          zh:
+            page: zh
+            section: s-7ca9ed755a
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-5f92bc441e
+            part: title
+          zh:
+            page: zh
+            section: s-cf43e25ff6
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-5f92bc441e
+            part: body
+          zh:
+            page: zh
+            section: s-cf43e25ff6
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10658874-3wgt
+        title:
+          en:
+            page: en
+            section: s-edb21caad4
+            part: title
+          zh:
+            page: zh
+            section: s-d0c68501fb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-edb21caad4
+            part: body
+          zh:
+            page: zh
+            section: s-d0c68501fb
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10658874-3wgt
+        title:
+          en:
+            page: en
+            section: s-2fa41bb4f4
+            part: title
+          zh:
+            page: zh
+            section: s-3354a49ba7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2fa41bb4f4
+            part: body
+          zh:
+            page: zh
+            section: s-3354a49ba7
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10658874-3wgt
+        title:
+          en:
+            page: en
+            section: s-c930277607
+            part: title
+          zh:
+            page: zh
+            section: s-6a6cc23331
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6BKKP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BKKP
+            label:
+              en: Cryptobranchus alleganiensis
+              zh: Cryptobranchus alleganiensis
+        text:
+          en:
+            page: en
+            section: s-c930277607
+            part: body
+          zh:
+            page: zh
+            section: s-6a6cc23331
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cryptobranchus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3WGT
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Cryptobranchus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Cryptobranchus; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-direct-group-pmc10658874-3wgt
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Cryptobranchus alleganiensis: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Historical adult parasite records for Cryptobranchus alleganiensis; no current voucherconcept equivalence certified
+            zh: Cryptobranchus alleganiensis 历史成体寄生虫记录；未认证当前凭证概念等价
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a3f64ebacf
+        part: body
+      zh:
+        page: zh
+        section: s-e8ef6b024a
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Cryptobranchus
+      sourceRowIds:
+        - Anf6014
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Cryptobranchus alleganiensis
+          path: content/nodes/local-a69a5925834b6c3e4cdbfda6
+      metrics:
+        - metric: CTmax
+          rows: 13
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true
+    primaryStudyScopes:
+      - doi: 10.1645/23-6
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        sourceKey: primary-direct-group-pmc10658874-3wgt
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10658874/article.xml
+        sourceConcept: Selected historical Cryptobranchus hostlabels exactfixedname links; notgenus-wide biologicalsynthesis
+        evidenceRead: "Cryptobranchus alleganiensis: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Original bilingual factual summaries of a compiled literature checklist; no source prose, tables, identification key or illustrations reproduced, adapted or translated.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Historical adult cestode records in selected genus members
+              zh: 部分属成员的历史成体绦虫记录
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-direct-group-pmc10658874-3wgt
+            locator: PMC10658874 XML s3j Cryptobranchus hostentries and s3a/s3c–s3i numberedparasite entries; s2 scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-51a57514f4
+                part: body
+              zh:
+                page: zh
+                section: s-4ab5729e9a
+                part: body
+            scope:
+              en: Historical adult parasite records for Cryptobranchus alleganiensis; no current voucherconcept equivalence certified
+              zh: Cryptobranchus alleganiensis 历史成体寄生虫记录；未认证当前凭证概念等价
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Historical host labels and reading scope
+              zh: 历史宿主标签与阅读范围
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-direct-group-pmc10658874-3wgt
+            locator: PMC10658874 XML s3j named/unresolved Cryptobranchus entries; s2/s3a methods and s5 conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-53f433211e
+                part: body
+              zh:
+                page: zh
+                section: s-82ed6d73e0
+                part: body
+            scope:
+              en: Historical adult parasite records for Cryptobranchus alleganiensis; no current voucherconcept equivalence certified
+              zh: Cryptobranchus alleganiensis 历史成体寄生虫记录；未认证当前凭证概念等价
+    primaryResearchGroupSynthesisComplete: false

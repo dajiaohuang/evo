@@ -1,0 +1,291 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Jingophrys yeae (Shi, Zhang, Xie, Jiang, Liu, Ding, Luan & Wang, 2020)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Jingophrys yeae
+      zh: Jingophrys yeae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b8ec51922d
+            part: title
+          zh:
+            page: zh
+            section: s-2c0d711278
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b8ec51922d
+            part: body
+          zh:
+            page: zh
+            section: s-2c0d711278
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6609ad9efc
+            part: title
+          zh:
+            page: zh
+            section: s-2086293fd6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6609ad9efc
+            part: body
+          zh:
+            page: zh
+            section: s-2086293fd6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1ced2b4e2e
+            part: title
+          zh:
+            page: zh
+            section: s-4c557f11be
+            part: title
+        sourceIds:
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1ced2b4e2e
+            part: body
+          zh:
+            page: zh
+            section: s-4c557f11be
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-2963a472547ad135ff3b7bab
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-604112feea
+            part: title
+          zh:
+            page: zh
+            section: s-f1a5a7797f
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-604112feea
+            part: body
+          zh:
+            page: zh
+            section: s-f1a5a7797f
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-4ea77f85d8
+            part: title
+          zh:
+            page: zh
+            section: s-b04348e4c3
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5gvp
+        text:
+          en:
+            page: en
+            section: s-4ea77f85d8
+            part: body
+          zh:
+            page: zh
+            section: s-b04348e4c3
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4bb4a82c6d
+            part: title
+          zh:
+            page: zh
+            section: s-70a8c41c00
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v5gvp
+        text:
+          en:
+            page: en
+            section: s-4bb4a82c6d
+            part: body
+          zh:
+            page: zh
+            section: s-70a8c41c00
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Jingophrys yeae
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5GVP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 5537, 5538, 5539, 5540, 5542, 5543, 5544, 5545, 5548; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: primary-pmc10083232-v5gvp
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Jingophrys yeae: Named species types, specimens examined, diagnosis and distribution; historical and current measurements retained separately; no source figures or tables reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c55711c0d6
+        part: body
+      zh:
+        page: zh
+        section: s-65132e6291
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-2963a472547ad135ff3b7bab
+        scientificName: Jingophrys yeae
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v5gvp
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Jingophrys yeae
+        evidenceRead: "Jingophrys yeae: Named species types, specimens examined, diagnosis and distribution; historical and current measurements retained separately; no source figures or tables reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Multiple Medog localities
+              zh: 墨脱的多个地点
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5gvp
+            locator: RESULTS > Jingophrys yeae; Holotype, Specimens examined and Distribution; reading-sections index 11, section s03.25
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4611162436
+                part: body
+              zh:
+                page: zh
+                section: s-d3529df5c3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: New and historical measurements remain distinct
+              zh: 新旧测量分别保留
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v5gvp
+            locator: RESULTS > Jingophrys yeae; Diagnosis characters 1, 4, 7, 9 and 11; reading-sections index 11, section s03.25
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0fd5d34816
+                part: body
+              zh:
+                page: zh
+                section: s-be563d5348
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

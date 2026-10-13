@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-3761a81f30}
+The version 3 Amphibian database lists Kalophrynus tiomanensis in a source measurement table. Its classification fields read order = Anura, family = Microhylidae, genus = Kalophrynus; the linked citation is in Reference.csv row 561. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-bd62262864}
+Anura.csv rows 2469, 2470 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 2469 (F) = 23.96666667, row 2470 (M) = 26.05; HL: row 2469 (F) = 7.8, row 2470 (M) = 8.15; HW: row 2469 (F) = 8.066666667, row 2470 (M) = 8.65; other populated codes are ED, TD, IOD, IND, UEW, EN, SL, FL, TL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

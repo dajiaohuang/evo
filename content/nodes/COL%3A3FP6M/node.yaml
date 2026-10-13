@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Geocrinia victoriana
+  displayName: Geocrinia victoriana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FP6M
+  sourceIndexes:
+    - name:
+        en: Geocrinia victoriana
+        zh: Geocrinia victoriana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FP6M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/103
+            queryName: Geocrinia victoriana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/131
+            queryName: Crinia victoriana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/132
+            queryName: Crinia froggatti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/114
+            queryName: Crinia laevis froggatti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1d9ba4129d
+      - s-b3e9c276f3
+      - s-2c0e5a06d0
+      - s-53cfbf27fe
+      - s-104aa9dc42
+      - s-0620eb785a
+      - s-d4988dd0a3
+      - s-54a4c7b6ac
+      - s-c56744945d
+      - s-6a439c5d0e
+      - s-48c5b42d4f
+    zh:
+      - s-6e93518fe0
+      - s-b54e316ad9
+      - s-6294755909
+      - s-3fdcc93078
+      - s-7a6f9f2f79
+      - s-71ad4a9f17
+      - s-94b79c9c32
+      - s-c43e1b536a
+      - s-faebf3ec92
+      - s-50c92eeff3
+      - s-e00086bcb0

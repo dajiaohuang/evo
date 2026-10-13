@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Incilius marmoreus
+  displayName: Incilius marmoreus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PLCV
+  sourceIndexes:
+    - name:
+        en: Incilius marmoreus
+        zh: Incilius marmoreus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PLCV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/459
+            queryName: Incilius marmoreus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/402
+            queryName: Bufo marmoreus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/361
+            queryName: Bufo argillaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/362
+            queryName: Bufo lateralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/363
+            queryName: Bufo eiteli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/364
+            queryName: Cranopsis marmorea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/365
+            queryName: Ollotis marmorea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-324b2d837d
+      - s-c253c8da87
+      - s-7454a6419f
+      - s-c19e557ce4
+      - s-b0fb117edc
+      - s-c40e468219
+      - s-555dde2c6d
+      - s-b0765bc7e6
+      - s-ecbe5af6b7
+      - s-5ee416bef6
+      - s-f7a929c14c
+      - s-e8af225042
+      - s-0e40db686f
+      - s-d8d1e90eab
+      - s-1381ef6b53
+      - s-5bc2b0e419
+      - s-a272356a5b
+      - s-f5ba8bede8
+      - s-6d9c3bccc7
+      - s-24a0194df2
+      - s-1a31971980
+      - s-f8ad7408b7
+    zh:
+      - s-a744d5453b
+      - s-7fef52d00a
+      - s-2f60e6e1e8
+      - s-f70a493dc6
+      - s-665fa5d768
+      - s-c2e9f9de5d
+      - s-df1e74fe8d
+      - s-05f94ffed7
+      - s-0b6935cae5
+      - s-dca4aea9f2
+      - s-5ffe8d51ac
+      - s-04c7ea4f0d
+      - s-0c57d801ac
+      - s-a45116eead
+      - s-48650287a9
+      - s-e5d57f391c
+      - s-df8cd0bd50
+      - s-5bea4cf970
+      - s-1f5f412c9f
+      - s-c9d576e388
+      - s-c6a9c58678
+      - s-a73c6d2718

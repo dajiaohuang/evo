@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus syristes
+  displayName: Eleutherodactylus syristes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399SD
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus syristes
+        zh: Eleutherodactylus syristes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399SD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/332
+            queryName: Eleutherodactylus syristes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/376
+            queryName: Tomodactylus syristes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/203
+            queryName: Syrrhophus syristes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d2c7aecfbb
+      - s-db50841f9a
+      - s-0f5ff3ff67
+      - s-43cd83bf03
+      - s-057ab48eaf
+      - s-99c991c58f
+      - s-e64fed157b
+      - s-2467d16584
+      - s-88ff7b593b
+      - s-b49b6e9c55
+    zh:
+      - s-149dd532d2
+      - s-e7c527b202
+      - s-fa11641c8d
+      - s-b2223dcd71
+      - s-bd5fd9bbbc
+      - s-547bc4d1d4
+      - s-da057aeedb
+      - s-49c4077b93
+      - s-90d083519e
+      - s-b0572ef25d

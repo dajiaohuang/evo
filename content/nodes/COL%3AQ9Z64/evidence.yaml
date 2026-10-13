@@ -1,0 +1,284 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella dushanensis S. Li, W. Li, Cheng, Liu, Wei & Wang, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella dushanensis
+      zh: Leptobrachella dushanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-58e7f81ee5
+            part: title
+          zh:
+            page: zh
+            section: s-3b7e52652c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-58e7f81ee5
+            part: body
+          zh:
+            page: zh
+            section: s-3b7e52652c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d8094af01a
+            part: title
+          zh:
+            page: zh
+            section: s-847954cecb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d8094af01a
+            part: body
+          zh:
+            page: zh
+            section: s-847954cecb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ef643525f4
+            part: title
+          zh:
+            page: zh
+            section: s-d66269dc9e
+            part: title
+        sourceIds:
+          - primary-pmc10793113-q9z64
+        text:
+          en:
+            page: en
+            section: s-ef643525f4
+            part: body
+          zh:
+            page: zh
+            section: s-d66269dc9e
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-a424363f76
+            part: title
+          zh:
+            page: zh
+            section: s-e77b9c26da
+            part: title
+        sourceIds:
+          - primary-pmc10793113-q9z64
+        text:
+          en:
+            page: en
+            section: s-a424363f76
+            part: body
+          zh:
+            page: zh
+            section: s-e77b9c26da
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-59bd6015a1
+            part: title
+          zh:
+            page: zh
+            section: s-fdb8185c24
+            part: title
+        sourceIds:
+          - primary-pmc12627998-q9z64
+        text:
+          en:
+            page: en
+            section: s-59bd6015a1
+            part: body
+          zh:
+            page: zh
+            section: s-fdb8185c24
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella dushanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q9Z64
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10793113-q9z64
+        referenceId: ref-8cf34783-a795-4c5a-a390-b6ac7fc7596b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella dushanensis: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12627998-q9z64
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella dushanensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3682d209c5
+        part: body
+      zh:
+        page: zh
+        section: s-893008be89
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.12.e113427
+        referenceId: ref-8cf34783-a795-4c5a-a390-b6ac7fc7596b
+        sourceKey: primary-pmc10793113-q9z64
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10793113/article.xml
+        sourceConcept: Leptobrachella dushanensis
+        evidenceRead: "Leptobrachella dushanensis: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Fast streams in the Dushan sample
+              zh: 独山样本中的急流
+            referenceId: ref-8cf34783-a795-4c5a-a390-b6ac7fc7596b
+            sourceKey: primary-pmc10793113-q9z64
+            locator: "Leptobrachella dushanensis: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b3888545ac
+                part: body
+              zh:
+                page: zh
+                section: s-8e78db9fa0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Late March remained a hypothesis
+              zh: 三月下旬仍是推测
+            referenceId: ref-8cf34783-a795-4c5a-a390-b6ac7fc7596b
+            sourceKey: primary-pmc10793113-q9z64
+            locator: "Leptobrachella dushanensis: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8e24f8003d
+                part: body
+              zh:
+                page: zh
+                section: s-ff9695af54
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-q9z64
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella dushanensis
+        evidenceRead: "Leptobrachella dushanensis: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A selected trait in the kungfu comparison
+              zh: kungfu 比较中的所选性状
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-q9z64
+            locator: PMC12627998 XML sec17 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2b2365fb2c
+                part: body
+              zh:
+                page: zh
+                section: s-07f40eed2b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

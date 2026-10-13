@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys mirabilis
+  displayName: Boulenophrys mirabilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5BH7
+  sourceIndexes:
+    - name:
+        en: Boulenophrys mirabilis
+        zh: Boulenophrys mirabilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5BH7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/366
+            queryName: Boulenophrys mirabilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/258
+            queryName: Megophrys mirabilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/303
+            queryName: Panophrys mirabilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a74f9816b
+      - s-d26b47141e
+      - s-a8388e242c
+      - s-3405f310f3
+      - s-8faa841e8d
+      - s-b195987e9f
+      - s-a9c995bf79
+      - s-f02c92aa80
+      - s-f3def3833a
+      - s-60db6dbb6c
+    zh:
+      - s-77d533e682
+      - s-52c4bbfe5d
+      - s-9234b82a29
+      - s-8466b70ea8
+      - s-9cd25f91d8
+      - s-edf21cb443
+      - s-5181861a60
+      - s-4d062e3357
+      - s-55dec7068f
+      - s-a3bf11b1f8

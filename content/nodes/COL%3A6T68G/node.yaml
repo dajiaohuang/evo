@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne brevirostris
+  displayName: Oreophryne brevirostris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T68G
+  sourceIndexes:
+    - name:
+        en: Oreophryne brevirostris
+        zh: Oreophryne brevirostris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T68G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/249
+            queryName: Oreophryne brevirostris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3c76ea39c
+      - s-7e258ceca1
+      - s-7486f3b922
+      - s-a3f023c3dc
+      - s-d82ab8c339
+      - s-2f1378f095
+      - s-742490d6cd
+      - s-f913bca1da
+      - s-774fd8da8c
+    zh:
+      - s-bf43c35d1e
+      - s-2ea0e67b66
+      - s-44784fe766
+      - s-db6b52ae9c
+      - s-73751dbb0b
+      - s-e6ff60bbc4
+      - s-5915b0c67d
+      - s-9f8c3de2a6
+      - s-b7f99cff8d

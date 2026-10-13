@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Theloderma licin
+  displayName: Theloderma licin
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/568HW
+  sourceIndexes:
+    - name:
+        en: Theloderma licin
+        zh: Theloderma licin
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 568HW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/19
+            queryName: Theloderma licin
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c1f51b0068
+      - s-93c6903e09
+      - s-81abc88d4c
+      - s-463700c9bb
+      - s-5726ee2066
+      - s-15593e74c3
+      - s-461d1d9bd7
+      - s-50c3ca15e2
+    zh:
+      - s-69a66b2d9d
+      - s-50cce91a4e
+      - s-49cbe4801a
+      - s-d46b0b3ec7
+      - s-917c493065
+      - s-a34cea12c7
+      - s-28b29ed390
+      - s-616125dcf9

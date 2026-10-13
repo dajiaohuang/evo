@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa adspersa
+  displayName: Bolitoglossa adspersa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDMS
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa adspersa
+        zh: Bolitoglossa adspersa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDMS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/76
+            queryName: Bolitoglossa adspersa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/213
+            queryName: Spelerpes adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/214
+            queryName: Geotriton adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/215
+            queryName: Oedipus adspersus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/216
+            queryName: Geotriton andicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/217
+            queryName: Magnadigita adspersa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/218
+            queryName: Bolitoglossa andicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/219
+            queryName: Bolitoglossa andina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/220
+            queryName: Bolitoglossa aspersa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9db16153c8
+      - s-df7befeb2c
+      - s-d7fbaf26b9
+      - s-614f7237ee
+      - s-f96923e7d4
+      - s-ad00e588e1
+      - s-bef22eb49e
+      - s-7d546e1e34
+      - s-d8a543511e
+      - s-0d9468823c
+      - s-07c03d8e0a
+      - s-c18b02df75
+      - s-802a4f110d
+    zh:
+      - s-cea679be56
+      - s-3292ad340d
+      - s-f8a32fd4bf
+      - s-a3b5ed0803
+      - s-d0b7487ee9
+      - s-13ad581b1a
+      - s-d827b71868
+      - s-021c2e7e4c
+      - s-57ce5eaefd
+      - s-7b0f289b52
+      - s-d4b97ba641
+      - s-3e6df4eb16
+      - s-294d79c7ed

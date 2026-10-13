@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Eurycea paludicola
+    name:
+      en: Eurycea paludicola
+      zh: Eurycea paludicola
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Eurycea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-53086544e9
+            part: body
+          zh:
+            page: zh
+            section: s-3863bf21b8
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f30ceac74d
+            part: body
+          zh:
+            page: zh
+            section: s-549482382a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 125; Reference.csv rows 4195
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 125
+        values:
+          - Plethodontidae
+          - Eurycea
+          - Eurycea paludicola
+          - NA
+          - "70.11494253"
+          - "30.5"
+          - NA
+          - NA
+          - "6.0695"
+          - "3.843"
+          - "1.83"
+          - "1.7385"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "39.61494253"
+          - "2.623"
+          - NA
+          - "3.111"
+          - NA
+          - "6.4965"
+          - "7.93"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.013"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4195
+        values:
+          - Caudata
+          - Eurycea_paludicola
+          - "Wray, K. P., Means, D. B., & Steppan, S. J. (2017). Revision of the Eurycea quadridigitata (Holbrook 1842) complex of Dwarf Salamanders (Caudata: Plethodontidae: Hemidactyliinae) with a description of two new species. Herpetological Monographs, 31, 18–46. https://doi.org/10.1655/herpmonographs-d-16-00011"
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - HL
+      - HW
+      - IOD
+      - ED
+      - TL
+      - TW
+      - TAH
+      - FLL
+      - HLL
+      - ELL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3D3HF
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

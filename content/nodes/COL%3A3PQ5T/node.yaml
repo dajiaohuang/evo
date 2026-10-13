@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ingerophrynus divergens
+  displayName: Ingerophrynus divergens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PQ5T
+  sourceIndexes:
+    - name:
+        en: Ingerophrynus divergens
+        zh: Ingerophrynus divergens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PQ5T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/496
+            queryName: Ingerophrynus divergens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/319
+            queryName: Bufo divergens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/267
+            queryName: Bufo biporcatus divergens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c14f6428c1
+      - s-b77d848f53
+      - s-5420e6f7f6
+      - s-5a9e589b6f
+      - s-f5376949ed
+      - s-e84814eedc
+      - s-d91a560f24
+      - s-78573da290
+      - s-b76fd409a1
+      - s-02d1119e7c
+      - s-9f5f3cd3ef
+      - s-1c314db781
+      - s-5730497a82
+      - s-f917dd3b9b
+      - s-2e622b43a9
+      - s-7417d93dc3
+      - s-8ba189bc34
+      - s-3e63d09b4b
+      - s-3a838dc78d
+    zh:
+      - s-8f119f4386
+      - s-652b0c6b7b
+      - s-64b1bad018
+      - s-3535442b29
+      - s-a29213d56e
+      - s-105e2008fc
+      - s-475038aa8f
+      - s-d44478c338
+      - s-fd2bbf2025
+      - s-5447f178b4
+      - s-bb983f2999
+      - s-3dd8b785f5
+      - s-3376a987ad
+      - s-afa1a4770e
+      - s-9ee5632ecd
+      - s-9778679e18
+      - s-2874301e0f
+      - s-fafe5705a1
+      - s-5524c1c505

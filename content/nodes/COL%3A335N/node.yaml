@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates
+  displayName: Aromobates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/335N
+  sourceIndexes:
+    - name:
+        en: Aromobates
+        zh: Aromobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 335N
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/182
+            queryName: Aromobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-24900d3ed3
+      - s-163c905576
+      - s-7ab6bc0228
+      - s-de42b36510
+      - s-26214a6330
+      - s-ed1f912b09
+      - s-e1e75a773b
+      - s-f2b267ba44
+      - s-d82db56ecd
+      - s-94bcad73e9
+      - s-d7e22e0a28
+      - s-167e7d2637
+      - s-b90fcdb6f5
+      - s-c29b0f1d03
+      - s-82592c94a0
+      - s-3f7dff9975
+      - s-cae1c156e7
+      - s-b5b285adcd
+    zh:
+      - s-f4514540cd
+      - s-e2ca31e223
+      - s-7daec1ac45
+      - s-987ac05c8a
+      - s-36a3f2cafe
+      - s-e810593f73
+      - s-0889322b2e
+      - s-fa203e51af
+      - s-df632d4777
+      - s-549a2f635d
+      - s-a36392cdd5
+      - s-5ac816151a
+      - s-177477c85b
+      - s-23b84184ba
+      - s-bf0c90efa9
+      - s-c27bd9c9c9
+      - s-068a0c273c
+      - s-7a0be8dc6a

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychohyla dendrophasma
+  displayName: Ptychohyla dendrophasma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6WNB2
+  sourceIndexes:
+    - name:
+        en: Ptychohyla dendrophasma
+        zh: Ptychohyla dendrophasma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6WNB2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/9
+            queryName: Ptychohyla dendrophasma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/319
+            queryName: Hyla dendrophasma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-482e176634
+      - s-1ff887746c
+      - s-1531d55c49
+      - s-10c603e2d6
+      - s-540e91d02d
+      - s-e43ce1f73d
+      - s-2b15547460
+      - s-1134066f0d
+    zh:
+      - s-5eeabc6357
+      - s-c4b4c3f20a
+      - s-a3ecb2f896
+      - s-b6bb73f99c
+      - s-e38a800a94
+      - s-2a67d38252
+      - s-e2ee026daa
+      - s-ffcfe70c48

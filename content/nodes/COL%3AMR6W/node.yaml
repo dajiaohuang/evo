@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulengerula denhardti
+  displayName: Boulengerula denhardti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MR6W
+  sourceIndexes:
+    - name:
+        en: Boulengerula denhardti
+        zh: Boulengerula denhardti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MR6W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/315
+            queryName: Boulengerula denhardti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75cfe6745c
+      - s-5ad273c60e
+      - s-bd9f80f7a9
+      - s-679e1e883e
+      - s-12cf3bd5fc
+      - s-100cb97d92
+      - s-66d8fe1722
+      - s-937d00f8d7
+      - s-5af25c0391
+    zh:
+      - s-ae165ce696
+      - s-d4727c5590
+      - s-2c7ec184b5
+      - s-b98debe013
+      - s-8007d1e2ae
+      - s-222f8e6db9
+      - s-7fa8d34f10
+      - s-decdbaba77
+      - s-a790a740af

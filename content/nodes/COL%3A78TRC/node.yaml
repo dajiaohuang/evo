@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus translineatus
+  displayName: Rhacophorus translineatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78TRC
+  sourceIndexes:
+    - name:
+        en: Rhacophorus translineatus
+        zh: Rhacophorus translineatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78TRC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/258
+            queryName: Rhacophorus translineatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/465
+            queryName: Huangixalus translineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-83346bb39f
+      - s-dab377d08d
+      - s-d984a6882d
+      - s-9f2e0b435d
+      - s-90b42df03b
+      - s-e9899cf0ee
+      - s-2de9bf05cf
+      - s-494f60f59b
+    zh:
+      - s-7ff7ce668a
+      - s-70c1aff827
+      - s-b0faa65b6b
+      - s-625cdc800f
+      - s-f3d8c3eb8b
+      - s-08b0ef64d9
+      - s-191181694f
+      - s-73a34b604f

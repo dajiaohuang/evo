@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis haddadi
+  displayName: Chiasmocleis haddadi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ27
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis haddadi
+        zh: Chiasmocleis haddadi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ27
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/249
+            queryName: Chiasmocleis haddadi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1de8cee434
+      - s-df5afd3456
+      - s-03d7af8029
+      - s-3b95d4247e
+      - s-809c06f01e
+      - s-8f7ba354af
+      - s-41e69d3096
+    zh:
+      - s-460fe92e54
+      - s-361af4d3d0
+      - s-53c1a3792c
+      - s-cb8a60509c
+      - s-26501fca22
+      - s-214a13726a
+      - s-3c03b1dfd1

@@ -1,0 +1,300 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Thalassodrominae
+    rank: subfamily
+    sourceDatasetId: null
+    name:
+      zh: Thalassodrominae
+      en: Thalassodrominae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-15921207f8
+            part: body
+          en:
+            page: en
+            section: s-9037bddfcd
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bed69cf3c6
+            part: body
+          en:
+            page: en
+            section: s-4852ad1d71
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Thalassodrominae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=163704
+          locator: Recorded PBDB parent closure beneath the already documented Pterosauria COL-compatible storage anchor.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:163704
+          readingTargets:
+            - name: Kariridraco dianae
+              pbdbTaxonId: txn:454212
+              canonicalPath: content/nodes/PBDB%3A454212
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Recorded PBDB accepted identity and parent chain
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=163704&show=parent,app,attr
+          locator: P5-42 retained accepted hierarchy; oid txn:163704; ancestry below the documented Pterosauria anchor.
+          accessedAt: 2026-10-02
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    limitations:
+      zh:
+        page: zh
+        section: s-39eb378e36
+        part: body
+      en:
+        page: en
+        section: s-67296d502b
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:163704
+    scientificName: Thalassodrominae
+    commonName: Thalassodrominae
+    commonNameZh: Thalassodrominae
+    rank: subfamily
+    parentName: Tapejaridae
+    extinct: true
+    geography: []
+    overview:
+      page: en
+      section: s-9037bddfcd
+      part: body
+    ecology:
+      diet: Not assessed from occurrence counts or depositional setting.
+      habitat: Collection environments are not a species-wide habitat assessment.
+      locomotion: Not independently assessed.
+      bodySize: Not assessed from this occurrence batch.
+      guild: Not assessed.
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-67296d502b
+      part: body
+    confidence: low
+    referenceIds:
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+    readerSections:
+      - id: pbdb-occurrence-1
+        title:
+          en: Organize fossil records by source classification
+          zh: 按来源分类组织化石记录
+        text:
+          zh:
+            page: zh
+            section: s-15921207f8
+            part: body
+          en:
+            page: en
+            section: s-9037bddfcd
+            part: body
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-2
+        title:
+          en: Compare collections, strata and age brackets
+          zh: 从采集地、地层和年代对读
+        text:
+          zh:
+            page: zh
+            section: s-bed69cf3c6
+            part: body
+          en:
+            page: en
+            section: s-4852ad1d71
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+    readerSources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 382
+        usage:
+          scope:
+            zh: 仅来源所述材料和数据库记录范围。
+            en: Only material and database-record scope described by this source.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 383
+        usage:
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    readerLimitations:
+      zh:
+        page: zh
+        section: s-39eb378e36
+        part: body
+      en:
+        page: en
+        section: s-67296d502b
+        part: body
+    readerRelatedPages:
+      - targetId: txn:95398
+        label:
+          en: Tapejaridae
+          zh: Tapejaridae
+        context:
+          zh: 返回记录父级的阅读入口，保留各出现与采集记录的范围。
+          en: Return to the recorded parent reading route, retaining occurrence and collection scope.
+      - targetId: txn:454211
+        label:
+          en: Kariridraco
+          zh: Kariridraco
+        context:
+          zh: 沿记录分类路径查看后代资料；导读不代表全部后代已有完整专论。
+          en: Follow the recorded classification path into descendant material; guides do not imply complete monographs for every descendant.
+      - targetId: txn:454212
+        label:
+          en: Kariridraco dianae
+          zh: Kariridraco dianae
+        context:
+          zh: 对读该物种的具名采集地、地层区间与原引文；不是完整生态比较。
+          en: Compare this species’ named collections, stratigraphic brackets and original reference links; not a complete ecological comparison.
+  atlas-node:
+    name: Thalassodrominae
+    commonName: Thalassodrominae
+    commonNameZh: Thalassodrominae
+    rank: subfamily
+    taxonId: txn:163704
+    firstAppearance: 119.57
+    lastAppearance: 113.2
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  ranges:
+    - entityId: txn:163704
+      rangeKind: global-composite
+      taxonomicConcept: Thalassodrominae
+      geographicScope: PBDB database represented occurrences, not a complete geographic distribution
+      olderMa: 119.57
+      youngerMa: 113.2
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: PBDB first-occurrence bracket 119.57–113.2 Ma and last-occurrence bracket 119.57–113.2 Ma. Database summary uses all represented occurrences, while reader paragraphs explicitly use the eligible subset. Neither is a direct specimen date, origin or extinction estimate.
+      evidenceBasis: Dated accepted-taxonomy app fields retained in P5-42 source snapshots; database-derived appearance brackets.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+          locator: P5-42 accepted hierarchy oid txn:163704; fea/fla/lea/lla in retained taxa response.
+      evidenceLevel: database-derived

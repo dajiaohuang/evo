@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kaloula picta
+  displayName: Kaloula picta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QZL3
+  sourceIndexes:
+    - name:
+        en: Kaloula picta
+        zh: Kaloula picta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QZL3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/134
+            queryName: Kaloula picta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/41
+            queryName: Plectropus pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/42
+            queryName: Hyledactylus pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/43
+            queryName: Callula picta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/9
+            queryName: Kaloula conjuncta stickeli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0299e18c9d
+      - s-3a8cfa69f0
+      - s-5a28697d7e
+      - s-13cd8e7923
+      - s-b6b9f59425
+      - s-2098ac4950
+      - s-006f25edca
+      - s-8f60112425
+      - s-dbc6ca7b6f
+      - s-931751f0b3
+      - s-e702103c76
+      - s-02d07f0f5e
+      - s-520a5340de
+      - s-0f6d8ecdef
+      - s-26a2f6f32e
+    zh:
+      - s-c84ef62bae
+      - s-669785ad1c
+      - s-f1094c0464
+      - s-668bd7a75f
+      - s-a698ab5315
+      - s-3d238f69d0
+      - s-f02a6d7001
+      - s-f766404422
+      - s-b63f929a41
+      - s-335c9c737d
+      - s-52087508dd
+      - s-2725c3da6d
+      - s-fc847e020a
+      - s-370295f85e
+      - s-1399562a33

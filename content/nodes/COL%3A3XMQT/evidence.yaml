@@ -1,0 +1,124 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Malephora thunbergii (Haw.) Schwantes
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3XMQT, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3XMQT; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3XMQT
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3XMQT
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001293586-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3XMQT / WFO wfo-0001293586
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_859_0
+        referenceId: ref-995c4990-307d-8e13-ad2c-e9b6fe85e4f2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Malephora thunbergii (Haw.) Schwantes account; archive rows 71439 (Morphology), 82057 (Diagnostic), source identifier 859.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_18057_0
+        referenceId: ref-1d2c6130-7686-8fe0-acfd-28e251a04dd0
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Malephora thunbergii (Haw.) Schwantes account; archive rows 88945 (Habitat), source identifier 18057.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: A decumbent, freely branched herb, with age becoming somewhat erect and rather woody, and tending to scramble if support is available, 15 to 20 cm high. Leaves ascending or erect, subterete or obtusely trigonous, obtuse or acute, 2.5 to 5.5 cm long, 3 to 6 mm in diameter, the sheath 3 to 4 mm long. Flowers usually 4 cm in diameter. Receptacle clavate, 5 to 6 mm in diameter at the apex. Sepals 4 to 5, the 2 longer 1 to 1.7 cm long, or after flowering often 2.2 cm long, the shorter ones with a membranous margin. Petals 1 to 2-seriate, rather lax, linear, tapering towards the base, obtuse or subacute, entire, clear yellow becoming croceous with age and finally turning black, 1.9 cm long, up to 2 mm broad. Stamens erect, 5 mm in diameter; filaments yellow, 2 to 4 mm long, the inner copiously bearded at base with white pellucid hairs. Disk inconspicuous, annular. Ovary slightly convex above, 8 to 10-celled. Stigmas 8 to 10, subacute, 1.5 to 2 mm long. Capsule expanded 1.2 cm in diameter; keels parallel below, slightly divergent upwards; membranous wings adnate to keel, semi-lanceolate, acuminate, equalling the valves in length; seeds obovate.
+            sourceIds:
+              - sanbi_859_0
+            locator: "SANBI/WFO archive Morphology row 71439; source 859.0; publication: Bolus, L; Page, MM. 1927. Crocanthus thunbergii L.Bolus. Fl. Pl. South Africa 7t.255. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: It still remains to prove conclusively that M. luteum, Haw. is distinct from Crocanthus thunbergii, L. Bolus. The former is described as having 'an upright rigid stem,' and 'tumid nodes of the stem, from which on the side next the ground sprout swollen rootlets.' The latter statement at least implies some decumbent branches. But it seems advisable to complete observations on some growing plants, sent by Dr. Muir from the Riversdale Div. and on others received from the Division of Botany, before a satisfactory conclusion is reached. In order, therefore, to avoid a possible additional synonym, I refrain from placing M. luteum, Haw. at the moment in this genus.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_859_0
+            locator: "SANBI/WFO archive Diagnostic row 82057; source 859.0; publication: Bolus, L; Page, MM. 1927. Crocanthus thunbergii L.Bolus. Fl. Pl. South Africa 7t.255. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Flats and hills of karoo shales or siltstones.
+            sourceIds:
+              - sanbi_18057_0
+            locator: "SANBI/WFO archive Habitat row 88945; source 18057.0; publication: Burgoyne, PM; Bredenkamp, CL. 2019. Aizoaceae: Malephora N.E.Br. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(1): 234 - 235. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Ecolsonia cutlerensis
+    rank: species
+    sourceTaxonId: txn:229320
+    name:
+      en: Ecolsonia cutlerensis
+      zh: Ecolsonia cutlerensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-ce3c117c3b
+            part: body
+          zh:
+            page: zh
+            section: s-606c3ad4f7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-fc085e050e
+            part: body
+          zh:
+            page: zh
+            section: s-5d2846cc92
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-9585bed3d7
+            part: body
+          zh:
+            page: zh
+            section: s-844eefa7a4
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:229320; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. Ruta, M. I. Coates, and D. L. J. Quicke. 2003. Early tetrapod relationships revisited. Biological Reviews 78(2):251-345
+    occurrenceEvidence:
+      - occurrenceId: occ:1335607
+        collectionId: col:180106
+        acceptedTaxonId: txn:229320
+        identifiedName: Ecolsonia cutlerensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:59745
+        bibliography: P. P. Vaughn. 1969. Further evidence of a close relationship of the trematopsid and dissorophid labyrinthodont amphibians with a description of a new genus and a new species. Bulletin of the Southern California Academy of Sciences 68:121-130
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: Cutler
+          formation: El Cobre Canyon
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1335617
+        collectionId: col:180107
+        acceptedTaxonId: txn:229320
+        taxonomicDifference: null
+        referenceId: ref:59746
+        bibliography: S. G. Lucas, S. K. Harris, and J. A. Spielmann, D. S. Berman, A. C. Henrici, A. B. Heckert, K. E. Zeigler, L. F. Rinehart. 2005. Early Permian Vertebrate Assemblage and its Biostratigraphic Significance, Arroyo del Agua, Rio Arriba County, New Mexico. New Mexico Geological Society, 56th Field Conference Guidebook, Geology of the Chama Basin
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: Cutler
+          formation: El Cobre Canyon
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1337191
+        collectionId: col:171346
+        acceptedTaxonId: txn:229320
+        taxonomicDifference: null
+        referenceId: ref:59746
+        bibliography: S. G. Lucas, S. K. Harris, and J. A. Spielmann, D. S. Berman, A. C. Henrici, A. B. Heckert, K. E. Zeigler, L. F. Rinehart. 2005. Early Permian Vertebrate Assemblage and its Biostratigraphic Significance, Arroyo del Agua, Rio Arriba County, New Mexico. New Mexico Geological Society, 56th Field Conference Guidebook, Geology of the Chama Basin
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: null
+          formation: Cutler
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-9585bed3d7
+            part: body
+          zh:
+            page: zh
+            section: s-844eefa7a4
+            part: body
+        sourceIds: []

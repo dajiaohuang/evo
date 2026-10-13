@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates zippeli
+  displayName: Aromobates zippeli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GTS2
+  sourceIndexes:
+    - name:
+        en: Aromobates zippeli
+        zh: Aromobates zippeli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GTS2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/132
+            queryName: Aromobates zippeli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d0b92674b7
+      - s-a7b39c53b0
+      - s-c0ea3851fa
+      - s-ee0480431f
+      - s-e17531d32d
+      - s-0b6cd2a7f2
+      - s-78c7875785
+    zh:
+      - s-9bd63e9181
+      - s-096579dd55
+      - s-c4ba79c261
+      - s-302a176e2c
+      - s-93f40dcd58
+      - s-33502c7587
+      - s-58091f7848

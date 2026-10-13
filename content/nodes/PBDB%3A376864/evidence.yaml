@@ -1,0 +1,196 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chasmaporthetes lunensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Chasmaporthetes lunensis
+      en: Chasmaporthetes lunensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-542875b084
+            part: body
+          en:
+            page: en
+            section: s-7cd881178a
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cf9754b422
+            part: body
+          en:
+            page: en
+            section: s-a67c363ea8
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6dab8fbf88
+            part: body
+          en:
+            page: en
+            section: s-bfbc3a6633
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7fc50086c1
+            part: body
+          en:
+            page: en
+            section: s-cdaf6d2e4a
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b6771f0306
+            part: body
+          en:
+            page: en
+            section: s-c58adc3b70
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Chasmaporthetes lunensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=376864&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:376864; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:376864
+          selectedOccurrenceIds:
+            - occ:363574
+            - occ:365136
+            - occ:405258
+            - occ:417582
+            - occ:418110
+            - occ:418310
+            - occ:450385
+            - occ:474737
+            - occ:475099
+            - occ:475115
+            - occ:475178
+            - occ:489376
+            - occ:501836
+            - occ:1384766
+            - occ:1706672
+          selectedCollectionIds:
+            - col:34444
+            - col:34594
+            - col:38892
+            - col:40500
+            - col:40548
+            - col:36112
+            - col:44231
+            - col:47100
+            - col:47129
+            - col:47131
+            - col:47150
+            - col:49254
+            - col:50943
+            - col:189976
+            - col:241926
+          sourceReferenceIds:
+            - ref:9043
+            - ref:9135
+            - ref:7584
+            - ref:10948
+            - ref:11001
+            - ref:12578
+            - ref:13155
+            - ref:13592
+            - ref:63872
+            - ref:92821
+          originalIdentificationMappings:
+            - occurrenceId: occ:475099
+              originalIdentifiedName: Euryboas lunensis
+              acceptedName: Chasmaporthetes lunensis
+              difference: recombined as
+            - occurrenceId: occ:475178
+              originalIdentifiedName: Euryboas lunensis
+              acceptedName: Chasmaporthetes lunensis
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-2d8b175d0b
+        part: body
+      en:
+        page: en
+        section: s-273234227c
+        part: body

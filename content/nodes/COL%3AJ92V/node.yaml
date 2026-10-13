@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus spumarius
+  displayName: Atelopus spumarius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J92V
+  sourceIndexes:
+    - name:
+        en: Atelopus spumarius
+        zh: Atelopus spumarius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J92V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/321
+            queryName: Atelopus spumarius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/417
+            queryName: Atelopus spumarius spumarius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-25e70bbeba
+      - s-3ac6ec683b
+      - s-027436070a
+      - s-922a64bdd3
+      - s-2b44582935
+      - s-35489095a8
+      - s-7a2f8c111e
+      - s-1bff9a3de1
+      - s-888c95842a
+      - s-5e4b2fb914
+      - s-454ae43676
+      - s-3da3ac3127
+      - s-6b0f106b70
+      - s-18af0b4454
+      - s-24ce545590
+      - s-60e9a474fd
+      - s-322318bf7b
+      - s-f2835c4221
+    zh:
+      - s-0e98002592
+      - s-36d10b64c5
+      - s-ed9d6ea0f0
+      - s-dda8581659
+      - s-5f84a34a54
+      - s-f5a2366b8a
+      - s-f1c3eb5757
+      - s-63e97c7a33
+      - s-48c8534ca5
+      - s-f63e7131e3
+      - s-27e7a53d33
+      - s-c498a42b89
+      - s-ea260b009d
+      - s-4af2eda747
+      - s-29f637b58d
+      - s-5cde69bf3a
+      - s-caeaaf71c3
+      - s-b99d11e61e

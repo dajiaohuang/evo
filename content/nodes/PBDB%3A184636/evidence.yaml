@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Opisthotriton gidleyi
+    rank: species
+    sourceTaxonId: txn:184636
+    name:
+      en: Opisthotriton gidleyi
+      zh: Opisthotriton gidleyi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-dfb43824d0
+            part: body
+          zh:
+            page: zh
+            section: s-816c00f8da
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-db258de47f
+            part: body
+          zh:
+            page: zh
+            section: s-f72486d320
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-9cef5e4ed6
+            part: body
+          zh:
+            page: zh
+            section: s-6d533ba6bc
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:184636; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. M. Sullivan. 1991. Paleocene Caudata and Squamata from Gidley and Silberling quarries, Montana. Journal of Vertebrate Paleontology 11(3):293-301
+    occurrenceEvidence:
+      - occurrenceId: occ:289589
+        collectionId: col:14906
+        acceptedTaxonId: txn:184636
+        identifiedName: Opisthotriton gidleyi n. sp.
+        taxonomicDifference: null
+        referenceId: ref:7598
+        bibliography: R. M. Sullivan. 1991. Paleocene Caudata and Squamata from Gidley and Silberling quarries, Montana. Journal of Vertebrate Paleontology 11(3):293-301
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Sweetgrass
+        stratigraphy:
+          group: null
+          formation: Fort Union
+          member: null
+        olderAgeMa: 63.4
+        youngerAgeMa: 60.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-9cef5e4ed6
+            part: body
+          zh:
+            page: zh
+            section: s-6d533ba6bc
+            part: body
+        sourceIds: []

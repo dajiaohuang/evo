@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla berdmorei
+  displayName: Microhyla berdmorei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42X9L
+  sourceIndexes:
+    - name:
+        en: Microhyla berdmorei
+        zh: Microhyla berdmorei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42X9L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/493
+            queryName: Microhyla berdmorei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/247
+            queryName: Engystoma berdmorei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/248
+            queryName: Callula natatrix
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/249
+            queryName: Diplopelma berdmorei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/250
+            queryName: Microhyla berdmorii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3b500875f0
+      - s-525ecd42f3
+      - s-637d4d2391
+      - s-fc2205d1d5
+      - s-523928fbf1
+      - s-cbb4936b6a
+      - s-6c994bc90d
+      - s-bc5f3b6e1c
+      - s-d94dcd07d9
+      - s-f2e14905e0
+      - s-2f3d82dc3f
+      - s-8699a96389
+      - s-194dfe7bea
+    zh:
+      - s-7b83030133
+      - s-5068d1e36f
+      - s-417379ee67
+      - s-cc27785776
+      - s-640cbc1224
+      - s-584393a5da
+      - s-de1041d3dd
+      - s-1a130a3155
+      - s-a3651e0ef8
+      - s-2f0496ef20
+      - s-59fef7bc00
+      - s-84e9f6d4e5
+      - s-09d4445208

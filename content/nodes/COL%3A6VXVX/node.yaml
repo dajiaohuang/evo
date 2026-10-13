@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys avelinoi
+  displayName: Proceratophrys avelinoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VXVX
+  sourceIndexes:
+    - name:
+        en: Proceratophrys avelinoi
+        zh: Proceratophrys avelinoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VXVX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/206
+            queryName: Proceratophrys avelinoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93ae92cd1e
+      - s-a92c5d3a72
+      - s-40ac15ffc4
+      - s-28727a9fb8
+      - s-b80f402160
+      - s-9762f52eff
+      - s-cde67d7dd3
+      - s-1204a30e47
+      - s-3387d0bed7
+      - s-f845a05029
+      - s-7ddc9b5429
+      - s-7961f2d8be
+      - s-6545c5a93a
+      - s-a421912496
+      - s-49a00a9ff1
+      - s-a9de2789b2
+      - s-d0282a41d8
+      - s-556c64a342
+      - s-b829eeb3b1
+      - s-43d1f44be2
+      - s-38e3ef69d9
+      - s-186a9cccb7
+    zh:
+      - s-aa2052049c
+      - s-99eea9d455
+      - s-2b5e8dbc0c
+      - s-fb49d583fe
+      - s-2c4e982c51
+      - s-341bd5deae
+      - s-b3910f0926
+      - s-19212d2e85
+      - s-a7978604d9
+      - s-e50c0743f3
+      - s-93230d1dc9
+      - s-45e1930353
+      - s-36dfffe782
+      - s-d4d54d51b9
+      - s-108814d0c6
+      - s-896b006b70
+      - s-797ca4add8
+      - s-e0a7cbf88b
+      - s-39c898a62c
+      - s-d9582e16ee
+      - s-4c2bb94d3a
+      - s-8f3d04ff44

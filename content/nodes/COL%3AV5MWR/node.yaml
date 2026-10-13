@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachytarsophrys qiannanensis
+  displayName: Brachytarsophrys qiannanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5MWR
+  sourceIndexes:
+    - name:
+        en: Brachytarsophrys qiannanensis
+        zh: Brachytarsophrys qiannanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5MWR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/448
+            queryName: Brachytarsophrys qiannanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51bf988297
+      - s-9b0ac5eec1
+      - s-81c883d304
+      - s-f335c5659d
+      - s-c5d8bbcf70
+      - s-d4eb78044e
+      - s-ebbf5f0496
+    zh:
+      - s-dc83dde607
+      - s-471c8776a9
+      - s-f272907af0
+      - s-218984187f
+      - s-d1c4a46120
+      - s-df9a9a6e1a
+      - s-0d9d2ba2f0

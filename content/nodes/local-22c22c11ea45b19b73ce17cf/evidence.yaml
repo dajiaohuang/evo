@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rana macrocnemis
+    name:
+      en: Rana macrocnemis
+      zh: Rana macrocnemis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Rana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Rana macrocnemis in the morphology deposit
+          zh: 形态数据中的 Rana macrocnemis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a4dd3f1937
+            part: body
+          zh:
+            page: zh
+            section: s-bba7045fd6
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5186: measurement fields and sex codes"
+          zh: 第 5186 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c7d23b6fd8
+            part: body
+          zh:
+            page: zh
+            section: s-ba1550ae22
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5186; Reference.csv rows 4001
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5186
+        values:
+          - Ranidae
+          - Rana
+          - Rana macrocnemis
+          - NA
+          - "57.5"
+          - "17.53"
+          - "19.89"
+          - NA
+          - NA
+          - NA
+          - "3.88"
+          - "4.21"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "31.34"
+          - "28.88"
+          - NA
+          - "32.93"
+          - "3.01"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4001
+        values:
+          - Anura
+          - Rana_macrocnemis
+          - "Afsar, M., Afsar, B., & Arikan, H. (2015). Classification of the mountain frogs of the Bercelan Plateau (Hakkari), east Anatolia (Turkey). Herpetozoa, 28, 15-27. "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - IOD
+      - IND
+      - TL
+      - THL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6WR68
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

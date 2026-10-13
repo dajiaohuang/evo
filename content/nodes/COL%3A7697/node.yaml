@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pyxicephalus
+  displayName: Pyxicephalus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7697
+  sourceIndexes:
+    - name:
+        en: Pyxicephalus
+        zh: Pyxicephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "7697"
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/209
+            queryName: Pyxicephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 227
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d70c5eb9d2
+      - s-b9a32d24b4
+      - s-24da1bb4b3
+      - s-64bd6ec994
+      - s-1e5ee10e57
+      - s-ffa79e0ae1
+      - s-0270a8f1c1
+      - s-810a050dfa
+      - s-7b1632e7ab
+      - s-8df09dfe2f
+      - s-e1f7dbda88
+      - s-2eb43e95da
+      - s-4e7e001f1d
+      - s-078e7f4f8d
+      - s-9e6ac8cb01
+      - s-9cea30ff23
+      - s-20ad039e77
+      - s-5d4f9b7552
+    zh:
+      - s-a69d40d0a1
+      - s-4acd5e3dd2
+      - s-0febf65470
+      - s-228ba95255
+      - s-7235c049e7
+      - s-d0d5f595e1
+      - s-6f4648fb6a
+      - s-18e06d8f57
+      - s-ec05352b25
+      - s-a61d98a528
+      - s-b9c0a82ddf
+      - s-858c643563
+      - s-de4d951575
+      - s-a33ef217ca
+      - s-b007db5ec1
+      - s-acd0d90d59
+      - s-ddf0c21e85
+      - s-6c1120c229

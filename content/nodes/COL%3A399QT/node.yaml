@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus schwartzi
+  displayName: Eleutherodactylus schwartzi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399QT
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus schwartzi
+        zh: Eleutherodactylus schwartzi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399QT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/323
+            queryName: Eleutherodactylus schwartzi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-237b6c1899
+      - s-2664662370
+      - s-f7a61d8dce
+      - s-433487dca9
+      - s-775e1932ce
+      - s-bccb947a2f
+      - s-c21b18954c
+      - s-18667ee84d
+      - s-48f3911270
+      - s-ea9a97e6f9
+      - s-3aec48c1a9
+    zh:
+      - s-566500d191
+      - s-766485de9e
+      - s-df1c919ee4
+      - s-4ced07ccda
+      - s-465d69dbac
+      - s-3375d4902c
+      - s-28d17d2336
+      - s-ea04fa6c66
+      - s-20a0309890
+      - s-b504d1538e
+      - s-185c0aa80c

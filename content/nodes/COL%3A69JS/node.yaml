@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreobates
+  displayName: Oreobates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69JS
+  sourceIndexes:
+    - name:
+        en: Oreobates
+        zh: Oreobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69JS
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/116
+            queryName: Oreobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 57
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3ef5ce9f73
+      - s-1fe1aefaa8
+      - s-11772e3040
+      - s-368aa0bb23
+      - s-b9a829523f
+      - s-367c209223
+      - s-6e2800f03d
+      - s-8cdbc4349d
+      - s-c19fe355f8
+      - s-93bcc0b2a2
+      - s-1d552679a1
+      - s-6a2f1afa9b
+      - s-bb8ddc7929
+      - s-9fd74fc2e2
+      - s-d2db6c7bda
+      - s-96b1e7077d
+      - s-b08b53b806
+      - s-fd2f46c1f5
+      - s-93e911b58b
+      - s-22546630e0
+      - s-6efe50744f
+      - s-933e026cb8
+      - s-0cd69d2265
+      - s-3269f93234
+      - s-25ac21122e
+      - s-60c9a2e00e
+      - s-f7ac86ef28
+      - s-f472c21099
+      - s-3a68733c2d
+      - s-79346a168b
+      - s-c1608bef6c
+    zh:
+      - s-466900856d
+      - s-65a99f4e48
+      - s-ca5e23aff1
+      - s-3546c31ee6
+      - s-942aa94e17
+      - s-27bb26767a
+      - s-4ea7c0ab5c
+      - s-d323618960
+      - s-b5d2e43332
+      - s-608aa2f546
+      - s-49dd1efe17
+      - s-98be824a0e
+      - s-aca97c454d
+      - s-16b4d653a8
+      - s-eda39c6f01
+      - s-8ee5f3f61a
+      - s-95dfbf895c
+      - s-e77a554225
+      - s-7d7e00d410
+      - s-fc512a5a6f
+      - s-e0b0c4a623
+      - s-5bae274e67
+      - s-509f604784
+      - s-0c8cebbee5
+      - s-7f6ed43684
+      - s-8d4214e6cc
+      - s-89e03ebafb
+      - s-11741233df
+      - s-4061ff8f83
+      - s-68ae9c70b0
+      - s-25bb0ef7be

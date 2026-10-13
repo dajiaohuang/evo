@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Tomopterna cryptotis
+    name:
+      en: Tomopterna cryptotis
+      zh: Tomopterna cryptotis
+    sourceClassification:
+      order: Anura
+      family: Pyxicephalidae
+      genus: Tomopterna
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Tomopterna cryptotis in the morphology deposit
+          zh: 形态数据中的 Tomopterna cryptotis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-146e05188a
+            part: body
+          zh:
+            page: zh
+            section: s-349fedb14d
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5932: measurement fields and sex codes"
+          zh: 第 5932 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-49cf44c28d
+            part: body
+          zh:
+            page: zh
+            section: s-bd4f280f6e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5932; Reference.csv rows 3438
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5932
+        values:
+          - Pyxicephalidae
+          - Tomopterna
+          - Tomopterna cryptotis
+          - M
+          - "36.73333333"
+          - "11.75833333"
+          - "15.91666667"
+          - "5.316666667"
+          - "3.325"
+          - NA
+          - "6.875"
+          - "3.875"
+          - NA
+          - "3.25"
+          - "5.941666667"
+          - "2.991666667"
+          - "6.358333333"
+          - "7.5"
+          - NA
+          - NA
+          - NA
+          - "14.5"
+          - "15.375"
+          - NA
+          - NA
+          - "3.133333333"
+          - "1.716666667"
+          - "3.533333333"
+          - "5.15"
+          - "8.641666667"
+          - "4.891666667"
+          - "3.966666667"
+          - "3.65"
+          - "5.525"
+          - "2.533333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3438
+        values:
+          - Anura
+          - Tomopterna_cryptotis
+          - "Wasonga, V., & Channing, A. (2013). Identification of sand frogs (Anura: Pyxicephalidae: Tomopterna) from Kenya with the description of two new species. Zootaxa, 3734, 221-240. https://doi.org/10.11646/zootaxa.3734.2.7"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7CGP6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

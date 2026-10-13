@@ -1,0 +1,111 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Huttonaea pulchra Harv.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3MV5F, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3MV5F; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3MV5F
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3MV5F
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000215734-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3MV5F / WFO wfo-0000215734
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_10448_0
+        referenceId: ref-9bbd0d67-04f8-8899-afad-f3d85c5fc840
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Huttonaea pulchra Harv. account; SANBI/WFO archive rows 42316 (Morphology), 43178 (Habitat), source identifier 10448.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    readerPage:
+      sections:
+        - topic: morphology
+          sourceIds:
+            - sanbi_10448_0
+          text:
+            en:
+              page: en
+              section: s-1308b37ce4
+              part: body
+            zh:
+              page: zh
+              section: s-7e11ea2ef5
+              part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants erect, 150-400 mm tall; leaves distant, not petiolate, lower with a patent, slightly cordate, elliptic, obtuse to acute and finely mucronate blade, 60-120 x 45-70 mm, upper smaller. Inflorescences laxly 6-20-flowered, 60-100 mm long; bracts narrowly lanceolate, acuminate, somewhat shorter than the ovary. Flowers c. 15 mm in diªameter, sepals lime-green, petals pale mauve. Seªpals subequal, reflexed, margins entire; median 5-6 x 2.5-3 mm; laterals lanceolate, acute, 7x4 mm. Petals spathulate, claws cylindrical, 5-7 mm long, blades transversely obovate, shallowly cal-carate, margins fimbriate, 6-7 mm in diameter. Lip pendent, transversely ovate, margins fimbriªate, 4-5 x 7-10 mm. Gynostemium erect; anther thecae diverging towards the base, 4 mm long; stigma bipulvinate.
+            textZh: Huttonaea pulchra Harv. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_10448_0
+            locator: "SANBI/WFO archive Morphology row 42316; source identifier 10448.0; cited publication: Kurzweil, H; Linder, HP. 1999. Orchids of Southern Africa. A.A. Balkema, Rotterdam. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Cool, dark forests.
+            textZh: 该 SANBI 区域物种条目记录的生境：Cool, dark forests.
+            sourceIds:
+              - sanbi_10448_0
+            locator: "SANBI/WFO archive Habitat row 43178; source identifier 10448.0; cited publication: Kurzweil, H; Linder, HP. 1999. Orchids of Southern Africa. A.A. Balkema, Rotterdam. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

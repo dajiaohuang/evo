@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca fissipes
+  displayName: Gastrotheca fissipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6K9WR
+  sourceIndexes:
+    - name:
+        en: Gastrotheca fissipes
+        zh: Gastrotheca fissipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6K9WR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/36
+            queryName: Gastrotheca fissipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/274
+            queryName: Nototrema fissipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/275
+            queryName: Opisthodelphis fissipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2f11f0e07a
+      - s-e6c2730449
+      - s-41faaff666
+      - s-10fecd1a4b
+      - s-c2c8800242
+      - s-60ffdeb97b
+      - s-811a994cfd
+      - s-55d322acbb
+      - s-3d524a9f8f
+      - s-0913ba38b0
+      - s-8f48859faa
+      - s-9d00a1481e
+      - s-bdfc0aa7b1
+      - s-9f7caf1a0f
+      - s-0583139ebb
+    zh:
+      - s-f619099135
+      - s-de217d13d4
+      - s-15fb1298ec
+      - s-4570311b53
+      - s-0b24074b14
+      - s-0fab6a4c50
+      - s-3ab5f29bc6
+      - s-333626233a
+      - s-ae60ad529f
+      - s-9a4e529763
+      - s-3a75de65fb
+      - s-e3b894bc5d
+      - s-28b0bade42
+      - s-919b622aef
+      - s-5ac8f63af8

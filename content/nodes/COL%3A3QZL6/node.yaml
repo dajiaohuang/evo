@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kaloula rugifera
+  displayName: Kaloula rugifera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QZL6
+  sourceIndexes:
+    - name:
+        en: Kaloula rugifera
+        zh: Kaloula rugifera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QZL6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/137
+            queryName: Kaloula rugifera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a40b62d9d9
+      - s-5ff64cbb87
+      - s-1d9b8aaf69
+      - s-1ca3b6bc5d
+      - s-6d4a56b680
+      - s-71a695a8ac
+      - s-6f2171e4fe
+      - s-6f8689966f
+      - s-2f7813a35b
+      - s-237041d6c5
+      - s-8da023225f
+      - s-1893df83ff
+      - s-ce7e0e8fec
+      - s-64f75a9b69
+      - s-ff1b1be6eb
+      - s-9a680466cf
+    zh:
+      - s-55dd08bed9
+      - s-6516e4f4ec
+      - s-43a16fb060
+      - s-9606c26bb4
+      - s-b56396d1d5
+      - s-ac965020e3
+      - s-0a529b1af2
+      - s-b0c41e253c
+      - s-65e37dc941
+      - s-0899f74762
+      - s-9140746510
+      - s-bec356a255
+      - s-25de134774
+      - s-3d4091cdd1
+      - s-c8f3aad249
+      - s-bc2fc76263

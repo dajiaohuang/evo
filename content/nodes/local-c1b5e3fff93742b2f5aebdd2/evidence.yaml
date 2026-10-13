@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Elachistocleis corumbaensis
+    name:
+      en: Elachistocleis corumbaensis
+      zh: Elachistocleis corumbaensis
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Elachistocleis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-758be5b8c8
+            part: body
+          zh:
+            page: zh
+            section: s-f6a292b97d
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-bb96cfba7c
+            part: body
+          zh:
+            page: zh
+            section: s-197615cb2e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1621, 1622; Reference.csv rows 411
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1621
+        values:
+          - Microhylidae
+          - Elachistocleis
+          - Elachistocleis corumbaensis
+          - F
+          - "40.3"
+          - "7.4"
+          - "8.8"
+          - "2"
+          - NA
+          - NA
+          - "4.3"
+          - "1.9"
+          - "1.1"
+          - "2.7"
+          - "3.9"
+          - NA
+          - "8.3"
+          - "6.3"
+          - NA
+          - "15.8"
+          - NA
+          - "13"
+          - "13.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1622
+        values:
+          - Microhylidae
+          - Elachistocleis
+          - Elachistocleis corumbaensis
+          - M
+          - "29.7"
+          - "6.34"
+          - "7"
+          - "1.833333333"
+          - NA
+          - NA
+          - "3.633333333"
+          - "1.366666667"
+          - "0.9"
+          - "2.266666667"
+          - "3.2"
+          - NA
+          - "5.8"
+          - "4.633333333"
+          - NA
+          - "11.5"
+          - NA
+          - "10"
+          - "10.93333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 411
+        values:
+          - Anura
+          - Elachistocleis_corumbaensis
+          - "Piva, A., Caramaschi, U., & Albuquerque, N. R. d. (2017). A new species of Elachistocleis (Anura: Microhylidae) from the Brazilian Pantanal. Phyllomedusa. Journal of Herpetology, 16(2), 143-153.https://doi.org/10.11606/issn.2316-9079.v16i2p143-154"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 38X36
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

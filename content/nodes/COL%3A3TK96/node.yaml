@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella bidoupensis
+  displayName: Leptobrachella bidoupensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TK96
+  sourceIndexes:
+    - name:
+        en: Leptobrachella bidoupensis
+        zh: Leptobrachella bidoupensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TK96
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/211
+            queryName: Leptobrachella bidoupensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/451
+            queryName: Leptolalax bidoupensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a3fd16bcf
+      - s-db9e67c2e0
+      - s-e8a1936eaf
+      - s-a3a6493df2
+      - s-132b78d623
+      - s-801130c3d6
+      - s-dee3193c1f
+      - s-8d0040abba
+      - s-53bcd9c029
+      - s-fda6924143
+    zh:
+      - s-12c0df93d9
+      - s-46a1a8bfbd
+      - s-15f0cbbacc
+      - s-83bfb3db93
+      - s-61f4bce1a1
+      - s-b7643debaa
+      - s-6c80d75aed
+      - s-60e39e22ac
+      - s-506f0e52dc
+      - s-74731a14a7

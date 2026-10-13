@@ -1,0 +1,328 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Funcusvermis gilmorei
+    commonName: Triassic stem caecilian
+    commonNameZh: 三叠纪蚓螈干群
+    rank: species
+    taxonId: txn:471966
+    firstAppearance: 223.036
+    lastAppearance: 218.043
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:471966
+    scientificName: Funcusvermis gilmorei
+    commonName: Triassic stem caecilian
+    commonNameZh: 三叠纪蚓螈干群
+    rank: species
+    parentName: Amphibian fossil evidence route
+    extinct: true
+    geography:
+      - Petrified Forest National Park
+      - Arizona
+      - United States
+    overview:
+      page: en
+      section: s-d46db78290
+      part: body
+    overviewZh:
+      page: zh
+      section: s-2ac4b823bd
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-d9e8c88495
+        part: body
+      habitat:
+        page: en
+        section: s-e45ff2ad68
+        part: body
+      locomotion:
+        page: en
+        section: s-7d547c7550
+        part: body
+      bodySize:
+        page: en
+        section: s-31a4ded48f
+        part: body
+      guild:
+        page: en
+        section: s-a4d7eab331
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-1697f3c260a8bd
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-45b99c36e003ba
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-2133f32de2268e
+        part: body
+      guildZh:
+        page: zh
+        section: zh-7a414e2e5b0af8
+        part: body
+    traits:
+      - page: en
+        section: s-86fb5d4dcb
+        part: body
+      - page: en
+        section: s-8790872c35
+        part: body
+      - page: en
+        section: s-d353a444a3
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-2de19f2b8a
+      part: body
+    evidenceSummaryZh: 经 U–Pb 定年限定的地点和散离化石记录了蚓螈总群；一项系统发育分析则另行支持现生两栖类起源于离片椎类。无论化石还是该模型，都不能给蚓螈冠群定年，也不能在所有现生两栖类起源假说中作出定论。
+    confidence: medium
+    referenceIds:
+      - kligman-2023-funcusvermis
+    readerLimitations:
+      en:
+        page: en
+        section: s-dfeda284ae
+        part: body
+      zh:
+        page: zh
+        section: s-71a047af5b
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-bd9ddc55ed9c18
+        part: body
+      - page: zh
+        section: zh-fd6ce8d0be3f4a
+        part: body
+      - page: zh
+        section: zh-c5a06e8065478b
+        part: body
+  claims:
+    - subjectId: taxon:funcusvermis
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Funcusvermis gilmorei is represented by isolated elements from at least seventy-six individuals and was recovered as a stem gymnophionomorph outside crown Gymnophiona.
+      confidence: medium
+      confidenceRationale: "Funcusvermis gilmorei: Named material and a published systematic or phylogenetic treatment support this bounded identification. Confidence remains medium because the profile does not turn a sampled placement into direct ancestry or universal consensus."
+      referenceLinks:
+        - referenceId: kligman-2023-funcusvermis
+          relation: supports
+          pages: 102–107
+          figure: Figure 1; Extended Data Figures 2–7
+          quoteLocator: Systematic palaeontology; locality and geochronology; phylogenetic analyses and origin discussion
+    - subjectId: taxon:funcusvermis
+      claimType: biogeography
+      claimKind: scientific
+      statement: The represented Funcusvermis sample comes from the Thunderstorm Ridge bonebed in the upper Blue Mesa Member of Arizona; one bonebed does not establish global distribution.
+      confidence: medium
+      confidenceRationale: "Funcusvermis gilmorei: The primary study reports the named locality and horizon directly. Confidence is medium because one study sample cannot establish absence, endemism or a global geographic range."
+      referenceLinks:
+        - referenceId: kligman-2023-funcusvermis
+          relation: supports
+          pages: 102–107
+          figure: Figure 1; Extended Data Figures 2–7
+          quoteLocator: Systematic palaeontology; locality and geochronology; phylogenetic analyses and origin discussion
+    - subjectId: taxon:funcusvermis
+      claimType: ecology
+      claimKind: scientific
+      statement: The disarticulated bones permit limited functional inference but do not directly establish diet, burrowing behaviour, locomotor performance or habitat preference.
+      confidence: medium
+      confidenceRationale: "Funcusvermis gilmorei: The evidence boundary is explicit: depositional or anatomical context is retained while unsupported behaviour and niche claims are withheld. Medium confidence applies to that bounded negative statement, not to a reconstructed ecology."
+      referenceLinks:
+        - referenceId: kligman-2023-funcusvermis
+          relation: supports
+          pages: 102–107
+          figure: Figure 1; Extended Data Figures 2–7
+          quoteLocator: Systematic palaeontology; locality and geochronology; phylogenetic analyses and origin discussion
+    - subjectId: taxon:funcusvermis
+      claimType: morphology
+      claimKind: scientific
+      statement: Three-dimensional jaws, vertebrae and femora preserve a character combination used to place Funcusvermis on the caecilian total-group stem.
+      confidence: medium
+      confidenceRationale: "Funcusvermis gilmorei: The cited figures and descriptions directly document the named anatomical observations. Confidence is medium rather than universal because preservation and specimen sampling limit character completeness and variation."
+      referenceLinks:
+        - referenceId: kligman-2023-funcusvermis
+          relation: supports
+          pages: 102–107
+          figure: Figure 1; Extended Data Figures 2–7
+          quoteLocator: Systematic palaeontology; locality and geochronology; phylogenetic analyses and origin discussion
+    - subjectId: taxon:funcusvermis
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 223.036–218.043 Ma interval is the U–Pb-bracketed Norian bonebed envelope and is not a crown-Gymnophiona or global lissamphibian FAD.
+      confidence: medium
+      confidenceRationale: "Funcusvermis gilmorei: The primary source and concrete locator support the displayed sample interval. Confidence is medium because the envelope is explicitly specimen- or locality-scoped and not a global first or last appearance."
+      referenceLinks:
+        - referenceId: kligman-2023-funcusvermis
+          relation: supports
+          pages: 102–107
+          figure: Figure 1; Extended Data Figures 2–7
+          quoteLocator: Systematic palaeontology; locality and geochronology; phylogenetic analyses and origin discussion
+  claim-rationales.zh:
+    - Funcusvermis gilmorei：具名材料和已发表的系统或系统发育处理支持这一有限鉴定。置信度保持中等，因为画像不会把取样位置转化为直接祖先或普遍共识。
+    - Funcusvermis gilmorei：一手研究直接报告了具名地点与层位。置信度为中等，因为单一研究样本不能确定缺失、特有性或全球地理范围。
+    - Funcusvermis gilmorei：证据边界是明确的：保留沉积或解剖背景，同时不填补无依据的行为与生态位。中等置信度针对这一有限的否定性陈述，而非重建生态。
+    - Funcusvermis gilmorei：所引图件与描述直接记录了具名解剖观察。由于保存与标本取样限制了性状完整性和变异，置信度为中等而非普遍结论。
+    - Funcusvermis gilmorei：一手来源与具体定位符支持显示的样本区间。置信度为中等，因为该包络明确限定于标本或地点，而非全球首现或末现。
+  claim-statements.zh:
+    - Funcusvermis gilmorei 由至少 76 个个体的孤立构件代表，在分析中位于蚓螈形类干群并处于无足目冠群之外。
+    - Funcusvermis 样本来自美国亚利桑那州上 Blue Mesa 段 Thunderstorm Ridge 骨床；一个骨床不能确定全球分布。
+    - 离散骨骼只允许有限功能推断，不能直接确定食性、掘穴行为、运动性能或栖息地偏好。
+    - 三维保存的颌、椎骨和股骨构成用于将 Funcusvermis 置于蚓螈总群干支的性状组合。
+    - 显示的 223.036–218.043 Ma 区间是 U–Pb 约束的诺利期骨床包络，并非无足目冠群或现生两栖类全球首现。
+  ranges:
+    - entityId: funcusvermis
+      rangeKind: global-composite
+      taxonomicConcept: Funcusvermis gilmorei represented study sample
+      geographicScope: Thunderstorm Ridge, upper Blue Mesa Member, Chinle Formation, Arizona, United States
+      olderMa: 223.036
+      youngerMa: 218.043
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Norian U–Pb-bracketed formation window; isolated elements do not form one articulated individual and do not date crown Gymnophiona.
+      evidenceBasis: Named elements from at least seventy-six individuals occur in one U–Pb-bracketed Norian bonebed; the envelope is total-group and sample-scoped.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:funcusvermis:fossil-range
+      referenceLocators:
+        - referenceId: kligman-2023-funcusvermis
+          locator: 102–107; Figure 1; Extended Data Figures 2–7; Systematic palaeontology; locality and geochronology; phylogenetic analyses and origin discussion
+  pbdb-fossil-reader:
+    scientificName: Funcusvermis gilmorei
+    rank: species
+    sourceTaxonId: txn:471966
+    name:
+      en: Funcusvermis gilmorei
+      zh: Funcusvermis gilmorei
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-e7e272b11c
+            part: body
+          zh:
+            page: zh
+            section: s-6fafb82ac5
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-1d36a36561
+            part: body
+          zh:
+            page: zh
+            section: s-87abafc01a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-27e2bdc975
+            part: body
+          zh:
+            page: zh
+            section: s-feb38db8d5
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:471966; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: B. T. Kligman, B. M. Gee, and A. D. Marsh, S. J. Nesbitt, M. E. Smith, W. G. Parker, M. R. Stocker. 2023. Triassic stem caecilian supports dissorophoid origin of living amphibians. Nature 614:102-107
+    occurrenceEvidence:
+      - occurrenceId: occ:1626336
+        collectionId: col:215309
+        acceptedTaxonId: txn:471966
+        identifiedName: Funcusvermis gilmorei n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:84742
+        bibliography: B. T. Kligman, B. M. Gee, and A. D. Marsh, S. J. Nesbitt, M. E. Smith, W. G. Parker, M. R. Stocker. 2023. Triassic stem caecilian supports dissorophoid origin of living amphibians. Nature 614:102-107
+        locality:
+          countryCode: US
+          stateProvince: Arizona
+          county: null
+        stratigraphy:
+          group: null
+          formation: Chinle
+          member: Blue Mesa
+        olderAgeMa: 227.3
+        youngerAgeMa: 205.7
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-27e2bdc975
+            part: body
+          zh:
+            page: zh
+            section: s-feb38db8d5
+            part: body
+        sourceIds: []

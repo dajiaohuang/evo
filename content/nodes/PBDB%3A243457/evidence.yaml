@@ -1,0 +1,326 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Strudiella
+    commonName: Contested Late Devonian arthropod (originally interpreted as an insect)
+    commonNameZh: 有争议的晚泥盆世节肢动物（原被解释为昆虫）
+    rank: genus
+    taxonId: txn:243457
+    firstAppearance: 365
+    lastAppearance: 365
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:243457
+    scientificName: Strudiella
+    commonName: Contested Late Devonian arthropod (originally interpreted as an insect)
+    commonNameZh: 有争议的晚泥盆世节肢动物（原被解释为昆虫）
+    rank: genus
+    parentName: Early Hexapoda evidence route
+    extinct: true
+    geography:
+      - Strud locality
+      - Upper Devonian freshwater sediments, Belgium
+    overview:
+      page: en
+      section: s-1964a5bb87
+      part: body
+    overviewZh:
+      page: zh
+      section: s-30c7c502ee
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-b08b952545
+        part: body
+      habitat:
+        page: en
+        section: s-b254ea68bd
+        part: body
+      locomotion:
+        page: en
+        section: s-a248665579
+        part: body
+      bodySize:
+        page: en
+        section: s-00bf9d5af4
+        part: body
+      guild:
+        page: en
+        section: s-cd0c0156d0
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-dbb817795663b8
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-775c1b83144b2e
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-65baf1fd649468
+        part: body
+      guildZh:
+        page: zh
+        section: zh-e38d89c5118bb5
+        part: body
+    traits:
+      - page: en
+        section: s-30ec6cfa56
+        part: body
+      - page: en
+        section: s-565a639b31
+        part: body
+      - page: en
+        section: s-8b089f8075
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-b02dc281eb
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-f246738178
+      part: body
+    confidence: contested
+    referenceIds:
+      - garrouste-2012-strudiella
+      - hornschemeyer-2013-strudiella
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-1964a5bb87
+            part: title
+          zh:
+            page: zh
+            section: s-30c7c502ee
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1964a5bb87
+            part: body
+          zh:
+            page: zh
+            section: s-30c7c502ee
+            part: body
+        sourceIds:
+          - garrouste-2012-strudiella
+          - hornschemeyer-2013-strudiella
+      - id: preserved-anatomy
+        title:
+          en:
+            page: en
+            section: s-808e7308cb
+            part: title
+          zh:
+            page: zh
+            section: s-c465452bcb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-808e7308cb
+            part: body
+          zh:
+            page: zh
+            section: s-c465452bcb
+            part: body
+        sourceIds:
+          - garrouste-2012-strudiella
+          - hornschemeyer-2013-strudiella
+      - id: ecological-inference
+        title:
+          en:
+            page: en
+            section: s-699ec9a331
+            part: title
+          zh:
+            page: zh
+            section: s-06ce60f9da
+            part: title
+        text:
+          en:
+            page: en
+            section: s-699ec9a331
+            part: body
+          zh:
+            page: zh
+            section: s-06ce60f9da
+            part: body
+        sourceIds:
+          - garrouste-2012-strudiella
+          - hornschemeyer-2013-strudiella
+    readerSources:
+      - id: garrouste-2012-strudiella
+        referenceId: garrouste-2012-strudiella
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Garrouste et al. (2012), pp. 82?85, Figures 1?4: original diagnosis and specimen description, body and mandible anatomy, Strud locality and the original ecological interpretation."
+            zh: Garrouste ??2012??? 82?85 ??? 1?4???????????????????Strud ??????????
+      - id: hornschemeyer-2013-strudiella
+        referenceId: hornschemeyer-2013-strudiella
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "H?rnschemeyer et al. (2013), pp. E3?E4 and Figure 1: re-examination of the same specimen, rejection of the insect interpretation and caution about ecological claims."
+            zh: H?rnschemeyer ??2013??? E3?E4 ??? 1???????????????????????????
+    readerLimitations:
+      en:
+        page: en
+        section: s-a2a32058a8
+        part: body
+      zh:
+        page: zh
+        section: s-f11606f2e1
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-c2ae5db7c35394
+        part: body
+      - page: zh
+        section: zh-126e918c2c7560
+        part: body
+      - page: zh
+        section: zh-3dafa0bbf129ea
+        part: body
+  claims:
+    - subjectId: taxon:strudiella
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Strudiella devonica was originally described as a Late Devonian insect, but a later primary re-investigation rejected that identification; its placement is retained as a contested arthropod interpretation.
+      confidence: contested
+      confidenceRationale: The named specimen and original diagnosis are directly documented, while an independent re-examination disputes the insect characters; the atlas does not force either interpretation beyond the cited material.
+      referenceLinks:
+        - referenceId: garrouste-2012-strudiella
+          relation: supports
+          pages: 82–85
+          figure: Figures 1–4
+          quoteLocator: Diagnosis, systematic description and phylogenetic interpretation
+        - referenceId: hornschemeyer-2013-strudiella
+          relation: supports
+          pages: E3–E4; Figure 1
+          figure: Figure 1
+          quoteLocator: Re-investigation rejecting the insect interpretation
+    - subjectId: taxon:strudiella
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profiled Strudiella specimen comes from Upper Devonian freshwater sediments at the Strud locality in Belgium; this records one deposit and not a complete geographic distribution.
+      confidence: high
+      confidenceRationale: Both primary papers identify the Strud locality and its Upper Devonian freshwater setting. High confidence is limited to the named specimen and deposit, without inferring absence elsewhere.
+      referenceLinks:
+        - referenceId: garrouste-2012-strudiella
+          relation: supports
+          pages: 82–85
+          figure: Figures 1–2
+          quoteLocator: Strud locality, Upper Devonian freshwater sediments and specimen provenance
+        - referenceId: hornschemeyer-2013-strudiella
+          relation: supports
+          pages: E3–E4; Figure 1
+          figure: Figure 1
+          quoteLocator: Re-investigation of the Strud specimen and its locality context
+    - subjectId: taxon:strudiella
+      claimType: ecology
+      claimKind: scientific
+      statement: The original reconstruction inferred a terrestrial, probably omnivorous arthropod from the Strud mandible interpretation, but neither feeding behaviour nor a population-wide ecological guild is directly observed.
+      confidence: contested
+      confidenceRationale: The omnivorous orthopteroid-mandible and terrestrial interpretations occur in the original study, while the later re-examination disputes the key insect identification; ecological language therefore remains conditional.
+      referenceLinks:
+        - referenceId: garrouste-2012-strudiella
+          relation: supports
+          pages: 82–85
+          figure: Figures 2–4
+          quoteLocator: Terrestrial interpretation and orthopteroid mandible discussion
+        - referenceId: hornschemeyer-2013-strudiella
+          relation: supports
+          pages: E3–E4; Figure 1
+          figure: Figure 1
+          quoteLocator: Caution over ecological interpretation of the re-examined arthropod
+    - subjectId: taxon:strudiella
+      claimType: morphology
+      claimKind: scientific
+      statement: The nearly complete Strudiella specimen preserves a segmented body, antennae and legs; the proposed dicondylic mandibles and pterygote features are disputed after re-examination.
+      confidence: contested
+      confidenceRationale: Gross body preservation is documented in the primary description, but the diagnostic head structures that supported an insect assignment are the subject of a direct critical re-analysis.
+      referenceLinks:
+        - referenceId: garrouste-2012-strudiella
+          relation: supports
+          pages: 82–85
+          figure: Figures 1–3
+          quoteLocator: Specimen habitus, appendages and head description
+        - referenceId: hornschemeyer-2013-strudiella
+          relation: supports
+          pages: E3–E4; Figure 1
+          figure: Figure 1
+          quoteLocator: Critical re-examination of proposed insect characters
+    - subjectId: taxon:strudiella
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The approximately 365 Ma display point is the Strud specimen's Late Devonian deposit age, not a global Strudiella range, insect FAD or arthropod lineage origin date.
+      confidence: medium
+      confidenceRationale: The primary description places the specimen in the Late Devonian at about 365 Ma, but one disputed specimen cannot establish genus-wide or insect-wide temporal endpoints.
+      referenceLinks:
+        - referenceId: garrouste-2012-strudiella
+          relation: supports
+          pages: 82–85
+          figure: Figures 1–2
+          quoteLocator: Late Devonian age and Strud specimen context
+        - referenceId: hornschemeyer-2013-strudiella
+          relation: supports
+          pages: E3–E4; Figure 1
+          figure: Figure 1
+          quoteLocator: Re-investigation of the Late Devonian Strud specimen
+  claim-rationales.zh:
+    - 同一具名标本的原始昆虫诊断与后续再研究的否定结论均有一手文献支持，因此保留争议分类，不外推为可靠昆虫校准。
+    - 两项一手研究均明确指出 Strud 地点与上泥盆世淡水沉积背景；高置信度仅适用于该标本与沉积地点。
+    - 陆生和可能杂食的解释依赖原始颚部鉴定，而关键昆虫鉴定已被再研究质疑，因此生态字段保持条件性。
+    - 近乎完整躯体、触角和足可由图版直接核对，但支持昆虫归属的头部性状在一手再研究中存在明确争议。
+    - 约 365 Ma 数值仅转换晚泥盆世 Strud 沉积背景；单一且归属有争议的标本不能给出全球延限或节肢动物谱系起源。
+  claim-statements.zh:
+    - Strudiella devonica 最初被描述为晚泥盆世昆虫，但后续一手再研究否定了这一鉴定；其位置保留为有争议的节肢动物解释。
+    - 档案中的 Strudiella 标本来自比利时 Strud 地点的上泥盆世淡水沉积物；这只记录一个沉积地点，不是完整地理分布。
+    - 原始复原根据 Strud 颚部解释推断其为陆生、可能杂食的节肢动物，但摄食行为和种群层面的生态功能群均未被直接观察。
+    - 近乎完整的 Strudiella 标本保存了分节躯体、触角和足；所提出的双髁颚与有翅类特征在再研究后存在争议。
+    - 约 365 Ma 的显示点是 Strud 标本的晚泥盆世沉积年龄，不是 Strudiella 的全球延限、昆虫首现或节肢动物谱系起源时间。
+  ranges:
+    - entityId: strudiella
+      rangeKind: global-composite
+      taxonomicConcept: Strudiella devonica single contested Strud specimen
+      geographicScope: Strud locality, Upper Devonian freshwater sediments, Belgium
+      olderMa: 365
+      youngerMa: 365
+      status: available
+      uncertainty:
+        olderMa: 5
+        youngerMa: 5
+        note: The approximately 365 Ma point is a rounded Late Devonian deposit age for one disputed specimen, not a global range or insect first appearance.
+      evidenceBasis: The original description places the nearly complete specimen in Late Devonian freshwater sediments at Strud; a later re-investigation disputes its insect identity.
+      evidenceLevel: literature-synthesized
+      confidence: contested
+      claimIds:
+        - claim:event:strudiella-reassessment
+        - claim:taxon:strudiella:fossil-range
+      referenceLocators:
+        - referenceId: garrouste-2012-strudiella
+          locator: pp. 82–85; Figures 1–4; Late Devonian Strud locality and specimen description
+        - referenceId: hornschemeyer-2013-strudiella
+          locator: pp. E3–E4; re-investigation of the same Strud specimen

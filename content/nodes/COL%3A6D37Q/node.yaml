@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Diasporus anthrax
+  displayName: Diasporus anthrax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6D37Q
+  sourceIndexes:
+    - name:
+        en: Diasporus anthrax
+        zh: Diasporus anthrax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6D37Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/495
+            queryName: Diasporus anthrax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/259
+            queryName: Eleutherodactylus anthrax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/64
+            queryName: Pristimantis anthrax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-19a403efc4
+      - s-538582dab4
+      - s-7cba2cf536
+      - s-db3998a3b8
+      - s-856ec3c01a
+      - s-30bb8cc593
+      - s-ed0b3f162f
+      - s-2848744a60
+    zh:
+      - s-51c0f53990
+      - s-741d6f4d6e
+      - s-aa53ebf920
+      - s-6aa1dd3413
+      - s-e2f8857401
+      - s-9a110d432a
+      - s-833181ddc4
+      - s-d6b5232888

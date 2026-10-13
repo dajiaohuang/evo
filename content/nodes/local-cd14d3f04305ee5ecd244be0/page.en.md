@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-4c26500095}
+This record shows how TadpoleTraits files tadpoles under Physalaemus centralis. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Physalaemus centralis in Physalaemus and Leptodactylidae. In the literature table, rows 3011, 3012, 3013, 3014, 3015 list Physalaemus centralis in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-7fbacb5b18}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 5 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 37 (row 3011); 37, 40 (row 3012); 38 (row 3013); 39 (row 3014); 26-27 (row 3015). Sample size is entered by row (row 3011: n=1; row 3012: n=10; row 3013: n=1; row 3014: n=1; row 3015: n=4). These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

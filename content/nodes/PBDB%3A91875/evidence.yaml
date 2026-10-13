@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Percymygale vauclusensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Percymygale vauclusensis
+      en: Percymygale vauclusensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-19860c5fd7
+            part: body
+          en:
+            page: en
+            section: s-9ef0ba560c
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ab00cc01ee
+            part: body
+          en:
+            page: en
+            section: s-85f2430784
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3f3743aece
+            part: body
+          en:
+            page: en
+            section: s-0921dab496
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d3c553e084
+            part: body
+          en:
+            page: en
+            section: s-a4262a3ffe
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-69cc3f9e3c
+            part: body
+          en:
+            page: en
+            section: s-79042716cd
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Percymygale vauclusensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=91875&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:91875; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:91875
+          selectedOccurrenceIds:
+            - occ:391400
+            - occ:633519
+            - occ:633520
+            - occ:1357771
+            - occ:1357772
+            - occ:1357774
+            - occ:1357775
+            - occ:1357776
+            - occ:1357777
+            - occ:1357778
+            - occ:1357779
+            - occ:1357780
+            - occ:1357783
+            - occ:1357784
+            - occ:1357785
+            - occ:1357786
+            - occ:1367830
+            - occ:1436899
+          selectedCollectionIds:
+            - col:37518
+            - col:60281
+            - col:60214
+            - col:183517
+            - col:183518
+            - col:91491
+            - col:183520
+            - col:184460
+            - col:184461
+            - col:117977
+            - col:183366
+            - col:183365
+            - col:184462
+            - col:184463
+            - col:184464
+            - col:118196
+            - col:91490
+            - col:183364
+          sourceReferenceIds:
+            - ref:19601
+            - ref:62503
+            - ref:61807
+            - ref:68425
+          originalIdentificationMappings:
+            - occurrenceId: occ:391400
+              originalIdentifiedName: Myxomygale vauclusensis n. sp.
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:633519
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:633520
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357771
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357772
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357774
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357775
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357777
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357778
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357783
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357784
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357785
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1357786
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1367830
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+            - occurrenceId: occ:1436899
+              originalIdentifiedName: Myxomygale vauclusensis
+              acceptedName: Percymygale vauclusensis
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4280ca37af
+        part: body
+      en:
+        page: en
+        section: s-c55a1d42ae
+        part: body

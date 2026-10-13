@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus portoricensis
+  displayName: Eleutherodactylus portoricensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399MS
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus portoricensis
+        zh: Eleutherodactylus portoricensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399MS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/305
+            queryName: Eleutherodactylus portoricensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/381
+            queryName: Eleutherodactylus auriculatus portoricensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-39453fba0e
+      - s-c4dd469be8
+      - s-04ff065494
+      - s-7cc5e9e89e
+      - s-3cee1db2a4
+      - s-d6294084d9
+      - s-7e23a6d7bb
+      - s-809f381184
+      - s-6c97b3b51a
+      - s-6e54a57026
+      - s-0f763e9d47
+      - s-67285c8a50
+      - s-cf22252be0
+      - s-098b6e16cd
+      - s-ea0ac93946
+      - s-02ac098445
+      - s-c6535d38d9
+      - s-6adef21705
+    zh:
+      - s-04ee172153
+      - s-664cdc43ab
+      - s-7f6d699a1b
+      - s-5f79227e0f
+      - s-d7d96c0da3
+      - s-cbba2dfbec
+      - s-6b7f47f6a3
+      - s-844b8cc350
+      - s-9d52c21d96
+      - s-374d1b6420
+      - s-f1c0364fed
+      - s-1a1d248c32
+      - s-fb746f72a4
+      - s-e48abb9ab2
+      - s-4d9477157f
+      - s-67266ea7ce
+      - s-f739713dd7
+      - s-fd84488e84

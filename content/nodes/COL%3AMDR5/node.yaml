@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa oaxacensis
+  displayName: Bolitoglossa oaxacensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDR5
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa oaxacensis
+        zh: Bolitoglossa oaxacensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDR5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/164
+            queryName: Bolitoglossa oaxacensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-638c8c1049
+      - s-ce9d7dc2d7
+      - s-9866d5b97b
+      - s-20d3a8d579
+      - s-e2aa6972dc
+      - s-549a5f930e
+    zh:
+      - s-cb104ad37d
+      - s-cc25c362c3
+      - s-f2594eeeed
+      - s-497479d182
+      - s-8001f69fa5
+      - s-e37c9940a1

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus arndti
+  displayName: Dendropsophus arndti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S4G
+  sourceIndexes:
+    - name:
+        en: Dendropsophus arndti
+        zh: Dendropsophus arndti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S4G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/338
+            queryName: Dendropsophus arndti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-44738f233c
+      - s-7d7c16aebb
+      - s-71a3a4062b
+      - s-233f2477d2
+      - s-d664fc24ca
+      - s-45a1b06ea8
+      - s-4de596600b
+      - s-e03066879e
+      - s-f7a48a680d
+      - s-302db1474c
+      - s-a40e6bd2cb
+      - s-c19f926426
+      - s-9c337975fb
+      - s-68c8ae5a5c
+      - s-5c95a7cfde
+      - s-0680871318
+      - s-8ae5ae955c
+    zh:
+      - s-e9da37365c
+      - s-9d821b0a1a
+      - s-28dcdc0b63
+      - s-eab0f6a043
+      - s-0fd50fe041
+      - s-99e9b7f384
+      - s-f136725d83
+      - s-af15a5acaa
+      - s-014e73479f
+      - s-351cefc462
+      - s-49bfc95c46
+      - s-d40675fced
+      - s-dd2aef7619
+      - s-6085a321ee
+      - s-02ceba543d
+      - s-8b9af1d869
+      - s-92528683bc

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis
+  displayName: Gephyromantis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4N4F
+  sourceIndexes:
+    - name:
+        en: Gephyromantis
+        zh: Gephyromantis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4N4F
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/406
+            queryName: Gephyromantis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 52
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e1514fa4d4
+      - s-9e5704d9ca
+      - s-b0e114c958
+      - s-2d463a2c8c
+      - s-9d82c23b3c
+      - s-7b6bec3422
+    zh:
+      - s-e5fbecaf75
+      - s-ac8f9aeaaa
+      - s-987c1762c8
+      - s-6e7448c0b1
+      - s-d5562e332b
+      - s-2b2250a38d

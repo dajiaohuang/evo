@@ -1,0 +1,19 @@
+## Which fossil records this name represents {#s-d06b1dbcd7}
+Paracolobus mutiwa is accepted in the fixed PBDB mammalia working roster, with database parent Paracolobus. This guide uses 35 eligible species-level occurrence records from 35 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+
+## Begin with named collections and strata {#s-c2726d4e92}
+Collection West Turkana - Lomekwi I (Rift Valley), region code KE, stratum name Nachukui; database age bracket 2.58–1.8 Ma, early interval Gelasian. Collection East Turkana - Area 130 - Upper Burgi, region code KE, stratum name Koobi Fora; database age bracket 2.58–1.8 Ma, early interval Gelasian. Collection Omo - L.127, region code ET, stratum name Shungura; database age bracket 2.58–1.8 Ma, early interval Gelasian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+
+## Age bounds of these records {#s-810c55a69c}
+Selected occurrences have an outer age envelope of 5.333–1.8 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+One record supplying the older envelope bound is USNO - White Sands, occurrence occ:224308 (5.333–2.58 Ma); one supplying the younger bound is West Turkana - Lomekwi I, occurrence occ:221880 (2.58–1.8 Ma). These are collection-age bounds, not endpoints of species survival.
+
+## Read preservation setting separately from living habitat {#s-007d6ace1c}
+West Turkana - Lomekwi I has collection-environment label fluvial indet.. East Turkana - Area 130 - Upper Burgi has collection-environment label fluvial indet.. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+
+## Follow collection records back to references {#s-bc67e089cb}
+West Turkana - Lomekwi I carries database reference attribution Harris et al. (1988), identifier ref:4454. East Turkana - Area 130 - Upper Burgi carries database reference attribution Leakey (1982), identifier ref:4447. Omo - L.127 carries database reference attribution Leakey (1982), identifier ref:4447. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+
+## Evidence limits {#s-4cdc42d688}
+This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+

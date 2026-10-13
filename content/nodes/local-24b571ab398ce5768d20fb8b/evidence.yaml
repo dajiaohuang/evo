@@ -1,0 +1,349 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Dendropsophus giesleri
+    name:
+      en: Dendropsophus giesleri
+      zh: Dendropsophus giesleri
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-6219838dda
+            part: body
+          zh:
+            page: zh
+            section: s-44baff8b07
+            part: body
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-69daa53d6d
+            part: body
+          zh:
+            page: zh
+            section: s-fc185b629a
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1838, 1839; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Hylidae
+      genus: Dendropsophus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 1838
+        values:
+          - Santos, C. S., Alves, A. C. R. & De Carvalho E Silva, S. P. (1998). Description of the Tadpoles of Hyla giesleri and Hyla microps from Southeastern Brazil. Journal of Herpetology, 32, 61.
+          - Hyla giesleri
+          - Hylidae
+          - Dendropsophus
+          - Dendropsophus giesleri
+          - 11
+          - 33
+          - 17.9
+          - 0.71
+          - 6.8
+          - 0.35
+          - 3.4
+          - 0.16
+          - 3.9
+          - 0.17
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.3
+          - 0.05
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.1
+          - 0.09
+          - null
+          - null
+          - 1.2
+          - 0.06
+          - 4.2
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.9
+          - 0.25
+          - 0.2
+          - 0
+          - 0.07
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 1839
+        values:
+          - Santos, C. S., Alves, A. C. R. & De Carvalho E Silva, S. P. (1998). Description of the Tadpoles of Hyla giesleri and Hyla microps from Southeastern Brazil. Journal of Herpetology, 32, 61.
+          - Hyla giesleri
+          - Hylidae
+          - Dendropsophus
+          - Dendropsophus giesleri
+          - 6
+          - 33
+          - 22.5
+          - 0.96
+          - 7.9
+          - 0.36
+          - 4.3
+          - 0.14
+          - 4.6
+          - 0.08
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.7
+          - 0.07
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.5
+          - 0.11
+          - null
+          - null
+          - 1.2
+          - 0.08
+          - 4.8
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.9
+          - 0.14
+          - 0.2
+          - 0
+          - 0.07
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows: []
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies: []
+    selectedSourceRatios: []
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 34S5D
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

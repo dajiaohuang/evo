@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chaltenobatrachus
+  displayName: Chaltenobatrachus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62M2P
+  sourceIndexes:
+    - name:
+        en: Chaltenobatrachus
+        zh: Chaltenobatrachus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62M2P
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/287
+            queryName: Chaltenobatrachus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6364f399fa
+      - s-bdf3c28f27
+      - s-266c1b9d2d
+      - s-52566560cc
+      - s-7969a0a41c
+      - s-682b2075df
+      - s-ebab2430de
+      - s-fa2a366caa
+      - s-491e8aefb0
+      - s-d43b9e0fe2
+      - s-b8a9ab1eaf
+      - s-95d20d672b
+      - s-208c58ac5a
+      - s-b1ce126745
+    zh:
+      - s-5870501834
+      - s-c6c078db9d
+      - s-b5fc679e5e
+      - s-6d6a47777c
+      - s-ac93c5e139
+      - s-a580e93fe4
+      - s-cd8e6534ef
+      - s-f2f1d71202
+      - s-8862afd8f1
+      - s-cd07d88eab
+      - s-652bca7890
+      - s-1eec8327dd
+      - s-7b89daf881
+      - s-9309d7e534

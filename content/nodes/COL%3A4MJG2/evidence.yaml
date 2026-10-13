@@ -1,0 +1,393 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis kichwarum Elmer & Cannatella, 2008
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis kichwarum
+      zh: Pristimantis kichwarum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5cf3ac87f0
+            part: title
+          zh:
+            page: zh
+            section: s-446da0d5fc
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5cf3ac87f0
+            part: body
+          zh:
+            page: zh
+            section: s-446da0d5fc
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6be48ab230
+            part: title
+          zh:
+            page: zh
+            section: s-921cbe1425
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6be48ab230
+            part: body
+          zh:
+            page: zh
+            section: s-921cbe1425
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b102b8d3a4
+            part: title
+          zh:
+            page: zh
+            section: s-fbcc4aca82
+            part: title
+        sourceIds:
+          - amphibio
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b102b8d3a4
+            part: body
+          zh:
+            page: zh
+            section: s-fbcc4aca82
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-73fd92aa9d2c65989a6624d7831df7dc
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-2bd49a386c5185d6e1370ac9
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-fe9b37b5b5
+            part: title
+          zh:
+            page: zh
+            section: s-a3c3b28b45
+            part: title
+        sourceIds:
+          - primary-pmc13024529-4mjg2
+        text:
+          en:
+            page: en
+            section: s-fe9b37b5b5
+            part: body
+          zh:
+            page: zh
+            section: s-a3c3b28b45
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-770fdfacd2
+            part: title
+          zh:
+            page: zh
+            section: s-20e0707e64
+            part: title
+        sourceIds:
+          - primary-pmc13024529-4mjg2
+        text:
+          en:
+            page: en
+            section: s-770fdfacd2
+            part: body
+          zh:
+            page: zh
+            section: s-20e0707e64
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-1eb138661c
+            part: title
+          zh:
+            page: zh
+            section: s-47b0137abc
+            part: title
+        sourceIds:
+          - primary-pmc13024529-4mjg2
+        text:
+          en:
+            page: en
+            section: s-1eb138661c
+            part: body
+          zh:
+            page: zh
+            section: s-47b0137abc
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-63ae4d2fb2
+            part: title
+          zh:
+            page: zh
+            section: s-61ecba0c3e
+            part: title
+        sourceIds:
+          - primary-pmc13024529-4mjg2
+        text:
+          en:
+            page: en
+            section: s-63ae4d2fb2
+            part: body
+          zh:
+            page: zh
+            section: s-61ecba0c3e
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-8907b0790b
+            part: body
+          zh:
+            page: zh
+            section: s-23ccafc0b4
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis kichwarum
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MJG2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5690; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5693 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4611, 4612; Reference.csv rows 2150
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc13024529-4mjg2
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis kichwarum: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8040072987
+        part: body
+      zh:
+        page: zh
+        section: s-e538242757
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/biology15060451
+        referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+        sourceKey: primary-pmc13024529-4mjg2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13024529/article.xml
+        sourceConcept: 2013–2018 source-labelled Pristimantis kichwarum nominal row in2026paper; Pristimantis identification contradiction retained where relevant, not certified vouchers/concepts
+        evidenceRead: "Pristimantis kichwarum: XML Methods2.1–2.5, Results3.1–3.4, Tables1–2, Discussion and Conclusions read; all53amphibian Table2 rows extracted,48nominalspecies rows linked by exact names/twoexplicit frozen catalogue records. Raw individual matrices, photographs, original guide diagnoses, molecular identity, current assessments and fitted models not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Historical local survey records are distinct from a current provincial census
+              zh: 历史地方调查记录区别于当前全省普查
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-4mjg2
+            locator: PMC13024529 XML Table2 bodyrow27 Pristimantis kichwarum; Methods2.1–2.3; Results opening
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4348560880
+                part: body
+              zh:
+                page: zh
+                section: s-6fcc43da3e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A source-assigned risk category retains its assessment limits
+              zh: 来源分配风险类别保留评估限制
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-4mjg2
+            locator: PMC13024529 XML Table2 bodyrow27 LC/Total columns; Methods2.5; Results3.4; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-28a9a7078f
+                part: body
+              zh:
+                page: zh
+                section: s-521542c6c2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Coverage and community turnover do not prove a species trend
+              zh: 覆盖及群落更替不证明物种趋势
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-4mjg2
+            locator: PMC13024529 XML Methods2.2/2.4.1/2.4.3/2.4.5; Table1; Results3.1/3.3; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-26e4fbbc60
+                part: body
+              zh:
+                page: zh
+                section: s-da4bf32b37
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Species-labelled rows conflict with a genus-only identification statement
+              zh: 物种标签行与仅属级鉴定陈述冲突
+            referenceId: ref-af3708ef-5362-45c1-ac15-dcbf13094fce
+            sourceKey: primary-pmc13024529-4mjg2
+            locator: PMC13024529 XML Methods2.3; Table2 row27 and fivePristimantis sp.rows; Results3.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7566be14ef
+                part: body
+              zh:
+                page: zh
+                section: s-1fe53d53b8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

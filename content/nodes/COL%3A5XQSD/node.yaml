@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis avilapiresae
+  displayName: Chiasmocleis avilapiresae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5XQSD
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis avilapiresae
+        zh: Chiasmocleis avilapiresae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5XQSD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/239
+            queryName: Chiasmocleis avilapiresae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-92a3b16276
+      - s-b6c4f15b18
+      - s-386f7990d9
+      - s-74bdda30d1
+      - s-fbd7be5e02
+      - s-ff4a124d96
+      - s-78d97b0887
+      - s-7c8f6201cd
+      - s-87934e88a6
+      - s-6e6f4bf58b
+      - s-8deccfda21
+      - s-06dc3eb440
+      - s-071a158459
+      - s-08560f25c0
+      - s-f7e4d68cdb
+    zh:
+      - s-cb26afb80a
+      - s-ec6e450707
+      - s-8b930213ff
+      - s-b7c8d74a9d
+      - s-f09b6328f7
+      - s-0601e8a656
+      - s-47b1703396
+      - s-5979c08201
+      - s-2b45023930
+      - s-57bbef7297
+      - s-333fe6bcee
+      - s-cd7eb6d4f1
+      - s-d8d3161133
+      - s-772d67909c
+      - s-1647f1c599

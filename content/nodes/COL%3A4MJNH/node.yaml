@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis saltissimus
+  displayName: Pristimantis saltissimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJNH
+  sourceIndexes:
+    - name:
+        en: Pristimantis saltissimus
+        zh: Pristimantis saltissimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJNH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/72
+            queryName: Pristimantis saltissimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f3b7657aef
+      - s-50ec7dab5b
+      - s-3ecca5fc9b
+      - s-a60507380e
+      - s-7113fdbfd8
+      - s-de0bdecd52
+      - s-bbb7383498
+      - s-b58bd075b7
+      - s-243faa843e
+      - s-393d4dea8d
+    zh:
+      - s-508cb457b9
+      - s-0cfb59d610
+      - s-c29d88edb2
+      - s-2aa43dba20
+      - s-ad74338ca7
+      - s-f95ab851bd
+      - s-35ac06f705
+      - s-4c30bf1eda
+      - s-c4fb36ba54
+      - s-ab866e16a1

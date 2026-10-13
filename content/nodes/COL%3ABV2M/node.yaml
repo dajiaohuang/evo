@@ -1,0 +1,134 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates talamancae
+  displayName: Allobates talamancae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV2M
+  sourceIndexes:
+    - name:
+        en: Allobates talamancae
+        zh: Allobates talamancae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV2M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/174
+            queryName: Allobates talamancae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/153
+            queryName: Colostethus talamancae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/76
+            queryName: Dendrobates talamancae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/77
+            queryName: Hylaplesia talamancae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/78
+            queryName: Phyllobates talamancae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc8b2d05a4
+      - s-314bc0ead3
+      - s-df08d663ca
+      - s-dd61142a86
+      - s-14738a84f5
+      - s-5dadc28cea
+      - s-87fdfe3bac
+      - s-9c88202b13
+      - s-d2f820fed7
+      - s-f3fc144a96
+      - s-5e16b45410
+      - s-d27368716e
+      - s-07cda58b5d
+      - s-0635fa424e
+      - s-211a7d3eff
+      - s-066636899d
+      - s-58403cd85b
+      - s-e36cf9dc9f
+      - s-54d0c9a37e
+      - s-cf95c1f15c
+      - s-56da998b73
+      - s-427656eb21
+      - s-f4a37802e4
+      - s-c6195cb788
+      - s-360e1f8b1c
+      - s-877af9f388
+      - s-7f6d986386
+      - s-9225808d04
+      - s-0da64beb18
+      - s-3eb8e2f2d1
+      - s-6be1a1ba22
+      - s-8ae3f1a6f6
+      - s-514f6bdc36
+      - s-96f8a1aa71
+      - s-ad0cb6ed26
+    zh:
+      - s-27194faac5
+      - s-4084177714
+      - s-3bc5cef66e
+      - s-1b6fb2cdb4
+      - s-85b5b8a30f
+      - s-4047091903
+      - s-22a058d384
+      - s-bab0cfc090
+      - s-d66bd25a2a
+      - s-7418d4419a
+      - s-be7b60a1d7
+      - s-68b34f9783
+      - s-c81b5a7579
+      - s-bc28dd9fd5
+      - s-0838f13e8c
+      - s-be706fab45
+      - s-779ab11c71
+      - s-2bccc67ecc
+      - s-897a1e83ce
+      - s-aa305402b7
+      - s-14d97a2753
+      - s-e6a89f4a06
+      - s-77ba3a912f
+      - s-112a9b40d9
+      - s-b1c3501ddd
+      - s-c0fcb7e170
+      - s-5f1b6d9a1d
+      - s-bf3836a65b
+      - s-cf4291b94b
+      - s-bd0ec38bc6
+      - s-1999f3df5c
+      - s-8d50ca443b
+      - s-1e2c708b17
+      - s-c2bdf1b853
+      - s-3d913d777d

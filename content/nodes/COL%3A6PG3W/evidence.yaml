@@ -1,0 +1,367 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella purpuraventra Wang, Li, Li, Chen & Wang, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella purpuraventra
+      zh: Leptobrachella purpuraventra
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a509fe4d17
+            part: title
+          zh:
+            page: zh
+            section: s-d6fe6eb032
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a509fe4d17
+            part: body
+          zh:
+            page: zh
+            section: s-d6fe6eb032
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9d30b8a9d7
+            part: title
+          zh:
+            page: zh
+            section: s-776dc747e8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9d30b8a9d7
+            part: body
+          zh:
+            page: zh
+            section: s-776dc747e8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c5b4318565
+            part: title
+          zh:
+            page: zh
+            section: s-8eef629171
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-c5b4318565
+            part: body
+          zh:
+            page: zh
+            section: s-8eef629171
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-698346d75511577c36e273f8
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-000bc0355f
+            part: title
+          zh:
+            page: zh
+            section: s-b5ffc02ec8
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-000bc0355f
+            part: body
+          zh:
+            page: zh
+            section: s-b5ffc02ec8
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-43f3acb5c9
+            part: title
+          zh:
+            page: zh
+            section: s-0cf6be5b07
+            part: title
+        sourceIds:
+          - primary-pmc6536485-6pg3w
+        text:
+          en:
+            page: en
+            section: s-43f3acb5c9
+            part: body
+          zh:
+            page: zh
+            section: s-0cf6be5b07
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-d08769bfa0
+            part: title
+          zh:
+            page: zh
+            section: s-41de2c1aae
+            part: title
+        sourceIds:
+          - primary-pmc6536485-6pg3w
+        text:
+          en:
+            page: en
+            section: s-d08769bfa0
+            part: body
+          zh:
+            page: zh
+            section: s-41de2c1aae
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-58c3a44635
+            part: title
+          zh:
+            page: zh
+            section: s-a12835f8af
+            part: title
+        sourceIds:
+          - primary-pmc12627998-6pg3w
+        text:
+          en:
+            page: en
+            section: s-58c3a44635
+            part: body
+          zh:
+            page: zh
+            section: s-a12835f8af
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella purpuraventra
+          url: https://www.checklistbank.org/dataset/316115/taxon/6PG3W
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2619, 2620; Reference.csv rows 648
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc6536485-6pg3w
+        referenceId: ref-ebf2a1bd-584f-44a7-a0f0-8db5927b6b83
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella purpuraventra: Species distribution-and-habits paragraph; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12627998-6pg3w
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella purpuraventra: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0b2f37dea2
+        part: body
+      zh:
+        page: zh
+        section: s-da7441ae35
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-698346d75511577c36e273f8
+        scientificName: Leptobrachella purpuraventra
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.848.29181
+        referenceId: ref-ebf2a1bd-584f-44a7-a0f0-8db5927b6b83
+        sourceKey: primary-pmc6536485-6pg3w
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6536485/article.xml
+        sourceConcept: Leptobrachella purpuraventra
+        evidenceRead: "Leptobrachella purpuraventra: Species distribution-and-habits paragraph; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Two reported localities beside karst streams
+              zh: 喀斯特溪流旁的两个报告地点
+            referenceId: ref-ebf2a1bd-584f-44a7-a0f0-8db5927b6b83
+            sourceKey: primary-pmc6536485-6pg3w
+            locator: "Leptobrachella purpuraventra: Species distribution-and-habits paragraph; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7b4a554e08
+                part: body
+              zh:
+                page: zh
+                section: s-64828d28be
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: July males calling on leaves and rocks
+              zh: 七月在叶片与岩石处鸣叫的雄性
+            referenceId: ref-ebf2a1bd-584f-44a7-a0f0-8db5927b6b83
+            sourceKey: primary-pmc6536485-6pg3w
+            locator: "Leptobrachella purpuraventra: Species distribution-and-habits paragraph; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-14f59ff78d
+                part: body
+              zh:
+                page: zh
+                section: s-b52c6fd83c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-6pg3w
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella purpuraventra
+        evidenceRead: "Leptobrachella purpuraventra: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A selected trait in the kungfu comparison
+              zh: kungfu 比较中的所选性状
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-6pg3w
+            locator: PMC12627998 XML sec17 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1e02d209b2
+                part: body
+              zh:
+                page: zh
+                section: s-335bb5a028
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

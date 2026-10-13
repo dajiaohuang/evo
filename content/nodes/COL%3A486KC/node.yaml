@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus vicenteruedai
+  displayName: Nymphargus vicenteruedai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486KC
+  sourceIndexes:
+    - name:
+        en: Nymphargus vicenteruedai
+        zh: Nymphargus vicenteruedai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486KC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/455
+            queryName: Nymphargus vicenteruedai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc67f35ff5
+      - s-bf62d65de1
+      - s-7acfe1d8ab
+      - s-85eedefafd
+      - s-c93a534ffa
+      - s-6caee42715
+      - s-4614725f40
+      - s-f5e4a9331c
+      - s-19356aee31
+      - s-c1ecb9b4dd
+      - s-d6b21ed71d
+      - s-3cbc66e7c9
+      - s-afd6b784b3
+      - s-59252f4015
+      - s-303fdeb266
+    zh:
+      - s-ddc3842a5c
+      - s-bf70c11af9
+      - s-d43930381a
+      - s-c6c77bea1e
+      - s-1aeaf19c32
+      - s-6678e63e6a
+      - s-1fc700a56d
+      - s-d1b3a4568b
+      - s-b3062cd474
+      - s-6ab5f85ee9
+      - s-a3f2c76aad
+      - s-9e47cdcc37
+      - s-83dcb56b2f
+      - s-73be1ef183
+      - s-fe06952fe7

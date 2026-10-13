@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lyciasalamandra flavimembris
+  displayName: Lyciasalamandra flavimembris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72PFP
+  sourceIndexes:
+    - name:
+        en: Lyciasalamandra flavimembris
+        zh: Lyciasalamandra flavimembris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72PFP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/244
+            queryName: Lyciasalamandra flavimembris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/36
+            queryName: Mertensiella luschani flavimembris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/37
+            queryName: Lyciasalamandra flavimembris flavimembris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/38
+            queryName: Lyciasalamandra flavimembris ilgazi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3c6cff7344
+      - s-db42dcc671
+      - s-88bf35103b
+      - s-d74b3725b0
+      - s-1f1df60b79
+      - s-be03b5e6af
+      - s-69681cf142
+      - s-8ed538876e
+      - s-deee4b1131
+    zh:
+      - s-757bb8786d
+      - s-16a105174a
+      - s-dd9f0ef02f
+      - s-62f794be53
+      - s-f0e31cda65
+      - s-b4d8a23962
+      - s-1b57709c11
+      - s-e9293af1f2
+      - s-affbecc35c

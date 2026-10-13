@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Triturus
+  displayName: Triturus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/82N2
+  sourceIndexes:
+    - name:
+        en: Triturus
+        zh: Triturus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 82N2
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/311
+            queryName: Triturus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5140
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b38379f4a
+      - s-9132d394fd
+      - s-8fb394e07a
+      - s-be219530fa
+      - s-e24a3f3b21
+      - s-79dd02ebd2
+      - s-2ab05f72fd
+    zh:
+      - s-b50ba75e28
+      - s-c41171e4ef
+      - s-bb6bc70e3d
+      - s-6e5ef76188
+      - s-864396c81b
+      - s-40cd7e2833
+      - s-dcef6aceb6

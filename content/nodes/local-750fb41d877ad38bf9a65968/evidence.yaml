@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Phyllodytes melanomystax
+    name:
+      en: Phyllodytes melanomystax
+      zh: Phyllodytes melanomystax
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Phyllodytes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f8e384f76d
+            part: body
+          zh:
+            page: zh
+            section: s-ff5287c7ba
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c9daab00d6
+            part: body
+          zh:
+            page: zh
+            section: s-a099e8ca9e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4309, 4310; Reference.csv rows 3105
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4309
+        values:
+          - Hylidae
+          - Phyllodytes
+          - Phyllodytes melanomystax
+          - M
+          - "23.7"
+          - "7"
+          - "9"
+          - "2.3"
+          - "1.6"
+          - NA
+          - "3.9"
+          - NA
+          - NA
+          - "2.8"
+          - NA
+          - NA
+          - "6.3"
+          - NA
+          - NA
+          - "9.1"
+          - NA
+          - "11.5"
+          - "11.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4310
+        values:
+          - Hylidae
+          - Phyllodytes
+          - Phyllodytes melanomystax
+          - F
+          - "24.5"
+          - "7.1"
+          - "0.5"
+          - "0.2"
+          - "1.7"
+          - NA
+          - "3.9"
+          - NA
+          - NA
+          - "2.9"
+          - NA
+          - NA
+          - "6.5"
+          - NA
+          - NA
+          - "9.3"
+          - NA
+          - "11.7"
+          - "11.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3105
+        values:
+          - Anura
+          - Phyllodytes_melanomystax
+          - Caramaschi, U., da Silva, H., & Britto-Pereira, M. (1992). A new species of Phyllodytes (Anura, Hylidae) from southern Bahia, Brazil. Copeia, 1992, 187–191. https://doi.org/10.2307/1446550
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - EN
+      - HAL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4H7DS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

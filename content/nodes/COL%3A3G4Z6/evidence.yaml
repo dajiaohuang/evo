@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gladiolus sericeovillosus Hook.f.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3G4Z6, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3G4Z6; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3G4Z6
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3G4Z6
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000790332-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3G4Z6 / WFO wfo-0000790332
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18505_0
+        referenceId: ref-509bad8f-f571-82c4-af46-04f0017508fd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gladiolus sericeovillosus Hook.f. account; SANBI/WFO archive rows 90995 (Morphology), 92286 (Habitat), source identifier 18505.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gladiolus sericeovillosus Hook.f. account; SANBI/WFO archive rows 94479 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Perennial herb, geophyte, 0.5-1.1 m high; corm depressed-globose, tunics firm-papery to coriaceous; stem straight, erect, occasionally branched, pubescent. Leaves 5-7, ensiform to linear, sheaths villous to pubescent, 3-16 mm wide, margins, midribs and secondary veins thickened and hyaline. Bracts pale green, villous to pubescent or smooth, apex membranous, often twisted. Inflorescence a 12-20(-40)-flowered spike, distichous, erect; flowers greenish to cream-coloured, pale lilac or dull red; tepals sometimes minutely dotted; perianth tube obliquely funnel-shaped, widening or recurving outward near apex; tepals unequal, dorsal longest and hooded over stamens. Stamens exserted, yellow; pollen whitish. Ovary narrowly oblong; style arching over stamens. Flowering time Feb.-Apr. Capsule obovoid to oblong, apex 3-lobed, auriculate above.
+            textZh: Gladiolus sericeovillosus Hook.f. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18505_0
+            locator: "SANBI/WFO archive Morphology row 90995; source identifier 18505.0; cited publication: Bredenkamp, CL; Magwaza, ZL. 2019. Iridaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1821 - 1882. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Recognised by the markedly two-ranked spikes of rather dull coloured, often greenish flowers with inflated, pleated bracts. The narrow, fibrous leaves often form a distinct pseudostem, the blades arising well above the ground, with strongly thickened midrib, margins and one or more pairs of other veins. Plants flower in the late summer and autumn.
+            textZh: SANBI 条目提供了 Gladiolus sericeovillosus Hook.f. 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94479; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mostly in light woodland and open bushes. Sub-Escarpment Grassland, Sub-Escarpment Savanna.
+            textZh: 该 SANBI 区域物种条目记录的生境：Mostly in light woodland and open bushes. Sub-Escarpment Grassland, Sub-Escarpment Savanna.
+            sourceIds:
+              - sanbi_18505_0
+            locator: "SANBI/WFO archive Habitat row 92286; source identifier 18505.0; cited publication: Bredenkamp, CL; Magwaza, ZL. 2019. Iridaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1821 - 1882. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

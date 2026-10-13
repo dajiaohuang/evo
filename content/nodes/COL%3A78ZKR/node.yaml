@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Salamandra corsica
+  displayName: Salamandra corsica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78ZKR
+  sourceIndexes:
+    - name:
+        en: Salamandra corsica
+        zh: Salamandra corsica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78ZKR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/433
+            queryName: Salamandra corsica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/46
+            queryName: Salamandra moncherina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/47
+            queryName: Salamandra moncheriana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/45
+            queryName: Salamandra maculosa corsica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/46
+            queryName: Salamandra salamandra corsica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d1cd7f3fae
+      - s-1e2e899a5e
+      - s-9da5caed83
+      - s-1eb8cbf6a2
+      - s-a8a8ff8dda
+      - s-39394b773b
+      - s-c629ae3e6d
+      - s-ec2321ffd5
+      - s-c7141455fc
+      - s-09f0602132
+    zh:
+      - s-111869e97e
+      - s-ea41090f24
+      - s-38ea3ffb65
+      - s-a2d0501e78
+      - s-8e87a022a2
+      - s-52622f49b1
+      - s-34fbe4e2bc
+      - s-55769dbe0d
+      - s-f2d2f8fe57
+      - s-6b18c42dfb
